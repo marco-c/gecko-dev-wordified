@@ -177,7 +177,7 @@ include
 "
 js
 /
-SourceBufferHolder
+SourceText
 .
 h
 "
@@ -801,7 +801,10 @@ GetGlobalJSObject
 JS
 :
 :
-SourceBufferHolder
+SourceText
+<
+char16_t
+>
 srcBuf
 ;
 if

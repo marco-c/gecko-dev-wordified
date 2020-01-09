@@ -67,7 +67,7 @@ include
 "
 js
 /
-SourceBufferHolder
+SourceText
 .
 h
 "
@@ -167,7 +167,10 @@ obj
 JS
 :
 :
-SourceBufferHolder
+SourceText
+<
+char16_t
+>
 srcBuf
 ;
 CHECK
@@ -187,10 +190,10 @@ src
 JS
 :
 :
-SourceBufferHolder
+SourceOwnership
 :
 :
-NoOwnership
+Borrowed
 )
 )
 ;

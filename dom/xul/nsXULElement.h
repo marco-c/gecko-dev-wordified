@@ -116,7 +116,7 @@ include
 "
 js
 /
-SourceBufferHolder
+SourceText
 .
 h
 "
@@ -1164,10 +1164,7 @@ aTextLength
 JS
 :
 :
-SourceBufferHolder
-:
-:
-Ownership
+SourceOwnership
 aOwnership
 nsIURI
 *

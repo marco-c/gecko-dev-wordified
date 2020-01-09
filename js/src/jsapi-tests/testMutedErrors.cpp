@@ -77,7 +77,7 @@ include
 "
 js
 /
-SourceBufferHolder
+SourceText
 .
 h
 "
@@ -707,7 +707,10 @@ setFileAndLine
 JS
 :
 :
-SourceBufferHolder
+SourceText
+<
+char16_t
+>
 srcBuf
 ;
 CHECK
@@ -726,10 +729,10 @@ len
 JS
 :
 :
-SourceBufferHolder
+SourceOwnership
 :
 :
-NoOwnership
+Borrowed
 )
 )
 ;

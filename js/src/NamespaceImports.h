@@ -330,8 +330,13 @@ JSScript
 *
 >
 ;
+template
+<
+typename
+UnitT
+>
 class
-SourceBufferHolder
+SourceText
 ;
 class
 HandleValueArray

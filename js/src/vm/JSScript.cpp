@@ -352,7 +352,7 @@ include
 "
 js
 /
-SourceBufferHolder
+SourceText
 .
 h
 "
@@ -705,7 +705,7 @@ using
 JS
 :
 :
-SourceBufferHolder
+SourceText
 ;
 template
 <
@@ -12705,7 +12705,10 @@ setSourceCopy
 JSContext
 *
 cx
-SourceBufferHolder
+SourceText
+<
+char16_t
+>
 &
 srcBuf
 )
@@ -12772,7 +12775,7 @@ srcBuf
 return
 srcBuf
 .
-ownsChars
+ownsUnits
 (
 )
 ?
@@ -12780,7 +12783,7 @@ UniqueTwoByteChars
 (
 srcBuf
 .
-take
+takeChars
 (
 )
 )

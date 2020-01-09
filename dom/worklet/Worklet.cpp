@@ -241,7 +241,7 @@ include
 "
 js
 /
-SourceBufferHolder
+SourceText
 .
 h
 "
@@ -2027,7 +2027,10 @@ cx
 JS
 :
 :
-SourceBufferHolder
+SourceText
+<
+char16_t
+>
 buffer
 ;
 if

@@ -400,6 +400,14 @@ JS
 struct
 ScriptSourceInfo
 ;
+template
+<
+typename
+UnitT
+>
+class
+SourceText
+;
 }
 /
 /
@@ -4320,7 +4328,10 @@ cx
 JS
 :
 :
-SourceBufferHolder
+SourceText
+<
+char16_t
+>
 &
 srcBuf
 )

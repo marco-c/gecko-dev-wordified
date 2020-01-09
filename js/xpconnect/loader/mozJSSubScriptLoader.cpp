@@ -226,7 +226,7 @@ include
 "
 js
 /
-SourceBufferHolder
+SourceText
 .
 h
 "
@@ -1035,7 +1035,10 @@ false
 JS
 :
 :
-SourceBufferHolder
+SourceText
+<
+char16_t
+>
 srcBuf
 ;
 if

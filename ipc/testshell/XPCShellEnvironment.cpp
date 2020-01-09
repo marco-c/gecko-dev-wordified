@@ -204,7 +204,7 @@ include
 "
 js
 /
-SourceBufferHolder
+SourceText
 .
 h
 "
@@ -2843,7 +2843,10 @@ typein
 JS
 :
 :
-SourceBufferHolder
+SourceText
+<
+char16_t
+>
 srcBuf
 ;
 if
@@ -2867,10 +2870,10 @@ Length
 JS
 :
 :
-SourceBufferHolder
+SourceOwnership
 :
 :
-NoOwnership
+Borrowed
 )
 )
 {

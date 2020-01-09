@@ -521,7 +521,7 @@ include
 "
 js
 /
-SourceBufferHolder
+SourceText
 .
 h
 "
@@ -945,7 +945,7 @@ using
 JS
 :
 :
-SourceBufferHolder
+SourceText
 ;
 #
 ifdef
@@ -22872,7 +22872,10 @@ const
 ReadOnlyCompileOptions
 &
 options
-SourceBufferHolder
+SourceText
+<
+char16_t
+>
 &
 srcBuf
 JS

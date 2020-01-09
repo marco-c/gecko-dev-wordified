@@ -740,7 +740,7 @@ include
 "
 js
 /
-SourceBufferHolder
+SourceText
 .
 h
 "
@@ -8175,10 +8175,10 @@ unitsLength
 JS
 :
 :
-SourceBufferHolder
+SourceOwnership
 :
 :
-GiveOwnership
+TakeOwnership
 uri
 1
 this
