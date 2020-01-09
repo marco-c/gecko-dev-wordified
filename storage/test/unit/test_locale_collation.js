@@ -1900,4 +1900,8 @@ run
 }
 )
 ;
+cleanupLocaleTests
+(
+)
+;
 }
