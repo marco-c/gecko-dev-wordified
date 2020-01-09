@@ -12214,6 +12214,9 @@ LayoutRect
 clip_rect
 :
 LayoutRect
+scroll_offset
+:
+LayoutPoint
 )
 -
 >
@@ -12271,6 +12274,7 @@ ScrollSensitivity
 :
 :
 Script
+scroll_offset
 )
 ;
 WrSpaceAndClip
