@@ -61,7 +61,7 @@ MPL
 import
 {
 sortBreakpoints
-sortSelectedBreakpoints
+sortFormattedBreakpoints
 }
 from
 "
@@ -85,7 +85,7 @@ sorting
 it
 (
 "
-sortSelectedBreakpoints
+sortFormattedBreakpoints
 should
 sort
 by
@@ -102,11 +102,11 @@ column
 const
 sorted
 =
-sortSelectedBreakpoints
+sortFormattedBreakpoints
 (
 [
 {
-location
+selectedLocation
 :
 {
 line
@@ -118,7 +118,7 @@ column
 }
 }
 {
-location
+selectedLocation
 :
 {
 line
@@ -130,7 +130,7 @@ column
 }
 }
 {
-location
+selectedLocation
 :
 {
 line
@@ -142,7 +142,7 @@ undefined
 }
 }
 {
-location
+selectedLocation
 :
 {
 line
@@ -154,17 +154,6 @@ column
 }
 }
 ]
-{
-id
-:
-"
-foo
-/
-originalSource
--
-1
-"
-}
 )
 ;
 expect
@@ -174,7 +163,7 @@ sorted
 0
 ]
 .
-location
+selectedLocation
 .
 line
 )
@@ -191,7 +180,7 @@ sorted
 0
 ]
 .
-location
+selectedLocation
 .
 column
 )
@@ -208,7 +197,7 @@ sorted
 1
 ]
 .
-location
+selectedLocation
 .
 line
 )
@@ -225,7 +214,7 @@ sorted
 1
 ]
 .
-location
+selectedLocation
 .
 column
 )
@@ -242,7 +231,7 @@ sorted
 2
 ]
 .
-location
+selectedLocation
 .
 line
 )
@@ -259,7 +248,7 @@ sorted
 3
 ]
 .
-location
+selectedLocation
 .
 line
 )

@@ -112,7 +112,7 @@ Button
 "
 ;
 import
-AccessibleImage
+Svg
 from
 "
 .
@@ -120,7 +120,7 @@ from
 /
 shared
 /
-AccessibleImage
+Svg
 "
 ;
 import
@@ -1536,8 +1536,8 @@ tooltip
 }
 >
 <
-AccessibleImage
-className
+Svg
+name
 =
 {
 svgName
