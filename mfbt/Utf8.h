@@ -2606,9 +2606,15 @@ value
 .
 *
 /
+template
+<
+>
 inline
 bool
 IsAscii
+<
+Utf8Unit
+>
 (
 Utf8Unit
 aUnit
