@@ -1034,6 +1034,8 @@ const
 LayerMetricsWrapper
 &
 aLayer
+AsyncTransformComponents
+aComponents
 )
 {
 MOZ_ASSERT
@@ -1073,6 +1075,7 @@ AsyncPanZoomController
 :
 :
 eForCompositing
+aComponents
 )
 ;
 }
