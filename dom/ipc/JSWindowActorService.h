@@ -123,7 +123,7 @@ mozilla_dom_JSWindowActorService_h
 #
 include
 "
-nsClassHashtable
+nsRefPtrHashtable
 .
 h
 "
@@ -333,10 +333,10 @@ JSWindowActorService
 (
 )
 ;
-nsClassHashtable
+nsRefPtrHashtable
 <
 nsStringHashKey
-WindowActorOptions
+JSWindowActorProtocol
 >
 mDescriptors
 ;
