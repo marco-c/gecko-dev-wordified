@@ -2129,16 +2129,6 @@ aLimit
 )
 ;
 void
-TelemetryForEvictingStaleCookie
-(
-nsCookie
-*
-aEvicted
-int64_t
-oldestCookieTime
-)
-;
-void
 NotifyAccepted
 (
 nsIChannel
