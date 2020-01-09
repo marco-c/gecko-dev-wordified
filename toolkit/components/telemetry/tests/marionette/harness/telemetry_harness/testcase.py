@@ -651,6 +651,18 @@ overrideOfficialCheck
 '
 :
 True
+            
+'
+toolkit
+.
+telemetry
+.
+testing
+.
+disableFuzzingDelay
+'
+:
+True
         
 }
         
