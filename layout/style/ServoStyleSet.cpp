@@ -5199,12 +5199,7 @@ display
 computedValues
 -
 >
-ComputedData
-(
-)
--
->
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -5216,12 +5211,7 @@ content
 computedValues
 -
 >
-ComputedData
-(
-)
--
->
-GetStyleContent
+StyleContent
 (
 )
 ;
