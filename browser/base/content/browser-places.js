@@ -3584,10 +3584,6 @@ searchBookmarks
 (
 )
 {
-focusAndSelectUrlBar
-(
-)
-;
 gURLBar
 .
 typeRestrictToken

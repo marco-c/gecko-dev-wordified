@@ -938,10 +938,6 @@ searchTabs
 (
 )
 {
-focusAndSelectUrlBar
-(
-)
-;
 gURLBar
 .
 typeRestrictToken

@@ -28047,11 +28047,6 @@ textbox
 inputField
 )
 {
-focusAndSelectUrlBar
-(
-true
-)
-;
 /
 /
 Limit
