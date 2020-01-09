@@ -218,13 +218,7 @@ class
 nsXPCComponents_Interfaces
 ;
 class
-nsXPCComponents_InterfacesByID
-;
-class
 nsXPCComponents_Classes
-;
-class
-nsXPCComponents_ClassesByID
 ;
 class
 nsXPCComponents_Results
