@@ -23551,11 +23551,10 @@ ScriptSourceObject
 *
 sso
 =
-&
 script
 -
 >
-scriptSourceUnwrap
+sourceObject
 (
 )
 ;
@@ -23565,7 +23564,7 @@ value
 sso
 -
 >
-getPrivate
+unwrappedPrivate
 (
 )
 ;
@@ -23588,7 +23587,7 @@ MOZ_ASSERT
 sso
 -
 >
-introductionScript
+unwrappedIntroductionScript
 (
 )
 !
@@ -23601,7 +23600,7 @@ script
 sso
 -
 >
-introductionScript
+unwrappedIntroductionScript
 (
 )
 ;

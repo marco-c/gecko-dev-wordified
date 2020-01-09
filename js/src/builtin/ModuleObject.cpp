@@ -5567,10 +5567,11 @@ initReservedSlot
 ScriptSourceObjectSlot
 ObjectValue
 (
+*
 script
 -
 >
-scriptSourceUnwrap
+sourceObject
 (
 )
 )
