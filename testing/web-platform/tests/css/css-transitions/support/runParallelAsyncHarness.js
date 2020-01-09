@@ -639,16 +639,6 @@ name
 "
 +
 name
-{
-timeout
-:
-options
-.
-timeout
-|
-|
-60000
-}
 )
 ;
 }

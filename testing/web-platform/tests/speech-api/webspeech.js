@@ -78,11 +78,6 @@ should
 not
 fire
 '
-{
-timeout
-:
-TIMEOUT
-}
 )
 ;
 var
@@ -93,11 +88,6 @@ async_test
 '
 onstart
 '
-{
-timeout
-:
-TIMEOUT
-}
 )
 ;
 var
@@ -321,11 +311,6 @@ asyncTest
 async_test
 (
 name
-{
-timeout
-:
-TIMEOUT
-}
 )
 ;
 this
@@ -664,11 +649,6 @@ start
 /
 stop
 '
-{
-timeout
-:
-TIMEOUT
-}
 )
 ;
 this

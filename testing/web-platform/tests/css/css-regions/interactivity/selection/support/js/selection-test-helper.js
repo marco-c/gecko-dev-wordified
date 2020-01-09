@@ -115,11 +115,6 @@ Text
 was
 selected
 "
-{
-timeout
-:
-testTimeout
-}
 )
 ;
 selectionTest
