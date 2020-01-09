@@ -41,7 +41,7 @@ globals
 from
 mocks
 /
-head
+helper
 -
 client
 -
@@ -63,7 +63,7 @@ CHROME_URL_ROOT
 "
 mocks
 /
-head
+helper
 -
 client
 -
@@ -85,7 +85,7 @@ globals
 from
 mocks
 /
-head
+helper
 -
 runtime
 -
@@ -109,7 +109,7 @@ CHROME_URL_ROOT
 "
 mocks
 /
-head
+helper
 -
 runtime
 -

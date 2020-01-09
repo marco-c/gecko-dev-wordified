@@ -39,7 +39,7 @@ import
 globals
 -
 from
-head
+helper
 -
 mocks
 .
@@ -55,7 +55,7 @@ loadSubScript
 CHROME_URL_ROOT
 +
 "
-head
+helper
 -
 mocks
 .

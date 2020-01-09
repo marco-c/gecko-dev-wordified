@@ -27,12 +27,6 @@ zero
 /
 *
 /
-/
-*
-global
-sendAsyncMessage
-*
-/
 "
 use
 strict
@@ -45,7 +39,7 @@ import
 globals
 -
 from
-head
+helper
 -
 serviceworker
 .
@@ -61,7 +55,7 @@ loadSubScript
 CHROME_URL_ROOT
 +
 "
-head
+helper
 -
 serviceworker
 .
