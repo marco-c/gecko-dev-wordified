@@ -29412,7 +29412,7 @@ return
 aNode
 -
 >
-IsInUAWidget
+HasBeenInUAWidget
 (
 )
 ;
