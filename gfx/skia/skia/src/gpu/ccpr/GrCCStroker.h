@@ -70,7 +70,7 @@ GrCCStrokeGeometry
 h
 "
 class
-GrBuffer
+GrGpuBuffer
 ;
 class
 GrCCCoverageProcessor
@@ -751,7 +751,7 @@ fZeroTallies
 ;
 sk_sp
 <
-GrBuffer
+GrGpuBuffer
 >
 fInstanceBuffer
 ;

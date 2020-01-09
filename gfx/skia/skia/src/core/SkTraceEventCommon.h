@@ -564,6 +564,13 @@ trace
 .
 h
 >
+#
+include
+<
+stdarg
+.
+h
+>
 class
 SkAndroidFrameworkTraceUtil
 {

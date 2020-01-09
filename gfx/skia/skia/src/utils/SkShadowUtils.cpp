@@ -85,13 +85,6 @@ h
 #
 include
 "
-SkFlattenablePriv
-.
-h
-"
-#
-include
-"
 SkMaskFilter
 .
 h
@@ -281,7 +274,7 @@ GrFragmentProcessor
 >
 asFragmentProcessor
 (
-GrContext
+GrRecordingContext
 *
 const
 GrColorSpaceInfo
@@ -292,10 +285,6 @@ override
 ;
 #
 endif
-SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
-(
-SkGaussianColorFilter
-)
 protected
 :
 void
@@ -340,6 +329,10 @@ gauss_a_to_rgba
 }
 private
 :
+SK_FLATTENABLE_HOOKS
+(
+SkGaussianColorFilter
+)
 SkGaussianColorFilter
 (
 )
@@ -389,7 +382,7 @@ SkGaussianColorFilter
 :
 asFragmentProcessor
 (
-GrContext
+GrRecordingContext
 *
 const
 GrColorSpaceInfo

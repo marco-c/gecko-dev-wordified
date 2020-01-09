@@ -58,7 +58,7 @@ include
 "
 vk
 /
-GrVkDefines
+GrVkTypes
 .
 h
 "
@@ -157,7 +157,6 @@ bufferView
 void
 freeGPUData
 (
-const
 GrVkGpu
 *
 gpu

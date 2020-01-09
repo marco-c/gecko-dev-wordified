@@ -179,6 +179,7 @@ readPaint
 (
 &
 paint
+nullptr
 )
 ;
 return

@@ -1196,7 +1196,10 @@ FunctionClass
 kAbs
 kAtan
 kDeterminant
-kDerivative
+kDFdx
+kDFdy
+kFwidth
+kFMA
 kFract
 kInverse
 kInverseSqrt

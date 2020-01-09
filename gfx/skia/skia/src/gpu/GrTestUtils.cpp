@@ -50,6 +50,13 @@ h
 #
 include
 "
+GrContext
+.
+h
+"
+#
+include
+"
 GrProcessorUnitTest
 .
 h

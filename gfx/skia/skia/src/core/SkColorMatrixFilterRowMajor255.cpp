@@ -2611,7 +2611,7 @@ SkColorMatrixFilterRowMajor255
 :
 asFragmentProcessor
 (
-GrContext
+GrRecordingContext
 *
 const
 GrColorSpaceInfo

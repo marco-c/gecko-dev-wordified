@@ -161,15 +161,6 @@ h
 /
 /
 /
-SkTypefacePlayback
-:
-:
-~
-SkTypefacePlayback
-(
-)
-{
-}
 void
 SkTypefacePlayback
 :

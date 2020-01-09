@@ -57,10 +57,16 @@ h
 if
 GR_TEST_UTILS
 class
+GrContext_Base
+;
+class
 GrDrawOp
 ;
 class
 GrPaint
+;
+class
+GrRecordingContext
 ;
 class
 GrRenderTargetContext
@@ -141,10 +147,10 @@ paint
 SkRandom
 *
 random
-GrContext
+\
+GrRecordingContext
 *
 context
-\
 GrFSAAType
 fsaaType
 )
@@ -176,7 +182,7 @@ SkRandom
 *
 random
 \
-GrContext
+GrRecordingContext
 *
 context
 GrFSAAType
@@ -207,7 +213,7 @@ GrGetRandomStencil
 SkRandom
 *
 random
-GrContext
+GrContext_Base
 *
 )
 ;

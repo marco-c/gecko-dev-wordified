@@ -47,6 +47,13 @@ ssse3
 #
 include
 "
+SkBitmapProcState_opts
+.
+h
+"
+#
+include
+"
 SkBlitMask_opts
 .
 h
@@ -156,6 +163,13 @@ ssse3
 :
 :
 inverted_CMYK_to_BGR1
+;
+S32_alpha_D32_filter_DX
+=
+ssse3
+:
+:
+S32_alpha_D32_filter_DX
 ;
 }
 }

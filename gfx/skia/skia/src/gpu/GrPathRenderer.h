@@ -67,9 +67,6 @@ class
 GrClip
 ;
 class
-GrContext
-;
-class
 GrFixedClip
 ;
 class
@@ -77,6 +74,9 @@ GrHardClip
 ;
 class
 GrPaint
+;
+class
+GrRecordingContext
 ;
 class
 GrRenderTargetContext
@@ -513,12 +513,13 @@ fShape
 GrAAType
 fAAType
 ;
+bool
+fTargetIsWrappedVkSecondaryCB
+;
 /
 /
-These
-next
-two
-are
+This
+is
 only
 used
 by
@@ -646,7 +647,7 @@ args
 struct
 DrawPathArgs
 {
-GrContext
+GrRecordingContext
 *
 fContext
 ;
@@ -823,7 +824,7 @@ this
 For
 validation
 .
-GrContext
+GrRecordingContext
 *
 fContext
 ;

@@ -68,9 +68,6 @@ SkShader
 h
 "
 class
-SkPDFCanon
-;
-class
 SkPDFDocument
 ;
 class
@@ -213,7 +210,7 @@ drawn
 )
 *
 param
-surfceBBox
+surfaceBBox
 The
 bounding
 box
@@ -253,10 +250,7 @@ shader
 .
 *
 /
-sk_sp
-<
-SkPDFObject
->
+SkPDFIndirectReference
 SkPDFMakeShader
 (
 SkPDFDocument

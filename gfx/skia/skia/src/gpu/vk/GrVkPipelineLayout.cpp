@@ -60,7 +60,6 @@ GrVkPipelineLayout
 :
 freeGPUData
 (
-const
 GrVkGpu
 *
 gpu

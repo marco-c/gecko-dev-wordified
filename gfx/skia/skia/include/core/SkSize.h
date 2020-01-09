@@ -554,7 +554,7 @@ Returns
 true
 if
 either
-widht
+width
 or
 height
 are

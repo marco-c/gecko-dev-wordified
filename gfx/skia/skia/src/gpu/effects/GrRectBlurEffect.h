@@ -270,6 +270,13 @@ h
 #
 include
 "
+GrShaderCaps
+.
+h
+"
+#
+include
+"
 SkBlurMask
 .
 h

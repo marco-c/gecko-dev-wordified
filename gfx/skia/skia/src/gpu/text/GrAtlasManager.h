@@ -67,14 +67,11 @@ GrProxyProvider
 .
 h
 "
-class
-GrAtlasGlypCache
+struct
+GrGlyph
 ;
 class
 GrTextStrike
-;
-struct
-GrGlyph
 ;
 /
 /
@@ -245,7 +242,7 @@ GrAtlasManager
 (
 GrProxyProvider
 *
-GrGlyphCache
+GrStrikeCache
 *
 size_t
 maxTextureBytes
@@ -303,7 +300,7 @@ get_packed_glyph_image
 in
 /
 /
-GrGlyphCache
+GrStrikeCache
 .
 cpp
 GrMaskFormat
@@ -365,7 +362,7 @@ on
 the
 /
 /
-GrGlyphCache
+GrStrikeCache
 which
 use
 the
@@ -648,7 +645,7 @@ addToAtlas
 (
 GrResourceProvider
 *
-GrGlyphCache
+GrStrikeCache
 *
 GrTextStrike
 *
@@ -1143,12 +1140,12 @@ GrCaps
 >
 fCaps
 ;
-GrGlyphCache
+GrStrikeCache
 *
 fGlyphCache
 ;
 GrDrawOpAtlasConfig
-fAtlasConfigs
+fAtlasConfig
 ;
 typedef
 GrOnFlushCallbackObject

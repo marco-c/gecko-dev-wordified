@@ -564,9 +564,12 @@ half2
 _dstTexCoord
 =
 (
+half2
+(
 sk_FragCoord
 .
 xy
+)
 -
 %
 s

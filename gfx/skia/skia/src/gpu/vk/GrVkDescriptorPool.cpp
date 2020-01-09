@@ -268,7 +268,6 @@ GrVkDescriptorPool
 :
 freeGPUData
 (
-const
 GrVkGpu
 *
 gpu

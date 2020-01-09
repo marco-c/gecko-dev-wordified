@@ -219,7 +219,6 @@ w
 h
 )
 ;
-;
 SkCanvas
 *
 const

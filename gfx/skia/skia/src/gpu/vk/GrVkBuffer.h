@@ -51,15 +51,6 @@ include
 "
 vk
 /
-GrVkDefines
-.
-h
-"
-#
-include
-"
-vk
-/
 GrVkTypes
 .
 h
@@ -350,7 +341,6 @@ private
 void
 freeGPUData
 (
-const
 GrVkGpu
 *
 gpu

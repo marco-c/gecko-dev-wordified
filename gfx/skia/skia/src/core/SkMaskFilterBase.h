@@ -91,9 +91,6 @@ h
 class
 GrClip
 ;
-class
-GrContext
-;
 struct
 GrFPArgs
 ;
@@ -102,6 +99,9 @@ GrFragmentProcessor
 ;
 class
 GrPaint
+;
+class
+GrRecordingContext
 ;
 class
 GrRenderTarget
@@ -784,7 +784,7 @@ virtual
 bool
 directFilterMaskGPU
 (
-GrContext
+GrRecordingContext
 *
 GrRenderTargetContext
 *
@@ -880,7 +880,7 @@ GrTextureProxy
 >
 filterMaskGPU
 (
-GrContext
+GrRecordingContext
 *
 sk_sp
 <

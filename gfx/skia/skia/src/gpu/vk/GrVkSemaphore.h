@@ -321,7 +321,6 @@ private
 void
 freeGPUData
 (
-const
 GrVkGpu
 *
 gpu

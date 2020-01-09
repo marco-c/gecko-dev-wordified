@@ -256,7 +256,7 @@ tableB
 ;
 static
 void
-InitializeFlattenables
+RegisterFlattenables
 (
 )
 ;

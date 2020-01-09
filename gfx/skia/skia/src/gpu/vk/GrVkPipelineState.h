@@ -67,7 +67,7 @@ include
 "
 vk
 /
-GrVkDefines
+GrVkTypes
 .
 h
 "
@@ -231,8 +231,10 @@ uint32_t
 geometryUniformSize
 uint32_t
 fragmentUniformSize
-uint32_t
-numSamplers
+const
+UniformInfoArray
+&
+samplers
 std
 :
 :
@@ -279,6 +281,10 @@ setAndBindUniforms
 (
 GrVkGpu
 *
+const
+GrRenderTarget
+*
+GrSurfaceOrigin
 const
 GrPrimitiveProcessor
 &
@@ -365,7 +371,6 @@ numTextures
 void
 freeGPUResources
 (
-const
 GrVkGpu
 *
 gpu
@@ -665,8 +670,9 @@ void
 setRenderTargetState
 (
 const
-GrRenderTargetProxy
+GrRenderTarget
 *
+GrSurfaceOrigin
 )
 ;
 /
@@ -823,6 +829,15 @@ GrVkDescriptorSetManager
 :
 Handle
 fSamplerDSHandle
+;
+SkSTArray
+<
+4
+const
+GrVkSampler
+*
+>
+fImmutableSamplers
 ;
 std
 :

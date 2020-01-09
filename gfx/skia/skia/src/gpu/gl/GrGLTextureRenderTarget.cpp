@@ -123,6 +123,11 @@ GrGLRenderTarget
 (
 gpu
 desc
+texIDDesc
+.
+fInfo
+.
+fFormat
 rtIDDesc
 )
 {
@@ -161,6 +166,8 @@ GrGLRenderTarget
 IDDesc
 &
 rtIDDesc
+GrWrapCacheable
+cacheable
 GrMipMapsStatus
 mipMapsStatus
 )
@@ -181,6 +188,11 @@ GrGLRenderTarget
 (
 gpu
 desc
+texIDDesc
+.
+fInfo
+.
+fFormat
 rtIDDesc
 )
 {
@@ -189,6 +201,7 @@ this
 >
 registerWithCacheWrapped
 (
+cacheable
 )
 ;
 }
@@ -321,7 +334,7 @@ getContext
 )
 -
 >
-contextPriv
+priv
 (
 )
 .
@@ -365,6 +378,8 @@ GrGLRenderTarget
 IDDesc
 &
 rtIDDesc
+GrWrapCacheable
+cacheable
 GrMipMapsStatus
 mipMapsStatus
 )
@@ -382,6 +397,7 @@ gpu
 desc
 texIDDesc
 rtIDDesc
+cacheable
 mipMapsStatus
 )
 )

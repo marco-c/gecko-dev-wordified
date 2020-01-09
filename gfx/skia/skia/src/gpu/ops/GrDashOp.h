@@ -54,13 +54,13 @@ SkPathEffect
 h
 "
 class
-GrContext
-;
-class
 GrDrawOp
 ;
 class
 GrPaint
+;
+class
+GrRecordingContext
 ;
 class
 GrStyle
@@ -107,7 +107,7 @@ GrDrawOp
 >
 MakeDashLineOp
 (
-GrContext
+GrRecordingContext
 *
 GrPaint
 &

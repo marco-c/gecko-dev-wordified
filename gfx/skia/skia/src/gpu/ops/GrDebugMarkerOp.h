@@ -57,6 +57,9 @@ class
 GrOpFlushState
 ;
 class
+GrRecordingContext
+;
+class
 GrDebugMarkerOp
 final
 :
@@ -76,7 +79,7 @@ GrOp
 >
 Make
 (
-GrContext
+GrRecordingContext
 *
 GrRenderTargetProxy
 *
@@ -100,6 +103,9 @@ DebugMarker
 "
 ;
 }
+#
+ifdef
+SK_DEBUG
 SkString
 dumpInfo
 (
@@ -126,6 +132,8 @@ return
 string
 ;
 }
+#
+endif
 private
 :
 friend
@@ -197,7 +205,10 @@ onExecute
 (
 GrOpFlushState
 *
-state
+const
+SkRect
+&
+chainBounds
 )
 override
 ;

@@ -101,8 +101,16 @@ indices
 ]
 SkYUVColorSpace
 yuvColorSpace
+GrSamplerState
+:
+:
+Filter
+filterMode
 )
 ;
+#
+ifdef
+SK_DEBUG
 SkString
 dumpInfo
 (
@@ -110,6 +118,8 @@ dumpInfo
 const
 override
 ;
+#
+endif
 const
 SkMatrix44
 &
@@ -305,8 +315,8 @@ fSamplerCoordTransforms
 [
 i
 ]
-.
-reset
+=
+GrCoordTransform
 (
 fSamplerTransforms
 [
@@ -320,7 +330,6 @@ i
 proxy
 (
 )
-true
 )
 ;
 }

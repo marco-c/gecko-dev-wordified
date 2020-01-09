@@ -77,6 +77,13 @@ h
 #
 include
 "
+GrRenderTargetProxy
+.
+h
+"
+#
+include
+"
 SkStream
 .
 h
@@ -329,7 +336,6 @@ fill
 fallthrough
 *
 /
-;
 case
 GrStencilOp
 :
@@ -459,7 +465,6 @@ fPreallocatedPathCount
 )
 ;
 }
-;
 fPreallocatedPathCount
 =
 0
@@ -693,7 +698,6 @@ rt
 args
 .
 fUseHWAA
-true
 )
 ;
 gpu
@@ -824,6 +828,11 @@ GrGLPathRendering
 :
 onDrawPath
 (
+GrRenderTarget
+*
+renderTarget
+GrSurfaceOrigin
+origin
 const
 GrPrimitiveProcessor
 &
@@ -862,6 +871,8 @@ gpu
 >
 flushGLState
 (
+renderTarget
+origin
 primProc
 pipeline
 &

@@ -46,6 +46,15 @@ GrVkBuffer
 .
 h
 "
+#
+include
+"
+vk
+/
+GrVkTypes
+.
+h
+"
 class
 GrVkGpu
 ;

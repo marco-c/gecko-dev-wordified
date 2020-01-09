@@ -214,14 +214,6 @@ SkPMColor
 c
 )
 ;
-static
-uint32_t
-UnPreMultiplyPreservingByteOrder
-(
-SkPMColor
-c
-)
-;
 private
 :
 static

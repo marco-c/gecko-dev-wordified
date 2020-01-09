@@ -114,6 +114,7 @@ _ex
 _msg
 _ret
 )
+do
 {
 \
 HRESULT
@@ -145,6 +146,10 @@ _ret
 }
 \
 }
+while
+(
+false
+)
 /
 /
 {

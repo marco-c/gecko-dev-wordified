@@ -163,6 +163,8 @@ GrGLGpu
 const
 GrSurfaceDesc
 &
+GrGLenum
+format
 const
 IDDesc
 &
@@ -339,6 +341,13 @@ getBackendRenderTarget
 const
 override
 ;
+GrBackendFormat
+backendFormat
+(
+)
+const
+override
+;
 bool
 canAttemptStencilAttachment
 (
@@ -389,6 +398,8 @@ GrGLGpu
 const
 GrSurfaceDesc
 &
+GrGLenum
+format
 const
 IDDesc
 &
@@ -400,6 +411,8 @@ init
 const
 GrSurfaceDesc
 &
+GrGLenum
+format
 const
 IDDesc
 &
@@ -445,6 +458,8 @@ GrGLGpu
 const
 GrSurfaceDesc
 &
+GrGLenum
+format
 const
 IDDesc
 &
@@ -519,6 +534,9 @@ fTexFBOID
 ;
 GrGLuint
 fMSColorRenderbufferID
+;
+GrGLenum
+fRTFormat
 ;
 GrBackendObjectOwnership
 fRTFBOOwnership

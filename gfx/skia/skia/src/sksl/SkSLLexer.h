@@ -366,6 +366,10 @@ RETURN
 RETURN
 #
 undef
+NULL_LITERAL
+NULL_LITERAL
+#
+undef
 IN
 IN
 #
@@ -432,6 +436,18 @@ BUFFER
 undef
 HASSIDEEFFECTS
 HASSIDEEFFECTS
+#
+undef
+PLS
+PLS
+#
+undef
+PLSIN
+PLSIN
+#
+undef
+PLSOUT
+PLSOUT
 #
 undef
 STRUCT
@@ -793,5 +809,6 @@ fOffset
 /
 /
 namespace
+SkSL
 #
 endif

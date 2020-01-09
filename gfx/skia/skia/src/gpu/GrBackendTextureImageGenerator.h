@@ -343,7 +343,7 @@ GrTextureProxy
 >
 onGenerateTexture
 (
-GrContext
+GrRecordingContext
 *
 const
 SkImageInfo
@@ -577,7 +577,7 @@ the
 backend
 texture
 .
-GrReleaseProcHelper
+GrRefCntedCallback
 *
 fBorrowingContextReleaseProc
 ;

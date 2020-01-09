@@ -3057,7 +3057,7 @@ next
 }
 #
 ifdef
-SK_BUILD_FOR_ANDROID
+SK_BUILD_FOR_ANDROID_FRAMEWORK
 void
 Sk3DView
 :
@@ -3137,6 +3137,7 @@ Sk3DView
 getCameraLocationX
 (
 )
+const
 {
 return
 fCamera
@@ -3157,6 +3158,7 @@ Sk3DView
 getCameraLocationY
 (
 )
+const
 {
 return
 fCamera
@@ -3177,6 +3179,7 @@ Sk3DView
 getCameraLocationZ
 (
 )
+const
 {
 return
 fCamera

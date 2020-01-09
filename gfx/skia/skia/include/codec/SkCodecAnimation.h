@@ -214,7 +214,6 @@ kRestorePrevious
 }
 ;
 }
-;
 #
 endif
 /

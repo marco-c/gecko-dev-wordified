@@ -105,7 +105,6 @@ GrVkDescriptorSet
 :
 freeGPUData
 (
-const
 GrVkGpu
 *
 gpu

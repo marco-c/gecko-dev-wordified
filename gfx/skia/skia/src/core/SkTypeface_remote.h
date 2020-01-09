@@ -137,7 +137,7 @@ manager
 void
 initCache
 (
-SkGlyphCache
+SkStrike
 *
 SkStrikeCache
 *
@@ -200,10 +200,7 @@ override
 void
 generateFontMetrics
 (
-SkPaint
-:
-:
-FontMetrics
+SkFontMetrics
 *
 metrics
 )
@@ -227,7 +224,7 @@ DiscardableHandleManager
 >
 fDiscardableManager
 ;
-SkGlyphCache
+SkStrike
 *
 fCache
 =
@@ -362,8 +359,13 @@ return
 0
 ;
 }
+std
+:
+:
+unique_ptr
+<
 SkStreamAsset
-*
+>
 onOpenStream
 (
 int

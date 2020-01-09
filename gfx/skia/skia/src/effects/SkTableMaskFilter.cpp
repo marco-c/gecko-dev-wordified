@@ -114,10 +114,6 @@ SkIPoint
 const
 override
 ;
-SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
-(
-SkTableMaskFilterImpl
-)
 protected
 :
 ~
@@ -137,6 +133,10 @@ override
 ;
 private
 :
+SK_FLATTENABLE_HOOKS
+(
+SkTableMaskFilterImpl
+)
 SkTableMaskFilterImpl
 (
 )

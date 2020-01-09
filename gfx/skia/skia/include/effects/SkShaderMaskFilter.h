@@ -73,7 +73,7 @@ private
 :
 static
 void
-InitializeFlattenables
+RegisterFlattenables
 (
 )
 ;

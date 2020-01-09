@@ -59,7 +59,7 @@ SkRefCnt
 h
 "
 class
-GrContext
+GrColorSpaceXform
 ;
 class
 GrDrawOp
@@ -71,10 +71,10 @@ class
 SkLatticeIter
 ;
 class
-GrTextureProxy
+GrRecordingContext
 ;
 class
-GrColorSpaceXform
+GrTextureProxy
 ;
 class
 SkMatrix
@@ -94,7 +94,7 @@ GrDrawOp
 >
 MakeNonAA
 (
-GrContext
+GrRecordingContext
 *
 GrPaint
 &

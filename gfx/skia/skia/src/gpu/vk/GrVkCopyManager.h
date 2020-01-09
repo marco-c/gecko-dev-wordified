@@ -58,7 +58,7 @@ include
 "
 vk
 /
-GrVkDefines
+GrVkTypes
 .
 h
 "

@@ -3118,9 +3118,6 @@ AddIfCollapsed
 ;
 break
 ;
-;
-break
-;
 case
 kAddIfMissingCoin_Glitch
 :

@@ -1087,7 +1087,7 @@ _MSC_VER
 #
 include
 <
-intrin
+stdlib
 .
 h
 >

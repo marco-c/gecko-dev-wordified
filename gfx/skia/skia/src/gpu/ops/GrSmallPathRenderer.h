@@ -89,7 +89,7 @@ SkTDynamicHash
 h
 "
 class
-GrContext
+GrRecordingContext
 ;
 class
 ShapeData
@@ -268,7 +268,7 @@ GrDrawOp
 >
 createOp_TestingOnly
 (
-GrContext
+GrRecordingContext
 *
 GrPaint
 &

@@ -56,6 +56,9 @@ class
 GrPaint
 ;
 class
+GrRecordingContext
+;
+class
 GrRenderTarget
 ;
 class
@@ -116,7 +119,7 @@ present
 void
 drawShapeWithMaskFilter
 (
-GrContext
+GrRecordingContext
 *
 GrRenderTargetContext
 *
@@ -168,7 +171,7 @@ return
 void
 drawShapeWithMaskFilter
 (
-GrContext
+GrRecordingContext
 *
 GrRenderTargetContext
 *

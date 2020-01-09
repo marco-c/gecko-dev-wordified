@@ -181,7 +181,7 @@ beginning
 of
 the
 stream
-alowing
+allowing
 a
 client
 to

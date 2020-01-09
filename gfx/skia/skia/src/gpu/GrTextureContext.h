@@ -231,9 +231,7 @@ protected
 :
 GrTextureContext
 (
-GrContext
-*
-GrDrawingManager
+GrRecordingContext
 *
 sk_sp
 <
@@ -243,10 +241,6 @@ sk_sp
 <
 SkColorSpace
 >
-GrAuditTrail
-*
-GrSingleOwner
-*
 )
 ;
 SkDEBUGCODE

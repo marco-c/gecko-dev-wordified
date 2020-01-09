@@ -103,10 +103,6 @@ alloc
 const
 override
 ;
-SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
-(
-SkNormalFlatSourceImpl
-)
 protected
 :
 void
@@ -121,6 +117,10 @@ override
 ;
 private
 :
+SK_FLATTENABLE_HOOKS
+(
+SkNormalFlatSourceImpl
+)
 class
 Provider
 :

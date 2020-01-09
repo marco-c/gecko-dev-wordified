@@ -42,7 +42,7 @@ SkPaintDefaults_DEFINED
 #
 include
 "
-SkPaint
+SkFontTypes
 .
 h
 "
@@ -89,15 +89,6 @@ directly
 /
 #
 ifndef
-SkPaintDefaults_Flags
-#
-define
-SkPaintDefaults_Flags
-0
-#
-endif
-#
-ifndef
 SkPaintDefaults_TextSize
 #
 define
@@ -114,10 +105,7 @@ SkPaintDefaults_Hinting
 #
 define
 SkPaintDefaults_Hinting
-SkPaint
-:
-:
-kNormal_Hinting
+kNormal_SkFontHinting
 #
 endif
 #

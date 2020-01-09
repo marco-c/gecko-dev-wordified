@@ -223,9 +223,6 @@ char
 *
 GrGLSLTypeString
 (
-const
-GrShaderCaps
-*
 GrSLType
 )
 ;

@@ -72,6 +72,9 @@ h
 #
 endif
 class
+GrBackendFormat
+;
+class
 GrContext
 ;
 class
@@ -377,8 +380,12 @@ SkSpecialSurface
 >
 MakeRenderTarget
 (
-GrContext
+GrRecordingContext
 *
+const
+GrBackendFormat
+&
+format
 int
 width
 int

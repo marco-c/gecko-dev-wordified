@@ -302,6 +302,10 @@ this
 >
 registerWithCacheWrapped
 (
+GrWrapCacheable
+:
+:
+kNo
 )
 ;
 }
@@ -325,7 +329,6 @@ unref
 (
 static_cast
 <
-const
 GrVkGpu
 *
 >
@@ -394,7 +397,6 @@ Resource
 :
 freeGPUData
 (
-const
 GrVkGpu
 *
 gpu

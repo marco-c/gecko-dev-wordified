@@ -280,12 +280,6 @@ VertexAllocator
 *
 bool
 antialias
-const
-GrColor
-&
-color
-bool
-canTweakAlphaForCoverage
 bool
 *
 isLinear

@@ -144,6 +144,10 @@ SkImage
 >
 onNewImageSnapshot
 (
+const
+SkIRect
+*
+subset
 )
 override
 ;
@@ -176,6 +180,10 @@ override
 GrSemaphoresSubmitted
 onFlush
 (
+BackendSurfaceAccess
+access
+FlushFlags
+flags
 int
 numSemaphores
 GrBackendSemaphore

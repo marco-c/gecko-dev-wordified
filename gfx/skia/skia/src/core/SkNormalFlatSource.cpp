@@ -207,7 +207,7 @@ codeAppendf
 %
 s
 =
-float4
+half4
 (
 0
 0

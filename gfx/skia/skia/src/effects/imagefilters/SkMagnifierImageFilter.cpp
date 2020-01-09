@@ -66,13 +66,6 @@ h
 #
 include
 "
-SkFlattenablePriv
-.
-h
-"
-#
-include
-"
 SkImageFilterPriv
 .
 h
@@ -788,8 +781,7 @@ isTextureBacked
 )
 )
 {
-GrContext
-*
+auto
 context
 =
 source

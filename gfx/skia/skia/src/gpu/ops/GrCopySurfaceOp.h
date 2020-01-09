@@ -54,6 +54,9 @@ GrOpFlushState
 h
 "
 class
+GrRecordingContext
+;
+class
 GrCopySurfaceOp
 final
 :
@@ -73,7 +76,7 @@ GrOp
 >
 Make
 (
-GrContext
+GrRecordingContext
 *
 GrSurfaceProxy
 *
@@ -113,6 +116,7 @@ const
 VisitProxyFunc
 &
 func
+VisitorType
 )
 const
 override
@@ -127,6 +131,9 @@ get
 )
 ;
 }
+#
+ifdef
+SK_DEBUG
 SkString
 dumpInfo
 (
@@ -235,6 +242,8 @@ return
 string
 ;
 }
+#
+endif
 private
 :
 friend
@@ -351,7 +360,10 @@ onExecute
 (
 GrOpFlushState
 *
-state
+const
+SkRect
+&
+chainBounds
 )
 override
 ;

@@ -285,7 +285,7 @@ virtual
 bool
 apply
 (
-GrContext
+GrRecordingContext
 *
 GrRenderTargetContext
 *
@@ -1287,7 +1287,7 @@ private
 bool
 apply
 (
-GrContext
+GrRecordingContext
 *
 GrRenderTargetContext
 *

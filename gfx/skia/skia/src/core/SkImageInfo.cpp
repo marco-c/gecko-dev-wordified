@@ -134,6 +134,12 @@ return
 1
 ;
 case
+kRGBA_F16Norm_SkColorType
+:
+return
+8
+;
+case
 kRGBA_F16_SkColorType
 :
 return
@@ -538,6 +544,9 @@ kBGRA_8888_SkColorType
 :
 case
 kRGBA_1010102_SkColorType
+:
+case
+kRGBA_F16Norm_SkColorType
 :
 case
 kRGBA_F16_SkColorType

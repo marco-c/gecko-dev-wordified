@@ -73,7 +73,7 @@ include
 "
 text
 /
-GrGlyphCache
+GrStrikeCache
 .
 h
 "
@@ -315,7 +315,7 @@ atlasManager
 fGrContext
 -
 >
-contextPriv
+priv
 (
 )
 .
@@ -365,7 +365,7 @@ fTextureHandle
 ;
 }
 }
-GrGlyphCache
+GrStrikeCache
 *
 SkInternalAtlasTextContext
 :
@@ -378,11 +378,11 @@ return
 fGrContext
 -
 >
-contextPriv
+priv
 (
 )
 .
-getGlyphCache
+getGrStrikeCache
 (
 )
 ;
@@ -400,7 +400,7 @@ return
 fGrContext
 -
 >
-contextPriv
+priv
 (
 )
 .
@@ -676,7 +676,7 @@ atlasManager
 fGrContext
 -
 >
-contextPriv
+priv
 (
 )
 .

@@ -1178,11 +1178,8 @@ end
 )
 {
 return
-next_fail
-(
-ptr
-end
-)
+-
+1
 ;
 }
 const

@@ -283,7 +283,7 @@ GrFragmentProcessor
 public
 :
 const
-GrColor4f
+SkPMColor4f
 &
 start
 (
@@ -295,7 +295,7 @@ fStart
 ;
 }
 const
-GrColor4f
+SkPMColor4f
 &
 end
 (
@@ -316,9 +316,9 @@ GrFragmentProcessor
 >
 Make
 (
-GrColor4f
+SkPMColor4f
 start
-GrColor4f
+SkPMColor4f
 end
 )
 {
@@ -380,9 +380,9 @@ private
 :
 GrSingleIntervalGradientColorizer
 (
-GrColor4f
+SkPMColor4f
 start
-GrColor4f
+SkPMColor4f
 end
 )
 :
@@ -432,10 +432,10 @@ const
 override
 ;
 GR_DECLARE_FRAGMENT_PROCESSOR_TEST
-GrColor4f
+SkPMColor4f
 fStart
 ;
-GrColor4f
+SkPMColor4f
 fEnd
 ;
 typedef

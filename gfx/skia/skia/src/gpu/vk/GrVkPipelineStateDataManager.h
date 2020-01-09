@@ -60,6 +60,15 @@ include
 "
 vk
 /
+GrVkTypes
+.
+h
+"
+#
+include
+"
+vk
+/
 GrVkUniformHandler
 .
 h

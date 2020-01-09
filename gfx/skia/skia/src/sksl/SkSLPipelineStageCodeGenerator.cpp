@@ -246,6 +246,11 @@ length
 )
 ;
 }
+va_end
+(
+copy
+)
+;
 }
 void
 PipelineStageCodeGenerator

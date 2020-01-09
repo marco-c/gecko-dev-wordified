@@ -44,7 +44,7 @@ SkMask_DEFINED
 #
 include
 "
-SkColorPriv
+SkColorData
 .
 h
 "

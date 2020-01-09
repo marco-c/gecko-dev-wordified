@@ -1128,7 +1128,7 @@ kYes
 kError
 }
 ;
-void
+bool
 addOpp
 (
 SkOpSpanBase
@@ -1713,7 +1713,7 @@ SkOpSpan
 span
 )
 ;
-void
+bool
 mergeMatches
 (
 SkOpSpanBase

@@ -118,9 +118,6 @@ SkRect
 h
 "
 class
-GrContext
-;
-class
 GrFragmentProcessor
 ;
 class
@@ -131,6 +128,9 @@ SkColorSpaceXformer
 ;
 struct
 SkIPoint
+;
+class
+GrRecordingContext
 ;
 class
 SkSpecialImage
@@ -1185,7 +1185,7 @@ SkSpecialImage
 >
 DrawWithFP
 (
-GrContext
+GrRecordingContext
 *
 context
 std
@@ -1821,7 +1821,7 @@ input
 ;
 static
 void
-InitializeFlattenables
+RegisterFlattenables
 (
 )
 ;

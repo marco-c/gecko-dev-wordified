@@ -4034,7 +4034,6 @@ mapPoint
 pointRight
 )
 ;
-;
 rowData
 -
 >
@@ -6271,15 +6270,12 @@ SkASSERT
 distanceField
 )
 ;
-SkDEBUGCODE
-(
+#
+ifdef
+SK_DEBUG
 SkPath
 xformPath
 ;
-)
-;
-SkDEBUGCODE
-(
 path
 .
 transform
@@ -6288,10 +6284,7 @@ drawMatrix
 &
 xformPath
 )
-)
 ;
-SkDEBUGCODE
-(
 SkIRect
 pathBounds
 =
@@ -6304,10 +6297,7 @@ getBounds
 roundOut
 (
 )
-)
 ;
-SkDEBUGCODE
-(
 SkIRect
 expectPathBounds
 =
@@ -6327,8 +6317,9 @@ height
 *
 SK_DistanceFieldPad
 )
-)
 ;
+#
+endif
 SkASSERT
 (
 expectPathBounds
@@ -6751,7 +6742,6 @@ segments
 break
 ;
 }
-;
 default
 :
 break

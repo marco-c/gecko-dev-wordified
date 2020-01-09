@@ -288,6 +288,7 @@ return
 1
 ;
 }
+static
 void
 finalize_helper
 (

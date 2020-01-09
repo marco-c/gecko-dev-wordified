@@ -185,18 +185,6 @@ SkRasterPipeline
 .
 h
 "
-#
-include
-"
-.
-.
-/
-jumper
-/
-SkJumper
-.
-h
-"
 namespace
 SkSL
 {
@@ -1511,7 +1499,7 @@ struct
 CallbackCtx
 :
 public
-SkJumper_CallbackCtx
+SkRasterPipeline_CallbackCtx
 {
 Interpreter
 *
@@ -1528,7 +1516,7 @@ static
 void
 do_callback
 (
-SkJumper_CallbackCtx
+SkRasterPipeline_CallbackCtx
 *
 raw
 int

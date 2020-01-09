@@ -689,7 +689,7 @@ fMaxMeshesPerDraw
 ;
 sk_sp
 <
-GrBuffer
+GrGpuBuffer
 >
 fInstanceBuffer
 ;

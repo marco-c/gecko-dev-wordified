@@ -97,8 +97,6 @@ include
 <
 memory
 >
-namespace
-{
 template
 <
 typename
@@ -133,10 +131,6 @@ CFRelease
 >
 >
 ;
-}
-/
-/
-namespace
 #
 endif
 #

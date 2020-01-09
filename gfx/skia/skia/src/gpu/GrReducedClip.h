@@ -68,10 +68,10 @@ SkTLList
 h
 "
 class
-GrContext
+GrCoverageCountingPathRenderer
 ;
 class
-GrCoverageCountingPathRenderer
+GrRecordingContext
 ;
 class
 GrRenderTargetContext
@@ -607,7 +607,7 @@ const
 bool
 drawStencilClipMask
 (
-GrContext
+GrRecordingContext
 *
 GrRenderTargetContext
 *

@@ -306,6 +306,11 @@ fInstanceAttribSupport
 =
 false
 ;
+bool
+fHalfFloatVertexAttributeSupport
+=
+false
+;
 uint32_t
 fMapBufferFlags
 =

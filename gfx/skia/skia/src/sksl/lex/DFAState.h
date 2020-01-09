@@ -291,7 +291,7 @@ s
 )
 const
 {
-int
+size_t
 result
 =
 0

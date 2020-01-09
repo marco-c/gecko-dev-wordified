@@ -50,14 +50,14 @@ h
 #
 include
 "
-GrContext
+GrContext_Base
 .
 h
 "
 #
 include
 "
-GrContextPriv
+GrBaseContextPriv
 .
 h
 "
@@ -93,7 +93,7 @@ GrGetRandomStencil
 SkRandom
 *
 random
-GrContext
+GrContext_Base
 *
 context
 )
@@ -103,7 +103,7 @@ if
 context
 -
 >
-contextPriv
+priv
 (
 )
 .

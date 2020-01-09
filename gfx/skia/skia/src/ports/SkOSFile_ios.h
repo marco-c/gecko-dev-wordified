@@ -34,6 +34,12 @@ file
 *
 /
 #
+ifndef
+SkOSFile_ios_DEFINED
+#
+define
+SkOSFile_ios_DEFINED
+#
 include
 "
 SkString
@@ -253,3 +259,8 @@ true
 }
 #
 endif
+#
+endif
+/
+/
+SkOSFile_ios_DEFINED

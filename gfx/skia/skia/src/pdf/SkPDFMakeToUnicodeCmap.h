@@ -53,9 +53,12 @@ SkStream
 .
 h
 "
-sk_sp
+std
+:
+:
+unique_ptr
 <
-SkPDFStream
+SkStreamAsset
 >
 SkPDFMakeToUnicodeCmap
 (
@@ -64,7 +67,7 @@ SkUnichar
 *
 glyphToUnicode
 const
-SkBitSet
+SkPDFGlyphUse
 *
 subset
 bool
@@ -90,7 +93,7 @@ SkUnichar
 *
 glyphToUnicode
 const
-SkBitSet
+SkPDFGlyphUse
 *
 subset
 SkDynamicMemoryWStream

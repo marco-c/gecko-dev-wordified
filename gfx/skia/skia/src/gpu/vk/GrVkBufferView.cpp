@@ -190,7 +190,6 @@ GrVkBufferView
 :
 freeGPUData
 (
-const
 GrVkGpu
 *
 gpu

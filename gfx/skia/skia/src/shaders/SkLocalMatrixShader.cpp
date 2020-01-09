@@ -199,6 +199,9 @@ get
 )
 ;
 }
+#
+ifdef
+SK_ENABLE_LEGACY_SHADERCONTEXT
 SkShaderBase
 :
 :
@@ -282,6 +285,8 @@ alloc
 )
 ;
 }
+#
+endif
 SkImage
 *
 SkLocalMatrixShader

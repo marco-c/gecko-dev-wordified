@@ -43,6 +43,13 @@ h
 #
 include
 "
+GrContextPriv
+.
+h
+"
+#
+include
+"
 GrFixedClip
 .
 h
@@ -208,7 +215,7 @@ getContext
 )
 -
 >
-contextPriv
+priv
 (
 )
 .

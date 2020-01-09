@@ -119,7 +119,6 @@ f
 #
 #
 NAME
-;
 VmaVulkanFunctions
 functions
 ;

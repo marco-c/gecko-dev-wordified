@@ -42,14 +42,14 @@ GrMockBuffer_DEFINED
 #
 include
 "
-GrBuffer
+GrCaps
 .
 h
 "
 #
 include
 "
-GrCaps
+GrGpuBuffer
 .
 h
 "
@@ -64,7 +64,7 @@ class
 GrMockBuffer
 :
 public
-GrBuffer
+GrGpuBuffer
 {
 public
 :
@@ -75,7 +75,7 @@ GrMockGpu
 gpu
 size_t
 sizeInBytes
-GrBufferType
+GrGpuBufferType
 type
 GrAccessPattern
 accessPattern
@@ -142,7 +142,7 @@ sk_malloc_throw
 this
 -
 >
-sizeInBytes
+size
 (
 )
 )
@@ -178,7 +178,7 @@ true
 ;
 }
 typedef
-GrBuffer
+GrGpuBuffer
 INHERITED
 ;
 }

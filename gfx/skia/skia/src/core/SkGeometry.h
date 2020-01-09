@@ -2833,6 +2833,16 @@ members
 namespace
 {
 /
+/
+NOLINT
+(
+google
+-
+build
+-
+namespaces
+)
+/
 *
 *
 *

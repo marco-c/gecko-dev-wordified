@@ -93,7 +93,7 @@ GrSurfaceContextPriv
 {
 public
 :
-GrContext
+GrRecordingContext
 *
 getContext
 (

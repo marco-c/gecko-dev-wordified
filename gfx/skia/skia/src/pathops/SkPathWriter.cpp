@@ -2807,8 +2807,9 @@ SkPoint
 prior
 next
 ;
-SkAssertResult
+if
 (
+!
 fPathPtr
 -
 >
@@ -2818,7 +2819,10 @@ getLastPt
 prior
 )
 )
+{
+return
 ;
+}
 if
 (
 forward

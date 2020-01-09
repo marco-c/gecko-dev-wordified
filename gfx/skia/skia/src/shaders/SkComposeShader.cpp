@@ -105,18 +105,6 @@ SkString
 .
 h
 "
-#
-include
-"
-.
-.
-/
-jumper
-/
-SkJumper
-.
-h
-"
 sk_sp
 <
 SkShader
@@ -643,7 +631,7 @@ fRGBA
 [
 4
 *
-SkJumper_kMaxStride
+SkRasterPipeline_kMaxStride
 ]
 ;
 float

@@ -42,13 +42,6 @@ SkTrimImpl_DEFINED
 #
 include
 "
-SkFlattenablePriv
-.
-h
-"
-#
-include
-"
 SkPathEffect
 .
 h
@@ -80,10 +73,6 @@ SkTrimPathEffect
 Mode
 )
 ;
-SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
-(
-SkTrimPE
-)
 protected
 :
 void
@@ -116,6 +105,10 @@ override
 ;
 private
 :
+SK_FLATTENABLE_HOOKS
+(
+SkTrimPE
+)
 const
 SkScalar
 fStartT

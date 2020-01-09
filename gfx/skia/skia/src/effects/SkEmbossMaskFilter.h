@@ -44,13 +44,6 @@ SkEmbossMaskFilter_DEFINED
 #
 include
 "
-SkFlattenablePriv
-.
-h
-"
-#
-include
-"
 SkMaskFilterBase
 .
 h
@@ -191,10 +184,6 @@ margin
 const
 override
 ;
-SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
-(
-SkEmbossMaskFilter
-)
 protected
 :
 SkEmbossMaskFilter
@@ -218,6 +207,10 @@ override
 ;
 private
 :
+SK_FLATTENABLE_HOOKS
+(
+SkEmbossMaskFilter
+)
 Light
 fLight
 ;

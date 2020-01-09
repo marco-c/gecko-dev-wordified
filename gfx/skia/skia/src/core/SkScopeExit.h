@@ -149,6 +149,17 @@ fFn
 ;
 }
 }
+void
+clear
+(
+)
+{
+fFn
+=
+{
+}
+;
+}
 SkScopeExit
 &
 operator

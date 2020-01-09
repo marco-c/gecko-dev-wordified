@@ -553,10 +553,6 @@ return
 fFocalData
 ;
 }
-SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
-(
-SkTwoPointConicalGradient
-)
 protected
 :
 void
@@ -600,6 +596,10 @@ override
 ;
 private
 :
+SK_FLATTENABLE_HOOKS
+(
+SkTwoPointConicalGradient
+)
 SkTwoPointConicalGradient
 (
 const

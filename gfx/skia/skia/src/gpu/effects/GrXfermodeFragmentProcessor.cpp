@@ -372,6 +372,9 @@ ComposeTwo
 "
 ;
 }
+#
+ifdef
+SK_DEBUG
 SkString
 dumpInfo
 (
@@ -464,6 +467,8 @@ return
 str
 ;
 }
+#
+endif
 std
 :
 :
@@ -2165,6 +2170,9 @@ ComposeOne
 "
 ;
 }
+#
+ifdef
+SK_DEBUG
 SkString
 dumpInfo
 (
@@ -2273,6 +2281,8 @@ return
 str
 ;
 }
+#
+endif
 std
 :
 :
@@ -3849,7 +3859,7 @@ RunInSeries
 (
 ConstColor
 (
-GrColor_WHITE
+WHITE
 kIgnoreInput
 )
 inputFP

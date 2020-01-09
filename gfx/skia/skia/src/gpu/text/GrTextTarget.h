@@ -63,6 +63,9 @@ class
 GrPaint
 ;
 class
+GrRecordingContext
+;
+class
 GrShape
 ;
 class
@@ -178,7 +181,7 @@ GrPaint
 0
 ;
 virtual
-GrContext
+GrRecordingContext
 *
 getContext
 (

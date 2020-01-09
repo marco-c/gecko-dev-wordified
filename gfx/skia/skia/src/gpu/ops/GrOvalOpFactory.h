@@ -54,13 +54,13 @@ SkRefCnt
 h
 "
 class
-GrContext
-;
-class
 GrDrawOp
 ;
 class
 GrPaint
+;
+class
+GrRecordingContext
 ;
 class
 GrShaderCaps
@@ -116,7 +116,7 @@ GrDrawOp
 >
 MakeOvalOp
 (
-GrContext
+GrRecordingContext
 *
 GrPaint
 &
@@ -147,7 +147,7 @@ GrDrawOp
 >
 MakeRRectOp
 (
-GrContext
+GrRecordingContext
 *
 GrPaint
 &
@@ -176,7 +176,7 @@ GrDrawOp
 >
 MakeArcOp
 (
-GrContext
+GrRecordingContext
 *
 GrPaint
 &

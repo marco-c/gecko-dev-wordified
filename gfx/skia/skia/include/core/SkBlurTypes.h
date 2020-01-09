@@ -48,6 +48,8 @@ h
 "
 enum
 SkBlurStyle
+:
+int
 {
 kNormal_SkBlurStyle
 /

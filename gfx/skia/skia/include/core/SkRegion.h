@@ -2983,10 +2983,12 @@ op
 ;
 #
 ifdef
-SK_BUILD_FOR_ANDROID
+SK_BUILD_FOR_ANDROID_FRAMEWORK
 /
 *
 *
+Private
+.
 Android
 framework
 only
@@ -3083,7 +3085,7 @@ time
 return
 empty
 SkRegion
-ierator
+iterator
 *
 /
 Iterator

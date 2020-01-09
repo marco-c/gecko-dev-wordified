@@ -49,7 +49,15 @@ include
 <
 memory
 >
+#
+include
+"
+SkTypes
+.
+h
+"
 class
+SK_API
 SkExecutor
 {
 public
