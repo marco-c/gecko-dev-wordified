@@ -262,7 +262,6 @@ derive
 (
 Default
 PartialEq
-Clone
 )
 ]
 pub
@@ -899,13 +898,6 @@ OriginalFormatBox
 /
 "
 frma
-"
-SchemeTypeBox
-0x7363686d
-/
-/
-"
-schm
 "
 MP3AudioSampleEntry
 0x2e6d7033
