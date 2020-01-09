@@ -772,11 +772,7 @@ resolution
 let
 zoom
 =
-{
-value
-:
 1
-}
 ;
 let
 domWindowUtils
@@ -785,11 +781,12 @@ content
 .
 windowUtils
 ;
+zoom
+=
 domWindowUtils
 .
 getResolution
 (
-zoom
 )
 ;
 scrolldata
@@ -814,8 +811,6 @@ zoom
 resolution
 =
 zoom
-.
-value
 ;
 /
 /

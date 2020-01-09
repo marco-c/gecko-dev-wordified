@@ -39,12 +39,8 @@ getResolution
 let
 resolution
 =
-{
-value
-:
 -
 1
-}
 ;
 /
 /
@@ -55,6 +51,8 @@ case
 DWU
 fails
 us
+resolution
+=
 SpecialPowers
 .
 getDOMWindowUtils
@@ -64,13 +62,10 @@ window
 .
 getResolution
 (
-resolution
 )
 ;
 return
 resolution
-.
-value
 ;
 }
 function
