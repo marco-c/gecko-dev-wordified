@@ -3999,6 +3999,15 @@ elements
 been
 removed
 ?
+uint8_t
+mEntrySize
+;
+/
+/
+Size
+of
+entries
+.
 bool
 IsOnNonLiveEntry
 (
