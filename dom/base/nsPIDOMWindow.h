@@ -3180,6 +3180,7 @@ Report
 aReport
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 NotifyReportingObservers
 (

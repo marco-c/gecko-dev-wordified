@@ -43226,8 +43226,11 @@ mReportingObservers
 ;
 for
 (
+RefPtr
+<
 ReportingObserver
-*
+>
+&
 observer
 :
 reportingObservers
