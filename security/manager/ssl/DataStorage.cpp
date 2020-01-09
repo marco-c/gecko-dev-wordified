@@ -839,6 +839,9 @@ if
 (
 !
 gDataStorageSharedThread
+|
+|
+gDataStorageSharedThreadShutDown
 )
 {
 return
