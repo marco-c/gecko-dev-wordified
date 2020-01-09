@@ -998,7 +998,17 @@ property
 :
 string
 )
+:
+Array
+<
+Object
+>
 {
+/
+/
+prettier
+-
+ignore
 return
 sortBy
 (

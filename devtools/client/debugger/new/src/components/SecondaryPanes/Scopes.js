@@ -77,9 +77,15 @@ connect
 }
 from
 "
-react
--
-redux
+.
+.
+/
+.
+.
+/
+utils
+/
+connect
 "
 ;
 import
@@ -167,7 +173,6 @@ reps
 import
 type
 {
-Pause
 Why
 }
 from
@@ -225,7 +230,7 @@ Props
 {
 isPaused
 :
-Pause
+boolean
 selectedFrame
 :
 Object

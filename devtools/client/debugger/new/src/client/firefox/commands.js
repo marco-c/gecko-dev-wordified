@@ -2126,6 +2126,13 @@ function
 fetchSources
 (
 )
+:
+Promise
+<
+any
+[
+]
+>
 {
 let
 sources
@@ -2157,6 +2164,8 @@ sources
 )
 {
 return
+[
+]
 ;
 }
 if

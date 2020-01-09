@@ -249,9 +249,17 @@ SourceLocation
 export
 const
 createUIState
+:
+(
+)
+=
+>
+Record
+<
+UIState
+>
 =
 makeRecord
-(
 (
 {
 selectedPrimaryPaneTab
@@ -299,9 +307,6 @@ viewport
 :
 null
 }
-:
-UIState
-)
 )
 ;
 function
@@ -1014,7 +1019,7 @@ state
 OuterState
 )
 :
-boolean
+OrientationType
 {
 return
 state
