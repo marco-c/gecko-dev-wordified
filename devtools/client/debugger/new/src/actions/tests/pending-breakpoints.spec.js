@@ -220,13 +220,6 @@ pendingBreakpoints
 {
 }
 }
-features
-:
-{
-replay
-:
-false
-}
 clear
 :
 jest
@@ -239,21 +232,10 @@ fn
 )
 ;
 import
-"
-.
-.
-/
-sources
-/
-loadSourceText
-"
-;
-import
 {
 createStore
 selectors
 actions
-makeOriginalSource
 makeSource
 waitForState
 }
@@ -464,7 +446,7 @@ mockSourceMaps
 const
 source
 =
-makeOriginalSource
+makeSource
 (
 "
 foo
@@ -713,7 +695,7 @@ mockSourceMaps
 const
 source1
 =
-makeOriginalSource
+makeSource
 (
 "
 foo
@@ -723,7 +705,7 @@ foo
 const
 source2
 =
-makeOriginalSource
+makeSource
 (
 "
 foo2
@@ -950,7 +932,7 @@ mockSourceMaps
 const
 source
 =
-makeOriginalSource
+makeSource
 (
 "
 foo
@@ -1120,7 +1102,7 @@ foo2
 const
 source1
 =
-makeOriginalSource
+makeSource
 (
 "
 foo
@@ -1130,7 +1112,7 @@ foo
 const
 source2
 =
-makeOriginalSource
+makeSource
 (
 "
 foo2
@@ -1347,7 +1329,7 @@ location
 const
 source
 =
-makeOriginalSource
+makeSource
 (
 "
 foo
@@ -1546,7 +1528,7 @@ foo
 const
 source
 =
-makeOriginalSource
+makeSource
 (
 "
 foo
@@ -1695,7 +1677,7 @@ js
 const
 source
 =
-makeOriginalSource
+makeSource
 (
 "
 foo
@@ -1991,7 +1973,7 @@ js
 const
 source
 =
-makeOriginalSource
+makeSource
 (
 "
 bar
@@ -2122,7 +2104,7 @@ js
 const
 source
 =
-makeOriginalSource
+makeSource
 (
 "
 foo
@@ -2284,7 +2266,7 @@ store
 const
 source
 =
-makeOriginalSource
+makeSource
 (
 "
 bar
@@ -2540,7 +2522,7 @@ toEqual
 const
 source
 =
-makeOriginalSource
+makeSource
 (
 "
 bar
@@ -2647,7 +2629,7 @@ async
 const
 source
 =
-makeOriginalSource
+makeSource
 (
 "
 bar
@@ -2952,7 +2934,7 @@ toEqual
 const
 source1
 =
-makeOriginalSource
+makeSource
 (
 "
 bar
@@ -2964,7 +2946,7 @@ js
 const
 source2
 =
-makeOriginalSource
+makeSource
 (
 "
 foo
