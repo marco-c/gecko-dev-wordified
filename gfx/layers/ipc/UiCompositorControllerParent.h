@@ -182,6 +182,9 @@ mozilla
 namespace
 layers
 {
+struct
+FrameMetrics
+;
 class
 UiCompositorControllerParent
 final
@@ -517,6 +520,15 @@ NotifyLayersUpdated
 void
 NotifyFirstPaint
 (
+)
+;
+void
+NotifyUpdateScreenMetrics
+(
+const
+FrameMetrics
+&
+aMetrics
 )
 ;
 private
