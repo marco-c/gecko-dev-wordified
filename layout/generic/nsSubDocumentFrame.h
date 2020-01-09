@@ -844,6 +844,16 @@ ShowViewer
 ;
 }
 }
+void
+UnsetFrameLoader
+(
+)
+{
+mFrameLoader
+=
+nullptr
+;
+}
 nsFrameLoader
 *
 FrameLoader
