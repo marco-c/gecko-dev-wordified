@@ -205,7 +205,7 @@ include
 "
 frontend
 /
-BinTokenReaderTester
+BinTokenReaderMultipart
 .
 h
 "
@@ -5822,13 +5822,6 @@ class
 BinASTParserPerTokenizer
 <
 BinTokenReaderMultipart
->
-;
-template
-class
-BinASTParserPerTokenizer
-<
-BinTokenReaderTester
 >
 ;
 }
