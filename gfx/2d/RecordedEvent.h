@@ -1253,6 +1253,7 @@ FILTERNODESETATTRIBUTE
 FILTERNODESETINPUT
 CREATESIMILARDRAWTARGET
 CREATECLIPPEDDRAWTARGET
+CREATEDRAWTARGETFORFILTER
 FONTDATA
 FONTDESC
 PUSHLAYER
@@ -1310,6 +1311,7 @@ Note
 that
 derived
 classes
+*
 should
 *
 only
@@ -1326,6 +1328,7 @@ it
 will
 probably
 mean
+*
 the
 *
 translation
@@ -1362,6 +1365,7 @@ occurred
 and
 playback
 should
+*
 abort
 .
 *
