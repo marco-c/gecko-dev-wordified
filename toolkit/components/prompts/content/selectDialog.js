@@ -311,6 +311,16 @@ focus
 (
 )
 ;
+document
+.
+addEventListener
+(
+"
+dialogaccept
+"
+dialogOK
+)
+;
 /
 /
 resize
@@ -409,9 +419,6 @@ ok
 "
 true
 )
-;
-return
-true
 ;
 }
 function

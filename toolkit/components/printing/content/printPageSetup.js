@@ -509,6 +509,16 @@ enabled
 =
 false
 ;
+document
+.
+addEventListener
+(
+"
+dialogaccept
+"
+onAccept
+)
+;
 }
 /
 /
@@ -3557,9 +3567,6 @@ gPrintSettings
 true
 flags
 )
-;
-return
-true
 ;
 }
 /

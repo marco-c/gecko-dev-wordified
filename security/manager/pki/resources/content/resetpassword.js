@@ -73,6 +73,16 @@ use
 strict
 "
 ;
+document
+.
+addEventListener
+(
+"
+dialogaccept
+"
+resetPassword
+)
+;
 function
 resetPassword
 (
@@ -214,7 +224,4 @@ resetPasswordConfirmationMessage
 )
 ;
 }
-return
-true
-;
 }
