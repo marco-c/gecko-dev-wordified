@@ -3485,7 +3485,10 @@ asBits_
 mozilla
 :
 :
-DoubleTypeTraits
+FloatingPoint
+<
+double
+>
 :
 :
 kSignBit
@@ -5759,7 +5762,10 @@ bits
 mozilla
 :
 :
-DoubleTypeTraits
+FloatingPoint
+<
+double
+>
 :
 :
 kSignBit
