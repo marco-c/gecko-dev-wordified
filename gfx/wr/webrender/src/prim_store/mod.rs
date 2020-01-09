@@ -431,7 +431,7 @@ use
 render_backend
 :
 :
-FrameResources
+DataStores
 ;
 use
 render_task
@@ -9983,10 +9983,10 @@ gpu_cache
 &
 mut
 GpuCache
-resources
+data_stores
 :
 &
-FrameResources
+DataStores
 clip_store
 :
 &
@@ -10030,7 +10030,7 @@ child_pic_index
 state
 frame_context
 gpu_cache
-resources
+data_stores
 clip_store
 )
 ;
@@ -10660,7 +10660,7 @@ prim_data
 &
 frame_state
 .
-resources
+data_stores
 .
 as_common_data
 (
@@ -10989,7 +10989,7 @@ as_ref
 mut
 frame_state
 .
-resources
+data_stores
 .
 clip
 )
@@ -11017,7 +11017,7 @@ frame_context
 clip_scroll_tree
 frame_state
 .
-resources
+data_stores
 &
 frame_state
 .
@@ -12575,11 +12575,11 @@ FrameBuildingState
 plane_split_anchor
 :
 usize
-resources
+data_stores
 :
 &
 mut
-FrameResources
+DataStores
 scratch
 :
 &
@@ -12903,7 +12903,7 @@ mut
 pic_state_for_children
 frame_context
 frame_state
-resources
+data_stores
 scratch
 )
 ;
@@ -12975,7 +12975,7 @@ pic_state
 frame_context
 frame_state
 self
-resources
+data_stores
 scratch
 )
 ;
@@ -13041,7 +13041,7 @@ prim_instance
 is_cacheable
 (
 &
-resources
+data_stores
 frame_state
 .
 resource_cache
@@ -13338,7 +13338,7 @@ prim_context
 pic_context
 frame_context
 frame_state
-resources
+data_stores
 scratch
 )
 ;
@@ -13376,11 +13376,11 @@ frame_state
 &
 mut
 FrameBuildingState
-resources
+data_stores
 :
 &
 mut
-FrameResources
+DataStores
 scratch
 :
 &
@@ -13656,7 +13656,7 @@ pic_state
 frame_context
 frame_state
 plane_split_anchor
-resources
+data_stores
 scratch
 )
 {
@@ -13735,11 +13735,11 @@ frame_state
 &
 mut
 FrameBuildingState
-resources
+data_stores
 :
 &
 mut
-FrameResources
+DataStores
 scratch
 :
 &
@@ -13783,7 +13783,7 @@ prim_data
 =
 &
 mut
-resources
+data_stores
 .
 line_decoration
 [
@@ -14162,7 +14162,7 @@ prim_data
 =
 &
 mut
-resources
+data_stores
 .
 text_run
 [
@@ -14354,7 +14354,7 @@ prim_data
 =
 &
 mut
-resources
+data_stores
 .
 prim
 [
@@ -14412,7 +14412,7 @@ prim_data
 =
 &
 mut
-resources
+data_stores
 .
 normal_border
 [
@@ -14785,7 +14785,7 @@ prim_data
 =
 &
 mut
-resources
+data_stores
 .
 image_border
 [
@@ -14849,7 +14849,7 @@ prim_data
 =
 &
 mut
-resources
+data_stores
 .
 prim
 [
@@ -14941,7 +14941,7 @@ yuv_image_data
 =
 &
 mut
-resources
+data_stores
 .
 yuv_image
 [
@@ -15026,7 +15026,7 @@ prim_data
 =
 &
 mut
-resources
+data_stores
 .
 image
 [
@@ -15652,7 +15652,7 @@ prim_data
 =
 &
 mut
-resources
+data_stores
 .
 linear_grad
 [
@@ -15896,7 +15896,7 @@ prim_data
 =
 &
 mut
-resources
+data_stores
 .
 radial_grad
 [
@@ -16817,10 +16817,10 @@ clip_store
 :
 &
 ClipStore
-resources
+data_stores
 :
 &
-FrameResources
+DataStores
 )
 -
 >
@@ -17007,7 +17007,7 @@ let
 clip_node
 =
 &
-resources
+data_stores
 .
 clip
 [
@@ -17727,10 +17727,10 @@ prim_store
 &
 mut
 PrimitiveStore
-resources
+data_stores
 :
 &
-FrameResources
+DataStores
 segments_store
 :
 &
@@ -17747,7 +17747,7 @@ let
 prim_data
 =
 &
-resources
+data_stores
 .
 as_common_data
 (
@@ -17823,7 +17823,7 @@ let
 image_data
 =
 &
-resources
+data_stores
 .
 image
 [
@@ -18034,7 +18034,7 @@ segment_builder
 frame_state
 .
 clip_store
-resources
+data_stores
 )
 {
 frame_state
@@ -18205,11 +18205,11 @@ prim_store
 :
 &
 PrimitiveStore
-resources
+data_stores
 :
 &
 mut
-FrameResources
+DataStores
 segments_store
 :
 &
@@ -18417,7 +18417,7 @@ let
 border_data
 =
 &
-resources
+data_stores
 .
 image_border
 [
@@ -18480,7 +18480,7 @@ let
 border_data
 =
 &
-resources
+data_stores
 .
 normal_border
 [
@@ -18543,7 +18543,7 @@ let
 prim_data
 =
 &
-resources
+data_stores
 .
 linear_grad
 [
@@ -18617,7 +18617,7 @@ let
 prim_data
 =
 &
-resources
+data_stores
 .
 radial_grad
 [
@@ -18855,7 +18855,7 @@ frame_context
 frame_state
 &
 mut
-resources
+data_stores
 .
 clip
 )
@@ -18976,7 +18976,7 @@ dirty_world_rect
 None
 &
 mut
-resources
+data_stores
 .
 clip
 )
@@ -19005,7 +19005,7 @@ frame_context
 frame_state
 &
 mut
-resources
+data_stores
 .
 clip
 )
@@ -19057,11 +19057,11 @@ prim_store
 &
 mut
 PrimitiveStore
-resources
+data_stores
 :
 &
 mut
-FrameResources
+DataStores
 scratch
 :
 &
@@ -19128,7 +19128,7 @@ prim_info
 clip_chain
 frame_state
 prim_store
-resources
+data_stores
 &
 mut
 scratch
@@ -19170,7 +19170,7 @@ pic_state
 frame_context
 frame_state
 prim_store
-resources
+data_stores
 &
 mut
 scratch
@@ -19283,7 +19283,7 @@ frame_state
 render_tasks
 &
 mut
-resources
+data_stores
 .
 clip
 )

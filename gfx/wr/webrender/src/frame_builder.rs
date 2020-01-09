@@ -225,7 +225,7 @@ render_backend
 :
 :
 {
-FrameResources
+DataStores
 FrameStamp
 }
 ;
@@ -613,13 +613,13 @@ a
 mut
 RetainedTiles
 pub
-resources
+data_stores
 :
 &
 '
 a
 mut
-FrameResources
+DataStores
 }
 pub
 struct
@@ -1476,11 +1476,11 @@ transform_palette
 &
 mut
 TransformPalette
-resources
+data_stores
 :
 &
 mut
-FrameResources
+DataStores
 surfaces
 :
 &
@@ -1798,7 +1798,7 @@ pic_update_state
 &
 frame_context
 gpu_cache
-resources
+data_stores
 &
 self
 .
@@ -1847,7 +1847,7 @@ retained_tiles
 &
 mut
 retained_tiles
-resources
+data_stores
 }
 ;
 self
@@ -1965,7 +1965,7 @@ frame_context
 &
 mut
 frame_state
-resources
+data_stores
 scratch
 )
 ;
@@ -2161,11 +2161,11 @@ scene_properties
 :
 &
 SceneProperties
-resources
+data_stores
 :
 &
 mut
-FrameResources
+DataStores
 scratch
 :
 &
@@ -2350,7 +2350,7 @@ scene_properties
 &
 mut
 transform_palette
-resources
+data_stores
 &
 mut
 surfaces
@@ -2587,7 +2587,7 @@ prim_store
 resource_cache
 use_dual_source_blending
 clip_scroll_tree
-resources
+data_stores
 surfaces
 :
 &
