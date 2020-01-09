@@ -3399,9 +3399,7 @@ unexpected
 ]
 default
 =
-"
-unexpected
-"
+None
                              
 help
 =
@@ -5944,6 +5942,28 @@ kwargs
 prefs_root
 "
 ]
+    
+if
+kwargs
+[
+"
+reftest_screenshot
+"
+]
+is
+None
+:
+        
+kwargs
+[
+"
+reftest_screenshot
+"
+]
+=
+"
+unexpected
+"
     
 return
 kwargs
