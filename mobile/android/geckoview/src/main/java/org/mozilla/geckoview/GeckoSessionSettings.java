@@ -412,7 +412,7 @@ open
 .
 *
 /
-public
+private
 static
 final
 Key
@@ -473,7 +473,7 @@ open
 .
 *
 /
-public
+private
 static
 final
 Key
@@ -519,7 +519,7 @@ protection
 .
 *
 /
-public
+private
 static
 final
 Key
@@ -563,7 +563,7 @@ open
 .
 *
 /
-public
+private
 static
 final
 Key
@@ -621,7 +621,7 @@ open
 .
 *
 /
-public
+private
 static
 final
 Key
@@ -670,7 +670,7 @@ use
 .
 *
 /
-public
+private
 static
 final
 Key
@@ -733,7 +733,7 @@ USER_AGENT_MODE
 .
 *
 /
-public
+private
 static
 final
 Key
@@ -782,7 +782,7 @@ use
 .
 *
 /
-public
+private
 static
 final
 Key
@@ -837,7 +837,7 @@ inactive
 .
 *
 /
-public
+private
 static
 final
 Key
@@ -887,7 +887,7 @@ session
 .
 *
 /
-public
+private
 static
 final
 Key
@@ -939,7 +939,7 @@ caching
 .
 *
 /
-public
+private
 static
 final
 Key
@@ -1265,7 +1265,7 @@ value
 )
 ;
 }
-public
+private
 void
 setBoolean
 (
@@ -1389,7 +1389,7 @@ FULL_ACCESSIBILITY_TREE
 )
 ;
 }
-public
+private
 boolean
 getBoolean
 (
@@ -1466,7 +1466,7 @@ value
 )
 ;
 }
-public
+private
 void
 setInt
 (
@@ -1527,7 +1527,7 @@ SCREEN_ID
 }
 public
 int
-getUseAgentMode
+getUserAgentMode
 (
 )
 {
@@ -1551,7 +1551,7 @@ DISPLAY_MODE
 )
 ;
 }
-public
+private
 int
 getInt
 (
@@ -1612,7 +1612,7 @@ value
 )
 ;
 }
-public
+private
 void
 setString
 (
@@ -1684,7 +1684,7 @@ USER_AGENT_OVERRIDE
 )
 ;
 }
-public
+private
 String
 getString
 (
