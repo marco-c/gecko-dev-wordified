@@ -392,7 +392,10 @@ in
 ContentParent
 .
 h
+and
+ProcInfo
 .
+h
 const
 WEB_REMOTE_TYPE
 =

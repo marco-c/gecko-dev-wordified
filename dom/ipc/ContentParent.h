@@ -412,6 +412,10 @@ in
 E10SUtils
 .
 jsm
+and
+ProcInfo
+.
+h
 .
 /
 /
