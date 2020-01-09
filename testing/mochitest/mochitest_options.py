@@ -5369,7 +5369,7 @@ Bug
 1065098
 -
 The
-geckomediaplugin
+gmplugin
 process
 fails
 to
@@ -5390,7 +5390,7 @@ ignoreMissingLeaks
 :
 [
 "
-geckomediaplugin
+gmplugin
 "
 ]
         
@@ -7364,7 +7364,7 @@ little
 .
             
 "
-geckomediaplugin
+gmplugin
 "
 :
 20000

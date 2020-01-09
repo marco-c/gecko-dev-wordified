@@ -476,17 +476,6 @@ gecko_e10s
 ]
             
 "
-lsan_dir
-"
-:
-kwargs
-[
-"
-lsan_dir
-"
-]
-            
-"
 stackfix_dir
 "
 :
@@ -1280,9 +1269,6 @@ None
 e10s
 =
 False
-lsan_dir
-=
-None
 stackfix_dir
 =
 None
@@ -1461,12 +1447,6 @@ self
 asan
 =
 asan
-        
-self
-.
-lsan_dir
-=
-lsan_dir
         
 self
 .
@@ -1788,7 +1768,7 @@ lsanPath
 =
 self
 .
-lsan_dir
+prefs_root
 )
         
 env
@@ -2854,7 +2834,7 @@ ignore_missing_leaks
 =
 [
 "
-geckomediaplugin
+gmplugin
 "
 ]
                 
