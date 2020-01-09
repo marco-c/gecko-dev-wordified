@@ -171,11 +171,13 @@ src
 =
 "
 /
-mixed
--
-content
+common
 /
-generic
+security
+-
+features
+/
+resources
 /
 common
 .
