@@ -169,6 +169,13 @@ nsTextFormatter
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 namespace
 mozilla
 {
@@ -580,9 +587,6 @@ sAnimSVGViewBoxTearoffTable
 SVGAttrTearoffTable
 <
 SVGViewBox
-dom
-:
-:
 SVGAnimatedRect
 >
 SVGViewBox
@@ -1193,9 +1197,6 @@ height
 }
 already_AddRefed
 <
-dom
-:
-:
 SVGAnimatedRect
 >
 SVGViewBox
@@ -1210,9 +1211,6 @@ aSVGElement
 {
 RefPtr
 <
-dom
-:
-:
 SVGAnimatedRect
 >
 domAnimatedRect
@@ -1233,9 +1231,6 @@ domAnimatedRect
 domAnimatedRect
 =
 new
-dom
-:
-:
 SVGAnimatedRect
 (
 this
@@ -1261,9 +1256,6 @@ forget
 }
 already_AddRefed
 <
-dom
-:
-:
 SVGIRect
 >
 SVGViewBox
@@ -1357,9 +1349,6 @@ mVal
 }
 already_AddRefed
 <
-dom
-:
-:
 SVGIRect
 >
 SVGViewBox
@@ -1677,9 +1666,6 @@ nsAString
 &
 aStr
 const
-dom
-:
-:
 SVGAnimationElement
 *
 /
