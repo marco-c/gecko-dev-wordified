@@ -296,6 +296,7 @@ uint32_t
 {
 SceneBuilt
 FrameBuilt
+FrameTexturesUpdated
 FrameRendered
 /
 /
