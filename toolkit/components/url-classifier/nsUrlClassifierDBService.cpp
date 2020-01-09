@@ -10395,7 +10395,7 @@ net
 UrlClassifierFeatureFactory
 :
 :
-GetFeaturesPhishingProtection
+GetPhishingProtectionFeatures
 (
 features
 )
