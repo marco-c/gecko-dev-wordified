@@ -141,6 +141,8 @@ assert
 const
 {
 fetchSourceMap
+hasOriginalURL
+clearOriginalURLs
 }
 =
 require
@@ -1891,6 +1893,10 @@ clearWasmXScopes
 (
 )
 ;
+clearOriginalURLs
+(
+)
+;
 }
 module
 .
@@ -1898,6 +1904,7 @@ exports
 =
 {
 getOriginalURLs
+hasOriginalURL
 getOriginalRanges
 getGeneratedRanges
 getGeneratedLocation

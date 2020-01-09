@@ -64,6 +64,7 @@ flow
 const
 {
 getOriginalURLs
+hasOriginalURL
 getOriginalRanges
 getGeneratedRanges
 getGeneratedLocation
@@ -165,6 +166,7 @@ workerHandler
 {
 setAssetRootURL
 getOriginalURLs
+hasOriginalURL
 getOriginalRanges
 getGeneratedRanges
 getGeneratedLocation

@@ -448,10 +448,6 @@ content
 .
 push
 (
-"
-\
-n
-"
 stacktrace
 )
 ;

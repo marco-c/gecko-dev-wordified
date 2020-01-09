@@ -4762,6 +4762,9 @@ props
 onCollapse
 (
 item
+e
+.
+altKey
 )
 ;
 }
@@ -4804,14 +4807,6 @@ style
 |
 |
 {
-}
-{
-padding
-:
-0
-margin
-:
-0
 }
 )
 ;
