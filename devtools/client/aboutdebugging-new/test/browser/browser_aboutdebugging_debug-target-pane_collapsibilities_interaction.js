@@ -234,7 +234,7 @@ check
 list
 height
 const
-listEl
+targetEl
 =
 paneEl
 .
@@ -248,13 +248,13 @@ debug
 -
 target
 -
-list
+pane__collapsable
 "
 )
 ;
 is
 (
-listEl
+targetEl
 .
 clientHeight
 0
@@ -301,7 +301,7 @@ title
 }
 (
 {
-listEl
+targetEl
 .
 querySelectorAll
 (
@@ -361,7 +361,7 @@ check
 list
 height
 const
-listEl
+targetEl
 =
 paneEl
 .
@@ -375,7 +375,7 @@ debug
 -
 target
 -
-list
+pane__collapsable
 "
 )
 ;
@@ -386,7 +386,7 @@ waitUntil
 )
 =
 >
-listEl
+targetEl
 .
 clientHeight
 >
@@ -441,7 +441,7 @@ title
 }
 (
 {
-listEl
+targetEl
 .
 querySelectorAll
 (
