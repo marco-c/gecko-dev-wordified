@@ -245,10 +245,10 @@ DAMAGE
 /
 #
 ifndef
-__DAV1D_SRC_RECON_H__
+DAV1D_SRC_RECON_H
 #
 define
-__DAV1D_SRC_RECON_H__
+DAV1D_SRC_RECON_H
 #
 include
 "
@@ -519,6 +519,6 @@ dav1d_read_coef_blocks_16bpc
 endif
 /
 *
-__DAV1D_SRC_RECON_H__
+DAV1D_SRC_RECON_H
 *
 /

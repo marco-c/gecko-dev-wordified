@@ -245,10 +245,10 @@ DAMAGE
 /
 #
 ifndef
-__DAV1D_OUTPUT_OUTPUT_H__
+DAV1D_OUTPUT_OUTPUT_H
 #
 define
-__DAV1D_OUTPUT_OUTPUT_H__
+DAV1D_OUTPUT_OUTPUT_H
 #
 include
 "
@@ -367,6 +367,6 @@ hash_string
 endif
 /
 *
-__DAV1D_OUTPUT_OUTPUT_H__
+DAV1D_OUTPUT_OUTPUT_H
 *
 /

@@ -244,10 +244,10 @@ DAMAGE
 /
 #
 ifndef
-__DAV1D_SRC_ARM_CPU_H__
+DAV1D_SRC_ARM_CPU_H
 #
 define
-__DAV1D_SRC_ARM_CPU_H__
+DAV1D_SRC_ARM_CPU_H
 enum
 CpuFlags
 {
@@ -269,6 +269,6 @@ void
 endif
 /
 *
-__DAV1D_SRC_ARM_CPU_H__
+DAV1D_SRC_ARM_CPU_H
 *
 /

@@ -591,7 +591,7 @@ res
 )
 break
 ;
-fseek
+fseeko
 (
 c
 -
@@ -602,7 +602,7 @@ SEEK_CUR
 )
 ;
 }
-fseek
+fseeko
 (
 c
 -
@@ -795,9 +795,6 @@ res
 ;
 if
 (
-(
-res
-=
 fread
 (
 ptr
@@ -807,7 +804,6 @@ c
 -
 >
 f
-)
 )
 !
 =

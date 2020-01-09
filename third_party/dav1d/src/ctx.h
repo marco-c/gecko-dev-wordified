@@ -245,10 +245,10 @@ DAMAGE
 /
 #
 ifndef
-__DAV1D_SRC_CTX_H__
+DAV1D_SRC_CTX_H
 #
 define
-__DAV1D_SRC_CTX_H__
+DAV1D_SRC_CTX_H
 #
 include
 <
@@ -970,6 +970,6 @@ break
 endif
 /
 *
-__DAV1D_SRC_CTX_H__
+DAV1D_SRC_CTX_H
 *
 /

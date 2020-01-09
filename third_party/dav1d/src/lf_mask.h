@@ -245,10 +245,10 @@ DAMAGE
 /
 #
 ifndef
-__DAV1D_SRC_LF_MASK_H__
+DAV1D_SRC_LF_MASK_H
 #
 define
-__DAV1D_SRC_LF_MASK_H__
+DAV1D_SRC_LF_MASK_H
 #
 include
 <
@@ -650,6 +650,6 @@ lf_delta
 endif
 /
 *
-__DAV1D_SRC_LF_MASK_H__
+DAV1D_SRC_LF_MASK_H
 *
 /

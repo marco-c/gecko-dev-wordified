@@ -245,10 +245,10 @@ DAMAGE
 /
 #
 ifndef
-__DAV1D_SRC_WEDGE_H__
+DAV1D_SRC_WEDGE_H
 #
 define
-__DAV1D_SRC_WEDGE_H__
+DAV1D_SRC_WEDGE_H
 #
 include
 "
@@ -335,6 +335,6 @@ N_INTER_INTRA_PRED_MODES
 endif
 /
 *
-__DAV1D_SRC_WEDGE_H__
+DAV1D_SRC_WEDGE_H
 *
 /

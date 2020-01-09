@@ -843,6 +843,8 @@ n
 -
 -
 filmgrain
+num
+:
 enable
 film
 grain
@@ -1145,6 +1147,9 @@ const
 unsigned
 res
 =
+(
+unsigned
+)
 strtoul
 (
 optarg
@@ -1453,6 +1458,9 @@ optarg
 {
 res
 =
+(
+unsigned
+)
 strtoul
 (
 &
@@ -1470,6 +1478,9 @@ else
 {
 res
 =
+(
+unsigned
+)
 strtoul
 (
 optarg

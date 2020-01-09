@@ -245,10 +245,10 @@ DAMAGE
 /
 #
 ifndef
-__DAV1D_SRC_DATA_H__
+DAV1D_SRC_DATA_H
 #
 define
-__DAV1D_SRC_DATA_H__
+DAV1D_SRC_DATA_H
 #
 include
 "
@@ -335,6 +335,14 @@ Dav1dDataProps
 src
 )
 ;
+void
+dav1d_data_props_set_defaults
+(
+Dav1dDataProps
+*
+props
+)
+;
 uint8_t
 *
 dav1d_data_create_internal
@@ -418,6 +426,6 @@ buf
 endif
 /
 *
-__DAV1D_SRC_DATA_H__
+DAV1D_SRC_DATA_H
 *
 /

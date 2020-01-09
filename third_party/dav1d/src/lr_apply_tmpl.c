@@ -949,7 +949,7 @@ sby
 )
 {
 const
-ptrdiff_t
+int
 offset
 =
 8
@@ -1334,7 +1334,7 @@ h
 )
 ;
 const
-ptrdiff_t
+int
 offset_uv
 =
 offset
@@ -2740,7 +2740,7 @@ sby
 )
 {
 const
-ptrdiff_t
+int
 offset_y
 =
 8
@@ -3072,7 +3072,7 @@ h
 )
 ;
 const
-ptrdiff_t
+int
 offset_uv
 =
 offset_y

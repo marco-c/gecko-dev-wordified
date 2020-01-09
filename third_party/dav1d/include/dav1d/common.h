@@ -245,10 +245,10 @@ DAMAGE
 /
 #
 ifndef
-__DAV1D_COMMON_H__
+DAV1D_COMMON_H
 #
 define
-__DAV1D_COMMON_H__
+DAV1D_COMMON_H
 #
 include
 <
@@ -523,5 +523,7 @@ Dav1dDataProps
 #
 endif
 /
+*
+DAV1D_COMMON_H
+*
 /
-__DAV1D_COMMON_H__

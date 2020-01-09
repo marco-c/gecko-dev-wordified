@@ -245,10 +245,10 @@ DAMAGE
 /
 #
 ifndef
-__DAV1D_SRC_DECODE_H__
+DAV1D_SRC_DECODE_H
 #
 define
-__DAV1D_SRC_DECODE_H__
+DAV1D_SRC_DECODE_H
 #
 include
 "
@@ -270,6 +270,6 @@ c
 endif
 /
 *
-__DAV1D_SRC_DECODE_H__
+DAV1D_SRC_DECODE_H
 *
 /

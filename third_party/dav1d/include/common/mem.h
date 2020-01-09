@@ -245,10 +245,10 @@ DAMAGE
 /
 #
 ifndef
-__DAV1D_COMMON_MEM_H__
+DAV1D_COMMON_MEM_H
 #
 define
-__DAV1D_COMMON_MEM_H__
+DAV1D_COMMON_MEM_H
 #
 include
 <
@@ -527,6 +527,6 @@ NULL
 endif
 /
 *
-__DAV1D_COMMON_MEM_H__
+DAV1D_COMMON_MEM_H
 *
 /

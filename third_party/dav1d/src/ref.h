@@ -245,10 +245,10 @@ DAMAGE
 /
 #
 ifndef
-__DAV1D_SRC_REF_H__
+DAV1D_SRC_REF_H
 #
 define
-__DAV1D_SRC_REF_H__
+DAV1D_SRC_REF_H
 #
 include
 "
@@ -372,6 +372,6 @@ ref
 endif
 /
 *
-__DAV1D_SRC_REF_H__
+DAV1D_SRC_REF_H
 *
 /

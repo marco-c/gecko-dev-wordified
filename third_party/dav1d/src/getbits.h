@@ -245,10 +245,10 @@ DAMAGE
 /
 #
 ifndef
-__DAV1D_SRC_GETBITS_H__
+DAV1D_SRC_GETBITS_H
 #
 define
-__DAV1D_SRC_GETBITS_H__
+DAV1D_SRC_GETBITS_H
 #
 include
 <
@@ -321,6 +321,14 @@ GetBits
 c
 unsigned
 n
+)
+;
+unsigned
+dav1d_get_uleb128
+(
+GetBits
+*
+c
 )
 ;
 /
@@ -416,6 +424,9 @@ c
 {
 return
 (
+unsigned
+)
+(
 c
 -
 >
@@ -439,6 +450,6 @@ bits_left
 endif
 /
 *
-__DAV1D_SRC_GETBITS_H__
+DAV1D_SRC_GETBITS_H
 *
 /

@@ -245,10 +245,10 @@ DAMAGE
 /
 #
 ifndef
-__DAV1D_SRC_CPU_H__
+DAV1D_SRC_CPU_H
 #
 define
-__DAV1D_SRC_CPU_H__
+DAV1D_SRC_CPU_H
 #
 include
 "
@@ -317,6 +317,6 @@ mask
 endif
 /
 *
-__DAV1D_SRC_CPU_H__
+DAV1D_SRC_CPU_H
 *
 /

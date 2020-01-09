@@ -497,12 +497,17 @@ const
 int
 tile_thread_idx
 =
+(
+int
+)
+(
 t
 -
 f
 -
 >
 tc
+)
 ;
 const
 uint64_t

@@ -245,10 +245,10 @@ DAMAGE
 /
 #
 ifndef
-__DAV1D_OUTPUT_MUXER_H__
+DAV1D_OUTPUT_MUXER_H
 #
 define
-__DAV1D_OUTPUT_MUXER_H__
+DAV1D_OUTPUT_MUXER_H
 #
 include
 "
@@ -388,6 +388,6 @@ Muxer
 endif
 /
 *
-__DAV1D_OUTPUT_MUXER_H__
+DAV1D_OUTPUT_MUXER_H
 *
 /

@@ -245,10 +245,10 @@ DAMAGE
 /
 #
 ifndef
-__DAV1D_SRC_TABLES_H__
+DAV1D_SRC_TABLES_H
 #
 define
-__DAV1D_SRC_TABLES_H__
+DAV1D_SRC_TABLES_H
 #
 include
 <
@@ -819,8 +819,8 @@ dav1d_sgr_params
 ;
 extern
 const
-int
-dav1d_sgr_x_by_xplus1
+uint8_t
+dav1d_sgr_x_by_x
 [
 256
 ]
@@ -912,6 +912,6 @@ fgs
 endif
 /
 *
-__DAV1D_SRC_TABLES_H__
+DAV1D_SRC_TABLES_H
 *
 /

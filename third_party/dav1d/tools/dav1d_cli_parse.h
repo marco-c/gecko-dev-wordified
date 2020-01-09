@@ -245,13 +245,15 @@ DAMAGE
 /
 #
 ifndef
-__DAV1D_CLI_PARSE_H__
+DAV1D_CLI_PARSE_H
 #
 define
-__DAV1D_CLI_PARSE_H__
+DAV1D_CLI_PARSE_H
 #
 include
 "
+dav1d
+/
 dav1d
 .
 h
@@ -320,6 +322,6 @@ lib_settings
 endif
 /
 *
-__DAV1D_CLI_PARSE_H__
+DAV1D_CLI_PARSE_H
 *
 /

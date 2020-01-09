@@ -245,10 +245,10 @@ DAMAGE
 /
 #
 ifndef
-__DAV1D_SRC_QM_H__
+DAV1D_SRC_QM_H
 #
 define
-__DAV1D_SRC_QM_H__
+DAV1D_SRC_QM_H
 #
 include
 "
@@ -283,6 +283,6 @@ void
 endif
 /
 *
-__DAV1D_SRC_QM_H__
+DAV1D_SRC_QM_H
 *
 /

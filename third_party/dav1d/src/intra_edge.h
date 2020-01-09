@@ -245,10 +245,10 @@ DAMAGE
 /
 #
 ifndef
-__DAV1D_SRC_INTRA_EDGE_H__
+DAV1D_SRC_INTRA_EDGE_H
 #
 define
-__DAV1D_SRC_INTRA_EDGE_H__
+DAV1D_SRC_INTRA_EDGE_H
 enum
 EdgeFlags
 {
@@ -393,6 +393,6 @@ allow_sb128
 endif
 /
 *
-__DAV1D_SRC_INTRA_EDGE_H__
+DAV1D_SRC_INTRA_EDGE_H
 *
 /

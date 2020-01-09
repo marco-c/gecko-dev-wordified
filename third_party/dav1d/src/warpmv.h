@@ -245,10 +245,10 @@ DAMAGE
 /
 #
 ifndef
-__DAV1D_SRC_WARPMV_H__
+DAV1D_SRC_WARPMV_H
 #
 define
-__DAV1D_SRC_WARPMV_H__
+DAV1D_SRC_WARPMV_H
 #
 include
 "
@@ -302,6 +302,6 @@ bx
 endif
 /
 *
-__DAV1D_SRC_WARPMV_H__
+DAV1D_SRC_WARPMV_H
 *
 /

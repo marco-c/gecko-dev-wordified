@@ -245,10 +245,10 @@ DAMAGE
 /
 #
 ifndef
-__DAV1D_SRC_LF_APPLY_H__
+DAV1D_SRC_LF_APPLY_H
 #
 define
-__DAV1D_SRC_LF_APPLY_H__
+DAV1D_SRC_LF_APPLY_H
 #
 include
 <
@@ -313,6 +313,6 @@ start_of_tile_row
 endif
 /
 *
-__DAV1D_SRC_LF_APPLY_H__
+DAV1D_SRC_LF_APPLY_H
 *
 /

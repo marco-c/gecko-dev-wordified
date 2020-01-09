@@ -1852,6 +1852,10 @@ sw
 x
 ]
 =
+(
+coef
+)
+(
 out
 [
 y
@@ -1864,6 +1868,7 @@ x
 0
 .
 5
+)
 ;
 return
 copy_subcoefs
