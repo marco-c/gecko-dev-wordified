@@ -114,13 +114,11 @@ height
 is
 24px
 +
-2px
+1px
 for
 its
 top
-and
-bottom
-borders
+border
 *
 /
 -
@@ -131,7 +129,7 @@ searchbar
 -
 height
 :
-26px
+25px
 ;
 }
 :

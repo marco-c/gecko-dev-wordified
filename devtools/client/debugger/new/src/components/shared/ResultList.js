@@ -338,6 +338,11 @@ icon
 (
 <
 div
+className
+=
+"
+icon
+"
 >
 <
 AccessibleImage
