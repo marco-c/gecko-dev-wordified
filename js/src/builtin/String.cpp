@@ -782,6 +782,12 @@ uint32_t
 newLengthOut
 )
 {
+/
+/
+clang
+-
+format
+off
 static
 const
 uint8_t
@@ -979,6 +985,12 @@ DEL
 /
 }
 ;
+/
+/
+clang
+-
+format
+on
 /
 *
 Take

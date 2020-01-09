@@ -976,6 +976,12 @@ Count
 ;
 }
 ;
+/
+/
+clang
+-
+format
+off
 #
 define
 FOR_EACH_SRC_NOTE_TYPE
@@ -1458,6 +1464,12 @@ notes
 .
 *
 /
+/
+/
+clang
+-
+format
+on
 enum
 SrcNoteType
 {
