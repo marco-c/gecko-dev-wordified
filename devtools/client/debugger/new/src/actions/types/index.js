@@ -647,17 +647,6 @@ ProjectTextSearchResult
 type
 :
 "
-CLEAR_QUERY
-"
-|
-}
-|
-{
-|
-+
-type
-:
-"
 UPDATE_STATUS
 "
 +

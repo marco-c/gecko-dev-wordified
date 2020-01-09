@@ -80,7 +80,6 @@ types
 import
 {
 parseScript
-parseConsoleScript
 }
 from
 "
@@ -272,6 +271,10 @@ mapOriginalExpression
 expression
 :
 string
+ast
+:
+?
+Object
 mappings
 :
 {
@@ -287,14 +290,6 @@ null
 :
 string
 {
-const
-ast
-=
-parseConsoleScript
-(
-expression
-)
-;
 const
 scopes
 =
