@@ -1746,7 +1746,7 @@ mLayerManager
 (
 nullptr
 )
-mCrossProcessParent
+mContentCompositorBridgeParent
 (
 nullptr
 )
@@ -10467,7 +10467,7 @@ sIndirectLayerTrees
 child
 ]
 .
-mCrossProcessParent
+mContentCompositorBridgeParent
 ;
 }
 parent
@@ -12291,7 +12291,7 @@ CrossProcessSharingController
 const
 {
 return
-mCrossProcessParent
+mContentCompositorBridgeParent
 ;
 }
 MetricsSharingController
@@ -12983,7 +12983,7 @@ if
 lts
 -
 >
-mCrossProcessParent
+mContentCompositorBridgeParent
 &
 &
 lts
@@ -13002,7 +13002,7 @@ cpcp
 lts
 -
 >
-mCrossProcessParent
+mContentCompositorBridgeParent
 ;
 cpcp
 -
@@ -13086,7 +13086,7 @@ if
 lts
 -
 >
-mCrossProcessParent
+mContentCompositorBridgeParent
 )
 {
 ContentCompositorBridgeParent
@@ -13096,7 +13096,7 @@ cpcp
 lts
 -
 >
-mCrossProcessParent
+mContentCompositorBridgeParent
 ;
 Unused
 <

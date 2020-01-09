@@ -753,7 +753,7 @@ mLayerManager
 state
 -
 >
-mCrossProcessParent
+mContentCompositorBridgeParent
 =
 this
 ;
@@ -1905,7 +1905,7 @@ sIndirectLayerTrees
 layersId
 ]
 .
-mCrossProcessParent
+mContentCompositorBridgeParent
 =
 this
 ;
@@ -2098,7 +2098,7 @@ mParent
 lts
 -
 >
-mCrossProcessParent
+mContentCompositorBridgeParent
 =
 =
 this

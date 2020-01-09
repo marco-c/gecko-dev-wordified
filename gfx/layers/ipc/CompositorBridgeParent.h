@@ -3159,7 +3159,7 @@ the
 PCompositorBridgeChild
 ContentCompositorBridgeParent
 *
-mCrossProcessParent
+mContentCompositorBridgeParent
 ;
 TargetConfig
 mTargetConfig
