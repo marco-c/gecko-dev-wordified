@@ -2679,9 +2679,6 @@ provider
 exclude
 :
 [
-"
-RETURN_TO_AMO_1
-"
 ]
 }
 )
