@@ -2015,6 +2015,7 @@ removeUpdateDirsAndFiles
 ;
 reloadUpdateManagerData
 (
+true
 )
 ;
 Services

@@ -2198,8 +2198,9 @@ attribute
 MSG_SHOULD_EQUAL
 )
 ;
-doTestFinish
+stop_httpserver
 (
+doTestFinish
 )
 ;
 }
