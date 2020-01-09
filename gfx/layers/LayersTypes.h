@@ -193,6 +193,13 @@ h
 "
 #
 include
+"
+nsStyleConsts
+.
+h
+"
+#
+include
 <
 stdio
 .
@@ -2171,7 +2178,7 @@ BorderWidths
 typedef
 Array
 <
-uint8_t
+StyleBorderStyle
 4
 >
 BorderStyles

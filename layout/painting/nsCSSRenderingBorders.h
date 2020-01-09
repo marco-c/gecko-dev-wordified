@@ -624,7 +624,10 @@ Rect
 &
 aOuterRect
 const
-uint8_t
+mozilla
+:
+:
+StyleBorderStyle
 *
 aBorderStyles
 const
@@ -863,7 +866,10 @@ size
 of
 the
 border
-uint8_t
+mozilla
+:
+:
+StyleBorderStyle
 mBorderStyles
 [
 4
@@ -977,7 +983,10 @@ color
 bool
 IsSolidCornerStyle
 (
-uint8_t
+mozilla
+:
+:
+StyleBorderStyle
 aStyle
 mozilla
 :
@@ -1028,7 +1037,10 @@ used
 BorderColorStyle
 BorderColorStyleForSolidCorner
 (
-uint8_t
+mozilla
+:
+:
+StyleBorderStyle
 aStyle
 mozilla
 :

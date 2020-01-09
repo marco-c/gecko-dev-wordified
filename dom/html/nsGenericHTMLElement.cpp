@@ -9088,7 +9088,10 @@ aDecls
 SetKeywordValueIfUnset
 (
 eCSSProperty_border_top_style
-NS_STYLE_BORDER_STYLE_SOLID
+StyleBorderStyle
+:
+:
+Solid
 )
 ;
 aDecls
@@ -9096,7 +9099,10 @@ aDecls
 SetKeywordValueIfUnset
 (
 eCSSProperty_border_right_style
-NS_STYLE_BORDER_STYLE_SOLID
+StyleBorderStyle
+:
+:
+Solid
 )
 ;
 aDecls
@@ -9104,7 +9110,10 @@ aDecls
 SetKeywordValueIfUnset
 (
 eCSSProperty_border_bottom_style
-NS_STYLE_BORDER_STYLE_SOLID
+StyleBorderStyle
+:
+:
+Solid
 )
 ;
 aDecls
@@ -9112,7 +9121,10 @@ aDecls
 SetKeywordValueIfUnset
 (
 eCSSProperty_border_left_style
-NS_STYLE_BORDER_STYLE_SOLID
+StyleBorderStyle
+:
+:
+Solid
 )
 ;
 aDecls

@@ -12554,7 +12554,10 @@ outline
 mOutlineStyle
 =
 =
-NS_STYLE_BORDER_STYLE_NONE
+StyleBorderStyle
+:
+:
+None
 )
 {
 NS_ASSERTION

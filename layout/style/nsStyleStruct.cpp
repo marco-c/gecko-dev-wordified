@@ -1883,7 +1883,10 @@ mBorderStyle
 side
 ]
 =
-NS_STYLE_BORDER_STYLE_NONE
+StyleBorderStyle
+:
+:
+None
 ;
 }
 mTwipsPerPixel
@@ -2909,7 +2912,10 @@ CurrentColor
 )
 mOutlineStyle
 (
-NS_STYLE_BORDER_STYLE_NONE
+StyleBorderStyle
+:
+:
+None
 )
 mActualOutlineWidth
 (
@@ -3032,7 +3038,10 @@ RecalcData
 {
 if
 (
-NS_STYLE_BORDER_STYLE_NONE
+StyleBorderStyle
+:
+:
+None
 =
 =
 mOutlineStyle
@@ -4115,7 +4124,10 @@ CurrentColor
 )
 mColumnRuleStyle
 (
-NS_STYLE_BORDER_STYLE_NONE
+StyleBorderStyle
+:
+:
+None
 )
 mColumnRuleWidth
 (

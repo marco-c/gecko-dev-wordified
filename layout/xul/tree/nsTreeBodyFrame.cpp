@@ -19892,7 +19892,7 @@ color
 )
 )
 ;
-uint8_t
+StyleBorderStyle
 style
 =
 borderStyle
