@@ -78,6 +78,11 @@ h
 #
 include
 <
+new
+>
+#
+include
+<
 stdio
 .
 h

@@ -55,6 +55,11 @@ SkPathOpsBounds
 h
 "
 #
+include
+<
+utility
+>
+#
 if
 DEBUG_ADD_INTERSECTING_TS
 static
@@ -5106,7 +5111,13 @@ if
 swap
 )
 {
-SkTSwap
+using
+std
+:
+:
+swap
+;
+swap
 (
 coinPtT
 [
@@ -5118,7 +5129,7 @@ coinPtT
 ]
 )
 ;
-SkTSwap
+swap
 (
 testTAt
 nextTAt

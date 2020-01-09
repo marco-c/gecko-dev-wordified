@@ -709,9 +709,9 @@ Token
 (
 Kind
 kind
-int
+int32_t
 offset
-int
+int32_t
 length
 )
 :
@@ -752,7 +752,7 @@ const
 char
 *
 text
-size_t
+int32_t
 length
 )
 {
@@ -781,10 +781,10 @@ char
 *
 fText
 ;
-int
+int32_t
 fLength
 ;
-int
+int32_t
 fOffset
 ;
 }

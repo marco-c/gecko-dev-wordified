@@ -203,7 +203,7 @@ t
 *
 fCg
 ;
-SkPM4f
+SkPMColor4f
 fCb
 fCg
 ;

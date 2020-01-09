@@ -297,9 +297,10 @@ info
 )
 ;
 }
-const
+sk_sp
+<
 SkData
-*
+>
 SkAutoPixmapStorage
 :
 :
@@ -317,7 +318,10 @@ return
 nullptr
 ;
 }
-auto
+sk_sp
+<
+SkData
+>
 data
 =
 SkData
@@ -350,9 +354,5 @@ reset
 ;
 return
 data
-.
-release
-(
-)
 ;
 }

@@ -615,7 +615,7 @@ ok
 ?
 sum
 :
-SK_MaxSizeT
+SIZE_MAX
 ;
 }
 size_t
@@ -653,6 +653,6 @@ ok
 ?
 prod
 :
-SK_MaxSizeT
+SIZE_MAX
 ;
 }

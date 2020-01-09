@@ -1135,10 +1135,6 @@ new
 SkCanvas
 (
 device
-.
-get
-(
-)
 )
 )
 ;
@@ -1302,6 +1298,10 @@ sk_sp
 SkColorSpace
 >
 colorSpace
+const
+SkSurfaceProps
+*
+props
 )
 {
 if
@@ -1323,6 +1323,10 @@ renderTargetContext
 context
 -
 >
+contextPriv
+(
+)
+.
 makeDeferredRenderTargetContext
 (
 SkBackingFit
@@ -1339,6 +1343,13 @@ move
 (
 colorSpace
 )
+1
+GrMipMapped
+:
+:
+kNo
+kBottomLeft_GrSurfaceOrigin
+props
 )
 )
 ;

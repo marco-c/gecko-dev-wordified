@@ -82,12 +82,8 @@ SkBmpRLECodec
 :
 SkBmpRLECodec
 (
-int
-width
-int
-height
-const
 SkEncodedInfo
+&
 &
 info
 std
@@ -115,9 +111,13 @@ rowOrder
 :
 INHERITED
 (
-width
-height
+std
+:
+:
+move
+(
 info
+)
 std
 :
 :
@@ -1933,7 +1933,7 @@ width
 this
 -
 >
-getInfo
+dimensions
 (
 )
 .
@@ -2008,7 +2008,6 @@ Fill
 dstInfo
 dst
 dstRowBytes
-SK_ColorTRANSPARENT
 opts
 .
 fZeroInitialized
@@ -2340,7 +2339,7 @@ width
 this
 -
 >
-getInfo
+dimensions
 (
 )
 .
@@ -3592,7 +3591,7 @@ Make
 this
 -
 >
-getInfo
+dimensions
 (
 )
 .
@@ -3849,7 +3848,7 @@ get_scaled_dimension
 this
 -
 >
-getInfo
+dimensions
 (
 )
 .

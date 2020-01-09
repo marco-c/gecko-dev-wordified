@@ -49,6 +49,13 @@ h
 #
 include
 "
+SkNoncopyable
+.
+h
+"
+#
+include
+"
 SkTypes
 .
 h

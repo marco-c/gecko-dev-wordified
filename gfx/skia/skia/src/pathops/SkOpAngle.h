@@ -450,6 +450,15 @@ SkOpAngle
 test
 )
 ;
+int
+allOnOriginalSide
+(
+const
+SkOpAngle
+*
+test
+)
+;
 bool
 checkCrossesZero
 (
@@ -554,7 +563,7 @@ rh
 )
 const
 ;
-bool
+int
 orderable
 (
 SkOpAngle
@@ -577,6 +586,12 @@ true
 this
 >
 rh
+;
+-
+1
+=
+=
+unorderable
 void
 setSector
 (

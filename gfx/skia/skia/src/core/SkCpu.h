@@ -246,6 +246,12 @@ CRC32
 <
 <
 3
+ASIMDHP
+=
+1
+<
+<
+4
 }
 ;
 static

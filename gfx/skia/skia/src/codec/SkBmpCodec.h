@@ -230,12 +230,8 @@ protected
 :
 SkBmpCodec
 (
-int
-width
-int
-height
-const
 SkEncodedInfo
+&
 &
 info
 std
@@ -675,10 +671,7 @@ constexpr
 auto
 kXformSrcColorFormat
 =
-SkColorSpaceXform
-:
-:
-kBGRA_8888_ColorFormat
+skcms_PixelFormat_BGRA_8888
 ;
 private
 :

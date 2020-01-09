@@ -507,7 +507,7 @@ outReturnType
 )
 const
 {
-ASSERT
+SkASSERT
 (
 arguments
 .
@@ -710,7 +710,7 @@ Type
 kGeneric_Kind
 )
 {
-ASSERT
+SkASSERT
 (
 genericIndex
 !

@@ -61,6 +61,9 @@ SkVertices
 h
 "
 class
+SkColorSpace
+;
+class
 SK_API
 SkPatchUtils
 {
@@ -303,10 +306,11 @@ int
 lodX
 int
 lodY
-bool
-interpColorsLinearly
+SkColorSpace
+*
+colorSpace
 =
-false
+nullptr
 )
 ;
 }

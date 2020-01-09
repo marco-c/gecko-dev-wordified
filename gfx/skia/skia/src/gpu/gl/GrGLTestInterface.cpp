@@ -55,9 +55,7 @@ A
 GrGLFunction
 <
 R
-(
-*
-)
+GR_GL_FUNCTION_TYPE
 (
 A
 .

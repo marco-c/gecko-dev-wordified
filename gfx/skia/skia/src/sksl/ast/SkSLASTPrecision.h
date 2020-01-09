@@ -182,7 +182,7 @@ float
 ;
 default
 :
-ASSERT
+SkASSERT
 (
 false
 )
@@ -198,7 +198,7 @@ error
 )
 ;
 }
-ASSERT
+SkASSERT
 (
 false
 )

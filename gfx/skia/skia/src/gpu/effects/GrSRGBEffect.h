@@ -211,10 +211,12 @@ GrFragmentProcessor
 const
 override
 ;
-GrColor4f
+SkPMColor4f
 constantOutputForConstantInput
 (
-GrColor4f
+const
+SkPMColor4f
+&
 input
 )
 const

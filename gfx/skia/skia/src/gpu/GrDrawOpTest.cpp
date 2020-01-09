@@ -57,6 +57,13 @@ h
 #
 include
 "
+GrContextPriv
+.
+h
+"
+#
+include
+"
 GrUserStencilSettings
 .
 h
@@ -96,6 +103,10 @@ if
 context
 -
 >
+contextPriv
+(
+)
+.
 caps
 (
 )

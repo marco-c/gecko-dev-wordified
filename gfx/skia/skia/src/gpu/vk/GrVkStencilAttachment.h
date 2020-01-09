@@ -203,6 +203,11 @@ ImageDesc
 const
 GrVkImageInfo
 &
+sk_sp
+<
+GrVkImageLayout
+>
+layout
 const
 GrVkImageView
 *

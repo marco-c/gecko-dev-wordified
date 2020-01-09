@@ -1236,6 +1236,12 @@ zeroAlphas
 #
 undef
 XFERMODE
+#
+if
+defined
+(
+SK_LEGACY_4F_XFERMODES
+)
 /
 /
 Some
@@ -1935,6 +1941,8 @@ colors
 #
 undef
 XFERMODE
+#
+endif
 /
 /
 A
@@ -2353,6 +2361,12 @@ Xfermode
 }
 }
 ;
+#
+if
+defined
+(
+SK_LEGACY_4F_XFERMODES
+)
 template
 <
 typename
@@ -2603,6 +2617,8 @@ c
 }
 }
 ;
+#
+endif
 }
 /
 /
@@ -2768,6 +2784,12 @@ Lighten
 undef
 CASE
 #
+if
+defined
+(
+SK_LEGACY_4F_XFERMODES
+)
+#
 define
 CASE
 (
@@ -2809,6 +2831,8 @@ SoftLight
 #
 undef
 CASE
+#
+endif
 default
 :
 break

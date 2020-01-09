@@ -640,6 +640,13 @@ maxVal
 )
 ;
 genType
+saturate
+(
+genType
+x
+)
+;
+genType
 mix
 (
 genType
@@ -938,6 +945,7 @@ genDType
 c
 )
 ;
+sk_has_side_effects
 genType
 frexp
 (
@@ -3305,8 +3313,6 @@ int2
 offset
 )
 ;
-*
-/
 float4
 texelFetch
 (
@@ -3347,8 +3353,6 @@ int2
 P
 )
 ;
-/
-*
 gfloat4
 texelFetch
 (

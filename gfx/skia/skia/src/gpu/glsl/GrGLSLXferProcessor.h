@@ -165,6 +165,17 @@ xp
 fInputColor
 (
 inputColor
+?
+inputColor
+:
+"
+half4
+(
+1
+.
+0
+)
+"
 )
 fInputCoverage
 (

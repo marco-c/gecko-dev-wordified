@@ -863,7 +863,6 @@ bits
 /
 SkDEBUGF
 (
-(
 "
 (
 %
@@ -883,7 +882,6 @@ u_
 .
 value_
 dist
-)
 )
 ;
 return

@@ -151,9 +151,6 @@ copyParams
 GrUniqueKey
 *
 copyKey
-SkColorSpace
-*
-dstColorSpace
 )
 override
 ;
@@ -164,6 +161,8 @@ const
 GrUniqueKey
 &
 copyKey
+uint32_t
+contextUniqueID
 )
 override
 ;

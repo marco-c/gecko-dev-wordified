@@ -337,9 +337,10 @@ NULL
 .
 *
 /
-const
+sk_sp
+<
 SkData
-*
+>
 SK_WARN_UNUSED_RESULT
 detachPixelsAsData
 (

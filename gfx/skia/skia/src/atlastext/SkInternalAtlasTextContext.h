@@ -68,10 +68,10 @@ SkRefCnt
 h
 "
 class
-GrAtlasGlyphCache
+GrContext
 ;
 class
-GrContext
+GrGlyphCache
 ;
 class
 GrTextBlobCache
@@ -175,9 +175,9 @@ get
 )
 ;
 }
-GrAtlasGlyphCache
+GrGlyphCache
 *
-atlasGlyphCache
+glyphCache
 (
 )
 ;

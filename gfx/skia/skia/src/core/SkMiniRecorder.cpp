@@ -96,6 +96,11 @@ SkTextBlob
 .
 h
 "
+#
+include
+<
+new
+>
 using
 namespace
 SkRecords

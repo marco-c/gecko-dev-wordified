@@ -94,6 +94,9 @@ GrDrawOp
 >
 Make
 (
+GrContext
+*
+context
 GrPaint
 &
 &
@@ -129,6 +132,7 @@ FactoryHelper
 GrDrawAtlasOp
 >
 (
+context
 std
 :
 :
@@ -236,8 +240,6 @@ const
 GrAppliedClip
 *
 clip
-GrPixelConfigIsClamped
-dstIsClamped
 )
 override
 ;
@@ -293,7 +295,7 @@ return
 fQuadCount
 ;
 }
-bool
+CombineResult
 onCombineIfPossible
 (
 GrOp

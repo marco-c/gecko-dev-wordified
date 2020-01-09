@@ -54,8 +54,15 @@ sk_ClipDistance
 }
 sk_in
 [
+1
 ]
 ;
+layout
+(
+builtin
+=
+10007
+)
 out
 sk_PerVertex
 {
@@ -97,6 +104,7 @@ builtin
 =
 8
 )
+in
 int
 sk_InvocationID
 ;

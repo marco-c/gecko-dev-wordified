@@ -863,7 +863,6 @@ isMixedSamples
 const
 GrCaps
 &
-GrPixelConfigIsClamped
 GrColor
 *
 inputColorOverride
@@ -996,7 +995,7 @@ i
 while
 (
 const
-GrResourceIOProcessor
+GrFragmentProcessor
 :
 :
 TextureSampler

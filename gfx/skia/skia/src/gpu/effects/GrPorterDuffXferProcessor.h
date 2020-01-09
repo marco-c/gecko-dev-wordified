@@ -292,7 +292,6 @@ GrProcessorAnalysisCoverage
 const
 GrCaps
 &
-GrPixelConfigIsClamped
 )
 ;
 private
@@ -319,7 +318,6 @@ hasMixedSamples
 const
 GrCaps
 &
-GrPixelConfigIsClamped
 )
 const
 override
@@ -336,7 +334,6 @@ GrProcessorAnalysisCoverage
 const
 GrCaps
 &
-GrPixelConfigIsClamped
 )
 const
 override

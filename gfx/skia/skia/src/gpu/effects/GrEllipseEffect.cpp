@@ -255,9 +255,6 @@ GrEllipseEffect
 h
 "
 #
-if
-SK_SUPPORT_GPU
-#
 include
 "
 glsl
@@ -875,17 +872,6 @@ fOutputColor
 args
 .
 fInputColor
-?
-args
-.
-fInputColor
-:
-"
-half4
-(
-1
-)
-"
 )
 ;
 }
@@ -1609,7 +1595,5 @@ shaderCaps
 )
 ;
 }
-#
-endif
 #
 endif

@@ -163,7 +163,6 @@ GrProcessorAnalysisCoverage
 const
 GrCaps
 &
-GrPixelConfigIsClamped
 )
 const
 override
@@ -196,7 +195,6 @@ hasMixedSamples
 const
 GrCaps
 &
-GrPixelConfigIsClamped
 )
 const
 override

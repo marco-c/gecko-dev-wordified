@@ -46,6 +46,11 @@ SkTypes
 .
 h
 "
+#
+include
+<
+new
+>
 template
 <
 typename

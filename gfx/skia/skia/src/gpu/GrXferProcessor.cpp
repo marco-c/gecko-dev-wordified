@@ -43,16 +43,14 @@ h
 #
 include
 "
-GrPipeline
+GrCaps
 .
 h
 "
 #
 include
 "
-gl
-/
-GrGLCaps
+GrPipeline
 .
 h
 "
@@ -841,8 +839,6 @@ const
 GrCaps
 &
 caps
-GrPixelConfigIsClamped
-dstIsClamped
 )
 {
 AnalysisProperties
@@ -863,7 +859,6 @@ analysisProperties
 color
 coverage
 caps
-dstIsClamped
 )
 ;
 }
@@ -879,7 +874,6 @@ SrcOverAnalysisProperties
 color
 coverage
 caps
-dstIsClamped
 )
 ;
 }
@@ -978,8 +972,6 @@ const
 GrCaps
 &
 caps
-GrPixelConfigIsClamped
-dstIsClamped
 )
 {
 SkASSERT
@@ -1015,7 +1007,6 @@ color
 coverage
 hasMixedSamples
 caps
-dstIsClamped
 )
 ;
 }

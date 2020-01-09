@@ -44,6 +44,13 @@ SkBuffer_DEFINED
 #
 include
 "
+SkNoncopyable
+.
+h
+"
+#
+include
+"
 SkSafeMath
 .
 h
@@ -62,6 +69,11 @@ SkTypes
 .
 h
 "
+#
+include
+<
+limits
+>
 /
 *
 *

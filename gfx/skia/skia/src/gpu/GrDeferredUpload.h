@@ -742,7 +742,7 @@ private
 /
 Only
 these
-two
+three
 classes
 get
 to
@@ -757,6 +757,10 @@ SkInternalAtlasTextContext
 friend
 class
 GrOpFlushState
+;
+friend
+class
+TestingUploadTarget
 ;
 /
 *

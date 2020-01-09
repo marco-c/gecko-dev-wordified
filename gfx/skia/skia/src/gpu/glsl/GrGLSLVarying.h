@@ -708,7 +708,7 @@ GrGeometryProcessor
 :
 :
 Attribute
-*
+&
 const
 char
 *

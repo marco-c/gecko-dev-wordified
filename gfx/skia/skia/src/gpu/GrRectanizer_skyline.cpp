@@ -43,7 +43,7 @@ h
 #
 include
 "
-SkPoint
+SkIPoint16
 .
 h
 "

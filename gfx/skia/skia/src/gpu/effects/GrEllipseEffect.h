@@ -261,9 +261,6 @@ SkTypes
 h
 "
 #
-if
-SK_SUPPORT_GPU
-#
 include
 "
 GrShaderCaps
@@ -292,7 +289,9 @@ GrFragmentProcessor
 {
 public
 :
+const
 GrClipEdgeType
+&
 edgeType
 (
 )
@@ -302,7 +301,9 @@ return
 fEdgeType
 ;
 }
+const
 SkPoint
+&
 center
 (
 )
@@ -312,7 +313,9 @@ return
 fCenter
 ;
 }
+const
 SkPoint
+&
 radii
 (
 )
@@ -526,7 +529,5 @@ INHERITED
 ;
 }
 ;
-#
-endif
 #
 endif

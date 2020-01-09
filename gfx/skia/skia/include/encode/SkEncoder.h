@@ -42,7 +42,12 @@ SkEncoder_DEFINED
 #
 include
 "
-SkPixmap
+.
+.
+/
+private
+/
+SkNoncopyable
 .
 h
 "
@@ -55,6 +60,13 @@ include
 private
 /
 SkTemplates
+.
+h
+"
+#
+include
+"
+SkPixmap
 .
 h
 "

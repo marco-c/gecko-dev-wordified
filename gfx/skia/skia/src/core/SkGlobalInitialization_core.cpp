@@ -78,7 +78,7 @@ h
 #
 include
 "
-SkFlattenable
+SkFlattenablePriv
 .
 h
 "
@@ -278,6 +278,10 @@ src
 ports
 )
 InitEffects
+(
+)
+;
+InitImageFilters
 (
 )
 ;

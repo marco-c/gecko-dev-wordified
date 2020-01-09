@@ -47,6 +47,9 @@ GrTypesPriv
 h
 "
 class
+GrContext
+;
+class
 GrDrawOp
 ;
 class
@@ -85,6 +88,8 @@ GrDrawOp
 >
 Make
 (
+GrContext
+*
 GrPaint
 &
 &

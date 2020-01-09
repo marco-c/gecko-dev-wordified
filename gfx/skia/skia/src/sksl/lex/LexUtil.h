@@ -69,7 +69,7 @@ abort
 )
 #
 define
-ASSERT
+SkASSERT
 (
 x
 )
@@ -87,7 +87,7 @@ ABORT
 (
 "
 failed
-assert
+SkASSERT
 (
 %
 s

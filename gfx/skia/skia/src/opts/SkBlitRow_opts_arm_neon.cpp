@@ -66,13 +66,6 @@ h
 #
 include
 "
-SkDither
-.
-h
-"
-#
-include
-"
 SkMathPriv
 .
 h
@@ -80,7 +73,7 @@ h
 #
 include
 "
-SkUtils
+SkUTF
 .
 h
 "

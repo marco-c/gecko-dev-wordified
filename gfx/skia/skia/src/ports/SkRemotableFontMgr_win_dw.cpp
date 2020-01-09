@@ -36,6 +36,13 @@ file
 #
 include
 "
+SkDWriteNTDDI_VERSION
+.
+h
+"
+#
+include
+"
 SkTypes
 .
 h
@@ -126,7 +133,7 @@ h
 #
 include
 "
-SkUtils
+SkUTF
 .
 h
 "
@@ -2039,7 +2046,10 @@ static_cast
 UINT32
 >
 (
-SkUTF16_FromUnichar
+SkUTF
+:
+:
+ToUTF16
 (
 character
 reinterpret_cast

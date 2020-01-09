@@ -42,6 +42,13 @@ SkJSONWriter_DEFINED
 #
 include
 "
+SkNoncopyable
+.
+h
+"
+#
+include
+"
 SkStream
 .
 h

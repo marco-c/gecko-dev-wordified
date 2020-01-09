@@ -315,7 +315,7 @@ if
 modified
 )
 {
-ASSERT
+SkASSERT
 (
 functions
 .
@@ -820,7 +820,7 @@ break
 std
 :
 :
-map
+unordered_map
 <
 StringFragment
 const
@@ -848,7 +848,7 @@ begin
 std
 :
 :
-map
+unordered_map
 <
 StringFragment
 const

@@ -959,7 +959,6 @@ graph
 >
 swap
 (
-&
 result
 )
 ;

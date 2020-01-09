@@ -79,8 +79,14 @@ count
 if
 defined
 (
-__AVX__
+SK_CPU_SSE_LEVEL
 )
+&
+&
+SK_CPU_SSE_LEVEL
+>
+=
+SK_CPU_SSE_LEVEL_AVX
 static
 const
 int

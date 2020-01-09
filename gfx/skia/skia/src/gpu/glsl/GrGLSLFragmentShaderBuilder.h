@@ -732,6 +732,12 @@ getSecondaryColorOutputName
 )
 const
 ;
+bool
+primaryColorOutputIsInOut
+(
+)
+const
+;
 #
 ifdef
 SK_DEBUG

@@ -76,7 +76,7 @@ shader
 /
 Because
 the
-GrAtlasTextContext
+GrTextContext
 can
 go
 out

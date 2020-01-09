@@ -83,6 +83,10 @@ GR_AUDIT_TRAIL_AUTO_FRAME
 context
 -
 >
+contextPriv
+(
+)
+.
 getAuditTrail
 (
 )

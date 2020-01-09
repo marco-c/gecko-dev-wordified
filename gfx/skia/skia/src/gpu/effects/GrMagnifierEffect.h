@@ -261,9 +261,6 @@ SkTypes
 h
 "
 #
-if
-SK_SUPPORT_GPU
-#
 include
 "
 GrFragmentProcessor
@@ -285,7 +282,9 @@ GrFragmentProcessor
 {
 public
 :
+const
 SkIRect
+&
 bounds
 (
 )
@@ -295,7 +294,9 @@ return
 fBounds
 ;
 }
+const
 SkRect
+&
 srcRect
 (
 )
@@ -513,10 +514,9 @@ proxy
 this
 -
 >
-addTextureSampler
+setTextureSamplerCnt
 (
-&
-fSrc
+1
 )
 ;
 this
@@ -559,6 +559,16 @@ GrFragmentProcessor
 const
 override
 ;
+const
+TextureSampler
+&
+onTextureSampler
+(
+int
+)
+const
+override
+;
 GR_DECLARE_FRAGMENT_PROCESSOR_TEST
 TextureSampler
 fSrc
@@ -590,7 +600,5 @@ INHERITED
 ;
 }
 ;
-#
-endif
 #
 endif

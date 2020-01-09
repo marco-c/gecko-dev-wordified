@@ -100,6 +100,13 @@ name
 )
 {
 }
+virtual
+~
+Symbol
+(
+)
+{
+}
 Kind
 fKind
 ;

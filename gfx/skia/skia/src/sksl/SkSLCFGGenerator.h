@@ -154,7 +154,7 @@ expression
 )
 const
 {
-ASSERT
+SkASSERT
 (
 fKind
 =
@@ -179,7 +179,7 @@ Expression
 expr
 )
 {
-ASSERT
+SkASSERT
 (
 fKind
 =
@@ -212,7 +212,7 @@ statement
 )
 const
 {
-ASSERT
+SkASSERT
 (
 fKind
 =
@@ -237,7 +237,7 @@ Statement
 stmt
 )
 {
-ASSERT
+SkASSERT
 (
 fKind
 =
@@ -285,7 +285,7 @@ description
 }
 else
 {
-ASSERT
+SkASSERT
 (
 fKind
 =

@@ -255,9 +255,6 @@ GrBlurredEdgeFragmentProcessor
 h
 "
 #
-if
-SK_SUPPORT_GPU
-#
 include
 "
 glsl
@@ -497,17 +494,6 @@ n
 args
 .
 fInputColor
-?
-args
-.
-fInputColor
-:
-"
-half4
-(
-1
-)
-"
 (
 int
 )
@@ -695,5 +681,3 @@ this
 )
 ;
 }
-#
-endif

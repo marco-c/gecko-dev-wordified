@@ -203,8 +203,11 @@ normalized
 .
 *
 /
-SkIPoint16
-fTextureCoord
+int16_t
+fTextureCoordX
+;
+int16_t
+fTextureCoordY
 ;
 }
 ;

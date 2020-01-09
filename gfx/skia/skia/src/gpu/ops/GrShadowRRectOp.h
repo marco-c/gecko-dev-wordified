@@ -52,6 +52,9 @@ GrColor
 h
 "
 class
+GrContext
+;
+class
 GrDrawOp
 ;
 class
@@ -75,6 +78,8 @@ GrDrawOp
 >
 Make
 (
+GrContext
+*
 GrColor
 const
 SkMatrix
@@ -88,10 +93,6 @@ SkScalar
 blurWidth
 SkScalar
 insetWidth
-SkScalar
-blurClamp
-=
-1
 )
 ;
 }

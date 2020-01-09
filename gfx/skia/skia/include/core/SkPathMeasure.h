@@ -588,9 +588,7 @@ SkPath
 Iter
 fIter
 ;
-const
 SkPath
-*
 fPath
 ;
 SkScalar
@@ -606,7 +604,7 @@ to
 the
 current
 contour
-int
+unsigned
 fFirstPtIndex
 ;
 /
@@ -629,6 +627,17 @@ contour
 bool
 fForceClosed
 ;
+#
+if
+defined
+(
+IS_FUZZING_WITH_LIBFUZZER
+)
+int
+fSubdivisionsMax
+;
+#
+endif
 struct
 Segment
 {
@@ -734,7 +743,7 @@ int
 mint
 int
 maxt
-int
+unsigned
 ptIndex
 )
 ;
@@ -758,7 +767,7 @@ const
 SkPoint
 &
 maxPt
-int
+unsigned
 ptIndex
 )
 ;
@@ -777,7 +786,7 @@ int
 mint
 int
 maxt
-int
+unsigned
 ptIndex
 )
 ;

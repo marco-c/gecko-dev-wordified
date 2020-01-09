@@ -56,6 +56,13 @@ SkLeanWindows
 .
 h
 "
+#
+include
+"
+SkNoncopyable
+.
+h
+"
 /
 *
 *

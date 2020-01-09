@@ -54,6 +54,9 @@ SkRefCnt
 h
 "
 class
+GrContext
+;
+class
 GrDrawOp
 ;
 class
@@ -113,6 +116,8 @@ GrDrawOp
 >
 MakeOvalOp
 (
+GrContext
+*
 GrPaint
 &
 &
@@ -124,8 +129,9 @@ SkRect
 &
 oval
 const
-SkStrokeRec
+GrStyle
 &
+style
 const
 GrShaderCaps
 *
@@ -141,6 +147,8 @@ GrDrawOp
 >
 MakeRRectOp
 (
+GrContext
+*
 GrPaint
 &
 &
@@ -168,6 +176,8 @@ GrDrawOp
 >
 MakeArcOp
 (
+GrContext
+*
 GrPaint
 &
 &

@@ -261,9 +261,6 @@ SkTypes
 h
 "
 #
-if
-SK_SUPPORT_GPU
-#
 include
 "
 GrFragmentProcessor
@@ -285,7 +282,9 @@ GrFragmentProcessor
 {
 public
 :
+const
 GrClipEdgeType
+&
 edgeType
 (
 )
@@ -295,7 +294,9 @@ return
 fEdgeType
 ;
 }
+const
 SkRect
+&
 rect
 (
 )
@@ -446,7 +447,5 @@ INHERITED
 ;
 }
 ;
-#
-endif
 #
 endif

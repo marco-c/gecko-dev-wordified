@@ -46,6 +46,13 @@ SkArenaAlloc
 .
 h
 "
+#
+include
+"
+SkTypes
+.
+h
+"
 /
 *
 *

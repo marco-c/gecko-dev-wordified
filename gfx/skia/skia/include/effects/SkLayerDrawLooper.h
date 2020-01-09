@@ -550,9 +550,6 @@ rec
 const
 override
 ;
-SK_TO_STRING_OVERRIDE
-(
-)
 Factory
 getFactory
 (

@@ -122,6 +122,13 @@ FromGrColor
 (
 color
 )
+.
+asRGBA4f
+<
+kPremul_SkAlphaType
+>
+(
+)
 ;
 }
 for
