@@ -442,15 +442,6 @@ PersistentBufferProvider
 >
 mBufferProvider
 ;
-UniquePtr
-<
-gl
-:
-:
-SharedSurface
->
-mGLFrontbuffer
-;
 RefPtr
 <
 AsyncCanvasRenderer

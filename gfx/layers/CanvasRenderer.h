@@ -310,10 +310,6 @@ mDidTransCallbackData
 (
 nullptr
 )
-mFrontbufferGLTex
-(
-0
-)
 mSize
 (
 0
@@ -409,13 +405,6 @@ mDidTransCallback
 void
 *
 mDidTransCallbackData
-;
-/
-/
-Frontbuffer
-override
-uint32_t
-mFrontbufferGLTex
 ;
 /
 /
