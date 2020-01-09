@@ -9897,6 +9897,7 @@ isGuard
 )
 |
 |
+(
 def
 -
 >
@@ -9919,6 +9920,16 @@ graph
 .
 osrBlock
 (
+)
+&
+&
+!
+def
+-
+>
+isImplicitlyUsed
+(
+)
 )
 )
 &
