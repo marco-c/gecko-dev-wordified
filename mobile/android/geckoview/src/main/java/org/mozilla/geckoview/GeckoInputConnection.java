@@ -3587,12 +3587,14 @@ public
 boolean
 sendKeyEvent
 (
+final
 NonNull
 KeyEvent
 event
 )
 {
-event
+KeyEvent
+translatedEvent
 =
 translateKey
 (
@@ -3616,7 +3618,7 @@ event
 getAction
 (
 )
-event
+translatedEvent
 )
 ;
 return
