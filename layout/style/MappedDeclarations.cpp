@@ -131,6 +131,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h
