@@ -439,7 +439,7 @@ most
 cases
 .
 return
-true
+false
 ;
 }
 nsEventStatus
