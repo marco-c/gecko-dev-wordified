@@ -1821,7 +1821,7 @@ if
 tex
 )
 {
-gfxCriticalNote
+gfxCriticalError
 (
 )
 <
