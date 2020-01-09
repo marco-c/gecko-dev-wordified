@@ -26,13 +26,6 @@ six
 import
 iteritems
 from
-h2
-.
-events
-import
-RequestReceived
-DataReceived
-from
 .
 constants
 import
@@ -534,9 +527,9 @@ path
 )
 }
 #
-flake8
-:
 noqa
+:
+E122
     
 def
 list_items
