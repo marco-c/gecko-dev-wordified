@@ -1224,6 +1224,12 @@ case
 JSOP_DEFVAR
 :
 case
+JSOP_DEFLET
+:
+case
+JSOP_DEFCONST
+:
+case
 JSOP_PUSHLEXICALENV
 :
 case
