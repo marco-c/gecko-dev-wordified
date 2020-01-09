@@ -337,6 +337,15 @@ include
 "
 js
 /
+PropertySpec
+.
+h
+"
+#
+include
+"
+js
+/
 Proxy
 .
 h
