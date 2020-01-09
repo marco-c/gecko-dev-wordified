@@ -128,6 +128,15 @@ nsISupports
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_ITIMEOUTHANDLER_IID
 \
@@ -162,8 +171,9 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_ITIMEOUTHANDLER_IID
 )
+MOZ_CAN_RUN_SCRIPT
 virtual
-nsresult
+void
 Call
 (
 )

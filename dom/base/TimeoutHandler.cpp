@@ -162,7 +162,7 @@ mColumn
 )
 ;
 }
-nsresult
+void
 TimeoutHandler
 :
 :
@@ -170,9 +170,6 @@ Call
 (
 )
 {
-return
-NS_OK
-;
 }
 void
 TimeoutHandler

@@ -155,6 +155,15 @@ nsString
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -206,8 +215,9 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 (
 TimeoutHandler
 )
+MOZ_CAN_RUN_SCRIPT
 virtual
-nsresult
+void
 Call
 (
 )
