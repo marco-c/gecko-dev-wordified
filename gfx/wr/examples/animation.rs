@@ -323,6 +323,10 @@ zero
 )
 )
 )
+TransformStyle
+:
+:
+Flat
 Some
 (
 PropertyBinding

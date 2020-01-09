@@ -83,6 +83,7 @@ api
 :
 :
 {
+TransformStyle
 LayoutSize
 LayoutTransform
 PropertyBinding
@@ -2143,6 +2144,9 @@ Option
 <
 SpatialNodeIndex
 >
+transform_style
+:
+TransformStyle
 source_transform
 :
 Option
@@ -2178,6 +2182,7 @@ SpatialNode
 new_reference_frame
 (
 parent_index
+transform_style
 source_transform
 source_perspective
 origin_in_parent_reference_frame
@@ -3057,6 +3062,10 @@ cst
 add_reference_frame
 (
 parent
+TransformStyle
+:
+:
+Preserve3D
 Some
 (
 PropertyBinding

@@ -8527,6 +8527,9 @@ info
 :
 &
 LayoutPrimitiveInfo
+transform_style
+:
+TransformStyle
 transform
 :
 Option
@@ -8570,6 +8573,7 @@ reference_frame
 :
 ReferenceFrame
 {
+transform_style
 transform
 perspective
 id

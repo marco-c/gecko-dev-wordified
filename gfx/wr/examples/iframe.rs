@@ -398,6 +398,10 @@ push_reference_frame
 (
 &
 info
+TransformStyle
+:
+:
+Flat
 Some
 (
 PropertyBinding
