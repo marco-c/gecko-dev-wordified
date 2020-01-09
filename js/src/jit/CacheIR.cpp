@@ -8163,7 +8163,7 @@ MOZ_ASSERT
 unwrapped
 =
 =
-UnwrapOneChecked
+UnwrapOneCheckedStatic
 (
 obj
 )

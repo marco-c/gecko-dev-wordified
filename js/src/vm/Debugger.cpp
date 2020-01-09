@@ -78859,7 +78859,7 @@ RootedObject
 unwrapped
 (
 cx
-UnwrapOneChecked
+UnwrapOneCheckedStatic
 (
 referent
 )
