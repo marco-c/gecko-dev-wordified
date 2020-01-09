@@ -250,13 +250,6 @@ pbmode
 .
 enabled
 "
-"
-browser
-.
-privatebrowsing
-.
-searchUI
-"
 ]
 "
 getFormatURLPref

@@ -533,11 +533,6 @@ about
 welcome
 "
 "
-about
-:
-privatebrowsing
-"
-"
 chrome
 :
 /
