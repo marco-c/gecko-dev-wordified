@@ -13432,7 +13432,10 @@ ToPacking
 (
 )
 ;
-CheckedUint32
+CheckedInt
+<
+size_t
+>
 byteCount
 =
 BytesPerPixel
@@ -13463,7 +13466,7 @@ buffer
 =
 calloc
 (
-1
+1u
 byteCount
 .
 value

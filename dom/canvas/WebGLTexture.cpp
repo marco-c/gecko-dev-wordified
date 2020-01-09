@@ -4181,7 +4181,7 @@ zeros
 =
 calloc
 (
-1
+1u
 byteCount
 )
 ;
@@ -4419,7 +4419,7 @@ zeros
 =
 calloc
 (
-1
+1u
 byteCount
 )
 ;

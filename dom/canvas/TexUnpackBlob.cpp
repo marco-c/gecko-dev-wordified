@@ -1944,7 +1944,10 @@ dstBuffer
 =
 calloc
 (
-1
+1u
+(
+size_t
+)
 dstTotalBytes
 .
 value

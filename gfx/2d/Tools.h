@@ -974,7 +974,7 @@ uint8_t
 (
 calloc
 (
-1
+1u
 storageByteCount
 .
 value
