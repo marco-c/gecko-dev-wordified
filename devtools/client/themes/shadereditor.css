@@ -419,7 +419,7 @@ var
 -
 theme
 -
-toolbar
+icon
 -
 color
 )
@@ -462,9 +462,7 @@ var
 -
 theme
 -
-toolbar
--
-selected
+selection
 -
 color
 )
