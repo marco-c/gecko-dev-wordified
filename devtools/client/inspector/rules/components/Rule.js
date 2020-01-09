@@ -230,6 +230,7 @@ const
 declarations
 selector
 sourceLink
+type
 }
 =
 rule
@@ -281,6 +282,7 @@ Selector
 (
 {
 selector
+type
 }
 )
 dom

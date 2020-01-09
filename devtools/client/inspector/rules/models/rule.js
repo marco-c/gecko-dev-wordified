@@ -648,6 +648,16 @@ selectorText
 :
 this
 .
+keyframes
+?
+this
+.
+domRule
+.
+keyText
+:
+this
+.
 selectorText
 }
 ;
