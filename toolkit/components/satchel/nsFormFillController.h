@@ -796,6 +796,9 @@ mForceComplete
 bool
 mSuppressOnInput
 ;
+bool
+mPasswordPopupAutomaticallyOpened
+;
 }
 ;
 #
