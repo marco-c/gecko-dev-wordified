@@ -2625,6 +2625,10 @@ Range
 (
 )
 )
+mTfhd
+(
+aTrex
+)
 mMaxRoundingError
 (
 35000
@@ -3798,12 +3802,6 @@ MOZ_ASSERT
 aDecodeTime
 )
 ;
-Tfhd
-tfhd
-(
-aTrex
-)
-;
 Tfdt
 tfdt
 ;
@@ -3845,7 +3843,7 @@ tfhd
 )
 )
 {
-tfhd
+mTfhd
 =
 Tfhd
 (
@@ -3863,7 +3861,7 @@ aTrex
 mTrackId
 |
 |
-tfhd
+mTfhd
 .
 mTrackId
 =
@@ -4142,7 +4140,7 @@ aTrex
 mTrackId
 &
 &
-tfhd
+mTfhd
 .
 mTrackId
 !
@@ -4222,7 +4220,6 @@ if
 ParseTrun
 (
 box
-tfhd
 aMvhd
 aMdhd
 aEdts
@@ -4330,9 +4327,6 @@ ParseTrun
 Box
 &
 aBox
-Tfhd
-&
-aTfhd
 Mvhd
 &
 aMvhd
@@ -4352,7 +4346,7 @@ aIsAudio
 if
 (
 !
-aTfhd
+mTfhd
 .
 IsValid
 (
@@ -4390,7 +4384,7 @@ Moof
 Invalid
 dependencies
 :
-aTfhd
+mTfhd
 (
 %
 d
@@ -4411,7 +4405,7 @@ aEdts
 d
 )
 "
-aTfhd
+mTfhd
 .
 IsValid
 (
@@ -4560,7 +4554,7 @@ Ok
 uint64_t
 offset
 =
-aTfhd
+mTfhd
 .
 mBaseDataOffset
 ;
@@ -4594,7 +4588,7 @@ tmp
 uint32_t
 firstSampleFlags
 =
-aTfhd
+mTfhd
 .
 mDefaultSampleFlags
 ;
@@ -4680,7 +4674,7 @@ i
 uint32_t
 sampleDuration
 =
-aTfhd
+mTfhd
 .
 mDefaultSampleDuration
 ;
@@ -4706,7 +4700,7 @@ ReadU32
 uint32_t
 sampleSize
 =
-aTfhd
+mTfhd
 .
 mDefaultSampleSize
 ;
@@ -4734,7 +4728,7 @@ sampleFlags
 =
 i
 ?
-aTfhd
+mTfhd
 .
 mDefaultSampleFlags
 :

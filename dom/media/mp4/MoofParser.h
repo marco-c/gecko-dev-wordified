@@ -1073,6 +1073,9 @@ SampleToGroupEntry
 >
 mFragmentSampleToGroupEntries
 ;
+Tfhd
+mTfhd
+;
 FallibleTArray
 <
 Saiz
@@ -1164,9 +1167,6 @@ ParseTrun
 Box
 &
 aBox
-Tfhd
-&
-aTfhd
 Mvhd
 &
 aMvhd
