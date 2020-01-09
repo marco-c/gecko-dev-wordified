@@ -1046,6 +1046,11 @@ buff
 =
 nullptr
 ;
+uint32_t
+dataLen
+=
+0
+;
 nsPrimitiveHelpers
 :
 :
@@ -1055,7 +1060,8 @@ mFlavor
 aData
 &
 buff
-aDataLen
+&
+dataLen
 )
 ;
 if
@@ -1070,7 +1076,7 @@ PR_Write
 (
 mCacheFD
 buff
-aDataLen
+dataLen
 )
 ;
 free

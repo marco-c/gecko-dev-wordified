@@ -2980,6 +2980,11 @@ primitive_data
 =
 nullptr
 ;
+uint32_t
+dataLen
+=
+0
+;
 nsPrimitiveHelpers
 :
 :
@@ -2992,7 +2997,8 @@ target_name
 item
 &
 primitive_data
-len
+&
+dataLen
 )
 ;
 if
@@ -3020,7 +3026,7 @@ guchar
 *
 )
 primitive_data
-len
+dataLen
 )
 ;
 free
