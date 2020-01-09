@@ -267,6 +267,12 @@ nsINode
 >
 mNode
 ;
+nscoord
+mMainPosition
+;
+nscoord
+mMainSize
+;
 /
 *
 *
@@ -421,6 +427,12 @@ mMainMinSize
 ;
 nscoord
 mMainMaxSize
+;
+nscoord
+mCrossPosition
+;
+nscoord
+mCrossSize
 ;
 nscoord
 mCrossMinSize
