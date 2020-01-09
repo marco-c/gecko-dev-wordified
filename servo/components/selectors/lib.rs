@@ -176,6 +176,9 @@ visitor
 ;
 pub
 use
+crate
+:
+:
 nth_index_cache
 :
 :
@@ -183,6 +186,9 @@ NthIndexCache
 ;
 pub
 use
+crate
+:
+:
 parser
 :
 :
@@ -194,6 +200,9 @@ SelectorList
 ;
 pub
 use
+crate
+:
+:
 tree
 :
 :

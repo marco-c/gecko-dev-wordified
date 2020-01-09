@@ -83,6 +83,9 @@ super
 CustomIdent
 ;
 use
+crate
+:
+:
 counter_style
 :
 :
@@ -92,12 +95,9 @@ Symbols
 }
 ;
 use
-cssparser
+crate
 :
 :
-Parser
-;
-use
 parser
 :
 :
@@ -105,6 +105,12 @@ parser
 Parse
 ParserContext
 }
+;
+use
+cssparser
+:
+:
+Parser
 ;
 use
 style_traits
@@ -768,6 +774,8 @@ name
 =
 input
 .
+r
+#
 try
 (
 |
@@ -795,6 +803,8 @@ name
 if
 input
 .
+r
+#
 try
 (
 |
@@ -827,6 +837,8 @@ None
 if
 input
 .
+r
+#
 try
 (
 |
@@ -860,6 +872,8 @@ symbols_type
 =
 input
 .
+r
+#
 try
 (
 |

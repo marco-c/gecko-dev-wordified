@@ -57,6 +57,9 @@ MPL
 *
 /
 use
+crate
+:
+:
 cg
 ;
 use

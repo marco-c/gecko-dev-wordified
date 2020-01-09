@@ -67,6 +67,9 @@ Easing
 functions
 .
 use
+crate
+:
+:
 values
 :
 :
@@ -79,6 +82,9 @@ Number
 }
 ;
 use
+crate
+:
+:
 values
 :
 :

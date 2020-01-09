@@ -1381,6 +1381,9 @@ computed_values
 (
 pub
 use
+crate
+:
+:
 properties
 :
 :
@@ -1411,6 +1414,9 @@ needlessly
 :
 pub
 use
+crate
+:
+:
 properties
 :
 :

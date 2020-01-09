@@ -72,12 +72,9 @@ four
 sides
 .
 use
-cssparser
+crate
 :
 :
-Parser
-;
-use
 parser
 :
 :
@@ -85,6 +82,12 @@ parser
 Parse
 ParserContext
 }
+;
+use
+cssparser
+:
+:
+Parser
 ;
 use
 std
@@ -396,6 +399,8 @@ second
 =
 input
 .
+r
+#
 try
 (
 |
@@ -458,6 +463,8 @@ third
 =
 input
 .
+r
+#
 try
 (
 |
@@ -519,6 +526,8 @@ fourth
 =
 input
 .
+r
+#
 try
 (
 |
