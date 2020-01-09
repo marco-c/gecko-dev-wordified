@@ -19684,6 +19684,18 @@ proxy
 "
 )
     
+Atom
+(
+"
+privateBrowsingAllowedPermission
+"
+"
+internal
+:
+privateBrowsingAllowed
+"
+)
+    
 #
 CSS
 Counter
