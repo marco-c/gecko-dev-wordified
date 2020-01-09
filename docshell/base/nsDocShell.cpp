@@ -32627,7 +32627,7 @@ scrollPos
 sf
 -
 >
-GetScrollPosition
+GetVisualViewportOffset
 (
 )
 ;
