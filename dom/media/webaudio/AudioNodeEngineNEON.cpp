@@ -112,6 +112,13 @@ defined
 (
 _M_ARM64
 )
+&
+&
+!
+defined
+(
+__clang__
+)
 #
 include
 <
