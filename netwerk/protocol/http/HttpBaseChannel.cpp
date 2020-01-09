@@ -1925,6 +1925,8 @@ nsIURI
 aProxyURI
 uint64_t
 aChannelId
+nsContentPolicyType
+aContentPolicyType
 )
 {
 LOG1
@@ -2240,6 +2242,7 @@ AddStandardRequestHeaders
 &
 mRequestHead
 isHTTPS
+aContentPolicyType
 )
 ;
 if
