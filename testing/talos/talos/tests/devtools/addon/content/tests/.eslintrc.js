@@ -157,9 +157,14 @@ reject
 importGlobalProperties
 "
 :
+[
 "
 error
 "
+"
+everything
+"
+]
 /
 /
 devtools
