@@ -1,11 +1,5 @@
 /
 /
-|
-reftest
-|
-skip
-/
-/
 Any
 copyright
 is
