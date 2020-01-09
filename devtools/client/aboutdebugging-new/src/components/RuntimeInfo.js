@@ -322,6 +322,11 @@ label
 className
 :
 "
+main
+-
+heading
+-
+subtitle
 runtime
 -
 info__subtitle
