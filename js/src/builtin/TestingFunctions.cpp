@@ -1927,7 +1927,7 @@ false
 }
 #
 ifdef
-ENABLE_BINARYDATA
+ENABLE_TYPED_OBJECTS
 value
 =
 BooleanValue
@@ -1954,9 +1954,9 @@ JS_SetProperty
 cx
 info
 "
-binary
+typed
 -
-data
+objects
 "
 value
 )

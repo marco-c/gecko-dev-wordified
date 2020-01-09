@@ -342,7 +342,7 @@ h
 "
 #
 ifdef
-ENABLE_BINARYDATA
+ENABLE_TYPED_OBJECTS
 #
 include
 "
