@@ -3442,12 +3442,6 @@ aOther
 .
 mClipChainId
 ;
-mSeparateLeaf
-=
-aOther
-.
-mSeparateLeaf
-;
 }
 }
 /
