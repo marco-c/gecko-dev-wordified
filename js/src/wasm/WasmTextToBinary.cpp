@@ -512,7 +512,7 @@ Func
 FuncRef
 #
 ifdef
-ENABLE_WASM_REFTYPES
+ENABLE_WASM_GC
 GcFeatureOptIn
 #
 endif
@@ -1834,7 +1834,7 @@ FuncRef
 :
 #
 ifdef
-ENABLE_WASM_REFTYPES
+ENABLE_WASM_GC
 case
 GcFeatureOptIn
 :
@@ -7399,7 +7399,7 @@ g
 :
 #
 ifdef
-ENABLE_WASM_REFTYPES
+ENABLE_WASM_GC
 if
 (
 consume
@@ -27229,7 +27229,7 @@ memory
 }
 #
 ifdef
-ENABLE_WASM_REFTYPES
+ENABLE_WASM_GC
 /
 /
 Custom
@@ -27701,7 +27701,7 @@ generateError
 token
 "
 '
-anyfunc
+funcref
 '
 or
 '
@@ -27725,7 +27725,7 @@ generateError
 token
 "
 '
-anyfunc
+funcref
 '
 required
 "
@@ -29269,7 +29269,7 @@ Either
 min
 max
 ?
-anyfunc
+funcref
 if
 (
 c
@@ -29330,7 +29330,7 @@ tableKind
 /
 Or
 :
-anyfunc
+funcref
 (
 elem
 1
@@ -30695,7 +30695,7 @@ break
 }
 #
 ifdef
-ENABLE_WASM_REFTYPES
+ENABLE_WASM_GC
 case
 WasmToken
 :
@@ -40978,7 +40978,7 @@ binary
 serialization
 #
 ifdef
-ENABLE_WASM_REFTYPES
+ENABLE_WASM_GC
 static
 bool
 EncodeGcFeatureOptInSection
@@ -44394,7 +44394,7 @@ false
 }
 #
 ifdef
-ENABLE_WASM_REFTYPES
+ENABLE_WASM_GC
 if
 (
 !

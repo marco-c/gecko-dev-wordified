@@ -614,7 +614,7 @@ table
 -
 of
 -
-anyfunc
+funcref
 .
 /
 /

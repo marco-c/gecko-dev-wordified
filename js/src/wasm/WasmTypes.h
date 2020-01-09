@@ -7830,7 +7830,7 @@ segment
 (
 of
 type
-anyfunc
+funcref
 )
 /
 /
