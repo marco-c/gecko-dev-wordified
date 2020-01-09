@@ -809,6 +809,12 @@ delayConnectedCallback
 return
 ;
 }
+super
+.
+connectedCallback
+(
+)
+;
 this
 .
 _contextMenuShown
