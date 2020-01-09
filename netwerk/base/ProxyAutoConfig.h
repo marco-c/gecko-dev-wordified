@@ -229,7 +229,7 @@ aPACURI
 const
 nsCString
 &
-aPACScript
+aPACScriptData
 bool
 aIncludePath
 uint32_t
@@ -670,7 +670,7 @@ bool
 mShutdown
 ;
 nsCString
-mPACScript
+mConcatenatedPACData
 ;
 nsCString
 mPACURI
