@@ -755,6 +755,16 @@ RemoveTexture
 TextureClient
 *
 aTexture
+const
+Maybe
+<
+wr
+:
+:
+RenderRoot
+>
+&
+aRenderRoot
 )
 {
 mForwarder
@@ -764,6 +774,7 @@ RemoveTextureFromCompositable
 (
 this
 aTexture
+aRenderRoot
 )
 ;
 }
@@ -1123,6 +1134,10 @@ mCompositable
 RemoveTexture
 (
 mTexture
+Some
+(
+mRenderRoot
+)
 )
 ;
 }

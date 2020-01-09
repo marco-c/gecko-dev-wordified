@@ -355,6 +355,11 @@ forget
 bool
 UpdateImage
 (
+wr
+:
+:
+RenderRoot
+aRenderRoot
 )
 {
 if
@@ -432,6 +437,10 @@ unused
 *
 /
 0
+Some
+(
+aRenderRoot
+)
 )
 ;
 }

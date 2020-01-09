@@ -5372,6 +5372,11 @@ const
 ScrollUpdateInfo
 &
 aUpdateInfo
+wr
+:
+:
+RenderRoot
+aRenderRoot
 )
 ;
 Maybe
@@ -5394,7 +5399,13 @@ ClearPendingScrollInfoUpdate
 ;
 protected
 :
+wr
+:
+:
+RenderRootArray
+<
 ScrollUpdatesMap
+>
 mPendingScrollUpdates
 ;
 }
