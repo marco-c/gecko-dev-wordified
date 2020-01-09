@@ -7,6 +7,11 @@ bin
 /
 env
 python
+from
+__future__
+import
+absolute_import
+print_function
 import
 argparse
 import
@@ -140,28 +145,6 @@ match
 and
 its
 replacement
-Future
-note
--
-this
-may
-need
-to
-move
-into
-the
-tree
-to
-make
-staging
-releases
-or
-release
--
-on
--
-try
-easier
 "
 "
 "
@@ -224,6 +207,7 @@ files
 '
 :
 [
+            
 '
 defaults
 /
@@ -235,6 +219,7 @@ prefs
 .
 js
 '
+            
 '
 Contents
 /
@@ -250,6 +235,7 @@ prefs
 .
 js
 '
+        
 ]
         
 '
@@ -316,6 +302,7 @@ files
 '
 :
 [
+            
 '
 defaults
 /
@@ -327,6 +314,7 @@ prefs
 .
 js
 '
+            
 '
 Contents
 /
@@ -342,6 +330,7 @@ prefs
 .
 js
 '
+        
 ]
         
 '
@@ -427,6 +416,7 @@ files
 '
 :
 [
+            
 '
 defaults
 /
@@ -438,6 +428,7 @@ prefs
 .
 js
 '
+            
 '
 Contents
 /
@@ -453,6 +444,7 @@ prefs
 .
 js
 '
+        
 ]
         
 '
@@ -561,6 +553,8 @@ location
 is
 the
 real
+        
+#
 one
 but
 we
@@ -568,8 +562,6 @@ copy
 to
 the
 first
-        
-#
 to
 run
 the
@@ -685,6 +677,8 @@ this
 time
 .
 unpack_build
+        
+#
 handles
 the
 copy
@@ -692,8 +686,6 @@ for
 the
 updater
 in
-        
-#
 both
 source
 and
@@ -1240,11 +1232,13 @@ readlines
 transforms
 =
 [
+                
 t
 for
 t
 in
 TRANSFORMS
+                
 if
 filename
 in
@@ -1254,8 +1248,8 @@ t
 files
 '
 ]
+                
 and
-                          
 channel
 .
 startswith
@@ -1270,12 +1264,14 @@ channel_prefix
 ]
 )
 )
+            
 ]
             
 logging
 .
 debug
 (
+                
 '
 Got
 {
@@ -1571,6 +1567,7 @@ argparse
 .
 ArgumentParser
 (
+        
 '
 Compare
 two
@@ -1838,6 +1835,7 @@ file_diff
 =
 compare_common_files
 (
+        
 set
 (
 source_files
@@ -1906,6 +1904,8 @@ have
 files
 on
 one
+        
+#
 side
 anymore
 so
