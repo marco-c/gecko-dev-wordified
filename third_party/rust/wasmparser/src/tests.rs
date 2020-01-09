@@ -231,6 +231,9 @@ enable_reference_types
 :
 true
 }
+mutable_global_imports
+:
+true
 }
 )
 ;

@@ -24,7 +24,7 @@ compilation
 passes
 .
 use
-std
+core
 :
 :
 fmt
@@ -667,6 +667,12 @@ NUM_PASSES
 }
 ;
 use
+log
+:
+:
+debug
+;
+use
 std
 :
 :
@@ -1131,7 +1137,7 @@ duration
 as
 secs
 .
-milis
+millis
 trailing
 space
 .

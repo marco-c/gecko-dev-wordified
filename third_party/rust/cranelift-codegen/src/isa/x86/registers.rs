@@ -6,6 +6,9 @@ register
 descriptions
 .
 use
+crate
+:
+:
 isa
 :
 :
@@ -61,6 +64,9 @@ super
 *
 ;
 use
+crate
+:
+:
 isa
 :
 :

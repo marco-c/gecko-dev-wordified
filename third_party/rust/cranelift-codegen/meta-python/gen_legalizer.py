@@ -211,7 +211,7 @@ of
 runtime
 type
 checks
-neccessary
+necessary
 to
 determine
     
@@ -245,7 +245,7 @@ whose
                
 typeset
 is
-constrainted
+constrained
 by
 their
 use
@@ -792,6 +792,9 @@ map
 |
 t
 :
+crate
+:
+:
 ir
 :
 :
@@ -804,6 +807,8 @@ lane_type
 )
 )
 "
+\
+                
 .
 format
 (
@@ -832,6 +837,9 @@ map
 (
 |
 t
+:
+crate
+:
 :
 ir
 :
@@ -874,6 +882,9 @@ and_then
 |
 t
 :
+crate
+:
+:
 ir
 :
 :
@@ -886,6 +897,8 @@ half_width
 )
 )
 "
+\
+                
 .
 format
 (
@@ -914,6 +927,9 @@ and_then
 (
 |
 t
+:
+crate
+:
 :
 ir
 :
@@ -958,6 +974,9 @@ and_then
 |
 t
 :
+crate
+:
+:
 ir
 :
 :
@@ -1000,6 +1019,9 @@ and_then
 (
 |
 t
+:
+crate
+:
 :
 ir
 :
@@ -1620,6 +1642,9 @@ predicate
 =
 if
 let
+crate
+:
+:
 ir
 :
 :
@@ -3497,6 +3522,9 @@ line
 '
 inst
 :
+crate
+:
+:
 ir
 :
 :
@@ -3513,6 +3541,9 @@ func
 :
 &
 mut
+crate
+:
+:
 ir
 :
 :
@@ -3529,6 +3560,7 @@ cfg
 :
 &
 mut
+crate
 :
 :
 flowgraph
@@ -3546,6 +3578,7 @@ line
 isa
 :
 &
+crate
 :
 :
 isa
@@ -3579,6 +3612,9 @@ line
 (
 '
 use
+crate
+:
+:
 ir
 :
 :
@@ -3593,6 +3629,9 @@ line
 (
 '
 use
+crate
+:
+:
 cursor
 :
 :

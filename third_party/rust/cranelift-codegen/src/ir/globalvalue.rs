@@ -5,6 +5,9 @@ Global
 values
 .
 use
+crate
+:
+:
 ir
 :
 :
@@ -17,6 +20,9 @@ Offset32
 }
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -27,13 +33,16 @@ Type
 }
 ;
 use
+crate
+:
+:
 isa
 :
 :
 TargetIsa
 ;
 use
-std
+core
 :
 :
 fmt
@@ -217,6 +226,9 @@ readonly
 allowing
 for
 the
+/
+/
+/
 elimination
 of
 redundant

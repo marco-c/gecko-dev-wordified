@@ -1811,7 +1811,7 @@ Put
 the
 whole
 query
-toghether
+together
     
 return
 q1

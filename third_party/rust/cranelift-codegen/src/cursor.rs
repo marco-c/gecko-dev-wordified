@@ -25,9 +25,15 @@ inserting
 instructions
 .
 use
+crate
+:
+:
 ir
 ;
 use
+crate
+:
+:
 isa
 :
 :
@@ -5987,6 +5993,9 @@ clippy
 "
 allow
 (
+clippy
+:
+:
 match_wild_err_arm
 )
 )

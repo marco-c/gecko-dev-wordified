@@ -3537,7 +3537,7 @@ bor
         
 (
 bxor_imm
-bor
+bxor
 )
         
 (

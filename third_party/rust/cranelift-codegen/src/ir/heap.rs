@@ -4,6 +4,9 @@
 Heaps
 .
 use
+crate
+:
+:
 ir
 :
 :
@@ -13,6 +16,9 @@ immediates
 Uimm64
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -22,7 +28,7 @@ Type
 }
 ;
 use
-std
+core
 :
 :
 fmt

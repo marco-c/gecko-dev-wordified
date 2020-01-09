@@ -5,6 +5,9 @@ ARM64
 Settings
 .
 use
+crate
+:
+:
 settings
 :
 :
@@ -15,7 +18,7 @@ Builder
 }
 ;
 use
-std
+core
 :
 :
 fmt

@@ -33,7 +33,7 @@ are
 transformed
 .
 use
-std
+core
 :
 :
 fmt
@@ -330,6 +330,9 @@ mod
 tests
 {
 use
+crate
+:
+:
 ir
 :
 :
