@@ -2593,10 +2593,10 @@ height
 /
 2
 )
-nsIScrollableFrame
+ScrollMode
 :
 :
-INSTANT
+eInstant
 )
 ;
 }

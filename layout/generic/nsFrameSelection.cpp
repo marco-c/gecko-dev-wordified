@@ -10781,10 +10781,10 @@ nsIScrollableFrame
 :
 :
 PAGES
-nsIScrollableFrame
+ScrollMode
 :
 :
-SMOOTH
+eSmooth
 )
 ;
 }

@@ -12992,10 +12992,10 @@ nsPoint
 0
 0
 )
-nsIScrollableFrame
+ScrollMode
 :
 :
-INSTANT
+eInstant
 )
 ;
 }
