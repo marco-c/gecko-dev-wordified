@@ -17907,7 +17907,7 @@ Rooted
 ReadableStreamController
 *
 >
-controller
+unwrappedController
 (
 cx
 UnwrapCalleeSlot
@@ -17924,7 +17924,7 @@ args
 if
 (
 !
-controller
+unwrappedController
 )
 {
 return
@@ -17934,7 +17934,7 @@ false
 bool
 pullAgain
 =
-controller
+unwrappedController
 -
 >
 pullAgain
@@ -17975,7 +17975,7 @@ pullAgain
 to
 false
 .
-controller
+unwrappedController
 -
 >
 clearPullFlags
@@ -18011,9 +18011,18 @@ Perform
 /
 /
 !
+ReadableStreamDefaultControllerCallPullIfNeeded
+(
+controller
+)
+/
+/
+(
+or
 ReadableByteStreamControllerCallPullIfNeeded
 (
 controller
+)
 )
 .
 if
@@ -18022,7 +18031,7 @@ if
 ReadableStreamControllerCallPullIfNeeded
 (
 cx
-controller
+unwrappedController
 )
 )
 {
