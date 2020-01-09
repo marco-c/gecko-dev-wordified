@@ -624,9 +624,7 @@ addon
 -
 installed
 "
-"
-extension
-"
+ADDON_ID
 )
 ;
 panel

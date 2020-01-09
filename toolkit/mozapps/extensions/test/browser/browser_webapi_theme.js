@@ -167,6 +167,11 @@ installed
 "
 "
 theme
+tests
+.
+mozilla
+.
+org
 "
 false
 )
@@ -268,6 +273,11 @@ installed
 "
 "
 theme
+tests
+.
+mozilla
+.
+org
 "
 true
 newWin
