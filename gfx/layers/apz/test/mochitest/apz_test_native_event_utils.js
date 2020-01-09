@@ -232,6 +232,9 @@ GDK_SCROLL_SMOOTH
 anyway
 }
 throw
+new
+Error
+(
 "
 Native
 wheel
@@ -244,6 +247,7 @@ platform
 +
 getPlatform
 (
+)
 )
 ;
 }
@@ -304,6 +308,9 @@ GDK_SCROLL_SMOOTH
 anyway
 }
 throw
+new
+Error
+(
 "
 Native
 wheel
@@ -316,6 +323,7 @@ platform
 +
 getPlatform
 (
+)
 )
 ;
 }
@@ -568,6 +576,9 @@ return
 ACTION_POINTER_DOWN
 }
 throw
+new
+Error
+(
 "
 Native
 mouse
@@ -582,6 +593,7 @@ platform
 +
 getPlatform
 (
+)
 )
 ;
 }
@@ -643,6 +655,9 @@ return
 ACTION_HOVER_MOVE
 }
 throw
+new
+Error
+(
 "
 Native
 mouse
@@ -657,6 +672,7 @@ platform
 +
 getPlatform
 (
+)
 )
 ;
 }
@@ -718,6 +734,9 @@ return
 ACTION_POINTER_UP
 }
 throw
+new
+Error
+(
 "
 Native
 mouse
@@ -732,6 +751,7 @@ platform
 +
 getPlatform
 (
+)
 )
 ;
 }
@@ -1308,6 +1328,9 @@ aDeltaY
 )
 {
 throw
+new
+Error
+(
 "
 Simultaneous
 wheeling
@@ -1323,6 +1346,7 @@ all
 platforms
 .
 "
+)
 ;
 }
 aDeltaX
@@ -2563,6 +2587,9 @@ lastNonNullValue
 )
 {
 throw
+new
+Error
+(
 "
 All
 values
@@ -2573,6 +2600,7 @@ were
 null
 !
 "
+)
 ;
 }
 /

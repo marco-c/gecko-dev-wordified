@@ -1516,6 +1516,9 @@ aCallback
 )
 {
 throw
+new
+Error
+(
 "
 A
 callback
@@ -1524,6 +1527,7 @@ be
 provided
 !
 "
+)
 ;
 }
 promiseApzRepaintsFlushed
