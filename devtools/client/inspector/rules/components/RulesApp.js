@@ -282,6 +282,13 @@ propTypes
 {
 return
 {
+onTogglePseudoClass
+:
+PropTypes
+.
+func
+.
+isRequired
 rules
 :
 PropTypes
@@ -800,6 +807,13 @@ tabpanel
 Toolbar
 (
 {
+onTogglePseudoClass
+:
+this
+.
+props
+.
+onTogglePseudoClass
 }
 )
 dom
