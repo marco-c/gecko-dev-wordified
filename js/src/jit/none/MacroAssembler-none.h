@@ -1868,7 +1868,9 @@ T
 void
 push
 (
+const
 T
+&
 )
 {
 MOZ_CRASH
@@ -2075,7 +2077,9 @@ T
 void
 move32
 (
+const
 T
+&
 Register
 )
 {
