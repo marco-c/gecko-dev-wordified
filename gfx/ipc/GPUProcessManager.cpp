@@ -6436,10 +6436,10 @@ bool
 &
 aMinimizeMemoryUsage
 const
-dom
-:
-:
-MaybeFileDesc
+Maybe
+<
+FileDescriptor
+>
 &
 aDMDFile
 )
