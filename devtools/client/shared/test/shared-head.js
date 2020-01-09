@@ -3307,6 +3307,16 @@ gBrowser
 selectedTab
 )
 {
+if
+(
+TargetFactory
+.
+isKnownTab
+(
+tab
+)
+)
+{
 const
 target
 =
@@ -3331,6 +3341,7 @@ closeToolbox
 target
 )
 ;
+}
 }
 await
 removeTab
