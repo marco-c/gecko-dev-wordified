@@ -19322,7 +19322,7 @@ opacity
 .
 [
 '
-opoacity
+opacity
 (
 1
 )
