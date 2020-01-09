@@ -4242,6 +4242,9 @@ aOutTargetGuid
 uint64_t
 *
 aOutFocusSequenceNumber
+LayersId
+*
+aOutLayersId
 )
 override
 ;
@@ -4894,6 +4897,9 @@ gfx
 CompositorHitTestInfo
 *
 aOutHitResult
+LayersId
+*
+aOutLayersId
 HitTestingTreeNodeAutoLock
 *
 aOutScrollbarNode
@@ -5201,6 +5207,9 @@ gfx
 CompositorHitTestInfo
 *
 aOutHitResult
+LayersId
+*
+aOutLayersId
 HitTestingTreeNode
 *
 *
@@ -5399,6 +5408,9 @@ gfx
 CompositorHitTestInfo
 *
 aOutHitResult
+LayersId
+*
+aOutLayersId
 HitTestingTreeNodeAutoLock
 *
 aOutHitScrollbarNode

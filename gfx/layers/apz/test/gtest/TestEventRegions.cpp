@@ -2415,6 +2415,7 @@ ScreenPoint
 )
 &
 result
+nullptr
 )
 ;
 EXPECT_EQ
@@ -2471,6 +2472,7 @@ ScreenPoint
 )
 &
 result
+nullptr
 )
 ;
 /

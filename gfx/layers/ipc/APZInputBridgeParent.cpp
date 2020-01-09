@@ -729,6 +729,9 @@ aOutTargetGuid
 uint64_t
 *
 aOutFocusSequenceNumber
+LayersId
+*
+aOutLayersId
 )
 {
 LayoutDeviceIntPoint
@@ -750,6 +753,7 @@ ProcessUnhandledEvent
 refPoint
 aOutTargetGuid
 aOutFocusSequenceNumber
+aOutLayersId
 )
 ;
 *
