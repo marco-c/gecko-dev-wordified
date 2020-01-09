@@ -2019,11 +2019,6 @@ Services
 appinfo
 .
 accessibilityEnabled
-jstermReverseSearch
-:
-prefs
-.
-jstermReverseSearch
 }
 )
 ;
