@@ -887,9 +887,6 @@ obj
 getElements
 /
 /
-weakmapKeyDelegate
-/
-/
 isScripted
 }
 ;

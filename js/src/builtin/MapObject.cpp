@@ -1202,12 +1202,6 @@ ClassExtension
 MapIteratorObjectClassExtension
 =
 {
-nullptr
-/
-*
-weakmapKeyDelegateOp
-*
-/
 MapIteratorObject
 :
 :
@@ -6488,12 +6482,6 @@ ClassExtension
 SetIteratorObjectClassExtension
 =
 {
-nullptr
-/
-*
-weakmapKeyDelegateOp
-*
-/
 SetIteratorObject
 :
 :

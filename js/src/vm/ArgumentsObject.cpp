@@ -6556,12 +6556,6 @@ MappedArgumentsObject
 classExt_
 =
 {
-nullptr
-/
-*
-weakmapKeyDelegateOp
-*
-/
 ArgumentsObject
 :
 :
@@ -6743,12 +6737,6 @@ UnmappedArgumentsObject
 classExt_
 =
 {
-nullptr
-/
-*
-weakmapKeyDelegateOp
-*
-/
 ArgumentsObject
 :
 :

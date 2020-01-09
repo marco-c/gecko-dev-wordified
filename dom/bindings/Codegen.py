@@ -3784,13 +3784,6 @@ sClassExtension
 =
 {
               
-nullptr
-/
-*
-weakmapKeyDelegateOp
-*
-/
-              
 {
 objectMoved
 }

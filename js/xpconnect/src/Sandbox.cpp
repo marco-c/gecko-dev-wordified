@@ -2841,12 +2841,6 @@ ClassExtension
 SandboxClassExtension
 =
 {
-nullptr
-/
-*
-weakmapKeyDelegateOp
-*
-/
 sandbox_moved
 /
 *

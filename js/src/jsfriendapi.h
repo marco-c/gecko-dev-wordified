@@ -3175,17 +3175,6 @@ void
 closure
 )
 ;
-extern
-JS_FRIEND_API
-JSObject
-*
-GetWeakmapKeyDelegate
-(
-JSObject
-*
-key
-)
-;
 /
 *
 *

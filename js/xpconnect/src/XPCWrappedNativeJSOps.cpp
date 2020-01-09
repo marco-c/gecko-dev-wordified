@@ -4851,10 +4851,6 @@ ClassExtension
 XPC_WN_JSClassExtension
 =
 {
-nullptr
-/
-/
-weakmapKeyDelegateOp
 WrappedNativeObjectMoved
 }
 ;
@@ -8040,12 +8036,6 @@ ClassExtension
 XPC_WN_Proto_ClassExtension
 =
 {
-nullptr
-/
-*
-weakmapKeyDelegateOp
-*
-/
 XPC_WN_Proto_ObjectMoved
 }
 ;
@@ -8591,10 +8581,6 @@ ClassExtension
 XPC_WN_Tearoff_JSClassExtension
 =
 {
-nullptr
-/
-/
-weakmapKeyDelegateOp
 XPC_WN_TearOff_ObjectMoved
 }
 ;

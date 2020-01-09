@@ -1902,12 +1902,6 @@ ClassExtension
 ArrayBufferObjectClassExtension
 =
 {
-nullptr
-/
-*
-weakmapKeyDelegateOp
-*
-/
 ArrayBufferObject
 :
 :
