@@ -11233,6 +11233,10 @@ forget
 }
 if
 (
+!
+mIsRegistrationBlocked
+&
+&
 net
 :
 :
