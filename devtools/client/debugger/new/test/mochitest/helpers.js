@@ -2486,10 +2486,6 @@ getState
 (
 )
 )
-.
-toJS
-(
-)
 ;
 }
 async
