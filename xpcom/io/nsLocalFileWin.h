@@ -172,13 +172,6 @@ h
 #
 include
 "
-nsIHashable
-.
-h
-"
-#
-include
-"
 nsIClassInfoImpl
 .
 h
@@ -228,8 +221,6 @@ final
 :
 public
 nsILocalFileWin
-public
-nsIHashable
 {
 public
 :
@@ -282,11 +273,6 @@ NS_DECL_NSIFILE
 nsILocalFileWin
 interface
 NS_DECL_NSILOCALFILEWIN
-/
-/
-nsIHashable
-interface
-NS_DECL_NSIHASHABLE
 public
 :
 /
