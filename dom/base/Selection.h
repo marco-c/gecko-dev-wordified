@@ -3836,7 +3836,7 @@ nsresult
 SelectAllFramesForContent
 (
 PostContentIterator
-*
+&
 aPostOrderIter
 nsIContent
 *
