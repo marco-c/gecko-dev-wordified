@@ -1886,14 +1886,6 @@ data
 .
 label
 }
-{
-disableOneOffButtons
-:
-true
-disableSearchSuggestionsNotification
-:
-true
-}
 )
 ;
 }
