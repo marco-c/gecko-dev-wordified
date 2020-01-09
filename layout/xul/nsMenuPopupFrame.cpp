@@ -7031,15 +7031,9 @@ nsIScrollableFrame
 *
 scrollframe
 =
-do_QueryFrame
-(
-nsBox
-:
-:
-GetChildXULBox
+GetScrollFrame
 (
 this
-)
 )
 ;
 if
