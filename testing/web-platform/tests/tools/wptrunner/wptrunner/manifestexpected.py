@@ -310,13 +310,24 @@ split
 else
 :
             
+#
+this
+should
+be
+things
+like
+Reset
+which
+are
+apparently
+type
+'
+object
+'
+            
 return
 (
 ini_value
-.
-strip
-(
-)
 None
 )
     
