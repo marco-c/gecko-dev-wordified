@@ -242,7 +242,6 @@ function
 commonInit
 (
 selfFilling
-testDependsOnDeprecatedLogin
 )
 {
 var
@@ -357,11 +356,6 @@ true
 ;
 }
 }
-if
-(
-testDependsOnDeprecatedLogin
-)
-{
 /
 /
 Add
@@ -449,7 +443,6 @@ addLogin
 login
 )
 ;
-}
 /
 /
 Last
@@ -470,11 +463,7 @@ equal
 logins
 .
 length
-testDependsOnDeprecatedLogin
-?
 1
-:
-0
 "
 Checking
 for
@@ -865,12 +854,12 @@ setupParent
 selfFilling
 =
 false
-testDependsOnDeprecatedLogin
-=
-false
 }
 =
 {
+selfFilling
+:
+false
 }
 )
 =
@@ -879,7 +868,6 @@ false
 commonInit
 (
 selfFilling
-testDependsOnDeprecatedLogin
 )
 ;
 sendAsyncMessage
