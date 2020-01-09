@@ -6906,9 +6906,6 @@ Linker
 linker
 (
 masm
-"
-DebugTrapHandler
-"
 )
 ;
 JitCode

@@ -7046,6 +7046,11 @@ Linker
 linker
 (
 masm
+)
+;
+AutoFlushICache
+afc
+(
 "
 DebugTrapHandler
 "
