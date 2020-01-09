@@ -18442,8 +18442,6 @@ ForceTitlebarRedraw
 (
 )
 ;
-return
-;
 }
 /
 /
