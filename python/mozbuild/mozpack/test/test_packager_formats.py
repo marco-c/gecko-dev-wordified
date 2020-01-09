@@ -117,8 +117,6 @@ errors
 import
 (
     
-errors
-    
 ErrorMessage
 )
 from
@@ -3676,7 +3674,7 @@ e
 exception
 .
 message
-            
+                         
 '
 Error
 :
@@ -3688,7 +3686,7 @@ foo
 "
 overrides
 '
-            
+                         
 '
 "
 content
@@ -3761,7 +3759,7 @@ e
 exception
 .
 message
-            
+                         
 '
 Error
 :
@@ -3776,7 +3774,7 @@ WINNT
 "
 overrides
 '
-            
+                         
 '
 "
 content
@@ -3878,7 +3876,7 @@ e
 exception
 .
 message
-            
+                         
 '
 Error
 :
@@ -3891,7 +3889,7 @@ unix
 "
 overrides
 '
-            
+                         
 '
 "
 content
@@ -4036,7 +4034,7 @@ en
 -
 US
 '
-                                    
+                                      
 '
 foo
 /
@@ -4067,7 +4065,7 @@ ja
 -
 JP
 '
-                                    
+                                      
 '
 foo
 /
@@ -4145,7 +4143,7 @@ e
 exception
 .
 message
-            
+                         
 '
 Error
 :
@@ -4167,7 +4165,7 @@ foo
 "
 overrides
 '
-            
+                         
 '
 "
 skin
@@ -4215,7 +4213,7 @@ en
 -
 US
 '
-                                         
+                                          
 '
 foo
 /
@@ -4239,7 +4237,7 @@ e
 exception
 .
 message
-            
+                         
 '
 Error
 :
@@ -4261,7 +4259,7 @@ foo
 "
 overrides
 '
-            
+                         
 '
 "
 locale

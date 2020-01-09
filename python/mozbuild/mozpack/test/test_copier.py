@@ -1610,8 +1610,6 @@ self
 )
 :
         
-registry
-=
 FileRegistry
 (
 )
@@ -1938,7 +1936,7 @@ p
 for
 p
 in
-            
+                                                   
 self
 .
 all_files
@@ -2083,7 +2081,7 @@ p
 for
 p
 in
-            
+                                                   
 (
 '
 foo
@@ -2095,6 +2093,7 @@ foo
 /
 qux
 '
+                                                    
 '
 foo
 /
@@ -2519,11 +2518,11 @@ dest
 remove_unaccounted
 =
 False
-            
+                             
 remove_empty_directories
 =
 True
-            
+                             
 remove_all_directory_symlinks
 =
 False
@@ -2660,11 +2659,11 @@ dest
 remove_unaccounted
 =
 True
-            
+                             
 remove_empty_directories
 =
 False
-            
+                             
 remove_all_directory_symlinks
 =
 False
@@ -2840,11 +2839,11 @@ dest
 remove_unaccounted
 =
 True
-            
+                             
 remove_empty_directories
 =
 True
-            
+                             
 remove_all_directory_symlinks
 =
 False
@@ -3238,7 +3237,7 @@ foo
 '
 bar
 '
-            
+                                                           
 '
 populateddir
 /
@@ -3289,7 +3288,7 @@ assertEqual
 result
 .
 removed_directories
-            
+                         
 set
 (
 [
@@ -3417,7 +3416,7 @@ tmpdir
 remove_unaccounted
 =
 False
-            
+                             
 remove_empty_directories
 =
 False
@@ -3444,7 +3443,7 @@ foo
 '
 bar
 '
-            
+                                                           
 '
 populateddir
 /
@@ -3472,7 +3471,7 @@ set
 '
 emptydir
 '
-            
+                                                          
 '
 populateddir
 '
@@ -3896,7 +3895,6 @@ write
 barbar
 '
 )
-;
         
 os
 .
@@ -3954,7 +3952,6 @@ write
 foototototo
 '
 )
-;
         
 result
 =
@@ -4218,7 +4215,7 @@ p
 for
 p
 in
-            
+                                                
 (
 '
 dest
@@ -4238,6 +4235,7 @@ bar
 /
 qux
 '
+                                                 
 '
 dest
 /
@@ -4653,8 +4651,8 @@ paths
 (
 )
 if
-not
 p
+not
 in
 preloaded
 ]

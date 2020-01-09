@@ -166,8 +166,6 @@ UnreadableInstallManifest
 )
 :
             
-m
-=
 InstallManifest
 (
 f
@@ -607,6 +605,7 @@ self
 .
 tmppath
 (
+            
 '
 p_source
 .
@@ -1943,7 +1942,7 @@ assertEqual
 result
 .
 existing_files
-            
+                         
 set
 (
 [
@@ -2274,6 +2273,7 @@ p_source
 '
 p_dest
 '
+                         
 deps
 '
 #

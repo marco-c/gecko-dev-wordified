@@ -735,7 +735,7 @@ s
 %
 (
 pattern
-                                
+                                                         
 "
 not
 matching
@@ -2296,7 +2296,7 @@ destination
 d
 )
 )
-            
+                             
 for
 d
 in
@@ -2712,7 +2712,7 @@ for
 p
 in
 remove_unaccounted
-                                         
+                                
 .
 required_directories
 (
@@ -3259,13 +3259,13 @@ copy_results
 =
 [
 (
-destfile
+path
 f
 .
 result
 )
 for
-destfile
+path
 f
 in
 fs

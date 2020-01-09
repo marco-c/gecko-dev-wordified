@@ -4132,7 +4132,7 @@ marker
 '
 #
 '
-            
+                             
 defines
 =
 {
@@ -7386,7 +7386,7 @@ min_f
 MinifiedJavaScript
 (
 orig_f
-            
+                                   
 verify_command
 =
 self
@@ -7472,7 +7472,7 @@ min_f
 MinifiedJavaScript
 (
 orig_f
-            
+                                   
 verify_command
 =
 self
@@ -7520,7 +7520,7 @@ self
 assertEqual
 (
 output
-            
+                         
 '
 Warning
 :
@@ -7536,7 +7536,7 @@ unknown
 \
 n
 '
-            
+                         
 '
 Warning
 :
@@ -9289,7 +9289,7 @@ qux
 /
 test
 '
-            
+                             
 '
 foo
 /
@@ -9341,7 +9341,7 @@ qux
 /
 test
 '
-            
+                                 
 '
 foo
 /
@@ -9554,7 +9554,7 @@ bar
 /
 foo
 '
-            
+                             
 '
 foo
 /
@@ -9579,7 +9579,7 @@ qux
 /
 bar
 '
-            
+                             
 '
 foo
 /
@@ -9672,7 +9672,7 @@ foo
 /
 baz
 '
-            
+                                 
 '
 foo
 /

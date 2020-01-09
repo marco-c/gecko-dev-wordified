@@ -745,8 +745,8 @@ f
 continue
             
 if
-not
 p
+not
 in
 jars
 :
@@ -1084,8 +1084,8 @@ jar
 ]
             
 if
-not
 jarpath
+not
 in
 jars
 :
@@ -1125,7 +1125,7 @@ mozpath
 join
 (
 base
-                                                     
+                                                
 j
 .
 filename

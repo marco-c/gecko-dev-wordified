@@ -68,8 +68,6 @@ import
     
 Manifest
     
-ManifestEntryWithRelPath
-    
 ManifestInterfaces
     
 ManifestChrome
@@ -1082,7 +1080,7 @@ mozpath
 join
 (
 relbase
-                                            
+                                       
 mozpath
 .
 basename
@@ -2512,7 +2510,6 @@ path
 cursors
 '
 and
-\
                  
 path
 [
@@ -2524,7 +2521,6 @@ path
 touchbar
 '
 and
-\
                  
 path
 [

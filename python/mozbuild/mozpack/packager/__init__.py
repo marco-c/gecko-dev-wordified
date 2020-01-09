@@ -185,9 +185,8 @@ name
 s
 "
 '
-                         
 %
-component
+name
 )
         
 self
@@ -2172,14 +2171,11 @@ parsed
 dict
 )
 and
-parsed
-.
-has_key
-(
 '
 manifest_version
 '
-)
+in
+parsed
 :
                     
 self
@@ -2244,8 +2240,8 @@ self
 .
 _addons
 )
-!
-=
+is
+not
 None
 :
             
@@ -2269,8 +2265,8 @@ dir
 path
 ]
 )
-!
-=
+is
+not
 None
 :
                 
@@ -2703,7 +2699,7 @@ in
 self
 .
 _manifests
-                                 
+                        
 -
 set
 (
@@ -3442,7 +3438,7 @@ mozpath
 join
 (
 path
-                                          
+                                                       
 '
 chrome
 .
@@ -3453,8 +3449,8 @@ manifest
 :
                 
 if
-not
 p
+not
 in
 self
 .
