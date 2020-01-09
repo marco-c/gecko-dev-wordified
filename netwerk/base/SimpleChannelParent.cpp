@@ -216,8 +216,10 @@ NS_IMETHODIMP
 SimpleChannelParent
 :
 :
-NotifyTrackingProtectionDisabled
+NotifyChannelClassifierProtectionDisabled
 (
+uint32_t
+aAcceptedReason
 )
 {
 /

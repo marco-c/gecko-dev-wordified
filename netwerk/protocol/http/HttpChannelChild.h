@@ -1599,8 +1599,10 @@ ProcessDivertMessages
 )
 ;
 void
-ProcessNotifyTrackingProtectionDisabled
+ProcessNotifyChannelClassifierProtectionDisabled
 (
+uint32_t
+aAcceptedReason
 )
 ;
 void
