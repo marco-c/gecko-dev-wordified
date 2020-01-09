@@ -172,10 +172,6 @@ Components
 )
 DEPRECATED_OPERATION
 (
-PrefixedVisibilityAPI
-)
-DEPRECATED_OPERATION
-(
 NodeIteratorDetach
 )
 DEPRECATED_OPERATION
@@ -253,10 +249,6 @@ PrefixedFullscreenAPI
 DEPRECATED_OPERATION
 (
 LenientSetter
-)
-DEPRECATED_OPERATION
-(
-FileLastModifiedDate
 )
 DEPRECATED_OPERATION
 (
