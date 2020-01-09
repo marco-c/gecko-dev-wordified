@@ -165,11 +165,6 @@ alloc
 usedNames
 sourceObject
 )
-nodeAlloc_
-(
-cx
-alloc
-)
 lazyScript_
 (
 cx
