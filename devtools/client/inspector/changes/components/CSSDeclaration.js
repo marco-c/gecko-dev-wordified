@@ -197,6 +197,11 @@ div
 (
 {
 className
+:
+declaration
+{
+className
+}
 }
 dom
 .
