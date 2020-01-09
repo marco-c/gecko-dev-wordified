@@ -1344,7 +1344,7 @@ nullptr
 *
 *
 *
-OnInputParagraphSeparator
+InsertParagraphSeparatorAsAction
 (
 )
 is
@@ -1354,8 +1354,8 @@ user
 tries
 to
 separate
-current
 *
+current
 paragraph
 with
 Enter
@@ -1367,7 +1367,7 @@ something
 *
 /
 nsresult
-OnInputParagraphSeparator
+InsertParagraphSeparatorAsAction
 (
 )
 ;
@@ -2568,7 +2568,7 @@ aStringToInsert
 *
 *
 *
-InsertParagraphSeparatorAsAction
+InsertParagraphSeparatorAsSubAction
 (
 )
 inserts
@@ -2579,8 +2579,8 @@ if
 it
 '
 s
-TextEditor
 *
+TextEditor
 or
 inserts
 new
@@ -2622,7 +2622,7 @@ action
 *
 /
 nsresult
-InsertParagraphSeparatorAsAction
+InsertParagraphSeparatorAsSubAction
 (
 )
 ;
