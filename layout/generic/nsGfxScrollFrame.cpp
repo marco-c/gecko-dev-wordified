@@ -6536,15 +6536,16 @@ ups
 FrameChildListIDs
 skip
 =
+{
 nsIFrame
 :
 :
 kSelectPopupList
-|
 nsIFrame
 :
 :
 kPopupList
+}
 ;
 for
 (
@@ -6575,7 +6576,7 @@ if
 (
 skip
 .
-Contains
+contains
 (
 childLists
 .

@@ -2724,11 +2724,11 @@ this
 ;
 ChildListIDs
 skip
-(
+=
+{
 kPrincipalList
-|
 kOverflowList
-)
+}
 ;
 for
 (
@@ -2751,7 +2751,7 @@ if
 (
 skip
 .
-Contains
+contains
 (
 lists
 .
@@ -13881,9 +13881,10 @@ UnionChildOverflow
 (
 this
 aOverflowAreas
+{
 kPrincipalList
-|
 kFloatList
+}
 )
 ;
 }
