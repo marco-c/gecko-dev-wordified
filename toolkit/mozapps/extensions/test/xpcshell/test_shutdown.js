@@ -87,6 +87,9 @@ addManagerListener
 removeManagerListener
 "
 "
+addExternalExtensionLoader
+"
+"
 shutdown
 "
 "
