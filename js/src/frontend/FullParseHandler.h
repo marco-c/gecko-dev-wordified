@@ -1195,7 +1195,7 @@ isKind
 ParseNodeKind
 :
 :
-CallSiteObjExpr
+CallSiteObj
 )
 )
 ;
