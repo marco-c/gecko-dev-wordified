@@ -1166,9 +1166,7 @@ error
 category
 {
 link
-GeckoSession
-.
-NavigationDelegate
+WebRequestError
 #
 ERROR_CATEGORY_SAFEBROWSING
 }
@@ -1259,9 +1257,7 @@ error
 category
 {
 link
-GeckoSession
-.
-NavigationDelegate
+WebRequestError
 #
 ERROR_CATEGORY_SAFEBROWSING
 }
@@ -4345,9 +4341,7 @@ error
 category
 {
 link
-GeckoSession
-.
-NavigationDelegate
+WebRequestError
 #
 ERROR_CATEGORY_SAFEBROWSING
 }
@@ -4476,9 +4470,7 @@ error
 category
 {
 link
-GeckoSession
-.
-NavigationDelegate
+WebRequestError
 #
 ERROR_CATEGORY_SAFEBROWSING
 }
