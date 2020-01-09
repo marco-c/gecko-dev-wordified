@@ -2369,9 +2369,6 @@ CUBIC_BEZIER_CLASS
 angleClass
 :
 ANGLE_CLASS
-defaultColorType
-:
-false
 }
 )
 )
