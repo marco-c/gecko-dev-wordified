@@ -667,6 +667,9 @@ mLoadFlags
 uint32_t
 mDefaultLoadFlags
 ;
+int32_t
+mPriority
+;
 nsCOMPtr
 <
 nsILoadGroup
@@ -717,11 +720,11 @@ mParentLoadGroup
 nsresult
 mStatus
 ;
-int32_t
-mPriority
-;
 bool
 mIsCanceling
+;
+bool
+mDefaultLoadIsTimed
 ;
 /
 *
@@ -733,9 +736,6 @@ mozilla
 :
 TimeStamp
 mDefaultRequestCreationTime
-;
-bool
-mDefaultLoadIsTimed
 ;
 uint32_t
 mTimedRequests
