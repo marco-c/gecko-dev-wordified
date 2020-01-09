@@ -3392,7 +3392,7 @@ if
 !
 (
 '
-self
+location
 '
 in
 global_scope
