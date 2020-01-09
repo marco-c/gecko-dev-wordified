@@ -2659,7 +2659,7 @@ isKind
 ParseNodeKind
 :
 :
-Return
+ReturnStmt
 )
 )
 ;
@@ -2825,7 +2825,7 @@ isKind
 ParseNodeKind
 :
 :
-Call
+CallExpr
 )
 )
 ;
@@ -2856,7 +2856,7 @@ isKind
 ParseNodeKind
 :
 :
-Call
+CallExpr
 )
 )
 ;
@@ -2891,7 +2891,7 @@ isKind
 ParseNodeKind
 :
 :
-Call
+CallExpr
 )
 )
 ;
@@ -2926,7 +2926,7 @@ isKind
 ParseNodeKind
 :
 :
-Var
+VarStmt
 )
 |
 |
@@ -2938,7 +2938,7 @@ isKind
 ParseNodeKind
 :
 :
-Const
+ConstDecl
 )
 )
 ;
@@ -3185,7 +3185,7 @@ isKind
 ParseNodeKind
 :
 :
-Star
+MulExpr
 )
 )
 ;
@@ -3217,7 +3217,7 @@ isKind
 ParseNodeKind
 :
 :
-Star
+MulExpr
 )
 )
 ;
@@ -3249,7 +3249,7 @@ isKind
 ParseNodeKind
 :
 :
-Add
+AddExpr
 )
 |
 |
@@ -3261,7 +3261,7 @@ isKind
 ParseNodeKind
 :
 :
-Sub
+SubExpr
 )
 )
 ;
@@ -3293,7 +3293,7 @@ isKind
 ParseNodeKind
 :
 :
-Add
+AddExpr
 )
 |
 |
@@ -3305,7 +3305,7 @@ isKind
 ParseNodeKind
 :
 :
-Sub
+SubExpr
 )
 )
 ;
@@ -3337,7 +3337,7 @@ isKind
 ParseNodeKind
 :
 :
-Div
+DivExpr
 )
 |
 |
@@ -3349,7 +3349,7 @@ isKind
 ParseNodeKind
 :
 :
-Mod
+ModExpr
 )
 )
 ;
@@ -3381,7 +3381,7 @@ isKind
 ParseNodeKind
 :
 :
-Div
+DivExpr
 )
 |
 |
@@ -3393,7 +3393,7 @@ isKind
 ParseNodeKind
 :
 :
-Mod
+ModExpr
 )
 )
 ;
@@ -3459,7 +3459,7 @@ isKind
 ParseNodeKind
 :
 :
-ExpressionStatement
+ExpressionStmt
 )
 ;
 }
@@ -3484,7 +3484,7 @@ isKind
 ParseNodeKind
 :
 :
-ExpressionStatement
+ExpressionStmt
 )
 )
 ;
@@ -3516,7 +3516,7 @@ isKind
 ParseNodeKind
 :
 :
-Break
+BreakStmt
 )
 |
 |
@@ -3528,7 +3528,7 @@ isKind
 ParseNodeKind
 :
 :
-Continue
+ContinueStmt
 )
 )
 ;
@@ -4178,7 +4178,7 @@ isKind
 ParseNodeKind
 :
 :
-ExpressionStatement
+ExpressionStmt
 )
 &
 &
@@ -4193,7 +4193,7 @@ isKind
 ParseNodeKind
 :
 :
-String
+StringExpr
 )
 &
 &
@@ -4238,7 +4238,7 @@ isKind
 ParseNodeKind
 :
 :
-EmptyStatement
+EmptyStmt
 )
 ;
 }
@@ -4549,7 +4549,7 @@ isKind
 ParseNodeKind
 :
 :
-Var
+VarStmt
 )
 |
 |
@@ -4564,7 +4564,7 @@ isKind
 ParseNodeKind
 :
 :
-Const
+ConstDecl
 )
 )
 ;
@@ -13400,7 +13400,7 @@ isKind
 ParseNodeKind
 :
 :
-Number
+NumberExpr
 )
 |
 |
@@ -13413,7 +13413,7 @@ isKind
 ParseNodeKind
 :
 :
-Neg
+NegExpr
 )
 &
 &
@@ -13428,7 +13428,7 @@ isKind
 ParseNodeKind
 :
 :
-Number
+NumberExpr
 )
 )
 ;
@@ -13464,7 +13464,7 @@ isKind
 ParseNodeKind
 :
 :
-Call
+CallExpr
 )
 )
 {
@@ -13895,7 +13895,7 @@ isKind
 ParseNodeKind
 :
 :
-Neg
+NegExpr
 )
 )
 {
@@ -13963,7 +13963,7 @@ isKind
 ParseNodeKind
 :
 :
-Call
+CallExpr
 )
 )
 {
@@ -17664,7 +17664,7 @@ case
 ParseNodeKind
 :
 :
-BitOr
+BitOrExpr
 :
 {
 ParseNode
@@ -17747,7 +17747,7 @@ case
 ParseNodeKind
 :
 :
-Pos
+PosExpr
 :
 {
 *
@@ -17780,7 +17780,7 @@ case
 ParseNodeKind
 :
 :
-Call
+CallExpr
 :
 {
 if
@@ -17884,7 +17884,7 @@ isKind
 ParseNodeKind
 :
 :
-Dot
+DotExpr
 )
 )
 {
@@ -18467,7 +18467,7 @@ isKind
 ParseNodeKind
 :
 :
-Dot
+DotExpr
 )
 )
 {
@@ -18909,7 +18909,7 @@ isKind
 ParseNodeKind
 :
 :
-Dot
+DotExpr
 )
 )
 {
@@ -18987,7 +18987,7 @@ isKind
 ParseNodeKind
 :
 :
-Dot
+DotExpr
 )
 )
 {
@@ -19446,7 +19446,7 @@ isKind
 ParseNodeKind
 :
 :
-BitOr
+BitOrExpr
 )
 |
 |
@@ -19458,7 +19458,7 @@ isKind
 ParseNodeKind
 :
 :
-Pos
+PosExpr
 )
 |
 |
@@ -19470,7 +19470,7 @@ isKind
 ParseNodeKind
 :
 :
-Call
+CallExpr
 )
 )
 {
@@ -19494,7 +19494,7 @@ isKind
 ParseNodeKind
 :
 :
-New
+NewExpr
 )
 )
 {
@@ -19517,7 +19517,7 @@ isKind
 ParseNodeKind
 :
 :
-Dot
+DotExpr
 )
 )
 {
@@ -19775,7 +19775,7 @@ isKind
 ParseNodeKind
 :
 :
-Const
+ConstDecl
 )
 )
 )
@@ -19922,7 +19922,7 @@ isKind
 ParseNodeKind
 :
 :
-Assign
+AssignExpr
 )
 )
 {
@@ -20465,7 +20465,7 @@ isKind
 ParseNodeKind
 :
 :
-Return
+ReturnStmt
 )
 &
 &
@@ -20811,7 +20811,7 @@ isKind
 ParseNodeKind
 :
 :
-Var
+VarStmt
 )
 ;
 stmt
@@ -21763,7 +21763,7 @@ isKind
 ParseNodeKind
 :
 :
-Rsh
+RshExpr
 )
 )
 {
@@ -23529,7 +23529,7 @@ isKind
 ParseNodeKind
 :
 :
-Assign
+AssignExpr
 )
 )
 ;
@@ -23564,7 +23564,7 @@ getKind
 ParseNodeKind
 :
 :
-Elem
+ElemExpr
 )
 {
 return
@@ -25895,7 +25895,7 @@ isKind
 ParseNodeKind
 :
 :
-BitAnd
+BitAndExpr
 )
 )
 {
@@ -26629,7 +26629,7 @@ isKind
 ParseNodeKind
 :
 :
-Call
+CallExpr
 )
 )
 {
@@ -27647,7 +27647,7 @@ isKind
 ParseNodeKind
 :
 :
-Call
+CallExpr
 )
 )
 ;
@@ -28297,7 +28297,7 @@ isKind
 ParseNodeKind
 :
 :
-Elem
+ElemExpr
 )
 )
 {
@@ -28557,7 +28557,7 @@ isKind
 ParseNodeKind
 :
 :
-Pos
+PosExpr
 )
 )
 ;
@@ -28580,7 +28580,7 @@ isKind
 ParseNodeKind
 :
 :
-Call
+CallExpr
 )
 )
 {
@@ -28655,7 +28655,7 @@ isKind
 ParseNodeKind
 :
 :
-Not
+NotExpr
 )
 )
 ;
@@ -28770,7 +28770,7 @@ isKind
 ParseNodeKind
 :
 :
-Neg
+NegExpr
 )
 )
 ;
@@ -28955,7 +28955,7 @@ isKind
 ParseNodeKind
 :
 :
-BitNot
+BitNotExpr
 )
 )
 ;
@@ -29119,7 +29119,7 @@ isKind
 ParseNodeKind
 :
 :
-BitNot
+BitNotExpr
 )
 )
 ;
@@ -29142,7 +29142,7 @@ isKind
 ParseNodeKind
 :
 :
-BitNot
+BitNotExpr
 )
 )
 {
@@ -29279,7 +29279,7 @@ isKind
 ParseNodeKind
 :
 :
-Comma
+CommaExpr
 )
 )
 ;
@@ -29485,7 +29485,7 @@ isKind
 ParseNodeKind
 :
 :
-Conditional
+ConditionalExpr
 )
 )
 ;
@@ -29931,7 +29931,7 @@ isKind
 ParseNodeKind
 :
 :
-Star
+MulExpr
 )
 )
 ;
@@ -30247,7 +30247,7 @@ isKind
 ParseNodeKind
 :
 :
-Add
+AddExpr
 )
 |
 |
@@ -30259,7 +30259,7 @@ isKind
 ParseNodeKind
 :
 :
-Sub
+SubExpr
 )
 )
 ;
@@ -30299,7 +30299,7 @@ isKind
 ParseNodeKind
 :
 :
-Add
+AddExpr
 )
 |
 |
@@ -30311,7 +30311,7 @@ isKind
 ParseNodeKind
 :
 :
-Sub
+SubExpr
 )
 )
 {
@@ -30386,7 +30386,7 @@ isKind
 ParseNodeKind
 :
 :
-Add
+AddExpr
 )
 |
 |
@@ -30398,7 +30398,7 @@ isKind
 ParseNodeKind
 :
 :
-Sub
+SubExpr
 )
 )
 {
@@ -30538,7 +30538,7 @@ isKind
 ParseNodeKind
 :
 :
-Add
+AddExpr
 )
 ?
 Op
@@ -30602,7 +30602,7 @@ isKind
 ParseNodeKind
 :
 :
-Add
+AddExpr
 )
 ?
 Op
@@ -30666,7 +30666,7 @@ isKind
 ParseNodeKind
 :
 :
-Add
+AddExpr
 )
 ?
 Op
@@ -30777,7 +30777,7 @@ isKind
 ParseNodeKind
 :
 :
-Div
+DivExpr
 )
 |
 |
@@ -30789,7 +30789,7 @@ isKind
 ParseNodeKind
 :
 :
-Mod
+ModExpr
 )
 )
 ;
@@ -30881,7 +30881,7 @@ isKind
 ParseNodeKind
 :
 :
-Div
+DivExpr
 )
 )
 {
@@ -30951,7 +30951,7 @@ isKind
 ParseNodeKind
 :
 :
-Div
+DivExpr
 )
 )
 {
@@ -31031,7 +31031,7 @@ isKind
 ParseNodeKind
 :
 :
-Div
+DivExpr
 )
 ?
 Op
@@ -31087,7 +31087,7 @@ isKind
 ParseNodeKind
 :
 :
-Div
+DivExpr
 )
 ?
 Op
@@ -31174,7 +31174,7 @@ isKind
 ParseNodeKind
 :
 :
-Lt
+LtExpr
 )
 |
 |
@@ -31186,7 +31186,7 @@ isKind
 ParseNodeKind
 :
 :
-Le
+LeExpr
 )
 |
 |
@@ -31198,7 +31198,7 @@ isKind
 ParseNodeKind
 :
 :
-Gt
+GtExpr
 )
 |
 |
@@ -31210,7 +31210,7 @@ isKind
 ParseNodeKind
 :
 :
-Ge
+GeExpr
 )
 |
 |
@@ -31222,7 +31222,7 @@ isKind
 ParseNodeKind
 :
 :
-Eq
+EqExpr
 )
 |
 |
@@ -31234,7 +31234,7 @@ isKind
 ParseNodeKind
 :
 :
-Ne
+NeExpr
 )
 )
 ;
@@ -31440,7 +31440,7 @@ case
 ParseNodeKind
 :
 :
-Eq
+EqExpr
 :
 stmt
 =
@@ -31455,7 +31455,7 @@ case
 ParseNodeKind
 :
 :
-Ne
+NeExpr
 :
 stmt
 =
@@ -31470,7 +31470,7 @@ case
 ParseNodeKind
 :
 :
-Lt
+LtExpr
 :
 stmt
 =
@@ -31485,7 +31485,7 @@ case
 ParseNodeKind
 :
 :
-Le
+LeExpr
 :
 stmt
 =
@@ -31500,7 +31500,7 @@ case
 ParseNodeKind
 :
 :
-Gt
+GtExpr
 :
 stmt
 =
@@ -31515,7 +31515,7 @@ case
 ParseNodeKind
 :
 :
-Ge
+GeExpr
 :
 stmt
 =
@@ -31570,7 +31570,7 @@ case
 ParseNodeKind
 :
 :
-Eq
+EqExpr
 :
 stmt
 =
@@ -31585,7 +31585,7 @@ case
 ParseNodeKind
 :
 :
-Ne
+NeExpr
 :
 stmt
 =
@@ -31600,7 +31600,7 @@ case
 ParseNodeKind
 :
 :
-Lt
+LtExpr
 :
 stmt
 =
@@ -31615,7 +31615,7 @@ case
 ParseNodeKind
 :
 :
-Le
+LeExpr
 :
 stmt
 =
@@ -31630,7 +31630,7 @@ case
 ParseNodeKind
 :
 :
-Gt
+GtExpr
 :
 stmt
 =
@@ -31645,7 +31645,7 @@ case
 ParseNodeKind
 :
 :
-Ge
+GeExpr
 :
 stmt
 =
@@ -31693,7 +31693,7 @@ case
 ParseNodeKind
 :
 :
-Eq
+EqExpr
 :
 stmt
 =
@@ -31708,7 +31708,7 @@ case
 ParseNodeKind
 :
 :
-Ne
+NeExpr
 :
 stmt
 =
@@ -31723,7 +31723,7 @@ case
 ParseNodeKind
 :
 :
-Lt
+LtExpr
 :
 stmt
 =
@@ -31738,7 +31738,7 @@ case
 ParseNodeKind
 :
 :
-Le
+LeExpr
 :
 stmt
 =
@@ -31753,7 +31753,7 @@ case
 ParseNodeKind
 :
 :
-Gt
+GtExpr
 :
 stmt
 =
@@ -31768,7 +31768,7 @@ case
 ParseNodeKind
 :
 :
-Ge
+GeExpr
 :
 stmt
 =
@@ -31816,7 +31816,7 @@ case
 ParseNodeKind
 :
 :
-Eq
+EqExpr
 :
 stmt
 =
@@ -31831,7 +31831,7 @@ case
 ParseNodeKind
 :
 :
-Ne
+NeExpr
 :
 stmt
 =
@@ -31846,7 +31846,7 @@ case
 ParseNodeKind
 :
 :
-Lt
+LtExpr
 :
 stmt
 =
@@ -31861,7 +31861,7 @@ case
 ParseNodeKind
 :
 :
-Le
+LeExpr
 :
 stmt
 =
@@ -31876,7 +31876,7 @@ case
 ParseNodeKind
 :
 :
-Gt
+GtExpr
 :
 stmt
 =
@@ -31891,7 +31891,7 @@ case
 ParseNodeKind
 :
 :
-Ge
+GeExpr
 :
 stmt
 =
@@ -32000,7 +32000,7 @@ case
 ParseNodeKind
 :
 :
-BitOr
+BitOrExpr
 :
 identityElement
 =
@@ -32024,7 +32024,7 @@ case
 ParseNodeKind
 :
 :
-BitAnd
+BitAndExpr
 :
 identityElement
 =
@@ -32049,7 +32049,7 @@ case
 ParseNodeKind
 :
 :
-BitXor
+BitXorExpr
 :
 identityElement
 =
@@ -32073,7 +32073,7 @@ case
 ParseNodeKind
 :
 :
-Lsh
+LshExpr
 :
 identityElement
 =
@@ -32097,7 +32097,7 @@ case
 ParseNodeKind
 :
 :
-Rsh
+RshExpr
 :
 identityElement
 =
@@ -32121,7 +32121,7 @@ case
 ParseNodeKind
 :
 :
-Ursh
+UrshExpr
 :
 identityElement
 =
@@ -32276,7 +32276,7 @@ isKind
 ParseNodeKind
 :
 :
-BitOr
+BitOrExpr
 )
 &
 &
@@ -32288,7 +32288,7 @@ isKind
 ParseNodeKind
 :
 :
-Call
+CallExpr
 )
 )
 {
@@ -32482,7 +32482,7 @@ case
 ParseNodeKind
 :
 :
-BitOr
+BitOrExpr
 :
 if
 (
@@ -32510,7 +32510,7 @@ case
 ParseNodeKind
 :
 :
-BitAnd
+BitAndExpr
 :
 if
 (
@@ -32538,7 +32538,7 @@ case
 ParseNodeKind
 :
 :
-BitXor
+BitXorExpr
 :
 if
 (
@@ -32566,7 +32566,7 @@ case
 ParseNodeKind
 :
 :
-Lsh
+LshExpr
 :
 if
 (
@@ -32594,7 +32594,7 @@ case
 ParseNodeKind
 :
 :
-Rsh
+RshExpr
 :
 if
 (
@@ -32622,7 +32622,7 @@ case
 ParseNodeKind
 :
 :
-Ursh
+UrshExpr
 :
 if
 (
@@ -32753,7 +32753,7 @@ case
 ParseNodeKind
 :
 :
-Elem
+ElemExpr
 :
 return
 CheckLoadArray
@@ -32767,7 +32767,7 @@ case
 ParseNodeKind
 :
 :
-Assign
+AssignExpr
 :
 return
 CheckAssign
@@ -32781,7 +32781,7 @@ case
 ParseNodeKind
 :
 :
-Pos
+PosExpr
 :
 return
 CheckPos
@@ -32795,7 +32795,7 @@ case
 ParseNodeKind
 :
 :
-Not
+NotExpr
 :
 return
 CheckNot
@@ -32809,7 +32809,7 @@ case
 ParseNodeKind
 :
 :
-Neg
+NegExpr
 :
 return
 CheckNeg
@@ -32823,7 +32823,7 @@ case
 ParseNodeKind
 :
 :
-BitNot
+BitNotExpr
 :
 return
 CheckBitNot
@@ -32837,7 +32837,7 @@ case
 ParseNodeKind
 :
 :
-Comma
+CommaExpr
 :
 return
 CheckComma
@@ -32851,7 +32851,7 @@ case
 ParseNodeKind
 :
 :
-Conditional
+ConditionalExpr
 :
 return
 CheckConditional
@@ -32865,7 +32865,7 @@ case
 ParseNodeKind
 :
 :
-Star
+MulExpr
 :
 return
 CheckMultiply
@@ -32879,7 +32879,7 @@ case
 ParseNodeKind
 :
 :
-Call
+CallExpr
 :
 return
 CheckUncoercedCall
@@ -32893,13 +32893,13 @@ case
 ParseNodeKind
 :
 :
-Add
+AddExpr
 :
 case
 ParseNodeKind
 :
 :
-Sub
+SubExpr
 :
 return
 CheckAddOrSub
@@ -32913,13 +32913,13 @@ case
 ParseNodeKind
 :
 :
-Div
+DivExpr
 :
 case
 ParseNodeKind
 :
 :
-Mod
+ModExpr
 :
 return
 CheckDivOrMod
@@ -32933,37 +32933,37 @@ case
 ParseNodeKind
 :
 :
-Lt
+LtExpr
 :
 case
 ParseNodeKind
 :
 :
-Le
+LeExpr
 :
 case
 ParseNodeKind
 :
 :
-Gt
+GtExpr
 :
 case
 ParseNodeKind
 :
 :
-Ge
+GeExpr
 :
 case
 ParseNodeKind
 :
 :
-Eq
+EqExpr
 :
 case
 ParseNodeKind
 :
 :
-Ne
+NeExpr
 :
 return
 CheckComparison
@@ -32977,37 +32977,37 @@ case
 ParseNodeKind
 :
 :
-BitOr
+BitOrExpr
 :
 case
 ParseNodeKind
 :
 :
-BitAnd
+BitAndExpr
 :
 case
 ParseNodeKind
 :
 :
-BitXor
+BitXorExpr
 :
 case
 ParseNodeKind
 :
 :
-Lsh
+LshExpr
 :
 case
 ParseNodeKind
 :
 :
-Rsh
+RshExpr
 :
 case
 ParseNodeKind
 :
 :
-Ursh
+UrshExpr
 :
 return
 CheckBitwise
@@ -33068,7 +33068,7 @@ isKind
 ParseNodeKind
 :
 :
-Call
+CallExpr
 )
 )
 {
@@ -33167,7 +33167,7 @@ isKind
 ParseNodeKind
 :
 :
-ExpressionStatement
+ExpressionStmt
 )
 )
 ;
@@ -33350,7 +33350,7 @@ isKind
 ParseNodeKind
 :
 :
-While
+WhileStmt
 )
 )
 ;
@@ -33565,7 +33565,7 @@ isKind
 ParseNodeKind
 :
 :
-For
+ForStmt
 )
 )
 ;
@@ -34043,7 +34043,7 @@ isKind
 ParseNodeKind
 :
 :
-DoWhile
+DoWhileStmt
 )
 )
 ;
@@ -34401,7 +34401,7 @@ isKind
 ParseNodeKind
 :
 :
-Label
+LabelStmt
 )
 )
 ;
@@ -34455,7 +34455,7 @@ getKind
 ParseNodeKind
 :
 :
-Label
+LabelStmt
 )
 ;
 switch
@@ -34472,7 +34472,7 @@ case
 ParseNodeKind
 :
 :
-For
+ForStmt
 :
 return
 CheckFor
@@ -34487,7 +34487,7 @@ case
 ParseNodeKind
 :
 :
-DoWhile
+DoWhileStmt
 :
 return
 CheckDoWhile
@@ -34502,7 +34502,7 @@ case
 ParseNodeKind
 :
 :
-While
+WhileStmt
 :
 return
 CheckWhile
@@ -34612,7 +34612,7 @@ isKind
 ParseNodeKind
 :
 :
-If
+IfStmt
 )
 )
 ;
@@ -34769,7 +34769,7 @@ isKind
 ParseNodeKind
 :
 :
-If
+IfStmt
 )
 )
 {
@@ -35556,7 +35556,7 @@ isKind
 ParseNodeKind
 :
 :
-Switch
+SwitchStmt
 )
 )
 ;
@@ -36928,7 +36928,7 @@ case
 ParseNodeKind
 :
 :
-EmptyStatement
+EmptyStmt
 :
 return
 true
@@ -36937,7 +36937,7 @@ case
 ParseNodeKind
 :
 :
-ExpressionStatement
+ExpressionStmt
 :
 return
 CheckExprStatement
@@ -36950,7 +36950,7 @@ case
 ParseNodeKind
 :
 :
-While
+WhileStmt
 :
 return
 CheckWhile
@@ -36963,7 +36963,7 @@ case
 ParseNodeKind
 :
 :
-For
+ForStmt
 :
 return
 CheckFor
@@ -36976,7 +36976,7 @@ case
 ParseNodeKind
 :
 :
-DoWhile
+DoWhileStmt
 :
 return
 CheckDoWhile
@@ -36989,7 +36989,7 @@ case
 ParseNodeKind
 :
 :
-Label
+LabelStmt
 :
 return
 CheckLabel
@@ -37002,7 +37002,7 @@ case
 ParseNodeKind
 :
 :
-If
+IfStmt
 :
 return
 CheckIf
@@ -37015,7 +37015,7 @@ case
 ParseNodeKind
 :
 :
-Switch
+SwitchStmt
 :
 return
 CheckSwitch
@@ -37028,7 +37028,7 @@ case
 ParseNodeKind
 :
 :
-Return
+ReturnStmt
 :
 return
 CheckReturn
@@ -37054,7 +37054,7 @@ case
 ParseNodeKind
 :
 :
-Break
+BreakStmt
 :
 return
 CheckBreakOrContinue
@@ -37068,7 +37068,7 @@ case
 ParseNodeKind
 :
 :
-Continue
+ContinueStmt
 :
 return
 CheckBreakOrContinue
@@ -38116,7 +38116,7 @@ isKind
 ParseNodeKind
 :
 :
-Array
+ArrayExpr
 )
 )
 {
@@ -38812,7 +38812,7 @@ isKind
 ParseNodeKind
 :
 :
-Object
+ObjectExpr
 )
 )
 ;
@@ -39116,7 +39116,7 @@ isKind
 ParseNodeKind
 :
 :
-Object
+ObjectExpr
 )
 )
 {

@@ -46,7 +46,7 @@ basic
 -
 offset
 :
-2
+4
 -
 *
 -
@@ -59,14 +59,14 @@ ts
 8
 sts
 =
-2
+4
 et
 sw
 =
-2
+4
 tw
 =
-80
+99
 :
 *
 This
@@ -9533,7 +9533,7 @@ newAssignment
 ParseNodeKind
 :
 :
-Assign
+AssignExpr
 binding
 expression
 )
@@ -9925,7 +9925,7 @@ pnk
 ParseNodeKind
 :
 :
-Comma
+CommaExpr
 ;
 break
 ;
@@ -9940,7 +9940,7 @@ pnk
 ParseNodeKind
 :
 :
-Or
+OrExpr
 ;
 break
 ;
@@ -9955,7 +9955,7 @@ pnk
 ParseNodeKind
 :
 :
-And
+AndExpr
 ;
 break
 ;
@@ -9970,7 +9970,7 @@ pnk
 ParseNodeKind
 :
 :
-BitOr
+BitOrExpr
 ;
 break
 ;
@@ -9985,7 +9985,7 @@ pnk
 ParseNodeKind
 :
 :
-BitXor
+BitXorExpr
 ;
 break
 ;
@@ -10000,7 +10000,7 @@ pnk
 ParseNodeKind
 :
 :
-BitAnd
+BitAndExpr
 ;
 break
 ;
@@ -10015,7 +10015,7 @@ pnk
 ParseNodeKind
 :
 :
-Eq
+EqExpr
 ;
 break
 ;
@@ -10030,7 +10030,7 @@ pnk
 ParseNodeKind
 :
 :
-Ne
+NeExpr
 ;
 break
 ;
@@ -10045,7 +10045,7 @@ pnk
 ParseNodeKind
 :
 :
-StrictEq
+StrictEqExpr
 ;
 break
 ;
@@ -10060,7 +10060,7 @@ pnk
 ParseNodeKind
 :
 :
-StrictNe
+StrictNeExpr
 ;
 break
 ;
@@ -10075,7 +10075,7 @@ pnk
 ParseNodeKind
 :
 :
-Lt
+LtExpr
 ;
 break
 ;
@@ -10090,7 +10090,7 @@ pnk
 ParseNodeKind
 :
 :
-Le
+LeExpr
 ;
 break
 ;
@@ -10105,7 +10105,7 @@ pnk
 ParseNodeKind
 :
 :
-Gt
+GtExpr
 ;
 break
 ;
@@ -10120,7 +10120,7 @@ pnk
 ParseNodeKind
 :
 :
-Ge
+GeExpr
 ;
 break
 ;
@@ -10135,7 +10135,7 @@ pnk
 ParseNodeKind
 :
 :
-In
+InExpr
 ;
 break
 ;
@@ -10150,7 +10150,7 @@ pnk
 ParseNodeKind
 :
 :
-InstanceOf
+InstanceOfExpr
 ;
 break
 ;
@@ -10165,7 +10165,7 @@ pnk
 ParseNodeKind
 :
 :
-Lsh
+LshExpr
 ;
 break
 ;
@@ -10180,7 +10180,7 @@ pnk
 ParseNodeKind
 :
 :
-Rsh
+RshExpr
 ;
 break
 ;
@@ -10195,7 +10195,7 @@ pnk
 ParseNodeKind
 :
 :
-Ursh
+UrshExpr
 ;
 break
 ;
@@ -10210,7 +10210,7 @@ pnk
 ParseNodeKind
 :
 :
-Add
+AddExpr
 ;
 break
 ;
@@ -10225,7 +10225,7 @@ pnk
 ParseNodeKind
 :
 :
-Sub
+SubExpr
 ;
 break
 ;
@@ -10240,7 +10240,7 @@ pnk
 ParseNodeKind
 :
 :
-Star
+MulExpr
 ;
 break
 ;
@@ -10255,7 +10255,7 @@ pnk
 ParseNodeKind
 :
 :
-Div
+DivExpr
 ;
 break
 ;
@@ -10270,7 +10270,7 @@ pnk
 ParseNodeKind
 :
 :
-Mod
+ModExpr
 ;
 break
 ;
@@ -10285,7 +10285,7 @@ pnk
 ParseNodeKind
 :
 :
-Pow
+PowExpr
 ;
 break
 ;
@@ -10311,13 +10311,13 @@ pnk
 ParseNodeKind
 :
 :
-Pow
+PowExpr
 /
 *
 ParseNodeKind
 :
 :
-Pow
+PowExpr
 is
 not
 left
@@ -12224,7 +12224,7 @@ pnk
 ParseNodeKind
 :
 :
-AddAssign
+AddAssignExpr
 ;
 break
 ;
@@ -12239,7 +12239,7 @@ pnk
 ParseNodeKind
 :
 :
-SubAssign
+SubAssignExpr
 ;
 break
 ;
@@ -12254,7 +12254,7 @@ pnk
 ParseNodeKind
 :
 :
-MulAssign
+MulAssignExpr
 ;
 break
 ;
@@ -12269,7 +12269,7 @@ pnk
 ParseNodeKind
 :
 :
-DivAssign
+DivAssignExpr
 ;
 break
 ;
@@ -12284,7 +12284,7 @@ pnk
 ParseNodeKind
 :
 :
-ModAssign
+ModAssignExpr
 ;
 break
 ;
@@ -12299,7 +12299,7 @@ pnk
 ParseNodeKind
 :
 :
-PowAssign
+PowAssignExpr
 ;
 break
 ;
@@ -12314,7 +12314,7 @@ pnk
 ParseNodeKind
 :
 :
-LshAssign
+LshAssignExpr
 ;
 break
 ;
@@ -12329,7 +12329,7 @@ pnk
 ParseNodeKind
 :
 :
-RshAssign
+RshAssignExpr
 ;
 break
 ;
@@ -12344,7 +12344,7 @@ pnk
 ParseNodeKind
 :
 :
-UrshAssign
+UrshAssignExpr
 ;
 break
 ;
@@ -12359,7 +12359,7 @@ pnk
 ParseNodeKind
 :
 :
-BitOrAssign
+BitOrAssignExpr
 ;
 break
 ;
@@ -12374,7 +12374,7 @@ pnk
 ParseNodeKind
 :
 :
-BitXorAssign
+BitXorAssignExpr
 ;
 break
 ;
@@ -12389,7 +12389,7 @@ pnk
 ParseNodeKind
 :
 :
-BitAndAssign
+BitAndAssignExpr
 ;
 break
 ;
@@ -16325,7 +16325,7 @@ pnk
 ParseNodeKind
 :
 :
-Var
+VarStmt
 ;
 break
 ;
@@ -24907,7 +24907,7 @@ pnk
 ParseNodeKind
 :
 :
-Neg
+NegExpr
 ;
 break
 ;
@@ -24922,7 +24922,7 @@ pnk
 ParseNodeKind
 :
 :
-Pos
+PosExpr
 ;
 break
 ;
@@ -24937,7 +24937,7 @@ pnk
 ParseNodeKind
 :
 :
-Not
+NotExpr
 ;
 break
 ;
@@ -24952,7 +24952,7 @@ pnk
 ParseNodeKind
 :
 :
-BitNot
+BitNotExpr
 ;
 break
 ;
@@ -24982,7 +24982,7 @@ pnk
 ParseNodeKind
 :
 :
-TypeOfName
+TypeOfNameExpr
 ;
 }
 else
@@ -25009,7 +25009,7 @@ pnk
 ParseNodeKind
 :
 :
-Void
+VoidExpr
 ;
 break
 ;
@@ -25049,7 +25049,7 @@ pnk
 ParseNodeKind
 :
 :
-DeleteName
+DeleteNameExpr
 ;
 break
 ;
@@ -25057,14 +25057,14 @@ case
 ParseNodeKind
 :
 :
-Dot
+DotExpr
 :
 pnk
 =
 ParseNodeKind
 :
 :
-DeleteProp
+DeletePropExpr
 ;
 break
 ;
@@ -25072,14 +25072,14 @@ case
 ParseNodeKind
 :
 :
-Elem
+ElemExpr
 :
 pnk
 =
 ParseNodeKind
 :
 :
-DeleteElem
+DeleteElemExpr
 ;
 break
 ;
@@ -25263,12 +25263,12 @@ isPrefix
 ParseNodeKind
 :
 :
-PreIncrement
+PreIncrementExpr
 :
 ParseNodeKind
 :
 :
-PostIncrement
+PostIncrementExpr
 ;
 break
 ;
@@ -25285,12 +25285,12 @@ isPrefix
 ParseNodeKind
 :
 :
-PreDecrement
+PreDecrementExpr
 :
 ParseNodeKind
 :
 :
-PostDecrement
+PostDecrementExpr
 ;
 break
 ;
@@ -25490,7 +25490,7 @@ pnk
 ParseNodeKind
 :
 :
-Var
+VarStmt
 ;
 break
 ;
@@ -25941,7 +25941,7 @@ newAssignment
 ParseNodeKind
 :
 :
-Assign
+AssignExpr
 binding
 init
 )
@@ -29141,7 +29141,7 @@ newDeclarationList
 ParseNodeKind
 :
 :
-Const
+ConstDecl
 /
 *
 Placeholder
