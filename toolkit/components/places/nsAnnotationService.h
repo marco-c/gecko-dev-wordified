@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsToolkitCompsCID
-.
-h
-"
-#
-include
-"
 Database
 .
 h
