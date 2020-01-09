@@ -60932,7 +60932,7 @@ thread
 presShell
 -
 >
-SetPendingVisualScrollUpdate
+ScrollToVisual
 (
 presShell
 -
@@ -60944,6 +60944,13 @@ FrameMetrics
 :
 :
 eRestore
+nsIPresShell
+:
+:
+ScrollMode
+:
+:
+eInstant
 )
 ;
 }

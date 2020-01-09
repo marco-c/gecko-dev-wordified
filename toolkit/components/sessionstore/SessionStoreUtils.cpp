@@ -1837,7 +1837,7 @@ PresShell
 )
 -
 >
-SetPendingVisualScrollUpdate
+ScrollToVisual
 (
 CSSPoint
 :
@@ -1857,6 +1857,13 @@ FrameMetrics
 :
 :
 eMainThread
+nsIPresShell
+:
+:
+ScrollMode
+:
+:
+eInstant
 )
 ;
 }

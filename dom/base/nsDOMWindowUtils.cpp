@@ -8145,7 +8145,7 @@ PresShell
 )
 -
 >
-SetPendingVisualScrollUpdate
+ScrollToVisual
 (
 CSSPoint
 :
@@ -8159,6 +8159,13 @@ aOffsetY
 )
 )
 updateType
+nsIPresShell
+:
+:
+ScrollMode
+:
+:
+eInstant
 )
 ;
 return

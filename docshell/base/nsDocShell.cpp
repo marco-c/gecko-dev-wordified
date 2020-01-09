@@ -32817,7 +32817,7 @@ API
 shell
 -
 >
-SetPendingVisualScrollUpdate
+ScrollToVisual
 (
 targetPos
 layers
@@ -32827,6 +32827,13 @@ FrameMetrics
 :
 :
 eMainThread
+nsIPresShell
+:
+:
+ScrollMode
+:
+:
+eInstant
 )
 ;
 return
