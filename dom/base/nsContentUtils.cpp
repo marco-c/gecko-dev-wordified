@@ -65051,6 +65051,14 @@ if
 (
 !
 aDocument
+|
+|
+aDocument
+-
+>
+IsLoadedAsData
+(
+)
 )
 {
 return
