@@ -1994,6 +1994,10 @@ lower_is_better
 =
 False
     
+subtests_lower_is_better
+=
+False
+    
 property
     
 def
@@ -2292,18 +2296,30 @@ subtests
 append
 (
 {
+                    
+'
+lower_is_better
+'
+:
+self
+.
+subtests_lower_is_better
+                    
 '
 name
 '
 :
 test_name
+                    
 '
 value
 '
 :
 mean
+                
 }
 )
+;
                 
 if
 score_name
