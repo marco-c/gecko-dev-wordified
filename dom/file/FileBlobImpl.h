@@ -231,6 +231,17 @@ const
 nsAString
 &
 aContentType
+const
+nsAString
+&
+aBlobImplType
+=
+NS_LITERAL_STRING
+(
+"
+FileBlobImpl
+"
+)
 )
 ;
 /
