@@ -362,6 +362,15 @@ CTVerifyResult
 {
 public
 :
+CTVerifyResult
+(
+)
+{
+Reset
+(
+)
+;
+}
 /
 /
 SCTs
