@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-BrowsingContext_h
+mozilla_dom_BrowsingContext_h
 #
 define
-BrowsingContext_h
+mozilla_dom_BrowsingContext_h
 #
 include
 "
@@ -949,3 +949,10 @@ namespace
 mozilla
 #
 endif
+/
+/
+!
+defined
+(
+mozilla_dom_BrowsingContext_h
+)
