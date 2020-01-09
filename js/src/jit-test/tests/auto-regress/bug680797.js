@@ -184,12 +184,15 @@ function
 MyDate
 (
 )
+{
+return
 this
 .
 seconds
 =
 0
 ;
+}
 function
 UTCDateFromTime
 (

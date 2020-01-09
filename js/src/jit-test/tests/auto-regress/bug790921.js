@@ -87,6 +87,8 @@ arr
 \
 n
 \
+{
+return
 actual
 =
 flatten
@@ -100,6 +102,7 @@ flatten
 ]
 )
 ;
+}
 \
 }
 \
