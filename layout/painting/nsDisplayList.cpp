@@ -40336,6 +40336,8 @@ aSc
 GetActiveScrolledRoot
 (
 )
+mFrame
+this
 aBuilder
 filters
 LayoutDeviceRect
@@ -40536,6 +40538,8 @@ aSc
 GetActiveScrolledRoot
 (
 )
+mFrame
+this
 aBuilder
 filters
 LayoutDeviceRect
@@ -41233,6 +41237,8 @@ aSc
 GetActiveScrolledRoot
 (
 )
+mFrame
+this
 aBuilder
 )
 ;
@@ -41843,6 +41849,8 @@ aSc
 GetActiveScrolledRoot
 (
 )
+mFrame
+this
 aBuilder
 nsTArray
 <
@@ -46543,6 +46551,8 @@ aSc
 GetActiveScrolledRoot
 (
 )
+mFrame
+this
 aBuilder
 )
 ;
@@ -52517,6 +52527,8 @@ aSc
 GetActiveScrolledRoot
 (
 )
+mFrame
+this
 aBuilder
 filters
 LayoutDeviceRect
@@ -56571,6 +56583,8 @@ aSc
 GetActiveScrolledRoot
 (
 )
+mFrame
+this
 aBuilder
 filters
 LayoutDeviceRect
@@ -60334,6 +60348,8 @@ aSc
 GetActiveScrolledRoot
 (
 )
+mFrame
+this
 aBuilder
 /
 *
@@ -62092,6 +62108,8 @@ aSc
 GetActiveScrolledRoot
 (
 )
+mFrame
+this
 aBuilder
 wrFilters
 LayoutDeviceRect
