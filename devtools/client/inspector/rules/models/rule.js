@@ -3617,6 +3617,13 @@ textProps
 =
 newTextProps
 ;
+if
+(
+this
+.
+editor
+)
+{
 this
 .
 editor
@@ -3626,6 +3633,7 @@ populate
 true
 )
 ;
+}
 return
 ;
 }
