@@ -920,7 +920,7 @@ endState
 )
 ;
 void
-RecordCipherTelemetry
+RecordTlsTelemetry
 (
 )
 ;
