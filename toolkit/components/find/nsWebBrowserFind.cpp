@@ -836,7 +836,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-int32_t
+auto
 enumDirection
 =
 mFindBackwards

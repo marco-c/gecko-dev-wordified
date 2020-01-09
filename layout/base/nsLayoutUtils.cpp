@@ -67696,7 +67696,7 @@ nsIDocument
 aDocument
 )
 {
-uint32_t
+auto
 metaViewportOverride
 =
 nsIDocShell
@@ -67723,13 +67723,13 @@ GetDocShell
 )
 )
 {
+metaViewportOverride
+=
 docShell
 -
 >
 GetMetaViewportOverride
 (
-&
-metaViewportOverride
 )
 ;
 }

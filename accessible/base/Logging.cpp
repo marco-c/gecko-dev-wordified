@@ -791,7 +791,10 @@ GetDocShell
 (
 )
 ;
-uint32_t
+nsIDocShell
+:
+:
+BusyFlags
 busyFlags
 =
 nsIDocShell
