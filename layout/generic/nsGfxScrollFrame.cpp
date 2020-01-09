@@ -31761,9 +31761,6 @@ FrameMetrics
 :
 :
 eRestore
-nsIPresShell
-:
-:
 ScrollMode
 :
 :

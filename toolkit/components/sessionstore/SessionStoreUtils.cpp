@@ -1857,9 +1857,6 @@ FrameMetrics
 :
 :
 eMainThread
-nsIPresShell
-:
-:
 ScrollMode
 :
 :
