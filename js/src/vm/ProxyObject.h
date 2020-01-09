@@ -164,10 +164,8 @@ instantiated
 Proxy
 objects
 use
-JSObject
-:
-:
-shape_
+their
+shape
 primarily
 to
 record
