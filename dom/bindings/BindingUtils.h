@@ -18085,6 +18085,8 @@ JSObject
 *
 >
 aProto
+bool
+aLazyProto
 T
 *
 aNative
@@ -18121,6 +18123,13 @@ options
 setClass
 (
 aClass
+)
+;
+options
+.
+setLazyProto
+(
+aLazyProto
 )
 ;
 aReflector
