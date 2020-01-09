@@ -15544,9 +15544,6 @@ JS_PUBLIC_API
 bool
 JS_ObjectIsFunction
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
