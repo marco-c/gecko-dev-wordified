@@ -172,12 +172,6 @@ units
 *
 ;
 use
-app_units
-:
-:
-Au
-;
-use
 clip
 :
 :
