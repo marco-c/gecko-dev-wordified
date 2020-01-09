@@ -11469,14 +11469,6 @@ i
 -
 )
 {
-/
-/
-+
-1
-to
-skip
-JSOP_JUMPTARGET
-.
 if
 (
 loops_
@@ -11489,7 +11481,7 @@ continuepc
 =
 target
 +
-1
+JSOP_JUMPTARGET_LENGTH
 |
 |
 EffectiveContinue
