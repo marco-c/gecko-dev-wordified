@@ -1521,8 +1521,6 @@ bug
 :
 match
 on
-supportedTypes
-and
 supportedNetworks
 return
 m
