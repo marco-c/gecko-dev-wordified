@@ -77,12 +77,6 @@ getLogger
 (
 __name__
 )
-TRY_DELIMITER
-=
-'
-try
-:
-'
 #
 The
 build
