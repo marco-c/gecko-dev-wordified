@@ -298,7 +298,7 @@ L10N
 getStr
 (
 "
-anonymous
+anonymousFunction
 "
 )
 ;

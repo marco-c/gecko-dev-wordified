@@ -208,15 +208,7 @@ displayName
 formatDisplayName
 (
 frame
-{
-.
-.
-.
 options
-maxLength
-:
-null
-}
 )
 ;
 return

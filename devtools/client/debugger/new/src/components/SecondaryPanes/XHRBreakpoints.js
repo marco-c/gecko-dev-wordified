@@ -595,6 +595,15 @@ this
 state
 ;
 const
+{
+showInput
+}
+=
+this
+.
+props
+;
+const
 placeholder
 =
 L10N
@@ -697,7 +706,7 @@ onFocus
 autoFocus
 =
 {
-true
+showInput
 }
 value
 =
