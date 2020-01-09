@@ -1978,6 +1978,9 @@ deviceSerial
 verify_android_device
 (
 self
+network
+=
+True
 device_serial
 =
 device_serial

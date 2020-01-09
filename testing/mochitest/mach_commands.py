@@ -1979,6 +1979,9 @@ False
 xre
 =
 True
+network
+=
+True
 )
     
 global
@@ -3277,10 +3280,13 @@ True
 xre
 =
 False
+network
+=
+True
+                                  
 app
 =
 app
-                                  
 device_serial
 =
 device_serial
@@ -4093,10 +4099,13 @@ True
 xre
 =
 False
+network
+=
+True
+                              
 app
 =
 app
-                              
 device_serial
 =
 device_serial
