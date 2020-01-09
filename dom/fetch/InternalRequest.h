@@ -1830,15 +1830,6 @@ mHeaders
 ;
 }
 bool
-ForceOriginHeader
-(
-)
-{
-return
-mForceOriginHeader
-;
-}
-bool
 SameOriginDataURL
 (
 )
@@ -2641,10 +2632,6 @@ mFragment
 MOZ_INIT_OUTSIDE_CTOR
 bool
 mAuthenticationFlag
-;
-MOZ_INIT_OUTSIDE_CTOR
-bool
-mForceOriginHeader
 ;
 MOZ_INIT_OUTSIDE_CTOR
 bool
