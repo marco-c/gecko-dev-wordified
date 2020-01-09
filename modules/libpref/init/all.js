@@ -14973,7 +14973,7 @@ enabled
 /
 See
 bug
-1510410
+1517090
 for
 enabling
 this
@@ -14992,7 +14992,7 @@ storage
 .
 next_gen
 "
-false
+true
 )
 ;
 #
@@ -55618,18 +55618,6 @@ pref
 signon
 .
 autofillForms
-"
-true
-)
-;
-pref
-(
-"
-signon
-.
-autofillForms
-.
-autocompleteOff
 "
 true
 )
