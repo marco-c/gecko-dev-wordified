@@ -212,15 +212,6 @@ include
 "
 vm
 /
-ShapedObject
-.
-h
-"
-#
-include
-"
-vm
-/
 StringType
 .
 h
@@ -3397,7 +3388,7 @@ class
 NativeObject
 :
 public
-ShapedObject
+JSObject
 {
 protected
 :

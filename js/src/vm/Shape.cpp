@@ -9962,7 +9962,7 @@ obj
 >
 as
 <
-ShapedObject
+JSObject
 >
 (
 )
@@ -12633,7 +12633,7 @@ JSObject
 *
 last
 =
-ShapedObject
+JSObject
 :
 :
 fromShapeFieldPointer

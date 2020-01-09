@@ -168,15 +168,6 @@ JSObject
 .
 h
 "
-#
-include
-"
-vm
-/
-ShapedObject
-.
-h
-"
 /
 *
 *
@@ -3681,7 +3672,7 @@ class
 TypedObject
 :
 public
-ShapedObject
+JSObject
 {
 static
 const

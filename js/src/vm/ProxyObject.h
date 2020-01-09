@@ -128,7 +128,7 @@ include
 "
 vm
 /
-ShapedObject
+JSObject
 .
 h
 "
@@ -164,7 +164,7 @@ instantiated
 Proxy
 objects
 use
-ShapedObject
+JSObject
 :
 :
 shape_
@@ -233,7 +233,7 @@ class
 ProxyObject
 :
 public
-ShapedObject
+JSObject
 {
 /
 /
