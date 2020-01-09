@@ -5808,7 +5808,7 @@ count
 gcstats
 :
 :
-STAT_DESTROY_CHUNK
+COUNT_DESTROY_CHUNK
 )
 ;
 #
@@ -14866,7 +14866,7 @@ count
 gcstats
 :
 :
-STAT_ARENA_RELOCATED
+COUNT_ARENA_RELOCATED
 )
 ;
 }
