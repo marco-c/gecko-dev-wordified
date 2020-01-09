@@ -1840,20 +1840,20 @@ self
 name
 const
 =
-0
+False
                  
 ptr
 =
-0
+False
 ptrconst
 =
-0
+False
 ptrptr
 =
-0
+False
 ptrconstptr
 =
-0
+False
                  
 ref
 =
@@ -1964,6 +1964,29 @@ T
 &
 )
 .
+ref
+is
+an
+integer
+indicating
+how
+many
+"
+levels
+"
+of
+references
+exist
+.
+So
+ref
+=
+2
+indicates
+T
+&
+&
+.
 "
 "
 "
@@ -1976,11 +1999,38 @@ str
 )
         
 assert
-not
 isinstance
 (
 const
-str
+bool
+)
+        
+assert
+isinstance
+(
+ptr
+bool
+)
+        
+assert
+isinstance
+(
+ptrconst
+bool
+)
+        
+assert
+isinstance
+(
+ptrptr
+bool
+)
+        
+assert
+isinstance
+(
+ptrconstptr
+bool
 )
         
 assert
@@ -2223,7 +2273,7 @@ uint32_t
 '
 ptr
 =
-1
+True
 )
 Type
 .
@@ -2256,7 +2306,7 @@ void
 '
 ptr
 =
-1
+True
 )
 Type
 .
@@ -3233,14 +3283,14 @@ MethodSpec
 NONE
 const
 =
-0
+False
 warn_unused
 =
 0
                  
 force_inline
 =
-0
+False
 typeop
 =
 None
@@ -3300,6 +3350,20 @@ isinstance
 (
 T
 int
+)
+        
+assert
+isinstance
+(
+const
+bool
+)
+        
+assert
+isinstance
+(
+force_inline
+bool
 )
         
 if
@@ -3577,7 +3641,7 @@ warn_unused
                  
 force_inline
 =
-0
+False
 T
 =
 None
@@ -3669,7 +3733,7 @@ explicit
 0
 force_inline
 =
-0
+False
 )
 :
         
@@ -3777,7 +3841,7 @@ MethodSpec
 NONE
 force_inline
 =
-0
+False
 )
 :
         
@@ -4291,7 +4355,7 @@ reinterpret
 0
 const
 =
-0
+False
 C
 =
 0
@@ -4302,15 +4366,8 @@ assert
 1
 =
 =
-reduce
+sum
 (
-lambda
-a
-x
-:
-a
-+
-x
 [
 dynamic
 static
@@ -4318,6 +4375,13 @@ reinterpret
 const
 C
 ]
+)
+        
+assert
+isinstance
+(
+const
+bool
 )
         
 Node

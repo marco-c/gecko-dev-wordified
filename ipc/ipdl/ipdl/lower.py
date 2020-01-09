@@ -1730,7 +1730,7 @@ _tuple
 types
 const
 =
-0
+False
 ref
 =
 0
@@ -1951,7 +1951,7 @@ _cxxArrayType
 basetype
 const
 =
-0
+False
 ref
 =
 0
@@ -1983,7 +1983,7 @@ _cxxManagedContainerType
 basetype
 const
 =
-0
+False
 ref
 =
 0
@@ -3334,7 +3334,7 @@ side
 )
 ptr
 =
-1
+True
 )
     
 def
@@ -3774,7 +3774,7 @@ t
 .
 ptr
 =
-1
+True
         
 return
 t
@@ -3800,7 +3800,7 @@ t
 .
 const
 =
-1
+True
     
 t
 .
@@ -4015,13 +4015,13 @@ t
 .
 ptr
 =
-0
+False
         
 t
 .
 ptrptr
 =
-1
+True
         
 return
 t
@@ -4030,7 +4030,7 @@ t
 .
 ptr
 =
-1
+True
     
 return
 t
@@ -4068,13 +4068,13 @@ t
 .
 ptr
 =
-0
+False
         
 t
 .
 ptrconstptr
 =
-1
+True
         
 return
 t
@@ -4083,13 +4083,13 @@ t
 .
 const
 =
-1
+True
     
 t
 .
 ptr
 =
-1
+True
     
 return
 t
@@ -4714,13 +4714,13 @@ t
 .
 ptr
 =
-0
+False
             
 t
 .
 ptrptr
 =
-1
+True
             
 return
 t
@@ -4729,7 +4729,7 @@ t
 .
 ptr
 =
-1
+True
         
 return
 t
@@ -5271,7 +5271,7 @@ bareType
 )
 const
 =
-1
+True
 )
         
 return
@@ -5373,7 +5373,7 @@ ref
 )
 const
 =
-1
+True
 )
         
 if
@@ -5407,7 +5407,7 @@ ref
 )
 const
 =
-1
+True
 )
         
 if
@@ -5441,7 +5441,7 @@ ref
 )
 const
 =
-1
+True
 )
         
 return
@@ -6074,7 +6074,7 @@ bareType
 )
 const
 =
-1
+True
 )
         
 return
@@ -6150,7 +6150,7 @@ bareType
 )
 const
 =
-1
+True
 )
 ]
         
@@ -6660,7 +6660,7 @@ ref
 )
 const
 =
-1
+True
 )
         
 if
@@ -6694,7 +6694,7 @@ ref
 )
 const
 =
-1
+True
 )
         
 if
@@ -6728,7 +6728,7 @@ ref
 )
 const
 =
-1
+True
 )
         
 return
@@ -8400,7 +8400,7 @@ managerInterfaceType
 self
 ptr
 =
-0
+False
 )
 :
         
@@ -8427,7 +8427,7 @@ openedProtocolInterfaceType
 self
 ptr
 =
-0
+False
 )
 :
         
@@ -8493,7 +8493,7 @@ self
 side
 ptr
 =
-0
+False
 )
 :
         
@@ -9382,7 +9382,7 @@ side
 )
 ptr
 =
-1
+True
 )
     
 def
@@ -9471,7 +9471,7 @@ actortype
 side
 const
 =
-0
+False
 ref
 =
 0
@@ -12970,7 +12970,7 @@ name
 '
 ptr
 =
-1
+True
 )
                          
 parentvar
@@ -13002,7 +13002,7 @@ name
 '
 ptr
 =
-1
+True
 )
                          
 childvar
@@ -13250,7 +13250,7 @@ Message
 '
 ptr
 =
-1
+True
 )
 )
 )
@@ -14479,7 +14479,7 @@ write
 read
 constin
 =
-1
+True
 )
 :
         
@@ -14565,7 +14565,7 @@ IProtocol
 '
 ptr
 =
-1
+True
 )
         
 #
@@ -14622,7 +14622,7 @@ Message
 '
 ptr
 =
-1
+True
 )
                                     
 cls
@@ -14701,7 +14701,7 @@ paramType
 '
 ptr
 =
-1
+True
 )
         
 readmthd
@@ -14730,10 +14730,10 @@ Message
 '
 ptr
 =
-1
+True
 const
 =
-1
+True
 )
                                     
 cls
@@ -14749,7 +14749,7 @@ _iterType
 (
 ptr
 =
-1
+True
 )
                                     
 cls
@@ -15164,7 +15164,7 @@ IProtocol
                                                         
 ptr
 =
-1
+True
 )
 )
 actorvar
@@ -17205,7 +17205,7 @@ sd
 name
 const
 =
-1
+True
 ref
 =
 1
@@ -17309,7 +17309,7 @@ sd
 name
 force_inline
 =
-1
+True
 )
 )
         
@@ -17445,7 +17445,7 @@ fieldsAsParamList
                                               
 force_inline
 =
-1
+True
 )
 )
     
@@ -17568,7 +17568,7 @@ BOOL
         
 const
 =
-1
+True
 )
 )
     
@@ -17697,7 +17697,7 @@ BOOL
         
 const
 =
-1
+True
 )
 )
     
@@ -17795,7 +17795,7 @@ refType
                                     
 force_inline
 =
-1
+True
 )
 )
         
@@ -17836,7 +17836,7 @@ getconstdecl
 .
 const
 =
-1
+True
         
 getconst
 =
@@ -18367,7 +18367,7 @@ ud
 name
 const
 =
-1
+True
 ref
 =
 1
@@ -18988,7 +18988,7 @@ ptrToInternalType
             
 force_inline
 =
-1
+True
 )
 )
         
@@ -19032,10 +19032,10 @@ constPtrToType
             
 const
 =
-1
+True
 force_inline
 =
-1
+True
 )
 )
         
@@ -19380,10 +19380,10 @@ Type
 VOID
 const
 =
-1
+True
 force_inline
 =
-1
+True
 )
 )
     
@@ -19480,10 +19480,10 @@ VOID
                    
 const
 =
-1
+True
 force_inline
 =
-1
+True
 )
 )
     
@@ -19575,7 +19575,7 @@ ud
 name
 force_inline
 =
-1
+True
 )
             
 memberinits
@@ -20459,10 +20459,10 @@ typetype
                                      
 const
 =
-1
+True
 force_inline
 =
-1
+True
 )
 )
     
@@ -21502,7 +21502,7 @@ BOOL
             
 const
 =
-1
+True
 )
 )
         
@@ -21591,7 +21591,7 @@ BOOL
         
 const
 =
-1
+True
 )
 )
     
@@ -21847,7 +21847,7 @@ refType
                                          
 force_inline
 =
-1
+True
 )
 )
         
@@ -21906,10 +21906,10 @@ constRefType
             
 const
 =
-1
+True
 force_inline
 =
-1
+True
 )
 )
         
@@ -21962,7 +21962,7 @@ Type
 VOID
 const
 =
-1
+True
             
 params
 =
@@ -22029,7 +22029,7 @@ refType
 )
 force_inline
 =
-1
+True
 )
 )
         
@@ -22057,7 +22057,7 @@ MethodDecl
 '
 const
 =
-1
+True
 typeop
 =
 c
@@ -22067,7 +22067,7 @@ constRefType
 )
 force_inline
 =
-1
+True
 )
 )
         
@@ -25167,10 +25167,10 @@ char
 '
 const
 =
-1
+True
 ptr
 =
-1
+True
 )
 '
 aReason
@@ -25715,7 +25715,7 @@ self
 side
 ptr
 =
-1
+True
 )
                 
 managermeth
@@ -25733,7 +25733,7 @@ ret
 managertype
 const
 =
-1
+True
 )
 )
                 
@@ -25996,7 +25996,7 @@ name
                 
 const
 =
-1
+True
 )
 )
             
@@ -26074,7 +26074,7 @@ self
 side
 const
 =
-1
+True
 ref
 =
 1
@@ -26082,7 +26082,7 @@ ref
                 
 const
 =
-1
+True
 )
 )
             
@@ -26539,7 +26539,7 @@ Message
 '
 const
 =
-1
+True
 ref
 =
 1
@@ -26570,7 +26570,7 @@ ref
 1
 ptr
 =
-1
+True
 )
                                    
 replyvar
@@ -26753,7 +26753,7 @@ IProtocol
 '
 ptr
 =
-1
+True
 )
                                   
 routedvar
@@ -28626,7 +28626,7 @@ IProtocol
 '
 ptr
 =
-1
+True
 )
         
 methods
@@ -31489,7 +31489,7 @@ IProtocol
 '
 ptr
 =
-1
+True
 )
 managervar
 .
@@ -31803,7 +31803,7 @@ callbackptr
 .
 ptr
 =
-1
+True
         
 callback
 =
@@ -33482,7 +33482,7 @@ Message
 '
 ptr
 =
-1
+True
 )
 msgvar
 .
@@ -33803,7 +33803,7 @@ returns
                                       
 const
 =
-1
+True
 ref
 =
 1
@@ -34098,7 +34098,7 @@ Message
 '
 ptr
 =
-1
+True
 )
 self
 .
@@ -34584,7 +34584,7 @@ Message
 '
 ptr
 =
-0
+False
 )
 '
 msgverify__
@@ -34626,7 +34626,7 @@ _iterType
 (
 ptr
 =
-0
+False
 )
 itervar
 .
@@ -35111,7 +35111,7 @@ _iterType
 (
 ptr
 =
-0
+False
 )
 self
 .
@@ -35503,7 +35503,7 @@ _iterType
 (
 ptr
 =
-0
+False
 )
 itervar
 .
@@ -35895,7 +35895,7 @@ _iterType
 (
 ptr
 =
-0
+False
 )
 itervar
 .
