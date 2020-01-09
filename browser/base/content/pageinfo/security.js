@@ -2446,7 +2446,7 @@ if
 host
 )
 return
-false
+0
 ;
 var
 historyService
