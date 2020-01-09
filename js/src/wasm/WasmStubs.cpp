@@ -207,6 +207,15 @@ h
 #
 include
 "
+js
+/
+Printf
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmCode
