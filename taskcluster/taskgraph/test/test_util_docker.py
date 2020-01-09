@@ -152,18 +152,6 @@ mkdtemp
 (
 )
         
-old_GECKO
-=
-docker
-.
-GECKO
-        
-docker
-.
-GECKO
-=
-tmpdir
-        
 try
 :
             
@@ -312,9 +300,7 @@ docker
 .
 generate_context_hash
 (
-docker
-.
-GECKO
+tmpdir
                                              
 os
 .
@@ -322,9 +308,7 @@ path
 .
 join
 (
-docker
-.
-GECKO
+tmpdir
 '
 docker
 /
@@ -349,12 +333,6 @@ e61e675ce05e8c11424437db3f1004079374c1a5fe6ad6800346cebe137b0797
         
 finally
 :
-            
-docker
-.
-GECKO
-=
-old_GECKO
             
 shutil
 .
