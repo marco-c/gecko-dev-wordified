@@ -588,6 +588,7 @@ icon
 browser
 :
 aBrowser
+triggeringPrincipal
 telemetryInfo
 sendCookies
 :
