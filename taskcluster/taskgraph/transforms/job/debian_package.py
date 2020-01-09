@@ -1490,6 +1490,7 @@ source
 .
         
 '
+(
 dget
 -
 d
@@ -1498,6 +1499,11 @@ u
 {
 src_url
 }
+|
+|
+exit
+100
+)
 &
 &
 '
@@ -1565,6 +1571,7 @@ dependencies
 .
         
 '
+(
 mk
 -
 build
@@ -1586,6 +1593,11 @@ resolver
 }
 \
 '
+|
+|
+exit
+100
+)
 &
 &
 '
