@@ -11815,7 +11815,7 @@ ssl3_ExtSendAlert
 (
 ss
 alert_fatal
-illegal_parameter
+decode_error
 )
 ;
 PORT_SetError

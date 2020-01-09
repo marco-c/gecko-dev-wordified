@@ -268,6 +268,14 @@ SECOidTag
 hashOid
 )
 ;
+extern
+SECOidTag
+HASH_GetHashOidTagByHashType
+(
+HASH_HashType
+type
+)
+;
 SEC_END_PROTOS
 #
 endif
