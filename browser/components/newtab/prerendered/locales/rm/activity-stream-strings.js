@@ -639,7 +639,7 @@ topsites_form_add_header
 "
 Nova
 pagina
-populara
+principala
 "
 "
 topsites_form_edit_header
@@ -649,7 +649,7 @@ topsites_form_edit_header
 Modifitgar
 la
 pagina
-populara
+principala
 "
 "
 topsites_form_title_label
@@ -1025,8 +1025,8 @@ section_menu_action_add_topsite
 "
 Agiuntar
 ina
-website
-populara
+pagina
+principala
 "
 "
 section_menu_action_add_search_engine
@@ -1224,7 +1224,8 @@ context_menu_title
 "
 :
 "
-Open
+Avrir
+il
 menu
 "
 "
