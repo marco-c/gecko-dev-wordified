@@ -667,7 +667,7 @@ GetTabParent
 (
 )
 ;
-nsIContentParent
+ContentParent
 *
 cp
 =

@@ -170,7 +170,7 @@ h
 #
 include
 "
-nsIContentParent
+ContentParent
 .
 h
 "

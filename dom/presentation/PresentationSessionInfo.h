@@ -136,7 +136,7 @@ mozilla
 /
 dom
 /
-nsIContentParent
+ContentParent
 .
 h
 "
@@ -1237,9 +1237,9 @@ page
 belongs
 to
 .
-nsCOMPtr
+RefPtr
 <
-nsIContentParent
+ContentParent
 >
 mContentParent
 ;

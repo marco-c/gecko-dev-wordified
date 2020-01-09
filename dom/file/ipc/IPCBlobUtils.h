@@ -2340,7 +2340,7 @@ class
 nsIContentChild
 ;
 class
-nsIContentParent
+ContentParent
 ;
 namespace
 IPCBlobUtils
@@ -2411,7 +2411,7 @@ Serialize
 BlobImpl
 *
 aBlobImpl
-nsIContentParent
+ContentParent
 *
 aManager
 IPCBlob

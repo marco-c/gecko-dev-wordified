@@ -971,7 +971,7 @@ aChildID
 IPCBlob
 &
 aIPCBlob
-nsIContentParent
+ContentParent
 *
 aManager
 )
@@ -1073,7 +1073,7 @@ aManager
 uint64_t
 ChildIDFromManager
 (
-nsIContentParent
+ContentParent
 *
 aManager
 )
@@ -1524,7 +1524,7 @@ Serialize
 BlobImpl
 *
 aBlobImpl
-nsIContentParent
+ContentParent
 *
 aManager
 IPCBlob

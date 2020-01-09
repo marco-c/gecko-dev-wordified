@@ -844,7 +844,7 @@ aMaxSize
 uint32_t
 *
 aSizeUsed
-nsIContentParent
+ContentParent
 *
 aManager
 )
@@ -973,7 +973,7 @@ InputStreamParams
 aParams
 bool
 aDelayedStart
-nsIContentParent
+ContentParent
 *
 aManager
 )
