@@ -2710,13 +2710,13 @@ opacity
 }
 /
 *
-Error
+Status
 description
 formatting
 *
 /
 .
-errorLabel
+statusLabel
 {
 padding
 :
@@ -2748,7 +2748,7 @@ ffffff
 ;
 }
 .
-errorLabel
+statusLabel
 {
 display
 :
@@ -2756,7 +2756,7 @@ none
 ;
 }
 [
-error
+status
 =
 "
 errorAborted
@@ -2771,7 +2771,7 @@ errorAborted
 "
 ]
 [
-error
+status
 =
 "
 errorNetwork
@@ -2786,7 +2786,7 @@ errorNetwork
 "
 ]
 [
-error
+status
 =
 "
 errorDecode
@@ -2801,7 +2801,7 @@ errorDecode
 "
 ]
 [
-error
+status
 =
 "
 errorSrcNotSupported
@@ -2816,7 +2816,7 @@ errorSrcNotSupported
 "
 ]
 [
-error
+status
 =
 "
 errorNoSource
@@ -2831,7 +2831,7 @@ errorNoSource
 "
 ]
 [
-error
+status
 =
 "
 errorGeneric
