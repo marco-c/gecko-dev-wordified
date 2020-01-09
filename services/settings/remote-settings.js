@@ -1292,6 +1292,7 @@ not
 elapsed
 yet
 .
+await
 UptakeTelemetry
 .
 report
@@ -1559,6 +1560,7 @@ STATUS
 UNKNOWN_ERROR
 ;
 }
+await
 UptakeTelemetry
 .
 report
@@ -1659,6 +1661,7 @@ STATUS
 .
 SUCCESS
 ;
+await
 UptakeTelemetry
 .
 report

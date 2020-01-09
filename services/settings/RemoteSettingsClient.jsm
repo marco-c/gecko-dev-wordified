@@ -2972,6 +2972,7 @@ status
 to
 Telemetry
 .
+await
 UptakeTelemetry
 .
 report
