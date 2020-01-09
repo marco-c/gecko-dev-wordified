@@ -447,8 +447,6 @@ openConditionalPanel
 breakpoint
 .
 selectedLocation
-.
-line
 )
 ;
 }
