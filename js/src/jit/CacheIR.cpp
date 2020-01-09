@@ -2587,7 +2587,7 @@ if
 !
 getter
 .
-isNativeWithCppEntry
+isBuiltinNative
 (
 )
 )
@@ -2845,7 +2845,7 @@ if
 (
 getter
 .
-isNativeWithCppEntry
+isBuiltinNative
 (
 )
 )
@@ -6354,7 +6354,7 @@ MOZ_ASSERT
 target
 -
 >
-isNativeWithCppEntry
+isBuiltinNative
 (
 )
 )
@@ -16400,7 +16400,7 @@ lastObjId
 env
 -
 >
-shape
+maybeShape
 (
 )
 )
@@ -17383,7 +17383,7 @@ lastObjId
 env
 -
 >
-shape
+maybeShape
 (
 )
 )
@@ -21401,7 +21401,7 @@ if
 !
 setter
 .
-isNativeWithCppEntry
+isBuiltinNative
 (
 )
 )
@@ -21577,7 +21577,7 @@ if
 (
 setter
 .
-isNativeWithCppEntry
+isBuiltinNative
 (
 )
 )
@@ -21840,7 +21840,7 @@ MOZ_ASSERT
 target
 -
 >
-isNativeWithCppEntry
+isBuiltinNative
 (
 )
 )
@@ -26864,7 +26864,7 @@ may
 also
 /
 /
-imply
+implay
 maybeInterpretedFunction
 (
 )
@@ -26881,6 +26881,19 @@ prototype
 property
 set
 .
+MOZ_ASSERT
+(
+obj
+-
+>
+is
+<
+ShapedObject
+>
+(
+)
+)
+;
 writer
 .
 guardGroup

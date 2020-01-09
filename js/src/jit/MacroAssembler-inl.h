@@ -2673,7 +2673,7 @@ bit
 JSFunction
 :
 :
-WASM_OPTIMIZED
+WASM_JIT_ENTRY
 ;
 }
 bit
@@ -3402,7 +3402,7 @@ cond
 Address
 (
 obj
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -3457,7 +3457,7 @@ cond
 Address
 (
 obj
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -3540,7 +3540,7 @@ cond
 Address
 (
 obj
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -3590,7 +3590,7 @@ cond
 Address
 (
 obj
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -5617,7 +5617,7 @@ Address
 shapeAddr
 (
 obj
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -5663,7 +5663,7 @@ Address
 shapeAddr
 (
 obj
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
