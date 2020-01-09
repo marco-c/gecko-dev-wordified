@@ -60,7 +60,7 @@ open
 the
 console
 await
-getDebuggerSplitConsole
+getSplitConsole
 (
 dbg
 )
