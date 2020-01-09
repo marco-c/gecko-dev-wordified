@@ -330,6 +330,12 @@ shared
 memory
 *
 /
+OFFSET
+/
+*
+Offset
+*
+/
 }
 ;
 enum
