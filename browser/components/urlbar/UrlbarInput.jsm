@@ -2304,7 +2304,8 @@ RESULT_TYPE
 SEARCH
 :
 {
-url
+let
+canonizedUrl
 =
 this
 .
@@ -2327,9 +2328,13 @@ query
 ;
 if
 (
-url
+canonizedUrl
 )
 {
+url
+=
+canonizedUrl
+;
 break
 ;
 }
