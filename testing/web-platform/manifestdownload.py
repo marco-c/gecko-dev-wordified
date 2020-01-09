@@ -39,6 +39,52 @@ download
 "
 }
 def
+get
+(
+logger
+url
+*
+*
+kwargs
+)
+:
+    
+logger
+.
+debug
+(
+url
+)
+    
+if
+"
+headers
+"
+not
+in
+kwargs
+:
+        
+kwargs
+[
+"
+headers
+"
+]
+=
+HEADERS
+    
+return
+requests
+.
+get
+(
+url
+*
+*
+kwargs
+)
+def
 abs_path
 (
 path
@@ -531,10 +577,9 @@ json
             
 req
 =
-requests
-.
 get
 (
+logger
 cset_url
 .
 format
@@ -543,7 +588,7 @@ changeset
 =
 revision
 )
-                               
+                      
 headers
 =
 req_headers
@@ -648,10 +693,9 @@ try
             
 req
 =
-requests
-.
 get
 (
+logger
 tc_url
 .
 format
@@ -660,10 +704,6 @@ changeset
 =
 cset
 )
-                               
-headers
-=
-HEADERS
 )
         
 except
@@ -874,14 +914,10 @@ try
         
 req
 =
-requests
-.
 get
 (
+logger
 url
-headers
-=
-HEADERS
 )
     
 except
