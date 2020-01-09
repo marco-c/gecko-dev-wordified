@@ -717,7 +717,7 @@ mExtendedProfile
 audio
 -
 >
-profile
+extended_profile
 ;
 mDuration
 =
@@ -762,15 +762,6 @@ kKeyAACProfile
 mExtendedProfile
 is
 kKeyAACAOT
-.
-/
-/
-Both
-are
-from
-audioObjectType
-in
-AudioSpecificConfig
 .
 if
 (
