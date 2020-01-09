@@ -77,7 +77,7 @@ use
 util
 :
 :
-recycle_vec
+Recycler
 ;
 #
 [
@@ -654,8 +654,15 @@ recycle
 &
 mut
 self
+recycler
+:
+&
+mut
+Recycler
 )
 {
+recycler
+.
 recycle_vec
 (
 &
