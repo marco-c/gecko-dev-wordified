@@ -1775,7 +1775,7 @@ js
 "
 this
 .
-browserWindow
+chromeUtilsWindow
 )
 ;
 return
