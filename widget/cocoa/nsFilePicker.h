@@ -386,10 +386,6 @@ result
 int16_t
 GetLocalFiles
 (
-const
-nsString
-&
-inTitle
 bool
 inAllowMultiple
 nsCOMArray
@@ -403,10 +399,6 @@ outFiles
 int16_t
 GetLocalFolder
 (
-const
-nsString
-&
-inTitle
 nsIFile
 *
 *
@@ -416,14 +408,6 @@ outFile
 int16_t
 PutLocalFile
 (
-const
-nsString
-&
-inTitle
-const
-nsString
-&
-inDefaultName
 nsIFile
 *
 *
@@ -463,7 +447,7 @@ nsIFile
 mFiles
 ;
 nsString
-mDefault
+mDefaultFilename
 ;
 nsTArray
 <
