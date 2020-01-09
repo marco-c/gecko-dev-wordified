@@ -156,6 +156,9 @@ introductionUrl
 :
 "
 "
+introductionType
+:
+undefined
 relativeUrl
 :
 "
