@@ -2714,7 +2714,7 @@ StorageAccessGrantPromise
 :
 CreateAndResolve
 (
-eAllowOnAnySite
+true
 __func__
 )
 ;
@@ -2733,7 +2733,7 @@ StorageAccessGrantPromise
 :
 CreateAndResolve
 (
-eAllowOnAnySite
+true
 __func__
 )
 ;
