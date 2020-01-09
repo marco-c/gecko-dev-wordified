@@ -494,6 +494,15 @@ UiCompositorControllerParent
 .
 h
 "
+#
+include
+"
+mozilla
+/
+VsyncDispatcher
+.
+h
+"
 class
 MessageLoop
 ;
@@ -2405,9 +2414,9 @@ void
 NotifyVsync
 (
 const
-TimeStamp
+VsyncEvent
 &
-aTimeStamp
+aVsync
 const
 LayersId
 &

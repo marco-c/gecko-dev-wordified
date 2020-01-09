@@ -349,9 +349,9 @@ VsyncChild
 RecvNotify
 (
 const
-TimeStamp
+VsyncEvent
 &
-aVsyncTimestamp
+aVsync
 )
 {
 MOZ_ASSERT
@@ -415,7 +415,7 @@ mObserver
 >
 NotifyVsync
 (
-aVsyncTimestamp
+aVsync
 )
 ;
 }

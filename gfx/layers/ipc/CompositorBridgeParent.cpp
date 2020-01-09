@@ -9768,9 +9768,9 @@ CompositorBridgeParent
 NotifyVsync
 (
 const
-TimeStamp
+VsyncEvent
 &
-aTimeStamp
+aVsync
 const
 LayersId
 &
@@ -9880,7 +9880,7 @@ obs
 >
 NotifyVsync
 (
-aTimeStamp
+aVsync
 )
 ;
 }

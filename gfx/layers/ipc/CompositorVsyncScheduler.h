@@ -347,8 +347,10 @@ thread
 bool
 NotifyVsync
 (
-TimeStamp
-aVsyncTimestamp
+const
+VsyncEvent
+&
+aVsync
 )
 ;
 /
@@ -829,8 +831,10 @@ virtual
 bool
 NotifyVsync
 (
-TimeStamp
-aVsyncTimestamp
+const
+VsyncEvent
+&
+aVsync
 )
 override
 ;

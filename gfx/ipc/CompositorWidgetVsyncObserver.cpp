@@ -187,8 +187,10 @@ CompositorWidgetVsyncObserver
 :
 NotifyVsync
 (
-TimeStamp
-aTimeStamp
+const
+VsyncEvent
+&
+aVsync
 )
 {
 /
@@ -223,7 +225,7 @@ mVsyncBridge
 >
 NotifyVsync
 (
-aTimeStamp
+aVsync
 mRootLayerTreeId
 )
 ;

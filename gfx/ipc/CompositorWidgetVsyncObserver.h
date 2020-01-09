@@ -191,8 +191,10 @@ aRootLayerTreeId
 bool
 NotifyVsync
 (
-TimeStamp
-aVsyncTimestamp
+const
+VsyncEvent
+&
+aVsync
 )
 override
 ;
