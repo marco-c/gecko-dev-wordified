@@ -2762,16 +2762,6 @@ assert_variant_ligatures_matches
 (
 )
 ;
-specified
-:
-:
-box_
-:
-:
-assert_touch_action_matches
-(
-)
-;
 DUMMY_URL_DATA
 =
 dummy_url_data

@@ -810,12 +810,6 @@ shadow
 "
     
 "
-touch
--
-action
-"
-    
-"
 transition
 -
 delay

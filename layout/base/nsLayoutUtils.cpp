@@ -63535,7 +63535,7 @@ false
 static
 *
 /
-uint32_t
+StyleTouchAction
 nsLayoutUtils
 :
 :
@@ -63546,16 +63546,6 @@ nsIFrame
 aFrame
 )
 {
-/
-/
-If
-aFrame
-is
-null
-then
-return
-default
-value
 if
 (
 !
@@ -63563,7 +63553,7 @@ aFrame
 )
 {
 return
-NS_STYLE_TOUCH_ACTION_AUTO
+StyleTouchAction_AUTO
 ;
 }
 /
@@ -63619,7 +63609,7 @@ isNonReplacedInlineElement
 )
 {
 return
-NS_STYLE_TOUCH_ACTION_AUTO
+StyleTouchAction_AUTO
 ;
 }
 const
@@ -63650,7 +63640,7 @@ isTableElement
 )
 {
 return
-NS_STYLE_TOUCH_ACTION_AUTO
+StyleTouchAction_AUTO
 ;
 }
 return

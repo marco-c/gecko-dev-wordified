@@ -18299,7 +18299,10 @@ frame
 *
 /
 static
-uint32_t
+mozilla
+:
+:
+StyleTouchAction
 GetTouchActionFromFrame
 (
 nsIFrame

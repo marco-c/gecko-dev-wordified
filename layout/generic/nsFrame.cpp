@@ -78878,7 +78878,7 @@ result
 inheritedTouchAction
 ;
 const
-uint32_t
+StyleTouchAction
 touchAction
 =
 nsLayoutUtils
@@ -78928,7 +78928,7 @@ if
 touchAction
 =
 =
-NS_STYLE_TOUCH_ACTION_AUTO
+StyleTouchAction_AUTO
 )
 {
 /
@@ -78942,7 +78942,7 @@ if
 (
 touchAction
 &
-NS_STYLE_TOUCH_ACTION_MANIPULATION
+StyleTouchAction_MANIPULATION
 )
 {
 result
@@ -79013,7 +79013,7 @@ if
 (
 touchAction
 &
-NS_STYLE_TOUCH_ACTION_PAN_X
+StyleTouchAction_PAN_X
 )
 )
 {
@@ -79032,7 +79032,7 @@ if
 (
 touchAction
 &
-NS_STYLE_TOUCH_ACTION_PAN_Y
+StyleTouchAction_PAN_Y
 )
 )
 {
@@ -79049,7 +79049,7 @@ if
 (
 touchAction
 &
-NS_STYLE_TOUCH_ACTION_NONE
+StyleTouchAction_NONE
 )
 {
 /

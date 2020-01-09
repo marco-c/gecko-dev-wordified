@@ -18667,7 +18667,7 @@ mWillChangeBitField
 )
 mTouchAction
 (
-NS_STYLE_TOUCH_ACTION_AUTO
+StyleTouchAction_AUTO
 )
 mScrollBehavior
 (

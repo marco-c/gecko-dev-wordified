@@ -12619,13 +12619,12 @@ nsAtom
 >
 mWillChange
 ;
-uint8_t
+mozilla
+:
+:
+StyleTouchAction
 mTouchAction
 ;
-/
-/
-NS_STYLE_TOUCH_ACTION_
-*
 uint8_t
 mScrollBehavior
 ;
