@@ -125,7 +125,7 @@ jsm
 ;
 const
 {
-ADB
+adbProcess
 }
 =
 require
@@ -135,6 +135,8 @@ require
 .
 /
 adb
+-
+process
 "
 )
 ;
@@ -529,7 +531,7 @@ still
 enabled
 if
 (
-ADB
+adbProcess
 .
 ready
 )
@@ -550,7 +552,7 @@ spawn
 a
 new
 one
-ADB
+adbProcess
 .
 start
 (
