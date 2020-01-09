@@ -245,6 +245,7 @@ cache
 texture
 arrays
 .
+pub
 const
 TEXTURE_REGION_DIMENSIONS
 :
