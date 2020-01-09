@@ -2433,8 +2433,6 @@ With
 the
 following
 java
-and
-javac
 :
 '
             

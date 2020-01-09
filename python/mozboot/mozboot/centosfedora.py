@@ -764,6 +764,12 @@ self
 mobile_android_packages
 )
         
+self
+.
+ensure_java
+(
+)
+        
 from
 mozboot
 import
