@@ -121,10 +121,7 @@ JS
 :
 Valgrind
 Perf
-*
-Shark
 etc
-.
 *
 /
 #
