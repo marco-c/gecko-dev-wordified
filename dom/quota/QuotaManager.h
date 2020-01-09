@@ -1896,8 +1896,6 @@ MaybeUpgradeIndexedDBDirectory
 nsresult
 MaybeUpgradePersistentStorageDirectory
 (
-int32_t
-aStorageVersion
 )
 ;
 nsresult
