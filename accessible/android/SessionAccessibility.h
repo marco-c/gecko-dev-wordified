@@ -798,6 +798,9 @@ aChecked
 void
 SendWindowContentChangedEvent
 (
+AccessibleWrap
+*
+aAccessible
 )
 ;
 void

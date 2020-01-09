@@ -227,11 +227,6 @@ AccessibleWrap
 aAccessible
 )
 ;
-void
-CacheViewport
-(
-)
-;
 enum
 {
 eBatch_Viewport
@@ -281,6 +276,11 @@ override
 ;
 private
 :
+void
+CacheViewport
+(
+)
+;
 void
 UpdateFocusPathBounds
 (
