@@ -837,7 +837,7 @@ GetPresContext
 )
 ;
 void
-DoRedraw
+RequestPaintIfNeeded
 (
 FrameSet
 *

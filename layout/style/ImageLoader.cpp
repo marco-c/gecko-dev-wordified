@@ -3600,7 +3600,7 @@ void
 ImageLoader
 :
 :
-DoRedraw
+RequestPaintIfNeeded
 (
 FrameSet
 *
@@ -4676,7 +4676,7 @@ data
 for
 )
 .
-DoRedraw
+RequestPaintIfNeeded
 (
 frameSet
 /
@@ -4737,7 +4737,7 @@ return
 NS_OK
 ;
 }
-DoRedraw
+RequestPaintIfNeeded
 (
 frameSet
 /
