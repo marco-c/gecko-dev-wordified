@@ -1747,7 +1747,11 @@ tab
 let
 canonicalURI
 =
-makeURI
+Services
+.
+io
+.
+newURI
 (
 this
 .
