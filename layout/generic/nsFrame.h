@@ -1383,13 +1383,6 @@ aModType
 )
 override
 ;
-nsSplittableType
-GetSplittableType
-(
-)
-const
-override
-;
 nsIFrame
 *
 GetPrevContinuation

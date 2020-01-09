@@ -190,13 +190,6 @@ aPrevInFlow
 )
 override
 ;
-nsSplittableType
-GetSplittableType
-(
-)
-const
-override
-;
 void
 DestroyFrom
 (

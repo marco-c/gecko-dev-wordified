@@ -512,14 +512,6 @@ eSupportsContainLayoutAndPaint
 )
 ;
 }
-virtual
-nsSplittableType
-GetSplittableType
-(
-)
-const
-override
-;
 #
 ifdef
 DEBUG_FRAME_DUMP

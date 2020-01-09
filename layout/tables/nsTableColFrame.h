@@ -379,14 +379,6 @@ override
 ;
 #
 endif
-virtual
-nsSplittableType
-GetSplittableType
-(
-)
-const
-override
-;
 nsTableColGroupFrame
 *
 GetTableColGroupFrame

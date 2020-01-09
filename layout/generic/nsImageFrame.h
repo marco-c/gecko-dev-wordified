@@ -701,17 +701,6 @@ override
 ;
 #
 endif
-nsSplittableType
-GetSplittableType
-(
-)
-const
-override
-{
-return
-NS_FRAME_SPLITTABLE
-;
-}
 virtual
 LogicalSides
 GetLogicalSkipSides
