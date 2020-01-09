@@ -3033,6 +3033,15 @@ UpdateGlass
 (
 )
 ;
+bool
+WithinDraggableRegion
+(
+int32_t
+clientX
+int32_t
+clientY
+)
+;
 protected
 :
 #
@@ -3299,6 +3308,9 @@ mFullscreenMode
 ;
 bool
 mMousePresent
+;
+bool
+mMouseInDraggableArea
 ;
 bool
 mDestroyCalled
@@ -3805,6 +3817,9 @@ mIsChildWindow
 :
 1
 ;
+bool
+mCachedHitTestResult
+;
 /
 /
 The
@@ -3871,9 +3886,6 @@ mCachedHitTestPoint
 ;
 TimeStamp
 mCachedHitTestTime
-;
-int32_t
-mCachedHitTestResult
 ;
 RefPtr
 <
