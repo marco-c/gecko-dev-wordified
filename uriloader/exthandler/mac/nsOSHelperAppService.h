@@ -185,10 +185,6 @@ nsExternalHelperAppService
 {
 public
 :
-nsOSHelperAppService
-(
-)
-;
 virtual
 ~
 nsOSHelperAppService
@@ -416,11 +412,6 @@ bool
 aHandlerExists
 )
 override
-;
-private
-:
-uint32_t
-mPermissions
 ;
 }
 ;
