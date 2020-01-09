@@ -1086,13 +1086,7 @@ UnmuteAudioContexts
 (
 )
 ;
-bool
-GetAudioCaptured
-(
-)
-const
-;
-nsresult
+void
 SetAudioCapture
 (
 bool
@@ -3761,9 +3755,6 @@ working
 .
 bool
 mMayHaveTextEventListenerInDefaultGroup
-;
-bool
-mAudioCaptured
 ;
 /
 /
