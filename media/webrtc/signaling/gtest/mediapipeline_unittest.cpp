@@ -888,7 +888,7 @@ peer_
 nullptr
 ;
 }
-nsresult
+void
 SendPacket
 (
 const
@@ -912,9 +912,6 @@ SignalPacketReceived
 aTransportId
 aPacket
 )
-;
-return
-NS_OK
 ;
 }
 TransportLayer

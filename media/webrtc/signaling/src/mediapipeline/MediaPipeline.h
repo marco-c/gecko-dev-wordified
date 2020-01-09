@@ -1246,14 +1246,14 @@ override
 ;
 private
 :
-nsresult
+void
 SendRtpRtcpPacket_s
 (
 nsAutoPtr
 <
 MediaPacket
 >
-aData
+aPacket
 )
 ;
 /
@@ -1339,7 +1339,7 @@ IncrementRtcpPacketsReceived
 )
 ;
 virtual
-nsresult
+void
 SendPacket
 (
 MediaPacket
