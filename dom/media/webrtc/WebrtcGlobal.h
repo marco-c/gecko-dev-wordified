@@ -1731,7 +1731,7 @@ WriteParam
 aMsg
 aParam
 .
-mIpAddress
+mAddress
 )
 ;
 WriteParam
@@ -1846,7 +1846,7 @@ aIter
 aResult
 -
 >
-mIpAddress
+mAddress
 )
 )
 |
