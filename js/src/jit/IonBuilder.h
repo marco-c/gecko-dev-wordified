@@ -4270,6 +4270,14 @@ AbortReasonOr
 <
 Ok
 >
+jsop_envcallee
+(
+)
+;
+AbortReasonOr
+<
+Ok
+>
 jsop_superbase
 (
 )
