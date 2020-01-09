@@ -867,7 +867,5 @@ endif
 #
 endif
 /
-*
-WEBP_UTILS_RESCALER_UTILS_H_
-*
 /
+WEBP_UTILS_RESCALER_UTILS_H_

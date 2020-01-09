@@ -4876,7 +4876,5 @@ endif
 #
 endif
 /
-*
-WEBP_WEBP_DECODE_H_
-*
 /
+WEBP_WEBP_DECODE_H_

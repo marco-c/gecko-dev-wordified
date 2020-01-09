@@ -1675,7 +1675,5 @@ endif
 #
 endif
 /
-*
-WEBP_DEC_VP8_DEC_H_
-*
 /
+WEBP_DEC_VP8_DEC_H_

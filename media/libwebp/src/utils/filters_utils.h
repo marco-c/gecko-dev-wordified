@@ -262,7 +262,5 @@ endif
 #
 endif
 /
-*
-WEBP_UTILS_FILTERS_UTILS_H_
-*
 /
+WEBP_UTILS_FILTERS_UTILS_H_

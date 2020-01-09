@@ -425,7 +425,5 @@ b
 #
 endif
 /
-*
-WEBP_WEBP_TYPES_H_
-*
 /
+WEBP_WEBP_TYPES_H_

@@ -905,7 +905,5 @@ endif
 #
 endif
 /
-*
-WEBP_UTILS_THREAD_UTILS_H_
-*
 /
+WEBP_UTILS_THREAD_UTILS_H_

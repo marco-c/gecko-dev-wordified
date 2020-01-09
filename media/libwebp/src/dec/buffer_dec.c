@@ -858,6 +858,11 @@ size
 MIN_BUFFER_SIZE
 (
 width
+*
+kModeBpp
+[
+mode
+]
 height
 stride
 )

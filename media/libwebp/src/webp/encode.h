@@ -5658,7 +5658,5 @@ endif
 #
 endif
 /
-*
-WEBP_WEBP_ENCODE_H_
-*
 /
+WEBP_WEBP_ENCODE_H_

@@ -383,7 +383,7 @@ DEC_MIN_VERSION
 #
 define
 DEC_REV_VERSION
-0
+1
 /
 /
 YUV
@@ -2930,7 +2930,5 @@ endif
 #
 endif
 /
-*
-WEBP_DEC_VP8I_DEC_H_
-*
 /
+WEBP_DEC_VP8I_DEC_H_

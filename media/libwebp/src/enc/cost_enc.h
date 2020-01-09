@@ -671,7 +671,5 @@ endif
 #
 endif
 /
-*
-WEBP_ENC_COST_ENC_H_
-*
 /
+WEBP_ENC_COST_ENC_H_

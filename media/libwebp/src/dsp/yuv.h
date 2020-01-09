@@ -2306,7 +2306,5 @@ endif
 #
 endif
 /
-*
-WEBP_DSP_YUV_H_
-*
 /
+WEBP_DSP_YUV_H_

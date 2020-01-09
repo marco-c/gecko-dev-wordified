@@ -1531,7 +1531,5 @@ endif
 #
 endif
 /
-*
-WEBP_DEC_WEBPI_DEC_H_
-*
 /
+WEBP_DEC_WEBPI_DEC_H_

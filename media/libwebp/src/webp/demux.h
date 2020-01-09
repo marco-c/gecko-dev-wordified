@@ -3494,7 +3494,5 @@ endif
 #
 endif
 /
-*
-WEBP_WEBP_DEMUX_H_
-*
 /
+WEBP_WEBP_DEMUX_H_

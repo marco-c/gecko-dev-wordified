@@ -383,7 +383,7 @@ ENC_MIN_VERSION
 #
 define
 ENC_REV_VERSION
-0
+1
 enum
 {
 MAX_LF_LEVELS
@@ -2810,6 +2810,7 @@ const
 it
 uint8_t
 *
+const
 tmp_32
 )
 ;
@@ -5000,7 +5001,5 @@ endif
 #
 endif
 /
-*
-WEBP_ENC_VP8I_ENC_H_
-*
 /
+WEBP_ENC_VP8I_ENC_H_

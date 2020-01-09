@@ -13409,7 +13409,5 @@ __VA_ARGS__
 #
 endif
 /
-*
-WEBP_DSP_MSA_MACRO_H_
-*
 /
+WEBP_DSP_MSA_MACRO_H_

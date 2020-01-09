@@ -1015,7 +1015,5 @@ endif
 #
 endif
 /
-*
-WEBP_ENC_VP8LI_ENC_H_
-*
 /
+WEBP_ENC_VP8LI_ENC_H_

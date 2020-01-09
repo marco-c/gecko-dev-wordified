@@ -5363,7 +5363,5 @@ endif
 #
 endif
 /
-*
-WEBP_WEBP_MUX_H_
-*
 /
+WEBP_WEBP_MUX_H_

@@ -739,7 +739,5 @@ endif
 #
 endif
 /
-*
-WEBP_WEBP_MUX_TYPES_H_
-*
 /
+WEBP_WEBP_MUX_TYPES_H_

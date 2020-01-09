@@ -522,7 +522,5 @@ endif
 #
 endif
 /
-*
-WEBP_DEC_ALPHAI_DEC_H_
-*
 /
+WEBP_DEC_ALPHAI_DEC_H_
