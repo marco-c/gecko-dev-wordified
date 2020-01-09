@@ -46838,13 +46838,6 @@ else
 browser
 =
 aSubject
-.
-QueryInterface
-(
-Ci
-.
-nsIBrowser
-)
 ;
 }
 let
