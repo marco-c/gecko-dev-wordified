@@ -222,10 +222,13 @@ mDisplayInfo
 ;
 }
 virtual
+const
 VRHMDSensorState
+&
 GetSensorState
 (
 )
+const
 ;
 void
 GetSubmitFrameResult

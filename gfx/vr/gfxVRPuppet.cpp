@@ -1168,6 +1168,7 @@ ZeroSensor
 {
 }
 VRHMDSensorState
+&
 VRDisplayPuppet
 :
 :

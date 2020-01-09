@@ -230,6 +230,7 @@ override
 protected
 :
 VRHMDSensorState
+&
 GetSensorState
 (
 )
