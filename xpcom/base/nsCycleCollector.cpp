@@ -16313,6 +16313,14 @@ CheckThreadSafety
 (
 )
 ;
+if
+(
+mFreeingSnowWhite
+)
+{
+return
+;
+}
 mozilla
 :
 :
