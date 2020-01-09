@@ -12704,6 +12704,16 @@ OptionalURIParams
 &
 uri
 const
+mozilla
+:
+:
+net
+:
+:
+OptionalLoadInfoArgs
+&
+aLoadInfoArgs
+const
 nsCString
 &
 aMimeContentType

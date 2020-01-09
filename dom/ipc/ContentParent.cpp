@@ -23260,6 +23260,16 @@ OptionalURIParams
 &
 uri
 const
+mozilla
+:
+:
+net
+:
+:
+OptionalLoadInfoArgs
+&
+aLoadInfoArgs
+const
 nsCString
 &
 aMimeContentType
@@ -23304,6 +23314,7 @@ new
 ExternalHelperAppParent
 (
 uri
+aLoadInfoArgs
 aContentLength
 aWasFileChannel
 aContentDisposition
