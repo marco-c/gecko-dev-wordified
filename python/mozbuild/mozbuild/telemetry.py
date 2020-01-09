@@ -1899,6 +1899,29 @@ after
 that
 .
     
+paths
+is
+a
+dict
+whose
+keys
+are
+pathnames
+and
+values
+are
+sigils
+that
+should
+be
+used
+to
+    
+replace
+those
+pathnames
+.
+    
 '
 '
 '
@@ -1956,6 +1979,10 @@ basedir
 (
 p
 paths
+.
+keys
+(
+)
 )
         
 if
@@ -1963,6 +1990,11 @@ base
 :
             
 return
+paths
+[
+base
+]
++
 mozpath
 .
 relpath
@@ -2022,8 +2054,8 @@ substs
 }
 paths
 =
-[
-]
+{
+}
 )
 :
     
@@ -2056,6 +2088,29 @@ stored
 for
 later
 submission
+.
+    
+paths
+is
+a
+dict
+whose
+keys
+are
+pathnames
+and
+values
+are
+sigils
+that
+should
+be
+used
+to
+    
+replace
+those
+pathnames
 .
     
 Any
