@@ -232,6 +232,7 @@ g_pHmdSystem
 Init
 (
 eApplicationType
+pStartupInfo
 )
 ;
 }

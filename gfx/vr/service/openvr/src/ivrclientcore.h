@@ -54,6 +54,10 @@ vr
 :
 EVRApplicationType
 eApplicationType
+const
+char
+*
+pStartupInfo
 )
 =
 0
@@ -262,7 +266,7 @@ const
 IVRClientCore_Version
 =
 "
-IVRClientCore_002
+IVRClientCore_003
 "
 ;
 }
