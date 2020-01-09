@@ -369,7 +369,7 @@ namespace
 layout
 {
 class
-RenderFrameParent
+RenderFrame
 ;
 }
 /
@@ -483,8 +483,8 @@ mozilla
 layout
 :
 :
-RenderFrameParent
-RenderFrameParent
+RenderFrame
+RenderFrame
 ;
 public
 :
@@ -1627,7 +1627,7 @@ desirable
 )
 *
 /
-RenderFrameParent
+RenderFrame
 *
 GetCurrentRenderFrame
 (

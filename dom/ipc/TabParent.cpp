@@ -363,7 +363,7 @@ mozilla
 /
 layout
 /
-RenderFrameParent
+RenderFrame
 .
 h
 "
@@ -13347,7 +13347,7 @@ TabId
 )
 ;
 }
-RenderFrameParent
+RenderFrame
 *
 TabParent
 :

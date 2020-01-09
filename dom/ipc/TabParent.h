@@ -251,7 +251,7 @@ mozilla
 /
 layout
 /
-RenderFrameParent
+RenderFrame
 .
 h
 "
@@ -3045,7 +3045,7 @@ aDragRect
 layout
 :
 :
-RenderFrameParent
+RenderFrame
 *
 GetRenderFrame
 (
@@ -4247,7 +4247,7 @@ aLayersId
 layout
 :
 :
-RenderFrameParent
+RenderFrame
 mRenderFrame
 ;
 LayersObserverEpoch

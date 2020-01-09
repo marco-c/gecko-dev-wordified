@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_layout_RenderFrameParent_h
+mozilla_layout_RenderFrame_h
 #
 define
-mozilla_layout_RenderFrameParent_h
+mozilla_layout_RenderFrame_h
 #
 include
 "
@@ -204,7 +204,7 @@ namespace
 layout
 {
 class
-RenderFrameParent
+RenderFrame
 final
 {
 typedef
@@ -249,13 +249,13 @@ TextureFactoryIdentifier
 ;
 public
 :
-RenderFrameParent
+RenderFrame
 (
 )
 ;
 virtual
 ~
-RenderFrameParent
+RenderFrame
 (
 )
 ;
@@ -476,7 +476,7 @@ In
 some
 cases
 this
-RenderFrameParent
+RenderFrame
 is
 not
 connected
@@ -530,7 +530,7 @@ tree
 for
 a
 given
-RenderFrameParent
+RenderFrame
 )
 into
 its
@@ -618,8 +618,8 @@ mozilla
 layout
 :
 :
-RenderFrameParent
-RenderFrameParent
+RenderFrame
+RenderFrame
 ;
 typedef
 mozilla
@@ -780,9 +780,9 @@ GetRemoteLayersId
 )
 const
 ;
-RenderFrameParent
+RenderFrame
 *
-GetRenderFrameParent
+GetRenderFrame
 (
 )
 const
@@ -802,4 +802,4 @@ mEventRegionsOverride
 endif
 /
 /
-mozilla_layout_RenderFrameParent_h
+mozilla_layout_RenderFrame_h

@@ -164,7 +164,7 @@ mozilla
 /
 layout
 /
-RenderFrameParent
+RenderFrame
 .
 h
 "
@@ -388,7 +388,7 @@ mozilla
 layout
 :
 :
-RenderFrameParent
+RenderFrame
 ;
 static
 bool
@@ -2031,9 +2031,9 @@ FrameLoader
 (
 )
 ;
-RenderFrameParent
+RenderFrame
 *
-rfp
+rf
 =
 nullptr
 ;
@@ -2042,7 +2042,7 @@ if
 frameLoader
 )
 {
-rfp
+rf
 =
 frameLoader
 -
@@ -2113,7 +2113,7 @@ decorations
 ;
 if
 (
-rfp
+rf
 )
 {
 /
@@ -2265,7 +2265,7 @@ return
 }
 if
 (
-rfp
+rf
 )
 {
 /
@@ -6695,12 +6695,12 @@ mozilla
 layout
 :
 :
-RenderFrameParent
+RenderFrame
 *
 nsSubDocumentFrame
 :
 :
-GetRenderFrameParent
+GetRenderFrame
 (
 )
 const

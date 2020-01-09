@@ -3616,7 +3616,7 @@ e
 [
 UI
 ]
-RenderFrameParent
+RenderFrame
 :
 :
 EnsureLayersConnected
@@ -3643,7 +3643,7 @@ step
 (
 e
 )
-RenderFrameParent
+RenderFrame
 will
 call
 GetLayerManager

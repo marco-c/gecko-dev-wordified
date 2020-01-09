@@ -164,7 +164,7 @@ namespace
 layout
 {
 class
-RenderFrameParent
+RenderFrame
 ;
 }
 }
@@ -895,9 +895,9 @@ mozilla
 layout
 :
 :
-RenderFrameParent
+RenderFrame
 *
-GetRenderFrameParent
+GetRenderFrame
 (
 )
 const
