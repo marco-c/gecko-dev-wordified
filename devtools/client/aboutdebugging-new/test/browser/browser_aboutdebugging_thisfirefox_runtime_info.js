@@ -254,7 +254,11 @@ THIS_FIREFOX
 )
 {
 return
+{
+clientWrapper
+:
 thisFirefoxClient
+}
 ;
 }
 throw
