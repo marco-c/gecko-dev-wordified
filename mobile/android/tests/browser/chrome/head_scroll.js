@@ -234,6 +234,9 @@ y
 topLevelUtils
 .
 UPDATE_TYPE_MAIN_THREAD
+topLevelUtils
+.
+SCROLL_MODE_INSTANT
 )
 ;
 }
