@@ -166,3 +166,10 @@ CallWatcherFront
 =
 CallWatcherFront
 ;
+protocol
+.
+registerFront
+(
+CallWatcherFront
+)
+;
