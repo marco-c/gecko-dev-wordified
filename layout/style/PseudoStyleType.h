@@ -601,5 +601,9 @@ WrapperAnonBoxesEnd
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
