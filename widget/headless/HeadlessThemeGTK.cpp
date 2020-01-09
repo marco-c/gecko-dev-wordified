@@ -145,7 +145,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 const
 nsRect
 &
@@ -173,12 +173,12 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -195,7 +195,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -221,7 +221,7 @@ theme
 .
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -659,7 +659,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 LayoutDeviceIntMargin
 *
 aResult
@@ -667,7 +667,7 @@ aResult
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -684,7 +684,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -707,7 +707,7 @@ theme
 .
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -915,7 +915,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 LayoutDeviceIntSize
 *
 aResult
@@ -943,7 +943,7 @@ true
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -960,7 +960,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -983,7 +983,7 @@ theme
 .
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -1705,7 +1705,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 nsAtom
 *
 aAttribute
@@ -1794,12 +1794,12 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1816,7 +1816,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -1826,7 +1826,7 @@ Menulist
 }
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -2297,7 +2297,7 @@ IsWidgetStyled
 (
 aPresContext
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 case
@@ -2331,7 +2331,7 @@ IsWidgetStyled
 (
 aPresContext
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 default
@@ -2353,12 +2353,12 @@ HeadlessThemeGTK
 WidgetIsContainer
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2375,7 +2375,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -2385,7 +2385,7 @@ Menulist
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2394,7 +2394,7 @@ StyleAppearance
 MenulistButton
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2403,7 +2403,7 @@ StyleAppearance
 MozMenulistButton
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2412,7 +2412,7 @@ StyleAppearance
 Radio
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2421,7 +2421,7 @@ StyleAppearance
 RangeThumb
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2430,7 +2430,7 @@ StyleAppearance
 Checkbox
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2439,7 +2439,7 @@ StyleAppearance
 TabScrollArrowBack
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2448,7 +2448,7 @@ StyleAppearance
 TabScrollArrowForward
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2457,7 +2457,7 @@ StyleAppearance
 ButtonArrowUp
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2466,7 +2466,7 @@ StyleAppearance
 ButtonArrowDown
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2475,7 +2475,7 @@ StyleAppearance
 ButtonArrowNext
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2499,12 +2499,12 @@ HeadlessThemeGTK
 ThemeDrawsFocusForWidget
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2513,7 +2513,7 @@ StyleAppearance
 Menulist
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2522,7 +2522,7 @@ StyleAppearance
 Button
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance

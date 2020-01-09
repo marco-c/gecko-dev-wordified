@@ -296,7 +296,7 @@ mozilla
 :
 :
 StyleAppearance
-aWidgetType
+aAppearance
 )
 ;
 /
@@ -343,7 +343,7 @@ mozilla
 :
 :
 StyleAppearance
-aWidgetType
+aAppearance
 )
 ;
 /
@@ -977,7 +977,7 @@ mozilla
 :
 :
 StyleAppearance
-aWidgetType
+aAppearance
 )
 ;
 nscolor

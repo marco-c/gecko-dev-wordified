@@ -384,7 +384,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 if
@@ -401,7 +401,7 @@ bool
 isXULCheckboxRadio
 =
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -410,7 +410,7 @@ StyleAppearance
 Checkbox
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -548,7 +548,7 @@ it
 .
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -650,7 +650,7 @@ if
 isXULCheckboxRadio
 &
 &
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -733,7 +733,7 @@ lists
 .
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -742,7 +742,7 @@ StyleAppearance
 MenulistTextfield
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -751,7 +751,7 @@ StyleAppearance
 NumberInput
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -760,7 +760,7 @@ StyleAppearance
 Textfield
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -769,7 +769,7 @@ StyleAppearance
 TextfieldMultiline
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -778,7 +778,7 @@ StyleAppearance
 Searchfield
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -817,7 +817,7 @@ theme
 .
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1722,7 +1722,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 /
@@ -1817,7 +1817,7 @@ false
 .
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1949,7 +1949,7 @@ do
 /
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1958,7 +1958,7 @@ StyleAppearance
 Progresschunk
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1973,7 +1973,7 @@ progressFrame
 =
 do_QueryFrame
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2044,7 +2044,7 @@ do
 /
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2053,7 +2053,7 @@ StyleAppearance
 Meterchunk
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2068,7 +2068,7 @@ meterFrame
 =
 do_QueryFrame
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2150,7 +2150,7 @@ do
 /
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2159,7 +2159,7 @@ StyleAppearance
 Range
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2174,7 +2174,7 @@ rangeFrame
 =
 do_QueryFrame
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2210,7 +2210,7 @@ ShouldUseNativeStyle
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2219,7 +2219,7 @@ StyleAppearance
 SpinnerUpbutton
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2258,7 +2258,7 @@ ShouldUseNativeStyleForSpinner
 }
 return
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2267,7 +2267,7 @@ StyleAppearance
 NumberInput
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2276,7 +2276,7 @@ StyleAppearance
 Button
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2285,7 +2285,7 @@ StyleAppearance
 MenulistTextfield
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2294,7 +2294,7 @@ StyleAppearance
 Textfield
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2303,7 +2303,7 @@ StyleAppearance
 TextfieldMultiline
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2312,7 +2312,7 @@ StyleAppearance
 Listbox
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2322,7 +2322,7 @@ Menulist
 |
 |
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -4959,12 +4959,12 @@ nsNativeTheme
 IsWidgetScrollbarPart
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case

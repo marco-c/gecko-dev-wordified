@@ -1918,7 +1918,7 @@ void
 CalculateToolbarButtonMetrics
 (
 WidgetNodeType
-aWidgetType
+aAppearance
 ToolbarButtonGTKMetrics
 *
 aMetrics
@@ -1980,7 +1980,7 @@ style
 =
 GetStyleContext
 (
-aWidgetType
+aAppearance
 )
 ;
 gint
@@ -2210,7 +2210,7 @@ void
 CalculateToolbarButtonSpacing
 (
 WidgetNodeType
-aWidgetType
+aAppearance
 ToolbarButtonGTKMetrics
 *
 aMetrics
@@ -2222,7 +2222,7 @@ style
 =
 GetStyleContext
 (
-aWidgetType
+aAppearance
 )
 ;
 gtk_style_context_get_margin
@@ -2821,7 +2821,7 @@ ToolbarButtonGTKMetrics
 GetToolbarButtonMetrics
 (
 WidgetNodeType
-aWidgetType
+aAppearance
 )
 {
 EnsureToolbarMetrics
@@ -2832,7 +2832,7 @@ int
 buttonIndex
 =
 (
-aWidgetType
+aAppearance
 -
 MOZ_GTK_HEADER_BAR_BUTTON_CLOSE
 )
