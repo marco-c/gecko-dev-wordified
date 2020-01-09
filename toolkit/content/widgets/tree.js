@@ -3123,12 +3123,14 @@ null
 }
 }
 else
+{
 col
 .
 mDragGesturing
 =
 false
 ;
+}
 document
 .
 treecolDragging
