@@ -565,7 +565,7 @@ provided
 from
 /
 /
-NS_IdleDispatchToCurrentThread
+NS_DispatchToCurrentThreadQueue
 (
 )
 .
@@ -814,13 +814,17 @@ SetTimerInternal
 mDelay
 )
 ;
-NS_IdleDispatchToCurrentThread
+NS_DispatchToCurrentThreadQueue
 (
 runnable
 .
 forget
 (
 )
+EventQueuePriority
+:
+:
+Idle
 )
 ;
 }

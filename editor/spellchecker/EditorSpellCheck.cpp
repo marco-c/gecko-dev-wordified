@@ -1186,7 +1186,7 @@ aEditor
 this
 )
 ;
-NS_IdleDispatchToCurrentThread
+NS_DispatchToCurrentThreadQueue
 (
 runnable
 .
@@ -1194,6 +1194,10 @@ forget
 (
 )
 1000
+EventQueuePriority
+:
+:
+Idle
 )
 ;
 return

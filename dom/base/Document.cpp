@@ -54613,7 +54613,7 @@ case
 nsresult
 rv
 =
-NS_IdleDispatchToCurrentThread
+NS_DispatchToCurrentThreadQueue
 (
 event
 .
@@ -54621,6 +54621,10 @@ forget
 (
 )
 1000
+EventQueuePriority
+:
+:
+Idle
 )
 ;
 if
@@ -74879,7 +74883,7 @@ this
 nsresult
 rv
 =
-NS_IdleDispatchToCurrentThread
+NS_DispatchToCurrentThreadQueue
 (
 task
 .
@@ -74887,6 +74891,10 @@ forget
 (
 )
 2500
+EventQueuePriority
+:
+:
+Idle
 )
 ;
 if

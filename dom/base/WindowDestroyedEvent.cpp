@@ -611,7 +611,7 @@ copy
 this
 )
 ;
-NS_IdleDispatchToCurrentThread
+NS_DispatchToCurrentThreadQueue
 (
 copy
 .
@@ -619,6 +619,10 @@ forget
 (
 )
 1000
+EventQueuePriority
+:
+:
+Idle
 )
 ;
 }

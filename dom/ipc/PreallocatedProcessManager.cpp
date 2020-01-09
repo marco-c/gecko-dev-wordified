@@ -1579,7 +1579,7 @@ mEnabled
 return
 ;
 }
-NS_IdleDispatchToCurrentThread
+NS_DispatchToCurrentThreadQueue
 (
 NewRunnableMethod
 (
@@ -1596,6 +1596,10 @@ PreallocatedProcessManagerImpl
 :
 AllocateNow
 )
+EventQueuePriority
+:
+:
+Idle
 )
 ;
 }

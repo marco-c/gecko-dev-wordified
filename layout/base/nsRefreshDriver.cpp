@@ -12627,7 +12627,7 @@ runnableWithDelay
 runnables
 )
 {
-NS_IdleDispatchToCurrentThread
+NS_DispatchToCurrentThreadQueue
 (
 runnableWithDelay
 .
@@ -12639,6 +12639,10 @@ forget
 runnableWithDelay
 .
 mDelay
+EventQueuePriority
+:
+:
+Idle
 )
 ;
 }
