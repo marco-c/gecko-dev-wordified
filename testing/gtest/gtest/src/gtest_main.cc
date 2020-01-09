@@ -331,12 +331,12 @@ main
 (
 )
 from
-gtest_main
-.
-cc
+%
+s
 \
 n
 "
+__FILE__
 )
 ;
 testing
