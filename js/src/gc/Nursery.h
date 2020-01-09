@@ -3500,6 +3500,16 @@ return
 runtime_
 ;
 }
+gcstats
+:
+:
+Statistics
+&
+stats
+(
+)
+const
+;
 /
 *
 Common
