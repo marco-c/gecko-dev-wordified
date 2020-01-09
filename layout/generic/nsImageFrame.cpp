@@ -11028,7 +11028,6 @@ AppUnitsPerDevPixel
 (
 )
 ;
-const
 LayoutDeviceRect
 destRect
 (
@@ -11040,6 +11039,12 @@ FromAppUnits
 dest
 factor
 )
+)
+;
+destRect
+.
+Round
+(
 )
 ;
 Maybe
@@ -12947,7 +12952,6 @@ AppUnitsPerDevPixel
 (
 )
 ;
-const
 LayoutDeviceRect
 destRect
 (
@@ -12961,6 +12965,12 @@ GetDestRect
 )
 factor
 )
+)
+;
+destRect
+.
+Round
+(
 )
 ;
 Maybe
