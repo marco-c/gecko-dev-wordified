@@ -3698,6 +3698,8 @@ ResumeRedirectedLoad
 (
 uint64_t
 aIdentifier
+int32_t
+aHistoryIndex
 )
 {
 return
@@ -3707,6 +3709,7 @@ mDocShellAsNav
 ResumeRedirectedLoad
 (
 aIdentifier
+aHistoryIndex
 )
 ;
 }
