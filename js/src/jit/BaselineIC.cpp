@@ -11154,7 +11154,6 @@ true
 TypeUpdate_Fallback
 /
 /
-static
 bool
 DoTypeUpdateFallback
 (
