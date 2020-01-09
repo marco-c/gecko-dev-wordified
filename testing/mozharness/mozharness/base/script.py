@@ -238,8 +238,9 @@ base
 .
 log
 import
-SimpleFileLogger
 MultiFileLogger
+SimpleFileLogger
+ConsoleLogger
 \
     
 LogMixin
@@ -18249,7 +18250,7 @@ get
 log_type
 "
 "
-multi
+console
 "
 )
         
@@ -18309,7 +18310,13 @@ MultiFileLogger
 log_config
 )
         
-else
+elif
+log_type
+=
+=
+"
+simple
+"
 :
             
 self
@@ -18317,6 +18324,20 @@ self
 log_obj
 =
 SimpleFileLogger
+(
+*
+*
+log_config
+)
+        
+else
+:
+            
+self
+.
+log_obj
+=
+ConsoleLogger
 (
 *
 *
