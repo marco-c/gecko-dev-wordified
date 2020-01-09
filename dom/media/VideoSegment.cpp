@@ -146,7 +146,6 @@ already_AddRefed
 <
 Image
 >
-&
 aImage
 const
 gfx
@@ -693,7 +692,13 @@ aTimeStamp
 VideoFrame
 frame
 (
+std
+:
+:
+move
+(
 aImage
+)
 aIntrinsicSize
 )
 ;
