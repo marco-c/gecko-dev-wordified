@@ -3851,10 +3851,6 @@ gNumPendingMainThreadPaints
 +
 +
 ;
-CreateCheckpoint
-(
-)
-;
 }
 static
 void
