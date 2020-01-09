@@ -256,7 +256,6 @@ docShell
 addEventListener
 (
 event
-listener
 options
 )
 {
@@ -267,7 +266,11 @@ _dispatcher
 addEventListener
 (
 event
-listener
+this
+.
+constructor
+.
+name
 options
 )
 ;
