@@ -2882,6 +2882,13 @@ to
 be
 handled
 .
+Must
+be
+a
+trusted
+*
+event
+.
 *
 param
 aDontRetargetEvents
@@ -3002,6 +3009,13 @@ Event
 to
 be
 dispatched
+.
+Must
+be
+a
+*
+trusted
+event
 .
 *
 param
