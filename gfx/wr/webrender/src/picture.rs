@@ -3428,6 +3428,15 @@ NormalBorder
 PrimitiveInstanceKind
 :
 :
+LinearGradient
+{
+.
+.
+}
+|
+PrimitiveInstanceKind
+:
+:
 ImageBorder
 {
 .

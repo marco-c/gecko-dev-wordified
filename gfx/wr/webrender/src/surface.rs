@@ -1863,6 +1863,15 @@ LineDecoration
 PrimitiveInstanceKind
 :
 :
+LinearGradient
+{
+.
+.
+}
+|
+PrimitiveInstanceKind
+:
+:
 TextRun
 {
 .
