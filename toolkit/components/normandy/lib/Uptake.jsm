@@ -241,7 +241,7 @@ runner
 }
 reportRecipe
 (
-recipeId
+recipe
 status
 )
 {
@@ -261,7 +261,9 @@ COMPONENT
 recipe
 /
 {
-recipeId
+recipe
+.
+id
 }
 }
 )
