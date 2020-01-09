@@ -1301,7 +1301,7 @@ return
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGGeometryElement
 :

@@ -211,7 +211,7 @@ namespace
 dom
 {
 class
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 ;
 typedef
 mozilla
@@ -1490,7 +1490,7 @@ aFor
 WebIDL
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 PathLength
 (

@@ -176,10 +176,10 @@ namespace
 dom
 {
 class
-SVGAnimationElement
+DOMSVGAnimatedBoolean
 ;
 class
-SVGAnimatedBoolean
+SVGAnimationElement
 ;
 class
 SVGElement
@@ -299,7 +299,7 @@ mozilla
 dom
 :
 :
-SVGAnimatedBoolean
+DOMSVGAnimatedBoolean
 >
 ToDOMAnimatedBoolean
 (

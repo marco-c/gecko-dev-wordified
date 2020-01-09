@@ -524,7 +524,7 @@ SVGMPathElement
 )
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGMPathElement
 :

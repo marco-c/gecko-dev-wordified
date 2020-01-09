@@ -310,7 +310,7 @@ override
 WebIDL
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 X
 (
@@ -318,7 +318,7 @@ X
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 Y
 (
@@ -326,7 +326,7 @@ Y
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 Z
 (

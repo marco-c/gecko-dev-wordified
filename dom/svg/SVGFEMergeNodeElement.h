@@ -296,7 +296,7 @@ IN1
 WebIDL
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 In1
 (

@@ -198,7 +198,7 @@ namespace
 SVGTextPathElement_Binding
 ;
 class
-SVGAnimatedLength
+DOMSVGAnimatedLength
 ;
 JSObject
 *
@@ -711,7 +711,7 @@ SVGTextPathElement
 )
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGTextPathElement
 :
@@ -825,7 +825,7 @@ this
 -
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGTextPathElement
 :
@@ -848,7 +848,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGTextPathElement
 :
@@ -871,7 +871,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGTextPathElement
 :
@@ -894,7 +894,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGTextPathElement
 :

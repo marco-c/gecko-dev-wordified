@@ -428,7 +428,7 @@ GetReferencedPath
 WebIDL
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 Href
 (

@@ -697,7 +697,7 @@ Spot
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFESpotLightElement
 :
@@ -720,7 +720,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFESpotLightElement
 :
@@ -743,7 +743,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFESpotLightElement
 :
@@ -766,7 +766,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFESpotLightElement
 :
@@ -789,7 +789,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFESpotLightElement
 :
@@ -812,7 +812,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFESpotLightElement
 :
@@ -835,7 +835,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFESpotLightElement
 :
@@ -858,7 +858,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFESpotLightElement
 :

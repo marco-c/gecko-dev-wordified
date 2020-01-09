@@ -360,7 +360,7 @@ override
 WebIDL
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 In1
 (
@@ -368,7 +368,7 @@ In1
 ;
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 Operator
 (
@@ -376,7 +376,7 @@ Operator
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 RadiusX
 (
@@ -384,7 +384,7 @@ RadiusX
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 RadiusY
 (

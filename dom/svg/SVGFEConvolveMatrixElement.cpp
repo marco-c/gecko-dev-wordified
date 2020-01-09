@@ -618,7 +618,7 @@ SVGFEConvolveMatrixElement
 -
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGFEConvolveMatrixElement
 :
@@ -641,7 +641,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedInteger
+DOMSVGAnimatedInteger
 >
 SVGFEConvolveMatrixElement
 :
@@ -668,7 +668,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedInteger
+DOMSVGAnimatedInteger
 >
 SVGFEConvolveMatrixElement
 :
@@ -722,7 +722,7 @@ KERNELMATRIX
 }
 already_AddRefed
 <
-SVGAnimatedInteger
+DOMSVGAnimatedInteger
 >
 SVGFEConvolveMatrixElement
 :
@@ -745,7 +745,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedInteger
+DOMSVGAnimatedInteger
 >
 SVGFEConvolveMatrixElement
 :
@@ -768,7 +768,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGFEConvolveMatrixElement
 :
@@ -791,7 +791,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedBoolean
+DOMSVGAnimatedBoolean
 >
 SVGFEConvolveMatrixElement
 :
@@ -814,7 +814,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEConvolveMatrixElement
 :
@@ -837,7 +837,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEConvolveMatrixElement
 :
@@ -860,7 +860,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEConvolveMatrixElement
 :
@@ -887,7 +887,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEConvolveMatrixElement
 :

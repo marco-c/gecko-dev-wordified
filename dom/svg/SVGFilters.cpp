@@ -136,6 +136,13 @@ h
 #
 include
 "
+DOMSVGAnimatedLength
+.
+h
+"
+#
+include
+"
 imgIContainer
 .
 h
@@ -165,13 +172,6 @@ h
 include
 "
 nsLayoutUtils
-.
-h
-"
-#
-include
-"
-SVGAnimatedNumberList
 .
 h
 "
@@ -241,17 +241,6 @@ h
 include
 "
 nsSVGUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
-SVGAnimatedLength
 .
 h
 "
@@ -868,7 +857,7 @@ result
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGFE
 :
@@ -891,7 +880,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGFE
 :
@@ -914,7 +903,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGFE
 :
@@ -937,7 +926,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGFE
 :
@@ -960,7 +949,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGFE
 :
@@ -1878,7 +1867,7 @@ type
 -
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGComponentTransferFunctionElement
 :
@@ -1928,7 +1917,7 @@ TABLEVALUES
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGComponentTransferFunctionElement
 :
@@ -1951,7 +1940,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGComponentTransferFunctionElement
 :
@@ -1974,7 +1963,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGComponentTransferFunctionElement
 :
@@ -1997,7 +1986,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGComponentTransferFunctionElement
 :
@@ -2020,7 +2009,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGComponentTransferFunctionElement
 :

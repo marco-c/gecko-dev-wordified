@@ -647,7 +647,7 @@ SVGMaskElement
 -
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGMaskElement
 :
@@ -670,7 +670,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGMaskElement
 :
@@ -693,7 +693,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGMaskElement
 :
@@ -716,7 +716,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGMaskElement
 :
@@ -739,7 +739,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGMaskElement
 :
@@ -762,7 +762,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGMaskElement
 :

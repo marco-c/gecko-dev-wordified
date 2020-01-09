@@ -213,7 +213,7 @@ orientType
 of
 type
 *
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 )
 and
 '
@@ -222,11 +222,11 @@ orientAngle
 (
 of
 type
-SVGAnimatedAngle
+DOMSVGAnimatedAngle
 )
 .
-If
 *
+If
 '
 orientType
 .

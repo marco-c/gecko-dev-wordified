@@ -2031,7 +2031,7 @@ mozilla
 dom
 :
 :
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 ClassName
 (

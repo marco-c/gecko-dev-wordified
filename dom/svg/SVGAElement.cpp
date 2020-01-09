@@ -528,7 +528,7 @@ SVGAElement
 }
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGAElement
 :
@@ -871,7 +871,7 @@ SVGAElement
 -
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGAElement
 :

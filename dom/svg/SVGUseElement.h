@@ -478,7 +478,7 @@ override
 WebIDL
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 Href
 (
@@ -486,7 +486,7 @@ Href
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 X
 (
@@ -494,7 +494,7 @@ X
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Y
 (
@@ -502,7 +502,7 @@ Y
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Width
 (
@@ -510,7 +510,7 @@ Width
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Height
 (

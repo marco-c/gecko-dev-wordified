@@ -306,7 +306,7 @@ SVGFETileElement
 )
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGFETileElement
 :

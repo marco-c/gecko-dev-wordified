@@ -369,7 +369,7 @@ path
 WebIDL
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 StartOffset
 (
@@ -377,7 +377,7 @@ StartOffset
 ;
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 Method
 (
@@ -385,7 +385,7 @@ Method
 ;
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 Spacing
 (
@@ -393,7 +393,7 @@ Spacing
 ;
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 Side
 (
@@ -401,7 +401,7 @@ Side
 ;
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 Href
 (

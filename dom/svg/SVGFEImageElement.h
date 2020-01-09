@@ -500,7 +500,7 @@ MaybeLoadSVGImage
 WebIDL
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 Href
 (

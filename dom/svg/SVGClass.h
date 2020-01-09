@@ -185,7 +185,7 @@ namespace
 dom
 {
 class
-SVGAnimatedString
+DOMSVGAnimatedString
 ;
 class
 SVGElement
@@ -287,7 +287,7 @@ mozilla
 dom
 :
 :
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 ToDOMAnimatedString
 (

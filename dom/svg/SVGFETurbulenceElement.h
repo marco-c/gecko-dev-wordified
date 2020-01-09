@@ -365,7 +365,7 @@ override
 WebIDL
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 BaseFrequencyX
 (
@@ -373,7 +373,7 @@ BaseFrequencyX
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 BaseFrequencyY
 (
@@ -381,7 +381,7 @@ BaseFrequencyY
 ;
 already_AddRefed
 <
-SVGAnimatedInteger
+DOMSVGAnimatedInteger
 >
 NumOctaves
 (
@@ -389,7 +389,7 @@ NumOctaves
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 Seed
 (
@@ -397,7 +397,7 @@ Seed
 ;
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 StitchTiles
 (
@@ -405,7 +405,7 @@ StitchTiles
 ;
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 Type
 (

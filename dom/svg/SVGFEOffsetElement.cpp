@@ -409,7 +409,7 @@ SVGFEOffsetElement
 -
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGFEOffsetElement
 :
@@ -432,7 +432,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEOffsetElement
 :
@@ -455,7 +455,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEOffsetElement
 :

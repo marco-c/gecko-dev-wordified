@@ -407,7 +407,7 @@ PreserveAspectRatio
 ;
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 PatternUnits
 (
@@ -415,7 +415,7 @@ PatternUnits
 ;
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 PatternContentUnits
 (
@@ -431,7 +431,7 @@ PatternTransform
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 X
 (
@@ -439,7 +439,7 @@ X
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Y
 (
@@ -447,7 +447,7 @@ Y
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Width
 (
@@ -455,7 +455,7 @@ Width
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Height
 (
@@ -463,7 +463,7 @@ Height
 ;
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 Href
 (

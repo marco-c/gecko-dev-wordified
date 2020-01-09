@@ -187,7 +187,7 @@ namespace
 dom
 {
 class
-SVGAnimatedLength
+DOMSVGAnimatedLength
 ;
 typedef
 SVGElement
@@ -332,7 +332,7 @@ override
 WebIDL
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 X
 (
@@ -340,7 +340,7 @@ X
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Y
 (
@@ -348,7 +348,7 @@ Y
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Width
 (
@@ -356,7 +356,7 @@ Width
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Height
 (
@@ -364,7 +364,7 @@ Height
 ;
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 FilterUnits
 (
@@ -372,7 +372,7 @@ FilterUnits
 ;
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 PrimitiveUnits
 (
@@ -380,7 +380,7 @@ PrimitiveUnits
 ;
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 Href
 (

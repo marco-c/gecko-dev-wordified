@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SVGAnimatedBoolean_h
+mozilla_dom_DOMSVGAnimatedBoolean_h
 #
 define
-mozilla_dom_SVGAnimatedBoolean_h
+mozilla_dom_DOMSVGAnimatedBoolean_h
 #
 include
 "
@@ -161,7 +161,7 @@ namespace
 dom
 {
 class
-SVGAnimatedBoolean
+DOMSVGAnimatedBoolean
 final
 :
 public
@@ -169,13 +169,13 @@ nsWrapperCache
 {
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
-SVGAnimatedBoolean
+DOMSVGAnimatedBoolean
 )
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
-SVGAnimatedBoolean
+DOMSVGAnimatedBoolean
 )
-SVGAnimatedBoolean
+DOMSVGAnimatedBoolean
 (
 SVGBoolean
 *
@@ -286,7 +286,7 @@ GetAnimValue
 protected
 :
 ~
-SVGAnimatedBoolean
+DOMSVGAnimatedBoolean
 (
 )
 ;
@@ -325,4 +325,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_SVGAnimatedBoolean_h
+mozilla_dom_DOMSVGAnimatedBoolean_h

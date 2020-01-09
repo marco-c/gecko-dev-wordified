@@ -484,10 +484,6 @@ mozilla_dom_SVGMatrix_h
 #
 include
 "
-mozilla
-/
-dom
-/
 DOMSVGTransform
 .
 h

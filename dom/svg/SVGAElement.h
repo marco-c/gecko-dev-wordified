@@ -469,7 +469,7 @@ override
 WebIDL
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 Href
 (
@@ -477,7 +477,7 @@ Href
 ;
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 Target
 (

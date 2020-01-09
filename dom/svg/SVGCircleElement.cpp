@@ -536,7 +536,7 @@ SVGCircleElement
 -
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGCircleElement
 :
@@ -559,7 +559,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGCircleElement
 :
@@ -582,7 +582,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGCircleElement
 :

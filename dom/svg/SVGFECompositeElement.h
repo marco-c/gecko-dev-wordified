@@ -353,7 +353,7 @@ override
 WebIDL
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 In1
 (
@@ -361,7 +361,7 @@ In1
 ;
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 In2
 (
@@ -369,7 +369,7 @@ In2
 ;
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 Operator
 (
@@ -377,7 +377,7 @@ Operator
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 K1
 (
@@ -385,7 +385,7 @@ K1
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 K2
 (
@@ -393,7 +393,7 @@ K2
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 K3
 (
@@ -401,7 +401,7 @@ K3
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 K4
 (

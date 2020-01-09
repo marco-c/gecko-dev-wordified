@@ -405,7 +405,7 @@ gradientTransform
 WebIDL
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 GradientUnits
 (
@@ -421,7 +421,7 @@ GradientTransform
 ;
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SpreadMethod
 (
@@ -429,7 +429,7 @@ SpreadMethod
 ;
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 Href
 (
@@ -663,7 +663,7 @@ override
 WebIDL
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 X1
 (
@@ -671,7 +671,7 @@ X1
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Y1
 (
@@ -679,7 +679,7 @@ Y1
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 X2
 (
@@ -687,7 +687,7 @@ X2
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Y2
 (
@@ -890,7 +890,7 @@ override
 WebIDL
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Cx
 (
@@ -898,7 +898,7 @@ Cx
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Cy
 (
@@ -906,7 +906,7 @@ Cy
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 R
 (
@@ -914,7 +914,7 @@ R
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Fx
 (
@@ -922,7 +922,7 @@ Fx
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Fy
 (
@@ -930,7 +930,7 @@ Fy
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Fr
 (

@@ -540,7 +540,7 @@ nsIDOMSVGFEBlendElement
 methods
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGFEBlendElement
 :
@@ -563,7 +563,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGFEBlendElement
 :
@@ -586,7 +586,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGFEBlendElement
 :

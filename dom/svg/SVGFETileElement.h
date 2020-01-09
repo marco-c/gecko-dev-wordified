@@ -350,7 +350,7 @@ override
 WebIDL
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 In1
 (

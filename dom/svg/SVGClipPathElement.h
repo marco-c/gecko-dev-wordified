@@ -277,7 +277,7 @@ override
 WebIDL
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 ClipPathUnits
 (

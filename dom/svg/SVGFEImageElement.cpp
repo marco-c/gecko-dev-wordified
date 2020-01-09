@@ -1441,7 +1441,7 @@ SVGFEImageElement
 )
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGFEImageElement
 :

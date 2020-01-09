@@ -795,7 +795,7 @@ this
 -
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGPatternElement
 :
@@ -818,7 +818,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGPatternElement
 :
@@ -895,7 +895,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGPatternElement
 :
@@ -918,7 +918,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGPatternElement
 :
@@ -941,7 +941,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGPatternElement
 :
@@ -964,7 +964,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGPatternElement
 :
@@ -987,7 +987,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGPatternElement
 :

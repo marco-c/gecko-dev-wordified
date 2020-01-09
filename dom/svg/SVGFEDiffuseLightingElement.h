@@ -311,7 +311,7 @@ override
 WebIDL
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 In1
 (
@@ -319,7 +319,7 @@ In1
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SurfaceScale
 (
@@ -327,7 +327,7 @@ SurfaceScale
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 DiffuseConstant
 (
@@ -335,7 +335,7 @@ DiffuseConstant
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 KernelUnitLengthX
 (
@@ -343,7 +343,7 @@ KernelUnitLengthX
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 KernelUnitLengthY
 (

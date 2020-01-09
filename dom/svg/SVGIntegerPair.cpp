@@ -889,7 +889,7 @@ mAttrEnum
 }
 already_AddRefed
 <
-SVGAnimatedInteger
+DOMSVGAnimatedInteger
 >
 SVGIntegerPair
 :

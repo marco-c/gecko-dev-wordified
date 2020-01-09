@@ -342,7 +342,7 @@ aNodeInfo
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGClipPathElement
 :

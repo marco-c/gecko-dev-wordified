@@ -329,7 +329,7 @@ SVGFEComponentTransferElement
 )
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGFEComponentTransferElement
 :

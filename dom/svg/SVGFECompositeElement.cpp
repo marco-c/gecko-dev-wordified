@@ -434,7 +434,7 @@ SVGFECompositeElement
 )
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGFECompositeElement
 :
@@ -457,7 +457,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGFECompositeElement
 :
@@ -480,7 +480,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGFECompositeElement
 :
@@ -503,7 +503,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFECompositeElement
 :
@@ -526,7 +526,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFECompositeElement
 :
@@ -549,7 +549,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFECompositeElement
 :
@@ -572,7 +572,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFECompositeElement
 :

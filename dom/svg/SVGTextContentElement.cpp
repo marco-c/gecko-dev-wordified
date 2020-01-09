@@ -390,7 +390,7 @@ textFrame
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGTextContentElement
 :
@@ -415,7 +415,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGTextContentElement
 :

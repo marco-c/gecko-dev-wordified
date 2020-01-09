@@ -439,7 +439,7 @@ SVGFEDropShadowElement
 -
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGFEDropShadowElement
 :
@@ -462,7 +462,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEDropShadowElement
 :
@@ -485,7 +485,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEDropShadowElement
 :
@@ -508,7 +508,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEDropShadowElement
 :
@@ -535,7 +535,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEDropShadowElement
 :

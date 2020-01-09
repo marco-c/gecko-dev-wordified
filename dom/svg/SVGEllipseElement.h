@@ -319,7 +319,7 @@ override
 WebIDL
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Cx
 (
@@ -327,7 +327,7 @@ Cx
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Cy
 (
@@ -335,7 +335,7 @@ Cy
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Rx
 (
@@ -343,7 +343,7 @@ Rx
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Ry
 (

@@ -310,7 +310,7 @@ override
 WebIDL
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 Azimuth
 (
@@ -318,7 +318,7 @@ Azimuth
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 Elevation
 (

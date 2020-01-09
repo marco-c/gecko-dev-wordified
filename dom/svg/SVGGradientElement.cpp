@@ -622,7 +622,7 @@ sStringInfo
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGGradientElement
 :
@@ -699,7 +699,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGGradientElement
 :
@@ -722,7 +722,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGGradientElement
 :
@@ -1303,7 +1303,7 @@ SVGLinearGradientElement
 -
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGLinearGradientElement
 :
@@ -1326,7 +1326,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGLinearGradientElement
 :
@@ -1349,7 +1349,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGLinearGradientElement
 :
@@ -1372,7 +1372,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGLinearGradientElement
 :
@@ -1985,7 +1985,7 @@ SVGRadialGradientElement
 -
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGRadialGradientElement
 :
@@ -2008,7 +2008,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGRadialGradientElement
 :
@@ -2031,7 +2031,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGRadialGradientElement
 :
@@ -2054,7 +2054,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGRadialGradientElement
 :
@@ -2077,7 +2077,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGRadialGradientElement
 :
@@ -2100,7 +2100,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGRadialGradientElement
 :

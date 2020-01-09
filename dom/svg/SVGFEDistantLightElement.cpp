@@ -481,7 +481,7 @@ Distant
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEDistantLightElement
 :
@@ -504,7 +504,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEDistantLightElement
 :

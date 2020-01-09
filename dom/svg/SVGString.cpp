@@ -416,7 +416,7 @@ mAttrEnum
 }
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGString
 :

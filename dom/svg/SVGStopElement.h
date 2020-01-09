@@ -282,7 +282,7 @@ override
 WebIDL
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 Offset
 (

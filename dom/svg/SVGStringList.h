@@ -453,7 +453,7 @@ method
 to
 /
 /
-SVGAnimatedStringList
+DOMSVGAnimatedStringList
 and
 having
 that

@@ -490,7 +490,7 @@ SVGFEDisplacementMapElement
 -
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGFEDisplacementMapElement
 :
@@ -513,7 +513,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGFEDisplacementMapElement
 :
@@ -536,7 +536,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEDisplacementMapElement
 :
@@ -559,7 +559,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGFEDisplacementMapElement
 :
@@ -582,7 +582,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGFEDisplacementMapElement
 :
