@@ -176,13 +176,11 @@ scalars
 =
 TelemetryTestUtils
 .
-getParentProcessScalars
+getProcessScalars
 (
-Ci
-.
-nsITelemetry
-.
-DATASET_RELEASE_CHANNEL_OPTIN
+"
+parent
+"
 )
 ;
 /
