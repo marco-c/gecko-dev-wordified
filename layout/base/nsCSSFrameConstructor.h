@@ -206,6 +206,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
