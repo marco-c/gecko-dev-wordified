@@ -345,8 +345,6 @@ PaymentRequestUpdateEvent
 (
 )
 ;
-private
-:
 /
 /
 Indicating

@@ -405,7 +405,6 @@ return
 this
 ;
 }
-virtual
 ~
 ResponseData
 (
