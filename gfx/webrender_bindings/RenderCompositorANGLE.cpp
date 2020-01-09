@@ -3252,7 +3252,7 @@ result
 layers
 :
 :
-WaitForGPUQuery
+WaitForFrameGPUQuery
 (
 mDevice
 mCtx

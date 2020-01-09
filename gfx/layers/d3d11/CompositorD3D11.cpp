@@ -7616,7 +7616,7 @@ mQuery
 BOOL
 result
 ;
-WaitForGPUQuery
+WaitForFrameGPUQuery
 (
 mDevice
 mContext
