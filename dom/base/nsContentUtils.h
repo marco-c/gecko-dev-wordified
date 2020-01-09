@@ -6736,8 +6736,6 @@ char
 classification
 bool
 aFromPrivateWindow
-bool
-aFromChromeContext
 )
 ;
 /

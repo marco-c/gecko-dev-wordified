@@ -1153,14 +1153,6 @@ get
 (
 )
 aFromPrivateWindow
-true
-/
-*
-from
-chrome
-context
-*
-/
 )
 ;
 }

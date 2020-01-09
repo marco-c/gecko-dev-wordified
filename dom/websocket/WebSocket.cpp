@@ -727,10 +727,6 @@ mPrivateBrowsing
 (
 false
 )
-mIsChromeContext
-(
-false
-)
 mIsMainThread
 (
 true
@@ -1235,9 +1231,6 @@ mInnerWindowID
 ;
 bool
 mPrivateBrowsing
-;
-bool
-mIsChromeContext
 ;
 RefPtr
 <
@@ -2038,7 +2031,6 @@ Web
 Socket
 "
 mPrivateBrowsing
-mIsChromeContext
 )
 ;
 }
@@ -8742,16 +8734,6 @@ OriginAttributesRef
 )
 .
 mPrivateBrowsingId
-;
-mIsChromeContext
-=
-nsContentUtils
-:
-:
-IsSystemPrincipal
-(
-aPrincipal
-)
 ;
 /
 /

@@ -938,14 +938,6 @@ private
 window
 *
 /
-true
-/
-*
-from
-chrome
-context
-*
-/
 )
 ;
 if

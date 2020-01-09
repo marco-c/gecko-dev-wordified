@@ -727,14 +727,6 @@ private
 window
 *
 /
-true
-/
-*
-from
-chrome
-context
-*
-/
 )
 ;
 console

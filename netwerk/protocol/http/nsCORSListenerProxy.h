@@ -376,8 +376,6 @@ uint64_t
 aInnerWindowID
 bool
 aPrivateBrowsing
-bool
-aFromChromeContext
 const
 nsAString
 &

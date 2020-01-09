@@ -248,17 +248,6 @@ aLine
 localstorage
 "
 false
-true
-/
-*
-Internal
-errors
-are
-chrome
-context
-only
-*
-/
 )
 ;
 }

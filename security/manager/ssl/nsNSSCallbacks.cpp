@@ -7900,14 +7900,6 @@ GetOriginAttributes
 )
 .
 mPrivateBrowsingId
-true
-/
-*
-from
-chrome
-context
-*
-/
 )
 ;
 }
