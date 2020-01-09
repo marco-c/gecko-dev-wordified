@@ -3666,16 +3666,10 @@ values
 :
                 
 if
+not
 value
 .
 filename
-:
-                    
-value
-=
-value
-                
-else
 :
                     
 value
