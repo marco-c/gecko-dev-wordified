@@ -843,6 +843,10 @@ EXT_color_buffer_half_float
 GLContext
 :
 :
+CHROMIUM_color_buffer_float_rgba
+GLContext
+:
+:
 Extensions_End
 }
 }
@@ -1839,6 +1843,10 @@ GLContext
 :
 :
 EXT_color_buffer_float
+GLContext
+:
+:
+CHROMIUM_color_buffer_float_rgba
 GLContext
 :
 :
