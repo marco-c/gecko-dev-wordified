@@ -758,6 +758,8 @@ F
 FnMut
 (
 &
+'
+static
 str
 )
 -

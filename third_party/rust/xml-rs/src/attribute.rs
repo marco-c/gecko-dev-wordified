@@ -286,10 +286,6 @@ a
 Attribute
 {
 name
-:
-name
-value
-:
 value
 }
 }
@@ -454,8 +450,6 @@ OwnedAttribute
 {
 OwnedAttribute
 {
-name
-:
 name
 value
 :

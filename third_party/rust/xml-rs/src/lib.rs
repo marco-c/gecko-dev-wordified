@@ -54,14 +54,6 @@ compliant
 pull
 parser
 .
-#
-[
-macro_use
-]
-extern
-crate
-bitflags
-;
 pub
 use
 reader
