@@ -3168,6 +3168,27 @@ calltype
 )
 :
         
+if
+self
+.
+name
+=
+=
+'
+nsresult
+'
+:
+            
+return
+'
+:
+:
+nserror
+:
+:
+nsresult
+'
+        
 return
 "
 %

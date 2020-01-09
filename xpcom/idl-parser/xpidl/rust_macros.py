@@ -206,6 +206,11 @@ ret
 '
 :
 '
+:
+:
+nserror
+:
+:
 nsresult
 '
     
