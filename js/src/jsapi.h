@@ -23749,15 +23749,6 @@ t
 safely
 be
 unwrapped
-*
-or
-if
-the
-promise
-isn
-'
-t
-pending
 .
 *
 /
