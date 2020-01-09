@@ -969,6 +969,10 @@ module
 exports
 )
 {
+window
+.
+bar
+=
 function
 bar
 (
@@ -989,6 +993,7 @@ resolve
 )
 ;
 }
+;
 /
 *
 *

@@ -125,7 +125,7 @@ column
 column
 |
 |
-undefined
+1
 }
 generatedLocation
 :
@@ -161,7 +161,7 @@ column
 column
 |
 |
-undefined
+1
 }
 astLocation
 :
