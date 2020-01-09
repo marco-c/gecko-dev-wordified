@@ -1813,6 +1813,9 @@ range
 '
 zip
 '
+'
+AssertionError
+'
 )
     
 }
