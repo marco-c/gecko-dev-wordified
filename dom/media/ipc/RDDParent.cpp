@@ -794,7 +794,7 @@ info
 .
 type
 =
-MacSandboxType_Plugin
+MacSandboxType_Utility
 ;
 info
 .
