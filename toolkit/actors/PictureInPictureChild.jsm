@@ -147,6 +147,13 @@ MozTogglePictureInPicture
 "
 :
 {
+if
+(
+event
+.
+isTrusted
+)
+{
 this
 .
 togglePictureInPicture
@@ -156,6 +163,7 @@ event
 target
 )
 ;
+}
 break
 ;
 }
