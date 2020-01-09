@@ -529,6 +529,11 @@ q
 =
 ab
 "
+keyword
+:
+"
+keyword
+"
 input
 :
 "
