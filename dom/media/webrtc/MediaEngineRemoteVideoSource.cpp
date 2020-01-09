@@ -1507,7 +1507,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 MediaEngineRemoteVideoSource
 :
 :
@@ -1641,9 +1641,6 @@ SourceMediaStream
 :
 ADDTRACK_QUEUED
 )
-;
-return
-NS_OK
 ;
 }
 nsresult
