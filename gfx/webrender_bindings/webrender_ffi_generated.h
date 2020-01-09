@@ -1114,6 +1114,12 @@ DropShadow
 ColorMatrix
 =
 10
+SrgbToLinear
+=
+11
+LinearToSrgb
+=
+12
 Sentinel
 /
 *
