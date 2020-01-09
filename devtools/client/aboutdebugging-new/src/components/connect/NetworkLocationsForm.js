@@ -451,7 +451,7 @@ button
 className
 :
 "
-primary
+default
 -
 button
 js

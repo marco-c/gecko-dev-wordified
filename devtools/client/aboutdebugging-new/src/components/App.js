@@ -998,7 +998,7 @@ path
 :
 "
 /
-setup
+connect
 "
 render
 :
@@ -1123,7 +1123,7 @@ to
 :
 "
 /
-setup
+connect
 "
 }
 )

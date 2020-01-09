@@ -331,7 +331,11 @@ skin
 /
 images
 /
-settings
+aboutdebugging
+-
+connect
+-
+icon
 .
 svg
 "
@@ -892,7 +896,7 @@ debugging
 -
 sidebar
 -
-setup
+connect
 "
 attrs
 :
@@ -926,13 +930,13 @@ CONNECT
 name
 :
 "
-Setup
+Connect
 "
 to
 :
 "
 /
-setup
+connect
 "
 }
 )
