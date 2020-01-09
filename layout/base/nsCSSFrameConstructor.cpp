@@ -25075,7 +25075,7 @@ RefPtr
 <
 ComputedStyle
 >
-outerSC
+outerStyle
 =
 mPresShell
 -
@@ -25166,7 +25166,7 @@ outerFrame
 NS_NewFlexContainerFrame
 (
 mPresShell
-outerSC
+outerStyle
 )
 ;
 InitAndRestoreFrame
@@ -25200,7 +25200,7 @@ outerFrame
 NS_NewGridContainerFrame
 (
 mPresShell
-outerSC
+outerStyle
 )
 ;
 InitAndRestoreFrame
@@ -25225,7 +25225,7 @@ innerFrame
 NS_NewBlockFormattingContext
 (
 mPresShell
-outerSC
+outerStyle
 )
 ;
 outerFrame
@@ -25236,7 +25236,7 @@ aState
 content
 container
 innerFrame
-outerSC
+outerStyle
 )
 ;
 break
@@ -25251,7 +25251,7 @@ innerFrame
 NS_NewBlockFormattingContext
 (
 mPresShell
-outerSC
+outerStyle
 )
 ;
 InitAndRestoreFrame
@@ -25301,7 +25301,7 @@ container
 auto
 outerDisplay
 =
-outerSC
+outerStyle
 -
 >
 StyleDisplay
