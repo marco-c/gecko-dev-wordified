@@ -235,11 +235,6 @@ logger
 debug
 (
 "
-%
-s
-"
-%
-"
 "
 .
 join

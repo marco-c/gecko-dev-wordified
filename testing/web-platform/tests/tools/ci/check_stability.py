@@ -764,11 +764,6 @@ logger
 debug
 (
 "
-%
-s
-"
-%
-"
 "
 .
 join
