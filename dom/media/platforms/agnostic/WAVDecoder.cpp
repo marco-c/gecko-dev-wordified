@@ -1011,7 +1011,6 @@ aSample
 >
 mTime
 duration
-frames
 std
 :
 :

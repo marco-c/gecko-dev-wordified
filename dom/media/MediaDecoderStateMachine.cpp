@@ -9213,7 +9213,6 @@ GetTime
 (
 )
 duration
-frames
 std
 :
 :

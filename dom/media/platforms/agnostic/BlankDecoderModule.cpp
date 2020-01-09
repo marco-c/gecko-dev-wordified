@@ -972,14 +972,6 @@ aSample
 -
 >
 mDuration
-uint32_t
-(
-frames
-.
-value
-(
-)
-)
 std
 :
 :

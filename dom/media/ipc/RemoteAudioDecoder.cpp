@@ -317,11 +317,6 @@ duration
 (
 )
 )
-aData
-.
-frames
-(
-)
 std
 :
 :
@@ -913,12 +908,6 @@ audio
 -
 >
 mRate
-audio
--
->
-Frames
-(
-)
 audio
 -
 >

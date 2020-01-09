@@ -2197,8 +2197,6 @@ media
 TimeUnit
 &
 aDuration
-uint32_t
-aFrames
 AlignedAudioBuffer
 &
 &
@@ -2259,14 +2257,6 @@ Length
 aChannels
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
-(
-mFrames
-=
-=
-aFrames
-)
-;
 }
 static
 const

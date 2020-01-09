@@ -2074,10 +2074,6 @@ AudioData
 samplePosition
 pts
 duration
-mFrame
--
->
-nb_samples
 std
 :
 :
