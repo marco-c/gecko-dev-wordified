@@ -342,7 +342,7 @@ client
 DebuggerClient
 WorkerTargetFront
 or
-BrowsingContextFront
+BrowsingContextTargetFront
 *
 The
 parent

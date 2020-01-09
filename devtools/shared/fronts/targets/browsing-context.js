@@ -126,7 +126,7 @@ client
 )
 ;
 const
-BrowsingContextFront
+BrowsingContextTargetFront
 =
 protocol
 .
@@ -612,7 +612,7 @@ workerTargetActor
 ;
 exports
 .
-BrowsingContextFront
+BrowsingContextTargetFront
 =
-BrowsingContextFront
+BrowsingContextTargetFront
 ;
