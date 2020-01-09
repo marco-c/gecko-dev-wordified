@@ -123,6 +123,8 @@ CompositorWidget
 *
 aCompositorWidget
 bool
+aWebRender
+bool
 aForceAccelerated
 )
 {

@@ -198,6 +198,17 @@ GLContextProvider
 CreateForCompositorWidget
 (
 aWidget
+/
+*
+aWebRender
+*
+/
+true
+/
+*
+aForceAccelerated
+*
+/
 true
 )
 ;
