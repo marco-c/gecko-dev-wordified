@@ -292,6 +292,11 @@ get
 (
 )
 aWriter
+NS_LITERAL_CSTRING
+(
+"
+"
+)
 aProcessStartTime
 /
 *
