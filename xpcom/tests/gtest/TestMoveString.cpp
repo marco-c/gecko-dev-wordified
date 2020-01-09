@@ -1821,4 +1821,4 @@ OLD_VAL
 /
 /
 namespace
-TestStrings
+TestMoveString

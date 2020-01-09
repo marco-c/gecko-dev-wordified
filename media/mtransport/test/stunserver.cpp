@@ -3628,5 +3628,5 @@ it
 }
 /
 /
-close
 namespace
+mozilla

@@ -778,7 +778,15 @@ mDealloced
 }
 ;
 }
+/
+/
+namespace
+_ipdltest
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

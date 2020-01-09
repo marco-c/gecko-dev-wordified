@@ -547,6 +547,8 @@ expected
 .
 Do
 not
+"
+"
 panic
 .
 \

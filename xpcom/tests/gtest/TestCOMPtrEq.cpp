@@ -142,11 +142,12 @@ define
 NS_ICOMPTREQTESTFOO_IID
 \
 {
+\
 0x8eb5bbef
 0xd1a3
 0x4659
-\
 {
+\
 0x9c
 0xf6
 0xfd
@@ -155,7 +156,9 @@ NS_ICOMPTREQTESTFOO_IID
 0xd2
 0x00
 0x0e
+\
 }
+\
 }
 class
 nsICOMPtrEqTestFoo

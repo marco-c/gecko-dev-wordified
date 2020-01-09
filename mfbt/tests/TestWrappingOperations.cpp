@@ -155,13 +155,13 @@ using
 mozilla
 :
 :
-WrapToSigned
+WrappingSubtract
 ;
 using
 mozilla
 :
 :
-WrappingSubtract
+WrapToSigned
 ;
 /
 /
@@ -1900,6 +1900,8 @@ uint64_t
 3146492712
 is
 18446744073709551616
+"
+"
 +
 28947472482084
 "

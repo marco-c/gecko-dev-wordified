@@ -973,9 +973,6 @@ IPDLUnitTestName
 /
 /
 namespace
-<
-anon
->
 /
 /
 -

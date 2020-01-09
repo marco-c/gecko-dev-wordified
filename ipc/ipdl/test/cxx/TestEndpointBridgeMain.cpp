@@ -1561,9 +1561,9 @@ this
 /
 /
 namespace
-mozilla
+_ipdltest
 }
 /
 /
 namespace
-_ipdltest
+mozilla

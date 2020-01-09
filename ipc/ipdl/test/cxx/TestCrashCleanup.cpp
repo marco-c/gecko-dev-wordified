@@ -354,9 +354,6 @@ __FILE__
 /
 /
 namespace
-<
-anon
->
 TestCrashCleanupParent
 :
 :

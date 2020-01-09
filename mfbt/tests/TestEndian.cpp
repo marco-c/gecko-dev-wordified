@@ -485,7 +485,6 @@ T
 >
 \
 void
-\
 NAME
 (
 void
@@ -498,7 +497,6 @@ aSrc
 size_t
 aCount
 )
-\
 {
 \
 NativeEndian
@@ -542,7 +540,6 @@ T
 >
 \
 void
-\
 NAME
 (
 T
@@ -555,7 +552,6 @@ aSrc
 size_t
 aCount
 )
-\
 {
 \
 NativeEndian
@@ -599,7 +595,6 @@ T
 >
 \
 void
-\
 NAME
 (
 T
@@ -608,7 +603,6 @@ aP
 size_t
 aCount
 )
-\
 {
 \
 NativeEndian
@@ -1497,7 +1491,6 @@ Reader
 <
 TYPE
 >
-\
 {
 \
 static

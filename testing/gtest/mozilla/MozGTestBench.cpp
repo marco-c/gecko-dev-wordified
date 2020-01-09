@@ -588,4 +588,5 @@ endif
 }
 /
 /
+namespace
 mozilla

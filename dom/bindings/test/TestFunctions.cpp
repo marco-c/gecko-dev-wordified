@@ -853,4 +853,12 @@ aWrapper
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

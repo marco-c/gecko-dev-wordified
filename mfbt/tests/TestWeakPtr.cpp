@@ -202,6 +202,8 @@ use
 after
 -
 free
+/
+/
 below
 mNum
 =
@@ -554,11 +556,11 @@ destroy
 the
 object
 that
+/
+/
 it
 points
 to
-/
-/
 and
 it
 does
@@ -570,6 +572,8 @@ pointing
 to
 the
 same
+/
+/
 object
 (
 e
@@ -579,8 +583,6 @@ g
 it
 does
 not
-/
-/
 destroy
 the
 WeakReference
@@ -622,11 +624,11 @@ destroyed
 c1
 then
 the
+/
+/
 following
 would
 fail
-/
-/
 for
 sure
 (
@@ -668,6 +670,8 @@ other
 WeakPtr
 '
 s
+/
+/
 pointing
 to
 c1
@@ -701,6 +705,8 @@ what
 object
 a
 WeakPtr
+/
+/
 points
 to
 C
@@ -861,6 +867,8 @@ WeakPtr
 that
 are
 not
+"
+"
 pointing
 to
 it

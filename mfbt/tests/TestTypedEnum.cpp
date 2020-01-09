@@ -188,6 +188,8 @@ doesn
 '
 t
 have
+/
+/
 std
 :
 :
@@ -259,6 +261,7 @@ __has_extension
 #
 define
 __has_extension
+\
 __has_feature
 /
 *

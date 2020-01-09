@@ -1100,6 +1100,10 @@ mListTwo
 }
 ;
 }
+/
+/
+namespace
+mozilla
 static
 void
 TestCustomAccessor

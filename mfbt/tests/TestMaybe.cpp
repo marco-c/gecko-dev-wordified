@@ -246,7 +246,6 @@ if
 !
 cond
 )
-\
 return
 1
 ;
@@ -281,7 +280,6 @@ if
 !
 cond
 )
-\
 return
 1
 ;

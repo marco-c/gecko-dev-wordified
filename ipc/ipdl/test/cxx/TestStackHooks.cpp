@@ -422,6 +422,9 @@ RunTests
 ;
 }
 }
+/
+/
+namespace
 mozilla
 :
 :

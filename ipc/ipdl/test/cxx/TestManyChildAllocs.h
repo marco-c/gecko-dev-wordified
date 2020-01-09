@@ -357,7 +357,7 @@ TestManyChildAllocsSubChild
 }
 /
 /
-namepsace
+namespace
 _ipdltest
 }
 /

@@ -2351,7 +2351,7 @@ using
 mozilla
 :
 :
-TestNrSocketTest
+NrSocketBase
 ;
 using
 mozilla
@@ -2363,7 +2363,7 @@ using
 mozilla
 :
 :
-NrSocketBase
+TestNrSocketTest
 ;
 TEST_F
 (

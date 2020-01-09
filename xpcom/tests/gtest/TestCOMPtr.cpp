@@ -123,11 +123,12 @@ define
 NS_IFOO_IID
 \
 {
+\
 0x6f7652e0
 0xee43
 0x11d1
-\
 {
+\
 0x9c
 0xc3
 0x00
@@ -136,7 +137,9 @@ NS_IFOO_IID
 0x8c
 0xa6
 0xb3
+\
 }
+\
 }
 namespace
 TestCOMPtr
@@ -566,11 +569,12 @@ define
 NS_IBAR_IID
 \
 {
+\
 0x6f7652e1
 0xee43
 0x11d1
-\
 {
+\
 0x9c
 0xc3
 0x00
@@ -579,7 +583,9 @@ NS_IBAR_IID
 0x8c
 0xa6
 0xb3
+\
 }
+\
 }
 class
 IBar
@@ -1206,6 +1212,8 @@ to
 AddRef
 |
 by
+/
+/
 hand
 ?
 /
@@ -1238,6 +1246,8 @@ to
 Release
 |
 be
+/
+/
 hand
 ?
 /
@@ -1270,6 +1280,8 @@ to
 delete
 |
 an
+/
+/
 |
 nsCOMPtr
 |

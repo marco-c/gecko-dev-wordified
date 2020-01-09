@@ -427,6 +427,8 @@ nsThread
 ProcessNextEvent
 is
 called
+/
+/
 recursively
 nsCOMPtr
 <

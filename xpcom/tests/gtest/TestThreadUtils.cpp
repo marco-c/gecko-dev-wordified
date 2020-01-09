@@ -1155,6 +1155,8 @@ no
 move
 )
 function
+"
+"
 copies
 "
 copyCounter
@@ -1247,6 +1249,8 @@ no
 move
 )
 function
+"
+"
 rvalue
 copies
 "
@@ -1318,6 +1322,8 @@ and
 deleted
 move
 )
+"
+"
 function
 copies
 "
@@ -1801,6 +1807,8 @@ no
 move
 )
 capture
+"
+"
 copies
 "
 copyCounter
@@ -1911,6 +1919,8 @@ deleted
 move
 )
 capture
+"
+"
 copies
 "
 copyCounter
@@ -2047,6 +2057,8 @@ local
 -
 >
 runnable
+/
+/
 lambda
 )
 .
@@ -2214,6 +2226,8 @@ on
 to
 whatever
 they
+/
+/
 need
 {
 RefPtr
@@ -4018,10 +4032,10 @@ true
 '
 in
 MayStopProcessing
+/
+/
 callback
 .
-/
-/
 The
 strategy
 is
@@ -4034,9 +4048,9 @@ as
 possible
 so
 that
-/
-/
 we
+/
+/
 are
 more
 probable
@@ -4459,11 +4473,12 @@ define
 NS_IFOO_IID
 \
 {
+\
 0x9e70a320
 0xbe02
 0x11d1
-\
 {
+\
 0x80
 0x31
 0x00
@@ -4472,7 +4487,9 @@ NS_IFOO_IID
 0x15
 0x9b
 0x5a
+\
 }
+\
 }
 TEST
 (
@@ -5491,6 +5508,8 @@ Type
 should
 be
 const
+"
+"
 volatile
 int
 "
@@ -5668,6 +5687,8 @@ int
 Type
 should
 be
+"
+"
 int
 "
 )
@@ -5844,6 +5865,8 @@ int
 Type
 should
 be
+"
+"
 int
 "
 )
@@ -6356,6 +6379,8 @@ from
 ;
 0
 when
+/
+/
 destroyed
 .
 }
@@ -7754,6 +7779,8 @@ be
 recognized
 as
 Storage
+"
+"
 Class
 "
 )
@@ -8150,6 +8177,8 @@ int
 Type
 should
 be
+"
+"
 StoreCopyPassByConstLRef
 <
 int
@@ -8201,6 +8230,8 @@ int
 :
 :
 Type
+"
+"
 should
 be
 StoreCopyPassByValue
@@ -8673,6 +8704,8 @@ const
 Type
 should
 be
+"
+"
 StorePtrPassByPtr
 <
 int
@@ -8724,6 +8757,8 @@ volatile
 Type
 should
 be
+"
+"
 StorePtrPassByPtr
 <
 int
@@ -8777,6 +8812,8 @@ volatile
 Type
 should
 be
+"
+"
 StorePtrPassByPtr
 <
 int
@@ -8999,6 +9036,8 @@ int
 Type
 should
 be
+"
+"
 StoreConstPtrPassByConstPtr
 <
 int
@@ -9052,6 +9091,8 @@ const
 Type
 should
 be
+"
+"
 StoreConstPtrPassByConstPtr
 <
 int
@@ -9105,6 +9146,8 @@ volatile
 Type
 should
 be
+"
+"
 StoreConstPtrPassByConstPtr
 <
 int
@@ -9158,6 +9201,8 @@ volatile
 :
 :
 Type
+"
+"
 should
 be
 StoreConstPtrPassByConstPtr
@@ -9217,6 +9262,8 @@ stored_type
 should
 be
 const
+"
+"
 int
 *
 "
@@ -9272,6 +9319,8 @@ passed_type
 should
 be
 const
+"
+"
 int
 *
 "
@@ -9667,6 +9716,8 @@ SpyWithISupports
 :
 Type
 should
+"
+"
 be
 StoreRefPtrPassByPtr
 <
@@ -9714,6 +9765,8 @@ SpyWithISupports
 Type
 should
 be
+"
+"
 StoreRefPtrPassByPtr
 <
 SpyWithISupports
@@ -9753,6 +9806,8 @@ SpyWithISupports
 stored_type
 should
 be
+"
+"
 RefPtr
 <
 SpyWithISupports
@@ -9790,6 +9845,8 @@ SpyWithISupports
 passed_type
 should
 be
+"
+"
 SpyWithISupports
 *
 "
@@ -9884,6 +9941,8 @@ ThreadUtilsRefCountedFinal
 Type
 should
 be
+"
+"
 StoreRefPtrPassByPtr
 <
 ThreadUtilsRefCountedFinal
@@ -9957,6 +10016,8 @@ ThreadUtilsRefCountedBase
 Type
 should
 be
+"
+"
 StoreRefPtrPassByPtr
 <
 ThreadUtilsRefCountedBase
@@ -10030,6 +10091,8 @@ ThreadUtilsRefCountedDerived
 Type
 should
 be
+"
+"
 StoreRefPtrPassByPtr
 <
 ThreadUtilsRefCountedDerived
@@ -10108,6 +10171,8 @@ ThreadUtilsNonRefCounted
 Type
 should
 NOT
+"
+"
 be
 StoreRefPtrPassByPtr
 <
@@ -10215,6 +10280,8 @@ Type
 stored_type
 should
 be
+"
+"
 StoreRefPassByLRef
 <
 int
@@ -10495,6 +10562,8 @@ Type
 stored_type
 should
 be
+"
+"
 StoreCopyPassByRRef
 <
 int
@@ -10749,6 +10818,8 @@ int
 Type
 should
 be
+"
+"
 StoreCopyPassByRRef
 <
 UniquePtr
@@ -10824,6 +10895,8 @@ Type
 stored_type
 should
 be
+"
+"
 StoreCopyPassByRRef
 <
 UniquePtr
@@ -10896,6 +10969,8 @@ Type
 stored_type
 should
 be
+"
+"
 UniquePtr
 <
 int
@@ -10964,6 +11039,8 @@ Type
 passed_type
 should
 be
+"
+"
 UniquePtr
 <
 int
@@ -11076,6 +11153,8 @@ StoreCopyPassByRRef
 T
 >
 "
+/
+/
 syntax
 .
 static_assert
@@ -11142,7 +11221,10 @@ int
 Type
 :
 :
-stored_type
+stored_
+"
+"
+type
 should
 be
 StoreCopyPassByRRef
@@ -11222,7 +11304,10 @@ int
 Type
 :
 :
-stored_type
+stored_
+"
+"
+type
 should
 be
 StoreCopyPassByRRef
@@ -11296,7 +11381,10 @@ int
 Type
 :
 :
-stored_type
+stored_
+"
+"
+type
 should
 be
 UniquePtr
@@ -11366,7 +11454,10 @@ int
 Type
 :
 :
-passed_type
+passed_
+"
+"
+type
 should
 be
 UniquePtr
@@ -11939,6 +12030,8 @@ d
 -
 r2
 =
+"
+"
 NewRunnableMethod
 <
 StoreCopyPassByValue
@@ -12239,6 +12332,8 @@ d
 -
 r3
 =
+"
+"
 NewRunnableMethod
 <
 StoreCopyPassByValue
@@ -12249,6 +12344,8 @@ Spy
 (
 &
 TestByValue
+"
+"
 Spy
 (
 11
@@ -12780,6 +12877,8 @@ d
 -
 r5
 =
+"
+"
 NewRunnableMethod
 <
 StoreCopyPassByConstLRef
@@ -12790,6 +12889,8 @@ Spy
 (
 &
 TestByConstLRef
+"
+"
 s
 )
 \
@@ -13080,6 +13181,8 @@ d
 -
 r6
 =
+"
+"
 NewRunnableMethod
 <
 StoreCopyPassByConstLRef
@@ -13090,6 +13193,8 @@ Spy
 (
 &
 TestByConstLRef
+"
+"
 Spy
 (
 21
@@ -13402,6 +13507,8 @@ d
 -
 r7
 =
+"
+"
 NewRunnableMethod
 <
 StoreCopyPassByRRef
@@ -13736,6 +13843,8 @@ Spy
 (
 &
 TestByRRef
+"
+"
 Spy
 (
 31
@@ -14417,6 +14526,8 @@ d
 -
 r10
 =
+"
+"
 NewRunnableMethod
 <
 StoreRefPtrPassByPtr
@@ -14427,6 +14538,8 @@ Spy
 (
 &
 TestByRRef
+"
+"
 s
 .
 get

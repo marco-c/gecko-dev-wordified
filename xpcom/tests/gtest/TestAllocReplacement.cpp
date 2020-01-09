@@ -927,6 +927,8 @@ measurements
 /
 /
 See
+/
+/
 <
 https
 :
@@ -1178,6 +1180,7 @@ ALLOCATION_ASSERT
 (
 ValidateHookedAllocation
 (
+\
 lambda
 [
 ]
@@ -1187,7 +1190,6 @@ void
 p
 )
 {
-\
 HeapFree
 (
 GetProcessHeap
@@ -1197,7 +1199,6 @@ GetProcessHeap
 p
 )
 ;
-\
 }
 )
 )

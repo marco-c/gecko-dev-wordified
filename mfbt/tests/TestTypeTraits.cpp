@@ -148,7 +148,6 @@ test
 type
 __VA_ARGS__
 )
-\
 test
 (
 const
@@ -162,7 +161,6 @@ volatile
 type
 __VA_ARGS__
 )
-\
 test
 (
 const
@@ -199,12 +197,6 @@ mozilla
 :
 :
 DeclVal
-;
-using
-mozilla
-:
-:
-IsFunction
 ;
 using
 mozilla
@@ -247,6 +239,12 @@ mozilla
 :
 :
 IsEmpty
+;
+using
+mozilla
+:
+:
+IsFunction
 ;
 using
 mozilla
@@ -1471,6 +1469,7 @@ ASSERT_IS_NOT_MEMBER_POINTER
 }
 /
 /
+namespace
 CPlusPlus11IsMemberPointer
 namespace
 CPlusPlus11IsScalar
@@ -1645,6 +1644,7 @@ ASSERT_IS_NOT_SCALAR
 }
 /
 /
+namespace
 CPlusPlus11IsScalar
 struct
 S1
@@ -4915,6 +4915,8 @@ struct
 without
 a
 default
+"
+"
 constructor
 "
 )

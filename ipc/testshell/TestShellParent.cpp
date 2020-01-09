@@ -126,7 +126,7 @@ mozilla
 ipc
 :
 :
-TestShellParent
+PTestShellCommandParent
 ;
 using
 mozilla
@@ -144,7 +144,7 @@ mozilla
 ipc
 :
 :
-PTestShellCommandParent
+TestShellParent
 ;
 void
 TestShellParent

@@ -157,11 +157,12 @@ define
 NS_IFOO_IID
 \
 {
+\
 0x9e70a320
 0xbe02
 0x11d1
-\
 {
+\
 0x80
 0x31
 0x00
@@ -170,7 +171,9 @@ NS_IFOO_IID
 0x15
 0x9b
 0x5a
+\
 }
+\
 }
 class
 IFoo
@@ -338,11 +341,12 @@ define
 NS_IBAR_IID
 \
 {
+\
 0x0e70a320
 0xbe02
 0x11d1
-\
 {
+\
 0x80
 0x31
 0x00
@@ -351,7 +355,9 @@ NS_IBAR_IID
 0x15
 0x9b
 0x5a
+\
 }
+\
 }
 class
 IBar

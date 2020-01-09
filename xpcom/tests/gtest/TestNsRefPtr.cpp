@@ -149,11 +149,12 @@ define
 NS_FOO_IID
 \
 {
+\
 0x6f7652e0
 0xee43
 0x11d1
-\
 {
+\
 0x9c
 0xc3
 0x00
@@ -162,7 +163,9 @@ NS_FOO_IID
 0x8c
 0xa6
 0xb3
+\
 }
+\
 }
 class
 Foo
@@ -660,11 +663,12 @@ define
 NS_BAR_IID
 \
 {
+\
 0x6f7652e1
 0xee43
 0x11d1
-\
 {
+\
 0x9c
 0xc3
 0x00
@@ -673,7 +677,9 @@ NS_BAR_IID
 0x8c
 0xa6
 0xb3
+\
 }
+\
 }
 class
 Bar
@@ -1066,6 +1072,8 @@ to
 AddRef
 |
 by
+/
+/
 hand
 ?
 /
@@ -1098,6 +1106,8 @@ to
 Release
 |
 be
+/
+/
 hand
 ?
 /
@@ -1130,6 +1140,8 @@ to
 delete
 |
 an
+/
+/
 |
 nsCOMPtr
 |
@@ -2007,6 +2019,7 @@ count
 \
 }
 \
+\
 protected
 :
 \
@@ -2019,6 +2032,7 @@ mozilla
 ThreadSafeAutoRefCnt
 mRefCnt
 ;
+\
 \
 public
 :
@@ -2175,6 +2189,8 @@ non
 -
 const
 method
+/
+/
 on
 an
 |
@@ -2216,6 +2232,8 @@ RefPtr
 <
 T
 >
+/
+/
 from
 an
 |

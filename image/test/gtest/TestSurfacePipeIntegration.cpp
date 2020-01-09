@@ -1422,6 +1422,8 @@ through
 to
 the
 underlying
+/
+/
 pipeline
 .
 {
@@ -2045,6 +2047,8 @@ through
 to
 the
 underlying
+/
+/
 pipeline
 .
 {
@@ -2824,6 +2828,8 @@ when
 dealing
 with
 Lanczos
+/
+/
 downscaling
 .
 auto

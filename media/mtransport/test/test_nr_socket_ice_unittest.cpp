@@ -2513,3 +2513,7 @@ kDefaultTimeout
 ;
 }
 }
+/
+/
+namespace
+mozilla

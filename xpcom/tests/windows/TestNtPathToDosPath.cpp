@@ -1186,9 +1186,9 @@ whose
 drive
 letter
 mapping
+/
+/
 has
-/
-/
 changed
 .
 We
@@ -1201,9 +1201,9 @@ the
 APIs
 called
 by
+/
+/
 NtPathToDosPath
-/
-/
 return
 different
 info

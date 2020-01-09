@@ -1245,3 +1245,7 @@ int32_t
 ;
 }
 }
+/
+/
+namespace
+TestAtoms

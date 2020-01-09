@@ -162,13 +162,13 @@ using
 mozilla
 :
 :
-IsSame
+DeclVal
 ;
 using
 mozilla
 :
 :
-DeclVal
+IsSame
 ;
 /
 *
@@ -496,6 +496,10 @@ sum
 }
 ;
 }
+/
+/
+namespace
+TestNsDeque
 using
 namespace
 TestNsDeque
@@ -1849,6 +1853,8 @@ we
 re
 interested
 in
+/
+/
 whether
 :
 /

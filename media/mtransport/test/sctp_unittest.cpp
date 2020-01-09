@@ -605,6 +605,7 @@ __Userspace_os_Windows
 )
 &
 &
+\
 !
 defined
 (
@@ -677,6 +678,7 @@ __Userspace_os_Windows
 )
 &
 &
+\
 !
 defined
 (

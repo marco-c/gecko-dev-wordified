@@ -2901,9 +2901,9 @@ the
 size
 of
 the
+*
 image
 .
-*
 Defaults
 to
 the

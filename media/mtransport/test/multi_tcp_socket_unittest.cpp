@@ -1966,6 +1966,9 @@ ice_ctx_
 }
 ;
 }
+/
+/
+namespace
 TEST_F
 (
 MultiTcpSocketTest

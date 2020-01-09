@@ -516,6 +516,9 @@ fired_
 }
 ;
 }
+/
+/
+namespace
 TEST_F
 (
 TimerTest

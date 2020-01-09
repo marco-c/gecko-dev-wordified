@@ -137,7 +137,15 @@ h
 }
 ;
 }
+/
+/
+namespace
+_ipdltest
 }
+/
+/
+namespace
+mozilla
 namespace
 IPC
 {
@@ -283,6 +291,10 @@ h
 }
 ;
 }
+/
+/
+namespace
+IPC
 #
 endif
 /

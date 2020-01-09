@@ -3529,6 +3529,8 @@ MyRefType
 >
 should
 return
+"
+"
 NotNull
 <
 RefPtr

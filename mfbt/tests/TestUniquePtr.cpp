@@ -212,13 +212,13 @@ using
 mozilla
 :
 :
-UniquePtr
+UniqueFreePtr
 ;
 using
 mozilla
 :
 :
-UniqueFreePtr
+UniquePtr
 ;
 using
 mozilla

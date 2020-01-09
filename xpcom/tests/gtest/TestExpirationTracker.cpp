@@ -1190,6 +1190,7 @@ DECL_TEST
 (
 name
 )
+\
 {
 #
 name

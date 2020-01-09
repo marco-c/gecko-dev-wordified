@@ -290,6 +290,8 @@ SOFTWARE
 /
 Adapted
 from
+/
+/
 https
 :
 /
@@ -850,6 +852,7 @@ value
 #
 define
 SLICE_CONST_INT_PTR_PTR
+\
 reinterpret_cast
 <
 const
@@ -910,6 +913,9 @@ BaseClass
 }
 ;
 }
+/
+/
+namespace
 void
 AssertSpanOfThreeInts
 (
@@ -2728,6 +2734,8 @@ which
 asserts
 on
 MSVC
+/
+/
 debug
 builds
 /
@@ -2794,6 +2802,8 @@ which
 asserts
 on
 MSVC
+/
+/
 debug
 builds
 /
@@ -2941,6 +2951,8 @@ which
 asserts
 on
 MSVC
+/
+/
 debug
 builds
 /

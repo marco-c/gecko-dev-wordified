@@ -156,6 +156,8 @@ weak
 pointers
 inherit
 from
+/
+/
 SupportsThreadSafeWeakPtr
 <
 C
@@ -215,6 +217,8 @@ use
 after
 -
 free
+/
+/
 below
 mNum
 =
@@ -439,13 +443,13 @@ does
 not
 destroy
 the
+/
+/
 object
 that
 it
 points
 to
-/
-/
 and
 it
 does
@@ -453,6 +457,8 @@ not
 affect
 other
 ThreadSafeWeakPtrs
+/
+/
 pointing
 to
 the
@@ -466,10 +472,10 @@ g
 it
 does
 not
-/
-/
 destroy
 the
+/
+/
 ThreadSafeWeakReference
 object
 )
@@ -510,11 +516,11 @@ destroyed
 c1
 then
 the
+/
+/
 following
 would
 fail
-/
-/
 for
 sure
 (
@@ -553,6 +559,8 @@ hasn
 t
 affected
 other
+/
+/
 ThreadSafeWeakPtr
 '
 s
@@ -588,6 +596,8 @@ changing
 what
 object
 a
+/
+/
 ThreadSafeWeakPtr
 points
 to
@@ -758,6 +768,8 @@ should
 not
 clear
 ThreadSafeWeakPtr
+"
+"
 that
 are
 not

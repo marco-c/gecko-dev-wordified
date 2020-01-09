@@ -182,9 +182,6 @@ QuitParent
 /
 /
 namespace
-<
-anon
->
 TestInterruptShutdownRaceParent
 :
 :
