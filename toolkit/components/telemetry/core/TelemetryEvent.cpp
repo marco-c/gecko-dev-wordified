@@ -1147,6 +1147,11 @@ const
 uint32_t
 kEventCount
 =
+static_cast
+<
+uint32_t
+>
+(
 mozilla
 :
 :
@@ -1157,6 +1162,7 @@ EventID
 :
 :
 EventCount
+)
 ;
 /
 /
