@@ -421,13 +421,6 @@ location
 )
 .
 isRequired
-wifiEnabled
-:
-PropTypes
-.
-bool
-.
-isRequired
 }
 ;
 }
