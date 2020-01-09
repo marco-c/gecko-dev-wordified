@@ -940,9 +940,6 @@ collector
 ]
 )
 ;
-const
-results
-=
 await
 Promise
 .
