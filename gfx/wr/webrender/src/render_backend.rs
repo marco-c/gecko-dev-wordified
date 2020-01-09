@@ -871,6 +871,7 @@ the
 next
 frame
 .
+pub
 fn
 advance
 (
