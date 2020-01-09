@@ -134,6 +134,12 @@ defined
 (
 WEBRTC_LINUX
 )
+|
+|
+defined
+(
+WEBRTC_BSD
+)
 #
 include
 <
@@ -236,6 +242,12 @@ WEBRTC_LINUX
 defined
 (
 WEBRTC_ANDROID
+)
+|
+|
+defined
+(
+WEBRTC_BSD
 )
 number_of_cores
 =

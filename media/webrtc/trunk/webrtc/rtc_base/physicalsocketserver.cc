@@ -421,6 +421,13 @@ WEBRTC_MAC
 !
 defined
 (
+WEBRTC_BSD
+)
+&
+&
+!
+defined
+(
 __native_client__
 )
 int64_t
@@ -3773,7 +3780,7 @@ WEBRTC_MAC
 |
 defined
 (
-BSD
+WEBRTC_BSD
 )
 |
 |
