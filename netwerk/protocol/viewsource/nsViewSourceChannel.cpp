@@ -3656,7 +3656,7 @@ NS_IMETHODIMP
 nsViewSourceChannel
 :
 :
-GetIsTrackingResource
+IsTrackingResource
 (
 bool
 *
@@ -3672,7 +3672,7 @@ NS_ERROR_NULL_POINTER
 mHttpChannel
 -
 >
-GetIsTrackingResource
+IsTrackingResource
 (
 aIsTrackingResource
 )
@@ -3682,7 +3682,7 @@ NS_IMETHODIMP
 nsViewSourceChannel
 :
 :
-GetIsThirdPartyTrackingResource
+IsThirdPartyTrackingResource
 (
 bool
 *
@@ -3698,7 +3698,7 @@ NS_ERROR_NULL_POINTER
 mHttpChannel
 -
 >
-GetIsThirdPartyTrackingResource
+IsThirdPartyTrackingResource
 (
 aIsTrackingResource
 )

@@ -8696,7 +8696,7 @@ if
 aChannel
 -
 >
-GetIsThirdPartyTrackingResource
+IsThirdPartyTrackingResource
 (
 )
 )

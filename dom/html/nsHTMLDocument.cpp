@@ -6480,7 +6480,7 @@ isTracking
 docHTTPChannel
 -
 >
-GetIsTrackingResource
+IsTrackingResource
 (
 )
 ;

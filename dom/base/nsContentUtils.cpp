@@ -51423,7 +51423,7 @@ return
 httpChannel
 -
 >
-GetIsTrackingResource
+IsTrackingResource
 (
 )
 ;
@@ -51499,7 +51499,7 @@ return
 httpChannel
 -
 >
-GetIsThirdPartyTrackingResource
+IsThirdPartyTrackingResource
 (
 )
 ;
