@@ -3300,6 +3300,8 @@ git
 '
 )
 state_dir
+                              
+checkout_root
 )
         
 #
