@@ -1294,6 +1294,7 @@ byteLength
 (
 )
 ;
+constexpr
 size_t
 headerSize
 =
@@ -3340,6 +3341,7 @@ BYTES_PER_ELEMENT
 #
 ifdef
 DEBUG
+constexpr
 size_t
 dataOffset
 =
@@ -3350,6 +3352,7 @@ dataOffset
 (
 )
 ;
+constexpr
 size_t
 offset
 =
