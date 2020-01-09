@@ -3710,6 +3710,46 @@ ipdltype
 :
     
 if
+_cxxTypeNeedsMoveForSend
+(
+ipdltype
+)
+:
+        
+return
+True
+    
+if
+ipdltype
+.
+isIPDL
+(
+)
+:
+        
+return
+ipdltype
+.
+isArray
+(
+)
+or
+ipdltype
+.
+isEndpoint
+(
+)
+    
+return
+False
+def
+_cxxTypeNeedsMoveForSend
+(
+ipdltype
+)
+:
+    
+if
 ipdltype
 .
 isUniquePtr
@@ -3749,6 +3789,12 @@ ipdltype
 isMaybe
 (
 )
+or
+ipdltype
+.
+isArray
+(
+)
 :
             
 return
@@ -3761,13 +3807,6 @@ basetype
         
 return
 (
-ipdltype
-.
-isArray
-(
-)
-or
-                
 ipdltype
 .
 isShmem
@@ -13456,6 +13495,9 @@ cls
 var
 msgvar
 actor
+ipdltype
+=
+None
 )
 :
         
@@ -13486,6 +13528,22 @@ already
 correctly
 set
 .
+        
+if
+ipdltype
+and
+_cxxTypeNeedsMoveForSend
+(
+ipdltype
+)
+:
+            
+var
+=
+ExprMove
+(
+var
+)
         
 return
 ExprCall
@@ -13599,6 +13657,7 @@ write
 var
 msgvar
 actor
+ipdltype
 )
 )
             
@@ -14744,7 +14803,7 @@ over
 IPC
 :
 :
-WriteParam
+WriteIPDLParam
 (
 .
 .
