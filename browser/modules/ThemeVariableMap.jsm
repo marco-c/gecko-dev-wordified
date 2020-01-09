@@ -323,11 +323,11 @@ toolbar_vertical_separator
 "
 -
 -
-toolbox
+chrome
 -
-border
+content
 -
-bottom
+separator
 -
 color
 "
