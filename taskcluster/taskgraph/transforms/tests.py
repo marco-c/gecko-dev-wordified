@@ -5725,9 +5725,13 @@ platform
 ]
 =
 '
-Android
+android
 -
-7_0
+em
+-
+7
+-
+0
 -
 x86_64
 /
@@ -8394,6 +8398,21 @@ true
 '
 )
             
+if
+'
+web
+-
+platform
+'
+in
+test
+[
+'
+suite
+'
+]
+:
+                
 test
 [
 '
