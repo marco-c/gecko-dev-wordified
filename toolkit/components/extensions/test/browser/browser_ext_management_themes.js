@@ -178,7 +178,7 @@ images
 :
 {
 "
-headerURL
+theme_frame
 "
 :
 "

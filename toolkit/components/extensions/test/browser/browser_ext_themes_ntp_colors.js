@@ -699,10 +699,10 @@ test_ntp_theme
 colors
 :
 {
-accentcolor
+frame
 :
 ACCENT_COLOR
-textcolor
+tab_background_text
 :
 TEXT_COLOR
 ntp_background
@@ -730,10 +730,10 @@ test_ntp_theme
 colors
 :
 {
-accentcolor
+frame
 :
 ACCENT_COLOR
-textcolor
+tab_background_text
 :
 TEXT_COLOR
 ntp_background

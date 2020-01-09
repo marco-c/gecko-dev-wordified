@@ -74,7 +74,7 @@ images
 :
 {
 "
-headerURL
+theme_frame
 "
 :
 "
@@ -89,12 +89,12 @@ colors
 :
 {
 "
-accentcolor
+frame
 "
 :
 ACCENT_COLOR
 "
-textcolor
+tab_background_text
 "
 :
 TEXT_COLOR
@@ -104,7 +104,7 @@ toolbar
 :
 TOOLBAR_COLOR
 "
-toolbar_text
+bookmark_text
 "
 :
 TOOLBAR_TEXT_COLOR
@@ -344,7 +344,7 @@ images
 :
 {
 "
-headerURL
+theme_frame
 "
 :
 "
@@ -359,12 +359,12 @@ colors
 :
 {
 "
-accentcolor
+frame
 "
 :
 ACCENT_COLOR
 "
-textcolor
+tab_background_text
 "
 :
 TEXT_COLOR

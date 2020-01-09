@@ -53,7 +53,7 @@ LIGHT_THEME_COLORS
 =
 {
 "
-accentcolor
+frame
 "
 :
 "
@@ -61,7 +61,7 @@ accentcolor
 FFF
 "
 "
-textcolor
+tab_background_text
 "
 :
 "
@@ -75,7 +75,7 @@ DARK_THEME_COLORS
 =
 {
 "
-accentcolor
+frame
 "
 :
 "
@@ -83,7 +83,7 @@ accentcolor
 000
 "
 "
-textcolor
+tab_background_text
 "
 :
 "
@@ -779,7 +779,7 @@ themeData
 =
 {
 "
-accentcolor
+frame
 "
 :
 "
@@ -787,7 +787,7 @@ accentcolor
 000
 "
 "
-textcolor
+tab_background_text
 "
 :
 "
@@ -803,7 +803,7 @@ toolbar
 fff
 "
 "
-toolbar_text
+bookmark_text
 "
 :
 "

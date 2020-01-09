@@ -75,7 +75,7 @@ colors
 :
 {
 "
-textcolor
+tab_background_text
 "
 :
 TEXT_COLOR
@@ -85,7 +85,7 @@ toolbar
 :
 TOOLBAR
 "
-toolbar_text
+bookmark_text
 "
 :
 TEXT_COLOR

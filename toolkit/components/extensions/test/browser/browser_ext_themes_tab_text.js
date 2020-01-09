@@ -67,7 +67,7 @@ images
 :
 {
 "
-headerURL
+theme_frame
 "
 :
 "
@@ -82,12 +82,12 @@ colors
 :
 {
 "
-accentcolor
+frame
 "
 :
 ACCENT_COLOR
 "
-textcolor
+tab_background_text
 "
 :
 TEXT_COLOR
@@ -240,7 +240,7 @@ images
 :
 {
 "
-headerURL
+theme_frame
 "
 :
 "
@@ -255,12 +255,12 @@ colors
 :
 {
 "
-accentcolor
+frame
 "
 :
 FRAME_COLOR
 "
-textcolor
+tab_background_text
 "
 :
 TAB_BACKGROUND_TEXT_COLOR

@@ -18,7 +18,7 @@ When
 there
 is
 a
-headerURL
+theme_frame
 image
 and
 additional_backgrounds_alignment
@@ -79,7 +79,7 @@ images
 :
 {
 "
-headerURL
+theme_frame
 "
 :
 "
@@ -110,12 +110,12 @@ colors
 :
 {
 "
-accentcolor
+frame
 "
 :
 ACCENT_COLOR
 "
-textcolor
+tab_background_text
 "
 :
 TEXT_COLOR
@@ -179,7 +179,7 @@ RIGHT_TOP
 root
 only
 contains
-headerURL
+theme_frame
 alignment
 property
 "
@@ -259,7 +259,7 @@ When
 there
 is
 a
-headerURL
+theme_frame
 image
 and
 additional_backgrounds_alignment
@@ -326,7 +326,7 @@ images
 :
 {
 "
-headerURL
+theme_frame
 "
 :
 "
@@ -362,12 +362,12 @@ colors
 :
 {
 "
-accentcolor
+frame
 "
 :
 ACCENT_COLOR
 "
-textcolor
+tab_background_text
 "
 :
 TEXT_COLOR
@@ -453,7 +453,7 @@ RIGHT_TOP
 root
 only
 contains
-headerURL
+theme_frame
 alignment
 property
 "
