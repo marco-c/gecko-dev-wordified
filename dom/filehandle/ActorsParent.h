@@ -705,9 +705,8 @@ PBackgroundFileHandleParent
 *
 aActor
 )
-override
+final
 ;
-virtual
 mozilla
 :
 :
@@ -718,9 +717,8 @@ IPCResult
 RecvDeleteMe
 (
 )
-override
+final
 ;
-virtual
 mozilla
 :
 :

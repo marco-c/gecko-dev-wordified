@@ -5525,7 +5525,7 @@ IPCResult
 RecvCancel
 (
 )
-override
+final
 ;
 }
 ;

@@ -1343,7 +1343,7 @@ FileSystemResponseValue
 &
 value
 )
-override
+final
 ;
 nsresult
 mErrorValue

@@ -11261,7 +11261,7 @@ IPCResult
 RecvCancel
 (
 )
-override
+final
 ;
 mozilla
 :
@@ -11273,7 +11273,7 @@ IPCResult
 RecvFinish
 (
 )
-override
+final
 ;
 }
 ;
