@@ -1814,6 +1814,13 @@ unwrap
 (
 )
 }
+#
+[
+allow
+(
+dead_code
+)
+]
 pub
 fn
 len
