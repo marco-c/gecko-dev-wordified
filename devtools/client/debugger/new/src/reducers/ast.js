@@ -140,7 +140,7 @@ immutable
 import
 type
 {
-Location
+SourceLocation
 Source
 }
 from
@@ -1063,7 +1063,7 @@ OuterState
 location
 :
 ?
-Location
+SourceLocation
 )
 :
 ?

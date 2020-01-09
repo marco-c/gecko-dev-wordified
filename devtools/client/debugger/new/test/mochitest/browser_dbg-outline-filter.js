@@ -93,6 +93,9 @@ scripts
 .
 html
 "
+"
+long
+"
 )
 ;
 await

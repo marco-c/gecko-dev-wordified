@@ -197,7 +197,7 @@ log
 import
 type
 {
-Position
+PartialPosition
 Frame
 Scope
 Source
@@ -1138,7 +1138,7 @@ buildLocationKey
 (
 loc
 :
-Position
+PartialPosition
 )
 :
 string

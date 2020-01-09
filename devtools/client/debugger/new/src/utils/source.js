@@ -206,7 +206,7 @@ import
 type
 {
 Source
-Location
+SourceLocation
 JsSource
 }
 from
@@ -2451,7 +2451,7 @@ source
 Source
 location
 :
-Location
+SourceLocation
 )
 {
 if

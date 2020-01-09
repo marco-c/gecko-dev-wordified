@@ -75,6 +75,12 @@ scripts
 .
 html
 "
+"
+simple1
+"
+"
+simple2
+"
 )
 ;
 await

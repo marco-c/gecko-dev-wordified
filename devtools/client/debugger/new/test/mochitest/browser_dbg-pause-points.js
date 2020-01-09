@@ -227,6 +227,13 @@ points
 .
 html
 "
+"
+pause
+-
+points
+.
+js
+"
 )
 ;
 await

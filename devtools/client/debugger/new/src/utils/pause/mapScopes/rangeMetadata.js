@@ -118,7 +118,7 @@ parser
 import
 type
 {
-Position
+PartialPosition
 Frame
 Source
 }
@@ -766,11 +766,11 @@ bindingRange
 +
 end
 :
-Position
+PartialPosition
 +
 start
 :
-Position
+PartialPosition
 }
 )
 :

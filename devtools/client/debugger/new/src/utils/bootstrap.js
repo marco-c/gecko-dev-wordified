@@ -225,6 +225,7 @@ App
 import
 {
 asyncStore
+prefs
 }
 from
 "
@@ -357,6 +358,11 @@ configureStore
 {
 log
 :
+prefs
+.
+logging
+|
+|
 isTesting
 (
 )

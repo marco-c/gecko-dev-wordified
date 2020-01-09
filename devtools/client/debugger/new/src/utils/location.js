@@ -64,7 +64,7 @@ flow
 import
 type
 {
-Location
+SourceLocation
 SourceId
 }
 from
@@ -110,7 +110,7 @@ sourceUrl
 IncompleteLocation
 )
 :
-Location
+SourceLocation
 {
 return
 {

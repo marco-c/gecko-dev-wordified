@@ -64,7 +64,7 @@ flow
 import
 type
 {
-Position
+PartialPosition
 }
 from
 "
@@ -86,7 +86,7 @@ locColumn
 (
 loc
 :
-Position
+PartialPosition
 )
 :
 number
