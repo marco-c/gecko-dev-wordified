@@ -2838,6 +2838,8 @@ g
 )
 enum
 HalfCorner
+:
+uint8_t
 {
 /
 /
