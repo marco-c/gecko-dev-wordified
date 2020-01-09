@@ -1475,6 +1475,7 @@ WINDOW
 const
 toolbox
 =
+await
 gDevTools
 .
 showToolbox
