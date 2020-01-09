@@ -1070,6 +1070,7 @@ bool
 IsWriteOnly
 (
 )
+const
 ;
 /
 *
