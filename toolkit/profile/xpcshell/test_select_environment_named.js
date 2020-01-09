@@ -187,13 +187,6 @@ Profile3
 ]
 )
 ;
-checkStartupReason
-(
-"
-restart
-"
-)
-;
 Assert
 .
 ok
