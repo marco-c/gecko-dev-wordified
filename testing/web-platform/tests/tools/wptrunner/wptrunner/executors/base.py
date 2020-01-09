@@ -3480,7 +3480,10 @@ payload
 rv
 =
 [
+strip_server
+(
 url
+)
 ]
 +
 payload

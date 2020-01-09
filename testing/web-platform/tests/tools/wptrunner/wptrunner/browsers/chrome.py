@@ -7,6 +7,15 @@ ExecutorBrowser
 require_arg
 from
 .
+base
+import
+get_timeout_multiplier
+#
+noqa
+:
+F401
+from
+.
 .
 webdriver_server
 import
@@ -139,6 +148,14 @@ env_options
 "
 env_options
 "
+                 
+"
+timeout_multiplier
+"
+:
+"
+get_timeout_multiplier
+"
 }
 def
 check_args
@@ -243,6 +260,15 @@ close_after_done
 =
 True
     
+executor_kwargs
+[
+"
+supports_eager_pageload
+"
+]
+=
+False
+    
 capabilities
 =
 {
@@ -294,6 +320,26 @@ True
 }
     
 }
+    
+if
+test_type
+=
+=
+"
+testharness
+"
+:
+        
+capabilities
+[
+"
+pageLoadStrategy
+"
+]
+=
+"
+none
+"
     
 for
 (
