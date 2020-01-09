@@ -278,11 +278,6 @@ _
 Call_ConstStringSplit
 )
 \
-_
-(
-Call_IsSuspendedGenerator
-)
-\
 \
 _
 (

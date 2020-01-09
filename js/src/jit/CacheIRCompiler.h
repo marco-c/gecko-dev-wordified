@@ -677,6 +677,11 @@ CallNumberToString
 \
 _
 (
+CallIsSuspendedGeneratorResult
+)
+\
+_
+(
 WrapResult
 )
 /
