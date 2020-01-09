@@ -625,7 +625,6 @@ shellService
 .
 isDefaultBrowser
 (
-startupCheck
 forAllTypes
 )
 ;
