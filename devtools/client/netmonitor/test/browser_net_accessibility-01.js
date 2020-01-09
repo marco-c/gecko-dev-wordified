@@ -43,7 +43,8 @@ modifiers
 work
 for
 the
-SideMenuWidget
+Side
+Menu
 .
 *
 /
