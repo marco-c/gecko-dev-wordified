@@ -217,6 +217,8 @@ gBrowser
 about
 :
 preferences
+#
+privacy
 "
 )
 ;
