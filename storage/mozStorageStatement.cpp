@@ -373,13 +373,11 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 GetInterfaces
 (
-uint32_t
-*
-_count
+nsTArray
+<
 nsIID
-*
-*
-*
+>
+&
 _array
 )
 override
@@ -390,7 +388,6 @@ NS_CI_INTERFACE_GETTER_NAME
 Statement
 )
 (
-_count
 _array
 )
 ;

@@ -19020,13 +19020,11 @@ nsSocketTransport
 :
 GetInterfaces
 (
-uint32_t
-*
-count
+nsTArray
+<
 nsIID
-*
-*
-*
+>
+&
 array
 )
 {
@@ -19036,7 +19034,6 @@ NS_CI_INTERFACE_GETTER_NAME
 nsSocketTransport
 )
 (
-count
 array
 )
 ;

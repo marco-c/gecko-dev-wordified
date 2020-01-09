@@ -954,13 +954,11 @@ nsThreadClassInfo
 :
 GetInterfaces
 (
-uint32_t
-*
-aCount
+nsTArray
+<
 nsIID
-*
-*
-*
+>
+&
 aArray
 )
 {
@@ -970,7 +968,6 @@ NS_CI_INTERFACE_GETTER_NAME
 nsThread
 )
 (
-aCount
 aArray
 )
 ;
