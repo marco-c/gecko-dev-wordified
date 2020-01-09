@@ -659,7 +659,6 @@ mSourceStream
 AddTrack
 (
 aTrackId
-0
 new
 VideoSegment
 (

@@ -3049,7 +3049,6 @@ aStream
 GraphRate
 (
 )
-0
 segment
 SourceMediaStream
 :

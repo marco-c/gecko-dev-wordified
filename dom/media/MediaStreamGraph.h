@@ -4987,7 +4987,7 @@ added
 bool
 PullNewData
 (
-StreamTime
+GraphTime
 aDesiredUpToTime
 )
 ;
@@ -5012,6 +5012,8 @@ them
 void
 ExtractPendingInput
 (
+GraphTime
+aCurrentTime
 )
 ;
 /
@@ -5103,12 +5105,14 @@ stream
 starting
 at
 the
-given
-base
+stream
+'
+s
+current
 time
+*
 (
 which
-*
 must
 be
 greater
@@ -5130,15 +5134,6 @@ ownership
 of
 aSegment
 .
-aSegment
-should
-*
-contain
-data
-starting
-after
-aStart
-.
 *
 /
 void
@@ -5146,8 +5141,6 @@ AddTrack
 (
 TrackID
 aID
-StreamTime
-aStart
 MediaSegment
 *
 aSegment
@@ -5163,7 +5156,6 @@ aID
 GraphRate
 (
 )
-aStart
 aSegment
 aFlags
 )
@@ -5194,8 +5186,6 @@ TrackID
 aID
 TrackRate
 aRate
-StreamTime
-aStart
 AudioSegment
 *
 aSegment
@@ -5772,9 +5762,6 @@ mResampler
 int
 mResamplerChannelCount
 ;
-StreamTime
-mStart
-;
 /
 /
 End
@@ -5894,8 +5881,6 @@ TrackID
 aID
 TrackRate
 aRate
-StreamTime
-aStart
 MediaSegment
 *
 aSegment

@@ -1306,7 +1306,6 @@ mStream
 AddTrack
 (
 mTrackID
-0
 new
 VideoSegment
 (

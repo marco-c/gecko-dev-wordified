@@ -1569,7 +1569,6 @@ aStream
 AddTrack
 (
 aTrackID
-0
 new
 VideoSegment
 (

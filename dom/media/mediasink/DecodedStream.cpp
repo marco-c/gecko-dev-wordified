@@ -1212,7 +1212,6 @@ mInfo
 mAudio
 .
 mRate
-0
 new
 AudioSegment
 (
@@ -1247,7 +1246,6 @@ mStream
 AddTrack
 (
 videoTrack
-0
 new
 VideoSegment
 (

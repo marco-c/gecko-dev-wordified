@@ -9412,7 +9412,6 @@ AddAudioTrack
 (
 mTrackId
 aRate
-0
 new
 AudioSegment
 (
@@ -9437,7 +9436,6 @@ mSource
 AddTrack
 (
 mTrackId
-0
 new
 VideoSegment
 (

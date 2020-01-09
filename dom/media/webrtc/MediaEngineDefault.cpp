@@ -1040,7 +1040,6 @@ aStream
 AddTrack
 (
 aTrackID
-0
 new
 VideoSegment
 (
@@ -2417,7 +2416,6 @@ aStream
 GraphRate
 (
 )
-0
 new
 AudioSegment
 (
