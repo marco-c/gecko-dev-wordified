@@ -3244,7 +3244,6 @@ connect
 :
 function
 (
-records
 broadcastListeners
 )
 {
