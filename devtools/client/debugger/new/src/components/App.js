@@ -1480,6 +1480,12 @@ endPanelSize
 =
 num
 ;
+this
+.
+triggerEditorPaneResize
+(
+)
+;
 }
 }
 startPanel
@@ -1601,13 +1607,6 @@ endPanelCollapsed
 =
 {
 endPanelCollapsed
-}
-onResizeEnd
-=
-{
-this
-.
-triggerEditorPaneResize
 }
 /
 >
