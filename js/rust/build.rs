@@ -1443,6 +1443,12 @@ RootedObject
 JS
 :
 :
+RootedValue
+"
+"
+JS
+:
+:
 RootingContext
 "
 "
