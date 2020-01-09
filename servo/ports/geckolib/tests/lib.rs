@@ -212,7 +212,15 @@ size_of_test
 ;
 #
 [
+cfg_attr
+(
+target_pointer_width
+=
+"
+64
+"
 macro_use
+)
 ]
 extern
 crate
