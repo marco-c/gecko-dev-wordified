@@ -154,6 +154,9 @@ background
 "
 >
 use
+crate
+:
+:
 properties
 :
 :
@@ -167,6 +170,9 @@ background_repeat
 }
 ;
 use
+crate
+:
+:
 properties
 :
 :
@@ -181,6 +187,9 @@ background_origin
 }
 ;
 use
+crate
+:
+:
 properties
 :
 :
@@ -190,6 +199,9 @@ longhands
 background_clip
 ;
 use
+crate
+:
+:
 properties
 :
 :
@@ -210,6 +222,9 @@ as
 Clip
 ;
 use
+crate
+:
+:
 properties
 :
 :
@@ -230,6 +245,9 @@ as
 Origin
 ;
 use
+crate
+:
+:
 values
 :
 :
@@ -243,6 +261,9 @@ PositionComponent
 }
 ;
 use
+crate
+:
+:
 parser
 :
 :
@@ -1616,6 +1637,9 @@ position
 "
 >
 use
+crate
+:
+:
 properties
 :
 :
@@ -1628,6 +1652,9 @@ background_position_y
 }
 ;
 use
+crate
+:
+:
 values
 :
 :
@@ -1637,6 +1664,9 @@ specified
 AllowQuirks
 ;
 use
+crate
+:
+:
 values
 :
 :

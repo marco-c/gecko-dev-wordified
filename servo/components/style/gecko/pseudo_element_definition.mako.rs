@@ -1120,6 +1120,9 @@ self
 CSSPseudoElementType
 {
 use
+crate
+:
+:
 gecko_bindings
 :
 :
