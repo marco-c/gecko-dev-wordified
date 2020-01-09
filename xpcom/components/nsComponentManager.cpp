@@ -2168,6 +2168,14 @@ XRE_GetProcessType
 !
 =
 GeckoProcessType_VR
+&
+&
+XRE_GetProcessType
+(
+)
+!
+=
+GeckoProcessType_RDD
 )
 ;
 if
@@ -2728,6 +2736,12 @@ type
 =
 =
 GeckoProcessType_GPU
+|
+|
+type
+=
+=
+GeckoProcessType_RDD
 )
 {
 return
