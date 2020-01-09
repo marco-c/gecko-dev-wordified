@@ -2374,7 +2374,7 @@ is
 missing
 .
 let
-googleSBKey
+googleKey
 =
 Services
 .
@@ -2384,7 +2384,7 @@ formatURL
 (
 "
 %
-GOOGLE_SAFEBROWSING_API_KEY
+GOOGLE_API_KEY
 %
 "
 )
@@ -2415,18 +2415,16 @@ google4
 &
 (
 !
-googleSBKey
+googleKey
 |
 |
-googleSBKey
+googleKey
 =
 =
 "
 no
 -
 google
--
-safebrowsing
 -
 api
 -
@@ -2440,7 +2438,6 @@ log
 "
 Missing
 Google
-SafeBrowsing
 API
 key
 clearing
