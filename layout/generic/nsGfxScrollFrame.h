@@ -3299,9 +3299,6 @@ nsAtom
 *
 mLastScrollOrigin
 ;
-bool
-mAllowScrollOriginDowngrade
-;
 nsAtom
 *
 mLastSmoothScrollOrigin
@@ -3563,9 +3560,6 @@ visibility
 nsPoint
 mLastUpdateFramesPos
 ;
-bool
-mHadDisplayPortAtLastFrameUpdate
-;
 nsRect
 mDisplayPortAtLastFrameUpdate
 ;
@@ -3596,6 +3590,16 @@ nsCOMPtr
 nsITimer
 >
 mDisplayPortExpiryTimer
+;
+bool
+mAllowScrollOriginDowngrade
+:
+1
+;
+bool
+mHadDisplayPortAtLastFrameUpdate
+:
+1
 ;
 bool
 mNeverHasVerticalScrollbar
