@@ -145,9 +145,7 @@ include
 "
 mozilla
 /
-dom
-/
-IDBWrapperCache
+DOMEventTargetHelper
 .
 h
 "
@@ -186,9 +184,6 @@ nsTArray
 .
 h
 "
-class
-nsPIDOMWindowInner
-;
 namespace
 mozilla
 {
@@ -259,7 +254,7 @@ IDBTransaction
 final
 :
 public
-IDBWrapperCache
+DOMEventTargetHelper
 public
 nsIRunnable
 {
@@ -968,7 +963,7 @@ return
 mLoggingSerialNumber
 ;
 }
-nsPIDOMWindowInner
+nsIGlobalObject
 *
 GetParentObject
 (
@@ -1071,7 +1066,7 @@ NS_DECL_NSIRUNNABLE
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 IDBTransaction
-IDBWrapperCache
+DOMEventTargetHelper
 )
 /
 /
