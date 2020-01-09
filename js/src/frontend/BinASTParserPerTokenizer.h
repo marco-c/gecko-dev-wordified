@@ -193,7 +193,7 @@ include
 "
 frontend
 /
-BinASTToken
+BinToken
 .
 h
 "
@@ -202,7 +202,7 @@ include
 "
 frontend
 /
-BinASTTokenReaderMultipart
+BinTokenReaderMultipart
 .
 h
 "
@@ -375,13 +375,13 @@ Tokenizer
 AutoTaggedTuple
 ;
 using
-BinASTFields
+BinFields
 =
 typename
 Tokenizer
 :
 :
-BinASTFields
+BinFields
 ;
 using
 Chars
@@ -729,7 +729,7 @@ char
 *
 superKind
 const
-BinASTKind
+BinKind
 kind
 )
 ;
@@ -752,7 +752,7 @@ char
 *
 kind
 const
-BinASTVariant
+BinVariant
 value
 )
 ;
@@ -775,7 +775,7 @@ char
 *
 kind
 const
-BinASTField
+BinField
 field
 )
 ;
@@ -849,7 +849,7 @@ Error
 >
 raiseError
 (
-BinASTKind
+BinKind
 kind
 const
 char
@@ -940,7 +940,7 @@ const
 size_t
 start
 const
-BinASTKind
+BinKind
 kind
 FunctionBox
 *
@@ -961,7 +961,7 @@ const
 size_t
 start
 const
-BinASTKind
+BinKind
 kind
 ParseNode
 *
@@ -1789,7 +1789,7 @@ variableDeclarationKind_
 ;
 friend
 class
-BinASTParseContext
+BinParseContext
 ;
 friend
 class
@@ -1944,7 +1944,7 @@ const
 }
 ;
 class
-BinASTParseContext
+BinParseContext
 :
 public
 ParseContext
@@ -1956,7 +1956,7 @@ template
 typename
 Tok
 >
-BinASTParseContext
+BinParseContext
 (
 JSContext
 *
@@ -2021,7 +2021,7 @@ template
 class
 BinASTParserPerTokenizer
 <
-BinASTTokenReaderMultipart
+BinTokenReaderMultipart
 >
 ;
 }

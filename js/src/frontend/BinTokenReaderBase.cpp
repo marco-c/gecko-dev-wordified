@@ -113,7 +113,7 @@ include
 "
 frontend
 /
-BinASTTokenReaderBase
+BinTokenReaderBase
 .
 h
 "
@@ -122,7 +122,7 @@ include
 "
 frontend
 /
-BinAST
+BinSource
 -
 macros
 .
@@ -191,7 +191,7 @@ NULL_FLOAT_REPRESENTATION
 0x7FF0000000000001
 ;
 void
-BinASTTokenReaderBase
+BinTokenReaderBase
 :
 :
 updateLatestKnownGood
@@ -235,7 +235,7 @@ JS
 Error
 &
 >
-BinASTTokenReaderBase
+BinTokenReaderBase
 :
 :
 raiseError
@@ -280,7 +280,7 @@ JS
 Error
 &
 >
-BinASTTokenReaderBase
+BinTokenReaderBase
 :
 :
 raiseOOM
@@ -309,13 +309,13 @@ JS
 Error
 &
 >
-BinASTTokenReaderBase
+BinTokenReaderBase
 :
 :
 raiseInvalidNumberOfFields
 (
 const
-BinASTKind
+BinKind
 kind
 const
 uint32_t
@@ -362,7 +362,7 @@ got
 %
 u
 "
-describeBinASTKind
+describeBinKind
 (
 kind
 )
@@ -390,7 +390,7 @@ JS
 Error
 &
 >
-BinASTTokenReaderBase
+BinTokenReaderBase
 :
 :
 raiseInvalidField
@@ -400,7 +400,7 @@ char
 *
 kind
 const
-BinASTField
+BinField
 field
 )
 {
@@ -437,7 +437,7 @@ s
 '
 "
 kind
-describeBinASTField
+describeBinField
 (
 field
 )
@@ -456,7 +456,7 @@ string
 ;
 }
 bool
-BinASTTokenReaderBase
+BinTokenReaderBase
 :
 :
 hasRaisedError
@@ -521,7 +521,7 @@ isExceptionPending
 ;
 }
 size_t
-BinASTTokenReaderBase
+BinTokenReaderBase
 :
 :
 offset
@@ -536,7 +536,7 @@ start_
 ;
 }
 TokenPos
-BinASTTokenReaderBase
+BinTokenReaderBase
 :
 :
 pos
@@ -553,7 +553,7 @@ offset
 ;
 }
 TokenPos
-BinASTTokenReaderBase
+BinTokenReaderBase
 :
 :
 pos
@@ -596,7 +596,7 @@ pos
 ;
 }
 void
-BinASTTokenReaderBase
+BinTokenReaderBase
 :
 :
 seek
@@ -636,7 +636,7 @@ Result
 <
 Ok
 >
-BinASTTokenReaderBase
+BinTokenReaderBase
 :
 :
 readBuf
@@ -723,7 +723,7 @@ Result
 <
 uint8_t
 >
-BinASTTokenReaderBase
+BinTokenReaderBase
 :
 :
 readByte

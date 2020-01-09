@@ -30879,7 +30879,7 @@ ParseBinASTData
 frontend
 :
 :
-BinASTTokenReaderMultipart
+BinTokenReaderMultipart
 >
 ;
 if

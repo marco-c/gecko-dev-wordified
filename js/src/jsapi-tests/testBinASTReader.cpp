@@ -3185,7 +3185,7 @@ js
 frontend
 :
 :
-BinASTTokenReaderMultipart
+BinTokenReaderMultipart
 >
 (
 cx
@@ -3217,7 +3217,7 @@ js
 frontend
 :
 :
-BinASTTokenReaderMultipart
+BinTokenReaderMultipart
 >
 (
 cx

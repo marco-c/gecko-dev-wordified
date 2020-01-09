@@ -4656,7 +4656,7 @@ frontend
 :
 BinASTParser
 <
-BinASTTokenReaderMultipart
+BinTokenReaderMultipart
 >
 parser
 (
@@ -6411,7 +6411,7 @@ frontend
 :
 BinASTParser
 <
-BinASTTokenReaderMultipart
+BinTokenReaderMultipart
 >
 parser
 (

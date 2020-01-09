@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-frontend_BinAST_macros_h
+frontend_BinSource_macros_h
 #
 define
-frontend_BinAST_macros_h
+frontend_BinSource_macros_h
 #
 include
 "
@@ -550,4 +550,4 @@ unwrap
 endif
 /
 /
-frontend_BinAST_macros_h
+frontend_BinSource_macros_h
