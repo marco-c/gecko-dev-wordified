@@ -1605,7 +1605,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-RealmPrivate
+CompartmentPrivate
 :
 :
 Get
@@ -2779,7 +2779,7 @@ cx
 Scope
 -
 >
-GetGlobalJSObject
+GetGlobalForWrappedNatives
 (
 )
 )

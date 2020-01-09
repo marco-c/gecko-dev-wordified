@@ -15942,7 +15942,7 @@ GetScope
 )
 -
 >
-GetGlobalJSObject
+GetGlobalForWrappedNatives
 (
 )
 ;

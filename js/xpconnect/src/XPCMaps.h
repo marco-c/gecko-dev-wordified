@@ -3210,7 +3210,7 @@ MOZ_ASSERT
 xpc
 :
 :
-RealmPrivate
+CompartmentPrivate
 :
 :
 Get
