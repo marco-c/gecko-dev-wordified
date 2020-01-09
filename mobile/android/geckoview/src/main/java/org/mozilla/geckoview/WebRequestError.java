@@ -121,6 +121,13 @@ WrapForJNI
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 support
 .
 annotation
@@ -1274,6 +1281,12 @@ category
 )
 ;
 }
+SuppressLint
+(
+"
+WrongConstant
+"
+)
 WrapForJNI
 /
 *

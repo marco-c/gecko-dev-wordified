@@ -1952,6 +1952,12 @@ return
 mCrypto
 ;
 }
+SuppressLint
+(
+"
+WrongConstant
+"
+)
 Override
 public
 void
