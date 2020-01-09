@@ -8497,6 +8497,7 @@ Gecko_CopyWillChangeFrom
 nsStyleDisplay
 *
 aDest
+const
 nsStyleDisplay
 *
 aSrc

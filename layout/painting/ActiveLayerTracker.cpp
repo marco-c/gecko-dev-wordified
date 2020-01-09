@@ -2983,7 +2983,7 @@ StyleDisplay
 >
 mWillChangeBitField
 &
-NS_STYLE_WILL_CHANGE_TRANSFORM
+StyleWillChangeBits_TRANSFORM
 )
 )
 &
@@ -3034,7 +3034,7 @@ StyleDisplay
 >
 mWillChangeBitField
 &
-NS_STYLE_WILL_CHANGE_OPACITY
+StyleWillChangeBits_OPACITY
 )
 &
 &

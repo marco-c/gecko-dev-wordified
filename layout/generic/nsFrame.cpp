@@ -11542,7 +11542,7 @@ aStyleDisplay
 >
 mWillChangeBitField
 &
-NS_STYLE_WILL_CHANGE_OPACITY
+StyleWillChangeBits_OPACITY
 )
 )
 {
@@ -19558,7 +19558,7 @@ disp
 >
 mWillChangeBitField
 &
-NS_STYLE_WILL_CHANGE_OPACITY
+StyleWillChangeBits_OPACITY
 )
 &
 &
@@ -19609,9 +19609,6 @@ disp
 -
 >
 mWillChangeBitField
-!
-=
-0
 )
 {
 aBuilder
@@ -76574,7 +76571,7 @@ aStyleDisplay
 >
 mWillChangeBitField
 &
-NS_STYLE_WILL_CHANGE_STACKING_CONTEXT
+StyleWillChangeBits_STACKING_CONTEXT
 )
 |
 |
