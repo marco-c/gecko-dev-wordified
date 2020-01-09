@@ -9785,6 +9785,8 @@ SetReferrerWithPolicy
 referrer
 NS_GetDefaultReferrerPolicy
 (
+this
+mURI
 isPrivate
 )
 )
@@ -10035,6 +10037,12 @@ ENSURE_CALLED_BEFORE_CONNECT
 (
 )
 ;
+nsIURI
+*
+originalReferrer
+=
+referrer
+;
 mReferrerPolicy
 =
 referrerPolicy
@@ -10101,6 +10109,8 @@ mReferrerPolicy
 =
 NS_GetDefaultReferrerPolicy
 (
+this
+mURI
 isPrivate
 )
 ;
@@ -12128,6 +12138,10 @@ rv
 )
 return
 rv
+;
+mOriginalReferrer
+=
+originalReferrer
 ;
 mReferrer
 =

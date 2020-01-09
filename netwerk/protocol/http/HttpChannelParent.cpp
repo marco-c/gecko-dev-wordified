@@ -999,7 +999,7 @@ doc
 )
 a
 .
-referrer
+originalReferrer
 (
 )
 a
@@ -2932,7 +2932,7 @@ aDocURI
 const
 OptionalURIParams
 &
-aReferrerURI
+aOriginalReferrerURI
 const
 uint32_t
 &
@@ -3208,7 +3208,7 @@ referrerUri
 =
 DeserializeURI
 (
-aReferrerURI
+aOriginalReferrerURI
 )
 ;
 nsCOMPtr

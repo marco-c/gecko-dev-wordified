@@ -770,7 +770,7 @@ docUri
 const
 OptionalURIParams
 &
-referrerUri
+originalReferrerUri
 const
 uint32_t
 &

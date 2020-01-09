@@ -4112,6 +4112,8 @@ ReferrerPolicy
 (
 NS_GetDefaultReferrerPolicy
 (
+httpChan
+uri
 isPrivate
 )
 )
