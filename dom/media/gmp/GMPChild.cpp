@@ -336,7 +336,7 @@ endif
 if
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 #
 if
@@ -877,7 +877,7 @@ path
 if
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 static
 bool
@@ -1377,7 +1377,7 @@ true
 endif
 /
 /
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 #
 endif
 /
@@ -1919,7 +1919,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 nsAutoCString
 pluginDirectoryPath
@@ -3644,7 +3644,7 @@ GMPLoader
 if
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 if
 (
@@ -3708,7 +3708,7 @@ chromium
 if
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 &
 &

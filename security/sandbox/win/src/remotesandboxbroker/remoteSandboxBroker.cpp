@@ -918,9 +918,6 @@ aHandle
 )
 ;
 }
-#
-ifdef
-MOZ_CONTENT_SANDBOX
 void
 RemoteSandboxBroker
 :
@@ -946,8 +943,6 @@ Implemented
 )
 ;
 }
-#
-endif
 void
 RemoteSandboxBroker
 :

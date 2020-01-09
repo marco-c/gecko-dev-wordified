@@ -4604,7 +4604,7 @@ return
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 mParentProxyStream
 =
@@ -4620,7 +4620,7 @@ endif
 /
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 }
 void
@@ -4685,7 +4685,7 @@ aPluginCOMProxy
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 /
 /

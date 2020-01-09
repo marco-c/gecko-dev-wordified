@@ -141,9 +141,6 @@ SandboxBrokerPolicyFactory
 (
 )
 ;
-#
-ifdef
-MOZ_CONTENT_SANDBOX
 UniquePtr
 <
 SandboxBroker
@@ -159,8 +156,6 @@ bool
 aFileProcess
 )
 ;
-#
-endif
 static
 UniquePtr
 <

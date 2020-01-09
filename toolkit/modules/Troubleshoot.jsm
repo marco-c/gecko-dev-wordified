@@ -4915,7 +4915,7 @@ if
 (
 AppConstants
 .
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 {
 let

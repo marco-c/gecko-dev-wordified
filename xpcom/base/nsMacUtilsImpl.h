@@ -163,7 +163,7 @@ nsMacUtilsImpl
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 static
 bool
@@ -198,7 +198,7 @@ DEBUG
 endif
 /
 *
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 *
 /
 private

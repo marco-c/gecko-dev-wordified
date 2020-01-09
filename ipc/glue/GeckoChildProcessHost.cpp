@@ -243,7 +243,7 @@ h
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 #
 include
@@ -1679,7 +1679,7 @@ InitWindowsGroupID
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 /
 /
@@ -2018,7 +2018,7 @@ XP_LINUX
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 /
 /
@@ -4128,7 +4128,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 /
 /
@@ -4667,7 +4667,7 @@ XP_LINUX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 if
 (
@@ -7548,12 +7548,6 @@ mProcessType
 case
 GeckoProcessType_Content
 :
-#
-if
-defined
-(
-MOZ_CONTENT_SANDBOX
-)
 if
 (
 mSandboxLevel
@@ -7615,14 +7609,6 @@ shouldSandboxCurrentProcess
 true
 ;
 }
-#
-endif
-/
-/
-defined
-(
-MOZ_CONTENT_SANDBOX
-)
 break
 ;
 case

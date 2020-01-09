@@ -1105,7 +1105,7 @@ endif
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 #
 include
@@ -9932,7 +9932,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 extern
 "
@@ -10915,7 +10915,7 @@ bug
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 bool
 sandboxEnabled
@@ -11236,7 +11236,7 @@ GetRemoteType
 endif
 /
 *
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 *
 /
 return
@@ -24558,7 +24558,7 @@ __OpenBSD__
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 #
 include

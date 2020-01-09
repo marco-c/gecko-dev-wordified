@@ -149,7 +149,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 #
 include
@@ -202,7 +202,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 /
 /
@@ -566,7 +566,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 /
 /

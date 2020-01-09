@@ -1621,7 +1621,7 @@ mEmulatedWindowHandle
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 mscom
 :
@@ -1635,7 +1635,7 @@ endif
 /
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 #
 endif

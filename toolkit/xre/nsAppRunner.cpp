@@ -899,7 +899,7 @@ endif
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 #
 include
@@ -19051,7 +19051,7 @@ else
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 /
 /
@@ -25460,7 +25460,7 @@ return
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 void
 AddSandboxAnnotations
@@ -25624,7 +25624,7 @@ sandboxCapable
 endif
 /
 *
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 *
 /
 /
@@ -27827,7 +27827,7 @@ XP_LINUX
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 AddSandboxAnnotations
 (
@@ -27837,7 +27837,7 @@ AddSandboxAnnotations
 endif
 /
 *
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 *
 /
 mProfileSvc

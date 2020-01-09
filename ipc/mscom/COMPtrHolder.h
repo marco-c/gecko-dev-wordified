@@ -182,7 +182,7 @@ h
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 #
 include
@@ -199,7 +199,7 @@ endif
 /
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 #
 include
@@ -398,7 +398,7 @@ aActCtx
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 /
 /
@@ -492,7 +492,7 @@ endif
 /
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 COMPtrHolder
 (
@@ -528,7 +528,7 @@ mPtr
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 mMarshaledStream
 (
@@ -548,7 +548,7 @@ endif
 /
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 {
 }
@@ -681,7 +681,7 @@ mPtr
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 mMarshaledStream
 =
@@ -701,7 +701,7 @@ endif
 /
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 return
 *
@@ -736,7 +736,7 @@ mPtr
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 mMarshaledStream
 =
@@ -756,7 +756,7 @@ endif
 /
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 return
 *
@@ -820,7 +820,7 @@ mActCtx
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 /
 /
@@ -861,7 +861,7 @@ endif
 /
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 }
 ;
@@ -934,7 +934,7 @@ aParam
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 static
 const
@@ -970,7 +970,7 @@ endif
 /
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 typename
 paramType
@@ -1091,7 +1091,7 @@ bufLen
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 if
 (
@@ -1179,7 +1179,7 @@ endif
 /
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 }
 static

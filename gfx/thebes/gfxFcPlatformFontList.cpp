@@ -328,7 +328,7 @@ endif
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 &
 &
@@ -8984,7 +8984,7 @@ continue
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 &
 &
@@ -10097,7 +10097,7 @@ policy
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 &
 &

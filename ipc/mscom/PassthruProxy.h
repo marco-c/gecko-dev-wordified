@@ -164,7 +164,7 @@ h
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 #
 include
@@ -181,7 +181,7 @@ endif
 /
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 #
 include
@@ -287,7 +287,7 @@ small
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 if
 (
@@ -418,7 +418,7 @@ endif
 /
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 }
 static

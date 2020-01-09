@@ -744,7 +744,7 @@ NS_OK
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 /
 /
@@ -1308,6 +1308,6 @@ DEBUG
 endif
 /
 *
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 *
 /

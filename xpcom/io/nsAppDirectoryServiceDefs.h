@@ -1055,7 +1055,7 @@ permissionDBPDir
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 /
 /
@@ -1144,14 +1144,14 @@ is
 only
 valid
 when
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 is
 defined
 .
 When
 /
 /
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 is
 defined
 the
@@ -1178,7 +1178,7 @@ enabled
 /
 /
 When
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 is
 defined
 and
@@ -1225,7 +1225,7 @@ NS_APP_CONTENT_PROCESS_TEMP_DIR
 instead
 .
 When
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 is
 /
 /
@@ -1333,7 +1333,7 @@ endif
 /
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 #
 if

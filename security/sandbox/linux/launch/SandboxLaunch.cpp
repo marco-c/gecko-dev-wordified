@@ -1654,9 +1654,6 @@ switch
 aType
 )
 {
-#
-ifdef
-MOZ_GMP_SANDBOX
 case
 GeckoProcessType_GMPlugin
 :
@@ -1680,11 +1677,6 @@ return
 return
 0
 ;
-#
-endif
-#
-ifdef
-MOZ_CONTENT_SANDBOX
 case
 GeckoProcessType_Content
 :
@@ -1730,8 +1722,6 @@ GetEffectiveContentSandboxLevel
 return
 0
 ;
-#
-endif
 case
 GeckoProcessType_RDD
 :
@@ -2027,14 +2017,9 @@ switch
 aType
 )
 {
-#
-ifdef
-MOZ_GMP_SANDBOX
 case
 GeckoProcessType_GMPlugin
 :
-#
-endif
 case
 GeckoProcessType_RDD
 :
@@ -2060,9 +2045,6 @@ CLONE_NEWIPC
 }
 break
 ;
-#
-ifdef
-MOZ_CONTENT_SANDBOX
 case
 GeckoProcessType_Content
 :
@@ -2198,8 +2180,6 @@ CLONE_NEWUSER
 }
 break
 ;
-#
-endif
 default
 :
 /

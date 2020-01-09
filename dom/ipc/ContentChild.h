@@ -268,7 +268,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 #
 include
@@ -828,7 +828,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 void
 GetProfileDir
@@ -4541,7 +4541,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 nsCOMPtr
 <

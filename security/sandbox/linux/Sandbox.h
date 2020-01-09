@@ -218,9 +218,6 @@ SandboxEarlyInit
 (
 )
 ;
-#
-ifdef
-MOZ_CONTENT_SANDBOX
 /
 /
 A
@@ -480,11 +477,6 @@ ContentProcessSandboxParams
 aParams
 )
 ;
-#
-endif
-#
-ifdef
-MOZ_GMP_SANDBOX
 /
 /
 Call
@@ -532,8 +524,6 @@ char
 aFilePath
 )
 ;
-#
-endif
 MOZ_EXPORT
 void
 SetRemoteDataDecoderSandbox

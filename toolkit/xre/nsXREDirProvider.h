@@ -921,7 +921,7 @@ aPath
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 /
 /
@@ -938,14 +938,6 @@ LoadContentProcessTempDir
 (
 )
 ;
-#
-endif
-#
-if
-defined
-(
-MOZ_SANDBOX
-)
 nsresult
 LoadPluginProcessTempDir
 (
@@ -1050,7 +1042,7 @@ false
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 nsCOMPtr
 <
@@ -1064,14 +1056,6 @@ nsIFile
 >
 mContentProcessSandboxTempDir
 ;
-#
-endif
-#
-if
-defined
-(
-MOZ_SANDBOX
-)
 nsCOMPtr
 <
 nsIFile

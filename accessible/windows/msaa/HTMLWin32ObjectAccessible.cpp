@@ -697,7 +697,7 @@ mHwnd
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 if
 (
@@ -856,7 +856,7 @@ aNativeAccessible
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 if
 (

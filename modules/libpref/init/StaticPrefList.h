@@ -7642,7 +7642,7 @@ XP_LINUX
 &
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 /
 /

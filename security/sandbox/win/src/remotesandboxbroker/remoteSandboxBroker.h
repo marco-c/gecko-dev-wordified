@@ -320,12 +320,6 @@ different
 types
 of
 processes
-#
-if
-defined
-(
-MOZ_CONTENT_SANDBOX
-)
 void
 SetSecurityLevelForContentProcess
 (
@@ -336,8 +330,6 @@ aIsFileProcess
 )
 override
 ;
-#
-endif
 void
 SetSecurityLevelForGPUProcess
 (
