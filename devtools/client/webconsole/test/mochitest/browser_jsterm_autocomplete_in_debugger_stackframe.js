@@ -213,6 +213,11 @@ stackframe
 html
 "
 ;
+requestLongerTimeout
+(
+20
+)
+;
 add_task
 (
 async
