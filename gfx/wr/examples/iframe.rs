@@ -412,8 +412,6 @@ TransformStyle
 :
 :
 Flat
-Some
-(
 PropertyBinding
 :
 :
@@ -433,8 +431,10 @@ identity
 (
 )
 )
-)
-None
+ReferenceFrameKind
+:
+:
+Transform
 )
 ;
 /
