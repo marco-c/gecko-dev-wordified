@@ -2153,7 +2153,6 @@ device
 create_program
 (
 name
-&
 prefix
 )
 }
@@ -2215,7 +2214,6 @@ device
 create_program
 (
 name
-&
 prefix
 )
 }
