@@ -2871,7 +2871,7 @@ parameters
 *
 /
 static
-const
+constexpr
 float
 MinAllocationThresholdFactor
 =
@@ -2927,7 +2927,7 @@ configurable
 *
 /
 static
-const
+constexpr
 float
 HighFrequencyEagerAllocTriggerFactor
 =
@@ -2936,7 +2936,7 @@ HighFrequencyEagerAllocTriggerFactor
 85f
 ;
 static
-const
+constexpr
 float
 LowFrequencyEagerAllocTriggerFactor
 =
@@ -2971,7 +2971,7 @@ threshold
 *
 /
 static
-const
+constexpr
 float
 MinHighFrequencyHeapGrowthFactor
 =
@@ -2986,7 +2986,7 @@ MinAllocationThresholdFactor
 )
 ;
 static
-const
+constexpr
 float
 MinLowFrequencyHeapGrowthFactor
 =
@@ -3018,7 +3018,7 @@ mode
 *
 /
 static
-const
+constexpr
 int
 IGC_MARK_SLICE_MULTIPLIER
 =
@@ -3644,7 +3644,7 @@ thread
 *
 /
 static
-const
+constexpr
 FinalizePhase
 ForegroundObjectFinalizePhase
 =
@@ -3702,7 +3702,7 @@ thread
 *
 /
 static
-const
+constexpr
 FinalizePhase
 ForegroundNonObjectFinalizePhase
 =
@@ -3743,7 +3743,7 @@ thread
 *
 /
 static
-const
+constexpr
 FinalizePhase
 BackgroundFinalizePhases
 [
@@ -17893,7 +17893,7 @@ arbitrary
 phases
 .
 static
-const
+constexpr
 AllocKinds
 UpdatePhaseOne
 {
@@ -17937,7 +17937,7 @@ descriptor
 objects
 .
 static
-const
+constexpr
 AllocKinds
 UpdatePhaseThree
 {

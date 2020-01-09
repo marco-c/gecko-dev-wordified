@@ -974,6 +974,7 @@ class
 T
 >
 static
+constexpr
 inline
 T
 Min
@@ -1000,6 +1001,7 @@ class
 T
 >
 static
+constexpr
 inline
 T
 Max

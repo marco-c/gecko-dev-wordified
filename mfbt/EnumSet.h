@@ -374,6 +374,7 @@ aEnum4
 )
 {
 }
+constexpr
 MOZ_IMPLICIT
 EnumSet
 (
@@ -436,6 +437,7 @@ an
 element
 *
 /
+constexpr
 void
 operator
 +
@@ -467,6 +469,7 @@ an
 element
 *
 /
+constexpr
 EnumSet
 operator
 +
@@ -1508,6 +1511,7 @@ Serialized
 bitNumber
 ;
 }
+constexpr
 void
 incVersion
 (
