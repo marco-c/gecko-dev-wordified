@@ -1986,7 +1986,7 @@ readIdentifierName
 BINJS_MOZ_TRY_DECL
 (
 result
-readMaybeAtom
+readAtom
 (
 )
 )
