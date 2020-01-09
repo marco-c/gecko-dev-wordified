@@ -2773,10 +2773,6 @@ MOZ_MUST_USE
 bool
 emitInitHomeObject
 (
-bool
-isAsyncNonGenerator
-=
-false
 )
 ;
 /
@@ -4828,7 +4824,6 @@ ce
 .
 emitInitHomeObject
 (
-true
 )
 ;
 /
