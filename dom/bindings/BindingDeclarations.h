@@ -2847,7 +2847,7 @@ class
 ReflectionScope
 {
 Content
-XBL
+NAC
 UAWidget
 }
 ;
