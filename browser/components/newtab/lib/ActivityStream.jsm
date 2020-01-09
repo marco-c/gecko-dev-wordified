@@ -2819,11 +2819,7 @@ e88c401e1b1f2242d9e441c4
 &
 layout_variant
 =
-dev
--
-test
--
-1
+control
 "
 }
 )
