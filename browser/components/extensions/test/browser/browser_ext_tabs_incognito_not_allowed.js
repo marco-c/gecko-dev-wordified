@@ -185,10 +185,9 @@ URL
 }
 )
 /
-Extension
-cannot
-access
-window
+Invalid
+tab
+ID
 /
 "
 should
@@ -235,10 +234,9 @@ rgb
 }
 )
 /
-Extension
-cannot
-access
-window
+Invalid
+tab
+ID
 /
 "
 should
