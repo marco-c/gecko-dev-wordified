@@ -1839,7 +1839,7 @@ stop
 )
                             
 raise
-                    
+                        
 test_count
 +
 =
@@ -1848,7 +1848,7 @@ manager_group
 test_count
 (
 )
-                    
+                        
 unexpected_count
 +
 =
