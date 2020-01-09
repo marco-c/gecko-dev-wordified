@@ -46,7 +46,7 @@ basic
 -
 offset
 :
-2
+4
 -
 *
 -
@@ -59,14 +59,14 @@ ts
 8
 sts
 =
-2
+4
 et
 sw
 =
-2
+4
 tw
 =
-80
+99
 :
 *
 This
