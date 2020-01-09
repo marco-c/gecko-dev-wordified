@@ -5153,15 +5153,10 @@ status
 "
 passed
 "
-{
 this
 .
 testName
-}
-:
-{
 summary
-}
 )
 ;
 return

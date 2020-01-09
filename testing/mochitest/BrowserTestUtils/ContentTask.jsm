@@ -759,7 +759,7 @@ ContentTask
 .
 _testScope
 .
-record
+ok
 (
 data
 .

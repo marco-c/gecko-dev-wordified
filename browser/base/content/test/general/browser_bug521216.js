@@ -121,7 +121,7 @@ icon
 ;
 }
 function
-recordEvent
+record
 (
 aName
 )
@@ -263,7 +263,7 @@ target
 =
 tab
 )
-recordEvent
+record
 (
 "
 TabOpen
@@ -292,7 +292,7 @@ tab
 .
 linkedBrowser
 )
-recordEvent
+record
 (
 "
 onLocationChange
@@ -317,7 +317,7 @@ tab
 .
 linkedBrowser
 )
-recordEvent
+record
 (
 "
 onStateChange
@@ -342,7 +342,7 @@ tab
 .
 linkedBrowser
 )
-recordEvent
+record
 (
 "
 onLinkIconAvailable
