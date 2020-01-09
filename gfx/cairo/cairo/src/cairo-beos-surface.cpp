@@ -8,7 +8,7 @@ ts
 8
 sw
 =
-4
+2
 noet
 cin
 :

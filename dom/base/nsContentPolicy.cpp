@@ -44,10 +44,10 @@ ft
 cpp
 tw
 =
-78
+80
 sw
 =
-4
+2
 et
 ts
 =

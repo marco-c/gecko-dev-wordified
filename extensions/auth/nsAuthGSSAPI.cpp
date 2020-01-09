@@ -8,10 +8,10 @@ ts
 4
 sw
 =
-4
+2
 sts
 =
-4
+2
 et
 cindent
 :

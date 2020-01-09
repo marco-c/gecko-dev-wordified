@@ -8,7 +8,7 @@ ts
 4
 sw
 =
-4
+2
 et
 cindent
 :

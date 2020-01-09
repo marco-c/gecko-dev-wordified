@@ -8,10 +8,10 @@ ts
 4
 sts
 =
-4
+2
 sw
 =
-4
+2
 et
 cin
 :
