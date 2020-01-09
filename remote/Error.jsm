@@ -71,6 +71,9 @@ FatalError
 "
 UnsupportedError
 "
+"
+formatError
+"
 ]
 ;
 const
