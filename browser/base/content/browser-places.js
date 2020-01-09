@@ -4432,6 +4432,13 @@ HM__onCommand
 aEvent
 )
 {
+aEvent
+=
+getRootEvent
+(
+aEvent
+)
+;
 let
 placesNode
 =
