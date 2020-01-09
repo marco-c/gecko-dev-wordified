@@ -330,7 +330,6 @@ on
 the
 preference
 type
-or
 "
 save
 "
@@ -342,6 +341,16 @@ is
 in
 edit
 mode
+or
+"
+add
+"
+when
+the
+preference
+does
+not
+exist
 .
 *
 /
