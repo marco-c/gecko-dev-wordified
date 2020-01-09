@@ -301,7 +301,7 @@ const
 size_t
 kExceptionAppMemoryRegions
 =
-16
+33
 ;
 #
 if
