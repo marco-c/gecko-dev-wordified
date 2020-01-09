@@ -355,15 +355,6 @@ return
 VER
 ;
 }
-nsresult
-VerifySHA256
-(
-const
-nsACString
-&
-aSHA256
-)
-;
 RefPtr
 <
 VariableLengthPrefixSet
