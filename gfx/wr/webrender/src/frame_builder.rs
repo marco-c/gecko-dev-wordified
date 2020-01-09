@@ -2045,6 +2045,8 @@ self
 prim_store
 .
 prim_count
+(
+)
 )
 ;
 resource_cache
