@@ -717,6 +717,11 @@ aWindow
 get
 (
 )
+-
+>
+GetDOMWindow
+(
+)
 )
 ;
 }

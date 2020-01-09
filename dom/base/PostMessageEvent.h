@@ -190,6 +190,9 @@ mozilla
 namespace
 dom
 {
+class
+BrowsingContext
+;
 /
 *
 *
@@ -230,7 +233,7 @@ public
 NS_DECL_NSIRUNNABLE
 PostMessageEvent
 (
-nsGlobalWindowOuter
+BrowsingContext
 *
 aSource
 const
@@ -288,7 +291,7 @@ aEventTarget
 ;
 RefPtr
 <
-nsGlobalWindowOuter
+BrowsingContext
 >
 mSource
 ;

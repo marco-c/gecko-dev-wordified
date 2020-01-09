@@ -20927,6 +20927,11 @@ return
 WindowProxyHolder
 (
 win
+-
+>
+GetBrowsingContext
+(
+)
 )
 ;
 }

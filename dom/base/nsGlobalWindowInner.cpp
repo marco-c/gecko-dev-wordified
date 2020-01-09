@@ -20111,8 +20111,10 @@ nullptr
 )
 ;
 }
-nsPIDOMWindowOuter
-*
+already_AddRefed
+<
+BrowsingContext
+>
 nsGlobalWindowInner
 :
 :
@@ -22439,10 +22441,8 @@ nullptr
 )
 ;
 }
-already_AddRefed
-<
-nsPIDOMWindowOuter
->
+BrowsingContext
+*
 nsGlobalWindowInner
 :
 :
@@ -42163,9 +42163,9 @@ named
 "
 sidebar
 "
-nsCOMPtr
+RefPtr
 <
-nsPIDOMWindowOuter
+BrowsingContext
 >
 domWindow
 =

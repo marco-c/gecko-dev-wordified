@@ -7274,8 +7274,9 @@ return
 WindowProxyHolder
 (
 newWindow
-.
-forget
+-
+>
+GetBrowsingContext
 (
 )
 )

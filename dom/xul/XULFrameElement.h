@@ -210,6 +210,9 @@ namespace
 dom
 {
 class
+BrowsingContext
+;
+class
 XULFrameElement
 final
 :
@@ -261,7 +264,7 @@ nsXULElement
 XULFrameElement
 .
 webidl
-nsIDocShell
+nsDocShell
 *
 GetDocShell
 (
@@ -491,9 +494,9 @@ nsFrameLoader
 >
 mFrameLoader
 ;
-nsCOMPtr
+RefPtr
 <
-nsPIDOMWindowOuter
+BrowsingContext
 >
 mOpener
 ;

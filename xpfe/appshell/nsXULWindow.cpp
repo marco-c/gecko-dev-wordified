@@ -13176,6 +13176,11 @@ From
 (
 aOpener
 )
+-
+>
+GetBrowsingContext
+(
+)
 )
 ;
 }
