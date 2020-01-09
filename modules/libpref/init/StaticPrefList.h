@@ -3977,7 +3977,7 @@ initialdelay
 "
 html5_flushtimer_initialdelay
 RelaxedAtomicInt32
-120
+16
 )
 /
 /
@@ -4020,7 +4020,7 @@ subsequentdelay
 "
 html5_flushtimer_subsequentdelay
 RelaxedAtomicInt32
-120
+16
 )
 /
 /
