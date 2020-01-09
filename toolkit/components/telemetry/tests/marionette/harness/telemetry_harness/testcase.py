@@ -547,7 +547,9 @@ log
 level
 '
 :
-0
+'
+Trace
+'
             
 '
 toolkit
