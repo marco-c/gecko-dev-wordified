@@ -5843,6 +5843,10 @@ const
 bool
 &
 aIsFromPrivateWindow
+const
+bool
+&
+aIsFromChromeContext
 )
 ;
 mozilla
@@ -5886,6 +5890,10 @@ const
 bool
 &
 aIsFromPrivateWindow
+const
+bool
+&
+aIsFromChromeContext
 const
 ClonedMessageData
 &
@@ -5935,6 +5943,10 @@ const
 bool
 &
 aIsFromPrivateWindow
+const
+bool
+&
+aIsFromChromeContext
 const
 ClonedMessageData
 *

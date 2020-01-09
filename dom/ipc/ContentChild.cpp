@@ -2878,6 +2878,7 @@ flags
 ;
 bool
 fromPrivateWindow
+fromChromeContext
 ;
 nsresult
 rv
@@ -3022,6 +3023,23 @@ GetIsFromPrivateWindow
 (
 &
 fromPrivateWindow
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
+rv
+=
+scriptError
+-
+>
+GetIsFromChromeContext
+(
+&
+fromChromeContext
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3217,6 +3235,7 @@ colNum
 flags
 category
 fromPrivateWindow
+fromChromeContext
 cloned
 )
 ;
@@ -3238,6 +3257,7 @@ colNum
 flags
 category
 fromPrivateWindow
+fromChromeContext
 )
 ;
 return

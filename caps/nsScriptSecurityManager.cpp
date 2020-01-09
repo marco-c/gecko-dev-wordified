@@ -7568,6 +7568,14 @@ errorFlag
 SOP
 "
 aFromPrivateWindow
+true
+/
+*
+From
+chrome
+context
+*
+/
 )
 ;
 NS_ENSURE_SUCCESS

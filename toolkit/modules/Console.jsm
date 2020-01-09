@@ -3784,6 +3784,9 @@ prefix
 aConsole
 .
 prefix
+chromeContext
+:
+true
 }
 ;
 consoleEvent
@@ -4928,6 +4931,9 @@ arguments
 [
 profileName
 ]
+chromeContext
+:
+true
 }
 }
 "
@@ -4995,6 +5001,9 @@ arguments
 [
 profileName
 ]
+chromeContext
+:
+true
 }
 }
 "
