@@ -8059,7 +8059,8 @@ inherit
 toggle
 -
 button
-svg
+.
+img
 {
 fill
 :
@@ -8089,7 +8090,8 @@ dark
 toggle
 -
 button
-svg
+.
+img
 {
 fill
 :
@@ -8163,7 +8165,8 @@ toggle
 button
 .
 end
-svg
+.
+img
 html
 [
 dir
@@ -8178,7 +8181,8 @@ toggle
 button
 .
 start
-svg
+.
+img
 {
 transform
 :
@@ -8197,7 +8201,8 @@ button
 end
 .
 vertical
-svg
+.
+img
 {
 transform
 :
