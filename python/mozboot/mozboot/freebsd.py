@@ -418,7 +418,6 @@ def
 ensure_clang_static_analysis_package
 (
 self
-state_dir
 checkout_root
 )
 :
