@@ -377,11 +377,13 @@ if
 stack_fixer
 :
                 
-process_output
-=
-lambda
+def
+f
+(
 line
+)
 :
+return
 stream_output
 (
 stack_fixer
@@ -389,6 +391,10 @@ stack_fixer
 line
 )
 )
+                
+process_output
+=
+f
         
 proc
 =
@@ -795,7 +801,7 @@ mozinfo
 .
 has_sandbox
 :
-          
+            
 #
 Bug
 1082193
@@ -811,7 +817,7 @@ boxes
 run
 CentOS
 6
-          
+            
 #
 which
 is
@@ -825,7 +831,7 @@ Disable
 sandbox
 for
 gtests
-          
+            
 #
 on
 machines
@@ -839,7 +845,7 @@ until
 they
 can
 be
-          
+            
 #
 upgraded
 or
@@ -851,7 +857,7 @@ test
 machines
 instead
 .
-          
+            
 env
 [
 "
@@ -888,10 +894,10 @@ the
 appropriate
 env
 variables
+        
 and
 values
 .
-        
 On
 a
 remote
@@ -902,6 +908,7 @@ this
 to
 set
 different
+        
 values
 and
 are
@@ -1293,6 +1300,9 @@ to
 directory
 from
 which
+"
+                             
+"
 to
 run
 the
@@ -1331,6 +1341,9 @@ to
 directory
 containing
 XRE
+"
+                             
+"
 (
 probably
 xulrunner
@@ -1369,6 +1382,9 @@ to
 directory
 containing
 breakpad
+"
+                             
+"
 symbols
 or
 the
@@ -1378,6 +1394,9 @@ a
 zip
 file
 containing
+"
+                             
+"
 symbols
 "
 )
