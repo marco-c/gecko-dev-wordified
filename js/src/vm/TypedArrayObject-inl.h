@@ -4570,6 +4570,17 @@ v
 isSymbol
 (
 )
+|
+|
+IF_BIGINT
+(
+v
+.
+isBigInt
+(
+)
+false
+)
 )
 ;
 if
