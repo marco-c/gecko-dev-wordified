@@ -238,9 +238,6 @@ className
 main
 -
 heading
-runtime
--
-info
 "
 }
 dom
@@ -251,9 +248,9 @@ img
 className
 :
 "
-runtime
+main
 -
-info__icon
+heading__icon
 "
 src
 :
