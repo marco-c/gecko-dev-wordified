@@ -4298,9 +4298,14 @@ false
 }
 if
 (
-this
+UrlbarPrefs
 .
-openInTab
+get
+(
+"
+openintab
+"
+)
 )
 {
 if
