@@ -542,6 +542,7 @@ ErrorResult
 aRv
 )
 ;
+virtual
 void
 Destroy
 (
