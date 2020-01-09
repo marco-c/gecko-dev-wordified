@@ -310,6 +310,15 @@ getUpdateChannel
 {
 }
 }
+BrowserWindowTracker
+:
+{
+getTopWindow
+(
+)
+{
+}
+}
 ChromeUtils
 :
 {

@@ -463,6 +463,17 @@ selectedTab
 {
 }
 }
+ConfirmationHint
+:
+{
+show
+:
+sinon
+.
+stub
+(
+)
+}
 }
 }
 ;
