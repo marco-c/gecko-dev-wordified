@@ -1,9 +1,3 @@
-(
-function
-forward_wast_js
-(
-)
-{
 /
 /
 forward
@@ -334,14 +328,5 @@ odd
 ]
 )
 0
-)
-;
-reinitializeRegistry
-(
-)
-;
-}
-)
-(
 )
 ;

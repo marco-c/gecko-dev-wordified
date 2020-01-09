@@ -1,9 +1,3 @@
-(
-function
-switch_wast_js
-(
-)
-{
 /
 /
 switch
@@ -3010,14 +3004,5 @@ x03
 \
 x0b
 "
-)
-;
-reinitializeRegistry
-(
-)
-;
-}
-)
-(
 )
 ;

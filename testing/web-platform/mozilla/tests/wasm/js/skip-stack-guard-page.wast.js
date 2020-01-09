@@ -1,9 +1,3 @@
-(
-function
-skip_stack_guard_page_wast_js
-(
-)
-{
 /
 /
 skip
@@ -37614,14 +37608,5 @@ skip
 900
 ]
 )
-)
-;
-reinitializeRegistry
-(
-)
-;
-}
-)
-(
 )
 ;

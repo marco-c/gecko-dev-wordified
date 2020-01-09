@@ -1,9 +1,3 @@
-(
-function
-endianness_wast_js
-(
-)
-{
 /
 /
 endianness
@@ -15260,12 +15254,3 @@ f64_store
 +
 308
 )
-reinitializeRegistry
-(
-)
-;
-}
-)
-(
-)
-;
