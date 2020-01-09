@@ -2385,6 +2385,12 @@ hack
 dispatch_non_printable_keys
 "
 "
+medium
+.
+com
+/
+p
+/
 "
 )
 ;
@@ -19330,6 +19336,9 @@ q
 0
 .
 9
+image
+/
+webp
 *
 /
 *
