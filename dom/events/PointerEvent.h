@@ -258,6 +258,8 @@ aParam
 int32_t
 PointerId
 (
+CallerType
+aCallerType
 )
 ;
 int32_t
