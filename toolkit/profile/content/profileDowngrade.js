@@ -217,6 +217,16 @@ hidden
 hasSync
 ;
 }
+document
+.
+addEventListener
+(
+"
+dialogextra1
+"
+createProfile
+)
+;
 }
 function
 quit

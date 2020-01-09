@@ -379,9 +379,6 @@ close
 (
 )
 ;
-return
-true
-;
 }
 /
 /
@@ -402,9 +399,6 @@ confirms
 showResetDialog
 (
 )
-;
-return
-false
 ;
 }
 function
@@ -555,4 +549,14 @@ hidden
 true
 ;
 }
+document
+.
+addEventListener
+(
+"
+dialogextra1
+"
+onExtra1
+)
+;
 }
