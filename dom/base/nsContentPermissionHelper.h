@@ -1038,7 +1038,6 @@ when
 prompt
 dismissed
 .
-virtual
 mozilla
 :
 :
@@ -1060,9 +1059,7 @@ PermissionChoice
 &
 aChoices
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1073,7 +1070,6 @@ IPCResult
 RecvGetVisibility
 (
 )
-override
 ;
 void
 IPDLAddRef

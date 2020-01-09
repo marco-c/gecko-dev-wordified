@@ -210,7 +210,6 @@ Init
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -221,9 +220,7 @@ IPCResult
 RecvClose
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -234,7 +231,6 @@ IPCResult
 RecvRequestDelete
 (
 )
-override
 ;
 void
 AddIPDLReference

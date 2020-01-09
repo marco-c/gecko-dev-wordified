@@ -532,7 +532,6 @@ CompositorIsInGPUProcess
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -559,9 +558,7 @@ TimeStamp
 &
 aCompositeEnd
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -579,9 +576,7 @@ FrameStats
 &
 aFrameStats
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -596,9 +591,7 @@ LayersId
 &
 aLayersId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -624,9 +617,7 @@ PluginWindowData
 &
 aPlugins
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -641,9 +632,7 @@ uintptr_t
 &
 aParentWidget
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -658,7 +647,6 @@ uintptr_t
 &
 aParentWidget
 )
-override
 ;
 PTextureChild
 *
@@ -705,7 +693,6 @@ PTextureChild
 actor
 )
 ;
-virtual
 mozilla
 :
 :
@@ -723,7 +710,6 @@ AsyncParentMessageData
 &
 aMessages
 )
-override
 ;
 virtual
 PTextureChild
@@ -1790,7 +1776,6 @@ aWhy
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1826,9 +1811,7 @@ uint32_t
 &
 aAPZCId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1847,9 +1830,7 @@ uint32_t
 &
 aAPZCId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1860,7 +1841,6 @@ IPCResult
 RecvRemotePaintIsReady
 (
 )
-override
 ;
 mozilla
 :
@@ -1884,9 +1864,7 @@ bool
 &
 aActive
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1901,7 +1879,6 @@ WebRenderError
 &
 aError
 )
-override
 ;
 uint64_t
 GetNextResourceId

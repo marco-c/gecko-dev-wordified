@@ -159,7 +159,6 @@ bool
 &
 aIsSpeaking
 )
-override
 ;
 mozilla
 :
@@ -175,7 +174,6 @@ RemoteVoice
 &
 aVoice
 )
-override
 ;
 mozilla
 :
@@ -191,7 +189,6 @@ nsString
 &
 aUri
 )
-override
 ;
 mozilla
 :
@@ -211,7 +208,6 @@ bool
 &
 aIsDefault
 )
-override
 ;
 mozilla
 :
@@ -227,7 +223,6 @@ bool
 &
 aIsSpeaking
 )
-override
 ;
 mozilla
 :
@@ -239,7 +234,6 @@ IPCResult
 RecvNotifyVoicesChanged
 (
 )
-override
 ;
 protected
 :

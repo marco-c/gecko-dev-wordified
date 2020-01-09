@@ -311,7 +311,6 @@ SurfaceDescriptorShared
 &
 aDesc
 )
-override
 ;
 mozilla
 :
@@ -330,7 +329,6 @@ ExternalImageId
 &
 aId
 )
-override
 ;
 mozilla
 :
@@ -345,9 +343,7 @@ ReportSharedSurfacesMemoryResolver
 &
 &
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -358,9 +354,7 @@ IPCResult
 RecvNotifyMemoryPressure
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -374,7 +368,6 @@ ReportMemoryResolver
 &
 &
 )
-override
 ;
 void
 BindComplete

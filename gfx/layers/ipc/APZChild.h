@@ -206,7 +206,6 @@ RepaintRequest
 &
 aRequest
 )
-override
 ;
 mozilla
 :
@@ -230,7 +229,6 @@ bool
 &
 aIsRootContent
 )
-override
 ;
 mozilla
 :
@@ -254,7 +252,6 @@ bool
 &
 aIsRootContent
 )
-override
 ;
 mozilla
 :
@@ -274,7 +271,6 @@ nsString
 &
 aEvent
 )
-override
 ;
 mozilla
 :
@@ -298,7 +294,6 @@ int
 &
 aArg
 )
-override
 ;
 mozilla
 :
@@ -310,7 +305,6 @@ IPCResult
 RecvNotifyFlushComplete
 (
 )
-override
 ;
 mozilla
 :
@@ -334,7 +328,6 @@ ScrollDirection
 &
 aDirection
 )
-override
 ;
 mozilla
 :
@@ -350,7 +343,6 @@ ViewID
 &
 aScrollId
 )
-override
 ;
 mozilla
 :
@@ -366,7 +358,6 @@ ViewID
 &
 aScrollId
 )
-override
 ;
 mozilla
 :
@@ -378,7 +369,6 @@ IPCResult
 RecvDestroy
 (
 )
-override
 ;
 private
 :

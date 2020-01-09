@@ -248,7 +248,6 @@ aWhy
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -263,7 +262,6 @@ FileDescriptor
 &
 aFileDescriptor
 )
-override
 ;
 }
 ;

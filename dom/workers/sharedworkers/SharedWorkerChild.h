@@ -233,7 +233,6 @@ ErrorValue
 &
 aValue
 )
-override
 ;
 mozilla
 :
@@ -245,7 +244,6 @@ IPCResult
 RecvTerminate
 (
 )
-override
 ;
 void
 ActorDestroy

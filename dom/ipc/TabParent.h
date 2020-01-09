@@ -671,7 +671,6 @@ AddWindowListeners
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -690,9 +689,7 @@ bool
 &
 aForDocumentNavigation
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -723,9 +720,7 @@ int32_t
 &
 aShellItemHeight
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -743,9 +738,7 @@ nsString
 &
 aLinks
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -760,9 +753,7 @@ RemoteDOMEvent
 &
 aEvent
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -777,9 +768,7 @@ WidgetKeyboardEvent
 &
 aEvent
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -794,9 +783,7 @@ WidgetKeyboardEvent
 &
 aEvent
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -811,9 +798,7 @@ bool
 &
 aHasBeforeUnload
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -838,9 +823,7 @@ nsIURI
 *
 aDocURI
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -863,9 +846,7 @@ uint32_t
 &
 aEvent
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -895,9 +876,7 @@ BrowserFrameOpenWindowResolver
 &
 aResolve
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -939,9 +918,7 @@ StructuredCloneData
 *
 aRetVal
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -983,9 +960,7 @@ StructuredCloneData
 *
 aRetVal
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1018,9 +993,7 @@ ClonedMessageData
 &
 aData
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1046,9 +1019,7 @@ NotifyIMEFocusResolver
 &
 aResolve
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1070,9 +1041,7 @@ IMENotification
 &
 aEventMessage
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1094,9 +1063,7 @@ IMENotification
 &
 aEventMessage
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1118,9 +1085,7 @@ IMENotification
 &
 aEventMessage
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1135,9 +1100,7 @@ ContentCache
 &
 aContentCache
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1158,9 +1121,7 @@ bool
 *
 aConsumedByIME
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1182,9 +1143,7 @@ IMENotification
 &
 aEventMessage
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1199,9 +1158,7 @@ EventMessage
 &
 aMessage
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1222,9 +1179,7 @@ nsString
 *
 aCommittedString
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1250,9 +1205,7 @@ nsString
 *
 aCommitted
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1267,9 +1220,7 @@ bool
 &
 aFocused
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1287,9 +1238,7 @@ CandidateWindowPosition
 &
 aPosition
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1304,9 +1253,7 @@ bool
 &
 aEnable
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1321,9 +1268,7 @@ WidgetPluginEvent
 &
 aEvent
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1340,9 +1285,7 @@ IMEState
 *
 aIMEState
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1367,7 +1310,6 @@ InputContextAction
 &
 aAction
 )
-override
 ;
 /
 /
@@ -1386,7 +1328,6 @@ aIsConsumed
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1401,9 +1342,7 @@ NativeEventData
 &
 aKeyEventData
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1418,9 +1357,7 @@ bool
 &
 aCanRaise
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1453,9 +1390,7 @@ LayoutDeviceIntPoint
 &
 aPoint
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1484,9 +1419,7 @@ nsCString
 &
 aDisabledCommands
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1540,9 +1473,7 @@ bool
 &
 aForce
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1561,9 +1492,7 @@ nsString
 &
 aStatus
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1590,9 +1519,7 @@ nsString
 &
 aDirection
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1603,9 +1530,7 @@ IPCResult
 RecvHideTooltip
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1620,9 +1545,7 @@ uintptr_t
 &
 childWindow
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1633,9 +1556,7 @@ IPCResult
 RecvDispatchFocusToTopLevelWindow
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1654,9 +1575,7 @@ bool
 &
 aStartSwipe
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1674,9 +1593,7 @@ WidgetWheelEvent
 &
 aEvent
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1694,9 +1611,7 @@ WidgetMouseEvent
 &
 aEvent
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1714,7 +1629,6 @@ WidgetKeyboardEvent
 &
 aEvent
 )
-override
 ;
 PColorPickerParent
 *
@@ -2020,7 +1934,6 @@ GetLayoutDeviceToCSSScale
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -2051,9 +1964,7 @@ CommandInt
 *
 aCommands
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2088,9 +1999,7 @@ uint64_t
 &
 aObserverId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2117,9 +2026,7 @@ uint64_t
 &
 aObserverId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2138,9 +2045,7 @@ uint64_t
 &
 aObserverId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2183,9 +2088,7 @@ uint64_t
 &
 aObserverId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2220,9 +2123,7 @@ uint64_t
 &
 aObserverId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2245,9 +2146,7 @@ uint64_t
 &
 aObserverId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2262,9 +2161,7 @@ uint64_t
 &
 aObserverId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2279,9 +2176,7 @@ bool
 &
 aValue
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2292,7 +2187,6 @@ IPCResult
 RecvResetPrefersReducedMotionOverrideForTest
 (
 )
-override
 ;
 void
 SendMouseEvent
@@ -3037,7 +2931,6 @@ nscolor
 aBackgroundColor
 )
 ;
-virtual
 mozilla
 :
 :
@@ -3085,7 +2978,6 @@ Principal
 &
 aPrincipal
 )
-override
 ;
 void
 AddInitialDnDDataTo
@@ -3141,7 +3033,6 @@ CompositorOptions
 *
 aCompositorOptions
 )
-override
 ;
 /
 /
@@ -3242,7 +3133,6 @@ aJSONRetVal
 nullptr
 )
 ;
-virtual
 mozilla
 :
 :
@@ -3265,7 +3155,6 @@ uint64_t
 &
 aCallbackId
 )
-override
 ;
 virtual
 mozilla
@@ -3299,7 +3188,6 @@ nsIBrowserDOMWindow
 >
 mBrowserDOMWindow
 ;
-virtual
 mozilla
 :
 :
@@ -3310,9 +3198,7 @@ IPCResult
 RecvRemotePaintIsReady
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3323,9 +3209,7 @@ IPCResult
 RecvNotifyCompositorTransaction
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3336,9 +3220,7 @@ IPCResult
 RecvRemoteIsReadyToHandleInputEvents
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3353,9 +3235,7 @@ LayersObserverEpoch
 &
 aEpoch
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3386,9 +3266,7 @@ int32_t
 &
 aCy
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3407,9 +3285,7 @@ bool
 &
 aHideDoorHanger
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3424,7 +3300,6 @@ BrowsingContextId
 &
 aId
 )
-override
 ;
 mozilla
 :
@@ -3440,7 +3315,6 @@ nsCString
 &
 aFontName
 )
-override
 ;
 mozilla
 :
@@ -3455,9 +3329,7 @@ nsCString
 *
 aFontName
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3480,9 +3352,7 @@ uint32_t
 &
 aFlags
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3500,7 +3370,6 @@ URIParams
 &
 aURIs
 )
-override
 ;
 ContentCacheInParent
 mContentCache

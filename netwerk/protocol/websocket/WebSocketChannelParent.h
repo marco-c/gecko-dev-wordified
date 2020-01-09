@@ -290,7 +290,6 @@ nsCString
 &
 aNegotiatedExtensions
 )
-override
 ;
 mozilla
 :
@@ -310,7 +309,6 @@ nsCString
 &
 reason
 )
-override
 ;
 mozilla
 :
@@ -326,7 +324,6 @@ nsCString
 &
 aMsg
 )
-override
 ;
 mozilla
 :
@@ -342,7 +339,6 @@ nsCString
 &
 aMsg
 )
-override
 ;
 mozilla
 :
@@ -362,7 +358,6 @@ uint32_t
 &
 aLength
 )
-override
 ;
 mozilla
 :
@@ -374,7 +369,6 @@ IPCResult
 RecvDeleteSelf
 (
 )
-override
 ;
 void
 ActorDestroy

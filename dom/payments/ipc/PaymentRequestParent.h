@@ -258,7 +258,6 @@ IPCPaymentActionRequest
 &
 aRequest
 )
-override
 ;
 mozilla
 :

@@ -209,7 +209,6 @@ IPCResult
 RecvOperationFailed
 (
 )
-override
 ;
 mozilla
 :
@@ -229,7 +228,6 @@ FileDescriptor
 &
 aFD
 )
-override
 ;
 void
 ActorDestroy

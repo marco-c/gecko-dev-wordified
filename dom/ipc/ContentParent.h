@@ -1529,7 +1529,6 @@ return
 mIPCOpen
 ;
 }
-virtual
 mozilla
 :
 :
@@ -1565,9 +1564,7 @@ bool
 *
 aIsForBrowser
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1588,9 +1585,7 @@ PContentBridgeParent
 *
 aEndpoint
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1608,9 +1603,7 @@ FileDescriptor
 *
 connection
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1625,9 +1618,7 @@ uint32_t
 &
 aChannelId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1638,9 +1629,7 @@ IPCResult
 RecvCreateGMPService
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1667,9 +1656,7 @@ PPluginModuleParent
 *
 aEndpoint
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1680,9 +1667,7 @@ IPCResult
 RecvMaybeReloadPlugins
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1706,9 +1691,7 @@ PPluginModuleParent
 *
 aEndpoint
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1728,9 +1711,7 @@ PRemoteDecoderManagerChild
 *
 aEndpoint
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1745,9 +1726,7 @@ uint32_t
 &
 aTime
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1772,7 +1751,6 @@ nsresult
 *
 aRv
 )
-override
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
@@ -2266,7 +2244,6 @@ OnChannelError
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -2285,7 +2262,6 @@ NativeThreadId
 &
 aThreadId
 )
-override
 ;
 PNeckoParent
 *
@@ -2365,7 +2341,6 @@ GetPrintingParent
 ;
 #
 endif
-virtual
 mozilla
 :
 :
@@ -2388,7 +2363,6 @@ InitStreamFilterResolver
 &
 aResolver
 )
-override
 ;
 virtual
 PChildToParentStreamParent
@@ -2525,7 +2499,6 @@ AllocPRemoteSpellcheckEngineParent
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -2552,7 +2525,6 @@ bool
 &
 aIsVideo
 )
-override
 ;
 bool
 CycleCollectWithLogs
@@ -2567,7 +2539,6 @@ nsIDumpGCAndCCLogsCallback
 aCallback
 )
 ;
-virtual
 mozilla
 :
 :
@@ -2590,9 +2561,7 @@ bool
 &
 aMarkedDestroying
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2611,7 +2580,6 @@ ContentParentId
 &
 aCpId
 )
-override
 ;
 nsTArray
 <
@@ -2700,9 +2668,7 @@ Principal
 &
 principal
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2713,7 +2679,6 @@ IPCResult
 RecvFinishShutdown
 (
 )
-override
 ;
 void
 MaybeInvokeDragSession
@@ -2785,7 +2750,6 @@ bool
 aBlocking
 )
 ;
-virtual
 mozilla
 :
 :
@@ -2849,9 +2813,7 @@ CreateWindowResolver
 &
 aResolve
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2912,7 +2874,6 @@ uint32_t
 &
 aReferrerPolicy
 )
-override
 ;
 static
 void
@@ -2950,7 +2911,6 @@ aIgnoreThisCP
 nullptr
 )
 ;
-virtual
 mozilla
 :
 :
@@ -2973,9 +2933,7 @@ Principal
 &
 aPrincipal
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2990,9 +2948,7 @@ nsCString
 &
 aURI
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3006,9 +2962,7 @@ uint32_t
 *
 aContentId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3027,7 +2981,6 @@ IHandlerControlHolder
 &
 aHandlerControl
 )
-override
 ;
 virtual
 int32_t
@@ -3395,7 +3348,6 @@ IsInputEventQueueSupported
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -3422,9 +3374,7 @@ nsString
 &
 aName
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3443,9 +3393,7 @@ bool
 &
 aMoveToBFCache
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3464,9 +3412,7 @@ BrowsingContextId
 &
 aOpenerContextId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3485,9 +3431,7 @@ bool
 &
 aTrustedCaller
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3502,9 +3446,7 @@ BrowsingContextId
 &
 aContextId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3519,9 +3461,7 @@ BrowsingContextId
 &
 aContextId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3544,9 +3484,7 @@ PostMessageData
 &
 aData
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3565,7 +3503,6 @@ bool
 &
 aNewValue
 )
-override
 ;
 protected
 :
@@ -4769,7 +4706,6 @@ nsAString
 aContentProcessType
 )
 ;
-virtual
 mozilla
 :
 :
@@ -4793,7 +4729,6 @@ PBackgroundParent
 &
 aEndpoint
 )
-override
 ;
 mozilla
 :
@@ -4809,7 +4744,6 @@ MemoryReport
 &
 aReport
 )
-override
 ;
 mozilla
 :
@@ -4825,7 +4759,6 @@ uint32_t
 &
 aGeneration
 )
-override
 ;
 mozilla
 :
@@ -4848,7 +4781,6 @@ PerformanceInfo
 &
 aMetrics
 )
-override
 ;
 virtual
 bool
@@ -4999,7 +4931,6 @@ aActor
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -5029,9 +4960,7 @@ bool
 *
 aIsSecureURI
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5054,7 +4983,6 @@ OriginAttributes
 &
 aOriginAttributes
 )
-override
 ;
 bool
 DeallocPHalParent
@@ -5319,7 +5247,6 @@ PWebBrowserPersistDocumentParent
 aActor
 )
 ;
-virtual
 mozilla
 :
 :
@@ -5336,9 +5263,7 @@ GfxVarUpdate
 *
 aVars
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5355,9 +5280,7 @@ FontListEntry
 *
 retValue
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5391,9 +5314,7 @@ int32_t
 &
 aWhichClipboard
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5418,9 +5339,7 @@ IPCDataTransfer
 *
 aDataTransfer
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5435,9 +5354,7 @@ int32_t
 &
 aWhichClipboard
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5462,9 +5379,7 @@ bool
 *
 aHasType
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5489,9 +5404,7 @@ nsCString
 *
 aTypes
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5506,9 +5419,7 @@ URIParams
 &
 aURI
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5519,9 +5430,7 @@ IPCResult
 RecvBeep
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5536,9 +5445,7 @@ uint32_t
 &
 aEventId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5563,9 +5470,7 @@ uint8_t
 *
 bits
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5579,9 +5484,7 @@ bool
 *
 showPassword
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5596,9 +5499,7 @@ URIParams
 &
 uri
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5617,7 +5518,6 @@ nsString
 &
 title
 )
-override
 ;
 bool
 HasNotificationPermission
@@ -5631,7 +5531,6 @@ Principal
 aPrincipal
 )
 ;
-virtual
 mozilla
 :
 :
@@ -5645,9 +5544,7 @@ nsIAlertNotification
 *
 aAlert
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5669,9 +5566,7 @@ Principal
 &
 aPrincipal
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5689,9 +5584,7 @@ Principal
 &
 aPrincipal
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5709,9 +5602,7 @@ Principal
 &
 aPrincipal
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5730,9 +5621,7 @@ NotificationEventData
 &
 aData
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5750,9 +5639,7 @@ PBrowserParent
 *
 windowContext
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5767,9 +5654,7 @@ uint32_t
 &
 registrarId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5810,7 +5695,6 @@ aRetvals
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -5851,7 +5735,6 @@ aRetvals
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -5886,7 +5769,6 @@ aData
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -5908,9 +5790,7 @@ bool
 &
 aHighAccuracy
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5921,9 +5801,7 @@ IPCResult
 RecvRemoveGeolocationListener
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5938,9 +5816,7 @@ bool
 &
 aEnable
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -5955,9 +5831,7 @@ nsString
 &
 aMessage
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6000,9 +5874,7 @@ bool
 &
 aIsFromPrivateWindow
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6049,7 +5921,6 @@ ClonedMessageData
 &
 aStack
 )
-override
 ;
 private
 :
@@ -6104,7 +5975,6 @@ nullptr
 ;
 public
 :
-virtual
 mozilla
 :
 :
@@ -6119,9 +5989,7 @@ bool
 &
 aExist
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6132,9 +6000,7 @@ IPCResult
 RecvFirstIdle
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6145,9 +6011,7 @@ IPCResult
 RecvDeviceReset
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6174,9 +6038,7 @@ OptionalURIParams
 *
 aURI
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6195,9 +6057,7 @@ nsString
 &
 aKeyword
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6227,7 +6087,6 @@ bool
 &
 aInPrivateBrowsing
 )
-override
 ;
 virtual
 void
@@ -6242,7 +6101,6 @@ aMsgName
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -6257,9 +6115,7 @@ nsCString
 &
 aError
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6277,9 +6133,7 @@ bool
 *
 aOutCrashed
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6294,9 +6148,7 @@ uint32_t
 &
 aGuardType
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6315,9 +6167,7 @@ uint32_t
 &
 aIdleTimeInS
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6336,9 +6186,7 @@ uint32_t
 &
 aIdleTimeInS
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6353,9 +6201,7 @@ FileDescriptor
 &
 aXSocketFd
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6370,9 +6216,7 @@ uint64_t
 &
 aID
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6387,9 +6231,7 @@ CreateAudioIPCConnectionResolver
 &
 aResolver
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6419,9 +6261,7 @@ nsString
 *
 newValue
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6441,7 +6281,6 @@ nsString
 *
 aContent
 )
-override
 ;
 virtual
 PFileDescriptorSetParent
@@ -6483,7 +6322,6 @@ PWebrtcGlobalParent
 aActor
 )
 ;
-virtual
 mozilla
 :
 :
@@ -6502,9 +6340,7 @@ uint32_t
 &
 aDropEffect
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6519,9 +6355,7 @@ nsCString
 &
 aProfile
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6535,9 +6369,7 @@ ContentDeviceData
 *
 aOut
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6551,9 +6383,7 @@ AndroidSystemInfo
 *
 aInfo
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6572,9 +6402,7 @@ uint32_t
 &
 aDecodeFPS
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6600,9 +6428,7 @@ nsString
 &
 aMessageId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6635,9 +6461,7 @@ uint8_t
 &
 aData
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6659,9 +6483,7 @@ Principal
 &
 aPrincipal
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6691,9 +6513,7 @@ uint32_t
 &
 aFlags
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6715,9 +6535,7 @@ Principal
 &
 aPrincipal
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6740,9 +6558,7 @@ bool
 &
 aRecursiveFlag
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6757,9 +6573,7 @@ nsID
 &
 aID
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6802,9 +6616,7 @@ bool
 &
 aIsFromNsIFile
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6822,9 +6634,7 @@ HistogramAccumulation
 &
 aAccumulations
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6842,9 +6652,7 @@ KeyedHistogramAccumulation
 &
 aAccumulations
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6862,9 +6670,7 @@ ScalarAction
 &
 aScalarActions
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6882,9 +6688,7 @@ KeyedScalarAction
 &
 aScalarActions
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6902,9 +6706,7 @@ ChildEventData
 &
 events
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6919,9 +6721,7 @@ DiscardedData
 &
 aDiscardedData
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6936,9 +6736,7 @@ HangDetails
 &
 aHangDetails
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6973,9 +6771,7 @@ FirstPartyStorageAccessGrantedForOriginResolver
 &
 aResolver
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -6990,7 +6786,6 @@ Principal
 &
 aPrincipal
 )
-override
 ;
 /
 /

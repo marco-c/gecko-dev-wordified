@@ -705,7 +705,6 @@ nsIURI
 *
 aURI
 )
-override
 ;
 mozilla
 :
@@ -717,7 +716,6 @@ IPCResult
 RecvBecomeCurrentWindowGlobal
 (
 )
-override
 ;
 mozilla
 :
@@ -729,7 +727,6 @@ IPCResult
 RecvDestroy
 (
 )
-override
 ;
 void
 ActorDestroy

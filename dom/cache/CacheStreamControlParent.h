@@ -342,7 +342,6 @@ aReason
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -361,9 +360,7 @@ OpenStreamResolver
 &
 aResolve
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -378,7 +375,6 @@ nsID
 &
 aId
 )
-override
 ;
 void
 NotifyClose

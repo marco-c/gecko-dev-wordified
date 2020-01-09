@@ -249,7 +249,6 @@ bool
 &
 allow
 )
-override
 ;
 bool
 *

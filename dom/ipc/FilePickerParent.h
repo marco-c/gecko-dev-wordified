@@ -262,7 +262,6 @@ BlobImplOrString
 aData
 )
 ;
-virtual
 mozilla
 :
 :
@@ -322,7 +321,6 @@ nsString
 &
 aOkButtonLabel
 )
-override
 ;
 virtual
 void

@@ -157,7 +157,6 @@ GamepadEventChannelChild
 )
 {
 }
-virtual
 mozilla
 :
 :
@@ -172,9 +171,7 @@ GamepadChangeEvent
 &
 aGamepadEvent
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -189,7 +186,6 @@ uint32_t
 &
 aPromiseID
 )
-override
 ;
 void
 AddPromise

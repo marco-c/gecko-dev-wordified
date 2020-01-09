@@ -328,7 +328,6 @@ int32_t
 &
 aCoreCount
 )
-override
 ;
 mozilla
 :
@@ -359,7 +358,6 @@ int64_t
 &
 aRenderTimeMs
 )
-override
 ;
 mozilla
 :
@@ -375,7 +373,6 @@ Shmem
 &
 aFrameBuffer
 )
-override
 ;
 mozilla
 :
@@ -387,7 +384,6 @@ IPCResult
 RecvReset
 (
 )
-override
 ;
 mozilla
 :
@@ -399,7 +395,6 @@ IPCResult
 RecvDrain
 (
 )
-override
 ;
 mozilla
 :
@@ -411,7 +406,6 @@ IPCResult
 RecvDecodingComplete
 (
 )
-override
 ;
 GMPContentChild
 *

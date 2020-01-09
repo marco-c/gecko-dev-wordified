@@ -876,7 +876,6 @@ PDNSRequestParent
 *
 )
 ;
-virtual
 mozilla
 :
 :
@@ -899,9 +898,7 @@ bool
 &
 aAnonymous
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -928,9 +925,7 @@ uint16_t
 &
 flags
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -961,7 +956,6 @@ nsresult
 &
 reason
 )
-override
 ;
 PWebSocketEventListenerParent
 *
@@ -1146,7 +1140,6 @@ PTransportProviderParent
 aActor
 )
 ;
-virtual
 mozilla
 :
 :
@@ -1173,9 +1166,7 @@ nsString
 &
 aDomain
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1194,7 +1185,6 @@ bool
 &
 aUserCancel
 )
-override
 ;
 /
 *
@@ -1202,7 +1192,6 @@ Predictor
 Messages
 *
 /
-virtual
 mozilla
 :
 :
@@ -1239,9 +1228,7 @@ bool
 &
 hasVerifier
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1274,9 +1261,7 @@ OriginAttributes
 &
 aOriginAttributes
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1287,9 +1272,7 @@ IPCResult
 RecvPredReset
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1304,9 +1287,7 @@ uint64_t
 &
 rcid
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1321,9 +1302,7 @@ uint64_t
 &
 rcid
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1338,14 +1317,12 @@ uint64_t
 &
 rcid
 )
-override
 ;
 /
 *
 WebExtensions
 *
 /
-virtual
 mozilla
 :
 :
@@ -1364,9 +1341,7 @@ GetExtensionStreamResolver
 &
 aResolve
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1385,7 +1360,6 @@ GetExtensionFDResolver
 &
 aResolve
 )
-override
 ;
 PTrackingDummyChannelParent
 *
@@ -1445,7 +1419,6 @@ aLoadInfo
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1460,7 +1433,6 @@ InitSocketProcessBridgeResolver
 &
 aResolver
 )
-override
 ;
 }
 ;

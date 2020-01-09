@@ -294,7 +294,6 @@ nsCString
 &
 aStorageId
 )
-override
 ;
 mozilla
 :
@@ -310,7 +309,6 @@ nsString
 &
 aAdapter
 )
-override
 ;
 mozilla
 :
@@ -326,7 +324,6 @@ nsCString
 &
 aLibs
 )
-override
 ;
 PGMPTimerChild
 *
@@ -374,7 +371,6 @@ IPCResult
 RecvCrashPluginNow
 (
 )
-override
 ;
 mozilla
 :
@@ -386,7 +382,6 @@ IPCResult
 RecvCloseActive
 (
 )
-override
 ;
 mozilla
 :
@@ -405,7 +400,6 @@ PGMPContentChild
 &
 aEndpoint
 )
-override
 ;
 void
 ActorDestroy

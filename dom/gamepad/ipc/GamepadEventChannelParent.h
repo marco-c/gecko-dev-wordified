@@ -163,7 +163,6 @@ aWhy
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -174,9 +173,7 @@ IPCResult
 RecvGamepadListenerAdded
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -187,9 +184,7 @@ IPCResult
 RecvGamepadListenerRemoved
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -220,9 +215,7 @@ uint32_t
 &
 aPromiseID
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -237,7 +230,6 @@ uint32_t
 &
 aGamepadIndex
 )
-override
 ;
 void
 DispatchUpdateEvent

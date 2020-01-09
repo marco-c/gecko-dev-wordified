@@ -213,7 +213,6 @@ NS_INLINE_DECL_REFCOUNTING
 MIDIPortChild
 )
 ;
-virtual
 mozilla
 :
 :
@@ -231,7 +230,6 @@ MIDIMessage
 &
 aMsgs
 )
-override
 ;
 virtual
 void
@@ -242,7 +240,6 @@ aWhy
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -261,7 +258,6 @@ uint32_t
 &
 aConnectionState
 )
-override
 ;
 MIDIPortChild
 (

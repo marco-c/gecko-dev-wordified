@@ -187,7 +187,6 @@ NS_INLINE_DECL_REFCOUNTING
 (
 PrintingParent
 )
-virtual
 mozilla
 :
 :
@@ -211,9 +210,7 @@ bool
 &
 isForPrinting
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -234,9 +231,7 @@ PrintData
 &
 aData
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -262,7 +257,6 @@ nsresult
 *
 rv
 )
-override
 ;
 PPrintProgressDialogParent
 *

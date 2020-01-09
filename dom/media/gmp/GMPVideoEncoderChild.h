@@ -291,7 +291,6 @@ uint32_t
 &
 aMaxPayloadSize
 )
-override
 ;
 mozilla
 :
@@ -321,7 +320,6 @@ GMPVideoFrameType
 &
 aFrameTypes
 )
-override
 ;
 mozilla
 :
@@ -337,7 +335,6 @@ Shmem
 &
 aEncodedBuffer
 )
-override
 ;
 mozilla
 :
@@ -357,7 +354,6 @@ uint32_t
 &
 aRTT
 )
-override
 ;
 mozilla
 :
@@ -377,7 +373,6 @@ uint32_t
 &
 aFrameRate
 )
-override
 ;
 mozilla
 :
@@ -393,7 +388,6 @@ bool
 &
 aEnable
 )
-override
 ;
 mozilla
 :
@@ -405,7 +399,6 @@ IPCResult
 RecvEncodingComplete
 (
 )
-override
 ;
 GMPContentChild
 *

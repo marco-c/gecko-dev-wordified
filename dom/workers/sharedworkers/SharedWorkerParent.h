@@ -230,7 +230,6 @@ IPCResult
 RecvClose
 (
 )
-override
 ;
 mozilla
 :
@@ -242,7 +241,6 @@ IPCResult
 RecvSuspend
 (
 )
-override
 ;
 mozilla
 :
@@ -254,7 +252,6 @@ IPCResult
 RecvResume
 (
 )
-override
 ;
 mozilla
 :
@@ -266,7 +263,6 @@ IPCResult
 RecvFreeze
 (
 )
-override
 ;
 mozilla
 :
@@ -278,7 +274,6 @@ IPCResult
 RecvThaw
 (
 )
-override
 ;
 bool
 IsSuspended

@@ -457,7 +457,6 @@ PBrowserStreamParent
 stream
 )
 ;
-virtual
 mozilla
 :
 :
@@ -474,9 +473,7 @@ NPError
 *
 result
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -494,9 +491,7 @@ NPError
 *
 result
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -514,9 +509,7 @@ NPError
 *
 result
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -533,9 +526,7 @@ NPError
 *
 result
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -553,9 +544,7 @@ bool
 *
 value
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -572,9 +561,7 @@ NPError
 *
 result
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -588,9 +575,7 @@ bool
 *
 value
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -604,9 +589,7 @@ bool
 *
 value
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -620,9 +603,7 @@ DxgiAdapterDesc
 *
 desc
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -640,9 +621,7 @@ NPError
 *
 result
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -660,9 +639,7 @@ NPError
 *
 result
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -680,9 +657,7 @@ NPError
 *
 result
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -700,9 +675,7 @@ NPError
 *
 result
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -720,9 +693,7 @@ NPError
 *
 result
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -740,9 +711,7 @@ NPError
 *
 result
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -764,9 +733,7 @@ NPError
 *
 result
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -796,7 +763,6 @@ NPError
 *
 result
 )
-override
 ;
 PStreamNotifyParent
 *
@@ -874,7 +840,6 @@ PStreamNotifyParent
 notifyData
 )
 ;
-virtual
 mozilla
 :
 :
@@ -889,9 +854,7 @@ NPRect
 &
 rect
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -902,9 +865,7 @@ IPCResult
 RecvRevokeCurrentDirectSurface
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -935,9 +896,7 @@ NPError
 *
 outError
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -952,9 +911,7 @@ WindowsHandle
 &
 handle
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -994,9 +951,7 @@ IntRect
 &
 dirty
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1018,13 +973,11 @@ IntRect
 &
 rect
 )
-override
 ;
 /
 /
 Async
 rendering
-virtual
 mozilla
 :
 :
@@ -1046,7 +999,6 @@ SurfaceDescriptor
 *
 prevSurface
 )
-override
 ;
 PPluginSurfaceParent
 *
@@ -1080,7 +1032,6 @@ PPluginSurfaceParent
 s
 )
 ;
-virtual
 mozilla
 :
 :
@@ -1095,9 +1046,7 @@ bool
 &
 aState
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1108,9 +1057,7 @@ IPCResult
 AnswerNPN_PopPopupsEnabledState
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1135,9 +1082,7 @@ NPError
 *
 result
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1163,9 +1108,7 @@ NPError
 *
 result
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1209,9 +1152,7 @@ bool
 *
 result
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1222,9 +1163,7 @@ IPCResult
 RecvRedrawPlugin
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1239,7 +1178,6 @@ NativeWindowHandle
 &
 childWindow
 )
-override
 ;
 NPError
 NPP_SetWindow
@@ -1411,7 +1349,6 @@ aOutput
 mSrcAttribute
 ;
 }
-virtual
 mozilla
 :
 :
@@ -1426,7 +1363,6 @@ bool
 &
 gotFocus
 )
-override
 ;
 nsresult
 AsyncSetWindow
@@ -1574,7 +1510,6 @@ instance
 for
 IME
 hook
-virtual
 mozilla
 :
 :
@@ -1598,9 +1533,7 @@ int32_t
 *
 aLength
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1621,9 +1554,7 @@ CandidateWindowPosition
 &
 aPosition
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1638,9 +1569,7 @@ bool
 &
 aCommitted
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1655,7 +1584,6 @@ bool
 &
 aEnable
 )
-override
 ;
 /
 /
@@ -1683,7 +1611,6 @@ bool
 aIsConsumed
 )
 ;
-virtual
 mozilla
 :
 :
@@ -1701,7 +1628,6 @@ NativeEventData
 &
 aKeyEventData
 )
-override
 ;
 private
 :

@@ -205,7 +205,6 @@ PVRGPUParent
 aEndpoint
 )
 ;
-virtual
 mozilla
 :
 :
@@ -216,9 +215,7 @@ IPCResult
 RecvStartVRService
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -229,7 +226,6 @@ IPCResult
 RecvStopVRService
 (
 )
-override
 ;
 private
 :

@@ -294,7 +294,6 @@ ShouldContinueFromReplyTimeout
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -309,7 +308,6 @@ PluginSettings
 &
 aSettings
 )
-override
 ;
 /
 /
@@ -317,7 +315,6 @@ Implement
 the
 PPluginModuleChild
 interface
-virtual
 mozilla
 :
 :
@@ -338,9 +335,7 @@ PProfilerChild
 &
 aEndpoint
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -351,9 +346,7 @@ IPCResult
 RecvDisableFlashProtectedMode
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -367,9 +360,7 @@ NPError
 *
 rv
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -387,9 +378,7 @@ NPError
 *
 rv
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -406,9 +395,7 @@ NPError
 *
 rv
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -426,9 +413,7 @@ PPluginModuleChild
 &
 endpoint
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -446,7 +431,6 @@ PFunctionBrokerChild
 &
 endpoint
 )
-override
 ;
 PPluginInstanceChild
 *
@@ -480,7 +464,6 @@ PPluginInstanceChild
 aActor
 )
 ;
-virtual
 mozilla
 :
 :
@@ -514,7 +497,6 @@ aValues
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -528,9 +510,7 @@ NPError
 *
 rv
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -550,9 +530,7 @@ bool
 *
 aGetSitesWithData
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -579,9 +557,7 @@ uint64_t
 &
 aCallbackId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -596,9 +572,7 @@ uint64_t
 &
 aCallbackId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -621,9 +595,7 @@ nsString
 &
 aIconPath
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -638,9 +610,7 @@ uint32_t
 &
 aSeconds
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -664,7 +634,6 @@ NativeThreadId
 *
 aId
 )
-override
 ;
 virtual
 void
@@ -675,7 +644,6 @@ why
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -686,9 +654,7 @@ IPCResult
 RecvProcessNativeEventsInInterruptCall
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -702,7 +668,6 @@ bool
 *
 aResult
 )
-override
 ;
 public
 :
@@ -1187,7 +1152,6 @@ NPAudioDeviceChangeDetailsIPC
 &
 detailsIPC
 )
-override
 ;
 mozilla
 :
@@ -1203,7 +1167,6 @@ NPAudioDeviceStateChangedIPC
 &
 aDeviceStateIPC
 )
-override
 ;
 private
 :

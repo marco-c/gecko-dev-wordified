@@ -198,7 +198,6 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOFFLINECACHEUPDATE
-virtual
 mozilla
 :
 :
@@ -217,9 +216,7 @@ uint64_t
 &
 byteProgress
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -238,9 +235,7 @@ nsCString
 &
 cacheClientId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -259,7 +254,6 @@ bool
 &
 isUpgrade
 )
-override
 ;
 explicit
 OfflineCacheUpdateChild

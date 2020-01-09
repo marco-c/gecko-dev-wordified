@@ -1020,7 +1020,6 @@ NativeThreadId
 &
 aThreadId
 )
-override
 ;
 mozilla
 :
@@ -1090,7 +1089,6 @@ IPCResult
 RecvPGMPContentChildDestroyed
 (
 )
-override
 ;
 bool
 IsUsed

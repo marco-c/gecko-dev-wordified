@@ -662,7 +662,6 @@ PVRLayerChild
 actor
 )
 ;
-virtual
 mozilla
 :
 :
@@ -680,9 +679,7 @@ VRDisplayInfo
 &
 aDisplayUpdates
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -701,9 +698,7 @@ VRSubmitFrameResultInfo
 &
 aResult
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -718,9 +713,7 @@ GamepadChangeEvent
 &
 aGamepadEvent
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -735,9 +728,7 @@ uint32_t
 &
 aPromiseID
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -760,9 +751,7 @@ uint32_t
 &
 aDeviceID
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -785,7 +774,6 @@ uint32_t
 &
 aDeviceID
 )
-override
 ;
 bool
 IsSameProcess

@@ -193,7 +193,6 @@ IPCPaymentActionResponse
 &
 aResponse
 )
-override
 ;
 mozilla
 :
@@ -213,7 +212,6 @@ IPCPaymentAddress
 &
 aAddress
 )
-override
 ;
 mozilla
 :
@@ -233,7 +231,6 @@ nsString
 &
 aOption
 )
-override
 ;
 mozilla
 :
@@ -261,7 +258,6 @@ nsString
 &
 aPayerPhone
 )
-override
 ;
 mozilla
 :
@@ -285,7 +281,6 @@ IPCMethodChangeDetails
 &
 aMethodDetails
 )
-override
 ;
 void
 ActorDestroy

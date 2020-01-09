@@ -253,7 +253,6 @@ FileDescriptor
 &
 aFD
 )
-override
 ;
 mozilla
 :

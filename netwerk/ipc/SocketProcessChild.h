@@ -225,7 +225,6 @@ Pref
 &
 aPref
 )
-override
 ;
 mozilla
 :
@@ -253,7 +252,6 @@ MaybeFileDesc
 &
 DMDFile
 )
-override
 ;
 mozilla
 :
@@ -269,7 +267,6 @@ bool
 &
 aOffline
 )
-override
 ;
 mozilla
 :
@@ -298,7 +295,6 @@ PSocketProcessBridgeParent
 &
 aEndpoint
 )
-override
 ;
 mozilla
 :
@@ -320,7 +316,6 @@ PProfilerChild
 &
 aEndpoint
 )
-override
 ;
 mozilla
 :
@@ -332,7 +327,6 @@ IPCResult
 RecvSocketProcessTelemetryPing
 (
 )
-override
 ;
 void
 CleanUp

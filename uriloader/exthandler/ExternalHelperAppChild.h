@@ -201,7 +201,6 @@ mHandler
 handler
 ;
 }
-virtual
 mozilla
 :
 :
@@ -216,7 +215,6 @@ nsresult
 &
 aStatus
 )
-override
 ;
 private
 :

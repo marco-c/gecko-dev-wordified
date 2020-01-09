@@ -136,7 +136,6 @@ bool
 *
 success
 )
-override
 ;
 virtual
 mozilla
@@ -160,7 +159,6 @@ SetDictionaryFromListResolver
 &
 aResolve
 )
-override
 ;
 virtual
 mozilla
@@ -180,7 +178,6 @@ bool
 *
 aIsMisspelled
 )
-override
 ;
 virtual
 mozilla
@@ -204,7 +201,6 @@ CheckAsyncResolver
 &
 aResolve
 )
-override
 ;
 virtual
 mozilla
@@ -230,7 +226,6 @@ nsString
 *
 aSuggestions
 )
-override
 ;
 private
 :

@@ -186,7 +186,6 @@ aPromise
 ;
 private
 :
-virtual
 mozilla
 :
 :
@@ -205,7 +204,6 @@ uint32_t
 &
 aIndex
 )
-override
 ;
 nsRefPtrHashtable
 <

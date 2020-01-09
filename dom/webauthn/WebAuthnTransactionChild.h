@@ -231,7 +231,6 @@ WebAuthnMakeCredentialResult
 &
 aResult
 )
-override
 ;
 mozilla
 :
@@ -251,7 +250,6 @@ WebAuthnGetAssertionResult
 &
 aResult
 )
-override
 ;
 mozilla
 :
@@ -271,7 +269,6 @@ nsresult
 &
 aError
 )
-override
 ;
 void
 ActorDestroy

@@ -181,7 +181,6 @@ Document
 aDocument
 )
 ;
-virtual
 mozilla
 :
 :
@@ -196,7 +195,6 @@ uint32_t
 &
 aNewFlags
 )
-override
 ;
 PWebBrowserPersistResourcesChild
 *

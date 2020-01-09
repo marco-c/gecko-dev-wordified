@@ -513,7 +513,6 @@ PTransportProviderChild
 aActor
 )
 ;
-virtual
 mozilla
 :
 :
@@ -540,7 +539,6 @@ uint64_t
 &
 aCallbackId
 )
-override
 ;
 PWebSocketEventListenerChild
 *
@@ -565,7 +563,6 @@ Predictor
 Messsages
 *
 /
-virtual
 mozilla
 :
 :
@@ -584,9 +581,7 @@ uint32_t
 &
 aHttpStatus
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -601,9 +596,7 @@ URIParams
 &
 aURI
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -618,9 +611,7 @@ URIParams
 &
 aURI
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -631,9 +622,7 @@ IPCResult
 RecvSpeculativeConnectRequest
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -648,7 +637,6 @@ const
 &
 type
 )
-override
 ;
 PTrackingDummyChannelChild
 *

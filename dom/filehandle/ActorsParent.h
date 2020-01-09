@@ -718,8 +718,8 @@ IPCResult
 RecvDeleteMe
 (
 )
-final
 ;
+virtual
 mozilla
 :
 :
@@ -733,7 +733,6 @@ int64_t
 *
 aFileId
 )
-override
 ;
 }
 ;

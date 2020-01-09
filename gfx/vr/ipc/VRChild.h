@@ -251,7 +251,6 @@ aWhy
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -266,9 +265,7 @@ nsCString
 &
 aPath
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -287,9 +284,7 @@ nsCString
 &
 aPath
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -308,7 +303,6 @@ NativeThreadId
 &
 aThreadId
 )
-override
 ;
 private
 :

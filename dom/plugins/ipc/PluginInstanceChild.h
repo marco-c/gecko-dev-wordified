@@ -391,7 +391,6 @@ lParam
 endif
 protected
 :
-virtual
 mozilla
 :
 :
@@ -405,9 +404,7 @@ NativeWindowHandle
 *
 aChildPluginWindow
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -422,9 +419,7 @@ NativeWindowHandle
 &
 aNetscapeWindow
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -439,9 +434,7 @@ NPRemoteWindow
 &
 window
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -458,9 +451,7 @@ NPError
 *
 rv
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -478,9 +469,7 @@ NPError
 *
 result
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -497,9 +486,7 @@ NPError
 *
 aResult
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -517,9 +504,7 @@ NPError
 *
 result
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -537,9 +522,7 @@ NPError
 *
 result
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -557,9 +540,7 @@ NPError
 *
 result
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -577,9 +558,7 @@ int16_t
 *
 handled
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -604,9 +583,7 @@ Shmem
 *
 rtnmem
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -628,13 +605,11 @@ int16_t
 *
 handled
 )
-override
 ;
 /
 /
 Async
 rendering
-virtual
 mozilla
 :
 :
@@ -653,7 +628,6 @@ NPRemoteWindow
 &
 aWindow
 )
-override
 ;
 virtual
 void
@@ -711,7 +685,6 @@ return
 true
 ;
 }
-virtual
 mozilla
 :
 :
@@ -729,7 +702,6 @@ int16_t
 *
 handled
 )
-override
 {
 PaintTracker
 pt
@@ -757,7 +729,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -772,9 +743,7 @@ NPRemoteEvent
 &
 event
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -789,9 +758,7 @@ double
 &
 aContentsScaleFactor
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -805,7 +772,6 @@ NPError
 *
 result
 )
-override
 ;
 PPluginScriptableObjectChild
 *
@@ -872,7 +838,6 @@ aHeaders
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -900,7 +865,6 @@ uint16_t
 *
 stype
 )
-override
 ;
 PBrowserStreamChild
 *
@@ -972,7 +936,6 @@ PStreamNotifyChild
 notifyData
 )
 ;
-virtual
 mozilla
 :
 :
@@ -983,9 +946,7 @@ IPCResult
 AnswerSetPluginFocus
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -996,9 +957,7 @@ IPCResult
 AnswerUpdateWindow
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1009,7 +968,6 @@ IPCResult
 RecvNPP_DidComposite
 (
 )
-override
 ;
 public
 :
@@ -1234,7 +1192,6 @@ DoAsyncRedraw
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -1253,7 +1210,6 @@ bool
 &
 aIsConsumed
 )
-override
 ;
 #
 if
@@ -1301,7 +1257,6 @@ IsUsingDirectDrawing
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -1320,7 +1275,6 @@ nsIntRect
 &
 aRect
 )
-override
 ;
 PPluginBackgroundDestroyerChild
 *

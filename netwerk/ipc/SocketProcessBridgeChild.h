@@ -244,7 +244,6 @@ IPCResult
 RecvTest
 (
 )
-override
 ;
 void
 ActorDestroy

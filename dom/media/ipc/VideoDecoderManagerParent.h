@@ -280,7 +280,6 @@ SurfaceDescriptor
 *
 aResult
 )
-override
 ;
 mozilla
 :
@@ -296,7 +295,6 @@ SurfaceDescriptorGPUVideo
 &
 aSD
 )
-override
 ;
 void
 ActorDestroy

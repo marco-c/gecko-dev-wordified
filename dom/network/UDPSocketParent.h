@@ -230,7 +230,6 @@ nsACString
 aFilter
 )
 ;
-virtual
 mozilla
 :
 :
@@ -261,9 +260,7 @@ uint32_t
 &
 sendBufferSize
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -278,7 +275,6 @@ UDPAddressInfo
 &
 aAddressInfo
 )
-override
 ;
 void
 DoSendConnectResponse
@@ -322,7 +318,6 @@ UDPAddressInfo
 aAddressInfo
 )
 ;
-virtual
 mozilla
 :
 :
@@ -341,9 +336,7 @@ UDPSocketAddr
 &
 aAddr
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -354,9 +347,7 @@ IPCResult
 RecvClose
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -367,9 +358,7 @@ IPCResult
 RecvRequestDelete
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -388,9 +377,7 @@ nsCString
 &
 aInterface
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -409,7 +396,6 @@ nsCString
 &
 aInterface
 )
-override
 ;
 private
 :

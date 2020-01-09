@@ -173,7 +173,6 @@ PresentationParent
 aParent
 )
 ;
-virtual
 mozilla
 :
 :
@@ -188,9 +187,7 @@ nsString
 &
 aSDP
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -205,9 +202,7 @@ nsString
 &
 aSDP
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -222,9 +217,7 @@ nsString
 &
 aCandidate
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -239,7 +232,6 @@ nsresult
 &
 aReason
 )
-override
 ;
 virtual
 void
@@ -250,7 +242,6 @@ aWhy
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -261,9 +252,7 @@ IPCResult
 RecvOnSessionTransport
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -278,7 +267,6 @@ nsresult
 &
 aReason
 )
-override
 ;
 private
 :

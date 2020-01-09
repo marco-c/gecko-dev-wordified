@@ -413,7 +413,6 @@ GMPErr
 &
 aStatus
 )
-override
 ;
 mozilla
 :
@@ -440,7 +439,6 @@ uint8_t
 &
 aBytes
 )
-override
 ;
 mozilla
 :
@@ -460,7 +458,6 @@ GMPErr
 &
 aStatus
 )
-override
 ;
 mozilla
 :
@@ -472,7 +469,6 @@ IPCResult
 RecvShutdown
 (
 )
-override
 ;
 private
 :

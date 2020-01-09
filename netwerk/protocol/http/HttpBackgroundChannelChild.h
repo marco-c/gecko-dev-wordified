@@ -304,7 +304,6 @@ nsCString
 &
 aData
 )
-override
 ;
 IPCResult
 RecvOnStopRequest
@@ -326,7 +325,6 @@ nsHttpHeaderArray
 &
 aResponseTrailers
 )
-override
 ;
 IPCResult
 RecvOnProgress
@@ -340,7 +338,6 @@ int64_t
 &
 aProgressMax
 )
-override
 ;
 IPCResult
 RecvOnStatus
@@ -350,25 +347,21 @@ nsresult
 &
 aStatus
 )
-override
 ;
 IPCResult
 RecvFlushedForDiversion
 (
 )
-override
 ;
 IPCResult
 RecvDivertMessages
 (
 )
-override
 ;
 IPCResult
 RecvOnStartRequestSent
 (
 )
-override
 ;
 IPCResult
 RecvNotifyChannelClassifierProtectionDisabled
@@ -378,13 +371,11 @@ uint32_t
 &
 aAcceptedReason
 )
-override
 ;
 IPCResult
 RecvNotifyCookieAllowed
 (
 )
-override
 ;
 IPCResult
 RecvNotifyCookieBlocked
@@ -394,7 +385,6 @@ uint32_t
 &
 aRejectedReason
 )
-override
 ;
 IPCResult
 RecvNotifyTrackingResource
@@ -404,7 +394,6 @@ bool
 &
 aIsThirdParty
 )
-override
 ;
 IPCResult
 RecvNotifyFlashPluginStateChanged
@@ -417,7 +406,6 @@ FlashPluginState
 &
 aState
 )
-override
 ;
 IPCResult
 RecvSetClassifierMatchedInfo
@@ -427,7 +415,6 @@ ClassifierInfo
 &
 info
 )
-override
 ;
 void
 ActorDestroy

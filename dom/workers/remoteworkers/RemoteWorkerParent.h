@@ -211,7 +211,6 @@ ErrorValue
 &
 aValue
 )
-override
 ;
 mozilla
 :
@@ -223,7 +222,6 @@ IPCResult
 RecvClose
 (
 )
-override
 ;
 mozilla
 :
@@ -239,7 +237,6 @@ bool
 &
 aStatus
 )
-override
 ;
 RefPtr
 <

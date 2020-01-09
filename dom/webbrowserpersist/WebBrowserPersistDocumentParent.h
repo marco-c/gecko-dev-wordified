@@ -347,7 +347,6 @@ WebBrowserPersistDocumentAttrs
 IPDL
 methods
 :
-virtual
 mozilla
 :
 :
@@ -366,9 +365,7 @@ OptionalIPCStream
 &
 aPostStream
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -383,7 +380,6 @@ nsresult
 &
 aFailure
 )
-override
 ;
 PWebBrowserPersistResourcesParent
 *

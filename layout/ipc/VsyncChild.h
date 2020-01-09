@@ -396,7 +396,6 @@ VsyncChild
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -411,9 +410,7 @@ VsyncEvent
 &
 aVsync
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -428,7 +425,6 @@ float
 &
 aVsyncRate
 )
-override
 ;
 virtual
 void

@@ -401,7 +401,6 @@ uint64_t
 &
 aInputBlockId
 )
-override
 ;
 mozilla
 :
@@ -429,7 +428,6 @@ Modifiers
 &
 aModifiers
 )
-override
 ;
 mozilla
 :
@@ -448,7 +446,6 @@ ViewID
 &
 aScrollId
 )
-override
 ;
 virtual
 ~

@@ -223,7 +223,6 @@ MIDIMessage
 &
 aMsg
 )
-override
 ;
 mozilla
 :
@@ -235,7 +234,6 @@ IPCResult
 RecvOpen
 (
 )
-override
 ;
 mozilla
 :
@@ -247,7 +245,6 @@ IPCResult
 RecvClose
 (
 )
-override
 ;
 mozilla
 :
@@ -259,7 +256,6 @@ IPCResult
 RecvClear
 (
 )
-override
 ;
 mozilla
 :
@@ -271,7 +267,6 @@ IPCResult
 RecvShutdown
 (
 )
-override
 ;
 MOZ_IMPLICIT
 MIDIPortParent

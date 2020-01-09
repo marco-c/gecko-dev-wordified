@@ -265,7 +265,6 @@ aWhy
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -312,9 +311,7 @@ bool
 &
 aFromHttp
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -353,7 +350,6 @@ OriginAttributes
 &
 aAttrs
 )
-override
 ;
 void
 SerialializeCookieList

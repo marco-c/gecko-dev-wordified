@@ -198,7 +198,6 @@ nsCString
 &
 aProtocols
 )
-override
 ;
 mozilla
 :
@@ -226,7 +225,6 @@ nsCString
 &
 aExtensions
 )
-override
 ;
 mozilla
 :
@@ -250,7 +248,6 @@ uint16_t
 &
 aMessageType
 )
-override
 ;
 mozilla
 :
@@ -278,7 +275,6 @@ nsString
 &
 aReason
 )
-override
 ;
 mozilla
 :
@@ -298,7 +294,6 @@ WebSocketFrameData
 &
 aFrameData
 )
-override
 ;
 mozilla
 :
@@ -318,7 +313,6 @@ WebSocketFrameData
 &
 aFrameData
 )
-override
 ;
 void
 Close

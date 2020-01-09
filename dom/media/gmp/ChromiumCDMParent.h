@@ -513,7 +513,6 @@ uint32_t
 &
 aKeyStatus
 )
-override
 ;
 ipc
 :
@@ -530,7 +529,6 @@ nsCString
 &
 aSessionId
 )
-override
 ;
 ipc
 :
@@ -547,7 +545,6 @@ bool
 &
 aSuccessful
 )
-override
 ;
 ipc
 :
@@ -560,7 +557,6 @@ uint32_t
 &
 aPromiseId
 )
-override
 ;
 ipc
 :
@@ -585,7 +581,6 @@ nsCString
 &
 aErrorMessage
 )
-override
 ;
 ipc
 :
@@ -609,7 +604,6 @@ uint8_t
 &
 aMessage
 )
-override
 ;
 ipc
 :
@@ -629,7 +623,6 @@ CDMKeyInformation
 &
 aKeysInfo
 )
-override
 ;
 ipc
 :
@@ -646,7 +639,6 @@ double
 &
 aSecondsSinceEpoch
 )
-override
 ;
 ipc
 :
@@ -659,7 +651,6 @@ nsCString
 &
 aSessionId
 )
-override
 ;
 ipc
 :
@@ -683,7 +674,6 @@ Shmem
 &
 aData
 )
-override
 ;
 ipc
 :
@@ -700,7 +690,6 @@ uint32_t
 &
 aStatus
 )
-override
 ;
 ipc
 :
@@ -713,7 +702,6 @@ uint32_t
 &
 aStatus
 )
-override
 ;
 ipc
 :
@@ -733,7 +721,6 @@ Shmem
 &
 aShmem
 )
-override
 ;
 ipc
 :
@@ -753,7 +740,6 @@ uint8_t
 &
 aData
 )
-override
 ;
 ipc
 :
@@ -766,7 +752,6 @@ uint32_t
 &
 aStatus
 )
-override
 ;
 ipc
 :
@@ -775,7 +760,6 @@ IPCResult
 RecvShutdown
 (
 )
-override
 ;
 ipc
 :
@@ -784,7 +768,6 @@ IPCResult
 RecvResetVideoDecoderComplete
 (
 )
-override
 ;
 ipc
 :
@@ -793,7 +776,6 @@ IPCResult
 RecvDrainComplete
 (
 )
-override
 ;
 ipc
 :
@@ -802,7 +784,6 @@ IPCResult
 RecvIncreaseShmemPoolSize
 (
 )
-override
 ;
 void
 ActorDestroy

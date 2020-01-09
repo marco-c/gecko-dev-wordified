@@ -318,7 +318,6 @@ Recv__delete__
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -336,9 +335,7 @@ nsString
 &
 aAvailabilityUrls
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -356,9 +353,7 @@ nsString
 &
 aAvailabilityUrls
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -377,9 +372,7 @@ uint8_t
 &
 aRole
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -398,9 +391,7 @@ uint8_t
 &
 aRole
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -415,9 +406,7 @@ uint64_t
 &
 aWindowId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -432,9 +421,7 @@ uint64_t
 &
 aWindowId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -457,9 +444,7 @@ bool
 &
 aIsLoading
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -482,7 +467,6 @@ nsresult
 &
 aReason
 )
-override
 ;
 private
 :

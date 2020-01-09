@@ -199,7 +199,6 @@ bool
 &
 aWillWait
 )
-override
 ;
 mozilla
 :
@@ -215,7 +214,6 @@ uint32_t
 &
 aId
 )
-override
 ;
 mozilla
 :
@@ -227,7 +225,6 @@ IPCResult
 RecvRemoveResourceManager
 (
 )
-override
 ;
 private
 :
