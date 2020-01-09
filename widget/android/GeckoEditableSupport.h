@@ -769,6 +769,11 @@ aFlags
 )
 ;
 void
+OnNotifyIMEOfCompositionEventHandled
+(
+)
+;
+void
 NotifyIMEContext
 (
 const
