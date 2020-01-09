@@ -216,6 +216,10 @@ u2fhid
 ;
 extern
 crate
+gkrust_utils
+;
+extern
+crate
 log
 ;
 extern

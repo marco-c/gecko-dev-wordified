@@ -220,6 +220,9 @@ mConsumerTarget
 {
 mConsumerTarget
 =
+mozilla
+:
+:
 GetCurrentThreadEventTarget
 (
 )
