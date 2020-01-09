@@ -315,7 +315,9 @@ TAB
 {
 client
 .
-addListener
+mainRoot
+.
+on
 (
 "
 tabListChanged
@@ -459,7 +461,9 @@ TAB
 {
 client
 .
-removeListener
+mainRoot
+.
+off
 (
 "
 tabListChanged

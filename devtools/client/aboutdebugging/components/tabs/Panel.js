@@ -325,7 +325,9 @@ props
 ;
 client
 .
-addListener
+mainRoot
+.
+on
 (
 "
 tabListChanged
@@ -357,7 +359,9 @@ props
 ;
 client
 .
-removeListener
+mainRoot
+.
+off
 (
 "
 tabListChanged
