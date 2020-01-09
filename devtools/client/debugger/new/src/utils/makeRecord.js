@@ -467,12 +467,6 @@ Object
 )
 :
 (
-init
-:
-Shape
-<
-T
->
 )
 =
 >
