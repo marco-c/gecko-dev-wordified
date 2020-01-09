@@ -75,6 +75,7 @@ item
 IsOpaque
 Item
 ItemAncestors
+ItemCanonicalPath
 ItemSet
 }
 ;
@@ -193,7 +194,7 @@ proc_macro2
 :
 :
 {
-Ident
+Term
 Span
 }
 ;
@@ -6105,7 +6106,7 @@ S
 )
 -
 >
-Ident
+Term
 where
 S
 :
@@ -6157,7 +6158,7 @@ T
 )
 -
 >
-Ident
+Term
 where
 T
 :
@@ -6166,7 +6167,7 @@ AsRef
 str
 >
 {
-Ident
+Term
 :
 :
 new
@@ -7346,7 +7347,7 @@ path
 =
 item
 .
-path_for_whitelisting
+canonical_path
 (
 self
 )
@@ -15479,7 +15480,7 @@ name
 =
 item
 .
-path_for_whitelisting
+canonical_path
 (
 self
 )
@@ -15636,7 +15637,7 @@ prefix_path
 =
 parent
 .
-path_for_whitelisting
+canonical_path
 (
 self
 )
@@ -16077,7 +16078,7 @@ self
 )
 -
 >
-Ident
+Term
 {
 if
 self
@@ -17463,7 +17464,7 @@ name
 =
 item
 .
-path_for_whitelisting
+canonical_path
 (
 self
 )
@@ -17532,7 +17533,7 @@ name
 =
 item
 .
-path_for_whitelisting
+canonical_path
 (
 self
 )
@@ -17601,7 +17602,7 @@ name
 =
 item
 .
-path_for_whitelisting
+canonical_path
 (
 self
 )
