@@ -289,6 +289,10 @@ infrastructure
 tools
 /
 "
+"
+resources
+/
+"
 ]
 }
 def
