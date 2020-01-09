@@ -12739,6 +12739,9 @@ sandbox
 "
 default
 "
+script_timeout
+=
+None
 )
 :
         
@@ -13333,6 +13336,12 @@ sandbox
 sandbox
                 
 "
+scriptTimeout
+"
+:
+script_timeout
+                
+"
 line
 "
 :
@@ -13396,6 +13405,9 @@ sandbox
 "
 default
 "
+script_timeout
+=
+None
 )
 :
         
@@ -13754,6 +13766,12 @@ sandbox
 "
 :
 sandbox
+                
+"
+scriptTimeout
+"
+:
+script_timeout
                 
 "
 line
