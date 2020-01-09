@@ -208,7 +208,7 @@ user
 -
 interaction
 test
-false
+0
 /
 /
 no
@@ -503,7 +503,11 @@ user
 -
 interaction
 test
-true
+Ci
+.
+nsIWebProgressListener
+.
+STATE_COOKIES_BLOCKED_TRACKER
 /
 /
 expect
@@ -1020,7 +1024,7 @@ user
 -
 interaction
 test
-false
+0
 /
 /
 no
@@ -1197,7 +1201,7 @@ user
 -
 interaction
 test
-false
+0
 /
 /
 no

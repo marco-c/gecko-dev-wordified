@@ -356,7 +356,11 @@ the
 user
 interaction
 test
-true
+Ci
+.
+nsIWebProgressListener
+.
+STATE_COOKIES_BLOCKED_TRACKER
 /
 /
 expect
