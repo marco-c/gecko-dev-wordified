@@ -153,10 +153,12 @@ cx_
 onOutOfMemory
 (
 allocFunc
-js
-:
-:
-MallocArena
+this
+-
+>
+getArenaId
+(
+)
 nbytes
 reallocPtr
 )
