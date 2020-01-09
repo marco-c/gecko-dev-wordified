@@ -463,9 +463,6 @@ aContentDispositionFilename
 void
 Init
 (
-ContentParent
-*
-parent
 const
 nsCString
 &
