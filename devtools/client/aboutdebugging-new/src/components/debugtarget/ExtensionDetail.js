@@ -348,9 +348,6 @@ p
 className
 :
 "
-extension
--
-details__warning
 technical
 -
 text
