@@ -795,11 +795,9 @@ if
 f
 -
 >
-GetStateBits
+IsSVGOuterSVGFrame
 (
 )
-&
-NS_STATE_IS_OUTER_SVG
 |
 |
 !

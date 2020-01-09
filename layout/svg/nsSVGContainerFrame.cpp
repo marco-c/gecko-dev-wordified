@@ -934,12 +934,8 @@ aPrevInFlow
 if
 (
 !
+IsSVGOuterSVGFrame
 (
-GetStateBits
-(
-)
-&
-NS_STATE_IS_OUTER_SVG
 )
 )
 {
