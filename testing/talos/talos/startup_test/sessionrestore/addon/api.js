@@ -556,6 +556,17 @@ save
 the
 profile
 .
+Cu
+.
+importGlobalProperties
+(
+[
+"
+URL
+"
+]
+)
+;
 let
 url
 =

@@ -118,6 +118,17 @@ balanced
 listeners
 *
 /
+Cu
+.
+importGlobalProperties
+(
+[
+"
+TextDecoder
+"
+]
+)
+;
 var
 EXPORTED_SYMBOLS
 =

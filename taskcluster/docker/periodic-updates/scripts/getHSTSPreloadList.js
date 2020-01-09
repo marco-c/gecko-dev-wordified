@@ -260,6 +260,17 @@ jsm
 "
 )
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+XMLHttpRequest
+"
+]
+)
+;
 const
 SOURCE
 =

@@ -53,6 +53,17 @@ the
 update
 URL
 .
+Cu
+.
+importGlobalProperties
+(
+[
+"
+URLSearchParams
+"
+]
+)
+;
 /
 /
 The

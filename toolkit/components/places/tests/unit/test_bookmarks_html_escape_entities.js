@@ -56,6 +56,17 @@ bookmarkProperties
 description
 "
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+XMLHttpRequest
+"
+]
+)
+;
 add_task
 (
 async

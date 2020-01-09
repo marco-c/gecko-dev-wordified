@@ -137,6 +137,17 @@ jsm
 "
 )
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+TextDecoder
+"
+]
+)
+;
 ChromeUtils
 .
 defineModuleGetter

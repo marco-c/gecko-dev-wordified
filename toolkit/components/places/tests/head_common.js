@@ -178,6 +178,17 @@ TITLE_LENGTH_MAX
 =
 4096
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+URL
+"
+]
+)
+;
 ChromeUtils
 .
 import

@@ -177,6 +177,17 @@ nsISubstitutingProtocolHandler
 "
 )
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+TextEncoder
+"
+]
+)
+;
 const
 Cm
 =

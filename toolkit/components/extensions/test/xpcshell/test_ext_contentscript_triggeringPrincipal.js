@@ -142,6 +142,17 @@ Ci
 nsIEnvironment
 )
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+URL
+"
+]
+)
+;
 /
 /
 Make

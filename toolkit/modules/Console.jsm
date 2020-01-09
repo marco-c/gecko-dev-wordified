@@ -255,6 +255,17 @@ jsm
 "
 )
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+Element
+"
+]
+)
+;
 var
 gTimerRegistry
 =

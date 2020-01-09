@@ -409,6 +409,17 @@ null
 .
 XPCOMUtils
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+XMLHttpRequest
+"
+]
+)
+;
 /
 /
 Support

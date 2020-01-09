@@ -141,6 +141,17 @@ bookmarks
 .
 menuGuid
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+URL
+"
+]
+)
+;
 ChromeUtils
 .
 defineModuleGetter

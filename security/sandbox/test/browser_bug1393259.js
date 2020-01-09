@@ -1011,6 +1011,17 @@ function
 (
 )
 {
+Cu
+.
+importGlobalProperties
+(
+[
+"
+InspectorUtils
+"
+]
+)
+;
 let
 window
 =

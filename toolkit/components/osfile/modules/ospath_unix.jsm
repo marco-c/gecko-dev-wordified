@@ -182,6 +182,17 @@ undefined
 "
 )
 {
+Cu
+.
+importGlobalProperties
+(
+[
+"
+URL
+"
+]
+)
+;
 /
 /
 Global

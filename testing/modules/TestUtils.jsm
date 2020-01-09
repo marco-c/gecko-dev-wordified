@@ -215,6 +215,17 @@ jsm
 "
 )
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+Element
+"
+]
+)
+;
 var
 TestUtils
 =

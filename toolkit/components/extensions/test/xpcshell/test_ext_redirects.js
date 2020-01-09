@@ -41,6 +41,17 @@ jsm
 "
 )
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+XMLHttpRequest
+"
+]
+)
+;
 PromiseTestUtils
 .
 whitelistRejectionsGlobally
