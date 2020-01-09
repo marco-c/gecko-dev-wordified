@@ -71,6 +71,7 @@ getGeneratedLocation
 getAllGeneratedLocations
 getOriginalLocation
 getOriginalSourceText
+getGeneratedRangesForOriginal
 getFileGeneratedRange
 hasMappedSource
 clearSourceMaps
@@ -174,6 +175,7 @@ getAllGeneratedLocations
 getOriginalLocation
 getOriginalSourceText
 getOriginalStackFrames
+getGeneratedRangesForOriginal
 getFileGeneratedRange
 hasMappedSource
 applySourceMap
