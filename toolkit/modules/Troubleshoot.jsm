@@ -735,6 +735,14 @@ macosx
 ]
 pagesetup
 /
+/
+^
+print
+[
+.
+]
+printer
+/
 ]
 ;
 /
