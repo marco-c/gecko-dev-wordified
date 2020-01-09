@@ -3062,18 +3062,6 @@ searchbox
 setAttribute
 (
 "
-type
-"
-"
-search
-"
-)
-;
-searchbox
-.
-setAttribute
-(
-"
 flex
 "
 "
@@ -3086,7 +3074,7 @@ searchbox
 addEventListener
 (
 "
-command
+input
 "
 this
 .
@@ -3197,7 +3185,7 @@ _searchboxNode
 removeEventListener
 (
 "
-command
+input
 "
 this
 .
