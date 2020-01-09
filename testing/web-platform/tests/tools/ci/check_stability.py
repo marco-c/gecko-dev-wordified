@@ -1346,7 +1346,6 @@ get_changed_files
 manifest_path
 rev
 ignore_changes
-skip_tests
 )
 :
     
@@ -1450,7 +1449,6 @@ testfiles
 affected_testfiles
 (
 files_changed
-skip_tests
                                                                  
 manifest_path
 =
@@ -1618,25 +1616,6 @@ config
 readfp
 (
 config_fp
-)
-        
-skip_tests
-=
-config
-.
-get
-(
-"
-file
-detection
-"
-"
-skip_tests
-"
-)
-.
-split
-(
 )
         
 ignore_changes
@@ -1887,7 +1866,6 @@ rev
 ]
                                                               
 ignore_changes
-skip_tests
 )
             
 if
