@@ -121,7 +121,7 @@ mozilla
 /
 dom
 /
-ChromeBrowsingContext
+CanonicalBrowsingContext
 .
 h
 "
@@ -173,10 +173,10 @@ msg
 __VA_ARGS__
 )
 )
-ChromeBrowsingContext
+CanonicalBrowsingContext
 :
 :
-ChromeBrowsingContext
+CanonicalBrowsingContext
 (
 BrowsingContext
 *
@@ -221,7 +221,7 @@ ever
 allowed
 to
 create
-ChromeBrowsingContexts
+CanonicalBrowsingContexts
 in
 the
 /
@@ -244,7 +244,7 @@ TODO
 farre
 )
 :
-ChromeBrowsingContext
+CanonicalBrowsingContext
 :
 :
 CleanupContexts
@@ -304,7 +304,7 @@ static
 *
 /
 void
-ChromeBrowsingContext
+CanonicalBrowsingContext
 :
 :
 CleanupContexts
@@ -372,9 +372,9 @@ static
 /
 already_AddRefed
 <
-ChromeBrowsingContext
+CanonicalBrowsingContext
 >
-ChromeBrowsingContext
+CanonicalBrowsingContext
 :
 :
 Get
@@ -401,7 +401,7 @@ aId
 .
 downcast
 <
-ChromeBrowsingContext
+CanonicalBrowsingContext
 >
 (
 )
@@ -412,9 +412,9 @@ ChromeBrowsingContext
 static
 *
 /
-ChromeBrowsingContext
+CanonicalBrowsingContext
 *
-ChromeBrowsingContext
+CanonicalBrowsingContext
 :
 :
 Cast
@@ -434,7 +434,7 @@ XRE_IsParentProcess
 return
 static_cast
 <
-ChromeBrowsingContext
+CanonicalBrowsingContext
 *
 >
 (
@@ -448,9 +448,9 @@ static
 *
 /
 const
-ChromeBrowsingContext
+CanonicalBrowsingContext
 *
-ChromeBrowsingContext
+CanonicalBrowsingContext
 :
 :
 Cast
@@ -472,7 +472,7 @@ return
 static_cast
 <
 const
-ChromeBrowsingContext
+CanonicalBrowsingContext
 *
 >
 (
@@ -481,7 +481,7 @@ aContext
 ;
 }
 void
-ChromeBrowsingContext
+CanonicalBrowsingContext
 :
 :
 GetWindowGlobals
@@ -552,7 +552,7 @@ GetKey
 }
 }
 void
-ChromeBrowsingContext
+CanonicalBrowsingContext
 :
 :
 RegisterWindowGlobal
@@ -588,7 +588,7 @@ aGlobal
 ;
 }
 void
-ChromeBrowsingContext
+CanonicalBrowsingContext
 :
 :
 UnregisterWindowGlobal
@@ -661,7 +661,7 @@ nullptr
 }
 }
 void
-ChromeBrowsingContext
+CanonicalBrowsingContext
 :
 :
 SetCurrentWindowGlobal
@@ -707,7 +707,7 @@ aGlobal
 }
 JSObject
 *
-ChromeBrowsingContext
+CanonicalBrowsingContext
 :
 :
 WrapObject
@@ -727,7 +727,7 @@ aGivenProto
 )
 {
 return
-ChromeBrowsingContext_Binding
+CanonicalBrowsingContext_Binding
 :
 :
 Wrap
@@ -739,7 +739,7 @@ aGivenProto
 ;
 }
 void
-ChromeBrowsingContext
+CanonicalBrowsingContext
 :
 :
 NotifySetUserGestureActivationFromIPC
@@ -849,7 +849,7 @@ bug1519229
 .
 }
 void
-ChromeBrowsingContext
+CanonicalBrowsingContext
 :
 :
 Traverse
@@ -859,7 +859,7 @@ nsCycleCollectionTraversalCallback
 cb
 )
 {
-ChromeBrowsingContext
+CanonicalBrowsingContext
 *
 tmp
 =
@@ -872,14 +872,14 @@ mWindowGlobals
 ;
 }
 void
-ChromeBrowsingContext
+CanonicalBrowsingContext
 :
 :
 Unlink
 (
 )
 {
-ChromeBrowsingContext
+CanonicalBrowsingContext
 *
 tmp
 =

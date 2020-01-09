@@ -800,7 +800,7 @@ mozilla
 /
 dom
 /
-ChromeBrowsingContext
+CanonicalBrowsingContext
 .
 h
 "

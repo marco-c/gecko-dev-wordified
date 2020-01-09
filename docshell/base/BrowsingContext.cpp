@@ -132,7 +132,7 @@ mozilla
 /
 dom
 /
-ChromeBrowsingContext
+CanonicalBrowsingContext
 .
 h
 "
@@ -859,7 +859,7 @@ XRE_IsParentProcess
 context
 =
 new
-ChromeBrowsingContext
+CanonicalBrowsingContext
 (
 aParent
 aOpener
@@ -1050,7 +1050,7 @@ XRE_IsParentProcess
 context
 =
 new
-ChromeBrowsingContext
+CanonicalBrowsingContext
 (
 aParent
 aOpener
@@ -2587,7 +2587,7 @@ XRE_IsParentProcess
 )
 )
 {
-ChromeBrowsingContext
+CanonicalBrowsingContext
 :
 :
 Cast
@@ -2620,7 +2620,7 @@ XRE_IsParentProcess
 )
 )
 {
-ChromeBrowsingContext
+CanonicalBrowsingContext
 :
 :
 Cast

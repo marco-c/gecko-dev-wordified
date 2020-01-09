@@ -432,7 +432,7 @@ namespace
 dom
 {
 class
-ChromeBrowsingContext
+CanonicalBrowsingContext
 ;
 class
 ClonedMessageData
@@ -642,7 +642,7 @@ GetXULBrowserWindow
 (
 )
 ;
-ChromeBrowsingContext
+CanonicalBrowsingContext
 *
 GetBrowsingContext
 (
@@ -3894,7 +3894,7 @@ TabParent
 .
 RefPtr
 <
-ChromeBrowsingContext
+CanonicalBrowsingContext
 >
 mBrowsingContext
 ;

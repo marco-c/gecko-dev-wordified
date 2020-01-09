@@ -170,7 +170,7 @@ namespace
 dom
 {
 class
-ChromeBrowsingContext
+CanonicalBrowsingContext
 ;
 class
 WindowGlobalChild
@@ -469,7 +469,7 @@ been
 loaded
 into
 .
-ChromeBrowsingContext
+CanonicalBrowsingContext
 *
 BrowsingContext
 (
@@ -792,7 +792,7 @@ mFrameLoader
 ;
 RefPtr
 <
-ChromeBrowsingContext
+CanonicalBrowsingContext
 >
 mBrowsingContext
 ;
