@@ -194,10 +194,34 @@ TINDERBOX_OUTPUT
 }
     
 '
+build_targets
+'
+:
+[
+'
+pre
+-
+export
+'
+'
+export
+'
+'
+recurse_rusttests
+'
+]
+    
+'
 artifact_flag_build_variant_in_try
 '
 :
 None
+    
+'
+disable_package_metrics
+'
+:
+True
     
 #
 #
