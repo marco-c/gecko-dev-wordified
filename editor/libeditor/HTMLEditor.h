@@ -13327,7 +13327,6 @@ purposes
 *
 /
 MOZ_CAN_RUN_SCRIPT
-virtual
 nsresult
 InsertFromDataTransfer
 (
@@ -13349,7 +13348,6 @@ aDroppedAt
 bool
 aDoDeleteSelection
 )
-override
 ;
 bool
 HavePrivateHTMLFlavor

@@ -14616,6 +14616,16 @@ MOZ_ASSERT
 element
 )
 ;
+MOZ_ASSERT
+(
+!
+newValue
+.
+IsVoid
+(
+)
+)
+;
 RefPtr
 <
 TextEditor
@@ -14649,6 +14659,7 @@ nsContentUtils
 :
 InputEventOptions
 (
+newValue
 )
 )
 ;
