@@ -1038,8 +1038,6 @@ runnable
 jobs
 .
 json
-.
-gz
 file
     
 write_artifact
@@ -1052,6 +1050,21 @@ jobs
 json
 .
 gz
+'
+full_task_graph_to_runnable_jobs
+(
+full_task_json
+)
+)
+    
+write_artifact
+(
+'
+runnable
+-
+jobs
+.
+json
 '
 full_task_graph_to_runnable_jobs
 (
