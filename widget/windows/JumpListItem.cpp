@@ -2331,6 +2331,8 @@ and
 return
 a
 populated
+/
+/
 nsIJumpListShortcut
 .
 nsresult
@@ -2623,6 +2625,8 @@ here
 Do
 we
 need
+/
+/
 to
 ?
 aShortcut
@@ -2646,9 +2650,9 @@ the
 output
 icon
 file
+/
+/
 path
-/
-/
 We
 only
 set
@@ -2744,12 +2748,12 @@ not
 since
 handler
 app
+/
+/
 doesn
 '
 t
 compare
-/
-/
 these
 in
 equals
@@ -2774,12 +2778,12 @@ things
 .
 We
 currently
+/
+/
 only
 support
 URI
 links
-/
-/
 but
 more
 support
@@ -2790,6 +2794,8 @@ such
 as
 local
 file
+/
+/
 and
 directory
 links
@@ -3082,6 +3088,8 @@ and
 return
 a
 populated
+/
+/
 nsIJumpListLink
 .
 nsresult

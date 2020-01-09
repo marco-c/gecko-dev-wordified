@@ -6939,12 +6939,12 @@ FromPropertyDescriptor
 for
 getOwnPropertyDescriptor
 since
+*
 desc
 .
 object
 (
 )
-*
 is
 used
 to
@@ -6958,10 +6958,10 @@ or
 not
 .
 Use
+*
 this
 instead
 for
-*
 defineProperty
 :
 it
@@ -6974,6 +6974,7 @@ a
 "
 missing
 "
+*
 property
 .
 *

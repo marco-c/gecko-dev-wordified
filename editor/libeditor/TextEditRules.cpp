@@ -5367,10 +5367,10 @@ this
 text
 ends
 with
+/
+/
 a
 LF
-/
-/
 in
 which
 case
@@ -6136,6 +6136,8 @@ than
 NS_OK
 that
 means
+/
+/
 "
 not
 allowed
@@ -6206,6 +6208,8 @@ than
 NS_OK
 that
 means
+/
+/
 "
 not
 allowed

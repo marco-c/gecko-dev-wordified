@@ -1469,6 +1469,7 @@ is
 within
 the
 available
+*
 width
 .
 *
@@ -1645,11 +1646,11 @@ pruning
 some
 saved
 break
+*
 position
 (
 s
 )
-*
 that
 are
 actually
@@ -1757,6 +1758,8 @@ can
 '
 t
 break
+/
+/
 yet
 )
 .
@@ -2225,6 +2228,7 @@ GetCurrentFrameInlineDistanceFromBlock
 (
 )
 -
+*
 lineContainer
 -
 >
@@ -2237,11 +2241,11 @@ left
 /
 code
 >
-*
 Note
 the
 use
 of
+*
 <
 code
 >
@@ -2584,6 +2588,8 @@ bug
 splitting
 absolute
 positioned
+/
+/
 frames
 )
 friend

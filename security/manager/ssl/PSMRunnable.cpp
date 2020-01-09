@@ -212,11 +212,12 @@ NS_OK
 ;
 }
 }
+/
+/
+namespace
+psm
 }
 /
 /
 namespace
 mozilla
-:
-:
-psm

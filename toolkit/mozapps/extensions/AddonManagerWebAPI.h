@@ -185,9 +185,6 @@ host
 /
 /
 namespace
-mozilla
-:
-:
 dom
 }
 /

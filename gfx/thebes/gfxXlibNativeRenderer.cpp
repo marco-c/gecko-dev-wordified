@@ -221,8 +221,10 @@ NATIVE_DRAWING_NOTE
 (
 m
 )
+\
 do
 {
+\
 }
 while
 (
@@ -650,6 +652,7 @@ e
 .
 native
 backend
+*
 coords
 )
 *
@@ -795,6 +798,7 @@ don
 t
 need
 to
+*
 clip
 .
 *

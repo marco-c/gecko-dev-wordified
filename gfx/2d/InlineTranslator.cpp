@@ -505,6 +505,8 @@ read
 from
 the
 stream
+/
+/
 successfully
 .
 if

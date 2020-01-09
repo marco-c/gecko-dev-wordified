@@ -653,9 +653,9 @@ so
 it
 can
 be
+/
+/
 represented
-/
-/
 exactly
 by
 machine

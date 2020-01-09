@@ -577,8 +577,8 @@ computation
 of
 Servo
 declaration
-blocks
 *
+blocks
 when
 adopted
 across
@@ -1772,8 +1772,8 @@ nsSVGAnimatedTransformList
 is
 not
 allocated
-until
 *
+until
 the
 attribute
 is
@@ -1788,8 +1788,8 @@ is
 created
 .
 Callers
-that
 *
+that
 require
 the
 nsSVGAnimatedTransformList
@@ -1799,8 +1799,8 @@ allocated
 and
 for
 this
-method
 *
+method
 to
 return
 non
@@ -3388,7 +3388,6 @@ _elementName
 )
 \
 nsresult
-\
 NS_NewSVG
 #
 #
@@ -3397,6 +3396,7 @@ _elementName
 #
 Element
 (
+\
 nsIContent
 *
 *
@@ -3416,7 +3416,6 @@ NodeInfo
 &
 aNodeInfo
 )
-\
 {
 \
 RefPtr
@@ -3502,7 +3501,6 @@ _elementName
 )
 \
 nsresult
-\
 NS_NewSVG
 #
 #
@@ -3511,6 +3509,7 @@ _elementName
 #
 Element
 (
+\
 nsIContent
 *
 *
@@ -3530,7 +3529,6 @@ NodeInfo
 &
 aNodeInfo
 )
-\
 {
 \
 RefPtr
@@ -3628,7 +3626,6 @@ _elementName
 )
 \
 nsresult
-\
 NS_NewSVG
 #
 #
@@ -3637,6 +3634,7 @@ _elementName
 #
 Element
 (
+\
 nsIContent
 *
 *
@@ -3665,7 +3663,6 @@ dom
 FromParser
 aFromParser
 )
-\
 {
 \
 RefPtr

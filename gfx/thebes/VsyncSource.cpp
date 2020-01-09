@@ -659,9 +659,9 @@ to
 stop
 on
 some
+/
+/
 platforms
-/
-/
 We
 can
 deadlock
@@ -674,9 +674,9 @@ underlying
 vsync
 thread
 to
+/
+/
 stop
-/
-/
 while
 the
 vsync

@@ -493,9 +493,9 @@ hint
 for
 an
 element
+/
+/
 after
-/
-/
 adding
 a
 reconstruct
@@ -505,10 +505,10 @@ is
 ok
 though
 since
+/
+/
 ProcessRestyledFrames
 will
-/
-/
 handle
 that
 case

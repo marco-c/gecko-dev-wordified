@@ -582,5 +582,5 @@ GetThread
 }
 /
 /
-close
 namespace
+mozilla

@@ -1213,8 +1213,8 @@ aScd
 const
 IpdlTuple
 &
-aTuple
 *
+aTuple
 void
 *
 &
@@ -3698,6 +3698,8 @@ so
 the
 reinterpret_cast
 is
+/
+/
 safe
 )
 .
@@ -5244,6 +5246,8 @@ the
 info
 into
 the
+/
+/
 nsDependentCSubstring
 const
 nsCString
@@ -5611,6 +5615,8 @@ communication
 and
 if
 it
+/
+/
 exists
 )
 PhaseHandler
@@ -5683,6 +5689,7 @@ Assume
 user
 has
 done
+*
 special
 handling
 .
@@ -5852,6 +5859,8 @@ method
 (
 its
 a
+/
+/
 reference
 )
 .
@@ -6547,6 +6556,8 @@ to
 FixedType
 then
 always
+/
+/
 pass
 .
 template
@@ -9344,6 +9355,8 @@ returned
 parameters
 to
 the
+/
+/
 returned
 tuple
 .

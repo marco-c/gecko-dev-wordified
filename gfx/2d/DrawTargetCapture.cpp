@@ -675,6 +675,8 @@ resolved
 on
 the
 paint
+/
+/
 thread
 .
 if

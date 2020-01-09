@@ -2232,6 +2232,8 @@ buffer
 of
 the
 size
+/
+/
 NS_HTML5_STREAM_PARSER_READ_BUFFER_SIZE
 /
 *

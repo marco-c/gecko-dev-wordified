@@ -370,6 +370,7 @@ updated
 #
 define
 TOPIC_AUTOCOMPLETE_FEEDBACK_UPDATED
+\
 "
 places
 -

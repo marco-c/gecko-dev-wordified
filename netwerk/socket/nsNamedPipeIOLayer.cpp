@@ -273,6 +273,7 @@ LOG_NPIO_DEBUG
 .
 .
 )
+\
 MOZ_LOG
 (
 gNamedPipeLog
@@ -283,7 +284,6 @@ LogLevel
 :
 :
 Debug
-\
 (
 __VA_ARGS__
 )
@@ -296,6 +296,7 @@ LOG_NPIO_ERROR
 .
 .
 )
+\
 MOZ_LOG
 (
 gNamedPipeLog
@@ -306,7 +307,6 @@ LogLevel
 :
 :
 Error
-\
 (
 __VA_ARGS__
 )
@@ -914,6 +914,7 @@ no
 network
 traffic
 is
+*
 involved
 .
 *
@@ -2658,6 +2659,8 @@ buffer
 at
 the
 read
+/
+/
 offset
 .
 int32_t

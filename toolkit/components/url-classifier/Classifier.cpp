@@ -284,6 +284,7 @@ LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 gUrlClassifierDbServiceLog
@@ -301,6 +302,7 @@ define
 LOG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 gUrlClassifierDbServiceLog
@@ -4677,10 +4679,10 @@ ping
 back
 to
 caller
+/
+/
 thread
 )
-/
-/
 (
 processing
 other
@@ -4691,8 +4693,6 @@ idle
 .
 .
 .
-/
-/
 ApplyUpdatesForeground
 |
 /
@@ -4925,6 +4925,8 @@ to
 run
 ApplyUpdatesBackground
 on
+"
+"
 update
 thread
 .
@@ -9625,6 +9627,8 @@ table
 name
 ends
 with
+/
+/
 '
 -
 proto
@@ -10214,11 +10218,11 @@ endian
 when
 converting
 from
+/
+/
 char
 *
 to
-/
-/
 int
 should
 revert
@@ -10231,9 +10235,9 @@ will
 send
 hex
 string
+/
+/
 correctly
-/
-/
 See
 https
 :

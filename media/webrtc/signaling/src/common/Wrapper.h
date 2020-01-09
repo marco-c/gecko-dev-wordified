@@ -84,10 +84,10 @@ wraps
 access
 to
 an
+*
 underlying
 handle
 .
-*
 (
 The
 handle
@@ -102,6 +102,7 @@ low
 level
 type
 a
+*
 conventional
 C
 handle
@@ -944,6 +945,7 @@ handle
 )
 ;
 \
+\
 private
 :
 \
@@ -1012,7 +1014,6 @@ wrap
 handletype
 handle
 )
-\
 {
 \
 return
@@ -1035,9 +1036,7 @@ classname
 reset
 (
 )
-\
 {
-\
 getWrapper
 (
 )
@@ -1046,7 +1045,6 @@ reset
 (
 )
 ;
-\
 }
 \
 void
@@ -1058,9 +1056,7 @@ release
 handletype
 handle
 )
-\
 {
-\
 getWrapper
 (
 )
@@ -1070,5 +1066,4 @@ release
 handle
 )
 ;
-\
 }

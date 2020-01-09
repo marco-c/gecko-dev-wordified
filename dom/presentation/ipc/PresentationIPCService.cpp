@@ -256,7 +256,7 @@ sPresentationChild
 }
 /
 /
-anonymous
+namespace
 NS_IMPL_ISUPPORTS
 (
 PresentationIPCService

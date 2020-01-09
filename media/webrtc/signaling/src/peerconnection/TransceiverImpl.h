@@ -187,6 +187,10 @@ RTCRtpSourceEntry
 ;
 }
 /
+/
+namespace
+dom
+/
 *
 *
 *

@@ -18698,7 +18698,6 @@ if
 c
 )
 )
-\
 return
 false
 ;

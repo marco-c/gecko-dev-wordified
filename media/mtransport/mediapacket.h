@@ -535,6 +535,10 @@ UNCLASSIFIED
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

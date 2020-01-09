@@ -568,9 +568,9 @@ casing
 of
 SZLIG
 we
+/
+/
 override
-/
-/
 MakeTextRun
 (
 after
@@ -583,9 +583,9 @@ superclass
 )
 and
 have
+/
+/
 it
-/
-/
 just
 convert
 the
@@ -1263,8 +1263,8 @@ glyph
 list
 for
 the
-previous
 *
+previous
 character
 and
 then
@@ -1276,8 +1276,8 @@ eliminated
 .
 Visually
 the
-results
 *
+results
 are
 identical
 .

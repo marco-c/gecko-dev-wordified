@@ -3223,6 +3223,8 @@ there
 is
 a
 pending
+/
+/
 reflow
 .
 FRAME_STATE_BIT
@@ -4780,6 +4782,7 @@ context
 #
 define
 NS_BLOCK_FORMATTING_CONTEXT_STATE_BITS
+\
 (
 NS_BLOCK_FLOAT_MGR
 |

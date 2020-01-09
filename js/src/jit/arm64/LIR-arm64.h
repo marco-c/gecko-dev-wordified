@@ -1586,11 +1586,11 @@ either
 a
 quotient
 or
+/
+/
 remainder
 depending
 on
-/
-/
 whether
 this
 instruction
@@ -1599,6 +1599,8 @@ defined
 to
 output
 eax
+/
+/
 (
 quotient
 )

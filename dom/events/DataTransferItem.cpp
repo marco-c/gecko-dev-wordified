@@ -1287,6 +1287,8 @@ store
 it
 in
 the
+/
+/
 variant
 MOZ_ASSERT
 (

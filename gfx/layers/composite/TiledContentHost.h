@@ -735,6 +735,8 @@ just
 output
 a
 single
+/
+/
 image
 .
 CompositableHost
@@ -1081,9 +1083,9 @@ keeps
 hold
 of
 the
+*
 tiles
 .
-*
 Each
 tile
 has
@@ -1097,9 +1099,9 @@ host
 During
 the
 layers
+*
 transaction
 we
-*
 receive
 a
 list
@@ -1112,8 +1114,8 @@ client
 side
 tile
 buffer
-tiles
 *
+tiles
 (
 UseTiledLayerBuffer
 )
@@ -1125,8 +1127,8 @@ two
 transactions
 before
 a
-composition
 *
+composition
 we
 immediately
 unlock

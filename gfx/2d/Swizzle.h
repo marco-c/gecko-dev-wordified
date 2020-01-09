@@ -149,10 +149,10 @@ Source
 and
 destination
 may
+*
 be
 the
 same
-*
 to
 premultiply
 in
@@ -166,6 +166,7 @@ must
 have
 an
 alpha
+*
 channel
 .
 *
@@ -210,11 +211,11 @@ destination
 Source
 and
 destination
+*
 may
 be
 the
 same
-*
 to
 unpremultiply
 in
@@ -226,6 +227,7 @@ the
 source
 and
 destination
+*
 formats
 must
 have
@@ -277,9 +279,9 @@ and
 destination
 may
 be
+*
 the
 same
-*
 to
 swizzle
 in

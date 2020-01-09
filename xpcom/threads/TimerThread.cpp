@@ -1045,6 +1045,8 @@ attempting
 to
 deallocate
 the
+"
+"
 nsTimerEvent
 allocator
 twice
@@ -4701,10 +4703,10 @@ ensure
 the
 sleep
 delay
+/
+/
 is
 correct
-/
-/
 and
 fire
 any

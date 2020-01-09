@@ -271,9 +271,9 @@ the
 length
 of
 the
+/
+/
 aBreakBefore
-/
-/
 output
 array
 .

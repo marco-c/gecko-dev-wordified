@@ -439,13 +439,13 @@ mNotification
 }
 /
 /
+namespace
 dom
-namspace
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 /

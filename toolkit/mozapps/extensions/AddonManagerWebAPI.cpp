@@ -213,9 +213,9 @@ mozAddonManager
 entirely
 if
 they
+/
+/
 want
-/
-/
 for
 fingerprinting
 resistance
@@ -227,6 +227,8 @@ browser
 will
 use
 this
+/
+/
 pref
 .
 if
@@ -1154,9 +1156,6 @@ host
 /
 /
 namespace
-mozilla
-:
-:
 dom
 }
 /

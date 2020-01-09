@@ -313,7 +313,15 @@ mManager
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

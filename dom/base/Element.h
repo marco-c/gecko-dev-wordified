@@ -617,6 +617,7 @@ ELEMENT_FLAG_BIT
 (
 n_
 )
+\
 NODE_FLAG_BIT
 (
 NODE_TYPE_SPECIFIC_BITS_OFFSET
@@ -862,11 +863,12 @@ define
 NS_ELEMENT_IID
 \
 {
+\
 0xc67ed254
 0xfd3b
 0x4b10
-\
 {
+\
 0x96
 0xa2
 0xc5
@@ -875,7 +877,9 @@ NS_ELEMENT_IID
 0x64
 0x97
 0xd1
+\
 }
+\
 }
 class
 Element
@@ -4890,8 +4894,8 @@ to
 atom
 values
 to
-test
 *
+test
 against
 .
 *
@@ -5230,8 +5234,8 @@ of
 the
 scripted
 caller
-responsible
 *
+responsible
 for
 setting
 the
@@ -13008,7 +13012,6 @@ _elementName
 )
 \
 nsresult
-\
 _elementName
 :
 :
@@ -13023,13 +13026,13 @@ dom
 NodeInfo
 *
 aNodeInfo
+\
 nsINode
 *
 *
 aResult
 )
 const
-\
 {
 \
 *
@@ -13155,7 +13158,6 @@ extra_args_
 )
 \
 nsresult
-\
 _elementName
 :
 :
@@ -13177,7 +13179,6 @@ nsINode
 aResult
 )
 const
-\
 {
 \
 *

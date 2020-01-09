@@ -192,10 +192,12 @@ aAllocPrivate
 }
 /
 /
+namespace
 recordreplay
 }
 /
 /
+namespace
 mozilla
 #
 endif

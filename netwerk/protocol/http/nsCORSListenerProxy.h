@@ -242,7 +242,15 @@ class
 nsHttpChannel
 ;
 }
+/
+/
+namespace
+net
 }
+/
+/
+namespace
+mozilla
 enum
 class
 DataURIHandling

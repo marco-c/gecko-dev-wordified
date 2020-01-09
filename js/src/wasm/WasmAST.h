@@ -9062,15 +9062,13 @@ exprs_
 }
 /
 /
-end
-wasm
 namespace
+wasm
 }
 /
 /
-end
-js
 namespace
+js
 #
 endif
 /

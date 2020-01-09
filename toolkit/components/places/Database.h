@@ -558,6 +558,7 @@ to
 be
 informed
 of
+*
 shutdown
 .
 *
@@ -587,6 +588,7 @@ to
 be
 informed
 of
+*
 connection
 shutdown
 .

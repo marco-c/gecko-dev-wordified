@@ -919,6 +919,14 @@ mPostUnpremultiplyEffect
 }
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 endif

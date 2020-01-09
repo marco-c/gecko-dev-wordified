@@ -251,6 +251,8 @@ of
 the
 formats
 from
+/
+/
 table
 3
 .
@@ -320,9 +322,9 @@ Therefore
 it
 is
 accepted
+/
+/
 for
-/
-/
 internalformat
 as
 well
@@ -334,6 +336,8 @@ conformance
 test
 fail
 for
+/
+/
 DEPTH_STENCIL
 .
 const
@@ -370,6 +374,8 @@ stencil
 renderable
 was
 :
+"
+"
 0x
 %
 04x

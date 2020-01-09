@@ -319,6 +319,10 @@ OwningBodyInit
 }
 ;
 /
+/
+namespace
+fetch
+/
 *
 *
 Creates
@@ -610,6 +614,7 @@ completion
 on
 the
 main
+*
 thread
 .
 *

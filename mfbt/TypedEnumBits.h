@@ -466,7 +466,6 @@ E
 \
 constexpr
 ReturnType
-\
 operator
 Op
 (
@@ -474,6 +473,7 @@ const
 OtherType
 &
 aE
+\
 const
 CastableTypedEnumResult
 <
@@ -482,7 +482,6 @@ E
 &
 aR
 )
-\
 {
 \
 return
@@ -507,7 +506,6 @@ E
 \
 constexpr
 ReturnType
-\
 operator
 Op
 (
@@ -518,12 +516,12 @@ E
 >
 &
 aR
+\
 const
 OtherType
 &
 aE
 )
-\
 {
 \
 return
@@ -548,7 +546,6 @@ E
 \
 constexpr
 ReturnType
-\
 operator
 Op
 (
@@ -568,7 +565,6 @@ E
 &
 aR2
 )
-\
 {
 \
 return
@@ -681,14 +677,12 @@ E
 \
 E
 &
-\
 operator
 Op
 (
 E
 &
 aR1
-\
 const
 CastableTypedEnumResult
 <
@@ -697,7 +691,6 @@ E
 &
 aR2
 )
-\
 {
 \
 return
@@ -779,16 +772,15 @@ CastableTypedEnumResult
 <
 Name
 >
-\
 operator
 Op
 (
+\
 Name
 a
 Name
 b
 )
-\
 {
 \
 typedef
@@ -843,7 +835,6 @@ b
 inline
 Name
 &
-\
 operator
 Op
 #
@@ -856,9 +847,7 @@ a
 Name
 b
 )
-\
 {
-\
 return
 a
 =
@@ -866,7 +855,6 @@ a
 Op
 b
 ;
-\
 }
 /
 *
@@ -933,14 +921,12 @@ CastableTypedEnumResult
 <
 Name
 >
-\
 operator
 ~
 (
 Name
 a
 )
-\
 {
 \
 typedef

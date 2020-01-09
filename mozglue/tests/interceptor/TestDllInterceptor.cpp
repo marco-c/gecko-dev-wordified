@@ -611,6 +611,7 @@ F
 >
 class
 FuncHookT
+\
 typename
 InterceptorT
 typename
@@ -620,6 +621,7 @@ typename
 .
 .
 Args
+\
 typename
 .
 .
@@ -630,6 +632,7 @@ TestArgs
 bool
 TestFunction
 (
+\
 FuncHookT
 <
 InterceptorT
@@ -663,12 +666,12 @@ TestArgs
 .
 aArgs
 )
-\
 {
 \
 using
 FuncHookType
 =
+\
 FuncHookT
 <
 InterceptorT
@@ -747,6 +750,7 @@ FuncHookType
 (
 aFunc
 )
+\
 std
 :
 :
@@ -788,6 +792,7 @@ F
 >
 class
 FuncHookT
+\
 typename
 InterceptorT
 typename
@@ -797,6 +802,7 @@ typename
 Args
 typename
 PredicateT
+\
 typename
 .
 .
@@ -807,6 +813,7 @@ TestArgs
 bool
 TestFunction
 (
+\
 FuncHookT
 <
 InterceptorT
@@ -836,12 +843,12 @@ TestArgs
 .
 aArgs
 )
-\
 {
 \
 using
 FuncHookType
 =
+\
 FuncHookT
 <
 InterceptorT
@@ -927,6 +934,7 @@ ArgTuple
 (
 fakeArgs
 )
+\
 Indices
 (
 )
@@ -1375,6 +1383,8 @@ hook
 %
 s
 from
+"
+"
 %
 s
 \
@@ -1581,6 +1591,8 @@ to
 detour
 %
 s
+"
+"
 from
 %
 s
@@ -2273,6 +2285,7 @@ func
 dll
 #
 func
+\
 &
 Predicates
 <
@@ -2369,10 +2382,12 @@ func
 Type
 >
 (
+\
 #
 dll
 #
 func
+\
 &
 Predicates
 <
@@ -2392,6 +2407,7 @@ Type
 :
 Equals
 <
+\
 uintptr_t
 (
 -
@@ -2427,9 +2443,9 @@ that
 produce
 the
 conditions
+/
+/
 that
-/
-/
 induce
 the
 function
@@ -2442,6 +2458,8 @@ is
 accepted
 by
 your
+/
+/
 predicate
 .
 #
@@ -2466,6 +2484,7 @@ func
 )
 >
 (
+\
 #
 dll
 #
@@ -2537,10 +2556,12 @@ func
 )
 >
 (
+\
 #
 dll
 #
 func
+\
 reinterpret_cast
 <
 bool
@@ -2563,6 +2584,7 @@ Type
 )
 >
 (
+\
 NULL
 )
 )
@@ -2631,6 +2653,7 @@ func
 dll
 #
 func
+\
 &
 Predicates
 <
@@ -2669,6 +2692,7 @@ func
 )
 >
 (
+\
 #
 dll
 #
@@ -2707,10 +2731,12 @@ func
 )
 >
 (
+\
 #
 dll
 #
 func
+\
 reinterpret_cast
 <
 bool
@@ -2733,6 +2759,7 @@ Type
 )
 >
 (
+\
 NULL
 )
 )
@@ -2802,6 +2829,8 @@ for
 %
 s
 from
+"
+"
 %
 s
 \
@@ -2889,6 +2918,7 @@ cond
 dll
 #
 func
+\
 &
 Predicates
 <
@@ -2933,6 +2963,7 @@ cond
 dll
 #
 func
+\
 &
 Predicates
 <
@@ -2948,6 +2979,7 @@ pred
 <
 comp
 >
+\
 __VA_ARGS__
 )
 #
@@ -2968,11 +3000,13 @@ func
 )
 >
 (
+\
 cond
 #
 dll
 #
 func
+\
 reinterpret_cast
 <
 bool
@@ -2995,6 +3029,7 @@ Type
 )
 >
 (
+\
 NULL
 )
 )
@@ -3530,6 +3565,8 @@ ntdll
 NtMapViewOfSection
 after
 removing
+"
+"
 10
 -
 byte
@@ -3743,6 +3780,8 @@ WindowsDllInterceptor
 Failed
 to
 add
+"
+"
 hook
 \
 n
@@ -3798,6 +3837,8 @@ WindowsDllInterceptor
 Hook
 was
 not
+"
+"
 called
 \
 n
@@ -3852,6 +3893,8 @@ didn
 '
 t
 return
+"
+"
 the
 right
 information
@@ -3906,6 +3949,8 @@ was
 not
 called
 after
+"
+"
 unregistration
 \
 n
@@ -3930,6 +3975,8 @@ Hook
 was
 still
 called
+"
+"
 after
 unregistration
 \
@@ -3961,6 +4008,8 @@ WindowsDllInterceptor
 Original
 function
 worked
+"
+"
 properly
 \
 n
@@ -3983,6 +4032,8 @@ WindowsDllInterceptor
 |
 Original
 function
+"
+"
 didn
 '
 t
@@ -4203,6 +4254,8 @@ runtime
 already
 hooked
 this
+/
+/
 function
 TEST_HOOK
 (

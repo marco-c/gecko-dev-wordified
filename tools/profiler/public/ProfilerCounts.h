@@ -1584,7 +1584,6 @@ label
 (
 #
 label
-\
 &
 profiler_count_
 #
@@ -1596,7 +1595,6 @@ profiler_number_
 #
 #
 label
-\
 category
 \
 description
@@ -1724,6 +1722,7 @@ that
 we
 leak
 them
+\
 *
 /
 \
@@ -1737,15 +1736,14 @@ reset
 new
 BaseProfilerCount
 (
+\
 #
 label
-\
 &
 profiler_count_
 #
 #
 label
-\
 &
 profiler_number_
 #
@@ -1756,7 +1754,6 @@ profiler_category_
 #
 #
 label
-\
 profiler_description_
 #
 #
@@ -1838,6 +1835,7 @@ that
 we
 leak
 them
+\
 *
 /
 \
@@ -1851,11 +1849,10 @@ reset
 new
 BaseProfilerCount
 (
+\
 #
 label
-\
 nullptr
-\
 &
 profiler_number_
 #
@@ -1866,7 +1863,6 @@ profiler_category_
 #
 #
 label
-\
 profiler_description_
 #
 #
@@ -1980,6 +1976,7 @@ that
 we
 leak
 them
+\
 *
 /
 \
@@ -1993,15 +1990,14 @@ reset
 new
 BaseProfilerCount
 (
+\
 #
 label
-\
 &
 profiler_count_
 #
 #
 label
-\
 &
 profiler_number_
 #
@@ -2012,7 +2008,6 @@ profiler_category_
 #
 #
 label
-\
 profiler_description_
 #
 #

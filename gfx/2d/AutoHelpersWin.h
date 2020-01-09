@@ -384,10 +384,12 @@ mOwnsFont
 }
 /
 /
+namespace
 gfx
 }
 /
 /
+namespace
 mozilla
 #
 endif

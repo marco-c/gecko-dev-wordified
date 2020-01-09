@@ -1287,6 +1287,7 @@ a
 m
 i
 )
+\
 AddRelation
 (
 acc
@@ -9979,4 +9980,12 @@ IPC_OK
 ;
 }
 }
+/
+/
+namespace
+a11y
 }
+/
+/
+namespace
+mozilla

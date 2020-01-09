@@ -1725,6 +1725,7 @@ allocKind
 traceKind
 type
 sizedType
+\
 bgfinal
 nursery
 compact
@@ -1745,6 +1746,7 @@ NoGC
 JSContext
 *
 cx
+\
 InitialHeap
 heap
 )
@@ -1765,6 +1767,7 @@ CanGC
 JSContext
 *
 cx
+\
 InitialHeap
 heap
 )
@@ -1948,6 +1951,7 @@ allocKind
 traceKind
 type
 sizedType
+\
 bgFinal
 nursery
 compact
@@ -2288,12 +2292,12 @@ assuming
 that
 it
 costs
+/
+/
 just
 as
 much
 to
-/
-/
 count
 it
 as
@@ -2307,6 +2311,8 @@ state
 and
 decide
 not
+/
+/
 to
 count
 it

@@ -393,7 +393,6 @@ _argc
 _exn
 _str
 )
-\
 _name
 #
 include
@@ -430,6 +429,8 @@ of
 each
 error
 for
+/
+/
 use
 in
 static_assert
@@ -470,7 +471,6 @@ _argc
 _exn
 _str
 )
-\
 _argc
 #
 include
@@ -613,6 +613,8 @@ string
 arguments
 as
 are
+"
+"
 required
 by
 the
@@ -677,6 +679,8 @@ arguments
 provided
 than
 are
+"
+"
 required
 by
 the
@@ -1287,16 +1291,14 @@ the
 success
 and
 failure
+/
+/
 cases
 .
-/
-/
 CleanUpImportantState
 (
 )
 ;
-/
-/
 return
 ;
 /
@@ -5459,6 +5461,7 @@ msg
 .
 AppendPrintf
 (
+\
 "
 ENSURE_SUCCESS
 (
@@ -5477,6 +5480,7 @@ result
 %
 X
 "
+\
 #
 res
 #
@@ -5538,6 +5542,7 @@ msg
 .
 AppendPrintf
 (
+\
 "
 ENSURE_SUCCESS_VOID
 (
@@ -5554,6 +5559,7 @@ result
 %
 X
 "
+\
 #
 res
 res

@@ -158,9 +158,9 @@ interface
 Base
 class
 for
+*
 window
 and
-*
 process
 broadcaster
 message

@@ -1571,9 +1571,9 @@ directory
 and
 the
 file
+*
 name
 .
-*
 Must
 already
 have

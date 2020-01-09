@@ -334,6 +334,8 @@ and
 one
 right
 ear
+/
+/
 per
 azimuth
 angle
@@ -361,6 +363,8 @@ given
 HRTF
 database
 subject
+/
+/
 name
 and
 elevation
@@ -374,9 +378,9 @@ framework
 )
 resources
 .
-/
-/
 Normally
+/
+/
 there
 will
 only
@@ -391,6 +395,8 @@ this
 API
 supports
 the
+/
+/
 possibility
 of
 multiple
@@ -399,10 +405,10 @@ with
 different
 names
 .
-/
-/
 Interpolated
 azimuths
+/
+/
 will
 be
 generated
@@ -410,12 +416,12 @@ based
 on
 InterpolationFactor
 .
-/
-/
 Valid
 values
 for
 elevation
+/
+/
 are
 -
 45
@@ -458,6 +464,8 @@ x
 1
 returns
 an
+/
+/
 interpolated
 HRTFElevation
 .
@@ -540,6 +548,8 @@ azimuthBlend
 are
 returned
 in
+/
+/
 frameDelayL
 and
 frameDelayR
@@ -669,6 +679,8 @@ azimuths
 going
 from
 0
+/
+/
 to
 360
 degrees

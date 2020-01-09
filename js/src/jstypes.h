@@ -920,7 +920,9 @@ do
 #
 define
 JS_END_MACRO
+\
 }
+\
 while
 (
 0

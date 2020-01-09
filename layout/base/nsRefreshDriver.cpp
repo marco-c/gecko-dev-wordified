@@ -709,6 +709,7 @@ LOG
 .
 .
 )
+\
 MOZ_LOG
 (
 sRefreshDriverLog
@@ -764,9 +765,9 @@ are
 waiting
 for
 the
+/
+/
 compositor
-/
-/
 before
 logging
 .
@@ -1041,6 +1042,9 @@ sRefreshDriverCount
 0
 ;
 }
+/
+/
+namespace
 namespace
 mozilla
 {
@@ -1329,6 +1333,8 @@ s
 not
 in
 the
+"
+"
 root
 refresh
 list
@@ -1453,6 +1459,8 @@ display
 root
 for
 a
+"
+"
 driver
 that
 is
@@ -1494,6 +1502,8 @@ is
 not
 in
 the
+"
+"
 content
 refresh
 list
@@ -3673,6 +3683,8 @@ that
 we
 have
 0
+/
+/
 delay
 .
 contentDelay
@@ -4739,8 +4751,8 @@ mDisableAfterMilliseconds
 .
 At
 that
-point
 *
+point
 the
 timer
 is
@@ -4757,6 +4769,7 @@ is
 added
 to
 it
+*
 again
 )
 .
@@ -4970,9 +4983,9 @@ but
 we
 may
 as
+/
+/
 well
-/
-/
 not
 tick
 the
@@ -5960,11 +5973,11 @@ possible
 typically
 for
 stress
+/
+/
 testing
 )
 .
-/
-/
 A
 target
 rate
@@ -5978,10 +5991,10 @@ of
 special
 -
 handling
+/
+/
 0
 .
-/
-/
 Backends
 which
 block
@@ -5996,9 +6009,9 @@ try
 to
 not
 block
-/
-/
 when
+/
+/
 layout
 .
 frame_rate
@@ -12757,9 +12770,9 @@ waiting
 on
 it
 to
+/
+/
 be
-/
-/
 completed
 but
 don
@@ -12913,6 +12926,8 @@ id
 reset
 to
 distance
+/
+/
 id
 .
 if

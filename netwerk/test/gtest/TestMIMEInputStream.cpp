@@ -217,7 +217,7 @@ nsISeekableStream
 }
 /
 /
-anonymous
+namespace
 /
 /
 nsIInputStreamLength

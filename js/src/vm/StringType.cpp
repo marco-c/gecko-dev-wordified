@@ -464,6 +464,8 @@ we
 hit
 the
 leaf
+/
+/
 strings
 .
 if
@@ -501,6 +503,8 @@ we
 hit
 the
 base
+/
+/
 string
 .
 if
@@ -678,6 +682,8 @@ JSFatInlineAtom
 ]
 :
 the
+/
+/
 chars
 are
 inline
@@ -7763,6 +7769,7 @@ R
 .
 .
 .
+*
 R
 (
 2
@@ -7772,7 +7779,6 @@ n
 1
 )
 .
-*
 Similary
 Rn
 (
@@ -7798,6 +7804,7 @@ k
 +
 1
 )
+*
 .
 .
 .
@@ -7812,7 +7819,6 @@ n
 1
 )
 .
-*
 To
 use
 this
@@ -7827,13 +7833,13 @@ Rn
 )
 (
 for
+*
 some
 value
 of
 n
 )
 then
-*
 undefine
 R
 .
@@ -8742,6 +8748,8 @@ allow
 even
 without
 the
+/
+/
 lock
 .
 intStaticTable

@@ -1856,4 +1856,12 @@ nullptr
 ;
 }
 }
+/
+/
+namespace
+profiler
 }
+/
+/
+namespace
+mozilla

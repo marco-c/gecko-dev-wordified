@@ -177,10 +177,12 @@ define
 NS_NSICONSOLEREPORTCOLLECTOR_IID
 \
 {
+\
 0xdd98a481
 0xd2c4
 0x4203
 {
+\
 0x8d
 0xfa
 0x85
@@ -189,7 +191,9 @@ NS_NSICONSOLEREPORTCOLLECTOR_IID
 0xdc
 0xd7
 0x05
+\
 }
+\
 }
 /
 /

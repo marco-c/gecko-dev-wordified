@@ -194,6 +194,7 @@ WITH_VARIANT
 _
 SPEC_NAME
 )
+\
 BinaryASTSupport
 :
 :
@@ -233,6 +234,7 @@ WITH_VARIANT
 _
 SPEC_NAME
 )
+\
 BinaryASTSupport
 :
 :
@@ -272,6 +274,7 @@ WITH_VARIANT
 _
 SPEC_NAME
 )
+\
 BinaryASTSupport
 :
 :
@@ -494,8 +497,8 @@ the
 main
 thread
 and
-that
 *
+that
 any
 helper
 threads
@@ -508,9 +511,9 @@ only
 tables
 properly
 initialized
+*
 so
 that
-*
 they
 can
 do

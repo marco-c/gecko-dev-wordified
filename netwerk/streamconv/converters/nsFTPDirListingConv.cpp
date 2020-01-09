@@ -361,6 +361,8 @@ the
 actual
 stream
 converter
+/
+/
 (
 us
 )
@@ -428,10 +430,10 @@ On
 calls
 we
 want
+/
+/
 to
 throw
-/
-/
 at
 him
 .
@@ -463,6 +465,8 @@ converting
 FROM
 raw
 TO
+"
+"
 application
 /
 http
@@ -678,6 +682,8 @@ inStr
 =
 %
 p
+"
+"
 sourceOffset
 =
 %

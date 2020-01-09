@@ -2213,6 +2213,8 @@ systems
 affected
 by
 bug
+/
+/
 1083071
 .
 if
@@ -2544,6 +2546,8 @@ Windows
 and
 the
 Platform
+/
+/
 Update
 to
 Windows

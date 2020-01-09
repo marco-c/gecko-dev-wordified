@@ -203,5 +203,9 @@ codeEnd
 ;
 }
 }
+/
+/
+namespace
+js
 #
 endif

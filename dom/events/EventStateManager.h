@@ -2650,8 +2650,8 @@ event
 targeted
 at
 the
-specified
 *
+specified
 content
 .
 This
@@ -2909,10 +2909,10 @@ mMouseEnterLeaveHelper
 or
 relevant
 mPointersEnterLeaveHelper
+*
 elements
 wrapper
 .
-*
 If
 mPointersEnterLeaveHelper
 does
@@ -2920,6 +2920,7 @@ not
 contain
 wrapper
 for
+*
 pointerId
 it
 create

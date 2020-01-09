@@ -255,13 +255,14 @@ mTopic
 }
 ;
 }
+/
+/
+namespace
+psm
 }
 /
 /
 namespace
 mozilla
-:
-:
-psm
 #
 endif

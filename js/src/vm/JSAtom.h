@@ -235,6 +235,7 @@ name
 init
 clasp
 )
+\
 extern
 const
 char
@@ -263,6 +264,7 @@ idpart
 id
 text
 )
+\
 extern
 const
 char

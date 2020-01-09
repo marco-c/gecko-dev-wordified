@@ -361,6 +361,8 @@ GetFile
 to
 provide
 nsIFile
+/
+/
 resolution
 /
 /
@@ -1364,6 +1366,8 @@ wrong
 way
 -
 use
+"
+"
 nsIProtocolHandlerWithDynamicFlags
 instead
 "
@@ -2273,6 +2277,8 @@ can
 set
 the
 substitution
+/
+/
 immediately
 .
 nsAutoCString

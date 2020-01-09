@@ -660,7 +660,6 @@ TX_TO_STRING
 #
 define
 TX_DECL_TOSTRING
-\
 void
 toString
 (
@@ -673,7 +672,6 @@ override
 #
 define
 TX_DECL_APPENDNAME
-\
 void
 appendName
 (
@@ -708,6 +706,7 @@ txAExprResult
 *
 aResult
 )
+\
 override
 ;
 \
@@ -786,20 +785,16 @@ Expr
 :
 :
 ResultType
-\
 _class
 :
 :
 getReturnType
 (
 )
-\
 {
-\
 return
 _ReturnType
 ;
-\
 }
 #
 define
@@ -817,7 +812,6 @@ _ReturnType
 \
 Expr
 *
-\
 _class
 :
 :
@@ -826,17 +820,13 @@ getSubExprAt
 uint32_t
 aPos
 )
-\
 {
-\
 return
 nullptr
 ;
-\
 }
 \
 void
-\
 _class
 :
 :
@@ -848,7 +838,6 @@ Expr
 *
 aExpr
 )
-\
 {
 \
 MOZ_ASSERT_UNREACHABLE
@@ -880,7 +869,6 @@ _ReturnType
 \
 Expr
 *
-\
 _class
 :
 :
@@ -889,7 +877,6 @@ getSubExprAt
 uint32_t
 aPos
 )
-\
 {
 \
 if
@@ -914,7 +901,6 @@ nullptr
 }
 \
 void
-\
 _class
 :
 :
@@ -926,7 +912,6 @@ Expr
 *
 aExpr
 )
-\
 {
 \
 NS_ASSERTION
@@ -974,7 +959,6 @@ _ReturnType
 \
 Expr
 *
-\
 _class
 :
 :
@@ -983,7 +967,6 @@ getSubExprAt
 uint32_t
 aPos
 )
-\
 {
 \
 switch
@@ -1023,7 +1006,6 @@ nullptr
 }
 \
 void
-\
 _class
 :
 :
@@ -1035,7 +1017,6 @@ Expr
 *
 aExpr
 )
-\
 {
 \
 NS_ASSERTION
@@ -1074,7 +1055,6 @@ aExpr
 ;
 \
 }
-\
 else
 {
 \
@@ -1110,7 +1090,6 @@ _ReturnType
 \
 Expr
 *
-\
 _class
 :
 :
@@ -1119,7 +1098,6 @@ getSubExprAt
 uint32_t
 aPos
 )
-\
 {
 \
 return
@@ -1134,7 +1112,6 @@ aPos
 }
 \
 void
-\
 _class
 :
 :
@@ -1146,7 +1123,6 @@ Expr
 *
 aExpr
 )
-\
 {
 \
 NS_ASSERTION
@@ -2012,7 +1988,6 @@ const
 txXPathNode
 &
 aNode
-\
 txIMatchContext
 *
 aContext

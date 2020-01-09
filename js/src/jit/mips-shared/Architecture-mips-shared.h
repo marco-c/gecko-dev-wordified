@@ -206,6 +206,7 @@ _ABIO32
 )
 |
 |
+\
 defined
 (
 JS_SIMULATOR_MIPS32
@@ -231,6 +232,7 @@ _ABI64
 )
 |
 |
+\
 defined
 (
 JS_SIMULATOR_MIPS64
@@ -1736,6 +1738,10 @@ bool
 hasR2
 ;
 }
+/
+/
+namespace
+mips_private
 inline
 uint32_t
 GetMIPSFlags

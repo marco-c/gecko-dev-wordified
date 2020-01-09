@@ -516,6 +516,8 @@ loadContextInfo
 =
 %
 p
+"
+"
 pinned
 =
 %
@@ -1439,6 +1441,8 @@ Cannot
 get
 last
 modified
+"
+"
 time
 "
 "
@@ -4001,9 +4005,9 @@ happens
 only
 when
 the
+/
+/
 index
-/
-/
 is
 up
 -
@@ -4053,6 +4057,8 @@ EvictEntries
 Skipping
 entry
 since
+"
+"
 pinning
 "
 "
@@ -4270,6 +4276,8 @@ EvictEntries
 Skipping
 entry
 since
+"
+"
 MozURL
 "
 "
@@ -4331,6 +4339,8 @@ EvictEntries
 Skipping
 entry
 since
+"
+"
 origin
 "
 "

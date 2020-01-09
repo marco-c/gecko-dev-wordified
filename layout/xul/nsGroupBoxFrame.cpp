@@ -1205,9 +1205,9 @@ for
 now
 just
 use
+/
+/
 clipping
-/
-/
 to
 achieve
 the

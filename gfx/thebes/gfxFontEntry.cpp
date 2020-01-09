@@ -3936,6 +3936,7 @@ SCRIPT_FEATURE
 s
 tag
 )
+\
 (
 (
 (
@@ -8234,9 +8235,9 @@ than
 "
 those
 with
+/
+/
 false
-/
-/
 because
 during
 style
@@ -10534,9 +10535,9 @@ exactly
 4
 entries
 in
+/
+/
 mAvailableFonts
-/
-/
 stored
 in
 the
@@ -10549,12 +10550,12 @@ some
 of
 the
 entries
+/
+/
 may
 be
 nullptr
 .
-/
-/
 We
 can
 then
@@ -10566,11 +10567,11 @@ based
 on
 whether
 the
+/
+/
 request
 is
 for
-/
-/
 bold
 or
 non
@@ -10584,10 +10585,10 @@ italic
 without
 running
 the
+/
+/
 more
 complex
-/
-/
 matching
 algorithm
 used
@@ -10597,6 +10598,8 @@ families
 with
 many
 weights
+/
+/
 and
 /
 or
@@ -10648,6 +10651,8 @@ all
 faces
 are
 necessarily
+/
+/
 present
 .
 bool
@@ -10741,6 +10746,8 @@ family
 depending
 on
 requested
+/
+/
 style
 static
 const
@@ -10830,6 +10837,8 @@ find
 the
 first
 that
+/
+/
 actually
 exists
 fe
@@ -11922,7 +11931,6 @@ LogLevel
 :
 :
 Debug
-\
 (
 "
 (

@@ -630,6 +630,8 @@ MutexImpl
 :
 MutexImpl
 :
+"
+"
 pthread_mutexattr_settype
 failed
 "
@@ -697,6 +699,8 @@ MutexImpl
 :
 MutexImpl
 :
+"
+"
 pthread_mutexattr_destroy
 failed
 "

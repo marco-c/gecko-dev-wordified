@@ -146,6 +146,14 @@ HTMLImageElementOrSVGImageElementOrHTMLCanvasElementOrHTMLVideoElementOrImageBit
 ImageBitmapSource
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

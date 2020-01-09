@@ -452,8 +452,8 @@ StructuredCloneData
 }
 /
 /
-ipc
 namespace
+ipc
 class
 TabParent
 final
@@ -3581,10 +3581,10 @@ one
 aOutInputBlockId
 may
 be
+/
+/
 null
 .
-/
-/
 |
 aOutApzResponse
 |
@@ -3597,9 +3597,9 @@ the
 APZ
 gave
 when
+/
+/
 processing
-/
-/
 the
 input
 block
@@ -3610,6 +3610,8 @@ used
 for
 generating
 appropriate
+/
+/
 pointercancel
 events
 .
@@ -3641,6 +3643,8 @@ and
 notified
 our
 managing
+/
+/
 PContent
 .
 bool
@@ -3661,6 +3665,8 @@ not
 send
 IPC
 messages
+/
+/
 anymore
 .
 bool

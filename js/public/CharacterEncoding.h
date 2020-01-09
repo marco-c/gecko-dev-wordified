@@ -1844,8 +1844,8 @@ malformed
 UTF
 -
 8
-characters
 *
+characters
 will
 be
 replaced
@@ -1859,11 +1859,11 @@ will
 be
 thrown
 for
+*
 malformed
 UTF
 -
 8
-*
 input
 .
 *

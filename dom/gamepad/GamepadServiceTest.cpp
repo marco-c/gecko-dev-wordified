@@ -264,8 +264,8 @@ that
 we
 can
 write
-Mochitests
 *
+Mochitests
 that
 add
 and
@@ -277,6 +277,7 @@ the
 platform
 -
 specific
+*
 backends
 .
 *
@@ -1663,8 +1664,10 @@ aGivenProto
 }
 /
 /
+namespace
 dom
 }
 /
 /
+namespace
 mozilla

@@ -340,6 +340,10 @@ class
 DeviceManagerDx
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 layers
 {
@@ -348,6 +352,10 @@ ReadbackManagerD3D11
 ;
 }
 }
+/
+/
+namespace
+mozilla
 struct
 IDirect3DDevice9
 ;

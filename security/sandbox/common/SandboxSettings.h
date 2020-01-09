@@ -207,6 +207,10 @@ type
 #
 endif
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

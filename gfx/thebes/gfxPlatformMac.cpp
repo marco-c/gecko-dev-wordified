@@ -1962,6 +1962,8 @@ which
 effectively
 disables
 this
+/
+/
 feature
 if
 (
@@ -1986,6 +1988,8 @@ text
 smoothing
 for
 font
+/
+/
 sizes
 xxx
 and
@@ -2262,12 +2266,12 @@ DisplayLink
 for
 each
 monitor
+/
+/
 in
 multi
 -
 monitor
-/
-/
 situations
 .
 According
@@ -2277,6 +2281,8 @@ docs
 it
 is
 compatible
+/
+/
 with
 all
 displays
@@ -2284,13 +2290,13 @@ running
 on
 the
 computer
-/
-/
 But
 if
 we
 have
 different
+/
+/
 monitors
 at
 different
@@ -2327,6 +2333,8 @@ all
 active
 displays
 .
+"
+"
 Retrying
 "
 )

@@ -8772,7 +8772,6 @@ ScopeDataGCPolicy
 Data
 *
 >
-\
 {
 }
 DEFINE_SCOPE_DATA_GCPOLICY

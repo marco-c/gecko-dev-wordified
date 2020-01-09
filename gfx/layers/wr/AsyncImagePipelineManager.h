@@ -219,6 +219,10 @@ class
 WebRenderPipelineInfo
 ;
 }
+/
+/
+namespace
+wr
 namespace
 layers
 {

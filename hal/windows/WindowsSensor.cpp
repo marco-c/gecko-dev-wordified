@@ -812,8 +812,10 @@ nullptr
 }
 /
 /
+namespace
 hal_impl
 }
 /
 /
+namespace
 mozilla

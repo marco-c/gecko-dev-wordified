@@ -3805,6 +3805,7 @@ MACRO
 (
 LoopControlStatement
 LoopControlStatementType
+\
 asLoopControlStatement
 )
 \
@@ -3918,6 +3919,7 @@ MACRO
 (
 ConditionalExpression
 ConditionalExpressionType
+\
 asConditionalExpression
 )
 \
@@ -3950,7 +3952,6 @@ typeName
 longTypeName
 asMethodName
 )
-\
 class
 typeName
 ;
@@ -4109,15 +4110,16 @@ ParseNodeKind
 :
 Assign
 or
+*
 ParseNodeKind
 :
 :
 Colon
 of
-*
 property
 that
 needs
+*
 SetFunctionName
 .
 *
@@ -11708,6 +11710,7 @@ object
 argument
 in
 a
+*
 TaggedTemplate
 .
 *

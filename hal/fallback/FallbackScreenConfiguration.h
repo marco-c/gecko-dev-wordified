@@ -251,7 +251,15 @@ pixelDepth
 ;
 }
 }
+/
+/
+namespace
+fallback
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

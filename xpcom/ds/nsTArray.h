@@ -4752,7 +4752,6 @@ nsTArray_CopyChooser
 <
 T
 >
-\
 {
 \
 using
@@ -4787,7 +4786,6 @@ T
 S
 >
 >
-\
 {
 \
 using
@@ -5598,6 +5596,7 @@ applied
 to
 function
 type
+\
 has
 no
 meaning
@@ -6157,16 +6156,16 @@ const_iterator
 const_reverse_iterator
 ;
 using
-safeelementat_helper_type
-:
-:
-SafeElementAt
-;
-using
 base_type
 :
 :
 EmptyHdr
+;
+using
+safeelementat_helper_type
+:
+:
+SafeElementAt
 ;
 /
 /

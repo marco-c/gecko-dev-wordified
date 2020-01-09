@@ -3083,6 +3083,8 @@ and
 hit
 detection
 work
+/
+/
 properly
 void
 nsSVGImageFrame

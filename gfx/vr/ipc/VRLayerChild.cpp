@@ -476,9 +476,9 @@ last
 submitted
 frame
 is
+*
 already
 processed
-*
 and
 the
 new
@@ -489,6 +489,7 @@ ready
 .
 SurfaceTextures
 need
+*
 to
 be
 released
@@ -497,7 +498,6 @@ the
 VR
 render
 thread
-*
 in
 order
 to
@@ -506,18 +506,19 @@ to
 be
 used
 again
+*
 in
 the
 WebGLContext
 GLScreenBuffer
 producer
 .
-*
 Not
 doing
 so
 causes
 some
+*
 freezes
 crashes
 or
@@ -737,6 +738,8 @@ SharedSurface
 ToSurfaceDescriptor
 failed
 in
+"
+"
 VRLayerChild
 :
 :

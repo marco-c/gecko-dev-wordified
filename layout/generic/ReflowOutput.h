@@ -2071,6 +2071,8 @@ Block
 direction
 )
 or
+/
+/
 ASK_FOR_BASELINE
 mozilla
 :
@@ -2083,8 +2085,8 @@ mWritingMode
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 /

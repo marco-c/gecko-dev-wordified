@@ -754,6 +754,7 @@ GET_APPCOMMAND_LPARAM
 (
 lParam
 )
+\
 (
 (
 short
@@ -787,10 +788,10 @@ HIWORD
 lParam
 )
 &
+*
 FAPPCOMMAND_MASK
 )
 )
-*
 #
 define
 GET_MOUSEORKEY_LPARAM

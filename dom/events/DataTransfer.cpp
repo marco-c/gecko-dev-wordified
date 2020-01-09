@@ -1845,6 +1845,8 @@ to
 add
 it
 to
+/
+/
 the
 list
 .
@@ -3328,6 +3330,8 @@ file
 promize
 types
 to
+"
+"
 DataTransfer
 "
 )
@@ -7977,10 +7981,10 @@ sent
 over
 IPC
 .
+/
+/
 Because
 of
-/
-/
 that
 we
 will
@@ -7991,12 +7995,12 @@ or
 not
 it
 would
+/
+/
 have
 been
 set
 .
-/
-/
 (
 bug
 1308007
@@ -8039,6 +8043,8 @@ the
 typesArray
 returned
 by
+/
+/
 GetExternalClipboardFormats
 if
 (

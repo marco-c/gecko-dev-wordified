@@ -1007,7 +1007,6 @@ _notifier
 #
 define
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
-\
 :
 :
 std
@@ -1020,7 +1019,6 @@ _notifier
 #
 define
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_TO_PARENT
-\
 :
 :
 std
@@ -1036,6 +1034,7 @@ MOZ_GUARD_OBJECT_NOTIFIER_INIT
 \
 do
 {
+\
 _mCheckNotUsedAsTemporary
 .
 init
@@ -1043,6 +1042,7 @@ init
 _notifier
 )
 ;
+\
 }
 while
 (
@@ -1074,8 +1074,10 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 #
 define
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
+\
 do
 {
+\
 }
 while
 (

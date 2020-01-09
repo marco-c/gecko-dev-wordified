@@ -152,6 +152,10 @@ gPresentationLog
 ;
 }
 }
+/
+/
+namespace
+mozilla
 #
 undef
 PRES_ERROR
@@ -163,6 +167,7 @@ PRES_ERROR
 .
 .
 )
+\
 MOZ_LOG
 (
 mozilla
@@ -179,6 +184,7 @@ LogLevel
 :
 :
 Error
+\
 (
 __VA_ARGS__
 )
@@ -194,6 +200,7 @@ PRES_DEBUG
 .
 .
 )
+\
 MOZ_LOG
 (
 mozilla
@@ -210,6 +217,7 @@ LogLevel
 :
 :
 Debug
+\
 (
 __VA_ARGS__
 )

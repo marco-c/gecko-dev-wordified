@@ -1325,8 +1325,10 @@ endif
 }
 /
 /
-js
+namespace
+gc
 }
 /
 /
-gc
+namespace
+js

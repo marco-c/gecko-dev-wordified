@@ -2085,6 +2085,8 @@ time
 between
 navigation
 start
+"
+"
 and
 first
 non
@@ -2299,6 +2301,8 @@ time
 between
 navigation
 start
+"
+"
 and
 first
 non
@@ -2353,6 +2357,8 @@ paint
 is
 very
 close
+/
+/
 to
 FCP
 )
@@ -2506,6 +2512,8 @@ time
 between
 navigation
 start
+"
+"
 and
 DOMContentFlushed
 "

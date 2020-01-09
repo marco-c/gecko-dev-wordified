@@ -770,6 +770,10 @@ Type
 ;
 }
 /
+/
+namespace
+detail
+/
 *
 *
 *
@@ -1148,8 +1152,8 @@ a
 linear
 search
 through
-the
 *
+the
 properties
 of
 the

@@ -1688,6 +1688,8 @@ have
 a
 root
 frame
+/
+/
 under
 us
 ?
@@ -3281,4 +3283,12 @@ Clear
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

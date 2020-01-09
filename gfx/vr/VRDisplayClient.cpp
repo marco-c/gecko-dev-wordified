@@ -1979,6 +1979,8 @@ type
 and
 memcpy
 is
+/
+/
 safe
 .
 memcpy

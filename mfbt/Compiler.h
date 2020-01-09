@@ -214,9 +214,9 @@ __GNUC_MINOR__
 +
 __GNUC_PATCHLEVEL__
 )
-\
 >
 =
+\
 (
 (
 major
@@ -256,9 +256,9 @@ __GNUC_MINOR__
 +
 __GNUC_PATCHLEVEL__
 )
-\
 <
 =
+\
 (
 (
 major

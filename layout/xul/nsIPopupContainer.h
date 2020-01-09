@@ -147,6 +147,10 @@ Element
 ;
 }
 }
+/
+/
+namespace
+mozilla
 class
 nsIPopupContainer
 {

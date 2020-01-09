@@ -870,8 +870,8 @@ the
 same
 as
 above
-except
 *
+except
 that
 any
 failure

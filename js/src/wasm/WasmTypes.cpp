@@ -1208,7 +1208,15 @@ dst
 ;
 }
 }
+/
+/
+namespace
+wasm
 }
+/
+/
+namespace
+js
 const
 uint8_t
 *

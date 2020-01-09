@@ -524,6 +524,8 @@ before
 calling
 the
 cpuid
+/
+/
 instruction
 .
 "
@@ -590,6 +592,7 @@ __SUNPRO_CC
 )
 &
 &
+\
 (
 defined
 (

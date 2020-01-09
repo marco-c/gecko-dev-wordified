@@ -1052,10 +1052,10 @@ output
 buffers
 in
 seperate
+/
+/
 thread
 .
-/
-/
 How
 to
 use
@@ -1752,6 +1752,8 @@ WebrtcAndroidMediaCodec
 s
 CreateEncoderByType
 failed
+"
+"
 err
 =
 %
@@ -1869,6 +1871,8 @@ WebrtcAndroidMediaCodec
 s
 CreateDecoderByType
 failed
+"
+"
 err
 =
 %
@@ -3089,6 +3093,8 @@ mCoder
 DequeueInputBuffer
 (
 )
+"
+"
 return
 err
 =
@@ -3168,6 +3174,8 @@ mCoder
 QueueInputBuffer
 (
 )
+"
+"
 return
 err
 =
@@ -3235,6 +3243,8 @@ mCoder
 DequeueOutputBuffer
 (
 )
+"
+"
 return
 err
 =
@@ -3773,6 +3783,8 @@ COLOR_FORMAT_YUV420_SEMIPLANAR
 Most
 hardware
 is
+/
+/
 NV12
 -
 friendly
@@ -4545,6 +4557,8 @@ Encode
 dequeue
 OMX
 input
+"
+"
 buffer
 took
 %
@@ -4666,6 +4680,8 @@ Encode
 )
 convert
 input
+"
+"
 buffer
 to
 NV12
@@ -4758,6 +4774,8 @@ Encode
 )
 queue
 input
+"
+"
 buffer
 took
 %
@@ -4859,6 +4877,8 @@ BufferInfo
 :
 New
 return
+"
+"
 err
 =
 %
@@ -5237,6 +5257,8 @@ size
 =
 %
 d
+"
+"
 buffer
 offset
 =
@@ -5329,14 +5351,14 @@ buffer
 or
 transfer
 it
+/
+/
 from
 inputImage
 (
 ping
 -
 pong
-/
-/
 buffers
 or
 select
@@ -5687,11 +5709,11 @@ as
 parameter
 for
 MediaCodec
+/
+/
 setParameters
 method
 .
-/
-/
 mMediaCodecEncoder
 -
 >
@@ -6264,6 +6286,8 @@ Encode
 )
 convert
 input
+"
+"
 buffer
 to
 NV12
@@ -7176,3 +7200,7 @@ Release
 ;
 }
 }
+/
+/
+namespace
+mozilla

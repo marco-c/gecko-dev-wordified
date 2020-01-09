@@ -264,6 +264,7 @@ LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 mozilla
@@ -669,6 +670,8 @@ happen
 but
 usually
 too
+/
+/
 early
 for
 check

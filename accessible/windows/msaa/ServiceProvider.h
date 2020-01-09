@@ -206,6 +206,14 @@ mAccessible
 }
 ;
 }
+/
+/
+namespace
+a11y
 }
+/
+/
+namespace
+mozilla
 #
 endif

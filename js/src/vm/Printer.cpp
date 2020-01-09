@@ -287,6 +287,9 @@ printer
 }
 ;
 }
+/
+/
+namespace
 namespace
 js
 {

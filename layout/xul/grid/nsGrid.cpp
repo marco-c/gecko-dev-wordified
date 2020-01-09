@@ -1064,9 +1064,9 @@ row
 that
 number
 of
+/
+/
 columns
-/
-/
 defined
 .
 Example
@@ -1693,10 +1693,10 @@ box
 aRowCount
 well
 become
+*
 the
 actual
 number
-*
 rows
 defined
 in
@@ -1706,6 +1706,7 @@ xul
 aComputedColumnCount
 will
 become
+*
 the
 number
 of
@@ -1714,7 +1715,6 @@ by
 counting
 the
 number
-*
 of
 cells
 in
@@ -2219,6 +2219,7 @@ populate
 then
 with
 2
+*
 cells
 .
 One
@@ -2227,7 +2228,6 @@ the
 row
 and
 one
-*
 from
 the
 column
@@ -2793,9 +2793,9 @@ you
 will
 get
 the
+*
 inverse
 .
-*
 As
 if
 you
@@ -3086,6 +3086,8 @@ margin
 of
 our
 parent
+/
+/
 rows
 /
 /
@@ -3447,12 +3449,12 @@ just
 the
 top
 and
+*
 bottom
 border
 /
 padding
 .
-*
 However
 if
 the
@@ -3465,6 +3467,7 @@ last
 it
 could
 be
+*
 affected
 by
 the
@@ -3474,7 +3477,6 @@ column
 or
 columns
 could
-*
 have
 a
 top
@@ -3875,9 +3877,9 @@ the
 top
 and
 bottom
+/
+/
 borders
-/
-/
 of
 each
 columns
@@ -4327,12 +4329,12 @@ larger
 than
 this
 rows
+/
+/
 top
 border
 /
 padding
-/
-/
 the
 use
 it
@@ -4389,13 +4391,13 @@ is
 larger
 than
 this
+/
+/
 rows
 bottom
 border
 /
 padding
-/
-/
 the
 use
 it
@@ -5709,8 +5711,8 @@ trivial
 There
 are
 a
-few
 *
+few
 things
 we
 need
@@ -5729,10 +5731,10 @@ any
 rows
 >
 or
+*
 <
 columns
 >
-*
 tags
 are
 around
@@ -5887,6 +5889,8 @@ children
 should
 not
 be
+/
+/
 flexible
 /
 /
@@ -6508,6 +6512,7 @@ had
 a
 child
 added
+*
 or
 removed
 *
@@ -6659,8 +6664,8 @@ scrollframe
 is
 will
 return
-the
 *
+the
 frame
 inside
 .
@@ -6706,6 +6711,8 @@ it
 and
 get
 the
+/
+/
 scrolled
 child
 nsIScrollableFrame
@@ -6771,10 +6778,10 @@ in
 a
 scrollframe
 is
+*
 will
 return
 the
-*
 scrollframe
 ourside
 it
@@ -6786,6 +6793,7 @@ no
 scrollframe
 it
 does
+*
 nothing
 .
 *

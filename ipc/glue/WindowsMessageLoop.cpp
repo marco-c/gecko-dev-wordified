@@ -707,8 +707,8 @@ the
 child
 .
 To
-prevent
 *
+prevent
 windows
 from
 freezing
@@ -790,6 +790,10 @@ sAppShellGeckoMsgId
 ;
 }
 }
+/
+/
+namespace
+mozilla
 namespace
 {
 const
@@ -5923,6 +5927,8 @@ WindowsMessageChannel
 :
 :
 WaitForSyncNotifyWithA11yReentry
+"
+"
 failed
 to
 reset
@@ -6499,6 +6505,8 @@ WaitForSyncNotify
 failed
 to
 reset
+"
+"
 event
 .
 GetLastError
@@ -7290,6 +7298,8 @@ WindowsMessageChannel
 WaitForInterruptNotify
 :
 :
+"
+"
 SpinNestedEvents
 failed
 to
@@ -7463,6 +7473,8 @@ WindowsMessageChannel
 WaitForInterruptNotify
 :
 :
+"
+"
 WaitForMultipleObjects
 failed
 to

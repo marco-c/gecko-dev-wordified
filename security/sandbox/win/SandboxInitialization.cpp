@@ -936,8 +936,10 @@ GetInstance
 }
 /
 /
+namespace
 sandboxing
 }
 /
 /
+namespace
 mozilla

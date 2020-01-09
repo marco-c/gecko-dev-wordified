@@ -132,9 +132,9 @@ GSS
 -
 API
 Negotiate
+/
+/
 method
-/
-/
 as
 specified
 by

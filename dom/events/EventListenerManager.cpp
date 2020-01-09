@@ -515,7 +515,6 @@ mEventMessage
 eUnidentifiedEvent
 |
 |
-\
 ls
 -
 >
@@ -1737,10 +1736,10 @@ bit
 on
 the
 DOM
+/
+/
 window
 .
-/
-/
 Otherwise
 we
 won
@@ -7099,6 +7098,8 @@ flag
 properly
 based
 on
+/
+/
 aEventStatus
 if
 (
@@ -7287,6 +7288,8 @@ when
 listener
 permits
 untrusted
+/
+/
 events
 .
 if

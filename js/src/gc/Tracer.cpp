@@ -1173,9 +1173,6 @@ tp
 /
 /
 namespace
-(
-anonymous
-)
 JS_PUBLIC_API
 void
 JS

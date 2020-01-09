@@ -191,12 +191,12 @@ Event
 /
 /
 namespace
-mozilla
+dom
 }
 /
 /
 namespace
-dom
+mozilla
 class
 nsRangeFrame
 final

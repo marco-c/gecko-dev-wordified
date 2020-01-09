@@ -1114,9 +1114,9 @@ ordering
 to
 avoid
 intermittent
+/
+/
 crashes
-/
-/
 when
 hashtable
 enumeration
@@ -1126,9 +1126,9 @@ destroy
 modules
 in
 an
+/
+/
 unfortunate
-/
-/
 order
 .
 So
@@ -1139,6 +1139,8 @@ invoked
 explicitly
 during
 layout
+/
+/
 module
 shutdown
 .

@@ -1013,8 +1013,8 @@ a
 bunch
 of
 transcedental
-function
 *
+function
 calls
 which
 should

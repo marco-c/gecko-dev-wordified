@@ -181,5 +181,6 @@ ScopedCustomReleaseTraits0
 /
 /
 namespace
+mozilla
 #
 endif

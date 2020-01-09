@@ -130,7 +130,6 @@ __type
 \
 NS_LITERAL_CSTRING
 (
-\
 "
 CREATE
 "
@@ -142,11 +141,11 @@ NOT
 EXISTS
 "
 __table
+\
 "
 _
 "
 __name
-\
 "
 ON
 "
@@ -158,7 +157,6 @@ __columns
 "
 )
 "
-\
 )
 /
 *
@@ -173,7 +171,6 @@ CREATE_IDX_MOZ_PLACES_URL_HASH
 \
 CREATE_PLACES_IDX
 (
-\
 "
 url_hashindex
 "
@@ -185,7 +182,6 @@ url_hash
 "
 "
 "
-\
 )
 #
 define
@@ -193,7 +189,6 @@ CREATE_IDX_MOZ_PLACES_REVHOST
 \
 CREATE_PLACES_IDX
 (
-\
 "
 hostindex
 "
@@ -205,7 +200,6 @@ rev_host
 "
 "
 "
-\
 )
 #
 define
@@ -213,7 +207,6 @@ CREATE_IDX_MOZ_PLACES_VISITCOUNT
 \
 CREATE_PLACES_IDX
 (
-\
 "
 visitcount
 "
@@ -225,7 +218,6 @@ visit_count
 "
 "
 "
-\
 )
 #
 define
@@ -233,7 +225,6 @@ CREATE_IDX_MOZ_PLACES_FRECENCY
 \
 CREATE_PLACES_IDX
 (
-\
 "
 frecencyindex
 "
@@ -245,7 +236,6 @@ frecency
 "
 "
 "
-\
 )
 #
 define
@@ -253,7 +243,6 @@ CREATE_IDX_MOZ_PLACES_LASTVISITDATE
 \
 CREATE_PLACES_IDX
 (
-\
 "
 lastvisitdateindex
 "
@@ -265,7 +254,6 @@ last_visit_date
 "
 "
 "
-\
 )
 #
 define
@@ -273,7 +261,6 @@ CREATE_IDX_MOZ_PLACES_GUID
 \
 CREATE_PLACES_IDX
 (
-\
 "
 guid_uniqueindex
 "
@@ -286,7 +273,6 @@ guid
 "
 UNIQUE
 "
-\
 )
 #
 define
@@ -294,7 +280,6 @@ CREATE_IDX_MOZ_PLACES_ORIGIN_ID
 \
 CREATE_PLACES_IDX
 (
-\
 "
 originidindex
 "
@@ -306,7 +291,6 @@ origin_id
 "
 "
 "
-\
 )
 /
 *
@@ -321,20 +305,19 @@ CREATE_IDX_MOZ_HISTORYVISITS_PLACEDATE
 \
 CREATE_PLACES_IDX
 (
-\
 "
 placedateindex
 "
 "
 moz_historyvisits
 "
+\
 "
 place_id
 visit_date
 "
 "
 "
-\
 )
 #
 define
@@ -342,7 +325,6 @@ CREATE_IDX_MOZ_HISTORYVISITS_FROMVISIT
 \
 CREATE_PLACES_IDX
 (
-\
 "
 fromindex
 "
@@ -354,7 +336,6 @@ from_visit
 "
 "
 "
-\
 )
 #
 define
@@ -362,7 +343,6 @@ CREATE_IDX_MOZ_HISTORYVISITS_VISITDATE
 \
 CREATE_PLACES_IDX
 (
-\
 "
 dateindex
 "
@@ -374,7 +354,6 @@ visit_date
 "
 "
 "
-\
 )
 /
 *
@@ -389,7 +368,6 @@ CREATE_IDX_MOZ_BOOKMARKS_PLACETYPE
 \
 CREATE_PLACES_IDX
 (
-\
 "
 itemindex
 "
@@ -402,7 +380,6 @@ type
 "
 "
 "
-\
 )
 #
 define
@@ -410,7 +387,6 @@ CREATE_IDX_MOZ_BOOKMARKS_PARENTPOSITION
 \
 CREATE_PLACES_IDX
 (
-\
 "
 parentindex
 "
@@ -423,7 +399,6 @@ position
 "
 "
 "
-\
 )
 #
 define
@@ -431,20 +406,19 @@ CREATE_IDX_MOZ_BOOKMARKS_PLACELASTMODIFIED
 \
 CREATE_PLACES_IDX
 (
-\
 "
 itemlastmodifiedindex
 "
 "
 moz_bookmarks
 "
+\
 "
 fk
 lastModified
 "
 "
 "
-\
 )
 #
 define
@@ -452,7 +426,6 @@ CREATE_IDX_MOZ_BOOKMARKS_DATEADDED
 \
 CREATE_PLACES_IDX
 (
-\
 "
 dateaddedindex
 "
@@ -464,7 +437,6 @@ dateAdded
 "
 "
 "
-\
 )
 #
 define
@@ -472,7 +444,6 @@ CREATE_IDX_MOZ_BOOKMARKS_GUID
 \
 CREATE_PLACES_IDX
 (
-\
 "
 guid_uniqueindex
 "
@@ -485,7 +456,6 @@ guid
 "
 UNIQUE
 "
-\
 )
 /
 *
@@ -500,13 +470,13 @@ CREATE_IDX_MOZ_ANNOS_PLACEATTRIBUTE
 \
 CREATE_PLACES_IDX
 (
-\
 "
 placeattributeindex
 "
 "
 moz_annos
 "
+\
 "
 place_id
 anno_attribute_id
@@ -514,7 +484,6 @@ anno_attribute_id
 "
 UNIQUE
 "
-\
 )
 /
 *
@@ -529,13 +498,13 @@ CREATE_IDX_MOZ_ITEMSANNOS_PLACEATTRIBUTE
 \
 CREATE_PLACES_IDX
 (
-\
 "
 itemattributeindex
 "
 "
 moz_items_annos
 "
+\
 "
 item_id
 anno_attribute_id
@@ -543,7 +512,6 @@ anno_attribute_id
 "
 UNIQUE
 "
-\
 )
 /
 *
@@ -558,13 +526,13 @@ CREATE_IDX_MOZ_KEYWORDS_PLACEPOSTDATA
 \
 CREATE_PLACES_IDX
 (
-\
 "
 placepostdata_uniqueindex
 "
 "
 moz_keywords
 "
+\
 "
 place_id
 post_data
@@ -572,7 +540,6 @@ post_data
 "
 UNIQUE
 "
-\
 )
 /
 /
@@ -583,7 +550,6 @@ CREATE_IDX_MOZ_PAGES_W_ICONS_ICONURLHASH
 \
 CREATE_PLACES_IDX
 (
-\
 "
 urlhashindex
 "
@@ -595,7 +561,6 @@ page_url_hash
 "
 "
 "
-\
 )
 /
 /
@@ -606,7 +571,6 @@ CREATE_IDX_MOZ_ICONS_ICONURLHASH
 \
 CREATE_PLACES_IDX
 (
-\
 "
 iconurlhashindex
 "
@@ -618,7 +582,6 @@ fixed_icon_url_hash
 "
 "
 "
-\
 )
 #
 endif

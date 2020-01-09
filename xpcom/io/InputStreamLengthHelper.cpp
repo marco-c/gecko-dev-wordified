@@ -393,7 +393,7 @@ mSize
 }
 /
 /
-anonymous
+namespace
 /
 *
 static
@@ -1421,5 +1421,5 @@ nsIInputStreamLengthCallback
 }
 /
 /
-mozilla
 namespace
+mozilla

@@ -935,9 +935,9 @@ n
 other
 than
 1
+/
+/
 the
-/
-/
 error
 INVALID_OPERATION
 is

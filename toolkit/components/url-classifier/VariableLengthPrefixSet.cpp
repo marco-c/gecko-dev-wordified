@@ -199,6 +199,7 @@ LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 gUrlClassifierPrefixSetLog
@@ -216,6 +217,7 @@ define
 LOG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 gUrlClassifierPrefixSetLog
@@ -292,6 +294,8 @@ nsUrlClassifierPrefixSet
 because
 of
 better
+/
+/
 optimization
 .
 VariableLengthPrefixSet
@@ -2843,6 +2847,8 @@ prefix
 set
 for
 a
+"
+"
 URL
 classifier
 .

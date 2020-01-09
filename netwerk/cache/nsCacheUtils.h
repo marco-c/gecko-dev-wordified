@@ -240,8 +240,8 @@ aThread
 Shutdown
 (
 )
-has
 *
+has
 been
 called
 and
@@ -254,6 +254,7 @@ processed
 on
 the
 current
+*
 thread
 .
 *

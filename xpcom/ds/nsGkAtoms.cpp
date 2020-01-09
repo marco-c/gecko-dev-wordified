@@ -479,13 +479,11 @@ value_
 )
 -
 1
-\
 hash_
 \
 offsetof
 (
 GkAtoms
-\
 mAtoms
 [
 static_cast

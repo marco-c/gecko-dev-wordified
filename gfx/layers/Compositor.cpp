@@ -3929,6 +3929,8 @@ rect
 should
 have
 the
+"
+"
 same
 width
 "
@@ -4013,6 +4015,8 @@ rect
 should
 have
 the
+"
+"
 same
 height
 "

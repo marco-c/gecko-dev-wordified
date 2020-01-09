@@ -218,10 +218,10 @@ strict
 enforcement
 of
 thread
+/
+/
 invariants
 .
-/
-/
 The
 AddRef
 implementation
@@ -231,6 +231,8 @@ will
 assert
 if
 we
+/
+/
 go
 wrong
 here

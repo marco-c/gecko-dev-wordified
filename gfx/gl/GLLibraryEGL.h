@@ -536,6 +536,7 @@ else
 #
 define
 MOZ_FUNCTION_NAME
+\
 __func__
 /
 /
@@ -552,6 +553,8 @@ compilers
 .
 Just
 raw
+/
+/
 function
 name
 .

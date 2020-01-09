@@ -1851,8 +1851,10 @@ endif
 }
 /
 /
+namespace
 gfx
 }
 /
 /
+namespace
 mozilla

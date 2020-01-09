@@ -722,8 +722,8 @@ offscreen
 context
 .
 The
-resulting
 *
+resulting
 context
 *
 may

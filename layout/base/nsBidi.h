@@ -336,6 +336,7 @@ aLength
 /
 code
 >
+*
 long
 .
 <
@@ -1431,11 +1432,11 @@ to
 have
 them
 reordered
+*
 (
 L2
 )
 .
-*
 This
 is
 equivalent

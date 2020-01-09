@@ -257,7 +257,7 @@ layers
 /
 /
 namespace
-gfx
+mozilla
 #
 endif
 /

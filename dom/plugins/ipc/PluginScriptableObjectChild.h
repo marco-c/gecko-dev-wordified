@@ -1473,10 +1473,10 @@ active
 NPObjects
 (
 from
+*
 NPN_CreateObject
 until
 the
-*
 final
 release
 /
@@ -1486,6 +1486,7 @@ or
 not
 an
 actor
+*
 is
 currently
 associated

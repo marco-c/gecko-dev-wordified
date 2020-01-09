@@ -2086,6 +2086,8 @@ are
 called
 with
 a
+"
+"
 VMFunction
 .
 "
@@ -3992,7 +3994,6 @@ op
 (
 )
 )
-\
 return
 nullptr
 ;
@@ -8986,6 +8987,8 @@ the
 barrier
 will
 always
+/
+/
 fail
 .
 if

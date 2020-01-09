@@ -532,6 +532,8 @@ error
 combination
 for
 this
+/
+/
 session
 .
 static
@@ -1781,6 +1783,8 @@ last_error
 =
 %
 d
+"
+"
 last_warning
 =
 %
@@ -2477,9 +2481,9 @@ case
 This
 slightly
 reduces
+/
+/
 the
-/
-/
 ability
 of
 the
@@ -2491,9 +2495,9 @@ children
 from
 spawning
 new
+/
+/
 processes
-/
-/
 or
 preventing
 them
@@ -2504,6 +2508,8 @@ Windows
 or
 accessing
 the
+/
+/
 clipboard
 .
 return
@@ -3015,6 +3021,8 @@ set
 memory
 limit
 when
+"
+"
 jobLevel
 =
 =
@@ -3120,6 +3128,8 @@ be
 USER_UNPROTECTED
 or
 USER_LAST
+"
+"
 if
 initial
 level
@@ -3595,6 +3605,8 @@ AddRule
 should
 never
 fail
+"
+"
 what
 happened
 ?
@@ -4550,6 +4562,8 @@ set
 memory
 limit
 when
+"
+"
 jobLevel
 =
 =
@@ -4655,6 +4669,8 @@ be
 USER_UNPROTECTED
 or
 USER_LAST
+"
+"
 if
 initial
 level
@@ -5183,7 +5199,6 @@ SBOX_ALL_OK
 =
 result
 )
-\
 return
 false
 ;
@@ -5351,6 +5366,8 @@ never
 fail
 with
 these
+"
+"
 arguments
 what
 happened
@@ -5380,6 +5397,8 @@ should
 never
 fail
 with
+"
+"
 these
 arguments
 what
@@ -5927,6 +5946,8 @@ you
 set
 memory
 limit
+"
+"
 when
 jobLevel
 =
@@ -5964,6 +5985,8 @@ USER_LAST
 if
 initial
 level
+"
+"
 was
 USER_RESTRICTED_SAME_ACCESS
 "
@@ -6822,7 +6845,11 @@ TargetPolicy
 REG_ALLOW_ANY
 L
 "
-HKEY_CURRENT_USER
+HKEY_CURRENT_
+"
+L
+"
+USER
 \
 \
 Software
@@ -6834,7 +6861,11 @@ Microsoft
 Windows
 \
 \
-CurrentVersion
+CurrentVersio
+"
+L
+"
+n
 \
 \
 Explorer
@@ -6891,7 +6922,11 @@ TargetPolicy
 REG_ALLOW_ANY
 L
 "
-HKEY_CURRENT_USER
+HKEY_CURRENT_
+"
+L
+"
+USER
 \
 \
 Software
@@ -6906,7 +6941,11 @@ Windows
 CurrentVersion
 \
 \
-Explorer
+Ex
+"
+L
+"
+plorer
 \
 \
 ComDlg32
@@ -7126,6 +7165,8 @@ with
 these
 arguments
 what
+"
+"
 happened
 ?
 "
@@ -7154,6 +7195,8 @@ never
 fail
 with
 these
+"
+"
 arguments
 what
 happened
@@ -7842,7 +7885,11 @@ TargetPolicy
 REG_ALLOW_READONLY
 L
 "
-HKEY_LOCAL_MACHINE
+HKEY_LOCAL_
+"
+L
+"
+MACHINE
 \
 \
 SOFTWARE
@@ -8032,6 +8079,9 @@ Microsoft
 \
 \
 Control
+"
+L
+"
 Panel
 \
 \
@@ -8135,7 +8185,11 @@ TargetPolicy
 REG_ALLOW_READONLY
 L
 "
-HKEY_LOCAL_MACHINE
+HKEY_LOCAL_
+"
+L
+"
+MACHINE
 \
 \
 SOFTWARE
@@ -8147,7 +8201,11 @@ Microsoft
 Windows
 \
 \
-CurrentVersion
+CurrentVer
+"
+L
+"
+sion
 \
 \
 SideBySide
@@ -8792,3 +8850,7 @@ nullptr
 }
 }
 }
+/
+/
+namespace
+mozilla

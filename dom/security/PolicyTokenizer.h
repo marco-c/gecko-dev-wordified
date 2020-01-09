@@ -158,9 +158,9 @@ string
 by
 whitespace
 and
+*
 semicolon
 .
-*
 Interally
 the
 tokens

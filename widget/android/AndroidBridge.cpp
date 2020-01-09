@@ -526,6 +526,8 @@ optimize
 away
 something
 it
+"
+"
 shouldn
 '
 t
@@ -631,6 +633,8 @@ optimize
 away
 something
 it
+"
+"
 shouldn
 '
 t
@@ -736,6 +740,8 @@ optimize
 away
 something
 it
+"
+"
 shouldn
 '
 t
@@ -841,6 +847,8 @@ optimize
 away
 something
 it
+"
+"
 shouldn
 '
 t
@@ -2575,6 +2583,8 @@ the
 ARGB
 32
 bit
+/
+/
 value
 nscolor
 *
@@ -3461,6 +3471,10 @@ Signal
 ;
 }
 }
+/
+/
+namespace
+mozilla
 void
 AndroidBridge
 :
@@ -3690,6 +3704,8 @@ a
 boolean
 and
 an
+/
+/
 integer
 .
 auto

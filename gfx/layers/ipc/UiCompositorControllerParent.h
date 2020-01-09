@@ -199,6 +199,8 @@ the
 private
 constructor
 when
+/
+/
 running
 in
 process
@@ -503,6 +505,8 @@ may
 be
 notified
 if
+/
+/
 necessary
 .
 void
@@ -591,6 +595,8 @@ when
 the
 UI
 thread
+/
+/
 is
 expecting
 to
@@ -598,6 +604,8 @@ be
 notified
 when
 a
+/
+/
 layer
 has
 been

@@ -925,6 +925,7 @@ clean
 up
 any
 cached
+*
 resources
 .
 *
@@ -963,6 +964,7 @@ the
 latter
 '
 s
+*
 initialization
 .
 *
@@ -1098,10 +1100,10 @@ be
 removed
 when
 the
+*
 compositor
 no
 longer
-*
 depends
 on
 nsIWidget

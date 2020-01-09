@@ -374,8 +374,8 @@ for
 nested
 remote
 iframes
-that
 *
+that
 want
 an
 auth
@@ -389,9 +389,9 @@ the
 parent
 process
 and
+*
 informs
 the
-*
 NeckoChild
 that
 we
@@ -402,10 +402,10 @@ prompt
 which
 forwards
 the
+*
 request
 to
 the
-*
 TabParent
 in
 the
@@ -415,6 +415,7 @@ that
 contains
 the
 nested
+*
 iframe
 *
 /

@@ -271,9 +271,9 @@ rect
 to
 the
 nearest
+/
+/
 pixel
-/
-/
 without
 changing
 the

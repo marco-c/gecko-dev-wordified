@@ -904,6 +904,7 @@ the
 converter
 using
 the
+*
 dictionaries
 converter
 *
@@ -1527,6 +1528,8 @@ to
 -
 left
 as
+/
+/
 preference
 nsTArray
 <
@@ -3007,6 +3010,8 @@ up
 to
 the
 point
+/
+/
 at
 which
 the
@@ -3146,8 +3151,8 @@ Thunderbird
 Thunderbird
 derives
 the
-dictionary
 *
+dictionary
 from
 the
 document
@@ -3162,8 +3167,8 @@ If
 a
 dictionary
 is
-removed
 *
+removed
 we
 need
 to

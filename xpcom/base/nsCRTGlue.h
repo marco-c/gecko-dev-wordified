@@ -1113,6 +1113,7 @@ filenames
 #
 define
 CONTROL_CHARACTERS
+\
 "
 \
 001

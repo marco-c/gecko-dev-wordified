@@ -871,6 +871,8 @@ be
 ignored
 by
 the
+/
+/
 compiler
 .
 #
@@ -1183,6 +1185,7 @@ MOZ_VALGRIND
 )
 |
 |
+\
 defined
 (
 MOZ_ASAN

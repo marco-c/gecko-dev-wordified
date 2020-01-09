@@ -167,6 +167,7 @@ Viewport
 API
 spec
 :
+*
 https
 :
 /

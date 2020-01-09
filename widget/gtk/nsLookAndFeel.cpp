@@ -2048,6 +2048,8 @@ caption
 size
 box
 and
+/
+/
 scrollbar
 arrow
 box
@@ -6017,6 +6019,8 @@ pass
 deref
 pointers
 to
+/
+/
 GDK_COLOR_TO_NS_RGB
 mNativeHyperLinkText
 =

@@ -2293,6 +2293,7 @@ SetConstructUbiNodeForDOMObjectCallback
 .
 Refer
 to
+*
 js
 /
 public
@@ -2750,6 +2751,8 @@ containers
 to
 sweep
 during
+/
+/
 beginSweepingSweepGroup
 .
 js
@@ -3462,9 +3465,9 @@ compartments
 .
 Shared
 with
+*
 the
 parent
-*
 runtime
 if
 there
@@ -7597,6 +7600,8 @@ null
 See
 comment
 in
+/
+/
 jsapi
 .
 h

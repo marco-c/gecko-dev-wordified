@@ -1551,6 +1551,8 @@ nsAppFileLocationProvider
 GetFile
 (
 NS_ENV_PLUGINS_DIR
+"
+"
 .
 .
 .
@@ -2177,6 +2179,8 @@ contains
 the
 application
 data
+/
+/
 folder
 /
 /
@@ -2748,6 +2752,8 @@ which
 contains
 each
 user
+/
+/
 profile
 dir
 /
@@ -3249,8 +3255,8 @@ which
 are
 provided
 by
-aProvider
 *
+aProvider
 They
 do
 not

@@ -1351,9 +1351,9 @@ be
 created
 for
 drawing
+/
+/
 with
-/
-/
 component
 alpha
 .
@@ -2100,8 +2100,8 @@ is
 the
 back
 buffer
-which
 *
+which
 we
 draw
 into
@@ -2116,8 +2116,8 @@ we
 may
 read
 from
-but
 *
+but
 not
 write
 to

@@ -242,7 +242,6 @@ void
 *
 p
 )
-\
 {
 \
 __coverity_panic__

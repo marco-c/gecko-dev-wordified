@@ -256,6 +256,8 @@ attrib
 0
 array
 but
+/
+/
 contents
 may
 be
@@ -272,6 +274,8 @@ attrib
 array
 and
 contents
+/
+/
 must
 be
 initialized
@@ -338,8 +342,8 @@ browser
 details
 used
 when
-uploading
 *
+uploading
 textures
 from
 DOM
@@ -370,6 +374,8 @@ to
 indicate
 absence
 of
+/
+/
 image
 data
 None

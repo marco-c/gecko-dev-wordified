@@ -10752,9 +10752,9 @@ it
 means
 that
 this
+*
 editor
 was
-*
 focused
 when
 the

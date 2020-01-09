@@ -410,7 +410,15 @@ class
 Event
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 nsXBLPrototypeHandler
 {
@@ -456,6 +464,8 @@ JS
 and
 command
 shorthand
+/
+/
 variety
 )
 nsXBLPrototypeHandler
@@ -1551,9 +1561,9 @@ handler
 expects
 to
 have
+/
+/
 down
-/
-/
 in
 order
 to

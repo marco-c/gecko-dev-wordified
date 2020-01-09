@@ -779,6 +779,10 @@ sFrequencyPerSec
 }
 /
 /
+namespace
+mozilla
+/
+/
 How
 much
 we
@@ -883,10 +887,10 @@ in
 [
 -
 sGTCResolutionThreshold
+/
+/
 sGTCResolutionThreshold
 ]
-/
-/
 interval
 every
 time
@@ -929,9 +933,9 @@ failure
 .
 If
 too
+/
+/
 many
-/
-/
 failures
 in
 short
@@ -943,6 +947,8 @@ is
 considered
 faulty
 and
+/
+/
 disabled
 .
 /
@@ -3017,6 +3023,8 @@ run
 the
 fault
 tolerance
+/
+/
 algorithm
 .
 return
@@ -3246,6 +3254,8 @@ future
 for
 first
 detected
+/
+/
 error
 .
 sFaultIntoleranceCheckpoint

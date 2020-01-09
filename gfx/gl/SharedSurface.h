@@ -507,9 +507,9 @@ will
 not
 be
 locked
+/
+/
 again
-/
-/
 until
 it
 is

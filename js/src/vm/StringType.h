@@ -2337,9 +2337,9 @@ fixed
 '
 (
 by
+*
 ensureFixed
 )
-*
 to
 be
 null
@@ -2353,11 +2353,11 @@ the
 string
 must
 keep
+*
 marking
 its
 base
 since
-*
 there
 may
 be
@@ -2366,6 +2366,7 @@ number
 of
 *
 other
+*
 *
 JSDependentStrings
 transitively
@@ -3209,6 +3210,8 @@ String
 INLINE_CHARS_BIT
 must
 match
+"
+"
 JSString
 :
 :
@@ -3235,6 +3238,8 @@ String
 LATIN1_CHARS_BIT
 must
 match
+"
+"
 JSString
 :
 :
@@ -9735,8 +9740,8 @@ only
 (
 or
 at
-least
 *
+least
 not
 1000
 or
@@ -9752,10 +9757,10 @@ here
 to
 resolve
 the
+*
 unit
 vs
 .
-*
 int
 string
 /
@@ -9768,10 +9773,10 @@ identity
 issue
 by
 giving
+*
 priority
 to
 unit
-*
 strings
 for
 "
@@ -9787,6 +9792,7 @@ length
 2
 strings
 for
+*
 "
 10
 "
@@ -13073,7 +13079,15 @@ this
 ;
 }
 }
+/
+/
+namespace
+gc
 }
+/
+/
+namespace
+js
 #
 endif
 /

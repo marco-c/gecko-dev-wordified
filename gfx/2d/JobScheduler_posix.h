@@ -628,10 +628,12 @@ mIsSet
 /
 /
 namespace
+gfx
 }
 /
 /
 namespace
+mozilla
 #
 include
 "

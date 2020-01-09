@@ -204,5 +204,9 @@ aNumFrames
 )
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

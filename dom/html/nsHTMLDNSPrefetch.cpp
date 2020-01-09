@@ -2622,6 +2622,8 @@ we
 can
 drop
 any
+/
+/
 element
 refs
 nsCOMPtr
@@ -2837,10 +2839,10 @@ there
 are
 outstanding
 pages
+/
+/
 being
 loaded
-/
-/
 there
 is
 no
@@ -2854,11 +2856,11 @@ the
 queue
 will
 be
+/
+/
 submtited
 when
 those
-/
-/
 loads
 complete
 .

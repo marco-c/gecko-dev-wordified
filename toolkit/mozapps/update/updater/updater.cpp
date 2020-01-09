@@ -782,7 +782,6 @@ XP_WIN
 )
 &
 &
-\
 !
 defined
 (
@@ -3075,7 +3074,6 @@ a
 trailing
 forward
 "
-\
 "
 slash
 :
@@ -3455,6 +3453,8 @@ of
 its
 files
 and
+/
+/
 sub
 -
 directories
@@ -4182,7 +4182,6 @@ directory
 LOG_S
 "
 "
-\
 "
 err
 :
@@ -5004,10 +5003,10 @@ a
 new
 directory
 named
+/
+/
 dest
 .
-/
-/
 The
 path
 names
@@ -5511,7 +5510,6 @@ info
 LOG_S
 "
 "
-\
 "
 err
 :
@@ -5630,7 +5628,6 @@ could
 not
 be
 "
-\
 "
 removed
 :
@@ -5674,7 +5671,6 @@ src
 LOG_S
 "
 "
-\
 "
 dst
 :
@@ -5858,6 +5854,8 @@ be
 removed
 on
 OS
+"
+"
 reboot
 :
 "
@@ -6768,7 +6766,6 @@ removed
 on
 OS
 "
-\
 "
 reboot
 :
@@ -6795,7 +6792,6 @@ reboot
 removal
 of
 "
-\
 "
 file
 :
@@ -9367,7 +9363,6 @@ file
 LOG_S
 "
 "
-\
 "
 err
 :
@@ -9417,6 +9412,8 @@ does
 not
 match
 expected
+"
+"
 size
 %
 d
@@ -9599,7 +9596,6 @@ not
 match
 expected
 "
-\
 "
 crc
 %
@@ -14517,9 +14513,9 @@ it
 will
 hold
 a
+/
+/
 handle
-/
-/
 to
 its
 installation
@@ -14531,10 +14527,10 @@ not
 get
 released
 in
+/
+/
 time
 .
-/
-/
 Therefore
 we
 wait
@@ -14609,7 +14605,6 @@ d
 failed
 .
 "
-\
 "
 File
 :
@@ -15724,6 +15719,8 @@ t
 even
 include
 this
+/
+/
 file
 .
 MARStrings
@@ -16890,6 +16887,8 @@ exit
 .
 See
 Bug
+/
+/
 1337007
 UmaskContext
 umaskContext
@@ -17346,6 +17345,8 @@ dir
 wait
 -
 pid
+"
+"
 [
 callback
 -
@@ -17564,7 +17565,6 @@ valid
 for
 this
 "
-\
 "
 application
 (
@@ -17679,7 +17679,6 @@ valid
 for
 this
 "
-\
 "
 application
 (
@@ -18108,6 +18107,8 @@ for
 the
 process
 to
+/
+/
 exit
 .
 NS_tpid
@@ -18263,7 +18264,6 @@ valid
 for
 this
 "
-\
 "
 application
 (
@@ -18461,7 +18461,6 @@ valid
 for
 this
 "
-\
 "
 application
 (
@@ -18568,7 +18567,6 @@ located
 in
 the
 "
-\
 "
 installation
 directory
@@ -20787,9 +20785,9 @@ separately
 instead
 of
 allowing
+/
+/
 ShowProgressUI
-/
-/
 to
 initialize
 the
@@ -20798,10 +20796,10 @@ because
 the
 service
 will
+/
+/
 move
 the
-/
-/
 ini
 file
 out
@@ -22467,9 +22465,9 @@ advance
 past
 the
 trailing
+/
+/
 backslash
-/
-/
 if
 present
 .
@@ -22823,9 +22821,9 @@ as
 exited
 by
 WaitForSingleObject
+/
+/
 before
-/
-/
 the
 release
 of
@@ -22837,10 +22835,10 @@ to
 lock
 the
 main
+/
+/
 executable
 file
-/
-/
 multiple
 times
 before
@@ -22852,13 +22850,13 @@ we
 end
 up
 giving
+/
+/
 up
 we
 won
 '
 t
-/
-/
 fail
 the
 update
@@ -22966,7 +22964,6 @@ d
 failed
 .
 "
-\
 "
 File
 :
@@ -23064,7 +23061,6 @@ to
 exclusively
 open
 "
-\
 "
 executable
 file
@@ -23149,7 +23145,6 @@ use
 continuing
 without
 "
-\
 "
 exclusive
 access
@@ -23739,7 +23734,6 @@ reboot
 removal
 of
 "
-\
 "
 directory
 :
@@ -26486,7 +26480,6 @@ contents
 of
 precomplete
 "
-\
 "
 manifest
 "

@@ -1491,6 +1491,7 @@ See
 bug
 945826
 comment
+*
 0
 .
 *
@@ -1514,11 +1515,11 @@ of
 proxy
 handlers
 as
+*
 "
 similar
 "
 .
-*
 For
 this
 we
@@ -1535,9 +1536,9 @@ A
 consumer
 -
 provided
+*
 opaque
 pointer
-*
 that
 designates
 the
@@ -1547,6 +1548,7 @@ to
 which
 this
 proxy
+*
 belongs
 .
 *
@@ -5302,13 +5304,11 @@ Class
 :
 NON_NATIVE
 |
-\
 JSCLASS_IS_PROXY
 |
 \
 JSCLASS_DELAY_METADATA_BUILDER
 |
-\
 js
 :
 :
@@ -5324,9 +5324,7 @@ js
 :
 :
 ProxyClassOps
-\
 JS_NULL_CLASS_SPEC
-\
 &
 js
 :

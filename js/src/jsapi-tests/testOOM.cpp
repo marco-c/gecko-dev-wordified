@@ -275,6 +275,7 @@ simulator
 .
 simulateFailureAfter
 (
+\
 js
 :
 :
@@ -288,12 +289,12 @@ Kind
 :
 :
 OOM
-\
 oomAfter
 js
 :
 :
 THREAD_TYPE_MAIN
+\
 true
 )
 #
@@ -319,8 +320,8 @@ allocations
 \
 n
 "
-\
 testName
+\
 oomAfter
 -
 1

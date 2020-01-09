@@ -477,9 +477,9 @@ are
 many
 derived
 classes
+/
+/
 for
-/
-/
 different
 purposes
 .
@@ -549,9 +549,9 @@ we
 have
 following
 classes
+/
+/
 inherite
-/
-/
 ShareableCanvasRenderer
 .
 /

@@ -285,9 +285,11 @@ aShm
 /
 /
 namespace
+layers
 }
 /
 /
 namespace
+mozilla
 #
 endif

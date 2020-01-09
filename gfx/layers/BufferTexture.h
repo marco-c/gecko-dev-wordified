@@ -525,9 +525,11 @@ mMoz2DBackend
 /
 /
 namespace
+layers
 }
 /
 /
 namespace
+mozilla
 #
 endif

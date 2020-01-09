@@ -159,10 +159,12 @@ define
 FILEIMPLSNAPSHOT_IID
 \
 {
+\
 0x0dfc11b1
 0x75d3
 0x473b
 {
+\
 0x8c
 0x67
 0xb7
@@ -171,7 +173,9 @@ FILEIMPLSNAPSHOT_IID
 0x67
 0xd6
 0x73
+\
 }
+\
 }
 class
 PIBlobImplSnapshot

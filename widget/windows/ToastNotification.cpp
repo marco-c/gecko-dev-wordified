@@ -394,6 +394,8 @@ de
 -
 register
 with
+/
+/
 Windows
 )
 .

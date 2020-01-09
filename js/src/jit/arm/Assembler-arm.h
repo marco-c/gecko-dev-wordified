@@ -1212,10 +1212,10 @@ convention
 of
 a
 function
+/
+/
 so
 that
-/
-/
 a
 structure
 of
@@ -1229,10 +1229,10 @@ returned
 via
 the
 argument
+/
+/
 registers
 rather
-/
-/
 than
 being
 written
@@ -1984,6 +1984,8 @@ any
 of
 the
 alignments
+"
+"
 which
 are
 used
@@ -2002,6 +2004,8 @@ Thus
 it
 should
 be
+"
+"
 larger
 than
 the
@@ -2034,6 +2038,8 @@ any
 of
 the
 alignments
+"
+"
 which
 are
 used
@@ -2051,6 +2057,8 @@ larger
 than
 the
 alignment
+"
+"
 for
 SIMD
 accesses
@@ -2083,6 +2091,8 @@ conversions
 between
 Uint32x4
 and
+/
+/
 Float32x4
 ?
 static
@@ -4967,6 +4977,8 @@ on
 Reg
 /
 Op2Reg
+"
+"
 having
 same
 size
@@ -9130,6 +9142,8 @@ from
 the
 standard
 ALU
+/
+/
 operations
 .
 BufferOffset
@@ -9705,6 +9719,8 @@ ldrexb
 strexd
 strex
 strexh
+/
+/
 strexb
 .
 /
@@ -9721,6 +9737,8 @@ are
 available
 from
 ARMv6K
+/
+/
 forward
 .
 /
@@ -11746,6 +11764,8 @@ lowest
 register
 in
 the
+/
+/
 range
 .
 int
@@ -11796,9 +11816,9 @@ we
 need
 to
 transfer
+/
+/
 more
-/
-/
 then
 either
 hoops
@@ -11811,6 +11831,8 @@ to
 be
 updating
 the
+/
+/
 register
 .
 MOZ_ASSERT_IF

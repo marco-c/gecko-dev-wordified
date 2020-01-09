@@ -180,13 +180,13 @@ using
 mozilla
 :
 :
-UniquePtr
+MakeUnique
 ;
 using
 mozilla
 :
 :
-MakeUnique
+UniquePtr
 ;
 #
 include
@@ -4933,6 +4933,8 @@ not
 valid
 for
 this
+"
+"
 application
 .
 "
@@ -4977,6 +4979,8 @@ not
 valid
 for
 this
+"
+"
 application
 .
 "
@@ -5484,6 +5488,8 @@ argv
 [
 4
 ]
+/
+/
 SERVICE_INVALID_APPLYTO_DIR_STAGED_ERROR
 )
 return

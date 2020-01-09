@@ -2689,9 +2689,9 @@ the
 render
 target
 with
+/
+/
 transparent
-/
-/
 pixels
 .
 This
@@ -2703,11 +2703,11 @@ set
 up
 world
 constants
+/
+/
 since
 it
 can
-/
-/
 create
 new
 z
@@ -3525,6 +3525,8 @@ frame
 Otherwise
 we
 trigger
+/
+/
 D3D11_DEVICE_PSSETSHADERRESOURCES_HAZARD
 .
 mDevice

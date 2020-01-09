@@ -221,8 +221,8 @@ nsRFPService
 :
 ReduceTimePrecisionAsMSecs
 (
-rawValue
 \
+rawValue
 mPerformance
 -
 >

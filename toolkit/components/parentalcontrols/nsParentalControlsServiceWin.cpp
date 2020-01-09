@@ -286,6 +286,8 @@ or
 we
 '
 re
+/
+/
 running
 as
 admin
@@ -761,6 +763,8 @@ with
 the
 parental
 controls
+/
+/
 channel
 .
 if

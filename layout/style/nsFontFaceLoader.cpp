@@ -287,6 +287,7 @@ LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 gfxUserFontSet
@@ -309,6 +310,7 @@ define
 LOG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 gfxUserFontSet
@@ -317,7 +319,6 @@ gfxUserFontSet
 GetUserFontsLog
 (
 )
-\
 LogLevel
 :
 :
@@ -716,9 +717,9 @@ each
 font
 .
 The
+/
+/
 LOADING_SLOWLY
-/
-/
 state
 indicates
 that
@@ -729,9 +730,9 @@ is
 shown
 .
 The
+/
+/
 LOADING_TIMED_OUT
-/
-/
 state
 indicates
 that
@@ -744,10 +745,10 @@ shown
 and
 *
 the
+/
+/
 downloaded
 font
-/
-/
 resource
 will
 not
@@ -758,6 +759,8 @@ font
 when
 the
 load
+/
+/
 completes
 .
 bool

@@ -226,6 +226,8 @@ function
 )
 {
 return
+"
+"
 eval
 (
 \

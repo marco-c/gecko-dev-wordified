@@ -594,9 +594,9 @@ the
 context
 by
 handing
+/
+/
 that
-/
-/
 responsibility
 to
 Glib
@@ -1259,6 +1259,10 @@ sInstance
 ;
 }
 }
+/
+/
+namespace
+mozilla
 /
 *
 static

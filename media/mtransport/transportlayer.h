@@ -695,6 +695,7 @@ true
 #
 define
 LAYER_INFO
+\
 "
 Flow
 [
@@ -711,6 +712,7 @@ flow_id
 none
 )
 "
+\
 <
 <
 "
@@ -747,7 +749,7 @@ __LINE__
 }
 /
 /
-close
 namespace
+mozilla
 #
 endif

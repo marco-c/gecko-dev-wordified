@@ -4846,6 +4846,8 @@ in
 block
 without
 entry
+"
+"
 resume
 point
 "
@@ -9898,9 +9900,9 @@ letting
 the
 HashTable
 grow
+/
+/
 as
-/
-/
 needed
 on
 its

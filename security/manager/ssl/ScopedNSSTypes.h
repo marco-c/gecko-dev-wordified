@@ -508,7 +508,6 @@ name
 #
 #
 DeletePolicy
-\
 {
 \
 void

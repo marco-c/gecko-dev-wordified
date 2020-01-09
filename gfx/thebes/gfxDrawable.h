@@ -247,9 +247,9 @@ aFillRect
 possibly
 repeating
 using
+*
 aSamplingFilter
 .
-*
 aTransform
 is
 a
@@ -262,10 +262,10 @@ space
 matrix
 .
 For
+*
 example
 if
 Draw
-*
 draws
 using
 a
@@ -276,11 +276,11 @@ the
 matrix
 that
 should
+*
 be
 set
 on
 the
-*
 pattern
 prior
 to

@@ -857,6 +857,9 @@ mError
 ;
 }
 /
+/
+namespace
+/
 *
 static
 *
@@ -1670,10 +1673,10 @@ aManager
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

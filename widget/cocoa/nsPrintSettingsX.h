@@ -224,11 +224,12 @@ define
 NS_PRINTSETTINGSX_IID
 \
 {
+\
 0x0DF2FDBD
 0x906D
 0x4726
-\
 {
+\
 0x9E
 0x4D
 0xCF
@@ -237,7 +238,9 @@ NS_PRINTSETTINGSX_IID
 0x8D
 0x70
 0x7C
+\
 }
+\
 }
 class
 nsPrintSettingsX
@@ -663,6 +666,8 @@ to
 PMRelase
 (
 )
+/
+/
 when
 done
 .

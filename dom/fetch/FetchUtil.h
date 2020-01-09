@@ -217,9 +217,9 @@ based
 on
 an
 input
+*
 method
 .
-*
 Implements
 checks
 and
@@ -229,9 +229,9 @@ specified
 by
 the
 Fetch
+*
 specification
 .
-*
 Returns
 NS_ERROR_DOM_SECURITY_ERR
 if

@@ -1404,6 +1404,7 @@ these
 constraints
 to
 the
+*
 widget
 .
 *
@@ -5731,9 +5732,9 @@ GetStateBits
 &
 NS_FRAME_IS_OVERFLOW_CONTAINER
 )
+&
+&
 \
-&
-&
 !
 (
 (

@@ -3606,11 +3606,12 @@ return
 ;
 }
 }
+/
+/
+namespace
+test
 }
 /
 /
 namespace
 mozilla
-:
-:
-test

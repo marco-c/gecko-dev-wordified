@@ -1483,7 +1483,7 @@ widget
 /
 /
 namespace
-mozill
+mozilla
 #
 endif
 /

@@ -562,9 +562,9 @@ surface
 '
 s
 refcount
+/
+/
 goes
-/
-/
 out
 of
 scope
@@ -2053,6 +2053,8 @@ resident
 explicit
 or
 any
+"
+"
 of
 "
 "

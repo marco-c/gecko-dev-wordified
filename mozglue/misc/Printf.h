@@ -1041,6 +1041,10 @@ ptr
 }
 /
 /
+namespace
+detail
+/
+/
 The
 type
 returned

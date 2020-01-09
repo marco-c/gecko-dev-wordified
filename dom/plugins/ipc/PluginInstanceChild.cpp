@@ -2835,6 +2835,8 @@ Unhandled
 NPNVariable
 %
 i
+"
+"
 (
 %
 s
@@ -3433,6 +3435,8 @@ Unhandled
 NPPVariable
 %
 i
+"
+"
 (
 %
 s
@@ -4222,6 +4226,8 @@ It
 defines
 more
 specific
+/
+/
 types
 .
 NPCocoaEvent
@@ -6229,6 +6235,8 @@ h
 %
 d
 >
+"
+"
 clip
 =
 <
@@ -17908,6 +17916,8 @@ h
 %
 d
 >
+"
+"
 clip
 =
 <
@@ -18752,10 +18762,10 @@ to
 fill
 alpha
 with
+/
+/
 opaque
 .
-/
-/
 Certain
 backends
 (
@@ -18770,12 +18780,12 @@ not
 truly
 support
 BGRX
+/
+/
 formats
 so
 they
 must
-/
-/
 be
 emulated
 by
@@ -18784,6 +18794,8 @@ the
 alpha
 channel
 opaque
+/
+/
 as
 if
 it
@@ -18792,8 +18804,6 @@ BGRA
 data
 .
 Cairo
-/
-/
 leaves
 the
 alpha
@@ -18802,6 +18812,8 @@ out
 for
 BGRX
 so
+/
+/
 we
 cause
 Cairo
@@ -18810,8 +18822,6 @@ fill
 it
 as
 opaque
-/
-/
 by
 handling
 the
@@ -18819,6 +18829,8 @@ copy
 target
 as
 a
+/
+/
 BGRA
 surface
 .
@@ -20462,6 +20474,8 @@ d
 >
 on
 surface
+"
+"
 <
 w
 =
@@ -20812,6 +20826,8 @@ y
 =
 %
 d
+"
+"
 w
 =
 %
@@ -21300,9 +21316,9 @@ XSurface
 SharedDIBSurface
 and
 Unsafe
+/
+/
 SharedMemory
-/
-/
 because
 PluginHost
 is

@@ -445,7 +445,7 @@ mActor
 }
 /
 /
-anonymous
+namespace
 NS_IMPL_ISUPPORTS
 (
 IPCBlobInputStreamThread
@@ -1146,10 +1146,10 @@ IsOnDOMFileThread
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

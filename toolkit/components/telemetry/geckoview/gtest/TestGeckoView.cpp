@@ -1055,7 +1055,7 @@ nsIObserver
 }
 /
 /
-Anonymous
+namespace
 /
 *
 *
@@ -1122,6 +1122,7 @@ TestDispatchPersist
 }
 /
 /
+namespace
 TelemetryGeckoViewTesting
 /
 *
@@ -1602,6 +1603,8 @@ when
 the
 measurement
 file
+/
+/
 exists
 .
 loadingFinished
@@ -1779,9 +1782,9 @@ don
 '
 t
 support
+/
+/
 other
-/
-/
 processes
 in
 gtests
@@ -2282,10 +2285,10 @@ we
 don
 '
 t
+/
+/
 support
 other
-/
-/
 processes
 in
 gtests

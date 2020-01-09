@@ -1048,7 +1048,15 @@ enclosing
 }
 }
 }
+/
+/
+namespace
+frontend
 }
+/
+/
+namespace
+js
 #
 endif
 /

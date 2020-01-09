@@ -1608,9 +1608,9 @@ LOCAL_GL_DRAW_FRAMEBUFFER_BINDING_EXT
 LOCAL_GL_FRAMEBUFFER_BINDING
 =
 =
+/
+/
 0x8CA6
-/
-/
 We
 use
 raw_
@@ -3148,6 +3148,8 @@ dest
 n
 "
 srcPixel
+/
+/
 destPixel
 )
 ;

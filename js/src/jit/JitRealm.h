@@ -3453,10 +3453,10 @@ writable
 ;
 it
 cannot
+/
+/
 fail
 to
-/
-/
 make
 JIT
 code
@@ -3647,6 +3647,8 @@ AutoWritableJitCodeFallible
 ensures
 writable
 during
+/
+/
 construction
 class
 MOZ_RAII

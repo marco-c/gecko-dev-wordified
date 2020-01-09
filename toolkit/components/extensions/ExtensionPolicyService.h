@@ -239,6 +239,10 @@ class
 Promise
 ;
 }
+/
+/
+namespace
+dom
 namespace
 extensions
 {
@@ -252,6 +256,10 @@ class
 WebExtensionContentScript
 ;
 }
+/
+/
+namespace
+extensions
 using
 extensions
 :

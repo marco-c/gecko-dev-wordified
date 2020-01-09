@@ -413,6 +413,7 @@ from
 Skia
 '
 s
+*
 SkBitmapScaler
 /
 SkResizeFilter
@@ -420,7 +421,6 @@ SkResizeFilter
 :
 computeFactors
 .
-*
 It
 is
 governed
@@ -428,6 +428,7 @@ by
 Skia
 '
 s
+*
 BSD
 -
 style

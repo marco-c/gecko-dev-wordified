@@ -280,10 +280,12 @@ define
 NS_AHTTPCONNECTION_IID
 \
 {
+\
 0x5a66aed7
 0xeede
 0x468b
 {
+\
 0xac
 0x2b
 0xe5
@@ -292,7 +294,9 @@ NS_AHTTPCONNECTION_IID
 0x1f
 0xcc
 0x5c
+\
 }
+\
 }
 class
 nsAHttpConnection
@@ -1360,12 +1364,11 @@ MOZ_MUST_USE
 nsresult
 OnHeadersAvailable
 (
+\
 nsAHttpTransaction
 *
-\
 nsHttpRequestHead
 *
-\
 nsHttpResponseHead
 *
 \
@@ -1390,18 +1393,18 @@ MOZ_MUST_USE
 nsresult
 TakeTransport
 (
+\
 nsISocketTransport
 *
 *
-\
 nsIAsyncInputStream
 *
 *
-\
 nsIAsyncOutputStream
 *
 *
 )
+\
 override
 ;
 \
@@ -1500,9 +1503,7 @@ nsHttpConnectionInfo
 *
 result
 )
-\
 override
-\
 {
 \
 if
@@ -1548,7 +1549,6 @@ nsISupports
 result
 )
 override
-\
 {
 \
 if
@@ -1591,7 +1591,6 @@ ResumeSend
 (
 )
 override
-\
 {
 \
 if
@@ -1601,7 +1600,6 @@ if
 fwdObject
 )
 )
-\
 return
 NS_ERROR_FAILURE
 ;
@@ -1625,7 +1623,6 @@ ResumeRecv
 (
 )
 override
-\
 {
 \
 if
@@ -1635,7 +1632,6 @@ if
 fwdObject
 )
 )
-\
 return
 NS_ERROR_FAILURE
 ;
@@ -1659,7 +1655,6 @@ ForceSend
 (
 )
 override
-\
 {
 \
 if
@@ -1669,7 +1664,6 @@ if
 fwdObject
 )
 )
-\
 return
 NS_ERROR_FAILURE
 ;
@@ -1693,7 +1687,6 @@ ForceRecv
 (
 )
 override
-\
 {
 \
 if
@@ -1703,7 +1696,6 @@ if
 fwdObject
 )
 )
-\
 return
 NS_ERROR_FAILURE
 ;
@@ -1726,9 +1718,7 @@ nsISocketTransport
 Transport
 (
 )
-\
 override
-\
 {
 \
 if
@@ -1738,7 +1728,6 @@ if
 fwdObject
 )
 )
-\
 return
 nullptr
 ;
@@ -1761,7 +1750,6 @@ Version
 (
 )
 override
-\
 {
 \
 return
@@ -1769,7 +1757,6 @@ return
 fwdObject
 )
 ?
-\
 (
 fwdObject
 )
@@ -1778,8 +1765,8 @@ fwdObject
 Version
 (
 )
-:
 \
+:
 mozilla
 :
 :
@@ -1799,7 +1786,6 @@ IsProxyConnectInProgress
 (
 )
 override
-\
 {
 \
 return
@@ -1810,7 +1796,6 @@ fwdObject
 ?
 false
 :
-\
 (
 fwdObject
 )
@@ -1828,7 +1813,6 @@ LastTransactionExpectedNoContent
 (
 )
 override
-\
 {
 \
 return
@@ -1838,8 +1822,8 @@ fwdObject
 )
 ?
 false
-:
 \
+:
 (
 fwdObject
 )
@@ -1858,16 +1842,13 @@ SetLastTransactionExpectedNoContent
 bool
 val
 )
-\
 override
-\
 {
 \
 if
 (
 fwdObject
 )
-\
 (
 fwdObject
 )
@@ -1886,8 +1867,8 @@ BytesWritten
 (
 )
 override
-\
 {
+\
 return
 fwdObject
 ?
@@ -1902,6 +1883,7 @@ BytesWritten
 :
 0
 ;
+\
 }
 \
 void
@@ -1911,16 +1893,13 @@ nsIInterfaceRequestor
 *
 aCallbacks
 )
-\
 override
-\
 {
 \
 if
 (
 fwdObject
 )
-\
 (
 fwdObject
 )

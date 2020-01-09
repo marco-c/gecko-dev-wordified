@@ -1511,8 +1511,10 @@ forget
 }
 /
 /
+namespace
 gfx
 }
 /
 /
+namespace
 mozilla

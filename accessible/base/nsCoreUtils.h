@@ -960,6 +960,7 @@ specified
 in
 percents
 and
+*
 when
 .
 *
@@ -972,6 +973,7 @@ horizontally
 specified
 in
 percents
+*
 and
 when
 .
@@ -1342,6 +1344,7 @@ not
 be
 the
 ID
+*
 attribute
 *
 param

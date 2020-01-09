@@ -300,12 +300,12 @@ mSdnTypelib
 /
 /
 namespace
-mozilla
+a11y
 }
 /
 /
 namespace
-a11y
+mozilla
 #
 endif
 /

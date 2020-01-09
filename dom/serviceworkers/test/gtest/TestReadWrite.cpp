@@ -2743,6 +2743,8 @@ nscriptSpec
 0
 \
 ncurrentWorkerURL
+"
+"
 0
 \
 nactiveCache
@@ -2796,6 +2798,8 @@ nscriptSpec
 1
 \
 ncurrentWorkerURL
+"
+"
 1
 \
 nactiveCache

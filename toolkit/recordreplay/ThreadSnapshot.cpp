@@ -185,10 +185,10 @@ in
 saving
 or
 restoring
+/
+/
 checkpoints
 .
-/
-/
 The
 contents
 of
@@ -409,6 +409,8 @@ if
 |
 mShouldRestore
 |
+/
+/
 is
 set
 .
@@ -1972,6 +1974,8 @@ their
 stack
 before
 resuming
+/
+/
 execution
 .
 while

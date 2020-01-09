@@ -1772,6 +1772,7 @@ NS_OK
 }
 /
 /
+namespace
 mozilla
 nsresult
 nsWifiMonitor

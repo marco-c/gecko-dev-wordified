@@ -1006,6 +1006,8 @@ tab
 without
 the
 opener
+"
+"
 information
 .
 "
@@ -1028,9 +1030,9 @@ PopupIPCTabContext
 opener
 is
 not
+/
+/
 a
-/
-/
 nullable
 field
 .

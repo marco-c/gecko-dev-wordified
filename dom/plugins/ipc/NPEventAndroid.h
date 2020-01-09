@@ -163,7 +163,15 @@ event
 }
 ;
 }
+/
+/
+namespace
+plugins
 }
+/
+/
+namespace
+mozilla
 namespace
 IPC
 {

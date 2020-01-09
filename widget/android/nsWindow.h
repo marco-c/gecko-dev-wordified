@@ -221,6 +221,10 @@ class
 UiCompositorControllerChild
 ;
 }
+/
+/
+namespace
+layers
 namespace
 widget
 {
@@ -251,6 +255,10 @@ SessionAccessibility
 ;
 }
 }
+/
+/
+namespace
+mozilla
 class
 nsWindow
 final

@@ -322,7 +322,15 @@ mTimerArmed
 }
 ;
 }
+/
+/
+namespace
+net
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

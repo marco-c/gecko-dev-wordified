@@ -1287,6 +1287,7 @@ _Binding
 NativeType
 >
 (
+\
 obj
 value
 )
@@ -1350,6 +1351,7 @@ _Binding
 NativeType
 >
 (
+\
 obj
 )
 /
@@ -1411,6 +1413,7 @@ dom
 :
 UnwrapNonWrapperObject
 <
+\
 mozilla
 :
 :
@@ -5377,6 +5380,7 @@ template
 typename
 V
 >
+\
 static
 yes
 &
@@ -5418,6 +5422,7 @@ template
 typename
 V
 >
+\
 static
 yes
 &
@@ -5467,6 +5472,7 @@ template
 typename
 V
 >
+\
 static
 no
 &
@@ -9729,9 +9735,9 @@ to
 preserve
 the
 wrapper
+/
+/
 because
-/
-/
 the
 object
 can
@@ -9745,9 +9751,9 @@ or
 they
 cannot
 be
+/
+/
 meaningfully
-/
-/
 owned
 from
 the
@@ -11284,9 +11290,9 @@ the
 canonical
 reflector
 for
+/
+/
 this
-/
-/
 native
 object
 should
@@ -11300,10 +11306,10 @@ scope
 Note
 that
 we
+/
+/
 never
 put
-/
-/
 anonymous
 content
 inside

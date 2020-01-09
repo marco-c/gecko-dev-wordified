@@ -14455,6 +14455,8 @@ be
 in
 the
 dense
+/
+/
 elements
 MOZ_ASSERT
 (
@@ -14689,6 +14691,8 @@ we
 must
 *
 use
+/
+/
 setSlotWithType
 (
 )
@@ -19432,6 +19436,8 @@ receiver
 '
 s
 environment
+/
+/
 chain
 .
 if
@@ -19620,11 +19626,11 @@ property
 when
 no
 property
+*
 receiver
 [
 id
 ]
-*
 was
 found
 anywhere
@@ -19911,6 +19917,8 @@ receiver
 '
 s
 environment
+/
+/
 chain
 .
 if
@@ -21936,6 +21944,8 @@ called
 during
 object
 literal
+"
+"
 construction
 "
 "
@@ -22547,6 +22557,8 @@ called
 during
 object
 literal
+"
+"
 construction
 "
 "

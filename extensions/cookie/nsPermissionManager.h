@@ -1211,6 +1211,7 @@ filled
 with
 the
 permission
+*
 key
 .
 *
@@ -1329,6 +1330,7 @@ filled
 with
 the
 permission
+*
 key
 .
 *
@@ -1498,6 +1500,7 @@ filled
 with
 the
 permission
+*
 key
 .
 *
@@ -2182,10 +2185,12 @@ define
 NS_PERMISSIONMANAGER_CID
 \
 {
+\
 0x4f6b5e00
 0xc36
 0x11d5
 {
+\
 0xa5
 0x35
 0x0
@@ -2194,7 +2199,9 @@ NS_PERMISSIONMANAGER_CID
 0x1
 0xeb
 0x10
+\
 }
+\
 }
 #
 endif

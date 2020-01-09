@@ -269,11 +269,12 @@ define
 NS_DATATRANSFER_IID
 \
 {
+\
 0x6c5f90d1
 0xa886
 0x42c8
-\
 {
+\
 0x85
 0x06
 0x10
@@ -282,7 +283,9 @@ NS_DATATRANSFER_IID
 0x0d
 0xc6
 0x77
+\
 }
+\
 }
 class
 DataTransfer
@@ -1709,6 +1712,7 @@ of
 the
 constants
 in
+*
 nsIDragService
 .
 *
@@ -2665,6 +2669,8 @@ are
 mozItemCount
 mozTypesAt
 mozClearDataAt
+/
+/
 mozSetDataAt
 mozGetDataAt
 static

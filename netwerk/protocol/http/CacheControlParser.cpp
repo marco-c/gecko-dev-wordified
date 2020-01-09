@@ -653,8 +653,10 @@ mNoStore
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla

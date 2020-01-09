@@ -164,8 +164,8 @@ necessary
 for
 exchange
 of
-handles
 *
+handles
 between
 binaries
 not
@@ -178,10 +178,10 @@ Windows
 (
 which
 happens
+*
 when
 one
 of
-*
 them
 links
 the
@@ -194,6 +194,7 @@ such
 cases
 giving
 file
+*
 descriptors
 or
 FILEs

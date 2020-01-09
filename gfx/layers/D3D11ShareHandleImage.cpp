@@ -627,6 +627,8 @@ because
 no
 texture
 is
+"
+"
 available
 .
 "
@@ -1414,6 +1416,8 @@ t
 need
 any
 synchronization
+/
+/
 in
 practice
 .

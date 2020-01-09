@@ -483,8 +483,8 @@ moz_arena_
 #
 name
 (
-arena_id_t
 \
+arena_id_t
 ARGS_HELPER
 (
 TYPED_ARGS
@@ -493,7 +493,6 @@ TYPED_ARGS
 __VA_ARGS__
 )
 )
-\
 {
 \
 return

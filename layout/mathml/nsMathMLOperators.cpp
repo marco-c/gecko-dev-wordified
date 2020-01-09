@@ -1133,9 +1133,9 @@ the
 attributes
 and
 just
+/
+/
 wants
-/
-/
 to
 know
 if
@@ -1152,11 +1152,11 @@ case
 at
 the
 first
+/
+/
 pass
 of
 the
-/
-/
 parsing
 of
 the
@@ -1244,6 +1244,8 @@ the
 name
 :
 value
+/
+/
 pairs
 aAttributes
 .

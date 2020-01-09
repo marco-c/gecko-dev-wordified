@@ -157,11 +157,12 @@ define
 MOZILLA_DOM_RADIONODELIST_IMPLEMENTATION_IID
 \
 {
+\
 0xbba7f3e8
 0xf3b5
 0x42e5
-\
 {
+\
 0x82
 0x08
 0xa6
@@ -170,7 +171,9 @@ MOZILLA_DOM_RADIONODELIST_IMPLEMENTATION_IID
 0xbc
 0x22
 0x19
+\
 }
+\
 }
 namespace
 mozilla

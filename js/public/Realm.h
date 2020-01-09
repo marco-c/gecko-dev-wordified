@@ -187,7 +187,15 @@ realm
 )
 ;
 }
+/
+/
+namespace
+gc
 }
+/
+/
+namespace
+js
 namespace
 JS
 {

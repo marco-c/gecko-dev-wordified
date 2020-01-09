@@ -443,7 +443,15 @@ nsWindow
 }
 ;
 }
+/
+/
+namespace
+widget
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

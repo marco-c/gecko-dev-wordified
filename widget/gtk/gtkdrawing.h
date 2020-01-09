@@ -2595,6 +2595,7 @@ of
 the
 menuitem
 or
+*
 checkmenuitem
 *
 *

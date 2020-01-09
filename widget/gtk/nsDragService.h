@@ -173,6 +173,10 @@ SourceSurface
 ;
 }
 }
+/
+/
+namespace
+mozilla
 #
 ifndef
 HAVE_NSGOBJECTREFTRAITS

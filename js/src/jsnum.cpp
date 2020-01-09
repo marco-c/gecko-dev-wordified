@@ -462,12 +462,6 @@ using
 JS
 :
 :
-ToInt8
-;
-using
-JS
-:
-:
 ToInt16
 ;
 using
@@ -486,7 +480,7 @@ using
 JS
 :
 :
-ToUint8
+ToInt8
 ;
 using
 JS
@@ -505,6 +499,12 @@ JS
 :
 :
 ToUint64
+;
+using
+JS
+:
+:
+ToUint8
 ;
 static
 bool
@@ -2901,8 +2901,8 @@ the
 string
 would
 be
-in
 *
+in
 the
 form
 of
@@ -10017,9 +10017,9 @@ s
 at
 least
 one
+*
 digit
 after
-*
 the
 0b
 |
@@ -10034,6 +10034,7 @@ non
 whitespace
 characters
 follow
+*
 all
 the
 digits
@@ -10983,6 +10984,7 @@ on
 success
 false
 on
+*
 failure
 .
 *
@@ -11310,9 +11312,9 @@ WebIDL
 rules
 for
 unsigned
-long
-long
 *
+long
+long
 conversion
 .
 Return
@@ -11325,6 +11327,7 @@ on
 success
 false
 on
+*
 failure
 .
 *

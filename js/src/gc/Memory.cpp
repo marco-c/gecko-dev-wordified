@@ -2925,6 +2925,7 @@ __arch64__
 )
 &
 &
+\
 (
 defined
 (
@@ -3109,6 +3110,7 @@ __ia64__
 )
 |
 |
+\
 (
 defined
 (
@@ -3143,8 +3145,8 @@ their
 high
 17
 bits
-clear
 *
+clear
 which
 ia64
 '
@@ -3160,10 +3162,10 @@ However
 we
 can
 emulate
+*
 it
 by
 passing
-*
 mmap
 an
 "
@@ -3178,10 +3180,10 @@ clear
 The
 mmap
 will
+*
 return
 that
 address
-*
 or
 the
 nearest
@@ -3190,12 +3192,12 @@ memory
 above
 that
 address
+*
 providing
 a
 near
 -
 guarantee
-*
 that
 those
 bits
@@ -3207,12 +3209,12 @@ they
 are
 not
 we
+*
 return
 nullptr
 below
 to
 indicate
-*
 out
 -
 of
@@ -3233,8 +3235,8 @@ allows
 about
 120TB
 of
-virtual
 *
+virtual
 address
 space
 .
@@ -3356,6 +3358,7 @@ __aarch64__
 )
 |
 |
+\
 (
 defined
 (

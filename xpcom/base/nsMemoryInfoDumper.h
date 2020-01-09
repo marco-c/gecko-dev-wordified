@@ -292,11 +292,12 @@ define
 NS_MEMORY_INFO_DUMPER_CID
 \
 {
+\
 0x00bd71fb
 0x7f09
 0x4ec3
-\
 {
+\
 0x96
 0xaf
 0xa0
@@ -305,7 +306,9 @@ NS_MEMORY_INFO_DUMPER_CID
 0xb7
 0x79
 0x69
+\
 }
+\
 }
 #
 endif

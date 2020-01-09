@@ -1322,6 +1322,8 @@ histogram
 using
 a
 string
+/
+/
 label
 Telemetry
 :
@@ -1431,6 +1433,8 @@ maps
 to
 a
 label
+/
+/
 in
 the
 histogram
@@ -1840,6 +1844,8 @@ to
 a
 label
 in
+/
+/
 the
 histogram
 .
@@ -1932,6 +1938,8 @@ the
 histogram
 matches
 with
+/
+/
 |
 kSampleExpectedValue
 |
@@ -2036,6 +2044,8 @@ object
 maps
 to
 a
+/
+/
 label
 in
 the
@@ -2130,6 +2140,8 @@ the
 histogram
 matches
 with
+/
+/
 |
 kOtherSampleExpectedValue
 |
@@ -2587,6 +2599,8 @@ within
 range
 start
 at
+/
+/
 index
 1
 JS
@@ -3003,12 +3017,12 @@ well
 the
 two
 samples
+/
+/
 above
 2
 ^
 31
-/
-/
 (
 prior
 to
@@ -3019,6 +3033,8 @@ between
 INT_MAX
 and
 UINT32_MAX
+/
+/
 would
 end
 up
@@ -3868,6 +3884,8 @@ number
 of
 values
 for
+"
+"
 key
 '
 testkey
@@ -3894,6 +3912,8 @@ number
 of
 values
 for
+"
+"
 key
 '
 testkey
@@ -4181,6 +4201,8 @@ it
 stores
 the
 correct
+/
+/
 data
 .
 JS
@@ -4467,6 +4489,8 @@ of
 '
 false
 '
+"
+"
 booleans
 for
 key
@@ -4495,6 +4519,8 @@ of
 '
 true
 '
+"
+"
 booleans
 for
 key
@@ -4521,6 +4547,8 @@ correct
 number
 of
 undefined
+"
+"
 values
 for
 key
@@ -4545,14 +4573,14 @@ different
 (
 but
 still
+/
+/
 '
 allowed
 '
 )
 key
 .
-/
-/
 Get
 "
 CommonKey
@@ -4564,12 +4592,12 @@ and
 check
 that
 it
+/
+/
 has
 no
 data
 .
-/
-/
 Since
 we
 accumulated
@@ -4580,6 +4608,8 @@ it
 commonKeyData
 should
 be
+/
+/
 undefined
 .
 JS
@@ -4635,6 +4665,8 @@ accumulated
 no
 data
 to
+"
+"
 it
 "
 ;
@@ -4652,10 +4684,10 @@ allow
 accumulation
 into
 unallowed
+/
+/
 keys
 .
-/
-/
 Get
 '
 not
@@ -4670,12 +4702,12 @@ check
 that
 this
 also
+/
+/
 has
 no
 data
 .
-/
-/
 This
 should
 contain
@@ -4745,6 +4777,8 @@ data
 to
 it
 is
+"
+"
 not
 allowed
 "
@@ -5009,6 +5043,8 @@ maps
 to
 a
 label
+/
+/
 in
 the
 histogram
@@ -5177,11 +5213,11 @@ data
 is
 accumulated
 so
+/
+/
 keeping
 another
 test
-/
-/
 to
 check
 for
@@ -5193,6 +5229,8 @@ wasteful
 as
 we
 will
+/
+/
 have
 to
 accumulate
@@ -5480,6 +5518,8 @@ histogram
 using
 the
 enumLabels
+/
+/
 array
 Telemetry
 :
@@ -5586,6 +5626,8 @@ maps
 to
 a
 label
+/
+/
 in
 the
 histogram
@@ -5906,6 +5948,8 @@ correct
 number
 of
 CommonLabel
+/
+/
 samples
 JS
 :
@@ -5953,6 +5997,8 @@ maps
 to
 a
 label
+/
+/
 in
 the
 histogram
@@ -6042,6 +6088,8 @@ the
 histogram
 matches
 with
+/
+/
 |
 kExpectedCommonLabel
 |
@@ -6083,6 +6131,8 @@ the
 correct
 number
 of
+"
+"
 CommonLabel
 samples
 "
@@ -6100,9 +6150,9 @@ correct
 number
 of
 Label2
+/
+/
 values
-/
-/
 Get
 the
 count
@@ -6199,6 +6249,8 @@ the
 correct
 number
 of
+"
+"
 Label2
 samples
 "

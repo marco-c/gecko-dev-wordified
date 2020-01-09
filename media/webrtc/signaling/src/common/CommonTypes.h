@@ -93,6 +93,10 @@ ProviderState
 )
 ;
 }
+/
+/
+namespace
+ProviderStateEnum
 namespace
 LoginErrorStatusEnum
 {
@@ -200,6 +204,8 @@ indicating
 it
 is
 logged
+/
+/
 in
 AuthenticationFailure
 /
@@ -211,6 +217,8 @@ probably
 bad
 password
 but
+/
+/
 best
 not
 to
@@ -241,6 +249,10 @@ LoginErrorStatus
 )
 ;
 }
+/
+/
+namespace
+LoginErrorStatusEnum
 namespace
 ErrorCodeEnum
 {
@@ -264,6 +276,10 @@ ErrorCode
 )
 ;
 }
+/
+/
+namespace
+ErrorCodeEnum
 }
 /
 /

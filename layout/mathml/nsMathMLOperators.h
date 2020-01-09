@@ -417,10 +417,10 @@ last
 two
 bits
 of
+/
+/
 flags
 )
-/
-/
 this
 method
 returns
@@ -433,10 +433,10 @@ found
 in
 the
 Operator
+/
+/
 Dictionary
 .
-/
-/
 Attributes
 of
 the
@@ -446,10 +446,10 @@ returned
 in
 the
 output
+/
+/
 parameters
 .
-/
-/
 If
 the
 operator
@@ -462,11 +462,11 @@ supplied
 form
 but
 is
+/
+/
 found
 under
 a
-/
-/
 different
 form
 the
@@ -478,11 +478,11 @@ well
 .
 The
 caller
+/
+/
 can
 test
 the
-/
-/
 output
 parameter
 aFlags
@@ -493,10 +493,10 @@ under
 which
 form
 the
+/
+/
 operator
 was
-/
-/
 found
 in
 the
@@ -794,6 +794,7 @@ _flags
 NS_MATHML_OPERATOR_EMBELLISH_ANCESTOR
 =
 =
+\
 (
 (
 _flags
@@ -813,6 +814,7 @@ _flags
 NS_MATHML_OPERATOR_EMBELLISH_ISOLATED
 =
 =
+\
 (
 (
 _flags
@@ -865,7 +867,6 @@ NS_MATHML_OPERATOR_GET_FORM
 (
 _flags
 )
-\
 (
 (
 _flags
@@ -955,6 +956,7 @@ _flags
 NS_MATHML_OPERATOR_DIRECTION_VERTICAL
 =
 =
+\
 (
 (
 _flags
@@ -974,6 +976,7 @@ _flags
 NS_MATHML_OPERATOR_DIRECTION_HORIZONTAL
 =
 =
+\
 (
 (
 _flags
@@ -1088,6 +1091,7 @@ _flags
 NS_MATHML_OPERATOR_MOVABLELIMITS
 =
 =
+\
 (
 (
 _flags
@@ -1164,6 +1168,7 @@ _flags
 NS_MATHML_OPERATOR_MINSIZE_ABSOLUTE
 =
 =
+\
 (
 (
 _flags
@@ -1183,6 +1188,7 @@ _flags
 NS_MATHML_OPERATOR_MAXSIZE_ABSOLUTE
 =
 =
+\
 (
 (
 _flags

@@ -1784,6 +1784,8 @@ any
 platform
 to
 minimize
+/
+/
 allocations
 AutoTArray
 <
@@ -2808,9 +2810,9 @@ event
 If
 aExecute
 =
+/
+/
 true
-/
-/
 the
 handler
 will
@@ -2823,11 +2825,11 @@ return
 an
 answer
 telling
+/
+/
 if
 a
 handler
-/
-/
 for
 that
 event

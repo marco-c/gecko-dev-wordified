@@ -3658,6 +3658,9 @@ STR
 }
 ;
 }
+/
+/
+namespace
 std
 :
 :

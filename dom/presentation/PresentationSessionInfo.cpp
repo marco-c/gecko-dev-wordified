@@ -2156,6 +2156,8 @@ a
 |
 Close
 |
+/
+/
 call
 )
 .
@@ -3768,8 +3770,8 @@ implies
 RTCDataChannel
 in
 an
-OOP
 *
+OOP
 page
 should
 be
@@ -6011,6 +6013,8 @@ actually
 checked
 at
 requester
+/
+/
 side
 .
 nsCOMPtr
@@ -6446,8 +6450,8 @@ implies
 RTCDataChannel
 in
 an
-OOP
 *
+OOP
 page
 should
 be
@@ -6735,6 +6739,8 @@ if
 there
 '
 s
+/
+/
 any
 )
 .

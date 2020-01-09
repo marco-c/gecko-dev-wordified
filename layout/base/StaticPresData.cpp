@@ -833,9 +833,9 @@ as
 '
 generic
 '
+/
+/
 fonts
-/
-/
 in
 GFX
 and
@@ -847,6 +847,8 @@ when
 hunting
 for
 alternative
+/
+/
 fonts
 )
 if
@@ -1182,11 +1184,11 @@ whereby
 people
 often
 expect
+/
+/
 "
 monospace
 "
-/
-/
 to
 have
 the
@@ -1204,9 +1206,9 @@ fixed
 "
 (
 this
+/
+/
 tentative
-/
-/
 size
 may
 be
@@ -1216,12 +1218,12 @@ the
 specific
 value
 for
+/
+/
 "
 monospace
 "
 when
-/
-/
 "
 font
 .
@@ -1238,6 +1240,8 @@ read
 -
 -
 see
+/
+/
 below
 )
 mDefaultMonospaceFont
@@ -1286,6 +1290,8 @@ later
 -
 -
 see
+/
+/
 below
 font
 -
@@ -1331,6 +1337,8 @@ other
 fonts
 should
 get
+/
+/
 |
 font
 -
@@ -1339,8 +1347,6 @@ size
 adjust
 |
 .
-/
-/
 The
 problem
 is
@@ -1351,6 +1357,8 @@ has
 the
 support
 for
+/
+/
 |
 font
 -
@@ -1361,8 +1369,6 @@ adjust
 .
 So
 for
-/
-/
 parity
 we
 enable
@@ -1371,6 +1377,8 @@ ability
 to
 set
 a
+/
+/
 different
 font
 -
@@ -1414,6 +1422,8 @@ size
 of
 the
 variable
+/
+/
 font
 MAKE_FONT_PREF_KEY
 (

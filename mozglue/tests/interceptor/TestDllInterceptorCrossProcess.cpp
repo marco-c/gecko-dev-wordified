@@ -309,6 +309,8 @@ DllInterceptorCrossProcess
 |
 Job
 creation
+"
+"
 failed
 \
 n
@@ -368,6 +370,8 @@ DllInterceptorCrossProcess
 |
 Job
 config
+"
+"
 failed
 \
 n
@@ -486,6 +490,8 @@ DllInterceptorCrossProcess
 Failed
 to
 spawn
+"
+"
 child
 process
 \
@@ -547,6 +553,8 @@ DllInterceptorCrossProcess
 Failed
 to
 assign
+"
+"
 child
 process
 to
@@ -631,6 +639,8 @@ DllInterceptorCrossProcess
 Failed
 to
 add
+"
+"
 hook
 \
 n
@@ -695,6 +705,8 @@ DllInterceptorCrossProcess
 Failed
 to
 resume
+"
+"
 child
 thread
 \
@@ -777,6 +789,8 @@ DllInterceptorCrossProcess
 |
 Child
 process
+"
+"
 failed
 to
 finish
@@ -823,6 +837,8 @@ DllInterceptorCrossProcess
 Failed
 to
 obtain
+"
+"
 child
 process
 exit
@@ -854,6 +870,8 @@ DllInterceptorCrossProcess
 |
 Child
 process
+"
+"
 exit
 code
 is
@@ -886,6 +904,8 @@ process
 exit
 code
 is
+"
+"
 zero
 \
 n
@@ -948,6 +968,8 @@ call
 its
 function
 pointer
+/
+/
 instead
 .
 auto

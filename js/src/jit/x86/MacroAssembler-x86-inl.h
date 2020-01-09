@@ -2309,6 +2309,8 @@ in
 edx
 :
 eax
+/
+/
 (
 dest_hi
 :
@@ -2583,6 +2585,8 @@ in
 edx
 :
 eax
+/
+/
 (
 dest_hi
 :
@@ -5983,9 +5987,9 @@ Here
 we
 only
 support
+/
+/
 32bits
-/
-/
 before
 failing
 .
@@ -5998,6 +6002,8 @@ give
 a
 x86
 kraken
+/
+/
 win
 .
 branchTruncateDoubleToInt32
@@ -6977,6 +6983,8 @@ needs
 to
 get
 handle
+/
+/
 seperately
 .
 load32
@@ -7138,6 +7146,8 @@ needs
 to
 get
 handle
+/
+/
 seperately
 .
 load32

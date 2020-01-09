@@ -3340,6 +3340,8 @@ to
 call
 TraceXPCGlobal
 for
+"
+"
 XPConnect
 compartments
 .
@@ -7056,9 +7058,9 @@ AllowContentXBLScope
 only
 returns
 false
+/
+/
 in
-/
-/
 remote
 XUL
 situations

@@ -301,13 +301,13 @@ NS_DECL_NSISERIALEVENTTARGET
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 /

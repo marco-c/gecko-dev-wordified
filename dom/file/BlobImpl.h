@@ -159,11 +159,12 @@ define
 BLOBIMPL_IID
 \
 {
+\
 0xbccb3275
 0x6778
 0x4ac5
-\
 {
+\
 0xaf
 0x03
 0x90
@@ -172,7 +173,9 @@ BLOBIMPL_IID
 0xad
 0xdf
 0x5d
+\
 }
+\
 }
 class
 nsIInputStream

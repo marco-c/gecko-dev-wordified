@@ -2193,6 +2193,7 @@ help
 )
 \
 {
+\
 name
 call
 nargs
@@ -2215,6 +2216,7 @@ native
 \
 usage
 help
+\
 }
 #
 define
@@ -3091,6 +3093,8 @@ build
 if
 it
 does
+/
+/
 so
 .
 )
@@ -6166,6 +6170,7 @@ in
 the
 sense
 of
+*
 <
 https
 :
@@ -8237,7 +8242,6 @@ count
 exception
 format
 )
-\
 name
 #
 include
@@ -9221,6 +9225,7 @@ in
 the
 array
 with
+*
 zeros
 .
 *
@@ -10477,7 +10482,6 @@ type
 \
 inline
 void
-\
 Get
 #
 #
@@ -10486,6 +10490,7 @@ Type
 #
 ArrayLengthAndData
 (
+\
 JSObject
 *
 obj
@@ -10500,7 +10505,6 @@ type
 *
 data
 )
-\
 {
 \
 MOZ_ASSERT
@@ -10529,6 +10533,7 @@ Value
 &
 lenSlot
 =
+\
 GetReservedSlot
 (
 obj
@@ -11146,6 +11151,7 @@ or
 MaxTypedArrayViewType
 if
 a
+*
 DataView
 .
 *
@@ -12888,8 +12894,8 @@ the
 DataView
 maps
 a
-SharedArrayBuffer
 *
+SharedArrayBuffer
 otherwise
 to
 false
@@ -16452,6 +16458,8 @@ t
 use
 this
 for
+/
+/
 anything
 else
 !
@@ -17826,9 +17834,9 @@ constructor
 function
 to
 the
+/
+/
 provided
-/
-/
 object
 .
 /
@@ -18194,9 +18202,9 @@ e
 if
 no
 cooperative
+/
+/
 contexts
-/
-/
 are
 using
 it
@@ -18310,7 +18318,6 @@ JS_COUNT_CTOR
 (
 Class
 )
-\
 LogCtor
 (
 (
@@ -18331,7 +18338,6 @@ JS_COUNT_DTOR
 (
 Class
 )
-\
 LogDtor
 (
 (

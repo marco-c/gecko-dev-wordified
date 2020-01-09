@@ -606,10 +606,10 @@ forget
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

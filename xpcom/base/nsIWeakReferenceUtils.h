@@ -319,8 +319,8 @@ up
 all
 the
 work
-needed
 *
+needed
 to
 get
 a
@@ -335,12 +335,12 @@ i
 e
 .
 the
+*
 |
 QueryInterface
 |
 test
 and
-*
 call
 through
 to
@@ -350,13 +350,13 @@ GetWeakReference
 and
 put
 it
+*
 into
 your
 |
 nsCOMPtr
 |
 .
-*
 It
 is
 specifically
@@ -364,6 +364,7 @@ designed
 to
 cooperate
 with
+*
 |
 nsCOMPtr
 |
@@ -376,11 +377,11 @@ nsWeakPtr
 like
 so
 :
-*
 |
 nsWeakPtr
 myWeakPtr
 =
+*
 do_GetWeakReference
 (
 aPtr
@@ -558,6 +559,8 @@ automatic
 leak
 .
 See
+/
+/
 <
 http
 :
@@ -639,6 +642,8 @@ automatic
 leak
 .
 See
+/
+/
 <
 http
 :

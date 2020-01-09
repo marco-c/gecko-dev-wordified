@@ -2664,6 +2664,7 @@ cls
 :
 constructor
 nCtorArgs
+\
 gc
 :
 :
@@ -2695,7 +2696,6 @@ _properties
 nullptr
 \
 specFlags
-\
 }
 ;
 \
@@ -2708,7 +2708,6 @@ cls
 class_
 =
 {
-\
 #
 cls
 \
@@ -2730,13 +2729,11 @@ cls
 classFlags
 \
 classOps
-\
 &
 cls
 :
 :
 classSpec_
-\
 }
 ;
 \
@@ -2749,7 +2746,6 @@ cls
 protoClass_
 =
 {
-\
 "
 object
 "
@@ -2763,13 +2759,11 @@ cls
 )
 \
 JS_NULL_CLASS_OPS
-\
 &
 cls
 :
 :
 classSpec_
-\
 }
 ;
 /
@@ -3614,6 +3608,8 @@ Set
 highWaterMark
 to
 ?
+/
+/
 ValidateAndNormalizeHighWaterMark
 (
 highWaterMark
@@ -5047,14 +5043,14 @@ to
 an
 algorithm
 that
+/
+/
 returns
 1
 (
 implicit
 )
 .
-/
-/
 Step
 3
 :
@@ -5065,6 +5061,8 @@ IsNonNegativeNumber
 (
 highWaterMark
 )
+/
+/
 is
 true
 .
@@ -5093,12 +5091,12 @@ of
 ReadableStream
 '
 s
+/
+/
 prototype
 property
 )
 .
-/
-/
 Step
 5
 :
@@ -8427,8 +8425,8 @@ ReadableStreamAddReadIntoRequest
 (
 stream
 forAuthorCode
-)
 *
+)
 Streams
 spec
 3
@@ -9825,6 +9823,7 @@ ReadableStreamCreateReadResult
 (
 value
 done
+*
 forAuthorCode
 )
 *
@@ -11019,6 +11018,8 @@ ReadableStreamCreateReadResult
 (
 chunk
 done
+/
+/
 readIntoRequest
 .
 [
@@ -13993,6 +13994,7 @@ ReadableStreamDefaultReaderRead
 (
 reader
 [
+*
 forAuthorCode
 ]
 )
@@ -16881,6 +16883,7 @@ PullSteps
 ]
 ]
 (
+*
 forAuthorCode
 )
 *
@@ -18097,6 +18100,8 @@ same
 -
 compartment
 with
+"
+"
 the
 TeeState
 object
@@ -23328,6 +23333,8 @@ be
 ReadableStreamAddReadRequest
 (
 stream
+/
+/
 forAuthorCode
 )
 .
@@ -27110,6 +27117,8 @@ highWaterMark
 throw
 a
 RangeError
+/
+/
 exception
 .
 if

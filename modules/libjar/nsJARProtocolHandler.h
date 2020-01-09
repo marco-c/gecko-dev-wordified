@@ -271,12 +271,10 @@ NS_JARPROTOCOLHANDLER_CID
 /
 \
 0xc7e410d4
-\
 0x85f2
-\
 0x11d3
-\
 {
+\
 0x9f
 0x63
 0x00
@@ -285,6 +283,7 @@ NS_JARPROTOCOLHANDLER_CID
 0xa6
 0xef
 0xe9
+\
 }
 \
 }

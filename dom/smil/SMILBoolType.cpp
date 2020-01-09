@@ -498,6 +498,8 @@ of
 distance
 between
 bool
+/
+/
 values
 }
 nsresult

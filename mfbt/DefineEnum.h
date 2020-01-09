@@ -994,6 +994,7 @@ aEnumeratorDecl
 \
 static_assert
 (
+\
 (
 aEnumName
 :
@@ -1063,6 +1064,7 @@ Highest
 #
 aEnumName
 =
+\
 aEnumName
 (
 k
@@ -1083,6 +1085,7 @@ MOZ_ASSERT_ENUMERATOR_HAS_NO_INITIALIZER
 (
 aEnumName
 )
+\
 aEnumerators
 )
 #
@@ -1152,6 +1155,7 @@ MOZ_DEFINE_ENUM_AT_CLASS_SCOPE_IMPL
 aEnumName
 aClassSpec
 aBaseSpec
+\
 aEnumerators
 )
 \
@@ -1191,6 +1195,7 @@ Highest
 #
 aEnumName
 =
+\
 aEnumName
 (
 s
@@ -1211,6 +1216,7 @@ MOZ_ASSERT_ENUMERATOR_HAS_NO_INITIALIZER
 (
 aEnumName
 )
+\
 aEnumerators
 )
 #
@@ -1232,6 +1238,7 @@ MOZ_DEFINE_ENUM_WITH_BASE_AT_CLASS_SCOPE
 (
 aEnumName
 aBaseName
+\
 aEnumerators
 )
 \
@@ -1262,6 +1269,7 @@ MOZ_DEFINE_ENUM_CLASS_WITH_BASE_AT_CLASS_SCOPE
 (
 aEnumName
 aBaseName
+\
 aEnumerators
 )
 \
@@ -1269,6 +1277,7 @@ MOZ_DEFINE_ENUM_AT_CLASS_SCOPE_IMPL
 (
 aEnumName
 class
+\
 :
 aBaseName
 aEnumerators

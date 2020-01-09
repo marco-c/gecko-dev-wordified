@@ -555,6 +555,8 @@ by
 the
 page
 at
+/
+/
 http
 :
 /
@@ -571,12 +573,12 @@ kgupta
 rendertrace
 .
 html
-/
-/
 and
 will
 move
 to
+/
+/
 about
 :
 checkerboard
@@ -588,11 +590,11 @@ The
 format
 is
 not
-/
-/
 formally
 specced
 but
+/
+/
 an
 informal
 description

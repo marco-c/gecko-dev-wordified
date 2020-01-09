@@ -559,6 +559,8 @@ and
 various
 stuff
 like
+/
+/
 that
 being
 passed
@@ -582,6 +584,8 @@ should
 actually
 do
 some
+"
+"
 unescaping
 \
 n
@@ -5666,6 +5670,8 @@ nsCaseInsensitiveStringComparator
 we
 have
 a
+/
+/
 match
 bool
 match
@@ -6353,6 +6359,8 @@ no
 value
 (
 eg
+/
+/
 "
 copiousoutput
 "
@@ -7333,6 +7341,8 @@ minorType
 %
 s
 '
+"
+"
 description
 =
 '
@@ -7468,6 +7478,8 @@ description
 %
 s
 '
+"
+"
 mozillaFlags
 =
 '
@@ -8104,6 +8116,8 @@ description
 %
 s
 '
+"
+"
 mozillaFlags
 =
 '

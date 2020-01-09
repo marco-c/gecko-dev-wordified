@@ -261,9 +261,9 @@ on
 the
 value
 of
+/
+/
 mOSXVersion
-/
-/
 and
 instead
 just
@@ -274,9 +274,9 @@ algorithm
 .
 Note
 that
+/
+/
 GetVersion
-/
-/
 actually
 adjusts
 to
@@ -288,9 +288,9 @@ so
 it
 will
 always
+/
+/
 return
-/
-/
 a
 "
 supported
@@ -302,6 +302,8 @@ does
 not
 make
 any
+/
+/
 modifications
 .
 static

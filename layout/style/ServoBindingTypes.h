@@ -1831,6 +1831,7 @@ DECL_NULLABLE_BORROWED_REF_TYPE_FOR
 (
 type_
 )
+\
 typedef
 type_
 const
@@ -1860,6 +1861,7 @@ DECL_NULLABLE_BORROWED_MUT_REF_TYPE_FOR
 (
 type_
 )
+\
 typedef
 type_
 *
@@ -2030,7 +2032,6 @@ type_
 #
 #
 Strong
-\
 {
 \
 type_
@@ -2099,6 +2100,7 @@ mozilla
 template
 <
 >
+\
 struct
 RefPtrTraits
 <
@@ -2115,7 +2117,6 @@ type_
 aPtr
 )
 {
-\
 Servo_
 #
 #
@@ -2127,7 +2128,6 @@ _AddRef
 aPtr
 )
 ;
-\
 }
 \
 static
@@ -2139,7 +2139,6 @@ type_
 aPtr
 )
 {
-\
 Servo_
 #
 #
@@ -2151,7 +2150,6 @@ _Release
 aPtr
 )
 ;
-\
 }
 \
 }
@@ -2222,7 +2220,6 @@ DefaultDelete
 <
 type_
 >
-\
 {
 \
 public
@@ -2238,9 +2235,7 @@ type_
 aPtr
 )
 const
-\
 {
-\
 Servo_
 #
 #
@@ -2252,7 +2247,6 @@ _Drop
 aPtr
 )
 ;
-\
 }
 \
 }

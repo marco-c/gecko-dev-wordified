@@ -1175,6 +1175,8 @@ zero
 sized
 array
 in
+/
+/
 struct
 /
 union

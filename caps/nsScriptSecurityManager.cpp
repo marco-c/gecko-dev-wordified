@@ -900,7 +900,7 @@ false
 }
 /
 /
-anonymous
+namespace
 /
 /
 /
@@ -1361,15 +1361,17 @@ consistent
 with
 SecurityCompareURIs
 because
+/
+/
 NS_SecurityHashURI
-/
-/
 is
 consistent
 with
 NS_SecurityCompareURIs
 .
 See
+/
+/
 nsNetUtil
 .
 h
@@ -4298,6 +4300,8 @@ expanded
 principal
 passed
 to
+"
+"
 CheckLoadURIWithPrincipal
 "
 "
@@ -4956,6 +4960,8 @@ other
 from
 the
 top
+/
+/
 down
 :
 nsCaseInsensitiveCStringComparator
@@ -10169,6 +10175,8 @@ If
 not
 we
 can
+/
+/
 skip
 it
 .

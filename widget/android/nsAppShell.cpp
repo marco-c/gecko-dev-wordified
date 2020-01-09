@@ -575,8 +575,10 @@ args
 .
 .
 )
+\
 do
 {
+\
 }
 while
 (
@@ -5082,3 +5084,7 @@ NotifyNativeEvent
 ;
 }
 }
+/
+/
+namespace
+mozilla

@@ -1127,8 +1127,8 @@ don
 t
 need
 that
-kind
 *
+kind
 of
 weak
 pointer
@@ -1140,8 +1140,8 @@ children
 of
 gProtoLayout
 and
-as
 *
+as
 such
 GTK
 holds

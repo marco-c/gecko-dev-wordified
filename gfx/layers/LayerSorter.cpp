@@ -370,8 +370,8 @@ point
 by
 finding
 the
-intersection
 *
+intersection
 of
 a
 line
@@ -384,6 +384,7 @@ z
 direction
 and
 the
+*
 transformed
 plane
 .
@@ -578,8 +579,8 @@ quad
 as
 well
 as
-intersections
 *
+intersections
 of
 the
 lines
@@ -1210,6 +1211,8 @@ and
 check
 that
 the
+/
+/
 layers
 are
 in

@@ -2300,6 +2300,7 @@ doesn
 t
 want
 a
+*
 fragment
 .
 *

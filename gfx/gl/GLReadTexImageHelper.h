@@ -364,9 +364,9 @@ return
 it
 as
 an
+*
 ImageSurface
 .
-*
 If
 GL_RGBA
 is
@@ -375,6 +375,7 @@ as
 the
 format
 a
+*
 SurfaceFormat
 :
 :
@@ -383,13 +384,12 @@ surface
 is
 returned
 .
-*
 Not
 implemented
 yet
 :
-*
 If
+*
 GL_RGB
 is
 given
@@ -403,9 +403,9 @@ SurfaceFormat
 X8R8G8B8_UINT32
 surface
 is
+*
 returned
 .
-*
 If
 GL_LUMINANCE
 is
@@ -418,6 +418,7 @@ SurfaceFormat
 :
 :
 A8
+*
 surface
 is
 returned

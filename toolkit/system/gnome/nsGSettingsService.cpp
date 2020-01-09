@@ -329,6 +329,7 @@ FUNC
 g_settings_get_value
 GVariant
 *
+\
 (
 GSettings
 *
@@ -344,6 +345,7 @@ FUNC
 (
 g_settings_set_value
 gboolean
+\
 (
 GSettings
 *
@@ -362,6 +364,7 @@ FUNC
 (
 g_settings_range_check
 gboolean
+\
 (
 GSettings
 *
@@ -435,6 +438,7 @@ FUNC
 (
 g_variant_is_of_type
 gboolean
+\
 (
 GVariant
 *

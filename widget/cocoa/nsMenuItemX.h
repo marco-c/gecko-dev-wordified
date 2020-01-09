@@ -162,6 +162,10 @@ Element
 ;
 }
 }
+/
+/
+namespace
+mozilla
 enum
 {
 knsMenuItemNoModifier
@@ -227,11 +231,11 @@ or
 its
 parent
 window
+/
+/
 is
 destroyed
 .
-/
-/
 Do
 not
 hold
@@ -243,6 +247,8 @@ can
 become
 invalid
 any
+/
+/
 time
 the
 DOM

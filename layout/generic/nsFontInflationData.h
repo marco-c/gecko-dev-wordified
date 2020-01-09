@@ -132,6 +132,7 @@ for
 pan
 and
 zoom
+*
 UI
 .
 *

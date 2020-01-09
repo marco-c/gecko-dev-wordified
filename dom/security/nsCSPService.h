@@ -172,11 +172,12 @@ define
 CSPSERVICE_CID
 \
 {
+\
 0x8d2f40b2
 0x4875
 0x4c95
-\
 {
+\
 0x97
 0xd9
 0x3f
@@ -185,7 +186,9 @@ CSPSERVICE_CID
 0x2c
 0xb4
 0x60
+\
 }
+\
 }
 class
 CSPService

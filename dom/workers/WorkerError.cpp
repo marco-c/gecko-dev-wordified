@@ -1335,10 +1335,10 @@ workers
 should
 have
 been
+/
+/
 informed
 .
-/
-/
 (
 Subworkers
 are
@@ -2055,7 +2055,7 @@ true
 }
 /
 /
-anonymous
+namespace
 void
 WorkerErrorBase
 :
@@ -3697,10 +3697,10 @@ aWorkerPrivate
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

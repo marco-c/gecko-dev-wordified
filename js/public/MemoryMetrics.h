@@ -988,6 +988,7 @@ ServoSizes
 :
 servoKind
 ]
+\
 int
 [
 ServoSizes
@@ -1015,6 +1016,7 @@ tabKind
 servoKind
 mSize
 )
+\
 sizes
 -
 >
@@ -1038,6 +1040,7 @@ tabKind
 servoKind
 mSize
 )
+\
 sizes
 -
 >
@@ -1450,6 +1453,8 @@ to
 absorb
 the
 trailing
+/
+/
 comma
 from
 FOR_EACH_SIZE
@@ -1691,6 +1696,8 @@ to
 absorb
 the
 trailing
+/
+/
 comma
 from
 FOR_EACH_SIZE
@@ -1851,6 +1858,8 @@ to
 absorb
 the
 trailing
+/
+/
 comma
 from
 FOR_EACH_SIZE
@@ -2292,7 +2301,6 @@ FOR_EACH_SIZE
 (
 MACRO
 )
-\
 MACRO
 (
 _
@@ -2664,7 +2672,6 @@ FOR_EACH_SIZE
 (
 MACRO
 )
-\
 MACRO
 (
 _
@@ -3566,6 +3573,8 @@ to
 absorb
 the
 trailing
+/
+/
 comma
 from
 FOR_EACH_SIZE

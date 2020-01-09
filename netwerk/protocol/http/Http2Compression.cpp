@@ -3159,6 +3159,8 @@ next
 128
 ^
 2
+/
+/
 .
 .
 if
@@ -4058,6 +4060,8 @@ allowed
 in
 received
 HEADERS
+/
+/
 frames
 PUSH_PROMISE
 allows
@@ -6692,6 +6696,8 @@ size
 u
 %
 s
+"
+"
 %
 s
 \
@@ -8298,6 +8304,8 @@ reference
 u
 %
 s
+"
+"
 %
 s
 \

@@ -612,6 +612,8 @@ state
 has
 not
 been
+/
+/
 initialized
 .
 using
@@ -1099,6 +1101,8 @@ vectors
 below
 while
 iterating
+/
+/
 over
 them
 .
@@ -2732,6 +2736,10 @@ task
 )
 ;
 }
+/
+/
+namespace
+wasm
 /
 /
 Enqueues
@@ -4753,9 +4761,9 @@ at
 any
 time
 so
+/
+/
 the
-/
-/
 caller
 must
 immediately

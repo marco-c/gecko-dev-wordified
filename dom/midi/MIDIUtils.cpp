@@ -463,9 +463,9 @@ and
 ends
 with
 the
+/
+/
 correct
-/
-/
 command
 bytes
 .
@@ -1049,6 +1049,10 @@ false
 ;
 }
 }
+/
+/
+namespace
+MIDIUtils
 }
 /
 /

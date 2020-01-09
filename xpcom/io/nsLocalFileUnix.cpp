@@ -534,7 +534,6 @@ FillStatCache
 (
 )
 )
-\
 return
 NSRESULT_FOR_ERRNO
 (
@@ -563,7 +562,6 @@ IsEmpty
 (
 )
 )
-\
 return
 NS_ERROR_NOT_INITIALIZED
 ;
@@ -7600,6 +7598,8 @@ implemented
 for
 plaforms
 without
+"
+"
 statfs
 .
 \
@@ -10161,6 +10161,8 @@ encoded
 data
 .
 See
+/
+/
 plbase64
 .
 h
@@ -10994,7 +10996,6 @@ NS_FAILED
 rv
 )
 )
-\
 return
 rv
 ;
@@ -11086,7 +11087,6 @@ NS_FAILED
 rv
 )
 )
-\
 return
 rv
 ;

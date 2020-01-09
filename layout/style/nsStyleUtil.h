@@ -212,6 +212,10 @@ Element
 }
 /
 /
+namespace
+mozilla
+/
+/
 Style
 utility
 functions

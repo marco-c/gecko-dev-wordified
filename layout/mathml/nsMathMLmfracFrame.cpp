@@ -238,6 +238,8 @@ of
 the
 default
 rule
+/
+/
 thickness
 )
 #
@@ -735,6 +737,8 @@ default
 is
 not
 a
+/
+/
 pixel
 if
 (
@@ -2159,9 +2163,9 @@ We
 use
 the
 defaultRuleThickness
+/
+/
 instead
-/
-/
 of
 the
 value
@@ -2175,10 +2179,10 @@ i
 e
 .
 we
+/
+/
 recover
 what
-/
-/
 TeX
 does
 if
@@ -2192,10 +2196,10 @@ linethickness
 .
 But
 when
+/
+/
 the
 linethickness
-/
-/
 is
 set
 we

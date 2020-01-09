@@ -323,6 +323,10 @@ class
 SheetLoadData
 ;
 }
+/
+/
+namespace
+css
 namespace
 dom
 {
@@ -2950,6 +2954,8 @@ maintain
 this
 for
 their
+/
+/
 children
 nsINode
 *

@@ -581,8 +581,8 @@ elements
 component
 of
 such
-objects
 *
+objects
 offers
 an
 efficient
@@ -594,8 +594,8 @@ some
 of
 the
 indexed
-properties
 *
+properties
 of
 the
 object
@@ -609,8 +609,8 @@ rather
 than
 a
 shape
-hierarchy
 *
+hierarchy
 stored
 in
 the
@@ -623,10 +623,10 @@ This
 structure
 is
 immediately
+*
 followed
 by
 an
-*
 array
 of
 elements
@@ -637,10 +637,10 @@ member
 in
 an
 object
+*
 pointing
 to
 the
-*
 beginning
 of
 that
@@ -653,8 +653,8 @@ this
 structure
 )
 .
-*
 See
+*
 below
 for
 usage
@@ -3320,8 +3320,8 @@ shared
 emptyObjectElements
 and
 emptyObjectElementsShared
-singletons
 *
+singletons
 into
 the
 inline
@@ -3335,9 +3335,9 @@ the
 third
 value
 to
+*
 leave
 room
-*
 for
 a
 ObjectElements
@@ -3352,9 +3352,9 @@ numFixedSlots
 is
 zero
 )
+*
 or
 to
-*
 a
 dynamically
 allocated

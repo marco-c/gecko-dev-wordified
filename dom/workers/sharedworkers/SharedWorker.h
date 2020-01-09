@@ -445,13 +445,13 @@ aRv
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 /

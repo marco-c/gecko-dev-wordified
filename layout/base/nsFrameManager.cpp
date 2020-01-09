@@ -842,6 +842,8 @@ GetPrevContinuation
 /
 exception
 for
+/
+/
 nsCSSFrameConstructor
 :
 :
@@ -1057,6 +1059,8 @@ have
 content
 (
 scroll
+/
+/
 position
 )
 void
@@ -1495,6 +1499,8 @@ have
 content
 (
 scroll
+/
+/
 position
 )
 void

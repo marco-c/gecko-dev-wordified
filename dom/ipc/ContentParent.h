@@ -343,6 +343,7 @@ h
 #
 define
 CHILD_PROCESS_SHUTDOWN_MESSAGE
+\
 NS_LITERAL_STRING
 (
 "
@@ -1023,6 +1024,7 @@ the
 id
 of
 the
+*
 JS
 plugin
 *
@@ -4220,6 +4222,7 @@ processes
 if
 certain
 criteria
+*
 are
 met
 .
@@ -4660,6 +4663,7 @@ content
 parent
 array
 to
+*
 |
 aContentProcessType
 |
@@ -7158,9 +7162,9 @@ nsFakePluginTag
 if
 this
 is
+/
+/
 the
-/
-/
 ContentParent
 for
 a
@@ -7172,9 +7176,9 @@ that
 JS
 plugin
 .
-/
-/
 If
+/
+/
 this
 is
 not

@@ -9530,6 +9530,8 @@ offset
 and
 stop
 on
+/
+/
 collision
 .
 do
@@ -12631,6 +12633,8 @@ a
 non
 -
 zero
+"
+"
 nextTabParentId
 when
 creating
@@ -13078,6 +13082,8 @@ until
 the
 chrome
 has
+/
+/
 loaded
 .
 nsXULWindow

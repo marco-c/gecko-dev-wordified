@@ -3008,12 +3008,15 @@ SharedMap
 }
 /
 /
+namespace
 ipc
 }
 /
 /
+namespace
 dom
 }
 /
 /
+namespace
 mozilla

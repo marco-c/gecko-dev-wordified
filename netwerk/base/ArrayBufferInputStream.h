@@ -143,6 +143,7 @@ h
 #
 define
 NS_ARRAYBUFFERINPUTSTREAM_CONTRACTID
+\
 "
 mozilla
 .
@@ -178,12 +179,10 @@ aa1c
 /
 \
 0x3014dde6
-\
 0xaa1c
-\
 0x41db
-\
 {
+\
 0x87
 0xd0
 0x48
@@ -192,6 +191,7 @@ aa1c
 0x37
 0x10
 0xf6
+\
 }
 \
 }

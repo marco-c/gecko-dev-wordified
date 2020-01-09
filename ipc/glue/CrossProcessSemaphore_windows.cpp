@@ -502,3 +502,7 @@ CloseHandle
 {
 }
 }
+/
+/
+namespace
+mozilla

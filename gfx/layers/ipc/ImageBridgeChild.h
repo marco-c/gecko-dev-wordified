@@ -466,8 +466,8 @@ to
 operations
 on
 the
-Compositables
 *
+Compositables
 and
 cannot
 contain
@@ -537,8 +537,8 @@ protocol
 .
 These
 three
-steps
 *
+steps
 can
 do
 different
@@ -551,8 +551,8 @@ A
 the
 ImageContainer
 uses
-ImageBridge
 *
+ImageBridge
 or
 (
 B
@@ -860,8 +860,8 @@ ImageBridge
 to
 send
 the
-first
 *
+first
 frame
 before
 the
@@ -873,10 +873,10 @@ will
 pass
 the
 container
+*
 ID
 to
 the
-*
 CompositableHost
 happens
 .
@@ -890,8 +890,8 @@ the
 layer
 is
 not
-composited
 *
+composited
 until
 the
 layer
@@ -903,6 +903,7 @@ means
 this
 scenario
 is
+*
 not
 harmful
 .
@@ -918,9 +919,9 @@ triggers
 compositing
 the
 main
+*
 thread
 is
-*
 not
 used
 at
@@ -933,9 +934,9 @@ very
 first
 transaction
 that
+*
 provides
 the
-*
 CompositableHost
 with
 an
@@ -1767,6 +1768,7 @@ on
 host
 side
 if
+*
 TextureFlags
 :
 :
@@ -1774,7 +1776,6 @@ RECYCLE
 is
 set
 .
-*
 Host
 side
 '
@@ -1783,6 +1784,7 @@ usage
 is
 checked
 via
+*
 CompositableRef
 .
 *
@@ -2334,6 +2336,7 @@ each
 BeginTransaction
 (
 )
+*
 call
 .
 *

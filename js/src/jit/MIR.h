@@ -386,6 +386,7 @@ VISIT_INS
 (
 op
 )
+\
 void
 visit
 #
@@ -671,6 +672,7 @@ Guard
 if
 the
 instructions
+\
 *
 bails
 out
@@ -678,7 +680,9 @@ on
 some
 inputs
 .
+\
 *
+\
 *
 Some
 optimizations
@@ -690,6 +694,7 @@ and
 leave
 its
 operands
+\
 *
 unused
 .
@@ -704,6 +709,7 @@ got
 used
 as
 a
+\
 *
 predicate
 of
@@ -717,10 +723,13 @@ flag
 the
 operands
 as
+\
 *
 GuardRangeBailouts
 .
+\
 *
+\
 *
 This
 flag
@@ -730,6 +739,7 @@ optimization
 of
 instructions
 which
+\
 *
 might
 remove
@@ -745,6 +755,7 @@ conditions
 used
 as
 a
+\
 *
 predicate
 of
@@ -752,6 +763,7 @@ the
 previous
 transformation
 .
+\
 *
 /
 \
@@ -775,6 +787,7 @@ do
 not
 substitute
 this
+\
 *
 instruction
 by
@@ -788,6 +801,7 @@ used
 by
 call
 inlining
+\
 *
 when
 a
@@ -801,6 +815,7 @@ the
 inlined
 instructions
 .
+\
 *
 /
 \
@@ -823,9 +838,11 @@ lazy
 removal
 from
 resume
+\
 *
 points
 .
+\
 *
 /
 \
@@ -850,6 +867,7 @@ instructions
 are
 removed
 .
+\
 *
 The
 removal
@@ -863,6 +881,7 @@ hypotheses
 These
 hypotheses
 might
+\
 *
 fail
 in
@@ -877,7 +896,9 @@ the
 current
 code
 .
+\
 *
+\
 *
 When
 we
@@ -890,6 +911,7 @@ need
 to
 consider
 the
+\
 *
 failing
 cases
@@ -903,6 +925,7 @@ might
 resume
 the
 execution
+\
 *
 into
 a
@@ -917,6 +940,7 @@ compiler
 As
 such
 a
+\
 *
 destructive
 optimization
@@ -928,7 +952,9 @@ acount
 removed
 branches
 .
+\
 *
+\
 *
 In
 order
@@ -941,6 +967,7 @@ about
 removed
 branches
 we
+\
 *
 have
 to
@@ -953,6 +980,7 @@ flag
 .
 This
 flag
+\
 *
 annotates
 instruction
@@ -963,6 +991,7 @@ in
 removed
 branches
 .
+\
 *
 /
 \
@@ -986,6 +1015,7 @@ the
 bailout
 paths
 instead
+\
 *
 of
 producing
@@ -1003,6 +1033,7 @@ can
 only
 be
 set
+\
 *
 on
 instructions
@@ -1016,9 +1047,11 @@ or
 by
 other
 flagged
+\
 *
 instructions
 .
+\
 *
 /
 \
@@ -1041,6 +1074,7 @@ the
 memory
 of
 these
+\
 *
 objects
 might
@@ -1055,6 +1089,7 @@ all
 the
 stores
 which
+\
 *
 were
 supposed
@@ -1068,6 +1103,7 @@ is
 used
 to
 annotate
+\
 *
 instructions
 which
@@ -1082,6 +1118,7 @@ area
 which
 is
 not
+\
 *
 yet
 fully
@@ -1096,6 +1133,7 @@ ensure
 that
 stores
 are
+\
 *
 executed
 before
@@ -1103,6 +1141,7 @@ returning
 the
 value
 .
+\
 *
 /
 \
@@ -1127,6 +1166,7 @@ Graph
 This
 is
 useful
+\
 *
 when
 we
@@ -1139,6 +1179,7 @@ points
 and
 instructions
 while
+\
 *
 handling
 instructions
@@ -1149,9 +1190,11 @@ without
 reporting
 to
 the
+\
 *
 iterator
 .
+\
 *
 /
 \
@@ -3055,6 +3098,8 @@ to
 map
 definitions
 to
+/
+/
 virtual
 registers
 .
@@ -4623,6 +4668,7 @@ flags_
 )
 *
 8
+\
 "
 Flags
 should
@@ -4722,7 +4768,6 @@ Unchecked
 (
 )
 {
-\
 setFlags
 (
 1
@@ -4731,7 +4776,6 @@ setFlags
 flag
 )
 ;
-\
 }
 \
 void
@@ -4745,7 +4789,6 @@ Unchecked
 (
 )
 {
-\
 removeFlags
 (
 1
@@ -4754,7 +4797,6 @@ removeFlags
 flag
 )
 ;
-\
 }
 MIR_FLAG_LIST
 (
@@ -5019,10 +5061,10 @@ comment
 in
 IonAnalysis
 before
+/
+/
 the
 Float32
-/
-/
 specialization
 algorithm
 )
@@ -5935,7 +5977,6 @@ opcode
 )
 const
 {
-\
 return
 this
 -
@@ -5950,7 +5991,6 @@ opcode
 (
 )
 ;
-\
 }
 \
 M
@@ -5965,7 +6005,6 @@ opcode
 (
 )
 {
-\
 return
 this
 -
@@ -5980,7 +6019,6 @@ opcode
 (
 )
 ;
-\
 }
 \
 const
@@ -5997,7 +6035,6 @@ opcode
 )
 const
 {
-\
 return
 this
 -
@@ -6012,7 +6049,6 @@ opcode
 (
 )
 ;
-\
 }
 MIR_OPCODE_LIST
 (
@@ -7815,11 +7851,9 @@ canClone
 const
 override
 {
-\
 return
 true
 ;
-\
 }
 \
 MInstruction
@@ -7829,12 +7863,12 @@ clone
 TempAllocator
 &
 alloc
-\
 const
 MDefinitionVector
 &
 inputs
 )
+\
 const
 override
 {
@@ -8014,7 +8048,6 @@ Args
 .
 args
 )
-\
 {
 \
 return
@@ -8125,7 +8158,6 @@ Args
 .
 args
 )
-\
 {
 \
 return
@@ -8260,14 +8292,12 @@ Name
 )
 const
 {
-\
 return
 getOperand
 (
 Index
 )
 ;
-\
 }
 #
 define
@@ -8275,7 +8305,6 @@ NAMED_OPERAND_ACCESSOR_APPLY
 (
 Args
 )
-\
 NAMED_OPERAND_ACCESSOR
 Args
 #
@@ -23901,6 +23930,8 @@ movable
 because
 of
 possible
+/
+/
 side
 -
 effects
@@ -24107,6 +24138,8 @@ movable
 because
 of
 possible
+/
+/
 side
 -
 effects
@@ -30019,6 +30052,8 @@ which
 subtly
 differs
 from
+/
+/
 Math
 .
 sqrt
@@ -30540,6 +30575,8 @@ access
 nor
 update
 the
+/
+/
 cache
 .
 MMathFunction
@@ -35867,6 +35904,8 @@ is
 returned
 else
 the
+/
+/
 input
 is
 returned
@@ -36142,10 +36181,10 @@ pointer
 on
 the
 OSR
+/
+/
 BaselineFrame
 .
-/
-/
 The
 pointer
 is
@@ -36229,10 +36268,10 @@ pointer
 on
 the
 OSR
+/
+/
 BaselineFrame
 .
-/
-/
 The
 pointer
 is
@@ -47833,6 +47872,8 @@ for
 use
 by
 range
+/
+/
 analysis
 .
 TruncateInputKind
@@ -51791,6 +51832,8 @@ JSFunction
 yielded
 by
 the
+/
+/
 CallProp
 )
 .
@@ -58914,9 +58957,9 @@ then
 this
 instruction
 is
+/
+/
 never
-/
-/
 aliased
 .
 if
@@ -62687,9 +62730,9 @@ upon
 execution
 and
 test
+/
+/
 if
-/
-/
 the
 warm
 -
@@ -62704,9 +62747,9 @@ hit
 it
 will
 recompile
+/
+/
 the
-/
-/
 outermost
 script
 (
@@ -64329,6 +64372,8 @@ and
 only
 those
 classes
+/
+/
 are
 allowed
 .
@@ -65577,6 +65622,8 @@ plus
 optional
 memoryBase
 and
+/
+/
 boundsCheckLimit
 public
 MAsmJSMemoryAccess
@@ -65870,6 +65917,8 @@ plus
 optional
 memoryBase
 and
+/
+/
 boundsCheckLimit
 public
 MAsmJSMemoryAccess

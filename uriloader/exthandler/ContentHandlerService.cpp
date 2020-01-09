@@ -56,7 +56,7 @@ mozilla
 dom
 :
 :
-PHandlerServiceChild
+HandlerInfo
 ;
 using
 mozilla
@@ -65,7 +65,7 @@ mozilla
 dom
 :
 :
-HandlerInfo
+PHandlerServiceChild
 ;
 namespace
 mozilla
@@ -1075,4 +1075,12 @@ NS_OK
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

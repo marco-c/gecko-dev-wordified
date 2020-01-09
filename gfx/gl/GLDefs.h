@@ -99,7 +99,15 @@ gl
 )
 ;
 }
+/
+/
+namespace
+gl
 }
+/
+/
+namespace
+mozilla
 #
 define
 MOZ_GL_ASSERT

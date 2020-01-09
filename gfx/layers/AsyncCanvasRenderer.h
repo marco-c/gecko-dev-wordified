@@ -478,10 +478,10 @@ client
 because
 SharedSurface_Basic
 cannot
+/
+/
 shared
 .
-/
-/
 We
 don
 '
@@ -497,10 +497,10 @@ just
 copy
 the
 content
+/
+/
 of
 that
-/
-/
 texture
 client
 here

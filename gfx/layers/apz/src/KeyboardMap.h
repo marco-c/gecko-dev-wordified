@@ -639,6 +639,7 @@ match
 for
 the
 input
+*
 event
 *
 /

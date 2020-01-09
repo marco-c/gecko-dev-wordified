@@ -1135,6 +1135,7 @@ right
 kind
 of
 data
+*
 else
 just
 write

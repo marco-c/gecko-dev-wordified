@@ -282,7 +282,6 @@ TO_CONTAINER
 (
 _node
 )
-\
 static_cast
 <
 nsNavHistoryContainerResultNode
@@ -2641,6 +2640,8 @@ moz_places
 WHERE
 url_hash
 =
+"
+"
 hash
 (
 :
@@ -17067,6 +17068,8 @@ not
 get
 OnItemVisited
 but
+"
+"
 should
 get
 OnVisit
@@ -24778,7 +24781,6 @@ _listCopy
 _fol_i
 ]
 )
-\
 _listCopy
 [
 _fol_i
@@ -24800,6 +24802,7 @@ ENUMERATE_LIST_OBSERVERS
 _listType
 _functionCall
 _observersList
+\
 _conditionCall
 )
 \
@@ -24868,6 +24871,7 @@ ENUMERATE_QUERY_OBSERVERS
 (
 _functionCall
 _observersList
+\
 _conditionCall
 )
 \
@@ -24876,6 +24880,7 @@ ENUMERATE_LIST_OBSERVERS
 QueryObserverList
 _functionCall
 _observersList
+\
 _conditionCall
 )
 #
@@ -24937,6 +24942,7 @@ ContainerObserverList
 Refresh
 (
 )
+\
 mRefreshParticipants
 IsContainer
 (

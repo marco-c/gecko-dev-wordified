@@ -259,6 +259,7 @@ and
 data
 stored
 on
+*
 disk
 .
 *

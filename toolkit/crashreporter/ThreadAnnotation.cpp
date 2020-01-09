@@ -1628,3 +1628,7 @@ reset
 ;
 }
 }
+/
+/
+namespace
+CrashReporter

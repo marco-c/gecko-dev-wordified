@@ -207,9 +207,9 @@ corresponds
 to
 the
 aPoint
+*
 and
 retrieves
-*
 touch
 -
 action
@@ -221,6 +221,7 @@ it
 according
 the
 rules
+*
 specified
 in
 the

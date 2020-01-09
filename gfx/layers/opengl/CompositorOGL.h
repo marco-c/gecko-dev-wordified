@@ -1915,8 +1915,8 @@ we
 rely
 on
 being
-told
 *
+told
 about
 size
 changes
@@ -1928,8 +1928,8 @@ rather
 than
 pulling
 this
-information
 *
+information
 from
 the
 widget

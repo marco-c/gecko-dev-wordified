@@ -469,7 +469,7 @@ mGlobal
 }
 /
 /
-anonymous
+namespace
 /
 /
 /
@@ -3291,10 +3291,10 @@ forget
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

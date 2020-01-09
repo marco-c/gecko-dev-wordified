@@ -303,9 +303,9 @@ to
 be
 called
 by
+/
+/
 CreateIPDLActor
-/
-/
 and
 DestroyIPDLActor
 respectively
@@ -313,14 +313,14 @@ respectively
 We
 intentionally
 make
+/
+/
 them
 private
 to
 prevent
 misuse
 .
-/
-/
 The
 purpose
 of
@@ -330,6 +330,8 @@ is
 to
 be
 aware
+/
+/
 of
 when
 the
@@ -337,8 +339,6 @@ IPC
 system
 around
 this
-/
-/
 actor
 goes
 down
@@ -348,6 +348,8 @@ is
 then
 set
 to
+/
+/
 false
 .
 void

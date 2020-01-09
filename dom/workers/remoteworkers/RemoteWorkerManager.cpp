@@ -214,7 +214,7 @@ sRemoteWorkerManager
 }
 /
 /
-anonymous
+namespace
 /
 *
 static
@@ -1212,10 +1212,10 @@ NS_DISPATCH_NORMAL
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

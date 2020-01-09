@@ -7346,6 +7346,8 @@ cache_id
 FROM
 storage
 WHERE
+"
+"
 namespace
 =
 :
@@ -8670,6 +8672,8 @@ OUTER
 JOIN
 response_headers
 ON
+"
+"
 entries
 .
 id
@@ -11142,6 +11146,8 @@ hash
 :
 hash
 AND
+"
+"
 data
 =
 :
@@ -11546,6 +11552,8 @@ hash
 data
 refcount
 )
+"
+"
 VALUES
 (
 :

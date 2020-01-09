@@ -113,10 +113,10 @@ kMinRTLChar
 /
 namespace
 mozilla
-;
 #
 define
 ARABIC_TO_HINDI_DIGIT_INCREMENT
+\
 (
 START_HINDI_DIGITS
 -
@@ -125,6 +125,7 @@ START_ARABIC_DIGITS
 #
 define
 PERSIAN_TO_HINDI_DIGIT_INCREMENT
+\
 (
 START_HINDI_DIGITS
 -
@@ -133,6 +134,7 @@ START_FARSI_DIGITS
 #
 define
 ARABIC_TO_PERSIAN_DIGIT_INCREMENT
+\
 (
 START_FARSI_DIGITS
 -
@@ -166,8 +168,8 @@ c
 END_HINDI_DIGITS
 )
 )
-?
 \
+?
 (
 (
 c
@@ -178,8 +180,8 @@ uint16_t
 )
 ARABIC_TO_HINDI_DIGIT_INCREMENT
 )
-:
 \
+:
 (
 (
 (
@@ -201,8 +203,8 @@ c
 END_FARSI_DIGITS
 )
 )
-?
 \
+?
 (
 (
 c
@@ -213,8 +215,8 @@ uint16_t
 )
 ARABIC_TO_PERSIAN_DIGIT_INCREMENT
 )
-:
 \
+:
 (
 c
 )
@@ -248,8 +250,8 @@ c
 END_ARABIC_DIGITS
 )
 )
-?
 \
+?
 (
 (
 c
@@ -260,8 +262,8 @@ uint16_t
 )
 ARABIC_TO_HINDI_DIGIT_INCREMENT
 )
-:
 \
+:
 (
 (
 (
@@ -283,8 +285,8 @@ c
 END_FARSI_DIGITS
 )
 )
-?
 \
+?
 (
 (
 c
@@ -295,8 +297,8 @@ uint16_t
 )
 PERSIAN_TO_HINDI_DIGIT_INCREMENT
 )
-:
 \
+:
 (
 c
 )
@@ -330,8 +332,8 @@ c
 END_HINDI_DIGITS
 )
 )
-?
 \
+?
 (
 (
 c
@@ -342,8 +344,8 @@ uint16_t
 )
 PERSIAN_TO_HINDI_DIGIT_INCREMENT
 )
-:
 \
+:
 (
 (
 (
@@ -365,8 +367,8 @@ c
 END_ARABIC_DIGITS
 )
 )
-?
 \
+?
 (
 (
 c
@@ -377,8 +379,8 @@ uint16_t
 )
 ARABIC_TO_PERSIAN_DIGIT_INCREMENT
 )
-:
 \
+:
 (
 c
 )

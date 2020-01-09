@@ -1313,7 +1313,6 @@ aValue
 ;
 \
 }
-\
 SET_MODIFIER
 (
 CtrlKey

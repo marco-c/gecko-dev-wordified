@@ -461,6 +461,7 @@ instead
 #
 define
 ZIPCENTRAL_SIZE
+\
 (
 4
 +

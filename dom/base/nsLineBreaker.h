@@ -248,9 +248,9 @@ the
 characters
 in
 the
+*
 substring
 .
-*
 These
 are
 enum
@@ -511,8 +511,8 @@ complex
 "
 character
 as
-described
 *
+described
 below
 .
 *
@@ -983,9 +983,9 @@ of
 this
 chunk
 of
+*
 text
 .
-*
 Also
 whitespace
 in

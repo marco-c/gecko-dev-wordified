@@ -1566,9 +1566,9 @@ our
 parent
 process
 while
+/
+/
 if
-/
-/
 we
 '
 re
@@ -2218,6 +2218,8 @@ bit
 offsets
 into
 shared
+/
+/
 libraries
 .
 }

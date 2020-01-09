@@ -263,9 +263,9 @@ Inherited
 by
 templatized
 types
+/
+/
 with
-/
-/
 MOZ_INHERIT_TYPE_ANNOTATIONS_FROM_TEMPLATE_ARGS
 .
 #

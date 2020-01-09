@@ -163,6 +163,10 @@ Policy
 ;
 }
 }
+/
+/
+namespace
+sandbox
 namespace
 mozilla
 {

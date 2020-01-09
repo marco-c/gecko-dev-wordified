@@ -250,13 +250,13 @@ mOATable
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 /

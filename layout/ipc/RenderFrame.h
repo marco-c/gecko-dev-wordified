@@ -428,9 +428,9 @@ i
 e
 .
 when
+/
+/
 mLayersConnected
-/
-/
 is
 true
 )

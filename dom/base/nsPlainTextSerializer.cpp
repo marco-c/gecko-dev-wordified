@@ -7899,10 +7899,10 @@ device
 (
 the
 string
+*
 mOutputString
 )
 .
-*
 The
 only
 logic
@@ -7915,10 +7915,10 @@ breaking
 spaces
 with
 a
+*
 normal
 space
 since
-*
 most
 (
 all
@@ -7933,11 +7933,11 @@ won
 t
 understand
 the
+*
 nbsp
 and
 even
 be
-*
 confused
 by
 it
@@ -8669,6 +8669,8 @@ line
 breaker
 returns
 a
+/
+/
 position
 next
 to
@@ -13526,6 +13528,8 @@ character
 for
 bug
 #
+/
+/
 94475
 .
 else

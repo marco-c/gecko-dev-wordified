@@ -271,8 +271,8 @@ take
 us
 from
 the
-GESTURE_WAITING_PINCH
 *
+GESTURE_WAITING_PINCH
 state
 to
 the
@@ -283,12 +283,12 @@ This
 is
 measured
 as
+*
 either
 a
 change
 in
 distance
-*
 between
 the
 fingers
@@ -297,13 +297,13 @@ to
 compute
 the
 span
+*
 ratio
 or
 the
 a
 change
 in
-*
 position
 of
 the
@@ -312,6 +312,7 @@ point
 between
 the
 two
+*
 fingers
 .
 *
@@ -490,6 +491,8 @@ touch
 pinch
 gesture
 rather
+/
+/
 mTouchStartPosition
 const
 ParentLayerPoint
@@ -1719,6 +1722,8 @@ events
 get
 handled
 by
+/
+/
 APZC
 break
 ;
@@ -1852,6 +1857,8 @@ APZMaxTapTime
 (
 )
 )
+/
+/
 change
 state
 .
@@ -2034,6 +2041,8 @@ than
 moving
 points
 in
+"
+"
 GESTURE_MULTI_TOUCH_DOWN
 state
 "
@@ -2467,6 +2476,8 @@ handled
 in
 APZC
 thus
+/
+/
 ignore
 .
 break

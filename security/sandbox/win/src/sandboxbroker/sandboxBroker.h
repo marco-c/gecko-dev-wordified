@@ -168,6 +168,10 @@ class
 TargetPolicy
 ;
 }
+/
+/
+namespace
+sandbox
 namespace
 mozilla
 {
@@ -469,6 +473,7 @@ mPolicy
 }
 /
 /
+namespace
 mozilla
 #
 endif

@@ -421,9 +421,9 @@ this
 /
 /
 namespace
-mozilla
+dom
 }
 /
 /
 namespace
-dom
+mozilla

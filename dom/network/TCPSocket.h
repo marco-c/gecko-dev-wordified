@@ -256,6 +256,8 @@ navigator
 .
 mozTCPSocket
 API
+/
+/
 compatibility
 .
 class
@@ -681,6 +683,8 @@ a
 new
 connection
 is
+/
+/
 accepted
 .
 static
@@ -727,6 +731,8 @@ a
 new
 connection
 is
+/
+/
 accepted
 .
 static
@@ -843,9 +849,9 @@ hasn
 '
 t
 connected
+/
+/
 yet
-/
-/
 (
 called
 from
@@ -965,10 +971,10 @@ assumed
 to
 be
 the
+/
+/
 given
 length
-/
-/
 for
 reporting
 and
@@ -1275,6 +1281,8 @@ in
 content
 processes
 when
+/
+/
 IPC
 is
 enabled
@@ -1296,6 +1304,8 @@ Suspend
 called
 without
 a
+/
+/
 corresponding
 Resume
 .
@@ -1319,10 +1329,10 @@ operations
 that
 have
 been
+/
+/
 processed
 .
-/
-/
 This
 is
 used
@@ -1336,11 +1346,11 @@ child
 process
 to
 filter
+/
+/
 out
 outdated
 notifications
-/
-/
 about
 the
 amount
@@ -1350,6 +1360,8 @@ data
 present
 in
 the
+/
+/
 parent
 process
 .
@@ -1370,9 +1382,9 @@ secure
 after
 the
 initial
+/
+/
 connection
-/
-/
 but
 the
 actual
@@ -1385,6 +1397,8 @@ in
 -
 progress
 copy
+/
+/
 operation
 to
 complete

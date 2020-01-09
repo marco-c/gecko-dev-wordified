@@ -4020,9 +4020,9 @@ low
 >
 32
 -
+/
+/
 shift
-/
-/
 Note
 :
 one
@@ -4039,6 +4039,8 @@ yield
 zero
 due
 to
+/
+/
 negative
 shift
 .
@@ -5093,9 +5095,9 @@ high
 <
 32
 -
+/
+/
 shift
-/
-/
 Note
 :
 one
@@ -5112,6 +5114,8 @@ yield
 zero
 due
 to
+/
+/
 negative
 shift
 .

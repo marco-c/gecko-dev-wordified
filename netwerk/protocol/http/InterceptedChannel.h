@@ -184,9 +184,9 @@ intercepted
 .
 This
 avoids
+/
+/
 complicating
-/
-/
 the
 actual
 channel
@@ -195,6 +195,8 @@ with
 the
 details
 of
+/
+/
 synthesizing
 responses
 .
@@ -217,6 +219,8 @@ about
 the
 successful
 channel
+/
+/
 interception
 nsCOMPtr
 <
@@ -661,10 +665,10 @@ up
 the
 notifications
 before
+/
+/
 they
 reach
-/
-/
 the
 actual
 channel

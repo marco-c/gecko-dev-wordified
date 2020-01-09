@@ -279,11 +279,11 @@ t
 have
 it
 pointing
+/
+/
 at
 the
 stack
-/
-/
 because
 it
 might
@@ -295,6 +295,8 @@ we
 have
 returned
 and
+/
+/
 pushed
 a
 new

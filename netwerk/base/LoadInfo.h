@@ -216,6 +216,10 @@ class
 XMLHttpRequestMainThread
 ;
 }
+/
+/
+namespace
+dom
 namespace
 net
 {
@@ -937,9 +941,9 @@ copy
 constructor
 and
 consider
+/
+/
 if
-/
-/
 it
 should
 be
@@ -948,6 +952,8 @@ from
 parent
 channel
 through
+/
+/
 ParentLoadInfoForwarderArgs
 .
 nsCOMPtr

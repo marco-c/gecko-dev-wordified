@@ -263,6 +263,8 @@ httpChannel
 =
 %
 p
+"
+"
 channelId
 =
 %
@@ -1017,9 +1019,9 @@ before
 )
 OnStopRequest
 notification
+/
+/
 since
-/
-/
 we
 don
 '
@@ -1035,9 +1037,9 @@ was
 done
 loading
 -
+/
+/
 everything
-/
-/
 this
 timestamp
 affects
@@ -1049,6 +1051,8 @@ a
 channel
 '
 s
+/
+/
 OnStopRequest
 .
 nsHttp
@@ -1717,6 +1721,8 @@ HttpBackgroundChannelChild
 :
 :
 RecvNotifyTrackingProtectionDisabled
+"
+"
 [
 this
 =

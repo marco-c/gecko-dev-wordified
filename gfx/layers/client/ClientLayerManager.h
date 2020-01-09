@@ -1408,6 +1408,8 @@ new
 repaint
 request
 is
+/
+/
 started
 .
 void
@@ -2446,7 +2448,6 @@ CreateShadowFor
 (
 layer
 this
-\
 &
 ShadowLayerForwarder
 :

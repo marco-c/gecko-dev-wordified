@@ -531,7 +531,6 @@ defined
 (
 __FreeBSD__
 )
-\
 |
 |
 defined
@@ -540,6 +539,7 @@ __NetBSD__
 )
 |
 |
+\
 defined
 (
 __OpenBSD__
@@ -624,6 +624,7 @@ libraries
 (
 libxpcom
 libnss
+*
 etc
 .
 )
@@ -1531,6 +1532,7 @@ ConstantSpec
 #
 define
 PROP_END
+\
 {
 nullptr
 JS

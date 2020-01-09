@@ -222,16 +222,16 @@ namespace
 jit
 ;
 using
-mozilla
-:
-:
-DebugOnly
-;
-using
 JS
 :
 :
 GenericNaN
+;
+using
+mozilla
+:
+:
+DebugOnly
 ;
 LBoxAllocation
 LIRGenerator
@@ -840,6 +840,8 @@ go
 to
 the
 default
+/
+/
 case
 .
 if
@@ -5144,9 +5146,9 @@ If
 it
 is
 we
+/
+/
 want
-/
-/
 to
 emit
 an
@@ -5161,9 +5163,9 @@ LTest
 AndBranch
 to
 fuse
+/
+/
 the
-/
-/
 compare
 and
 jump
@@ -5401,6 +5403,8 @@ tryFold
 should
 handle
 the
+"
+"
 never
 -
 emulates
@@ -15658,6 +15662,8 @@ Undefined
 coerces
 to
 NaN
+/
+/
 not
 int32
 .
@@ -24001,6 +24007,8 @@ visitLoadElementFromState
 :
 Unsupported
 element
+"
+"
 type
 .
 "
@@ -36922,6 +36930,7 @@ MIR_OP
 (
 op
 )
+\
 case
 MDefinition
 :
@@ -36931,6 +36940,7 @@ Opcode
 :
 op
 :
+\
 visit
 #
 #
@@ -36947,6 +36957,7 @@ op
 )
 )
 ;
+\
 break
 ;
 MIR_OPCODE_LIST
@@ -38231,6 +38242,8 @@ meaningful
 for
 the
 register
+/
+/
 allocator
 .
 MOZ_CRASH

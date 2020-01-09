@@ -271,8 +271,8 @@ endif
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 #

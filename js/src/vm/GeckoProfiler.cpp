@@ -782,9 +782,9 @@ release
 most
 baseline
 jitcode
+*
 but
 not
-*
 jitcode
 for
 scripts
@@ -797,10 +797,10 @@ stack
 .
 These
 scripts
+*
 need
 to
 have
-*
 their
 profiler
 state
@@ -860,6 +860,8 @@ and
 set
 their
 lastProfilingFrame
+/
+/
 appropriately
 .
 if

@@ -466,6 +466,8 @@ nsIFrame
 and
 is
 not
+/
+/
 refcounted
 .
 nsIGridPart

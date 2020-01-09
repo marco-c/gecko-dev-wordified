@@ -852,4 +852,12 @@ NS_OK
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

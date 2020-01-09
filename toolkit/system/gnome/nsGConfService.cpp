@@ -191,6 +191,7 @@ FUNC
 (
 gconf_client_get_bool
 gboolean
+\
 (
 GConfClient
 *
@@ -208,6 +209,7 @@ FUNC
 gconf_client_get_string
 gchar
 *
+\
 (
 GConfClient
 *
@@ -240,6 +242,7 @@ FUNC
 (
 gconf_client_get_float
 gdouble
+\
 (
 GConfClient
 *
@@ -257,6 +260,7 @@ FUNC
 gconf_client_get_list
 GSList
 *
+\
 (
 GConfClient
 *
@@ -274,6 +278,7 @@ FUNC
 (
 gconf_client_set_bool
 gboolean
+\
 (
 GConfClient
 *
@@ -291,6 +296,7 @@ FUNC
 (
 gconf_client_set_string
 gboolean
+\
 (
 GConfClient
 *
@@ -310,6 +316,7 @@ FUNC
 (
 gconf_client_set_int
 gboolean
+\
 (
 GConfClient
 *
@@ -327,6 +334,7 @@ FUNC
 (
 gconf_client_set_float
 gboolean
+\
 (
 GConfClient
 *

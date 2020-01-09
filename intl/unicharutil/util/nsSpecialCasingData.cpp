@@ -2923,7 +2923,6 @@ which
 const
 MultiCharMapping
 *
-\
 Special
 #
 #
@@ -2932,7 +2931,6 @@ which
 uint32_t
 aChar
 )
-\
 {
 \
 const

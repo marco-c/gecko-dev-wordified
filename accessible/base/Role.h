@@ -2253,6 +2253,7 @@ role
 "
 math
 "
+*
 alt
 =
 "
@@ -5414,7 +5415,7 @@ FORM_LANDMARK
 /
 /
 namespace
-role
+roles
 typedef
 enum
 mozilla

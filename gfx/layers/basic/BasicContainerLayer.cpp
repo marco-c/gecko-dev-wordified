@@ -565,8 +565,8 @@ can
 just
 inherit
 our
-opacity
 *
+opacity
 otherwise
 we
 need
@@ -579,8 +579,8 @@ to
 mark
 ourselves
 as
-using
 *
+using
 an
 intermediate
 surface
@@ -593,11 +593,10 @@ t
 inherit
 our
 opacity
-*
 via
+*
 GetEffectiveOpacity
 .
-*
 Having
 a
 mask

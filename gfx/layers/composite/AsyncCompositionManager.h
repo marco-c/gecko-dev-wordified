@@ -644,6 +644,7 @@ the
 next
 frame
 of
+*
 composition
 .
 *
@@ -838,11 +839,11 @@ for
 each
 layer
 attached
+/
+/
 to
 an
 APZ
-/
-/
 from
 the
 recorded
@@ -1152,8 +1153,8 @@ parent
 layer
 is
 the
-same
 *
+same
 as
 it
 was
@@ -1520,6 +1521,8 @@ rooted
 at
 the
 given
+/
+/
 layer
 void
 RecordShadowTransforms
@@ -1573,11 +1576,11 @@ on
 the
 screen
 will
+/
+/
 change
 )
 .
-/
-/
 This
 happens
 when
@@ -1591,9 +1594,9 @@ tabs
 .
 We
 notify
+/
+/
 the
-/
-/
 front
 -
 end
@@ -1614,9 +1617,9 @@ it
 take
 the
 new
+/
+/
 page
-/
-/
 size
 and
 zoom
@@ -1629,6 +1632,8 @@ with
 the
 next
 view
+/
+/
 transform
 .
 bool
@@ -1665,6 +1670,8 @@ cleared
 after
 that
 first
+/
+/
 composition
 .
 bool

@@ -1111,6 +1111,7 @@ name
 init
 clasp
 )
+\
 const
 char
 js_
@@ -1403,6 +1404,7 @@ idpart
 id
 text
 )
+\
 {
 js_
 #
@@ -1433,6 +1435,7 @@ name
 init
 clasp
 )
+\
 {
 js_
 #
@@ -5304,9 +5307,9 @@ the
 Atomization
 path
 which
+/
+/
 expects
-/
-/
 functions
 to
 fail
@@ -6268,6 +6271,8 @@ check
 them
 before
 trying
+/
+/
 anything
 else
 .

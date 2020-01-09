@@ -1906,8 +1906,8 @@ Note
 In
 a
 refcounted
-list
 *
+list
 |
 this
 |
@@ -1986,8 +1986,8 @@ Note
 In
 a
 refcounted
-list
 *
+list
 |
 this
 |

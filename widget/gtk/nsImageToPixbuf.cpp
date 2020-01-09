@@ -273,9 +273,9 @@ we
 re
 not
 allowed
+/
+/
 request
-/
-/
 a
 sync
 decode
@@ -286,10 +286,10 @@ originating
 event
 is
 something
+/
+/
 sensible
 like
-/
-/
 OnStopFrame
 (
 )
@@ -303,6 +303,8 @@ call
 without
 a
 sync
+/
+/
 decode
 .
 if

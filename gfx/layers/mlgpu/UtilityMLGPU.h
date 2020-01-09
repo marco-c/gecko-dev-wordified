@@ -260,13 +260,16 @@ cond
 .
 .
 )
+\
 do
 {
+\
 if
 (
 cond
 )
 {
+\
 printf_stderr
 (
 "
@@ -276,7 +279,9 @@ AL
 __VA_ARGS__
 )
 ;
+\
 }
+\
 }
 while
 (

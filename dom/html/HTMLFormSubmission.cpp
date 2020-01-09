@@ -5655,10 +5655,10 @@ NS_OK
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

@@ -1105,7 +1105,6 @@ type
 )
 \
 type
-\
 DOMSVGPathSeg
 #
 #
@@ -1115,7 +1114,6 @@ segName
 propName
 (
 )
-\
 {
 \
 if
@@ -1179,7 +1177,6 @@ index
 }
 \
 void
-\
 DOMSVGPathSeg
 #
 #
@@ -1196,11 +1193,11 @@ a
 #
 #
 propName
+\
 ErrorResult
 &
 rv
 )
-\
 {
 \
 if

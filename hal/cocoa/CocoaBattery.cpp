@@ -985,9 +985,9 @@ have
 data
 if
 GetCurrentBatteryInformation
+/
+/
 is
-/
-/
 called
 before
 a
@@ -1412,9 +1412,9 @@ kDefaultCharging
 if
 the
 current
+/
+/
 power
-/
-/
 source
 doesn
 '
@@ -1470,10 +1470,10 @@ we
 '
 re
 fully
+/
+/
 charged
 .
-/
-/
 This
 key
 is

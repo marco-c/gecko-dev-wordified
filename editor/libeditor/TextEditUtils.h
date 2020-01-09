@@ -305,7 +305,7 @@ AutoEditInitRulesTrigger
 }
 /
 /
-naemspace
+namespace
 mozilla
 #
 endif

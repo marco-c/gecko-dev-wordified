@@ -6146,6 +6146,7 @@ a
 non
 -
 null
+*
 globalShape
 .
 *

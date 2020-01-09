@@ -451,3 +451,7 @@ newHandle
 ;
 }
 }
+/
+/
+namespace
+mozilla

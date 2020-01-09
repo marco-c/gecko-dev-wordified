@@ -1166,11 +1166,11 @@ gtk_clipboard_set_with_data
 (
 )
 calls
+/
+/
 clipboard_clear_cb
 (
 )
-/
-/
 which
 reset
 our

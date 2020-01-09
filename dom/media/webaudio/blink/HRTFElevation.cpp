@@ -1040,6 +1040,8 @@ panner
 we
 may
 be
+/
+/
 truncating
 the
 impulse
@@ -1352,6 +1354,8 @@ responses
 varies
 depending
 on
+/
+/
 azimuth
 but
 the

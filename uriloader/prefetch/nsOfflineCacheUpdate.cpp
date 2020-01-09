@@ -496,6 +496,7 @@ LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 gOfflineCacheUpdateLog
@@ -516,6 +517,7 @@ define
 LOG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 gOfflineCacheUpdateLog
@@ -5861,6 +5863,8 @@ some
 reason
 the
 first
+/
+/
 time
 manifest
 -
@@ -5946,6 +5950,8 @@ to
 -
 byte
 check
+"
+"
 rv
 =
 %
@@ -7909,6 +7915,8 @@ byte
 for
 -
 byte
+"
+"
 identical
 "
 )

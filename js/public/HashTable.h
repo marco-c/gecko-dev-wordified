@@ -247,6 +247,10 @@ AllocPolicy
 >
 ;
 }
+/
+/
+namespace
+js
 #
 endif
 /

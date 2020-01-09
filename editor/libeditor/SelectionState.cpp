@@ -2150,6 +2150,8 @@ case
 of
 range
 startnode
+/
+/
 =
 =
 range

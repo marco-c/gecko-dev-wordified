@@ -437,6 +437,10 @@ FileDescriptor
 }
 ;
 }
+/
+/
+namespace
+base
 #
 endif
 namespace

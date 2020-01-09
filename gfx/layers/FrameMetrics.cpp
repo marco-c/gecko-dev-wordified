@@ -259,9 +259,9 @@ few
 frames
 for
 aLayoutViewport
+/
+/
 to
-/
-/
 update
 and
 during
@@ -334,9 +334,9 @@ layout
 viewport
 move
 the
+/
+/
 layout
-/
-/
 viewport
 such
 that
@@ -834,4 +834,12 @@ ScrollMetadata
 sNullMetadata
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla

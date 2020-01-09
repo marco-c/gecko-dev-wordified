@@ -1895,6 +1895,7 @@ be
 freed
 at
 any
+*
 time
 .
 *
@@ -2034,6 +2035,7 @@ for
 use
 with
 this
+*
 DrawTarget
 .
 *

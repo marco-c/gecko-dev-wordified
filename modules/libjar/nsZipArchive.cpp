@@ -675,9 +675,9 @@ handle
 ourselves
 with
 flags
+/
+/
 that
-/
-/
 will
 work
 and
@@ -689,10 +689,10 @@ it
 a
 PRFileDesc
 .
-/
-/
 This
 can
+/
+/
 go
 away
 when
@@ -1297,6 +1297,8 @@ other
 than
 a
 normal
+/
+/
 file
 .
 if
@@ -3347,6 +3349,8 @@ is
 about
 to
 be
+/
+/
 read
 zipLog
 .
@@ -6410,6 +6414,8 @@ the
 zip
 file
 is
+/
+/
 corrupt
 ZipLocal
 *

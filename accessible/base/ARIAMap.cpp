@@ -235,8 +235,8 @@ resource
 that
 contains
 this
-information
 *
+information
 Using
 RDF
 will
@@ -3385,6 +3385,9 @@ ARIARoleString
 }
 ;
 }
+/
+/
+namespace
 const
 nsRoleMapEntry
 *

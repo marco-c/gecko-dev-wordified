@@ -205,9 +205,9 @@ to
 manage
 the
 created
+*
 PaymentRequests
 .
-*
 It
 is
 also

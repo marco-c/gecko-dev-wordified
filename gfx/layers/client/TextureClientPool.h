@@ -645,6 +645,7 @@ t
 recycle
 any
 new
+*
 texture
 .
 *

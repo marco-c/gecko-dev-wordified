@@ -2813,7 +2813,6 @@ DEFINE_TIME_KEY
 name
 text
 )
-\
 name
 FOR_EACH_NURSERY_PROFILE_TIME
 (

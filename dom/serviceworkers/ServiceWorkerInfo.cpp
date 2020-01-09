@@ -169,6 +169,8 @@ should
 match
 state
 values
+"
+"
 from
 nsIServiceWorkerInfo
 .
@@ -201,6 +203,8 @@ should
 match
 state
 values
+"
+"
 from
 nsIServiceWorkerInfo
 .
@@ -233,6 +237,8 @@ should
 match
 state
 values
+"
+"
 from
 nsIServiceWorkerInfo
 .
@@ -265,6 +271,8 @@ should
 match
 state
 values
+"
+"
 from
 nsIServiceWorkerInfo
 .
@@ -297,6 +305,8 @@ should
 match
 state
 values
+"
+"
 from
 nsIServiceWorkerInfo
 .
@@ -329,6 +339,8 @@ should
 match
 state
 values
+"
+"
 from
 nsIServiceWorkerInfo
 .
@@ -361,6 +373,8 @@ should
 match
 state
 values
+"
+"
 from
 nsIServiceWorkerInfo
 .
@@ -843,9 +857,9 @@ when
 it
 transitions
 to
+/
+/
 the
-/
-/
 activated
 state
 .

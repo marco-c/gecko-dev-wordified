@@ -160,7 +160,6 @@ implementation
 #
 define
 NS_WEBBROWSER_CONTRACTID
-\
 "
 mozilla
 .
@@ -262,7 +261,6 @@ user
 #
 define
 NS_PROMPTSERVICE_CONTRACTID
-\
 "
 mozilla
 .

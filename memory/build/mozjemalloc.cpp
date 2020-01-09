@@ -4171,13 +4171,11 @@ name
 #
 define
 DEFINE_GLOBALS
-\
 static
 void
 DefineGlobals
 (
 )
-\
 {
 #
 define
@@ -6605,6 +6603,10 @@ chunks_madvised_elem
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 struct
@@ -20512,9 +20514,9 @@ the
 overhead
 is
 small
+/
+/
 enough
-/
-/
 and
 we
 can
@@ -20529,6 +20531,8 @@ settings
 so
 just
 use
+/
+/
 that
 .
 if
@@ -23476,6 +23480,10 @@ info
 ;
 }
 }
+/
+/
+namespace
+Debug
 void
 arena_t
 :
@@ -28022,6 +28030,7 @@ MozJemalloc
 :
 name
 (
+\
 ARGS_HELPER
 (
 TYPED_ARGS
@@ -28030,7 +28039,6 @@ TYPED_ARGS
 __VA_ARGS__
 )
 )
-\
 {
 \
 BaseAllocator
@@ -30562,7 +30570,6 @@ TYPED_ARGS
 __VA_ARGS__
 )
 )
-\
 {
 \
 BaseAllocator
@@ -32049,7 +32056,6 @@ TYPED_ARGS
 __VA_ARGS__
 )
 )
-\
 {
 \
 if
@@ -32544,7 +32550,6 @@ TYPED_ARGS
 __VA_ARGS__
 )
 )
-\
 {
 \
 return

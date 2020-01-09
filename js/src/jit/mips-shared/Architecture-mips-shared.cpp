@@ -465,6 +465,10 @@ check_r2
 )
 ;
 }
+/
+/
+namespace
+mips_private
 Registers
 :
 :
@@ -527,7 +531,7 @@ Invalid
 /
 /
 namespace
-ion
+jit
 }
 /
 /

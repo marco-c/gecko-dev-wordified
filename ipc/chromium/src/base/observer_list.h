@@ -1252,7 +1252,6 @@ GetNext
 =
 NULL
 )
-\
 obs
 -
 >

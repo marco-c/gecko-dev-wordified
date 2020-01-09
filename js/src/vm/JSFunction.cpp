@@ -3463,8 +3463,8 @@ a
 .
 prototype
 property
-anyway
 *
+anyway
 according
 to
 errata
@@ -3916,9 +3916,9 @@ a
 hack
 to
 prevent
+/
+/
 this
-/
-/
 bug
 .
 if

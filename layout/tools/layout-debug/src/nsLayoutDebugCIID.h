@@ -153,12 +153,14 @@ fff1301ceb60
 #
 define
 NS_LAYOUT_DEBUGGINGTOOLS_CID
+\
 {
+\
 0x3f4c3b68
 0xe640
 0x4712
-\
 {
+\
 0xab
 0xbf
 0xff
@@ -167,7 +169,9 @@ NS_LAYOUT_DEBUGGINGTOOLS_CID
 0x1c
 0xeb
 0x60
+\
 }
+\
 }
 #
 endif

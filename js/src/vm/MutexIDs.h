@@ -437,7 +437,6 @@ DEFINE_MUTEX_ID
 name
 order
 )
-\
 static
 const
 MutexId

@@ -244,6 +244,7 @@ SVG_SUPPORTED_EXTENSION
 (
 str
 )
+\
 if
 (
 aExtension

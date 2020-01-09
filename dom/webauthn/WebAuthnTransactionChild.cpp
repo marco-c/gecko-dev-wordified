@@ -653,4 +653,12 @@ SendDestroyMe
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

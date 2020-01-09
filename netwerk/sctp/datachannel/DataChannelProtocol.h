@@ -214,6 +214,8 @@ to
 min
 (
 Uint8ArrayMaxSize
+/
+/
 UINT32_MAX
 )
 /

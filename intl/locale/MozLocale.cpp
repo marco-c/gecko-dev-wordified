@@ -150,10 +150,10 @@ avoid
 compilation
 problems
 on
+*
 case
 -
 insensitive
-*
 Windows
 .
 The
@@ -441,8 +441,8 @@ expected
 section
 of
 the
-tag
 *
+tag
 and
 intentionally
 skips
@@ -455,6 +455,7 @@ which
 may
 be
 added
+*
 later
 .
 *

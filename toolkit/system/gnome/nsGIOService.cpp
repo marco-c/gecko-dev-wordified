@@ -236,6 +236,8 @@ we
 re
 in
 flatpak
+/
+/
 env
 /
 /
@@ -2735,6 +2737,8 @@ appinfo
 from
 file
 extension
+/
+/
 later
 .
 if
@@ -3730,9 +3734,9 @@ nullptr
 Using
 G_APP_INFO_CREATE_SUPPORTS_URIS
 calling
+/
+/
 g_app_info_create_from_commandline
-/
-/
 appends
 %
 u
@@ -3742,13 +3746,13 @@ cmd
 even
 when
 cmd
+/
+/
 already
 contains
 this
 parameter
 .
-/
-/
 To
 avoid
 that
@@ -3758,6 +3762,8 @@ re
 going
 to
 remove
+/
+/
 arguments
 before
 passing

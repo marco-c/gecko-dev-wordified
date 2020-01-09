@@ -217,9 +217,9 @@ which
 overscroll
 is
 handed
+*
 off
 .
-*
 It
 is
 created
@@ -232,8 +232,8 @@ an
 initial
 APZC
 which
-is
 *
+is
 the
 target
 for
@@ -246,9 +246,9 @@ scroll
 parent
 ID
 links
+*
 (
 often
-*
 but
 not
 always
@@ -261,8 +261,8 @@ the
 APZC
 tree
 )
-then
 *
+then
 adjusting
 for
 scrollgrab
@@ -368,6 +368,7 @@ be
 used
 only
 by
+*
 AsyncPanZoomController
 :
 :

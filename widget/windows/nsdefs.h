@@ -131,6 +131,7 @@ VERIFY
 (
 exp
 )
+\
 if
 (
 !
@@ -139,12 +140,15 @@ exp
 )
 )
 {
+\
 GetLastError
 (
 )
 ;
+\
 BREAK_TO_DEBUGGER
 ;
+\
 }
 #
 else

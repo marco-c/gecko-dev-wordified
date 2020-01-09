@@ -303,6 +303,10 @@ Exception
 ;
 }
 }
+/
+/
+namespace
+mozilla
 typedef
 void
 (
@@ -1346,7 +1350,6 @@ JSCLASS_DOM_GLOBAL
 |
 JSCLASS_HAS_PRIVATE
 |
-\
 JSCLASS_PRIVATE_IS_NSISUPPORTS
 |
 \
@@ -1359,6 +1362,7 @@ n
 #
 define
 XPCONNECT_GLOBAL_EXTRA_SLOT_OFFSET
+\
 (
 JSCLASS_GLOBAL_SLOT_COUNT
 +
@@ -4041,11 +4045,11 @@ this
 name
 both
 mostly
+/
+/
 human
 -
 readable
-/
-/
 and
 unique
 .
@@ -4056,6 +4060,8 @@ no
 guarantees
 of
 either
+/
+/
 property
 .
 extern
@@ -4179,7 +4185,10 @@ sAutomationPrefIsSet
 "
 security
 .
-turn_off_all_security_so_that_viruses_can_take_over_this_computer
+turn_off_all_security_so_that_viruses_can_take_over_this_
+"
+"
+computer
 "
 false
 )

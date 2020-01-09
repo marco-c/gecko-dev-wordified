@@ -1103,9 +1103,9 @@ mapped
 in
 memory
 even
+/
+/
 outside
-/
-/
 of
 the
 lock
@@ -1122,6 +1122,8 @@ new
 code
 should
 follow
+/
+/
 this
 example
 .

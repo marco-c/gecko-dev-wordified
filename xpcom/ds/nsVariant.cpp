@@ -1212,7 +1212,6 @@ nsIDataType
 :
 type_
 :
-\
 {
 \
 ctype_
@@ -1260,7 +1259,6 @@ if
 *
 p
 )
-\
 free
 (
 (
@@ -1290,7 +1288,6 @@ nsIDataType
 :
 type_
 :
-\
 {
 \
 ctype_
@@ -1338,7 +1335,6 @@ if
 *
 p
 )
-\
 (
 *
 p
@@ -2749,7 +2745,6 @@ name_
 )
 \
 nsresult
-\
 nsDiscriminatedUnion
 :
 :
@@ -2763,7 +2758,6 @@ Ctype_
 aResult
 )
 const
-\
 {
 \
 TRIVIAL_DATA_CONVERTER
@@ -2857,7 +2851,6 @@ NS_FAILED
 rv
 )
 )
-\
 return
 rv
 ;
@@ -2868,7 +2861,6 @@ tempData
 .
 mType
 )
-\
 {
 #
 define
@@ -2915,7 +2907,6 @@ nsIDataType
 :
 VTYPE_INT32
 :
-\
 {
 \
 int32_t
@@ -3002,7 +2993,6 @@ nsIDataType
 :
 VTYPE_UINT32
 :
-\
 {
 \
 uint32_t
@@ -3021,7 +3011,6 @@ value
 >
 max_
 )
-\
 return
 NS_ERROR_LOSS_OF_SIGNIFICANT_DATA
 ;
@@ -3085,7 +3074,6 @@ nsIDataType
 :
 VTYPE_DOUBLE
 :
-\
 {
 \
 double
@@ -3143,7 +3131,6 @@ nsIDataType
 :
 VTYPE_DOUBLE
 :
-\
 {
 \
 double
@@ -3197,8 +3184,8 @@ value
 )
 )
 ?
-\
 rv
+\
 :
 NS_SUCCESS_LOSS_OF_INSIGNIFICANT_DATA
 ;
@@ -4752,7 +4739,6 @@ nsIDataType
 :
 type_
 :
-\
 {
 \
 nsAutoCString
@@ -7047,7 +7033,6 @@ functions
 #
 define
 DATA_SETTER_PROLOGUE
-\
 Cleanup
 (
 )
@@ -7057,7 +7042,6 @@ DATA_SETTER_EPILOGUE
 (
 type_
 )
-\
 mType
 =
 nsIDataType
@@ -7165,9 +7149,7 @@ CASE__SET_FROM_VARIANT_VTYPE_PROLOGUE
 (
 type_
 )
-\
 {
-\
 #
 define
 CASE__SET_FROM_VARIANT_VTYPE__GETTER

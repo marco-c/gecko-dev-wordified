@@ -2719,9 +2719,9 @@ check
 its
 scheme
 and
+/
+/
 optionally
-/
-/
 provide
 a
 URL
@@ -2738,11 +2738,11 @@ nsIURL
 or
 URL
 to
+/
+/
 do
 this
 because
-/
-/
 they
 require
 going
@@ -2751,8 +2751,6 @@ the
 main
 thread
 .
-/
-/
 static
 void
 TypeUtils

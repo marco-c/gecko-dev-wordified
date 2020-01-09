@@ -202,12 +202,10 @@ NS_IMGREQUESTPROXY_CID
 /
 \
 0x20557898
-\
 0x1dd2
-\
 0x11b2
-\
 {
+\
 0x8f
 0x65
 0x9c
@@ -216,6 +214,7 @@ NS_IMGREQUESTPROXY_CID
 0xe2
 0xbc
 0x95
+\
 }
 \
 }

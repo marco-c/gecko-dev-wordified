@@ -502,6 +502,7 @@ it
 is
 has
 nested
+*
 collections
 .
 *
@@ -766,11 +767,11 @@ mRole
 /
 /
 namespace
-mozilla
+a11y
 }
 /
 /
 namespace
-a11y
+mozilla
 #
 endif

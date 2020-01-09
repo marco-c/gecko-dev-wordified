@@ -112,11 +112,12 @@ define
 NS_IPLUGINWIDGET_IID
 \
 {
+\
 0xEB9207E0
 0xD8F1
 0x44B9
-\
 {
+\
 0xB7
 0x52
 0xAF
@@ -125,7 +126,9 @@ NS_IPLUGINWIDGET_IID
 0x8E
 0xBD
 0xF7
+\
 }
+\
 }
 class
 nsIPluginInstanceOwner

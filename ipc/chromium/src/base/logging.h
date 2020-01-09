@@ -531,6 +531,7 @@ LOG_IF
 info
 condition
 )
+\
 if
 (
 !
@@ -552,6 +553,7 @@ CHROMIUM_LOG
 (
 info
 )
+\
 mozilla
 :
 :
@@ -665,6 +667,7 @@ DCHECK
 (
 condition
 )
+\
 while
 (
 false

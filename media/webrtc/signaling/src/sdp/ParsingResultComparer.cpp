@@ -2135,3 +2135,7 @@ attrLines
 ;
 }
 }
+/
+/
+namespace
+mozilla

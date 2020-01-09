@@ -196,7 +196,7 @@ mozilla
 gfx
 :
 :
-IntSize
+IntRect
 ;
 using
 mozilla
@@ -205,7 +205,7 @@ mozilla
 gfx
 :
 :
-IntRect
+IntSize
 ;
 using
 mozilla

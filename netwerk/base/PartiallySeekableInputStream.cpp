@@ -1673,10 +1673,10 @@ aLength
 }
 /
 /
-net
 namespace
+net
 }
 /
 /
-mozilla
 namespace
+mozilla

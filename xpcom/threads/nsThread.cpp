@@ -546,9 +546,11 @@ endif
 #
 define
 HAVE_UALARM
+\
 _BSD_SOURCE
 |
 |
+\
 (
 _XOPEN_SOURCE
 >
@@ -556,7 +558,6 @@ _XOPEN_SOURCE
 500
 |
 |
-\
 _XOPEN_SOURCE
 &
 &
@@ -2414,6 +2415,8 @@ a
 way
 to
 expose
+/
+/
 it
 .
 uint32_t
@@ -2491,6 +2494,9 @@ name
 }
 ;
 }
+/
+/
+namespace
 /
 *
 static
@@ -5955,6 +5961,8 @@ will
 never
 run
 it
+"
+"
 (
 rejected
 )
@@ -6168,9 +6176,9 @@ nsIThreadObserver
 :
 :
 ForwardIterator
-\
 iter_
 (
+\
 observers_
 )
 ;
@@ -6781,6 +6789,8 @@ hasn
 '
 t
 happened
+/
+/
 yet
 .
 bool

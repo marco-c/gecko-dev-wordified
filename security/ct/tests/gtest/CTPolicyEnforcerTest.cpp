@@ -2240,6 +2240,8 @@ notBefore
 month
 first
 of
+/
+/
 notAfter
 1427801100000000
 /
@@ -2367,11 +2369,12 @@ i
 }
 }
 }
+/
+/
+namespace
+ct
 }
 /
 /
 namespace
 mozilla
-:
-:
-ct

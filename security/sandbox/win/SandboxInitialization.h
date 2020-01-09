@@ -129,6 +129,10 @@ TargetServices
 }
 /
 /
+namespace
+sandbox
+/
+/
 Things
 that
 use
@@ -319,10 +323,12 @@ GetPermissionsService
 }
 /
 /
+namespace
 sandboxing
 }
 /
 /
+namespace
 mozilla
 #
 endif

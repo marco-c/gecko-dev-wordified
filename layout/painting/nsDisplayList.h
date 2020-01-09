@@ -1129,7 +1129,6 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-\
 {
 \
 return
@@ -2488,6 +2487,10 @@ mRetained
 }
 ;
 }
+/
+/
+namespace
+mozilla
 enum
 class
 nsDisplayListBuilderMode
@@ -23684,7 +23687,6 @@ nsDisplayListSet
 &
 aLists
 )
-\
 {
 \
 DO_GLOBAL_REFLOW_COUNT_DSP

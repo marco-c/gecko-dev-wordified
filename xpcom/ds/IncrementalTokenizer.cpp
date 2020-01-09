@@ -992,4 +992,5 @@ rv
 }
 /
 /
+namespace
 mozilla

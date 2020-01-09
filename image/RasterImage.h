@@ -370,12 +370,10 @@ b143
 /
 \
 0x376ff2c1
-\
 0x9bf6
-\
 0x418a
-\
 {
+\
 0xb1
 0x43
 0x33
@@ -384,6 +382,7 @@ b143
 0x01
 0x12
 0xf7
+\
 }
 \
 }
@@ -1546,8 +1545,8 @@ decoder
 .
 (
 Whether
-it
 *
+it
 encountered
 an
 error
@@ -1610,8 +1609,8 @@ of
 the
 number
 of
-frames
 *
+frames
 of
 animation
 the
@@ -1622,10 +1621,10 @@ decoding
 so
 far
 .
-*
 This
 is
 a
+*
 lower
 bound
 for
@@ -1634,7 +1633,6 @@ total
 number
 of
 animation
-*
 frames
 this
 image
@@ -3018,6 +3016,8 @@ the
 MIME
 type
 in
+/
+/
 Init
 (
 )

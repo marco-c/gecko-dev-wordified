@@ -227,9 +227,9 @@ specified
 by
 the
 mime
+/
+/
 type
-/
-/
 (
 text
 /
@@ -250,10 +250,10 @@ use
 it
 otherwise
 get
+/
+/
 the
 entire
-/
-/
 doc
 .
 static

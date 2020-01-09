@@ -468,7 +468,7 @@ rawSupports
 }
 /
 /
-anonymous
+namespace
 WorkerLoadInfoData
 :
 :
@@ -2720,10 +2720,10 @@ WorkerLoadInfo
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

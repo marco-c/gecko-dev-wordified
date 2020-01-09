@@ -32,6 +32,7 @@ WEBGL_INTERNAL_FORMAT
 (
 effectiveinternalformat
 unsizedinternalformat
+\
 type
 )
 \

@@ -1164,6 +1164,8 @@ this
 =
 %
 p
+"
+"
 hash
 =
 %
@@ -6174,6 +6176,8 @@ CacheFileIOManager
 already
 gone
 in
+"
+"
 MetadataWriteScheduleEvent
 :
 :
@@ -9096,6 +9100,8 @@ status
 later
 after
 the
+/
+/
 metadata
 gets
 parsed
@@ -9153,10 +9159,10 @@ the
 context
 file
 evictor
+/
+/
 above
 for
-/
-/
 any
 of
 pinned
@@ -9170,11 +9176,11 @@ calls
 ensure
 we
 doom
+/
+/
 the
 handle
 ASAP
-/
-/
 we
 know
 the
@@ -9185,11 +9191,11 @@ after
 metadta
 has
 been
+/
+/
 parsed
 .
 DoomFileInternal
-/
-/
 on
 the
 |
@@ -9202,13 +9208,13 @@ doom
 right
 now
 since
+/
+/
 the
 pinning
 state
 is
 unknown
-/
-/
 and
 we
 pass
@@ -12997,6 +13003,8 @@ handle
 =
 %
 p
+"
+"
 ignore
 shutdown
 =
@@ -13414,6 +13422,8 @@ handle
 =
 %
 p
+"
+"
 truncatePos
 =
 %
@@ -17496,6 +17506,8 @@ loadContextInfo
 =
 %
 p
+"
+"
 pinned
 =
 %
@@ -18430,6 +18442,8 @@ TrashDirectory
 -
 Directory
 removed
+"
+"
 [
 rv
 =
@@ -19634,6 +19648,8 @@ Found
 a
 directory
 in
+"
+"
 a
 trash
 "
@@ -20025,6 +20041,8 @@ handle
 =
 %
 p
+"
+"
 originAttrsHash
 =
 %
@@ -22740,6 +22758,8 @@ OpenNSPRHandle
 Create
 failed
 with
+"
+"
 0x
 %
 08
@@ -23122,6 +23142,8 @@ SyncRemoveDir
 Removing
 failed
 !
+"
+"
 [
 rv
 =
@@ -23296,6 +23318,8 @@ an
 unexpected
 error
 .
+"
+"
 [
 rv
 =

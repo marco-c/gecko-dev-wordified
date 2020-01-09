@@ -2920,6 +2920,8 @@ mapped
 info
 against
 the
+/
+/
 iterator
 info
 .
@@ -3461,6 +3463,8 @@ native
 =
 >
 bytecode
+/
+/
 table
 .
 if
@@ -3512,11 +3516,11 @@ start
 of
 the
 last
+/
+/
 frame
 '
 s
-/
-/
 baseline
 jit
 code
@@ -3909,6 +3913,8 @@ don
 '
 t
 accept
+/
+/
 lastProfilingCallSite
 if
 (
@@ -3974,6 +3980,8 @@ don
 '
 t
 accept
+/
+/
 lastProfilingCallSite
 if
 (

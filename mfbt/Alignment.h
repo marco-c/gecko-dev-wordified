@@ -486,7 +486,6 @@ MOZ_ALIGNED_DECL
 _type
 _align
 )
-\
 _type
 __attribute__
 (
@@ -510,7 +509,6 @@ MOZ_ALIGNED_DECL
 _type
 _align
 )
-\
 __declspec
 (
 align

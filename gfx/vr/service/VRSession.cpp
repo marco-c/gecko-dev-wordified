@@ -680,10 +680,10 @@ and
 ButtonTouched
 with
 ButtonMask
+/
+/
 here
 .
-/
-/
 we
 just
 check
@@ -697,6 +697,8 @@ the
 threshold
 value
 or
+/
+/
 not
 .
 uint64_t

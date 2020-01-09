@@ -878,6 +878,7 @@ that
 applies
 )
 use
+*
 GetEffectiveRowSpan
 (
 )
@@ -914,6 +915,8 @@ cell
 '
 s
 parent
+/
+/
 row
 only
 /
@@ -1147,6 +1150,7 @@ that
 applies
 )
 use
+*
 GetEffectiveColSpan
 (
 )

@@ -1352,6 +1352,10 @@ TrueType
 }
 ;
 }
+/
+/
+namespace
+mozilla
 TrackSize
 :
 :
@@ -5938,6 +5942,8 @@ start
 of
 the
 explicit
+/
+/
 grid
 .
 }
@@ -13329,9 +13335,9 @@ s
 last
 fragment
 can
+/
+/
 do
-/
-/
 '
 last
 baseline
@@ -16135,9 +16141,9 @@ at
 least
 one
 character
+/
+/
 before
-/
-/
 the
 suffix
 .
@@ -39990,6 +39996,8 @@ an
 auto
 -
 sized
+/
+/
 container
 rowCanGrow
 =
@@ -40768,9 +40776,9 @@ row
 -
 this
 can
+/
+/
 happen
-/
-/
 if
 the
 child
@@ -42636,6 +42644,8 @@ eCBWidthAndHeightChanged
 XXX
 could
 be
+/
+/
 optimized
 flags
 |
@@ -43213,6 +43223,8 @@ our
 excess
 overflow
 containers
+/
+/
 list
 .
 nsFrameList
@@ -49010,6 +49022,8 @@ previous
 in
 -
 flow
+/
+/
 nsGridContainerFrames
 .
 nsGridContainerFrame

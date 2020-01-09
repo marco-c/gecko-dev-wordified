@@ -4001,4 +4001,12 @@ mFontFace
 #
 endif
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

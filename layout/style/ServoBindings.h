@@ -267,6 +267,10 @@ uint8_t
 ;
 }
 }
+/
+/
+namespace
+mozilla
 namespace
 nsStyleTransformMatrix
 {
@@ -1277,7 +1281,6 @@ type_
 #
 _Debug
 (
-\
 RawServo
 #
 #
@@ -1302,7 +1305,6 @@ type_
 #
 _GetCssText
 (
-\
 RawServo
 #
 #
@@ -1342,10 +1344,8 @@ RuleAt
 \
 ServoCssRulesBorrowed
 rules
-\
 uint32_t
 index
-\
 uint32_t
 *
 line

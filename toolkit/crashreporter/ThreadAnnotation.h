@@ -164,5 +164,9 @@ ShutdownThreadAnnotation
 }
 ;
 }
+/
+/
+namespace
+CrashReporter
 #
 endif

@@ -520,9 +520,9 @@ sequence
 After
 this
 method
+/
+/
 returns
-/
-/
 it
 is
 safe
@@ -535,6 +535,8 @@ its
 pointer
 to
 the
+/
+/
 GPUProcessHost
 .
 /
@@ -675,9 +677,9 @@ determine
 how
 long
 GPU
+/
+/
 processes
-/
-/
 take
 to
 spin
@@ -692,11 +694,11 @@ denote
 a
 successful
 launch
+/
+/
 just
 when
 we
-/
-/
 attempted
 launch
 .

@@ -6085,4 +6085,12 @@ OutputEffect
 ;
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

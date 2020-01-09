@@ -437,6 +437,8 @@ transfer
 object
 to
 perform
+/
+/
 a
 read
 RefPtr
@@ -545,9 +547,9 @@ data
 transfer
 will
 contain
+/
+/
 those
-/
-/
 else
 data
 transfer
@@ -559,6 +561,8 @@ we
 will
 be
 resolving
+/
+/
 with
 an
 empty

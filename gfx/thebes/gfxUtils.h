@@ -396,10 +396,10 @@ A8R8G8B8_UINT32
 no
 operation
 is
+*
 performed
 .
 If
-*
 aDestSurface
 is
 given
@@ -1569,9 +1569,9 @@ with
 a
 given
 frame
+*
 number
 .
-*
 The
 colors
 will
@@ -1583,13 +1583,13 @@ You
 can
 query
 colors
+*
 0
 .
 .
 sNumFrameColors
 -
 1
-*
 to
 get
 all

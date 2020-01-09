@@ -260,13 +260,13 @@ to
 write
 to
 /
+/
+/
 data
 /
 local
 /
 tmp
-/
-/
 /
 so
 also
@@ -510,6 +510,8 @@ to
 "
 block
 \
+"
+"
 "
 or
 \
@@ -891,6 +893,9 @@ unlock
 }
 ;
 }
+/
+/
+namespace
 uint32_t
 PerfSpewer
 :
@@ -1346,6 +1351,8 @@ located
 before
 the
 first
+/
+/
 basic
 block
 size_t

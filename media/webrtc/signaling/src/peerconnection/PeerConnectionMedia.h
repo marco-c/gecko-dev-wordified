@@ -147,6 +147,10 @@ MediaStreamTrack
 ;
 }
 }
+/
+/
+namespace
+mozilla
 #
 include
 "
@@ -714,9 +718,9 @@ need
 to
 change
 the
+/
+/
 ownership
-/
-/
 on
 streams
 void

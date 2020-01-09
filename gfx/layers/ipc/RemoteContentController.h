@@ -227,8 +227,8 @@ this
 case
 is
 the
-compositor
 *
+compositor
 thread
 .
 *
@@ -245,13 +245,13 @@ using
 GeckoContentController
 :
 :
-TapType
+APZStateChange
 ;
 using
 GeckoContentController
 :
 :
-APZStateChange
+TapType
 ;
 public
 :

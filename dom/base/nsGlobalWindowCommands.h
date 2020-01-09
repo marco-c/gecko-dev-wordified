@@ -226,6 +226,7 @@ command
 must
 not
 be
+*
 null
 *
 returns

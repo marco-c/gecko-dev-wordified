@@ -226,6 +226,10 @@ a
 )
 ;
 }
+/
+/
+namespace
+MIDIUtils
 }
 /
 /

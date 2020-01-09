@@ -285,11 +285,12 @@ define
 NS_ICSSDECLARATION_IID
 \
 {
+\
 0xdbeabbfa
 0x6cb3
 0x4f5c
-\
 {
+\
 0xae
 0xc2
 0xdd
@@ -298,7 +299,9 @@ NS_ICSSDECLARATION_IID
 0x9d
 0x68
 0x1f
+\
 }
+\
 }
 class
 nsICSSDeclaration
@@ -676,7 +679,6 @@ const
 nsAString
 &
 aCssText
-\
 nsIPrincipal
 *
 aSubjectPrincipal
@@ -698,6 +700,7 @@ const
 nsAString
 &
 propertyName
+\
 nsAString
 &
 _retval
@@ -716,6 +719,7 @@ nsAString
 &
 _retval
 )
+\
 override
 ;
 \
@@ -746,7 +750,6 @@ const
 nsAString
 &
 value
-\
 const
 nsAString
 &

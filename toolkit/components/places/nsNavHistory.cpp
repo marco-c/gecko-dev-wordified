@@ -702,6 +702,7 @@ PREF_FREC_DOWNLOAD_VISIT_BONUS_DEF
 #
 define
 PREF_FREC_PERM_REDIRECT_VISIT_BONUS
+\
 "
 places
 .
@@ -716,6 +717,7 @@ PREF_FREC_PERM_REDIRECT_VISIT_BONUS_DEF
 #
 define
 PREF_FREC_TEMP_REDIRECT_VISIT_BONUS
+\
 "
 places
 .
@@ -730,6 +732,7 @@ PREF_FREC_TEMP_REDIRECT_VISIT_BONUS_DEF
 #
 define
 PREF_FREC_REDIR_SOURCE_VISIT_BONUS
+\
 "
 places
 .
@@ -758,6 +761,7 @@ PREF_FREC_DEFAULT_VISIT_BONUS_DEF
 #
 define
 PREF_FREC_UNVISITED_BOOKMARK_BONUS
+\
 "
 places
 .
@@ -3413,6 +3417,8 @@ url_hash
 rev_host
 hidden
 frecency
+"
+"
 guid
 )
 "
@@ -3432,6 +3438,8 @@ rev_host
 hidden
 :
 frecency
+"
+"
 :
 guid
 )
@@ -4820,6 +4828,8 @@ utc
 '
 )
 *
+"
+"
 1000000
 "
 )
@@ -6756,10 +6766,10 @@ Visited
 item
 in
 some
+/
+/
 profiles
 :
-/
-/
 folder
 :
 place
@@ -6771,14 +6781,14 @@ sort
 maxResults
 =
 10
-/
-/
 note
 any
 maxResult
 >
 0
 will
+/
+/
 still
 be
 considered
@@ -7826,6 +7836,8 @@ h
 title
 AS
 page_title
+"
+"
 h
 .
 rev_host
@@ -7883,6 +7895,8 @@ since
 additonal
 conditions
 will
+/
+/
 start
 with
 AND
@@ -8190,6 +8204,8 @@ page_title
 h
 .
 rev_host
+"
+"
 h
 .
 visit_count
@@ -8745,6 +8761,8 @@ day
 '
 +
 1
+"
+"
 day
 '
 '
@@ -8830,6 +8848,8 @@ day
 '
 -
 1
+"
+"
 day
 '
 '
@@ -8959,6 +8979,8 @@ day
 '
 -
 7
+"
+"
 days
 '
 '
@@ -9004,6 +9026,8 @@ day
 '
 +
 1
+"
+"
 day
 '
 '
@@ -9068,6 +9092,8 @@ day
 '
 -
 1
+"
+"
 day
 '
 '
@@ -9134,6 +9160,8 @@ localtime
 '
 start
 of
+"
+"
 month
 '
 '
@@ -9179,6 +9207,8 @@ day
 '
 +
 1
+"
+"
 day
 '
 '
@@ -9245,6 +9275,8 @@ day
 '
 -
 7
+"
+"
 days
 '
 '
@@ -9360,6 +9392,8 @@ month
 '
 -
 5
+"
+"
 months
 '
 '
@@ -10733,6 +10767,8 @@ null
 null
 null
 null
+"
+"
 '
 "
 MOBILE_BOOKMARKS_VIRTUAL_GUID
@@ -11034,6 +11070,8 @@ d
 OrganizerQueryHistory
 null
 null
+"
+"
 null
 "
 "
@@ -11070,6 +11108,8 @@ d
 :
 OrganizerQueryDownloads
 null
+"
+"
 null
 null
 "
@@ -12477,6 +12517,8 @@ page_title
 h
 .
 rev_host
+"
+"
 h
 .
 visit_count
@@ -12537,6 +12579,8 @@ moz_historyvisits
 WHERE
 place_id
 =
+"
+"
 h
 .
 id
@@ -13160,6 +13204,8 @@ n
 s
 \
 nStorage
+"
+"
 error
 (
 %
@@ -14559,6 +14605,8 @@ n
 s
 \
 nStorage
+"
+"
 error
 (
 %
@@ -19995,9 +20043,9 @@ to
 another
 folder
 )
+/
+/
 apply
-/
-/
 our
 options
 for
@@ -20011,11 +20059,11 @@ type
 was
 tag
 query
+/
+/
 we
 do
 not
-/
-/
 apply
 them
 because
@@ -23322,6 +23370,8 @@ use_count
 *
 .
 9
+"
+"
 +
 1
 "
@@ -23348,6 +23398,8 @@ i
 .
 input
 =
+"
+"
 :
 input_text
 "

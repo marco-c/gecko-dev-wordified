@@ -174,6 +174,10 @@ RemotePrintJobChild
 ;
 }
 }
+/
+/
+namespace
+mozilla
 class
 nsDeviceContextSpecProxy
 final

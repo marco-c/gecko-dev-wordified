@@ -857,10 +857,10 @@ nullptr
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

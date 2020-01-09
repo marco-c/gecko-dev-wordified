@@ -464,18 +464,6 @@ namespace
 js
 ;
 using
-mozilla
-:
-:
-AssertedCast
-;
-using
-mozilla
-:
-:
-IsAsciiDigit
-;
-using
 JS
 :
 :
@@ -492,6 +480,18 @@ JS
 :
 :
 ToUint32
+;
+using
+mozilla
+:
+:
+AssertedCast
+;
+using
+mozilla
+:
+:
+IsAsciiDigit
 ;
 /
 *
@@ -6168,6 +6168,7 @@ makeTypedArrayWithTemplate
 (
 cx
 tobj
+\
 len
 )
 ;
@@ -8580,7 +8581,6 @@ len
 nbytes
 )
 )
-\
 return
 true
 ;
@@ -9684,7 +9684,6 @@ srcTypedArray
 offset
 )
 )
-\
 return
 false
 ;
@@ -11703,10 +11702,10 @@ Array
 JSContext
 *
 cx
+\
 uint32_t
 nelements
 )
-\
 {
 \
 return
@@ -11739,10 +11738,10 @@ ArrayFromArray
 JSContext
 *
 cx
+\
 HandleObject
 other
 )
-\
 {
 \
 return
@@ -11772,18 +11771,18 @@ Name
 #
 ArrayWithBuffer
 (
+\
 JSContext
 *
 cx
-\
 HandleObject
 arrayBuffer
 uint32_t
 byteOffset
+\
 int32_t
 length
 )
-\
 {
 \
 return
@@ -11795,10 +11794,10 @@ NativeType
 :
 fromBuffer
 (
+\
 cx
 arrayBuffer
 byteOffset
-\
 length
 )
 ;
@@ -11819,7 +11818,6 @@ JSObject
 *
 obj
 )
-\
 {
 \
 if
@@ -11834,7 +11832,6 @@ obj
 )
 )
 )
-\
 return
 false
 ;
@@ -11887,7 +11884,6 @@ JSObject
 *
 obj
 )
-\
 {
 \
 obj
@@ -11903,7 +11899,6 @@ if
 !
 obj
 )
-\
 return
 nullptr
 ;
@@ -11974,6 +11969,7 @@ TypedArrayObject
 :
 :
 classes
+\
 [
 TypedArrayObjectTemplate
 <
@@ -12051,24 +12047,21 @@ Name
 #
 Array
 (
+\
 JSObject
 *
 obj
-\
 uint32_t
 *
 length
-\
 bool
 *
 isShared
-\
 ExternalType
 *
 *
 data
 )
-\
 {
 \
 if
@@ -12083,7 +12076,6 @@ obj
 )
 )
 )
-\
 return
 nullptr
 ;
@@ -12179,6 +12171,7 @@ dataPointerEither
 .
 unwrap
 (
+\
 /
 *
 safe
@@ -12445,7 +12438,6 @@ Array
 :
 :
 createConstructor
-\
 _type
 #
 #
@@ -12453,7 +12445,6 @@ Array
 :
 :
 createPrototype
-\
 nullptr
 \
 static_prototype_properties
@@ -12466,7 +12457,6 @@ Type
 :
 _type
 ]
-\
 nullptr
 \
 static_prototype_properties
@@ -12479,7 +12469,6 @@ Type
 :
 _type
 ]
-\
 nullptr
 \
 JSProto_TypedArray
@@ -12576,7 +12565,6 @@ Array
 \
 JSCLASS_DELAY_METADATA_BUILDER
 |
-\
 JSCLASS_SKIP_NURSERY_FINALIZE
 |
 \
@@ -12773,6 +12761,7 @@ _type
 \
 /
 *
+\
 *
 Actually
 (
@@ -12791,6 +12780,7 @@ prototype
 should
 throw
 because
+\
 *
 Uint8Array
 .
@@ -12806,6 +12796,7 @@ slots
 (
 Same
 as
+\
 *
 with
 %
@@ -12825,6 +12816,7 @@ is
 desirable
 (
 see
+\
 *
 above
 )
@@ -12844,6 +12836,7 @@ doing
 it
 till
 we
+\
 *
 implement
 toStringTag
@@ -12851,6 +12844,7 @@ or
 ES6
 changes
 .
+\
 *
 /
 \
@@ -12859,7 +12853,6 @@ _type
 "
 ArrayPrototype
 "
-\
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_
@@ -12872,7 +12865,6 @@ Array
 )
 \
 JS_NULL_CLASS_OPS
-\
 &
 TypedArrayObjectClassSpecs
 [

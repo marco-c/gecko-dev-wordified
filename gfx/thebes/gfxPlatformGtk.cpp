@@ -375,6 +375,7 @@ with
 system
 headers
 on
+*
 OSX
 *
 /
@@ -439,6 +440,7 @@ GDK_PIXMAP_SIZE_MAX
 #
 define
 GFX_PREF_MAX_GENERIC_SUBSTITUTIONS
+\
 "
 gfx
 .

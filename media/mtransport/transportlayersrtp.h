@@ -256,7 +256,7 @@ mRecvSrtp
 }
 /
 /
-close
 namespace
+mozilla
 #
 endif

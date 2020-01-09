@@ -138,6 +138,10 @@ class
 Selection
 ;
 }
+/
+/
+namespace
+dom
 namespace
 a11y
 {

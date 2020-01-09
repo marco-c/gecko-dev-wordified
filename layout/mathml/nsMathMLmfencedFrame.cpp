@@ -1470,9 +1470,9 @@ were
 to
 use
 the
+/
+/
 base
-/
-/
 method
 here
 our
@@ -1485,9 +1485,9 @@ and
 placed
 and
 we
+/
+/
 may
-/
-/
 end
 up
 stretching
@@ -1985,6 +1985,8 @@ a
 size
 that
 covers
+/
+/
 everything
 GetPreferredStretchSize
 (

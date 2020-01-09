@@ -517,6 +517,7 @@ __GNUC__
 )
 &
 &
+\
 !
 defined
 (
@@ -587,6 +588,7 @@ __GNUC__
 )
 &
 &
+\
 !
 defined
 (
@@ -2342,6 +2344,7 @@ NS_INCHES_TO_TWIPS
 (
 x
 )
+\
 NSUnitsToTwips
 (
 (
@@ -2361,6 +2364,7 @@ NS_MILLIMETERS_TO_TWIPS
 (
 x
 )
+\
 NSUnitsToTwips
 (
 (
@@ -2423,6 +2427,7 @@ NS_TWIPS_TO_MILLIMETERS
 (
 x
 )
+\
 NSTwipsToUnits
 (
 (

@@ -1056,8 +1056,8 @@ selected
 either
 row
 or
-column
 *
+column
 (
 see
 nsFrameSelection

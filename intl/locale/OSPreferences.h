@@ -984,6 +984,7 @@ aRetVal
 }
 /
 /
+namespace
 intl
 }
 /

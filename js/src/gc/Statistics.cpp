@@ -283,13 +283,13 @@ using
 mozilla
 :
 :
-TimeStamp
+TimeDuration
 ;
 using
 mozilla
 :
 :
-TimeDuration
+TimeStamp
 ;
 /
 *
@@ -1763,6 +1763,8 @@ s
 ;
 Reset
 :
+"
+"
 %
 s
 %
@@ -2019,6 +2021,8 @@ MMU
 %
 %
 ;
+"
+"
 Total
 :
 %
@@ -2126,6 +2130,8 @@ d
 d
 )
 ;
+"
+"
 HeapSize
 :
 %
@@ -2134,7 +2140,6 @@ HeapSize
 MiB
 ;
 "
-\
 "
 HeapChange
 (
@@ -4425,6 +4430,8 @@ correctly
 maintain
 the
 Telemetry
+/
+/
 ping
 code
 json
@@ -5513,6 +5520,7 @@ XP_MACOSX
 )
 |
 |
+\
 (
 defined
 (
@@ -6800,6 +6808,8 @@ The
 report
 is
 unavailable
+"
+"
 for
 this
 GC
@@ -8178,6 +8188,8 @@ preserving
 the
 data
 for
+/
+/
 PhaseKind
 :
 :
@@ -10129,7 +10141,6 @@ name
 text
 phase
 )
-\
 fprintf
 (
 stderr

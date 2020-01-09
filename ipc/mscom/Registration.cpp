@@ -2087,6 +2087,7 @@ sMutex
 }
 /
 /
+namespace
 UseGetMutexForAccess
 static
 CRITICAL_SECTION

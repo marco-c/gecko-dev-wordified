@@ -436,8 +436,10 @@ ASSERT_UNLESS_FUZZING
 .
 .
 )
+\
 do
 {
+\
 }
 while
 (
@@ -37996,7 +37998,6 @@ t
 belong
 !
 "
-\
 NS_ConvertUTF16toUTF8
 (
 leafName

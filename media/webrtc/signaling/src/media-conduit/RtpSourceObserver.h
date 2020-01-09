@@ -1278,6 +1278,10 @@ aAudioLevel
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 undef
 NG

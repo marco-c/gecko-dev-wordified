@@ -2597,6 +2597,9 @@ GetAnimation
 }
 ;
 }
+/
+/
+namespace
 bool
 EffectCompositor
 :

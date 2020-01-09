@@ -360,6 +360,8 @@ SharedWorkerParent
 unregisters
 itself
 in
+/
+/
 ActorDestroy
 (
 )
@@ -382,13 +384,13 @@ mRemoteWorkerController
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 /

@@ -686,6 +686,7 @@ ret
 )
 \
 {
+\
 if
 (
 !
@@ -694,6 +695,7 @@ condition
 )
 )
 {
+\
 LOG
 (
 "
@@ -715,10 +717,13 @@ __FILE__
 __LINE__
 )
 ;
+\
 return
 ret
 ;
+\
 }
+\
 }
 #
 define
@@ -761,7 +766,6 @@ MFPLAT_FUNC
 _func
 _dllname
 )
-\
 extern
 decltype
 (
@@ -971,7 +975,6 @@ ARRAY_LENGTH
 (
 array_
 )
-\
 (
 sizeof
 (

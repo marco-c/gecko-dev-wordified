@@ -788,9 +788,9 @@ all
 previous
 versions
 of
+/
+/
 the
-/
-/
 OpenGL
 Shading
 Language
@@ -1070,6 +1070,8 @@ shaders
 it
 should
 complain
+/
+/
 anyways
 .
 resources

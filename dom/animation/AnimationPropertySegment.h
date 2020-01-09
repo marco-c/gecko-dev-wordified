@@ -408,6 +408,10 @@ aOther
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

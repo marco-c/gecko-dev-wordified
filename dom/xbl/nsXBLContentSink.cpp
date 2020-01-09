@@ -1338,6 +1338,8 @@ the
 new
 last
 member
+/
+/
 in
 the
 chain
@@ -1426,6 +1428,8 @@ new
 last
 field
 in
+/
+/
 the
 chain
 .
@@ -2100,15 +2104,18 @@ _cond
 )
 )
 {
+\
 ReportUnexpectedElement
 (
 aTagName
 aLineNumber
 )
 ;
+\
 return
 true
 ;
+\
 }
 \
 PR_END_MACRO
@@ -2231,6 +2238,8 @@ between
 doc
 /
 binding
+/
+/
 manager
 /
 doc
@@ -5080,6 +5089,8 @@ match
 the
 code
 in
+/
+/
 nsXBLPrototypeBinding
 :
 :

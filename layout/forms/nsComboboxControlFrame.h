@@ -711,6 +711,7 @@ we
 always
 force
 repaint
+*
 currently
 )
 *
@@ -1569,6 +1570,8 @@ used
 to
 display
 the
+/
+/
 current
 selection
 RefPtr
@@ -1687,11 +1690,11 @@ its
 programmatically
 pressed
 by
+/
+/
 someone
 like
 Accessibility
-/
-/
 then
 open
 or

@@ -417,6 +417,7 @@ XUL_PROTOTYPE_ATTRIBUTE_METER
 (
 counter
 )
+\
 (
 nsXULPrototypeAttribute
 :
@@ -482,6 +483,8 @@ have
 to
 have
 a
+/
+/
 value
 {
 XUL_PROTOTYPE_ATTRIBUTE_METER
@@ -1604,6 +1607,7 @@ XUL_ELEMENT_FLAG_BIT
 (
 n_
 )
+\
 NODE_FLAG_BIT
 (
 ELEMENT_TYPE_SPECIFIC_BITS_OFFSET

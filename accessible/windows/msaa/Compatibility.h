@@ -550,6 +550,7 @@ statistics
 /
 telemetry
 and
+*
 compat
 )
 *
@@ -652,13 +653,13 @@ sUiaRemotePid
 }
 /
 /
-a11y
 namespace
+a11y
 }
 /
 /
-mozilla
 namespace
+mozilla
 /
 /
 Convert

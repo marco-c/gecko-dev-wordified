@@ -519,4 +519,12 @@ this
 }
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

@@ -386,9 +386,9 @@ hangs
 .
 This
 value
+/
+/
 represents
-/
-/
 the
 99
 .
@@ -402,6 +402,8 @@ stack
 depths
 reported
 by
+/
+/
 Telemetry
 .
 static
@@ -429,9 +431,9 @@ usage
 in
 order
 to
+/
+/
 determine
-/
-/
 if
 there
 is
@@ -467,10 +469,10 @@ collapse
 script
 )
 "
+/
+/
 entries
 in
-/
-/
 a
 vector
 representing

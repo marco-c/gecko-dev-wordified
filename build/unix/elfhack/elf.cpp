@@ -1849,6 +1849,8 @@ sh_link
 sh_info
 !
 =
+"
+"
 0
 "
 )
@@ -3091,6 +3093,8 @@ to
 use
 the
 actual
+/
+/
 current
 number
 /

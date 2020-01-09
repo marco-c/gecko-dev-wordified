@@ -224,6 +224,7 @@ Encoding
 #
 define
 ENCODING_RS_NOT_NULL_CONST_ENCODING_PTR
+\
 mozilla
 :
 :
@@ -1443,8 +1444,8 @@ instead
 in
 order
 to
-avoid
 *
+avoid
 unsafe
 fallback
 for
@@ -1455,6 +1456,7 @@ ForLabel
 )
 maps
 to
+*
 REPLACEMENT_ENCODING
 .
 *

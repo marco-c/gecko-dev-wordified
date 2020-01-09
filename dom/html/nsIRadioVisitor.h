@@ -142,11 +142,12 @@ define
 NS_IRADIOVISITOR_IID
 \
 {
+\
 0xc6bed232
 0x1181
 0x4ab2
-\
 {
+\
 0xa1
 0xda
 0x55
@@ -155,7 +156,9 @@ NS_IRADIOVISITOR_IID
 0x6d
 0xea
 0x3d
+\
 }
+\
 }
 /
 *

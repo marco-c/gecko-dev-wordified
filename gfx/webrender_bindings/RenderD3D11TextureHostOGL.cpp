@@ -603,6 +603,8 @@ d3d9
 angle
 for
 some
+/
+/
 reason
 .
 if
@@ -2002,6 +2004,8 @@ d3d9
 angle
 for
 some
+/
+/
 reason
 .
 if
@@ -2096,6 +2100,8 @@ Failed
 to
 open
 shared
+"
+"
 texture
 "
 )

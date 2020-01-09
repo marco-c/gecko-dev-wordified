@@ -159,6 +159,10 @@ GLContext
 ;
 }
 }
+/
+/
+namespace
+mozilla
 struct
 _CGLContextObject
 ;

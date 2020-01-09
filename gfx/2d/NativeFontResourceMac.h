@@ -238,10 +238,12 @@ mNeedsCairo
 }
 /
 /
+namespace
 gfx
 }
 /
 /
+namespace
 mozilla
 #
 endif

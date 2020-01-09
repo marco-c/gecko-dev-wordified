@@ -5173,10 +5173,10 @@ full
 AllowedSurfaceSize
 (
 )
+/
+/
 -
 since
-/
-/
 the
 data
 is
@@ -5190,12 +5190,12 @@ to
 check
 for
 a
+/
+/
 possible
 overflow
 -
 it
-/
-/
 already
 worked
 .

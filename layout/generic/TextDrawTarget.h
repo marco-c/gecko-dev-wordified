@@ -984,6 +984,8 @@ flags
 that
 will
 be
+/
+/
 restored
 .
 mTarget
@@ -4082,6 +4084,14 @@ called
 }
 ;
 }
+/
+/
+namespace
+layout
 }
+/
+/
+namespace
+mozilla
 #
 endif

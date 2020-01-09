@@ -792,6 +792,8 @@ case
 -
 insensitive
 -
+/
+/
 http
 :
 /

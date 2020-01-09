@@ -271,4 +271,12 @@ Close
 ;
 }
 }
+/
+/
+namespace
+layout
 }
+/
+/
+namespace
+mozilla

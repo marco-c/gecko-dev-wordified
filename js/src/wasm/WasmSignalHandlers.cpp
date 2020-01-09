@@ -1744,7 +1744,6 @@ __linux__
 )
 &
 &
-\
 (
 defined
 (
@@ -1758,6 +1757,7 @@ __PPC64__
 )
 |
 |
+\
 defined
 (
 __ppc64le__
@@ -2149,6 +2149,7 @@ __FreeBSD__
 )
 |
 |
+\
 defined
 (
 __FreeBSD_kernel__
@@ -3517,6 +3518,7 @@ __ppc64le__
 )
 |
 |
+\
 defined
 (
 __PPC64LE__

@@ -3129,9 +3129,9 @@ blocked
 waiting
 for
 a
+/
+/
 compositor
-/
-/
 transaction
 to
 be
@@ -3144,11 +3144,11 @@ note
 to
 the
 gfx
+/
+/
 critical
 log
 .
-/
-/
 The
 number
 is

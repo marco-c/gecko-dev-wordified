@@ -854,6 +854,7 @@ aProofOfLock
 #
 define
 NS_CERTOVERRIDE_CID
+\
 {
 /
 *
@@ -870,12 +871,10 @@ NS_CERTOVERRIDE_CID
 /
 \
 0x67ba681d
-\
 0x5485
-\
 0x4fff
-\
 {
+\
 0x95
 0x2c
 0x2e
@@ -884,6 +883,7 @@ NS_CERTOVERRIDE_CID
 0xff
 0xdc
 0xd6
+\
 }
 \
 }

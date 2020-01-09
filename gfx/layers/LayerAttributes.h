@@ -443,8 +443,8 @@ All
 possibilities
 are
 defined
-in
 *
+in
 enum
 ScrollbarLayerType
 *

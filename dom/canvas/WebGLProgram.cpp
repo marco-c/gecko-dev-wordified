@@ -1332,6 +1332,8 @@ but
 not
 Linux
 or
+/
+/
 Win
 +
 GL
@@ -1672,6 +1674,8 @@ be
 validator
 -
 guaranteed
+/
+/
 correct
 .
 /
@@ -1755,9 +1759,9 @@ return
 the
 location
 of
+/
+/
 foo
-/
-/
 anyways
 though
 .
@@ -2800,10 +2804,10 @@ not
 just
 the
 active
+/
+/
 ones
 )
-/
-/
 has
 a
 non
@@ -4654,6 +4658,8 @@ by
 failure
 in
 :
+/
+/
 conformance2
 /
 programs
@@ -6705,6 +6711,8 @@ exceed
 the
 reported
 maximum
+/
+/
 attribute
 count
 .
@@ -6868,6 +6876,8 @@ deal
 with
 mapped
 attrib
+/
+/
 names
 .
 for

@@ -258,6 +258,7 @@ doesn
 t
 do
 this
+*
 for
 us
 .
@@ -269,6 +270,7 @@ JS7_ISA2F
 (
 c
 )
+\
 (
 (
 (
@@ -399,6 +401,7 @@ JS7_UNHEX
 (
 c
 )
+\
 (
 unsigned
 )

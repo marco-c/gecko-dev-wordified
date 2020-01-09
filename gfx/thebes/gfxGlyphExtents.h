@@ -258,8 +258,8 @@ glyph
 ID
 in
 the
-hashtable
 *
+hashtable
 and
 instead
 consult
@@ -274,10 +274,10 @@ XMost
 values
 (
 in
+*
 appunits
 )
 .
-*
 This
 array
 always
@@ -295,9 +295,9 @@ glyph
 -
 -
 the
+*
 width
 is
-*
 assumed
 to
 be

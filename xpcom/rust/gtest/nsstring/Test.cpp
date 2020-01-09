@@ -89,6 +89,7 @@ Clazz
 size_t
 *
 size
+\
 size_t
 *
 align
@@ -175,14 +176,13 @@ _
 #
 Member
 (
+\
 size_t
 *
 size
-\
 size_t
 *
 align
-\
 size_t
 *
 offset

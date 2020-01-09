@@ -292,7 +292,6 @@ Args
 .
 args
 )
-\
 {
 \
 return
@@ -738,11 +737,9 @@ type
 const
 override
 {
-\
 return
 classOpcode
 ;
-\
 }
 \
 const
@@ -754,14 +751,11 @@ Name
 const
 override
 {
-\
 return
 #
 type_name
 ;
-\
 }
-\
 class
 CFGControlInstruction
 :
@@ -958,7 +952,6 @@ type
 )
 const
 {
-\
 return
 this
 -
@@ -973,7 +966,6 @@ type
 (
 )
 ;
-\
 }
 \
 CFG
@@ -988,7 +980,6 @@ type
 (
 )
 {
-\
 return
 this
 -
@@ -1003,7 +994,6 @@ type
 (
 )
 ;
-\
 }
 \
 const
@@ -1020,7 +1010,6 @@ type
 )
 const
 {
-\
 return
 this
 -
@@ -1035,7 +1024,6 @@ type
 (
 )
 ;
-\
 }
 CFG_CONTROL_OPCODE_LIST
 (

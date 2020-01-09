@@ -358,12 +358,12 @@ mCurIndex
 }
 /
 /
-a11y
 namespace
+a11y
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif

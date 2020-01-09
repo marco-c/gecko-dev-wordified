@@ -550,6 +550,9 @@ false
 }
 }
 /
+/
+namespace
+/
 *
 static
 *
@@ -4547,6 +4550,9 @@ forget
 ;
 }
 }
+/
+/
+namespace
 bool
 ServiceWorkerContainer
 :

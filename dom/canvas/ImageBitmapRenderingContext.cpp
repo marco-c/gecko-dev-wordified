@@ -230,6 +230,8 @@ it
 to
 the
 intrinsic
+/
+/
 size
 .
 RefPtr
@@ -1373,4 +1375,12 @@ nsISupports
 )
 NS_INTERFACE_MAP_END
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

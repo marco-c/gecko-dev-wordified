@@ -81,7 +81,6 @@ nsIPrefetchService
 #
 define
 NS_PREFETCHSERVICE_CONTRACTID
-\
 "
 mozilla
 .
@@ -113,12 +112,10 @@ a81b7c0f63bf
 /
 \
 0x6b8bdffc
-\
 0x3394
-\
 0x417d
-\
 {
+\
 0xbe
 0x83
 0xa8
@@ -127,6 +124,7 @@ a81b7c0f63bf
 0x0f
 0x63
 0xbf
+\
 }
 \
 }
@@ -174,12 +172,10 @@ a6e91ca44d8a
 /
 \
 0xec06f3fc
-\
 0x70db
-\
 0x4ecd
-\
 {
+\
 0x94
 0xe0
 0xa6
@@ -188,6 +184,7 @@ a6e91ca44d8a
 0xa4
 0x4d
 0x8a
+\
 }
 \
 }

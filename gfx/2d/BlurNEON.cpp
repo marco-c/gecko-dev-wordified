@@ -1667,9 +1667,9 @@ within
 the
 IntegralImage
 that
+/
+/
 overlaps
-/
-/
 the
 surface
 being
@@ -2372,4 +2372,12 @@ final
 }
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

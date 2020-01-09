@@ -716,6 +716,8 @@ g
 both
 float32
 both
+/
+/
 gpr
 )
 bool
@@ -2999,10 +3001,10 @@ methods
 to
 manipulate
 the
+/
+/
 register
 set
-/
-/
 given
 as
 parameter
@@ -6488,7 +6490,6 @@ gpr
 fpu
 )
 )
-\
 {
 }
 \
@@ -6523,7 +6524,6 @@ set
 )
 )
 )
-\
 {
 }
 template

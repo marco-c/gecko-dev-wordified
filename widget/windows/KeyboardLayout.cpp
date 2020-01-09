@@ -13964,6 +13964,8 @@ HandleAppCommandMessage
 WARNING
 not
 handled
+"
+"
 due
 to
 "
@@ -14958,6 +14960,8 @@ doesn
 '
 t
 dispatch
+"
+"
 content
 "
 "
@@ -15143,6 +15147,8 @@ HandleAppCommandMessage
 )
 dispatching
 keyup
+"
+"
 event
 .
 .
@@ -16568,6 +16574,8 @@ already
 handled
 by
 IME
+"
+"
 defaultPrevented
 =
 %
@@ -16857,6 +16865,8 @@ HandleKeyDownMessage
 not
 dispatching
 keypress
+"
+"
 event
 "
 "
@@ -16976,6 +16986,8 @@ HandleKeyDownMessage
 not
 dispatching
 keypress
+"
+"
 event
 "
 "
@@ -16992,6 +17004,8 @@ s
 event
 but
 not
+"
+"
 followed
 "
 "
@@ -17032,6 +17046,8 @@ HandleKeyDownMessage
 not
 dispatching
 keypress
+"
+"
 event
 "
 "
@@ -19638,6 +19654,8 @@ there
 are
 no
 char
+"
+"
 messages
 "
 this
@@ -20186,6 +20204,8 @@ GetFollowingCharMessage
 )
 succeeded
 to
+"
+"
 retrieve
 "
 "
@@ -20702,6 +20722,8 @@ key
 message
 becomes
 differnt
+"
+"
 key
 '
 s
@@ -24690,6 +24712,8 @@ NativeKey
 DispatchKeyPressEventsWithoutCharMessage
 (
 )
+"
+"
 FAILED
 due
 "
@@ -24763,6 +24787,8 @@ NativeKey
 DispatchKeyPressEventsWithoutCharMessage
 (
 )
+"
+"
 initializing
 "
 "
@@ -24802,6 +24828,8 @@ NativeKey
 DispatchKeyPressEventsWithoutCharMessage
 (
 )
+"
+"
 dispatching
 "
 "
@@ -35147,6 +35175,7 @@ aKeyNameIndex
 case
 aNativeKey
 :
+\
 return
 aKeyNameIndex
 ;
@@ -35215,12 +35244,14 @@ define
 NS_JAPANESE_NATIVE_KEY_TO_DOM_KEY_NAME_INDEX
 (
 aNativeKey
+\
 aKeyNameIndex
 )
 \
 case
 aNativeKey
 :
+\
 return
 aKeyNameIndex
 ;
@@ -35268,6 +35299,7 @@ aKeyNameIndex
 case
 aNativeKey
 :
+\
 return
 aKeyNameIndex
 ;
@@ -35307,6 +35339,7 @@ aKeyNameIndex
 case
 aNativeKey
 :
+\
 return
 aKeyNameIndex
 ;
@@ -35356,6 +35389,7 @@ aCodeNameIndex
 case
 aNativeKey
 :
+\
 return
 aCodeNameIndex
 ;

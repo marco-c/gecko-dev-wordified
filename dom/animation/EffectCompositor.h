@@ -262,6 +262,10 @@ class
 Element
 ;
 }
+/
+/
+namespace
+dom
 class
 EffectCompositor
 {

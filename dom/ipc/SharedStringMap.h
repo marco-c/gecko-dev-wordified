@@ -657,6 +657,8 @@ in
 the
 value
 string
+/
+/
 table
 .
 StringTableEntry
@@ -1496,14 +1498,17 @@ mEntries
 }
 /
 /
+namespace
 ipc
 }
 /
 /
+namespace
 dom
 }
 /
 /
+namespace
 mozilla
 #
 endif

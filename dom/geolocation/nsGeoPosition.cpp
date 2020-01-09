@@ -432,9 +432,9 @@ value
 of
 the
 speed
+/
+/
 attribute
-/
-/
 is
 0
 )
@@ -448,6 +448,8 @@ attribute
 must
 be
 NaN
+/
+/
 (
 or
 null
@@ -1360,7 +1362,6 @@ name
 )
 \
 double
-\
 Coordinates
 :
 :
@@ -1368,7 +1369,6 @@ name
 (
 )
 const
-\
 {
 \
 double
@@ -1404,7 +1404,6 @@ Nullable
 <
 double
 >
-\
 Coordinates
 :
 :
@@ -1415,7 +1414,6 @@ name
 (
 )
 const
-\
 {
 \
 double

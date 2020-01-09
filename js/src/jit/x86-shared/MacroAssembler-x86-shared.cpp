@@ -1968,10 +1968,10 @@ order
 to
 enforce
 the
+/
+/
 restriction
 that
-/
-/
 on
 x86_shared
 srcDest
@@ -1982,6 +1982,8 @@ and
 edx
 will
 be
+/
+/
 clobbered
 .
 /

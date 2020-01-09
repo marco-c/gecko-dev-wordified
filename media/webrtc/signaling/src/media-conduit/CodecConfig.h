@@ -1080,5 +1080,9 @@ mFECFbSet
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

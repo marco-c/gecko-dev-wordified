@@ -394,10 +394,9 @@ mEGLImage
 ;
 }
 /
-*
-mozilla
-*
 /
+namespace
+mozilla
 #
 endif
 /

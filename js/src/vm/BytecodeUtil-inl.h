@@ -633,7 +633,7 @@ using
 BytecodeRange
 :
 :
-frontPC
+frontOffset
 ;
 using
 BytecodeRange
@@ -645,7 +645,7 @@ using
 BytecodeRange
 :
 :
-frontOffset
+frontPC
 ;
 BytecodeRangeWithPosition
 (

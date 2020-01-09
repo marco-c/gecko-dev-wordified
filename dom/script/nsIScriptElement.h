@@ -222,11 +222,12 @@ define
 NS_ISCRIPTELEMENT_IID
 \
 {
+\
 0xe60fca9b
 0x1b96
 0x4e4e
-\
 {
+\
 0xa9
 0xb4
 0xdc
@@ -235,7 +236,9 @@ NS_ISCRIPTELEMENT_IID
 0x88
 0x3f
 0x9c
+\
 }
+\
 }
 /
 *

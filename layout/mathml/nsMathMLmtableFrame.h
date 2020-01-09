@@ -569,9 +569,9 @@ changed
 -
 -
 since
+/
+/
 MathML
-/
-/
 attributes
 are
 inter
@@ -585,10 +585,10 @@ can
 affect
 the
 table
+/
+/
 it
 is
-/
-/
 safer
 (
 albeit

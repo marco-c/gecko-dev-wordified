@@ -7438,12 +7438,13 @@ path
 %
 s
 for
+"
+"
 pid
 =
 %
 d
 "
-\
 "
 permissive
 =

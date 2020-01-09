@@ -395,7 +395,15 @@ mPendingReadbackTasks
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

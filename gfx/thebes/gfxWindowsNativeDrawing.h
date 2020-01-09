@@ -423,8 +423,8 @@ for
 drawing
 after
 that
-time
 *
+time
 the
 result
 is

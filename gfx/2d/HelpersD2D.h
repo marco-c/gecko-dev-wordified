@@ -3072,6 +3072,8 @@ possible
 without
 supporting
 discontiguous
+/
+/
 uploads
 /
 /
@@ -4002,9 +4004,9 @@ a
 part
 of
 the
+/
+/
 bitmap
-/
-/
 perhaps
 we
 can
@@ -4018,9 +4020,9 @@ let
 '
 s
 do
+/
+/
 something
-/
-/
 different
 here
 and
@@ -4033,6 +4035,8 @@ enough
 this
 should
 be
+/
+/
 rare
 !
 scaleSize
@@ -5070,7 +5074,15 @@ mCtx
 }
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

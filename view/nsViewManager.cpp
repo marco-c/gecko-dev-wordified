@@ -625,6 +625,8 @@ having
 called
 Destroy
 on
+"
+"
 the
 PresShell
 !
@@ -1774,6 +1776,8 @@ floating
 views
 that
 have
+"
+"
 floating
 parents
 "
@@ -1968,6 +1972,8 @@ the
 widget
 '
 s
+"
+"
 view
 (
 %
@@ -5606,10 +5612,10 @@ after
 '
 kid
 '
+/
+/
 in
 document
-/
-/
 order
 otherwise
 after
@@ -5627,6 +5633,8 @@ kid
 '
 in
 document
+/
+/
 order
 )
 .
@@ -5928,6 +5936,8 @@ the
 newly
 added
 view
+/
+/
 float
 as
 well
@@ -6450,10 +6460,10 @@ It
 should
 always
 be
+/
+/
 zero
 .
-/
-/
 This
 could
 be
@@ -6467,6 +6477,8 @@ rule
 or
 just
 removed
+/
+/
 altogether
 with
 interesting

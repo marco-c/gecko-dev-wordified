@@ -1381,9 +1381,9 @@ the
 memory
 is
 not
+/
+/
 shared
-/
-/
 between
 processes
 or
@@ -1397,10 +1397,10 @@ to
 the
 same
 address
+/
+/
 in
 every
-/
-/
 process
 .
 (
@@ -1413,6 +1413,8 @@ cannot
 be
 shared
 between
+/
+/
 processes
 .
 )

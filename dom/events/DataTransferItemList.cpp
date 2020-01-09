@@ -3865,9 +3865,9 @@ file
 /
 /
 namespace
-mozilla
+dom
 }
 /
 /
 namespace
-dom
+mozilla

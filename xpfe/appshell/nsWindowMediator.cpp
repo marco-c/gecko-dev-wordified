@@ -1187,12 +1187,12 @@ window
 type
 )
 which
+/
+/
 has
 the
 most
 recent
-/
-/
 time
 stamp
 NS_IMETHODIMP

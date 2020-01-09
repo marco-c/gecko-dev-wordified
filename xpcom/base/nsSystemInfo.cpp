@@ -5532,11 +5532,11 @@ OS
 s
 when
 compiled
+/
+/
 not
 libraries
 .
-/
-/
 64
 bytes
 is
@@ -5552,9 +5552,9 @@ GTK
 followed
 by
 3
+/
+/
 integers
-/
-/
 separated
 with
 dots
@@ -6580,10 +6580,10 @@ we
 want
 the
 Android
+/
+/
 version
 .
-/
-/
 Rename
 SDK
 version
@@ -6595,6 +6595,8 @@ the
 kernel
 version
 into
+/
+/
 kernel_version
 .
 nsAutoString
@@ -6650,6 +6652,8 @@ tests
 )
 sdk_version
 is
+/
+/
 0
 .
 if

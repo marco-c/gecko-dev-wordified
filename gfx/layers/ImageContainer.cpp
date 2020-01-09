@@ -578,9 +578,9 @@ empty
 and
 will
 be
+/
+/
 properly
-/
-/
 initialized
 in
 RecycleBuffer
@@ -589,10 +589,10 @@ initializing
 it
 here
 avoids
+/
+/
 static
 analysis
-/
-/
 noise
 .
 mRecycledBufferSize
@@ -1043,11 +1043,11 @@ we
 don
 '
 t
+/
+/
 have
 an
 existing
-/
-/
 ImageClient
 or
 if
@@ -1058,6 +1058,8 @@ belongs
 to
 an
 IPC
+/
+/
 actor
 that
 is

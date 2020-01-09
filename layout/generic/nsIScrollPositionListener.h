@@ -141,6 +141,7 @@ scroll
 position
 changes
 of
+*
 nsIScrollableFrame
 '
 s

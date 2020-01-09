@@ -3258,6 +3258,8 @@ some
 plugins
 have
 infoStrings
+/
+/
 missing
 :
 :
@@ -3284,6 +3286,8 @@ data
 in
 the
 BPSupportedMIMETypes
+/
+/
 struct
 int
 variantCount

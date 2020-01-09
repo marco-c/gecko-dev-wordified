@@ -606,9 +606,9 @@ to
 inform
 nsIOService
 that
+/
+/
 network
-/
-/
 is
 in
 process
@@ -621,10 +621,10 @@ nsHttpConnectionMgr
 :
 :
 Shutdown
+/
+/
 to
 nsIOService
-/
-/
 caused
 problems
 (
@@ -639,9 +639,9 @@ in
 this
 way
 .
-/
-/
 As
+/
+/
 soon
 as
 nsIOService

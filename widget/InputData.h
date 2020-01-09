@@ -231,6 +231,10 @@ class
 PAPZInputBridgeParent
 ;
 }
+/
+/
+namespace
+layers
 namespace
 dom
 {
@@ -368,7 +372,6 @@ type
 (
 )
 const
-\
 {
 \
 MOZ_ASSERT
@@ -407,7 +410,6 @@ As
 type
 (
 )
-\
 {
 \
 MOZ_ASSERT
@@ -622,9 +624,9 @@ has
 been
 processed
 by
+/
+/
 content
-/
-/
 and
 focus
 can
@@ -979,6 +981,8 @@ take
 it
 as
 a
+/
+/
 ParentLayerSize
 .
 SingleTouchData
@@ -1054,9 +1058,9 @@ SingleTouchData
 within
 a
 MultiTouchInput
+/
+/
 so
-/
-/
 that
 they
 can
@@ -1067,6 +1071,8 @@ when
 handling
 a
 touch
+/
+/
 start
 /
 move
@@ -2561,8 +2567,8 @@ SingleTouchData
 /
 MultiTouchInput
 instances
-and
 *
+and
 determining
 whether
 or
@@ -3223,8 +3229,8 @@ SingleTouchData
 /
 MultiTouchInput
 instances
-and
 *
+and
 determining
 whether
 or

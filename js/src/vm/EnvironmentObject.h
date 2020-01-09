@@ -6166,8 +6166,8 @@ chain
 This
 slot
 is
-analogous
 *
+analogous
 to
 the
 ENCLOSING_ENV_SLOT

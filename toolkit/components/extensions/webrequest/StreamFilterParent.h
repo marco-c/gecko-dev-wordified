@@ -240,6 +240,10 @@ class
 nsHttpChannel
 ;
 }
+/
+/
+namespace
+net
 namespace
 extensions
 {

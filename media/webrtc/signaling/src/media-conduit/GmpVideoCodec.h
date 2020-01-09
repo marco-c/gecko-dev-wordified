@@ -94,5 +94,9 @@ CreateDecoder
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

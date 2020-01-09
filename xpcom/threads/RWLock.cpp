@@ -473,6 +473,10 @@ failed
 endif
 }
 }
+/
+/
+namespace
+mozilla
 #
 undef
 NativeHandle

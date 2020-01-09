@@ -233,6 +233,10 @@ struct
 GamepadPoseState
 ;
 }
+/
+/
+namespace
+dom
 namespace
 gfx
 {
@@ -618,6 +622,8 @@ asserted
 to
 be
 POD
+/
+/
 types
 so
 memcmp
@@ -926,6 +932,8 @@ type
 so
 memcmp
 is
+/
+/
 safe
 return
 mType

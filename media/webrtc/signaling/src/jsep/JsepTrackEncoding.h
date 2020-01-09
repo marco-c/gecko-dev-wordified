@@ -376,6 +376,10 @@ mCodecs
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

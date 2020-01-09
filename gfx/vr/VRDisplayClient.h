@@ -353,9 +353,9 @@ mDisplayInfo
 .
 mControllerState
 and
+/
+/
 mLastEventControllerState
-/
-/
 determines
 what
 gamepad
@@ -363,6 +363,8 @@ events
 to
 fire
 when
+/
+/
 updated
 .
 VRControllerState

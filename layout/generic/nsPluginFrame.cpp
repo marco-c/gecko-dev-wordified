@@ -1934,10 +1934,10 @@ widget
 because
 some
 plugins
+/
+/
 will
 use
-/
-/
 the
 child
 window
@@ -1951,14 +1951,14 @@ it
 '
 s
 not
+/
+/
 set
 it
 may
 default
 to
 gray
-/
-/
 Sometimes
 a
 frame
@@ -1968,6 +1968,8 @@ t
 have
 a
 background
+/
+/
 color
 or
 is
@@ -1975,8 +1977,6 @@ transparent
 .
 In
 this
-/
-/
 case
 walk
 up
@@ -1986,6 +1986,8 @@ tree
 until
 we
 do
+/
+/
 find
 a
 frame
@@ -2365,6 +2367,8 @@ updates
 should
 not
 be
+"
+"
 toplevel
 "
 )
@@ -5675,6 +5679,8 @@ should
 pixel
 -
 snap
+/
+/
 this
 return
 aFrame
@@ -8017,6 +8023,8 @@ Should
 we
 do
 the
+/
+/
 same
 ?
 /
@@ -9533,6 +9541,8 @@ surviving
 object
 is
 nulled
+/
+/
 out
 .
 }

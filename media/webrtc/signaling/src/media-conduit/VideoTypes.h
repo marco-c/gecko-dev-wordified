@@ -374,5 +374,9 @@ kVideoUnknown
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

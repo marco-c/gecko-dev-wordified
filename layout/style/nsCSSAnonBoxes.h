@@ -613,6 +613,7 @@ CSS_WRAPPER_ANON_BOX
 _name
 _value
 )
+\
 nsGkAtoms
 :
 :
@@ -729,7 +730,6 @@ nsCSSAnonBoxPseudoStaticAtom
 name_
 (
 )
-\
 {
 \
 return

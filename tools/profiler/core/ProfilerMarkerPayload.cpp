@@ -1065,6 +1065,8 @@ mUniqueStrings
 WriteElement
 (
 aWriter
+/
+/
 typeString
 )
 ;

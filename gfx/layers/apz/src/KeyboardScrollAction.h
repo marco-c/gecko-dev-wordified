@@ -169,6 +169,7 @@ performed
 on
 a
 scrollable
+*
 layer
 .
 *

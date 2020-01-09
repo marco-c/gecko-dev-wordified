@@ -306,6 +306,8 @@ Implementation
 /
 /
 /
+/
+/
 namespace
 mozilla
 {
@@ -499,6 +501,8 @@ NS_OK
 /
 /
 nsPIBoxObject
+/
+/
 /
 /
 /

@@ -1716,6 +1716,8 @@ handlers
 .
 In
 both
+/
+/
 cases
 the
 union
@@ -2291,9 +2293,9 @@ using
 a
 separate
 XBL
+/
+/
 scope
-/
-/
 we
 '
 ll
@@ -2308,9 +2310,9 @@ a
 cross
 -
 compartment
+/
+/
 wrapper
-/
-/
 to
 the
 bound
@@ -4060,6 +4062,8 @@ what
 objects
 might
 have
+/
+/
 controllers
 .
 nsCOMPtr
@@ -4237,9 +4241,9 @@ name
 and
 using
 supportscommand
+/
+/
 and
-/
-/
 iscommandenabled
 .
 nsCOMPtr
@@ -4979,6 +4983,8 @@ that
 we
 '
 re
+/
+/
 "
 keypress
 "

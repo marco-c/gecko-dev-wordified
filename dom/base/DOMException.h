@@ -260,11 +260,12 @@ define
 MOZILLA_EXCEPTION_IID
 \
 {
+\
 0x55eda557
 0xeba0
 0x4fe3
-\
 {
+\
 0xae
 0x2e
 0xf3
@@ -273,7 +274,9 @@ MOZILLA_EXCEPTION_IID
 0x23
 0x62
 0xd6
+\
 }
+\
 }
 class
 Exception

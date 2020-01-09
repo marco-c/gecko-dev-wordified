@@ -163,9 +163,9 @@ interface
 .
 Base
 class
+*
 for
 message
-*
 managers
 that
 are
@@ -231,9 +231,9 @@ be
 called
 on
 the
+*
 parent
 manager
-*
 first
 .
 *

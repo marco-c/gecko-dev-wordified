@@ -2250,10 +2250,10 @@ VRDisplay
 .
 getPose
 and
+*
 VRDisplay
 .
 getFrameData
-*
 must
 return
 the
@@ -2262,6 +2262,7 @@ values
 until
 the
 next
+*
 VRDisplay
 .
 submitFrame
@@ -2328,8 +2329,8 @@ never
 end
 and
 we
-should
 *
+should
 return
 the
 latest
@@ -4734,8 +4735,8 @@ this
 is
 the
 first
-iteration
 *
+iteration
 and
 an
 offset

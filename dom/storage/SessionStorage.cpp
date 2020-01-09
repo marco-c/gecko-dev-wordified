@@ -179,10 +179,10 @@ h
 #
 define
 DATASET
+\
 IsSessionOnly
 (
 )
-\
 ?
 SessionStorageCache
 :
@@ -875,10 +875,10 @@ mCache
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

@@ -204,9 +204,9 @@ will
 be
 ignored
 by
+/
+/
 gfxTextRun
-/
-/
 and
 discarding
 it
@@ -220,9 +220,9 @@ in
 many
 cases
 of
+/
+/
 preformatted
-/
-/
 text
 containing
 \

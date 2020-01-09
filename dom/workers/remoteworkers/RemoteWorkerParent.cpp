@@ -254,7 +254,7 @@ mContentParent
 }
 /
 /
-anonymous
+namespace
 RemoteWorkerParent
 :
 :
@@ -675,10 +675,10 @@ aController
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

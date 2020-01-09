@@ -8609,6 +8609,9 @@ tv_nsec
 }
 }
 /
+/
+namespace
+/
 *
 Data
 structure
@@ -9487,9 +9490,9 @@ of
 sigaction
 if
 it
+*
 exists
 .
-*
 Bug
 1154803
 *

@@ -849,9 +849,9 @@ interface
 of
 ExtractDataAsync
 and
+*
 ExtractDataFromLayersImageAsync
 .
-*
 ReceiveBlob
 (
 )
@@ -861,6 +861,7 @@ on
 main
 thread
 when
+*
 encoding
 is
 complete

@@ -141,11 +141,12 @@ define
 NS_THROTTLEDEVENTQUEUE_IID
 \
 {
+\
 0x8f3cf7dc
 0xfc14
 0x4ad5
-\
 {
+\
 0x9f
 0xd5
 0xdb
@@ -154,7 +155,9 @@ NS_THROTTLEDEVENTQUEUE_IID
 0xe6
 0xd5
 0x08
+\
 }
+\
 }
 namespace
 mozilla

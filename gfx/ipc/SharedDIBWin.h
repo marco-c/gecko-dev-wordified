@@ -342,10 +342,12 @@ aHdr
 }
 /
 /
+namespace
 gfx
 }
 /
 /
+namespace
 mozilla
 #
 endif

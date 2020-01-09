@@ -360,10 +360,10 @@ audio
 dynamics
 compression
 effect
+/
+/
 such
 as
-/
-/
 is
 commonly
 used
@@ -377,9 +377,9 @@ audio
 It
 lowers
 the
+/
+/
 volume
-/
-/
 of
 the
 loudest
@@ -393,10 +393,10 @@ the
 volume
 of
 the
+/
+/
 softest
 parts
-/
-/
 making
 the
 sound

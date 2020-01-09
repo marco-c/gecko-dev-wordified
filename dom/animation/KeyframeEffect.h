@@ -384,6 +384,10 @@ struct
 AnimationPropertyDetails
 ;
 }
+/
+/
+namespace
+dom
 struct
 AnimationProperty
 {

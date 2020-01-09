@@ -265,7 +265,7 @@ gClearSiteData
 }
 /
 /
-anonymous
+namespace
 /
 /
 This

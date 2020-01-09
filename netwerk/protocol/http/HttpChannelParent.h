@@ -236,11 +236,12 @@ define
 HTTP_CHANNEL_PARENT_IID
 \
 {
+\
 0x982b2372
 0x7aa5
 0x4e8a
-\
 {
+\
 0xbd
 0x9f
 0x89
@@ -249,7 +250,9 @@ HTTP_CHANNEL_PARENT_IID
 0xf0
 0x58
 0xeb
+\
 }
+\
 }
 namespace
 mozilla
@@ -1807,6 +1810,8 @@ means
 redirection
 is
 not
+/
+/
 started
 .
 uint32_t

@@ -129,9 +129,7 @@ Clone
 )
 const
 override
-\
 {
-\
 return
 new
 T
@@ -140,7 +138,6 @@ T
 this
 )
 ;
-\
 }
 /
 /

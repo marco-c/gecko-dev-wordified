@@ -154,11 +154,12 @@ define
 NS_ICONTENTITERATOR_IID
 \
 {
+\
 0x2550078e
 0xae87
 0x4914
-\
 {
+\
 0xb3
 0x04
 0xe4
@@ -167,7 +168,9 @@ NS_ICONTENTITERATOR_IID
 0x19
 0x3d
 0x5f
+\
 }
+\
 }
 class
 nsIContentIterator
@@ -475,10 +478,10 @@ the
 beginning
 following
 a
+*
 call
 to
 Prev
-*
 and
 it
 is

@@ -164,11 +164,11 @@ during
 the
 implementation
 of
+/
+/
 this
 as
 it
-/
-/
 is
 used
 in
@@ -229,5 +229,9 @@ this
 ;
 }
 }
+/
+/
+namespace
+js
 #
 endif

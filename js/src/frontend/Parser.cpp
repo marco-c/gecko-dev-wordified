@@ -2821,6 +2821,8 @@ that
 isn
 '
 t
+/
+/
 there
 .
 if
@@ -5232,6 +5234,8 @@ keyword
 and
 never
 a
+/
+/
 name
 .
 MOZ_ASSERT
@@ -9430,6 +9434,8 @@ function
 box
 scope
 that
+"
+"
 allows
 super
 .
@@ -12943,6 +12949,8 @@ use
 strict
 '
 directive
+"
+"
 is
 present
 "
@@ -19669,6 +19677,8 @@ use
 strict
 '
 directive
+"
+"
 is
 present
 "
@@ -23776,6 +23786,8 @@ which
 belongs
 to
 a
+"
+"
 different
 parser
 "
@@ -58232,6 +58244,8 @@ modifier
 Callers
 should
 inspect
+/
+/
 currentToken
 (
 )
@@ -59851,6 +59865,8 @@ TokenKind
 :
 :
 RightParen
+/
+/
 above
 .
 return

@@ -958,10 +958,10 @@ clean
 up
 at
 thread
+/
+/
 exit
 .
-/
-/
 Therefore
 even
 though
@@ -975,12 +975,12 @@ return
 value
 from
 the
+/
+/
 watchdog
 we
 need
 to
-/
-/
 join
 it
 on
@@ -1377,6 +1377,7 @@ max_chrome_script_run_time
 #
 define
 PREF_MAX_SCRIPT_RUN_TIME_EXT_CONTENT
+\
 "
 dom
 .
@@ -2643,6 +2644,8 @@ it
 with
 the
 thread
+/
+/
 manager
 .
 Unused
@@ -2733,6 +2736,8 @@ currently
 active
 ;
 otherwise
+/
+/
 hibernate
 if
 (

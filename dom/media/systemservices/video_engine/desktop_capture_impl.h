@@ -246,6 +246,8 @@ screen
 /
 application
 and
+/
+/
 real
 screen
 /
@@ -1079,6 +1081,8 @@ platform
 dependent
 code
 in
+/
+/
 StartCapture
 .
 private
@@ -1144,6 +1148,8 @@ be
 rotated
 by
 the
+/
+/
 capture
 module
 .

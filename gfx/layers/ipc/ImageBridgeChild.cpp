@@ -640,13 +640,13 @@ using
 base
 :
 :
-Thread
+ProcessId
 ;
 using
 base
 :
 :
-ProcessId
+Thread
 ;
 using
 namespace
@@ -1088,6 +1088,8 @@ RECYCLE
 is
 set
 on
+/
+/
 ImageBridge
 .
 if
@@ -2816,6 +2818,8 @@ before
 we
 connect
 to
+/
+/
 IPDL
 .
 {
@@ -3404,6 +3408,8 @@ before
 we
 connect
 to
+/
+/
 IPDL
 .
 {
@@ -3569,6 +3575,8 @@ before
 we
 connect
 to
+/
+/
 IPDL
 .
 {
@@ -3873,6 +3881,8 @@ whithout
 holding
 mContainerMapLock
 to
+/
+/
 avoid
 deadlock
 .

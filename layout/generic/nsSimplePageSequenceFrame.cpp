@@ -4382,9 +4382,9 @@ prints
 the
 page
 number
+/
+/
 starting
-/
-/
 with
 the
 first
@@ -4399,9 +4399,9 @@ if
 the
 user
 has
+/
+/
 a
-/
-/
 selection
 that
 starts
@@ -4434,9 +4434,9 @@ printing
 a
 page
 range
+/
+/
 where
-/
-/
 the
 page
 numbers

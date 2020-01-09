@@ -216,11 +216,12 @@ define
 NS_NULLPRINCIPALURI_IMPLEMENTATION_CID
 \
 {
+\
 0x51fcd543
 0x3b52
 0x41f7
-\
 {
+\
 0xb9
 0x1b
 0x6b
@@ -229,7 +230,9 @@ NS_NULLPRINCIPALURI_IMPLEMENTATION_CID
 0x22
 0x36
 0xe6
+\
 }
+\
 }
 namespace
 mozilla
@@ -600,8 +603,8 @@ NullPrincipalURI
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 /

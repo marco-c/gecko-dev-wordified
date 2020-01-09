@@ -2203,6 +2203,7 @@ _expected
 \
 MOZ_ASSERT
 (
+\
 mozilla
 :
 :
@@ -5810,6 +5811,8 @@ vertical
 -
 align
 :
+/
+/
 baseline
 '
 aDesiredSize
@@ -5946,6 +5949,8 @@ rowalign
 =
 axis
 to
+/
+/
 work
 better
 nscoord
@@ -5984,6 +5989,8 @@ vertical
 -
 align
 :
+/
+/
 baseline
 '
 aDesiredSize
@@ -6230,6 +6237,8 @@ to
 pick
 up
 any
+/
+/
 changes
 PresContext
 (

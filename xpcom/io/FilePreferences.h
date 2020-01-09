@@ -203,11 +203,17 @@ aNormalized
 )
 ;
 }
+/
+/
+namespace
+testing
 }
 /
 /
+namespace
 FilePreferences
 }
 /
 /
+namespace
 mozilla

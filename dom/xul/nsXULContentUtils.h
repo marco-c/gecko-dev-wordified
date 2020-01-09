@@ -144,6 +144,10 @@ Element
 ;
 }
 }
+/
+/
+namespace
+mozilla
 class
 nsXULContentUtils
 {

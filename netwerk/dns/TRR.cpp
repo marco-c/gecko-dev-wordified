@@ -333,6 +333,7 @@ define
 LOG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 mozilla
@@ -1175,10 +1176,10 @@ Address
 Family
 Numbers
 registry
+/
+/
 not
 the
-/
-/
 AF_
 *
 constants
@@ -2011,9 +2012,9 @@ t
 pipeline
 a
 window
+/
+/
 update
-/
-/
 with
 each
 HEADERS
@@ -5063,6 +5064,8 @@ addresses
 or
 unknown
 IP
+"
+"
 family
 \
 n
@@ -5334,6 +5337,8 @@ by
 that
 many
 data
+/
+/
 bytes
 nsAutoCString
 txt
@@ -7691,4 +7696,12 @@ LOG
 /
 namespace
 }
+/
+/
+namespace
+net
 }
+/
+/
+namespace
+mozilla

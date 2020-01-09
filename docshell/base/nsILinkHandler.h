@@ -153,11 +153,12 @@ define
 NS_ILINKHANDLER_IID
 \
 {
+\
 0xceb9aade
 0x43da
 0x4f1a
-\
 {
+\
 0xac
 0x8a
 0xc7
@@ -166,7 +167,9 @@ NS_ILINKHANDLER_IID
 0x22
 0x46
 0x64
+\
 }
+\
 }
 /
 *
@@ -262,6 +265,7 @@ downloaded
 as
 the
 given
+*
 file
 *
 param
@@ -433,6 +437,7 @@ downloaded
 as
 the
 given
+*
 file
 *
 param

@@ -1090,7 +1090,6 @@ if
 !
 ok_
 )
-\
 return
 (
 cx
@@ -1192,7 +1191,6 @@ isErr
 (
 )
 )
-\
 return
 (
 cx
@@ -1310,7 +1308,6 @@ isErr
 (
 )
 )
-\
 return
 (
 cx
@@ -1431,10 +1428,10 @@ the
 moment
 this
 only
+*
 "
 represents
 "
-*
 an
 error
 in

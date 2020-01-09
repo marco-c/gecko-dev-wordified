@@ -1098,7 +1098,6 @@ __VA_ARGS__
 \
 inline
 bool
-\
 operator
 =
 =
@@ -1108,7 +1107,6 @@ lhs
 type2
 rhs
 )
-\
 {
 \
 return
@@ -1125,7 +1123,6 @@ __VA_ARGS__
 \
 inline
 bool
-\
 operator
 =
 =
@@ -1135,7 +1132,6 @@ lhs
 type1
 rhs
 )
-\
 {
 \
 return
@@ -1155,7 +1151,6 @@ __VA_ARGS__
 \
 inline
 bool
-\
 operator
 !
 =
@@ -1165,7 +1160,6 @@ lhs
 type2
 rhs
 )
-\
 {
 \
 return
@@ -1188,7 +1182,6 @@ __VA_ARGS__
 \
 inline
 bool
-\
 operator
 !
 =
@@ -1198,7 +1191,6 @@ lhs
 type1
 rhs
 )
-\
 {
 \
 return

@@ -340,7 +340,6 @@ _Macro
 (
 Assert
 )
-\
 _Macro
 (
 AssertBytes
@@ -397,6 +396,7 @@ library
 API
 (
 see
+\
 Callback
 .
 h
@@ -1472,7 +1472,6 @@ aSpewing
 static
 inline
 void
-\
 aName
 (
 const
@@ -1483,7 +1482,6 @@ aFormat
 .
 .
 )
-\
 {
 \
 if
@@ -1500,6 +1498,7 @@ IsMiddleman
 )
 &
 &
+\
 (
 !
 aSpewing
@@ -1802,7 +1801,6 @@ ForEachTimerKind
 (
 Macro
 )
-\
 Macro
 (
 Default
@@ -3045,10 +3043,12 @@ aArgument
 }
 /
 /
+namespace
 recordreplay
 }
 /
 /
+namespace
 mozilla
 #
 endif

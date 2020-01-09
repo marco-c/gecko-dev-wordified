@@ -170,6 +170,7 @@ factory
 #
 define
 PLUGIN_DLF_CONTRACTID
+\
 "
 mozilla
 .

@@ -260,7 +260,6 @@ RegTotal
 walk
 )
 )
-\
 continue
 ;
 \
@@ -363,6 +362,7 @@ Total
 ;
 \
 }
+\
 while
 (
 index

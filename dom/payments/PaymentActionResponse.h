@@ -568,8 +568,7 @@ mBillingAddress
 }
 /
 /
-end
-of
+namespace
 dom
 }
 /

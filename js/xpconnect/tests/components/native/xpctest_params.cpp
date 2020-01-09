@@ -104,6 +104,7 @@ nsXPCTestParams
 #
 define
 GENERIC_METHOD_IMPL
+\
 {
 \
 *
@@ -127,6 +128,7 @@ NS_OK
 #
 define
 STRING_METHOD_IMPL
+\
 {
 \
 _retval
@@ -156,6 +158,7 @@ SEQUENCE_METHOD_IMPL
 (
 TAKE_OWNERSHIP
 )
+\
 {
 \
 _retval
@@ -190,7 +193,6 @@ Length
 +
 i
 )
-\
 TAKE_OWNERSHIP
 (
 b
@@ -211,6 +213,7 @@ TAKE_OWNERSHIP_NOOP
 (
 val
 )
+\
 {
 }
 #
@@ -219,6 +222,7 @@ TAKE_OWNERSHIP_INTERFACE
 (
 val
 )
+\
 {
 static_cast
 <
@@ -241,6 +245,7 @@ TAKE_OWNERSHIP_STRING
 (
 val
 )
+\
 {
 \
 nsDependentCString
@@ -265,6 +270,7 @@ TAKE_OWNERSHIP_WSTRING
 (
 val
 )
+\
 {
 \
 nsDependentString
@@ -350,6 +356,7 @@ type
 padding
 TAKE_OWNERSHIP
 )
+\
 {
 \
 uint32_t
@@ -523,7 +530,6 @@ padding
 +
 i
 )
-\
 TAKE_OWNERSHIP
 (
 (
@@ -812,12 +818,12 @@ inout
 params
 must
 be
+/
+/
 callee
 -
 freed
 .
-/
-/
 See
 https
 :
@@ -932,12 +938,12 @@ inout
 params
 must
 be
+/
+/
 callee
 -
 freed
 .
-/
-/
 See
 https
 :
@@ -1795,6 +1801,8 @@ re
 -
 use
 code
+/
+/
 here
 .
 /

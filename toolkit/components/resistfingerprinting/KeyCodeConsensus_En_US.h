@@ -109,9 +109,9 @@ en
 US
 for
 fingerprinting
+*
 resistance
 .
-*
 When
 privacy
 .
@@ -124,8 +124,8 @@ the
 user
 '
 s
-keyboard
 *
+keyboard
 layout
 according
 to

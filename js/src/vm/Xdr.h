@@ -880,6 +880,8 @@ section
 encoded
 by
 an
+/
+/
 XDRIncrementalEncoder
 .
 /
@@ -3356,9 +3358,9 @@ multiple
 times
 the
 same
+/
+/
 AutoXDRTree
-/
-/
 and
 uses
 its

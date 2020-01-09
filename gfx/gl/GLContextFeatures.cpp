@@ -1402,6 +1402,8 @@ ARB_occlusion_query
 (
 added
 in
+/
+/
 OpenGL
 2
 .
@@ -1526,8 +1528,8 @@ is
 provided
 by
 ARB_occlusion_query2
-EXT_occlusion_query_boolean
 *
+EXT_occlusion_query_boolean
 (
 added
 in
@@ -1538,6 +1540,7 @@ ES
 0
 )
 and
+*
 ARB_ES3_compatibility
 *
 /
@@ -1728,8 +1731,8 @@ OpenGL
 .
 0
 )
-EXT_occlusion_query_boolean
 *
+EXT_occlusion_query_boolean
 (
 added
 in
@@ -1740,6 +1743,7 @@ ES
 0
 )
 and
+*
 ARB_timer_query
 (
 added

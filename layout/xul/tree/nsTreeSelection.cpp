@@ -2443,9 +2443,9 @@ selected
 range
 from
 the
+/
+/
 selection
-/
-/
 and
 then
 we
@@ -3316,6 +3316,7 @@ nsTreeRange
 *
 macro_new_range
 =
+\
 new
 nsTreeRange
 (
@@ -3419,6 +3420,8 @@ shift
 select
 pivot
 reset
+/
+/
 it
 if
 (
@@ -3862,6 +3865,8 @@ by
 not
 adding
 it
+/
+/
 to
 the
 newRange
@@ -3882,6 +3887,8 @@ the
 middle
 of
 it
+/
+/
 so
 trim
 the
@@ -3925,6 +3932,8 @@ current
 range
 and
 contains
+/
+/
 the
 end
 of

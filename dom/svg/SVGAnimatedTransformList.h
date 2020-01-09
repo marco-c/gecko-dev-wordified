@@ -370,9 +370,9 @@ each
 time
 it
 is
+*
 requested
 .
-*
 The
 cached
 object
@@ -385,9 +385,9 @@ cache
 when
 it
 is
+*
 destroyed
 due
-*
 to
 there
 being
@@ -401,8 +401,8 @@ to
 any
 of
 its
-descendant
 *
+descendant
 objects
 .
 If
@@ -414,8 +414,8 @@ call
 requesting
 the
 DOM
-wrapper
 *
+wrapper
 for
 the
 nsSVGAnimatedTransformList

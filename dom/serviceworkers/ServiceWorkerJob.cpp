@@ -1085,6 +1085,8 @@ TypeErr
 or
 InvalidStateErr
 to
+/
+/
 script
 .
 if

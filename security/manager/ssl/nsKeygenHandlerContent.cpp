@@ -193,6 +193,12 @@ using
 mozilla
 :
 :
+Unused
+;
+using
+mozilla
+:
+:
 dom
 :
 :
@@ -206,12 +212,6 @@ dom
 :
 :
 Element
-;
-using
-mozilla
-:
-:
-Unused
 ;
 NS_IMPL_ISUPPORTS
 (

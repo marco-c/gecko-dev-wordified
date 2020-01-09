@@ -332,9 +332,9 @@ the
 stub
 reg
 and
+/
+/
 previous
-/
-/
 frame
 pointer
 pushed

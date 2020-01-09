@@ -413,6 +413,9 @@ aChannel
 ;
 }
 }
+/
+/
+namespace
 namespace
 mozilla
 {

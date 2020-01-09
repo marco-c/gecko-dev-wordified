@@ -578,6 +578,7 @@ GetFirstChild
 (
 )
 and
+*
 GetPrevSibling
 (
 )
@@ -585,7 +586,6 @@ GetPrevSibling
 GetLastChild
 (
 )
-*
 respectively
 .
 *
@@ -1768,7 +1768,15 @@ result
 ;
 }
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

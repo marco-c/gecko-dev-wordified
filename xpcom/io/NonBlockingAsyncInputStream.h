@@ -437,8 +437,8 @@ mClosed
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 /

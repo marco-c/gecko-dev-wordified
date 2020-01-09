@@ -120,7 +120,7 @@ mozilla
 intl
 :
 :
-WordBreaker
+WordBreakClass
 ;
 using
 mozilla
@@ -129,7 +129,7 @@ mozilla
 intl
 :
 :
-WordBreakClass
+WordBreaker
 ;
 using
 mozilla
@@ -290,6 +290,7 @@ ASCII_IS_ALPHA
 (
 c
 )
+\
 (
 (
 (
@@ -378,6 +379,7 @@ ASCII_IS_SPACE
 (
 c
 )
+\
 (
 (
 '
@@ -455,6 +457,8 @@ to
 0x3400
 to
 relfect
+/
+/
 Unicode
 3
 .
@@ -465,6 +469,7 @@ IS_HAN
 (
 c
 )
+\
 (
 (
 0x3400
@@ -1082,6 +1087,8 @@ breaker
 to
 find
 a
+/
+/
 shorter
 answer
 }
@@ -1204,6 +1211,8 @@ breaker
 to
 find
 a
+/
+/
 shorter
 answer
 }

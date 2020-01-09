@@ -3067,6 +3067,7 @@ combination
 of
 aRootNode
 +
+*
 aFunc
 +
 aDataString

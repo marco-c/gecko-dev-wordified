@@ -196,6 +196,10 @@ class
 nsIContentParent
 ;
 }
+/
+/
+namespace
+dom
 namespace
 extensions
 {
@@ -340,7 +344,15 @@ mChannelEntries
 }
 ;
 }
+/
+/
+namespace
+extensions
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

@@ -1432,6 +1432,8 @@ strings
 usually
 terminated
 by
+/
+/
 an
 empty
 string
@@ -1440,8 +1442,6 @@ string
 0
 )
 .
-/
-/
 RegGetValue
 ensures
 that
@@ -1449,6 +1449,8 @@ the
 value
 is
 properly
+/
+/
 terminated
 with
 a
@@ -4347,9 +4349,9 @@ SysWOW64
 directories
 .
 But
+/
+/
 UserModeDriverName
-/
-/
 (
 or
 UserModeDriverNameWow
@@ -4358,6 +4360,8 @@ available
 )
 might
 provide
+/
+/
 the
 full
 path
@@ -4366,8 +4370,6 @@ the
 DLL
 in
 some
-/
-/
 DriverStore
 FileRepository
 .
@@ -5894,6 +5896,7 @@ the
 mDeviceID
 string
 to
+*
 try
 to
 find
@@ -6790,6 +6793,8 @@ might
 not
 even
 be
+/
+/
 required
 .
 APPEND_TO_DRIVER_BLOCKLIST_RANGE
@@ -7442,10 +7447,10 @@ Parity
 Check
 /
 Memory
+*
 Parity
 Error
 "
-*
 bugs
 584403
 584404
@@ -7583,8 +7588,8 @@ ruleId
 \
 APPEND_TO_DRIVER_BLOCKLIST2
 (
-winVer
 \
+winVer
 (
 nsAString
 &
@@ -7596,6 +7601,7 @@ GetDeviceVendor
 (
 VendorIntel
 )
+\
 (
 GfxDeviceFamily
 *
@@ -7628,13 +7634,14 @@ IMPLEMENT_INTEL_DRIVER_BLOCKLIST_D2D
 winVer
 devFamily
 driverVer
+\
 ruleId
 )
 \
 APPEND_TO_DRIVER_BLOCKLIST2
 (
-winVer
 \
+winVer
 (
 nsAString
 &
@@ -7646,6 +7653,7 @@ GetDeviceVendor
 (
 VendorIntel
 )
+\
 (
 GfxDeviceFamily
 *
@@ -7662,12 +7670,13 @@ nsIGfxInfo
 :
 :
 FEATURE_DIRECT2D
+\
 nsIGfxInfo
 :
 :
 FEATURE_BLOCKED_DRIVER_VERSION
-\
 DRIVER_BUILD_ID_LESS_THAN
+\
 driverVer
 ruleId
 )
@@ -7763,9 +7772,9 @@ devices
 because
 of
 rendering
+*
 corruption
 discovered
-*
 in
 bug
 1180379
@@ -7777,6 +7786,7 @@ affect
 even
 the
 most
+*
 recent
 drivers
 .
@@ -7785,7 +7795,6 @@ We
 re
 black
 listing
-*
 all
 of
 the
@@ -7794,6 +7803,7 @@ to
 be
 safe
 even
+*
 though
 we
 '
@@ -8166,6 +8176,7 @@ HD
 for
 graphics
 drivers
+*
 <
 =
 8
@@ -8176,7 +8187,6 @@ drivers
 .
 2321
 .
-*
 See
 bug
 1018278
@@ -8256,9 +8266,9 @@ build
 id
 <
 =
+*
 4578
 .
-*
 See
 bug
 1432610
@@ -8551,13 +8561,13 @@ and
 Intel
 GM965
 Intel
+*
 X3100
 for
 causing
 device
 resets
 .
-*
 See
 bug
 1116812
@@ -8625,11 +8635,11 @@ to
 allocate
 a
 shared
+*
 handle
 for
 textures
 .
-*
 See
 bug
 1207665
@@ -8642,6 +8652,7 @@ we
 don
 '
 t
+*
 accidentally
 use
 WARP
@@ -9470,9 +9481,9 @@ matching
 Intel
 piece
 as
+*
 well
 .
-*
 Unfortunately
 we
 don
@@ -9571,6 +9582,7 @@ These
 may
 be
 fixed
+*
 by
 an
 ANGLE
@@ -11154,10 +11166,10 @@ used
 in
 xpcshell
 tests
+/
+/
 introduced
 by
-/
-/
 bug
 625160
 patch
@@ -11171,6 +11183,8 @@ tests
 need
 to
 be
+/
+/
 adjusted
 now
 that
@@ -11179,8 +11193,6 @@ we
 re
 only
 whitelisting
-/
-/
 intel
 /
 ati

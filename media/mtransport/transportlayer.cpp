@@ -359,5 +359,5 @@ state
 }
 /
 /
-close
 namespace
+mozilla

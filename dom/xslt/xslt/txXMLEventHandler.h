@@ -721,7 +721,6 @@ attribute
 nsAtom
 *
 aPrefix
-\
 const
 nsAString
 &
@@ -730,12 +729,12 @@ aLocalName
 const
 int32_t
 aNsID
-\
 const
 nsString
 &
 aValue
 )
+\
 override
 ;
 \
@@ -817,7 +816,6 @@ startElement
 nsAtom
 *
 aPrefix
-\
 nsAtom
 *
 aLocalName
@@ -825,10 +823,10 @@ aLocalName
 nsAtom
 *
 aLowercaseLocalName
-\
 int32_t
 aNsID
 )
+\
 override
 ;
 \
@@ -839,7 +837,6 @@ startElement
 nsAtom
 *
 aPrefix
-\
 const
 nsAString
 &
@@ -1084,7 +1081,6 @@ createHandlerWith
 txOutputFormat
 *
 aFormat
-\
 const
 nsAString
 &
@@ -1092,12 +1088,12 @@ aName
 \
 int32_t
 aNsID
-\
 txAXMLEventHandler
 *
 *
 aHandler
 )
+\
 override
 ;
 #

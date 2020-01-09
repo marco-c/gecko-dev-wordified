@@ -1548,9 +1548,9 @@ a
 GC
 so
 the
+/
+/
 object
-/
-/
 must
 be
 rooted
@@ -1567,10 +1567,10 @@ to
 make
 our
 callers
+/
+/
 pass
 a
-/
-/
 HandleObject
 but
 that
@@ -1583,9 +1583,9 @@ the
 cost
 of
 rooting
+/
+/
 the
-/
-/
 object
 unconditionally
 even

@@ -158,6 +158,10 @@ webSocketLog
 ;
 }
 }
+/
+/
+namespace
+mozilla
 #
 undef
 LOG
@@ -167,6 +171,7 @@ LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 mozilla

@@ -157,11 +157,12 @@ define
 NS_IRADIOGROUPCONTAINER_IID
 \
 {
+\
 0x800320a0
 0x733f
 0x11e4
-\
 {
+\
 0x82
 0xf8
 0x08
@@ -170,7 +171,9 @@ NS_IRADIOGROUPCONTAINER_IID
 0x0c
 0x9a
 0x66
+\
 }
+\
 }
 /
 *

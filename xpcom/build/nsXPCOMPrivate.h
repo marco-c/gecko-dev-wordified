@@ -231,9 +231,9 @@ which
 was
 returned
 by
+*
 NS_InitXPCOM
 .
-*
 This
 will
 release

@@ -649,6 +649,7 @@ has
 no
 associated
 X
+*
 display
 *
 param
@@ -702,8 +703,8 @@ be
 the
 pixels
 drawn
-into
 *
+into
 the
 Drawable
 must
@@ -716,8 +717,8 @@ contents
 of
 the
 Drawable
-*
 in
+*
 any
 way
 *

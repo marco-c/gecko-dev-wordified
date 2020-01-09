@@ -241,12 +241,12 @@ AnimationImageKeyData
 /
 /
 namespace
-mozilla
+layers
 }
 /
 /
 namespace
-layers
+mozilla
 template
 <
 >

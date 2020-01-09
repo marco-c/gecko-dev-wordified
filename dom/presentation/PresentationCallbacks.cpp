@@ -910,12 +910,12 @@ or
 is
 receiving
 data
+/
+/
 (
 |
 STATE_TRANSFERRING
 |
-/
-/
 has
 already
 been
@@ -927,6 +927,8 @@ page
 is
 ready
 for
+/
+/
 presentation
 use
 .

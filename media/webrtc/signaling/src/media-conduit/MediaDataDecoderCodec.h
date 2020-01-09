@@ -167,6 +167,10 @@ aCodecType
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

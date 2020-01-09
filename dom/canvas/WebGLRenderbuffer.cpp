@@ -387,10 +387,10 @@ calling
 FramebufferRenderbuffer
 before
 we
+/
+/
 ever
 call
-/
-/
 BindRenderbuffer
 since
 webgl
@@ -400,9 +400,9 @@ doesn
 '
 t
 actually
+/
+/
 call
-/
-/
 glBindRenderbuffer
 anymore
 .

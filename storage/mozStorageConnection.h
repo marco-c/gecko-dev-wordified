@@ -571,8 +571,8 @@ open
 or
 create
 if
-it
 *
+it
 does
 not
 exist
@@ -1063,8 +1063,8 @@ MUST
 be
 thread
 it
-is
 *
+is
 closed
 on
 .
@@ -1232,8 +1232,8 @@ aStatement
 while
 properly
 handling
-SQLITE_LOCKED
 *
+SQLITE_LOCKED
 when
 not
 on
@@ -1621,6 +1621,7 @@ lock
 instead
 of
 locking
+*
 internally
 .
 *

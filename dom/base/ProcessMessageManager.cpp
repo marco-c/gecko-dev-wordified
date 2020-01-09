@@ -235,9 +235,9 @@ only
 if
 we
 have
+/
+/
 a
-/
-/
 callback
 (
 which
@@ -254,11 +254,11 @@ manager
 .
 For
 other
+/
+/
 cases
 we
 wait
-/
-/
 until
 the
 child
@@ -267,6 +267,8 @@ is
 running
 (
 see
+/
+/
 MessageSender
 :
 :

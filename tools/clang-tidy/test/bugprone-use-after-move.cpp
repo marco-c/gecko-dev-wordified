@@ -175,6 +175,10 @@ __t
 ;
 }
 }
+/
+/
+namespace
+std
 class
 A
 {

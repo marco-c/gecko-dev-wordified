@@ -2489,7 +2489,7 @@ mozilla
 gfx
 :
 :
-SourceSurface
+IntSize
 ;
 using
 mozilla
@@ -2498,7 +2498,7 @@ mozilla
 gfx
 :
 :
-IntSize
+SourceSurface
 ;
 using
 mozilla

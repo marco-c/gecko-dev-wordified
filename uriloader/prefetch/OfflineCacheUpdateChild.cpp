@@ -332,7 +332,7 @@ mozilla
 dom
 :
 :
-TabChild
+ContentChild
 ;
 using
 mozilla
@@ -341,7 +341,7 @@ mozilla
 dom
 :
 :
-ContentChild
+TabChild
 ;
 /
 /
@@ -422,6 +422,7 @@ LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 gOfflineCacheUpdateLog
@@ -442,6 +443,7 @@ define
 LOG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 gOfflineCacheUpdateLog

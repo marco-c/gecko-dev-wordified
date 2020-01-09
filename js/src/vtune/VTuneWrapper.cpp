@@ -459,6 +459,8 @@ initialization
 and
 are
 never
+/
+/
 unloaded
 .
 void
@@ -1219,9 +1221,9 @@ instead
 they
 immediately
 end
+/
+/
 profiling
-/
-/
 with
 no
 warning
@@ -1233,11 +1235,11 @@ occurred
 This
 can
 generate
+/
+/
 misleading
 profiles
 .
-/
-/
 So
 instead
 print
@@ -1249,6 +1251,8 @@ stdout
 (
 which
 VTune
+/
+/
 does
 not
 redirect

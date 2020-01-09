@@ -165,6 +165,10 @@ class
 IpcResourceUpdateQueue
 ;
 }
+/
+/
+namespace
+wr
 namespace
 layers
 {

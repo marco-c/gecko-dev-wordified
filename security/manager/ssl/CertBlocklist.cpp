@@ -310,6 +310,7 @@ pkix
 #
 define
 PREF_BACKGROUND_UPDATE_TIMER
+\
 "
 app
 .
@@ -340,6 +341,7 @@ checked
 #
 define
 PREF_MAX_STALENESS_IN_SECONDS
+\
 "
 security
 .
@@ -1839,6 +1841,8 @@ is
 %
 s
 and
+"
+"
 pubKeyHash
 :
 %
@@ -1916,6 +1920,8 @@ is
 %
 s
 and
+"
+"
 serial
 :
 %

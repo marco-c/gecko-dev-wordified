@@ -521,9 +521,9 @@ If
 so
 make
 sure
+/
+/
 our
-/
-/
 desired
 size
 agrees
@@ -1719,6 +1719,8 @@ type
 "
 decrement
 "
+/
+/
 xbl
 :
 inherits
@@ -1730,12 +1732,12 @@ disabled
 "
 /
 >
-/
-/
 <
 xul
 :
 scrollbarbutton
+/
+/
 sbattr
 =
 "
@@ -1750,6 +1752,8 @@ type
 "
 increment
 "
+/
+/
 xbl
 :
 inherits
@@ -1761,8 +1765,6 @@ disabled
 "
 /
 >
-/
-/
 <
 xul
 :
@@ -1772,6 +1774,8 @@ flex
 "
 1
 "
+/
+/
 xbl
 :
 inherits
@@ -1798,6 +1802,8 @@ scrollbar
 -
 thumb
 "
+/
+/
 xbl
 :
 inherits
@@ -1850,6 +1856,8 @@ type
 "
 decrement
 "
+/
+/
 xbl
 :
 inherits
@@ -1861,12 +1869,12 @@ disabled
 "
 /
 >
-/
-/
 <
 xul
 :
 scrollbarbutton
+/
+/
 sbattr
 =
 "
@@ -1881,6 +1889,8 @@ type
 "
 increment
 "
+/
+/
 xbl
 :
 inherits
@@ -1938,9 +1948,9 @@ t
 create
 any
 anonymous
+/
+/
 content
-/
-/
 (
 this
 only

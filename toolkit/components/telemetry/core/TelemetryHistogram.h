@@ -154,6 +154,10 @@ JSONWriter
 }
 /
 /
+namespace
+mozilla
+/
+/
 This
 module
 is

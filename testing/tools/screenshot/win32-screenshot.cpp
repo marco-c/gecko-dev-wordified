@@ -302,9 +302,9 @@ desktop
 in
 .
 png
+*
 format
 .
-*
 If
 a
 filename

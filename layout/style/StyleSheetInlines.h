@@ -262,6 +262,10 @@ mParent
 ;
 }
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

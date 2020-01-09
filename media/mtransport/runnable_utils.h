@@ -636,6 +636,10 @@ args
 }
 ;
 }
+/
+/
+namespace
+detail
 template
 <
 typename
@@ -1643,6 +1647,7 @@ ASSERT_ON_THREAD
 (
 t
 )
+\
 do
 {
 \

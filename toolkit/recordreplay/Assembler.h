@@ -1551,10 +1551,12 @@ aSize
 }
 /
 /
+namespace
 recordreplay
 }
 /
 /
+namespace
 mozilla
 #
 endif

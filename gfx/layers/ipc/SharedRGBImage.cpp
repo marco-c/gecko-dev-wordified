@@ -939,9 +939,9 @@ a
 weak
 reference
 to
+/
+/
 the
-/
-/
 surface
 so
 we
@@ -955,6 +955,8 @@ by
 just
 referencing
 the
+/
+/
 TextureClient
 .
 if

@@ -1519,6 +1519,7 @@ true
 /
 /
 namespace
+CrashReporter
 #
 endif
 /

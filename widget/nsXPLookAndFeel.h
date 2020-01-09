@@ -220,6 +220,7 @@ IS_COLOR_CACHED
 (
 x
 )
+\
 (
 CACHE_BIT
 (
@@ -243,6 +244,7 @@ CLEAR_COLOR_CACHE
 (
 x
 )
+\
 nsXPLookAndFeel
 :
 :
@@ -283,6 +285,7 @@ CACHE_COLOR
 x
 y
 )
+\
 nsXPLookAndFeel
 :
 :
@@ -710,9 +713,9 @@ the
 longest
 string
 in
+*
 the
 array
-*
 see
 nsXPLookAndFeel
 .

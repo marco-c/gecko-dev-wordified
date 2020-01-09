@@ -88,10 +88,12 @@ define
 NS_KEYMODULEOBJECT_CID
 \
 {
+\
 0x9d383ddd
 0x6856
 0x4187
 {
+\
 0x84
 0x85
 0xf3
@@ -100,7 +102,9 @@ NS_KEYMODULEOBJECT_CID
 0xb2
 0x9a
 0x0e
+\
 }
+\
 }
 #
 define
@@ -121,10 +125,12 @@ define
 NS_KEYMODULEOBJECTFACTORY_CID
 \
 {
+\
 0x2a35dd47
 0xb026
 0x4e8d
 {
+\
 0xb6
 0xb7
 0x57
@@ -133,7 +139,9 @@ NS_KEYMODULEOBJECTFACTORY_CID
 0x1a
 0xb9
 0x02
+\
 }
+\
 }
 #
 define

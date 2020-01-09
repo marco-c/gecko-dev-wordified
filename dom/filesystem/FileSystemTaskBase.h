@@ -779,11 +779,11 @@ the
 member
 function
 of
+*
 [
 IOWork
 ]
 .
-*
 A
 I
 /

@@ -213,6 +213,7 @@ NS_MENUITEM_TYPE
 (
 bits
 )
+\
 (
 (
 bits
@@ -220,7 +221,6 @@ bits
 &
 ~
 (
-\
 NS_CHECKED_IS_TOGGLED
 |
 NS_ORIGINAL_CHECKED_VALUE

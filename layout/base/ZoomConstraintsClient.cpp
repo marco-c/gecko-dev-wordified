@@ -1501,12 +1501,12 @@ e
 width
 <
 =
+/
+/
 device
 -
 width
 )
-/
-/
 then
 we
 disable

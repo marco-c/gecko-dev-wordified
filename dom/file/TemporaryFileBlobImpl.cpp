@@ -578,7 +578,7 @@ mFile
 }
 /
 /
-anonymous
+namespace
 TemporaryFileBlobImpl
 :
 :

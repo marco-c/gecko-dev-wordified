@@ -235,12 +235,10 @@ fbab44f29bc8
 /
 \
 0x5ff24248
-\
 0x1dd2
-\
 0x11b2
-\
 {
+\
 0x84
 0x27
 0xfb
@@ -249,6 +247,7 @@ fbab44f29bc8
 0xf2
 0x9b
 0xc8
+\
 }
 \
 }
@@ -602,6 +601,8 @@ they
 are
 in
 a
+/
+/
 union
 nsITimerCallback
 *

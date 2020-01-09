@@ -621,10 +621,10 @@ be
 used
 with
 the
+/
+/
 atomics
 ;
-/
-/
 the
 former
 can
@@ -673,6 +673,8 @@ or
 use
 either
 notably
+/
+/
 AsmJS
 .
 /

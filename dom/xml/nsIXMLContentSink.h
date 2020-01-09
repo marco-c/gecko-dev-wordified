@@ -148,11 +148,12 @@ define
 NS_IXMLCONTENT_SINK_IID
 \
 {
+\
 0x63fedea0
 0x9b0f
 0x4d64
-\
 {
+\
 0x9b
 0xa5
 0x37
@@ -161,7 +162,9 @@ NS_IXMLCONTENT_SINK_IID
 0x73
 0x29
 0x35
+\
 }
+\
 }
 /
 *

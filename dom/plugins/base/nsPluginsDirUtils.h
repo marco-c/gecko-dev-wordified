@@ -204,6 +204,8 @@ NPP_GetMIMEDescription
 .
 .
 mime
+/
+/
 type
 [
 ;
@@ -222,12 +224,12 @@ desecription
 .
 .
 "
-/
-/
 The
 ambiguity
 of
 mime
+/
+/
 description
 could
 cause
@@ -239,8 +241,6 @@ parse
 the
 MIME
 types
-/
-/
 correctly
 .
 /
@@ -462,9 +462,9 @@ have
 to
 mark
 this
+/
+/
 particular
-/
-/
 mime
 type
 of
@@ -518,10 +518,10 @@ ptrMimeArray
 =
 anEmptyString
 is
+/
+/
 true
 .
-/
-/
 It
 is
 possible
@@ -536,9 +536,9 @@ all
 if
 it
 returns
-/
-/
 an
+/
+/
 empty
 string
 on
@@ -546,8 +546,6 @@ GetMIMEDescription
 (
 )
 call
-/
-/
 e
 .
 g
@@ -557,6 +555,8 @@ returns
 "
 "
 if
+/
+/
 pluggerrc
 file
 is

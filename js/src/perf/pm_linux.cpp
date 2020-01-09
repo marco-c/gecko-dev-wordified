@@ -500,6 +500,7 @@ fieldname
 )
 \
 {
+\
 PerfMeasurement
 :
 :
@@ -523,6 +524,7 @@ f_
 #
 #
 fieldname
+\
 }
 #
 define
@@ -534,6 +536,7 @@ fieldname
 )
 \
 {
+\
 PerfMeasurement
 :
 :
@@ -557,6 +560,7 @@ f_
 #
 #
 fieldname
+\
 }
 HW
 (

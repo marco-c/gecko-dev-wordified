@@ -1990,3 +1990,7 @@ resolved
 ;
 }
 }
+/
+/
+namespace
+mozilla

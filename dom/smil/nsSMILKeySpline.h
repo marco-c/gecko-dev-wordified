@@ -222,8 +222,8 @@ control
 points
 as
 defined
-by
 *
+by
 SMILANIM
 3
 .

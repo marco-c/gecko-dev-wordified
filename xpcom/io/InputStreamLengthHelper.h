@@ -314,5 +314,5 @@ mCallback
 }
 /
 /
-mozilla
 namespace
+mozilla

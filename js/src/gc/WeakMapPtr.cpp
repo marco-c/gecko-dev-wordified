@@ -324,10 +324,9 @@ ptr
 ;
 }
 /
-*
-WeakMapDetails
-*
 /
+namespace
+WeakMapDetails
 template
 <
 typename

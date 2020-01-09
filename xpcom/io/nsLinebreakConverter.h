@@ -595,6 +595,7 @@ changing
 the
 string
 buffer
+*
 (
 i
 .

@@ -577,6 +577,7 @@ aStride
 }
 /
 /
+namespace
 ImageDataSerializer
 }
 /

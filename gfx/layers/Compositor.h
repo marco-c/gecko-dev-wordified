@@ -859,8 +859,8 @@ e
 .
 g
 .
-CreateTextureHostOGL
 *
+CreateTextureHostOGL
 CompositableClient
 -
 in
@@ -964,8 +964,8 @@ live
 in
 their
 own
-directory
 *
+directory
 under
 gfx
 /
@@ -981,8 +981,8 @@ implement
 at
 least
 the
-following
 *
+following
 interfaces
 :
 *
@@ -1535,10 +1535,10 @@ nullptr
 we
 target
 the
+*
 compositor
 '
 s
-*
 usual
 swap
 chain
@@ -2426,9 +2426,9 @@ to
 draw
 in
 user
+*
 space
 .
-*
 aTransform
 transforms
 from
@@ -2440,9 +2440,9 @@ space
 .
 If
 texture
+*
 coords
 are
-*
 required
 these
 will
@@ -2454,9 +2454,9 @@ effect
 in
 the
 effect
+*
 chain
 .
-*
 aVisibleRect
 is
 used
@@ -2668,6 +2668,8 @@ implemented
 for
 the
 current
+"
+"
 platform
 !
 "
@@ -3719,8 +3721,8 @@ area
 of
 the
 backdrop
-that
 *
+that
 needs
 to
 be
@@ -3734,12 +3736,12 @@ The
 output
 transform
 translates
+*
 from
 0
 .
 .
 1
-*
 space
 into
 the
@@ -3762,8 +3764,8 @@ this
 is
 the
 same
-as
 *
+as
 the
 result
 rect

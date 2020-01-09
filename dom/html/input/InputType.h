@@ -631,8 +631,8 @@ way
 ie
 convert
 a
-timestamp
 *
+timestamp
 to
 a
 date
@@ -646,9 +646,9 @@ append
 the
 number
 string
+*
 representing
 the
-*
 value
 if
 type
@@ -792,6 +792,7 @@ user
 *
 See
 :
+*
 https
 :
 /
@@ -1194,6 +1195,7 @@ milliseconds
 representing
 the
 time
+*
 [
 out
 ]

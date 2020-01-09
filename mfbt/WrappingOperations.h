@@ -1618,6 +1618,7 @@ mod
 *
 16
 )
+*
 -
 2
 *
@@ -1625,7 +1626,6 @@ mod
 16
 )
 ;
-*
 WrappingSubtract
 (
 int8_t
@@ -2454,6 +2454,8 @@ constexpr
 functionsa
 .
 html
+/
+/
 (
 bug
 report
@@ -2557,7 +2559,6 @@ warning
 push
 )
 )
-\
 __pragma
 (
 warning

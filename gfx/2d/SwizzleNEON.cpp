@@ -1112,6 +1112,7 @@ UNPREMULQ_NEON
 (
 x
 )
+\
 (
 (
 (
@@ -1881,10 +1882,10 @@ ga
 (
 aSrc
 &
+/
+/
 0xFF000000
 )
-/
-/
 which
 inserts
 back

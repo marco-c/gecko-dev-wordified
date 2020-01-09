@@ -275,8 +275,8 @@ information
 from
 the
 server
-instance
 *
+instance
 instead
 of
 collecting
@@ -285,17 +285,16 @@ on
 its
 own
 .
-*
 This
 prevents
 any
 data
+*
 desynchronization
 and
 minimizes
 the
 cost
-*
 of
 running
 the
@@ -1081,6 +1080,7 @@ sInstance
 }
 /
 /
+namespace
 intl
 }
 /

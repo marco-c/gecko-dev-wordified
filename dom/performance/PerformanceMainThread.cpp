@@ -268,7 +268,7 @@ spec
 }
 /
 /
-anonymous
+namespace
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 PerformanceMainThread
@@ -1474,6 +1474,8 @@ and
 GetPerformanceTimingFromString
 are
 out
+"
+"
 of
 sync
 "
@@ -2182,10 +2184,10 @@ return
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

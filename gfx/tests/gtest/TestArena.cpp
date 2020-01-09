@@ -123,6 +123,8 @@ B
 in
 the
 global
+/
+/
 namespace
 namespace
 test_arena
@@ -909,9 +911,9 @@ the
 arena
 will
 is
+/
+/
 done
-/
-/
 manually
 like
 this
@@ -1245,9 +1247,9 @@ doubles
 its
 storage
 size
+/
+/
 each
-/
-/
 time
 it
 grows
@@ -1312,6 +1314,8 @@ the
 appropriate
 values
 after
+/
+/
 reallocation
 .
 ASSERT_EQ

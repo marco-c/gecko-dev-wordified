@@ -208,13 +208,13 @@ DOM_WEBIDL_PREF
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 /

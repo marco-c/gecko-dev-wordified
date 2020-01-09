@@ -694,6 +694,7 @@ IS_KIND
 k
 t
 )
+\
 bool
 Is
 #
@@ -1169,6 +1170,8 @@ for
 multiple
 profiler
 buffer
+/
+/
 ranges
 .
 struct

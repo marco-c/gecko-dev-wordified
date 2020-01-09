@@ -636,4 +636,12 @@ att
 }
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

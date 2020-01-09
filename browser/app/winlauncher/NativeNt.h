@@ -128,6 +128,7 @@ MOZILLA_INTERNAL_API
 )
 #
 error
+\
 "
 This
 header
@@ -2337,6 +2338,8 @@ headers
 we
 have
 a
+/
+/
 problem
 !
 if

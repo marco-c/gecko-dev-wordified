@@ -239,8 +239,8 @@ property
 If
 they
 are
-flexible
 *
+flexible
 then
 their
 flex

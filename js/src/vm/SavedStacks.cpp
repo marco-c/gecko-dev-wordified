@@ -556,9 +556,9 @@ frame
 Checking
 the
 full
+/
+/
 stack
-/
-/
 really
 slows
 down
@@ -572,6 +572,8 @@ first
 and
 last
 five
+/
+/
 hundred
 .
 size_t
@@ -4596,7 +4598,6 @@ fnName
 frame
 )
 )
-\
 return
 false
 ;

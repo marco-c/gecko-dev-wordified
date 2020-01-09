@@ -7856,13 +7856,13 @@ using
 BaseType
 :
 :
-GetTimer
+CancelTimer
 ;
 using
 BaseType
 :
 :
-CancelTimer
+GetTimer
 ;
 private
 :
@@ -10295,6 +10295,8 @@ argument
 see
 ParameterStorage
 for
+/
+/
 details
 .
 template
@@ -12136,8 +12138,8 @@ to
 view
 them
 as
-separate
 *
+separate
 threads
 .
 GetCurrentVirtualThread
@@ -12149,8 +12151,8 @@ the
 same
 value
 for
-all
 *
+all
 threads
 in
 a
@@ -12160,9 +12162,9 @@ pool
 .
 GetCurrentPhysicalThread
 will
+*
 return
 a
-*
 different
 value
 for

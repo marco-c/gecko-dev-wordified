@@ -114,9 +114,9 @@ more
 than
 one
 AvmCore
+/
+/
 running
-/
-/
 in
 the
 same
@@ -287,11 +287,13 @@ DO_LOCK
 (
 lock
 )
+\
 Lock
 (
 lock
 )
 ;
+\
 {
 #
 define
@@ -299,8 +301,11 @@ DO_UNLOCK
 (
 lock
 )
+\
 }
+\
 ;
+\
 Unlock
 (
 lock
@@ -313,7 +318,9 @@ DO_LOCK
 (
 lock
 )
+\
 {
+\
 (
 void
 )
@@ -361,7 +368,9 @@ LOCK
 (
 lock
 )
+\
 {
+\
 (
 void
 )
@@ -403,6 +412,7 @@ Lock
 (
 lock
 )
+\
 while
 (
 _InterlockedCompareExchange
@@ -413,9 +423,11 @@ LOCK_IS_FREE
 )
 =
 =
+\
 LOCK_IS_TAKEN
 )
 {
+\
 }
 ;
 #
@@ -424,6 +436,7 @@ Unlock
 (
 lock
 )
+\
 _InterlockedCompareExchange
 (
 lock

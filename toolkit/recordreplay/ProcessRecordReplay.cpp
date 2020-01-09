@@ -2043,12 +2043,14 @@ EnumToString
 (
 Kind
 )
+\
 case
 ThreadEvent
 :
 :
 Kind
 :
+\
 return
 #
 Kind

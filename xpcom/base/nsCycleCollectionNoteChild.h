@@ -128,9 +128,9 @@ define
 refpointer
 and
 array
+/
+/
 classes
-/
-/
 in
 order
 to
@@ -140,6 +140,8 @@ helpers
 such
 as
 ImplCycleCollectionTraverse
+/
+/
 for
 them
 .
@@ -203,6 +205,8 @@ pull
 in
 string
 headers
+/
+/
 here
 .
 void
@@ -241,6 +245,8 @@ is
 just
 a
 simple
+/
+/
 if
 (
 )
@@ -286,12 +292,10 @@ aFlags
 #
 define
 NS_CYCLE_COLLECTION_INNERCLASS
-\
 cycleCollection
 #
 define
 NS_CYCLE_COLLECTION_INNERNAME
-\
 _cycleCollectorGlobal
 #
 define

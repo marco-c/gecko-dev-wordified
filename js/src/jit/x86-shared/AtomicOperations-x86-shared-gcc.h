@@ -1221,7 +1221,6 @@ template
 \
 inline
 T
-\
 js
 :
 :
@@ -1373,7 +1372,15 @@ v
 undef
 GCC_RACYLOADOP
 }
+/
+/
+namespace
+jit
 }
+/
+/
+namespace
+js
 template
 <
 typename
@@ -1435,7 +1442,6 @@ template
 \
 inline
 void
-\
 js
 :
 :
@@ -1585,7 +1591,15 @@ __ATOMIC_RELAXED
 undef
 GCC_RACYSTOREOP
 }
+/
+/
+namespace
+jit
 }
+/
+/
+namespace
+js
 inline
 void
 js

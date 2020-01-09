@@ -363,7 +363,7 @@ params
 }
 /
 /
-anonymous
+namespace
 /
 *
 static
@@ -822,10 +822,10 @@ true
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

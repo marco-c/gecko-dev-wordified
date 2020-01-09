@@ -462,5 +462,9 @@ mAttributeList
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

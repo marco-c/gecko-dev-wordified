@@ -382,6 +382,7 @@ SOCKET_LIMIT_MIN
 #
 define
 MAX_TIME_BETWEEN_TWO_POLLS
+\
 "
 network
 .
@@ -402,6 +403,7 @@ poll_busy_wait_period
 #
 define
 POLL_BUSY_WAIT_PERIOD_TIMEOUT
+\
 "
 network
 .
@@ -422,6 +424,7 @@ enabled
 #
 define
 MAX_TIME_FOR_PR_CLOSE_DURING_SHUTDOWN
+\
 "
 network
 .
@@ -5754,11 +5757,11 @@ e
 .
 the
 last
+/
+/
 for
 -
 loop
-/
-/
 iteration
 before
 shutdown
@@ -10302,9 +10305,9 @@ are
 going
 to
 start
+/
+/
 a
-/
-/
 watchdog
 .
 If

@@ -483,11 +483,12 @@ define
 NS_TICKLER_IID
 \
 {
+\
 0x8f769ed6
 0x207c
 0x4af9
-\
 {
+\
 0x9f
 0x7e
 0x9e
@@ -496,7 +497,9 @@ NS_TICKLER_IID
 0xa3
 0x75
 0x4e
+\
 }
+\
 }
 class
 Tickler

@@ -315,5 +315,9 @@ aContext
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

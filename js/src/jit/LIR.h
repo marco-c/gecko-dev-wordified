@@ -4225,6 +4225,7 @@ Opcode
 :
 name
 :
+\
 return
 #
 name
@@ -4632,7 +4633,6 @@ name
 )
 const
 {
-\
 return
 op
 (
@@ -4644,7 +4644,6 @@ Opcode
 :
 name
 ;
-\
 }
 \
 inline
@@ -7921,9 +7920,9 @@ in
 LIR
 .
 Unlike
+/
+/
 MResumePoints
-/
-/
 they
 cannot
 be
@@ -7936,10 +7935,10 @@ in
 by
 the
 register
+/
+/
 allocator
 in
-/
-/
 order
 to
 capture
@@ -11907,7 +11906,6 @@ to
 name
 (
 )
-\
 {
 \
 MOZ_ASSERT
@@ -11953,7 +11951,6 @@ name
 (
 )
 const
-\
 {
 \
 MOZ_ASSERT

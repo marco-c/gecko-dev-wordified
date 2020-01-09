@@ -7183,9 +7183,9 @@ any
 data
 is
 fetched
+/
+/
 from
-/
-/
 the
 network
 .
@@ -7198,9 +7198,9 @@ case
 of
 such
 an
+/
+/
 internal
-/
-/
 redirect
 .
 nsCOMPtr

@@ -537,9 +537,9 @@ but
 there
 was
 no
+*
 data
 ;
-*
 HRESULT
 error
 code

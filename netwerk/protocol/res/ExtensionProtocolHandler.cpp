@@ -2026,9 +2026,9 @@ by
 chrome
 but
 a
+/
+/
 whitelisted
-/
-/
 subset
 are
 web
@@ -2043,6 +2043,8 @@ fetchable
 )
 .
 Check
+/
+/
 that
 whitelist
 .

@@ -200,11 +200,12 @@ define
 NS_IHTMLCOLLECTION_IID
 \
 {
+\
 0x4e169191
 0x5196
 0x4e17
-\
 {
+\
 0xa4
 0x79
 0xd5
@@ -213,7 +214,9 @@ NS_IHTMLCOLLECTION_IID
 0x5b
 0x0a
 0xcd
+\
 }
+\
 }
 /
 *

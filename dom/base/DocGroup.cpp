@@ -464,6 +464,8 @@ as
 the
 caller
 does
+/
+/
 it
 for
 us
@@ -1416,4 +1418,12 @@ false
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

@@ -105,7 +105,6 @@ BTN_MASK_FROM_ID
 (
 _id
 )
-\
 :
 :
 vr
@@ -2289,6 +2288,8 @@ rendering
 to
 happen
 at
+/
+/
 all
 .
 mVRCompositor
@@ -3080,6 +3081,8 @@ controllers
 need
 to
 increase
+"
+"
 kVRControllerMaxCount
 .
 "
@@ -3265,6 +3268,8 @@ for
 using
 2D
 axis
+/
+/
 values
 on
 triggers
@@ -3708,10 +3713,10 @@ for
 the
 vertical
 axis
+/
+/
 value
 .
-/
-/
 In
 order
 to
@@ -3725,6 +3730,8 @@ we
 add
 a
 workaround
+/
+/
 for
 yAxis
 .
@@ -5834,10 +5841,10 @@ get_SurfaceDescriptorMacIOSurface
 (
 )
 at
+/
+/
 VRDisplayExternal
 .
-/
-/
 scaleFactor
 and
 opaque
@@ -5846,6 +5853,8 @@ skipped
 because
 they
 always
+/
+/
 are
 1
 .
@@ -6873,9 +6882,9 @@ than
 ms
 we
 separate
+/
+/
 them
-/
-/
 to
 a
 loop
@@ -6892,6 +6901,8 @@ that
 is
 a
 continuous
+/
+/
 events
 .
 const
@@ -7115,9 +7126,9 @@ m_nNumReprojectedFrames
 /
 /
 namespace
-mozilla
+gfx
 }
 /
 /
 namespace
-gfx
+mozilla

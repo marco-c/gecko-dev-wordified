@@ -2834,6 +2834,7 @@ aFunctionType
 rrc
 (
 aDataArgument
+\
 CallbackEvent_
 #
 #
@@ -4334,6 +4335,8 @@ that
 fits
 in
 two
+/
+/
 registers
 .
 static
@@ -4883,10 +4886,12 @@ aAssembler
 }
 /
 /
+namespace
 recordreplay
 }
 /
 /
+namespace
 mozilla
 #
 endif

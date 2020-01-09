@@ -1285,6 +1285,8 @@ loading
 of
 other
 non
+/
+/
 js
 /
 css
@@ -1341,6 +1343,8 @@ live
 in
 mLoadingAsyncRequests
 or
+/
+/
 mLoadedAsyncRequests
 .
 bool
@@ -1353,6 +1357,8 @@ if
 we
 live
 in
+/
+/
 mNonAsyncExternalScriptInsertedRequests
 bool
 mIsXSLT
@@ -1411,6 +1417,8 @@ source
 on
 our
 tracking
+/
+/
 protection
 list
 .

@@ -143,6 +143,3 @@ POLICY
 /
 namespace
 mozilla
-:
-:
-ct

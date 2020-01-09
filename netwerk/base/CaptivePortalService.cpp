@@ -415,6 +415,8 @@ mRequestInProgress
 :
 %
 d
+"
+"
 mInitialized
 :
 %
@@ -2842,6 +2844,8 @@ dns
 and
 routing
 is
+/
+/
 available
 .
 if

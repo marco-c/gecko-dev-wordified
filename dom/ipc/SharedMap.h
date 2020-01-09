@@ -1387,8 +1387,8 @@ the
 SharedMap
 mMap
 has
-been
 *
+been
 updated
 to
 point
@@ -2697,14 +2697,17 @@ aName
 }
 /
 /
+namespace
 ipc
 }
 /
 /
+namespace
 dom
 }
 /
 /
+namespace
 mozilla
 #
 endif

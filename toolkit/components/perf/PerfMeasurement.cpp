@@ -157,7 +157,6 @@ h
 #
 define
 JSPERF_CONTRACTID
-\
 "
 mozilla
 .
@@ -172,11 +171,12 @@ define
 JSPERF_CID
 \
 {
+\
 0x421c38e6
 0xaee0
 0x4509
-\
 {
+\
 0xa0
 0x25
 0x13
@@ -185,7 +185,9 @@ JSPERF_CID
 0x78
 0x03
 0x5a
+\
 }
+\
 }
 namespace
 mozilla

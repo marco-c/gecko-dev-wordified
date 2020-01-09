@@ -450,5 +450,9 @@ mCursor
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

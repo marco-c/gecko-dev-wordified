@@ -234,6 +234,8 @@ clock
 functions
 but
 not
+/
+/
 pthread_condattr_setclock
 .
 #

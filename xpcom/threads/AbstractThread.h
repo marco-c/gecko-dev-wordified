@@ -478,6 +478,8 @@ nsIThread
 EventTarget
 on
 the
+/
+/
 main
 thread
 .
@@ -909,6 +911,8 @@ one
 is
 available
 in
+/
+/
 DispatcherTrait
 :
 :
@@ -916,10 +920,10 @@ AbstractThreadFor
 (
 )
 .
-/
-/
 Note
 :
+/
+/
 DispatcherTrait
 :
 :

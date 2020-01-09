@@ -705,6 +705,8 @@ greprefs
 .
 js
 or
+/
+/
 modules
 \
 libpref
@@ -714,8 +716,6 @@ init
 all
 .
 js
-/
-/
 we
 need
 all
@@ -1057,7 +1057,6 @@ osvr_
 #
 _x
 =
-\
 (
 void
 *
@@ -2295,6 +2294,8 @@ available
 update
 client
 context
+/
+/
 until
 we
 get

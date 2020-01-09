@@ -407,13 +407,13 @@ using
 mozilla
 :
 :
-Unused
+ErrorResult
 ;
 using
 mozilla
 :
 :
-ErrorResult
+Unused
 ;
 using
 mozilla
@@ -431,7 +431,7 @@ mozilla
 ipc
 :
 :
-PBackgroundChild
+IProtocol
 ;
 using
 mozilla
@@ -440,7 +440,7 @@ mozilla
 ipc
 :
 :
-IProtocol
+PBackgroundChild
 ;
 using
 mozilla

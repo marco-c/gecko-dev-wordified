@@ -202,9 +202,9 @@ returns
 otherwise
 it
 returns
+/
+/
 incrementing
-/
-/
 numbers
 if
 the
@@ -216,6 +216,8 @@ wastes
 2
 events
 but
+/
+/
 that
 should
 be
@@ -389,9 +391,9 @@ be
 single
 point
 in
+/
+/
 time
-/
-/
 events
 .
 __itt_event_start

@@ -523,6 +523,7 @@ skipHostnames
 #
 define
 URLCLASSIFIER_TRACKING_ANNOTATION_SKIP_URLS
+\
 "
 urlclassifier
 .
@@ -539,6 +540,7 @@ trackingAnnotationTable
 #
 define
 URLCLASSIFIER_ANNOTATION_TABLE_TEST_ENTRIES
+\
 "
 urlclassifier
 .
@@ -549,6 +551,7 @@ testEntries
 #
 define
 URLCLASSIFIER_ANNOTATION_WHITELIST
+\
 "
 urlclassifier
 .
@@ -557,6 +560,7 @@ trackingAnnotationWhitelistTable
 #
 define
 URLCLASSIFIER_ANNOTATION_WHITELIST_TEST_ENTRIES
+\
 "
 urlclassifier
 .
@@ -575,6 +579,7 @@ trackingTable
 #
 define
 URLCLASSIFIER_TRACKING_TABLE_TEST_ENTRIES
+\
 "
 urlclassifier
 .
@@ -593,6 +598,7 @@ trackingWhitelistTable
 #
 define
 URLCLASSIFIER_TRACKING_WHITELIST_TEST_ENTRIES
+\
 "
 urlclassifier
 .
@@ -2163,10 +2169,10 @@ the
 isBlockingResource
 when
 tailing
+/
+/
 is
 off
-/
-/
 see
 bug
 1395525
@@ -5610,10 +5616,10 @@ of
 checking
 blacklist
 and
+/
+/
 whitelist
 .
-/
-/
 |
 mExpect
 *
@@ -5624,13 +5630,13 @@ used
 to
 indicate
 that
+/
+/
 |
 OnClassifyComplete
 |
 is
 called
-/
-/
 for
 the
 result
@@ -5638,6 +5644,8 @@ of
 blacklist
 or
 whitelist
+/
+/
 check
 .
 class
@@ -7652,6 +7660,8 @@ GetURI
 %
 p
 )
+"
+"
 failed
 "
 mChannelClassifier
@@ -7831,11 +7841,7 @@ channel
 }
 /
 /
-end
-of
-unnamed
 namespace
-/
 nsresult
 nsChannelClassifier
 :
@@ -9204,6 +9210,8 @@ p
 CheckIsTrackerWithLocalTable
 blacklist
 is
+"
+"
 empty
 "
 this

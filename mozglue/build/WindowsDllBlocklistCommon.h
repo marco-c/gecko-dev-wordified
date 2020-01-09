@@ -669,6 +669,7 @@ DLL_BLOCKLIST_DEFINITIONS_END
 }
 \
 }
+\
 ;
 #
 define
@@ -699,6 +700,7 @@ DllBlockInfo
 *
 name
 =
+\
 &
 gWindowsDllBlocklist
 [

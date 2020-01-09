@@ -328,6 +328,7 @@ sPermissionsService
 }
 /
 /
+namespace
 mozilla
 #
 endif

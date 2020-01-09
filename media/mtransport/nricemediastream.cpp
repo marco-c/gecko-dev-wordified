@@ -4287,5 +4287,5 @@ old_stream_
 }
 /
 /
-close
 namespace
+mozilla

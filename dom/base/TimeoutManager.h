@@ -1125,9 +1125,9 @@ TimeoutManager
 member
 .
 This
+/
+/
 reference
-/
-/
 points
 to
 that
@@ -1269,6 +1269,14 @@ sNestingLevel
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

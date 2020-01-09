@@ -333,7 +333,7 @@ dom
 HTMLMediaElement_Binding
 :
 :
-NETWORK_EMPTY
+HAVE_METADATA
 ;
 using
 mozilla
@@ -345,7 +345,7 @@ dom
 HTMLMediaElement_Binding
 :
 :
-HAVE_METADATA
+NETWORK_EMPTY
 ;
 namespace
 mozilla
@@ -2255,9 +2255,9 @@ from
 raw
 data
 in
+*
 the
 main
-*
 thread
 .
 While
@@ -2270,8 +2270,8 @@ ImageData
 we
 need
 to
-create
 *
+create
 a
 SouceSurface
 from
@@ -2285,8 +2285,8 @@ and
 then
 set
 the
-SourceSurface
 *
+SourceSurface
 into
 a
 layers
@@ -2296,19 +2296,20 @@ SourceSurfaceImage
 .
 However
 the
+*
 layers
 :
 :
 SourceSurfaceImage
 asserts
 the
-*
 setting
 operation
 in
 the
 main
 thread
+*
 so
 if
 we
@@ -2317,7 +2318,6 @@ going
 to
 create
 an
-*
 ImageBitmap
 from
 an
@@ -2325,6 +2325,7 @@ ImageData
 off
 the
 main
+*
 thread
 we
 post
@@ -2332,12 +2333,12 @@ an
 event
 to
 the
-*
 main
 thread
 to
 create
 a
+*
 layers
 :
 :
@@ -2462,6 +2463,8 @@ an
 existing
 Image
 into
+"
+"
 CreateImageFromRawDataInMainThreadSyncTask
 .
 "
@@ -5363,6 +5366,8 @@ HTMLMediaElement
 :
 HAVE_NOTHING
 or
+/
+/
 HTMLMediaElement
 :
 :
@@ -8004,6 +8009,8 @@ from
 CanvasRenderingContext2D
 off
 the
+"
+"
 main
 thread
 .

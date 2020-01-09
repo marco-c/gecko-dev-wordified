@@ -2580,6 +2580,7 @@ patLen
 #
 define
 ALMOST_DONE_WITH_PINDEX
+\
 (
 mFindBackward
 ?
@@ -4465,6 +4466,8 @@ class
 than
 the
 current
+/
+/
 character
 .
 if

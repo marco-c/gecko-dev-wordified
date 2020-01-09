@@ -976,6 +976,7 @@ applied
 to
 it
 are
+*
 supported
 .
 *
@@ -1629,8 +1630,8 @@ passing
 it
 as
 the
-aPostFilterDirtyRegion
 *
+aPostFilterDirtyRegion
 argument
 to
 the

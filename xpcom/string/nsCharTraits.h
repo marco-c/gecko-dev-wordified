@@ -596,6 +596,7 @@ SURROGATE_TO_UCS4
 h
 l
 )
+\
 (
 (
 (
@@ -611,7 +612,6 @@ h
 10
 )
 +
-\
 (
 uint32_t
 (
@@ -712,7 +712,6 @@ c
 10
 )
 +
-\
 char16_t
 (
 0xD7C0
@@ -788,6 +787,7 @@ L_SURROGATE
 (
 c
 )
+\
 char16_t
 (
 char16_t
@@ -803,7 +803,6 @@ uint32_t
 )
 )
 |
-\
 char16_t
 (
 0xDC00

@@ -178,11 +178,12 @@ define
 SCRIPTABLE_INTERFACES_CID
 \
 {
+\
 0xfe4f7592
 0xc1fc
 0x4662
-\
 {
+\
 0xac
 0x83
 0x53
@@ -191,7 +192,9 @@ SCRIPTABLE_INTERFACES_CID
 0x31
 0x88
 0x3
+\
 }
+\
 }
 #
 define
@@ -227,6 +230,7 @@ XPCONNECT_CIDENTRIES
 kMOZ_JSSUBSCRIPTLOADER_CID
 false
 nullptr
+\
 mozJSSubScriptLoaderConstructor
 }
 #

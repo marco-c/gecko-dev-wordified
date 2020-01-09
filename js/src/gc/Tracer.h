@@ -592,6 +592,7 @@ _
 template
 <
 >
+\
 struct
 MapTraceKindToType
 <

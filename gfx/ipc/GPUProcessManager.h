@@ -785,6 +785,8 @@ have
 been
 mapped
 by
+/
+/
 MapLayerTreeId
 bool
 IsLayerTreeIdMapped
@@ -887,9 +889,9 @@ If
 the
 compositor
 is
+/
+/
 null
-/
-/
 the
 connect
 operation
@@ -903,10 +905,10 @@ ID
 will
 still
 be
+/
+/
 allocated
 .
-/
-/
 This
 must
 be
@@ -1396,9 +1398,9 @@ process
 sessino
 so
 we
+/
+/
 can
-/
-/
 notify
 their
 owning

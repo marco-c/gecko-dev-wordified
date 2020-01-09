@@ -3962,9 +3962,6 @@ tp
 /
 /
 namespace
-(
-anonymous
-)
 JS_FRIEND_API
 void
 js
@@ -5890,6 +5887,8 @@ argument
 while
 inspecting
 stack
+"
+"
 frame
 >
 \
@@ -6308,6 +6307,8 @@ property
 while
 inspecting
 stack
+"
+"
 frame
 >
 \
@@ -6493,6 +6494,8 @@ values
 while
 inspecting
 stack
+"
+"
 frame
 >
 \

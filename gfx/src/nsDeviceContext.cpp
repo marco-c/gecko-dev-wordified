@@ -2320,10 +2320,10 @@ is
 used
 as
 the
+/
+/
 DPI
 .
-/
-/
 This
 sets
 the
@@ -3926,6 +3926,8 @@ it
 won
 '
 t
+/
+/
 change
 .
 nsCOMPtr
@@ -4090,6 +4092,8 @@ it
 won
 '
 t
+/
+/
 change
 .
 nsCOMPtr

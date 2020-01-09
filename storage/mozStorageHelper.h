@@ -227,10 +227,10 @@ with
 aCommitOnComplete
 =
 false
+*
 (
 rollback
 )
-*
 then
 call
 Commit
@@ -243,8 +243,8 @@ manually
 when
 your
 function
-completes
 *
+completes
 successfully
 .
 *
@@ -993,8 +993,8 @@ one
 is
 not
 in
-progress
 *
+progress
 this
 is
 a
@@ -1007,9 +1007,9 @@ of
 the
 transaction
 outside
+*
 of
 our
-*
 scope
 is
 in

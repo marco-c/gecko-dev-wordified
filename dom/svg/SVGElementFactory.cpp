@@ -306,7 +306,6 @@ aNodeInfo
 FromParser
 aFromParser
 )
-\
 {
 \
 return

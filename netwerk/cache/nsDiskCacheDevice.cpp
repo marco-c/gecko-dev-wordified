@@ -1067,6 +1067,8 @@ we
 re
 enumerating
 the
+/
+/
 records
 (
 void
@@ -3478,7 +3480,6 @@ entry
 %
 p
 "
-\
 "
 req
 -
@@ -4088,9 +4089,9 @@ have
 been
 in
 map
+*
 no
 problem
-*
 record
 is
 not
@@ -6365,6 +6366,8 @@ mMaxEntrySize
 1
 /
 8
+/
+/
 CacheCapacity
 )
 bool

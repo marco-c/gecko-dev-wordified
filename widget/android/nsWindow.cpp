@@ -284,10 +284,7 @@ using
 mozilla
 :
 :
-dom
-:
-:
-ContentParent
+Unused
 ;
 using
 mozilla
@@ -302,7 +299,10 @@ using
 mozilla
 :
 :
-Unused
+dom
+:
+:
+ContentParent
 ;
 #
 include
@@ -9391,6 +9391,8 @@ this
 nsWindow
 is
 potentially
+/
+/
 deleted
 nsBaseWidget
 :
@@ -10703,6 +10705,8 @@ or
 dialog
 window
 in
+"
+"
 this
 [
 %

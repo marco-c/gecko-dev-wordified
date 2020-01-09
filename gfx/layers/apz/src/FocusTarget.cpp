@@ -243,6 +243,7 @@ FMT
 .
 .
 )
+\
 printf_stderr
 (
 "
@@ -254,7 +255,6 @@ s
 :
 "
 FMT
-\
 XRE_IsParentProcess
 (
 )
@@ -813,9 +813,9 @@ whether
 there
 are
 key
+/
+/
 event
-/
-/
 listeners
 or
 whether
@@ -827,9 +827,9 @@ targeted
 at
 a
 different
+/
+/
 process
-/
-/
 through
 a
 remote
@@ -1378,9 +1378,9 @@ scrolling
 Gather
 a
 ViewID
+/
+/
 for
-/
-/
 the
 horizontal
 and

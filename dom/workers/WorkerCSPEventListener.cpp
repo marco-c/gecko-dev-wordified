@@ -303,7 +303,7 @@ mJSON
 }
 /
 /
-anonymous
+namespace
 NS_IMPL_ISUPPORTS
 (
 WorkerCSPEventListener

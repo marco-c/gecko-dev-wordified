@@ -3536,6 +3536,7 @@ Rust
 s
 target
 =
+*
 try
 !
 (
@@ -3543,7 +3544,6 @@ expr
 )
 ;
 .
-*
 First
 it
 evaluates
@@ -3555,8 +3555,8 @@ a
 Result
 value
 .
-*
 On
+*
 success
 the
 result
@@ -3569,16 +3569,15 @@ assigned
 to
 target
 .
-*
 On
 error
+*
 immediately
 returns
 the
 error
 result
 .
-*
 |
 target
 |
@@ -3587,6 +3586,7 @@ evaluate
 to
 a
 reference
+*
 without
 any
 side
@@ -3631,7 +3631,6 @@ mozilla
 :
 Err
 (
-\
 mozTryVarTempResult_
 .
 unwrapErr

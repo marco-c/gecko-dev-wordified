@@ -297,6 +297,8 @@ operation
 on
 the
 PRExplodedTime
+/
+/
 parameter
 /
 *
@@ -1402,3 +1404,7 @@ mLocale
 }
 }
 }
+/
+/
+namespace
+mozilla

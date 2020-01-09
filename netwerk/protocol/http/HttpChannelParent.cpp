@@ -876,9 +876,9 @@ sure
 that
 any
 resources
+/
+/
 are
-/
-/
 cleaned
 up
 to
@@ -6797,6 +6797,8 @@ HttpChannelParent
 :
 ContinueRedirect2Verify
 call
+"
+"
 OnRedirectVerifyCallback
 "
 "
@@ -8836,6 +8838,8 @@ HttpBaseChannel
 as
 aRequest
 in
+"
+"
 HttpChannelParent
 :
 :
@@ -8860,6 +8864,8 @@ OnStartRequest
 from
 a
 different
+"
+"
 HttpBaseChannel
 instance
 "
@@ -11246,6 +11252,8 @@ can
 derive
 the
 value
+/
+/
 in
 ODA
 .

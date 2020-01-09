@@ -1839,7 +1839,6 @@ mIndex
 /
 /
 namespace
-anonymous
 /
 /
 Only
@@ -3893,6 +3892,9 @@ true
 ;
 }
 }
+/
+/
+namespace
 void
 CustomElementRegistry
 :
@@ -4502,8 +4504,8 @@ an
 entry
 with
 constructor
-constructor
 *
+constructor
 then
 throw
 a
@@ -4514,6 +4516,7 @@ DOMException
 and
 abort
 these
+*
 steps
 .
 *
@@ -5029,8 +5032,8 @@ is
 running
 flag
 is
-set
 *
+set
 then
 throw
 a
@@ -5131,6 +5134,7 @@ prototype
 .
 Rethrow
 any
+*
 exceptions
 .
 *
@@ -5389,9 +5393,9 @@ Web
 IDL
 Function
 callback
+*
 type
 .
-*
 Rethrow
 any
 exceptions
@@ -8473,10 +8477,10 @@ queue
 in
 microtask
 check
+/
+/
 point
 )
-/
-/
 we
 don
 '
@@ -8634,6 +8638,8 @@ should
 not
 be
 a
+/
+/
 nullptr
 .
 MOZ_ASSERT

@@ -400,9 +400,9 @@ attributes
 that
 modify
 the
+/
+/
 calling
-/
-/
 convention
 lining
 up
@@ -906,6 +906,7 @@ JNIName
 template
 <
 >
+\
 struct
 TypeAdapter
 <

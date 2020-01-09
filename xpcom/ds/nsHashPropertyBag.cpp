@@ -618,11 +618,11 @@ const
 nsAString
 &
 prop
+\
 Type
 *
 _retval
 )
-\
 {
 \
 nsIVariant
@@ -642,7 +642,6 @@ if
 !
 v
 )
-\
 return
 NS_ERROR_NOT_AVAILABLE
 ;
@@ -677,10 +676,10 @@ const
 nsAString
 &
 prop
+\
 Type
 value
 )
-\
 {
 \
 nsCOMPtr

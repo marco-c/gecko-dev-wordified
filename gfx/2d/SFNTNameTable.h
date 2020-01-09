@@ -445,10 +445,12 @@ mStringDataLength
 }
 /
 /
+namespace
 gfx
 }
 /
 /
+namespace
 mozilla
 #
 endif

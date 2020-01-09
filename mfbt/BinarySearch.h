@@ -497,12 +497,12 @@ Comparator
 (
 13
 )
+*
 &
 match
 )
 )
 {
-*
 printf
 (
 "

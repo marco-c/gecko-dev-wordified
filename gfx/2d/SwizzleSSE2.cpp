@@ -1157,10 +1157,10 @@ either
 8
 or
 0x100
+/
+/
 respectively
 .
-/
-/
 The
 16
 bit
@@ -1172,11 +1172,11 @@ both
 words
 of
 a
+/
+/
 uint32_t
 here
 to
-/
-/
 reduce
 unpacking
 overhead
@@ -1187,6 +1187,7 @@ UNPREMULQ_SSE2
 (
 x
 )
+\
 (
 0x10001U
 *

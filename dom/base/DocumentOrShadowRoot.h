@@ -1508,6 +1508,14 @@ nullptr
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

@@ -178,12 +178,12 @@ OOM_MSG_LEADER
 #
 define
 OOM_MSG_LAST_DIGIT_OFFSET
+\
 sizeof
 (
 OOM_MSG_LEADER
 )
 +
-\
 sizeof
 (
 OOM_MSG_DIGITS

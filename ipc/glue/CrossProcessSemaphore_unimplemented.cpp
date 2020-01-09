@@ -227,6 +227,8 @@ platform
 woah
 !
 We
+"
+"
 should
 '
 ve
@@ -262,6 +264,8 @@ platform
 woah
 !
 We
+"
+"
 should
 '
 ve
@@ -304,6 +308,8 @@ platform
 woah
 !
 We
+"
+"
 should
 '
 ve
@@ -342,6 +348,8 @@ platform
 woah
 !
 We
+"
+"
 should
 '
 ve
@@ -382,6 +390,8 @@ platform
 woah
 !
 We
+"
+"
 should
 '
 ve
@@ -420,6 +430,8 @@ platform
 woah
 !
 We
+"
+"
 should
 '
 ve
@@ -432,3 +444,7 @@ now
 ;
 }
 }
+/
+/
+namespace
+mozilla

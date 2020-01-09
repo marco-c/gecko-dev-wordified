@@ -463,12 +463,10 @@ a9c2
 /
 \
 0xbaf16149
-\
 0x2ab5
-\
 0x499c
-\
 {
+\
 0xa9
 0xc2
 0x59
@@ -477,6 +475,7 @@ a9c2
 0x95
 0xc2
 0x88
+\
 }
 \
 }
@@ -1007,9 +1006,9 @@ from
 mChunks
 as
 well
+/
+/
 as
-/
-/
 changing
 this
 member
@@ -1050,9 +1049,9 @@ chunk
 respects
 limit
 for
+/
+/
 disk
-/
-/
 chunks
 memory
 usage

@@ -412,11 +412,11 @@ rectangle
 aScaledSize
 .
 width
+*
 aScaledSize
 .
 height
 )
-*
 will
 be
 read

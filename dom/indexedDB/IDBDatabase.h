@@ -281,6 +281,10 @@ class
 PBackgroundIDBDatabaseFileChild
 ;
 }
+/
+/
+namespace
+indexedDB
 class
 IDBDatabase
 final

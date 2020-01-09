@@ -320,6 +320,7 @@ this
 to
 other
 communication
+*
 channels
 *
 /
@@ -804,8 +805,8 @@ sFuzzyfoxClockGrain
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 /

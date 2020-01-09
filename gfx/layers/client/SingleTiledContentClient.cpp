@@ -593,6 +593,8 @@ size
 discard
 if
 not
+/
+/
 matching
 .
 gfx
@@ -1010,10 +1012,10 @@ copied
 from
 the
 front
+/
+/
 buffer
 as
-/
-/
 needing
 to
 be
@@ -1302,6 +1304,8 @@ aquire
 the
 discarded
 front
+"
+"
 buffer
 '
 s

@@ -3497,6 +3497,8 @@ null
 has
 been
 filtered
+/
+/
 out
 .
 TemporaryTypeSet
@@ -5332,12 +5334,12 @@ in
 this
 set
 or
+*
 Scalar
 :
 :
 MaxTypedArrayViewType
 .
-*
 If
 there
 is
@@ -5346,12 +5348,12 @@ a
 common
 type
 and
+*
 sharedness
 is
 not
 nullptr
 then
-*
 *
 sharedness
 is
@@ -5362,6 +5364,7 @@ we
 know
 about
 the
+*
 sharedness
 of
 the

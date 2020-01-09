@@ -251,7 +251,6 @@ if
 (
 e
 )
-\
 abort
 =
 (
@@ -279,6 +278,7 @@ msg
 .
 AppendLiteral
 (
+\
 "
 (
 set
@@ -322,6 +322,7 @@ msg
 .
 AppendLiteral
 (
+\
 "
 (
 set
@@ -387,7 +388,6 @@ s
 '
 UNIMPLEMENTED
 "
-\
 __FUNCTION__
 )
 ;
@@ -443,8 +443,8 @@ s
 %
 d
 "
-\
 __FUNCTION__
+\
 __FILE__
 __LINE__
 )
@@ -534,8 +534,8 @@ s
 %
 d
 "
-\
 __FUNCTION__
+\
 __FILE__
 __LINE__
 )
@@ -551,7 +551,6 @@ if
 (
 mIsPending
 )
-\
 return
 NS_ERROR_IN_PROGRESS
 ;

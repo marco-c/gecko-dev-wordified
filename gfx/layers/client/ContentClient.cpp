@@ -1004,6 +1004,8 @@ p
 :
 content
 type
+"
+"
 changed
 \
 n
@@ -1051,6 +1053,8 @@ p
 :
 component
 alpha
+"
+"
 changed
 \
 n
@@ -1259,9 +1263,9 @@ are
 using
 a
 new
+/
+/
 buffer
-/
-/
 and
 rotate
 or
@@ -1460,6 +1464,8 @@ result
 mContentType
 after
 this
+/
+/
 call
 .
 FinalizeFrame
@@ -2252,9 +2258,9 @@ the
 bounds
 of
 the
+/
+/
 region
-/
-/
 this
 makes
 it
@@ -3100,6 +3106,8 @@ we
 need
 to
 recreate
+/
+/
 it
 .
 bool
@@ -5070,6 +5078,8 @@ just
 output
 a
 single
+/
+/
 image
 .
 if
@@ -5154,6 +5164,8 @@ just
 output
 a
 single
+/
+/
 image
 .
 if
@@ -5595,6 +5607,8 @@ our
 front
 and
 back
+"
+"
 buffer
 must
 be

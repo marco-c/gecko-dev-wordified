@@ -222,6 +222,8 @@ conversions
 between
 Uint32x4
 and
+/
+/
 Float32x4
 ?
 static
@@ -1055,6 +1057,8 @@ bogus
 value
 instead
 of
+/
+/
 crashing
 .
 static

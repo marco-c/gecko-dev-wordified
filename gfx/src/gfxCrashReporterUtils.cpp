@@ -481,6 +481,8 @@ Basically
 I
 just
 wanted
+/
+/
 gFeaturesAlreadyReported
 to
 be
@@ -490,10 +492,10 @@ nsTArray
 <
 nsCString
 >
-/
-/
 and
 LeakLog
+/
+/
 was
 complaining
 about
@@ -527,6 +529,8 @@ each
 (
 56
 bytes
+/
+/
 total
 )
 /
@@ -546,13 +550,13 @@ using
 a
 nsIObserver
 to
+/
+/
 deallocate
 on
 xpcom
 shutdown
 .
-/
-/
 Yay
 for
 fighting

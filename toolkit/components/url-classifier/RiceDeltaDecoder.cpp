@@ -975,17 +975,13 @@ true
 }
 /
 /
-end
-of
 namespace
-mozilla
+safebrowsing
 }
 /
 /
-end
-of
 namespace
-safebrowsing
+mozilla
 namespace
 {
 /
@@ -1710,3 +1706,6 @@ true
 ;
 }
 }
+/
+/
+namespace

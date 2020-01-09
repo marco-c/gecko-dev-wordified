@@ -653,6 +653,7 @@ root
 content
 document
 enclosing
+*
 |
 aContent
 |
@@ -973,6 +974,7 @@ called
 preventDefault
 on
 the
+*
 event
 .
 *

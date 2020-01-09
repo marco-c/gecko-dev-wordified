@@ -222,7 +222,6 @@ txToplevelItem
 :
 :
 type
-\
 _class
 :
 :

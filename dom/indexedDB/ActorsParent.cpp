@@ -1073,8 +1073,10 @@ ASSERT_UNLESS_FUZZING
 .
 .
 )
+\
 do
 {
+\
 }
 while
 (
@@ -1112,12 +1114,10 @@ IndexedDatabaseManager
 GetLoggingModule
 (
 )
-\
 LogLevel
 :
 :
 Debug
-\
 _args
 )
 #
@@ -11748,6 +11748,8 @@ index_data
 index_id
 value
 object_data_key
+"
+"
 object_data_id
 )
 "
@@ -11759,6 +11761,8 @@ index_id
 ai_index_data
 .
 value
+"
+"
 ai_index_data
 .
 ai_object_data_id
@@ -11846,6 +11850,8 @@ unique_index_data
 index_id
 value
 object_data_key
+"
+"
 object_data_id
 )
 "
@@ -11857,6 +11863,8 @@ index_id
 ai_unique_index_data
 .
 value
+"
+"
 ai_unique_index_data
 .
 ai_object_data_id
@@ -16164,6 +16172,8 @@ work
 during
 the
 upgrade
+/
+/
 process
 .
 "
@@ -16883,9 +16893,9 @@ build
 during
 the
 upgrade
+/
+/
 of
-/
-/
 the
 index
 tables
@@ -16900,6 +16910,8 @@ the
 |
 object_data
 |
+/
+/
 table
 .
 "
@@ -22028,9 +22040,9 @@ changes
 with
 enabled
 recursive
+/
+/
 triggers
-/
-/
 so
 the
 statement
@@ -22042,9 +22054,9 @@ first
 and
 then
 the
+/
+/
 insert
-/
-/
 trigger
 .
 "
@@ -87543,6 +87555,8 @@ than
 zero
 less
 than
+"
+"
 zero
 shall
 thy
@@ -92008,6 +92022,8 @@ unique_index_data
 index_id
 value
 object_store_id
+"
+"
 object_data_key
 value_locale
 )
@@ -92021,6 +92037,8 @@ index_id
 value
 :
 object_store_id
+"
+"
 :
 object_data_key
 :
@@ -92072,6 +92090,8 @@ index_data
 index_id
 value
 object_data_key
+"
+"
 object_store_id
 value_locale
 )
@@ -92085,6 +92105,8 @@ index_id
 value
 :
 object_data_key
+"
+"
 :
 object_store_id
 :
@@ -115802,6 +115824,8 @@ unique
 multientry
 :
 osid
+"
+"
 :
 locale
 "

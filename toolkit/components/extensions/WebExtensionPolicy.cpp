@@ -2277,6 +2277,9 @@ nsISupportsWeakReference
 }
 ;
 /
+/
+namespace
+/
 *
 static
 *

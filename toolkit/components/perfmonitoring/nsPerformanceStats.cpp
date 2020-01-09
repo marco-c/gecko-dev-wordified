@@ -2194,6 +2194,7 @@ size_is
 (
 aCount
 )
+*
 retval
 ]
 out
@@ -4138,10 +4139,10 @@ some
 strange
 behavior
 can
+/
+/
 break
 the
-/
-/
 regular
 shutdown
 order
@@ -6241,6 +6242,8 @@ the
 other
 items
 of
+/
+/
 recentGroups
 .
 MOZ_ASSERT
@@ -6381,6 +6384,8 @@ any
 time
 without
 fear
+/
+/
 of
 leaks
 .

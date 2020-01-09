@@ -322,9 +322,9 @@ tile
 note
 that
 this
+/
+/
 means
-/
-/
 tiled
 textures
 not
@@ -1163,8 +1163,8 @@ content
 side
 LayerManager
 includes
-properties
 *
+properties
 of
 the
 compositor
@@ -1177,9 +1177,9 @@ future
 )
 include
 information
+*
 about
 what
-*
 kinds
 of
 buffer
@@ -1462,8 +1462,8 @@ is
 useful
 for
 the
-compositable
 *
+compositable
 not
 the
 Texture
@@ -1475,10 +1475,10 @@ Textures
 only
 the
 compositable
+*
 type
 is
 really
-*
 useful
 .
 This

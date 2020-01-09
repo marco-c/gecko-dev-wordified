@@ -133,12 +133,14 @@ HANDLE_GL_ENUM
 (
 x
 )
+\
 case
 LOCAL_
 #
 #
 x
 :
+\
 return
 #
 x

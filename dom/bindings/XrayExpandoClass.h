@@ -241,7 +241,6 @@ xpc
 :
 JSSLOT_EXPANDO_COUNT
 +
-\
 (
 extraSlots_
 )
@@ -255,7 +254,6 @@ xpc
 :
 :
 XrayExpandoObjectClassOps
-\
 }
 namespace
 mozilla
@@ -272,12 +270,12 @@ DefaultXrayExpandoObjectClass
 /
 /
 namespace
-mozilla
+dom
 }
 /
 /
 namespace
-dom
+mozilla
 #
 endif
 /

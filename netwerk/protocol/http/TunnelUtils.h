@@ -900,6 +900,7 @@ TLSFilterTransaction
 #
 define
 NS_DECL_NUDGETUNNELCALLBACK
+\
 void
 OnTunnelNudged
 (
@@ -1365,9 +1366,9 @@ be
 used
 as
 a
+/
+/
 CONNECT
-/
-/
 tunnel
 but
 the
@@ -1380,6 +1381,8 @@ only
 carries
 the
 CONNECT
+/
+/
 error
 .
 void
@@ -1455,10 +1458,10 @@ spdy
 connect
 transaction
 is
+/
+/
 attached
 to
-/
-/
 an
 nsHttpConnection
 that
@@ -1468,6 +1471,8 @@ deal
 with
 flow
 control
+/
+/
 etc
 .
 .

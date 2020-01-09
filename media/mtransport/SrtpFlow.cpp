@@ -1447,6 +1447,5 @@ NS_OK
 }
 /
 /
-end
-of
 namespace
+mozilla

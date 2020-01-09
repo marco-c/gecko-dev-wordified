@@ -1022,9 +1022,9 @@ account
 the
 span
 of
+*
 each
 )
-*
 else
 check
 my

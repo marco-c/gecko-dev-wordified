@@ -577,10 +577,10 @@ the
 return
 value
 is
+/
+/
 S_OK
 .
-/
-/
 Otherwise
 it
 is

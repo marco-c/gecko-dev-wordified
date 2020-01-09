@@ -1588,9 +1588,9 @@ can
 '
 t
 keep
+/
+/
 up
-/
-/
 so
 we
 shoud
@@ -1605,9 +1605,9 @@ sent
 4
 textures
 to
+/
+/
 the
-/
-/
 compositor
 and
 the
@@ -1619,9 +1619,9 @@ any
 of
 them
 .
-/
-/
 In
+/
+/
 practice
 though
 the
@@ -1827,6 +1827,8 @@ non
 -
 shared
 buffer
+/
+/
 provider
 .
 return

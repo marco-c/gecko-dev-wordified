@@ -707,6 +707,8 @@ NPP_URLNotify
 may
 still
 be
+/
+/
 pending
 }
 mDestroyPending

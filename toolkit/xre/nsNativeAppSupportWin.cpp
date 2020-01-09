@@ -5285,11 +5285,13 @@ t
 case
 t
 :
+\
 result
 =
 #
 t
 ;
+\
 break
 static
 nsCString

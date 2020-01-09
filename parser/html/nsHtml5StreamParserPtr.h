@@ -868,6 +868,8 @@ a
 NULL
 nsHtml5StreamParserPtr
 with
+"
+"
 operator
 -
 >
@@ -971,6 +973,8 @@ a
 NULL
 nsHtml5StreamParserPtr
 with
+"
+"
 operator
 *
 (

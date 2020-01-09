@@ -2606,8 +2606,10 @@ rv
 }
 /
 /
+namespace
 widget
 }
 /
 /
+namespace
 mozilla

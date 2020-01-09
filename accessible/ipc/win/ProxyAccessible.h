@@ -377,6 +377,14 @@ mSafeToRecurse
 }
 ;
 }
+/
+/
+namespace
+a11y
 }
+/
+/
+namespace
+mozilla
 #
 endif

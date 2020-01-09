@@ -1654,6 +1654,7 @@ be
 freed
 at
 any
+*
 time
 .
 *
@@ -1793,6 +1794,7 @@ for
 use
 with
 this
+*
 DrawTarget
 .
 *
@@ -2115,9 +2117,9 @@ DrawTargetWrapAndRecord
 for
 a
 CreateSimilarDrawTarget
+*
 call
 .
-*
 We
 have
 to
@@ -2129,9 +2131,9 @@ up
 front
 and
 pass
+*
 it
 in
-*
 as
 it
 can

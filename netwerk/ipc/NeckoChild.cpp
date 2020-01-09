@@ -391,7 +391,7 @@ mozilla
 dom
 :
 :
-TCPSocketChild
+TCPServerSocketChild
 ;
 using
 mozilla
@@ -400,7 +400,7 @@ mozilla
 dom
 :
 :
-TCPServerSocketChild
+TCPSocketChild
 ;
 using
 mozilla

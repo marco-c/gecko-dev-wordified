@@ -145,6 +145,7 @@ nsScannerBufferList
 #
 define
 MAX_CAPACITY
+\
 (
 (
 UINT32_MAX
@@ -155,7 +156,6 @@ char16_t
 )
 )
 -
-\
 (
 sizeof
 (
@@ -1414,6 +1414,8 @@ likely
 invalidate
 tests
 like
+/
+/
 |
 while
 (
@@ -3070,6 +3072,8 @@ is
 looks
 for
 a
+/
+/
 potential
 match
 while
@@ -3121,6 +3125,8 @@ string
 .
 .
 .
+/
+/
 we
 '
 re
@@ -3188,6 +3194,8 @@ fast
 '
 loop
 )
+/
+/
 at
 the
 current
@@ -3246,6 +3254,8 @@ pattern
 then
 we
 found
+/
+/
 it
 !
 if
@@ -3273,6 +3283,8 @@ found
 range
 through
 the
+/
+/
 parameters
 break
 ;
@@ -3296,6 +3308,8 @@ we
 hit
 the
 end
+/
+/
 of
 the
 /
@@ -3346,6 +3360,8 @@ to
 the
 next
 search
+/
+/
 position
 /
 /
@@ -3419,11 +3435,11 @@ returns
 the
 last
 match
+*
 found
 if
 any
 .
-*
 This
 implementation
 will
@@ -3432,6 +3448,7 @@ replaced
 when
 I
 get
+*
 |
 reverse_iterator
 |
@@ -3555,6 +3572,8 @@ searchEnd
 but
 that
 misses
+/
+/
 overlapping
 patterns
 )

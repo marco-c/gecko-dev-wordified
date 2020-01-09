@@ -227,6 +227,10 @@ class
 SourceSurface
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 layers
 {

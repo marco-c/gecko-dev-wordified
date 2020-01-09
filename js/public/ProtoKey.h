@@ -235,8 +235,8 @@ that
 don
 '
 t
-correspond
 *
+correspond
 to
 real
 constructors
@@ -247,8 +247,8 @@ constructors
 that
 are
 disabled
-via
 *
+via
 preprocessor
 directives
 .
@@ -261,8 +261,8 @@ these
 in
 the
 JSProtoKey
-list
 *
+list
 in
 order
 to
@@ -276,8 +276,8 @@ need
 to
 provide
 a
-tool
 *
+tool
 to
 handle
 them
@@ -496,9 +496,9 @@ JS_FOR_PROTOTYPES_
 (
 REAL
 IMAGINARY
-\
 REAL_IF_INTL
 REAL_IF_BDATA
+\
 REAL_IF_SAB
 REAL_IF_BIGINT
 )
@@ -695,6 +695,7 @@ REAL
 (
 DebuggeeWouldRun
 InitViaClassSpec
+\
 ERROR_CLASP
 (
 JSEXN_DEBUGGEEWOULDRUN
@@ -926,6 +927,7 @@ REAL_IF_BDATA
 (
 TypedObject
 InitTypedObjectModuleObject
+\
 OCLASP
 (
 TypedObjectModule
@@ -953,6 +955,7 @@ REAL
 (
 TypedArray
 InitViaClassSpec
+\
 &
 js
 :
@@ -1015,6 +1018,7 @@ REAL
 (
 ReadableStreamDefaultReader
 InitViaClassSpec
+\
 &
 js
 :
@@ -1029,6 +1033,7 @@ REAL
 (
 ReadableStreamDefaultController
 InitViaClassSpec
+\
 &
 js
 :
@@ -1043,6 +1048,7 @@ REAL
 (
 ReadableByteStreamController
 InitViaClassSpec
+\
 &
 js
 :
@@ -1078,6 +1084,7 @@ REAL
 (
 ByteLengthQueuingStrategy
 InitViaClassSpec
+\
 &
 js
 :
@@ -1092,6 +1099,7 @@ REAL
 (
 CountQueuingStrategy
 InitViaClassSpec
+\
 &
 js
 :
@@ -1146,7 +1154,6 @@ WasmGlobal
 dummy
 dummy
 )
-\
 #
 define
 JS_FOR_PROTOTYPES
@@ -1158,9 +1165,7 @@ IMAGINARY
 JS_FOR_PROTOTYPES_
 (
 REAL
-\
 IMAGINARY
-\
 IF_INTL
 (
 REAL
@@ -1172,7 +1177,6 @@ IF_BDATA
 REAL
 IMAGINARY
 )
-\
 IF_SAB
 (
 REAL

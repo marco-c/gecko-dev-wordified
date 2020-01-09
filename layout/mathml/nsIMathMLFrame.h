@@ -949,12 +949,12 @@ down
 manner
 [
 like
+*
 nsIFrame
 :
 :
 Init
 ]
-*
 as
 we
 descend
@@ -962,6 +962,7 @@ the
 frame
 tree
 whereas
+*
 TransmitAutomaticData
 (
 )
@@ -969,7 +970,6 @@ is
 called
 in
 a
-*
 bottom
 -
 up
@@ -978,6 +978,7 @@ as
 we
 ascend
 the
+*
 tree
 [
 like
@@ -987,13 +988,13 @@ nsIFrame
 SetInitialChildList
 ]
 .
-*
 However
 unlike
 Init
 (
 )
 and
+*
 SetInitialChildList
 (
 )
@@ -1002,7 +1003,6 @@ are
 called
 only
 once
-*
 during
 the
 life
@@ -1010,6 +1010,7 @@ life
 time
 of
 a
+*
 frame
 (
 when
@@ -1019,11 +1020,11 @@ the
 frame
 tree
 )
-*
 these
 two
 methods
 are
+*
 called
 to
 build
@@ -1041,10 +1042,10 @@ math
 /
 math
 >
-*
 subtree
 has
 been
+*
 constructed
 fully
 and
@@ -1058,9 +1059,9 @@ a
 child
 '
 s
-*
 subtree
 to
+*
 handle
 dynamic
 changes
@@ -1158,8 +1159,8 @@ can
 safely
 query
 them
-and
 *
+and
 the
 process
 will
@@ -1181,6 +1182,7 @@ properties
 related
 to
 your
+*
 descendants
 :
 *
@@ -1196,8 +1198,8 @@ that
 you
 expect
 your
-descendants
 *
+descendants
 to
 have
 reached
@@ -1205,6 +1207,7 @@ upon
 processing
 their
 own
+*
 TransmitAutomaticData
 (
 )
@@ -1220,9 +1223,9 @@ expect
 that
 you
 will
+*
 transmit
 to
-*
 them
 in
 your
@@ -1235,6 +1238,7 @@ this
 way
 they
 remain
+*
 up
 -
 to
@@ -1269,8 +1273,8 @@ safely
 query
 them
 and
-the
 *
+the
 process
 will
 feed
@@ -1649,10 +1653,10 @@ this
 call
 .
 See
+*
 UpdatePresentationData
 (
 )
-*
 for
 more
 details
@@ -2683,6 +2687,7 @@ _flags
 NS_MATHML_STRETCH_ALL_CHILDREN_VERTICALLY
 =
 =
+\
 (
 (
 _flags
@@ -2702,6 +2707,7 @@ _flags
 NS_MATHML_STRETCH_ALL_CHILDREN_HORIZONTALLY
 =
 =
+\
 (
 (
 _flags
@@ -2797,6 +2803,7 @@ _flags
 NS_MATHML_SHOW_BOUNDING_METRICS
 =
 =
+\
 (
 (
 _flags
@@ -3132,6 +3139,7 @@ _flags
 NS_MATHML_EMBELLISH_MOVABLELIMITS
 =
 =
+\
 (
 (
 _flags
@@ -3189,6 +3197,7 @@ _flags
 NS_MATHML_EMBELLISH_ACCENTUNDER
 =
 =
+\
 (
 (
 _flags

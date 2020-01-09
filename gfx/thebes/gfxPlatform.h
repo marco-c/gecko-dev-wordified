@@ -1165,8 +1165,8 @@ which
 are
 not
 fully
-supported
 *
+supported
 on
 the
 current
@@ -1179,11 +1179,11 @@ in
 subtle
 ways
 .
+*
 This
 is
 a
 massive
-*
 potential
 footgun
 .
@@ -1194,11 +1194,11 @@ use
 these
 methods
 for
+*
 canvas
 drawing
 really
 .
-*
 Use
 extreme
 caution
@@ -1208,6 +1208,7 @@ use
 them
 for
 content
+*
 where
 you
 are
@@ -1216,7 +1217,6 @@ not
 %
 sure
 we
-*
 support
 the
 DrawTarget
@@ -1224,8 +1224,8 @@ we
 get
 back
 .
-*
 See
+*
 SupportsAzureContentForDrawTarget
 .
 *
@@ -2140,10 +2140,10 @@ object
 (
 gfxPlatformFontList
 concrete
+*
 subclass
 )
 .
-*
 This
 function
 is
@@ -2153,8 +2153,8 @@ create
 the
 appropriate
 subclass
-of
 *
+of
 gfxPlatformFontList
 *
 and
@@ -2218,11 +2218,11 @@ in
 the
 result
 of
+*
 GetFontList
 (
 )
 .
-*
 If
 the
 name
@@ -2236,6 +2236,7 @@ aFamilyName
 will
 be
 empty
+*
 string
 but
 not
@@ -4580,6 +4581,8 @@ by
 default
 on
 this
+/
+/
 platform
 .
 virtual
@@ -4599,6 +4602,8 @@ available
 compositor
 backends
 for
+/
+/
 acceleration
 .
 virtual
@@ -5204,8 +5209,8 @@ parent
 process
 ;
 child
-processes
 *
+processes
 should
 be
 updated
@@ -5217,6 +5222,7 @@ the
 value
 computed
 in
+*
 the
 parent
 .
@@ -5346,6 +5352,8 @@ canvas
 if
 the
 preferred
+/
+/
 backend
 fails
 mozilla

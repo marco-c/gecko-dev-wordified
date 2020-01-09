@@ -569,6 +569,8 @@ in
 this
 preview
 release
+"
+"
 (
 AssertedParameterName
 )
@@ -615,6 +617,8 @@ in
 this
 preview
 release
+"
+"
 (
 AssertedRestParameterName
 )
@@ -6344,6 +6348,8 @@ implementation
 is
 deanonymized
 and
+/
+/
 delegated
 to
 another
@@ -6395,6 +6401,8 @@ in
 this
 preview
 release
+"
+"
 (
 ArrayAssignmentTarget
 )
@@ -8623,6 +8631,8 @@ entry
 for
 the
 same
+"
+"
 index
 "
 )
@@ -10720,6 +10730,8 @@ in
 this
 preview
 release
+"
+"
 (
 BindingWithInitializer
 )
@@ -12715,6 +12727,8 @@ in
 this
 preview
 release
+"
+"
 (
 ComputedPropertyName
 )
@@ -13841,6 +13855,8 @@ in
 this
 preview
 release
+"
+"
 (
 EagerArrowExpressionWithExpression
 )
@@ -13894,6 +13910,8 @@ in
 this
 preview
 release
+"
+"
 (
 EagerArrowExpressionWithFunctionBody
 )
@@ -14190,6 +14208,8 @@ parse
 scope
 the
 arguments
+/
+/
 the
 function
 .
@@ -14621,6 +14641,8 @@ parse
 scope
 the
 arguments
+/
+/
 the
 function
 .
@@ -14991,6 +15013,8 @@ parse
 scope
 the
 arguments
+/
+/
 the
 function
 .
@@ -15419,6 +15443,8 @@ parse
 scope
 the
 arguments
+/
+/
 the
 function
 .
@@ -15786,6 +15812,8 @@ parse
 scope
 the
 arguments
+/
+/
 the
 function
 .
@@ -19146,6 +19174,8 @@ in
 this
 preview
 release
+"
+"
 (
 LazyArrowExpressionWithExpression
 )
@@ -19199,6 +19229,8 @@ in
 this
 preview
 release
+"
+"
 (
 LazyArrowExpressionWithFunctionBody
 )
@@ -20367,6 +20399,8 @@ in
 this
 preview
 release
+"
+"
 (
 LiteralInfinityExpression
 )
@@ -21486,6 +21520,8 @@ in
 this
 preview
 release
+"
+"
 (
 NewTargetExpression
 )
@@ -21539,6 +21575,8 @@ in
 this
 preview
 release
+"
+"
 (
 ObjectAssignmentTarget
 )
@@ -24009,6 +24047,8 @@ in
 this
 preview
 release
+"
+"
 (
 TemplateExpression
 )
@@ -25885,6 +25925,8 @@ check
 for
 BindingPattern
 variable
+"
+"
 declaration
 "
 )
@@ -26307,6 +26349,8 @@ in
 this
 preview
 release
+"
+"
 (
 YieldStarExpression
 )

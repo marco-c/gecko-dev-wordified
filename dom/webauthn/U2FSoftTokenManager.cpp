@@ -516,6 +516,9 @@ Version1
 }
 ;
 }
+/
+/
+namespace
 U2FSoftTokenManager
 :
 :
@@ -6431,4 +6434,12 @@ aborted
 .
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

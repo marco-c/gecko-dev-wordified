@@ -93,6 +93,8 @@ in
 C
 +
 +
+/
+/
 Gtests
 .
 namespace

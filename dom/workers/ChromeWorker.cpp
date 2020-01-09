@@ -561,10 +561,10 @@ wrapper
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

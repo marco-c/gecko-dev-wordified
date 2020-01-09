@@ -470,7 +470,7 @@ eLog
 }
 /
 /
-anonymous
+namespace
 ConsoleInstance
 :
 :
@@ -672,7 +672,6 @@ string
 )
 \
 void
-\
 ConsoleInstance
 :
 :
@@ -681,6 +680,7 @@ name
 JSContext
 *
 aCx
+\
 const
 Sequence
 <
@@ -692,7 +692,6 @@ Value
 &
 aData
 )
-\
 {
 \
 mConsole

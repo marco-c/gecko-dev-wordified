@@ -215,7 +215,15 @@ eLogToConsole
 }
 ;
 }
+/
+/
+namespace
+css
 }
+/
+/
+namespace
+mozilla
 class
 nsLayoutStylesheetCache
 final

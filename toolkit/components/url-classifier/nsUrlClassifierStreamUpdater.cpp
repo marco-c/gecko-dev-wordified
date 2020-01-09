@@ -419,6 +419,7 @@ define
 LOG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 gUrlClassifierStreamUpdaterLog
@@ -3126,9 +3127,9 @@ any
 u
 :
 "
+/
+/
 lines
-/
-/
 that
 we
 encountered
@@ -3141,9 +3142,9 @@ response
 It
 is
 NOT
+/
+/
 for
-/
-/
 scheduling
 the
 next
@@ -3160,9 +3161,9 @@ That
 '
 s
 a
+/
+/
 different
-/
-/
 timer
 in
 listmanager
@@ -3212,6 +3213,8 @@ fetching
 next
 safebrowsing
 item
+"
+"
 immediately
 "
 )
@@ -4856,9 +4859,9 @@ OnStartRequest
 so
 we
 check
+/
+/
 mTimeoutTimer
-/
-/
 to
 see
 whether
@@ -5540,6 +5543,8 @@ the
 update
 server
 to
+"
+"
 respond
 .
 "
@@ -5624,6 +5629,8 @@ the
 update
 server
 to
+"
+"
 finish
 .
 "

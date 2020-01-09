@@ -573,9 +573,9 @@ must
 get
 the
 accessible
+/
+/
 text
-/
-/
 from
 the
 accessible

@@ -298,12 +298,12 @@ but
 it
 must
 only
+/
+/
 be
 used
 from
 a
-/
-/
 single
 thread
 .
@@ -325,6 +325,8 @@ for
 the
 current
 CPU
+/
+/
 architecture
 .
 /
@@ -342,6 +344,8 @@ be
 freed
 by
 calling
+/
+/
 cranelift_compiler_destroy
 .
 CraneliftCompiler

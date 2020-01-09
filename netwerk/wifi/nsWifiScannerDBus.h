@@ -248,6 +248,7 @@ mAccessPoints
 }
 /
 /
+namespace
 mozilla
 #
 endif

@@ -3854,13 +3854,13 @@ this
 wrapper
 for
 as
+/
+/
 long
 as
 the
 binding
 remains
-/
-/
 alive
 .
 At
@@ -3870,6 +3870,8 @@ the
 binding
 is
 cleared
+/
+/
 out
 of
 the
@@ -3879,10 +3881,10 @@ will
 remove
 the
 wrapper
-/
-/
 from
 the
+/
+/
 bindingManager
 as
 well

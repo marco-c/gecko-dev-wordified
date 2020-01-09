@@ -442,7 +442,7 @@ from
 }
 /
 /
-anon
+namespace
 namespace
 detail
 {
@@ -1218,6 +1218,7 @@ endif
 }
 /
 /
+namespace
 detail
 CacheIOThread
 *
@@ -2923,6 +2924,8 @@ events
 and
 wants
 to
+/
+/
 rerun
 .
 returnEvents

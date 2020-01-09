@@ -540,8 +540,8 @@ the
 data
 it
 needs
-to
 *
+to
 run
 synchronously
 it
@@ -554,8 +554,8 @@ async
 task
 to
 finish
-up
 *
+up
 the
 work
 when

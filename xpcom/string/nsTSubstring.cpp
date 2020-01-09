@@ -1693,9 +1693,9 @@ fit
 into
 a
 full
+/
+/
 mozjemalloc
-/
-/
 bucket
 it
 '
@@ -1708,10 +1708,10 @@ realloc
 which
 may
 spend
+/
+/
 time
 uselessly
-/
-/
 copying
 too
 much
@@ -2156,6 +2156,8 @@ mDataFlags
 are
 purposefully
 left
+/
+/
 dangling
 }
 template

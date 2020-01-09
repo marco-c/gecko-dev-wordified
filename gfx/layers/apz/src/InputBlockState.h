@@ -887,10 +887,10 @@ always
 wait
 for
 web
+*
 content
 '
 s
-*
 response
 .
 Instead
@@ -904,8 +904,8 @@ this
 flag
 in
 the
-case
 *
+case
 where
 web
 content
@@ -918,8 +918,8 @@ time
 .
 The
 mContentResponded
-*
 and
+*
 mContentResponseTimerExpired
 flags
 indicate
@@ -2615,8 +2615,8 @@ the
 allowed
 touch
 behaviors
-for
 *
+for
 this
 touch
 block
@@ -2652,8 +2652,8 @@ the
 allowed
 touch
 behaviors
-for
 *
+for
 this
 touch
 block

@@ -648,6 +648,8 @@ to
 web
 console
 from
+"
+"
 parent
 -
 >
@@ -2962,6 +2964,9 @@ CheckOriginHeader
 nsIHttpHeaderVisitor
 )
 }
+/
+/
+namespace
 nsresult
 nsCORSListenerProxy
 :
@@ -4233,6 +4238,8 @@ NS_ERROR_DOM_BAD_URI
 already
 logged
 in
+/
+/
 CheckRequestApproved
 (
 )
@@ -8615,6 +8622,8 @@ level
 loads
 so
 a
+"
+"
 loadingPrincipal
 should
 always

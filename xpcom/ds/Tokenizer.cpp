@@ -3264,6 +3264,9 @@ nsCaseInsensitiveStringComparator
 }
 ;
 }
+/
+/
+namespace
 template
 <
 typename
@@ -4377,4 +4380,5 @@ char16_t
 }
 /
 /
+namespace
 mozilla

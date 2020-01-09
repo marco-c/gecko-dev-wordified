@@ -1314,6 +1314,8 @@ error
 to
 page
 origin
+"
+"
 (
 %
 f
@@ -1435,6 +1437,8 @@ ParentLayerCoords
 /
 millisecond
 to
+/
+/
 ParentLayerCoords
 /
 second

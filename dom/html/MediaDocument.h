@@ -160,6 +160,7 @@ h
 #
 define
 NSMEDIADOCUMENT_PROPERTIES_URI
+\
 "
 chrome
 :

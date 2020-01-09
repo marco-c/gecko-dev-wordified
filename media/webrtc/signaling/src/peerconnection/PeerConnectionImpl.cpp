@@ -867,6 +867,7 @@ h
 #
 define
 ICE_PARSING
+\
 "
 In
 RTCConfiguration
@@ -1278,6 +1279,9 @@ isCopy
 JS_HAZ_ROOTED
 ;
 }
+/
+/
+namespace
 static
 nsresult
 InitNSSInContent
@@ -2465,9 +2469,9 @@ chrome
 process
 NSS
 should
+/
+/
 already
-/
-/
 been
 initialized
 .
@@ -5120,10 +5124,10 @@ force_maximum_message_size
 '
 change
 behaviour
+/
+/
 triggered
 by
-/
-/
 these
 parameters
 .
@@ -11495,6 +11499,8 @@ this
 from
 the
 DOM
+/
+/
 track
 .
 MediaSegment
@@ -11539,6 +11545,8 @@ this
 from
 the
 DOM
+/
+/
 track
 .
 MediaSegment
@@ -14217,6 +14225,8 @@ keep
 going
 without
 major
+/
+/
 restructuring
 }
 if
@@ -18864,6 +18874,5 @@ nsITimerCallback
 }
 /
 /
-end
-mozilla
 namespace
+mozilla

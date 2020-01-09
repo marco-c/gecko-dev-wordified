@@ -363,6 +363,7 @@ consumer
 }
 /
 /
+namespace
 mozilla
 #
 endif

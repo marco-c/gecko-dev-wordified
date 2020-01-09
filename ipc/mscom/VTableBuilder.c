@@ -323,9 +323,9 @@ The
 |
 lpVtbl
 |
+/
+/
 pointer
-/
-/
 as
 well
 as
@@ -342,10 +342,10 @@ this
 |
 right
 when
+/
+/
 something
 calls
-/
-/
 through
 one
 of

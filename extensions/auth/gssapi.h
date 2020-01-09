@@ -1104,6 +1104,7 @@ gss_channel_bindings_t
 #
 define
 GSS_C_EMPTY_BUFFER
+\
 {
 0
 nullptr
@@ -2300,7 +2301,6 @@ errors
 #
 define
 GSS_S_CALL_INACCESSIBLE_READ
-\
 (
 1ul
 <
@@ -2310,7 +2310,6 @@ GSS_C_CALLING_ERROR_OFFSET
 #
 define
 GSS_S_CALL_INACCESSIBLE_WRITE
-\
 (
 2ul
 <
@@ -2320,7 +2319,6 @@ GSS_C_CALLING_ERROR_OFFSET
 #
 define
 GSS_S_CALL_BAD_STRUCTURE
-\
 (
 3ul
 <

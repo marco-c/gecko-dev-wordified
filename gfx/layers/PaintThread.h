@@ -198,6 +198,10 @@ DrawTargetCapture
 ;
 }
 ;
+/
+/
+namespace
+gfx
 namespace
 layers
 {

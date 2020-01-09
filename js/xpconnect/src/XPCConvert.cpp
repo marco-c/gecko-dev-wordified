@@ -5453,9 +5453,9 @@ shortcut
 the
 JSArray2Native
 codepath
+/
+/
 in
-/
-/
 its
 caller
 if
@@ -5501,9 +5501,9 @@ be
 allowed
 for
 arrays
+/
+/
 if
-/
-/
 arrlen
 is
 0
@@ -6086,9 +6086,9 @@ In
 that
 case
 the
+/
+/
 object
-/
-/
 to
 use
 is
@@ -6107,10 +6107,10 @@ is
 null
 then
 the
+/
+/
 object
 will
-/
-/
 create
 (
 and
@@ -11124,6 +11124,7 @@ type
 case
 tag
 :
+\
 new
 (
 aValue
@@ -11132,6 +11133,7 @@ type
 (
 )
 ;
+\
 break
 ;
 XPT_FOR_EACH_COMPLEX_TYPE
@@ -11314,6 +11316,7 @@ type
 case
 tag
 :
+\
 _DestructValueHelper
 <
 type
@@ -11322,6 +11325,7 @@ type
 aValue
 )
 ;
+\
 break
 ;
 XPT_FOR_EACH_COMPLEX_TYPE

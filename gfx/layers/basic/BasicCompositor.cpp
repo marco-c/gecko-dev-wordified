@@ -3441,6 +3441,8 @@ SSSE3
 for
 fast
 YUV
+/
+/
 conversion
 .
 return
@@ -5488,6 +5490,8 @@ a
 widget
 -
 provided
+/
+/
 mDrawTarget
 (
 currently
@@ -5496,11 +5500,11 @@ currently
 Use
 a
 dummy
-/
-/
 placeholder
 so
 that
+/
+/
 CreateRenderTarget
 (
 )
@@ -5528,6 +5532,8 @@ copy
 the
 results
 the
+/
+/
 destination
 .
 mDrawTarget

@@ -983,6 +983,8 @@ just
 output
 a
 single
+/
+/
 image
 .
 CompositableClient

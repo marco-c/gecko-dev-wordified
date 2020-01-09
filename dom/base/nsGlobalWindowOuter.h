@@ -2644,7 +2644,6 @@ GetOn
 name_
 (
 )
-\
 {
 \
 mozilla
@@ -2697,7 +2696,6 @@ EventHandlerNonNull
 *
 handler
 )
-\
 {
 \
 mozilla
@@ -2761,7 +2759,6 @@ GetOn
 name_
 (
 )
-\
 {
 \
 mozilla
@@ -2807,7 +2804,6 @@ OnErrorEventHandlerNonNull
 *
 handler
 )
-\
 {
 \
 mozilla
@@ -2864,7 +2860,6 @@ GetOn
 name_
 (
 )
-\
 {
 \
 mozilla
@@ -2900,6 +2895,7 @@ SetOn
 #
 name_
 (
+\
 mozilla
 :
 :
@@ -2910,7 +2906,6 @@ OnBeforeUnloadEventHandlerNonNull
 *
 handler
 )
-\
 {
 \
 mozilla

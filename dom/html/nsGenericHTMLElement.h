@@ -319,13 +319,13 @@ using
 Element
 :
 :
-SetTabIndex
+Focus
 ;
 using
 Element
 :
 :
-Focus
+SetTabIndex
 ;
 explicit
 nsGenericHTMLElement
@@ -5551,6 +5551,7 @@ FORM_ELEMENT_FLAG_BIT
 (
 n_
 )
+\
 NODE_FLAG_BIT
 (
 ELEMENT_TYPE_SPECIFIC_BITS_OFFSET
@@ -7229,7 +7230,6 @@ Element
 \
 nsGenericHTMLElement
 *
-\
 NS_NewHTML
 #
 #
@@ -7238,6 +7238,7 @@ _elementName
 #
 Element
 (
+\
 already_AddRefed
 <
 mozilla
@@ -7280,7 +7281,6 @@ _elementName
 inline
 nsGenericHTMLElement
 *
-\
 NS_NewHTML
 #
 #
@@ -7289,6 +7289,7 @@ _elementName
 #
 Element
 (
+\
 already_AddRefed
 <
 mozilla
@@ -7320,7 +7321,6 @@ dom
 :
 NOT_FROM_PARSER
 )
-\
 {
 \
 return
@@ -7363,7 +7363,6 @@ _elementName
 \
 nsGenericHTMLElement
 *
-\
 NS_NewHTML
 #
 #
@@ -7372,6 +7371,7 @@ _elementName
 #
 Element
 (
+\
 already_AddRefed
 <
 mozilla
@@ -7395,7 +7395,6 @@ dom
 FromParser
 aFromParser
 )
-\
 {
 \
 return
@@ -7414,6 +7413,7 @@ _elementName
 #
 Element
 (
+\
 std
 :
 :
@@ -7434,7 +7434,6 @@ _elementName
 \
 nsGenericHTMLElement
 *
-\
 NS_NewHTML
 #
 #
@@ -7443,6 +7442,7 @@ _elementName
 #
 Element
 (
+\
 already_AddRefed
 <
 mozilla
@@ -7466,7 +7466,6 @@ dom
 FromParser
 aFromParser
 )
-\
 {
 \
 return
@@ -7577,9 +7576,9 @@ function
 pointer
 that
 compared
+/
+/
 unequal
-/
-/
 to
 a
 function

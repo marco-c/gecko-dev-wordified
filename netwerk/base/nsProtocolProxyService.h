@@ -244,11 +244,12 @@ define
 NS_PROTOCOL_PROXY_SERVICE_IMPL_CID
 \
 {
+\
 0x091eedd8
 0x8bae
 0x4fe3
-\
 {
+\
 0xad
 0x62
 0x0c
@@ -257,7 +258,9 @@ NS_PROTOCOL_PROXY_SERVICE_IMPL_CID
 0x1e
 0x64
 0x0d
+\
 }
+\
 }
 class
 nsProtocolProxyService

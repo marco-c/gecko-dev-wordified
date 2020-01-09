@@ -223,12 +223,12 @@ TYPE
 xmm3
 "
 TYPE
-\
 "
 %
 xmm4
 "
 TYPE
+\
 "
 %
 xmm5
@@ -244,7 +244,6 @@ TYPE
 xmm7
 "
 TYPE
-\
 "
 %
 xmm8
@@ -255,6 +254,7 @@ TYPE
 xmm9
 "
 TYPE
+\
 "
 %
 xmm10
@@ -265,7 +265,6 @@ TYPE
 xmm11
 "
 TYPE
-\
 "
 %
 xmm12
@@ -276,6 +275,7 @@ TYPE
 xmm13
 "
 TYPE
+\
 "
 %
 xmm14
@@ -315,12 +315,12 @@ TYPE
 xmm3
 "
 TYPE
-\
 "
 %
 xmm4
 "
 TYPE
+\
 "
 %
 xmm5

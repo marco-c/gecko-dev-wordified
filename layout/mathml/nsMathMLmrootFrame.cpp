@@ -384,9 +384,9 @@ by
 and
 sets
 displaystyle
+/
+/
 to
-/
-/
 "
 false
 "
@@ -398,6 +398,8 @@ both
 attributes
 unchanged
 within
+/
+/
 base
 .
 /
@@ -1357,6 +1359,8 @@ using
 '
 (
 TexBook
+/
+/
 p
 .
 131
@@ -1506,6 +1510,8 @@ it
 is
 not
 big
+/
+/
 enough
 .
 nsBoundingMetrics
@@ -1616,10 +1622,10 @@ index
 is
 not
 yet
+/
+/
 included
 )
-/
-/
 the
 baseline
 will

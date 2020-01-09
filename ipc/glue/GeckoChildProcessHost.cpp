@@ -6317,9 +6317,9 @@ failure
 as
 fatal
 in
+/
+/
 SetSecurityLevelForContentProcess
-/
-/
 and
 just
 crash
@@ -6327,6 +6327,8 @@ there
 right
 away
 .
+/
+/
 Should
 this
 change
@@ -6335,13 +6337,13 @@ the
 future
 then
 we
-/
-/
 should
 also
 handle
 the
 error
+/
+/
 here
 .
 mSandboxBroker
@@ -6623,9 +6625,9 @@ failure
 as
 fatal
 in
+/
+/
 SetSecurityLevelForGPUProcess
-/
-/
 and
 just
 crash
@@ -6634,6 +6636,8 @@ right
 away
 .
 Should
+/
+/
 this
 change
 in
@@ -6641,8 +6645,6 @@ the
 future
 then
 we
-/
-/
 should
 also
 handle

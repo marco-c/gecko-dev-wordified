@@ -575,8 +575,10 @@ OUTPUT_ATTRIBUTE
 (
 X
 )
+\
 do
 {
+\
 if
 (
 def
@@ -595,6 +597,7 @@ value
 X
 )
 ;
+\
 }
 while
 (

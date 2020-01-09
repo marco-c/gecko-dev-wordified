@@ -718,6 +718,7 @@ report
 events
 to
 this
+*
 object
 .
 *
@@ -831,6 +832,8 @@ that
 Unregister
 is
 called
+/
+/
 before
 destroying
 a
@@ -859,9 +862,9 @@ notified
 when
 the
 audio
+/
+/
 device
-/
-/
 changes
 .
 PluginModuleSet

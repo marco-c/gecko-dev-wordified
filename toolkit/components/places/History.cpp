@@ -3673,6 +3673,8 @@ cannot
 get
 the
 history
+"
+"
 service
 !
 "
@@ -10103,6 +10105,8 @@ url
 ?
 1
 AND
+"
+"
 last_visit_date
 NOTNULL
 "
@@ -10534,6 +10538,8 @@ rev_host
 hidden
 :
 typed
+"
+"
 :
 frecency
 :
@@ -11417,6 +11423,8 @@ hidden
 typed
 frecency
 visit_count
+"
+"
 last_visit_date
 "
 "
@@ -11441,6 +11449,8 @@ h
 last_visit_date
 )
 AS
+"
+"
 last_visit_id
 "
 "
@@ -11511,6 +11521,8 @@ hidden
 typed
 frecency
 visit_count
+"
+"
 last_visit_date
 "
 "
@@ -11535,6 +11547,8 @@ h
 last_visit_date
 )
 AS
+"
+"
 last_visit_id
 "
 "
@@ -12592,6 +12606,8 @@ and
 is
 younger
 than
+/
+/
 RECENTLY_VISITED_URIS_MAX_AGE
 .
 return

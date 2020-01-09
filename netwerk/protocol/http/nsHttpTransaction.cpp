@@ -1397,9 +1397,9 @@ still
 throttled
 in
 WriteSegments
+/
+/
 or
-/
-/
 simply
 reset
 to
@@ -2027,13 +2027,11 @@ Init
 (
 )
 "
-\
 "
 mActivityDistributor
 is
 active
 "
-\
 "
 this
 =
@@ -3023,6 +3021,8 @@ input
 stream
 using
 throttle
+"
+"
 queue
 %
 p
@@ -5258,9 +5258,9 @@ ReadSegments
 )
 stack
 from
+/
+/
 nsSocketTransport
-/
-/
 do
 it
 now
@@ -5332,6 +5332,8 @@ a
 cue
 to
 return
+/
+/
 ERETARGETED
 if
 (
@@ -6509,6 +6511,8 @@ a
 cue
 to
 return
+/
+/
 ERETARGETED
 if
 (
@@ -12292,6 +12296,8 @@ read
 =
 %
 u
+"
+"
 mContentRead
 =
 %
@@ -13209,9 +13215,9 @@ is
 associated
 with
 a
+/
+/
 connection
-/
-/
 (
 i
 .
@@ -13231,9 +13237,9 @@ etc
 .
 .
 )
-/
-/
 It
+/
+/
 is
 safe
 to
@@ -13244,8 +13250,6 @@ times
 with
 it
 only
-/
-/
 having
 an
 effect

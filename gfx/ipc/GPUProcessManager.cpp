@@ -2427,6 +2427,8 @@ and
 configuration
 for
 accelerated
+/
+/
 features
 .
 gfxPlatform
@@ -4992,10 +4994,10 @@ so
 we
 allow
 this
+/
+/
 to
 be
-/
-/
 fallible
 .
 CreateContentVideoDecoderManager
@@ -5013,6 +5015,8 @@ namespaces
 for
 CompositorManagerChild
 CompositorBridgeChild
+/
+/
 and
 ImageBridgeChild
 )

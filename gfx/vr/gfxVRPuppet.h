@@ -196,6 +196,10 @@ struct
 PixelShaderConstants
 ;
 }
+/
+/
+namespace
+layers
 namespace
 gfx
 {

@@ -699,9 +699,9 @@ the
 GPUProcessManager
 .
 It
+/
+/
 already
-/
-/
 knows
 we
 '
@@ -716,10 +716,10 @@ and
 in
 fact
 the
+/
+/
 GPM
 could
-/
-/
 have
 already
 been

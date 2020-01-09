@@ -138,6 +138,10 @@ ChildEventData
 }
 /
 /
+namespace
+mozilla
+/
+/
 This
 module
 is

@@ -716,7 +716,7 @@ mSize
 }
 /
 /
-anonymous
+namespace
 IPCBlobInputStreamChild
 :
 :

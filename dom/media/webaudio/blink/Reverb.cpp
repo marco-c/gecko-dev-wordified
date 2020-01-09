@@ -334,6 +334,8 @@ impulse
 responses
 to
 ensure
+/
+/
 perceived
 volume
 is
@@ -375,6 +377,8 @@ very
 quiet
 )
 impulse
+/
+/
 response
 const
 float
@@ -520,6 +524,8 @@ perceived
 volume
 same
 as
+/
+/
 unprocessed
 /
 /
@@ -885,6 +891,8 @@ and
 still
 do
 stereo
+/
+/
 processing
 size_t
 numResponseChannels
@@ -1071,6 +1079,8 @@ temporary
 buffer
 to
 avoid
+/
+/
 repeatedly
 allocating
 it
@@ -1081,14 +1091,14 @@ process
 )
 method
 .
-/
-/
 It
 can
 be
 bad
 to
 allocate
+/
+/
 memory
 in
 a
@@ -1159,6 +1169,8 @@ the
 source
 and
 destination
+/
+/
 pointers
 will
 be
@@ -1870,6 +1882,8 @@ impulse
 response
 but
 we
+/
+/
 should
 handle
 the

@@ -508,6 +508,8 @@ let
 s
 allow
 it
+/
+/
 now
 return
 true
@@ -1708,9 +1710,9 @@ is
 only
 used
 for
+/
+/
 temporary
-/
-/
 loadInfos
 used
 for
@@ -1720,10 +1722,10 @@ checks
 but
 never
 be
+/
+/
 set
 as
-/
-/
 a
 security
 flag
@@ -2504,6 +2506,8 @@ on
 callsite
 basis
 .
+/
+/
 see
 also
 :
@@ -4998,8 +5002,8 @@ AsyncOpen2
 that
 is
 now
-potentially
 *
+potentially
 wrappend
 within
 nsCORSListenerProxy
@@ -5008,11 +5012,11 @@ nsCORSListenerProxy
 and
 becomes
 the
+*
 corsListener
 that
 now
 needs
-*
 to
 be
 set
@@ -6353,6 +6357,8 @@ consider
 calling
 SetBlockedRequest
 in
+/
+/
 nsContentSecurityManager
 :
 :
@@ -6748,9 +6754,9 @@ protocols
 we
 consider
 a
+/
+/
 priori
-/
-/
 authenticated
 .
 bool

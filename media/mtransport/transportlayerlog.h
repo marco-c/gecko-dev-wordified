@@ -233,7 +233,7 @@ TransportLayerLogging
 }
 /
 /
-close
 namespace
+mozilla
 #
 endif

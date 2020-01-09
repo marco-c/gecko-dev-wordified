@@ -2467,6 +2467,7 @@ target
 :
 GL_TEXTURE_2D
 or
+*
 GL_TEXTURE_CUBE_MAP
 .
 *
@@ -4963,7 +4964,6 @@ elemCountOverride
 =
 0
 )
-\
 {
 \
 UniformNfv
@@ -5050,7 +5050,6 @@ elemCountOverride
 =
 0
 )
-\
 {
 \
 UniformNiv
@@ -5137,7 +5136,6 @@ elemCountOverride
 =
 0
 )
-\
 {
 \
 UniformNuiv
@@ -5229,7 +5227,6 @@ elemCountOverride
 =
 0
 )
-\
 {
 \
 UniformMatrixAxBfv
@@ -9252,9 +9249,9 @@ s
 be
 explicit
 that
+/
+/
 these
-/
-/
 are
 implementation
 limits
@@ -9696,6 +9693,8 @@ caller
 type
 (
 this
+/
+/
 decides
 what
 getSupportedExtensions
@@ -10733,8 +10732,8 @@ be
 different
 from
 other
-objects
 *
+objects
 in
 that
 their
@@ -10746,9 +10745,9 @@ defined
 However
 they
 also
+*
 appear
 to
-*
 allow
 use
 of
@@ -11422,9 +11421,9 @@ State
 "
 in
 the
+/
+/
 spec
-/
-/
 state
 tables
 this
@@ -11441,10 +11440,10 @@ state
 This
 array
 is
+/
+/
 merely
 state
-/
-/
 useful
 to
 vertex

@@ -2259,4 +2259,4 @@ false
 /
 /
 namespace
-crashreporter
+CrashReporter

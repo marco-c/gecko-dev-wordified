@@ -754,6 +754,7 @@ mozPoisonValue
 }
 /
 /
+namespace
 mozilla
 #
 endif

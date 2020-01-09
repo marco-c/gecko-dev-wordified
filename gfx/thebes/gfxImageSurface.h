@@ -742,6 +742,7 @@ TRUE
 if
 successful
 FALSE
+*
 otherwise
 *
 /
@@ -769,8 +770,8 @@ TRUE
 if
 successful
 FALSE
-otherwise
 *
+otherwise
 Assumes
 that
 the
@@ -781,6 +782,7 @@ surface
 is
 compatable
 with
+*
 aSurface
 *
 /

@@ -307,9 +307,9 @@ we
 are
 in
 a
+/
+/
 grid
-/
-/
 ask
 the
 grid
@@ -652,10 +652,10 @@ change
 the
 box
 sizes
+/
+/
 before
 layout
-/
-/
 If
 we
 are
@@ -670,6 +670,8 @@ match
 our
 columns
 .
+/
+/
 If
 we
 are
@@ -679,8 +681,6 @@ then
 do
 the
 opposite
-/
-/
 and
 make
 them
@@ -1403,10 +1403,10 @@ then
 there
 could
 be
+/
+/
 scrollbars
 present
-/
-/
 if
 so
 we
@@ -1419,6 +1419,8 @@ to
 make
 sure
 our
+/
+/
 columns
 line
 up

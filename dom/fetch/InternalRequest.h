@@ -2330,9 +2330,9 @@ Link
 :
 AsDestination
 enum
+/
+/
 type
-/
-/
 the
 latter
 is
@@ -2360,6 +2360,8 @@ AsValueToContentPolicy
 to
 our
 canonical
+/
+/
 nsContentPolicyType
 .
 static

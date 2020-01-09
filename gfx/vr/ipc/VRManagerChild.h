@@ -992,12 +992,12 @@ VRManagerChild
 /
 /
 namespace
-mozilla
+gfx
 }
 /
 /
 namespace
-gfx
+mozilla
 #
 endif
 /

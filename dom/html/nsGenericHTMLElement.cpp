@@ -1505,9 +1505,9 @@ and
 table
 are
 acceptable
+/
+/
 offsetParents
-/
-/
 apart
 from
 body
@@ -1519,12 +1519,12 @@ we
 need
 to
 check
+/
+/
 the
 content
 type
 as
-/
-/
 well
 as
 the
@@ -1535,12 +1535,12 @@ we
 ignore
 anonymous
 tables
+/
+/
 created
 by
 an
 element
-/
-/
 with
 display
 :
@@ -5246,7 +5246,6 @@ struct_
 \
 EventHandlerNonNull
 *
-\
 nsGenericHTMLElement
 :
 :
@@ -5256,7 +5255,6 @@ GetOn
 name_
 (
 )
-\
 {
 \
 if
@@ -5356,7 +5354,6 @@ name_
 }
 \
 void
-\
 nsGenericHTMLElement
 :
 :
@@ -5369,7 +5366,6 @@ EventHandlerNonNull
 *
 handler
 )
-\
 {
 \
 if
@@ -5472,7 +5468,6 @@ already_AddRefed
 <
 EventHandlerNonNull
 >
-\
 nsGenericHTMLElement
 :
 :
@@ -5482,7 +5477,6 @@ GetOn
 name_
 (
 )
-\
 {
 \
 if
@@ -5628,7 +5622,6 @@ forget
 }
 \
 void
-\
 nsGenericHTMLElement
 :
 :
@@ -5641,7 +5634,6 @@ EventHandlerNonNull
 *
 handler
 )
-\
 {
 \
 if
@@ -14659,6 +14651,8 @@ is
 we
 '
 re
+/
+/
 focusable
 *
 aIsFocusable
@@ -15080,6 +15074,8 @@ need
 to
 do
 something
+/
+/
 different
 here
 ?

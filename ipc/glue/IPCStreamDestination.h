@@ -150,8 +150,8 @@ ByteBuffer
 }
 /
 /
-wr
 namespace
+wr
 namespace
 ipc
 {

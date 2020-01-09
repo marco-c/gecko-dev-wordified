@@ -248,6 +248,7 @@ JS_SIMULATOR_MIPS64
 )
 |
 |
+\
 defined
 (
 JS_SIMULATOR_MIPS32
@@ -275,7 +276,6 @@ count
 exception
 format
 )
-\
 name
 #
 include

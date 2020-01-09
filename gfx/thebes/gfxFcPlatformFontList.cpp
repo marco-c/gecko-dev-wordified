@@ -384,7 +384,7 @@ mozilla
 dom
 :
 :
-SystemFontListEntry
+FontPatternListEntry
 ;
 using
 mozilla
@@ -393,7 +393,7 @@ mozilla
 dom
 :
 :
-FontPatternListEntry
+SystemFontListEntry
 ;
 #
 ifndef
@@ -441,6 +441,7 @@ LOG_FONTLIST
 (
 args
 )
+\
 MOZ_LOG
 (
 gfxPlatform
@@ -450,7 +451,6 @@ GetLog
 (
 eGfxLog_fontlist
 )
-\
 LogLevel
 :
 :
@@ -462,9 +462,9 @@ define
 LOG_FONTLIST_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
-\
 gfxPlatform
 :
 :
@@ -472,7 +472,6 @@ GetLog
 (
 eGfxLog_fontlist
 )
-\
 LogLevel
 :
 :
@@ -483,9 +482,9 @@ define
 LOG_CMAPDATA_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
-\
 gfxPlatform
 :
 :
@@ -493,7 +492,6 @@ GetLog
 (
 eGfxLog_cmapdata
 )
-\
 LogLevel
 :
 :
@@ -9726,6 +9724,8 @@ ignore
 leading
 whitespace
 in
+/
+/
 parameters
 "
 /
@@ -11754,6 +11754,8 @@ Nimbus
 Sans
 L
 DejaVu
+/
+/
 Serif
 /
 /

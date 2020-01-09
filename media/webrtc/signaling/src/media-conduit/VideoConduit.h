@@ -582,8 +582,8 @@ concrete
 mozilla
 Video
 renderer
-implementation
 *
+implementation
 Note
 :
 Multiple
@@ -594,9 +594,9 @@ API
 shall
 remove
 an
+*
 existing
 renderer
-*
 and
 attaches
 the
@@ -978,8 +978,8 @@ RTCP
 frames
 from
 the
-VideoEngine
 *
+VideoEngine
 shall
 be
 passed
@@ -989,6 +989,7 @@ registered
 transport
 for
 transporting
+*
 externally
 .
 *
@@ -1030,9 +1031,9 @@ resolution
 based
 on
 incoming
+*
 frame
 size
-*
 and
 current
 available
@@ -3027,6 +3028,8 @@ against
 us
 .
 Any
+/
+/
 thread
 .
 const
@@ -3209,6 +3212,8 @@ main
 thread
 and
 read
+/
+/
 anywhere
 .
 mozilla
@@ -4072,7 +4077,7 @@ mPCHandle
 }
 /
 /
-end
 namespace
+mozilla
 #
 endif

@@ -142,10 +142,10 @@ accumulate
 Telemetry
 from
 child
+/
+/
 processes
 .
-/
-/
 Top
 -
 level
@@ -155,12 +155,12 @@ different
 child
 processes
 types
+/
+/
 (
 ContentParent
 GPUChild
 )
-/
-/
 will
 call
 this
@@ -169,6 +169,8 @@ messages
 from
 their
 respective
+/
+/
 processes
 .
 namespace
@@ -199,6 +201,10 @@ struct
 DiscardedData
 ;
 }
+/
+/
+namespace
+Telemetry
 namespace
 TelemetryIPC
 {
@@ -276,6 +282,7 @@ for
 the
 given
 process
+*
 type
 .
 *
@@ -339,6 +346,7 @@ data
 coming
 from
 child
+*
 process
 .
 *
@@ -404,6 +412,7 @@ the
 data
 coming
 from
+*
 child
 process
 .
@@ -473,6 +482,7 @@ data
 coming
 from
 child
+*
 process
 .
 *
@@ -671,7 +681,15 @@ aDefs
 )
 ;
 }
+/
+/
+namespace
+TelemetryIPC
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

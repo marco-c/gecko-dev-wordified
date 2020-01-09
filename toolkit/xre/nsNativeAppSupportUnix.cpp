@@ -377,6 +377,7 @@ MIN_GTK_MINOR_VERSION
 #
 define
 UNSUPPORTED_GTK_MSG
+\
 "
 We
 '
@@ -3119,6 +3120,8 @@ we
 don
 '
 t
+/
+/
 care
 .
 unsigned
@@ -3474,6 +3477,8 @@ should
 run
 ;
 this
+/
+/
 is
 what
 Breakpad

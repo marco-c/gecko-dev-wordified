@@ -371,6 +371,10 @@ hash_set
 #
 endif
 }
+/
+/
+namespace
+base
 #
 elif
 defined

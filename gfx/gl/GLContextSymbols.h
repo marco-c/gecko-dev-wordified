@@ -2377,8 +2377,8 @@ GL
 we
 hide
 those
-differences
 *
+differences
 use
 the
 GL

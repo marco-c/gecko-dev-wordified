@@ -312,8 +312,8 @@ to
 a
 specific
 Compositor
-across
 *
+across
 IPDL
 and
 uses
@@ -379,10 +379,10 @@ to
 hold
 strong
 references
+/
+/
+/
 to
-/
-/
-/
 from
 multiple
 threads
@@ -683,8 +683,8 @@ a
 last
 resort
 if
-the
 *
+the
 compositor
 may
 be
@@ -699,8 +699,8 @@ to
 avoid
 that
 the
-content
 *
+content
 process
 accumulates
 resource
@@ -710,8 +710,8 @@ the
 compositor
 is
 not
-consuming
 *
+consuming
 and
 releasing
 .

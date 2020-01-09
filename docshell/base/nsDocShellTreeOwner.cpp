@@ -2137,12 +2137,12 @@ do
 the
 hack
 in
+/
+/
 nsXULWindow
 :
 :
 SizeShellTo
-/
-/
 so
 let
 '
@@ -2153,6 +2153,8 @@ width
 and
 height
 of
+/
+/
 aShellItem
 too
 .
@@ -5032,6 +5034,8 @@ HandleEvent
 Need
 a
 valid
+"
+"
 triggeringPrincipal
 "
 )

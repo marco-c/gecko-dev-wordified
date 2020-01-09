@@ -145,6 +145,10 @@ DocGroup
 ;
 }
 }
+/
+/
+namespace
+mozilla
 class
 nsIContent
 ;

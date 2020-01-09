@@ -994,14 +994,14 @@ row
 for
 a
 horizontal
+/
+/
 border
 )
 or
 col
 (
 for
-/
-/
 a
 vertical
 border
@@ -1009,6 +1009,8 @@ border
 of
 nsHTMLFramesetFrames
 or
+/
+/
 nsHTMLFrames
 int32_t
 mPrevNeighbor
@@ -3106,8 +3108,8 @@ percentage
 sizes
 have
 the
-next
 *
+next
 highest
 priority
 and
@@ -3263,6 +3265,8 @@ allocate
 the
 fixed
 sizes
+/
+/
 and
 zero
 the
@@ -3402,6 +3406,8 @@ too
 little
 and
 there
+/
+/
 aren
 '
 t
@@ -3486,6 +3492,8 @@ over
 from
 the
 fixed
+/
+/
 allocation
 for
 (
@@ -3562,6 +3570,8 @@ too
 little
 and
 there
+/
+/
 aren
 '
 t
@@ -3636,6 +3646,8 @@ over
 from
 the
 percent
+/
+/
 allocation
 for
 (
@@ -5406,6 +5418,8 @@ d
 n
 "
 this
+/
+/
 aReflowInput
 .
 AvailableWidth

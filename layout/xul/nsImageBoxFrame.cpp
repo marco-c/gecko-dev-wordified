@@ -1069,6 +1069,8 @@ send
 messages
 to
 a
+/
+/
 dead
 object
 .
@@ -2978,9 +2980,9 @@ t
 likely
 to
 implement
+/
+/
 predictive
-/
-/
 decoding
 at
 the
@@ -2991,6 +2993,8 @@ this
 class
 like
 nsImageFrame
+/
+/
 has
 .
 uint32_t

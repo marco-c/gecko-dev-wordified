@@ -372,7 +372,6 @@ AddRef
 (
 )
 final
-\
 {
 \
 MOZ_ASSERT
@@ -408,7 +407,6 @@ Release
 (
 )
 final
-\
 {
 \
 MOZ_ASSERT
@@ -435,7 +433,6 @@ if
 (
 mRefCnt
 )
-\
 return
 mRefCnt
 ;
@@ -451,6 +448,7 @@ return
 \
 }
 \
+\
 private
 :
 \
@@ -463,6 +461,7 @@ a11y
 AutoRefCnt
 mRefCnt
 ;
+\
 \
 public
 :
@@ -484,7 +483,6 @@ void
 *
 )
 ;
-\
 #
 define
 IMPL_IUNKNOWN_QUERY_HEAD
@@ -506,7 +504,6 @@ void
 *
 aInstancePtr
 )
-\
 {
 \
 if
@@ -514,7 +511,6 @@ if
 !
 aInstancePtr
 )
-\
 return
 E_INVALIDARG
 ;
@@ -697,7 +693,6 @@ SUCCEEDED
 hr
 )
 )
-\
 return
 hr
 ;
@@ -734,7 +729,6 @@ SUCCEEDED
 hr
 )
 )
-\
 return
 hr
 ;
@@ -773,7 +767,6 @@ SUCCEEDED
 hr
 )
 )
-\
 return
 hr
 ;
@@ -805,7 +798,6 @@ IUnknown
 ;
 \
 IMPL_IUNKNOWN_QUERY_TAIL
-\
 #
 define
 IMPL_IUNKNOWN2
@@ -840,7 +832,6 @@ I1
 ;
 \
 IMPL_IUNKNOWN_QUERY_TAIL
-\
 #
 define
 IMPL_IUNKNOWN_INHERITED1
@@ -925,12 +916,10 @@ aResult
 /
 namespace
 a11y
-;
 }
 /
 /
 namespace
 mozilla
-;
 #
 endif

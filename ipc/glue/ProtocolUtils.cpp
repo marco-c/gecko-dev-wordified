@@ -347,7 +347,6 @@ PSECURITY_DESCRIPTOR
 MOZ_TYPE_SPECIFIC_SCOPED_POINTER_TEMPLATE
 (
 ScopedLPTStr
-\
 RemovePointer
 <
 LPTSTR
@@ -355,7 +354,6 @@ LPTSTR
 :
 :
 Type
-\
 :
 :
 LocalFree
@@ -363,7 +361,6 @@ LocalFree
 MOZ_TYPE_SPECIFIC_SCOPED_POINTER_TEMPLATE
 (
 ScopedPSecurityDescriptor
-\
 RemovePointer
 <
 PSECURITY_DESCRIPTOR
@@ -371,7 +368,6 @@ PSECURITY_DESCRIPTOR
 :
 :
 Type
-\
 :
 :
 LocalFree
@@ -4393,9 +4389,9 @@ Android
 this
 method
 is
+/
+/
 actually
-/
-/
 called
 on
 an

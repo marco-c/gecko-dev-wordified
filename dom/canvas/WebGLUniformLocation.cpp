@@ -548,8 +548,8 @@ position
 k
 in
 a
-uniform
 *
+uniform
 declared
 as
 an
@@ -565,9 +565,9 @@ N
 in
 the
 array
+*
 will
 be
-*
 replaced
 with
 the
@@ -580,9 +580,9 @@ any
 array
 element
 that
+*
 exceeds
 the
-*
 highest
 array
 element
@@ -591,10 +591,10 @@ used
 as
 reported
 by
+*
 GetActiveUniform
 will
 be
-*
 ignored
 by
 GL

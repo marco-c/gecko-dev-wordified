@@ -314,7 +314,6 @@ ULONG
 AddRef
 (
 )
-\
 {
 \
 MOZ_ASSERT_TYPE_OK_FOR_REFCOUNTING
@@ -386,7 +385,6 @@ ULONG
 Release
 (
 )
-\
 {
 \
 MOZ_ASSERT
@@ -484,6 +482,7 @@ get
 \
 }
 \
+\
 protected
 :
 \
@@ -513,6 +512,7 @@ DPI_AWARENESS_CONTEXT_DECLARED
 )
 &
 &
+\
 !
 defined
 (
@@ -758,6 +758,7 @@ endif
 #
 define
 MOZ_QS_ALLEVENT
+\
 (
 QS_KEY
 |
@@ -765,19 +766,17 @@ QS_MOUSEMOVE
 |
 QS_MOUSEBUTTON
 |
-\
 QS_POSTMESSAGE
 |
 QS_TIMER
 |
+\
 QS_PAINT
 |
-\
 QS_SENDMESSAGE
 |
 QS_HOTKEY
 |
-\
 QS_ALLPOSTMESSAGE
 |
 QS_RAWINPUT
@@ -814,6 +813,7 @@ define
 LogThread
 (
 )
+\
 mozilla
 :
 :
@@ -838,10 +838,12 @@ ThreadId
 %
 X
 "
+\
 __FUNCTION__
 NS_IsMainThread
 (
 )
+\
 GetCurrentThreadId
 (
 )
@@ -879,6 +881,7 @@ LogException
 (
 e
 )
+\
 mozilla
 :
 :
@@ -899,6 +902,7 @@ Exception
 s
 "
 __FUNCTION__
+\
 e
 -
 >
@@ -917,6 +921,7 @@ LogHRESULT
 (
 hr
 )
+\
 mozilla
 :
 :
@@ -2433,13 +2438,12 @@ pointer
 which
 was
 associated
-by
 *
+by
 SetNSWindowBasePtr
 (
 )
 .
-*
 GetNSWindowPtr
 (
 )
@@ -2449,12 +2453,12 @@ legacy
 api
 for
 win32
+*
 nsWindow
 and
 should
 be
 avoided
-*
 outside
 of
 nsWindow
@@ -2983,6 +2987,7 @@ well
 .
 Please
 refer
+*
 to
 *
 https
@@ -3335,9 +3340,9 @@ g
 .
 multiple
 touch
+*
 screens
 )
-*
 the
 value
 will
@@ -3350,9 +3355,9 @@ set
 of
 maximum
 supported
+*
 contacts
 by
-*
 each
 individual
 digitizer
@@ -3380,6 +3385,7 @@ is
 useful
 for
 detecting
+*
 tablets
 .
 *
@@ -4154,6 +4160,8 @@ of
 the
 aData
 buffer
+/
+/
 passed
 in
 AsyncEncodeAndWriteIcon

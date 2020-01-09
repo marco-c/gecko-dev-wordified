@@ -178,7 +178,15 @@ kPluginWidgetParentProperty
 "
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 namespace
 mozilla
 {
@@ -212,6 +220,7 @@ fails
 #
 define
 ENSURE_CHANNEL
+\
 {
 \
 if

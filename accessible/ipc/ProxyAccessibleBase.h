@@ -1230,6 +1230,14 @@ ProxyAccessible
 >
 ;
 }
+/
+/
+namespace
+a11y
 }
+/
+/
+namespace
+mozilla
 #
 endif

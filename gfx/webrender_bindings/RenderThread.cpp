@@ -1019,9 +1019,9 @@ assert
 against
 this
 if
+/
+/
 we
-/
-/
 made
 the
 webrender
@@ -1033,10 +1033,10 @@ gfxPlatform
 cpp
 smarter
 .
-/
-/
 See
 bug
+/
+/
 1494430
 comment
 12
@@ -4250,6 +4250,8 @@ will
 be
 destroyed
 by
+/
+/
 GPUChild
 :
 :
@@ -4332,9 +4334,9 @@ GPUProcessManager
 SimulateDeviceReset
 (
 )
+/
+/
 already
-/
-/
 triggers
 destroying
 all
@@ -4343,6 +4345,8 @@ before
 re
 -
 creating
+/
+/
 them
 .
 HandleDeviceReset

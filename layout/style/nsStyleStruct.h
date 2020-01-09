@@ -853,11 +853,13 @@ mFontSizeKeyword
 NS_STYLE_FONT_SIZE_
 *
 is
+/
+/
 NS_STYLE_FONT_SIZE_NO_KEYWORD
-/
-/
 when
 not
+/
+/
 keyword
 -
 derived
@@ -3023,11 +3025,11 @@ time
 -
 alternatively
 until
+/
+/
 GetOpaqueRegion
 (
 )
-/
-/
 is
 called
 .
@@ -4867,12 +4869,14 @@ NS_FOR_VISIBLE_IMAGE_LAYERS_BACK_TO_FRONT_WITH_RANGE
 (
 var_
 layers_
+\
 start_
 count_
 )
 \
 NS_ASSERTION
 (
+\
 (
 int32_t
 )
@@ -4896,6 +4900,7 @@ layers_
 )
 .
 mImageCount
+\
 "
 Invalid
 layer
@@ -4924,6 +4929,7 @@ start_
 )
 +
 1
+\
 "
 Invalid
 layer
@@ -4944,6 +4950,7 @@ start_
 +
 1
 ;
+\
 var_
 -
 -
@@ -13013,6 +13020,8 @@ calc
 3rd
 param
 is
+/
+/
 coord
 calc
 only
@@ -18961,7 +18970,6 @@ and
 T2
 )
 ;
-\
 #
 define
 STATIC_ASSERT_FIELD_OFFSET_MATCHES
@@ -18999,6 +19007,7 @@ between
 "
 #
 T1
+\
 "
 and
 "
@@ -19006,7 +19015,6 @@ and
 T2
 )
 ;
-\
 /
 *
 *

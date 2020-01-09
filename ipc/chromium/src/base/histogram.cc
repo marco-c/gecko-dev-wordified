@@ -2503,9 +2503,9 @@ not
 concerned
 about
 the
+/
+/
 nature
-/
-/
 of
 corruptions
 (
@@ -4902,6 +4902,8 @@ same
 as
 the
 index
+/
+/
 where
 we
 /

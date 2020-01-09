@@ -5210,9 +5210,9 @@ once
 we
 get
 the
+/
+/
 RECEIVED_FDS_MESSAGE_TYPE
-/
-/
 message
 .
 if

@@ -521,6 +521,8 @@ args
 isn
 '
 t
+/
+/
 initialized
 .
 /
@@ -1207,6 +1209,8 @@ must
 ensure
 that
 additionally
+/
+/
 |
 IsConstructor
 (
@@ -1218,8 +1222,6 @@ newTarget
 )
 |
 .
-/
-/
 (
 If
 |
@@ -1229,6 +1231,8 @@ comes
 directly
 from
 the
+/
+/
 interpreter
 stack
 as
@@ -1236,8 +1240,6 @@ set
 up
 by
 JSOP_NEW
-/
-/
 this
 comes
 for
@@ -1246,6 +1248,8 @@ free
 )
 Then
 perform
+/
+/
 a
 Construct
 (

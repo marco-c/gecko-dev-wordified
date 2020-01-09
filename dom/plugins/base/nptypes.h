@@ -232,6 +232,7 @@ IRIX
 )
 |
 |
+\
 defined
 (
 HPUX

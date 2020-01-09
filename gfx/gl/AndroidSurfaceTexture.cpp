@@ -256,10 +256,12 @@ array
 }
 /
 /
+namespace
 gl
 }
 /
 /
+namespace
 mozilla
 #
 endif

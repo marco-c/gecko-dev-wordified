@@ -249,6 +249,12 @@ js
 jit
 ;
 using
+JS
+:
+:
+GenericNaN
+;
+using
 mozilla
 :
 :
@@ -265,12 +271,6 @@ mozilla
 :
 :
 FloatingPoint
-;
-using
-JS
-:
-:
-GenericNaN
 ;
 CodeGeneratorX86
 :
@@ -5162,6 +5162,8 @@ value
 popped
 by
 fisttp
+/
+/
 fits
 masm
 .

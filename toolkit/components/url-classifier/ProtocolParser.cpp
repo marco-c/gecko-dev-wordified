@@ -226,6 +226,7 @@ PARSER_LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 gUrlClassifierProtocolParserLog

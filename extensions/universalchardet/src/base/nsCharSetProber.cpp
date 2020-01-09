@@ -259,6 +259,8 @@ we
 treat
 it
 as
+/
+/
 segment
 delimiter
 if
@@ -284,6 +286,8 @@ it
 has
 upper
 ASCII
+/
+/
 we
 need
 to
@@ -339,6 +343,8 @@ just
 a
 symbol
 or
+/
+/
 just
 an
 English
@@ -402,6 +408,8 @@ both
 English
 characters
 and
+/
+/
 upper
 ASCII
 characters

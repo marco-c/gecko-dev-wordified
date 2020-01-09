@@ -145,10 +145,10 @@ called
 the
 "
 skipped
+*
 string
 "
 .
-*
 gfxSkipChars
 provides
 efficient
@@ -158,8 +158,8 @@ translate
 between
 offsets
 in
-the
 *
+the
 original
 string
 and
@@ -174,8 +174,8 @@ by
 textrun
 code
 to
-keep
 *
+keep
 track
 of
 offsets
@@ -186,8 +186,8 @@ text
 transformations
 such
 as
-whitespace
 *
+whitespace
 compression
 and
 control
@@ -685,8 +685,8 @@ string
 .
 It
 lets
-you
 *
+you
 map
 efficiently
 to
@@ -698,8 +698,8 @@ the
 string
 after
 skipped
-characters
 *
+characters
 have
 been
 removed
@@ -714,8 +714,8 @@ that
 is
 added
 to
-all
 *
+all
 incoming
 original
 string
@@ -725,8 +725,8 @@ subtracted
 from
 all
 outgoing
-original
 *
+original
 string
 offsets
 -
@@ -738,8 +738,8 @@ the
 gfxSkipChars
 corresponds
 to
-something
 *
+something
 offset
 from
 the
@@ -751,6 +751,7 @@ it
 often
 does
 for
+*
 gfxTextRuns
 .
 *
@@ -854,6 +855,7 @@ is
 no
 next
 unskipped
+*
 character
 .
 *
@@ -1042,6 +1044,7 @@ useless
 until
 it
 is
+*
 assigned
 .
 *

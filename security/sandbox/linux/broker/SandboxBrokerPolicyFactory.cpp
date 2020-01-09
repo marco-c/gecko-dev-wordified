@@ -430,6 +430,9 @@ SandboxBroker
 MAY_ACCESS
 ;
 }
+/
+/
+namespace
 #
 endif
 static
@@ -2754,11 +2757,11 @@ symlinks
 to
 outside
 the
+/
+/
 binary
 dir
 .
-/
-/
 Therefore
 in
 non
@@ -2771,10 +2774,10 @@ reads
 from
 the
 whole
+/
+/
 repository
 .
-/
-/
 MOZ_DEVELOPER_REPO_DIR
 is
 set

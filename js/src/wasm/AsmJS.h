@@ -216,6 +216,10 @@ class
 FullParseHandler
 ;
 }
+/
+/
+namespace
+frontend
 using
 AsmJSParser
 =

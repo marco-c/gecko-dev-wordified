@@ -231,6 +231,8 @@ aTableUpdate
 with
 prefixes
 in
+/
+/
 aInputMap
 .
 nsresult

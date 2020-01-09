@@ -230,8 +230,10 @@ JS_DIAGNOSTICS_ASSERT
 (
 expr
 )
+\
 do
 {
+\
 if
 (
 MOZ_UNLIKELY
@@ -246,6 +248,7 @@ MOZ_CRASH
 (
 )
 ;
+\
 }
 while
 (
@@ -1689,6 +1692,7 @@ JS_CODEGEN_X64
 )
 |
 |
+\
 defined
 (
 JS_CODEGEN_NONE

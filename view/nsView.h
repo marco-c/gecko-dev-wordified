@@ -497,11 +497,11 @@ the
 future
 .
 If
+*
 you
 can
 get
 the
-*
 view
 manager
 from
@@ -1605,8 +1605,8 @@ null
 because
 some
 view
-trees
 *
+trees
 don
 '
 t
@@ -1627,9 +1627,9 @@ any
 view
 in
 the
+*
 view
 tree
-*
 has
 a
 widget
@@ -2188,8 +2188,8 @@ the
 last
 nsView
 when
-navigating
 *
+navigating
 to
 a
 new
@@ -2205,12 +2205,12 @@ that
 if
 the
 new
+*
 one
 isn
 '
 t
 ready
-*
 yet
 .
 *
@@ -2372,6 +2372,7 @@ into
 gklayout
 can
 access
+*
 it
 *
 /

@@ -8500,9 +8500,9 @@ we
 check
 the
 style
+/
+/
 property
-/
-/
 rather
 than
 Extend3DContext
@@ -8514,10 +8514,10 @@ can
 recurse
 back
 into
+/
+/
 this
 function
-/
-/
 via
 HasOpacity
 (

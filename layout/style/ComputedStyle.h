@@ -1916,7 +1916,6 @@ STYLE_STRUCT
 (
 name_
 )
-\
 inline
 const
 nsStyle

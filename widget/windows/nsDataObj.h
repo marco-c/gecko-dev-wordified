@@ -251,9 +251,9 @@ related
 stuff
 is
 not
+/
+/
 available
-/
-/
 but
 thisdefine
 should
@@ -420,6 +420,7 @@ CFSTR_SHELLURL
 .
 *
 See
+*
 http
 :
 /
@@ -568,6 +569,8 @@ this
 code
 should
 be
+/
+/
 removed
 .
 #
@@ -1670,12 +1673,14 @@ owns
 and
 ref
 counts
+/
+/
 nsITransferable
-/
-/
 the
 nsITransferable
 does
+/
+/
 know
 anything
 about

@@ -375,7 +375,15 @@ tfoStatus
 }
 ;
 }
+/
+/
+namespace
+net
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

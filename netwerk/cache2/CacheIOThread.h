@@ -192,6 +192,10 @@ class
 BlockingIOWatcher
 ;
 }
+/
+/
+namespace
+detail
 class
 CacheIOThread
 final

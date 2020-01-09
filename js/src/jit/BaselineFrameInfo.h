@@ -226,9 +226,9 @@ stored
 as
 constant
 stored
+/
+/
 in
-/
-/
 a
 Value
 register
@@ -243,11 +243,11 @@ Syncing
 a
 StackValue
 ensures
+/
+/
 it
 '
 s
-/
-/
 stored
 on
 the
@@ -304,6 +304,8 @@ LocalSlot
 )
 )
 and
+/
+/
 StackValue
 (
 Int32Value
@@ -312,8 +314,6 @@ Int32Value
 )
 )
 .
-/
-/
 Only
 when
 we
@@ -324,13 +324,13 @@ op
 code
 is
 generated
+/
+/
 to
 load
 the
 operands
 directly
-/
-/
 into
 the
 right
@@ -339,6 +339,8 @@ registers
 and
 sync
 all
+/
+/
 other
 stack
 values
@@ -359,6 +361,8 @@ and
 are
 checked
 between
+/
+/
 ops
 )
 :

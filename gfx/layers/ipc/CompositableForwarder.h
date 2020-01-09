@@ -392,9 +392,9 @@ CompositableForwarder
 currently
 also
 implement
+*
 KnowsCompositor
 .
-*
 This
 dependency
 could

@@ -179,6 +179,12 @@ using
 mozilla
 :
 :
+DOMEventTargetHelper
+;
+using
+mozilla
+:
+:
 MallocSizeOf
 ;
 using
@@ -186,12 +192,6 @@ mozilla
 :
 :
 Maybe
-;
-using
-mozilla
-:
-:
-DOMEventTargetHelper
 ;
 using
 mozilla

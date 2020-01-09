@@ -523,6 +523,10 @@ mRecoveredLosses
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

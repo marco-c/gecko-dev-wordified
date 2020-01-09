@@ -370,6 +370,7 @@ extensions
 #
 define
 CHANNELWRAPPER_PROP_KEY
+\
 NS_LITERAL_STRING
 (
 "
@@ -4315,9 +4316,9 @@ in
 the
 ancestor
 arrays
+/
+/
 however
-/
-/
 SUBDOCUMENTs
 do
 not
@@ -4328,12 +4329,12 @@ parent
 included
 so
 we
+/
+/
 inject
 it
 here
 .
-/
-/
 This
 will
 force
@@ -4342,6 +4343,8 @@ wrapper
 parentWindowId
 =
 =
+/
+/
 wrapper
 .
 frameAncestors
@@ -4351,8 +4354,6 @@ frameAncestors
 .
 frameId
 to
-/
-/
 always
 be
 true
@@ -4360,6 +4361,8 @@ true
 All
 ather
 requests
+/
+/
 already
 match
 this

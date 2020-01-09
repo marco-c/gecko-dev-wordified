@@ -473,6 +473,8 @@ gfxCriticalNote
 if
 it
 is
+/
+/
 nullptr
 return
 ;
@@ -1590,9 +1592,9 @@ object
 needs
 to
 be
+/
+/
 created
-/
-/
 on
 the
 render
@@ -1607,10 +1609,10 @@ delay
 waiting
 on
 this
+/
+/
 task
 until
-/
-/
 the
 next
 time
@@ -2126,6 +2128,8 @@ be
 less
 than
 number
+"
+"
 of
 bits
 in
@@ -2625,6 +2629,8 @@ the
 renderer
 runs
 this
+/
+/
 event
 .
 RunOnRenderThread
@@ -2806,6 +2812,8 @@ the
 renderer
 runs
 this
+/
+/
 event
 .
 RunOnRenderThread
@@ -3022,6 +3030,8 @@ the
 renderer
 runs
 this
+/
+/
 event
 .
 RunOnRenderThread
@@ -6896,6 +6906,8 @@ be
 less
 than
 number
+"
+"
 of
 bits
 in
@@ -7245,9 +7257,9 @@ object
 is
 destroyed
 on
+/
+/
 the
-/
-/
 rust
 side
 and

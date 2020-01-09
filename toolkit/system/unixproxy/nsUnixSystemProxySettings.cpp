@@ -385,6 +385,8 @@ routine
 should
 not
 block
+/
+/
 anyhow
 *
 aMainThreadOnly
@@ -602,9 +604,9 @@ auto
 mode
 is
 not
+*
 set
 .
-*
 Don
 '
 t
@@ -962,6 +964,8 @@ equality
 comparator
 we
 can
+/
+/
 include
 sub
 -
@@ -3252,11 +3256,12 @@ define
 NS_UNIXSYSTEMPROXYSERVICE_CID
 \
 {
+\
 0x0fa3158c
 0xd5a7
 0x43de
-\
 {
+\
 0x91
 0x81
 0xa2
@@ -3265,7 +3270,9 @@ NS_UNIXSYSTEMPROXYSERVICE_CID
 0x4c
 0xf1
 0xd4
+\
 }
+\
 }
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (

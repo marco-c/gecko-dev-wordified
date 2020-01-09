@@ -145,3 +145,7 @@ GetCPUCount
 )
 ;
 }
+/
+/
+namespace
+js

@@ -1147,6 +1147,8 @@ according
 to
 normal
 DOM
+/
+/
 rules
 .
 nsCOMPtr

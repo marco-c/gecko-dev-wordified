@@ -357,7 +357,7 @@ using
 mozilla
 :
 :
-NumbersAreIdentical
+DebugOnly
 ;
 using
 mozilla
@@ -387,7 +387,7 @@ using
 mozilla
 :
 :
-DebugOnly
+NumbersAreIdentical
 ;
 #
 ifdef
@@ -19369,6 +19369,8 @@ remove
 subtraction
 when
 lhs
+/
+/
 equals
 0
 if
@@ -23608,6 +23610,8 @@ may
 be
 treated
 as
+/
+/
 Int32
 .
 if
@@ -23852,6 +23856,8 @@ string
 compares
 are
 still
+/
+/
 unsupported
 )
 .
@@ -26501,6 +26507,8 @@ can
 be
 substituted
 as
+/
+/
 constant
 .
 if
@@ -35411,6 +35419,8 @@ for
 double
 and
 float
+/
+/
 values
 .
 if
@@ -41587,6 +41597,8 @@ chain
 has
 an
 indexed
+/
+/
 property
 .
 AbortReasonOr

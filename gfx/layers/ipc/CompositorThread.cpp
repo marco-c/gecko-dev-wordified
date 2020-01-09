@@ -575,8 +575,8 @@ ui
 see
 DeviceManagerD3D9
 .
-As
 *
+As
 such
 the
 thread
@@ -590,6 +590,7 @@ process
 a
 windows
 message
+*
 queue
 or
 *
@@ -977,12 +978,12 @@ CurrentId
 /
 /
 namespace
-mozilla
+layers
 }
 /
 /
 namespace
-layers
+mozilla
 bool
 NS_IsInCompositorThread
 (

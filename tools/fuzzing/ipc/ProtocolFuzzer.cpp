@@ -261,4 +261,12 @@ cp
 ;
 }
 }
+/
+/
+namespace
+ipc
 }
+/
+/
+namespace
+mozilla

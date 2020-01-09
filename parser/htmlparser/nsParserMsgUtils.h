@@ -109,6 +109,7 @@ h
 #
 define
 XMLPARSER_PROPERTIES
+\
 "
 chrome
 :
@@ -143,6 +144,8 @@ be
 created
 use
 the
+/
+/
 static
 methods
 ~

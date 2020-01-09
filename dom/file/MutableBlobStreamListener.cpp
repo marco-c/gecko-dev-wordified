@@ -558,7 +558,7 @@ NS_OK
 /
 /
 namespace
-net
+dom
 }
 /
 /

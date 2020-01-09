@@ -327,7 +327,15 @@ aEvent
 )
 ;
 }
+/
+/
+namespace
+TelemetryIPCAccumulator
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

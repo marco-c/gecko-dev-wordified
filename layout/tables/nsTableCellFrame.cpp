@@ -1107,6 +1107,8 @@ its
 block
 but
 nothing
+/
+/
 below
 that
 bool
@@ -3669,6 +3671,8 @@ bottom
 of
 the
 content
+/
+/
 area
 kidBStart
 =
@@ -3700,6 +3704,8 @@ middle
 of
 the
 content
+/
+/
 area
 kidBStart
 =
@@ -3893,9 +3899,9 @@ We
 know
 the
 inner
+/
+/
 table
-/
-/
 cell
 won
 '
@@ -4973,9 +4979,9 @@ use
 for
 percent
 bsize
+/
+/
 calculations
-/
-/
 it
 is
 the
@@ -4992,12 +4998,12 @@ cell
 s
 first
 in
+/
+/
 flow
 during
 its
 final
-/
-/
 reflow
 without
 an
@@ -5930,6 +5936,8 @@ until
 they
 can
 actually
+/
+/
 handle
 it
 /
@@ -5947,6 +5955,8 @@ this
 patch
 (
 bug
+/
+/
 379349
 )
 aStatus

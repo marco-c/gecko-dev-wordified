@@ -2153,6 +2153,8 @@ diagnosing
 errors
 in
 graph
+/
+/
 construction
 .
 /
@@ -11982,6 +11984,8 @@ graph
 to
 prepare
 for
+/
+/
 BuildGraph
 (
 )
@@ -12007,6 +12011,8 @@ true
 if
 this
 graph
+/
+/
 building
 is
 finished
@@ -17501,10 +17507,10 @@ start
 of
 incremental
 graph
+/
+/
 building
 must
-/
-/
 be
 treated
 as
@@ -17516,12 +17522,12 @@ collection
 because
 we
 may
+/
+/
 not
 have
 accurate
 information
-/
-/
 about
 who
 holds
@@ -20645,6 +20651,8 @@ CycleCollectedJSRuntime
 in
 cycle
 collector
+"
+"
 before
 a
 runtime
@@ -20809,6 +20817,8 @@ pointer
 must
 QI
 to
+"
+"
 nsXPCOMCycleCollectionParticipant
 "
 )
@@ -21449,6 +21459,8 @@ freed
 d
 ref
 counted
+"
+"
 and
 %
 d
@@ -25410,6 +25422,8 @@ during
 the
 final
 cycle
+/
+/
 collection
 .
 data

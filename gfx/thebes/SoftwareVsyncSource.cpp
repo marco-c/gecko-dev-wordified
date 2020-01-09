@@ -584,6 +584,8 @@ the
 timestamp
 to
 be
+/
+/
 now
 .
 if

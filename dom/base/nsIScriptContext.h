@@ -184,11 +184,12 @@ define
 NS_ISCRIPTCONTEXT_IID
 \
 {
+\
 0x54cbe9cf
 0x7282
 0x421a
-\
 {
+\
 0x91
 0x6f
 0xd0
@@ -197,7 +198,9 @@ NS_ISCRIPTCONTEXT_IID
 0xde
 0xb8
 0xc0
+\
 }
+\
 }
 class
 nsIOffThreadScriptReceiver
@@ -548,6 +551,7 @@ only
 be
 called
 by
+*
 nsGlobalWindow
 .
 *
@@ -590,11 +594,12 @@ define
 NS_IOFFTHREADSCRIPTRECEIVER_IID
 \
 {
+\
 0x3a980010
 0x878d
 0x46a9
-\
 {
+\
 0x93
 0xad
 0xbc
@@ -603,7 +608,9 @@ NS_IOFFTHREADSCRIPTRECEIVER_IID
 0x8e
 0xa0
 0xc2
+\
 }
+\
 }
 class
 nsIOffThreadScriptReceiver

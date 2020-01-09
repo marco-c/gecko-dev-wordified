@@ -1943,8 +1943,8 @@ Forward
 '
 with
 its
-type
 *
+type
 argument
 -
 -

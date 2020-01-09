@@ -374,6 +374,7 @@ implemented
 by
 concrete
 transport
+*
 implementation
 *
 param
@@ -435,6 +436,7 @@ implemented
 by
 concrete
 transport
+*
 implementation
 *
 param
@@ -1372,8 +1374,8 @@ the
 conduit
 .
 Unknown
-extensions
 *
+extensions
 are
 ignored
 .
@@ -3697,5 +3699,9 @@ outSources
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

@@ -951,6 +951,10 @@ tracer
 }
 ;
 }
+/
+/
+namespace
+frontend
 typedef
 UniquePtr
 <

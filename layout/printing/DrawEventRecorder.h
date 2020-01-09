@@ -1010,7 +1010,15 @@ mOutputStream
 }
 ;
 }
+/
+/
+namespace
+layout
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

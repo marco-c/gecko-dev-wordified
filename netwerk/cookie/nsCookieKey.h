@@ -346,10 +346,12 @@ mOriginAttributes
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla
 #
 endif

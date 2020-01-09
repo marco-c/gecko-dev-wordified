@@ -183,10 +183,12 @@ outMatrix
 }
 /
 /
+namespace
 gl
 }
 /
 /
+namespace
 mozilla
 #
 endif

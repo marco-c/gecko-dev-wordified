@@ -285,10 +285,12 @@ mFontResourceHandle
 }
 /
 /
+namespace
 gfx
 }
 /
 /
+namespace
 mozilla
 #
 endif

@@ -8895,6 +8895,8 @@ mapped
 array
 buffer
 contents
+"
+"
 (
 possibly
 due
@@ -26006,7 +26008,6 @@ strArg
 string
 )
 )
-\
 opt
 =
 JSJITCOMPILER_
@@ -56781,6 +56782,7 @@ endif
 #
 define
 EXTERNAL_FUNCTION_COUNT
+\
 (
 PROFILING_FUNCTION_COUNT
 +
@@ -66371,6 +66373,8 @@ deprecated
 .
 Please
 use
+"
+"
 -
 -
 ion
@@ -68311,6 +68315,8 @@ via
 the
 command
 line
+"
+"
 are
 "
 "
@@ -68327,6 +68333,8 @@ script
 argument
 is
 run
+"
+"
 after
 "
 "
@@ -68345,6 +68353,8 @@ compilation
 modes
 may
 be
+"
+"
 enabled
 via
 "
@@ -69499,6 +69509,8 @@ enabled
 (
 default
 :
+"
+"
 off
 on
 to
@@ -69745,6 +69757,8 @@ Ion
 can
 avoid
 bailouts
+"
+"
 (
 default
 :
@@ -70283,6 +70297,8 @@ based
 backtracking
 register
 allocation
+"
+"
 (
 default
 )
@@ -70411,6 +70427,8 @@ is
 deprecated
 .
 Use
+"
+"
 -
 -
 ion
@@ -71018,6 +71036,8 @@ or
 help
 '
 to
+"
+"
 list
 all
 features
@@ -71057,6 +71077,8 @@ NOP
 instructions
 at
 all
+"
+"
 possible
 pool
 locations
@@ -71096,6 +71118,8 @@ OFFSET
 permitted
 in
 pool
+"
+"
 reference
 instructions
 .
@@ -71488,6 +71512,8 @@ from
 stdin
 and
 serialize
+"
+"
 the
 results
 to

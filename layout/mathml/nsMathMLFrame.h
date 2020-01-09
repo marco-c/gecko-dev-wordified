@@ -193,6 +193,8 @@ derived
 MathML
 frames
 can
+/
+/
 override
 class
 nsMathMLFrame

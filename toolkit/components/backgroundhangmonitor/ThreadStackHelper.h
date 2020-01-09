@@ -458,6 +458,7 @@ thread
 associated
 with
 this
+*
 ThreadStackHelper
 .
 *

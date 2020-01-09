@@ -653,6 +653,7 @@ object
 in
 the
 tab
+*
 pane
 .
 *

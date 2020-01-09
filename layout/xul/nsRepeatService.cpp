@@ -480,9 +480,9 @@ re
 create
 a
 new
+/
+/
 instance
-/
-/
 for
 us
 if
@@ -492,6 +492,8 @@ to
 get
 invoked
 after
+/
+/
 nsRepeatService
 :
 :
@@ -499,8 +501,6 @@ Shutdown
 (
 )
 has
-/
-/
 nulled
 out
 gRepeatService

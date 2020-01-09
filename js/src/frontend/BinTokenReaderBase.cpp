@@ -748,4 +748,12 @@ byte
 ;
 }
 }
+/
+/
+namespace
+frontend
 }
+/
+/
+namespace
+js

@@ -260,5 +260,5 @@ mRandomTimelineSeed
 }
 /
 /
-mozilla
 namespace
+mozilla

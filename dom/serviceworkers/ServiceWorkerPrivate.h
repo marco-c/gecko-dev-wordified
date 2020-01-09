@@ -456,6 +456,8 @@ tokens
 we
 wait
 another
+/
+/
 |
 dom
 .
@@ -463,11 +465,11 @@ serviceWorkers
 .
 idle_extended_timeout
 |
-/
-/
 seconds
 before
 forcibly
+/
+/
 terminating
 the
 worker

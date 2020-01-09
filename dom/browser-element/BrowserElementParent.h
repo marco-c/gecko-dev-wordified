@@ -560,8 +560,8 @@ detail
 frameElement
 (
 an
-iframe
 *
+iframe
 element
 )
 into
@@ -806,8 +806,8 @@ they
 called
 preventDefault
 to
-prevent
 *
+prevent
 the
 platform
 from

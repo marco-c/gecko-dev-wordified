@@ -428,9 +428,9 @@ the
 pixmap
 .
 ReleasePixmap
+/
+/
 means
-/
-/
 the
 underlying
 pixmap
@@ -442,10 +442,10 @@ in
 mSurface
 '
 s
+/
+/
 destructor
 .
-/
-/
 ToSurfaceDescriptor
 is
 at
@@ -895,7 +895,9 @@ texture
 /
 /
 namespace
+layers
 }
 /
 /
 namespace
+mozilla

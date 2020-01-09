@@ -167,15 +167,14 @@ that
 s
 firing
 the
+*
 notification
 .
-*
 aScrollbar
 is
 never
 null
 .
-*
 aDirection
 is
 either
@@ -354,8 +353,8 @@ held
 down
 .
 When
-the
 *
+the
 button
 is
 first
@@ -367,8 +366,8 @@ set
 ;
 RepeatButtonScroll
 adds
-this
 *
+this
 increment
 to
 the
@@ -427,8 +426,8 @@ edge
 ;
 implementors
 that
-want
 *
+want
 zero
 at
 the
@@ -441,9 +440,9 @@ will
 need
 to
 adjust
+*
 accordingly
 .
-*
 (
 See
 ScrollFrameHelper

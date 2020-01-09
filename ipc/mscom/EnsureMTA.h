@@ -254,6 +254,10 @@ PreservedStreamDeleter
 }
 /
 /
+namespace
+detail
+/
+/
 This
 class
 is

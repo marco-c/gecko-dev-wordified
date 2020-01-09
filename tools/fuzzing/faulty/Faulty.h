@@ -234,6 +234,10 @@ class
 Message
 ;
 }
+/
+/
+namespace
+IPC
 namespace
 mozilla
 {

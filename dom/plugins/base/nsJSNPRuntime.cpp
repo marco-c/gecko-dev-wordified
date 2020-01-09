@@ -348,7 +348,7 @@ mozilla
 plugins
 :
 :
-PluginScriptableObjectParent
+ParentNPObject
 ;
 using
 mozilla
@@ -357,7 +357,7 @@ mozilla
 plugins
 :
 :
-ParentNPObject
+PluginScriptableObjectParent
 ;
 struct
 JSObjWrapperHasher

@@ -3077,9 +3077,9 @@ sometimes
 set
 to
 the
+/
+/
 navigation
-/
-/
 start
 time
 .
@@ -3926,10 +3926,10 @@ mServerTiming
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

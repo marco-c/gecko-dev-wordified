@@ -395,7 +395,7 @@ component_
 }
 /
 /
-close
 namespace
+mozilla
 #
 endif

@@ -1683,6 +1683,8 @@ is
 the
 same
 as
+/
+/
 nsIDocument
 :
 :

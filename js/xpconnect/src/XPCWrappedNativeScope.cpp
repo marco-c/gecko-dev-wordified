@@ -1476,7 +1476,6 @@ _type
 )
 )
 )
-\
 return
 false
 ;

@@ -35,7 +35,15 @@ Thing
 )
 ;
 }
+/
+/
+namespace
+gc
 }
+/
+/
+namespace
+js
 struct
 Bogon
 {

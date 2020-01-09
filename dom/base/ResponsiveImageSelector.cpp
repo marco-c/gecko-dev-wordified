@@ -510,6 +510,8 @@ one
 or
 more
 ASCII
+/
+/
 digits
 return
 false
@@ -2215,7 +2217,6 @@ i
 double
 candidateDensity
 =
-\
 (
 computedWidth
 =
@@ -3965,6 +3966,8 @@ to
 this
 position
 next
+/
+/
 iteration
 iter
 -

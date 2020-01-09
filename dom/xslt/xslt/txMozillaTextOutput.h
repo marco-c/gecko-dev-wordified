@@ -149,7 +149,15 @@ class
 Element
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 txMozillaTextOutput
 :

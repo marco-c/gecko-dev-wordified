@@ -295,9 +295,9 @@ safe
 .
 The
 nsISerialEventTarget
+/
+/
 can
-/
-/
 always
 be
 used

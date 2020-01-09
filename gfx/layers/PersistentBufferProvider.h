@@ -213,6 +213,10 @@ class
 DrawTarget
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 layers
 {
@@ -528,8 +532,8 @@ drawing
 state
 (
 clips
-transforms
 *
+transforms
 etc
 .
 )
@@ -543,10 +547,10 @@ means
 users
 of
 the
+*
 provider
 can
 skip
-*
 popping
 all
 of
@@ -559,11 +563,11 @@ of
 the
 frames
 and
+*
 pushing
 them
 back
 at
-*
 the
 beginning
 of
@@ -573,6 +577,7 @@ frames
 which
 can
 be
+*
 costly
 (
 cf

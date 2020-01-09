@@ -446,8 +446,8 @@ always
 be
 computed
 using
-CalculateBlurRadius
 *
+CalculateBlurRadius
 below
 .
 *
@@ -515,8 +515,8 @@ shouldn
 t
 be
 done
-for
 *
+for
 speed
 reasons
 .
@@ -704,8 +704,8 @@ to
 the
 constructor
 or
-nullptr
 *
+nullptr
 if
 none
 was
@@ -1149,8 +1149,8 @@ will
 only
 be
 valid
-if
 *
+if
 mHasDirtyRect
 is
 true

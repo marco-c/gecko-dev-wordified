@@ -284,7 +284,15 @@ default
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

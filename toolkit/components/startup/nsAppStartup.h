@@ -204,10 +204,12 @@ define
 NS_TOOLKIT_APPSTARTUP_CID
 \
 {
+\
 0x7dd4d320
 0xc84b
 0x4624
 {
+\
 0x8d
 0x45
 0x7b
@@ -216,7 +218,9 @@ NS_TOOLKIT_APPSTARTUP_CID
 0x35
 0x69
 0x77
+\
 }
+\
 }
 class
 nsAppStartup
@@ -372,6 +376,8 @@ startup
 crash
 tracking
 has
+/
+/
 already
 ended
 bool

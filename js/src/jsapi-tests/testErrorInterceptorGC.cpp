@@ -73,6 +73,9 @@ DEBUG_GC
 }
 ;
 }
+/
+/
+namespace
 BEGIN_TEST
 (
 testErrorInterceptorGC

@@ -199,7 +199,6 @@ USE_COUNTER_CSS_PROPERTY
 name_
 id_
 )
-\
 eUseCounter_property_
 #
 #
@@ -211,7 +210,6 @@ USE_COUNTER_CUSTOM
 name_
 desc_
 )
-\
 eUseCounter_custom_
 #
 #
@@ -245,7 +243,6 @@ DEPRECATED_OPERATION
 (
 op_
 )
-\
 eUseCounter_
 #
 #
@@ -264,5 +261,9 @@ eUseCounter_Count
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

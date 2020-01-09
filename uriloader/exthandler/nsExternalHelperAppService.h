@@ -1069,6 +1069,7 @@ function
 for
 DeleteTemporaryFileOnExit
 and
+*
 DeleteTemporaryPrivateFileWhenPossible
 *
 /
@@ -1445,8 +1446,8 @@ A
 constant
 from
 nsIHelperAppLauncherDialog
-indicating
 *
+indicating
 why
 the
 request

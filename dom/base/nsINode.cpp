@@ -8578,7 +8578,6 @@ _parent
 CACHE_POINTER_SHIFT
 )
 &
-\
 (
 CACHE_NUM_SLOTS
 -
@@ -12617,6 +12616,8 @@ NS_ERROR_DOM_HIERARCHY_REQUEST_ERR
 /
 /
 Implements
+/
+/
 https
 :
 /

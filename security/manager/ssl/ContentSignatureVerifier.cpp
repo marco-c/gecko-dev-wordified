@@ -2149,10 +2149,10 @@ signature
 verification
 using
 CreateContext
+/
+/
 below
 .
-/
-/
 This
 function
 doesn
@@ -2167,9 +2167,9 @@ be
 passed
 but
 instead
+/
+/
 aCSHeader
-/
-/
 must
 contain
 an
@@ -2183,6 +2183,8 @@ to
 download
 the
 cert
+/
+/
 chain
 .
 NS_IMETHODIMP
@@ -2409,6 +2411,8 @@ t
 have
 to
 download
+/
+/
 anything
 .
 mHasCertChain
@@ -3159,6 +3163,8 @@ didn
 t
 find
 a
+"
+"
 signature
 .
 \

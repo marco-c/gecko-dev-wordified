@@ -3337,6 +3337,8 @@ getReader
 read
 =
 new
+"
+"
 ReadableStream
 (
 {
@@ -3847,6 +3849,8 @@ getReader
 read
 =
 new
+"
+"
 ReadableStream
 (
 {

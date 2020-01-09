@@ -550,10 +550,12 @@ aArgs
 }
 /
 /
+namespace
 widget
 }
 /
 /
+namespace
 mozilla
 #
 endif

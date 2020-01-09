@@ -9958,7 +9958,6 @@ bool
 aName
 (
 )
-\
 {
 \
 static
@@ -9971,7 +9970,6 @@ aName
 #
 Value
 =
-\
 Preferences
 :
 :
@@ -10130,7 +10128,10 @@ hack
 .
 ms_japanese_ime
 .
-do_not_return_no_layout_error_at_first_char
+do_not_return_no_layout_error_at_first_
+"
+"
+char
 "
 DoNotReturnNoLayoutErrorToMSJapaneseIMEAtFirstChar
 true
@@ -13305,6 +13306,8 @@ s
 >
 >
 >
+"
+"
 >
 >
 >
@@ -13455,6 +13458,8 @@ s
 <
 <
 <
+"
+"
 <
 <
 <
@@ -44431,6 +44436,8 @@ composition
 after
 unlocking
 the
+"
+"
 document
 "
 this
@@ -50841,10 +50848,10 @@ DEBUG
 }
 /
 /
-name
+namespace
 widget
 }
 /
 /
-name
+namespace
 mozilla

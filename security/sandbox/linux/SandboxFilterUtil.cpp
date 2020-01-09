@@ -810,3 +810,7 @@ InvalidSyscall
 }
 }
 }
+/
+/
+namespace
+mozilla

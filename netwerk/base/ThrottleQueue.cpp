@@ -1937,4 +1937,12 @@ aStream
 ;
 }
 }
+/
+/
+namespace
+net
 }
+/
+/
+namespace
+mozilla

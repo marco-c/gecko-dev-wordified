@@ -295,6 +295,7 @@ OS_SOLARIS
 )
 |
 |
+\
 defined
 (
 __GLIBC__

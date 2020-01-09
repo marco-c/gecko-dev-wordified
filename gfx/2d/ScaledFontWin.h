@@ -244,7 +244,15 @@ mLogFont
 }
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

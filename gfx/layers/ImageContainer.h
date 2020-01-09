@@ -841,6 +841,8 @@ nsOwningThreadSourceSurfaceRef
 >
 :
 :
+"
+"
 SurfaceReleaser
 "
 )
@@ -2355,8 +2357,8 @@ a
 cross
 -
 process
-mutex
 *
+mutex
 to
 communicate
 with
@@ -2365,8 +2367,8 @@ compositor
 thread
 .
 SetCurrentImage
-synchronously
 *
+synchronously
 updates
 the
 shared
@@ -2380,8 +2382,8 @@ image
 and
 the
 old
-image
 *
+image
 is
 immediately
 released
@@ -3393,8 +3395,8 @@ method
 takes
 mRecursiveMutex
 when
-accessing
 *
+accessing
 thread
 -
 shared
@@ -4305,9 +4307,9 @@ the
 main
 thread
 rather
+/
+/
 than
-/
-/
 asynchronusly
 using
 the
@@ -5922,8 +5924,8 @@ treated
 as
 being
 in
-the
 *
+the
 device
 output
 color
@@ -5937,8 +5939,8 @@ simple
 as
 all
 backends
-*
 have
+*
 to
 know
 about

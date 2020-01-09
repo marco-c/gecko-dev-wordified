@@ -206,9 +206,9 @@ T
 )
 and
 in
+/
+/
 particular
-/
-/
 without
 having
 a
@@ -221,9 +221,9 @@ This
 is
 used
 for
+/
+/
 DrawTargetSkia
-/
-/
 to
 be
 able
@@ -488,6 +488,10 @@ struct
 FontInstancePlatformOptions
 ;
 }
+/
+/
+namespace
+wr
 namespace
 gfx
 {
@@ -498,6 +502,10 @@ class
 ScaledFont
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 gfx
 {
@@ -4563,8 +4571,8 @@ gfxTextRun
 in
 the
 future
-as
 *
+as
 roc
 suggested
 .
@@ -5883,9 +5891,9 @@ current
 contents
 of
 the
+*
 DrawTarget
 .
-*
 Multiple
 calls
 to
@@ -5897,9 +5905,9 @@ any
 drawing
 operations
 in
+*
 between
 will
-*
 normally
 return
 the
@@ -5997,8 +6005,8 @@ for
 direct
 manipulation
 .
-While
 *
+While
 the
 bits
 is
@@ -7504,6 +7512,7 @@ singular
 )
 false
 is
+*
 returned
 and
 nothing
@@ -8292,6 +8301,7 @@ be
 freed
 at
 any
+*
 time
 .
 *
@@ -8438,6 +8448,7 @@ the
 ownersip
 of
 the
+*
 NativeSurface
 .
 *
@@ -8473,6 +8484,7 @@ for
 use
 with
 this
+*
 DrawTarget
 .
 *
@@ -8940,8 +8952,8 @@ stop
 color
 outside
 of
-the
 *
+the
 gradient
 area
 .
@@ -9738,6 +9750,7 @@ DrawTarget
 '
 s
 surface
+*
 data
 .
 *
@@ -9756,8 +9769,8 @@ data
 that
 it
 does
-not
 *
+not
 own
 and
 for
@@ -9772,8 +9785,8 @@ has
 to
 make
 it
-temporarily
 *
+temporarily
 unavailable
 without
 the
@@ -9782,9 +9795,9 @@ knowing
 about
 it
 .
-*
 This
 can
+*
 cause
 costly
 surface
@@ -9797,9 +9810,9 @@ be
 used
 without
 a
-*
 a
 good
+*
 reason
 .
 *
@@ -10384,8 +10397,8 @@ commands
 to
 eventually
 be
-replayed
 *
+replayed
 onto
 the
 DrawTarget
@@ -10397,11 +10410,11 @@ byte
 size
 can
 be
+*
 provided
 as
 a
 limit
-*
 for
 the
 CaptureCommandList
@@ -10411,9 +10424,9 @@ the
 limit
 is
 reached
+*
 the
 CaptureCommandList
-*
 will
 be
 replayed
@@ -10829,8 +10842,8 @@ and
 cairo_scaled_font_t
 *
 parameters
-must
 *
+must
 correspond
 to
 the
@@ -11568,9 +11581,9 @@ from
 the
 supplied
 Direct3D11
+*
 device
 .
-*
 Returns
 true
 on
@@ -11582,6 +11595,7 @@ failure
 and
 leaves
 the
+*
 D2D1
 /
 Direct3D11

@@ -1383,8 +1383,8 @@ X
 Yosemite
 -
 specific
-theming
 *
+theming
 should
 be
 used
@@ -3341,10 +3341,10 @@ color
 NS_CHANGE_COLOR_IF_SAME_AS_BG
 would
 returns
+/
+/
 eColorID_TextSelectForegroundCustom
 if
-/
-/
 fg
 and
 bg
@@ -3563,6 +3563,7 @@ NS_IS_SELECTION_SPECIAL_COLOR
 (
 c
 )
+\
 (
 (
 c
@@ -3572,7 +3573,6 @@ c
 NS_TRANSPARENT
 |
 |
-\
 (
 c
 )

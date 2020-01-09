@@ -3676,6 +3676,8 @@ CID
 %
 s
 '
+"
+"
 already
 registered
 by
@@ -3845,6 +3847,8 @@ because
 no
 implementation
 of
+"
+"
 the
 CID
 is
@@ -4573,6 +4577,8 @@ CID
 s
 because
 no
+"
+"
 implementation
 of
 the
@@ -5372,9 +5378,9 @@ ClassObject
 that
 implements
 the
+*
 CID
 .
-*
 Returns
 an
 interface
@@ -6168,6 +6174,7 @@ implementation
 has
 a
 contractID
+*
 aContractID
 .
 *

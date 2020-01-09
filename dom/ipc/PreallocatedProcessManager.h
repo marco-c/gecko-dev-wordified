@@ -322,9 +322,9 @@ any
 processes
 in
 the
+*
 background
 .
-*
 To
 avoid
 that
@@ -335,10 +335,10 @@ won
 t
 start
 up
+*
 any
 processes
 while
-*
 there
 is
 a

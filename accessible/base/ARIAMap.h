@@ -924,9 +924,9 @@ an
 NMTOKEN
 or
 bool
+*
 value
 .
-*
 (
 See
 for

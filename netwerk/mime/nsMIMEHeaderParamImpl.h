@@ -138,10 +138,10 @@ EmptyCString
 (
 )
 false
+*
 nullptr
 aResult
 )
-*
 See
 nsIMIMEHeaderParam
 .

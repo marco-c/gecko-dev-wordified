@@ -586,6 +586,10 @@ ret
 ;
 }
 }
+/
+/
+namespace
+std
 #
 endif
 #
@@ -706,6 +710,10 @@ buf
 ;
 }
 }
+/
+/
+namespace
+std
 #
 endif
 #
@@ -887,6 +895,10 @@ s
 {
 }
 }
+/
+/
+namespace
+std
 #
 endif
 #
@@ -1296,6 +1308,10 @@ default
 #
 endif
 }
+/
+/
+namespace
+std
 #
 endif
 #
@@ -1351,5 +1367,9 @@ bool
 const
 ;
 }
+/
+/
+namespace
+std
 #
 endif

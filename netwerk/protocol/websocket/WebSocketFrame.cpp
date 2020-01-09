@@ -282,7 +282,6 @@ type
 *
 aValue
 )
-\
 {
 \
 MOZ_ASSERT
@@ -823,10 +822,10 @@ mPayload
 }
 /
 /
-net
 namespace
+net
 }
 /
 /
-mozilla
 namespace
+mozilla

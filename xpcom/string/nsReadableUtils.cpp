@@ -193,6 +193,7 @@ desired
 character
 type
 big
+*
 enough
 to
 hold
@@ -239,6 +240,7 @@ second
 parameter
 )
 which
+*
 you
 must
 free
@@ -602,6 +604,8 @@ correct
 length
 and
 copy
+/
+/
 into
 it
 char
@@ -689,6 +693,8 @@ correct
 length
 and
 copy
+/
+/
 into
 it
 char16_t
@@ -1698,6 +1704,8 @@ is
 looks
 for
 a
+/
+/
 potential
 match
 while
@@ -1751,6 +1759,8 @@ string
 .
 .
 .
+/
+/
 we
 '
 re
@@ -1817,6 +1827,8 @@ fast
 '
 loop
 )
+/
+/
 at
 the
 current
@@ -1875,6 +1887,8 @@ pattern
 then
 we
 found
+/
+/
 it
 !
 if
@@ -1902,6 +1916,8 @@ found
 range
 through
 the
+/
+/
 parameters
 break
 ;
@@ -1925,6 +1941,8 @@ we
 hit
 the
 end
+/
+/
 of
 the
 /
@@ -1975,6 +1993,8 @@ to
 the
 next
 search
+/
+/
 position
 /
 /
@@ -2036,6 +2056,7 @@ and
 returns
 the
 first
+*
 match
 found
 if
@@ -2239,6 +2260,8 @@ pattern
 then
 we
 found
+/
+/
 it
 !
 if
@@ -2296,6 +2319,8 @@ we
 hit
 the
 end
+/
+/
 of
 the
 /

@@ -150,9 +150,9 @@ interface
 .
 Used
 for
+*
 window
 and
-*
 group
 message
 managers

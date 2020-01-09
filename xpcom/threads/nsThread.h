@@ -280,6 +280,10 @@ class
 ThreadEventTarget
 ;
 }
+/
+/
+namespace
+mozilla
 using
 mozilla
 :
@@ -403,6 +407,8 @@ optionally
 give
 it
 a
+/
+/
 name
 .
 nsresult
@@ -1337,9 +1343,9 @@ DEBUG
 &
 &
 HAVE_UALARM
+&
+&
 \
-&
-&
 defined
 (
 _GNU_SOURCE

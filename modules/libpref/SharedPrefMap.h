@@ -9072,6 +9072,7 @@ kExpectedPrefCount
 }
 /
 /
+namespace
 mozilla
 #
 endif

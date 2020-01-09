@@ -152,6 +152,10 @@ DrawTarget
 ;
 }
 }
+/
+/
+namespace
+mozilla
 class
 gfxASurface
 ;
@@ -253,9 +257,9 @@ drawing
 Must
 be
 a
+*
 cairo_xlib_surface_t
 .
-*
 The
 extents
 of
@@ -265,8 +269,8 @@ do
 not
 necessarily
 cover
-the
 *
+the
 entire
 rectangle
 with

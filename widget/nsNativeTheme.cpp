@@ -4790,9 +4790,9 @@ document
 This
 heuristic
 matches
+/
+/
 what
-/
-/
 WebKit
 does
 and

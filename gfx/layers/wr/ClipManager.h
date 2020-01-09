@@ -193,8 +193,8 @@ layers
 and
 clips
 in
-WebRender
 *
+WebRender
 based
 on
 the
@@ -209,8 +209,8 @@ few
 public
 functions
 that
-are
 *
+are
 intended
 to
 be
@@ -223,8 +223,8 @@ display
 list
 and
 it
-uses
 *
+uses
 the
 ASR
 and
@@ -237,8 +237,8 @@ list
 to
 create
 the
-necessary
 *
+necessary
 clip
 state
 in
@@ -746,6 +746,8 @@ which
 we
 cannot
 deduplicate
+/
+/
 clips
 .
 typedef

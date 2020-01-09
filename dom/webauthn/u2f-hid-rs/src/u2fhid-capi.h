@@ -360,6 +360,8 @@ to
 the
 rust
 type
+/
+/
 U2FKeyHandles
 struct
 rust_u2f_key_handles

@@ -1544,9 +1544,9 @@ for
 .
 in
 performance
+/
+/
 instead
-/
-/
 call
 the
 base
@@ -1557,9 +1557,9 @@ use
 our
 implementation
 of
+/
+/
 getOwnEnumerablePropertyKeys
-/
-/
 and
 follow
 the

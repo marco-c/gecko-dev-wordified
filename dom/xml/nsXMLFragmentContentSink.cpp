@@ -1472,6 +1472,8 @@ when
 the
 fragment
 moves
+/
+/
 into
 the
 document
@@ -1635,6 +1637,8 @@ to
 the
 cleanup
 in
+/
+/
 nsXMLContentSink
 :
 :

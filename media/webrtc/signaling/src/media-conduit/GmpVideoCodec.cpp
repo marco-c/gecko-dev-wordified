@@ -106,3 +106,7 @@ WebrtcVideoDecoderProxy
 ;
 }
 }
+/
+/
+namespace
+mozilla

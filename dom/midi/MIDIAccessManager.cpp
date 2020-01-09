@@ -253,6 +253,9 @@ MIDIAccessManager
 gMIDIAccessManager
 ;
 }
+/
+/
+namespace
 MIDIAccessManager
 :
 :
@@ -1049,4 +1052,12 @@ Clear
 }
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

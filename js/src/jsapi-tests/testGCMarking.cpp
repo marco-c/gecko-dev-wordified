@@ -377,6 +377,8 @@ by
 a
 CCW
 into
+/
+/
 compartment
 1
 .
@@ -736,6 +738,8 @@ exactly
 when
 the
 GC
+/
+/
 happens
 .
 JS_SetGCZeal
@@ -1072,6 +1076,8 @@ exactly
 when
 the
 GC
+/
+/
 happens
 .
 JS_SetGCZeal
@@ -1324,6 +1330,8 @@ exactly
 when
 the
 GC
+/
+/
 happens
 .
 JS_SetGCZeal
@@ -1591,6 +1599,8 @@ exactly
 when
 the
 GC
+/
+/
 happens
 .
 JS_SetGCZeal
@@ -1908,6 +1918,8 @@ exactly
 when
 the
 GC
+/
+/
 happens
 .
 JS_SetGCZeal
@@ -2208,6 +2220,8 @@ exactly
 when
 the
 GC
+/
+/
 happens
 .
 JS_SetGCZeal

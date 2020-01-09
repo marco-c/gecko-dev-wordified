@@ -179,5 +179,9 @@ aLParam
 )
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

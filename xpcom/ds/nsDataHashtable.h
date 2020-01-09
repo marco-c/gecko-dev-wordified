@@ -233,14 +233,14 @@ typename
 BaseClass
 :
 :
-KeyType
+EntryType
 ;
 using
 typename
 BaseClass
 :
 :
-EntryType
+KeyType
 ;
 nsDataHashtable
 (

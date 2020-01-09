@@ -4344,6 +4344,8 @@ inlined
 scripts
 in
 the
+/
+/
 frame
 .
 IonScript
@@ -9946,6 +9948,8 @@ fail
 and
 will
 not
+/
+/
 GC
 .
 if
@@ -10038,6 +10042,8 @@ recover
 the
 innermost
 inlined
+/
+/
 frame
 .
 jsbytecode
@@ -15642,6 +15648,8 @@ value
 allocation
 (
 possible
+"
+"
 f
 .
 arguments
@@ -16790,6 +16798,8 @@ the
 spill
 base
 is
+"
+"
 also
 aligned
 "

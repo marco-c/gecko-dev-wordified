@@ -1114,6 +1114,8 @@ SSE4_2
 support
 implies
 SSE2
+/
+/
 support
 .
 enum
@@ -1806,6 +1808,8 @@ the
 comparison
 is
 ordered
+/
+/
 -
 i
 .

@@ -805,9 +805,9 @@ constant
 buffer
 sizes
 are
+/
+/
 generally
-/
-/
 under
 1KB
 and
@@ -862,6 +862,8 @@ the
 device
 -
 specific
+/
+/
 properties
 above
 .

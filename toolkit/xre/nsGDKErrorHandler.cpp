@@ -306,6 +306,7 @@ XXXX
 XXXX
 )
 minor_code
+*
 XXXX
 )
 *

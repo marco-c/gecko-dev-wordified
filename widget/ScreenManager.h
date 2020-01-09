@@ -176,7 +176,15 @@ class
 ScreenDetails
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 namespace
 mozilla
 {

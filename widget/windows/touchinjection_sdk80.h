@@ -259,6 +259,7 @@ Default
 #
 define
 TOUCH_MASK_NONE
+\
 0x00000000
 /
 /
@@ -391,6 +392,7 @@ primary
 #
 define
 POINTER_FLAG_CONFIDENCE
+\
 0x00004000
 /
 /
@@ -404,6 +406,7 @@ accidental
 #
 define
 POINTER_FLAG_CANCELED
+\
 0x00008000
 /
 /
@@ -417,6 +420,7 @@ manner
 #
 define
 POINTER_FLAG_DOWN
+\
 0x00010000
 /
 /
@@ -440,6 +444,7 @@ update
 #
 define
 POINTER_FLAG_UP
+\
 0x00040000
 /
 /
@@ -484,6 +489,7 @@ TOUCH_FEEDBACK_DEFAULT
 #
 define
 TOUCH_FLAGS_CONTACTUPDATE
+\
 (
 POINTER_FLAG_UPDATE
 |
@@ -494,6 +500,7 @@ POINTER_FLAG_INCONTACT
 #
 define
 TOUCH_FLAGS_CONTACTDOWN
+\
 (
 POINTER_FLAG_DOWN
 |

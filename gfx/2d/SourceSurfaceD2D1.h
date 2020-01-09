@@ -604,7 +604,15 @@ mImplicitMapped
 }
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

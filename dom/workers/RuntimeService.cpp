@@ -800,6 +800,8 @@ May
 be
 changed
 via
+/
+/
 pref
 .
 #
@@ -5575,8 +5577,8 @@ namespace
 }
 /
 /
-workerinternals
 namespace
+workerinternals
 class
 WorkerJSContext
 final
@@ -9369,9 +9371,7 @@ Preferences
 :
 RegisterCallbackAndCall
 (
-\
 callback
-\
 name
 )
 )
@@ -10098,7 +10098,7 @@ mMsg
 }
 /
 /
-anonymous
+namespace
 void
 RuntimeService
 :
@@ -10925,9 +10925,7 @@ Preferences
 :
 UnregisterCallback
 (
-\
 callback
-\
 name
 )
 )
@@ -13679,8 +13677,8 @@ NS_OK
 }
 /
 /
-workerinternals
 namespace
+workerinternals
 void
 CancelWorkersForWindow
 (
@@ -14265,10 +14263,10 @@ GetGlobalJSObject
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

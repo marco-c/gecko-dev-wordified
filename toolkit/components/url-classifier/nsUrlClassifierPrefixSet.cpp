@@ -302,6 +302,7 @@ LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 gUrlClassifierPrefixSetLog
@@ -319,6 +320,7 @@ define
 LOG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 gUrlClassifierPrefixSetLog

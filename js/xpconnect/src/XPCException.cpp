@@ -306,7 +306,6 @@ XPC_MSG_DEF
 val
 format
 )
-\
 {
 (
 val

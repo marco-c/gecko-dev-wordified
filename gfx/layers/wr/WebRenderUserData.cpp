@@ -834,9 +834,9 @@ that
 it
 can
 be
+/
+/
 shared
-/
-/
 across
 multiple
 elements
@@ -1045,11 +1045,11 @@ changed
 better
 to
 reuse
+/
+/
 the
 image
 keys
-/
-/
 than
 create
 new

@@ -671,8 +671,8 @@ PaintedLayers
 or
 ColorLayers
 for
-example
 *
+example
 which
 do
 not
@@ -687,9 +687,9 @@ of
 C
 will
 always
+*
 be
 the
-*
 same
 as
 the

@@ -428,9 +428,9 @@ no
 anchor
 or
 position
+/
+/
 are
-/
-/
 specified
 open
 the
@@ -442,9 +442,9 @@ of
 ShowPopup
 so
 that
+/
+/
 the
-/
-/
 popup
 is
 aligned

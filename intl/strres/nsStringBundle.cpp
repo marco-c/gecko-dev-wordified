@@ -827,11 +827,12 @@ define
 STRINGBUNDLEPROXY_IID
 \
 {
+\
 0x537cf21b
 0x99fc
 0x4002
-\
 {
+\
 0x9e
 0xec
 0x97
@@ -840,7 +841,9 @@ STRINGBUNDLEPROXY_IID
 0xe0
 0xb3
 0xdc
+\
 }
+\
 }
 /
 *
@@ -1166,11 +1169,12 @@ define
 SHAREDSTRINGBUNDLE_IID
 \
 {
+\
 0x7a8df5f7
 0x9e50
 0x44f6
-\
 {
+\
 0xbf
 0x89
 0xc7
@@ -1179,7 +1183,9 @@ SHAREDSTRINGBUNDLE_IID
 0x17
 0xf8
 0x5f
+\
 }
+\
 }
 /
 *
@@ -3540,6 +3546,8 @@ format
 parameters
 :
 use
+"
+"
 GetStringFromName
 (
 )

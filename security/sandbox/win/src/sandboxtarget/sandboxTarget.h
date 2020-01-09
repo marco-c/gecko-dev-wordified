@@ -367,6 +367,7 @@ mTargetServices
 }
 /
 /
+namespace
 mozilla
 #
 endif

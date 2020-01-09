@@ -737,6 +737,7 @@ xpt
 "
 #
 type
+\
 "
 )
 "
@@ -1012,6 +1013,7 @@ stub
 previously
 created
 with
+*
 NS_GetXPTCallStub
 .
 *

@@ -353,10 +353,9 @@ ReallocPendingBuffer
 ;
 }
 /
-*
-mozilla
-*
 /
+namespace
+mozilla
 #
 endif
 /

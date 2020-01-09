@@ -197,6 +197,10 @@ DERArray
 ;
 }
 }
+/
+/
+namespace
+mozilla
 class
 nsINSSComponent
 ;
@@ -916,6 +920,7 @@ delete
 #
 define
 NS_X509CERT_CID
+\
 {
 /
 *
@@ -932,12 +937,10 @@ bb20
 /
 \
 0x660a3226
-\
 0x915c
-\
 0x4ffb
-\
 {
+\
 0xbb
 0x20
 0x89
@@ -946,6 +949,7 @@ bb20
 0x32
 0xdf
 0x05
+\
 }
 \
 }

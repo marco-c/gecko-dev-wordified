@@ -6558,6 +6558,8 @@ only
 equal
 to
 the
+/
+/
 same
 set
 .
@@ -10416,8 +10418,10 @@ PUSH_COPY
 (
 v
 )
+\
 do
 {
+\
 *
 REGS
 .
@@ -10429,6 +10433,7 @@ sp
 v
 )
 ;
+\
 cx
 -
 >
@@ -10443,6 +10448,7 @@ sp
 ]
 )
 ;
+\
 }
 while
 (
@@ -10568,8 +10574,10 @@ PUSH_STRING
 (
 s
 )
+\
 do
 {
+\
 REGS
 .
 sp
@@ -10582,6 +10590,7 @@ setString
 s
 )
 ;
+\
 cx
 -
 >
@@ -10596,6 +10605,7 @@ sp
 ]
 )
 ;
+\
 }
 while
 (
@@ -10607,8 +10617,10 @@ PUSH_OBJECT
 (
 obj
 )
+\
 do
 {
+\
 REGS
 .
 sp
@@ -10621,6 +10633,7 @@ setObject
 obj
 )
 ;
+\
 cx
 -
 >
@@ -10635,6 +10648,7 @@ sp
 ]
 )
 ;
+\
 }
 while
 (
@@ -10646,8 +10660,10 @@ PUSH_OBJECT_OR_NULL
 (
 obj
 )
+\
 do
 {
+\
 REGS
 .
 sp
@@ -10660,6 +10676,7 @@ setObjectOrNull
 obj
 )
 ;
+\
 cx
 -
 >
@@ -10674,6 +10691,7 @@ sp
 ]
 )
 ;
+\
 }
 while
 (
@@ -10777,7 +10795,6 @@ if
 !
 obj
 )
-\
 goto
 error
 ;
@@ -13268,7 +13285,6 @@ __GNUC__
 )
 |
 |
-\
 (
 __IBMC__
 >
@@ -13322,6 +13338,7 @@ define
 DEFAULT
 (
 )
+\
 label_default
 :
 #
@@ -13420,7 +13437,6 @@ v
 =
 =
 EnableInterruptsPseudoOpcode
-\
 ?
 LABEL
 (
@@ -13457,8 +13473,10 @@ define
 INTERPRETER_LOOP
 (
 )
+\
 the_switch
 :
+\
 switch
 (
 switchOp
@@ -13807,7 +13825,6 @@ CheckForInterrupt
 cx
 )
 )
-\
 goto
 error
 ;
@@ -13875,7 +13892,6 @@ nlen
 =
 0
 )
-\
 CHECK_BRANCH
 (
 )
@@ -13945,7 +13961,6 @@ initScriptCounts
 cx
 )
 )
-\
 goto
 error
 ;
@@ -14055,7 +14070,6 @@ main
 )
 )
 )
-\
 COUNT_COVERAGE_PC
 (
 main
@@ -16256,7 +16270,6 @@ id
 )
 )
 )
-\
 goto
 error
 ;
@@ -17704,7 +17717,6 @@ rval
 equal
 )
 )
-\
 goto
 error
 ;
@@ -22347,6 +22359,8 @@ realm
 when
 we
 call
+/
+/
 popInlineFrame
 .
 }
@@ -23393,8 +23407,8 @@ literal
 object
 mapped
 by
-the
 *
+the
 bytecode
 at
 pc
@@ -24786,8 +24800,8 @@ when
 coming
 in
 from
-the
 *
+the
 method
 JIT
 and
@@ -27801,9 +27815,9 @@ debugger
 shouldn
 '
 t
+/
+/
 need
-/
-/
 help
 from
 bytecode
@@ -31097,8 +31111,8 @@ DebugEnvironmentProxy
 takes
 care
 of
-storing
 *
+storing
 the
 function
 in
@@ -31114,8 +31128,8 @@ variables
 )
 or
 on
-the
 *
+the
 scope
 object
 (

@@ -661,10 +661,10 @@ remove
 that
 from
 returned
+/
+/
 value
 .
-/
-/
 The
 computed
 monitor
@@ -675,10 +675,10 @@ to
 be
 rounded
 before
+/
+/
 casting
 to
-/
-/
 integer
 to
 avoid
@@ -688,6 +688,8 @@ which
 would
 lead
 to
+/
+/
 returning
 0
 .
@@ -2526,6 +2528,8 @@ have
 focus
 rings
 their
+/
+/
 labels
 do
 aState
@@ -4135,6 +4139,8 @@ is
 the
 sorted
 one
+/
+/
 or
 not
 if
@@ -5537,6 +5543,8 @@ widget
 if
 using
 system
+/
+/
 Cairo
 everywhere
 .
@@ -5632,6 +5640,8 @@ need
 to
 create
 a
+/
+/
 temporary
 one
 .
@@ -6418,6 +6428,8 @@ transparency
 so
 use
 the
+/
+/
 slower
 drawing
 path

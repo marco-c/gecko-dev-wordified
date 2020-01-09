@@ -10989,6 +10989,8 @@ is
 added
 to
 a
+/
+/
 type
 set
 .
@@ -12202,6 +12204,8 @@ an
 object
 acquires
 particular
+/
+/
 flags
 .
 class
@@ -19830,8 +19834,8 @@ this
 object
 which
 we
-need
 *
+need
 to
 do
 the
@@ -19849,8 +19853,8 @@ we
 will
 mark
 all
-unknown
 *
+unknown
 objects
 before
 they
@@ -19863,8 +19867,8 @@ __proto__
 of
 a
 known
-object
 *
+object
 could
 be
 dynamically
@@ -19878,8 +19882,8 @@ we
 can
 decide
 to
-ignore
 *
+ignore
 properties
 of
 an
@@ -19895,9 +19899,9 @@ hashmaps
 )
 .
 Adding
+*
 unknown
 for
-*
 any
 properties
 accessed
@@ -19906,6 +19910,7 @@ accounts
 for
 possible
 values
+*
 read
 from
 them

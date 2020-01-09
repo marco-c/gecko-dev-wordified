@@ -2333,6 +2333,8 @@ it
 with
 http
 instead
+/
+/
 later
 info
 -
@@ -5314,6 +5316,8 @@ first
 space
 -
 separated
+/
+/
 substring
 /
 /
@@ -5414,13 +5418,13 @@ dot
 doesn
 '
 t
+/
+/
 start
 with
 "
 ?
 "
-/
-/
 "
 www
 .
@@ -5429,8 +5433,6 @@ blah
 com
 stuff
 "
-/
-/
 "
 nonQualifiedHost
 :
@@ -5438,6 +5440,8 @@ nonQualifiedHost
 "
 -
 first
+/
+/
 space
 -
 separated
@@ -5916,9 +5920,9 @@ came
 after
 the
 last
+/
+/
 dot
-/
-/
 and
 the
 digits
@@ -5984,6 +5988,8 @@ lookup
 so
 just
 bail
+/
+/
 immediately
 :
 return

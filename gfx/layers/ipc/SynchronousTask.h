@@ -293,6 +293,14 @@ mAutoEnter
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif

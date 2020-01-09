@@ -870,6 +870,8 @@ chrome
 uri
 passed
 to
+"
+"
 nsChromeProtocolHandler
 :
 :
@@ -1032,10 +1034,10 @@ handler
 modify
 the
 result
+/
+/
 principal
 URI
-/
-/
 since
 we
 want
@@ -1050,6 +1052,8 @@ pre
 set
 by
 upper
+/
+/
 layers
 to
 prevail

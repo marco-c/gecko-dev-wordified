@@ -150,6 +150,7 @@ Instruments
 #
 define
 DTPerformanceLibraryPath
+\
 "
 /
 Applications
@@ -166,6 +167,9 @@ Library
 /
 Frameworks
 /
+"
+\
+"
 DTPerformanceSession
 .
 framework
@@ -179,6 +183,7 @@ DTPerformanceSession
 #
 define
 OldDTPerformanceLibraryPath
+\
 "
 /
 Library
@@ -193,6 +198,9 @@ Instruments
 /
 Frameworks
 /
+"
+\
+"
 DTPerformanceSession
 .
 framework
@@ -215,6 +223,7 @@ DTPerformanceSessionRef
 #
 define
 DTPerformanceSession_TimeProfiler
+\
 "
 com
 .
@@ -236,6 +245,7 @@ microseconds
 #
 define
 DTPerformanceSession_Option_SamplingInterval
+\
 "
 com
 .
@@ -453,7 +463,6 @@ SYMBOL
 (
 _sym
 )
-\
 _sym
 #
 #

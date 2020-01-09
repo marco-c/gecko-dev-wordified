@@ -157,7 +157,15 @@ event
 }
 ;
 }
+/
+/
+namespace
+plugins
 }
+/
+/
+namespace
+mozilla
 /
 /
 /

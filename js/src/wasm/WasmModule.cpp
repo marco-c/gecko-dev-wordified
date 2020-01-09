@@ -7243,6 +7243,8 @@ must
 have
 the
 actual
+/
+/
 StructTypePrototype
 .
 RootedObject

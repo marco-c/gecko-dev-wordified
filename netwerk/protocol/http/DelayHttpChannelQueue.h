@@ -259,13 +259,13 @@ mQueue
 }
 /
 /
-net
 namespace
+net
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 /

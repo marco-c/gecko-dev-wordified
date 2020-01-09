@@ -824,6 +824,7 @@ gamma
 #
 define
 GFX_CLEARTYPE_PARAMS_CONTRAST
+\
 "
 gfx
 .
@@ -836,6 +837,7 @@ enhanced_contrast
 #
 define
 GFX_CLEARTYPE_PARAMS_LEVEL
+\
 "
 gfx
 .
@@ -848,6 +850,7 @@ cleartype_level
 #
 define
 GFX_CLEARTYPE_PARAMS_STRUCTURE
+\
 "
 gfx
 .
@@ -860,6 +863,7 @@ pixel_structure
 #
 define
 GFX_CLEARTYPE_PARAMS_MODE
+\
 "
 gfx
 .
@@ -1095,6 +1099,8 @@ s
 work
 on
 Process
+/
+/
 Hacker
 DXGI_ADAPTER_DESC
 adapterDesc
@@ -1299,6 +1305,8 @@ in
 Win7
 than
 later
+/
+/
 versions
 if
 (
@@ -3567,6 +3575,8 @@ enabled
 so
 fallback
 to
+/
+/
 Skia
 .
 return
@@ -10567,6 +10577,8 @@ falling
 back
 to
 software
+"
+"
 timers
 "
 )

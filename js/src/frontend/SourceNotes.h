@@ -1619,6 +1619,7 @@ sn
 t
 d
 )
+\
 (
 *
 (
@@ -1628,7 +1629,6 @@ sn
 (
 jssrcnote
 )
-\
 (
 (
 (
@@ -1638,7 +1638,6 @@ t
 <
 SN_DELTA_BITS
 )
-\
 |
 (
 (
@@ -1656,6 +1655,7 @@ SN_MAKE_XDELTA
 sn
 d
 )
+\
 (
 *
 (
@@ -1665,7 +1665,6 @@ sn
 (
 jssrcnote
 )
-\
 (
 (
 SRC_XDELTA
@@ -1673,7 +1672,6 @@ SRC_XDELTA
 <
 SN_DELTA_BITS
 )
-\
 |
 (
 (
@@ -1710,6 +1708,7 @@ SN_TYPE
 (
 sn
 )
+\
 (
 (
 js
@@ -1722,10 +1721,8 @@ SN_IS_XDELTA
 (
 sn
 )
-\
 ?
 SRC_XDELTA
-\
 :
 *
 (
@@ -1773,6 +1770,7 @@ SN_DELTA
 (
 sn
 )
+\
 (
 (
 ptrdiff_t
@@ -1782,7 +1780,6 @@ SN_IS_XDELTA
 (
 sn
 )
-\
 ?
 *
 (
@@ -1790,7 +1787,6 @@ sn
 )
 &
 SN_XDELTA_MASK
-\
 :
 *
 (
@@ -1807,12 +1803,12 @@ SN_SET_DELTA
 sn
 delta
 )
+\
 (
 SN_IS_XDELTA
 (
 sn
 )
-\
 ?
 SN_MAKE_XDELTA
 (
@@ -2263,6 +2259,7 @@ SN_LENGTH
 (
 sn
 )
+\
 (
 (
 js_SrcNoteSpec
@@ -2280,7 +2277,6 @@ arity
 )
 ?
 1
-\
 :
 js
 :

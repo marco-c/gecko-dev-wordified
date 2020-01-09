@@ -1444,6 +1444,7 @@ Y
 \
 static_assert
 (
+\
 static_cast
 <
 int
@@ -1470,6 +1471,9 @@ dom
 :
 CSSStyleSheetParsingMode
 and
+"
+\
+"
 mozilla
 :
 :
@@ -3276,6 +3280,7 @@ NOTIFY
 function_
 args_
 )
+\
 do
 {
 \
@@ -5404,11 +5409,11 @@ parsing
 can
 '
 t
+/
+/
 handle
 )
 .
-/
-/
 (
 3
 )
@@ -5422,6 +5427,8 @@ since
 those
 can
 use
+/
+/
 -
 moz
 -
@@ -6703,6 +6710,8 @@ sheet
 that
 is
 not
+"
+"
 our
 child
 !

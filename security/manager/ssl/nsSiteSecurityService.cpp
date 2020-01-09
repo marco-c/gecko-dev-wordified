@@ -3722,6 +3722,8 @@ no
 direct
 access
 to
+"
+"
 nsISiteSecurityService
 :
 :
@@ -6212,6 +6214,8 @@ be
 removed
 in
 Bug
+/
+/
 #
 1406854
 mozilla
@@ -6428,6 +6432,8 @@ be
 removed
 in
 Bug
+/
+/
 #
 1406854
 nsCOMPtr
@@ -7531,6 +7537,8 @@ no
 direct
 access
 to
+"
+"
 nsISiteSecurityService
 :
 :
@@ -9551,6 +9559,8 @@ no
 direct
 access
 to
+"
+"
 nsISiteSecurityService
 :
 :

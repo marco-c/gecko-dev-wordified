@@ -3173,6 +3173,7 @@ SSRVOPT_SETCONTEXT
 #
 define
 NS_IMAGEHLP_MODULE64_SIZE
+\
 (
 (
 (
@@ -3190,12 +3191,14 @@ DWORD64
 1
 )
 /
+\
 sizeof
 (
 DWORD64
 )
 )
 *
+\
 sizeof
 (
 DWORD64
@@ -4063,6 +4066,7 @@ elif
 HAVE_DLADDR
 &
 &
+\
 (
 HAVE__UNWIND_BACKTRACE
 |
@@ -4070,6 +4074,7 @@ HAVE__UNWIND_BACKTRACE
 MOZ_STACKWALK_SUPPORTS_LINUX
 |
 |
+\
 MOZ_STACKWALK_SUPPORTS_MACOSX
 )
 #
@@ -5810,6 +5815,10 @@ aStackEnd
 {
 }
 }
+/
+/
+namespace
+mozilla
 #
 endif
 MFBT_API

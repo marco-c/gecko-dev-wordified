@@ -2146,11 +2146,12 @@ NS_OK
 }
 /
 /
+namespace
 CacheStorageEvictHelper
 }
 /
 /
-anon
+namespace
 /
 /
 static
@@ -2688,6 +2689,8 @@ parse
 OriginAttributes
 JSON
 in
+"
+"
 clear
 -
 origin

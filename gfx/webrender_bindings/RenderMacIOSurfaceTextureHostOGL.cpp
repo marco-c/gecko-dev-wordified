@@ -288,6 +288,8 @@ only
 supports
 YUV422
 interleaving
+/
+/
 format
 .
 MOZ_ASSERT

@@ -229,11 +229,12 @@ define
 NS_EVENTTARGET_IID
 \
 {
+\
 0xde651c36
 0x0053
 0x4c67
-\
 {
+\
 0xb1
 0x3d
 0x67
@@ -242,7 +243,9 @@ NS_EVENTTARGET_IID
 0xfc
 0x82
 0xe4
+\
 }
+\
 }
 class
 EventTarget
@@ -752,8 +755,8 @@ WindowProxy
 outer
 window
 )
-returns
 *
+returns
 the
 Window
 (

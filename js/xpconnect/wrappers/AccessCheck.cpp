@@ -1066,9 +1066,9 @@ if
 either
 GET
 or
+/
+/
 SET
-/
-/
 is
 allowed
 and
@@ -1080,6 +1080,8 @@ filter
 out
 any
 disallowed
+/
+/
 accessors
 .
 if

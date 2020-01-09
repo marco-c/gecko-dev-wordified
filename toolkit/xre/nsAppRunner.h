@@ -515,6 +515,7 @@ nullptr
 #
 define
 PREF_WIN_REGISTER_APPLICATION_RESTART
+\
 "
 toolkit
 .

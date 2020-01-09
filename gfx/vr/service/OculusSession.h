@@ -197,6 +197,10 @@ struct
 PixelShaderConstants
 ;
 }
+/
+/
+namespace
+layers
 namespace
 gfx
 {
@@ -680,12 +684,12 @@ mIsPresenting
 /
 /
 namespace
-mozilla
+gfx
 }
 /
 /
 namespace
-gfx
+mozilla
 #
 endif
 /

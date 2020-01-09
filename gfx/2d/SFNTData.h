@@ -629,10 +629,12 @@ mFonts
 }
 /
 /
+namespace
 gfx
 }
 /
 /
+namespace
 mozilla
 #
 endif

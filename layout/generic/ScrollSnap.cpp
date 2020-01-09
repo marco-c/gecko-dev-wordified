@@ -463,6 +463,8 @@ is
 storing
 a
 valid
+/
+/
 horizontal
 edge
 bool
@@ -480,6 +482,8 @@ storing
 a
 valid
 vertical
+/
+/
 edge
 }
 ;
@@ -1170,6 +1174,8 @@ in
 the
 direction
 of
+/
+/
 scrolling
 nscoord
 overshoot
@@ -1196,6 +1202,8 @@ scrolling
 destination
 in
 the
+/
+/
 direction
 of
 scrolling
@@ -1223,9 +1231,9 @@ the
 scrolling
 destination
 are
+/
+/
 favoured
-/
-/
 to
 preserve
 context
@@ -1269,9 +1277,9 @@ position
 and
 the
 scrolling
+/
+/
 destination
-/
-/
 the
 closest
 edge
@@ -1329,6 +1337,8 @@ is
 used
 depending
 on
+/
+/
 scrolling
 direction
 if

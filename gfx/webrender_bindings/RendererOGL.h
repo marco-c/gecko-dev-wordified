@@ -202,6 +202,10 @@ class
 SyncObjectHost
 ;
 }
+/
+/
+namespace
+layers
 namespace
 widget
 {

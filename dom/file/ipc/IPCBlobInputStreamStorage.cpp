@@ -186,6 +186,9 @@ IPCBlobInputStreamStorage
 gStorage
 ;
 }
+/
+/
+namespace
 NS_INTERFACE_MAP_BEGIN
 (
 IPCBlobInputStreamStorage

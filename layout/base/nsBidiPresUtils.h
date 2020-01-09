@@ -544,10 +544,10 @@ X
 axis
 )
 in
+/
+/
 twips
 .
-/
-/
 Eessentially
 this
 is
@@ -559,6 +559,8 @@ relative
 to
 the
 rendering
+/
+/
 context
 )
 where
@@ -575,6 +577,8 @@ the
 visual
 string
 to
+/
+/
 the
 left
 of
@@ -583,14 +587,14 @@ given
 logical
 position
 .
-/
-/
 If
 the
 logical
 position
 was
 not
+/
+/
 found
 set
 to
@@ -1333,6 +1337,7 @@ to
 be
 used
 to
+*
 construct
 the
 textrun
@@ -1377,6 +1382,7 @@ positions
 to
 resolve
 into
+*
 visual
 positions
 ;
@@ -2958,6 +2964,7 @@ from
 nsIFrame
 *
 to
+*
 nsFrameContinuationState
 *
 return
@@ -3044,6 +3051,7 @@ from
 nsIFrame
 *
 to
+*
 nsFrameContinuationState
 *
 /
@@ -3486,8 +3494,8 @@ in
 a
 previous
 reflow
-by
 *
+by
 EnsureBidiContinuation
 (
 )

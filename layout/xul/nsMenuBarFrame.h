@@ -731,6 +731,8 @@ listener
 that
 tells
 us
+/
+/
 about
 key
 and
@@ -753,9 +755,9 @@ on
 the
 menubar
 to
+/
+/
 another
-/
-/
 to
 indicate
 that
@@ -787,6 +789,8 @@ a
 menu
 item
 is
+/
+/
 highlighted
 or
 shown
@@ -825,9 +829,9 @@ be
 open
 .
 This
+/
+/
 will
-/
-/
 be
 null
 if

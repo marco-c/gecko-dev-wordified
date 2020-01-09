@@ -1599,6 +1599,8 @@ by
 the
 HTML
 5
+/
+/
 specification
 .
 /
@@ -1688,9 +1690,9 @@ resource
 Anything
 accessing
 the
+/
+/
 contents
-/
-/
 of
 this
 element
@@ -1701,10 +1703,10 @@ principal
 that
 subsumes
 this
+/
+/
 principal
 .
-/
-/
 Returns
 null
 if
@@ -1819,6 +1821,8 @@ s
 media
 resource
 has
+/
+/
 changed
 .
 void
@@ -5461,8 +5465,8 @@ the
 same
 NodePrincipal
 and
-mLoadingSrc
 *
+mLoadingSrc
 set
 to
 aURI
@@ -5477,6 +5481,7 @@ Load
 )
 has
 been
+*
 called
 .
 *
@@ -7144,6 +7149,8 @@ necessary
 based
 on
 current
+/
+/
 state
 .
 void
@@ -9965,6 +9972,8 @@ is
 suspended
 (
 mPausedForInactiveDocumentOrChannel
+/
+/
 must
 also
 be
@@ -10721,6 +10730,8 @@ hadn
 t
 loaded
 metadata
+/
+/
 yet
 .
 bool
@@ -11105,10 +11116,10 @@ element
 has
 started
 playing
+/
+/
 before
 .
-/
-/
 It
 '
 s
@@ -11323,9 +11334,9 @@ stuffs
 eg
 .
 the
+/
+/
 operations
-/
-/
 of
 tab
 audio
@@ -11336,10 +11347,10 @@ s
 media
 control
 .
-/
-/
 Note
 :
+/
+/
 mAudioChannelWrapper
 might
 be

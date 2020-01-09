@@ -618,6 +618,12 @@ js
 jit
 ;
 using
+JS
+:
+:
+GenericNaN
+;
+using
 mozilla
 :
 :
@@ -652,12 +658,6 @@ mozilla
 :
 :
 PositiveInfinity
-;
-using
-JS
-:
-:
-GenericNaN
 ;
 namespace
 js
@@ -6065,6 +6065,8 @@ path
 since
 the
 code
+"
+"
 generator
 will
 try
@@ -6083,6 +6085,8 @@ up
 its
 labels
 which
+"
+"
 will
 cause
 null
@@ -6448,6 +6452,8 @@ this
 should
 have
 been
+"
+"
 folded
 .
 "
@@ -14464,6 +14470,8 @@ LRegExpMatcher
 is
 a
 call
+/
+/
 instruction
 .
 AllocatableGeneralRegisterSet
@@ -15747,6 +15755,8 @@ elements
 ;
 no
 post
+/
+/
 barrier
 .
 masm
@@ -16101,6 +16111,8 @@ OOL
 stub
 needs
 to
+/
+/
 be
 called
 .
@@ -16824,6 +16836,8 @@ LRegExpSearcher
 is
 a
 call
+/
+/
 instruction
 .
 AllocatableGeneralRegisterSet
@@ -18096,6 +18110,8 @@ LRegExpTester
 is
 a
 call
+/
+/
 instruction
 .
 AllocatableGeneralRegisterSet
@@ -29720,6 +29736,8 @@ cannot
 appear
 here
 see
+/
+/
 LIRGenerator
 :
 :
@@ -30701,6 +30719,8 @@ to
 what
 will
 be
+/
+/
 &
 vp
 [
@@ -31210,6 +31230,8 @@ location
 unwinding
 the
 native
+/
+/
 exit
 frame
 .
@@ -31721,6 +31743,8 @@ void
 *
 private
 const
+/
+/
 JSJitMethodCallArgs
 &
 args
@@ -31872,11 +31896,11 @@ are
 allowed
 to
 access
+/
+/
 their
 callee
 before
-/
-/
 setting
 the
 return
@@ -31886,6 +31910,8 @@ After
 this
 the
 StackPointer
+/
+/
 points
 to
 &
@@ -32566,6 +32592,8 @@ location
 unwinding
 the
 native
+/
+/
 exit
 frame
 .
@@ -33250,11 +33278,11 @@ target
 Assert
 that
 we
+/
+/
 didn
 '
 t
-/
-/
 add
 any
 undefineds
@@ -33268,6 +33296,8 @@ MCall
 :
 numStackArgs
 includes
+/
+/
 |
 this
 |
@@ -35402,6 +35432,8 @@ pad
 [
 arg1
 ]
+/
+/
 [
 arg0
 ]
@@ -35503,6 +35535,8 @@ register
 as
 an
 index
+/
+/
 register
 .
 masm
@@ -36708,6 +36742,8 @@ one
 of
 the
 paths
+/
+/
 above
 .
 uint32_t
@@ -36973,9 +37009,9 @@ is
 a
 4K
 guard
+/
+/
 page
-/
-/
 that
 has
 to
@@ -36991,12 +37027,12 @@ bug
 1351278
 .
 The
+/
+/
 value
 "
 3000
 "
-/
-/
 is
 the
 size
@@ -37009,6 +37045,8 @@ an
 arbitrary
 but
 large
+/
+/
 safety
 margin
 .
@@ -42234,6 +42272,7 @@ LIROP
 (
 op
 )
+\
 case
 LNode
 :
@@ -42243,6 +42282,7 @@ Opcode
 :
 op
 :
+\
 visit
 #
 #
@@ -42259,6 +42299,7 @@ op
 )
 )
 ;
+\
 break
 ;
 LIR_OPCODE_LIST
@@ -47858,6 +47899,8 @@ and
 not
 any
 OSR
+/
+/
 entry
 blocks
 .
@@ -57224,6 +57267,8 @@ this
 should
 have
 been
+"
+"
 folded
 .
 "
@@ -57690,6 +57735,8 @@ this
 should
 have
 been
+"
+"
 folded
 .
 "
@@ -67650,9 +67697,9 @@ this
 won
 '
 t
+/
+/
 overflow
-/
-/
 due
 to
 MAX_DENSE_ELEMENTS_COUNT
@@ -67796,10 +67843,10 @@ and
 FallibleStoreElementT
 does
 not
+/
+/
 always
 store
-/
-/
 the
 type
 tag
@@ -67815,6 +67862,8 @@ path
 .
 We
 use
+/
+/
 MIRType
 :
 :
@@ -67822,14 +67871,14 @@ None
 for
 the
 element
-/
-/
 type
 so
 that
 storeElementTyped
 will
 always
+/
+/
 store
 the
 type
@@ -86178,6 +86227,8 @@ in
 addition
 to
 the
+/
+/
 bounds
 check
 .
@@ -92229,9 +92280,9 @@ canHaveFractionalPart
 This
 would
 require
+/
+/
 new
-/
-/
 assembler
 interfaces
 to
@@ -96665,9 +96716,9 @@ functions
 reuse
 HAS_GUESSED_ATOM
 for
+/
+/
 HAS_BOUND_FUNCTION_NAME_PREFIX
-/
-/
 so
 skip
 the

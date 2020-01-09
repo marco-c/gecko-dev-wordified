@@ -75,12 +75,12 @@ to
 be
 constructed
 for
+*
 ease
 of
 unit
 testing
 .
-*
 Recycled
 here
 to
@@ -90,6 +90,7 @@ a
 shared_ptr
 interface
 to
+*
 objects
 which
 are

@@ -194,6 +194,8 @@ is
 a
 subrectangle
 of
+/
+/
 [
 0
 0
@@ -454,6 +456,7 @@ VALIDATE
 (
 _f
 )
+\
 if
 (
 !

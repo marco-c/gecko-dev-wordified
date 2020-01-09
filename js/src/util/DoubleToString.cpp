@@ -1585,6 +1585,7 @@ remainder
 The
 returned
 quotient
+*
 must
 be
 less
@@ -1811,11 +1812,11 @@ is
 the
 longest
 string
+*
 that
 we
 could
 produce
-*
 which
 occurs
 when
@@ -1828,6 +1829,7 @@ in
 binary
 .
 We
+*
 could
 compute
 a
@@ -1837,12 +1839,12 @@ of
 the
 size
 of
-*
 the
 output
 string
 and
 malloc
+*
 fewer
 bytes
 depending
@@ -1866,6 +1868,7 @@ BASEDIGIT
 (
 digit
 )
+\
 (
 (
 char
@@ -3279,6 +3282,7 @@ digit
 is
 not
 here
+*
 because
 it
 messes
@@ -3286,13 +3290,13 @@ up
 odd
 base
 output
-*
 such
 as
 3
 .
 5
 in
+*
 base
 3
 .

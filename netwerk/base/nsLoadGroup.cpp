@@ -5375,7 +5375,6 @@ Telemetry
 :
 AccumulateTimeDelta
 (
-\
 Telemetry
 :
 :
@@ -5419,7 +5418,6 @@ Telemetry
 :
 AccumulateTimeDelta
 (
-\
 Telemetry
 :
 :
@@ -5463,7 +5461,6 @@ Telemetry
 :
 AccumulateTimeDelta
 (
-\
 Telemetry
 :
 :
@@ -5518,8 +5515,8 @@ prefix
 #
 #
 _TCP_CONNECTION_2
-\
 connectStart
+\
 connectEnd
 )
 ;
@@ -5562,8 +5559,8 @@ prefix
 #
 #
 _OPEN_TO_FIRST_SENT
-\
 asyncOpen
+\
 requestStart
 )
 ;
@@ -5585,8 +5582,8 @@ prefix
 #
 #
 _FIRST_SENT_TO_LAST_RECEIVED
-\
 requestStart
+\
 responseEnd
 )
 ;
@@ -5626,8 +5623,8 @@ prefix
 #
 #
 _OPEN_TO_FIRST_RECEIVED
-\
 asyncOpen
+\
 responseStart
 )
 ;
@@ -5672,8 +5669,8 @@ prefix
 #
 #
 _OPEN_TO_FIRST_FROM_CACHE_V2
-\
 asyncOpen
+\
 cacheReadStart
 )
 ;
@@ -5695,8 +5692,8 @@ prefix
 #
 #
 _CACHE_READ_TIME_V2
-\
 cacheReadStart
+\
 cacheReadEnd
 )
 ;
@@ -5726,7 +5723,6 @@ Telemetry
 :
 AccumulateTimeDelta
 (
-\
 Telemetry
 :
 :
@@ -5775,7 +5771,6 @@ prefix
 #
 #
 _COMPLETE_LOAD_V2
-\
 asyncOpen
 cacheReadEnd
 )
@@ -5797,14 +5792,13 @@ prefix
 #
 #
 _COMPLETE_LOAD_CACHED_V2
-\
 asyncOpen
+\
 cacheReadEnd
 )
 ;
 \
 }
-\
 else
 if
 (
@@ -5833,7 +5827,6 @@ prefix
 #
 #
 _COMPLETE_LOAD_V2
-\
 asyncOpen
 responseEnd
 )
@@ -5855,8 +5848,8 @@ prefix
 #
 #
 _COMPLETE_LOAD_NET_V2
-\
 asyncOpen
+\
 responseEnd
 )
 ;

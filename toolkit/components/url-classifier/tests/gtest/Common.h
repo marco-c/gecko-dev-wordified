@@ -57,6 +57,10 @@ Classifier
 ;
 }
 }
+/
+/
+namespace
+mozilla
 typedef
 nsCString
 _Fragment

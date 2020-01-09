@@ -624,8 +624,8 @@ message
 in
 the
 browser
-console
 *
+console
 (
 e
 .

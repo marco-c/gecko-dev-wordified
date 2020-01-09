@@ -388,10 +388,10 @@ will
 remain
 where
 it
+/
+/
 was
 .
-/
-/
 In
 particular
 we
@@ -967,6 +967,8 @@ maxVelocity
 so
 we
 apply
+/
+/
 the
 curve
 float
@@ -1073,4 +1075,12 @@ newVelocity
 ;
 }
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla

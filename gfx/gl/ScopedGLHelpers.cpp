@@ -346,6 +346,7 @@ restores
 with
 GetUserBoundFB
 and
+*
 BindUserFB
 .
 *
@@ -816,6 +817,7 @@ ScopedFramebuffer
 *
 *
 *
+*
 /
 ScopedFramebuffer
 :
@@ -872,6 +874,7 @@ mFB
 /
 *
 ScopedRenderbuffer
+*
 *
 *
 *
@@ -2417,6 +2420,8 @@ t
 need
 to
 rebind
+/
+/
 those
 .
 mGL

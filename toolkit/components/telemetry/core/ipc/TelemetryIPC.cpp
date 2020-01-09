@@ -409,3 +409,7 @@ aDiscardedData
 ;
 }
 }
+/
+/
+namespace
+mozilla

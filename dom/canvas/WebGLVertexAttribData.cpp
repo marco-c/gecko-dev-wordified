@@ -191,6 +191,8 @@ signed
 with
 16
 fractional
+/
+/
 bits
 .
 case

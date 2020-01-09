@@ -229,6 +229,8 @@ system
 hardware
 factors
 or
+/
+/
 nsIGfxInfo
 .
 /

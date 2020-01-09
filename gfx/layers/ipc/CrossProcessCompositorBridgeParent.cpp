@@ -676,6 +676,8 @@ in
 AllocPLayerTransactionParent
 ;
 dropping
+"
+"
 message
 .
 .
@@ -1002,6 +1004,8 @@ in
 AllocPAPZCTreeManagerParent
 ;
 dropping
+"
+"
 message
 .
 .
@@ -1575,6 +1579,8 @@ in
 AllocPWebRenderBridgeParent
 ;
 dropping
+"
+"
 message
 .
 .
@@ -1719,17 +1725,19 @@ function
 is
 called
 after
+/
+/
 CompositorBridgeParent
 destruction
 .
-/
-/
 This
 was
 observed
 during
 Tab
 move
+/
+/
 between
 different
 windows
@@ -2502,6 +2510,8 @@ thread
 if
 it
 has
+/
+/
 already
 asked
 .

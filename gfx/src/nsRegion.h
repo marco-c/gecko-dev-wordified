@@ -2110,6 +2110,8 @@ aOther
 '
 s
 current
+/
+/
 strip
 .
 iter
@@ -2181,6 +2183,8 @@ lies
 beyond
 our
 current
+/
+/
 strip
 .
 iterOther
@@ -2440,6 +2444,8 @@ aOther
 '
 s
 current
+/
+/
 strip
 .
 iter
@@ -2511,6 +2517,8 @@ lies
 beyond
 our
 current
+/
+/
 strip
 .
 iterOther
@@ -2689,6 +2697,8 @@ aOther
 '
 s
 current
+/
+/
 strip
 .
 idx
@@ -2762,6 +2772,8 @@ lies
 beyond
 our
 current
+/
+/
 strip
 .
 iterOther
@@ -2961,6 +2973,8 @@ current
 index
 no
 longer
+/
+/
 intersects
 with
 iterOther
@@ -3063,6 +3077,10 @@ mStrips
 }
 ;
 }
+/
+/
+namespace
+regiondetails
 class
 nsRegion
 {
@@ -3629,6 +3647,8 @@ aOther
 '
 s
 current
+/
+/
 band
 .
 idx
@@ -3664,6 +3684,8 @@ s
 future
 bands
 are
+/
+/
 ignored
 .
 break
@@ -3711,6 +3733,8 @@ ends
 beyond
 our
 current
+/
+/
 band
 .
 idxOther
@@ -3745,6 +3769,8 @@ all
 our
 future
 bands
+/
+/
 are
 ignored
 .
@@ -3867,6 +3893,8 @@ current
 bands
 from
 both
+/
+/
 regions
 .
 newBand
@@ -4075,6 +4103,8 @@ if
 we
 '
 re
+/
+/
 not
 done
 .
@@ -4100,6 +4130,8 @@ beginning
 of
 the
 next
+/
+/
 iteration
 .
 idx
@@ -6663,6 +6695,8 @@ aOther
 '
 s
 current
+/
+/
 band
 .
 idx
@@ -6698,6 +6732,8 @@ s
 future
 bands
 are
+/
+/
 ignored
 .
 break
@@ -6749,6 +6785,8 @@ ends
 beyond
 our
 current
+/
+/
 band
 .
 idxOther
@@ -6785,6 +6823,8 @@ all
 our
 future
 bands
+/
+/
 are
 ignored
 .
@@ -7845,12 +7885,12 @@ the
 other
 regions
 bands
+/
+/
 from
 them
 as
 we
-/
-/
 move
 them
 into
@@ -9756,6 +9796,8 @@ next
 loop
 intersected
 the
+/
+/
 rectangle
 .
 bool
@@ -11390,6 +11432,7 @@ each
 rect
 of
 the
+*
 region
 .
 *
@@ -13482,6 +13525,8 @@ should
 fit
 in
 an
+/
+/
 nsRect
 as
 well

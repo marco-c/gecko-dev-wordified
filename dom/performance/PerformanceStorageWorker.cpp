@@ -464,7 +464,7 @@ true
 }
 /
 /
-anonymous
+namespace
 /
 *
 static
@@ -861,9 +861,9 @@ is
 available
 until
 a
+/
+/
 notification
-/
-/
 is
 received
 by
@@ -876,6 +876,8 @@ to
 make
 the
 code
+/
+/
 protected
 .
 WorkerPrivate

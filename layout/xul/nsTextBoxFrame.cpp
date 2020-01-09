@@ -4477,9 +4477,9 @@ if
 there
 is
 an
+/
+/
 accesskey
-/
-/
 but
 the
 mTitle
@@ -5506,6 +5506,8 @@ MaxAscent
 (
 relative
 to
+/
+/
 mTextDrawRect
 )
 tr

@@ -18085,6 +18085,7 @@ LookupFilterNode
 mNode
 )
 mIndex
+\
 *
 (
 type
@@ -18664,6 +18665,7 @@ _class
 case
 _typeenum
 :
+\
 return
 new
 _class
@@ -19031,6 +19033,7 @@ case
 _typeenum
 :
 {
+\
 auto
 e
 =
@@ -19039,6 +19042,7 @@ _class
 aStream
 )
 ;
+\
 return
 f
 (
@@ -19046,6 +19050,7 @@ f
 e
 )
 ;
+\
 }
 template
 <

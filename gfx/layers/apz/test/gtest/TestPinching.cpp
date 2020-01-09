@@ -457,6 +457,8 @@ y
 w
 =
 40
+/
+/
 h
 =
 80
@@ -590,9 +592,9 @@ the
 page
 and
 pinch
+/
+/
 and
-/
-/
 make
 sure
 we
@@ -747,6 +749,8 @@ y
 w
 =
 100
+/
+/
 h
 =
 200
@@ -3770,6 +3774,8 @@ over
 the
 PINCH_START_THRESHOLD
 in
+/
+/
 GestureEventListener
 .
 cpp

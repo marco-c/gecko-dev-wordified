@@ -1143,10 +1143,8 @@ mPhone
 }
 /
 /
-end
-of
 namespace
-payment
+payments
 }
 /
 /

@@ -579,14 +579,12 @@ command
 )
 \
 void
-\
 DrawTargetTiled
 :
 :
 command
 (
 )
-\
 {
 \
 for
@@ -635,7 +633,6 @@ type1
 )
 \
 void
-\
 DrawTargetTiled
 :
 :
@@ -644,7 +641,6 @@ command
 type1
 arg1
 )
-\
 {
 \
 for
@@ -678,7 +674,6 @@ i
 .
 mClippedOut
 )
-\
 mTiles
 [
 i
@@ -707,7 +702,6 @@ type3
 )
 \
 void
-\
 DrawTargetTiled
 :
 :
@@ -720,7 +714,6 @@ arg2
 type3
 arg3
 )
-\
 {
 \
 for
@@ -786,7 +779,6 @@ type4
 )
 \
 void
-\
 DrawTargetTiled
 :
 :
@@ -798,10 +790,10 @@ type2
 arg2
 type3
 arg3
+\
 type4
 arg4
 )
-\
 {
 \
 for
@@ -869,7 +861,6 @@ type5
 )
 \
 void
-\
 DrawTargetTiled
 :
 :
@@ -881,12 +872,12 @@ type2
 arg2
 type3
 arg3
+\
 type4
 arg4
 type5
 arg5
 )
-\
 {
 \
 for
@@ -2770,11 +2761,11 @@ want
 to
 continue
 drawing
+/
+/
 to
 a
 larger
-/
-/
 intermediate
 surface
 that
@@ -2784,6 +2775,8 @@ tweaking
 the
 code
 in
+/
+/
 here
 a
 little
@@ -2924,11 +2917,11 @@ want
 to
 continue
 drawing
+/
+/
 to
 a
 larger
-/
-/
 intermediate
 surface
 that
@@ -2938,6 +2931,8 @@ tweaking
 the
 code
 in
+/
+/
 here
 a
 little
@@ -3060,11 +3055,11 @@ want
 to
 continue
 drawing
+/
+/
 to
 a
 larger
-/
-/
 intermediate
 surface
 that
@@ -3074,6 +3069,8 @@ tweaking
 the
 code
 in
+/
+/
 here
 a
 little

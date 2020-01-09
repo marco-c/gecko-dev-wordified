@@ -1568,9 +1568,9 @@ types
 -
 byte
 integral
+/
+/
 types
-/
-/
 are
 treated
 the
@@ -1585,9 +1585,9 @@ smaller
 integral
 types
 are
+/
+/
 first
-/
-/
 implicitly
 converted
 to
@@ -1600,6 +1600,8 @@ to
 AddUintptrToHash
 (
 )
+/
+/
 to
 be
 hashed

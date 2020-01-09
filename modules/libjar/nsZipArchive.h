@@ -115,6 +115,7 @@ ZIP_TABSIZE
 #
 define
 ZIP_BUFLEN
+\
 (
 4
 *
@@ -226,6 +227,7 @@ MOZ_WIN_MEM_TRY_CATCH
 (
 cmd
 )
+\
 }
 \
 __except
@@ -236,13 +238,13 @@ GetExceptionCode
 =
 =
 EXCEPTION_IN_PAGE_ERROR
-?
 \
+?
 EXCEPTION_EXECUTE_HANDLER
+\
 :
 EXCEPTION_CONTINUE_SEARCH
 )
-\
 {
 \
 NS_WARNING
@@ -1569,10 +1571,10 @@ passed
 in
 constructor
 )
+*
 for
 stored
 files
-*
 it
 returns
 a
@@ -1754,9 +1756,9 @@ individual
 items
 in
 a
+*
 zip
 .
-*
 It
 reads
 whole
@@ -1774,12 +1776,11 @@ files
 A
 buffer
 is
-allocated
 *
+allocated
 for
 decompression
 .
-*
 Do
 not
 use
@@ -2049,6 +2050,7 @@ caller
 s
 responsibility
 to
+*
 free
 (
 )

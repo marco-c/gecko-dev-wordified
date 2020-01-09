@@ -2340,7 +2340,7 @@ proxy_config_
 }
 /
 /
-close
 namespace
+mozilla
 #
 endif

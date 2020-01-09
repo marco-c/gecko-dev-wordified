@@ -2173,6 +2173,7 @@ heuristics
 are
 based
 on
+*
 Source
 /
 WebCore
@@ -2761,10 +2762,10 @@ a
 temp
 surface
 also
+/
+/
 potentially
 uses
-/
-/
 more
 memory
 if
@@ -2777,11 +2778,11 @@ large
 So
 only
 prescale
+/
+/
 on
 a
 temp
-/
-/
 surface
 if
 we
@@ -2798,11 +2799,11 @@ in
 either
 the
 X
+/
+/
 or
 Y
 axis
-/
-/
 multiple
 times
 .
@@ -6099,6 +6100,8 @@ gfxUtils
 :
 :
 CopySurfaceToDataSourceSurfaceWithFormat
+"
+"
 failed
 in
 CreateOffscreenContentDrawTarget
@@ -8019,6 +8022,7 @@ X
 (
 x
 )
+\
 {
 x
 [
@@ -8035,7 +8039,6 @@ x
 0
 .
 0f
-\
 x
 [
 4
@@ -8051,7 +8054,6 @@ x
 0
 .
 0f
-\
 x
 [
 8
@@ -8165,6 +8167,7 @@ X
 (
 x
 )
+\
 {
 x
 [
@@ -8178,7 +8181,6 @@ x
 [
 8
 ]
-\
 x
 [
 1
@@ -8191,7 +8193,6 @@ x
 [
 9
 ]
-\
 x
 [
 2
@@ -8302,7 +8303,9 @@ X
 (
 x
 )
+\
 {
+\
 x
 [
 0
@@ -8319,7 +8322,6 @@ x
 [
 12
 ]
-\
 x
 [
 1
@@ -8336,7 +8338,6 @@ x
 [
 13
 ]
-\
 x
 [
 2
@@ -8349,11 +8350,11 @@ x
 [
 10
 ]
+\
 x
 [
 14
 ]
-\
 x
 [
 3
@@ -8370,6 +8371,7 @@ x
 [
 15
 ]
+\
 }
 static
 const

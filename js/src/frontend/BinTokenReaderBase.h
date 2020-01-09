@@ -712,8 +712,8 @@ if
 they
 match
 an
-expected
 *
+expected
 sequence
 of
 chars

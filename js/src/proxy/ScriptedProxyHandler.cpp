@@ -292,6 +292,8 @@ it
 must
 be
 null
+/
+/
 here
 .
 MOZ_ASSERT
@@ -683,6 +685,8 @@ non
 configurable
 property
 as
+"
+"
 configurable
 "
 ;
@@ -745,6 +749,8 @@ from
 target
 when
 target
+"
+"
 is
 not
 configurable
@@ -850,6 +856,8 @@ when
 target
 is
 not
+"
+"
 configurable
 "
 ;
@@ -947,6 +955,8 @@ non
 writable
 property
 as
+"
+"
 writable
 "
 ;
@@ -1021,6 +1031,8 @@ the
 non
 -
 writable
+"
+"
 non
 -
 configurable
@@ -1134,6 +1146,8 @@ currently
 non
 -
 configurable
+"
+"
 property
 "
 ;
@@ -1190,6 +1204,8 @@ currently
 non
 -
 configurable
+"
+"
 property
 "
 ;
@@ -4071,6 +4087,8 @@ existing
 configurable
 property
 as
+"
+"
 non
 -
 configurable

@@ -1053,6 +1053,8 @@ into
 one
 chunk
 of
+/
+/
 AAAAAAAAAAAAAAAA
 .
 int32_t
@@ -1561,6 +1563,8 @@ sourceAlpha
 source
 )
 *
+/
+/
 dest
 )
 ;
@@ -5673,6 +5677,8 @@ lines
 below
 for
 a
+"
+"
 different
 factor
 .
@@ -8108,6 +8114,8 @@ else
 )
 for
 alpha
+/
+/
 in
 range
 (
@@ -8653,6 +8661,8 @@ rounding
 and
 shift
 right
+/
+/
 by
 8
 bits
@@ -9063,9 +9073,9 @@ f32x4_t
 i32x4_t
 u8x16_t
 >
-\
 renderer
 (
+\
 aBaseFrequency
 aSeed
 aNumOctaves

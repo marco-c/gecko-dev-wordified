@@ -1723,6 +1723,7 @@ eFallbackIfClassIDPresent
 is
 among
 the
+*
 capabilities
 *
 *
@@ -3067,8 +3068,8 @@ _will_
 be
 used
 only
-whether
 *
+whether
 we
 should
 look

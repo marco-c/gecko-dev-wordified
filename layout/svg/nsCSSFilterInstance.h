@@ -467,8 +467,8 @@ tainted
 inputs
 .
 Something
-being
 *
+being
 tainted
 means
 that
@@ -478,9 +478,9 @@ security
 sensitive
 content
 .
-*
 The
 input
+*
 to
 this
 filter
@@ -497,9 +497,9 @@ e
 .
 the
 last
-*
 element
 in
+*
 aPrimitiveDescrs
 or
 the
@@ -510,9 +510,9 @@ this
 is
 the
 first
-*
 filter
 in
+*
 the
 filter
 chain

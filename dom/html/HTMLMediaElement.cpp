@@ -5455,6 +5455,8 @@ HTMLMediaElement
 :
 :
 AudioChannelAgentCallback
+"
+"
 WindowSuspendChanged
 "
 "
@@ -6041,6 +6043,8 @@ HTMLMediaElement
 :
 :
 AudioChannelAgentCallback
+"
+"
 SetAudioChannelSuspended
 "
 "
@@ -6095,6 +6099,8 @@ HTMLMediaElement
 :
 :
 AudioChannelAgentCallback
+"
+"
 ResumeFromAudioChannel
 "
 "
@@ -28958,6 +28964,8 @@ not
 supported
 yet
 and
+"
+"
 will
 be
 ignored
@@ -39577,9 +39585,9 @@ or
 MediaDecoder
 is
 not
+/
+/
 created
-/
-/
 yet
 .
 self
@@ -39639,9 +39647,9 @@ and
 reject
 promise
 with
+/
+/
 a
-/
-/
 new
 DOMException
 whose

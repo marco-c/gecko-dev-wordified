@@ -1380,6 +1380,7 @@ MACOSX_HAS_THREAD_LOCAL
 )
 &
 &
+\
 !
 defined
 (
@@ -1391,6 +1392,7 @@ MOZ_THREAD_LOCAL
 (
 TYPE
 )
+\
 thread_local
 mozilla
 :
@@ -1400,6 +1402,7 @@ detail
 :
 ThreadLocal
 <
+\
 TYPE
 mozilla
 :
@@ -1421,6 +1424,7 @@ MOZ_THREAD_LOCAL
 (
 TYPE
 )
+\
 __thread
 mozilla
 :
@@ -1430,6 +1434,7 @@ detail
 :
 ThreadLocal
 <
+\
 TYPE
 mozilla
 :
@@ -1447,6 +1452,7 @@ MOZ_THREAD_LOCAL
 (
 TYPE
 )
+\
 mozilla
 :
 :

@@ -376,6 +376,8 @@ provided
 by
 font
 vendor
+/
+/
 is
 not
 enough
@@ -6626,6 +6628,8 @@ when
 in
 overflow
 container
+/
+/
 lists
 /
 /
@@ -9763,9 +9767,9 @@ the
 absolute
 containing
 block
+/
+/
 while
-/
-/
 |
 containingBlock
 |
@@ -9777,9 +9781,9 @@ container
 of
 the
 placeholder
+/
+/
 frame
-/
-/
 which
 may
 be
@@ -11339,10 +11343,10 @@ nearest
 block
 to
 the
+/
+/
 placeholder
 .
-/
-/
 Convert
 to
 the
@@ -11352,6 +11356,8 @@ of
 the
 absolute
 containing
+/
+/
 block
 .
 nsPoint
@@ -15075,8 +15081,8 @@ has
 mComputedHeight
 =
 =
-NS_AUTOHEIGHT
 *
+NS_AUTOHEIGHT
 This
 will
 walk
@@ -15089,9 +15095,9 @@ blocks
 looking
 for
 a
+*
 computed
 height
-*
 until
 it
 finds
@@ -15103,12 +15109,12 @@ it
 encounters
 a
 frame
+*
 that
 is
 not
 a
 block
-*
 area
 or
 scroll
@@ -15118,6 +15124,7 @@ This
 handles
 compatibility
 with
+*
 IE
 (
 see
@@ -15152,6 +15159,7 @@ for
 computing
 the
 containing
+*
 block
 .
 *
@@ -15527,6 +15535,8 @@ it
 is
 the
 first
+/
+/
 in
 flow
 if
@@ -17088,6 +17098,8 @@ what
 the
 cell
 block
+/
+/
 passed
 in
 .
@@ -17384,11 +17396,11 @@ clause
 "
 blockSizeUnit
 =
+/
+/
 eStyleUnit_Auto
 ;
 "
-/
-/
 used
 to
 be
@@ -18511,6 +18523,8 @@ check
 after
 we
 address
+/
+/
 bug
 799725
 if

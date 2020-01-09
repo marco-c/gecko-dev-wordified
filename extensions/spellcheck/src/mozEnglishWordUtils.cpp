@@ -326,6 +326,8 @@ advance
 out
 of
 the
+/
+/
 word
 if
 (
@@ -449,9 +451,9 @@ break
 a
 url
 into
+/
+/
 parts
-/
-/
 instead
 we
 want
@@ -468,11 +470,11 @@ and
 if
 so
 skip
+/
+/
 it
 advancing
 startWord
-/
-/
 to
 a
 point
@@ -499,10 +501,10 @@ url
 look
 for
 a
+/
+/
 url
 identifer
-/
-/
 and
 make
 sure
@@ -515,6 +517,8 @@ the
 last
 character
 in
+/
+/
 the
 word
 fragment
@@ -578,10 +582,10 @@ out
 if
 we
 really
+/
+/
 have
 one
-/
-/
 and
 determine
 the
@@ -647,6 +651,8 @@ skip
 the
 current
 url
+/
+/
 text
 and
 find
@@ -705,6 +711,8 @@ the
 next
 word
 now
+/
+/
 that
 we
 have

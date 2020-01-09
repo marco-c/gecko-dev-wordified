@@ -4605,8 +4605,8 @@ but
 not
 all
 )
-load
 *
+load
 info
 resultPrincipalURI
 if
@@ -4618,11 +4618,11 @@ of
 the
 channel
 if
+*
 it
 '
 s
 required
-*
 to
 represent
 the

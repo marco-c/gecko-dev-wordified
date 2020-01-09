@@ -1016,9 +1016,9 @@ over
 a
 specific
 profile
+*
 directory
 .
-*
 A
 tool
 to
@@ -1030,8 +1030,8 @@ profiles
 different
 from
 the
-current
 *
+current
 application
 '
 s

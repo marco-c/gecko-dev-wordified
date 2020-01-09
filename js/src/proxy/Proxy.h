@@ -152,6 +152,7 @@ C
 +
 or
 scripted
+*
 traps
 .
 *

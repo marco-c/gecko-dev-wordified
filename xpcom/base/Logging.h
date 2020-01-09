@@ -2010,6 +2010,7 @@ log_print
 (
 moz_real_module
 _level
+\
 MOZ_LOG_EXPAND_ARGS
 _args
 )

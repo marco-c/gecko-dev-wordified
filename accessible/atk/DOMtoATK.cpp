@@ -490,6 +490,8 @@ AdjustOffsets
 needs
 to
 be
+"
+"
 called
 only
 once
@@ -872,6 +874,8 @@ AdjustOffsets
 needs
 to
 be
+"
+"
 called
 before
 ATKStringConverterHelper
@@ -1010,6 +1014,10 @@ u
 }
 }
 }
+/
+/
+namespace
+DOMtoATK
 }
 /
 /

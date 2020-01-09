@@ -2257,9 +2257,9 @@ it
 will
 run
 after
+/
+/
 queued
-/
-/
 event
 runnables
 so
@@ -2270,10 +2270,10 @@ have
 a
 safe
 pointer
+/
+/
 to
 the
-/
-/
 Notification
 .
 /
@@ -3625,9 +3625,9 @@ and
 or
 dispatch
 to
+/
+/
 the
-/
-/
 specific
 observer
 for
@@ -3642,6 +3642,8 @@ thread
 worker
 or
 service
+/
+/
 worker
 .
 class
@@ -7377,6 +7379,9 @@ aStr
 }
 ;
 }
+/
+/
+namespace
 void
 Notification
 :
@@ -7849,6 +7854,8 @@ NotificationObserver
 passed
 to
 the
+/
+/
 alert
 service
 .
@@ -12673,6 +12680,8 @@ granted
 "
 reject
 promise
+/
+/
 with
 a
 TypeError

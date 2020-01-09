@@ -927,9 +927,9 @@ It
 s
 a
 JSOP_GOTO
+/
+/
 to
-/
-/
 jump
 over
 the

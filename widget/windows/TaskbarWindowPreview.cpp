@@ -223,6 +223,9 @@ true
 ;
 }
 }
+/
+/
+namespace
 NS_IMPL_ISUPPORTS
 (
 TaskbarWindowPreview

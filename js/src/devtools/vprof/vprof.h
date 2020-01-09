@@ -137,11 +137,11 @@ of
 the
 source
 location
+/
+/
 of
 this
 probe
-/
-/
 its
 min
 max
@@ -154,6 +154,8 @@ all
 instances
 of
 e
+/
+/
 and
 the
 total
@@ -486,6 +488,8 @@ is
 threaded
 THREADED
 must
+/
+/
 be
 defined
 as
@@ -523,6 +527,8 @@ to
 which
 results
 in
+/
+/
 exact
 counts
 or
@@ -539,6 +545,8 @@ but
 non
 -
 exact
+/
+/
 counts
 /
 /
@@ -571,9 +579,9 @@ more
 than
 one
 AvmCore
+/
+/
 running
-/
-/
 in
 the
 same
@@ -896,6 +904,8 @@ using
 conditional
 expressions
 not
+/
+/
 if
 /
 else
@@ -903,8 +913,6 @@ else
 The
 original
 author
-/
-/
 said
 that
 this
@@ -914,6 +922,8 @@ to
 allow
 _vprof
 and
+/
+/
 _nvprof
 to
 be
@@ -926,10 +936,10 @@ but
 the
 old
 code
-/
-/
 had
 already
+/
+/
 wrapped
 the
 macro
@@ -946,12 +956,12 @@ how
 this
 could
 have
+/
+/
 worked
 .
 At
 present
-/
-/
 the
 profiling
 macros
@@ -961,6 +971,8 @@ in
 a
 statement
 context
+/
+/
 only
 .
 #
@@ -1048,7 +1060,6 @@ id
 =
 0
 )
-\
 initValueProfile
 (
 &
@@ -1308,7 +1319,6 @@ id
 =
 0
 )
-\
 initValueProfile
 (
 &
@@ -1394,7 +1404,6 @@ id
 =
 0
 )
-\
 initValueProfile
 (
 &
@@ -1485,9 +1494,9 @@ Once
 created
 the
 JIT
+/
+/
 can
-/
-/
 bind
 a
 pointer
@@ -1501,9 +1510,9 @@ generated
 code
 which
 can
+/
+/
 then
-/
-/
 record
 profile
 events
@@ -1564,7 +1573,6 @@ id
 =
 0
 )
-\
 initValueProfile
 (
 (
@@ -1645,7 +1653,6 @@ id
 =
 0
 )
-\
 initHistProfile
 (
 (
@@ -1708,7 +1715,6 @@ _jvprof
 id
 v
 )
-\
 profileValue
 (
 (
@@ -1728,7 +1734,6 @@ _jhprof
 id
 v
 )
-\
 histValue
 (
 (

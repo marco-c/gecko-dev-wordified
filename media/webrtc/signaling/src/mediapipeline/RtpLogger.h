@@ -212,8 +212,7 @@ desc
 }
 /
 /
-End
-of
 namespace
+mozilla
 #
 endif

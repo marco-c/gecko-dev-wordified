@@ -1051,9 +1051,9 @@ the
 popup
 will
 be
+/
+/
 opened
-/
-/
 and
 moved
 instead

@@ -270,13 +270,13 @@ cxx_attributes
 )
 &
 &
-\
 defined
 (
 _LIBCPP_VERSION
 )
 &
 &
+\
 _LIBCPP_VERSION
 >
 =

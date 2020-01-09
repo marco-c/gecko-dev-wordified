@@ -272,6 +272,8 @@ seconds
 in
 the
 given
+/
+/
 locale
 kTimeFormatNoSeconds
 /
@@ -285,6 +287,8 @@ seconds
 in
 the
 given
+/
+/
 locale
 }
 ;
@@ -305,6 +309,8 @@ operation
 on
 the
 PRTime
+/
+/
 parameter
 static
 nsresult
@@ -336,6 +342,8 @@ operation
 on
 the
 PRExplodedTime
+/
+/
 parameter
 static
 nsresult
@@ -412,6 +420,8 @@ operation
 on
 the
 UDate
+/
+/
 parameter
 static
 nsresult
@@ -443,6 +453,10 @@ mLocale
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

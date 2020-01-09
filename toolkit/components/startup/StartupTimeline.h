@@ -108,13 +108,13 @@ detection
 to
 compare
 with
+/
+/
 crash
 stats
 to
 know
 whether
-/
-/
 detection
 should
 be
@@ -123,6 +123,8 @@ to
 start
 or
 end
+/
+/
 sooner
 .
 mozilla_StartupTimeline_Event
@@ -201,6 +203,8 @@ to
 monitor
 the
 duration
+/
+/
 of
 shutdown
 mozilla_StartupTimeline_Event

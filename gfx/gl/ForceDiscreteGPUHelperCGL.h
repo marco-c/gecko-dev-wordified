@@ -122,6 +122,7 @@ discrete
 GPU
 during
 its
+*
 lifetime
 .
 *
@@ -139,6 +140,7 @@ we
 re
 on
 the
+*
 discrete
 GPU
 .

@@ -1756,9 +1756,9 @@ called
 back
 or
 failed
+/
+/
 to
-/
-/
 be
 called
 on
@@ -3952,6 +3952,8 @@ stacks
 when
 filters
 respond
+/
+/
 synchronously
 .
 LOG
@@ -4223,6 +4225,8 @@ may
 hang
 on
 Windows
+/
+/
 platform
 class
 AsyncGetPACURIRequest
@@ -11094,7 +11098,7 @@ channelFilter
 }
 /
 /
-anon
+namespace
 nsresult
 nsProtocolProxyService
 :
@@ -11538,6 +11542,8 @@ local
 is
 in
 pref
+/
+/
 string
 mFilterLocalHosts
 =

@@ -1085,6 +1085,7 @@ read
 the
 tagged
 tuple
+*
 correctly
 .
 *
@@ -1506,11 +1507,11 @@ a
 tuple
 /
 tagged
+/
+/
 tuple
 /
 list
-/
-/
 to
 make
 sure
@@ -1629,6 +1630,8 @@ to
 report
 any
 pending
+/
+/
 error
 .
 /

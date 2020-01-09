@@ -2465,9 +2465,9 @@ If
 this
 function
 returns
+*
 false
 the
-*
 serialization
 ends
 throwing
@@ -2797,6 +2797,10 @@ struct
 BufferIterator
 ;
 }
+/
+/
+namespace
+js
 /
 *
 *
@@ -4692,6 +4696,8 @@ its
 own
 custom
 object
+/
+/
 types
 .
 #

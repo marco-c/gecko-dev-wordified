@@ -4609,6 +4609,8 @@ d
 d
 %
 d
+"
+"
 %
 d
 <
@@ -7245,6 +7247,8 @@ FilterNodeTransformSoftware
 Render
 failed
 in
+"
+"
 CreateDrawTargetForData
 "
 ;
@@ -18864,6 +18868,7 @@ MOZILLA_INTERNAL_API
 )
 &
 &
+\
 (
 defined
 (
@@ -21112,9 +21117,9 @@ t
 need
 to
 check
+/
+/
 and
-/
-/
 optimize
 for
 the

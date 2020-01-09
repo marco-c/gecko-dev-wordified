@@ -567,7 +567,6 @@ STRUCTURED_CHANNEL_LIST
 (
 _
 )
-\
 _
 (
 BaselineICStats

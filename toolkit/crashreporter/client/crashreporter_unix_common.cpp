@@ -106,6 +106,12 @@ using
 std
 :
 :
+sort
+;
+using
+std
+:
+:
 string
 ;
 using
@@ -113,12 +119,6 @@ std
 :
 :
 vector
-;
-using
-std
-:
-:
-sort
 ;
 struct
 FileData

@@ -266,10 +266,10 @@ PR_Now
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

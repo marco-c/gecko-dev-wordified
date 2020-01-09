@@ -102,6 +102,10 @@ profileName
 )
 ;
 }
+/
+/
+namespace
+Instruments
 #
 endif
 /

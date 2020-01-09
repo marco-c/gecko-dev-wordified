@@ -761,8 +761,8 @@ and
 shadowed
 in
 the
-compositor
 *
+compositor
 thread
 .
 The
@@ -776,9 +776,9 @@ in
 sync
 with
 whatever
+*
 happens
 in
-*
 the
 content
 thread
@@ -794,8 +794,8 @@ protocols
 IPDL
 is
 a
-domain
 *
+domain
 specific
 language
 that
@@ -1762,8 +1762,8 @@ the
 texture
 identified
 by
-aLayer
 *
+aLayer
 and
 aIdentifier
 has
@@ -1853,6 +1853,7 @@ this
 frame
 took
 to
+*
 paint
 .
 *

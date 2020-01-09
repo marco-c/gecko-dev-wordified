@@ -421,9 +421,9 @@ function
 pointer
 that
 compared
+/
+/
 unequal
-/
-/
 to
 a
 function

@@ -226,6 +226,8 @@ vsync
 source
 in
 the
+/
+/
 nsBaseWidget
 }
 void
@@ -389,9 +391,9 @@ is
 initiated
 from
 the
+/
+/
 compositor
-/
-/
 thread
 .
 MOZ_ASSERT
@@ -483,11 +485,11 @@ CompositorVsyncDispatcher
 when
 the
 nsBaseWidget
+/
+/
 shuts
 down
 .
-/
-/
 Otherwise
 we
 would
@@ -497,10 +499,10 @@ vsync
 notifications
 between
 when
+/
+/
 the
 nsBaseWidget
-/
-/
 shuts
 down
 and
@@ -712,6 +714,8 @@ main
 thread
 and
 will
+/
+/
 deadlock
 MutexAutoLock
 lock

@@ -2517,6 +2517,8 @@ to
 keep
 the
 binding
+/
+/
 functional
 .
 void
@@ -3418,6 +3420,7 @@ mTarget
 to
 have
 been
+*
 set
 *
 /
@@ -4279,9 +4282,9 @@ a
 given
 style
 is
+*
 opaque
 .
-*
 Usefull
 to
 know
@@ -4294,6 +4297,7 @@ content
 below
 in
 certain
+*
 situations
 .
 *
@@ -5361,6 +5365,8 @@ space
 (
 not
 user
+/
+/
 space
 )
 RefPtr

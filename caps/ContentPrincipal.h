@@ -412,8 +412,8 @@ mAddon
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 define
 NS_PRINCIPAL_CONTRACTID
@@ -431,11 +431,12 @@ define
 NS_PRINCIPAL_CID
 \
 {
+\
 0x653e0e4d
 0x3ee4
 0x45fa
-\
 {
+\
 0xb2
 0x72
 0x97
@@ -444,7 +445,9 @@ NS_PRINCIPAL_CID
 0xc0
 0x1e
 0xb8
+\
 }
+\
 }
 #
 endif

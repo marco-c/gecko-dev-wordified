@@ -2806,6 +2806,7 @@ old
 #
 define
 XPCONNECT_SANDBOX_CLASS_METADATA_SLOT
+\
 (
 XPCONNECT_GLOBAL_EXTRA_SLOT_OFFSET
 )
@@ -3092,7 +3093,6 @@ XPC_MAP_FLAGS
 (
 XPC_SCRIPTABLE_WANT_CALL
 |
-\
 XPC_SCRIPTABLE_WANT_CONSTRUCT
 )
 #
@@ -3495,6 +3495,10 @@ sandboxProxyHandler
 ;
 }
 }
+/
+/
+namespace
+xpc
 /
 /
 A
@@ -8587,11 +8591,11 @@ be
 an
 array
 of
+*
 principals
 either
 in
 string
-*
 format
 or
 actual
@@ -9128,6 +9132,8 @@ a
 Principal
 or
 a
+/
+/
 ScriptObjectPrincipal
 .
 nsCOMPtr
@@ -9449,6 +9455,8 @@ fall
 back
 to
 a
+/
+/
 default
 one
 .
@@ -10597,6 +10605,7 @@ and
 other
 helpers
 from
+*
 the
 options
 object
@@ -10759,6 +10768,7 @@ sets
 the
 fields
 of
+*
 the
 incoming
 options

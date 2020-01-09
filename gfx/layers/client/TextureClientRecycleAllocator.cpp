@@ -189,6 +189,8 @@ as
 not
 to
 disrupt
+/
+/
 recycling
 .
 class
@@ -1140,11 +1142,11 @@ ask
 it
 to
 call
+/
+/
 RecycleTextureClient
 when
 its
-/
-/
 ref
 count
 drops
@@ -1379,9 +1381,9 @@ make
 sure
 we
 stay
+/
+/
 alive
-/
-/
 for
 the
 duration
@@ -1449,6 +1451,8 @@ Keep
 reference
 count
 of
+/
+/
 TextureClientHolder
 within
 lock

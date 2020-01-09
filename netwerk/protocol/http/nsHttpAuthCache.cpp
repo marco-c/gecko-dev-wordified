@@ -945,6 +945,8 @@ path
 =
 %
 s
+"
+"
 metadata
 =
 %

@@ -178,6 +178,7 @@ ALIGNEDPTR_32
 (
 x
 )
+\
 reinterpret_cast
 <
 uint8_t
@@ -1341,7 +1342,7 @@ forget
 /
 /
 namespace
-gfx
+layers
 }
 /
 /

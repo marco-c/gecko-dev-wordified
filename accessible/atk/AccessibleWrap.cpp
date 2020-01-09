@@ -3369,9 +3369,9 @@ geckoRole
 stringRole
 atkRole
 macRole
-\
 msaaRole
 ia2Role
+\
 androidClass
 nameRule
 )
@@ -6573,9 +6573,9 @@ fire
 for
 string
 value
+/
+/
 changes
-/
-/
 (
 e
 .

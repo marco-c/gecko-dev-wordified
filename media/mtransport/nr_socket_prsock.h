@@ -583,6 +583,10 @@ TCPSocketChild
 ;
 }
 }
+/
+/
+namespace
+mozilla
 #
 endif
 namespace
@@ -1393,6 +1397,8 @@ and
 TCPSocket
 requires
 MainThread
+/
+/
 currently
 )
 const
@@ -2364,7 +2370,7 @@ port
 }
 /
 /
-close
 namespace
+mozilla
 #
 endif

@@ -151,11 +151,12 @@ define
 NS_IANIMATION_OBSERVER_IID
 \
 {
+\
 0xed025fc7
 0xdeda
 0x48b9
-\
 {
+\
 0x9c
 0x35
 0xf2
@@ -164,7 +165,9 @@ NS_IANIMATION_OBSERVER_IID
 0xeb
 0xd0
 0x8d
+\
 }
+\
 }
 class
 nsIAnimationObserver
@@ -254,7 +257,6 @@ Animation
 *
 aAnimation
 )
-\
 override
 ;
 #
@@ -275,7 +277,6 @@ Animation
 *
 aAnimation
 )
-\
 override
 ;
 #
@@ -296,7 +297,6 @@ Animation
 *
 aAnimation
 )
-\
 override
 ;
 #
@@ -307,7 +307,6 @@ class_
 )
 \
 void
-\
 class_
 :
 :
@@ -323,13 +322,10 @@ Animation
 *
 aAnimation
 )
-\
 {
-\
 }
 \
 void
-\
 class_
 :
 :
@@ -345,13 +341,10 @@ Animation
 *
 aAnimation
 )
-\
 {
-\
 }
 \
 void
-\
 class_
 :
 :
@@ -367,9 +360,7 @@ Animation
 *
 aAnimation
 )
-\
 {
-\
 }
 \
 NS_IMPL_NSIMUTATIONOBSERVER_CORE_STUB

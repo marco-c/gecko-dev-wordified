@@ -262,10 +262,12 @@ define
 NS_MACUTILSIMPL_CID
 \
 {
+\
 0x697BD3FD
 0x43E5
 0x41CE
 {
+\
 0xAD
 0x5E
 0xC3
@@ -274,7 +276,9 @@ NS_MACUTILSIMPL_CID
 0x5C
 0x08
 0x18
+\
 }
+\
 }
 #
 define

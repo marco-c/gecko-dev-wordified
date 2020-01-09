@@ -541,6 +541,10 @@ class
 CurrentX11TimeGetter
 ;
 }
+/
+/
+namespace
+mozilla
 class
 nsWindow
 final

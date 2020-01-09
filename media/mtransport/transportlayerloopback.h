@@ -551,7 +551,7 @@ combinePackets_
 }
 /
 /
-close
 namespace
+mozilla
 #
 endif

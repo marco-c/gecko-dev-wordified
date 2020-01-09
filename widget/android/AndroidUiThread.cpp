@@ -299,8 +299,8 @@ that
 nsIRunnable
 objects
 that
-get
 *
+get
 dispatched
 may
 be
@@ -313,8 +313,8 @@ that
 need
 to
 be
-synchronously
 *
+synchronously
 executed
 are
 passed
@@ -327,9 +327,9 @@ queued
 .
 All
 other
+*
 nsIRunnable
 object
-*
 are
 immediately
 dispatched
@@ -362,8 +362,8 @@ if
 nsIRunnable
 objects
 with
-a
 *
+a
 delay
 were
 dispatch

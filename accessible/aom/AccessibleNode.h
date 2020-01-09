@@ -197,7 +197,6 @@ ANODE_ENUM
 (
 name
 )
-\
 e
 #
 #
@@ -224,7 +223,6 @@ Get
 name
 (
 )
-\
 {
 \
 return
@@ -269,7 +267,6 @@ a
 #
 name
 )
-\
 {
 \
 SetProperty
@@ -295,7 +292,6 @@ name
 ;
 \
 }
-\
 #
 define
 ANODE_STRING_FUNC
@@ -316,7 +312,6 @@ a
 #
 name
 )
-\
 {
 \
 return
@@ -353,7 +348,6 @@ a
 #
 name
 )
-\
 {
 \
 SetProperty
@@ -373,7 +367,6 @@ name
 ;
 \
 }
-\
 #
 define
 ANODE_RELATION_FUNC
@@ -391,7 +384,6 @@ Get
 name
 (
 )
-\
 {
 \
 return
@@ -423,7 +415,6 @@ a
 #
 name
 )
-\
 {
 \
 SetProperty
@@ -443,7 +434,6 @@ name
 ;
 \
 }
-\
 #
 define
 ANODE_PROPS
@@ -475,7 +465,6 @@ ANODE_ENUM
 __VA_ARGS__
 )
 )
-\
 }
 ;
 \
@@ -490,7 +479,6 @@ type
 __VA_ARGS__
 )
 )
-\
 #
 define
 ANODE_STRING_PROPS
@@ -527,7 +515,6 @@ ANODE_STRING_FUNC
 __VA_ARGS__
 )
 )
-\
 #
 define
 ANODE_RELATION_PROPS
@@ -564,7 +551,6 @@ ANODE_RELATION_FUNC
 __VA_ARGS__
 )
 )
-\
 #
 define
 ANODE_ACCESSOR_MUTATOR
@@ -607,7 +593,6 @@ typeName
 Property
 aProperty
 )
-\
 {
 \
 type
@@ -694,7 +679,6 @@ type
 &
 aValue
 )
-\
 {
 \
 if
@@ -748,6 +732,7 @@ int
 (
 aProperty
 )
+\
 aValue
 .
 Value
@@ -759,7 +744,6 @@ Value
 }
 \
 }
-\
 class
 AccessibleNode
 :
@@ -1423,12 +1407,12 @@ used
 1
 )
 or
+/
+/
 not
 (
 0
 )
-/
-/
 and
 2k
 +
@@ -1496,10 +1480,12 @@ mStates
 }
 /
 /
+namespace
 dom
 }
 /
 /
+namespace
 mozilla
 #
 endif

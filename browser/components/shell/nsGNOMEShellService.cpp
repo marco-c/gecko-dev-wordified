@@ -1930,9 +1930,9 @@ list
 of
 installed
 applications
+/
+/
 provided
-/
-/
 by
 OS
 .
@@ -2059,6 +2059,8 @@ app
 to
 just
 created
+/
+/
 appinfo
 .
 for
@@ -2746,9 +2748,9 @@ the
 right
 schema
 fall
+/
+/
 back
-/
-/
 to
 using
 GConf
@@ -2762,9 +2764,9 @@ works
 ok
 the
 changes
+/
+/
 get
-/
-/
 mirrored
 to
 GConf
@@ -2776,6 +2778,8 @@ gsettings
 gconf
 bridge
 in
+/
+/
 gnome
 -
 settings

@@ -381,6 +381,8 @@ line
 on
 the
 current
+/
+/
 page
 /
 column
@@ -1496,9 +1498,9 @@ nullptr
 if
 you
 must
+/
+/
 search
-/
-/
 all
 lines
 .
@@ -1544,9 +1546,9 @@ if
 not
 it
 is
+/
+/
 guaranteed
-/
-/
 to
 be
 before
@@ -2770,9 +2772,9 @@ the
 list
 of
 overflow
+*
 floats
 .
-*
 Also
 updates
 aState
@@ -2784,9 +2786,9 @@ the
 float
 '
 s
+*
 incompleteness
 .
-*
 Must
 only
 be
@@ -3693,9 +3695,9 @@ all
 necessary
 float
 manager
+*
 translations
 ;
-*
 assumes
 float
 manager
@@ -4697,8 +4699,8 @@ contain
 a
 single
 block
-frame
 *
+frame
 or
 contain
 1
@@ -4719,6 +4721,7 @@ the
 caller
 should
 continue
+*
 to
 reflow
 more

@@ -2592,6 +2592,7 @@ from
 a
 Pair
 or
+*
 std
 :
 :

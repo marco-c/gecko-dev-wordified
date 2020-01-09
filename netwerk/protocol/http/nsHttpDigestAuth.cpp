@@ -1753,6 +1753,8 @@ GenerateCredentials
 [
 ParseChallenge
 failed
+"
+"
 rv
 =
 %
@@ -1850,6 +1852,8 @@ data
 integrity
 quality
 of
+"
+"
 protection
 "
 )

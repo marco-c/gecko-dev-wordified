@@ -186,6 +186,9 @@ result
 ;
 }
 }
+/
+/
+namespace
 BEGIN_TEST
 (
 testErrorInterceptor

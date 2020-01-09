@@ -152,6 +152,10 @@ end
 ;
 }
 }
+/
+/
+namespace
+std
 template
 <
 typename

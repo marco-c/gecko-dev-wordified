@@ -5284,6 +5284,8 @@ s
 :
 %
 d
+"
+"
 proxy
 =
 %
@@ -8067,6 +8069,8 @@ hold
 onto
 the
 socket
+/
+/
 info
 bool
 isSSL
@@ -8584,6 +8588,8 @@ are
 disabled
 and
 a
+"
+"
 connection
 "
 "
@@ -8633,6 +8639,8 @@ server
 if
 running
 xpcshell
+"
+"
 tests
 )
 .
@@ -8648,6 +8656,8 @@ redirected
 to
 a
 local
+"
+"
 server
 .
 \
@@ -12044,6 +12054,8 @@ reset
 preference
 on
 the
+/
+/
 connection
 entry
 mResetFamilyPreference
@@ -12204,6 +12216,8 @@ reset
 preference
 on
 the
+/
+/
 connection
 entry
 mResetFamilyPreference
@@ -21736,6 +21750,8 @@ ack
 d
 probes
 ;
+/
+/
 seconds
 .
 int

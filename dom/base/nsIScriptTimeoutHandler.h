@@ -176,11 +176,12 @@ define
 NS_ISCRIPTTIMEOUTHANDLER_IID
 \
 {
+\
 0x53c8e80e
 0xcc78
 0x48bc
-\
 {
+\
 0xba
 0x63
 0x0c
@@ -189,7 +190,9 @@ NS_ISCRIPTTIMEOUTHANDLER_IID
 0xf7
 0x06
 0x34
+\
 }
+\
 }
 /
 *

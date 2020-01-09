@@ -630,6 +630,7 @@ is
 handled
 outside
 the
+*
 CompositorVsyncScheduler
 .
 *

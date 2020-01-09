@@ -912,9 +912,9 @@ A8
 depending
 on
 the
+*
 current
 surface
-*
 format
 and
 the
@@ -1041,8 +1041,8 @@ SurfaceFormat
 :
 :
 A8
-or
 *
+or
 SurfaceFormat
 :
 :
@@ -1053,8 +1053,8 @@ aFormatHint
 is
 NEED_COLOR_CHANNELS
 the
-returned
 *
+returned
 surface
 is
 guaranteed
@@ -4219,6 +4219,7 @@ MOZILLA_INTERNAL_API
 )
 &
 &
+\
 (
 defined
 (
@@ -4440,6 +4441,7 @@ MOZILLA_INTERNAL_API
 )
 &
 &
+\
 (
 defined
 (

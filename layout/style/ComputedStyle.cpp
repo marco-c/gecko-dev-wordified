@@ -791,7 +791,6 @@ PEEK
 (
 struct_
 )
-\
 ComputedData
 (
 )
@@ -1223,6 +1222,7 @@ name_
 \
 MOZ_ASSERT
 (
+\
 !
 !
 (
@@ -1235,7 +1235,6 @@ name_
 )
 =
 =
-\
 (
 PEEK
 (
@@ -1530,7 +1529,6 @@ STYLE_STRUCT
 name_
 fields_
 )
-\
 *
 aEqualStructs
 &
@@ -1703,7 +1701,6 @@ name_
 *
 thisVisStruct
 =
-\
 thisVis
 -
 >
@@ -1723,7 +1720,6 @@ name_
 *
 otherVisStruct
 =
-\
 otherVis
 -
 >
@@ -2621,8 +2617,8 @@ fields_
 template
 <
 >
-nscolor
 \
+nscolor
 ComputedStyle
 :
 :
@@ -2649,7 +2645,6 @@ name_
 *
 aField
 )
-\
 {
 \
 MOZ_ASSERT
@@ -2698,8 +2693,8 @@ h
 return
 GetVisitedDependentColorInternal
 (
-this
 \
+this
 [
 aField
 ]
@@ -3043,7 +3038,6 @@ EqualsLiteral
 name_
 )
 )
-\
 return
 Some
 (

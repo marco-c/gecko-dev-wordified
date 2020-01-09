@@ -237,6 +237,9 @@ sStorageChildDown
 false
 ;
 }
+/
+/
+namespace
 LocalStorageCacheChild
 :
 :

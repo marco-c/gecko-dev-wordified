@@ -274,6 +274,7 @@ values
 are
 JS
 GC
+*
 things
 .
 *

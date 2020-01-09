@@ -249,6 +249,8 @@ if
 GetLibrary
 (
 )
+/
+/
 succeeds
 NPPluginFuncs
 *

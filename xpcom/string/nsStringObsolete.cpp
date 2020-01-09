@@ -504,6 +504,7 @@ through
 (
 which
 may
+*
 be
 different
 than
@@ -826,6 +827,7 @@ through
 (
 which
 may
+*
 be
 different
 than
@@ -1093,6 +1095,7 @@ through
 (
 which
 may
+*
 be
 different
 than
@@ -1395,6 +1398,7 @@ through
 (
 which
 may
+*
 be
 different
 than
@@ -2445,6 +2449,8 @@ do
 an
 accurate
 case
+"
+"
 conversion
 !
 "

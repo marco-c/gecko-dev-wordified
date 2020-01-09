@@ -288,6 +288,7 @@ PixelFormat
 /
 /
 namespace
+mozilla
 namespace
 IPC
 {

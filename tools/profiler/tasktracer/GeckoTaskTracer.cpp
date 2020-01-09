@@ -601,7 +601,6 @@ SourceEventType
 :
 type
 :
-\
 {
 \
 namePtr
@@ -853,7 +852,6 @@ ObsoleteCurrentTraceInfos
 /
 /
 namespace
-anonymous
 TraceInfoLogType
 *
 TraceInfo

@@ -364,10 +364,12 @@ define
 NS_AHTTPTRANSACTION_IID
 \
 {
+\
 0x2af6d634
 0x13e3
 0x494c
 {
+\
 0x89
 0x03
 0xc9
@@ -376,7 +378,9 @@ NS_AHTTPTRANSACTION_IID
 0xc2
 0x2f
 0xc0
+\
 }
+\
 }
 class
 nsAHttpTransaction
@@ -442,6 +446,8 @@ the
 "
 active
 "
+/
+/
 state
 .
 virtual
@@ -687,6 +693,8 @@ is
 not
 otherwise
 leave
+/
+/
 untouched
 virtual
 MOZ_MUST_USE
@@ -1001,6 +1009,8 @@ shouldn
 t
 be
 using
+/
+/
 nsAHttpTransaction
 /
 /
@@ -1645,9 +1655,9 @@ OnTransportStatus
 nsITransport
 *
 transport
-\
 nsresult
 status
+\
 int64_t
 progress
 )
@@ -1690,6 +1700,7 @@ ReadSegments
 nsAHttpSegmentReader
 *
 uint32_t
+\
 uint32_t
 *
 )
@@ -1703,6 +1714,7 @@ WriteSegments
 (
 nsAHttpSegmentWriter
 *
+\
 uint32_t
 uint32_t
 *
@@ -1755,6 +1767,7 @@ MOZ_MUST_USE
 nsresult
 TakeSubTransactions
 (
+\
 nsTArray
 <
 RefPtr
@@ -2108,6 +2121,7 @@ uint32_t
 uint32_t
 *
 )
+\
 override
 ;
 /

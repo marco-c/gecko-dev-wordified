@@ -140,14 +140,17 @@ aWorkerConnection
 }
 /
 /
+namespace
 StorageDBUpdater
 }
 /
 /
+namespace
 dom
 }
 /
 /
+namespace
 mozilla
 #
 endif

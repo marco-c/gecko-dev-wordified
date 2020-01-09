@@ -1144,7 +1144,7 @@ handshake_started_
 }
 /
 /
-close
 namespace
+mozilla
 #
 endif

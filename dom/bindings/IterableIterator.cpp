@@ -238,4 +238,12 @@ nsISupports
 )
 NS_INTERFACE_MAP_END
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

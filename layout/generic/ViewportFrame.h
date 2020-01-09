@@ -193,9 +193,9 @@ root
 frame
 or
 a
+*
 scroll
 frame
-*
 containing
 the
 doc
@@ -206,11 +206,11 @@ ViewportFrame
 stores
 this
 child
+*
 in
 its
 primary
 child
-*
 list
 .
 *

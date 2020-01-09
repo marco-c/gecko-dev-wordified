@@ -1445,8 +1445,8 @@ to
 wrap
 them
 .
-This
 *
+This
 allows
 fast
 iteration
@@ -3477,10 +3477,10 @@ ever
 used
 internally
 by
+/
+/
 the
 JS
-/
-/
 engine
 and
 are
@@ -3491,6 +3491,8 @@ valid
 throughout
 a
 scripts
+/
+/
 lifetime
 .
 if

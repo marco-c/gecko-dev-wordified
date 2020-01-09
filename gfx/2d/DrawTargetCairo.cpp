@@ -3718,6 +3718,8 @@ DrawTargetType
 for
 DrawTargetCairo
 -
+"
+"
 assuming
 SOFTWARE_RASTER
 "
@@ -3766,6 +3768,8 @@ to
 silence
 warning
 about
+/
+/
 unhandled
 enum
 value
@@ -4166,6 +4170,8 @@ integers
 suitable
 for
 a
+/
+/
 bounds
 rect
 IntPoint
@@ -4826,9 +4832,9 @@ area
 then
 unbounded
 and
+/
+/
 bounded
-/
-/
 operations
 are
 identical
@@ -10344,10 +10350,10 @@ mask
 surface
 (
 for
+/
+/
 clipping
 )
-/
-/
 the
 size
 of
@@ -10362,11 +10368,11 @@ take
 the
 surface
 extents
+/
+/
 into
 account
 .
-/
-/
 Add
 a
 manual
@@ -11123,10 +11129,10 @@ size
 of
 the
 transformed
+/
+/
 bounds
 .
-/
-/
 Try
 to
 pass
@@ -11141,6 +11147,8 @@ in
 both
 the
 BGRA
+/
+/
 and
 ARGB
 cases
@@ -11357,6 +11365,8 @@ has
 already
 been
 composed
+/
+/
 above
 .
 Matrix

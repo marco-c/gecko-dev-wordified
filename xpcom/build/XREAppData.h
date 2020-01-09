@@ -196,6 +196,10 @@ PermissionsService
 ;
 }
 }
+/
+/
+namespace
+mozilla
 #
 endif
 namespace

@@ -499,6 +499,7 @@ op
 (
 )
 {
+\
 return
 CacheIRCompiler
 :
@@ -510,6 +511,7 @@ op
 (
 )
 ;
+\
 }
 CACHE_IR_SHARED_OPS
 (
@@ -1069,10 +1071,10 @@ successes
 as
 it
 much
+/
+/
 easier
 to
-/
-/
 ensure
 ICStubReg
 is
@@ -1139,7 +1141,6 @@ op
 (
 )
 )
-\
 return
 nullptr
 ;

@@ -692,7 +692,6 @@ DECLARE_ORIGINAL_FUNCTION
 (
 aName
 )
-\
 static
 void
 *
@@ -6714,6 +6713,8 @@ through
 OSSpinLock
 while
 setting
+/
+/
 gTlsThreadKey
 .
 Thread
@@ -7064,6 +7065,8 @@ saving
 a
 checkpoint
 as
+/
+/
 for
 mprotect
 .
@@ -10912,6 +10915,8 @@ with
 CFType
 keys
 and
+/
+/
 values
 .
 if
@@ -12404,6 +12409,8 @@ provider
 to
 do
 it
+/
+/
 for
 us
 .
@@ -16534,6 +16541,8 @@ CFRange
 argument
 uses
 two
+/
+/
 slots
 .
 RR_Compose
@@ -16573,6 +16582,8 @@ CFRange
 argument
 uses
 two
+/
+/
 slots
 .
 /
@@ -16591,6 +16602,8 @@ range
 '
 s
 length
+/
+/
 here
 .
 RR_WriteBuffer
@@ -18641,6 +18654,8 @@ CFRange
 argument
 uses
 two
+/
+/
 slots
 .
 RR_Compose
@@ -20009,6 +20024,8 @@ same
 address
 in
 multiple
+/
+/
 places
 .
 for
@@ -21092,8 +21109,10 @@ rv
 }
 /
 /
+namespace
 recordreplay
 }
 /
 /
+namespace
 mozilla

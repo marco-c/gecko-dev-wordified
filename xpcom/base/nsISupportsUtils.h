@@ -201,7 +201,6 @@ NS_ADDREF
 (
 _ptr
 )
-\
 (
 _ptr
 )
@@ -263,7 +262,6 @@ define
 NS_ADDREF_THIS
 (
 )
-\
 AddRef
 (
 )
@@ -385,6 +383,7 @@ end
 a
 getter
 '
+*
 with
 :
 *
@@ -421,9 +420,9 @@ nsCOMPtr
 |
 however
 it
+*
 is
 still
-*
 _illegal_
 to
 say
@@ -510,7 +509,6 @@ define
 NS_RELEASE_THIS
 (
 )
-\
 Release
 (
 )

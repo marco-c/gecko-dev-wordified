@@ -443,8 +443,8 @@ structure
 used
 to
 implement
-both
 *
+both
 OrderedHashMap
 and
 OrderedHashSet
@@ -4314,6 +4314,8 @@ on
 offsetof
 (
 Data
+"
+"
 element
 )
 being

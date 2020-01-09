@@ -767,11 +767,12 @@ define
 NS_PIDOMWINDOWINNER_IID
 \
 {
+\
 0x775dabc9
 0x8f43
 0x4277
-\
 {
+\
 0x9a
 0xdb
 0xf1
@@ -780,7 +781,9 @@ NS_PIDOMWINDOWINNER_IID
 0x77
 0xcf
 0xfb
+\
 }
+\
 }
 /
 /
@@ -808,11 +811,12 @@ define
 NS_PIDOMWINDOWOUTER_IID
 \
 {
+\
 0x769693d4
 0xb009
 0x4fe2
-\
 {
+\
 0xaf
 0x18
 0x7d
@@ -821,7 +825,9 @@ NS_PIDOMWINDOWOUTER_IID
 0x74
 0x96
 0xdf
+\
 }
+\
 }
 class
 nsPIDOMWindowInner

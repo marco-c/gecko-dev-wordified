@@ -277,9 +277,9 @@ present
 in
 the
 source
+/
+/
 dir
-/
-/
 but
 not
 copied
@@ -295,9 +295,9 @@ we
 chdir
 to
 the
+/
+/
 source
-/
-/
 dir
 at
 the
@@ -311,6 +311,8 @@ to
 the
 previous
 directory
+/
+/
 afterwards
 .
 #
@@ -1427,6 +1429,8 @@ to
 make
 CHECK_EQUAL
 use
+/
+/
 Tokenizer
 :
 :
@@ -1559,6 +1563,8 @@ way
 to
 make
 CHECK_EQUAL
+/
+/
 use
 Tokenizer
 :
@@ -1819,6 +1825,8 @@ way
 to
 make
 CHECK_EQUAL
+/
+/
 use
 Tokenizer
 :
@@ -1869,6 +1877,8 @@ way
 to
 make
 CHECK_EQUAL
+/
+/
 use
 Tokenizer
 :

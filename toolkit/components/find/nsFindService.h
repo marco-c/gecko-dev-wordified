@@ -148,10 +148,12 @@ define
 NS_FIND_SERVICE_CID
 \
 {
+\
 0x5060b803
 0x340e
 0x11d5
 {
+\
 0xbe
 0x5b
 0xb3
@@ -160,12 +162,13 @@ NS_FIND_SERVICE_CID
 0xec
 0x6a
 0x3c
+\
 }
+\
 }
 #
 define
 NS_FIND_SERVICE_CONTRACTID
-\
 "
 mozilla
 .

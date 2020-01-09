@@ -138,11 +138,12 @@ define
 NS_IMETEXTTXN_IID
 \
 {
+\
 0xb391355d
 0x346c
 0x43d1
-\
 {
+\
 0x85
 0xed
 0x9e
@@ -151,7 +152,9 @@ NS_IMETEXTTXN_IID
 0xe7
 0x7e
 0x48
+\
 }
+\
 }
 namespace
 mozilla

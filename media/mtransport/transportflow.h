@@ -786,7 +786,7 @@ target_
 }
 /
 /
-close
 namespace
+mozilla
 #
 endif

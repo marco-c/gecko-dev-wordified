@@ -1679,9 +1679,9 @@ are
 empty
 or
 do
+/
+/
 not
-/
-/
 exist
 .
 if
@@ -2689,6 +2689,7 @@ According
 to
 spec
 in
+*
 https
 :
 /
@@ -2707,9 +2708,9 @@ request
 validity
 -
 checkers
-*
 perform
 currency
+*
 validation
 with
 following
@@ -2742,10 +2743,10 @@ range
 A
 "
 to
+*
 "
 Z
 "
-*
 (
 U
 +
@@ -3029,6 +3030,8 @@ or
 a
 '
 to
+"
+"
 '
 z
 '
@@ -5772,6 +5775,8 @@ the
 following
 steps
 in
+/
+/
 RespondShowPayment
 .
 /

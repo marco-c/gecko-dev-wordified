@@ -1298,10 +1298,10 @@ after
 it
 and
 moving
+/
+/
 backwards
 :
-/
-/
 skip
 to
 the
@@ -2387,9 +2387,9 @@ new
 frames
 .
 Instead
+/
+/
 wait
-/
-/
 to
 do
 this
@@ -2403,10 +2403,10 @@ frame
 If
 the
 overflow
+/
+/
 list
 contains
-/
-/
 thousands
 of
 frames
@@ -2416,6 +2416,8 @@ a
 big
 performance
 issue
+/
+/
 (
 see
 bug

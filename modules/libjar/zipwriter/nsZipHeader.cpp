@@ -653,6 +653,8 @@ matches
 nsIZipReader
 '
 s
+/
+/
 behaviour
 *
 aPermissions

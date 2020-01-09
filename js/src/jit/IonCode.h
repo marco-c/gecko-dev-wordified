@@ -3774,6 +3774,7 @@ JS_CODEGEN_ARM64
 )
 |
 |
+\
 defined
 (
 JS_CODEGEN_MIPS32

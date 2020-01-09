@@ -1082,10 +1082,10 @@ CleanUp
 )
 before
 calling
+/
+/
 this
 .
-/
-/
 Worker
 thread
 callers
@@ -1098,9 +1098,9 @@ proxy
 has
 not
 been
+/
+/
 cleaned
-/
-/
 up
 .
 WorkerPrivate

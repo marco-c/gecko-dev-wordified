@@ -109,6 +109,8 @@ target
 )
 throw
 new
+"
+"
 Error
 (
 '

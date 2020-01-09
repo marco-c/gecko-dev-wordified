@@ -2529,6 +2529,8 @@ from
 the
 spec
 bug
+/
+/
 1076583
 /
 /
@@ -5379,11 +5381,11 @@ to
 short
 -
 circuit
+/
+/
 the
 load
 .
-/
-/
 Similarly
 for
 if
@@ -6602,10 +6604,10 @@ a
 media
 query
 that
+/
+/
 may
 not
-/
-/
 match
 any
 more

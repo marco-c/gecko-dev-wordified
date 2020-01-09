@@ -228,11 +228,11 @@ breakages
 like
 keyboard
 shortcuts
+/
+/
 won
 '
 t
-/
-/
 work
 in
 MAC
@@ -1189,6 +1189,7 @@ for
 the
 given
 keyboard
+*
 event
 .
 *
@@ -1603,8 +1604,8 @@ mInitialTZValue
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 /

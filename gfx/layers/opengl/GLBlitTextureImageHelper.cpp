@@ -522,6 +522,8 @@ the
 rectangle
 defined
 by
+/
+/
 aSrcRect
 .
 .
@@ -783,6 +785,8 @@ destination
 space
 inverting
 the
+/
+/
 transform
 from
 (
@@ -843,6 +847,8 @@ current
 src
 and
 dst
+/
+/
 tiles
 respectively
 gfx

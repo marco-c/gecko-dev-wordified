@@ -198,6 +198,7 @@ a
 number
 or
 an
+*
 underscore
 .
 *
@@ -418,6 +419,7 @@ assign
 the
 result
 to
+*
 aResult
 .
 *

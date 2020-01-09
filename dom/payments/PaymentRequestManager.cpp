@@ -2777,9 +2777,9 @@ mShippingOption
 if
 shipping
 is
+*
 required
 .
-*
 Set
 request
 '

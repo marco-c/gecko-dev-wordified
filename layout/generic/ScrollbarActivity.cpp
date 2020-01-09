@@ -774,6 +774,8 @@ the
 refresh
 driver
 when
+"
+"
 scrollbar
 activity
 started
@@ -1416,6 +1418,8 @@ timer
 cancelled
 when
 scrollbar
+"
+"
 activity
 started
 ?
@@ -1532,6 +1536,8 @@ timer
 cancelled
 when
 scrollbar
+"
+"
 activity
 started
 ?

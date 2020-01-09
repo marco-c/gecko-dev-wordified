@@ -1387,12 +1387,12 @@ have
 access
 to
 the
+/
+/
 CSS
 parser
 '
 s
-/
-/
 state
 .
 The
@@ -1535,6 +1535,8 @@ just
 leave
 it
 empty
+/
+/
 if
 we
 OOM

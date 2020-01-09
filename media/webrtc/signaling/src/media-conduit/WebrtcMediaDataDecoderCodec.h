@@ -145,6 +145,10 @@ class
 ImageContainer
 ;
 }
+/
+/
+namespace
+layers
 class
 PDMFactory
 ;

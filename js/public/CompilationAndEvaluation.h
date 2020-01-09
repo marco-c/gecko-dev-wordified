@@ -835,6 +835,7 @@ the
 current
 compartment
 before
+*
 executing
 .
 *

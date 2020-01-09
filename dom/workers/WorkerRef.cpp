@@ -282,7 +282,7 @@ mRef
 }
 /
 /
-anonymous
+namespace
 /
 /
 -
@@ -1434,10 +1434,10 @@ mWorkerPrivate
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

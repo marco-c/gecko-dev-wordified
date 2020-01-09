@@ -1064,7 +1064,6 @@ textSize
 left
 )
 -
-\
 (
 infoSize
 .
@@ -1089,7 +1088,6 @@ textSize
 top
 )
 -
-\
 (
 infoSize
 .
@@ -1482,9 +1480,9 @@ taking
 a
 significant
 amount
+/
+/
 of
-/
-/
 time
 where
 a

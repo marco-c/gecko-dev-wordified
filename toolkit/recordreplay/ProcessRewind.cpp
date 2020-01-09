@@ -1754,9 +1754,9 @@ resume
 the
 main
 thread
+/
+/
 while
-/
-/
 it
 still
 has

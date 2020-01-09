@@ -549,12 +549,11 @@ have
 transforms
 that
 are
-translations
 *
+translations
 by
 integers
 .
-*
 aInRect
 is
 in
@@ -563,8 +562,8 @@ root
 coordinate
 system
 .
-*
 Child
+*
 layers
 with
 opacity
@@ -580,8 +579,8 @@ check
 b
 )
 .
-*
 This
+*
 method
 can
 be

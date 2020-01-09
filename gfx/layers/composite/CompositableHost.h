@@ -670,8 +670,8 @@ it
 is
 composited
 .
-CompositableHost
 *
+CompositableHost
 will
 use
 its
@@ -686,10 +686,10 @@ Compositor
 :
 DrawQuad
 to
+*
 do
 the
 actual
-*
 rendering
 .
 *
@@ -1654,10 +1654,10 @@ gpu
 resources
 before
 the
+/
+/
+/
 widget
-/
-/
-/
 is
 is
 destroyed

@@ -2039,9 +2039,9 @@ nullptr
 .
 Here
 we
+/
+/
 select
-/
-/
 the
 entire
 word
@@ -2444,6 +2444,8 @@ pending
 notifications
 check
 editor
+/
+/
 again
 .
 if

@@ -765,12 +765,6 @@ InputType
 public
 :
 using
-nsIConstraintValidation
-:
-:
-GetValidationMessage
-;
-using
 nsGenericHTMLFormElementWithState
 :
 :
@@ -781,6 +775,12 @@ nsGenericHTMLFormElementWithState
 :
 :
 GetFormAction
+;
+using
+nsIConstraintValidation
+:
+:
+GetValidationMessage
 ;
 enum
 class
@@ -5599,6 +5599,7 @@ will
 be
 extracted
 and
+*
 parsed
 .
 *
@@ -6673,6 +6674,7 @@ type
 *
 See
 :
+*
 http
 :
 /
@@ -8135,6 +8137,7 @@ milliseconds
 representing
 the
 time
+*
 [
 out
 ]
@@ -9049,8 +9052,8 @@ done
 using
 the
 GetEditorState
-function
 *
+function
 which
 returns
 null
@@ -9939,6 +9942,7 @@ be
 supported
 based
 on
+*
 "
 dom
 .
@@ -9946,7 +9950,6 @@ forms
 .
 datetime
 "
-*
 and
 "
 dom

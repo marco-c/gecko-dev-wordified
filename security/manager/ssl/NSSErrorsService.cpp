@@ -355,12 +355,14 @@ SEC_ERROR_BASE
 EXPECTED_SEC_ERROR_BASE
 |
 |
+\
 SSL_ERROR_BASE
 !
 =
 EXPECTED_SSL_ERROR_BASE
 #
 error
+\
 "
 Unexpected
 change
@@ -393,9 +395,9 @@ the
 positive
 range
 0x1000
+*
 to
 0xf000
-*
 Search
 for
 NS_ERROR_MODULE_SECURITY
@@ -404,9 +406,9 @@ ensure
 there
 are
 no
+*
 conflicts
 .
-*
 The
 current
 code
@@ -418,6 +420,7 @@ library
 error
 codes
 are
+*
 negative
 .
 *

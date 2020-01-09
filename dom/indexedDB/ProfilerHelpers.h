@@ -1787,7 +1787,6 @@ else
 \
 MOZ_ASSERT
 (
-\
 mode
 =
 =
@@ -1801,6 +1800,7 @@ Logging_Detailed
 mode
 =
 =
+\
 IndexedDatabaseManager
 :
 :

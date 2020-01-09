@@ -143,6 +143,7 @@ __ia64
 )
 |
 |
+\
 (
 !
 defined
@@ -188,6 +189,7 @@ STUB_ENTRY
 (
 n
 )
+\
 NS_IMETHOD
 Stub
 #
@@ -199,6 +201,7 @@ uint64_t
 uint64_t
 uint64_t
 uint64_t
+\
 uint64_t
 uint64_t
 uint64_t
@@ -256,6 +259,7 @@ __ia64
 )
 |
 |
+\
 (
 !
 defined
@@ -300,6 +304,7 @@ STUB_ENTRY
 (
 n
 )
+\
 NS_IMETHOD
 Stub
 #
@@ -311,6 +316,7 @@ uint64_t
 uint64_t
 uint64_t
 uint64_t
+\
 uint64_t
 uint64_t
 uint64_t

@@ -253,7 +253,6 @@ GetLog
 (
 log
 )
-\
 LogLevel
 :
 :
@@ -1434,10 +1433,10 @@ subtables
 )
 be
 zero
+/
+/
 according
 to
-/
-/
 the
 OT
 spec
@@ -1452,14 +1451,14 @@ lang
 (
 which
 would
+/
+/
 be
 English
 for
 MacOS
 )
 .
-/
-/
 E
 .
 g
@@ -1476,6 +1475,8 @@ v
 Tiger
 )
 Arial
+/
+/
 Unicode
 MS
 (
@@ -1484,8 +1485,6 @@ bug
 530614
 )
 .
-/
-/
 So
 accept
 either
@@ -1496,6 +1495,8 @@ here
 ;
 the
 error
+/
+/
 should
 be
 harmless
@@ -2490,13 +2491,13 @@ Unicode
 platform
 )
 is
+/
+/
 preferred
 on
 the
 Mac
 ;
-/
-/
 on
 other
 platforms
@@ -2506,6 +2507,8 @@ the
 Microsoft
 -
 platform
+/
+/
 subtable
 to
 replace
@@ -2525,6 +2528,7 @@ p
 e
 k
 )
+\
 (
 (
 (
@@ -2579,6 +2583,7 @@ p
 PLATFORM_ID_MICROSOFT
 &
 &
+\
 (
 e
 )
@@ -2588,6 +2593,7 @@ EncodingIDUCS4ForMicrosoftPlatform
 )
 &
 &
+\
 (
 k
 )
@@ -2606,7 +2612,6 @@ p
 PLATFORM_ID_UNICODE
 &
 &
-\
 (
 (
 e
@@ -2627,6 +2632,7 @@ p
 e
 k
 )
+\
 (
 (
 (
@@ -2689,6 +2695,7 @@ acceptablePlatform
 (
 p
 )
+\
 (
 (
 p
@@ -2735,6 +2742,7 @@ isUVSEncoding
 p
 e
 )
+\
 (
 (
 p
@@ -2876,6 +2884,8 @@ OffsetVersion
 /
 Unused
 :
+/
+/
 self
 -
 documenting
@@ -3153,6 +3163,8 @@ when
 this
 format
 is
+/
+/
 available
 .
 }
@@ -5402,6 +5414,8 @@ in
 Postscript
 names
 so
+/
+/
 convert
 /
 =
@@ -5584,11 +5598,11 @@ Apple
 TT
 fonts
 =
+/
+/
 '
 true
 '
-/
-/
 '
 typ1
 '
@@ -5605,6 +5619,8 @@ a
 SFNT
 container
 but
+/
+/
 not
 supported
 return
@@ -7835,9 +7851,9 @@ a
 binary
 search
 on
+/
+/
 both
-/
-/
 fields
 and
 fall

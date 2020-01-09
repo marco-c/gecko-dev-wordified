@@ -1069,7 +1069,6 @@ defined
 (
 __FreeBSD__
 )
-\
 |
 |
 defined
@@ -1078,11 +1077,11 @@ __NetBSD__
 )
 |
 |
+\
 defined
 (
 __OpenBSD__
 )
-\
 |
 |
 defined
@@ -1121,6 +1120,7 @@ __FreeBSD__
 )
 |
 |
+\
 defined
 (
 __FreeBSD_kernel__
@@ -1288,6 +1288,7 @@ KP_SIZE
 (
 kp
 )
+\
 (
 (
 kp
@@ -1297,7 +1298,6 @@ p_vm_dsize
 kp
 .
 p_vm_ssize
-\
 +
 kp
 .
@@ -3111,6 +3111,8 @@ they
 only
 have
 one
+/
+/
 reference
 .
 privatePages
@@ -8919,9 +8921,9 @@ case
 we
 '
 ll
+/
+/
 get
-/
-/
 combined
 size
 information
@@ -8934,9 +8936,9 @@ take
 the
 minimum
 of
+/
+/
 the
-/
-/
 reported
 private
 size
@@ -9151,6 +9153,8 @@ s
 /
 /
 See
+/
+/
 https
 :
 /
@@ -15762,7 +15766,9 @@ DO
 aN
 n
 )
+\
 {
+\
 *
 aN
 =
@@ -15770,6 +15776,7 @@ aN
 n
 )
 ;
+\
 *
 aTotalSize
 +
@@ -15778,6 +15785,7 @@ aTotalSize
 n
 )
 ;
+\
 }
 DO
 (
@@ -16109,7 +16117,6 @@ name
 )
 \
 nsresult
-\
 Register
 #
 #
@@ -16124,7 +16131,6 @@ kind
 AmountFn
 aAmountFn
 )
-\
 {
 \
 GET_MEMORY_REPORTER_MANAGER
@@ -16177,7 +16183,6 @@ name
 )
 \
 nsresult
-\
 Unregister
 #
 #
@@ -16187,7 +16192,6 @@ name
 DistinguishedAmount
 (
 )
-\
 {
 \
 GET_MEMORY_REPORTER_MANAGER
@@ -16285,7 +16289,6 @@ name
 )
 \
 nsresult
-\
 Register
 #
 #
@@ -16300,7 +16303,6 @@ name
 SizeOfTabFn
 aSizeOfTabFn
 )
-\
 {
 \
 GET_MEMORY_REPORTER_MANAGER

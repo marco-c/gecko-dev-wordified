@@ -508,10 +508,10 @@ child
 from
 new
 printing
+/
+/
 requests
 .
-/
-/
 Also
 set
 mActive
@@ -525,10 +525,10 @@ t
 want
 to
 send
+/
+/
 it
 twice
-/
-/
 and
 our
 PrintProgressDialogChild

@@ -261,6 +261,7 @@ LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 gfxUserFontSet
@@ -283,6 +284,7 @@ define
 LOG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 gfxUserFontSet
@@ -6003,9 +6005,9 @@ family
 whose
 descriptors
 all
+/
+/
 match
-/
-/
 we
 can
 just

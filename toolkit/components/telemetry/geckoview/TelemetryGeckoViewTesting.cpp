@@ -99,6 +99,7 @@ TestDispatchPersist
 }
 /
 /
+namespace
 TelemetryGeckoViewTesting
 NS_IMPL_ISUPPORTS
 (

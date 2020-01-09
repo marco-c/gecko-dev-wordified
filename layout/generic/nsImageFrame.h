@@ -1948,8 +1948,8 @@ space
 .
 If
 null
-the
 *
+the
 entire
 layer
 will
@@ -1969,8 +1969,8 @@ space
 .
 If
 null
-the
 *
+the
 entire
 frame
 will

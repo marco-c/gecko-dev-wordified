@@ -276,6 +276,7 @@ softtoken_counter
 #
 define
 PREF_WEBAUTHN_SOFTTOKEN_ENABLED
+\
 "
 security
 .
@@ -286,6 +287,7 @@ webauthn_enable_softtoken
 #
 define
 PREF_WEBAUTHN_USBTOKEN_ENABLED
+\
 "
 security
 .
@@ -296,6 +298,7 @@ webauthn_enable_usbtoken
 #
 define
 PREF_WEBAUTHN_ALLOW_DIRECT_ATTESTATION
+\
 "
 security
 .
@@ -489,6 +492,9 @@ nsIThread
 gBackgroundThread
 ;
 }
+/
+/
+namespace
 /
 /
 Data
@@ -3082,4 +3088,12 @@ NS_ERROR_DOM_ABORT_ERR
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

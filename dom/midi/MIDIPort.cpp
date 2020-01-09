@@ -459,6 +459,8 @@ when
 creating
 a
 port
+"
+"
 object
 !
 "
@@ -996,6 +998,8 @@ object
 is
 dead
 .
+/
+/
 Nullify
 our
 copy
@@ -1175,6 +1179,8 @@ longer
 in
 the
 port
+/
+/
 maps
 .
 if
@@ -1257,4 +1263,12 @@ here
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

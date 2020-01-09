@@ -2354,9 +2354,9 @@ the
 caller
 to
 interact
+*
 with
 the
-*
 lexer
 '
 s
@@ -2368,8 +2368,8 @@ second
 difference
 is
 that
-aNextState
 *
+aNextState
 will
 be
 called

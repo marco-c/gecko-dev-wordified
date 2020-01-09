@@ -162,6 +162,7 @@ ReleaseNativeStack
 /
 /
 namespace
+mozilla
 #
 endif
 /

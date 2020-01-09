@@ -764,7 +764,7 @@ true
 }
 /
 /
-anonymous
+namespace
 class
 WorkerDebugger
 :
@@ -2557,10 +2557,10 @@ __func__
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

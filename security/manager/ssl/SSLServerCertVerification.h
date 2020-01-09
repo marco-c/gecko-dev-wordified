@@ -138,8 +138,5 @@ isServer
 /
 namespace
 mozilla
-:
-:
-psm
 #
 endif

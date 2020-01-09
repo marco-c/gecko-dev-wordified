@@ -393,13 +393,15 @@ rootHash
 }
 ;
 }
+/
+/
+namespace
+ct
 }
 /
 /
 namespace
 mozilla
-:
-ct
 #
 endif
 /

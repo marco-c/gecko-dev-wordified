@@ -1005,9 +1005,9 @@ queue
 .
 The
 mAvoidVisibleTabCount
+/
+/
 field
-/
-/
 prevents
 us
 from
@@ -1017,10 +1017,10 @@ events
 from
 visible
 tabs
+/
+/
 twice
 in
-/
-/
 a
 row
 .
@@ -1147,9 +1147,9 @@ tab
 and
 another
 one
+/
+/
 presumably
-/
-/
 a
 background
 group
@@ -1281,6 +1281,8 @@ a
 different
 LabeledEventQueue
 than
+/
+/
 |
 this
 |

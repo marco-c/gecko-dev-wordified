@@ -313,6 +313,7 @@ it
 Then
 delete
 the
+*
 local
 profile
 dir
@@ -342,6 +343,8 @@ doesn
 '
 t
 follow
+/
+/
 links
 .
 nsresult
@@ -434,6 +437,8 @@ it
 can
 '
 t
+/
+/
 be
 deleted
 .

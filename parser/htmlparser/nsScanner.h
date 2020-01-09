@@ -996,6 +996,8 @@ next
 read
 from
 in
+/
+/
 the
 scanner
 buffer

@@ -413,9 +413,6 @@ t
 /
 /
 namespace
-(
-anonymous
-)
 void
 Compartment
 :
@@ -3247,9 +3244,6 @@ t
 /
 /
 namespace
-(
-anonymous
-)
 void
 CrossCompartmentKey
 :

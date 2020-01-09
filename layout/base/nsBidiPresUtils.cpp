@@ -3235,6 +3235,8 @@ parent
 s
 parent
 in
+"
+"
 nsBidiPresUtils
 :
 :
@@ -3382,6 +3384,8 @@ don
 '
 t
 want
+/
+/
 reflow
 nsFrameList
 temp
@@ -3813,6 +3817,8 @@ on
 PresContext
 before
 calling
+"
+"
 nsBidiPresUtils
 :
 :
@@ -5030,6 +5036,8 @@ frameCount
 =
 %
 d
+"
+"
 runCount
 =
 %
@@ -5530,8 +5538,8 @@ character
 in
 the
 text
-buffer
 *
+buffer
 (
 a
 bidi
@@ -5541,6 +5549,7 @@ LINE
 SEPARATOR
 or
 OBJECT
+*
 SUBSTITUTE
 )
 *
@@ -5976,9 +5985,9 @@ end
 of
 this
 directional
+*
 run
 .
-*
 Create
 a
 non
@@ -5990,6 +5999,7 @@ for
 the
 next
 directional
+*
 run
 .
 *
@@ -6100,8 +6110,8 @@ to
 fluid
 continuations
 and
-advance
 *
+advance
 frameIndex
 to
 the
@@ -6190,8 +6200,8 @@ directional
 run
 in
 the
-next
 *
+next
 text
 frame
 :
@@ -6204,10 +6214,10 @@ fluid
 continuation
 of
 the
+*
 current
 frame
 .
-*
 Do
 not
 advance
@@ -6216,9 +6226,9 @@ because
 the
 next
 frame
+*
 may
 contain
-*
 multi
 -
 directional
@@ -8477,6 +8487,8 @@ pop
 (
 add
 PDF
+/
+/
 frame
 )
 if
@@ -9125,9 +9137,9 @@ first
 line
 .
 Setting
+/
+/
 aNumFramesOnLine
-/
-/
 to
 -
 1
@@ -9137,6 +9149,8 @@ look
 at
 all
 of
+/
+/
 them
 .
 aNumFramesOnLine
@@ -13756,8 +13770,8 @@ incrementing
 |
 xOffset
 |
-by
 *
+by
 the
 width
 of
@@ -14243,8 +14257,8 @@ span
 from
 after
 the
-index
 *
+index
 up
 to
 the
@@ -14263,9 +14277,9 @@ to
 right
 this
 part
+*
 will
 span
-*
 from
 the
 start
@@ -14279,6 +14293,7 @@ and
 inclduing
 )
 the
+*
 character
 before
 the

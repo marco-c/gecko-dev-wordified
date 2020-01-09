@@ -705,8 +705,8 @@ this
 transaction
 .
 It
-must
 *
+must
 be
 OVER
 or

@@ -160,6 +160,7 @@ LOG_FONTINIT
 (
 args
 )
+\
 MOZ_LOG
 (
 gfxPlatform
@@ -169,7 +170,6 @@ GetLog
 (
 eGfxLog_fontinit
 )
-\
 LogLevel
 :
 :
@@ -181,9 +181,9 @@ define
 LOG_FONTINIT_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
-\
 gfxPlatform
 :
 :
@@ -191,7 +191,6 @@ GetLog
 (
 eGfxLog_fontinit
 )
-\
 LogLevel
 :
 :

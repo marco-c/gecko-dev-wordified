@@ -672,6 +672,7 @@ LOGFOCUSNAVIGATION
 (
 args
 )
+\
 MOZ_LOG
 (
 gFocusNavigationLog
@@ -786,6 +787,7 @@ LOGCONTENTNAVIGATION
 format
 content
 )
+\
 LOGTAG
 (
 gFocusNavigationLog
@@ -4262,10 +4264,10 @@ embedded
 or
 child
 process
+/
+/
 window
 .
-/
-/
 Pass
 false
 for
@@ -6387,6 +6389,8 @@ order
 that
 they
 were
+/
+/
 added
 for
 (
@@ -7181,6 +7185,8 @@ and
 send
 the
 activation
+/
+/
 notification
 .
 nsContentUtils
@@ -9561,9 +9567,9 @@ happen
 when
 a
 focus
+/
+/
 change
-/
-/
 occurs
 while
 restoring
@@ -10788,9 +10794,9 @@ blurred
 move
 the
 system
+/
+/
 focus
-/
-/
 to
 the
 parent
@@ -10803,10 +10809,10 @@ get
 fired
 at
 the
+/
+/
 plugin
 .
-/
-/
 But
 don
 '
@@ -10822,9 +10828,9 @@ to
 the
 window
 being
+/
+/
 lowered
-/
-/
 otherwise
 the
 parent
@@ -10947,9 +10953,9 @@ retrieved
 here
 not
 the
+/
+/
 one
-/
-/
 for
 the
 object
@@ -11035,6 +11041,8 @@ remote
 browser
 deactivate
 remote
+/
+/
 content
 if
 (
@@ -11854,6 +11862,8 @@ don
 t
 do
 anything
+/
+/
 else
 if
 (
@@ -12562,11 +12572,11 @@ its
 widget
 .
 Note
+/
+/
 that
 we
 might
-/
-/
 no
 longer
 be
@@ -12579,11 +12589,11 @@ to
 the
 events
 we
+/
+/
 fired
 above
 when
-/
-/
 aIsNewDocument
 .
 if
@@ -12636,6 +12646,8 @@ remote
 browser
 activate
 remote
+/
+/
 content
 if
 (
@@ -15659,6 +15671,8 @@ to
 show
 it
 in
+/
+/
 SetCaretDOMSelection
 selCon
 -
@@ -16296,9 +16310,9 @@ primary
 content
 for
 the
+/
+/
 frame
-/
-/
 we
 are
 on
@@ -16315,6 +16329,8 @@ stuck
 in
 the
 same
+/
+/
 place
 frameTraversal
 -
@@ -16405,6 +16421,8 @@ and
 newCaretContent
 for
 our
+/
+/
 position
 nsRect
 caretRect
@@ -16530,6 +16548,8 @@ end
 of
 selection
 is
+/
+/
 not
 before
 start
@@ -18965,6 +18985,8 @@ have
 moved
 to
 another
+/
+/
 document
 .
 mayFocusRoot
@@ -21932,9 +21954,9 @@ an
 imagemap
 which
 has
+/
+/
 multiple
-/
-/
 content
 nodes
 per
@@ -21947,6 +21969,8 @@ skip
 over
 the
 starting
+/
+/
 frame
 .
 if
@@ -23137,6 +23161,8 @@ non
 -
 remote
 child
+/
+/
 document
 .
 bool
@@ -25883,6 +25909,8 @@ the
 selection
 '
 s
+/
+/
 end
 point
 testContent
@@ -25930,6 +25958,8 @@ range
 (
 depth
 first
+/
+/
 search
 )
 nsCOMPtr

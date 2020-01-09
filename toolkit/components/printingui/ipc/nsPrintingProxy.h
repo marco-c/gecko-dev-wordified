@@ -128,6 +128,10 @@ PRemotePrintJobChild
 ;
 }
 }
+/
+/
+namespace
+mozilla
 class
 nsPrintingProxy
 final

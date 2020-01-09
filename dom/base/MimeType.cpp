@@ -207,6 +207,9 @@ c
 ;
 }
 }
+/
+/
+namespace
 template
 <
 typename

@@ -258,9 +258,9 @@ requires
 that
 we
 provide
+/
+/
 that
-/
-/
 are
 initialized
 as
@@ -273,10 +273,10 @@ context
 used
 for
 PAC
+/
+/
 evaluations
 .
-/
-/
 Additionally
 dnsResolve
 (
@@ -289,11 +289,11 @@ myIpAddress
 are
 supplied
 in
+/
+/
 the
 same
 context
-/
-/
 but
 are
 implemented
@@ -309,6 +309,8 @@ msg
 )
 is
 similarly
+/
+/
 defined
 .
 static
@@ -421,6 +423,8 @@ n
 var
 matches
 =
+"
+"
 /
 ^
 (
@@ -1150,6 +1154,8 @@ JUN
 JUL
 :
 6
+"
+"
 AUG
 :
 7
@@ -1417,6 +1423,8 @@ wday
 &
 &
 wday
+"
+"
 <
 =
 wd2
@@ -1434,6 +1442,8 @@ wday
 |
 |
 wday
+"
+"
 >
 =
 wd1
@@ -1724,6 +1734,8 @@ getDate
 )
 =
 =
+"
+"
 tmp
 )
 ;
@@ -1755,6 +1767,8 @@ getFullYear
 (
 )
 )
+"
+"
 =
 =
 \
@@ -3575,9 +3589,9 @@ strategy
 otherwise
 the
 dns
+/
+/
 request
-/
-/
 will
 be
 canceled

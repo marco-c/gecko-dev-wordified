@@ -1798,9 +1798,9 @@ now
 because
 service
 worker
+/
+/
 globals
-/
-/
 are
 the
 only
@@ -1809,6 +1809,8 @@ contexts
 where
 we
 expose
+/
+/
 ServiceWorkerRegistration
 .
 RefPtr
@@ -5319,10 +5321,10 @@ GetUnsafePrivate
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

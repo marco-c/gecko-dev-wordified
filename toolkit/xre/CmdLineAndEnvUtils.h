@@ -550,8 +550,8 @@ literal
 template
 <
 >
-inline
 \
+inline
 const
 char
 *
@@ -565,7 +565,6 @@ enum_name
 >
 (
 )
-\
 {
 \
 return
@@ -578,8 +577,8 @@ literal
 template
 <
 >
-inline
 \
+inline
 const
 wchar_t
 *
@@ -593,7 +592,6 @@ enum_name
 >
 (
 )
-\
 {
 \
 return
@@ -1320,6 +1318,8 @@ all
 backslashes
 preceding
 the
+/
+/
 doublequote
 i
 +
@@ -1552,6 +1552,8 @@ all
 backslashes
 preceding
 the
+/
+/
 doublequote
 for
 (
@@ -2205,6 +2207,8 @@ the
 CRT
 makes
 a
+/
+/
 copy
 )
 _putenv

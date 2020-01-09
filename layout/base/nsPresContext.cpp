@@ -1294,6 +1294,8 @@ the
 first
 ResizeReflow
 always
+/
+/
 fires
 mLastResizeEventVisibleArea
 (
@@ -3783,9 +3785,9 @@ there
 '
 s
 a
+/
+/
 deferred
-/
-/
 resize
 which
 hasn
@@ -5850,6 +5852,8 @@ than
 a
 true
 language
+/
+/
 code
 /
 /
@@ -6293,6 +6297,8 @@ maybe
 caching
 the
 root
+/
+/
 prescontext
 nsRootPresContext
 *
@@ -13924,9 +13930,9 @@ way
 to
 get
 the
+/
+/
 right
-/
-/
 answer
 .
 rect
@@ -17315,10 +17321,10 @@ the
 next
 compositing
 paint
+/
+/
 in
 this
-/
-/
 presContext
 (
 either

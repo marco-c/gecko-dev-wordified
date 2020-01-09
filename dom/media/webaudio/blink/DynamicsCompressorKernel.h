@@ -599,6 +599,8 @@ above
 m_kneeThresholdDb
 (
 see
+/
+/
 below
 )
 .
@@ -650,6 +652,8 @@ before
 we
 enter
 the
+/
+/
 "
 ratio
 "
@@ -658,8 +662,6 @@ of
 the
 curve
 .
-/
-/
 m_kneeThresholdDb
 =
 m_dbThreshold
@@ -679,12 +681,12 @@ the
 soft
 knee
 "
+/
+/
 portion
 of
 the
 curve
-/
-/
 which
 transitions
 smoothly
@@ -693,6 +695,8 @@ the
 linear
 portion
 to
+/
+/
 the
 ratio
 portion

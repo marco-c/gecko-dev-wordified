@@ -162,11 +162,12 @@ define
 NS_ISTYLESHEETLINKINGELEMENT_IID
 \
 {
+\
 0xa8b79f3b
 0x9d18
 0x4f9c
-\
 {
+\
 0xb1
 0xaa
 0x8c
@@ -175,7 +176,9 @@ NS_ISTYLESHEETLINKINGELEMENT_IID
 0xaa
 0xac
 0xad
+\
 }
+\
 }
 class
 nsIStyleSheetLinkingElement

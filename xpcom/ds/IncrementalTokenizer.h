@@ -218,8 +218,8 @@ valid
 until
 next
 call
-to
 *
+to
 Feed
 /
 FinishInput
@@ -233,9 +233,9 @@ linear
 buffer
 .
 Hence
+*
 those
 can
-*
 be
 safely
 used
@@ -246,10 +246,10 @@ data
 for
 processing
 after
+*
 Feed
 /
 FinishInput
-*
 returned
 .
 *
@@ -302,8 +302,8 @@ consumes
 the
 tokens
 as
-they
 *
+they
 come
 when
 the
@@ -327,8 +327,8 @@ but
 there
 was
 no
-custom
 *
+custom
 token
 found
 so
@@ -340,8 +340,8 @@ small
 incremental
 feed
 chunks
-deliver
 *
+deliver
 the
 raw
 data
@@ -355,9 +355,9 @@ memory
 .
 This
 only
+*
 has
 effect
-*
 in
 OnlyCustomTokenizing
 mode
@@ -405,8 +405,8 @@ directly
 call
 the
 Consumer
-callback
 *
+callback
 on
 every
 found
@@ -419,6 +419,7 @@ Consumer
 callback
 is
 returned
+*
 here
 .
 *
@@ -452,8 +453,8 @@ FinishInput
 from
 inside
 the
-Consumer
 *
+Consumer
 callback
 .
 *
@@ -751,6 +752,8 @@ and
 calls
 the
 Consumer
+/
+/
 callback
 .
 nsresult
@@ -795,9 +798,9 @@ the
 parser
 to
 break
+/
+/
 rollback
-/
-/
 and
 wait
 for
@@ -820,9 +823,9 @@ the
 parser
 to
 rollback
+/
+/
 and
-/
-/
 parse
 the
 input
@@ -836,6 +839,8 @@ new
 settings
 of
 the
+/
+/
 tokenizer
 .
 bool
@@ -875,9 +880,9 @@ don
 '
 t
 keep
+/
+/
 direct
-/
-/
 reference
 to
 the
@@ -888,6 +893,8 @@ the
 buffer
 gets
 often
+/
+/
 reallocated
 .
 nsCString
@@ -912,6 +919,7 @@ mConsumer
 }
 /
 /
+namespace
 mozilla
 #
 endif

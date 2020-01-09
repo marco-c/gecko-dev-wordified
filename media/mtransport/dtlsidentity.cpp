@@ -1260,5 +1260,5 @@ NS_OK
 }
 /
 /
-close
 namespace
+mozilla

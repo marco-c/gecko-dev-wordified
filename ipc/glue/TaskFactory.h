@@ -148,6 +148,7 @@ on
 the
 ScopedRunnableMethodFactory
 from
+*
 ipc
 /
 chromium
@@ -159,7 +160,6 @@ base
 task
 .
 h
-*
 Chromium
 '
 s
@@ -169,12 +169,12 @@ if
 tasks
 are
 created
+*
 and
 run
 on
 different
 threads
-*
 which
 is
 something
@@ -183,6 +183,7 @@ need
 to
 do
 in
+*
 PluginModuleParent
 (
 hang
@@ -193,10 +194,10 @@ main
 thread
 )
 .
-*
 TaskFactory
 just
 provides
+*
 cancellable
 tasks
 that
@@ -206,12 +207,12 @@ t
 assert
 this
 .
-*
 This
 version
 also
 allows
 both
+*
 ScopedMethod
 and
 regular
@@ -219,7 +220,6 @@ Tasks
 to
 be
 generated
-*
 by
 the
 same

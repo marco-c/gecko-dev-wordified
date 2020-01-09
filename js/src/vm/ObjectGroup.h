@@ -1672,6 +1672,8 @@ the
 addendum
 stores
 a
+/
+/
 PreliminaryObjectArrayWithTemplate
 .
 Addendum_PreliminaryObjects
@@ -2661,8 +2663,8 @@ call
 this
 for
 properties
-which
 *
+which
 a
 script
 accesses
@@ -3352,6 +3354,8 @@ for
 ObjectGroupRealm
 ArrayObjectTable
 and
+/
+/
 PlainObjectTable
 .
 enum
@@ -3581,6 +3585,8 @@ created
 for
 an
 allocation
+/
+/
 site
 .
 static

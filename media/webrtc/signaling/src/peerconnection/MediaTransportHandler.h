@@ -232,6 +232,10 @@ RTCStatsReportInternal
 }
 /
 /
+namespace
+dom
+/
+/
 Base
 -
 class
@@ -1177,6 +1181,10 @@ false
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

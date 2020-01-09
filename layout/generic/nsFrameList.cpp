@@ -2113,6 +2113,8 @@ need
 to
 consider
 bidi
+/
+/
 reordering
 if
 (
@@ -2170,6 +2172,8 @@ on
 block
 and
 frame
+/
+/
 direction
 .
 if
@@ -2230,9 +2234,9 @@ to
 find
 the
 previous
+/
+/
 visual
-/
-/
 sibling
 on
 this
@@ -2548,6 +2552,8 @@ need
 to
 consider
 bidi
+/
+/
 reordering
 if
 (
@@ -2605,6 +2611,8 @@ on
 block
 and
 frame
+/
+/
 direction
 .
 if

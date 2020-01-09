@@ -10714,9 +10714,9 @@ code
 will
 not
 produce
+/
+/
 unaligned
-/
-/
 memory
 access
 so
@@ -10727,10 +10727,10 @@ for
 address
 alignment
 and
+/
+/
 trap
 .
-/
-/
 Note
 that
 trapping
@@ -10742,10 +10742,10 @@ executing
 wasm
 code
 which
+/
+/
 requires
 that
-/
-/
 unaligned
 memory
 access
@@ -11944,6 +11944,8 @@ interrupt
 should
 reset
 this
+/
+/
 value
 to
 false
@@ -12023,10 +12025,10 @@ architecture
 is
 to
 just
+/
+/
 return
 0
-/
-/
 but
 there
 is
@@ -12040,6 +12042,8 @@ It
 is
 certainly
 an
+/
+/
 indicator
 of
 a
@@ -17658,6 +17662,8 @@ word
 round
 half
 to
+/
+/
 even
 )
 .
@@ -17829,6 +17835,8 @@ to
 word
 towards
 negative
+/
+/
 infinity
 .
 float
@@ -17890,6 +17898,8 @@ to
 word
 towards
 positive
+/
+/
 infinity
 .
 float
@@ -17982,6 +17992,8 @@ equal
 to
 float
 branch
+/
+/
 instructions
 cc
 =
@@ -18533,6 +18545,8 @@ word
 round
 half
 to
+/
+/
 even
 )
 .
@@ -18645,6 +18659,8 @@ word
 (
 round
 towards
+/
+/
 0
 )
 .
@@ -18704,6 +18720,8 @@ to
 word
 towards
 negative
+/
+/
 infinity
 .
 double
@@ -18765,6 +18783,8 @@ to
 word
 towards
 positive
+/
+/
 infinity
 .
 double
@@ -18881,6 +18901,8 @@ equal
 to
 float
 branch
+/
+/
 instructions
 cc
 =
@@ -20026,9 +20048,9 @@ the
 destination
 register
 in
+/
+/
 common
-/
-/
 cases
 .
 default
@@ -20660,11 +20682,11 @@ always
 0
 so
 we
+/
+/
 don
 '
 t
-/
-/
 need
 to
 replace

@@ -1925,11 +1925,12 @@ define
 NS_INODE_IID
 \
 {
+\
 0x70ba4547
 0x7699
 0x44fc
-\
 {
+\
 0xb3
 0x20
 0x52
@@ -1938,7 +1939,9 @@ NS_INODE_IID
 0xd1
 0xf9
 0x0a
+\
 }
+\
 }
 /
 *
@@ -3132,9 +3135,9 @@ Concrete
 specializations
 for
 memory
+*
 reporting
 .
-*
 Specializations
 are
 defined
@@ -12671,7 +12674,6 @@ GetOn
 name_
 (
 )
-\
 {
 \
 return
@@ -12705,7 +12707,6 @@ EventHandlerNonNull
 *
 handler
 )
-\
 {
 \
 SetEventHandler
@@ -13197,7 +13198,6 @@ _class
 aNode
 )
 )
-\
 {
 \
 return
@@ -13238,7 +13238,6 @@ T
 *
 aNode
 )
-\
 {
 \
 return
@@ -13268,7 +13267,6 @@ T
 *
 aNode
 )
-\
 {
 \
 return
@@ -13322,7 +13320,6 @@ T
 &
 aNode
 )
-\
 {
 \
 /
@@ -13377,7 +13374,6 @@ aNode
 -
 >
 _check
-\
 ?
 static_cast
 <
@@ -13417,7 +13413,6 @@ T
 &
 aNode
 )
-\
 {
 \
 return

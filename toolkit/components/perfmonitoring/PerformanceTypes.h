@@ -125,6 +125,10 @@ PerformanceInfoDictionary
 ;
 }
 /
+/
+namespace
+dom
+/
 *
 *
 *

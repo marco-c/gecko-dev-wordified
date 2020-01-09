@@ -352,5 +352,5 @@ packet
 }
 /
 /
-close
 namespace
+mozilla

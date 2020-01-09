@@ -729,6 +729,7 @@ when
 the
 compositor
 has
+*
 received
 the
 transaction
@@ -1298,9 +1299,9 @@ message
 when
 the
 layer
+/
+/
 transaction
-/
-/
 is
 received
 bool

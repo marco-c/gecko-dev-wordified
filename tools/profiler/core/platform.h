@@ -587,7 +587,6 @@ sparingly
 #
 define
 LOG_TEST
-\
 MOZ_LOG_TEST
 (
 gProfilerLog
@@ -670,7 +669,6 @@ LOG
 #
 define
 DEBUG_LOG_TEST
-\
 MOZ_LOG_TEST
 (
 gProfilerLog

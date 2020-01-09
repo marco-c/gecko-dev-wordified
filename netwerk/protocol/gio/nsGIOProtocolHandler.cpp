@@ -2322,8 +2322,8 @@ and
 according
 to
 file
-type
 *
+type
 create
 file
 output
@@ -2344,6 +2344,7 @@ opened
 successfully
 error
 code
+*
 otherwise
 *
 /
@@ -3868,6 +3869,7 @@ it
 tries
 to
 mount
+*
 it
 .
 *
@@ -6512,12 +6514,10 @@ e2ebfe213480
 /
 \
 0xee706783
-\
 0x3af8
-\
 0x4d19
-\
 {
+\
 0x9e
 0x84
 0xe2
@@ -6526,6 +6526,7 @@ e2ebfe213480
 0x21
 0x34
 0x80
+\
 }
 \
 }

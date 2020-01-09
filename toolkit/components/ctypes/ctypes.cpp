@@ -177,7 +177,6 @@ h
 #
 define
 JSCTYPES_CONTRACTID
-\
 "
 mozilla
 .
@@ -192,10 +191,12 @@ define
 JSCTYPES_CID
 \
 {
+\
 0xc797702
 0x1c60
 0x4051
 {
+\
 0x9d
 0xd7
 0x4d
@@ -204,7 +205,9 @@ JSCTYPES_CID
 0x60
 0x56
 0x42
+\
 }
+\
 }
 namespace
 mozilla

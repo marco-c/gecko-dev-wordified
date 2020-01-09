@@ -2425,6 +2425,9 @@ branchOff
 }
 ;
 }
+/
+/
+namespace
 BEGIN_TEST
 (
 testAssemblerBuffer_AssemblerBufferWithConstantPools
@@ -4207,6 +4210,8 @@ but
 it
 is
 inevitable
+/
+/
 now
 :
 /

@@ -231,6 +231,12 @@ using
 base_type
 :
 :
+Clear
+;
+using
+base_type
+:
+:
 end
 ;
 using
@@ -238,12 +244,6 @@ base_type
 :
 :
 IsEmpty
-;
-using
-base_type
-:
-:
-Clear
 ;
 using
 base_type

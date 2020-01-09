@@ -623,3 +623,7 @@ ret
 ;
 }
 }
+/
+/
+namespace
+mozilla

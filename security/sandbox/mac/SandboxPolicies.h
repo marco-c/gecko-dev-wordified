@@ -8012,6 +8012,10 @@ SANDBOX_LITERAL
 "
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

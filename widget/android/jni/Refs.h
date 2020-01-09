@@ -2640,6 +2640,7 @@ C
 /
 /
 namespace
+detail
 template
 <
 class
@@ -6122,7 +6123,6 @@ ArrayRefBase
 JNIType
 ElementType
 >
-\
 {
 \
 public
@@ -6146,7 +6146,6 @@ ElementType
 (
 ctx
 )
-\
 {
 }
 \

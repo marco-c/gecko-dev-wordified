@@ -417,6 +417,7 @@ DIRECTION_FROM_LEVEL
 (
 level
 )
+\
 (
 (
 IS_LEVEL_RTL
@@ -424,7 +425,6 @@ IS_LEVEL_RTL
 level
 )
 )
-\
 ?
 NSBIDI_RTL
 :
@@ -449,6 +449,7 @@ CHARTYPE_IS_RTL
 (
 val
 )
+\
 (
 (
 (
@@ -475,6 +476,7 @@ CHARTYPE_IS_WEAK
 (
 val
 )
+\
 (
 (
 (
@@ -484,9 +486,9 @@ val
 =
 eCharType_EuropeanNumberSeparator
 )
+|
+|
 \
-|
-|
 (
 (
 val
@@ -495,9 +497,9 @@ val
 =
 eCharType_EuropeanNumberTerminator
 )
+|
+|
 \
-|
-|
 (
 (
 (
@@ -508,6 +510,7 @@ eCharType_ArabicNumber
 )
 &
 &
+\
 (
 (
 val
@@ -1436,7 +1439,6 @@ IBMBIDI_TEXTDIRECTION_LTR
 0
 )
 |
-\
 (
 IBMBIDI_TEXTTYPE_CHARSET
 <
@@ -1458,6 +1460,7 @@ GET_BIDI_OPTION_DIRECTION
 (
 bo
 )
+\
 (
 (
 (
@@ -1484,6 +1487,7 @@ GET_BIDI_OPTION_TEXTTYPE
 (
 bo
 )
+\
 (
 (
 (
@@ -1510,6 +1514,7 @@ GET_BIDI_OPTION_NUMERAL
 (
 bo
 )
+\
 (
 (
 (
@@ -1537,6 +1542,7 @@ SET_BIDI_OPTION_DIRECTION
 bo
 dir
 )
+\
 {
 (
 bo
@@ -1571,6 +1577,7 @@ SET_BIDI_OPTION_TEXTTYPE
 bo
 tt
 )
+\
 {
 (
 bo
@@ -1605,6 +1612,7 @@ SET_BIDI_OPTION_NUMERAL
 bo
 num
 )
+\
 {
 (
 bo
@@ -1676,6 +1684,7 @@ IS_HINDI_DIGIT
 (
 u
 )
+\
 (
 (
 (
@@ -1702,6 +1711,7 @@ IS_ARABIC_DIGIT
 (
 u
 )
+\
 (
 (
 (
@@ -1728,6 +1738,7 @@ IS_FARSI_DIGIT
 (
 u
 )
+\
 (
 (
 (
@@ -1833,6 +1844,7 @@ IS_ARABIC_SEPARATOR
 (
 u
 )
+\
 (
 (
 /
@@ -1856,7 +1868,6 @@ u
 )
 |
 |
-\
 (
 (
 u
@@ -1891,8 +1902,8 @@ IS_BIDI_DIACRITIC
 (
 u
 )
-(
 \
+(
 (
 (
 u
@@ -1927,9 +1938,9 @@ u
 =
 0x05B9
 )
+|
+|
 \
-|
-|
 (
 (
 u
@@ -1966,9 +1977,9 @@ u
 =
 0x05C1
 )
+|
+|
 \
-|
-|
 (
 (
 u
@@ -1987,7 +1998,6 @@ u
 =
 0x05C4
 )
-\
 |
 |
 (
@@ -2008,6 +2018,7 @@ u
 )
 |
 |
+\
 (
 (
 u
@@ -2016,7 +2027,6 @@ u
 =
 0x0670
 )
-\
 |
 |
 (
@@ -2047,6 +2057,7 @@ u
 )
 |
 |
+\
 (
 (
 u
@@ -2055,7 +2066,6 @@ u
 =
 0x06E8
 )
-\
 |
 |
 (
@@ -2081,6 +2091,7 @@ IS_HEBREW_CHAR
 (
 c
 )
+\
 (
 (
 (
@@ -2131,6 +2142,7 @@ IS_ARABIC_CHAR
 (
 c
 )
+\
 (
 (
 0x0600
@@ -2160,7 +2172,6 @@ c
 0x06ff
 |
 |
-\
 (
 (
 c
@@ -2179,7 +2190,6 @@ c
 )
 |
 |
-\
 (
 c
 )
@@ -2194,6 +2204,7 @@ IS_ARABIC_ALPHABETIC
 (
 c
 )
+\
 (
 IS_ARABIC_CHAR
 (
@@ -2337,6 +2348,7 @@ IS_RTL_PRESENTATION_FORM
 (
 c
 )
+\
 (
 (
 (
@@ -2360,7 +2372,6 @@ c
 )
 |
 |
-\
 (
 (
 0xfe70
@@ -2388,6 +2399,7 @@ IS_IN_SMP_RTL_BLOCK
 (
 c
 )
+\
 (
 (
 (
@@ -2527,6 +2539,7 @@ UTF16_CODE_UNIT_IS_BIDI
 (
 c
 )
+\
 (
 (
 IS_IN_BMP_RTL_BLOCK
@@ -2536,7 +2549,6 @@ c
 )
 |
 |
-\
 (
 IS_RTL_PRESENTATION_FORM
 (
@@ -2562,7 +2574,6 @@ c
 0xD803
 |
 |
-\
 (
 c
 )
@@ -2584,6 +2595,7 @@ UTF32_CHAR_IS_BIDI
 (
 c
 )
+\
 (
 (
 IS_IN_BMP_RTL_BLOCK
@@ -2593,7 +2605,6 @@ c
 )
 |
 |
-\
 (
 IS_RTL_PRESENTATION_FORM
 (

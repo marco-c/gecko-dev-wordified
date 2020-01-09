@@ -757,4 +757,12 @@ NS_ERROR_FAILURE
 #
 endif
 }
+/
+/
+namespace
+widget
 }
+/
+/
+namespace
+mozilla

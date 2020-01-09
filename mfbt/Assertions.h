@@ -335,6 +335,7 @@ MOZ_CRASH_ANNOTATE
 .
 .
 )
+\
 do
 {
 /
@@ -342,6 +343,7 @@ do
 nothing
 *
 /
+\
 }
 while
 (
@@ -887,6 +889,7 @@ char
 MOZ_STATIC_ASSERT_GLUE
 (
 moz_static_assert
+\
 __LINE__
 )
 [
@@ -1098,7 +1101,9 @@ typedef
 int
 MOZ_STATIC_ASSERT_GLUE
 (
+\
 moz_static_assert
+\
 __COUNTER__
 )
 [
@@ -1130,6 +1135,7 @@ moz_static_assert
 __LINE__
 )
 (
+\
 int
 arg
 [
@@ -1154,6 +1160,7 @@ cond
 expr
 reason
 )
+\
 MOZ_STATIC_ASSERT
 (
 !
@@ -1177,6 +1184,7 @@ cond
 expr
 reason
 )
+\
 static_assert
 (
 !
@@ -2668,7 +2676,6 @@ do
 \
 static_assert
 (
-\
 MOZ_ARG_COUNT
 (
 __VA_ARGS__
@@ -2700,7 +2707,6 @@ instead
 \
 static_assert
 (
-\
 MOZ_ARG_COUNT
 (
 __VA_ARGS__
@@ -3498,6 +3504,7 @@ MOZ_REPORT_ASSERTION_FAILURE
 .
 .
 )
+\
 MOZ_ReportAssertionFailure
 (
 __VA_ARGS__
@@ -3512,6 +3519,7 @@ MOZ_REPORT_ASSERTION_FAILURE
 .
 .
 )
+\
 do
 {
 /
@@ -3519,6 +3527,7 @@ do
 nothing
 *
 /
+\
 }
 while
 (
@@ -3655,6 +3664,7 @@ explain
 )
 "
 __FILE__
+\
 __LINE__
 )
 ;
@@ -3747,8 +3757,10 @@ MOZ_ASSERT
 .
 .
 )
+\
 do
 {
+\
 }
 while
 (
@@ -3912,8 +3924,10 @@ MOZ_ASSERT_IF
 cond
 expr
 )
+\
 do
 {
+\
 }
 while
 (
@@ -4655,6 +4669,7 @@ MOZ_FALLTHROUGH_ASSERT
 .
 .
 )
+\
 MOZ_CRASH
 (
 "

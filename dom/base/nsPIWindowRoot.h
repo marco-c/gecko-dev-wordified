@@ -174,11 +174,12 @@ define
 NS_IWINDOWROOT_IID
 \
 {
+\
 0xb8724c49
 0xc398
 0x4f9b
-\
 {
+\
 0x82
 0x59
 0x87
@@ -187,7 +188,9 @@ NS_IWINDOWROOT_IID
 0x47
 0xdd
 0x0f
+\
 }
+\
 }
 class
 nsPIWindowRoot

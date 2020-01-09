@@ -574,6 +574,7 @@ LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 gOfflineCacheUpdateLog
@@ -594,6 +595,7 @@ define
 LOG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 gOfflineCacheUpdateLog
@@ -2195,6 +2197,8 @@ ScheduleOnDocumentStop
 [
 %
 p
+"
+"
 manifestURI
 =
 %

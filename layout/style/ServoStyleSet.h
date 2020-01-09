@@ -883,6 +883,8 @@ mozText
 )
 as
 its
+/
+/
 pseudo
 .
 /
@@ -1119,9 +1121,9 @@ we
 shouldn
 '
 t
+/
+/
 even
-/
-/
 create
 ComputedStyle
 for
@@ -2069,6 +2071,7 @@ s
 compatibility
 mode
 has
+*
 changed
 .
 *

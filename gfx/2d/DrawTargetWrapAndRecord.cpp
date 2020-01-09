@@ -1155,9 +1155,11 @@ RecordEvent
 (
 RecordedFilterNodeSetAttribute
 (
+\
 this
 aIndex
 aValue
+\
 RecordedFilterNodeSetAttribute
 :
 :
@@ -2350,9 +2352,9 @@ try
 to
 load
 it
+/
+/
 from
-/
-/
 the
 system
 on
@@ -2398,6 +2400,8 @@ DrawTargetWrapAndRecord
 FillGlyphs
 failed
 to
+"
+"
 serialise
 UnscaledFont
 "

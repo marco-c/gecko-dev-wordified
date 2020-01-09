@@ -163,6 +163,7 @@ XML
 (
 X
 )
+\
 TEXTW
 (
 #
@@ -2330,6 +2331,8 @@ a
 width
 x
 1
+/
+/
 texture
 .
 props
@@ -2464,4 +2467,12 @@ forget
 ;
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

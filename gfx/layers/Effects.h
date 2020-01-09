@@ -368,8 +368,8 @@ the
 texture
 '
 memory
-should
 *
+should
 be
 interpreted
 (
@@ -385,6 +385,7 @@ any
 number
 of
 secondary
+*
 effects
 *
 -

@@ -460,7 +460,6 @@ printf
 \
 n
 "
-\
 #
 featurelc_
 \
@@ -471,7 +470,6 @@ featureuc_
 #
 #
 _STRING
-\
 COMPILE_
 #
 #

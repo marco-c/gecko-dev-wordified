@@ -1128,11 +1128,11 @@ href
 attribute
 or
 unset
+/
+/
 xlink
 :
 href
-/
-/
 but
 still
 have
@@ -1143,6 +1143,8 @@ keep
 the
 target
 linking
+/
+/
 to
 href
 .

@@ -1246,6 +1246,8 @@ with
 at
 least
 N
+"
+"
 instances
 tenured
 .
@@ -2462,12 +2464,12 @@ assuming
 that
 it
 costs
+/
+/
 just
 as
 much
 to
-/
-/
 count
 it
 as
@@ -2481,6 +2483,8 @@ state
 and
 decide
 not
+/
+/
 to
 count
 it
@@ -4168,7 +4172,6 @@ PRINT_HEADER
 name
 text
 )
-\
 fprintf
 (
 stderr

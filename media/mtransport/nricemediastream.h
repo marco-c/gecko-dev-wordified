@@ -1418,7 +1418,7 @@ id_
 }
 /
 /
-close
 namespace
+mozilla
 #
 endif

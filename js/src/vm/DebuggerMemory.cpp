@@ -868,7 +868,6 @@ if
 !
 memory
 )
-\
 return
 false
 static
@@ -2523,7 +2522,7 @@ JS
 ubi
 :
 :
-CountTypePtr
+CountBasePtr
 ;
 using
 JS
@@ -2532,7 +2531,7 @@ JS
 ubi
 :
 :
-CountBasePtr
+CountTypePtr
 ;
 /
 /

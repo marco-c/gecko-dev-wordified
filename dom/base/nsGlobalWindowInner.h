@@ -2556,14 +2556,12 @@ get
 the
 scriptable
 top
+/
+/
 inner
 window
-/
-/
 automatically
 .
-/
-/
 Inner
 windows
 only
@@ -3244,7 +3242,6 @@ GetOn
 name_
 (
 )
-\
 {
 \
 mozilla
@@ -3297,7 +3294,6 @@ EventHandlerNonNull
 *
 handler
 )
-\
 {
 \
 mozilla
@@ -3361,7 +3357,6 @@ GetOn
 name_
 (
 )
-\
 {
 \
 mozilla
@@ -3407,7 +3402,6 @@ OnErrorEventHandlerNonNull
 *
 handler
 )
-\
 {
 \
 mozilla
@@ -3464,7 +3458,6 @@ GetOn
 name_
 (
 )
-\
 {
 \
 mozilla
@@ -3500,6 +3493,7 @@ SetOn
 #
 name_
 (
+\
 mozilla
 :
 :
@@ -3510,7 +3504,6 @@ OnBeforeUnloadEventHandlerNonNull
 *
 handler
 )
-\
 {
 \
 mozilla
@@ -8949,6 +8942,8 @@ Telemetry
 measures
 such
 as
+/
+/
 SLOW_SCRIPT_PAGE_COUNT
 .
 bool

@@ -180,6 +180,10 @@ class
 AutoIPCStream
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 dom
 {

@@ -482,7 +482,6 @@ do_GetMainThread
 \
 NS_WARNING_ASSERTION
 (
-\
 threadOpenedOn
 =
 =
@@ -504,6 +503,9 @@ main
 -
 thread
 but
+"
+\
+"
 the
 connection
 was
@@ -531,6 +533,7 @@ define
 CHECK_MAINTHREAD_ABUSE
 (
 )
+\
 do
 {
 /
@@ -538,6 +541,7 @@ do
 Nothing
 *
 /
+\
 }
 while
 (
@@ -5340,9 +5344,9 @@ correct
 db
 '
 s
+/
+/
 sqlite_master
-/
-/
 if
 the
 user
@@ -5357,6 +5361,8 @@ db
 .
 ex
 :
+/
+/
 sample
 .
 test
@@ -5462,6 +5468,8 @@ sqlite_temp_master
 WHERE
 type
 =
+"
+"
 '
 "
 )
@@ -5924,9 +5932,9 @@ the
 connection
 otherwise
 the
+/
+/
 other
-/
-/
 functions
 in
 the
@@ -5940,6 +5948,8 @@ connection
 after
 it
 is
+/
+/
 closed
 .
 mDBConn
@@ -6508,6 +6518,8 @@ been
 finalized
 before
 closing
+"
+"
 the
 connection
 "
@@ -6604,9 +6616,9 @@ properly
 whether
 closing
 has
+/
+/
 succeeded
-/
-/
 or
 not
 .
@@ -6691,6 +6703,8 @@ connection
 because
 not
 all
+"
+"
 the
 statements
 have
@@ -6729,6 +6743,8 @@ There
 are
 probably
 outstanding
+"
+"
 statements
 that
 are
@@ -7860,10 +7876,10 @@ be
 on
 the
 opener
+/
+/
 thread
 .
-/
-/
 We
 make
 this
@@ -7875,11 +7891,11 @@ code
 below
 in
 setClosedState
+/
+/
 but
 this
 is
-/
-/
 here
 to
 be
@@ -8017,6 +8033,8 @@ connection
 that
 executed
 asynchronous
+"
+"
 statements
 .
 "

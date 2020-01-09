@@ -1251,10 +1251,10 @@ attribute
 "
 has
 no
+/
+/
 effect
 if
-/
-/
 attribute
 viewBox
 is
@@ -1268,9 +1268,9 @@ to
 include
 a
 bbox
+/
+/
 scale
-/
-/
 if
 the
 viewBox
@@ -1298,6 +1298,8 @@ is
 relative
 to
 the
+/
+/
 bbox
 static
 bool

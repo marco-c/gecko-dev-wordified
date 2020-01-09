@@ -867,10 +867,10 @@ NS_ERROR_FAILURE
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

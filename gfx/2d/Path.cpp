@@ -1980,6 +1980,8 @@ n
 /
 n
 =
+/
+/
 cp41
 .
 x
@@ -3951,6 +3953,8 @@ the
 curve
 between
 t1max
+/
+/
 and
 t2min
 .

@@ -439,6 +439,8 @@ to
 decode
 all
 loaded
+/
+/
 bytes
 .
 rv
@@ -1687,6 +1689,8 @@ to
 decode
 SRI
 restart
+"
+"
 request
 "
 )
@@ -2747,10 +2751,10 @@ LOG
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

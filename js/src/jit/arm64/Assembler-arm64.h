@@ -1145,11 +1145,11 @@ use
 it
 as
 such
+/
+/
 because
 we
 never
-/
-/
 use
 return
 -
@@ -1335,6 +1335,8 @@ any
 of
 the
 alignments
+"
+"
 which
 are
 used
@@ -1353,6 +1355,8 @@ Thus
 it
 should
 be
+"
+"
 larger
 than
 the
@@ -1391,6 +1395,8 @@ conversions
 between
 Uint32x4
 and
+/
+/
 Float32x4
 ?
 static
@@ -1512,6 +1518,8 @@ first
 entry
 in
 the
+/
+/
 table
 .
 BufferOffset

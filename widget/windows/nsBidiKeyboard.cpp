@@ -322,6 +322,8 @@ default
 language
 for
 that
+/
+/
 direction
 if
 (
@@ -494,6 +496,8 @@ list
 and
 mRTLKeyboard
 to
+/
+/
 the
 first
 RTL
@@ -501,8 +505,6 @@ keyboard
 in
 the
 list
-/
-/
 These
 defaults
 will
@@ -510,6 +512,8 @@ be
 used
 unless
 the
+/
+/
 user
 explicitly
 sets
@@ -574,6 +578,8 @@ returns
 the
 number
 of
+/
+/
 keyboard
 layouts
 available
@@ -1036,6 +1042,8 @@ LOCALESIGNATURE
 /
 /
 See
+/
+/
 http
 :
 /

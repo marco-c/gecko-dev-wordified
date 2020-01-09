@@ -1019,7 +1019,7 @@ aWriteCount
 }
 /
 /
-anonymous
+namespace
 NS_IMETHODIMP
 NonBlockingAsyncInputStream
 :
@@ -1699,5 +1699,5 @@ this
 }
 /
 /
-mozilla
 namespace
+mozilla

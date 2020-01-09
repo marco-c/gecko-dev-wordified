@@ -1572,9 +1572,9 @@ dev
 pixels
 ratio
 which
+/
+/
 some
-/
-/
 structs
 (
 Border
@@ -1587,9 +1587,9 @@ clamping
 .
 We
 should
+/
+/
 arguably
-/
-/
 not
 do
 that
@@ -1603,10 +1603,10 @@ to
 try
 to
 avoid
+/
+/
 relying
 on
-/
-/
 the
 pres
 context

@@ -246,6 +246,7 @@ InitThreading
 /
 /
 namespace
+base
 #
 endif
 static

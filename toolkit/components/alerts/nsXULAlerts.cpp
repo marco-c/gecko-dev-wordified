@@ -331,6 +331,8 @@ is
 associated
 with
 this
+/
+/
 listener
 .
 if
@@ -1291,6 +1293,8 @@ can
 store
 in
 our
+/
+/
 nsIMutableArray
 .
 .
@@ -1703,10 +1707,10 @@ alert
 in
 the
 same
+/
+/
 position
 .
-/
-/
 Provide
 the
 new
@@ -1718,11 +1722,11 @@ pointer
 to
 the
 replaced
+/
+/
 window
 so
 that
-/
-/
 it
 may
 take

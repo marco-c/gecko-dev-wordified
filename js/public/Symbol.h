@@ -262,9 +262,9 @@ Runtime
 -
 wide
 symbol
+*
 registry
 .
-*
 If
 there
 is
@@ -277,10 +277,10 @@ that
 description
 in
 the
+*
 registry
 a
 new
-*
 Symbol
 is
 created
@@ -508,6 +508,8 @@ Symbol
 WellKnownAPILimit
 for
 inline
+/
+/
 use
 InSymbolRegistry
 =

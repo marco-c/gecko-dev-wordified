@@ -356,6 +356,12 @@ using
 std
 :
 :
+hex
+;
+using
+std
+:
+:
 ios
 ;
 using
@@ -363,12 +369,6 @@ std
 :
 :
 ios_base
-;
-using
-std
-:
-:
-hex
 ;
 using
 std
@@ -3086,6 +3086,8 @@ will
 convert
 to
 UTF8
+/
+/
 directly
 .
 extern

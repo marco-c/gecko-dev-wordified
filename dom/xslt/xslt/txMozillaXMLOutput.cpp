@@ -420,7 +420,6 @@ if
 !
 mCurrentNode
 )
-\
 return
 NS_ERROR_UNEXPECTED
 txMozillaXMLOutput
@@ -1598,6 +1597,8 @@ implement
 nsIScriptElement
 and
 SVG
+"
+"
 wasn
 '
 t

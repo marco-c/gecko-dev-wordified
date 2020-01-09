@@ -741,6 +741,7 @@ if
 aShadowColor
 is
 not
+*
 null
 .
 *
@@ -1021,8 +1022,8 @@ that
 is
 dirty
 and
-needs
 *
+needs
 to
 be
 redrawn
@@ -1038,8 +1039,8 @@ pixels
 to
 avoid
 blurring
-over
 *
+over
 to
 prevent
 unnecessary

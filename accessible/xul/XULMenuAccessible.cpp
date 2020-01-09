@@ -2104,6 +2104,8 @@ when
 its
 popup
 is
+/
+/
 open
 .
 nsIContent

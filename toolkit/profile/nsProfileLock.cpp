@@ -2276,7 +2276,6 @@ sa_handler
 =
 SIG_IGN
 )
-\
 {
 \
 sigaction

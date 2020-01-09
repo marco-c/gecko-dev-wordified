@@ -1542,6 +1542,8 @@ Used
 when
 validating
 for
+/
+/
 CORS
 .
 nsCOMPtr

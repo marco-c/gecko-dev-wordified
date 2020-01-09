@@ -174,7 +174,7 @@ thread
 }
 /
 /
-anonymous
+namespace
 WorkerHolder
 :
 :
@@ -378,10 +378,10 @@ nullptr
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

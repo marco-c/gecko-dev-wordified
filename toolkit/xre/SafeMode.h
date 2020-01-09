@@ -381,9 +381,9 @@ a
 short
 and
 the
+/
+/
 high
-/
-/
 order
 bit
 will
@@ -399,9 +399,9 @@ By
 masking
 the
 returned
+/
+/
 short
-/
-/
 with
 0x8000
 the
@@ -416,11 +416,11 @@ is
 not
 pressed
 and
+/
+/
 non
 -
 zero
-/
-/
 otherwise
 .
 if

@@ -545,8 +545,8 @@ validity
 state
 or
 status
-regarding
 *
+regarding
 constraint
 validation
 changes

@@ -1002,4 +1002,12 @@ void
 {
 }
 }
+/
+/
+namespace
+VectorImpl
 }
+/
+/
+namespace
+android

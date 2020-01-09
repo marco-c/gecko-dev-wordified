@@ -209,4 +209,12 @@ Bug
 1005167
 }
 }
+/
+/
+namespace
+plugins
 }
+/
+/
+namespace
+mozilla

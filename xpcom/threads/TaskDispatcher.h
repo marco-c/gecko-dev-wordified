@@ -314,6 +314,7 @@ below
 )
 .
 -
+*
 "
 state
 change
@@ -321,7 +322,6 @@ tasks
 "
 (
 which
-*
 run
 first
 and
@@ -332,13 +332,13 @@ be
 used
 to
 update
+*
 the
 value
 held
 by
 mirrors
 )
-*
 and
 regular
 tasks
@@ -346,12 +346,12 @@ which
 are
 other
 arbitrary
+*
 operations
 that
 the
 are
 gated
-*
 to
 run
 after
@@ -360,6 +360,7 @@ the
 state
 changes
 have
+*
 completed
 .
 *

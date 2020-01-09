@@ -686,6 +686,7 @@ directory
 '
 s
 include
+*
 paths
 .
 *
@@ -1992,10 +1993,10 @@ integer
 [
 Ee
 ]
+*
 integer
 )
 ?
-*
 Parsing
 fails
 if
@@ -2120,10 +2121,10 @@ integer
 [
 Ee
 ]
+*
 integer
 )
 ?
-*
 Parsing
 fails
 if
@@ -2135,8 +2136,8 @@ over
 after
 the
 number
-*
 or
+*
 the
 number
 cannot

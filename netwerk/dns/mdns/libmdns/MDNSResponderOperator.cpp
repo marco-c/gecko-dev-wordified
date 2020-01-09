@@ -283,6 +283,7 @@ LOG_I
 .
 .
 )
+\
 MOZ_LOG
 (
 mozilla
@@ -314,6 +315,7 @@ LOG_E
 .
 .
 )
+\
 MOZ_LOG
 (
 mozilla

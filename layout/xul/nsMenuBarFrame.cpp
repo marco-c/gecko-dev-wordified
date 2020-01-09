@@ -1204,6 +1204,8 @@ bar
 beep
 and
 deactivate
+/
+/
 the
 menu
 bar

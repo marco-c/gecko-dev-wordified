@@ -304,6 +304,7 @@ mozilla
 define
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_MAIN_THREAD_DESTRUCTION_AND_RECORDING
 (
+\
 _class
 _recording
 )
@@ -504,6 +505,7 @@ count
 \
 }
 \
+\
 protected
 :
 \
@@ -519,6 +521,7 @@ _recording
 mRefCnt
 ;
 \
+\
 private
 :
 \
@@ -531,8 +534,10 @@ layers
 :
 :
 HelperForMainThreadDestruction
+\
 mHelperForMainThreadDestruction
 ;
+\
 \
 public
 :
@@ -540,12 +545,13 @@ public
 define
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_MAIN_THREAD_DESTRUCTION
 (
+\
 _class
 )
 \
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_MAIN_THREAD_DESTRUCTION_AND_RECORDING
-\
 (
+\
 _class
 recordreplay
 :

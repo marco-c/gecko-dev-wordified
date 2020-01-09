@@ -5508,9 +5508,9 @@ started
 reading
 is
 not
+/
+/
 permitted
-/
-/
 right
 now
 .
@@ -5639,9 +5639,9 @@ started
 reading
 is
 not
+/
+/
 permitted
-/
-/
 right
 now
 .
@@ -6988,6 +6988,8 @@ nsILengthInutStream
 returns
 NS_BASE_STREAM_WOULD_BLOCK
 but
+"
+"
 it
 doesn
 '
@@ -7202,6 +7204,7 @@ else
 \
 MOZ_CRASH
 (
+\
 "
 A
 nsIInputStream
@@ -7212,6 +7215,9 @@ when
 stored
 in
 a
+"
+\
+"
 nsMultiplexInputStream
 !
 "

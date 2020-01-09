@@ -2418,6 +2418,8 @@ might
 be
 important
 for
+/
+/
 layout
 .
 if
@@ -2845,10 +2847,10 @@ its
 default
 value
 of
+/
+/
 eStyleUnit_None
 .
-/
-/
 Otherwise
 we
 use
@@ -2859,6 +2861,8 @@ width
 Height
 works
 the
+/
+/
 same
 way
 .
@@ -3857,12 +3861,12 @@ too
 #
 define
 BAD_STATES
+\
 (
 NS_EVENT_STATE_BROKEN
 |
 NS_EVENT_STATE_USERDISABLED
 |
-\
 NS_EVENT_STATE_LOADING
 )
 /
@@ -3924,6 +3928,7 @@ HasAtLeastOneOfStates
 (
 NS_EVENT_STATE_BROKEN
 |
+\
 NS_EVENT_STATE_USERDISABLED
 )
 &
@@ -6121,6 +6126,8 @@ starts
 if
 it
 is
+/
+/
 a
 continuation
 .
@@ -6762,6 +6769,8 @@ and
 have
 a
 height
+/
+/
 larger
 than
 our
@@ -9116,6 +9125,8 @@ the
 ImgDrawResult
 that
 PaintBorderWithStyleBorder
+/
+/
 returns
 .
 MOZ_ASSERT
@@ -12669,6 +12680,8 @@ we
 cannot
 be
 drawn
+/
+/
 selected
 /
 /

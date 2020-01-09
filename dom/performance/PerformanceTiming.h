@@ -635,12 +635,12 @@ mZeroTime
 is
 set
 to
+*
 "
 performance
 .
 navigationStart
 "
-*
 causing
 the
 result
@@ -1345,8 +1345,8 @@ performance
 timing
 "
 attribute
-for
 *
+for
 the
 navigation
 timing
@@ -1372,8 +1372,8 @@ the
 networking
 timings
 by
-both
 *
+both
 the
 navigation
 timing

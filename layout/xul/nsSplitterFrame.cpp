@@ -1273,6 +1273,7 @@ we
 know
 what
 direction
+*
 we
 are
 *
@@ -3913,10 +3914,10 @@ order
 needs
 to
 be
+/
+/
 reversed
 .
-/
-/
 First
 reverse
 both
@@ -4016,13 +4017,13 @@ the
 list
 because
 the
+/
+/
 first
 child
 in
 the
 list
-/
-/
 is
 the
 closest
@@ -4034,6 +4035,8 @@ child
 to
 be
 the
+/
+/
 Farthest
 .
 if
@@ -4067,6 +4070,8 @@ then
 no
 space
 should
+/
+/
 be
 taken
 out
@@ -4074,8 +4079,6 @@ of
 any
 children
 after
-/
-/
 us
 .
 To
@@ -4087,6 +4090,8 @@ set
 the
 size
 of
+/
+/
 that
 list
 to
@@ -5571,12 +5576,12 @@ size
 in
 pixels
 we
+*
 want
 it
 to
 be
 .
-*
 This
 is
 not
@@ -5590,6 +5595,7 @@ only
 way
 we
 can
+*
 change
 a
 child
@@ -5597,7 +5603,6 @@ is
 my
 manipulating
 its
-*
 preferred
 size
 .
@@ -5605,6 +5610,7 @@ So
 give
 the
 actual
+*
 pixel
 size
 this
@@ -5616,9 +5622,9 @@ figure
 out
 the
 preferred
-*
 size
 and
+*
 set
 it
 .
@@ -5675,6 +5681,8 @@ dif
 we
 were
 originally
+/
+/
 given
 aDiff
 -

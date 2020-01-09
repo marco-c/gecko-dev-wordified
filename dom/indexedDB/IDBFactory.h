@@ -267,6 +267,10 @@ class
 LoggingInfo
 ;
 }
+/
+/
+namespace
+indexedDB
 class
 IDBFactory
 final

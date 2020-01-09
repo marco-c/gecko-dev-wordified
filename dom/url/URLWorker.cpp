@@ -1236,9 +1236,9 @@ keys
 for
 each
 getter
+/
+/
 when
-/
-/
 needed
 .
 NS_LITERAL_CSTRING

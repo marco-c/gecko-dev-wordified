@@ -2671,4 +2671,12 @@ ReadUnlock
 ;
 }
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla

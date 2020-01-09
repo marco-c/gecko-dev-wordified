@@ -10345,6 +10345,7 @@ auto
 &
 codec
 :
+\
 copy
 .
 GetNegotiatedDetails
@@ -10460,6 +10461,7 @@ auto
 &
 codec
 :
+\
 copy
 .
 GetNegotiatedDetails
@@ -10519,6 +10521,8 @@ when
 using
 ASSERT_EQ
 with
+\
+*
 booleans
 .
 *

@@ -167,6 +167,10 @@ Element
 ;
 }
 }
+/
+/
+namespace
+mozilla
 class
 nsTreeUtils
 {

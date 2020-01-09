@@ -397,7 +397,6 @@ slot
 \
 static
 Value
-\
 cls
 #
 #
@@ -434,7 +433,6 @@ slot
 \
 static
 bool
-\
 cls
 #
 #
@@ -455,7 +453,6 @@ Value
 *
 vp
 )
-\
 {
 \
 return
@@ -491,7 +488,6 @@ name
 \
 JSAtom
 *
-\
 cls
 :
 :
@@ -499,7 +495,6 @@ name
 (
 )
 const
-\
 {
 \
 Value
@@ -545,7 +540,6 @@ name
 \
 JSAtom
 *
-\
 cls
 :
 :
@@ -553,7 +547,6 @@ name
 (
 )
 const
-\
 {
 \
 Value
@@ -582,7 +575,6 @@ isNull
 (
 )
 )
-\
 return
 nullptr
 ;
@@ -611,7 +603,6 @@ name
 )
 \
 uint32_t
-\
 cls
 :
 :
@@ -619,7 +610,6 @@ name
 (
 )
 const
-\
 {
 \
 Value
@@ -661,7 +651,6 @@ isInt32
 (
 )
 )
-\
 return
 value
 .
@@ -4900,7 +4889,6 @@ slot
 \
 ArrayObject
 &
-\
 cls
 :
 :
@@ -4908,7 +4896,6 @@ name
 (
 )
 const
-\
 {
 \
 return

@@ -488,10 +488,10 @@ other
 zero
 will
 be
+/
+/
 conjugate
 )
-/
-/
 and
 a
 single
@@ -531,10 +531,10 @@ other
 pole
 will
 be
+/
+/
 conjugate
 )
-/
-/
 (
 The
 zeroes

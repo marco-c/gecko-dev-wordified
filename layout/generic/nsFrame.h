@@ -312,6 +312,7 @@ NS_FRAME_LOG_TEST
 _lm
 _bit
 )
+\
 (
 int
 (
@@ -738,8 +739,8 @@ nsIPresShell
 *
 aShell
 )
-\
 {
+\
 return
 aShell
 -
@@ -756,8 +757,8 @@ _id
 sz
 )
 ;
-}
 \
+}
 #
 define
 NS_DECL_ABSTRACT_FRAME
@@ -4746,11 +4747,11 @@ currently
 only
 cell
 and
+/
+/
 table
 supported
 )
-/
-/
 (
 enums
 for
@@ -5574,6 +5575,7 @@ dr_pres_context
 dr_frame
 dr_rf_state
 dr_rf_metrics
+\
 dr_rf_status
 )
 \
@@ -5584,6 +5586,7 @@ dr_pres_context
 dr_frame
 dr_rf_state
 dr_rf_metrics
+\
 dr_rf_status
 )
 ;
@@ -5592,7 +5595,6 @@ define
 DISPLAY_REFLOW_CHANGE
 (
 )
-\
 dr_cookie
 .
 Change
@@ -5605,7 +5607,6 @@ DISPLAY_LAYOUT
 (
 dr_frame
 )
-\
 DR_layout_cookie
 dr_cookie
 (
@@ -5705,8 +5706,8 @@ dr_frame
 dr_state
 dr_cbw
 dr_cbh
-\
 dr_bdr
+\
 dr_pad
 )
 \
@@ -5741,8 +5742,8 @@ dr_frame
 dr_state
 dr_pb
 dr_cbwm
-\
 dr_bdr
+\
 dr_pad
 )
 #
@@ -5769,6 +5770,7 @@ dr_pres_context
 dr_frame
 dr_rf_state
 dr_rf_metrics
+\
 dr_rf_status
 )
 #
@@ -5800,6 +5802,7 @@ DISPLAY_PREF_INLINE_SIZE
 dr_frame
 dr_result
 )
+\
 PR_BEGIN_MACRO
 PR_END_MACRO
 #
@@ -5837,8 +5840,8 @@ dr_frame
 dr_state
 dr_cbw
 dr_cbh
-\
 dr_bdr
+\
 dr_pad
 )
 \

@@ -754,6 +754,14 @@ mInputsChanged
 }
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 endif

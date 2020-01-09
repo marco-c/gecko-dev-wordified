@@ -348,8 +348,8 @@ EnumFormatEtc
 .
 This
 object
-lives
 *
+lives
 on
 its
 own
@@ -360,8 +360,8 @@ only
 knows
 IUnknown
 and
-IEnumFormatEtc
 *
+IEnumFormatEtc
 nothing
 more
 .
@@ -373,10 +373,10 @@ outer
 unknown
 for
 reference
+*
 counting
 because
 as
-*
 long
 as
 this
@@ -386,11 +386,11 @@ the
 data
 object
 should
+*
 live
 thereby
 keeping
 the
-*
 application
 up
 .

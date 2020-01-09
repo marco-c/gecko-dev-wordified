@@ -89,8 +89,8 @@ can
 be
 built
 by
-compiling
 *
+compiling
 this
 source
 file
@@ -103,18 +103,17 @@ target
 name
 to
 be
+*
 "
 libmod
 les
 "
-*
 then
 renaming
 the
 resulting
 file
 :
-*
 cl
 /
 Zi
@@ -125,6 +124,7 @@ test
 cpp
 /
 link
+*
 /
 DLL
 /
@@ -134,7 +134,6 @@ libmod
 les
 .
 dll
-*
 cp
 libmod
 les

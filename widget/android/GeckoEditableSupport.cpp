@@ -246,10 +246,10 @@ args
 .
 .
 )
+\
 __android_log_print
 (
 ANDROID_LOG_INFO
-\
 "
 GeckoEditableSupport
 "
@@ -268,8 +268,10 @@ args
 .
 .
 )
+\
 do
 {
+\
 }
 while
 (
@@ -1931,6 +1933,7 @@ aKeyNameIndex
 case
 aNativeKey
 :
+\
 return
 aKeyNameIndex
 ;
@@ -2407,6 +2410,7 @@ aCodeNameIndex
 case
 aNativeKey
 :
+\
 return
 aCodeNameIndex
 ;

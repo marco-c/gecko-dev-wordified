@@ -2497,9 +2497,9 @@ as
 data
 comes
 from
+/
+/
 aTransferable
-/
-/
 and
 we
 don
@@ -2514,6 +2514,8 @@ put
 that
 in
 the
+/
+/
 data
 transfer
 yet

@@ -242,6 +242,7 @@ LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 mozilla
@@ -2340,10 +2341,10 @@ don
 '
 t
 generate
+/
+/
 zlib
 headers
-/
-/
 insert
 a
 dummy
@@ -2448,6 +2449,8 @@ data
 being
 labelled
 as
+/
+/
 deflate
 if
 (

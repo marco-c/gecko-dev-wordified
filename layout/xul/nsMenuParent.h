@@ -134,8 +134,8 @@ implemented
 by
 nsMenuBarFrame
 and
-nsMenuPopupFrame
 *
+nsMenuPopupFrame
 as
 both
 serve
@@ -161,8 +161,8 @@ you
 also
 fix
 up
-references
 *
+references
 as
 this
 interface
@@ -174,6 +174,7 @@ and
 from
 nsMenuBarFrame
 and
+*
 nsMenuPopupFrame
 .
 *
@@ -394,6 +395,8 @@ active
 For
 menupopups
 returns
+/
+/
 false
 .
 virtual

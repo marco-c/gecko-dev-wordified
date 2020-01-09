@@ -218,8 +218,8 @@ parent
 is
 an
 nsTableFrame
-and
 *
+and
 its
 children
 are
@@ -652,6 +652,7 @@ necessarily
 number
 of
 child
+*
 frames
 )
 *
@@ -1478,6 +1479,7 @@ relative
 to
 the
 row
+*
 group
 *
 param
@@ -1853,9 +1855,9 @@ It
 '
 s
 more
+/
+/
 general
-/
-/
 though
 and
 could
@@ -1975,12 +1977,11 @@ nullptr
 if
 you
 must
-search
 *
+search
 all
 rows
 .
-*
 The
 actual
 row
@@ -1993,11 +1994,11 @@ aY
 '
 but
 if
+*
 not
 it
 is
 guaranteed
-*
 to
 be
 before
@@ -2131,8 +2132,8 @@ frame
 y
 and
 YMost
-values
 *
+values
 form
 non
 -
@@ -2145,10 +2146,10 @@ be
 true
 for
 table
+*
 rows
 )
 ;
-*
 if
 this
 is
@@ -2162,9 +2163,9 @@ If
 we
 return
 nullptr
+*
 then
 we
-*
 decided
 not
 to

@@ -1523,9 +1523,9 @@ If
 an
 overflow
 is
+/
+/
 detected
-/
-/
 Nothing
 is
 returned
@@ -2316,10 +2316,10 @@ functions
 to
 convert
 to
+/
+/
 and
 from
-/
-/
 unknown
 types
 should
@@ -2827,6 +2827,8 @@ two
 rectangles
 wrapped
 in
+/
+/
 Maybes
 .
 template
@@ -3499,6 +3501,7 @@ border
 radius
 requires
 the
+*
 extra
 flexibility
 .

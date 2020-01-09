@@ -1361,7 +1361,6 @@ Word
 *
 hash_table_header
 =
-\
 GetPtr
 <
 Elf

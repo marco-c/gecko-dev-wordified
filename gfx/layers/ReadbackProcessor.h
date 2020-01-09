@@ -367,10 +367,10 @@ to
 be
 in
 the
+*
 PaintedLayer
 '
 s
-*
 visible
 region
 .

@@ -260,6 +260,7 @@ Element
 #
 define
 NETWORK_PREFPANE
+\
 NS_LITERAL_CSTRING
 (
 "
@@ -278,8 +279,10 @@ prefPane
 #
 define
 DESKTOP_PREFPANE
+\
 NS_LITERAL_CSTRING
 (
+\
 "
 /
 System
@@ -1524,7 +1527,6 @@ form
 :
 prop
 "
-\
 "
 seld
 :

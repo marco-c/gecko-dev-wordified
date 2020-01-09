@@ -720,6 +720,10 @@ ExclusiveHalf
 }
 /
 /
+namespace
+excl
+/
+/
 Load
 /
 store
@@ -5410,6 +5414,8 @@ present
 Enable
 JS_DISASM_ARM
 in
+"
+"
 configure
 .
 in
@@ -33148,9 +33154,9 @@ if
 the
 alignment
 attribute
+/
+/
 of
-/
-/
 the
 instruction
 calls
@@ -33402,9 +33408,9 @@ if
 the
 alignment
 attribute
+/
+/
 of
-/
-/
 the
 instruction
 calls

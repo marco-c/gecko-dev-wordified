@@ -207,6 +207,7 @@ GETTER
 (
 X
 )
+\
 const
 decltype
 (

@@ -162,7 +162,6 @@ PRES_ARENA_OBJECT
 (
 name_
 )
-\
 eArenaObjectID_
 #
 #
@@ -182,5 +181,9 @@ eArenaObjectID_COUNT
 ;
 }
 ;
+/
+/
+namespace
+mozilla
 #
 endif

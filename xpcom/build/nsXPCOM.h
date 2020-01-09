@@ -575,9 +575,9 @@ which
 was
 returned
 by
+*
 NS_InitXPCOM
 .
-*
 This
 will
 release
@@ -2203,7 +2203,6 @@ thread
 #
 define
 NS_XPCOM_CATEGORY_ENTRY_ADDED_OBSERVER_ID
-\
 "
 xpcom
 -

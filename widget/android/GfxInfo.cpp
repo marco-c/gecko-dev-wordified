@@ -711,9 +711,9 @@ be
 called
 until
 after
+*
 gfxPlatform
 initialization
-*
 has
 occurred
 because
@@ -722,6 +722,7 @@ depend
 on
 it
 for
+*
 information
 .
 (
@@ -1034,6 +1035,8 @@ we
 require
 9
 +
+/
+/
 anyway
 .
 MOZ_ASSERT
@@ -2467,7 +2470,11 @@ nsCaseInsensitiveCStringComparator
 some
 Galaxy
 Nexus
+/
+/
 have
+/
+/
 manufacturer
 =
 amazon
@@ -3231,4 +3238,12 @@ mOSVersionInteger
 ;
 }
 }
+/
+/
+namespace
+widget
 }
+/
+/
+namespace
+mozilla

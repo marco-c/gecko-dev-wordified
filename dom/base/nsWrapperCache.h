@@ -228,11 +228,12 @@ define
 NS_WRAPPERCACHE_IID
 \
 {
+\
 0x6f3179a1
 0x36f7
 0x4a5c
-\
 {
+\
 0x8c
 0xf1
 0xad
@@ -241,7 +242,9 @@ NS_WRAPPERCACHE_IID
 0xde
 0x3e
 0x87
+\
 }
+\
 }
 /
 /
@@ -638,9 +641,9 @@ object
 (
 regular
 JS
+*
 object
 or
-*
 proxy
 )
 an
@@ -1392,6 +1395,8 @@ the
 wrapper
 if
 it
+"
+"
 is
 moved
 "

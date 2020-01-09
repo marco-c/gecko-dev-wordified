@@ -136,12 +136,10 @@ A178
 /
 \
 0x14c0e880
-\
 0x623e
-\
 0x11d3
-\
 {
+\
 0xa1
 0x78
 0x00
@@ -150,6 +148,7 @@ A178
 0x1c
 0xaf
 0x44
+\
 }
 \
 }
@@ -273,6 +272,8 @@ the
 converted
 data
 via
+/
+/
 his
 OnDataAvailable
 (

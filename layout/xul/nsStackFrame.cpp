@@ -351,12 +351,12 @@ changed
 back
 by
 hacking
+/
+/
 nsBoxFrame
 :
 :
 BuildDisplayListInternal
-/
-/
 a
 bit
 more
@@ -384,9 +384,9 @@ stacking
 contexts
 into
 the
+/
+/
 PositionedDescendants
-/
-/
 list
 .
 So
@@ -397,6 +397,8 @@ map
 that
 list
 to
+/
+/
 aLists
 .
 Content
@@ -409,8 +411,6 @@ an
 easy
 way
 to
-/
-/
 do
 that
 .

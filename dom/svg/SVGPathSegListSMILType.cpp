@@ -3316,9 +3316,9 @@ interpolate
 path
 segment
 lists
+/
+/
 with
-/
-/
 different
 numbers
 of
@@ -3329,9 +3329,9 @@ with
 different
 flag
 values
+/
+/
 or
-/
-/
 with
 incompatible
 segment

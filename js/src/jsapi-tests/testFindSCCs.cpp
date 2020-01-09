@@ -159,7 +159,7 @@ js
 gc
 :
 :
-GraphNodeBase
+ComponentFinder
 ;
 using
 js
@@ -168,7 +168,7 @@ js
 gc
 :
 :
-ComponentFinder
+GraphNodeBase
 ;
 struct
 TestComponentFinder

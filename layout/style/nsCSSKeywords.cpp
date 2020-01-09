@@ -159,6 +159,8 @@ TestCSSPropertyLookup
 .
 cpp
 can
+/
+/
 link
 with
 it

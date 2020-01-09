@@ -637,7 +637,7 @@ aCx
 }
 /
 /
-anonymous
+namespace
 class
 AbortSignalMainThread
 final

@@ -539,7 +539,7 @@ mStream
 }
 /
 /
-anonymous
+namespace
 NS_IMPL_ADDREF
 (
 IPCBlobInputStream
@@ -1806,6 +1806,8 @@ we
 can
 execute
 the
+/
+/
 callback
 .
 case
@@ -2850,6 +2852,8 @@ we
 can
 execute
 the
+/
+/
 callback
 .
 case
@@ -3700,7 +3704,7 @@ mLength
 }
 /
 /
-anonymous
+namespace
 void
 IPCBlobInputStream
 :

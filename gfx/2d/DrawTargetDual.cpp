@@ -1350,8 +1350,8 @@ where
 a
 user
 of
-DrawTargetDual
 *
+DrawTargetDual
 wants
 to
 have

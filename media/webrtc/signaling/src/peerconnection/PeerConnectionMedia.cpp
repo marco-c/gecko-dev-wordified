@@ -1008,6 +1008,8 @@ should
 return
 the
 best
+/
+/
 default
 .
 nsCOMPtr

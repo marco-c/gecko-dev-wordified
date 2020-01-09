@@ -397,6 +397,7 @@ label
 dynamicString
 category
 ctx
+\
 flags
 )
 #
@@ -415,6 +416,7 @@ channel
 type
 start
 end
+\
 count
 cache
 timings
@@ -681,7 +683,15 @@ CacheDisposition
 uint8_t
 ;
 }
+/
+/
+namespace
+net
 }
+/
+/
+namespace
+mozilla
 class
 nsIURI
 ;
@@ -2055,7 +2065,6 @@ stackTop
 #
 define
 AUTO_PROFILER_INIT
-\
 mozilla
 :
 :
@@ -2707,9 +2716,11 @@ name
 \
 do
 {
+\
 char
 stackTop
 ;
+\
 profiler_register_thread
 (
 name
@@ -2717,6 +2728,7 @@ name
 stackTop
 )
 ;
+\
 }
 while
 (
@@ -2727,7 +2739,6 @@ define
 PROFILER_UNREGISTER_THREAD
 (
 )
-\
 profiler_unregister_thread
 (
 )
@@ -3253,7 +3264,6 @@ PROFILER_RAII
 #
 define
 AUTO_PROFILER_THREAD_WAKE
-\
 mozilla
 :
 :
@@ -4303,9 +4313,9 @@ native
 stack
 passing
 the
+/
+/
 collected
-/
-/
 frames
 into
 aCollector
@@ -4315,11 +4325,11 @@ dictates
 which
 compiler
 features
+/
+/
 are
 used
 .
-/
-/
 |
 Privacy
 |
@@ -4828,9 +4838,9 @@ mozilla
 AutoProfilerLabel
 PROFILER_RAII
 (
+\
 label
 nullptr
-\
 js
 :
 :
@@ -5080,9 +5090,9 @@ mozilla
 :
 :
 AutoProfilerLabel
-\
 PROFILER_RAII
 (
+\
 label
 cStr
 js
@@ -5392,6 +5402,7 @@ raiiObjectLossyNsString
 .
 emplace
 (
+\
 label
 asciiStr
 -
@@ -5399,7 +5410,6 @@ asciiStr
 get
 (
 )
-\
 js
 :
 :
@@ -5483,9 +5493,9 @@ all
 overhead
 in
 the
+/
+/
 case
-/
-/
 where
 the
 profiler
@@ -5507,10 +5517,10 @@ mozilla
 AutoProfilerLabel
 PROFILER_RAII
 (
+\
 ctx
 label
 nullptr
-\
 js
 :
 :
@@ -5569,6 +5579,7 @@ label
 dynamicString
 category
 ctx
+\
 flags
 )
 \
@@ -5578,10 +5589,10 @@ mozilla
 AutoProfilerLabel
 PROFILER_RAII
 (
+\
 ctx
 label
 dynamicString
-\
 js
 :
 :
@@ -5704,7 +5715,6 @@ PROFILER_ADD_MARKER
 (
 markerName
 )
-\
 profiler_add_marker
 (
 markerName
@@ -5787,6 +5797,7 @@ channel
 type
 start
 end
+\
 count
 cache
 timings
@@ -5802,6 +5813,7 @@ type
 start
 end
 count
+\
 cache
 timings
 redirect
@@ -6216,10 +6228,10 @@ mozilla
 AutoProfilerTracing
 PROFILER_RAII
 (
-\
 category
 markerName
 docShellId
+\
 docShellHistoryId
 )
 /
@@ -7015,9 +7027,9 @@ reference
 Objects
 of
 this
+/
+/
 class
-/
-/
 are
 stack
 -
@@ -7032,9 +7044,9 @@ and
 are
 thus
 bounded
+/
+/
 by
-/
-/
 the
 lifetime
 of
@@ -7049,9 +7061,9 @@ held
 can
 '
 t
+/
+/
 be
-/
-/
 used
 after
 the
@@ -7314,9 +7326,9 @@ have
 to
 redo
 the
+/
+/
 TLS
-/
-/
 lookup
 in
 the

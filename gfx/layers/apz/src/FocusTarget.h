@@ -210,8 +210,8 @@ to
 use
 when
 keyboard
-scrolling
 *
+scrolling
 it
 .
 It
@@ -228,9 +228,9 @@ time
 but
 is
 then
+*
 passed
 over
-*
 IPC
 to
 the

@@ -209,6 +209,7 @@ kDefaultRemainingTime
 }
 /
 /
+namespace
 hal_impl
 }
 /

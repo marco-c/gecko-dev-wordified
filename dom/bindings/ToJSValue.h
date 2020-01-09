@@ -1942,6 +1942,8 @@ same
 -
 compartment
 with
+/
+/
 us
 MOZ_MUST_USE
 inline

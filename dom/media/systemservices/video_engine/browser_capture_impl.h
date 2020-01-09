@@ -291,5 +291,9 @@ kProductUniqueId
 }
 ;
 }
+/
+/
+namespace
+webrtc
 #
 endif

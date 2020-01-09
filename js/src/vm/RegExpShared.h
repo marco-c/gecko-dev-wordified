@@ -122,9 +122,9 @@ potentially
 shared
 among
 RegExp
+*
 instances
 created
-*
 during
 separate
 evaluations
@@ -134,6 +134,7 @@ single
 RegExp
 literal
 in
+*
 source
 code
 .

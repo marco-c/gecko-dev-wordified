@@ -149,6 +149,10 @@ global
 )
 ;
 }
+/
+/
+namespace
+js
 namespace
 js
 {
@@ -198,6 +202,10 @@ vp
 )
 ;
 }
+/
+/
+namespace
+js
 #
 endif
 /

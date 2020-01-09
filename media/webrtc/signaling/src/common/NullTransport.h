@@ -281,7 +281,7 @@ delete
 }
 /
 /
-end
 namespace
+mozilla
 #
 endif

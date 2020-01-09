@@ -1781,9 +1781,9 @@ timed
 out
 .
 Returns
+/
+/
 NS_SOCKET_POLL_TIMEOUT
-/
-/
 when
 there
 is

@@ -1103,6 +1103,8 @@ data
 directory
 in
 the
+"
+"
 environment
 .
 "
@@ -1576,9 +1578,9 @@ it
 will
 dispatch
 the
+/
+/
 persistence
-/
-/
 task
 off
 the
@@ -1591,6 +1593,8 @@ it
 will
 trigger
 the
+/
+/
 timer
 again
 .
@@ -2557,6 +2561,8 @@ parse
 '
 keyedHistograms
 '
+"
+"
 %
 s
 .
@@ -2704,6 +2710,8 @@ spin
 up
 the
 persistence
+/
+/
 timer
 again
 .
@@ -2851,6 +2859,8 @@ error
 opening
 the
 persistence
+"
+"
 file
 .
 "
@@ -3141,6 +3151,8 @@ file
 if
 nothing
 bad
+/
+/
 happened
 .
 nsresult
@@ -3184,6 +3196,8 @@ error
 writing
 to
 the
+"
+"
 persistence
 file
 .
@@ -3315,6 +3329,8 @@ spin
 up
 the
 persistence
+/
+/
 timer
 .
 nsAutoCString
@@ -3593,7 +3609,8 @@ PersistenceThreadPersist
 }
 /
 /
-GeckoViewTesting
+namespace
+TelemetryGeckoViewTesting
 void
 TelemetryGeckoViewPersistence
 :

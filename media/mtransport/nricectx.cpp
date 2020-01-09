@@ -6715,8 +6715,8 @@ state
 }
 /
 /
-close
 namespace
+mozilla
 /
 /
 Reimplement

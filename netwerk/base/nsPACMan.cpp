@@ -3708,6 +3708,8 @@ query
 failed
 because
 there
+"
+"
 is
 no
 DHCP
@@ -3794,6 +3796,8 @@ query
 succeeded
 finding
 PAC
+"
+"
 URL
 %
 s
@@ -4103,6 +4107,8 @@ when
 auto
 -
 detecting
+"
+"
 proxy
 .
 Halting
@@ -5555,9 +5561,9 @@ a
 bunch
 of
 interfaces
+/
+/
 that
-/
-/
 are
 main
 thread
@@ -5568,10 +5574,10 @@ have
 to
 initialize
 the
+/
+/
 instance
 of
-/
-/
 the
 PAC
 evaluator
@@ -5581,10 +5587,10 @@ NS_PROXYAUTOCONFIG_CONTRACTID
 on
 the
 pac
+/
+/
 thread
 because
-/
-/
 that
 is
 where

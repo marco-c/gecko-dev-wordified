@@ -446,8 +446,8 @@ width
 or
 height
 of
-its
 *
+its
 coordinate
 context
 (
@@ -458,10 +458,10 @@ established
 by
 its
 nearest
+*
 <
 svg
 >
-*
 ancestor
 )
 .
@@ -476,8 +476,8 @@ of
 the
 attributes
 for
-which
 *
+which
 AttributeDefinesGeometry
 returns
 true
@@ -504,10 +504,10 @@ can
 be
 used
 for
+*
 non
 -
 leaf
-*
 elements
 but
 that
@@ -1473,6 +1473,7 @@ scale
 offsets
 along
 a
+*
 textPath
 .
 *

@@ -1061,5 +1061,9 @@ mCurrentVideoSendStream
 }
 ;
 }
+/
+/
+namespace
+test
 #
 endif

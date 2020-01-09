@@ -135,6 +135,7 @@ h
 to
 avoid
 typedefs
+*
 conflicts
 .
 *
@@ -9715,6 +9716,8 @@ in
 the
 instance
 deletion
+"
+"
 hash
 "
 )
@@ -10839,6 +10842,8 @@ PluginModuleChild
 :
 RecvProcessNativeEventsInInterruptCall
 not
+"
+"
 implemented
 !
 "

@@ -158,8 +158,8 @@ nsIContentParent
 }
 /
 /
-dom
 namespace
+dom
 namespace
 wr
 {
@@ -169,8 +169,8 @@ ByteBuffer
 }
 /
 /
-wr
 namespace
+wr
 namespace
 ipc
 {

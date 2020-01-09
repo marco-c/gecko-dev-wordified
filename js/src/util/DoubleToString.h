@@ -320,8 +320,8 @@ the
 number
 is
 converted
-to
 *
+to
 a
 string
 using
@@ -337,8 +337,8 @@ to
 a
 number
 the
-result
 *
+result
 will
 be
 identical
@@ -354,10 +354,10 @@ to
 ECMA
 -
 0
+*
 will
 get
 converted
-*
 to
 +
 0
@@ -372,11 +372,11 @@ return
 the
 minimum
 number
+*
 of
 significand
 digits
 that
-*
 permit
 the
 round
@@ -511,9 +511,9 @@ null
 that
 a
 DTOSTR_STANDARD
+*
 or
 DTOSTR_STANDARD_EXPONENTIAL
-*
 conversion
 can
 produce
@@ -521,6 +521,7 @@ produce
 This
 maximum
 is
+*
 reached
 for
 a
@@ -553,8 +554,8 @@ one
 of
 the
 other
-conversions
 *
+conversions
 can
 produce
 .
@@ -566,6 +567,7 @@ for
 TO_FIXED
 which
 can
+*
 generate
 up
 to
@@ -584,6 +586,7 @@ DTOSTR_VARIABLE_BUFFER_SIZE
 (
 precision
 )
+\
 (
 (
 precision
@@ -592,12 +595,14 @@ precision
 24
 >
 DTOSTR_STANDARD_BUFFER_SIZE
+\
 ?
 (
 precision
 )
 +
 24
+\
 :
 DTOSTR_STANDARD_BUFFER_SIZE
 )

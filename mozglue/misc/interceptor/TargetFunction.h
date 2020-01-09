@@ -766,6 +766,7 @@ WritableTargetFunction
 thus
 signalling
 an
+*
 error
 .
 *

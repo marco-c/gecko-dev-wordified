@@ -919,6 +919,9 @@ DefaultController
 nsITaskbarPreviewController
 )
 }
+/
+/
+namespace
 namespace
 mozilla
 {

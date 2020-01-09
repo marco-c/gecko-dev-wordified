@@ -486,9 +486,9 @@ via
 fallocate
 -
 type
+*
 APIs
 .
-*
 This
 is
 useful
@@ -496,13 +496,13 @@ for
 avoiding
 fragmentation
 .
-*
 On
 sucess
 the
 file
 be
 padded
+*
 with
 zeros
 to
@@ -1073,6 +1073,7 @@ MOZ_TEMP_FAILURE_RETRY
 (
 exp
 )
+\
 (
 __extension__
 (

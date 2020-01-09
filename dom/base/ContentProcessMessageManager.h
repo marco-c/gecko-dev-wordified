@@ -384,13 +384,13 @@ using
 MessageManagerGlobal
 :
 :
-RemoveMessageListener
+AddWeakMessageListener
 ;
 using
 MessageManagerGlobal
 :
 :
-AddWeakMessageListener
+RemoveMessageListener
 ;
 using
 MessageManagerGlobal

@@ -159,9 +159,9 @@ integrate
 wl_display_dispatch_queue_pending
 (
 )
+/
+/
 with
-/
-/
 compositor
 event
 loop

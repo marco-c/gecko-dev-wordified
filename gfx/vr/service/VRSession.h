@@ -432,12 +432,12 @@ aThreshold
 /
 /
 namespace
-mozilla
+gfx
 }
 /
 /
 namespace
-gfx
+mozilla
 #
 endif
 /

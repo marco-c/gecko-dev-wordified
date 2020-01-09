@@ -179,7 +179,6 @@ RegisterCommand
 (
 \
 _cmdName
-\
 static_cast
 <
 nsIControllerCommand
@@ -226,7 +225,6 @@ RegisterCommand
 (
 \
 _cmdName
-\
 static_cast
 <
 nsIControllerCommand
@@ -250,7 +248,6 @@ aCommandTable
 >
 RegisterCommand
 (
-\
 _cmdName
 \
 static_cast
@@ -276,7 +273,6 @@ aCommandTable
 >
 RegisterCommand
 (
-\
 _cmdName
 \
 static_cast

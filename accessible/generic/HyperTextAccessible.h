@@ -849,8 +849,8 @@ this
 represents
 a
 char
-offset
 *
+offset
 if
 >
 =
@@ -882,9 +882,9 @@ is
 not
 inclusive
 .
+*
 The
 character
-*
 indicated
 by
 the
@@ -899,8 +899,8 @@ offset
 ]
 .
 This
-means
 *
+means
 if
 the
 passed
@@ -915,8 +915,8 @@ descendant
 then
 the
 offset
-returned
 *
+returned
 will
 come
 just
@@ -927,8 +927,8 @@ embedded
 object
 characer
 .
-*
 If
+*
 false
 then
 the
@@ -939,10 +939,10 @@ inclusive
 The
 character
 indicated
-*
 by
 the
 offset
+*
 returned
 is
 at
@@ -959,8 +959,8 @@ offset
 in
 inside
 a
-*
 descendant
+*
 then
 the
 returned
@@ -2425,8 +2425,8 @@ text
 within
 the
 text
-control
 *
+control
 or
 the
 document

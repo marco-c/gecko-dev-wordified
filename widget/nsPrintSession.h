@@ -135,6 +135,10 @@ RemotePrintJobChild
 }
 /
 /
+namespace
+mozilla
+/
+/
 *
 *
 *

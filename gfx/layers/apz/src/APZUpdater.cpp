@@ -1177,12 +1177,12 @@ on
 the
 APZCTreeManager
 we
+/
+/
 are
 in
 a
 shutdown
-/
-/
 phase
 .
 After
@@ -1193,6 +1193,8 @@ it
 s
 ok
 if
+/
+/
 WebRender
 cannot
 get
@@ -1200,11 +1202,11 @@ a
 hold
 of
 the
-/
-/
 updater
 via
 the
+/
+/
 window
 id
 and

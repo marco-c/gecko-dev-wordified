@@ -316,6 +316,8 @@ SubmitFrame
 can
 only
 be
+/
+/
 called
 in
 a
@@ -838,6 +840,8 @@ failed
 to
 get
 a
+"
+"
 D3D11DeviceContextState
 "
 )
@@ -1201,6 +1205,7 @@ submitted
 frame
 is
 already
+*
 processed
 .
 *
@@ -2232,8 +2237,8 @@ submitted
 frame
 is
 already
-processed
 *
+processed
 and
 the
 new

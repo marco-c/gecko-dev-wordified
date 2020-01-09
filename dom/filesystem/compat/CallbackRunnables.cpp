@@ -757,7 +757,7 @@ NS_OK
 }
 /
 /
-anonymous
+namespace
 void
 GetEntryHelper
 :
@@ -1529,10 +1529,10 @@ forget
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

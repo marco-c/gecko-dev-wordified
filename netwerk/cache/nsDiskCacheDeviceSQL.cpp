@@ -1259,6 +1259,7 @@ tlsEvictionItems
 }
 /
 /
+namespace
 appcachedetail
 NS_IMETHODIMP
 nsOfflineCacheEvictionFunction
@@ -6434,6 +6435,8 @@ nsOfflineCacheDevice
 InitWithSqlite
 called
 before
+"
+"
 nsCacheService
 :
 :
@@ -8383,6 +8386,8 @@ moz_cache_namespaces
 .
 ClientID
 =
+"
+"
 moz_cache_groups
 .
 ActiveClientID
@@ -14417,7 +14422,7 @@ NS_OK
 }
 /
 /
-anon
+namespace
 nsresult
 nsOfflineCacheDevice
 :
@@ -14551,6 +14556,8 @@ GroupID
 ActiveClientID
 FROM
 moz_cache_groups
+"
+"
 WHERE
 ORIGIN_MATCH
 (

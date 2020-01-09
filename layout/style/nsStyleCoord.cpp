@@ -1464,7 +1464,6 @@ side
 =
 =
 result
-\
 "
 SideIsVertical
 is
@@ -1521,7 +1520,6 @@ corner
 =
 =
 result
-\
 "
 HalfCornerIsX
 is
@@ -1606,6 +1604,9 @@ result
 "
 HalfToFullCorner
 is
+"
+\
+"
 wrong
 "
 )

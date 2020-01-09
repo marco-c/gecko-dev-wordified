@@ -480,7 +480,7 @@ mTexture
 }
 /
 /
-namepace
+namespace
 layers
 }
 /

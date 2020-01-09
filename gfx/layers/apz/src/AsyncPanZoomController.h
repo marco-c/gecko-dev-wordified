@@ -1227,10 +1227,10 @@ as
 part
 of
 a
+*
 multi
 -
 tap
-*
 gesture
 (
 double
@@ -1382,9 +1382,9 @@ initialization
 for
 all
 APZC
+*
 instances
 .
-*
 This
 must
 be
@@ -1397,9 +1397,9 @@ before
 any
 APZC
 instances
+*
 are
 actually
-*
 used
 for
 anything
@@ -1940,8 +1940,8 @@ aScrollMetdata
 is
 the
 new
-ScrollMetadata
 *
+ScrollMetadata
 for
 the
 container
@@ -1975,8 +1975,8 @@ sent
 with
 this
 call
-are
 *
+are
 the
 initial
 metadata
@@ -1989,6 +1989,7 @@ the
 frame
 has
 just
+*
 happened
 .
 *
@@ -2021,8 +2022,8 @@ controller
 so
 that
 we
-can
 *
+can
 request
 composites
 .
@@ -2053,8 +2054,8 @@ some
 other
 thread
 this
-controller
 *
+controller
 needs
 to
 be
@@ -2810,6 +2811,7 @@ the
 scrollable
 guid
 of
+*
 this
 apzc
 .
@@ -5280,6 +5282,7 @@ direction
 angle
 and
 current
+*
 touch
 -
 action
@@ -5710,8 +5713,8 @@ private
 variable
 since
 this
-method
 *
+method
 ensures
 that
 no
@@ -6106,6 +6109,7 @@ pointer
 to
 the
 corresponding
+*
 fields
 .
 *
@@ -6243,12 +6247,12 @@ at
 the
 top
 of
+/
+/
 APZCTreeManager
 .
 h
 .
-/
-/
 This
 is
 mutable
@@ -6260,12 +6264,12 @@ from
 '
 const
 '
+/
+/
 methods
 ;
 doing
 otherwise
-/
-/
 would
 significantly
 limit
@@ -6273,6 +6277,8 @@ what
 methods
 could
 be
+/
+/
 '
 const
 '
@@ -6569,6 +6575,8 @@ for
 convenience
 refers
 to
+/
+/
 mLastContentPaintMetadata
 .
 mMetrics
@@ -8412,10 +8420,10 @@ is
 it
 should
 be
+/
+/
 held
 whenever
-/
-/
 this
 is
 updated
@@ -8819,6 +8827,7 @@ across
 the
 entire
 tree
+*
 manager
 .
 *
@@ -10734,9 +10743,9 @@ layers
 from
 (
 and
+*
 including
 )
-*
 the
 parent
 APZC
@@ -10750,8 +10759,8 @@ this
 one
 and
 excluding
-any
 *
+any
 perspective
 transforms
 .
@@ -11463,9 +11472,9 @@ this
 allows
 us
 to
+/
+/
 meaningfully
-/
-/
 say
 how
 frequently

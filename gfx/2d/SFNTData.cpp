@@ -1488,8 +1488,10 @@ aDataLength
 }
 /
 /
+namespace
 gfx
 }
 /
 /
+namespace
 mozilla

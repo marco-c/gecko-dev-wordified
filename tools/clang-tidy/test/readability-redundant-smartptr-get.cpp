@@ -48,6 +48,10 @@ noexcept
 }
 ;
 }
+/
+/
+namespace
+std
 struct
 A
 {

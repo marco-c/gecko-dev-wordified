@@ -221,7 +221,6 @@ mozilla
 #
 define
 TYPEAHEADFIND_NOTFOUND_WAV_URL
-\
 "
 chrome
 :
@@ -595,10 +594,10 @@ string
 .
 It
 is
+/
+/
 used
 for
-/
-/
 disabling
 the
 "

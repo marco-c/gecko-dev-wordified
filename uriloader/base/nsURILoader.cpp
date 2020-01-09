@@ -464,6 +464,7 @@ LOG_ERROR
 (
 args
 )
+\
 MOZ_LOG
 (
 nsURILoader
@@ -1621,6 +1622,8 @@ if
 we
 should
 perform
+/
+/
 a
 process
 switch
@@ -1986,6 +1989,8 @@ listener
 %
 p
 rv
+"
+"
 %
 "
 PRIx32
@@ -3290,9 +3295,9 @@ some
 sort
 of
 bizarre
+/
+/
 infinite
-/
-/
 decoding
 loop
 .
@@ -3351,9 +3356,9 @@ just
 pump
 data
 into
+/
+/
 it
-/
-/
 and
 let
 the
@@ -3953,6 +3958,8 @@ at
 this
 point
 without
+"
+"
 a
 m_targetStreamListener
 "

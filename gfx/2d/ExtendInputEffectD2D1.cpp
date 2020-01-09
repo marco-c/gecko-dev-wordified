@@ -163,6 +163,7 @@ XML
 (
 X
 )
+\
 TEXTW
 (
 #
@@ -920,6 +921,8 @@ only
 be
 one
 input
+/
+/
 rect
 .
 if
@@ -951,6 +954,8 @@ the
 whole
 purpose
 of
+/
+/
 this
 effect
 .
@@ -1194,4 +1199,12 @@ S_OK
 ;
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

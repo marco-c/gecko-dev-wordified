@@ -363,6 +363,7 @@ run
 #
 define
 PREF_FORCE_DATABASE_REPLACEMENT
+\
 "
 places
 .
@@ -521,6 +522,7 @@ disableDurability
 #
 define
 ENV_ALLOW_CORRUPTION
+\
 "
 ALLOW_PLACES_DATABASE_TO_LOSE_DATA_AND_BECOME_CORRUPT
 "
@@ -658,6 +660,7 @@ PREF_HISTORY_MAXURLLEN_DEFAULT
 #
 define
 PREF_MIGRATE_V52_ORIGIN_FRECENCIES
+\
 "
 places
 .
@@ -933,6 +936,7 @@ migration
 #
 define
 LAST_USED_ANNO
+\
 NS_LITERAL_CSTRING
 (
 "
@@ -960,6 +964,7 @@ to
 #
 define
 LAST_USED_FOLDERS_META_KEY
+\
 NS_LITERAL_CSTRING
 (
 "
@@ -2171,9 +2176,9 @@ WAL
 would
 prevent
 the
+/
+/
 change
-/
-/
 otherwise
 .
 if
@@ -2432,10 +2437,10 @@ to
 limit
 fragmentation
 on
+/
+/
 disk
 .
-/
-/
 By
 default
 it
@@ -3093,6 +3098,8 @@ cycle
 between
 this
 and
+/
+/
 mConnectionShutdown
 .
 return
@@ -3903,14 +3910,12 @@ a
 database
 replacement
 due
+/
+/
 to
-/
-/
 integrity
 corruption
 .
-/
-/
 Be
 sure
 to
@@ -3921,6 +3926,8 @@ to
 avoid
 handling
 it
+/
+/
 more
 than
 once
@@ -4151,9 +4158,9 @@ failure
 the
 existing
 schema
+/
+/
 is
-/
-/
 is
 corrupt
 or
@@ -5405,9 +5412,9 @@ to
 create
 another
 corrupt
+/
+/
 file
-/
-/
 since
 doing
 so
@@ -5421,9 +5428,9 @@ to
 create
 a
 new
+/
+/
 corrupt
-/
-/
 file
 at
 every
@@ -5437,10 +5444,10 @@ service
 That
 is
 bad
+/
+/
 because
 it
-/
-/
 would
 quickly
 fill
@@ -6025,9 +6032,9 @@ more
 memory
 but
 avoid
+/
+/
 shared
-/
-/
 cache
 contentions
 across
@@ -9285,6 +9292,8 @@ position
 parent
 FROM
 moz_bookmarks
+"
+"
 WHERE
 guid
 IN
@@ -9958,6 +9967,8 @@ moz_bookmarks
 SET
 syncStatus
 =
+"
+"
 :
 sync_status
 WHERE
@@ -10381,6 +10392,8 @@ root_id
 menu_root_id
 :
 toolbar_root_id
+"
+"
 :
 tags_root_id
 "
@@ -11500,6 +11513,8 @@ url
 :
 maxlen
 AND
+"
+"
 foreign_count
 =
 0
@@ -11596,6 +11611,8 @@ url
 >
 :
 maxlen
+"
+"
 AND
 foreign_count
 =
@@ -11927,6 +11944,7 @@ WHERE
 (
 "
 HOST_TO_REVHOST_PREDICATE
+\
 "
 )
 AND
@@ -11987,6 +12005,7 @@ WHERE
 (
 "
 HOST_TO_REVHOST_PREDICATE
+\
 "
 )
 AND
@@ -12042,6 +12061,7 @@ WHERE
 (
 "
 HOST_TO_REVHOST_PREDICATE
+\
 "
 )
 AND
@@ -12102,6 +12122,7 @@ WHERE
 (
 "
 HOST_TO_REVHOST_PREDICATE
+\
 "
 )
 AND
@@ -12363,6 +12384,8 @@ ADD
 COLUMN
 url_hash
 INTEGER
+"
+"
 DEFAULT
 0
 NOT
@@ -14299,6 +14322,8 @@ have
 to
 set
 it
+/
+/
 again
 .
 int32_t
@@ -14616,6 +14641,8 @@ moz_bookmarks
 WHERE
 fk
 =
+"
+"
 moz_places
 .
 id
@@ -14936,10 +14963,10 @@ have
 any
 remaining
 keywords
+/
+/
 pointing
 to
-/
-/
 this
 place
 and
@@ -14953,6 +14980,8 @@ visited
 Note
 :
 orphan
+/
+/
 keywords
 are
 tidied
@@ -14983,6 +15012,8 @@ FROM
 moz_keywords
 WHERE
 place_id
+"
+"
 =
 NEW
 .
@@ -15266,6 +15297,8 @@ menu________
 '
 toolbar_____
 '
+"
+"
 '
 tags________
 '
@@ -15320,6 +15353,8 @@ menu________
 '
 toolbar_____
 '
+"
+"
 '
 tags________
 '
@@ -16148,6 +16183,8 @@ excludeItems
 '
 url_hash
 =
+"
+"
 hash
 (
 '
@@ -16719,9 +16756,9 @@ REGEX
 available
 so
 the
+/
+/
 simplest
-/
-/
 thing
 to
 do
@@ -17170,6 +17207,8 @@ moz_bookmarks
 SET
 syncChangeCounter
 =
+"
+"
 syncChangeCounter
 +
 1
@@ -19574,6 +19613,8 @@ FROM
 moz_bookmarks
 p
 WHERE
+"
+"
 p
 .
 parent

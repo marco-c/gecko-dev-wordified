@@ -993,11 +993,11 @@ ContentParent
 GetCPOWManager
 but
 we
+/
+/
 can
 '
 t
-/
-/
 move
 it
 to
@@ -1008,9 +1008,9 @@ calls
 ManagedPJavaScriptParent
 (
 )
+/
+/
 which
-/
-/
 only
 exists
 in

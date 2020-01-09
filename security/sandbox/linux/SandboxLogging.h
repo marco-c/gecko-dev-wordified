@@ -375,6 +375,10 @@ aMessage
 )
 ;
 }
+/
+/
+namespace
+mozilla
 #
 define
 SANDBOX_LOG_LEN
@@ -451,6 +455,7 @@ args
 .
 .
 )
+\
 do
 {
 \

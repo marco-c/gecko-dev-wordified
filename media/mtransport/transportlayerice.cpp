@@ -1296,5 +1296,5 @@ packet
 }
 /
 /
-close
 namespace
+mozilla

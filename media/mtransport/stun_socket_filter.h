@@ -72,9 +72,12 @@ h
 #
 define
 NS_STUN_UDP_SOCKET_FILTER_HANDLER_CID
+\
 {
 0x3e43ee93
+\
 0x829e
+\
 0x4ea6
 \
 {
@@ -134,9 +137,12 @@ nsStunUDPSocketFilterHandler
 #
 define
 NS_STUN_TCP_SOCKET_FILTER_HANDLER_CID
+\
 {
 0x9fea635a
+\
 0x2fc2
+\
 0x4d08
 \
 {

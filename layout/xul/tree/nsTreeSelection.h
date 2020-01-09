@@ -272,6 +272,8 @@ to
 us
 through
 the
+/
+/
 view
 and
 let
@@ -311,6 +313,8 @@ around
 The
 last
 one
+/
+/
 clicked
 etc
 .
@@ -327,6 +331,8 @@ SHIFT
 selects
 are
 performed
+/
+/
 to
 pivot
 on

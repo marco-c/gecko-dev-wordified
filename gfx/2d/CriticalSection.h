@@ -403,9 +403,11 @@ mSection
 /
 /
 namespace
+gfx
 }
 /
 /
 namespace
+mozilla
 #
 endif

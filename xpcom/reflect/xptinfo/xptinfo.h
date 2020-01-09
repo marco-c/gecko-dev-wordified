@@ -4624,6 +4624,8 @@ large
 enough
 for
 aTo
+/
+/
 elements
 .
 bool
@@ -5399,9 +5401,11 @@ XPT_TYPE_STRIDE
 tag
 type
 )
+\
 case
 tag
 :
+\
 return
 sizeof
 (

@@ -788,6 +788,7 @@ inline
 #
 define
 WR_FUNC
+\
 {
 MOZ_MAKE_COMPILER_ASSUME_IS_UNREACHABLE
 (
@@ -801,6 +802,7 @@ disabled
 #
 define
 WR_DESTRUCTOR_SAFE_FUNC
+\
 {
 }
 #

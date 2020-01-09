@@ -6753,6 +6753,7 @@ the
 center
 in
 the
+*
 opposite
 axis
 *
@@ -7962,8 +7963,8 @@ can
 t
 get
 the
-precise
 *
+precise
 event
 state
 of
@@ -7974,6 +7975,7 @@ rendering
 hover
 and
 active
+*
 feedback
 useless
 .
@@ -12427,6 +12429,8 @@ implementation
 window
 to
 provide
+/
+/
 it
 .
 moz_gtk_window_paint

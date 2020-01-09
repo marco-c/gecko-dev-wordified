@@ -3187,7 +3187,6 @@ else
 \
 REPORT_SUM_SIZE
 (
-\
 "
 /
 layout
@@ -3209,6 +3208,7 @@ type
 "
 #
 classname
+\
 "
 within
 a
@@ -3353,7 +3353,6 @@ else
 \
 REPORT_SUM_SIZE
 (
-\
 "
 /
 layout
@@ -3375,6 +3374,7 @@ the
 "
 #
 name_
+\
 "
 style
 structs
@@ -4951,7 +4951,6 @@ name_
 styleTotal
 +
 =
-\
 windowTotalSizes
 .
 mStyleSizes

@@ -2556,9 +2556,9 @@ this
 by
 manually
 polling
+/
+/
 for
-/
-/
 the
 moment
 during
@@ -2570,10 +2570,10 @@ or
 otherwise
 blocked
 on
+/
+/
 write
 .
-/
-/
 Thankfully
 this
 is
@@ -2589,9 +2589,9 @@ t
 help
 us
 here
+/
+/
 -
-/
-/
 asserting
 when
 polling
@@ -2604,9 +2604,9 @@ on
 the
 bottom
 of
-/
-/
 the
+/
+/
 stack
 .
 As
@@ -2623,10 +2623,10 @@ and
 maybe
 libssl
 changes
-/
-/
 to
 make
+/
+/
 this
 more
 event
@@ -6409,6 +6409,8 @@ ReadSegments
 %
 p
 OnReadSegmentError
+"
+"
 %
 "
 PRIx32
@@ -6888,6 +6890,8 @@ writer
 %
 p
 Error
+"
+"
 %
 "
 PRIx32
@@ -6941,6 +6945,8 @@ total
 of
 ciphered
 data
+"
+"
 buffered
 \
 n
@@ -7169,6 +7175,8 @@ of
 ciphered
 data
 buffered
+"
+"
 rv
 =
 %
@@ -10045,6 +10053,7 @@ FWD_TS_PTR
 fx
 ts
 )
+\
 NS_IMETHODIMP
 \
 SocketTransportShim
@@ -10074,6 +10083,7 @@ FWD_TS_ADDREF
 fx
 ts
 )
+\
 NS_IMETHODIMP
 \
 SocketTransportShim
@@ -10104,6 +10114,7 @@ FWD_TS
 fx
 ts
 )
+\
 NS_IMETHODIMP
 \
 SocketTransportShim

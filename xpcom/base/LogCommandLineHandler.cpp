@@ -295,6 +295,8 @@ argument
 but
 another
 argument
+"
+"
 found
 "
 )
@@ -634,4 +636,5 @@ Truncate
 }
 /
 /
+namespace
 mozilla

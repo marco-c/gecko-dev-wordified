@@ -166,6 +166,7 @@ MB_OF
 w
 h
 )
+\
 (
 (
 unsigned
@@ -649,6 +650,7 @@ incoming
 frame
 size
 and
+*
 rate
 *
 param
@@ -1190,6 +1192,8 @@ aspect
 ratio
 as
 the
+/
+/
 input
 .
 mSimulcastAdapter
@@ -1525,6 +1529,8 @@ has
 less
 than
 one
+/
+/
 pixel
 .
 outWidth

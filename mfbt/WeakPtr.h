@@ -720,6 +720,7 @@ MOZILLA_INTERNAL_API
 )
 &
 &
+\
 defined
 (
 MOZ_THREAD_SAFETY_OWNERSHIP_CHECKS_SUPPORTED
@@ -1042,8 +1043,10 @@ define
 MOZ_WEAKPTR_INIT_THREAD_SAFETY_CHECK
 (
 )
+\
 do
 {
+\
 }
 while
 (
@@ -1054,8 +1057,10 @@ define
 MOZ_WEAKPTR_ASSERT_THREAD_SAFETY
 (
 )
+\
 do
 {
+\
 }
 while
 (
@@ -1067,8 +1072,10 @@ MOZ_WEAKPTR_ASSERT_THREAD_SAFETY_DELEGATED
 (
 that
 )
+\
 do
 {
+\
 }
 while
 (

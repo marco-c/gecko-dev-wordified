@@ -13028,6 +13028,8 @@ are
 native
 objects
 or
+/
+/
 proxies
 .
 char
@@ -19057,9 +19059,9 @@ as
 proto
 |
 return
+*
 true
 .
-*
 Since
 the
 values
@@ -19071,6 +19073,7 @@ we
 can
 just
 compare
+*
 pointers
 .
 *
@@ -23480,6 +23483,7 @@ name
 slot
 )
 {
+\
 slotname
 =
 js_
@@ -23490,6 +23494,7 @@ name
 #
 _str
 ;
+\
 }
 JS_FOR_EACH_PROTOTYPE
 (
@@ -26821,6 +26826,10 @@ out
 )
 ;
 }
+/
+/
+namespace
+js
 JS_FRIEND_API
 void
 js
@@ -27816,6 +27825,8 @@ DMD
 indicates
 it
 is
+/
+/
 worthwhile
 .
 if

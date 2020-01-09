@@ -3686,6 +3686,8 @@ list
 and
 install
 the
+/
+/
 property
 .
 if
@@ -3784,6 +3786,8 @@ a
 chain
 to
 contribute
+/
+/
 anonymous
 content
 if
@@ -4932,11 +4936,11 @@ multiple
 bindings
 to
 contribute
+/
+/
 anonymous
 content
 .
-/
-/
 Most
 derived
 binding
@@ -4944,6 +4948,8 @@ with
 anonymous
 content
 determines
+/
+/
 style
 inheritance
 for
@@ -4970,6 +4976,8 @@ my
 treecell
 -
 text
+/
+/
 binding
 ?
 if
@@ -7572,9 +7580,9 @@ and
 permanent
 just
 in
+/
+/
 case
-/
-/
 so
 should
 be

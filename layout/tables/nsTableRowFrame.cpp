@@ -319,6 +319,8 @@ cell
 can
 be
 a
+/
+/
 percentage
 base
 NS_WARNING_ASSERTION
@@ -3149,6 +3151,8 @@ cell
 '
 s
 height
+/
+/
 matters
 if
 (
@@ -4696,6 +4700,8 @@ handle
 rowspans
 into
 this
+/
+/
 row
 int32_t
 prevColIndex
@@ -4822,6 +4828,8 @@ reflow
 and
 ignore
 the
+/
+/
 results
 TableCellReflowInput
 kidReflowInput
@@ -5078,9 +5086,9 @@ rowspan
 add
 in
 the
+/
+/
 space
-/
-/
 NOTE
 :
 prevColIndex
@@ -5138,6 +5146,8 @@ column
 this
 cell
 spans
+/
+/
 into
 prevColIndex
 =
@@ -5527,6 +5537,8 @@ that
 we
 need
 to
+/
+/
 undo
 .
 cellFrame
@@ -5736,13 +5748,13 @@ not
 yet
 established
 so
+/
+/
 we
 cannot
 reposition
 our
 views
-/
-/
 the
 containing
 block
@@ -5750,6 +5762,8 @@ will
 do
 this
 for
+/
+/
 us
 after
 positioning
@@ -5781,9 +5795,9 @@ make
 sure
 any
 views
+/
+/
 are
-/
-/
 positioned
 properly
 .
@@ -5797,9 +5811,9 @@ any
 one
 of
 our
+/
+/
 parent
-/
-/
 frames
 could
 have
@@ -5898,6 +5912,8 @@ to
 absorb
 any
 excess
+/
+/
 difference
 nscoord
 ascent

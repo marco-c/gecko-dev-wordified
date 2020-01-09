@@ -107,11 +107,12 @@ define
 NS_ITRANSFORMOBSERVER_IID
 \
 {
+\
 0x04b2d17c
 0xe98d
 0x45f5
-\
 {
+\
 0x9a
 0x67
 0xb7
@@ -120,7 +121,9 @@ NS_ITRANSFORMOBSERVER_IID
 0x59
 0x7d
 0xe7
+\
 }
+\
 }
 class
 nsITransformObserver
@@ -168,11 +171,12 @@ define
 NS_IDOCUMENTTRANSFORMER_IID
 \
 {
+\
 0xf45e1ff8
 0x50f3
 0x4496
-\
 {
+\
 0xb3
 0xa2
 0x0e
@@ -181,7 +185,9 @@ NS_IDOCUMENTTRANSFORMER_IID
 0x4a
 0x57
 0x11
+\
 }
+\
 }
 class
 nsIDocumentTransformer

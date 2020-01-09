@@ -285,7 +285,7 @@ sRemoteWorkerService
 }
 /
 /
-anonymous
+namespace
 /
 *
 static
@@ -1105,10 +1105,10 @@ nsIObserver
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

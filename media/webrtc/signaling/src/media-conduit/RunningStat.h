@@ -297,6 +297,10 @@ mNewS
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

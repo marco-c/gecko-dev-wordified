@@ -157,6 +157,10 @@ SystemFontListEntry
 ;
 }
 ;
+/
+/
+namespace
+mozilla
 class
 gfxPlatformGtk
 :

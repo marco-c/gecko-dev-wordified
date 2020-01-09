@@ -193,6 +193,10 @@ DataChannel
 ;
 }
 ;
+/
+/
+namespace
+mozilla
 class
 nsDOMDataChannel
 final

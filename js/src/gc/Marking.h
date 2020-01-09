@@ -790,6 +790,7 @@ prefix
 template
 <
 >
+\
 struct
 RewrapTaggedPointer
 <

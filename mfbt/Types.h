@@ -557,6 +557,7 @@ IMPL_MFBT
 )
 |
 |
+\
 (
 defined
 (
@@ -571,6 +572,7 @@ MOZ_MEMORY
 )
 &
 &
+\
 (
 defined
 (

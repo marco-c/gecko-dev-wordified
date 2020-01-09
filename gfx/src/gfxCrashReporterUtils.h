@@ -163,6 +163,7 @@ FeatureName
 if
 you
 called
+*
 SetSuccessful
 (
 )
@@ -182,6 +183,7 @@ AppNotes
 and
 is
 subsequently
+*
 skipped
 .
 *
@@ -199,9 +201,9 @@ proof
 to
 use
 in
+*
 functions
 that
-*
 have
 many
 exit
@@ -215,13 +217,13 @@ want
 to
 encourage
 having
+*
 function
 with
 many
 exit
 points
 .
-*
 It
 just
 happens
@@ -229,6 +231,7 @@ that
 our
 graphics
 features
+*
 initialization
 functions
 are

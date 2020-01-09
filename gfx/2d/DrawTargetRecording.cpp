@@ -1013,9 +1013,11 @@ RecordEvent
 (
 RecordedFilterNodeSetAttribute
 (
+\
 this
 aIndex
 aValue
+\
 RecordedFilterNodeSetAttribute
 :
 :
@@ -1802,9 +1804,9 @@ try
 to
 load
 it
+/
+/
 from
-/
-/
 the
 system
 on
@@ -1851,6 +1853,8 @@ FillGlyphs
 failed
 to
 serialise
+"
+"
 UnscaledFont
 "
 ;
@@ -3032,6 +3036,8 @@ t
 create
 requested
 similar
+"
+"
 drawtarget
 "
 )
@@ -3165,6 +3171,8 @@ t
 create
 requested
 clipped
+"
+"
 drawtarget
 "
 )

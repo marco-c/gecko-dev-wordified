@@ -663,6 +663,10 @@ portion
 of
 the
 image
+/
+/
+/
+<
 specified
 by
 the

@@ -363,9 +363,6 @@ SEC_IMAGE
 /
 /
 namespace
-(
-unnamed
-)
 namespace
 base
 {

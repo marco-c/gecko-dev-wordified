@@ -233,6 +233,10 @@ SystemFontListEntry
 ;
 }
 ;
+/
+/
+namespace
+mozilla
 template
 <
 >

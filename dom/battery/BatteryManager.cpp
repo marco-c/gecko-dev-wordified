@@ -246,6 +246,7 @@ chargingchange
 #
 define
 DISCHARGINGTIMECHANGE_EVENT_NAME
+\
 NS_LITERAL_STRING
 (
 "

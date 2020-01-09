@@ -351,6 +351,8 @@ isn
 '
 t
 a
+/
+/
 number
 .
 return

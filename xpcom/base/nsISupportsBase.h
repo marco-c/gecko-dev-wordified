@@ -219,11 +219,12 @@ define
 NS_ISUPPORTS_IID
 \
 {
+\
 0x00000000
 0x0000
 0x0000
-\
 {
+\
 0xc0
 0x00
 0x00
@@ -232,7 +233,9 @@ NS_ISUPPORTS_IID
 0x00
 0x00
 0x46
+\
 }
+\
 }
 /
 *

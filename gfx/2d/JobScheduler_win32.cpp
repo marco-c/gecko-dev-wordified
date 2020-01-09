@@ -659,7 +659,9 @@ mShutdownEvent
 /
 /
 namespace
+gfx
 }
 /
 /
 namespace
+mozilla

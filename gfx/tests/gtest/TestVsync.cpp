@@ -616,6 +616,8 @@ display
 should
 get
 vsync
+/
+/
 notifications
 TEST_F
 (
@@ -736,6 +738,8 @@ refresh
 driver
 should
 get
+/
+/
 notifications
 TEST_F
 (

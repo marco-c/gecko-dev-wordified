@@ -415,6 +415,7 @@ LTI_DUMP
 rgn
 label
 )
+\
 if
 (
 !
@@ -426,6 +427,7 @@ IsEmpty
 (
 )
 )
+\
 printf_stderr
 (
 "
@@ -450,6 +452,7 @@ mLayer
 get
 (
 )
+\
 Stringify
 (
 rgn
@@ -929,8 +932,8 @@ reports
 invalidations
 to
 a
-PresShell
 *
+PresShell
 then
 report
 that

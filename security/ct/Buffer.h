@@ -152,9 +152,6 @@ Buffer
 /
 namespace
 mozilla
-:
-:
-ct
 #
 endif
 /

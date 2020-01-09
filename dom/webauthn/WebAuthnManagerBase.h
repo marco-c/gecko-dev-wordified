@@ -322,7 +322,15 @@ mChild
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

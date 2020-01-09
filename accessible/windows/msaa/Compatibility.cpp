@@ -832,6 +832,7 @@ define
 RETURN_ADDRESS
 (
 )
+\
 __builtin_extract_return_addr
 (
 __builtin_return_address

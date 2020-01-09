@@ -556,7 +556,15 @@ mOutputRect
 }
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 undef
 SIMPLE_PROP

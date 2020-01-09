@@ -824,7 +824,6 @@ AccessibleCaretEventHub
 aClassName
 (
 )
-\
 {
 \
 static

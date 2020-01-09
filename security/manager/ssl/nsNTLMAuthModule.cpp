@@ -688,19 +688,15 @@ NTLM_TYPE1_FLAGS
 (
 NTLM_NegotiateUnicode
 |
-\
 NTLM_NegotiateOEM
 |
-\
 NTLM_RequestTarget
 |
 \
 NTLM_NegotiateNTLMKey
 |
-\
 NTLM_NegotiateAlwaysSign
 |
-\
 NTLM_NegotiateNTLM2Key
 )
 static
@@ -789,6 +785,7 @@ to
 send
 something
 in
+*
 this
 spot
 *

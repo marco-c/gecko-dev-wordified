@@ -496,7 +496,15 @@ GfxInfo
 Init
 )
 }
+/
+/
+namespace
+widget
 }
+/
+/
+namespace
+mozilla
 #
 endif
 #

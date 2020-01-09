@@ -182,7 +182,6 @@ __cls
 )
 \
 bool
-\
 Option
 :
 :
@@ -196,9 +195,7 @@ Option
 (
 )
 const
-\
 {
-\
 return
 kind
 =
@@ -208,7 +205,6 @@ OptionKind
 #
 __cls
 ;
-\
 }
 \
 __cls
@@ -216,7 +212,6 @@ __cls
 #
 Option
 *
-\
 Option
 :
 :
@@ -229,7 +224,6 @@ __cls
 Option
 (
 )
-\
 {
 \
 MOZ_ASSERT
@@ -268,7 +262,6 @@ __cls
 #
 Option
 *
-\
 Option
 :
 :
@@ -282,7 +275,6 @@ Option
 (
 )
 const
-\
 {
 \
 return

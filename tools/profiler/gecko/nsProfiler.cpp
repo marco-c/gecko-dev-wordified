@@ -353,6 +353,8 @@ profiler
 rust
 module
 at
+/
+/
 tools
 /
 profiler
@@ -361,14 +363,14 @@ rust
 -
 helper
 .
-/
-/
 nsProfiler
 :
 :
 SymbolTable
 and
 CompactSymbolTable
+/
+/
 have
 identical
 memory
@@ -1079,6 +1081,9 @@ aStr
 }
 ;
 }
+/
+/
+namespace
 NS_IMETHODIMP
 nsProfiler
 :
@@ -1518,6 +1523,8 @@ JS
 context
 for
 some
+/
+/
 reason
 .
 promise
@@ -1882,6 +1889,8 @@ JS
 context
 for
 some
+/
+/
 reason
 .
 promise
@@ -2471,6 +2480,8 @@ JS
 context
 for
 some
+/
+/
 reason
 .
 promise

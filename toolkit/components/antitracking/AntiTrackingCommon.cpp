@@ -2618,7 +2618,7 @@ NS_OK
 }
 /
 /
-anonymous
+namespace
 /
 *
 static
@@ -2829,6 +2829,8 @@ d
 )
 bailing
 out
+"
+"
 early
 "
 StaticPrefs
@@ -3165,6 +3167,8 @@ principal
 and
 tracking
 origin
+"
+"
 bailing
 out
 early
@@ -3455,6 +3459,8 @@ privacy
 .
 restrict3rdpartystorage
 .
+"
+"
 userInteractionRequiredForHosts
 "
 )
@@ -3834,6 +3840,8 @@ permission
 for
 us
 :
+"
+"
 trackingOrigin
 =
 %
@@ -3870,9 +3878,9 @@ have
 the
 content
 process
+/
+/
 sending
-/
-/
 the
 request
 of
@@ -4137,6 +4145,8 @@ on
 %
 s
 for
+"
+"
 trackingOrigin
 =
 %
@@ -4362,11 +4372,11 @@ sure
 to
 store
 a
+/
+/
 session
 -
 only
-/
-/
 permission
 which
 won
@@ -4408,6 +4418,8 @@ to
 save
 in
 the
+"
+"
 permission
 manager
 "
@@ -4559,6 +4571,8 @@ to
 save
 in
 the
+"
+"
 permission
 manager
 "
@@ -5123,6 +5137,8 @@ the
 window
 '
 s
+"
+"
 principal
 instead
 "
@@ -5171,6 +5187,8 @@ non
 -
 default
 access
+"
+"
 code
 (
 %
@@ -5268,6 +5286,8 @@ non
 -
 default
 access
+"
+"
 code
 (
 %
@@ -6378,6 +6398,8 @@ loadInfo
 '
 s
 loading
+"
+"
 principal
 instead
 "
@@ -6480,6 +6502,8 @@ this
 is
 a
 document
+"
+"
 channel
 "
 "
@@ -6598,6 +6622,8 @@ the
 loadInfo
 '
 s
+"
+"
 triggering
 principal
 instead
@@ -6677,6 +6703,8 @@ non
 -
 default
 access
+"
+"
 code
 (
 %
@@ -6807,6 +6835,8 @@ non
 -
 default
 access
+"
+"
 code
 (
 %
@@ -7375,6 +7405,8 @@ happening
 !
 Bail
 out
+"
+"
 early
 "
 )
@@ -8094,6 +8126,8 @@ non
 -
 default
 access
+"
+"
 code
 (
 %
@@ -8740,6 +8774,8 @@ browsing
 mode
 user
 override
+/
+/
 permissions
 .
 Pair
@@ -9678,11 +9714,11 @@ sure
 to
 store
 a
+/
+/
 session
 -
 only
-/
-/
 permission
 which
 won

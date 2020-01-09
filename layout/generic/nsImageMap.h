@@ -204,6 +204,10 @@ HTMLAreaElement
 ;
 }
 }
+/
+/
+namespace
+mozilla
 class
 nsImageMap
 final

@@ -1318,8 +1318,8 @@ the
 entry
 that
 was
-found
 *
+found
 or
 created
 *
@@ -3566,7 +3566,7 @@ using
 Base
 :
 :
-GetGeneration
+Clear
 ;
 using
 Base
@@ -3578,13 +3578,13 @@ using
 Base
 :
 :
-IsEmpty
+GetGeneration
 ;
 using
 Base
 :
 :
-Clear
+IsEmpty
 ;
 using
 Base

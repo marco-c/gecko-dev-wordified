@@ -3265,7 +3265,6 @@ assignTo
 )
 \
 {
-\
 assignTo
 =
 mCachedData
@@ -3274,7 +3273,6 @@ mDynamicData
 .
 member
 ;
-\
 }
 #
 define
@@ -3285,7 +3283,6 @@ assignTo
 )
 \
 {
-\
 assignTo
 =
 CopyBSTR
@@ -3297,7 +3294,6 @@ mDynamicData
 member
 )
 ;
-\
 }
 /
 *

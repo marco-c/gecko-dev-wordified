@@ -542,8 +542,10 @@ MOZ_ASSERT_JNI_THREAD
 (
 thread
 )
+\
 do
 {
+\
 }
 while
 (
@@ -791,10 +793,12 @@ GetUIThreadId
 }
 /
 /
+namespace
 jni
 }
 /
 /
+namespace
 mozilla
 #
 endif

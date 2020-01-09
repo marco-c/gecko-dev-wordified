@@ -162,9 +162,11 @@ BEGIN_QUOTA_NAMESPACE
 namespace
 mozilla
 {
+\
 namespace
 dom
 {
+\
 namespace
 quota
 {
@@ -179,6 +181,7 @@ namespace
 quota
 *
 /
+\
 }
 /
 *
@@ -186,6 +189,7 @@ namespace
 dom
 *
 /
+\
 }
 /
 *
@@ -196,7 +200,6 @@ mozilla
 #
 define
 USING_QUOTA_NAMESPACE
-\
 using
 namespace
 mozilla

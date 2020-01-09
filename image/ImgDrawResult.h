@@ -560,8 +560,8 @@ ImgDrawResult
 :
 SUCCESS
 .
-Otherwise
 *
+Otherwise
 a
 failing
 ImgDrawResult
@@ -575,9 +575,9 @@ left
 operand
 '
 s
+*
 failure
 when
-*
 deciding
 which
 failure
@@ -588,9 +588,9 @@ the
 exception
 that
 we
+*
 always
 prefer
-*
 any
 other
 kind
@@ -602,9 +602,9 @@ ImgDrawResult
 :
 BAD_IMAGE
 since
+*
 other
 failures
-*
 are
 recoverable
 and
@@ -615,6 +615,7 @@ know
 if
 any
 recoverable
+*
 failures
 occurred
 .

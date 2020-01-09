@@ -132,8 +132,8 @@ mRandomTimelineSeed
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 /

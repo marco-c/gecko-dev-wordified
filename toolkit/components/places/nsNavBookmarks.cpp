@@ -306,6 +306,7 @@ bookmarks
 #
 define
 BOOKMARKS_TOOLBAR_FOLDER_ANNO
+\
 NS_LITERAL_CSTRING
 (
 BOOKMARKS_ANNO_PREFIX
@@ -560,6 +561,8 @@ moz_places
 WHERE
 url_hash
 =
+"
+"
 hash
 (
 :
@@ -9837,6 +9840,8 @@ hash
 '
 place
 '
+"
+"
 '
 prefix_hi
 '
@@ -10806,6 +10811,8 @@ hash
 '
 place
 '
+"
+"
 '
 prefix_hi
 '
@@ -11435,6 +11442,8 @@ guid
 t
 .
 parent
+"
+"
 b
 .
 syncStatus
@@ -11471,6 +11480,8 @@ moz_places
 WHERE
 url_hash
 =
+"
+"
 hash
 (
 :

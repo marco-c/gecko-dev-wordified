@@ -4333,7 +4333,7 @@ gc
 }
 /
 /
-namesapce
+namespace
 js
 namespace
 JS

@@ -167,6 +167,7 @@ endif
 }
 /
 /
+namespace
 mozilla
 #
 endif

@@ -327,14 +327,19 @@ b
 \
 ASSERT_DEATH_IF_SUPPORTED
 (
+\
 {
+\
 DisableCrashReporter
 (
 )
 ;
+\
 a
 ;
+\
 }
+\
 b
 )
 #
@@ -2284,6 +2289,8 @@ Test
 various
 size
 class
+/
+/
 transitions
 .
 for
@@ -3225,6 +3232,8 @@ because
 it
 leads
 to
+/
+/
 timeout
 .
 #

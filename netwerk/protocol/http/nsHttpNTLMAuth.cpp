@@ -1585,11 +1585,11 @@ supported
 by
 windows
 nsAuthSSPI
+/
+/
 module
 .
 )
-/
-/
 Note
 for
 servers
@@ -1604,9 +1604,9 @@ the
 user
 '
 s
+/
+/
 password
-/
-/
 will
 be
 sent
@@ -1619,9 +1619,9 @@ internal
 apis
 to
 decide
+/
+/
 whether
-/
-/
 we
 should
 support
@@ -1632,6 +1632,8 @@ secure
 version
 of
 the
+/
+/
 protocol
 .
 module
@@ -1700,6 +1702,8 @@ user
 has
 specifically
 requested
+/
+/
 so
 .
 if
@@ -1731,6 +1735,8 @@ on
 our
 internal
 NTLM
+/
+/
 implementation
 .
 if

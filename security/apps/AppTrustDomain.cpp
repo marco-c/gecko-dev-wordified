@@ -1882,11 +1882,12 @@ extensionData
 {
 }
 }
+/
+/
+namespace
+psm
 }
 /
 /
 namespace
 mozilla
-:
-:
-psm

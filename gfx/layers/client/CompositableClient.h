@@ -514,8 +514,8 @@ compositor
 side
 know
 which
-CompositableHost
 *
+CompositableHost
 to
 use
 for
@@ -589,8 +589,8 @@ map
 on
 the
 compositor
-side
 *
+side
 see
 CompositableMap
 in
@@ -623,8 +623,8 @@ We
 have
 a
 different
-subclass
 *
+subclass
 where
 we
 have
@@ -638,9 +638,9 @@ the
 textures
 -
 in
+*
 terms
 of
-*
 drawing
 into
 the
@@ -653,6 +653,7 @@ its
 contents
 to
 the
+*
 compostior
 .
 *
@@ -1085,8 +1086,8 @@ TextureClient
 from
 a
 Compositable
-because
 *
+because
 some
 platforms
 need
@@ -1098,6 +1099,7 @@ book
 keeping
 when
 this
+*
 happens
 .
 *

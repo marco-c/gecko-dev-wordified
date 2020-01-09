@@ -1567,9 +1567,9 @@ the
 offset
 in
 this
+/
+/
 hypertext
-/
-/
 We
 want
 the
@@ -1583,6 +1583,8 @@ text
 (
 rendered
 text
+/
+/
 without
 the
 extra
@@ -1931,6 +1933,8 @@ based
 on
 forward
 depth
+/
+/
 first
 search
 )
@@ -2018,6 +2022,8 @@ no
 text
 in
 a
+/
+/
 control
 return
 0
@@ -2345,9 +2351,9 @@ into
 offset
 relative
 this
+/
+/
 hypertext
-/
-/
 offset
 then
 return
@@ -3965,9 +3971,9 @@ t
 find
 the
 DOM
+/
+/
 point
-/
-/
 and
 we
 '
@@ -8469,6 +8475,8 @@ that
 container
 '
 s
+/
+/
 editor
 Accessible
 *
@@ -9705,6 +9713,8 @@ text
 there
 is
 no
+/
+/
 line
 iterator
 }

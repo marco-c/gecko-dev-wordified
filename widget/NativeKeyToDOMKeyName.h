@@ -466,7 +466,6 @@ aAppCommand
 NS_APPCOMMAND_TO_DOM_KEY_NAME_INDEX
 (
 aAppCommand
-\
 KEY_NAME_INDEX_
 #
 #

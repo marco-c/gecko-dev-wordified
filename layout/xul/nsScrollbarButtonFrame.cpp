@@ -1478,10 +1478,10 @@ that
 a
 scrollbar
 can
+/
+/
 disappear
 out
-/
-/
 from
 under
 you

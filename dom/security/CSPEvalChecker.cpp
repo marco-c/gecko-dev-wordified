@@ -497,7 +497,7 @@ mResult
 }
 /
 /
-anonymous
+namespace
 /
 *
 static

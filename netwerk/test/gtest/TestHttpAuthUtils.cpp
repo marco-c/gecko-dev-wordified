@@ -316,4 +316,4 @@ net
 /
 /
 namespace
-mozila
+mozilla

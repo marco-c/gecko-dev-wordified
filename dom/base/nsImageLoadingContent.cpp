@@ -4557,7 +4557,6 @@ object
 ImageLoadType
 loadType
 =
-\
 (
 mCurrentRequestFlags
 &
@@ -5170,6 +5169,8 @@ shouldn
 t
 perform
 image
+/
+/
 loading
 .
 if
@@ -5491,9 +5492,9 @@ preferences
 load
 img
 referrer
+/
+/
 attribute
-/
-/
 if
 the
 image
@@ -5608,11 +5609,11 @@ this
 node
 has
 specified
+/
+/
 '
 triggeringprincipal
 '
-/
-/
 attribute
 on
 it
@@ -5623,6 +5624,8 @@ favicon
 as
 the
 policy
+/
+/
 type
 .
 nsContentPolicyType
@@ -7540,7 +7543,6 @@ mCurrentRequest
 ImageLoadType
 loadType
 =
-\
 (
 mPendingRequestFlags
 &

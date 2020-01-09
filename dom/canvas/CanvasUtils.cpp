@@ -938,6 +938,8 @@ point
 permission
 is
 unknown
+/
+/
 (
 nsIPermissionManager
 :
@@ -998,6 +1000,8 @@ data
 because
 no
 user
+"
+"
 input
 was
 detected
@@ -1095,6 +1099,8 @@ data
 but
 prompting
 the
+"
+"
 user
 .
 "

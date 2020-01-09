@@ -684,6 +684,10 @@ mOutputBuffers
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

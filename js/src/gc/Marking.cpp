@@ -1758,6 +1758,8 @@ not
 poisoned
 case
 a
+/
+/
 single
 test
 .
@@ -3753,6 +3755,7 @@ JSTracer
 *
 type
 *
+\
 const
 char
 *
@@ -3770,11 +3773,11 @@ UnsafeTraceManuallyBarrieredEdge
 type
 >
 (
+\
 JSTracer
 *
 type
 *
-\
 const
 char
 *
@@ -3795,6 +3798,7 @@ TraceExternalEdge
 type
 >
 (
+\
 JSTracer
 *
 type
@@ -3875,6 +3879,7 @@ size_t
 len
 type
 *
+\
 const
 char
 *
@@ -4674,6 +4679,8 @@ types
 are
 allowed
 into
+"
+"
 marking
 /
 tracing
@@ -6834,6 +6841,8 @@ mark
 their
 internal
 pointers
+/
+/
 respectively
 .
 MOZ_ASSERT
@@ -7065,6 +7074,8 @@ both
 things
 they
 must
+/
+/
 match
 .
 MOZ_ASSERT_IF
@@ -7246,12 +7257,14 @@ addToCCKind
 template
 <
 >
+\
 struct
 TypeParticipatesInCC
 <
 type
 >
 {
+\
 static
 const
 bool
@@ -7259,6 +7272,7 @@ value
 =
 addToCCKind
 ;
+\
 }
 ;
 JS_FOR_EACH_TRACEKIND
@@ -12970,6 +12984,8 @@ scanning
 obj2
 '
 s
+/
+/
 children
 .
 pushValueArray
@@ -16189,6 +16205,8 @@ look
 like
 a
 valid
+"
+"
 tagged
 pointer
 "
@@ -22571,6 +22589,8 @@ types
 are
 allowed
 into
+"
+"
 marking
 /
 tracing
@@ -24904,4 +24924,12 @@ mask
 ;
 }
 }
+/
+/
+namespace
+debug
 }
+/
+/
+namespace
+js

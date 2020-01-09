@@ -1297,6 +1297,8 @@ fail
 in
 Win
 7
+/
+/
 debug
 .
 if
@@ -1938,7 +1940,6 @@ status
 .
 ShouldQuit
 ;
-\
 }
 else
 {
@@ -5737,6 +5738,8 @@ for
 Oculus
 texture
 swap
+"
+"
 chain
 .
 "
@@ -9484,9 +9487,9 @@ i
 /
 /
 namespace
-mozilla
+gfx
 }
 /
 /
 namespace
-gfx
+mozilla

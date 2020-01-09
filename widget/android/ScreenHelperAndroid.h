@@ -222,10 +222,12 @@ mScreens
 }
 /
 /
+namespace
 widget
 }
 /
 /
+namespace
 mozilla
 #
 endif

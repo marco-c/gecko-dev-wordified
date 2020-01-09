@@ -592,6 +592,8 @@ managed
 /
 updated
 by
+/
+/
 LayerTransactionParent
 .
 class
@@ -2213,8 +2215,8 @@ with
 the
 compositable
 from
-aMaskLayer
 *
+aMaskLayer
 to
 the
 EffectChain
@@ -2225,6 +2227,7 @@ the
 compositable
 when
 we
+*
 are
 done
 .
@@ -3062,6 +3065,8 @@ type
 not
 accepting
 a
+"
+"
 compositable
 "
 )
@@ -3714,6 +3719,8 @@ type
 not
 accepting
 a
+"
+"
 compositable
 "
 )
@@ -4817,6 +4824,8 @@ background
 which
 is
 in
+/
+/
 originalTarget
 )
 .

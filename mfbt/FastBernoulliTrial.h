@@ -1345,8 +1345,8 @@ trial
 returns
 true
 and
-in
 *
+in
 portion
 1
 -
@@ -1364,9 +1364,9 @@ count
 is
 two
 or
+*
 more
 .
-*
 So
 we
 return
@@ -1385,9 +1385,9 @@ proportion
 .
 3
 and
+*
 skip
 at
-*
 least
 the
 first
@@ -1992,8 +1992,8 @@ then
 compute
 a
 new
-skip
 *
+skip
 count
 .
 *

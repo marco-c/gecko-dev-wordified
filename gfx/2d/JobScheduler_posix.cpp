@@ -820,8 +820,10 @@ mMutex
 }
 /
 /
-namespce
+namespace
+gfx
 }
 /
 /
-namespce
+namespace
+mozilla

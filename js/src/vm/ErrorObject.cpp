@@ -895,6 +895,8 @@ storing
 it
 as
 a
+/
+/
 double
 .
 MOZ_RELEASE_ASSERT

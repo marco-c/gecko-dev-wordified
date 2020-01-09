@@ -487,6 +487,8 @@ the
 way
 RecordedProcessType
 is
+/
+/
 defined
 .
 bool

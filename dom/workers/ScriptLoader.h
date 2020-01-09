@@ -292,8 +292,8 @@ workerinternals
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /

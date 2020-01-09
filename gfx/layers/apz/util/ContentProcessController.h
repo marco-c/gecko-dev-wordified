@@ -167,8 +167,8 @@ a
 TabChild
 and
 is
-always
 *
+always
 remoted
 using
 PAPZ
@@ -202,8 +202,8 @@ content
 process
 and
 is
-destroyed
 *
+destroyed
 when
 the
 Destroy
@@ -227,14 +227,15 @@ a
 new
 method
 on
-GeckoContentController
 *
+GeckoContentController
 PAPZ
 APZChild
 and
 RemoteContentController
 must
 be
+*
 updated
 to
 handle

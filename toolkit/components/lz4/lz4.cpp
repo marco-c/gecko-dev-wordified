@@ -185,9 +185,9 @@ situations
 input
 data
 not
+*
 compressible
 )
-*
 Worst
 case
 size
@@ -196,6 +196,7 @@ is
 provided
 by
 function
+*
 LZ4_compressBound
 (
 )

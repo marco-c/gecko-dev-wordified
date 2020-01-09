@@ -282,6 +282,7 @@ size
 #
 define
 STRETCH_CONSIDER_EMBELLISHMENTS
+\
 0x00000002
 /
 /
@@ -854,11 +855,11 @@ g
 this
 happens
 with
+/
+/
 <
 msub
 >
-/
-/
 <
 msup
 >
@@ -873,9 +874,9 @@ is
 the
 default
 behavior
+/
+/
 implemented
-/
-/
 by
 this
 base
@@ -966,6 +967,8 @@ way
 we
 ask
 our
+/
+/
 parent
 /
 /
@@ -994,11 +997,11 @@ that
 our
 siblings
 are
+/
+/
 re
 -
 laid
-/
-/
 too
 (
 e
@@ -1014,6 +1017,8 @@ munder
 <
 mover
 >
+/
+/
 <
 munderover
 >
@@ -1528,9 +1533,9 @@ and
 notify
 our
 parent
+/
+/
 to
-/
-/
 reflow
 us
 when
@@ -1550,6 +1555,8 @@ happen
 in
 our
 child
+/
+/
 list
 virtual
 nsresult
@@ -2680,6 +2687,8 @@ TransmitAutomaticData
 )
 .
 see
+/
+/
 RebuildAutomaticDataForChildren
 /
 /
@@ -3058,10 +3067,10 @@ would
 have
 to
 be
+/
+/
 cleaned
 )
-/
-/
 Issues
 :
 If
@@ -3074,6 +3083,8 @@ pluggable
 component
 the
 separation
+/
+/
 will
 be
 needed
@@ -3136,6 +3147,8 @@ doesn
 '
 t
 set
+/
+/
 mFrames
 virtual
 void

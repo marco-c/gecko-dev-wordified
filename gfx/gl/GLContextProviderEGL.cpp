@@ -105,6 +105,7 @@ GET_NATIVE_WINDOW_FROM_REAL_WIDGET
 (
 aWidget
 )
+\
 (
 (
 EGLNativeWindowType
@@ -123,6 +124,7 @@ GET_NATIVE_WINDOW_FROM_COMPOSITOR_WIDGET
 (
 aWidget
 )
+\
 (
 (
 EGLNativeWindowType
@@ -137,6 +139,7 @@ RealWidget
 >
 GetNativeData
 (
+\
 NS_NATIVE_EGL_WINDOW
 )
 )
@@ -152,6 +155,7 @@ GET_NATIVE_WINDOW_FROM_REAL_WIDGET
 (
 aWidget
 )
+\
 (
 (
 EGLNativeWindowType
@@ -170,6 +174,7 @@ GET_NATIVE_WINDOW_FROM_COMPOSITOR_WIDGET
 (
 aWidget
 )
+\
 (
 aWidget
 -
@@ -195,6 +200,7 @@ GET_NATIVE_WINDOW_FROM_REAL_WIDGET
 (
 aWidget
 )
+\
 (
 (
 EGLNativeWindowType
@@ -213,6 +219,7 @@ GET_NATIVE_WINDOW_FROM_COMPOSITOR_WIDGET
 (
 aWidget
 )
+\
 (
 (
 EGLNativeWindowType
@@ -237,6 +244,7 @@ GET_NATIVE_WINDOW_FROM_REAL_WIDGET
 (
 aWidget
 )
+\
 (
 (
 EGLNativeWindowType
@@ -255,6 +263,7 @@ GET_NATIVE_WINDOW_FROM_COMPOSITOR_WIDGET
 (
 aWidget
 )
+\
 (
 (
 EGLNativeWindowType
@@ -770,6 +779,7 @@ _array
 _k
 _v
 )
+\
 do
 {
 \
@@ -805,6 +815,7 @@ ADD_ATTR_1
 _array
 _k
 )
+\
 do
 {
 \
@@ -1547,6 +1558,8 @@ ANGLE
 use
 correct
 framebuffer
+/
+/
 formart
 const
 int
@@ -2571,12 +2584,12 @@ Don
 t
 try
 to
+/
+/
 optimize
 this
 away
 .
-/
-/
 If
 we
 get
@@ -2589,6 +2602,8 @@ know
 that
 we
 want
+/
+/
 to
 get
 a
@@ -4167,6 +4182,8 @@ properly
 create
 the
 pbuffer
+/
+/
 (
 bug
 981856
@@ -5761,10 +5778,10 @@ sorting
 dictated
 by
 the
+/
+/
 spec
 for
-/
-/
 eglChooseConfig
 reasonably
 assures
@@ -5775,6 +5792,8 @@ reasonable
 best
 '
 config
+/
+/
 is
 on
 top
@@ -6735,6 +6754,8 @@ groups
 across
 2
 threads
+/
+/
 fail
 on
 many
@@ -6744,8 +6765,6 @@ drivers
 bug
 759225
 )
-/
-/
 and
 2
 )
@@ -6754,6 +6773,8 @@ mobile
 devices
 have
 a
+/
+/
 very
 strict
 limit
@@ -6767,12 +6788,12 @@ contexts
 bug
 754257
 )
-/
-/
 and
 3
 )
 each
+/
+/
 EGL
 context
 eats

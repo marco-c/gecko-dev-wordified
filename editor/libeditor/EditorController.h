@@ -143,6 +143,8 @@ its
 commands
 is
 an
+/
+/
 nsIEditor
 .
 class

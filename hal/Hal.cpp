@@ -1690,14 +1690,12 @@ name_
 #
 ObserversManager
 *
-\
 name_
 #
 #
 Observers
 (
 )
-\
 {
 \
 AssertMainThread
@@ -1759,7 +1757,6 @@ Observers
 \
 \
 void
-\
 Register
 #
 #
@@ -1775,7 +1772,6 @@ Observer
 *
 aObserver
 )
-\
 {
 \
 AssertMainThread
@@ -1801,7 +1797,6 @@ aObserver
 \
 \
 void
-\
 Unregister
 #
 #
@@ -1817,7 +1812,6 @@ Observer
 *
 aObserver
 )
-\
 {
 \
 AssertMainThread

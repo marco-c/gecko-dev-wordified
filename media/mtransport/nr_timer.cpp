@@ -974,8 +974,8 @@ nrappkitScheduledCallback
 }
 /
 /
-close
 namespace
+mozilla
 using
 namespace
 mozilla

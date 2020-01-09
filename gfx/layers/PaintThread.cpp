@@ -1331,10 +1331,10 @@ may
 hold
 on
 to
+/
+/
 UnscaledFont
 objects
-/
-/
 gets
 destroyed
 on
@@ -1344,6 +1344,8 @@ thread
 (
 See
 bug
+/
+/
 1404742
 )
 .
@@ -1353,12 +1355,12 @@ assumes
 unflushed
 )
 target
-/
-/
 DrawTargets
 do
 not
 themselves
+/
+/
 hold
 on
 to

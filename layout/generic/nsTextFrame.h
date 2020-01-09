@@ -2322,8 +2322,8 @@ is
 passed
 as
 an
-argument
 *
+argument
 to
 the
 NotifyBefore
@@ -2337,10 +2337,10 @@ The
 nscolor
 can
 take
+*
 on
 one
 of
-*
 the
 three
 selection
@@ -3469,9 +3469,9 @@ this
 means
 starting
 at
+/
+/
 mContentOffset
-/
-/
 and
 going
 to
@@ -3485,9 +3485,9 @@ or
 the
 next
 bidi
+/
+/
 continuation
-/
-/
 boundary
 .
 int32_t
@@ -3823,9 +3823,9 @@ from
 all
 frames
 that
+*
 hold
 a
-*
 reference
 to
 it
@@ -4325,6 +4325,8 @@ overlapping
 or
 leaving
 any
+/
+/
 gaps
 .
 int32_t

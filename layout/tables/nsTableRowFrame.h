@@ -189,8 +189,8 @@ its
 parent
 is
 an
-nsTableRowGroupFrame
 *
+nsTableRowGroupFrame
 and
 its
 children
@@ -525,9 +525,9 @@ same
 height
 and
 stacked
+*
 horizontally
 .
-*
 <
 P
 >
@@ -539,10 +539,10 @@ unless
 absolutely
 necessary
 .
-*
 <
 P
 >
+*
 Cells
 are
 resized
@@ -551,8 +551,8 @@ nsTableFrame
 :
 :
 BalanceColumnWidths
-*
 and
+*
 nsTableFrame
 :
 :
@@ -573,8 +573,8 @@ the
 cells
 height
 set
-to
 *
+to
 height
 of
 cells
@@ -1655,6 +1655,8 @@ style
 bsize
 on
 the
+/
+/
 row
 or
 any
@@ -1678,6 +1680,8 @@ bsize
 on
 the
 row
+/
+/
 or
 any
 cell
@@ -1701,6 +1705,8 @@ bstart
 -
 most
 newly
+/
+/
 inserted
 row
 }
@@ -1795,6 +1801,8 @@ vertical
 -
 align
 :
+/
+/
 baseline
 '
 nscoord

@@ -155,9 +155,9 @@ Base
 class
 for
 frame
+*
 and
 child
-*
 process
 message
 managers

@@ -243,8 +243,8 @@ with
 input
 blocks
 "
-until
 *
+until
 they
 are
 ready

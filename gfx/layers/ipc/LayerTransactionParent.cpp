@@ -1001,10 +1001,10 @@ messages
 because
 the
 latter
+/
+/
 may
 contain
-/
-/
 references
 to
 some
@@ -2763,10 +2763,10 @@ to
 attach
 a
 stale
+/
+/
 CompositableHandle
 .
-/
-/
 Rather
 than
 break
@@ -2774,6 +2774,8 @@ the
 whole
 transaction
 we
+/
+/
 just
 continue
 .
@@ -3263,6 +3265,8 @@ it
 take
 4
 times
+/
+/
 longer
 TimeDuration
 latency
@@ -3355,6 +3359,8 @@ process
 %
 d
 took
+"
+"
 %
 f
 ms
@@ -4665,9 +4671,9 @@ SetShadowProperties
 and
 when
 animation
+/
+/
 recalculates
-/
-/
 the
 value
 .
@@ -6109,6 +6115,8 @@ latencyMs
 %
 d
 this
+"
+"
 %
 p
 \
@@ -6154,6 +6162,8 @@ frame
 latencyMs
 %
 d
+"
+"
 this
 %
 p

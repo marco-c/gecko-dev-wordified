@@ -408,8 +408,8 @@ during
 the
 current
 download
-session
 *
+session
 used
 for
 telemetry

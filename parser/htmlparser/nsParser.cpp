@@ -2618,6 +2618,7 @@ EXPR1
 EXPR2
 RV
 )
+\
 {
 \
 nsresult
@@ -3487,6 +3488,8 @@ guarantee
 the
 call
 to
+/
+/
 DidBuildModel
 (
 )
@@ -3794,6 +3797,8 @@ DidBuildModel
 looks
 at
 the
+/
+/
 pendingContinueEvents
 flag
 .
@@ -5453,9 +5458,9 @@ final
 context
 -
 Fix
+/
+/
 68160
-/
-/
 to
 guarantee
 DidBuildModel
@@ -9631,12 +9636,12 @@ of
 NS_PARSER_FLAG_OBSERVERS_ENABLED
 to
 fix
+/
+/
 Bug
 #
 23931
 .
-/
-/
 Flush
 tokens
 on

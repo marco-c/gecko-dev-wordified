@@ -959,9 +959,9 @@ Type
 /
 /
 namespace
-mozilla
+dom
 }
 /
 /
 namespace
-dom
+mozilla

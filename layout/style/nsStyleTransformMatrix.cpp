@@ -7024,11 +7024,11 @@ sec
 )
 )
 =
+*
 sec
 (
 )
 .
-*
 Thus
 after
 step
@@ -7055,11 +7055,11 @@ sec
 (
 )
 =
+*
 sin
 (
 )
 .
-*
 In
 step
 4
@@ -7071,13 +7071,13 @@ sin
 (
 )
 .
-*
 Thus
 after
 step
 4
 C
 =
+*
 -
 cos
 (
@@ -7098,7 +7098,6 @@ cos
 (
 )
 .
-*
 Thus
 in
 step
@@ -7107,6 +7106,7 @@ the
 Y
 scale
 is
+*
 sqrt
 (
 cos
@@ -7126,7 +7126,6 @@ cos
 (
 )
 .
-*
 Thus
 after
 step
@@ -7138,6 +7137,7 @@ sin
 (
 )
 D
+*
 =
 cos
 (
@@ -7151,7 +7151,6 @@ tan
 (
 )
 .
-*
 Thus
 in
 step
@@ -7164,6 +7163,7 @@ B
 *
 C
 =
+*
 cos
 (
 )
@@ -7174,7 +7174,6 @@ sin
 =
 1
 .
-*
 In
 step
 7
@@ -7267,11 +7266,11 @@ sec
 )
 )
 =
+*
 sec
 (
 )
 .
-*
 Thus
 after
 step
@@ -7298,11 +7297,11 @@ sec
 (
 )
 =
+*
 sin
 (
 )
 .
-*
 In
 step
 4
@@ -7321,7 +7320,6 @@ sin
 (
 )
 .
-*
 Thus
 after
 step

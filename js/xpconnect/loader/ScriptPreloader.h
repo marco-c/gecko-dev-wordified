@@ -325,6 +325,10 @@ T
 }
 ;
 }
+/
+/
+namespace
+loader
 using
 namespace
 mozilla
@@ -812,11 +816,11 @@ and
 mToken
 has
 a
+/
+/
 non
 -
 null
-/
-/
 value
 .
 /
@@ -850,9 +854,9 @@ is
 true
 and
 both
+/
+/
 mToken
-/
-/
 and
 mScript
 are

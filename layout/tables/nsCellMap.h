@@ -213,6 +213,8 @@ the
 col
 via
 colspans
+/
+/
 (
 not
 rowspans
@@ -498,6 +500,7 @@ and
 return
 the
 col
+*
 index
 *
 /
@@ -685,6 +688,7 @@ table
 represented
 by
 this
+*
 CellMap
 *
 /
@@ -1209,8 +1213,8 @@ corresponds
 to
 the
 ordering
-of
 *
+of
 rowgroups
 once
 OrderRowGroups
@@ -1288,9 +1292,9 @@ of
 the
 table
 are
+*
 mapped
 .
-*
 This
 makes
 processing
@@ -1744,8 +1748,8 @@ cellframe
 which
 will
 be
-appended
 *
+appended
 to
 the
 row
@@ -1785,8 +1789,8 @@ the
 cellmap
 as
 this
-rowspan
 *
+rowspan
 might
 overlap
 another
@@ -1803,6 +1807,7 @@ coordinates
 which
 have
 been
+*
 updated
 .
 *

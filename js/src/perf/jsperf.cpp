@@ -219,7 +219,6 @@ name
 \
 static
 bool
-\
 pm_get_
 #
 #
@@ -234,7 +233,6 @@ Value
 *
 vp
 )
-\
 {
 \
 CallArgs
@@ -269,7 +267,6 @@ if
 !
 p
 )
-\
 return
 false
 ;
@@ -697,7 +694,6 @@ GETTER
 (
 name
 )
-\
 JS_PSG
 (
 #
@@ -793,6 +789,7 @@ CONSTANT
 (
 name
 )
+\
 {
 #
 name

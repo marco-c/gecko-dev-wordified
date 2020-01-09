@@ -283,7 +283,15 @@ class
 SVGGeometryElement
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 namespace
 mozilla
 {
@@ -858,8 +866,8 @@ set
 *
 aOK
 to
-false
 *
+false
 if
 the
 frame

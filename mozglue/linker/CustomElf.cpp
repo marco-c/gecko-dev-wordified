@@ -4547,10 +4547,10 @@ don
 '
 t
 care
+*
 about
 .
 See
-*
 DF_1_
 *
 values
@@ -4564,6 +4564,7 @@ elf
 common
 .
 h
+*
 in
 binutils
 .

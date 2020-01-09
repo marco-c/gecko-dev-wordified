@@ -233,8 +233,8 @@ if
 at
 the
 presenting
-sender
 *
+sender
 side
 ;
 whereas
@@ -248,9 +248,9 @@ an
 InitWithChannelDescription
 |
 if
+*
 at
 the
-*
 presenting
 receiver
 side

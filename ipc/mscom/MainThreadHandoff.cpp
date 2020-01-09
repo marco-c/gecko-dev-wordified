@@ -2337,9 +2337,9 @@ the
 short
 term
 .
+/
+/
 In
-/
-/
 the
 longer
 term
@@ -2412,10 +2412,10 @@ outparam
 interfaces
 that
 need
+/
+/
 wrapping
 .
-/
-/
 NB
 :
 WalkFrame
@@ -2427,10 +2427,10 @@ array
 outparams
 .
 It
+/
+/
 processes
 the
-/
-/
 first
 element
 of
@@ -2441,6 +2441,8 @@ not
 the
 remaining
 elements
+/
+/
 (
 if
 any

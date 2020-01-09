@@ -502,10 +502,12 @@ mEvent
 /
 /
 namespace
+gfx
 }
 /
 /
 namespace
+mozilla
 #
 endif
 #

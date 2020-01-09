@@ -670,6 +670,8 @@ content
 /
 Specs
 :
+/
+/
 https
 :
 /
@@ -708,6 +710,8 @@ no
 referrer
 policy
 or
+/
+/
 RP_Unset
 if
 (

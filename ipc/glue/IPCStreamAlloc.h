@@ -147,13 +147,13 @@ AllocPParentToChildStreamChild
 }
 /
 /
-ipc
 namespace
+ipc
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 /

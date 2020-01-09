@@ -386,6 +386,9 @@ changeData
 }
 }
 }
+/
+/
+namespace
 PLACES_FACTORY_SINGLETON_IMPLEMENTATION
 (
 nsAnnotationService

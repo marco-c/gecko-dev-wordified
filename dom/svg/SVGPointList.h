@@ -906,8 +906,8 @@ FallibleTArray
 <
 SVGPoint
 >
-instead
 *
+instead
 of
 FallibleTArray
 <

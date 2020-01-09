@@ -147,6 +147,10 @@ aInstall
 ;
 }
 }
+/
+/
+namespace
+mozilla
 #
 endif
 #

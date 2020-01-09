@@ -74,6 +74,7 @@ h
 #
 define
 gdk_x11_window_foreign_new_for_display
+\
 gdk_x11_window_foreign_new_for_display_
 #
 define

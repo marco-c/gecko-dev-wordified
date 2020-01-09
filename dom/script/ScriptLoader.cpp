@@ -2546,6 +2546,8 @@ p
 result
 =
 =
+"
+"
 %
 u
 )
@@ -4151,6 +4153,8 @@ specifier
 given
 module
 script
+/
+/
 and
 requested
 .
@@ -7005,9 +7009,9 @@ have
 information
 coming
 from
+/
+/
 the
-/
-/
 bytecode
 cache
 instead
@@ -7019,6 +7023,8 @@ such
 entry
 is
 already
+/
+/
 registered
 .
 LOG
@@ -9677,6 +9683,8 @@ document
 without
 an
 active
+"
+"
 parser
 ;
 bug
@@ -14191,13 +14199,13 @@ using
 mozilla
 :
 :
-TimeStamp
+TimeDuration
 ;
 using
 mozilla
 :
 :
-TimeDuration
+TimeStamp
 ;
 /
 /
@@ -15764,6 +15772,8 @@ thread
 parsing
 )
 and
+"
+"
 Execute
 "
 aRequest
@@ -16041,6 +16051,8 @@ rv
 =
 %
 X
+"
+"
 script
 =
 %
@@ -16922,6 +16934,8 @@ large
 to
 be
 decoded
+"
+"
 correctly
 .
 "
@@ -17036,6 +17050,8 @@ rv
 %
 X
 output
+"
+"
 =
 %
 p
@@ -17174,6 +17190,8 @@ length
 =
 %
 u
+"
+"
 written
 =
 %
@@ -18821,6 +18839,8 @@ this
 script
 in
 the
+/
+/
 cache
 .
 if
@@ -21382,6 +21402,8 @@ attempt
 to
 compile
 it
+/
+/
 off
 -
 main
@@ -22336,10 +22358,10 @@ LOG
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

@@ -2219,6 +2219,7 @@ Introduced
 in
 NPAPI
 minor
+*
 version
 14
 .
@@ -3529,8 +3530,8 @@ when
 the
 plugin
 specifies
-NPDrawingModelCoreGraphics
 *
+NPDrawingModelCoreGraphics
 as
 its
 drawing
@@ -3583,10 +3584,10 @@ when
 the
 plugin
 specifies
+*
 NPDrawingModelOpenGL
 as
 its
-*
 drawing
 model
 .

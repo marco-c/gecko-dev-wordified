@@ -331,7 +331,6 @@ defined
 (
 OS_FREEBSD
 )
-\
 |
 |
 defined
@@ -340,6 +339,7 @@ OS_NETBSD
 )
 |
 |
+\
 defined
 (
 OS_OPENBSD
@@ -389,6 +389,7 @@ OS_BSD
 )
 |
 |
+\
 defined
 (
 OS_SOLARIS

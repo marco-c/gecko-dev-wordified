@@ -419,6 +419,7 @@ painted
 area
 changed
 by
+*
 the
 layer
 tree

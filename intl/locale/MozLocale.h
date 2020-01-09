@@ -161,8 +161,8 @@ preferences
 that
 may
 further
-specify
 *
+specify
 particular
 user
 choices
@@ -191,8 +191,8 @@ simple
 fr
 "
 for
-French
 *
+French
 or
 a
 more
@@ -216,9 +216,9 @@ in
 Russia
 with
 a
+*
 Cyrylic
 script
-*
 and
 hour
 cycle
@@ -242,10 +242,10 @@ and
 implements
 a
 subset
+*
 of
 it
 .
-*
 In
 the
 future
@@ -260,6 +260,7 @@ cover
 more
 subtags
 and
+*
 extensions
 .
 *
@@ -294,8 +295,8 @@ parsing
 and
 canonicalization
 of
-the
 *
+the
 string
 .
 *
@@ -436,10 +437,10 @@ avoid
 compilation
 problems
 on
+*
 case
 -
 insensitive
-*
 Windows
 .
 The
@@ -474,6 +475,7 @@ BCP47
 -
 style
 locale
+*
 string
 .
 *
@@ -571,6 +573,7 @@ will
 make
 the
 Locale
+*
 never
 match
 .
@@ -1158,6 +1161,7 @@ true
 }
 /
 /
+namespace
 intl
 }
 /

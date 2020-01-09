@@ -138,9 +138,9 @@ ProcessedStack
 objects
 but
 it
+*
 represents
 them
-*
 more
 efficiently
 by

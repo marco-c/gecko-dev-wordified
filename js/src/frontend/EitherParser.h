@@ -124,9 +124,9 @@ Parser
 with
 a
 given
+*
 ParseHandler
 but
-*
 unspecified
 character
 type
@@ -808,6 +808,8 @@ until
 -
 bit
 parser
+/
+/
 integration
 .
 mozilla

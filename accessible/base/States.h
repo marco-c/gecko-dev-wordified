@@ -1572,6 +1572,7 @@ of
 a
 list
 box
+*
 may
 have
 this
@@ -1770,6 +1771,7 @@ in
 place
 and
 has
+*
 permanence
 .
 *

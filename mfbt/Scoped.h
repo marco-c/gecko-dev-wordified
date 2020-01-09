@@ -1196,6 +1196,7 @@ Type
 struct
 MOZ_NON_TEMPORARY_CLASS
 name
+\
 :
 public
 mozilla
@@ -1208,7 +1209,6 @@ Traits
 Type
 >
 >
-\
 {
 \
 typedef
@@ -1242,7 +1242,6 @@ operator
 Resource
 aRhs
 )
-\
 {
 \
 Super
@@ -1272,7 +1271,6 @@ name
 &
 aRhs
 )
-\
 {
 \
 Super
@@ -1309,7 +1307,6 @@ Super
 (
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_TO_PARENT
 )
-\
 {
 }
 \
@@ -1318,7 +1315,6 @@ name
 (
 Resource
 aRhs
-\
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 \
@@ -1326,10 +1322,8 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 Super
 (
 aRhs
-\
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 )
-\
 {
 }
 \
@@ -1339,7 +1333,6 @@ name
 &
 &
 aRhs
-\
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 \
@@ -1353,12 +1346,11 @@ move
 (
 aRhs
 )
-\
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 )
-\
 {
 }
+\
 \
 private
 :
@@ -1543,6 +1535,7 @@ Deleter
 template
 <
 >
+\
 inline
 void
 TypeSpecificDelete
@@ -1552,11 +1545,13 @@ Type
 aValue
 )
 {
+\
 Deleter
 (
 aValue
 )
 ;
+\
 }
 \
 typedef

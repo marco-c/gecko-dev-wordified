@@ -147,6 +147,10 @@ struct
 PlanarYCbCrData
 ;
 }
+/
+/
+namespace
+layers
 namespace
 dom
 {

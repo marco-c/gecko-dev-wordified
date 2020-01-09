@@ -412,11 +412,11 @@ This
 is
 when
 less
+*
 columns
 in
 XUL
 were
-*
 defined
 that
 needed
@@ -429,6 +429,7 @@ a
 grid
 with
 3
+*
 defined
 columns
 but
@@ -438,7 +439,6 @@ with
 4
 cells
 in
-*
 it
 .
 We
@@ -447,6 +447,7 @@ need
 an
 extra
 column
+*
 to
 make
 the
@@ -460,10 +461,10 @@ extra
 column
 does
 not
-*
 have
 a
 box
+*
 associated
 with
 it
@@ -479,9 +480,9 @@ Remember
 we
 could
 have
+*
 extra
 rows
-*
 as
 well
 .
@@ -1116,6 +1117,8 @@ it
 and
 get
 the
+/
+/
 scrolled
 child
 nsIFrame
@@ -1287,6 +1290,8 @@ it
 and
 get
 the
+/
+/
 scrolled
 child
 nsIFrame

@@ -5448,6 +5448,8 @@ before
 a
 write
 is
+/
+/
 valid
 .
 syncStackPtr
@@ -5526,10 +5528,10 @@ we
 '
 re
 already
+/
+/
 tracking
 it
-/
-/
 getting
 it
 aligned

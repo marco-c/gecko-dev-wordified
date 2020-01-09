@@ -496,9 +496,9 @@ If
 clientID
 =
 =
+*
 nullptr
 all
-*
 entries
 must
 be
@@ -509,6 +509,7 @@ entries
 must
 be
 doomed
+*
 rather
 than
 evicted

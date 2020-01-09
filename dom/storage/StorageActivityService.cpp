@@ -1552,10 +1552,10 @@ StorageActivityService
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

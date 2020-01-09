@@ -2175,4 +2175,12 @@ __func__
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

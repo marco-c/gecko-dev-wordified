@@ -787,9 +787,9 @@ or
 symbol
 )
 whose
+/
+/
 value
-/
-/
 can
 be
 gotten
@@ -804,10 +804,10 @@ gets
 always
 return
 undefined
+/
+/
 as
 the
-/
-/
 value
 unless
 the

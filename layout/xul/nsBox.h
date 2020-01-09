@@ -345,6 +345,7 @@ this
 box
 is
 an
+*
 scrollbox
 .
 *

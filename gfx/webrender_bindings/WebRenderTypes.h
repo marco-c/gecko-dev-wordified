@@ -5589,6 +5589,10 @@ id
 }
 ;
 }
+/
+/
+namespace
+std
 #
 endif
 /

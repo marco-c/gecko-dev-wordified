@@ -599,7 +599,15 @@ mContrast
 }
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

@@ -406,8 +406,8 @@ name
 followed
 by
 limited
-ASCII
 *
+ASCII
 which
 represents
 more
@@ -525,6 +525,8 @@ be
 for
 policies
 which
+/
+/
 should
 fail
 to
@@ -13192,6 +13194,8 @@ path1
 /
 path2
 /
+"
+"
 '
 unsafe
 -
@@ -14018,15 +14022,12 @@ input
 "
 1234567890
 "
-\
 "
 abcdefghijklmnopqrstuvwxyz
 "
-\
 "
 ABCDEFGHIJKLMNOPQRSTUVWZYZ
 "
-\
 "
 !
 #

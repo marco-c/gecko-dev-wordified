@@ -840,6 +840,14 @@ aPath
 )
 ;
 }
+/
+/
+namespace
+ipc
 }
+/
+/
+namespace
+mozilla
 #
 endif

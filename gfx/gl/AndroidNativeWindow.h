@@ -319,10 +319,12 @@ mNativeWindow
 }
 /
 /
+namespace
 gl
 }
 /
 /
+namespace
 mozilla
 #
 endif

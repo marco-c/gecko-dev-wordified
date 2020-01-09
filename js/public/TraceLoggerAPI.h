@@ -340,6 +340,10 @@ void
 endif
 }
 ;
+/
+/
+namespace
+JS
 #
 endif
 /

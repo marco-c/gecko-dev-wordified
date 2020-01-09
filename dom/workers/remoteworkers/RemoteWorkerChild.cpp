@@ -903,7 +903,7 @@ mPortIdentifier
 }
 /
 /
-anonymous
+namespace
 class
 RemoteWorkerChild
 :
@@ -3606,10 +3606,10 @@ false
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

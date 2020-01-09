@@ -2148,9 +2148,9 @@ to
 avoid
 dealing
 with
+/
+/
 complicated
-/
-/
 garbage
 -
 collection
@@ -2163,12 +2163,12 @@ a
 JSContext
 being
 killed
+/
+/
 while
 we
 still
 hold
-/
-/
 onto
 an
 exception

@@ -1066,6 +1066,8 @@ be
 resized
 in
 that
+/
+/
 direction
 .
 Direction
@@ -1544,9 +1546,9 @@ large
 it
 could
 get
+/
+/
 flipped
-/
-/
 to
 the
 opposite
@@ -1556,6 +1558,8 @@ the
 anchor
 point
 while
+/
+/
 resizing
 .
 LayoutDeviceIntRect
@@ -2968,6 +2972,8 @@ have
 changed
 in
 that
+/
+/
 direction
 if
 (

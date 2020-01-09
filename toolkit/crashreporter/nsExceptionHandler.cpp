@@ -848,13 +848,13 @@ using
 google_breakpad
 :
 :
-CrashGenerationServer
+ClientInfo
 ;
 using
 google_breakpad
 :
 :
-ClientInfo
+CrashGenerationServer
 ;
 #
 ifdef
@@ -1656,10 +1656,10 @@ start
 the
 crash
 reporting
+/
+/
 service
 .
-/
-/
 After
 Android
 8
@@ -4920,10 +4920,10 @@ above
 to
 finish
 otherwise
+/
+/
 everything
 will
-/
-/
 be
 killed
 by
@@ -4934,6 +4934,8 @@ soon
 as
 the
 signal
+/
+/
 handler
 exits
 int
@@ -8680,6 +8682,8 @@ being
 loaded
 during
 exception
+/
+/
 handling
 .
 :
@@ -9046,6 +9050,8 @@ failed
 crash
 reporter
 is
+"
+"
 vulnerable
 .
 \
@@ -14204,6 +14210,8 @@ events
 may
 not
 be
+"
+"
 produced
 .
 "
@@ -14517,6 +14525,8 @@ will
 go
 in
 an
+"
+"
 unusual
 location
 "
@@ -17210,6 +17220,8 @@ before
 in
 -
 process
+"
+"
 crashreporter
 !
 "

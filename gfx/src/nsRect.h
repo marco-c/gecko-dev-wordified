@@ -293,6 +293,7 @@ _M_X64
 )
 |
 |
+\
 (
 defined
 (
@@ -1036,6 +1037,7 @@ __clang__
 )
 &
 &
+\
 (
 defined
 (
@@ -1327,14 +1329,14 @@ But
 the
 non
 SSE4
+/
+/
 code
 leaves
 x
 /
 y
 intact
-/
-/
 so
 let
 '
@@ -1766,14 +1768,14 @@ But
 the
 non
 SSE4
+/
+/
 code
 leaves
 x
 /
 y
 intact
-/
-/
 so
 let
 '
@@ -2525,6 +2527,7 @@ _M_X64
 )
 |
 |
+\
 (
 defined
 (
@@ -2727,6 +2730,7 @@ _M_X64
 )
 |
 |
+\
 (
 defined
 (
@@ -2849,6 +2853,8 @@ aAppUnitsPerPixel
 [
 aXScale
 aYScale
+/
+/
 aXScale
 aYScale
 ]
@@ -2883,6 +2889,8 @@ rounds
 0
 .
 5
+/
+/
 downward
 half
 the
@@ -2976,6 +2984,8 @@ width
 :
 0xFFFFFFFF
 )
+/
+/
 (
 height
 <
@@ -3137,6 +3147,7 @@ _M_X64
 )
 |
 |
+\
 (
 defined
 (

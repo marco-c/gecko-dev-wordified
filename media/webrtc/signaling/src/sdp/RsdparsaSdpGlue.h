@@ -279,5 +279,9 @@ vec
 )
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

@@ -202,7 +202,15 @@ contentsScaleFactor
 }
 ;
 }
+/
+/
+namespace
+plugins
 }
+/
+/
+namespace
+mozilla
 namespace
 IPC
 {

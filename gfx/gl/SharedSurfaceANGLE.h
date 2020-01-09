@@ -467,11 +467,9 @@ hasAlpha
 ;
 }
 /
-*
-namespace
-gfx
-*
 /
+namespace
+gl
 }
 /
 *

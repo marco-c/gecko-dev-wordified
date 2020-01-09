@@ -1459,6 +1459,7 @@ COMPONENT
 NAME
 Ctor
 )
+\
 static
 NS_DEFINE_CID
 (
@@ -1486,6 +1487,7 @@ NAME
 Ctor
 Selector
 )
+\
 static
 NS_DEFINE_CID
 (
@@ -1546,6 +1548,7 @@ NAME
 Ctor
 Selector
 )
+\
 {
 &
 kNS_
@@ -1676,6 +1679,7 @@ NAME
 Ctor
 Selector
 )
+\
 {
 NS_
 #

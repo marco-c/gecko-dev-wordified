@@ -1114,6 +1114,8 @@ not
 be
 used
 with
+/
+/
 GetData
 !
 !
@@ -1359,4 +1361,12 @@ true
 ;
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

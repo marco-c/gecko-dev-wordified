@@ -282,12 +282,12 @@ the
 invalid
 rect
 .
+/
+/
 Since
 we
 '
 re
-/
-/
 dealing
 with
 an
@@ -300,6 +300,8 @@ the
 y
 coordinate
 needs
+/
+/
 to
 change
 .

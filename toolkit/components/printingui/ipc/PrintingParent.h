@@ -167,6 +167,10 @@ class
 RemotePrintJobParent
 ;
 }
+/
+/
+namespace
+layout
 namespace
 embedding
 {

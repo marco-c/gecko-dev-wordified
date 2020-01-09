@@ -205,7 +205,6 @@ nsStyle
 #
 name_
 *
-\
 ComputedStyle
 :
 :
@@ -237,7 +236,6 @@ nsStyle
 #
 name_
 *
-\
 ComputedStyle
 :
 :

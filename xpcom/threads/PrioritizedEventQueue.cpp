@@ -878,9 +878,9 @@ but
 we
 '
 re
+/
+/
 no
-/
-/
 longer
 in
 the
@@ -894,9 +894,9 @@ valid
 timestamp
 to
 pretend
+/
+/
 that
-/
-/
 we
 are
 still
@@ -2223,3 +2223,7 @@ LabeledEventQueue
 >
 ;
 }
+/
+/
+namespace
+mozilla

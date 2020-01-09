@@ -226,10 +226,12 @@ mBackgroundThread
 }
 /
 /
+namespace
 widget
 }
 /
 /
+namespace
 mozilla
 #
 endif

@@ -297,6 +297,7 @@ WEBVTT_LOGV
 .
 .
 )
+\
 MOZ_LOG
 (
 gTextTrackLog
@@ -690,9 +691,9 @@ be
 in
 the
 correct
+/
+/
 relative
-/
-/
 order
 in
 the
@@ -706,11 +707,11 @@ re
 called
 in
 iteration
+/
+/
 order
 and
 can
-/
-/
 therefore
 always
 report
@@ -720,6 +721,8 @@ aTwo
 to
 maintain
 the
+/
+/
 original
 temporal
 ordering
@@ -4206,6 +4209,8 @@ lf
 currentPlaybackTime
 %
 lf
+"
+"
 hasNormalPlayback
 %
 d

@@ -529,8 +529,8 @@ mMutex
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 /

@@ -462,6 +462,10 @@ UNICODE_ID_START
 UNICODE_ID_CONTINUE_ONLY
 ;
 }
+/
+/
+namespace
+CharFlag
 constexpr
 char16_t
 NO_BREAK_SPACE
@@ -2151,7 +2155,6 @@ trail
 =
 TRAIL_TO
 )
-\
 return
 true
 ;

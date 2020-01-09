@@ -1007,9 +1007,9 @@ relation
 then
 return
 the
+/
+/
 document
-/
-/
 itself
 .
 if

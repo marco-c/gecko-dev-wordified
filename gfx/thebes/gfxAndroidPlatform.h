@@ -137,6 +137,10 @@ FontListEntry
 ;
 }
 ;
+/
+/
+namespace
+mozilla
 using
 mozilla
 :

@@ -117,6 +117,7 @@ aDocument
 nsIContent
 *
 aContent
+\
 nsAtom
 *
 aAttribute
@@ -141,6 +142,7 @@ nsIContent
 *
 aPreviousChild
 )
+\
 override
 ;
 \
@@ -153,6 +155,7 @@ aDocument
 nsIContent
 *
 aContainer
+\
 nsIContent
 *
 aChild

@@ -1493,9 +1493,9 @@ can
 cause
 problems
 for
+/
+/
 the
-/
-/
 top
 -
 level
@@ -1507,8 +1507,6 @@ See
 bug
 789773
 .
-/
-/
 Note
 that
 we
@@ -1516,13 +1514,13 @@ don
 '
 t
 accept
+/
+/
 expanded
 principals
 here
 similar
 to
-/
-/
 SetInitialPrincipalToSubject
 .
 if
@@ -1542,6 +1540,8 @@ this
 happens
 really
 early
+/
+/
 See
 bug
 793370
@@ -3987,6 +3987,8 @@ up
 to
 the
 loaded
+/
+/
 commands
 /
 /

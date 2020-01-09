@@ -1193,9 +1193,6 @@ t
 /
 /
 namespace
-(
-anonymous
-)
 #
 endif
 /
@@ -2998,9 +2995,6 @@ t
 /
 /
 namespace
-(
-anonymous
-)
 void
 Realm
 :

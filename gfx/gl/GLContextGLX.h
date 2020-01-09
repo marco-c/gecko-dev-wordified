@@ -473,7 +473,15 @@ true
 }
 ;
 }
+/
+/
+namespace
+gl
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

@@ -155,7 +155,6 @@ c2
 <
 48
 |
-\
 (
 uint64_t
 )
@@ -166,6 +165,7 @@ c3
 <
 40
 |
+\
 (
 uint64_t
 )
@@ -176,7 +176,6 @@ c4
 <
 32
 |
-\
 (
 uint64_t
 )
@@ -305,6 +304,10 @@ GamepadCapabilityFlags
 uint16_t
 ;
 }
+/
+/
+namespace
+dom
 #
 endif
 /
@@ -605,6 +608,7 @@ capable
 of
 tracking
 its
+*
 orientation
 .
 *
@@ -750,6 +754,7 @@ capable
 of
 tracking
 its
+*
 orientation
 .
 *
@@ -806,9 +811,9 @@ which
 requestPresent
 is
 not
+*
 meaningful
 .
-*
 If
 false
 then
@@ -2203,6 +2208,8 @@ must
 be
 a
 POD
+/
+/
 type
 static_assert
 (

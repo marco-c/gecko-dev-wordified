@@ -639,6 +639,14 @@ IS_PROXY
 }
 ;
 }
+/
+/
+namespace
+a11y
 }
+/
+/
+namespace
+mozilla
 #
 endif

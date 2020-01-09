@@ -146,9 +146,9 @@ value
 This
 is
 just
+*
 a
 base
-*
 class
 use
 txVariableMap
@@ -234,9 +234,9 @@ values
 This
 is
 not
+*
 refcounted
 so
-*
 owners
 need
 to
@@ -301,9 +301,9 @@ values
 This
 is
 refcounted
+*
 so
 multiple
-*
 owners
 can
 hold

@@ -2513,6 +2513,7 @@ aNow
 #
 define
 DEFAULT_TIMEOUT_THROTTLING_DELAY
+\
 -
 1
 /
@@ -7529,6 +7530,9 @@ NS_OK
 ;
 }
 }
+/
+/
+namespace
 bool
 TimeoutManager
 :

@@ -2654,6 +2654,8 @@ and
 are
 disabled
 while
+/
+/
 collecting
 .
 MOZ_ASSERT
@@ -2895,9 +2897,9 @@ switch
 on
 the
 verifier
+/
+/
 any
-/
-/
 time
 we
 '
@@ -2915,9 +2917,9 @@ deadlock
 as
 off
 thread
+/
+/
 parsing
-/
-/
 is
 meant
 to
@@ -2931,9 +2933,9 @@ Instead
 we
 filter
 out
+/
+/
 any
-/
-/
 off
 thread
 barriers
@@ -2946,10 +2948,10 @@ that
 they
 would
 normally
+/
+/
 not
 be
-/
-/
 possible
 .
 if

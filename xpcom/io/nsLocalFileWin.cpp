@@ -441,7 +441,6 @@ IsEmpty
 (
 )
 )
-\
 return
 NS_ERROR_NOT_INITIALIZED
 ;
@@ -5841,6 +5840,8 @@ then
 we
 '
 re
+/
+/
 done
 if
 (
@@ -6603,9 +6604,9 @@ is
 not
 a
 Native
+/
+/
 path
-/
-/
 on
 windows
 .
@@ -8946,7 +8947,6 @@ z
 '
 )
 ?
-\
 (
 u
 )
@@ -8988,6 +8988,8 @@ possible
 problems
 with
 this
+/
+/
 implementation
 .
 if
@@ -11399,9 +11401,9 @@ We
 only
 need
 to
+/
+/
 do
-/
-/
 this
 if
 the
@@ -12307,6 +12309,8 @@ single
 file
 (
 or
+/
+/
 non
 -
 followed

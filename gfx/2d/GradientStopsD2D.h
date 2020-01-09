@@ -232,7 +232,15 @@ mDevice
 }
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

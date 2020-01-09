@@ -869,7 +869,7 @@ nsIInputStreamCallback
 }
 /
 /
-anonymous
+namespace
 /
 *
 =

@@ -1583,9 +1583,9 @@ the
 constructor
 or
 as
+/
+/
 arguments
-/
-/
 throw
 InvalidAccessError
 .

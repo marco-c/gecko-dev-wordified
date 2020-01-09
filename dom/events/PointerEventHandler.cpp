@@ -667,9 +667,9 @@ to
 continue
 to
 produce
+/
+/
 pointer
-/
-/
 events
 .
 In
@@ -683,9 +683,9 @@ active
 state
 or
 remove
+/
+/
 the
-/
-/
 pointer
 from
 active
@@ -708,6 +708,8 @@ or
 turn
 off
 active
+/
+/
 state
 if
 (

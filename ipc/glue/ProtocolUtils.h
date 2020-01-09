@@ -2394,6 +2394,7 @@ IPC_FAIL
 actor
 why
 )
+\
 mozilla
 :
 :
@@ -2420,6 +2421,7 @@ IPC_FAIL_NO_REASON
 (
 actor
 )
+\
 mozilla
 :
 :
@@ -3976,9 +3978,9 @@ virtual
 bool
 AllocShmem
 (
+\
 size_t
 aSize
-\
 mozilla
 :
 :
@@ -4002,8 +4004,8 @@ Shmem
 aShmem
 )
 override
-\
 {
+\
 return
 aImplClass
 :
@@ -4015,15 +4017,16 @@ aShmType
 aShmem
 )
 ;
+\
 }
 \
 virtual
 bool
 AllocUnsafeShmem
 (
+\
 size_t
 aSize
-\
 mozilla
 :
 :
@@ -4047,8 +4050,8 @@ Shmem
 aShmem
 )
 override
-\
 {
+\
 return
 aImplClass
 :
@@ -4060,6 +4063,7 @@ aShmType
 aShmem
 )
 ;
+\
 }
 \
 virtual
@@ -4077,8 +4081,8 @@ Shmem
 aShmem
 )
 override
-\
 {
+\
 return
 aImplClass
 :
@@ -4088,6 +4092,7 @@ DeallocShmem
 aShmem
 )
 ;
+\
 }
 inline
 bool

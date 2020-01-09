@@ -159,9 +159,9 @@ process
 to
 communicate
 with
+*
 all
 the
-*
 child
 processes
 .

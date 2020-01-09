@@ -531,6 +531,5 @@ c_str
 }
 /
 /
-end
-of
 namespace
+mozilla

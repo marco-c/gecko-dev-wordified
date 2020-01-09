@@ -386,6 +386,7 @@ WAKE_LOCK_LOG
 .
 .
 )
+\
 MOZ_LOG
 (
 gWinWakeLockLog
@@ -1015,7 +1016,15 @@ EventID
 )
 ;
 }
+/
+/
+namespace
+widget
 }
+/
+/
+namespace
+mozilla
 const
 wchar_t
 *

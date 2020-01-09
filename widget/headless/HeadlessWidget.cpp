@@ -1720,6 +1720,8 @@ SetCompositorWidgetDelegate
 called
 with
 a
+"
+"
 non
 -
 HeadlessCompositorWidget

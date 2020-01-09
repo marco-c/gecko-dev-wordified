@@ -251,7 +251,7 @@ sChannelAnnotationNeeded
 }
 /
 /
-anonymous
+namespace
 /
 *
 static
@@ -2686,10 +2686,10 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 /
 /
-net
 namespace
+net
 }
 /
 /
-mozilla
 namespace
+mozilla

@@ -168,6 +168,7 @@ NS_SVG_PATH_SEG_MAX_ARGS
 #
 define
 NS_SVG_PATH_SEG_FIRST_VALID_TYPE
+\
 dom
 :
 :
@@ -178,6 +179,7 @@ PATHSEG_CLOSEPATH
 #
 define
 NS_SVG_PATH_SEG_LAST_VALID_TYPE
+\
 dom
 :
 :
@@ -1640,6 +1642,8 @@ does
 not
 come
 in
+"
+"
 relative
 and
 absolute
@@ -1715,6 +1719,8 @@ type
 that
 does
 not
+"
+"
 come
 in
 relative

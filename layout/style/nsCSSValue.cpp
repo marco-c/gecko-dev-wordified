@@ -1539,6 +1539,7 @@ DO_RELEASE
 (
 member
 )
+\
 {
 \
 MOZ_ASSERT

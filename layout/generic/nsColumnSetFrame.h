@@ -335,8 +335,8 @@ frame
 .
 The
 available
-content
 *
+content
 height
 is
 the
@@ -348,6 +348,7 @@ frame
 minus
 borders
 and
+*
 padding
 .
 *

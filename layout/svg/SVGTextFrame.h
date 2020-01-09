@@ -2726,8 +2726,8 @@ the
 array
 if
 a
-position
 *
+position
 was
 not
 given
@@ -2740,9 +2740,9 @@ fills
 aDeltas
 with
 values
+*
 based
 on
-*
 dx
 /
 dy

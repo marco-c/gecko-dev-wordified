@@ -262,13 +262,13 @@ using
 nsDocument
 :
 :
-SetDocumentURI
+GetPlugins
 ;
 using
 nsDocument
 :
 :
-GetPlugins
+SetDocumentURI
 ;
 nsHTMLDocument
 (

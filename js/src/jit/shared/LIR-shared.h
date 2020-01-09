@@ -3658,6 +3658,7 @@ toRotate
 }
 /
 /
+namespace
 details
 class
 LRotate
@@ -5575,6 +5576,8 @@ frame
 '
 s
 argument
+/
+/
 vector
 .
 class
@@ -19243,6 +19246,8 @@ an
 interpreter
 frame
 for
+/
+/
 OSR
 .
 class
@@ -22241,6 +22246,8 @@ source
 length
 ]
 =
+/
+/
 source
 [
 0
@@ -23081,6 +23088,8 @@ it
 s
 the
 hole
+/
+/
 value
 .
 class
@@ -23364,10 +23373,10 @@ if
 we
 hit
 a
+/
+/
 hole
 .
-/
-/
 Bail
 out
 if
@@ -32349,6 +32358,8 @@ assignment
 of
 a
 generic
+/
+/
 value
 .
 class

@@ -348,8 +348,8 @@ MOZ_AUTO_DOC_UPDATE_PASTE
 _autoDocUpdater_
 __LINE__
 )
-\
 (
+\
 doc
 notify
 )

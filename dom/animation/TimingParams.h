@@ -228,6 +228,10 @@ class
 UnrestrictedDoubleOrKeyframeAnimationOptions
 ;
 }
+/
+/
+namespace
+dom
 struct
 TimingParams
 {

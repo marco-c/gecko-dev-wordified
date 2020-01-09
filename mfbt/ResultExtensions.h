@@ -123,6 +123,7 @@ of
 XPCOM
 /
 NSPR
+*
 results
 .
 *

@@ -2064,8 +2064,8 @@ the
 given
 point
 is
-contained
 *
+contained
 in
 any
 one
@@ -3071,15 +3071,16 @@ used
 just
 during
 calling
+*
 nsEditor
 :
 :
 EndPlaceHolderTransaction
 .
-*
 EndPlaceHolderTransaction
 will
 give
+*
 rise
 to
 reflow
@@ -3091,8 +3092,8 @@ scroll
 and
 call
 times
-*
 of
+*
 nsTextFrame
 :
 :
@@ -3105,8 +3106,8 @@ to
 be
 cached
 .
-*
 see
+*
 bugs
 35296
 and

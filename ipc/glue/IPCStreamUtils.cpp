@@ -1613,9 +1613,9 @@ are
 auto
 -
 closed
+/
+/
 in
-/
-/
 ~
 FileDescriptor
 since
@@ -1732,9 +1732,9 @@ are
 auto
 -
 closed
+/
+/
 in
-/
-/
 ~
 FileDescriptor
 since
@@ -2261,10 +2261,10 @@ support
 deserializing
 the
 PChildToParentStream
+/
+/
 actor
 on
-/
-/
 the
 child
 side
@@ -2275,6 +2275,8 @@ actor
 on
 the
 parent
+/
+/
 side
 .
 MOZ_ASSERT

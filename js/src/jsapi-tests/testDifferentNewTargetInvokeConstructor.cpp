@@ -145,6 +145,8 @@ target
 )
 throw
 new
+"
+"
 Error
 (
 '

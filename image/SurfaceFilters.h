@@ -5170,6 +5170,8 @@ needed
 for
 an
 intermediate
+/
+/
 buffer
 .
 }
@@ -6759,13 +6761,13 @@ of
 the
 buffer
 unless
+/
+/
 |
 mUnclampedFrameRect
 .
 x
 |
-/
-/
 is
 negative
 ;
@@ -6778,13 +6780,13 @@ case
 we
 have
 to
+/
+/
 skip
 the
 portion
 of
 the
-/
-/
 unclamped
 frame
 rect
@@ -7101,6 +7103,8 @@ needed
 for
 an
 intermediate
+/
+/
 buffer
 .
 }
@@ -7835,6 +7839,8 @@ special
 case
 the
 first
+/
+/
 pass
 .
 mRow
@@ -8557,6 +8563,8 @@ so
 we
 '
 re
+/
+/
 done
 .
 return

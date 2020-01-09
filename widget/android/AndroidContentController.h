@@ -173,6 +173,10 @@ class
 IAPZCTreeManager
 ;
 }
+/
+/
+namespace
+layers
 namespace
 widget
 {

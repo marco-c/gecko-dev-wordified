@@ -5179,6 +5179,7 @@ __VA_ARGS__
 ]
 =
 {
+\
 MOZ_ARGS_AFTER_1
 __VA_ARGS__
 CLASS

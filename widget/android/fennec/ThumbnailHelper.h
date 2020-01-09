@@ -1474,6 +1474,8 @@ proportional
 to
 the
 destination
+/
+/
 size
 nsCOMPtr
 <

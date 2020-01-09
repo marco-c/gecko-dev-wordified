@@ -5578,6 +5578,8 @@ no
 side
 effects
 unlike
+/
+/
 ParseNodeKind
 :
 :
@@ -12995,6 +12997,8 @@ include
 magic
 GeneratorObject
 resumeIndex
+"
+"
 values
 "
 )
@@ -20215,6 +20219,8 @@ value
 for
 DONE
 above
+/
+/
 ITER
 .
 if
@@ -23581,6 +23587,8 @@ Add
 them
 together
 leaving
+/
+/
 just
 one
 .
@@ -29039,6 +29047,8 @@ SOURCE
 SET
 ?
 COPYDATAPROPERTIES
+/
+/
 UNDEFINED
 return
 false
@@ -29066,6 +29076,8 @@ SET
 ?
 COPYDATAPROPERTIES
 UNDEFINED
+/
+/
 TARGET
 return
 false
@@ -29093,6 +29105,8 @@ SET
 COPYDATAPROPERTIES
 UNDEFINED
 TARGET
+/
+/
 SOURCE
 return
 false
@@ -34980,9 +34994,9 @@ classCtor
 classProto
 wrapped
 unwrapped
+/
+/
 classProto
-/
-/
 inithomeobject
 /
 /
@@ -34990,6 +35004,8 @@ classObj
 classCtor
 classProto
 wrapped
+/
+/
 unwrapped
 /
 /
@@ -36512,9 +36528,9 @@ popping
 the
 blocks
 in
+/
+/
 prepareForNonLocalJump
-/
-/
 to
 ensure
 that
@@ -36524,6 +36540,8 @@ is
 thrown
 while
 the
+/
+/
 scope
 -
 chain
@@ -37820,6 +37838,8 @@ RESULT
 EXCEPTION
 ITER
 THROW
+/
+/
 NOT
 -
 UNDEF
@@ -38132,9 +38152,9 @@ If
 the
 iterator
 has
+/
+/
 a
-/
-/
 "
 throw
 "
@@ -38600,6 +38620,8 @@ FTYPE
 FVALUE
 ITER
 RET
+/
+/
 NOT
 -
 UNDEF
@@ -38750,6 +38772,8 @@ FTYPE
 FVALUE
 RET
 ITER
+/
+/
 VALUE
 return
 false

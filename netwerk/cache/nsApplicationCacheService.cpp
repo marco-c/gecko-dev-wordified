@@ -999,6 +999,8 @@ parse
 OriginAttributesPattern
 JSON
 in
+"
+"
 clear
 -
 origin

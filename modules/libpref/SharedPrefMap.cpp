@@ -1489,4 +1489,5 @@ aMap
 }
 /
 /
+namespace
 mozilla

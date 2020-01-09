@@ -915,12 +915,15 @@ aMap
 }
 /
 /
+namespace
 ipc
 }
 /
 /
+namespace
 dom
 }
 /
 /
+namespace
 mozilla

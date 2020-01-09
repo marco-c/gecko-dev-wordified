@@ -1871,8 +1871,8 @@ the
 ARIA
 role
 or
-nullptr
 *
+nullptr
 if
 none
 *

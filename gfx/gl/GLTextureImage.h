@@ -242,6 +242,8 @@ had
 glTexImage
 called
 to
+/
+/
 initialize
 it
 .
@@ -1175,9 +1177,9 @@ TextureImages
 into
 a
 big
+*
 TextureImage
 .
-*
 Aims
 to
 behave
@@ -1508,9 +1510,9 @@ platform
 specific
 or
 basic
+*
 TextureImages
 .
-*
 In
 doubt
 use

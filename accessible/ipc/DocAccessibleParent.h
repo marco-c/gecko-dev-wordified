@@ -1692,6 +1692,14 @@ sLiveDocs
 }
 ;
 }
+/
+/
+namespace
+a11y
 }
+/
+/
+namespace
+mozilla
 #
 endif

@@ -4050,9 +4050,9 @@ mode
 vector
 image
 rasterization
+/
+/
 is
-/
-/
 clamped
 at
 a
@@ -6410,6 +6410,8 @@ image
 that
 we
 discarded
+/
+/
 it
 .
 if

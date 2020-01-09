@@ -818,10 +818,10 @@ TextureClients
 to
 try
 and
+/
+/
 keep
 around
-/
-/
 mPoolUnusedSize
 if
 (
@@ -1615,6 +1615,8 @@ u
 current
 pool
 size
+"
+"
 %
 u
 ;

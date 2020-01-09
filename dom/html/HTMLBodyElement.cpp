@@ -1212,11 +1212,11 @@ not
 set
 in
 the
+/
+/
 <
 body
 >
-/
-/
 reflect
 them
 as
@@ -2061,6 +2061,8 @@ on
 the
 containing
 frame
+/
+/
 element
 if
 (
@@ -2105,6 +2107,7 @@ EVENT
 name_
 id_
 type_
+\
 struct_
 )
 /
@@ -2158,7 +2161,6 @@ type_
 \
 type_
 *
-\
 HTMLBodyElement
 :
 :
@@ -2168,7 +2170,6 @@ GetOn
 name_
 (
 )
-\
 {
 \
 if
@@ -2222,7 +2223,6 @@ nullptr
 }
 \
 void
-\
 HTMLBodyElement
 :
 :
@@ -2235,7 +2235,6 @@ type_
 *
 handler
 )
-\
 {
 \
 nsPIDOMWindowInner

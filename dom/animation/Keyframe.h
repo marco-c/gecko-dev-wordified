@@ -639,6 +639,10 @@ mPropertyValues
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

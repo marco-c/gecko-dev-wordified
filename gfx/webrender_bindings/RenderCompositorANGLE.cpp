@@ -628,9 +628,9 @@ also
 needs
 to
 be
+/
+/
 updated
-/
-/
 since
 EGLDisplay
 uses
@@ -640,12 +640,12 @@ DeviceManagerDx
 mCompositorDevice
 on
 ANGLE
+/
+/
 WebRender
 use
 case
 .
-/
-/
 EGLDisplay
 could
 be
@@ -654,10 +654,10 @@ when
 Renderer
 count
 becomes
+/
+/
 0
 .
-/
-/
 It
 is
 ensured
@@ -1462,6 +1462,8 @@ ANGLE
 use
 correct
 framebuffer
+/
+/
 formart
 if
 (
@@ -1811,6 +1813,8 @@ failed
 when
 0x0
 was
+/
+/
 set
 .
 desc

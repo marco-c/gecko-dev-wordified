@@ -227,14 +227,15 @@ a
 new
 method
 on
-GeckoContentController
 *
+GeckoContentController
 PAPZ
 APZChild
 and
 RemoteContentController
 must
 be
+*
 updated
 to
 handle

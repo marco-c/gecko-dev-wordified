@@ -927,7 +927,6 @@ NS_CI_INTERFACE_GETTER_NAME
 (
 _class
 )
-\
 (
 uint32_t
 *
@@ -1109,7 +1108,6 @@ nsIID
 *
 array
 )
-\
 {
 \
 *
@@ -1169,7 +1167,6 @@ Clone
 (
 )
 ;
-\
 #
 define
 NS_CLASSINFO_HELPER_END

@@ -156,11 +156,11 @@ to
 a
 Promise
 being
+*
 rejected
 /
 resolved
 .
-*
 A
 PromiseNativeHandler
 can

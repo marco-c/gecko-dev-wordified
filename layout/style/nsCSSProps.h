@@ -902,10 +902,10 @@ aValue
 to
 its
 corresponding
+/
+/
 value
 .
-/
-/
 If
 not
 found
@@ -950,12 +950,12 @@ has
 the
 corresponding
 value
+/
+/
 |
 aValue
 |
 .
-/
-/
 Return
 |
 eCSSKeyword_UNKNOWN
@@ -1877,9 +1877,9 @@ variable
 is
 a
 small
+/
+/
 hack
-/
-/
 to
 avoid
 needing
@@ -1936,6 +1936,7 @@ for
 const
 nsCSSPropertyID
 *
+\
 it_
 =
 nsCSSProps
@@ -1956,7 +1957,6 @@ nsCSSPropertyID
 enabledstate_
 )
 |
-\
 CSSEnabledState
 (
 0
@@ -2105,6 +2105,8 @@ items
 self
 }
 properties
+/
+/
 -
 -
 static
@@ -2267,6 +2269,8 @@ content
 items
 self
 }
+/
+/
 properties
 -
 -

@@ -5710,6 +5710,8 @@ the
 layer
 (
 because
+/
+/
 there
 isn
 '
@@ -5717,8 +5719,6 @@ t
 one
 )
 .
-/
-/
 Instead
 we
 mark
@@ -5727,11 +5727,11 @@ CanvasRenderer
 dirty
 and
 scheduling
+/
+/
 an
 empty
 transaction
-/
-/
 which
 is
 effectively

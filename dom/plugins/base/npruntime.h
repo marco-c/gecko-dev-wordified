@@ -598,7 +598,9 @@ do
 #
 define
 NP_END_MACRO
+\
 }
+\
 while
 (
 0
@@ -984,7 +986,6 @@ _v
 )
 \
 NP_BEGIN_MACRO
-\
 (
 _v
 )
@@ -1014,7 +1015,6 @@ _v
 )
 \
 NP_BEGIN_MACRO
-\
 (
 _v
 )
@@ -1045,7 +1045,6 @@ _v
 )
 \
 NP_BEGIN_MACRO
-\
 (
 _v
 )
@@ -1080,7 +1079,6 @@ _v
 )
 \
 NP_BEGIN_MACRO
-\
 (
 _v
 )
@@ -1111,7 +1109,6 @@ _v
 )
 \
 NP_BEGIN_MACRO
-\
 (
 _v
 )
@@ -1142,7 +1139,6 @@ _v
 )
 \
 NP_BEGIN_MACRO
-\
 (
 _v
 )
@@ -1191,7 +1187,6 @@ _v
 )
 \
 NP_BEGIN_MACRO
-\
 (
 _v
 )
@@ -1236,7 +1231,6 @@ _v
 )
 \
 NP_BEGIN_MACRO
-\
 (
 _v
 )

@@ -3840,10 +3840,10 @@ wrapped
 object
 does
 not
+/
+/
 have
 a
-/
-/
 QueryInterface
 method
 assume
@@ -3856,10 +3856,10 @@ and
 wrap
 it
 into
+/
+/
 an
 equivalent
-/
-/
 nsISimpleEnumerator
 .
 if
@@ -4039,6 +4039,8 @@ one
 of
 our
 wrappers
+/
+/
 inherits
 .
 if
@@ -4108,9 +4110,9 @@ doesn
 t
 have
 a
+/
+/
 QueryInterface
-/
-/
 property
 and
 doesn
@@ -4186,6 +4188,8 @@ existing
 wrapper
 "
 case
+/
+/
 above
 .
 if
@@ -9160,7 +9164,6 @@ s
 %
 s
 "
-\
 i
 IsReflectable
 (

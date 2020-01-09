@@ -473,6 +473,8 @@ setting
 doesn
 '
 t
+/
+/
 hurt
 )
 RefPtr
@@ -536,9 +538,9 @@ care
 about
 the
 cursor
+/
+/
 position
-/
-/
 (
 such
 as
@@ -909,6 +911,8 @@ user
 clicks
 around
 the
+/
+/
 document
 .
 nsCOMPtr
@@ -1419,6 +1423,8 @@ of
 the
 passed
 in
+/
+/
 selection
 .
 nsresult

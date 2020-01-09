@@ -486,7 +486,7 @@ auth_type_
 }
 /
 /
-close
 namespace
+mozilla
 #
 endif

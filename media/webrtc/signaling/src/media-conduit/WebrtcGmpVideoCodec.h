@@ -2628,5 +2628,9 @@ mDecoderImpl
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

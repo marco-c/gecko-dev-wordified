@@ -568,8 +568,8 @@ attribute
 is
 missing
 or
-empty
 *
+empty
 or
 invalid
 )

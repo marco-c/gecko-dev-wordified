@@ -2054,7 +2054,6 @@ type_
 \
 type_
 *
-\
 HTMLFrameSetElement
 :
 :
@@ -2064,7 +2063,6 @@ GetOn
 name_
 (
 )
-\
 {
 \
 if
@@ -2118,7 +2116,6 @@ nullptr
 }
 \
 void
-\
 HTMLFrameSetElement
 :
 :
@@ -2131,7 +2128,6 @@ type_
 *
 handler
 )
-\
 {
 \
 nsPIDOMWindowInner

@@ -307,7 +307,6 @@ UNIMPLEMENTED
 MOZ_MTLOG
 (
 ML_ERROR
-\
 "
 Call
 to
@@ -8842,5 +8841,5 @@ cipher_label
 }
 /
 /
-close
 namespace
+mozilla

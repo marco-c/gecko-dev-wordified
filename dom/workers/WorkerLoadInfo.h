@@ -258,6 +258,8 @@ should
 be
 released
 in
+/
+/
 WorkerPrivateParent
 :
 :
@@ -784,13 +786,13 @@ aLoadGroupToCancel
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 /

@@ -1155,9 +1155,9 @@ to
 ContentPrincipal
 which
 uses
+/
+/
 NS_GENERIC_FACTORY_CONSTRUCTOR
-/
-/
 in
 which
 case
@@ -1167,6 +1167,8 @@ Read
 needs
 to
 invoke
+/
+/
 Init
 (
 )

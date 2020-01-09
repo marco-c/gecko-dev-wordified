@@ -3712,6 +3712,7 @@ js
 :
 PerformanceGroup
 to
+*
 nsPerformanceGroup
 .
 *

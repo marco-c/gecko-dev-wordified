@@ -573,11 +573,12 @@ digestBufLen
 ;
 }
 }
+/
+/
+namespace
+psm
 }
 /
 /
 namespace
 mozilla
-:
-:
-psm

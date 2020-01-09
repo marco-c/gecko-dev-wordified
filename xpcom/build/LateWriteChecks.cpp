@@ -1361,9 +1361,9 @@ l
 on
 the
 the
+/
+/
 firefox
-/
-/
 binary
 shows
 /

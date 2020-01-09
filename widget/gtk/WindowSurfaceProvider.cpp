@@ -800,9 +800,9 @@ aInvalidRegion
 /
 /
 namespace
-mozilla
+widget
 }
 /
 /
 namespace
-widget
+mozilla

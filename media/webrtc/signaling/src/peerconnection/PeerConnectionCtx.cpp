@@ -647,6 +647,10 @@ nsIObserver
 )
 ;
 }
+/
+/
+namespace
+mozilla
 namespace
 mozilla
 {
@@ -1563,10 +1567,10 @@ should
 be
 in
 that
+/
+/
 range
 .
-/
-/
 Small
 deltas
 could

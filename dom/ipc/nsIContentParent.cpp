@@ -372,8 +372,10 @@ ASSERT_UNLESS_FUZZING
 .
 .
 )
+\
 do
 {
+\
 }
 while
 (
@@ -732,9 +734,9 @@ frames
 must
 be
 isMozBrowserElement
+/
+/
 if
-/
-/
 the
 parent
 isMozBrowserElement
@@ -743,10 +745,10 @@ Allocating
 a
 !
 isMozBrowserElement
+/
+/
 frame
 with
-/
-/
 same
 app
 ID
@@ -761,6 +763,8 @@ it
 '
 s
 not
+/
+/
 supposed
 to
 .
@@ -792,6 +796,8 @@ escalate
 privileges
 !
 Aborting
+"
+"
 AllocPBrowserParent
 .
 "

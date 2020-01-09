@@ -357,6 +357,7 @@ pop
 }
 /
 /
+namespace
 mozilla
 #
 endif

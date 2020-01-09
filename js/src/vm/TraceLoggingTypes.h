@@ -618,12 +618,14 @@ NAME
 (
 textId
 )
+\
 case
 TraceLogger_
 #
 #
 textId
 :
+\
 return
 #
 textId
@@ -827,10 +829,10 @@ and
 TraceLogger_TreeItemEnd
 are
 tree
+/
+/
 events
 and
-/
-/
 atm
 also
 every

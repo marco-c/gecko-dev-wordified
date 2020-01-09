@@ -586,6 +586,8 @@ should
 be
 hooked
 according
+/
+/
 to
 quirks
 .
@@ -1188,7 +1190,15 @@ isHooked
 ;
 }
 }
+/
+/
+namespace
+plugins
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

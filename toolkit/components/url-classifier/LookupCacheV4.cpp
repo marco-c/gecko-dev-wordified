@@ -142,6 +142,7 @@ LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 gUrlClassifierDbServiceLog
@@ -159,6 +160,7 @@ define
 LOG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 gUrlClassifierDbServiceLog
@@ -236,10 +238,10 @@ a
 lexicographic
 -
 sorted
+/
+/
 string
 .
-/
-/
 The
 difference
 is
@@ -253,11 +255,11 @@ string
 (
 to
 avoid
+/
+/
 additional
 copies
 )
-/
-/
 and
 prefixes
 from
@@ -265,10 +267,10 @@ VLPrefixSet
 use
 nsCString
 .
-/
-/
 This
 class
+/
+/
 provides
 a
 common
@@ -1588,6 +1590,8 @@ should
 be
 merged
 with
+/
+/
 oldPSet
 .
 VLPrefixSet
@@ -1620,10 +1624,10 @@ the
 index
 of
 prefix
+/
+/
 we
 should
-/
-/
 remove
 from
 the
@@ -1665,6 +1669,8 @@ we
 picked
 from
 the
+/
+/
 old
 map
 .
@@ -1739,6 +1745,8 @@ the
 number
 of
 add
+/
+/
 prefixes
 .
 int32_t
@@ -2025,9 +2033,9 @@ the
 removalIndex
 then
 this
+/
+/
 prefix
-/
-/
 will
 be
 removed
@@ -2227,6 +2235,8 @@ after
 exhausting
 the
 old
+"
+"
 PrefixSet
 .
 "

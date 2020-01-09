@@ -370,12 +370,6 @@ namespace
 js
 ;
 using
-mozilla
-:
-:
-RangedPtr
-;
-using
 JS
 :
 :
@@ -451,7 +445,7 @@ JS
 ubi
 :
 :
-Node
+EdgeVector
 ;
 using
 JS
@@ -460,7 +454,7 @@ JS
 ubi
 :
 :
-EdgeVector
+Node
 ;
 using
 JS
@@ -488,6 +482,12 @@ ubi
 :
 :
 TracerConcreteWithRealm
+;
+using
+mozilla
+:
+:
+RangedPtr
 ;
 struct
 CopyToBufferMatcher

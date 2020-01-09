@@ -3087,10 +3087,10 @@ if
 the
 user
 manually
+/
+/
 selected
 a
-/
-/
 dictionary
 to
 use
@@ -3309,6 +3309,8 @@ canceled
 and
 we
 clear
+/
+/
 it
 .
 ClearCurrentDictionary
@@ -4863,10 +4865,10 @@ not
 forget
 to
 clear
+/
+/
 the
 word
-/
-/
 list
 .
 self

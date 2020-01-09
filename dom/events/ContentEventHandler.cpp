@@ -9865,6 +9865,8 @@ doesn
 t
 have
 selection
+"
+"
 mFirstSelectedRawRange
 must
 be
@@ -19972,6 +19974,8 @@ box
 .
 Why
 tentative
+"
+"
 caret
 point
 "

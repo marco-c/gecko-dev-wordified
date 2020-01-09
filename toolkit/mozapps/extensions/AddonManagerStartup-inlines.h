@@ -1640,6 +1640,10 @@ value
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

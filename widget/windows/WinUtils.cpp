@@ -552,6 +552,7 @@ ENTRY
 (
 _msg
 )
+\
 {
 #
 _msg
@@ -6667,6 +6668,8 @@ AsyncFaviconDataReady
 OnComplete
 failed
 in
+"
+"
 CreateDrawTargetForData
 "
 ;
@@ -7029,6 +7032,8 @@ the
 aData
 buffer
 passed
+/
+/
 in
 AsyncEncodeAndWriteIcon
 :
@@ -8241,9 +8246,9 @@ the
 favicon
 service
 so
+/
+/
 that
-/
-/
 the
 next
 time

@@ -481,6 +481,8 @@ because
 ProfilerScreenshots
 thread
 creation
+"
+"
 failed
 "
 )
@@ -561,9 +563,9 @@ data
 but
 has
 the
+/
+/
 correct
-/
-/
 size
 .
 {

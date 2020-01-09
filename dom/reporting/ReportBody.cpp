@@ -239,10 +239,10 @@ aGivenProto
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

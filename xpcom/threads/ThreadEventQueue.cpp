@@ -1727,3 +1727,7 @@ LabeledEventQueue
 >
 ;
 }
+/
+/
+namespace
+mozilla

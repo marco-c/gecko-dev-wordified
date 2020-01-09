@@ -187,6 +187,7 @@ SRIMETADATALOG
 (
 args
 )
+\
 MOZ_LOG
 (
 GetSriMetadataLog
@@ -207,6 +208,7 @@ SRIMETADATAERROR
 (
 args
 )
+\
 MOZ_LOG
 (
 GetSriMetadataLog

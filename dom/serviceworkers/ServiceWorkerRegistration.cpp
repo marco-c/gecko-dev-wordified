@@ -1421,9 +1421,9 @@ resilient
 and
 resolve
 false
+/
+/
 instead
-/
-/
 of
 rejecting
 in
@@ -2876,10 +2876,10 @@ nullptr
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

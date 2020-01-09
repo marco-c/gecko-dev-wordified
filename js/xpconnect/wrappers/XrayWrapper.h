@@ -3265,6 +3265,7 @@ const
 #
 define
 PermissiveXrayDOM
+\
 xpc
 :
 :
@@ -3282,6 +3283,7 @@ DOMXrayTraits
 #
 define
 SecurityXrayDOM
+\
 xpc
 :
 :
@@ -3299,6 +3301,7 @@ DOMXrayTraits
 #
 define
 PermissiveXrayJS
+\
 xpc
 :
 :
@@ -3316,6 +3319,7 @@ JSXrayTraits
 #
 define
 PermissiveXrayOpaque
+\
 xpc
 :
 :

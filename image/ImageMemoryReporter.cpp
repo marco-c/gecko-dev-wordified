@@ -1148,8 +1148,10 @@ gpuEntry
 }
 /
 /
+namespace
 image
 }
 /
 /
+namespace
 mozilla

@@ -285,6 +285,7 @@ LOG_FONTLIST
 (
 args
 )
+\
 MOZ_LOG
 (
 gfxPlatform
@@ -294,7 +295,6 @@ GetLog
 (
 eGfxLog_fontlist
 )
-\
 LogLevel
 :
 :
@@ -306,9 +306,9 @@ define
 LOG_FONTLIST_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
-\
 gfxPlatform
 :
 :
@@ -316,7 +316,6 @@ GetLog
 (
 eGfxLog_fontlist
 )
-\
 LogLevel
 :
 :
@@ -327,9 +326,9 @@ define
 LOG_CMAPDATA_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
-\
 gfxPlatform
 :
 :
@@ -337,7 +336,6 @@ GetLog
 (
 eGfxLog_cmapdata
 )
-\
 LogLevel
 :
 :
@@ -1596,6 +1594,7 @@ lfItalic
 #
 define
 MISSING_GLYPH
+\
 0x1F
 /
 /

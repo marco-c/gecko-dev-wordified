@@ -3550,6 +3550,8 @@ per
 step
 10
 of
+/
+/
 https
 :
 /
@@ -3599,6 +3601,8 @@ type
 return
 a
 network
+/
+/
 error
 .
 "
@@ -5982,9 +5986,9 @@ is
 not
 null
 then
+/
+/
 the
-/
-/
 loading
 principal
 must
@@ -6572,6 +6576,8 @@ do
 not
 support
 integrity
+/
+/
 metadata
 /
 /
@@ -13602,10 +13608,10 @@ workerinternals
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

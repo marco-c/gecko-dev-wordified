@@ -761,7 +761,7 @@ mBackgroundEventTarget
 }
 /
 /
-anonymous
+namespace
 void
 FileSystemRequestParent
 :

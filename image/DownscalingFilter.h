@@ -715,9 +715,9 @@ image
 input
 data
 at
+*
 one
 size
-*
 and
 outputting
 it
@@ -1219,10 +1219,10 @@ horizontally
 downscaled
 scanlines
 .
+/
+/
 (
 We
-/
-/
 can
 store
 scanlines
@@ -1232,9 +1232,9 @@ already
 downscaled
 because
 our
+/
+/
 downscaling
-/
-/
 filter
 is
 separable

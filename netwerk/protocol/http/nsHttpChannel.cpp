@@ -1117,7 +1117,6 @@ result
 NS_ERROR_FILE_CORRUPTED
 |
 |
-\
 (
 result
 )
@@ -1166,6 +1165,7 @@ RESPONSE_FROM_NETWORK
 )
 &
 &
+\
 (
 req
 !
@@ -2857,6 +2857,8 @@ Waiting
 until
 resume
 HandleContinueCancelledByTrackingProtection
+"
+"
 [
 this
 =
@@ -3336,6 +3338,8 @@ longer
 possible
 to
 call
+/
+/
 HttpBaseChannel
 :
 :
@@ -6628,6 +6632,8 @@ uri
 H1
 proxy
 syntax
+/
+/
 "
 http
 :
@@ -6639,8 +6645,6 @@ index
 .
 html
 "
-/
-/
 so
 we
 will
@@ -6649,6 +6653,8 @@ the
 relative
 version
 in
+/
+/
 requestURI
 rv
 =
@@ -7949,6 +7955,8 @@ loadInfo
 then
 there
 is
+/
+/
 nothing
 to
 do
@@ -8487,6 +8495,8 @@ loadInfo
 then
 there
 is
+/
+/
 nothing
 to
 do
@@ -11785,6 +11795,7 @@ supported
 :
 HSTS
 and
+*
 HPKP
 .
 *
@@ -16102,6 +16113,8 @@ transaction
 asynchronously
 prompting
 for
+"
+"
 credentials
 "
 )
@@ -19198,7 +19211,6 @@ channel
 p
 ]
 "
-\
 "
 processing
 %
@@ -19650,7 +19662,6 @@ this
 p
 ]
 "
-\
 "
 set
 -
@@ -24867,6 +24878,8 @@ got
 one
 from
 the
+"
+"
 network
 \
 n
@@ -24994,6 +25007,8 @@ no
 store
 request
 cache
+"
+"
 directive
 \
 n
@@ -27344,6 +27359,8 @@ doValidation
 =
 %
 d
+"
+"
 result
 =
 %
@@ -27598,6 +27615,8 @@ re
 racing
 cache
 with
+"
+"
 network
 "
 )
@@ -28739,6 +28758,8 @@ this
 p
 URL
 matches
+"
+"
 NETWORK
 "
 "
@@ -30269,6 +30290,8 @@ only
 open
 the
 altdata
+/
+/
 stream
 if
 the
@@ -31301,6 +31324,8 @@ first
 response
 was
 from
+"
+"
 network
 \
 n
@@ -32588,6 +32613,8 @@ the
 server
 -
 >
+"
+"
 recreating
 cache
 entry
@@ -33465,7 +33492,6 @@ this
 p
 ]
 "
-\
 "
 processing
 %
@@ -33557,7 +33583,6 @@ this
 p
 ]
 "
-\
 "
 cookie
 -
@@ -33713,7 +33738,6 @@ this
 p
 ]
 "
-\
 "
 clearing
 metadata
@@ -37325,6 +37349,8 @@ won
 t
 have
 any
+"
+"
 effect
 "
 )
@@ -38019,6 +38045,8 @@ to
 be
 handled
 by
+"
+"
 CancelForTrackingProtection
 (
 )
@@ -39673,10 +39701,10 @@ PrivateBrowsingChannel
 which
 we
 derive
+/
+/
 from
 )
-/
-/
 Hence
 we
 have
@@ -40023,6 +40051,8 @@ failed
 the
 channel
 must
+/
+/
 continue
 .
 AsyncOpenFinal
@@ -42152,9 +42182,9 @@ the
 caller
 will
 be
+/
+/
 responsible
-/
-/
 for
 handling
 it
@@ -42469,6 +42499,8 @@ protection
 cancellation
 in
 BeginConnectActual
+"
+"
 [
 this
 =
@@ -42506,6 +42538,8 @@ for
 cancellation
 from
 tracking
+"
+"
 protection
 "
 )
@@ -43623,6 +43657,8 @@ this
 =
 %
 p
+"
+"
 rv
 =
 %
@@ -46591,6 +46627,8 @@ fromCache
 :
 %
 d
+"
+"
 fromNet
 :
 %
@@ -49768,6 +49806,8 @@ so
 count
 it
 that
+/
+/
 way
 if
 (
@@ -49915,6 +49955,8 @@ for
 mixed
 passive
 content
+/
+/
 when
 upgrading
 is
@@ -50241,6 +50283,8 @@ here
 at
 the
 size
+/
+/
 offset
 MOZ_ASSERT
 (
@@ -50527,11 +50571,11 @@ the
 !
 mCacheEntryIsReadOnly
 flag
+/
+/
 passed
 in
 .
-/
-/
 Old
 implementation
 checks
@@ -59304,6 +59348,8 @@ CallOnResume
 resuming
 previous
 transaction
+"
+"
 pump
 %
 p
@@ -59350,6 +59396,8 @@ resuming
 previous
 cache
 pump
+"
+"
 %
 p
 this
@@ -59389,28 +59437,30 @@ suspended
 once
 because
 of
+/
+/
 mAsyncResumePending
 .
-/
-/
 Problem
 is
 that
 the
 stream
 listener
+/
+/
 notification
 is
 already
 pending
 in
 the
-/
-/
 queue
 right
 now
 because
+/
+/
 AsyncRead
 doesn
 '
@@ -59422,9 +59472,9 @@ called
 after
 Suspend
 )
-/
-/
 respect
+/
+/
 the
 suspend
 coutner
@@ -59450,9 +59500,9 @@ actually
 Resume
 after
 the
+/
+/
 notification
-/
-/
 from
 the
 original
@@ -59488,6 +59538,8 @@ async
 resuming
 new
 transaction
+"
+"
 pump
 %
 p
@@ -59593,6 +59645,8 @@ resuming
 new
 cache
 pump
+"
+"
 %
 p
 this
@@ -60060,6 +60114,8 @@ an
 XHR
 with
 explicit
+/
+/
 UA
 )
 .
@@ -61608,6 +61664,8 @@ between
 different
 sizes
 for
+/
+/
 |
 onStartDiff
 |

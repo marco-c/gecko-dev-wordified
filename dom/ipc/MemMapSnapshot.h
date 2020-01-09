@@ -424,10 +424,12 @@ endif
 }
 /
 /
+namespace
 ipc
 }
 /
 /
+namespace
 mozilla
 #
 endif

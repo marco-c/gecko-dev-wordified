@@ -131,10 +131,12 @@ define
 NS_GCONFSERVICE_CID
 \
 {
+\
 0xd96d5985
 0xa13a
 0x4bdc
 {
+\
 0x93
 0x86
 0xef
@@ -143,7 +145,9 @@ NS_GCONFSERVICE_CID
 0x7a
 0x97
 0xa1
+\
 }
+\
 }
 class
 nsGConfService

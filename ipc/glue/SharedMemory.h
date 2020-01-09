@@ -526,6 +526,8 @@ memory
 instances
 that
 are
+/
+/
 destroyed
 by
 main
@@ -541,6 +543,8 @@ thread
 safe
 RC
 to
+/
+/
 avoid
 hitting
 assertion

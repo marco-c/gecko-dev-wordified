@@ -268,6 +268,7 @@ WrapObject
 JSContext
 *
 cx
+\
 JS
 :
 :
@@ -290,7 +291,6 @@ WebGLBindingType
 \
 JSObject
 *
-\
 WebGLExtensionType
 :
 :
@@ -299,6 +299,7 @@ WrapObject
 JSContext
 *
 cx
+\
 JS
 :
 :

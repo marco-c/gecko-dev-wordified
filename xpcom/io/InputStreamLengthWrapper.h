@@ -458,8 +458,8 @@ mAsyncWaitCallback
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 /

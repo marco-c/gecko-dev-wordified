@@ -296,6 +296,8 @@ SchedulerImpl
 :
 mQueue
 '
+/
+/
 whose
 type
 uses
@@ -885,6 +887,8 @@ lock
 comes
 from
 the
+/
+/
 SchedulerEventQueue
 .
 Mutex
@@ -3246,11 +3250,11 @@ to
 return
 mMainVirtual
 and
+/
+/
 NS_IsMainThread
 (
 )
-/
-/
 to
 return
 true

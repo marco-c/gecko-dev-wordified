@@ -362,6 +362,7 @@ ifdef
 XPCOM_GLUE
 #
 error
+\
 "
 nsTextFormatter
 is

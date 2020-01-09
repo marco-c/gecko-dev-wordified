@@ -648,9 +648,9 @@ alignment
 without
 worrying
 about
+/
+/
 containers
-/
-/
 Minimum
 3px
 padding
@@ -665,6 +665,8 @@ just
 to
 make
 things
+/
+/
 nice
 gint
 x_padding
@@ -2035,9 +2037,9 @@ t
 exist
 GTK
 still
+/
+/
 switches
-/
-/
 directories
 .
 defaultPath

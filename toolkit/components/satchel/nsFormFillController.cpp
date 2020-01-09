@@ -2363,6 +2363,8 @@ after
 ScrollContentIntoView
 see
 bug
+/
+/
 420089
 if
 (
@@ -2710,6 +2712,8 @@ crash
 .
 should
 find
+"
+"
 out
 why
 .
@@ -3642,6 +3646,8 @@ from
 XUL
 without
 a
+/
+/
 focused
 node
 .
@@ -3711,6 +3717,8 @@ because
 password
 manager
 is
+/
+/
 disabled
 .
 if
@@ -3766,10 +3774,10 @@ since
 we
 '
 re
+/
+/
 not
 letting
-/
-/
 satchel
 manage
 the
@@ -4029,11 +4037,11 @@ the
 items
 in
 the
+/
+/
 <
 datalist
 >
-/
-/
 and
 update
 the

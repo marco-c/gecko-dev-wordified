@@ -1186,6 +1186,8 @@ of
 races
 in
 texture
+/
+/
 upload
 .
 if
@@ -1266,9 +1268,9 @@ we
 implement
 incremental
 texture
+/
+/
 upload
-/
-/
 then
 we
 will

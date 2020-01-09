@@ -2297,3 +2297,7 @@ get
 ;
 }
 }
+/
+/
+namespace
+mozilla

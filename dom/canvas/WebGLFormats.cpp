@@ -803,9 +803,9 @@ always
 state
 these
 in
+/
+/
 bits
-/
-/
 but
 it
 '
@@ -813,11 +813,11 @@ s
 only
 ever
 useful
+/
+/
 to
 us
 as
-/
-/
 bytes
 .
 MOZ_ASSERT
@@ -8700,12 +8700,12 @@ should
 allow
 it
 for
+/
+/
 web
 -
 compat
 .
-/
-/
 Min
 -
 capability
@@ -8844,6 +8844,7 @@ FOO
 (
 x
 )
+\
 ptr
 -
 >
@@ -8904,6 +8905,8 @@ uses
 DEPTH_STENCIL
 instead
 of
+/
+/
 DEPTH24_STENCIL8
 .
 #
@@ -10760,9 +10763,9 @@ support
 STENCIL_INDEX8
 .
 Requesting
+/
+/
 this
-/
-/
 internal
 format
 for
@@ -10774,6 +10777,8 @@ at
 least
 8
 stencil
+/
+/
 bit
 planes
 .
@@ -11024,6 +11029,8 @@ from
 sized
 and
 unsized
+/
+/
 formats
 .
 auto

@@ -157,11 +157,12 @@ define
 NS_SYSTEMPRINCIPAL_CID
 \
 {
+\
 0x4a6212db
 0xaccb
 0x11d3
-\
 {
+\
 0xb7
 0x65
 0x0
@@ -170,7 +171,9 @@ NS_SYSTEMPRINCIPAL_CID
 0xb6
 0xce
 0xcb
+\
 }
+\
 }
 #
 define
@@ -419,8 +422,8 @@ true
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 /

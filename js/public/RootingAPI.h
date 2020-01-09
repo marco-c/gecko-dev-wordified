@@ -1211,6 +1211,8 @@ would
 import
 too
 many
+/
+/
 macros
 into
 scope
@@ -1241,12 +1243,14 @@ T
 template
 <
 >
+\
 struct
 IsHeapConstructibleType
 <
 T
 >
 {
+\
 static
 constexpr
 bool
@@ -1254,6 +1258,7 @@ value
 =
 true
 ;
+\
 }
 ;
 FOR_EACH_PUBLIC_GC_POINTER_TYPE
@@ -1544,7 +1549,6 @@ this
 ;
 \
 }
-\
 #
 define
 DELETE_ASSIGNMENT_OPS
@@ -1558,6 +1562,7 @@ template
 typename
 S
 >
+\
 Wrapper
 <
 T
@@ -1627,7 +1632,6 @@ ptr
 )
 ;
 }
-\
 #
 define
 DECLARE_NONPOINTER_MUTABLE_ACCESSOR_METHODS
@@ -1661,7 +1665,6 @@ ptr
 )
 ;
 }
-\
 }
 /
 *
@@ -1836,6 +1839,7 @@ XP_MACOSX
 )
 |
 |
+\
 (
 defined
 (
@@ -2342,6 +2346,8 @@ nsXBLMaybeCompiled
 T
 >
 for
+/
+/
 legacy
 reasons
 .

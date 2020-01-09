@@ -504,9 +504,9 @@ words
 )
 to
 the
+*
 commandline
 .
-*
 set
 a
 "
@@ -521,9 +521,9 @@ word
 not
 affect
 this
+*
 code
 .
-*
 set
 a
 "
@@ -536,7 +536,6 @@ show
 the
 dialog
 .
-*
 set
 a
 "
@@ -545,6 +544,7 @@ word
 to
 0x5
 to
+*
 ignore
 (
 program
@@ -552,7 +552,6 @@ should
 continue
 )
 .
-*
 set
 a
 "
@@ -565,11 +564,11 @@ retry
 (
 should
 fall
+*
 into
 debugger
 )
 .
-*
 set
 a
 "

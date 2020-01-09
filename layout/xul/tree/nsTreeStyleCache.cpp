@@ -237,6 +237,8 @@ of
 the
 state
 and
+/
+/
 the
 input
 symbol
@@ -613,6 +615,8 @@ the
 owning
 reference
 to
+/
+/
 the
 table
 .

@@ -163,7 +163,7 @@ gFileSystemSecurity
 }
 /
 /
-anonymous
+namespace
 /
 *
 static
@@ -624,10 +624,10 @@ false
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

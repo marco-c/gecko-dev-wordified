@@ -851,9 +851,9 @@ process
 which
 the
 middleman
+/
+/
 manages
-/
-/
 directly
 )
 they
@@ -865,10 +865,10 @@ shutdown
 is
 needed
 while
+/
+/
 when
 sent
-/
-/
 to
 a
 replaying
@@ -881,10 +881,10 @@ process
 manages
 )
 they
+/
+/
 signal
 that
-/
-/
 the
 process
 should

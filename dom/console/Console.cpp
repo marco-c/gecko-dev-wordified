@@ -6220,7 +6220,6 @@ static
 *
 /
 void
-\
 Console
 :
 :
@@ -6230,6 +6229,7 @@ const
 GlobalObject
 &
 aGlobal
+\
 const
 Sequence
 <
@@ -6241,7 +6241,6 @@ Value
 &
 aData
 )
-\
 {
 \
 Method
@@ -10990,6 +10989,8 @@ non
 -
 empty
 to
+/
+/
 aSequence
 .
 bool

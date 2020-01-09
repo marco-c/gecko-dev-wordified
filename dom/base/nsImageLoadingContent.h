@@ -290,8 +290,7 @@ Element
 /
 /
 namespace
-Element
-;
+dom
 }
 /
 /
@@ -2456,16 +2455,17 @@ the
 current
 request
 if
+*
 |
 mNewRequestsWillNeedAnimationReset
 |
-*
 was
 true
 when
 the
 request
 was
+*
 prepared
 .
 *
@@ -3579,6 +3579,8 @@ evil
 code
 is
 reentering
+/
+/
 LoadImage
 .
 bool

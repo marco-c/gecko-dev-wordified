@@ -169,6 +169,10 @@ RenderFrame
 }
 }
 /
+/
+namespace
+mozilla
+/
 *
 *
 *

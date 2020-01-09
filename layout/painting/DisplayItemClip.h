@@ -196,7 +196,7 @@ ComplexClipRegion
 }
 /
 /
-namepsace
+namespace
 wr
 }
 /

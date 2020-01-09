@@ -432,6 +432,10 @@ class
 TextureImage
 ;
 }
+/
+/
+namespace
+gl
 namespace
 layers
 {

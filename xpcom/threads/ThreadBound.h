@@ -160,6 +160,10 @@ type
 }
 /
 /
+namespace
+detail
+/
+/
 A
 ThreadBound
 <
@@ -916,9 +920,7 @@ predicate
 (
 )
 const
-\
 {
-\
 MOZ_DIAGNOSTIC_ASSERT
 (
 predicate
@@ -926,7 +928,6 @@ predicate
 )
 )
 ;
-\
 }
 MOZ_DEFINE_THREAD_BOUND_ASSERT
 (
@@ -969,6 +970,10 @@ name
 value
 )
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

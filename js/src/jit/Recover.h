@@ -1215,7 +1215,6 @@ opcode
 const
 override
 {
-\
 return
 RInstruction
 :
@@ -1225,7 +1224,6 @@ Recover_
 #
 op
 ;
-\
 }
 \
 void
@@ -1279,11 +1277,9 @@ numOperands
 const
 override
 {
-\
 return
 numOp
 ;
-\
 }
 #
 ifdef
@@ -1314,6 +1310,7 @@ staticNumOperands
 =
 =
 numOp
+\
 "
 The
 recover
@@ -1325,6 +1322,9 @@ should
 equal
 to
 the
+"
+\
+"
 MIR
 '
 s

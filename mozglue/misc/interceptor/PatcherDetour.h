@@ -166,6 +166,7 @@ COPY_CODES
 (
 NBYTES
 )
+\
 do
 {
 \
@@ -2858,9 +2859,9 @@ until
 CreateTrampoline
 has
 completed
+/
+/
 successfully
-/
-/
 so
 we
 can
@@ -3618,6 +3619,8 @@ don
 t
 ASSERT
 but
+/
+/
 we
 do
 fail
@@ -3668,6 +3671,8 @@ trampoline
 \
 n
 "
+/
+/
 *
 origBytes
 )
@@ -7207,14 +7212,12 @@ instead
 of
 jumping
 to
+/
+/
 the
-/
-/
 original
 function
 .
-/
-/
 Adjust
 jump
 target
@@ -7222,6 +7225,8 @@ displacement
 to
 jump
 location
+/
+/
 in
 the
 trampoline

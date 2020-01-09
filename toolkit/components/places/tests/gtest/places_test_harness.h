@@ -261,7 +261,6 @@ do_check_true
 (
 aCondition
 )
-\
 EXPECT_TRUE
 (
 aCondition
@@ -272,7 +271,6 @@ do_check_false
 (
 aCondition
 )
-\
 EXPECT_FALSE
 (
 aCondition
@@ -283,7 +281,6 @@ do_check_success
 (
 aResult
 )
-\
 do_check_true
 (
 NS_SUCCEEDED
@@ -298,7 +295,6 @@ do_check_eq
 aExpected
 aActual
 )
-\
 do_check_true
 (
 aExpected

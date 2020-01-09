@@ -175,8 +175,8 @@ inline
 frames
 .
 Working
-with
 *
+with
 nsLineLayout
 the
 class

@@ -259,6 +259,8 @@ nsXBLPrototypeBinding
 mBindToUntrustedContent
 should
 be
+/
+/
 true
 #
 define
@@ -332,9 +334,9 @@ for
 each
 member
 contains
+/
+/
 one
-/
-/
 of
 these
 values
@@ -345,15 +347,17 @@ read
 -
 only
 flag
+/
+/
 XBLBinding_Serialize_ReadOnly
 .
-/
-/
 Use
 XBLBinding_Serialize_Mask
 to
 filter
 out
+/
+/
 the
 read
 -
@@ -362,8 +366,6 @@ flag
 and
 check
 for
-/
-/
 just
 the
 member
@@ -372,6 +374,7 @@ type
 #
 define
 XBLBinding_Serialize_NoMoreItems
+\
 0
 /
 /

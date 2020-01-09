@@ -604,10 +604,12 @@ sWrReporter
 }
 /
 /
+namespace
 image
 }
 /
 /
+namespace
 mozilla
 #
 endif

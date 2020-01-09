@@ -156,8 +156,8 @@ communicate
 with
 a
 child
-process
 *
+process
 (
 or
 with

@@ -1810,9 +1810,9 @@ within
 the
 IntegralImage
 that
+/
+/
 overlaps
-/
-/
 the
 surface
 being

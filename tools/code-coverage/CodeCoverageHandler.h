@@ -214,6 +214,10 @@ SetSignalHandlers
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

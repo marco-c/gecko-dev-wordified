@@ -291,11 +291,11 @@ capacity
 /
 stackPointer
 remain
+/
+/
 consistent
 here
 at
-/
-/
 all
 times
 .

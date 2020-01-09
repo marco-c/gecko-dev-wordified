@@ -2844,6 +2844,8 @@ a
 dot
 or
 be
+/
+/
 first
 return
 -
@@ -3020,9 +3022,9 @@ a
 Guaranteed
 i
 >
+/
+/
 0
-/
-/
 as
 lastWasNumber
 is
@@ -3158,9 +3160,9 @@ or
 following
 a
 dot
+/
+/
 is
-/
-/
 a
 candidate
 for
@@ -3822,10 +3824,10 @@ ValidateIPv4Number
 ignoring
 the
 trailing
+/
+/
 period
 )
-/
-/
 so
 use
 "
@@ -5108,6 +5110,8 @@ no
 actual
 password
 if
+/
+/
 "
 user
 :
@@ -8439,7 +8443,6 @@ what
 )
 \
 void
-\
 nsStandardURL
 :
 :
@@ -8448,7 +8451,6 @@ name
 int32_t
 diff
 )
-\
 {
 \
 if
@@ -15391,6 +15393,8 @@ other
 failed
 to
 ensure
+"
+"
 file
 "
 other
@@ -16230,6 +16234,8 @@ http
 https
 /
 ftp
+/
+/
 scheme
 if
 (
@@ -22978,10 +22984,10 @@ Note
 that
 this
 will
+/
+/
 mean
 that
-/
-/
 an
 older
 browser
@@ -22998,6 +23004,8 @@ param
 s
 )
 will
+/
+/
 be
 part
 of
@@ -23005,8 +23013,6 @@ mPath
 (
 as
 they
-/
-/
 after
 the
 removal
@@ -23017,6 +23023,8 @@ handling
 .
 It
 only
+/
+/
 matters
 if
 you
@@ -23025,8 +23033,6 @@ a
 browser
 to
 before
-/
-/
 the
 patch
 .

@@ -386,8 +386,8 @@ NewAccessible
 that
 gets
 the
-IAccessible
 *
+IAccessible
 from
 the
 windows

@@ -950,6 +950,8 @@ production
 .
 Called
 AFTER
+/
+/
 creating
 the
 scope
@@ -1216,6 +1218,8 @@ are
 known
 closed
 over
+/
+/
 and
 un
 -
@@ -1253,6 +1257,8 @@ body
 parameter
 and
 recursive
+/
+/
 binding
 scopes
 .
@@ -1325,10 +1331,10 @@ parse
 when
 we
 see
+/
+/
 a
 strict
-/
-/
 directive
 .
 void

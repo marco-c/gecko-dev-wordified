@@ -1945,6 +1945,8 @@ d
 d
 )
 ;
+"
+"
 frame
 =
 %
@@ -7806,6 +7808,8 @@ text
 frames
 and
 inline
+/
+/
 containers
 .
 bool
@@ -8182,6 +8186,8 @@ told
 to
 actually
 break
+/
+/
 here
 .
 aReflowStatus
@@ -14947,6 +14953,8 @@ minLineBSize
 =
 %
 d
+"
+"
 zeroEffectiveSpanBox
 =
 %
@@ -15503,6 +15511,8 @@ bp
 d
 %
 d
+"
+"
 zeroEffectiveSpanBox
 =
 %
@@ -17370,6 +17380,8 @@ fact
 that
 we
 are
+/
+/
 not
 /
 /
@@ -17431,9 +17443,9 @@ avoiding
 empty
 text
 frames
+/
+/
 prevents
-/
-/
 "
 tall
 "
@@ -17446,13 +17458,13 @@ hr
 >
 since
 the
+/
+/
 rules
 of
 <
 hr
 >
-/
-/
 in
 quirks
 .
@@ -17463,6 +17475,8 @@ text
 contents
 with
 LF
+/
+/
 in
 them
 .
@@ -17801,6 +17815,8 @@ y
 =
 %
 d
+"
+"
 minBCoord
 =
 %
@@ -18467,6 +18483,8 @@ blockStart
 d
 blockEnd
 :
+"
+"
 %
 d
 \
@@ -18572,6 +18590,8 @@ currentValues
 d
 %
 d
+"
+"
 newValues
 :
 0
@@ -18668,6 +18688,8 @@ ascent
 =
 %
 d
+"
+"
 logicalBSize
 =
 %
@@ -19488,6 +19510,8 @@ ascent
 =
 %
 d
+"
+"
 logicalBSize
 =
 %
@@ -19577,6 +19601,8 @@ maxStartBoxBSize
 =
 %
 d
+"
+"
 maxEndBoxBSize
 =
 %

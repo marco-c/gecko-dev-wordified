@@ -1170,7 +1170,7 @@ mStack
 }
 /
 /
-anon
+namespace
 bool
 IsBlockedUNCPath
 (
@@ -1702,12 +1702,10 @@ aNormalized
 }
 /
 /
-:
-:
+namespace
 FilePreferences
 }
 /
 /
-:
-:
+namespace
 mozilla

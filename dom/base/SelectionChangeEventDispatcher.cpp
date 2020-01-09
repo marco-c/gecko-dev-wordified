@@ -933,9 +933,9 @@ native
 anonymous
 subtree
 and
+/
+/
 then
-/
-/
 fire
 the
 event
@@ -1023,6 +1023,8 @@ the
 event
 at
 the
+/
+/
 document
 .
 if

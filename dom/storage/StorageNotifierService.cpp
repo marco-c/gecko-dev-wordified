@@ -182,7 +182,7 @@ gStorageNotifierService
 }
 /
 /
-anonymous
+namespace
 /
 *
 static

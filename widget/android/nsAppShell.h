@@ -239,6 +239,10 @@ NotifyEvent
 )
 ;
 }
+/
+/
+namespace
+mozilla
 class
 nsWindow
 ;

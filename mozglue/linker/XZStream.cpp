@@ -865,9 +865,9 @@ after
 the
 32
 bit
+/
+/
 CRC32
-/
-/
 code
 .
 It
@@ -883,9 +883,9 @@ of
 bytes
 with
 a
+/
+/
 minimum
-/
-/
 size
 of
 4
@@ -1135,9 +1135,9 @@ by
 a
 var
 field
+/
+/
 for
-/
-/
 uncompressed
 size
 .

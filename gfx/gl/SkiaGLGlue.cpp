@@ -447,9 +447,9 @@ have
 to
 intercept
 a
+/
+/
 bunch
-/
-/
 of
 checks
 that
@@ -460,9 +460,9 @@ determine
 which
 capabilities
 are
+/
+/
 present
-/
-/
 on
 the
 GL
@@ -474,6 +474,8 @@ to
 match
 what
 GLContext
+/
+/
 actually
 exposes
 .
@@ -553,10 +555,10 @@ support
 to
 ensure
 a
+/
+/
 functional
 Ganesh
-/
-/
 as
 GLContext
 only
@@ -3406,8 +3408,8 @@ here
 mGrContext
 uses
 mGrGLInterface
-and
 *
+and
 through
 it
 uses
@@ -3437,6 +3439,8 @@ even
 if
 the
 GrContext
+/
+/
 still
 lives
 .

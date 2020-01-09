@@ -214,6 +214,8 @@ native
 widget
 for
 plugins
+/
+/
 (
 e10s
 )
@@ -226,6 +228,8 @@ puppet
 widget
 for
 plugins
+/
+/
 (
 e10s
 )
@@ -363,6 +367,8 @@ when
 the
 application
 is
+/
+/
 deactivated
 ePopupLevelFloating
 /
@@ -379,6 +385,8 @@ including
 those
 of
 other
+/
+/
 applications
 ePopupLevelTop
 }

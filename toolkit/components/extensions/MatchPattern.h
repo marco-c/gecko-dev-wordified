@@ -1359,9 +1359,9 @@ com
 and
 mMatchSubdomain
 =
+/
+/
 true
-/
-/
 and
 matches
 "

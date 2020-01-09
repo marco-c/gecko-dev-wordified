@@ -4141,6 +4141,8 @@ tests
 multiple
 transferables
 )
+"
+"
 succeeded
 !
 "

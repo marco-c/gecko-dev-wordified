@@ -463,7 +463,6 @@ NS_OK
 /
 /
 namespace
-anonymous
 NS_IMPL_ISUPPORTS
 (
 nsDNSServiceDiscovery

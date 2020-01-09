@@ -766,6 +766,8 @@ GetFile
 to
 provide
 nsIFile
+/
+/
 resolution
 class
 SubstitutingURL

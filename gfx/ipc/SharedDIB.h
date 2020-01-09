@@ -237,9 +237,9 @@ memory
 Note
 aHandle
 must
+/
+/
 point
-/
-/
 to
 a
 memory
@@ -253,10 +253,10 @@ dib
 of
 size
 aSize
+/
+/
 otherwise
 this
-/
-/
 will
 fail
 .

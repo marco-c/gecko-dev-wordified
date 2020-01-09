@@ -2048,7 +2048,6 @@ aStrokeWidth
 subpathContainsNonMoveTo
 &
 &
-\
 IsValidType
 (
 prevSegType
@@ -2076,6 +2075,7 @@ ApproximateZeroLengthSubpathSquareCaps
 (
 aBuilder
 segStart
+\
 aStrokeWidth
 )
 ;
@@ -3704,6 +3704,8 @@ up
 to
 the
 bad
+/
+/
 seg
 anyway
 }
@@ -6578,9 +6580,9 @@ it
 s
 as
 if
+/
+/
 this
-/
-/
 arc
 had
 never
@@ -6596,9 +6598,9 @@ e
 .
 g
 .
+/
+/
 if
-/
-/
 the
 arc
 is
@@ -6611,11 +6613,11 @@ and
 followed
 by
 a
+/
+/
 "
 smooth
 "
-/
-/
 bezier
 curve
 of
@@ -6668,10 +6670,10 @@ from
 endpoint
 to
 center
+/
+/
 parameterization
 )
-/
-/
 which
 is
 designed
@@ -6679,6 +6681,8 @@ to
 avoid
 some
 unnecessary
+/
+/
 calculations
 .
 if

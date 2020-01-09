@@ -412,9 +412,8 @@ widget
 }
 /
 /
-namespacw
+namespace
 mozilla
-;
 /
 *
 *
@@ -1883,12 +1882,12 @@ an
 nsITaskbarTabPreview
 receives
 the
+/
+/
 noticiation
 that
 this
 window
-/
-/
 has
 its
 icon

@@ -536,7 +536,7 @@ mTextureClient
 }
 /
 /
-namepace
+namespace
 layers
 }
 /

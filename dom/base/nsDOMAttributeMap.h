@@ -238,6 +238,7 @@ in
 nsDOMAttributeMap
 '
 s
+*
 mAttributeCache
 .
 *

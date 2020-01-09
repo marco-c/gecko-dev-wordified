@@ -308,7 +308,7 @@ mozilla
 dom
 :
 :
-Optional
+GlobalObject
 ;
 using
 mozilla
@@ -317,7 +317,7 @@ mozilla
 dom
 :
 :
-GlobalObject
+Optional
 ;
 /
 /
@@ -2125,7 +2125,7 @@ NS_INTERFACE_MAP_END
 }
 /
 /
-anonymous
+namespace
 nsresult
 FileReaderSync
 :

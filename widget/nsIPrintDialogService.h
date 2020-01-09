@@ -136,11 +136,12 @@ define
 NS_IPRINTDIALOGSERVICE_IID
 \
 {
+\
 0x3715eb1a
 0xb314
 0x447c
-\
 {
+\
 0x95
 0x33
 0xd0
@@ -149,7 +150,9 @@ NS_IPRINTDIALOGSERVICE_IID
 0xa6
 0xa6
 0xf0
+\
 }
+\
 }
 /
 *
@@ -437,6 +440,7 @@ NS_IPRINTDIALOGSERVICE_IID
 #
 define
 NS_PRINTDIALOGSERVICE_CONTRACTID
+\
 (
 "
 mozilla

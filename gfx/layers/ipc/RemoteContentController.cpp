@@ -622,6 +622,8 @@ TabParent
 SendHandleTap
 (
 )
+/
+/
 from
 a
 non
@@ -632,13 +634,13 @@ thread
 this
 might
 happen
-/
-/
 on
 Android
 where
 this
 is
+/
+/
 called
 from
 the
@@ -910,6 +912,8 @@ layers
 RemoteContentController
 :
 :
+"
+"
 NotifyPinchGestureOnCompositorThread
 "
 this

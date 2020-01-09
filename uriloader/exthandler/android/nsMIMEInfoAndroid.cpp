@@ -612,6 +612,7 @@ URL
 or
 only
 a
+*
 protocol
 *
 /
@@ -1399,6 +1400,8 @@ extension
 doesn
 '
 t
+/
+/
 exist
 )
 .
@@ -1785,6 +1788,7 @@ chooser
 #
 define
 SYSTEMCHOOSER_DESCRIPTION
+\
 u
 "
 Android

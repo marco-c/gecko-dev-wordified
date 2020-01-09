@@ -426,6 +426,7 @@ and
 new
 TextureClient
 is
+*
 allocated
 .
 *

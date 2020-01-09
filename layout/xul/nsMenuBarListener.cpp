@@ -571,9 +571,9 @@ has
 blocked
 pages
 from
+/
+/
 overriding
-/
-/
 system
 keys
 so
@@ -585,6 +585,8 @@ menu
 accesskeys
 from
 being
+/
+/
 cancelled
 .
 mEventTarget

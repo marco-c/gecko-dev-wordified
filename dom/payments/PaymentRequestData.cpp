@@ -3830,10 +3830,8 @@ NS_OK
 }
 /
 /
-end
-of
 namespace
-payment
+payments
 }
 /
 /

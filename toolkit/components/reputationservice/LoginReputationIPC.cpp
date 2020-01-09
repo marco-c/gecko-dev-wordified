@@ -158,6 +158,7 @@ LR_LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 gLoginReputationLogModule
@@ -175,6 +176,7 @@ define
 LR_LOG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 gLoginReputationLogModule

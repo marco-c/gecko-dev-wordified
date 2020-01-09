@@ -682,6 +682,10 @@ mIsNull
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

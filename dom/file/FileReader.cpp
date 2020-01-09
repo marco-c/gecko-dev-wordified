@@ -1377,7 +1377,7 @@ NS_OK
 }
 /
 /
-anonymous
+namespace
 nsresult
 FileReader
 :
@@ -3855,10 +3855,10 @@ mBusyCount
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

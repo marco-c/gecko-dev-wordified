@@ -1239,3 +1239,7 @@ aTimestamp
 ;
 }
 }
+/
+/
+namespace
+mozilla

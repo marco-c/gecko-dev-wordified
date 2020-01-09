@@ -384,6 +384,7 @@ Definitions
 #
 define
 INLINE_STYLE_VIOLATION_OBSERVER_TOPIC
+\
 "
 violated
 base
@@ -398,6 +399,7 @@ apply
 #
 define
 INLINE_SCRIPT_VIOLATION_OBSERVER_TOPIC
+\
 "
 violated
 base
@@ -412,6 +414,7 @@ execute
 #
 define
 EVAL_VIOLATION_OBSERVER_TOPIC
+\
 "
 violated
 base
@@ -468,6 +471,7 @@ hash
 #
 define
 REQUIRE_SRI_SCRIPT_VIOLATION_OBSERVER_TOPIC
+\
 "
 Missing
 required
@@ -479,6 +483,7 @@ Script
 #
 define
 REQUIRE_SRI_STYLE_VIOLATION_OBSERVER_TOPIC
+\
 "
 Missing
 required
@@ -514,9 +519,9 @@ add
 it
 here
 but
+/
+/
 also
-/
-/
 add
 a
 corresponding
@@ -525,11 +530,11 @@ to
 the
 constants
 in
+/
+/
 nsIContentSecurityPolicy
 .
 idl
-/
-/
 and
 also
 create
@@ -539,9 +544,9 @@ for
 the
 new
 directive
+/
+/
 in
-/
-/
 nsCSPDirective
 :
 :

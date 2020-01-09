@@ -665,9 +665,9 @@ of
 data
 pushed
 is
+/
+/
 precalculated
-/
-/
 we
 can
 just
@@ -679,12 +679,12 @@ header
 at
 once
 and
+/
+/
 index
 off
 sp
 .
-/
-/
 This
 will
 save
@@ -694,6 +694,8 @@ number
 of
 instructions
 where
+/
+/
 Push
 (
 )
@@ -964,9 +966,9 @@ is
 necessary
 to
 avoid
+/
+/
 overwriting
-/
-/
 the
 Gecko
 Profiler
@@ -1815,6 +1817,8 @@ the
 callee
 must
 push
+/
+/
 lr
 .
 masm
@@ -3481,6 +3485,8 @@ entries
 have
 higher
 memory
+/
+/
 addresses
 )
 :
@@ -4035,9 +4041,9 @@ to
 work
 with
 both
+/
+/
 direct
-/
-/
 calls
 and
 tail
@@ -6499,6 +6505,8 @@ lastProfilingFrame
 and
 current
 stack
+"
+"
 pointer
 .
 "
@@ -6531,6 +6539,8 @@ what
 to
 do
 depending
+/
+/
 on
 its
 type

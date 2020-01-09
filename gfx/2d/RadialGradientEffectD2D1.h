@@ -220,8 +220,8 @@ a
 #
 name
 )
-\
 {
+\
 m
 #
 #
@@ -232,9 +232,11 @@ a
 #
 name
 ;
+\
 return
 S_OK
 ;
+\
 }
 \
 type
@@ -253,6 +255,7 @@ m
 name
 ;
 }
+\
 \
 private
 :
@@ -546,7 +549,15 @@ Transform
 }
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 undef
 SIMPLE_PROP

@@ -161,6 +161,10 @@ NotifyEvent
 )
 ;
 }
+/
+/
+namespace
+mozilla
 namespace
 base
 {

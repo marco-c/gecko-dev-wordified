@@ -338,13 +338,13 @@ using
 mozilla
 :
 :
-UniquePtr
+MakeUnique
 ;
 using
 mozilla
 :
 :
-MakeUnique
+UniquePtr
 ;
 /
 /
@@ -417,6 +417,8 @@ default
 impersonation
 (
 server
+/
+/
 impersonates
 )
 nullptr

@@ -648,6 +648,8 @@ s
 the
 result
 of
+/
+/
 create_similar
 (
 gfxContentType
@@ -655,8 +657,6 @@ gfxContentType
 :
 COLOR_ALPHA
 )
-/
-/
 (
 e
 .
@@ -666,6 +666,8 @@ a
 backbuffer
 for
 the
+/
+/
 window
 )
 -
@@ -677,8 +679,6 @@ surface
 *
 would
 *
-/
-/
 have
 a
 DIB
@@ -872,6 +872,8 @@ who
 s
 calling
 this
+"
+"
 without
 checking
 for
@@ -1007,6 +1009,8 @@ who
 s
 calling
 this
+"
+"
 without
 checking
 for

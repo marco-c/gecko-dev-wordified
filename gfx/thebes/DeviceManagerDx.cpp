@@ -3163,6 +3163,8 @@ are
 known
 and
 not
+/
+/
 problematic
 .
 D3D11_MESSAGE_ID
@@ -4034,9 +4036,9 @@ devices
 on
 AMD
 but
+/
+/
 create
-/
-/
 separate
 devices
 everywhere

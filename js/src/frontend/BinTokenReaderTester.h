@@ -168,6 +168,7 @@ NIGHTLY_BUILD
 )
 #
 error
+\
 "
 BinTokenReaderTester
 .
@@ -325,11 +326,11 @@ g
 <
 tuple
 >
+*
 <
 /
 tuple
 >
-*
 to
 aid
 with
@@ -400,8 +401,8 @@ compatible
 with
 the
 standard
-shipped
 *
+shipped
 token
 reader
 .
@@ -1408,6 +1409,7 @@ read
 the
 tagged
 tuple
+*
 correctly
 .
 *
@@ -1775,11 +1777,11 @@ a
 tuple
 /
 tagged
+/
+/
 tuple
 /
 list
-/
-/
 to
 make
 sure
@@ -1898,6 +1900,8 @@ to
 report
 any
 pending
+/
+/
 error
 .
 /

@@ -250,6 +250,10 @@ class
 RequestParams
 ;
 }
+/
+/
+namespace
+indexedDB
 class
 IDBTransaction
 final

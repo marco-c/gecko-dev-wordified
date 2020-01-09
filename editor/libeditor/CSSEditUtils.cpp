@@ -3261,10 +3261,10 @@ and
 possibly
 remove
 the
+/
+/
 whole
 node
-/
-/
 if
 it
 is
@@ -3442,6 +3442,8 @@ we
 need
 it
 for
+/
+/
 GetCSSBackgroundColorState
 /
 /
@@ -4416,9 +4418,9 @@ CSS
 declarations
 equivalent
 to
+/
+/
 the
-/
-/
 value
 aValue
 according
@@ -7005,10 +7007,10 @@ decoration
 property
 is
 not
+/
+/
 inherited
 .
-/
-/
 that
 means
 that
@@ -7022,6 +7024,8 @@ of
 node
 to
 see
+/
+/
 if
 they
 are
@@ -7329,6 +7333,8 @@ an
 ID
 or
 a
+/
+/
 class
 /
 /
@@ -7403,10 +7409,10 @@ CSS
 rule
 applies
 to
+/
+/
 it
 and
-/
-/
 refuse
 to
 merge

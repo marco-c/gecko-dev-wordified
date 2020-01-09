@@ -1236,12 +1236,10 @@ NS_VARIANT_CID
 /
 \
 0xd6ea1d0
-\
 0x879c
-\
 0x11d5
-\
 {
+\
 0x90
 0xef
 0x0
@@ -1250,7 +1248,9 @@ NS_VARIANT_CID
 0xe7
 0x3d
 0x9a
+\
 }
+\
 }
 #
 endif

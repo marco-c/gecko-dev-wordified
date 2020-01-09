@@ -253,7 +253,6 @@ final
 :
 public
 EditorCommandBase
-\
 {
 \
 public

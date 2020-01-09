@@ -231,7 +231,7 @@ gGamepadPlatformServiceSingleton
 }
 /
 /
-namepsace
+namespace
 GamepadPlatformService
 :
 :

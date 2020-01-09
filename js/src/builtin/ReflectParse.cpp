@@ -1081,6 +1081,7 @@ JS_ReportErrorNumberASCII
 cx
 GetErrorMessage
 nullptr
+\
 JSMSG_BAD_PARSE_NODE
 )
 ;
@@ -1112,6 +1113,7 @@ JS_ReportErrorNumberASCII
 cx
 GetErrorMessage
 nullptr
+\
 JSMSG_BAD_PARSE_NODE
 )
 ;
@@ -10743,9 +10745,9 @@ like
 and
 the
 lexical
+/
+/
 const
-/
-/
 the
 same
 way
@@ -15244,10 +15246,10 @@ it
 in
 the
 right
+/
+/
 order
 .
-/
-/
 It
 '
 s
@@ -15261,6 +15263,8 @@ because
 there
 are
 no
+/
+/
 other
 consumers
 .

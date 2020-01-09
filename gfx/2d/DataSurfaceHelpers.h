@@ -184,11 +184,11 @@ input
 data
 '
 s
+*
 |
 aDataStride
 |
 .
-*
 System
 will
 try

@@ -264,11 +264,12 @@ define
 NS_CONTENTPOLICY_CID
 \
 {
+\
 0x0e3afd3d
 0xeb60
 0x4c2b
-\
 {
+\
 0x96
 0x3b
 0x56
@@ -277,7 +278,9 @@ NS_CONTENTPOLICY_CID
 0x39
 0xf1
 0x24
+\
 }
+\
 }
 /
 *
@@ -891,7 +894,6 @@ if
 !
 policy
 )
-\
 return
 NS_ERROR_FAILURE
 ;
@@ -1206,7 +1208,6 @@ dataPolicy
 \
 do_GetService
 (
-\
 "
 mozilla
 .
@@ -1238,7 +1239,6 @@ action
 (
 contentLocation
 loadInfo
-\
 mimeType
 decision
 )

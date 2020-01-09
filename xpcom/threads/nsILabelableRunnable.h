@@ -171,11 +171,12 @@ define
 NS_ILABELABLERUNNABLE_IID
 \
 {
+\
 0x40da1ea1
 0x0b81
 0x4249
-\
 {
+\
 0x96
 0x46
 0x61
@@ -184,7 +185,9 @@ NS_ILABELABLERUNNABLE_IID
 0x39
 0xc3
 0xe8
+\
 }
+\
 }
 /
 /

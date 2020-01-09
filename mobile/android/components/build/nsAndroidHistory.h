@@ -151,10 +151,12 @@ define
 NS_ANDROIDHISTORY_CID
 \
 {
+\
 0xCCAA4880
 0x44DD
 0x40A7
 {
+\
 0xA1
 0x3F
 0x61
@@ -163,7 +165,9 @@ NS_ANDROIDHISTORY_CID
 0x88
 0x2C
 0x0B
+\
 }
+\
 }
 /
 /
