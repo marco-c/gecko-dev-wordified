@@ -41212,7 +41212,7 @@ dom
 PCError
 :
 :
-InvalidStateError
+InvalidModificationError
 *
 result
 .
@@ -41442,7 +41442,7 @@ dom
 PCError
 :
 :
-InvalidStateError
+InvalidModificationError
 *
 result
 .
