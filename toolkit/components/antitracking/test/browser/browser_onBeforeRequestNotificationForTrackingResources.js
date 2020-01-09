@@ -687,7 +687,7 @@ content
 .
 document
 .
-blockedNodeByClassifierCount
+blockedTrackingNodeCount
 obj
 .
 expected

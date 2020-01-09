@@ -9534,7 +9534,7 @@ eBlock
 parentChannel
 -
 >
-NotifyCookieBlocked
+NotifyTrackingCookieBlocked
 (
 aRejectedReason
 )

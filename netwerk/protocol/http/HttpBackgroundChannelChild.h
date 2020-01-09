@@ -367,12 +367,8 @@ RecvOnStartRequestSent
 override
 ;
 IPCResult
-RecvNotifyChannelClassifierProtectionDisabled
+RecvNotifyTrackingProtectionDisabled
 (
-const
-uint32_t
-&
-aAcceptedReason
 )
 override
 ;
@@ -383,7 +379,7 @@ RecvNotifyCookieAllowed
 override
 ;
 IPCResult
-RecvNotifyCookieBlocked
+RecvNotifyTrackingCookieBlocked
 (
 const
 uint32_t

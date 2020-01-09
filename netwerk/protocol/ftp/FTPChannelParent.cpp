@@ -3769,10 +3769,8 @@ NS_IMETHODIMP
 FTPChannelParent
 :
 :
-NotifyChannelClassifierProtectionDisabled
+NotifyTrackingProtectionDisabled
 (
-uint32_t
-aAcceptedReason
 )
 {
 /
@@ -3817,7 +3815,7 @@ NS_IMETHODIMP
 FTPChannelParent
 :
 :
-NotifyCookieBlocked
+NotifyTrackingCookieBlocked
 (
 uint32_t
 aRejectedReason

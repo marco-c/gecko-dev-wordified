@@ -817,9 +817,8 @@ Unused
 httpChannel
 -
 >
-CancelByChannelClassifier
+CancelForTrackingProtection
 (
-NS_ERROR_TRACKING_URI
 )
 ;
 }

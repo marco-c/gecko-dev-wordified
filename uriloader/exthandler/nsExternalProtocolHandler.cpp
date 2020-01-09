@@ -2419,10 +2419,8 @@ NS_IMETHODIMP
 nsExtProtocolChannel
 :
 :
-NotifyChannelClassifierProtectionDisabled
+NotifyTrackingProtectionDisabled
 (
-uint32_t
-aAcceptedReason
 )
 {
 /
@@ -2455,7 +2453,7 @@ NS_IMETHODIMP
 nsExtProtocolChannel
 :
 :
-NotifyCookieBlocked
+NotifyTrackingCookieBlocked
 (
 uint32_t
 aRejectedReason

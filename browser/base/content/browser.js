@@ -34315,13 +34315,7 @@ a
 request
 when
 STATE_BLOCKED_TRACKING_CONTENT
-or
-/
-/
-other
-blocking
-events
-are
+is
 observed
 )
 .

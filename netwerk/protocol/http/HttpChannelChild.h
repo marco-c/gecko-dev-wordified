@@ -1599,10 +1599,8 @@ ProcessDivertMessages
 )
 ;
 void
-ProcessNotifyChannelClassifierProtectionDisabled
+ProcessNotifyTrackingProtectionDisabled
 (
-uint32_t
-aAcceptedReason
 )
 ;
 void
@@ -1611,7 +1609,7 @@ ProcessNotifyCookieAllowed
 )
 ;
 void
-ProcessNotifyCookieBlocked
+ProcessNotifyTrackingCookieBlocked
 (
 uint32_t
 aRejectedReason
