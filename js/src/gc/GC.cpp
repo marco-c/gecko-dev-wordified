@@ -47856,7 +47856,6 @@ collectableZoneCount
 +
 +
 ;
-}
 if
 (
 zone
@@ -47889,6 +47888,7 @@ length
 (
 )
 ;
+}
 }
 }
 return
