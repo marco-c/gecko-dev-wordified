@@ -76,8 +76,6 @@ jsone
 import
 pipes
 import
-yaml
-import
 os
 import
 slugid
@@ -97,6 +95,14 @@ util
 hg
 import
 find_hg_revision_push_info
+from
+taskgraph
+.
+util
+.
+yaml
+import
+load_yaml
 def
 run_decision_task
 (
@@ -276,14 +282,9 @@ yml
 "
 "
     
-with
-open
-(
-os
-.
-path
-.
-join
+taskcluster_yml
+=
+load_yaml
 (
 root
 '
@@ -292,22 +293,6 @@ taskcluster
 .
 yml
 '
-)
-'
-rb
-'
-)
-as
-f
-:
-        
-taskcluster_yml
-=
-yaml
-.
-safe_load
-(
-f
 )
     
 push_info

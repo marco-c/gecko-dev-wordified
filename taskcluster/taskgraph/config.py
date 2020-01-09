@@ -65,8 +65,6 @@ import
 logging
 import
 attr
-import
-yaml
 from
 mozpack
 import
@@ -86,6 +84,13 @@ import
 Required
 Optional
 Any
+from
+.
+util
+.
+yaml
+import
+load_yaml
 logger
 =
 logging
@@ -946,22 +951,11 @@ config_yml
 )
 )
     
-with
-open
-(
-config_yml
-)
-as
-f
-:
-        
 config
 =
-yaml
-.
-safe_load
+load_yaml
 (
-f
+config_yml
 )
     
 validate_graph_config

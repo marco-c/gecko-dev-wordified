@@ -2732,13 +2732,6 @@ map_config
 =
 load_yaml
 (
-*
-os
-.
-path
-.
-split
-(
 job
 [
 '
@@ -2750,7 +2743,6 @@ attributes
 artifact_map
 '
 ]
-)
 )
     
 upstream_artifacts
@@ -3168,13 +3160,6 @@ map_config
 =
 load_yaml
 (
-*
-os
-.
-path
-.
-split
-(
 job
 [
 '
@@ -3186,7 +3171,6 @@ attributes
 artifact_map
 '
 ]
-)
 )
     
 upstream_artifacts
@@ -3493,13 +3477,6 @@ map_config
 =
 load_yaml
 (
-*
-os
-.
-path
-.
-split
-(
 job
 [
 '
@@ -3511,7 +3488,6 @@ attributes
 artifact_map
 '
 ]
-)
 )
     
 base_artifact_prefix

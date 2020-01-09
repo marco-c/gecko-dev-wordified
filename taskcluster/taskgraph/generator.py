@@ -64,8 +64,6 @@ logging
 import
 os
 import
-yaml
-import
 copy
 import
 attr
@@ -125,6 +123,13 @@ verify_docs
     
 verifications
 )
+from
+.
+util
+.
+yaml
+import
+load_yaml
 from
 .
 config
@@ -580,22 +585,11 @@ path
 )
 )
         
-with
-open
-(
-kind_yml
-)
-as
-f
-:
-            
 config
 =
-yaml
-.
-safe_load
+load_yaml
 (
-f
+kind_yml
 )
         
 return
