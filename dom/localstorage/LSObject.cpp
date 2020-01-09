@@ -1345,7 +1345,7 @@ IsOnOwningThread
 )
 const
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 mOwningEventTarget
 )
@@ -1469,7 +1469,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 NextGenLocalStorageEnabled
 (
@@ -1633,24 +1633,24 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 aWindow
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 aStorage
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 NextGenLocalStorageEnabled
 (
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 nsContentUtils
 :
@@ -1680,7 +1680,7 @@ do_QueryInterface
 aWindow
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 sop
 )
@@ -1821,7 +1821,7 @@ return
 rv
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 principalInfo
 -
@@ -1893,7 +1893,7 @@ return
 rv
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 originAttrSuffix
 =
@@ -2126,12 +2126,12 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 aPrincipal
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 aObject
 )
@@ -2199,7 +2199,7 @@ return
 rv
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 principalInfo
 -
@@ -2317,7 +2317,7 @@ rv
 ;
 }
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 originAttrSuffix
 =
@@ -2720,7 +2720,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 aStorage
 )
@@ -4309,7 +4309,7 @@ if
 mDatabase
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 mDatabase
@@ -4462,7 +4462,7 @@ return
 rv
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 response
 .
@@ -4760,7 +4760,7 @@ return
 rv
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 response
 .
@@ -4882,7 +4882,7 @@ GetForCurrentThread
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 backgroundActor
 )
@@ -5063,7 +5063,7 @@ have
 been
 created
 .
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 mInExplicitSnapshot
 )
@@ -5135,7 +5135,7 @@ the
 comment
 below
 .
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 mDatabase
 )
@@ -5197,7 +5197,7 @@ value
 See
 EnsureDatabase
 .
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 mDatabase
@@ -5335,7 +5335,7 @@ uint32_t
 aFlags
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 mNestedEventTarget
 )
@@ -5747,7 +5747,7 @@ GetEventTarget
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 mNestedEventTarget
 )
@@ -6391,7 +6391,7 @@ AssertIsOnDOMFileThread
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 mState
 =
@@ -6456,7 +6456,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 mState
 =
@@ -6631,7 +6631,7 @@ AssertIsOnDOMFileThread
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 mState
 =

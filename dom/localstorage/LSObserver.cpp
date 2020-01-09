@@ -230,7 +230,7 @@ LSObserverHashtable
 )
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 gLSObservers
@@ -276,7 +276,7 @@ SendDeleteMeInternal
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 mActor
@@ -290,12 +290,12 @@ cleared
 )
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 gLSObservers
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 gLSObservers
 -
@@ -376,12 +376,12 @@ AssertIsOnOwningThread
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 aActor
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 mActor

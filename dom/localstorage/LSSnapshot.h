@@ -572,7 +572,7 @@ mDirty
 ;
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+DEBUG
 bool
 mInitialized
 ;
@@ -620,7 +620,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 mActor
 )
