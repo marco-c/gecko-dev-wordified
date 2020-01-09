@@ -9292,6 +9292,7 @@ nsIFrame
 *
 GetParentOrPlaceholderFor
 (
+const
 nsIFrame
 *
 aFrame
