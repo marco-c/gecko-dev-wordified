@@ -7615,6 +7615,14 @@ instance
 )
 const
 {
+MOZ_RELEASE_ASSERT
+(
+cx
+-
+>
+wasmHaveSignalHandlers
+)
+;
 if
 (
 !
