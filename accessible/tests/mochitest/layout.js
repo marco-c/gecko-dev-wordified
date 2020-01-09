@@ -617,6 +617,7 @@ if
 acc
 )
 return
+null
 ;
 var
 [

@@ -2232,6 +2232,9 @@ interfaces
 ;
 }
 }
+return
+null
+;
 }
 function
 queryInterfaces

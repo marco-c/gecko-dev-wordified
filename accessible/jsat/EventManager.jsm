@@ -1702,11 +1702,6 @@ event
 )
 ;
 }
-finally
-{
-return
-;
-}
 }
 }
 ;
