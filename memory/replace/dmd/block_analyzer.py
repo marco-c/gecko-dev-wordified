@@ -309,6 +309,17 @@ nsTArrayInfallibleAllocator
 Malloc
 '
     
+'
+Allocator
+<
+ReplaceMallocBase
+>
+:
+:
+malloc
+(
+'
+    
 #
 This
 one
@@ -845,6 +856,7 @@ print
 (
 '
 '
++
 frameTable
 [
 l
@@ -1803,7 +1815,9 @@ print
 '
 Object
 '
++
 block
++
 '
 not
 found
