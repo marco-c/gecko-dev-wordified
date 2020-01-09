@@ -10240,6 +10240,7 @@ ObjectElements
 ;
 }
 static
+constexpr
 size_t
 getFixedSlotOffset
 (
@@ -10262,6 +10263,7 @@ Value
 ;
 }
 static
+constexpr
 size_t
 getPrivateDataOffset
 (
