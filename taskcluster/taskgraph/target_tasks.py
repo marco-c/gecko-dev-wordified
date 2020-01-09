@@ -3734,6 +3734,9 @@ None
 "
 firefox
 "
+"
+thunderbird
+"
 }
         
 ]
