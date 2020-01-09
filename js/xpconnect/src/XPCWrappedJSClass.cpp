@@ -706,9 +706,6 @@ nsXPCWrappedJSClass
 :
 GetNewOrUsed
 (
-JSContext
-*
-cx
 REFNSIID
 aIID
 )
@@ -798,7 +795,6 @@ clasp
 new
 nsXPCWrappedJSClass
 (
-cx
 aIID
 info
 )
@@ -833,9 +829,6 @@ nsXPCWrappedJSClass
 :
 nsXPCWrappedJSClass
 (
-JSContext
-*
-cx
 REFNSIID
 aIID
 const

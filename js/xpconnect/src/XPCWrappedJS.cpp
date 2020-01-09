@@ -2344,7 +2344,6 @@ nsXPCWrappedJSClass
 :
 GetNewOrUsed
 (
-cx
 aIID
 )
 ;
@@ -2577,7 +2576,6 @@ nsXPCWrappedJSClass
 :
 GetNewOrUsed
 (
-cx
 NS_GET_IID
 (
 nsISupports
