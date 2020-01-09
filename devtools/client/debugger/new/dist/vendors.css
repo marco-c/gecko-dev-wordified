@@ -1405,9 +1405,11 @@ width
 15px
 ;
 }
+.
 img
 .
 domain
+.
 img
 .
 folder
@@ -1421,6 +1423,7 @@ height
 15px
 ;
 }
+.
 img
 .
 extension
@@ -1442,6 +1445,7 @@ start
 2px
 ;
 }
+.
 img
 .
 result
@@ -1459,6 +1463,7 @@ width
 18px
 ;
 }
+.
 img
 .
 domain
@@ -1492,6 +1497,7 @@ no
 repeat
 ;
 }
+.
 img
 .
 folder
@@ -1525,6 +1531,7 @@ no
 repeat
 ;
 }
+.
 img
 .
 coffeescript
@@ -1558,6 +1565,7 @@ no
 repeat
 ;
 }
+.
 img
 .
 javascript
@@ -1591,6 +1599,7 @@ no
 repeat
 ;
 }
+.
 img
 .
 tab
@@ -1624,6 +1633,7 @@ no
 repeat
 ;
 }
+.
 img
 .
 react
@@ -1657,6 +1667,7 @@ no
 repeat
 ;
 }
+.
 img
 .
 typescript
@@ -1690,6 +1701,7 @@ no
 repeat
 ;
 }
+.
 img
 .
 extension
@@ -1723,6 +1735,7 @@ no
 repeat
 ;
 }
+.
 img
 .
 file
@@ -1764,12 +1777,15 @@ height
 13px
 ;
 }
+.
 img
 .
 domain
+.
 img
 .
 folder
+.
 img
 .
 file
@@ -1777,11 +1793,13 @@ file
 sources
 -
 list
+.
 img
 .
 source
 -
 icon
+.
 img
 .
 extension
@@ -1808,6 +1826,7 @@ inline
 block
 ;
 }
+.
 img
 .
 result
@@ -1865,6 +1884,7 @@ end
 5px
 ;
 }
+.
 img
 .
 arrow
@@ -1977,6 +1997,7 @@ dir
 ltr
 "
 ]
+.
 img
 .
 arrow
@@ -1998,6 +2019,7 @@ dir
 rtl
 "
 ]
+.
 img
 .
 arrow

@@ -83,6 +83,15 @@ redux
 "
 ;
 import
+AccessibleImage
+from
+"
+.
+/
+AccessibleImage
+"
+;
+import
 {
 getSourceClassnames
 }
@@ -269,7 +278,7 @@ null
 }
 return
 <
-img
+AccessibleImage
 className
 =
 {

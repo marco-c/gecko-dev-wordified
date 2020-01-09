@@ -203,6 +203,18 @@ Button
 "
 ;
 import
+AccessibleImage
+from
+"
+.
+.
+/
+shared
+/
+AccessibleImage
+"
+;
+import
 type
 {
 Source
@@ -552,7 +564,7 @@ tooltip
 }
 >
 <
-img
+AccessibleImage
 className
 =
 {
@@ -688,7 +700,7 @@ tooltip
 }
 >
 <
-img
+AccessibleImage
 className
 =
 "

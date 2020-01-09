@@ -69,6 +69,16 @@ react
 "
 ;
 import
+AccessibleImage
+from
+"
+.
+.
+/
+AccessibleImage
+"
+;
+import
 "
 .
 /
@@ -142,7 +152,7 @@ tooltip
 }
 >
 <
-img
+AccessibleImage
 className
 =
 "

@@ -222,6 +222,17 @@ SearchInput
 "
 ;
 import
+AccessibleImage
+from
+"
+.
+/
+shared
+/
+AccessibleImage
+"
+;
+import
 type
 {
 List
@@ -1382,7 +1393,7 @@ expanded
 /
 >
 <
-img
+AccessibleImage
 className
 =
 "
