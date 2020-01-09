@@ -22974,15 +22974,6 @@ PostDOMEvent
 ;
 #
 endif
-OwnerDoc
-(
-)
--
->
-MaybeNotifyAutoplayBlocked
-(
-)
-;
 }
 void
 HTMLMediaElement
