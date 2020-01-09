@@ -354,6 +354,7 @@ word
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 NextMisspelledWord
 (
@@ -595,6 +596,7 @@ only
 !
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 Replace
 (
@@ -1077,6 +1079,7 @@ mFromStart
 nsString
 mCurrentDictionary
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetupDoc
 (

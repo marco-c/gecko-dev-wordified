@@ -1503,8 +1503,10 @@ AsMouseEvent
 (
 )
 ;
+RefPtr
+<
 HTMLEditor
-*
+>
 htmlEditor
 =
 mEditorBase
