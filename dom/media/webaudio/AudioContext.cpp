@@ -5457,6 +5457,15 @@ GetStream
 if
 (
 s
+&
+&
+!
+streams
+.
+Contains
+(
+s
+)
 )
 {
 streams
