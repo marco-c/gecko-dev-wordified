@@ -1294,44 +1294,32 @@ undef
 LOG
 #
 endif
-LogModule
-*
-GetMediaManagerLog
-(
-)
-{
-static
 LazyLogModule
-sLog
+gMediaManagerLog
 (
 "
 MediaManager
 "
 )
 ;
-return
-sLog
-;
-}
 #
 define
 LOG
 (
-msg
+.
+.
+.
 )
 MOZ_LOG
 (
-GetMediaManagerLog
-(
-)
-mozilla
-:
-:
+gMediaManagerLog
 LogLevel
 :
 :
 Debug
-msg
+(
+__VA_ARGS__
+)
 )
 using
 dom
@@ -4076,7 +4064,6 @@ ID
 ;
 LOG
 (
-(
 "
 GUMWindowListener
 %
@@ -4088,7 +4075,6 @@ windowID
 PRIu64
 this
 mWindowID
-)
 )
 ;
 mgr
@@ -4195,7 +4181,6 @@ mActiveListeners
 ;
 LOG
 (
-(
 "
 GUMWindowListener
 %
@@ -4208,7 +4193,6 @@ p
 "
 this
 aListener
-)
 )
 ;
 aListener
@@ -4586,7 +4570,6 @@ Length
 {
 LOG
 (
-(
 "
 GUMWindowListener
 %
@@ -4603,7 +4586,6 @@ up
 .
 "
 this
-)
 )
 ;
 RemoveAll
@@ -7154,7 +7136,6 @@ OnNavigation
 )
 LOG
 (
-(
 "
 Returning
 success
@@ -7163,7 +7144,6 @@ getUserMedia
 (
 )
 "
-)
 )
 ;
 mHolder
@@ -7463,7 +7443,6 @@ NS_IsMainThread
 ;
 LOG
 (
-(
 "
 GetUserMediaStreamRunnable
 :
@@ -7472,7 +7451,6 @@ Run
 (
 )
 "
-)
 )
 ;
 nsGlobalWindowInner
@@ -8487,7 +8465,6 @@ sHasShutdown
 {
 LOG
 (
-(
 "
 Returning
 error
@@ -8499,7 +8476,6 @@ getUserMedia
 no
 stream
 "
-)
 )
 ;
 mHolder
@@ -8743,7 +8719,6 @@ tracksCreatedListener
 {
 LOG
 (
-(
 "
 GetUserMediaStreamRunnable
 :
@@ -8760,7 +8735,6 @@ InitializeAsync
 (
 )
 "
-)
 )
 ;
 /
@@ -8822,7 +8796,6 @@ NS_IsMainThread
 ;
 LOG
 (
-(
 "
 GetUserMediaStreamRunnable
 :
@@ -8839,7 +8812,6 @@ InitializeAsync
 (
 )
 "
-)
 )
 ;
 /
@@ -9012,7 +8984,6 @@ IsReject
 {
 LOG
 (
-(
 "
 Failed
 get
@@ -9028,7 +8999,6 @@ will
 be
 broken
 "
-)
 )
 ;
 }
@@ -9155,7 +9125,6 @@ IsInMediaThread
 ;
 LOG
 (
-(
 "
 %
 s
@@ -9198,7 +9167,6 @@ aMediaDeviceName
 "
 null
 "
-)
 )
 ;
 nsTArray
@@ -9316,7 +9284,6 @@ device
 ;
 LOG
 (
-(
 "
 %
 s
@@ -9329,7 +9296,6 @@ s
 "
 __func__
 aMediaDeviceName
-)
 )
 ;
 break
@@ -9347,9 +9313,7 @@ if
 (
 MOZ_LOG_TEST
 (
-GetMediaManagerLog
-(
-)
+gMediaManagerLog
 mozilla
 :
 :
@@ -9370,7 +9334,6 @@ devices
 )
 {
 LOG
-(
 (
 "
 %
@@ -9393,7 +9356,6 @@ mName
 .
 get
 (
-)
 )
 )
 ;
@@ -10189,7 +10151,6 @@ mDeviceChosen
 ;
 LOG
 (
-(
 "
 GetUserMediaTask
 :
@@ -10198,7 +10159,6 @@ Run
 (
 )
 "
-)
 )
 ;
 /
@@ -10470,12 +10430,10 @@ rv
 {
 LOG
 (
-(
 "
 FocusOnSelectedSource
 failed
 "
-)
 )
 ;
 }
@@ -10490,7 +10448,6 @@ errorMsg
 {
 LOG
 (
-(
 "
 %
 s
@@ -10504,7 +10461,6 @@ uint32_t
 >
 (
 rv
-)
 )
 )
 ;
@@ -11358,7 +11314,6 @@ microphone
 ;
 LOG
 (
-(
 "
 %
 s
@@ -11421,7 +11376,6 @@ uint8_t
 >
 (
 aAudioInputEnumType
-)
 )
 )
 ;
@@ -11781,7 +11735,6 @@ videos
 ;
 LOG
 (
-(
 "
 EnumerateRawDevices
 Task
@@ -11809,7 +11762,6 @@ fake
 "
 real
 "
-)
 )
 ;
 GetMediaDevices
@@ -11854,7 +11806,6 @@ audios
 ;
 LOG
 (
-(
 "
 EnumerateRawDevices
 Task
@@ -11882,7 +11833,6 @@ fake
 "
 real
 "
-)
 )
 ;
 GetMediaDevices
@@ -12393,7 +12343,6 @@ nullptr
 }
 LOG
 (
-(
 "
 %
 s
@@ -12547,7 +12496,6 @@ off
 mPrefs
 .
 mChannels
-)
 )
 ;
 }
@@ -12887,7 +12835,6 @@ MOZ_CRASH
 }
 LOG
 (
-(
 "
 New
 Media
@@ -12895,7 +12842,6 @@ thread
 for
 gum
 "
-)
 )
 ;
 nsCOMPtr
@@ -17647,7 +17593,6 @@ fake
 ;
 LOG
 (
-(
 "
 %
 s
@@ -17732,7 +17677,6 @@ true
 false
 "
 )
-)
 ;
 RefPtr
 <
@@ -17796,7 +17740,6 @@ StreamPromise
 {
 LOG
 (
-(
 "
 GetUserMedia
 :
@@ -17809,7 +17752,6 @@ callback
 "
 starting
 "
-)
 )
 ;
 /
@@ -17869,7 +17811,6 @@ windowListener
 {
 LOG
 (
-(
 "
 GetUserMedia
 :
@@ -17884,14 +17825,11 @@ PRIu64
 in
 post
 enumeration
-"
-"
 success
 callback
 !
 "
 windowID
-)
 )
 ;
 return
@@ -17975,7 +17913,6 @@ mutable
 {
 LOG
 (
-(
 "
 GetUserMedia
 :
@@ -17991,7 +17928,6 @@ success
 callback
 !
 "
-)
 )
 ;
 /
@@ -18051,7 +17987,6 @@ windowListener
 {
 LOG
 (
-(
 "
 GetUserMedia
 :
@@ -18074,7 +18009,6 @@ callback
 !
 "
 windowID
-)
 )
 ;
 return
@@ -18107,7 +18041,6 @@ badConstraint
 {
 LOG
 (
-(
 "
 GetUserMedia
 :
@@ -18130,7 +18063,6 @@ error
 handler
 !
 "
-)
 )
 ;
 nsString
@@ -18185,7 +18117,6 @@ Length
 {
 LOG
 (
-(
 "
 GetUserMedia
 :
@@ -18208,7 +18139,6 @@ error
 handler
 !
 "
-)
 )
 ;
 /
@@ -18748,7 +18678,6 @@ rv
 {
 LOG
 (
-(
 "
 GetUserMedia
 :
@@ -18762,7 +18691,6 @@ callback
 called
 !
 "
-)
 )
 ;
 return
@@ -18805,7 +18733,6 @@ aError
 {
 LOG
 (
-(
 "
 GetUserMedia
 :
@@ -18819,7 +18746,6 @@ callback
 called
 !
 "
-)
 )
 ;
 return
@@ -19384,7 +19310,6 @@ NS_IsMainThread
 ;
 LOG
 (
-(
 "
 %
 s
@@ -19447,7 +19372,6 @@ uint8_t
 >
 (
 aAudioInputEnumType
-)
 )
 )
 ;
@@ -21485,7 +21409,6 @@ NS_IsMainThread
 ;
 LOG
 (
-(
 "
 OnNavigation
 for
@@ -21493,7 +21416,6 @@ for
 "
 PRIu64
 aWindowID
-)
 )
 ;
 /
@@ -22028,7 +21950,6 @@ window
 {
 LOG
 (
-(
 "
 No
 inner
@@ -22038,7 +21959,6 @@ for
 "
 PRIu64
 aWindowId
-)
 )
 ;
 return
@@ -22068,7 +21988,6 @@ outer
 {
 LOG
 (
-(
 "
 No
 outer
@@ -22079,7 +21998,6 @@ inner
 "
 PRIu64
 aWindowId
-)
 )
 ;
 return
@@ -22167,7 +22085,6 @@ get
 ;
 LOG
 (
-(
 "
 Sent
 recording
@@ -22191,7 +22108,6 @@ PRIu64
 "
 aWindowId
 outerID
-)
 )
 ;
 }
@@ -23321,13 +23237,11 @@ override
 {
 LOG
 (
-(
 "
 MediaManager
 Thread
 Shutdown
 "
-)
 )
 ;
 MOZ_ASSERT
@@ -23468,7 +23382,6 @@ forget
 {
 LOG
 (
-(
 "
 Will
 leak
@@ -23485,7 +23398,6 @@ in
 MediaManager
 shutdown
 "
-)
 )
 ;
 }
@@ -23670,7 +23582,6 @@ mutable
 {
 LOG
 (
-(
 "
 MediaManager
 shutdown
@@ -23684,7 +23595,6 @@ singleton
 and
 thread
 "
-)
 )
 ;
 if
@@ -23991,7 +23901,6 @@ get
 ;
 LOG
 (
-(
 "
 %
 s
@@ -24013,7 +23922,6 @@ mHeight
 mPrefs
 .
 mFPS
-)
 )
 ;
 }
@@ -24818,7 +24726,6 @@ rv
 {
 LOG
 (
-(
 "
 Revoking
 Screen
@@ -24831,7 +24738,6 @@ window
 "
 PRIu64
 windowID
-)
 )
 ;
 StopScreensharing
@@ -24875,7 +24781,6 @@ rv
 {
 LOG
 (
-(
 "
 Revoking
 MediaCapture
@@ -24886,7 +24791,6 @@ window
 "
 PRIu64
 windowID
-)
 )
 ;
 OnNavigation
@@ -25378,7 +25282,6 @@ ifdef
 DEBUG
 LOG
 (
-(
 "
 %
 s
@@ -25523,7 +25426,6 @@ browsershare
 "
 "
 )
-)
 ;
 #
 endif
@@ -25550,7 +25452,6 @@ NS_IsMainThread
 ;
 LOG
 (
-(
 "
 %
 s
@@ -25562,7 +25463,6 @@ sinceWhen
 PRId64
 __FUNCTION__
 aSinceWhen
-)
 )
 ;
 media
@@ -26414,7 +26314,6 @@ aListener
 {
 LOG
 (
-(
 "
 SourceListener
 %
@@ -26428,7 +26327,6 @@ p
 "
 this
 aListener
-)
 )
 ;
 MOZ_ASSERT
@@ -26509,7 +26407,6 @@ thread
 ;
 LOG
 (
-(
 "
 SourceListener
 %
@@ -26527,7 +26424,6 @@ p
 this
 aAudioDevice
 aVideoDevice
-)
 )
 ;
 MOZ_ASSERT
@@ -27060,13 +26956,11 @@ FinishAddTracks
 ;
 LOG
 (
-(
 "
 started
 all
 sources
 "
-)
 )
 ;
 aHolder
@@ -27457,7 +27351,6 @@ return
 }
 LOG
 (
-(
 "
 SourceListener
 %
@@ -27465,7 +27358,6 @@ p
 stopping
 "
 this
-)
 )
 ;
 /
@@ -27640,7 +27532,6 @@ return
 }
 LOG
 (
-(
 "
 SourceListener
 %
@@ -27650,7 +27541,6 @@ on
 purpose
 "
 this
-)
 )
 ;
 mRemoved
@@ -27892,7 +27782,6 @@ aTrackID
 ;
 LOG
 (
-(
 "
 SourceListener
 %
@@ -27918,7 +27807,6 @@ audio
 video
 "
 aTrackID
-)
 )
 ;
 if
@@ -28015,7 +27903,6 @@ mStopped
 {
 LOG
 (
-(
 "
 SourceListener
 %
@@ -28028,7 +27915,6 @@ track
 stopped
 "
 this
-)
 )
 ;
 Stop
@@ -28172,7 +28058,6 @@ return
 }
 LOG
 (
-(
 "
 SourceListener
 %
@@ -28208,7 +28093,6 @@ audio
 video
 "
 aTrackID
-)
 )
 ;
 DeviceState
@@ -28565,7 +28449,6 @@ state
 ;
 LOG
 (
-(
 "
 SourceListener
 %
@@ -28605,7 +28488,6 @@ audio
 video
 "
 aTrackID
-)
 )
 ;
 if
@@ -28904,7 +28786,6 @@ return
 }
 LOG
 (
-(
 "
 SourceListener
 %
@@ -28954,7 +28835,6 @@ succeeded
 "
 failed
 "
-)
 )
 ;
 if
@@ -29283,7 +29163,6 @@ return
 }
 LOG
 (
-(
 "
 SourceListener
 %
@@ -29291,7 +29170,6 @@ p
 StopSharing
 "
 this
-)
 )
 ;
 if
@@ -29580,7 +29458,6 @@ NS_IsMainThread
 ;
 LOG
 (
-(
 "
 Track
 %
@@ -29593,7 +29470,6 @@ removed
 "
 aTrackID
 this
-)
 )
 ;
 StopTrack
@@ -30118,7 +29994,6 @@ mStopped
 {
 LOG
 (
-(
 "
 gUM
 %
@@ -30145,7 +30020,6 @@ audio
 video
 "
 aTrackID
-)
 )
 ;
 return
@@ -30370,7 +30244,6 @@ badConstraint
 ;
 LOG
 (
-(
 "
 ApplyConstraintsToTrack
 -
@@ -30387,7 +30260,6 @@ uint32_t
 >
 (
 rv
-)
 )
 )
 ;
