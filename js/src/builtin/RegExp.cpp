@@ -3120,6 +3120,7 @@ GetPrototypeFromBuiltinConstructor
 (
 cx
 args
+JSProto_RegExp
 &
 proto
 )
@@ -3545,6 +3546,7 @@ GetPrototypeFromBuiltinConstructor
 (
 cx
 args
+JSProto_RegExp
 &
 proto
 )

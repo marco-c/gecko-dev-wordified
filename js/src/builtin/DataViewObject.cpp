@@ -856,6 +856,7 @@ GetPrototypeFromBuiltinConstructor
 (
 cx
 args
+JSProto_DataView
 &
 proto
 )
@@ -1213,6 +1214,7 @@ GetPrototypeFromBuiltinConstructor
 (
 cx
 args
+JSProto_DataView
 &
 proto
 )

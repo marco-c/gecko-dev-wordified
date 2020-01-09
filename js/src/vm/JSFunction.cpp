@@ -13603,6 +13603,11 @@ return
 false
 ;
 }
+JSProtoKey
+protoKey
+=
+JSProto_Null
+;
 if
 (
 isAsync
@@ -13700,6 +13705,10 @@ return
 false
 ;
 }
+protoKey
+=
+JSProto_Function
+;
 }
 }
 /
@@ -13721,6 +13730,7 @@ GetPrototypeFromBuiltinConstructor
 (
 cx
 args
+protoKey
 &
 proto
 )

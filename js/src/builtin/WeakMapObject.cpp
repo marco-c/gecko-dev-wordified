@@ -1724,6 +1724,7 @@ GetPrototypeFromBuiltinConstructor
 (
 cx
 args
+JSProto_WeakMap
 &
 proto
 )

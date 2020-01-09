@@ -3245,6 +3245,7 @@ GetPrototypeFromBuiltinConstructor
 (
 cx
 args
+JSProto_ReadableStream
 &
 proto
 )
@@ -11760,6 +11761,7 @@ GetPrototypeFromBuiltinConstructor
 (
 cx
 args
+JSProto_Null
 &
 proto
 )
@@ -25936,6 +25938,7 @@ GetPrototypeFromBuiltinConstructor
 (
 cx
 args
+JSProto_ByteLengthQueuingStrategy
 &
 proto
 )
@@ -26309,6 +26312,7 @@ GetPrototypeFromBuiltinConstructor
 (
 cx
 args
+JSProto_CountQueuingStrategy
 &
 proto
 )
