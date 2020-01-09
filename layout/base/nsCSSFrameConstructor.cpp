@@ -26956,6 +26956,11 @@ SCROLLABLE_XUL_CREATE
 toolbarpaletteitem
 NS_NewBoxFrame
 )
+SCROLLABLE_XUL_CREATE
+(
+treecolpicker
+NS_NewButtonBoxFrame
+)
 SIMPLE_XUL_CREATE
 (
 image
