@@ -112,7 +112,7 @@ prefsSchemaVersion
 .
 0
 .
-8
+9
 "
 ;
 const
@@ -1795,6 +1795,8 @@ if
 (
 !
 isTesting
+(
+)
 &
 &
 prefs
