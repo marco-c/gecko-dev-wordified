@@ -26857,15 +26857,6 @@ set
 .
 MOZ_ASSERT
 (
-!
-oldGroup
--
->
-hasUncacheableClass
-(
-)
-|
-|
 obj
 -
 >
