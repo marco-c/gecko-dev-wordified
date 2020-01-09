@@ -135,6 +135,9 @@ this
 sendAsyncMessage
 (
 "
+Test
+"
+"
 toChild
 "
 aMessage
@@ -161,6 +164,9 @@ this
 .
 sendAsyncMessage
 (
+"
+Test
+"
 "
 done
 "

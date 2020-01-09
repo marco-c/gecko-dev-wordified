@@ -1221,7 +1221,6 @@ actor
 >
 Init
 (
-aName
 this
 )
 ;

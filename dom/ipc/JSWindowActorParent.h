@@ -283,10 +283,6 @@ const
 void
 Init
 (
-const
-nsAString
-&
-aName
 WindowGlobalParent
 *
 aManager
@@ -298,6 +294,10 @@ SendAsyncMessage
 JSContext
 *
 aCx
+const
+nsAString
+&
+aActorName
 const
 nsAString
 &
@@ -331,9 +331,6 @@ aRv
 ;
 private
 :
-nsString
-mName
-;
 RefPtr
 <
 WindowGlobalParent

@@ -135,6 +135,9 @@ this
 sendAsyncMessage
 (
 "
+Test
+"
+"
 toParent
 "
 aMessage
