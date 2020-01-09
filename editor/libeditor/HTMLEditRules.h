@@ -1500,6 +1500,7 @@ handled
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillDeleteSelection
@@ -2454,6 +2455,7 @@ does
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillMakeList
@@ -2545,6 +2547,7 @@ handled
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillRemoveList
@@ -2603,6 +2606,7 @@ handled
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillIndent
@@ -2668,6 +2672,7 @@ handled
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillCSSIndent
@@ -2734,6 +2739,7 @@ handled
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillHTMLIndent
@@ -2792,6 +2798,7 @@ handled
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillOutdent
@@ -2868,6 +2875,7 @@ handled
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 WillAlign
 (
@@ -3123,6 +3131,7 @@ handled
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillMakeDefListItem
@@ -3203,6 +3212,7 @@ handled
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillMakeBasicBlock
@@ -3313,6 +3323,7 @@ called
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 MakeBasicBlock
@@ -3442,6 +3453,7 @@ handled
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillAbsolutePosition
@@ -5720,6 +5732,7 @@ nodes
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 ExpandSelectionForDeletion
@@ -5792,6 +5805,7 @@ action
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 NormalizeSelection

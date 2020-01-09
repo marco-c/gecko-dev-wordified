@@ -448,6 +448,7 @@ aSelected
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT
 ~
 AutoSelectionSetterAfterTableEdit
 (
@@ -458,12 +459,18 @@ if
 mHTMLEditor
 )
 {
+MOZ_KnownLive
+(
 mHTMLEditor
+)
 -
 >
 SetSelectionAfterTableEdit
 (
+MOZ_KnownLive
+(
 mTable
+)
 mRow
 mCol
 mDirection

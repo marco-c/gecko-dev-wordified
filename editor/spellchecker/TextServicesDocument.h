@@ -890,6 +890,7 @@ string
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 LastSelectedBlock
 (
@@ -1195,6 +1196,7 @@ selected
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetSelection
 (
@@ -1264,6 +1266,7 @@ NS_OK
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteSelection
 (
@@ -1301,6 +1304,7 @@ inserted
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertText
 (
@@ -1616,6 +1620,7 @@ nsIContent
 aContent2
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetSelectionInternal
 (
@@ -1627,6 +1632,7 @@ bool
 aDoUpdate
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetSelection
 (
@@ -1641,6 +1647,7 @@ int32_t
 aSelLength
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetCollapsedSelection
 (
