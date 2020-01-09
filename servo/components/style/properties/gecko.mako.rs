@@ -4550,6 +4550,7 @@ number
 )
 =
 >
+{
 SvgLengthOrPercentageOrNumber
 :
 :
@@ -4557,6 +4558,7 @@ Number
 (
 number
 )
+}
 CoordDataValue
 :
 :
@@ -4566,6 +4568,7 @@ coord
 )
 =
 >
+{
 SvgLengthOrPercentageOrNumber
 :
 :
@@ -4586,6 +4589,7 @@ into
 )
 )
 )
+}
 CoordDataValue
 :
 :
@@ -4595,6 +4599,7 @@ p
 )
 =
 >
+{
 SvgLengthOrPercentageOrNumber
 :
 :
@@ -4611,6 +4616,7 @@ p
 )
 )
 )
+}
 CoordDataValue
 :
 :
@@ -4620,6 +4626,7 @@ calc
 )
 =
 >
+{
 SvgLengthOrPercentageOrNumber
 :
 :
@@ -4637,6 +4644,7 @@ into
 )
 )
 )
+}
 _
 =
 >
