@@ -2260,6 +2260,10 @@ Create
 (
 global
 aRv
+Promise
+:
+:
+ePropagateUserInteraction
 )
 ;
 if
@@ -2539,6 +2543,10 @@ Create
 (
 global
 aRv
+Promise
+:
+:
+ePropagateUserInteraction
 )
 ;
 if
@@ -2956,6 +2964,10 @@ Create
 (
 global
 aRv
+Promise
+:
+:
+ePropagateUserInteraction
 )
 ;
 if
@@ -3221,6 +3233,10 @@ Create
 (
 global
 aRv
+Promise
+:
+:
+ePropagateUserInteraction
 )
 ;
 if
