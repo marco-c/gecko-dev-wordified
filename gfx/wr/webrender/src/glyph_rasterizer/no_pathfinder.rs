@@ -93,9 +93,9 @@ api
 :
 :
 {
-ImageData
 ImageDescriptor
 ImageFormat
+DirtyRect
 }
 ;
 use
@@ -176,6 +176,12 @@ GlyphCache
 CachedGlyphInfo
 GlyphCacheEntry
 }
+;
+use
+resource_cache
+:
+:
+CachedImageData
 ;
 use
 texture_cache
@@ -1316,7 +1322,7 @@ TextureFilter
 Linear
 Some
 (
-ImageData
+CachedImageData
 :
 :
 Raw
@@ -1344,7 +1350,10 @@ glyph
 .
 scale
 ]
-None
+DirtyRect
+:
+:
+All
 gpu_cache
 Some
 (

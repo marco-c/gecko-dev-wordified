@@ -87,6 +87,7 @@ LineStyle
 LineOrientation
 LayoutSize
 ColorF
+DirtyRect
 }
 ;
 #
@@ -7687,7 +7688,10 @@ unwrap_or
 3
 ]
 )
-None
+DirtyRect
+:
+:
+All
 gpu_cache
 None
 render_task

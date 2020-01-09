@@ -571,7 +571,11 @@ new
 (
 image_data
 )
-None
+&
+DirtyRect
+:
+:
+All
 )
 ;
 let

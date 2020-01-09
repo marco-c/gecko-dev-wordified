@@ -1324,7 +1324,11 @@ take
 (
 )
 )
-None
+&
+DirtyRect
+:
+:
+All
 )
 ;
 }

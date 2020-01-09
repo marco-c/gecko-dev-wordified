@@ -96,6 +96,7 @@ PictureSize
 DeviceIntPoint
 ColorF
 ImageKey
+DirtyRect
 }
 ;
 use
@@ -11927,7 +11928,10 @@ None
 ;
 3
 ]
-None
+DirtyRect
+:
+:
+All
 frame_state
 .
 gpu_cache

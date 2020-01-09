@@ -1351,10 +1351,3 @@ webrender_api
 :
 euclid
 ;
-pub
-use
-resource_cache
-:
-:
-intersect_for_tile
-;
