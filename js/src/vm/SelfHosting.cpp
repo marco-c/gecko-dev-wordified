@@ -18322,7 +18322,7 @@ intrinsic_TypedArrayBuffer
 1
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 TypedArrayByteOffset
@@ -18330,6 +18330,7 @@ TypedArrayByteOffset
 intrinsic_TypedArrayByteOffset
 1
 0
+IntrinsicTypedArrayByteOffset
 )
 JS_FN
 (
