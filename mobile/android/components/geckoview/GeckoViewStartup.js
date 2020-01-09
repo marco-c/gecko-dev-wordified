@@ -1187,11 +1187,9 @@ locale
 .
 requestedLocales
 =
-[
 aData
 .
-languageTag
-]
+requestedLocales
 ;
 break
 ;
