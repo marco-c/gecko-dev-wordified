@@ -172,6 +172,8 @@ search
 /
 test
 /
+browser
+/
 "
 ;
 let
@@ -720,6 +722,8 @@ components
 search
 /
 test
+/
+browser
 /
 ?
 test

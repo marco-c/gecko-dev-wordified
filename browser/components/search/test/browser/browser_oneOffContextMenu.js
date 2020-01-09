@@ -459,6 +459,8 @@ search
 /
 test
 /
+browser
+/
 "
 "
 Expected

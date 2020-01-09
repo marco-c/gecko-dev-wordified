@@ -101,6 +101,8 @@ search
 /
 test
 /
+browser
+/
 head
 .
 js
@@ -130,6 +132,8 @@ components
 search
 /
 test
+/
+browser
 /
 head
 .
@@ -210,6 +214,8 @@ components
 search
 /
 test
+/
+browser
 /
 "
 }

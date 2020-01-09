@@ -65,6 +65,8 @@ search
 /
 test
 /
+browser
+/
 test
 .
 html
@@ -657,6 +659,8 @@ components
 search
 /
 test
+/
+browser
 /
 426329
 .

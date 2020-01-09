@@ -299,6 +299,8 @@ search
 /
 test
 /
+browser
+/
 "
 }
 run
@@ -347,6 +349,8 @@ components
 search
 /
 test
+/
+browser
 /
 testEngine
 .
