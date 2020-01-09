@@ -9671,11 +9671,11 @@ guid
 placeGuid
 kind
 :
-SyncedBookmarksMirror
+Ci
 .
-KIND
+mozISyncedBookmarksMerger
 .
-BOOKMARK
+KIND_BOOKMARK
 remoteTitle
 }
 )
