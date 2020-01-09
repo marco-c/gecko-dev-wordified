@@ -1756,15 +1756,6 @@ state
 MOZ_GTK_HEADER_BAR_MAXIMIZED
 /
 *
-Container
-for
-GtkHeaderBar
-buttons
-*
-/
-MOZ_GTK_HEADER_BAR_BUTTON_BOX
-/
-*
 Paints
 GtkHeaderBar
 title
