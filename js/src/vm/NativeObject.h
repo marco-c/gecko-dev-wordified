@@ -10738,7 +10738,7 @@ cx
 HandleNativeObject
 obj
 HandleValue
-reciever
+receiver
 int32_t
 index
 MutableHandleValue

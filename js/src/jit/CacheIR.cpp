@@ -14319,7 +14319,7 @@ the
 specific
 matching
 native
-reciever
+receiver
 ;
 however
 once
