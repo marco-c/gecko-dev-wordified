@@ -68,8 +68,12 @@ display
 inline
 ;
 padding
+-
+inline
+-
+start
 :
-0
+1px
 ;
 padding
 -
@@ -77,7 +81,7 @@ inline
 -
 end
 :
-4px
+3px
 ;
 }
 .
@@ -103,6 +107,8 @@ svg
 display
 :
 inline
+-
+block
 ;
 cursor
 :
@@ -110,11 +116,11 @@ pointer
 ;
 height
 :
-12px
+13px
 ;
 width
 :
-9px
+11px
 ;
 vertical
 -
