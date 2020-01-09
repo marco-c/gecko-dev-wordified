@@ -3956,7 +3956,6 @@ MOZ_GECKO_PROFILER
 mAutoProfilerLabel
 (
 "
-AutoEntryScript
 "
 aReason
 js
@@ -3969,6 +3968,19 @@ Category
 :
 :
 JS
+uint32_t
+(
+js
+:
+:
+ProfilingStackFrame
+:
+:
+Flags
+:
+:
+RELEVANT_FOR_JS
+)
 )
 #
 endif
