@@ -3712,7 +3712,7 @@ mScope
 mWorkerPrivate
 -
 >
-DispatchToMainThread
+DispatchToMainThreadForMessaging
 (
 r
 .
@@ -3802,7 +3802,7 @@ mScope
 mWorkerPrivate
 -
 >
-DispatchToMainThread
+DispatchToMainThreadForMessaging
 (
 r
 .

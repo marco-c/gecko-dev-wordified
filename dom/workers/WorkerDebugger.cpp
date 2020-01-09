@@ -1880,7 +1880,7 @@ NS_FAILED
 mWorkerPrivate
 -
 >
-DispatchToMainThread
+DispatchToMainThreadForMessaging
 (
 runnable
 .
@@ -2017,7 +2017,7 @@ NS_FAILED
 mWorkerPrivate
 -
 >
-DispatchToMainThread
+DispatchToMainThreadForMessaging
 (
 runnable
 .

@@ -2660,6 +2660,17 @@ WorkerPrivate
 aWorkerPrivate
 )
 ;
+virtual
+bool
+ForMessaging
+(
+)
+const
+{
+return
+false
+;
+}
 private
 :
 NS_IMETHOD
