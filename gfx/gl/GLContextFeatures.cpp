@@ -1364,6 +1364,10 @@ ARB_map_buffer_range
 GLContext
 :
 :
+EXT_map_buffer_range
+GLContext
+:
+:
 Extensions_End
 }
 }
