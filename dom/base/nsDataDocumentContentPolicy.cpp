@@ -423,6 +423,12 @@ node
 .
 nsCOMPtr
 <
+mozilla
+:
+:
+dom
+:
+:
 Document
 >
 doc
@@ -580,6 +586,12 @@ NS_OK
 ;
 }
 }
+mozilla
+:
+:
+dom
+:
+:
 Document
 *
 docToCheckForImage

@@ -256,6 +256,9 @@ shellAsNav
 {
 nsCOMPtr
 <
+dom
+:
+:
 Document
 >
 doc
