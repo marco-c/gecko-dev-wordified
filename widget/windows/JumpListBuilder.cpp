@@ -245,7 +245,7 @@ mozilla
 /
 mscom
 /
-COMApartmentRegion
+ApartmentRegion
 .
 h
 "
