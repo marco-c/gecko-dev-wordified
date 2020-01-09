@@ -1677,7 +1677,6 @@ ScriptObjectType
 {
 RegExp
 Function
-ObjectLiteral
 }
 ;
 void
@@ -3135,6 +3134,12 @@ nslots
 EARLY_STACK_CHECK_SLOT_COUNT
 ;
 }
+JSObject
+*
+maybeNoCloneSingletonObject
+(
+)
+;
 }
 ;
 using
@@ -3592,6 +3597,16 @@ const
 {
 return
 true
+;
+}
+JSObject
+*
+maybeNoCloneSingletonObject
+(
+)
+{
+return
+nullptr
 ;
 }
 }
