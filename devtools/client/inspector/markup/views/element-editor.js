@@ -3472,7 +3472,7 @@ theme
 -
 fg
 -
-color2
+color1
 "
 )
 ;
@@ -3538,7 +3538,7 @@ theme
 -
 fg
 -
-color4
+color2
 "
 )
 ;

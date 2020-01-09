@@ -143,7 +143,7 @@ theme
 -
 fg
 -
-color5
+color3
 "
 )
 ;
