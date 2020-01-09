@@ -1765,7 +1765,7 @@ newValue
 function
 setBreakpoint
 (
-sourceClient
+threadClient
 location
 )
 {
@@ -1781,11 +1781,13 @@ n
 )
 ;
 return
-sourceClient
+threadClient
 .
 setBreakpoint
 (
 location
+{
+}
 )
 ;
 }

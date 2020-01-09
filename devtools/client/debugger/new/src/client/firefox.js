@@ -149,8 +149,6 @@ actions
 :
 Object
 )
-:
-Object
 {
 const
 {
@@ -184,12 +182,6 @@ debuggerClient
 )
 {
 return
-{
-bpClients
-:
-{
-}
-}
 ;
 }
 const
@@ -210,11 +202,6 @@ traits
 .
 wasmBinarySource
 ;
-const
-{
-bpClients
-}
-=
 setupCommands
 (
 {
@@ -445,11 +432,6 @@ pausedPacket
 )
 ;
 }
-return
-{
-bpClients
-}
-;
 }
 export
 {
