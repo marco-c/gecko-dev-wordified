@@ -17014,6 +17014,16 @@ size_t
 index
 )
 ;
+inline
+JSFunction
+*
+getFunction
+(
+jsbytecode
+*
+pc
+)
+;
 JSFunction
 *
 function
