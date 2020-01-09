@@ -73,6 +73,12 @@ browser
 window
 *
 /
+/
+*
+globals
+XULCommandEvent
+*
+/
 {
 class
 SearchOneOffs
