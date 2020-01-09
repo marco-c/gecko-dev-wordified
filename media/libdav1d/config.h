@@ -301,10 +301,18 @@ PREFIX
 endif
 #
 if
-ARCH_X86_32
+(
+ARCH_x86_32
 =
 =
 1
+|
+|
+ARCH_X86_64
+=
+=
+1
+)
 &
 &
 defined
@@ -313,6 +321,7 @@ __linux__
 )
 &
 &
+\
 !
 defined
 (
