@@ -17935,6 +17935,12 @@ case
 SRC_ASSIGNOP
 :
 case
+SRC_BREAKPOINT
+:
+case
+SRC_STEP_SEP
+:
+case
 SRC_XDELTA
 :
 break
