@@ -39,6 +39,7 @@ can
 obtain
 one
 at
+<
 http
 :
 /
@@ -53,6 +54,7 @@ MPL
 .
 0
 /
+>
 .
 *
 /
@@ -151,6 +153,7 @@ url
 .
 replace
 (
+^
 /
 images
 /
@@ -190,6 +193,7 @@ url
 .
 replace
 (
+^
 /
 images
 /
