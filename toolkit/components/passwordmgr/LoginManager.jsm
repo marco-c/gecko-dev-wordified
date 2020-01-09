@@ -3733,6 +3733,17 @@ password
 "
 ;
 let
+hostname
+=
+aElement
+.
+ownerDocument
+.
+documentURIObject
+.
+host
+;
+let
 completeSearch
 =
 (
@@ -3798,6 +3809,7 @@ logins
 messageManager
 isSecure
 isPasswordField
+hostname
 }
 )
 ;

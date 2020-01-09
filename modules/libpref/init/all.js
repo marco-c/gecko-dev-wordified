@@ -55583,6 +55583,16 @@ timeout_ms
 /
 15
 Minutes
+pref
+(
+"
+signon
+.
+showAutoCompleteFooter
+"
+false
+)
+;
 /
 /
 Satchel
