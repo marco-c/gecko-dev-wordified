@@ -4795,9 +4795,6 @@ mHasHandledUserInput
 :
 1
 ;
-#
-ifdef
-NIGHTLY_BUILD
 /
 /
 Whether
@@ -4903,13 +4900,6 @@ mInitializedWithKeyPressEventDispatchingBlacklist
 :
 1
 ;
-#
-endif
-/
-/
-#
-ifdef
-NIGHTLY_BUILD
 static
 bool
 sDisableNonTestMouseEvents
