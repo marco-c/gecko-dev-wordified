@@ -180,6 +180,7 @@ mP1
 ;
 #
 if
+(
 !
 defined
 (
@@ -191,6 +192,13 @@ __GNUC__
 >
 =
 7
+)
+&
+&
+defined
+(
+__clang__
+)
 union
 {
 struct
