@@ -2750,6 +2750,12 @@ GetBrowsingContextID
 aLoadInfo
 -
 >
+GetFrameBrowsingContextID
+(
+)
+aLoadInfo
+-
+>
 GetInitialSecurityCheckDone
 (
 )
@@ -3703,6 +3709,11 @@ frameOuterWindowID
 loadInfoArgs
 .
 browsingContextID
+(
+)
+loadInfoArgs
+.
+frameBrowsingContextID
 (
 )
 loadInfoArgs
