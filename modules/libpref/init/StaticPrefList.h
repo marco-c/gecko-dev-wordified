@@ -7000,6 +7000,13 @@ defined
 (
 XP_WIN
 )
+&
+&
+!
+defined
+(
+_ARM64_
+)
 #
 define
 PREF_VALUE
@@ -8029,6 +8036,13 @@ if
 defined
 (
 XP_WIN
+)
+&
+&
+!
+defined
+(
+_ARM64_
 )
 #
 define
