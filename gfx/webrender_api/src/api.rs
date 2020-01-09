@@ -8572,6 +8572,7 @@ Checkpoint
 {
 SceneBuilt
 FrameBuilt
+FrameTexturesUpdated
 FrameRendered
 /
 /
