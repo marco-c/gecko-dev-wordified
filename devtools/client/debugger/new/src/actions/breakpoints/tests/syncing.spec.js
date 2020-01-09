@@ -1728,9 +1728,7 @@ undefined
 }
 ;
 const
-{
 breakpoint
-}
 =
 await
 dispatch

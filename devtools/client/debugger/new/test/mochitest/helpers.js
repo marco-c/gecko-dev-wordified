@@ -4545,6 +4545,7 @@ addBreakpoint
 dbg
 source
 line
+column
 )
 ;
 is

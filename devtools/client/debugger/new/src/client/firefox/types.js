@@ -1598,9 +1598,6 @@ condition
 :
 ?
 string
-noSliding
-:
-boolean
 }
 )
 =

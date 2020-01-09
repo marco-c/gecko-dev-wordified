@@ -97,18 +97,6 @@ middleware
 promise
 "
 ;
-type
-AddBreakpointResult
-=
-{
-previousLocation
-:
-SourceLocation
-breakpoint
-:
-Breakpoint
-}
-;
 export
 type
 BreakpointAction
@@ -135,7 +123,7 @@ condition
 string
 |
 }
-AddBreakpointResult
+Breakpoint
 >
 |
 PromiseAction
@@ -356,7 +344,7 @@ breakpoint
 Breakpoint
 |
 }
-AddBreakpointResult
+Breakpoint
 >
 |
 {
