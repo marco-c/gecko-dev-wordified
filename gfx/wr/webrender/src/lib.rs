@@ -689,9 +689,6 @@ mod
 ellipse
 ;
 mod
-filterdata
-;
-mod
 frame_builder
 ;
 mod
