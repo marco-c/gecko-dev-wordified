@@ -1630,7 +1630,7 @@ cpp
 *
 /
 void
-TraceBinParser
+TraceBinASTParser
 (
 JSTracer
 *

@@ -1847,6 +1847,14 @@ AutoGCRooter
 {
 public
 :
+enum
+class
+Kind
+{
+Parser
+BinASTParser
+}
+;
 ParserSharedBase
 (
 JSContext
@@ -1861,6 +1869,8 @@ usedNames
 ScriptSourceObject
 *
 sourceObject
+Kind
+kind
 )
 ;
 ~
@@ -1999,7 +2009,7 @@ js
 frontend
 :
 :
-TraceBinParser
+TraceBinASTParser
 (
 JSTracer
 *

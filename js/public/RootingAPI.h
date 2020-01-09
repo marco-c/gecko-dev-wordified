@@ -6783,7 +6783,7 @@ defined
 (
 JS_BUILD_BINAST
 )
-BinParser
+BinASTParser
 /
 *
 js
@@ -6792,7 +6792,7 @@ js
 frontend
 :
 :
-BinSource
+BinASTParser
 *
 /
 #

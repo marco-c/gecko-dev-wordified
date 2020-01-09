@@ -1250,12 +1250,12 @@ case
 Tag
 :
 :
-BinParser
+BinASTParser
 :
 frontend
 :
 :
-TraceBinParser
+TraceBinASTParser
 (
 trc
 this
