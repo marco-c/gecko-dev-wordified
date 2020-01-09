@@ -89,7 +89,6 @@ process
 function
 getParentProcessScalars
 (
-aChannel
 aKeyed
 =
 false
@@ -107,9 +106,11 @@ Services
 .
 telemetry
 .
-snapshotKeyedScalars
+getSnapshotForKeyedScalars
 (
-aChannel
+"
+main
+"
 aClear
 )
 [
@@ -122,9 +123,11 @@ Services
 .
 telemetry
 .
-snapshotScalars
+getSnapshotForScalars
 (
-aChannel
+"
+main
+"
 aClear
 )
 [
@@ -152,11 +155,6 @@ scalars
 =
 getParentProcessScalars
 (
-Ci
-.
-nsITelemetry
-.
-DATASET_RELEASE_CHANNEL_OPTOUT
 true
 )
 ;
