@@ -79,7 +79,6 @@ globals
 XULCommandEvent
 *
 /
-{
 class
 SearchOneOffs
 {
@@ -9136,4 +9135,3 @@ SearchOneOffs
 =
 SearchOneOffs
 ;
-}
