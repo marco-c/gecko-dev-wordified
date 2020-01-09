@@ -1755,6 +1755,18 @@ replace
 [
 ]
     
+context_dir
+=
+os
+.
+path
+.
+join
+(
+topsrcdir
+context_dir
+)
+    
 for
 root
 dirs
