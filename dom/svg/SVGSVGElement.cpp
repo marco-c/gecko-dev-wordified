@@ -3967,9 +3967,6 @@ SVGPreserveAspectRatio
 aPAR
 )
 {
-#
-ifdef
-DEBUG
 MOZ_ASSERT
 (
 OwnerDoc
@@ -3990,8 +3987,6 @@ images
 "
 )
 ;
-#
-endif
 bool
 hasViewBoxRect
 =
@@ -4112,9 +4107,6 @@ ClearImageOverridePreserveAspectRatio
 (
 )
 {
-#
-ifdef
-DEBUG
 MOZ_ASSERT
 (
 OwnerDoc
@@ -4136,8 +4128,6 @@ images
 "
 )
 ;
-#
-endif
 if
 (
 !
