@@ -1084,9 +1084,8 @@ NS_OK
 ;
 }
 }
-CancelTransaction
+HandleVisibilityChange
 (
-NS_ERROR_DOM_ABORT_ERR
 )
 ;
 return
