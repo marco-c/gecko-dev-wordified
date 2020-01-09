@@ -396,7 +396,7 @@ GetOrCreateThread
 )
 ;
 void
-TerminateThread
+NotifyWorkletFinished
 (
 )
 ;

@@ -679,7 +679,7 @@ void
 WorkletImpl
 :
 :
-TerminateThread
+NotifyWorkletFinished
 (
 )
 {
@@ -692,13 +692,9 @@ NS_IsMainThread
 ;
 if
 (
-!
 mWorkletThread
 )
 {
-return
-;
-}
 mWorkletThread
 -
 >
@@ -710,6 +706,7 @@ mWorkletThread
 =
 nullptr
 ;
+}
 mWorkletLoadInfo
 .
 mPrincipal

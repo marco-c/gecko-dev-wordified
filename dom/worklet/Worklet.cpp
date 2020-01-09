@@ -2243,7 +2243,7 @@ tmp
 mImpl
 -
 >
-TerminateThread
+NotifyWorkletFinished
 (
 )
 ;
@@ -2361,7 +2361,7 @@ Worklet
 mImpl
 -
 >
-TerminateThread
+NotifyWorkletFinished
 (
 )
 ;
