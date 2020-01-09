@@ -104,6 +104,7 @@ utils
 .
 js
 "
+this
 )
 ;
 ChromeUtils
