@@ -2326,11 +2326,6 @@ Linker
 linker
 (
 masm
-)
-;
-AutoFlushICache
-afc
-(
 "
 UnboxedObject
 "
