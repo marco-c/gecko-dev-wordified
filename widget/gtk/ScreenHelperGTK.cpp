@@ -626,14 +626,6 @@ gint
 aMonitorNum
 )
 {
-#
-if
-(
-MOZ_WIDGET_GTK
->
-=
-3
-)
 /
 /
 Since
@@ -685,8 +677,6 @@ aMonitorNum
 )
 ;
 }
-#
-endif
 return
 1
 ;

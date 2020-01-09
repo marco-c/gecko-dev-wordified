@@ -26440,14 +26440,6 @@ aRegion
 ;
 }
 }
-#
-if
-(
-MOZ_WIDGET_GTK
->
-=
-3
-)
 void
 nsWindow
 :
@@ -26619,8 +26611,6 @@ region
 }
 }
 }
-#
-endif
 nsresult
 nsWindow
 :
@@ -38376,14 +38366,6 @@ GdkScaleFactor
 (
 )
 {
-#
-if
-(
-MOZ_WIDGET_GTK
->
-=
-3
-)
 /
 /
 Available
@@ -38432,8 +38414,6 @@ sGdkWindowGetScaleFactorPtr
 mGdkWindow
 )
 ;
-#
-endif
 return
 ScreenHelperGTK
 :

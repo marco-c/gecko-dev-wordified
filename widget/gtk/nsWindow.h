@@ -2063,14 +2063,6 @@ GetTransparencyMode
 )
 override
 ;
-#
-if
-(
-MOZ_WIDGET_GTK
->
-=
-3
-)
 virtual
 void
 UpdateOpaqueRegion
@@ -2082,8 +2074,6 @@ aOpaqueRegion
 )
 override
 ;
-#
-endif
 virtual
 nsresult
 ConfigureChildren
