@@ -292,6 +292,17 @@ false
 ;
 }
 virtual
+bool
+UseTripleBuffering
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
 LayoutDeviceIntSize
 GetBufferSize
 (
