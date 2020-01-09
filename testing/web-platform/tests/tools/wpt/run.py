@@ -1442,6 +1442,17 @@ is
 None
 :
                 
+kwargs
+[
+"
+browser_channel
+"
+]
+=
+"
+nightly
+"
+                
 logger
 .
 info
