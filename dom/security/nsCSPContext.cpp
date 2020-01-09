@@ -6304,10 +6304,6 @@ TYPE_CSP_REPORT
 nullptr
 /
 /
-nsICookieSettings
-nullptr
-/
-/
 PerformanceStorage
 nullptr
 /

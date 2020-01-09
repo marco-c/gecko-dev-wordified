@@ -248,9 +248,6 @@ h
 class
 nsPIDOMWindowInner
 ;
-class
-nsICookieSettings
-;
 namespace
 mozilla
 {
@@ -430,9 +427,6 @@ EventSource
 nsPIDOMWindowInner
 *
 aOwnerWindow
-nsICookieSettings
-*
-aCookieSettings
 bool
 aWithCredentials
 )

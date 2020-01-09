@@ -6816,10 +6816,6 @@ TYPE_XBL
 nullptr
 /
 /
-nsICookieSettings
-nullptr
-/
-/
 PerformanceStorage
 loadGroup
 )

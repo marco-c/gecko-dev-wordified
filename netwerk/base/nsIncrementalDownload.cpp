@@ -1330,10 +1330,6 @@ TYPE_OTHER
 nullptr
 /
 /
-nsICookieSettings
-nullptr
-/
-/
 PerformanceStorage
 nullptr
 /

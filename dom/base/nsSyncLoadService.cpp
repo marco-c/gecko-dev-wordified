@@ -1433,9 +1433,6 @@ aSecurityFlags
 nsILoadGroup
 *
 aLoadGroup
-nsICookieSettings
-*
-aCookieSettings
 bool
 aForceToXML
 ReferrerPolicy
@@ -1465,7 +1462,6 @@ aURI
 aLoaderPrincipal
 aSecurityFlags
 aContentPolicyType
-aCookieSettings
 nullptr
 /
 /

@@ -320,12 +320,6 @@ nsILoadInfo
 :
 SEC_REQUIRE_CORS_DATA_INHERITS
 loadGroup
-loaderDocument
--
->
-CookieSettings
-(
-)
 true
 loaderDocument
 -
