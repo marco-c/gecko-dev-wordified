@@ -69729,7 +69729,7 @@ PostResizeEvent
 }
 }
 }
-void
+bool
 nsIPresShell
 :
 :
@@ -69745,6 +69745,11 @@ nsPoint
 aPrevLayoutScrollPos
 )
 {
+bool
+didChange
+=
+false
+;
 if
 (
 mVisualViewportOffset
@@ -69761,6 +69766,10 @@ mVisualViewportOffset
 mVisualViewportOffset
 =
 aScrollOffset
+;
+didChange
+=
+true
 ;
 if
 (
@@ -69798,6 +69807,9 @@ aPrevLayoutScrollPos
 ;
 }
 }
+return
+didChange
+;
 }
 nsPoint
 nsIPresShell
