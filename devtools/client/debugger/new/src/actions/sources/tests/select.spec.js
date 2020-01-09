@@ -1777,6 +1777,13 @@ line
 12
 }
 )
+getOriginalLocations
+:
+async
+items
+=
+>
+items
 getGeneratedLocation
 :
 async
@@ -1997,6 +2004,13 @@ line
 12
 }
 )
+getOriginalLocations
+:
+async
+items
+=
+>
+items
 getGeneratedRangesForOriginal
 :
 async
