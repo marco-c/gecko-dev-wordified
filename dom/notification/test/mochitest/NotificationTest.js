@@ -422,10 +422,6 @@ createImageData
 100
 )
 map
-:
-map
-set
-:
 set
 }
 ;
@@ -441,8 +437,6 @@ API
 return
 {
 run
-:
-function
 (
 tests
 callback
@@ -484,8 +478,6 @@ callback
 ;
 }
 allowNotifications
-:
-function
 (
 )
 {
@@ -507,8 +499,6 @@ true
 ;
 }
 denyNotifications
-:
-function
 (
 )
 {
@@ -530,8 +520,6 @@ false
 ;
 }
 clickNotification
-:
-function
 (
 notification
 )
@@ -545,8 +533,6 @@ how
 ?
 }
 fireCloseEvent
-:
-function
 (
 title
 )
@@ -572,8 +558,6 @@ detail
 :
 {
 title
-:
-title
 }
 }
 )
@@ -581,11 +565,7 @@ title
 ;
 }
 info
-:
-info
 customDataMatches
-:
-function
 (
 dataObj
 )
