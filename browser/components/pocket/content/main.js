@@ -3525,9 +3525,7 @@ getCurrentUrl
 )
 {
 return
-getBrowser
-(
-)
+gBrowser
 .
 currentURI
 .
@@ -3540,9 +3538,7 @@ getCurrentTitle
 )
 {
 return
-getBrowser
-(
-)
+gBrowser
 .
 contentTitle
 ;
