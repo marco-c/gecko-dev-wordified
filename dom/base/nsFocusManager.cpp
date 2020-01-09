@@ -19604,6 +19604,10 @@ aContent
 {
 return
 aContent
+&
+&
+(
+aContent
 -
 >
 GetShadowRoot
@@ -19620,6 +19624,7 @@ nsGkAtoms
 :
 :
 slot
+)
 )
 ;
 }
