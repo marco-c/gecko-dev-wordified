@@ -2323,7 +2323,7 @@ mDelegate
 }
 AnyThread
 public
-Nullable
+NonNull
 GeckoRuntimeSettings
 getSettings
 (
