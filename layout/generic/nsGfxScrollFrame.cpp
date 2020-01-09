@@ -28217,6 +28217,16 @@ IsVisualViewportOffsetSet
 return
 nsRect
 (
+mScrollPort
+.
+TopLeft
+(
+)
+-
+GetScrollPosition
+(
+)
++
 presShell
 -
 >
