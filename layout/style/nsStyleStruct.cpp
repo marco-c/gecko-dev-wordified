@@ -162,13 +162,6 @@ h
 #
 include
 "
-nsStyleConsts
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

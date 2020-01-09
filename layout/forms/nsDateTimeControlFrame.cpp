@@ -170,13 +170,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsContentCreatorFunctions
 .
 h

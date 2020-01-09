@@ -133,15 +133,6 @@ include
 "
 mozilla
 /
-StyleSheetInlines
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MemoryReporting
 .
 h

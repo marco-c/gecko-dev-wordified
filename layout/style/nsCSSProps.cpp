@@ -176,13 +176,6 @@ h
 #
 include
 "
-nsStyleConsts
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h

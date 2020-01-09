@@ -138,13 +138,6 @@ h
 #
 include
 "
-InspectorUtils
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

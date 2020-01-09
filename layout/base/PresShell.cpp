@@ -177,15 +177,6 @@ include
 "
 mozilla
 /
-StyleSheetInlines
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EventDispatcher
 .
 h
