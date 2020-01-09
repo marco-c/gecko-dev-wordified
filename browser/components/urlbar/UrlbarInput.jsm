@@ -4935,7 +4935,7 @@ url
 {
 browser
 .
-initialPageLoadedFromURLBar
+initialPageLoadedFromUserAction
 =
 url
 ;
