@@ -85,8 +85,17 @@ from
 compare_locales
 .
 compare
+.
+content
 import
 ContentComparer
+from
+compare_locales
+.
+compare
+.
+observer
+import
 Observer
 from
 compare_locales
@@ -355,11 +364,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -422,9 +437,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -527,11 +539,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -594,9 +612,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -729,14 +744,20 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 filter
 =
 ignore
 )
-]
 )
         
 cc
@@ -799,9 +820,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -1055,11 +1073,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -1122,9 +1146,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -1303,11 +1324,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -1370,9 +1397,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -1630,11 +1654,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -1697,9 +1727,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -1838,11 +1865,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -1905,9 +1938,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -2040,10 +2070,7 @@ readFile
 mergefile
 )
         
-[
-m
-n
-]
+entities
 =
 p
 .
@@ -2055,15 +2082,14 @@ self
 .
 assertEqual
 (
-[
-e
+list
+(
+entities
 .
-key
-for
-e
-in
-m
-]
+keys
+(
+)
+)
 [
 "
 bar
@@ -2125,11 +2151,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -2192,9 +2224,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -2361,11 +2390,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -2428,9 +2463,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -2585,10 +2617,7 @@ readFile
 mergefile
 )
         
-[
-m
-n
-]
+entities
 =
 p
 .
@@ -2600,15 +2629,14 @@ self
 .
 assertEqual
 (
-[
-e
+list
+(
+entities
 .
-key
-for
-e
-in
-m
-]
+keys
+(
+)
+)
 [
 "
 eff
@@ -2626,14 +2654,11 @@ self
 .
 assertEqual
 (
-m
-[
-n
+entities
 [
 '
 bar
 '
-]
 ]
 .
 val
@@ -2710,11 +2735,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -2777,9 +2808,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -2939,11 +2967,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -3006,9 +3040,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -3167,11 +3198,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -3234,9 +3271,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -3536,11 +3570,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -3603,9 +3643,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -3764,11 +3801,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -3831,9 +3874,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -3966,10 +4006,7 @@ readFile
 mergefile
 )
         
-[
-m
-n
-]
+entities
 =
 p
 .
@@ -3981,15 +4018,14 @@ self
 .
 assertEqual
 (
-[
-e
+list
+(
+entities
 .
-key
-for
-e
-in
-m
-]
+keys
+(
+)
+)
 [
 "
 bar
@@ -4102,11 +4138,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -4169,9 +4211,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -4347,10 +4386,7 @@ readFile
 mergefile
 )
         
-[
-m
-n
-]
+entities
 =
 p
 .
@@ -4362,15 +4398,14 @@ self
 .
 assertEqual
 (
-[
-e
+list
+(
+entities
 .
-key
-for
-e
-in
-m
-]
+keys
+(
+)
+)
 [
 "
 foo
@@ -4476,11 +4511,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -4543,9 +4584,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -4754,11 +4792,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -4821,9 +4865,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -5207,11 +5248,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -5274,9 +5321,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -5414,11 +5458,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -5481,9 +5531,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -5672,11 +5719,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -5739,9 +5792,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -5996,7 +6046,6 @@ mergepath
 )
         
 merged_entities
-merged_map
 =
 p
 .
@@ -6008,15 +6057,14 @@ self
 .
 assertEqual
 (
-[
-e
-.
-key
-for
-e
-in
+list
+(
 merged_entities
-]
+.
+keys
+(
+)
+)
 [
 "
 foo
@@ -6028,12 +6076,9 @@ merged_foo
 =
 merged_entities
 [
-merged_map
-[
 '
 foo
 '
-]
 ]
         
 #
@@ -6052,7 +6097,6 @@ l10n
 )
         
 l10n_entities
-l10n_map
 =
 p
 .
@@ -6064,12 +6108,9 @@ l10n_foo
 =
 l10n_entities
 [
-l10n_map
-[
 '
 foo
 '
-]
 ]
         
 self
@@ -6133,11 +6174,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -6200,9 +6247,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -6353,11 +6397,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -6420,9 +6470,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -6704,11 +6751,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -6771,9 +6824,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -6938,7 +6988,6 @@ mergepath
 )
         
 merged_entities
-merged_map
 =
 p
 .
@@ -6950,15 +6999,14 @@ self
 .
 assertEqual
 (
-[
-e
-.
-key
-for
-e
-in
+list
+(
 merged_entities
-]
+.
+keys
+(
+)
+)
 [
 "
 eff
@@ -6970,12 +7018,9 @@ merged_eff
 =
 merged_entities
 [
-merged_map
-[
 '
 eff
 '
-]
 ]
         
 #
@@ -6994,7 +7039,6 @@ l10n
 )
         
 l10n_entities
-l10n_map
 =
 p
 .
@@ -7006,12 +7050,9 @@ l10n_eff
 =
 l10n_entities
 [
-l10n_map
-[
 '
 eff
 '
-]
 ]
         
 self
@@ -7138,11 +7179,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -7205,9 +7252,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -7391,11 +7435,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -7458,9 +7508,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -7615,7 +7662,6 @@ mergepath
 )
         
 merged_entities
-_
 =
 p
 .
@@ -7627,17 +7673,10 @@ self
 .
 assertEqual
 (
-[
-e
-.
-key
-for
-e
-in
 merged_entities
-]
-[
-]
+tuple
+(
+)
 )
     
 def
@@ -7693,11 +7732,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -7760,9 +7805,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -7898,11 +7940,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -7965,9 +8013,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -8115,11 +8160,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -8182,9 +8233,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -8348,11 +8396,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -8415,9 +8469,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (
@@ -8620,11 +8671,17 @@ cc
 =
 ContentComparer
 (
-[
+)
+        
+cc
+.
+observers
+.
+append
+(
 Observer
 (
 )
-]
 )
         
 cc
@@ -8687,9 +8744,6 @@ assertDictEqual
 cc
 .
 observers
-[
-0
-]
 .
 toJSON
 (

@@ -1846,12 +1846,12 @@ isinstance
 key
 ast
 .
-VariantName
+Identifier
 )
 :
         
 return
-serialize_variant_name
+serialize_identifier
 (
 key
 )

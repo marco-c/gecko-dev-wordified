@@ -259,7 +259,6 @@ Parser
 )
         
 entities
-_map
 =
 p
 .
@@ -269,25 +268,14 @@ parse
         
 self
 .
-assertListEqual
+assertTupleEqual
 (
             
 entities
             
-[
-]
-        
-)
-        
-self
-.
-assertDictEqual
+tuple
 (
-            
-_map
-            
-{
-}
+)
         
 )
 class

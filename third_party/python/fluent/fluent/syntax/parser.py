@@ -6,13 +6,15 @@ import
 re
 from
 .
-ftlstream
-import
-FTLParserStream
-from
-.
 import
 ast
+from
+.
+stream
+import
+EOF
+EOL
+FluentParserStream
 from
 .
 errors
@@ -55,9 +57,7 @@ start
 =
 ps
 .
-get_index
-(
-)
+index
         
 node
 =
@@ -116,9 +116,7 @@ end
 =
 ps
 .
-get_index
-(
-)
+index
         
 node
 .
@@ -166,14 +164,14 @@ source
         
 ps
 =
-FTLParserStream
+FluentParserStream
 (
 source
 )
         
 ps
 .
-skip_blank_lines
+skip_blank_block
 (
 )
         
@@ -189,9 +187,7 @@ None
 while
 ps
 .
-current
-(
-)
+current_char
 :
             
 entry
@@ -207,7 +203,7 @@ blank_lines
 =
 ps
 .
-skip_blank_lines
+skip_blank_block
 (
 )
             
@@ -293,9 +289,7 @@ blank_lines
 and
 ps
 .
-current
-(
-)
+current_char
             
 )
 :
@@ -495,9 +489,7 @@ add_span
 0
 ps
 .
-get_index
-(
-)
+index
 )
         
 return
@@ -579,26 +571,26 @@ returned
         
 ps
 =
-FTLParserStream
+FluentParserStream
 (
 source
 )
         
 ps
 .
-skip_blank_lines
+skip_blank_block
 (
 )
         
 while
 ps
 .
-current_is
-(
+current_char
+=
+=
 '
 #
 '
-)
 :
             
 skipped
@@ -634,7 +626,7 @@ skipped
             
 ps
 .
-skip_blank_lines
+skip_blank_block
 (
 )
         
@@ -658,9 +650,7 @@ entry_start_pos
 =
 ps
 .
-get_index
-(
-)
+index
         
 try
 :
@@ -693,23 +683,47 @@ error_index
 =
 ps
 .
-get_index
-(
-)
+index
             
 ps
 .
 skip_to_next_entry_start
 (
+entry_start_pos
 )
             
 next_entry_start
 =
 ps
 .
-get_index
-(
-)
+index
+            
+if
+next_entry_start
+<
+error_index
+:
+                
+#
+The
+position
+of
+the
+error
+must
+be
+inside
+of
+the
+Junk
+'
+s
+span
+.
+                
+error_index
+=
+next_entry_start
             
 #
 Create
@@ -721,11 +735,12 @@ slice
 =
 ps
 .
-get_slice
-(
+string
+[
 entry_start_pos
+:
 next_entry_start
-)
+]
             
 junk
 =
@@ -796,12 +811,12 @@ ps
 if
 ps
 .
-current_is
-(
+current_char
+=
+=
 '
 #
 '
-)
 :
             
 return
@@ -815,12 +830,12 @@ ps
 if
 ps
 .
-current_is
-(
+current_char
+=
+=
 '
 /
 '
-)
 :
             
 return
@@ -834,12 +849,12 @@ ps
 if
 ps
 .
-current_is
-(
+current_char
+=
+=
 '
 [
 '
-)
 :
             
 return
@@ -853,12 +868,12 @@ ps
 if
 ps
 .
-current_is
-(
+current_char
+=
+=
 '
 -
 '
-)
 :
             
 return
@@ -956,10 +971,7 @@ x
 x
 !
 =
-'
-\
-n
-'
+EOL
 )
             
 while
@@ -983,17 +995,17 @@ x
 x
 !
 =
-'
-\
-n
-'
+EOL
 )
             
 if
 ps
 .
-is_peek_next_line_zero_four_style_comment
+is_next_line_zero_four_comment
 (
+skip
+=
+False
 )
 :
                 
@@ -1002,9 +1014,7 @@ content
 =
 ps
 .
-current
-(
-)
+current_char
                 
 ps
 .
@@ -1058,21 +1068,17 @@ become
 GroupComments
 .
         
+if
 ps
 .
 peek
 (
 )
-        
-if
-ps
-.
-current_peek_is
-(
+=
+=
 '
 [
 '
-)
 :
             
 ps
@@ -1165,12 +1171,14 @@ i
 while
 ps
 .
-current_is
-(
+current_char
+=
+=
 '
 #
 '
-)
+\
+                    
 and
 (
 i
@@ -1213,16 +1221,12 @@ level
 i
             
 if
-not
 ps
 .
-current_is
-(
-'
-\
-n
-'
-)
+current_char
+!
+=
+EOL
 :
                 
 ps
@@ -1245,10 +1249,7 @@ x
 x
 !
 =
-'
-\
-n
-'
+EOL
 )
                 
 while
@@ -1272,17 +1273,19 @@ x
 x
 !
 =
-'
-\
-n
-'
+EOL
 )
             
 if
 ps
 .
-is_peek_next_line_comment
+is_next_line_comment
 (
+skip
+=
+False
+level
+=
 level
 )
 :
@@ -1292,9 +1295,7 @@ content
 =
 ps
 .
-current
-(
-)
+current_char
                 
 ps
 .
@@ -1362,13 +1363,22 @@ ps
 )
 :
         
-ps
-.
-expect_char
+def
+until_closing_bracket_or_eol
+(
+ch
+)
+:
+            
+return
+ch
+not
+in
 (
 '
-[
+]
 '
+EOL
 )
         
 ps
@@ -1382,22 +1392,23 @@ expect_char
         
 ps
 .
-skip_inline_ws
+expect_char
 (
+'
+[
+'
 )
         
-self
-.
-get_variant_name
-(
-ps
-)
-        
+while
 ps
 .
-skip_inline_ws
+take_char
 (
+until_closing_bracket_or_eol
 )
+:
+            
+pass
         
 ps
 .
@@ -1475,7 +1486,7 @@ ps
         
 ps
 .
-skip_inline_ws
+skip_blank_inline
 (
 )
         
@@ -1494,12 +1505,12 @@ compat
 if
 ps
 .
-current_is
-(
+current_char
+=
+=
 '
 =
 '
-)
 :
             
 ps
@@ -1511,16 +1522,13 @@ next
 if
 ps
 .
-is_peek_value_start
+is_value_start
 (
+skip
+=
+True
 )
 :
-                
-ps
-.
-skip_indent
-(
-)
                 
 pattern
 =
@@ -1530,21 +1538,15 @@ get_pattern
 (
 ps
 )
-            
-else
-:
-                
-ps
-.
-skip_inline_ws
-(
-)
         
 if
 ps
 .
-is_peek_next_line_attribute_start
+is_next_line_attribute_start
 (
+skip
+=
+True
 )
 :
             
@@ -1616,7 +1618,7 @@ ps
         
 ps
 .
-skip_inline_ws
+skip_blank_inline
 (
 )
         
@@ -1632,16 +1634,13 @@ expect_char
 if
 ps
 .
-is_peek_value_start
+is_value_start
 (
+skip
+=
+True
 )
 :
-            
-ps
-.
-skip_indent
-(
-)
             
 value
 =
@@ -1669,8 +1668,11 @@ name
 if
 ps
 .
-is_peek_next_line_attribute_start
+is_next_line_attribute_start
 (
+skip
+=
+True
 )
 :
             
@@ -1730,7 +1732,7 @@ ps
         
 ps
 .
-skip_inline_ws
+skip_blank_inline
 (
 )
         
@@ -1746,16 +1748,13 @@ expect_char
 if
 ps
 .
-is_peek_value_start
+is_value_start
 (
+skip
+=
+True
 )
 :
-            
-ps
-.
-skip_indent
-(
-)
             
 value
 =
@@ -1800,12 +1799,6 @@ while
 True
 :
             
-ps
-.
-expect_indent
-(
-)
-            
 attr
 =
 self
@@ -1826,8 +1819,11 @@ if
 not
 ps
 .
-is_peek_next_line_attribute_start
+is_next_line_attribute_start
 (
+skip
+=
+True
 )
 :
                 
@@ -1946,14 +1942,12 @@ ch
 =
 ps
 .
-current
-(
-)
+current_char
         
 if
 ch
 is
-None
+EOF
 :
             
 raise
@@ -2008,7 +2002,7 @@ ps
 return
 self
 .
-get_variant_name
+get_identifier
 (
 ps
 )
@@ -2031,12 +2025,12 @@ False
 if
 ps
 .
-current_is
-(
+current_char
+=
+=
 '
 *
 '
-)
 :
             
 if
@@ -2070,6 +2064,12 @@ expect_char
 '
 )
         
+ps
+.
+skip_blank
+(
+)
+        
 key
 =
 self
@@ -2077,6 +2077,12 @@ self
 get_variant_key
 (
 ps
+)
+        
+ps
+.
+skip_blank
+(
 )
         
 ps
@@ -2091,16 +2097,13 @@ expect_char
 if
 ps
 .
-is_peek_value_start
+is_value_start
 (
+skip
+=
+True
 )
 :
-            
-ps
-.
-skip_indent
-(
-)
             
 value
 =
@@ -2150,12 +2153,6 @@ while
 True
 :
             
-ps
-.
-expect_indent
-(
-)
-            
 variant
 =
 self
@@ -2187,12 +2184,21 @@ if
 not
 ps
 .
-is_peek_next_line_variant_start
+is_next_line_variant_start
 (
+skip
+=
+False
 )
 :
                 
 break
+            
+ps
+.
+skip_blank
+(
+)
         
 if
 not
@@ -2209,70 +2215,6 @@ E0010
         
 return
 variants
-    
-with_span
-    
-def
-get_variant_name
-(
-self
-ps
-)
-:
-        
-name
-=
-ps
-.
-take_id_start
-(
-)
-        
-while
-True
-:
-            
-ch
-=
-ps
-.
-take_variant_name_char
-(
-)
-            
-if
-ch
-:
-                
-name
-+
-=
-ch
-            
-else
-:
-                
-break
-        
-return
-ast
-.
-VariantName
-(
-name
-.
-rstrip
-(
-'
-\
-t
-\
-n
-\
-r
-'
-)
-)
     
 def
 get_digits
@@ -2356,12 +2298,12 @@ num
 if
 ps
 .
-current_is
-(
+current_char
+=
+=
 '
 -
 '
-)
 :
             
 num
@@ -2390,12 +2332,12 @@ ps
 if
 ps
 .
-current_is
-(
+current_char
+=
+=
 '
 .
 '
-)
 :
             
 num
@@ -2442,12 +2384,12 @@ ps
 if
 ps
 .
-current_is
-(
+current_char
+=
+=
 '
 {
 '
-)
 :
             
 ps
@@ -2458,15 +2400,18 @@ peek
             
 ps
 .
-peek_inline_ws
+peek_blank_inline
 (
 )
             
 if
 ps
 .
-is_peek_next_line_variant_start
+is_next_line_variant_start
 (
+skip
+=
+False
 )
 :
                 
@@ -2476,6 +2421,12 @@ self
 get_variant_list
 (
 ps
+)
+            
+ps
+.
+reset_peek
+(
 )
         
 return
@@ -2507,7 +2458,19 @@ expect_char
         
 ps
 .
-skip_inline_ws
+skip_blank_inline
+(
+)
+        
+ps
+.
+expect_line_end
+(
+)
+        
+ps
+.
+skip_blank
 (
 )
         
@@ -2522,7 +2485,13 @@ ps
         
 ps
 .
-expect_indent
+expect_line_end
+(
+)
+        
+ps
+.
+skip_blank
 (
 )
         
@@ -2558,27 +2527,17 @@ elements
 [
 ]
         
-ps
-.
-skip_inline_ws
-(
-)
-        
 while
 ps
 .
-current
-(
-)
+current_char
 :
             
 ch
 =
 ps
 .
-current
-(
-)
+current_char
             
 #
 The
@@ -2610,16 +2569,16 @@ if
 ch
 =
 =
-'
-\
-n
-'
+EOL
 and
 not
 ps
 .
-is_peek_next_line_value
+is_next_line_value
 (
+skip
+=
+False
 )
 :
                 
@@ -2705,6 +2664,22 @@ n
 r
 '
 )
+            
+if
+last_element
+.
+value
+=
+=
+"
+"
+:
+                
+elements
+.
+pop
+(
+)
         
 return
 ast
@@ -2732,18 +2707,14 @@ buf
 while
 ps
 .
-current
-(
-)
+current_char
 :
             
 ch
 =
 ps
 .
-current
-(
-)
+current_char
             
 if
 ch
@@ -2766,18 +2737,18 @@ if
 ch
 =
 =
-'
-\
-n
-'
+EOL
 :
                 
 if
 not
 ps
 .
-is_peek_next_line_value
+is_next_line_value
 (
+skip
+=
+False
 )
 :
                     
@@ -2797,23 +2768,14 @@ next
                 
 ps
 .
-skip_inline_ws
+skip_blank_inline
 (
 )
-                
-#
-Add
-the
-new
-line
-to
-the
-buffer
                 
 buf
 +
 =
-ch
+EOL
                 
 continue
             
@@ -2842,15 +2804,14 @@ get_escape_sequence
 (
 ps
 )
-            
-else
-:
                 
+continue
+            
 buf
 +
 =
 ch
-                
+            
 ps
 .
 next
@@ -2888,9 +2849,7 @@ next
 =
 ps
 .
-current
-(
-)
+current_char
         
 if
 next
@@ -2955,9 +2914,8 @@ take_hex_digit
 )
                 
 if
+not
 ch
-is
-None
 :
                     
 raise
@@ -2970,9 +2928,7 @@ sequence
 +
 ps
 .
-current
-(
-)
+current_char
 )
                 
 sequence
@@ -3060,7 +3016,7 @@ ps
         
 ps
 .
-skip_inline_ws
+skip_blank
 (
 )
         
@@ -3075,37 +3031,32 @@ ps
         
 ps
 .
-skip_inline_ws
+skip_blank
 (
 )
         
 if
 ps
 .
-current_is
-(
+current_char
+=
+=
 '
 -
 '
-)
 :
             
+if
 ps
 .
 peek
 (
 )
-            
-if
-not
-ps
-.
-current_peek_is
-(
+!
+=
 '
 >
 '
-)
 :
                 
 ps
@@ -3197,7 +3148,19 @@ next
             
 ps
 .
-skip_inline_ws
+skip_blank_inline
+(
+)
+            
+ps
+.
+expect_line_end
+(
+)
+            
+ps
+.
+skip_blank
 (
 )
             
@@ -3208,6 +3171,12 @@ self
 get_variants
 (
 ps
+)
+            
+ps
+.
+skip_blank
+(
 )
             
 if
@@ -3265,12 +3234,6 @@ E0023
 '
 )
             
-ps
-.
-expect_indent
-(
-)
-            
 return
 ast
 .
@@ -3313,6 +3276,12 @@ E0019
 '
 )
         
+ps
+.
+skip_blank
+(
+)
+        
 return
 selector
     
@@ -3329,12 +3298,12 @@ ps
 if
 ps
 .
-current_is
-(
+current_char
+=
+=
 '
 {
 '
-)
 :
             
 return
@@ -3377,9 +3346,7 @@ ch
 =
 ps
 .
-current
-(
-)
+current_char
         
 if
 (
@@ -3623,20 +3590,19 @@ ps
         
 ps
 .
-skip_inline_ws
+skip_blank
 (
 )
         
 if
-not
 ps
 .
-current_is
-(
+current_char
+!
+=
 '
 :
 '
-)
 :
             
 return
@@ -3669,7 +3635,7 @@ next
         
 ps
 .
-skip_inline_ws
+skip_blank
 (
 )
         
@@ -3719,13 +3685,7 @@ set
         
 ps
 .
-skip_inline_ws
-(
-)
-        
-ps
-.
-skip_indent
+skip_blank
 (
 )
         
@@ -3736,12 +3696,12 @@ True
 if
 ps
 .
-current_is
-(
+current_char
+=
+=
 '
 )
 '
-)
 :
                 
 break
@@ -3830,24 +3790,18 @@ arg
             
 ps
 .
-skip_inline_ws
-(
-)
-            
-ps
-.
-skip_indent
+skip_blank
 (
 )
             
 if
 ps
 .
-current_is
-(
+current_char
+=
+=
 '
 '
-)
 :
                 
 ps
@@ -3858,13 +3812,7 @@ next
                 
 ps
 .
-skip_inline_ws
-(
-)
-                
-ps
-.
-skip_indent
+skip_blank
 (
 )
                 
@@ -3906,12 +3854,12 @@ ps
 elif
 ps
 .
-current_is
-(
+current_char
+=
+=
 '
 "
 '
-)
 :
             
 return
@@ -3973,10 +3921,7 @@ and
 x
 !
 =
-'
-\
-n
-'
+EOL
 )
         
 while
@@ -4042,22 +3987,16 @@ and
 x
 !
 =
-'
-\
-n
-'
+EOL
 )
         
 if
 ps
 .
-current_is
-(
-'
-\
-n
-'
-)
+current_char
+=
+=
+EOL
 :
             
 raise
@@ -4070,8 +4009,11 @@ E0020
         
 ps
 .
-next
+expect_char
 (
+'
+"
+'
 )
         
 return
@@ -4096,14 +4038,12 @@ ch
 =
 ps
 .
-current
-(
-)
+current_char
         
 if
 ch
 is
-None
+EOF
 :
             
 raise

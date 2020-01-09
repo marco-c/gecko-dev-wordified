@@ -149,6 +149,5 @@ merge_channels
 self
 .
 name
-*
 channels
 )

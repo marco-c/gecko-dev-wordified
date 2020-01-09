@@ -126,7 +126,7 @@ Bar
         
 self
 .
-assertEqual
+assertMultiLineEqual
 (
             
 merge_channels
@@ -134,10 +134,17 @@ merge_channels
 self
 .
 name
-*
 channels
 )
-b
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
 "
 "
 "
@@ -206,7 +213,7 @@ Bar
         
 self
 .
-assertEqual
+assertMultiLineEqual
 (
             
 merge_channels
@@ -214,10 +221,17 @@ merge_channels
 self
 .
 name
-*
 channels
 )
-b
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
 "
 "
 "
@@ -225,10 +239,6 @@ foo
 =
 Foo
 1
-#
-Bar
-Comment
-2
 bar
 =
 Bar
@@ -290,7 +300,7 @@ Bar
         
 self
 .
-assertEqual
+assertMultiLineEqual
 (
             
 merge_channels
@@ -298,10 +308,17 @@ merge_channels
 self
 .
 name
-*
 channels
 )
-b
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
 "
 "
 "
@@ -386,7 +403,7 @@ Foo
         
 self
 .
-assertEqual
+assertMultiLineEqual
 (
             
 merge_channels
@@ -394,10 +411,17 @@ merge_channels
 self
 .
 name
-*
 channels
 )
-b
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
 "
 "
 "
@@ -466,7 +490,7 @@ Foo
         
 self
 .
-assertEqual
+assertMultiLineEqual
 (
             
 merge_channels
@@ -474,10 +498,17 @@ merge_channels
 self
 .
 name
-*
 channels
 )
-b
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
 "
 "
 "
@@ -550,7 +581,7 @@ Foo
         
 self
 .
-assertEqual
+assertMultiLineEqual
 (
             
 merge_channels
@@ -558,10 +589,17 @@ merge_channels
 self
 .
 name
-*
 channels
 )
-b
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
 "
 "
 "
@@ -636,7 +674,7 @@ Foo
         
 self
 .
-assertEqual
+assertMultiLineEqual
 (
             
 merge_channels
@@ -644,10 +682,17 @@ merge_channels
 self
 .
 name
-*
 channels
 )
-b
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
 "
 "
 "
@@ -721,7 +766,7 @@ Bar
         
 self
 .
-assertEqual
+assertMultiLineEqual
 (
             
 merge_channels
@@ -729,13 +774,23 @@ merge_channels
 self
 .
 name
-*
 channels
 )
-b
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
 "
 "
 "
+#
+Ambiguous
+Comment
 #
 Ambiguous
 Comment
@@ -810,7 +865,7 @@ Bar
         
 self
 .
-assertEqual
+assertMultiLineEqual
 (
             
 merge_channels
@@ -818,10 +873,17 @@ merge_channels
 self
 .
 name
-*
 channels
 )
-b
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
 "
 "
 "
@@ -832,6 +894,9 @@ foo
 =
 Foo
 1
+#
+Ambiguous
+Comment
 #
 Bar
 Comment

@@ -214,7 +214,6 @@ merge_channels
 self
 .
 name
-*
 channels
 )
 b
@@ -413,7 +412,6 @@ merge_channels
 self
 .
 name
-*
 channels
 )
 b
