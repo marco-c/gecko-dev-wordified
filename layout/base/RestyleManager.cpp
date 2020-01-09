@@ -12779,7 +12779,7 @@ GetGenerationFromFrame
 aFrame
 layerInfo
 .
-mDisplayItemType
+mLayerType
 )
 ;
 if
@@ -13030,7 +13030,7 @@ if
 (
 layerInfo
 .
-mDisplayItemType
+mLayerType
 =
 =
 DisplayItemType
