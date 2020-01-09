@@ -1200,6 +1200,12 @@ defined
 (
 OS_WIN
 )
+&
+&
+defined
+(
+ARCH_CPU_X86_FAMILY
+)
 /
 /
 TODO
