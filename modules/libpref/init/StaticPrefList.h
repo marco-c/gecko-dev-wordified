@@ -5917,6 +5917,17 @@ layout_dynamic_reflow_roots_enabled
 bool
 true
 )
+VARCACHE_PREF
+(
+"
+layout
+.
+lower_priority_refresh_driver_during_load
+"
+layout_lower_priority_refresh_driver_during_load
+bool
+true
+)
 /
 /
 Pref
