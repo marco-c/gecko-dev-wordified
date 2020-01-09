@@ -138,9 +138,6 @@ ApplyConstraintsPromise
 >
 ApplyConstraints
 (
-nsPIDOMWindowInner
-*
-aWindow
 const
 dom
 :
@@ -164,10 +161,9 @@ CreateAndReject
 (
 MakeRefPtr
 <
-MediaStreamError
+MediaMgrError
 >
 (
-aWindow
 MediaStreamError
 :
 :
