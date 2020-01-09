@@ -21861,6 +21861,6 @@ toolbars
 .
 keyboard_navigation
 "
-false
+true
 )
 ;
