@@ -1154,12 +1154,6 @@ nsCString
 aURL
 )
 {
-MOZ_ASSERT
-(
-!
-mTarget
-)
-;
 return
 true
 ;
