@@ -3148,18 +3148,11 @@ is
 installed
 .
             
-This
-internal
-function
-calls
-an
-in
--
-tree
-library
-'
-which
-'
+Uses
+mozdebug
+to
+locate
+debuggers
 .
             
 If
@@ -3203,22 +3196,22 @@ name
 "
 "
             
-from
-which
 import
-which
-WhichError
+mozdebug
             
-try
-:
-                
-which
+info
+=
+mozdebug
+.
+get_debugger_info
 (
 program
 )
             
-except
-WhichError
+if
+info
+is
+None
 :
                 
 print
