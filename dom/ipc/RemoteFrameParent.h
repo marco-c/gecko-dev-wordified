@@ -332,6 +332,17 @@ bool
 aForDocumentNavigation
 )
 ;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvActivate
+(
+)
+;
 void
 ActorDestroy
 (
