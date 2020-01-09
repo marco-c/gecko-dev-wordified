@@ -734,6 +734,12 @@ case
 EditorInputType
 :
 :
+eInsertFromPasteAsQuotation
+:
+case
+EditorInputType
+:
+:
 eInsertTranspose
 :
 case
@@ -928,6 +934,12 @@ EditorInputType
 :
 :
 eInsertFromPaste
+:
+case
+EditorInputType
+:
+:
+eInsertFromPasteAsQuotation
 :
 case
 EditorInputType

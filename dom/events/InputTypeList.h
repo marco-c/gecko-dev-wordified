@@ -313,6 +313,13 @@ insertFromPaste
 )
 NS_DEFINE_INPUTTYPE
 (
+InsertFromPasteAsQuotation
+"
+insertFromPasteAsQuotation
+"
+)
+NS_DEFINE_INPUTTYPE
+(
 InsertTranspose
 "
 insertTranspose

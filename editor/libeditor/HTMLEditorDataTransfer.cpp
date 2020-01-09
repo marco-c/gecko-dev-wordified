@@ -10774,7 +10774,7 @@ this
 EditAction
 :
 :
-ePaste
+ePasteAsQuotation
 )
 ;
 if
