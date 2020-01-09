@@ -7332,7 +7332,7 @@ document
 *
 /
 virtual
-nsIContent
+Element
 *
 GetUnfocusedKeyEventTarget
 (

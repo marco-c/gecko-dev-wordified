@@ -4906,7 +4906,7 @@ CompatibilityModeChanged
 ;
 }
 }
-nsIContent
+Element
 *
 nsHTMLDocument
 :

@@ -13384,11 +13384,6 @@ mResolutionUpdated
 uint32_t
 mPresShellId
 ;
-static
-nsIContent
-*
-gKeyDownTarget
-;
 /
 /
 Cached
