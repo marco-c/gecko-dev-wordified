@@ -34,6 +34,12 @@ strict
 "
 ;
 /
+*
+global
+getCDP
+*
+/
+/
 /
 Test
 very
