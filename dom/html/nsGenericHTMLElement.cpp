@@ -10204,10 +10204,6 @@ IsAnyOfHTMLElements
 nsGkAtoms
 :
 :
-details
-nsGkAtoms
-:
-:
 embed
 nsGkAtoms
 :
