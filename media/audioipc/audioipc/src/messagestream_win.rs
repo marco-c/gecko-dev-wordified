@@ -66,7 +66,6 @@ atomic
 {
 AtomicUsize
 Ordering
-ATOMIC_USIZE_INIT
 }
 ;
 use
@@ -767,7 +766,13 @@ PIPE_ID
 :
 AtomicUsize
 =
-ATOMIC_USIZE_INIT
+AtomicUsize
+:
+:
+new
+(
+0
+)
 ;
 fn
 get_pipe_name
