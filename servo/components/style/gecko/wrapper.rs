@@ -651,15 +651,15 @@ structs
 :
 :
 {
-Element
-as
-RawGeckoElement
 nsINode
 as
 RawGeckoNode
 nsXBLBinding
 as
 RawGeckoXBLBinding
+Element
+as
+RawGeckoElement
 }
 ;
 use
@@ -7496,7 +7496,6 @@ FontBaseSize
 CurrentStyle
 =
 >
-{
 (
 style
 .
@@ -7507,7 +7506,6 @@ get_font
 (
 )
 )
-}
 /
 /
 These

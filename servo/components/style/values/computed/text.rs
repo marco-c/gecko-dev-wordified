@@ -273,8 +273,8 @@ specified
 :
 :
 {
-TextEmphasisPosition
-TextDecorationLine
+OverflowWrap
+WordBreak
 }
 ;
 pub
@@ -289,8 +289,8 @@ specified
 :
 :
 {
-OverflowWrap
-WordBreak
+TextDecorationLine
+TextEmphasisPosition
 }
 ;
 /
