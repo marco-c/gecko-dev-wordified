@@ -3470,6 +3470,7 @@ webrender
 .
 debug
 "
+static
 void
 WebRenderDebugPrefChangeCallback
 (
@@ -7283,6 +7284,7 @@ nullptr
 ;
 }
 }
+static
 bool
 IsFeatureSupported
 (
@@ -8953,6 +8955,7 @@ mBackendType
 ;
 }
 ;
+static
 void
 SourceBufferDestroy
 (
@@ -8986,6 +8989,7 @@ mSurface
 ;
 }
 ;
+static
 void
 SourceSurfaceDestroyed
 (
@@ -15818,6 +15822,7 @@ sLayersAccelerationPrefsInitialized
 false
 )
 ;
+static
 void
 VideoDecodingFailedChangedCallback
 (
