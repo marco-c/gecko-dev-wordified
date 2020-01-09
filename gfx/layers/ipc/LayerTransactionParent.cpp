@@ -509,15 +509,6 @@ AsyncCompositionManager
 .
 h
 "
-using
-mozilla
-:
-:
-layout
-:
-:
-RenderFrameParent
-;
 namespace
 mozilla
 {
