@@ -324,8 +324,6 @@ nsMacShellService
 IsDefaultBrowser
 (
 bool
-aStartupCheck
-bool
 aForAllTypes
 bool
 *
