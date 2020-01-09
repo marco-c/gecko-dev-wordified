@@ -363,6 +363,8 @@ signatures
 0
 ]
 .
+type
+.
 clamp
                
 "
@@ -399,6 +401,8 @@ signatures
 [
 0
 ]
+.
+type
 .
 clamp
                
@@ -593,6 +597,8 @@ signatures
 0
 ]
 .
+type
+.
 enforceRange
                
 "
@@ -629,6 +635,8 @@ signatures
 [
 0
 ]
+.
+type
 .
 enforceRange
                
