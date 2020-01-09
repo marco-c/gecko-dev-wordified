@@ -203,8 +203,6 @@ runtime
 ;
 const
 {
-brandName
-:
 name
 channel
 deviceName

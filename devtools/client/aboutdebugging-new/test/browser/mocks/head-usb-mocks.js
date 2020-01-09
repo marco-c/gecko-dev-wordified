@@ -535,7 +535,7 @@ the
 device
 *
 -
-appName
+name
 :
 {
 String
@@ -725,11 +725,11 @@ getDeviceDescription
 {
 return
 {
-brandName
+name
 :
 runtimeInfo
 .
-appName
+name
 |
 |
 "
