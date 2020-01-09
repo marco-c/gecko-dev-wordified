@@ -522,7 +522,7 @@ enabled
 this
 .
 kEnabledPref
-true
+false
 (
 pref
 oldVal
