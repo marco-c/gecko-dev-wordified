@@ -658,6 +658,12 @@ ToCss
 }
 ;
 use
+to_shmem
+:
+:
+impl_trivial_to_shmem
+;
+use
 crate
 :
 :
@@ -708,6 +714,12 @@ typedef
 instead
 .
 malloc_size_of_is_0
+!
+(
+SystemColor
+)
+;
+impl_trivial_to_shmem
 !
 (
 SystemColor

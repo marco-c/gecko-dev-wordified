@@ -683,10 +683,6 @@ extern
 crate
 to_shmem
 ;
-#
-[
-macro_use
-]
 extern
 crate
 to_shmem_derive

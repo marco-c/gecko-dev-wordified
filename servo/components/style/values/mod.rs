@@ -197,6 +197,12 @@ StyleParseErrorKind
 ToCss
 }
 ;
+use
+to_shmem
+:
+:
+impl_trivial_to_shmem
+;
 #
 [
 cfg
@@ -775,6 +781,12 @@ self
 }
 }
 }
+impl_trivial_to_shmem
+!
+(
+Impossible
+)
+;
 impl
 Parse
 for
