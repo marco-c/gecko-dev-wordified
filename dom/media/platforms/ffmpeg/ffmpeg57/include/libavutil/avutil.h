@@ -1245,7 +1245,6 @@ value
 #
 define
 AV_TIME_BASE_Q
-\
 (
 AVRational
 )

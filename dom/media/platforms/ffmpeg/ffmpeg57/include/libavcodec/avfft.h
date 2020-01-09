@@ -242,7 +242,6 @@ if
 1
 perform
 the
-*
 inverse
 *
 /

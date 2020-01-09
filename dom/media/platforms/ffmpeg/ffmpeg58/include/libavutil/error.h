@@ -212,7 +212,6 @@ AVERROR
 (
 e
 )
-\
 (
 -
 (
@@ -235,10 +234,6 @@ error
 code
 to
 return
-/
-/
-/
-<
 from
 library
 functions
@@ -249,7 +244,6 @@ AVUNERROR
 (
 e
 )
-\
 (
 -
 (
@@ -271,10 +265,6 @@ library
 function
 error
 return
-/
-/
-/
-<
 value
 .
 #
@@ -338,7 +328,6 @@ d
 #
 define
 AVERROR_BSF_NOT_FOUND
-\
 FFERRTAG
 (
 0xF8
@@ -363,7 +352,6 @@ found
 #
 define
 AVERROR_BUG
-\
 FFERRTAG
 (
 '
@@ -391,7 +379,6 @@ AVERROR_BUG2
 #
 define
 AVERROR_BUFFER_TOO_SMALL
-\
 FFERRTAG
 (
 '
@@ -417,7 +404,6 @@ small
 #
 define
 AVERROR_DECODER_NOT_FOUND
-\
 FFERRTAG
 (
 0xF8
@@ -441,7 +427,6 @@ found
 #
 define
 AVERROR_DEMUXER_NOT_FOUND
-\
 FFERRTAG
 (
 0xF8
@@ -465,7 +450,6 @@ found
 #
 define
 AVERROR_ENCODER_NOT_FOUND
-\
 FFERRTAG
 (
 0xF8
@@ -513,7 +497,6 @@ file
 #
 define
 AVERROR_EXIT
-\
 FFERRTAG
 (
 '
@@ -540,10 +523,6 @@ requested
 ;
 the
 called
-/
-/
-/
-<
 function
 should
 not
@@ -552,7 +531,6 @@ restarted
 #
 define
 AVERROR_EXTERNAL
-\
 FFERRTAG
 (
 '
@@ -580,7 +558,6 @@ library
 #
 define
 AVERROR_FILTER_NOT_FOUND
-\
 FFERRTAG
 (
 0xF8
@@ -604,7 +581,6 @@ found
 #
 define
 AVERROR_INVALIDDATA
-\
 FFERRTAG
 (
 '
@@ -633,7 +609,6 @@ input
 #
 define
 AVERROR_MUXER_NOT_FOUND
-\
 FFERRTAG
 (
 0xF8
@@ -657,7 +632,6 @@ found
 #
 define
 AVERROR_OPTION_NOT_FOUND
-\
 FFERRTAG
 (
 0xF8
@@ -681,7 +655,6 @@ found
 #
 define
 AVERROR_PATCHWELCOME
-\
 FFERRTAG
 (
 '
@@ -693,7 +666,6 @@ A
 '
 W
 '
-\
 '
 E
 '
@@ -712,7 +684,6 @@ welcome
 #
 define
 AVERROR_PROTOCOL_NOT_FOUND
-\
 FFERRTAG
 (
 0xF8
@@ -736,7 +707,6 @@ found
 #
 define
 AVERROR_STREAM_NOT_FOUND
-\
 FFERRTAG
 (
 0xF8
@@ -781,7 +751,6 @@ and
 with
 a
 modified
-*
 value
 .
 *
@@ -806,7 +775,6 @@ G
 #
 define
 AVERROR_UNKNOWN
-\
 FFERRTAG
 (
 '
@@ -818,7 +786,6 @@ N
 '
 K
 '
-\
 '
 N
 '
@@ -837,7 +804,6 @@ library
 #
 define
 AVERROR_EXPERIMENTAL
-\
 (
 -
 0x2bb2afa8
@@ -853,10 +819,6 @@ flagged
 experimental
 .
 Set
-/
-/
-/
-<
 strict_std_compliance
 if
 you
@@ -869,7 +831,6 @@ it
 #
 define
 AVERROR_INPUT_CHANGED
-\
 (
 -
 0x636e6701
@@ -887,10 +848,6 @@ Reconfiguration
 is
 required
 .
-/
-/
-/
-<
 (
 can
 be
@@ -903,7 +860,6 @@ AVERROR_OUTPUT_CHANGED
 #
 define
 AVERROR_OUTPUT_CHANGED
-\
 (
 -
 0x636e6702
@@ -921,10 +877,6 @@ Reconfiguration
 is
 required
 .
-/
-/
-/
-<
 (
 can
 be
@@ -1285,7 +1237,6 @@ AV_ERROR_MAX_STRING_SIZE
 {
 0
 }
-\
 AV_ERROR_MAX_STRING_SIZE
 errnum
 )

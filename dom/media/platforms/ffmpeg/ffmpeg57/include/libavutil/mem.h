@@ -385,7 +385,6 @@ n
 t
 v
 )
-\
 static
 const
 t
@@ -2647,9 +2646,9 @@ add
 If
 NULL
 the
-*
 space
 of
+*
 the
 new
 added
@@ -2672,10 +2671,10 @@ copy
 in
 the
 new
-*
 allocated
 space
 .
+*
 If
 NULL
 the
@@ -2896,7 +2895,6 @@ size
 of
 the
 overlapping
-*
 window
 )
 must
@@ -3058,7 +3056,6 @@ allocated
 buffer
 overwritten
 with
-*
 pointer
 to
 new
@@ -3089,9 +3086,9 @@ returning
 ptr
 will
 be
-*
 NULL
 and
+*
 *
 size
 0
@@ -3185,7 +3182,6 @@ allocated
 buffer
 overwritten
 with
-*
 pointer
 to
 new
@@ -3216,9 +3212,9 @@ returning
 ptr
 will
 be
-*
 NULL
 and
+*
 *
 size
 0
