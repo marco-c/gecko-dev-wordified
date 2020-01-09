@@ -4211,12 +4211,7 @@ _42
 sourcePoint
 -
 =
-compositor
--
->
-GetCurrentRenderTarget
-(
-)
+previousTarget
 -
 >
 GetOrigin

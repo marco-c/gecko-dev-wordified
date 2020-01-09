@@ -2111,8 +2111,10 @@ screen
 *
 /
 virtual
+already_AddRefed
+<
 CompositingRenderTarget
-*
+>
 GetCurrentRenderTarget
 (
 )
@@ -2179,8 +2181,10 @@ null
 *
 /
 virtual
+already_AddRefed
+<
 CompositingRenderTarget
-*
+>
 GetWindowRenderTarget
 (
 )

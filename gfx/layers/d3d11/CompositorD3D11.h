@@ -362,8 +362,10 @@ aSurface
 override
 ;
 virtual
+already_AddRefed
+<
 CompositingRenderTarget
-*
+>
 GetCurrentRenderTarget
 (
 )
@@ -371,7 +373,10 @@ const
 override
 {
 return
+do_AddRef
+(
 mCurrentRT
+)
 ;
 }
 virtual
