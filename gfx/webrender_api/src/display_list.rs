@@ -8565,10 +8565,10 @@ mix_blend_mode
 MixBlendMode
 filters
 :
-Vec
-<
+&
+[
 FilterOp
->
+]
 raster_space
 :
 RasterSpace
@@ -8608,7 +8608,6 @@ self
 .
 push_iter
 (
-&
 filters
 )
 ;
