@@ -1972,18 +1972,6 @@ BROWSER_SEARCH_TAG
 browser_search
 "
 ;
-private
-static
-final
-int
-MAX_BUNDLE_SIZE
-=
-300000
-;
-/
-/
-300
-kilobytes
 /
 /
 Request
@@ -14510,7 +14498,7 @@ getBundleSizeInBytes
 outState
 )
 >
-MAX_BUNDLE_SIZE
+MAX_BUNDLE_SIZE_BYTES
 )
 {
 outState
