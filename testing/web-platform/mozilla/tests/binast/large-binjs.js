@@ -21,7 +21,7 @@ up
 output
 file
 .
-const
+var
 words
 =
 [
