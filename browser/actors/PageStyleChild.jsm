@@ -213,7 +213,7 @@ selfSheets
 =
 Array
 .
-slice
+from
 (
 frameset
 .
@@ -227,7 +227,7 @@ subSheets
 =
 Array
 .
-map
+from
 (
 frameset
 .
@@ -544,13 +544,17 @@ title
 return
 Array
 .
-some
+from
 (
 frame
 .
 document
 .
 styleSheets
+)
+.
+some
+(
 (
 styleSheet
 )
