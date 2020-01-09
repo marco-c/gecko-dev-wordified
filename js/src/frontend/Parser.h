@@ -3392,7 +3392,7 @@ node
 bool
 noteDestructuredPositionalFormalParameter
 (
-CodeNodeType
+FunctionNodeType
 funNode
 Node
 destruct
@@ -3841,7 +3841,7 @@ FunctionBox
 *
 newFunctionBox
 (
-CodeNodeType
+FunctionNodeType
 funNode
 JSFunction
 *
@@ -6552,7 +6552,7 @@ inline
 bool
 trySyntaxParseInnerFunction
 (
-CodeNodeType
+FunctionNodeType
 *
 funNode
 HandleFunction
@@ -6582,7 +6582,7 @@ inline
 bool
 skipLazyInnerFunction
 (
-CodeNodeType
+FunctionNodeType
 funNode
 uint32_t
 toStringStart
@@ -6636,10 +6636,10 @@ inner
 function
 .
 MOZ_MUST_USE
-CodeNodeType
+FunctionNodeType
 innerFunctionForFunctionBox
 (
-CodeNodeType
+FunctionNodeType
 funNode
 ParseContext
 *
@@ -6689,7 +6689,7 @@ InHandling
 inHandling
 YieldHandling
 yieldHandling
-CodeNodeType
+FunctionNodeType
 *
 funNode
 FunctionSyntaxKind
@@ -6769,7 +6769,7 @@ error
 .
 *
 /
-CodeNodeType
+FunctionNodeType
 functionStmt
 (
 uint32_t
@@ -6787,7 +6787,7 @@ FunctionAsyncKind
 SyncFunction
 )
 ;
-CodeNodeType
+FunctionNodeType
 functionExpr
 (
 uint32_t
@@ -7839,7 +7839,7 @@ bool
 allowCallSyntax
 )
 ;
-CodeNodeType
+FunctionNodeType
 methodDefinition
 (
 uint32_t
@@ -7866,14 +7866,14 @@ YieldHandling
 yieldHandling
 FunctionSyntaxKind
 kind
-CodeNodeType
+FunctionNodeType
 funNode
 )
 ;
-CodeNodeType
+FunctionNodeType
 functionDefinition
 (
-CodeNodeType
+FunctionNodeType
 funNode
 uint32_t
 toStringStart
@@ -8047,7 +8047,7 @@ inline
 bool
 checkExportedNameForFunction
 (
-CodeNodeType
+FunctionNodeType
 funNode
 )
 ;
@@ -8239,7 +8239,7 @@ prevPos
 bool
 notePositionalFormalParameter
 (
-CodeNodeType
+FunctionNodeType
 funNode
 HandlePropertyName
 name
@@ -8562,10 +8562,10 @@ yieldHandling
 )
 ;
 MOZ_MUST_USE
-CodeNodeType
+FunctionNodeType
 innerFunction
 (
-CodeNodeType
+FunctionNodeType
 funNode
 ParseContext
 *
@@ -9269,7 +9269,7 @@ Parse
 a
 module
 .
-CodeNodeType
+ModuleNodeType
 moduleBody
 (
 ModuleSharedContext
@@ -9336,7 +9336,7 @@ inline
 bool
 checkExportedNameForFunction
 (
-CodeNodeType
+FunctionNodeType
 funNode
 )
 ;
@@ -9359,7 +9359,7 @@ nameNode
 bool
 trySyntaxParseInnerFunction
 (
-CodeNodeType
+FunctionNodeType
 *
 funNode
 HandleFunction
@@ -9388,7 +9388,7 @@ newDirectives
 bool
 skipLazyInnerFunction
 (
-CodeNodeType
+FunctionNodeType
 funNode
 uint32_t
 toStringStart
@@ -10123,7 +10123,7 @@ Parse
 a
 module
 .
-CodeNodeType
+ModuleNodeType
 moduleBody
 (
 ModuleSharedContext
@@ -10182,7 +10182,7 @@ node
 bool
 checkExportedNameForFunction
 (
-CodeNodeType
+FunctionNodeType
 funNode
 )
 ;
@@ -10204,7 +10204,7 @@ nameNode
 bool
 trySyntaxParseInnerFunction
 (
-CodeNodeType
+FunctionNodeType
 *
 funNode
 HandleFunction
@@ -10233,7 +10233,7 @@ newDirectives
 bool
 skipLazyInnerFunction
 (
-CodeNodeType
+FunctionNodeType
 funNode
 uint32_t
 toStringStart
@@ -10334,7 +10334,7 @@ lazily
 parsed
 functions
 .
-CodeNodeType
+FunctionNodeType
 standaloneLazyFunction
 (
 HandleFunction
@@ -10365,7 +10365,7 @@ and
 AsyncFunction
 constructors
 .
-CodeNodeType
+FunctionNodeType
 standaloneFunction
 (
 HandleFunction

@@ -3157,7 +3157,7 @@ MOZ_MUST_USE
 bool
 emitFunctionScript
 (
-CodeNode
+FunctionNode
 *
 funNode
 TopLevelFunction
@@ -3829,7 +3829,7 @@ MOZ_MUST_USE
 bool
 emitFunction
 (
-CodeNode
+FunctionNode
 *
 funNode
 bool

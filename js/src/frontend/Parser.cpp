@@ -1760,7 +1760,7 @@ ParseHandler
 :
 newFunctionBox
 (
-CodeNodeType
+FunctionNodeType
 funNode
 JSFunction
 *
@@ -3167,7 +3167,7 @@ Unit
 :
 notePositionalFormalParameter
 (
-CodeNodeType
+FunctionNodeType
 funNode
 HandlePropertyName
 name
@@ -3430,7 +3430,7 @@ ParseHandler
 :
 noteDestructuredPositionalFormalParameter
 (
-CodeNodeType
+FunctionNodeType
 funNode
 Node
 destruct
@@ -9001,7 +9001,7 @@ template
 typename
 Unit
 >
-CodeNode
+ModuleNode
 *
 Parser
 <
@@ -9070,7 +9070,7 @@ return
 nullptr
 ;
 }
-CodeNodeType
+ModuleNodeType
 moduleNode
 =
 handler
@@ -9467,7 +9467,7 @@ Unit
 SyntaxParseHandler
 :
 :
-CodeNodeType
+ModuleNodeType
 Parser
 <
 SyntaxParseHandler
@@ -10830,7 +10830,7 @@ template
 typename
 Unit
 >
-CodeNode
+FunctionNode
 *
 Parser
 <
@@ -11069,7 +11069,7 @@ ungetToken
 )
 ;
 }
-CodeNodeType
+FunctionNodeType
 funNode
 =
 handler
@@ -11340,7 +11340,7 @@ node
 >
 as
 <
-CodeNode
+FunctionNode
 >
 (
 )
@@ -13656,7 +13656,7 @@ YieldHandling
 yieldHandling
 FunctionSyntaxKind
 kind
-CodeNodeType
+FunctionNodeType
 funNode
 )
 {
@@ -15268,7 +15268,7 @@ Unit
 :
 skipLazyInnerFunction
 (
-CodeNode
+FunctionNode
 *
 funNode
 uint32_t
@@ -15517,7 +15517,7 @@ Unit
 :
 skipLazyInnerFunction
 (
-CodeNodeType
+FunctionNodeType
 funNode
 uint32_t
 toStringStart
@@ -15559,7 +15559,7 @@ Unit
 :
 skipLazyInnerFunction
 (
-CodeNodeType
+FunctionNodeType
 funNode
 uint32_t
 toStringStart
@@ -15958,7 +15958,7 @@ typename
 ParseHandler
 :
 :
-CodeNodeType
+FunctionNodeType
 GeneralParser
 <
 ParseHandler
@@ -15968,7 +15968,7 @@ Unit
 :
 functionDefinition
 (
-CodeNodeType
+FunctionNodeType
 funNode
 uint32_t
 toStringStart
@@ -16418,7 +16418,7 @@ Unit
 :
 trySyntaxParseInnerFunction
 (
-CodeNode
+FunctionNode
 *
 *
 funNode
@@ -16941,7 +16941,7 @@ the
 full
 parse
 .
-CodeNodeType
+FunctionNodeType
 innerFunc
 =
 innerFunction
@@ -16995,7 +16995,7 @@ Unit
 :
 trySyntaxParseInnerFunction
 (
-CodeNodeType
+FunctionNodeType
 *
 funNode
 HandleFunction
@@ -17036,7 +17036,7 @@ the
 inner
 function
 .
-CodeNodeType
+FunctionNodeType
 innerFunc
 =
 innerFunction
@@ -17093,7 +17093,7 @@ Unit
 :
 trySyntaxParseInnerFunction
 (
-CodeNodeType
+FunctionNodeType
 *
 funNode
 HandleFunction
@@ -17152,7 +17152,7 @@ typename
 ParseHandler
 :
 :
-CodeNodeType
+FunctionNodeType
 GeneralParser
 <
 ParseHandler
@@ -17162,7 +17162,7 @@ Unit
 :
 innerFunctionForFunctionBox
 (
-CodeNodeType
+FunctionNodeType
 funNode
 ParseContext
 *
@@ -17323,7 +17323,7 @@ typename
 ParseHandler
 :
 :
-CodeNodeType
+FunctionNodeType
 GeneralParser
 <
 ParseHandler
@@ -17333,7 +17333,7 @@ Unit
 :
 innerFunction
 (
-CodeNodeType
+FunctionNodeType
 funNode
 ParseContext
 *
@@ -17458,7 +17458,7 @@ outerpc
 kind
 )
 ;
-CodeNodeType
+FunctionNodeType
 innerFunc
 =
 innerFunctionForFunctionBox
@@ -17630,7 +17630,7 @@ template
 typename
 Unit
 >
-CodeNode
+FunctionNode
 *
 Parser
 <
@@ -17658,7 +17658,7 @@ MOZ_ASSERT
 checkOptionsCalled
 )
 ;
-CodeNodeType
+FunctionNodeType
 funNode
 =
 handler
@@ -18039,7 +18039,7 @@ node
 >
 as
 <
-CodeNode
+FunctionNode
 >
 (
 )
@@ -18069,7 +18069,7 @@ InHandling
 inHandling
 YieldHandling
 yieldHandling
-CodeNodeType
+FunctionNodeType
 *
 funNode
 FunctionSyntaxKind
@@ -19172,7 +19172,7 @@ typename
 ParseHandler
 :
 :
-CodeNodeType
+FunctionNodeType
 GeneralParser
 <
 ParseHandler
@@ -19688,7 +19688,7 @@ null
 )
 ;
 }
-CodeNodeType
+FunctionNodeType
 funNode
 =
 handler
@@ -19844,7 +19844,7 @@ typename
 ParseHandler
 :
 :
-CodeNodeType
+FunctionNodeType
 GeneralParser
 <
 ParseHandler
@@ -20006,7 +20006,7 @@ ungetToken
 )
 ;
 }
-CodeNodeType
+FunctionNodeType
 funNode
 =
 handler
@@ -29223,7 +29223,7 @@ Unit
 :
 checkExportedNameForFunction
 (
-CodeNode
+FunctionNode
 *
 funNode
 )
@@ -29266,7 +29266,7 @@ Unit
 :
 checkExportedNameForFunction
 (
-CodeNodeType
+FunctionNodeType
 funNode
 )
 {
@@ -29299,7 +29299,7 @@ Unit
 :
 checkExportedNameForFunction
 (
-CodeNodeType
+FunctionNodeType
 funNode
 )
 {
@@ -30939,7 +30939,7 @@ checkExportedNameForFunction
 (
 handler
 .
-asCode
+asFunction
 (
 kid
 )
@@ -41174,7 +41174,7 @@ parsing
 finishes
 below
 .
-CodeNodeType
+FunctionNodeType
 funNode
 =
 methodDefinition
@@ -46821,7 +46821,7 @@ ungetToken
 ;
 }
 }
-CodeNodeType
+FunctionNodeType
 funNode
 =
 handler
@@ -56610,7 +56610,7 @@ null
 }
 }
 }
-CodeNodeType
+FunctionNodeType
 funNode
 =
 methodDefinition
@@ -56813,7 +56813,7 @@ typename
 ParseHandler
 :
 :
-CodeNodeType
+FunctionNodeType
 GeneralParser
 <
 ParseHandler
@@ -57016,7 +57016,7 @@ GetYieldHandling
 generatorKind
 )
 ;
-CodeNodeType
+FunctionNodeType
 funNode
 =
 handler

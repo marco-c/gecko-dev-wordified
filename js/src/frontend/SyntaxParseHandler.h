@@ -2043,7 +2043,7 @@ ListNodeType
 literal
 Node
 key
-CodeNodeType
+FunctionNodeType
 funNode
 AccessorType
 atype
@@ -2061,7 +2061,7 @@ ListNodeType
 memberList
 Node
 key
-CodeNodeType
+FunctionNodeType
 funNode
 AccessorType
 atype
@@ -2618,7 +2618,7 @@ MOZ_MUST_USE
 bool
 setLastFunctionFormalParameterDefault
 (
-CodeNodeType
+FunctionNodeType
 funNode
 Node
 defaultValue
@@ -2628,7 +2628,7 @@ return
 true
 ;
 }
-CodeNodeType
+FunctionNodeType
 newFunctionStatement
 (
 const
@@ -2641,7 +2641,7 @@ return
 NodeFunctionStatement
 ;
 }
-CodeNodeType
+FunctionNodeType
 newFunctionExpression
 (
 const
@@ -2691,7 +2691,7 @@ return
 NodeFunctionExpression
 ;
 }
-CodeNodeType
+FunctionNodeType
 newArrowFunction
 (
 const
@@ -2707,7 +2707,7 @@ NodeFunctionArrow
 void
 setFunctionFormalParametersAndBody
 (
-CodeNodeType
+FunctionNodeType
 funNode
 ListNodeType
 paramsBody
@@ -2717,7 +2717,7 @@ paramsBody
 void
 setFunctionBody
 (
-CodeNodeType
+FunctionNodeType
 funNode
 LexicalScopeNodeType
 body
@@ -2727,7 +2727,7 @@ body
 void
 setFunctionBox
 (
-CodeNodeType
+FunctionNodeType
 funNode
 FunctionBox
 *
@@ -2738,7 +2738,7 @@ funbox
 void
 addFunctionFormalParameter
 (
-CodeNodeType
+FunctionNodeType
 funNode
 Node
 argpn

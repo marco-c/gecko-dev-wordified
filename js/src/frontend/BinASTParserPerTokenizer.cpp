@@ -1058,7 +1058,7 @@ JS
 :
 Result
 <
-ParseNode
+FunctionNode
 *
 >
 BinASTParserPerTokenizer
@@ -1945,7 +1945,7 @@ JS
 :
 Result
 <
-CodeNode
+FunctionNode
 *
 >
 BinASTParserPerTokenizer
@@ -2053,7 +2053,7 @@ JS
 :
 Result
 <
-ParseNode
+FunctionNode
 *
 >
 BinASTParserPerTokenizer
