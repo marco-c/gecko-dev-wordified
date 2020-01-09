@@ -8611,7 +8611,7 @@ true
 elif
 defined
 (
-XP_LINUX
+XP_UNIX
 )
 &
 &
