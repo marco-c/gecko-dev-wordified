@@ -537,12 +537,6 @@ mLog
 tmp
 ;
 }
-mCanary
-.
-Check
-(
-)
-;
 return
 tmp
 ;
