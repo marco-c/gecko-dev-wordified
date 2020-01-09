@@ -5229,11 +5229,13 @@ true
 ifdef
 DEBUG
 void
-dump
+dumpImpl
 (
 GenericPrinter
 &
 out
+int
+indent
 )
 ;
 #
@@ -5436,7 +5438,7 @@ true
 ifdef
 DEBUG
 void
-dump
+dumpImpl
 (
 GenericPrinter
 &
@@ -5699,7 +5701,7 @@ true
 ifdef
 DEBUG
 void
-dump
+dumpImpl
 (
 GenericPrinter
 &
@@ -6177,7 +6179,7 @@ true
 ifdef
 DEBUG
 void
-dump
+dumpImpl
 (
 GenericPrinter
 &
@@ -6821,7 +6823,7 @@ true
 ifdef
 DEBUG
 void
-dump
+dumpImpl
 (
 GenericPrinter
 &
@@ -7460,7 +7462,7 @@ true
 ifdef
 DEBUG
 void
-dump
+dumpImpl
 (
 GenericPrinter
 &
@@ -9075,7 +9077,7 @@ true
 ifdef
 DEBUG
 void
-dump
+dumpImpl
 (
 GenericPrinter
 &
@@ -9304,7 +9306,7 @@ body_
 ifdef
 DEBUG
 void
-dump
+dumpImpl
 (
 GenericPrinter
 &
@@ -9484,7 +9486,7 @@ true
 ifdef
 DEBUG
 void
-dump
+dumpImpl
 (
 GenericPrinter
 &
@@ -9649,7 +9651,7 @@ true
 ifdef
 DEBUG
 void
-dump
+dumpImpl
 (
 GenericPrinter
 &
@@ -9802,7 +9804,7 @@ body
 ifdef
 DEBUG
 void
-dump
+dumpImpl
 (
 GenericPrinter
 &
@@ -10336,7 +10338,7 @@ label_
 ifdef
 DEBUG
 void
-dump
+dumpImpl
 (
 GenericPrinter
 &
@@ -11387,7 +11389,7 @@ objbox_
 ifdef
 DEBUG
 void
-dump
+dumpImpl
 (
 GenericPrinter
 &
