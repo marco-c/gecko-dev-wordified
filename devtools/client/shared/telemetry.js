@@ -4811,11 +4811,6 @@ SCRATCHPAD
 :
 case
 "
-SHADEREDITOR
-"
-:
-case
-"
 STORAGE
 "
 :
