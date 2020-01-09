@@ -1592,6 +1592,7 @@ actor
 >
 Init
 (
+aName
 this
 )
 ;
