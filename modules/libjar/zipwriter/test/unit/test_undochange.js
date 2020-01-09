@@ -105,7 +105,7 @@ PR_TRUNCATE
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -121,7 +121,7 @@ i
 +
 )
 {
-var
+let
 source
 =
 do_get_file
@@ -154,7 +154,7 @@ false
 }
 try
 {
-var
+let
 source
 =
 do_get_file
@@ -237,7 +237,7 @@ empty
 zip
 for
 (
-var
+let
 i
 =
 0

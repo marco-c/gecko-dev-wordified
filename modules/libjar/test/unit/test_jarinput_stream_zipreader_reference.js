@@ -262,9 +262,6 @@ check_archive_crc
 )
 )
 ;
-var
-entries
-=
 zipreader
 .
 findEntries

@@ -303,9 +303,6 @@ read16
 )
 )
 ;
-var
-file
-=
 bis
 .
 readBytes
@@ -501,7 +498,6 @@ ZipReader
 tmpFile
 )
 ;
-var
 stream
 =
 Cc
@@ -759,7 +755,6 @@ ret
 .
 offset
 ;
-var
 result
 =
 bis
