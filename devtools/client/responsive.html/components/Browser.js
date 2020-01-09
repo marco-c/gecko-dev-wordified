@@ -616,6 +616,9 @@ props
 .
 onBrowserMounted
 (
+this
+.
+browser
 )
 ;
 /
