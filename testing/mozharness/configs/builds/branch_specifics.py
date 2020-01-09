@@ -243,12 +243,6 @@ release
 '
 :
 {
-        
-'
-branch_uses_per_checkin_strategy
-'
-:
-True
     
 }
     
@@ -259,12 +253,6 @@ esr60
 '
 :
 {
-        
-'
-branch_uses_per_checkin_strategy
-'
-:
-True
     
 }
     
@@ -275,12 +263,6 @@ beta
 '
 :
 {
-        
-'
-branch_uses_per_checkin_strategy
-'
-:
-True
     
 }
     
@@ -322,12 +304,6 @@ gum
 '
 :
 {
-        
-'
-branch_uses_per_checkin_strategy
-'
-:
-True
     
 }
     
@@ -361,16 +337,6 @@ cypress
 '
 :
 {
-        
-#
-bug
-1164935
-        
-'
-branch_uses_per_checkin_strategy
-'
-:
-True
     
 }
     

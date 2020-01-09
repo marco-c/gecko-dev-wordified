@@ -7490,31 +7490,11 @@ pgo
         
 2
 )
-either
-:
-            
-a
-)
 must
 be
 a
 nightly
 build
-            
-b
-)
-must
-be
-on
-a
-branch
-that
-runs
-pgo
-if
-it
-can
-everytime
         
 "
 "
@@ -7540,15 +7520,6 @@ pgo_platforms
 :
             
 if
-c
-.
-get
-(
-'
-branch_uses_per_checkin_strategy
-'
-)
-or
 self
 .
 query_is_nightly
