@@ -6896,7 +6896,7 @@ mIndexedDB
 mIndexedDB
 -
 >
-DisconnectFromGlobal
+DisconnectFromWindow
 (
 this
 )
@@ -8431,7 +8431,7 @@ tmp
 mIndexedDB
 -
 >
-DisconnectFromGlobal
+DisconnectFromWindow
 (
 tmp
 )

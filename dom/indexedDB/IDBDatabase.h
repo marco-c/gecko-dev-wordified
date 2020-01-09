@@ -158,9 +158,7 @@ mozilla
 /
 dom
 /
-quota
-/
-PersistenceType
+IDBWrapperCache
 .
 h
 "
@@ -169,7 +167,11 @@ include
 "
 mozilla
 /
-DOMEventTargetHelper
+dom
+/
+quota
+/
+PersistenceType
 .
 h
 "
@@ -212,7 +214,7 @@ class
 nsIEventTarget
 ;
 class
-nsIGlobalObject
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -285,7 +287,7 @@ IDBDatabase
 final
 :
 public
-DOMEventTargetHelper
+IDBWrapperCache
 {
 typedef
 mozilla
@@ -821,6 +823,13 @@ IDBMutableFile
 aMutableFile
 )
 ;
+nsPIDOMWindowInner
+*
+GetParentObject
+(
+)
+const
+;
 already_AddRefed
 <
 DOMStringList
@@ -1060,7 +1069,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 IDBDatabase
-DOMEventTargetHelper
+IDBWrapperCache
 )
 /
 /

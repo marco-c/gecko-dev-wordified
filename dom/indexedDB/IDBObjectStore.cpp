@@ -10402,7 +10402,7 @@ aGivenProto
 )
 ;
 }
-nsIGlobalObject
+nsPIDOMWindowInner
 *
 IDBObjectStore
 :
