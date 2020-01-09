@@ -935,8 +935,6 @@ json
 )
 ;
 }
-else
-{
 object
 [
 PARAMS_POST_PAYLOAD
@@ -966,7 +964,6 @@ replace
 }
 }
 ;
-}
 }
 else
 {
