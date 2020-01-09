@@ -1,3 +1,11 @@
+/
+*
+globals
+state
+:
+true
+*
+/
 is
 (
 document
