@@ -1533,16 +1533,10 @@ AttestationConveyance
 AttestationConveyancePreference
 attestation
 =
-static_cast
-<
-AttestationConveyancePreference
->
-(
 extra
 .
 attestationConveyancePreference
 (
-)
 )
 ;
 DWORD
