@@ -3398,6 +3398,9 @@ TD_INT16
 TD_INT32
 '
 '
+TD_UINT8
+'
+'
 TD_UINT16
 '
 '
