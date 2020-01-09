@@ -3607,9 +3607,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatusCode
 )
@@ -3658,7 +3655,6 @@ listener
 OnStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 ;
@@ -7588,9 +7584,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatus
 )

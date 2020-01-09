@@ -172,9 +172,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-context
 nsresult
 status
 )
@@ -271,7 +268,6 @@ mListener
 OnStopRequest
 (
 request
-context
 status
 )
 ;
@@ -285,7 +281,6 @@ mObserver
 OnStopRequest
 (
 request
-context
 status
 )
 ;

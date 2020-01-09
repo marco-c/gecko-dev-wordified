@@ -223,9 +223,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatus
 )
@@ -250,7 +247,6 @@ mDelegate
 OnStopRequest
 (
 aRequest
-aContext
 aStatus
 )
 ;

@@ -50147,9 +50147,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 nsresult
 status
 )
@@ -53018,7 +53015,6 @@ mListener
 OnStopRequest
 (
 this
-nullptr
 aStatus
 )
 ;

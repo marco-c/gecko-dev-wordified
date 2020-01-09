@@ -7670,9 +7670,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 status
 )
@@ -7716,7 +7713,6 @@ mObserver
 OnStopRequest
 (
 aRequest
-aContext
 status
 )
 ;

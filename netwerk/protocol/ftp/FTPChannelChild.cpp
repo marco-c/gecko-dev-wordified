@@ -3255,7 +3255,6 @@ mListener
 OnStopRequest
 (
 this
-nullptr
 aChannelStatus
 )
 ;
@@ -3533,7 +3532,6 @@ mListener
 OnStopRequest
 (
 this
-nullptr
 statusCode
 )
 ;

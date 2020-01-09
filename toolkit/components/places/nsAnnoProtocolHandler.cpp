@@ -1377,7 +1377,6 @@ mListener
 OnStopRequest
 (
 mChannel
-nullptr
 rv
 )
 ;

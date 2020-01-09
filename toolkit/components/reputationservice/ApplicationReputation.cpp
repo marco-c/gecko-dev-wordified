@@ -12373,9 +12373,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aResult
 )
@@ -12473,7 +12470,7 @@ rv
 OnStopRequestInternal
 (
 aRequest
-aContext
+nullptr
 aResult
 verdict
 reason

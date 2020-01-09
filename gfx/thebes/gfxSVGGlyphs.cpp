@@ -2440,12 +2440,6 @@ listener
 OnStopRequest
 (
 channel
-nullptr
-/
-*
-aContext
-*
-/
 status
 )
 ;

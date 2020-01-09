@@ -2448,7 +2448,6 @@ mEventQ
 OnStopRequest
 (
 mChannel
-nullptr
 status
 )
 ;
@@ -3173,9 +3172,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatusCode
 )
@@ -3241,7 +3237,6 @@ mDivertToListener
 OnStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 ;
@@ -5694,7 +5689,6 @@ mDivertToListener
 OnStopRequest
 (
 mChannel
-nullptr
 aErrorCode
 )
 ;

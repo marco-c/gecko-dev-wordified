@@ -772,9 +772,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-context
 nsresult
 aStatus
 )
@@ -1310,9 +1307,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-context
 nsresult
 code
 )
@@ -1326,7 +1320,6 @@ PSMContentStreamListener
 OnStopRequest
 (
 request
-context
 code
 )
 ;
@@ -1708,9 +1701,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-context
 nsresult
 aStatus
 )

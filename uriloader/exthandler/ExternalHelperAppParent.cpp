@@ -987,7 +987,6 @@ mListener
 OnStopRequest
 (
 this
-nullptr
 (
 NS_SUCCEEDED
 (
@@ -1187,9 +1186,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctx
 nsresult
 status
 )
@@ -1208,7 +1204,6 @@ mListener
 OnStopRequest
 (
 request
-ctx
 status
 )
 ;

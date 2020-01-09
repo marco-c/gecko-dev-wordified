@@ -7152,9 +7152,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aCtxt
 nsresult
 aStatus
 )
@@ -7203,7 +7200,6 @@ mOrigStreamListener
 OnStopRequest
 (
 request
-aCtxt
 aStatus
 )
 ;

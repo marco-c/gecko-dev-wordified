@@ -1315,7 +1315,6 @@ listener
 OnStopRequest
 (
 parserChannel
-nullptr
 status
 )
 ;
