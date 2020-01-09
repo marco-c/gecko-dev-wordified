@@ -108,19 +108,6 @@ js
 "
 ;
 import
-PaymentDialog
-from
-"
-.
-/
-payment
--
-dialog
-.
-js
-"
-;
-import
 PaymentRequestPage
 from
 "
@@ -1643,7 +1630,7 @@ errorText
 let
 span
 =
-PaymentDialog
+paymentRequest
 .
 maybeCreateFieldErrorElement
 (
@@ -2028,7 +2015,7 @@ container
 let
 errorTextSpan
 =
-PaymentDialog
+paymentRequest
 .
 maybeCreateFieldErrorElement
 (
