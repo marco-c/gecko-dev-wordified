@@ -70,17 +70,6 @@ debug_build
 True
     
 #
-decides
-whether
-we
-want
-to
-use
-moz_sign_cmd
-in
-env
-    
-#
 allows
 triggering
 of

@@ -50,17 +50,6 @@ application
 ini
 '
     
-#
-decides
-whether
-we
-want
-to
-use
-moz_sign_cmd
-in
-env
-    
 '
 vcs_share_base
 '

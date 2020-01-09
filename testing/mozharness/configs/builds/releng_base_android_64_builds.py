@@ -147,17 +147,6 @@ max_build_output_timeout
 :
 0
     
-#
-decides
-whether
-we
-want
-to
-use
-moz_sign_cmd
-in
-env
-    
 '
 secret_files
 '

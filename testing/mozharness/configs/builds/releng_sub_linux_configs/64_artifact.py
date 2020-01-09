@@ -46,17 +46,6 @@ application
 ini
 '
     
-#
-decides
-whether
-we
-want
-to
-use
-moz_sign_cmd
-in
-env
-    
 '
 secret_files
 '
@@ -202,21 +191,6 @@ hg
 -
 shared
 '
-    
-#
-allows
-triggering
-of
-dependent
-jobs
-when
--
--
-artifact
-try
-syntax
-is
-detected
     
 #
 #
