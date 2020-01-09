@@ -260,7 +260,9 @@ test_listJSONlocaleSwitch
 let
 promise
 =
-waitForSearchNotification
+SearchTestUtils
+.
+promiseSearchNotification
 (
 "
 reinit

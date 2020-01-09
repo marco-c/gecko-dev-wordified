@@ -234,7 +234,9 @@ cache
 let
 unInitPromise
 =
-waitForSearchNotification
+SearchTestUtils
+.
+promiseSearchNotification
 (
 "
 uninit
@@ -326,7 +328,9 @@ skip_writing_cache_without_engines
 let
 unInitPromise
 =
-waitForSearchNotification
+SearchTestUtils
+.
+promiseSearchNotification
 (
 "
 uninit
@@ -459,7 +463,9 @@ task
 .
 unInitPromise
 =
-waitForSearchNotification
+SearchTestUtils
+.
+promiseSearchNotification
 (
 "
 uninit
