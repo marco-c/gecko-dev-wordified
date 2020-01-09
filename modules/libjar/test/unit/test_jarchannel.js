@@ -305,7 +305,6 @@ ex
 onStartRequest
 (
 request
-ctx
 )
 {
 this
@@ -318,7 +317,6 @@ true
 onStopRequest
 (
 request
-ctx
 status
 )
 {

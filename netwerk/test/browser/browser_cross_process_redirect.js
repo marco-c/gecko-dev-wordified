@@ -874,7 +874,6 @@ onStartRequest
 function
 (
 aRequest
-aContext
 )
 {
 info
@@ -952,7 +951,6 @@ onStopRequest
 function
 (
 aRequest
-aContext
 aStatusCode
 )
 {

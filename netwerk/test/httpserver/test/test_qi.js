@@ -369,7 +369,6 @@ function
 start_test
 (
 ch
-cx
 )
 {
 Assert
@@ -401,7 +400,6 @@ function
 start_sjs_qi
 (
 ch
-cx
 )
 {
 Assert

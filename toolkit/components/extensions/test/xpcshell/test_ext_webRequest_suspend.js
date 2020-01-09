@@ -1277,7 +1277,6 @@ nsIStreamListener
 onStartRequest
 (
 request
-context
 )
 {
 request

@@ -169,7 +169,6 @@ onStartRequest
 function
 (
 request
-ctx
 )
 {
 this
@@ -340,7 +339,6 @@ onStopRequest
 function
 (
 request
-ctx
 status
 )
 {

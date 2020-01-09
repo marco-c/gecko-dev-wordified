@@ -13618,7 +13618,6 @@ nsIStreamListener
 onStartRequest
 (
 aRequest
-aContext
 )
 {
 if
@@ -13847,7 +13846,6 @@ nsIStreamListener
 onStopRequest
 (
 aRequest
-aContext
 aStatus
 )
 {

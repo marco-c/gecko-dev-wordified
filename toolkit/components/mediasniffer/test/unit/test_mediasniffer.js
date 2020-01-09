@@ -434,7 +434,6 @@ listener
 onStartRequest
 (
 request
-context
 )
 {
 Assert
@@ -535,7 +534,6 @@ ex
 onStopRequest
 (
 request
-context
 status
 )
 {

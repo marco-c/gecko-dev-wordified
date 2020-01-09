@@ -454,7 +454,6 @@ onStartRequest
 function
 (
 request
-context
 )
 {
 var
@@ -521,7 +520,6 @@ onStopRequest
 function
 (
 request
-context
 status
 )
 {

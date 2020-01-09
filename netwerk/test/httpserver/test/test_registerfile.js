@@ -152,7 +152,6 @@ function
 onStart
 (
 ch
-cx
 )
 {
 Assert
@@ -170,7 +169,6 @@ function
 onStop
 (
 ch
-cx
 status
 data
 )

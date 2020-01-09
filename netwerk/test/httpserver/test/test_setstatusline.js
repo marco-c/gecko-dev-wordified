@@ -541,7 +541,6 @@ function
 startNoSetStatusLine
 (
 ch
-cx
 )
 {
 checkStatusLine
@@ -560,7 +559,6 @@ function
 stop
 (
 ch
-cx
 status
 data
 )
@@ -609,7 +607,6 @@ function
 startHttp1_0
 (
 ch
-cx
 )
 {
 checkStatusLine
@@ -655,7 +652,6 @@ function
 startHttp1_1
 (
 ch
-cx
 )
 {
 checkStatusLine
@@ -723,7 +719,6 @@ function
 startPassedTrue
 (
 ch
-cx
 )
 {
 checkStatusLine
@@ -886,7 +881,6 @@ function
 startCrazy
 (
 ch
-cx
 )
 {
 checkStatusLine
@@ -928,7 +922,6 @@ function
 startNullVersion
 (
 ch
-cx
 )
 {
 /

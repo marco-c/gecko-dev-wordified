@@ -13073,7 +13073,6 @@ onStartRequest
 function
 (
 aRequest
-aContext
 )
 {
 backgroundFileSaver
@@ -13081,7 +13080,6 @@ backgroundFileSaver
 onStartRequest
 (
 aRequest
-aContext
 )
 ;
 /
@@ -13615,7 +13613,6 @@ copySaver
 onStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 {
@@ -13626,7 +13623,6 @@ backgroundFileSaver
 onStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 ;

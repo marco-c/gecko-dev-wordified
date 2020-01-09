@@ -281,7 +281,6 @@ function
 ensureEmpty
 (
 ch
-cx
 )
 {
 Assert

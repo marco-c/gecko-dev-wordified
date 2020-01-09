@@ -603,7 +603,6 @@ function
 testOnStartRequest
 (
 request
-ctx
 )
 {
 Assert
@@ -709,7 +708,6 @@ function
 testOnStopRequest
 (
 request
-ctx
 status
 )
 {
@@ -791,7 +789,6 @@ function
 testOnStartRequest
 (
 request
-ctx
 )
 {
 Assert
@@ -846,7 +843,6 @@ function
 testOnStopRequest
 (
 request
-ctx
 status
 )
 {
@@ -2007,7 +2003,6 @@ function
 pushAPIOnStart
 (
 request
-ctx
 )
 {
 dump
@@ -2059,7 +2054,6 @@ function
 test_onStopR
 (
 request
-ctx
 status
 )
 {

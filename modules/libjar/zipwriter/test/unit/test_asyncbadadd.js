@@ -72,14 +72,12 @@ observer
 onStartRequest
 (
 request
-context
 )
 {
 }
 onStopRequest
 (
 request
-context
 status
 )
 {

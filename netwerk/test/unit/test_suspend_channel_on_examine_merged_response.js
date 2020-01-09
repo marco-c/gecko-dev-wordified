@@ -317,7 +317,6 @@ onStartRequest
 function
 (
 request
-ctx
 )
 {
 buffer
@@ -356,7 +355,6 @@ onStopRequest
 function
 (
 request
-ctx
 status
 )
 {
