@@ -453,7 +453,7 @@ message
 type
 :
 "
-MemberExpression
+ExpressionStatement
 "
 }
 ]
@@ -526,16 +526,6 @@ quux
 slice
 (
 1
-)
-"
-"
-Int64
-.
-join
-(
--
-0x80000001
-0
 )
 "
 ]
