@@ -531,10 +531,6 @@ mEffectOptions
 (
 aOptions
 )
-mInEffectOnLastAnimationTimingUpdate
-(
-false
-)
 mCumulativeChangeHint
 (
 nsChangeHint
