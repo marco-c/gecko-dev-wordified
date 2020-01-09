@@ -1227,6 +1227,14 @@ aURI
 )
 ;
 channel
+-
+>
+SetLoadInfo
+(
+aLoadInfo
+)
+;
+channel
 .
 forget
 (
