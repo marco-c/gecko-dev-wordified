@@ -2250,6 +2250,15 @@ ndk_includes
 "
 ]
             
+api_level
+=
+cfg
+[
+"
+api_level
+"
+]
+            
 android_flags
 =
 [
@@ -2293,8 +2302,11 @@ android_flags
 -
 D__ANDROID_API__
 =
-16
+%
+s
 "
+%
+api_level
 ]
             
 rt_c_flags
@@ -2567,6 +2579,17 @@ target
 -
 DRUNTIMES_
 %
+s_COMPILER_RT_BUILD_LIBFUZZER
+=
+OFF
+"
+%
+target
+                
+"
+-
+DRUNTIMES_
+%
 s_COMPILER_RT_INCLUDE_TESTS
 =
 OFF
@@ -2602,10 +2625,14 @@ DRUNTIMES_
 %
 s_ANDROID_NATIVE_API_LEVEL
 =
-16
+%
+s
 "
 %
+(
 target
+api_level
+)
             
 ]
     
@@ -5474,6 +5501,9 @@ ndk_sysroot
 "
 "
 ndk_includes
+"
+"
+api_level
 "
 )
 :
