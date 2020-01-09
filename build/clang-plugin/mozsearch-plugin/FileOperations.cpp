@@ -507,6 +507,8 @@ c_str
 _O_RDWR
 |
 _O_CREAT
+|
+_O_BINARY
 0666
 )
 ;
