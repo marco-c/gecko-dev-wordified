@@ -489,6 +489,8 @@ aStream
 TrackID
 aTrackID
 StreamTime
+aEndOfAppendedData
+StreamTime
 aDesiredTime
 const
 PrincipalHandle
@@ -1035,6 +1037,8 @@ SourceMediaStream
 aStream
 TrackID
 aTrackID
+StreamTime
+aEndOfAppendedData
 StreamTime
 aDesiredTime
 const
@@ -2047,6 +2051,8 @@ aStream
 TrackID
 aTrackID
 StreamTime
+aEndOfAppendedData
+StreamTime
 aDesiredTime
 const
 PrincipalHandle
@@ -2055,6 +2061,18 @@ aPrincipalHandle
 )
 override
 {
+MOZ_ASSERT_UNREACHABLE
+(
+"
+Should
+never
+have
+to
+append
+silence
+"
+)
+;
 }
 dom
 :

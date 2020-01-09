@@ -605,6 +605,8 @@ aStream
 TrackID
 aTrackID
 StreamTime
+aEndOfAppendedData
+StreamTime
 aDesiredTime
 const
 PrincipalHandle

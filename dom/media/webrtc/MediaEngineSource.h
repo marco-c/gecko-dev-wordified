@@ -1611,7 +1611,7 @@ track
 *
 Driven
 by
-MediaStreamListener
+MediaStreamTrackListener
 :
 :
 NotifyPull
@@ -1639,6 +1639,8 @@ SourceMediaStream
 aStream
 TrackID
 aTrackID
+StreamTime
+aEndOfAppendedData
 StreamTime
 aDesiredTime
 const
