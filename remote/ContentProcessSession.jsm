@@ -176,8 +176,6 @@ addMessageListener
 (
 "
 remote
--
-protocol
 :
 request
 "
@@ -192,8 +190,6 @@ addMessageListener
 (
 "
 remote
--
-protocol
 :
 destroy
 "
@@ -254,8 +250,6 @@ removeMessageListener
 (
 "
 remote
--
-protocol
 :
 request
 "
@@ -270,8 +264,6 @@ removeMessageListener
 (
 "
 remote
--
-protocol
 :
 destroy
 "
@@ -393,8 +385,6 @@ name
 case
 "
 remote
--
-protocol
 :
 request
 "
@@ -482,8 +472,6 @@ sendAsyncMessage
 (
 "
 remote
--
-protocol
 :
 result
 "
@@ -508,8 +496,6 @@ sendAsyncMessage
 (
 "
 remote
--
-protocol
 :
 error
 "
@@ -561,8 +547,6 @@ break
 case
 "
 remote
--
-protocol
 :
 destroy
 "
@@ -619,8 +603,6 @@ sendAsyncMessage
 (
 "
 remote
--
-protocol
 :
 event
 "
