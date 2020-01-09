@@ -596,8 +596,8 @@ TestSuite
 oktests
 errortests
 =
-0
-0
+False
+False
     
 for
 arg
@@ -650,7 +650,7 @@ arg
                 
 errortests
 =
-1
+True
                 
 continue
             
@@ -688,7 +688,7 @@ arg
                 
 oktests
 =
-1
+True
                 
 continue
             

@@ -1829,7 +1829,7 @@ self
 .
 array
 =
-0
+False
 #
 bool
         
@@ -1837,7 +1837,7 @@ self
 .
 nullable
 =
-0
+False
 #
 bool
         
@@ -1845,7 +1845,7 @@ self
 .
 uniqueptr
 =
-0
+False
 #
 bool
     
