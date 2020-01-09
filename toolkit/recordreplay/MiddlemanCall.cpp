@@ -1783,7 +1783,7 @@ ref
 ;
 }
 bool
-Middleman_SystemInput
+MM_SystemInput
 (
 MiddlemanCallContext
 &
@@ -2156,7 +2156,7 @@ aFromRecording
 ;
 }
 void
-Middleman_SystemOutput
+MM_SystemOutput
 (
 MiddlemanCallContext
 &
