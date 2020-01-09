@@ -27748,6 +27748,10 @@ nsAtom
 aAttribute
 int32_t
 aModType
+const
+nsAttrValue
+*
+aNewValue
 )
 {
 MOZ_ASSERT
@@ -27837,6 +27841,7 @@ aElement
 aNameSpaceID
 aAttribute
 aModType
+aNewValue
 )
 ;
 }
