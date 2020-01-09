@@ -1754,7 +1754,7 @@ mAppearance
 StyleAppearance
 :
 :
-Progressbar
+ProgressBar
 &
 &
 !
