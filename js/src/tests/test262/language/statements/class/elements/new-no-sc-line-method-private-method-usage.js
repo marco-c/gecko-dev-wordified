@@ -11,6 +11,11 @@ class
 methods
 -
 private
+class
+-
+fields
+-
+public
 is
 not
 supported
