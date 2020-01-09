@@ -15495,6 +15495,11 @@ result
 {
 MOZ_ASSERT
 (
+scheme
+)
+;
+MOZ_ASSERT
+(
 result
 "
 null
