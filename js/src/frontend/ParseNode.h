@@ -11544,6 +11544,7 @@ CallNode
 public
 BinaryNode
 {
+const
 JSOp
 callOp_
 ;
@@ -11717,18 +11718,6 @@ callOp
 {
 return
 callOp_
-;
-}
-void
-setCallOp
-(
-JSOp
-callOp
-)
-{
-callOp_
-=
-callOp
 ;
 }
 }
