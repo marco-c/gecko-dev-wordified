@@ -490,7 +490,7 @@ aFinalizer
 return
 ;
 }
-let
+const
 mm
 =
 this
@@ -502,7 +502,7 @@ Services
 .
 cpmm
 ;
-let
+const
 forwardData
 =
 {
@@ -1172,7 +1172,7 @@ function
 aWindow
 )
 {
-let
+const
 view
 =
 aWindow
@@ -1211,7 +1211,7 @@ if
 view
 )
 {
-let
+const
 mm
 =
 !
@@ -1350,7 +1350,7 @@ data
 uuid
 )
 {
-let
+const
 reply
 =
 (
@@ -1554,7 +1554,7 @@ callback
 return
 ;
 }
-let
+const
 win
 =
 aMsg
@@ -1563,7 +1563,7 @@ target
 .
 ownerGlobal
 ;
-let
+const
 dispatcher
 =
 win

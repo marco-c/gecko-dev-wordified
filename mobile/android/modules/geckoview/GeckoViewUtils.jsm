@@ -791,7 +791,7 @@ if
 observers
 )
 {
-let
+const
 observer
 =
 (
@@ -896,7 +896,7 @@ process
 return
 ;
 }
-let
+const
 addMMListener
 =
 (
@@ -906,7 +906,7 @@ names
 =
 >
 {
-let
+const
 listener
 =
 msg
@@ -1006,7 +1006,7 @@ if
 ged
 )
 {
-let
+const
 listener
 =
 (
@@ -1124,7 +1124,7 @@ name
 )
 ;
 }
-let
+const
 listener
 =
 (
@@ -1585,7 +1585,7 @@ once
 }
 )
 {
-let
+const
 dispatcher
 =
 this
@@ -2417,7 +2417,7 @@ function
 (
 )
 {
-let
+const
 win
 =
 Services
@@ -2450,7 +2450,7 @@ win
 }
 for
 (
-let
+const
 win
 of
 Services

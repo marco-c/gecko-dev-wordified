@@ -908,7 +908,7 @@ info
 ;
 }
 ;
-let
+const
 [
 usernameField
 ]
@@ -1062,7 +1062,7 @@ windowUtils
 ;
 for
 (
-let
+const
 id
 in
 responses
@@ -1335,7 +1335,7 @@ aTarget
 tagName
 }
 ;
-let
+const
 info
 =
 aTarget

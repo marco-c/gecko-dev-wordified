@@ -393,7 +393,7 @@ errorClass
 ;
 try
 {
-let
+const
 nssErrorsService
 =
 Cc

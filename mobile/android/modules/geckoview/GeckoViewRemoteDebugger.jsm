@@ -233,7 +233,7 @@ SocketListener
 =
 >
 {
-let
+const
 {
 SocketListener
 }

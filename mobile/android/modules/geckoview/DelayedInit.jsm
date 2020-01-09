@@ -493,7 +493,7 @@ maxWait
 {
 for
 (
-let
+const
 fn
 of
 fns
@@ -561,7 +561,7 @@ function
 (
 )
 {
-let
+const
 startTime
 =
 Cu
@@ -612,7 +612,7 @@ be
 .
 for
 (
-let
+const
 init
 of
 this
@@ -778,7 +778,7 @@ fn
 wait
 )
 {
-let
+const
 init
 =
 {
@@ -898,7 +898,7 @@ name
 wait
 )
 {
-let
+const
 init
 =
 this
@@ -1069,7 +1069,7 @@ reload
 he
 property
 .
-let
+const
 newProp
 =
 Object
