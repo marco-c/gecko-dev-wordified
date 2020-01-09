@@ -27459,7 +27459,7 @@ aveCharWidth
 metrics
 -
 >
-zeroOrAveCharWidth
+zeroWidth
 =
 metrics
 -
@@ -27674,7 +27674,9 @@ GetMetrics
 eHorizontal
 )
 .
-zeroOrAveCharWidth
+ZeroOrAveCharWidth
+(
+)
 ;
 /
 /

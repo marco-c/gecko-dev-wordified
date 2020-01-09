@@ -12027,7 +12027,9 @@ Orientation
 )
 )
 .
-zeroOrAveCharWidth
+ZeroOrAveCharWidth
+(
+)
 ;
 ret
 .

@@ -12142,7 +12142,9 @@ IsVertical
 )
 )
 .
-zeroOrAveCharWidth
+ZeroOrAveCharWidth
+(
+)
 *
 aTextRun
 -
