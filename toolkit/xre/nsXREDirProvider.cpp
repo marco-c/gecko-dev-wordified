@@ -4497,6 +4497,9 @@ IsContentSandboxDisabled
 {
 return
 !
+mozilla
+:
+:
 BrowserTabsRemoteAutostart
 (
 )
@@ -4504,6 +4507,9 @@ BrowserTabsRemoteAutostart
 |
 (
 !
+mozilla
+:
+:
 IsContentSandboxEnabled
 (
 )
@@ -4643,6 +4649,9 @@ tempDirSuffix
 ;
 rv
 =
+mozilla
+:
+:
 Preferences
 :
 :
@@ -4885,6 +4894,9 @@ rv
 nsAutoString
 tempDirSuffix
 ;
+mozilla
+:
+:
 Preferences
 :
 :
@@ -5033,6 +5045,9 @@ the
 pref
 rv
 =
+mozilla
+:
+:
 Preferences
 :
 :
@@ -5097,6 +5112,9 @@ nsIPrefService
 >
 prefsvc
 =
+mozilla
+:
+:
 Preferences
 :
 :
@@ -6040,6 +6058,9 @@ do
 -
 change
 .
+mozilla
+:
+:
 AutoRestore
 <
 bool
@@ -6952,6 +6973,9 @@ JSContext
 *
 cx
 =
+mozilla
+:
+:
 dom
 :
 :
@@ -7042,6 +7066,9 @@ defined
 (
 MOZ_CONTENT_SANDBOX
 )
+mozilla
+:
+:
 Unused
 <
 <
@@ -7058,6 +7085,9 @@ defined
 (
 MOZ_SANDBOX
 )
+mozilla
+:
+:
 Unused
 <
 <
