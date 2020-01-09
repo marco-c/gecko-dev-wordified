@@ -1047,6 +1047,11 @@ actions
 perform
 (
 actions
+[
+'
+actions
+'
+]
 )
 class
 WebDriverTestDriverProtocolPart
