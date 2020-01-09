@@ -935,10 +935,7 @@ stringCount
 set
 -
 >
-strings
--
->
-size
+stringsSize
 (
 )
 ;

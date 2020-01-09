@@ -1850,7 +1850,7 @@ set
 return
 set
 .
-getStringCount
+stringsSize
 (
 )
 ;
