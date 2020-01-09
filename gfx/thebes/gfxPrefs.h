@@ -4557,12 +4557,6 @@ bool
 false
 )
 ;
-#
-if
-defined
-(
-ANDROID
-)
 DECL_GFX_PREF
 (
 Once
@@ -4578,8 +4572,6 @@ bool
 false
 )
 ;
-#
-endif
 #
 if
 defined
