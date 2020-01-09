@@ -9868,6 +9868,9 @@ nsISupports
 *
 continuationState
 ;
+nsAutoCString
+suffix
+;
 if
 (
 header
@@ -9892,7 +9895,6 @@ continuationState
 &
 mAuthContinuationState
 ;
-}
 nsCOMPtr
 <
 nsIChannel
@@ -9904,15 +9906,13 @@ do_QueryInterface
 mAuthChannel
 )
 ;
-nsAutoCString
-suffix
-;
 GetOriginAttributesSuffix
 (
 chan
 suffix
 )
 ;
+}
 rv
 =
 authCache
