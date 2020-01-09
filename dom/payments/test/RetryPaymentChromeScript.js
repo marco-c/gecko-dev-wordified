@@ -929,7 +929,7 @@ Expect
 non
 -
 null
-payerMethodErrors
+paymentMethodErrors
 but
 got
 null
@@ -1183,7 +1183,7 @@ payment
 .
 paymentDetails
 .
-payer
+payerErrors
 )
 ;
 checkPaymentMethodErrors
@@ -1195,7 +1195,7 @@ payment
 .
 paymentDetails
 .
-paymentMethod
+paymentMethodErrors
 )
 ;
 if

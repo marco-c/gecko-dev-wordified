@@ -521,7 +521,7 @@ const
 const
 nsString
 &
-GetPayer
+GetPayerErrors
 (
 )
 const
@@ -529,7 +529,7 @@ const
 const
 nsString
 &
-GetPaymentMethod
+GetPaymentMethodErrors
 (
 )
 const

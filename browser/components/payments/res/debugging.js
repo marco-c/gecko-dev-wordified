@@ -375,11 +375,11 @@ value
 }
 }
 ]
-payer
+payerErrors
 :
 {
 }
-paymentMethod
+paymentMethodErrors
 :
 {
 }
@@ -687,11 +687,11 @@ value
 }
 }
 ]
-payer
+payerErrors
 :
 {
 }
-paymentMethod
+paymentMethoErrors
 :
 {
 }
@@ -3008,7 +3008,7 @@ request
 .
 paymentDetails
 .
-paymentMethod
+paymentMethodErrors
 =
 {
 cardNumber
@@ -3306,7 +3306,7 @@ request
 .
 paymentDetails
 .
-payer
+payerErrors
 =
 {
 email
