@@ -3027,8 +3027,18 @@ self
 )
 :
         
-animatable
+if
+self
+.
+ident
 =
+=
+"
+all
+"
+:
+            
+return
 False
         
 for
@@ -3045,14 +3055,11 @@ sub
 animatable
 :
                 
-animatable
-=
+return
 True
-                
-break
         
 return
-animatable
+False
     
 def
 get_transitionable
