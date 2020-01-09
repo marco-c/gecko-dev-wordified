@@ -152,7 +152,7 @@ workers
 "
 array
 :
-json
+workerTarget
 "
 }
 )
