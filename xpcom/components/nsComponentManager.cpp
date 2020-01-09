@@ -3364,6 +3364,10 @@ nsLayoutModuleInitialize
 (
 )
 ;
+mJSLoaderReady
+=
+true
+;
 /
 /
 The
