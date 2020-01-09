@@ -378,6 +378,13 @@ uint32_t
 maxBufferSize
 )
 ;
+void
+SetDumpTables
+(
+bool
+dumpTables
+)
+;
 protected
 :
 const
@@ -409,6 +416,9 @@ virtual
 void
 DumpState
 (
+const
+char
+*
 )
 ;
 virtual
@@ -454,6 +464,9 @@ Telemetry
 :
 HistogramID
 mPeakCountID
+;
+bool
+mDumpTables
 ;
 private
 :

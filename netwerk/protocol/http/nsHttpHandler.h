@@ -2434,6 +2434,15 @@ const
 when
 )
 ;
+bool
+DumpHpackTables
+(
+)
+{
+return
+mDumpHpackTables
+;
+}
 private
 :
 nsHttpHandler
@@ -3035,6 +3044,11 @@ mEnableOriginExtension
 ;
 uint32_t
 mEnableH2Websockets
+:
+1
+;
+uint32_t
+mDumpHpackTables
 :
 1
 ;
