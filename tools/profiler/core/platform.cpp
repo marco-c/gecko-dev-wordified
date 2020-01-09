@@ -8744,6 +8744,12 @@ defined
 (
 GP_OS_windows
 )
+&
+&
+defined
+(
+USE_MOZ_STACK_WALK
+)
 static
 HANDLE
 GetThreadHandle
