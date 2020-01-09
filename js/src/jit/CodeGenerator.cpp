@@ -28065,7 +28065,9 @@ if
 (
 guard
 .
-group
+getGroup
+(
+)
 )
 {
 masm
@@ -28079,7 +28081,9 @@ NotEqual
 obj
 guard
 .
-group
+getGroup
+(
+)
 scratch
 obj
 miss
@@ -28099,7 +28103,9 @@ NotEqual
 obj
 guard
 .
-shape
+getShape
+(
+)
 scratch
 obj
 miss
@@ -28203,7 +28209,9 @@ if
 (
 receiver
 .
-shape
+getShape
+(
+)
 )
 {
 masm
@@ -28672,7 +28680,9 @@ if
 (
 receiver
 .
-shape
+getShape
+(
+)
 )
 {
 Register
