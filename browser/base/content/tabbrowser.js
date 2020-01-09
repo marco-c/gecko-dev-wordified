@@ -29865,12 +29865,6 @@ blocked
 ]
 )
 ;
-tab
-.
-startMediaBlockTimer
-(
-)
-;
 }
 }
 )
@@ -29970,12 +29964,6 @@ add
 unblockByVisitingTab
 *
 /
-)
-;
-tab
-.
-finishMediaBlockTimer
-(
 )
 ;
 }
