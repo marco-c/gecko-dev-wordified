@@ -378,6 +378,7 @@ derive
 Debug
 Copy
 Clone
+MallocSizeOf
 )
 ]
 #
@@ -609,6 +610,7 @@ Copy
 Clone
 Debug
 Hash
+MallocSizeOf
 PartialEq
 Eq
 )
@@ -1769,6 +1771,13 @@ derive
 (
 Deserialize
 )
+)
+]
+#
+[
+derive
+(
+MallocSizeOf
 )
 ]
 pub

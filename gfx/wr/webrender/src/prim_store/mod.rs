@@ -294,6 +294,12 @@ use
 intern
 ;
 use
+malloc_size_of
+:
+:
+MallocSizeOf
+;
+use
 picture
 :
 :
@@ -759,6 +765,7 @@ derive
 Debug
 Copy
 Clone
+MallocSizeOf
 )
 ]
 pub
@@ -2107,6 +2114,13 @@ Deserialize
 )
 )
 ]
+#
+[
+derive
+(
+MallocSizeOf
+)
+]
 pub
 struct
 PrimitiveSceneData
@@ -2182,6 +2196,7 @@ derive
 Debug
 Clone
 Eq
+MallocSizeOf
 PartialEq
 Hash
 )
@@ -2249,6 +2264,7 @@ derive
 (
 Debug
 Clone
+MallocSizeOf
 PartialEq
 )
 ]
@@ -2511,6 +2527,7 @@ derive
 (
 Debug
 Clone
+MallocSizeOf
 PartialEq
 )
 ]
@@ -2808,6 +2825,7 @@ derive
 Copy
 Debug
 Clone
+MallocSizeOf
 PartialEq
 )
 ]
@@ -3014,6 +3032,7 @@ derive
 Copy
 Debug
 Clone
+MallocSizeOf
 PartialEq
 )
 ]
@@ -3210,6 +3229,7 @@ derive
 (
 Debug
 Clone
+MallocSizeOf
 PartialEq
 )
 ]
@@ -3392,6 +3412,7 @@ derive
 Debug
 Clone
 Eq
+MallocSizeOf
 PartialEq
 Hash
 )
@@ -3497,6 +3518,7 @@ derive
 Debug
 Clone
 Eq
+MallocSizeOf
 PartialEq
 Hash
 )
@@ -3506,6 +3528,8 @@ struct
 PrimKey
 <
 T
+:
+MallocSizeOf
 >
 {
 pub
@@ -3554,6 +3578,7 @@ derive
 Debug
 Clone
 Eq
+MallocSizeOf
 PartialEq
 Hash
 )
@@ -3789,6 +3814,13 @@ Deserialize
 )
 )
 ]
+#
+[
+derive
+(
+MallocSizeOf
+)
+]
 pub
 enum
 PrimitiveTemplateKind
@@ -3927,6 +3959,13 @@ derive
 (
 Deserialize
 )
+)
+]
+#
+[
+derive
+(
+MallocSizeOf
 )
 ]
 pub
@@ -4099,6 +4138,13 @@ Deserialize
 )
 )
 ]
+#
+[
+derive
+(
+MallocSizeOf
+)
+]
 pub
 struct
 PrimTemplate
@@ -4143,6 +4189,13 @@ derive
 (
 Deserialize
 )
+)
+]
+#
+[
+derive
+(
+MallocSizeOf
 )
 ]
 pub
@@ -4581,6 +4634,7 @@ Copy
 Debug
 Hash
 Eq
+MallocSizeOf
 PartialEq
 )
 ]
@@ -5060,6 +5114,7 @@ Deserialize
 derive
 (
 Debug
+MallocSizeOf
 )
 ]
 pub
@@ -5178,6 +5233,13 @@ derive
 (
 Deserialize
 )
+)
+]
+#
+[
+derive
+(
+MallocSizeOf
 )
 ]
 pub
@@ -5316,6 +5378,7 @@ derive
 (
 Debug
 Clone
+MallocSizeOf
 )
 ]
 pub
@@ -6742,6 +6805,7 @@ Clone
 PartialEq
 Eq
 Hash
+MallocSizeOf
 )
 ]
 #
