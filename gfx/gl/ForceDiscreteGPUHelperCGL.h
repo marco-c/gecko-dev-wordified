@@ -172,8 +172,6 @@ is
 taken
 from
 Chromium
-/
-/
 src
 /
 ui

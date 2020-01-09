@@ -29918,10 +29918,10 @@ in
 color
 )
 have
-*
 this
 precedence
 :
+*
 cell
 row
 rowgroup

@@ -1496,7 +1496,6 @@ the
 other
 calls
 for
-*
 callbacks
 etc
 *
@@ -1520,7 +1519,6 @@ should
 enable
 the
 accessible
-*
 caret
 .
 *
@@ -1569,7 +1567,6 @@ or
 replace
 the
 old
-*
 anchor
 .
 *
@@ -1618,16 +1615,15 @@ of
 the
 parent
 aNewFocus
-*
 and
 is
 specified
 different
+*
 when
 you
 need
 to
-*
 select
 to
 and
@@ -1649,7 +1645,6 @@ the
 selection
 to
 keep
-*
 the
 old
 anchor
@@ -1670,7 +1665,6 @@ replace
 /
 or
 not
-*
 the
 old
 selection
@@ -1691,7 +1685,6 @@ which
 direction
 geometrically
 to
-*
 actually
 show
 the
@@ -1760,7 +1753,6 @@ figuring
 out
 what
 frame
-*
 contains
 the
 point
@@ -1780,7 +1772,6 @@ when
 searching
 for
 the
-*
 closest
 frame
 to
@@ -1837,7 +1828,7 @@ param
 aParentContent
 is
 the
-parent
+paretent
 of
 either
 a
@@ -1845,7 +1836,6 @@ table
 or
 cell
 that
-*
 user
 clicked
 or
@@ -1881,7 +1871,6 @@ should
 select
 a
 cell
-*
 (
 content
 points
@@ -1899,7 +1888,6 @@ should
 select
 a
 row
-*
 (
 content
 points
@@ -1919,7 +1907,6 @@ should
 select
 a
 row
-*
 (
 content
 points
@@ -1939,7 +1926,6 @@ should
 select
 a
 table
-*
 (
 content
 points
@@ -1957,7 +1943,6 @@ should
 select
 all
 cells
-*
 (
 content
 points
@@ -1979,7 +1964,6 @@ get
 where
 event
 occurred
-*
 and
 what
 keys
@@ -2483,7 +2467,6 @@ and
 ending
 with
 the
-*
 type
 of
 selection
@@ -3549,12 +3532,12 @@ selection
 backward
 or
 forward
-*
 (
 logically
 )
 to
 the
+*
 next
 word
 boundary
@@ -3563,7 +3546,6 @@ that
 the
 selected
 word
-*
 can
 be
 deleted
@@ -3601,7 +3583,6 @@ called
 from
 the
 nsiselectioncontroller
-*
 implementations
 .
 *
@@ -3658,7 +3639,6 @@ called
 from
 the
 nsiselectioncontroller
-*
 implementations
 .
 *

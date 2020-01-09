@@ -1478,7 +1478,6 @@ relative
 to
 the
 row
-*
 group
 *
 param
@@ -1976,8 +1975,8 @@ nullptr
 if
 you
 must
-*
 search
+*
 all
 rows
 .
@@ -1997,8 +1996,8 @@ if
 not
 it
 is
-*
 guaranteed
+*
 to
 be
 before

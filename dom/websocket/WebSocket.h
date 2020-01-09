@@ -704,8 +704,6 @@ optional
 unsigned
 short
 code
-/
-/
 optional
 DOMString
 reason

@@ -3597,7 +3597,6 @@ Assume
 that
 we
 have
-*
 <
 text
 x

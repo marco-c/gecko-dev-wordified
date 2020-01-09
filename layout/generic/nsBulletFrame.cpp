@@ -1741,7 +1741,7 @@ type
 would
 use
 this
-member
+memeber
 .
 nscolor
 mColor

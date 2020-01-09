@@ -5651,7 +5651,6 @@ of
 any
 available
 instance
-*
 data
 .
 *
@@ -6201,7 +6200,6 @@ drawing
 operation
 should
 draw
-*
 to
 *
 param
@@ -6214,7 +6212,6 @@ coordinates
 this
 area
 of
-*
 aSurface
 *
 will
@@ -9083,7 +9080,6 @@ whose
 the
 metrics
 are
-*
 wanted
 *
 aNumGlyphs
@@ -10682,7 +10678,6 @@ the
 font
 should
 be
-*
 created
 for
 .
@@ -10710,7 +10705,6 @@ used
 to
 create
 the
-*
 NativeFontResource
 .
 *

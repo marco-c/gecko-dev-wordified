@@ -1320,8 +1320,6 @@ by
 255
 which
 is
-/
-/
 essentially
 :
 /
@@ -1368,9 +1366,9 @@ the
 final
 shift
 into
-/
-/
 place
+/
+/
 depending
 on
 desired

@@ -461,8 +461,8 @@ DidReflow
 (
 )
 in
-*
 order
+*
 (
 no
 separate
@@ -492,9 +492,9 @@ child
 '
 s
 view
-*
 (
 not
+*
 the
 child
 frame
@@ -510,8 +510,8 @@ during
 reflow
 (
 and
-*
 before
+*
 sending
 the
 DidReflow
@@ -538,8 +538,8 @@ the
 way
 down
 the
-*
 tree
+*
 and
 sizing
 of
@@ -572,9 +572,9 @@ process
 or
 after
 reflowing
-*
 it
 )
+*
 then
 you
 must
@@ -592,11 +592,11 @@ frame
 s
 views
 )
-*
 are
 re
 -
 positioned
+*
 as
 well
 .
@@ -610,11 +610,11 @@ position
 the
 view
 until
-*
 after
 all
 reflowing
 the
+*
 entire
 line
 for
@@ -623,7 +623,6 @@ but
 the
 frame
 should
-*
 still
 be
 positioned
@@ -631,6 +630,7 @@ and
 sized
 (
 and
+*
 the
 view
 sized
@@ -638,7 +638,6 @@ sized
 during
 the
 reflow
-*
 (
 i
 .
@@ -23912,7 +23911,6 @@ visual
 true
 )
 or
-*
 logical
 (
 false
@@ -24071,7 +24069,6 @@ are
 visible
 from
 indexstart
-*
 to
 index
 end
@@ -24091,11 +24088,11 @@ if
 the
 indexes
 are
-*
 valid
 and
 any
 of
+*
 the
 children
 are
@@ -24106,7 +24103,6 @@ textframes
 this
 index
 is
-*
 the
 character
 index
@@ -24163,7 +24159,6 @@ get
 to
 the
 contents
-*
 other
 children
 ?
@@ -31131,7 +31126,6 @@ found
 a
 place
 to
-*
 stop
 )
 .
@@ -31863,8 +31857,8 @@ h
 The
 following
 fields
-*
 are
+*
 used
 by
 this

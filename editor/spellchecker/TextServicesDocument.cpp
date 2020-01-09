@@ -4139,8 +4139,6 @@ Sel
 n
 "
 mSelStartIndex
-/
-/
 mSelStartOffset
 mSelEndIndex
 mSelEndOffset
@@ -5635,8 +5633,6 @@ Sel
 n
 "
 mSelStartIndex
-/
-/
 mSelStartOffset
 mSelEndIndex
 mSelEndOffset
@@ -6713,8 +6709,6 @@ Sel
 n
 "
 mSelStartIndex
-/
-/
 mSelStartOffset
 mSelEndIndex
 mSelEndOffset
@@ -8823,12 +8817,6 @@ NameAtom
 (
 )
 ;
-/
-/
-clang
--
-format
-off
 return
 (
 nsGkAtoms
@@ -9065,12 +9053,6 @@ wbr
 atom
 )
 ;
-/
-/
-clang
--
-format
-on
 }
 /
 /
@@ -9745,8 +9727,6 @@ Sel
 n
 "
 mSelStartIndex
-/
-/
 mSelStartOffset
 mSelEndIndex
 mSelEndOffset
@@ -10029,8 +10009,6 @@ Sel
 n
 "
 mSelStartIndex
-/
-/
 mSelStartOffset
 mSelEndIndex
 mSelEndOffset

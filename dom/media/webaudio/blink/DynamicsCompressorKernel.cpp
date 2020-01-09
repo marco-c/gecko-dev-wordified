@@ -1646,8 +1646,6 @@ values
 as
 follows
 :
-/
-/
 (
 y1
 :

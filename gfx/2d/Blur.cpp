@@ -1838,7 +1838,6 @@ when
 reading
 and
 writing
-*
 to
 it
 .
@@ -1868,7 +1867,6 @@ right
 for
 each
 of
-*
 3
 passes
 .

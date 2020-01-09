@@ -138,7 +138,6 @@ this
 BooleanResult
 '
 s
-*
 value
 *
 *

@@ -313,12 +313,6 @@ ProcessAttributes
 )
 {
 /
-/
-clang
--
-format
-off
-/
 *
 parse
 the
@@ -465,12 +459,6 @@ namedspace
 )
 *
 /
-/
-/
-clang
--
-format
-on
 nsAutoString
 value
 ;

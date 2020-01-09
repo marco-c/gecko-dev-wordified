@@ -264,9 +264,6 @@ __FreeBSD__
 )
 |
 |
-\
-/
-/
 defined
 (
 __OpenBSD__

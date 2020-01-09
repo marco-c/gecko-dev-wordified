@@ -3077,12 +3077,6 @@ uploads
 /
 /
 /
-clang
--
-format
-off
-/
-/
 region
 we
 will
@@ -3279,12 +3273,6 @@ rect
 -
 -
 '
-/
-/
-clang
--
-format
-on
 /
 /
 /

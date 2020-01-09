@@ -392,7 +392,6 @@ attribute
 about
 to
 be
-*
 submitted
 *
 param
@@ -407,7 +406,6 @@ about
 to
 be
 submitted
-*
 for
 aName
 .
@@ -422,7 +420,6 @@ which
 will
 actually
 be
-*
 submitted
 for
 aName
@@ -571,7 +568,6 @@ the
 contents
 for
 the
-*
 form
 element
 *
@@ -588,7 +584,6 @@ element
 .
 It
 is
-*
 used
 to
 identify
