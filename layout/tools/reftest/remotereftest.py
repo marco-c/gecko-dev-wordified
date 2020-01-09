@@ -3266,6 +3266,12 @@ symbolsPath
 timeout
 =
 timeout
+                                                           
+e10s
+=
+options
+.
+e10s
 )
         
 self

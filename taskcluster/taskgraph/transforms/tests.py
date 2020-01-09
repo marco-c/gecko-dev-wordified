@@ -2102,12 +2102,6 @@ this
 task
 with
 e10s
-(
-desktop
--
-test
-only
-)
 .
 If
 false
@@ -3968,12 +3962,16 @@ secrets
 ]
             
 #
-Android
-doesn
-'
-t
-do
+Fennec
+is
+non
+-
 e10s
+;
+geckoview
+handled
+in
+set_target
             
 test
 [
@@ -5066,6 +5064,25 @@ test
 target
 '
 ]
+            
+if
+target
+and
+'
+geckoview
+'
+in
+target
+:
+                
+test
+[
+'
+e10s
+'
+]
+=
+True
         
 if
 not

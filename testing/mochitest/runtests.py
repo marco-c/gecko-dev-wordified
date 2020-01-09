@@ -16900,6 +16900,10 @@ None
 marionette_args
 =
 None
+               
+e10s
+=
+True
 )
 :
         
@@ -22313,6 +22317,12 @@ bisectChunk
 marionette_args
 =
 marionette_args
+                    
+e10s
+=
+options
+.
+e10s
                 
 )
                 
