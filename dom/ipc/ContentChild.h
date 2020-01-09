@@ -4252,6 +4252,13 @@ Transaction
 &
 &
 aTransaction
+BrowsingContext
+:
+:
+FieldEpochs
+&
+&
+aEpochs
 )
 ;
 #

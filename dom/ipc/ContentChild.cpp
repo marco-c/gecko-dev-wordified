@@ -24587,6 +24587,13 @@ Transaction
 &
 &
 aTransaction
+BrowsingContext
+:
+:
+FieldEpochs
+&
+&
+aEpochs
 )
 {
 if
@@ -24600,6 +24607,8 @@ Apply
 (
 aContext
 nullptr
+&
+aEpochs
 )
 ;
 }
