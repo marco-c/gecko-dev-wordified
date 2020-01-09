@@ -116,6 +116,14 @@ require
 "
 .
 /
+autocomplete
+"
+)
+require
+(
+"
+.
+/
 filters
 "
 )
