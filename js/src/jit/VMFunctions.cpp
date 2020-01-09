@@ -6186,14 +6186,14 @@ offset
 script
 -
 >
-yieldAndAwaitOffsets
+resumeOffsets
 (
 )
 [
 genObj
 -
 >
-yieldAndAwaitIndex
+resumeIndex
 (
 )
 ]

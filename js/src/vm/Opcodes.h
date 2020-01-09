@@ -15581,7 +15581,7 @@ Generator
 Operands
 :
 uint24_t
-yieldAndAwaitIndex
+resumeIndex
 *
 Stack
 :
@@ -15653,7 +15653,7 @@ Generator
 Operands
 :
 uint24_t
-yieldAndAwaitIndex
+resumeIndex
 *
 Stack
 :
@@ -16000,7 +16000,7 @@ Generator
 Operands
 :
 uint24_t
-yieldAndAwaitIndex
+resumeIndex
 *
 Stack
 :

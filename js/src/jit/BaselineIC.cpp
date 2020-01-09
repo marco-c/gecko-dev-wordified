@@ -31214,15 +31214,14 @@ returnFalse
 /
 If
 the
-yield
-index
+resumeIndex
 slot
 holds
 an
 int32
 value
 <
-YIELD_AND_AWAIT_INDEX_CLOSING
+RESUME_INDEX_CLOSING
 /
 /
 the
@@ -31240,7 +31239,7 @@ genObj
 GeneratorObject
 :
 :
-offsetOfYieldAndAwaitIndexSlot
+offsetOfResumeIndexSlot
 (
 )
 )
@@ -31282,7 +31281,7 @@ Imm32
 GeneratorObject
 :
 :
-YIELD_AND_AWAIT_INDEX_CLOSING
+RESUME_INDEX_CLOSING
 )
 &
 returnFalse

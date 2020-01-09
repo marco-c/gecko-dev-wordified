@@ -2439,7 +2439,7 @@ pcMappingSize
 size_t
 bytecodeTypeMapEntries
 size_t
-yieldEntries
+resumeEntries
 size_t
 traceLoggerToggleOffsetEntries
 )
@@ -2495,9 +2495,9 @@ uint32_t
 )
 ;
 size_t
-yieldEntriesSize
+resumeEntriesSize
 =
-yieldEntries
+resumeEntries
 *
 sizeof
 (
@@ -2560,11 +2560,11 @@ DataAlignment
 )
 ;
 size_t
-paddedYieldEntriesSize
+paddedResumeEntriesSize
 =
 AlignBytes
 (
-yieldEntriesSize
+resumeEntriesSize
 DataAlignment
 )
 ;
@@ -2590,7 +2590,7 @@ paddedPCMappingSize
 +
 paddedBytecodeTypesMapSize
 +
-paddedYieldEntriesSize
+paddedResumeEntriesSize
 +
 paddedTLEntriesSize
 ;
@@ -2756,9 +2756,9 @@ paddedBytecodeTypesMapSize
 script
 -
 >
-yieldEntriesOffset_
+resumeEntriesOffset_
 =
-yieldEntries
+resumeEntries
 ?
 offsetCursor
 :
@@ -2767,7 +2767,7 @@ offsetCursor
 offsetCursor
 +
 =
-paddedYieldEntriesSize
+paddedResumeEntriesSize
 ;
 script
 -
@@ -4784,7 +4784,7 @@ void
 BaselineScript
 :
 :
-computeYieldAndAwaitNativeOffsets
+computeResumeNativeOffsets
 (
 JSScript
 *
@@ -4797,7 +4797,7 @@ if
 script
 -
 >
-hasYieldAndAwaitOffsets
+hasResumeOffsets
 (
 )
 )
@@ -4887,7 +4887,7 @@ pcOffsets
 script
 -
 >
-yieldAndAwaitOffsets
+resumeOffsets
 (
 )
 ;
@@ -4896,7 +4896,7 @@ uint8_t
 *
 nativeOffsets
 =
-yieldEntryList
+resumeEntryList
 (
 )
 ;

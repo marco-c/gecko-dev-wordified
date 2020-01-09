@@ -257,7 +257,7 @@ numYieldsAtBeginCodeNeedingIterClose_
 bce
 -
 >
-yieldAndAwaitOffsetList
+resumeOffsetList
 .
 numYields
 ;
@@ -620,7 +620,7 @@ numYieldsEmitted
 bce
 -
 >
-yieldAndAwaitOffsetList
+resumeOffsetList
 .
 numYields
 ;

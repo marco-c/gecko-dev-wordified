@@ -7389,7 +7389,7 @@ array
 of
 uint32_t
 in
-yieldAndAwaitOffsets
+resumeOffsets
 (
 )
 /
@@ -7517,7 +7517,7 @@ OPTIONAL
 )
 PackedSpan
 for
-yieldAndAwaitOffsets
+resumeOffsets
 (
 )
 /
@@ -7643,7 +7643,7 @@ uint32_t
 s
 that
 constitute
-yieldAndAwaitOffsets
+resumeOffsets
 (
 )
 /
@@ -7989,7 +7989,7 @@ scopeNotesSpanOffset
 4
 ;
 uint32_t
-yieldOffsetsSpanOffset
+resumeOffsetsSpanOffset
 :
 4
 ;
@@ -8306,7 +8306,7 @@ ntrynotes
 uint32_t
 nscopenotes
 uint32_t
-nyieldoffsets
+nresumeoffsets
 )
 ;
 /
@@ -8328,7 +8328,7 @@ ntrynotes
 uint32_t
 nscopenotes
 uint32_t
-nyieldoffsets
+nresumeoffsets
 )
 ;
 public
@@ -8476,7 +8476,7 @@ Span
 <
 uint32_t
 >
-yieldAndAwaitOffsets
+resumeOffsets
 (
 )
 {
@@ -8488,7 +8488,7 @@ uint32_t
 (
 packedOffsets
 .
-yieldOffsetsSpanOffset
+resumeOffsetsSpanOffset
 )
 ;
 }
@@ -8561,7 +8561,7 @@ scopeNotesSpanOffset
 ;
 }
 bool
-hasYieldOffsets
+hasResumeOffsets
 (
 )
 const
@@ -8569,7 +8569,7 @@ const
 return
 packedOffsets
 .
-yieldOffsetsSpanOffset
+resumeOffsetsSpanOffset
 !
 =
 0
@@ -8620,7 +8620,7 @@ ntrynotes
 uint32_t
 nscopenotes
 uint32_t
-nyieldoffsets
+nresumeoffsets
 uint32_t
 *
 dataSize
@@ -11163,7 +11163,7 @@ ntrynotes
 uint32_t
 nscopenotes
 uint32_t
-nyieldoffsets
+nresumeoffsets
 )
 ;
 private
@@ -15359,7 +15359,7 @@ hasScopeNotes
 ;
 }
 bool
-hasYieldAndAwaitOffsets
+hasResumeOffsets
 (
 )
 const
@@ -15368,7 +15368,7 @@ return
 data_
 -
 >
-hasYieldOffsets
+hasResumeOffsets
 (
 )
 ;
@@ -15531,14 +15531,14 @@ Span
 const
 uint32_t
 >
-yieldAndAwaitOffsets
+resumeOffsets
 (
 )
 const
 {
 MOZ_ASSERT
 (
-hasYieldAndAwaitOffsets
+hasResumeOffsets
 (
 )
 )
@@ -15547,7 +15547,7 @@ return
 data_
 -
 >
-yieldAndAwaitOffsets
+resumeOffsets
 (
 )
 ;
