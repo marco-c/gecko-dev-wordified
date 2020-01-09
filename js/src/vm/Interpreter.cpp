@@ -5775,10 +5775,10 @@ InstanceofOperator
 /
 extern
 bool
-js
+JS
 :
 :
-InstanceOfOperator
+InstanceofOperator
 (
 JSContext
 *
@@ -6038,10 +6038,10 @@ bp
 ;
 }
 return
-js
+JS
 :
 :
-InstanceOfOperator
+InstanceofOperator
 (
 cx
 obj
