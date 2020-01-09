@@ -610,6 +610,7 @@ mDefault
 mDefaultExtension
 mFilters
 mFilterNames
+mRawFilters
 displayDirectory
 mDisplaySpecialDirectory
 mOkButtonLabel

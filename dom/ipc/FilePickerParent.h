@@ -302,6 +302,13 @@ nsString
 &
 &
 aFilterNames
+InfallibleTArray
+<
+nsString
+>
+&
+&
+aRawFilters
 const
 nsString
 &
