@@ -27,15 +27,6 @@ browser_command
 ExecutorBrowser
 from
 .
-base
-import
-get_timeout_multiplier
-#
-noqa
-:
-F401
-from
-.
 .
 executors
 import
@@ -164,14 +155,6 @@ env_options
 :
 "
 env_options
-"
-    
-"
-timeout_multiplier
-"
-:
-"
-get_timeout_multiplier
 "
     
 "

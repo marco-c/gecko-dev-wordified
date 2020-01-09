@@ -904,7 +904,19 @@ logger
 test_paths
 )
         
-product
+(
+check_args
+         
+target_browser_cls
+get_browser_kwargs
+         
+executor_classes
+get_executor_kwargs
+         
+env_options
+get_env_extras
+run_info_extras
+)
 =
 products
 .
@@ -912,15 +924,10 @@ load_product
 (
 config
 product
-load_cls
-=
-True
 )
         
 env_extras
 =
-product
-.
 get_env_extras
 (
 *
@@ -928,8 +935,6 @@ get_env_extras
 kwargs
 )
         
-product
-.
 check_args
 (
 *
@@ -1001,13 +1006,9 @@ get_loader
 test_paths
                                            
 product
-.
-name
                                            
 run_info_extras
 =
-product
-.
 run_info_extras
 (
 *
@@ -1285,29 +1286,12 @@ ca_cert_path
 }
 }
         
-testharness_timeout_multipler
-=
-product
-.
-get_timeout_multiplier
-(
-"
-testharness
-"
-run_info
-*
-*
-kwargs
-)
-        
 with
 env
 .
 TestEnvironment
 (
 test_paths
-                                 
-testharness_timeout_multipler
                                  
 kwargs
 [
@@ -1323,8 +1307,6 @@ debug_info
 "
 ]
                                  
-product
-.
 env_options
                                  
 ssl_config
@@ -1467,7 +1449,6 @@ suite_start
 test_loader
 .
 test_ids
-                                   
 name
 =
 '
@@ -1477,7 +1458,6 @@ platform
 -
 test
 '
-                                   
 run_info
 =
 run_info
@@ -1600,26 +1580,22 @@ else
                         
 browser_cls
 =
-product
-.
-browser_cls
+target_browser_cls
                     
 browser_kwargs
 =
-product
-.
 get_browser_kwargs
 (
 test_type
-                                                                
+                                                        
 run_info
-                                                                
+                                                        
 config
 =
 test_environment
 .
 config
-                                                                
+                                                        
 *
 *
 kwargs
@@ -1627,8 +1603,6 @@ kwargs
                     
 executor_cls
 =
-product
-.
 executor_classes
 .
 get
@@ -1638,22 +1612,20 @@ test_type
                     
 executor_kwargs
 =
-product
-.
 get_executor_kwargs
 (
 test_type
-                                                                  
+                                                          
 test_environment
 .
 config
-                                                                  
+                                                          
 test_environment
 .
 cache_manager
-                                                                  
+                                                          
 run_info
-                                                                  
+                                                          
 *
 *
 kwargs
@@ -1685,8 +1657,6 @@ s
 (
 test_type
 product
-.
-name
 )
 )
                         
@@ -1766,7 +1736,6 @@ testharness
                             
 if
 (
-(
 test
 .
 testdriver
@@ -1777,8 +1746,8 @@ executor_cls
 supports_testdriver
 )
 or
-                                
 (
+                                    
 test
 .
 jsshell
@@ -1787,7 +1756,6 @@ not
 executor_cls
 .
 supports_jsshell
-)
 )
 :
                                 
