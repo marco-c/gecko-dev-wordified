@@ -51,6 +51,15 @@ id
 "
 filter
 "
+color
+-
+interpolation
+-
+filters
+=
+"
+sRGB
+"
 >
 <
 feColorMatrix
@@ -67,7 +76,7 @@ SourceGraphic
 values
 =
 "
-120
+150
 "
 /
 >
