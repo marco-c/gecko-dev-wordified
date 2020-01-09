@@ -5,6 +5,7 @@ META
 global
 =
 worker
+jsshell
 /
 /
 META
