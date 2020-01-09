@@ -661,7 +661,7 @@ f
 1000
 ;
 }
-var
+let
 timestamp
 =
 input
@@ -1029,7 +1029,7 @@ a
 {
 for
 (
-var
+let
 n
 =
 0
@@ -1202,7 +1202,7 @@ k
 v
 )
 {
-var
+let
 m
 ;
 if
@@ -1355,7 +1355,7 @@ keyValueDelim
 groupDelim
 )
 {
-var
+let
 groups
 =
 groupDelim
@@ -1373,7 +1373,7 @@ input
 ;
 for
 (
-var
+let
 i
 in
 groups
@@ -1397,7 +1397,7 @@ string
 continue
 ;
 }
-var
+let
 kv
 =
 groups
@@ -1424,7 +1424,7 @@ length
 continue
 ;
 }
-var
+let
 k
 =
 kv
@@ -1432,7 +1432,7 @@ kv
 0
 ]
 ;
-var
+let
 v
 =
 kv
@@ -1470,7 +1470,7 @@ throw
 an
 error
 .
-var
+let
 oInput
 =
 input
@@ -1487,7 +1487,7 @@ consumeTimeStamp
 (
 )
 {
-var
+let
 ts
 =
 collectTimeStamp
@@ -1578,7 +1578,7 @@ input
 cue
 )
 {
-var
+let
 settings
 =
 new
@@ -1621,7 +1621,7 @@ id
 .
 for
 (
-var
+let
 i
 =
 regionList
@@ -1701,7 +1701,8 @@ case
 line
 "
 :
-var
+{
+let
 vals
 =
 v
@@ -1711,6 +1712,8 @@ split
 "
 "
 )
+;
+let
 vals0
 =
 vals
@@ -1797,11 +1800,14 @@ end
 }
 break
 ;
+}
 case
 "
 position
 "
 :
+{
+let
 vals
 =
 v
@@ -1910,6 +1916,7 @@ k
 }
 break
 ;
+}
 case
 "
 size
@@ -2722,7 +2729,7 @@ return
 result
 ;
 }
-var
+let
 m
 =
 input
@@ -2845,6 +2852,9 @@ unescape
 s
 )
 {
+let
+m
+;
 while
 (
 (
@@ -2940,7 +2950,7 @@ type
 annotation
 )
 {
-var
+let
 tagName
 =
 TAG_NAME
@@ -2958,7 +2968,7 @@ return
 null
 ;
 }
-var
+let
 element
 =
 window
@@ -2970,7 +2980,7 @@ createElement
 tagName
 )
 ;
-var
+let
 name
 =
 TAG_ANNOTATION
@@ -3040,7 +3050,7 @@ normalizedTimeStamp
 secondsWithFrag
 )
 {
-var
+let
 totalsec
 =
 parseInt
@@ -3049,7 +3059,7 @@ secondsWithFrag
 10
 )
 ;
-var
+let
 hours
 =
 Math
@@ -3061,7 +3071,7 @@ totalsec
 3600
 )
 ;
-var
+let
 minutes
 =
 Math
@@ -3075,7 +3085,7 @@ totalsec
 60
 )
 ;
-var
+let
 seconds
 =
 Math
@@ -3135,7 +3145,7 @@ seconds
 seconds
 ;
 }
-var
+let
 f
 =
 secondsWithFrag
@@ -3212,7 +3222,7 @@ seconds
 f
 ;
 }
-var
+let
 root
 ;
 switch
@@ -3292,7 +3302,7 @@ createDocumentFragment
 break
 ;
 }
-var
+let
 current
 =
 root
@@ -3420,7 +3430,7 @@ tag
 continue
 ;
 }
-var
+let
 ts
 =
 collectTimeStamp
@@ -3438,7 +3448,7 @@ length
 )
 )
 ;
-var
+let
 node
 ;
 if
@@ -3482,7 +3492,7 @@ node
 continue
 ;
 }
-var
+let
 m
 =
 t
@@ -3821,7 +3831,7 @@ div
 ;
 for
 (
-var
+let
 prop
 in
 styles
@@ -5402,7 +5412,7 @@ call
 this
 )
 ;
-var
+let
 boxLineHeight
 =
 container
@@ -5421,7 +5431,7 @@ height
 5
 .
 33vh
-var
+let
 boxHeight
 =
 boxLineHeight
@@ -5430,7 +5440,7 @@ region
 .
 lines
 ;
-var
+let
 boxWidth
 =
 container
@@ -5449,7 +5459,7 @@ convert
 percentage
 to
 px
-var
+let
 regionNodeStyles
 =
 {
@@ -5717,7 +5727,7 @@ PARSE_CONTENT_MODE
 REGION_CUE
 )
 ;
-var
+let
 regionCueStyles
 =
 {
@@ -5785,7 +5795,7 @@ right
 3
 .
 3
-var
+let
 offset
 =
 cue
@@ -8295,10 +8305,8 @@ return
 null
 ;
 }
-var
+let
 controlBar
-;
-var
 controlBarShown
 ;
 if
@@ -8448,7 +8456,7 @@ true
 }
 for
 (
-var
+let
 i
 =
 0
@@ -8552,7 +8560,7 @@ remove
 )
 ;
 }
-var
+let
 rootOfCues
 =
 window
@@ -8623,7 +8631,7 @@ appendChild
 rootOfCues
 )
 ;
-var
+let
 boxPositions
 =
 [
@@ -8641,7 +8649,7 @@ function
 (
 )
 {
-var
+let
 styleBox
 cue
 controlBarBox
@@ -8713,18 +8721,18 @@ model
 /
 Create
 regionNode
-var
+let
 regionNodeBoxes
 =
 {
 }
 ;
-var
+let
 regionNodeBox
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -8802,7 +8810,7 @@ to
 exclude
 the
 controlBar
-var
+let
 adjustContainerBox
 =
 new
@@ -8868,7 +8876,7 @@ regionNodeBox
 14
 .
 3
-var
+let
 currentRegionBox
 =
 regionNodeBoxes
@@ -8880,7 +8888,7 @@ region
 id
 ]
 ;
-var
+let
 currentRegionNodeDiv
 =
 currentRegionBox
@@ -9443,14 +9451,14 @@ buffer
 )
 )
 {
-var
+let
 buffer
 =
 this
 .
 buffer
 ;
-var
+let
 pos
 =
 0
@@ -9488,7 +9496,7 @@ n
 pos
 ;
 }
-var
+let
 line
 =
 buffer
@@ -9628,7 +9636,7 @@ function
 line
 )
 {
-var
+let
 self
 =
 this
@@ -9890,7 +9898,7 @@ parseRegion
 input
 )
 {
-var
+let
 settings
 =
 new
@@ -9967,7 +9975,8 @@ case
 viewportanchor
 "
 :
-var
+{
+let
 xy
 =
 v
@@ -10014,7 +10023,7 @@ settings
 object
 here
 .
-var
+let
 anchor
 =
 new
@@ -10115,6 +10124,7 @@ y
 ;
 break
 ;
+}
 case
 "
 scroll
@@ -10232,7 +10242,7 @@ id
 {
 try
 {
-var
+let
 region
 =
 new
@@ -10439,7 +10449,7 @@ n
 "
 )
 ;
-var
+let
 regionPref
 =
 Services
@@ -11543,7 +11553,7 @@ function
 (
 )
 {
-var
+let
 self
 =
 this
