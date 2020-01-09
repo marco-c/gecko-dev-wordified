@@ -282,6 +282,13 @@ vert
 .
 splitter
 {
+/
+*
+prettier
+-
+ignore
+*
+/
 min
 -
 width
@@ -432,6 +439,13 @@ horz
 .
 splitter
 {
+/
+*
+prettier
+-
+ignore
+*
+/
 min
 -
 height
