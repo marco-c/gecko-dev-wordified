@@ -4003,6 +4003,9 @@ OUTPUT
 if
 (
 device
+&
+&
+device
 -
 >
 DeviceID
