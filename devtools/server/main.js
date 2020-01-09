@@ -788,7 +788,7 @@ destroy
 ;
 this
 .
-closeAllListeners
+closeAllSocketListeners
 (
 )
 ;
@@ -1494,7 +1494,7 @@ closed
 .
 *
 /
-closeAllListeners
+closeAllSocketListeners
 (
 )
 {
