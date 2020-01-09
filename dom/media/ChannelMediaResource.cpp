@@ -5203,11 +5203,6 @@ nsICachingChannel
 :
 LOAD_BYPASS_LOCAL_CACHE_IF_BUSY
 |
-nsIChannel
-:
-:
-LOAD_CLASSIFY_URI
-|
 (
 mLoadInBackground
 ?

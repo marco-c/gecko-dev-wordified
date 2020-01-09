@@ -1067,14 +1067,6 @@ parentDoc
 nullptr
 ;
 }
-aLoadFlags
-|
-=
-nsIChannel
-:
-:
-LOAD_CLASSIFY_URI
-;
 uint32_t
 secFlags
 =

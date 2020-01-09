@@ -3594,11 +3594,6 @@ nsIRequest
 LOAD_BACKGROUND
 |
 bypassFlag
-|
-nsIChannel
-:
-:
-LOAD_CLASSIFY_URI
 ;
 if
 (
