@@ -282,8 +282,8 @@ kIgnoreLen
 this
 string
 is
-assumed
 *
+assumed
 to
 be
 null
@@ -294,6 +294,7 @@ must
 be
 at
 least
+*
 aSrcLen
 long
 .
@@ -311,9 +312,9 @@ source
 If
 unknown
 pass
+*
 eLinebreakAny
 .
-*
 If
 known
 pass
@@ -323,6 +324,7 @@ value
 as
 this
 may
+*
 be
 more
 efficient
@@ -359,9 +361,9 @@ assumed
 to
 be
 a
+*
 null
 -
-*
 terminated
 string
 .
@@ -379,6 +381,7 @@ returned
 buffer
 if
 not
+*
 null
 .
 *
@@ -447,8 +450,8 @@ kIgnoreLen
 this
 string
 is
-assumed
 *
+assumed
 to
 be
 null
@@ -459,6 +462,7 @@ must
 be
 at
 least
+*
 aSrcLen
 long
 .
@@ -476,9 +480,9 @@ source
 If
 unknown
 pass
+*
 eLinebreakAny
 .
-*
 If
 known
 pass
@@ -488,6 +492,7 @@ value
 as
 this
 may
+*
 be
 more
 efficient
@@ -522,13 +527,13 @@ If
 the
 source
 is
+*
 assumed
 to
 be
 a
 null
 -
-*
 terminated
 string
 .
@@ -546,6 +551,7 @@ returned
 buffer
 if
 not
+*
 null
 .
 *
@@ -623,9 +629,9 @@ source
 If
 unknown
 pass
+*
 eLinebreakAny
 .
-*
 If
 known
 pass
@@ -635,6 +641,7 @@ value
 as
 this
 may
+*
 be
 more
 efficient
@@ -669,13 +676,13 @@ If
 the
 source
 is
+*
 assumed
 to
 be
 a
 null
 -
-*
 terminated
 string
 .
@@ -712,8 +719,8 @@ THIS
 MAY
 REALLOCATE
 THE
-BUFFER
 *
+BUFFER
 BUT
 IT
 WON
@@ -734,9 +741,9 @@ how
 )
 .
 So
+*
 be
 prepared
-*
 to
 keep
 a
@@ -751,12 +758,12 @@ it
 if
 this
 passes
+*
 back
 a
 new
 pointer
 .
-*
 ALSO
 NOTE
 :
@@ -770,6 +777,7 @@ STRING
 POINTER
 TO
 THIS
+*
 FUNCTION
 .
 *
@@ -788,9 +796,9 @@ aSrcLen
 kIgnoreLen
 this
 string
+*
 is
 assumed
-*
 to
 be
 null
@@ -800,6 +808,7 @@ it
 must
 be
 at
+*
 least
 aSrcLen
 long
@@ -818,9 +827,9 @@ source
 If
 unknown
 pass
+*
 eLinebreakAny
 .
-*
 If
 known
 pass
@@ -830,6 +839,7 @@ value
 as
 this
 may
+*
 be
 more
 efficient
@@ -866,9 +876,9 @@ assumed
 to
 be
 a
+*
 null
 -
-*
 terminated
 string
 .
@@ -886,6 +896,7 @@ returned
 buffer
 if
 not
+*
 null
 .
 *
@@ -931,8 +942,8 @@ THIS
 MAY
 REALLOCATE
 THE
-BUFFER
 *
+BUFFER
 BUT
 IT
 WON
@@ -953,9 +964,9 @@ how
 )
 .
 So
+*
 be
 prepared
-*
 to
 keep
 a
@@ -970,6 +981,7 @@ it
 if
 this
 passes
+*
 back
 a
 new
@@ -991,9 +1003,9 @@ aSrcLen
 kIgnoreLen
 this
 string
+*
 is
 assumed
-*
 to
 be
 null
@@ -1003,6 +1015,7 @@ it
 must
 be
 at
+*
 least
 aSrcLen
 long
@@ -1021,9 +1034,9 @@ source
 If
 unknown
 pass
+*
 eLinebreakAny
 .
-*
 If
 known
 pass
@@ -1033,6 +1046,7 @@ value
 as
 this
 may
+*
 be
 more
 efficient
@@ -1067,13 +1081,13 @@ If
 the
 source
 is
+*
 assumed
 to
 be
 a
 null
 -
-*
 terminated
 string
 .
@@ -1091,6 +1105,7 @@ returned
 buffer
 if
 not
+*
 null
 .
 *

@@ -13,7 +13,7 @@ tab
 -
 width
 :
-2
+8
 ;
 indent
 -
@@ -30,7 +30,6 @@ basic
 offset
 :
 2
-;
 -
 *
 -

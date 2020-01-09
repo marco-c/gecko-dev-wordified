@@ -1610,9 +1610,6 @@ return
 NS_OK
 ;
 }
-#
-define
-NS_WINDOWSSYSTEMPROXYSERVICE_CID
 /
 *
 4e22d3ea
@@ -1626,6 +1623,9 @@ ada4
 9247de57d367
 *
 /
+#
+define
+NS_WINDOWSSYSTEMPROXYSERVICE_CID
 \
 {
 0x4e22d3ea

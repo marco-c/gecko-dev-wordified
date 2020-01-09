@@ -8566,6 +8566,7 @@ is
 not
 allowed
 on
+*
 the
 current
 process
@@ -8581,6 +8582,7 @@ GeckoView
 persistence
 and
 recorded
+*
 actions
 .
 *
@@ -8982,8 +8984,8 @@ This
 is
 only
 meaningful
-when
 *
+when
 this
 function
 is
@@ -8998,8 +9000,8 @@ that
 s
 the
 case
-if
 *
+if
 this
 is
 not
@@ -11171,8 +11173,8 @@ This
 is
 only
 meaningful
-when
 *
+when
 this
 function
 is
@@ -11187,8 +11189,8 @@ that
 s
 the
 case
-if
 *
+if
 this
 is
 not
@@ -11235,8 +11237,8 @@ this
 is
 a
 keyed
-string
 *
+string
 scalar
 .
 *
@@ -12782,6 +12784,7 @@ is
 for
 dynamic
 builtin
+*
 scalars
 .
 *
@@ -13251,6 +13254,7 @@ is
 for
 dynamic
 builtin
+*
 scalars
 .
 *

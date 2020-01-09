@@ -747,6 +747,7 @@ buffer
 -
 must
 be
+*
 equal
 to
 the
@@ -768,6 +769,7 @@ filled
 in
 the
 same
+*
 order
 as
 the

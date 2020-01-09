@@ -2183,6 +2183,8 @@ profiler
 '
 s
 circular
+/
+/
 buffer
 .
 /
@@ -7133,9 +7135,9 @@ variant
 It
 retrieves
 the
+/
+/
 ProfilingStack
-/
-/
 from
 the
 JSContext
@@ -7146,6 +7148,8 @@ if
 the
 profiler
 is
+/
+/
 inactive
 .
 AutoProfilerLabel

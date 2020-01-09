@@ -1796,11 +1796,11 @@ to
 handle
 multiple
 OnStartRequest
+/
+/
 OnDataAvail
 (
 )
-/
-/
 and
 OnStopRequest
 (
@@ -1812,6 +1812,8 @@ We
 call
 of
 series
+/
+/
 of
 these
 for
@@ -1819,8 +1821,6 @@ each
 sub
 -
 part
-/
-/
 in
 the
 raw

@@ -1015,6 +1015,7 @@ found
 a
 failure
 value
+*
 otherwise
 .
 *
@@ -1156,6 +1157,7 @@ pointer
 holding
 the
 file
+*
 info
 .
 *
@@ -1173,6 +1175,7 @@ found
 a
 failure
 value
+*
 otherwise
 .
 *
@@ -1326,6 +1329,7 @@ read
 an
 error
 code
+*
 otherwise
 .
 *

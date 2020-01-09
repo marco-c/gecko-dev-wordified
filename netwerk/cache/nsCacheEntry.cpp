@@ -567,6 +567,7 @@ wait
 until
 valid
 or
+*
 doomed
 )
 *

@@ -1852,6 +1852,11 @@ g
 .
 if
 it
+/
+/
+/
+/
+/
 doesn
 '
 t
@@ -1861,11 +1866,6 @@ check
 GL
 info
 )
-/
-/
-/
-/
-/
 so
 we
 might
@@ -1874,6 +1874,11 @@ staying
 alive
 for
 longer
+/
+/
+/
+/
+/
 than
 expected
 so
@@ -1909,6 +1914,11 @@ do
 that
 too
 without
+/
+/
+/
+/
+/
 generating
 X
 errors

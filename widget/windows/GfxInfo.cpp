@@ -316,9 +316,9 @@ be
 called
 until
 after
+*
 gfxPlatform
 initialization
-*
 has
 occurred
 because
@@ -327,6 +327,7 @@ depend
 on
 it
 for
+*
 information
 .
 (
@@ -2104,6 +2105,7 @@ Machine
 so
 we
 need
+*
 to
 compare
 case

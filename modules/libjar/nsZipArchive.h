@@ -1498,6 +1498,7 @@ Read
 size
 in
 the
+*
 compressed
 case
 .

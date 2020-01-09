@@ -6021,6 +6021,7 @@ false
 )
 Jumplistcache
 and
+*
 (
 true
 )
@@ -7996,6 +7997,7 @@ jumplistcache
 false
 )
 and
+*
 shortcutcache
 (
 true

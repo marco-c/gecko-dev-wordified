@@ -2176,6 +2176,8 @@ output
 stream
 has
 been
+/
+/
 opened
 .
 /
@@ -2193,9 +2195,9 @@ flag
 is
 false
 output
+/
+/
 stream
-/
-/
 is
 open
 along
@@ -2207,10 +2209,10 @@ streams
 on
 new
 entries
+/
+/
 behave
 correctly
-/
-/
 when
 EOF
 is
@@ -2239,9 +2241,9 @@ to
 false
 when
 a
+/
+/
 writer
-/
-/
 fails
 to
 open

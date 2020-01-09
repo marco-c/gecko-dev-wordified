@@ -339,11 +339,11 @@ application
 that
 we
 got
+/
+/
 out
 of
 the
-/
-/
 rdf
 data
 source
@@ -354,6 +354,8 @@ be
 a
 mac
 file
+/
+/
 spec
 a
 unix
@@ -365,6 +367,8 @@ path
 depending
 on
 the
+/
+/
 platform
 /
 /

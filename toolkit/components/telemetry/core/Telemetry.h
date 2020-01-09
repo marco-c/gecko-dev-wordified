@@ -1519,6 +1519,7 @@ Histograms
 .
 json
 for
+*
 this
 histogram
 .

@@ -1046,6 +1046,7 @@ new
 objects
 with
 defaults
+*
 determined
 by
 GTK
@@ -1065,6 +1066,7 @@ careful
 when
 accessing
 this
+*
 property
 .
 *

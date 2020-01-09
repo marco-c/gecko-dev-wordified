@@ -1720,6 +1720,7 @@ false
 if
 it
 can
+*
 not
 be
 interrupted

@@ -825,6 +825,7 @@ and
 find
 available
 generation
+*
 numbers
 .
 *
@@ -853,6 +854,7 @@ data
 fits
 in
 block
+*
 file
 )
 *

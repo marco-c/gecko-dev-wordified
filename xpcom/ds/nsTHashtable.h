@@ -3296,6 +3296,7 @@ T
 >
 >
 :
+*
 protected
 nsTHashtable
 <

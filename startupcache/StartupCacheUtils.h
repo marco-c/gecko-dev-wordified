@@ -30,7 +30,6 @@ basic
 offset
 :
 2
-;
 -
 *
 -

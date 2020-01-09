@@ -2818,6 +2818,7 @@ from
 the
 start
 of
+*
 the
 buffer
 *
@@ -2832,6 +2833,7 @@ chars
 from
 the
 start
+*
 of
 the
 buffer
@@ -3117,6 +3119,7 @@ from
 the
 start
 of
+*
 the
 buffer
 *
@@ -3131,6 +3134,7 @@ chars
 from
 the
 start
+*
 of
 the
 buffer
@@ -3426,6 +3430,7 @@ from
 the
 start
 of
+*
 the
 buffer
 *
@@ -3440,6 +3445,7 @@ chars
 from
 the
 start
+*
 of
 the
 buffer
@@ -3652,6 +3658,7 @@ from
 the
 start
 of
+*
 the
 buffer
 *
@@ -3666,6 +3673,7 @@ chars
 from
 the
 start
+*
 of
 the
 buffer

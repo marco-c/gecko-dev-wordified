@@ -180,6 +180,8 @@ the
 following
 Microsoft
 documentation
+/
+/
 pages
 (
 both
@@ -192,9 +194,6 @@ retrieved
 )
 /
 /
-[
-1
-]
 https
 :
 /
@@ -227,9 +226,6 @@ vs
 aspx
 /
 /
-[
-2
-]
 https
 :
 /

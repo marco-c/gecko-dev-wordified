@@ -571,6 +571,12 @@ mTunneledConn
 OnWriteSegment
 (
 )
+/
+/
+gets
+data
+from
+mInputData
 SpdyConnectTransaction
 .
 mTunneledConn
@@ -581,12 +587,6 @@ mTunnelStreamIn
 Read
 (
 )
-/
-/
-gets
-data
-from
-mInputData
 The
 output
 path

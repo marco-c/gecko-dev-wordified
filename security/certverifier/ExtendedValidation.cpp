@@ -865,6 +865,12 @@ kEVInfos
 {
 /
 /
+clang
+-
+format
+off
+/
+/
 IMPORTANT
 !
 When
@@ -980,9 +986,9 @@ these
 debug
 EV
 certs
+/
+/
 are
-/
-/
 NOT
 part
 of
@@ -7578,6 +7584,12 @@ VrYpzTS8ePY
 =
 "
 }
+/
+/
+clang
+-
+format
+on
 }
 ;
 static

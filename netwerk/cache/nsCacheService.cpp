@@ -16849,11 +16849,16 @@ if
 (
 newWriter
 )
+{
+/
+/
 NS_ASSERTION
 (
 accessGranted
 =
 =
+/
+/
 request
 -
 >
@@ -16867,6 +16872,9 @@ not
 "
 )
 ;
+/
+/
+}
 /
 /
 entry

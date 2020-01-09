@@ -288,6 +288,7 @@ can
 set
 the
 bounds
+*
 after
 CreateView
 *
@@ -361,6 +362,7 @@ can
 set
 it
 after
+*
 CreateView
 *
 result
@@ -1472,13 +1474,13 @@ auto
 "
 .
 An
+*
 "
 auto
 "
 z
 -
 index
-*
 means
 that
 the
@@ -1489,8 +1491,8 @@ define
 a
 new
 stacking
-context
 *
+context
 which
 means
 that

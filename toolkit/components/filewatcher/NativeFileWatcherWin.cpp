@@ -5492,6 +5492,7 @@ to
 all
 the
 registered
+*
 callbacks
 .
 *
@@ -5527,9 +5528,9 @@ a
 |
 nsresult
 |
+*
 error
 code
-*
 otherwise
 .
 *
@@ -6146,6 +6147,7 @@ describing
 the
 directory
 to
+*
 watch
 .
 *
@@ -6163,8 +6165,8 @@ an
 error
 callback
 to
-the
 *
+the
 main
 thread
 fails
@@ -6179,10 +6181,10 @@ here
 .
 If
 the
+*
 OS
 API
 call
-*
 does
 not
 fail
@@ -6207,6 +6209,7 @@ error
 |
 false
 |
+*
 otherwise
 .
 *
@@ -8095,9 +8098,9 @@ the
 instance
 was
 not
+*
 initialized
 .
-*
 Other
 errors
 are
@@ -8106,6 +8109,7 @@ by
 the
 error
 callback
+*
 function
 .
 *

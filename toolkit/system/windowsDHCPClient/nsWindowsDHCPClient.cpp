@@ -448,9 +448,6 @@ return
 NS_OK
 ;
 }
-#
-define
-NS_WINDOWSDHCPCLIENTSERVICE_CID
 /
 *
 {
@@ -466,6 +463,9 @@ FEBF1D69
 }
 *
 /
+#
+define
+NS_WINDOWSDHCPCLIENTSERVICE_CID
 \
 {
 0xFEBF1D69

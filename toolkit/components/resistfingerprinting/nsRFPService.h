@@ -1206,6 +1206,7 @@ document
 for
 getting
 content
+*
 language
 .
 *
@@ -1317,6 +1318,7 @@ document
 for
 getting
 content
+*
 language
 .
 *
@@ -1357,6 +1359,7 @@ in
 the
 fake
 keyboard
+*
 layout
 .
 *
@@ -1409,6 +1412,7 @@ document
 for
 getting
 content
+*
 language
 .
 *
@@ -1448,6 +1452,7 @@ keyCode
 in
 the
 fake
+*
 keyboard
 layout
 .

@@ -2603,10 +2603,10 @@ An
 "
 auto
 "
+*
 z
 -
 index
-*
 means
 that
 the
@@ -2617,8 +2617,8 @@ define
 a
 new
 stacking
-context
 *
+context
 which
 means
 that
@@ -2631,9 +2631,9 @@ the
 view
 '
 s
+*
 children
 are
-*
 relative
 to
 the

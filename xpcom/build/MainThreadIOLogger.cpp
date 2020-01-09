@@ -934,6 +934,12 @@ failed
 }
 }
 /
+/
+clang
+-
+format
+off
+/
 *
 *
 *
@@ -955,6 +961,12 @@ Source
 Filename
 *
 /
+/
+/
+clang
+-
+format
+on
 if
 (
 PR_fprintf

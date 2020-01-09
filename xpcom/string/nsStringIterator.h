@@ -295,6 +295,12 @@ nullptr
 }
 /
 /
+clang
+-
+format
+off
+/
+/
 nsReadingIterator
 (
 const
@@ -342,6 +348,12 @@ copy
 assignment
 operator
 OK
+/
+/
+clang
+-
+format
+on
 pointer
 get
 (

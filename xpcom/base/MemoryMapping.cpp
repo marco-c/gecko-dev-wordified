@@ -1041,6 +1041,12 @@ name
 ;
 /
 /
+clang
+-
+format
+off
+/
+/
 Match
 the
 start
@@ -1082,6 +1088,12 @@ libc
 27
 .
 so
+/
+/
+clang
+-
+format
+on
 if
 (
 sscanf

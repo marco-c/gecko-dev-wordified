@@ -190,6 +190,12 @@ struct
 nsDiskCacheEntry
 ;
 /
+/
+clang
+-
+format
+off
+/
 *
 *
 *
@@ -534,6 +540,12 @@ necessary
 *
 *
 /
+/
+/
+clang
+-
+format
+on
 /
 *
 We

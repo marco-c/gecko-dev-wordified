@@ -578,6 +578,7 @@ doesn
 '
 t
 have
+*
 the
 data
 .

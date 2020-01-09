@@ -452,6 +452,12 @@ keysymtab
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 {
 0x01a1
 0x0104
@@ -10530,6 +10536,12 @@ EURO
 SIGN
 *
 /
+/
+/
+clang
+-
+format
+on
 }
 ;
 long

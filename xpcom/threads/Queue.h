@@ -829,6 +829,7 @@ page
 and
 tail
 points
+*
 page
 1
 .

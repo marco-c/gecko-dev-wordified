@@ -5533,6 +5533,7 @@ allocate
 memory
 for
 the
+*
 snapshot
 .
 *
@@ -6562,6 +6563,7 @@ snapshot
 data
 will
 be
+*
 stored
 .
 *
@@ -9795,6 +9797,7 @@ snapshot
 data
 will
 be
+*
 stored
 .
 *

@@ -3234,9 +3234,6 @@ aResult
 )
 ;
 }
-#
-define
-NS_UNIXSYSTEMPROXYSERVICE_CID
 /
 *
 0fa3158c
@@ -3250,6 +3247,9 @@ d5a7
 a285e74cf1d4
 *
 /
+#
+define
+NS_UNIXSYSTEMPROXYSERVICE_CID
 \
 {
 0x0fa3158c

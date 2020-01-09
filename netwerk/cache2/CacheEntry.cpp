@@ -2125,6 +2125,8 @@ check
 there
 is
 a
+/
+/
 disk
 file
 .
@@ -2146,9 +2148,9 @@ this
 entry
 will
 open
+/
+/
 instantly
-/
-/
 as
 a
 new
