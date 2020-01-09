@@ -1178,7 +1178,9 @@ config
 .
 mCrypto
 .
-mValid
+IsEncrypted
+(
+)
 ;
 if
 (

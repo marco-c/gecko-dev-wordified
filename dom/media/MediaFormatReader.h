@@ -3463,7 +3463,9 @@ GetCurrentInfo
 >
 mCrypto
 .
-mValid
+IsEncrypted
+(
+)
 ;
 }
 /
