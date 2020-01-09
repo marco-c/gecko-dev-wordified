@@ -1324,6 +1324,8 @@ override
 bool
 RemoveOrRefresh
 (
+bool
+aTrrToo
 )
 ;
 /
@@ -1333,10 +1335,10 @@ records
 currently
 being
 resolved
+/
+/
 as
 needed
-/
-/
 to
 resolve
 again
@@ -2915,6 +2917,8 @@ cache
 void
 FlushCache
 (
+bool
+aTrrToo
 )
 ;
 LookupStatus
