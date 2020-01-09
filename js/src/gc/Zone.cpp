@@ -3176,6 +3176,8 @@ js
 :
 AllocFunction
 allocFunc
+arena_id_t
+arena
 size_t
 nbytes
 void
@@ -3208,6 +3210,7 @@ runtimeFromMainThread
 onOutOfMemory
 (
 allocFunc
+arena
 nbytes
 reallocPtr
 )

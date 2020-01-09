@@ -153,6 +153,10 @@ cx_
 onOutOfMemory
 (
 allocFunc
+js
+:
+:
+MallocArena
 nbytes
 reallocPtr
 )

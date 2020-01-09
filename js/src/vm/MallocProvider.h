@@ -751,6 +751,7 @@ AllocFunction
 :
 :
 Malloc
+arena
 bytes
 )
 ;
@@ -880,6 +881,10 @@ AllocFunction
 :
 :
 Malloc
+js
+:
+:
+MallocArena
 bytes
 )
 ;
@@ -1043,6 +1048,7 @@ AllocFunction
 :
 :
 Calloc
+arena
 bytes
 )
 ;
@@ -1169,6 +1175,10 @@ AllocFunction
 :
 :
 Calloc
+js
+:
+:
+MallocArena
 bytes
 )
 ;
@@ -1326,6 +1336,10 @@ AllocFunction
 :
 :
 Realloc
+js
+:
+:
+MallocArena
 bytes
 prior
 )

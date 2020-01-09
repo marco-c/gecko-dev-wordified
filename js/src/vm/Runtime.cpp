@@ -4178,6 +4178,8 @@ onOutOfMemory
 (
 AllocFunction
 allocFunc
+arena_id_t
+arena
 size_t
 nbytes
 void
@@ -4277,8 +4279,9 @@ Malloc
 :
 p
 =
-js_malloc
+js_arena_malloc
 (
+arena
 nbytes
 )
 ;
@@ -4292,9 +4295,11 @@ Calloc
 :
 p
 =
-js_calloc
+js_arena_calloc
 (
+arena
 nbytes
+1
 )
 ;
 break
@@ -4356,6 +4361,8 @@ onOutOfMemoryCanGC
 (
 AllocFunction
 allocFunc
+arena_id_t
+arena
 size_t
 bytes
 void
@@ -4383,6 +4390,7 @@ return
 onOutOfMemory
 (
 allocFunc
+arena
 bytes
 reallocPtr
 )

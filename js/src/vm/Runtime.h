@@ -5594,6 +5594,8 @@ js
 :
 AllocFunction
 allocator
+arena_id_t
+arena
 size_t
 nbytes
 void
@@ -5628,6 +5630,8 @@ js
 :
 AllocFunction
 allocator
+arena_id_t
+arena
 size_t
 nbytes
 void
