@@ -1801,6 +1801,17 @@ arguments
 ;
 return
 {
+environment
+/
+/
+Backwards
+compatibility
+-
+-
+see
+bug
+1477255
+.
 normandy
 :
 environment
