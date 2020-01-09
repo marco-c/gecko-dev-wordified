@@ -5694,6 +5694,12 @@ MainThreadData
 <
 bool
 >
+hasMarkedGrayRoots
+;
+MainThreadData
+<
+bool
+>
 abortSweepAfterCurrentGroup
 ;
 friend
