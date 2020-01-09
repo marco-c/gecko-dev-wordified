@@ -47,6 +47,15 @@ Bundle
 import
 android
 .
+support
+.
+annotation
+.
+AnyThread
+;
+import
+android
+.
 util
 .
 Log
@@ -582,6 +591,7 @@ GeckoRuntime
 ACTION_CRASHED
 *
 /
+AnyThread
 public
 static
 GeckoResult
@@ -821,6 +831,7 @@ GeckoRuntime
 ACTION_CRASHED
 *
 /
+AnyThread
 public
 static
 GeckoResult
@@ -1132,6 +1143,7 @@ GeckoRuntime
 ACTION_CRASHED
 *
 /
+AnyThread
 public
 static
 GeckoResult
@@ -1380,6 +1392,7 @@ GeckoRuntime
 ACTION_CRASHED
 *
 /
+AnyThread
 public
 static
 GeckoResult

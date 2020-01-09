@@ -345,6 +345,7 @@ util
 .
 LinkedList
 ;
+UiThread
 public
 class
 SessionAccessibility
@@ -3749,6 +3750,12 @@ getView
 (
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 return
 mView
 ;
@@ -4352,6 +4359,12 @@ MotionEvent
 event
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 if
 (
 !

@@ -135,6 +135,15 @@ annotation
 NonNull
 ;
 import
+android
+.
+support
+.
+annotation
+.
+UiThread
+;
+import
 java
 .
 nio
@@ -155,6 +164,7 @@ util
 .
 List
 ;
+UiThread
 public
 final
 class
@@ -171,6 +181,7 @@ public
 interface
 GetPixelsCallback
 {
+UiThread
 void
 onPixelsResult
 (

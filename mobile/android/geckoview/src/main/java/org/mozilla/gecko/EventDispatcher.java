@@ -236,6 +236,15 @@ Handler
 import
 android
 .
+support
+.
+annotation
+.
+AnyThread
+;
+import
+android
+.
 util
 .
 Log
@@ -1540,6 +1549,7 @@ events
 .
 *
 /
+AnyThread
 public
 void
 dispatch

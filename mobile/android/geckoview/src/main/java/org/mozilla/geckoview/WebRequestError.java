@@ -132,6 +132,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 IntDef
 ;
 import
@@ -185,6 +194,7 @@ WebRequestError
 .
 *
 /
+AnyThread
 public
 class
 WebRequestError

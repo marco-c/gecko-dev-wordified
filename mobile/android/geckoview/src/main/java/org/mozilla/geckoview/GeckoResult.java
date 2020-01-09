@@ -55,6 +55,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 NonNull
 ;
 import
@@ -1598,6 +1607,7 @@ GeckoResult
 .
 *
 /
+AnyThread
 public
 class
 GeckoResult
@@ -4262,6 +4272,7 @@ chain
 .
 *
 /
+AnyThread
 Nullable
 GeckoResult
 <
@@ -4418,6 +4429,7 @@ chain
 .
 *
 /
+AnyThread
 Nullable
 GeckoResult
 <

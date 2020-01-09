@@ -125,6 +125,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 NonNull
 ;
 import
@@ -188,6 +197,7 @@ types
 *
 /
 WrapForJNI
+AnyThread
 public
 abstract
 class
@@ -442,6 +452,7 @@ WebMessage
 .
 *
 /
+AnyThread
 public
 static
 abstract

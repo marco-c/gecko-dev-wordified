@@ -125,6 +125,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 NonNull
 ;
 import
@@ -166,6 +175,7 @@ WebRequest
 *
 /
 WrapForJNI
+AnyThread
 public
 class
 WebResponse
@@ -271,6 +281,7 @@ instances
 *
 /
 WrapForJNI
+AnyThread
 public
 static
 class

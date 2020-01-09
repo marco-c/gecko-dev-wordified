@@ -107,6 +107,15 @@ mozilla
 .
 geckoview
 ;
+import
+android
+.
+support
+.
+annotation
+.
+AnyThread
+;
 /
 *
 *
@@ -124,6 +133,7 @@ request
 .
 *
 /
+AnyThread
 public
 enum
 AllowOrDeny

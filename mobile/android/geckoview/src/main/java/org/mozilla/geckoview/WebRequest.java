@@ -125,6 +125,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 IntDef
 ;
 import
@@ -218,6 +227,7 @@ WebRequest
 *
 /
 WrapForJNI
+AnyThread
 public
 class
 WebRequest
@@ -759,6 +769,7 @@ instances
 .
 *
 /
+AnyThread
 public
 static
 class

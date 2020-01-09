@@ -146,6 +146,15 @@ SystemClock
 import
 android
 .
+support
+.
+annotation
+.
+UiThread
+;
+import
+android
+.
 util
 .
 Log
@@ -178,6 +187,7 @@ util
 .
 ArrayList
 ;
+UiThread
 public
 class
 PanZoomController

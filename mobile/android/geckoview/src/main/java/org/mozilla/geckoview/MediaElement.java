@@ -114,6 +114,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 IntDef
 ;
 import
@@ -194,6 +203,7 @@ externally
 *
 *
 /
+AnyThread
 public
 class
 MediaElement

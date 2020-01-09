@@ -156,6 +156,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 NonNull
 ;
 import
@@ -218,6 +227,7 @@ operations
 .
 *
 /
+AnyThread
 public
 final
 class

@@ -114,6 +114,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 NonNull
 ;
 import
@@ -311,6 +320,7 @@ results
 .
 *
 /
+AnyThread
 public
 NonNull
 GeckoResult

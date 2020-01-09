@@ -3329,6 +3329,7 @@ TargetApi
 (
 23
 )
+UiThread
 public
 void
 onProvideAutofillVirtualStructure
@@ -3552,6 +3553,7 @@ values
 .
 *
 /
+UiThread
 public
 void
 autofill

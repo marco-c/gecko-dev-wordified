@@ -181,6 +181,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 IntDef
 ;
 import
@@ -243,6 +252,7 @@ GeckoSession
 .
 TrackingProtectionDelegate
 ;
+AnyThread
 public
 final
 class
@@ -265,6 +275,7 @@ object
 .
 *
 /
+AnyThread
 public
 static
 final

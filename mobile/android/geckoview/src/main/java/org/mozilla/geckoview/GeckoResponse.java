@@ -107,6 +107,15 @@ mozilla
 .
 geckoview
 ;
+import
+android
+.
+support
+.
+annotation
+.
+AnyThread
+;
 /
 *
 *
@@ -155,6 +164,7 @@ response
 .
 *
 /
+AnyThread
 void
 respond
 (

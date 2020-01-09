@@ -1365,7 +1365,11 @@ IS_COMPOSITOR_CONTROLLER_OPEN
 =
 21
 ;
+/
+*
 protected
+*
+/
 class
 Compositor
 extends
@@ -1979,7 +1983,11 @@ disposeNative
 ;
 }
 }
-protected
+/
+*
+package
+*
+/
 final
 Compositor
 mCompositor
@@ -5975,6 +5983,7 @@ UserAgent
 string
 *
 /
+AnyThread
 public
 NonNull
 GeckoResult
@@ -6064,12 +6073,19 @@ delegate
 .
 *
 /
+UiThread
 public
 PermissionDelegate
 getPermissionDelegate
 (
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 return
 mPermissionHandler
 .
@@ -6106,6 +6122,7 @@ delegate
 .
 *
 /
+UiThread
 public
 void
 setPermissionDelegate
@@ -6115,6 +6132,12 @@ PermissionDelegate
 delegate
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 mPermissionHandler
 .
 setDelegate
@@ -7531,6 +7554,7 @@ Override
 /
 /
 Parcelable
+AnyThread
 public
 int
 describeContents
@@ -7545,6 +7569,7 @@ Override
 /
 /
 Parcelable
+AnyThread
 public
 void
 writeToParcel
@@ -7595,6 +7620,7 @@ part
 of
 Parcelable
 .
+AnyThread
 public
 void
 readFromParcel
@@ -7710,6 +7736,7 @@ GeckoSession
 )
 {
 Override
+AnyThread
 public
 GeckoSession
 createFromParcel
@@ -7740,6 +7767,7 @@ session
 ;
 }
 Override
+AnyThread
 public
 GeckoSession
 [
@@ -7762,6 +7790,7 @@ size
 }
 ;
 Override
+AnyThread
 public
 int
 hashCode
@@ -7777,6 +7806,7 @@ hashCode
 ;
 }
 Override
+AnyThread
 public
 boolean
 equals
@@ -7836,6 +7866,7 @@ see
 close
 *
 /
+AnyThread
 public
 boolean
 isOpen
@@ -8936,6 +8967,7 @@ load
 .
 *
 /
+AnyThread
 public
 void
 loadUri
@@ -9000,6 +9032,7 @@ LOAD_FLAGS_
 }
 *
 /
+AnyThread
 public
 void
 loadUri
@@ -9075,6 +9108,7 @@ LOAD_FLAGS_
 }
 *
 /
+AnyThread
 public
 void
 loadUri
@@ -9173,6 +9207,7 @@ load
 .
 *
 /
+AnyThread
 public
 void
 loadUri
@@ -9236,6 +9271,7 @@ LOAD_FLAGS_
 }
 *
 /
+AnyThread
 public
 void
 loadUri
@@ -9316,6 +9352,7 @@ LOAD_FLAGS_
 }
 *
 /
+AnyThread
 public
 void
 loadUri
@@ -9416,6 +9453,7 @@ guessed
 *
 *
 /
+AnyThread
 public
 void
 loadString
@@ -9520,6 +9558,7 @@ guessed
 .
 *
 /
+AnyThread
 public
 void
 loadData
@@ -9635,6 +9674,7 @@ URI
 String
 *
 /
+AnyThread
 public
 static
 String
@@ -9755,6 +9795,7 @@ URI
 String
 *
 /
+AnyThread
 public
 static
 String
@@ -9807,6 +9848,7 @@ URI
 .
 *
 /
+AnyThread
 public
 void
 reload
@@ -9835,6 +9877,7 @@ loading
 .
 *
 /
+AnyThread
 public
 void
 stop
@@ -9865,6 +9908,7 @@ history
 .
 *
 /
+AnyThread
 public
 void
 goBack
@@ -9895,6 +9939,7 @@ history
 .
 *
 /
+AnyThread
 public
 void
 goForward
@@ -10171,6 +10216,7 @@ operation
 .
 *
 /
+AnyThread
 public
 static
 final
@@ -10619,6 +10665,7 @@ instance
 .
 *
 /
+AnyThread
 public
 SessionFinder
 getFinder
@@ -10735,6 +10782,7 @@ see
 setFocused
 *
 /
+AnyThread
 public
 void
 setActive
@@ -10848,6 +10896,7 @@ see
 setActive
 *
 /
+AnyThread
 public
 void
 setFocused
@@ -10902,6 +10951,7 @@ state
 .
 *
 /
+AnyThread
 public
 static
 class
@@ -11184,6 +11234,7 @@ SessionState
 }
 *
 /
+AnyThread
 public
 NonNull
 GeckoResult
@@ -11313,6 +11364,7 @@ saveState
 .
 *
 /
+AnyThread
 public
 void
 restoreState
@@ -11592,6 +11644,7 @@ mDisplay
 null
 ;
 }
+AnyThread
 public
 GeckoSessionSettings
 getSettings
@@ -11611,6 +11664,7 @@ fullscreen
 mode
 *
 /
+AnyThread
 public
 void
 exitFullScreen
@@ -11658,6 +11712,7 @@ ContentDelegate
 .
 *
 /
+UiThread
 public
 void
 setContentDelegate
@@ -11666,6 +11721,12 @@ ContentDelegate
 delegate
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 mContentHandler
 .
 setDelegate
@@ -11695,12 +11756,19 @@ handler
 .
 *
 /
+UiThread
 public
 ContentDelegate
 getContentDelegate
 (
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 return
 mContentHandler
 .
@@ -11737,6 +11805,7 @@ ProgressDelegate
 .
 *
 /
+UiThread
 public
 void
 setProgressDelegate
@@ -11745,6 +11814,12 @@ ProgressDelegate
 delegate
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 mProgressHandler
 .
 setDelegate
@@ -11774,12 +11849,19 @@ handler
 .
 *
 /
+UiThread
 public
 ProgressDelegate
 getProgressDelegate
 (
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 return
 mProgressHandler
 .
@@ -11816,6 +11898,7 @@ NavigationDelegate
 .
 *
 /
+UiThread
 public
 void
 setNavigationDelegate
@@ -11824,6 +11907,12 @@ NavigationDelegate
 delegate
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 mNavigationHandler
 .
 setDelegate
@@ -11853,12 +11942,19 @@ handler
 .
 *
 /
+UiThread
 public
 NavigationDelegate
 getNavigationDelegate
 (
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 return
 mNavigationHandler
 .
@@ -11896,6 +11992,7 @@ ScrollDelegate
 .
 *
 /
+UiThread
 public
 void
 setScrollDelegate
@@ -11904,6 +12001,12 @@ ScrollDelegate
 delegate
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 mScrollHandler
 .
 setDelegate
@@ -11913,12 +12016,19 @@ this
 )
 ;
 }
+UiThread
 public
 ScrollDelegate
 getScrollDelegate
 (
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 return
 mScrollHandler
 .
@@ -11967,6 +12077,7 @@ unset
 .
 *
 /
+AnyThread
 public
 void
 setHistoryDelegate
@@ -11999,6 +12110,7 @@ session
 .
 *
 /
+AnyThread
 public
 Nullable
 HistoryDelegate
@@ -12043,6 +12155,7 @@ TrackingProtectionDelegate
 .
 *
 /
+AnyThread
 public
 void
 setTrackingProtectionDelegate
@@ -12082,6 +12195,7 @@ handler
 .
 *
 /
+AnyThread
 public
 TrackingProtectionDelegate
 getTrackingProtectionDelegate
@@ -12126,6 +12240,7 @@ delegate
 .
 *
 /
+AnyThread
 public
 void
 setPromptDelegate
@@ -12167,6 +12282,7 @@ delegate
 .
 *
 /
+AnyThread
 public
 PromptDelegate
 getPromptDelegate
@@ -12204,6 +12320,7 @@ unset
 .
 *
 /
+UiThread
 public
 void
 setSelectionActionDelegate
@@ -12213,6 +12330,12 @@ SelectionActionDelegate
 delegate
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 if
 (
 getSelectionActionDelegate
@@ -12328,6 +12451,7 @@ MediaDelegate
 .
 *
 /
+AnyThread
 public
 void
 setMediaDelegate
@@ -12367,6 +12491,7 @@ handler
 .
 *
 /
+AnyThread
 public
 Nullable
 MediaDelegate
@@ -12409,6 +12534,7 @@ set
 .
 *
 /
+AnyThread
 public
 Nullable
 SelectionActionDelegate
@@ -14979,6 +15105,7 @@ break
 }
 }
 }
+UiThread
 protected
 void
 setShouldPinOnScreen
@@ -15046,6 +15173,7 @@ return
 mShouldPinOnScreen
 ;
 }
+AnyThread
 public
 EventDispatcher
 getEventDispatcher
@@ -15882,6 +16010,7 @@ response
 .
 *
 /
+AnyThread
 static
 public
 class
