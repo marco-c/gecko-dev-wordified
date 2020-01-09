@@ -326,11 +326,6 @@ revealFnFirst
 revealFnSecond
 )
 {
-await
-enableWebComponents
-(
-)
-;
 const
 {
 inspector

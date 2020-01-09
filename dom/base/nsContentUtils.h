@@ -20870,16 +20870,6 @@ nsString
 aString
 )
 ;
-static
-bool
-IsCustomElementsEnabled
-(
-)
-{
-return
-sIsCustomElementsEnabled
-;
-}
 /
 *
 *
