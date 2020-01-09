@@ -238,7 +238,7 @@ TransformOrigin
 generic
 :
 :
-TransformOrigin
+GenericTransformOrigin
 <
 LengthPercentage
 LengthPercentage
