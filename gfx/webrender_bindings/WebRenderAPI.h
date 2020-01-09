@@ -1867,10 +1867,11 @@ Flat
 wr
 :
 :
-ReferenceFrameKind
+WrReferenceFrameKind
 :
 :
 Transform
+nullptr
 /
 *
 is_backface_visible
