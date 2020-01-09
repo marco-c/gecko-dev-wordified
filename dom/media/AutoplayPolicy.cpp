@@ -668,6 +668,16 @@ GetExtantDoc
 ;
 if
 (
+!
+approver
+)
+{
+return
+false
+;
+}
+if
+(
 nsContentUtils
 :
 :
