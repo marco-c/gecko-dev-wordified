@@ -5451,12 +5451,6 @@ PendingBinding
 >
 mPendingBinding
 ;
-nsAtom
-*
-mTag
-=
-nullptr
-;
 /
 /
 For
@@ -5505,9 +5499,6 @@ UniquePtr
 PendingBinding
 >
 aPendingBinding
-nsAtom
-*
-aTag
 )
 ;
 /
@@ -5528,9 +5519,7 @@ XBLBindingLoadInfo
 Returns
 null
 mStyle
-/
-mTag
-members
+member
 to
 signal
 an
@@ -5559,9 +5548,6 @@ ComputedStyle
 nsIFrame
 *
 aParentFrame
-nsAtom
-*
-aTag
 uint32_t
 aFlags
 )
@@ -5611,9 +5597,6 @@ ComputedStyle
 nsIFrame
 *
 aParentFrame
-nsAtom
-*
-aTag
 uint32_t
 aFlags
 )
@@ -5631,9 +5614,6 @@ ComputedStyle
 nsIFrame
 *
 aParentFrame
-nsAtom
-*
-aTag
 uint32_t
 aFlags
 )
@@ -5795,9 +5775,6 @@ FrameConstructionData
 *
 FindDataByTag
 (
-nsAtom
-*
-aTag
 const
 Element
 &
@@ -10420,9 +10397,6 @@ FindXULTagData
 const
 Element
 &
-nsAtom
-*
-aTag
 ComputedStyle
 &
 )
