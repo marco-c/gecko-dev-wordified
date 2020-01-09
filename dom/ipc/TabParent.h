@@ -854,7 +854,10 @@ IPCResult
 RecvOnContentBlockingEvent
 (
 const
-OptionalWebProgressData
+Maybe
+<
+WebProgressData
+>
 &
 aWebProgressData
 const
