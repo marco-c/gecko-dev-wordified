@@ -280,13 +280,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 prdtoa
 .
 h

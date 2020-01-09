@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h

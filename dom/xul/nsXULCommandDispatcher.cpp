@@ -175,13 +175,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsIScriptGlobalObject
 .
 h

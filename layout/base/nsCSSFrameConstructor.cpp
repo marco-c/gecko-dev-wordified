@@ -415,13 +415,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsUnicharUtils
 .
 h

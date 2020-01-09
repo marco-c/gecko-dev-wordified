@@ -122,13 +122,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 mozilla
 /
 StaticPtr
