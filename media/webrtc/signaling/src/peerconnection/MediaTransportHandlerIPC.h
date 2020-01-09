@@ -90,7 +90,7 @@ namespace
 mozilla
 {
 class
-MediaTransportHandlerChild
+MediaTransportChild
 ;
 /
 /
@@ -539,7 +539,7 @@ private
 :
 friend
 class
-MediaTransportHandlerChild
+MediaTransportChild
 ;
 /
 /
@@ -559,7 +559,7 @@ is
 going
 away
 .
-MediaTransportHandlerChild
+MediaTransportChild
 *
 mChild
 =
