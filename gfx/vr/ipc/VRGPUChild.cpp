@@ -378,7 +378,7 @@ Get
 vm
 -
 >
-Destroy
+Shutdown
 (
 )
 ;
