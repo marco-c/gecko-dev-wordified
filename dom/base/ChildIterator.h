@@ -1707,6 +1707,7 @@ enum
 IteratorPhase
 {
 eAtBegin
+eAtMarkerKid
 eAtBeforeKid
 eAtExplicitKids
 eAtAnonKids
