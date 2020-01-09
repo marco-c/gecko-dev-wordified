@@ -6967,6 +6967,10 @@ ProfilingStackFrame
 :
 Category
 aCategory
+uint32_t
+aFlags
+=
+0
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 {
@@ -6990,6 +6994,7 @@ get
 aLabel
 aDynamicString
 aCategory
+aFlags
 )
 ;
 }
