@@ -9830,6 +9830,14 @@ cancelUpdate
 ;
 this
 .
+sidebar
+.
+destroy
+(
+)
+;
+this
+.
 panelWin
 .
 removeEventListener
