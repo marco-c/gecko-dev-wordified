@@ -8102,7 +8102,6 @@ initialize
 (
 newSize
 oldContents
-OwnsData
 )
 ;
 return
@@ -8287,7 +8286,6 @@ initialize
 (
 newSize
 contents
-OwnsData
 )
 ;
 memcpy
@@ -9075,7 +9073,6 @@ initialize
 (
 nbytes
 contents
-OwnsData
 )
 ;
 return
@@ -9398,7 +9395,6 @@ createMalloced
 (
 data
 )
-OwnsData
 )
 ;
 }
@@ -9480,7 +9476,6 @@ BufferContents
 createNoData
 (
 )
-OwnsData
 )
 ;
 return
