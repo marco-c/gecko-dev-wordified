@@ -10105,7 +10105,7 @@ entry
 script
 -
 >
-nTypeSets
+numBytecodeTypeSets
 (
 )
 ;
@@ -10734,7 +10734,7 @@ j
 script
 -
 >
-nTypeSets
+numBytecodeTypeSets
 (
 )
 ;
@@ -10941,7 +10941,7 @@ j
 script
 -
 >
-nTypeSets
+numBytecodeTypeSets
 (
 )
 ;
@@ -22874,7 +22874,7 @@ added
 script
 -
 >
-nTypeSets
+numBytecodeTypeSets
 (
 )
 )
@@ -22892,7 +22892,7 @@ added
 script
 -
 >
-nTypeSets
+numBytecodeTypeSets
 (
 )
 )
@@ -22932,7 +22932,7 @@ bytecodeMap
 script
 -
 >
-nTypeSets
+numBytecodeTypeSets
 (
 )
 ]
@@ -23421,7 +23421,7 @@ num
 script
 -
 >
-nTypeSets
+numBytecodeTypeSets
 (
 )
 +
@@ -23462,7 +23462,9 @@ nargs
 We
 rely
 on
-numTypeSets
+|
+num
+|
 being
 in
 a
@@ -23472,9 +23474,9 @@ to
 prevent
 overflow
 when
-/
-/
 allocating
+/
+/
 TypeScript
 .
 static_assert
@@ -23482,7 +23484,7 @@ static_assert
 JSScript
 :
 :
-NumTypeSetsBits
+NumBytecodeTypeSetsBits
 =
 =
 16
@@ -23743,7 +23745,7 @@ FillBytecodeTypeMap
 size_t
 bytecodeTypeMapEntries
 =
-nTypeSets
+numBytecodeTypeSets
 (
 )
 +
@@ -23913,7 +23915,7 @@ i
 ;
 i
 <
-nTypeSets
+numBytecodeTypeSets
 (
 )
 ;

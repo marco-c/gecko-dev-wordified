@@ -1260,7 +1260,7 @@ MOZ_ASSERT
 script_
 -
 >
-nTypeSets
+numBytecodeTypeSets
 (
 )
 <
