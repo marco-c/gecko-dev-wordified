@@ -9810,9 +9810,11 @@ var
 -
 theme
 -
-highlight
+body
 -
-orange
+color
+-
+inactive
 )
 ;
 }
@@ -9883,6 +9885,12 @@ white
 space
 :
 nowrap
+;
+user
+-
+select
+:
+none
 ;
 }
 .
