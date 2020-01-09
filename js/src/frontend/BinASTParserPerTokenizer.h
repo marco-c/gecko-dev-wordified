@@ -1789,7 +1789,7 @@ variableDeclarationKind_
 ;
 friend
 class
-BinParseContext
+BinASTParseContext
 ;
 friend
 class
@@ -1944,7 +1944,7 @@ const
 }
 ;
 class
-BinParseContext
+BinASTParseContext
 :
 public
 ParseContext
@@ -1956,7 +1956,7 @@ template
 typename
 Tok
 >
-BinParseContext
+BinASTParseContext
 (
 JSContext
 *

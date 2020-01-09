@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-frontend_BinSourceSupport_h
+frontend_BinASTSupport_h
 #
 define
-frontend_BinSourceSupport_h
+frontend_BinASTSupport_h
 #
 include
 "
@@ -981,4 +981,4 @@ js
 endif
 /
 /
-frontend_BinSourceSupport_h
+frontend_BinASTSupport_h

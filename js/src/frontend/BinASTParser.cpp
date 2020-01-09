@@ -143,7 +143,7 @@ src
 /
 frontend
 /
-binsource
+binast
 /
 README
 .
@@ -217,7 +217,7 @@ include
 "
 frontend
 /
-BinSource
+BinAST
 -
 macros
 .
@@ -14288,7 +14288,7 @@ arguments
 the
 function
 .
-BinParseContext
+BinASTParseContext
 funpc
 (
 cx_
@@ -14720,7 +14720,7 @@ arguments
 the
 function
 .
-BinParseContext
+BinASTParseContext
 funpc
 (
 cx_
@@ -15091,7 +15091,7 @@ arguments
 the
 function
 .
-BinParseContext
+BinASTParseContext
 funpc
 (
 cx_
@@ -15545,7 +15545,7 @@ arguments
 the
 function
 .
-BinParseContext
+BinASTParseContext
 funpc
 (
 cx_
@@ -15938,7 +15938,7 @@ arguments
 the
 function
 .
-BinParseContext
+BinASTParseContext
 funpc
 (
 cx_
