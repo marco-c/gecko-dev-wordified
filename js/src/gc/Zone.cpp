@@ -522,7 +522,7 @@ gcPreserveCode_
 (
 false
 )
-keepShapeTables_
+keepShapeCaches_
 (
 this
 false
