@@ -166,6 +166,7 @@ pub
 type
 Width
 =
+crate
 :
 :
 values

@@ -993,6 +993,9 @@ gecko
 ]
 pub
 use
+crate
+:
+:
 gecko_string_cache
 as
 string_cache
@@ -1010,6 +1013,9 @@ gecko
 ]
 pub
 use
+crate
+:
+:
 gecko_string_cache
 :
 :
@@ -1028,6 +1034,9 @@ gecko
 ]
 pub
 use
+crate
+:
+:
 gecko_string_cache
 :
 :
@@ -1048,6 +1057,9 @@ gecko
 ]
 pub
 use
+crate
+:
+:
 gecko_string_cache
 :
 :
@@ -1068,6 +1080,9 @@ gecko
 ]
 pub
 use
+crate
+:
+:
 gecko_string_cache
 :
 :
@@ -1451,6 +1466,9 @@ gecko
 )
 ]
 use
+crate
+:
+:
 gecko_string_cache
 :
 :

@@ -4456,6 +4456,7 @@ generic
 ;
 unsafe
 {
+crate
 :
 :
 gecko_bindings
@@ -4805,6 +4806,9 @@ FontFamily
 )
 {
 use
+crate
+:
+:
 properties
 :
 :

@@ -68,6 +68,9 @@ s
 nsStyleAutoArray
 .
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -77,6 +80,9 @@ bindings
 Gecko_EnsureStyleAnimationArrayLength
 ;
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -86,6 +92,9 @@ bindings
 Gecko_EnsureStyleTransitionArrayLength
 ;
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -95,6 +104,9 @@ structs
 nsStyleAutoArray
 ;
 use
+crate
+:
+:
 gecko_bindings
 :
 :
