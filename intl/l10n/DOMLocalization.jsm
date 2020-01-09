@@ -674,6 +674,9 @@ textbox
 "
 placeholder
 "
+"
+value
+"
 ]
 }
 }
