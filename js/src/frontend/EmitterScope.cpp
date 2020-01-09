@@ -131,6 +131,15 @@ include
 "
 frontend
 /
+ModuleSharedContext
+.
+h
+"
+#
+include
+"
+frontend
+/
 TDZCheckCache
 .
 h

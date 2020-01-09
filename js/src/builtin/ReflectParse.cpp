@@ -180,6 +180,15 @@ include
 "
 frontend
 /
+ModuleSharedContext
+.
+h
+"
+#
+include
+"
+frontend
+/
 ParseNode
 .
 h

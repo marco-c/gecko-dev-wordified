@@ -146,6 +146,15 @@ include
 "
 frontend
 /
+NameCollections
+.
+h
+"
+#
+include
+"
+frontend
+/
 SharedContext
 .
 h

@@ -321,6 +321,15 @@ include
 "
 frontend
 /
+ModuleSharedContext
+.
+h
+"
+#
+include
+"
+frontend
+/
 NameOpEmitter
 .
 h

@@ -232,6 +232,15 @@ include
 "
 frontend
 /
+ModuleSharedContext
+.
+h
+"
+#
+include
+"
+frontend
+/
 Parser
 .
 h
