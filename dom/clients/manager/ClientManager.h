@@ -410,7 +410,8 @@ the
 remote
 operation
 .
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 ClientOpPromise
 >

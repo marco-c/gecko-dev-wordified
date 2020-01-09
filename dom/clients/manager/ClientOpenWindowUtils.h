@@ -144,7 +144,8 @@ mozilla
 namespace
 dom
 {
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 ClientOpPromise
 >

@@ -157,7 +157,8 @@ ClientOpPromise
 >
 mPromiseRequestHolder
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 ClientOpPromise
 >

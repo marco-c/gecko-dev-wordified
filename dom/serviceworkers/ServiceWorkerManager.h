@@ -1461,7 +1461,8 @@ JSExnType
 aExnType
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 GenericPromise
 >
@@ -1476,7 +1477,8 @@ ServiceWorkerRegistrationInfo
 aWorkerRegistration
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 GenericPromise
 >

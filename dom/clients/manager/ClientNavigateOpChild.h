@@ -163,7 +163,8 @@ nsISerialEventTarget
 >
 mSerialEventTarget
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 ClientOpPromise
 >
