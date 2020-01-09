@@ -1487,6 +1487,7 @@ CreateSocket
 nat_external_addr
 &
 external_socket
+nullptr
 )
 ;
 if
@@ -1566,6 +1567,7 @@ CreateSocket
 addr
 &
 internal_socket_
+nullptr
 )
 ;
 }
