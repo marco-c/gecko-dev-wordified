@@ -279,7 +279,7 @@ true
 ;
 }
 virtual
-bool
+StreamTime
 AppendToTrack
 (
 TrackID
@@ -296,7 +296,12 @@ nullptr
 override
 {
 return
-true
+aSegment
+-
+>
+GetDuration
+(
+)
 ;
 }
 }
