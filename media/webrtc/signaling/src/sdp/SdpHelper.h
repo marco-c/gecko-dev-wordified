@@ -409,12 +409,6 @@ string
 >
 *
 streamId
-std
-:
-:
-string
-*
-trackId
 )
 ;
 nsresult
