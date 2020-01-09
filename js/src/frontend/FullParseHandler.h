@@ -2012,7 +2012,7 @@ element
 )
 ;
 }
-BinaryNodeType
+CallNodeType
 newCall
 (
 Node
@@ -2024,7 +2024,7 @@ args
 return
 new_
 <
-BinaryNode
+CallNode
 >
 (
 ParseNodeKind
@@ -2061,7 +2061,7 @@ pos
 )
 ;
 }
-BinaryNodeType
+CallNodeType
 newSuperCall
 (
 Node
@@ -2073,7 +2073,7 @@ args
 return
 new_
 <
-BinaryNode
+CallNode
 >
 (
 ParseNodeKind
@@ -2086,7 +2086,7 @@ args
 )
 ;
 }
-BinaryNodeType
+CallNodeType
 newTaggedTemplate
 (
 Node
@@ -2098,7 +2098,7 @@ args
 return
 new_
 <
-BinaryNode
+CallNode
 >
 (
 ParseNodeKind
@@ -3867,7 +3867,7 @@ metaHolder
 )
 ;
 }
-BinaryNodeType
+CallNodeType
 newCallImport
 (
 NullaryNodeType
@@ -3879,7 +3879,7 @@ singleArg
 return
 new_
 <
-BinaryNode
+CallNode
 >
 (
 ParseNodeKind
@@ -4987,7 +4987,7 @@ body
 )
 ;
 }
-BinaryNodeType
+CallNodeType
 newNewExpression
 (
 uint32_t
@@ -5001,7 +5001,7 @@ args
 return
 new_
 <
-BinaryNode
+CallNode
 >
 (
 ParseNodeKind
@@ -5809,9 +5809,9 @@ kid
 }
 }
 void
-setOp
+setCallOp
 (
-Node
+CallNodeType
 pn
 JSOp
 op
@@ -5820,7 +5820,7 @@ op
 pn
 -
 >
-setOp
+setCallOp
 (
 op
 )
