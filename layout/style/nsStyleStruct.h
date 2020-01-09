@@ -13760,7 +13760,7 @@ image
 mozilla
 :
 :
-LengthPercentage
+NonNegativeLengthPercentage
 mShapeMargin
 ;
 mozilla

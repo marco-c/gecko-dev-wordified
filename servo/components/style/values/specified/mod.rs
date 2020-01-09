@@ -748,7 +748,6 @@ length
 :
 :
 {
-LengthPercentageOrNone
 MaxLength
 MozLength
 }
