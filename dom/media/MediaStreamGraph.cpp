@@ -24303,8 +24303,30 @@ void
 aPromise
 AudioContextOperation
 aOperation
+AudioContextOperationFlags
+aFlags
 )
 {
+if
+(
+aFlags
+!
+=
+AudioContextOperationFlags
+:
+:
+SendStateChange
+)
+{
+MOZ_ASSERT
+(
+!
+aPromise
+)
+;
+return
+;
+}
 /
 /
 This
@@ -24462,6 +24484,8 @@ aOperation
 void
 *
 aPromise
+AudioContextOperationFlags
+aFlags
 )
 {
 MOZ_ASSERT
@@ -24701,6 +24725,7 @@ EnqueueStreamAndPromiseForOperation
 aDestinationStream
 aPromise
 aOperation
+aFlags
 )
 ;
 }
@@ -24734,6 +24759,7 @@ AudioContextOperationCompleted
 aDestinationStream
 aPromise
 aOperation
+aFlags
 )
 ;
 }
@@ -24866,6 +24892,7 @@ EnqueueStreamAndPromiseForOperation
 aDestinationStream
 aPromise
 aOperation
+aFlags
 )
 ;
 SystemClockDriver
@@ -25006,6 +25033,7 @@ EnqueueStreamAndPromiseForOperation
 aDestinationStream
 aPromise
 aOperation
+aFlags
 )
 ;
 }
@@ -25142,6 +25170,7 @@ AudioContextOperationCompleted
 aDestinationStream
 aPromise
 aOperation
+aFlags
 )
 ;
 }
@@ -25179,6 +25208,7 @@ AudioContextOperationCompleted
 aDestinationStream
 aPromise
 aOperation
+aFlags
 )
 ;
 }
@@ -25206,6 +25236,8 @@ aOperation
 void
 *
 aPromise
+AudioContextOperationFlags
+aFlags
 )
 {
 class
@@ -25234,6 +25266,8 @@ aOperation
 void
 *
 aPromise
+AudioContextOperationFlags
+aFlags
 )
 :
 ControlMessage
@@ -25251,6 +25285,10 @@ aOperation
 mPromise
 (
 aPromise
+)
+mFlags
+(
+aFlags
 )
 {
 }
@@ -25274,6 +25312,7 @@ mStream
 mStreams
 mAudioContextOperation
 mPromise
+mFlags
 )
 ;
 }
@@ -25341,6 +25380,9 @@ void
 *
 mPromise
 ;
+AudioContextOperationFlags
+mFlags
+;
 }
 ;
 MediaStreamGraphImpl
@@ -25370,6 +25412,7 @@ aDestinationStream
 aStreams
 aOperation
 aPromise
+aFlags
 )
 )
 ;

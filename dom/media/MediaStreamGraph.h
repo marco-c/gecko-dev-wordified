@@ -288,7 +288,15 @@ enum
 class
 AudioContextOperation
 ;
+enum
+class
+AudioContextOperationFlags
+;
 }
+/
+/
+namespace
+dom
 /
 *
 *
@@ -8710,6 +8718,11 @@ aState
 void
 *
 aPromise
+dom
+:
+:
+AudioContextOperationFlags
+aFlags
 )
 ;
 bool

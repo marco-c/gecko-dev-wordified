@@ -2252,6 +2252,11 @@ dom
 :
 AudioContextOperation
 aOperation
+dom
+:
+:
+AudioContextOperationFlags
+aFlags
 )
 ;
 RefPtr
@@ -2269,6 +2274,12 @@ dom
 :
 AudioContextOperation
 mOperation
+;
+dom
+:
+:
+AudioContextOperationFlags
+mFlags
 ;
 }
 ;
@@ -2953,6 +2964,11 @@ dom
 :
 AudioContextOperation
 aOperation
+dom
+:
+:
+AudioContextOperationFlags
+aFlags
 )
 ;
 std

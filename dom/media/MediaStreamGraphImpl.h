@@ -1872,6 +1872,11 @@ dom
 :
 AudioContextOperation
 aOperation
+dom
+:
+:
+AudioContextOperationFlags
+aFlags
 )
 ;
 /
@@ -1919,6 +1924,11 @@ aOperation
 void
 *
 aPromise
+dom
+:
+:
+AudioContextOperationFlags
+aSource
 )
 ;
 /
