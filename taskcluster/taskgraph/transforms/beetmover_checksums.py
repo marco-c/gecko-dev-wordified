@@ -1127,6 +1127,7 @@ upstream_artifacts
 generate_beetmover_upstream_artifacts
 (
                 
+config
 job
 platform
 locale

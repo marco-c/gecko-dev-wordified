@@ -431,9 +431,12 @@ dependencies
 =
 {
             
-"
-build
-"
+str
+(
+dep_job
+.
+kind
+)
 :
 dep_job
 .
@@ -459,9 +462,20 @@ reference
 :
 "
 <
-build
+{
+}
 >
 "
+.
+format
+(
+str
+(
+dep_job
+.
+kind
+)
+)
 }
             
 "
