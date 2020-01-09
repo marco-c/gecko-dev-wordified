@@ -379,6 +379,13 @@ h
 #
 include
 "
+nsPresContextInlines
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

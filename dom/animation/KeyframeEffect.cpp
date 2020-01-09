@@ -389,6 +389,13 @@ h
 #
 include
 "
+nsPresContextInlines
+.
+h
+"
+#
+include
+"
 nsRefreshDriver
 .
 h

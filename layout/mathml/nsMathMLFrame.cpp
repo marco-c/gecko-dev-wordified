@@ -188,6 +188,13 @@ gfxMathTable
 .
 h
 "
+#
+include
+"
+nsPresContextInlines
+.
+h
+"
 /
 /
 used
