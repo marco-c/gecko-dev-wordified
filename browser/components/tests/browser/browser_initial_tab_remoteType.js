@@ -727,6 +727,16 @@ set
 "
 browser
 .
+newtab
+.
+preload
+"
+false
+]
+[
+"
+browser
+.
 startup
 .
 homepage
