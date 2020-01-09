@@ -415,6 +415,11 @@ XRWebGLLayer
 session
 gl
 )
+outputContext
+:
+getOutputContext
+(
+)
 }
 )
 ;
