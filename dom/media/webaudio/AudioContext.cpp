@@ -6089,7 +6089,7 @@ nsIScriptError
 :
 warningFlag
 "
-BlockAutoplayWebAudioError
+BlockAutoplayWebAudioStartError
 "
 )
 ;
