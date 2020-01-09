@@ -512,17 +512,6 @@ TailDispatcher
 )
 override
 ;
-TaskQueue
-*
-AsTaskQueue
-(
-)
-override
-{
-return
-this
-;
-}
 MOZ_MUST_USE
 nsresult
 Dispatch
