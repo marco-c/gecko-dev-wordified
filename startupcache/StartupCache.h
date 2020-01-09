@@ -1010,6 +1010,10 @@ file
 void
 InvalidateCache
 (
+bool
+memoryOnly
+=
+false
 )
 ;
 /
