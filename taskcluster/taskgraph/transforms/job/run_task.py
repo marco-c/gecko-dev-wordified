@@ -874,12 +874,6 @@ name
 '
 :
 '
-level
--
-{
-level
-}
--
 {
 project
 }
@@ -1259,12 +1253,6 @@ name
 '
 :
 '
-level
--
-{
-level
-}
--
 {
 project
 }
