@@ -694,14 +694,6 @@ swap
 (
 )
 *
--
-UnboxedPlainObject
-:
-:
-convertToNative
-(
-)
-*
 /
 class
 JSObject
