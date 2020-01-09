@@ -346,7 +346,6 @@ transform
 translate
 (
 0px
-0px
 )
 scale
 (
@@ -395,7 +394,6 @@ transform
 "
 translate
 (
-0px
 0px
 )
 scale
@@ -550,7 +548,6 @@ transform
 "
 translate
 (
-0px
 0px
 )
 scale
