@@ -1384,11 +1384,13 @@ set
 [
 [
 "
-app
+features
 .
 normandy
-.
-remotesettings
+-
+remote
+-
+settings
 .
 enabled
 "
