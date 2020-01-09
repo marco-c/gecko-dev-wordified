@@ -1241,9 +1241,9 @@ dirname
 browser_path
 )
 +
-"
-;
-"
+os
+.
+pathsep
 +
 env
 [
