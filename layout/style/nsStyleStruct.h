@@ -12568,6 +12568,12 @@ mOverflowAnchor
 mozilla
 :
 :
+StyleScrollSnapAlign
+mScrollSnapAlign
+;
+mozilla
+:
+:
 StyleScrollSnapType
 mScrollSnapTypeX
 ;

@@ -11417,6 +11417,11 @@ OverflowClipBox
 :
 impl_simple
 "
+ScrollSnapAlign
+"
+:
+impl_simple
+"
 ScrollSnapType
 "
 :

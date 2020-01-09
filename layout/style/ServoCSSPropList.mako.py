@@ -763,6 +763,10 @@ OverflowClipBox
 "
     
 "
+ScrollSnapAlign
+"
+    
+"
 ScrollSnapType
 "
     

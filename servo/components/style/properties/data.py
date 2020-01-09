@@ -2696,6 +2696,10 @@ SVGPaintOrder
 "
                 
 "
+ScrollSnapAlign
+"
+                
+"
 ScrollSnapType
 "
                 
