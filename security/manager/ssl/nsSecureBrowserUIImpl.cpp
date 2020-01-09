@@ -764,12 +764,6 @@ mState
 ~
 STATE_IS_SECURE
 ;
-mState
-&
-=
-~
-STATE_SECURE_HIGH
-;
 }
 if
 (
@@ -793,12 +787,6 @@ mState
 =
 ~
 STATE_IS_SECURE
-;
-mState
-&
-=
-~
-STATE_SECURE_HIGH
 ;
 }
 if
