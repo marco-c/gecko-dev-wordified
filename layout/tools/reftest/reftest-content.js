@@ -7318,17 +7318,6 @@ webNavigation
 .
 LOAD_FLAGS_NONE
 ;
-var
-systemPrincipal
-=
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
-;
 webNavigation
 (
 )
@@ -7340,7 +7329,6 @@ flags
 null
 null
 null
-systemPrincipal
 )
 ;
 }
