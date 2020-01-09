@@ -7415,6 +7415,13 @@ addr_info
 =
 nullptr
 ;
+addrRec
+-
+>
+addr_info_gencnt
++
++
+;
 if
 (
 unspecRec
@@ -7572,6 +7579,13 @@ IsTRR
 (
 )
 )
+;
+addrRec
+-
+>
+addr_info_gencnt
++
++
 ;
 rec
 -
