@@ -1962,6 +1962,16 @@ BSTR
 aSrc
 )
 {
+if
+(
+!
+aSrc
+)
+{
+return
+nullptr
+;
+}
 return
 :
 :
