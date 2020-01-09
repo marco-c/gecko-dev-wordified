@@ -259,9 +259,6 @@ const
 nsACString
 &
 aScriptSpec
-nsILoadGroup
-*
-aLoadGroup
 ServiceWorkerUpdateViaCache
 aUpdateViaCache
 )
@@ -306,9 +303,6 @@ const
 nsACString
 &
 aScriptSpec
-nsILoadGroup
-*
-aLoadGroup
 ServiceWorkerUpdateViaCache
 aUpdateViaCache
 )
@@ -626,12 +620,6 @@ RefPtr
 ServiceWorkerRegistrationInfo
 >
 mRegistration
-;
-nsCOMPtr
-<
-nsILoadGroup
->
-mLoadGroup
 ;
 ServiceWorkerUpdateViaCache
 mUpdateViaCache

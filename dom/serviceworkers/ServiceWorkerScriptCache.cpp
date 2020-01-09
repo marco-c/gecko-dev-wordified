@@ -780,9 +780,6 @@ const
 nsAString
 &
 aURL
-nsILoadGroup
-*
-aLoadGroup
 Cache
 *
 const
@@ -1372,9 +1369,6 @@ const
 nsAString
 &
 aCacheName
-nsILoadGroup
-*
-aLoadGroup
 )
 ;
 void
@@ -1714,7 +1708,6 @@ Initialize
 (
 mPrincipal
 aURL
-mLoadGroup
 aCache
 )
 ;
@@ -3341,12 +3334,6 @@ nsIPrincipal
 >
 mPrincipal
 ;
-RefPtr
-<
-nsILoadGroup
->
-mLoadGroup
-;
 /
 /
 Used
@@ -3432,9 +3419,6 @@ const
 nsAString
 &
 aURL
-nsILoadGroup
-*
-aLoadGroup
 Cache
 *
 const
@@ -6273,9 +6257,6 @@ const
 nsAString
 &
 aCacheName
-nsILoadGroup
-*
-aLoadGroup
 )
 {
 MOZ_ASSERT
@@ -6336,10 +6317,6 @@ aURL
 mPrincipal
 =
 aPrincipal
-;
-mLoadGroup
-=
-aLoadGroup
 ;
 /
 /
@@ -7320,9 +7297,6 @@ aURL
 CompareCallback
 *
 aCallback
-nsILoadGroup
-*
-aLoadGroup
 )
 {
 MOZ_ASSERT
@@ -7381,7 +7355,6 @@ Initialize
 aPrincipal
 aURL
 aCacheName
-aLoadGroup
 )
 ;
 if

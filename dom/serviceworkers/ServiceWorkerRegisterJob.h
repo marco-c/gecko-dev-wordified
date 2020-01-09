@@ -187,9 +187,6 @@ const
 nsACString
 &
 aScriptSpec
-nsILoadGroup
-*
-aLoadGroup
 ServiceWorkerUpdateViaCache
 aUpdateViaCache
 )
