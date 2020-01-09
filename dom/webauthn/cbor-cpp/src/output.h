@@ -176,10 +176,6 @@ size
 }
 ;
 }
-/
-/
-namespace
-cbor
 #
 endif
 /

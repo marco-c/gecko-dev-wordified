@@ -300,10 +300,6 @@ value
 }
 ;
 }
-/
-/
-namespace
-cbor
 #
 endif
 /

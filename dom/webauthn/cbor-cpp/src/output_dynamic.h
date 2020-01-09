@@ -220,10 +220,6 @@ initalCapacity
 }
 ;
 }
-/
-/
-namespace
-cbor
 #
 endif
 /
