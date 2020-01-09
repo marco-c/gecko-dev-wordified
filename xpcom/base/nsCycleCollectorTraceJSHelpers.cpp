@@ -228,10 +228,10 @@ aName
 ;
 if
 (
-mozilla
+JS
 :
 :
-AddToCCKind
+IsCCTraceKind
 (
 aGCThing
 .

@@ -11571,7 +11571,10 @@ thing
 )
 {
 return
-AddToCCKind
+JS
+:
+:
+IsCCTraceKind
 (
 thing
 .
@@ -11604,7 +11607,10 @@ value
 )
 {
 return
-AddToCCKind
+JS
+:
+:
+IsCCTraceKind
 (
 value
 .
