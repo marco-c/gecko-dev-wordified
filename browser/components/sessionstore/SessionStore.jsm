@@ -23043,11 +23043,13 @@ tab
 )
 {
 let
-initialBrowser
+permanentKey
 =
 tab
 .
 linkedBrowser
+.
+permanentKey
 ;
 /
 /
@@ -23078,7 +23080,9 @@ TabStateFlusher
 .
 flush
 (
-initialBrowser
+tab
+.
+linkedBrowser
 )
 ;
 /
@@ -23126,8 +23130,6 @@ _remotenessChangingBrowsers
 .
 get
 (
-initialBrowser
-.
 permanentKey
 )
 ;
@@ -23137,8 +23139,6 @@ _remotenessChangingBrowsers
 .
 delete
 (
-initialBrowser
-.
 permanentKey
 )
 ;
