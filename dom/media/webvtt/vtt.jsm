@@ -8644,11 +8644,6 @@ BoxPosition
 rootOfCues
 )
 ;
-(
-function
-(
-)
-{
 let
 styleBox
 cue
@@ -9171,11 +9166,6 @@ cueBox
 }
 }
 }
-}
-)
-(
-)
-;
 }
 ;
 WebVTT
