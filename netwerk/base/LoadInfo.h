@@ -162,13 +162,6 @@ h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -803,10 +796,6 @@ bool
 aDocumentHasUserInteracted
 bool
 aDocumentHasLoaded
-const
-nsAString
-&
-aCspNonce
 )
 ;
 LoadInfo
@@ -1209,9 +1198,6 @@ mDocumentHasUserInteracted
 ;
 bool
 mDocumentHasLoaded
-;
-nsString
-mCspNonce
 ;
 /
 /
