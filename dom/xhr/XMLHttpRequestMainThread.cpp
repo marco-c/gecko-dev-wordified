@@ -13538,6 +13538,7 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_XMLHTTPREQUEST
+mCookieSettings
 mPerformanceStorage
 /
 /
@@ -13575,6 +13576,7 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_XMLHTTPREQUEST
+mCookieSettings
 mPerformanceStorage
 /
 /

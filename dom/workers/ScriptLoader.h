@@ -157,6 +157,9 @@ nsILoadGroup
 class
 nsIChannel
 ;
+class
+nsICookieSettings
+;
 namespace
 mozilla
 {
@@ -206,6 +209,9 @@ ClientInfo
 aClientInfo
 nsContentPolicyType
 aContentPolicyType
+nsICookieSettings
+*
+aCookieSettings
 nsIChannel
 *
 *

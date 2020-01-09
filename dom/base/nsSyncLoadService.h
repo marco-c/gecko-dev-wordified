@@ -159,6 +159,9 @@ ReferrerPolicy
 h
 "
 class
+nsICookieSettings
+;
+class
 nsIInputStream
 ;
 class
@@ -322,6 +325,9 @@ aSecurityFlags
 nsILoadGroup
 *
 aLoadGroup
+nsICookieSettings
+*
+aCookieSettings
 bool
 aForceToXML
 mozilla

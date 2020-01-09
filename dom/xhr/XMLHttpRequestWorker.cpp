@@ -3860,6 +3860,12 @@ nullptr
 mWorkerPrivate
 -
 >
+CookieSettings
+(
+)
+mWorkerPrivate
+-
+>
 GetBaseURI
 (
 )

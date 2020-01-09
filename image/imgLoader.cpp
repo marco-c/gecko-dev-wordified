@@ -5709,7 +5709,7 @@ channel
 in
 the
 parent
-prcoess
+process
 in
 which
 case
@@ -5737,6 +5737,10 @@ GetSystemPrincipal
 )
 securityFlags
 aPolicyType
+nullptr
+/
+/
+nsICookieSettings
 nullptr
 /
 /

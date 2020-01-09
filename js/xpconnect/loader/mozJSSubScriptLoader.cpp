@@ -2672,6 +2672,10 @@ TYPE_OTHER
 nullptr
 /
 /
+nsICookieSettings
+nullptr
+/
+/
 aPerformanceStorage
 nullptr
 /
@@ -2874,6 +2878,10 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
+nullptr
+/
+/
+nsICookieSettings
 nullptr
 /
 /
