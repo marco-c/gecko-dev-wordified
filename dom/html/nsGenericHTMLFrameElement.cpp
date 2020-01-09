@@ -1842,10 +1842,6 @@ aMaybeScriptedPrincipal
 ;
 if
 (
-aValue
-&
-&
-(
 !
 IsHTMLElement
 (
@@ -1866,7 +1862,6 @@ nsGkAtoms
 srcdoc
 )
 )
-)
 {
 /
 /
@@ -1881,9 +1876,12 @@ The
 attribute
 was
 successfully
+/
+/
 set
-/
-/
+or
+removed
+;
 that
 '
 s
