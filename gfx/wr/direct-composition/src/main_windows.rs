@@ -725,6 +725,9 @@ size
 api
 :
 :
+units
+:
+:
 FramebufferIntSize
 color
 :
@@ -756,6 +759,9 @@ f32
 size
 :
 api
+:
+:
+units
 :
 :
 FramebufferIntSize
