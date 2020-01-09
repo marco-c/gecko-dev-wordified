@@ -31108,7 +31108,7 @@ aAllowCounters
 &
 mCounterManager
 .
-AddCounterResetsAndIncrements
+AddCounterChanges
 (
 aNewFrame
 )

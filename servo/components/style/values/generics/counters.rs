@@ -374,8 +374,12 @@ for
 the
 counter
 -
+set
+and
+counter
+-
 reset
-property
+properties
 .
 #
 [
@@ -393,7 +397,7 @@ ToCss
 ]
 pub
 struct
-CounterReset
+CounterSetOrReset
 <
 I
 >
@@ -408,7 +412,7 @@ impl
 <
 I
 >
-CounterReset
+CounterSetOrReset
 <
 I
 >
@@ -421,6 +425,10 @@ a
 new
 value
 for
+counter
+-
+set
+/
 counter
 -
 reset
@@ -447,7 +455,7 @@ I
 >
 Self
 {
-CounterReset
+CounterSetOrReset
 (
 Counters
 (
@@ -466,7 +474,7 @@ I
 >
 Deref
 for
-CounterReset
+CounterSetOrReset
 <
 I
 >
