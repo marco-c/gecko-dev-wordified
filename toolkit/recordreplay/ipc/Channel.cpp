@@ -966,6 +966,17 @@ mType
 MessageType
 :
 :
+BeginFatalError
+|
+|
+aMsg
+.
+mType
+=
+=
+MessageType
+:
+:
 FatalError
 |
 |
