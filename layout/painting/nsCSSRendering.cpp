@@ -10224,14 +10224,7 @@ paddingRect
 aForFrame
 -
 >
-GetPaddingRect
-(
-)
--
-aForFrame
--
->
-GetPosition
+GetPaddingRectRelativeToSelf
 (
 )
 +

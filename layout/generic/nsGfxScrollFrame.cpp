@@ -42318,14 +42318,7 @@ r
 mOuter
 -
 >
-GetPaddingRect
-(
-)
--
-mOuter
--
->
-GetPosition
+GetPaddingRectRelativeToSelf
 (
 )
 ;
