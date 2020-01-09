@@ -10807,7 +10807,7 @@ VideoTrackList
 >
 mVideoTrackList
 ;
-nsAutoPtr
+UniquePtr
 <
 MediaStreamTrackListener
 >
