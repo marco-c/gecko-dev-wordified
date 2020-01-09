@@ -1576,7 +1576,6 @@ class
 T
 >
 class
-MOZ_IS_SMARTPTR_TO_REFCOUNTED
 nsMainThreadPtrHolder
 final
 {
@@ -2096,7 +2095,6 @@ class
 T
 >
 class
-MOZ_IS_SMARTPTR_TO_REFCOUNTED
 nsMainThreadPtrHandle
 {
 RefPtr
