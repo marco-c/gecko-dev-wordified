@@ -353,9 +353,9 @@ return
 {
 adbAddonStatus
 :
-PropTypes
+Types
 .
-string
+adbAddonStatus
 /
 /
 The
@@ -440,9 +440,9 @@ PropTypes
 .
 arrayOf
 (
-PropTypes
+Types
 .
-string
+location
 )
 .
 isRequired
@@ -460,9 +460,9 @@ runtime
 isRequired
 selectedPage
 :
-PropTypes
+Types
 .
-string
+page
 selectedRuntimeId
 :
 PropTypes
