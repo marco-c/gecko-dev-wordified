@@ -161,7 +161,7 @@ class
 nsIDocShell
 ;
 class
-nsIEditingSession
+nsEditingSession
 ;
 class
 nsDocShellEditorData
@@ -193,13 +193,10 @@ GetEditable
 (
 )
 ;
-nsresult
+nsEditingSession
+*
 GetEditingSession
 (
-nsIEditingSession
-*
-*
-aResult
 )
 ;
 mozilla
@@ -298,9 +295,9 @@ is
 owned
 here
 .
-nsCOMPtr
+RefPtr
 <
-nsIEditingSession
+nsEditingSession
 >
 mEditingSession
 ;
