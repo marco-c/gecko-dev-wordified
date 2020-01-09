@@ -2936,6 +2936,7 @@ inline
 void
 AssertCellIsNotGray
 (
+const
 js
 :
 :
