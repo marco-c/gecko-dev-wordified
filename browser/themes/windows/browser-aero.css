@@ -835,6 +835,9 @@ theme
 {
 :
 root
+[
+tabsintitlebar
+]
 {
 background
 -
@@ -891,6 +894,11 @@ the
 titlebar
 *
 /
+:
+root
+[
+tabsintitlebar
+]
 #
 browser
 {
