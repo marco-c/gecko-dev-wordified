@@ -88,7 +88,7 @@ OS
 Specifics
 DISABLE_SCREEN_SAVER
 =
-True
+False
 ADJUST_MOUSE_AND_SCREEN
 =
 False
