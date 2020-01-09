@@ -18468,18 +18468,6 @@ enabled
 true
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
-/
-/
-Enable
-the
-Storage
-Access
-API
-in
-Nightly
 pref
 (
 "
@@ -18492,8 +18480,6 @@ enabled
 true
 )
 ;
-#
-endif
 pref
 (
 "
