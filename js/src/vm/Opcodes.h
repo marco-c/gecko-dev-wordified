@@ -983,6 +983,8 @@ NULL
 JOF_JUMP
 |
 JOF_DETECTING
+|
+JOF_IC
 )
 \
 /
@@ -1053,6 +1055,8 @@ NULL
 1
 0
 JOF_JUMP
+|
+JOF_IC
 )
 \
 \
@@ -1566,6 +1570,8 @@ bitor
 2
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 macro
@@ -1582,6 +1588,8 @@ bitxor
 2
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 macro
@@ -1598,6 +1606,8 @@ bitand
 2
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 /
@@ -1664,6 +1674,8 @@ eq
 JOF_BYTE
 |
 JOF_DETECTING
+|
+JOF_IC
 )
 \
 macro
@@ -1683,6 +1695,8 @@ ne
 JOF_BYTE
 |
 JOF_DETECTING
+|
+JOF_IC
 )
 \
 macro
@@ -1699,6 +1713,8 @@ lt
 2
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 macro
@@ -1716,6 +1732,8 @@ le
 2
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 macro
@@ -1732,6 +1750,8 @@ gt
 2
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 macro
@@ -1749,6 +1769,8 @@ ge
 2
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 /
@@ -1825,6 +1847,8 @@ lsh
 2
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 macro
@@ -1842,6 +1866,8 @@ rsh
 2
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 /
@@ -1919,6 +1945,8 @@ ursh
 2
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 /
@@ -1992,6 +2020,8 @@ add
 2
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 /
@@ -2066,6 +2096,8 @@ sub
 2
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 macro
@@ -2082,6 +2114,8 @@ mul
 2
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 macro
@@ -2098,6 +2132,8 @@ div
 2
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 macro
@@ -2114,6 +2150,8 @@ mod
 2
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 /
@@ -2176,6 +2214,8 @@ not
 JOF_BYTE
 |
 JOF_DETECTING
+|
+JOF_IC
 )
 \
 /
@@ -2237,6 +2277,8 @@ bitnot
 1
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 /
@@ -2297,6 +2339,8 @@ neg
 1
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 /
@@ -2372,6 +2416,8 @@ pos
 1
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 /
@@ -2691,6 +2737,8 @@ NULL
 JOF_BYTE
 |
 JOF_DETECTING
+|
+JOF_IC
 )
 \
 /
@@ -2828,6 +2876,8 @@ JOF_BYTE
 JOF_INVOKE
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 /
@@ -2903,6 +2953,8 @@ JOF_BYTE
 JOF_INVOKE
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 /
@@ -3005,6 +3057,8 @@ JOF_INVOKE
 JOF_TYPESET
 |
 JOF_CHECKSLOPPY
+|
+JOF_IC
 )
 \
 \
@@ -3450,6 +3504,8 @@ JOF_PROPSET
 JOF_DETECTING
 |
 JOF_CHECKSTRICT
+|
+JOF_IC
 )
 \
 /
@@ -3542,6 +3598,8 @@ JOF_PROPSET
 JOF_DETECTING
 |
 JOF_CHECKSTRICT
+|
+JOF_IC
 )
 \
 /
@@ -3646,6 +3704,8 @@ JOF_INVOKE
 JOF_TYPESET
 |
 JOF_CHECKSTRICT
+|
+JOF_IC
 )
 \
 /
@@ -3821,6 +3881,8 @@ JOF_ATOM
 JOF_PROP
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 /
@@ -3905,6 +3967,8 @@ JOF_PROPSET
 JOF_DETECTING
 |
 JOF_CHECKSLOPPY
+|
+JOF_IC
 )
 \
 /
@@ -3981,6 +4045,8 @@ JOF_BYTE
 JOF_ELEM
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 /
@@ -4071,6 +4137,8 @@ JOF_PROPSET
 JOF_DETECTING
 |
 JOF_CHECKSLOPPY
+|
+JOF_IC
 )
 \
 /
@@ -4176,6 +4244,8 @@ JOF_PROPSET
 JOF_DETECTING
 |
 JOF_CHECKSTRICT
+|
+JOF_IC
 )
 \
 /
@@ -4263,6 +4333,8 @@ JOF_UINT16
 JOF_INVOKE
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 /
@@ -4323,6 +4395,8 @@ JOF_ATOM
 JOF_NAME
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 /
@@ -4722,6 +4796,8 @@ NULL
 JOF_JUMP
 |
 JOF_DETECTING
+|
+JOF_IC
 )
 \
 /
@@ -4793,6 +4869,8 @@ NULL
 JOF_JUMP
 |
 JOF_DETECTING
+|
+JOF_IC
 )
 \
 \
@@ -4936,6 +5014,8 @@ NULL
 JOF_TABLESWITCH
 |
 JOF_DETECTING
+|
+JOF_IC
 )
 \
 \
@@ -5076,6 +5156,8 @@ stricteq
 JOF_BYTE
 |
 JOF_DETECTING
+|
+JOF_IC
 )
 \
 macro
@@ -5096,6 +5178,8 @@ strictne
 JOF_BYTE
 |
 JOF_DETECTING
+|
+JOF_IC
 )
 \
 \
@@ -5232,6 +5316,8 @@ NULL
 1
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 /
@@ -5297,6 +5383,8 @@ NULL
 1
 2
 JOF_BYTE
+|
+JOF_IC
 )
 \
 /
@@ -5418,6 +5506,8 @@ NULL
 1
 0
 JOF_BYTE
+|
+JOF_IC
 )
 \
 \
@@ -5517,6 +5607,8 @@ JOF_UINT16
 JOF_INVOKE
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 \
@@ -5708,6 +5800,10 @@ JOF_UINT16
 JOF_INVOKE
 |
 JOF_TYPESET
+|
+JOF_IC
+|
+JOF_IC
 )
 \
 /
@@ -6146,6 +6242,8 @@ NULL
 0
 1
 JOF_UINT8
+|
+JOF_IC
 )
 \
 /
@@ -6205,6 +6303,8 @@ NULL
 0
 1
 JOF_UINT32
+|
+JOF_IC
 )
 \
 /
@@ -6278,6 +6378,8 @@ NULL
 0
 1
 JOF_OBJECT
+|
+JOF_IC
 )
 \
 \
@@ -6474,6 +6576,8 @@ JOF_PROP
 JOF_PROPINIT
 |
 JOF_DETECTING
+|
+JOF_IC
 )
 \
 \
@@ -6581,6 +6685,8 @@ JOF_ELEM
 JOF_PROPINIT
 |
 JOF_DETECTING
+|
+JOF_IC
 )
 \
 \
@@ -6695,6 +6801,8 @@ JOF_BYTE
 JOF_ELEM
 |
 JOF_PROPINIT
+|
+JOF_IC
 )
 \
 \
@@ -6788,6 +6896,8 @@ JOF_ELEM
 JOF_PROPINIT
 |
 JOF_DETECTING
+|
+JOF_IC
 )
 \
 \
@@ -7467,6 +7577,8 @@ JOF_ATOM
 JOF_PROP
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 /
@@ -7915,6 +8027,8 @@ JOF_UINT16
 JOF_INVOKE
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 \
@@ -8059,6 +8173,8 @@ NULL
 JOF_ATOM
 |
 JOF_NAME
+|
+JOF_IC
 )
 \
 /
@@ -8133,6 +8249,8 @@ JOF_PROPSET
 JOF_DETECTING
 |
 JOF_CHECKSLOPPY
+|
+JOF_IC
 )
 \
 \
@@ -8296,6 +8414,8 @@ js_in_str
 2
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 /
@@ -8379,6 +8499,8 @@ js_instanceof_str
 2
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 \
@@ -8620,6 +8742,8 @@ NULL
 2
 0
 JOF_BYTE
+|
+JOF_IC
 )
 \
 \
@@ -9055,6 +9179,8 @@ NULL
 2
 1
 JOF_JUMP
+|
+JOF_IC
 )
 \
 /
@@ -9280,6 +9406,8 @@ JOF_INVOKE
 JOF_TYPESET
 |
 JOF_CHECKSLOPPY
+|
+JOF_IC
 )
 \
 \
@@ -9414,6 +9542,8 @@ JOF_INVOKE
 JOF_TYPESET
 |
 JOF_CHECKSTRICT
+|
+JOF_IC
 )
 \
 /
@@ -9480,6 +9610,8 @@ JOF_BYTE
 JOF_ELEM
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 macro
@@ -10384,6 +10516,8 @@ JOF_ENVCOORD
 JOF_NAME
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 /
@@ -10445,6 +10579,8 @@ JOF_NAME
 JOF_PROPSET
 |
 JOF_DETECTING
+|
+JOF_IC
 )
 \
 \
@@ -10698,6 +10834,8 @@ JOF_NAME
 JOF_PROPINIT
 |
 JOF_DETECTING
+|
+JOF_IC
 )
 \
 /
@@ -10875,6 +11013,8 @@ JOF_ATOM
 JOF_NAME
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 /
@@ -11006,6 +11146,8 @@ JOF_UINT16
 JOF_INVOKE
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 /
@@ -11111,6 +11253,8 @@ JOF_PROP
 JOF_PROPINIT
 |
 JOF_DETECTING
+|
+JOF_IC
 )
 \
 /
@@ -11210,6 +11354,8 @@ JOF_PROP
 JOF_PROPINIT
 |
 JOF_DETECTING
+|
+JOF_IC
 )
 \
 /
@@ -11404,6 +11550,8 @@ pow
 2
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 \
@@ -11717,6 +11865,8 @@ JOF_NAME
 JOF_TYPESET
 |
 JOF_GNAME
+|
+JOF_IC
 )
 \
 /
@@ -11837,6 +11987,8 @@ JOF_DETECTING
 JOF_GNAME
 |
 JOF_CHECKSLOPPY
+|
+JOF_IC
 )
 \
 \
@@ -11973,6 +12125,8 @@ JOF_DETECTING
 JOF_GNAME
 |
 JOF_CHECKSTRICT
+|
+JOF_IC
 )
 \
 /
@@ -12375,6 +12529,8 @@ JOF_NAME
 JOF_PROPINIT
 |
 JOF_GNAME
+|
+JOF_IC
 )
 \
 \
@@ -12656,6 +12812,8 @@ JOF_UINT16
 JOF_INVOKE
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 /
@@ -12714,6 +12872,8 @@ JOF_BYTE
 JOF_INVOKE
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 /
@@ -13484,6 +13644,8 @@ JOF_ELEM
 JOF_PROPINIT
 |
 JOF_DETECTING
+|
+JOF_IC
 )
 \
 /
@@ -13545,6 +13707,8 @@ JOF_ATOM
 JOF_NAME
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 /
@@ -14138,6 +14302,8 @@ JOF_ATOM
 JOF_PROP
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 /
@@ -14744,6 +14910,8 @@ JOF_BYTE
 JOF_ELEM
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 \
@@ -14918,6 +15086,8 @@ JOF_ATOM
 JOF_NAME
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 \
@@ -15027,6 +15197,8 @@ NULL
 JOF_BYTE
 |
 JOF_DETECTING
+|
+JOF_IC
 )
 \
 \
@@ -16014,6 +16186,8 @@ NULL
 2
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 /
@@ -16201,6 +16375,8 @@ JOF_ATOM
 JOF_NAME
 |
 JOF_GNAME
+|
+JOF_IC
 )
 \
 \
@@ -16373,6 +16549,8 @@ JOF_ATOM
 JOF_PROP
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 \
@@ -16877,6 +17055,8 @@ NULL
 JOF_BYTE
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 \
@@ -17118,6 +17298,8 @@ NULL
 0
 0
 JOF_UINT8
+|
+JOF_IC
 )
 \
 /
@@ -17379,6 +17561,8 @@ JOF_UINT16
 JOF_INVOKE
 |
 JOF_TYPESET
+|
+JOF_IC
 )
 \
 /
