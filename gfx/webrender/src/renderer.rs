@@ -9216,7 +9216,7 @@ Renderer
 /
 /
 Initializes
-webrender
+WebRender
 and
 creates
 a
