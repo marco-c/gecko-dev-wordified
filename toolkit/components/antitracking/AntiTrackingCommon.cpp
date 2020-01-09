@@ -5545,7 +5545,7 @@ toplevelPrincipal
 loadInfo
 -
 >
-TopLevelPrincipal
+GetTopLevelPrincipal
 (
 )
 ;
@@ -6478,7 +6478,7 @@ parentPrincipal
 loadInfo
 -
 >
-TopLevelStorageAreaPrincipal
+GetTopLevelStorageAreaPrincipal
 (
 )
 ;
@@ -6530,7 +6530,7 @@ if
 loadInfo
 -
 >
-TopLevelPrincipal
+GetTopLevelPrincipal
 (
 )
 )

@@ -450,15 +450,6 @@ return
 mJoined
 ;
 }
-bool
-GetDenyClientCert
-(
-)
-{
-return
-mDenyClientCert
-;
-}
 void
 SetSentClientCert
 (
