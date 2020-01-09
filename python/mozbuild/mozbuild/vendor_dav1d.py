@@ -977,6 +977,11 @@ timestamp
 )
                                 
 yaml
+flags
+=
+re
+.
+MULTILINE
 )
         
 else
