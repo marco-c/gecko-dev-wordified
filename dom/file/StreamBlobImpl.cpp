@@ -355,6 +355,12 @@ aLength
 :
 BaseBlobImpl
 (
+NS_LITERAL_STRING
+(
+"
+StreamBlobImpl
+"
+)
 aContentType
 aLength
 )
@@ -409,6 +415,12 @@ aLength
 :
 BaseBlobImpl
 (
+NS_LITERAL_STRING
+(
+"
+StreamBlobImpl
+"
+)
 aName
 aContentType
 aLength
