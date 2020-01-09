@@ -50368,12 +50368,12 @@ ElementHasHref
 }
 }
 nsresult
-nsDocument
+nsIDocument
 :
 :
 CloneDocHelper
 (
-nsDocument
+nsIDocument
 *
 clone
 )
@@ -50634,9 +50634,6 @@ them
 clone
 -
 >
-nsDocument
-:
-:
 SetDocumentURI
 (
 nsIDocument
