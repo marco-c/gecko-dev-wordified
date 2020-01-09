@@ -3145,6 +3145,9 @@ self
 .
 _make_list_file
 (
+shlib
+.
+KIND
 backend_file
 .
 objdir
@@ -3642,6 +3645,9 @@ self
 .
 _make_list_file
 (
+prog
+.
+KIND
 backend_file
 .
 objdir
