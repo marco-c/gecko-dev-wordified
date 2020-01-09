@@ -383,6 +383,8 @@ uint8_t
 >
 &
 aReadbackBuffer
+bool
+aHadSlowFrame
 )
 ;
 /

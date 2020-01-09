@@ -1173,6 +1173,8 @@ uint8_t
 >
 &
 aReadbackBuffer
+bool
+aHadSlowFrame
 )
 ;
 void
@@ -1428,6 +1430,16 @@ thread
 .
 void
 FrameRenderingComplete
+(
+wr
+:
+:
+WindowId
+aWindowId
+)
+;
+void
+NotifySlowFrame
 (
 wr
 :
@@ -1749,6 +1761,11 @@ queue
 TimeStamp
 >
 mStartTimes
+;
+bool
+mHadSlowFrame
+=
+false
 ;
 }
 ;
