@@ -5513,14 +5513,15 @@ s
 base
 transform
 .
-AnimationArray
+const
+auto
 &
 animations
 =
 layer
 -
 >
-GetAnimations
+GetPropertyAnimationGroups
 (
 )
 ;
