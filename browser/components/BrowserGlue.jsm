@@ -1551,9 +1551,9 @@ prefs
 getCharPref
 (
 "
-lightweightThemes
+extensions
 .
-selectedThemeID
+activeThemeID
 "
 "
 "
