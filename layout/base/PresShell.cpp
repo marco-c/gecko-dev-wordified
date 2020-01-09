@@ -28121,10 +28121,9 @@ MOZ_GFX_OPTIMIZE_MOBILE
 aThebesContext
 -
 >
-Rectangle
+SnappedRectangle
 (
 r
-true
 )
 ;
 #

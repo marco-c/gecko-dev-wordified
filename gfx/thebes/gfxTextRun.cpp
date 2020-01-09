@@ -3721,7 +3721,7 @@ NewPath
 mContext
 -
 >
-Rectangle
+SnappedRectangle
 (
 gfxRect
 (
@@ -3754,7 +3754,6 @@ Height
 /
 appsPerDevUnit
 )
-true
 )
 ;
 mContext

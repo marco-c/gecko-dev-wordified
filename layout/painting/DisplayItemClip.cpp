@@ -618,10 +618,9 @@ A2D
 aContext
 -
 >
-Rectangle
+SnappedRectangle
 (
 clip
-true
 )
 ;
 aContext
