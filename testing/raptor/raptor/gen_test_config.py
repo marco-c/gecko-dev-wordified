@@ -126,6 +126,7 @@ browser
 test
 cs_port
 post_startup_delay
+                    
 host
 =
 '
@@ -138,6 +139,9 @@ host
 1
 '
 b_port
+=
+0
+debug_mode
 =
 0
 )
@@ -263,6 +267,15 @@ host
 %
 s
 "
+            
+"
+debug_mode
+"
+:
+"
+%
+d
+"
 }
 ;
 }
@@ -280,6 +293,7 @@ test
 post_startup_delay
 b_port
 host
+debug_mode
 )
     
 webext_background_script
