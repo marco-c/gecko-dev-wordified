@@ -29965,11 +29965,6 @@ TYPE_TRANSFORM
 item
 -
 >
-Frame
-(
-)
--
->
 Combines3DTransformWithAncestors
 (
 )
@@ -32203,12 +32198,7 @@ TYPE_TRANSFORM
 item
 -
 >
-Frame
-(
-)
--
->
-Extend3DContext
+Combines3DTransformWithAncestors
 (
 )
 |
@@ -32221,7 +32211,7 @@ Frame
 )
 -
 >
-Combines3DTransformWithAncestors
+Extend3DContext
 (
 )
 |
