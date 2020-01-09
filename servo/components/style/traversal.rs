@@ -4404,7 +4404,7 @@ entries
 /
 This
 is
-analagous
+analogous
 to
 the
 obvious
