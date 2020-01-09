@@ -3514,6 +3514,7 @@ GetKeyedHistogramSnapshots
 (
 aCx
 aResult
+aStoreName
 dataset
 aClearStore
 aFilterTest
@@ -3701,6 +3702,12 @@ GetKeyedHistogramSnapshots
 (
 aCx
 aResult
+NS_LITERAL_CSTRING
+(
+"
+main
+"
+)
 aDataset
 aClearHistograms
 )
