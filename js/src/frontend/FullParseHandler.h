@@ -2941,7 +2941,7 @@ ListNodeType
 memberList
 Node
 name
-Node
+FunctionNodeType
 initializer
 )
 {
