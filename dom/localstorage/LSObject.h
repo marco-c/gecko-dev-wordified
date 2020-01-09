@@ -429,6 +429,12 @@ mObserver
 uint32_t
 mPrivateBrowsingId
 ;
+Maybe
+<
+nsID
+>
+mClientId
+;
 nsCString
 mOrigin
 ;
