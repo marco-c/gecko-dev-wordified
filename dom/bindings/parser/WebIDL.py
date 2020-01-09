@@ -35320,6 +35320,12 @@ self
 _treatNonObjectAsNull
 =
 False
+        
+self
+.
+_isRunScriptBoundary
+=
+False
     
 def
 isCallback
@@ -35541,6 +35547,25 @@ _treatNonObjectAsNull
 =
 True
             
+elif
+attr
+.
+identifier
+(
+)
+=
+=
+"
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+"
+:
+                
+self
+.
+_isRunScriptBoundary
+=
+True
+            
 else
 :
                 
@@ -35624,6 +35649,19 @@ self
 .
 _arguments
 )
+    
+def
+isRunScriptBoundary
+(
+self
+)
+:
+        
+return
+self
+.
+_isRunScriptBoundary
+;
 class
 IDLCallbackType
 (

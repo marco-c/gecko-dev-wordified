@@ -84431,6 +84431,9 @@ n
 override
 =
 False
+canRunScript
+=
+False
 )
 :
         
@@ -84540,6 +84543,13 @@ override
 =
 override
         
+self
+.
+canRunScript
+=
+canRunScript
+;
+        
 ClassItem
 .
 __init__
@@ -84561,6 +84571,21 @@ decorators
 =
 [
 ]
+        
+if
+self
+.
+canRunScript
+:
+            
+decorators
+.
+append
+(
+'
+MOZ_CAN_RUN_SCRIPT
+'
+)
         
 if
 self
@@ -116444,6 +116469,9 @@ False
 override
 =
 False
+canRunScript
+=
+False
 )
 :
         
@@ -116701,6 +116729,10 @@ virtual
 override
 =
 override
+                             
+canRunScript
+=
+canRunScript
 )
     
 def
@@ -128151,6 +128183,12 @@ T
 body
 =
 bodyWithThis
+                            
+canRunScript
+=
+method
+.
+canRunScript
 )
                 
 ClassMethod
@@ -128170,6 +128208,12 @@ True
 body
 =
 bodyWithoutThis
+                            
+canRunScript
+=
+method
+.
+canRunScript
 )
                 
 ClassMethod
@@ -128198,6 +128242,12 @@ T
 body
 =
 bodyWithThisWithoutRv
+                            
+canRunScript
+=
+method
+.
+canRunScript
 )
                 
 ClassMethod
@@ -128217,6 +128267,12 @@ True
 body
 =
 bodyWithoutThisAndRv
+                            
+canRunScript
+=
+method
+.
+canRunScript
 )
                 
 method
@@ -129276,6 +129332,10 @@ CallbackKnownNotGray
 (
 )
 '
+                 
+canRunScript
+=
+False
 )
 :
         
@@ -129550,6 +129610,10 @@ visibility
 spiderMonkeyInterfacesAreStructs
 =
 spiderMonkeyInterfacesAreStructs
+                                
+canRunScript
+=
+canRunScript
 )
         
 #
@@ -131376,6 +131440,10 @@ False
 spiderMonkeyInterfacesAreStructs
 =
 False
+                 
+canRunScript
+=
+False
 )
 :
         
@@ -131394,6 +131462,10 @@ rethrowContentException
 spiderMonkeyInterfacesAreStructs
 =
 spiderMonkeyInterfacesAreStructs
+                                
+canRunScript
+=
+canRunScript
 )
     
 def
@@ -131630,6 +131702,15 @@ descriptorProvider
 needThisHandling
 =
 True
+                                
+canRunScript
+=
+not
+callback
+.
+isRunScriptBoundary
+(
+)
 )
     
 def
