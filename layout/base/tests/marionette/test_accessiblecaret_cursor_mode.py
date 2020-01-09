@@ -76,7 +76,7 @@ By
 from
 marionette_driver
 .
-marionette
+legacy_actions
 import
 Actions
 from
