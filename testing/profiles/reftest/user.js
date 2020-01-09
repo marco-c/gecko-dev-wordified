@@ -1518,6 +1518,16 @@ prefersReducedMotion
 0
 )
 ;
+user_pref
+(
+"
+ui
+.
+systemUsesDarkTheme
+"
+0
+)
+;
 /
 /
 Turn
