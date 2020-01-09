@@ -5858,7 +5858,7 @@ nsIScriptError
 :
 warningFlag
 "
-BlockAutoplayError
+BlockAutoplayWebAudioError
 "
 )
 ;
