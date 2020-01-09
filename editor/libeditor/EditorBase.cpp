@@ -12480,6 +12480,10 @@ FireInputEvent
 (
 EditAction
 aEditAction
+const
+nsAString
+&
+aData
 )
 {
 MOZ_ASSERT
@@ -12647,6 +12651,13 @@ ToInputType
 aEditAction
 )
 textEditor
+nsContentUtils
+:
+:
+InputEventOptions
+(
+aData
+)
 )
 ;
 NS_WARNING_ASSERTION
@@ -29861,6 +29872,12 @@ mParentData
 aEditorBase
 .
 mEditActionData
+)
+mData
+(
+VoidString
+(
+)
 )
 mTopLevelEditSubAction
 (
