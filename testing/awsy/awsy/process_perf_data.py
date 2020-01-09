@@ -797,6 +797,9 @@ data_path
 checkpoints
 =
 CHECKPOINTS
+alertThreshold
+=
+None
 )
 :
     
@@ -884,6 +887,20 @@ to
 include
 .
     
+:
+param
+alertThreshold
+:
+The
+percentage
+of
+change
+that
+triggers
+an
+alert
+.
+    
 "
 "
 "
@@ -920,6 +937,19 @@ bytes
 '
     
 }
+    
+if
+alertThreshold
+:
+        
+suite
+[
+'
+alertThreshold
+'
+]
+=
+alertThreshold
     
 extra_opts
 =
@@ -1538,6 +1568,15 @@ node
 ]
 data_path
 checkpoints
+            
+suite
+.
+get
+(
+'
+alertThreshold
+'
+)
 )
 )
     
