@@ -548,6 +548,9 @@ ready_to_draw
 ;
 #
 endif
+gboolean
+force_default_visual
+;
 }
 ;
 struct
@@ -584,6 +587,14 @@ gint
 x
 gint
 y
+)
+;
+void
+moz_container_force_default_visual
+(
+MozContainer
+*
+container
 )
 ;
 #
