@@ -1929,6 +1929,16 @@ MAX_SUGGESTIONS
 :
 0
 ;
+let
+priv
+=
+PrivateBrowsingUtils
+.
+isBrowserPrivate
+(
+browser
+)
+;
 /
 /
 fetch
@@ -1982,6 +1992,7 @@ controller
 fetch
 (
 searchString
+priv
 engine
 )
 ;
