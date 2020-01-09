@@ -1056,7 +1056,7 @@ hideEnableAllItem
 =
 disabledBreakpoints
 .
-size
+length
 =
 =
 =
@@ -1067,7 +1067,7 @@ hideEnableOthersItem
 =
 otherDisabledBreakpoints
 .
-size
+length
 =
 =
 =
@@ -1078,7 +1078,7 @@ hideDisableAllItem
 =
 enabledBreakpoints
 .
-size
+length
 =
 =
 =
@@ -1089,7 +1089,7 @@ hideDisableOthersItem
 =
 otherEnabledBreakpoints
 .
-size
+length
 =
 =
 =
@@ -1188,7 +1188,7 @@ hidden
 >
 breakpoints
 .
-size
+length
 =
 =
 =
