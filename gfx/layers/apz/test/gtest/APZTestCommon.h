@@ -467,6 +467,7 @@ the
 same
 value
 .
+inline
 SingleTouchData
 CreateSingleTouchData
 (
@@ -523,6 +524,7 @@ takes
 loose
 coordinates
 .
+inline
 SingleTouchData
 CreateSingleTouchData
 (
@@ -5122,6 +5124,7 @@ USE_GESTURE_DETECTOR
 )
 ;
 }
+inline
 FrameMetrics
 TestFrameMetrics
 (
@@ -5186,6 +5189,7 @@ return
 fm
 ;
 }
+inline
 uint32_t
 MillisecondsSinceStartup
 (

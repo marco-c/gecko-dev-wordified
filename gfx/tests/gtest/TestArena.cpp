@@ -311,6 +311,7 @@ val
 }
 }
 ;
+static
 void
 TestArenaAlloc
 (
@@ -1017,6 +1018,7 @@ iterations
 ;
 }
 }
+static
 void
 TestArenaLimit
 (

@@ -1703,6 +1703,7 @@ include
 <
 sstream
 >
+static
 bool
 DetectContainerLayerPropertiesBoundsChange
 (

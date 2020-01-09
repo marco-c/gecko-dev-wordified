@@ -11448,6 +11448,7 @@ return
 mTestTime
 ;
 }
+static
 void
 EraseLayerState
 (
@@ -13113,6 +13114,7 @@ aLayersId
 )
 ;
 }
+static
 void
 UpdateIndirectTree
 (

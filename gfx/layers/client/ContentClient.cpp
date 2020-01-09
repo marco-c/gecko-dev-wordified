@@ -2212,6 +2212,7 @@ EndCapture
 ;
 }
 }
+static
 nsIntRegion
 ExpandDrawRegion
 (

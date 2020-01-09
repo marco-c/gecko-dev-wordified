@@ -401,6 +401,7 @@ pid
 ;
 }
 ;
+static
 std
 :
 :
@@ -464,6 +465,7 @@ pid
 )
 ;
 }
+static
 bool
 WaitForTextureIdsToUnlock
 (
@@ -651,6 +653,7 @@ false
 }
 }
 }
+static
 void
 CheckTexturesForUnlock
 (

@@ -264,6 +264,7 @@ events
 .
 *
 /
+inline
 PinchGestureInput
 CreatePinchGestureInput
 (
@@ -431,6 +432,7 @@ defaultBehaviors
 )
 ;
 }
+inline
 MultiTouchInput
 CreateMultiTouchInput
 (

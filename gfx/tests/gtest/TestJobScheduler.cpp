@@ -155,6 +155,7 @@ if
 any
 )
 .
+static
 void
 MaybeYieldThread
 (
@@ -719,6 +720,7 @@ orchestrate
 it
 )
 .
+static
 void
 TestSchedulerJoin
 (
@@ -998,6 +1000,7 @@ tiles
 in
 parallel
 .
+static
 void
 TestSchedulerChain
 (

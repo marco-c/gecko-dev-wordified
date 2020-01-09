@@ -11047,6 +11047,7 @@ height
 ;
 }
 ;
+static
 void
 VisitEdge
 (
@@ -11257,6 +11258,7 @@ y1
 }
 }
 }
+static
 void
 TestVisit
 (

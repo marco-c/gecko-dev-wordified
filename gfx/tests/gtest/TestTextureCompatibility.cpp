@@ -535,6 +535,7 @@ caller
 .
 *
 /
+static
 already_AddRefed
 <
 Compositor
@@ -633,6 +634,7 @@ BasicCompositor
 .
 *
 /
+static
 void
 CheckCompatibilityWithBasicCompositor
 (

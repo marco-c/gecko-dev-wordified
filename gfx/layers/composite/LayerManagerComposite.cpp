@@ -1632,6 +1632,7 @@ snapped
 effective
 transform
 .
+static
 bool
 ShouldProcessLayer
 (
@@ -9316,6 +9317,7 @@ do
 it
 now
 .
+static
 void
 ComputeVisibleRegionForChildren
 (

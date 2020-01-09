@@ -306,6 +306,7 @@ betwee
 and
 100
 .
+static
 void
 SetupSurface
 (
@@ -464,6 +465,7 @@ contain
 the
 same
 data
+static
 void
 AssertSurfacesEqual
 (
@@ -655,6 +657,7 @@ b
 }
 }
 }
+static
 void
 AssertSurfacesEqual
 (
