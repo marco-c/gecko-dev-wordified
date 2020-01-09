@@ -3267,12 +3267,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-if
-(
-!
-mInputProcessing
-)
-{
 mInputProcessing
 =
 new
@@ -3284,7 +3278,6 @@ mTrackID
 mPrincipal
 )
 ;
-}
 RefPtr
 <
 MediaEngineWebRTCMicrophoneSource
