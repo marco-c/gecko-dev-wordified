@@ -13273,6 +13273,7 @@ rem
 .
 roundTripTime
 >
+=
 0
 "
 Rtcp
@@ -13296,7 +13297,7 @@ rem
 .
 roundTripTime
 <
-60000
+60
 "
 Rtcp
 rtt
