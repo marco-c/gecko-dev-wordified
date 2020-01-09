@@ -10766,6 +10766,8 @@ menulist
 text
 -
 link
+.
+navigable
 )
 :
 not

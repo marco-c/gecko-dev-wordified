@@ -2656,7 +2656,7 @@ document
 createElement
 (
 "
-toolbarbutton
+hbox
 "
 )
 ;
@@ -2691,6 +2691,9 @@ download
 download
 -
 state
+"
+"
+navigable
 "
 )
 ;

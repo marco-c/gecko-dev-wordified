@@ -8163,6 +8163,11 @@ toolbarbutton
 .
 subviewbutton
 buttonStateHover
+.
+navigable
+.
+subviewbutton
+buttonStateHover
 menu
 .
 subviewbutton
@@ -8218,6 +8223,11 @@ toolbarbutton
 1
 buttonStateActive
 toolbarbutton
+.
+subviewbutton
+buttonStateActive
+.
+navigable
 .
 subviewbutton
 buttonStateActive
