@@ -1240,6 +1240,9 @@ binary
 )
 :
     
+try
+:
+        
 version_info
 =
 mozversion
@@ -1248,6 +1251,18 @@ get_version
 (
 binary
 )
+    
+except
+mozversion
+.
+errors
+.
+VersionError
+:
+        
+version_info
+=
+None
     
 if
 version_info
