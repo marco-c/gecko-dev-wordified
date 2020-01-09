@@ -136,6 +136,8 @@ remote
 /
 content
 /
+sessions
+/
 Session
 .
 jsm

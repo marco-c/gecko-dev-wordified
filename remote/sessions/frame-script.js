@@ -79,6 +79,8 @@ remote
 /
 content
 /
+sessions
+/
 ContentProcessSession
 .
 jsm
