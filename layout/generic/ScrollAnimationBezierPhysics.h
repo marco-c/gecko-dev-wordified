@@ -130,7 +130,9 @@ h
 #
 include
 "
-nsSMILKeySpline
+mozilla
+/
+SMILKeySpline
 .
 h
 "
@@ -398,7 +400,7 @@ VelocityComponent
 double
 aTimeProgress
 const
-nsSMILKeySpline
+SMILKeySpline
 &
 aTimingFunction
 nscoord
@@ -470,7 +472,7 @@ preserved
 void
 InitTimingFunction
 (
-nsSMILKeySpline
+SMILKeySpline
 &
 aTimingFunction
 nscoord
@@ -576,10 +578,10 @@ mDestination
 TimeDuration
 mDuration
 ;
-nsSMILKeySpline
+SMILKeySpline
 mTimingFunctionX
 ;
-nsSMILKeySpline
+SMILKeySpline
 mTimingFunctionY
 ;
 bool

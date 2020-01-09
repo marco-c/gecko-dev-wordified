@@ -172,6 +172,15 @@ h
 #
 include
 "
+mozilla
+/
+SMILParserUtils
+.
+h
+"
+#
+include
+"
 nsAttrValue
 .
 h
@@ -180,13 +189,6 @@ h
 include
 "
 nsAttrValueInlines
-.
-h
-"
-#
-include
-"
-nsSMILParserUtils
 .
 h
 "
@@ -1134,7 +1136,7 @@ mPathVertices
 ;
 success
 =
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 ParseValuesGeneric
@@ -2651,7 +2653,7 @@ true
 if
 (
 !
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 ParseSemicolonDelimitedProgressList

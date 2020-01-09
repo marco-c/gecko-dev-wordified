@@ -138,7 +138,7 @@ class
 nsISMILAttr
 ;
 class
-nsSMILKeySpline
+SMILKeySpline
 ;
 class
 nsSMILTimeValue
@@ -166,11 +166,6 @@ SVGAnimationElement
 /
 namespace
 dom
-}
-/
-/
-namespace
-mozilla
 /
 *
 *
@@ -213,7 +208,7 @@ testing
 *
 /
 class
-nsSMILParserUtils
+SMILParserUtils
 {
 public
 :
@@ -272,7 +267,7 @@ nsAString
 aSpec
 FallibleTArray
 <
-nsSMILKeySpline
+SMILKeySpline
 >
 &
 aKeySplines
@@ -600,6 +595,11 @@ aStr
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /

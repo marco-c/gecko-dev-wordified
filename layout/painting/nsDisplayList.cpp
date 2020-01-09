@@ -781,17 +781,6 @@ mozilla
 /
 layers
 /
-RenderRootStateManager
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 StackingContextHelper
 .
 h
@@ -2974,7 +2963,7 @@ HasSpline
 )
 {
 const
-nsSMILKeySpline
+SMILKeySpline
 *
 spline
 =
@@ -5491,7 +5480,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -5561,11 +5550,6 @@ animationInfo
 StartPendingAnimations
 (
 aManager
--
->
-LayerManager
-(
-)
 -
 >
 GetAnimationReadyTime
@@ -22341,7 +22325,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -22645,7 +22629,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -26913,7 +26897,7 @@ const
 StackingContextHelper
 &
 aSc
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -26930,11 +26914,6 @@ if
 CanBuildWebRenderDisplayItems
 (
 aManager
--
->
-LayerManager
-(
-)
 aDisplayListBuilder
 )
 )
@@ -29125,7 +29104,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -30692,7 +30671,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -31892,7 +31871,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -32104,7 +32083,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -32498,7 +32477,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -32890,7 +32869,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -33417,7 +33396,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -34058,7 +34037,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -34899,7 +34878,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -36366,7 +36345,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -37985,7 +37964,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -40325,7 +40304,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -40561,7 +40540,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -41272,7 +41251,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -41746,7 +41725,7 @@ const
 StackingContextHelper
 &
 aSc
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -41758,11 +41737,6 @@ if
 (
 !
 aManager
--
->
-LayerManager
-(
-)
 -
 >
 AsyncPanZoomEnabled
@@ -43951,7 +43925,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -45005,7 +44979,7 @@ const
 StackingContextHelper
 &
 aSc
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -52257,7 +52231,7 @@ const
 StackingContextHelper
 &
 aSc
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -56395,7 +56369,7 @@ const
 StackingContextHelper
 &
 aSc
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -60057,7 +60031,7 @@ aSc
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -60207,7 +60181,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -62011,7 +61985,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -62632,7 +62606,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder
@@ -62931,7 +62905,7 @@ mozilla
 layers
 :
 :
-RenderRootStateManager
+WebRenderLayerManager
 *
 aManager
 nsDisplayListBuilder

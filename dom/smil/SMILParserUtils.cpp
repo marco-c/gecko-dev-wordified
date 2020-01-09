@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-nsSMILParserUtils
+SMILParserUtils
 .
 h
 "
@@ -142,7 +142,7 @@ h
 #
 include
 "
-nsSMILKeySpline
+SMILKeySpline
 .
 h
 "
@@ -202,10 +202,6 @@ nsCharSeparatedTokenizer
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
@@ -301,6 +297,10 @@ and
 Constants
 namespace
 {
+using
+namespace
+mozilla
+;
 const
 uint32_t
 MSEC_PER_SEC
@@ -2540,6 +2540,9 @@ true
 /
 /
 namespace
+namespace
+mozilla
+{
 /
 /
 -
@@ -2625,7 +2628,7 @@ namespace
 Implementation
 const
 nsDependentSubstring
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 TrimWhitespace
@@ -2751,7 +2754,7 @@ end
 ;
 }
 bool
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 ParseKeySplines
@@ -2762,7 +2765,7 @@ nsAString
 aSpec
 FallibleTArray
 <
-nsSMILKeySpline
+SMILKeySpline
 >
 &
 aKeySplines
@@ -2910,7 +2913,7 @@ aKeySplines
 .
 AppendElement
 (
-nsSMILKeySpline
+SMILKeySpline
 (
 values
 [
@@ -2948,7 +2951,7 @@ IsEmpty
 ;
 }
 bool
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 ParseSemicolonDelimitedProgressList
@@ -3094,7 +3097,7 @@ MOZ_STACK_CLASS
 SMILValueParser
 :
 public
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 GenericValueParser
@@ -3236,7 +3239,7 @@ mPreventCachingOfSandwich
 }
 ;
 bool
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 ParseValues
@@ -3306,7 +3309,7 @@ valueParser
 ;
 }
 bool
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 ParseValuesGeneric
@@ -3387,7 +3390,7 @@ true
 ;
 }
 bool
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 ParseRepeatCount
@@ -3406,7 +3409,7 @@ nsAString
 &
 spec
 =
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 TrimWhitespace
@@ -3473,7 +3476,7 @@ true
 ;
 }
 bool
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 ParseTimeValueSpecParams
@@ -3619,7 +3622,7 @@ aResult
 ;
 }
 bool
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 ParseClockValue
@@ -3683,7 +3686,7 @@ end
 ;
 }
 int32_t
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 CheckForNegativeNumber
@@ -3831,3 +3834,8 @@ return
 absValLocation
 ;
 }
+}
+/
+/
+namespace
+mozilla

@@ -137,6 +137,15 @@ include
 "
 mozilla
 /
+SMILParserUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SMILTimedElement
 .
 h
@@ -161,13 +170,6 @@ h
 include
 "
 SMILCSSValueType
-.
-h
-"
-#
-include
-"
-nsSMILParserUtils
 .
 h
 "
@@ -5017,7 +5019,7 @@ index
 "
 )
 ;
-nsSMILKeySpline
+SMILKeySpline
 const
 &
 spline
@@ -5542,7 +5544,7 @@ false
 if
 (
 !
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 ParseValues
@@ -6904,7 +6906,7 @@ true
 if
 (
 !
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 ParseKeySplines
@@ -6987,7 +6989,7 @@ true
 if
 (
 !
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 ParseSemicolonDelimitedProgressList

@@ -117,8 +117,6 @@ MPL
 #
 include
 "
-mozilla
-/
 SMILAnimationController
 .
 h
@@ -233,7 +231,7 @@ h
 #
 include
 "
-nsSMILCSSProperty
+SMILCSSProperty
 .
 h
 "

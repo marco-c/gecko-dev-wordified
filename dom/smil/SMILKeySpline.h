@@ -138,6 +138,9 @@ PodOperations
 .
 h
 "
+namespace
+mozilla
+{
 /
 *
 *
@@ -156,11 +159,11 @@ element
 *
 /
 class
-nsSMILKeySpline
+SMILKeySpline
 {
 public
 :
-nsSMILKeySpline
+SMILKeySpline
 (
 )
 :
@@ -251,7 +254,7 @@ x
 0
 *
 /
-nsSMILKeySpline
+SMILKeySpline
 (
 double
 aX1
@@ -413,7 +416,7 @@ operator
 =
 (
 const
-nsSMILKeySpline
+SMILKeySpline
 &
 aOther
 )
@@ -458,7 +461,7 @@ operator
 =
 (
 const
-nsSMILKeySpline
+SMILKeySpline
 &
 aOther
 )
@@ -479,7 +482,7 @@ int32_t
 Compare
 (
 const
-nsSMILKeySpline
+SMILKeySpline
 &
 aRhs
 )
@@ -786,6 +789,11 @@ kSampleStepSize
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /

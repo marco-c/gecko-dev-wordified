@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-nsSMILKeySpline
+SMILKeySpline
 .
 h
 "
@@ -135,6 +135,9 @@ math
 .
 h
 >
+namespace
+mozilla
+{
 #
 define
 NEWTON_ITERATIONS
@@ -157,7 +160,7 @@ SUBDIVISION_MAX_ITERATIONS
 10
 const
 double
-nsSMILKeySpline
+SMILKeySpline
 :
 :
 kSampleStepSize
@@ -174,7 +177,7 @@ kSplineTableSize
 )
 ;
 void
-nsSMILKeySpline
+SMILKeySpline
 :
 :
 Init
@@ -224,7 +227,7 @@ CalcSampleValues
 ;
 }
 double
-nsSMILKeySpline
+SMILKeySpline
 :
 :
 GetSplineValue
@@ -263,7 +266,7 @@ mY2
 ;
 }
 void
-nsSMILKeySpline
+SMILKeySpline
 :
 :
 GetSplineDerivativeValues
@@ -307,7 +310,7 @@ mY2
 ;
 }
 void
-nsSMILKeySpline
+SMILKeySpline
 :
 :
 CalcSampleValues
@@ -355,7 +358,7 @@ static
 *
 /
 double
-nsSMILKeySpline
+SMILKeySpline
 :
 :
 CalcBezier
@@ -415,7 +418,7 @@ static
 *
 /
 double
-nsSMILKeySpline
+SMILKeySpline
 :
 :
 GetSlope
@@ -462,7 +465,7 @@ aA1
 ;
 }
 double
-nsSMILKeySpline
+SMILKeySpline
 :
 :
 GetTForX
@@ -724,7 +727,7 @@ kSampleStepSize
 }
 }
 double
-nsSMILKeySpline
+SMILKeySpline
 :
 :
 NewtonRaphsonIterate
@@ -842,7 +845,7 @@ aGuessT
 ;
 }
 double
-nsSMILKeySpline
+SMILKeySpline
 :
 :
 BinarySubdivide
@@ -937,3 +940,8 @@ return
 currentT
 ;
 }
+}
+/
+/
+namespace
+mozilla

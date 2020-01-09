@@ -440,13 +440,6 @@ h
 #
 include
 "
-nsSMILKeySpline
-.
-h
-"
-#
-include
-"
 nsSubDocumentFrame
 .
 h
