@@ -191,8 +191,6 @@ listener
 =
 {
 OnHistoryNewEntry
-:
-function
 (
 aNewURI
 )

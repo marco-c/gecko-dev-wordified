@@ -22,6 +22,7 @@ bug
 /
 var
 newBrowser
+;
 function
 task
 (

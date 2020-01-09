@@ -42,16 +42,16 @@ div
 .
 setAttribute
 (
-'
+"
 class
-'
-'
+"
+"
 resize
 -
 change
 -
 color
-'
+"
 )
 ;
 /
@@ -203,8 +203,6 @@ searchFor
 Reflow
 "
 setup
-:
-function
 (
 docShell
 )
@@ -230,8 +228,6 @@ div
 ;
 }
 check
-:
-function
 (
 markers
 )
@@ -305,8 +301,6 @@ searchFor
 DOMEvent
 "
 setup
-:
-function
 (
 docShell
 )
@@ -346,8 +340,6 @@ testSendingEvent
 ;
 }
 check
-:
-function
 (
 markers
 )
@@ -428,8 +420,6 @@ searchFor
 ConsoleTime
 "
 setup
-:
-function
 (
 docShell
 )
@@ -444,8 +434,6 @@ testConsoleTimeEnd
 ;
 }
 check
-:
-function
 (
 markers
 )
@@ -574,8 +562,6 @@ searchFor
 ConsoleTime
 "
 setup
-:
-function
 (
 docShell
 )
@@ -594,8 +580,6 @@ resolver
 ;
 }
 check
-:
-function
 (
 markers
 )
@@ -777,11 +761,11 @@ source
 =
 =
 =
-'
+"
 self
 -
 hosted
-'
+"
 )
 {
 asyncFrame

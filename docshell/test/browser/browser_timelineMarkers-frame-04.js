@@ -65,8 +65,6 @@ from
 XMLHttpRequest
 "
 searchFor
-:
-function
 (
 markers
 )
@@ -96,8 +94,6 @@ length
 ;
 }
 setup
-:
-function
 (
 docShell
 )
@@ -119,8 +115,6 @@ dog
 ;
 }
 check
-:
-function
 (
 markers
 )
@@ -366,8 +360,6 @@ callback
 ;
 }
 setup
-:
-function
 (
 docShell
 )
@@ -389,8 +381,6 @@ promisetest
 ;
 }
 check
-:
-function
 (
 markers
 )
@@ -518,11 +508,11 @@ source
 =
 =
 =
-'
+"
 self
 -
 hosted
-'
+"
 )
 asyncFrame
 =
@@ -604,8 +594,6 @@ callback
 ;
 }
 setup
-:
-function
 (
 docShell
 )
@@ -627,8 +615,6 @@ promisescript
 ;
 }
 check
-:
-function
 (
 markers
 )
@@ -756,11 +742,11 @@ source
 =
 =
 =
-'
+"
 self
 -
 hosted
-'
+"
 )
 asyncFrame
 =

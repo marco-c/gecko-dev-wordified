@@ -920,8 +920,6 @@ tabStateListener
 =
 {
 onStateChange
-:
-function
 (
 webprogress
 request

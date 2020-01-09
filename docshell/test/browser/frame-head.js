@@ -110,12 +110,11 @@ value
 !
 value
 message
-:
-message
 }
 )
 ;
 }
+;
 this
 .
 is
@@ -137,6 +136,7 @@ message
 )
 ;
 }
+;
 this
 .
 info
@@ -157,12 +157,11 @@ info
 "
 {
 message
-:
-message
 }
 )
 ;
 }
+;
 this
 .
 finish
@@ -183,6 +182,7 @@ finish
 )
 ;
 }
+;
 /
 *
 Start
@@ -542,6 +542,7 @@ finish
 )
 ;
 }
+;
 function
 timelineWaitForMarkers
 (

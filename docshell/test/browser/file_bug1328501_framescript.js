@@ -125,6 +125,7 @@ nsIObserver
 ]
 )
 }
+;
 Services
 .
 obs

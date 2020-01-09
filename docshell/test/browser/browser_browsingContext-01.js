@@ -805,9 +805,9 @@ window
 .
 addEventListener
 (
-'
+"
 message
-'
+"
 e
 =
 >
@@ -921,9 +921,9 @@ document
 .
 createElement
 (
-'
+"
 iframe
-'
+"
 )
 ;
 win
