@@ -351,16 +351,7 @@ gnb
 =
 chromeWindow
 .
-document
-.
-getElementById
-(
-"
-global
--
-notificationbox
-"
-)
+gNotificationBox
 ;
 notification
 =
