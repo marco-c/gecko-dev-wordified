@@ -1055,6 +1055,16 @@ initializers
 \
 MACRO
 (
+dotFieldKeys
+dotFieldKeys
+"
+.
+fieldKeys
+"
+)
+\
+MACRO
+(
 each
 each
 "
