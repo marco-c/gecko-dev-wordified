@@ -2058,6 +2058,9 @@ mNeedsComposite
 bool
 mQueuedAsyncPaints
 ;
+bool
+mNotifyingWidgetListener
+;
 /
 /
 An
