@@ -318,17 +318,6 @@ bool
 aExtendedFilter
 )
 ;
-bool
-RequiresSharing
-(
-)
-const
-override
-{
-return
-false
-;
-}
 nsString
 GetName
 (
