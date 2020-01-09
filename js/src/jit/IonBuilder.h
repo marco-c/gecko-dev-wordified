@@ -6107,7 +6107,10 @@ bool
 guardGlobal
 )
 ;
-void
+AbortReasonOr
+<
+Ok
+>
 freezePropertiesForCommonPrototype
 (
 TemporaryTypeSet
@@ -6147,7 +6150,10 @@ globalShape
 .
 *
 /
+AbortReasonOr
+<
 bool
+>
 testCommonGetterSetter
 (
 TemporaryTypeSet
