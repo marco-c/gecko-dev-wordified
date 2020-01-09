@@ -5187,7 +5187,7 @@ BuildCounterStyle
 nsGkAtoms
 :
 :
-cjkDecimal
+cjk_decimal
 )
 ;
 default
