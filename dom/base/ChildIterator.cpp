@@ -231,14 +231,6 @@ mIndexInInserted
 {
 mParentAsSlot
 =
-nsDocument
-:
-:
-IsShadowDOMEnabled
-(
-mParent
-)
-?
 HTMLSlotElement
 :
 :
@@ -246,8 +238,6 @@ FromNode
 (
 mParent
 )
-:
-nullptr
 ;
 }
 nsIContent
