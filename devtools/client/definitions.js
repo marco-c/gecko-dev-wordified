@@ -3437,7 +3437,7 @@ functionkey
 l10n
 (
 "
-accessibility
+accessibilityF12
 .
 commandkey
 "
