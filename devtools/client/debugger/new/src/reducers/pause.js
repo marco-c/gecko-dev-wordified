@@ -548,6 +548,14 @@ MAP_FRAMES
 "
 :
 {
+const
+{
+selectedFrameId
+frames
+}
+=
+action
+;
 return
 {
 .
@@ -555,10 +563,7 @@ return
 .
 state
 frames
-:
-action
-.
-frames
+selectedFrameId
 }
 ;
 }

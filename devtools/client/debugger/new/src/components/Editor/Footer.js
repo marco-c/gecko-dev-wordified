@@ -138,6 +138,7 @@ isLoaded
 getFilename
 isOriginal
 isLoading
+shouldBlackbox
 }
 from
 "
@@ -587,12 +588,10 @@ selectedSource
 if
 (
 !
-sourceLoaded
-|
-|
+shouldBlackbox
+(
 selectedSource
-.
-isPrettyPrinted
+)
 )
 {
 return
