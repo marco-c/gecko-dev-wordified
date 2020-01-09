@@ -758,6 +758,16 @@ kwargs
 )
 :
         
+python
+=
+python
+or
+self
+.
+virtualenv_manager
+.
+python_path
+        
 self
 .
 activate_pipenv
