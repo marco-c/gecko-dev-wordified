@@ -3332,6 +3332,12 @@ rhs
 .
 mBrowsingContextID
 )
+mFrameBrowsingContextID
+(
+rhs
+.
+mFrameBrowsingContextID
+)
 mInitialSecurityCheckDone
 (
 rhs
