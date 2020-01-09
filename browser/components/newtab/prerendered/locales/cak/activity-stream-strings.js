@@ -1608,12 +1608,8 @@ context_menu_title
 "
 :
 "
-Tijaq
-k
-'
-ut
-y
-samaj
+Open
+menu
 "
 "
 pocket_learn_more

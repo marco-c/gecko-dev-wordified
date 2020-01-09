@@ -772,9 +772,9 @@ pocket_how_it_works
 "
 :
 "
-Como
-illo
-labora
+How
+it
+works
 "
 "
 pocket_cta_button
@@ -1175,8 +1175,7 @@ context_menu_title
 "
 :
 "
-Aperir
-le
+Open
 menu
 "
 "

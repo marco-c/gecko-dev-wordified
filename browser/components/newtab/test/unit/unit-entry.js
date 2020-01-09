@@ -968,15 +968,6 @@ clearUserPref
 )
 {
 }
-getChildList
-(
-)
-{
-return
-[
-]
-;
-}
 getStringPref
 (
 )
