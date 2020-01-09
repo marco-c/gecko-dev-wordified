@@ -521,13 +521,6 @@ extern
 crate
 thread_profiler
 ;
-#
-[
-macro_use
-]
-mod
-storage
-;
 mod
 batch
 ;
@@ -726,6 +719,9 @@ shade
 ;
 mod
 spatial_node
+;
+mod
+storage
 ;
 mod
 surface
