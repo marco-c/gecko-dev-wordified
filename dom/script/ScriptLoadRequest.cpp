@@ -343,6 +343,10 @@ mReferrerPolicy
 (
 aReferrerPolicy
 )
+mIsPreload
+(
+false
+)
 mElement
 (
 aElement
