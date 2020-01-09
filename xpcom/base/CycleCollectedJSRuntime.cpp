@@ -5722,7 +5722,7 @@ aContext
 )
 aDesc
 .
-summaryToJSON
+formatJSONProfiler
 (
 aContext
 )
@@ -5766,7 +5766,7 @@ aContext
 )
 aDesc
 .
-sliceToJSON
+sliceToJSONProfiler
 (
 aContext
 )
