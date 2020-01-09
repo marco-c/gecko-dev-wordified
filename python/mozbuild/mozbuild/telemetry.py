@@ -2174,15 +2174,11 @@ state_dir
 )
         
 #
-Simplest
-way
-to
-get
+Get
 an
 rfc3339
 datetime
 string
-AFAICT
 .
         
 '
@@ -2196,17 +2192,30 @@ utcfromtimestamp
 start_time
 )
 .
-isoformat
+strftime
 (
-b
 '
-T
+%
+Y
+-
+%
+m
+-
+%
+dT
+%
+H
+:
+%
+M
+:
+%
+S
+.
+%
+fZ
 '
 )
-+
-'
-Z
-'
         
 '
 command
