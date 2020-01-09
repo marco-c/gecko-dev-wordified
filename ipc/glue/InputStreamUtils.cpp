@@ -1467,7 +1467,10 @@ InputStreamHelper
 :
 PostSerializationActivation
 (
-OptionalInputStreamParams
+Maybe
+<
+InputStreamParams
+>
 &
 aParams
 bool
@@ -1480,15 +1483,9 @@ if
 (
 aParams
 .
-type
+isSome
 (
 )
-=
-=
-OptionalInputStreamParams
-:
-:
-TInputStreamParams
 )
 {
 InputStreamHelper
@@ -1498,7 +1495,7 @@ PostSerializationActivation
 (
 aParams
 .
-get_InputStreamParams
+ref
 (
 )
 aConsumedByIPC
