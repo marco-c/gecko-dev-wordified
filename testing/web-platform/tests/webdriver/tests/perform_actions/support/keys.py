@@ -2965,7 +2965,7 @@ code
 "
 :
 "
-PageDown
+Numpad4
 "
         
 "
@@ -3023,7 +3023,7 @@ code
 "
 :
 "
-PageUp
+Numpad5
 "
         
 "
