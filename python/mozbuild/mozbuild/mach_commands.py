@@ -24861,7 +24861,7 @@ self
 .
 _generate_path_list
 (
-paths
+assume_filename
 False
 )
         
@@ -24871,18 +24871,6 @@ path_list
 =
 [
 ]
-and
-paths
-[
-0
-]
-.
-endswith
-(
-self
-.
-_format_include_extensions
-)
 :
             
 #
@@ -24977,7 +24965,7 @@ example
 #
 by
 the
-extemssion
+extension
 hg
 -
 formatsource
@@ -25027,7 +25015,7 @@ PIPE
 with
 open
 (
-path_list
+paths
 [
 0
 ]
