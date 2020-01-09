@@ -9770,11 +9770,11 @@ tests
 /
 unit
 /
-CA
+http2
+-
+ca
 .
-cert
-.
-der
+pem
 var
 options
 =
@@ -9791,9 +9791,9 @@ __dirname
 /
 http2
 -
-key
+cert
 .
-pem
+key
 '
 )
 cert
