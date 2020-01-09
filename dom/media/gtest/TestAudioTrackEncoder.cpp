@@ -1498,13 +1498,6 @@ samples
 ;
 encoder
 .
-SetStartOffset
-(
-0
-)
-;
-encoder
-.
 AppendAudioSegment
 (
 std
@@ -1514,13 +1507,6 @@ move
 (
 segment
 )
-)
-;
-encoder
-.
-AdvanceCurrentTime
-(
-samples
 )
 ;
 EncodedFrameContainer
