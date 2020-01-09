@@ -2446,9 +2446,13 @@ windows
 std
 :
 :
-unordered_set
+unordered_map
 <
 uint64_t
+wr
+:
+:
+Epoch
 >
 mActiveAnimations
 ;
