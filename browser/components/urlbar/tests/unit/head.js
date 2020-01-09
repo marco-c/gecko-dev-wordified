@@ -880,7 +880,7 @@ random
 ;
 this
 .
-_cancel
+_cancelCallback
 =
 cancelCallback
 ;
