@@ -157,6 +157,17 @@ tests
     
 ]
     
+"
+tooltool_cache
+"
+:
+"
+/
+builds
+/
+tooltool_cache
+"
+    
 #
 from
 android_common
@@ -205,18 +216,6 @@ net
 /
 '
 ]
-    
-#
-minidump_tooltool_manifest_path
-is
-relative
-to
-workspace
-/
-build
-/
-tests
-/
     
 "
 minidump_tooltool_manifest_path
