@@ -1471,7 +1471,7 @@ tests_in_chunk
 (
 cursor
 platform
-suite
+chunk
 )
 :
     
@@ -1517,7 +1517,7 @@ chunk
                    
 (
 platform
-suite
+chunk
 )
 )
     
@@ -1600,7 +1600,7 @@ set
 of
 (
 platform
-suite
+chunk
 )
 tuples
 with
@@ -1761,7 +1761,7 @@ test_chunks
 contains
 (
 platform
-suite
+chunk
 )
 tuples
 with
@@ -2075,7 +2075,7 @@ mapping
         
 for
 platform
-suite
+chunk
 in
 test_chunks
 :
@@ -2086,7 +2086,7 @@ tests_in_chunk
 (
 c
 platform
-suite
+chunk
 )
             
 if
@@ -2126,7 +2126,7 @@ add
 (
 (
 platform
-suite
+chunk
 )
 )
     
@@ -2455,7 +2455,7 @@ set
     
 for
 platform
-suite
+chunk
 in
 chunks
 :
@@ -2481,7 +2481,7 @@ tasks
 :
             
 #
-Suite
+Chunk
 names
 taken
 from
@@ -2515,7 +2515,7 @@ platform
 in
 task
 and
-suite
+chunk
 in
 task
 :
@@ -2548,7 +2548,7 @@ for
 chunk
 '
 platform
-suite
+chunk
 )
     
 return
