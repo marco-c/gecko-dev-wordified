@@ -5411,6 +5411,17 @@ found
 }
 else
 {
+let
+acFieldName
+=
+usernameField
+.
+getAutocompleteInfo
+(
+)
+.
+fieldName
+;
 log
 (
 "
@@ -5423,6 +5434,8 @@ has
 name
 /
 value
+/
+autocomplete
 :
 "
 usernameField
@@ -5434,6 +5447,10 @@ name
 usernameField
 .
 value
+"
+/
+"
+acFieldName
 )
 ;
 }
