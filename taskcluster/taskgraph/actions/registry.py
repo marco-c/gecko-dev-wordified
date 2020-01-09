@@ -92,6 +92,10 @@ collections
 import
 namedtuple
 from
+six
+import
+text_type
+from
 taskgraph
 import
 create
@@ -1023,7 +1027,7 @@ assert
 isinstance
 (
 title
-basestring
+text_type
 )
 '
 title
@@ -1037,7 +1041,7 @@ assert
 isinstance
 (
 description
-basestring
+text_type
 )
 '
 description
@@ -1105,7 +1109,7 @@ assert
 isinstance
 (
 name
-basestring
+text_type
 )
 '
 name
@@ -1231,7 +1235,7 @@ assert
 isinstance
 (
 symbol
-basestring
+text_type
 )
 '
 symbol
