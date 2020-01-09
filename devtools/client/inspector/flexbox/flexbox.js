@@ -2705,6 +2705,9 @@ highlighters
 toggleFlexboxHighlighter
 (
 node
+"
+layout
+"
 )
 ;
 this
