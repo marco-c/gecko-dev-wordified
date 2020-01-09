@@ -136,14 +136,14 @@ h
 #
 include
 "
-nsIContentViewer
+nsDocShellLoadTypes
 .
 h
 "
 #
 include
 "
-nsDocShellLoadInfo
+nsIContentViewer
 .
 h
 "
