@@ -324,10 +324,8 @@ VsyncParent
 :
 NotifyVsync
 (
-const
-VsyncEvent
-&
-aVsync
+TimeStamp
+aTimeStamp
 )
 {
 /
@@ -362,7 +360,7 @@ vsyncEvent
 =
 NewRunnableMethod
 <
-VsyncEvent
+TimeStamp
 >
 (
 "
@@ -380,7 +378,7 @@ VsyncParent
 :
 :
 DispatchVsyncEvent
-aVsync
+aTimeStamp
 )
 ;
 MOZ_ALWAYS_SUCCEEDS
@@ -405,10 +403,8 @@ VsyncParent
 :
 DispatchVsyncEvent
 (
-const
-VsyncEvent
-&
-aVsync
+TimeStamp
+aTimeStamp
 )
 {
 AssertIsOnBackgroundThread
@@ -485,7 +481,7 @@ Unused
 <
 SendNotify
 (
-aVsync
+aTimeStamp
 )
 ;
 }

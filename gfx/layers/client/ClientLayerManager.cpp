@@ -4483,12 +4483,6 @@ mLatestTransactionId
 aScheduleComposite
 mPaintSequenceNumber
 mIsRepeatTransaction
-mTransactionIdAllocator
--
->
-GetVsyncId
-(
-)
 refreshStart
 mTransactionStart
 mURL

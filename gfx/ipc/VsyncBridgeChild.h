@@ -225,10 +225,8 @@ override
 void
 NotifyVsync
 (
-const
-VsyncEvent
-&
-aVsync
+TimeStamp
+aTimeStamp
 const
 layers
 :
@@ -284,10 +282,8 @@ aEndpoint
 void
 NotifyVsyncImpl
 (
-const
-VsyncEvent
-&
-aVsync
+TimeStamp
+aTimeStamp
 const
 layers
 :

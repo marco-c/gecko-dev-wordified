@@ -347,10 +347,8 @@ thread
 bool
 NotifyVsync
 (
-const
-VsyncEvent
-&
-aVsync
+TimeStamp
+aVsyncTimestamp
 )
 ;
 /
@@ -708,8 +706,6 @@ thread
 void
 PostCompositeTask
 (
-VsyncId
-aId
 TimeStamp
 aCompositeTimestamp
 )
@@ -791,8 +787,6 @@ composite
 void
 Composite
 (
-VsyncId
-aId
 TimeStamp
 aVsyncTimestamp
 )
@@ -835,10 +829,8 @@ virtual
 bool
 NotifyVsync
 (
-const
-VsyncEvent
-&
-aVsync
+TimeStamp
+aVsyncTimestamp
 )
 override
 ;

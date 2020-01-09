@@ -231,10 +231,8 @@ virtual
 bool
 NotifyVsync
 (
-const
-VsyncEvent
-&
-aVsync
+TimeStamp
+aVsyncTimeStamp
 )
 override
 {

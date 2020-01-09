@@ -650,13 +650,6 @@ const
 mozilla
 :
 :
-VsyncId
-&
-aVsyncId
-const
-mozilla
-:
-:
 TimeStamp
 &
 aRefreshStartTime
@@ -793,7 +786,6 @@ smallShmems
 largeShmems
 mIdNamespace
 aContainsSVGGroup
-aVsyncId
 aRefreshStartTime
 aTxnStartTime
 aTxnURL
@@ -844,13 +836,6 @@ uint32_t
 aPaintSequenceNumber
 TransactionId
 aTransactionId
-const
-mozilla
-:
-:
-VsyncId
-&
-aVsyncId
 const
 mozilla
 :
@@ -953,7 +938,6 @@ resourceUpdates
 smallShmems
 largeShmems
 mIdNamespace
-aVsyncId
 aRefreshStartTime
 aTxnStartTime
 aTxnURL
