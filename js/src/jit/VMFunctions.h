@@ -7027,7 +7027,7 @@ offset
 ;
 MOZ_MUST_USE
 bool
-Recompile
+IonRecompile
 (
 JSContext
 *
@@ -7036,7 +7036,7 @@ cx
 ;
 MOZ_MUST_USE
 bool
-ForcedRecompile
+IonForcedRecompile
 (
 JSContext
 *
@@ -7771,16 +7771,6 @@ extern
 const
 VMFunction
 GetSparseElementHelperInfo
-;
-extern
-const
-VMFunction
-ToNumberInfo
-;
-extern
-const
-VMFunction
-ToNumericInfo
 ;
 /
 /
