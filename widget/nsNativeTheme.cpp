@@ -766,7 +766,7 @@ aAppearance
 StyleAppearance
 :
 :
-TextfieldMultiline
+Textarea
 |
 |
 aAppearance
@@ -2225,7 +2225,7 @@ aAppearance
 StyleAppearance
 :
 :
-TextfieldMultiline
+Textarea
 |
 |
 aAppearance

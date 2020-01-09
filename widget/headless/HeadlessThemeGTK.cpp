@@ -376,7 +376,7 @@ case
 StyleAppearance
 :
 :
-TextfieldMultiline
+Textarea
 :
 case
 StyleAppearance
@@ -2117,7 +2117,7 @@ case
 StyleAppearance
 :
 :
-TextfieldMultiline
+Textarea
 :
 case
 StyleAppearance
