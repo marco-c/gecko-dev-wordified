@@ -9806,8 +9806,6 @@ BEnd
 )
 ;
 }
-else
-{
 return
 aWritingMode
 .
@@ -9823,7 +9821,6 @@ IEnd
 :
 mIStart
 ;
-}
 }
 nscoord
 Y
@@ -9865,12 +9862,9 @@ IEnd
 mIStart
 ;
 }
-else
-{
 return
 mBStart
 ;
-}
 }
 nscoord
 Width
@@ -9962,8 +9956,6 @@ aContainerWidth
 mBStart
 ;
 }
-else
-{
 return
 aWritingMode
 .
@@ -9979,7 +9971,6 @@ IEnd
 (
 )
 ;
-}
 }
 nscoord
 YMost
@@ -10021,12 +10012,11 @@ IEnd
 )
 ;
 }
-else
-{
 return
-mBStart
+BEnd
+(
+)
 ;
-}
 }
 bool
 IsEmpty
