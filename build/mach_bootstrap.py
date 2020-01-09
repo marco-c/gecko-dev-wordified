@@ -500,6 +500,22 @@ py
 '
     
 '
+toolkit
+/
+components
+/
+telemetry
+/
+tests
+/
+marionette
+/
+mach_commands
+.
+py
+'
+    
+'
 tools
 /
 compare
