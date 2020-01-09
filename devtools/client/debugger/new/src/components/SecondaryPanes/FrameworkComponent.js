@@ -205,13 +205,10 @@ popupObjectProperties
 Object
 setPopupObjectProperties
 :
-(
-Object
-Object
-)
-=
->
-void
+typeof
+actions
+.
+setPopupObjectProperties
 openElementInInspector
 :
 (

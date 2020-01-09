@@ -58,6 +58,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 import
 type
 {
@@ -76,6 +79,11 @@ function
 setExpandedState
 (
 expanded
+:
+Set
+<
+string
+>
 )
 {
 return

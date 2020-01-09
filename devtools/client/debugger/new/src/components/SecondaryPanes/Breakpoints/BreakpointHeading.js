@@ -190,10 +190,10 @@ hasSiblingOfSameName
 boolean
 selectSource
 :
-string
-=
->
-void
+typeof
+actions
+.
+selectSource
 }
 ;
 class
