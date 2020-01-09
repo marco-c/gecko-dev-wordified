@@ -4583,10 +4583,6 @@ True
 else
 :
             
-test
-=
-test
-            
 test_group
 =
 self
