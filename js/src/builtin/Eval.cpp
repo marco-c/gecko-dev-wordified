@@ -841,13 +841,6 @@ evalCache
 lookup_
 )
 ;
-script_
--
->
-uncacheForEval
-(
-)
-;
 }
 }
 void
@@ -881,13 +874,6 @@ script
 script_
 =
 script
-;
-script_
--
->
-setActiveEval
-(
-)
 ;
 }
 bool

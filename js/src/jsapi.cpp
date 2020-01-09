@@ -21675,17 +21675,6 @@ JSScript
 script
 )
 {
-MOZ_ASSERT
-(
-!
-script
--
->
-isCachedEval
-(
-)
-)
-;
 return
 &
 script
