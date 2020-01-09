@@ -125,7 +125,6 @@ win
 await
 setup
 (
-null
 {
 mode
 :
