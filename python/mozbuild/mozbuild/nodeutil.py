@@ -421,6 +421,11 @@ may
 be
 a
 script
+(
+Except
+on
+Windows
+)
 so
 we
 must
@@ -432,6 +437,17 @@ node
     
 if
 wrap_call_with_node
+and
+platform
+.
+system
+(
+)
+!
+=
+"
+Windows
+"
 :
         
 binary
