@@ -3406,23 +3406,7 @@ self
 )
 :
         
-self
-.
-testharness
-.
-load_runner
-(
-self
-.
-executor
-.
-last_environment
-[
-"
-protocol
-"
-]
-)
+pass
     
 def
 teardown
@@ -4465,6 +4449,43 @@ do_delayed_imports
 )
     
 def
+setup
+(
+self
+runner
+)
+:
+        
+super
+(
+MarionetteTestharnessExecutor
+self
+)
+.
+setup
+(
+runner
+)
+        
+self
+.
+protocol
+.
+testharness
+.
+load_runner
+(
+self
+.
+last_environment
+[
+"
+protocol
+"
+]
+)
+    
+def
 is_alive
 (
 self
@@ -5288,7 +5309,7 @@ teardown
 (
 )
             
-handle
+handles
 =
 self
 .
@@ -5297,10 +5318,11 @@ protocol
 marionette
 .
 window_handles
-[
-0
-]
             
+if
+handles
+:
+                
 self
 .
 protocol
@@ -5309,7 +5331,10 @@ marionette
 .
 switch_to_window
 (
-handle
+handles
+[
+0
+]
 )
             
 super
@@ -5342,6 +5367,19 @@ logger
 .
 warning
 (
+"
+Exception
+during
+reftest
+teardown
+:
+\
+n
+%
+s
+"
+%
+                                
 traceback
 .
 format_exc
