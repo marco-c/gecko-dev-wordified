@@ -179,6 +179,13 @@ aEventTarget
 static
 IPCBlobInputStreamThread
 *
+Get
+(
+)
+;
+static
+IPCBlobInputStreamThread
+*
 GetOrCreate
 (
 )
