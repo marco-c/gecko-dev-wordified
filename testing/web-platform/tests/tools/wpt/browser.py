@@ -3001,9 +3001,6 @@ self
 binary
 =
 None
-channel
-=
-None
 )
 :
         
@@ -3022,17 +3019,6 @@ browser
 "
 "
 "
-        
-binary
-=
-binary
-or
-self
-.
-find_binary
-(
-channel
-)
         
 version_string
 =
