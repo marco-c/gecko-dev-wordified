@@ -312,10 +312,6 @@ finishAddonManagerStartup
 (
 )
 ;
-fakeIntlReady
-(
-)
-;
 /
 /
 Make

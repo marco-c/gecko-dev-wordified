@@ -1295,10 +1295,6 @@ finishAddonManagerStartup
 (
 )
 ;
-fakeIntlReady
-(
-)
-;
 await
 TelemetryController
 .
