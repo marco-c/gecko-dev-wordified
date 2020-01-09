@@ -88,6 +88,7 @@ api
 {
 BuiltDisplayList
 ColorF
+LayoutSize
 NotificationRequest
 Checkpoint
 IdNamespace
@@ -112,15 +113,6 @@ channel
 :
 :
 MsgSender
-;
-use
-api
-:
-:
-units
-:
-:
-LayoutSize
 ;
 #
 [

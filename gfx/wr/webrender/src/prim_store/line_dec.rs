@@ -64,6 +64,8 @@ api
 ColorF
 ColorU
 LayoutPrimitiveInfo
+LayoutSizeAu
+LayoutVector2D
 LineOrientation
 LineStyle
 PremultipliedColorF
@@ -71,17 +73,10 @@ Shadow
 }
 ;
 use
-api
+app_units
 :
 :
-units
-:
-:
-{
 Au
-LayoutSizeAu
-LayoutVector2D
-}
 ;
 use
 display_list_flattener

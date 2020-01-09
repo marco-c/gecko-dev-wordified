@@ -268,6 +268,7 @@ api
 DebugFlags
 DocumentId
 PremultipliedColorF
+TexelRect
 }
 ;
 #
@@ -282,15 +283,6 @@ api
 :
 :
 IdNamespace
-;
-use
-api
-:
-:
-units
-:
-:
-TexelRect
 ;
 use
 euclid

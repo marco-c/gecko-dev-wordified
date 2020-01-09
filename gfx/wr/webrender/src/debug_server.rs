@@ -64,6 +64,7 @@ api
 ApiMsg
 DebugCommand
 DebugFlags
+DeviceIntSize
 }
 ;
 use
@@ -74,15 +75,6 @@ channel
 :
 :
 MsgSender
-;
-use
-api
-:
-:
-units
-:
-:
-DeviceIntSize
 ;
 use
 print_tree

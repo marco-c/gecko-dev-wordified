@@ -65,6 +65,7 @@ BuiltDisplayList
 ColorF
 DynamicProperties
 Epoch
+LayoutSize
 }
 ;
 use
@@ -76,6 +77,7 @@ FilterOp
 TempFilterData
 FilterData
 ComponentTransferFuncType
+LayoutTransform
 }
 ;
 use
@@ -89,18 +91,6 @@ PropertyBindingId
 ItemRange
 MixBlendMode
 StackingContext
-}
-;
-use
-api
-:
-:
-units
-:
-:
-{
-LayoutSize
-LayoutTransform
 }
 ;
 use
