@@ -610,9 +610,7 @@ this
 .
 target
 .
-client
-.
-close
+destroy
 (
 )
 ;
