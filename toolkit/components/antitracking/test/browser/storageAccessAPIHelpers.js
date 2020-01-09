@@ -1,9 +1,3 @@
-/
-*
-global
-allowListed
-*
-/
 async
 function
 hasStorageAccessInitially
