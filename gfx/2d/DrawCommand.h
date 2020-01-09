@@ -267,6 +267,8 @@ void
 Log
 (
 TreeLog
+<
+>
 &
 aLog
 )
