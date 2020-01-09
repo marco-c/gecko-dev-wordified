@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsDirectoryServiceUtils
+.
+h
+"
+#
+include
+"
 nsIContentSignatureVerifier
 .
 h
@@ -142,6 +149,13 @@ h
 include
 "
 nsIStreamListener
+.
+h
+"
+#
+include
+"
+nsNetUtil
 .
 h
 "

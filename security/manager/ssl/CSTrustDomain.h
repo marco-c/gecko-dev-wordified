@@ -154,7 +154,7 @@ h
 #
 include
 "
-nsICertBlocklist
+nsICertStorage
 .
 h
 "
@@ -643,7 +643,7 @@ mCertChain
 ;
 nsCOMPtr
 <
-nsICertBlocklist
+nsICertStorage
 >
 mCertBlocklist
 ;
