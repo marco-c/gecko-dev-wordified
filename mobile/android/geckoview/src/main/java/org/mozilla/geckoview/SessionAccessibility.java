@@ -927,7 +927,7 @@ getSettings
 (
 )
 .
-isFullAccessibilityTree
+getFullAccessibilityTree
 (
 )
 ?
@@ -4622,7 +4622,7 @@ getSettings
 (
 )
 .
-isFullAccessibilityTree
+getFullAccessibilityTree
 (
 )
 )
