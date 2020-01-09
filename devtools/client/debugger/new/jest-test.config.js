@@ -151,8 +151,6 @@ modulePathIgnorePatterns
 :
 [
 "
-src
-/
 test
 /
 mochitest
@@ -247,8 +245,15 @@ node_modules
 (
 ?
 !
+(
 devtools
 -
+|
+react
+-
+aria
+-
+)
 )
 "
 ]
