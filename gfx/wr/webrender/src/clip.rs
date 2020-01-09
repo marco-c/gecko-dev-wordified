@@ -6884,6 +6884,7 @@ eventually
 gets
 drawn
 .
+pub
 fn
 get_local_clip_rect
 (
