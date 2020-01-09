@@ -1937,7 +1937,9 @@ gcov_dir
 Set
 the
 GCOV
-directory
+/
+JSVM
+directories
 where
 counters
 will
@@ -2005,6 +2007,19 @@ env
 [
 '
 GCOV_RESULTS_DIR
+'
+]
+=
+tempfile
+.
+mkdtemp
+(
+)
+            
+env
+[
+'
+JSVM_RESULTS_DIR
 '
 ]
 =
@@ -2555,6 +2570,25 @@ self
 .
 gcov_dir
         
+jsvm_dir
+=
+env
+[
+'
+JSVM_RESULTS_DIR
+'
+]
+if
+'
+JSVM_RESULTS_DIR
+'
+in
+env
+else
+self
+.
+jsvm_dir
+        
 grcov_file
 =
 self
@@ -2563,8 +2597,6 @@ parse_coverage_artifacts
 (
             
 gcov_dir
-self
-.
 jsvm_dir
 merge
 =
@@ -2747,6 +2779,13 @@ in
 env
 :
             
+assert
+'
+JSVM_RESULTS_DIR
+'
+in
+env
+            
 #
 In
 this
@@ -2755,14 +2794,18 @@ parse_coverage_artifacts
 has
 removed
 GCOV_RESULTS_DIR
+and
             
 #
+JSVM_RESULTS_DIR
 so
 we
 need
 to
 remove
 GCOV_PREFIX
+and
+JS_CODE_COVERAGE_OUTPUT_DIR
 .
             
 shutil
@@ -2772,6 +2815,15 @@ rmtree
 self
 .
 gcov_dir
+)
+            
+shutil
+.
+rmtree
+(
+self
+.
+jsvm_dir
 )
     
 def
