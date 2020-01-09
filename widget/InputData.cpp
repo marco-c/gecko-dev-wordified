@@ -225,6 +225,10 @@ mFocusSequenceNumber
 (
 0
 )
+mLayersId
+{
+0
+}
 modifiers
 (
 0
@@ -262,6 +266,10 @@ mFocusSequenceNumber
 (
 0
 )
+mLayersId
+{
+0
+}
 modifiers
 (
 aModifiers
