@@ -5050,7 +5050,7 @@ android_targets
 =
 (
 '
-armv7
+thumbv7neon
 -
 linux
 -
