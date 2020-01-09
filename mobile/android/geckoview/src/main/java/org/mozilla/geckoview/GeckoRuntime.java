@@ -1807,17 +1807,6 @@ Context
 CLIPBOARD_SERVICE
 )
 ;
-GeckoSystemStateListener
-.
-getInstance
-(
-)
-.
-initialize
-(
-context
-)
-;
 return
 true
 ;
