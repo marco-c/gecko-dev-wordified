@@ -3059,9 +3059,9 @@ by
 a
 mismatch
 of
-browserGenerationA
+geckoGenerationA
 and
-browserGenerationB
+geckoGenerationB
 /
 /
 the
@@ -3099,7 +3099,7 @@ pthread_mutex_t
 mExternalShmem
 -
 >
-browserMutex
+geckoMutex
 )
 )
 =
@@ -3114,7 +3114,7 @@ aState
 &
 tmp
 .
-browserState
+geckoState
 sizeof
 (
 VRBrowserState
@@ -3132,7 +3132,7 @@ pthread_mutex_t
 mExternalShmem
 -
 >
-browserMutex
+geckoMutex
 )
 )
 ;
@@ -3185,7 +3185,7 @@ if
 mAPIShmem
 -
 >
-browserGenerationA
+geckoGenerationA
 !
 =
 mBrowserGeneration
@@ -3206,17 +3206,17 @@ if
 (
 tmp
 .
-browserGenerationA
+geckoGenerationA
 =
 =
 tmp
 .
-browserGenerationB
+geckoGenerationB
 &
 &
 tmp
 .
-browserGenerationA
+geckoGenerationA
 !
 =
 0
@@ -3224,7 +3224,7 @@ browserGenerationA
 &
 tmp
 .
-browserGenerationA
+geckoGenerationA
 !
 =
 -
@@ -3238,7 +3238,7 @@ aState
 &
 tmp
 .
-browserState
+geckoState
 sizeof
 (
 VRBrowserState
@@ -3249,7 +3249,7 @@ mBrowserGeneration
 =
 tmp
 .
-browserGenerationA
+geckoGenerationA
 ;
 }
 }
