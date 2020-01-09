@@ -27727,6 +27727,12 @@ mViewportZoom
 =
 zoom
 ;
+mTextInput
+.
+onScreenMetricsUpdated
+(
+)
+;
 }
 /
 *
