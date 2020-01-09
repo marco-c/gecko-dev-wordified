@@ -2831,14 +2831,8 @@ dateFormat
 new
 Date
 (
-Date
-.
-UTC
-(
 1970
 i
-1
-)
 )
 )
 ;
