@@ -772,7 +772,6 @@ GetReturnInParagraphCreatesNewParagraph
 /
 TextEditor
 overrides
-MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 Init
@@ -1276,7 +1275,6 @@ element
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Element
@@ -1432,7 +1430,6 @@ the
 event
 *
 /
-MOZ_CAN_RUN_SCRIPT
 nsresult
 OnMouseUp
 (
@@ -2092,7 +2089,6 @@ transaction
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
 nsresult
 SetInlinePropertyAsAction
 (
@@ -2308,7 +2304,6 @@ here
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
 nsresult
 RemoveInlinePropertyAsAction
 (
@@ -2968,6 +2963,71 @@ const
 /
 *
 *
+Insert
+a
+string
+as
+quoted
+text
+*
+(
+whose
+representation
+is
+dependant
+on
+the
+editor
+type
+)
+*
+replacing
+the
+selected
+text
+(
+if
+any
+)
+.
+*
+*
+param
+aQuotedText
+The
+actual
+text
+to
+be
+quoted
+*
+parem
+aNodeInserted
+Return
+the
+node
+which
+was
+inserted
+.
+*
+/
+nsresult
+InsertAsQuotation
+(
+const
+nsAString
+&
+aQuotedText
+nsINode
+*
+*
+aNodeInserted
+)
+;
+/
+*
+*
 *
 Inserts
 a
@@ -3494,7 +3554,6 @@ aPointToInsert
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 InsertTextWithTransaction
@@ -3606,7 +3665,6 @@ element
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
 nsresult
 CopyLastEditableChildStylesWithTransaction
 (
@@ -3686,7 +3744,6 @@ removed
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
 nsresult
 RemoveBlockContainerWithTransaction
 (
@@ -3710,7 +3767,6 @@ EditorBase
 :
 IsEditable
 ;
-MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 RemoveAttributeOrEquivalent
@@ -3726,7 +3782,6 @@ aSuppressTransaction
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 SetAttributeOrEquivalent
@@ -4610,7 +4665,6 @@ normal
 flow
 *
 /
-MOZ_CAN_RUN_SCRIPT
 nsresult
 SetPositionToAbsoluteOrStatic
 (
@@ -5261,7 +5315,6 @@ incr
 decr
 }
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 RelativeFontChangeOnTextNode
 (
@@ -5276,7 +5329,6 @@ int32_t
 aEndOffset
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 SetInlinePropertyOnNode
 (
@@ -6280,7 +6332,6 @@ nsAString
 outValue
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 ClearStyle
 (
@@ -6309,7 +6360,6 @@ Element
 aElement
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 SetPositionToStatic
 (
@@ -6391,7 +6441,6 @@ aDirection
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT
 virtual
 void
 OnEndHandlingTopLevelEditSubAction
@@ -9701,7 +9750,6 @@ element
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertAsCitedQuotationInternal
 (
@@ -9884,7 +9932,6 @@ PT
 typename
 CT
 >
-MOZ_CAN_RUN_SCRIPT
 EditorDOMPoint
 InsertNodeIntoProperAncestorWithTransaction
 (
@@ -10089,7 +10136,6 @@ EditSubAction
 aEditSubAction
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 LoadHTML
 (
@@ -10099,7 +10145,6 @@ nsAString
 aInputString
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 SetInlinePropertyInternal
 (
@@ -10115,7 +10160,6 @@ nsAString
 aValue
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 RemoveInlinePropertyInternal
 (
@@ -10172,7 +10216,6 @@ element
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
 nsresult
 ReplaceHeadContentsWithSourceWithTransaction
 (
@@ -10975,7 +11018,6 @@ NS_DECL_CYCLE_COLLECTION_NATIVE_CLASS
 (
 BlobReader
 )
-MOZ_CAN_RUN_SCRIPT
 nsresult
 OnResult
 (
@@ -11037,7 +11079,6 @@ mDoDeleteSelection
 ;
 }
 ;
-MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 InitRules
@@ -11709,7 +11750,6 @@ selection
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertCell
 (
@@ -12452,7 +12492,6 @@ end
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
 nsresult
 MergeCells
 (
@@ -12831,7 +12870,6 @@ int32_t
 aActualColSpan
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 SplitCellIntoColumns
 (
@@ -12852,7 +12890,6 @@ Element
 aNewCell
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 SplitCellIntoRows
 (
@@ -13013,7 +13050,6 @@ nothing
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
 nsresult
 NormalizeTableInternal
 (
@@ -13784,7 +13820,6 @@ selection
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
 nsresult
 RelativeFontChange
 (
@@ -13792,7 +13827,6 @@ FontSize
 aDir
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 RelativeFontChangeOnNode
 (
@@ -13803,7 +13837,6 @@ nsIContent
 aNode
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 RelativeFontChangeHelper
 (
@@ -13826,7 +13859,6 @@ style
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
 nsresult
 SetInlinePropertyOnTextNode
 (
@@ -13879,7 +13911,6 @@ nsAtom
 aAttribute
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 RemoveStyleInside
 (
@@ -13947,7 +13978,6 @@ Element
 aElement
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 RemoveElementIfNoStyleOrIdOrClass
 (
@@ -14121,7 +14151,7 @@ command
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 DoInsertHTMLWithContext
 (
@@ -14935,7 +14965,6 @@ HideShadowAndInfo
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 SetFinalSize
 (
@@ -15526,7 +15555,6 @@ nsAString
 aValue
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 SetInlinePropertyOnNodeImpl
 (

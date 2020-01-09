@@ -705,7 +705,6 @@ aTransferable
 Overrides
 of
 EditorBase
-MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 Init
@@ -1974,7 +1973,6 @@ it
 Overrides
 of
 EditorBase
-MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 RemoveAttributeOrEquivalent
@@ -1990,7 +1988,6 @@ aSuppressTransaction
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 SetAttributeOrEquivalent
@@ -2562,7 +2559,6 @@ aDirection
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT
 virtual
 void
 OnEndHandlingTopLevelEditSubAction
@@ -2575,7 +2571,6 @@ BeginEditorInit
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 EndEditorInit
 (
@@ -2998,7 +2993,6 @@ Document
 aSourceDoc
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 InitRules

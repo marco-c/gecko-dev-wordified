@@ -275,10 +275,8 @@ final
 {
 private
 :
-RefPtr
-<
 TextEditor
->
+*
 mTextEditor
 ;
 nsresult
@@ -297,7 +295,6 @@ nsresult
 aResult
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 ~
 AutoEditInitRulesTrigger
 (

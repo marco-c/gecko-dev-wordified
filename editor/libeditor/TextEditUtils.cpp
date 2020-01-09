@@ -834,10 +834,7 @@ mTextEditor
 {
 mResult
 =
-MOZ_KnownLive
-(
 mTextEditor
-)
 -
 >
 EndEditorInit
