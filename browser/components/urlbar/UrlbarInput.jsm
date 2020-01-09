@@ -8444,6 +8444,14 @@ close
 return
 ;
 }
+this
+.
+view
+.
+removeAccessibleFocus
+(
+)
+;
 /
 /
 During
