@@ -472,6 +472,22 @@ cbindgen
 )
     
 def
+ensure_nasm_packages
+(
+self
+state_dir
+checkout_root
+)
+:
+        
+#
+installed
+via
+ensure_browser_packages
+        
+pass
+    
+def
 ensure_node_packages
 (
 self

@@ -70,12 +70,14 @@ mozboot
 .
 linux_common
 import
+NasmInstall
 NodeInstall
 StyloInstall
 ClangStaticAnalysisInstall
 class
 CentOSFedoraBootstrapper
 (
+NasmInstall
 NodeInstall
 StyloInstall
                                

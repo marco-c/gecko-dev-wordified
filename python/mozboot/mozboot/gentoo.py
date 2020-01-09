@@ -68,6 +68,7 @@ mozboot
 .
 linux_common
 import
+NasmInstall
 NodeInstall
 StyloInstall
 ClangStaticAnalysisInstall
@@ -95,6 +96,7 @@ subprocess
 class
 GentooBootstrapper
 (
+NasmInstall
 NodeInstall
 StyloInstall
 ClangStaticAnalysisInstall
