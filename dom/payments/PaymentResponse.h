@@ -764,7 +764,7 @@ PaymentResponse
 (
 )
 ;
-nsresult
+void
 ValidatePaymentValidationErrors
 (
 const
