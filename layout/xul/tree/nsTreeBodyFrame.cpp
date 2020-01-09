@@ -12160,7 +12160,7 @@ NodePrincipal
 doc
 -
 >
-GetDocumentURI
+GetDocumentURIAsReferrer
 (
 )
 doc

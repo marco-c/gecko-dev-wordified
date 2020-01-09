@@ -1364,7 +1364,7 @@ requestContextID
 doc
 -
 >
-GetDocumentURI
+GetDocumentURIAsReferrer
 (
 )
 doc
