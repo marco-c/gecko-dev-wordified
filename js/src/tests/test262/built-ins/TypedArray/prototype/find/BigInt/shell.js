@@ -1,5 +1,11 @@
 /
 /
+GENERATED
+DO
+NOT
+EDIT
+/
+/
 file
 :
 testBigIntTypedArray
