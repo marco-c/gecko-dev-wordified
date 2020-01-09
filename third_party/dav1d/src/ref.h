@@ -279,6 +279,11 @@ void
 *
 data
 ;
+const
+void
+*
+const_data
+;
 atomic_int
 ref_cnt
 ;
@@ -288,6 +293,7 @@ void
 free_callback
 )
 (
+const
 uint8_t
 *
 data
@@ -314,6 +320,7 @@ Dav1dRef
 *
 dav1d_ref_wrap
 (
+const
 uint8_t
 *
 ptr
@@ -323,6 +330,7 @@ void
 free_callback
 )
 (
+const
 uint8_t
 *
 data
@@ -347,6 +355,7 @@ void
 dav1d_ref_dec
 (
 Dav1dRef
+*
 *
 ref
 )

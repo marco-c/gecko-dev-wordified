@@ -293,6 +293,18 @@ intops
 h
 "
 void
+checkasm_check_cdef_8bpc
+(
+void
+)
+;
+void
+checkasm_check_cdef_10bpc
+(
+void
+)
+;
+void
 checkasm_check_ipred_8bpc
 (
 void
@@ -516,7 +528,7 @@ BENCH_RUNS
 1
 <
 <
-16
+12
 )
 /
 *

@@ -430,6 +430,12 @@ if
 CONFIG_8BPC
 {
 "
+cdef_8bpc
+"
+checkasm_check_cdef_8bpc
+}
+{
+"
 ipred_8bpc
 "
 checkasm_check_ipred_8bpc
@@ -463,6 +469,12 @@ endif
 #
 if
 CONFIG_10BPC
+{
+"
+cdef_10bpc
+"
+checkasm_check_cdef_10bpc
+}
 {
 "
 ipred_10bpc
