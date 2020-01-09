@@ -321,6 +321,9 @@ GDK_SCROLL_SMOOTH
 anyway
 }
 throw
+new
+Error
+(
 "
 Native
 wheel
@@ -333,6 +336,7 @@ platform
 +
 getPlatform
 (
+)
 )
 ;
 }

@@ -792,6 +792,9 @@ byteLength
 )
 {
 throw
+new
+Error
+(
 "
 should
 have
@@ -799,6 +802,7 @@ derived
 two
 bytes
 "
+)
 ;
 }
 }
@@ -2647,6 +2651,9 @@ y
 )
 {
 throw
+new
+Error
+(
 "
 exported
 public
@@ -2656,6 +2663,7 @@ doesn
 t
 match
 "
+)
 ;
 }
 }
@@ -3512,6 +3520,9 @@ x
 )
 {
 throw
+new
+Error
+(
 "
 Invalid
 key
@@ -3522,6 +3533,7 @@ field
 s
 )
 "
+)
 ;
 }
 /
@@ -3549,6 +3561,9 @@ length
 )
 {
 throw
+new
+Error
+(
 "
 Invalid
 key
@@ -3556,6 +3571,7 @@ key
 incorrect
 length
 "
+)
 ;
 }
 return
@@ -3957,12 +3973,16 @@ spki
 )
 {
 throw
+new
+Error
+(
 "
 exported
 key
 is
 invalid
 "
+)
 ;
 }
 if
