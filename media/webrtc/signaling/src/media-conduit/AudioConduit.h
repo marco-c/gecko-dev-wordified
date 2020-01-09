@@ -1516,6 +1516,12 @@ droppedFrames
 uint32_t
 *
 framesEncoded
+Maybe
+<
+uint64_t
+>
+*
+qpSum
 )
 override
 {
