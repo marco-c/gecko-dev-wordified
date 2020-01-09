@@ -120,7 +120,7 @@ resource
 /
 modules
 /
-UrlbarController
+UrlbarUtils
 .
 jsm
 "
