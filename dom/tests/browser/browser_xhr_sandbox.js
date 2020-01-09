@@ -190,8 +190,6 @@ postMessage
 (
 {
 result
-:
-result
 }
 "
 *

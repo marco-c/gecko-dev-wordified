@@ -240,10 +240,6 @@ id
 :
 currentId
 method
-:
-method
-params
-:
 params
 }
 )

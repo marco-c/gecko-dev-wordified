@@ -227,8 +227,6 @@ consoleObserver
 =
 {
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -503,7 +501,6 @@ aWin
 )
 ;
 }
-;
 /
 /
 this

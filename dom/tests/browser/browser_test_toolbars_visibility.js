@@ -296,6 +296,7 @@ locationbar
 .
 visible
 }
+;
 }
 /
 *

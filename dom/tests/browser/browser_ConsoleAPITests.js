@@ -665,10 +665,10 @@ toString
 .
 join
 (
-'
+"
 \
 n
-'
+"
 )
 ;
 return
