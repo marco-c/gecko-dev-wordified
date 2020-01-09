@@ -6027,7 +6027,7 @@ isSystemPrincipal
 delete
 browser
 .
-canceledAuthenticationPromptCounter
+authPromptAbuseCounter
 ;
 }
 params

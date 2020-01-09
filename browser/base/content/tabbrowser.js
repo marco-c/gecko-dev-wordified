@@ -22136,7 +22136,7 @@ reload
 delete
 browser
 .
-canceledAuthenticationPromptCounter
+authPromptAbuseCounter
 ;
 PanelMultiView
 .

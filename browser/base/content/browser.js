@@ -23986,7 +23986,7 @@ tab
 .
 linkedBrowser
 .
-canceledAuthenticationPromptCounter
+authPromptAbuseCounter
 ;
 }
 PanelMultiView
