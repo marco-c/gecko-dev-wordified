@@ -2984,6 +2984,12 @@ case
 BackendType
 :
 :
+CAPTURE
+:
+case
+BackendType
+:
+:
 NONE
 :
 case

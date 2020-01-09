@@ -1349,6 +1349,12 @@ SKIA
 RECORDING
 DIRECT2D1_1
 WEBRENDER_TEXT
+CAPTURE
+/
+/
+Used
+for
+paths
 /
 /
 Add

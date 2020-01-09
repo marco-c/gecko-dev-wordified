@@ -301,7 +301,7 @@ const
 GlyphBuffer
 &
 aBuffer
-ID2D1GeometrySink
+ID2D1SimplifiedGeometrySink
 *
 aSink
 )

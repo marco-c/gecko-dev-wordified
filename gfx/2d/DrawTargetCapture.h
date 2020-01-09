@@ -927,17 +927,7 @@ FILL_WINDING
 )
 const
 override
-{
-return
-mRefDT
--
->
-CreatePathBuilder
-(
-aFillRule
-)
 ;
-}
 virtual
 already_AddRefed
 <
