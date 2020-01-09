@@ -478,7 +478,7 @@ enum
 BASE_FREQ
 }
 ;
-nsSVGNumberPair
+SVGNumberPair
 mNumberPairAttributes
 [
 1

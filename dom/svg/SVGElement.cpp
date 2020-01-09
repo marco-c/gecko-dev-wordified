@@ -455,7 +455,7 @@ h
 #
 include
 "
-nsSVGIntegerPair
+SVGIntegerPair
 .
 h
 "
@@ -483,7 +483,7 @@ h
 #
 include
 "
-nsSVGNumberPair
+SVGNumberPair
 .
 h
 "
@@ -2879,7 +2879,7 @@ foundMatch
 /
 Check
 for
-nsSVGNumberPair
+SVGNumberPair
 attribute
 NumberPairAttributesInfo
 numberPairInfo
@@ -3107,7 +3107,7 @@ foundMatch
 /
 Check
 for
-nsSVGIntegerPair
+SVGIntegerPair
 attribute
 IntegerPairAttributesInfo
 integerPairInfo

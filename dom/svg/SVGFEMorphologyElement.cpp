@@ -520,7 +520,7 @@ RADIUS
 .
 ToDOMAnimatedNumber
 (
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 eFirst
@@ -547,7 +547,7 @@ RADIUS
 .
 ToDOMAnimatedNumber
 (
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 eSecond
@@ -708,7 +708,7 @@ mNumberPairAttributes
 [
 RADIUS
 ]
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 eFirst
@@ -735,7 +735,7 @@ mNumberPairAttributes
 [
 RADIUS
 ]
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 eSecond

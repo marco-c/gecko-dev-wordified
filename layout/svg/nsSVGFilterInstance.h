@@ -151,7 +151,7 @@ h
 #
 include
 "
-nsSVGNumberPair
+SVGNumberPair
 .
 h
 "
@@ -567,6 +567,13 @@ typedef
 mozilla
 :
 :
+SVGNumberPair
+SVGNumberPair
+;
+typedef
+mozilla
+:
+:
 gfx
 :
 :
@@ -948,10 +955,10 @@ GetPrimitiveNumber
 uint8_t
 aCtxType
 const
-nsSVGNumberPair
+SVGNumberPair
 *
 aNumberPair
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 PairIndex

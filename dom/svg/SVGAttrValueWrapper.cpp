@@ -131,7 +131,7 @@ h
 #
 include
 "
-nsSVGIntegerPair
+SVGIntegerPair
 .
 h
 "
@@ -145,7 +145,7 @@ h
 #
 include
 "
-nsSVGNumberPair
+SVGNumberPair
 .
 h
 "
@@ -205,10 +205,9 @@ SVGTransformList
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 /
 *
 static
@@ -250,7 +249,7 @@ SVGAttrValueWrapper
 ToString
 (
 const
-nsSVGIntegerPair
+SVGIntegerPair
 *
 aIntegerPair
 nsAString
@@ -366,7 +365,7 @@ SVGAttrValueWrapper
 ToString
 (
 const
-nsSVGNumberPair
+SVGNumberPair
 *
 aNumberPair
 nsAString
@@ -557,3 +556,8 @@ aResult
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla

@@ -578,7 +578,7 @@ BASE_FREQ
 .
 ToDOMAnimatedNumber
 (
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 eFirst
@@ -605,7 +605,7 @@ BASE_FREQ
 .
 ToDOMAnimatedNumber
 (
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 eSecond
@@ -746,7 +746,7 @@ BASE_FREQ
 .
 GetAnimValue
 (
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 eFirst
@@ -762,7 +762,7 @@ BASE_FREQ
 .
 GetAnimValue
 (
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 eSecond

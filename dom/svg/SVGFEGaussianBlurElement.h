@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsSVGNumberPair
+SVGNumberPair
 .
 h
 "
@@ -405,7 +405,7 @@ enum
 STD_DEV
 }
 ;
-nsSVGNumberPair
+SVGNumberPair
 mNumberPairAttributes
 [
 1

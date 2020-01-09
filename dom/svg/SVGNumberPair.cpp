@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-nsSVGNumberPair
+SVGNumberPair
 .
 h
 "
@@ -159,19 +159,18 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
 ;
+namespace
+mozilla
+{
 static
 nsSVGAttrTearoffTable
 <
-nsSVGNumberPair
-nsSVGNumberPair
+SVGNumberPair
+SVGNumberPair
 :
 :
 DOMAnimatedNumber
@@ -181,8 +180,8 @@ sSVGFirstAnimatedNumberTearoffTable
 static
 nsSVGAttrTearoffTable
 <
-nsSVGNumberPair
-nsSVGNumberPair
+SVGNumberPair
+SVGNumberPair
 :
 :
 DOMAnimatedNumber
@@ -364,7 +363,7 @@ NS_OK
 ;
 }
 nsresult
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 SetBaseValueString
@@ -511,7 +510,7 @@ NS_OK
 ;
 }
 void
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 GetBaseValueString
@@ -573,7 +572,7 @@ mBaseVal
 }
 }
 void
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 SetBaseValue
@@ -675,7 +674,7 @@ emptyOrOldValue
 ;
 }
 void
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 SetBaseValues
@@ -786,7 +785,7 @@ emptyOrOldValue
 ;
 }
 void
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 SetAnimValue
@@ -871,7 +870,7 @@ already_AddRefed
 <
 SVGAnimatedNumber
 >
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 ToDOMAnimatedNumber
@@ -961,7 +960,7 @@ forget
 )
 ;
 }
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 DOMAnimatedNumber
@@ -1003,7 +1002,7 @@ UniquePtr
 <
 nsISMILAttr
 >
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 ToSMILAttr
@@ -1025,7 +1024,7 @@ aSVGElement
 ;
 }
 nsresult
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 SMILNumberPair
@@ -1135,7 +1134,7 @@ NS_OK
 ;
 }
 nsSMILValue
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 SMILNumberPair
@@ -1195,7 +1194,7 @@ val
 ;
 }
 void
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 SMILNumberPair
@@ -1266,7 +1265,7 @@ mAttrEnum
 }
 }
 nsresult
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 SMILNumberPair
@@ -1334,3 +1333,8 @@ return
 NS_OK
 ;
 }
+}
+/
+/
+namespace
+mozilla

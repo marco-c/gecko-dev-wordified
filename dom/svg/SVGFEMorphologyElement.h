@@ -137,7 +137,7 @@ h
 #
 include
 "
-nsSVGNumberPair
+SVGNumberPair
 .
 h
 "
@@ -442,7 +442,7 @@ enum
 RADIUS
 }
 ;
-nsSVGNumberPair
+SVGNumberPair
 mNumberPairAttributes
 [
 1

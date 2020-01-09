@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsSVGIntegerPair
-.
-h
-"
-#
-include
-"
 nsSVGLength2
 .
 h

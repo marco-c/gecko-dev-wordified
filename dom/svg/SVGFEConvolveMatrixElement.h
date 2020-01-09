@@ -158,7 +158,7 @@ h
 #
 include
 "
-nsSVGIntegerPair
+SVGIntegerPair
 .
 h
 "
@@ -570,7 +570,7 @@ enum
 KERNEL_UNIT_LENGTH
 }
 ;
-nsSVGNumberPair
+SVGNumberPair
 mNumberPairAttributes
 [
 1
@@ -607,7 +607,7 @@ enum
 ORDER
 }
 ;
-nsSVGIntegerPair
+SVGIntegerPair
 mIntegerPairAttributes
 [
 1
