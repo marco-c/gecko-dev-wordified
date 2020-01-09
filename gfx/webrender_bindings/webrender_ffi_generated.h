@@ -705,6 +705,16 @@ storage
 RGBAI32
 =
 6
+/
+/
+Four
+channels
+byte
+storage
+.
+RGBA8
+=
+7
 Sentinel
 /
 *
