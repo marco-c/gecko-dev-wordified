@@ -982,11 +982,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-Document
+nsIDocument
 .
 h
 "
@@ -2264,7 +2260,7 @@ err_rval
 \
 nsCOMPtr
 <
-Document
+nsIDocument
 >
 kungFuDeathGrip
 =
@@ -9065,7 +9061,7 @@ nsGlobalWindowOuter
 :
 WouldReuseInnerWindow
 (
-Document
+nsIDocument
 *
 aNewDocument
 )
@@ -9938,7 +9934,7 @@ nsGlobalWindowOuter
 :
 ComputeIsSecureContext
 (
-Document
+nsIDocument
 *
 aDocument
 SecureContextFlags
@@ -10151,7 +10147,7 @@ is
 embedding
 us
 .
-Document
+nsIDocument
 *
 creatorDoc
 =
@@ -11278,7 +11274,7 @@ nsGlobalWindowOuter
 :
 SetNewDocument
 (
-Document
+nsIDocument
 *
 aDocument
 nsISupports
@@ -11421,9 +11417,9 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-RefPtr
+nsCOMPtr
 <
-Document
+nsIDocument
 >
 oldDoc
 =
@@ -19009,7 +19005,7 @@ mDoc
 >
 WarnOnceAbout
 (
-Document
+nsIDocument
 :
 :
 eWindowContentUntrusted
@@ -24069,7 +24065,7 @@ static
 void
 FinishDOMFullscreenChange
 (
-Document
+nsIDocument
 *
 aDoc
 bool
@@ -24097,7 +24093,7 @@ change
 if
 (
 !
-Document
+nsIDocument
 :
 :
 HandlePendingFullscreenRequests
@@ -24126,7 +24122,7 @@ request
 exiting
 fullscreen
 .
-Document
+nsIDocument
 :
 :
 AsyncExitFullscreen
@@ -24159,7 +24155,7 @@ from
 DOM
 Fullscreen
 .
-Document
+nsIDocument
 :
 :
 ExitFullscreenInDocTree
@@ -29711,7 +29707,7 @@ parent
 {
 nsCOMPtr
 <
-Document
+nsIDocument
 >
 parentdoc
 =
@@ -32177,7 +32173,7 @@ nsGlobalWindowOuter
 :
 FirePopupBlockedEvent
 (
-Document
+nsIDocument
 *
 aDoc
 nsIURI
@@ -32362,7 +32358,7 @@ return
 }
 nsCOMPtr
 <
-Document
+nsIDocument
 >
 doc
 =
@@ -32844,7 +32840,7 @@ other
 branches
 since
 the
-Document
+nsIDocument
 API
 we
 have
@@ -33059,7 +33055,7 @@ nsGlobalWindowOuter
 :
 SameLoadingURI
 (
-Document
+nsIDocument
 *
 aDoc
 nsIChannel
@@ -33783,7 +33779,7 @@ return
 }
 nsCOMPtr
 <
-Document
+nsIDocument
 >
 topDoc
 =
@@ -33841,7 +33837,7 @@ nullptr
 ;
 nsCOMPtr
 <
-Document
+nsIDocument
 >
 doc
 =
@@ -34963,9 +34959,9 @@ if
 callerInnerWin
 )
 {
-RefPtr
+nsCOMPtr
 <
-Document
+nsIDocument
 >
 doc
 =
@@ -35670,7 +35666,7 @@ if
 (
 aSubjectPrincipal
 .
-GetIsSystemPrincipal
+IsSystemPrincipal
 (
 )
 )
@@ -36106,7 +36102,7 @@ MOZ_DIAGNOSTIC_ASSERT
 (
 aSubjectPrincipal
 .
-GetIsSystemPrincipal
+IsSystemPrincipal
 (
 )
 |
@@ -36158,7 +36154,7 @@ IsBlockPostMessageForFPI
 !
 aSubjectPrincipal
 .
-GetIsSystemPrincipal
+IsSystemPrincipal
 (
 )
 &
@@ -38329,7 +38325,7 @@ for
 different
 document
 .
-Document
+nsIDocument
 *
 topDoc
 =
@@ -38590,7 +38586,7 @@ mSuspendedDoc
 {
 nsCOMPtr
 <
-Document
+nsIDocument
 >
 currentDoc
 =
@@ -39345,7 +39341,7 @@ rootWindow
 return
 ;
 }
-Document
+nsIDocument
 *
 doc
 =
@@ -40348,7 +40344,7 @@ a
 null
 parent
 .
-Document
+nsIDocument
 *
 doc
 =
@@ -40427,7 +40423,7 @@ if
 chromeElement
 )
 {
-Document
+nsIDocument
 *
 doc
 =
@@ -40828,7 +40824,7 @@ static
 bool
 NotifyDocumentTree
 (
-Document
+nsIDocument
 *
 aDocument
 void
@@ -44624,7 +44620,7 @@ creation
 .
 nsCOMPtr
 <
-Document
+nsIDocument
 >
 doc
 =
@@ -44706,7 +44702,7 @@ aURI
 return
 ;
 }
-Document
+nsIDocument
 *
 doc
 =
@@ -45300,7 +45296,7 @@ cpp
 .
 nsCOMPtr
 <
-Document
+nsIDocument
 >
 doc
 =
@@ -48460,7 +48456,7 @@ SetNewDocument
 .
 nsCOMPtr
 <
-Document
+nsIDocument
 >
 document
 =
@@ -48567,7 +48563,7 @@ GetDocGroup
 )
 const
 {
-Document
+nsIDocument
 *
 doc
 =

@@ -231,6 +231,15 @@ include
 "
 mozilla
 /
+BasePrincipal
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
@@ -836,7 +845,7 @@ context
 ;
 nsCOMPtr
 <
-Document
+nsIDocument
 >
 doc
 ;
@@ -1162,7 +1171,7 @@ AppendLiteral
 }
 nsCOMPtr
 <
-Document
+nsIDocument
 >
 doc
 ;
@@ -1569,7 +1578,7 @@ NS_OK
 }
 nsCOMPtr
 <
-Document
+nsIDocument
 >
 doc
 ;
@@ -1941,7 +1950,7 @@ return
 false
 ;
 }
-Document
+nsIDocument
 *
 doc
 =
@@ -6469,7 +6478,7 @@ if
 aPrincipal
 -
 >
-GetIsSystemPrincipal
+IsSystemPrincipal
 (
 )
 )

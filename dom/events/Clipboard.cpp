@@ -128,6 +128,15 @@ include
 "
 mozilla
 /
+BasePrincipal
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Clipboard
@@ -953,7 +962,7 @@ GetOwner
 (
 )
 ;
-Document
+nsIDocument
 *
 doc
 =
@@ -1362,7 +1371,7 @@ GetIsAddonOrExpandedAddonPrincipal
 prin
 -
 >
-GetIsSystemPrincipal
+IsSystemPrincipal
 (
 )
 ;

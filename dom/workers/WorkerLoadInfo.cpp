@@ -133,6 +133,15 @@ include
 "
 mozilla
 /
+BasePrincipal
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 TabChild
@@ -1552,7 +1561,7 @@ if
 mPrincipal
 -
 >
-GetIsSystemPrincipal
+IsSystemPrincipal
 (
 )
 )
