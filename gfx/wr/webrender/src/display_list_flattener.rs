@@ -2380,10 +2380,6 @@ LayoutRect
 max_rect
 (
 )
-&
-self
-.
-clip_store
 Some
 (
 tile_cache
@@ -6611,10 +6607,6 @@ mut
 self
 .
 interners
-&
-self
-.
-clip_store
 )
 ;
 (
@@ -7557,10 +7549,6 @@ stacking_context
 .
 spatial_node_index
 max_clip
-&
-self
-.
-clip_store
 None
 )
 )
@@ -7801,10 +7789,6 @@ stacking_context
 .
 spatial_node_index
 max_clip
-&
-self
-.
-clip_store
 None
 )
 )
@@ -7941,10 +7925,6 @@ stacking_context
 .
 spatial_node_index
 max_clip
-&
-self
-.
-clip_store
 None
 )
 )
@@ -8143,10 +8123,6 @@ stacking_context
 .
 spatial_node_index
 max_clip
-&
-self
-.
-clip_store
 None
 )
 )
@@ -10013,10 +9989,6 @@ clip_and_scroll
 .
 spatial_node_index
 max_clip
-&
-self
-.
-clip_store
 None
 )
 )
@@ -13657,10 +13629,6 @@ interners
 &
 mut
 Interners
-clip_store
-:
-&
-ClipStore
 )
 -
 >
@@ -13806,7 +13774,6 @@ LayoutRect
 max_rect
 (
 )
-clip_store
 None
 )
 )
