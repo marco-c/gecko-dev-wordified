@@ -2016,10 +2016,12 @@ wr
 TransformStyle
 aTransformStyle
 const
-wr
+gfx
 :
 :
-ReferenceFrameKind
+Matrix4x4
+*
+aPerspective
 const
 wr
 :

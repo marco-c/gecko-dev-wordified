@@ -4864,13 +4864,6 @@ is
 an
 identity
 transform
-#
-[
-allow
-(
-unused
-)
-]
 pub
 fn
 is_identity
