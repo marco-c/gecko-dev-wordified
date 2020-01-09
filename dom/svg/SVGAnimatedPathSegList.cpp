@@ -165,6 +165,13 @@ SVGPathSegListSMILType
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 /
 /
 See
