@@ -7033,10 +7033,10 @@ return
 NS_OK
 ;
 }
-/
-/
-nsIIPCSerializableURI
+NS_IMETHODIMP_
+(
 void
+)
 nsJSURI
 :
 :

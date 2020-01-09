@@ -641,10 +641,10 @@ return
 rv
 ;
 }
-/
-/
-nsIIPCSerializableURI
+NS_IMETHODIMP_
+(
 void
+)
 nsSimpleNestedURI
 :
 :

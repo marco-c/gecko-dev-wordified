@@ -201,13 +201,6 @@ h
 #
 include
 "
-nsIIPCSerializableURI
-.
-h
-"
-#
-include
-"
 nsISensitiveInfoHiddenURI
 .
 h
@@ -431,8 +424,6 @@ nsIClassInfo
 public
 nsISizeOf
 public
-nsIIPCSerializableURI
-public
 nsISensitiveInfoHiddenURI
 #
 ifdef
@@ -475,7 +466,6 @@ NS_DECL_NSIFILEURL
 NS_DECL_NSISTANDARDURL
 NS_DECL_NSISERIALIZABLE
 NS_DECL_NSICLASSINFO
-NS_DECL_NSIIPCSERIALIZABLEURI
 NS_DECL_NSISENSITIVEINFOHIDDENURI
 /
 /

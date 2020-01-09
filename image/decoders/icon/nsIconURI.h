@@ -121,13 +121,6 @@ h
 #
 include
 "
-nsIIPCSerializableURI
-.
-h
-"
-#
-include
-"
 nsINestedURI
 .
 h
@@ -153,8 +146,6 @@ final
 public
 nsIMozIconURI
 public
-nsIIPCSerializableURI
-public
 nsINestedURI
 {
 public
@@ -162,7 +153,6 @@ public
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIURI
 NS_DECL_NSIMOZICONURI
-NS_DECL_NSIIPCSERIALIZABLEURI
 NS_DECL_NSINESTEDURI
 protected
 :

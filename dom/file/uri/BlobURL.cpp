@@ -462,12 +462,10 @@ return
 NS_OK
 ;
 }
-/
-/
-nsIIPCSerializableURI
-methods
-:
+NS_IMETHODIMP_
+(
 void
+)
 BlobURL
 :
 :
