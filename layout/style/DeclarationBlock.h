@@ -882,10 +882,7 @@ mRaw
 ;
 }
 const
-StyleStrong
-<
-RawServoDeclarationBlock
->
+RawServoDeclarationBlockStrong
 *
 RefRawStrong
 (
@@ -931,10 +928,7 @@ RawServoDeclarationBlock
 =
 sizeof
 (
-StyleStrong
-<
-RawServoDeclarationBlock
->
+RawServoDeclarationBlockStrong
 )
 "
 RawServoDeclarationBlockStrong
@@ -951,10 +945,7 @@ return
 reinterpret_cast
 <
 const
-StyleStrong
-<
-RawServoDeclarationBlock
->
+RawServoDeclarationBlockStrong
 *
 >
 (
