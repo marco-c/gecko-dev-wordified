@@ -261,6 +261,8 @@ testWindow
 .
 gURLBar
 .
+inputField
+.
 controllers
 .
 removeControllerAt
@@ -311,6 +313,8 @@ testWindow
 .
 gURLBar
 .
+inputField
+.
 controllers
 .
 removeControllerAt
@@ -345,6 +349,8 @@ false
 testWindow
 .
 gURLBar
+.
+inputField
 .
 controllers
 .
