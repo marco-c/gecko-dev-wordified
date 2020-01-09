@@ -194,9 +194,6 @@ arguments
 =
 [
 ]
-head_rev
-=
-None
 )
 :
     
@@ -253,20 +250,6 @@ safe_load
 (
 f
 )
-    
-if
-not
-head_rev
-:
-        
-head_rev
-=
-params
-[
-'
-head_rev
-'
-]
     
 push_info
 =
