@@ -15319,7 +15319,6 @@ IsHandlingUserInput
 (
 )
 ;
-;
 docURI
 -
 >
@@ -16882,14 +16881,13 @@ windowListener
 )
 ;
 }
-RefPtr
+auto
+sourceListener
+=
+MakeRefPtr
 <
 SourceListener
 >
-sourceListener
-=
-new
-SourceListener
 (
 )
 ;
