@@ -119,16 +119,11 @@ BrowserTestUtils
 .
 withNewTab
 (
-{
-gBrowser
-url
-:
 "
 about
 :
 blank
 "
-}
 testDelete
 )
 ;
