@@ -28294,7 +28294,7 @@ bar
 .
 gURLBar
 .
-typeRestrictToken
+search
 (
 UrlbarTokenizer
 .

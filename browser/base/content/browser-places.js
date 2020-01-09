@@ -3586,7 +3586,7 @@ searchBookmarks
 {
 gURLBar
 .
-typeRestrictToken
+search
 (
 UrlbarTokenizer
 .
