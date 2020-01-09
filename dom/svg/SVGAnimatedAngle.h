@@ -153,7 +153,7 @@ namespace
 dom
 {
 class
-SVGAngle
+DOMSVGAngle
 ;
 class
 SVGAnimatedAngle
@@ -227,7 +227,7 @@ override
 ;
 already_AddRefed
 <
-SVGAngle
+DOMSVGAngle
 >
 BaseVal
 (
@@ -235,7 +235,7 @@ BaseVal
 ;
 already_AddRefed
 <
-SVGAngle
+DOMSVGAngle
 >
 AnimVal
 (

@@ -169,7 +169,7 @@ mozilla
 /
 dom
 /
-SVGAngle
+DOMSVGAngle
 .
 h
 "
@@ -1143,7 +1143,7 @@ SVGMarkerElement
 :
 SetOrientToAngle
 (
-SVGAngle
+DOMSVGAngle
 &
 angle
 ErrorResult

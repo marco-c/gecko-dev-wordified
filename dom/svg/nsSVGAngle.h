@@ -186,7 +186,7 @@ class
 nsSVGOrientType
 ;
 class
-SVGAngle
+DOMSVGAngle
 ;
 class
 SVGAnimatedAngle
@@ -218,7 +218,7 @@ mozilla
 dom
 :
 :
-SVGAngle
+DOMSVGAngle
 ;
 friend
 class
@@ -549,7 +549,7 @@ mozilla
 dom
 :
 :
-SVGAngle
+DOMSVGAngle
 >
 ToDOMBaseVal
 (
@@ -566,7 +566,7 @@ mozilla
 dom
 :
 :
-SVGAngle
+DOMSVGAngle
 >
 ToDOMAnimVal
 (
