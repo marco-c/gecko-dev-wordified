@@ -80,15 +80,10 @@ isa
 :
 :
 {
+CallConv
 RegInfo
 RegUnit
 }
-;
-use
-settings
-:
-:
-CallConv
 ;
 use
 std

@@ -35,6 +35,7 @@ spec
 FuncEnvironment
 GlobalVariable
 ModuleEnvironment
+ReturnMode
 WasmError
 WasmResult
 }

@@ -187,9 +187,9 @@ entity
 :
 :
 {
-EntityMap
 Keys
 PrimaryMap
+SecondaryMap
 }
 ;
 use
@@ -394,7 +394,7 @@ register
 .
 value_vregs
 :
-EntityMap
+SecondaryMap
 <
 Value
 PackedOption
@@ -420,7 +420,7 @@ empty
 .
 union_find
 :
-EntityMap
+SecondaryMap
 <
 Value
 i32
@@ -512,7 +512,7 @@ new
 )
 value_vregs
 :
-EntityMap
+SecondaryMap
 :
 :
 new
@@ -520,7 +520,7 @@ new
 )
 union_find
 :
-EntityMap
+SecondaryMap
 :
 :
 new
@@ -2255,7 +2255,7 @@ union
 a
 b
 )
-mist
+must
 not
 belong
 to
@@ -3319,7 +3319,7 @@ test
 )
 ]
 mod
-test
+tests
 {
 use
 super

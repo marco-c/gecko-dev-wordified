@@ -593,7 +593,7 @@ EncRecipe
 R
 '
 Binary
-size
+base_size
 =
 4
 ins
@@ -642,7 +642,7 @@ EncRecipe
 Rshamt
 '
 BinaryImm
-size
+base_size
 =
 4
 ins
@@ -689,7 +689,7 @@ EncRecipe
 Ricmp
 '
 IntCompare
-size
+base_size
 =
 4
 ins
@@ -725,7 +725,7 @@ EncRecipe
 Ii
 '
 BinaryImm
-size
+base_size
 =
 4
 ins
@@ -784,7 +784,7 @@ EncRecipe
 Iz
 '
 UnaryImm
-size
+base_size
 =
 4
 ins
@@ -842,7 +842,7 @@ EncRecipe
 Iicmp
 '
 IntCompareImm
-size
+base_size
 =
 4
 ins
@@ -920,7 +920,7 @@ EncRecipe
 Iret
 '
 MultiAry
-size
+base_size
 =
 4
 ins
@@ -1029,7 +1029,7 @@ EncRecipe
 Icall
 '
 CallIndirect
-size
+base_size
 =
 4
 ins
@@ -1115,7 +1115,7 @@ EncRecipe
 Icopy
 '
 Unary
-size
+base_size
 =
 4
 ins
@@ -1155,7 +1155,7 @@ EncRecipe
 Irmov
 '
 RegMove
-size
+base_size
 =
 4
 ins
@@ -1207,7 +1207,7 @@ EncRecipe
 U
 '
 UnaryImm
-size
+base_size
 =
 4
 ins
@@ -1263,7 +1263,7 @@ EncRecipe
 UJ
 '
 Jump
-size
+base_size
 =
 4
 ins
@@ -1344,7 +1344,7 @@ EncRecipe
 UJcall
 '
 Call
-size
+base_size
 =
 4
 ins
@@ -1429,7 +1429,7 @@ EncRecipe
 SB
 '
 BranchIcmp
-size
+base_size
 =
 4
         
@@ -1527,7 +1527,7 @@ EncRecipe
 SBzero
 '
 Branch
-size
+base_size
 =
 4
         
@@ -1618,7 +1618,7 @@ EncRecipe
 GPsp
 '
 Unary
-size
+base_size
 =
 4
         
@@ -1657,7 +1657,7 @@ EncRecipe
 GPfi
 '
 Unary
-size
+base_size
 =
 4
         

@@ -28,8 +28,16 @@ Cranelift
 instructions
 and
 other
-entitties
+entities
 .
+pub
+mod
+isa
+;
+pub
+mod
+regs
+;
 pub
 mod
 types

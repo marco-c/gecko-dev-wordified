@@ -526,7 +526,7 @@ shuffle
 registers
 around
 .
-The
+They
 are
 only
 used

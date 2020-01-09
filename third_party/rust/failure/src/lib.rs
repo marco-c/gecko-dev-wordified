@@ -396,6 +396,9 @@ as
 _core
 ;
 mod
+as_fail
+;
+mod
 backtrace
 ;
 #
@@ -441,6 +444,13 @@ fmt
 Debug
 Display
 }
+;
+pub
+use
+as_fail
+:
+:
+AsFail
 ;
 pub
 use
@@ -1364,7 +1374,7 @@ please
 use
 the
 '
-iter_causes
+iter_chain
 (
 )
 '
@@ -2018,7 +2028,7 @@ self
 Deprecated
 alias
 to
-iter_causes
+iter_chain
 .
 #
 [

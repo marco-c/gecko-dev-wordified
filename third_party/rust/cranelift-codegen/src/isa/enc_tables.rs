@@ -283,7 +283,7 @@ type
 /
 variable
 using
-VOID
+INVALID
 for
 non
 -

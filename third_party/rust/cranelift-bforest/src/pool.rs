@@ -704,7 +704,6 @@ pruned
 .
 if
 let
-&
 NodeData
 :
 :
@@ -715,7 +714,6 @@ size
 .
 }
 =
-&
 self
 [
 node
