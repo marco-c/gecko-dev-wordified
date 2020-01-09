@@ -1061,11 +1061,6 @@ testWithRegularDevtoolsModule
 (
 )
 ;
-delete
-window
-.
-getBrowserLoaderForWindow
-;
 finish
 (
 )
