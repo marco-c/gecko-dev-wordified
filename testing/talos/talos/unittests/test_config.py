@@ -1614,13 +1614,13 @@ split
         
 cls
 .
-argv_tps
+argv_tabswitch
 =
 '
 -
 -
 activeTests
-tps
+tabswitch
 -
 e
 /
@@ -4355,7 +4355,7 @@ restriction
 }
     
 def
-test_tps_has_expected_attributes
+test_tabswitch_has_expected_attributes
 (
 self
 )
@@ -4367,7 +4367,7 @@ get_config
 (
 self
 .
-argv_tps
+argv_tabswitch
 )
         
 test_config
@@ -4392,7 +4392,7 @@ name
 =
 =
 '
-tps
+tabswitch
 '
         
 assert
@@ -4424,7 +4424,7 @@ tests
 /
 tabswitch
 /
-tps
+tabswitch
 .
 manifest
 '

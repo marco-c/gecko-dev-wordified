@@ -9,7 +9,7 @@ browser
 *
 *
 The
-TPS
+tabswitch
 test
 is
 a
@@ -18,7 +18,7 @@ test
 meaning
 that
 the
-tps
+tabswitch
 .
 manifest
 file
@@ -94,7 +94,7 @@ js
 ;
 browser
 .
-tps
+tabswitch
 .
 setup
 (

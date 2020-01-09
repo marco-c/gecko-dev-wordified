@@ -937,7 +937,7 @@ mark
 MozLayerTreeReady
 seen
 by
-tps
+tabswitch
 "
 )
 ;
@@ -1296,7 +1296,7 @@ dump
 *
 *
 The
-TPS
+tabswitch
 Talos
 test
 does
@@ -2421,7 +2421,7 @@ remotePage
 ;
 this
 .
-tps
+tabswitch
 =
 class
 extends
@@ -2434,7 +2434,7 @@ context
 {
 return
 {
-tps
+tabswitch
 :
 {
 setup
@@ -2561,7 +2561,7 @@ ppmm
 sendAsyncMessage
 (
 "
-TPS
+Tabswitch
 :
 Teardown
 "

@@ -1781,7 +1781,7 @@ g
 .
 the
 '
-tps
+tabswitch
 '
 talos
 test
