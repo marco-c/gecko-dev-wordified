@@ -1229,6 +1229,7 @@ static
 cairo_user_data_key_t
 surfaceDataKey
 ;
+static
 void
 ReleaseData
 (
@@ -1265,6 +1266,7 @@ Release
 )
 ;
 }
+static
 cairo_surface_t
 *
 CopyToImageSurface
@@ -1541,6 +1543,7 @@ reference
 .
 *
 /
+static
 cairo_surface_t
 *
 GetAsImageSurface
@@ -1593,6 +1596,7 @@ return
 nullptr
 ;
 }
+static
 cairo_surface_t
 *
 CreateSubImageForData
@@ -1725,6 +1729,7 @@ aSubImage
 .
 *
 /
+static
 cairo_surface_t
 *
 ExtractSubImage
@@ -1951,6 +1956,7 @@ it
 .
 *
 /
+static
 cairo_surface_t
 *
 GetCairoSurfaceForSourceSurface

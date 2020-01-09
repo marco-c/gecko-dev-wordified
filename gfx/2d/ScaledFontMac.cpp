@@ -1174,6 +1174,7 @@ aTarget
 )
 ;
 }
+static
 uint32_t
 CalcTableChecksum
 (
@@ -1344,6 +1345,7 @@ data
 ;
 }
 ;
+static
 int
 maxPow2LessThan
 (

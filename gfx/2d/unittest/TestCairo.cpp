@@ -50,6 +50,7 @@ mozilla
 namespace
 layers
 {
+static
 void
 TryCircle
 (
