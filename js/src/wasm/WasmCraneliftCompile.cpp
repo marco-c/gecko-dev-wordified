@@ -1690,9 +1690,6 @@ inputs
 CompiledCode
 *
 code
-ExclusiveDeferredValidationState
-&
-dvs
 UniqueChars
 *
 error
@@ -1875,7 +1872,6 @@ func
 .
 begin
 d
-dvs
 )
 )
 {

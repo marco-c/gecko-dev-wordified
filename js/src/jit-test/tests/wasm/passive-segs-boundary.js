@@ -964,12 +964,10 @@ WebAssembly
 .
 CompileError
 /
-memory
+data
 .
-{
 drop
-init
-}
+segment
 index
 out
 of
@@ -1023,10 +1021,8 @@ CompileError
 /
 memory
 .
-{
-drop
 init
-}
+segment
 index
 out
 of
