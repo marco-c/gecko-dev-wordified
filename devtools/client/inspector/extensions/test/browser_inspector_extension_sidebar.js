@@ -667,6 +667,7 @@ testSidebarSetObjectValueGrip
 const
 inspectedWindowFront
 =
+await
 toolbox
 .
 target
@@ -922,6 +923,7 @@ testSidebarDOMNodeHighlighting
 const
 inspectedWindowFront
 =
+await
 toolbox
 .
 target
@@ -1514,6 +1516,7 @@ testSidebarSetExtensionPage
 const
 inspectedWindowFront
 =
+await
 toolbox
 .
 target

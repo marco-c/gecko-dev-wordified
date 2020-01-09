@@ -655,6 +655,7 @@ url
 const
 animations
 =
+await
 target
 .
 getFront
@@ -748,6 +749,7 @@ walker
 const
 accessibility
 =
+await
 target
 .
 getFront

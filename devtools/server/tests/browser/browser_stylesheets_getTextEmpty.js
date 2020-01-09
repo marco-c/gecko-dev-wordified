@@ -129,6 +129,7 @@ TEST_URI
 const
 front
 =
+await
 target
 .
 getFront

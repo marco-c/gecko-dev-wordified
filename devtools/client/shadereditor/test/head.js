@@ -1201,6 +1201,7 @@ attach
 const
 front
 =
+await
 target
 .
 getFront

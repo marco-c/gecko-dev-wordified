@@ -467,6 +467,7 @@ this
 .
 _accessibility
 =
+await
 this
 .
 target

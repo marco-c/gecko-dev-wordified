@@ -114,6 +114,7 @@ html
 const
 front
 =
+await
 target
 .
 getFront

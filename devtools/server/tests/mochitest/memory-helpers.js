@@ -220,6 +220,7 @@ getTargetForSelectedTab
 const
 memory
 =
+await
 target
 .
 getFront

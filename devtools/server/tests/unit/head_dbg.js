@@ -772,6 +772,7 @@ options
 const
 memoryFront
 =
+await
 target
 .
 getFront
@@ -906,6 +907,7 @@ options
 const
 memoryFront
 =
+await
 target
 .
 getFront
