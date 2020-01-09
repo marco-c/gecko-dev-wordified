@@ -702,6 +702,13 @@ defined
 (
 XP_WIN
 )
+mSandboxBroker
+(
+new
+SandboxBroker
+(
+)
+)
 mEnableSandboxLogging
 (
 false
@@ -7517,7 +7524,8 @@ error
 here
 .
 mSandboxBroker
-.
+-
+>
 SetSecurityLevelForContentProcess
 (
 mSandboxLevel
@@ -7562,7 +7570,8 @@ bool
 ok
 =
 mSandboxBroker
-.
+-
+>
 SetSecurityLevelForPluginProcess
 (
 mSandboxLevel
@@ -7689,7 +7698,8 @@ bool
 ok
 =
 mSandboxBroker
-.
+-
+>
 SetSecurityLevelForGMPlugin
 (
 level
@@ -7770,7 +7780,8 @@ error
 here
 .
 mSandboxBroker
-.
+-
+>
 SetSecurityLevelForGPUProcess
 (
 mSandboxLevel
@@ -7835,7 +7846,8 @@ if
 (
 !
 mSandboxBroker
-.
+-
+>
 SetSecurityLevelForRDDProcess
 (
 )
@@ -7919,7 +7931,8 @@ it
 )
 {
 mSandboxBroker
-.
+-
+>
 AllowReadFile
 (
 it
@@ -8146,7 +8159,8 @@ handles_to_inherit
 )
 {
 mSandboxBroker
-.
+-
+>
 AddHandleToShare
 (
 h
@@ -8156,7 +8170,8 @@ h
 if
 (
 mSandboxBroker
-.
+-
+>
 LaunchApp
 (
 cmdLine
@@ -8332,7 +8347,8 @@ if
 (
 !
 mSandboxBroker
-.
+-
+>
 AddTargetPeer
 (
 process
