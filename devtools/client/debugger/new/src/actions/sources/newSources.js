@@ -288,8 +288,9 @@ originalUrl
 )
 thread
 :
-"
-"
+generatedSource
+.
+thread
 isPrettyPrinted
 :
 false
