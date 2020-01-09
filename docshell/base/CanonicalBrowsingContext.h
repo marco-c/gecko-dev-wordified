@@ -274,6 +274,13 @@ return
 mProcessId
 ;
 }
+ContentParent
+*
+GetContentParent
+(
+)
+const
+;
 void
 SetOwnerProcessId
 (
