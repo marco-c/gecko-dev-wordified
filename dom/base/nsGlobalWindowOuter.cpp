@@ -16735,10 +16735,6 @@ mDocShell
 =
 aDocShell
 ;
-/
-/
-Weak
-Reference
 mBrowsingContext
 =
 aDocShell
@@ -17383,10 +17379,6 @@ mDocShell
 =
 nullptr
 ;
-/
-/
-Weak
-Reference
 if
 (
 mFrames
@@ -51382,10 +51374,6 @@ aWindowID
 )
 :
 mFrameElement
-(
-nullptr
-)
-mDocShell
 (
 nullptr
 )
