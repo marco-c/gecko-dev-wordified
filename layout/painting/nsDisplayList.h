@@ -6851,8 +6851,8 @@ aItem
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
-aProperty
+DisplayItemType
+aType
 )
 ;
 /
