@@ -16866,14 +16866,12 @@ Stack
 \
 MACRO
 (
-JSOP_TRY_DESTRUCTURING_ITERCLOSE
+JSOP_TRY_DESTRUCTURING
 220
 "
 try
 -
 destructuring
--
-iterclose
 "
 NULL
 1
