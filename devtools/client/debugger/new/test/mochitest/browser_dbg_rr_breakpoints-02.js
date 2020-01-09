@@ -102,7 +102,7 @@ const
 dbg
 =
 await
-attatchRecordingDebugger
+attachRecordingDebugger
 (
 "
 doc_rr_basic
