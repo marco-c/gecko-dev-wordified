@@ -181,10 +181,10 @@ class
 CacheIRSpewer
 {
 Mutex
-outputLock
+outputLock_
 ;
 Fprinter
-output
+output_
 ;
 mozilla
 :
@@ -193,7 +193,7 @@ Maybe
 <
 JSONPrinter
 >
-json
+json_
 ;
 static
 CacheIRSpewer
@@ -302,7 +302,7 @@ enabled
 )
 {
 return
-json
+json_
 .
 isSome
 (
@@ -338,7 +338,7 @@ enabled
 )
 ;
 return
-outputLock
+outputLock_
 ;
 }
 void
@@ -543,7 +543,7 @@ spewInterval_
 {
 sp_
 .
-output
+output_
 .
 flush
 (
