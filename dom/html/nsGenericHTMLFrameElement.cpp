@@ -444,15 +444,6 @@ return
 nullptr
 ;
 }
-<
-<
-<
-<
-<
-<
-<
-working
-copy
 nsPIDOMWindowOuter
 *
 window
