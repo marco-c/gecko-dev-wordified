@@ -249,7 +249,10 @@ return
 NS_OK
 ;
 }
-OptionalURIParams
+Maybe
+<
+URIParams
+>
 uri
 ;
 SerializeURI

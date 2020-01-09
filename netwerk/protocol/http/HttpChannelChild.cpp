@@ -13345,7 +13345,10 @@ NS_IsMainThread
 )
 )
 ;
-OptionalURIParams
+Maybe
+<
+URIParams
+>
 redirectURI
 ;
 nsresult
@@ -13356,7 +13359,10 @@ referrerPolicy
 =
 REFERRER_POLICY_UNSET
 ;
-OptionalURIParams
+Maybe
+<
+URIParams
+>
 referrerURI
 ;
 SerializeURI

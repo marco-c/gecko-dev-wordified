@@ -521,7 +521,10 @@ WebSocketChannelParent
 RecvAsyncOpen
 (
 const
-OptionalURIParams
+Maybe
+<
+URIParams
+>
 &
 aURI
 const
