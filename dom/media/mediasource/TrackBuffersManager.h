@@ -2923,6 +2923,14 @@ frames
 /
 removed
 .
+enum
+class
+RemovalMode
+{
+kRemoveFrame
+kTruncateFrame
+}
+;
 uint32_t
 RemoveFrames
 (
@@ -2938,6 +2946,8 @@ TrackData
 aTrackData
 uint32_t
 aStartIndex
+RemovalMode
+aMode
 )
 ;
 /
