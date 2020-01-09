@@ -6828,10 +6828,7 @@ return
 BufferContents
 :
 :
-create
-<
-MAPPED
->
+createMapped
 (
 data
 )
@@ -7862,10 +7859,7 @@ contents
 BufferContents
 :
 :
-create
-<
-WASM
->
+createWasm
 (
 newRawBuf
 -
@@ -9115,7 +9109,7 @@ JSContext
 cx
 WasmArrayRawBuffer
 *
-buffer
+rawBuffer
 uint32_t
 initialSize
 )
@@ -9128,7 +9122,7 @@ cx
 ;
 ArrayBufferObject
 *
-obj
+buffer
 =
 NewBuiltinClassInstance
 <
@@ -9141,7 +9135,7 @@ cx
 if
 (
 !
-obj
+buffer
 )
 {
 WasmArrayRawBuffer
@@ -9149,7 +9143,7 @@ WasmArrayRawBuffer
 :
 Release
 (
-buffer
+rawBuffer
 -
 >
 dataPointer
@@ -9161,7 +9155,7 @@ return
 nullptr
 ;
 }
-obj
+buffer
 -
 >
 setByteLength
@@ -9169,7 +9163,7 @@ setByteLength
 initialSize
 )
 ;
-obj
+buffer
 -
 >
 setFlags
@@ -9177,7 +9171,7 @@ setFlags
 0
 )
 ;
-obj
+buffer
 -
 >
 setFirstView
@@ -9191,12 +9185,9 @@ contents
 BufferContents
 :
 :
-create
-<
-WASM
->
+createWasm
 (
-buffer
+rawBuffer
 -
 >
 dataPointer
@@ -9204,7 +9195,7 @@ dataPointer
 )
 )
 ;
-obj
+buffer
 -
 >
 setDataPointer
@@ -9222,7 +9213,7 @@ initialSize
 )
 ;
 return
-obj
+buffer
 ;
 }
 /
@@ -12059,13 +12050,7 @@ contents
 BufferContents
 :
 :
-create
-<
-ArrayBufferObject
-:
-:
-MAPPED
->
+createMapped
 (
 data
 )
