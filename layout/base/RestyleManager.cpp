@@ -4961,6 +4961,8 @@ StyleChangeReflow
 (
 aFrame
 nsChangeHint_NeedReflow
+|
+nsChangeHint_ReflowChangesSizeOrPosition
 )
 ;
 return
@@ -5029,6 +5031,8 @@ StyleChangeReflow
 (
 aFrame
 nsChangeHint_NeedReflow
+|
+nsChangeHint_ReflowChangesSizeOrPosition
 )
 ;
 return
@@ -6456,6 +6460,8 @@ StyleChangeReflow
 (
 aFrame
 nsChangeHint_NeedReflow
+|
+nsChangeHint_ReflowChangesSizeOrPosition
 )
 ;
 return

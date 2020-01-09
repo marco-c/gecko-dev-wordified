@@ -1441,9 +1441,14 @@ without
 also
 setting
 nsChangeHint_NeedReflow
+.
 *
-and
+And
+consider
+adding
 nsChangeHint_ClearAncestorIntrinsics
+if
+needed
 .
 *
 /
