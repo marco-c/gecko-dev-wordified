@@ -1306,7 +1306,7 @@ user_data
 [
 i32
 ;
-3
+4
 ]
 )
 -
@@ -1387,11 +1387,6 @@ specific_prim_address
 as_int
 (
 )
-clip_task_address
-:
-prim_header
-.
-clip_task_address
 transform_id
 :
 prim_header
@@ -1459,10 +1454,6 @@ pub
 specific_prim_address
 :
 GpuCacheAddress
-pub
-clip_task_address
-:
-RenderTaskAddress
 pub
 transform_id
 :
@@ -1616,10 +1607,6 @@ specific_prim_address
 :
 i32
 pub
-clip_task_address
-:
-RenderTaskAddress
-pub
 transform_id
 :
 TransformPaletteId
@@ -1629,7 +1616,7 @@ user_data
 [
 i32
 ;
-3
+4
 ]
 }
 pub
