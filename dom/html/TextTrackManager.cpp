@@ -4402,13 +4402,6 @@ GetCueListByTimeInterval
 on
 mNewCues
 ?
-ttrack
--
->
-UpdateActiveCueList
-(
-)
-;
 TextTrackCueList
 *
 activeCueList
