@@ -13959,6 +13959,10 @@ display_profile
 fname
 )
 ;
+mem
+=
+nullptr
+;
 if
 (
 !
@@ -13983,7 +13987,13 @@ size
 )
 ;
 }
-else
+if
+(
+mem
+=
+=
+nullptr
+)
 {
 gfxPlatform
 :
