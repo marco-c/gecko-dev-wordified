@@ -1064,7 +1064,7 @@ c
 .
 4f
 )
-static
+extern
 const
 float
 gsRGBToLinearRGBMap
