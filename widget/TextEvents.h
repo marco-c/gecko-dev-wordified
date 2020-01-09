@@ -8253,6 +8253,9 @@ return
 result
 ;
 }
+nsString
+mData
+;
 EditorInputType
 mInputType
 ;
@@ -8275,6 +8278,12 @@ AssignUIEventData
 aEvent
 aCopyTargets
 )
+;
+mData
+=
+aEvent
+.
+mData
 ;
 mInputType
 =

@@ -247,6 +247,14 @@ nsAString
 aInputType
 )
 ;
+void
+GetData
+(
+nsAString
+&
+aData
+)
+;
 bool
 IsComposing
 (
