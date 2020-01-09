@@ -56862,7 +56862,7 @@ if
 nsLayoutUtils
 :
 :
-IsAncestorFrameCrossDoc
+IsAncestorFrame
 (
 asr
 -
