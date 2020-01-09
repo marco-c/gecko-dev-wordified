@@ -32820,9 +32820,7 @@ aBounds
 {
 aList
 .
-AppendToBottom
-(
-MakeDisplayItem
+AppendNewToBottom
 <
 nsDisplaySolidColor
 >
@@ -32836,7 +32834,6 @@ NS_RGB
 115
 115
 115
-)
 )
 )
 ;
@@ -33524,9 +33521,7 @@ forceUnscrolledItem
 {
 aList
 .
-AppendToBottom
-(
-MakeDisplayItem
+AppendNewToBottom
 <
 nsDisplaySolidColor
 >
@@ -33536,7 +33531,6 @@ aBuilder
 aFrame
 aBounds
 bgcolor
-)
 )
 ;
 }

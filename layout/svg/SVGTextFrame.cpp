@@ -19517,16 +19517,13 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplaySVGText
 >
 (
 aBuilder
 this
-)
 )
 ;
 }

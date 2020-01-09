@@ -614,16 +614,13 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayEventReceiver
 >
 (
 aBuilder
 this
-)
 )
 ;
 }

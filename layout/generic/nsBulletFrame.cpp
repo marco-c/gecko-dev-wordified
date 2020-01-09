@@ -3919,16 +3919,13 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayBullet
 >
 (
 aBuilder
 this
-)
 )
 ;
 }

@@ -4200,9 +4200,7 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayMathMLSlash
 >
@@ -4217,7 +4215,6 @@ StyleVisibility
 -
 >
 mDirection
-)
 )
 ;
 }

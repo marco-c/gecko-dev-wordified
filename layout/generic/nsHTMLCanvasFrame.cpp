@@ -3288,16 +3288,13 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayCanvas
 >
 (
 aBuilder
 this
-)
 )
 ;
 DisplaySelectionOverlay

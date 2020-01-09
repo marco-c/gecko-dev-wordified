@@ -1928,16 +1928,13 @@ list
 ;
 list
 .
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayXULImage
 >
 (
 aBuilder
 this
-)
 )
 ;
 CreateOwnLayerIfNeeded

@@ -14030,9 +14030,7 @@ BorderBackground
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayMathMLSelectionRect
 >
@@ -14041,7 +14039,6 @@ aBuilder
 aForFrame
 *
 aSelectedRect
-)
 )
 ;
 }
@@ -14145,9 +14142,7 @@ BorderBackground
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayMathMLCharDebug
 >
@@ -14155,7 +14150,6 @@ nsDisplayMathMLCharDebug
 aBuilder
 aForFrame
 mRect
-)
 )
 ;
 #
@@ -14168,9 +14162,7 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayMathMLCharForeground
 >
@@ -14188,7 +14180,6 @@ aSelectedRect
 >
 IsEmpty
 (
-)
 )
 )
 ;

@@ -20969,6 +20969,15 @@ false
 }
 if
 (
+!
+newItem
+)
+{
+return
+;
+}
+if
+(
 aFlags
 &
 APPEND_POSITIONED
@@ -25106,6 +25115,11 @@ info
 1
 )
 ;
+if
+(
+hitInfo
+)
+{
 aBuilder
 -
 >
@@ -25137,6 +25151,7 @@ AppendToTop
 hitInfo
 )
 ;
+}
 }
 }
 {
@@ -25514,6 +25529,11 @@ NS_RGBA
 false
 )
 ;
+if
+(
+color
+)
+{
 color
 -
 >
@@ -25534,6 +25554,7 @@ AppendToTop
 color
 )
 ;
+}
 }
 }
 if
@@ -26034,9 +26055,7 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayAsyncZoom
 >
@@ -26052,7 +26071,6 @@ CurrentActiveScrolledRoot
 (
 )
 viewID
-)
 )
 ;
 }
@@ -26301,6 +26319,11 @@ mOuter
 )
 )
 ;
+if
+(
+hitInfo
+)
+{
 AppendInternalItemToTop
 (
 scrolledContent
@@ -26311,6 +26334,7 @@ INT32_MAX
 )
 )
 ;
+}
 }
 }
 if
@@ -26487,6 +26511,11 @@ false
 2
 )
 ;
+if
+(
+wrapList
+)
+{
 wrapList
 -
 >
@@ -26526,6 +26555,7 @@ AppendToTop
 wrapList
 )
 ;
+}
 }
 }
 }

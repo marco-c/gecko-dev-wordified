@@ -1500,16 +1500,13 @@ Outlines
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayEventReceiver
 >
 (
 aBuilder
 this
-)
 )
 ;
 return
@@ -2491,9 +2488,7 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayOwnLayer
 >
@@ -2523,7 +2518,6 @@ isAsyncDraggable
 sliderTrackStart
 sliderTrackLength
 scrollTargetId
-)
 )
 )
 ;

@@ -1697,16 +1697,13 @@ Outlines
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayEventReceiver
 >
 (
 aBuilder
 this
-)
 )
 ;
 return

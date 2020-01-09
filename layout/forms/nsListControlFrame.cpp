@@ -1497,9 +1497,7 @@ BorderBackground
 )
 -
 >
-AppendToBottom
-(
-MakeDisplayItem
+AppendNewToBottom
 <
 nsDisplaySolidColor
 >
@@ -1520,7 +1518,6 @@ GetSize
 )
 )
 mLastDropdownBackstopColor
-)
 )
 ;
 }

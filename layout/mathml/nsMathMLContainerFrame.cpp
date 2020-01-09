@@ -4593,16 +4593,13 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayMathMLError
 >
 (
 aBuilder
 this
-)
 )
 ;
 return

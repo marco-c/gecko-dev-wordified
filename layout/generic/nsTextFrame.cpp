@@ -35529,9 +35529,7 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayText
 >
@@ -35539,7 +35537,6 @@ nsDisplayText
 aBuilder
 this
 isSelected
-)
 )
 ;
 }
