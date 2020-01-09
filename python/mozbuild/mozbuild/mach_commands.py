@@ -71,6 +71,8 @@ json
 import
 logging
 import
+ntpath
+import
 operator
 import
 os
@@ -25179,16 +25181,11 @@ l
                 
 local_path
 =
-original_path
+ntpath
 .
-replace
+basename
 (
-self
-.
-topsrcdir
-"
-.
-"
+original_path
 )
                 
 target_file
