@@ -317,6 +317,13 @@ h
 #
 include
 "
+nsIPresShellInlines
+.
+h
+"
+#
+include
+"
 gfx2DGlue
 .
 h

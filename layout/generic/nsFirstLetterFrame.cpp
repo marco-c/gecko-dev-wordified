@@ -196,6 +196,13 @@ h
 #
 include
 "
+nsIPresShellInlines
+.
+h
+"
+#
+include
+"
 nsLineLayout
 .
 h

@@ -172,13 +172,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h

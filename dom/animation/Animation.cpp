@@ -266,17 +266,6 @@ nsAutoAnimationMutationBatch
 #
 include
 "
-nsIPresShell
-.
-h
-"
-/
-/
-For
-nsIPresShell
-#
-include
-"
 nsThreadUtils
 .
 h

@@ -291,13 +291,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsISVGSVGFrame
 .
 h

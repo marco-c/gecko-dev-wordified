@@ -212,6 +212,13 @@ h
 #
 include
 "
+nsIPresShellInlines
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ComputedStyle

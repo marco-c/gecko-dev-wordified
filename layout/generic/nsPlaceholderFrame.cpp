@@ -235,6 +235,13 @@ nsIContentInlines
 .
 h
 "
+#
+include
+"
+nsIPresShellInlines
+.
+h
+"
 using
 namespace
 mozilla
