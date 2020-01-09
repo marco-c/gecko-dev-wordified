@@ -1280,6 +1280,13 @@ h
 #
 include
 "
+nsISpellChecker
+.
+h
+"
+#
+include
+"
 nsClipboardProxy
 .
 h
