@@ -389,6 +389,7 @@ InnerResult
 public
 WithoutParams
 (
+final
 Handler
 backgroundThreadHandler
 )
@@ -416,6 +417,7 @@ protected
 InnerResult
 doInBackground
 (
+final
 Void
 unused
 )
@@ -475,6 +477,7 @@ on
 public
 UIAsyncTask
 (
+final
 Handler
 backgroundThreadHandler
 )
@@ -532,6 +535,7 @@ mParam
 public
 BackgroundTaskRunnable
 (
+final
 Param
 param
 )
@@ -683,6 +687,7 @@ protected
 void
 onPostExecute
 (
+final
 Result
 result
 )

@@ -202,6 +202,7 @@ static
 BaseHlsPlayer
 getPlayer
 (
+final
 int
 id
 )
@@ -259,6 +260,7 @@ static
 void
 removePlayer
 (
+final
 NonNull
 BaseHlsPlayer
 player

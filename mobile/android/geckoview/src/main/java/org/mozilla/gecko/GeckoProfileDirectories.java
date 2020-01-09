@@ -216,6 +216,7 @@ Exception
 public
 NoMozillaDirectoryException
 (
+final
 Throwable
 cause
 )
@@ -229,6 +230,7 @@ cause
 public
 NoMozillaDirectoryException
 (
+final
 String
 reason
 )
@@ -242,8 +244,10 @@ reason
 public
 NoMozillaDirectoryException
 (
+final
 String
 reason
+final
 Throwable
 cause
 )
@@ -272,8 +276,10 @@ Exception
 public
 NoSuchProfileException
 (
+final
 String
 detailMessage
+final
 Throwable
 cause
 )
@@ -288,6 +294,7 @@ cause
 public
 NoSuchProfileException
 (
+final
 String
 detailMessage
 )
@@ -356,6 +363,7 @@ public
 boolean
 matches
 (
+final
 INISection
 section
 )
@@ -412,6 +420,7 @@ public
 boolean
 matches
 (
+final
 INISection
 section
 )
@@ -444,6 +453,7 @@ static
 INIParser
 getProfilesINI
 (
+final
 File
 mozillaDir
 )
@@ -720,6 +730,7 @@ static
 File
 getMozillaDirectory
 (
+final
 Context
 context
 )
@@ -1249,8 +1260,10 @@ getMatchingProfiles
 final
 File
 mozillaDir
+final
 INISectionPredicate
 predicate
+final
 boolean
 stopOnSuccess
 )

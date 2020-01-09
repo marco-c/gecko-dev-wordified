@@ -144,10 +144,13 @@ static
 void
 safeSetVisible
 (
+final
 Menu
 menu
+final
 int
 id
+final
 boolean
 visible
 )
@@ -207,10 +210,13 @@ static
 void
 safeSetEnabled
 (
+final
 Menu
 menu
+final
 int
 id
+final
 boolean
 enabled
 )

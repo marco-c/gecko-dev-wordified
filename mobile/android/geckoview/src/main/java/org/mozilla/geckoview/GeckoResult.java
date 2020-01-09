@@ -1952,6 +1952,7 @@ copy
 public
 GeckoResult
 (
+final
 GeckoResult
 <
 T
@@ -3818,6 +3819,7 @@ Nullable
 T
 poll
 (
+final
 long
 timeoutMillis
 )

@@ -586,6 +586,7 @@ rank
 private
 State
 (
+final
 int
 rank
 )
@@ -3762,6 +3763,7 @@ static
 boolean
 waitOnGecko
 (
+final
 long
 timeoutMillis
 )
@@ -4031,6 +4033,7 @@ static
 void
 requestUiThreadCallback
 (
+final
 long
 delay
 )

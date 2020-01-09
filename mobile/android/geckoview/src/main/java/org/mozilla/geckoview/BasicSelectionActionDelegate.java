@@ -2330,8 +2330,10 @@ public
 void
 onHideAction
 (
+final
 GeckoSession
 session
+final
 int
 reason
 )

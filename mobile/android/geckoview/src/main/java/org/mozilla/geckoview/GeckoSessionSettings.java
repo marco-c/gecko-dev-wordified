@@ -3693,6 +3693,7 @@ Key
 T
 >
 key
+final
 T
 value
 )
@@ -3865,9 +3866,11 @@ public
 void
 writeToParcel
 (
+final
 NonNull
 Parcel
 out
+final
 int
 flags
 )

@@ -121,8 +121,10 @@ static
 boolean
 fuzzyEquals
 (
+final
 float
 a
+final
 float
 b
 )

@@ -437,6 +437,7 @@ null
 public
 GeckoHlsVideoRenderer
 (
+final
 GeckoHlsPlayer
 .
 ComponentEventDispatcher
@@ -499,6 +500,7 @@ final
 int
 supportsFormat
 (
+final
 Format
 format
 )
@@ -1170,6 +1172,7 @@ protected
 void
 handleReconfiguration
 (
+final
 DecoderInputBuffer
 bufferForRead
 )
@@ -1370,6 +1373,7 @@ protected
 void
 handleFormatRead
 (
+final
 DecoderInputBuffer
 bufferForRead
 )
@@ -1465,6 +1469,7 @@ protected
 void
 handleEndOfStream
 (
+final
 DecoderInputBuffer
 bufferForRead
 )
@@ -1593,6 +1598,7 @@ protected
 void
 handleSamplePreparation
 (
+final
 DecoderInputBuffer
 bufferForRead
 )
@@ -1916,8 +1922,10 @@ protected
 void
 onPositionReset
 (
+final
 long
 positionUs
+final
 boolean
 joining
 )
@@ -2052,8 +2060,10 @@ protected
 boolean
 canReconfigure
 (
+final
 Format
 oldFormat
+final
 Format
 newFormat
 )
@@ -2166,6 +2176,7 @@ protected
 void
 updateCSDInfo
 (
+final
 Format
 format
 )
@@ -2316,6 +2327,7 @@ protected
 void
 notifyPlayerInputFormatChanged
 (
+final
 Format
 newFormat
 )
@@ -2332,10 +2344,12 @@ private
 void
 calculateSamplesWithin
 (
+final
 GeckoHLSSample
 [
 ]
 samples
+final
 int
 range
 )
@@ -2476,6 +2490,7 @@ private
 void
 calculatDuration
 (
+final
 GeckoHLSSample
 inputSample
 )
@@ -3210,6 +3225,7 @@ protected
 void
 onStreamChanged
 (
+final
 Format
 [
 ]
@@ -3226,8 +3242,10 @@ static
 CodecMaxValues
 getCodecMaxValues
 (
+final
 Format
 format
+final
 Format
 [
 ]
@@ -3327,6 +3345,7 @@ static
 int
 getMaxInputSize
 (
+final
 Format
 format
 )
@@ -3539,8 +3558,10 @@ static
 boolean
 areAdaptationCompatible
 (
+final
 Format
 first
+final
 Format
 second
 )
@@ -3575,6 +3596,7 @@ static
 int
 getRotationDegrees
 (
+final
 Format
 format
 )
@@ -3620,10 +3642,13 @@ inputSize
 public
 CodecMaxValues
 (
+final
 int
 width
+final
 int
 height
+final
 int
 inputSize
 )

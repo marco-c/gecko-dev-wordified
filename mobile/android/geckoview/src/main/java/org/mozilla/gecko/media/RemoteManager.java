@@ -291,8 +291,10 @@ public
 void
 onServiceConnected
 (
+final
 ComponentName
 name
+final
 IBinder
 service
 )
@@ -365,6 +367,7 @@ public
 void
 onServiceDisconnected
 (
+final
 ComponentName
 name
 )
@@ -707,16 +710,21 @@ synchronized
 CodecProxy
 createCodec
 (
+final
 boolean
 isEncoder
+final
 MediaFormat
 format
+final
 GeckoSurface
 surface
+final
 CodecProxy
 .
 Callbacks
 callbacks
+final
 String
 drmStubId
 )
@@ -827,8 +835,10 @@ synchronized
 IMediaDrmBridge
 createRemoteMediaDrmBridge
 (
+final
 String
 keySystem
+final
 String
 stubId
 )
@@ -986,6 +996,7 @@ synchronized
 void
 notifyError
 (
+final
 boolean
 fatal
 )
@@ -1078,6 +1089,7 @@ public
 void
 releaseCodec
 (
+final
 CodecProxy
 proxy
 )
@@ -1215,6 +1227,7 @@ public
 void
 onRemoteMediaDrmBridgeReleased
 (
+final
 IMediaDrmBridge
 remote
 )

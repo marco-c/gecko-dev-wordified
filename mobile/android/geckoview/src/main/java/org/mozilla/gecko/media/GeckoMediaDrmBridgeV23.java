@@ -160,6 +160,7 @@ false
 ;
 GeckoMediaDrmBridgeV23
 (
+final
 String
 keySystem
 )
@@ -211,12 +212,15 @@ public
 void
 onKeyStatusChange
 (
+final
 MediaDrm
 mediaDrm
+final
 byte
 [
 ]
 sessionId
+final
 List
 <
 MediaDrm
@@ -224,6 +228,7 @@ MediaDrm
 KeyStatus
 >
 keyInformation
+final
 boolean
 hasNewUsableKey
 )
@@ -368,6 +373,7 @@ protected
 void
 HandleKeyStatusChangeByDummyKey
 (
+final
 String
 sessionId
 )
