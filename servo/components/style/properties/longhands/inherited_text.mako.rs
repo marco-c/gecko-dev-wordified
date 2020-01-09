@@ -1077,9 +1077,7 @@ computed
 TextAlign
 :
 :
-start
-(
-)
+Start
 "
 animation_value_type
 =
