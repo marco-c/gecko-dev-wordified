@@ -2338,6 +2338,7 @@ originalEngine
 }
 }
 }
+async
 onRestoreDefaults
 (
 )
@@ -2345,6 +2346,7 @@ onRestoreDefaults
 let
 num
 =
+await
 gEngineView
 .
 _engineStore
@@ -4290,6 +4292,7 @@ orientation
 )
 ;
 }
+async
 drop
 (
 dropIndex
@@ -4363,6 +4366,7 @@ dropIndex
 +
 ;
 }
+await
 this
 .
 _engineStore
