@@ -1562,10 +1562,6 @@ EvaluateAppID
 (
 mParent
 mOrigin
-U2FOperation
-:
-:
-Register
 adjustedAppId
 )
 )
@@ -2374,10 +2370,6 @@ EvaluateAppID
 (
 mParent
 mOrigin
-U2FOperation
-:
-:
-Sign
 adjustedAppId
 )
 )

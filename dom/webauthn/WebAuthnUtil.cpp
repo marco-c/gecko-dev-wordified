@@ -258,10 +258,6 @@ const
 nsString
 &
 aOrigin
-const
-U2FOperation
-&
-aOp
 /
 *
 in
@@ -781,15 +777,6 @@ Jan
 .
 if
 (
-aOp
-=
-=
-U2FOperation
-:
-:
-Sign
-&
-&
 lowestFacetHost
 .
 EqualsLiteral

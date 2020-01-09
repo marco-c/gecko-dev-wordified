@@ -14790,10 +14790,7 @@ U2F
 "
 insecureContext
 :
-true
-disabled
-:
-true
+false
 }
 /
 /

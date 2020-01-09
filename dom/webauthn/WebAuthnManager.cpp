@@ -3821,10 +3821,6 @@ EvaluateAppID
 (
 mParent
 origin
-U2FOperation
-:
-:
-Sign
 appId
 )
 )

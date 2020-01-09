@@ -1301,7 +1301,7 @@ webauth
 .
 u2f
 "
-false
+true
 )
 ;
 pref
