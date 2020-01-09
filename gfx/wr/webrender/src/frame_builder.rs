@@ -603,14 +603,6 @@ Vec
 <
 SurfaceInfo
 >
-pub
-scratch
-:
-&
-'
-a
-mut
-PrimitiveScratchBuffer
 }
 /
 /
@@ -1420,7 +1412,6 @@ surfaces
 pic_update_state
 .
 surfaces
-scratch
 }
 ;
 let
@@ -1485,6 +1476,7 @@ frame_context
 mut
 frame_state
 resources
+scratch
 )
 ;
 let
