@@ -4879,6 +4879,7 @@ mozilla
 :
 Span
 <
+const
 uint32_t
 >
 pcOffsets
