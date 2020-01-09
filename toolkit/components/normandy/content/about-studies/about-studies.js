@@ -1018,6 +1018,11 @@ className
 study
 -
 list
+active
+-
+study
+-
+list
 "
 }
 activeStudies
@@ -1088,6 +1093,11 @@ ul
 className
 :
 "
+study
+-
+list
+inactive
+-
 study
 -
 list
