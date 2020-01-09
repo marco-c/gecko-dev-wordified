@@ -77,12 +77,7 @@ createSelector
 }
 from
 "
-.
-.
-/
-utils
-/
-createSelector
+reselect
 "
 ;
 import
@@ -149,6 +144,7 @@ types
 import
 type
 {
+Selector
 SourcesMap
 }
 from
@@ -212,6 +208,7 @@ breakpoint
 Breakpoint
 selectedSource
 :
+?
 Source
 )
 :
@@ -266,6 +263,7 @@ source
 Source
 selectedSource
 :
+?
 Source
 breakpoints
 :
@@ -373,9 +371,6 @@ findBreakpointSources
 sources
 :
 SourcesMap
-selectedSource
-:
-Source
 breakpoints
 :
 Breakpoint
@@ -462,6 +457,11 @@ source
 export
 const
 getBreakpointSources
+:
+Selector
+<
+BreakpointSources
+>
 =
 createSelector
 (
@@ -479,6 +479,7 @@ sources
 SourcesMap
 selectedSource
 :
+?
 Source
 )
 =
@@ -486,7 +487,6 @@ Source
 findBreakpointSources
 (
 sources
-selectedSource
 breakpoints
 )
 .

@@ -75,12 +75,7 @@ createSelector
 }
 from
 "
-.
-.
-/
-utils
-/
-createSelector
+reselect
 "
 ;
 import

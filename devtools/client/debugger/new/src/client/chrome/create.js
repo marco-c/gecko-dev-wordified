@@ -64,6 +64,7 @@ flow
 import
 type
 {
+ChromeFrame
 SourceLocation
 LoadedObject
 }
@@ -171,6 +172,8 @@ frame
 :
 any
 )
+:
+ChromeFrame
 {
 return
 {
