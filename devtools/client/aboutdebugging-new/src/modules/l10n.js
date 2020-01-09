@@ -248,6 +248,13 @@ aboutdebugging
 .
 ftl
 "
+"
+devtools
+/
+aboutdebugging
+.
+ftl
+"
 ]
 )
 ;
