@@ -330,6 +330,7 @@ tableData
 serviceContainer
 timestampsVisible
 repeat
+pausedExecutionPoint
 isPaused
 }
 =
@@ -705,6 +706,7 @@ Message
 {
 messageId
 executionPoint
+pausedExecutionPoint
 isPaused
 open
 collapsible
