@@ -36994,7 +36994,7 @@ TelemetryStopwatch
 running
 (
 "
-FX_PAGE_LOAD_MS
+FX_PAGE_LOAD_MS_2
 "
 aBrowser
 )
@@ -37047,7 +37047,7 @@ TelemetryStopwatch
 cancel
 (
 "
-FX_PAGE_LOAD_MS
+FX_PAGE_LOAD_MS_2
 "
 aBrowser
 )
@@ -37058,7 +37058,7 @@ TelemetryStopwatch
 start
 (
 "
-FX_PAGE_LOAD_MS
+FX_PAGE_LOAD_MS_2
 "
 aBrowser
 )
@@ -37116,7 +37116,7 @@ TelemetryStopwatch
 finish
 (
 "
-FX_PAGE_LOAD_MS
+FX_PAGE_LOAD_MS_2
 "
 aBrowser
 )
@@ -37167,7 +37167,7 @@ TelemetryStopwatch
 cancel
 (
 "
-FX_PAGE_LOAD_MS
+FX_PAGE_LOAD_MS_2
 "
 aBrowser
 )
