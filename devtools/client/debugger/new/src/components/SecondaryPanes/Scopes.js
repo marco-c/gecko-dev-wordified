@@ -584,6 +584,10 @@ features
 mapScopes
 |
 |
+!
+selectedFrame
+|
+|
 isGeneratedId
 (
 selectedFrame
