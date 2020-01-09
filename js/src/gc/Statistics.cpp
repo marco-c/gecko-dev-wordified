@@ -516,6 +516,7 @@ define
 SWITCH_REASON
 (
 name
+_
 )
 \
 case
@@ -580,6 +581,7 @@ define
 SWITCH_REASON
 (
 name
+_
 )
 \
 case
