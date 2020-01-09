@@ -341,6 +341,14 @@ window
 .
 test_driver_internal
 .
+in_automation
+=
+true
+;
+window
+.
+test_driver_internal
+.
 click
 =
 function
