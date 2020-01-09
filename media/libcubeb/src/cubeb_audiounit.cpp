@@ -19258,6 +19258,9 @@ it
 ;
 if
 (
+name
+&
+&
 CFStringFind
 (
 name
