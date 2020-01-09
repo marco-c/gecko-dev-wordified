@@ -2062,6 +2062,10 @@ mDispatchInputEvent
 {
 FireInputEvent
 (
+EditAction
+:
+:
+eDeleteByDrag
 )
 ;
 if

@@ -166,6 +166,13 @@ Shutdown
 (
 )
 ;
+InternalEditorInputEvent
+:
+:
+Shutdown
+(
+)
+;
 }
 /
 /
