@@ -4027,11 +4027,6 @@ mCacheEntriesToWaitFor
 :
 2
 ;
-uint32_t
-mHasQueryString
-:
-1
-;
 /
 /
 whether
