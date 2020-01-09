@@ -2283,9 +2283,7 @@ d
 blocks
 .
 JS_PUBLIC_API
-(
 void
-)
 SetDebuggerMallocSizeOf
 (
 JSContext
@@ -2323,12 +2321,10 @@ d
 blocks
 .
 JS_PUBLIC_API
-(
 mozilla
 :
 :
 MallocSizeOf
-)
 GetDebuggerMallocSizeOf
 (
 JSContext
@@ -2525,9 +2521,7 @@ collected
 zones
 .
 JS_PUBLIC_API
-(
 bool
-)
 FireOnGarbageCollectionHookRequired
 (
 JSContext
@@ -2558,9 +2552,7 @@ onGarbageCollection
 hook
 .
 JS_PUBLIC_API
-(
 bool
-)
 FireOnGarbageCollectionHook
 (
 JSContext
@@ -2591,9 +2583,7 @@ false
 otherwise
 .
 JS_PUBLIC_API
-(
 bool
-)
 IsDebugger
 (
 JSObject
@@ -2634,9 +2624,7 @@ on
 failure
 .
 JS_PUBLIC_API
-(
 bool
-)
 GetDebuggeeGlobals
 (
 JSContext
@@ -2788,9 +2776,7 @@ execution
 class
 MOZ_STACK_CLASS
 JS_PUBLIC_API
-(
 AutoEntryMonitor
-)
 {
 JSContext
 *

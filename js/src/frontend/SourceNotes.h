@@ -2339,10 +2339,8 @@ operands
 ;
 extern
 JS_FRIEND_DATA
-(
 const
 JSSrcNoteSpec
-)
 js_SrcNoteSpec
 [
 ]
@@ -2352,9 +2350,7 @@ js
 {
 extern
 JS_FRIEND_API
-(
 unsigned
-)
 SrcNoteLength
 (
 jssrcnote
@@ -2387,9 +2383,7 @@ etc
 /
 extern
 JS_FRIEND_API
-(
 ptrdiff_t
-)
 GetSrcNoteOffset
 (
 jssrcnote

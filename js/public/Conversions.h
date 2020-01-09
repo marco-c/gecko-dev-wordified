@@ -228,9 +228,7 @@ ToBoolean
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToBooleanSlow
 (
 JS
@@ -257,9 +255,7 @@ ToNumber
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToNumberSlow
 (
 JSContext
@@ -292,9 +288,7 @@ ToInt8
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToInt8Slow
 (
 JSContext
@@ -327,9 +321,7 @@ ToUint8
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToUint8Slow
 (
 JSContext
@@ -362,9 +354,7 @@ ToInt16
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToInt16Slow
 (
 JSContext
@@ -397,9 +387,7 @@ ToInt32
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToInt32Slow
 (
 JSContext
@@ -432,9 +420,7 @@ ToUint32
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToUint32Slow
 (
 JSContext
@@ -467,9 +453,7 @@ ToUint16
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToUint16Slow
 (
 JSContext
@@ -502,9 +486,7 @@ ToInt64
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToInt64Slow
 (
 JSContext
@@ -537,9 +519,7 @@ ToUint64
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToUint64Slow
 (
 JSContext
@@ -572,10 +552,8 @@ ToString
 /
 extern
 JS_PUBLIC_API
-(
 JSString
 *
-)
 ToStringSlow
 (
 JSContext
@@ -605,10 +583,8 @@ ToObject
 /
 extern
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 ToObjectSlow
 (
 JSContext
@@ -688,9 +664,7 @@ point
 /
 extern
 JS_PUBLIC_API
-(
 void
-)
 AssertArgumentsAreSane
 (
 JSContext
@@ -800,9 +774,7 @@ OrdinaryToPrimitive
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 OrdinaryToPrimitive
 (
 JSContext

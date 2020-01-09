@@ -225,9 +225,7 @@ CallArgs
 ;
 class
 JS_PUBLIC_API
-(
 RealmOptions
-)
 ;
 }
 /
@@ -390,9 +388,7 @@ JSStructuredCloneWriter
 ;
 class
 JS_PUBLIC_API
-(
 JSTracer
-)
 ;
 class
 JSFlatString
@@ -486,9 +482,7 @@ or
 zone
 .
 JS_FRIEND_API
-(
 bool
-)
 CurrentThreadCanAccessRuntime
 (
 const
@@ -501,9 +495,7 @@ rt
 ifdef
 DEBUG
 JS_FRIEND_API
-(
 bool
-)
 CurrentThreadIsPerformingGC
 (
 )
@@ -520,9 +512,7 @@ JS
 {
 struct
 JS_PUBLIC_API
-(
 PropertyDescriptor
-)
 ;
 enum
 class
@@ -591,9 +581,7 @@ collection
 }
 ;
 JS_PUBLIC_API
-(
 HeapState
-)
 RuntimeHeapState
 (
 )
@@ -764,9 +752,7 @@ leaks
 class
 MOZ_STACK_CLASS
 JS_PUBLIC_API
-(
 AutoEnterCycleCollection
-)
 {
 #
 ifdef

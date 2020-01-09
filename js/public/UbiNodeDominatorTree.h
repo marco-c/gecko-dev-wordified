@@ -764,9 +764,7 @@ pdf
 /
 class
 JS_PUBLIC_API
-(
 DominatorTree
-)
 {
 private
 :

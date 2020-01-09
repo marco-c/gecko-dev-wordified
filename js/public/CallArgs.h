@@ -727,10 +727,8 @@ JS
 {
 extern
 JS_PUBLIC_DATA
-(
 const
 HandleValue
-)
 UndefinedHandleValue
 ;
 namespace
@@ -768,9 +766,7 @@ necessary
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ComputeThis
 (
 JSContext
@@ -791,9 +787,7 @@ ifdef
 JS_DEBUG
 extern
 JS_PUBLIC_API
-(
 void
-)
 CheckIsValidConstructible
 (
 const
@@ -2214,9 +2208,7 @@ context
 *
 /
 JS_PUBLIC_API
-(
 bool
-)
 requireAtLeast
 (
 JSContext

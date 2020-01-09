@@ -263,9 +263,7 @@ callbackData
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CanCompileOffThread
 (
 JSContext
@@ -281,9 +279,7 @@ length
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CanDecodeOffThread
 (
 JSContext
@@ -437,9 +433,7 @@ FinishOffThreadScript
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileOffThread
 (
 JSContext
@@ -464,10 +458,8 @@ callbackData
 ;
 extern
 JS_PUBLIC_API
-(
 JSScript
 *
-)
 FinishOffThreadScript
 (
 JSContext
@@ -480,9 +472,7 @@ token
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 CancelOffThreadScript
 (
 JSContext
@@ -495,9 +485,7 @@ token
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileOffThreadModule
 (
 JSContext
@@ -522,10 +510,8 @@ callbackData
 ;
 extern
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 FinishOffThreadModule
 (
 JSContext
@@ -538,9 +524,7 @@ token
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 CancelOffThreadModule
 (
 JSContext
@@ -553,9 +537,7 @@ token
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 DecodeOffThreadScript
 (
 JSContext
@@ -591,9 +573,7 @@ callbackData
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 DecodeOffThreadScript
 (
 JSContext
@@ -628,10 +608,8 @@ callbackData
 ;
 extern
 JS_PUBLIC_API
-(
 JSScript
 *
-)
 FinishOffThreadScriptDecoder
 (
 JSContext
@@ -644,9 +622,7 @@ token
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 CancelOffThreadScriptDecoder
 (
 JSContext
@@ -659,9 +635,7 @@ token
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 DecodeMultiOffThreadScripts
 (
 JSContext
@@ -689,9 +663,7 @@ callbackData
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 FinishMultiOffThreadScriptsDecoder
 (
 JSContext
@@ -713,9 +685,7 @@ scripts
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 CancelMultiOffThreadScriptsDecoder
 (
 JSContext
@@ -734,9 +704,7 @@ JS_BUILD_BINAST
 )
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CanDecodeBinASTOffThread
 (
 JSContext

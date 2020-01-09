@@ -5657,10 +5657,8 @@ lock
 *
 /
 JS_FRIEND_API
-(
 void
 *
-)
 onOutOfMemory
 (
 js
@@ -5693,10 +5691,8 @@ OnLargeAllocationFailure
 *
 /
 JS_FRIEND_API
-(
 void
 *
-)
 onOutOfMemoryCanGC
 (
 js

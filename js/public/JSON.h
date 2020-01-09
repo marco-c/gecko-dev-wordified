@@ -226,9 +226,7 @@ argument
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_Stringify
 (
 JSContext
@@ -453,9 +451,7 @@ effects
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToJSONMaybeSafely
 (
 JSContext
@@ -503,9 +499,7 @@ ECMAScript
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_ParseJSON
 (
 JSContext
@@ -549,9 +543,7 @@ ECMAScript
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_ParseJSON
 (
 JSContext
@@ -615,9 +607,7 @@ function
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_ParseJSONWithReviver
 (
 JSContext
@@ -689,9 +679,7 @@ function
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_ParseJSONWithReviver
 (
 JSContext

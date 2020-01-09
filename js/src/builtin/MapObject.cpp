@@ -11427,10 +11427,8 @@ APIs
 *
 /
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 JS
 :
 :
@@ -11452,9 +11450,7 @@ cx
 ;
 }
 JS_PUBLIC_API
-(
 uint32_t
-)
 JS
 :
 :
@@ -11484,9 +11480,7 @@ obj
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -11675,9 +11669,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -11836,9 +11828,7 @@ wrappedValue
 }
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -11871,9 +11861,7 @@ rval
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -11906,9 +11894,7 @@ rval
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -11935,9 +11921,7 @@ obj
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -11971,9 +11955,7 @@ rval
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -12007,9 +11989,7 @@ rval
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -12043,9 +12023,7 @@ rval
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -12076,10 +12054,8 @@ thisVal
 ;
 }
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 JS
 :
 :
@@ -12101,9 +12077,7 @@ cx
 ;
 }
 JS_PUBLIC_API
-(
 uint32_t
-)
 JS
 :
 :
@@ -12133,9 +12107,7 @@ obj
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -12269,9 +12241,7 @@ wrappedKey
 }
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -12304,9 +12274,7 @@ rval
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -12339,9 +12307,7 @@ rval
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -12368,9 +12334,7 @@ obj
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -12395,9 +12359,7 @@ rval
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -12431,9 +12393,7 @@ rval
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -12467,9 +12427,7 @@ rval
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :

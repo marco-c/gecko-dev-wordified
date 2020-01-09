@@ -157,9 +157,7 @@ js
 {
 struct
 JS_PUBLIC_API
-(
 PerformanceGroup
-)
 ;
 }
 /
@@ -317,9 +315,7 @@ embedding
 *
 /
 JS_PUBLIC_API
-(
 void
-)
 dump
 (
 )
@@ -328,9 +324,7 @@ dump
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_HoldPrincipals
 (
 JSPrincipals
@@ -340,9 +334,7 @@ principals
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_DropPrincipals
 (
 JSContext
@@ -485,9 +477,7 @@ subsumes
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_SetSecurityCallbacks
 (
 JSContext
@@ -501,11 +491,9 @@ callbacks
 ;
 extern
 JS_PUBLIC_API
-(
 const
 JSSecurityCallbacks
 *
-)
 JS_GetSecurityCallbacks
 (
 JSContext
@@ -628,9 +616,7 @@ prin
 /
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_SetTrustedPrincipals
 (
 JSContext
@@ -691,9 +677,7 @@ runtime
 /
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_InitDestroyPrincipalsCallback
 (
 JSContext
@@ -844,9 +828,7 @@ runtime
 /
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_InitReadPrincipalsCallback
 (
 JSContext

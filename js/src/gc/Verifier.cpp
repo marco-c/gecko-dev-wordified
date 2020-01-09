@@ -4374,9 +4374,7 @@ failures
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :

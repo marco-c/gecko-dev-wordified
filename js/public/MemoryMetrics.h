@@ -595,9 +595,7 @@ value
 *
 /
 JS_FRIEND_API
-(
 size_t
-)
 MemoryReportingSundriesThreshold
 (
 )
@@ -5523,9 +5521,7 @@ getISupports
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CollectGlobalStats
 (
 GlobalStats
@@ -5535,9 +5531,7 @@ gStats
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CollectRuntimeStats
 (
 JSContext
@@ -5555,9 +5549,7 @@ anonymize
 ;
 extern
 JS_PUBLIC_API
-(
 size_t
-)
 SystemRealmCount
 (
 JSContext
@@ -5567,9 +5559,7 @@ cx
 ;
 extern
 JS_PUBLIC_API
-(
 size_t
-)
 UserRealmCount
 (
 JSContext
@@ -5579,9 +5569,7 @@ cx
 ;
 extern
 JS_PUBLIC_API
-(
 size_t
-)
 PeakSizeOfTemporary
 (
 const
@@ -5592,9 +5580,7 @@ cx
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 AddSizeOfTab
 (
 JSContext
@@ -5620,9 +5606,7 @@ sizes
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 AddServoSizeOf
 (
 JSContext

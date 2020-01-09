@@ -436,9 +436,7 @@ prev
 }
 }
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :
@@ -1168,9 +1166,7 @@ result
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :
@@ -5484,10 +5480,8 @@ JSCLASS_HAS_RESERVED_SLOTS
 )
 ;
 JS_FRIEND_API
-(
 JSObject
 *
-)
 js
 :
 :

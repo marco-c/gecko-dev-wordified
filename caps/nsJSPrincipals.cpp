@@ -611,9 +611,7 @@ in
 the
 debugger
 JS_PUBLIC_API
-(
 void
-)
 JSPrincipals
 :
 :

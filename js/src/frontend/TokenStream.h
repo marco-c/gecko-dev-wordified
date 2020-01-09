@@ -19738,9 +19738,7 @@ namespace
 js
 extern
 JS_FRIEND_API
-(
 int
-)
 js_fgets
 (
 char

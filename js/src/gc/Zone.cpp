@@ -3620,9 +3620,7 @@ removeFront
 }
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :

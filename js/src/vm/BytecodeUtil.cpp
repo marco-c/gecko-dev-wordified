@@ -6674,9 +6674,7 @@ sp
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :
@@ -6798,9 +6796,7 @@ ok
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :
@@ -14992,9 +14988,7 @@ nullptr
 ;
 }
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :
@@ -15065,9 +15059,7 @@ true
 ;
 }
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :
@@ -15264,9 +15256,7 @@ vec
 ;
 }
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :
@@ -15321,9 +15311,7 @@ defaultFreeOp
 ;
 }
 JS_FRIEND_API
-(
 size_t
-)
 js
 :
 :
@@ -15423,10 +15411,8 @@ true
 ;
 }
 JS_FRIEND_API
-(
 JSString
 *
-)
 js
 :
 :
@@ -16635,10 +16621,8 @@ true
 ;
 }
 JS_FRIEND_API
-(
 JSString
 *
-)
 js
 :
 :
@@ -17378,10 +17362,8 @@ true
 ;
 }
 JS_FRIEND_API
-(
 char
 *
-)
 js
 :
 :

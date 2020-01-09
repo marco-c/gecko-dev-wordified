@@ -2950,9 +2950,7 @@ wrapper
 ;
 }
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :
@@ -3102,9 +3100,7 @@ object
 *
 /
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :
@@ -4369,9 +4365,7 @@ are
 recomputed
 .
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :
@@ -4534,9 +4528,7 @@ true
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :

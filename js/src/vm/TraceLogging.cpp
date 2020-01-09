@@ -6379,9 +6379,7 @@ use
 }
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -6399,9 +6397,7 @@ ResetTraceLogger
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -6505,9 +6501,7 @@ enable
 }
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :

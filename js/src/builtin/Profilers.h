@@ -263,9 +263,7 @@ start
 extern
 MOZ_MUST_USE
 JS_PUBLIC_API
-(
 bool
-)
 JS_StartProfiling
 (
 const
@@ -305,9 +303,7 @@ stop
 extern
 MOZ_MUST_USE
 JS_PUBLIC_API
-(
 bool
-)
 JS_StopProfiling
 (
 const
@@ -344,9 +340,7 @@ used
 extern
 MOZ_MUST_USE
 JS_PUBLIC_API
-(
 bool
-)
 JS_DumpProfile
 (
 const
@@ -404,9 +398,7 @@ count
 extern
 MOZ_MUST_USE
 JS_PUBLIC_API
-(
 bool
-)
 JS_PauseProfilers
 (
 const
@@ -427,9 +419,7 @@ profilers
 extern
 MOZ_MUST_USE
 JS_PUBLIC_API
-(
 bool
-)
 JS_ResumeProfilers
 (
 const
@@ -484,11 +474,9 @@ false
 *
 /
 JS_PUBLIC_API
-(
 const
 char
 *
-)
 JS_UnsafeGetLastProfilingError
 (
 )
@@ -499,9 +487,7 @@ MOZ_CALLGRIND
 extern
 MOZ_MUST_USE
 JS_FRIEND_API
-(
 bool
-)
 js_StopCallgrind
 (
 )
@@ -509,9 +495,7 @@ js_StopCallgrind
 extern
 MOZ_MUST_USE
 JS_FRIEND_API
-(
 bool
-)
 js_StartCallgrind
 (
 )
@@ -519,9 +503,7 @@ js_StartCallgrind
 extern
 MOZ_MUST_USE
 JS_FRIEND_API
-(
 bool
-)
 js_DumpCallgrind
 (
 const
@@ -543,9 +525,7 @@ __linux__
 extern
 MOZ_MUST_USE
 JS_FRIEND_API
-(
 bool
-)
 js_StartPerf
 (
 )
@@ -553,9 +533,7 @@ js_StartPerf
 extern
 MOZ_MUST_USE
 JS_FRIEND_API
-(
 bool
-)
 js_StopPerf
 (
 )

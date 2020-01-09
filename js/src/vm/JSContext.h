@@ -5091,9 +5091,7 @@ runningWithTrustedPrincipals
 )
 ;
 JS_FRIEND_API
-(
 size_t
-)
 sizeOfExcludingThis
 (
 mozilla
@@ -5185,9 +5183,7 @@ callers
 *
 /
 JS_FRIEND_API
-(
 void
-)
 checkMallocGCPressure
 (
 void

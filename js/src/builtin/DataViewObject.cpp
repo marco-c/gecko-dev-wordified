@@ -5770,9 +5770,7 @@ JS_PS_END
 }
 ;
 JS_FRIEND_API
-(
 uint32_t
-)
 JS_GetDataViewByteOffset
 (
 JSObject
@@ -5814,10 +5812,8 @@ byteOffset
 ;
 }
 JS_FRIEND_API
-(
 void
 *
-)
 JS_GetDataViewData
 (
 JSObject
@@ -5896,9 +5892,7 @@ isSharedMemory
 ;
 }
 JS_FRIEND_API
-(
 uint32_t
-)
 JS_GetDataViewByteLength
 (
 JSObject
@@ -5940,10 +5934,8 @@ byteLength
 ;
 }
 JS_FRIEND_API
-(
 JSObject
 *
-)
 JS_NewDataView
 (
 JSContext

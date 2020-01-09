@@ -22516,9 +22516,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS_InitReflectParse
 (
 JSContext

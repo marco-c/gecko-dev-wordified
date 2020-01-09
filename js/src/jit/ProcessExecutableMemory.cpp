@@ -552,9 +552,7 @@ JitExceptionHandler
 sJitExceptionHandler
 ;
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :

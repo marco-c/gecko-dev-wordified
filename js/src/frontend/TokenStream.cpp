@@ -22061,9 +22061,7 @@ frontend
 namespace
 js
 JS_FRIEND_API
-(
 int
-)
 js_fgets
 (
 char

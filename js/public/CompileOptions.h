@@ -693,9 +693,7 @@ another
 /
 class
 JS_PUBLIC_API
-(
 TransitiveCompileOptions
-)
 {
 protected
 :
@@ -1156,9 +1154,7 @@ delete
 ;
 class
 JS_PUBLIC_API
-(
 CompileOptions
-)
 ;
 /
 *
@@ -1227,9 +1223,7 @@ OwningCompileOptions
 /
 class
 JS_PUBLIC_API
-(
 ReadOnlyCompileOptions
-)
 :
 public
 TransitiveCompileOptions
@@ -1742,9 +1736,7 @@ freed
 /
 class
 JS_PUBLIC_API
-(
 OwningCompileOptions
-)
 final
 :
 public
@@ -2372,9 +2364,7 @@ it
 class
 MOZ_STACK_CLASS
 JS_PUBLIC_API
-(
 CompileOptions
-)
 final
 :
 public

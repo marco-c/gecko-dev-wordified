@@ -10434,9 +10434,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 js
 :
 :
@@ -10888,9 +10886,7 @@ failure
 *
 /
 JS_PUBLIC_API
-(
 bool
-)
 js
 :
 :
@@ -11012,9 +11008,7 @@ failure
 *
 /
 JS_PUBLIC_API
-(
 bool
-)
 js
 :
 :
@@ -11127,9 +11121,7 @@ failure
 *
 /
 JS_PUBLIC_API
-(
 bool
-)
 js
 :
 :
@@ -11243,9 +11235,7 @@ failure
 *
 /
 JS_PUBLIC_API
-(
 bool
-)
 js
 :
 :
@@ -11360,9 +11350,7 @@ failure
 *
 /
 JS_PUBLIC_API
-(
 bool
-)
 js
 :
 :
@@ -11442,9 +11430,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 js
 :
 :
@@ -11624,9 +11610,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 js
 :
 :
@@ -11706,9 +11690,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 js
 :
 :

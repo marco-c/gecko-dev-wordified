@@ -2459,9 +2459,7 @@ time
 ;
 }
 JS_PUBLIC_API
-(
 double
-)
 JS
 :
 :
@@ -2513,9 +2511,7 @@ day
 ;
 }
 JS_PUBLIC_API
-(
 double
-)
 JS
 :
 :
@@ -2569,9 +2565,7 @@ time
 ;
 }
 JS_PUBLIC_API
-(
 double
-)
 JS
 :
 :
@@ -2591,9 +2585,7 @@ time
 ;
 }
 JS_PUBLIC_API
-(
 double
-)
 JS
 :
 :
@@ -2613,9 +2605,7 @@ time
 ;
 }
 JS_PUBLIC_API
-(
 double
-)
 JS
 :
 :
@@ -2633,9 +2623,7 @@ time
 ;
 }
 JS_PUBLIC_API
-(
 double
-)
 JS
 :
 :
@@ -2655,9 +2643,7 @@ year
 ;
 }
 JS_PUBLIC_API
-(
 double
-)
 JS
 :
 :
@@ -2680,9 +2666,7 @@ year
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -2701,9 +2685,7 @@ callback
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -23088,10 +23070,8 @@ obj
 ;
 }
 JS_FRIEND_API
-(
 JSObject
 *
-)
 js
 :
 :
@@ -23158,9 +23138,7 @@ msec_time
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :
@@ -23255,9 +23233,7 @@ true
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :

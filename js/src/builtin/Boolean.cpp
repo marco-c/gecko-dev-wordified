@@ -1068,9 +1068,7 @@ false_
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 js
 :
 :

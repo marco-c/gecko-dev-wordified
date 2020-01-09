@@ -346,9 +346,7 @@ namespace
 js
 {
 JS_FRIEND_API
-(
 size_t
-)
 MemoryReportingSundriesThreshold
 (
 )
@@ -5740,9 +5738,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -5840,9 +5836,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -5876,9 +5870,7 @@ FineGrained
 ;
 }
 JS_PUBLIC_API
-(
 size_t
-)
 JS
 :
 :
@@ -5942,9 +5934,7 @@ n
 ;
 }
 JS_PUBLIC_API
-(
 size_t
-)
 JS
 :
 :
@@ -6009,9 +5999,7 @@ n
 ;
 }
 JS_PUBLIC_API
-(
 size_t
-)
 JS
 :
 :
@@ -6109,9 +6097,7 @@ override
 }
 ;
 JS_PUBLIC_API
-(
 bool
-)
 AddSizeOfTab
 (
 JSContext
@@ -6360,9 +6346,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 AddServoSizeOf
 (
 JSContext

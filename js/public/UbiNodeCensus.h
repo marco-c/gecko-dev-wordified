@@ -732,9 +732,7 @@ struct
 CountDeleter
 {
 JS_PUBLIC_API
-(
 void
-)
 operator
 (
 )
@@ -1646,9 +1644,7 @@ NodeData
 ;
 MOZ_MUST_USE
 JS_PUBLIC_API
-(
 bool
-)
 operator
 (
 )
@@ -1711,9 +1707,7 @@ tree
 .
 MOZ_MUST_USE
 JS_PUBLIC_API
-(
 bool
-)
 ParseCensusOptions
 (
 JSContext
@@ -1776,9 +1770,7 @@ the
 cx
 .
 JS_PUBLIC_API
-(
 CountTypePtr
-)
 ParseBreakdown
 (
 JSContext

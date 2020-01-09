@@ -474,9 +474,7 @@ behavior
 /
 extern
 JS_PUBLIC_API
-(
 void
-)
 ResetTimeZone
 (
 )
@@ -1017,10 +1015,8 @@ representation
 )
 extern
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 NewDateObject
 (
 JSContext
@@ -1096,9 +1092,7 @@ clipped
 date
 .
 JS_PUBLIC_API
-(
 double
-)
 MakeDate
 (
 double
@@ -1180,9 +1174,7 @@ clipped
 date
 .
 JS_PUBLIC_API
-(
 double
-)
 MakeDate
 (
 double
@@ -1227,9 +1219,7 @@ passed
 in
 .
 JS_PUBLIC_API
-(
 double
-)
 YearFromTime
 (
 double
@@ -1273,9 +1263,7 @@ passed
 in
 .
 JS_PUBLIC_API
-(
 double
-)
 MonthFromTime
 (
 double
@@ -1319,9 +1307,7 @@ passed
 in
 .
 JS_PUBLIC_API
-(
 double
-)
 DayFromTime
 (
 double
@@ -1402,9 +1388,7 @@ garbage
 out
 .
 JS_PUBLIC_API
-(
 double
-)
 DayFromYear
 (
 double
@@ -1491,9 +1475,7 @@ time
 |
 .
 JS_PUBLIC_API
-(
 double
-)
 DayWithinYear
 (
 double
@@ -1588,9 +1570,7 @@ one
 place
 .
 JS_PUBLIC_API
-(
 void
-)
 SetReduceMicrosecondTimePrecisionCallback
 (
 ReduceMicrosecondTimePrecisionCallback
@@ -1642,9 +1622,7 @@ not
 specified
 .
 JS_PUBLIC_API
-(
 void
-)
 SetTimeResolutionUsec
 (
 uint32_t

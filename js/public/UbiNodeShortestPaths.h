@@ -202,9 +202,7 @@ graph
 /
 struct
 JS_PUBLIC_API
-(
 BackEdge
-)
 {
 private
 :
@@ -511,9 +509,7 @@ node
 /
 struct
 JS_PUBLIC_API
-(
 ShortestPaths
-)
 {
 private
 :
@@ -2223,9 +2219,7 @@ foo
 )
 ;
 JS_PUBLIC_API
-(
 void
-)
 dumpPaths
 (
 JSRuntime

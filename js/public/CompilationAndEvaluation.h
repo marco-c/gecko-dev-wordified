@@ -365,9 +365,7 @@ encountered
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_Utf8BufferIsCompilableUnit
 (
 JSContext
@@ -621,9 +619,7 @@ cx
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_ExecuteScript
 (
 JSContext
@@ -653,9 +649,7 @@ rval
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_ExecuteScript
 (
 JSContext
@@ -725,9 +719,7 @@ chain
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_ExecuteScript
 (
 JSContext
@@ -767,9 +759,7 @@ rval
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_ExecuteScript
 (
 JSContext
@@ -836,9 +826,7 @@ executing
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CloneAndExecuteScript
 (
 JSContext
@@ -880,9 +868,7 @@ chain
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CloneAndExecuteScript
 (
 JSContext
@@ -931,9 +917,7 @@ cx
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 Evaluate
 (
 JSContext
@@ -1009,9 +993,7 @@ chain
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 Evaluate
 (
 JSContext
@@ -1092,9 +1074,7 @@ reported
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 EvaluateUtf8
 (
 JSContext
@@ -1204,9 +1184,7 @@ can
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 EvaluateLatin1
 (
 JSContext
@@ -1295,9 +1273,7 @@ reported
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 EvaluateUtf8Path
 (
 JSContext
@@ -1343,9 +1319,7 @@ nullptr
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 Compile
 (
 JSContext
@@ -1422,9 +1396,7 @@ error
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileUtf8
 (
 JSContext
@@ -1549,9 +1521,7 @@ bugs
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileUtf8DontInflate
 (
 JSContext
@@ -1664,9 +1634,7 @@ error
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileLatin1
 (
 JSContext
@@ -1747,9 +1715,7 @@ error
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileUtf8File
 (
 JSContext
@@ -1875,9 +1841,7 @@ bugs
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileUtf8FileDontInflate
 (
 JSContext
@@ -1977,9 +1941,7 @@ error
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileUtf8Path
 (
 JSContext
@@ -2003,9 +1965,7 @@ script
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileForNonSyntacticScope
 (
 JSContext
@@ -2091,9 +2051,7 @@ needed
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileLatin1ForNonSyntacticScope
 (
 JSContext
@@ -2193,9 +2151,7 @@ chain
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileFunction
 (
 JSContext
@@ -2263,9 +2219,7 @@ body
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileFunctionUtf8
 (
 JSContext
@@ -2350,9 +2304,7 @@ required
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 InitScriptSourceElement
 (
 JSContext
@@ -2411,9 +2363,7 @@ hook
 /
 extern
 JS_PUBLIC_API
-(
 void
-)
 ExposeScriptToDebugger
 (
 JSContext

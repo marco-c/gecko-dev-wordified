@@ -875,11 +875,9 @@ chars
 }
 }
 JS_PUBLIC_API
-(
 const
 char
 *
-)
 JS
 :
 :
@@ -1025,9 +1023,7 @@ rev37
 4
 FromPropertyDescriptor
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -7726,9 +7722,7 @@ result
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 JS_CopyPropertyFrom
 (
 JSContext
@@ -7984,9 +7978,7 @@ desc
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 JS_CopyPropertiesFrom
 (
 JSContext
@@ -10114,9 +10106,7 @@ true
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 JS_InitializePropertiesFromCompatibleNativeObject
 (
 JSContext
@@ -24601,9 +24591,7 @@ the
 cpp
 .
 JS_FRIEND_API
-(
 void
-)
 DumpValue
 (
 const
@@ -24622,9 +24610,7 @@ out
 )
 ;
 JS_FRIEND_API
-(
 void
-)
 DumpId
 (
 jsid
@@ -24638,9 +24624,7 @@ out
 )
 ;
 JS_FRIEND_API
-(
 void
-)
 DumpInterpreterFrame
 (
 JSContext
@@ -24665,9 +24649,7 @@ nullptr
 namespace
 js
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :
@@ -24703,9 +24685,7 @@ n
 ;
 }
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :
@@ -26284,9 +26264,7 @@ n
 }
 }
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :
@@ -26934,9 +26912,7 @@ the
 cpp
 .
 JS_FRIEND_API
-(
 void
-)
 DumpBacktrace
 (
 JSContext
@@ -26952,9 +26928,7 @@ out
 ;
 }
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :
@@ -26985,9 +26959,7 @@ out
 ;
 }
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :
@@ -27243,9 +27215,7 @@ pc
 }
 }
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :

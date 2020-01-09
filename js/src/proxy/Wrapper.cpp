@@ -2393,10 +2393,8 @@ target
 ;
 }
 JS_FRIEND_API
-(
 JSObject
 *
-)
 js
 :
 :
@@ -2502,10 +2500,8 @@ wrapped
 ;
 }
 JS_FRIEND_API
-(
 JSObject
 *
-)
 js
 :
 :
@@ -2627,10 +2623,8 @@ wrapped
 ;
 }
 JS_FRIEND_API
-(
 JSObject
 *
-)
 js
 :
 :
@@ -2681,10 +2675,8 @@ obj
 }
 }
 JS_FRIEND_API
-(
 JSObject
 *
-)
 js
 :
 :

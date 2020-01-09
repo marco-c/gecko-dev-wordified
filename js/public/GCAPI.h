@@ -210,9 +210,7 @@ endif
 JS_BROKEN_GCC_ATTRIBUTE_WARNING
 class
 JS_PUBLIC_API
-(
 JSTracer
-)
 ;
 #
 ifdef
@@ -2126,11 +2124,9 @@ reason
 /
 extern
 JS_PUBLIC_API
-(
 const
 char
 *
-)
 ExplainReason
 (
 JS
@@ -2292,9 +2288,7 @@ GC
 /
 extern
 JS_PUBLIC_API
-(
 void
-)
 PrepareZoneForGC
 (
 Zone
@@ -2321,9 +2315,7 @@ GC
 /
 extern
 JS_PUBLIC_API
-(
 void
-)
 PrepareForFullGC
 (
 JSContext
@@ -2372,9 +2364,7 @@ automatically
 /
 extern
 JS_PUBLIC_API
-(
 void
-)
 PrepareForIncrementalGC
 (
 JSContext
@@ -2416,9 +2406,7 @@ engine
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 IsGCScheduled
 (
 JSContext
@@ -2456,9 +2444,7 @@ GC
 /
 extern
 JS_PUBLIC_API
-(
 void
-)
 SkipZoneForGC
 (
 Zone
@@ -2564,9 +2550,7 @@ system
 /
 extern
 JS_PUBLIC_API
-(
 void
-)
 NonIncrementalGC
 (
 JSContext
@@ -2809,9 +2793,7 @@ interval
 /
 extern
 JS_PUBLIC_API
-(
 void
-)
 StartIncrementalGC
 (
 JSContext
@@ -2898,9 +2880,7 @@ interval
 /
 extern
 JS_PUBLIC_API
-(
 void
-)
 IncrementalGCSlice
 (
 JSContext
@@ -2971,9 +2951,7 @@ false
 /
 extern
 JS_PUBLIC_API
-(
 void
-)
 FinishIncrementalGC
 (
 JSContext
@@ -3046,9 +3024,7 @@ false
 /
 extern
 JS_PUBLIC_API
-(
 void
-)
 AbortIncrementalGC
 (
 JSContext
@@ -3429,9 +3405,7 @@ GC_CYCLE_END
 ;
 struct
 JS_PUBLIC_API
-(
 GCDescription
-)
 {
 bool
 isZone_
@@ -3607,9 +3581,7 @@ const
 ;
 extern
 JS_PUBLIC_API
-(
 UniqueChars
-)
 MinorGcToJSON
 (
 JSContext
@@ -3676,9 +3648,7 @@ marking
 /
 extern
 JS_PUBLIC_API
-(
 GCSliceCallback
-)
 SetGCSliceCallback
 (
 JSContext
@@ -3815,9 +3785,7 @@ collection
 /
 extern
 JS_PUBLIC_API
-(
 GCNurseryCollectionCallback
-)
 SetGCNurseryCollectionCallback
 (
 JSContext
@@ -3869,9 +3837,7 @@ gray
 /
 extern
 JS_PUBLIC_API
-(
 DoCycleCollectionCallback
-)
 SetDoCycleCollectionCallback
 (
 JSContext
@@ -3938,9 +3904,7 @@ runtime
 /
 extern
 JS_PUBLIC_API
-(
 void
-)
 DisableIncrementalGC
 (
 JSContext
@@ -4030,9 +3994,7 @@ expected
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 IsIncrementalGCEnabled
 (
 JSContext
@@ -4065,9 +4027,7 @@ slices
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 IsIncrementalGCInProgress
 (
 JSContext
@@ -4100,9 +4060,7 @@ slices
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 IsIncrementalGCInProgress
 (
 JSRuntime
@@ -4128,9 +4086,7 @@ incrementally
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 WasIncrementalGC
 (
 JSRuntime
@@ -4196,9 +4152,7 @@ scope
 /
 class
 JS_PUBLIC_API
-(
 AutoDisableGenerationalGC
-)
 {
 JSContext
 *
@@ -4245,9 +4199,7 @@ runtime
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 IsGenerationalGCEnabled
 (
 JSRuntime
@@ -4297,9 +4249,7 @@ happens
 /
 class
 JS_PUBLIC_API
-(
 AutoRequireNoGC
-)
 {
 protected
 :
@@ -4373,9 +4323,7 @@ GC
 /
 class
 JS_PUBLIC_API
-(
 AutoAssertNoGC
-)
 :
 public
 AutoRequireNoGC
@@ -4597,9 +4545,7 @@ ifdef
 DEBUG
 class
 JS_PUBLIC_API
-(
 AutoSuppressGCAnalysis
-)
 :
 public
 AutoAssertNoGC
@@ -4629,9 +4575,7 @@ JS_HAZ_GC_SUPPRESSED
 else
 class
 JS_PUBLIC_API
-(
 AutoSuppressGCAnalysis
-)
 :
 public
 AutoRequireNoGC
@@ -4719,9 +4663,7 @@ callbacks
 /
 class
 JS_PUBLIC_API
-(
 AutoAssertGCCallback
-)
 :
 public
 AutoSuppressGCAnalysis
@@ -4869,9 +4811,7 @@ ifdef
 DEBUG
 class
 JS_PUBLIC_API
-(
 AutoCheckCannotGC
-)
 :
 public
 AutoAssertNoGC
@@ -4901,9 +4841,7 @@ JS_HAZ_GC_INVALIDATED
 else
 class
 JS_PUBLIC_API
-(
 AutoCheckCannotGC
-)
 :
 public
 AutoRequireNoGC
@@ -4937,9 +4875,7 @@ Firefox
 /
 extern
 JS_FRIEND_API
-(
 void
-)
 NotifyGCRootsRemoved
 (
 JSContext
@@ -5010,9 +4946,7 @@ traceOp
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_AddExtraGCRootsTracer
 (
 JSContext
@@ -5038,9 +4972,7 @@ JS_AddExtraGCRootsTracer
 /
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_RemoveExtraGCRootsTracer
 (
 JSContext
@@ -5055,9 +4987,7 @@ data
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_GC
 (
 JSContext
@@ -5067,9 +4997,7 @@ cx
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_MaybeGC
 (
 JSContext
@@ -5079,9 +5007,7 @@ cx
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_SetGCCallback
 (
 JSContext
@@ -5096,9 +5022,7 @@ data
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_SetObjectsTenuredCallback
 (
 JSContext
@@ -5113,9 +5037,7 @@ data
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_AddFinalizeCallback
 (
 JSContext
@@ -5130,9 +5052,7 @@ data
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_RemoveFinalizeCallback
 (
 JSContext
@@ -5462,9 +5382,7 @@ hash
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_AddWeakPointerZonesCallback
 (
 JSContext
@@ -5479,9 +5397,7 @@ data
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_RemoveWeakPointerZonesCallback
 (
 JSContext
@@ -5493,9 +5409,7 @@ cb
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_AddWeakPointerCompartmentCallback
 (
 JSContext
@@ -5510,9 +5424,7 @@ data
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_RemoveWeakPointerCompartmentCallback
 (
 JSContext
@@ -5536,9 +5448,7 @@ Heap
 }
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_UpdateWeakPointerAfterGC
 (
 JS
@@ -5555,9 +5465,7 @@ objp
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_UpdateWeakPointerAfterGCUnbarriered
 (
 JSObject
@@ -5568,9 +5476,7 @@ objp
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_SetGCParameter
 (
 JSContext
@@ -5584,9 +5490,7 @@ value
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_ResetGCParameter
 (
 JSContext
@@ -5598,9 +5502,7 @@ key
 ;
 extern
 JS_PUBLIC_API
-(
 uint32_t
-)
 JS_GetGCParameter
 (
 JSContext
@@ -5612,9 +5514,7 @@ key
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_SetGCParametersBasedOnAvailableMemory
 (
 JSContext
@@ -5655,10 +5555,8 @@ finalization
 /
 extern
 JS_PUBLIC_API
-(
 JSString
 *
-)
 JS_NewExternalString
 (
 JSContext
@@ -5762,10 +5660,8 @@ called
 /
 extern
 JS_PUBLIC_API
-(
 JSString
 *
-)
 JS_NewMaybeExternalString
 (
 JSContext
@@ -5807,9 +5703,7 @@ JS_NewExternalStringWithClosure
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_IsExternalString
 (
 JSString
@@ -5835,11 +5729,9 @@ JS_NewExternalString
 /
 extern
 JS_PUBLIC_API
-(
 const
 JSStringFinalizer
 *
-)
 JS_GetExternalStringFinalizer
 (
 JSString
@@ -5852,9 +5744,7 @@ JS
 {
 extern
 JS_PUBLIC_API
-(
 bool
-)
 IsIdleGCTaskNeeded
 (
 JSRuntime
@@ -5864,9 +5754,7 @@ rt
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 RunIdleTimeGCTask
 (
 JSRuntime
@@ -5926,10 +5814,8 @@ memory
 /
 extern
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 NewMemoryInfoObject
 (
 JSContext

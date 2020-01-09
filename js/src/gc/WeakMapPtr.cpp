@@ -830,12 +830,10 @@ WeakMap
 template
 class
 JS_PUBLIC_API
-(
 JS
 :
 :
 WeakMapPtr
-)
 <
 JSObject
 *
@@ -868,12 +866,10 @@ compiles
 template
 class
 JS_PUBLIC_API
-(
 JS
 :
 :
 WeakMapPtr
-)
 <
 JSObject
 *

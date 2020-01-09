@@ -930,9 +930,7 @@ errorNumber
 )
 ;
 JS_PUBLIC_API
-(
 size_t
-)
 length
 (
 )
@@ -1090,17 +1088,13 @@ note_
 }
 ;
 JS_PUBLIC_API
-(
 iterator
-)
 begin
 (
 )
 ;
 JS_PUBLIC_API
-(
 iterator
-)
 end
 (
 )

@@ -313,9 +313,7 @@ endif
 JS_BROKEN_GCC_ATTRIBUTE_WARNING
 class
 JS_PUBLIC_API
-(
 AutoEntryMonitor
-)
 ;
 #
 ifdef

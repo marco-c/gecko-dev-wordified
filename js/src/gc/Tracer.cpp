@@ -932,9 +932,7 @@ API
 *
 /
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -1221,9 +1219,7 @@ namespace
 anonymous
 )
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -2630,9 +2626,7 @@ linear
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 JS_GetTraceThingInfo
 (
 char

@@ -169,9 +169,7 @@ active
 .
 extern
 JS_PUBLIC_API
-(
 void
-)
 StartTraceLogger
 (
 JSContext
@@ -229,9 +227,7 @@ active
 .
 extern
 JS_PUBLIC_API
-(
 void
-)
 StopTraceLogger
 (
 JSContext
@@ -257,9 +253,7 @@ logger
 .
 extern
 JS_PUBLIC_API
-(
 void
-)
 ResetTraceLogger
 (
 void

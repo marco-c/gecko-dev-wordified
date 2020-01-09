@@ -160,12 +160,10 @@ namespace
 ubi
 {
 JS_PUBLIC_API
-(
 BackEdge
 :
 :
 Ptr
-)
 BackEdge
 :
 :
@@ -358,9 +356,7 @@ stderr
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 dumpPaths
 (
 JSContext

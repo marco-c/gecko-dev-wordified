@@ -26469,10 +26469,8 @@ points
 *
 /
 JS_FRIEND_API
-(
 JSObject
 *
-)
 js
 :
 :
@@ -26517,9 +26515,7 @@ nullptr
 }
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -26699,9 +26695,7 @@ finalizeCallback
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -26725,10 +26719,8 @@ readableStreamDataRequestCallback
 ;
 }
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 JS
 :
 :
@@ -26902,10 +26894,8 @@ proto
 ;
 }
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 JS
 :
 :
@@ -27073,9 +27063,7 @@ proto
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -27099,9 +27087,7 @@ ReadableStream
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -27125,9 +27111,7 @@ ReadableStreamDefaultReader
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -27189,9 +27173,7 @@ obj
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -27245,9 +27227,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -27301,9 +27281,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -27357,9 +27335,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -27413,10 +27389,8 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 JS
 :
 :
@@ -27488,9 +27462,7 @@ reason
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -27547,10 +27519,8 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 JS
 :
 :
@@ -27627,9 +27597,7 @@ result
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -27795,9 +27763,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -27894,9 +27860,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -28633,9 +28597,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -28747,9 +28709,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -28853,9 +28813,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -29011,9 +28969,7 @@ unwrappedController
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -29169,9 +29125,7 @@ chunk
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -29319,9 +29273,7 @@ error
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -29380,9 +29332,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -29452,9 +29402,7 @@ reason
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -29557,10 +29505,8 @@ unwrappedReader
 ;
 }
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 JS
 :
 :

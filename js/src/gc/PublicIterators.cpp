@@ -1492,9 +1492,7 @@ data
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 JS_IterateCompartments
 (
 JSContext
@@ -1558,9 +1556,7 @@ c
 }
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -1644,9 +1640,7 @@ realm
 }
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -1754,9 +1748,7 @@ realm
 }
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :

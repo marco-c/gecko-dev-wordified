@@ -265,9 +265,7 @@ measurements
 /
 class
 JS_FRIEND_API
-(
 PerfMeasurement
-)
 {
 protected
 :
@@ -742,10 +740,8 @@ API
 /
 extern
 JS_FRIEND_API
-(
 JSObject
 *
-)
 RegisterPerfMeasurement
 (
 JSContext
@@ -799,10 +795,8 @@ wrapper
 /
 extern
 JS_FRIEND_API
-(
 PerfMeasurement
 *
-)
 ExtractPerfMeasurement
 (
 const

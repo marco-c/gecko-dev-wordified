@@ -475,9 +475,7 @@ string
 /
 extern
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameSource
 (
 JSContext
@@ -528,9 +526,7 @@ to
 /
 extern
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameLine
 (
 JSContext
@@ -578,9 +574,7 @@ to
 /
 extern
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameColumn
 (
 JSContext
@@ -647,9 +641,7 @@ nullptr
 /
 extern
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameFunctionDisplayName
 (
 JSContext
@@ -700,9 +692,7 @@ nullptr
 /
 extern
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameAsyncCause
 (
 JSContext
@@ -779,9 +769,7 @@ nullptr
 /
 extern
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameAsyncParent
 (
 JSContext
@@ -862,9 +850,7 @@ nullptr
 /
 extern
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameParent
 (
 JSContext
@@ -952,10 +938,8 @@ here
 /
 extern
 JS_FRIEND_API
-(
 JSObject
 *
-)
 GetFirstSubsumedSavedFrame
 (
 JSContext

@@ -177,9 +177,7 @@ h
 extern
 MOZ_COLD
 JS_PUBLIC_API
-(
 void
-)
 JS_ReportOutOfMemory
 (
 JSContext
@@ -447,9 +445,7 @@ ShouldFailWithOOM
 ;
 MOZ_COLD
 JS_FRIEND_API
-(
 void
-)
 ReportOutOfMemory
 (
 JSContext
@@ -565,10 +561,8 @@ bloat
 *
 /
 JS_FRIEND_API
-(
 void
 *
-)
 onOutOfMemory
 (
 AllocFunction
@@ -858,9 +852,7 @@ p
 ;
 }
 JS_FRIEND_API
-(
 void
-)
 reportAllocOverflow
 (
 )

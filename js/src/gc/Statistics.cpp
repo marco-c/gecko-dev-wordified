@@ -483,11 +483,9 @@ Shrinking
 }
 }
 JS_PUBLIC_API
-(
 const
 char
 *
-)
 JS
 :
 :

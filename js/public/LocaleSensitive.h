@@ -283,9 +283,7 @@ caller
 /
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_SetDefaultLocale
 (
 JSRuntime
@@ -377,12 +375,10 @@ this
 /
 extern
 JS_PUBLIC_API
-(
 JS
 :
 :
 UniqueChars
-)
 JS_GetDefaultLocale
 (
 JSContext
@@ -405,9 +401,7 @@ defaults
 /
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_ResetDefaultLocale
 (
 JSRuntime
@@ -743,9 +737,7 @@ behavior
 /
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_SetLocaleCallbacks
 (
 JSRuntime
@@ -775,11 +767,9 @@ nullptr
 /
 extern
 JS_PUBLIC_API
-(
 const
 JSLocaleCallbacks
 *
-)
 JS_GetLocaleCallbacks
 (
 JSRuntime

@@ -303,9 +303,7 @@ slot
 .
 class
 JS_FRIEND_API
-(
 ForwardingProxyHandler
-)
 :
 public
 BaseProxyHandler
@@ -939,9 +937,7 @@ comment
 /
 class
 JS_FRIEND_API
-(
 Wrapper
-)
 :
 public
 ForwardingProxyHandler
@@ -1160,9 +1156,7 @@ handlers
 /
 class
 JS_FRIEND_API
-(
 CrossCompartmentWrapper
-)
 :
 public
 Wrapper
@@ -1678,9 +1672,7 @@ singletonWithPrototype
 ;
 class
 JS_FRIEND_API
-(
 OpaqueCrossCompartmentWrapper
-)
 :
 public
 CrossCompartmentWrapper
@@ -2207,9 +2199,7 @@ Base
 >
 class
 JS_FRIEND_API
-(
 SecurityWrapper
-)
 :
 public
 Base
@@ -2731,10 +2721,8 @@ main
 thread
 .
 JS_FRIEND_API
-(
 JSObject
 *
-)
 UncheckedUnwrap
 (
 JSObject
@@ -2844,10 +2832,8 @@ main
 thread
 .
 JS_FRIEND_API
-(
 JSObject
 *
-)
 CheckedUnwrap
 (
 JSObject
@@ -2888,10 +2874,8 @@ Wrapper
 wrappedObject
 .
 JS_FRIEND_API
-(
 JSObject
 *
-)
 UnwrapOneChecked
 (
 JSObject
@@ -2955,10 +2939,8 @@ main
 thread
 .
 JS_FRIEND_API
-(
 JSObject
 *
-)
 UncheckedUnwrapWithoutExpose
 (
 JSObject
@@ -2975,9 +2957,7 @@ cx
 )
 ;
 JS_FRIEND_API
-(
 void
-)
 NukeCrossCompartmentWrapper
 (
 JSContext
@@ -3003,9 +2983,7 @@ newTarget
 )
 ;
 JS_FRIEND_API
-(
 bool
-)
 RemapAllWrappersForObject
 (
 JSContext
@@ -3041,9 +3019,7 @@ given
 filters
 .
 JS_FRIEND_API
-(
 bool
-)
 RecomputeWrappers
 (
 JSContext

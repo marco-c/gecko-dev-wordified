@@ -2857,10 +2857,8 @@ false
 ;
 }
 JS_PUBLIC_API
-(
 JSScript
 *
-)
 ProfilingStackFrame
 :
 :
@@ -3000,10 +2998,8 @@ script
 ;
 }
 JS_FRIEND_API
-(
 jsbytecode
 *
-)
 ProfilingStackFrame
 :
 :
@@ -3145,9 +3141,7 @@ pc
 ;
 }
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :
@@ -3190,9 +3184,7 @@ enabled
 ;
 }
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :
@@ -3236,9 +3228,7 @@ enabled
 ;
 }
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :

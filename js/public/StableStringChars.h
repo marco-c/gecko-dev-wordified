@@ -437,9 +437,7 @@ GC
 class
 MOZ_STACK_CLASS
 JS_FRIEND_API
-(
 AutoStableStringChars
-)
 final
 {
 /

@@ -601,9 +601,7 @@ detail
 MOZ_COLD
 extern
 JS_PUBLIC_API
-(
 void
-)
 ReportSourceTooLong
 (
 JSContext

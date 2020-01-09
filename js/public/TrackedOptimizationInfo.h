@@ -1205,11 +1205,9 @@ Count
 }
 ;
 JS_PUBLIC_API
-(
 const
 char
 *
-)
 TrackedStrategyString
 (
 TrackedStrategy
@@ -1217,11 +1215,9 @@ strategy
 )
 ;
 JS_PUBLIC_API
-(
 const
 char
 *
-)
 TrackedOutcomeString
 (
 TrackedOutcome
@@ -1229,11 +1225,9 @@ outcome
 )
 ;
 JS_PUBLIC_API
-(
 const
 char
 *
-)
 TrackedTypeSiteString
 (
 TrackedTypeSite

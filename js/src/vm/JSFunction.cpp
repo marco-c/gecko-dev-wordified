@@ -18073,9 +18073,7 @@ namespace
 detail
 {
 JS_PUBLIC_API
-(
 void
-)
 CheckIsValidConstructible
 (
 const

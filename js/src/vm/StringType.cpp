@@ -15294,10 +15294,8 @@ arg
 )
 ;
 JS_PUBLIC_API
-(
 JSString
 *
-)
 js
 :
 :

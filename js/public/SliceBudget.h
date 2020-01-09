@@ -142,9 +142,7 @@ js
 {
 struct
 JS_PUBLIC_API
-(
 TimeBudget
-)
 {
 int64_t
 budget
@@ -165,9 +163,7 @@ milliseconds
 ;
 struct
 JS_PUBLIC_API
-(
 WorkBudget
-)
 {
 int64_t
 budget
@@ -251,9 +247,7 @@ operations
 /
 class
 JS_PUBLIC_API
-(
 SliceBudget
-)
 {
 static
 mozilla

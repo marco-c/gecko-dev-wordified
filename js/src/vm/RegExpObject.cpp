@@ -8971,10 +8971,8 @@ TenuredObject
 ;
 }
 JS_FRIEND_API
-(
 RegExpShared
 *
-)
 js
 :
 :
