@@ -1614,9 +1614,13 @@ window
 .
 gBrowser
 "
-about
+https
 :
-blank
+/
+/
+example
+.
+com
 "
 )
 ;
