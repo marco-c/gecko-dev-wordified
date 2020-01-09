@@ -939,6 +939,11 @@ bigIntEnabledOption
 =
 false
 ;
+bool
+fieldsEnabledOption
+=
+false
+;
 /
 *
 *
