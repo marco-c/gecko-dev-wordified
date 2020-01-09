@@ -231,6 +231,7 @@ namespace
 bool
 InOrderPacket
 (
+const
 rtc
 :
 :
@@ -238,6 +239,7 @@ Optional
 <
 uint16_t
 >
+&
 latest_sequence_number
 uint16_t
 current_sequence_number
