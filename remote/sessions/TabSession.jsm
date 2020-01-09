@@ -502,8 +502,8 @@ field
 }
 const
 [
-domainName
-methodName
+domain
+command
 ]
 =
 Domains
@@ -516,7 +516,7 @@ method
 if
 (
 typeof
-domainName
+domain
 =
 =
 "
@@ -525,7 +525,7 @@ undefined
 |
 |
 typeof
-methodName
+command
 =
 =
 "
@@ -574,7 +574,7 @@ domains
 .
 has
 (
-domainName
+domain
 )
 )
 {
@@ -584,8 +584,8 @@ this
 execute
 (
 id
-domainName
-methodName
+domain
+command
 params
 )
 ;
@@ -597,8 +597,8 @@ this
 executeInChild
 (
 id
-domainName
-methodName
+domain
+command
 params
 )
 ;
@@ -623,7 +623,7 @@ executeInChild
 (
 id
 domain
-method
+command
 params
 )
 {
@@ -651,7 +651,7 @@ request
 {
 id
 domain
-method
+command
 params
 }
 }
