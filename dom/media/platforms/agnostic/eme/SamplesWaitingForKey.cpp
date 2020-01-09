@@ -251,9 +251,7 @@ aSample
 >
 mCrypto
 .
-IsEncrypted
-(
-)
+mValid
 |
 |
 !

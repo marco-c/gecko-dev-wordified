@@ -2522,9 +2522,7 @@ mConfig
 .
 mCrypto
 .
-IsEncrypted
-(
-)
+mValid
 )
 ;
 if
@@ -2726,9 +2724,7 @@ mConfig
 .
 mCrypto
 .
-IsEncrypted
-(
-)
+mValid
 )
 ;
 /

@@ -5279,9 +5279,7 @@ aSample
 >
 mCrypto
 .
-IsEncrypted
-(
-)
+mValid
 )
 {
 /

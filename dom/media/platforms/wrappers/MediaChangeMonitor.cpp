@@ -1106,9 +1106,7 @@ aSample
 >
 mCrypto
 .
-IsEncrypted
-(
-)
+mValid
 )
 {
 return
