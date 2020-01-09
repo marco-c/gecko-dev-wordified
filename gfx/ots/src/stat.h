@@ -269,6 +269,17 @@ out
 ;
 private
 :
+bool
+ValidateNameId
+(
+uint16_t
+nameid
+bool
+allowPredefined
+=
+true
+)
+;
 uint16_t
 majorVersion
 ;
