@@ -455,10 +455,7 @@ cheese
 ;
 /
 /
-exclude
-livemark
-items
-search
+Search
 for
 "
 item

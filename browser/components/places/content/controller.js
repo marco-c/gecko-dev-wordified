@@ -6669,7 +6669,6 @@ addData
 (
 type
 index
-feedURI
 )
 {
 let
@@ -6681,7 +6680,6 @@ wrapNode
 (
 node
 type
-feedURI
 )
 ;
 dt
@@ -6698,7 +6696,6 @@ function
 addURIData
 (
 index
-feedURI
 )
 {
 addData
@@ -6707,7 +6704,6 @@ PlacesUtils
 .
 TYPE_X_MOZ_URL
 index
-feedURI
 )
 ;
 addData
@@ -6716,7 +6712,6 @@ PlacesUtils
 .
 TYPE_UNICODE
 index
-feedURI
 )
 ;
 addData
@@ -6725,7 +6720,6 @@ PlacesUtils
 .
 TYPE_HTML
 index
-feedURI
 )
 ;
 }
