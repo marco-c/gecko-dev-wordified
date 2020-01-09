@@ -6455,12 +6455,6 @@ isTrusted
 )
 return
 ;
-aEvent
-.
-stopPropagation
-(
-)
-;
 let
 btn
 =
