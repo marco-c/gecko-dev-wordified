@@ -658,6 +658,12 @@ info
 ;
 if
 (
+!
+place
+.
+transition
+|
+|
 place
 .
 transition
@@ -671,10 +677,12 @@ TRANSITIONS
 .
 EMBED
 )
+{
 lastStoredVisit
 =
 info
 ;
+}
 }
 await
 PlacesUtils
