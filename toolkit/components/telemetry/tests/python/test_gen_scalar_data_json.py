@@ -315,6 +315,14 @@ expired
 False
                     
 "
+expires
+"
+:
+"
+never
+"
+                    
+"
 record_on_release
 "
 :
@@ -360,6 +368,14 @@ expired
 "
 :
 False
+                    
+"
+expires
+"
+:
+"
+never
+"
                     
 "
 record_on_release

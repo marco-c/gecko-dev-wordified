@@ -1107,6 +1107,14 @@ stores
 scalar
 .
 record_into_store
+            
+'
+expires
+'
+:
+scalar
+.
+expires
         
 }
 )
