@@ -304,6 +304,8 @@ def
 do_delayed_imports
 (
 serve_root
+=
+None
 )
 :
     
@@ -3385,6 +3387,10 @@ test
 "
 "
 "
+    
+do_delayed_imports
+(
+)
     
 id_test_map
 =
