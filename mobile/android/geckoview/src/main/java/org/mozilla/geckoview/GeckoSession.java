@@ -26826,6 +26826,15 @@ assertOnUiThread
 )
 ;
 }
+if
+(
+!
+mAttachedCompositor
+)
+{
+return
+;
+}
 mCompositorReady
 =
 true
