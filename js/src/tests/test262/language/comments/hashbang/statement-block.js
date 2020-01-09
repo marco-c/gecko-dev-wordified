@@ -3,16 +3,9 @@
 |
 reftest
 |
-skip
 error
 :
 SyntaxError
--
--
-hashbang
-is
-not
-supported
 /
 *
 -
