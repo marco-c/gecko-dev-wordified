@@ -211,7 +211,7 @@ PropTypes
 func
 .
 isRequired
-onResizeViewport
+doResizeViewport
 :
 PropTypes
 .
@@ -275,7 +275,7 @@ const
 {
 devices
 onChangeDevice
-onResizeViewport
+doResizeViewport
 onUpdateDeviceModal
 selectedDevice
 viewportId
@@ -350,7 +350,7 @@ click
 =
 >
 {
-onResizeViewport
+doResizeViewport
 (
 viewportId
 device

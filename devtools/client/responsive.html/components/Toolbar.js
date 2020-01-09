@@ -391,7 +391,7 @@ PropTypes
 func
 .
 isRequired
-onResizeViewport
+doResizeViewport
 :
 PropTypes
 .
@@ -570,7 +570,7 @@ onChangePixelRatio
 onChangeTouchSimulation
 onExit
 onRemoveDeviceAssociation
-onResizeViewport
+doResizeViewport
 onRotateViewport
 onScreenshot
 onToggleLeftAlignment
@@ -657,7 +657,7 @@ DeviceSelector
 {
 devices
 onChangeDevice
-onResizeViewport
+doResizeViewport
 onUpdateDeviceModal
 selectedDevice
 viewportId
@@ -685,7 +685,7 @@ ViewportDimension
 (
 {
 onRemoveDeviceAssociation
-onResizeViewport
+doResizeViewport
 viewport
 }
 )
