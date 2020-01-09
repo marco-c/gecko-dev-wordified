@@ -301,6 +301,12 @@ onShowFlexItemMenu
 event
 )
 {
+event
+.
+stopPropagation
+(
+)
+;
 const
 {
 flexItem
