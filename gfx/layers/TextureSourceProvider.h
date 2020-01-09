@@ -632,9 +632,9 @@ the
 compositor
 .
 Otherwise
+/
+/
 return
-/
-/
 nullptr
 .
 virtual

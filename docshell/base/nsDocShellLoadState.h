@@ -183,6 +183,10 @@ DocShellLoadStateInit
 }
 }
 /
+/
+namespace
+mozilla
+/
 *
 *
 *

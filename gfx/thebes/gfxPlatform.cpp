@@ -6300,9 +6300,9 @@ the
 GPU
 process
 where
+/
+/
 WebRender
-/
-/
 runs
 doesn
 '
@@ -6312,10 +6312,10 @@ gfxPlatform
 and
 performs
 explicit
+/
+/
 initialization
 of
-/
-/
 the
 bits
 it

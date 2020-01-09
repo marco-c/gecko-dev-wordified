@@ -6023,11 +6023,6 @@ aGuid
 mLayersId
 )
 ;
-MOZ_ASSERT
-(
-controller
-)
-;
 /
 /
 If
@@ -6043,6 +6038,11 @@ file
 a
 bug
 !
+MOZ_ASSERT
+(
+controller
+)
+;
 if
 (
 controller

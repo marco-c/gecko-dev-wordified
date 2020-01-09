@@ -21217,6 +21217,8 @@ shadow
 host
 in
 light
+/
+/
 DOM
 *
 aStartContent
@@ -22825,6 +22827,8 @@ going
 backwards
 enter
 its
+/
+/
 scope
 .
 if
