@@ -1402,7 +1402,6 @@ pub
 fn
 to_degrees
 (
-&
 self
 )
 -
@@ -1424,7 +1423,6 @@ pub
 fn
 to_radians
 (
-&
 self
 )
 -
@@ -1445,7 +1443,6 @@ pub
 fn
 to_skew
 (
-&
 self
 )
 -
@@ -1501,7 +1498,6 @@ pub
 fn
 is_enabled
 (
-&
 self
 )
 -
