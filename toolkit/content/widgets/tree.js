@@ -88,7 +88,9 @@ scope
 class
 MozTreecol
 extends
-MozBaseControl
+MozElements
+.
+BaseControl
 {
 static
 get
