@@ -186,6 +186,13 @@ RemoteSettings
 .
 pollChanges
 (
+{
+trigger
+:
+"
+timer
+"
+}
 )
 .
 catch
