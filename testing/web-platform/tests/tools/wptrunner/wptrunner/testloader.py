@@ -3035,10 +3035,6 @@ manifest_filters
 =
 None
                  
-meta_filters
-=
-None
-                 
 chunk_type
 =
 "
@@ -3082,20 +3078,6 @@ manifest_filters
 manifest_filters
 if
 manifest_filters
-is
-not
-None
-else
-[
-]
-        
-self
-.
-meta_filters
-=
-meta_filters
-if
-meta_filters
 is
 not
 None
