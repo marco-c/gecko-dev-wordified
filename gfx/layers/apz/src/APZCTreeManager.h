@@ -5837,10 +5837,8 @@ const
 ;
 /
 /
-Returns
-a
-pointer
-to
+Look
+up
 the
 GeckoContentController
 for
@@ -5849,6 +5847,7 @@ given
 layers
 id
 .
+static
 already_AddRefed
 <
 GeckoContentController
@@ -5858,7 +5857,6 @@ GetContentController
 LayersId
 aLayersId
 )
-const
 ;
 protected
 :

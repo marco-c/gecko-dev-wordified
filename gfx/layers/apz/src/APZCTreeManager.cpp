@@ -22557,6 +22557,11 @@ forget
 )
 ;
 }
+/
+*
+static
+*
+/
 already_AddRefed
 <
 GeckoContentController
@@ -22569,7 +22574,6 @@ GetContentController
 LayersId
 aLayersId
 )
-const
 {
 RefPtr
 <
