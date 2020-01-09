@@ -1107,8 +1107,6 @@ breakpoint
 .
 has
 -
-condition
-.
 log
 .
 CodeMirror
@@ -1128,7 +1126,7 @@ theme
 -
 graphs
 -
-orange
+purple
 )
 ;
 stroke
@@ -1137,11 +1135,9 @@ var
 (
 -
 -
-theme
+purple
 -
-graphs
--
-yellow
+60
 )
 ;
 }
