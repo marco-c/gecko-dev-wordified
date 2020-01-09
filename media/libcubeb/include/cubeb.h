@@ -279,6 +279,12 @@ channels
 ;
 output_params
 .
+layout
+=
+CUBEB_LAYOUT_UNDEFINED
+;
+output_params
+.
 prefs
 =
 CUBEB_STREAM_PREF_NONE
@@ -303,6 +309,12 @@ input_params
 channels
 =
 1
+;
+input_params
+.
+layout
+=
+CUBEB_LAYOUT_UNDEFINED
 ;
 input_params
 .
@@ -529,7 +541,7 @@ c
 c
 )
 {
-buf
+out
 [
 i
 ]
