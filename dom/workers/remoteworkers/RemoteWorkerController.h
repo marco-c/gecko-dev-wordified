@@ -861,6 +861,12 @@ aData
 RemoteWorkerObserver
 *
 aObserver
+base
+:
+:
+ProcessId
+=
+0
 )
 ;
 void
