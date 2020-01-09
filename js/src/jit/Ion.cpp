@@ -842,10 +842,6 @@ isCompilingWasm_
 !
 realm
 )
-oom_
-(
-false
-)
 #
 endif
 assemblerCount_
@@ -920,10 +916,6 @@ realm
 ifdef
 DEBUG
 isCompilingWasm_
-(
-false
-)
-oom_
 (
 false
 )
