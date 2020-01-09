@@ -526,6 +526,11 @@ RefNull
 0xd0
 ;
 const
+PlaceholderRefFunc
+=
+0xd2
+;
+const
 FirstInvalidOpcode
 =
 0xc5
