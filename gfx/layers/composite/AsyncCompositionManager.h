@@ -1274,7 +1274,6 @@ aTransformedSubtreeRoot
 |
 aClipPartsCache
 |
-optionally
 maps
 layers
 to
@@ -1356,7 +1355,7 @@ ScreenMargin
 &
 aFixedLayerMargins
 ClipPartsCache
-*
+&
 aClipPartsCache
 )
 ;
