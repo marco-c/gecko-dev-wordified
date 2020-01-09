@@ -241,17 +241,6 @@ id
 "
 clip1
 "
-clip
--
-path
-=
-"
-url
-(
-#
-clip1
-)
-"
 >
 <
 rect
@@ -282,7 +271,7 @@ black
 "
 stroke
 -
-wdith
+width
 =
 "
 10
