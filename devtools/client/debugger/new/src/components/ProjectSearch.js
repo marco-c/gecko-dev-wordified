@@ -1563,6 +1563,11 @@ autoExpandDepth
 {
 1
 }
+autoExpandNodeChildrenLimit
+=
+{
+100
+}
 getParent
 =
 {
