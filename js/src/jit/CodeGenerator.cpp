@@ -50836,7 +50836,6 @@ reloadRegs
 =
 switchRealm
 =
-(
 callee
 .
 which
@@ -50851,14 +50850,6 @@ CalleeDesc
 :
 :
 WasmTable
-&
-&
-callee
-.
-wasmTableIsExternal
-(
-)
-)
 ;
 break
 ;

@@ -4146,9 +4146,9 @@ CompileError
 /
 table
 index
-must
-be
-zero
+out
+of
+range
 /
 )
 ;

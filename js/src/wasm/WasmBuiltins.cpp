@@ -4704,7 +4704,7 @@ TableCopy
 *
 abiType
 =
-Args_General4
+Args_General6
 ;
 return
 FuncCast
@@ -4748,7 +4748,7 @@ TableInit
 *
 abiType
 =
-Args_General5
+Args_General6
 ;
 return
 FuncCast
@@ -4770,7 +4770,7 @@ TableGet
 *
 abiType
 =
-Args_General2
+Args_General3
 ;
 return
 FuncCast
@@ -4792,7 +4792,7 @@ TableGrow
 *
 abiType
 =
-Args_General3
+Args_General4
 ;
 return
 FuncCast
@@ -4814,7 +4814,7 @@ TableSet
 *
 abiType
 =
-Args_General3
+Args_General4
 ;
 return
 FuncCast
@@ -4836,7 +4836,7 @@ TableSize
 *
 abiType
 =
-Args_General1
+Args_General2
 ;
 return
 FuncCast

@@ -1184,6 +1184,10 @@ prevMemoryBase
 void
 onMovingGrowTable
 (
+const
+Table
+*
+theTable
 )
 ;
 /
@@ -1213,6 +1217,8 @@ performed
 void
 initElems
 (
+uint32_t
+tableIndex
 const
 ElemSegment
 &
@@ -1491,6 +1497,10 @@ uint32_t
 srcOffset
 uint32_t
 len
+uint32_t
+dstTableIndex
+uint32_t
+srcTableIndex
 )
 ;
 static
@@ -1514,6 +1524,8 @@ Instance
 instance
 uint32_t
 index
+uint32_t
+tableIndex
 )
 ;
 static
@@ -1528,6 +1540,8 @@ delta
 void
 *
 initValue
+uint32_t
+tableIndex
 )
 ;
 static
@@ -1542,6 +1556,8 @@ index
 void
 *
 value
+uint32_t
+tableIndex
 )
 ;
 static
@@ -1551,6 +1567,8 @@ tableSize
 Instance
 *
 instance
+uint32_t
+tableIndex
 )
 ;
 static
@@ -1568,6 +1586,8 @@ uint32_t
 len
 uint32_t
 segIndex
+uint32_t
+tableIndex
 )
 ;
 static
