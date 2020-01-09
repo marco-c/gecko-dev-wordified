@@ -750,6 +750,9 @@ test_list
 get_browser_test_list
 (
 app
+run_local
+=
+True
 )
     
 if
@@ -991,8 +994,6 @@ create_args
 )
 :
     
-return
-#
 args
 =
 create_args
@@ -1002,7 +1003,7 @@ app
 "
 geckoview
 "
-#
+                       
 test
 =
 "
@@ -1013,8 +1014,7 @@ unity
 webgl
 "
 )
-#
-#
+    
 test_list
 =
 get_raptor_test_list
@@ -1024,7 +1024,7 @@ mozinfo
 .
 os
 )
-#
+    
 assert
 len
 (
@@ -1033,7 +1033,7 @@ test_list
 =
 =
 1
-#
+    
 assert
 test_list
 [
