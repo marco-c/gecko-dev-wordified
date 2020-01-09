@@ -280,6 +280,14 @@ name
 :
 default
 }
+or
+{
+name
+:
+lambda
+:
+default
+}
 PARAMETERS
 =
 {

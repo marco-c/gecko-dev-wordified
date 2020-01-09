@@ -335,18 +335,6 @@ root
 )
 :
     
-params
-=
-params
-or
-"
-project
-=
-mozilla
--
-central
-"
-    
 #
 Try
 to
