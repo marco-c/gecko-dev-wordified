@@ -63,6 +63,9 @@ streams
 '
 html
 '
+'
+dom
+'
 ]
 idl_array
 =
@@ -73,11 +76,13 @@ idl_array
 add_objects
 (
 {
-Navigator
+MediaDevices
 :
 [
 '
 navigator
+.
+mediaDevices
 '
 ]
 }
