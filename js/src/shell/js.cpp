@@ -5452,6 +5452,8 @@ filename
 FILE
 *
 file
+bool
+compileOnly
 )
 {
 RootedScript
@@ -5521,6 +5523,15 @@ filename
 {
 return
 false
+;
+}
+if
+(
+compileOnly
+)
+{
+return
+true
 ;
 }
 return
@@ -8212,6 +8223,7 @@ RunBinAST
 cx
 filename
 file
+compileOnly
 )
 )
 {
