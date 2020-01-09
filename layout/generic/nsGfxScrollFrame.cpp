@@ -43215,7 +43215,7 @@ nsIPresShell
 ChangeOrigin
 :
 :
-eRestore
+eMainThread
 )
 ;
 }

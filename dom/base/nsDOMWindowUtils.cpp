@@ -3252,7 +3252,7 @@ nsIPresShell
 ChangeOrigin
 :
 :
-eOther
+eMainThread
 )
 ;
 return

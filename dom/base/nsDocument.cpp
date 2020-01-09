@@ -63350,7 +63350,7 @@ nsIPresShell
 ChangeOrigin
 :
 :
-eRestore
+eMainThread
 )
 ;
 }
@@ -66208,7 +66208,7 @@ nsIPresShell
 ChangeOrigin
 :
 :
-eOther
+eMainThread
 )
 ;
 }
