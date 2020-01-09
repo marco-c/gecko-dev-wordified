@@ -15898,7 +15898,7 @@ now
 .
 I
 think
-nsDocument
+nsIDocument
 and
 friends
 should

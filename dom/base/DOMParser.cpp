@@ -1723,7 +1723,7 @@ use
 mOwner
 here
 but
-nsDocument
+nsIDocument
 gets
 confused
 /
@@ -1767,7 +1767,7 @@ is
 just
 to
 wean
-nsDocument
+nsIDocument
 /
 /
 off

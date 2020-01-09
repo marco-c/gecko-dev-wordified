@@ -5871,7 +5871,7 @@ call
 /
 /
 as
-nsDocument
+nsIDocument
 is
 in
 a

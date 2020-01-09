@@ -327,12 +327,12 @@ localization
 status
 of
 the
-nsDocument
+document
 .
 *
 *
 The
-nsDocument
+nsIDocument
 will
 initialize
 it
@@ -342,8 +342,8 @@ a
 link
 with
 a
-*
 localization
+*
 resource
 is
 added
@@ -367,7 +367,7 @@ instance
 of
 mozIDOMLocalization
 and
-maintaines
+maintains
 a
 single
 promise

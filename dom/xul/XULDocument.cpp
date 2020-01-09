@@ -1161,7 +1161,7 @@ Override
 the
 default
 in
-nsDocument
+nsIDocument
 mCharacterSet
 =
 UTF_8_ENCODING
@@ -1841,7 +1841,7 @@ this
 ever
 starts
 calling
-nsDocument
+nsIDocument
 :
 :
 StartDocumentLoad

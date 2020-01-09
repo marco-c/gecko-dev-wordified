@@ -170,7 +170,7 @@ h
 #
 include
 "
-nsDocument
+nsIDocument
 .
 h
 "
@@ -6493,7 +6493,7 @@ the
 similar
 one
 in
-nsDocument
+nsIDocument
 .
 cpp
 :

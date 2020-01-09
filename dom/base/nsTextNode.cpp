@@ -216,7 +216,7 @@ endif
 #
 include
 "
-nsDocument
+nsIDocument
 .
 h
 "

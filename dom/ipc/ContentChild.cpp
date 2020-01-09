@@ -6239,7 +6239,7 @@ document
 and
 cause
 the
-nsDocument
+nsIDocument
 /
 /
 to

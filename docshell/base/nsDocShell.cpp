@@ -14007,7 +14007,7 @@ created
 /
 /
 in
-nsDocument
+nsIDocument
 :
 :
 ResetToURI
@@ -68253,7 +68253,7 @@ documents
 do
 (
 see
-nsDocument
+nsIDocument
 :
 :
 Reset

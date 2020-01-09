@@ -336,7 +336,7 @@ one
 animation
 controller
 per
-nsDocument
+document
 so
 that
 frame

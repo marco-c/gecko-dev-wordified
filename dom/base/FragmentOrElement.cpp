@@ -546,7 +546,7 @@ h
 #
 include
 "
-nsDocument
+nsIDocument
 .
 h
 "
@@ -7714,7 +7714,7 @@ effort
 to
 avoid
 calling
-nsDocument
+nsIDocument
 :
 :
 Destroy
@@ -8402,7 +8402,7 @@ FragmentOrElement
 '
 s
 and
-nsDocument
+nsIDocument
 '
 s
 unlink
@@ -9045,7 +9045,7 @@ the
 corresponding
 code
 in
-nsDocument
+nsIDocument
 '
 s
 /

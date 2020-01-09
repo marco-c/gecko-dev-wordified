@@ -288,7 +288,7 @@ h
 #
 include
 "
-nsDocument
+nsIDocument
 .
 h
 "
@@ -526,7 +526,7 @@ mDocument
 return
 NS_CYCLE_COLLECTION_PARTICIPANT
 (
-nsDocument
+nsIDocument
 )
 -
 >
@@ -556,7 +556,7 @@ mDocument
 return
 NS_CYCLE_COLLECTION_PARTICIPANT
 (
-nsDocument
+nsIDocument
 )
 -
 >
@@ -585,7 +585,7 @@ mDocument
 return
 NS_CYCLE_COLLECTION_PARTICIPANT
 (
-nsDocument
+nsIDocument
 )
 -
 >

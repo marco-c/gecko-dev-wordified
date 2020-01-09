@@ -977,7 +977,7 @@ changed
 *
 Called
 by
-nsDocument
+nsIDocument
 so
 we
 may

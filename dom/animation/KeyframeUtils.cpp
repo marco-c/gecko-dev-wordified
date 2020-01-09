@@ -339,14 +339,14 @@ CSSPseudoElementType
 #
 include
 "
-nsDocument
+nsIDocument
 .
 h
 "
 /
 /
 For
-nsDocument
+nsIDocument
 :
 :
 AreWebAnimationsImplicitKeyframesEnabled
@@ -1806,7 +1806,7 @@ keyframes
 if
 (
 !
-nsDocument
+nsIDocument
 :
 :
 AreWebAnimationsImplicitKeyframesEnabled

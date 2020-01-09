@@ -166,7 +166,7 @@ h
 #
 include
 "
-nsDocument
+nsIDocument
 .
 h
 "
@@ -2910,7 +2910,7 @@ impls
 of
 /
 /
-nsDocument
+nsIDocument
 and
 nsHTMLFormControl
 ?
@@ -2924,7 +2924,7 @@ radio
 button
 stuff
 in
-nsDocument
+nsIDocument
 as
 /
 /

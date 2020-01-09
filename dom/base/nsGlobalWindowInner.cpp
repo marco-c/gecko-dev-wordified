@@ -12193,7 +12193,7 @@ window
 /
 /
 see
-nsDocument
+nsIDocument
 :
 :
 GetEventTargetParent

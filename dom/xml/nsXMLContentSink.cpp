@@ -1503,7 +1503,7 @@ terminated
 again
 .
 However
-nsDocument
+nsIDocument
 may
 still
 think

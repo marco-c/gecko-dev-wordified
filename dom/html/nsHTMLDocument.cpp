@@ -1260,7 +1260,7 @@ nsHTMLDocument
 (
 )
 :
-nsDocument
+nsIDocument
 (
 "
 text
@@ -1341,7 +1341,7 @@ nsHTMLDocument
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 nsHTMLDocument
-nsDocument
+nsIDocument
 mAll
 mWyciwygChannel
 mMidasCommandManager
@@ -1349,7 +1349,7 @@ mMidasCommandManager
 NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
 nsHTMLDocument
-nsDocument
+nsIDocument
 nsIHTMLDocument
 )
 JSObject
@@ -1396,7 +1396,7 @@ Init
 nsresult
 rv
 =
-nsDocument
+nsIDocument
 :
 :
 Init
@@ -1455,7 +1455,7 @@ nsILoadGroup
 aLoadGroup
 )
 {
-nsDocument
+nsIDocument
 :
 :
 Reset
@@ -1504,7 +1504,7 @@ nsIRequest
 :
 LOAD_NORMAL
 ;
-nsDocument
+nsIDocument
 :
 :
 ResetToURI
@@ -2778,7 +2778,7 @@ Encoding
 aEncoding
 )
 {
-nsDocument
+nsIDocument
 :
 :
 SetDocumentCharacterSet
@@ -3335,7 +3335,7 @@ mCompatMode
 nsresult
 rv
 =
-nsDocument
+nsIDocument
 :
 :
 StartDocumentLoad
@@ -4911,7 +4911,7 @@ removed
 "
 )
 ;
-nsDocument
+nsIDocument
 :
 :
 StopDocumentLoad
@@ -4999,7 +4999,7 @@ EditingStateChanged
 )
 ;
 }
-nsDocument
+nsIDocument
 :
 :
 BeginLoad
@@ -5037,7 +5037,7 @@ mContentEditableCount
 /
 Note
 :
-nsDocument
+nsIDocument
 :
 :
 EndLoad
@@ -5045,7 +5045,7 @@ nulls
 out
 mParser
 .
-nsDocument
+nsIDocument
 :
 :
 EndLoad
@@ -5165,7 +5165,7 @@ body
 ;
 }
 return
-nsDocument
+nsIDocument
 :
 :
 GetUnfocusedKeyEventTarget
@@ -13095,7 +13095,7 @@ mPendingMaybeEditingStateChanged
 =
 true
 ;
-nsDocument
+nsIDocument
 :
 :
 EndUpdate
@@ -19812,7 +19812,7 @@ mEditingState
 =
 eOff
 ;
-nsDocument
+nsIDocument
 :
 :
 RemovedFromDocShell
@@ -19837,7 +19837,7 @@ aWindowSizes
 )
 const
 {
-nsDocument
+nsIDocument
 :
 :
 DocAddSizeOfExcludingThis

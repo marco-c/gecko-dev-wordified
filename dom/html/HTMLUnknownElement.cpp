@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-nsDocument
+nsIDocument
 .
 h
 "

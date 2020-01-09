@@ -143,7 +143,7 @@ h
 #
 include
 "
-nsDocument
+nsIDocument
 .
 h
 "
@@ -170,7 +170,7 @@ class
 XMLDocument
 :
 public
-nsDocument
+nsIDocument
 {
 public
 :
@@ -192,7 +192,7 @@ xml
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 XMLDocument
-nsDocument
+nsIDocument
 )
 virtual
 void
@@ -414,7 +414,7 @@ thing
 on
 /
 /
-nsDocument
+nsIDocument
 )
 .
 using

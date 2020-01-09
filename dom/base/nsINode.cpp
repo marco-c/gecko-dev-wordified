@@ -433,7 +433,7 @@ h
 #
 include
 "
-nsDocument
+nsIDocument
 .
 h
 "
@@ -11126,7 +11126,7 @@ note
 in
 /
 /
-nsDocument
+nsIDocument
 :
 :
 RemoveChildNode

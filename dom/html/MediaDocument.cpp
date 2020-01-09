@@ -767,7 +767,7 @@ aSink
 nsresult
 rv
 =
-nsDocument
+nsIDocument
 :
 :
 StartDocumentLoad
@@ -1654,7 +1654,7 @@ in
 /
 /
 |
-nsDocument
+nsIDocument
 |
 '
 s

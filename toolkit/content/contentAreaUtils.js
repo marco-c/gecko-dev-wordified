@@ -1679,7 +1679,7 @@ it
 s
 an
 actual
-nsDocument
+document
 (
 and
 possibly

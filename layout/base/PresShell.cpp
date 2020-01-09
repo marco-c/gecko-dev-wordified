@@ -26084,7 +26084,7 @@ optimization
 in
 /
 /
-nsDocument
+nsIDocument
 :
 :
 FlushPendingNotifications
@@ -26230,7 +26230,7 @@ resources
 here
 instead
 of
-nsDocument
+nsIDocument
 :
 :
 FlushPendingNotifications
