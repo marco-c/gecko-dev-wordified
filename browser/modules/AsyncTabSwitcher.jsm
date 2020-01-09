@@ -2769,7 +2769,7 @@ this
 .
 tabbrowser
 .
-_isLocalAboutURI
+isLocalAboutURI
 (
 requestedBrowser
 .
