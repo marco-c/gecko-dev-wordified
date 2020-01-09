@@ -180,6 +180,12 @@ private
 "
     
 "
+dynamic
+-
+import
+"
+    
+"
 regexp
 -
 dotall
@@ -342,19 +348,6 @@ hasOwnProperty
 Segmenter
 '
 )
-"
-    
-"
-dynamic
--
-import
-"
-:
-"
-!
-xulRuntime
-.
-shell
 "
 }
 RELEASE_OR_BETA
