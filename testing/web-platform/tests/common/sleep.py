@@ -1,5 +1,7 @@
 import
 time
+import
+timeit
 #
 sleep
 can
@@ -47,9 +49,9 @@ sleep_in_ms
     
 sleep_until
 =
-time
+timeit
 .
-time
+default_timer
 (
 )
 +
@@ -87,9 +89,9 @@ again
 .
     
 while
-time
+timeit
 .
-time
+default_timer
 (
 )
 <
