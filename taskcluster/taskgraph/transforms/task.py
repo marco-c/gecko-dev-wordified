@@ -8909,6 +8909,28 @@ pattern
 :
 basestring
     
+Optional
+(
+'
+update
+-
+line
+'
+)
+:
+object
+    
+Optional
+(
+'
+suffixes
+'
+)
+:
+[
+basestring
+]
+    
 #
 list
 of
@@ -9056,6 +9078,17 @@ worker
 upstream
 -
 artifacts
+'
+]
+            
+'
+suffixes
+'
+:
+worker
+[
+'
+suffixes
 '
 ]
         
@@ -9392,6 +9425,19 @@ worker
 require
 -
 mirrors
+'
+]
+                
+'
+update_line
+'
+:
+worker
+[
+'
+update
+-
+line
 '
 ]
             
