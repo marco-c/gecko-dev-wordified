@@ -3178,7 +3178,7 @@ snapshotEvents
 (
 Telemetry
 .
-DATASET_RELEASE_CHANNEL_OPTIN
+DATASET_PRERELEASE_CHANNELS
 false
 )
 ;

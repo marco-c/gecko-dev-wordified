@@ -2548,7 +2548,7 @@ return
 nsITelemetry
 :
 :
-DATASET_RELEASE_CHANNEL_OPTOUT
+DATASET_ALL_CHANNELS
 '
         
 else
@@ -2559,7 +2559,7 @@ return
 nsITelemetry
 :
 :
-DATASET_RELEASE_CHANNEL_OPTIN
+DATASET_PRERELEASE_CHANNELS
 '
     
 property

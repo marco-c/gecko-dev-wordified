@@ -75,22 +75,22 @@ jsm
 )
 ;
 const
-OPTIN
+PRERELEASE_CHANNELS
 =
 Ci
 .
 nsITelemetry
 .
-DATASET_RELEASE_CHANNEL_OPTIN
+DATASET_PRERELEASE_CHANNELS
 ;
 const
-OPTOUT
+ALL_CHANNELS
 =
 Ci
 .
 nsITelemetry
 .
-DATASET_RELEASE_CHANNEL_OPTOUT
+DATASET_ALL_CHANNELS
 ;
 function
 checkEventFormat
@@ -2444,7 +2444,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 false
 )
 ;
@@ -2494,7 +2494,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTOUT
+ALL_CHANNELS
 false
 )
 ;
@@ -2647,7 +2647,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 true
 )
 ;
@@ -2712,7 +2712,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 false
 )
 ;
@@ -2796,7 +2796,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 true
 5
 )
@@ -2848,7 +2848,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 false
 )
 ;
@@ -2928,7 +2928,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 false
 5
 )
@@ -2980,7 +2980,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 true
 )
 ;
@@ -3104,7 +3104,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 true
 )
 ;
@@ -3224,7 +3224,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 true
 )
 ;
@@ -3306,7 +3306,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 true
 )
 ;
@@ -3392,7 +3392,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 true
 )
 ;
@@ -3476,7 +3476,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 true
 )
 ;
@@ -3656,7 +3656,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 true
 )
 ;
@@ -4674,7 +4674,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 false
 )
 ;
@@ -4938,7 +4938,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTOUT
+ALL_CHANNELS
 false
 )
 ;
@@ -5118,7 +5118,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 true
 )
 ;
@@ -5193,7 +5193,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 true
 )
 ;
@@ -5329,7 +5329,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 true
 )
 ;
@@ -6682,7 +6682,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 true
 )
 ;
@@ -6778,7 +6778,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 true
 )
 ;
@@ -6926,7 +6926,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 true
 )
 ;
@@ -7093,7 +7093,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 true
 )
 ;
@@ -7214,7 +7214,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 true
 )
 ;
@@ -7401,7 +7401,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 true
 )
 .
@@ -7642,7 +7642,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 true
 )
 .

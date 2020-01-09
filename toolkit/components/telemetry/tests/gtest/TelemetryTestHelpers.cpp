@@ -2166,7 +2166,7 @@ SnapshotEvents
 1
 /
 *
-OPTIN
+PRERELEASE_CHANNELS
 *
 /
 false

@@ -268,7 +268,7 @@ dataset
 nsITelemetry
 :
 :
-DATASET_RELEASE_CHANNEL_OPTOUT
+DATASET_ALL_CHANNELS
 "
 )
     
