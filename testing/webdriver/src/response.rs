@@ -1093,7 +1093,7 @@ Date
 secure
 :
 true
-httpOnly
+http_only
 :
 false
 }
@@ -1222,7 +1222,7 @@ None
 secure
 :
 true
-httpOnly
+http_only
 :
 false
 }
@@ -1356,7 +1356,7 @@ None
 secure
 :
 true
-httpOnly
+http_only
 :
 false
 }
