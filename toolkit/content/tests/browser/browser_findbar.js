@@ -64,7 +64,7 @@ to
 bypass
 E10SUtils
 .
-canLoadURIInRemoteType
+canLoadURIInProcess
 because
 /
 /
