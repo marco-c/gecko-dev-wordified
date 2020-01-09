@@ -402,10 +402,9 @@ unwrapped
 js
 :
 :
-CheckedUnwrapDynamic
+CheckedUnwrap
 (
 obj
-cx
 /
 *
 stopAtWindowProxy
@@ -430,12 +429,10 @@ unwrapped
 ;
 }
 else
-{
 mReturnRawObject
 =
 false
 ;
-}
 }
 XPCTraceableVariant
 :

@@ -4129,10 +4129,9 @@ proto
 js
 :
 :
-CheckedUnwrapDynamic
+CheckedUnwrap
 (
 proto
-cx
 /
 *
 stopAtWindowProxy
