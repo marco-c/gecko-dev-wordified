@@ -2478,6 +2478,29 @@ s
 api_level
 ]
             
+#
+Our
+flags
+go
+last
+to
+override
+any
+-
+-
+gcc
+-
+toolchain
+that
+may
+have
+            
+#
+been
+set
+earlier
+.
+            
 rt_c_flags
 =
 "
@@ -2485,13 +2508,13 @@ rt_c_flags
 .
 join
 (
-android_flags
-+
 cc
 [
 1
 :
 ]
++
+android_flags
 )
             
 rt_cxx_flags
@@ -2501,13 +2524,13 @@ rt_cxx_flags
 .
 join
 (
-android_flags
-+
 cxx
 [
 1
 :
 ]
++
+android_flags
 )
             
 rt_asm_flags
@@ -2517,13 +2540,13 @@ rt_asm_flags
 .
 join
 (
-android_flags
-+
 asm
 [
 1
 :
 ]
++
+android_flags
 )
             
 cmake_args
