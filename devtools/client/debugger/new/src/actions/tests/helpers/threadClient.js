@@ -244,12 +244,12 @@ Promise
 resolve
 (
 )
-setBreakpointCondition
+setBreakpointOptions
 :
 (
 _id
 _location
-_condition
+_options
 _noSliding
 )
 =

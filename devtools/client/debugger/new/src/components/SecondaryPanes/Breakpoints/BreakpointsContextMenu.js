@@ -188,12 +188,12 @@ typeof
 actions
 .
 selectSpecificLocation
-setBreakpointCondition
+setBreakpointOptions
 :
 typeof
 actions
 .
-setBreakpointCondition
+setBreakpointOptions
 openConditionalPanel
 :
 typeof
@@ -230,7 +230,7 @@ toggleBreakpoints
 toggleAllBreakpoints
 toggleDisabledBreakpoint
 selectSpecificLocation
-setBreakpointCondition
+setBreakpointOptions
 openConditionalPanel
 contextMenuEvent
 }
@@ -1102,9 +1102,11 @@ click
 )
 =
 >
-setBreakpointCondition
+setBreakpointOptions
 (
 selectedLocation
+{
+}
 )
 }
 ;
@@ -1424,6 +1426,8 @@ hidden
 >
 breakpoint
 .
+options
+.
 condition
 }
 {
@@ -1439,6 +1443,8 @@ hidden
 !
 breakpoint
 .
+options
+.
 condition
 }
 {
@@ -1453,6 +1459,8 @@ hidden
 >
 !
 breakpoint
+.
+options
 .
 condition
 }

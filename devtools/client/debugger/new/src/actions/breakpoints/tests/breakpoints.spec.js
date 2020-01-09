@@ -2285,6 +2285,8 @@ getState
 loc
 )
 .
+options
+.
 condition
 )
 .
@@ -2298,7 +2300,7 @@ dispatch
 (
 actions
 .
-setBreakpointCondition
+setBreakpointOptions
 (
 loc
 {
@@ -2333,6 +2335,8 @@ getState
 )
 loc
 )
+.
+options
 .
 condition
 )
@@ -2463,6 +2467,8 @@ getState
 loc
 )
 .
+options
+.
 condition
 )
 .
@@ -2476,7 +2482,7 @@ dispatch
 (
 actions
 .
-setBreakpointCondition
+setBreakpointOptions
 (
 loc
 {
@@ -2528,6 +2534,8 @@ false
 expect
 (
 newBreakpoint
+.
+options
 .
 condition
 )

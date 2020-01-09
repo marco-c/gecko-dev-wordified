@@ -278,6 +278,10 @@ breakpoint
 :
 {
 location
+options
+:
+{
+}
 }
 }
 )
@@ -463,6 +467,10 @@ generatedLocation
 disabled
 :
 false
+options
+:
+{
+}
 .
 .
 .

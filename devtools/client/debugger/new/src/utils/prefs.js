@@ -111,7 +111,7 @@ prefsSchemaVersion
 .
 0
 .
-5
+6
 "
 ;
 const

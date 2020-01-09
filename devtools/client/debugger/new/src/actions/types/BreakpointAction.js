@@ -292,7 +292,7 @@ done
 type
 :
 "
-SET_BREAKPOINT_CONDITION
+SET_BREAKPOINT_OPTIONS
 "
 +
 breakpoint
