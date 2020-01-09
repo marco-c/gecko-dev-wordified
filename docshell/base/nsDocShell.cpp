@@ -59924,6 +59924,16 @@ not
 "
 )
 ;
+if
+(
+StaticPrefs
+:
+:
+dom_block_external_protocol_in_iframes
+(
+)
+)
+{
 /
 /
 Only
@@ -59984,9 +59994,9 @@ s
 check
 if
 the
+/
+/
 page
-/
-/
 is
 allowed
 to
@@ -59997,6 +60007,8 @@ abuse
 regardless
 of
 allowed
+/
+/
 events
 if
 (
@@ -60076,6 +60088,7 @@ popupBlocked
 return
 NS_ERROR_UNKNOWN_PROTOCOL
 ;
+}
 }
 }
 /
