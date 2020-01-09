@@ -27160,6 +27160,7 @@ uint8_t
 DisplayWidthHeight
 Specified
 Unknown
+Empty
 }
 ;
 ViewportType
