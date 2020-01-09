@@ -2676,6 +2676,9 @@ load_tasks_for_kind
 (
 parameters
 kind
+root_dir
+=
+None
 )
 :
     
@@ -2716,7 +2719,7 @@ TaskGraphGenerator
 (
 root_dir
 =
-None
+root_dir
 parameters
 =
 parameters
