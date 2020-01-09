@@ -209,11 +209,6 @@ _
 NewObject_Fallback
 )
 \
-_
-(
-NewObject_WithTemplate
-)
-\
 \
 _
 (
