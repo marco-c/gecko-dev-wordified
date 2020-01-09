@@ -169,12 +169,9 @@ True
     
 unpack
 (
-sys
+options
 .
-argv
-[
-1
-]
+directory
 options
 .
 omnijar
