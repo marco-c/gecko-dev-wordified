@@ -58,9 +58,17 @@ readProfilesIni
 (
 )
 ;
+let
+installData
+=
+readInstallsIni
+(
+)
+;
 checkProfileService
 (
 profileData
+installData
 )
 ;
 Assert
@@ -299,7 +307,7 @@ Assert
 .
 ok
 (
-profileData
+installData
 .
 installs
 [
