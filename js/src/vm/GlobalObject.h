@@ -729,7 +729,6 @@ MOZ_ASSERT
 (
 key
 <
-=
 JSProto_LIMIT
 )
 ;
@@ -751,7 +750,6 @@ MOZ_ASSERT
 (
 key
 <
-=
 JSProto_LIMIT
 )
 ;
