@@ -60,6 +60,8 @@ absolute_import
 import
 argparse
 import
+io
+import
 os
 from
 six
@@ -477,9 +479,11 @@ in
 archive_list
 :
                 
-self
+fp
+=
+io
 .
-_parse_ini_file
+TextIOWrapper
 (
 archive
 .
@@ -487,8 +491,14 @@ open
 (
 filename
 )
+)
+                
+self
+.
+_parse_ini_file
+(
+fp
 type
-                                     
 section
 )
             
@@ -524,17 +534,12 @@ in
 archive_list
 :
             
-self
-.
-_info
-[
-"
-package_name
-"
-]
+fp
 =
-\
-                
+io
+.
+TextIOWrapper
+(
 archive
 .
 open
@@ -547,6 +552,18 @@ name
 txt
 "
 )
+)
+            
+self
+.
+_info
+[
+"
+package_name
+"
+]
+=
+fp
 .
 readlines
 (
