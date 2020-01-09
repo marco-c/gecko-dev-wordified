@@ -183,6 +183,16 @@ PHttpChannelChild
 *
 AllocPHttpChannelChild
 (
+const
+PBrowserOrId
+&
+const
+SerializedLoadContext
+&
+const
+HttpChannelCreationArgs
+&
+aOpenArgs
 )
 override
 ;
