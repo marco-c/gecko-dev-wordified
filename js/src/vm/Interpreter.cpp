@@ -24026,7 +24026,7 @@ toObject
 if
 (
 !
-InitGetterSetterOperation
+InitPropGetterSetterOperation
 (
 cx
 REGS
@@ -24148,7 +24148,7 @@ toObject
 if
 (
 !
-InitGetterSetterOperation
+InitElemGetterSetterOperation
 (
 cx
 REGS
@@ -31598,10 +31598,8 @@ initprop
 )
 ;
 }
+static
 bool
-js
-:
-:
 InitGetterSetterOperation
 (
 JSContext
@@ -31747,7 +31745,7 @@ bool
 js
 :
 :
-InitGetterSetterOperation
+InitPropGetterSetterOperation
 (
 JSContext
 *
@@ -31788,7 +31786,7 @@ bool
 js
 :
 :
-InitGetterSetterOperation
+InitElemGetterSetterOperation
 (
 JSContext
 *
