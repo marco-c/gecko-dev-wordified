@@ -399,6 +399,11 @@ serviceContainer
 onViewSource
 :
 null
+onViewSource
+:
+serviceContainer
+.
+onViewSource
 sourceMapService
 :
 serviceContainer

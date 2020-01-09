@@ -361,6 +361,13 @@ Scratchpad
 const
 anchor
 =
+await
+waitFor
+(
+(
+)
+=
+>
 message
 .
 querySelector
@@ -371,6 +378,7 @@ stacktrace
 .
 frame
 "
+)
 )
 ;
 const
