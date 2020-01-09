@@ -1866,11 +1866,6 @@ icScript
 purgeOptimizedStubs
 (
 script
--
->
-zone
-(
-)
 )
 ;
 }
