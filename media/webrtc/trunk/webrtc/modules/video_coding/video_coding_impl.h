@@ -983,13 +983,6 @@ bool
 enable
 )
 ;
-void
-SetCPULoadState
-(
-CPULoadState
-state
-)
-;
 int64_t
 TimeUntilNextProcess
 (
