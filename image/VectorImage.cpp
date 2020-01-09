@@ -8787,6 +8787,8 @@ this
 ;
 NS_DispatchToMainThread
 (
+CreateMediumHighRunnable
+(
 NS_NewRunnableFunction
 (
 "
@@ -8835,6 +8837,7 @@ GetMaxSizedIntRect
 ;
 }
 }
+)
 )
 )
 ;
@@ -11279,10 +11282,13 @@ eventTarget
 >
 Dispatch
 (
+CreateMediumHighRunnable
+(
 ev
 .
 forget
 (
+)
 )
 NS_DISPATCH_NORMAL
 )
