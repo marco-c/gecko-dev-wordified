@@ -21078,6 +21078,8 @@ promise
 >
 MaybeResolve
 (
+NS_ConvertUTF8toUTF16
+(
 doc
 -
 >
@@ -21088,6 +21090,7 @@ GetContentBlockingLog
 >
 Stringify
 (
+)
 )
 )
 ;

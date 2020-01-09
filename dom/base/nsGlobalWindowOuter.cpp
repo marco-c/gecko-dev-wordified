@@ -32506,13 +32506,13 @@ GetState
 state
 )
 ;
-nsAutoString
+nsAutoCString
 origin
 ;
 nsContentUtils
 :
 :
-GetUTFOrigin
+GetASCIIOrigin
 (
 aURIHint
 origin

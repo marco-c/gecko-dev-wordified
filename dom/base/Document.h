@@ -5765,7 +5765,7 @@ SetHasTrackingContentBlocked
 bool
 aHasTrackingContentBlocked
 const
-nsAString
+nsACString
 &
 aOriginBlocked
 )
@@ -5803,7 +5803,7 @@ SetHasAllCookiesBlocked
 bool
 aHasAllCookiesBlocked
 const
-nsAString
+nsACString
 &
 aOriginBlocked
 )
@@ -5841,7 +5841,7 @@ SetHasTrackingCookiesBlocked
 bool
 aHasTrackingCookiesBlocked
 const
-nsAString
+nsACString
 &
 aOriginBlocked
 )
@@ -5881,7 +5881,7 @@ SetHasForeignCookiesBlocked
 bool
 aHasForeignCookiesBlocked
 const
-nsAString
+nsACString
 &
 aOriginBlocked
 )
@@ -5921,7 +5921,7 @@ SetHasCookiesBlockedByPermission
 bool
 aHasCookiesBlockedByPermission
 const
-nsAString
+nsACString
 &
 aOriginBlocked
 )
@@ -5958,7 +5958,7 @@ SetHasCookiesLoaded
 bool
 aHasCookiesLoaded
 const
-nsAString
+nsACString
 &
 aOriginLoaded
 )
@@ -6059,7 +6059,7 @@ SetHasTrackingContentLoaded
 bool
 aHasTrackingContentLoaded
 const
-nsAString
+nsACString
 &
 aOriginBlocked
 )
@@ -22200,7 +22200,7 @@ void
 RecordContentBlockingLog
 (
 const
-nsAString
+nsACString
 &
 aOrigin
 uint32_t

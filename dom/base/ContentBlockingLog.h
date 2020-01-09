@@ -262,7 +262,7 @@ nsTArray
 <
 Tuple
 <
-nsString
+nsCString
 UniquePtr
 <
 OriginData
@@ -277,7 +277,7 @@ StringWriteFunc
 public
 JSONWriteFunc
 {
-nsAString
+nsACString
 &
 mBuffer
 ;
@@ -297,7 +297,7 @@ buffer
 explicit
 StringWriteFunc
 (
-nsAString
+nsACString
 &
 aBuffer
 )
@@ -322,10 +322,7 @@ mBuffer
 .
 Append
 (
-NS_ConvertUTF8toUTF16
-(
 aStr
-)
 )
 ;
 }
@@ -388,7 +385,7 @@ elem_type
 &
 aLeft
 const
-nsAString
+nsACString
 &
 aRight
 )
@@ -430,7 +427,7 @@ void
 RecordLog
 (
 const
-nsAString
+nsACString
 &
 aOrigin
 uint32_t
@@ -842,7 +839,7 @@ aBlocked
 )
 ;
 }
-nsAutoString
+nsAutoCString
 origin
 (
 aOrigin
@@ -854,7 +851,7 @@ AppendElement
 (
 Tuple
 <
-nsString
+nsCString
 UniquePtr
 <
 OriginData
@@ -880,12 +877,12 @@ data
 ;
 }
 }
-nsAutoString
+nsAutoCString
 Stringify
 (
 )
 {
-nsAutoString
+nsAutoCString
 buffer
 ;
 JSONWriter
@@ -954,8 +951,6 @@ w
 .
 StartArrayProperty
 (
-NS_ConvertUTF16toUTF8
-(
 Get
 <
 0
@@ -963,7 +958,6 @@ Get
 (
 *
 iter
-)
 )
 .
 get
@@ -987,8 +981,6 @@ w
 .
 StartArrayProperty
 (
-NS_ConvertUTF16toUTF8
-(
 Get
 <
 0
@@ -996,7 +988,6 @@ Get
 (
 *
 iter
-)
 )
 .
 get
