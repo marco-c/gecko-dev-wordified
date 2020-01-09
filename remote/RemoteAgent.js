@@ -474,9 +474,6 @@ linkedBrowser
 )
 ;
 }
-/
-/
-nsIRemoteAgent
 get
 listening
 (
@@ -1239,9 +1236,6 @@ generateQI
 Ci
 .
 nsICommandLineHandler
-Ci
-.
-nsIRemoteAgent
 ]
 )
 ;
