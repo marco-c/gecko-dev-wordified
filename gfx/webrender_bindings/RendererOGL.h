@@ -607,6 +607,14 @@ WrExternalImageId
 aExternalImageId
 )
 ;
+void
+AccumulateMemoryReport
+(
+MemoryReport
+*
+aReport
+)
+;
 wr
 :
 :
