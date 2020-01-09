@@ -306,6 +306,8 @@ cx
 ;
 bool
 growUp
+=
+false
 ;
 CHECK
 (
