@@ -165,7 +165,7 @@ mozilla
 /
 layers
 /
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 .
 h
 "
@@ -1373,12 +1373,12 @@ CompositorBridgeOptions
 TContentCompositorOptions
 :
 {
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 *
 bridge
 =
 new
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 (
 this
 )

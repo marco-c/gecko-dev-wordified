@@ -611,7 +611,7 @@ class
 PAPZParent
 ;
 class
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 ;
 class
 CompositorThreadHolder
@@ -2257,7 +2257,7 @@ does
 /
 /
 see
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 RecvRequestNotifyAfterRemotePaint
@@ -3135,7 +3135,7 @@ mWrBridge
 Pointer
 to
 the
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 .
 Used
 by
@@ -3157,7 +3157,7 @@ holds
 /
 the
 PCompositorBridgeChild
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 *
 mCrossProcessParent
 ;
@@ -3670,7 +3670,7 @@ mApzcTreeManager
 to
 /
 /
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 .
 void
 AllocateAPZCTreeManagerParent

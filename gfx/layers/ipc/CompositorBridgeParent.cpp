@@ -676,7 +676,7 @@ mozilla
 /
 layers
 /
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 .
 h
 "
@@ -10254,7 +10254,7 @@ false
 ;
 RefPtr
 <
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 >
 cpcp
 ;
@@ -12995,7 +12995,7 @@ mParent
 this
 )
 {
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 *
 cpcp
 =
@@ -13089,7 +13089,7 @@ lts
 mCrossProcessParent
 )
 {
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 *
 cpcp
 =

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_layers_CrossProcessCompositorBridgeParent_h
+mozilla_layers_ContentCompositorBridgeParent_h
 #
 define
-mozilla_layers_CrossProcessCompositorBridgeParent_h
+mozilla_layers_ContentCompositorBridgeParent_h
 #
 include
 "
@@ -223,7 +223,7 @@ with
 *
 /
 class
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 final
 :
 public
@@ -236,7 +236,7 @@ CompositorBridgeParent
 public
 :
 explicit
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 (
 CompositorManagerParent
 *
@@ -1230,7 +1230,7 @@ Release
 :
 virtual
 ~
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 (
 )
 ;
@@ -1288,7 +1288,7 @@ ActorDestroy
 .
 RefPtr
 <
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 >
 mSelfRef
 ;
@@ -1332,4 +1332,4 @@ mozilla
 endif
 /
 /
-mozilla_layers_CrossProcessCompositorBridgeParent_h
+mozilla_layers_ContentCompositorBridgeParent_h
