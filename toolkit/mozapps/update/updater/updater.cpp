@@ -16662,6 +16662,9 @@ gUserToken
 =
 nullptr
 ;
+#
+ifndef
+DISABLE_USER_IMPERSONATION
 if
 (
 sUsingService
@@ -16841,6 +16844,11 @@ updater
 .
 }
 }
+#
+endif
+/
+/
+DISABLE_USER_IMPERSONATION
 #
 endif
 #
