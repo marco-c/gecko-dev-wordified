@@ -3516,11 +3516,7 @@ const
 stream
 =
 await
-navigator
-.
-mediaDevices
-.
-getUserMedia
+getNoiseStream
 (
 constraints
 )
