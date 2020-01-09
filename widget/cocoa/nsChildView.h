@@ -3973,9 +3973,6 @@ InputContext
 mInputContext
 ;
 NSView
-<
-mozView
->
 *
 mParentView
 ;
