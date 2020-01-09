@@ -1039,6 +1039,9 @@ moduleMetadataHook
 moduleDynamicImportHook
 (
 )
+scriptPrivateFinalizeHook
+(
+)
 {
 JS_COUNT_CTOR
 (
