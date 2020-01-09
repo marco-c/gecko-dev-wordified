@@ -328,6 +328,9 @@ DOMRect
 {
 /
 /
+FlowIgnore
+/
+/
 We
 need
 to
@@ -357,9 +360,6 @@ const
 elementsAtPoint
 =
 [
-/
-/
-FlowIgnore
 .
 .
 .
