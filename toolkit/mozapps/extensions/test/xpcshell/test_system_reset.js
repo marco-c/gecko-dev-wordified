@@ -622,7 +622,7 @@ addon
 permissions
 AddonManager
 .
-PERM_CAN_UNINSTALL
+PERM_API_CAN_UNINSTALL
 )
 )
 ;
@@ -641,7 +641,7 @@ addon
 permissions
 AddonManager
 .
-PERM_CAN_UNINSTALL
+PERM_API_CAN_UNINSTALL
 )
 )
 ;
