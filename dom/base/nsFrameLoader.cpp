@@ -3674,6 +3674,12 @@ aHandler
 ;
 }
 }
+#
+if
+defined
+(
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
+)
 static
 bool
 CheckDocShellType
@@ -3804,6 +3810,14 @@ ItemType
 )
 ;
 }
+#
+endif
+/
+/
+defined
+(
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
+)
 /
 *
 *
