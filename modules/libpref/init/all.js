@@ -2427,7 +2427,6 @@ df
 live
 .
 com
-.
 *
 .
 officeapps
