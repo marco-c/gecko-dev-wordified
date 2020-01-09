@@ -14651,17 +14651,6 @@ IsVoid
 )
 )
 ;
-RefPtr
-<
-TextEditor
->
-textEditor
-;
-/
-/
-See
-bug
-1506439
 DebugOnly
 <
 nsresult
@@ -14678,7 +14667,7 @@ EditorInputType
 :
 :
 eInsertReplacementText
-textEditor
+nullptr
 nsContentUtils
 :
 :
