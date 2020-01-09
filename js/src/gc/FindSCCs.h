@@ -786,7 +786,7 @@ Undefined
 0
 ;
 /
-*
+/
 Constant
 used
 to
@@ -800,10 +800,10 @@ no
 longer
 on
 the
+/
+/
 stack
 .
-*
-/
 static
 const
 unsigned

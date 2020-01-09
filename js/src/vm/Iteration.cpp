@@ -1442,7 +1442,7 @@ true
 else
 {
 /
-*
+/
 Collect
 any
 dense
@@ -1451,8 +1451,6 @@ from
 this
 object
 .
-*
-/
 size_t
 firstElemIndex
 =
@@ -1528,7 +1526,7 @@ true
 else
 {
 /
-*
+/
 Dense
 arrays
 never
@@ -1542,11 +1540,11 @@ not
 fit
 into
 an
+/
+/
 integer
 id
 .
-*
-/
 if
 (
 !
@@ -1581,7 +1579,7 @@ false
 }
 }
 /
-*
+/
 Collect
 any
 typed
@@ -1593,10 +1591,10 @@ array
 elements
 from
 this
+/
+/
 object
 .
-*
-/
 if
 (
 pobj
@@ -4038,7 +4036,7 @@ ni
 )
 {
 /
-*
+/
 Register
 non
 -
@@ -4053,10 +4051,10 @@ in
 with
 the
 current
+/
+/
 context
 .
-*
-/
 ni
 -
 >

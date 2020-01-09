@@ -8173,7 +8173,7 @@ length
 )
 ;
 /
-*
+/
 Only
 called
 by
@@ -8187,10 +8187,10 @@ AllocKind
 :
 :
 FAT_INLINE_STRING
+/
+/
 kind
 .
-*
-/
 MOZ_ALWAYS_INLINE
 void
 finalize
@@ -8341,8 +8341,7 @@ externalFinalizer
 ;
 }
 /
-*
-*
+/
 External
 chars
 are
@@ -8356,7 +8355,8 @@ nursery
 so
 we
 can
-*
+/
+/
 safely
 expose
 this
@@ -8366,8 +8366,6 @@ an
 AutoCheckCannotGC
 argument
 .
-*
-/
 const
 char16_t
 *
@@ -8383,7 +8381,7 @@ rawTwoByteChars
 ;
 }
 /
-*
+/
 Only
 called
 by
@@ -8397,10 +8395,10 @@ AllocKind
 :
 :
 EXTERNAL_STRING
+/
+/
 kind
 .
-*
-/
 inline
 void
 finalize
@@ -8414,8 +8412,7 @@ fop
 )
 ;
 /
-*
-*
+/
 Free
 the
 external
@@ -8429,7 +8426,8 @@ converting
 this
 to
 a
-*
+/
+/
 flat
 string
 (
@@ -8442,12 +8440,11 @@ AllocKind
 :
 :
 EXTERNAL_STRING
-*
+/
+/
 arena
 )
 .
-*
-/
 JSFlatString
 *
 ensureFlat

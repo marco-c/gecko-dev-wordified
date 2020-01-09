@@ -247,7 +247,7 @@ rval
 )
 ;
 /
-*
+/
 Translation
 from
 MatchPairs
@@ -264,8 +264,6 @@ s
 output
 format
 .
-*
-/
 MOZ_MUST_USE
 bool
 CreateRegExpMatchResult

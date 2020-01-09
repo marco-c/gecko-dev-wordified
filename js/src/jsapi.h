@@ -11755,6 +11755,7 @@ proto
 /
 *
 *
+*
 Creates
 a
 new
@@ -11770,6 +11771,7 @@ Object
 .
 prototype
 as
+*
 [
 [
 Prototype

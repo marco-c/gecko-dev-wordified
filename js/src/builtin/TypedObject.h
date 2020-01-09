@@ -5478,7 +5478,7 @@ vp
 )
 ;
 /
-*
+/
 Predicates
 on
 type
@@ -5495,10 +5495,10 @@ must
 be
 a
 type
+/
+/
 descriptor
 .
-*
-/
 MOZ_MUST_USE
 bool
 TypeDescrIsSimpleType

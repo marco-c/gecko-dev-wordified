@@ -1349,7 +1349,7 @@ compact
 ;
 }
 /
-*
+/
 memberOf
 can
 be
@@ -1364,10 +1364,10 @@ not
 part
 of
 a
+/
+/
 JSObject
 .
-*
-/
 void
 traceMappings
 (

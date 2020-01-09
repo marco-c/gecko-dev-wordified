@@ -312,7 +312,7 @@ boxed
 arrays
 .
 /
-*
+/
 Create
 a
 dense
@@ -326,8 +326,6 @@ set
 to
 0
 .
-*
-/
 extern
 ArrayObject
 *
@@ -348,8 +346,7 @@ GenericObject
 )
 ;
 /
-*
-*
+/
 Create
 a
 dense
@@ -364,7 +361,8 @@ allocating
 space
 for
 the
-*
+/
+/
 contents
 .
 This
@@ -381,8 +379,6 @@ from
 the
 user
 .
-*
-/
 extern
 ArrayObject
 *
@@ -405,8 +401,7 @@ GenericObject
 )
 ;
 /
-*
-*
+/
 Create
 a
 dense
@@ -422,10 +417,11 @@ length
 |
 initialized
 length
+/
+/
 set
 to
 0
-*
 but
 with
 only
@@ -435,8 +431,6 @@ EagerAllocationMaxLength
 elements
 allocated
 .
-*
-/
 extern
 ArrayObject
 *
@@ -459,7 +453,7 @@ GenericObject
 )
 ;
 /
-*
+/
 Create
 a
 dense
@@ -475,12 +469,12 @@ length
 '
 initialized
 length
+/
+/
 set
 to
 0
 .
-*
-/
 extern
 ArrayObject
 *
@@ -503,7 +497,7 @@ GenericObject
 )
 ;
 /
-*
+/
 Create
 a
 dense
@@ -517,8 +511,7 @@ which
 must
 be
 rooted
-*
-/
+.
 extern
 ArrayObject
 *
@@ -544,7 +537,7 @@ GenericObject
 )
 ;
 /
-*
+/
 Create
 a
 dense
@@ -557,8 +550,6 @@ the
 given
 length
 .
-*
-/
 extern
 ArrayObject
 *
@@ -575,7 +566,7 @@ templateObject
 )
 ;
 /
-*
+/
 Create
 a
 dense
@@ -593,8 +584,6 @@ as
 another
 object
 .
-*
-/
 extern
 ArrayObject
 *

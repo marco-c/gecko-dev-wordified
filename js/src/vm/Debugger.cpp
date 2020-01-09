@@ -59971,7 +59971,7 @@ true
 ;
 }
 /
-*
+/
 The
 getter
 used
@@ -59983,11 +59983,11 @@ frame
 .
 arguments
 .
+/
+/
 See
 DebuggerFrame_getArguments
 .
-*
-/
 static
 bool
 DebuggerArguments_getArg

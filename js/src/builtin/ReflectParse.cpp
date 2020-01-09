@@ -2677,7 +2677,7 @@ false
 ;
 }
 /
-*
+/
 Represent
 "
 no
@@ -2693,10 +2693,10 @@ not
 exposed
 to
 magic
+/
+/
 values
 .
-*
-/
 RootedValue
 optVal
 (
@@ -21245,7 +21245,7 @@ cx
 )
 ;
 /
-*
+/
 We
 aren
 '
@@ -21264,10 +21264,10 @@ we
 ll
 check
 each
+/
+/
 append
 .
-*
-/
 for
 (
 ParseNode

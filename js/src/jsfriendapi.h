@@ -15420,7 +15420,7 @@ id
 ;
 }
 /
-*
+/
 All
 strings
 stored
@@ -15433,10 +15433,10 @@ are
 not
 necessarily
 property
+/
+/
 names
 .
-*
-/
 static
 MOZ_ALWAYS_INLINE
 bool

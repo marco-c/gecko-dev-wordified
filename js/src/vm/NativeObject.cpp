@@ -17325,7 +17325,7 @@ get
 ;
 }
 /
-*
+/
 The
 NoGC
 version
@@ -17337,10 +17337,10 @@ to
 make
 types
 line
+/
+/
 up
 .
-*
-/
 bool
 GetNonexistentProperty
 (

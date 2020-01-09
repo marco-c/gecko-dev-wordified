@@ -295,7 +295,7 @@ rval
 )
 ;
 /
-*
+/
 String
 methods
 exposed
@@ -311,8 +311,6 @@ self
 hosting
 global
 .
-*
-/
 extern
 bool
 str_includes

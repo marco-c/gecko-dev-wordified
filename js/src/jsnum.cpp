@@ -7927,8 +7927,7 @@ nullptr
 ;
 }
 /
-*
-*
+/
 Our
 NaN
 must
@@ -7942,7 +7941,8 @@ we
 rely
 on
 NaN
-*
+/
+/
 encoding
 for
 our
@@ -7954,8 +7954,6 @@ Value
 .
 h
 .
-*
-/
 static
 const
 JSConstDoubleSpec
@@ -8114,7 +8112,7 @@ on
 }
 ;
 /
-*
+/
 Add
 numeric
 constants
@@ -8130,8 +8128,6 @@ the
 Number
 constructor
 .
-*
-/
 if
 (
 !
@@ -8195,7 +8191,7 @@ nullptr
 ;
 }
 /
-*
+/
 Number
 .
 parseInt
@@ -8209,8 +8205,6 @@ as
 global
 parseInt
 .
-*
-/
 RootedId
 parseIntId
 (
@@ -8281,7 +8275,7 @@ nullptr
 ;
 }
 /
-*
+/
 Number
 .
 parseFloat
@@ -8293,10 +8287,10 @@ function
 object
 as
 global
+/
+/
 parseFloat
 .
-*
-/
 RootedId
 parseFloatId
 (
@@ -8397,7 +8391,7 @@ positiveInfinityValue
 )
 ;
 /
-*
+/
 ES5
 15
 .
@@ -8413,8 +8407,6 @@ ES5
 1
 .
 2
-*
-/
 if
 (
 !

@@ -16568,7 +16568,7 @@ obj
 )
 ;
 /
-*
+/
 Assume
 that
 non
@@ -16582,10 +16582,10 @@ deep
 frozen
 to
 avoid
+/
+/
 divergence
 .
-*
-/
 bool
 extensible
 ;
@@ -16630,7 +16630,7 @@ false
 ;
 }
 /
-*
+/
 Walk
 slots
 in
@@ -16648,8 +16648,6 @@ object
 seal
 it
 .
-*
-/
 if
 (
 obj

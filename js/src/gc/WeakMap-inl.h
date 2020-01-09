@@ -1870,7 +1870,7 @@ assertEntriesNotAboutToBeFinalized
 endif
 }
 /
-*
+/
 memberOf
 can
 be
@@ -1887,8 +1887,6 @@ of
 a
 JSObject
 .
-*
-/
 template
 <
 class

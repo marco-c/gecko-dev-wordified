@@ -5616,7 +5616,7 @@ jitStackLimitNoInterrupt
 ;
 }
 /
-*
+/
 Futex
 state
 used
@@ -5635,9 +5635,10 @@ wake
 on
 the
 Atomics
-object
-*
 /
+/
+object
+.
 js
 :
 :

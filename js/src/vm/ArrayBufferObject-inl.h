@@ -115,7 +115,7 @@ vm_ArrayBufferObject_inl_h
 define
 vm_ArrayBufferObject_inl_h
 /
-*
+/
 Utilities
 and
 common
@@ -124,9 +124,10 @@ code
 for
 ArrayBufferObject
 and
-SharedArrayBufferObject
-*
 /
+/
+SharedArrayBufferObject
+.
 #
 include
 "

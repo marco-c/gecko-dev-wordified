@@ -1362,7 +1362,7 @@ pentry
 ]
 ;
 /
-*
+/
 N
 .
 B
@@ -1379,11 +1379,11 @@ different
 kinds
 map
 to
+/
+/
 different
 entries
 .
-*
-/
 return
 entry
 -

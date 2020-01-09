@@ -16229,7 +16229,7 @@ this
 }
 ;
 /
-*
+/
 A
 filtering
 of
@@ -16246,8 +16246,6 @@ self
 hosted
 scripts
 .
-*
-/
 class
 NonBuiltinScriptFrameIter
 :

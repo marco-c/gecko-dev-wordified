@@ -23127,7 +23127,7 @@ rval
 )
 {
 /
-*
+/
 Allow
 the
 non
@@ -23140,10 +23140,10 @@ stubs
 used
 in
 compound
+/
+/
 opcodes
 .
-*
-/
 if
 (
 !

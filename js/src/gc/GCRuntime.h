@@ -5512,7 +5512,7 @@ bool
 lastMarkSlice
 ;
 /
-*
+/
 Whether
 it
 '
@@ -5529,8 +5529,6 @@ an
 incremental
 GC
 .
-*
-/
 MainThreadData
 <
 bool

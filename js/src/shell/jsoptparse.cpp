@@ -2290,7 +2290,7 @@ OptionKindMultiString
 :
 {
 /
-*
+/
 Don
 '
 t
@@ -2308,11 +2308,11 @@ one
 (
 final
 )
+/
+/
 variadic
 argument
 .
-*
-/
 StringArg
 value
 (
@@ -2390,7 +2390,7 @@ argc
 inputArgc
 ;
 /
-*
+/
 Permit
 a
 "
@@ -2408,10 +2408,10 @@ offers
 in
 many
 shell
+/
+/
 interfaces
 .
-*
-/
 bool
 optionsAllowed
 =

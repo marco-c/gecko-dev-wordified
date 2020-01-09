@@ -1298,7 +1298,7 @@ release
 )
 ;
 /
-*
+/
 The
 garbage
 collector
@@ -1309,10 +1309,10 @@ before
 this
 point
 being
+/
+/
 initialized
 .
-*
-/
 gcInitialized
 =
 true

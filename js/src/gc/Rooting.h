@@ -746,6 +746,7 @@ StringVector
 /
 *
 *
+*
 Interface
 substitute
 for
@@ -761,6 +762,7 @@ the
 variable
 '
 s
+*
 memory
 .
 *
@@ -892,6 +894,7 @@ delete
 /
 *
 *
+*
 Interface
 substitute
 for
@@ -906,6 +909,7 @@ required
 to
 point
 to
+*
 rooted
 memory
 .

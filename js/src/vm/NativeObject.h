@@ -7545,7 +7545,7 @@ v
 ;
 }
 /
-*
+/
 For
 slots
 which
@@ -7561,10 +7561,10 @@ the
 way
 they
 are
+/
+/
 allocated
 .
-*
-/
 HeapSlot
 &
 getFixedSlotRef

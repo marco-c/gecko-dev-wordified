@@ -742,7 +742,7 @@ thingKind
 )
 {
 /
-*
+/
 Using
 a
 switch
@@ -757,10 +757,10 @@ a
 compile
 -
 time
+/
+/
 constant
 .
-*
-/
 switch
 (
 thingKind

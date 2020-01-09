@@ -556,7 +556,7 @@ digits
 ;
 }
 /
-*
+/
 Append
 "
 [
@@ -576,8 +576,6 @@ a
 numeric
 literal
 .
-*
-/
 bool
 appendNumericPropertyReference
 (

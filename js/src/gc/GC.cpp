@@ -5808,7 +5808,7 @@ count
 gcstats
 :
 :
-COUNT_DESTROY_CHUNK
+STAT_DESTROY_CHUNK
 )
 ;
 #
@@ -8846,7 +8846,7 @@ finish
 )
 {
 /
-*
+/
 Wait
 for
 nursery
@@ -8861,8 +8861,6 @@ to
 release
 memory
 .
-*
-/
 if
 (
 nursery
@@ -8892,8 +8890,7 @@ disable
 ;
 }
 /
-*
-*
+/
 Wait
 until
 the
@@ -8904,7 +8901,8 @@ allocation
 stops
 and
 the
-*
+/
+/
 helper
 thread
 shuts
@@ -8916,11 +8914,10 @@ release
 any
 remaining
 GC
-*
+/
+/
 memory
 .
-*
-/
 sweepTask
 .
 join
@@ -8943,7 +8940,7 @@ cancelAndWait
 ifdef
 JS_GC_ZEAL
 /
-*
+/
 Free
 memory
 associated
@@ -8951,8 +8948,6 @@ with
 GC
 verification
 .
-*
-/
 finishVerifier
 (
 )
@@ -8960,14 +8955,12 @@ finishVerifier
 #
 endif
 /
-*
+/
 Delete
 all
 remaining
 zones
 .
-*
-/
 if
 (
 rt
@@ -14873,7 +14866,7 @@ count
 gcstats
 :
 :
-COUNT_ARENA_RELOCATED
+STAT_ARENA_RELOCATED
 )
 ;
 }
@@ -33997,8 +33990,7 @@ SWEEP_MARK
 )
 ;
 /
-*
-*
+/
 Mark
 any
 incoming
@@ -34008,7 +34000,8 @@ from
 previously
 swept
 compartments
-*
+/
+/
 whose
 referents
 are
@@ -34022,7 +34015,8 @@ when
 gray
 cells
 become
-*
+/
+/
 black
 by
 the
@@ -34030,8 +34024,6 @@ action
 of
 UnmarkGray
 .
-*
-/
 markIncomingCrossCompartmentPointers
 (
 MarkColor
@@ -34052,8 +34044,7 @@ SWEEP_MARK_WEAK
 )
 ;
 /
-*
-*
+/
 Change
 state
 of
@@ -34066,7 +34057,8 @@ restrict
 marking
 to
 this
-*
+/
+/
 group
 .
 Note
@@ -34080,7 +34072,8 @@ the
 atoms
 zone
 and
-*
+/
+/
 these
 will
 be
@@ -34092,11 +34085,10 @@ are
 not
 marked
 with
-*
+/
+/
 TraceCrossCompartmentEdge
 .
-*
-/
 for
 (
 SweepGroupZonesIter
@@ -34142,7 +34134,7 @@ setMarkColorGray
 )
 ;
 /
-*
+/
 Mark
 incoming
 gray
@@ -34152,8 +34144,6 @@ previously
 swept
 compartments
 .
-*
-/
 markIncomingCrossCompartmentPointers
 (
 MarkColor
@@ -34163,7 +34153,7 @@ Gray
 )
 ;
 /
-*
+/
 Mark
 gray
 roots
@@ -34174,10 +34164,10 @@ inside
 the
 current
 compartment
+/
+/
 group
 .
-*
-/
 markGrayReferencesInCurrentGroup
 (
 gcstats
@@ -34201,13 +34191,11 @@ SWEEP_MARK_GRAY_WEAK
 )
 ;
 /
-*
+/
 Restore
 marking
 state
 .
-*
-/
 for
 (
 SweepGroupZonesIter
@@ -34262,7 +34250,7 @@ setMarkColorBlack
 )
 ;
 /
-*
+/
 We
 must
 not
@@ -34277,8 +34265,6 @@ sweeping
 the
 group
 .
-*
-/
 safeToYield
 =
 false
@@ -45043,7 +45029,7 @@ marker
 )
 ;
 /
-*
+/
 If
 we
 needed
@@ -45057,8 +45043,6 @@ collect
 until
 done
 .
-*
-/
 if
 (
 isIncremental

@@ -1278,7 +1278,7 @@ flagsOut
 )
 ;
 /
-*
+/
 Assuming
 GetBuiltinClass
 (
@@ -1293,10 +1293,10 @@ return
 a
 RegExpShared
 for
+/
+/
 obj
 .
-*
-/
 inline
 RegExpShared
 *

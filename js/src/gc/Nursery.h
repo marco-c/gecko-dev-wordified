@@ -3053,7 +3053,7 @@ MallocedBuffersSet
 mallocedBuffers
 ;
 /
-*
+/
 A
 task
 structure
@@ -3068,8 +3068,6 @@ a
 background
 thread
 .
-*
-/
 struct
 FreeMallocedBuffersTask
 ;

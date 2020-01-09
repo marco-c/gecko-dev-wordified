@@ -17284,7 +17284,7 @@ pc
 )
 ;
 /
-*
+/
 Assigning
 to
 an
@@ -17298,8 +17298,6 @@ the
 global
 object
 .
-*
-/
 ReservedRooted
 <
 JSObject

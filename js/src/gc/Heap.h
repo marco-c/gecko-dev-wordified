@@ -361,7 +361,7 @@ TenuredHeap
 }
 ;
 /
-*
+/
 Cells
 are
 aligned
@@ -375,8 +375,6 @@ null
 pointer
 is
 :
-*
-/
 const
 uintptr_t
 LargestTaggedNullCellPointer
@@ -3662,7 +3660,7 @@ size
 )
 ;
 /
-*
+/
 The
 chunk
 header
@@ -3677,11 +3675,11 @@ chunk
 to
 preserve
 arena
+/
+/
 alignment
 )
 .
-*
-/
 struct
 ChunkInfo
 {

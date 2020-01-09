@@ -792,7 +792,7 @@ MEM_RESERVE
 )
 ;
 /
-*
+/
 Special
 case
 :
@@ -807,8 +807,6 @@ work
 is
 needed
 .
-*
-/
 if
 (
 alignment

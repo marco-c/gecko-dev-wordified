@@ -17334,7 +17334,7 @@ repLength
 )
 ;
 /
-*
+/
 Move
 the
 pre
@@ -17344,8 +17344,6 @@ chunk
 in
 bulk
 .
-*
-/
 newReplaceChars
 .
 infallibleAppend
@@ -17355,7 +17353,7 @@ firstDollarIndex
 )
 ;
 /
-*
+/
 Move
 the
 rest
@@ -17371,8 +17369,6 @@ we
 encounter
 them
 .
-*
-/
 const
 CharT
 *
@@ -17454,15 +17450,13 @@ case
 '
 :
 /
-*
+/
 Eat
 one
 of
 the
 dollars
 .
-*
-/
 if
 (
 !
@@ -17565,7 +17559,7 @@ break
 default
 :
 /
-*
+/
 The
 dollar
 we
@@ -17580,11 +17574,11 @@ what
 its
 mother
 told
+/
+/
 it
 )
 .
-*
-/
 if
 (
 !
@@ -17609,7 +17603,7 @@ continue
 it
 ;
 /
-*
+/
 We
 always
 eat
@@ -17621,8 +17615,6 @@ the
 above
 switch
 .
-*
-/
 }
 return
 true
@@ -26586,7 +26578,7 @@ true
 ;
 }
 /
-*
+/
 Get
 the
 templateObject
@@ -26599,9 +26591,10 @@ type
 of
 the
 output
-object
-*
 /
+/
+object
+.
 JSObject
 *
 templateObject
@@ -26654,7 +26647,7 @@ false
 ;
 }
 /
-*
+/
 Store
 a
 Value
@@ -26662,8 +26655,6 @@ for
 each
 pair
 .
-*
-/
 arr
 -
 >
@@ -26685,7 +26676,7 @@ pattern
 )
 ;
 /
-*
+/
 Set
 the
 |
@@ -26701,8 +26692,7 @@ in
 slot
 0
 )
-*
-/
+.
 arr
 -
 >
@@ -26716,7 +26706,7 @@ match
 )
 ;
 /
-*
+/
 Set
 the
 |
@@ -26732,8 +26722,7 @@ in
 slot
 1
 )
-*
-/
+.
 arr
 -
 >

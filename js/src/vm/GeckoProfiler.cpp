@@ -822,7 +822,7 @@ enabled
 )
 ;
 /
-*
+/
 Update
 lastProfilingFrame
 to
@@ -837,12 +837,11 @@ jit
 -
 frame
 currently
+/
+/
 on
-*
 stack
 .
-*
-/
 if
 (
 cx

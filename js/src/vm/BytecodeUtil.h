@@ -1479,7 +1479,7 @@ index
 ;
 }
 /
-*
+/
 Index
 limit
 is
@@ -1487,14 +1487,14 @@ determined
 by
 SN_4BYTE_OFFSET_FLAG
 see
+/
+/
 frontend
 /
 BytecodeEmitter
 .
 h
 .
-*
-/
 static
 const
 unsigned

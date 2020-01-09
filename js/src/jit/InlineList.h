@@ -2849,7 +2849,7 @@ iter
 }
 ;
 /
-*
+/
 This
 list
 type
@@ -2862,8 +2862,9 @@ an
 InlineForwardList
 without
 a
+/
+/
 sentinel
-*
 node
 .
 It
@@ -2878,9 +2879,10 @@ doing
 algorithms
 that
 deal
+/
+/
 with
 many
-*
 merging
 singleton
 lists
@@ -2890,8 +2892,6 @@ often
 empty
 ones
 .
-*
-/
 template
 <
 typename

@@ -2465,7 +2465,7 @@ capacity
 ;
 }
 /
-*
+/
 By
 definition
 hashShift
@@ -2477,8 +2477,6 @@ log2
 capacity
 )
 .
-*
-/
 uint32_t
 capacity
 (
@@ -2495,7 +2493,7 @@ hashShift_
 ;
 }
 /
-*
+/
 Whether
 we
 need
@@ -2511,14 +2509,14 @@ if
 the
 load
 factor
+/
+/
 is
 >
 =
 0
 .
 75
-*
-/
 bool
 needsToGrow
 (
@@ -2549,8 +2547,7 @@ size
 ;
 }
 /
-*
-*
+/
 Try
 to
 grow
@@ -2565,7 +2562,8 @@ of
 memory
 on
 cx
-*
+/
+/
 and
 returns
 false
@@ -2578,7 +2576,8 @@ extant
 pointers
 into
 the
-*
+/
+/
 table
 invalid
 .
@@ -2594,8 +2593,6 @@ needsToGrow
 is
 true
 .
-*
-/
 bool
 grow
 (
@@ -5128,7 +5125,7 @@ dictp
 )
 ;
 /
-*
+/
 Replace
 the
 base
@@ -5144,10 +5141,10 @@ non
 dictionary
 lineage
 with
+/
+/
 base
 .
-*
-/
 static
 Shape
 *

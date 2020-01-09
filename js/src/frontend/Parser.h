@@ -1933,7 +1933,7 @@ AutoKeepAtoms
 keepAtoms
 ;
 /
-*
+/
 Perform
 constant
 -
@@ -1948,8 +1948,6 @@ with
 the
 emitter
 .
-*
-/
 const
 bool
 foldConstants

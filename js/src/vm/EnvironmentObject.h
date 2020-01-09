@@ -267,7 +267,7 @@ pc
 )
 ;
 /
-*
+/
 Return
 the
 name
@@ -279,8 +279,6 @@ given
 ALIASEDVAR
 op
 .
-*
-/
 extern
 PropertyName
 *
@@ -298,7 +296,7 @@ pc
 )
 ;
 /
-*
+/
 Return
 the
 function
@@ -312,8 +310,6 @@ op
 or
 nullptr
 .
-*
-/
 extern
 JSScript
 *
