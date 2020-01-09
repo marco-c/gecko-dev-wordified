@@ -78,8 +78,6 @@ posixpath
 import
 shlex
 import
-shutil
-import
 subprocess
 import
 sys
@@ -182,24 +180,6 @@ get_environment_overlay
 \
     
 change_env
-#
-Python
-3
-.
-3
-added
-shutil
-.
-which
-but
-we
-can
-'
-t
-use
-that
-yet
-.
 def
 which
 (
