@@ -274,7 +274,7 @@ onEnable
 addEventListener
 (
 "
-UAWidgetBindToTree
+UAWidgetSetupOrChange
 "
 this
 false
@@ -434,7 +434,7 @@ onDisable
 removeEventListener
 (
 "
-UAWidgetBindToTree
+UAWidgetSetupOrChange
 "
 this
 )
@@ -801,7 +801,7 @@ type
 {
 case
 "
-UAWidgetBindToTree
+UAWidgetSetupOrChange
 "
 :
 this
