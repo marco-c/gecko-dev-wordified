@@ -301,6 +301,14 @@ return
 mBaseURL
 ;
 }
+void
+AssociateWithScript
+(
+JSScript
+*
+aScript
+)
+;
 }
 ;
 class
