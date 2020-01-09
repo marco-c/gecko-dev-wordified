@@ -665,6 +665,15 @@ hybridContent
 .
 enabled
 "
+IPCBatchTimeout
+:
+"
+toolkit
+.
+telemetry
+.
+ipcBatchTimeout
+"
 OverrideOfficialCheck
 :
 "
