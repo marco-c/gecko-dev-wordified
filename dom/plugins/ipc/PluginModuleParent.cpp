@@ -12999,11 +12999,11 @@ int32_t
 &
 aY
 const
-size_t
+double
 &
 aWidth
 const
-size_t
+double
 &
 aHeight
 )
