@@ -1400,3 +1400,11 @@ cancel
 void
 }
 ;
+export
+type
+EventListenerBreakpoints
+=
+string
+[
+]
+;
