@@ -12,6 +12,17 @@ mozilla
 .
 gecko
 .
+annotation
+.
+WrapForJNI
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 ThreadUtils
@@ -1756,6 +1767,7 @@ result
 .
 *
 /
+WrapForJNI
 public
 GeckoResult
 (
@@ -1985,6 +1997,7 @@ GeckoResult
 }
 *
 /
+WrapForJNI
 public
 static
 NonNull
@@ -2094,6 +2107,7 @@ GeckoResult
 }
 *
 /
+WrapForJNI
 public
 static
 NonNull
@@ -3918,6 +3932,7 @@ completed
 .
 *
 /
+WrapForJNI
 public
 synchronized
 void
@@ -4016,6 +4031,7 @@ completed
 .
 *
 /
+WrapForJNI
 public
 synchronized
 void
