@@ -1025,10 +1025,6 @@ byteorder
 ;
 extern
 crate
-euclid
-;
-extern
-crate
 fxhash
 ;
 extern
@@ -1340,6 +1336,13 @@ use
 webrender_api
 as
 api
+;
+pub
+use
+webrender_api
+:
+:
+euclid
 ;
 pub
 use
