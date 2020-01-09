@@ -288,6 +288,10 @@ module
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 array
 import
@@ -7013,12 +7017,14 @@ expected
 compressed_empty
         
 print
+(
 '
 %
 r
 '
 %
 expected
+)
         
 self
 .
@@ -8360,6 +8366,7 @@ frame_count
 1
         
 print
+(
 "
 Chunk
 sizes
@@ -8369,6 +8376,7 @@ r
 "
 %
 chunk_sizes
+)
         
 self
 .
@@ -9108,6 +9116,7 @@ finish_used
 True
         
 print
+(
 "
 Chunk
 sizes
@@ -9117,6 +9126,7 @@ r
 "
 %
 chunk_sizes
+)
         
 self
 .
@@ -9131,6 +9141,7 @@ chunk_sizes
 )
         
 print
+(
 "
 Methods
 :
@@ -9139,6 +9150,7 @@ r
 "
 %
 methods
+)
         
 self
 .

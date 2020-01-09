@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+from
+__future__
+import
+print_function
 import
 glob
 import
@@ -457,6 +461,7 @@ curdir
 )
     
 print
+(
 textwrap
 .
 fill
@@ -517,8 +522,10 @@ g
 path
 80
 )
+)
     
 print
+(
 "
 "
 "
@@ -537,3 +544,4 @@ txt
 "
 %
 path
+)
