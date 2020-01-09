@@ -6335,10 +6335,11 @@ selected
 let
 available
 =
-await
-getAvailableLocales
-(
-)
+Services
+.
+locale
+.
+availableLocales
 ;
 let
 localeNames
