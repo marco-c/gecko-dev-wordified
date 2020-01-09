@@ -724,7 +724,7 @@ up
 in
 /
 /
-JSReturnReg
+JSReturnOperand
 ReturnReg
 or
 ReturnDoubleReg
