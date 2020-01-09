@@ -14649,9 +14649,6 @@ references
 if
 (
 mDocShell
-&
-&
-aOpener
 )
 {
 /
@@ -14704,11 +14701,15 @@ GetBrowsingContext
 SetOpener
 (
 aOpener
+?
+aOpener
 -
 >
 GetBrowsingContext
 (
 )
+:
+nullptr
 )
 ;
 }
