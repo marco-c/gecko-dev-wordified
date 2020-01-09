@@ -1355,7 +1355,7 @@ nsresult
 aResult
 )
 ;
-nsCOMPtr
+RefPtr
 <
 mozilla
 :
