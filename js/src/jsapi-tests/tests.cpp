@@ -564,13 +564,14 @@ setStreamsEnabled
 (
 true
 )
+;
+options
 .
-setBigIntEnabled
+creationOptions
 (
-true
 )
 .
-setFieldsEnabled
+setBigIntEnabled
 (
 true
 )
