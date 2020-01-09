@@ -4880,6 +4880,14 @@ not_allowed
 this
 .
 isPrivileged
+&
+&
+!
+this
+.
+addonData
+.
+temporarilyInstalled
 )
 {
 permissions
