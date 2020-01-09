@@ -613,6 +613,10 @@ Opacity
 "
     
 "
+Quotes
+"
+    
+"
 Resize
 "
     
