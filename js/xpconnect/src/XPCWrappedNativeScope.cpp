@@ -2449,13 +2449,11 @@ globals
 .
 if
 (
+!
 js
 :
 :
-gc
-:
-:
-AllRealmsNeedSweep
+CompartmentHasLiveGlobal
 (
 mCompartment
 )

@@ -887,11 +887,12 @@ MOZ_ASSERT
 cx
 -
 >
-realm
+global
 (
 )
 =
 =
+&
 cx
 -
 >
@@ -900,7 +901,7 @@ compartment
 )
 -
 >
-realmForNewCCW
+globalForNewCCW
 (
 )
 )
