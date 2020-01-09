@@ -2585,14 +2585,6 @@ integer
 PCM
 #
 endif
-const
-int32_t
-numFrames
-=
-numSamples
-/
-mOutputChannels
-;
 AlignedAudioBuffer
 audio
 (
@@ -2666,11 +2658,6 @@ TimeUnit
 FromMicroseconds
 (
 presentationTimeUs
-)
-FramesToTimeUnit
-(
-numFrames
-mOutputSampleRate
 )
 std
 :
