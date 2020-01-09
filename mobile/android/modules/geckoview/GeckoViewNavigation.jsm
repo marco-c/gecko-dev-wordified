@@ -546,6 +546,15 @@ nsIWebNavigation
 LOAD_FLAGS_ALLOW_POPUPS
 ;
 }
+if
+(
+this
+.
+settings
+.
+useMultiprocess
+)
+{
 const
 remoteType
 =
@@ -554,11 +563,7 @@ E10SUtils
 getRemoteTypeForURI
 (
 uri
-this
-.
-settings
-.
-useMultiprocess
+true
 )
 ;
 this
@@ -570,6 +575,7 @@ updateRemoteType
 remoteType
 )
 ;
+}
 this
 .
 browser

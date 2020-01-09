@@ -605,6 +605,11 @@ getAttribute
 remoteType
 "
 )
+|
+|
+E10SUtils
+.
+NOT_REMOTE
 ;
 if
 (
