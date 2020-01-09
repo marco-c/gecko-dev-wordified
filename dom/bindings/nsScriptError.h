@@ -181,6 +181,9 @@ nsString
 h
 "
 class
+nsGlobalWindowInner
+;
+class
 nsScriptErrorNote
 final
 :
@@ -264,6 +267,15 @@ AddNote
 nsIScriptErrorNote
 *
 note
+)
+;
+static
+bool
+ComputeIsFromPrivateWindow
+(
+nsGlobalWindowInner
+*
+aWindow
 )
 ;
 protected

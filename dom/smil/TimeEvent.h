@@ -123,6 +123,13 @@ mozilla_dom_TimeEvent_h_
 #
 include
 "
+nsDocShell
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
