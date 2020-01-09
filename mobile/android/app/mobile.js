@@ -1900,15 +1900,6 @@ addons
 mozilla
 .
 org
-https
-:
-/
-/
-testpilot
-.
-firefox
-.
-com
 "
 )
 ;
