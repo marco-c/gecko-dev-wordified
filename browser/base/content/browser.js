@@ -36772,8 +36772,6 @@ aRequest
 .
 originalURI
 .
-spec
-.
 scheme
 !
 =
