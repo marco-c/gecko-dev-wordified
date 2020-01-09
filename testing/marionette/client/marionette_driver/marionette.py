@@ -735,7 +735,9 @@ marionette
 _send_message
 (
 "
-singleTap
+Marionette
+:
+SingleTap
 "
 body
 )
@@ -9263,7 +9265,9 @@ self
 _send_message
 (
 "
-acceptConnections
+Marionette
+:
+AcceptConnections
 "
 {
 "
