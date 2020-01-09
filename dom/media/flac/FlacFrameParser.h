@@ -412,8 +412,10 @@ with
 tag
 metadata
 .
+UniquePtr
+<
 MetadataTags
-*
+>
 GetTags
 (
 )

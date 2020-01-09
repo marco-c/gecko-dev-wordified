@@ -234,7 +234,7 @@ media
 TimeUnit
 &
 aPublishTime
-nsAutoPtr
+UniquePtr
 <
 MetadataTags
 >
@@ -382,7 +382,7 @@ the
 main
 threads
 .
-nsAutoPtr
+UniquePtr
 <
 MetadataTags
 >

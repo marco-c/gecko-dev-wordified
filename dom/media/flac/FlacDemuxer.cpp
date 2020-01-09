@@ -2988,8 +2988,10 @@ with
 tag
 metadata
 .
+UniquePtr
+<
 MetadataTags
-*
+>
 GetTags
 (
 )
@@ -4564,7 +4566,7 @@ Clone
 (
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 MetadataTags
 >
