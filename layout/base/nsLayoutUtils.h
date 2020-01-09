@@ -1050,6 +1050,13 @@ typedef
 mozilla
 :
 :
+LayoutDeviceSize
+LayoutDeviceSize
+;
+typedef
+mozilla
+:
+:
 StyleGeometryBox
 StyleGeometryBox
 ;
