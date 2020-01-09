@@ -8869,8 +8869,15 @@ picker
 function
 saveAsListener
 (
+principal
 )
 {
+this
+.
+_triggeringPrincipal
+=
+principal
+;
 }
 saveAsListener
 .
@@ -9168,6 +9175,9 @@ false
 docURI
 doc
 isContentWindowPrivate
+this
+.
+_triggeringPrincipal
 )
 ;
 }
@@ -9687,6 +9697,9 @@ asyncOpen
 new
 saveAsListener
 (
+this
+.
+principal
 )
 )
 ;
