@@ -405,7 +405,7 @@ PTU
 .
 ContentTasks
 .
-awaitPaymentRequestEventPromise
+awaitPaymentEventPromise
 )
 ;
 info
@@ -1430,7 +1430,7 @@ PTU
 .
 ContentTasks
 .
-awaitPaymentRequestEventPromise
+awaitPaymentEventPromise
 )
 ;
 info
@@ -1862,7 +1862,7 @@ PTU
 .
 ContentTasks
 .
-awaitPaymentRequestEventPromise
+awaitPaymentEventPromise
 )
 ;
 info
@@ -2489,7 +2489,7 @@ PTU
 .
 ContentTasks
 .
-awaitPaymentRequestEventPromise
+awaitPaymentEventPromise
 )
 ;
 addressOptions
