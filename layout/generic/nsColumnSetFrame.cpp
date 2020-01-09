@@ -5419,9 +5419,7 @@ mIsColumnBalancing
 =
 aConfig
 .
-mBalanceColCount
-<
-INT32_MAX
+mIsBalancing
 ;
 /
 /
@@ -6214,9 +6212,7 @@ ComputedBSize
 &
 aConfig
 .
-mBalanceColCount
-<
-INT32_MAX
+mIsBalancing
 )
 {
 /

@@ -772,7 +772,7 @@ be
 equivalent
 to
 mBalanceColCount
-=
+!
 =
 INT32_MAX
 .
