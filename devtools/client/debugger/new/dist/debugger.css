@@ -19428,16 +19428,6 @@ none
 ;
 }
 .
-debugger
-:
-not
-(
-.
-can
--
-rewind
-)
-.
 highlight
 -
 line
@@ -19519,9 +19509,7 @@ highlight
 out
 -
 dark
-1
-.
-5s
+1s
 normal
 forwards
 ;
