@@ -289,6 +289,9 @@ nsIWebVTTParserWrapper
 >
 mParserWrapper
 ;
+nsresult
+mParserWrapperError
+;
 }
 ;
 }
