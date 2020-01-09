@@ -832,7 +832,8 @@ parser
 .
 Defined
 in
-BinSource
+*
+BinASTParserPerTokenizer
 .
 cpp
 .

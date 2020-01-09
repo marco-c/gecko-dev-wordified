@@ -215,7 +215,7 @@ a
 binary
 source
 (
-BinSource
+BinASTParser
 .
 h
 )
@@ -763,7 +763,7 @@ binary
 sources
 (
 from
-BinSource
+BinASTParser
 .
 h
 )
