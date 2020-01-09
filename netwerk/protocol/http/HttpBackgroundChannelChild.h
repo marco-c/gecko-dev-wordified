@@ -383,7 +383,7 @@ RecvNotifyCookieAllowed
 override
 ;
 IPCResult
-RecvNotifyTrackingCookieBlocked
+RecvNotifyCookieBlocked
 (
 const
 uint32_t

@@ -12026,7 +12026,7 @@ NS_IMETHODIMP
 HttpChannelParent
 :
 :
-NotifyTrackingCookieBlocked
+NotifyCookieBlocked
 (
 uint32_t
 aRejectedReason
@@ -12039,7 +12039,7 @@ LOG
 HttpChannelParent
 :
 :
-NotifyTrackingCookieBlocked
+NotifyCookieBlocked
 [
 this
 =
@@ -12073,7 +12073,7 @@ NS_WARN_IF
 mBgParent
 -
 >
-OnNotifyTrackingCookieBlocked
+OnNotifyCookieBlocked
 (
 aRejectedReason
 )

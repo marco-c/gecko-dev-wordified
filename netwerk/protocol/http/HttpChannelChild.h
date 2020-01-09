@@ -1611,7 +1611,7 @@ ProcessNotifyCookieAllowed
 )
 ;
 void
-ProcessNotifyTrackingCookieBlocked
+ProcessNotifyCookieBlocked
 (
 uint32_t
 aRejectedReason

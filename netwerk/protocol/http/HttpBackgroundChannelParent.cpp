@@ -1937,7 +1937,7 @@ bool
 HttpBackgroundChannelParent
 :
 :
-OnNotifyTrackingCookieBlocked
+OnNotifyCookieBlocked
 (
 uint32_t
 aRejectedReason
@@ -1950,7 +1950,7 @@ LOG
 HttpBackgroundChannelParent
 :
 :
-OnNotifyTrackingCookieBlocked
+OnNotifyCookieBlocked
 [
 this
 =
@@ -2029,7 +2029,7 @@ net
 HttpBackgroundChannelParent
 :
 :
-OnNotifyTrackingCookieBlocked
+OnNotifyCookieBlocked
 "
 [
 self
@@ -2041,7 +2041,7 @@ aRejectedReason
 self
 -
 >
-OnNotifyTrackingCookieBlocked
+OnNotifyCookieBlocked
 (
 aRejectedReason
 )
@@ -2067,7 +2067,7 @@ rv
 ;
 }
 return
-SendNotifyTrackingCookieBlocked
+SendNotifyCookieBlocked
 (
 aRejectedReason
 )
