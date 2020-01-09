@@ -149,9 +149,12 @@ nsWinRemoteServer
 (
 )
 override
-=
-default
+{
+Shutdown
+(
+)
 ;
+}
 nsresult
 Startup
 (
