@@ -1184,6 +1184,8 @@ callback
 /
 /
 TODO
+Bug
+1536822
 :
 once
 one
@@ -1196,9 +1198,9 @@ figure
 out
 if
 the
+/
+/
 following
-/
-/
 is
 true
 for
@@ -1212,9 +1214,9 @@ somehow
 event
 .
 defaultPrevented
+/
+/
 ends
-/
-/
 up
 true
 for
@@ -2407,6 +2409,8 @@ lastResultIsSelected
 /
 /
 TODO
+Bug
+1536818
 :
 Once
 one
@@ -2419,11 +2423,11 @@ implemented
 it
 would
 be
+/
+/
 nice
 to
 have
-/
-/
 a
 better
 way
