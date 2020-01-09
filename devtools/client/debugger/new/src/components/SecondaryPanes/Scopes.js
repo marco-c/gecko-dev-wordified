@@ -283,6 +283,8 @@ docs
 Tools
 /
 Debugger
+/
+Using_the_Debugger_map_scopes_feature
 "
 ;
 const
