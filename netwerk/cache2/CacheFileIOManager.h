@@ -2171,6 +2171,10 @@ const
 uint16_t
 *
 aOnStopTime
+const
+uint8_t
+*
+aContentType
 )
 ;
 static
