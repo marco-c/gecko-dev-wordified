@@ -7579,7 +7579,7 @@ mHelper
 mScrolledFrame
 -
 >
-IsBlockFrame
+IsBlockFrameOrSubclass
 (
 )
 )
