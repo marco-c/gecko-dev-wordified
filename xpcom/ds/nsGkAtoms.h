@@ -565,9 +565,9 @@ PseudoElementAtom
 /
 GK_ATOM
 (
-ccc
+Ccc
 "
-ccc
+Ccc
 "
 0x23456789
 nsCSSAnonBoxPseudoStaticAtom
@@ -812,12 +812,12 @@ bb
 /
 const
 char16_t
-ccc_string
+Ccc_string
 [
 sizeof
 (
 "
-ccc
+Ccc
 "
 )
 ]
@@ -892,7 +892,7 @@ a
 bb
 /
 /
-ccc
+Ccc
 /
 /
 #
@@ -1347,7 +1347,7 @@ static
 constexpr
 nsStaticAtom
 *
-ccc
+Ccc
 =
 /
 /
@@ -1389,7 +1389,7 @@ GkAtoms
 Atoms
 :
 :
-ccc
+Ccc
 )
 ]
 )

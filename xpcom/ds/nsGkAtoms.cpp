@@ -201,7 +201,7 @@ bb
 /
 u
 "
-ccc
+Ccc
 "
 /
 /
@@ -327,6 +327,8 @@ nsStaticAtom
 /
 /
 1
+/
+/
 0x01234567
 /
 /
@@ -358,6 +360,9 @@ offsetof
 GkAtoms
 a_string
 )
+/
+/
+true
 )
 /
 /
@@ -368,6 +373,8 @@ nsStaticAtom
 /
 /
 2
+/
+/
 0x12345678
 /
 /
@@ -399,6 +406,9 @@ offsetof
 GkAtoms
 bb_string
 )
+/
+/
+false
 )
 /
 /
@@ -409,6 +419,8 @@ nsStaticAtom
 /
 /
 3
+/
+/
 0x23456789
 /
 /
@@ -428,7 +440,7 @@ GkAtoms
 Atoms
 :
 :
-ccc
+Ccc
 )
 ]
 )
@@ -438,8 +450,11 @@ ccc
 offsetof
 (
 GkAtoms
-ccc_string
+Ccc_string
 )
+/
+/
+false
 )
 /
 /
@@ -464,6 +479,7 @@ value_
 )
 -
 1
+\
 hash_
 \
 offsetof
@@ -497,6 +513,7 @@ name_
 #
 _string
 )
+\
 is_ascii_lower_
 )
 #
