@@ -179,9 +179,6 @@ nsIDocShell
 class
 nsIURI
 ;
-class
-nsDocShellLoadState
-;
 namespace
 mozilla
 {
@@ -1052,7 +1049,7 @@ it
 .
 already_AddRefed
 <
-nsDocShellLoadState
+nsDocShellLoadInfo
 >
 CheckURL
 (

@@ -250,7 +250,7 @@ class
 nsIDocShell
 ;
 class
-nsDocShellLoadState
+nsDocShellLoadInfo
 ;
 class
 nsIDocument
@@ -6266,9 +6266,13 @@ nsIChannel
 aChannel
 bool
 aBlocked
+=
+true
 nsIURI
 *
 aURIHint
+=
+nullptr
 )
 =
 0
@@ -6421,7 +6425,7 @@ GetFrames
 ;
 /
 /
-aLoadState
+aLoadInfo
 will
 be
 passed
@@ -6472,9 +6476,9 @@ const
 nsAString
 &
 aOptions
-nsDocShellLoadState
+nsDocShellLoadInfo
 *
-aLoadState
+aLoadInfo
 bool
 aForceNoOpener
 nsPIDOMWindowOuter
