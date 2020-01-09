@@ -552,6 +552,7 @@ null
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 PreHandleEvent
 (
@@ -618,7 +619,7 @@ processing
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 PostHandleEvent
 (
@@ -6912,6 +6913,7 @@ WidgetMouseEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DoContentCommandEvent
 (
