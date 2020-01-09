@@ -4364,6 +4364,8 @@ components
 /
 telemetry
 /
+other
+/
 GCTelemetry
 .
 jsm
@@ -4998,6 +5000,8 @@ toolkit
 components
 /
 telemetry
+/
+other
 /
 GCTelemetry
 .
