@@ -75090,7 +75090,7 @@ invisible
 to
 -
 Debugger
-global
+compartment
 .
 (
 If
@@ -75112,7 +75112,7 @@ is
 in
 a
 visible
-realm
+compartment
 that
 '
 s
@@ -75124,15 +75124,11 @@ if
 unwrapped
 -
 >
-deprecatedRealm
+compartment
 (
 )
 -
 >
-creationOptions
-(
-)
-.
 invisibleToDebugger
 (
 )
