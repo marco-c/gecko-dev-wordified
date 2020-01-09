@@ -805,9 +805,6 @@ ActorId
 cssPropertiesActor
 :
 ActorId
-cssUsageActor
-:
-ActorId
 directorManagerActor
 :
 ActorId
