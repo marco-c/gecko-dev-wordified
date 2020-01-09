@@ -1243,11 +1243,6 @@ self
 .
 _run_python_test
 test
-[
-'
-path
-'
-]
 )
                        
 for
@@ -1341,11 +1336,6 @@ self
 _run_python_test
 (
 test
-[
-'
-path
-'
-]
 )
 )
         
@@ -1391,7 +1381,7 @@ def
 _run_python_test
 (
 self
-test_path
+test
 )
 :
         
@@ -1399,6 +1389,34 @@ from
 mozprocess
 import
 ProcessHandler
+        
+if
+test
+.
+get
+(
+'
+requirements
+'
+)
+:
+            
+self
+.
+virtualenv_manager
+.
+install_pip_requirements
+(
+test
+[
+'
+requirements
+'
+]
+quiet
+=
+True
+)
         
 output
 =
@@ -1585,7 +1603,12 @@ line
         
 _log
 (
-test_path
+test
+[
+'
+path
+'
+]
 )
         
 cmd
@@ -1596,7 +1619,12 @@ self
 virtualenv_manager
 .
 python_path
-test_path
+test
+[
+'
+path
+'
+]
 ]
         
 env
@@ -1689,7 +1717,12 @@ call
 .
 format
 (
-test_path
+test
+[
+'
+path
+'
+]
 )
 )
         
@@ -1718,7 +1751,12 @@ failed
 .
 format
 (
-test_path
+test
+[
+'
+path
+'
+]
 )
 )
             
@@ -1737,11 +1775,21 @@ passed
 .
 format
 (
-test_path
+test
+[
+'
+path
+'
+]
 )
 )
         
 return
 output
 return_code
-test_path
+test
+[
+'
+path
+'
+]
