@@ -783,6 +783,8 @@ win
 .
 gURLBar
 .
+textbox
+.
 classList
 .
 contains
@@ -818,6 +820,8 @@ focused
 win
 .
 gURLBar
+.
+textbox
 .
 classList
 .
