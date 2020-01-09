@@ -11647,6 +11647,11 @@ if
 XRE_IsParentProcess
 (
 )
+|
+|
+XRE_IsSocketProcess
+(
+)
 )
 {
 *

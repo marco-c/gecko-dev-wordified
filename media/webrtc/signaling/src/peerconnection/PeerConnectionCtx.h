@@ -436,6 +436,9 @@ MediaTransportHandler
 :
 Create
 (
+GetMainThreadSerialEventTarget
+(
+)
 )
 )
 {
