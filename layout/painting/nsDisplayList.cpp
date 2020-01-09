@@ -7762,6 +7762,10 @@ mIsInActiveDocShell
 (
 false
 )
+mBuildAsyncZoomContainer
+(
+false
+)
 mHitTestArea
 (
 )
