@@ -1024,7 +1024,10 @@ moduleMetadataHook
 moduleDynamicImportHook
 (
 )
-scriptPrivateFinalizeHook
+scriptPrivateAddRefHook
+(
+)
+scriptPrivateReleaseHook
 (
 )
 {

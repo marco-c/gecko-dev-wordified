@@ -2140,8 +2140,8 @@ StartDynamicModuleImport
 JSContext
 *
 cx
-HandleValue
-referencingPrivate
+HandleObject
+referencingScriptSource
 HandleValue
 specifier
 )
