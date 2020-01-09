@@ -241,6 +241,13 @@ PropTypes
 func
 .
 isRequired
+scrollToTop
+:
+PropTypes
+.
+func
+.
+isRequired
 setSelectedNode
 :
 PropTypes
@@ -261,6 +268,7 @@ flexItem
 index
 onHideBoxModelHighlighter
 onShowBoxModelHighlighterForNode
+scrollToTop
 setSelectedNode
 }
 =
@@ -301,6 +309,10 @@ e
 e
 .
 stopPropagation
+(
+)
+;
+scrollToTop
 (
 )
 ;
