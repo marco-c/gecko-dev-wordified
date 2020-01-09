@@ -3110,7 +3110,7 @@ test_ssl_env_bogus
 (
 )
 :
-        
+    
 with
 pytest
 .
@@ -3119,7 +3119,7 @@ raises
 ValueError
 )
 :
-            
+        
 with
 config
 .
@@ -3138,7 +3138,7 @@ foobar
 }
 )
 :
-                
+            
 pass
 def
 test_pickle

@@ -290,7 +290,7 @@ e
 WindowsError
 )
 :
-                        
+                    
 full_cmd
 [
 0
@@ -301,7 +301,7 @@ git
 .
 bat
 "
-                        
+                    
 return
 subprocess
 .
