@@ -1912,7 +1912,6 @@ skipped_tests
 :
                     
 break
-;
     
 if
 test_total
