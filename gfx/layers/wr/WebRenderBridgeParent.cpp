@@ -597,7 +597,7 @@ microseconds
 profiler_add_text_marker
 (
 name
-nsDependentCString
+nsDependentCSubstring
 (
 text_bytes
 text_len
