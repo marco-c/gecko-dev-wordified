@@ -181,7 +181,7 @@ true
 requestPayerEmail
 :
 false
-reqeustPayerPhone
+requestPayerPhone
 :
 false
 requestShipping
