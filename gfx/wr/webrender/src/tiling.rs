@@ -3201,6 +3201,16 @@ push
 (
 TileBlit
 {
+dest_offset
+:
+blit
+.
+dest_offset
+size
+:
+blit
+.
+size
 target
 :
 blit
@@ -3210,7 +3220,7 @@ target
 clone
 (
 )
-offset
+src_offset
 :
 DeviceIntPoint
 :
@@ -3219,7 +3229,7 @@ new
 (
 blit
 .
-offset
+src_offset
 .
 x
 +
@@ -3230,7 +3240,7 @@ origin
 x
 blit
 .
-offset
+src_offset
 .
 y
 +
