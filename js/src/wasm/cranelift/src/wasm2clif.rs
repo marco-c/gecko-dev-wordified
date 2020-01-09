@@ -5359,7 +5359,7 @@ a
 call
 to
 uint32_t
-growMemory_i32
+memoryGrow_i32
 (
 Instance
 *
@@ -5392,7 +5392,7 @@ bd
 SymbolicAddress
 :
 :
-GrowMemory
+MemoryGrow
 |
 |
 {
@@ -5529,7 +5529,7 @@ instance
 pointer
 needed
 by
-growMemory_i32
+memoryGrow_i32
 .
 let
 instance
@@ -5697,7 +5697,7 @@ a
 call
 to
 uint32_t
-currentMemory_i32
+memorySize_i32
 (
 Instance
 *
@@ -5726,7 +5726,7 @@ bd
 SymbolicAddress
 :
 :
-CurrentMemory
+MemorySize
 |
 |
 {
@@ -5835,7 +5835,7 @@ instance
 pointer
 needed
 by
-currentMemory_i32
+memorySize_i32
 .
 let
 instance

@@ -4628,7 +4628,7 @@ case
 SymbolicAddress
 :
 :
-GrowMemory
+MemoryGrow
 :
 *
 abiType
@@ -4641,7 +4641,7 @@ FuncCast
 Instance
 :
 :
-growMemory_i32
+memoryGrow_i32
 *
 abiType
 )
@@ -4650,7 +4650,7 @@ case
 SymbolicAddress
 :
 :
-CurrentMemory
+MemorySize
 :
 *
 abiType
@@ -4663,7 +4663,7 @@ FuncCast
 Instance
 :
 :
-currentMemory_i32
+memorySize_i32
 *
 abiType
 )
@@ -5575,13 +5575,13 @@ case
 SymbolicAddress
 :
 :
-GrowMemory
+MemoryGrow
 :
 case
 SymbolicAddress
 :
 :
-CurrentMemory
+MemorySize
 :
 case
 SymbolicAddress

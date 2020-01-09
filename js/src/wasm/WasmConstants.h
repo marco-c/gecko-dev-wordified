@@ -970,10 +970,10 @@ I64Store16
 I64Store32
 =
 0x3e
-CurrentMemory
+MemorySize
 =
 0x3f
-GrowMemory
+MemoryGrow
 =
 0x40
 /

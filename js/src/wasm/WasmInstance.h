@@ -1484,7 +1484,7 @@ uint64_t
 ;
 static
 uint32_t
-growMemory_i32
+memoryGrow_i32
 (
 Instance
 *
@@ -1495,7 +1495,7 @@ delta
 ;
 static
 uint32_t
-currentMemory_i32
+memorySize_i32
 (
 Instance
 *

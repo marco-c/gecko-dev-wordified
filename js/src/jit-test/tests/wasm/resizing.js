@@ -121,7 +121,9 @@ const
 (
 drop
 (
-grow_memory
+memory
+.
+grow
 (
 i32
 .
@@ -235,7 +237,9 @@ grow
 (
 drop
 (
-grow_memory
+memory
+.
+grow
 (
 i32
 .
@@ -515,7 +519,9 @@ const
 (
 drop
 (
-grow_memory
+memory
+.
+grow
 (
 i32
 .
@@ -788,7 +794,9 @@ result
 i32
 )
 (
-grow_memory
+memory
+.
+grow
 (
 get_local
 0
@@ -810,7 +818,9 @@ result
 i32
 )
 (
-current_memory
+memory
+.
+size
 )
 )
 (

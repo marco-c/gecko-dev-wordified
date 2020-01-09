@@ -578,7 +578,9 @@ op
 }
 /
 /
-current_memory
+memory
+.
+size
 is
 a
 callout
@@ -602,7 +604,9 @@ export
 result
 i32
 )
-current_memory
+memory
+.
+size
 )
 )
 this
@@ -622,7 +626,9 @@ this
 >
 "
 "
-current_memory
+memory
+.
+size
 0
 >
 "
@@ -645,7 +651,9 @@ current_memory
 ;
 /
 /
-grow_memory
+memory
+.
+grow
 is
 a
 callout
@@ -673,7 +681,9 @@ i32
 .
 const
 1
-grow_memory
+memory
+.
+grow
 )
 )
 this
@@ -693,7 +703,9 @@ this
 >
 "
 "
-grow_memory
+memory
+.
+grow
 0
 >
 "

@@ -273,7 +273,9 @@ result
 i32
 )
 (
-current_memory
+memory
+.
+size
 )
 )
 )
@@ -301,7 +303,9 @@ result
 i32
 )
 (
-grow_memory
+memory
+.
+grow
 (
 i32
 .

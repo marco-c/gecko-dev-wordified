@@ -14834,7 +14834,7 @@ true
 }
 static
 bool
-EmitGrowMemory
+EmitMemoryGrow
 (
 FunctionCompiler
 &
@@ -14882,7 +14882,7 @@ iter
 (
 )
 .
-readGrowMemory
+readMemoryGrow
 (
 &
 delta
@@ -14936,7 +14936,7 @@ builtinInstanceMethodCall
 SymbolicAddress
 :
 :
-GrowMemory
+MemoryGrow
 lineOrBytecode
 args
 ValType
@@ -14969,7 +14969,7 @@ true
 }
 static
 bool
-EmitCurrentMemory
+EmitMemorySize
 (
 FunctionCompiler
 &
@@ -14997,7 +14997,7 @@ iter
 (
 )
 .
-readCurrentMemory
+readMemorySize
 (
 )
 )
@@ -15044,7 +15044,7 @@ builtinInstanceMethodCall
 SymbolicAddress
 :
 :
-CurrentMemory
+MemorySize
 lineOrBytecode
 args
 ValType
@@ -18915,12 +18915,12 @@ uint16_t
 Op
 :
 :
-CurrentMemory
+MemorySize
 )
 :
 CHECK
 (
-EmitCurrentMemory
+EmitMemorySize
 (
 f
 )
@@ -18932,12 +18932,12 @@ uint16_t
 Op
 :
 :
-GrowMemory
+MemoryGrow
 )
 :
 CHECK
 (
-EmitGrowMemory
+EmitMemoryGrow
 (
 f
 )

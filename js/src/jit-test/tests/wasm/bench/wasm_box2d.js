@@ -14098,7 +14098,9 @@ method
 that
 just
 does
-grow_memory
+memory
+.
+grow
 /
 /
 in
