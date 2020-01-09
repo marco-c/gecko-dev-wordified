@@ -268,6 +268,15 @@ Nullable
 import
 android
 .
+support
+.
+annotation
+.
+UiThread
+;
+import
+android
+.
 text
 .
 Editable
@@ -2453,6 +2462,7 @@ View
 )
 *
 /
+UiThread
 public
 Nullable
 View
@@ -2585,6 +2595,7 @@ getView
 )
 *
 /
+UiThread
 public
 synchronized
 void
@@ -2836,6 +2847,7 @@ handled
 .
 *
 /
+UiThread
 public
 boolean
 onKeyPreIme
@@ -2906,6 +2918,7 @@ handled
 .
 *
 /
+UiThread
 public
 boolean
 onKeyDown
@@ -2976,6 +2989,7 @@ handled
 .
 *
 /
+UiThread
 public
 boolean
 onKeyUp
@@ -3046,6 +3060,7 @@ handled
 .
 *
 /
+UiThread
 public
 boolean
 onKeyLongPress
@@ -3123,6 +3138,7 @@ handled
 .
 *
 /
+UiThread
 public
 boolean
 onKeyMultiple
@@ -3185,6 +3201,7 @@ default
 .
 *
 /
+UiThread
 public
 void
 setDelegate
@@ -3237,6 +3254,7 @@ set
 .
 *
 /
+UiThread
 public
 GeckoSession
 .

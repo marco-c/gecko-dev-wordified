@@ -429,6 +429,15 @@ StringDef
 import
 android
 .
+support
+.
+annotation
+.
+UiThread
+;
+import
+android
+.
 util
 .
 Base64
@@ -6196,6 +6205,7 @@ see
 isOpen
 *
 /
+UiThread
 public
 void
 open
@@ -6485,6 +6495,7 @@ see
 isOpen
 *
 /
+UiThread
 public
 void
 close
@@ -6699,6 +6710,7 @@ instance
 .
 *
 /
+UiThread
 public
 NonNull
 SessionAccessibility
@@ -9502,6 +9514,7 @@ GeckoDisplay
 )
 *
 /
+UiThread
 public
 NonNull
 GeckoDisplay
@@ -9599,6 +9612,7 @@ acquireDisplay
 )
 *
 /
+UiThread
 public
 void
 releaseDisplay

@@ -202,6 +202,15 @@ Nullable
 import
 android
 .
+support
+.
+annotation
+.
+UiThread
+;
+import
+android
+.
 text
 .
 TextUtils
@@ -898,6 +907,7 @@ context
 .
 *
 /
+UiThread
 public
 static
 synchronized
@@ -1838,6 +1848,7 @@ runtime
 .
 *
 /
+UiThread
 public
 static
 NonNull
@@ -1941,6 +1952,7 @@ runtime
 .
 *
 /
+UiThread
 public
 static
 NonNull
@@ -2310,6 +2322,7 @@ object
 .
 *
 /
+UiThread
 public
 RuntimeTelemetry
 getTelemetry
