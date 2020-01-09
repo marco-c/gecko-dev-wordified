@@ -177,6 +177,11 @@ StartTraceLogger
 JSContext
 *
 cx
+mozilla
+:
+:
+TimeStamp
+profilerStart
 )
 ;
 /
@@ -311,6 +316,11 @@ StartTraceLogger
 JSContext
 *
 cx
+mozilla
+:
+:
+TimeStamp
+profilerStart
 )
 {
 }
