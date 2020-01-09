@@ -1477,6 +1477,27 @@ time
 '
 :
 7200
+                
+#
+Retry
+on
+apt
+-
+get
+errors
+.
+                
+'
+retry
+-
+exit
+-
+status
+'
+:
+[
+100
+]
             
 }
         
