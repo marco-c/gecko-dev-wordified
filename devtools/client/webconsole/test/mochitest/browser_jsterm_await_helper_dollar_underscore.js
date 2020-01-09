@@ -539,10 +539,10 @@ const
 delays
 =
 [
-1000
-500
 2000
-1500
+1000
+4000
+3000
 ]
 ;
 const
@@ -598,7 +598,7 @@ for
 the
 message
 that
-sould
+should
 be
 displayed
 last
@@ -614,7 +614,7 @@ await
 -
 concurrent
 -
-2000
+4000
 "
 "
 .
@@ -659,7 +659,7 @@ await
 -
 concurrent
 -
-2000
+4000
 "
 )
 ;
