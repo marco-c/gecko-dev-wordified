@@ -271,6 +271,13 @@ h
 #
 include
 "
+nsIWebProgressListener2
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -1157,7 +1164,7 @@ nsITabChild
 public
 nsIObserver
 public
-nsIWebProgressListener
+nsIWebProgressListener2
 public
 TabContext
 public
@@ -1431,6 +1438,7 @@ NS_DECL_NSIWINDOWPROVIDER
 NS_DECL_NSITABCHILD
 NS_DECL_NSIOBSERVER
 NS_DECL_NSIWEBPROGRESSLISTENER
+NS_DECL_NSIWEBPROGRESSLISTENER2
 NS_DECL_NSITOOLTIPLISTENER
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
