@@ -5105,14 +5105,6 @@ loadBookmarksInBackground
 allowInheritPrincipal
 :
 isJavaScriptURL
-&
-&
-aWhere
-=
-=
-"
-current
-"
 private
 :
 aPrivate
