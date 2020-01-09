@@ -104,6 +104,7 @@ intern
 DataStore
 Handle
 Internable
+InternDebug
 Interner
 UpdateList
 }
@@ -483,6 +484,12 @@ linear_grad
 nine_patch
 }
 }
+}
+impl
+InternDebug
+for
+LinearGradientKey
+{
 }
 impl
 AsInstanceKind
@@ -1928,6 +1935,12 @@ radial_grad
 nine_patch
 }
 }
+}
+impl
+InternDebug
+for
+RadialGradientKey
+{
 }
 impl
 AsInstanceKind

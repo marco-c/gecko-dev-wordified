@@ -6107,6 +6107,15 @@ clip_mode
 )
 }
 }
+impl
+intern
+:
+:
+InternDebug
+for
+ClipItemKey
+{
+}
 #
 [
 derive

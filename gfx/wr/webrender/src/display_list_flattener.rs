@@ -241,6 +241,7 @@ intern
 {
 Handle
 Internable
+InternDebug
 }
 ;
 use
@@ -5648,6 +5649,8 @@ P
 Marker
 >
 >
++
+InternDebug
 DocumentResources
 :
 InternerMut
@@ -6059,6 +6062,8 @@ P
 Marker
 >
 >
++
+InternDebug
 DocumentResources
 :
 InternerMut
@@ -6157,6 +6162,8 @@ P
 Marker
 >
 >
++
+InternDebug
 DocumentResources
 :
 InternerMut
@@ -6334,6 +6341,8 @@ P
 Marker
 >
 >
++
+InternDebug
 DocumentResources
 :
 InternerMut
@@ -10349,6 +10358,8 @@ P
 Marker
 >
 >
++
+InternDebug
 DocumentResources
 :
 InternerMut
@@ -10523,6 +10534,8 @@ P
 Marker
 >
 >
++
+InternDebug
 DocumentResources
 :
 InternerMut
