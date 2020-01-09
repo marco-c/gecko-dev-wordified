@@ -6924,11 +6924,7 @@ nsContentUtils
 DispatchTrustedEvent
 (
 this
-static_cast
-<
-nsIDocument
-*
->
+ToSupports
 (
 this
 )

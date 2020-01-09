@@ -929,11 +929,7 @@ nsContentUtils
 DispatchChromeEvent
 (
 imgDoc
-static_cast
-<
-nsIDocument
-*
->
+ToSupports
 (
 imgDoc
 )

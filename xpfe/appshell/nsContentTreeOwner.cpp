@@ -4965,12 +4965,10 @@ dsitem
 ;
 nsCOMPtr
 <
-nsIScriptObjectPrincipal
+nsIDocument
 >
 doc
 =
-do_QueryInterface
-(
 dsitem
 ?
 dsitem
@@ -4981,7 +4979,6 @@ GetDocument
 )
 :
 nullptr
-)
 ;
 if
 (

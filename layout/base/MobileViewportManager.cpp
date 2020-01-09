@@ -744,7 +744,7 @@ mozilla
 :
 CSSSize
 &
-aViewportOrContentSize
+aViewportSize
 )
 const
 {
@@ -757,7 +757,7 @@ ScreenSize
 (
 aDisplaySize
 )
-aViewportOrContentSize
+aViewportSize
 )
 ;
 MVM_LOG
@@ -1099,7 +1099,10 @@ if
 SameCOMIdentity
 (
 aSubject
+ToSupports
+(
 mDocument
+)
 )
 &
 &
@@ -2368,13 +2371,10 @@ SetResolutionAndScaleTo
 resolution
 .
 scale
-nsIPresShell
+nsGkAtoms
 :
 :
-ChangeOrigin
-:
-:
-eMainThread
+other
 )
 ;
 MVM_LOG

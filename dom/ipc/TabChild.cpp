@@ -2953,11 +2953,10 @@ GetDocument
 ;
 if
 (
-SameCOMIdentity
-(
 subject
+=
+=
 doc
-)
 )
 {
 nsCOMPtr

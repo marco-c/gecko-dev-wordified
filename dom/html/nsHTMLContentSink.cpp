@@ -5471,7 +5471,10 @@ GetTarget
 )
 {
 return
+ToSupports
+(
 mDocument
+)
 ;
 }
 bool

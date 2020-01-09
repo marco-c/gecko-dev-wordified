@@ -14098,11 +14098,7 @@ nsContentUtils
 DispatchChromeEvent
 (
 mDocument
-static_cast
-<
-nsIDocument
-*
->
+ToSupports
 (
 mDocument
 )

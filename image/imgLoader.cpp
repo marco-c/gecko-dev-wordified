@@ -14056,7 +14056,10 @@ aReferrerURI
 aReferrerPolicy
 aLoadGroup
 aObserver
+ToSupports
+(
 aLoadingDocument
+)
 aLoadingDocument
 requestFlags
 aContentPolicyType
@@ -14283,7 +14286,10 @@ shouldLoad
 ShouldLoadCachedImage
 (
 request
+ToSupports
+(
 aLoadingDocument
+)
 aTriggeringPrincipal
 aContentPolicyType
 /
@@ -14660,7 +14666,10 @@ false
 channelLoadGroup
 newChannel
 entry
+ToSupports
+(
 aLoadingDocument
+)
 aTriggeringPrincipal
 corsmode
 aReferrerPolicy

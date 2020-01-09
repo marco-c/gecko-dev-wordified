@@ -994,7 +994,10 @@ if
 SameCOMIdentity
 (
 aSubject
+ToSupports
+(
 mDocument
+)
 )
 &
 &

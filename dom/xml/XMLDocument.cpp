@@ -3764,11 +3764,7 @@ EventDispatcher
 :
 Dispatch
 (
-static_cast
-<
-nsIDocument
-*
->
+ToSupports
 (
 this
 )

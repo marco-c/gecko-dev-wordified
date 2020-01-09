@@ -919,7 +919,10 @@ GetTarget
 )
 {
 return
+ToSupports
+(
 mTargetDocument
+)
 ;
 }
 /

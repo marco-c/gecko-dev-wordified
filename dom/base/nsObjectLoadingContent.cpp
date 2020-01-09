@@ -1791,7 +1791,10 @@ nsSimplePluginEvent
 )
 mTarget
 (
+ToSupports
+(
 aTarget
+)
 )
 mDocument
 (

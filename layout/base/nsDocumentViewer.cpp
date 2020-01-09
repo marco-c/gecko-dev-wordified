@@ -6491,7 +6491,10 @@ os
 >
 NotifyObservers
 (
+ToSupports
+(
 d
+)
 nsContentUtils
 :
 :
@@ -17508,11 +17511,7 @@ nsContentUtils
 DispatchChromeEvent
 (
 mDocument
-static_cast
-<
-nsIDocument
-*
->
+ToSupports
 (
 mDocument
 )
@@ -18143,11 +18142,7 @@ nsContentUtils
 DispatchChromeEvent
 (
 mDocument
-static_cast
-<
-nsIDocument
-*
->
+ToSupports
 (
 mDocument
 )
@@ -26844,7 +26839,10 @@ observerService
 >
 NotifyObservers
 (
+ToSupports
+(
 mDocument
+)
 "
 document
 -
