@@ -27,6 +27,11 @@ x
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 x
 .

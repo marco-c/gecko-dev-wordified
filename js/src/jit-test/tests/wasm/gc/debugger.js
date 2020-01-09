@@ -29,6 +29,11 @@ g
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 let
@@ -107,6 +112,11 @@ g
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 g

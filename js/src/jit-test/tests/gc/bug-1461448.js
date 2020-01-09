@@ -29,6 +29,11 @@ lfOffThreadGlobal
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 for
@@ -59,6 +64,11 @@ g
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 var
@@ -116,6 +126,11 @@ g
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 var
@@ -168,6 +183,11 @@ lfOffThreadGlobal
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 try

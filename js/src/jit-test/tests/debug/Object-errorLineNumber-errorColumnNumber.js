@@ -30,6 +30,11 @@ g
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 var
@@ -261,6 +266,11 @@ g
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 g

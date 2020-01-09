@@ -33,6 +33,11 @@ root
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 dbg

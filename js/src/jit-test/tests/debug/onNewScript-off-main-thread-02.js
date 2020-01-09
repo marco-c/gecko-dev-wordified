@@ -21,6 +21,11 @@ global
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 var

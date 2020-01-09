@@ -35,6 +35,11 @@ root2
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 dbg1

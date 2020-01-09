@@ -93,6 +93,11 @@ zone
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 evaluate

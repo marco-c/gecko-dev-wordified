@@ -65,6 +65,11 @@ debuggerGlobal
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 \
@@ -145,6 +150,11 @@ base
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 \

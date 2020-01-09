@@ -8,6 +8,11 @@ g1
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 g1w
 ;

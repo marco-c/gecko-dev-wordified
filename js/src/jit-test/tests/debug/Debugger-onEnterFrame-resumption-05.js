@@ -200,6 +200,11 @@ debuggee
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 var

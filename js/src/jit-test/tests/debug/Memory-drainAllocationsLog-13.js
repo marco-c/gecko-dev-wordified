@@ -63,6 +63,11 @@ root
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 root

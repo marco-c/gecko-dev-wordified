@@ -30,6 +30,11 @@ debuggerGlobal
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 debuggerGlobal
@@ -115,6 +120,11 @@ base
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 var

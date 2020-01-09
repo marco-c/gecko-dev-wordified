@@ -152,6 +152,11 @@ global
 ;
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 assertEq

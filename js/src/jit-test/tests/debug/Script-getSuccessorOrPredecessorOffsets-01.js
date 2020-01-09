@@ -128,6 +128,11 @@ g
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 for

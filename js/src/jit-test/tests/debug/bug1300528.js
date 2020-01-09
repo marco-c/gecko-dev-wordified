@@ -83,6 +83,11 @@ lfGlobal
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 for

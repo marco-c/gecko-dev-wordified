@@ -11,6 +11,11 @@ root
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 const

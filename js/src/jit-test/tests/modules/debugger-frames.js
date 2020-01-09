@@ -137,6 +137,11 @@ g2
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 var

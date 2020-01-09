@@ -9,6 +9,11 @@ global
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 Debugger

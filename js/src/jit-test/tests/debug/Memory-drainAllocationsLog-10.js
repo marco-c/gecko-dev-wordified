@@ -37,6 +37,11 @@ root1
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 dbg
@@ -65,6 +70,11 @@ root2
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 dbg
@@ -93,6 +103,11 @@ root3
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 dbg

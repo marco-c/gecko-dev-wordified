@@ -15,6 +15,11 @@ g1
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 /
@@ -31,6 +36,11 @@ g2
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 /
@@ -54,6 +64,11 @@ g3
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 /
@@ -70,6 +85,11 @@ g4
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 /

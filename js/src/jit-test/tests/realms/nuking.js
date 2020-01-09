@@ -17,6 +17,11 @@ g1
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 var
@@ -312,6 +317,11 @@ try
 {
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 .
 Array

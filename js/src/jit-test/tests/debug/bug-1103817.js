@@ -34,6 +34,11 @@ addDebuggee
 (
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 )
 ;

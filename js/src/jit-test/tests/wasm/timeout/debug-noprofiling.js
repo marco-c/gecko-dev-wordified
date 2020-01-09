@@ -54,6 +54,11 @@ fail
 .
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 .
 Debugger

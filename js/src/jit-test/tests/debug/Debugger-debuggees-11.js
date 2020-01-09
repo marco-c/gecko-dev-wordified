@@ -81,6 +81,11 @@ d1
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 d1
@@ -149,6 +154,11 @@ d2
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 d2
