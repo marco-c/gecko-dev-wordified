@@ -89,9 +89,7 @@ values
 animated
 :
 :
-{
 ToAnimatedValue
-}
 ;
 use
 crate
@@ -2803,6 +2801,7 @@ self
 .
 was_calc
 )
+;
 }
 debug_assert
 !
@@ -2966,7 +2965,6 @@ value
 )
 =
 >
-{
 LengthPercentage
 :
 :
@@ -2974,7 +2972,6 @@ new_percent
 (
 value
 )
-}
 specified
 :
 :
@@ -2988,7 +2985,6 @@ calc
 )
 =
 >
-{
 (
 *
 *
@@ -2999,7 +2995,6 @@ to_computed_value
 (
 context
 )
-}
 }
 }
 fn
@@ -3047,6 +3042,7 @@ Percentage
 (
 p
 )
+;
 }
 let
 percentage
@@ -3101,6 +3097,7 @@ from_computed_value
 length
 )
 )
+;
 }
 specified
 :

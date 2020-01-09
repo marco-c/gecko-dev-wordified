@@ -590,6 +590,7 @@ into
 (
 )
 )
+;
 }
 debug_assert
 !
@@ -802,7 +803,6 @@ nsCSSUnit
 eCSSUnit_Calc
 =
 >
-{
 bindings
 :
 :
@@ -814,7 +814,6 @@ self
 into
 (
 )
-}
 _
 =
 >
