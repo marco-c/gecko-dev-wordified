@@ -174,7 +174,7 @@ SVGLengthBinding
 .
 h
 "
-NS_IMPL_NS_NEW_NAMESPACED_SVG_ELEMENT
+NS_IMPL_NS_NEW_SVG_ELEMENT
 (
 ForeignObject
 )
