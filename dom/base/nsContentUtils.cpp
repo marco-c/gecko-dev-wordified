@@ -36023,7 +36023,7 @@ uri
 NS_ERROR_UNEXPECTED
 )
 ;
-nsCString
+nsAutoCString
 host
 ;
 rv
@@ -36052,7 +36052,7 @@ IsEmpty
 )
 )
 {
-nsCString
+nsAutoCString
 scheme
 ;
 rv
@@ -36112,7 +36112,7 @@ port
 -
 1
 ;
-nsCString
+nsAutoCString
 hostPort
 ;
 rv
@@ -36485,7 +36485,7 @@ uri
 NS_ERROR_UNEXPECTED
 )
 ;
-nsCString
+nsAutoCString
 host
 ;
 rv
@@ -36514,7 +36514,7 @@ IsEmpty
 )
 )
 {
-nsCString
+nsAutoCString
 scheme
 ;
 rv
@@ -36574,7 +36574,7 @@ port
 -
 1
 ;
-nsCString
+nsAutoCString
 hostPort
 ;
 rv
