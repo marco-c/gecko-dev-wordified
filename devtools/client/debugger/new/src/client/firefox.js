@@ -262,6 +262,9 @@ reconfigure
 observeAsmJS
 :
 true
+pauseWorkersUntilAttach
+:
+true
 wasmBinarySource
 :
 supportsWasm
