@@ -910,7 +910,9 @@ true
 )
 {
 Message
-*
+:
+:
+UniquePtr
 msg
 =
 channel
@@ -934,7 +936,13 @@ channel
 >
 mHandler
 (
+std
+:
+:
+move
+(
 msg
+)
 )
 ;
 }
@@ -1147,7 +1155,9 @@ rv
 }
 }
 Message
-*
+:
+:
+UniquePtr
 Channel
 :
 :
@@ -1406,7 +1416,9 @@ nbytes
 ;
 }
 Message
-*
+:
+:
+UniquePtr
 res
 =
 (
