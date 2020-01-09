@@ -3258,6 +3258,9 @@ be
 executing
 JS
 .
+case
+GeckoProcessType_RemoteSandboxBroker
+:
 default
 :
 loadChromeManifests
