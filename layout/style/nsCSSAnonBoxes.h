@@ -355,6 +355,13 @@ NonInheritingAnonBoxesStart
 ifdef
 DEBUG
 static
+nsStaticAtom
+*
+GetAtomBase
+(
+)
+;
+static
 void
 AssertAtoms
 (
