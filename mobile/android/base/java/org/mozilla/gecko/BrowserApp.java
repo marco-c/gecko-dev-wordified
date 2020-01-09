@@ -21757,6 +21757,12 @@ item
 !
 =
 null
+&
+&
+mExtensionPermissionsHelper
+!
+=
+null
 )
 {
 if
