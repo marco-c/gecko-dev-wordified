@@ -10803,7 +10803,11 @@ MemFill
 MemInit
 TableCopy
 TableDrop
+TableGet
+TableGrow
 TableInit
+TableSet
+TableSize
 PostBarrier
 StructNew
 StructNarrow

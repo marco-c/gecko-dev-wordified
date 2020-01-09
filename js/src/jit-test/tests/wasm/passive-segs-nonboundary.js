@@ -4369,7 +4369,7 @@ encoding
 checkMiscPrefixed
 (
 [
-0x0f
+0x13
 ]
 true
 )
@@ -4378,7 +4378,7 @@ true
 /
 table
 .
-copy
+size
 +
 1
 which
