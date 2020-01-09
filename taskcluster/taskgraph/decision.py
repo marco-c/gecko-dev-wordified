@@ -2203,6 +2203,20 @@ try
 '
 in
 project
+and
+options
+[
+'
+tasks_for
+'
+]
+=
+=
+'
+hg
+-
+push
+'
 :
         
 set_try_config
