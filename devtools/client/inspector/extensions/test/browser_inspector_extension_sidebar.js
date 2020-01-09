@@ -1150,6 +1150,8 @@ onNodeHighlight
 =
 toolbox
 .
+highlighter
+.
 once
 (
 "
@@ -1214,6 +1216,8 @@ const
 onNodeUnhighlight
 =
 toolbox
+.
+highlighter
 .
 once
 (
@@ -1409,6 +1413,8 @@ onNodeHighlight
 =
 toolbox
 .
+highlighter
+.
 once
 (
 "
@@ -1422,6 +1428,8 @@ const
 onNodeUnhighlight
 =
 toolbox
+.
+highlighter
 .
 once
 (

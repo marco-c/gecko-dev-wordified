@@ -184,6 +184,13 @@ target
 )
 ;
 await
+toolbox
+.
+initInspector
+(
+)
+;
+await
 ContentTask
 .
 spawn
@@ -292,6 +299,8 @@ onNodeHighlight
 =
 toolbox
 .
+highlighter
+.
 once
 (
 "
@@ -358,6 +367,8 @@ const
 onNodeUnhighlight
 =
 toolbox
+.
+highlighter
 .
 once
 (

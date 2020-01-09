@@ -172,6 +172,8 @@ onHighlight
 =
 toolbox
 .
+highlighter
+.
 once
 (
 "

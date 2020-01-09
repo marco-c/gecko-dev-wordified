@@ -250,13 +250,11 @@ TEST_URL
 )
 ;
 const
-highlighterUtils
+highlighter
 =
 inspector
 .
-toolbox
-.
-highlighterUtils
+highlighter
 ;
 const
 div
@@ -308,9 +306,9 @@ node
 )
 ;
 await
-highlighterUtils
+highlighter
 .
-highlightNodeFront
+highlight
 (
 div
 )
@@ -421,7 +419,7 @@ node
 )
 ;
 await
-highlighterUtils
+highlighter
 .
 unhighlight
 (

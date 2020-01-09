@@ -2095,7 +2095,7 @@ animationInspector
 .
 inspector
 .
-toolbox
+highlighter
 .
 once
 (

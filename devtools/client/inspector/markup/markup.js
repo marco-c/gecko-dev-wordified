@@ -3026,9 +3026,9 @@ this
 .
 toolbox
 .
-highlighterUtils
+highlighter
 .
-highlightNodeFront
+highlight
 (
 nodeFront
 )
@@ -3064,12 +3064,8 @@ Boolean
 forceHide
 *
 See
-toolbox
--
-highlighter
--
-utils
-/
+highlighterFront
+method
 unhighlight
 *
 return
@@ -3113,7 +3109,7 @@ this
 .
 toolbox
 .
-highlighterUtils
+highlighter
 .
 unhighlight
 (
