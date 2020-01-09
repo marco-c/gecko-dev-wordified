@@ -1058,9 +1058,6 @@ any
 root
 :
 any
-activeTab
-:
-{
 navigateTo
 :
 (
@@ -1096,7 +1093,6 @@ Promise
 <
 *
 >
-}
 destroy
 :
 (
