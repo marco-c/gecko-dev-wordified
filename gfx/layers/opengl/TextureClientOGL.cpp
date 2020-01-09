@@ -1086,7 +1086,7 @@ SurfaceTextureDescriptor
 mSurface
 -
 >
-GetImageHandle
+GetHandle
 (
 )
 mSize
