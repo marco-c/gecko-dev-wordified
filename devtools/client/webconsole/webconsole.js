@@ -2063,8 +2063,6 @@ this
 .
 target
 .
-activeTab
-.
 focus
 (
 )

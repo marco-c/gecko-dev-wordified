@@ -348,8 +348,6 @@ executeSoon
 >
 target
 .
-activeTab
-.
 navigateTo
 (
 {

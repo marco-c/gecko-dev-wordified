@@ -446,8 +446,6 @@ toolbox
 .
 target
 .
-activeTab
-.
 on
 (
 "
@@ -851,8 +849,6 @@ this
 toolbox
 .
 target
-.
-activeTab
 .
 off
 (

@@ -3417,13 +3417,6 @@ value
 }
 if
 (
-this
-.
-target
-.
-activeTab
-&
-&
 !
 this
 .
@@ -3442,8 +3435,6 @@ checked
 this
 .
 target
-.
-activeTab
 .
 configureOptions
 .
@@ -3798,8 +3789,6 @@ this
 .
 target
 .
-activeTab
-.
 reconfigure
 (
 {
@@ -3836,15 +3825,6 @@ _removeListeners
 (
 )
 ;
-if
-(
-this
-.
-target
-.
-activeTab
-)
-{
 this
 .
 disableJSNode
@@ -3859,7 +3839,6 @@ this
 _disableJSClicked
 )
 ;
-}
 this
 .
 panelWin

@@ -279,17 +279,10 @@ attach
 (
 )
 ;
-const
-targetFront
-=
-target
-.
-activeTab
-;
 yield
 listWorkers
 (
-targetFront
+target
 )
 ;
 /
@@ -373,7 +366,7 @@ workers
 yield
 listWorkers
 (
-targetFront
+target
 )
 ;
 let
@@ -468,7 +461,7 @@ workers
 yield
 listWorkers
 (
-targetFront
+target
 )
 )
 ;
@@ -555,7 +548,7 @@ workers
 yield
 listWorkers
 (
-targetFront
+target
 )
 )
 ;

@@ -1080,8 +1080,6 @@ executeSoon
 >
 aTarget
 .
-activeTab
-.
 navigateTo
 (
 {
@@ -1123,8 +1121,6 @@ aWaitForTargetEvent
 ;
 await
 aTarget
-.
-activeTab
 .
 reload
 (

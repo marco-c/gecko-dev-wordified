@@ -373,8 +373,6 @@ threadClient
 await
 target
 .
-activeTab
-.
 attachThread
 (
 )
@@ -855,8 +853,6 @@ threadClient
 =
 await
 target
-.
-activeTab
 .
 attachThread
 (

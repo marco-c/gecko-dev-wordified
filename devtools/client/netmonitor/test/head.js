@@ -1568,8 +1568,6 @@ disabled
 return
 target
 .
-activeTab
-.
 reconfigure
 (
 {

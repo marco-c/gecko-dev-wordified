@@ -328,8 +328,6 @@ toolbox
 .
 target
 .
-activeTab
-.
 reload
 (
 )
