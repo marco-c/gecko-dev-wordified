@@ -338,6 +338,13 @@ virtual
 bool
 BeginTransaction
 (
+const
+nsCString
+&
+=
+nsCString
+(
+)
 )
 {
 return
@@ -428,6 +435,13 @@ BeginTransactionWithTarget
 gfxContext
 *
 aTarget
+const
+nsCString
+&
+=
+nsCString
+(
+)
 )
 {
 return

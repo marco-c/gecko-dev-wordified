@@ -1004,6 +1004,10 @@ BeginTransactionWithTarget
 gfxContext
 *
 aTarget
+const
+nsCString
+&
+aURL
 )
 {
 mTarget
@@ -1013,6 +1017,7 @@ aTarget
 return
 BeginTransaction
 (
+aURL
 )
 ;
 }
@@ -1022,6 +1027,10 @@ WebRenderLayerManager
 :
 BeginTransaction
 (
+const
+nsCString
+&
+aURL
 )
 {
 if
@@ -1064,6 +1073,10 @@ TimeStamp
 Now
 (
 )
+;
+mURL
+=
+aURL
 ;
 /
 /
@@ -1457,6 +1470,7 @@ mPaintSequenceNumber
 mLatestTransactionId
 refreshStart
 mTransactionStart
+mURL
 )
 ;
 ClearPendingScrollInfoUpdate
@@ -2301,6 +2315,7 @@ mScrollData
 containsSVGGroup
 refreshStart
 mTransactionStart
+mURL
 )
 ;
 }

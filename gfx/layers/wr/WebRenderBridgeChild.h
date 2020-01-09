@@ -441,6 +441,10 @@ mozilla
 TimeStamp
 &
 aTxnStartTime
+const
+nsCString
+&
+aTxtURL
 )
 ;
 void
@@ -481,6 +485,10 @@ mozilla
 TimeStamp
 &
 aTxnStartTime
+const
+nsCString
+&
+aTxtURL
 )
 ;
 void

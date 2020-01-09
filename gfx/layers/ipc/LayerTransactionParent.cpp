@@ -1297,11 +1297,15 @@ this
 )
 )
 ;
+nsCString
+none
+;
 mLayerManager
 -
 >
 BeginTransaction
 (
+none
 )
 ;
 }

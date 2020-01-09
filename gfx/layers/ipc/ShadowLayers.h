@@ -1929,6 +1929,10 @@ mozilla
 TimeStamp
 &
 aTransactionStart
+const
+nsCString
+&
+aURL
 bool
 *
 aSent

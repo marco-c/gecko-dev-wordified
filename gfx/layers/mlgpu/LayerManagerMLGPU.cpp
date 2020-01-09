@@ -898,6 +898,10 @@ LayerManagerMLGPU
 :
 BeginTransaction
 (
+const
+nsCString
+&
+aURL
 )
 {
 MOZ_ASSERT

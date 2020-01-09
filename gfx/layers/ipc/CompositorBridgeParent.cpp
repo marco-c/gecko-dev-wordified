@@ -5951,6 +5951,9 @@ Clear
 }
 #
 endif
+nsCString
+none
+;
 if
 (
 aTarget
@@ -5974,6 +5977,7 @@ mLayerManager
 >
 BeginTransaction
 (
+none
 )
 ;
 }

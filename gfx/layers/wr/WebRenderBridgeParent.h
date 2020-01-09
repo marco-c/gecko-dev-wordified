@@ -674,6 +674,10 @@ TimeStamp
 &
 aTxnStartTime
 const
+nsCString
+&
+aTxnURL
+const
 TimeStamp
 &
 aFwdTime
@@ -762,6 +766,10 @@ const
 TimeStamp
 &
 aTxnStartTime
+const
+nsCString
+&
+aTxnURL
 const
 TimeStamp
 &
@@ -1178,6 +1186,10 @@ const
 TimeStamp
 &
 aTxnStartTime
+const
+nsCString
+&
+aTxnURL
 const
 TimeStamp
 &
@@ -1981,6 +1993,10 @@ TimeStamp
 &
 aTxnStartTime
 const
+nsCString
+&
+aTxnURL
+const
 TimeStamp
 &
 aFwdTime
@@ -2007,6 +2023,10 @@ aRefreshStartTime
 mTxnStartTime
 (
 aTxnStartTime
+)
+mTxnURL
+(
+aTxnURL
 )
 mFwdTime
 (
@@ -2040,6 +2060,9 @@ mRefreshStartTime
 ;
 TimeStamp
 mTxnStartTime
+;
+nsCString
+mTxnURL
 ;
 TimeStamp
 mFwdTime
