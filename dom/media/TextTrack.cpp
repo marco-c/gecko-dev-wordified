@@ -829,10 +829,6 @@ aCue
 ;
 }
 }
-SetDirty
-(
-)
-;
 }
 void
 TextTrack
@@ -925,10 +921,6 @@ aCue
 ;
 }
 }
-SetDirty
-(
-)
-;
 }
 void
 TextTrack
@@ -1290,10 +1282,6 @@ aCue
 ;
 }
 }
-SetDirty
-(
-)
-;
 }
 void
 TextTrack
