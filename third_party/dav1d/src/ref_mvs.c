@@ -1824,6 +1824,14 @@ bsize
 8
 ;
 return
+block_size_allowed
+&
+&
+type
+>
+TRANSLATION
+&
+&
 (
 mode
 =
@@ -1836,14 +1844,6 @@ mode
 =
 GLOBAL_GLOBALMV
 )
-&
-&
-type
->
-TRANSLATION
-&
-&
-block_size_allowed
 ;
 }
 typedef
@@ -1865,7 +1865,7 @@ gamma
 delta
 ;
 }
-WarpedMotionParams
+Dav1dWarpedMotionParams
 ;
 #
 define
@@ -2169,7 +2169,7 @@ outside
 BufferPool
 buffer_pool
 ;
-WarpedMotionParams
+Dav1dWarpedMotionParams
 global_motion
 [
 TOTAL_REFS_PER_FRAME
@@ -2881,7 +2881,7 @@ int_mv
 gm_get_motion_vector
 (
 const
-WarpedMotionParams
+Dav1dWarpedMotionParams
 *
 gm
 int
@@ -5621,7 +5621,7 @@ int_mv
 *
 gm_mv_candidates
 const
-WarpedMotionParams
+Dav1dWarpedMotionParams
 *
 gm_params
 int
@@ -14725,7 +14725,7 @@ ref_ref_poc
 7
 ]
 const
-WarpedMotionParams
+Dav1dWarpedMotionParams
 gmv
 [
 7
@@ -14790,7 +14790,7 @@ ref_ref_poc
 7
 ]
 const
-WarpedMotionParams
+Dav1dWarpedMotionParams
 gmv
 [
 7

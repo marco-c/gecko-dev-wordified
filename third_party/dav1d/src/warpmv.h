@@ -261,7 +261,7 @@ h
 int
 dav1d_get_shear_params
 (
-WarpedMotionParams
+Dav1dWarpedMotionParams
 *
 wm
 )
@@ -289,7 +289,7 @@ int
 bh4
 mv
 mv
-WarpedMotionParams
+Dav1dWarpedMotionParams
 *
 wm
 int
