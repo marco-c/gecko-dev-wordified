@@ -2162,7 +2162,6 @@ header
 querySelector
 (
 "
-caption
 .
 search
 -

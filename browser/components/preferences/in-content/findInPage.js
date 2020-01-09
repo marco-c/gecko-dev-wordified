@@ -2241,7 +2241,6 @@ document
 querySelectorAll
 (
 "
-caption
 .
 search
 -

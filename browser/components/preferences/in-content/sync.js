@@ -2674,7 +2674,14 @@ hidden
 =
 false
 ;
-displayNameLabel
+document
+.
+getElementById
+(
+"
+fxaDisplayNameHeading
+"
+)
 .
 textContent
 =
