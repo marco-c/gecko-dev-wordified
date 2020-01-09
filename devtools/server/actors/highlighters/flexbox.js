@@ -1460,7 +1460,7 @@ Map
 }
 if
 (
-gCachedFlexboxPattern
+flexboxPatternMap
 .
 has
 (
@@ -1469,7 +1469,7 @@ JUSTIFY_CONTENT
 )
 {
 return
-gCachedFlexboxPattern
+flexboxPatternMap
 .
 get
 (
