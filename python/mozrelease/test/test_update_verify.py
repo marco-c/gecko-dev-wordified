@@ -66,6 +66,11 @@ MPL
 /
 .
 from
+__future__
+import
+absolute_import
+print_function
+from
 md5
 import
 md5
