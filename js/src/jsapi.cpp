@@ -2958,7 +2958,7 @@ if
 rt
 -
 >
-getJitRuntime
+createJitRuntime
 (
 cx
 )
