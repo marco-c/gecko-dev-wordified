@@ -226,7 +226,7 @@ mScrollbarAnimationId
 )
 mFixedPosScrollContainerId
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -436,7 +436,7 @@ GetManager
 )
 )
 ;
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1228,7 +1228,7 @@ ScrollMetadata
 aMetadata
 )
 {
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1455,7 +1455,7 @@ WebRenderScrollData
 HasMetadataFor
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1738,7 +1738,7 @@ i
 +
 )
 {
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

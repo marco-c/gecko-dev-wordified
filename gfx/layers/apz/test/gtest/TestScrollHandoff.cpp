@@ -212,7 +212,7 @@ layers
 SetScrollableFrameMetrics
 (
 root
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -231,7 +231,7 @@ layers
 [
 1
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -387,7 +387,7 @@ layers
 SetScrollableFrameMetrics
 (
 root
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -406,7 +406,7 @@ layers
 [
 1
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -429,7 +429,7 @@ layers
 [
 2
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -646,7 +646,7 @@ layers
 [
 0
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -665,7 +665,7 @@ layers
 [
 1
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -686,7 +686,7 @@ layers
 [
 2
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -707,7 +707,7 @@ layers
 [
 3
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -728,7 +728,7 @@ layers
 [
 4
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -912,7 +912,7 @@ layers
 SetScrollableFrameMetrics
 (
 root
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -931,7 +931,7 @@ layers
 [
 1
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -1078,7 +1078,7 @@ makeParentScrollable
 SetScrollableFrameMetrics
 (
 root
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -1097,7 +1097,7 @@ layers
 [
 1
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID

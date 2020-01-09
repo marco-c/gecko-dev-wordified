@@ -142,11 +142,11 @@ namespace
 layers
 {
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID

@@ -102,13 +102,6 @@ mozilla_layers_APZCCallbackHelper_h
 #
 include
 "
-FrameMetrics
-.
-h
-"
-#
-include
-"
 InputData
 .
 h
@@ -375,16 +368,6 @@ mozilla
 layers
 :
 :
-FrameMetrics
-FrameMetrics
-;
-typedef
-mozilla
-:
-:
-layers
-:
-:
 ScrollableLayerGuid
 ScrollableLayerGuid
 ;
@@ -401,7 +384,7 @@ parameters
 from
 the
 given
-FrameMetrics
+RepaintRequest
 object
 to
 the
@@ -468,7 +451,7 @@ parameters
 from
 the
 given
-FrameMetrics
+RepaintRequest
 object
 to
 the
@@ -586,7 +569,7 @@ aContent
 uint32_t
 *
 aPresShellIdOut
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1333,7 +1316,7 @@ void
 NotifyMozMouseScrollEvent
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1372,7 +1355,7 @@ void
 NotifyAsyncScrollbarDragRejected
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1385,7 +1368,7 @@ void
 NotifyAsyncAutoscrollRejected
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1398,7 +1381,7 @@ void
 CancelAutoscroll
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

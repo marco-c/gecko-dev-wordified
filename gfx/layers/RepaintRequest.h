@@ -309,7 +309,7 @@ RepaintRequest
 :
 mScrollId
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -1076,7 +1076,7 @@ return
 mScrollGeneration
 ;
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1218,7 +1218,7 @@ each
 scrollable
 frame
 .
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

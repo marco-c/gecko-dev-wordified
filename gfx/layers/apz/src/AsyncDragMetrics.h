@@ -123,7 +123,11 @@ mozilla_layers_DragMetrics_h
 #
 include
 "
-FrameMetrics
+mozilla
+/
+layers
+/
+ScrollableLayerGuid
 .
 h
 "
@@ -215,7 +219,7 @@ mScrollbarDragOffset
 AsyncDragMetrics
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -256,7 +260,7 @@ aDirection
 )
 {
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

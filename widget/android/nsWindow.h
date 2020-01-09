@@ -1637,7 +1637,7 @@ uint32_t
 &
 aPresShellId
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

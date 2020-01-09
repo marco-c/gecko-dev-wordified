@@ -123,7 +123,11 @@ ZoomConstraintsClient_h_
 #
 include
 "
-FrameMetrics
+mozilla
+/
+layers
+/
+ScrollableLayerGuid
 .
 h
 "

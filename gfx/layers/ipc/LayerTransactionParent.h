@@ -789,7 +789,7 @@ IPCResult
 RecvSetAsyncScrollOffset
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -816,7 +816,7 @@ IPCResult
 RecvSetAsyncZoom
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

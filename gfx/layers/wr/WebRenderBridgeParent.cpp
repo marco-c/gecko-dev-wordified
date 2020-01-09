@@ -9483,7 +9483,7 @@ WebRenderBridgeParent
 RecvSetAsyncScrollOffset
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -9545,7 +9545,7 @@ WebRenderBridgeParent
 RecvSetAsyncZoom
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

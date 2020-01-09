@@ -1396,7 +1396,7 @@ RemoteContentController
 NotifyMozMouseScrollEvent
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1439,7 +1439,7 @@ PostTask
 (
 NewRunnableMethod
 <
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1521,7 +1521,7 @@ RemoteContentController
 NotifyAsyncScrollbarDragRejected
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1560,7 +1560,7 @@ PostTask
 (
 NewRunnableMethod
 <
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1610,7 +1610,7 @@ RemoteContentController
 NotifyAsyncAutoscrollRejected
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1649,7 +1649,7 @@ PostTask
 (
 NewRunnableMethod
 <
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

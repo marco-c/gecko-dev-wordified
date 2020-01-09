@@ -239,6 +239,9 @@ ContainerLayerParameters
 namespace
 layers
 {
+struct
+ScrollMetadata
+;
 class
 Layer
 ;
@@ -308,16 +311,6 @@ mozilla
 :
 ContainerLayerParameters
 ContainerLayerParameters
-;
-typedef
-mozilla
-:
-:
-layers
-:
-:
-FrameMetrics
-FrameMetrics
 ;
 typedef
 mozilla

@@ -77830,7 +77830,7 @@ GetCurrentScrollbarTarget
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID

@@ -419,7 +419,7 @@ IPCResult
 RecvCancelAutoscroll
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

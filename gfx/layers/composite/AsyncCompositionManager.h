@@ -1337,7 +1337,7 @@ aTransformedSubtreeRoot
 Layer
 *
 aStartTraversalAt
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1745,7 +1745,7 @@ shifting
 content
 around
 .
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

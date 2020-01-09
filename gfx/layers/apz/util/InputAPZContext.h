@@ -123,7 +123,9 @@ mozilla_layers_InputAPZContext_h
 #
 include
 "
-FrameMetrics
+mozilla
+/
+EventForwards
 .
 h
 "
@@ -132,7 +134,9 @@ include
 "
 mozilla
 /
-EventForwards
+layers
+/
+ScrollableLayerGuid
 .
 h
 "

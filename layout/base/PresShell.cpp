@@ -1580,7 +1580,7 @@ nsLayoutUtils
 PaintFrameFlags
 ;
 typedef
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

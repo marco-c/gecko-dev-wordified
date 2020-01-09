@@ -843,7 +843,7 @@ metrics
 .
 SetScrollId
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -868,7 +868,7 @@ childMetrics
 .
 SetScrollId
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID

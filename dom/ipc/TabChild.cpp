@@ -944,13 +944,6 @@ h
 #
 include
 "
-LayersLogging
-.
-h
-"
-#
-include
-"
 nsColorPickerProxy
 .
 h
@@ -1691,7 +1684,7 @@ GetScrollId
 )
 !
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -8096,7 +8089,7 @@ uint32_t
 &
 aPresShellId
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

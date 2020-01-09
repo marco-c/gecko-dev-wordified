@@ -135,6 +135,18 @@ uint8_t
 #
 include
 "
+FrameMetrics
+.
+h
+"
+/
+/
+for
+FrameMetrics
+etc
+#
+include
+"
 ImageTypes
 .
 h
@@ -299,7 +311,7 @@ std
 stringstream
 &
 aStream
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1550,7 +1562,7 @@ GetScrollParentId
 )
 !
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID

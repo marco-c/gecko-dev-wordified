@@ -998,7 +998,7 @@ ClientLayerManager
 void
 LogTestDataForCurrentPaint
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

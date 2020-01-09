@@ -550,7 +550,7 @@ mScrollTrackLength
 uint64_t
 mTargetViewId
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -1091,7 +1091,7 @@ true
 bool
 SetFixedPositionData
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1181,7 +1181,7 @@ true
 bool
 SetStickyPositionData
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1477,7 +1477,7 @@ return
 mScrolledClip
 ;
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1499,7 +1499,7 @@ mFixedPositionData
 >
 mScrollId
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -1553,7 +1553,7 @@ return
 mStickyPositionData
 ;
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1747,7 +1747,7 @@ mForceIsolatedGroup
 struct
 FixedPositionData
 {
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1770,7 +1770,7 @@ mFixedPositionData
 struct
 StickyPositionData
 {
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

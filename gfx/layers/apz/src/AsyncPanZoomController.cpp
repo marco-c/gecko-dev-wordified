@@ -34792,6 +34792,17 @@ mLayersId
 Metrics
 (
 )
+.
+GetPresShellId
+(
+)
+Metrics
+(
+)
+.
+GetScrollId
+(
+)
 )
 ;
 }

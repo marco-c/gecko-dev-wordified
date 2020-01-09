@@ -2433,7 +2433,7 @@ FindMetricsWithScrollId
 Layer
 *
 aLayer
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -2540,7 +2540,7 @@ AsyncTransformShouldBeUnapplied
 Layer
 *
 aFixedLayer
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -2548,7 +2548,7 @@ aFixedWithRespectTo
 Layer
 *
 aTransformedLayer
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -2892,7 +2892,7 @@ Nothing
 static
 Maybe
 <
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -2985,7 +2985,7 @@ aTransformedSubtreeRoot
 Layer
 *
 aStartTraversalAt
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -3062,7 +3062,7 @@ if
 (
 Maybe
 <
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -5832,7 +5832,7 @@ MoveScrollbarForLayerMargin
 Layer
 *
 aRoot
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

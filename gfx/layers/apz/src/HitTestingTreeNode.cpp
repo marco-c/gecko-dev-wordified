@@ -246,7 +246,7 @@ mScrollbarAnimationId
 )
 mFixedPosTarget
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -742,7 +742,7 @@ mScrollbarData
 mDirection
 ;
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -796,7 +796,7 @@ HitTestingTreeNode
 :
 SetFixedPosData
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -808,7 +808,7 @@ mFixedPosTarget
 aFixedPosTarget
 ;
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -2001,7 +2001,7 @@ fehr
 mFixedPosTarget
 !
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID

@@ -1599,7 +1599,7 @@ CompositorBridgeChild
 LookupCompositorFrameMetrics
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -4268,7 +4268,7 @@ Unlock
 )
 ;
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

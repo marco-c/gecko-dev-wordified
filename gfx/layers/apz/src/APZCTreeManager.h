@@ -2634,7 +2634,7 @@ should
 be
 set
 to
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -4911,7 +4911,7 @@ LayersId
 &
 aLayersId
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

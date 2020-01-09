@@ -131,7 +131,6 @@ h
 /
 for
 FrameMetrics
-etc
 #
 include
 "
@@ -331,7 +330,7 @@ std
 stringstream
 &
 aStream
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

@@ -681,7 +681,7 @@ ChromeProcessController
 GetRootContentDocument
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -908,7 +908,7 @@ point
 uint32_t
 presShellId
 ;
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1422,7 +1422,7 @@ ChromeProcessController
 NotifyMozMouseScrollEvent
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1454,7 +1454,7 @@ PostTask
 (
 NewRunnableMethod
 <
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1527,7 +1527,7 @@ ChromeProcessController
 NotifyAsyncScrollbarDragRejected
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1555,7 +1555,7 @@ PostTask
 (
 NewRunnableMethod
 <
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1599,7 +1599,7 @@ ChromeProcessController
 NotifyAsyncAutoscrollRejected
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1627,7 +1627,7 @@ PostTask
 (
 NewRunnableMethod
 <
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

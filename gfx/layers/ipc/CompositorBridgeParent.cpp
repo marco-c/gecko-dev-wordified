@@ -1639,7 +1639,7 @@ CompositorBridgeParentBase
 :
 StopSharingMetrics
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1675,7 +1675,7 @@ PostTask
 (
 NewRunnableMethod
 <
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -8321,7 +8321,7 @@ LayersId
 &
 aLayersId
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -8370,7 +8370,7 @@ LayersId
 &
 aLayersId
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

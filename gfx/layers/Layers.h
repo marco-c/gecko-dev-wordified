@@ -2972,7 +2972,7 @@ time
 .
 *
 /
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -5151,7 +5151,7 @@ virtual
 bool
 SetPendingScrollUpdateForNextTransaction
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -5168,7 +5168,7 @@ ScrollUpdateInfo
 >
 GetPendingScrollInfoUpdate
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -8519,7 +8519,7 @@ SideBits
 void
 SetFixedPositionData
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -8665,7 +8665,7 @@ container
 void
 SetStickyPositionData
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -9278,7 +9278,7 @@ IsStickyPosition
 )
 ;
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -9320,7 +9320,7 @@ GetFixedPositionSides
 )
 ;
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

@@ -162,6 +162,17 @@ mozilla
 /
 layers
 /
+ScrollableLayerGuid
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 SyncObject
 .
 h
@@ -194,13 +205,6 @@ mozilla
 webrender
 /
 WebRenderTypes
-.
-h
-"
-#
-include
-"
-FrameMetrics
 .
 h
 "
@@ -599,7 +603,7 @@ const
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1024,7 +1028,7 @@ const
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1163,7 +1167,7 @@ aOutPipelineId
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -2120,7 +2124,7 @@ GetScrollIdForDefinedScrollLayer
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -2138,7 +2142,7 @@ const
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -3201,7 +3205,7 @@ Maybe
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -3247,7 +3251,7 @@ const
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -3363,7 +3367,7 @@ aAsr
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -3380,7 +3384,7 @@ Maybe
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -3411,7 +3415,7 @@ mAsr
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -3513,7 +3517,7 @@ unordered_map
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

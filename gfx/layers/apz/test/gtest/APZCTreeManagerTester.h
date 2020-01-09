@@ -425,7 +425,7 @@ static
 ScrollMetadata
 BuildScrollMetadata
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -483,7 +483,7 @@ if
 aScrollId
 =
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -724,7 +724,7 @@ SetScrollableFrameMetrics
 Layer
 *
 aLayer
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -979,7 +979,7 @@ layers
 SetScrollableFrameMetrics
 (
 root
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -1039,7 +1039,7 @@ layers
 SetScrollableFrameMetrics
 (
 root
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -1219,7 +1219,7 @@ layers
 [
 0
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -1231,7 +1231,7 @@ layers
 [
 2
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -1245,7 +1245,7 @@ layers
 [
 5
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -1259,7 +1259,7 @@ layers
 [
 3
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -1273,7 +1273,7 @@ layers
 [
 6
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -1349,7 +1349,7 @@ layers
 [
 0
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -1361,7 +1361,7 @@ layers
 [
 1
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
