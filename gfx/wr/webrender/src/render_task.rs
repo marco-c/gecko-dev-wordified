@@ -1706,6 +1706,7 @@ pub
 struct
 CacheMaskTask
 {
+pub
 actual_rect
 :
 DeviceIntRect
