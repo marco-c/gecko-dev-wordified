@@ -146,6 +146,17 @@ mozilla
 /
 dom
 /
+WorkletGlobalScope
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 BlobBinding
 .
 h

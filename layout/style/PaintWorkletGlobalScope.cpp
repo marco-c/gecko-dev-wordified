@@ -124,6 +124,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 WorkletPrincipal
 .
 h

@@ -124,10 +124,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
 PaintWorkletGlobalScope
 .
 h
