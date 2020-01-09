@@ -167,7 +167,6 @@ aCancelCallback
 ContentPermissionRequestBase
 (
 aNodePrincipal
-false
 aWindow
 NS_LITERAL_CSTRING
 (

@@ -2724,8 +2724,6 @@ ContentPermissionRequestBase
 nsIPrincipal
 *
 aPrincipal
-bool
-aIsHandlingUserInput
 nsPIDOMWindowInner
 *
 aWindow
@@ -2782,7 +2780,12 @@ aType
 )
 mIsHandlingUserInput
 (
-aIsHandlingUserInput
+EventStateManager
+:
+:
+IsHandlingUserInput
+(
+)
 )
 {
 }

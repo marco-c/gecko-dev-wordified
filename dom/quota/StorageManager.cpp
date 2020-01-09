@@ -885,8 +885,6 @@ aPrincipal
 nsPIDOMWindowInner
 *
 aWindow
-bool
-aIsHandlingUserInput
 Promise
 *
 aPromise
@@ -895,7 +893,6 @@ aPromise
 ContentPermissionRequestBase
 (
 aPrincipal
-aIsHandlingUserInput
 aWindow
 NS_LITERAL_CSTRING
 (
@@ -1522,12 +1519,6 @@ PersistentStoragePermissionRequest
 (
 principal
 window
-EventStateManager
-:
-:
-IsHandlingUserInput
-(
-)
 promise
 )
 ;

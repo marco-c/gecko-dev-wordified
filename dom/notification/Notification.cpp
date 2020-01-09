@@ -1278,8 +1278,6 @@ NotificationPermissionRequest
 nsIPrincipal
 *
 aPrincipal
-bool
-aIsHandlingUserInput
 nsPIDOMWindowInner
 *
 aWindow
@@ -1294,7 +1292,6 @@ aCallback
 ContentPermissionRequestBase
 (
 aPrincipal
-aIsHandlingUserInput
 aWindow
 NS_LITERAL_CSTRING
 (
@@ -8641,16 +8638,6 @@ Value
 )
 ;
 }
-bool
-isHandlingUserInput
-=
-EventStateManager
-:
-:
-IsHandlingUserInput
-(
-)
-;
 nsCOMPtr
 <
 nsIRunnable
@@ -8661,7 +8648,6 @@ new
 NotificationPermissionRequest
 (
 principal
-isHandlingUserInput
 window
 promise
 permissionCallback
