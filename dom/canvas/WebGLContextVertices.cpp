@@ -112,6 +112,15 @@ include
 "
 mozilla
 /
+Casting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 CheckedInt
 .
 h
@@ -2237,7 +2246,10 @@ VertexAttribPointer
 (
 isFuncInt
 buffer
+AutoAssertCast
+(
 size
+)
 type
 normalized
 stride

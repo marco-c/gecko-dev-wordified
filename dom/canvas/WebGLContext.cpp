@@ -919,6 +919,9 @@ WebGLFBInvalidation
 )
 mMsaaSamples
 (
+(
+uint8_t
+)
 gfxPrefs
 :
 :
