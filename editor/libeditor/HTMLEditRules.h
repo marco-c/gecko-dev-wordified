@@ -487,6 +487,7 @@ HTMLEditRules
 /
 TextEditRules
 methods
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 Init
@@ -518,6 +519,7 @@ aDirection
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 AfterEdit
@@ -532,6 +534,76 @@ aDirection
 )
 override
 ;
+/
+/
+NOTE
+:
+Don
+'
+t
+mark
+WillDoAction
+(
+)
+nor
+DidDoAction
+(
+)
+as
+MOZ_CAN_RUN_SCRIPT
+/
+/
+because
+they
+are
+too
+generic
+and
+doing
+it
+makes
+a
+lot
+of
+public
+/
+/
+editor
+methods
+marked
+as
+MOZ_CAN_RUN_SCRIPT
+too
+but
+some
+of
+them
+/
+/
+may
+not
+causes
+running
+script
+.
+So
+ideal
+fix
+must
+be
+that
+we
+make
+/
+/
+each
+method
+callsed
+by
+this
+method
+public
+.
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
@@ -549,6 +621,7 @@ aHandled
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 DidDoAction
@@ -591,6 +664,7 @@ DocumentModified
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetListState
 (
@@ -608,6 +682,7 @@ bool
 aDL
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetListItemState
 (
@@ -625,6 +700,7 @@ bool
 aDD
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetAlignment
 (
@@ -639,6 +715,7 @@ EAlignment
 aAlign
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetParagraphState
 (
@@ -1143,6 +1220,7 @@ set
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillInsertText
@@ -1368,6 +1446,7 @@ before
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 InsertBRElement
@@ -2120,6 +2199,7 @@ this
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 EditActionResult
 TryToJoinBlocksWithTransaction
@@ -2204,6 +2284,7 @@ false
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 EditActionResult
 MoveBlock
@@ -2276,6 +2357,7 @@ false
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 EditActionResult
 MoveNodeSmart
@@ -2350,6 +2432,7 @@ false
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 EditActionResult
 MoveContents
@@ -2956,6 +3039,7 @@ handled
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillRemoveAbsolutePosition
@@ -3554,6 +3638,7 @@ positioned
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 PrepareToMakeElementAbsolutePosition
@@ -3619,6 +3704,7 @@ editor
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 DidAbsolutePosition
@@ -3679,6 +3765,7 @@ div
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 AlignInnerBlocks
@@ -3797,6 +3884,7 @@ aNode
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 AlignBlockContents
@@ -3895,6 +3983,7 @@ to
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 AlignContentsAtSelection
@@ -4535,6 +4624,7 @@ break
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 ReturnInListItem
@@ -4579,6 +4669,7 @@ etc
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 AfterEditInner
@@ -4633,6 +4724,7 @@ NS_OK
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 IndentAroundSelectionWithCSS
@@ -4680,6 +4772,7 @@ NS_OK
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 IndentAroundSelectionWithHTML
@@ -4767,6 +4860,7 @@ element
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 SplitRangeOffFromNodeResult
 OutdentAroundSelection
@@ -4893,6 +4987,7 @@ method
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 SplitRangeOffFromNodeResult
 SplitRangeOffFromBlockAndRemoveMiddleContainer
@@ -5153,6 +5248,7 @@ nullptr
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 SplitRangeOffFromNodeResult
 OutdentPartOfBlock
@@ -5209,6 +5305,7 @@ NS_OK
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 MakeList
@@ -5345,6 +5442,7 @@ aNewListTag
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 CreateElementResult
 ConvertListType
@@ -5393,6 +5491,7 @@ editor
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 CreateStyleForInsertText
@@ -5994,6 +6093,7 @@ no
 yes
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 GetNodesForOperation
@@ -6063,6 +6163,7 @@ on
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 GetNodesFromPoint
@@ -6110,6 +6211,7 @@ on
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 GetNodesFromSelection
@@ -6137,6 +6239,7 @@ no
 yes
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 GetListActionNodes
@@ -6170,6 +6273,7 @@ bool
 aDD
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetParagraphFormatNodes
 (
@@ -6387,6 +6491,7 @@ itself
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 BustUpInlinesAtBRs
@@ -6591,6 +6696,7 @@ was
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 RemoveBlockStyle
 (
@@ -6748,6 +6854,7 @@ elements
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 ApplyBlockStyle
@@ -6839,6 +6946,7 @@ elements
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 MakeBlockquote
@@ -7202,6 +7310,7 @@ aRightNode
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 JoinNearestEditableNodesWithTransaction
@@ -7381,6 +7490,7 @@ false
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 PopListItem
@@ -7521,6 +7631,7 @@ element
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 RemoveListStructure
@@ -8414,6 +8525,7 @@ false
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 RemoveAlignment
@@ -8634,6 +8746,7 @@ ElementAndDescendants
 OnlyDescendants
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 AlignBlock
@@ -8698,6 +8811,7 @@ indented
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 IncreaseMarginToIndent
@@ -8764,6 +8878,7 @@ outdented
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 DecreaseMarginToOutdent
@@ -8865,6 +8980,7 @@ outdent
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 ChangeMarginStart

@@ -194,11 +194,6 @@ GetEditable
 )
 ;
 nsresult
-CreateEditor
-(
-)
-;
-nsresult
 GetEditingSession
 (
 nsIEditingSession

@@ -14438,6 +14438,8 @@ isDestElementInBody
 SetAttributeOrEquivalent
 (
 destElement
+MOZ_KnownLive
+(
 attr
 -
 >
@@ -14448,6 +14450,7 @@ NodeInfo
 >
 NameAtom
 (
+)
 )
 value
 false
@@ -14484,6 +14487,8 @@ UndoStack
 SetAttributeOrEquivalent
 (
 destElement
+MOZ_KnownLive
+(
 attr
 -
 >
@@ -14494,6 +14499,7 @@ NodeInfo
 >
 NameAtom
 (
+)
 )
 value
 true
