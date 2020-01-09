@@ -323,10 +323,6 @@ VideoDecoderChild
 (
 )
 {
-AssertOnManagerThread
-(
-)
-;
 mInitPromise
 .
 RejectIfExists
