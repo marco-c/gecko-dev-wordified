@@ -64,6 +64,7 @@ strict
 /
 *
 *
+*
 Handles
 the
 validation
@@ -89,7 +90,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-FormSubmitChild
+FormValidationChild
 "
 ]
 ;
@@ -166,7 +167,7 @@ jsm
 )
 ;
 class
-FormSubmitChild
+FormValidationChild
 extends
 ActorChild
 {
