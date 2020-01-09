@@ -332,6 +332,13 @@ h
 #
 include
 "
+nsIPresShell
+.
+h
+"
+#
+include
+"
 nsFocusManager
 .
 h

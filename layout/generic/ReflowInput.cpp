@@ -188,6 +188,13 @@ h
 #
 include
 "
+nsIPresShell
+.
+h
+"
+#
+include
+"
 nsFontMetrics
 .
 h

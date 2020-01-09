@@ -151,6 +151,13 @@ h
 #
 include
 "
+nsIPresShell
+.
+h
+"
+#
+include
+"
 nsViewManager
 .
 h
@@ -171,9 +178,6 @@ h
 "
 class
 nsIContent
-;
-class
-nsIPresShell
 ;
 class
 nsPresContext
