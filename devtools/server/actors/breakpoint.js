@@ -323,11 +323,11 @@ breakpoint
 .
 *
 param
-OriginalLocation
-originalLocation
+GeneratedLocation
+generatedLocation
 *
 The
-original
+generated
 location
 of
 the
@@ -340,7 +340,7 @@ initialize
 function
 (
 threadActor
-originalLocation
+generatedLocation
 )
 {
 /
@@ -379,9 +379,9 @@ threadActor
 ;
 this
 .
-originalLocation
+generatedLocation
 =
-originalLocation
+generatedLocation
 ;
 this
 .
@@ -977,7 +977,7 @@ frame
 .
 onPop
 .
-originalLocation
+generatedLocation
 ;
 if
 (
@@ -986,7 +986,7 @@ locationAtFinish
 &
 locationAtFinish
 .
-originalLine
+generatedLine
 =
 =
 =
@@ -995,7 +995,7 @@ generatedLine
 &
 locationAtFinish
 .
-originalColumn
+generatedColumn
 =
 =
 =
@@ -1198,7 +1198,7 @@ if
 (
 this
 .
-originalLocation
+generatedLocation
 )
 {
 this
@@ -1211,7 +1211,7 @@ deleteActor
 (
 this
 .
-originalLocation
+generatedLocation
 )
 ;
 }
