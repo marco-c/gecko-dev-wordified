@@ -7666,7 +7666,7 @@ cx
 existingObj
 )
 ;
-ReparentWrapper
+UpdateReflectorGlobal
 (
 cx
 existingObj
@@ -7678,7 +7678,7 @@ aError
 }
 static
 nsresult
-ReparentWrappersInSubtree
+UpdateGlobalsInSubtree
 (
 nsIContent
 *
@@ -7789,7 +7789,7 @@ cx
 reflector
 )
 ;
-ReparentWrapper
+UpdateReflectorGlobal
 (
 cx
 reflector
@@ -8293,7 +8293,7 @@ scope
 ;
 rv
 =
-ReparentWrappersInSubtree
+UpdateGlobalsInSubtree
 (
 aKid
 )
