@@ -27986,7 +27986,7 @@ reset
 (
 )
 {
-JS_POISON
+Poison
 (
 this
 0xBB

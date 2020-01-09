@@ -5374,7 +5374,7 @@ sanitizers
 .
 *
 /
-JS_POISON
+Poison
 (
 this
 JS_FRESH_TENURED_PATTERN

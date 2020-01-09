@@ -1191,7 +1191,7 @@ checkSpan
 arena
 )
 ;
-JS_EXTRA_POISON
+DebugOnlyPoison
 (
 reinterpret_cast
 <

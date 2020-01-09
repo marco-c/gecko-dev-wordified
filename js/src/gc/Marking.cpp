@@ -16514,7 +16514,7 @@ pointer
 "
 )
 ;
-JS_POISON
+Poison
 (
 stack
 (

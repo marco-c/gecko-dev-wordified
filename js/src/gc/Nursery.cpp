@@ -553,7 +553,7 @@ this
 extent
 )
 ;
-JS_POISON
+Poison
 (
 this
 JS_FRESH_NURSERY_PATTERN
@@ -640,7 +640,7 @@ this
 extent
 )
 ;
-JS_POISON
+Poison
 (
 this
 JS_SWEPT_NURSERY_PATTERN
@@ -2385,7 +2385,7 @@ noteNurseryAlloc
 (
 )
 ;
-JS_EXTRA_POISON
+DebugOnlyPoison
 (
 thing
 JS_ALLOCATED_NURSERY_PATTERN

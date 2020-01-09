@@ -2133,7 +2133,10 @@ use
 memset
 instead
 of
-JS_POISON
+js
+:
+:
+Poison
 because
 we
 want
@@ -2161,7 +2164,10 @@ invalid
 -
 ObjectValue
 poisoning
-JS_POISON
+js
+:
+:
+Poison
 does
 in
 debug
