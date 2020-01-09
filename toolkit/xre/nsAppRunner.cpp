@@ -8225,6 +8225,7 @@ gAppData
 >
 vendor
 )
+{
 printf
 (
 "
@@ -8242,6 +8243,7 @@ gAppData
 vendor
 )
 ;
+}
 printf
 (
 "
@@ -8277,6 +8279,7 @@ gAppData
 >
 copyright
 )
+{
 printf
 (
 "
@@ -8294,6 +8297,7 @@ gAppData
 copyright
 )
 ;
+}
 printf
 (
 "
