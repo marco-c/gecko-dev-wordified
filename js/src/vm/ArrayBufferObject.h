@@ -2283,10 +2283,6 @@ uint32_t
 nbytes
 BufferContents
 contents
-OwnsState
-ownsState
-=
-OwnsData
 )
 ;
 static
