@@ -148,6 +148,15 @@ Assertions
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Maybe
+.
+h
+"
 namespace
 mozilla
 {
@@ -163,7 +172,7 @@ GraphicsMessages
 ipdlh
 .
 class
-FeatureChange
+FeatureFailure
 ;
 /
 /
@@ -1433,7 +1442,10 @@ ImportChange
 Feature
 aFeature
 const
-FeatureChange
+Maybe
+<
+FeatureFailure
+>
 &
 aChange
 )

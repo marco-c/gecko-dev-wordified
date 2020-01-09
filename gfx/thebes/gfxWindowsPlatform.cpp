@@ -11879,7 +11879,7 @@ gpuDevice
 (
 )
 .
-get_D3D11DeviceStatus
+ref
 (
 )
 )
