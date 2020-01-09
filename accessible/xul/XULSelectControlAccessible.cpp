@@ -609,9 +609,11 @@ nsIDOMXULMultiSelectControlElement
 >
 xulMultiSelect
 =
-do_QueryInterface
-(
 mSelectControl
+-
+>
+AsXULMultiSelectControl
+(
 )
 ;
 if
