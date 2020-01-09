@@ -1980,11 +1980,8 @@ AssertCurrentThreadOwns
 ;
 if
 (
-NS_WARN_IF
-(
 !
 gThread
-)
 )
 {
 return
