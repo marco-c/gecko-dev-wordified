@@ -2549,6 +2549,7 @@ nsDOMMutationRecord
 aRetVal
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 HandleMutation
 (
@@ -2827,6 +2828,7 @@ QueueMutationObserverMicroTask
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 HandleMutations
@@ -3051,6 +3053,7 @@ IsInSyncOperation
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 static
 void
 HandleMutationsInternal

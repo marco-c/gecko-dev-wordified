@@ -136,6 +136,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 CondVar
 .
 h
@@ -972,6 +981,7 @@ mDefaultLocale
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 DoRunLoop
 (
@@ -1109,6 +1119,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 EnterDebuggerEventLoop
 (

@@ -134,6 +134,15 @@ nsXPCOM
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 *
@@ -234,6 +243,7 @@ shutdown
 *
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ShutdownXPCOM
 (

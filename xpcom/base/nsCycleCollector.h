@@ -154,6 +154,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 js
 /
 SliceBudget
@@ -354,6 +363,7 @@ the
 CC
 completely
 .
+MOZ_CAN_RUN_SCRIPT
 void
 nsCycleCollector_shutdown
 (
