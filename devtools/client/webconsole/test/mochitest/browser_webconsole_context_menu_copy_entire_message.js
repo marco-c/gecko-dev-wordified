@@ -1283,7 +1283,9 @@ lines
 startsWith
 (
 \
-tlogStuff
+twindow
+.
+logStuff
 data
 :
 text
