@@ -1045,8 +1045,8 @@ params
 :
 {
 frameActor
-?
 :
+?
 FrameId
 }
 )
@@ -1089,6 +1089,7 @@ func
 Function
 frameId
 :
+?
 string
 )
 =
@@ -1557,7 +1558,8 @@ column
 number
 condition
 :
-boolean
+?
+string
 noSliding
 :
 boolean
