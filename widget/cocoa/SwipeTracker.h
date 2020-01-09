@@ -221,6 +221,7 @@ API
 -
 [
 NSEvent
+*
 trackSwipeEventWithOptions
 :
 dampenAmountThresholdMin
@@ -274,6 +275,7 @@ API
 does
 (
 bug
+*
 927702
 )
 .
