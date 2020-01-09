@@ -9514,6 +9514,9 @@ return
 break
 ;
 case
+JOF_ARGC
+:
+case
 JOF_UINT16
 :
 i
@@ -9529,6 +9532,9 @@ pc
 goto
 print_int
 ;
+case
+JOF_RESUMEINDEX
+:
 case
 JOF_UINT24
 :
