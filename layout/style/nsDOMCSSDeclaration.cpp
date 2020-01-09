@@ -404,6 +404,15 @@ case
 eCSSProperty_transform
 :
 case
+eCSSProperty_translate
+:
+case
+eCSSProperty_rotate
+:
+case
+eCSSProperty_scale
+:
+case
 eCSSProperty_top
 :
 case
