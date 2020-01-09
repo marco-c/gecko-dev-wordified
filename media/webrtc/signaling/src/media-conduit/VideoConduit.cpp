@@ -2295,6 +2295,13 @@ mSendingFramerate
 (
 DEFAULT_VIDEO_MAX_FRAMERATE
 )
+mActiveCodecMode
+(
+webrtc
+:
+:
+kRealtimeVideo
+)
 mCodecMode
 (
 webrtc
@@ -3187,6 +3194,10 @@ move
 (
 encoder
 )
+;
+mActiveCodecMode
+=
+mCodecMode
 ;
 return
 kMediaConduitNoError
@@ -4878,6 +4889,12 @@ RequiresNewSendStream
 *
 codecConfig
 )
+&
+&
+mActiveCodecMode
+=
+=
+mCodecMode
 )
 {
 mCurSendCodecConfig
