@@ -243,6 +243,13 @@ nsIIPCSerializableInputStream
 .
 h
 "
+#
+include
+"
+XPCOMModule
+.
+h
+"
 using
 namespace
 mozilla

@@ -117,14 +117,14 @@ MPL
 #
 include
 "
-nsICategoryManager
+nsCategoryManager
 .
 h
 "
 #
 include
 "
-nsCategoryManager
+nsCategoryManagerUtils
 .
 h
 "
