@@ -265,12 +265,6 @@ gfxMatrix
 h
 "
 class
-nsSVGBoolean
-;
-class
-nsSVGInteger
-;
-class
 nsSVGLength2
 ;
 class
@@ -332,10 +326,16 @@ class
 SVGAnimatedLengthList
 ;
 class
+SVGBoolean
+;
+class
 SVGEnum
 ;
 class
 SVGUserUnitList
+;
+class
+SVGInteger
 ;
 class
 SVGIntegerPair
@@ -2520,7 +2520,7 @@ mDefaultValue
 struct
 IntegerAttributesInfo
 {
-nsSVGInteger
+SVGInteger
 *
 const
 mIntegers
@@ -2537,7 +2537,7 @@ mIntegerCount
 ;
 IntegerAttributesInfo
 (
-nsSVGInteger
+SVGInteger
 *
 aIntegers
 IntegerInfo
@@ -2729,7 +2729,7 @@ mDefaultValue
 struct
 BooleanAttributesInfo
 {
-nsSVGBoolean
+SVGBoolean
 *
 const
 mBooleans
@@ -2746,7 +2746,7 @@ mBooleanCount
 ;
 BooleanAttributesInfo
 (
-nsSVGBoolean
+SVGBoolean
 *
 aBooleans
 BooleanInfo

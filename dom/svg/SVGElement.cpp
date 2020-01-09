@@ -434,7 +434,7 @@ h
 #
 include
 "
-nsSVGBoolean
+SVGBoolean
 .
 h
 "
@@ -448,7 +448,7 @@ h
 #
 include
 "
-nsSVGInteger
+SVGInteger
 .
 h
 "
@@ -2991,7 +2991,7 @@ foundMatch
 /
 Check
 for
-nsSVGInteger
+SVGInteger
 attribute
 IntegerAttributesInfo
 integerInfo
@@ -3332,7 +3332,7 @@ foundMatch
 /
 Check
 for
-nsSVGBoolean
+SVGBoolean
 attribute
 BooleanAttributesInfo
 booleanInfo

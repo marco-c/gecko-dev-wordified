@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsSVGBoolean
+SVGBoolean
 .
 h
 "
@@ -151,7 +151,7 @@ h
 #
 include
 "
-nsSVGInteger
+SVGInteger
 .
 h
 "
@@ -589,7 +589,7 @@ TARGET_X
 TARGET_Y
 }
 ;
-nsSVGInteger
+SVGInteger
 mIntegerAttributes
 [
 2
@@ -625,7 +625,7 @@ enum
 PRESERVEALPHA
 }
 ;
-nsSVGBoolean
+SVGBoolean
 mBooleanAttributes
 [
 1
