@@ -470,6 +470,14 @@ dep
 self
 .
 _help_option
+or
+not
+self
+.
+_need_help_dependency
+(
+obj
+)
 :
                     
 if
@@ -522,7 +530,7 @@ dep
 )
     
 def
-_missing_help_dependency
+_need_help_dependency
 (
 self
 obj
@@ -552,16 +560,6 @@ DependsFunction
 :
             
 if
-(
-self
-.
-_help_option
-in
-obj
-.
-dependencies
-or
-                
 obj
 in
 (
@@ -571,7 +569,6 @@ _always
 self
 .
 _never
-)
 )
 :
                 
@@ -737,6 +734,44 @@ True
         
 return
 False
+    
+def
+_missing_help_dependency
+(
+self
+obj
+)
+:
+        
+if
+(
+isinstance
+(
+obj
+DependsFunction
+)
+and
+                
+self
+.
+_help_option
+in
+obj
+.
+dependencies
+)
+:
+            
+return
+False
+        
+return
+self
+.
+_need_help_dependency
+(
+obj
+)
     
 memoize
     
