@@ -1873,7 +1873,17 @@ md
 )
 :
         
-if
+#
+Method
+specifiers
+are
+for
+decls
+not
+defns
+.
+        
+assert
 md
 .
 decl
@@ -1883,10 +1893,7 @@ methodspec
 =
 MethodSpec
 .
-PURE
-:
-            
-return
+NONE
         
 self
 .

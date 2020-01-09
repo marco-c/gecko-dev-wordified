@@ -38027,6 +38027,10 @@ StmtDecl
 decl
 )
             
+if
+defn
+:
+                
 defns
 .
 addstmts
@@ -38050,6 +38054,35 @@ cls
 )
 :
     
+#
+Pure
+methods
+have
+decls
+but
+no
+defns
+.
+    
+if
+md
+.
+decl
+.
+methodspec
+=
+=
+MethodSpec
+.
+PURE
+:
+        
+return
+md
+.
+decl
+None
+    
 saveddecl
 =
 deepcopy
@@ -38066,6 +38099,18 @@ decl
 cls
 =
 cls
+    
+#
+Don
+'
+t
+emit
+method
+specifiers
+on
+method
+defns
+.
     
 md
 .
