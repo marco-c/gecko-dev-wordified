@@ -537,6 +537,11 @@ object
 )
 .
 isRequired
+temporaryInstallError
+:
+PropTypes
+.
+string
 }
 ;
 }
@@ -728,6 +733,7 @@ serviceWorkers
 sharedWorkers
 tabs
 temporaryExtensions
+temporaryInstallError
 }
 =
 this
@@ -841,6 +847,7 @@ TemporaryExtensionInstaller
 (
 {
 dispatch
+temporaryInstallError
 }
 )
 :
@@ -1073,6 +1080,13 @@ state
 debugTargets
 .
 temporaryExtensions
+temporaryInstallError
+:
+state
+.
+ui
+.
+temporaryInstallError
 }
 ;
 }
