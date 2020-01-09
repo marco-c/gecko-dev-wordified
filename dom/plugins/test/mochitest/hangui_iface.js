@@ -673,6 +673,7 @@ params
 }
 }
 }
+;
 self
 .
 onerror

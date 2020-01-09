@@ -22,9 +22,9 @@ document
 .
 getElementById
 (
-'
+"
 testframe
-'
+"
 )
 ;
 function
@@ -73,9 +73,9 @@ document
 .
 getElementsByTagName
 (
-'
+"
 embed
-'
+"
 )
 )
 ;
@@ -95,9 +95,9 @@ document
 .
 getElementsByTagName
 (
-'
+"
 object
-'
+"
 )
 )
 ;
@@ -209,9 +209,9 @@ req
 .
 open
 (
-'
+"
 GET
-'
+"
 filename
 false
 )
@@ -220,7 +220,7 @@ req
 .
 overrideMimeType
 (
-'
+"
 text
 /
 plain
@@ -232,7 +232,7 @@ x
 user
 -
 defined
-'
+"
 )
 ;
 req
