@@ -219,6 +219,7 @@ const
 console
 DOMPoint
 DOMQuad
+DOMRect
 HeapSnapshot
 StructuredCloneHolder
 TelemetryStopwatch
@@ -1789,6 +1790,7 @@ module
 DOMParser
 DOMPoint
 DOMQuad
+DOMRect
 Element
 Event
 FormData
