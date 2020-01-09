@@ -642,7 +642,9 @@ ex
 {
 try
 {
-ok
+SimpleTest
+.
+record
 (
 false
 "
@@ -667,7 +669,9 @@ catch
 ex2
 )
 {
-ok
+SimpleTest
+.
+record
 (
 false
 "
