@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_net_UrlClassifierFeatureCryptomining_h
+mozilla_net_UrlClassifierFeatureCryptominingProtection_h
 #
 define
-mozilla_net_UrlClassifierFeatureCryptomining_h
+mozilla_net_UrlClassifierFeatureCryptominingProtection_h
 #
 include
 "
@@ -137,7 +137,7 @@ namespace
 net
 {
 class
-UrlClassifierFeatureCryptomining
+UrlClassifierFeatureCryptominingProtection
 final
 :
 public
@@ -162,7 +162,7 @@ MaybeShutdown
 static
 already_AddRefed
 <
-UrlClassifierFeatureCryptomining
+UrlClassifierFeatureCryptominingProtection
 >
 MaybeCreate
 (
@@ -220,7 +220,7 @@ override
 ;
 private
 :
-UrlClassifierFeatureCryptomining
+UrlClassifierFeatureCryptominingProtection
 (
 )
 ;
@@ -246,4 +246,4 @@ mozilla
 endif
 /
 /
-mozilla_net_UrlClassifierFeatureCryptomining_h
+mozilla_net_UrlClassifierFeatureCryptominingProtection_h

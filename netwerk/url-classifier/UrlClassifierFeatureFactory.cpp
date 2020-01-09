@@ -133,7 +133,7 @@ Features
 #
 include
 "
-UrlClassifierFeatureCryptomining
+UrlClassifierFeatureCryptominingProtection
 .
 h
 "
@@ -236,7 +236,7 @@ XRE_IsParentProcess
 return
 ;
 }
-UrlClassifierFeatureCryptomining
+UrlClassifierFeatureCryptominingProtection
 :
 :
 MaybeShutdown
@@ -382,9 +382,10 @@ ordering
 /
 /
 Cryptomining
+Protection
 feature
 =
-UrlClassifierFeatureCryptomining
+UrlClassifierFeatureCryptominingProtection
 :
 :
 MaybeCreate
@@ -610,9 +611,10 @@ feature
 /
 /
 Cryptomining
+Protection
 feature
 =
-UrlClassifierFeatureCryptomining
+UrlClassifierFeatureCryptominingProtection
 :
 :
 GetIfNameMatches
@@ -839,6 +841,7 @@ return
 /
 /
 Cryptomining
+Protection
 nsAutoCString
 name
 ;
@@ -846,7 +849,7 @@ name
 .
 Assign
 (
-UrlClassifierFeatureCryptomining
+UrlClassifierFeatureCryptominingProtection
 :
 :
 Name
