@@ -644,12 +644,7 @@ this
 .
 browser
 .
-getAttribute
-(
-"
 remoteType
-"
-)
 |
 |
 E10SUtils
