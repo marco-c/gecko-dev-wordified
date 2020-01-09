@@ -708,18 +708,6 @@ v1
     
 }
     
-serviceName
-=
-'
-queue
-'
-    
-apiVersion
-=
-'
-v1
-'
-    
 def
 taskDefined
 (

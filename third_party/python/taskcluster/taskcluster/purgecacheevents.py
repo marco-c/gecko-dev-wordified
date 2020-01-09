@@ -244,20 +244,6 @@ v1
     
 }
     
-serviceName
-=
-'
-purge
--
-cache
-'
-    
-apiVersion
-=
-'
-v1
-'
-    
 def
 purgeCache
 (
