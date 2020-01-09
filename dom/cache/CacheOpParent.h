@@ -378,9 +378,12 @@ nsIInputStream
 DeserializeCacheStream
 (
 const
-CacheReadStreamOrVoid
+Maybe
+<
+CacheReadStream
+>
 &
-aStreamOrVoid
+aMaybeStream
 )
 ;
 mozilla

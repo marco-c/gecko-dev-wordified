@@ -343,9 +343,12 @@ void
 HandleResponse
 (
 const
-CacheResponseOrVoid
+Maybe
+<
+CacheResponse
+>
 &
-aResponseOrVoid
+aMaybeResponse
 )
 ;
 void

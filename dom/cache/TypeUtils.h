@@ -218,9 +218,6 @@ class
 CacheReadStream
 ;
 class
-CacheReadStreamOrVoid
-;
-class
 CacheRequest
 ;
 class
@@ -764,7 +761,10 @@ SerializeCacheStream
 nsIInputStream
 *
 aStream
-CacheReadStreamOrVoid
+Maybe
+<
+CacheReadStream
+>
 *
 aStreamOut
 nsTArray
