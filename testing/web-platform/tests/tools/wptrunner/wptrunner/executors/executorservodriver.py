@@ -1018,6 +1018,10 @@ TestharnessExecutor
 )
 :
     
+supports_testdriver
+=
+True
+    
 def
 __init__
 (
