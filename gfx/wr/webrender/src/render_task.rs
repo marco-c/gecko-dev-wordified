@@ -6631,6 +6631,13 @@ Glyph
 (
 GpuGlyphCacheKey
 )
+#
+[
+allow
+(
+dead_code
+)
+]
 Picture
 (
 SurfaceCacheKey
