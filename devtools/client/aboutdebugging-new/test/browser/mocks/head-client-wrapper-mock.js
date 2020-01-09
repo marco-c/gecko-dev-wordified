@@ -419,8 +419,14 @@ listAddons
 )
 =
 >
+(
+{
+addons
+:
 [
 ]
+}
+)
 /
 /
 Empty
