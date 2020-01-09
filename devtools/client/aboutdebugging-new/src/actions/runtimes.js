@@ -480,16 +480,6 @@ info
 isMultiE10s
 }
 ;
-clientWrapper
-.
-addListener
-(
-"
-closed
-"
-onUSBDebuggerClientClosed
-)
-;
 const
 deviceFront
 =
