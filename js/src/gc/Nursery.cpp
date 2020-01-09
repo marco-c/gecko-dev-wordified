@@ -790,7 +790,7 @@ false
 )
 canAllocateStrings_
 (
-false
+true
 )
 reportTenurings_
 (
