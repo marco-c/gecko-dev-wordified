@@ -1151,7 +1151,6 @@ aIsOffline
 allowedToStart
 aNumberOfChannels
 aLength
-aSampleRate
 )
 ;
 /
