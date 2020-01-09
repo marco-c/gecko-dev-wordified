@@ -801,6 +801,17 @@ mExternalShmem
 ;
 #
 if
+defined
+(
+XP_WIN
+)
+HANDLE
+mMutex
+;
+#
+endif
+#
+if
 !
 defined
 (
