@@ -1620,8 +1620,6 @@ function
 void
 pushScriptArg
 (
-Register
-scratch
 )
 ;
 /
