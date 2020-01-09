@@ -31917,6 +31917,9 @@ self
 )
 ;
 }
+bitflags
+!
+{
 /
 /
 /
@@ -31933,9 +31936,6 @@ if
 at
 all
 .
-bitflags
-!
-{
 #
 [
 derive
