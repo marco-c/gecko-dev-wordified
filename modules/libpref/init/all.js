@@ -7404,7 +7404,7 @@ getusermedia
 .
 agc_enabled
 "
-false
+true
 )
 ;
 pref
