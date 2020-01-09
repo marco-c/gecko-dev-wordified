@@ -223,7 +223,7 @@ mPreserveAspectRatio
 ;
 nsAutoPtr
 <
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 >
 mTransforms
 ;
@@ -900,7 +900,7 @@ aNullParent
 override
 ;
 virtual
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 GetAnimatedTransformList
 (
@@ -1395,7 +1395,7 @@ const
 override
 ;
 virtual
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 GetTransformInternal
 (

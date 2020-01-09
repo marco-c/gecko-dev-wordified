@@ -164,7 +164,7 @@ h
 #
 include
 "
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 .
 h
 "
@@ -1980,7 +1980,7 @@ InternalItem
 (
 )
 {
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 alist
 =
@@ -2060,7 +2060,7 @@ IndexIsValid
 (
 )
 {
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 alist
 =

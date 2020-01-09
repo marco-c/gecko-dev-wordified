@@ -139,7 +139,7 @@ h
 #
 include
 "
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 .
 h
 "
@@ -408,7 +408,7 @@ aMatrix
 override
 ;
 virtual
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 GetAnimatedTransformList
 (
@@ -520,14 +520,14 @@ Matrix
 *
 aAnimateMotionTransform
 const
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 aTransforms
 )
 ;
 nsAutoPtr
 <
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 >
 mTransforms
 ;

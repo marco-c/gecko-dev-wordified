@@ -157,7 +157,7 @@ nsCharSeparatedTokenizerTemplate
 #
 include
 "
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 .
 h
 "
@@ -684,7 +684,7 @@ mSVGView
 mTransforms
 =
 new
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 (
 )
 ;

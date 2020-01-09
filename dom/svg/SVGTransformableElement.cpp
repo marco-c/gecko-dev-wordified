@@ -1111,7 +1111,7 @@ SchedulePaint
 ;
 }
 }
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 SVGTransformableElement
 :
@@ -1138,7 +1138,7 @@ DO_ALLOCATE
 mTransforms
 =
 new
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 (
 )
 ;
@@ -1792,7 +1792,7 @@ Matrix
 *
 aAnimateMotionTransform
 const
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 aTransforms
 )

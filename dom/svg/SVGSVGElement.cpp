@@ -3117,7 +3117,7 @@ aNullParent
 )
 ;
 }
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 SVGSVGElement
 :
@@ -4846,7 +4846,7 @@ return
 mViewBox
 ;
 }
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 SVGSVGElement
 :

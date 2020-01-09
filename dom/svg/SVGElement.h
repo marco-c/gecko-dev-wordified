@@ -347,7 +347,7 @@ class
 SVGAnimatedPreserveAspectRatio
 ;
 class
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 ;
 class
 SVGStringList
@@ -517,8 +517,8 @@ typedef
 mozilla
 :
 :
-nsSVGAnimatedTransformList
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
+SVGAnimatedTransformList
 ;
 typedef
 mozilla
@@ -1739,7 +1739,7 @@ nullptr
 *
 Get
 the
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 for
 this
 element
@@ -1790,7 +1790,7 @@ to
 save
 memory
 the
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 is
 not
 allocated
@@ -1814,7 +1814,7 @@ Callers
 that
 require
 the
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 to
 be
 allocated
@@ -1837,7 +1837,7 @@ flag
 *
 /
 virtual
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 GetAnimatedTransformList
 (

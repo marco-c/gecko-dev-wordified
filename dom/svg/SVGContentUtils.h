@@ -224,7 +224,7 @@ class
 ComputedStyle
 ;
 class
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 ;
 class
 SVGAnimatedPreserveAspectRatio

@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 .
 h
 "
@@ -369,7 +369,7 @@ const
 override
 ;
 virtual
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 GetAnimatedTransformList
 (
@@ -497,7 +497,7 @@ SVGGradientElement
 values
 nsAutoPtr
 <
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 >
 mGradientTransform
 ;

@@ -232,7 +232,7 @@ SVGTransformList
 {
 friend
 class
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 ;
 friend
 class

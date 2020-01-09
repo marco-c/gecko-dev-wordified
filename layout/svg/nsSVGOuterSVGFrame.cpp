@@ -5667,7 +5667,7 @@ GetContent
 )
 )
 ;
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 transformList
 =

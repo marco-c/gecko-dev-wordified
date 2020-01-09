@@ -1463,7 +1463,7 @@ this
 /
 SVGElement
 methods
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 SVGGradientElement
 :
@@ -1490,7 +1490,7 @@ DO_ALLOCATE
 mGradientTransform
 =
 new
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 (
 )
 ;

@@ -131,7 +131,7 @@ h
 #
 include
 "
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 .
 h
 "
@@ -162,7 +162,7 @@ dom
 static
 nsSVGAttrTearoffTable
 <
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 DOMSVGAnimatedTransformList
 >
 sSVGAnimatedTransformListTearoffTable
@@ -399,7 +399,7 @@ DOMSVGAnimatedTransformList
 :
 GetDOMWrapper
 (
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 aList
 SVGElement
@@ -463,7 +463,7 @@ DOMSVGAnimatedTransformList
 :
 GetDOMWrapperIfExists
 (
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 aList
 )
@@ -798,7 +798,7 @@ IsAnimating
 )
 ;
 }
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 &
 DOMSVGAnimatedTransformList
 :
@@ -818,7 +818,7 @@ GetAnimatedTransformList
 ;
 }
 const
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 &
 DOMSVGAnimatedTransformList
 :

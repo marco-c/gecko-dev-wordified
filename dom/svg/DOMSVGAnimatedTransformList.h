@@ -171,7 +171,7 @@ class
 DOMSVGTransformList
 ;
 class
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 ;
 namespace
 dom
@@ -198,7 +198,7 @@ that
 wrap
 internal
 *
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 objects
 .
 *
@@ -338,7 +338,7 @@ for
 a
 given
 internal
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 object
 .
 The
@@ -365,7 +365,7 @@ returned
 for
 the
 given
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 each
 time
 it
@@ -418,7 +418,7 @@ DOM
 wrapper
 for
 the
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 will
 naturally
 result
@@ -439,7 +439,7 @@ DOMSVGAnimatedTransformList
 >
 GetDOMWrapper
 (
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 aList
 SVGElement
@@ -461,7 +461,7 @@ for
 an
 internal
 *
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 object
 if
 it
@@ -487,7 +487,7 @@ DOMSVGAnimatedTransformList
 *
 GetDOMWrapperIfExists
 (
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 aList
 )
@@ -812,14 +812,14 @@ s
 internal
 counterpart
 .
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 &
 InternalAList
 (
 )
 ;
 const
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 &
 InternalAList
 (

@@ -283,7 +283,7 @@ h
 #
 include
 "
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 .
 h
 "
@@ -3908,14 +3908,14 @@ that
 the
 /
 /
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 is
 /
 has
 been
 allocated
 :
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 transformList
 =
@@ -5210,7 +5210,7 @@ GetTransformListAttrName
 aName
 )
 {
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 transformList
 =

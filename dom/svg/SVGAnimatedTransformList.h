@@ -190,7 +190,7 @@ dom
 *
 *
 Class
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 *
 This
@@ -298,7 +298,7 @@ that
 *
 /
 class
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 {
 /
 /
@@ -325,7 +325,7 @@ DOMSVGTransformList
 ;
 public
 :
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 (
 )
 :
@@ -864,7 +864,7 @@ public
 :
 SMILAnimatedTransformList
 (
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 aVal
 dom
@@ -1009,7 +1009,7 @@ die
 during
 that
 .
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 mVal
 ;
