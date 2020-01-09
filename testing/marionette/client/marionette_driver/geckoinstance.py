@@ -3721,6 +3721,24 @@ desktop_prefs
         
 #
 Disable
+Firefox
+old
+build
+background
+check
+        
+"
+app
+.
+update
+.
+checkInstallTime
+"
+:
+False
+        
+#
+Disable
 application
 updates
         

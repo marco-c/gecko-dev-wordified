@@ -574,6 +574,16 @@ app
 .
 update
 .
+checkInstallTime
+"
+false
+]
+[
+"
+app
+.
+update
+.
 disabledForTesting
 "
 true
