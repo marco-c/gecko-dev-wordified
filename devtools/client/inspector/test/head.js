@@ -6059,7 +6059,7 @@ Boolean
 }
 transformMode
 :
-wether
+whether
 to
 show
 the
