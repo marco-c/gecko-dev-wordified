@@ -31214,6 +31214,8 @@ char
 *
 filename
 unsigned
+sourceId
+unsigned
 lineno
 unsigned
 column
@@ -31276,6 +31278,13 @@ filename
 note
 -
 >
+sourceId
+=
+sourceId
+;
+note
+-
+>
 lineno
 =
 lineno
@@ -31329,6 +31338,8 @@ char
 *
 filename
 unsigned
+sourceId
+unsigned
 lineno
 unsigned
 column
@@ -31361,6 +31372,7 @@ CreateErrorNoteVA
 (
 cx
 filename
+sourceId
 lineno
 column
 errorCallback
@@ -31429,6 +31441,8 @@ char
 *
 filename
 unsigned
+sourceId
+unsigned
 lineno
 unsigned
 column
@@ -31461,6 +31475,7 @@ CreateErrorNoteVA
 (
 cx
 filename
+sourceId
 lineno
 column
 errorCallback
@@ -31529,6 +31544,8 @@ char
 *
 filename
 unsigned
+sourceId
+unsigned
 lineno
 unsigned
 column
@@ -31561,6 +31578,7 @@ CreateErrorNoteVA
 (
 cx
 filename
+sourceId
 lineno
 column
 errorCallback

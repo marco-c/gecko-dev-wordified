@@ -4766,6 +4766,7 @@ anyChars
 getFilename
 (
 )
+0
 line
 column
 GetErrorMessage

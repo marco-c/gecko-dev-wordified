@@ -607,6 +607,18 @@ filename
 ;
 /
 /
+Unique
+identifier
+for
+the
+script
+source
+.
+unsigned
+sourceId
+;
+/
+/
 Source
 line
 number
@@ -660,6 +672,10 @@ JSErrorBase
 filename
 (
 nullptr
+)
+sourceId
+(
+0
 )
 lineno
 (
@@ -859,6 +875,8 @@ char
 *
 filename
 unsigned
+sourceId
+unsigned
 lineno
 unsigned
 column
@@ -886,6 +904,8 @@ char
 *
 filename
 unsigned
+sourceId
+unsigned
 lineno
 unsigned
 column
@@ -912,6 +932,8 @@ const
 char
 *
 filename
+unsigned
+sourceId
 unsigned
 lineno
 unsigned

@@ -18114,6 +18114,7 @@ cx
 JSEXN_WASMCOMPILEERROR
 stack
 filename
+0
 line
 0
 nullptr
