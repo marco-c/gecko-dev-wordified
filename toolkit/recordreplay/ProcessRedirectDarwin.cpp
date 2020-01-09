@@ -1650,6 +1650,12 @@ Preamble_mach_vm_protect
 \
 MACRO
 (
+rand
+RR_ScalarRval
+)
+\
+MACRO
+(
 realpath
 \
 RR_SaveRvalHadErrorZero
