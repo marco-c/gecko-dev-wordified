@@ -155,13 +155,6 @@ PipedOutputStream
 import
 java
 .
-lang
-.
-IllegalStateException
-;
-import
-java
-.
 net
 .
 MalformedURLException
@@ -573,13 +566,6 @@ android
 net
 .
 NetworkInfo
-;
-import
-android
-.
-net
-.
-Uri
 ;
 import
 android

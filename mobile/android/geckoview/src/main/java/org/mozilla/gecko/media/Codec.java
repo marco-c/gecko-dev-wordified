@@ -171,15 +171,6 @@ util
 Queue
 ;
 import
-java
-.
-util
-.
-concurrent
-.
-ConcurrentLinkedQueue
-;
-import
 org
 .
 mozilla

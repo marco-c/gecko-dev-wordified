@@ -123,15 +123,6 @@ mozilla
 .
 gecko
 .
-GeckoEditableChild
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 IGeckoEditableParent
 ;
 import

@@ -119,13 +119,6 @@ util
 Log
 ;
 import
-android
-.
-view
-.
-Surface
-;
-import
 org
 .
 mozilla

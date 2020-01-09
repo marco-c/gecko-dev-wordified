@@ -126,15 +126,6 @@ support
 .
 annotation
 .
-Nullable
-;
-import
-android
-.
-support
-.
-annotation
-.
 NonNull
 ;
 import

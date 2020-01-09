@@ -153,13 +153,6 @@ annotation
 UiThread
 ;
 import
-android
-.
-util
-.
-Log
-;
-import
 org
 .
 mozilla
