@@ -860,9 +860,6 @@ callback
 :
 callbackNonTracking
 extraPrefs
-:
-[
-]
 expectedBlockingNotifications
 :
 0
@@ -912,9 +909,6 @@ callback
 :
 callbackNonTracking
 extraPrefs
-:
-[
-]
 expectedBlockingNotifications
 :
 0
@@ -964,9 +958,6 @@ callback
 :
 callbackNonTracking
 extraPrefs
-:
-[
-]
 expectedBlockingNotifications
 :
 0
@@ -1016,9 +1007,6 @@ callback
 :
 callbackTracking
 extraPrefs
-:
-[
-]
 expectedBlockingNotifications
 :
 0
@@ -1068,9 +1056,6 @@ callback
 :
 callbackNonTracking
 extraPrefs
-:
-[
-]
 expectedBlockingNotifications
 :
 0
@@ -1120,9 +1105,6 @@ callback
 :
 callbackNonTracking
 extraPrefs
-:
-[
-]
 expectedBlockingNotifications
 :
 0
@@ -1172,9 +1154,6 @@ callback
 :
 callbackNonTracking
 extraPrefs
-:
-[
-]
 expectedBlockingNotifications
 :
 0
@@ -1211,9 +1190,6 @@ callback
 :
 callbackNonTracking
 extraPrefs
-:
-[
-]
 expectedBlockingNotifications
 :
 false
