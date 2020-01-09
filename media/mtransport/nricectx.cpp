@@ -2665,6 +2665,10 @@ SignalCandidate
 (
 s
 candidate_str
+stream
+-
+>
+ufrag
 )
 ;
 }

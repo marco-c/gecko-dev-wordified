@@ -1823,6 +1823,13 @@ std
 string
 &
 aCandidate
+const
+std
+:
+:
+string
+&
+aUfrag
 )
 {
 mInitPromise
@@ -1867,6 +1874,7 @@ SendAddIceCandidate
 (
 aTransportId
 aCandidate
+aUfrag
 )
 ;
 }

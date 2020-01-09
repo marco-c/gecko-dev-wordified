@@ -1656,6 +1656,10 @@ const
 string
 &
 candidate
+const
+string
+&
+ufrag
 )
 {
 MOZ_ASSERT
@@ -1680,6 +1684,7 @@ AddIceCandidate
 (
 transportId
 candidate
+ufrag
 )
 ;
 return
