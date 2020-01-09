@@ -169,6 +169,17 @@ mozilla
 /
 dom
 /
+SVGGeometryElement
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGLengthBinding
 .
 h

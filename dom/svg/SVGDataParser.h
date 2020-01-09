@@ -122,6 +122,11 @@ define
 __NS_SVGDATAPARSER_H__
 #
 include
+<
+cctype
+>
+#
+include
 "
 mozilla
 /
@@ -132,7 +137,7 @@ h
 #
 include
 "
-nsString
+nsStringFwd
 .
 h
 "
