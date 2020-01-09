@@ -152,6 +152,11 @@ mozilla
 use
 -
 ownerGlobal
+}
+onsetup
+(
+)
+{
 const
 parser
 =
