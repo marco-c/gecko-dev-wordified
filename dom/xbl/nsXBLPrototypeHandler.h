@@ -824,7 +824,7 @@ mNextHandler
 aHandler
 ;
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ExecuteHandler
 (
@@ -1180,6 +1180,7 @@ IgnoreModifierState
 aIgnoreModifierState
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DispatchXBLCommand
 (

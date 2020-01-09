@@ -313,6 +313,7 @@ aKeyboardEvent
 ;
 #
 endif
+MOZ_CAN_RUN_SCRIPT
 nsresult
 KeyPress
 (

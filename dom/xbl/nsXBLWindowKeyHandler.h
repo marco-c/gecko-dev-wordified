@@ -290,6 +290,7 @@ nsXBLWindowKeyHandler
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 WalkHandlers
 (
@@ -310,6 +311,7 @@ to
 handle
 the
 event
+MOZ_CAN_RUN_SCRIPT
 bool
 WalkHandlersInternal
 (
@@ -345,6 +347,7 @@ aExecute
 =
 true
 .
+MOZ_CAN_RUN_SCRIPT
 bool
 WalkHandlersAndExecute
 (
@@ -380,6 +383,7 @@ default
 event
 group
 .
+MOZ_CAN_RUN_SCRIPT
 void
 HandleEventOnCaptureInDefaultEventGroup
 (
@@ -402,6 +406,7 @@ system
 event
 group
 .
+MOZ_CAN_RUN_SCRIPT
 void
 HandleEventOnCaptureInSystemEventGroup
 (
@@ -444,6 +449,7 @@ reserved
 /
 attribute
 .
+MOZ_CAN_RUN_SCRIPT
 bool
 HasHandlerForEvent
 (
