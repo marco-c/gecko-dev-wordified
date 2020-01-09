@@ -2278,15 +2278,6 @@ handlerTypes
 push
 (
 "
-webcal
-"
-)
-;
-handlerTypes
-.
-push
-(
-"
 mailto
 "
 )
