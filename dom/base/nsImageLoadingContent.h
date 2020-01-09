@@ -1431,16 +1431,6 @@ DestroyImageLoadingContent
 (
 )
 ;
-void
-ClearBrokenState
-(
-)
-{
-mBroken
-=
-false
-;
-}
 /
 *
 *
