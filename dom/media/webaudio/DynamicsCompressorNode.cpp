@@ -949,7 +949,7 @@ aContext
 ChannelCountMode
 :
 :
-Explicit
+Clamped_max
 ChannelInterpretation
 :
 :
