@@ -8691,6 +8691,8 @@ name
 '
 vary
 '
+COLLATE
+NOCASE
 "
 "
 WHERE
@@ -9353,6 +9355,10 @@ name
 '
 vary
 '
+COLLATE
+NOCASE
+"
+"
 AND
 entry_id
 =
