@@ -155,7 +155,7 @@ h
 #
 include
 "
-nsICertStorage
+nsICertBlocklist
 .
 h
 "
@@ -1501,7 +1501,7 @@ pinning
 checks
 nsCOMPtr
 <
-nsICertStorage
+nsICertBlocklist
 >
 mCertBlocklist
 ;

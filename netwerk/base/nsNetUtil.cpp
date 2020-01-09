@@ -678,7 +678,7 @@ h
 #
 include
 "
-nsICertStorage
+nsICertBlocklist
 .
 h
 "
@@ -15057,7 +15057,7 @@ cbl
 =
 do_GetService
 (
-NS_CERTSTORAGE_CONTRACTID
+NS_CERTBLOCKLIST_CONTRACTID
 )
 ;
 nsCOMPtr

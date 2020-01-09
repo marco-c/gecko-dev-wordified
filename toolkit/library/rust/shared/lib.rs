@@ -224,10 +224,6 @@ log
 ;
 extern
 crate
-cert_storage
-;
-extern
-crate
 cosec
 ;
 extern
