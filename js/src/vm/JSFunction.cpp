@@ -12809,10 +12809,9 @@ function
 .
 *
 /
-RootedAtom
+HandlePropertyName
 anonymousAtom
-(
-cx
+=
 cx
 -
 >
@@ -12821,7 +12820,6 @@ names
 )
 .
 anonymous
-)
 ;
 /
 /
