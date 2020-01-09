@@ -144,7 +144,7 @@ h
 #
 include
 "
-nsDisplayList
+nsDisplayItemTypes
 .
 h
 "
