@@ -481,6 +481,10 @@ BackgroundSize
 "
     
 "
+BorderImageRepeat
+"
+    
+"
 Clear
 "
     

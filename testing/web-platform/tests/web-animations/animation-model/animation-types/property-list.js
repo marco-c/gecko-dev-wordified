@@ -1751,11 +1751,11 @@ options
 [
 '
 stretch
-stretch
+repeat
 '
 '
-repeat
-repeat
+round
+space
 '
 ]
 ]

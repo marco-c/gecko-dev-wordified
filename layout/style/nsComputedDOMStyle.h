@@ -1841,14 +1841,6 @@ DoGetBorderImageOutset
 (
 )
 ;
-already_AddRefed
-<
-CSSValue
->
-DoGetBorderImageRepeat
-(
-)
-;
 /
 *
 Box
