@@ -993,6 +993,16 @@ flex
 ;
 }
 #
+street
+-
+address
+{
+resize
+:
+vertical
+;
+}
+#
 country
 -
 warning
