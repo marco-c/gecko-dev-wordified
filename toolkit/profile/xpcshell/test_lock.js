@@ -59,9 +59,7 @@ profiles
 {
 name
 :
-"
-default
-"
+PROFILE_DEFAULT
 path
 :
 defaultProfile
@@ -172,9 +170,7 @@ equal
 profile
 .
 name
-"
-default
-"
+PROFILE_DEFAULT
 "
 Should
 have
@@ -367,9 +363,7 @@ equal
 selectedProfile
 .
 name
-"
-default
-"
+PROFILE_DEFAULT
 )
 ;
 }
