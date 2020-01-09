@@ -6278,6 +6278,14 @@ return
 false
 ;
 }
+SVGObserverUtils
+:
+:
+GetAndObserveBackgroundClip
+(
+aFrame
+)
+;
 /
 /
 The
