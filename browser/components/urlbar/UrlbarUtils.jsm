@@ -691,11 +691,13 @@ ICON
 {
 DEFAULT
 :
-Ci
+PlacesUtils
 .
-nsIFaviconService
+favicons
 .
-FAVICON_DEFAULT_URL
+defaultFavicon
+.
+spec
 SEARCH_GLASS
 :
 "
