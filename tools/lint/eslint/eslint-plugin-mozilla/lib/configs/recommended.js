@@ -184,6 +184,11 @@ DedicatedWorkerGlobalScope
 :
 false
 "
+DeprecationReportBody
+"
+:
+false
+"
 DominatorTree
 "
 :
@@ -324,6 +329,11 @@ PrioEncoder
 "
 :
 false
+"
+ReportingObserver
+"
+:
+false
 /
 /
 Specific
@@ -378,6 +388,11 @@ StructuredCloneHolder
 false
 "
 TelemetryStopwatch
+"
+:
+false
+"
+TestingDeprecatedInterface
 "
 :
 false

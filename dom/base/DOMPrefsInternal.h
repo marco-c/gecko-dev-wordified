@@ -261,5 +261,9 @@ dom_reporting_enabled
 )
 DOM_WEBIDL_PREF
 (
+dom_reporting_testing_enabled
+)
+DOM_WEBIDL_PREF
+(
 javascript_options_streams
 )
