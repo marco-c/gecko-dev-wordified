@@ -524,7 +524,7 @@ minimum
 maximum
 '
 :
-6
+100
                 
 '
 title
