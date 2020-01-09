@@ -546,7 +546,7 @@ NonIncrementalGC
 (
 cx
 GC_NORMAL
-gcreason
+GCReason
 :
 :
 API
@@ -565,7 +565,7 @@ NonIncrementalGC
 (
 cx
 GC_SHRINK
-gcreason
+GCReason
 :
 :
 API

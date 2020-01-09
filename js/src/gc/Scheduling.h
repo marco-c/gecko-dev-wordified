@@ -933,7 +933,7 @@ of
 JS
 :
 :
-gcreason
+GCReason
 reasons
 in
 GCAPI
@@ -990,7 +990,7 @@ state
 .
 These
 are
-gcreasons
+GCReasons
 like
 LOAD_END
 *

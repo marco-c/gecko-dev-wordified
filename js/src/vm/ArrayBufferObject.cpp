@@ -5751,7 +5751,7 @@ GC_NORMAL
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 TOO_MUCH_WASM_MEMORY
@@ -5799,7 +5799,7 @@ triggerGC
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 TOO_MUCH_WASM_MEMORY

@@ -179,7 +179,7 @@ GC_NORMAL
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 API
@@ -220,7 +220,7 @@ cx
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 API
@@ -412,7 +412,7 @@ GC_NORMAL
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 API
@@ -515,7 +515,7 @@ GC_NORMAL
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 API
@@ -590,7 +590,7 @@ GC_NORMAL
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 API
@@ -636,7 +636,7 @@ cx
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 API
@@ -757,7 +757,7 @@ GC_NORMAL
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 API
@@ -829,7 +829,7 @@ cx
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 API

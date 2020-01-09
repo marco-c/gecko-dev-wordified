@@ -11097,7 +11097,7 @@ GC_NORMAL
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 SHARED_MEMORY_LIMIT

@@ -482,10 +482,7 @@ setAboutToOverflow
 JS
 :
 :
-gcreason
-:
-:
-Reason
+GCReason
 reason
 )
 {
@@ -804,7 +801,7 @@ setAboutToOverflow
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 FULL_WHOLE_CELL_BUFFER

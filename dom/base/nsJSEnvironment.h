@@ -465,10 +465,7 @@ GarbageCollectNow
 JS
 :
 :
-gcreason
-:
-:
-Reason
+GCReason
 reason
 IsIncremental
 aIncremental
@@ -620,10 +617,7 @@ RunNextCollectorTimer
 JS
 :
 :
-gcreason
-:
-:
-Reason
+GCReason
 aReason
 mozilla
 :
@@ -691,10 +685,7 @@ aDocShell
 JS
 :
 :
-gcreason
-:
-:
-Reason
+GCReason
 aReason
 )
 ;
@@ -724,10 +715,7 @@ PokeGC
 JS
 :
 :
-gcreason
-:
-:
-Reason
+GCReason
 aReason
 JSObject
 *

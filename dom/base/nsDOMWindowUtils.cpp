@@ -5809,7 +5809,7 @@ GarbageCollectNow
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 DOM_UTILS
@@ -5866,7 +5866,7 @@ RunNextCollectorTimer
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 DOM_WINDOW_UTILS

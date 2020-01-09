@@ -1725,10 +1725,7 @@ IsOOMReason
 JS
 :
 :
-gcreason
-:
-:
-Reason
+GCReason
 reason
 )
 {
@@ -1739,7 +1736,7 @@ reason
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 LAST_DITCH
@@ -1751,7 +1748,7 @@ reason
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 MEM_PRESSURE

@@ -2570,7 +2570,7 @@ minorGC
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 API

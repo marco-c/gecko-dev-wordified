@@ -21142,7 +21142,7 @@ aForceGC
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 SHUTDOWN_CC
@@ -21150,7 +21150,7 @@ SHUTDOWN_CC
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 CC_FORCED
@@ -21333,7 +21333,7 @@ cx
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 CC_FORCED

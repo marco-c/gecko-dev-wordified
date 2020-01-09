@@ -7473,7 +7473,7 @@ minorGC
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 IDLE_TIME_COLLECTION
@@ -7518,7 +7518,7 @@ GC_NORMAL
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 API
