@@ -2195,7 +2195,7 @@ zoneStats
 sweptCompartmentCount
 double
 (
-preBytes
+preHeapSize
 )
 /
 bytesPerMiB
@@ -3129,7 +3129,7 @@ sccLongest
 )
 double
 (
-preBytes
+preHeapSize
 )
 /
 bytesPerMiB
@@ -4852,7 +4852,7 @@ property
 "
 allocated_bytes
 "
-preBytes
+preHeapSize
 )
 ;
 /
@@ -5444,7 +5444,7 @@ allocsSinceMinorGC
 0
 }
 )
-preBytes
+preHeapSize
 (
 0
 )
@@ -6962,7 +6962,7 @@ AbortReason
 :
 None
 ;
-preBytes
+preHeapSize
 =
 runtime
 -

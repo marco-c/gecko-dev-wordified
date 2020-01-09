@@ -2219,8 +2219,8 @@ allocsSinceMinorGC
 ;
 /
 *
-Allocated
-space
+Heap
+size
 before
 the
 GC
@@ -2229,7 +2229,7 @@ started
 *
 /
 size_t
-preBytes
+preHeapSize
 ;
 /
 *
