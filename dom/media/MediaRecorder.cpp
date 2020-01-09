@@ -3675,12 +3675,6 @@ mEncoder
 >
 Suspend
 (
-TimeStamp
-:
-:
-Now
-(
-)
 )
 ;
 NS_DispatchToMainThread
@@ -3744,12 +3738,6 @@ mEncoder
 >
 Resume
 (
-TimeStamp
-:
-:
-Now
-(
-)
 )
 ;
 NS_DispatchToMainThread
