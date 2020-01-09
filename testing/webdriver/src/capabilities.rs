@@ -1,10 +1,16 @@
 use
+crate
+:
+:
 common
 :
 :
 MAX_SAFE_INTEGER
 ;
 use
+crate
+:
+:
 error
 :
 :
@@ -180,6 +186,8 @@ init
 &
 mut
 self
+_
+:
 &
 Capabilities
 )
@@ -197,6 +205,8 @@ browser_name
 &
 mut
 self
+_
+:
 &
 Capabilities
 )
@@ -224,6 +234,8 @@ browser_version
 &
 mut
 self
+_
+:
 &
 Capabilities
 )
@@ -323,6 +335,8 @@ platform_name
 &
 mut
 self
+_
+:
 &
 Capabilities
 )
@@ -350,6 +364,8 @@ accept_insecure_certs
 &
 mut
 self
+_
+:
 &
 Capabilities
 )
@@ -385,6 +401,8 @@ set_window_rect
 &
 mut
 self
+_
+:
 &
 Capabilities
 )
@@ -419,6 +437,8 @@ strict_file_interactability
 &
 mut
 self
+_
+:
 &
 Capabilities
 )
@@ -443,6 +463,8 @@ Map
 String
 Value
 >
+_
+:
 &
 Capabilities
 )
@@ -3449,6 +3471,15 @@ super
 *
 ;
 use
+crate
+:
+:
+test
+:
+:
+check_deserialize
+;
+use
 serde_json
 :
 :
@@ -3456,12 +3487,6 @@ serde_json
 self
 Value
 }
-;
-use
-test
-:
-:
-check_deserialize
 ;
 fn
 validate_proxy

@@ -20,6 +20,9 @@ serde_json
 Value
 ;
 use
+crate
+:
+:
 command
 :
 :
@@ -31,6 +34,9 @@ WebDriverMessage
 }
 ;
 use
+crate
+:
+:
 error
 :
 :
@@ -1502,8 +1508,12 @@ command
 (
 &
 self
+_
+:
 &
 Captures
+_
+:
 &
 Value
 )

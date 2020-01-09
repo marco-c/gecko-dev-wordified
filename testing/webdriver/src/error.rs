@@ -2345,6 +2345,9 @@ super
 *
 ;
 use
+crate
+:
+:
 test
 :
 :
