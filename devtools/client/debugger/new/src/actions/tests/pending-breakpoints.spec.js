@@ -157,6 +157,7 @@ mockedPendingBreakpoint
 .
 location
 )
+;
 asyncStore
 .
 pendingBreakpoints
@@ -339,9 +340,7 @@ sourceMaps
 getOriginalSourceText
 :
 async
-(
 source
-)
 =
 >
 (
