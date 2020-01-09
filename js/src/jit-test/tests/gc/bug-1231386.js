@@ -91,6 +91,11 @@ h
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 var
