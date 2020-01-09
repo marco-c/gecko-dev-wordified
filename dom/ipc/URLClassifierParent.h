@@ -251,8 +251,6 @@ nsIPrincipal
 *
 aPrincipal
 bool
-aUseTrackingProtection
-bool
 *
 aSuccess
 )

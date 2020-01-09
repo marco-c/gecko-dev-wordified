@@ -14658,7 +14658,6 @@ doUrlClassify
 (
 principal
 eventTarget
-tpEnabled
 callback
 )
 {
@@ -14763,7 +14762,6 @@ unwrapIfWrapped
 principal
 )
 eventTarget
-tpEnabled
 wrapCallback
 )
 ;
