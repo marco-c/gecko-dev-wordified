@@ -134,8 +134,6 @@ Path3
 "
 }
 ]
-}
-;
 /
 /
 Another
@@ -149,10 +147,6 @@ it
 is
 locked
 .
-let
-installData
-=
-{
 installs
 :
 {
@@ -176,15 +170,9 @@ writeProfilesIni
 profileData
 )
 ;
-writeInstallsIni
-(
-installData
-)
-;
 checkProfileService
 (
 profileData
-installData
 )
 ;
 let
@@ -572,12 +560,6 @@ getInstallHash
 (
 )
 ;
-installData
-=
-readInstallsIni
-(
-)
-;
 Assert
 .
 equal
@@ -586,7 +568,7 @@ Object
 .
 keys
 (
-installData
+profileData
 .
 installs
 )
@@ -607,7 +589,7 @@ Assert
 .
 notEqual
 (
-installData
+profileData
 .
 installs
 [
@@ -640,7 +622,7 @@ Assert
 .
 ok
 (
-installData
+profileData
 .
 installs
 [
@@ -668,7 +650,7 @@ Assert
 .
 equal
 (
-installData
+profileData
 .
 installs
 .
@@ -700,7 +682,7 @@ Assert
 .
 ok
 (
-installData
+profileData
 .
 installs
 [
