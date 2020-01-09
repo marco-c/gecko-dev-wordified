@@ -2895,6 +2895,17 @@ wProcessorArchitecture
 )
 {
 case
+12
+:
+arch
+=
+"
+aarch64
+"
+;
+break
+;
+case
 9
 :
 arch
