@@ -3672,6 +3672,7 @@ n
 }
 }
 }
+;
 }
 malloc_size_of_hash_set
 !
@@ -3943,6 +3944,7 @@ n
 }
 }
 }
+;
 }
 malloc_size_of_hash_map
 !

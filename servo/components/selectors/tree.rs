@@ -147,8 +147,8 @@ comparisons
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 Eq
 Hash
