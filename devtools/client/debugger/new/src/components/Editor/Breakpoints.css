@@ -371,6 +371,16 @@ events
 none
 ;
 }
+.
+editor
+-
+wrapper
+:
+not
+(
+.
+blackboxed
+)
 :
 not
 (
