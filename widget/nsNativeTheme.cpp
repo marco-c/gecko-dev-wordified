@@ -2059,7 +2059,7 @@ aAppearance
 StyleAppearance
 :
 :
-Meterbar
+Meter
 )
 {
 nsMeterFrame

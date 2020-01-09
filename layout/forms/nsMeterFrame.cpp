@@ -1615,7 +1615,7 @@ mAppearance
 StyleAppearance
 :
 :
-Meterbar
+Meter
 &
 &
 !
