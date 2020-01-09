@@ -372,7 +372,7 @@ Y
 }
 }
 ;
-nsSVGEnumMapping
+SVGEnumMapping
 SVGMarkerElement
 :
 :

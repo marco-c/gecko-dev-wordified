@@ -675,7 +675,7 @@ aDefault
 )
 {
 const
-nsSVGEnum
+SVGEnum
 &
 thisEnum
 =
