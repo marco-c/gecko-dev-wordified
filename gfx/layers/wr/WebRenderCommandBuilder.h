@@ -554,7 +554,7 @@ nsDisplayList
 aDisplayList
 nsDisplayItem
 *
-aOuterItem
+aWrappingItem
 nsDisplayListBuilder
 *
 aDisplayListBuilder
@@ -574,6 +574,11 @@ wr
 IpcResourceUpdateQueue
 &
 aResources
+nsDisplayItem
+*
+aOuterItem
+=
+nullptr
 )
 ;
 /
@@ -1254,6 +1259,12 @@ image
 .
 bool
 mDoGrouping
+;
+Maybe
+<
+nsRect
+>
+mClippedGroupBounds
 ;
 /
 /
