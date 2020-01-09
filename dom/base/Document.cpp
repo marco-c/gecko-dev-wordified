@@ -8637,6 +8637,10 @@ mCachedTabSizeGeneration
 (
 0
 )
+mInRDMPane
+(
+false
+)
 {
 MOZ_LOG
 (
