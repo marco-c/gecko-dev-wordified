@@ -7651,7 +7651,7 @@ if
 (
 mBadUnderlineFamilyNames
 .
-Contains
+ContainsSorted
 (
 name
 )

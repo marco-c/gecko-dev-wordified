@@ -7769,7 +7769,7 @@ if
 (
 mBadUnderlineFamilyNames
 .
-Contains
+ContainsSorted
 (
 name
 )
@@ -9803,7 +9803,7 @@ if
 (
 mBadUnderlineFamilyNames
 .
-Contains
+ContainsSorted
 (
 aFLE
 .

@@ -4364,11 +4364,12 @@ fontList
 >
 mBadUnderlineFamilyNames
 .
-Contains
+ContainsSorted
 (
 key
 )
 )
+{
 family
 -
 >
@@ -4376,6 +4377,7 @@ SetBadUnderlineFamily
 (
 )
 ;
+}
 family
 -
 >
