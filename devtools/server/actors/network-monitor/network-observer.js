@@ -660,7 +660,7 @@ getter
 from
 browser
 .
-xml
+js
 (
 non
 -

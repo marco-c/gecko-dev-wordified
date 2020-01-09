@@ -37693,7 +37693,7 @@ events
 in
 browser
 .
-xml
+js
 *
 /
 var

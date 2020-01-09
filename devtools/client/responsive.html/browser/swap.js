@@ -374,7 +374,7 @@ connection
 While
 browser
 .
-xml
+js
 does
 dispatch
 it
@@ -3452,7 +3452,7 @@ browsers
 in
 browser
 .
-xml
+js
 '
 s
 swapDocShells

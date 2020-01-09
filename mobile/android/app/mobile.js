@@ -64,8 +64,8 @@ substitution
 For
 browser
 .
-xml
-binding
+js
+element
 /
 /
 /

@@ -689,7 +689,7 @@ loadURI
 in
 browser
 .
-xml
+js
 treats
 null
 as
