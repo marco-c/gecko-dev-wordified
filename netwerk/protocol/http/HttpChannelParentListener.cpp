@@ -750,9 +750,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 MOZ_RELEASE_ASSERT
@@ -807,7 +804,6 @@ mNextListener
 OnStartRequest
 (
 aRequest
-aContext
 )
 ;
 }

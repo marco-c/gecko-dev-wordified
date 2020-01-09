@@ -3579,9 +3579,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctx
 )
 {
 LOG
@@ -3630,7 +3627,6 @@ listener
 OnStartRequest
 (
 this
-nullptr
 )
 ;
 }
@@ -4483,7 +4479,6 @@ listener
 OnStartRequest
 (
 this
-nullptr
 )
 ;
 mIsPending

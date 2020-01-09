@@ -11748,9 +11748,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-context
 )
 {
 mStorReplyReceived

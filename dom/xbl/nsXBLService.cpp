@@ -1171,9 +1171,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aCtxt
 )
 {
 /
@@ -1329,7 +1326,6 @@ mInner
 OnStartRequest
 (
 request
-aCtxt
 )
 ;
 }

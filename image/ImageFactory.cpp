@@ -1661,7 +1661,6 @@ newImage
 OnStartRequest
 (
 aRequest
-nullptr
 )
 ;
 if

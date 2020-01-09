@@ -1431,7 +1431,6 @@ aListener
 OnStartRequest
 (
 aChannel
-nullptr
 )
 ;
 aListener

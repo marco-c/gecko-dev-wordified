@@ -1382,9 +1382,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 AssertIsOnMainThread
@@ -1712,7 +1709,6 @@ mFetchDriver
 OnStartRequest
 (
 aRequest
-aContext
 )
 ;
 }
@@ -5392,9 +5388,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 AssertIsOnMainThread

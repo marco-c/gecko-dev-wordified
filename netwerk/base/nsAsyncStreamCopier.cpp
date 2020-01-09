@@ -2037,7 +2037,6 @@ OnStartRequest
 AsRequest
 (
 )
-nullptr
 )
 ;
 if

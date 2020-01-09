@@ -2229,7 +2229,6 @@ mListener
 OnStartRequest
 (
 this
-nullptr
 )
 ;
 if
@@ -3519,7 +3518,6 @@ mListener
 OnStartRequest
 (
 this
-nullptr
 )
 ;
 mIsPending

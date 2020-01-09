@@ -767,9 +767,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-context
 )
 {
 return

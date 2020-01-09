@@ -5954,9 +5954,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 AUTO_PROFILER_LABEL
@@ -6104,7 +6101,6 @@ mFinalListener
 OnStartRequest
 (
 aRequest
-nullptr
 )
 ;
 }
@@ -14874,7 +14870,6 @@ mFinalListener
 OnStartRequest
 (
 mChannel
-nullptr
 )
 ;
 if
@@ -14963,7 +14958,6 @@ finalListener
 OnStartRequest
 (
 mChannel
-nullptr
 )
 ;
 }

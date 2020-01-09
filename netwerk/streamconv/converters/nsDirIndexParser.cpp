@@ -489,9 +489,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aCtxt
 )
 {
 return

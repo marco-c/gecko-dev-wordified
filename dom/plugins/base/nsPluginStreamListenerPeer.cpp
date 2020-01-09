@@ -630,9 +630,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aContext
 )
 {
 nsresult
@@ -1663,9 +1660,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 override
 {
@@ -1684,7 +1678,6 @@ mListener
 OnStartRequest
 (
 aRequest
-mContext
 )
 ;
 }

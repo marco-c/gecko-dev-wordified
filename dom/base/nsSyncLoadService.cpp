@@ -445,9 +445,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 nsresult
@@ -507,7 +504,6 @@ mListener
 OnStartRequest
 (
 aRequest
-aContext
 )
 ;
 }
@@ -1263,9 +1259,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 return
@@ -1275,7 +1268,6 @@ mListener
 OnStartRequest
 (
 aRequest
-aContext
 )
 ;
 }
@@ -1765,7 +1757,6 @@ aListener
 OnStartRequest
 (
 aChannel
-nullptr
 )
 ;
 if

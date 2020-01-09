@@ -10466,7 +10466,6 @@ deleteProtector
 OnStartRequest
 (
 this
-nullptr
 )
 ;
 }
@@ -10956,7 +10955,6 @@ deleteProtector
 OnStartRequest
 (
 this
-nullptr
 )
 ;
 mOnStartRequestCalled
@@ -48647,9 +48645,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 )
 {
 nsresult
@@ -51653,7 +51648,6 @@ mListener
 OnStartRequest
 (
 this
-nullptr
 )
 ;
 mOnStartRequestCalled

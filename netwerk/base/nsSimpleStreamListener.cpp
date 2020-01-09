@@ -456,9 +456,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 return
@@ -470,7 +467,6 @@ mObserver
 OnStartRequest
 (
 aRequest
-aContext
 )
 :
 NS_OK

@@ -532,9 +532,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 )
 {
 NS_ENSURE_TRUE
@@ -882,7 +879,6 @@ MediaDocumentStreamListener
 OnStartRequest
 (
 request
-ctxt
 )
 ;
 }
