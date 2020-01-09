@@ -1264,6 +1264,11 @@ TimeStamp
 aEndTime
 )
 ;
+void
+CompositeIfNeeded
+(
+)
+;
 TextureFactoryIdentifier
 GetTextureFactoryIdentifier
 (
@@ -2462,6 +2467,9 @@ mReceivedDisplayList
 ;
 bool
 mIsFirstPaint
+;
+bool
+mSkippedComposite
 ;
 }
 ;
