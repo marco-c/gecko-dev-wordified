@@ -3162,6 +3162,13 @@ MaxScrollY
 )
 )
 ;
+return
+xpEvent
+.
+forget
+(
+)
+;
 }
 xpEvent
 =
