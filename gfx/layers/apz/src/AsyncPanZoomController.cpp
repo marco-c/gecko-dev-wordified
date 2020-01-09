@@ -28118,6 +28118,8 @@ GetCurrentAsyncTransformWithOverscroll
 (
 AsyncTransformConsumer
 aMode
+AsyncTransformComponents
+aComponents
 )
 const
 {
@@ -28127,6 +28129,7 @@ AsyncTransformComponentMatrix
 GetCurrentAsyncTransform
 (
 aMode
+aComponents
 )
 )
 *
