@@ -275,6 +275,10 @@ PluginWindowData
 >
 PluginsArray
 ;
+friend
+class
+PLayerTransactionParent
+;
 public
 :
 LayerTransactionParent

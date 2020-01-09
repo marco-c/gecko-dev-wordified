@@ -202,6 +202,10 @@ friend
 class
 CacheStorageChild
 ;
+friend
+class
+PCacheOpChild
+;
 private
 :
 /

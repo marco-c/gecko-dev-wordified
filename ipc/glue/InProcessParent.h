@@ -238,6 +238,10 @@ friend
 class
 InProcessChild
 ;
+friend
+class
+PInProcessParent
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
 /

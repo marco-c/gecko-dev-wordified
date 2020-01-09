@@ -278,6 +278,10 @@ nsIRequest
 public
 StreamFilterBase
 {
+friend
+class
+PStreamFilterParent
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS

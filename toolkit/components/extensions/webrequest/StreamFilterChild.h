@@ -225,6 +225,10 @@ friend
 class
 StreamFilter
 ;
+friend
+class
+PStreamFilterChild
+;
 public
 :
 NS_INLINE_DECL_REFCOUNTING

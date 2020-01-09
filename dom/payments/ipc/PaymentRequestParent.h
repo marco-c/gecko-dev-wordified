@@ -158,6 +158,10 @@ final
 public
 PPaymentRequestParent
 {
+friend
+class
+PPaymentRequestParent
+;
 NS_INLINE_DECL_REFCOUNTING
 (
 PaymentRequestParent

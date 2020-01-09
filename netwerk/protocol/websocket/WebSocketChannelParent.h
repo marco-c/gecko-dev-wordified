@@ -200,6 +200,10 @@ nsIWebSocketListener
 public
 nsIInterfaceRequestor
 {
+friend
+class
+PWebSocketParent
+;
 ~
 WebSocketChannelParent
 (

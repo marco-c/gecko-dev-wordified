@@ -156,6 +156,10 @@ PWebSocketEventListenerParent
 public
 nsIWebSocketEventListener
 {
+friend
+class
+PWebSocketEventListenerParent
+;
 public
 :
 NS_DECL_ISUPPORTS

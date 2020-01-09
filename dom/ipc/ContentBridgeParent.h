@@ -178,6 +178,10 @@ nsIContentParent
 public
 nsIObserver
 {
+friend
+class
+PContentBridgeParent
+;
 public
 :
 explicit

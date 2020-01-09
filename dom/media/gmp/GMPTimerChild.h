@@ -166,6 +166,10 @@ GMPTimerChild
 public
 PGMPTimerChild
 {
+friend
+class
+PGMPTimerChild
+;
 public
 :
 NS_INLINE_DECL_REFCOUNTING

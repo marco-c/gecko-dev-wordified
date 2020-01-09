@@ -132,6 +132,10 @@ GMPStorageParent
 public
 PGMPStorageParent
 {
+friend
+class
+PGMPStorageParent
+;
 public
 :
 NS_INLINE_DECL_REFCOUNTING

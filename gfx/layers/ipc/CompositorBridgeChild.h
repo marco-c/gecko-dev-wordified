@@ -374,6 +374,10 @@ AsyncParentMessageData
 >
 AsyncParentMessageArray
 ;
+friend
+class
+PCompositorBridgeChild
+;
 public
 :
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING

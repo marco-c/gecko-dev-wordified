@@ -159,6 +159,10 @@ final
 public
 PMediaSystemResourceManagerParent
 {
+friend
+class
+PMediaSystemResourceManagerParent
+;
 public
 :
 MediaSystemResourceManagerParent

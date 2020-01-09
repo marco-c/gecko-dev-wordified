@@ -351,6 +351,10 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 WebRenderBridgeChild
 override
 )
+friend
+class
+PWebRenderBridgeChild
+;
 public
 :
 explicit

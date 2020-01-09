@@ -171,6 +171,10 @@ GMPChild
 public
 PGMPChild
 {
+friend
+class
+PGMPChild
+;
 public
 :
 GMPChild

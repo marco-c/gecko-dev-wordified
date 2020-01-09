@@ -147,6 +147,10 @@ final
 public
 PPaymentRequestChild
 {
+friend
+class
+PPaymentRequestChild
+;
 public
 :
 explicit

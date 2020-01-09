@@ -488,6 +488,10 @@ dom
 ClonedMessageData
 ClonedMessageData
 ;
+friend
+class
+PBrowserParent
+;
 virtual
 ~
 TabParent

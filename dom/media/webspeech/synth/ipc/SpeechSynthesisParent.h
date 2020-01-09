@@ -120,6 +120,10 @@ friend
 class
 SpeechSynthesisRequestParent
 ;
+friend
+class
+PSpeechSynthesisParent
+;
 public
 :
 void

@@ -350,6 +350,10 @@ friend
 class
 PluginScriptableObjectChild
 ;
+friend
+class
+PPluginInstanceChild
+;
 #
 ifdef
 OS_WIN

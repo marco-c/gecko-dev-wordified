@@ -1228,6 +1228,10 @@ layers
 TouchBehaviorFlags
 TouchBehaviorFlags
 ;
+friend
+class
+PBrowserChild
+;
 public
 :
 /

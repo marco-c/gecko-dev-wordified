@@ -366,6 +366,10 @@ final
 public
 PGMPParent
 {
+friend
+class
+PGMPParent
+;
 public
 :
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING

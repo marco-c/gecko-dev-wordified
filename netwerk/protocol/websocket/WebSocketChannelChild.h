@@ -180,6 +180,10 @@ PWebSocketChild
 public
 NeckoTargetHolder
 {
+friend
+class
+PWebSocketChild
+;
 public
 :
 explicit

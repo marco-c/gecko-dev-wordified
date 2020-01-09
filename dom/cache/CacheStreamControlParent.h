@@ -205,6 +205,10 @@ Manager
 :
 Listener
 {
+friend
+class
+PCacheStreamControlParent
+;
 public
 :
 CacheStreamControlParent

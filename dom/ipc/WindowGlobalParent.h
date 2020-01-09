@@ -207,6 +207,10 @@ nsWrapperCache
 public
 PWindowGlobalParent
 {
+friend
+class
+PWindowGlobalParent
+;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS

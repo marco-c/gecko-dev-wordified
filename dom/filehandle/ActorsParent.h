@@ -419,6 +419,9 @@ BackgroundMutableFileParentBase
 public
 PBackgroundMutableFileParent
 {
+friend
+PBackgroundMutableFileParent
+;
 nsTHashtable
 <
 nsPtrHashKey

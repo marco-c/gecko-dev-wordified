@@ -709,6 +709,10 @@ mozilla
 :
 PreallocatedProcessManagerImpl
 ;
+friend
+class
+PContentParent
+;
 #
 ifdef
 FUZZING

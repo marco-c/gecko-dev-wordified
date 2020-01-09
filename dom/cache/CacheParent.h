@@ -165,6 +165,10 @@ final
 public
 PCacheParent
 {
+friend
+class
+PCacheParent
+;
 public
 :
 CacheParent

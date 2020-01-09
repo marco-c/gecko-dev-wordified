@@ -141,6 +141,10 @@ friend
 class
 PluginInstanceParent
 ;
+friend
+class
+PStreamNotifyParent
+;
 StreamNotifyParent
 (
 )

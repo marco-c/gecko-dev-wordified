@@ -195,6 +195,10 @@ PCacheStorageChild
 public
 ActorChild
 {
+friend
+class
+PCacheStorageChild
+;
 public
 :
 CacheStorageChild

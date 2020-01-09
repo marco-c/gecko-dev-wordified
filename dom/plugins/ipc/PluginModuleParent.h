@@ -561,6 +561,10 @@ InjectorCrashCallback
 #
 endif
 {
+friend
+class
+PPluginModuleParent
+;
 protected
 :
 typedef

@@ -236,6 +236,10 @@ friend
 class
 InProcessParent
 ;
+friend
+class
+PInProcessChild
+;
 NS_INLINE_DECL_REFCOUNTING
 (
 InProcessChild

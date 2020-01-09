@@ -200,6 +200,10 @@ dom
 :
 nsIContentChild
 ;
+friend
+class
+PFileDescriptorSetChild
+;
 nsTArray
 <
 FileDescriptor

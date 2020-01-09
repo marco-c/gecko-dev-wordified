@@ -977,6 +977,10 @@ FileSystemTaskChildBase
 public
 PFileSystemRequestChild
 {
+friend
+class
+PFileSystemRequestChild
+;
 public
 :
 NS_INLINE_DECL_REFCOUNTING

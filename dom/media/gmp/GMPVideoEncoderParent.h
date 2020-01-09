@@ -193,6 +193,10 @@ GMPSharedMemManager
 public
 GMPCrashHelperHolder
 {
+friend
+class
+PGMPVideoEncoderParent
+;
 public
 :
 NS_INLINE_DECL_REFCOUNTING

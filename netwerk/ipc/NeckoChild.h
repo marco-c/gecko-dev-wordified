@@ -156,6 +156,10 @@ NeckoChild
 public
 PNeckoChild
 {
+friend
+class
+PNeckoChild
+;
 public
 :
 NeckoChild

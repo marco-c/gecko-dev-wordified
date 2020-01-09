@@ -208,6 +208,10 @@ NeckoParent
 public
 PNeckoParent
 {
+friend
+class
+PNeckoParent
+;
 public
 :
 NeckoParent

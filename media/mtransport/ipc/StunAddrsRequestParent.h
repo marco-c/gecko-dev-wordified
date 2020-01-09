@@ -85,6 +85,10 @@ StunAddrsRequestParent
 public
 PStunAddrsRequestParent
 {
+friend
+class
+PStunAddrsRequestParent
+;
 public
 :
 StunAddrsRequestParent

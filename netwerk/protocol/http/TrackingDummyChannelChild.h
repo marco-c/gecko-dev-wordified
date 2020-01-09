@@ -162,6 +162,10 @@ final
 public
 PTrackingDummyChannelChild
 {
+friend
+class
+PTrackingDummyChannelChild
+;
 public
 :
 static

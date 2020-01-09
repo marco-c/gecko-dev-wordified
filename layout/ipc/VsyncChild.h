@@ -240,6 +240,10 @@ ipc
 :
 BackgroundChildImpl
 ;
+friend
+class
+PVsyncChild
+;
 public
 :
 /

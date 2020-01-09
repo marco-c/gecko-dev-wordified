@@ -164,6 +164,16 @@ ipc
 :
 PTemporaryIPCBlobParent
 {
+friend
+class
+mozilla
+:
+:
+ipc
+:
+:
+PTemporaryIPCBlobParent
+;
 public
 :
 explicit

@@ -157,6 +157,10 @@ PContentBridgeChild
 public
 nsIContentChild
 {
+friend
+class
+PContentBridgeChild
+;
 public
 :
 explicit
