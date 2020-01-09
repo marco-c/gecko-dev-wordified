@@ -599,31 +599,16 @@ it
 s
 closed
         
+if
 self
 .
-parent
+runner_handle
+:
+            
+self
 .
-base
-.
-execute_script
+_close_windows
 (
-"
-if
-(
-window
-.
-win
-)
-{
-window
-.
-win
-.
-close
-(
-)
-}
-"
 )
         
 url
@@ -665,16 +650,6 @@ s
 %
 url
 )
-        
-self
-.
-runner_handle
-=
-self
-.
-marionette
-.
-current_window_handle
         
 try
 :
@@ -769,6 +744,16 @@ e
             
 raise
         
+self
+.
+runner_handle
+=
+self
+.
+marionette
+.
+current_window_handle
+        
 format_map
 =
 {
@@ -811,10 +796,9 @@ format_map
 )
     
 def
-close_old_windows
+_close_windows
 (
 self
-url_protocol
 )
 :
         
@@ -930,6 +914,23 @@ pop
 (
 0
 )
+            
+self
+.
+logger
+.
+info
+(
+"
+Changing
+harness_window
+to
+%
+s
+"
+%
+runner_handle
+)
         
 for
 handle
@@ -962,6 +963,22 @@ marionette
 .
 switch_to_window
 (
+handle
+)
+                
+self
+.
+logger
+.
+info
+(
+"
+Closing
+window
+%
+s
+"
+%
 handle
 )
                 
@@ -1007,6 +1024,25 @@ marionette
 switch_to_window
 (
 runner_handle
+)
+        
+return
+runner_handle
+    
+def
+close_old_windows
+(
+self
+url_protocol
+)
+:
+        
+runner_handle
+=
+self
+.
+_close_windows
+(
 )
         
 if
@@ -4318,15 +4354,20 @@ protocol
 MarionetteProtocol
 (
 self
+                                           
 browser
+                                           
 capabilities
+                                           
 timeout_multiplier
+                                           
 kwargs
 [
 "
 e10s
 "
 ]
+                                           
 ccov
 )
         
@@ -4709,31 +4750,6 @@ timeout
 )
 :
         
-protocol
-.
-base
-.
-execute_script
-(
-"
-if
-(
-window
-.
-win
-)
-{
-window
-.
-win
-.
-close
-(
-)
-}
-"
-)
-        
 parent_window
 =
 protocol
@@ -4847,8 +4863,6 @@ script
 %
 format_map
         
-rv
-=
 protocol
 .
 base
@@ -4856,6 +4870,9 @@ base
 execute_script
 (
 script
+async
+=
+True
 )
         
 test_window
@@ -4886,6 +4903,17 @@ test_window
 while
 True
 :
+            
+self
+.
+protocol
+.
+base
+.
+set_window
+(
+test_window
+)
             
 result
 =
