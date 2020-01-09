@@ -25598,7 +25598,7 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 ResumeNextKind
 kind
 HandleValue
@@ -25770,7 +25770,7 @@ Handle
 AsyncGeneratorObject
 *
 >
-unwrappedGenerator
+generator
 ResumeNextKind
 kind
 HandleValue
@@ -25921,7 +25921,7 @@ List
 MOZ_ASSERT
 (
 !
-unwrappedGenerator
+generator
 -
 >
 isQueueEmpty
@@ -25962,7 +25962,7 @@ AsyncGeneratorObject
 dequeueRequest
 (
 cx
-unwrappedGenerator
+generator
 )
 ;
 if
@@ -26007,7 +26007,7 @@ promise
 )
 )
 ;
-unwrappedGenerator
+generator
 -
 >
 cacheRequest
@@ -26151,7 +26151,7 @@ List
 MOZ_ASSERT
 (
 !
-unwrappedGenerator
+generator
 -
 >
 isQueueEmpty
@@ -26192,7 +26192,7 @@ AsyncGeneratorObject
 dequeueRequest
 (
 cx
-unwrappedGenerator
+generator
 )
 ;
 if
@@ -26237,7 +26237,7 @@ promise
 )
 )
 ;
-unwrappedGenerator
+generator
 -
 >
 cacheRequest
@@ -26418,7 +26418,7 @@ executing
 MOZ_ASSERT
 (
 !
-unwrappedGenerator
+generator
 -
 >
 isExecuting
@@ -26444,7 +26444,7 @@ undefined
 .
 if
 (
-unwrappedGenerator
+generator
 -
 >
 isAwaitingYieldReturn
@@ -26452,7 +26452,7 @@ isAwaitingYieldReturn
 )
 |
 |
-unwrappedGenerator
+generator
 -
 >
 isAwaitingReturn
@@ -26496,7 +26496,7 @@ undefined
 .
 if
 (
-unwrappedGenerator
+generator
 -
 >
 isQueueEmpty
@@ -26551,7 +26551,7 @@ AsyncGeneratorObject
 :
 peekRequest
 (
-unwrappedGenerator
+generator
 )
 )
 ;
@@ -26630,7 +26630,7 @@ suspendedStart
 then
 if
 (
-unwrappedGenerator
+generator
 -
 >
 isSuspendedStart
@@ -26676,7 +26676,7 @@ to
 completed
 "
 .
-unwrappedGenerator
+generator
 -
 >
 setCompleted
@@ -26700,7 +26700,7 @@ completed
 then
 if
 (
-unwrappedGenerator
+generator
 -
 >
 isCompleted
@@ -26779,7 +26779,7 @@ awaiting
 return
 "
 .
-unwrappedGenerator
+generator
 -
 >
 setAwaitingReturn
@@ -27090,7 +27090,7 @@ reaction
 >
 setIsAsyncGenerator
 (
-unwrappedGenerator
+generator
 )
 ;
 }
@@ -27213,7 +27213,7 @@ continue
 else
 if
 (
-unwrappedGenerator
+generator
 -
 >
 isCompleted
@@ -27284,7 +27284,7 @@ suspendedYield
 .
 MOZ_ASSERT
 (
-unwrappedGenerator
+generator
 -
 >
 isSuspendedStart
@@ -27292,7 +27292,7 @@ isSuspendedStart
 )
 |
 |
-unwrappedGenerator
+generator
 -
 >
 isSuspendedYield
@@ -27323,7 +27323,7 @@ to
 executing
 "
 .
-unwrappedGenerator
+generator
 -
 >
 setExecuting
@@ -27401,7 +27401,7 @@ state
 /
 State_AwaitingYieldReturn
 .
-unwrappedGenerator
+generator
 -
 >
 setAwaitingYieldReturn
@@ -27462,7 +27462,7 @@ reaction
 >
 setIsAsyncGenerator
 (
-unwrappedGenerator
+generator
 )
 ;
 }
@@ -27493,7 +27493,7 @@ return
 AsyncGeneratorResume
 (
 cx
-unwrappedGenerator
+generator
 completionKind
 argument
 )
