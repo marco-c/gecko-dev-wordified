@@ -1073,16 +1073,6 @@ jobQueue
 return
 ;
 }
-cx
--
->
-jobQueue
--
->
-reset
-(
-)
-;
 FreeOp
 *
 fop
