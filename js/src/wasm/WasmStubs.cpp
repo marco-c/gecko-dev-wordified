@@ -7949,13 +7949,6 @@ callee
 )
 )
 ;
-masm
-.
-assertStackAlignment
-(
-WasmStackAlignment
-)
-;
 #
 ifdef
 JS_CODEGEN_ARM64
@@ -7999,6 +7992,13 @@ initPseudoStackPtr
 ;
 #
 endif
+masm
+.
+assertStackAlignment
+(
+WasmStackAlignment
+)
+;
 masm
 .
 branchPtr
