@@ -4744,6 +4744,12 @@ function
 getIncognitoWindow
 (
 url
+=
+"
+about
+:
+privatebrowsing
+"
 )
 {
 /
