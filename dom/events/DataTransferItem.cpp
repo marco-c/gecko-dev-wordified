@@ -1094,11 +1094,6 @@ return
 ;
 }
 }
-uint32_t
-length
-=
-0
-;
 nsCOMPtr
 <
 nsISupports
@@ -1118,8 +1113,6 @@ getter_AddRefs
 (
 data
 )
-&
-length
 )
 ;
 if
