@@ -1226,7 +1226,7 @@ return
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

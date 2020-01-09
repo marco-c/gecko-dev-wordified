@@ -201,7 +201,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -752,7 +756,7 @@ nsBindingManager
 :
 nsBindingManager
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -1100,7 +1104,7 @@ RemovedFromDocumentInternal
 nsIContent
 *
 aContent
-nsIDocument
+Document
 *
 aOldDocument
 DestructorHandling
@@ -1533,7 +1537,7 @@ ChangeDocument
 ?
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -1749,7 +1753,7 @@ nsBindingManager
 :
 LoadBindingDocument
 (
-nsIDocument
+Document
 *
 aBoundDoc
 nsIURI
@@ -2388,7 +2392,7 @@ script
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

@@ -257,7 +257,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -4115,7 +4119,7 @@ has
 chrome
 privileges
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -4673,7 +4677,7 @@ aParent
 {
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -7155,9 +7159,9 @@ bug
 .
 *
 /
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -9846,7 +9850,7 @@ baseWindow
 {
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -12624,9 +12628,9 @@ channel
 ;
 #
 endif
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -13396,7 +13400,7 @@ aParent
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =

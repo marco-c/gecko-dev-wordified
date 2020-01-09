@@ -216,9 +216,6 @@ class
 gfxContext
 ;
 class
-nsIDocument
-;
-class
 nsSVGPaintServerFrame
 ;
 namespace

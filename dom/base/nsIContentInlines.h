@@ -130,7 +130,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1099,7 +1103,7 @@ return
 true
 ;
 }
-nsIDocument
+Document
 *
 doc
 =

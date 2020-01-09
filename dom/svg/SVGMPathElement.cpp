@@ -646,7 +646,7 @@ SVGMPathElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

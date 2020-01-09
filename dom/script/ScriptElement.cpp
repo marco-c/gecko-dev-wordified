@@ -624,7 +624,7 @@ return
 false
 ;
 }
-nsIDocument
+Document
 *
 ownerDoc
 =
@@ -688,7 +688,7 @@ sink
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 parserDoc
 =

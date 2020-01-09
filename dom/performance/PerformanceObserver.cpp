@@ -939,7 +939,7 @@ do_QueryInterface
 mOwner
 )
 ;
-nsIDocument
+Document
 *
 document
 =

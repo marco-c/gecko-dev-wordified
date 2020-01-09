@@ -435,7 +435,10 @@ Initialize
 nsIParser
 *
 aParser
-nsIDocument
+dom
+:
+:
+Document
 *
 aDoc
 nsIURI

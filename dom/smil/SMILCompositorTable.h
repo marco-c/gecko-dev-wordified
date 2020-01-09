@@ -230,7 +230,7 @@ which
 is
 used
 in
-nsIDocument
+Document
 .
 We
 don

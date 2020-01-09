@@ -130,9 +130,6 @@ BasicEvents
 h
 "
 class
-nsIDocument
-;
-class
 nsIPrincipal
 ;
 namespace

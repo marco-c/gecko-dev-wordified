@@ -183,7 +183,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -393,7 +397,7 @@ XPathEvaluator
 :
 XPathEvaluator
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -437,7 +441,7 @@ aRv
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -496,7 +500,7 @@ aRv
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -548,7 +552,7 @@ aExpression
 txIParseContext
 *
 aContext
-nsIDocument
+Document
 *
 aDocument
 ErrorResult

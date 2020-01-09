@@ -174,7 +174,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1058,7 +1062,10 @@ SelectionManager
 :
 NotifySelectionChanged
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 Selection

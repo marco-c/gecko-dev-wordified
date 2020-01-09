@@ -135,7 +135,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -484,7 +488,7 @@ following
 is
 inlined
 .
-nsIDocument
+Document
 *
 doc
 =

@@ -142,7 +142,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -195,7 +199,7 @@ GeneratedImageContent
 :
 Create
 (
-nsIDocument
+Document
 &
 aDocument
 uint32_t

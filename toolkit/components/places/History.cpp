@@ -9161,7 +9161,7 @@ owner
 document
 .
 static
-nsIDocument
+Document
 *
 GetLinkDocument
 (
@@ -9459,7 +9459,7 @@ DocGroup
 {
 nsTArray
 <
-nsIDocument
+Document
 *
 >
 seen
@@ -9504,7 +9504,7 @@ GetNext
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -9554,7 +9554,7 @@ NotifyVisitedForDocument
 nsIURI
 *
 aURI
-nsIDocument
+Document
 *
 aDocument
 )
@@ -9686,7 +9686,7 @@ GetNext
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -9810,7 +9810,7 @@ DispatchNotifyVisited
 nsIURI
 *
 aURI
-nsIDocument
+Document
 *
 aDocument
 )
@@ -9829,9 +9829,9 @@ in
 the
 closure
 .
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =

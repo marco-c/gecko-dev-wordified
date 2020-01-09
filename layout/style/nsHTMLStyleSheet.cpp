@@ -172,7 +172,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -634,7 +638,7 @@ nsHTMLStyleSheet
 :
 nsHTMLStyleSheet
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -669,7 +673,7 @@ nsHTMLStyleSheet
 :
 SetOwningDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )

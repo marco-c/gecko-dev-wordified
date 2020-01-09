@@ -219,7 +219,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -499,7 +503,7 @@ static
 bool
 IsAncestorBinding
 (
-nsIDocument
+Document
 *
 aDocument
 nsIURI
@@ -713,7 +717,7 @@ mBoundElement
 void
 DocumentLoaded
 (
-nsIDocument
+Document
 *
 aBindingDoc
 )
@@ -743,7 +747,7 @@ the
 owner
 doc
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -929,13 +933,13 @@ NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSIDOMEVENTLISTENER
 nsXBLStreamListener
 (
-nsIDocument
+Document
 *
 aBoundDocument
 nsIXMLContentSink
 *
 aSink
-nsIDocument
+Document
 *
 aBindingDocument
 )
@@ -1005,7 +1009,7 @@ until
 OnStartRequest
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mBindingDocument
 ;
@@ -1035,13 +1039,13 @@ nsXBLStreamListener
 :
 nsXBLStreamListener
 (
-nsIDocument
+Document
 *
 aBoundDocument
 nsIXMLContentSink
 *
 aSink
-nsIDocument
+Document
 *
 aBindingDocument
 )
@@ -1206,7 +1210,7 @@ sink
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -1565,7 +1569,7 @@ GetCurrentTarget
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 bindingDocument
 =
@@ -1600,7 +1604,7 @@ alive
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 (
@@ -1746,7 +1750,7 @@ ElementAt
 0
 )
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -3297,7 +3301,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -3649,7 +3653,7 @@ aElement
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -3857,7 +3861,7 @@ a
 document
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -4125,7 +4129,7 @@ a
 document
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -4577,7 +4581,7 @@ binding
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 bindingDoc
 =
@@ -4843,7 +4847,7 @@ ref
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 boundDocument
 =
@@ -5558,7 +5562,7 @@ LoadBindingDocumentInfo
 nsIContent
 *
 aBoundElement
-nsIDocument
+Document
 *
 aBoundDocument
 nsIURI
@@ -6257,7 +6261,7 @@ true
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 ;
@@ -6546,7 +6550,7 @@ FetchBindingDocument
 nsIContent
 *
 aBoundElement
-nsIDocument
+Document
 *
 aBoundDocument
 nsIURI
@@ -6560,7 +6564,7 @@ nsIPrincipal
 aOriginPrincipal
 bool
 aForceSyncLoad
-nsIDocument
+Document
 *
 *
 aResult
@@ -6683,7 +6687,7 @@ up
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;

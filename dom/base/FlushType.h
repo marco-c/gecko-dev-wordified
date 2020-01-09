@@ -147,7 +147,7 @@ the
 enum
 used
 by
-nsIDocument
+Document
 :
 :
 FlushPendingNotifications

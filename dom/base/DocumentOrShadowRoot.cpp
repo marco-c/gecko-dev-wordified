@@ -137,6 +137,17 @@ mozilla
 /
 dom
 /
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 HTMLInputElement
 .
 h
@@ -160,13 +171,6 @@ mozilla
 dom
 /
 StyleSheetList
-.
-h
-"
-#
-include
-"
-nsIDocument
 .
 h
 "
@@ -252,7 +256,7 @@ DocumentOrShadowRoot
 :
 DocumentOrShadowRoot
 (
-nsIDocument
+Document
 &
 aDoc
 )
@@ -1421,7 +1425,7 @@ value
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2910,7 +2914,7 @@ impls
 of
 /
 /
-nsIDocument
+Document
 and
 nsHTMLFormControl
 ?
@@ -2924,7 +2928,7 @@ radio
 button
 stuff
 in
-nsIDocument
+Document
 as
 /
 /

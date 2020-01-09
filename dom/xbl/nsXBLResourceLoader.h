@@ -175,9 +175,6 @@ nsXBLResource
 class
 nsIObjectOutputStream
 ;
-class
-nsIDocument
-;
 /
 /
 *
@@ -499,7 +496,10 @@ LoadResources
 (
 )
 .
-nsIDocument
+dom
+:
+:
+Document
 *
 MOZ_NON_OWNING_REF
 mBoundDocument

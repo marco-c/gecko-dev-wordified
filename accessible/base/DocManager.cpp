@@ -622,7 +622,7 @@ DocManager
 :
 GetDocAccessible
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -825,7 +825,7 @@ NotifyOfDocumentShutdown
 DocAccessible
 *
 aDocument
-nsIDocument
+Document
 *
 aDOMDocument
 )
@@ -1685,7 +1685,7 @@ piWindow
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -2322,7 +2322,7 @@ type
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -2707,7 +2707,7 @@ DocManager
 :
 HandleDOMDocumentLoad
 (
-nsIDocument
+Document
 *
 aDocument
 uint32_t
@@ -2791,7 +2791,7 @@ DocManager
 :
 AddListeners
 (
-nsIDocument
+Document
 *
 aDocument
 bool
@@ -2942,7 +2942,7 @@ DocManager
 :
 RemoveListeners
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -3036,7 +3036,7 @@ DocManager
 :
 CreateDocOrRootAccessible
 (
-nsIDocument
+Document
 *
 aDocument
 )

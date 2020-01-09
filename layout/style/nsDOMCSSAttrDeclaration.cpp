@@ -181,7 +181,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -601,7 +605,7 @@ aClosureData
 )
 ;
 }
-nsIDocument
+Document
 *
 nsDOMCSSAttributeDeclaration
 :

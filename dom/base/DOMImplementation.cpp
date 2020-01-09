@@ -402,7 +402,7 @@ aQualifiedName
 DocumentType
 *
 aDoctype
-nsIDocument
+Document
 *
 *
 aDocument
@@ -545,7 +545,7 @@ scriptHandlingObject
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -719,7 +719,7 @@ doc
 >
 SetReadyStateInternal
 (
-nsIDocument
+Document
 :
 :
 READYSTATE_COMPLETE
@@ -738,7 +738,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDocument
+Document
 >
 DOMImplementation
 :
@@ -763,7 +763,7 @@ aRv
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 ;
@@ -798,7 +798,7 @@ const
 nsAString
 &
 aTitle
-nsIDocument
+Document
 *
 *
 aDocument
@@ -893,7 +893,7 @@ scriptHandlingObject
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -1150,7 +1150,7 @@ doc
 >
 SetReadyStateInternal
 (
-nsIDocument
+Document
 :
 :
 READYSTATE_COMPLETE
@@ -1169,7 +1169,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDocument
+Document
 >
 DOMImplementation
 :
@@ -1190,7 +1190,7 @@ aRv
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 ;

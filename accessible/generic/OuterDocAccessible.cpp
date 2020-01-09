@@ -422,7 +422,10 @@ accessible
 children
 asynchronously
 .
-nsIDocument
+dom
+:
+:
+Document
 *
 outerDoc
 =
@@ -438,7 +441,10 @@ if
 outerDoc
 )
 {
-nsIDocument
+dom
+:
+:
+Document
 *
 innerDoc
 =

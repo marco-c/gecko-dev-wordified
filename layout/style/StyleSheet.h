@@ -256,9 +256,6 @@ nsStringFwd
 h
 "
 class
-nsIDocument
-;
-class
 nsINode
 ;
 class
@@ -1529,7 +1526,10 @@ sheet
 is
 affecting
 .
-nsIDocument
+dom
+:
+:
+Document
 *
 GetComposedDoc
 (
@@ -1563,7 +1563,10 @@ non
 -
 null
 .
-nsIDocument
+dom
+:
+:
+Document
 *
 GetAssociatedDocument
 (

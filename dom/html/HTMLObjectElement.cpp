@@ -191,7 +191,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1127,7 +1131,7 @@ HTMLObjectElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -1312,7 +1316,7 @@ reloaded
 (
 when
 an
-nsIDocument
+Document
 '
 s
 content
@@ -1688,7 +1692,7 @@ IsFocusableForTabIndex
 (
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -1785,7 +1789,7 @@ See
 bug
 597242
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -2238,7 +2242,7 @@ nsIPrincipal
 aSubjectPrincipal
 )
 {
-nsIDocument
+Document
 *
 doc
 =

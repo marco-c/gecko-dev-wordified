@@ -138,7 +138,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -252,7 +256,7 @@ shellAsNav
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;

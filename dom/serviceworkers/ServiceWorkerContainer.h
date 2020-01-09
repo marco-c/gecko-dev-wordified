@@ -706,7 +706,7 @@ function
 <
 void
 (
-nsIDocument
+Document
 *
 )
 >

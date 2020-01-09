@@ -561,7 +561,7 @@ gecko_bindings
 structs
 :
 :
-nsIDocument_DocumentTheme
+Document_DocumentTheme
 as
 DocumentTheme
 ;
@@ -1121,7 +1121,7 @@ A
 simple
 wrapper
 over
-nsIDocument
+Document
 .
 #
 [
@@ -1146,7 +1146,7 @@ ld
 structs
 :
 :
-nsIDocument
+Document
 )
 ;
 impl
@@ -1222,10 +1222,7 @@ mType
 structs
 :
 :
-root
-:
-:
-nsIDocument_Type
+Document_Type
 :
 :
 eHTML
@@ -8765,7 +8762,7 @@ const
 structs
 :
 :
-nsIDocument
+Document
 =
 =
 device
@@ -8776,17 +8773,7 @@ pres_context
 .
 mDocument
 .
-raw
-:
-:
-<
-structs
-:
-:
-nsIDocument
->
-(
-)
+mRawPtr
 }
 fn
 style_attribute

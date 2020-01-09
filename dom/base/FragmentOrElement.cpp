@@ -346,7 +346,22 @@ h
 #
 include
 "
-nsIDocumentInlines
+mozilla
+/
+dom
+/
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+DocumentInlines
 .
 h
 "
@@ -540,13 +555,6 @@ h
 include
 "
 nsNodeUtils
-.
-h
-"
-#
-include
-"
-nsIDocument
 .
 h
 "
@@ -1574,7 +1582,7 @@ GetDesiredIMEState
 )
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -1736,7 +1744,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -2306,7 +2314,7 @@ BaseURI
 ;
 }
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -7714,7 +7722,7 @@ effort
 to
 avoid
 calling
-nsIDocument
+Document
 :
 :
 Destroy
@@ -7741,7 +7749,7 @@ ClearServoData
 )
 ;
 }
-nsIDocument
+Document
 *
 document
 =
@@ -8024,7 +8032,7 @@ FragmentOrElement
 :
 FireNodeInserted
 (
-nsIDocument
+Document
 *
 aDoc
 nsINode
@@ -8402,7 +8410,7 @@ FragmentOrElement
 '
 s
 and
-nsIDocument
+Document
 '
 s
 unlink
@@ -9045,7 +9053,7 @@ the
 corresponding
 code
 in
-nsIDocument
+Document
 '
 s
 /
@@ -9175,7 +9183,7 @@ mShadowRoot
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -9461,7 +9469,7 @@ IsCertainlyAliveNode
 nsINode
 *
 aNode
-nsIDocument
+Document
 *
 aDoc
 )
@@ -9645,7 +9653,7 @@ return
 false
 ;
 }
-nsIDocument
+Document
 *
 currentDoc
 =
@@ -10635,7 +10643,7 @@ change
 bool
 NodeHasActiveFrame
 (
-nsIDocument
+Document
 *
 aCurrentDoc
 nsINode
@@ -10676,7 +10684,7 @@ GetPrimaryFrame
 bool
 OwnedByBindingManager
 (
-nsIDocument
+Document
 *
 aCurrentDoc
 nsINode
@@ -10847,7 +10855,7 @@ UnoptimizableCCNode
 (
 )
 ;
-nsIDocument
+Document
 *
 currentDoc
 =
@@ -11712,7 +11720,7 @@ return
 true
 ;
 }
-nsIDocument
+Document
 *
 c
 =
@@ -13215,7 +13223,7 @@ Truncate
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -13909,7 +13917,7 @@ false
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -14270,7 +14278,7 @@ FireNodeRemovedForChildren
 (
 )
 {
-nsIDocument
+Document
 *
 doc
 =

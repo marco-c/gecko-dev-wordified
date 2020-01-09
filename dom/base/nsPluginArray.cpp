@@ -243,7 +243,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1325,7 +1329,7 @@ PluginTag
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -1599,7 +1603,7 @@ false
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2001,7 +2005,7 @@ NS_OK
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 currentDoc
 =
@@ -2102,7 +2106,7 @@ permission
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 topDoc
 =

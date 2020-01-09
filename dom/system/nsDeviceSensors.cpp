@@ -2238,7 +2238,7 @@ if
 (
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -3072,7 +3072,7 @@ nsDeviceSensors
 :
 FireDOMMotionEvent
 (
-nsIDocument
+Document
 *
 doc
 EventTarget
@@ -3529,7 +3529,7 @@ aWindow
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -3605,7 +3605,7 @@ doc
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eMotionEvent
@@ -3666,7 +3666,7 @@ doc
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eOrientationEvent
@@ -3715,7 +3715,7 @@ doc
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eProximityEvent
@@ -3765,7 +3765,7 @@ doc
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eAmbientLightEvent

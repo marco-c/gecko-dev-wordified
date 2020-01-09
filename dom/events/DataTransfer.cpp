@@ -267,7 +267,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -4731,7 +4735,7 @@ MOZ_ASSERT
 aDragTarget
 )
 ;
-nsIDocument
+Document
 *
 doc
 =

@@ -244,7 +244,7 @@ virtual
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -334,7 +334,7 @@ nsAString
 &
 aMediaStr
 const
-nsIDocument
+Document
 *
 aDocument
 )

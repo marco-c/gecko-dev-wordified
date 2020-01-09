@@ -368,6 +368,15 @@ dom
 :
 ContentChild
 ;
+using
+mozilla
+:
+:
+dom
+:
+:
+Document
+;
 static
 LazyLogModule
 gAntiTrackingLog
@@ -544,7 +553,7 @@ return
 false
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -1437,7 +1446,7 @@ GetDocumentURI
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -1685,9 +1694,9 @@ docShell
 return
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2051,9 +2060,9 @@ docShell
 return
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2245,7 +2254,7 @@ nsPIDOMWindowInner
 aWindow
 )
 {
-nsIDocument
+Document
 *
 document
 =
@@ -9618,7 +9627,7 @@ inner
 return
 ;
 }
-nsIDocument
+Document
 *
 pwinDoc
 =
@@ -9658,7 +9667,7 @@ channel
 return
 ;
 }
-nsIDocument
+Document
 *
 document
 =

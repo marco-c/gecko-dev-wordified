@@ -310,7 +310,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -10627,7 +10631,7 @@ rings
 should
 be
 drawn
-nsIDocument
+Document
 *
 doc
 =
@@ -11547,7 +11551,7 @@ GenerateStateKey
 nsIContent
 *
 aContent
-nsIDocument
+Document
 *
 aDocument
 nsACString

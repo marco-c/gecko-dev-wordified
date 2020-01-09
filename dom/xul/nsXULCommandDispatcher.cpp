@@ -157,7 +157,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -368,7 +372,7 @@ nsXULCommandDispatcher
 :
 nsXULCommandDispatcher
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -845,7 +849,7 @@ document
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

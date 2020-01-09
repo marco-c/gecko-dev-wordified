@@ -236,7 +236,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -2879,7 +2883,7 @@ document
 s
 observers
 .
-nsIDocument
+Document
 *
 document
 =

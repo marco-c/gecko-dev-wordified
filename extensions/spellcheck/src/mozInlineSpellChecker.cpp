@@ -2802,7 +2802,7 @@ GetDocument
 /
 Returns
 the
-nsIDocument
+Document
 object
 for
 the
@@ -2814,7 +2814,7 @@ the
 current
 spellchecker
 .
-nsIDocument
+Document
 *
 mozInlineSpellStatus
 :
@@ -2909,9 +2909,9 @@ uint32_t
 aOffset
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -4116,9 +4116,9 @@ StartToListenToEditSubActions
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -4225,9 +4225,9 @@ EndListeningToEditSubActions
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -5995,9 +5995,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =

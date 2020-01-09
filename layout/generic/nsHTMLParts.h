@@ -167,9 +167,6 @@ class
 nsIContent
 ;
 class
-nsIDocument
-;
-class
 nsIFrame
 ;
 class
@@ -1238,7 +1235,13 @@ nsIHTMLContentSink
 *
 *
 aInstancePtrResult
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDoc
 nsIURI

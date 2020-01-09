@@ -530,7 +530,7 @@ return
 NS_OK
 ;
 }
-nsIDocument
+Document
 *
 CSSStyleRuleDeclaration
 :

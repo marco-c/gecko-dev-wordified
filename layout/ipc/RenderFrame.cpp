@@ -342,7 +342,7 @@ forget
 ;
 }
 }
-nsIDocument
+Document
 *
 doc
 =

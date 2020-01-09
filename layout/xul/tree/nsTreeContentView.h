@@ -181,9 +181,6 @@ UniquePtr
 h
 "
 class
-nsIDocument
-;
-class
 nsSelection
 ;
 class
@@ -200,6 +197,9 @@ dom
 {
 class
 DataTransfer
+;
+class
+Document
 ;
 class
 Element
@@ -1068,7 +1068,13 @@ nsIContent
 >
 mBody
 ;
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 mDocument
 ;

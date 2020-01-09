@@ -150,7 +150,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -431,7 +435,7 @@ ServoCSSParser
 :
 GetURLExtraData
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -512,7 +516,7 @@ ServoCSSParser
 :
 GetParsingEnvironment
 (
-nsIDocument
+Document
 *
 aDocument
 )

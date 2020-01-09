@@ -3366,7 +3366,10 @@ the
 tag
 name
 .
-nsIDocument
+dom
+:
+:
+Document
 *
 document
 =

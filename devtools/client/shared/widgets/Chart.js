@@ -504,7 +504,7 @@ chart
 *
 *
 param
-nsIDocument
+Document
 document
 *
 The
@@ -1141,7 +1141,7 @@ properties
 *
 *
 param
-nsIDocument
+Document
 document
 *
 The
@@ -2319,7 +2319,7 @@ properties
 *
 *
 param
-nsIDocument
+Document
 document
 *
 The

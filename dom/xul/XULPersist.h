@@ -142,7 +142,7 @@ NS_DECL_ISUPPORTS
 explicit
 XULPersist
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -231,7 +231,7 @@ out
 by
 DropDocumentReference
 .
-nsIDocument
+Document
 *
 MOZ_NON_OWNING_REF
 mDocument

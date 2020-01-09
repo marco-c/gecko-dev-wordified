@@ -1161,7 +1161,7 @@ Override
 the
 default
 in
-nsIDocument
+Document
 mCharacterSet
 =
 UTF_8_ENCODING
@@ -1253,7 +1253,7 @@ mozilla
 nsresult
 NS_NewXULDocument
 (
-nsIDocument
+Document
 *
 *
 result
@@ -1564,7 +1564,7 @@ nsIOffThreadScriptReceiver
 /
 /
 /
-nsIDocument
+Document
 interface
 /
 /
@@ -1841,7 +1841,7 @@ this
 ever
 starts
 calling
-nsIDocument
+Document
 :
 :
 StartDocumentLoad
@@ -3148,7 +3148,7 @@ something
 /
 /
 /
-nsIDocument
+Document
 interface
 /
 /

@@ -327,7 +327,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1681,7 +1685,7 @@ if
 parent
 )
 {
-nsIDocument
+Document
 *
 nsDoc
 =
@@ -12315,7 +12319,7 @@ imgNotificationObserver
 =
 listener
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -27876,7 +27880,7 @@ return
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -28108,7 +28112,7 @@ return
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

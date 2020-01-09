@@ -2118,7 +2118,10 @@ GetBaseURI
 (
 )
 ;
-nsIDocument
+dom
+:
+:
+Document
 *
 document
 =

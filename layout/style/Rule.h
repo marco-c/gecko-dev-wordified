@@ -189,9 +189,6 @@ nsWrapperCache
 .
 h
 "
-class
-nsIDocument
-;
 struct
 nsRuleData
 ;
@@ -525,7 +522,10 @@ s
 about
 it
 .
-nsIDocument
+dom
+:
+:
+Document
 *
 GetComposedDoc
 (

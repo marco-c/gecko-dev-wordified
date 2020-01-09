@@ -4755,7 +4755,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -4801,7 +4801,7 @@ baseURI
 NS_ERROR
 (
 "
-nsIDocument
+Document
 didn
 '
 t
@@ -6250,7 +6250,7 @@ document
 and
 cause
 the
-nsIDocument
+Document
 /
 /
 to
@@ -18255,7 +18255,7 @@ this
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 rootDoc
 =
@@ -18275,7 +18275,7 @@ GetDocument
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 foundDoc
 ;

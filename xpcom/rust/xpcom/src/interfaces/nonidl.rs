@@ -145,7 +145,7 @@ of
 nsISupports
 such
 that
-nsIDocument
+Document
 can
 have
 nsINode
@@ -368,13 +368,13 @@ kept
 in
 sync
 with
-nsIDocument
+Document
 .
 h
 nonidl
 !
 (
-nsIDocument
+Document
 nsID
 (
 0xce1f7627

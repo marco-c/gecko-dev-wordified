@@ -537,7 +537,7 @@ manualNACProperty
 ;
 /
 /
-nsIDocument
+Document
 :
 :
 AdoptNode
@@ -547,10 +547,10 @@ all
 properties
 before
 destroying
-/
-/
 editor
 .
+/
+/
 So
 we
 have

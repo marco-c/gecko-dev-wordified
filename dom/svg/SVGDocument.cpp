@@ -504,7 +504,7 @@ functions
 nsresult
 NS_NewSVGDocument
 (
-nsIDocument
+Document
 *
 *
 aInstancePtrResult

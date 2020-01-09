@@ -209,7 +209,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1550,7 +1554,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-nsIDocument
+Document
 *
 document
 =
@@ -2668,7 +2672,7 @@ CharacterData
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -3474,7 +3478,7 @@ NS_CREATE_FRAME_IF_NON_WHITESPACE
 NS_REFRAME_IF_WHITESPACE
 )
 ;
-nsIDocument
+Document
 *
 document
 =

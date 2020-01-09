@@ -107,7 +107,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -302,7 +306,10 @@ continue
 }
 if
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 doc
 =

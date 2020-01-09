@@ -294,9 +294,6 @@ nsHashKeys
 h
 "
 class
-nsIDocument
-;
-class
 nsNodeInfoManager
 ;
 namespace
@@ -305,6 +302,9 @@ mozilla
 namespace
 dom
 {
+class
+Document
+;
 class
 NodeInfo
 final
@@ -1231,7 +1231,7 @@ info
 .
 *
 /
-nsIDocument
+Document
 *
 GetDocument
 (
@@ -1858,7 +1858,7 @@ document
 is
 destroyed
 .
-nsIDocument
+Document
 *
 MOZ_NON_OWNING_REF
 mDocument

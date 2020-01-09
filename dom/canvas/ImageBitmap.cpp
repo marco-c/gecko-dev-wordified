@@ -6390,7 +6390,7 @@ GetExtantDoc
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eCreateImageBitmapCanvasRenderingContext2D

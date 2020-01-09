@@ -623,7 +623,7 @@ document
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -1684,7 +1684,7 @@ document
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2516,7 +2516,7 @@ false
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2557,7 +2557,7 @@ spoofedState
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

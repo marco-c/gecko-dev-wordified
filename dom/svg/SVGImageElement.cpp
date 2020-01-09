@@ -1583,7 +1583,7 @@ SVGImageElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

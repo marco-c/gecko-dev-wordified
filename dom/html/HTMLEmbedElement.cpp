@@ -159,7 +159,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -434,7 +438,7 @@ HTMLEmbedElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -603,7 +607,7 @@ reloaded
 (
 when
 an
-nsIDocument
+Document
 '
 s
 content

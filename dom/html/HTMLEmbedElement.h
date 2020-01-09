@@ -258,7 +258,7 @@ virtual
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -680,7 +680,7 @@ aRv
 )
 ;
 }
-nsIDocument
+Document
 *
 GetSVGDocument
 (

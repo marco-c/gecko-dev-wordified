@@ -191,7 +191,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -469,7 +473,7 @@ GetAllStyleSheets
 GlobalObject
 &
 aGlobalObject
-nsIDocument
+Document
 &
 aDocument
 bool
@@ -1198,7 +1202,7 @@ out
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -3575,7 +3579,7 @@ MOZ_ASSERT
 aElement
 )
 ;
-nsIDocument
+Document
 *
 doc
 =

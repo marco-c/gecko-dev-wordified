@@ -183,7 +183,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -419,7 +423,7 @@ node
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -576,7 +580,7 @@ NS_OK
 ;
 }
 }
-nsIDocument
+Document
 *
 docToCheckForImage
 =

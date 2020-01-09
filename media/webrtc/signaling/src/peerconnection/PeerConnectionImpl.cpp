@@ -392,7 +392,7 @@ the
 MS
 macro
 for
-nsIDocument
+Document
 :
 :
 CreateEvent
@@ -412,7 +412,11 @@ XP_WIN
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -805,7 +809,11 @@ imported
 after
 we
 included
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 #
@@ -1779,7 +1787,7 @@ return
 false
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -10033,7 +10041,7 @@ PeerIdentity
 aPeerIdentity
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -10220,7 +10228,7 @@ Neither
 side
 wants
 privacy
-nsIDocument
+Document
 *
 doc
 =
@@ -10289,7 +10297,7 @@ MediaStreamTrack
 aTrack
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -11372,7 +11380,7 @@ nsIPrincipal
 >
 principal
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -13104,9 +13112,9 @@ aPluginID
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =

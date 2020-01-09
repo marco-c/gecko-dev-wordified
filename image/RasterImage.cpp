@@ -11609,7 +11609,10 @@ RasterImage
 :
 PropagateUseCounters
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 )
 {

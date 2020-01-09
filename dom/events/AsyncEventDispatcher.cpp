@@ -786,7 +786,7 @@ mTarget
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

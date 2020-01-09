@@ -1600,7 +1600,7 @@ elementId
 else
 if
 (
-nsIDocument
+Document
 *
 doc
 =

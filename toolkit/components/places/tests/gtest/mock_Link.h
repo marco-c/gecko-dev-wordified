@@ -356,7 +356,13 @@ matter
 void
 NodeInfoChanged
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aOldDoc
 )

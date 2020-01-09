@@ -165,9 +165,6 @@ class
 nsPresContext
 ;
 class
-nsIDocument
-;
-class
 nsView
 ;
 struct
@@ -179,6 +176,9 @@ mozilla
 namespace
 dom
 {
+class
+Document
+;
 class
 Element
 ;
@@ -438,7 +438,13 @@ GetPresContext
 (
 )
 ;
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 GetDocument
 (

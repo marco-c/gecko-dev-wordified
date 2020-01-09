@@ -189,9 +189,6 @@ class
 nsIDocShellTreeItem
 ;
 class
-nsIDocument
-;
-class
 nsPIDOMWindowOuter
 ;
 namespace
@@ -203,6 +200,9 @@ AbstractThread
 namespace
 dom
 {
+class
+Document
+;
 class
 TabChild
 ;
@@ -633,7 +633,7 @@ const
 nsACString
 &
 aKey
-nsIDocument
+Document
 *
 aDocument
 )

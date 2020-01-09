@@ -382,7 +382,7 @@ GetMessage
 +
 mMessage
 ;
-nsIDocument
+Document
 *
 ownerDoc
 =

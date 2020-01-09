@@ -1321,7 +1321,7 @@ mut
 structs
 :
 :
-nsIDocument
+Document
 {
 self
 .
@@ -1331,17 +1331,7 @@ pres_context
 .
 mDocument
 .
-raw
-:
-:
-<
-structs
-:
-:
-nsIDocument
->
-(
-)
+mRawPtr
 }
 /
 /

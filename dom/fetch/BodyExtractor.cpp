@@ -457,7 +457,7 @@ template
 nsresult
 BodyExtractor
 <
-nsIDocument
+Document
 >
 :
 :

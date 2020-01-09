@@ -466,14 +466,22 @@ FrameSet
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
 #
 include
 "
-nsIDocumentInlines
+mozilla
+/
+dom
+/
+DocumentInlines
 .
 h
 "
@@ -1167,10 +1175,10 @@ static
 nsresult
 DeleteUnselectedNodes
 (
-nsIDocument
+Document
 *
 aOrigDoc
-nsIDocument
+Document
 *
 aDoc
 )
@@ -1819,7 +1827,7 @@ root
 doc
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -1922,7 +1930,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2007,7 +2015,7 @@ static
 void
 GetDocumentTitleAndURL
 (
-nsIDocument
+Document
 *
 aDoc
 nsAString
@@ -2596,7 +2604,7 @@ argument
 "
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -2623,7 +2631,7 @@ tree
 "
 )
 ;
-nsIDocument
+Document
 *
 subDoc
 =
@@ -3008,7 +3016,7 @@ right
 now
 /
 /
-nsIDocument
+Document
 doesn
 '
 t
@@ -3048,7 +3056,7 @@ return
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -3699,7 +3707,7 @@ aDocViewerPrint
 nsIDocShell
 *
 aContainer
-nsIDocument
+Document
 *
 aDocument
 float
@@ -4821,7 +4829,7 @@ aPrintSettings
 nsIWebProgressListener
 *
 aWebProgressListener
-nsIDocument
+Document
 *
 aDoc
 )
@@ -4980,7 +4988,7 @@ aPrintSettings
 nsIWebProgressListener
 *
 aWebProgressListener
-nsIDocument
+Document
 *
 aDoc
 )
@@ -7678,7 +7686,7 @@ in
 print
 preview
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -7826,7 +7834,7 @@ window
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -10940,7 +10948,7 @@ viewer
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -12673,7 +12681,7 @@ return
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -19953,7 +19961,7 @@ const
 nsINode
 *
 aNode
-nsIDocument
+Document
 *
 aDoc
 )
@@ -20130,10 +20138,10 @@ static
 nsresult
 DeleteUnselectedNodes
 (
-nsIDocument
+Document
 *
 aOrigDoc
-nsIDocument
+Document
 *
 aDoc
 )
@@ -21706,7 +21714,7 @@ static
 bool
 DocHasPrintCallbackCanvas
 (
-nsIDocument
+Document
 *
 aDoc
 void
@@ -21867,7 +21875,7 @@ static
 bool
 DocHasPrintCallbackCanvas
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -26915,7 +26923,7 @@ MOZ_ASSERT
 po
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -28286,7 +28294,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -28852,7 +28860,7 @@ cv
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

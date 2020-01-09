@@ -177,7 +177,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1228,7 +1232,7 @@ this
 )
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -4254,7 +4258,7 @@ NS_ERROR_NULL_POINTER
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -4649,7 +4653,7 @@ and
 the
 like
 )
-nsIDocument
+Document
 *
 doc
 =
@@ -4905,7 +4909,7 @@ ImageLoadType
 aImageLoadType
 bool
 aLoadStart
-nsIDocument
+Document
 *
 aDocument
 nsLoadFlags
@@ -6596,7 +6600,7 @@ DISCARD_IMAGES
 )
 ;
 }
-nsIDocument
+Document
 *
 nsImageLoadingContent
 :
@@ -6616,7 +6620,7 @@ OwnerDoc
 )
 ;
 }
-nsIDocument
+Document
 *
 nsImageLoadingContent
 :
@@ -6702,7 +6706,7 @@ const
 nsAString
 &
 aSpec
-nsIDocument
+Document
 *
 aDocument
 nsIURI
@@ -7997,7 +8001,7 @@ nsImageLoadingContent
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -8077,7 +8081,7 @@ it
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -8239,7 +8243,7 @@ request
 "
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -8614,7 +8618,7 @@ chance
 we
 have
 .
-nsIDocument
+Document
 *
 doc
 =

@@ -604,7 +604,7 @@ shown
 nsresult
 FetchDirectoryAndDisplayPicker
 (
-nsIDocument
+Document
 *
 aDoc
 nsIFilePicker
@@ -667,7 +667,7 @@ user
 nsresult
 StoreLastUsedDirectory
 (
-nsIDocument
+Document
 *
 aDoc
 nsIFile
@@ -1139,7 +1139,7 @@ virtual
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

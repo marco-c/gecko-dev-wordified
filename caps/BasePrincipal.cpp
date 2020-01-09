@@ -962,7 +962,10 @@ BasePrincipal
 :
 EnsureCSP
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 nsIContentSecurityPolicy
@@ -1121,7 +1124,10 @@ BasePrincipal
 :
 EnsurePreloadCSP
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 nsIContentSecurityPolicy

@@ -399,9 +399,6 @@ class
 nsDocShell
 ;
 class
-nsIDocument
-;
-class
 nsIFrame
 ;
 class
@@ -548,6 +545,9 @@ Element
 ;
 class
 Event
+;
+class
+Document
 ;
 class
 HTMLSlotElement
@@ -891,6 +891,16 @@ NS_IPRESSHELL_IID
 )
 protected
 :
+typedef
+mozilla
+:
+:
+dom
+:
+:
+Document
+Document
+;
 typedef
 mozilla
 :
@@ -1344,7 +1354,7 @@ aObjectID
 )
 ;
 }
-nsIDocument
+Document
 *
 GetDocument
 (
@@ -3335,7 +3345,7 @@ probably
 be
 calling
 *
-nsIDocument
+Document
 :
 :
 FlushPendingNotifications
@@ -6540,7 +6550,7 @@ virtual
 void
 ContentStateChanged
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -11066,7 +11076,7 @@ aView
 )
 ;
 virtual
-nsIDocument
+Document
 *
 GetPrimaryContentDocument
 (
@@ -11184,9 +11194,9 @@ must
 share
 ownership
 .
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;

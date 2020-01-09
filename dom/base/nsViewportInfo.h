@@ -168,7 +168,7 @@ tag
 .
 See
 *
-nsIDocument
+Document
 :
 :
 GetViewportInfo
@@ -604,7 +604,7 @@ calculations
 from
 the
 *
-nsIDocument
+Document
 :
 :
 GetViewportInfo

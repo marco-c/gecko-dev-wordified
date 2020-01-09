@@ -156,7 +156,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1996,7 +2000,7 @@ aRv
 )
 ;
 virtual
-nsIDocument
+Document
 *
 GetResponseXML
 (
@@ -2534,9 +2538,9 @@ nsIURI
 >
 mRequestURL
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 mResponseXML
 ;
@@ -3310,9 +3314,9 @@ HandleTimeoutCallback
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 mSuspendedDoc
 ;

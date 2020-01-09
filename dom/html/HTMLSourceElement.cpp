@@ -348,7 +348,7 @@ nsAString
 &
 aMedia
 const
-nsIDocument
+Document
 *
 aDocument
 )
@@ -959,7 +959,7 @@ HTMLSourceElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

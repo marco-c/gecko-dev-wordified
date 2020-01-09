@@ -210,7 +210,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -4291,7 +4295,7 @@ IsEmpty
 )
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -6221,7 +6225,7 @@ we
 can
 use
 getElementById
-nsIDocument
+Document
 *
 document
 =

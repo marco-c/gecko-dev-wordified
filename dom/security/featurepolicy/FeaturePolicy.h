@@ -572,9 +572,6 @@ support
 *
 /
 class
-nsIDocument
-;
-class
 nsIHttpChannel
 ;
 class
@@ -586,6 +583,9 @@ mozilla
 namespace
 dom
 {
+class
+Document
+;
 class
 FeaturePolicyUtils
 ;
@@ -729,7 +729,13 @@ attribute
 void
 SetDeclaredPolicy
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDocument
 const

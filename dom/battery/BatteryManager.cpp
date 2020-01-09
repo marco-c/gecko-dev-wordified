@@ -186,7 +186,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -813,7 +817,7 @@ non
 -
 chrome
 .
-nsIDocument
+Document
 *
 doc
 =

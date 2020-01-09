@@ -226,6 +226,15 @@ mozilla
 :
 CheckedUint32
 ;
+using
+mozilla
+:
+:
+dom
+:
+:
+Document
+;
 AttrArray
 :
 :
@@ -2219,7 +2228,7 @@ ForceMapped
 nsMappedAttributeElement
 *
 aContent
-nsIDocument
+Document
 *
 aDocument
 )

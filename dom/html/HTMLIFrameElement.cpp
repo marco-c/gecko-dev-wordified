@@ -384,7 +384,7 @@ HTMLIFrameElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

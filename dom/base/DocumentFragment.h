@@ -162,9 +162,6 @@ class
 nsAtom
 ;
 class
-nsIDocument
-;
-class
 nsIContent
 ;
 namespace
@@ -173,6 +170,9 @@ mozilla
 namespace
 dom
 {
+class
+Document
+;
 class
 Element
 ;
@@ -373,7 +373,7 @@ override
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

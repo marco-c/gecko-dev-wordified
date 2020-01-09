@@ -2371,7 +2371,7 @@ are
 the
 root
 element
-nsIDocument
+Document
 *
 doc
 =
@@ -2833,7 +2833,7 @@ SVGSVGElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -4417,7 +4417,7 @@ GetPreserveAspectRatioWithOverride
 )
 const
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -4685,7 +4685,7 @@ in
 Shadow
 DOM
 .
-nsIDocument
+Document
 *
 doc
 =

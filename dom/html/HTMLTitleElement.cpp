@@ -155,7 +155,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -408,7 +412,7 @@ HTMLTitleElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -521,7 +525,7 @@ bool
 aBound
 )
 {
-nsIDocument
+Document
 *
 doc
 =

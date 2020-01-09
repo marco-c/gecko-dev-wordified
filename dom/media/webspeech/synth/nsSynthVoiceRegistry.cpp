@@ -3474,7 +3474,7 @@ GetOwner
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

@@ -1134,7 +1134,7 @@ nsPresContext
 *
 aPresContext
 const
-nsIDocument
+Document
 *
 aDocument
 DrawTarget

@@ -184,7 +184,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -747,7 +751,7 @@ aElements
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

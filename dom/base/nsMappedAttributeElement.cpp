@@ -124,7 +124,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -216,7 +220,7 @@ nsMappedAttributeElement
 :
 NodeInfoChanged
 (
-nsIDocument
+Document
 *
 aOldDoc
 )

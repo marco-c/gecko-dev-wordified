@@ -3350,7 +3350,13 @@ nsIScriptGlobalObject
 >
 GetScriptGlobalAndDocument
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 *
 aDoc

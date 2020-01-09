@@ -206,7 +206,7 @@ XMLStylesheetProcessingInstruction
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -292,7 +292,7 @@ aNullParent
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 oldDoc
 =
@@ -658,7 +658,7 @@ Nothing
 )
 ;
 }
-nsIDocument
+Document
 *
 doc
 =

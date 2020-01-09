@@ -1465,7 +1465,7 @@ HTMLMenuItemElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

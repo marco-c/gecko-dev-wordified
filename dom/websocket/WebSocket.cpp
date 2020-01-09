@@ -327,7 +327,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -6057,7 +6061,7 @@ cx
 )
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -6301,7 +6305,7 @@ aWindow
 )
 override
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -6508,7 +6512,7 @@ MOZ_ASSERT
 aWindow
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -8751,7 +8755,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 originDoc
 =
@@ -10109,7 +10113,7 @@ creation
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -14706,7 +14710,7 @@ mIsMainThread
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -14806,7 +14810,7 @@ return
 NS_OK
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -15855,7 +15859,7 @@ currentInnerWindow
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =

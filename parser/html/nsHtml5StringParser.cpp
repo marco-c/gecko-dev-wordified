@@ -101,7 +101,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -116,6 +120,15 @@ DocumentFragment
 .
 h
 "
+using
+mozilla
+:
+:
+dom
+:
+:
+Document
+;
 NS_IMPL_ISUPPORTS0
 (
 nsHtml5StringParser
@@ -208,7 +221,7 @@ INT32_MAX
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -348,7 +361,7 @@ const
 nsAString
 &
 aSourceBuffer
-nsIDocument
+Document
 *
 aTargetDoc
 bool
@@ -417,7 +430,7 @@ const
 nsAString
 &
 aSourceBuffer
-nsIDocument
+Document
 *
 aDocument
 bool

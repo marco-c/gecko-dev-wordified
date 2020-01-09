@@ -145,7 +145,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -762,7 +766,7 @@ return
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -1059,7 +1063,7 @@ effect
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

@@ -164,7 +164,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -762,7 +766,7 @@ IsEventTargetChrome
 EventTarget
 *
 aEventTarget
-nsIDocument
+Document
 *
 *
 aDocument
@@ -781,7 +785,7 @@ aDocument
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -874,7 +878,7 @@ aDocument
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 retVal
 =
@@ -5135,7 +5139,7 @@ mOnlyChromeDispatch
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -5451,7 +5455,7 @@ node
 s
 document
 .
-nsIDocument
+Document
 *
 doc
 =

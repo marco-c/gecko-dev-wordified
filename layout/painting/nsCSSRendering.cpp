@@ -309,7 +309,11 @@ h
 #
 include
 "
-nsIDocumentInlines
+mozilla
+/
+dom
+/
+DocumentInlines
 .
 h
 "
@@ -543,6 +547,15 @@ mozilla
 :
 :
 CSSSizeOrRatio
+;
+using
+mozilla
+:
+:
+dom
+:
+:
+Document
 ;
 static
 int
@@ -5849,7 +5862,7 @@ borderStyles
 )
 )
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -7353,7 +7366,7 @@ aDirtyRect
 oneDevPixel
 )
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -8556,7 +8569,7 @@ return
 aForFrame
 ;
 }
-nsIDocument
+Document
 *
 document
 =
@@ -9210,7 +9223,7 @@ in
 an
 HTML
 document
-nsIDocument
+Document
 *
 document
 =

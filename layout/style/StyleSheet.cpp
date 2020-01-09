@@ -643,7 +643,7 @@ mContents
 )
 ;
 }
-nsIDocument
+Document
 *
 StyleSheet
 :
@@ -670,7 +670,7 @@ OwnerDoc
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 StyleSheet
 :
@@ -3394,7 +3394,7 @@ aRule
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -3449,7 +3449,7 @@ aRule
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -3504,7 +3504,7 @@ aRule
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -3644,7 +3644,7 @@ windowID
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -5515,7 +5515,7 @@ t
 support
 that
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -6155,7 +6155,7 @@ loader
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =

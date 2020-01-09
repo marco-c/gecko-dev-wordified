@@ -100,9 +100,6 @@ nsISupportsImpl
 h
 "
 class
-nsIDocument
-;
-class
 nsISupports
 ;
 class
@@ -111,6 +108,13 @@ nsPIDOMWindowOuter
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+Document
+;
+}
 class
 MediaDecoder
 ;
@@ -187,7 +191,10 @@ GetOwnerWindow
 )
 const
 ;
-nsIDocument
+dom
+:
+:
+Document
 *
 GetOwnerDoc
 (

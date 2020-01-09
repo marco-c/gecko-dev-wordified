@@ -171,7 +171,7 @@ HTML
 document
 extensions
 to
-nsIDocument
+Document
 .
 *
 /

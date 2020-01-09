@@ -221,7 +221,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -333,6 +337,15 @@ dom
 :
 :
 ContentChild
+;
+using
+mozilla
+:
+:
+dom
+:
+:
+Document
 ;
 using
 mozilla
@@ -977,7 +990,7 @@ OfflineCacheUpdateChild
 :
 SetDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -1158,7 +1171,7 @@ OfflineCacheUpdateChild
 :
 AssociateDocument
 (
-nsIDocument
+Document
 *
 aDocument
 nsIApplicationCache
@@ -1484,7 +1497,7 @@ aDocumentURI
 nsIPrincipal
 *
 aLoadingPrincipal
-nsIDocument
+Document
 *
 aDocument
 nsIFile

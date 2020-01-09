@@ -527,7 +527,7 @@ nsIURI
 >
 ParseURLFromDocument
 (
-nsIDocument
+Document
 *
 aDocument
 const
@@ -617,7 +617,7 @@ forget
 void
 GetRequestURLFromDocument
 (
-nsIDocument
+Document
 *
 aDocument
 const
@@ -1769,7 +1769,7 @@ global
 )
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -2137,7 +2137,7 @@ global
 )
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -2599,7 +2599,7 @@ window
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;

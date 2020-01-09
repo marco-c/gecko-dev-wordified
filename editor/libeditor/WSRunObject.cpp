@@ -449,7 +449,7 @@ WSRunObject
 :
 InsertText
 (
-nsIDocument
+Document
 &
 aDocument
 const
@@ -472,7 +472,7 @@ WSRunObject
 :
 InsertText
 (
-nsIDocument
+Document
 &
 aDocument
 const
@@ -1690,7 +1690,7 @@ WSRunObject
 :
 InsertText
 (
-nsIDocument
+Document
 &
 aDocument
 const

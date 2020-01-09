@@ -262,7 +262,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -335,7 +339,7 @@ SheetInfo
 SheetInfo
 (
 const
-nsIDocument
+Document
 &
 aDocument
 nsIContent
@@ -1514,7 +1518,7 @@ nsStyleLinkElement
 :
 UpdateStyleSheetInternal
 (
-nsIDocument
+Document
 *
 aOldDocument
 ShadowRoot
@@ -1547,7 +1551,7 @@ nsStyleLinkElement
 :
 DoUpdateStyleSheet
 (
-nsIDocument
+Document
 *
 aOldDocument
 ShadowRoot
@@ -1759,7 +1763,7 @@ nullptr
 )
 ;
 }
-nsIDocument
+Document
 *
 doc
 =

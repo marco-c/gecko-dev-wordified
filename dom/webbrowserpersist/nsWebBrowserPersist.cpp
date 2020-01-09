@@ -2812,7 +2812,7 @@ doc
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 localDoc
 =

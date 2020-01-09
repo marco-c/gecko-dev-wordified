@@ -453,7 +453,7 @@ functions
 -
 -
 static
-nsIDocument
+Document
 *
 getSourceDocument
 (
@@ -533,7 +533,7 @@ txResultTreeFragment
 aRtf
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -670,7 +670,7 @@ txXPathNode
 aResult
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -766,7 +766,7 @@ DocumentFragment
 aResultHolder
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -2710,7 +2710,7 @@ holders
 for
 the
 result
-nsIDocument
+Document
 *
 sourceDoc
 =
@@ -4151,7 +4151,7 @@ MATCH
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 sourceDoc
 =

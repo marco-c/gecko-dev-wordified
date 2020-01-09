@@ -878,7 +878,10 @@ FocusedDOMDocument
 )
 )
 {
-nsIDocument
+dom
+:
+:
+Document
 *
 DOMDoc
 =
@@ -2520,7 +2523,10 @@ GetExtantDoc
 nullptr
 ;
 }
-nsIDocument
+dom
+:
+:
+Document
 *
 FocusManager
 :

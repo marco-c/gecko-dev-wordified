@@ -170,13 +170,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsIContentParent
 .
 h
@@ -283,6 +276,17 @@ h
 include
 "
 nsFrameSelection
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -804,7 +808,7 @@ aEventMessage
 nsIPresShell
 *
 aPresShell
-nsIDocument
+Document
 *
 aDocument
 EventTarget
@@ -879,7 +883,7 @@ mPresShell
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;
@@ -1571,7 +1575,7 @@ nsIContent
 aContent
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -1587,7 +1591,7 @@ if
 doc
 )
 {
-nsIDocument
+Document
 *
 subdoc
 =
@@ -1681,7 +1685,7 @@ nsIContent
 aContent
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -2812,7 +2816,7 @@ Debug
 mFocusedWindow
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -3761,7 +3765,7 @@ get
 )
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -4389,7 +4393,7 @@ get
 )
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -4736,7 +4740,7 @@ nsFocusManager
 :
 ContentRemoved
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -4962,7 +4966,7 @@ element
 is
 focused
 .
-nsIDocument
+Document
 *
 subdoc
 =
@@ -5236,7 +5240,7 @@ get
 )
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -5632,7 +5636,7 @@ get
 nsAutoCString
 spec
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -6370,7 +6374,7 @@ nsFocusManager
 :
 FireDelayedEvents
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -6493,7 +6497,7 @@ the
 similar
 one
 in
-nsIDocument
+Document
 .
 cpp
 :
@@ -8011,7 +8015,7 @@ FocusedWindowedPluginWhileFullscreen
 "
 )
 ;
-nsIDocument
+Document
 :
 :
 AsyncExitFullscreen
@@ -9769,7 +9773,7 @@ nothing
 is
 focusable
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -9910,7 +9914,7 @@ aFlags
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -10307,7 +10311,7 @@ still
 be
 focused
 .
-nsIDocument
+Document
 *
 subdoc
 =
@@ -11479,7 +11483,7 @@ during
 the
 blur
 above
-nsIDocument
+Document
 *
 doc
 =
@@ -11961,7 +11965,7 @@ Debug
 )
 )
 {
-nsIDocument
+Document
 *
 docm
 =
@@ -12283,7 +12287,7 @@ if
 aIsNewDocument
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -13503,7 +13507,7 @@ mRelatedTarget
 }
 ;
 static
-nsIDocument
+Document
 *
 GetDocumentHelper
 (
@@ -13642,7 +13646,7 @@ aEventMessage
 nsIPresShell
 *
 aPresShell
-nsIDocument
+Document
 *
 aDocument
 nsISupports
@@ -13693,7 +13697,7 @@ aTarget
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 eventTargetDoc
 =
@@ -13704,7 +13708,7 @@ eventTarget
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 relatedTargetDoc
 =
@@ -14005,7 +14009,7 @@ aTarget
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 eventTargetDoc
 =
@@ -14035,7 +14039,7 @@ aTarget
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 targetDocument
 =
@@ -15170,7 +15174,7 @@ aContent
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -15809,7 +15813,7 @@ nsFocusManager
 :
 GetSelectionLocation
 (
-nsIDocument
+Document
 *
 aDocument
 nsIPresShell
@@ -16953,7 +16957,7 @@ GetFocusedElement
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -17637,7 +17641,7 @@ false
 }
 else
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -20166,7 +20170,7 @@ parent
 /
 Document
 root
-nsIDocument
+Document
 *
 doc
 =
@@ -24184,7 +24188,7 @@ nsIContent
 aResultContent
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -24206,7 +24210,7 @@ document
 "
 )
 ;
-nsIDocument
+Document
 *
 subdoc
 =
@@ -25129,7 +25133,7 @@ return
 NS_OK
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -25377,7 +25381,7 @@ GetRootForFocus
 nsPIDOMWindowOuter
 *
 aWindow
-nsIDocument
+Document
 *
 aDocument
 bool
@@ -25714,7 +25718,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -25735,7 +25739,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 subdoc
 =
@@ -26491,7 +26495,7 @@ GetFocusedWindow
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 pointerLockedDoc
 =
@@ -26518,7 +26522,7 @@ focused
 )
 )
 {
-nsIDocument
+Document
 :
 :
 UnlockPointer
@@ -26638,7 +26642,7 @@ Now
 ;
 for
 (
-nsIDocument
+Document
 *
 doc
 =

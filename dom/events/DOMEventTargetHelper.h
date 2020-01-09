@@ -207,9 +207,6 @@ EventTarget
 .
 h
 "
-class
-nsIDocument
-;
 namespace
 mozilla
 {
@@ -219,6 +216,9 @@ ErrorResult
 namespace
 dom
 {
+class
+Document
+;
 class
 Event
 ;
@@ -893,7 +893,13 @@ return
 null
 otherwise
 .
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 GetDocumentIfCurrent
 (

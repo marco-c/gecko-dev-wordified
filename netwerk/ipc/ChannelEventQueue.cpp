@@ -143,7 +143,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1202,9 +1206,12 @@ synchronous
 XHR
 )
 .
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+dom
+:
+:
+Document
 >
 document
 ;

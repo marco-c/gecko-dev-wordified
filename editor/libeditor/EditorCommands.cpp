@@ -199,7 +199,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -6990,9 +6994,9 @@ MOZ_ASSERT
 textEditor
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =

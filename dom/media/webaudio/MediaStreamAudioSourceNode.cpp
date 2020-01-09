@@ -154,7 +154,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -367,7 +371,7 @@ GetParentObject
 (
 )
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -1124,7 +1128,7 @@ subsumes
 =
 false
 ;
-nsIDocument
+Document
 *
 doc
 =

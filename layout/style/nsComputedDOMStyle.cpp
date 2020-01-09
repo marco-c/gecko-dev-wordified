@@ -305,7 +305,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -535,7 +539,7 @@ const
 nsAString
 &
 aPseudoElt
-nsIDocument
+Document
 *
 aDocument
 nsComputedDOMStyle
@@ -722,7 +726,7 @@ bool
 DocumentNeedsRestyle
 (
 const
-nsIDocument
+Document
 *
 aDocument
 Element
@@ -1876,7 +1880,7 @@ const
 nsAString
 &
 aPseudoElt
-nsIDocument
+Document
 *
 aDocument
 StyleType
@@ -2721,7 +2725,7 @@ aStyleType
 {
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -4377,7 +4381,7 @@ SetCSSDeclaration
 )
 ;
 }
-nsIDocument
+Document
 *
 nsComputedDOMStyle
 :
@@ -4536,7 +4540,7 @@ nsComputedDOMStyle
 :
 NeedsToFlush
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -4709,7 +4713,7 @@ iframe
 .
 while
 (
-nsIDocument
+Document
 *
 parentDocument
 =
@@ -4768,7 +4772,7 @@ aNeedsLayoutFlush
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =

@@ -167,7 +167,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -2051,7 +2055,7 @@ our
 kids
 right
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -2264,7 +2268,7 @@ our
 kids
 right
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -2432,7 +2436,7 @@ sXBL
 /
 XBL2
 issue
-nsIDocument
+Document
 *
 doc
 =
@@ -5062,7 +5066,7 @@ sXBL
 /
 XBL2
 issue
-nsIDocument
+Document
 *
 doc
 =

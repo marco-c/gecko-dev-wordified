@@ -2618,7 +2618,10 @@ if
 (
 nsCOMPtr
 <
-nsIDocument
+dom
+:
+:
+Document
 >
 doc
 =

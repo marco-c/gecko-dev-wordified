@@ -686,7 +686,7 @@ h
 #
 include
 "
-nsIDocumentInlines
+DocumentInlines
 .
 h
 "
@@ -1428,7 +1428,7 @@ TabChildBase
 )
 already_AddRefed
 <
-nsIDocument
+Document
 >
 TabChildBase
 :
@@ -1440,7 +1440,7 @@ const
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -1487,7 +1487,7 @@ if
 (
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2952,7 +2952,7 @@ AsyncPanZoomEnabled
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 subject
 (
@@ -2964,7 +2964,7 @@ aSubject
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 (
@@ -7107,7 +7107,7 @@ IPC_OK
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 (
@@ -7312,9 +7312,9 @@ of
 mouse
 event
 .
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -9384,7 +9384,7 @@ mHandledByAPZ
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 (
@@ -10034,7 +10034,7 @@ mHandledByAPZ
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 (
@@ -10461,7 +10461,7 @@ AsyncPanZoomEnabled
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -13559,7 +13559,7 @@ aCharCodes
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 (
@@ -17671,7 +17671,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -18449,7 +18449,7 @@ mLayersObserverEpoch
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 (
@@ -18836,7 +18836,7 @@ aScale
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 (
@@ -19002,7 +19002,7 @@ aLookAndFeelIntCache
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 (
@@ -19312,7 +19312,7 @@ if
 (
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

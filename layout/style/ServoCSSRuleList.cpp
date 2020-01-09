@@ -283,7 +283,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1117,7 +1121,7 @@ nullptr
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =

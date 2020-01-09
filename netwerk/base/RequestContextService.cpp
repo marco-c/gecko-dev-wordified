@@ -128,7 +128,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -3159,7 +3163,10 @@ topic
 {
 nsCOMPtr
 <
-nsIDocument
+dom
+:
+:
+Document
 >
 document
 (

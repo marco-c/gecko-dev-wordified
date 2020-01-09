@@ -542,7 +542,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 doc
 =

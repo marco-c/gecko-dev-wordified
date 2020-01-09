@@ -188,7 +188,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -585,7 +589,7 @@ public
 explicit
 ScriptLoader
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -1278,7 +1282,7 @@ const
 nsAString
 &
 aHintCharset
-nsIDocument
+Document
 *
 aDocument
 char16_t
@@ -1308,7 +1312,7 @@ const
 nsAString
 &
 aHintCharset
-nsIDocument
+Document
 *
 aDocument
 JS
@@ -2098,7 +2102,7 @@ JSContext
 aCx
 )
 ;
-nsIDocument
+Document
 *
 GetDocument
 (
@@ -2313,7 +2317,7 @@ static
 nsresult
 CheckContentPolicy
 (
-nsIDocument
+Document
 *
 aDocument
 nsISupports
@@ -3232,7 +3236,7 @@ ScriptLoadRequest
 aRequest
 )
 ;
-nsIDocument
+Document
 *
 mDocument
 ;
@@ -3539,7 +3543,7 @@ public
 explicit
 nsAutoScriptLoaderDisabler
 (
-nsIDocument
+Document
 *
 aDoc
 )

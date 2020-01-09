@@ -192,7 +192,10 @@ AsElement
 return
 ;
 }
-nsIDocument
+dom
+:
+:
+Document
 *
 doc
 =

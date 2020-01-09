@@ -155,7 +155,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -282,7 +286,10 @@ aCallback
 void
 *
 aCallbackData
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 const

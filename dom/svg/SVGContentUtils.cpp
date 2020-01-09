@@ -2679,7 +2679,7 @@ SVGContentUtils
 :
 ReportToConsole
 (
-nsIDocument
+Document
 *
 doc
 const
@@ -3467,7 +3467,7 @@ SVG
 foreignObject
 higher
 up
-nsIDocument
+Document
 *
 currentDoc
 =

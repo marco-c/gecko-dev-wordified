@@ -210,6 +210,15 @@ mozilla
 :
 image
 ;
+using
+mozilla
+:
+:
+dom
+:
+:
+Document
+;
 /
 /
 The
@@ -1221,7 +1230,7 @@ aOwner
 nsILoadGroup
 *
 aLoadGroup
-nsIDocument
+Document
 *
 aLoadingDocument
 nsIURI
@@ -2074,7 +2083,7 @@ imgRequestProxy
 :
 AddToOwner
 (
-nsIDocument
+Document
 *
 aLoadingDocument
 )
@@ -4482,7 +4491,7 @@ SyncClone
 imgINotificationObserver
 *
 aObserver
-nsIDocument
+Document
 *
 aLoadingDocument
 imgRequestProxy
@@ -4515,7 +4524,7 @@ Clone
 imgINotificationObserver
 *
 aObserver
-nsIDocument
+Document
 *
 aLoadingDocument
 imgRequestProxy
@@ -4548,7 +4557,7 @@ PerformClone
 imgINotificationObserver
 *
 aObserver
-nsIDocument
+Document
 *
 aLoadingDocument
 bool
@@ -6411,7 +6420,7 @@ imgRequestProxy
 :
 GetStaticRequest
 (
-nsIDocument
+Document
 *
 aLoadingDocument
 imgRequestProxy

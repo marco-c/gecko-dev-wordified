@@ -152,9 +152,6 @@ class
 nsIURI
 ;
 class
-nsIDocument
-;
-class
 nsILoadGroup
 ;
 class
@@ -191,7 +188,7 @@ ChannelFromScriptURLMainThread
 nsIPrincipal
 *
 aPrincipal
-nsIDocument
+Document
 *
 aParentDoc
 nsILoadGroup

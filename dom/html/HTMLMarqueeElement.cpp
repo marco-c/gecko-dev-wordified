@@ -437,7 +437,7 @@ HTMLMarqueeElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

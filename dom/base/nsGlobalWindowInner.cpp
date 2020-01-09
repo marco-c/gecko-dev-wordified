@@ -994,7 +994,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -9271,7 +9275,7 @@ nsGlobalWindowInner
 :
 SetNewDocument
 (
-nsIDocument
+Document
 *
 aDocument
 nsISupports
@@ -9377,7 +9381,7 @@ InnerSetNewDocument
 JSContext
 *
 aCx
-nsIDocument
+Document
 *
 aDocument
 )
@@ -12243,7 +12247,7 @@ window
 /
 /
 see
-nsIDocument
+Document
 :
 :
 GetEventTargetParent
@@ -16293,7 +16297,7 @@ once
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -16311,7 +16315,7 @@ doc
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eComponents
@@ -17065,7 +17069,7 @@ GetExtantDoc
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eWindow_Cc_ontrollers
@@ -22357,7 +22361,7 @@ mDoc
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eUseOfCaptureEvents
@@ -22383,7 +22387,7 @@ mDoc
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eUseOfReleaseEvents
@@ -44414,7 +44418,7 @@ SetNewDocument
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -44651,7 +44655,7 @@ GetDocGroup
 )
 const
 {
-nsIDocument
+Document
 *
 doc
 =

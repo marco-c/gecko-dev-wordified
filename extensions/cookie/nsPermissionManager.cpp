@@ -353,7 +353,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -14339,9 +14343,9 @@ document
 for
 security
 check
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 document
 =

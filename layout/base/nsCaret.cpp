@@ -3380,7 +3380,7 @@ nsCaret
 :
 NotifySelectionChanged
 (
-nsIDocument
+Document
 *
 Selection
 *
@@ -3689,7 +3689,7 @@ if
 (
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

@@ -339,7 +339,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1617,7 +1621,7 @@ SVGElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -5627,7 +5631,7 @@ SVGElement
 :
 NodeInfoChanged
 (
-nsIDocument
+Document
 *
 aOldDoc
 )
@@ -7546,7 +7550,7 @@ do
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -8964,7 +8968,7 @@ MutationEvent_Binding
 ADDITION
 )
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -13701,7 +13705,7 @@ SVGElement
 :
 ReportAttributeParseFailure
 (
-nsIDocument
+Document
 *
 aDocument
 nsAtom
@@ -14902,7 +14906,7 @@ AnimationNeedsResample
 (
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -14945,7 +14949,7 @@ FlushAnimations
 (
 )
 {
-nsIDocument
+Document
 *
 doc
 =

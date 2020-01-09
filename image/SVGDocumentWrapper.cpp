@@ -286,7 +286,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -641,7 +645,7 @@ return
 false
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -811,7 +815,7 @@ mViewer
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -918,7 +922,7 @@ mViewer
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -2301,7 +2305,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -2356,7 +2360,7 @@ happen
 during
 destruction
 }
-nsIDocument
+Document
 *
 doc
 =

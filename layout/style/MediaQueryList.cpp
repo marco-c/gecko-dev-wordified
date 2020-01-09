@@ -192,7 +192,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -216,7 +220,7 @@ MediaQueryList
 :
 MediaQueryList
 (
-nsIDocument
+Document
 *
 aDocument
 const

@@ -1333,7 +1333,7 @@ nsSessionStoreUtils
 :
 CollectScrollPosition
 (
-nsIDocument
+Document
 *
 aDocument
 nsACString

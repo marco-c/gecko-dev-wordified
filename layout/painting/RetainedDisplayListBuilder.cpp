@@ -445,6 +445,15 @@ using
 namespace
 mozilla
 ;
+using
+mozilla
+:
+:
+dom
+:
+:
+Document
+;
 void
 RetainedDisplayListData
 :
@@ -5072,7 +5081,7 @@ GetRootFrameForPainting
 nsDisplayListBuilder
 *
 aBuilder
-nsIDocument
+Document
 *
 aDocument
 )
@@ -5305,7 +5314,7 @@ static
 bool
 SubDocEnumCb
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -5371,7 +5380,7 @@ framesWithProps
 rootFrame
 )
 ;
-nsIDocument
+Document
 *
 innerDoc
 =
@@ -5454,7 +5463,7 @@ aOutFramesWithProps
 rootFrame
 )
 ;
-nsIDocument
+Document
 *
 rootdoc
 =

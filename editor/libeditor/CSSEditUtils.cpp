@@ -261,7 +261,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -3206,7 +3210,7 @@ MOZ_ASSERT
 aElement
 )
 ;
-nsIDocument
+Document
 *
 doc
 =

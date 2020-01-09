@@ -422,7 +422,11 @@ notifications
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -4013,7 +4017,7 @@ sSelectionEventsOnTextControlsEnabled
 :
 sSelectionEventsEnabled
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -11663,7 +11667,7 @@ NS_ENSURE_STATE
 mShell
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -17121,7 +17125,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 aDoc
 =
@@ -17505,7 +17509,7 @@ AutoCopyListener
 :
 OnSelectionChange
 (
-nsIDocument
+Document
 *
 aDocument
 Selection

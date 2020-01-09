@@ -421,7 +421,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1657,7 +1661,7 @@ sActiveESM
 =
 nullptr
 ;
-nsIDocument
+Document
 *
 EventStateManager
 :
@@ -3024,7 +3028,7 @@ ePointerUp
 )
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -5398,7 +5402,7 @@ node
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -10186,7 +10190,7 @@ false
 ;
 }
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -13512,7 +13516,7 @@ contentWindow
 return
 NS_ERROR_FAILURE
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -20271,7 +20275,7 @@ IsEditable
 )
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -21137,7 +21141,7 @@ GetTop
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 currentDoc
 =
@@ -27183,7 +27187,7 @@ mPresContext
 ;
 if
 (
-nsIDocument
+Document
 *
 parentDoc
 =
@@ -31857,7 +31861,7 @@ NS_ERROR_FAILURE
 }
 else
 {
-nsIDocument
+Document
 *
 document
 =
@@ -34388,7 +34392,7 @@ EventStateManager
 :
 ContentRemoved
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -40205,7 +40209,7 @@ aIsHandlingUserInput
 WidgetEvent
 *
 aEvent
-nsIDocument
+Document
 *
 aDocument
 )
@@ -40453,7 +40457,7 @@ fm
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 handlingDocument
 =

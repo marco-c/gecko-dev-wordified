@@ -229,7 +229,7 @@ aClosureData
 )
 final
 ;
-nsIDocument
+Document
 *
 DocToUpdate
 (

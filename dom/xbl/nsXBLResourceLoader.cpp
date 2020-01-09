@@ -131,7 +131,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -473,7 +477,7 @@ loaders
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -1293,7 +1297,7 @@ ready
 continue
 ;
 }
-nsIDocument
+Document
 *
 doc
 =

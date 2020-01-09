@@ -1328,9 +1328,9 @@ do_QueryInterface
 global
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 ;

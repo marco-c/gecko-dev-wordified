@@ -357,9 +357,9 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 retargetEventDoc
 =
@@ -753,9 +753,9 @@ aFocusSequenceNumber
 return
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 document
 =

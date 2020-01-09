@@ -156,7 +156,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -926,7 +930,7 @@ aParent
 aPrevInFlow
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -7206,7 +7210,7 @@ is
 the
 document
 element
-nsIDocument
+Document
 *
 doc
 =

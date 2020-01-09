@@ -600,7 +600,7 @@ SVGStyleElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -686,7 +686,7 @@ aNullParent
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 oldDoc
 =

@@ -202,7 +202,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1432,7 +1436,7 @@ HTMLOptionElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -1719,7 +1723,7 @@ GetAsSupports
 )
 )
 ;
-nsIDocument
+Document
 *
 doc
 ;

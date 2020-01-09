@@ -230,7 +230,7 @@ virtual
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

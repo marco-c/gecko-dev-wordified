@@ -342,7 +342,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -4606,7 +4610,7 @@ GetParentObject
 (
 )
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -4861,7 +4865,7 @@ false
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -4998,7 +5002,7 @@ mRecorder
 mAudioNode
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -7895,7 +7899,7 @@ nsPIDOMWindowInner
 *
 window
 ;
-nsIDocument
+Document
 *
 doc
 ;
@@ -10047,7 +10051,7 @@ NS_ENSURE_TRUE_VOID
 window
 )
 ;
-nsIDocument
+Document
 *
 doc
 =

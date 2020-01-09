@@ -372,7 +372,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -4420,7 +4424,7 @@ window
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =

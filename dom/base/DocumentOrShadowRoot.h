@@ -166,9 +166,6 @@ class
 nsCycleCollectionTraversalCallback
 ;
 class
-nsIDocument
-;
-class
 nsINode
 ;
 class
@@ -278,7 +275,7 @@ public
 explicit
 DocumentOrShadowRoot
 (
-nsIDocument
+Document
 &
 )
 ;

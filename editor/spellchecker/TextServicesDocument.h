@@ -179,7 +179,10 @@ namespace
 dom
 {
 class
-Elemenent
+Document
+;
+class
+Element
 ;
 }
 ;
@@ -302,9 +305,12 @@ block
 eNext
 }
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+dom
+:
+:
+Document
 >
 mDocument
 ;

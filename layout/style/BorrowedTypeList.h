@@ -363,7 +363,13 @@ RawGeckoElement
 )
 GECKO_BORROWED_TYPE
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 RawGeckoDocument
 )
 GECKO_BORROWED_TYPE

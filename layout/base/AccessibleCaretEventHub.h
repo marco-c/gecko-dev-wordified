@@ -211,9 +211,6 @@ nsIPresShell
 class
 nsITimer
 ;
-class
-nsIDocument
-;
 namespace
 mozilla
 {
@@ -765,7 +762,10 @@ MOZ_CAN_RUN_SCRIPT
 void
 OnSelectionChange
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 dom
@@ -1420,7 +1420,10 @@ OnSelectionChanged
 AccessibleCaretEventHub
 *
 aContext
-nsIDocument
+dom
+:
+:
+Document
 *
 aDoc
 dom

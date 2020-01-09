@@ -779,7 +779,10 @@ ConsoleReportCollector
 :
 FlushConsoleReports
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 ReportAction

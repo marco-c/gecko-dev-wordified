@@ -433,13 +433,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -577,7 +570,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1611,7 +1608,7 @@ mComposed
 {
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -1820,7 +1817,7 @@ really
 /
 1
 .
-nsIDocument
+Document
 nodes
 -
 Are
@@ -2317,7 +2314,7 @@ in
 HTML
 editor
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -2480,7 +2477,7 @@ if
 content
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -3606,7 +3603,7 @@ doc
 alive
 here
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -4845,7 +4842,7 @@ are
 either
 nsIContents
 or
-nsIDocuments
+Documents
 .
 /
 /
@@ -6566,7 +6563,7 @@ what
 ?
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -6905,7 +6902,7 @@ WantAllTraces
 )
 )
 {
-nsIDocument
+Document
 *
 currentDoc
 =
@@ -7462,7 +7459,7 @@ already
 "
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -7992,7 +7989,7 @@ this
 could
 cause
 mutations
-nsIDocument
+Document
 *
 doc
 =
@@ -9478,7 +9475,7 @@ const
 OwningNodeOrString
 &
 aNode
-nsIDocument
+Document
 *
 aDocument
 )
@@ -9635,7 +9632,7 @@ OwningNodeOrString
 >
 &
 aNodes
-nsIDocument
+Document
 *
 aDocument
 ErrorResult
@@ -10018,7 +10015,7 @@ aNodes
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -10133,7 +10130,7 @@ aNodes
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -10230,7 +10227,7 @@ aNodes
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -10945,7 +10942,7 @@ aRv
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -11016,7 +11013,7 @@ aRv
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -11084,7 +11081,7 @@ calls
 to
 /
 /
-nsIDocument
+Document
 :
 :
 GetRootElement
@@ -11126,7 +11123,7 @@ note
 in
 /
 /
-nsIDocument
+Document
 :
 :
 RemoveChildNode
@@ -11844,7 +11841,7 @@ fragments
 return
 ;
 }
-nsIDocument
+Document
 *
 parentDocument
 =
@@ -12120,7 +12117,7 @@ NS_ERROR_DOM_HIERARCHY_REQUEST_ERR
 return
 ;
 }
-nsIDocument
+Document
 *
 parentDocument
 =
@@ -14749,7 +14746,7 @@ AdoptNode
 (
 )
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -16057,7 +16054,7 @@ ErrorResult
 aRv
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -16065,7 +16062,7 @@ OwnerDoc
 (
 )
 ;
-nsIDocument
+Document
 :
 :
 SelectorCache
@@ -16079,7 +16076,7 @@ GetSelectorCache
 (
 )
 ;
-nsIDocument
+Document
 :
 :
 SelectorCache

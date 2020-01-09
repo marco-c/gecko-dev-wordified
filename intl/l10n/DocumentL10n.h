@@ -180,7 +180,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -226,6 +230,9 @@ mozilla
 namespace
 dom
 {
+class
+Document
+;
 class
 Element
 ;
@@ -332,7 +339,7 @@ document
 *
 *
 The
-nsIDocument
+document
 will
 initialize
 it
@@ -407,7 +414,7 @@ public
 explicit
 DocumentL10n
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -431,9 +438,9 @@ DocumentL10n
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;
@@ -465,7 +472,7 @@ aPromise
 ;
 public
 :
-nsIDocument
+Document
 *
 GetParentObject
 (

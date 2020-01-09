@@ -253,7 +253,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -2892,7 +2896,7 @@ text
 change
 offsets
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -13261,7 +13265,7 @@ DocumentObserver
 :
 Observe
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -13293,7 +13297,7 @@ StopObserving
 .
 RefPtr
 <
-nsIDocument
+Document
 >
 newDocument
 =
@@ -13376,7 +13380,7 @@ first
 .
 RefPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -13510,7 +13514,7 @@ DocumentObserver
 :
 BeginUpdate
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -13558,7 +13562,7 @@ DocumentObserver
 :
 EndUpdate
 (
-nsIDocument
+Document
 *
 aDocument
 )

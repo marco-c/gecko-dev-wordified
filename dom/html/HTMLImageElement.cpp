@@ -174,14 +174,11 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -723,7 +720,7 @@ mElement
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;
@@ -3317,7 +3314,7 @@ HTMLImageElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -4103,7 +4100,7 @@ HTMLImageElement
 :
 NodeInfoChanged
 (
-nsIDocument
+Document
 *
 aOldDoc
 )
@@ -4312,7 +4309,7 @@ GetAsSupports
 )
 )
 ;
-nsIDocument
+Document
 *
 doc
 ;
@@ -5838,7 +5835,7 @@ NS_OK
 }
 else
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -7401,7 +7398,7 @@ HTMLImageElement
 :
 SelectSourceForTagWithAttrs
 (
-nsIDocument
+Document
 *
 aDocument
 bool

@@ -196,7 +196,7 @@ static
 bool
 Match
 (
-nsIDocument
+Document
 *
 aDoc
 nsIURI

@@ -216,6 +216,9 @@ namespace
 dom
 {
 class
+Document
+;
+class
 Element
 ;
 class
@@ -5382,7 +5385,10 @@ MOZ_MUST_USE
 nsresult
 CreateStyleForInsertText
 (
-nsIDocument
+dom
+:
+:
+Document
 &
 aDocument
 )

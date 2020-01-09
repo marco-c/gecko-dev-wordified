@@ -386,7 +386,7 @@ value
 }
 already_AddRefed
 <
-nsIDocument
+Document
 >
 DOMParser
 :
@@ -417,7 +417,7 @@ Text_html
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -635,7 +635,7 @@ aRv
 }
 already_AddRefed
 <
-nsIDocument
+Document
 >
 DOMParser
 :
@@ -682,7 +682,7 @@ aRv
 }
 already_AddRefed
 <
-nsIDocument
+Document
 >
 DOMParser
 :
@@ -787,7 +787,7 @@ aRv
 }
 already_AddRefed
 <
-nsIDocument
+Document
 >
 DOMParser
 :
@@ -988,7 +988,7 @@ bufferedStream
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -1699,7 +1699,7 @@ forget
 }
 already_AddRefed
 <
-nsIDocument
+Document
 >
 DOMParser
 :
@@ -1723,7 +1723,7 @@ use
 mOwner
 here
 but
-nsIDocument
+Document
 gets
 confused
 /
@@ -1767,10 +1767,10 @@ is
 just
 to
 wean
-nsIDocument
-/
-/
+Document
 off
+/
+/
 of
 nsIScriptGlobalObject
 but
@@ -1831,7 +1831,7 @@ now
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;

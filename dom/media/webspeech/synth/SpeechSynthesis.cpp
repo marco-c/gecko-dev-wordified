@@ -181,7 +181,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -937,7 +941,7 @@ GetOwner
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =

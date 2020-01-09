@@ -253,7 +253,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -616,7 +620,7 @@ nsHTMLDNSPrefetch
 :
 IsAllowed
 (
-nsIDocument
+Document
 *
 aDocument
 )

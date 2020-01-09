@@ -2309,7 +2309,7 @@ GetWindow
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -5281,7 +5281,7 @@ GetBaseURI
 )
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -5569,7 +5569,7 @@ IsShutDown
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -5766,7 +5766,7 @@ INHIBIT_CACHING
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

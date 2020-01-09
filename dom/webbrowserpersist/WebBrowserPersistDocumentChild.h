@@ -120,9 +120,6 @@ nsIWebBrowserPersistDocument
 .
 h
 "
-class
-nsIDocument
-;
 namespace
 mozilla
 {
@@ -176,7 +173,10 @@ aDocument
 void
 Start
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 )

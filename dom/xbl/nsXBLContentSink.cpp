@@ -133,7 +133,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -276,7 +280,7 @@ nsIXMLContentSink
 *
 *
 aResult
-nsIDocument
+Document
 *
 aDoc
 nsIURI
@@ -413,7 +417,7 @@ nsXBLContentSink
 :
 Init
 (
-nsIDocument
+Document
 *
 aDoc
 nsIURI

@@ -511,7 +511,13 @@ initialized
 void
 LazilyResolveServoDeclaration
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDocument
 )

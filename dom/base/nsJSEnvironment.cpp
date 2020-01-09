@@ -3427,7 +3427,7 @@ return
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -11720,7 +11720,7 @@ page
 return
 ;
 }
-nsIDocument
+Document
 *
 rootDocument
 =
@@ -11745,7 +11745,7 @@ GetReadyStateEnum
 )
 !
 =
-nsIDocument
+Document
 :
 :
 READYSTATE_COMPLETE

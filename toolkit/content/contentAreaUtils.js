@@ -895,7 +895,7 @@ sent
 param
 aDoc
 (
-nsIDocument
+Document
 deprecated
 optional
 )

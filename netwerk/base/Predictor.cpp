@@ -145,7 +145,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -13220,7 +13224,10 @@ nsIURI
 sourceURI
 PredictorLearnReason
 reason
-nsIDocument
+dom
+:
+:
+Document
 *
 document
 )

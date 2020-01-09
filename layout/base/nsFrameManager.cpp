@@ -215,7 +215,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1198,7 +1202,7 @@ GetContent
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -1639,7 +1643,7 @@ return
 nsAutoCString
 stateKey
 ;
-nsIDocument
+Document
 *
 doc
 =

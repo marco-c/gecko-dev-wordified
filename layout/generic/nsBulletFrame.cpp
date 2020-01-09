@@ -296,7 +296,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -7278,7 +7282,7 @@ DECODE_COMPLETE
 {
 if
 (
-nsIDocument
+Document
 *
 parent
 =
@@ -7324,7 +7328,7 @@ return
 NS_OK
 ;
 }
-nsIDocument
+Document
 *
 nsBulletFrame
 :
@@ -7667,7 +7671,7 @@ shell
 )
 return
 ;
-nsIDocument
+Document
 *
 doc
 =

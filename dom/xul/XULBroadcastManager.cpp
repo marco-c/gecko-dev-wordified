@@ -627,7 +627,7 @@ XULBroadcastManager
 :
 XULBroadcastManager
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -3180,7 +3180,7 @@ in
 the
 document
 .
-nsIDocument
+Document
 *
 doc
 =

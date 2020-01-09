@@ -166,7 +166,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -475,7 +479,7 @@ override
 NS_IMETHOD
 SetTargetDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -667,7 +671,7 @@ override
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mTargetDocument
 ;
@@ -2022,7 +2026,7 @@ nsXMLFragmentContentSink
 :
 SetTargetDocument
 (
-nsIDocument
+Document
 *
 aTargetDocument
 )

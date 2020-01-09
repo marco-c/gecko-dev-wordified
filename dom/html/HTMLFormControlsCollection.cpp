@@ -191,7 +191,11 @@ nsGenericHTMLFormElement
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -636,7 +640,7 @@ if
 mForm
 )
 {
-nsIDocument
+Document
 *
 doc
 =

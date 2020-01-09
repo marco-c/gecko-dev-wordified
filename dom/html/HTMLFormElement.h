@@ -593,7 +593,7 @@ virtual
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -921,7 +921,7 @@ aNotify
 If
 true
 send
-nsIDocumentObserver
+DocumentObserver
 notifications
 as
 needed

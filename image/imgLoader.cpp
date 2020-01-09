@@ -4608,7 +4608,7 @@ if
 docShell
 )
 {
-nsIDocument
+Document
 *
 document
 =
@@ -7252,7 +7252,7 @@ aRequest
 nsILoadGroup
 *
 aLoadGroup
-nsIDocument
+Document
 *
 aLoadingDocument
 imgINotificationObserver
@@ -9313,7 +9313,7 @@ RemoveEntry
 nsIURI
 *
 aURI
-nsIDocument
+Document
 *
 aDoc
 )
@@ -9406,7 +9406,7 @@ FindEntryProperties
 nsIURI
 *
 uri
-nsIDocument
+Document
 *
 aDoc
 nsIProperties
@@ -9582,7 +9582,7 @@ imgLoader
 :
 ClearCacheForControlledDocument
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -10805,7 +10805,7 @@ aObserver
 nsISupports
 *
 aCX
-nsIDocument
+Document
 *
 aLoadingDocument
 nsLoadFlags
@@ -11483,7 +11483,7 @@ aObserver
 nsISupports
 *
 aCX
-nsIDocument
+Document
 *
 aLoadingDocument
 nsLoadFlags
@@ -11967,7 +11967,7 @@ aCX
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -13306,7 +13306,7 @@ aCX
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -13386,7 +13386,7 @@ aObserver
 nsINode
 *
 aContext
-nsIDocument
+Document
 *
 aLoadingDocument
 nsLoadFlags
@@ -15512,7 +15512,7 @@ uri
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

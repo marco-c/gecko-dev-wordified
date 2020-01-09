@@ -1646,7 +1646,7 @@ if
 (
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

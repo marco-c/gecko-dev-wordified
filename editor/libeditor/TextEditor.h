@@ -708,7 +708,7 @@ virtual
 nsresult
 Init
 (
-nsIDocument
+Document
 &
 aDoc
 Element
@@ -2883,7 +2883,7 @@ DataTransfer
 aDataTransfer
 int32_t
 aIndex
-nsIDocument
+Document
 *
 aSourceDoc
 const
@@ -2994,7 +2994,7 @@ first
 bool
 IsSafeToInsertData
 (
-nsIDocument
+Document
 *
 aSourceDoc
 )
@@ -3403,7 +3403,7 @@ nullptr
 bool
 UpdateMetaCharset
 (
-nsIDocument
+Document
 &
 aDocument
 const

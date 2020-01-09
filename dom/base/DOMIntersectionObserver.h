@@ -750,7 +750,7 @@ aString
 void
 Update
 (
-nsIDocument
+Document
 *
 aDocument
 DOMHighResTimeStamp
@@ -807,7 +807,7 @@ mOwner
 ;
 RefPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;

@@ -122,7 +122,11 @@ pragma
 private
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "

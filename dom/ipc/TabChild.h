@@ -951,7 +951,7 @@ tab
 .
 already_AddRefed
 <
-nsIDocument
+Document
 >
 GetDocument
 (

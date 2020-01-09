@@ -1174,7 +1174,7 @@ EntryGlobal
 )
 ;
 }
-nsIDocument
+Document
 *
 GetEntryDocument
 (

@@ -134,7 +134,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -253,7 +257,7 @@ aContent
 nsresult
 Init
 (
-nsIDocument
+Document
 *
 aDoc
 nsIURI
@@ -276,7 +280,7 @@ for
 fields
 from
 nsContentSink
-nsIDocument
+Document
 *
 GetDocument
 (

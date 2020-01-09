@@ -253,7 +253,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1145,7 +1149,7 @@ do_QueryInterface
 global
 )
 ;
-nsIDocument
+Document
 *
 doc
 =

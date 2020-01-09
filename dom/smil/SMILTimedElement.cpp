@@ -886,7 +886,7 @@ context
 =
 nullptr
 ;
-nsIDocument
+Document
 *
 doc
 =

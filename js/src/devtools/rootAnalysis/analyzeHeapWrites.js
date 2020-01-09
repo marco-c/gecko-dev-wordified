@@ -2666,7 +2666,7 @@ true
 }
 /
 /
-nsIDocument
+Document
 :
 :
 PropertyTable
@@ -2722,7 +2722,7 @@ that
 if
 (
 /
-nsIDocument
+Document
 :
 :
 GetExtraPropertyTable
@@ -2735,7 +2735,7 @@ callee
 &
 &
 /
-nsIDocument
+Document
 :
 :
 PropertyTable
@@ -7996,7 +7996,7 @@ dom
 Element
 "
 "
-nsIDocument
+Document
 :
 :
 Element

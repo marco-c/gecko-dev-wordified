@@ -1034,9 +1034,12 @@ window
 continue
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+dom
+:
+:
+Document
 >
 document
 (

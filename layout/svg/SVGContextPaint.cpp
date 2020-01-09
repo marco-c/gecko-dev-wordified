@@ -169,7 +169,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1369,11 +1373,6 @@ mDashOffset
 devUnitsPerSVGUnit
 ;
 }
-/
-*
-static
-*
-/
 SVGContextPaint
 *
 SVGContextPaint
@@ -1386,7 +1385,10 @@ nsIContent
 aContent
 )
 {
-nsIDocument
+dom
+:
+:
+Document
 *
 ownerDoc
 =

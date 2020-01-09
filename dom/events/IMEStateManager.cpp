@@ -284,7 +284,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -6089,7 +6093,7 @@ content
 "
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -7212,7 +7216,7 @@ is
 design
 mode
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -10011,7 +10015,7 @@ nsPresContext
 aPresContext
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -12091,7 +12095,7 @@ if
 aPresContext
 )
 {
-nsIDocument
+Document
 *
 document
 =

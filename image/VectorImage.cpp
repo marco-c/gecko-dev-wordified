@@ -357,7 +357,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -860,7 +864,7 @@ public
 void
 EndLoad
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -999,7 +1003,7 @@ public
 NS_DECL_ISUPPORTS
 SVGLoadEventListener
 (
-nsIDocument
+Document
 *
 aDocument
 VectorImage
@@ -1359,7 +1363,7 @@ private
 :
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;
@@ -1570,7 +1574,7 @@ image
 #
 ifdef
 MOZ_GECKO_PROFILER
-nsIDocument
+Document
 *
 doc
 =
@@ -10892,12 +10896,12 @@ VectorImage
 :
 PropagateUseCounters
 (
-nsIDocument
+Document
 *
 aParentDocument
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -10933,7 +10937,7 @@ ReportUseCounters
 {
 if
 (
-nsIDocument
+Document
 *
 doc
 =

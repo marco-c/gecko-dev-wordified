@@ -138,7 +138,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -656,7 +660,7 @@ nsIXMLContentSink
 *
 *
 aResult
-nsIDocument
+Document
 *
 aDoc
 nsIURI
@@ -797,7 +801,7 @@ nsXMLContentSink
 :
 Init
 (
-nsIDocument
+Document
 *
 aDoc
 nsIURI
@@ -1503,7 +1507,7 @@ terminated
 again
 .
 However
-nsIDocument
+Document
 may
 still
 think
@@ -1933,7 +1937,7 @@ nsXMLContentSink
 :
 OnDocumentCreated
 (
-nsIDocument
+Document
 *
 aResultDocument
 )
@@ -2013,7 +2017,7 @@ OnTransformDone
 (
 nsresult
 aResult
-nsIDocument
+Document
 *
 aResultDocument
 )
@@ -2100,9 +2104,9 @@ aResultDocument
 )
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 originalDocument
 =

@@ -213,7 +213,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -830,7 +834,7 @@ SetMayHaveStyle
 (
 )
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -1159,7 +1163,7 @@ nsStyledElement
 :
 NodeInfoChanged
 (
-nsIDocument
+Document
 *
 aOldDoc
 )
@@ -1230,7 +1234,7 @@ bool
 aForceInDataDoc
 )
 {
-nsIDocument
+Document
 *
 doc
 =

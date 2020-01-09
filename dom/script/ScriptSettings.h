@@ -198,9 +198,6 @@ class
 nsIScriptContext
 ;
 class
-nsIDocument
-;
-class
 nsIDocShell
 ;
 namespace
@@ -209,6 +206,9 @@ mozilla
 namespace
 dom
 {
+class
+Document
+;
 /
 *
 *
@@ -826,7 +826,7 @@ Otherwise
 returns
 null
 .
-nsIDocument
+Document
 *
 GetEntryDocument
 (

@@ -186,7 +186,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -302,7 +306,7 @@ bool
 aForceToXML
 ReferrerPolicy
 aReferrerPolicy
-nsIDocument
+Document
 *
 *
 aResult
@@ -585,7 +589,7 @@ bool
 aForceToXML
 ReferrerPolicy
 aReferrerPolicy
-nsIDocument
+Document
 *
 *
 aResult
@@ -828,7 +832,7 @@ Create
 document
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 ;
@@ -1455,7 +1459,7 @@ bool
 aForceToXML
 ReferrerPolicy
 aReferrerPolicy
-nsIDocument
+Document
 *
 *
 aResult

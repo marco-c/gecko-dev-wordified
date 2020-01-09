@@ -2928,7 +2928,10 @@ while
 startContent
 )
 {
-nsIDocument
+dom
+:
+:
+Document
 *
 doc
 =
@@ -3182,7 +3185,10 @@ docShellTreeItem
 break
 ;
 }
-nsIDocument
+dom
+:
+:
+Document
 *
 parentDoc
 =

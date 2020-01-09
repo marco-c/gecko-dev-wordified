@@ -4296,7 +4296,7 @@ content
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -5452,7 +5452,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -7298,7 +7298,7 @@ DOM
 document
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -13274,7 +13274,7 @@ textEditor
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =

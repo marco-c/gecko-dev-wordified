@@ -220,6 +220,9 @@ struct
 ComputedEffectTiming
 ;
 class
+Document
+;
+class
 AnimationEffect
 :
 public
@@ -236,7 +239,7 @@ AnimationEffect
 )
 AnimationEffect
 (
-nsIDocument
+Document
 *
 aDocument
 TimingParams
@@ -655,7 +658,7 @@ protected
 :
 RefPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;

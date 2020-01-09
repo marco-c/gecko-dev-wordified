@@ -1805,7 +1805,7 @@ false
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

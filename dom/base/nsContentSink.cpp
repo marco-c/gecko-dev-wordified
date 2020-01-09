@@ -150,7 +150,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1224,7 +1228,7 @@ nsContentSink
 :
 Init
 (
-nsIDocument
+Document
 *
 aDoc
 nsIURI
@@ -8155,7 +8159,7 @@ nsContentSink
 :
 BeginUpdate
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -8263,7 +8267,7 @@ nsContentSink
 :
 EndUpdate
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -8372,7 +8376,7 @@ GetReadyStateEnum
 )
 =
 =
-nsIDocument
+Document
 :
 :
 READYSTATE_LOADING
@@ -8387,7 +8391,7 @@ mDocument
 >
 SetReadyStateInternal
 (
-nsIDocument
+Document
 :
 :
 READYSTATE_INTERACTIVE
@@ -8964,7 +8968,7 @@ nsContentSink
 :
 NotifyDocElementCreated
 (
-nsIDocument
+Document
 *
 aDoc
 )

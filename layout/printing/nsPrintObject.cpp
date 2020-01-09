@@ -191,7 +191,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -563,7 +567,7 @@ Init
 nsIDocShell
 *
 aDocShell
-nsIDocument
+Document
 *
 aDoc
 bool
@@ -743,7 +747,7 @@ docshell
 alive
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 dummy
 =

@@ -180,7 +180,7 @@ GetAsSupports
 )
 )
 ;
-nsIDocument
+Document
 *
 root
 =

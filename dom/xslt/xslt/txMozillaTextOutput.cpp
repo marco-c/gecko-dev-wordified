@@ -117,7 +117,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -446,7 +450,7 @@ really
 be
 handled
 by
-nsIDocument
+Document
 :
 :
 EndLoad
@@ -465,7 +469,7 @@ GetReadyStateEnum
 )
 =
 =
-nsIDocument
+Document
 :
 :
 READYSTATE_LOADING
@@ -488,7 +492,7 @@ GetReadyStateEnum
 )
 =
 =
-nsIDocument
+Document
 :
 :
 READYSTATE_INTERACTIVE
@@ -504,7 +508,7 @@ mDocument
 >
 SetReadyStateInternal
 (
-nsIDocument
+Document
 :
 :
 READYSTATE_INTERACTIVE
@@ -599,7 +603,7 @@ txMozillaTextOutput
 :
 createResultDocument
 (
-nsIDocument
+Document
 *
 aSourceDocument
 bool
@@ -731,7 +735,7 @@ really
 be
 handled
 by
-nsIDocument
+Document
 :
 :
 BeginLoad
@@ -745,7 +749,7 @@ GetReadyStateEnum
 )
 =
 =
-nsIDocument
+Document
 :
 :
 READYSTATE_UNINITIALIZED
@@ -760,7 +764,7 @@ mDocument
 >
 SetReadyStateInternal
 (
-nsIDocument
+Document
 :
 :
 READYSTATE_LOADING
@@ -1318,7 +1322,7 @@ txMozillaTextOutput
 :
 getOutputDocument
 (
-nsIDocument
+Document
 *
 *
 aDocument

@@ -263,7 +263,7 @@ NS_DECL_ISUPPORTS_INHERITED
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -387,7 +387,7 @@ nsCSSValue
 aCSSValue
 uint32_t
 aFlags
-nsIDocument
+Document
 *
 aDocument
 )
@@ -560,7 +560,7 @@ virtual
 void
 NodeInfoChanged
 (
-nsIDocument
+Document
 *
 aOldDoc
 )

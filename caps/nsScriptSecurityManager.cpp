@@ -2510,7 +2510,7 @@ thing
 /
 /
 as
-nsIDocument
+Document
 :
 :
 Reset

@@ -2317,7 +2317,7 @@ i
 +
 )
 {
-nsIDocument
+Document
 *
 ownerDoc
 =
@@ -2630,7 +2630,7 @@ nsIContent
 aTargetNode
 )
 {
-nsIDocument
+Document
 *
 documentNode
 =
@@ -2712,7 +2712,7 @@ ps
 =
 aPresShell
 ;
-nsIDocument
+Document
 *
 documentNode
 =

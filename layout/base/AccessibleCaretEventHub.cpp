@@ -247,7 +247,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -615,7 +619,7 @@ OnSelectionChanged
 AccessibleCaretEventHub
 *
 aContext
-nsIDocument
+Document
 *
 aDoc
 dom
@@ -1477,7 +1481,7 @@ OnSelectionChanged
 AccessibleCaretEventHub
 *
 aContext
-nsIDocument
+Document
 *
 aDoc
 dom
@@ -4121,7 +4125,7 @@ AccessibleCaretEventHub
 :
 OnSelectionChange
 (
-nsIDocument
+Document
 *
 aDoc
 dom

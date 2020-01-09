@@ -202,9 +202,6 @@ h
 class
 nsIPrincipal
 ;
-class
-nsIDocument
-;
 struct
 JSContext
 ;
@@ -237,6 +234,9 @@ css
 namespace
 dom
 {
+class
+Document
+;
 class
 Element
 ;
@@ -1208,7 +1208,13 @@ to
 it
 .
 virtual
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 DocToUpdate
 (

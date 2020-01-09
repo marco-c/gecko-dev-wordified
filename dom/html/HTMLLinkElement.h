@@ -295,7 +295,7 @@ virtual
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -434,7 +434,7 @@ override
 void
 CreateAndDispatchEvent
 (
-nsIDocument
+Document
 *
 aDoc
 const
@@ -1090,7 +1090,7 @@ crossorigin
 void
 NodeInfoChanged
 (
-nsIDocument
+Document
 *
 aOldDoc
 )
@@ -1125,7 +1125,7 @@ const
 nsAString
 &
 aMedia
-nsIDocument
+Document
 *
 aDocument
 )

@@ -153,7 +153,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -2996,7 +3000,10 @@ imgTools
 :
 GetImgLoaderForDocument
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDoc
 imgILoader
@@ -3029,7 +3036,10 @@ imgTools
 :
 GetImgCacheForDocument
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDoc
 imgICache

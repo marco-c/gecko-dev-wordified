@@ -285,7 +285,7 @@ isDocument
 return
 ;
 }
-nsIDocument
+Document
 *
 root
 =
@@ -393,7 +393,7 @@ return
 false
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -2766,7 +2766,7 @@ for
 both
 nodes
 .
-nsIDocument
+Document
 *
 document
 =
@@ -2779,7 +2779,7 @@ GetUncomposedDoc
 (
 )
 ;
-nsIDocument
+Document
 *
 otherDocument
 =
@@ -3643,7 +3643,7 @@ txXPathNativeNode
 :
 createXPathNode
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -3828,7 +3828,7 @@ Content
 static
 *
 /
-nsIDocument
+Document
 *
 txXPathNativeNode
 :
@@ -3853,7 +3853,7 @@ Only
 call
 getDocument
 on
-nsIDocument
+Document
 wrappers
 !
 "

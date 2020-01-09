@@ -381,7 +381,10 @@ appropriate
 bool
 IsImageExtractionAllowed
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 JSContext

@@ -369,7 +369,7 @@ observe
 changes
 to
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -499,7 +499,7 @@ by
 a
 call
 to
-nsIDocument
+Document
 :
 :
 InsertAnonymousContent
@@ -852,7 +852,7 @@ isEqualExceptRef
 {
 RefPtr
 <
-nsIDocument
+Document
 :
 :
 ExternalResourceLoad
@@ -1446,7 +1446,7 @@ mTarget
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

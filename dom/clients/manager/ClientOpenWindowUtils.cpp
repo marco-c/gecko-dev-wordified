@@ -382,7 +382,7 @@ this
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

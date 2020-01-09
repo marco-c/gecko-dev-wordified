@@ -201,7 +201,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -795,7 +799,7 @@ aDocumentURI
 nsIPrincipal
 *
 aLoadingPrincipal
-nsIDocument
+Document
 *
 aDocument
 )
@@ -1109,7 +1113,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 updateDoc
 =
@@ -1236,7 +1240,7 @@ GetCurrentInnerWindow
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 progressDoc
 =
@@ -2169,7 +2173,7 @@ aDocumentURI
 nsIPrincipal
 *
 aLoadingPrincipal
-nsIDocument
+Document
 *
 aDocument
 )
@@ -3113,7 +3117,7 @@ aDocumentURI
 nsIPrincipal
 *
 aLoadingPrincipal
-nsIDocument
+Document
 *
 aDocument
 nsPIDOMWindowInner

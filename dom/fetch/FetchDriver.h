@@ -222,9 +222,6 @@ class
 nsICSPEventListener
 ;
 class
-nsIDocument
-;
-class
 nsIEventTarget
 ;
 class
@@ -242,6 +239,9 @@ mozilla
 namespace
 dom
 {
+class
+Document
+;
 class
 InternalRequest
 ;
@@ -559,7 +559,7 @@ aObserver
 void
 SetDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -664,9 +664,9 @@ FetchDriverObserver
 >
 mObserver
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;

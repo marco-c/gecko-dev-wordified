@@ -3944,7 +3944,7 @@ nsIContent
 aCaptureTarget
 )
 {
-nsIDocument
+Document
 *
 targetDoc
 =

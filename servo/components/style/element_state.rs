@@ -1997,7 +1997,7 @@ dom
 /
 base
 /
-nsIDocument
+Document
 .
 h
 .

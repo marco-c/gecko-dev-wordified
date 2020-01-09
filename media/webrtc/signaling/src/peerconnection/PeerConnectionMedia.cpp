@@ -3216,7 +3216,7 @@ black
 /
 silence
 )
-nsIDocument
+Document
 *
 doc
 =

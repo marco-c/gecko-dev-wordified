@@ -1207,7 +1207,7 @@ MOZ_ASSERT
 aElement
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -2130,7 +2130,7 @@ ApplicableRulesChanged
 (
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -3310,7 +3310,7 @@ return
 }
 if
 (
-nsIDocument
+Document
 *
 doc
 =

@@ -332,7 +332,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1332,7 +1336,7 @@ GetDOMEventTarget
 }
 already_AddRefed
 <
-nsIDocument
+Document
 >
 Event
 :
@@ -1390,7 +1394,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -1764,7 +1768,7 @@ w
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 d
 =
@@ -2312,7 +2316,7 @@ win
 {
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -2352,7 +2356,7 @@ doc
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 ePreventDefaultFromPassiveListener

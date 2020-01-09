@@ -315,9 +315,6 @@ class
 nsIContent
 ;
 class
-nsIDocument
-;
-class
 nsIFrame
 ;
 class
@@ -723,6 +720,9 @@ class
 Animation
 ;
 class
+Document
+;
+class
 KeyframeEffect
 :
 public
@@ -732,7 +732,7 @@ public
 :
 KeyframeEffect
 (
-nsIDocument
+Document
 *
 aDocument
 const
@@ -1809,7 +1809,7 @@ HasGeometricProperties
 )
 ;
 }
-nsIDocument
+Document
 *
 GetRenderedDocument
 (

@@ -206,9 +206,6 @@ class
 nsIContent
 ;
 class
-nsIDocument
-;
-class
 nsIFrame
 ;
 class
@@ -238,6 +235,9 @@ SVGPreserveAspectRatio
 namespace
 dom
 {
+class
+Document
+;
 class
 Element
 ;
@@ -1381,7 +1381,10 @@ static
 nsresult
 ReportToConsole
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 doc
 const

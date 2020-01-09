@@ -1874,7 +1874,7 @@ the
 anonymous
 divs
 .
-nsIDocument
+Document
 *
 doc
 =

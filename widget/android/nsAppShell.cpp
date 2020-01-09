@@ -3798,7 +3798,10 @@ GeckoView
 .
 nsCOMPtr
 <
-nsIDocument
+dom
+:
+:
+Document
 >
 doc
 =

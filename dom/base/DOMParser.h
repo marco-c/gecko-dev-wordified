@@ -130,7 +130,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -181,9 +185,6 @@ TypedArray
 .
 h
 "
-class
-nsIDocument
-;
 class
 nsIGlobalObject
 ;
@@ -250,7 +251,7 @@ rv
 ;
 already_AddRefed
 <
-nsIDocument
+Document
 >
 ParseFromString
 (
@@ -291,7 +292,7 @@ uses
 .
 already_AddRefed
 <
-nsIDocument
+Document
 >
 ParseFromBuffer
 (
@@ -310,7 +311,7 @@ aRv
 ;
 already_AddRefed
 <
-nsIDocument
+Document
 >
 ParseFromBuffer
 (
@@ -327,7 +328,7 @@ aRv
 ;
 already_AddRefed
 <
-nsIDocument
+Document
 >
 ParseFromStream
 (
@@ -456,7 +457,7 @@ aBaseURI
 ;
 already_AddRefed
 <
-nsIDocument
+Document
 >
 SetUpDocument
 (

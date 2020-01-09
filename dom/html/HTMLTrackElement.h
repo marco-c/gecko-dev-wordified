@@ -182,9 +182,6 @@ h
 class
 nsIContent
 ;
-class
-nsIDocument
-;
 namespace
 mozilla
 {
@@ -560,7 +557,7 @@ virtual
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

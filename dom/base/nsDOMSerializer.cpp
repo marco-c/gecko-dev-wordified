@@ -133,7 +133,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -244,7 +248,10 @@ return
 nullptr
 ;
 }
-nsIDocument
+dom
+:
+:
+Document
 *
 doc
 =

@@ -427,7 +427,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -3752,7 +3756,7 @@ public
 explicit
 nsBeforeFirstPaintDispatcher
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -3855,9 +3859,9 @@ NS_OK
 }
 private
 :
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;
@@ -6059,7 +6063,7 @@ PresShell
 :
 Init
 (
-nsIDocument
+Document
 *
 aDocument
 nsPresContext
@@ -10850,7 +10854,7 @@ public
 explicit
 XBLConstructorRunner
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -10891,9 +10895,9 @@ NS_OK
 }
 private
 :
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;
@@ -11755,7 +11759,7 @@ isn
 t
 loading
 .
-nsIDocument
+Document
 :
 :
 ReadyState
@@ -11773,7 +11777,7 @@ if
 readyState
 !
 =
-nsIDocument
+Document
 :
 :
 READYSTATE_COMPLETE
@@ -15752,7 +15756,7 @@ PresShell
 :
 BeginLoad
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -15878,7 +15882,7 @@ PresShell
 :
 EndLoad
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -21941,9 +21945,9 @@ aContent
 NS_ERROR_NULL_POINTER
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 composedDoc
 =
@@ -26084,7 +26088,7 @@ optimization
 in
 /
 /
-nsIDocument
+Document
 :
 :
 FlushPendingNotifications
@@ -26230,7 +26234,7 @@ resources
 here
 instead
 of
-nsIDocument
+Document
 :
 :
 FlushPendingNotifications
@@ -27194,7 +27198,7 @@ PresShell
 :
 ContentStateChanged
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -27259,7 +27263,7 @@ PresShell
 :
 DocumentStatesChanged
 (
-nsIDocument
+Document
 *
 aDocument
 EventStates
@@ -30239,7 +30243,7 @@ GetEndContainer
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -38819,7 +38823,7 @@ GetDocumentURI
 (
 )
 ;
-nsIDocument
+Document
 *
 contentRoot
 =
@@ -40910,7 +40914,7 @@ retarget
 it
 to
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -41983,7 +41987,7 @@ static
 bool
 FlushThrottledStyles
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -42169,7 +42173,7 @@ if
 aContent
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -42701,9 +42705,9 @@ GetFocusedDOMWindowInOurWindow
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 retargetEventDoc
 =
@@ -43002,9 +43006,9 @@ GetCapturingContent
 nullptr
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 retargetEventDoc
 ;
@@ -43641,7 +43645,7 @@ mClass
 eTouchEventClass
 )
 {
-nsIDocument
+Document
 :
 :
 UnlockPointer
@@ -46655,7 +46659,7 @@ mCurrentEventFrame
 =
 nullptr
 ;
-nsIDocument
+Document
 *
 targetDoc
 =
@@ -46922,7 +46926,7 @@ return
 rv
 ;
 }
-nsIDocument
+Document
 *
 PresShell
 :
@@ -47184,7 +47188,7 @@ if
 aContent
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -47450,7 +47454,7 @@ case
 eKeyUp
 :
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -47488,7 +47492,7 @@ keyCode
 NS_VK_ESCAPE
 )
 {
-nsIDocument
+Document
 *
 root
 =
@@ -47714,7 +47718,7 @@ from
 fullscreen
 mode
 .
-nsIDocument
+Document
 :
 :
 AsyncExitFullscreen
@@ -47726,7 +47730,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 pointerLockedDoc
 =
@@ -47816,7 +47820,7 @@ mMessage
 eKeyUp
 )
 {
-nsIDocument
+Document
 :
 :
 UnlockPointer
@@ -49408,7 +49412,7 @@ GetReadyStateEnum
 )
 !
 =
-nsIDocument
+Document
 :
 :
 READYSTATE_COMPLETE
@@ -49596,13 +49600,13 @@ GetReadyStateEnum
 )
 {
 case
-nsIDocument
+Document
 :
 :
 READYSTATE_INTERACTIVE
 :
 case
-nsIDocument
+Document
 :
 :
 READYSTATE_COMPLETE
@@ -49777,7 +49781,7 @@ document
 .
 for
 (
-nsIDocument
+Document
 *
 document
 =
@@ -50561,7 +50565,7 @@ content
 continue
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -54575,7 +54579,7 @@ static
 bool
 FreezeSubDocument
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -54771,9 +54775,9 @@ if
 mDocument
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -54911,7 +54915,7 @@ static
 bool
 ThawSubDocument
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -68030,7 +68034,7 @@ if
 mDocument
 )
 {
-nsIDocument
+Document
 *
 displayDoc
 =
@@ -68247,7 +68251,7 @@ static
 bool
 SetExternalResourceIsActive
 (
-nsIDocument
+Document
 *
 aDocument
 void

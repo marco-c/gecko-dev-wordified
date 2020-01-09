@@ -479,6 +479,16 @@ mozilla
 dom
 :
 :
+Document
+Document
+;
+typedef
+mozilla
+:
+:
+dom
+:
+:
 TabParent
 TabParent
 ;
@@ -1453,7 +1463,7 @@ owner
 .
 *
 /
-nsIDocument
+Document
 *
 GetOwnerDoc
 (
@@ -1873,7 +1883,7 @@ SetDetachedSubdocFrame
 nsIFrame
 *
 aDetachedFrame
-nsIDocument
+Document
 *
 aContainerDoc
 )
@@ -1906,7 +1916,7 @@ nsIFrame
 *
 GetDetachedSubdocFrame
 (
-nsIDocument
+Document
 *
 *
 aContainerDoc
@@ -2726,9 +2736,9 @@ restore
 the
 presentation
 .
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 mContainerDocWhileDetached
 ;

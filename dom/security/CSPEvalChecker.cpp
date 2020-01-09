@@ -166,7 +166,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -592,7 +596,7 @@ an
 error
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

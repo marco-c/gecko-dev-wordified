@@ -290,7 +290,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -375,6 +379,12 @@ dom
 :
 :
 ContentFrameMessageManager
+;
+using
+dom
+:
+:
+Document
 ;
 using
 dom
@@ -2180,7 +2190,7 @@ inserted
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -3376,7 +3386,7 @@ ExtensionPolicyService
 :
 CheckDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -3621,9 +3631,9 @@ load
 another
 document
 .
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -3656,7 +3666,7 @@ GetReadyStateEnum
 )
 =
 =
-nsIDocument
+Document
 :
 :
 READYSTATE_UNINITIALIZED

@@ -376,7 +376,6 @@ nsDOMCSSAttributeDeclaration
 (
 )
 ;
-virtual
 nsresult
 SetCSSDeclaration
 (
@@ -395,8 +394,13 @@ aClosureData
 )
 override
 ;
-virtual
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 DocToUpdate
 (

@@ -861,7 +861,7 @@ aScriptURL
 nsIURI
 *
 baseURI
-nsIDocument
+Document
 *
 parentDoc
 bool
@@ -929,7 +929,7 @@ ChannelFromScriptURL
 nsIPrincipal
 *
 principal
-nsIDocument
+Document
 *
 parentDoc
 WorkerPrivate
@@ -5000,7 +5000,7 @@ null
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 parentDoc
 =
@@ -6280,7 +6280,7 @@ May
 be
 null
 .
-nsIDocument
+Document
 *
 parentDoc
 =
@@ -7391,7 +7391,7 @@ May
 be
 null
 .
-nsIDocument
+Document
 *
 parentDoc
 =
@@ -10751,7 +10751,7 @@ null
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 parentDoc
 =
@@ -12903,7 +12903,7 @@ ChannelFromScriptURLMainThread
 nsIPrincipal
 *
 aPrincipal
-nsIDocument
+Document
 *
 aParentDoc
 nsILoadGroup

@@ -178,7 +178,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -943,7 +947,10 @@ possible
 .
 nsCOMPtr
 <
-nsIDocument
+dom
+:
+:
+Document
 >
 doc
 =

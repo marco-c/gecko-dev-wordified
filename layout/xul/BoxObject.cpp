@@ -135,7 +135,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -748,9 +752,9 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =

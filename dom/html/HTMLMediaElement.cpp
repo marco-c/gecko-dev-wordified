@@ -862,7 +862,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -4224,7 +4228,7 @@ status
 NS_ERROR_TRACKING_URI
 )
 {
-nsIDocument
+Document
 *
 ownerDoc
 =
@@ -11340,7 +11344,7 @@ static
 nsCString
 DocumentOrigin
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -25081,7 +25085,7 @@ HTMLMediaElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -35001,7 +35005,7 @@ IsActive
 )
 const
 {
-nsIDocument
+Document
 *
 ownerDoc
 =
@@ -35038,7 +35042,7 @@ IsHidden
 )
 const
 {
-nsIDocument
+Document
 *
 ownerDoc
 ;
@@ -36717,7 +36721,7 @@ IsBeingDestroyed
 (
 )
 {
-nsIDocument
+Document
 *
 ownerDoc
 =
@@ -37021,7 +37025,7 @@ the
 mPaused
 check
 .
-nsIDocument
+Document
 *
 ownerDoc
 =
@@ -41076,7 +41080,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -43676,7 +43680,7 @@ IsInComposedDoc
 ;
 }
 }
-nsIDocument
+Document
 *
 HTMLMediaElement
 :

@@ -1316,9 +1316,9 @@ __func__
 )
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =

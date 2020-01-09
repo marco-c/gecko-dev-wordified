@@ -755,9 +755,9 @@ the
 editor
 uses
 !
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =

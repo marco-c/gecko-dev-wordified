@@ -140,6 +140,12 @@ namespace
 mozilla
 {
 using
+dom
+:
+:
+Document
+;
+using
 gfx
 :
 :
@@ -1309,7 +1315,7 @@ ImageWrapper
 :
 PropagateUseCounters
 (
-nsIDocument
+Document
 *
 aParentDocument
 )

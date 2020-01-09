@@ -138,7 +138,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -483,7 +487,7 @@ angle
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -618,7 +622,7 @@ hal
 :
 ScreenOrientation
 aOrientationLock
-nsIDocument
+Document
 *
 aDocument
 bool
@@ -654,7 +658,7 @@ mOrientationLock
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;
@@ -690,7 +694,7 @@ hal
 :
 ScreenOrientation
 aOrientationLock
-nsIDocument
+Document
 *
 aDocument
 bool
@@ -1293,7 +1297,7 @@ MOZ_ASSERT
 aDocShell
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -1453,7 +1457,7 @@ defined
 in
 spec
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -2187,7 +2191,7 @@ OrientationType
 Landscape_primary
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -2253,7 +2257,7 @@ return
 0
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -2367,7 +2371,7 @@ LOCK_ALLOWED
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2476,7 +2480,7 @@ FULLSCREEN_LOCK_ALLOWED
 LOCK_DENIED
 ;
 }
-nsIDocument
+Document
 *
 ScreenOrientation
 :
@@ -2540,7 +2544,7 @@ ShouldResistFingerprinting
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -3131,7 +3135,7 @@ target
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -3464,7 +3468,7 @@ target
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

@@ -147,7 +147,13 @@ RootAccessibleWrap
 :
 RootAccessibleWrap
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDoc
 nsIPresShell

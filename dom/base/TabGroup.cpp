@@ -933,7 +933,7 @@ const
 nsACString
 &
 aKey
-nsIDocument
+Document
 *
 aDocument
 )

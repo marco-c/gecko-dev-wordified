@@ -138,9 +138,6 @@ class
 nsIChannel
 ;
 class
-nsIDocument
-;
-class
 nsIGlobalObject
 ;
 class
@@ -163,6 +160,9 @@ ipc
 namespace
 dom
 {
+class
+Document
+;
 /
 /
 This
@@ -413,7 +413,7 @@ this
 void
 InitFromDocument
 (
-nsIDocument
+Document
 *
 aDoc
 )

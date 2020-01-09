@@ -267,7 +267,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -4382,7 +4386,7 @@ HTMLTextAreaElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

@@ -457,7 +457,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -2719,7 +2723,7 @@ NS_ERROR_FAILURE
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -4244,7 +4248,7 @@ nullptr
 ;
 }
 }
-nsIDocument
+Document
 *
 Selection
 :
@@ -4308,7 +4312,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -5985,7 +5989,7 @@ Length
 -
 1
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -13007,7 +13011,7 @@ aRv
 {
 RefPtr
 <
-nsIDocument
+Document
 >
 document
 (
@@ -13034,7 +13038,7 @@ AddRangeInternal
 nsRange
 &
 aRange
-nsIDocument
+Document
 *
 aDocument
 ErrorResult
@@ -15040,7 +15044,7 @@ Container
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -18874,7 +18878,7 @@ GetShell
 )
 ;
 }
-nsIDocument
+Document
 *
 Selection
 :
@@ -18915,7 +18919,7 @@ GetWindow
 )
 const
 {
-nsIDocument
+Document
 *
 document
 =
@@ -20748,7 +20752,7 @@ GetWindow
 (
 )
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -21071,7 +21075,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -23581,7 +23585,7 @@ SubtreeRoot
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =

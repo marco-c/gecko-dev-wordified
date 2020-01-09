@@ -61,7 +61,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -786,7 +790,10 @@ event
 ;
 nsCOMPtr
 <
-nsIDocument
+dom
+:
+:
+Document
 >
 document
 =
@@ -813,7 +820,7 @@ Failed
 to
 QI
 to
-nsIDocument
+Document
 !
 "
 )

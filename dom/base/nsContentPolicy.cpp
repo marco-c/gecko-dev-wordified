@@ -688,7 +688,7 @@ requestingLocation
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;

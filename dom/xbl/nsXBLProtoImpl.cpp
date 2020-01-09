@@ -140,7 +140,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -362,7 +366,7 @@ nsXBLProtoImplAnonymousMethod
 :
 :
 Execute
-nsIDocument
+Document
 *
 document
 =
@@ -1676,7 +1680,7 @@ mPrecompiledMemberHolder
 )
 ;
 }
-nsIDocument
+Document
 *
 ownerDoc
 =

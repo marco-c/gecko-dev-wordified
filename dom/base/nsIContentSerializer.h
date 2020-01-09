@@ -137,9 +137,6 @@ h
 class
 nsIContent
 ;
-class
-nsIDocument
-;
 namespace
 mozilla
 {
@@ -151,6 +148,9 @@ dom
 {
 class
 Comment
+;
+class
+Document
 ;
 class
 DocumentType
@@ -429,7 +429,13 @@ produce
 NS_IMETHOD
 AppendDocumentStart
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDocument
 nsAString

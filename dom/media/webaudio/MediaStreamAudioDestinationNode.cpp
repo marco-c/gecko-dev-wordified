@@ -122,7 +122,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -401,7 +405,7 @@ is
 exposed
 to
 JS
-nsIDocument
+Document
 *
 doc
 =

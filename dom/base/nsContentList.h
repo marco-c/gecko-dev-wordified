@@ -1037,7 +1037,7 @@ t
 want
 to
 include
-nsIDocument
+Document
 .
 h
 in

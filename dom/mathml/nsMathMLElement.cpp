@@ -208,7 +208,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -398,7 +402,7 @@ const
 char16_t
 *
 aFavoredAttribute
-nsIDocument
+Document
 *
 aDocument
 )
@@ -452,7 +456,7 @@ const
 nsString
 &
 aValue
-nsIDocument
+Document
 *
 aDocument
 )
@@ -509,7 +513,7 @@ aValue
 nsAtom
 *
 aAtom
-nsIDocument
+Document
 *
 aDocument
 )
@@ -655,7 +659,7 @@ nsMathMLElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -726,7 +730,7 @@ telemetry
 .
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -2297,7 +2301,7 @@ nsCSSValue
 aCSSValue
 uint32_t
 aFlags
-nsIDocument
+Document
 *
 aDocument
 )

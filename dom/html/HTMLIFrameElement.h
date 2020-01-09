@@ -229,7 +229,7 @@ virtual
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -965,7 +965,7 @@ aReferrer
 )
 ;
 }
-nsIDocument
+Document
 *
 GetSVGDocument
 (

@@ -1013,7 +1013,7 @@ NS_ERROR_FAILURE
 NS_OK
 ;
 }
-nsIDocument
+Document
 *
 document
 =
@@ -1044,7 +1044,7 @@ NS_ERROR_FAILURE
 }
 /
 /
-nsIDocument
+Document
 :
 :
 GetWindow

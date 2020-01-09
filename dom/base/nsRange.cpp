@@ -164,7 +164,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -630,13 +634,13 @@ nsINode
 DOCUMENT_NODE
 :
 {
-nsIDocument
+Document
 *
 doc
 =
 static_cast
 <
-nsIDocument
+Document
 *
 >
 (
@@ -12562,7 +12566,7 @@ NS_ERROR_DOM_SECURITY_ERR
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -12807,7 +12811,7 @@ range
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 commonAncestorDocument
 =
@@ -15161,7 +15165,7 @@ fail
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -18302,7 +18306,7 @@ bool
 aFlushLayout
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -19687,7 +19691,7 @@ up
 to
 date
 .
-nsIDocument
+Document
 *
 doc
 =

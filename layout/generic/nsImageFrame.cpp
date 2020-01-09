@@ -358,7 +358,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -16763,7 +16767,7 @@ shell
 )
 return
 ;
-nsIDocument
+Document
 *
 doc
 =

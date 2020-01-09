@@ -145,7 +145,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1520,7 +1524,7 @@ nsXBLProtoImpl
 InstallImplementation
 does
 .
-nsIDocument
+Document
 *
 document
 =

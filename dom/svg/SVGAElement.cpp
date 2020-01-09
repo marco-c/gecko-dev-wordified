@@ -1387,7 +1387,7 @@ SVGAElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -1431,7 +1431,7 @@ rv
 rv
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -1697,7 +1697,7 @@ is
 no
 link
 handler
-nsIDocument
+Document
 *
 doc
 =
@@ -2354,7 +2354,7 @@ case
 return
 ;
 }
-nsIDocument
+Document
 *
 ownerDoc
 =

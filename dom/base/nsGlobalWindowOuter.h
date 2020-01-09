@@ -409,7 +409,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1790,7 +1794,7 @@ only
 bool
 WouldReuseInnerWindow
 (
-nsIDocument
+Document
 *
 aNewDocument
 )
@@ -1804,7 +1808,7 @@ virtual
 nsresult
 SetNewDocument
 (
-nsIDocument
+Document
 *
 aDocument
 nsISupports
@@ -2541,7 +2545,7 @@ virtual
 void
 FirePopupBlockedEvent
 (
-nsIDocument
+Document
 *
 aDoc
 nsIURI
@@ -2978,7 +2982,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 GetDocument
 (
@@ -5317,7 +5321,7 @@ static
 bool
 SameLoadingURI
 (
-nsIDocument
+Document
 *
 aDoc
 nsIChannel
@@ -6618,7 +6622,7 @@ aDocument
 bool
 ComputeIsSecureContext
 (
-nsIDocument
+Document
 *
 aDocument
 SecureContextFlags
@@ -7140,9 +7144,9 @@ for
 unsuspending
 it
 .
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 mSuspendedDoc
 ;

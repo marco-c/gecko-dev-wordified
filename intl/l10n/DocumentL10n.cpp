@@ -516,7 +516,7 @@ DocumentL10n
 :
 DocumentL10n
 (
-nsIDocument
+Document
 *
 aDocument
 )

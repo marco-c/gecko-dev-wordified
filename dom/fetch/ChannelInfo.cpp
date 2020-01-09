@@ -149,7 +149,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -213,7 +217,7 @@ ChannelInfo
 :
 InitFromDocument
 (
-nsIDocument
+Document
 *
 aDoc
 )

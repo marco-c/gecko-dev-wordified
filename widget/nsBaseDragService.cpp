@@ -173,7 +173,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1137,7 +1141,7 @@ nsBaseDragService
 :
 GetSourceDocument
 (
-nsIDocument
+Document
 *
 *
 aSourceDocument
@@ -3641,9 +3645,9 @@ content
 return
 nullptr
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 document
 =

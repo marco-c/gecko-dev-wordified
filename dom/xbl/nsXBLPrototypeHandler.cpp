@@ -196,7 +196,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -2044,7 +2048,7 @@ boundGlobal
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 boundDocument
 (
@@ -3189,7 +3193,7 @@ aTarget
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -6050,7 +6054,7 @@ aMessageName
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;

@@ -163,9 +163,6 @@ nsIObserver
 h
 "
 class
-nsIDocument
-;
-class
 nsITimer
 ;
 namespace
@@ -174,6 +171,9 @@ mozilla
 namespace
 dom
 {
+class
+Document
+;
 class
 Link
 ;
@@ -256,7 +256,13 @@ static
 bool
 IsAllowed
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDocument
 )

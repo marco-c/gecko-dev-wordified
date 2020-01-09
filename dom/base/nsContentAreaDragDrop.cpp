@@ -300,7 +300,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -2464,7 +2468,7 @@ the
 node
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -4446,7 +4450,7 @@ Truncate
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

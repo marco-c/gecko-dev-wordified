@@ -292,7 +292,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1530,7 +1534,7 @@ window
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -4563,7 +4567,7 @@ the
 document
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -5419,7 +5423,7 @@ false
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -5522,7 +5526,7 @@ true
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

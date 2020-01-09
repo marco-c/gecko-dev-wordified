@@ -1086,7 +1086,7 @@ We
 re
 called
 from
-nsIDocument
+Document
 :
 :
 MaybeInitializeFinalizeFrameLoaders

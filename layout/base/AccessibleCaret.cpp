@@ -1207,7 +1207,7 @@ AccessibleCaret
 :
 InjectCaretElement
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -1319,7 +1319,7 @@ AccessibleCaret
 :
 CreateCaretElement
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -1520,7 +1520,7 @@ AccessibleCaret
 :
 RemoveCaretElement
 (
-nsIDocument
+Document
 *
 aDocument
 )

@@ -354,7 +354,7 @@ Animation
 aRetVal
 )
 {
-nsIDocument
+Document
 *
 doc
 =

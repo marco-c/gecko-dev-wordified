@@ -8395,9 +8395,9 @@ to
 get
 the
 doc
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -37580,7 +37580,7 @@ HTMLEditRules
 :
 CreateStyleForInsertText
 (
-nsIDocument
+Document
 &
 aDocument
 )

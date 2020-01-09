@@ -201,7 +201,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1205,7 +1209,7 @@ enclosing
 parent
 element
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -1433,7 +1437,7 @@ nsXBLBinding
 :
 UnbindAnonymousContent
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -1872,7 +1876,7 @@ if
 hasContent
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -4324,10 +4328,10 @@ nsXBLBinding
 :
 ChangeDocument
 (
-nsIDocument
+Document
 *
 aOldDocument
-nsIDocument
+Document
 *
 aNewDocument
 )

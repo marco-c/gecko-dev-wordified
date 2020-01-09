@@ -397,7 +397,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -792,7 +796,7 @@ HTMLContentSink
 nsresult
 Init
 (
-nsIDocument
+Document
 *
 aDoc
 nsIURI
@@ -3335,7 +3339,7 @@ nsIHTMLContentSink
 *
 *
 aResult
-nsIDocument
+Document
 *
 aDoc
 nsIURI
@@ -3598,7 +3602,7 @@ HTMLContentSink
 :
 Init
 (
-nsIDocument
+Document
 *
 aDoc
 nsIURI
@@ -5564,7 +5568,7 @@ ContinueInterruptedParsingIfEnabled
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

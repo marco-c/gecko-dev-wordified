@@ -949,7 +949,7 @@ ePrivateBrowsing
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

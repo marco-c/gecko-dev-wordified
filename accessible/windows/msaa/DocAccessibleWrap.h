@@ -140,7 +140,10 @@ public
 :
 DocAccessibleWrap
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 nsIPresShell

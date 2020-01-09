@@ -260,9 +260,6 @@ class
 nsIContentIterator
 ;
 class
-nsIDocument
-;
-class
 nsIFrame
 ;
 class
@@ -660,7 +657,7 @@ SelectionChangeEventDispatcher
 ;
 }
 }
-nsIDocument
+Document
 *
 GetParentObject
 (
@@ -3465,7 +3462,7 @@ AddRangeInternal
 nsRange
 &
 aRange
-nsIDocument
+Document
 *
 aDocument
 ErrorResult
@@ -4064,7 +4061,7 @@ int32_t
 aOutIndex
 )
 ;
-nsIDocument
+Document
 *
 GetDocument
 (

@@ -225,7 +225,10 @@ public
 explicit
 MappedDeclarations
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDoc
 already_AddRefed
@@ -270,7 +273,10 @@ block
 )
 ;
 }
-nsIDocument
+dom
+:
+:
+Document
 *
 Document
 (
@@ -1047,7 +1053,10 @@ value
 ;
 private
 :
-nsIDocument
+dom
+:
+:
+Document
 *
 const
 mDocument

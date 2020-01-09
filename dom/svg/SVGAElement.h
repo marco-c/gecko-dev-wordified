@@ -328,7 +328,7 @@ virtual
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -656,7 +656,7 @@ rv
 void
 NodeInfoChanged
 (
-nsIDocument
+Document
 *
 aOldDoc
 )

@@ -462,7 +462,7 @@ SVGTitleElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -575,7 +575,7 @@ bool
 aBound
 )
 {
-nsIDocument
+Document
 *
 doc
 =

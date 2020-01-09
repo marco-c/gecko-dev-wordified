@@ -308,7 +308,7 @@ safe
 /
 Note
 that
-nsIDocument
+Document
 :
 :
 SelectorCache

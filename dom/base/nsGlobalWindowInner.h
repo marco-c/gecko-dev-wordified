@@ -435,7 +435,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -2138,7 +2142,7 @@ virtual
 nsresult
 SetNewDocument
 (
-nsIDocument
+Document
 *
 aDocument
 nsISupports
@@ -3640,7 +3644,7 @@ Window
 )
 ;
 }
-nsIDocument
+Document
 *
 GetDocument
 (
@@ -7512,7 +7516,7 @@ InnerSetNewDocument
 JSContext
 *
 aCx
-nsIDocument
+Document
 *
 aDocument
 )

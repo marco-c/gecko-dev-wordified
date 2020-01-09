@@ -201,7 +201,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -583,7 +587,7 @@ HTMLAnchorElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -631,7 +635,7 @@ rv
 /
 Prefetch
 links
-nsIDocument
+Document
 *
 doc
 =
@@ -845,7 +849,7 @@ is
 no
 link
 handler
-nsIDocument
+Document
 *
 doc
 =

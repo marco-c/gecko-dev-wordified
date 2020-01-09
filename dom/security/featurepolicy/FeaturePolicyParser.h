@@ -128,9 +128,6 @@ nsString
 h
 "
 class
-nsIDocument
-;
-class
 nsIPrincipal
 ;
 namespace
@@ -139,6 +136,9 @@ mozilla
 namespace
 dom
 {
+class
+Document
+;
 class
 Feature
 ;
@@ -184,7 +184,7 @@ const
 nsAString
 &
 aPolicy
-nsIDocument
+Document
 *
 aDocument
 nsIPrincipal

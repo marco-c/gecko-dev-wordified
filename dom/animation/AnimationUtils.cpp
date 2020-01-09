@@ -145,7 +145,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -206,6 +210,13 @@ Preferences
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 namespace
 mozilla
 {
@@ -355,7 +366,7 @@ get
 static
 *
 /
-nsIDocument
+Document
 *
 AnimationUtils
 :
@@ -403,7 +414,7 @@ GetDoc
 static
 *
 /
-nsIDocument
+Document
 *
 AnimationUtils
 :

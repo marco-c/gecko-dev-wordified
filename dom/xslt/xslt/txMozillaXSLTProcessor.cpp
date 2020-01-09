@@ -135,7 +135,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -355,7 +359,7 @@ txToDocHandlerFactory
 txExecutionState
 *
 aEs
-nsIDocument
+Document
 *
 aSourceDocument
 nsITransformObserver
@@ -392,7 +396,7 @@ mEs
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mSourceDocument
 ;
@@ -835,7 +839,7 @@ aFormat
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2203,7 +2207,7 @@ nsTransformBlockerEvent
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -2564,7 +2568,7 @@ this
 }
 already_AddRefed
 <
-nsIDocument
+Document
 >
 txMozillaXSLTProcessor
 :
@@ -2661,7 +2665,7 @@ aSource
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -2709,7 +2713,7 @@ txMozillaXSLTProcessor
 :
 TransformToDoc
 (
-nsIDocument
+Document
 *
 *
 aResult
@@ -2888,7 +2892,7 @@ mOutputHandler
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -2913,7 +2917,7 @@ GetReadyStateEnum
 )
 =
 =
-nsIDocument
+Document
 :
 :
 READYSTATE_INTERACTIVE
@@ -2928,7 +2932,7 @@ doc
 >
 SetReadyStateInternal
 (
-nsIDocument
+Document
 :
 :
 READYSTATE_COMPLETE
@@ -2982,7 +2986,7 @@ TransformToFragment
 nsINode
 &
 aSource
-nsIDocument
+Document
 &
 aOutput
 ErrorResult
@@ -4533,7 +4537,7 @@ LoadStyleSheet
 nsIURI
 *
 aUri
-nsIDocument
+Document
 *
 aLoaderDocument
 )
@@ -4892,7 +4896,7 @@ notifyError
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 ;
@@ -4933,7 +4937,7 @@ GetReadyStateEnum
 )
 =
 =
-nsIDocument
+Document
 :
 :
 READYSTATE_UNINITIALIZED
@@ -4949,7 +4953,7 @@ document
 >
 SetReadyStateInternal
 (
-nsIDocument
+Document
 :
 :
 READYSTATE_LOADING
@@ -5201,7 +5205,7 @@ GetReadyStateEnum
 )
 =
 =
-nsIDocument
+Document
 :
 :
 READYSTATE_LOADING
@@ -5217,7 +5221,7 @@ document
 >
 SetReadyStateInternal
 (
-nsIDocument
+Document
 :
 :
 READYSTATE_INTERACTIVE

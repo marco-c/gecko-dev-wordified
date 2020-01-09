@@ -1610,7 +1610,7 @@ virtual
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -3642,9 +3642,8 @@ static
 bool
 InNavQuirksMode
 (
-nsIDocument
+Document
 *
-aDoc
 )
 ;
 /
@@ -5961,7 +5960,7 @@ virtual
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -6626,7 +6625,7 @@ for
 IDTargetObserver
 (
 from
-nsIDocument
+Document
 )
 .
 *
@@ -7027,7 +7026,7 @@ virtual
 void
 NodeInfoChanged
 (
-nsIDocument
+Document
 *
 aOldDoc
 )

@@ -209,7 +209,7 @@ CSSMozDocumentRule
 :
 Match
 (
-nsIDocument
+Document
 *
 aDoc
 nsIURI
@@ -265,7 +265,7 @@ return
 kind
 !
 =
-nsIDocument
+Document
 :
 :
 MediaDocumentKind
@@ -312,7 +312,7 @@ kind
 )
 {
 case
-nsIDocument
+Document
 :
 :
 MediaDocumentKind
@@ -324,7 +324,7 @@ return
 false
 ;
 case
-nsIDocument
+Document
 :
 :
 MediaDocumentKind
@@ -343,7 +343,7 @@ plugin
 )
 ;
 case
-nsIDocument
+Document
 :
 :
 MediaDocumentKind
@@ -362,7 +362,7 @@ image
 )
 ;
 case
-nsIDocument
+Document
 :
 :
 MediaDocumentKind

@@ -1685,7 +1685,7 @@ same
 as
 /
 /
-nsIDocument
+Document
 :
 :
 FrameRequest

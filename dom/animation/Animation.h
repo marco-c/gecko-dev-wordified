@@ -296,9 +296,6 @@ class
 nsCSSPropertyIDSet
 ;
 class
-nsIDocument
-;
-class
 nsIFrame
 ;
 namespace
@@ -318,6 +315,9 @@ CSSAnimation
 ;
 class
 CSSTransition
+;
+class
+Document
 ;
 class
 Animation
@@ -3757,14 +3757,14 @@ TimeStamp
 )
 ;
 }
-nsIDocument
+Document
 *
 GetRenderedDocument
 (
 )
 const
 ;
-nsIDocument
+Document
 *
 GetTimelineDocument
 (

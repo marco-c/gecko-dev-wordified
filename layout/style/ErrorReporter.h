@@ -142,9 +142,6 @@ struct
 nsCSSToken
 ;
 class
-nsIDocument
-;
-class
 nsIURI
 ;
 namespace
@@ -153,6 +150,13 @@ mozilla
 class
 StyleSheet
 ;
+namespace
+dom
+{
+class
+Document
+;
+}
 namespace
 css
 {
@@ -234,7 +238,10 @@ bool
 ShouldReportErrors
 (
 const
-nsIDocument
+dom
+:
+:
+Document
 &
 )
 ;

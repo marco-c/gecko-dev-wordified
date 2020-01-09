@@ -217,7 +217,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -801,7 +805,7 @@ Attr
 :
 SetOwnerDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -815,7 +819,7 @@ document
 "
 )
 ;
-nsIDocument
+Document
 *
 doc
 =

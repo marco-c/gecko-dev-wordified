@@ -155,9 +155,6 @@ TrackID
 .
 h
 "
-class
-nsIDocument
-;
 namespace
 mozilla
 {
@@ -179,6 +176,9 @@ MediaResult
 namespace
 dom
 {
+class
+Document
+;
 class
 HTMLMediaElement
 ;
@@ -1345,7 +1345,13 @@ owner
 document
 .
 virtual
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 GetDocument
 (

@@ -281,7 +281,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -8896,7 +8900,7 @@ return
 gContextMenuAfterMouseUp
 ;
 }
-nsIDocument
+Document
 *
 nsBaseWidget
 :
@@ -12433,7 +12437,7 @@ aShowFocusRings
 {
 if
 (
-nsIDocument
+Document
 *
 doc
 =

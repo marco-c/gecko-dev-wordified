@@ -755,7 +755,10 @@ false
 ;
 nsCOMPtr
 <
-nsIDocument
+dom
+:
+:
+Document
 >
 doc
 =
@@ -857,9 +860,12 @@ mMakeEditable
 =
 mDetachedMakeEditable
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+dom
+:
+:
+Document
 >
 doc
 =

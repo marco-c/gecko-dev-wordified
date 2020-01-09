@@ -1051,7 +1051,7 @@ SVGScriptElement
 :
 FreezeExecutionAttrs
 (
-nsIDocument
+Document
 *
 aOwnerDoc
 )
@@ -1668,7 +1668,7 @@ SVGScriptElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

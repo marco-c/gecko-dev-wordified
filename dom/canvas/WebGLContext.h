@@ -2768,7 +2768,10 @@ return
 mCanvasElement
 ;
 }
-nsIDocument
+dom
+:
+:
+Document
 *
 GetOwnerDoc
 (

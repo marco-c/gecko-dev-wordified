@@ -131,9 +131,6 @@ NotNull
 .
 h
 "
-class
-nsIDocument
-;
 namespace
 mozilla
 {
@@ -148,6 +145,9 @@ HTMLMediaElement
 ;
 class
 AudioContext
+;
+class
+Document
 ;
 /
 *
@@ -434,7 +434,7 @@ AutoplayPermissionManager
 RequestFor
 (
 const
-nsIDocument
+Document
 &
 aDocument
 )

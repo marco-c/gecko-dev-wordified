@@ -2611,7 +2611,7 @@ GetParentObject
 (
 )
 ;
-nsIDocument
+Document
 *
 document
 =

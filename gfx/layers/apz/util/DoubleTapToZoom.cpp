@@ -174,7 +174,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -842,9 +846,12 @@ CSSRect
 CalculateRectToZoomTo
 (
 const
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+dom
+:
+:
+Document
 >
 &
 aRootContentDocument

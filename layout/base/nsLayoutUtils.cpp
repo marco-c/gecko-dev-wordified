@@ -290,7 +290,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -6340,7 +6344,7 @@ static
 bool
 HasVisibleAnonymousContents
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -6495,7 +6499,7 @@ return
 false
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -6525,7 +6529,7 @@ rootShell
 {
 if
 (
-nsIDocument
+Document
 *
 rootDoc
 =
@@ -52109,7 +52113,7 @@ nsLayoutUtils
 :
 GetEditableRootContentByContentEditable
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -54829,7 +54833,7 @@ nsChangeHint
 aMinChangeHint
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -59891,7 +59895,7 @@ aShell
 {
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -61335,7 +61339,7 @@ aScrollFrame
 =
 rootScrollFrame
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -62854,7 +62858,7 @@ PresShell
 (
 )
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -63753,7 +63757,7 @@ nsLayoutUtils
 :
 ShouldUseNoScriptSheet
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -63820,7 +63824,7 @@ nsLayoutUtils
 :
 ShouldUseNoFramesSheet
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -64539,7 +64543,7 @@ result
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -67830,7 +67834,7 @@ nsLayoutUtils
 :
 ShouldHandleMetaViewport
 (
-nsIDocument
+Document
 *
 aDocument
 )

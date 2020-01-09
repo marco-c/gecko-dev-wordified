@@ -228,7 +228,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -349,7 +353,7 @@ aUrl
 nsIURI
 *
 aBaseUri
-nsIDocument
+Document
 *
 aDocument
 nsAString
@@ -915,7 +919,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -1507,7 +1511,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2065,7 +2069,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2624,7 +2628,7 @@ PresentationRequest
 :
 IsProhibitMixedSecurityContexts
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -2651,7 +2655,7 @@ true
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

@@ -131,7 +131,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -2360,7 +2364,7 @@ nsIBoxObject
 >
 bx
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -2902,7 +2906,7 @@ at
 /
 document
 level
-nsIDocument
+Document
 *
 doc
 =
@@ -3694,7 +3698,7 @@ still
 has
 a
 window
-nsIDocument
+Document
 *
 document
 =
@@ -4379,7 +4383,7 @@ the
 document
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

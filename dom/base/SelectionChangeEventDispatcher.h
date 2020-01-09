@@ -151,9 +151,6 @@ nsCOMPtr
 h
 "
 class
-nsIDocument
-;
-class
 nsINode
 ;
 class
@@ -210,7 +207,10 @@ MOZ_CAN_RUN_SCRIPT
 void
 OnSelectionChange
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 dom

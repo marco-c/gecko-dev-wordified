@@ -743,7 +743,7 @@ aParent
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -953,7 +953,7 @@ aParent
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -1032,7 +1032,7 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =

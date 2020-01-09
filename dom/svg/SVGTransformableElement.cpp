@@ -1463,7 +1463,7 @@ GetCTM
 (
 )
 {
-nsIDocument
+Document
 *
 currentDoc
 =
@@ -1559,7 +1559,7 @@ GetScreenCTM
 (
 )
 {
-nsIDocument
+Document
 *
 currentDoc
 =

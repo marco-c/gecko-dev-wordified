@@ -3616,7 +3616,13 @@ RegisterTouchWindow
 )
 {
 }
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 GetDocument
 (

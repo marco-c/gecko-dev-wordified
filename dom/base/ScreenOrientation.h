@@ -597,7 +597,7 @@ in
 the
 spec
 .
-nsIDocument
+Document
 *
 GetResponsibleDocument
 (

@@ -231,7 +231,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -5707,7 +5711,7 @@ if
 mTriggerContent
 )
 {
-nsIDocument
+Document
 *
 doc
 =

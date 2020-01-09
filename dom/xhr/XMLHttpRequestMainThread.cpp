@@ -2413,7 +2413,7 @@ aParamCount
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -2458,7 +2458,7 @@ aParamCount
 )
 ;
 }
-nsIDocument
+Document
 *
 XMLHttpRequestMainThread
 :
@@ -6575,7 +6575,7 @@ forget
 )
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -7586,7 +7586,7 @@ GetExtantDoc
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eSyncXMLHttpRequest
@@ -7615,7 +7615,7 @@ Step
 1
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 responsibleDocument
 =
@@ -10966,7 +10966,7 @@ docURI
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -12620,7 +12620,7 @@ nsXHRParseEndListener
 this
 )
 ;
-nsCOMPtr
+RefPtr
 <
 EventTarget
 >
@@ -13459,7 +13459,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 responsibleDocument
 =
@@ -13731,7 +13731,7 @@ MaybeLowerChannelPriority
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -14163,7 +14163,7 @@ GetOwner
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -15697,7 +15697,7 @@ IsDocument
 {
 BodyExtractor
 <
-nsIDocument
+Document
 >
 body
 (
@@ -20064,7 +20064,7 @@ MOZ_ASSERT
 mFlagSynchronous
 )
 ;
-nsIDocument
+Document
 *
 doc
 =

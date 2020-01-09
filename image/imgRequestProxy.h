@@ -291,6 +291,16 @@ typedef
 mozilla
 :
 :
+dom
+:
+:
+Document
+Document
+;
+typedef
+mozilla
+:
+:
 image
 :
 :
@@ -357,7 +367,7 @@ aOwner
 nsILoadGroup
 *
 aLoadGroup
-nsIDocument
+Document
 *
 aLoadingDocument
 nsIURI
@@ -746,7 +756,7 @@ SyncClone
 imgINotificationObserver
 *
 aObserver
-nsIDocument
+Document
 *
 aLoadingDocument
 imgRequestProxy
@@ -761,7 +771,7 @@ Clone
 imgINotificationObserver
 *
 aObserver
-nsIDocument
+Document
 *
 aLoadingDocument
 imgRequestProxy
@@ -773,7 +783,7 @@ aClone
 nsresult
 GetStaticRequest
 (
-nsIDocument
+Document
 *
 aLoadingDocument
 imgRequestProxy
@@ -1065,7 +1075,7 @@ PerformClone
 imgINotificationObserver
 *
 aObserver
-nsIDocument
+Document
 *
 aLoadingDocument
 bool
@@ -1111,7 +1121,7 @@ imgCacheValidator
 void
 AddToOwner
 (
-nsIDocument
+Document
 *
 aLoadingDocument
 )

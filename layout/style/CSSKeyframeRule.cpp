@@ -408,7 +408,7 @@ mRule
 )
 ;
 }
-nsIDocument
+Document
 *
 DocToUpdate
 (

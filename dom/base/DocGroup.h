@@ -421,7 +421,7 @@ public
 typedef
 nsTArray
 <
-nsIDocument
+Document
 *
 >
 :
@@ -586,7 +586,7 @@ mReactionsStack
 void
 RemoveDocument
 (
-nsIDocument
+Document
 *
 aWindow
 )
@@ -865,7 +865,7 @@ mTabGroup
 ;
 nsTArray
 <
-nsIDocument
+Document
 *
 >
 mDocuments

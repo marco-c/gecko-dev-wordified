@@ -148,9 +148,6 @@ nsTArrayForwardDeclare
 .
 h
 "
-class
-nsIDocument
-;
 /
 /
 Must
@@ -782,7 +779,13 @@ virtual
 void
 FlushConsoleReports
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDocument
 ReportAction

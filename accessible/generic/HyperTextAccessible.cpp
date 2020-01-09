@@ -8595,7 +8595,10 @@ No
 editing
 session
 interface
-nsIDocument
+dom
+:
+:
+Document
 *
 docNode
 =
@@ -9023,7 +9026,10 @@ mDoc
 NS_ERROR_FAILURE
 )
 ;
-nsIDocument
+dom
+:
+:
+Document
 *
 docNode
 =

@@ -138,7 +138,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1302,7 +1306,7 @@ Element
 >
 MakeAnonButton
 (
-nsIDocument
+Document
 *
 aDoc
 const
@@ -1628,7 +1632,7 @@ aElements
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

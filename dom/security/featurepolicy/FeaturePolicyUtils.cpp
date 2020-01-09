@@ -166,7 +166,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -625,7 +629,7 @@ FeaturePolicyUtils
 :
 IsFeatureAllowed
 (
-nsIDocument
+Document
 *
 aDocument
 const
@@ -727,7 +731,7 @@ FeaturePolicyUtils
 :
 ReportViolation
 (
-nsIDocument
+Document
 *
 aDocument
 const

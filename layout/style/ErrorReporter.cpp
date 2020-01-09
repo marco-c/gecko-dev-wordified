@@ -202,7 +202,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -286,6 +290,13 @@ mozilla
 :
 :
 css
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 namespace
 {
@@ -738,7 +749,7 @@ aLoader
 {
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -969,7 +980,7 @@ ErrorReporter
 ShouldReportErrors
 (
 const
-nsIDocument
+Document
 &
 aDoc
 )

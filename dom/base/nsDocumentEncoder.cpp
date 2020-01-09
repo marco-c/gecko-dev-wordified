@@ -170,7 +170,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -993,7 +997,7 @@ mEncoder
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;
@@ -1377,7 +1381,7 @@ nsDocumentEncoder
 :
 Init
 (
-nsIDocument
+Document
 *
 aDocument
 const
@@ -1403,7 +1407,7 @@ nsDocumentEncoder
 :
 NativeInit
 (
-nsIDocument
+Document
 *
 aDocument
 const
@@ -4758,7 +4762,7 @@ IsReadonly
 (
 )
 "
-DocumentEncoder
+nsIDocumentEncoder
 shouldn
 '
 t
@@ -5987,7 +5991,7 @@ nsHTMLCopyEncoder
 NS_IMETHOD
 Init
 (
-nsIDocument
+Document
 *
 aDocument
 const
@@ -6216,7 +6220,7 @@ nsHTMLCopyEncoder
 :
 Init
 (
-nsIDocument
+Document
 *
 aDocument
 const

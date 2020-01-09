@@ -492,7 +492,7 @@ KeyframeEffect
 :
 KeyframeEffect
 (
-nsIDocument
+Document
 *
 aDocument
 const
@@ -3984,7 +3984,7 @@ access
 aKeyframes
 object
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -5140,7 +5140,7 @@ ErrorResult
 aRv
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -8045,7 +8045,7 @@ care
 /
 it
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -8444,7 +8444,7 @@ return
 frame
 ;
 }
-nsIDocument
+Document
 *
 KeyframeEffect
 :
@@ -8486,7 +8486,7 @@ GetPresShell
 )
 const
 {
-nsIDocument
+Document
 *
 doc
 =

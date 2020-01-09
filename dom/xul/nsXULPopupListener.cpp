@@ -165,7 +165,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1337,7 +1341,7 @@ aIsTouch
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2113,7 +2117,7 @@ document
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =

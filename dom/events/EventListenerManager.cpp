@@ -417,7 +417,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1798,7 +1802,7 @@ GetInnerWindowForTarget
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -1819,7 +1823,7 @@ doc
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eMutationEvent
@@ -1838,7 +1842,7 @@ doc
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eDOMAttrModifiedEvent
@@ -2171,7 +2175,7 @@ ifdef
 DEBUG
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 d
 =
@@ -2270,7 +2274,7 @@ ifdef
 DEBUG
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 d
 =
@@ -2517,7 +2521,7 @@ GetInnerWindowForTarget
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2569,7 +2573,7 @@ GetInnerWindowForTarget
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2621,7 +2625,7 @@ GetInnerWindowForTarget
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2816,7 +2820,7 @@ layer
 tree
 gets
 updated
-nsIDocument
+Document
 *
 doc
 =
@@ -4628,7 +4632,7 @@ aElement
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -5206,7 +5210,7 @@ NS_OK
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -10865,7 +10869,7 @@ EventListenerManager
 :
 GetScriptGlobalAndDocument
 (
-nsIDocument
+Document
 *
 *
 aDoc
@@ -10885,7 +10889,7 @@ mTarget
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;

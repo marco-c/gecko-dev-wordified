@@ -620,7 +620,7 @@ window
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;

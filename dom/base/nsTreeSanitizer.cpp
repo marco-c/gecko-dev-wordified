@@ -276,7 +276,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -6771,7 +6775,7 @@ aOriginal
 nsAString
 &
 aSanitized
-nsIDocument
+Document
 *
 aDocument
 nsIURI
@@ -7479,7 +7483,7 @@ attrLocal
 value
 )
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -8885,7 +8889,7 @@ nsTreeSanitizer
 :
 Sanitize
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -9928,7 +9932,7 @@ const
 char
 *
 aMessage
-nsIDocument
+Document
 *
 aDoc
 Element

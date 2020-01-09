@@ -274,7 +274,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1556,7 +1560,7 @@ HTMLFormElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -2973,7 +2977,7 @@ up
 to
 -
 date
-nsIDocument
+Document
 *
 doc
 =
@@ -3744,7 +3748,7 @@ able
 to
 submit
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -4419,7 +4423,7 @@ security
 for
 us
 .
-nsIDocument
+Document
 *
 parent
 =
@@ -8829,7 +8833,7 @@ IsEmpty
 )
 )
 {
-nsIDocument
+Document
 *
 document
 =
@@ -9199,7 +9203,7 @@ Bug
 Get
 base
 URL
-nsIDocument
+Document
 *
 document
 =

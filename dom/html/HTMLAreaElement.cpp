@@ -439,7 +439,7 @@ HTMLAreaElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -483,7 +483,7 @@ rv
 rv
 )
 ;
-nsIDocument
+Document
 *
 doc
 =

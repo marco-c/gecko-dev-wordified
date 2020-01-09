@@ -988,7 +988,7 @@ changed
 *
 Called
 by
-nsIDocument
+Document
 so
 we
 may
@@ -1270,7 +1270,13 @@ aRv
 /
 WebIDL
 API
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 GetContentDocument
 (
@@ -1997,7 +2003,7 @@ supported
 /
 /
 (
-nsIDocumentLoaderFactory
+DocumentLoaderFactory
 )
 /
 /
@@ -2206,7 +2212,13 @@ aInstanceOwner
 nsresult
 BindToTree
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDocument
 nsIContent

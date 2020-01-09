@@ -2457,7 +2457,7 @@ nsPlainTextSerializer
 :
 AppendDocumentStart
 (
-nsIDocument
+Document
 *
 aDocument
 nsAString

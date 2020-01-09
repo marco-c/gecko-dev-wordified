@@ -1073,7 +1073,7 @@ ScriptLoader
 :
 ScriptLoader
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -2183,7 +2183,7 @@ ScriptLoader
 :
 CheckContentPolicy
 (
-nsIDocument
+Document
 *
 aDocument
 nsISupports
@@ -5024,7 +5024,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 document
 =
@@ -5874,7 +5874,7 @@ script
 /
 there
 .
-nsIDocument
+Document
 *
 document
 =
@@ -9163,7 +9163,7 @@ CSPAllowsInlineScript
 nsIScriptElement
 *
 aElement
-nsIDocument
+Document
 *
 aDocument
 )
@@ -14247,7 +14247,7 @@ Element
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -16326,7 +16326,7 @@ MOZ_ASSERT
 scriptContent
 )
 ;
-nsIDocument
+Document
 *
 ownerDoc
 =
@@ -19743,7 +19743,7 @@ false
 }
 for
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -19829,7 +19829,7 @@ const
 nsAString
 &
 aHintCharset
-nsIDocument
+Document
 *
 aDocument
 char16_t
@@ -23772,7 +23772,7 @@ GetReadyStateEnum
 )
 =
 =
-nsIDocument
+Document
 :
 :
 READYSTATE_LOADING

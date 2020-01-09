@@ -144,7 +144,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -173,13 +177,6 @@ h
 include
 "
 nsIUploadChannel2
-.
-h
-"
-#
-include
-"
-nsIDocument
 .
 h
 "
@@ -762,7 +759,7 @@ maxPings
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -1983,7 +1980,7 @@ ios
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =

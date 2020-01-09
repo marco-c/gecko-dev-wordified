@@ -383,7 +383,7 @@ ReferrerPolicy
 *
 *
 see
-nsIDocument
+Document
 :
 :
 IDTargetObserver
@@ -394,7 +394,6 @@ here
 to
 avoid
 include
-*
 hell
 .
 *

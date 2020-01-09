@@ -1941,7 +1941,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -3155,7 +3155,7 @@ nothing
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

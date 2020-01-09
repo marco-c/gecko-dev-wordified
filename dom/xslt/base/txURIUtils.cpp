@@ -110,7 +110,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -137,6 +141,15 @@ LoadInfo
 .
 h
 "
+using
+mozilla
+:
+:
+dom
+:
+:
+Document
+;
 using
 mozilla
 :
@@ -311,7 +324,7 @@ URIUtils
 :
 ResetWithSource
 (
-nsIDocument
+Document
 *
 aNewDoc
 nsINode
@@ -321,7 +334,7 @@ aSourceNode
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 sourceDoc
 =

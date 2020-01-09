@@ -195,7 +195,7 @@ FormData
 /
 URLSearchParams
 nsAString
-nsIDocument
+Document
 nsIInputStream
 .
 template

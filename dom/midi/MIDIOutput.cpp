@@ -479,7 +479,7 @@ Value
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

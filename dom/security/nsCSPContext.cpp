@@ -204,7 +204,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -3901,7 +3905,7 @@ nsCSPContext
 :
 SetRequestContext
 (
-nsIDocument
+Document
 *
 aDocument
 nsIPrincipal
@@ -4288,7 +4292,7 @@ not
 available
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -4562,7 +4566,7 @@ false
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -5401,7 +5405,7 @@ statusCode
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -5868,7 +5872,7 @@ reportURIs
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -7033,7 +7037,7 @@ aTriggeringElement
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -8557,7 +8561,7 @@ typeChrome
 break
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -8575,7 +8579,7 @@ doc
 Could
 not
 get
-nsIDocument
+Document
 from
 nsIDocShellTreeItem
 in

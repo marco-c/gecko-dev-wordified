@@ -4202,7 +4202,7 @@ mLinkState
 eLinkState_NotLink
 )
 {
-nsIDocument
+Document
 *
 doc
 =

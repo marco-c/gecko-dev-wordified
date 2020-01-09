@@ -159,7 +159,7 @@ h
 #
 include
 "
-nsIDocumentInlines
+DocumentInlines
 .
 h
 "
@@ -1483,7 +1483,13 @@ mozilla
 nsresult
 NS_NewPluginDocument
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 *
 aResult

@@ -631,7 +631,7 @@ logic
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =

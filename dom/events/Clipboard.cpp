@@ -953,7 +953,7 @@ GetOwner
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =

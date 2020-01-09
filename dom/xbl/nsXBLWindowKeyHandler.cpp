@@ -2589,7 +2589,7 @@ false
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -4353,7 +4353,7 @@ check
 this
 earlier
 ?
-nsIDocument
+Document
 *
 doc
 =

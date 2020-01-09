@@ -394,7 +394,7 @@ DocGroup
 :
 RemoveDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -672,7 +672,7 @@ this
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -1391,7 +1391,7 @@ const
 {
 for
 (
-nsIDocument
+Document
 *
 doc
 :

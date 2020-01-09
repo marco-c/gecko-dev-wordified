@@ -780,7 +780,7 @@ TextEditor
 :
 Init
 (
-nsIDocument
+Document
 &
 aDoc
 Element
@@ -1298,9 +1298,9 @@ META
 charset
 element
 .
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -1530,7 +1530,7 @@ TextEditor
 :
 UpdateMetaCharset
 (
-nsIDocument
+Document
 &
 aDocument
 const
@@ -10488,9 +10488,9 @@ enabled
 in
 HTML
 documents
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -10651,9 +10651,9 @@ enabled
 in
 HTML
 documents
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -10857,9 +10857,9 @@ docEncoder
 mCachedDocumentEncoder
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =

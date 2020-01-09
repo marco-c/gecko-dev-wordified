@@ -162,7 +162,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -201,6 +205,9 @@ namespace
 dom
 {
 class
+Document
+;
+class
 DocumentType
 ;
 class
@@ -222,7 +229,7 @@ public
 :
 DOMImplementation
 (
-nsIDocument
+Document
 *
 aOwner
 nsIGlobalObject
@@ -267,7 +274,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DOMImplementation
 )
-nsIDocument
+Document
 *
 GetParentObject
 (
@@ -332,7 +339,7 @@ aRv
 ;
 already_AddRefed
 <
-nsIDocument
+Document
 >
 CreateDocument
 (
@@ -354,7 +361,7 @@ aRv
 ;
 already_AddRefed
 <
-nsIDocument
+Document
 >
 CreateHTMLDocument
 (
@@ -386,7 +393,7 @@ aQualifiedName
 DocumentType
 *
 aDoctype
-nsIDocument
+Document
 *
 *
 aDocument
@@ -399,7 +406,7 @@ const
 nsAString
 &
 aTitle
-nsIDocument
+Document
 *
 *
 aDocument
@@ -407,7 +414,7 @@ aDocument
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mOwner
 ;

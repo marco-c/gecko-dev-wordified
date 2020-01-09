@@ -277,7 +277,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -2345,7 +2349,7 @@ Loader
 :
 Loader
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -3917,7 +3921,7 @@ aStatus
 NS_ERROR_TRACKING_URI
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -7016,7 +7020,7 @@ MediaList
 *
 aMediaList
 const
-nsIDocument
+Document
 *
 aDocument
 )

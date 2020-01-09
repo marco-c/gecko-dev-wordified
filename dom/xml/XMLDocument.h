@@ -143,7 +143,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -170,7 +174,7 @@ class
 XMLDocument
 :
 public
-nsIDocument
+Document
 {
 public
 :
@@ -192,7 +196,7 @@ xml
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 XMLDocument
-nsIDocument
+Document
 )
 virtual
 void
@@ -336,7 +340,7 @@ DocAddSizeOfIncludingThis
 is
 inherited
 from
-nsIDocument
+Document
 .
 /
 /
@@ -395,9 +399,9 @@ it
 clear
 that
 the
+Document
 /
 /
-nsIDocument
 version
 applies
 to
@@ -412,13 +416,11 @@ the
 XPCOM
 thing
 on
-/
-/
-nsIDocument
+Document
 )
 .
 using
-nsIDocument
+Document
 :
 :
 GetLocation
@@ -459,7 +461,7 @@ nsresult
 NS_NewXMLDocument
 )
 (
-nsIDocument
+Document
 *
 *
 bool

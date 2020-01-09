@@ -284,7 +284,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -2884,7 +2888,7 @@ aString
 ServoAnimationValues
 result
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -3061,7 +3065,7 @@ PresContext
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -3235,7 +3239,7 @@ aValue
 nsSMILValue
 result
 ;
-nsIDocument
+Document
 *
 doc
 =

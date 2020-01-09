@@ -6822,7 +6822,7 @@ GetLayoutDeviceToCSSScale
 (
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -12451,7 +12451,7 @@ the
 target
 element
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -12844,7 +12844,7 @@ the
 target
 element
 .
-nsIDocument
+Document
 *
 doc
 =

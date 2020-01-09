@@ -137,14 +137,18 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
 #
 include
 "
-nsIDocumentInlines
+DocumentInlines
 .
 h
 "
@@ -2406,17 +2410,12 @@ XML_DECLARATION_BITS_STANDALONE_YES
 <
 3
 )
-using
 namespace
 mozilla
-;
-using
+{
 namespace
-mozilla
-:
-:
 dom
-;
+{
 typedef
 nsTArray
 <
@@ -3031,6 +3030,20 @@ mResult
 ;
 }
 ;
+}
+/
+/
+namespace
+dom
+}
+/
+/
+namespace
+mozilla
+extern
+bool
+sDisablePrefetchHTTPSPref
+;
 #
 define
 NAME_NOT_VALID
@@ -3345,7 +3358,7 @@ nsIdentifierMapEntry
 :
 AddContentChangeCallback
 (
-nsIDocument
+Document
 :
 :
 IDTargetObserver
@@ -3396,7 +3409,7 @@ nsIdentifierMapEntry
 :
 RemoveContentChangeCallback
 (
-nsIDocument
+Document
 :
 :
 IDTargetObserver
@@ -4801,7 +4814,7 @@ to
 look
 like
 PLDHashEntryStub
-nsIDocument
+Document
 *
 mSubDocument
 ;
@@ -5089,10 +5102,16 @@ NS_OK
 =
 =
 =
-nsExternalResourceMap
+namespace
+mozilla
+{
+namespace
+dom
+{
+ExternalResourceMap
 :
 :
-nsExternalResourceMap
+ExternalResourceMap
 (
 )
 :
@@ -5102,9 +5121,9 @@ false
 )
 {
 }
-nsIDocument
+Document
 *
-nsExternalResourceMap
+ExternalResourceMap
 :
 :
 RequestResource
@@ -5120,7 +5139,7 @@ aReferrerPolicy
 nsINode
 *
 aRequestingNode
-nsIDocument
+Document
 *
 aDisplayDocument
 ExternalResourceLoad
@@ -5397,15 +5416,15 @@ nullptr
 ;
 }
 void
-nsExternalResourceMap
+ExternalResourceMap
 :
 :
 EnumerateResources
 (
-nsIDocument
+Document
 :
 :
-nsSubDocEnumFunc
+SubDocEnumFunc
 aCallback
 void
 *
@@ -5437,7 +5456,7 @@ Next
 )
 )
 {
-nsExternalResourceMap
+ExternalResourceMap
 :
 :
 ExternalResource
@@ -5475,7 +5494,7 @@ break
 }
 }
 void
-nsExternalResourceMap
+ExternalResourceMap
 :
 :
 Traverse
@@ -5533,7 +5552,7 @@ Next
 )
 )
 {
-nsExternalResourceMap
+ExternalResourceMap
 :
 :
 ExternalResource
@@ -5636,7 +5655,7 @@ mLoadGroup
 }
 }
 void
-nsExternalResourceMap
+ExternalResourceMap
 :
 :
 HideViewers
@@ -5699,7 +5718,7 @@ Hide
 }
 }
 void
-nsExternalResourceMap
+ExternalResourceMap
 :
 :
 ShowViewers
@@ -5764,10 +5783,10 @@ Show
 void
 TransferZoomLevels
 (
-nsIDocument
+Document
 *
 aFromDoc
-nsIDocument
+Document
 *
 aToDoc
 )
@@ -5882,10 +5901,10 @@ GetOverrideDPPX
 void
 TransferShowingState
 (
-nsIDocument
+Document
 *
 aFromDoc
-nsIDocument
+Document
 *
 aToDoc
 )
@@ -5930,7 +5949,7 @@ nullptr
 }
 }
 nsresult
-nsExternalResourceMap
+ExternalResourceMap
 :
 :
 AddExternalResource
@@ -5944,7 +5963,7 @@ aViewer
 nsILoadGroup
 *
 aLoadGroup
-nsIDocument
+Document
 *
 aDisplayDocument
 )
@@ -6009,7 +6028,7 @@ NS_OK
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -6282,7 +6301,7 @@ rv
 }
 NS_IMPL_ISUPPORTS
 (
-nsExternalResourceMap
+ExternalResourceMap
 :
 :
 PendingLoad
@@ -6290,7 +6309,7 @@ nsIStreamListener
 nsIRequestObserver
 )
 NS_IMETHODIMP
-nsExternalResourceMap
+ExternalResourceMap
 :
 :
 PendingLoad
@@ -6306,7 +6325,7 @@ nsISupports
 aContext
 )
 {
-nsExternalResourceMap
+ExternalResourceMap
 &
 map
 =
@@ -6421,7 +6440,7 @@ aContext
 ;
 }
 nsresult
-nsExternalResourceMap
+ExternalResourceMap
 :
 :
 PendingLoad
@@ -6878,7 +6897,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsExternalResourceMap
+ExternalResourceMap
 :
 :
 PendingLoad
@@ -6952,7 +6971,7 @@ aCount
 ;
 }
 NS_IMETHODIMP
-nsExternalResourceMap
+ExternalResourceMap
 :
 :
 PendingLoad
@@ -7016,7 +7035,7 @@ NS_OK
 ;
 }
 nsresult
-nsExternalResourceMap
+ExternalResourceMap
 :
 :
 PendingLoad
@@ -7175,7 +7194,7 @@ this
 }
 NS_IMPL_ISUPPORTS
 (
-nsExternalResourceMap
+ExternalResourceMap
 :
 :
 LoadgroupCallbacks
@@ -7190,7 +7209,7 @@ _i
 \
 NS_IMPL_ISUPPORTS
 (
-nsExternalResourceMap
+ExternalResourceMap
 :
 :
 LoadgroupCallbacks
@@ -7316,7 +7335,7 @@ NS_OK
 \
 PR_END_MACRO
 NS_IMETHODIMP
-nsExternalResourceMap
+ExternalResourceMap
 :
 :
 LoadgroupCallbacks
@@ -7416,7 +7435,7 @@ TRY_SHIM
 #
 undef
 IID_IS
-nsExternalResourceMap
+ExternalResourceMap
 :
 :
 ExternalResource
@@ -7618,7 +7637,7 @@ overriding
 EnsureFresh
 .
 class
-nsDOMStyleSheetSetList
+DOMStyleSheetSetList
 final
 :
 public
@@ -7627,9 +7646,9 @@ DOMStringList
 public
 :
 explicit
-nsDOMStyleSheetSetList
+DOMStyleSheetSetList
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -7653,7 +7672,7 @@ override
 ;
 protected
 :
-nsIDocument
+Document
 *
 mDocument
 ;
@@ -7679,12 +7698,12 @@ dies
 .
 }
 ;
-nsDOMStyleSheetSetList
+DOMStyleSheetSetList
 :
 :
-nsDOMStyleSheetSetList
+DOMStyleSheetSetList
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -7707,7 +7726,7 @@ document
 ;
 }
 void
-nsDOMStyleSheetSetList
+DOMStyleSheetSetList
 :
 :
 EnsureFresh
@@ -7920,7 +7939,7 @@ return
 =
 =
 =
-nsIDocument
+Document
 :
 :
 SelectorCache
@@ -7941,7 +7960,7 @@ SelectorCacheKey
 (
 1000
 "
-nsIDocument
+Document
 :
 :
 SelectorCache
@@ -7950,7 +7969,7 @@ aEventTarget
 )
 {
 }
-nsIDocument
+Document
 :
 :
 SelectorCache
@@ -7967,7 +7986,7 @@ AgeAllGenerations
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SelectorCache
@@ -8142,7 +8161,7 @@ aSelector
 ;
 }
 struct
-nsIDocument
+Document
 :
 :
 FrameRequest
@@ -8396,10 +8415,10 @@ mHandle
 =
 =
 =
-nsIDocument
+Document
 :
 :
-nsIDocument
+Document
 (
 const
 char
@@ -9154,7 +9173,7 @@ true
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 ClearAllBoxObjects
@@ -9226,7 +9245,7 @@ nullptr
 }
 }
 bool
-nsIDocument
+Document
 :
 :
 IsAboutPage
@@ -9289,7 +9308,7 @@ isAboutScheme
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 ConstructUbiNode
@@ -9307,7 +9326,7 @@ ubi
 :
 Concrete
 <
-nsIDocument
+Document
 >
 :
 :
@@ -9318,11 +9337,11 @@ this
 )
 ;
 }
-nsIDocument
+Document
 :
 :
 ~
-nsIDocument
+Document
 (
 )
 {
@@ -10265,34 +10284,34 @@ UnlinkOriginalDocumentIfStatic
 }
 NS_INTERFACE_TABLE_HEAD
 (
-nsIDocument
+Document
 )
 NS_WRAPPERCACHE_INTERFACE_TABLE_ENTRY
 NS_INTERFACE_TABLE_BEGIN
 NS_INTERFACE_TABLE_ENTRY_AMBIGUOUS
 (
-nsIDocument
+Document
 nsISupports
 nsINode
 )
 NS_INTERFACE_TABLE_ENTRY
 (
-nsIDocument
+Document
 nsINode
 )
 NS_INTERFACE_TABLE_ENTRY
 (
-nsIDocument
-nsIDocument
+Document
+Document
 )
 NS_INTERFACE_TABLE_ENTRY
 (
-nsIDocument
+Document
 nsIScriptObjectPrincipal
 )
 NS_INTERFACE_TABLE_ENTRY
 (
-nsIDocument
+Document
 mozilla
 :
 :
@@ -10303,39 +10322,39 @@ EventTarget
 )
 NS_INTERFACE_TABLE_ENTRY
 (
-nsIDocument
+Document
 nsISupportsWeakReference
 )
 NS_INTERFACE_TABLE_ENTRY
 (
-nsIDocument
+Document
 nsIRadioGroupContainer
 )
 NS_INTERFACE_TABLE_ENTRY
 (
-nsIDocument
+Document
 nsIMutationObserver
 )
 NS_INTERFACE_TABLE_ENTRY
 (
-nsIDocument
+Document
 nsIApplicationCacheContainer
 )
 NS_INTERFACE_TABLE_END
 NS_INTERFACE_TABLE_TO_MAP_SEGUE_CYCLE_COLLECTION
 (
-nsIDocument
+Document
 )
 NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
-nsIDocument
+Document
 )
 NS_IMETHODIMP_
 (
 MozExternalRefCountType
 )
-nsIDocument
+Document
 :
 :
 Release
@@ -10356,7 +10375,7 @@ release
 ;
 NS_ASSERT_OWNINGTHREAD
 (
-nsIDocument
+Document
 )
 ;
 nsISupports
@@ -10365,7 +10384,7 @@ base
 =
 NS_CYCLE_COLLECTION_CLASSNAME
 (
-nsIDocument
+Document
 )
 :
 :
@@ -10396,7 +10415,7 @@ NS_LOG_RELEASE
 this
 count
 "
-nsIDocument
+Document
 "
 )
 ;
@@ -10480,7 +10499,7 @@ NS_IMETHODIMP_
 (
 void
 )
-nsIDocument
+Document
 :
 :
 DeleteCycleCollectable
@@ -10493,7 +10512,7 @@ this
 }
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_BEGIN
 (
-nsIDocument
+Document
 )
 if
 (
@@ -10538,7 +10557,7 @@ true
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_END
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_IN_CC_BEGIN
 (
-nsIDocument
+Document
 )
 return
 Element
@@ -10552,7 +10571,7 @@ tmp
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_IN_CC_END
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_THIS_BEGIN
 (
-nsIDocument
+Document
 )
 return
 Element
@@ -10629,7 +10648,7 @@ XUL
 ;
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INTERNAL
 (
-nsIDocument
+Document
 )
 if
 (
@@ -10730,7 +10749,7 @@ SprintfLiteral
 (
 name
 "
-nsIDocument
+Document
 %
 s
 %
@@ -10761,7 +10780,7 @@ SprintfLiteral
 (
 name
 "
-nsIDocument
+Document
 %
 s
 %
@@ -10800,7 +10819,7 @@ else
 {
 NS_IMPL_CYCLE_COLLECTION_DESCRIBE
 (
-nsIDocument
+Document
 tmp
 -
 >
@@ -10928,7 +10947,7 @@ cb
 /
 Traverse
 all
-nsIDocument
+Document
 pointer
 members
 .
@@ -10956,7 +10975,7 @@ mDocumentL10n
 /
 Traverse
 all
-nsIDocument
+Document
 nsCOMPtrs
 .
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
@@ -11489,15 +11508,15 @@ mql
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-nsIDocument
+Document
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_WRAPPERCACHE
 (
-nsIDocument
+Document
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
-nsIDocument
+Document
 )
 tmp
 -
@@ -11579,7 +11598,7 @@ the
 corresponding
 code
 in
-nsIDocument
+Document
 '
 s
 /
@@ -11881,7 +11900,7 @@ tmp
 ;
 /
 /
-nsIDocument
+Document
 has
 a
 pretty
@@ -12076,7 +12095,7 @@ false
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 nsresult
-nsIDocument
+Document
 :
 :
 Init
@@ -12481,7 +12500,7 @@ NS_OK
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 DeleteAllProperties
@@ -12498,7 +12517,7 @@ DeleteAllProperties
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 DeleteAllPropertiesFor
@@ -12519,7 +12538,7 @@ aNode
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 IsVisibleConsideringAncestors
@@ -12528,7 +12547,7 @@ IsVisibleConsideringAncestors
 const
 {
 const
-nsIDocument
+Document
 *
 parent
 =
@@ -12571,7 +12590,7 @@ true
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 Reset
@@ -13028,7 +13047,7 @@ hasFlags
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 ResetToURI
@@ -13450,7 +13469,7 @@ If
 mDocumentBaseURI
 is
 null
-nsIDocument
+Document
 :
 :
 GetBaseURI
@@ -13888,7 +13907,7 @@ already_AddRefed
 <
 nsIPrincipal
 >
-nsIDocument
+Document
 :
 :
 MaybeDowngradePrincipal
@@ -14121,7 +14140,7 @@ parentDocShell
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 parentDoc
 ;
@@ -14203,7 +14222,7 @@ forget
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 RemoveDocStyleSheetsFromStyleSets
@@ -14285,7 +14304,7 @@ observers
 }
 }
 void
-nsIDocument
+Document
 :
 :
 RemoveStyleSheetsFromStyleSets
@@ -14380,7 +14399,7 @@ observers
 }
 }
 void
-nsIDocument
+Document
 :
 :
 ResetStylesheetsToURI
@@ -14745,7 +14764,7 @@ sheet
 }
 }
 void
-nsIDocument
+Document
 :
 :
 FillStyleSet
@@ -15163,7 +15182,7 @@ return
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 parentDocument
 =
@@ -15223,7 +15242,7 @@ iframeUri
 }
 }
 bool
-nsIDocument
+Document
 :
 :
 IsSynthesized
@@ -15263,7 +15282,7 @@ GetServiceWorkerTaintingSynthesized
 /
 static
 bool
-nsIDocument
+Document
 :
 :
 IsCallerChromeOrAddon
@@ -15312,7 +15331,7 @@ GetIsAddonOrExpandedAddonPrincipal
 ;
 }
 nsresult
-nsIDocument
+Document
 :
 :
 StartDocumentLoad
@@ -15438,7 +15457,7 @@ GetReadyStateEnum
 )
 =
 =
-nsIDocument
+Document
 :
 :
 READYSTATE_UNINITIALIZED
@@ -16054,7 +16073,7 @@ if
 sameTypeParent
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -16340,7 +16359,7 @@ NS_OK
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SendToConsole
@@ -16432,7 +16451,7 @@ get
 }
 }
 void
-nsIDocument
+Document
 :
 :
 ApplySettingsFromCSP
@@ -16711,7 +16730,7 @@ rv
 }
 }
 nsresult
-nsIDocument
+Document
 :
 :
 InitCSP
@@ -17693,7 +17712,7 @@ NS_OK
 ;
 }
 nsresult
-nsIDocument
+Document
 :
 :
 InitFeaturePolicy
@@ -17987,7 +18006,7 @@ NS_OK
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 StopDocumentLoad
@@ -18013,7 +18032,7 @@ Terminate
 }
 }
 void
-nsIDocument
+Document
 :
 :
 SetDocumentURI
@@ -18416,7 +18435,7 @@ u
 }
 }
 void
-nsIDocument
+Document
 :
 :
 GetLastModified
@@ -18461,7 +18480,7 @@ static
 void
 IncrementExpandoGeneration
 (
-nsIDocument
+Document
 &
 aDoc
 )
@@ -18476,7 +18495,7 @@ generation
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 AddToNameTable
@@ -18588,7 +18607,7 @@ aElement
 }
 }
 void
-nsIDocument
+Document
 :
 :
 RemoveFromNameTable
@@ -18688,7 +18707,7 @@ this
 }
 }
 void
-nsIDocument
+Document
 :
 :
 AddToIdTable
@@ -18772,7 +18791,7 @@ aElement
 }
 }
 void
-nsIDocument
+Document
 :
 :
 RemoveFromIdTable
@@ -18908,12 +18927,8 @@ entry
 ;
 }
 }
-extern
-bool
-sDisablePrefetchHTTPSPref
-;
 void
-nsIDocument
+Document
 :
 :
 SetPrincipal
@@ -19126,7 +19141,7 @@ dom
 :
 DocGroup
 *
-nsIDocument
+Document
 :
 :
 GetDocGroup
@@ -19241,7 +19256,7 @@ mDocGroup
 ;
 }
 nsresult
-nsIDocument
+Document
 :
 :
 Dispatch
@@ -19312,7 +19327,7 @@ aRunnable
 }
 nsISerialEventTarget
 *
-nsIDocument
+Document
 :
 :
 EventTargetFor
@@ -19349,7 +19364,7 @@ aCategory
 }
 AbstractThread
 *
-nsIDocument
+Document
 :
 :
 AbstractMainThreadFor
@@ -19394,7 +19409,7 @@ aCategory
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 NoteScriptTrackingStatus
@@ -19436,7 +19451,7 @@ aURL
 }
 }
 bool
-nsIDocument
+Document
 :
 :
 IsScriptTracking
@@ -19458,7 +19473,7 @@ aURL
 ;
 }
 NS_IMETHODIMP
-nsIDocument
+Document
 :
 :
 GetApplicationCache
@@ -19482,7 +19497,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsIDocument
+Document
 :
 :
 SetApplicationCache
@@ -19501,7 +19516,7 @@ NS_OK
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 GetContentType
@@ -19521,7 +19536,7 @@ aContentType
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetContentType
@@ -19542,7 +19557,7 @@ aContentType
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 GetAllowPlugins
@@ -19660,7 +19675,7 @@ true
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 InitializeLocalization
@@ -19715,7 +19730,7 @@ l10n
 }
 DocumentL10n
 *
-nsIDocument
+Document
 :
 :
 GetL10n
@@ -19727,7 +19742,7 @@ mDocumentL10n
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 DocumentSupportsL10n
@@ -19762,7 +19777,7 @@ callerPrincipal
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 LocalizationLinkAdded
@@ -19964,7 +19979,7 @@ href
 }
 }
 void
-nsIDocument
+Document
 :
 :
 LocalizationLinkRemoved
@@ -20146,7 +20161,7 @@ collected
 *
 /
 void
-nsIDocument
+Document
 :
 :
 OnL10nResourceContainerParsed
@@ -20177,7 +20192,7 @@ Clear
 }
 }
 void
-nsIDocument
+Document
 :
 :
 TriggerInitialDocumentTranslation
@@ -20199,7 +20214,7 @@ TriggerInitialDocumentTranslation
 }
 }
 bool
-nsIDocument
+Document
 :
 :
 IsWebAnimationsEnabled
@@ -20242,7 +20257,7 @@ AnimationsAPICoreEnabled
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 IsWebAnimationsEnabled
@@ -20280,7 +20295,7 @@ AnimationsAPICoreEnabled
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 IsWebAnimationsGetAnimationsEnabled
@@ -20323,7 +20338,7 @@ dom_animations_api_getAnimations_enabled
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 AreWebAnimationsImplicitKeyframesEnabled
@@ -20366,7 +20381,7 @@ dom_animations_api_implicit_keyframes_enabled
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 AreWebAnimationsTimelinesEnabled
@@ -20410,7 +20425,7 @@ dom_animations_api_timelines_enabled
 }
 DocumentTimeline
 *
-nsIDocument
+Document
 :
 :
 Timeline
@@ -20441,7 +20456,7 @@ mDocumentTimeline
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 GetAnimations
@@ -20526,7 +20541,7 @@ aAnimations
 }
 SVGSVGElement
 *
-nsIDocument
+Document
 :
 :
 GetSVGRootElement
@@ -20604,7 +20619,7 @@ DOMWindow
 *
 /
 bool
-nsIDocument
+Document
 :
 :
 HasFocus
@@ -20703,7 +20718,7 @@ DOMWindow
 ?
 for
 (
-nsIDocument
+Document
 *
 currentDoc
 =
@@ -20751,7 +20766,7 @@ false
 ;
 }
 TimeStamp
-nsIDocument
+Document
 :
 :
 LastFocusTime
@@ -20764,7 +20779,7 @@ mLastFocusTime
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetLastFocusTime
@@ -20806,7 +20821,7 @@ aFocusTime
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 GetReferrer
@@ -20841,7 +20856,7 @@ aReferrer
 ;
 }
 nsresult
-nsIDocument
+Document
 :
 :
 GetSrcdocData
@@ -20897,7 +20912,7 @@ Nullable
 <
 WindowProxyHolder
 >
-nsIDocument
+Document
 :
 :
 GetDefaultView
@@ -20937,7 +20952,7 @@ GetBrowsingContext
 }
 Element
 *
-nsIDocument
+Document
 :
 :
 GetActiveElement
@@ -21140,7 +21155,7 @@ GetDocumentElement
 }
 Element
 *
-nsIDocument
+Document
 :
 :
 GetCurrentScript
@@ -21171,7 +21186,7 @@ el
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 ReleaseCapture
@@ -21248,7 +21263,7 @@ already_AddRefed
 <
 nsIURI
 >
-nsIDocument
+Document
 :
 :
 GetBaseURI
@@ -21295,7 +21310,7 @@ forget
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetBaseURI
@@ -21377,7 +21392,7 @@ RefreshLinkHrefs
 }
 URLExtraData
 *
-nsIDocument
+Document
 :
 :
 DefaultStyleAttrURLData
@@ -21495,7 +21510,7 @@ mCachedURLData
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetDocumentCharacterSet
@@ -21551,7 +21566,7 @@ aEncoding
 }
 }
 void
-nsIDocument
+Document
 :
 :
 GetSandboxFlagsAsString
@@ -21572,7 +21587,7 @@ aFlags
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 GetHeaderData
@@ -21593,7 +21608,7 @@ Truncate
 )
 ;
 const
-nsDocHeaderData
+DocHeaderData
 *
 data
 =
@@ -21635,7 +21650,7 @@ mNext
 }
 }
 void
-nsIDocument
+Document
 :
 :
 SetHeaderData
@@ -21694,7 +21709,7 @@ string
 mHeaderData
 =
 new
-nsDocHeaderData
+DocHeaderData
 (
 aHeaderField
 aData
@@ -21704,13 +21719,13 @@ aData
 }
 else
 {
-nsDocHeaderData
+DocHeaderData
 *
 data
 =
 mHeaderData
 ;
-nsDocHeaderData
+DocHeaderData
 *
 *
 lastPtr
@@ -21846,7 +21861,7 @@ append
 lastPtr
 =
 new
-nsDocHeaderData
+DocHeaderData
 (
 aHeaderField
 aData
@@ -22367,7 +22382,7 @@ true
 }
 }
 void
-nsIDocument
+Document
 :
 :
 TryChannelCharset
@@ -22665,7 +22680,7 @@ already_AddRefed
 <
 nsIPresShell
 >
-nsIDocument
+Document
 :
 :
 CreateShell
@@ -22951,7 +22966,7 @@ forget
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 UpdateFrameRequestCallbackSchedulingState
@@ -23089,7 +23104,7 @@ shouldBeScheduled
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 TakeFrameRequestCallbacks
@@ -23148,7 +23163,7 @@ false
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 ShouldThrottleFrameRequests
@@ -23424,7 +23439,7 @@ false
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 DeleteShell
@@ -23615,7 +23630,7 @@ this
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetBFCacheEntry
@@ -23816,7 +23831,7 @@ nullptr
 ;
 }
 nsresult
-nsIDocument
+Document
 :
 :
 SetSubDocumentFor
@@ -23824,7 +23839,7 @@ SetSubDocumentFor
 Element
 *
 aElement
-nsIDocument
+Document
 *
 aSubDoc
 )
@@ -23854,7 +23869,7 @@ if
 mSubDocuments
 )
 {
-nsIDocument
+Document
 *
 subDoc
 =
@@ -24153,9 +24168,9 @@ return
 NS_OK
 ;
 }
-nsIDocument
+Document
 *
-nsIDocument
+Document
 :
 :
 GetSubDocumentFor
@@ -24221,12 +24236,12 @@ nullptr
 }
 Element
 *
-nsIDocument
+Document
 :
 :
 FindContentForSubDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -24314,7 +24329,7 @@ nullptr
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 IsNodeOfType
@@ -24330,7 +24345,7 @@ false
 }
 Element
 *
-nsIDocument
+Document
 :
 :
 GetRootElement
@@ -24363,7 +24378,7 @@ GetRootElementInternal
 }
 nsIContent
 *
-nsIDocument
+Document
 :
 :
 GetUnfocusedKeyEventTarget
@@ -24378,7 +24393,7 @@ GetRootElement
 }
 Element
 *
-nsIDocument
+Document
 :
 :
 GetRootElementInternal
@@ -24482,7 +24497,7 @@ child
 {
 const_cast
 <
-nsIDocument
+Document
 *
 >
 (
@@ -24501,7 +24516,7 @@ element
 }
 const_cast
 <
-nsIDocument
+Document
 *
 >
 (
@@ -24518,7 +24533,7 @@ nullptr
 ;
 }
 nsresult
-nsIDocument
+Document
 :
 :
 InsertChildBefore
@@ -24579,7 +24594,7 @@ aNotify
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 RemoveChildNode
@@ -24782,7 +24797,7 @@ early
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 AddStyleSheetToStyleSets
@@ -24955,7 +24970,7 @@ while
 )
 ;
 void
-nsIDocument
+Document
 :
 :
 NotifyStyleSheetAdded
@@ -24987,7 +25002,7 @@ aDocumentSheet
 }
 }
 void
-nsIDocument
+Document
 :
 :
 NotifyStyleSheetRemoved
@@ -25019,7 +25034,7 @@ aDocumentSheet
 }
 }
 void
-nsIDocument
+Document
 :
 :
 RemoveStyleSheetFromStyleSets
@@ -25063,7 +25078,7 @@ ApplicableStylesChanged
 }
 }
 void
-nsIDocument
+Document
 :
 :
 RemoveStyleSheet
@@ -25150,7 +25165,7 @@ ClearAssociatedDocumentOrShadowRoot
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 UpdateStyleSheets
@@ -25369,7 +25384,7 @@ true
 }
 }
 void
-nsIDocument
+Document
 :
 :
 InsertSheetAt
@@ -25415,7 +25430,7 @@ true
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetStyleSheetApplicableState
@@ -25524,14 +25539,14 @@ notification
 NewRunnableMethod
 (
 "
-nsIDocument
+Document
 :
 :
 NotifyStyleSheetApplicableStateChanged
 "
 this
 &
-nsIDocument
+Document
 :
 :
 NotifyStyleSheetApplicableStateChanged
@@ -25558,7 +25573,7 @@ forget
 }
 }
 void
-nsIDocument
+Document
 :
 :
 NotifyStyleSheetApplicableStateChanged
@@ -25619,7 +25634,7 @@ static
 SheetType
 ConvertAdditionalSheetType
 (
-nsIDocument
+Document
 :
 :
 additionalSheetType
@@ -25632,7 +25647,7 @@ aType
 )
 {
 case
-nsIDocument
+Document
 :
 :
 eAgentSheet
@@ -25644,7 +25659,7 @@ SheetType
 Agent
 ;
 case
-nsIDocument
+Document
 :
 :
 eUserSheet
@@ -25656,7 +25671,7 @@ SheetType
 User
 ;
 case
-nsIDocument
+Document
 :
 :
 eAuthorSheet
@@ -25787,7 +25802,7 @@ return
 ;
 }
 nsresult
-nsIDocument
+Document
 :
 :
 LoadAdditionalStyleSheet
@@ -25875,7 +25890,7 @@ aType
 )
 {
 case
-nsIDocument
+Document
 :
 :
 eAgentSheet
@@ -25890,7 +25905,7 @@ eAgentSheetFeatures
 break
 ;
 case
-nsIDocument
+Document
 :
 :
 eUserSheet
@@ -25905,7 +25920,7 @@ eUserSheetFeatures
 break
 ;
 case
-nsIDocument
+Document
 :
 :
 eAuthorSheet
@@ -25990,7 +26005,7 @@ sheet
 ;
 }
 nsresult
-nsIDocument
+Document
 :
 :
 AddAdditionalStyleSheet
@@ -26113,7 +26128,7 @@ NS_OK
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 RemoveAdditionalStyleSheet
@@ -26279,7 +26294,7 @@ ClearAssociatedDocumentOrShadowRoot
 }
 nsIGlobalObject
 *
-nsIDocument
+Document
 :
 :
 GetScopeObject
@@ -26304,7 +26319,7 @@ scope
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetScopeObject
@@ -26574,7 +26589,7 @@ true
 }
 }
 bool
-nsIDocument
+Document
 :
 :
 ContainsEMEContent
@@ -26682,7 +26697,7 @@ true
 }
 }
 bool
-nsIDocument
+Document
 :
 :
 ContainsMSEContent
@@ -26827,7 +26842,7 @@ NotifyOwnerDocumentActivityChanged
 }
 }
 bool
-nsIDocument
+Document
 :
 :
 IsTopLevelWindowInactive
@@ -26909,7 +26924,7 @@ IsActive
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetContainer
@@ -27087,7 +27102,7 @@ AncestorOuterWindowIDs
 }
 nsISupports
 *
-nsIDocument
+Document
 :
 :
 GetContainer
@@ -27107,7 +27122,7 @@ mDocumentContainer
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetScriptGlobalObject
@@ -27974,7 +27989,7 @@ are
 already
 done
 before
-nsIDocument
+Document
 :
 :
 SetScriptGlobalObject
@@ -28007,7 +28022,7 @@ is
 created
 /
 /
-nsIDocument
+Document
 :
 :
 SetScriptGlobalObject
@@ -28041,7 +28056,7 @@ necessary
 But
 soon
 after
-nsIDocument
+Document
 :
 :
 SetScriptGlobalObject
@@ -28190,7 +28205,7 @@ true
 }
 nsIScriptGlobalObject
 *
-nsIDocument
+Document
 :
 :
 GetScriptHandlingObjectInternal
@@ -28302,7 +28317,7 @@ scriptHandlingObject
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetScriptHandlingObject
@@ -28348,7 +28363,7 @@ false
 }
 nsPIDOMWindowOuter
 *
-nsIDocument
+Document
 :
 :
 GetWindowInternal
@@ -28501,7 +28516,7 @@ win
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 InternalAllowXULXBL
@@ -28568,7 +28583,7 @@ the
 document
 .
 void
-nsIDocument
+Document
 :
 :
 AddObserver
@@ -28618,7 +28633,7 @@ aObserver
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 RemoveObserver
@@ -28718,7 +28733,7 @@ aObserver
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 MaybeEndOutermostXBLUpdate
@@ -28808,14 +28823,14 @@ mMaybeEndOutermostXBLUpdateRunner
 NewRunnableMethod
 (
 "
-nsIDocument
+Document
 :
 :
 MaybeEndOutermostXBLUpdate
 "
 this
 &
-nsIDocument
+Document
 :
 :
 MaybeEndOutermostXBLUpdate
@@ -28834,7 +28849,7 @@ mMaybeEndOutermostXBLUpdateRunner
 }
 }
 void
-nsIDocument
+Document
 :
 :
 BeginUpdate
@@ -28998,7 +29013,7 @@ this
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 EndUpdate
@@ -29071,7 +29086,7 @@ MaybeBroadcast
 }
 }
 void
-nsIDocument
+Document
 :
 :
 BeginLoad
@@ -29148,7 +29163,7 @@ this
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 MozSetImageElement
@@ -29240,7 +29255,7 @@ entry
 }
 }
 void
-nsIDocument
+Document
 :
 :
 DispatchContentLoadedEvents
@@ -29317,7 +29332,7 @@ mTiming
 >
 NotifyDOMContentLoadedStart
 (
-nsIDocument
+Document
 :
 :
 GetDocumentURI
@@ -29598,7 +29613,7 @@ mTiming
 >
 NotifyDOMContentLoadedEnd
 (
-nsIDocument
+Document
 :
 :
 GetDocumentURI
@@ -29722,7 +29737,7 @@ target_frame
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 parent
 =
@@ -30738,7 +30753,7 @@ src
 #
 endif
 void
-nsIDocument
+Document
 :
 :
 EndLoad
@@ -31037,7 +31052,7 @@ UnblockDOMContentLoaded
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 UnblockDOMContentLoaded
@@ -31141,14 +31156,14 @@ ev
 NewRunnableMethod
 (
 "
-nsIDocument
+Document
 :
 :
 DispatchContentLoadedEvents
 "
 this
 &
-nsIDocument
+Document
 :
 :
 DispatchContentLoadedEvents
@@ -31177,7 +31192,7 @@ DispatchContentLoadedEvents
 }
 }
 void
-nsIDocument
+Document
 :
 :
 ContentStateChanged
@@ -31218,7 +31233,7 @@ aStateMask
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 DocumentStatesChanged
@@ -31243,7 +31258,7 @@ aStateMask
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 StyleRuleChanged
@@ -31301,7 +31316,7 @@ aStyleRule
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 StyleRuleAdded
@@ -31359,7 +31374,7 @@ aStyleRule
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 StyleRuleRemoved
@@ -31537,7 +31552,7 @@ already_AddRefed
 <
 AnonymousContent
 >
-nsIDocument
+Document
 :
 :
 InsertAnonymousContent
@@ -31687,7 +31702,7 @@ IgnoreErrors
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 RemoveAnonymousContent
@@ -31777,7 +31792,7 @@ HideCustomContentContainer
 }
 Element
 *
-nsIDocument
+Document
 :
 :
 GetAnonRootIfInAnonymousContentContainer
@@ -31980,7 +31995,7 @@ Maybe
 <
 ClientInfo
 >
-nsIDocument
+Document
 :
 :
 GetClientInfo
@@ -32023,7 +32038,7 @@ Maybe
 <
 ClientState
 >
-nsIDocument
+Document
 :
 :
 GetClientState
@@ -32066,7 +32081,7 @@ Maybe
 <
 ServiceWorkerDescriptor
 >
-nsIDocument
+Document
 :
 :
 GetController
@@ -32109,13 +32124,13 @@ ServiceWorkerDescriptor
 /
 /
 /
-nsIDocument
+Document
 interface
 /
 /
 DocumentType
 *
-nsIDocument
+Document
 :
 :
 GetDoctype
@@ -32176,7 +32191,7 @@ nullptr
 }
 DOMImplementation
 *
-nsIDocument
+Document
 :
 :
 GetImplementation
@@ -32486,7 +32501,7 @@ already_AddRefed
 <
 Element
 >
-nsIDocument
+Document
 :
 :
 CreateElement
@@ -32756,7 +32771,7 @@ already_AddRefed
 <
 Element
 >
-nsIDocument
+Document
 :
 :
 CreateElementNS
@@ -32919,7 +32934,7 @@ already_AddRefed
 <
 Element
 >
-nsIDocument
+Document
 :
 :
 CreateXULElement
@@ -33055,7 +33070,7 @@ already_AddRefed
 <
 nsTextNode
 >
-nsIDocument
+Document
 :
 :
 CreateEmptyTextNode
@@ -33087,7 +33102,7 @@ already_AddRefed
 <
 nsTextNode
 >
-nsIDocument
+Document
 :
 :
 CreateTextNode
@@ -33146,7 +33161,7 @@ already_AddRefed
 <
 DocumentFragment
 >
-nsIDocument
+Document
 :
 :
 CreateDocumentFragment
@@ -33196,7 +33211,7 @@ dom
 :
 Comment
 >
-nsIDocument
+Document
 :
 :
 CreateComment
@@ -33261,7 +33276,7 @@ already_AddRefed
 <
 CDATASection
 >
-nsIDocument
+Document
 :
 :
 CreateCDATASection
@@ -33367,7 +33382,7 @@ already_AddRefed
 <
 ProcessingInstruction
 >
-nsIDocument
+Document
 :
 :
 CreateProcessingInstruction
@@ -33468,7 +33483,7 @@ already_AddRefed
 <
 Attr
 >
-nsIDocument
+Document
 :
 :
 CreateAttribute
@@ -33637,7 +33652,7 @@ already_AddRefed
 <
 Attr
 >
-nsIDocument
+Document
 :
 :
 CreateAttributeNS
@@ -33726,7 +33741,7 @@ forget
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 ResolveScheduledSVGPresAttrs
@@ -33792,7 +33807,7 @@ already_AddRefed
 <
 nsSimpleContentList
 >
-nsIDocument
+Document
 :
 :
 BlockedTrackingNodes
@@ -33925,7 +33940,7 @@ forget
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 GetSelectedStyleSheetSet
@@ -34092,7 +34107,7 @@ return
 }
 }
 void
-nsIDocument
+Document
 :
 :
 SetSelectedStyleSheetSet
@@ -34142,7 +34157,7 @@ true
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetPreferredStyleSheetSet
@@ -34258,7 +34273,7 @@ true
 }
 DOMStringList
 *
-nsIDocument
+Document
 :
 :
 StyleSheetSets
@@ -34274,7 +34289,7 @@ mStyleSheetSetList
 mStyleSheetSetList
 =
 new
-nsDOMStyleSheetSetList
+DOMStyleSheetSetList
 (
 this
 )
@@ -34285,7 +34300,7 @@ mStyleSheetSetList
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 EnableStyleSheetsForSet
@@ -34385,7 +34400,7 @@ false
 }
 }
 void
-nsIDocument
+Document
 :
 :
 EnableStyleSheetsForSetInternal
@@ -34531,7 +34546,7 @@ ApplicableStylesChanged
 }
 }
 void
-nsIDocument
+Document
 :
 :
 GetCharacterSet
@@ -34566,7 +34581,7 @@ already_AddRefed
 <
 nsINode
 >
-nsIDocument
+Document
 :
 :
 ImportNode
@@ -34680,7 +34695,7 @@ nullptr
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 LoadBindingDocument
@@ -34746,7 +34761,7 @@ aSubjectPrincipal
 }
 Element
 *
-nsIDocument
+Document
 :
 :
 GetBindingParent
@@ -34919,7 +34934,7 @@ nullptr
 }
 Element
 *
-nsIDocument
+Document
 :
 :
 GetAnonymousElementByAttribute
@@ -35050,7 +35065,7 @@ nullptr
 }
 Element
 *
-nsIDocument
+Document
 :
 :
 GetAnonymousElementByAttribute
@@ -35091,7 +35106,7 @@ aAttrValue
 }
 nsINodeList
 *
-nsIDocument
+Document
 :
 :
 GetAnonymousNodes
@@ -35118,7 +35133,7 @@ already_AddRefed
 <
 nsRange
 >
-nsIDocument
+Document
 :
 :
 CreateRange
@@ -35183,7 +35198,7 @@ already_AddRefed
 <
 NodeIterator
 >
-nsIDocument
+Document
 :
 :
 CreateNodeIterator
@@ -35229,7 +35244,7 @@ already_AddRefed
 <
 TreeWalker
 >
-nsIDocument
+Document
 :
 :
 CreateTreeWalker
@@ -35275,7 +35290,7 @@ already_AddRefed
 <
 Location
 >
-nsIDocument
+Document
 :
 :
 GetLocation
@@ -35318,7 +35333,7 @@ Location
 }
 Element
 *
-nsIDocument
+Document
 :
 :
 GetHtmlElement
@@ -35359,7 +35374,7 @@ nullptr
 }
 Element
 *
-nsIDocument
+Document
 :
 :
 GetHtmlChildElement
@@ -35460,7 +35475,7 @@ nullptr
 }
 nsGenericHTMLElement
 *
-nsIDocument
+Document
 :
 :
 GetBody
@@ -35553,7 +35568,7 @@ nullptr
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetBody
@@ -35706,7 +35721,7 @@ rv
 }
 HTMLSharedElement
 *
-nsIDocument
+Document
 :
 :
 GetHead
@@ -35728,7 +35743,7 @@ GetHeadElement
 }
 Element
 *
-nsIDocument
+Document
 :
 :
 GetTitleElement
@@ -36020,7 +36035,7 @@ nullptr
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 GetTitle
@@ -36127,7 +36142,7 @@ tmp
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetTitle
@@ -36464,7 +36479,7 @@ false
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 NotifyPossibleTitleChange
@@ -36534,7 +36549,7 @@ RefPtr
 <
 nsRunnableMethod
 <
-nsIDocument
+Document
 void
 false
 >
@@ -36544,14 +36559,14 @@ event
 NewNonOwningRunnableMethod
 (
 "
-nsIDocument
+Document
 :
 :
 DoNotifyPossibleTitleChange
 "
 this
 &
-nsIDocument
+Document
 :
 :
 DoNotifyPossibleTitleChange
@@ -36593,7 +36608,7 @@ event
 }
 }
 void
-nsIDocument
+Document
 :
 :
 DoNotifyPossibleTitleChange
@@ -36725,7 +36740,7 @@ already_AddRefed
 <
 BoxObject
 >
-nsIDocument
+Document
 :
 :
 GetBoxObjectFor
@@ -36755,7 +36770,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -37001,7 +37016,7 @@ forget
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 ClearBoxObjectFor
@@ -37060,7 +37075,7 @@ already_AddRefed
 <
 MediaQueryList
 >
-nsIDocument
+Document
 :
 :
 MatchMedia
@@ -37103,7 +37118,7 @@ forget
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 FlushSkinBindings
@@ -37121,7 +37136,7 @@ FlushSkinBindings
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetMayStartLayout
@@ -37241,7 +37256,7 @@ MaybeResolveReadyForIdle
 }
 }
 nsresult
-nsIDocument
+Document
 :
 :
 InitializeFrameLoader
@@ -37314,14 +37329,14 @@ mFrameLoaderRunner
 NewRunnableMethod
 (
 "
-nsIDocument
+Document
 :
 :
 MaybeInitializeFinalizeFrameLoaders
 "
 this
 &
-nsIDocument
+Document
 :
 :
 MaybeInitializeFinalizeFrameLoaders
@@ -37347,7 +37362,7 @@ NS_OK
 ;
 }
 nsresult
-nsIDocument
+Document
 :
 :
 FinalizeFrameLoader
@@ -37394,14 +37409,14 @@ mFrameLoaderRunner
 NewRunnableMethod
 (
 "
-nsIDocument
+Document
 :
 :
 MaybeInitializeFinalizeFrameLoaders
 "
 this
 &
-nsIDocument
+Document
 :
 :
 MaybeInitializeFinalizeFrameLoaders
@@ -37427,7 +37442,7 @@ NS_OK
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 MaybeInitializeFinalizeFrameLoaders
@@ -37539,14 +37554,14 @@ mFrameLoaderRunner
 NewRunnableMethod
 (
 "
-nsIDocument
+Document
 :
 :
 MaybeInitializeFinalizeFrameLoaders
 "
 this
 &
-nsIDocument
+Document
 :
 :
 MaybeInitializeFinalizeFrameLoaders
@@ -37722,7 +37737,7 @@ Run
 }
 }
 void
-nsIDocument
+Document
 :
 :
 TryCancelFrameLoaderInitialization
@@ -37785,9 +37800,9 @@ return
 }
 }
 }
-nsIDocument
+Document
 *
-nsIDocument
+Document
 :
 :
 RequestExternalResource
@@ -37865,12 +37880,12 @@ aPendingLoad
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 EnumerateExternalResources
 (
-nsSubDocEnumFunc
+SubDocEnumFunc
 aCallback
 void
 *
@@ -37888,7 +37903,7 @@ aData
 }
 SMILAnimationController
 *
-nsIDocument
+Document
 :
 :
 GetAnimationController
@@ -38096,7 +38111,7 @@ mAnimationController
 }
 PendingAnimationTracker
 *
-nsIDocument
+Document
 :
 :
 GetOrCreatePendingAnimationTracker
@@ -38147,7 +38162,7 @@ lina
 *
 /
 void
-nsIDocument
+Document
 :
 :
 GetDir
@@ -38219,7 +38234,7 @@ lina
 *
 /
 void
-nsIDocument
+Document
 :
 :
 SetDir
@@ -38261,7 +38276,7 @@ true
 }
 nsIHTMLCollection
 *
-nsIDocument
+Document
 :
 :
 Images
@@ -38298,7 +38313,7 @@ mImages
 }
 nsIHTMLCollection
 *
-nsIDocument
+Document
 :
 :
 Embeds
@@ -38382,7 +38397,7 @@ href
 }
 nsIHTMLCollection
 *
-nsIDocument
+Document
 :
 :
 Links
@@ -38413,7 +38428,7 @@ mLinks
 }
 nsIHTMLCollection
 *
-nsIDocument
+Document
 :
 :
 Forms
@@ -38463,7 +38478,7 @@ mForms
 }
 nsIHTMLCollection
 *
-nsIDocument
+Document
 :
 :
 Scripts
@@ -38500,7 +38515,7 @@ mScripts
 }
 nsIHTMLCollection
 *
-nsIDocument
+Document
 :
 :
 Applets
@@ -38571,7 +38586,7 @@ name
 }
 nsIHTMLCollection
 *
-nsIDocument
+Document
 :
 :
 Anchors
@@ -38606,7 +38621,7 @@ static
 *
 /
 bool
-nsIDocument
+Document
 :
 :
 MatchNameAttribute
@@ -38701,7 +38716,7 @@ static
 /
 void
 *
-nsIDocument
+Document
 :
 :
 UseExistingNameString
@@ -38727,7 +38742,7 @@ aName
 ;
 }
 nsresult
-nsIDocument
+Document
 :
 :
 GetDocumentURI
@@ -38789,7 +38804,7 @@ Alias
 of
 above
 nsresult
-nsIDocument
+Document
 :
 :
 GetURL
@@ -38808,7 +38823,7 @@ aURL
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 GetDocumentURIFromJS
@@ -38890,7 +38905,7 @@ aDocumentURI
 }
 nsIURI
 *
-nsIDocument
+Document
 :
 :
 GetDocumentURIObject
@@ -38915,7 +38930,7 @@ mChromeXHRDocURI
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 GetCompatMode
@@ -38988,6 +39003,16 @@ CSS1Compat
 ;
 }
 }
+}
+/
+/
+namespace
+dom
+}
+/
+/
+namespace
+mozilla
 void
 nsDOMAttributeMap
 :
@@ -39246,9 +39271,15 @@ false
 ;
 }
 }
+namespace
+mozilla
+{
+namespace
+dom
+{
 nsINode
 *
-nsIDocument
+Document
 :
 :
 AdoptNode
@@ -39568,7 +39599,7 @@ its
 /
 descendants
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -39830,7 +39861,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 oldDocument
 =
@@ -40252,7 +40283,7 @@ adoptedNode
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 ParseWidthAndHeightInMetaViewport
@@ -40744,7 +40775,7 @@ Auto
 }
 }
 nsViewportInfo
-nsIDocument
+Document
 :
 :
 GetViewportInfo
@@ -43190,7 +43221,7 @@ effectiveZoomFlag
 }
 }
 void
-nsIDocument
+Document
 :
 :
 UpdateViewportOverflowType
@@ -43487,7 +43518,7 @@ MinScaleSize
 }
 EventListenerManager
 *
-nsIDocument
+Document
 :
 :
 GetOrCreateListenerManager
@@ -43527,7 +43558,7 @@ mListenerManager
 }
 EventListenerManager
 *
-nsIDocument
+Document
 :
 :
 GetExistingListenerManager
@@ -43540,7 +43571,7 @@ mListenerManager
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 GetEventTargetParent
@@ -43678,7 +43709,7 @@ already_AddRefed
 <
 Event
 >
-nsIDocument
+Document
 :
 :
 CreateEvent
@@ -43724,7 +43755,7 @@ CreateEvent
 (
 const_cast
 <
-nsIDocument
+Document
 *
 >
 (
@@ -43791,7 +43822,7 @@ forget
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 FlushPendingNotifications
@@ -43830,7 +43861,7 @@ public
 explicit
 nsDocumentOnStack
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -43863,14 +43894,14 @@ DecreaseStackRefCnt
 }
 private
 :
-nsIDocument
+Document
 *
 mDoc
 ;
 }
 ;
 void
-nsIDocument
+Document
 :
 :
 FlushPendingNotifications
@@ -44357,7 +44388,7 @@ static
 bool
 Copy
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -44375,7 +44406,7 @@ nsTArray
 <
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 >
 *
@@ -44397,7 +44428,7 @@ true
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 FlushExternalResources
@@ -44445,7 +44476,7 @@ nsTArray
 <
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 >
 resources
@@ -44491,7 +44522,7 @@ aType
 }
 }
 void
-nsIDocument
+Document
 :
 :
 SetXMLDeclaration
@@ -44590,7 +44621,7 @@ XML_DECLARATION_BITS_STANDALONE_EXISTS
 }
 }
 void
-nsIDocument
+Document
 :
 :
 GetXMLDeclaration
@@ -44730,7 +44761,7 @@ no
 }
 }
 bool
-nsIDocument
+Document
 :
 :
 IsScriptEnabled
@@ -44822,7 +44853,7 @@ Allowed
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 RetrieveRelevantHeaders
@@ -45274,7 +45305,7 @@ already_AddRefed
 <
 Element
 >
-nsIDocument
+Document
 :
 :
 CreateElem
@@ -45353,7 +45384,7 @@ XML
 and
 /
 /
-nsIDocument
+Document
 :
 :
 CreateElement
@@ -45418,7 +45449,7 @@ pass
 invalid
 prefixes
 to
-nsIDocument
+Document
 :
 :
 CreateElem
@@ -45505,7 +45536,7 @@ nullptr
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 IsSafeToFlush
@@ -45539,7 +45570,7 @@ IsSafeToFlush
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 Sanitize
@@ -45908,12 +45939,12 @@ Reset
 }
 }
 void
-nsIDocument
+Document
 :
 :
 EnumerateSubDocuments
 (
-nsSubDocEnumFunc
+SubDocEnumFunc
 aCallback
 void
 *
@@ -45962,7 +45993,7 @@ AutoTArray
 <
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 8
 >
@@ -46010,7 +46041,7 @@ Get
 )
 )
 ;
-nsIDocument
+Document
 *
 subdoc
 =
@@ -46057,16 +46088,16 @@ break
 }
 }
 void
-nsIDocument
+Document
 :
 :
 CollectDescendantDocuments
 (
 nsTArray
 <
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 >
 &
@@ -46128,7 +46159,7 @@ Get
 )
 ;
 const
-nsIDocument
+Document
 *
 subdoc
 =
@@ -46182,7 +46213,7 @@ DEBUG_PAGE_CACHE
 #
 endif
 bool
-nsIDocument
+Document
 :
 :
 CanSavePresentation
@@ -46873,7 +46904,7 @@ Get
 )
 )
 ;
-nsIDocument
+Document
 *
 subdoc
 =
@@ -46984,7 +47015,7 @@ true
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 Destroy
@@ -47187,7 +47218,7 @@ Shutdown
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 RemovedFromDocShell
@@ -47245,7 +47276,7 @@ already_AddRefed
 <
 nsILayoutHistoryState
 >
-nsIDocument
+Document
 :
 :
 GetLayoutHistoryState
@@ -47308,7 +47339,7 @@ forget
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 EnsureOnloadBlocker
@@ -47485,7 +47516,7 @@ nullptr
 }
 }
 void
-nsIDocument
+Document
 :
 :
 AsyncBlockOnload
@@ -47508,7 +47539,7 @@ BlockOnload
 }
 }
 void
-nsIDocument
+Document
 :
 :
 BlockOnload
@@ -47620,14 +47651,14 @@ AddScriptRunner
 NewRunnableMethod
 (
 "
-nsIDocument
+Document
 :
 :
 AsyncBlockOnload
 "
 this
 &
-nsIDocument
+Document
 :
 :
 AsyncBlockOnload
@@ -47670,7 +47701,7 @@ mOnloadBlockCount
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 UnblockOnload
@@ -47954,7 +47985,7 @@ public
 explicit
 nsUnblockOnloadEvent
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -47995,14 +48026,14 @@ private
 :
 RefPtr
 <
-nsIDocument
+Document
 >
 mDoc
 ;
 }
 ;
 void
-nsIDocument
+Document
 :
 :
 PostUnblockOnloadEvent
@@ -48090,7 +48121,7 @@ nsUnblockOnloadEvent
 }
 }
 void
-nsIDocument
+Document
 :
 :
 DoUnblockOnload
@@ -48271,7 +48302,7 @@ NS_OK
 }
 nsIContent
 *
-nsIDocument
+Document
 :
 :
 GetContentInThisDocument
@@ -48403,7 +48434,7 @@ nullptr
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 DispatchPageTransition
@@ -48544,7 +48575,7 @@ static
 bool
 NotifyPageShow
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -48582,7 +48613,7 @@ true
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 OnPageShow
@@ -48714,7 +48745,7 @@ LinkAdded
 /
 /
 See
-nsIDocument
+Document
 if
 (
 !
@@ -48903,7 +48934,7 @@ static
 bool
 NotifyPageHide
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -48944,7 +48975,7 @@ static
 void
 DispatchFullscreenChange
 (
-nsIDocument
+Document
 *
 aDocument
 nsINode
@@ -49007,7 +49038,7 @@ static
 void
 ClearPendingFullscreenRequests
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -49075,7 +49106,7 @@ isHttpish
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 OnPageHide
@@ -49300,7 +49331,7 @@ LinkRemoved
 /
 /
 See
-nsIDocument
+Document
 if
 (
 !
@@ -49688,7 +49719,7 @@ the
 root
 (
 in
-nsIDocument
+Document
 :
 :
 mFullscreenRoot
@@ -49709,7 +49740,7 @@ get
 the
 root
 .
-nsIDocument
+Document
 :
 :
 ExitFullscreenInDocTree
@@ -49772,7 +49803,7 @@ CleanupFullscreenState
 (
 )
 clears
-nsIDocument
+Document
 :
 :
 mFullscreenRoot
@@ -49876,7 +49907,7 @@ here
 }
 }
 void
-nsIDocument
+Document
 :
 :
 WillDispatchMutationEvent
@@ -49980,7 +50011,7 @@ aTarget
 }
 }
 void
-nsIDocument
+Document
 :
 :
 MutationEventDispatched
@@ -50246,7 +50277,7 @@ RunDOMEventWhenSafe
 }
 }
 void
-nsIDocument
+Document
 :
 :
 DestroyElementMaps
@@ -50294,7 +50325,7 @@ this
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 RefreshLinkHrefs
@@ -50450,12 +50481,12 @@ ElementHasHref
 }
 }
 nsresult
-nsIDocument
+Document
 :
 :
 CloneDocHelper
 (
-nsIDocument
+Document
 *
 clone
 )
@@ -50589,7 +50620,7 @@ else
 {
 uri
 =
-nsIDocument
+Document
 :
 :
 GetDocumentURI
@@ -50718,7 +50749,7 @@ clone
 >
 SetDocumentURI
 (
-nsIDocument
+Document
 :
 :
 GetDocumentURI
@@ -50921,7 +50952,7 @@ state
 /
 State
 from
-nsIDocument
+Document
 clone
 -
 >
@@ -50978,7 +51009,7 @@ mSecurityInfo
 /
 State
 from
-nsIDocument
+Document
 clone
 -
 >
@@ -51005,7 +51036,7 @@ NS_OK
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetReadyStateInternal
@@ -51079,7 +51110,7 @@ mTiming
 >
 NotifyDOMLoading
 (
-nsIDocument
+Document
 :
 :
 GetDocumentURI
@@ -51097,7 +51128,7 @@ mTiming
 >
 NotifyDOMInteractive
 (
-nsIDocument
+Document
 :
 :
 GetDocumentURI
@@ -51115,7 +51146,7 @@ mTiming
 >
 NotifyDOMComplete
 (
-nsIDocument
+Document
 :
 :
 GetDocumentURI
@@ -51288,7 +51319,7 @@ RunDOMEventWhenSafe
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 GetReadyState
@@ -51367,7 +51398,7 @@ static
 bool
 SuppressEventHandlingInDocument
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -51396,7 +51427,7 @@ true
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SuppressEventHandling
@@ -51456,7 +51487,7 @@ nsTArray
 <
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 >
 &
@@ -51628,7 +51659,7 @@ fire
 }
 }
 void
-nsIDocument
+Document
 :
 :
 PreloadPictureClosed
@@ -51664,7 +51695,7 @@ true
 }
 }
 void
-nsIDocument
+Document
 :
 :
 PreloadPictureImageSource
@@ -51826,7 +51857,7 @@ already_AddRefed
 <
 nsIURI
 >
-nsIDocument
+Document
 :
 :
 ResolvePreloadImage
@@ -52103,7 +52134,7 @@ forget
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 MaybePreLoadImage
@@ -52340,7 +52371,7 @@ forget
 }
 }
 void
-nsIDocument
+Document
 :
 :
 MaybePreconnect
@@ -52628,7 +52659,7 @@ nullptr
 }
 }
 void
-nsIDocument
+Document
 :
 :
 ForgetImagePreload
@@ -52720,7 +52751,7 @@ NS_BINDING_ABORTED
 }
 }
 void
-nsIDocument
+Document
 :
 :
 UpdateDocumentStates
@@ -52868,7 +52899,7 @@ nsICSSLoaderObserver
 /
 namespace
 void
-nsIDocument
+Document
 :
 :
 PreloadStyle
@@ -52958,7 +52989,7 @@ aIntegrity
 ;
 }
 nsresult
-nsIDocument
+Document
 :
 :
 LoadChromeSheetSync
@@ -53027,7 +53058,7 @@ nsTArray
 <
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 >
 &
@@ -53081,7 +53112,7 @@ nsTArray
 <
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 >
 mDocuments
@@ -53092,7 +53123,7 @@ static
 bool
 GetAndUnsuppressSubDocuments
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -53142,7 +53173,7 @@ nsTArray
 <
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 >
 *
@@ -53173,7 +53204,7 @@ true
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 UnsuppressEventHandlingAndFireEvents
@@ -53186,7 +53217,7 @@ nsTArray
 <
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 >
 documents
@@ -53383,7 +53414,7 @@ RunDelayedEventsSoon
 }
 }
 void
-nsIDocument
+Document
 :
 :
 AddSuspendedChannelEventQueue
@@ -53420,7 +53451,7 @@ aQueue
 }
 nsISupports
 *
-nsIDocument
+Document
 :
 :
 GetCurrentContentSink
@@ -53440,9 +53471,9 @@ GetContentSink
 nullptr
 ;
 }
-nsIDocument
+Document
 *
-nsIDocument
+Document
 :
 :
 GetTemplateContentsOwner
@@ -53471,7 +53502,7 @@ hasHadScriptObject
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 ;
@@ -53500,13 +53531,13 @@ nullptr
 /
 /
 aDoctype
-nsIDocument
+Document
 :
 :
 GetDocumentURI
 (
 )
-nsIDocument
+Document
 :
 :
 GetDocBaseURI
@@ -53618,7 +53649,7 @@ Element
 element
 )
 {
-nsIDocument
+Document
 *
 document
 =
@@ -53903,7 +53934,7 @@ mTopWindow
 }
 ;
 void
-nsIDocument
+Document
 :
 :
 SetAutoFocusElement
@@ -53970,7 +54001,7 @@ TriggerAutoFocus
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 TriggerAutoFocus
@@ -54100,7 +54131,7 @@ load
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 topDoc
 =
@@ -54124,7 +54155,7 @@ GetReadyStateEnum
 )
 =
 =
-nsIDocument
+Document
 :
 :
 READYSTATE_COMPLETE
@@ -54174,7 +54205,7 @@ rv
 }
 }
 void
-nsIDocument
+Document
 :
 :
 SetScrollToRef
@@ -54347,7 +54378,7 @@ end
 }
 }
 void
-nsIDocument
+Document
 :
 :
 ScrollToRef
@@ -54699,7 +54730,7 @@ true
 }
 }
 void
-nsIDocument
+Document
 :
 :
 RegisterActivityObserver
@@ -54739,7 +54770,7 @@ aSupports
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 UnregisterActivityObserver
@@ -54797,7 +54828,7 @@ true
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 EnumerateActivityObservers
@@ -54860,7 +54891,7 @@ aData
 }
 }
 void
-nsIDocument
+Document
 :
 :
 RegisterPendingLinkUpdate
@@ -54909,14 +54940,14 @@ event
 NewRunnableMethod
 (
 "
-nsIDocument
+Document
 :
 :
 FlushPendingLinkUpdatesFromRunnable
 "
 this
 &
-nsIDocument
+Document
 :
 :
 FlushPendingLinkUpdatesFromRunnable
@@ -54998,7 +55029,7 @@ aLink
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 FlushPendingLinkUpdatesFromRunnable
@@ -55020,7 +55051,7 @@ FlushPendingLinkUpdates
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 FlushPendingLinkUpdates
@@ -55173,9 +55204,9 @@ LinkState
 }
 already_AddRefed
 <
-nsIDocument
+Document
 >
-nsIDocument
+Document
 :
 :
 CreateStaticClone
@@ -55248,7 +55279,7 @@ originalShell
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 clonedDoc
 ;
@@ -55598,7 +55629,7 @@ forget
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 UnlinkOriginalDocumentIfStatic
@@ -55645,7 +55676,7 @@ mOriginalDocument
 ;
 }
 nsresult
-nsIDocument
+Document
 :
 :
 ScheduleFrameRequestCallback
@@ -55734,7 +55765,7 @@ NS_OK
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 CancelFrameRequestCallback
@@ -55768,7 +55799,7 @@ UpdateFrameRequestCallbackSchedulingState
 }
 }
 nsresult
-nsIDocument
+Document
 :
 :
 GetStateObject
@@ -55913,7 +55944,7 @@ NS_OK
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetNavigationTiming
@@ -55955,7 +55986,7 @@ mLoadingTimeStamp
 }
 nsContentList
 *
-nsIDocument
+Document
 :
 :
 ImageMapList
@@ -56060,7 +56091,7 @@ static
 UseCounter
 OperationToUseCounter
 (
-nsIDocument
+Document
 :
 :
 DeprecatedOperations
@@ -56080,7 +56111,7 @@ _op
 )
 \
 case
-nsIDocument
+Document
 :
 :
 e
@@ -56114,7 +56145,7 @@ MOZ_CRASH
 }
 }
 bool
-nsIDocument
+Document
 :
 :
 HasWarnedAbout
@@ -56132,7 +56163,7 @@ aOperation
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 WarnOnceAbout
@@ -56224,7 +56255,7 @@ IsAboutPage
 {
 const_cast
 <
-nsIDocument
+Document
 *
 >
 (
@@ -56282,7 +56313,7 @@ aOperation
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 HasWarnedAbout
@@ -56300,7 +56331,7 @@ aWarning
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 WarnOnceAbout
@@ -56412,7 +56443,7 @@ dom
 :
 ImageTracker
 *
-nsIDocument
+Document
 :
 :
 ImageTracker
@@ -56445,7 +56476,7 @@ static
 bool
 AllSubDocumentPluginEnum
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -56493,7 +56524,7 @@ true
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 GetPlugins
@@ -56575,7 +56606,7 @@ aPlugins
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 ScheduleSVGUseElementShadowTreeUpdate
@@ -56623,7 +56654,7 @@ EnsureStyleFlush
 }
 }
 void
-nsIDocument
+Document
 :
 :
 DoUpdateSVGUseElementShadowTrees
@@ -56814,7 +56845,7 @@ IsEmpty
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 NotifyMediaFeatureValuesChanged
@@ -56876,7 +56907,7 @@ already_AddRefed
 <
 Touch
 >
-nsIDocument
+Document
 :
 :
 CreateTouch
@@ -56946,7 +56977,7 @@ already_AddRefed
 <
 TouchList
 >
-nsIDocument
+Document
 :
 :
 CreateTouchList
@@ -56980,7 +57011,7 @@ already_AddRefed
 <
 TouchList
 >
-nsIDocument
+Document
 :
 :
 CreateTouchList
@@ -57072,7 +57103,7 @@ already_AddRefed
 <
 TouchList
 >
-nsIDocument
+Document
 :
 :
 CreateTouchList
@@ -57152,7 +57183,7 @@ already_AddRefed
 <
 nsDOMCaretPosition
 >
-nsIDocument
+Document
 :
 :
 CaretPositionFromPoint
@@ -57618,7 +57649,7 @@ forget
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 IsPotentiallyScrollable
@@ -57890,7 +57921,7 @@ true
 }
 Element
 *
-nsIDocument
+Document
 :
 :
 GetScrollingElement
@@ -57953,7 +57984,7 @@ GetRootElement
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 IsScrollingElement
@@ -58101,7 +58132,7 @@ UnblockParsingPromiseHandler
 explicit
 UnblockParsingPromiseHandler
 (
-nsIDocument
+Document
 *
 aDocument
 Promise
@@ -58390,7 +58421,7 @@ mPromise
 ;
 RefPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;
@@ -58423,7 +58454,7 @@ already_AddRefed
 <
 Promise
 >
-nsIDocument
+Document
 :
 :
 BlockParsing
@@ -58505,7 +58536,7 @@ already_AddRefed
 <
 nsIURI
 >
-nsIDocument
+Document
 :
 :
 GetMozDocumentURIIfNotForErrorPages
@@ -58579,7 +58610,7 @@ forget
 }
 Promise
 *
-nsIDocument
+Document
 :
 :
 GetDocumentReadyForIdle
@@ -58650,7 +58681,7 @@ mReadyForIdle
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 MaybeResolveReadyForIdle
@@ -58686,7 +58717,7 @@ this
 }
 FeaturePolicy
 *
-nsIDocument
+Document
 :
 :
 Policy
@@ -58756,7 +58787,7 @@ mFeaturePolicy
 }
 nsIDOMXULCommandDispatcher
 *
-nsIDocument
+Document
 :
 :
 GetCommandDispatcher
@@ -58822,7 +58853,7 @@ mCommandDispatcher
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 InitializeXULBroadcastManager
@@ -59006,7 +59037,7 @@ XULDocument
 :
 GetPopupNode
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -59057,7 +59088,7 @@ already_AddRefed
 <
 nsPIWindowRoot
 >
-nsIDocument
+Document
 :
 :
 GetWindowRoot
@@ -59122,7 +59153,7 @@ already_AddRefed
 <
 nsINode
 >
-nsIDocument
+Document
 :
 :
 GetPopupNode
@@ -59223,7 +59254,7 @@ nullptr
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetPopupNode
@@ -59281,7 +59312,7 @@ only
 .
 nsINode
 *
-nsIDocument
+Document
 :
 :
 GetPopupRangeParent
@@ -59341,7 +59372,7 @@ Popup
 Manager
 .
 int32_t
-nsIDocument
+Document
 :
 :
 GetPopupRangeOffset
@@ -59392,7 +59423,7 @@ already_AddRefed
 <
 nsINode
 >
-nsIDocument
+Document
 :
 :
 GetTooltipNode
@@ -59449,7 +59480,7 @@ nullptr
 }
 nsIHTMLCollection
 *
-nsIDocument
+Document
 :
 :
 Children
@@ -59486,7 +59517,7 @@ mChildrenCollection
 ;
 }
 uint32_t
-nsIDocument
+Document
 :
 :
 ChildElementCount
@@ -59504,9 +59535,6 @@ Length
 )
 ;
 }
-namespace
-mozilla
-{
 /
 /
 Singleton
@@ -59596,7 +59624,7 @@ static
 void
 Add
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -59692,7 +59720,7 @@ void
 aFunction
 )
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -59715,7 +59743,7 @@ static
 void
 Remove
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -59795,7 +59823,7 @@ static
 uint32_t
 Find
 (
-nsIDocument
+Document
 *
 aRoot
 )
@@ -59818,7 +59846,7 @@ static
 bool
 Contains
 (
-nsIDocument
+Document
 *
 aRoot
 )
@@ -59900,7 +59928,7 @@ void
 aFunction
 )
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -59994,7 +60022,7 @@ i
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 root
 =
@@ -60070,7 +60098,7 @@ FullscreenRoots
 :
 Contains
 (
-nsIDocument
+Document
 *
 aRoot
 )
@@ -60099,14 +60127,14 @@ FullscreenRoots
 :
 Add
 (
-nsIDocument
+Document
 *
 aDoc
 )
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 root
 =
@@ -60170,7 +60198,7 @@ FullscreenRoots
 :
 Find
 (
-nsIDocument
+Document
 *
 aRoot
 )
@@ -60219,7 +60247,7 @@ i
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 otherRoot
 (
@@ -60260,14 +60288,14 @@ FullscreenRoots
 :
 Remove
 (
-nsIDocument
+Document
 *
 aDoc
 )
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 root
 =
@@ -60401,7 +60429,7 @@ member
 of
 /
 /
-nsIDocument
+Document
 because
 in
 the
@@ -60582,7 +60610,7 @@ public
 explicit
 Iterator
 (
-nsIDocument
+Document
 *
 aDoc
 IteratorOption
@@ -60975,16 +61003,9 @@ PendingFullscreenChangeList
 :
 sList
 ;
-}
-/
-/
-end
-namespace
-mozilla
-.
-nsIDocument
+Document
 *
-nsIDocument
+Document
 :
 :
 GetFullscreenRoot
@@ -60993,7 +61014,7 @@ GetFullscreenRoot
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 root
 =
@@ -61007,12 +61028,12 @@ root
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetFullscreenRoot
 (
-nsIDocument
+Document
 *
 aRoot
 )
@@ -61029,7 +61050,7 @@ already_AddRefed
 <
 Promise
 >
-nsIDocument
+Document
 :
 :
 ExitFullscreen
@@ -61090,7 +61111,7 @@ static
 void
 AskWindowToExitFullscreen
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -61182,7 +61203,7 @@ public
 explicit
 nsCallExitFullscreen
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -61240,7 +61261,7 @@ private
 :
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mDoc
 ;
@@ -61252,12 +61273,12 @@ static
 *
 /
 void
-nsIDocument
+Document
 :
 :
 AsyncExitFullscreen
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -61320,7 +61341,7 @@ static
 bool
 CountFullscreenSubDocuments
 (
-nsIDocument
+Document
 *
 aDoc
 void
@@ -61367,7 +61388,7 @@ static
 uint32_t
 CountFullscreenSubDocuments
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -61392,7 +61413,7 @@ count
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 IsFullscreenLeaf
@@ -61440,7 +61461,7 @@ this
 bool
 GetFullscreenLeaf
 (
-nsIDocument
+Document
 *
 aDoc
 void
@@ -61458,14 +61479,14 @@ IsFullscreenLeaf
 )
 )
 {
-nsIDocument
+Document
 *
 *
 result
 =
 static_cast
 <
-nsIDocument
+Document
 *
 *
 >
@@ -61507,16 +61528,16 @@ true
 ;
 }
 static
-nsIDocument
+Document
 *
 GetFullscreenLeaf
 (
-nsIDocument
+Document
 *
 aDoc
 )
 {
-nsIDocument
+Document
 *
 leaf
 =
@@ -61570,7 +61591,7 @@ from
 the
 root
 .
-nsIDocument
+Document
 *
 root
 =
@@ -61635,7 +61656,7 @@ static
 bool
 ResetFullscreen
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -61724,7 +61745,7 @@ true
 /
 /
 Since
-nsIDocument
+Document
 :
 :
 ExitFullscreenInDocTree
@@ -61775,10 +61796,10 @@ public
 explicit
 ExitFullscreenScriptRunnable
 (
-nsIDocument
+Document
 *
 aRoot
-nsIDocument
+Document
 *
 aLeaf
 )
@@ -61918,13 +61939,13 @@ private
 :
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mRoot
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mLeaf
 ;
@@ -61936,12 +61957,12 @@ static
 *
 /
 void
-nsIDocument
+Document
 :
 :
 ExitFullscreenInDocTree
 (
-nsIDocument
+Document
 *
 aMaybeNotARootDoc
 )
@@ -62019,7 +62040,7 @@ MayResolvePromise
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 root
 =
@@ -62197,7 +62218,7 @@ fullscreen
 state
 below
 .
-nsIDocument
+Document
 *
 fullscreenLeaf
 =
@@ -62290,7 +62311,7 @@ static
 void
 DispatchFullscreenNewOriginEvent
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -62332,7 +62353,7 @@ PostDOMEvent
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 RestorePreviousFullscreenState
@@ -62407,7 +62428,7 @@ return
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 fullScreenDoc
 =
@@ -62424,7 +62445,7 @@ Element
 >
 exitElements
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -62654,7 +62675,7 @@ break
 ;
 }
 }
-nsIDocument
+Document
 *
 lastDoc
 =
@@ -62839,7 +62860,7 @@ state
 as
 well
 .
-nsIDocument
+Document
 *
 newFullscreenDoc
 ;
@@ -63119,7 +63140,7 @@ Run
 )
 override
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -63157,7 +63178,7 @@ mRequest
 }
 ;
 void
-nsIDocument
+Document
 :
 :
 AsyncRequestFullscreen
@@ -63218,7 +63239,7 @@ static
 void
 UpdateViewportScrollbarOverrideForFullscreen
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -63312,7 +63333,7 @@ false
 }
 }
 void
-nsIDocument
+Document
 :
 :
 CleanupFullscreenState
@@ -63504,7 +63525,7 @@ this
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 FullscreenStackPush
@@ -63597,7 +63618,7 @@ true
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 FullscreenStackPop
@@ -63841,7 +63862,7 @@ this
 }
 Element
 *
-nsIDocument
+Document
 :
 :
 FullscreenStackTop
@@ -63948,7 +63969,7 @@ nsTArray
 Element
 *
 >
-nsIDocument
+Document
 :
 :
 GetFullscreenStack
@@ -64035,7 +64056,7 @@ static
 bool
 IsInActiveTab
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -64193,7 +64214,7 @@ rootWin
 ;
 }
 nsresult
-nsIDocument
+Document
 :
 :
 RemoteFrameFullscreenChanged
@@ -64265,7 +64286,7 @@ NS_OK
 ;
 }
 nsresult
-nsIDocument
+Document
 :
 :
 RemoteFrameFullscreenReverted
@@ -64307,7 +64328,7 @@ static
 *
 /
 bool
-nsIDocument
+Document
 :
 :
 IsUnprefixedFullscreenEnabled
@@ -64349,7 +64370,7 @@ static
 bool
 HasFullscreenSubDocument
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -64431,7 +64452,7 @@ char
 *
 GetFullscreenError
 (
-nsIDocument
+Document
 *
 aDoc
 CallerType
@@ -64574,7 +64595,7 @@ nullptr
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 FullscreenElementReadyCheck
@@ -65001,7 +65022,7 @@ nsPIDOMWindowOuter
 >
 GetRootWindow
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -65061,7 +65082,7 @@ static
 bool
 ShouldApplyFullscreenDirectly
 (
-nsIDocument
+Document
 *
 aDoc
 nsPIDOMWindowOuter
@@ -65325,7 +65346,7 @@ true
 }
 }
 void
-nsIDocument
+Document
 :
 :
 RequestFullscreen
@@ -65639,12 +65660,12 @@ static
 *
 /
 bool
-nsIDocument
+Document
 :
 :
 HandlePendingFullscreenRequests
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -65692,7 +65713,7 @@ TakeAndNext
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -65734,7 +65755,7 @@ static
 void
 ClearPendingFullscreenRequests
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -65787,7 +65808,7 @@ MayRejectPromise
 }
 }
 bool
-nsIDocument
+Document
 :
 :
 ApplyFullscreen
@@ -65844,7 +65865,7 @@ changed
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 previousFullscreenDoc
 =
@@ -65930,7 +65951,7 @@ specified
 .
 AutoTArray
 <
-nsIDocument
+Document
 *
 8
 >
@@ -65966,7 +65987,7 @@ fullscreen
 /
 documents
 .
-nsIDocument
+Document
 *
 fullScreenRootDoc
 =
@@ -66186,7 +66207,7 @@ the
 root
 document
 .
-nsIDocument
+Document
 *
 child
 =
@@ -66387,7 +66408,7 @@ fullScreenRootDoc
 break
 ;
 }
-nsIDocument
+Document
 *
 parent
 =
@@ -66765,7 +66786,7 @@ spec
 .
 for
 (
-nsIDocument
+Document
 *
 d
 :
@@ -66799,7 +66820,7 @@ true
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 FullscreenEnabled
@@ -66818,7 +66839,7 @@ aCallerType
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetOrientationPendingPromise
@@ -66837,7 +66858,7 @@ static
 void
 DispatchPointerLockChange
 (
-nsIDocument
+Document
 *
 aTarget
 )
@@ -66889,7 +66910,7 @@ static
 void
 DispatchPointerLockError
 (
-nsIDocument
+Document
 *
 aTarget
 const
@@ -67094,7 +67115,7 @@ PointerLockDeniedDisabled
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 ownerDoc
 =
@@ -67356,7 +67377,7 @@ ChangePointerLockedElement
 Element
 *
 aElement
-nsIDocument
+Document
 *
 aDocument
 Element
@@ -67619,7 +67640,7 @@ mElement
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -67918,7 +67939,7 @@ NS_OK
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 RequestPointerLock
@@ -67941,7 +67962,7 @@ non
 null
 element
 to
-nsIDocument
+Document
 :
 :
 RequestPointerLock
@@ -68048,7 +68069,7 @@ forget
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 SetPointerLock
@@ -68112,7 +68133,7 @@ aElement
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 pointerLockedDoc
 =
@@ -68392,12 +68413,12 @@ true
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 UnlockPointer
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -68416,7 +68437,7 @@ return
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 pointerLockedDoc
 =
@@ -68522,7 +68543,7 @@ RunDOMEventWhenSafe
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 UpdateVisibilityState
@@ -68605,7 +68626,7 @@ MaybeActiveMediaComponents
 }
 }
 VisibilityState
-nsIDocument
+Document
 :
 :
 ComputeVisibilityState
@@ -68771,7 +68792,7 @@ Visible
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 PostVisibilityUpdateEvent
@@ -68787,14 +68808,14 @@ event
 NewRunnableMethod
 (
 "
-nsIDocument
+Document
 :
 :
 UpdateVisibilityState
 "
 this
 &
-nsIDocument
+Document
 :
 :
 UpdateVisibilityState
@@ -68815,7 +68836,7 @@ forget
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 MaybeActiveMediaComponents
@@ -68842,7 +68863,7 @@ MaybeActiveMediaComponents
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 DocAddSizeOfExcludingThis
@@ -68945,7 +68966,7 @@ the
 measurement
 of
 the
-nsIDocument
+Document
 superclass
 must
 happen
@@ -68961,7 +68982,7 @@ nodes
 above
 )
 because
-nsIDocument
+Document
 contains
 the
 /
@@ -69241,7 +69262,7 @@ many
 !
 }
 void
-nsIDocument
+Document
 :
 :
 DocAddSizeOfIncludingThis
@@ -69273,7 +69294,7 @@ aWindowSizes
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 AddSizeOfExcludingThis
@@ -69347,7 +69368,7 @@ static
 *
 /
 void
-nsIDocument
+Document
 :
 :
 AddSizeOfNodeTree
@@ -69752,9 +69773,9 @@ aWindowSizes
 }
 already_AddRefed
 <
-nsIDocument
+Document
 >
-nsIDocument
+Document
 :
 :
 Constructor
@@ -69870,7 +69891,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -69927,7 +69948,7 @@ doc
 >
 SetReadyStateInternal
 (
-nsIDocument
+Document
 :
 :
 READYSTATE_COMPLETE
@@ -69943,7 +69964,7 @@ forget
 }
 XPathExpression
 *
-nsIDocument
+Document
 :
 :
 CreateExpression
@@ -69976,7 +69997,7 @@ rv
 }
 nsINode
 *
-nsIDocument
+Document
 :
 :
 CreateNSResolver
@@ -70002,7 +70023,7 @@ already_AddRefed
 <
 XPathResult
 >
-nsIDocument
+Document
 :
 :
 Evaluate
@@ -70058,7 +70079,7 @@ already_AddRefed
 <
 nsIXULWindow
 >
-nsIDocument
+Document
 :
 :
 GetXULWindowIfToplevelChrome
@@ -70163,16 +70184,16 @@ forget
 )
 ;
 }
-nsIDocument
+Document
 *
-nsIDocument
+Document
 :
 :
 GetTopLevelContentDocument
 (
 )
 {
-nsIDocument
+Document
 *
 parent
 ;
@@ -70391,12 +70412,12 @@ aURI
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 PropagateUseCounters
 (
-nsIDocument
+Document
 *
 aParentDocument
 )
@@ -70510,7 +70531,7 @@ its
 /
 mChildDocumentUseCounters
 .
-nsIDocument
+Document
 *
 contentParent
 =
@@ -70548,7 +70569,7 @@ mChildDocumentUseCounters
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetPageUseCounter
@@ -70787,7 +70808,7 @@ we
 are
 done
 .
-nsIDocument
+Document
 *
 contentParent
 =
@@ -70833,7 +70854,7 @@ aUseCounter
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 HasScriptsBlockedBySandbox
@@ -70847,7 +70868,7 @@ SANDBOXED_SCRIPTS
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 InlineScriptAllowedByCSP
@@ -70989,7 +71010,7 @@ static
 bool
 ReportExternalResourceUseCounters
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -71001,7 +71022,7 @@ const
 auto
 reportKind
 =
-nsIDocument
+Document
 :
 :
 UseCounterReportKind
@@ -71022,7 +71043,7 @@ true
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 ReportUseCounters
@@ -71841,7 +71862,7 @@ label
 }
 }
 void
-nsIDocument
+Document
 :
 :
 UpdateIntersectionObservations
@@ -71995,7 +72016,7 @@ time
 }
 }
 void
-nsIDocument
+Document
 :
 :
 ScheduleIntersectionObserverNotification
@@ -72030,14 +72051,14 @@ notification
 NewRunnableMethod
 (
 "
-nsIDocument
+Document
 :
 :
 NotifyIntersectionObservers
 "
 this
 &
-nsIDocument
+Document
 :
 :
 NotifyIntersectionObservers
@@ -72058,7 +72079,7 @@ forget
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 NotifyIntersectionObservers
@@ -72158,7 +72179,7 @@ static
 bool
 NotifyLayerManagerRecreatedCallback
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -72178,7 +72199,7 @@ true
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 NotifyLayerManagerRecreated
@@ -72200,7 +72221,7 @@ nullptr
 }
 XPathEvaluator
 *
-nsIDocument
+Document
 :
 :
 XPathEvaluator
@@ -72240,7 +72261,7 @@ already_AddRefed
 <
 nsIDocumentEncoder
 >
-nsIDocument
+Document
 :
 :
 GetCachedEncoder
@@ -72256,7 +72277,7 @@ forget
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetCachedEncoder
@@ -72274,7 +72295,7 @@ aEncoder
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetContentTypeInternal
@@ -72333,7 +72354,7 @@ aType
 }
 nsILoadContext
 *
-nsIDocument
+Document
 :
 :
 GetLoadContext
@@ -72347,7 +72368,7 @@ mDocumentContainer
 }
 nsIDocShell
 *
-nsIDocument
+Document
 :
 :
 GetDocShell
@@ -72360,7 +72381,7 @@ mDocumentContainer
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetStateObject
@@ -72379,11 +72400,11 @@ mStateObjectCached
 nullptr
 ;
 }
-nsIDocument
+Document
 :
 :
 DocumentTheme
-nsIDocument
+Document
 :
 :
 GetDocumentLWTheme
@@ -72409,11 +72430,11 @@ return
 mDocLWTheme
 ;
 }
-nsIDocument
+Document
 :
 :
 DocumentTheme
-nsIDocument
+Document
 :
 :
 ThreadSafeGetDocumentLWTheme
@@ -72558,7 +72579,7 @@ already_AddRefed
 <
 Element
 >
-nsIDocument
+Document
 :
 :
 CreateHTMLElement
@@ -72661,7 +72682,7 @@ forget
 bool
 MarkDocumentTreeToBeInSyncOperation
 (
-nsIDocument
+Document
 *
 aDoc
 void
@@ -72679,7 +72700,7 @@ nsTArray
 <
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 >
 *
@@ -72756,7 +72777,7 @@ nsAutoSyncOperation
 :
 nsAutoSyncOperation
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -72836,7 +72857,7 @@ GetTop
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -72868,9 +72889,9 @@ nsAutoSyncOperation
 {
 for
 (
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 &
 doc
@@ -72943,7 +72964,7 @@ mMicroTaskLevel
 }
 gfxUserFontSet
 *
-nsIDocument
+Document
 :
 :
 GetUserFontSet
@@ -73224,7 +73245,7 @@ GetUserFontSet
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 FlushUserFontSet
@@ -73483,7 +73504,7 @@ UserFontSetUpdated
 }
 }
 void
-nsIDocument
+Document
 :
 :
 MarkUserFontSetDirty
@@ -73550,7 +73571,7 @@ true
 }
 FontFaceSet
 *
-nsIDocument
+Document
 :
 :
 Fonts
@@ -73611,7 +73632,7 @@ mFontFaceSet
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 ReportHasScrollLinkedEffect
@@ -73677,7 +73698,7 @@ ScrollLinkedEffectFound2
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetUserHasInteracted
@@ -73773,7 +73794,7 @@ MaybeAllowStorageForOpenerAfterUserInteraction
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 NotifyUserGestureActivation
@@ -73798,7 +73819,7 @@ level
 content
 document
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -73858,14 +73879,14 @@ GetSameTypeParentDocument
 }
 }
 void
-nsIDocument
+Document
 :
 :
 SetDocTreeHadAudibleMedia
 (
 )
 {
-nsIDocument
+Document
 *
 topLevelDoc
 =
@@ -73934,14 +73955,14 @@ true
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 SetDocTreeHadPlayRevoked
 (
 )
 {
-nsIDocument
+Document
 *
 topLevelDoc
 =
@@ -73964,7 +73985,7 @@ true
 }
 }
 void
-nsIDocument
+Document
 :
 :
 MaybeAllowStorageForOpenerAfterUserInteraction
@@ -74128,7 +74149,7 @@ from
 the
 opener
 .
-nsIDocument
+Document
 *
 openerDocument
 =
@@ -74388,7 +74409,7 @@ NS_DECL_ISUPPORTS_INHERITED
 explicit
 UserIntractionTimer
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -74762,7 +74783,7 @@ flag
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -74916,7 +74937,7 @@ nsIAsyncShutdownBlocker
 /
 namespace
 void
-nsIDocument
+Document
 :
 :
 MaybeStoreUserInteractionAsPermission
@@ -75044,7 +75065,7 @@ true
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 ResetUserInteractionTimer
@@ -75057,7 +75078,7 @@ false
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 HasBeenUserGestureActivated
@@ -75085,7 +75106,7 @@ so
 are
 we
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -75152,7 +75173,7 @@ mUserGestureActivated
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 IsExtensionPage
@@ -75199,9 +75220,9 @@ AddonPolicy
 )
 ;
 }
-nsIDocument
+Document
 *
-nsIDocument
+Document
 :
 :
 GetSameTypeParentDocument
@@ -75344,7 +75365,7 @@ rst
 *
 /
 FlashClassification
-nsIDocument
+Document
 :
 :
 PrincipalFlashClassification
@@ -75379,7 +75400,7 @@ Helper
 function
 for
 |
-nsIDocument
+Document
 :
 :
 PrincipalFlashClassification
@@ -75479,7 +75500,7 @@ Helper
 function
 for
 |
-nsIDocument
+Document
 :
 :
 PrincipalFlashClassification
@@ -77621,7 +77642,7 @@ Unclassified
 ;
 }
 FlashClassification
-nsIDocument
+Document
 :
 :
 ComputeFlashClassification
@@ -77719,7 +77740,7 @@ else
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 parentDocument
 =
@@ -77894,7 +77915,7 @@ Unclassified
 *
 /
 FlashClassification
-nsIDocument
+Document
 :
 :
 DocumentFlashClassification
@@ -77933,7 +77954,7 @@ FlashClassification
 :
 Unclassified
 "
-nsIDocument
+Document
 :
 :
 GetPluginClassification
@@ -78099,7 +78120,7 @@ reasons
 *
 /
 bool
-nsIDocument
+Document
 :
 :
 IsThirdParty
@@ -78222,7 +78243,7 @@ value
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 parentDocument
 =
@@ -78400,7 +78421,7 @@ value
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 ClearStaleServoData
@@ -78438,7 +78459,7 @@ root
 }
 Selection
 *
-nsIDocument
+Document
 :
 :
 GetSelection
@@ -78509,7 +78530,7 @@ dom
 :
 Promise
 >
-nsIDocument
+Document
 :
 :
 HasStorageAccess
@@ -78632,7 +78653,7 @@ forget
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 topLevelDoc
 =
@@ -78767,7 +78788,7 @@ dom
 :
 Promise
 >
-nsIDocument
+Document
 :
 :
 RequestStorageAccess
@@ -79062,7 +79083,7 @@ resolve
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 topLevelDoc
 =
@@ -79212,7 +79233,7 @@ top
 frame
 reject
 .
-nsIDocument
+Document
 *
 parent
 =
@@ -80049,7 +80070,7 @@ forget
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 RecordNavigationTiming
@@ -80262,7 +80283,7 @@ break
 }
 }
 bool
-nsIDocument
+Document
 :
 :
 ModuleScriptsEnabled
@@ -80323,7 +80344,7 @@ sEnabledForContent
 ;
 }
 void
-nsIDocument
+Document
 :
 :
 ReportShadowDOMUsage
@@ -80338,7 +80359,7 @@ mHasReportedShadowDOMUsage
 return
 ;
 }
-nsIDocument
+Document
 *
 topLevel
 =
@@ -80446,7 +80467,7 @@ true
 ;
 }
 bool
-nsIDocument
+Document
 :
 :
 StorageAccessSandboxed
@@ -80475,3 +80496,13 @@ SANDBOXED_STORAGE_ACCESS
 0
 ;
 }
+}
+/
+/
+namespace
+dom
+}
+/
+/
+namespace
+mozilla

@@ -181,7 +181,7 @@ virtual
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -236,7 +236,7 @@ override
 void
 CreateAndDispatchEvent
 (
-nsIDocument
+Document
 *
 aDoc
 const
@@ -459,7 +459,7 @@ private
 void
 SetMetaReferrer
 (
-nsIDocument
+Document
 *
 aDocument
 )

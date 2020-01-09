@@ -364,7 +364,7 @@ virtual
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -670,7 +670,7 @@ LoadSrc
 (
 )
 ;
-nsIDocument
+Document
 *
 GetContentDocument
 (

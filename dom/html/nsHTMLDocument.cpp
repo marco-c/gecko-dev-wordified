@@ -509,7 +509,7 @@ h
 #
 include
 "
-nsIDocumentInlines
+DocumentInlines
 .
 h
 "
@@ -1188,7 +1188,7 @@ ISO_2022_JP_ENCODING
 nsresult
 NS_NewHTMLDocument
 (
-nsIDocument
+Document
 *
 *
 aInstancePtrResult
@@ -1260,7 +1260,7 @@ nsHTMLDocument
 (
 )
 :
-nsIDocument
+Document
 (
 "
 text
@@ -1341,7 +1341,7 @@ nsHTMLDocument
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 nsHTMLDocument
-nsIDocument
+Document
 mAll
 mWyciwygChannel
 mMidasCommandManager
@@ -1349,7 +1349,7 @@ mMidasCommandManager
 NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
 nsHTMLDocument
-nsIDocument
+Document
 nsIHTMLDocument
 )
 JSObject
@@ -1396,7 +1396,7 @@ Init
 nsresult
 rv
 =
-nsIDocument
+Document
 :
 :
 Init
@@ -1455,7 +1455,7 @@ nsILoadGroup
 aLoadGroup
 )
 {
-nsIDocument
+Document
 :
 :
 Reset
@@ -1504,7 +1504,7 @@ nsIRequest
 :
 LOAD_NORMAL
 ;
-nsIDocument
+Document
 :
 :
 ResetToURI
@@ -2778,7 +2778,7 @@ Encoding
 aEncoding
 )
 {
-nsIDocument
+Document
 :
 :
 SetDocumentCharacterSet
@@ -3335,7 +3335,7 @@ mCompatMode
 nsresult
 rv
 =
-nsIDocument
+Document
 :
 :
 StartDocumentLoad
@@ -4911,7 +4911,7 @@ removed
 "
 )
 ;
-nsIDocument
+Document
 :
 :
 StopDocumentLoad
@@ -4999,7 +4999,7 @@ EditingStateChanged
 )
 ;
 }
-nsIDocument
+Document
 :
 :
 BeginLoad
@@ -5037,7 +5037,7 @@ mContentEditableCount
 /
 Note
 :
-nsIDocument
+Document
 :
 :
 EndLoad
@@ -5045,7 +5045,7 @@ nulls
 out
 mParser
 .
-nsIDocument
+Document
 :
 :
 EndLoad
@@ -5165,7 +5165,7 @@ body
 ;
 }
 return
-nsIDocument
+Document
 :
 :
 GetUnfocusedKeyEventTarget
@@ -7284,7 +7284,7 @@ GetBrowsingContext
 }
 already_AddRefed
 <
-nsIDocument
+Document
 >
 nsHTMLDocument
 :
@@ -7578,7 +7578,7 @@ mParser
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 ret
 =
@@ -7637,7 +7637,7 @@ ShouldIgnoreOpens
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 ret
 =
@@ -7673,7 +7673,7 @@ mScriptGlobalObject
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 ret
 =
@@ -7718,7 +7718,7 @@ GetCurrentInnerWindow
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 ret
 =
@@ -7782,7 +7782,7 @@ anyway
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 ret
 =
@@ -7815,7 +7815,7 @@ inUnload
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 ret
 =
@@ -7876,7 +7876,7 @@ trusted
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 callerDoc
 =
@@ -8219,7 +8219,7 @@ nsIURI
 >
 thisURI
 =
-nsIDocument
+Document
 :
 :
 GetDocumentURI
@@ -8435,7 +8435,7 @@ exception
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 ret
 =
@@ -8469,7 +8469,7 @@ mScriptGlobalObject
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 ret
 =
@@ -8514,7 +8514,7 @@ GetCurrentInnerWindow
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 ret
 =
@@ -9149,7 +9149,7 @@ one
 ref
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 kungFuDeathGrip
 =
@@ -9205,7 +9205,7 @@ mWillReparent
 =
 true
 ;
-nsIDocument
+Document
 *
 templateContentsOwner
 =
@@ -9966,7 +9966,7 @@ mWriteLevel
 ;
 SetReadyStateInternal
 (
-nsIDocument
+Document
 :
 :
 READYSTATE_LOADING
@@ -11109,7 +11109,7 @@ return
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 ignored
 =
@@ -11905,7 +11905,7 @@ CaptureEvents
 {
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eUseOfCaptureEvents
@@ -11922,7 +11922,7 @@ ReleaseEvents
 {
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eUseOfReleaseEvents
@@ -13121,7 +13121,7 @@ mPendingMaybeEditingStateChanged
 =
 true
 ;
-nsIDocument
+Document
 :
 :
 EndUpdate
@@ -13153,7 +13153,7 @@ bool
 aMayStartLayout
 )
 {
-nsIDocument
+Document
 :
 :
 SetMayStartLayout
@@ -13624,7 +13624,7 @@ NotifyEditableStateChange
 nsINode
 *
 aNode
-nsIDocument
+Document
 *
 aDocument
 )
@@ -19774,7 +19774,7 @@ IsEditingOnAfterFlush
 (
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -19838,7 +19838,7 @@ mEditingState
 =
 eOff
 ;
-nsIDocument
+Document
 :
 :
 RemovedFromDocShell
@@ -19863,7 +19863,7 @@ aWindowSizes
 )
 const
 {
-nsIDocument
+Document
 :
 :
 DocAddSizeOfExcludingThis
@@ -20264,7 +20264,7 @@ this
 in
 sync
 with
-nsIDocument
+Document
 :
 :
 Forms

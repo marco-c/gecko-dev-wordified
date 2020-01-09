@@ -544,9 +544,6 @@ class
 nsIDocShellTreeOwner
 ;
 class
-nsIDocument
-;
-class
 nsIHttpChannel
 ;
 class
@@ -4701,7 +4698,13 @@ aLoadType
 nsIRequest
 *
 aNewRequest
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aNewDocument
 )

@@ -152,7 +152,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1121,7 +1125,7 @@ aViewer
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -3053,7 +3057,7 @@ listeners
 #
 ifdef
 MOZ_XUL
-nsIDocument
+Document
 *
 doc
 =

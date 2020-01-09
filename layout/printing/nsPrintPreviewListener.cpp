@@ -173,7 +173,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1248,7 +1252,7 @@ document
 bug
 244128
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -1268,7 +1272,7 @@ document
 "
 )
 ;
-nsIDocument
+Document
 *
 parentDoc
 =

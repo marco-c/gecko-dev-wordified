@@ -234,7 +234,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -385,6 +389,15 @@ using
 mozilla
 :
 :
+dom
+:
+:
+Document
+;
+using
+mozilla
+:
+:
 layout
 :
 :
@@ -397,7 +410,7 @@ sShowPreviousPage
 true
 ;
 static
-nsIDocument
+Document
 *
 GetDocumentFromView
 (
@@ -920,7 +933,7 @@ frameloader
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 oldContainerDoc
 ;
@@ -1624,7 +1637,7 @@ frameloader
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 oldContainerDoc
 ;
@@ -2404,7 +2417,7 @@ IsInFilter
 )
 )
 {
-nsIDocument
+Document
 *
 outerDoc
 =
@@ -2417,7 +2430,7 @@ GetDocument
 (
 )
 ;
-nsIDocument
+Document
 *
 innerDoc
 =
@@ -6841,7 +6854,7 @@ static
 bool
 BeginSwapDocShellsForDocument
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -6980,7 +6993,7 @@ while
 aSibling
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -7357,7 +7370,7 @@ static
 bool
 EndSwapDocShellsForDocument
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -7606,7 +7619,7 @@ GetNextSibling
 )
 )
 {
-nsIDocument
+Document
 *
 doc
 =
