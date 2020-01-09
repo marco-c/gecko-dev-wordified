@@ -4683,7 +4683,7 @@ gfx
 :
 ShapedTextFlags
 aFlags
-int32_t
+uint16_t
 aAppUnitsPerDevUnit
 )
 :
@@ -8436,7 +8436,7 @@ uint32_t
 aLength
 Script
 aRunScript
-int32_t
+uint16_t
 aAppUnitsPerDevUnit
 mozilla
 :
@@ -8579,7 +8579,7 @@ uint32_t
 aLength
 Script
 aRunScript
-int32_t
+uint16_t
 aAppUnitsPerDevUnit
 mozilla
 :
@@ -9088,7 +9088,7 @@ uint32_t
 aLength
 Script
 aRunScript
-int32_t
+uint16_t
 aAppUnitsPerDevUnit
 mozilla
 :
@@ -9187,7 +9187,7 @@ uint32_t
 aLength
 Script
 aRunScript
-int32_t
+uint16_t
 aAppUnitsPerDevUnit
 mozilla
 :
