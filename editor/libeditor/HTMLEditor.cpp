@@ -5043,7 +5043,7 @@ br
 element
 .
 return
-OnInputLineBreak
+InsertLineBreakAsAction
 (
 )
 ;
@@ -5059,7 +5059,7 @@ what
 to
 insert
 return
-OnInputParagraphSeparator
+InsertParagraphSeparatorAsAction
 (
 )
 ;
@@ -6588,7 +6588,7 @@ nsresult
 HTMLEditor
 :
 :
-OnInputLineBreak
+InsertLineBreakAsAction
 (
 )
 {

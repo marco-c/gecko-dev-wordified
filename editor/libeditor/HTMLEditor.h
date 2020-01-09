@@ -1083,7 +1083,7 @@ override
 *
 *
 *
-OnInputLineBreak
+InsertLineBreakAsAction
 (
 )
 is
@@ -1105,7 +1105,7 @@ something
 *
 /
 nsresult
-OnInputLineBreak
+InsertLineBreakAsAction
 (
 )
 ;
