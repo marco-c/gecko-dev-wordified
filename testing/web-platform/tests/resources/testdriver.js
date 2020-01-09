@@ -1401,6 +1401,8 @@ errors
 *
 /
 action_sequence
+:
+function
 (
 actions
 )
@@ -1641,7 +1643,7 @@ returns
 {
 Promise
 }
-fufilled
+fulfilled
 after
 actions
 are
