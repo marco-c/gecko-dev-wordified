@@ -112,6 +112,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+WindowProxyHolder
+.
+h
+"
+#
+include
+"
 nsCharSeparatedTokenizer
 .
 h
