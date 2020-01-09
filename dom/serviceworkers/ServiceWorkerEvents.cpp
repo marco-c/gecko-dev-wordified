@@ -3728,6 +3728,12 @@ GetBodyUsed
 error
 )
 ;
+error
+.
+WouldReportJSException
+(
+)
+;
 if
 (
 NS_WARN_IF
@@ -4301,6 +4307,12 @@ SetBodyUsed
 (
 aCx
 error
+)
+;
+error
+.
+WouldReportJSException
+(
 )
 ;
 if
