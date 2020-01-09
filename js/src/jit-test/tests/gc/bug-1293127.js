@@ -5,7 +5,7 @@ that
 we
 can
 create
-1000
+700
 cross
 compartment
 wrappers
@@ -15,7 +15,7 @@ objects
 /
 /
 without
-trigger
+triggering
 a
 minor
 GC
@@ -81,7 +81,7 @@ i
 ;
 i
 <
-1000
+700
 ;
 i
 +
