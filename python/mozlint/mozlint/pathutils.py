@@ -944,7 +944,10 @@ base
 ]
     
 return
+list
+(
 covered
+)
 def
 filterpaths
 (
