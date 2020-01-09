@@ -975,10 +975,8 @@ nsString
 aNames
 )
 ;
-already_AddRefed
-<
 Document
->
+*
 Open
 (
 JSContext
@@ -1004,7 +1002,11 @@ unused
 const
 nsAString
 &
-aReplace
+/
+*
+unused
+*
+/
 mozilla
 :
 :
