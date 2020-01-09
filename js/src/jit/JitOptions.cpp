@@ -1639,7 +1639,7 @@ VM
 SET_DEFAULT
 (
 disableUnboxedObjects
-false
+true
 )
 ;
 /
