@@ -1108,6 +1108,9 @@ messages
 "
 AudioPlayback
 "
+"
+TemporaryPermissionChanged
+"
 ]
 observers
 :
