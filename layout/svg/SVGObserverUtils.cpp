@@ -4503,10 +4503,16 @@ image
 .
 ResolveImage
 (
+*
 mFrame
 -
 >
 PresContext
+(
+)
+-
+>
+Document
 (
 )
 nullptr
