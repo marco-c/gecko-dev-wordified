@@ -947,7 +947,13 @@ UTF8
 isValidTrail
 (
 ch
+static_cast
+<
+uint8_t
+>
+(
 ch2
+)
 i
 inBytes
 )
@@ -1655,7 +1661,13 @@ UTF8
 isValidTrail
 (
 ch
+static_cast
+<
+uint8_t
+>
+(
 ch2
+)
 i
 inBytes
 )

@@ -569,11 +569,11 @@ bom
 (
 char
 )
-0xfe
+0xfeu
 (
 char
 )
-0xff
+0xffu
 }
 ;
 ucnv_fromUWriteBytes
@@ -4412,11 +4412,11 @@ bom
 (
 char
 )
-0xff
+0xffu
 (
 char
 )
-0xfe
+0xfeu
 }
 ;
 ucnv_fromUWriteBytes

@@ -508,6 +508,9 @@ const
 char
 *
 path
+UErrorCode
+*
+status
 )
 ;
 U_CFUNC

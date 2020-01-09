@@ -372,6 +372,9 @@ enum
 UGender
 UGender
 ;
+struct
+UGenderInfo
+;
 /
 *
 *
@@ -391,9 +394,6 @@ ICU
 50
 *
 /
-struct
-UGenderInfo
-;
 typedef
 struct
 UGenderInfo
@@ -546,7 +546,7 @@ ugender_getListGender
 const
 UGenderInfo
 *
-genderinfo
+genderInfo
 const
 UGender
 *

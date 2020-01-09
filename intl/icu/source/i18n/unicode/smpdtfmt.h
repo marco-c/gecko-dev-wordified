@@ -12701,7 +12701,7 @@ UErrorCode
 }
 *
 param
-adoptNF
+formatToAdopt
 the
 NumbeferFormat
 used
@@ -12859,7 +12859,7 @@ y
 )
 *
 param
-adoptNF
+formatToAdopt
 the
 NumbeferFormat
 used

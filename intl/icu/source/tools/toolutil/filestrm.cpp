@@ -767,6 +767,11 @@ len
 )
 {
 return
+static_cast
+<
+int32_t
+>
+(
 fread
 (
 addr
@@ -777,6 +782,7 @@ FILE
 *
 )
 fileStream
+)
 )
 ;
 }
@@ -797,6 +803,11 @@ len
 )
 {
 return
+static_cast
+<
+int32_t
+>
+(
 fwrite
 (
 addr
@@ -807,6 +818,7 @@ FILE
 *
 )
 fileStream
+)
 )
 ;
 }

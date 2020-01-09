@@ -541,6 +541,14 @@ status
 )
 const
 ;
+bool
+containsField
+(
+Field
+field
+)
+const
+;
 private
 :
 bool

@@ -594,9 +594,6 @@ endif
 U_HIDE_DEPRECATED_API
 *
 /
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -631,7 +628,7 @@ the
 new
 builder
 *
-draft
+stable
 ICU
 60
 *
@@ -646,13 +643,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 *
 *
@@ -826,7 +816,7 @@ strings
 .
 *
 param
-exception
+string
 the
 exception
 to
@@ -962,9 +952,6 @@ status
 =
 0
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -1068,7 +1055,7 @@ the
 caller
 .
 *
-draft
+stable
 ICU
 60
 *
@@ -1094,13 +1081,6 @@ status
 )
 ;
 }
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 protected
 :
 /

@@ -503,6 +503,17 @@ endif
 U_HIDE_DEPRECATED_API
 }
 ;
+/
+*
+*
+Currency
+Usage
+used
+for
+Decimal
+Format
+*
+/
 typedef
 enum
 UCurrencyUsage

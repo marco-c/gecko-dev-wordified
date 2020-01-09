@@ -1277,9 +1277,6 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -1395,7 +1392,7 @@ upon
 return
 .
 *
-draft
+stable
 ICU
 60
 *
@@ -1415,13 +1412,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 *
 *
@@ -2661,6 +2651,7 @@ destroyed
 Note
 :
 moved
+\
 #
 ifndef
 U_HIDE_INTERNAL_API
@@ -3539,6 +3530,11 @@ key
 }
 #
 endif
+/
+*
+U_HIDE_INTERNAL_API
+*
+/
 /
 /
 -

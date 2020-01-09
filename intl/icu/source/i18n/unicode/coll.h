@@ -2156,9 +2156,6 @@ this
 "
 :
 *
-<
-code
->
 typeid
 (
 *
@@ -2170,10 +2167,6 @@ typeid
 (
 other
 )
-<
-/
-code
->
 .
 *
 *
@@ -2187,9 +2180,6 @@ the
 following
 :
 *
-<
-pre
->
 *
 if
 (
@@ -2256,10 +2246,6 @@ subclass
 fields
 )
 *
-<
-/
-pre
->
 *
 param
 other

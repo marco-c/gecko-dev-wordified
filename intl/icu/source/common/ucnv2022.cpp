@@ -20293,6 +20293,11 @@ error
 /
 mySourceChar
 =
+static_cast
+<
+UChar
+>
+(
 0x10000
 |
 (
@@ -20303,6 +20308,7 @@ mySourceChar
 )
 |
 trailByte
+)
 ;
 }
 }
@@ -23986,7 +23992,13 @@ toUBytes
 0
 ]
 =
+static_cast
+<
+uint8_t
+>
+(
 mySourceChar
+)
 ;
 args
 -

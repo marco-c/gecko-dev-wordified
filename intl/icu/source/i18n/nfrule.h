@@ -763,7 +763,7 @@ UChar
 decimalPoint
 ;
 UnicodeString
-ruleText
+fRuleText
 ;
 NFSubstitution
 *

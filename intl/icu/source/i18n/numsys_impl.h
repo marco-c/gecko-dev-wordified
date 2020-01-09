@@ -427,6 +427,8 @@ pos
 UVector
 *
 fNumsysNames
+=
+nullptr
 ;
 }
 ;

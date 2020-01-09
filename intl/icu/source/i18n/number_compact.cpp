@@ -2234,7 +2234,7 @@ it
 had
 magnitude
 0
-int
+int32_t
 magnitude
 ;
 if
@@ -2269,7 +2269,7 @@ TODO
 :
 Revisit
 chooseMultiplierAndApply
-int
+int32_t
 multiplier
 =
 micros

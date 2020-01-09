@@ -1886,7 +1886,7 @@ int32_t
 code
 ;
 URegionType
-type
+fType
 ;
 Region
 *

@@ -7699,7 +7699,7 @@ names
 currency
 plurals
 UErrorCode
-ec3
+ec5
 =
 U_ZERO_ERROR
 ;
@@ -7713,7 +7713,7 @@ rb
 CURRENCYPLURALS
 NULL
 &
-ec3
+ec5
 )
 ;
 n
@@ -7749,7 +7749,7 @@ curr_p
 i
 NULL
 &
-ec3
+ec5
 )
 ;
 iso
@@ -7881,7 +7881,7 @@ j
 &
 len
 &
-ec3
+ec5
 )
 ;
 (
@@ -10574,12 +10574,6 @@ gCurrencyCacheMutex
 check
 again
 .
-int8_t
-found
-=
--
-1
-;
 for
 (
 int8_t

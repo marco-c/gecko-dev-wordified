@@ -28816,6 +28816,11 @@ converter
 /
 siLength
 =
+static_cast
+<
+uint8_t
+>
+(
 getSISOBytes
 (
 SI
@@ -28825,9 +28830,15 @@ cnv
 options
 siBytes
 )
+)
 ;
 soLength
 =
+static_cast
+<
+uint8_t
+>
+(
 getSISOBytes
 (
 SO
@@ -28836,6 +28847,7 @@ cnv
 >
 options
 soBytes
+)
 )
 ;
 /

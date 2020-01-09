@@ -2060,7 +2060,7 @@ details
 .
 )
 *
-draft
+stable
 ICU
 60
 *
@@ -3269,7 +3269,7 @@ s
 is
 normalized
 *
-draft
+stable
 ICU
 60
 *
@@ -4651,7 +4651,7 @@ details
 .
 )
 *
-draft
+stable
 ICU
 60
 *
@@ -5595,7 +5595,7 @@ s
 is
 normalized
 *
-draft
+stable
 ICU
 60
 *

@@ -628,6 +628,9 @@ gTimeZoneNamesCache
 pos
 )
 )
+!
+=
+0
 )
 {
 TimeZoneNamesCacheEntry

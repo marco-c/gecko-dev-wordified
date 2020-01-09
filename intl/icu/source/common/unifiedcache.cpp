@@ -1577,6 +1577,7 @@ sharedObject
 >
 cachePtr
 =
+=
 this
 )
 ;

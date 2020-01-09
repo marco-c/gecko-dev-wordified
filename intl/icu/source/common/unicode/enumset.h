@@ -305,6 +305,9 @@ variables
 *
 internal
 *
+\
+cond
+*
 /
 template
 <
@@ -612,6 +615,13 @@ fBools
 ;
 }
 ;
+/
+*
+*
+\
+endcond
+*
+/
 U_NAMESPACE_END
 #
 endif

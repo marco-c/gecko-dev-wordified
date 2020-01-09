@@ -169,6 +169,10 @@ cannot
 be
 allocated
 .
+alignas
+(
+UnicodeSet
+)
 char
 gEmptyUnicodeSet
 [

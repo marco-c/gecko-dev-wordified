@@ -400,14 +400,12 @@ mod1
 .
 getCodePointCount
 (
-status
 )
 +
 mod2
 .
 getCodePointCount
 (
-status
 )
 ;
 int32_t

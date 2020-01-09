@@ -294,8 +294,6 @@ UObject
 *
 *
 *
-{
-*
 \
 def
 U_NO_THROW
@@ -409,12 +407,6 @@ throw
 )
 #
 endif
-/
-*
-*
-}
-*
-/
 /
 *
 =

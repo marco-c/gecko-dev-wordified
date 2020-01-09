@@ -787,7 +787,7 @@ the
 UnifiedCache
 which
 is
-soley
+solely
 responsible
 for
 eviction

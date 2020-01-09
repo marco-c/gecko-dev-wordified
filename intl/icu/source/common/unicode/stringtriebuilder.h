@@ -304,6 +304,11 @@ builders
 Forward
 declaration
 .
+/
+/
+/
+\
+cond
 struct
 UHashtable
 ;
@@ -312,6 +317,11 @@ struct
 UHashtable
 UHashtable
 ;
+/
+/
+/
+\
+endcond
 /
 *
 *
@@ -476,7 +486,7 @@ internal
 *
 /
 static
-UBool
+int32_t
 hashNode
 (
 const
@@ -1382,7 +1392,11 @@ objects
 /
 *
 *
+*
 internal
+*
+\
+cond
 *
 /
 class
@@ -2892,6 +2906,11 @@ endif
 U_HIDE_INTERNAL_API
 *
 /
+/
+/
+/
+\
+endcond
 /
 *
 *

@@ -2623,7 +2623,7 @@ the
 trie
 .
 int32_t
-candidates
+num_candidates
 =
 words
 [
@@ -2655,7 +2655,7 @@ chars
 ;
 if
 (
-candidates
+num_candidates
 >
 0
 )
@@ -4381,7 +4381,7 @@ old
 code
 .
 int32_t
-candidates
+num_candidates
 =
 words
 [
@@ -4413,7 +4413,7 @@ chars
 ;
 if
 (
-candidates
+num_candidates
 >
 0
 )
@@ -5857,7 +5857,7 @@ old
 code
 .
 int32_t
-candidates
+num_candidates
 =
 words
 [
@@ -5889,7 +5889,7 @@ chars
 ;
 if
 (
-candidates
+num_candidates
 >
 0
 )
@@ -7499,7 +7499,7 @@ the
 dictionary
 .
 int32_t
-candidates
+num_candidates
 =
 words
 [
@@ -7531,7 +7531,7 @@ chars
 ;
 if
 (
-candidates
+num_candidates
 >
 0
 )

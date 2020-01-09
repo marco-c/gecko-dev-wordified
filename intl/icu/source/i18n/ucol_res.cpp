@@ -2989,7 +2989,7 @@ internalErrorCode
 U_ZERO_ERROR
 ;
 int32_t
-length
+len
 ;
 const
 UChar
@@ -3003,7 +3003,7 @@ data
 Sequence
 "
 &
-length
+len
 &
 internalErrorCode
 )
@@ -3025,7 +3025,7 @@ setTo
 (
 TRUE
 s
-length
+len
 )
 ;
 }
@@ -3216,7 +3216,7 @@ internalErrorCode
 )
 ;
 int32_t
-length
+len
 ;
 const
 UChar
@@ -3231,7 +3231,7 @@ getAlias
 (
 )
 &
-length
+len
 &
 internalErrorCode
 )
@@ -3244,7 +3244,7 @@ internalErrorCode
 )
 &
 &
-length
+len
 <
 UPRV_LENGTHOF
 (
@@ -3256,7 +3256,7 @@ u_UCharsToChars
 (
 s
 defaultType
-length
+len
 +
 1
 )

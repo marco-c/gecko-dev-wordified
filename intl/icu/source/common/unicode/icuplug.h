@@ -1134,6 +1134,12 @@ h
 #
 if
 UCONFIG_ENABLE_PLUGINS
+|
+|
+defined
+(
+U_IN_DOXYGEN
+)
 /
 *
 =

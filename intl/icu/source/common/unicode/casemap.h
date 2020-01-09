@@ -1659,9 +1659,6 @@ UErrorCode
 errorCode
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -1850,7 +1847,7 @@ call
 see
 ucasemap_utf8ToLower
 *
-draft
+stable
 ICU
 60
 *
@@ -2066,7 +2063,7 @@ call
 see
 ucasemap_utf8ToUpper
 *
-draft
+stable
 ICU
 60
 *
@@ -2405,7 +2402,7 @@ call
 see
 ucasemap_utf8ToTitle
 *
-draft
+stable
 ICU
 60
 *
@@ -2647,7 +2644,7 @@ call
 see
 ucasemap_utf8FoldCase
 *
-draft
+stable
 ICU
 60
 *
@@ -2671,11 +2668,6 @@ UErrorCode
 errorCode
 )
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *

@@ -953,6 +953,11 @@ nor
 U_HAVE_INTTYPES_H
 *
 /
+/
+/
+/
+\
+cond
 #
 if
 !
@@ -1067,6 +1072,11 @@ uint64_t
 endif
 #
 endif
+/
+/
+/
+\
+endcond
 #
 endif
 /

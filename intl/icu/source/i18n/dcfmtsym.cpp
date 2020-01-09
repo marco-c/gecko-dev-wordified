@@ -3607,6 +3607,9 @@ Resolve
 codePointZero
 UChar32
 tempCodePointZero
+=
+-
+1
 ;
 for
 (

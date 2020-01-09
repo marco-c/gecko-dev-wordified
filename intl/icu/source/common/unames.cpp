@@ -3162,7 +3162,13 @@ ndigits
 length
 +
 =
+static_cast
+<
+uint16_t
+>
+(
 ndigits
+)
 ;
 WRITE_CHAR
 (

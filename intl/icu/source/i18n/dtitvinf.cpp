@@ -3646,7 +3646,7 @@ key
 ;
 UnicodeString
 *
-skeleton
+newSkeleton
 =
 (
 UnicodeString
@@ -3738,7 +3738,7 @@ i
 parseSkeleton
 (
 *
-skeleton
+newSkeleton
 skeletonFieldWidth
 )
 ;
@@ -3895,7 +3895,7 @@ bestDistance
 {
 bestSkeleton
 =
-skeleton
+newSkeleton
 ;
 bestDistance
 =

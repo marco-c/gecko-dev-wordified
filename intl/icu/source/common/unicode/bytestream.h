@@ -1778,9 +1778,6 @@ dest
 )
 {
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -1830,7 +1827,7 @@ reserve
 )
 d
 *
-draft
+stable
 ICU
 60
 *
@@ -1895,11 +1892,6 @@ initialAppendCapacity
 ;
 }
 }
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *

@@ -2823,7 +2823,7 @@ U_ZERO_ERROR
 ;
 AnyTransliterator
 *
-t
+tl
 =
 new
 AnyTransliterator
@@ -2844,7 +2844,7 @@ ec
 )
 {
 delete
-t
+tl
 ;
 }
 else
@@ -2854,7 +2854,7 @@ Transliterator
 :
 _registerInstance
 (
-t
+tl
 )
 ;
 Transliterator

@@ -1095,7 +1095,13 @@ u_charsToUChars
 (
 patternSpecification
 pattern
+static_cast
+<
+int32_t
+>
+(
 size
+)
 )
 ;
 /

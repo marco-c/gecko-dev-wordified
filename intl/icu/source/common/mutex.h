@@ -597,6 +597,8 @@ example
 /
 UMutex
 myMutex
+=
+U_MUTEX_INITIALIZER
 ;
 /
 /

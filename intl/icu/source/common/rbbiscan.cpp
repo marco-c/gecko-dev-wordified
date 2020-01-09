@@ -3220,8 +3220,6 @@ to
 destRules
 /
 /
-RBBINode
-*
 thisRule
 =
 fNodeStack

@@ -5332,6 +5332,17 @@ status
 else
 if
 (
+fDecimalQuantity
+-
+>
+getMagnitude
+(
+)
+!
+=
+INT32_MIN
+&
+&
 std
 :
 :

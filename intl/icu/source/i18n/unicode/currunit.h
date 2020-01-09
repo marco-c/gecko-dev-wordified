@@ -421,7 +421,7 @@ currency
 )
 .
 *
-draft
+stable
 ICU
 60
 *
@@ -546,9 +546,6 @@ CurrencyUnit
 other
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -600,7 +597,7 @@ a
 currency
 .
 *
-draft
+stable
 ICU
 60
 *
@@ -616,13 +613,6 @@ UErrorCode
 ec
 )
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 *
 *

@@ -9478,9 +9478,11 @@ suffixLimit
 }
 offset
 =
-(
+static_cast
+<
 int32_t
-)
+>
+(
 (
 keyLimit
 -
@@ -9491,6 +9493,7 @@ key
 suffixLimit
 -
 suffix
+)
 )
 ;
 if

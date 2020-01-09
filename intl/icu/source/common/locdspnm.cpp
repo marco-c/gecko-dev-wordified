@@ -487,6 +487,9 @@ char
 *
 )
 )
+!
+=
+0
 )
 {
 char
@@ -508,6 +511,9 @@ str
 +
 +
 )
+!
+=
+0
 )
 {
 *
@@ -882,9 +888,15 @@ path
 int32_t
 len
 =
+static_cast
+<
+int32_t
+>
+(
 uprv_strlen
 (
 path
+)
 )
 ;
 this
@@ -3772,7 +3784,7 @@ localeDisplayName
 const
 Locale
 &
-locale
+loc
 UnicodeString
 &
 result
@@ -3781,7 +3793,7 @@ const
 {
 if
 (
-locale
+loc
 .
 isBogus
 (
@@ -3806,7 +3818,7 @@ char
 *
 lang
 =
-locale
+loc
 .
 getLanguage
 (
@@ -3835,7 +3847,7 @@ char
 *
 script
 =
-locale
+loc
 .
 getScript
 (
@@ -3846,7 +3858,7 @@ char
 *
 country
 =
-locale
+loc
 .
 getCountry
 (
@@ -3857,7 +3869,7 @@ char
 *
 variant
 =
-locale
+loc
 .
 getVariant
 (
@@ -4183,7 +4195,7 @@ StringEnumeration
 >
 e
 (
-locale
+loc
 .
 createKeywords
 (
@@ -4255,7 +4267,7 @@ value
 =
 0
 ;
-locale
+loc
 .
 getKeywordValue
 (

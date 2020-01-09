@@ -8632,6 +8632,7 @@ str1
 +
 '
 \
+\
 uFFFE
 '
 +
@@ -9713,6 +9714,13 @@ ucol_setMaxVariable
 (
 )
 .
+*
+param
+coll
+collator
+to
+be
+set
 *
 param
 varTop

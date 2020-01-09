@@ -797,6 +797,9 @@ character
 .
 *
 internal
+(
+private
+)
 *
 /
 UStack
@@ -834,6 +837,9 @@ LangugageBreakEngine
 .
 *
 internal
+(
+private
+)
 *
 /
 UnhandledEngine
@@ -862,6 +868,9 @@ set
 .
 *
 internal
+(
+private
+)
 *
 /
 uint32_t
@@ -1203,6 +1212,9 @@ done
 .
 *
 internal
+(
+private
+)
 *
 /
 RuleBasedBreakIterator

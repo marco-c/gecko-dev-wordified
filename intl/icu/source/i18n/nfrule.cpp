@@ -401,7 +401,7 @@ decimalPoint
 (
 0
 )
-ruleText
+fRuleText
 (
 _ruleText
 )
@@ -425,7 +425,7 @@ NULL
 if
 (
 !
-ruleText
+fRuleText
 .
 isEmpty
 (
@@ -434,7 +434,7 @@ isEmpty
 {
 parseRuleDescriptor
 (
-ruleText
+fRuleText
 status
 )
 ;
@@ -1079,7 +1079,7 @@ description
 rule1
 -
 >
-ruleText
+fRuleText
 ;
 /
 /
@@ -2687,7 +2687,6 @@ val
 +
 p
 ;
-int64_t
 ll_10
 =
 10
@@ -3402,10 +3401,7 @@ status
 return
 ;
 }
-this
--
->
-ruleText
+fRuleText
 =
 ruleText
 ;
@@ -3461,10 +3457,7 @@ status
 int32_t
 pluralRuleStart
 =
-this
--
->
-ruleText
+fRuleText
 .
 indexOf
 (
@@ -3483,10 +3476,7 @@ pluralRuleStart
 =
 0
 ?
-this
--
->
-ruleText
+fRuleText
 .
 indexOf
 (
@@ -3511,10 +3501,7 @@ pluralRuleEnd
 int32_t
 endType
 =
-this
--
->
-ruleText
+fRuleText
 .
 indexOf
 (
@@ -3539,10 +3526,7 @@ return
 UnicodeString
 type
 (
-this
--
->
-ruleText
+fRuleText
 .
 tempSubString
 (
@@ -3618,10 +3602,7 @@ formatter
 createPluralFormat
 (
 pluralType
-this
--
->
-ruleText
+fRuleText
 .
 tempSubString
 (
@@ -3870,7 +3851,7 @@ the
 middle
 if
 (
-ruleText
+fRuleText
 .
 indexOf
 (
@@ -3911,7 +3892,7 @@ else
 UChar
 c
 =
-ruleText
+fRuleText
 .
 charAt
 (
@@ -3920,7 +3901,7 @@ subStart
 ;
 subEnd
 =
-ruleText
+fRuleText
 .
 indexOf
 (
@@ -3959,7 +3940,7 @@ subEnd
 &
 subEnd
 <
-ruleText
+fRuleText
 .
 length
 (
@@ -3968,7 +3949,7 @@ length
 1
 &
 &
-ruleText
+fRuleText
 .
 charAt
 (
@@ -4175,7 +4156,7 @@ subToken
 .
 setTo
 (
-ruleText
+fRuleText
 subStart
 subEnd
 +
@@ -4212,7 +4193,7 @@ from
 the
 rule
 text
-ruleText
+fRuleText
 .
 removeBetween
 (
@@ -4866,7 +4847,7 @@ i
 int32_t
 pos
 =
-ruleText
+fRuleText
 .
 indexOf
 (
@@ -5180,12 +5161,12 @@ rhs
 exponent
 &
 &
-ruleText
+fRuleText
 =
 =
 rhs
 .
-ruleText
+fRuleText
 &
 &
 util_equalSubstitutions
@@ -5640,7 +5621,7 @@ significant
 )
 if
 (
-ruleText
+fRuleText
 .
 charAt
 (
@@ -5705,7 +5686,7 @@ ruleTextCopy
 .
 setTo
 (
-ruleText
+fRuleText
 )
 ;
 UnicodeString
@@ -6104,7 +6085,7 @@ up
 int32_t
 pluralRuleStart
 =
-ruleText
+fRuleText
 .
 length
 (
@@ -6126,7 +6107,7 @@ toInsertInto
 insert
 (
 pos
-ruleText
+fRuleText
 )
 ;
 }
@@ -6134,7 +6115,7 @@ else
 {
 pluralRuleStart
 =
-ruleText
+fRuleText
 .
 indexOf
 (
@@ -6147,7 +6128,7 @@ gDollarOpenParenthesis
 int
 pluralRuleEnd
 =
-ruleText
+fRuleText
 .
 indexOf
 (
@@ -6170,7 +6151,7 @@ if
 (
 pluralRuleEnd
 <
-ruleText
+fRuleText
 .
 length
 (
@@ -6184,7 +6165,7 @@ toInsertInto
 insert
 (
 pos
-ruleText
+fRuleText
 .
 tempSubString
 (
@@ -6233,7 +6214,7 @@ toInsertInto
 insert
 (
 pos
-ruleText
+fRuleText
 .
 tempSubString
 (
@@ -6245,7 +6226,7 @@ pluralRuleStart
 }
 lengthOffset
 =
-ruleText
+fRuleText
 .
 length
 (
@@ -6483,7 +6464,7 @@ double
 int32_t
 pluralRuleStart
 =
-ruleText
+fRuleText
 .
 length
 (
@@ -6505,7 +6486,7 @@ toInsertInto
 insert
 (
 pos
-ruleText
+fRuleText
 )
 ;
 }
@@ -6513,7 +6494,7 @@ else
 {
 pluralRuleStart
 =
-ruleText
+fRuleText
 .
 indexOf
 (
@@ -6526,7 +6507,7 @@ gDollarOpenParenthesis
 int
 pluralRuleEnd
 =
-ruleText
+fRuleText
 .
 indexOf
 (
@@ -6549,7 +6530,7 @@ if
 (
 pluralRuleEnd
 <
-ruleText
+fRuleText
 .
 length
 (
@@ -6563,7 +6544,7 @@ toInsertInto
 insert
 (
 pos
-ruleText
+fRuleText
 .
 tempSubString
 (
@@ -6687,7 +6668,7 @@ toInsertInto
 insert
 (
 pos
-ruleText
+fRuleText
 .
 tempSubString
 (
@@ -6699,7 +6680,7 @@ pluralRuleStart
 }
 lengthOffset
 =
-ruleText
+fRuleText
 .
 length
 (
@@ -7693,7 +7674,7 @@ getPos
 (
 )
 :
-ruleText
+fRuleText
 .
 length
 (
@@ -7714,7 +7695,7 @@ getPos
 (
 )
 :
-ruleText
+fRuleText
 .
 length
 (
@@ -7774,7 +7755,7 @@ prefix
 .
 setTo
 (
-ruleText
+fRuleText
 0
 sub1Pos
 )
@@ -8491,7 +8472,7 @@ temp
 .
 setTo
 (
-ruleText
+fRuleText
 sub1Pos
 sub2Pos
 -
@@ -8659,9 +8640,9 @@ temp
 .
 setTo
 (
-ruleText
+fRuleText
 sub2Pos
-ruleText
+fRuleText
 .
 length
 (
@@ -8801,7 +8782,7 @@ for
 ICU4C
 port
 int32_t
-temp
+i_temp
 =
 pp2
 .
@@ -8819,7 +8800,7 @@ getIndex
 ;
 if
 (
-temp
+i_temp
 >
 parsePosition
 .
@@ -8832,7 +8813,7 @@ parsePosition
 .
 setErrorIndex
 (
-temp
+i_temp
 )
 ;
 }
@@ -8865,7 +8846,7 @@ for
 ICU4C
 port
 int32_t
-temp
+i_temp
 =
 sub1Pos
 +
@@ -8877,7 +8858,7 @@ getErrorIndex
 ;
 if
 (
-temp
+i_temp
 >
 parsePosition
 .
@@ -8890,7 +8871,7 @@ parsePosition
 .
 setErrorIndex
 (
-temp
+i_temp
 )
 ;
 }
@@ -12660,7 +12641,7 @@ start
 int32_t
 pluralRuleStart
 =
-ruleText
+fRuleText
 .
 indexOf
 (
@@ -12673,7 +12654,7 @@ gDollarOpenParenthesis
 int32_t
 pluralRuleSuffix
 =
-ruleText
+fRuleText
 .
 indexOf
 (
@@ -12699,7 +12680,7 @@ start
 UnicodeString
 prefix
 (
-ruleText
+fRuleText
 .
 tempSubString
 (
@@ -12711,7 +12692,7 @@ pluralRuleStart
 UnicodeString
 suffix
 (
-ruleText
+fRuleText
 .
 tempSubString
 (

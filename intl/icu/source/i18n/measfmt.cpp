@@ -533,7 +533,7 @@ constexpr
 int32_t
 MEAS_UNIT_COUNT
 =
-138
+142
 ;
 /
 /
@@ -4410,7 +4410,7 @@ pluralRules
 (
 NULL
 )
-width
+fWidth
 (
 w
 )
@@ -4459,7 +4459,7 @@ pluralRules
 (
 NULL
 )
-width
+fWidth
 (
 w
 )
@@ -4510,11 +4510,11 @@ other
 .
 pluralRules
 )
-width
+fWidth
 (
 other
 .
-width
+fWidth
 )
 listFormatter
 (
@@ -4635,11 +4635,11 @@ pluralRules
 pluralRules
 )
 ;
-width
+fWidth
 =
 other
 .
-width
+fWidth
 ;
 delete
 listFormatter
@@ -4697,7 +4697,7 @@ pluralRules
 (
 NULL
 )
-width
+fWidth
 (
 UMEASFMT_WIDTH_SHORT
 )
@@ -4868,12 +4868,12 @@ t
 equivalent
 if
 (
-width
+fWidth
 !
 =
 rhs
 .
-width
+fWidth
 )
 {
 return
@@ -5439,7 +5439,7 @@ status
 }
 if
 (
-width
+fWidth
 =
 =
 UMEASFMT_WIDTH_NUMERIC
@@ -5642,10 +5642,7 @@ width
 =
 getRegularWidth
 (
-this
--
->
-width
+fWidth
 )
 ;
 const
@@ -5958,7 +5955,7 @@ return
 ;
 }
 }
-width
+fWidth
 =
 w
 ;
@@ -5977,7 +5974,7 @@ listStyles
 [
 getRegularWidth
 (
-width
+fWidth
 )
 ]
 status
@@ -6102,7 +6099,7 @@ FALSE
 initMeasureFormat
 (
 locale
-width
+fWidth
 NULL
 status
 )
@@ -6288,7 +6285,7 @@ cache
 >
 getCurrencyFormat
 (
-width
+fWidth
 )
 -
 >
@@ -6339,7 +6336,7 @@ formatter
 getPluralFormatter
 (
 amtUnit
-width
+fWidth
 pluralForm
 status
 )
@@ -6602,9 +6599,6 @@ appendTo
 break
 ;
 }
-return
-appendTo
-;
 }
 static
 void
@@ -7561,7 +7555,7 @@ perUnitFormatter
 getFormatterOrNull
 (
 perUnit
-width
+fWidth
 PER_UNIT_INDEX
 )
 ;
@@ -7613,7 +7607,7 @@ perFormatter
 =
 getPerFormatter
 (
-width
+fWidth
 status
 )
 ;
@@ -7625,7 +7619,7 @@ pattern
 getPluralFormatter
 (
 perUnit
-width
+fWidth
 StandardPlural
 :
 :

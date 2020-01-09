@@ -3326,6 +3326,8 @@ return
 }
 int32_t
 count
+=
+0
 ;
 const
 UnicodeString

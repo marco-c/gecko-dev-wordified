@@ -4344,10 +4344,6 @@ tr
 >
 *
 <
-tr
->
-*
-<
 td
 >
 <
@@ -11182,7 +11178,7 @@ A
 rounding
 mode
 *
-draft
+stable
 ICU
 60
 *
@@ -11211,7 +11207,7 @@ A
 rounding
 mode
 *
-draft
+stable
 ICU
 60
 *
@@ -11699,7 +11695,7 @@ private
 NFRuleSet
 *
 *
-ruleSets
+fRuleSets
 ;
 UnicodeString
 *
@@ -11732,7 +11728,7 @@ NFRule
 defaultNaNRule
 ;
 ERoundingMode
-roundingMode
+fRoundingMode
 ;
 UBool
 lenient

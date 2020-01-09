@@ -2041,7 +2041,7 @@ i0
 )
 *
 /
-utrie2_swapAnyVersion
+utrie_swapAnyVersion
 (
 ds
 inData32
@@ -2214,7 +2214,7 @@ more
 properties
 *
 /
-utrie2_swapAnyVersion
+utrie_swapAnyVersion
 (
 ds
 inData32
@@ -2675,6 +2675,7 @@ UTRIE_INDEX_SHIFT
 )
 |
 |
+(
 2
 <
 =
@@ -2685,8 +2686,8 @@ formatVersion
 [
 0
 ]
-|
-|
+&
+&
 pInfo
 -
 >
@@ -2697,6 +2698,7 @@ formatVersion
 <
 =
 4
+)
 )
 )
 )
@@ -3080,7 +3082,7 @@ indexes
 UCASE_IX_TRIE_SIZE
 ]
 ;
-utrie2_swapAnyVersion
+utrie_swapAnyVersion
 (
 ds
 inBytes
@@ -3832,7 +3834,7 @@ indexes
 UBIDI_IX_TRIE_SIZE
 ]
 ;
-utrie2_swapAnyVersion
+utrie_swapAnyVersion
 (
 ds
 inBytes

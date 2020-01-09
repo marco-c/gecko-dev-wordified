@@ -10910,6 +10910,7 @@ i
 .
 valueLen
 <
+=
 keywordCapacity
 )
 {
@@ -13080,9 +13081,15 @@ updatedKeysAndValues
 append
 (
 nextEqualsign
+static_cast
+<
+int32_t
+>
+(
 keyValueTail
 -
 nextEqualsign
+)
 *
 status
 )
@@ -15576,6 +15583,9 @@ _
 '
 )
 )
+!
+=
+0
 )
 )
 {
@@ -21094,6 +21104,11 @@ t
 int32_t
 slen
 =
+static_cast
+<
+int32_t
+>
+(
 (
 (
 t
@@ -21102,6 +21117,7 @@ t
 )
 -
 s
+)
 )
 ;
 if

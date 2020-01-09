@@ -9766,7 +9766,7 @@ representation
 ?
 Transliterator
 *
-t
+tl
 =
 new
 RuleBasedTransliterator
@@ -9808,7 +9808,7 @@ FALSE
 ;
 if
 (
-t
+tl
 =
 =
 0
@@ -9823,7 +9823,7 @@ rbts
 >
 addElement
 (
-t
+tl
 status
 )
 ;

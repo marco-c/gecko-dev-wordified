@@ -2643,9 +2643,15 @@ getCountry
 int32_t
 regionLen
 =
+static_cast
+<
+int32_t
+>
+(
 uprv_strlen
 (
 region
+)
 )
 ;
 if

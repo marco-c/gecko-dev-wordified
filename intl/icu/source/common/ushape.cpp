@@ -10095,7 +10095,13 @@ i
 )
 ]
 +
+static_cast
+<
+UChar
+>
+(
 Shape
+)
 ;
 }
 }

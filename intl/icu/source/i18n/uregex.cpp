@@ -16007,7 +16007,7 @@ nativeIdx
 else
 {
 UErrorCode
-status
+newStatus
 =
 U_ZERO_ERROR
 ;
@@ -16024,7 +16024,7 @@ nativeIdx
 NULL
 0
 &
-status
+newStatus
 )
 ;
 }

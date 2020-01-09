@@ -244,9 +244,6 @@ ICU
 define
 U_FOLD_CASE_EXCLUDE_SPECIAL_I
 1
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -318,7 +315,7 @@ BreakIterator
 see
 U_TITLECASE_ADJUST_TO_CASED
 *
-draft
+stable
 ICU
 60
 *
@@ -394,7 +391,7 @@ BreakIterator
 see
 U_TITLECASE_ADJUST_TO_CASED
 *
-draft
+stable
 ICU
 60
 *
@@ -403,11 +400,6 @@ ICU
 define
 U_TITLECASE_SENTENCES
 0x40
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -643,9 +635,6 @@ ICU
 define
 U_TITLECASE_NO_BREAK_ADJUSTMENT
 0x200
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -809,7 +798,7 @@ together
 see
 U_TITLECASE_NO_BREAK_ADJUSTMENT
 *
-draft
+stable
 ICU
 60
 *
@@ -859,7 +848,7 @@ Edits
 see
 Normalizer2
 *
-draft
+stable
 ICU
 60
 *
@@ -913,7 +902,7 @@ Edits
 see
 Normalizer2
 *
-draft
+stable
 ICU
 60
 *
@@ -922,11 +911,6 @@ ICU
 define
 U_OMIT_UNCHANGED_TEXT
 0x4000
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *

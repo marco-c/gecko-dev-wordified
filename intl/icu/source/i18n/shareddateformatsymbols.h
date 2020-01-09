@@ -229,6 +229,10 @@ utypes
 h
 "
 #
+if
+!
+UCONFIG_NO_FORMATTING
+#
 include
 "
 sharedobject
@@ -320,5 +324,13 @@ SharedDateFormatSymbols
 }
 ;
 U_NAMESPACE_END
+#
+endif
+/
+*
+!
+UCONFIG_NO_FORMATTING
+*
+/
 #
 endif

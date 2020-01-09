@@ -1953,6 +1953,9 @@ next
 errorCode
 )
 )
+!
+=
+0
 )
 {
 bc_bLength
@@ -2061,6 +2064,9 @@ next
 errorCode
 )
 )
+!
+=
+0
 )
 {
 aLength

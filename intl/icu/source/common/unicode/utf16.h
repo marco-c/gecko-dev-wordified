@@ -1838,9 +1838,6 @@ c
 }
 \
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -2007,7 +2004,7 @@ variable
 see
 U16_GET_UNSAFE
 *
-draft
+stable
 ICU
 60
 *
@@ -2180,11 +2177,6 @@ c
 }
 \
 }
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 definitions
@@ -2699,9 +2691,6 @@ __c2
 }
 \
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -2859,7 +2848,7 @@ variable
 see
 U16_NEXT_UNSAFE
 *
-draft
+stable
 ICU
 60
 *
@@ -2974,11 +2963,6 @@ c
 }
 \
 }
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -4846,9 +4830,6 @@ c
 }
 \
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -5005,7 +4986,7 @@ variable
 see
 U16_PREV_UNSAFE
 *
-draft
+stable
 ICU
 60
 *
@@ -5121,11 +5102,6 @@ c
 }
 \
 }
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *

@@ -222,10 +222,6 @@ FPHDLIMP_H
 define
 FPHDLIMP_H
 #
-if
-!
-UCONFIG_NO_FORMATTING
-#
 include
 "
 unicode
@@ -234,6 +230,10 @@ utypes
 .
 h
 "
+#
+if
+!
+UCONFIG_NO_FORMATTING
 #
 include
 "
