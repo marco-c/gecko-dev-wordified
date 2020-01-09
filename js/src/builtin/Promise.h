@@ -2846,6 +2846,9 @@ reset
 }
 }
 ;
+class
+OffThreadPromiseRuntimeState
+;
 /
 /
 [
@@ -3582,6 +3585,14 @@ OffThreadPromiseTask
 )
 =
 delete
+;
+void
+unregister
+(
+OffThreadPromiseRuntimeState
+&
+state
+)
 ;
 protected
 :
