@@ -1547,6 +1547,7 @@ URIList
 ;
 }
 else
+{
 this
 .
 _title
@@ -1568,6 +1569,7 @@ _dummyItem
 =
 true
 ;
+}
 }
 break
 ;
