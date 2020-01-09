@@ -1732,9 +1732,6 @@ false
 ;
 #
 endif
-#
-ifdef
-WASM_CODEGEN_DEBUG
 SET_DEFAULT
 (
 enableWasmJitExit
@@ -1753,6 +1750,9 @@ enableWasmIonFastCalls
 true
 )
 ;
+#
+ifdef
+WASM_CODEGEN_DEBUG
 SET_DEFAULT
 (
 enableWasmImportCallSpew

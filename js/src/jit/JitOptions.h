@@ -397,9 +397,6 @@ enableTraceLogger
 ;
 #
 endif
-#
-ifdef
-WASM_CODEGEN_DEBUG
 bool
 enableWasmJitExit
 ;
@@ -409,6 +406,9 @@ enableWasmJitEntry
 bool
 enableWasmIonFastCalls
 ;
+#
+ifdef
+WASM_CODEGEN_DEBUG
 bool
 enableWasmImportCallSpew
 ;
