@@ -127,7 +127,7 @@ It
 fires
 up
 to
-three
+two
 times
 :
 /
@@ -142,19 +142,6 @@ g
 f
 is
 called
-;
-/
-/
--
-when
-we
-enter
-it
-to
-run
-to
-await
-1
 ;
 /
 /
@@ -180,7 +167,7 @@ when
 ;
 when
 <
-3
+2
 ;
 when
 +

@@ -2467,6 +2467,16 @@ id
 )
 )
 ;
+if
+(
+funbox
+-
+>
+isGenerator
+(
+)
+)
+{
 BINJS_TRY_DECL
 (
 dotGen
@@ -2529,6 +2539,7 @@ dotGen
 )
 )
 ;
+}
 }
 const
 bool
