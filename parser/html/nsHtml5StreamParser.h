@@ -536,11 +536,11 @@ LOCAL_FILE_UTF_8_BUFFER_SIZE
 *
 1024
 *
-50
+4
 ;
 /
 /
-50
+4
 MB
 friend
 class
