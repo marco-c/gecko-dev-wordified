@@ -6254,17 +6254,6 @@ handleRevert
 }
 /
 /
-TODO
-This
-should
-probably
-be
-handed
-via
-input
-.
-/
-/
 Ensure
 the
 start
@@ -6277,8 +6266,6 @@ for
 usability
 reasons
 .
-/
-/
 this
 .
 selectionStart
