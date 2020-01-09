@@ -177,9 +177,6 @@ nsWrapperCache
 h
 "
 class
-nsPresContext
-;
-class
 nsMediaQueryResultCacheKey
 ;
 namespace
@@ -191,6 +188,9 @@ StyleSheet
 namespace
 dom
 {
+class
+Document
+;
 class
 MediaList
 final
@@ -318,9 +318,9 @@ aMediaText
 bool
 Matches
 (
-nsPresContext
-*
-aPresContext
+const
+Document
+&
 )
 const
 ;
