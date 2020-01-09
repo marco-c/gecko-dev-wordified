@@ -2803,17 +2803,10 @@ renderRootDL
 >
 mRect
 =
-RoundedToInt
-(
 rects
 [
 renderRoot
 ]
-)
-.
-ToUnknownRect
-(
-)
 ;
 renderRootDL
 -
