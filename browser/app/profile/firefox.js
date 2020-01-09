@@ -12381,7 +12381,7 @@ Start
 the
 Mac
 sandbox
-immediately
+early
 during
 child
 process
@@ -12415,7 +12415,7 @@ mac
 .
 earlyinit
 "
-false
+true
 )
 ;
 #
