@@ -585,6 +585,13 @@ function
 )
 {
 }
+onContentBlockingEvent
+:
+function
+(
+)
+{
+}
 }
 )
 ;

@@ -1599,11 +1599,11 @@ let
 progressListener
 =
 {
-onSecurityChange
+onContentBlockingEvent
 (
 aWebProgress
 aRequest
-aState
+aEvent
 )
 {
 expected
@@ -1634,7 +1634,7 @@ addProgressListener
 progressListener
 wp
 .
-NOTIFY_SECURITY
+NOTIFY_CONTENT_BLOCKING
 )
 ;
 await

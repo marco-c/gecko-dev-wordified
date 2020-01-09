@@ -408,7 +408,7 @@ might
 think
 .
 Since
-onSecurityChange
+onContentBlockingEvent
 fires
 twice
 for

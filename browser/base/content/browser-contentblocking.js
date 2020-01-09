@@ -5678,7 +5678,7 @@ this
 .
 reportBreakageURL
 .
-value
+textContent
 =
 urlWithoutQuery
 ;
@@ -5789,9 +5789,9 @@ value
 )
 ;
 }
-onSecurityChange
+onContentBlockingEvent
 (
-state
+event
 webProgress
 isSimulated
 )
@@ -5951,7 +5951,7 @@ blocker
 .
 isBlocking
 (
-state
+event
 )
 ;
 blocker
@@ -5977,7 +5977,7 @@ blocker
 .
 isDetected
 (
-state
+event
 )
 ;
 blocker

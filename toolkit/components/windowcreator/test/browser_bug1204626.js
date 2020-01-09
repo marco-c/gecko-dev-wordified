@@ -403,6 +403,11 @@ onSecurityChange
 )
 {
 }
+onContentBlockingEvent
+(
+)
+{
+}
 onStateChange
 (
 _wbp

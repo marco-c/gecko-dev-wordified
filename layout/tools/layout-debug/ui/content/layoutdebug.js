@@ -478,6 +478,16 @@ aState
 )
 {
 }
+onContentBlockingEvent
+:
+function
+(
+aWebProgress
+aRequest
+aEvent
+)
+{
+}
 /
 /
 non

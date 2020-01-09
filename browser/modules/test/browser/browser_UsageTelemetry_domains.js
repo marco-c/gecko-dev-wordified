@@ -169,6 +169,11 @@ onStatusChange
 )
 {
 }
+onContentBlockingEvent
+(
+)
+{
+}
 onLocationChange
 (
 aWebProgress

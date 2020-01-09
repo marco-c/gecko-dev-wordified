@@ -9035,11 +9035,11 @@ NOTIFY_LISTENERS
 nsIWebProgress
 :
 :
-NOTIFY_SECURITY
+NOTIFY_CONTENT_BLOCKING
 listener
 -
 >
-OnSecurityChange
+OnContentBlockingEvent
 (
 webProgress
 request

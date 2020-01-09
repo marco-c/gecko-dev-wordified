@@ -6148,10 +6148,10 @@ aPopupWindowFeatures
 ;
 virtual
 void
-NotifyContentBlockingState
+NotifyContentBlockingEvent
 (
 unsigned
-aState
+aEvent
 nsIChannel
 *
 aChannel

@@ -424,6 +424,14 @@ state
 )
 {
 }
+onContentBlockingEvent
+(
+aWebProgress
+aRequest
+event
+)
+{
+}
 onStatusChange
 (
 aWebProgress

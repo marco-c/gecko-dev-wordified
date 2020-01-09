@@ -452,6 +452,7 @@ onProgressChange64
 onStateChange
 onLocationChange
 onSecurityChange
+onContentBlockingEvent
 and
 onRefreshAttempted
 notifications
@@ -500,7 +501,15 @@ onSecurityChange
 (
 aWebProgress
 aRequest
-state
+aState
+)
+{
+}
+onContentBlockingEvent
+(
+aWebProgress
+aRequest
+aEvent
 )
 {
 }

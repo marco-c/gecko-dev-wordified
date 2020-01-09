@@ -3760,7 +3760,7 @@ GetChannel
 pwin
 -
 >
-NotifyContentBlockingState
+NotifyContentBlockingEvent
 (
 blockReason
 channel
@@ -9438,7 +9438,7 @@ eBlock
 pwin
 -
 >
-NotifyContentBlockingState
+NotifyContentBlockingEvent
 (
 aRejectedReason
 aChannel
@@ -9457,7 +9457,7 @@ aRejectedReason
 pwin
 -
 >
-NotifyContentBlockingState
+NotifyContentBlockingEvent
 (
 nsIWebProgressListener
 :
@@ -9683,7 +9683,7 @@ eBlock
 pwin
 -
 >
-NotifyContentBlockingState
+NotifyContentBlockingEvent
 (
 aRejectedReason
 channel
@@ -9702,7 +9702,7 @@ aRejectedReason
 pwin
 -
 >
-NotifyContentBlockingState
+NotifyContentBlockingEvent
 (
 nsIWebProgressListener
 :

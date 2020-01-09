@@ -684,6 +684,16 @@ function
 ;
 this
 .
+onContentBlockingEvent
+=
+function
+(
+)
+{
+}
+;
+this
+.
 onStateChange
 =
 function

@@ -160,6 +160,11 @@ onStatusChange
 )
 {
 }
+onContentBlockingEvent
+(
+)
+{
+}
 QueryInterface
 :
 ChromeUtils

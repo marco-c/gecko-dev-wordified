@@ -1276,6 +1276,11 @@ onSecurityChange
 )
 {
 }
+onContentBlockingEvent
+(
+)
+{
+}
 /
 /
 nsIWebProgressListener2

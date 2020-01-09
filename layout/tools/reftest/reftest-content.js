@@ -1920,6 +1920,13 @@ function
 )
 {
 }
+onContentBlockingEvent
+:
+function
+(
+)
+{
+}
 }
 )
 ;
