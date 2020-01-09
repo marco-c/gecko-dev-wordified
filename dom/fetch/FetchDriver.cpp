@@ -4797,6 +4797,9 @@ nsContentUtils
 IsTailingEnabled
 (
 )
+&
+&
+cos
 )
 {
 cos
