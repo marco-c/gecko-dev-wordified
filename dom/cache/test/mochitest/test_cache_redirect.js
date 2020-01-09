@@ -1,3 +1,12 @@
+/
+*
+global
+context
+testDone
+:
+true
+*
+/
 let
 cache
 ;

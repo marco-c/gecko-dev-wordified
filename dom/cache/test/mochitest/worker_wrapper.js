@@ -1,4 +1,12 @@
 /
+*
+eslint
+-
+env
+worker
+*
+/
+/
 /
 Any
 copyright
@@ -587,7 +595,7 @@ script
 }
 catch
 (
-e
+err
 )
 {
 client
@@ -623,7 +631,7 @@ error
 :
 "
 +
-e
+err
 .
 message
 }

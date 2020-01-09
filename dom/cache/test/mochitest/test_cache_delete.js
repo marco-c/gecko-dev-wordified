@@ -1,3 +1,12 @@
+/
+*
+global
+context
+testDone
+:
+true
+*
+/
 var
 name
 =
@@ -6,9 +15,6 @@ delete
 "
 +
 context
-;
-var
-c
 ;
 function
 setupTest
