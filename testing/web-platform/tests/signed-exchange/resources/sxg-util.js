@@ -49,6 +49,7 @@ openSXGInIframeAndWaitForMessage
 (
 test_object
 url
+referrerPolicy
 )
 {
 return
@@ -109,6 +110,7 @@ url
 '
 sxg_iframe
 '
+referrerPolicy
 )
 ;
 const
@@ -169,6 +171,7 @@ withIframe
 (
 url
 name
+referrerPolicy
 )
 {
 return
@@ -206,6 +209,22 @@ name
 =
 name
 ;
+if
+(
+referrerPolicy
+!
+=
+=
+undefined
+)
+{
+frame
+.
+referrerPolicy
+=
+referrerPolicy
+;
+}
 frame
 .
 onload
