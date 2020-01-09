@@ -960,7 +960,7 @@ tag
 ;
 }
 const
-nsACString
+nsCString
 &
 Locale
 :
@@ -975,7 +975,7 @@ mLanguage
 ;
 }
 const
-nsACString
+nsCString
 &
 Locale
 :
@@ -990,7 +990,7 @@ mScript
 ;
 }
 const
-nsACString
+nsCString
 &
 Locale
 :

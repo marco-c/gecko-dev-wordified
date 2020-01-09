@@ -605,7 +605,7 @@ aLocale
 }
 ;
 const
-nsACString
+nsCString
 &
 GetLanguage
 (
@@ -613,7 +613,7 @@ GetLanguage
 const
 ;
 const
-nsACString
+nsCString
 &
 GetScript
 (
@@ -621,7 +621,7 @@ GetScript
 const
 ;
 const
-nsACString
+nsCString
 &
 GetRegion
 (
