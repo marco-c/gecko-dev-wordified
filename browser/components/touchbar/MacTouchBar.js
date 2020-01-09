@@ -868,7 +868,9 @@ Focus
 title
 :
 "
-focus
+close
+-
+window
 "
 image
 :
