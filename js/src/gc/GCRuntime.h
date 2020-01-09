@@ -2458,10 +2458,6 @@ incMajorGcNumber
 +
 majorGCNumber
 ;
-+
-+
-number
-;
 }
 int64_t
 defaultSliceBudget
@@ -5143,6 +5139,9 @@ on
 every
 GC
 slice
+or
+minor
+collection
 .
 *
 /
