@@ -18385,17 +18385,6 @@ getInlineReturnType
 MIRType
 :
 :
-ObjectOrNull
-&
-&
-getInlineReturnType
-(
-)
-!
-=
-MIRType
-:
-:
 Object
 )
 {
@@ -18484,9 +18473,6 @@ getArg
 0
 )
 clasp
-getInlineReturnType
-(
-)
 )
 ;
 current
