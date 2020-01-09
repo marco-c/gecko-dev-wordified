@@ -11103,7 +11103,10 @@ LOGFOCUS
 Remote
 browser
 deactivated
+%
+p
 "
+remote
 )
 )
 ;
@@ -11154,7 +11157,10 @@ of
 process
 iframe
 deactivated
+%
+p
 "
+bbc
 )
 )
 ;
@@ -12765,7 +12771,10 @@ LOGFOCUS
 Remote
 browser
 activated
+%
+p
 "
+remote
 )
 )
 ;
@@ -12816,7 +12825,10 @@ of
 process
 iframe
 activated
+%
+p
 "
+bbc
 )
 )
 ;
