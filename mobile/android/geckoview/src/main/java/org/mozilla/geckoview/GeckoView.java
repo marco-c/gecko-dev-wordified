@@ -2777,11 +2777,9 @@ updated
 .
 mRuntime
 .
-orientationChanged
+configurationChanged
 (
 newConfig
-.
-orientation
 )
 ;
 }
