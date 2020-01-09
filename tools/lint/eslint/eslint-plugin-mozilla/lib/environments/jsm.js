@@ -442,6 +442,11 @@ StructuredCloneHolder
 :
 false
 "
+TelemetryStopwatch
+"
+:
+false
+"
 TCPServerSocket
 "
 :
