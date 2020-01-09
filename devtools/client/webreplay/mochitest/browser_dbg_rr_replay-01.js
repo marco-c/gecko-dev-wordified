@@ -250,13 +250,18 @@ HitRecordingEndpoint
 )
 ;
 const
+{
+target
 toolbox
+}
 =
 await
 attachDebugger
 (
 replayingTab
 )
+;
+const
 client
 =
 toolbox
@@ -295,7 +300,7 @@ client
 await
 checkEvaluateInTopFrame
 (
-client
+target
 "
 number
 "
@@ -312,7 +317,7 @@ client
 await
 checkEvaluateInTopFrame
 (
-client
+target
 "
 number
 "
@@ -329,7 +334,7 @@ client
 await
 checkEvaluateInTopFrame
 (
-client
+target
 "
 number
 "

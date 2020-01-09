@@ -133,6 +133,7 @@ const
 threadClient
 tab
 toolbox
+target
 }
 =
 dbg
@@ -162,7 +163,7 @@ threadClient
 await
 checkEvaluateInTopFrame
 (
-threadClient
+target
 "
 number
 "
@@ -172,7 +173,7 @@ number
 await
 checkEvaluateInTopFrameThrows
 (
-threadClient
+target
 "
 window
 .
@@ -186,7 +187,7 @@ alert
 await
 checkEvaluateInTopFrame
 (
-threadClient
+target
 "
 number
 "
@@ -196,7 +197,7 @@ number
 await
 checkEvaluateInTopFrameThrows
 (
-threadClient
+target
 "
 window
 .
@@ -210,7 +211,7 @@ alert
 await
 checkEvaluateInTopFrame
 (
-threadClient
+target
 "
 number
 "
@@ -220,7 +221,7 @@ number
 await
 checkEvaluateInTopFrame
 (
-threadClient
+target
 "
 testStepping2
 (

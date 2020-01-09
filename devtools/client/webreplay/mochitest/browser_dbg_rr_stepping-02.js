@@ -156,7 +156,9 @@ RecordingFinished
 )
 ;
 const
+{
 toolbox
+}
 =
 await
 attachDebugger
