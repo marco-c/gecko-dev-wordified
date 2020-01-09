@@ -128,7 +128,7 @@ chrome
 :
 /
 /
-global
+mozapps
 /
 skin
 /
@@ -749,7 +749,7 @@ chrome
 :
 /
 /
-global
+mozapps
 /
 skin
 /
@@ -809,7 +809,7 @@ chrome
 :
 /
 /
-global
+mozapps
 /
 skin
 /
