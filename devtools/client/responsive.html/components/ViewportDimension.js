@@ -931,11 +931,6 @@ invalid
 size
 :
 4
-type
-:
-"
-number
-"
 value
 :
 this
@@ -1036,11 +1031,6 @@ invalid
 size
 :
 4
-type
-:
-"
-number
-"
 value
 :
 this
