@@ -317,6 +317,8 @@ exist
 >
 #
 Build
+GeckoView
+/
 Firefox
 for
 Android
@@ -428,6 +430,8 @@ exist
 >
 #
 Build
+GeckoView
+/
 Firefox
 for
 Android

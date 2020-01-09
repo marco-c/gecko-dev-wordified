@@ -254,6 +254,11 @@ Firefox
 for
 Android
 frontends
+or
+the
+GeckoView
+Java
+API
 .
 They
 are
@@ -339,6 +344,8 @@ browser
     
 (
 '
+GeckoView
+/
 Firefox
 for
 Android
@@ -352,6 +359,8 @@ mobile_android_artifact_mode
     
 (
 '
+GeckoView
+/
 Firefox
 for
 Android
