@@ -1005,6 +1005,14 @@ STATUS_SIGNED_IN
 }
 state
 .
+uid
+=
+userData
+.
+uid
+;
+state
+.
 email
 =
 userData
