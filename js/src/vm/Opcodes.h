@@ -497,6 +497,7 @@ is
 performed
 .
 *
+*
 Category
 :
 Other
@@ -525,7 +526,6 @@ NULL
 JOF_BYTE
 )
 \
-\
 /
 *
 Long
@@ -548,6 +548,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -596,6 +597,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -689,6 +691,7 @@ are
 deoptimized
 .
 *
+*
 Category
 :
 Statements
@@ -737,6 +740,7 @@ pushed
 by
 JSOP_ENTERWITH
 .
+*
 *
 Category
 :
@@ -797,6 +801,7 @@ rval
 '
 .
 *
+*
 Category
 :
 Statements
@@ -845,6 +850,7 @@ the
 current
 bytecode
 .
+*
 *
 Category
 :
@@ -897,8 +903,8 @@ boolean
 if
 the
 result
-is
 *
+is
 '
 false
 '
@@ -947,6 +953,7 @@ execute
 the
 return
 .
+*
 *
 Category
 :
@@ -1004,8 +1011,8 @@ boolean
 if
 the
 result
-is
 *
+is
 '
 true
 '
@@ -1021,6 +1028,7 @@ the
 current
 bytecode
 .
+*
 *
 Category
 :
@@ -1058,7 +1066,6 @@ JOF_JUMP
 |
 JOF_IC
 )
-\
 \
 /
 *
@@ -1122,6 +1129,7 @@ rest
 parameter
 .
 *
+*
 Category
 :
 Variables
@@ -1157,7 +1165,6 @@ NULL
 JOF_BYTE
 )
 \
-\
 /
 *
 *
@@ -1183,6 +1190,7 @@ increment
 /
 decrement
 .
+*
 *
 Category
 :
@@ -1235,6 +1243,7 @@ from
 the
 stack
 .
+*
 *
 Category
 :
@@ -1293,7 +1302,6 @@ NULL
 JOF_UINT16
 )
 \
-\
 /
 *
 More
@@ -1319,6 +1327,7 @@ on
 the
 stack
 .
+*
 *
 Category
 :
@@ -1369,6 +1378,7 @@ the
 stack
 .
 *
+*
 Category
 :
 Operators
@@ -1407,7 +1417,6 @@ NULL
 4
 JOF_BYTE
 )
-\
 \
 /
 *
@@ -1448,6 +1457,7 @@ error
 message
 .
 *
+*
 Category
 :
 Statements
@@ -1484,7 +1494,6 @@ NULL
 JOF_UINT8
 )
 \
-\
 /
 *
 *
@@ -1517,8 +1526,8 @@ the
 two
 operands
 converting
-*
 both
+*
 to
 32
 -
@@ -1528,6 +1537,7 @@ integers
 if
 necessary
 .
+*
 *
 Category
 :
@@ -1630,6 +1640,7 @@ of
 comparing
 them
 .
+*
 *
 Category
 :
@@ -1805,6 +1816,7 @@ the
 operands
 .
 *
+*
 Category
 :
 Operators
@@ -1900,6 +1912,7 @@ rval
 '
 .
 *
+*
 Category
 :
 Operators
@@ -1980,6 +1993,7 @@ rval
 '
 .
 *
+*
 Category
 :
 Operators
@@ -2055,6 +2069,7 @@ operation
 to
 them
 .
+*
 *
 Category
 :
@@ -2174,6 +2189,7 @@ val
 '
 .
 *
+*
 Category
 :
 Operators
@@ -2238,6 +2254,7 @@ val
 '
 .
 *
+*
 Category
 :
 Operators
@@ -2300,6 +2317,7 @@ pushes
 val
 '
 .
+*
 *
 Category
 :
@@ -2377,6 +2395,7 @@ a
 number
 .
 )
+*
 *
 Category
 :
@@ -2483,6 +2502,7 @@ this
 opcode
 .
 *
+*
 Category
 :
 Variables
@@ -2541,8 +2561,8 @@ pushes
 '
 true
 '
-onto
 *
+onto
 the
 stack
 if
@@ -2553,6 +2573,7 @@ false
 if
 not
 .
+*
 *
 Category
 :
@@ -2614,8 +2635,8 @@ and
 '
 obj
 '
-*
 deletes
+*
 '
 propval
 '
@@ -2640,6 +2661,7 @@ false
 if
 not
 .
+*
 *
 Category
 :
@@ -2701,6 +2723,7 @@ val
 '
 .
 *
+*
 Category
 :
 Operators
@@ -2758,6 +2781,7 @@ undefined
 '
 .
 *
+*
 Category
 :
 Operators
@@ -2790,7 +2814,6 @@ NULL
 1
 JOF_BYTE
 )
-\
 \
 /
 *
@@ -2837,6 +2860,7 @@ contains
 actual
 arguments
 .
+*
 *
 Category
 :
@@ -2913,6 +2937,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -2999,8 +3024,8 @@ one
 invokes
 the
 function
-*
 with
+*
 '
 this
 '
@@ -3016,6 +3041,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -3061,7 +3087,6 @@ JOF_CHECKSLOPPY
 JOF_IC
 )
 \
-\
 /
 *
 *
@@ -3076,6 +3101,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -3159,7 +3185,6 @@ NULL
 JOF_UINT24
 )
 \
-\
 /
 *
 *
@@ -3174,6 +3199,7 @@ the
 operand
 stack
 .
+*
 *
 Category
 :
@@ -3222,7 +3248,6 @@ NULL
 JOF_UINT8
 )
 \
-\
 /
 *
 *
@@ -3262,6 +3287,7 @@ property
 deletion
 requirements
 .
+*
 *
 Category
 :
@@ -3325,8 +3351,8 @@ and
 '
 obj
 '
-*
 and
+*
 attempts
 to
 delete
@@ -3344,8 +3370,8 @@ Pushes
 true
 '
 onto
-*
 the
+*
 stack
 on
 success
@@ -3361,6 +3387,7 @@ property
 deletion
 requirements
 .
+*
 *
 Category
 :
@@ -3459,6 +3486,7 @@ semantics
 )
 .
 *
+*
 Category
 :
 Literals
@@ -3550,6 +3578,7 @@ strict
 mode
 semantics
 .
+*
 *
 Category
 :
@@ -3644,8 +3673,8 @@ one
 invokes
 the
 function
-*
 with
+*
 '
 this
 '
@@ -3661,6 +3690,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -3726,8 +3756,10 @@ either
 null
 or
 a
+*
 constructor
 .
+*
 *
 Category
 :
@@ -3785,6 +3817,7 @@ the
 stack
 .
 *
+*
 Category
 :
 Statements
@@ -3821,7 +3854,6 @@ NULL
 JOF_OBJECT
 )
 \
-\
 /
 *
 *
@@ -3839,6 +3871,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -3924,6 +3957,7 @@ the
 stack
 .
 *
+*
 Category
 :
 Literals
@@ -4004,6 +4038,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -4091,9 +4126,9 @@ val
 '
 onto
 the
-*
 stack
 .
+*
 *
 Category
 :
@@ -4183,9 +4218,9 @@ val
 '
 onto
 the
-*
 stack
 .
+*
 Throws
 a
 TypeError
@@ -4196,9 +4231,9 @@ fails
 per
 strict
 mode
-*
 semantics
 .
+*
 *
 Category
 :
@@ -4271,6 +4306,7 @@ the
 *
 stack
 .
+*
 *
 Category
 :
@@ -4353,8 +4389,10 @@ its
 value
 onto
 the
+*
 stack
 .
+*
 *
 Category
 :
@@ -4410,6 +4448,7 @@ the
 stack
 .
 *
+*
 Category
 :
 Literals
@@ -4455,6 +4494,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -4503,6 +4543,7 @@ the
 stack
 .
 *
+*
 Category
 :
 Literals
@@ -4549,6 +4590,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -4597,6 +4639,7 @@ the
 stack
 .
 *
+*
 Category
 :
 Literals
@@ -4635,6 +4678,7 @@ Pushes
 '
 JS_IS_CONSTRUCTING
 '
+*
 *
 Category
 :
@@ -4681,6 +4725,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -4760,6 +4805,7 @@ current
 bytecode
 .
 *
+*
 Category
 :
 Statements
@@ -4816,10 +4862,10 @@ if
 the
 result
 is
+*
 '
 false
 '
-*
 jumps
 to
 a
@@ -4832,6 +4878,7 @@ the
 current
 bytecode
 .
+*
 *
 Category
 :
@@ -4872,7 +4919,6 @@ JOF_DETECTING
 |
 JOF_IC
 )
-\
 \
 /
 *
@@ -4918,6 +4964,7 @@ from
 the
 current
 bytecode
+*
 unless
 the
 offset
@@ -4952,6 +4999,7 @@ has
 variable
 length
 .
+*
 *
 Category
 :
@@ -5018,7 +5066,6 @@ JOF_DETECTING
 JOF_IC
 )
 \
-\
 /
 *
 *
@@ -5040,6 +5087,7 @@ executes
 multiple
 times
 .
+*
 *
 Category
 :
@@ -5072,7 +5120,6 @@ NULL
 0
 JOF_BYTE
 )
-\
 \
 /
 *
@@ -5111,6 +5158,7 @@ the
 two
 values
 .
+*
 *
 Category
 :
@@ -5182,7 +5230,6 @@ JOF_DETECTING
 JOF_IC
 )
 \
-\
 /
 *
 *
@@ -5242,7 +5289,6 @@ NULL
 JOF_UINT16
 )
 \
-\
 /
 *
 *
@@ -5266,8 +5312,8 @@ as
 val
 '
 and
-pushes
 *
+pushes
 '
 iter
 '
@@ -5280,6 +5326,7 @@ for
 val
 '
 .
+*
 *
 Category
 :
@@ -5472,6 +5519,7 @@ closing
 it
 .
 *
+*
 Category
 :
 Statements
@@ -5510,7 +5558,6 @@ JOF_BYTE
 JOF_IC
 )
 \
-\
 /
 *
 *
@@ -5545,6 +5592,7 @@ f
 apply
 '
 .
+*
 *
 Category
 :
@@ -5611,7 +5659,6 @@ JOF_TYPESET
 JOF_IC
 )
 \
-\
 /
 *
 *
@@ -5627,6 +5674,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -5663,7 +5711,6 @@ NULL
 JOF_OBJECT
 )
 \
-\
 /
 *
 *
@@ -5675,6 +5722,7 @@ off
 the
 stack
 .
+*
 *
 Category
 :
@@ -5710,7 +5758,6 @@ NULL
 JOF_BYTE
 )
 \
-\
 /
 *
 *
@@ -5737,6 +5784,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -5860,7 +5908,6 @@ NULL
 JOF_BYTE
 )
 \
-\
 /
 *
 *
@@ -5887,6 +5934,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -5960,6 +6008,7 @@ stack
 value
 .
 *
+*
 Category
 :
 Variables
@@ -6013,6 +6062,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -6068,6 +6118,7 @@ given
 local
 .
 *
+*
 Category
 :
 Variables
@@ -6111,7 +6162,6 @@ JOF_NAME
 JOF_DETECTING
 )
 \
-\
 /
 *
 *
@@ -6128,6 +6178,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -6163,7 +6214,6 @@ NULL
 1
 JOF_UINT16
 )
-\
 \
 /
 *
@@ -6206,6 +6256,7 @@ JSOP_NEWOBJECT
 during
 emit
 .
+*
 *
 Category
 :
@@ -6269,6 +6320,7 @@ which
 is
 preallocated
 .
+*
 *
 Category
 :
@@ -6345,6 +6397,7 @@ in
 directly
 .
 *
+*
 Category
 :
 Literals
@@ -6382,7 +6435,6 @@ JOF_OBJECT
 JOF_IC
 )
 \
-\
 /
 *
 *
@@ -6411,8 +6463,8 @@ be
 the
 home
 object
-does
 *
+does
 the
 set
 and
@@ -6422,6 +6474,7 @@ on
 the
 stack
 .
+*
 *
 Category
 :
@@ -6472,7 +6525,6 @@ NULL
 2
 JOF_UINT8
 )
-\
 \
 /
 *
@@ -6535,6 +6587,7 @@ the
 stack
 .
 *
+*
 Category
 :
 Literals
@@ -6579,7 +6632,6 @@ JOF_DETECTING
 |
 JOF_IC
 )
-\
 \
 /
 *
@@ -6645,6 +6697,7 @@ the
 stack
 .
 *
+*
 Category
 :
 Literals
@@ -6688,7 +6741,6 @@ JOF_DETECTING
 |
 JOF_IC
 )
-\
 \
 /
 *
@@ -6758,6 +6810,7 @@ spreadcall
 arguments
 .
 *
+*
 Category
 :
 Literals
@@ -6804,7 +6857,6 @@ JOF_PROPINIT
 |
 JOF_IC
 )
-\
 \
 /
 *
@@ -6855,6 +6907,7 @@ the
 stack
 .
 *
+*
 Category
 :
 Literals
@@ -6899,7 +6952,6 @@ JOF_DETECTING
 |
 JOF_IC
 )
-\
 \
 /
 *
@@ -6949,6 +7001,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -7041,6 +7094,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -7153,6 +7207,7 @@ the
 stack
 .
 *
+*
 Category
 :
 Literals
@@ -7264,6 +7319,7 @@ the
 stack
 .
 *
+*
 Category
 :
 Literals
@@ -7321,10 +7377,10 @@ onto
 the
 stack
 .
+*
 Defines
 the
 raw
-*
 property
 specified
 by
@@ -7335,6 +7391,7 @@ on
 the
 call
 site
+*
 object
 and
 freezes
@@ -7342,15 +7399,16 @@ both
 the
 call
 site
-*
 object
 as
 well
 as
 its
 raw
+*
 property
 .
+*
 *
 Category
 :
@@ -7386,7 +7444,6 @@ NULL
 1
 JOF_OBJECT
 )
-\
 \
 /
 *
@@ -7455,7 +7512,6 @@ NULL
 JOF_OBJECT
 )
 \
-\
 /
 *
 *
@@ -7474,6 +7530,7 @@ the
 *
 stack
 .
+*
 *
 Category
 :
@@ -7532,6 +7589,7 @@ as
 the
 receiver
 .
+*
 *
 Category
 :
@@ -7601,10 +7659,10 @@ and
 obj
 '
 and
+*
 '
 receiver
 '
-*
 and
 performs
 '
@@ -7621,9 +7679,9 @@ val
 back
 onto
 the
+*
 stack
 .
-*
 Throws
 a
 TypeError
@@ -7637,9 +7695,11 @@ failed
 per
 strict
 mode
+*
 semantics
 )
 .
+*
 *
 Category
 :
@@ -7689,7 +7749,6 @@ JOF_DETECTING
 JOF_CHECKSTRICT
 )
 \
-\
 /
 *
 *
@@ -7723,8 +7782,8 @@ instruction
 after
 this
 statement
-*
 the
+*
 one
 '
 break
@@ -7739,6 +7798,7 @@ IonMonkey
 uses
 this
 .
+*
 *
 Category
 :
@@ -7773,7 +7833,6 @@ NULL
 0
 JOF_JUMP
 )
-\
 \
 /
 *
@@ -7816,6 +7875,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -7864,7 +7924,6 @@ JOF_DETECTING
 |
 JOF_CHECKSLOPPY
 )
-\
 \
 /
 *
@@ -7940,8 +7999,8 @@ arguments
 as
 formal
 args
-*
 to
+*
 '
 callee
 '
@@ -7965,6 +8024,7 @@ f
 apply
 '
 .
+*
 *
 Category
 :
@@ -8031,7 +8091,6 @@ JOF_TYPESET
 JOF_IC
 )
 \
-\
 /
 *
 *
@@ -8055,6 +8114,7 @@ for
 some
 loop
 .
+*
 *
 Category
 :
@@ -8087,7 +8147,6 @@ NULL
 0
 JOF_BYTE
 )
-\
 \
 /
 *
@@ -8128,13 +8187,14 @@ not
 found
 pushes
 global
-*
 lexical
+*
 environment
 onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -8192,8 +8252,8 @@ assigns
 value
 to
 the
-*
 given
+*
 name
 and
 pushes
@@ -8203,6 +8263,7 @@ back
 on
 the
 stack
+*
 *
 Category
 :
@@ -8253,7 +8314,6 @@ JOF_CHECKSLOPPY
 JOF_IC
 )
 \
-\
 /
 *
 Exception
@@ -8289,6 +8349,7 @@ raises
 error
 .
 *
+*
 Category
 :
 Statements
@@ -8320,7 +8381,6 @@ NULL
 0
 JOF_BYTE
 )
-\
 \
 /
 *
@@ -8377,6 +8437,7 @@ the
 top
 value
 .
+*
 *
 Category
 :
@@ -8463,6 +8524,7 @@ an
 object
 .
 *
+*
 Category
 :
 Operators
@@ -8503,13 +8565,13 @@ JOF_BYTE
 JOF_IC
 )
 \
-\
 /
 *
 *
 Invokes
 debugger
 .
+*
 *
 Category
 :
@@ -8542,7 +8604,6 @@ NULL
 0
 JOF_BYTE
 )
-\
 \
 /
 *
@@ -8660,6 +8721,7 @@ are
 *
 popped
 .
+*
 *
 Category
 :
@@ -8803,7 +8865,6 @@ NULL
 JOF_BYTE
 )
 \
-\
 /
 *
 More
@@ -8873,6 +8934,7 @@ yield
 '
 .
 *
+*
 Category
 :
 Statements
@@ -8907,7 +8969,6 @@ NULL
 JOF_BYTE
 )
 \
-\
 /
 *
 *
@@ -8923,6 +8984,7 @@ line
 '
 mapping
 .
+*
 *
 Category
 :
@@ -8953,7 +9015,6 @@ NULL
 0
 JOF_UINT32
 )
-\
 \
 /
 *
@@ -8990,6 +9051,7 @@ optimized
 using
 JSOP_TABLESWITCH
 .
+*
 *
 For
 a
@@ -9088,14 +9150,15 @@ first
 then
 code
 for
-*
 the
+*
 body
 of
 each
 case
 clause
 .
+*
 *
 Category
 :
@@ -9185,6 +9248,7 @@ if
 false
 '
 .
+*
 *
 Category
 :
@@ -9286,6 +9350,7 @@ current
 bytecode
 .
 *
+*
 Category
 :
 Statements
@@ -9321,7 +9386,6 @@ NULL
 0
 JOF_JUMP
 )
-\
 \
 /
 *
@@ -9371,8 +9435,8 @@ one
 invokes
 the
 function
-*
 with
+*
 '
 this
 '
@@ -9388,6 +9452,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -9456,7 +9521,6 @@ JOF_CHECKSLOPPY
 JOF_IC
 )
 \
-\
 /
 *
 ECMA
@@ -9505,8 +9569,8 @@ one
 invokes
 the
 function
-*
 with
+*
 '
 this
 '
@@ -9522,6 +9586,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -9612,6 +9677,7 @@ before
 the
 obj
 .
+*
 *
 Category
 :
@@ -9755,7 +9821,6 @@ NULL
 JOF_UINT24
 )
 \
-\
 /
 *
 *
@@ -9794,6 +9859,7 @@ inhibits
 optimization
 .
 *
+*
 Category
 :
 Variables
@@ -9830,6 +9896,7 @@ JOF_BYTE
 )
 \
 /
+*
 *
 Defines
 the
@@ -9872,6 +9939,7 @@ the
 *
 global
 .
+*
 *
 Category
 :
@@ -9995,6 +10063,7 @@ inhibits
 optimization
 .
 *
+*
 Category
 :
 Variables
@@ -10031,7 +10100,6 @@ NULL
 JOF_ATOM
 )
 \
-\
 /
 *
 *
@@ -10050,6 +10118,7 @@ the
 *
 stack
 .
+*
 *
 Category
 :
@@ -10105,8 +10174,8 @@ pushes
 an
 arrow
 function
-with
 *
+with
 lexical
 '
 new
@@ -10117,6 +10186,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -10156,7 +10226,6 @@ NULL
 JOF_OBJECT
 )
 \
-\
 /
 *
 *
@@ -10180,6 +10249,7 @@ naming
 if
 lightweight
 .
+*
 *
 Category
 :
@@ -10216,7 +10286,6 @@ NULL
 JOF_BYTE
 )
 \
-\
 /
 *
 *
@@ -10238,6 +10307,7 @@ the
 *
 stack
 .
+*
 *
 Category
 :
@@ -10316,7 +10386,6 @@ NULL
 JOF_UINT8
 )
 \
-\
 /
 *
 *
@@ -10350,9 +10419,9 @@ is
 stored
 in
 a
-*
 side
 table
+*
 '
 script
 -
@@ -10362,6 +10431,7 @@ trynotes
 )
 '
 .
+*
 *
 Category
 :
@@ -10426,6 +10496,7 @@ JSOP_GOSUB
 )
 .
 *
+*
 Category
 :
 Statements
@@ -10460,7 +10531,6 @@ NULL
 2
 JOF_BYTE
 )
-\
 \
 /
 *
@@ -10595,6 +10665,7 @@ RESERVED_SLOTS
 )
 .
 *
+*
 Category
 :
 Variables
@@ -10655,6 +10726,7 @@ stack
 value
 .
 *
+*
 Category
 :
 Variables
@@ -10704,7 +10776,6 @@ JOF_DETECTING
 JOF_IC
 )
 \
-\
 /
 *
 *
@@ -10727,6 +10798,7 @@ error
 if
 so
 .
+*
 *
 Category
 :
@@ -10784,6 +10856,7 @@ stack
 *
 value
 .
+*
 *
 Category
 :
@@ -10851,6 +10924,7 @@ if
 so
 .
 *
+*
 Category
 :
 Variables
@@ -10909,6 +10983,7 @@ of
 stack
 value
 .
+*
 *
 Category
 :
@@ -10988,6 +11063,7 @@ JSOP_INITLEXICAL
 opcode
 .
 *
+*
 Category
 :
 Literals
@@ -11022,6 +11098,7 @@ JOF_BYTE
 )
 \
 /
+*
 *
 Pushes
 the
@@ -11092,6 +11169,7 @@ access
 to
 .
 *
+*
 Category
 :
 Variables
@@ -11152,6 +11230,7 @@ specified
 intrinsic
 .
 *
+*
 Category
 :
 Variables
@@ -11210,13 +11289,14 @@ of
 and
 destructuring
 bytecode
-*
 to
+*
 provide
 better
 error
 messages
 .
+*
 *
 Category
 :
@@ -11285,6 +11365,7 @@ writable
 non
 -
 enumerable
+*
 data
 -
 property
@@ -11332,6 +11413,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -11433,6 +11515,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -11560,6 +11643,7 @@ the
 stack
 .
 *
+*
 Category
 :
 Statements
@@ -11629,6 +11713,7 @@ rval
 '
 .
 *
+*
 Category
 :
 Operators
@@ -11675,7 +11760,6 @@ JOF_BYTE
 JOF_IC
 )
 \
-\
 /
 *
 *
@@ -11696,8 +11780,8 @@ as
 '
 v
 '
-*
 to
+*
 trigger
 rethrow
 .
@@ -11712,6 +11796,7 @@ conditional
 catch
 clauses
 .
+*
 *
 Category
 :
@@ -11747,7 +11832,6 @@ NULL
 JOF_BYTE
 )
 \
-\
 /
 *
 *
@@ -11774,6 +11858,7 @@ as
 rval
 '
 .
+*
 *
 Category
 :
@@ -11822,8 +11907,8 @@ JSOP_SETRVAL
 .
 When
 not
-set
 *
+set
 returns
 '
 undefined
@@ -11854,6 +11939,7 @@ in
 script
 range
 .
+*
 *
 Category
 :
@@ -11886,7 +11972,6 @@ NULL
 0
 JOF_BYTE
 )
-\
 \
 /
 *
@@ -11943,6 +12028,7 @@ a
 *
 ReferenceError
 .
+*
 *
 Category
 :
@@ -12060,6 +12146,7 @@ like
 JSOP_SETNAME
 .
 *
+*
 Category
 :
 Variables
@@ -12112,7 +12199,6 @@ JOF_CHECKSLOPPY
 JOF_IC
 )
 \
-\
 /
 *
 *
@@ -12155,8 +12241,8 @@ stack
 .
 Throws
 a
-*
 TypeError
+*
 if
 the
 set
@@ -12195,6 +12281,7 @@ acts
 like
 JSOP_STRICTSETNAME
 .
+*
 *
 Category
 :
@@ -12410,6 +12497,7 @@ the
 base
 .
 *
+*
 Category
 :
 Literals
@@ -12479,6 +12567,7 @@ the
 base
 .
 *
+*
 Category
 :
 Literals
@@ -12528,7 +12617,6 @@ JOF_DETECTING
 JOF_CHECKSTRICT
 )
 \
-\
 /
 *
 *
@@ -12541,10 +12629,10 @@ onto
 the
 stack
 .
-*
 It
 requires
 special
+*
 "
 clone
 on
@@ -12552,6 +12640,7 @@ exec
 "
 handling
 .
+*
 *
 Category
 :
@@ -12588,7 +12677,6 @@ NULL
 JOF_REGEXP
 )
 \
-\
 /
 *
 *
@@ -12606,6 +12694,7 @@ of
 stack
 value
 .
+*
 *
 Category
 :
@@ -12654,8 +12743,8 @@ JOF_GNAME
 JOF_IC
 )
 \
-\
 /
+*
 *
 Defines
 the
@@ -12698,6 +12787,7 @@ the
 *
 global
 .
+*
 *
 Category
 :
@@ -12753,6 +12843,7 @@ an
 object
 (
 is
+*
 |
 null
 |
@@ -12762,6 +12853,7 @@ undefined
 |
 )
 .
+*
 *
 Category
 :
@@ -12867,6 +12959,7 @@ to
 distinguish
 the
 two
+*
 cases
 .
 *
@@ -13274,8 +13367,8 @@ and
 obj
 '
 defines
-*
 getter
+*
 of
 '
 obj
@@ -13292,6 +13385,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -13369,8 +13463,8 @@ and
 obj
 '
 defines
-*
 setter
+*
 of
 '
 obj
@@ -13387,6 +13481,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -13502,6 +13597,7 @@ the
 stack
 .
 *
+*
 Category
 :
 Literals
@@ -13616,6 +13712,7 @@ the
 stack
 .
 *
+*
 Category
 :
 Literals
@@ -13673,6 +13770,7 @@ an
 object
 literal
 like
+*
 '
 {
 1
@@ -13724,6 +13822,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -13788,6 +13887,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -13872,6 +13972,7 @@ debug
 build
 .
 *
+*
 Category
 :
 Other
@@ -13932,11 +14033,12 @@ value
 can
 be
 optimized
-*
 in
+*
 spread
 call
 .
+*
 *
 Category
 :
@@ -14033,8 +14135,8 @@ the
 name
 with
 for
-*
 the
+*
 error
 message
 .
@@ -14090,6 +14192,7 @@ env
 chain
 .
 *
+*
 Category
 :
 Variables
@@ -14139,6 +14242,7 @@ the
 env
 chain
 .
+*
 *
 Category
 :
@@ -14222,6 +14326,7 @@ the
 stack
 .
 *
+*
 Category
 :
 Statements
@@ -14277,6 +14382,7 @@ of
 the
 stack
 .
+*
 *
 Category
 :
@@ -14382,6 +14488,7 @@ call
 context
 .
 *
+*
 Category
 :
 Literals
@@ -14443,8 +14550,8 @@ frame
 and
 pushes
 it
-onto
 *
+onto
 the
 stack
 .
@@ -14456,10 +14563,12 @@ of
 functions
 with
 a
+*
 this
 -
 binding
 .
+*
 *
 Category
 :
@@ -14526,6 +14635,7 @@ global
 this
 '
 .
+*
 *
 Category
 :
@@ -14639,6 +14749,7 @@ the
 stack
 .
 *
+*
 Category
 :
 Literals
@@ -14698,6 +14809,7 @@ derived
 class
 constructors
 .
+*
 *
 Category
 :
@@ -14781,6 +14893,7 @@ value
 slot
 .
 *
+*
 Category
 :
 Variables
@@ -14843,6 +14956,7 @@ derived
 class
 constructors
 .
+*
 *
 Category
 :
@@ -14913,6 +15027,7 @@ the
 stack
 .
 *
+*
 Category
 :
 Statements
@@ -14946,7 +15061,6 @@ NULL
 1
 JOF_BYTE
 )
-\
 \
 /
 *
@@ -14991,6 +15105,7 @@ call
 context
 .
 *
+*
 Category
 :
 Literals
@@ -15034,7 +15149,6 @@ JOF_TYPESET
 |
 JOF_IC
 )
-\
 \
 /
 *
@@ -15095,6 +15209,7 @@ if
 not
 .
 *
+*
 Category
 :
 Literals
@@ -15129,7 +15244,6 @@ NULL
 1
 JOF_BYTE
 )
-\
 \
 /
 *
@@ -15168,6 +15282,7 @@ conjunction
 with
 BINDNAME
 .
+*
 *
 Category
 :
@@ -15210,7 +15325,6 @@ JOF_TYPESET
 |
 JOF_IC
 )
-\
 \
 /
 *
@@ -15280,6 +15394,7 @@ undefined
 .
 )
 *
+*
 Category
 :
 Operators
@@ -15322,7 +15437,6 @@ JOF_DETECTING
 JOF_IC
 )
 \
-\
 /
 *
 Lexical
@@ -15347,8 +15461,8 @@ with
 a
 fresh
 block
-*
 that
+*
 copies
 all
 the
@@ -15373,8 +15487,8 @@ for
 every
 iteration
 of
-a
 *
+a
 for
 (
 let
@@ -15398,14 +15512,15 @@ induced
 by
 such
 a
-loop
 *
+loop
 are
 captured
 within
 the
 loop
 .
+*
 *
 Category
 :
@@ -15459,8 +15574,8 @@ with
 a
 fresh
 block
-*
 with
+*
 uninitialized
 bindings
 .
@@ -15486,8 +15601,8 @@ for
 in
 /
 of
-loop
 *
+loop
 whose
 loop
 -
@@ -15500,6 +15615,7 @@ captured
 lexical
 declaration
 .
+*
 *
 Category
 :
@@ -15549,6 +15665,7 @@ the
 env
 chain
 .
+*
 *
 Category
 :
@@ -15601,6 +15718,7 @@ env
 chain
 .
 *
+*
 Category
 :
 Variables
@@ -15649,6 +15767,7 @@ the
 debugger
 .
 *
+*
 Category
 :
 Statements
@@ -15681,7 +15800,6 @@ NULL
 JOF_BYTE
 )
 \
-\
 /
 *
 *
@@ -15701,6 +15819,7 @@ stops
 *
 interpretation
 .
+*
 *
 Category
 :
@@ -15753,8 +15872,8 @@ rval1
 '
 stops
 interpretation
-and
 *
+and
 returns
 '
 rval1
@@ -15773,6 +15892,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -15836,6 +15956,7 @@ return
 value
 slot
 .
+*
 *
 Category
 :
@@ -15904,6 +16025,7 @@ generator
 yields
 .
 *
+*
 Category
 :
 Statements
@@ -15949,6 +16071,10 @@ JOF_UINT8
 JOF_INVOKE
 )
 \
+/
+*
+*
+/
 \
 macro
 (
@@ -15963,7 +16089,6 @@ NULL
 0
 JOF_BYTE
 )
-\
 \
 /
 *
@@ -15983,8 +16108,8 @@ functions
 .
 Not
 handled
-by
 *
+by
 the
 JITs
 so
@@ -16026,7 +16151,6 @@ NULL
 JOF_BYTE
 )
 \
-\
 /
 *
 *
@@ -16041,9 +16165,9 @@ to
 help
 the
 Debugger
-*
 fix
 up
+*
 the
 frame
 in
@@ -16121,6 +16245,7 @@ the
 stack
 .
 *
+*
 Category
 :
 Statements
@@ -16192,6 +16317,7 @@ the
 *
 stack
 .
+*
 *
 Category
 :
@@ -16268,6 +16394,7 @@ top
 value
 .
 *
+*
 Category
 :
 Other
@@ -16328,6 +16455,7 @@ the
 *
 stack
 .
+*
 *
 Category
 :
@@ -16428,8 +16556,8 @@ doesn
 '
 t
 have
-a
 *
+a
 non
 -
 syntactic
@@ -16455,6 +16583,7 @@ acting
 like
 JSOP_BINDNAME
 .
+*
 *
 Category
 :
@@ -16500,7 +16629,6 @@ JOF_GNAME
 JOF_IC
 )
 \
-\
 /
 *
 *
@@ -16516,6 +16644,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -16568,6 +16697,7 @@ the
 stack
 .
 *
+*
 Category
 :
 Literals
@@ -16603,7 +16733,6 @@ NULL
 JOF_INT32
 )
 \
-\
 /
 *
 *
@@ -16626,6 +16755,7 @@ the
 *
 stack
 .
+*
 *
 Category
 :
@@ -16673,7 +16803,6 @@ JOF_TYPESET
 |
 JOF_IC
 )
-\
 \
 /
 *
@@ -16723,6 +16852,7 @@ JSOP_NEWARRAY
 opcode
 .
 *
+*
 Category
 :
 Literals
@@ -16755,7 +16885,6 @@ NULL
 1
 JOF_BYTE
 )
-\
 \
 /
 *
@@ -16795,6 +16924,7 @@ error
 message
 .
 *
+*
 Category
 :
 Statements
@@ -16831,7 +16961,6 @@ NULL
 JOF_UINT8
 )
 \
-\
 /
 *
 *
@@ -16860,6 +16989,7 @@ to
 *
 destructuring
 .
+*
 *
 Category
 :
@@ -16893,7 +17023,6 @@ NULL
 JOF_BYTE
 )
 \
-\
 /
 *
 *
@@ -16910,6 +17039,8 @@ a
 given
 proto
 key
+.
+*
 *
 Category
 :
@@ -16948,7 +17079,6 @@ NULL
 JOF_UINT8
 )
 \
-\
 /
 *
 *
@@ -16981,6 +17111,7 @@ for
 in
 loop
 .
+*
 *
 Category
 :
@@ -17038,7 +17169,6 @@ can
 be
 skipped
 .
-*
 If
 the
 await
@@ -17049,9 +17179,9 @@ skipped
 and
 the
 resolution
+*
 value
 for
-*
 '
 value
 '
@@ -17063,12 +17193,12 @@ the
 resolution
 value
 and
+*
 '
 true
 '
 onto
 the
-*
 stack
 .
 Otherwise
@@ -17082,8 +17212,10 @@ false
 '
 on
 the
+*
 stack
 .
+*
 *
 Category
 :
@@ -17120,7 +17252,6 @@ NULL
 JOF_BYTE
 )
 \
-\
 /
 *
 *
@@ -17140,6 +17271,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -17180,7 +17312,6 @@ JOF_TYPESET
 JOF_IC
 )
 \
-\
 /
 *
 *
@@ -17200,6 +17331,7 @@ ToPropertyKey
 propertyNameValue
 )
 .
+*
 *
 Category
 :
@@ -17235,7 +17367,6 @@ NULL
 JOF_BYTE
 )
 \
-\
 /
 *
 *
@@ -17257,6 +17388,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -17295,7 +17427,6 @@ implicitthis
 1
 JOF_ATOM
 )
-\
 \
 /
 *
@@ -17387,6 +17518,7 @@ the
 stack
 .
 *
+*
 Category
 :
 Statements
@@ -17438,6 +17570,8 @@ stack
 to
 a
 String
+.
+*
 *
 Category
 :
@@ -17492,6 +17626,7 @@ about
 destructuring
 code
 .
+*
 *
 Category
 :
@@ -17569,6 +17704,7 @@ BytecodeIsJumpTarget
 function
 .
 *
+*
 Category
 :
 Other
@@ -17616,6 +17752,7 @@ ignored
 *
 stack
 .
+*
 *
 Category
 :
