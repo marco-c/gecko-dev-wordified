@@ -552,14 +552,6 @@ nsICookieService
 .
 BEHAVIOR_ACCEPT
 ]
-[
-TP_UI_PREF
-true
-]
-[
-RT_UI_PREF
-true
-]
 ]
 }
 )
