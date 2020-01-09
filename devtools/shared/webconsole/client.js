@@ -1306,20 +1306,6 @@ known
 types
 .
 *
-param
-function
-onResponse
-*
-The
-function
-invoked
-when
-the
-response
-is
-received
-.
-*
 return
 request
 *
@@ -1339,7 +1325,6 @@ getCachedMessages
 function
 (
 types
-onResponse
 )
 {
 const
@@ -1369,7 +1354,6 @@ _client
 request
 (
 packet
-onResponse
 )
 ;
 }
