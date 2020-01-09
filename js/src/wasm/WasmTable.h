@@ -327,10 +327,7 @@ STATIC_ASSERT_ANYREF_IS_JSOBJECT
 typedef
 GCVector
 <
-JS
-:
-:
-Heap
+HeapPtr
 <
 JSObject
 *
@@ -674,7 +671,7 @@ const
 const
 void
 *
-getAnyRefLocForCompiledCode
+getShortlivedAnyRefLocForCompiledCode
 (
 uint32_t
 index

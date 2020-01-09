@@ -68754,6 +68754,10 @@ AliasSet
 :
 Flag
 aliasSet
+bool
+isMovable
+=
+true
 )
 :
 MUnaryInstruction
@@ -68790,10 +68794,16 @@ MIRType
 RefOrNull
 )
 ;
+if
+(
+isMovable
+)
+{
 setMovable
 (
 )
 ;
+}
 }
 public
 :
