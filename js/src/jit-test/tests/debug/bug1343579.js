@@ -9,11 +9,11 @@ test
 -
 also
 -
-no
--
 wasm
 -
-baseline
+compiler
+-
+ion
 ;
 skip
 -

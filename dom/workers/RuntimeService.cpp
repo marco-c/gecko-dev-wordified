@@ -1772,7 +1772,7 @@ wasm_ionjit
 ifdef
 ENABLE_WASM_CRANELIFT
 .
-setWasmForceCranelift
+setWasmCranelift
 (
 GetWorkerPref
 <

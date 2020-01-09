@@ -2469,11 +2469,11 @@ test
 -
 also
 -
-no
--
 wasm
 -
-baseline
+compiler
+-
+ion
 '
 :
                         
@@ -2493,11 +2493,11 @@ append
 '
 -
 -
-no
--
 wasm
 -
-baseline
+compiler
+=
+ion
 '
 ]
 )
@@ -2511,11 +2511,11 @@ test
 -
 also
 -
-no
--
 wasm
 -
-ion
+compiler
+-
+baseline
 '
 :
                         
@@ -2535,11 +2535,11 @@ append
 '
 -
 -
-no
--
 wasm
 -
-ion
+compiler
+=
+baseline
 '
 ]
 )

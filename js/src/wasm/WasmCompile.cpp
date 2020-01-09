@@ -669,7 +669,7 @@ options
 (
 )
 .
-wasmForceCranelift
+wasmCranelift
 (
 )
 ;

@@ -3898,7 +3898,7 @@ options
 (
 )
 .
-wasmForceCranelift
+wasmCranelift
 (
 )
 )
@@ -3968,7 +3968,7 @@ options
 (
 )
 .
-wasmForceCranelift
+wasmCranelift
 (
 )
 )

@@ -489,9 +489,11 @@ asmjs
 '
 -
 -
-no
--
 wasm
+-
+compiler
+=
+none
 '
 '
 -

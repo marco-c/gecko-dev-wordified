@@ -2633,9 +2633,11 @@ all
 '
 -
 -
-no
--
 wasm
+-
+compiler
+=
+none
 '
 in
 flags
