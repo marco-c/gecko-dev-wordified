@@ -2669,9 +2669,6 @@ loadState
 nsAHtml5TreeBuilderState
 *
 snapshot
-nsHtml5AtomTable
-*
-interner
 )
 ;
 private
