@@ -600,7 +600,7 @@ Ci
 .
 nsIWebNavigation
 .
-LOAD_FLAG_IS_REFRESH
+LOAD_FLAGS_IS_REFRESH
 ;
 case
 "
@@ -614,7 +614,7 @@ Ci
 .
 nsIWebNavigation
 .
-LOAD_FLAG_IS_LINK
+LOAD_FLAGS_IS_LINK
 ;
 }
 }
