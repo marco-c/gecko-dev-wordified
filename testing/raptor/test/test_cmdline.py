@@ -64,6 +64,10 @@ debug
 '
 True
 '
+                     
+power_test
+=
+False
 )
     
 parser
@@ -150,6 +154,10 @@ host
 '
 sophie
 '
+                     
+power_test
+=
+False
 )
     
 verify_options
