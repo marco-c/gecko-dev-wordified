@@ -279,6 +279,15 @@ debug
 target
 -
 item__icon
+js
+-
+debug
+-
+target
+-
+item
+-
+icon
 "
 src
 :
