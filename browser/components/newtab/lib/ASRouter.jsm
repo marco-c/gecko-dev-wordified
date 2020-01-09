@@ -3400,6 +3400,7 @@ id
 )
 )
 {
+await
 ASRouterTriggerListeners
 .
 get
