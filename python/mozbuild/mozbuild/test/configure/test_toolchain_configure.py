@@ -5337,14 +5337,7 @@ flags
 [
 '
 -
--
-target
-=
-i686
--
-linux
--
-gnu
+m32
 '
 ]
             
@@ -5367,14 +5360,7 @@ flags
 [
 '
 -
--
-target
-=
-i686
--
-linux
--
-gnu
+m32
 '
 ]
             
@@ -5642,14 +5628,7 @@ flags
 [
 '
 -
--
-target
-=
-x86_64
--
-linux
--
-gnu
+m64
 '
 ]
             
@@ -5672,14 +5651,7 @@ flags
 [
 '
 -
--
-target
-=
-x86_64
--
-linux
--
-gnu
+m64
 '
 ]
             
