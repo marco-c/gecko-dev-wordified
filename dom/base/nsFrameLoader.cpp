@@ -3038,6 +3038,13 @@ nsIWebNavigation
 LOAD_FLAGS_DISALLOW_INHERIT_PRINCIPAL
 ;
 }
+loadState
+-
+>
+SetIsFromProcessingFrameAttributes
+(
+)
+;
 /
 /
 Kick
