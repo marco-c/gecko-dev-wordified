@@ -532,6 +532,7 @@ nsIInputStream
 a
 SlicedInputStream
 .
+static
 SlicedInputStream
 *
 CreateSeekableStreams
@@ -630,6 +631,7 @@ a
 /
 SlicedInputStream
 .
+static
 SlicedInputStream
 *
 CreateNonSeekableStreams

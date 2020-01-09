@@ -302,6 +302,7 @@ kMicrosecondsPerSecond
 /
 2LL
 ;
+static
 uint64_t
 GetMicroseconds
 (
@@ -329,6 +330,7 @@ time
 tv_usec
 ;
 }
+static
 uint64_t
 GetMicroseconds
 (
@@ -360,6 +362,7 @@ tv_nsec
 kNanosecondsPerMicrosecond
 ;
 }
+static
 Result
 <
 CPUStats
@@ -532,6 +535,7 @@ return
 result
 ;
 }
+static
 Result
 <
 CPUStats

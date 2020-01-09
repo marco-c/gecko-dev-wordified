@@ -649,6 +649,7 @@ aLevel
 )
 ;
 }
+static
 const
 char
 *
@@ -869,6 +870,7 @@ mNextToRelease
 ;
 }
 ;
+static
 const
 char
 *

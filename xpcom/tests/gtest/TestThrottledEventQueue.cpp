@@ -599,6 +599,7 @@ RunnableQueue
 nsIEventTarget
 nsISerialEventTarget
 )
+static
 void
 Enqueue
 (

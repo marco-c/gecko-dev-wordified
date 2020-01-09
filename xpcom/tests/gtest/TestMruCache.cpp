@@ -369,6 +369,7 @@ a
 StringStructMap
 key
 .
+static
 nsCString
 MakeStringKey
 (

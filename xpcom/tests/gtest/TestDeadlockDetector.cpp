@@ -411,6 +411,7 @@ mOldSleepDuration
 ;
 }
 ;
+static
 void
 DisableCrashReporter
 (
@@ -546,6 +547,7 @@ Stupidest
 possible
 deadlock
 .
+static
 int
 Sanity_Child
 (
@@ -722,6 +724,7 @@ less
 stupid
 deadlock
 .
+static
 int
 Sanity2_Child
 (
@@ -1234,6 +1237,7 @@ regex
 }
 #
 endif
+static
 int
 Sanity4_Child
 (
@@ -1431,6 +1435,7 @@ regex
 )
 ;
 }
+static
 int
 Sanity5_Child
 (
@@ -2306,6 +2311,7 @@ starti
 ;
 }
 }
+static
 int
 ContentionNoDeadlock_Child
 (

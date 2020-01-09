@@ -371,6 +371,7 @@ kTestServiceCID
 NS_TEST_SERVICE_CID
 )
 ;
+inline
 void
 JustTestingCompilation
 (

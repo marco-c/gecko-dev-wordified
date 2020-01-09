@@ -560,6 +560,7 @@ aOut
 |
 *
 /
+static
 bool
 PrintCycle
 (

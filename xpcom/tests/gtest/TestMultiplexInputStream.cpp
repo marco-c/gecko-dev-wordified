@@ -933,6 +933,7 @@ count
 )
 ;
 }
+static
 already_AddRefed
 <
 nsIInputStream

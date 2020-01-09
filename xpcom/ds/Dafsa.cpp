@@ -234,6 +234,7 @@ read
 false
 otherwise
 .
+static
 bool
 GetNextOffset
 (
@@ -508,6 +509,7 @@ last
 in
 label
 .
+static
 bool
 IsEOL
 (
@@ -566,6 +568,7 @@ last
 in
 label
 .
+static
 bool
 IsMatch
 (
@@ -624,6 +627,7 @@ last
 in
 label
 .
+static
 bool
 IsEndCharMatch
 (
@@ -685,6 +689,7 @@ read
 false
 otherwise
 .
+static
 bool
 GetReturnValue
 (
@@ -773,6 +778,7 @@ is
 /
 returned
 .
+static
 int
 LookupString
 (

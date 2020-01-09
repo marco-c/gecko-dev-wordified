@@ -184,6 +184,7 @@ return
 is
 irrelevant
 .
+static
 int
 sign
 (

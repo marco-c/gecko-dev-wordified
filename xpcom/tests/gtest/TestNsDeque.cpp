@@ -2145,6 +2145,7 @@ pushfront
 "
 ;
 }
+static
 void
 CheckIfQueueEmpty
 (

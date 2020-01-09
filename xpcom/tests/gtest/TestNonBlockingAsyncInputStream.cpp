@@ -349,6 +349,7 @@ mBuffer
 ;
 }
 ;
+static
 nsresult
 ReadSegmentsFunction
 (

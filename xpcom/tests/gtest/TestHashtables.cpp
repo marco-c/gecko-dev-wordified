@@ -254,6 +254,8 @@ mUnicode
 ;
 }
 ;
+static
+const
 EntityNode
 gEntities
 [
@@ -611,6 +613,7 @@ return
 n
 ;
 }
+static
 void
 testTHashtable
 (
@@ -1133,6 +1136,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 CreateIFoo
 (

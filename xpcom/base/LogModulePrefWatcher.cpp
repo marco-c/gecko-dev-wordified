@@ -340,6 +340,7 @@ vars
 .
 *
 /
+static
 void
 ResetExistingPrefs
 (
@@ -862,6 +863,7 @@ logLevel
 )
 ;
 }
+static
 void
 LoadExistingPrefs
 (

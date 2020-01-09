@@ -608,6 +608,7 @@ NS_IMPL_ISUPPORTS
 nsReceiver
 nsIRunnable
 )
+static
 nsresult
 TestPipe
 (
@@ -1281,6 +1282,7 @@ NS_IMPL_ISUPPORTS
 nsShortReader
 nsIRunnable
 )
+static
 nsresult
 TestShortWrites
 (
@@ -2307,6 +2309,7 @@ Shutdown
 /
 /
 /
+static
 void
 RunTests
 (

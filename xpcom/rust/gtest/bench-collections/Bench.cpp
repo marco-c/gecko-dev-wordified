@@ -671,6 +671,7 @@ lookups
 that
 fail
 .
+static
 uintptr_t
 MyRand
 (
@@ -815,6 +816,7 @@ Bench_
 )
 functions
 .
+static
 void
 Bench_Cpp_unordered_set
 (
@@ -1155,6 +1157,7 @@ Bench_
 )
 functions
 .
+static
 void
 Bench_Cpp_PLDHashTable
 (
@@ -1520,6 +1523,7 @@ Bench_
 )
 functions
 .
+static
 void
 Bench_Cpp_MozHashSet
 (

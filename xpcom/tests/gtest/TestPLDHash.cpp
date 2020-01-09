@@ -349,6 +349,7 @@ thing
 has
 occurred
 .
+static
 void
 TestCrashyOperation
 (
@@ -820,6 +821,7 @@ old_gdb_sleep_duration
 #
 endif
 }
+static
 void
 InitCapacityOk_InitialLengthTooBig
 (
@@ -847,6 +849,7 @@ kMaxInitialLength
 )
 ;
 }
+static
 void
 InitCapacityOk_InitialEntryStoreTooBig
 (
@@ -931,6 +934,7 @@ uint32_t
 )
 ;
 }
+static
 void
 InitCapacityOk_EntrySizeTooBig
 (
