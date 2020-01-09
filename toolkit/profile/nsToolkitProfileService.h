@@ -418,7 +418,7 @@ friend
 nsresult
 NS_NewToolkitProfileService
 (
-nsIToolkitProfileService
+nsToolkitProfileService
 *
 *
 )
