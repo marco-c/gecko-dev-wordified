@@ -529,8 +529,9 @@ if
 wasm
 :
 :
-HaveSignalHandlers
+EnsureFullSignalHandlers
 (
+cx
 )
 )
 {
