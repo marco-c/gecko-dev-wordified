@@ -68611,6 +68611,12 @@ sc
 exitCode
 )
 {
+AutoReportException
+are
+(
+cx
+)
+;
 if
 (
 !
