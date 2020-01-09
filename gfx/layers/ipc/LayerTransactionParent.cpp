@@ -4915,15 +4915,9 @@ group
 .
 mAnimationData
 .
-type
+isNothing
 (
 )
-!
-=
-AnimationData
-:
-:
-TTransformData
 )
 {
 continue
@@ -4938,7 +4932,7 @@ group
 .
 mAnimationData
 .
-get_TransformData
+ref
 (
 )
 ;
