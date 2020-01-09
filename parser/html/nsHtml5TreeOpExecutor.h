@@ -548,6 +548,13 @@ WillResume
 )
 override
 ;
+virtual
+void
+InitialDocumentTranslationCompleted
+(
+)
+override
+;
 /
 *
 *
