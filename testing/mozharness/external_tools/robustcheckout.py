@@ -95,6 +95,8 @@ import
 time
 import
 urllib2
+import
+urlparse
 from
 mercurial
 .
@@ -197,6 +199,9 @@ testedwith
 4
 .
 8
+4
+.
+9
 '
 minimumhgversion
 =
@@ -2562,6 +2567,17 @@ overall_nopull_populatedwdir
 '
 )
         
+server_url
+=
+urlparse
+.
+urlparse
+(
+url
+)
+.
+netloc
+        
 if
 '
 TASKCLUSTER_INSTANCE_TYPE
@@ -2642,6 +2658,12 @@ shouldAlert
 '
 :
 False
+                    
+'
+serverUrl
+'
+:
+server_url
                     
 '
 extraOptions
