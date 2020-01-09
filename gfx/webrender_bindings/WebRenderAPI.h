@@ -259,7 +259,7 @@ class
 WebRenderBridgeParent
 ;
 class
-WebRenderLayerManager
+RenderRootStateManager
 ;
 }
 /
@@ -3391,7 +3391,7 @@ aSc
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayItem

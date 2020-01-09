@@ -916,7 +916,9 @@ data
 new
 T
 (
-mManager
+GetRenderRootStateManager
+(
+)
 aItem
 )
 ;
@@ -1058,6 +1060,12 @@ mManager
 ;
 private
 :
+RenderRootStateManager
+*
+GetRenderRootStateManager
+(
+)
+;
 ClipManager
 mClipManager
 ;

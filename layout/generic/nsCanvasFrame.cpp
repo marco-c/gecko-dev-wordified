@@ -288,7 +288,7 @@ mozilla
 /
 layers
 /
-WebRenderLayerManager
+RenderRootStateManager
 .
 h
 "
@@ -2465,7 +2465,7 @@ const
 StackingContextHelper
 &
 aSc
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder

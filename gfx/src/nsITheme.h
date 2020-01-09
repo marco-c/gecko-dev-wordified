@@ -204,7 +204,7 @@ class
 StackingContextHelper
 ;
 class
-WebRenderLayerManager
+RenderRootStateManager
 ;
 }
 /
@@ -555,7 +555,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsIFrame

@@ -164,6 +164,17 @@ mozilla
 /
 layers
 /
+IpcResourceUpdateQueue
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 SourceSurfaceSharedData
 .
 h
@@ -186,7 +197,7 @@ mozilla
 /
 layers
 /
-WebRenderLayerManager
+RenderRootStateManager
 .
 h
 "
@@ -235,7 +246,7 @@ ImageKeyData
 :
 ImageKeyData
 (
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 const
@@ -627,7 +638,7 @@ SharedUserData
 :
 UpdateKey
 (
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 wr
@@ -679,7 +690,7 @@ the
 old
 /
 /
-WebRenderLayerManager
+RenderRootStateManager
 references
 .
 Most
@@ -2183,7 +2194,7 @@ Share
 SourceSurfaceSharedData
 *
 aSurface
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 wr
@@ -2341,7 +2352,7 @@ Share
 ImageContainer
 *
 aContainer
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 wr
@@ -3187,7 +3198,7 @@ AnimationImageKeyData
 :
 AnimationImageKeyData
 (
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 const
@@ -3747,7 +3758,7 @@ aParentSurface
 SourceSurfaceSharedData
 *
 aSurface
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 wr
@@ -3854,7 +3865,7 @@ the
 old
 /
 /
-WebRenderLayerManager
+RenderRootStateManager
 references
 .
 Most
@@ -4179,7 +4190,7 @@ SharedSurfacesAnimation
 :
 ReleasePreviousFrame
 (
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 const
@@ -4369,7 +4380,7 @@ SharedSurfacesAnimation
 :
 Invalidate
 (
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 )

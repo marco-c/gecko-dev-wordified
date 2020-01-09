@@ -438,7 +438,7 @@ mozilla
 /
 layers
 /
-WebRenderLayerManager
+RenderRootStateManager
 .
 h
 "
@@ -8596,7 +8596,7 @@ aSc
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder
@@ -8768,7 +8768,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder

@@ -157,7 +157,7 @@ class
 WebRenderParentCommand
 ;
 class
-WebRenderLayerManager
+RenderRootStateManager
 ;
 }
 /
@@ -1406,7 +1406,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayItem
@@ -2052,7 +2052,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayItem

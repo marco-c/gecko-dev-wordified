@@ -183,6 +183,17 @@ mozilla
 /
 layers
 /
+RenderRootStateManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 StackingContextHelper
 .
 h
@@ -3618,7 +3629,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayItem
@@ -3938,6 +3949,11 @@ mImageContainer
 GetImageContainerAtSize
 (
 aManager
+-
+>
+LayerManager
+(
+)
 decodeSize
 svgContext
 containerFlags
@@ -4895,7 +4911,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayItem

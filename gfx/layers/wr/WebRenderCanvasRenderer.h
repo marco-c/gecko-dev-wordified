@@ -134,7 +134,7 @@ namespace
 layers
 {
 class
-WebRenderLayerManager
+RenderRootStateManager
 ;
 class
 WebRenderCanvasRenderer
@@ -147,7 +147,7 @@ public
 explicit
 WebRenderCanvasRenderer
 (
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 )
@@ -177,7 +177,7 @@ override
 ;
 protected
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 mManager
 ;
@@ -194,7 +194,7 @@ public
 explicit
 WebRenderCanvasRendererAsync
 (
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 )

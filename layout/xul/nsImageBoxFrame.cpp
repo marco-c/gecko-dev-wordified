@@ -414,6 +414,17 @@ mozilla
 /
 layers
 /
+RenderRootStateManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 WebRenderLayerManager
 .
 h
@@ -2249,7 +2260,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayItem
@@ -2415,6 +2426,11 @@ imgCon
 GetImageContainerAtSize
 (
 aManager
+-
+>
+LayerManager
+(
+)
 decodeSize
 svgContext
 containerFlags
@@ -3112,7 +3128,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder

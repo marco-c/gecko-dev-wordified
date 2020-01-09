@@ -312,7 +312,7 @@ class
 ImageContainer
 ;
 class
-WebRenderLayerManager
+RenderRootStateManager
 ;
 class
 SharedSurfacesChild
@@ -521,7 +521,7 @@ gfx
 SourceSurfaceSharedData
 *
 aSurface
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 wr
@@ -621,7 +621,7 @@ Share
 ImageContainer
 *
 aContainer
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 wr
@@ -750,7 +750,7 @@ public
 :
 ImageKeyData
 (
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 const
@@ -845,7 +845,7 @@ mDirtyRect
 }
 RefPtr
 <
-WebRenderLayerManager
+RenderRootStateManager
 >
 mManager
 ;
@@ -1048,7 +1048,7 @@ wr
 ImageKey
 UpdateKey
 (
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 wr
@@ -1160,7 +1160,7 @@ public
 :
 AnimationImageKeyData
 (
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 const
@@ -1453,7 +1453,7 @@ gfx
 SourceSurfaceSharedData
 *
 aSurface
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 wr
@@ -1502,7 +1502,7 @@ aId
 void
 ReleasePreviousFrame
 (
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 const
@@ -1542,7 +1542,7 @@ invalid
 void
 Invalidate
 (
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 )
