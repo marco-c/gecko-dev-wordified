@@ -270,7 +270,7 @@ are
 owned
 by
 an
-nsSMILTimedElement
+SMILTimedElement
 but
 MAY
 also
@@ -292,7 +292,7 @@ belong
 to
 the
 same
-nsSMILTimedElement
+SMILTimedElement
 and
 which
 refer
@@ -319,7 +319,7 @@ that
 belong
 to
 other
-nsSMILTimedElements
+SMILTimedElements
 but
 which
 need
@@ -934,7 +934,7 @@ filtered
 out
 by
 the
-nsSMILTimedElement
+SMILTimedElement
 even
 if
 they
@@ -1135,7 +1135,7 @@ removed
 when
 the
 owning
-nsSMILTimedElement
+SMILTimedElement
 removes
 /
 /

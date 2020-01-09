@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-nsSMILCompositor
+SMILCompositor
 .
 h
 "
@@ -149,12 +149,15 @@ nsSMILCSSProperty
 .
 h
 "
+namespace
+mozilla
+{
 /
 /
 PLDHashEntryHdr
 methods
 bool
-nsSMILCompositor
+SMILCompositor
 :
 :
 KeyEquals
@@ -183,7 +186,7 @@ static
 *
 /
 PLDHashNumber
-nsSMILCompositor
+SMILCompositor
 :
 :
 HashKey
@@ -295,7 +298,7 @@ Cycle
 collection
 support
 void
-nsSMILCompositor
+SMILCompositor
 :
 :
 Traverse
@@ -342,7 +345,7 @@ mElement
 Other
 methods
 void
-nsSMILCompositor
+SMILCompositor
 :
 :
 AddAnimationFunction
@@ -367,7 +370,7 @@ aFunc
 }
 }
 void
-nsSMILCompositor
+SMILCompositor
 :
 :
 ComposeAttribute
@@ -512,7 +515,7 @@ can
 still
 have
 a
-nsSMILCompositor
+SMILCompositor
 in
 /
 /
@@ -774,7 +777,7 @@ failed
 }
 }
 void
-nsSMILCompositor
+SMILCompositor
 :
 :
 ClearAnimationEffects
@@ -873,7 +876,7 @@ UniquePtr
 <
 nsISMILAttr
 >
-nsSMILCompositor
+SMILCompositor
 :
 :
 CreateSMILAttr
@@ -934,7 +937,7 @@ mAttributeName
 ;
 }
 nsCSSPropertyID
-nsSMILCompositor
+SMILCompositor
 :
 :
 GetCSSPropertyToAnimate
@@ -1196,7 +1199,7 @@ propID
 ;
 }
 bool
-nsSMILCompositor
+SMILCompositor
 :
 :
 MightNeedBaseStyle
@@ -1270,7 +1273,7 @@ false
 ;
 }
 uint32_t
-nsSMILCompositor
+SMILCompositor
 :
 :
 GetFirstFuncToAffectSandwich
@@ -1693,7 +1696,7 @@ i
 ;
 }
 void
-nsSMILCompositor
+SMILCompositor
 :
 :
 UpdateCachedBaseValue
@@ -1732,3 +1735,8 @@ true
 ;
 }
 }
+}
+/
+/
+namespace
+mozilla

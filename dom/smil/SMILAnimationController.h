@@ -132,6 +132,15 @@ h
 #
 include
 "
+mozilla
+/
+SMILCompositorTable
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -175,13 +184,6 @@ h
 include
 "
 nsSMILTimeContainer
-.
-h
-"
-#
-include
-"
-nsSMILCompositorTable
 .
 h
 "
@@ -965,7 +967,7 @@ dom
 SVGAnimationElement
 *
 aElement
-nsSMILCompositorTable
+SMILCompositorTable
 *
 aCompositorTable
 bool
@@ -1427,7 +1429,7 @@ retargeted
 )
 nsAutoPtr
 <
-nsSMILCompositorTable
+SMILCompositorTable
 >
 mLastCompositorTable
 ;

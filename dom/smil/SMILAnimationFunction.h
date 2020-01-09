@@ -1535,7 +1535,7 @@ function
 (
 This
 lets
-nsSMILCompositor
+SMILCompositor
 check
 whether
 its

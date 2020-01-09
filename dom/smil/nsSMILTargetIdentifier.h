@@ -165,7 +165,7 @@ animation
 target
 to
 the
-nsSMILCompositor
+SMILCompositor
 for
 that
 target

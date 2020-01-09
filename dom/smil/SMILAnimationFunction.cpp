@@ -137,6 +137,15 @@ include
 "
 mozilla
 /
+SMILTimedElement
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Move
 .
 h
@@ -166,13 +175,6 @@ h
 include
 "
 SMILNullType
-.
-h
-"
-#
-include
-"
-nsSMILTimedElement
 .
 h
 "
@@ -1913,7 +1915,7 @@ after
 its
 syncbase
 const
-nsSMILTimedElement
+SMILTimedElement
 &
 thisTimedElement
 =
@@ -1925,7 +1927,7 @@ TimedElement
 )
 ;
 const
-nsSMILTimedElement
+SMILTimedElement
 &
 otherTimedElement
 =

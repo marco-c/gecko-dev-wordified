@@ -165,9 +165,6 @@ class
 nsSMILTimeValue
 ;
 class
-nsSMILTimedElement
-;
-class
 nsSMILTimeContainer
 ;
 class
@@ -179,6 +176,9 @@ nsSMILInterval
 namespace
 mozilla
 {
+class
+SMILTimedElement
+;
 namespace
 dom
 {
@@ -375,6 +375,13 @@ typedef
 mozilla
 :
 :
+SMILTimedElement
+SMILTimedElement
+;
+typedef
+mozilla
+:
+:
 dom
 :
 :
@@ -403,7 +410,7 @@ IDTracker
 ;
 nsSMILTimeValueSpec
 (
-nsSMILTimedElement
+SMILTimedElement
 &
 aOwner
 bool
@@ -539,7 +546,7 @@ Element
 aElement
 )
 ;
-nsSMILTimedElement
+SMILTimedElement
 *
 GetTimedElement
 (
@@ -607,7 +614,7 @@ aTime
 )
 const
 ;
-nsSMILTimedElement
+SMILTimedElement
 *
 mOwner
 ;

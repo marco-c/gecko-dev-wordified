@@ -366,7 +366,7 @@ a
 broker
 between
 an
-nsSMILTimedElement
+SMILTimedElement
 and
 its
 *

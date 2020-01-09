@@ -128,6 +128,15 @@ include
 "
 mozilla
 /
+SMILTimedElement
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Event
@@ -181,13 +190,6 @@ h
 include
 "
 nsSMILTimeValue
-.
-h
-"
-#
-include
-"
-nsSMILTimedElement
 .
 h
 "
@@ -426,7 +428,7 @@ nsSMILTimeValueSpec
 :
 nsSMILTimeValueSpec
 (
-nsSMILTimedElement
+SMILTimedElement
 &
 aOwner
 bool
@@ -1411,7 +1413,7 @@ nsSMILTimeValueSpecParams
 SYNCBASE
 :
 {
-nsSMILTimedElement
+SMILTimedElement
 *
 to
 =
@@ -1501,7 +1503,7 @@ nsSMILTimeValueSpecParams
 SYNCBASE
 )
 {
-nsSMILTimedElement
+SMILTimedElement
 *
 timedElement
 =
@@ -1550,7 +1552,7 @@ aElement
 ;
 }
 }
-nsSMILTimedElement
+SMILTimedElement
 *
 nsSMILTimeValueSpec
 :

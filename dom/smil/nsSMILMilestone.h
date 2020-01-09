@@ -128,7 +128,7 @@ significant
 moment
 in
 an
-nsSMILTimedElement
+SMILTimedElement
 '
 s
 lifetime
@@ -334,7 +334,7 @@ model
 specifically
 in
 *
-nsSMILTimedElement
+SMILTimedElement
 )
 to
 ensure
