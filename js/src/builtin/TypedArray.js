@@ -10040,6 +10040,12 @@ IsTypedArrayConstructor
 (
 C
 )
+&
+&
+IsObject
+(
+source
+)
 )
 {
 /
