@@ -6307,6 +6307,7 @@ if
 (
 mTree
 )
+{
 mTree
 -
 >
@@ -6318,6 +6319,15 @@ index
 newChildren
 )
 ;
+mTree
+-
+>
+InvalidateRow
+(
+index
+)
+;
+}
 }
 return
 NS_OK
