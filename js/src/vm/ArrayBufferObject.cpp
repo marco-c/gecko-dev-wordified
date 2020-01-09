@@ -8705,11 +8705,6 @@ reservedSlots
 ;
 if
 (
-true
-)
-{
-if
-(
 contents
 .
 kind
@@ -8911,9 +8906,9 @@ because
 bug
 1037358
 )
-/
-/
 this
+/
+/
 counter
 constitutes
 an
@@ -8929,9 +8924,9 @@ GC
 "
 subsystem
 .
-/
-/
 Arguably
+/
+/
 it
 deserves
 renaming
@@ -8943,11 +8938,11 @@ doesn
 t
 narrowly
 cabin
-/
-/
 it
 to
 just
+/
+/
 "
 malloc
 "
@@ -8971,7 +8966,6 @@ updateMallocCounter
 nAllocated
 )
 ;
-}
 }
 MOZ_ASSERT
 (
