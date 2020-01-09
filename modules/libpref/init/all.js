@@ -11808,7 +11808,7 @@ picture
 -
 caching
 "
-false
+true
 )
 ;
 #
