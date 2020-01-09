@@ -901,6 +901,13 @@ displayDensityOverride
 .
 0f
 )
+.
+autoplayDefault
+(
+GeckoRuntimeSettings
+.
+AUTOPLAY_DEFAULT_ALLOWED
+)
 ;
 final
 Bundle
