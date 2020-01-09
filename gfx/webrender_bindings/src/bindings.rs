@@ -3053,7 +3053,7 @@ usize
 )
 ;
 fn
-wr_schedule_render
+wr_finished_scene_build
 (
 window_id
 :
@@ -4490,7 +4490,7 @@ anytime
 soon
 unsafe
 {
-wr_schedule_render
+wr_finished_scene_build
 (
 self
 .
@@ -4528,7 +4528,7 @@ self
 {
 unsafe
 {
-wr_schedule_render
+wr_finished_scene_build
 (
 self
 .

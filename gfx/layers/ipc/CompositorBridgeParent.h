@@ -1990,6 +1990,11 @@ aStats
 nullptr
 )
 ;
+void
+NotifyDidSceneBuild
+(
+)
+;
 RefPtr
 <
 AsyncImagePipelineManager
