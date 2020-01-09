@@ -167,14 +167,7 @@ click
 }
 this
 .
-document
-.
-querySelector
-(
-"
-button
-"
-)
+bypassWarningButton
 .
 click
 (
