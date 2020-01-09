@@ -314,6 +314,11 @@ data
 value
 )
 ;
+await
+returnToEventLoop
+(
+)
+;
 }
 info
 (
