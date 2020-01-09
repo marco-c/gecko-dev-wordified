@@ -9711,7 +9711,7 @@ access
 nsContentUtils
 :
 :
-StorageAllowedForPrincipal
+StorageAllowedForServiceWorker
 (
 info
 .
