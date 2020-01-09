@@ -827,9 +827,6 @@ _keepAsZombieTabId
 :
 INVALID_TAB_ID
 init
-:
-function
-ss_init
 (
 )
 {
@@ -1155,9 +1152,6 @@ PREFS_MAX_CRASH_RESUMES
 ;
 }
 _updateMaxTabsUndo
-:
-function
-ss_updateMaxTabsUndo
 (
 )
 {
@@ -1193,9 +1187,6 @@ _forgetClosedTabs
 }
 }
 _purgeHistory
-:
-function
-ss_purgeHistory
 (
 topic
 )
@@ -1472,9 +1463,6 @@ browser
 }
 }
 _clearDisk
-:
-function
-ss_clearDisk
 (
 )
 {
@@ -1652,9 +1640,6 @@ false
 }
 }
 _forgetClosedTabs
-:
-function
-ss_forgetClosedTabs
 (
 )
 {
@@ -1689,9 +1674,6 @@ INVALID_TAB_INDEX
 ;
 }
 onEvent
-:
-function
-ss_onEvent
 (
 event
 data
@@ -2295,9 +2277,6 @@ break
 }
 }
 observe
-:
-function
-ss_observe
 (
 aSubject
 aTopic
@@ -3368,9 +3347,6 @@ break
 }
 }
 handleEvent
-:
-function
-ss_handleEvent
 (
 aEvent
 )
@@ -4397,9 +4373,6 @@ break
 }
 }
 onWindowOpen
-:
-function
-ss_onWindowOpen
 (
 aWindow
 )
@@ -4718,9 +4691,6 @@ true
 ;
 }
 onWindowClose
-:
-function
-ss_onWindowClose
 (
 aWindow
 )
@@ -4944,9 +4914,6 @@ __SSID
 ;
 }
 onTabAdd
-:
-function
-ss_onTabAdd
 (
 aWindow
 aBrowser
@@ -5236,9 +5203,6 @@ aWindow
 ;
 }
 onTabRemove
-:
-function
-ss_onTabRemove
 (
 aWindow
 aBrowser
@@ -5421,9 +5385,6 @@ isPrivate
 }
 }
 onTabClose
-:
-function
-ss_onTabClose
 (
 aWindow
 aBrowser
@@ -5676,9 +5637,6 @@ SSTabCloseProcessed
 }
 }
 _sessionDataIsEmpty
-:
-function
-ss_sessionDataIsEmpty
 (
 aData
 )
@@ -5760,9 +5718,6 @@ privatebrowsing
 ;
 }
 onTabLoad
-:
-function
-ss_onTabLoad
 (
 aWindow
 aBrowser
@@ -6338,9 +6293,6 @@ aWindow
 ;
 }
 onTabSelect
-:
-function
-ss_onTabSelect
 (
 aWindow
 aBrowser
@@ -6525,9 +6477,6 @@ aWindow
 }
 }
 restoreZombieTab
-:
-function
-ss_restoreZombieTab
 (
 aTab
 )
@@ -6596,9 +6545,6 @@ id
 ;
 }
 onTabMove
-:
-function
-ss_onTabMove
 (
 )
 {
@@ -6651,9 +6597,6 @@ saveStateDelayed
 ;
 }
 onTabInput
-:
-function
-ss_onTabInput
 (
 aWindow
 aBrowser
@@ -6937,9 +6880,6 @@ SSTabInputCaptured
 ;
 }
 onTabScroll
-:
-function
-ss_onTabScroll
 (
 aWindow
 aBrowser
@@ -7323,9 +7263,6 @@ saveStateDelayed
 ;
 }
 _getContentViewerSize
-:
-function
-ss_getContentViewerSize
 (
 aWindow
 )
@@ -7377,9 +7314,6 @@ displaySize
 ;
 }
 saveStateDelayed
-:
-function
-ss_saveStateDelayed
 (
 aPrivateTabsOnly
 =
@@ -7596,9 +7530,6 @@ action
 }
 }
 saveState
-:
-function
-ss_saveState
 (
 aPrivateTabsOnly
 =
@@ -7689,9 +7620,6 @@ present
 *
 /
 flushPendingState
-:
-function
-ss_flushPendingState
 (
 )
 {
@@ -7733,9 +7661,6 @@ false
 ;
 }
 _createTimer
-:
-function
-ss_createTimer
 (
 aDelay
 )
@@ -7802,9 +7727,6 @@ aDelay
 ;
 }
 _killTimer
-:
-function
-ss_killTimer
 (
 )
 {
@@ -7841,9 +7763,6 @@ saveTimer
 }
 }
 _saveState
-:
-function
-ss_saveState
 (
 aAsync
 )
@@ -8588,9 +8507,6 @@ now
 ;
 }
 _getCurrentState
-:
-function
-ss_getCurrentState
 (
 )
 {
@@ -8654,9 +8570,6 @@ data
 ;
 }
 _collectTabData
-:
-function
-ss__collectTabData
 (
 aWindow
 aBrowser
@@ -8775,9 +8688,6 @@ tabData
 ;
 }
 _collectWindowData
-:
-function
-ss__collectWindowData
 (
 aWindow
 )
@@ -8937,9 +8847,6 @@ tabData
 }
 }
 _forEachBrowserWindow
-:
-function
-ss_forEachBrowserWindow
 (
 aFunc
 )
@@ -9052,9 +8959,6 @@ state
 *
 /
 _writeFile
-:
-function
-ss_writeFile
 (
 aFile
 aFileTemp
@@ -9488,9 +9392,6 @@ written
 *
 /
 _write
-:
-function
-ss_write
 (
 aFile
 aFileTemp
@@ -9703,9 +9604,6 @@ resolve
 ;
 }
 _updateCrashReportURL
-:
-function
-ss_updateCrashReportURL
 (
 aWindow
 )
@@ -9874,9 +9772,6 @@ for
 each
 .
 _openTabs
-:
-function
-ss_openTabs
 (
 aData
 )
@@ -9991,9 +9886,6 @@ of
 them
 .
 _restoreTabs
-:
-function
-ss_restoreTabs
 (
 aData
 )
@@ -10201,9 +10093,6 @@ loads
 *
 /
 _restoreTab
-:
-function
-ss_restoreTab
 (
 aTabData
 aBrowser
@@ -10444,9 +10333,6 @@ object
 *
 /
 _restoreHistory
-:
-function
-ss_restoreHistory
 (
 aDocShell
 aTabData
@@ -10549,9 +10435,6 @@ browser
 *
 /
 _restoreTextData
-:
-function
-ss_restoreTextData
 (
 aFormData
 aBrowser
@@ -10681,9 +10564,6 @@ effect
 *
 /
 _restoreZoom
-:
-function
-ss_restoreZoom
 (
 aScrollData
 aBrowser
@@ -10798,9 +10678,6 @@ browser
 *
 /
 _restoreScrollPosition
-:
-function
-ss_restoreScrollPosition
 (
 aScrollData
 aBrowser
@@ -10859,9 +10736,6 @@ scroll
 }
 }
 getBrowserState
-:
-function
-ss_getBrowserState
 (
 )
 {
@@ -10874,9 +10748,6 @@ _getCurrentState
 ;
 }
 _restoreWindow
-:
-function
-ss_restoreWindow
 (
 aData
 )
@@ -11363,9 +11234,6 @@ tabs
 }
 }
 getClosedTabCount
-:
-function
-ss_getClosedTabCount
 (
 aWindow
 )
@@ -11426,9 +11294,6 @@ length
 ;
 }
 getClosedTabs
-:
-function
-ss_getClosedTabs
 (
 aWindow
 )
@@ -11467,9 +11332,6 @@ closedTabs
 ;
 }
 undoCloseTab
-:
-function
-ss_undoCloseTab
 (
 aWindow
 aCloseTabData
@@ -11845,9 +11707,6 @@ INVALID_TAB_INDEX
 ;
 }
 _sendClosedTabsToJava
-:
-function
-ss_sendClosedTabsToJava
 (
 aWindow
 )
@@ -12054,9 +11913,6 @@ tabs
 ;
 }
 getTabValue
-:
-function
-ss_getTabValue
 (
 aTab
 aKey
@@ -12092,9 +11948,6 @@ aKey
 ;
 }
 setTabValue
-:
-function
-ss_setTabValue
 (
 aTab
 aKey
@@ -12141,9 +11994,6 @@ saveStateDelayed
 ;
 }
 deleteTabValue
-:
-function
-ss_deleteTabValue
 (
 aTab
 aKey
@@ -12250,9 +12100,6 @@ notifyMessage
 ;
 }
 removeWindow
-:
-function
-ss_removeWindow
 (
 aWindow
 )
@@ -12342,9 +12189,6 @@ saveStateDelayed
 }
 }
 setLoadState
-:
-function
-ss_setLoadState
 (
 aState
 )
