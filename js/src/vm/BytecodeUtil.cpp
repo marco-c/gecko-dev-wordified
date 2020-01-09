@@ -12779,6 +12779,17 @@ RVAL
 "
 )
 ;
+case
+JSOP_ASYNCRESOLVE
+:
+return
+write
+(
+"
+PROMISE
+"
+)
+;
 default
 :
 break

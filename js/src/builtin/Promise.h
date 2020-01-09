@@ -1723,6 +1723,8 @@ PromiseObject
 *
 >
 resultPromise
+HandleValue
+reason
 )
 ;
 MOZ_MUST_USE

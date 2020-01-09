@@ -1134,6 +1134,11 @@ JSOP_RESUME
 \
 _
 (
+JSOP_ASYNCRESOLVE
+)
+\
+_
+(
 JSOP_CALLEE
 )
 \
