@@ -1138,6 +1138,6 @@ log
 -
 points
 "
-false
+true
 )
 ;
