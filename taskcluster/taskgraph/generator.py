@@ -1644,6 +1644,11 @@ transitive_closure
 self
 .
 _target_kind
+'
+docker
+-
+image
+'
 }
 )
         
@@ -1847,6 +1852,7 @@ verifications
 full_task_set
 '
 full_task_set
+graph_config
 )
         
 logger
@@ -1958,6 +1964,7 @@ verifications
 full_task_graph
 '
 full_task_graph
+graph_config
 )
         
 logger
@@ -2099,6 +2106,7 @@ verifications
 target_task_set
 '
 target_task_set
+graph_config
 )
         
 logger
@@ -2283,6 +2291,7 @@ verifications
 target_task_graph
 '
 target_task_graph
+graph_config
 )
         
 logger
@@ -2376,6 +2385,7 @@ verifications
 optimized_task_graph
 '
 optimized_task_graph
+graph_config
 )
         
 morphed_task_graph
@@ -2402,6 +2412,7 @@ verifications
 morphed_task_graph
 '
 morphed_task_graph
+graph_config
 )
     
 def

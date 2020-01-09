@@ -207,6 +207,7 @@ __call__
 self
 graph_name
 graph
+graph_config
 )
 :
         
@@ -238,6 +239,9 @@ verification
 scratch_pad
 =
 scratch_pad
+graph_config
+=
+graph_config
 )
             
 verification
@@ -247,6 +251,9 @@ graph
 scratch_pad
 =
 scratch_pad
+graph_config
+=
+graph_config
 )
         
 return
@@ -578,6 +585,7 @@ verify_task_graph_symbol
 task
 taskgraph
 scratch_pad
+graph_config
 )
 :
     
@@ -798,33 +806,39 @@ full_task_graph
 '
 )
 def
-verify_gecko_v2_routes
+verify_trust_domain_v2_routes
 (
 task
 taskgraph
 scratch_pad
+graph_config
 )
 :
     
 "
 "
 "
-        
+    
 This
 function
 ensures
 that
 any
 two
-        
 tasks
 have
 distinct
 index
 .
-v2
+{
+trust
+-
+domain
+}
 .
+v2
 routes
+.
     
 "
 "
@@ -843,10 +857,23 @@ route_prefix
 "
 index
 .
-gecko
+{
+}
 .
 v2
 "
+.
+format
+(
+graph_config
+[
+'
+trust
+-
+domain
+'
+]
+)
     
 task_dict
 =
@@ -947,6 +974,7 @@ verify_routes_notification_filters
 task
 taskgraph
 scratch_pad
+graph_config
 )
 :
     
@@ -1141,6 +1169,7 @@ verify_dependency_tiers
 task
 taskgraph
 scratch_pad
+graph_config
 )
 :
     
@@ -1366,6 +1395,7 @@ verify_required_signoffs
 task
 taskgraph
 scratch_pad
+graph_config
 )
 :
     
@@ -1595,6 +1625,7 @@ verify_always_optimized
 task
 taskgraph
 scratch_pad
+graph_config
 )
 :
     
