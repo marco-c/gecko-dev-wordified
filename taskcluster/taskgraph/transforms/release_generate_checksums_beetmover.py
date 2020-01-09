@@ -609,18 +609,13 @@ files
 dependencies
 =
 {
-            
-str
-(
 dep_job
 .
 kind
-)
 :
 dep_job
 .
 label
-        
 }
         
 if

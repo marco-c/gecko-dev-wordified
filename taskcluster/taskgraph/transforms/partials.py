@@ -490,19 +490,12 @@ tier
 1
 )
         
-dependent_kind
-=
-str
-(
-dep_job
-.
-kind
-)
-        
 dependencies
 =
 {
-dependent_kind
+dep_job
+.
+kind
 :
 dep_job
 .
@@ -709,7 +702,9 @@ mar
 format
 (
             
-dependent_kind
+dep_job
+.
+kind
 get_artifact_prefix
 (
 dep_job
