@@ -183,11 +183,9 @@ querySelector
 (
 "
 .
-inspector
+markup
 -
 badge
-.
-interactive
 [
 data
 -
