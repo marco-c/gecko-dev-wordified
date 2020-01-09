@@ -246,8 +246,6 @@ aProvidedPrincipal
 nsIDocument
 *
 aSourceDocument
-bool
-aTrustedCaller
 )
 ;
 private
@@ -314,9 +312,6 @@ nsCOMPtr
 nsIDocument
 >
 mSourceDocument
-;
-bool
-mTrustedCaller
 ;
 }
 ;
