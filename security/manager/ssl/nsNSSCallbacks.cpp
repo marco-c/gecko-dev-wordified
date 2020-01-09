@@ -1869,6 +1869,7 @@ getter_AddRefs
 uploadStream
 )
 mPOSTData
+NS_ASSIGNMENT_COPY
 )
 ;
 if
