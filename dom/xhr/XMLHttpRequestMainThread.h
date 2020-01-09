@@ -514,9 +514,17 @@ member
 name
 *
 /
+typedef
+Status
+__StatusTmp
+;
 #
 undef
 Status
+typedef
+__StatusTmp
+Status
+;
 #
 endif
 class
