@@ -205,7 +205,14 @@ euclid
 :
 HomogeneousVector
 ;
+/
+/
+local
+imports
 use
+image
+:
+:
 DirtyRect
 ;
 /
