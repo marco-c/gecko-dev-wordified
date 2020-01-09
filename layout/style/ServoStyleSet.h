@@ -1498,16 +1498,6 @@ aSheet
 )
 ;
 nsresult
-PrependStyleSheet
-(
-SheetType
-aType
-StyleSheet
-*
-aSheet
-)
-;
-nsresult
 RemoveStyleSheet
 (
 SheetType
