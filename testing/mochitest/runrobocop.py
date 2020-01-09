@@ -1065,15 +1065,6 @@ buildProfile
 (
 )
         
-#
-ignoreSSLTunnelExts
-is
-a
-workaround
-for
-bug
-1109310
-        
 self
 .
 startServers
@@ -1086,10 +1077,6 @@ options
 debuggerInfo
 =
 None
-            
-ignoreSSLTunnelExts
-=
-True
 )
         
 self
