@@ -9257,10 +9257,13 @@ Document
 >
 mDocument
 ;
+nsTArray
+<
 Document
 :
 :
-FrameRequestCallbackList
+FrameRequest
+>
 mCallbacks
 ;
 }
@@ -10457,6 +10460,8 @@ mCallbacks
 )
 {
 callback
+.
+mCallback
 -
 >
 Call
