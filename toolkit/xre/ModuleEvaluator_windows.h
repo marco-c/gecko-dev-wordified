@@ -228,6 +228,9 @@ WinSxSDirectory
 Xul
 =
 0x200
+SysWOW64Directory
+=
+0x400
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
@@ -649,6 +652,17 @@ mSysDirectory
 nsString
 mWinSxSDirectory
 ;
+#
+ifdef
+_M_IX86
+nsString
+mSysWOW64Directory
+;
+#
+endif
+/
+/
+_M_IX86
 Vector
 <
 nsString
