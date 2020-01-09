@@ -3816,7 +3816,12 @@ new
 MoofParser
 (
 mStream
-0
+AsVariant
+(
+ParseAllTracks
+{
+}
+)
 /
 *
 aIsAudio
@@ -3824,12 +3829,6 @@ aIsAudio
 *
 /
 false
-/
-*
-aIsMultitrackParser
-*
-/
-true
 )
 ;
 DDLINKCHILD

@@ -2750,7 +2750,10 @@ new
 MoofParser
 (
 aSource
+AsVariant
+(
 aTrackId
+)
 aIsAudio
 )
 ;

@@ -2925,9 +2925,13 @@ MoofParser
 >
 (
 aSource
-0
+AsVariant
+(
+ParseAllTracks
+{
+}
+)
 false
-true
 )
 ;
 RefPtr
