@@ -374,13 +374,6 @@ false
 \
 _
 (
-UseWebRenderDCompWinTripleBuffering
-bool
-false
-)
-\
-_
-(
 UseWebRenderProgramBinary
 bool
 false
