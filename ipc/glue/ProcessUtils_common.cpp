@@ -954,16 +954,10 @@ the
 shared
 memory
 .
-base
-:
-:
-SharedMemory
-shm
-;
 if
 (
 !
-shm
+mShmem
 .
 SetHandle
 (
@@ -999,7 +993,7 @@ false
 if
 (
 !
-shm
+mShmem
 .
 Map
 (
@@ -1037,7 +1031,7 @@ char
 *
 >
 (
-shm
+mShmem
 .
 memory
 (

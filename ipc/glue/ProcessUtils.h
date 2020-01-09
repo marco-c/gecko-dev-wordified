@@ -371,6 +371,12 @@ size_t
 >
 mPrefMapSize
 ;
+base
+:
+:
+SharedMemory
+mShmem
+;
 }
 ;
 #
