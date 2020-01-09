@@ -1598,10 +1598,6 @@ const
 bool
 &
 aLayersConnected
-const
-bool
-&
-aHasRenderFrame
 )
 override
 ;
@@ -4240,9 +4236,6 @@ layers
 CompositorOptions
 &
 aCompositorOptions
-const
-bool
-aHasRenderFrame
 )
 ;
 void

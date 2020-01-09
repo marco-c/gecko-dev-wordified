@@ -3957,7 +3957,6 @@ mRenderFrame
 IsLayersConnected
 (
 )
-true
 )
 ;
 }
