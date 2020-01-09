@@ -13581,6 +13581,17 @@ user
 s
 operation
 .
+RefPtr
+<
+nsRange
+>
+range
+;
+/
+/
+See
+bug
+1506439
 DebugOnly
 <
 nsresult
@@ -13593,6 +13604,7 @@ textEditor
 ReplaceTextAsAction
 (
 newValue
+range
 )
 ;
 NS_WARNING_ASSERTION
