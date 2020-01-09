@@ -1214,7 +1214,7 @@ Int
 /
 Buckets
 for
-match
+result
 insertion
 .
 /
@@ -1223,7 +1223,7 @@ Every
 time
 a
 new
-match
+result
 is
 returned
 we
@@ -1248,7 +1248,7 @@ space
 for
 the
 given
-match
+result
 type
 .
 /
@@ -1268,7 +1268,7 @@ indices
 0
 :
 The
-match
+result
 type
 of
 the

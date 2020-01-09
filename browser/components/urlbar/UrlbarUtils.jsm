@@ -350,7 +350,7 @@ use
 /
 PROVIDER_TYPE
 and
-MATCH_TYPE
+RESULT_TYPE
 MATCH_GROUP
 :
 {
@@ -464,7 +464,7 @@ Defines
 UrlbarResult
 types
 .
-MATCH_TYPE
+RESULT_TYPE
 :
 {
 /

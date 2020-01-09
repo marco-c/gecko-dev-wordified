@@ -173,7 +173,7 @@ UrlbarResult
 (
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 TAB_SWITCH
 UrlbarUtils
@@ -203,7 +203,7 @@ UrlbarResult
 (
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 URL
 UrlbarUtils
@@ -233,7 +233,7 @@ UrlbarResult
 (
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 URL
 UrlbarUtils

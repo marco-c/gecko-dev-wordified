@@ -1980,7 +1980,7 @@ type
 =
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 SEARCH
 |
@@ -1992,7 +1992,7 @@ type
 =
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 KEYWORD
 )
@@ -2246,7 +2246,7 @@ type
 case
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 TAB_SWITCH
 :
@@ -2281,7 +2281,7 @@ break
 case
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 SEARCH
 :
