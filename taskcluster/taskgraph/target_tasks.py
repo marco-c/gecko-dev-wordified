@@ -4288,8 +4288,6 @@ win64
 -
 aarch64
 -
-msvc
--
 nightly
 '
 }

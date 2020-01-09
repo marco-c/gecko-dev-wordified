@@ -107,8 +107,6 @@ aarch64
 win64
 -
 aarch64
--
-msvc
 '
     
 '
@@ -309,8 +307,6 @@ asan
 win64
 -
 aarch64
--
-msvc
 "
 :
 [
