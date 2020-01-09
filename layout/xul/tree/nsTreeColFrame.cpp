@@ -942,15 +942,13 @@ if
 aCanWalkFrameTree
 )
 {
+columns
+=
 tree
 -
 >
 GetColumns
 (
-getter_AddRefs
-(
-columns
-)
 )
 ;
 }
