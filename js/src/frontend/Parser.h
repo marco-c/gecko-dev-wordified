@@ -1898,7 +1898,7 @@ tracing
 /
 TraceListNode
 *
-traceListHead
+traceListHead_
 ;
 /
 *
@@ -2609,7 +2609,7 @@ m
 .
 traceListHead
 =
-traceListHead
+traceListHead_
 ;
 return
 m
@@ -2631,7 +2631,7 @@ m
 mark
 )
 ;
-traceListHead
+traceListHead_
 =
 m
 .
@@ -4619,7 +4619,7 @@ using
 Base
 :
 :
-traceListHead
+traceListHead_
 ;
 using
 Base

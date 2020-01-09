@@ -1038,7 +1038,7 @@ thisForCtor
 (
 )
 )
-traceListHead
+traceListHead_
 (
 nullptr
 )
@@ -1668,7 +1668,7 @@ BoxT
 >
 (
 arg
-traceListHead
+traceListHead_
 )
 ;
 if
@@ -1686,7 +1686,7 @@ return
 nullptr
 ;
 }
-traceListHead
+traceListHead_
 =
 box
 ;
@@ -1849,7 +1849,7 @@ FunctionBox
 >
 (
 cx_
-traceListHead
+traceListHead_
 fun
 toStringStart
 inheritedDirectives
@@ -1877,7 +1877,7 @@ return
 nullptr
 ;
 }
-traceListHead
+traceListHead_
 =
 funbox
 ;
@@ -1916,7 +1916,7 @@ TraceListNode
 TraceList
 (
 trc
-traceListHead
+traceListHead_
 )
 ;
 }
