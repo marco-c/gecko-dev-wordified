@@ -3884,6 +3884,23 @@ override
 True
         
 #
+Always
+display
+a
+blank
+page
+        
+"
+browser
+.
+newtabpage
+.
+enabled
+"
+:
+False
+        
+#
 Background
 thumbnails
 in
