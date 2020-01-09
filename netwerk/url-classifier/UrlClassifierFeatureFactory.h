@@ -178,7 +178,7 @@ aFeatures
 ;
 static
 void
-GetFeaturesNoChannel
+GetPhishingProtectionFeatures
 (
 nsTArray
 <

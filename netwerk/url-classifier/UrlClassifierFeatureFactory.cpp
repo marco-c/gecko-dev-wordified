@@ -161,7 +161,7 @@ h
 #
 include
 "
-UrlClassifierFeatureNoChannel
+UrlClassifierFeaturePhishingProtection
 .
 h
 "
@@ -264,7 +264,7 @@ MaybeShutdown
 (
 )
 ;
-UrlClassifierFeatureNoChannel
+UrlClassifierFeaturePhishingProtection
 :
 :
 MaybeShutdown
@@ -523,7 +523,7 @@ void
 UrlClassifierFeatureFactory
 :
 :
-GetFeaturesNoChannel
+GetPhishingProtectionFeatures
 (
 nsTArray
 <
@@ -536,7 +536,7 @@ nsIUrlClassifierFeature
 aFeatures
 )
 {
-UrlClassifierFeatureNoChannel
+UrlClassifierFeaturePhishingProtection
 :
 :
 MaybeCreate
@@ -775,11 +775,11 @@ forget
 }
 /
 /
-NoChannel
+PhishingProtection
 features
 feature
 =
-UrlClassifierFeatureNoChannel
+UrlClassifierFeaturePhishingProtection
 :
 :
 GetIfNameMatches
@@ -1034,7 +1034,7 @@ features
 }
 /
 /
-NoChannel
+PhishingProtection
 features
 {
 nsTArray
@@ -1043,7 +1043,7 @@ nsCString
 >
 features
 ;
-UrlClassifierFeatureNoChannel
+UrlClassifierFeaturePhishingProtection
 :
 :
 GetFeatureNames
