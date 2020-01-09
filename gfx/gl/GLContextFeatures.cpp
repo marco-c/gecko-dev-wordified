@@ -2361,7 +2361,7 @@ GL3_1
 GLESVersion
 :
 :
-ES3
+NONE
 GLContext
 :
 :
