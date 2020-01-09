@@ -962,7 +962,7 @@ the
 ProcessedQueue
 Atomic
 <
-int32_t
+uint64_t
 >
 mProcessedQueueLength
 ;
