@@ -2119,6 +2119,7 @@ addon
 )
             
 elif
+(
 mozpath
 .
 basename
@@ -2132,6 +2133,16 @@ manifest
 .
 json
 '
+and
+                  
+'
+modules
+/
+'
+not
+in
+path
+)
 :
                 
 manifest
