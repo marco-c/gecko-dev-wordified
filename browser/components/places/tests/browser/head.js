@@ -415,8 +415,7 @@ view
 selection
 .
 count
-!
-=
+<
 1
 )
 throw
