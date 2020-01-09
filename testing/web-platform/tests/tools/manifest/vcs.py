@@ -390,9 +390,12 @@ rebuild
 )
         
 except
+(
 subprocess
 .
 CalledProcessError
+OSError
+)
 :
             
 return
