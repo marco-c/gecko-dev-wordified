@@ -16376,6 +16376,16 @@ global
 )
 const
 ;
+bool
+hasGlobal
+(
+const
+GlobalObject
+*
+global
+)
+const
+;
 JSObject
 *
 environmentChain

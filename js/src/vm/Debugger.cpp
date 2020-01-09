@@ -29417,12 +29417,10 @@ if
 (
 frame
 .
-global
+hasGlobal
 (
-)
-=
-=
 global
+)
 )
 {
 frameobj
