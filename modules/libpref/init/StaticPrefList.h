@@ -7013,8 +7013,8 @@ navigator
 mediadatadecoder_h264_enabled
 "
 MediaNavigatorMediadatadecoderH264Enabled
-bool
-false
+RelaxedAtomicBool
+true
 )
 #
 endif
