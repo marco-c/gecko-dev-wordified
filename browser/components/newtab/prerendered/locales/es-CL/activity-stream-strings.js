@@ -438,10 +438,7 @@ prefs_content_discovery_header
 "
 :
 "
-P
-gina
-de
-inicio
+Inicio
 de
 Firefox
 "

@@ -2530,9 +2530,6 @@ if
 (
 [
 "
-AT
-"
-"
 DE
 "
 "
@@ -2777,6 +2774,9 @@ stringify
 enabled
 :
 false
+show_spocs
+:
+true
 /
 /
 This

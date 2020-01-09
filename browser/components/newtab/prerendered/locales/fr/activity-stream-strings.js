@@ -513,10 +513,13 @@ prefs_content_discovery_button
 "
 :
 "
-Turn
-Off
-Content
-Discovery
+D
+sactiver
+la
+d
+couverte
+de
+contenu
 "
 "
 prefs_section_rows_option

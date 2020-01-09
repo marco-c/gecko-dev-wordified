@@ -465,7 +465,8 @@ prefs_content_discovery_header
 :
 "
 Firefox
-Home
+kuatiarogue
+epyr
 "
 "
 prefs_content_discovery_description
@@ -1302,13 +1303,6 @@ context_menu_title
 Eike
 poravor
 me
-"
-"
-pocket_learn_more
-"
-:
-"
-Kuaave
 "
 }
 ;
