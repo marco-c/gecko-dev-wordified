@@ -2251,7 +2251,7 @@ self
 .
 resources
 .
-picture_interner
+picture
 .
 intern
 (
@@ -5557,7 +5557,7 @@ self
 .
 resources
 .
-clip_interner
+clip
 .
 intern
 (
@@ -8940,7 +8940,7 @@ self
 .
 resources
 .
-clip_interner
+clip
 .
 intern
 (
@@ -9008,7 +9008,7 @@ self
 .
 resources
 .
-clip_interner
+clip
 .
 intern
 (
@@ -9064,7 +9064,7 @@ self
 .
 resources
 .
-clip_interner
+clip
 .
 intern
 (
@@ -10056,7 +10056,7 @@ self
 .
 resources
 .
-picture_interner
+picture
 .
 intern
 (
@@ -14197,7 +14197,7 @@ data_handle
 =
 resources
 .
-picture_interner
+picture
 .
 intern
 (

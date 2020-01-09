@@ -3495,7 +3495,7 @@ ctx
 .
 resources
 .
-prim_data_store
+prim
 [
 data_handle
 ]
@@ -3701,7 +3701,7 @@ ctx
 .
 resources
 .
-normal_border_data_store
+normal_border
 [
 data_handle
 ]
@@ -4095,7 +4095,7 @@ ctx
 .
 resources
 .
-text_run_data_store
+text_run
 [
 data_handle
 ]
@@ -4569,7 +4569,7 @@ ctx
 .
 resources
 .
-line_decoration_data_store
+line_decoration
 [
 data_handle
 ]
@@ -7791,7 +7791,7 @@ ctx
 .
 resources
 .
-image_border_data_store
+image_border
 [
 data_handle
 ]
@@ -8073,7 +8073,7 @@ ctx
 .
 resources
 .
-prim_data_store
+prim
 [
 data_handle
 ]
@@ -8344,7 +8344,7 @@ ctx
 .
 resources
 .
-yuv_image_data_store
+yuv_image
 [
 data_handle
 ]
@@ -8823,7 +8823,7 @@ ctx
 .
 resources
 .
-image_data_store
+image
 [
 data_handle
 ]
@@ -8838,7 +8838,7 @@ ctx
 .
 resources
 .
-image_data_store
+image
 [
 data_handle
 ]
@@ -9458,7 +9458,7 @@ ctx
 .
 resources
 .
-linear_grad_data_store
+linear_grad
 [
 data_handle
 ]
@@ -9727,7 +9727,7 @@ ctx
 .
 resources
 .
-radial_grad_data_store
+radial_grad
 [
 data_handle
 ]
@@ -11388,7 +11388,7 @@ image_data
 &
 resources
 .
-image_data_store
+image
 [
 data_handle
 ]
@@ -11417,7 +11417,7 @@ yuv_image_data
 &
 resources
 .
-yuv_image_data_store
+yuv_image
 [
 data_handle
 ]

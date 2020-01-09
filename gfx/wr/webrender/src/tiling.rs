@@ -4547,7 +4547,7 @@ ctx
 .
 resources
 .
-clip_data_store
+clip
 )
 ;
 }
