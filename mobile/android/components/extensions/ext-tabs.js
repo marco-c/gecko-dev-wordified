@@ -2009,6 +2009,7 @@ selected
 muted
 pinned
 openerTabId
+successorTabId
 return
 tabManager
 .
