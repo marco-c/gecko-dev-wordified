@@ -550,6 +550,14 @@ eOpenerAfterUserInteraction
 eOpener
 }
 ;
+enum
+StorageAccessPromptChoices
+{
+eAllow
+eAllowAutoGrant
+eAllowOnAnySite
+}
+;
 /
 /
 Grant
@@ -775,7 +783,7 @@ net
 typedef
 MozPromise
 <
-bool
+int
 bool
 true
 >
@@ -799,7 +807,7 @@ PerformFinalChecks
 typedef
 MozPromise
 <
-bool
+int
 bool
 true
 >
@@ -918,8 +926,8 @@ const
 nsCString
 &
 aGrantedOrigin
-bool
-aAnySite
+int
+aAllowMode
 )
 ;
 enum
