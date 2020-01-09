@@ -5262,14 +5262,6 @@ SetFullZoom
 0f
 )
 ;
-viewer
--
->
-SetMinFontSize
-(
-0
-)
-;
 }
 }
 /
