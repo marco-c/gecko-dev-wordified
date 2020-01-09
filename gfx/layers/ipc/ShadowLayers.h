@@ -1944,6 +1944,8 @@ mozilla
 TimeStamp
 &
 aTransactionStart
+bool
+aContainsSVG
 const
 nsCString
 &

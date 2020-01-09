@@ -2769,6 +2769,11 @@ transactionStart
 endTime
 aInfo
 .
+containsSVG
+(
+)
+aInfo
+.
 url
 (
 )

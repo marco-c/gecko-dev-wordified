@@ -4508,6 +4508,7 @@ GetVsyncStart
 )
 refreshStart
 mTransactionStart
+mContainsSVG
 mURL
 &
 sent

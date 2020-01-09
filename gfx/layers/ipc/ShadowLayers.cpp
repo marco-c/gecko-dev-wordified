@@ -3452,6 +3452,8 @@ mozilla
 TimeStamp
 &
 aTransactionStart
+bool
+aContainsSVG
 const
 nsCString
 &
@@ -4588,6 +4590,14 @@ url
 )
 =
 aURL
+;
+info
+.
+containsSVG
+(
+)
+=
+aContainsSVG
 ;
 #
 if

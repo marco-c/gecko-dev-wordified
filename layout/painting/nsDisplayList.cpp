@@ -17496,6 +17496,14 @@ if
 layerManager
 )
 {
+layerManager
+-
+>
+SetContainsSVG
+(
+false
+)
+;
 doBeginTransaction
 =
 !
