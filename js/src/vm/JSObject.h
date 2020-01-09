@@ -2804,12 +2804,6 @@ proto
 ;
 }
 bool
-hasTenuredProto
-(
-)
-const
-;
-bool
 uninlinedIsProxy
 (
 )
@@ -3868,12 +3862,6 @@ fixDictionaryShapeAfterSwap
 ;
 public
 :
-inline
-void
-initArrayClass
-(
-)
-;
 /
 *
 *
