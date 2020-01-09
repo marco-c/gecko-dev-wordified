@@ -11473,6 +11473,15 @@ ContentBackend
 "
 null
 )
+LowEndMachine
+:
+getGfxField
+(
+"
+LowEndMachine
+"
+false
+)
 /
 /
 The
