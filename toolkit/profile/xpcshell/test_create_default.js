@@ -40,6 +40,17 @@ selectStartupProfile
 (
 )
 ;
+checkStartupReason
+(
+"
+firstrun
+-
+created
+-
+default
+"
+)
+;
 let
 profileData
 =
