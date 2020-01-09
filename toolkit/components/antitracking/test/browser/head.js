@@ -2941,7 +2941,6 @@ _setupTest
 win
 BEHAVIOR_REJECT_TRACKER
 true
-true
 extraPrefs
 )
 ;
@@ -3393,7 +3392,6 @@ _setupTest
 (
 win
 BEHAVIOR_REJECT_TRACKER
-true
 true
 extraPrefs
 )
