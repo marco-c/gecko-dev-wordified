@@ -19,6 +19,8 @@ import
 shutil
 import
 subprocess
+import
+sys
 browser_specific_args
 =
 {
@@ -251,11 +253,9 @@ addHandler
 handler
 )
     
-child
-=
 subprocess
 .
-Popen
+call
 (
 [
 '
@@ -272,12 +272,6 @@ manifest
 download
 '
 ]
-)
-    
-child
-.
-wait
-(
 )
     
 if
@@ -469,11 +463,27 @@ command
 )
 )
     
+retcode
+=
 subprocess
 .
-check_call
+call
 (
 command
+)
+    
+if
+retcode
+!
+=
+0
+:
+        
+sys
+.
+exit
+(
+retcode
 )
     
 wptreport
