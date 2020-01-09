@@ -4600,11 +4600,6 @@ result
 value
 :
 _text
-text
-:
-result
-.
-input
 }
 )
 ;
