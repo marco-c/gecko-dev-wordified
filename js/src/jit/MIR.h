@@ -69217,6 +69217,9 @@ AnyRegister
 >
 argRegs_
 ;
+uint32_t
+stackArgAreaSizeUnaligned_
+;
 ABIArg
 instanceArg_
 ;
@@ -69236,6 +69239,8 @@ wasm
 CalleeDesc
 &
 callee
+uint32_t
+stackArgAreaSizeUnaligned
 )
 :
 MVariadicInstruction
@@ -69249,6 +69254,10 @@ desc
 callee_
 (
 callee
+)
+stackArgAreaSizeUnaligned_
+(
+stackArgAreaSizeUnaligned
 )
 {
 }
@@ -69326,6 +69335,8 @@ Args
 args
 MIRType
 resultType
+uint32_t
+stackArgAreaSizeUnaligned
 MDefinition
 *
 tableIndex
@@ -69364,6 +69375,8 @@ Args
 args
 MIRType
 resultType
+uint32_t
+stackArgAreaSizeUnaligned
 )
 ;
 size_t
@@ -69432,6 +69445,16 @@ const
 {
 return
 callee_
+;
+}
+uint32_t
+stackArgAreaSizeUnaligned
+(
+)
+const
+{
+return
+stackArgAreaSizeUnaligned_
 ;
 }
 bool
