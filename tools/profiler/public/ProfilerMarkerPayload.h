@@ -779,14 +779,14 @@ mKind
 }
 ;
 class
-DiskIOMarkerPayload
+FileIOMarkerPayload
 :
 public
 ProfilerMarkerPayload
 {
 public
 :
-DiskIOMarkerPayload
+FileIOMarkerPayload
 (
 const
 char

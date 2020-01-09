@@ -129,7 +129,7 @@ filename
 profiler_add_marker
 (
 "
-DiskIO
+FileIO
 "
 JS
 :
@@ -140,7 +140,7 @@ ProfilingCategoryPair
 OTHER
 MakeUnique
 <
-DiskIOMarkerPayload
+FileIOMarkerPayload
 >
 (
 aObservation
