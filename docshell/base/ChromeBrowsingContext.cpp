@@ -146,6 +146,9 @@ ChromeBrowsingContext
 BrowsingContext
 *
 aParent
+BrowsingContext
+*
+aOpener
 const
 nsAString
 &
@@ -164,6 +167,7 @@ aType
 BrowsingContext
 (
 aParent
+aOpener
 aName
 aBrowsingContextId
 aType

@@ -1301,6 +1301,9 @@ aChromeFlags
 nsresult
 Init
 (
+mozIDOMWindowProxy
+*
+aParent
 )
 ;
 /

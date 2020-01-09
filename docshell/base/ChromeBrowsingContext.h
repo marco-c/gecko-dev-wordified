@@ -285,6 +285,9 @@ ChromeBrowsingContext
 BrowsingContext
 *
 aParent
+BrowsingContext
+*
+aOpener
 const
 nsAString
 &
