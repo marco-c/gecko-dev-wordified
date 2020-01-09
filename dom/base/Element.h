@@ -506,6 +506,9 @@ nsIDOMXULSelectControlItemElement
 class
 nsIBrowser
 ;
+class
+nsIAutoCompletePopup
+;
 namespace
 mozilla
 {
@@ -10045,6 +10048,14 @@ already_AddRefed
 nsIBrowser
 >
 AsBrowser
+(
+)
+;
+already_AddRefed
+<
+nsIAutoCompletePopup
+>
+AsAutoCompletePopup
 (
 )
 ;
