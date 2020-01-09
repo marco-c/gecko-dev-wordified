@@ -224,13 +224,6 @@ hud
 )
 ;
 await
-setFilterBarVisible
-(
-hud
-false
-)
-;
-await
 closeConsole
 (
 )
@@ -339,13 +332,6 @@ await
 resetFilters
 (
 hud
-)
-;
-await
-setFilterBarVisible
-(
-hud
-false
 )
 ;
 }

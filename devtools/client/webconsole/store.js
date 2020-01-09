@@ -566,16 +566,6 @@ ui
 UiState
 (
 {
-filterBarVisible
-:
-getBoolPref
-(
-PREFS
-.
-UI
-.
-FILTER_BAR
-)
 networkMessageActiveTabId
 :
 "

@@ -136,13 +136,6 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-await
-setFilterBarVisible
-(
-hud
-true
-)
-;
 const
 filterState
 =
@@ -536,13 +529,6 @@ await
 resetFilters
 (
 hud
-)
-;
-await
-setFilterBarVisible
-(
-hud
-false
 )
 ;
 }
