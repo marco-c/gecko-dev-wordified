@@ -278,9 +278,7 @@ quickly
 var
 outerWindowID
 =
-content
-.
-windowUtils
+docShell
 .
 outerWindowID
 ;
