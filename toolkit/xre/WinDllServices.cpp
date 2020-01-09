@@ -2872,7 +2872,7 @@ true
 ;
 /
 /
-Enable
+EnableFull
 (
 )
 winds
@@ -2892,7 +2892,7 @@ So
 we
 must
 call
-Enable
+EnableFull
 (
 )
 here
@@ -2907,7 +2907,7 @@ constructor
 sInstance
 -
 >
-Enable
+EnableFull
 (
 )
 ;
