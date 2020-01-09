@@ -1120,6 +1120,11 @@ nsIPresShell
 :
 :
 RENDER_DOCUMENT_RELATIVE
+|
+nsIPresShell
+:
+:
+RENDER_DRAWWINDOW_NOT_FLUSHING
 ;
 const
 nscolor
