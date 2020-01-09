@@ -154,12 +154,51 @@ debugger_arguments
 (
 )
     
+runner_args
+=
+cli
+.
+runner_args
+(
+)
+    
 build
 =
 MozbuildObject
 .
 from_environment
 (
+)
+    
+binary
+=
+runner_args
+.
+get
+(
+'
+binary
+'
+)
+    
+if
+not
+binary
+:
+        
+binary
+=
+build
+.
+get_binary_path
+(
+where
+=
+"
+staged
+-
+package
+"
 )
     
 path_mappings
@@ -681,19 +720,7 @@ profile
                                
 binary
 =
-build
-.
-get_binary_path
-(
-                                   
-where
-=
-"
-staged
--
-package
-"
-)
+binary
                                
 cmdargs
 =
@@ -815,19 +842,7 @@ profile
                                
 binary
 =
-build
-.
-get_binary_path
-(
-                                   
-where
-=
-"
-staged
--
-package
-"
-)
+binary
                                
 cmdargs
 =
