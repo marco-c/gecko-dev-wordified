@@ -470,7 +470,7 @@ isInWarningGroup
 :
 PropTypes
 .
-isRequired
+func
 networkMessagesUpdate
 :
 PropTypes
