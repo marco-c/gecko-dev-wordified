@@ -5868,6 +5868,13 @@ IsAlive
 )
 )
 ;
+item
+-
+>
+UpdateFollowAnchor
+(
+)
+;
 /
 /
 popups
@@ -5963,13 +5970,6 @@ weakFrame
 IsAlive
 (
 )
-)
-;
-item
--
->
-UpdateFollowAnchor
-(
 )
 ;
 if
