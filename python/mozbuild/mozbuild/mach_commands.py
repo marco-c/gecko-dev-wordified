@@ -77,6 +77,8 @@ os
 import
 re
 import
+shutil
+import
 subprocess
 import
 sys
@@ -11417,9 +11419,6 @@ redo
 import
 requests
         
-import
-shutil
-        
 from
 taskgraph
 .
@@ -17518,9 +17517,6 @@ futures
 import
 multiprocessing
         
-import
-shutil
-        
 max_workers
 =
 multiprocessing
@@ -19681,9 +19677,6 @@ are
 loaded
 into
 memory
-        
-import
-shutil
         
 shutil
 .
@@ -23218,9 +23211,6 @@ from
 scratch
 .
             
-import
-shutil
-            
 shutil
 .
 rmtree
@@ -24129,9 +24119,6 @@ from
 scratch
 .
                 
-import
-shutil
-                
 shutil
 .
 rmtree
@@ -25009,9 +24996,6 @@ show
 paths
 )
 :
-        
-import
-shutil
         
 #
 Run
