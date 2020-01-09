@@ -151,6 +151,11 @@ PQuotaParent
 aActor
 )
 ;
+bool
+RecvShutdownQuotaManager
+(
+)
+;
 }
 /
 /

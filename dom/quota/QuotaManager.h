@@ -433,9 +433,6 @@ CreateRunnable
 private
 :
 class
-ShutdownRunnable
-;
-class
 Observer
 ;
 public
@@ -549,6 +546,12 @@ process
 static
 bool
 IsShuttingDown
+(
+)
+;
+static
+void
+ShutdownInstance
 (
 )
 ;
