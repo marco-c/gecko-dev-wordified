@@ -10722,6 +10722,10 @@ invalidating
 .
 UpdateImageContainer
 (
+Some
+(
+aInvalidRect
+)
 )
 ;
 }
