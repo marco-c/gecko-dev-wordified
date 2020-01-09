@@ -820,6 +820,11 @@ isConnecting
 runtime
 .
 isConnecting
+isConnectionFailed
+:
+runtime
+.
+isConnectionFailed
 isSelected
 isUnknown
 :
