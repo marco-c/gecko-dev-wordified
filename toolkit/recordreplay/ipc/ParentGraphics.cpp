@@ -1207,7 +1207,7 @@ cx
 ;
 bufferObject
 =
-JS_NewArrayBufferWithExternalContents
+JS_NewArrayBufferWithUserOwnedContents
 (
 cx
 width
@@ -1290,7 +1290,7 @@ as
 the
 /
 /
-JS_NewArrayBufferWithExternalContents
+JS_NewArrayBufferWithUserOwnedContents
 API
 mandates
 .
