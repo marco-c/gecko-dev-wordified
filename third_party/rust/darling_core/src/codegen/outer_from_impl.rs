@@ -339,8 +339,6 @@ iter_mut
 {
 if
 let
-&
-mut
 GenericParam
 :
 :
@@ -351,6 +349,7 @@ mut
 typ
 )
 =
+*
 param
 {
 if
