@@ -94,7 +94,7 @@ gre
 /
 modules
 /
-GeckoViewContentModule
+GeckoViewChildModule
 .
 jsm
 "
@@ -250,9 +250,9 @@ nsISessionStoreUtils
 )
 ;
 class
-GeckoViewContent
+GeckoViewContentChild
 extends
-GeckoViewContentModule
+GeckoViewChildModule
 {
 onInit
 (
@@ -2533,7 +2533,7 @@ debug
 warn
 }
 =
-GeckoViewContent
+GeckoViewContentChild
 .
 initLogging
 (
@@ -2545,7 +2545,7 @@ GeckoViewContent
 let
 module
 =
-GeckoViewContent
+GeckoViewContentChild
 .
 create
 (

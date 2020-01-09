@@ -94,7 +94,7 @@ gre
 /
 modules
 /
-GeckoViewContentModule
+GeckoViewChildModule
 .
 jsm
 "
@@ -164,9 +164,9 @@ Implements
 nsILoadURIDelegate
 .
 class
-GeckoViewNavigationContent
+GeckoViewNavigationChild
 extends
-GeckoViewContentModule
+GeckoViewChildModule
 {
 onInit
 (
@@ -385,7 +385,7 @@ debug
 warn
 }
 =
-GeckoViewNavigationContent
+GeckoViewNavigationChild
 .
 initLogging
 (
@@ -397,7 +397,7 @@ GeckoViewNavigation
 let
 module
 =
-GeckoViewNavigationContent
+GeckoViewNavigationChild
 .
 create
 (

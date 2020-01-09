@@ -243,7 +243,7 @@ This
 needs
 to
 match
-GeckoViewContentSettings
+GeckoViewSettingsChild
 .
 js
 and

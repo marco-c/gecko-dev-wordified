@@ -94,7 +94,7 @@ gre
 /
 modules
 /
-GeckoViewContentModule
+GeckoViewChildModule
 .
 jsm
 "
@@ -182,9 +182,9 @@ user
 agent
 mode
 class
-GeckoViewContentSettings
+GeckoViewSettingsChild
 extends
-GeckoViewContentModule
+GeckoViewChildModule
 {
 onInit
 (
@@ -430,7 +430,7 @@ debug
 warn
 }
 =
-GeckoViewContentSettings
+GeckoViewSettingsChild
 .
 initLogging
 (
@@ -442,7 +442,7 @@ GeckoViewSettings
 let
 module
 =
-GeckoViewContentSettings
+GeckoViewSettingsChild
 .
 create
 (

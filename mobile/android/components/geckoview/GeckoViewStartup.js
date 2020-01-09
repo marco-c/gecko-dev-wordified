@@ -709,7 +709,7 @@ geckoview
 /
 content
 /
-GeckoViewPromptContent
+GeckoViewPromptChild
 .
 js
 "
