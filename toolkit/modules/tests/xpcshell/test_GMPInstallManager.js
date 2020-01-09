@@ -224,17 +224,6 @@ jsm
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-DOMParser
-"
-]
-)
-;
 var
 ProductAddonCheckerScope
 =

@@ -112,17 +112,6 @@ component
 )
 ;
 }
-Cu
-.
-importGlobalProperties
-(
-[
-"
-TextEncoder
-"
-]
-)
-;
 const
 PREF_EM_CHECK_UPDATE_SECURITY
 =
