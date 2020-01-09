@@ -1446,6 +1446,7 @@ active
 }
 }
 public
+Nullable
 GeckoSession
 releaseSession
 (
@@ -2207,6 +2208,7 @@ true
 }
 AnyThread
 public
+Nullable
 GeckoSession
 getSession
 (
@@ -2218,6 +2220,7 @@ mSession
 }
 AnyThread
 public
+NonNull
 EventDispatcher
 getEventDispatcher
 (
@@ -2232,6 +2235,7 @@ getEventDispatcher
 ;
 }
 public
+NonNull
 PanZoomController
 getPanZoomController
 (
@@ -2252,6 +2256,7 @@ getPanZoomController
 ;
 }
 public
+NonNull
 DynamicToolbarAnimator
 getDynamicToolbarAnimator
 (

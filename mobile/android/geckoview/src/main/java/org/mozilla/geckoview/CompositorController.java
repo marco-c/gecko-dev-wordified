@@ -141,6 +141,15 @@ support
 .
 annotation
 .
+Nullable
+;
+import
+android
+.
+support
+.
+annotation
+.
 UiThread
 ;
 import
@@ -189,6 +198,7 @@ int
 width
 int
 height
+Nullable
 IntBuffer
 pixels
 )
@@ -783,6 +793,7 @@ set
 *
 /
 public
+Nullable
 Runnable
 getFirstPaintCallback
 (
@@ -829,6 +840,7 @@ void
 setFirstPaintCallback
 (
 final
+Nullable
 Runnable
 callback
 )

@@ -132,6 +132,15 @@ support
 .
 annotation
 .
+NonNull
+;
+import
+android
+.
+support
+.
+annotation
+.
 Nullable
 ;
 import
@@ -1788,6 +1797,7 @@ UiThread
 void
 onPlaybackStateChange
 (
+NonNull
 MediaElement
 mediaElement
 MediaStateFlags
@@ -1851,6 +1861,7 @@ UiThread
 void
 onReadyStateChange
 (
+NonNull
 MediaElement
 mediaElement
 ReadyStateFlags
@@ -1900,8 +1911,10 @@ UiThread
 void
 onMetadataChange
 (
+NonNull
 MediaElement
 mediaElement
+NonNull
 Metadata
 metaData
 )
@@ -1954,8 +1967,10 @@ UiThread
 void
 onLoadProgress
 (
+NonNull
 MediaElement
 mediaElement
+NonNull
 LoadProgressInfo
 progressInfo
 )
@@ -2010,6 +2025,7 @@ UiThread
 void
 onVolumeChange
 (
+NonNull
 MediaElement
 mediaElement
 double
@@ -2067,6 +2083,7 @@ UiThread
 void
 onTimeChange
 (
+NonNull
 MediaElement
 mediaElement
 double
@@ -2122,6 +2139,7 @@ UiThread
 void
 onPlaybackRateChange
 (
+NonNull
 MediaElement
 mediaElement
 double
@@ -2175,6 +2193,7 @@ UiThread
 void
 onFullscreenChange
 (
+NonNull
 MediaElement
 mediaElement
 boolean
@@ -2230,6 +2249,7 @@ UiThread
 void
 onError
 (
+NonNull
 MediaElement
 mediaElement
 MediaErrorFlags

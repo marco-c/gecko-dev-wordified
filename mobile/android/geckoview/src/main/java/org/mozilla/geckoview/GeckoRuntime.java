@@ -2259,6 +2259,7 @@ void
 setDelegate
 (
 final
+Nullable
 Delegate
 delegate
 )
@@ -2322,6 +2323,7 @@ mDelegate
 }
 AnyThread
 public
+Nullable
 GeckoRuntimeSettings
 getSettings
 (
@@ -2419,6 +2421,7 @@ object
 /
 UiThread
 public
+NonNull
 RuntimeTelemetry
 getTelemetry
 (
@@ -2481,6 +2484,7 @@ directory
 /
 UiThread
 public
+Nullable
 File
 getProfileDir
 (
@@ -2675,6 +2679,7 @@ void
 readFromParcel
 (
 final
+NonNull
 Parcel
 source
 )

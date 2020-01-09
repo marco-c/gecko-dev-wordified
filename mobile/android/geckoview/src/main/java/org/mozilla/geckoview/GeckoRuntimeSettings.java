@@ -3310,6 +3310,7 @@ arguments
 *
 /
 public
+NonNull
 String
 [
 ]
@@ -3343,6 +3344,7 @@ extras
 *
 /
 public
+NonNull
 Bundle
 getExtras
 (
@@ -3751,6 +3753,7 @@ set
 *
 /
 public
+Nullable
 Float
 getDisplayDensityOverride
 (
@@ -3802,6 +3805,7 @@ set
 *
 /
 public
+Nullable
 Integer
 getDisplayDpiOverride
 (
@@ -3823,6 +3827,7 @@ null
 ;
 }
 public
+Nullable
 Class
 <
 ?
@@ -3875,6 +3880,7 @@ set
 *
 /
 public
+Nullable
 Rect
 getScreenSizeOverride
 (
@@ -3948,6 +3954,7 @@ US
 *
 /
 public
+Nullable
 String
 [
 ]
@@ -3993,6 +4000,7 @@ public
 void
 setLocales
 (
+Nullable
 String
 [
 ]
@@ -5299,6 +5307,7 @@ void
 readFromParcel
 (
 final
+NonNull
 Parcel
 source
 )

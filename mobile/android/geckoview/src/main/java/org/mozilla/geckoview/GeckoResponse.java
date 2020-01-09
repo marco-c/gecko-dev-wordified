@@ -116,6 +116,15 @@ annotation
 .
 AnyThread
 ;
+import
+android
+.
+support
+.
+annotation
+.
+Nullable
+;
 /
 *
 *
@@ -168,6 +177,7 @@ AnyThread
 void
 respond
 (
+Nullable
 T
 value
 )

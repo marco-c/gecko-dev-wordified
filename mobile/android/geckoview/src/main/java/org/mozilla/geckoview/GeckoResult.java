@@ -3591,6 +3591,7 @@ Looper
 /
 public
 synchronized
+Nullable
 T
 poll
 (
@@ -3802,6 +3803,7 @@ completed
 /
 public
 synchronized
+Nullable
 T
 poll
 (
@@ -3949,6 +3951,7 @@ void
 complete
 (
 final
+Nullable
 T
 value
 )
