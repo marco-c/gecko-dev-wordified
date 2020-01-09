@@ -141,17 +141,6 @@ mozilla
 .
 gecko
 .
-annotation
-.
-RobocopTarget
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 util
 .
 ActivityUtils
