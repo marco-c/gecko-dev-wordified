@@ -72899,6 +72899,7 @@ cpp
 /
 JSContext
 *
+const
 cx
 =
 JS_NewContext
