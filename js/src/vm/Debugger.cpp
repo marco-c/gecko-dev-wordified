@@ -31232,6 +31232,7 @@ false
 innermostForRealm
 (
 cx
+cx
 -
 >
 zone
@@ -32923,7 +32924,7 @@ innermost
 using
 RealmToScriptMap
 =
-HashMap
+GCHashMap
 <
 Realm
 *
@@ -32976,7 +32977,10 @@ ho
 )
 *
 /
+Rooted
+<
 RealmToScriptMap
+>
 innermostForRealm
 ;
 /
