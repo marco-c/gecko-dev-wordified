@@ -7956,7 +7956,6 @@ MOZ_ASSERT
 (
 newCount
 >
-=
 currentChunk_
 )
 ;
