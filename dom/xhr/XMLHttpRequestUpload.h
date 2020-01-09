@@ -160,12 +160,6 @@ aOwner
 )
 {
 }
-explicit
-XMLHttpRequestUpload
-(
-)
-{
-}
 NS_DECL_ISUPPORTS_INHERITED
 virtual
 JSObject
