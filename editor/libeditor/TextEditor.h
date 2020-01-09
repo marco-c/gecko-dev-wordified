@@ -605,6 +605,7 @@ aCanPaste
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 PasteTransferable
 (
@@ -923,6 +924,7 @@ false
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 PasteAsAction
 (
@@ -1082,6 +1084,7 @@ false
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 PasteAsQuotationAsAction

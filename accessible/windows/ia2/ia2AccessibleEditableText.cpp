@@ -504,8 +504,10 @@ this
 )
 )
 ;
+RefPtr
+<
 HyperTextAccessible
-*
+>
 textAcc
 =
 static_cast

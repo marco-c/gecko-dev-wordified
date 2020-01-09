@@ -214,6 +214,7 @@ override
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 DoCommand
 (
@@ -277,6 +278,8 @@ aIsEnabled
 override
 ;
 \
+MOZ_CAN_RUN_SCRIPT
+\
 NS_IMETHOD
 DoCommand
 (
@@ -291,6 +294,8 @@ aCommandRefCon
 )
 override
 ;
+\
+MOZ_CAN_RUN_SCRIPT
 \
 NS_IMETHOD
 DoCommandParams
