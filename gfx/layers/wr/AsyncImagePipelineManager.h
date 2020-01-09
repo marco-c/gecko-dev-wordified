@@ -344,7 +344,7 @@ wr
 Epoch
 &
 aEpoch
-WebRenderTextureHost
+TextureHost
 *
 aTexture
 )
