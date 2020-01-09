@@ -14170,27 +14170,6 @@ isConstructing
 )
 {
               
-/
-/
-XXXbz
-wish
-I
-could
-get
-the
-name
-from
-the
-callee
-instead
-of
-              
-/
-/
-Adding
-more
-relocations
-              
 return
 ThrowConstructorWithoutNew
 (
