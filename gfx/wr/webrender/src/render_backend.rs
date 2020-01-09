@@ -3447,6 +3447,12 @@ clip_data_store
 )
 )
 ;
+self
+.
+hit_tester_is_valid
+=
+true
+;
 }
 }
 pub
