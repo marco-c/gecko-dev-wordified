@@ -137,6 +137,15 @@ include
 "
 vm
 /
+List
+.
+h
+"
+#
+include
+"
+vm
+/
 NativeObject
 .
 h
@@ -1303,7 +1312,7 @@ Yes
 )
 ;
 }
-NativeObject
+ListObject
 *
 requests
 (
@@ -1323,7 +1332,7 @@ toObject
 .
 as
 <
-NativeObject
+ListObject
 >
 (
 )
@@ -1522,7 +1531,7 @@ Slot_TotalSize
 SlotCount
 }
 ;
-NativeObject
+ListObject
 *
 queue
 (
@@ -1542,7 +1551,7 @@ toObject
 .
 as
 <
-NativeObject
+ListObject
 >
 (
 )
@@ -2469,7 +2478,7 @@ UndefinedValue
 )
 ;
 }
-NativeObject
+ListObject
 *
 pendingPullIntos
 (
@@ -2489,7 +2498,7 @@ toObject
 .
 as
 <
-NativeObject
+ListObject
 >
 (
 )

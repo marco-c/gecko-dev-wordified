@@ -150,6 +150,15 @@ JSObject
 .
 h
 "
+#
+include
+"
+vm
+/
+List
+.
+h
+"
 namespace
 js
 {
@@ -1334,7 +1343,7 @@ AsyncGeneratorRequest
 )
 ;
 }
-NativeObject
+ListObject
 *
 queue
 (
@@ -1354,7 +1363,7 @@ toObject
 .
 as
 <
-NativeObject
+ListObject
 >
 (
 )
@@ -1363,7 +1372,7 @@ NativeObject
 void
 setQueue
 (
-JSObject
+ListObject
 *
 queue_
 )
