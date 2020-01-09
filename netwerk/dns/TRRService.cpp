@@ -2469,11 +2469,6 @@ if
 mTRRBLStorage
 )
 {
-bool
-storageWillPersist
-=
-true
-;
 if
 (
 NS_FAILED
@@ -2483,7 +2478,7 @@ mTRRBLStorage
 >
 Init
 (
-storageWillPersist
+nullptr
 )
 )
 )

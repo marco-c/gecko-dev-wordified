@@ -7135,11 +7135,6 @@ if
 mStorage
 )
 {
-bool
-storageWillPersist
-=
-false
-;
 if
 (
 NS_FAILED
@@ -7149,7 +7144,7 @@ mStorage
 >
 Init
 (
-storageWillPersist
+nullptr
 )
 )
 )
