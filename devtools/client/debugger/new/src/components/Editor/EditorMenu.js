@@ -1145,15 +1145,6 @@ props
 :
 Props
 ;
-constructor
-(
-)
-{
-super
-(
-)
-;
-}
 shouldComponentUpdate
 (
 nextProps
