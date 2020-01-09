@@ -262,7 +262,7 @@ index
 export
 async
 function
-findFunctionByName
+findScopeByName
 (
 source
 :

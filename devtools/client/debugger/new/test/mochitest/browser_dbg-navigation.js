@@ -198,15 +198,6 @@ js
 )
 ;
 await
-selectSource
-(
-dbg
-"
-simple1
-"
-)
-;
-await
 addBreakpoint
 (
 dbg

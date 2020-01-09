@@ -176,19 +176,6 @@ true
 )
 ;
 await
-selectSource
-(
-dbg
-"
-simple
--
-worker
-.
-js
-"
-)
-;
-await
 addBreakpoint
 (
 dbg
@@ -249,7 +236,6 @@ workerSource
 .
 id
 1
-12
 )
 ;
 await
@@ -343,7 +329,6 @@ workerSource
 .
 id
 10
-2
 )
 ;
 }
