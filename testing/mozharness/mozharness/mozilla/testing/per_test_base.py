@@ -91,6 +91,10 @@ BLOCK
 *
 *
 import
+itertools
+import
+json
+import
 math
 import
 os
@@ -2690,10 +2694,11 @@ not
 None
 :
             
-changed_files
-|
+suite_to_paths
 =
-set
+json
+.
+loads
 (
 os
 .
@@ -2703,12 +2708,21 @@ environ
 MOZHARNESS_TEST_PATHS
 '
 ]
+)
+            
+changed_files
+|
+=
+itertools
 .
-split
+chain
+.
+from_iterable
 (
-'
-:
-'
+suite_to_paths
+.
+values
+(
 )
 )
             

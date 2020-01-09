@@ -4721,6 +4721,12 @@ dirname
 src_path
 )
                         
+"
+srcdir_relpath
+"
+:
+src_path
+                        
 }
 )
         
