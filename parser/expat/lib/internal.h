@@ -123,6 +123,13 @@ defined
 (
 __i386__
 )
+&
+&
+!
+defined
+(
+__MINGW32__
+)
 /
 *
 We
