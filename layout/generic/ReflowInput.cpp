@@ -6614,15 +6614,6 @@ display
 StyleDisplay
 :
 :
-TableCaption
-|
-|
-display
-=
-=
-StyleDisplay
-:
-:
 InlineTable
 |
 |
