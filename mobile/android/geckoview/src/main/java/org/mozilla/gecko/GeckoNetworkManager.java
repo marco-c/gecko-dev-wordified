@@ -2040,7 +2040,7 @@ subType
 boolean
 isWifi
 int
-DHCPGateway
+dhcpGateway
 )
 ;
 WrapForJNI
