@@ -1342,6 +1342,14 @@ substs
 {
             
 '
+CC_TYPE
+'
+:
+'
+clang
+'
+            
+'
 COMPILE_ENVIRONMENT
 '
 :
