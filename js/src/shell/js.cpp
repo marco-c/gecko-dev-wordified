@@ -12171,7 +12171,7 @@ false
 JS
 :
 :
-AutoObjectVector
+RootedObjectVector
 envChain
 (
 cx
@@ -21921,7 +21921,7 @@ here
 JS
 :
 :
-AutoObjectVector
+RootedObjectVector
 envChain
 (
 cx

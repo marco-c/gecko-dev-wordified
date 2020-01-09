@@ -4132,8 +4132,7 @@ cx
 JS
 :
 :
-AutoObjectVector
-&
+HandleObjectVector
 envChain
 MutableHandleObject
 env
@@ -7772,8 +7771,7 @@ CreateObjectsForEnvironmentChain
 JSContext
 *
 cx
-AutoObjectVector
-&
+HandleObjectVector
 chain
 HandleObject
 terminatingEnv

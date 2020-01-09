@@ -15861,7 +15861,7 @@ re
 walking
 it
 .
-AutoObjectVector
+RootedObjectVector
 watchers
 (
 cx
@@ -35720,7 +35720,7 @@ in
 .
 *
 /
-AutoObjectVector
+RootedObjectVector
 objects
 ;
 /
@@ -37096,7 +37096,7 @@ args
 dbg
 )
 ;
-AutoObjectVector
+RootedObjectVector
 globals
 (
 cx
@@ -61611,7 +61611,7 @@ false
 ;
 }
 }
-AutoObjectVector
+RootedObjectVector
 envChain
 (
 cx
@@ -84536,8 +84536,7 @@ cx
 JSObject
 &
 dbgObj
-AutoObjectVector
-&
+MutableHandleObjectVector
 vector
 )
 {
@@ -85765,7 +85764,7 @@ Ptr
 data
 )
 {
-AutoObjectVector
+RootedObjectVector
 triggered
 (
 cx

@@ -1250,8 +1250,8 @@ all
 *
 *
 Takes
-an
-AutoObjectVector
+a
+HandleValueVector
 of
 Promise
 objects
@@ -1324,12 +1324,10 @@ GetWaitForAllPromise
 JSContext
 *
 cx
-const
 JS
 :
 :
-AutoObjectVector
-&
+HandleObjectVector
 promises
 )
 ;

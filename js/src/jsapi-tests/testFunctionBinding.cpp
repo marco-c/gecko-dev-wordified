@@ -213,7 +213,7 @@ undefined
 JS
 :
 :
-AutoObjectVector
+RootedObjectVector
 emptyScopeChain
 (
 cx

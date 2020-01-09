@@ -1163,10 +1163,10 @@ StackScopedCloneOptions
 *
 mOptions
 ;
-AutoObjectVector
+RootedObjectVector
 mReflectors
 ;
-AutoObjectVector
+RootedObjectVector
 mFunctions
 ;
 nsTArray

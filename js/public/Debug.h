@@ -2635,8 +2635,7 @@ cx
 JSObject
 &
 dbgObj
-AutoObjectVector
-&
+MutableHandleObjectVector
 vector
 )
 ;

@@ -2514,7 +2514,7 @@ markRuntime
 JS
 :
 :
-AutoObjectVector
+RootedObjectVector
 vec
 (
 cx
@@ -2584,7 +2584,7 @@ roots
 except
 for
 the
-AutoObjectVector
+RootedObjectVector
 .
 obj
 =

@@ -480,7 +480,7 @@ setFileAndLine
 JS
 :
 :
-AutoObjectVector
+RootedObjectVector
 emptyScopeChain
 (
 cx
@@ -653,7 +653,7 @@ setFileAndLine
 JS
 :
 :
-AutoObjectVector
+RootedObjectVector
 emptyScopeChain
 (
 cx
@@ -889,7 +889,7 @@ setFileAndLine
 JS
 :
 :
-AutoObjectVector
+RootedObjectVector
 emptyScopeChain
 (
 cx
@@ -1037,7 +1037,7 @@ setFileAndLine
 JS
 :
 :
-AutoObjectVector
+RootedObjectVector
 emptyScopeChain
 (
 cx
@@ -1250,7 +1250,7 @@ setFileAndLine
 JS
 :
 :
-AutoObjectVector
+RootedObjectVector
 emptyScopeChain
 (
 cx
@@ -1401,7 +1401,7 @@ setFileAndLine
 JS
 :
 :
-AutoObjectVector
+RootedObjectVector
 emptyScopeChain
 (
 cx

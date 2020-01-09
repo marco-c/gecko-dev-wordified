@@ -26908,7 +26908,7 @@ false
 Objects
 *
 /
-AutoObjectVector
+RootedObjectVector
 objects
 (
 cx

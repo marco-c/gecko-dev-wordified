@@ -1148,7 +1148,11 @@ cx
 JS
 :
 :
-AutoObjectVector
+RootedVector
+<
+JSObject
+*
+>
 emptyVector
 (
 cx
@@ -1731,7 +1735,11 @@ cx
 JS
 :
 :
-AutoObjectVector
+RootedVector
+<
+JSObject
+*
+>
 scopeChain
 (
 cx
@@ -1753,6 +1761,7 @@ AsElement
 (
 )
 aProtoBinding
+&
 scopeChain
 )
 )

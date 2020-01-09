@@ -7587,7 +7587,11 @@ cx
 JS
 :
 :
-AutoObjectVector
+RootedVector
+<
+JSObject
+*
+>
 envChain
 (
 cx

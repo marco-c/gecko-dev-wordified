@@ -4310,8 +4310,7 @@ AddInnerLazyFunctionsFromScript
 JSScript
 *
 script
-AutoObjectVector
-&
+MutableHandleObjectVector
 lazyFunctions
 )
 {
@@ -4400,8 +4399,7 @@ AddLazyFunctionsForRealm
 JSContext
 *
 cx
-AutoObjectVector
-&
+MutableHandleObjectVector
 lazyFunctions
 gc
 :
@@ -4661,7 +4659,7 @@ JSContext
 cx
 )
 {
-AutoObjectVector
+RootedObjectVector
 lazyFunctions
 (
 cx
@@ -4673,6 +4671,7 @@ if
 AddLazyFunctionsForRealm
 (
 cx
+&
 lazyFunctions
 gc
 :
@@ -4725,6 +4724,7 @@ if
 AddLazyFunctionsForRealm
 (
 cx
+&
 lazyFunctions
 gc
 :
@@ -4901,6 +4901,7 @@ lazyScriptHadNoScript
 AddInnerLazyFunctionsFromScript
 (
 script
+&
 lazyFunctions
 )
 )

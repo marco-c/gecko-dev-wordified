@@ -6019,7 +6019,11 @@ document
 JS
 :
 :
-AutoObjectVector
+RootedVector
+<
+JSObject
+*
+>
 scopeChain
 (
 cx
@@ -6035,6 +6039,7 @@ GetScopeChainForElement
 (
 cx
 element
+&
 scopeChain
 )
 )

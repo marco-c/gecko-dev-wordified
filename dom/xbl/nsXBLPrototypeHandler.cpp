@@ -2425,7 +2425,11 @@ scriptTarget
 JS
 :
 :
-AutoObjectVector
+RootedVector
+<
+JSObject
+*
+>
 scopeChain
 (
 cx
@@ -2442,6 +2446,7 @@ cx
 targetElement
 *
 mPrototypeBinding
+&
 scopeChain
 )
 ;
@@ -2877,7 +2882,11 @@ cx
 JS
 :
 :
-AutoObjectVector
+RootedVector
+<
+JSObject
+*
+>
 emptyVector
 (
 cx

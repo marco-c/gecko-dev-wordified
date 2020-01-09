@@ -3329,7 +3329,7 @@ return
 false
 ;
 }
-AutoObjectVector
+RootedObjectVector
 envChain
 (
 cx
@@ -3607,7 +3607,7 @@ HandleObject
 varEnv
 )
 {
-AutoObjectVector
+RootedObjectVector
 emptyChain
 (
 cx
@@ -3637,8 +3637,7 @@ HandleScript
 scriptArg
 HandleObject
 varEnv
-AutoObjectVector
-&
+HandleObjectVector
 targetObj
 )
 {

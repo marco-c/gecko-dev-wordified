@@ -11904,9 +11904,7 @@ AttachProtos
 JSObject
 *
 proto
-const
-AutoObjectVector
-&
+HandleObjectVector
 protos
 )
 {
@@ -12666,7 +12664,7 @@ property
 '
 t
 '
-AutoObjectVector
+RootedObjectVector
 protos
 (
 cx

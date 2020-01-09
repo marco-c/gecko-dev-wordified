@@ -13878,7 +13878,7 @@ NativeObject
 )
 )
 ;
-AutoObjectVector
+RootedObjectVector
 promises
 (
 cx
