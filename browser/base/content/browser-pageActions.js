@@ -6935,6 +6935,11 @@ iconic
 "
 )
 ;
+if
+(
+lastModified
+)
+{
 item
 .
 setAttribute
@@ -6950,6 +6955,7 @@ lastModified
 )
 )
 ;
+}
 }
 item
 .
@@ -7110,7 +7116,7 @@ if
 (
 gSync
 .
-syncConfiguredAndLoading
+sendTabConfiguredAndLoading
 )
 {
 bodyNode
@@ -7207,7 +7213,7 @@ closed
 !
 gSync
 .
-syncConfiguredAndLoading
+sendTabConfiguredAndLoading
 )
 {
 this
