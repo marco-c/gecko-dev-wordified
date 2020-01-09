@@ -6910,9 +6910,6 @@ Allowed
 1
 =
 Blocked
-2
-=
-Prompt
 #
 else
 pref
@@ -6935,9 +6932,6 @@ Allowed
 1
 =
 Blocked
-2
-=
-Prompt
 pref
 (
 "

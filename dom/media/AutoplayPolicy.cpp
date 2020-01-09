@@ -815,7 +815,7 @@ prefValue
 nsIAutoplay
 :
 :
-PROMPT
+BLOCKED
 )
 {
 /
@@ -827,13 +827,13 @@ are
 just
 converted
 to
-ALLOWED
+BLOCKED
 .
 return
 nsIAutoplay
 :
 :
-ALLOWED
+BLOCKED
 ;
 }
 return

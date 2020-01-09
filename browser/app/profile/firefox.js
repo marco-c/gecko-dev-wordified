@@ -17857,9 +17857,6 @@ Allowed
 1
 =
 Blocked
-2
-=
-Prompt
 /
 /
 Block
@@ -17904,9 +17901,6 @@ Allowed
 1
 =
 Blocked
-2
-=
-Prompt
 pref
 (
 "

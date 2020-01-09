@@ -7955,9 +7955,6 @@ ALLOWED
 BLOCKED
 =
 1
-PROMPT
-=
-2
 defined
 in
 dom
