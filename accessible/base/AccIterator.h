@@ -512,7 +512,7 @@ mRelAttr
 DocAccessible
 :
 :
-AttrRelProviderArray
+AttrRelProviders
 *
 mProviders
 ;
