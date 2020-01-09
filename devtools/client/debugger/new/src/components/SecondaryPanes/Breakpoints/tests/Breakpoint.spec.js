@@ -268,6 +268,8 @@ makeOriginalSource
 foo
 "
 )
+.
+source
 frame
 :
 {
@@ -507,6 +509,8 @@ makeSource
 foo
 "
 )
+.
+source
 ;
 const
 breakpoint
@@ -525,6 +529,8 @@ makeSource
 foo
 "
 )
+.
+source
 ;
 return
 {

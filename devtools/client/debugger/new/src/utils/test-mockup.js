@@ -175,11 +175,6 @@ return
 {
 id
 url
-thread
-:
-"
-FakeThread
-"
 isBlackBoxed
 :
 false
@@ -242,11 +237,6 @@ url
 :
 "
 url
-"
-thread
-:
-"
-FakeThread
 "
 isBlackBoxed
 :

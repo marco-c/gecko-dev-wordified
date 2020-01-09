@@ -203,6 +203,15 @@ resolve
 [
 ]
 )
+getMainThread
+:
+(
+)
+=
+>
+"
+FakeThread
+"
 }
 )
 ;

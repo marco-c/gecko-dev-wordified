@@ -115,6 +115,7 @@ type
 {
 XHRBreakpoint
 Breakpoint
+BreakpointId
 SourceLocation
 }
 from
@@ -147,7 +148,7 @@ BreakpointsMap
 =
 {
 [
-string
+BreakpointId
 ]
 :
 Breakpoint

@@ -813,6 +813,11 @@ push
 (
 {
 id
+thread
+:
+originalFrame
+.
+thread
 displayName
 :
 originalFrame

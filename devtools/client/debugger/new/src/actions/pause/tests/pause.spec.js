@@ -219,7 +219,11 @@ _resolve
 )
 sourceContents
 :
-sourceId
+(
+{
+source
+}
+)
 =
 >
 {
@@ -236,7 +240,7 @@ reject
 {
 switch
 (
-sourceId
+source
 )
 {
 case
@@ -1724,10 +1728,12 @@ actions
 .
 newSource
 (
-makeOriginalSource
+makeSource
 (
 "
 foo
+-
+original
 "
 )
 )

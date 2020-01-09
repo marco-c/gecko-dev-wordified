@@ -602,6 +602,8 @@ actions
 closeTab
 (
 fooSource
+.
+source
 )
 )
 ;
@@ -912,6 +914,8 @@ actions
 closeTab
 (
 bazSource
+.
+source
 )
 )
 ;
@@ -1145,6 +1149,8 @@ actions
 closeTab
 (
 bazSource
+.
+source
 )
 )
 ;
@@ -1225,11 +1231,15 @@ actions
 newSource
 (
 {
+source
+:
+{
 id
 :
 "
 foo
 "
+}
 }
 )
 )
@@ -1595,6 +1605,8 @@ sourceId
 :
 baseSource
 .
+source
+.
 id
 line
 :
@@ -1619,6 +1631,8 @@ toBe
 (
 baseSource
 .
+source
+.
 id
 )
 ;
@@ -1633,6 +1647,8 @@ getSymbols
 (
 state
 baseSource
+.
+source
 )
 )
 ;
@@ -1775,6 +1791,8 @@ selectSource
 (
 originalBaseSource
 .
+source
+.
 id
 )
 )
@@ -1813,6 +1831,8 @@ selectLocation
 sourceId
 :
 fooSource
+.
+source
 .
 id
 line
@@ -1923,6 +1943,8 @@ selectSource
 (
 baseSource
 .
+source
+.
 id
 )
 )
@@ -1938,6 +1960,8 @@ selectSpecificLocation
 sourceId
 :
 baseSource
+.
+source
 .
 id
 line
@@ -2025,6 +2049,8 @@ selectSourceURL
 (
 baseSource
 .
+source
+.
 url
 )
 )
@@ -2070,6 +2096,8 @@ url
 toBe
 (
 baseSource
+.
+source
 .
 url
 )

@@ -148,7 +148,11 @@ threadClient
 sourceContents
 :
 async
-sourceId
+(
+{
+source
+}
+)
 =
 >
 (
@@ -157,7 +161,7 @@ source
 :
 sourceTexts
 [
-sourceId
+source
 ]
 contentType
 :
@@ -506,6 +510,8 @@ getEmptyLines
 state
 source
 .
+source
+.
 id
 )
 ;
@@ -530,6 +536,8 @@ getEmptyLines
 getState
 (
 )
+source
+.
 source
 .
 id
@@ -648,6 +656,8 @@ getState
 )
 source
 .
+source
+.
 id
 )
 )
@@ -660,6 +670,8 @@ actions
 .
 setSourceMetaData
 (
+source
+.
 source
 .
 id
@@ -680,6 +692,8 @@ metaData
 getSourceMetaData
 (
 state
+source
+.
 source
 .
 id
@@ -704,6 +718,8 @@ getSourceMetaData
 getState
 (
 )
+source
+.
 source
 .
 id
@@ -974,6 +990,8 @@ isSymbolsLoading
 (
 state
 base
+.
+source
 )
 )
 ;
@@ -986,6 +1004,8 @@ getState
 (
 )
 base
+.
+source
 )
 ;
 expect

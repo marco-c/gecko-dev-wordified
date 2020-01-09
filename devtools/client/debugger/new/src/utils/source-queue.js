@@ -73,12 +73,16 @@ lodash
 import
 type
 {
-Source
+CreateSourceResult
 }
 from
 "
 .
 .
+/
+client
+/
+firefox
 /
 types
 "
@@ -156,7 +160,7 @@ queue
 (
 source
 :
-Source
+CreateSourceResult
 )
 =
 >
@@ -178,7 +182,7 @@ queueSources
 (
 sources
 :
-Source
+CreateSourceResult
 [
 ]
 )
