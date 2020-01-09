@@ -722,11 +722,6 @@ mWorkerManager
 =
 aWorkerManager
 ;
-if
-(
-mFrozen
-)
-{
 mWorkerManager
 -
 >
@@ -734,12 +729,6 @@ UpdateFrozen
 (
 )
 ;
-}
-if
-(
-mSuspended
-)
-{
 mWorkerManager
 -
 >
@@ -747,7 +736,6 @@ UpdateSuspend
 (
 )
 ;
-}
 }
 void
 SharedWorkerParent

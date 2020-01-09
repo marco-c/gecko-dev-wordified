@@ -343,6 +343,12 @@ mName
 bool
 mIsSecureContext
 ;
+bool
+mSuspended
+;
+bool
+mFrozen
+;
 /
 /
 Raw
