@@ -118,13 +118,6 @@ __nsLookAndFeel
 #
 include
 "
-X11UndefineNone
-.
-h
-"
-#
-include
-"
 nsXPLookAndFeel
 .
 h

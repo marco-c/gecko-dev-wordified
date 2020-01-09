@@ -162,13 +162,6 @@ mozilla
 namespace
 widget
 {
-using
-namespace
-mozilla
-:
-:
-gfx
-;
 /
 /
 gfxImageSurface
