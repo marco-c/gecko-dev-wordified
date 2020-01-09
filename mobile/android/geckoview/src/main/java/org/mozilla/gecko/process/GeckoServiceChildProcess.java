@@ -845,7 +845,7 @@ public
 static
 final
 class
-geckomediaplugin
+gmplugin
 extends
 GeckoServiceChildProcess
 {
