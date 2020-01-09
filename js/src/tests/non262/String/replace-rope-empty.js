@@ -1,3 +1,17 @@
+/
+/
+|
+reftest
+|
+skip
+-
+if
+(
+!
+xulRuntime
+.
+shell
+)
 var
 BUGNUMBER
 =

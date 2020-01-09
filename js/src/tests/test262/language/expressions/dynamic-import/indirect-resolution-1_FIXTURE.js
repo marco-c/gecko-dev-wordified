@@ -45,8 +45,6 @@ default
 import
 (
 '
-.
-/
 indirect
 -
 resolution
