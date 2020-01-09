@@ -393,9 +393,6 @@ Truncated
 class
 nsBlockInFlowLineIterator
 ;
-class
-nsBulletFrame
-;
 namespace
 mozilla
 {
@@ -2003,14 +2000,14 @@ one
 .
 *
 /
-nsBulletFrame
+nsIFrame
 *
 GetBullet
 (
 )
 const
 {
-nsBulletFrame
+nsIFrame
 *
 outside
 =
@@ -6047,7 +6044,7 @@ one
 .
 *
 /
-nsBulletFrame
+nsIFrame
 *
 GetInsideBullet
 (
@@ -6075,7 +6072,7 @@ one
 .
 *
 /
-nsBulletFrame
+nsIFrame
 *
 GetOutsideBullet
 (
