@@ -7591,6 +7591,17 @@ _checkClosed
 (
 )
 ;
+peerIdentity
+=
+peerIdentity
+|
+|
+this
+.
+_impl
+.
+peerIdentity
+;
 this
 .
 _localIdp
