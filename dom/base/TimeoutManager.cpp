@@ -3203,7 +3203,7 @@ InvalidFiringId
 )
 #
 ifdef
-DEBUG
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 mFiringIndex
 (
 0
@@ -3830,6 +3830,19 @@ Timeout
 (
 )
 ;
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
+timeout
+-
+>
+mFiringIndex
+=
+-
+1
+;
+#
+endif
 timeout
 -
 >
@@ -6523,7 +6536,7 @@ completed
 .
 #
 ifdef
-DEBUG
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 if
 (
 timeout
@@ -6864,8 +6877,8 @@ continue
 }
 #
 ifdef
-DEBUG
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
+MOZ_DIAGNOSTIC_ASSERT
 (
 timeout
 -
@@ -7824,7 +7837,7 @@ aCurrentNow
 ;
 #
 ifdef
-DEBUG
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 aTimeout
 -
 >
