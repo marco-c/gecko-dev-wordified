@@ -208,7 +208,9 @@ requests
 -
 list
 -
-contents
+row
+-
+group
 "
 )
 ;
@@ -460,10 +462,6 @@ document
 querySelector
 (
 "
-.
-devtools
--
-toolbar
 .
 requests
 -
