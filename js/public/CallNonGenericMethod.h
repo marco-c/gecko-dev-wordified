@@ -701,6 +701,8 @@ JS
 CallNonGenericMethod
 <
 IsAnswerObject
+/
+/
 answer_getAnswer_impl
 >
 (

@@ -172,9 +172,9 @@ C
 |
 and
 clients
+*
 should
 use
-*
 |
 extern
 "

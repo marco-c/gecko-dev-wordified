@@ -417,7 +417,7 @@ JSVAL_TYPE_OBJECT
 =
 0x0c
 /
-*
+/
 These
 never
 appear
@@ -436,10 +436,10 @@ out
 of
 -
 band
+/
+/
 value
 .
-*
-/
 JSVAL_TYPE_UNKNOWN
 =
 0x20
@@ -1577,6 +1577,7 @@ BigInt
 Boolean
 Undefined
 Null
+*
 Object
 Magic
 }
@@ -1614,11 +1615,11 @@ contains
 either
 a
 JSWhyMagic
+*
 "
 reason
 "
 for
-*
 the
 magic
 value
@@ -1630,9 +1631,9 @@ value
 By
 providing
 JSWhyMagic
+*
 values
 when
-*
 creating
 and
 checking
@@ -1643,9 +1644,9 @@ it
 is
 possible
 to
+*
 assert
 at
-*
 runtime
 that
 only
@@ -1656,9 +1657,9 @@ the
 expected
 reason
 flow
+*
 through
 a
-*
 particular
 value
 .
@@ -1672,9 +1673,9 @@ exception
 has
 a
 magic
+*
 value
 the
-*
 reason
 must
 be

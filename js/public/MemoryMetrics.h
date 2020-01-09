@@ -5120,6 +5120,8 @@ bytes
 rtStats
 .
 gcHeapDecommittedArenas
+/
+/
 (
 decommitted
 arenas
@@ -5171,6 +5173,8 @@ unusedGCThings
 totalSize
 (
 )
+/
+/
 (
 empty
 GC
@@ -5218,6 +5222,7 @@ things
 /
 =
 =
+(
 rtStats
 .
 zTotals
@@ -5226,12 +5231,15 @@ sizeOfLiveGCThings
 (
 )
 +
+/
+/
 rtStats
 .
 cTotals
 .
 sizeOfLiveGCThings
 (
+)
 )
 /
 /

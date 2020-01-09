@@ -1211,6 +1211,7 @@ DominatedSetRange
 >
 range
 =
+*
 myDominatorTree
 .
 getDominatedSet
@@ -4894,6 +4895,7 @@ DominatedSetRange
 >
 range
 =
+*
 myDominatorTree
 .
 getDominatedSet

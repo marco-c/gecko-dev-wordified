@@ -2988,6 +2988,8 @@ the
 QR
 ]
 1
+/
+/
 registers
 .
 /
@@ -3176,9 +3178,9 @@ the
 standard
 code
 path
+/
+/
 anyway
-/
-/
 as
 shifting
 the
@@ -3188,6 +3190,8 @@ by
 the
 exponent
 will
+/
+/
 result
 in
 '
