@@ -3349,7 +3349,6 @@ nullptr
 =
 0
 ;
-virtual
 void
 StopDocumentLoad
 (
@@ -4923,7 +4922,6 @@ encoding
 .
 *
 /
-virtual
 void
 SetDocumentCharacterSet
 (

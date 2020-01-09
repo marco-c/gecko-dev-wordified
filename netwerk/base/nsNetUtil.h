@@ -6217,14 +6217,6 @@ aURI
 )
 ;
 bool
-SchemeIsWYCIWYG
-(
-nsIURI
-*
-aURI
-)
-;
-bool
 SchemeIsViewSource
 (
 nsIURI

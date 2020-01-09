@@ -52,15 +52,6 @@ resulting
 document
 .
 URL
-does
-not
-contain
-'
-wyciwyg
-'
-schema
-and
-instead
 is
 identical
 to
@@ -100,7 +91,7 @@ html
 /
 test
 /
-file_refresh_wyciwyg_url
+file_refresh_after_document_write
 .
 html
 "

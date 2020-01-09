@@ -626,7 +626,7 @@ spot
 ContentParent
 :
 :
-AboutToLoadHttpFtpWyciwygDocumentForChild
+AboutToLoadHttpFtpDocumentForChild
 .
 return
 NS_ERROR_NOT_IMPLEMENTED

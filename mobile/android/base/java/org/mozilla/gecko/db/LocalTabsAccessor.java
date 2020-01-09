@@ -505,8 +505,6 @@ about
 |
 chrome
 |
-wyciwyg
-|
 file
 )
 :

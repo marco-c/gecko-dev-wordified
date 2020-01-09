@@ -224,9 +224,6 @@ resource
 "
 jar
 "
-"
-wyciwyg
-"
 )
 ;
 private

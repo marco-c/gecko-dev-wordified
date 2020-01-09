@@ -2282,16 +2282,6 @@ scheme
 EqualsLiteral
 (
 "
-wyciwyg
-"
-)
-|
-|
-scheme
-.
-EqualsLiteral
-(
-"
 javascript
 "
 )

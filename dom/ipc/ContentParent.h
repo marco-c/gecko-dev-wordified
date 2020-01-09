@@ -3239,9 +3239,8 @@ HTTP
 (
 S
 )
-FTP
 or
-wyciwyg
+FTP
 channel
 for
 a
@@ -3252,9 +3251,9 @@ It
 is
 a
 useful
-/
-/
 place
+/
+/
 to
 start
 to
@@ -3275,7 +3274,7 @@ document
 loads
 .
 nsresult
-AboutToLoadHttpFtpWyciwygDocumentForChild
+AboutToLoadHttpFtpDocumentForChild
 (
 nsIChannel
 *

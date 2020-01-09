@@ -5848,15 +5848,6 @@ parent
 "
 )
     
-(
-"
-PWyciwygChannel
-"
-"
-child
-"
-)
-    
 #
 bug
 1513911

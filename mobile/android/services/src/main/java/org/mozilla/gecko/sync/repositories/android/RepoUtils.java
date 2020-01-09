@@ -1319,16 +1319,6 @@ scheme
 equals
 (
 "
-wyciwyg
-"
-)
-|
-|
-scheme
-.
-equals
-(
-"
 javascript
 "
 )

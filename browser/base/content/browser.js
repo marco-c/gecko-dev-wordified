@@ -18958,12 +18958,7 @@ currentURI
 /
 Strip
 off
-"
-wyciwyg
-:
-/
-/
-"
+usernames
 and
 passwords
 for

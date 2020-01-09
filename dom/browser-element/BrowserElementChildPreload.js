@@ -6759,8 +6759,6 @@ return
 /
 Remove
 password
-and
-wyciwyg
 from
 uri
 .
