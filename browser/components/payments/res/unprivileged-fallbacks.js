@@ -455,6 +455,7 @@ return
 addressLevel3Label
 :
 "
+suburb
 "
 addressLevel2Label
 :
@@ -562,6 +563,7 @@ return
 addressLevel3Label
 :
 "
+suburb
 "
 addressLevel2Label
 :
