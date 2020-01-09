@@ -12292,7 +12292,10 @@ SheetLoadDataHolder
 aData
 RawServoStyleSheetContentsStrong
 aSheetContents
-StyleUseCountersOwned
+StyleOwnedOrNull
+<
+StyleUseCounters
+>
 aUseCounters
 )
 {
@@ -12301,8 +12304,11 @@ UniquePtr
 StyleUseCounters
 >
 useCounters
-(
+=
 aUseCounters
+.
+Consume
+(
 )
 ;
 RefPtr
