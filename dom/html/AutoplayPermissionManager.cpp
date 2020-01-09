@@ -196,7 +196,7 @@ mozilla
 {
 RefPtr
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 AutoplayPermissionManager
 :
@@ -310,7 +310,7 @@ window
 )
 {
 return
-GenericPromise
+GenericNonExclusivePromise
 :
 :
 CreateAndReject
@@ -348,7 +348,7 @@ request
 )
 {
 return
-GenericPromise
+GenericNonExclusivePromise
 :
 :
 CreateAndReject

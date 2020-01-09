@@ -2570,7 +2570,7 @@ aResult
 ;
 RefPtr
 <
-GenericPromise
+GenericNonExclusivePromise
 :
 :
 Private
@@ -2711,7 +2711,7 @@ __func__
 }
 RefPtr
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 ScriptLoader
 :
@@ -2761,7 +2761,7 @@ Data
 )
 =
 new
-GenericPromise
+GenericNonExclusivePromise
 :
 :
 Private
@@ -2805,7 +2805,7 @@ ms
 )
 {
 return
-GenericPromise
+GenericNonExclusivePromise
 :
 :
 CreateAndReject
@@ -2816,7 +2816,7 @@ __func__
 ;
 }
 return
-GenericPromise
+GenericNonExclusivePromise
 :
 :
 CreateAndResolve

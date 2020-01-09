@@ -406,7 +406,7 @@ trip
 .
 RefPtr
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 RequestWithPrompt
 (
@@ -491,7 +491,7 @@ mWindow
 ;
 MozPromiseHolder
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 mPromiseHolder
 ;

@@ -9588,7 +9588,7 @@ autoplay
 .
 MozPromiseRequestHolder
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 mAutoplayPermissionRequest
 ;
