@@ -107,7 +107,7 @@ runtimeDetails
 ?
 runtimeDetails
 .
-client
+clientWrapper
 :
 null
 ;

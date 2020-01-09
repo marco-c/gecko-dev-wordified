@@ -191,7 +191,7 @@ function
 getRuntimeInfo
 (
 runtime
-client
+clientWrapper
 )
 {
 const
@@ -212,7 +212,7 @@ version
 }
 =
 await
-client
+clientWrapper
 .
 getDeviceDescription
 (
@@ -390,7 +390,7 @@ runtimes
 ;
 const
 {
-client
+clientWrapper
 transportDetails
 }
 =
@@ -407,7 +407,7 @@ await
 getRuntimeInfo
 (
 runtime
-client
+clientWrapper
 )
 ;
 const
@@ -421,7 +421,7 @@ const
 connectionPromptEnabled
 =
 await
-client
+clientWrapper
 .
 getPreference
 (
@@ -432,8 +432,8 @@ const
 runtimeDetails
 =
 {
+clientWrapper
 connectionPromptEnabled
-client
 info
 transportDetails
 }
@@ -470,7 +470,7 @@ connected
 USB
 runtime
 .
-client
+clientWrapper
 .
 addOneTimeListener
 (
@@ -563,13 +563,13 @@ runtimes
 )
 ;
 const
-client
+{
+clientWrapper
+}
 =
 runtime
 .
 runtimeDetails
-.
-client
 ;
 if
 (
@@ -584,7 +584,7 @@ RUNTIMES
 USB
 )
 {
-client
+clientWrapper
 .
 removeListener
 (
@@ -596,7 +596,7 @@ onUSBDebuggerClientClosed
 ;
 }
 await
-client
+clientWrapper
 .
 close
 (
@@ -702,13 +702,13 @@ runtimes
 )
 ;
 const
-client
+{
+clientWrapper
+}
 =
 runtime
 .
 runtimeDetails
-.
-client
 ;
 const
 promptPrefName
@@ -718,7 +718,7 @@ RUNTIME_PREFERENCE
 CONNECTION_PROMPT
 ;
 await
-client
+clientWrapper
 .
 setPreference
 (
@@ -740,7 +740,7 @@ runtime
 connectionPromptEnabled
 =
 await
-client
+clientWrapper
 .
 getPreference
 (

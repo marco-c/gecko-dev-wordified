@@ -186,7 +186,7 @@ connect
 ;
 return
 {
-client
+clientWrapper
 :
 new
 ClientWrapper
@@ -241,7 +241,7 @@ connect
 ;
 return
 {
-client
+clientWrapper
 :
 new
 ClientWrapper

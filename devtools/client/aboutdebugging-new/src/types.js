@@ -229,7 +229,7 @@ DebuggerClient
 for
 the
 runtime
-client
+clientWrapper
 :
 PropTypes
 .
