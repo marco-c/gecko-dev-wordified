@@ -267,7 +267,7 @@ Process
 for
 the
 target
-runtime
+browser
 "
 )
 "
