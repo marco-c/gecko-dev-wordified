@@ -5986,9 +5986,8 @@ widgetSize
 ;
 txn
 .
-SetWindowParameters
+SetDocumentView
 (
-widgetSize
 docRect
 )
 ;
