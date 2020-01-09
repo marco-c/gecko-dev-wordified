@@ -262,6 +262,14 @@ module
 or
 something
 .
+#
+[
+derive
+(
+Debug
+MallocSizeOf
+)
+]
 pub
 struct
 CssEnvironment

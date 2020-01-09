@@ -83,6 +83,7 @@ Name
 SpecifiedValue
 CustomPropertiesMap
 CustomPropertiesBuilder
+CssEnvironment
 }
 ;
 use
@@ -221,6 +222,11 @@ _
 )
 ;
 let
+env
+=
+CssEnvironment
+;
+let
 mut
 builder
 =
@@ -230,6 +236,8 @@ CustomPropertiesBuilder
 new
 (
 inherited
+&
+env
 )
 ;
 for

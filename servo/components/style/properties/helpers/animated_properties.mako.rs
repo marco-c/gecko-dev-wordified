@@ -227,10 +227,7 @@ use
 properties
 :
 :
-{
 LonghandId
-ShorthandId
-}
 ;
 use
 servo_arc
@@ -567,6 +564,12 @@ nsCSSPropertyID
 >
 TransitionProperty
 {
+use
+properties
+:
+:
+ShorthandId
+;
 match
 property
 {
