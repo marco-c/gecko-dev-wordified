@@ -557,7 +557,10 @@ bool
 &
 aClientSetPingTimeout
 const
-OptionalLoadInfoArgs
+Maybe
+<
+LoadInfoArgs
+>
 &
 aLoadInfoArgs
 const

@@ -187,7 +187,10 @@ int
 &
 aPort
 const
-OptionalLoadInfoArgs
+Maybe
+<
+LoadInfoArgs
+>
 &
 aLoadInfoArgs
 const

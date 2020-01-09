@@ -640,7 +640,10 @@ nsresult
 &
 aTopWindowURIResult
 const
-OptionalLoadInfoArgs
+Maybe
+<
+LoadInfoArgs
+>
 &
 aLoadInfo
 )
