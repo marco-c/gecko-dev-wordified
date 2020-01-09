@@ -6747,6 +6747,17 @@ primitive
 during
 update_prim_dependencies
 .
+if
+self
+.
+root_clip_chain_id
+!
+=
+ClipChainId
+:
+:
+NONE
+{
 let
 root_clip_chain_node
 =
@@ -6836,6 +6847,7 @@ root_clip_rect
 =
 world_clip_rect
 ;
+}
 }
 }
 /
