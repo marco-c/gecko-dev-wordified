@@ -2366,6 +2366,13 @@ actions
 .
 resumed
 (
+{
+from
+:
+"
+FakeThread
+"
+}
 )
 )
 ;
@@ -2533,6 +2540,13 @@ actions
 .
 resumed
 (
+{
+from
+:
+"
+FakeThread
+"
+}
 )
 )
 ;
