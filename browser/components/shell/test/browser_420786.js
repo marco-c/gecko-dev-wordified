@@ -504,6 +504,8 @@ getString
 (
 GS_IMAGE_KEY
 )
+encodeURI
+(
 "
 file
 :
@@ -514,6 +516,7 @@ file
 wpFile
 .
 path
+)
 "
 Wallpaper
 file
