@@ -350,9 +350,6 @@ CHANNEL
 "
 VERIFY_CONFIG
 "
-"
-BUILD_TOOLS_REPO
-"
 )
 :
                 
