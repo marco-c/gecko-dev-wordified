@@ -617,6 +617,9 @@ RaptorDesktopFirefox
 (
 app
 binary
+post_startup_delay
+=
+0
 )
     
 raptor
@@ -669,6 +672,9 @@ TestBrowserThread
 (
 raptor
 test
+timeout
+=
+0
 )
     
 thread
