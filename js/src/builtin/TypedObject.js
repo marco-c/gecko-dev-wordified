@@ -545,8 +545,6 @@ NewDerivedTypedObject
 descr
 typedObj
 offset
-|
-0
 )
 ;
 }
@@ -613,8 +611,6 @@ AttachTypedObject
 opaqueTypedObj
 typedObj
 offset
-|
-0
 )
 ;
 return
@@ -674,8 +670,6 @@ Load_int8
 (
 typedObj
 offset
-|
-0
 )
 ;
 case
@@ -689,8 +683,6 @@ Load_uint8
 (
 typedObj
 offset
-|
-0
 )
 ;
 case
@@ -701,8 +693,6 @@ Load_int16
 (
 typedObj
 offset
-|
-0
 )
 ;
 case
@@ -713,8 +703,6 @@ Load_uint16
 (
 typedObj
 offset
-|
-0
 )
 ;
 case
@@ -725,8 +713,6 @@ Load_int32
 (
 typedObj
 offset
-|
-0
 )
 ;
 case
@@ -737,8 +723,6 @@ Load_uint32
 (
 typedObj
 offset
-|
-0
 )
 ;
 case
@@ -749,8 +733,6 @@ Load_float32
 (
 typedObj
 offset
-|
-0
 )
 ;
 case
@@ -761,8 +743,6 @@ Load_float64
 (
 typedObj
 offset
-|
-0
 )
 ;
 }
@@ -812,8 +792,6 @@ Load_Any
 (
 typedObj
 offset
-|
-0
 )
 ;
 case
@@ -824,8 +802,6 @@ Load_Object
 (
 typedObj
 offset
-|
-0
 )
 ;
 case
@@ -836,8 +812,6 @@ Load_string
 (
 typedObj
 offset
-|
-0
 )
 ;
 }
@@ -1378,8 +1352,6 @@ Store_int8
 (
 typedObj
 offset
-|
-0
 TO_INT32
 (
 fromValue
@@ -1396,8 +1368,6 @@ Store_uint8
 (
 typedObj
 offset
-|
-0
 TO_UINT32
 (
 fromValue
@@ -1423,8 +1393,6 @@ Store_int8
 (
 typedObj
 offset
-|
-0
 v
 )
 ;
@@ -1436,8 +1404,6 @@ Store_int16
 (
 typedObj
 offset
-|
-0
 TO_INT32
 (
 fromValue
@@ -1454,8 +1420,6 @@ Store_uint16
 (
 typedObj
 offset
-|
-0
 TO_UINT32
 (
 fromValue
@@ -1472,8 +1436,6 @@ Store_int32
 (
 typedObj
 offset
-|
-0
 TO_INT32
 (
 fromValue
@@ -1488,8 +1450,6 @@ Store_uint32
 (
 typedObj
 offset
-|
-0
 TO_UINT32
 (
 fromValue
@@ -1504,8 +1464,6 @@ Store_float32
 (
 typedObj
 offset
-|
-0
 +
 fromValue
 )
@@ -1518,8 +1476,6 @@ Store_float64
 (
 typedObj
 offset
-|
-0
 +
 fromValue
 )
@@ -1573,8 +1529,6 @@ Store_Any
 (
 typedObj
 offset
-|
-0
 name
 fromValue
 )
@@ -1605,8 +1559,6 @@ Store_Object
 (
 typedObj
 offset
-|
-0
 name
 value
 )
@@ -1619,8 +1571,6 @@ Store_string
 (
 typedObj
 offset
-|
-0
 name
 ToString
 (
