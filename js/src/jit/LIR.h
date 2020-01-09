@@ -3660,6 +3660,12 @@ MIRType
 :
 ObjectOrNull
 :
+case
+MIRType
+:
+:
+RefOrNull
+:
 return
 LDefinition
 :
