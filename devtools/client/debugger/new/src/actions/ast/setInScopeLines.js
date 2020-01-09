@@ -109,7 +109,7 @@ lodash
 import
 type
 {
-ASTLocation
+AstLocation
 }
 from
 "
@@ -119,7 +119,9 @@ from
 .
 .
 /
-types
+workers
+/
+parser
 "
 ;
 import
@@ -140,9 +142,12 @@ getOutOfScopeLines
 (
 outOfScopeLocations
 :
-ASTLocation
+?
+(
+AstLocation
 [
 ]
+)
 )
 {
 if

@@ -249,10 +249,7 @@ State
 {
 ast
 :
-Record
-<
 ASTState
->
 breakpoints
 :
 BreakpointsState
