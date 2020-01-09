@@ -144,6 +144,7 @@ client
 const
 {
 FrontClassWithSpec
+registerFront
 }
 =
 require
@@ -238,7 +239,7 @@ WebConsoleActor
 *
 /
 class
-WebConsoleClient
+WebConsoleFront
 extends
 FrontClassWithSpec
 (
@@ -3047,7 +3048,12 @@ substring
 }
 exports
 .
-WebConsoleClient
+WebConsoleFront
 =
-WebConsoleClient
+WebConsoleFront
+;
+registerFront
+(
+WebConsoleFront
+)
 ;
