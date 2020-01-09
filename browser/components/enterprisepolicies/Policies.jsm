@@ -3007,7 +3007,8 @@ shell
 .
 checkDefaultBrowser
 "
-false
+!
+param
 )
 ;
 }
