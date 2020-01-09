@@ -1271,6 +1271,7 @@ NetworkLocationsForm
 (
 {
 dispatch
+networkLocations
 }
 )
 )
