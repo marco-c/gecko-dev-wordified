@@ -403,6 +403,17 @@ sourceURL
 if
 (
 source
+|
+|
+await
+toolbox
+.
+sourceMapService
+.
+hasOriginalURL
+(
+sourceURL
+)
 )
 {
 await
