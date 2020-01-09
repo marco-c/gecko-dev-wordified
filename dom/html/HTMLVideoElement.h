@@ -256,7 +256,7 @@ override
 ;
 static
 void
-InitStatics
+Init
 (
 )
 ;

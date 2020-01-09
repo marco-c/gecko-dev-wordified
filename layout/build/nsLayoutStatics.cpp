@@ -1630,7 +1630,7 @@ AppClearDataObserverInit
 HTMLVideoElement
 :
 :
-InitStatics
+Init
 (
 )
 ;
