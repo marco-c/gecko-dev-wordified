@@ -2115,7 +2115,7 @@ expectedCode
 Unauthorized
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2166,7 +2166,7 @@ expectedCode
 Unauthorized
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2217,7 +2217,7 @@ expectedCode
 OK
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2268,7 +2268,7 @@ expectedCode
 OK
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2327,7 +2327,7 @@ expectedCode
 OK
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2386,7 +2386,7 @@ expectedCode
 OK
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2437,7 +2437,7 @@ expectedCode
 Unauthorized
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2488,7 +2488,7 @@ expectedCode
 OK
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2539,7 +2539,7 @@ expectedCode
 OK
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2594,7 +2594,7 @@ expectedCode
 Unauthorized
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2645,7 +2645,7 @@ expectedCode
 Unauthorized
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2698,7 +2698,7 @@ expectedCode
 OK
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2842,7 +2842,7 @@ expectedCode
 Unauthorized
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2895,7 +2895,7 @@ expectedCode
 OK
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2948,7 +2948,7 @@ expectedCode
 unauthorized
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -3016,7 +3016,7 @@ expectedCode
 OK
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -4572,7 +4572,7 @@ expectedCode
 Unauthorized
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -4612,7 +4612,7 @@ expectedCode
 Unauthorized
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )

@@ -1296,7 +1296,7 @@ expectedCode
 OK
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )

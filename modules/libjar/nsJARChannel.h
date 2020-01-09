@@ -503,12 +503,6 @@ nsIStreamListener
 >
 mListener
 ;
-nsCOMPtr
-<
-nsISupports
->
-mListenerContext
-;
 nsCString
 mContentType
 ;

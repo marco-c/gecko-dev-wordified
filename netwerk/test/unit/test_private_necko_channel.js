@@ -174,7 +174,7 @@ true
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

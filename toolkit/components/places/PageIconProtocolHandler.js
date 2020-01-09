@@ -334,7 +334,7 @@ loadInfo
 ;
 defaultIconChannel
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )

@@ -449,12 +449,6 @@ nsCOMPtr
 <
 nsISupports
 >
-mListenerContext
-;
-nsCOMPtr
-<
-nsISupports
->
 mSecurityInfo
 ;
 /

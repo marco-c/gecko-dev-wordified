@@ -402,7 +402,7 @@ for
 test
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -588,7 +588,7 @@ StreamListener
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )

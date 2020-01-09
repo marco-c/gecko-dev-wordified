@@ -1543,7 +1543,7 @@ nsPluginStreamListenerPeer
 /
 to
 use
-asyncOpen2
+asyncOpen
 (
 )
 and

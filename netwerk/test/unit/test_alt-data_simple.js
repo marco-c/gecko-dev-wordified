@@ -603,7 +603,7 @@ altContentType
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -879,7 +879,7 @@ dummy2
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1099,7 +1099,7 @@ altContentType
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

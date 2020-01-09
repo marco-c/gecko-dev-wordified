@@ -1212,7 +1212,7 @@ _expectedCode
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 this
 )

@@ -751,7 +751,7 @@ eventsink
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -894,7 +894,7 @@ _iteration
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )

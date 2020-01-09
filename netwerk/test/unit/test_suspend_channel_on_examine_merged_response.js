@@ -977,7 +977,7 @@ partial
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -1205,7 +1205,7 @@ VALIDATE_ALWAYS
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )

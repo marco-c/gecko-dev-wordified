@@ -396,7 +396,7 @@ PRIORITY_HIGHEST
 ;
 requestChannel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

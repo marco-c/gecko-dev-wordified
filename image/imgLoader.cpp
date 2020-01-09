@@ -11415,7 +11415,7 @@ rv
 newChannel
 -
 >
-AsyncOpen2
+AsyncOpen
 (
 listener
 )
@@ -14769,7 +14769,7 @@ Calling
 channel
 -
 >
-AsyncOpen2
+AsyncOpen
 (
 )
 \
@@ -14802,7 +14802,7 @@ openRes
 newChannel
 -
 >
-AsyncOpen2
+AsyncOpen
 (
 listener
 )
@@ -14836,7 +14836,7 @@ imgLoader
 LoadImage
 -
 -
-AsyncOpen2
+AsyncOpen
 (
 )
 failed

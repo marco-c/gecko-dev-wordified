@@ -1685,7 +1685,7 @@ makeChan
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -1712,7 +1712,7 @@ makeChan
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -1801,7 +1801,7 @@ makeChan
 )
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )

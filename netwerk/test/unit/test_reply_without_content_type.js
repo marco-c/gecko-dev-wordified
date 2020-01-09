@@ -394,7 +394,7 @@ head_channels
 js
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -510,7 +510,7 @@ head_channels
 js
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

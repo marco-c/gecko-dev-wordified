@@ -265,7 +265,7 @@ binary
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -512,7 +512,7 @@ binary
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

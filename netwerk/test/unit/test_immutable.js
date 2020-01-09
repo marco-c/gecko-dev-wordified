@@ -910,7 +910,7 @@ doTest2
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -987,7 +987,7 @@ VALIDATE_ALWAYS
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -1065,7 +1065,7 @@ LOAD_BYPASS_CACHE
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -1133,7 +1133,7 @@ doTest5
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -1210,7 +1210,7 @@ VALIDATE_ALWAYS
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -1288,7 +1288,7 @@ LOAD_BYPASS_CACHE
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )

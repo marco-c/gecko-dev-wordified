@@ -2347,7 +2347,7 @@ rv
 httpChannel
 -
 >
-AsyncOpen2
+AsyncOpen
 (
 loader
 )

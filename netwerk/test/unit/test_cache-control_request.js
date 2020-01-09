@@ -786,7 +786,7 @@ store
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -859,7 +859,7 @@ resource_age_100_url
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -938,7 +938,7 @@ resource_age_100_url
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1033,7 +1033,7 @@ store
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1199,7 +1199,7 @@ resource_age_100_url
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1284,7 +1284,7 @@ cache
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1450,7 +1450,7 @@ resource_age_100_url
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1541,7 +1541,7 @@ age
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1649,7 +1649,7 @@ stale
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1741,7 +1741,7 @@ age
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1899,7 +1899,7 @@ resource_stale_100_url
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -2007,7 +2007,7 @@ resource_stale_100_url
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -2087,7 +2087,7 @@ stale
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -2173,7 +2173,7 @@ stale
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -2270,7 +2270,7 @@ stale
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -2427,7 +2427,7 @@ resource_fresh_100_url
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -2504,7 +2504,7 @@ resource_fresh_100_url
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -2587,7 +2587,7 @@ fresh
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -2667,7 +2667,7 @@ fresh
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -2851,7 +2851,7 @@ fresh
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -2926,7 +2926,7 @@ fresh
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

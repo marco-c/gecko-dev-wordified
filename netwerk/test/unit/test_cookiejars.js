@@ -461,7 +461,7 @@ false
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -571,7 +571,7 @@ cookieCheckPath
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

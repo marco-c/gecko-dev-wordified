@@ -2772,7 +2772,7 @@ return
 channel
 -
 >
-AsyncOpen2
+AsyncOpen
 (
 listener
 )
@@ -2921,7 +2921,7 @@ rv
 chan
 -
 >
-Open2
+Open
 (
 getter_AddRefs
 (

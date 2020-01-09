@@ -7479,7 +7479,7 @@ rv
 channel
 -
 >
-AsyncOpen2
+AsyncOpen
 (
 beaconListener
 )
@@ -7494,7 +7494,7 @@ security
 checks
 fail
 within
-asyncOpen2
+asyncOpen
 NS_ENSURE_SUCCESS
 (
 rv

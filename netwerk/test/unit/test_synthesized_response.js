@@ -737,7 +737,7 @@ resetInterception
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -777,7 +777,7 @@ NON_REMOTE_BODY
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -846,7 +846,7 @@ resetInterception
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -894,7 +894,7 @@ NON_REMOTE_BODY_2
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1027,7 +1027,7 @@ finishSynthesizedResponse
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1094,7 +1094,7 @@ resetInterception
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1242,7 +1242,7 @@ finishSynthesizedResponse
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1307,7 +1307,7 @@ NS_BINDING_ABORTED
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1413,7 +1413,7 @@ gotexception
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1536,7 +1536,7 @@ NS_BINDING_ABORTED
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1677,7 +1677,7 @@ finishSynthesizedResponse
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1761,7 +1761,7 @@ boom
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

@@ -580,7 +580,7 @@ true
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener_3
 )
@@ -793,7 +793,7 @@ true
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener_2
 )
@@ -904,7 +904,7 @@ true
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener_1
 )

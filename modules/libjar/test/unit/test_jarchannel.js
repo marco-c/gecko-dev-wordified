@@ -493,7 +493,7 @@ contentLength
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 Listener
@@ -726,7 +726,7 @@ stream
 =
 chan
 .
-open2
+open
 (
 )
 ;
@@ -844,7 +844,7 @@ stream
 =
 chan
 .
-open2
+open
 (
 )
 ;
@@ -960,7 +960,7 @@ true
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 Listener
@@ -1125,7 +1125,7 @@ stream
 =
 chan
 .
-open2
+open
 (
 )
 ;
@@ -1294,7 +1294,7 @@ true
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 Listener

@@ -2289,7 +2289,7 @@ NS_SUCCEEDED
 httpChannel
 -
 >
-AsyncOpen2
+AsyncOpen
 (
 this
 )
@@ -3176,7 +3176,7 @@ rv
 pushed
 -
 >
-AsyncOpen2
+AsyncOpen
 (
 this
 )

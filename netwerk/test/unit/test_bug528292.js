@@ -601,7 +601,7 @@ URI
 .
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

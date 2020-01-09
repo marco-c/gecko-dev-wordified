@@ -365,7 +365,7 @@ RedirectHttpsOnly
 ;
 ioChannel
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )

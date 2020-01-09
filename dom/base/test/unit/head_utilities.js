@@ -301,7 +301,7 @@ init
 (
 chann
 .
-open2
+open
 (
 )
 )
@@ -353,7 +353,7 @@ init
 (
 chann
 .
-open2
+open
 (
 )
 aCharset

@@ -1790,7 +1790,7 @@ Proxy
 Unauthorized
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -1848,7 +1848,7 @@ Eventually
 OK
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -1905,7 +1905,7 @@ expectedCode
 OK
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -1969,7 +1969,7 @@ Proxy
 Unauthorized
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2032,7 +2032,7 @@ expectedCode
 OK
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2090,7 +2090,7 @@ Host
 Unauthorized
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2148,7 +2148,7 @@ Eventually
 OK
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2207,7 +2207,7 @@ expectedCode
 OK
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2268,7 +2268,7 @@ Host
 Unauthorized
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )

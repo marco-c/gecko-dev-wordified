@@ -1527,7 +1527,7 @@ pushHdrTxt
 ;
 pushChannel
 .
-asyncOpen2
+asyncOpen
 (
 this
 )
@@ -2329,7 +2329,7 @@ expected
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2423,7 +2423,7 @@ chan
 ;
 simpleChannel
 .
-asyncOpen2
+asyncOpen
 (
 sl
 )
@@ -2487,7 +2487,7 @@ Http2CheckListener
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2553,7 +2553,7 @@ Http2CheckListener
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2631,7 +2631,7 @@ false
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -3054,7 +3054,7 @@ concurrent_channels
 i
 ]
 .
-asyncOpen2
+asyncOpen
 (
 concurrent_listener
 )
@@ -3271,7 +3271,7 @@ concurrent_channels
 i
 ]
 .
-asyncOpen2
+asyncOpen
 (
 concurrent_listener
 )
@@ -3355,14 +3355,14 @@ Http2MultiplexListener
 ;
 chan1
 .
-asyncOpen2
+asyncOpen
 (
 listener1
 )
 ;
 chan2
 .
-asyncOpen2
+asyncOpen
 (
 listener2
 )
@@ -3465,7 +3465,7 @@ hvalue
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -3666,7 +3666,7 @@ cookieReceived
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -3716,7 +3716,7 @@ true
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -3768,7 +3768,7 @@ true
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -3818,7 +3818,7 @@ true
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -3870,7 +3870,7 @@ true
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -3920,7 +3920,7 @@ true
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -3972,7 +3972,7 @@ true
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -4038,7 +4038,7 @@ Http2CheckListener
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -4095,7 +4095,7 @@ Http2BigListener
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -4138,7 +4138,7 @@ Http2HugeSuspendedListener
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -4246,7 +4246,7 @@ method
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -4735,7 +4735,7 @@ LOAD_BYPASS_CACHE
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 altsvcClientListener
 )
@@ -4799,7 +4799,7 @@ LOAD_BYPASS_CACHE
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 altsvcClientListener2
 )
@@ -4949,7 +4949,7 @@ LOAD_BYPASS_CACHE
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 altsvcClientListener2
 )
@@ -5567,7 +5567,7 @@ nsIHttpChannel
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 altsvcClientListener
 )
@@ -5711,7 +5711,7 @@ true
 ;
 pushChannel
 .
-asyncOpen2
+asyncOpen
 (
 this
 )
@@ -6250,7 +6250,7 @@ listener
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -6442,7 +6442,7 @@ WrongSuiteListener
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -6546,7 +6546,7 @@ true
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -6595,7 +6595,7 @@ false
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -6742,7 +6742,7 @@ false
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -6785,7 +6785,7 @@ Http2CheckListener
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -6840,7 +6840,7 @@ listener
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -7034,7 +7034,7 @@ shouldGoAway
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -7090,7 +7090,7 @@ false
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -7145,7 +7145,7 @@ false
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -7200,7 +7200,7 @@ false
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -7243,7 +7243,7 @@ Http2CheckListener
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -7309,7 +7309,7 @@ true
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -7377,7 +7377,7 @@ false
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -7445,7 +7445,7 @@ true
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -7507,7 +7507,7 @@ true
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -7571,7 +7571,7 @@ false
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -7635,7 +7635,7 @@ true
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -7684,7 +7684,7 @@ false
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -8124,7 +8124,7 @@ loadGroup
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -8278,7 +8278,7 @@ loadGroup
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -8414,7 +8414,7 @@ loadGroup
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -8611,7 +8611,7 @@ loadGroup
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -8794,7 +8794,7 @@ loadGroup
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )

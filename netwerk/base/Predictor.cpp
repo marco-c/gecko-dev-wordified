@@ -7754,7 +7754,7 @@ PREDICTOR_LOG
 (
 "
 calling
-AsyncOpen2
+AsyncOpen
 listener
 =
 %
@@ -7782,7 +7782,7 @@ rv
 channel
 -
 >
-AsyncOpen2
+AsyncOpen
 (
 listener
 )
@@ -7799,7 +7799,7 @@ PREDICTOR_LOG
 (
 (
 "
-AsyncOpen2
+AsyncOpen
 failed
 rv
 =

@@ -352,7 +352,7 @@ POST
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 RedirectingListener
@@ -458,7 +458,7 @@ POST
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 VerifyingListener
@@ -561,7 +561,7 @@ cl
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 FinalListener
@@ -743,7 +743,7 @@ cl
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 InitialListener

@@ -6948,7 +6948,7 @@ rv
 channel
 -
 >
-AsyncOpen2
+AsyncOpen
 (
 xblListener
 )
@@ -7056,7 +7056,7 @@ rv
 channel
 -
 >
-Open2
+Open
 (
 getter_AddRefs
 (

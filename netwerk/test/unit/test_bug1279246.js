@@ -348,7 +348,7 @@ VALIDATE_NEVER
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 Listener
@@ -513,7 +513,7 @@ setupChannel
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 Listener

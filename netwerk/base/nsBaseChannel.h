@@ -828,7 +828,7 @@ channels
 If
 not
 implemented
-AsyncOpen2
+AsyncOpen
 will
 fall
 /
@@ -1896,10 +1896,6 @@ mListener
 =
 nullptr
 ;
-mListenerContext
-=
-nullptr
-;
 OnChannelDone
 (
 )
@@ -2161,12 +2157,6 @@ nsCOMPtr
 nsIStreamListener
 >
 mListener
-;
-nsCOMPtr
-<
-nsISupports
->
-mListenerContext
 ;
 nsresult
 mStatus

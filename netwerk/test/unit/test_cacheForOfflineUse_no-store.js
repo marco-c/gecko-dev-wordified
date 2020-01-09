@@ -412,7 +412,7 @@ normalEntry
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -576,7 +576,7 @@ load
 .
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

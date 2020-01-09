@@ -5110,7 +5110,7 @@ be
 *
 openend
 using
-Open2
+Open
 (
 )
 or
@@ -5131,7 +5131,7 @@ Open
 *
 /
 nsresult
-NS_MaybeOpenChannelUsingOpen2
+NS_MaybeOpenChannelUsingOpen
 (
 nsIChannel
 *
@@ -5158,7 +5158,7 @@ be
 *
 openend
 using
-AsyncOpen2
+AsyncOpen
 (
 )
 or
@@ -5179,7 +5179,7 @@ AsyncOpen
 *
 /
 nsresult
-NS_MaybeOpenChannelUsingAsyncOpen2
+NS_MaybeOpenChannelUsingAsyncOpen
 (
 nsIChannel
 *

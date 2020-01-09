@@ -2443,7 +2443,7 @@ process
 .
 channel
 .
-asyncOpen2
+asyncOpen
 (
 {
 contentListener

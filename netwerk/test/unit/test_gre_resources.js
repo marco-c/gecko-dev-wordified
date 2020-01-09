@@ -159,7 +159,7 @@ wrapInputStream
 (
 channel
 .
-open2
+open
 (
 )
 )

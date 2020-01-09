@@ -8882,7 +8882,7 @@ rv
 channel
 -
 >
-Open2
+Open
 (
 getter_AddRefs
 (
@@ -10369,7 +10369,7 @@ rv
 channel
 -
 >
-AsyncOpen2
+AsyncOpen
 (
 streamLoader
 )

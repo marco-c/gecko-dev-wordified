@@ -1069,7 +1069,7 @@ test_2
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1276,7 +1276,7 @@ test_3
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1529,7 +1529,7 @@ test_4
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 MyListener
@@ -1734,7 +1734,7 @@ false
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1961,7 +1961,7 @@ test_6
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -2372,7 +2372,7 @@ test_7
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -2737,7 +2737,7 @@ test_8
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 FailedChannelListener
@@ -3081,7 +3081,7 @@ test_9
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -3298,7 +3298,7 @@ test_2
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 Canceler
@@ -3346,7 +3346,7 @@ test_3
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 MyListener
@@ -3395,7 +3395,7 @@ test_4
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 MyListener
@@ -3440,7 +3440,7 @@ test_5
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 MyListener
@@ -3490,7 +3490,7 @@ test_6
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 MyListener
@@ -3532,7 +3532,7 @@ test_7
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 MyListener
@@ -3579,7 +3579,7 @@ test_8
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 MyListener
@@ -3628,7 +3628,7 @@ test_9
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 MyListener

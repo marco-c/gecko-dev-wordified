@@ -1264,7 +1264,7 @@ makeChan
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1322,7 +1322,7 @@ makeChan
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1377,7 +1377,7 @@ makeChan
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1435,7 +1435,7 @@ makeChan
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1490,7 +1490,7 @@ makeChan
 ;
 ch
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

@@ -471,12 +471,6 @@ nsIStreamListener
 >
 mListener
 ;
-nsCOMPtr
-<
-nsISupports
->
-mListenerContext
-;
 /
 /
 reuse

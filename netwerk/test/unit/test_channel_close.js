@@ -150,7 +150,7 @@ testpath
 ;
 local_channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -177,7 +177,7 @@ setupChannel
 testpath
 )
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -236,7 +236,7 @@ live_channels
 1
 ]
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

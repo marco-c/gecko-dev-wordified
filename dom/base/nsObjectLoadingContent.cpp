@@ -12998,7 +12998,7 @@ new
 channel
 and
 calls
-asyncOpen2
+asyncOpen
 (
 )
 on
@@ -16317,7 +16317,7 @@ EXECUTE_NORMAL
 }
 /
 /
-AsyncOpen2
+AsyncOpen
 can
 fail
 if
@@ -16332,7 +16332,7 @@ rv
 chan
 -
 >
-AsyncOpen2
+AsyncOpen
 (
 shim
 )

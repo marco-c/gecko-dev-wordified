@@ -1248,7 +1248,7 @@ false
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1275,7 +1275,7 @@ originAttributes
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1439,7 +1439,7 @@ false
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1466,7 +1466,7 @@ originAttributes
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

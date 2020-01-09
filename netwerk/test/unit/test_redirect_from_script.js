@@ -82,7 +82,7 @@ made
 with
 nsIHTTPChannel
 .
-asyncOpen2
+asyncOpen
 (
 )
 .
@@ -1271,7 +1271,7 @@ created
 with
 channel
 .
-asyncOpen2
+asyncOpen
 (
 )
 /
@@ -1380,7 +1380,7 @@ function
 to
 run
 an
-asyncOpen2
+asyncOpen
 test
 using
 the
@@ -1403,7 +1403,7 @@ uri
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

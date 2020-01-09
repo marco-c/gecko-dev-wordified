@@ -2192,7 +2192,7 @@ try
 {
 channel
 .
-asyncOpen2
+asyncOpen
 (
 this
 )

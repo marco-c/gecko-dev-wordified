@@ -4070,7 +4070,7 @@ return
 channel
 -
 >
-Open2
+Open
 (
 aStream
 )

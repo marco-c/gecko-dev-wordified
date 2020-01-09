@@ -218,7 +218,7 @@ instr
 =
 goodChannel
 .
-open2
+open
 (
 )
 ;
@@ -359,7 +359,7 @@ instr
 =
 goodChannel
 .
-open2
+open
 (
 )
 ;
@@ -499,7 +499,7 @@ instr
 =
 goodChannel
 .
-open2
+open
 (
 )
 ;

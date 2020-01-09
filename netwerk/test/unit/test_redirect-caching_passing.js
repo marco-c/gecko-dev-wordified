@@ -272,7 +272,7 @@ LOAD_FROM_CACHE
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -355,7 +355,7 @@ randomURI
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

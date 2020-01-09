@@ -2095,7 +2095,7 @@ inputStream
 nsresult
 rv
 =
-NS_MaybeOpenChannelUsingOpen2
+NS_MaybeOpenChannelUsingOpen
 (
 aChannel
 getter_AddRefs
@@ -5102,7 +5102,7 @@ else
 {
 rv
 =
-NS_MaybeOpenChannelUsingAsyncOpen2
+NS_MaybeOpenChannelUsingAsyncOpen
 (
 aItem
 -

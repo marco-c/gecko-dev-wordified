@@ -127,7 +127,7 @@ instr
 =
 channel
 .
-open2
+open
 (
 )
 ;

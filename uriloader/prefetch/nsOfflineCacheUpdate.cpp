@@ -1534,7 +1534,7 @@ return
 mChannel
 -
 >
-AsyncOpen2
+AsyncOpen
 (
 this
 )
@@ -3354,7 +3354,7 @@ rv
 mChannel
 -
 >
-AsyncOpen2
+AsyncOpen
 (
 this
 )

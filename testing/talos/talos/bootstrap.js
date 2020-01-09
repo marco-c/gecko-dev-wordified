@@ -287,7 +287,7 @@ readInputStream
 (
 channel
 .
-open2
+open
 (
 )
 )

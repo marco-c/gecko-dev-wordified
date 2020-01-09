@@ -437,12 +437,6 @@ mListener
 ;
 nsCOMPtr
 <
-nsISupports
->
-mListenerContext
-;
-nsCOMPtr
-<
 nsIEventTarget
 >
 mTargetThread
