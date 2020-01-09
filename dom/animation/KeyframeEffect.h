@@ -2906,11 +2906,16 @@ composite
 mode
 )
 .
+using
+BaseValuesHashmap
+=
 nsRefPtrHashtable
 <
 nsUint32HashKey
 RawServoAnimationValue
 >
+;
+BaseValuesHashmap
 mBaseValues
 ;
 /

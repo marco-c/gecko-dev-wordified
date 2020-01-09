@@ -2273,11 +2273,7 @@ return
 }
 Maybe
 <
-nsRefPtrHashtable
-<
-nsUint32HashKey
-RawServoAnimationValue
->
+BaseValuesHashmap
 >
 previousBaseStyles
 ;
