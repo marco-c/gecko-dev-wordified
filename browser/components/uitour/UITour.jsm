@@ -9441,6 +9441,14 @@ urlbar
 .
 startQuery
 (
+{
+searchString
+:
+SEARCH_STRING
+allowAutofill
+:
+false
+}
 )
 ;
 }
