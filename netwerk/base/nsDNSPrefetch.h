@@ -102,7 +102,7 @@ nsDNSPrefetch_h___
 #
 include
 "
-nsWeakReference
+nsIWeakReferenceUtils
 .
 h
 "

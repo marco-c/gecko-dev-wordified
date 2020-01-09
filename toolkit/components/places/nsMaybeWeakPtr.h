@@ -118,7 +118,7 @@ h
 #
 include
 "
-nsWeakReference
+nsIWeakReferenceUtils
 .
 h
 "

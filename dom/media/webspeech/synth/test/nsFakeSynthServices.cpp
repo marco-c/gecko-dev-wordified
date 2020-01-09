@@ -136,13 +136,6 @@ h
 #
 include
 "
-nsIWeakReferenceUtils
-.
-h
-"
-#
-include
-"
 SharedBuffer
 .
 h

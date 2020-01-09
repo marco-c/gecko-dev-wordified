@@ -171,14 +171,7 @@ h
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
-nsWeakPtr
+nsIWeakReferenceUtils
 .
 h
 "

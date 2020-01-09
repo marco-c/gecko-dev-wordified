@@ -188,6 +188,13 @@ h
 #
 include
 "
+nsIWeakReferenceUtils
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -196,13 +203,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-nsWeakPtr
 .
 h
 "

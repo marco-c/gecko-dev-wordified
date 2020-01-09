@@ -195,10 +195,7 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
-<
-nsIWeakReference
->
+nsWeakPtr
 weak
 =
 do_GetWeakReference
@@ -282,10 +279,7 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
-<
-nsIWeakReference
->
+nsWeakPtr
 observerRef
 =
 do_GetWeakReference

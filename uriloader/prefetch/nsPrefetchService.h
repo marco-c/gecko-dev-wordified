@@ -835,10 +835,7 @@ mReferrerURI
 ;
 nsTArray
 <
-nsCOMPtr
-<
-nsIWeakReference
->
+nsWeakPtr
 >
 mSources
 ;

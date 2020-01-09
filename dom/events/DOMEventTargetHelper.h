@@ -165,13 +165,6 @@ h
 #
 include
 "
-nsIWeakReferenceUtils
-.
-h
-"
-#
-include
-"
 MainThreadUtils
 .
 h

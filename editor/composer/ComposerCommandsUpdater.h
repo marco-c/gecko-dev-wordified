@@ -167,17 +167,6 @@ nsITransactionListener
 #
 include
 "
-nsIWeakReferenceUtils
-.
-h
-"
-/
-/
-for
-nsWeakPtr
-#
-include
-"
 nscore
 .
 h

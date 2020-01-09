@@ -114,6 +114,13 @@ h
 #
 include
 "
+nsIWeakReferenceUtils
+.
+h
+"
+#
+include
+"
 nsTHashtable
 .
 h
@@ -122,13 +129,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-nsWeakReference
 .
 h
 "

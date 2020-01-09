@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsWeakPtr
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -144,7 +137,7 @@ h
 #
 include
 "
-nsWeakReference
+nsIWeakReferenceUtils
 .
 h
 "

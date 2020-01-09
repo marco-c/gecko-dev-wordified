@@ -125,14 +125,7 @@ h
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
-nsWeakPtr
+nsIWeakReferenceUtils
 .
 h
 "

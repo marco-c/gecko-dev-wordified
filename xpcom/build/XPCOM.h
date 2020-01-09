@@ -882,13 +882,6 @@ h
 #
 include
 "
-nsIWeakReferenceUtils
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h

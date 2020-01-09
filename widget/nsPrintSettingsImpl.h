@@ -105,6 +105,13 @@ h
 #
 include
 "
+nsIWeakReferenceUtils
+.
+h
+"
+#
+include
+"
 nsMargin
 .
 h
@@ -113,13 +120,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-nsWeakReference
 .
 h
 "

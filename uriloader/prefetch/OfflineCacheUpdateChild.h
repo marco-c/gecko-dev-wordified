@@ -162,14 +162,14 @@ h
 #
 include
 "
-nsString
+nsIWeakReference
 .
 h
 "
 #
 include
 "
-nsWeakReference
+nsString
 .
 h
 "

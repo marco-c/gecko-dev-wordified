@@ -209,13 +209,6 @@ h
 #
 include
 "
-nsWeakPtr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

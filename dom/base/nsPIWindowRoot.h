@@ -138,13 +138,6 @@ EventTarget
 .
 h
 "
-#
-include
-"
-nsWeakReference
-.
-h
-"
 class
 nsPIDOMWindowOuter
 ;

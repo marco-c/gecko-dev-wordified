@@ -475,6 +475,13 @@ h
 #
 include
 "
+nsIWeakReferenceUtils
+.
+h
+"
+#
+include
+"
 ProfilerHelpers
 .
 h
@@ -4709,10 +4716,7 @@ File
 /
 alive
 .
-nsCOMPtr
-<
-nsIWeakReference
->
+nsWeakPtr
 weakRef
 =
 do_GetWeakReference
@@ -5462,10 +5466,7 @@ if
 shouldExpire
 )
 {
-nsCOMPtr
-<
-nsIWeakReference
->
+nsWeakPtr
 weakRef
 =
 do_QueryInterface

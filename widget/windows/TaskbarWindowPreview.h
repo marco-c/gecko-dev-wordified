@@ -143,11 +143,11 @@ h
 "
 #
 include
-<
+"
 nsWeakReference
 .
 h
->
+"
 namespace
 mozilla
 {
