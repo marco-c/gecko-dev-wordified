@@ -14813,11 +14813,6 @@ class
 controlsOverlay
 stackItem
 "
-role
-=
-"
-none
-"
 >
 <
 div
@@ -14887,11 +14882,6 @@ class
 =
 "
 controlBar
-"
-role
-=
-"
-none
 "
 hidden
 =
