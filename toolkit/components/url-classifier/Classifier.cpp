@@ -10461,9 +10461,7 @@ continue
 }
 nsCString
 state
-;
-nsCString
-checksum
+sha256
 ;
 rv
 =
@@ -10473,7 +10471,7 @@ lookupCacheV4
 LoadMetadata
 (
 state
-checksum
+sha256
 )
 ;
 if
@@ -10549,7 +10547,7 @@ rv
 =
 Base64Encode
 (
-checksum
+sha256
 checksumBase64
 )
 ;

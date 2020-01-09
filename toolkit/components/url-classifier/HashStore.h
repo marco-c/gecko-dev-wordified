@@ -1065,13 +1065,13 @@ mClientState
 const
 nsACString
 &
-Checksum
+SHA256
 (
 )
 const
 {
 return
-mChecksum
+mSHA256
 ;
 }
 const
@@ -1136,7 +1136,7 @@ aState
 ;
 }
 void
-NewChecksum
+SetSHA256
 (
 const
 std
@@ -1144,7 +1144,7 @@ std
 :
 string
 &
-aChecksum
+aSHA256
 )
 ;
 nsresult
@@ -1198,7 +1198,7 @@ nsCString
 mClientState
 ;
 nsCString
-mChecksum
+mSHA256
 ;
 /
 /
