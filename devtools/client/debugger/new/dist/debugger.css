@@ -14132,6 +14132,14 @@ border
 -
 box
 ;
+justify
+-
+content
+:
+space
+-
+between
+;
 }
 .
 source
@@ -14620,6 +14628,12 @@ position
 padding
 :
 5px
+;
+white
+-
+space
+:
+nowrap
 ;
 }
 /
