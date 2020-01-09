@@ -78408,7 +78408,7 @@ JSJitInfo
 :
 :
 AliasEverything
-JSVAL_TYPE_MISSING
+JSVAL_TYPE_OBJECT
 false
 false
 \
