@@ -259,7 +259,9 @@ user
 password
 :
 "
-password
+P
+w
+rd
 "
 hostname
 :
