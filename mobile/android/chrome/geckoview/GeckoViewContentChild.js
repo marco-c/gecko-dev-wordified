@@ -721,9 +721,9 @@ Utils
 mapFrameTree
 (
 content
-FormData
+SessionStoreUtils
 .
-collect
+collectFormData
 SessionStoreUtils
 .
 collectScrollPosition
