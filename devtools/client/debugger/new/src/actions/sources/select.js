@@ -128,7 +128,6 @@ tabs
 import
 {
 setOutOfScopeLocations
-setSymbols
 }
 from
 "
@@ -136,6 +135,17 @@ from
 .
 /
 ast
+"
+;
+import
+{
+setSymbols
+}
+from
+"
+.
+/
+symbols
 "
 ;
 import

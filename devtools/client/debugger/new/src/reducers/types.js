@@ -381,8 +381,7 @@ pause
 export
 type
 {
-SourceMetaDataMap
-SourceMetaDataType
+Symbols
 }
 from
 "

@@ -115,7 +115,6 @@ getSource
 getSourceCount
 getSelectedSource
 getSourceTabs
-getSourceMetaData
 getOutOfScopeLocations
 getSelectedLocation
 }
@@ -420,15 +419,6 @@ state
 getOutOfScopeLocations
 (
 state
-)
-&
-&
-getSourceMetaData
-(
-state
-source
-.
-id
 )
 )
 ;
