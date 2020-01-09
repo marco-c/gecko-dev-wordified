@@ -141,6 +141,8 @@ waitForCondition
 )
 =
 >
+content
+.
 document
 .
 l10n
@@ -161,6 +163,8 @@ loaded
 )
 ;
 return
+content
+.
 document
 .
 l10n
@@ -229,6 +233,8 @@ waitForCondition
 )
 =
 >
+content
+.
 document
 .
 l10n
@@ -249,6 +255,8 @@ loaded
 )
 ;
 return
+content
+.
 document
 .
 l10n
