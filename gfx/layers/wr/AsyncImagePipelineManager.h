@@ -970,6 +970,11 @@ aImageId
 )
 {
 }
+~
+ForwardingExternalImage
+(
+)
+;
 wr
 :
 :
@@ -1016,7 +1021,10 @@ std
 :
 queue
 <
+UniquePtr
+<
 ForwardingExternalImage
+>
 >
 mExternalImages
 ;
