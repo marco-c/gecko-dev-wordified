@@ -332,12 +332,6 @@ SetProp_Fallback
 \
 _
 (
-TableSwitch
-)
-\
-\
-_
-(
 GetIterator_Fallback
 )
 \
