@@ -438,7 +438,7 @@ getStr
 "
 flexbox
 .
-togglesFlexboxHighlighter
+togglesFlexboxHighlighter2
 "
 )
 type
