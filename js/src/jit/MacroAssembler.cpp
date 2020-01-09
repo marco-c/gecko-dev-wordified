@@ -22722,15 +22722,6 @@ BytecodeOffset
 trapOffset
 )
 {
-if
-(
-!
-amount
-)
-{
-return
-;
-}
 /
 /
 If
