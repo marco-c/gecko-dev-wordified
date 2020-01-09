@@ -717,7 +717,7 @@ hud
 .
 ui
 .
-consoleOutput
+wrapper
 .
 dispatchClearHistory
 (
@@ -788,7 +788,7 @@ hud
 .
 ui
 .
-consoleOutput
+wrapper
 .
 getStore
 (
@@ -2030,7 +2030,7 @@ hud
 .
 ui
 .
-consoleOutput
+wrapper
 .
 once
 (
@@ -2056,7 +2056,7 @@ hud
 .
 ui
 .
-consoleOutput
+wrapper
 .
 owner
 .
@@ -2141,7 +2141,7 @@ hud
 .
 ui
 .
-consoleOutput
+wrapper
 .
 owner
 .
@@ -6223,7 +6223,7 @@ hud
 .
 ui
 .
-consoleOutput
+wrapper
 .
 getStore
 (

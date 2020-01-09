@@ -293,7 +293,7 @@ cacheMatches
 =
 ui
 .
-consoleOutput
+wrapper
 .
 getStore
 (

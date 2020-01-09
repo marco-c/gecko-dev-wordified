@@ -3446,7 +3446,7 @@ this
 .
 hud
 .
-consoleOutput
+wrapper
 )
 {
 return
@@ -3454,7 +3454,7 @@ this
 .
 hud
 .
-consoleOutput
+wrapper
 .
 dispatchMessageAdd
 (
@@ -3498,7 +3498,7 @@ this
 .
 hud
 .
-consoleOutput
+wrapper
 .
 dispatchMessagesAdd
 (

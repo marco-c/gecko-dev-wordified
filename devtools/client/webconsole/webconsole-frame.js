@@ -555,7 +555,7 @@ _initConnection
 await
 this
 .
-consoleOutput
+wrapper
 .
 init
 (
@@ -769,7 +769,7 @@ owner
 =
 this
 .
-consoleOutput
+wrapper
 =
 null
 ;
@@ -891,12 +891,12 @@ if
 (
 this
 .
-consoleOutput
+wrapper
 )
 {
 this
 .
-consoleOutput
+wrapper
 .
 dispatchMessagesClear
 (
@@ -978,12 +978,12 @@ if
 (
 this
 .
-consoleOutput
+wrapper
 )
 {
 this
 .
-consoleOutput
+wrapper
 .
 dispatchPrivateMessagesClear
 (
@@ -1011,7 +1011,7 @@ objectActor
 {
 this
 .
-consoleOutput
+wrapper
 .
 dispatchMessageAdd
 (
@@ -1035,7 +1035,7 @@ true
 return
 this
 .
-consoleOutput
+wrapper
 ;
 }
 _onUpdateListeners
@@ -1386,14 +1386,14 @@ target
 ;
 this
 .
-consoleOutput
+wrapper
 =
 new
 this
 .
 window
 .
-WebConsoleOutput
+WebConsoleWrapper
 (
 this
 .
@@ -1910,7 +1910,7 @@ isOpen
 {
 this
 .
-consoleOutput
+wrapper
 .
 dispatchSidebarClose
 (
@@ -2081,7 +2081,7 @@ PREF_MESSAGE_TIMESTAMP
 ;
 this
 .
-consoleOutput
+wrapper
 .
 dispatchTimestampsToggle
 (
@@ -2144,7 +2144,7 @@ function
 {
 this
 .
-consoleOutput
+wrapper
 .
 dispatchSplitConsoleCloseButtonToggle
 (
@@ -2253,7 +2253,7 @@ reload
 await
 this
 .
-consoleOutput
+wrapper
 .
 waitAsyncDispatches
 (
@@ -2278,7 +2278,7 @@ packet
 {
 this
 .
-consoleOutput
+wrapper
 .
 dispatchTabWillNavigate
 (

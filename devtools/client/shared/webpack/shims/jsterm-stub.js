@@ -560,7 +560,7 @@ this
 .
 hud
 .
-consoleOutput
+wrapper
 .
 dispatchMessageAdd
 (

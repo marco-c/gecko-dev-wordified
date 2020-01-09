@@ -297,7 +297,7 @@ hud1
 .
 ui
 .
-consoleOutput
+wrapper
 .
 getStore
 (
@@ -344,7 +344,7 @@ hud1
 .
 ui
 .
-consoleOutput
+wrapper
 .
 getStore
 (
@@ -448,7 +448,7 @@ hud2
 .
 ui
 .
-consoleOutput
+wrapper
 .
 getStore
 (
@@ -524,7 +524,7 @@ hud2
 .
 ui
 .
-consoleOutput
+wrapper
 .
 getStore
 (
@@ -672,7 +672,7 @@ hud3
 .
 ui
 .
-consoleOutput
+wrapper
 .
 getStore
 (
@@ -784,7 +784,7 @@ hud1
 .
 ui
 .
-consoleOutput
+wrapper
 .
 getStore
 (
@@ -862,7 +862,7 @@ hud2
 .
 ui
 .
-consoleOutput
+wrapper
 .
 getStore
 (
@@ -966,7 +966,7 @@ hud3
 .
 ui
 .
-consoleOutput
+wrapper
 .
 getStore
 (
@@ -1098,7 +1098,7 @@ hud4
 .
 ui
 .
-consoleOutput
+wrapper
 .
 getStore
 (
@@ -1189,7 +1189,7 @@ hud4
 .
 ui
 .
-consoleOutput
+wrapper
 .
 getStore
 (
@@ -1241,7 +1241,7 @@ hud5
 .
 ui
 .
-consoleOutput
+wrapper
 .
 getStore
 (

@@ -387,7 +387,7 @@ hud
 .
 ui
 .
-consoleOutput
+wrapper
 .
 dispatchClearHistory
 (

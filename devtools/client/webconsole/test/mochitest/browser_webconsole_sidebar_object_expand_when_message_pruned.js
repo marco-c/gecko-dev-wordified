@@ -640,7 +640,7 @@ node
 )
 {
 const
-wrapper
+appNode
 =
 hud
 .
@@ -654,9 +654,7 @@ querySelector
 .
 webconsole
 -
-output
--
-wrapper
+app
 "
 )
 ;
@@ -669,7 +667,7 @@ waitFor
 )
 =
 >
-wrapper
+appNode
 .
 querySelector
 (
