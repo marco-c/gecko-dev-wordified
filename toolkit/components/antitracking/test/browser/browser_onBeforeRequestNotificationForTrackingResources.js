@@ -483,16 +483,6 @@ true
 ]
 [
 "
-browser
-.
-fastblock
-.
-enabled
-"
-false
-]
-[
-"
 privacy
 .
 trackingprotection
