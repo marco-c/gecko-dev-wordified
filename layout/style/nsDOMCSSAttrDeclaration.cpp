@@ -592,7 +592,6 @@ mElement
 SetSMILOverrideStyleDeclaration
 (
 aDecl
-true
 )
 :
 mElement
