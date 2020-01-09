@@ -494,9 +494,6 @@ ArrayBufferViewObject
 :
 notifyBufferDetached
 (
-void
-*
-newData
 )
 {
 MOZ_ASSERT
@@ -534,7 +531,7 @@ Int32Value
 ;
 setPrivate
 (
-newData
+nullptr
 )
 ;
 }

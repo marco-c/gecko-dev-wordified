@@ -485,9 +485,6 @@ obj
 void
 notifyBufferDetached
 (
-void
-*
-newData
 )
 ;
 /

@@ -2505,8 +2505,6 @@ ArrayBufferObject
 *
 >
 buffer
-BufferContents
-newContents
 )
 ;
 private
