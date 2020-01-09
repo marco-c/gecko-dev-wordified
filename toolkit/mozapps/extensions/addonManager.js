@@ -613,6 +613,9 @@ browser
 :
 aBrowser
 telemetryInfo
+sendCookies
+:
+true
 }
 )
 .
