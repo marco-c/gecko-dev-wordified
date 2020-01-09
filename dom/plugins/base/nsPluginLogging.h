@@ -450,11 +450,11 @@ to
 a
 file
 .
+/
+/
 Additionally
 set
 the
-/
-/
 MOZ_LOG_FILE
 environment
 variable
@@ -462,6 +462,8 @@ to
 point
 to
 the
+/
+/
 full
 path
 of

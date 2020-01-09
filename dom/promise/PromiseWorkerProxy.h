@@ -267,6 +267,8 @@ Promise
 >
 promise
 =
+/
+/
 Promise
 :
 :
@@ -729,6 +731,8 @@ GetWorkerPrivate
 (
 )
 proxy
+/
+/
 result
 )
 ;

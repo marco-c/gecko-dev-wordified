@@ -5594,6 +5594,7 @@ nsIObserver
 is
 called
 with
+*
 "
 presentation
 -
