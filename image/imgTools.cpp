@@ -1177,8 +1177,11 @@ getter_AddRefs
 (
 stream
 )
+MakeSpan
+(
 aBuffer
 aSize
+)
 NS_ASSIGNMENT_DEPEND
 )
 ;

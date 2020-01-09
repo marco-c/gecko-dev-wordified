@@ -1982,6 +1982,8 @@ getter_AddRefs
 (
 stream
 )
+MakeSpan
+(
 reinterpret_cast
 <
 const
@@ -1992,6 +1994,7 @@ char
 aBuffer
 )
 aBufLen
+)
 NS_ASSIGNMENT_DEPEND
 )
 ;

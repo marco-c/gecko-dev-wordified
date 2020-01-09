@@ -2677,15 +2677,6 @@ getter_AddRefs
 headers
 )
 mReqHeaderBuf
-.
-get
-(
-)
-mReqHeaderBuf
-.
-Length
-(
-)
 )
 ;
 if

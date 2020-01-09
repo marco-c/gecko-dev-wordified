@@ -807,12 +807,15 @@ getter_AddRefs
 (
 stream
 )
+MakeSpan
+(
 (
 char
 *
 )
 mWriteBuffer
 bytesToWrite
+)
 )
 ;
 NS_ENSURE_SUCCESS

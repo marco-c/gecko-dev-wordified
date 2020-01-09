@@ -9132,11 +9132,14 @@ getter_AddRefs
 (
 stringStream
 )
+MakeSpan
+(
 chrs
 checkedLen
 .
 value
 (
+)
 )
 NS_ASSIGNMENT_ADOPT
 )

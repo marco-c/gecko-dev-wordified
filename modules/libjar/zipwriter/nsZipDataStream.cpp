@@ -700,8 +700,11 @@ getter_AddRefs
 (
 stream
 )
+MakeSpan
+(
 aBuffer
 aCount
+)
 )
 ;
 NS_ENSURE_SUCCESS

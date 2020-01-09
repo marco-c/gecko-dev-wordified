@@ -313,8 +313,11 @@ getter_AddRefs
 (
 stream
 )
+MakeSpan
+(
 data
 aDataLength
+)
 NS_ASSIGNMENT_COPY
 )
 ;

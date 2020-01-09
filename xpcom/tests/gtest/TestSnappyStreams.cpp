@@ -598,8 +598,11 @@ getter_AddRefs
 (
 source
 )
+MakeSpan
+(
 aCorruptData
 aCorruptLength
+)
 )
 ;
 ASSERT_TRUE

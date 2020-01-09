@@ -1871,8 +1871,14 @@ getter_AddRefs
 (
 mInnerStream
 )
+mozilla
+:
+:
+MakeSpan
+(
 bytes
 bytesLen
+)
 NS_ASSIGNMENT_ADOPT
 )
 ;

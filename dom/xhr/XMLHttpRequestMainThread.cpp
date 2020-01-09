@@ -8756,8 +8756,11 @@ getter_AddRefs
 (
 copyStream
 )
+MakeSpan
+(
 fromRawSegment
 count
+)
 )
 ;
 if

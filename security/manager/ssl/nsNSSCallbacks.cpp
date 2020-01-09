@@ -1836,6 +1836,8 @@ getter_AddRefs
 (
 uploadStream
 )
+MakeSpan
+(
 reinterpret_cast
 <
 const
@@ -1853,6 +1855,7 @@ mPOSTData
 .
 length
 (
+)
 )
 )
 ;
