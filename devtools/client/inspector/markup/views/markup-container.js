@@ -3733,8 +3733,6 @@ this
 .
 markup
 .
-inspector
-.
 followAttributeLink
 (
 type

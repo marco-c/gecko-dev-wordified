@@ -4414,6 +4414,10 @@ menu
 =
 inspector
 .
+markup
+.
+contextMenu
+.
 _openMenu
 (
 options
