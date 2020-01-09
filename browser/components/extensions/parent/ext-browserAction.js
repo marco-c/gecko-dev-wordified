@@ -542,6 +542,13 @@ path
 options
 .
 default_icon
+|
+|
+extension
+.
+manifest
+.
+icons
 iconType
 :
 "
