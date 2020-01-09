@@ -210,6 +210,9 @@ cranelift_codegen
 :
 :
 ir
+:
+:
+SourceLoc
 ;
 use
 cranelift_wasm
@@ -384,9 +387,6 @@ func_index
 FuncIndex
 srcloc
 :
-ir
-:
-:
 SourceLoc
 )
 -
@@ -424,9 +424,6 @@ offset
 CodeOffset
 srcloc
 :
-ir
-:
-:
 SourceLoc
 )
 -
@@ -459,9 +456,6 @@ offset
 :
 CodeOffset
 srcloc
-:
-ir
-:
 :
 SourceLoc
 which
@@ -500,9 +494,6 @@ offset
 :
 CodeOffset
 srcloc
-:
-ir
-:
 :
 SourceLoc
 )

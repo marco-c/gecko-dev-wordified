@@ -137,9 +137,6 @@ here
 .
 use
 std
-;
-use
-std
 :
 :
 error
