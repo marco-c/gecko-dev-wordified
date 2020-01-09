@@ -6130,15 +6130,6 @@ ScopeSizeInfo
 scopeSizeInfo
 )
 ;
-static
-bool
-IsDyingScope
-(
-XPCWrappedNativeScope
-*
-scope
-)
-;
 /
 /
 Gets
