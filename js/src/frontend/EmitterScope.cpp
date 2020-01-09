@@ -2549,12 +2549,6 @@ bce
 offset
 (
 )
-bce
--
->
-inPrologue
-(
-)
 enclosingInFrame
 (
 )
@@ -7253,12 +7247,6 @@ recordEnd
 (
 noteIndex_
 offset
-bce
--
->
-inPrologue
-(
-)
 )
 ;
 }
