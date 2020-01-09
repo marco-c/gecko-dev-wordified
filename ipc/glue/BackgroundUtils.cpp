@@ -2724,6 +2724,12 @@ GetFrameOuterWindowID
 aLoadInfo
 -
 >
+GetBrowsingContextID
+(
+)
+aLoadInfo
+-
+>
 GetEnforceSecurity
 (
 )
@@ -3677,6 +3683,11 @@ topOuterWindowID
 loadInfoArgs
 .
 frameOuterWindowID
+(
+)
+loadInfoArgs
+.
+browsingContextID
 (
 )
 loadInfoArgs
