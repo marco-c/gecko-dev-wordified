@@ -8875,9 +8875,8 @@ return
 BufferContents
 :
 :
-createPlain
+createFailed
 (
-nullptr
 )
 ;
 }
@@ -9153,9 +9152,8 @@ return
 BufferContents
 :
 :
-createPlain
+createFailed
 (
-nullptr
 )
 ;
 }
