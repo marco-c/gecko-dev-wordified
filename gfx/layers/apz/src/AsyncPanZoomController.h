@@ -154,6 +154,17 @@ include
 "
 mozilla
 /
+layers
+/
+ZoomConstraints
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Attributes
 .
 h
