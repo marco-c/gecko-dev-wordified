@@ -247,9 +247,9 @@ IPCResult
 Recv__delete__
 (
 const
-bool
+uint32_t
 &
-aTrackingResource
+aClassificationFlags
 )
 override
 ;
