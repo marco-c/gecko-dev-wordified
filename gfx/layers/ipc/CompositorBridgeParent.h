@@ -1979,6 +1979,9 @@ TimeStamp
 aCompositeStart
 TimeStamp
 &
+aRenderStart
+TimeStamp
+&
 aCompositeEnd
 wr
 :
