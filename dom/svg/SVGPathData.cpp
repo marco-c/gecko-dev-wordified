@@ -5697,6 +5697,11 @@ pathStartAngle
 .
 0f
 ;
+uint32_t
+pathStartIndex
+=
+0
+;
 /
 /
 info
@@ -5889,6 +5894,15 @@ i
 pathStart
 =
 segEnd
+;
+pathStartIndex
+=
+aMarks
+-
+>
+Length
+(
+)
 ;
 /
 /
@@ -8140,8 +8154,6 @@ LastElement
 .
 angle
 =
-/
-/
 aMarks
 -
 >
