@@ -244,10 +244,7 @@ nsTArray
 <
 RefPtr
 <
-css
-:
-:
-Rule
+BindingStyleRule
 >
 >
 &
