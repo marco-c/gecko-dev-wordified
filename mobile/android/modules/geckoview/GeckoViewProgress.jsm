@@ -893,6 +893,17 @@ nsIWebProgressListener
 .
 STATE_IS_BROKEN
 )
+|
+|
+(
+aState
+&
+Ci
+.
+nsIWebProgressListener
+.
+STATE_IS_INSECURE
+)
 )
 {
 result
