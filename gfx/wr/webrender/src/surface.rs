@@ -2172,6 +2172,8 @@ spatial_nodes
 raster_spatial_node_index
 .
 0
+as
+usize
 ]
 ;
 let
@@ -2185,6 +2187,8 @@ spatial_nodes
 surface_spatial_node_index
 .
 0
+as
+usize
 ]
 ;
 let

@@ -2589,6 +2589,8 @@ spatial_nodes
 node_index
 .
 0
+as
+usize
 ]
 ;
 match

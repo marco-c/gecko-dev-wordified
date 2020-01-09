@@ -934,6 +934,9 @@ let
 index
 =
 SpatialNodeIndex
+:
+:
+new
 (
 index
 )
@@ -1319,6 +1322,8 @@ spatial_nodes
 spatial_node_index
 .
 0
+as
+usize
 ]
 .
 world_viewport_transform
@@ -1489,6 +1494,8 @@ spatial_nodes
 spatial_node_index
 .
 0
+as
+usize
 ]
 ;
 let
@@ -1700,6 +1707,8 @@ spatial_nodes
 spatial_node_index
 .
 0
+as
+usize
 ]
 ;
 let
@@ -1998,6 +2007,8 @@ pipeline_id
 ]
 .
 0
+as
+usize
 ]
 ;
 let
@@ -2131,6 +2142,8 @@ pipeline_id
 ]
 .
 0
+as
+usize
 ]
 }
 /
