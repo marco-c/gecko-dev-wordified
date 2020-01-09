@@ -312,7 +312,9 @@ ok
 (
 notification
 .
-label
+messageText
+.
+textContent
 .
 includes
 (
@@ -336,7 +338,9 @@ ok
 (
 notification
 .
-label
+messageText
+.
+textContent
 .
 includes
 (
