@@ -2189,6 +2189,7 @@ pipelineMgr
 NotifyPipelinesUpdated
 (
 info
+aRender
 )
 ;
 layers
