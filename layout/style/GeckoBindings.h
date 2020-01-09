@@ -2156,6 +2156,9 @@ the
 table
 .
 const
+mozilla
+:
+:
 ServoElementSnapshot
 *
 Gecko_GetElementSnapshot
