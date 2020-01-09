@@ -9714,8 +9714,11 @@ AddIceCandidate
 :
 %
 s
+%
+s
 "
 aCandidate
+aUfrag
 )
 ;
 /
@@ -9884,6 +9887,7 @@ AddRemoteIceCandidate
 aCandidate
 aMid
 level
+aUfrag
 &
 transportId
 )
