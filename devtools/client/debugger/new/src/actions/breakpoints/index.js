@@ -101,7 +101,6 @@ getSelectedSource
 getBreakpointAtLocation
 getConditionalPanelLocation
 getBreakpointsForSource
-getSourceActors
 }
 from
 "

@@ -103,7 +103,6 @@ promise
 import
 {
 getSource
-getSourceActors
 getSymbols
 getFirstVisibleBreakpointPosition
 }
