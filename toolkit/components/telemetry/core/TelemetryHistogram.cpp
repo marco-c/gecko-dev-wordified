@@ -15968,6 +15968,12 @@ t
 go
 unnoticed
 .
+/
+/
+clang
+-
+format
+off
 static_assert
 (
 (
@@ -16158,6 +16164,12 @@ STARTUP_MEASUREMENT_ERRORS
 "
 )
 ;
+/
+/
+clang
+-
+format
+on
 gInitDone
 =
 true
