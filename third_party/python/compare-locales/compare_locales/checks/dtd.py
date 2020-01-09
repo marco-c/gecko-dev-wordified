@@ -982,6 +982,10 @@ as
 e
 :
             
+e
+#
+noqa
+            
 yield
 (
 '

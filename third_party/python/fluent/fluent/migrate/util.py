@@ -189,7 +189,7 @@ code
 return
 fluent_parser
 .
-get_pattern
+maybe_get_pattern
 (
 ps
 )

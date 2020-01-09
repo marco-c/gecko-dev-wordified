@@ -1184,7 +1184,8 @@ foo
         
 if
 offset
-is
+=
+=
 0
 and
 self

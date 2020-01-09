@@ -852,8 +852,6 @@ fullpath
         
 except
 IOError
-as
-err
 :
             
 error_message

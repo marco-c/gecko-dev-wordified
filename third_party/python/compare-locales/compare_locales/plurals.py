@@ -504,13 +504,15 @@ many
 other
 '
 )
-)
-CATEGORIES_EXCEPTIONS
-=
-{
     
-7
-:
+#
+19
+(
+Bosnian
+Croatian
+Serbian
+)
+    
 (
 '
 one
@@ -522,6 +524,10 @@ few
 other
 '
 )
+)
+CATEGORIES_EXCEPTIONS
+=
+{
 }
 CATEGORIES_BY_LOCALE
 =
@@ -679,9 +685,9 @@ CATEGORIES_BY_INDEX
 bs
 '
 :
-CATEGORIES_EXCEPTIONS
+CATEGORIES_BY_INDEX
 [
-7
+19
 ]
     
 '
@@ -1055,9 +1061,9 @@ CATEGORIES_BY_INDEX
 hr
 '
 :
-CATEGORIES_EXCEPTIONS
+CATEGORIES_BY_INDEX
 [
-7
+19
 ]
     
 '
@@ -1676,9 +1682,9 @@ CATEGORIES_BY_INDEX
 sr
 '
 :
-CATEGORIES_EXCEPTIONS
+CATEGORIES_BY_INDEX
 [
-7
+19
 ]
     
 '
