@@ -2541,7 +2541,6 @@ getAttribute
 uri
 "
 )
-null
 target
 .
 getAttribute

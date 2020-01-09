@@ -8689,6 +8689,7 @@ getAttribute
 image
 "
 )
+false
 )
 .
 then
