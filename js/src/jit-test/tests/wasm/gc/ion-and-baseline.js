@@ -254,7 +254,7 @@ tbl
 (
 table
 4
-anyfunc
+funcref
 )
 )
 (
@@ -420,7 +420,7 @@ tbl
 (
 table
 4
-anyfunc
+funcref
 )
 )
 (
@@ -603,7 +603,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )

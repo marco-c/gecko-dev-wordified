@@ -15088,7 +15088,7 @@ only
 tables
 of
 '
-anyfunc
+funcref
 '
 may
 have

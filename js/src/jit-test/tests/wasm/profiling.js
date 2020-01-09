@@ -235,7 +235,7 @@ bar
 )
 (
 table
-anyfunc
+funcref
 (
 elem
 bar
@@ -292,7 +292,7 @@ foo
 )
 (
 table
-anyfunc
+funcref
 (
 elem
 foo
@@ -1014,7 +1014,7 @@ good
 )
 (
 table
-anyfunc
+funcref
 (
 elem
 bar
@@ -1118,7 +1118,7 @@ const
 (
 table
 10
-anyfunc
+funcref
 )
 (
 elem
@@ -1464,7 +1464,7 @@ b
 (
 table
 10
-anyfunc
+funcref
 )
 )
 (

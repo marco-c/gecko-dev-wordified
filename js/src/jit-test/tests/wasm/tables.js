@@ -104,7 +104,7 @@ module
 (
 table
 10
-anyfunc
+funcref
 )
 (
 elem
@@ -133,7 +133,7 @@ module
 (
 table
 10
-anyfunc
+funcref
 )
 (
 func
@@ -166,7 +166,7 @@ module
 (
 table
 10
-anyfunc
+funcref
 )
 (
 func
@@ -207,7 +207,7 @@ module
 (
 table
 10
-anyfunc
+funcref
 )
 (
 elem
@@ -250,7 +250,7 @@ module
 (
 table
 10
-anyfunc
+funcref
 )
 (
 elem
@@ -295,7 +295,7 @@ module
 (
 table
 0
-anyfunc
+funcref
 )
 (
 func
@@ -334,7 +334,7 @@ module
 (
 table
 10
-anyfunc
+funcref
 )
 (
 import
@@ -397,7 +397,7 @@ module
 (
 table
 10
-anyfunc
+funcref
 )
 (
 import
@@ -461,7 +461,7 @@ module
 (
 table
 10
-anyfunc
+funcref
 )
 (
 elem
@@ -510,7 +510,7 @@ module
 (
 table
 10
-anyfunc
+funcref
 )
 (
 elem
@@ -554,7 +554,7 @@ module
 (
 table
 10
-anyfunc
+funcref
 )
 (
 import
@@ -613,7 +613,7 @@ module
 (
 table
 10
-anyfunc
+funcref
 )
 (
 import
@@ -686,7 +686,7 @@ table
 (
 table
 10
-anyfunc
+funcref
 )
 )
 (
@@ -734,7 +734,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -874,7 +874,7 @@ module
 (
 table
 10
-anyfunc
+funcref
 )
 {
 callee
@@ -940,7 +940,7 @@ module
 (
 table
 10
-anyfunc
+funcref
 )
 (
 elem
@@ -1015,7 +1015,7 @@ module
 (
 table
 10
-anyfunc
+funcref
 )
 (
 elem
@@ -1119,7 +1119,7 @@ module
 (
 table
 10
-anyfunc
+funcref
 )
 (
 elem
@@ -1310,7 +1310,7 @@ module
 (
 table
 10
-anyfunc
+funcref
 )
 (
 elem
@@ -1421,7 +1421,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -1444,7 +1444,7 @@ b
 (
 table
 3
-anyfunc
+funcref
 )
 )
 (
@@ -1588,7 +1588,7 @@ b
 (
 table
 3
-anyfunc
+funcref
 )
 )
 (
@@ -1748,7 +1748,7 @@ module
 (
 table
 10
-anyfunc
+funcref
 )
 (
 export
@@ -1892,7 +1892,7 @@ b
 (
 table
 10
-anyfunc
+funcref
 )
 )
 (
@@ -2078,7 +2078,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -2230,7 +2230,7 @@ b
 (
 table
 3
-anyfunc
+funcref
 )
 )
 {
@@ -2342,7 +2342,7 @@ tbl
 (
 table
 10
-anyfunc
+funcref
 )
 )
 (
@@ -2482,7 +2482,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -2765,7 +2765,7 @@ i32
 )
 (
 table
-anyfunc
+funcref
 (
 elem
 a
@@ -3274,7 +3274,7 @@ i32
 )
 (
 table
-anyfunc
+funcref
 (
 elem
 a
@@ -3538,7 +3538,7 @@ export
 tbl
 "
 )
-anyfunc
+funcref
 (
 elem
 f
@@ -3642,7 +3642,7 @@ t
 (
 table
 3
-anyfunc
+funcref
 )
 )
 (
@@ -3722,7 +3722,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -3794,7 +3794,7 @@ t
 (
 table
 3
-anyfunc
+funcref
 )
 )
 (
@@ -3964,7 +3964,7 @@ table
 /
 Type
 :
-Anyfunc
+FuncRef
 0x00
 /
 /

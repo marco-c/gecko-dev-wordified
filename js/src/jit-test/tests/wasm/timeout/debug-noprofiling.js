@@ -85,7 +85,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -123,7 +123,7 @@ t
 "
 (
 table1
-anyfunc
+funcref
 )
 )
 (
@@ -173,7 +173,7 @@ t
 "
 (
 table1
-anyfunc
+funcref
 )
 )
 (

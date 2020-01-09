@@ -230,7 +230,7 @@ i32
 table
 1
 1
-anyfunc
+funcref
 )
 (
 elem

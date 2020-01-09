@@ -84,7 +84,7 @@ module
 (
 table
 3
-anyfunc
+funcref
 )
 (
 import

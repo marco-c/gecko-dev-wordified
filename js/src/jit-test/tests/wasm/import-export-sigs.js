@@ -277,7 +277,7 @@ table
 (
 table
 0
-anyfunc
+funcref
 )
 )
 (

@@ -44,7 +44,7 @@ gc_feature_opt_in
 (
 table
 2
-anyfunc
+funcref
 )
 (
 elem

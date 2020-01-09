@@ -305,7 +305,7 @@ haveMemOrTable
 table
 30
 30
-anyfunc
+funcref
 )
 "
 :

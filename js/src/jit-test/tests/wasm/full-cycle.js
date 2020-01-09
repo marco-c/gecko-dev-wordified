@@ -551,7 +551,7 @@ table
 "
 )
 3
-anyfunc
+funcref
 )
 (
 type
@@ -667,7 +667,7 @@ Table
 element
 :
 '
-anyfunc
+funcref
 '
 initial
 :
@@ -694,7 +694,7 @@ table
 )
 3
 4
-anyfunc
+funcref
 )
 (
 type

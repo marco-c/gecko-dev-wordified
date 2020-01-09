@@ -412,7 +412,7 @@ const
 )
 (
 table
-anyfunc
+funcref
 (
 elem
 t1

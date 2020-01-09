@@ -1029,7 +1029,7 @@ f32
 (
 table
 4
-anyfunc
+funcref
 )
 (
 elem
@@ -1078,7 +1078,7 @@ tbl
 "
 )
 4
-anyfunc
+funcref
 )
 (
 elem

@@ -1322,7 +1322,7 @@ tbl
 "
 )
 1
-anyfunc
+funcref
 )
 (
 elem
@@ -1396,7 +1396,7 @@ tbl
 "
 )
 1
-anyfunc
+funcref
 )
 (
 elem
@@ -1457,7 +1457,7 @@ tbl
 "
 )
 1
-anyfunc
+funcref
 )
 (
 elem
@@ -1507,7 +1507,7 @@ tbl
 "
 )
 1
-anyfunc
+funcref
 )
 (
 elem
@@ -1593,7 +1593,7 @@ tbl
 (
 table
 1
-anyfunc
+funcref
 )
 )
 (
@@ -1670,7 +1670,7 @@ tbl
 (
 table
 1
-anyfunc
+funcref
 )
 )
 (
@@ -1734,7 +1734,7 @@ tbl
 (
 table
 1
-anyfunc
+funcref
 )
 )
 (
@@ -1787,7 +1787,7 @@ tbl
 (
 table
 1
-anyfunc
+funcref
 )
 )
 (
@@ -1890,7 +1890,7 @@ tbl
 "
 )
 1
-anyfunc
+funcref
 )
 (
 func
@@ -1974,7 +1974,7 @@ tbl
 "
 )
 1
-anyfunc
+funcref
 )
 (
 func
@@ -2042,7 +2042,7 @@ tbl
 "
 )
 1
-anyfunc
+funcref
 )
 (
 func
@@ -2102,7 +2102,7 @@ tbl
 "
 )
 1
-anyfunc
+funcref
 )
 (
 func
@@ -2202,7 +2202,7 @@ tbl
 (
 table
 1
-anyfunc
+funcref
 )
 )
 (
@@ -2289,7 +2289,7 @@ tbl
 (
 table
 1
-anyfunc
+funcref
 )
 )
 (
@@ -2360,7 +2360,7 @@ tbl
 (
 table
 1
-anyfunc
+funcref
 )
 )
 (
@@ -2423,7 +2423,7 @@ tbl
 (
 table
 1
-anyfunc
+funcref
 )
 )
 (
@@ -2515,7 +2515,7 @@ i32
 (
 table
 1
-anyfunc
+funcref
 )
 (
 elem

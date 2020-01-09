@@ -887,7 +887,7 @@ only
 tables
 of
 '
-anyfunc
+funcref
 '
 may
 have
@@ -992,7 +992,7 @@ only
 tables
 of
 '
-anyfunc
+funcref
 '
 may
 have
@@ -1068,7 +1068,7 @@ Table
 element
 :
 "
-anyfunc
+funcref
 "
 initial
 :
@@ -1171,7 +1171,7 @@ a
 table
 of
 '
-anyfunc
+funcref
 '
 /
 )
@@ -1785,12 +1785,12 @@ get
 on
 table
 of
-anyfunc
+funcref
 -
 fails
 validation
 because
-anyfunc
+funcref
 is
 not
 expressible
@@ -1820,7 +1820,7 @@ module
 (
 table
 10
-anyfunc
+funcref
 )
 (
 func
@@ -1887,7 +1887,7 @@ gc_feature_opt_in
 (
 table
 10
-anyfunc
+funcref
 )
 (
 func
@@ -2388,7 +2388,7 @@ set
 on
 table
 of
-anyfunc
+funcref
 -
 fails
 validation
@@ -2449,7 +2449,7 @@ gc_feature_opt_in
 (
 table
 10
-anyfunc
+funcref
 )
 (
 func
@@ -3067,7 +3067,7 @@ t
 grow
 table
 of
-anyfunc
+funcref
 yet
 assertErrorMessage
 (
@@ -3099,7 +3099,7 @@ below
 table
 t
 2
-anyfunc
+funcref
 )
 (
 func
@@ -3547,7 +3547,7 @@ size
 on
 table
 of
-anyfunc
+funcref
 {
 let
 ins
@@ -3565,7 +3565,7 @@ t
 "
 )
 2
-anyfunc
+funcref
 )
 (
 func
@@ -3806,7 +3806,7 @@ Table
 element
 :
 "
-anyfunc
+funcref
 "
 initial
 :

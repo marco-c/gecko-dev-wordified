@@ -130,7 +130,7 @@ min
 {
 max
 }
-anyfunc
+funcref
 )
 (
 elem
@@ -914,7 +914,7 @@ min
 {
 max
 }
-anyfunc
+funcref
 )
 (
 func
