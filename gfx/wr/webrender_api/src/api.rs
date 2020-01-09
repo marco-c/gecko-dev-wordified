@@ -5470,6 +5470,7 @@ linear_grad
 radial_grad
 picture
 text_run
+filterdata
 }
 }
 }
