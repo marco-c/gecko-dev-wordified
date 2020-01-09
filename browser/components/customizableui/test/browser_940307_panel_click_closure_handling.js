@@ -255,6 +255,8 @@ searchbar
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
