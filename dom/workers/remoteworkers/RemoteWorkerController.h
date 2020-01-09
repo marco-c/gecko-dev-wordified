@@ -136,6 +136,8 @@ dom
 /
 *
 Here
+'
+s
 a
 graph
 about
@@ -143,7 +145,7 @@ this
 remote
 workers
 are
-spawn
+spawned
 .
 *
 *
@@ -164,7 +166,8 @@ process
 IPC
 |
 Creation
-ofProcess
+of
+Process
 X
 |
 *
@@ -680,11 +683,11 @@ new
 one
 is
 *
-spawn
+spawned
 .
 If
 this
-happen
+happens
 the
 operation
 is

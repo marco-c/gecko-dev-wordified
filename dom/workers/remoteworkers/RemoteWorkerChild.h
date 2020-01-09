@@ -431,7 +431,8 @@ the
 owning
 thread
 (
-PBackground
+Worker
+Launcher
 )
 .
 WorkerState
@@ -446,7 +447,8 @@ the
 owning
 thread
 (
-PBackground
+Worker
+Launcher
 )
 .
 nsTArray
