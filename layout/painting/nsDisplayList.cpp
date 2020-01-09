@@ -39996,6 +39996,9 @@ StackingContextHelper
 sc
 (
 aSc
+GetActiveScrolledRoot
+(
+)
 aBuilder
 filters
 LayoutDeviceRect
@@ -40193,6 +40196,9 @@ StackingContextHelper
 sc
 (
 aSc
+GetActiveScrolledRoot
+(
+)
 aBuilder
 filters
 LayoutDeviceRect
@@ -40887,6 +40893,9 @@ StackingContextHelper
 sc
 (
 aSc
+GetActiveScrolledRoot
+(
+)
 aBuilder
 )
 ;
@@ -41494,6 +41503,9 @@ StackingContextHelper
 sc
 (
 aSc
+GetActiveScrolledRoot
+(
+)
 aBuilder
 nsTArray
 <
@@ -46209,6 +46221,9 @@ StackingContextHelper
 sc
 (
 aSc
+GetActiveScrolledRoot
+(
+)
 aBuilder
 )
 ;
@@ -52296,6 +52311,9 @@ StackingContextHelper
 sc
 (
 aSc
+GetActiveScrolledRoot
+(
+)
 aBuilder
 filters
 LayoutDeviceRect
@@ -56347,6 +56365,9 @@ StackingContextHelper
 sc
 (
 aSc
+GetActiveScrolledRoot
+(
+)
 aBuilder
 filters
 LayoutDeviceRect
@@ -60029,6 +60050,9 @@ layer
 emplace
 (
 aSc
+GetActiveScrolledRoot
+(
+)
 aBuilder
 /
 *
@@ -61823,6 +61847,9 @@ StackingContextHelper
 sc
 (
 aSc
+GetActiveScrolledRoot
+(
+)
 aBuilder
 wrFilters
 LayoutDeviceRect
