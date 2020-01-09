@@ -296,7 +296,7 @@ chooseItem
 =
 list
 .
-firstElementChild
+menupopup
 .
 querySelector
 (
@@ -569,7 +569,7 @@ manageItem
 =
 list
 .
-firstElementChild
+menupopup
 .
 querySelector
 (
