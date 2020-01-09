@@ -251,7 +251,7 @@ as
 BreakpointType
 Frame
 Source
-SourceLocation
+Location
 }
 from
 "
@@ -277,7 +277,7 @@ FormattedFrame
 Frame
 selectedLocation
 :
-SourceLocation
+Location
 }
 ;
 import
@@ -367,12 +367,6 @@ typeof
 actions
 .
 toggleBreakpoints
-toggleDisabledBreakpoint
-:
-typeof
-actions
-.
-toggleDisabledBreakpoint
 openConditionalPanel
 :
 typeof
@@ -1152,11 +1146,6 @@ toggleBreakpoints
 actions
 .
 toggleBreakpoints
-toggleDisabledBreakpoint
-:
-actions
-.
-toggleDisabledBreakpoint
 openConditionalPanel
 :
 actions

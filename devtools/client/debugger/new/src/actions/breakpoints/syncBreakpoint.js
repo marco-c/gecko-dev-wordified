@@ -164,7 +164,7 @@ types
 import
 type
 {
-SourceLocation
+Location
 ASTLocation
 PendingBreakpoint
 SourceId
@@ -187,7 +187,7 @@ BreakpointSyncData
 {
 previousLocation
 :
-SourceLocation
+Location
 breakpoint
 :
 ?
@@ -206,7 +206,7 @@ offset
 ASTLocation
 location
 :
-SourceLocation
+Location
 source
 )
 {
@@ -306,13 +306,13 @@ pendingBreakpoint
 PendingBreakpoint
 location
 :
-SourceLocation
+Location
 generatedLocation
 :
-SourceLocation
+Location
 previousLocation
 :
-SourceLocation
+Location
 text
 :
 string

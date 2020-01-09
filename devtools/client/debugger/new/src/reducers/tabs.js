@@ -174,7 +174,6 @@ from
 types
 "
 ;
-export
 type
 Tab
 =

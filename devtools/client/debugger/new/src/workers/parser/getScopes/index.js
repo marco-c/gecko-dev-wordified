@@ -104,7 +104,7 @@ BindingType
 import
 type
 {
-SourceLocation
+Location
 }
 from
 "
@@ -135,7 +135,7 @@ getScopes
 (
 location
 :
-SourceLocation
+Location
 )
 :
 SourceScope
@@ -240,7 +240,7 @@ ParsedScope
 ]
 location
 :
-SourceLocation
+Location
 )
 :
 SourceScope
@@ -410,10 +410,10 @@ compareLocations
 (
 a
 :
-SourceLocation
+Location
 b
 :
-SourceLocation
+Location
 )
 :
 number

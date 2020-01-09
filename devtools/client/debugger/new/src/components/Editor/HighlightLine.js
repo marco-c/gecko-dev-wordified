@@ -161,7 +161,7 @@ import
 type
 {
 Frame
-SourceLocation
+Location
 Source
 }
 from
@@ -205,7 +205,7 @@ selectedFrame
 Frame
 selectedLocation
 :
-SourceLocation
+Location
 selectedSource
 :
 Source
@@ -219,7 +219,7 @@ selectedFrame
 Frame
 selectedLocation
 :
-SourceLocation
+Location
 )
 {
 if
@@ -336,7 +336,7 @@ shouldSetHighlightLine
 (
 selectedLocation
 :
-SourceLocation
+Location
 selectedSource
 :
 Source
@@ -462,7 +462,7 @@ setHighlightLine
 (
 selectedLocation
 :
-SourceLocation
+Location
 selectedFrame
 :
 Frame
@@ -559,7 +559,7 @@ clearHighlightLine
 (
 selectedLocation
 :
-SourceLocation
+Location
 selectedSource
 :
 Source

@@ -281,8 +281,6 @@ pausePoint
 !
 pausePoint
 .
-types
-.
 step
 ;
 /

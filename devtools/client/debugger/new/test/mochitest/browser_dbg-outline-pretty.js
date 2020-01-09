@@ -98,9 +98,6 @@ scripts
 .
 html
 "
-"
-simple1
-"
 )
 ;
 const

@@ -61,9 +61,6 @@ scripts
 .
 html
 "
-"
-simple2
-"
 )
 ;
 let

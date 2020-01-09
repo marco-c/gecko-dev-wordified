@@ -59,13 +59,6 @@ minified
 .
 html
 "
-"
-math
-.
-min
-.
-js
-"
 )
 ;
 await

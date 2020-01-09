@@ -280,8 +280,8 @@ selectors
 import
 type
 {
-SourceLocation
-PartialPosition
+Location
+Position
 Source
 }
 from
@@ -318,7 +318,7 @@ source
 Source
 location
 :
-SourceLocation
+Location
 )
 =
 >
@@ -457,7 +457,7 @@ url
 string
 options
 :
-PartialPosition
+Position
 =
 {
 line
@@ -615,7 +615,7 @@ selectLocation
 (
 location
 :
-SourceLocation
+Location
 {
 keepContext
 =
@@ -1062,7 +1062,7 @@ selectSpecificLocation
 (
 location
 :
-SourceLocation
+Location
 )
 {
 return
@@ -1095,7 +1095,7 @@ jumpToMappedLocation
 (
 location
 :
-SourceLocation
+Location
 )
 {
 return

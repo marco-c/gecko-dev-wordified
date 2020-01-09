@@ -64,7 +64,7 @@ flow
 import
 type
 {
-Position
+ColumnPosition
 }
 from
 "
@@ -104,7 +104,7 @@ line
 column
 }
 :
-Position
+ColumnPosition
 )
 :
 Token
@@ -214,7 +214,7 @@ cm
 any
 coord
 :
-Position
+ColumnPosition
 )
 {
 const

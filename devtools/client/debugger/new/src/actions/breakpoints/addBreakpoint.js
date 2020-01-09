@@ -473,7 +473,7 @@ addHiddenBreakpoint
 (
 location
 :
-SourceLocation
+Location
 )
 {
 return
@@ -533,7 +533,7 @@ static
 *
 param
 {
-SourceLocation
+Location
 }
 1
 .
@@ -548,7 +548,7 @@ enableBreakpoint
 (
 location
 :
-SourceLocation
+Location
 )
 {
 return
@@ -695,7 +695,7 @@ addBreakpoint
 (
 location
 :
-SourceLocation
+Location
 {
 condition
 hidden

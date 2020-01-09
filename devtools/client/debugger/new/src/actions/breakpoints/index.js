@@ -224,7 +224,7 @@ import
 type
 {
 Breakpoint
-SourceLocation
+Location
 XHRBreakpoint
 }
 from
@@ -293,7 +293,7 @@ removeBreakpoint
 (
 location
 :
-SourceLocation
+Location
 )
 {
 return
@@ -465,7 +465,7 @@ disableBreakpoint
 (
 location
 :
-SourceLocation
+Location
 )
 {
 return
@@ -1051,7 +1051,7 @@ static
 *
 param
 {
-SourceLocation
+Location
 }
 location
 *
@@ -1096,7 +1096,7 @@ setBreakpointCondition
 (
 location
 :
-SourceLocation
+Location
 {
 condition
 }

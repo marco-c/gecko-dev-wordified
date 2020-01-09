@@ -85,11 +85,6 @@ scripts
 .
 html
 "
-"
-long
-.
-js
-"
 )
 ;
 const
