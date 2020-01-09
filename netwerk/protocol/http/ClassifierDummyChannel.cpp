@@ -114,7 +114,7 @@ MPL
 #
 include
 "
-TrackingDummyChannel
+ClassifierDummyChannel
 .
 h
 "
@@ -134,7 +134,7 @@ mozilla
 /
 net
 /
-TrackingDummyChannelChild
+ClassifierDummyChannelChild
 .
 h
 "
@@ -161,6 +161,13 @@ h
 #
 include
 "
+nsContentSecurityManager
+.
+h
+"
+#
+include
+"
 nsIChannel
 .
 h
@@ -179,6 +186,13 @@ nsProxyRelease
 .
 h
 "
+#
+include
+"
+nsQueryObject
+.
+h
+"
 namespace
 mozilla
 {
@@ -190,11 +204,11 @@ net
 static
 *
 /
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 StorageAllowedState
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 StorageAllowed
@@ -377,12 +391,18 @@ privacy_trackingprotection_annotate_channels
 )
 )
 {
+dom
+:
+:
 ContentChild
 *
 cc
 =
 static_cast
 <
+dom
+:
+:
 ContentChild
 *
 >
@@ -412,7 +432,7 @@ eStorageDenied
 if
 (
 !
-TrackingDummyChannelChild
+ClassifierDummyChannelChild
 :
 :
 Create
@@ -454,15 +474,15 @@ eStorageDenied
 }
 NS_IMPL_ADDREF
 (
-TrackingDummyChannel
+ClassifierDummyChannel
 )
 NS_IMPL_RELEASE
 (
-TrackingDummyChannel
+ClassifierDummyChannel
 )
 NS_INTERFACE_MAP_BEGIN
 (
-TrackingDummyChannel
+ClassifierDummyChannel
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -478,13 +498,13 @@ nsIHttpChannelInternal
 )
 NS_INTERFACE_MAP_ENTRY_CONCRETE
 (
-TrackingDummyChannel
+ClassifierDummyChannel
 )
 NS_INTERFACE_MAP_END
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
-TrackingDummyChannel
+ClassifierDummyChannel
 (
 nsIURI
 *
@@ -530,18 +550,18 @@ aLoadInfo
 )
 ;
 }
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 ~
-TrackingDummyChannel
+ClassifierDummyChannel
 (
 )
 {
 NS_ReleaseOnMainThreadSystemGroup
 (
 "
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 mLoadInfo
@@ -556,7 +576,7 @@ forget
 NS_ReleaseOnMainThreadSystemGroup
 (
 "
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 mURI
@@ -571,7 +591,7 @@ forget
 NS_ReleaseOnMainThreadSystemGroup
 (
 "
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 mTopWindowURI
@@ -585,7 +605,7 @@ forget
 ;
 }
 uint32_t
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 ClassificationFlags
@@ -598,7 +618,7 @@ mClassificationFlags
 ;
 }
 void
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 AddClassificationFlags
@@ -694,7 +714,7 @@ aClassificationFlags
 -
 /
 /
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 nsIChannel
@@ -778,7 +798,7 @@ nsIChannel
 -
 -
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetOriginalURI
@@ -802,7 +822,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetOriginalURI
@@ -821,7 +841,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetURI
@@ -845,7 +865,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetOwner
@@ -861,7 +881,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetOwner
@@ -876,7 +896,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetNotificationCallbacks
@@ -892,7 +912,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetNotificationCallbacks
@@ -907,7 +927,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetSecurityInfo
@@ -923,7 +943,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetContentType
@@ -938,7 +958,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetContentType
@@ -954,7 +974,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetContentCharset
@@ -969,7 +989,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetContentCharset
@@ -985,7 +1005,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetContentLength
@@ -1000,7 +1020,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetContentLength
@@ -1014,7 +1034,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 Open
@@ -1054,7 +1074,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 AsyncOpen
@@ -1098,7 +1118,7 @@ listener
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetContentDisposition
@@ -1113,7 +1133,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetContentDisposition
@@ -1127,7 +1147,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetContentDispositionFilename
@@ -1142,7 +1162,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetContentDispositionFilename
@@ -1158,7 +1178,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetContentDispositionHeader
@@ -1173,7 +1193,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetLoadInfo
@@ -1197,7 +1217,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetLoadInfo
@@ -1309,7 +1329,7 @@ NS_OK
 -
 /
 /
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 nsIRequest
@@ -1393,7 +1413,7 @@ nsIRequest
 -
 -
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetName
@@ -1408,7 +1428,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 IsPending
@@ -1423,7 +1443,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetStatus
@@ -1438,7 +1458,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 Cancel
@@ -1452,7 +1472,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 Suspend
@@ -1464,7 +1484,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 Resume
@@ -1476,7 +1496,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetLoadGroup
@@ -1492,7 +1512,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetLoadGroup
@@ -1507,7 +1527,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetLoadFlags
@@ -1522,7 +1542,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetLoadFlags
@@ -1536,7 +1556,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetIsDocument
@@ -1631,7 +1651,7 @@ NS_ERROR_NOT_IMPLEMENTED
 -
 /
 /
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 nsIHttpChannelInternal
@@ -1715,7 +1735,7 @@ nsIHttpChannelInternal
 -
 -
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetDocumentURI
@@ -1731,7 +1751,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetDocumentURI
@@ -1746,7 +1766,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetRequestVersion
@@ -1764,7 +1784,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetResponseVersion
@@ -1782,7 +1802,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 TakeAllSecurityMessages
@@ -1800,7 +1820,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetCookie
@@ -1816,7 +1836,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetupFallbackChannel
@@ -1832,7 +1852,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetThirdPartyFlags
@@ -1847,7 +1867,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetThirdPartyFlags
@@ -1861,7 +1881,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetForceAllowThirdPartyCookie
@@ -1876,7 +1896,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetForceAllowThirdPartyCookie
@@ -1890,7 +1910,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetCanceled
@@ -1905,7 +1925,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetChannelIsForDownload
@@ -1920,7 +1940,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetChannelIsForDownload
@@ -1934,7 +1954,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetLocalAddress
@@ -1949,7 +1969,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetLocalPort
@@ -1964,7 +1984,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetRemoteAddress
@@ -1979,7 +1999,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetRemotePort
@@ -1994,7 +2014,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetCacheKeysRedirectChain
@@ -2012,7 +2032,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 HTTPUpgrade
@@ -2031,7 +2051,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetOnlyConnect
@@ -2046,7 +2066,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetConnectOnly
@@ -2058,7 +2078,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetAllowSpdy
@@ -2073,7 +2093,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetAllowSpdy
@@ -2087,7 +2107,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetResponseTimeoutEnabled
@@ -2102,7 +2122,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetResponseTimeoutEnabled
@@ -2116,7 +2136,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetInitialRwin
@@ -2131,7 +2151,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetInitialRwin
@@ -2145,7 +2165,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetApiRedirectToURI
@@ -2161,7 +2181,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetAllowAltSvc
@@ -2176,7 +2196,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetAllowAltSvc
@@ -2190,7 +2210,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetBeConservative
@@ -2205,7 +2225,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetBeConservative
@@ -2219,7 +2239,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetTrr
@@ -2234,7 +2254,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetTrr
@@ -2248,7 +2268,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetTlsFlags
@@ -2263,7 +2283,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetTlsFlags
@@ -2277,7 +2297,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetLastModifiedTime
@@ -2292,7 +2312,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetCorsIncludeCredentials
@@ -2307,7 +2327,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetCorsIncludeCredentials
@@ -2321,7 +2341,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetCorsMode
@@ -2336,7 +2356,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetCorsMode
@@ -2350,7 +2370,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetRedirectMode
@@ -2365,7 +2385,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetRedirectMode
@@ -2379,7 +2399,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetFetchCacheMode
@@ -2394,7 +2414,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetFetchCacheMode
@@ -2408,7 +2428,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetTopWindowURI
@@ -2439,7 +2459,7 @@ mTopWindowURIResult
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetTopWindowURIIfUnknown
@@ -2454,7 +2474,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetTopWindowPrincipal
@@ -2469,7 +2489,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetProxyURI
@@ -2485,7 +2505,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 void
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetCorsPreflightParameters
@@ -2501,7 +2521,7 @@ aUnsafeHeaders
 {
 }
 void
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetAltDataForChild
@@ -2512,7 +2532,7 @@ aIsForChild
 {
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetBlockAuthPrompt
@@ -2527,7 +2547,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetBlockAuthPrompt
@@ -2541,7 +2561,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetIntegrityMetadata
@@ -2556,7 +2576,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetIntegrityMetadata
@@ -2572,7 +2592,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetConnectionInfoHashKey
@@ -2587,7 +2607,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetLastRedirectFlags
@@ -2602,7 +2622,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetLastRedirectFlags
@@ -2616,7 +2636,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 GetNavigationStartTimeStamp
@@ -2631,7 +2651,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetNavigationStartTimeStamp
@@ -2645,7 +2665,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 CancelByChannelClassifier
@@ -2659,7 +2679,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 void
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetIPv4Disabled
@@ -2668,7 +2688,7 @@ SetIPv4Disabled
 {
 }
 void
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 SetIPv6Disabled

@@ -584,7 +584,7 @@ h
 #
 include
 "
-TrackingDummyChannel
+ClassifierDummyChannel
 .
 h
 "
@@ -16029,13 +16029,13 @@ NotifyController
 ;
 }
 ;
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 StorageAllowedState
 state
 =
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 StorageAllowed
@@ -16049,7 +16049,7 @@ if
 state
 =
 =
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 eStorageGranted
@@ -16069,7 +16069,7 @@ if
 state
 =
 =
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 eAsyncNeeded
@@ -16094,7 +16094,7 @@ MOZ_ASSERT
 state
 =
 =
-TrackingDummyChannel
+ClassifierDummyChannel
 :
 :
 eStorageDenied

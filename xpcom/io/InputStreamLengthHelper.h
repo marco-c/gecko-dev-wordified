@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+mozilla_InputStreamLengthHelper_h
+#
+define
+mozilla_InputStreamLengthHelper_h
+#
 include
 "
 nsISupportsImpl
@@ -316,3 +322,8 @@ mCallback
 /
 namespace
 mozilla
+#
+endif
+/
+/
+mozilla_InputStreamLengthHelper_h
