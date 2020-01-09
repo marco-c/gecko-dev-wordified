@@ -300,6 +300,13 @@ className
 default
 -
 checkbox
+js
+-
+extension
+-
+debug
+-
+checkbox
 "
 checked
 :
