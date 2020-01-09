@@ -76,6 +76,12 @@ tempfile
 mkdtemp
 (
 )
+            
+self
+.
+skip_virtualenv_setup
+=
+False
         
 def
 create
