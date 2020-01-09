@@ -289,6 +289,12 @@ void
 aArg
 )
 ;
+static
+void
+RemoveExecutableCrashAnnotation
+(
+)
+;
 void
 ProcessComplete
 (
@@ -360,6 +366,11 @@ bool
 aHoldWeak
 bool
 aArgsUTF8
+)
+;
+void
+AddExecutableCrashAnnotation
+(
 )
 ;
 PRThread
