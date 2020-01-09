@@ -342,6 +342,8 @@ getStr
 "
 toggleCondPanel
 .
+breakpoint
+.
 key
 "
 )
@@ -426,6 +428,8 @@ getStr
 (
 "
 toggleCondPanel
+.
+breakpoint
 .
 key
 "
@@ -586,6 +590,8 @@ getStr
 "
 toggleCondPanel
 .
+logPoint
+.
 key
 "
 )
@@ -671,6 +677,8 @@ getStr
 (
 "
 toggleCondPanel
+.
+logPoint
 .
 key
 "
