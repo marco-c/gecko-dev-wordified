@@ -416,9 +416,6 @@ ComputedStyle
 :
 ComputedStyle
 (
-nsPresContext
-*
-aPresContext
 nsAtom
 *
 aPseudoTag

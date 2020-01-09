@@ -528,9 +528,6 @@ public
 :
 ComputedStyle
 (
-nsPresContext
-*
-aPresContext
 nsAtom
 *
 aPseudoTag

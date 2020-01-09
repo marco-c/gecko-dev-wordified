@@ -534,8 +534,6 @@ mozilla
 ComputedStyle
 *
 context
-RawGeckoPresContextBorrowed
-pres_context
 ServoComputedDataBorrowed
 values
 mozilla

@@ -20580,10 +20580,6 @@ new
 (
 _
 :
-&
-Device
-_
-:
 Option
 <
 <
@@ -26270,9 +26266,6 @@ ComputedValues
 :
 new
 (
-self
-.
-device
 self
 .
 pseudo
