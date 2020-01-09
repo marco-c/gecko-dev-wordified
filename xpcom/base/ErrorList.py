@@ -10219,6 +10219,18 @@ FAILURE
 41
 )
     
+errors
+[
+"
+NS_ERROR_CRYPTOMINING_URI
+"
+]
+=
+FAILURE
+(
+42
+)
+    
 #
 Used
 when
