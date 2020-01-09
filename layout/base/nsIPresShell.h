@@ -10944,12 +10944,7 @@ nsPoint
 &
 aScrollOffset
 )
-{
-mVisualViewportOffset
-=
-aScrollOffset
 ;
-}
 nsPoint
 GetVisualViewportOffset
 (
