@@ -69382,7 +69382,7 @@ aScrollOffset
 const
 nsPoint
 &
-aPrevRelativeOffset
+aPrevLayoutScrollPos
 )
 {
 if
@@ -69393,6 +69393,11 @@ mVisualViewportOffset
 aScrollOffset
 )
 {
+nsPoint
+prevOffset
+=
+mVisualViewportOffset
+;
 mVisualViewportOffset
 =
 aScrollOffset
@@ -69427,7 +69432,8 @@ VisualViewport
 >
 PostScrollEvent
 (
-aPrevRelativeOffset
+prevOffset
+aPrevLayoutScrollPos
 )
 ;
 }

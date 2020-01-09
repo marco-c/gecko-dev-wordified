@@ -1510,7 +1510,7 @@ GetScrollOffset
 shell
 -
 >
-GetVisualViewportOffsetRelativeToLayoutViewport
+GetLayoutViewportOffset
 (
 )
 )

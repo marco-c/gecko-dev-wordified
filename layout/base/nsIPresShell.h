@@ -10946,7 +10946,7 @@ aScrollOffset
 const
 nsPoint
 &
-aPrevRelativeOffset
+aPrevLayoutScrollPos
 )
 ;
 nsPoint

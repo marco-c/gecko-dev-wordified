@@ -444,6 +444,14 @@ NS_EVENT_MESSAGE
 (
 eScroll
 )
+NS_EVENT_MESSAGE
+(
+eMozVisualResize
+)
+NS_EVENT_MESSAGE
+(
+eMozVisualScroll
+)
 /
 /
 Application

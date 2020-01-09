@@ -19598,6 +19598,32 @@ ondevicechange
 )
     
 #
+Internal
+Visual
+Viewport
+events
+    
+Atom
+(
+"
+onmozvisualresize
+"
+"
+onmozvisualresize
+"
+)
+    
+Atom
+(
+"
+onmozvisualscroll
+"
+"
+onmozvisualscroll
+"
+)
+    
+#
 WebExtensions
     
 Atom
