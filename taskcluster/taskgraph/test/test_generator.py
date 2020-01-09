@@ -376,6 +376,17 @@ root_dir
     
 return
 {
+'
+trust
+-
+domain
+'
+:
+'
+test
+-
+domain
+'
 }
 class
 FakeParameters
