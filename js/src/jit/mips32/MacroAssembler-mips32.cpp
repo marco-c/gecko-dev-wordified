@@ -12034,6 +12034,17 @@ bailout
 tail
 stub
 .
+Load
+1
+(
+true
+)
+in
+ReturnReg
+to
+indicate
+success
+.
 bind
 (
 &
@@ -12059,7 +12070,7 @@ ma_li
 ReturnReg
 Imm32
 (
-BAILOUT_RETURN_OK
+1
 )
 )
 ;

@@ -4316,7 +4316,8 @@ bailoutKind
 ;
 }
 ;
-uint32_t
+MOZ_MUST_USE
+bool
 BailoutIonToBaseline
 (
 JSContext
