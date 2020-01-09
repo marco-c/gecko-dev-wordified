@@ -902,7 +902,7 @@ if
 (
 prefs
 .
-expressionsVisible
+xhrBreakpointsVisible
 )
 {
 evt
