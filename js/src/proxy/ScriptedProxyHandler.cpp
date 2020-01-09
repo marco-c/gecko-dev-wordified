@@ -8758,18 +8758,6 @@ ProxyObject
 )
 )
 ;
-HandlePropertyName
-funName
-=
-cx
--
->
-names
-(
-)
-.
-revoke
-;
 RootedFunction
 revoker
 (
@@ -8779,7 +8767,7 @@ NewNativeFunction
 cx
 RevokeProxy
 0
-funName
+nullptr
 gc
 :
 :
