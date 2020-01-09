@@ -624,7 +624,16 @@ Clear
 ErrorResult
 rv
 ;
+RefPtr
+<
+PerformanceObserverCallback
+>
+callback
+(
 mCallback
+)
+;
+callback
 -
 >
 Call

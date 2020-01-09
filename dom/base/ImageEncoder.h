@@ -877,6 +877,7 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 EncodeCompleteCallback
 )
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 ReceiveBlob

@@ -125,6 +125,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 IntersectionObserverBinding
@@ -757,6 +766,7 @@ DOMHighResTimeStamp
 time
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Notify
 (

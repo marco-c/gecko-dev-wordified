@@ -123,6 +123,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ErrorResult
 .
 h
@@ -172,6 +181,7 @@ SessionStoreUtils
 {
 public
 :
+MOZ_CAN_RUN_SCRIPT
 static
 void
 ForEachNonDynamicChildFrame

@@ -2607,7 +2607,16 @@ aOutput
 )
 const
 {
+RefPtr
+<
+WebExtensionLocalizeCallback
+>
+callback
+(
 mLocalizeCallback
+)
+;
+callback
 -
 >
 Call

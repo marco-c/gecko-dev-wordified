@@ -570,6 +570,7 @@ BackgroundPageHTML
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Localize
 (
