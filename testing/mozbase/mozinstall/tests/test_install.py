@@ -616,6 +616,13 @@ info
 '
 ]
 )
+.
+decode
+(
+'
+ascii
+'
+)
         
 assert
 get_installer
