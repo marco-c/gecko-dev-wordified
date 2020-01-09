@@ -2048,6 +2048,17 @@ value
 is
 a
 BigInt
+and
+to
+pass
+the
+BigInt
+/
+/
+primitive
+value
+as
+receiver
 .
 if
 (
@@ -2102,7 +2113,7 @@ GetProperty
 (
 cx
 obj
-obj
+vp
 cx
 -
 >
