@@ -107,8 +107,6 @@ errno
 import
 os
 import
-subprocess
-import
 sys
 import
 json
