@@ -11444,6 +11444,9 @@ Shadow
 blur_radius
 offset
 color
+should_inflate
+:
+true
 }
 )
 ;

@@ -5723,6 +5723,9 @@ new
 .
 0
 )
+should_inflate
+:
+true
 }
 )
 ;
@@ -6183,6 +6186,9 @@ blur_radius
 color
 :
 shadow_color
+should_inflate
+:
+true
 }
 )
 ;
