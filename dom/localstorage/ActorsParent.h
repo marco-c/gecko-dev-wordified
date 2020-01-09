@@ -169,6 +169,11 @@ Client
 /
 namespace
 quota
+void
+InitializeLocalStorage
+(
+)
+;
 PBackgroundLSDatabaseParent
 *
 AllocPBackgroundLSDatabaseParent
