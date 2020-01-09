@@ -2639,6 +2639,12 @@ process
 class
 WatchdogManager
 ;
+/
+/
+clang
+-
+format
+off
 MOZ_DEFINE_ENUM
 (
 WatchdogTimestampCategory
@@ -2650,6 +2656,12 @@ TimestampContextStateChange
 )
 )
 ;
+/
+/
+clang
+-
+format
+on
 class
 AsyncFreeSnowWhite
 ;
