@@ -12885,6 +12885,13 @@ _onCommand
 event
 )
 {
+event
+=
+getRootEvent
+(
+event
+)
+;
 let
 button
 =
