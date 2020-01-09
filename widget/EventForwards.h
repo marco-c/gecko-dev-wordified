@@ -856,6 +856,12 @@ EditorInputType
 :
 eInsertLink
 :
+case
+EditorInputType
+:
+:
+eFormatFontName
+:
 return
 true
 ;
