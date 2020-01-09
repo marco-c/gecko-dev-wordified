@@ -17,11 +17,15 @@ argparse
 import
 collections
 import
-ConfigParser
-import
 multiprocessing
 import
 time
+from
+six
+.
+moves
+import
+configparser
 ProcessNode
 =
 collections
@@ -575,7 +579,7 @@ children
         
 cfgparser
 =
-ConfigParser
+configparser
 .
 ConfigParser
 (
@@ -656,7 +660,7 @@ section
 :
                 
 raise
-ConfigParser
+configparser
 .
 ParsingError
 (
@@ -924,7 +928,7 @@ sections
 :
                                 
 raise
-ConfigParser
+configparser
 .
 ParsingError
 (
@@ -973,7 +977,7 @@ child
 )
             
 except
-ConfigParser
+configparser
 .
 NoOptionError
 :
