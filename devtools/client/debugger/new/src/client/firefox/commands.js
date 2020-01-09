@@ -323,6 +323,7 @@ request
 (
 packet
 )
+;
 }
 function
 lookupThreadClient
