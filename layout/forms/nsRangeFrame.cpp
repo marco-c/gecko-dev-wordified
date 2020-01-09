@@ -5408,9 +5408,9 @@ aRenderingContext
 )
 {
 return
-nscoord
+GetPrefISize
 (
-0
+aRenderingContext
 )
 ;
 }
