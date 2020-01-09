@@ -207,6 +207,12 @@ GetCurrentThreadWorkerGlobal
 (
 )
 ;
+JSObject
+*
+GetCurrentThreadWorkerDebuggerGlobal
+(
+)
+;
 void
 CancelWorkersForWindow
 (
