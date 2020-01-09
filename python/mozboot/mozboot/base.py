@@ -4706,7 +4706,6 @@ self
 ensure_rust_targets
 (
 rustup
-version
 )
             
 return
@@ -4867,7 +4866,6 @@ ensure_rust_targets
 (
 self
 rustup
-rust_version
 )
 :
         
@@ -5048,34 +5046,9 @@ common
 targets
 .
             
-if
-LooseVersion
+android_targets
+=
 (
-rust_version
-)
-<
-'
-1
-.
-33
-'
-:
-                
-arm_target
-=
-'
-armv7
--
-linux
--
-androideabi
-'
-            
-else
-:
-                
-arm_target
-=
 '
 thumbv7neon
 -
@@ -5083,11 +5056,6 @@ linux
 -
 androideabi
 '
-            
-android_targets
-=
-(
-arm_target
                                
 '
 aarch64
