@@ -6294,10 +6294,6 @@ Cascade
 from_stylesheets
 (
 stylesheets
-.
-clone
-(
-)
 guards
 &
 device
