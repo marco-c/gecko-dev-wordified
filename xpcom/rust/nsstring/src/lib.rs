@@ -9201,7 +9201,6 @@ self
 }
 /
 /
-/
 This
 trait
 is
@@ -9214,7 +9213,6 @@ Latin1
 nsCString
 -
 like
-/
 /
 /
 in
@@ -9230,7 +9228,6 @@ converted
 to
 a
 borrowed
-/
 /
 /
 &
@@ -9252,8 +9249,6 @@ system
 /
 /
 /
-/
-/
 This
 trait
 is
@@ -9265,7 +9260,6 @@ calling
 the
 methods
 on
-/
 /
 /
 nsACString
