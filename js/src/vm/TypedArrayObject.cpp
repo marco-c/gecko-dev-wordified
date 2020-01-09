@@ -629,7 +629,7 @@ cx
 ArrayBufferObject
 :
 :
-create
+createZeroed
 (
 cx
 tarray
@@ -5814,7 +5814,7 @@ buf
 ArrayBufferObject
 :
 :
-create
+createZeroed
 (
 cx
 byteLength

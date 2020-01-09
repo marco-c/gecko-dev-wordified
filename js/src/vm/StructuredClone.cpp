@@ -13531,7 +13531,7 @@ obj
 ArrayBufferObject
 :
 :
-create
+createZeroed
 (
 context
 (
@@ -14226,7 +14226,7 @@ obj
 ArrayBufferObject
 :
 :
-create
+createZeroed
 (
 context
 (
