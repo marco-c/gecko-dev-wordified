@@ -313,6 +313,11 @@ RegisteredProxy
 =
 delete
 ;
+void
+Clear
+(
+)
+;
 static
 void
 AddToRegistry
