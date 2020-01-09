@@ -21,9 +21,6 @@ INNER_SIZE
 }
 ;
 use
-crate
-:
-:
 packed_option
 :
 :
@@ -37,13 +34,13 @@ test
 )
 ]
 use
-core
+std
 :
 :
 fmt
 ;
 use
-core
+std
 :
 :
 marker
@@ -1526,9 +1523,6 @@ clippy
 "
 allow
 (
-clippy
-:
-:
 should_implement_trait
 )
 )
@@ -2593,7 +2587,7 @@ super
 *
 ;
 use
-core
+std
 :
 :
 mem

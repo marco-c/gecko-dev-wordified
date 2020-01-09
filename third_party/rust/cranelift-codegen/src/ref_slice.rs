@@ -86,7 +86,7 @@ completely
 safe
 .
 use
-core
+std
 :
 :
 slice

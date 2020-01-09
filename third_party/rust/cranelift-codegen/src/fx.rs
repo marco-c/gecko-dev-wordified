@@ -141,7 +141,10 @@ those
 terms
 .
 use
-super
+std
+:
+:
+collections
 :
 :
 {
@@ -150,7 +153,7 @@ HashSet
 }
 ;
 use
-core
+std
 :
 :
 default
@@ -159,7 +162,7 @@ default
 Default
 ;
 use
-core
+std
 :
 :
 hash
@@ -172,7 +175,7 @@ Hasher
 }
 ;
 use
-core
+std
 :
 :
 ops

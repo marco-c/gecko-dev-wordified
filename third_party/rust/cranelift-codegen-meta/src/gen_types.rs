@@ -83,9 +83,6 @@ type
 numbering
 .
 use
-crate
-:
-:
 cdsl
 :
 :
@@ -94,15 +91,9 @@ as
 cdsl_types
 ;
 use
-crate
-:
-:
 error
 ;
 use
-crate
-:
-:
 srcgen
 ;
 /

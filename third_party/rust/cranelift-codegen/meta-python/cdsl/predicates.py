@@ -1752,7 +1752,6 @@ args
         
 return
 '
-crate
 :
 :
 predicates
@@ -1765,8 +1764,6 @@ predicates
 }
 )
 '
-\
-            
 .
 format
 (

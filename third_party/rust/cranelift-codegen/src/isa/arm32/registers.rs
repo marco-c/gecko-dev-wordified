@@ -6,9 +6,6 @@ register
 descriptions
 .
 use
-crate
-:
-:
 isa
 :
 :
@@ -69,9 +66,6 @@ S
 }
 ;
 use
-crate
-:
-:
 isa
 :
 :
@@ -294,9 +288,6 @@ regs_overlap
 here
 .
 use
-crate
-:
-:
 isa
 :
 :

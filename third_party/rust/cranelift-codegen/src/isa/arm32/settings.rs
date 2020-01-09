@@ -5,9 +5,6 @@ ARM32
 Settings
 .
 use
-crate
-:
-:
 settings
 :
 :
@@ -18,7 +15,7 @@ Builder
 }
 ;
 use
-core
+std
 :
 :
 fmt

@@ -542,13 +542,6 @@ use
 validator
 :
 :
-OperatorValidatorConfig
-;
-pub
-use
-validator
-:
-:
 ValidatingOperatorParser
 ;
 pub
@@ -557,13 +550,6 @@ validator
 :
 :
 ValidatingParser
-;
-pub
-use
-validator
-:
-:
-ValidatingParserConfig
 ;
 pub
 use

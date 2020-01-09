@@ -44,9 +44,6 @@ gen_encoding
 py
 .
 use
-crate
-:
-:
 constant_hash
 :
 :
@@ -56,9 +53,6 @@ Table
 }
 ;
 use
-crate
-:
-:
 ir
 :
 :
@@ -70,9 +64,6 @@ Type
 }
 ;
 use
-crate
-:
-:
 isa
 :
 :
@@ -82,16 +73,13 @@ Legalize
 }
 ;
 use
-crate
-:
-:
 settings
 :
 :
 PredicateView
 ;
 use
-core
+std
 :
 :
 ops

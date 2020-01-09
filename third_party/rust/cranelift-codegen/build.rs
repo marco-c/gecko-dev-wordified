@@ -146,15 +146,13 @@ find
 the
 sources
 .
-use
+extern
+crate
 cranelift_codegen_meta
 as
 meta
 ;
 use
-crate
-:
-:
 meta
 :
 :

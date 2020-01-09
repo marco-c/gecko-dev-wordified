@@ -6,7 +6,7 @@ CFGPrinter
 utility
 .
 use
-core
+std
 :
 :
 fmt
@@ -20,9 +20,6 @@ Write
 }
 ;
 use
-crate
-:
-:
 flowgraph
 :
 :
@@ -32,9 +29,6 @@ ControlFlowGraph
 }
 ;
 use
-crate
-:
-:
 ir
 :
 :
@@ -44,9 +38,6 @@ instructions
 BranchInfo
 ;
 use
-crate
-:
-:
 ir
 :
 :

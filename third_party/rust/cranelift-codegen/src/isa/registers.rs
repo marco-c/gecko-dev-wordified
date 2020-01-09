@@ -11,16 +11,13 @@ an
 ISA
 .
 use
-crate
-:
-:
 entity
 :
 :
 EntityRef
 ;
 use
-core
+std
 :
 :
 fmt

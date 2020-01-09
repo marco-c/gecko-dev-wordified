@@ -19,7 +19,7 @@ abstract
 syntax
 trees
 for
-pattern
+patern
 matching
 an
 rewriting
@@ -638,7 +638,7 @@ m
 Update
 m
 as
-necessary
+neccessary
 .
         
 "
@@ -3264,7 +3264,7 @@ m
 Update
 m
 as
-necessary
+neccessary
 .
         
 "
@@ -3409,7 +3409,7 @@ If
 there
 is
 a
-substitution
+substituion
 from
 Var
 -
@@ -3910,7 +3910,7 @@ imm64
 5
 )
 which
-creates
+greates
 a
 ConstantInt
     

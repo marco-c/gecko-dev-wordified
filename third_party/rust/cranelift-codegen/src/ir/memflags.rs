@@ -6,7 +6,7 @@ operation
 flags
 .
 use
-core
+std
 :
 :
 fmt
@@ -668,7 +668,7 @@ flag
 have
 no
 memory
-dependencies
+dependendies
 .
 /
 /
@@ -676,7 +676,7 @@ dependencies
 This
 results
 in
-undefined
+indefined
 behavior
 if
 the

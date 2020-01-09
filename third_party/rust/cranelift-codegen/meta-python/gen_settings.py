@@ -1182,10 +1182,6 @@ self
 )
 -
 >
-'
-                
-'
-crate
 :
 :
 settings
@@ -1194,6 +1190,7 @@ settings
 PredicateView
 {
 '
+                
 '
 }
 '
@@ -1206,7 +1203,6 @@ format
 (
                     
 '
-crate
 :
 :
 settings

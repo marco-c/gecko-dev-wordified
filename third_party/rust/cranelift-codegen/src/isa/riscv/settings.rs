@@ -7,9 +7,6 @@ V
 Settings
 .
 use
-crate
-:
-:
 settings
 :
 :
@@ -20,7 +17,7 @@ Builder
 }
 ;
 use
-core
+std
 :
 :
 fmt
@@ -124,9 +121,6 @@ Flags
 }
 ;
 use
-crate
-:
-:
 settings
 :
 :

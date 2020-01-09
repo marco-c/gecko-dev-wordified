@@ -2315,7 +2315,7 @@ indented
 if
 :
 :
-core
+std
 :
 :
 mem
@@ -2332,7 +2332,7 @@ self
 '
 :
 :
-core
+std
 :
 :
 mem
@@ -2772,7 +2772,7 @@ H
 :
 :
 :
-core
+std
 :
 :
 hash
@@ -3002,7 +3002,7 @@ line
 '
 :
 :
-core
+std
 :
 :
 hash
@@ -3019,7 +3019,7 @@ hash
 &
 :
 :
-core
+std
 :
 :
 mem
@@ -3042,7 +3042,7 @@ line
 '
 :
 :
-core
+std
 :
 :
 hash
@@ -3076,7 +3076,7 @@ line
 '
 :
 :
-core
+std
 :
 :
 hash
@@ -3111,7 +3111,7 @@ line
 '
 :
 :
-core
+std
 :
 :
 hash
@@ -5919,9 +5919,6 @@ append
 '
 {
 }
-:
-crate
-:
 :
 ir
 :

@@ -545,15 +545,10 @@ mask
 ;
 let
 (
-ref
-mut
 l_mask
-ref
-mut
 l_val
 )
 =
-*
 layout
 .
 get_mut
@@ -1057,7 +1052,6 @@ SettingGroup
 String
 {
 match
-*
 self
 {
 PredicateNode
@@ -1100,9 +1094,7 @@ PredicateNode
 :
 SharedBool
 (
-ref
 group_name
-ref
 bool_name
 )
 =
@@ -1129,9 +1121,7 @@ PredicateNode
 :
 And
 (
-ref
 lhs
-ref
 rhs
 )
 =

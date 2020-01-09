@@ -65,9 +65,6 @@ call
 signatures
 .
 use
-crate
-:
-:
 ir
 :
 :
@@ -79,9 +76,6 @@ Type
 }
 ;
 use
-crate
-:
-:
 isa
 :
 :
@@ -92,13 +86,13 @@ RegUnit
 }
 ;
 use
-core
+std
 :
 :
 fmt
 ;
 use
-core
+std
 :
 :
 str
@@ -2556,9 +2550,6 @@ super
 *
 ;
 use
-crate
-:
-:
 ir
 :
 :

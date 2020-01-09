@@ -21,7 +21,7 @@ INNER_SIZE
 }
 ;
 use
-core
+std
 :
 :
 borrow
@@ -33,7 +33,7 @@ BorrowMut
 }
 ;
 use
-core
+std
 :
 :
 fmt
@@ -4698,7 +4698,7 @@ super
 *
 ;
 use
-core
+std
 :
 :
 mem

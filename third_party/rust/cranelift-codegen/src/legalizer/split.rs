@@ -603,9 +603,6 @@ the
 program
 .
 use
-crate
-:
-:
 cursor
 :
 :
@@ -616,9 +613,6 @@ FuncCursor
 }
 ;
 use
-crate
-:
-:
 flowgraph
 :
 :
@@ -628,9 +622,6 @@ ControlFlowGraph
 }
 ;
 use
-crate
-:
-:
 ir
 :
 :
@@ -647,7 +638,7 @@ ValueDef
 }
 ;
 use
-core
+std
 :
 :
 iter

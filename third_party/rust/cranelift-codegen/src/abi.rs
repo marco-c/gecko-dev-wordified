@@ -39,9 +39,6 @@ legalize_signature
 method
 .
 use
-crate
-:
-:
 ir
 :
 :
@@ -53,7 +50,7 @@ Type
 }
 ;
 use
-core
+std
 :
 :
 cmp
@@ -1479,18 +1476,12 @@ super
 *
 ;
 use
-crate
-:
-:
 ir
 :
 :
 types
 ;
 use
-crate
-:
-:
 ir
 :
 :

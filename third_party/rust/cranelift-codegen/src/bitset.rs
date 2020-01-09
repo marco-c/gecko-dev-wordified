@@ -95,7 +95,7 @@ max_bits
 )
 .
 use
-core
+std
 :
 :
 convert
@@ -107,7 +107,7 @@ Into
 }
 ;
 use
-core
+std
 :
 :
 mem
@@ -116,7 +116,7 @@ mem
 size_of
 ;
 use
-core
+std
 :
 :
 ops

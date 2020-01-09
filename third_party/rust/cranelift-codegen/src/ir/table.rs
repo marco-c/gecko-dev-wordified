@@ -4,9 +4,6 @@
 Tables
 .
 use
-crate
-:
-:
 ir
 :
 :
@@ -16,9 +13,6 @@ immediates
 Uimm64
 ;
 use
-crate
-:
-:
 ir
 :
 :
@@ -28,7 +22,7 @@ Type
 }
 ;
 use
-core
+std
 :
 :
 fmt
