@@ -368,6 +368,9 @@ False
 debug_mode
 =
 False
+activity
+=
+None
 )
 :
         
@@ -646,6 +649,25 @@ self
 profile_class
 =
 app
+        
+self
+.
+firefox_android_apps
+=
+[
+'
+fennec
+'
+'
+geckoview
+'
+'
+refbrow
+'
+'
+fenix
+'
+]
         
 #
 debug
@@ -1444,14 +1466,9 @@ app
 '
 ]
 in
-[
-'
-geckoview
-'
-'
-fennec
-'
-]
+self
+.
+firefox_android_apps
 and
 \
                 
@@ -1775,14 +1792,9 @@ app
 '
 ]
 in
-[
-'
-geckoview
-'
-'
-fennec
-'
-]
+self
+.
+firefox_android_apps
 and
 \
                 
@@ -1986,27 +1998,7 @@ cmd
 line
 arg
         
-if
-self
-.
-config
-[
-'
-app
-'
-]
-in
-[
-'
-firefox
-'
-'
-geckoview
-'
-'
-fennec
-'
-]
+try
 :
             
 self
@@ -2030,6 +2022,16 @@ raptor_webext
 id
 '
 ]
+        
+except
+AttributeError
+:
+            
+self
+.
+webext_id
+=
+None
     
 def
 remove_raptor_webext
@@ -2091,6 +2093,12 @@ geckoview
 '
 '
 fennec
+'
+'
+refbrow
+'
+'
+fenix
 '
 ]
 :
@@ -2303,11 +2311,10 @@ config
 app
 '
 ]
-=
-=
-"
-geckoview
-"
+in
+self
+.
+firefox_android_apps
 and
 self
 .
@@ -2970,14 +2977,9 @@ app
 ]
 not
 in
-[
-'
-geckoview
-'
-'
-fennec
-'
-]
+self
+.
+firefox_android_apps
 :
             
 self
@@ -2998,14 +3000,9 @@ app
 '
 ]
 in
-[
-'
-geckoview
-'
-'
-fennec
-'
-]
+self
+.
+firefox_android_apps
 :
             
 self
@@ -3094,6 +3091,9 @@ False
 debug_mode
 =
 False
+activity
+=
+None
 )
 :
         
@@ -3598,6 +3598,9 @@ False
 debug_mode
 =
 False
+activity
+=
+None
 )
 :
         
@@ -4005,6 +4008,9 @@ False
 debug_mode
 =
 False
+activity
+=
+None
 )
 :
         
@@ -4384,6 +4390,9 @@ False
 debug_mode
 =
 False
+activity
+=
+None
 )
 :
         
@@ -4434,6 +4443,17 @@ profile_class
 "
 firefox
 "
+        
+self
+.
+config
+[
+'
+activity
+'
+]
+=
+activity
     
 def
 create_browser_handler
@@ -5327,9 +5347,14 @@ binary
 '
 ]
                                         
-"
-GeckoViewActivity
-"
+self
+.
+config
+[
+'
+activity
+'
+]
                                         
 extra_args
 =
@@ -6403,6 +6428,12 @@ debug_mode
 args
 .
 debug_mode
+                          
+activity
+=
+args
+.
+activity
 )
     
 raptor
