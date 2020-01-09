@@ -322,6 +322,14 @@ urlbarView
 -
 results
 {
+box
+-
+sizing
+:
+border
+-
+box
+;
 padding
 :
 urlbarViewPadding
