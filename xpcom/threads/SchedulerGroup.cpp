@@ -1892,7 +1892,6 @@ mozilla
 :
 Runnable
 nsIRunnablePriority
-nsILabelableRunnable
 SchedulerGroup
 :
 :
