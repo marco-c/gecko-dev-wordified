@@ -1063,6 +1063,16 @@ case
 sidebar_highlight_text
 "
 :
+case
+"
+toolbar_field_highlight
+"
+:
+case
+"
+toolbar_field_highlight_text
+"
+:
 this
 .
 lwtStyles
