@@ -7250,6 +7250,7 @@ histograms
 /
 send
 :
+async
 function
 send
 (
@@ -7278,6 +7279,7 @@ histograms
 one
 last
 time
+await
 MemoryTelemetry
 .
 gatherMemory
@@ -7860,6 +7862,7 @@ daily
 "
 )
 ;
+await
 MemoryTelemetry
 .
 gatherMemory
