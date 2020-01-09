@@ -169,7 +169,7 @@ matches
 =
 [
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .
@@ -199,7 +199,7 @@ tab
 }
 )
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .
@@ -229,7 +229,7 @@ bookmark
 }
 )
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .

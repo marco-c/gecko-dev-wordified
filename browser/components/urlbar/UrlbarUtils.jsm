@@ -461,7 +461,7 @@ EXTENSION
 /
 /
 Defines
-UrlbarMatch
+UrlbarResult
 types
 .
 MATCH_TYPE
@@ -2373,10 +2373,10 @@ add
 a
 new
 *
-match
+result
 .
 A
-UrlbarMatch
+UrlbarResult
 should
 be
 passed
@@ -2401,7 +2401,7 @@ done
 searching
 AND
 returning
-matches
+results
 .
 *
 abstract

@@ -72,7 +72,7 @@ matches
 push
 (
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .

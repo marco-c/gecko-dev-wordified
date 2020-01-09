@@ -459,7 +459,7 @@ showing
 *
 returns
 {
-UrlbarMatch
+UrlbarResult
 }
 *
 The

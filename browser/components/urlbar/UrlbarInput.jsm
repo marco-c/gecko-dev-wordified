@@ -1674,7 +1674,7 @@ don
 t
 have
 a
-UrlbarMatch
+UrlbarResult
 e
 .
 g
@@ -1975,7 +1975,7 @@ result
 *
 param
 {
-UrlbarMatch
+UrlbarResult
 }
 result
 The
@@ -2405,7 +2405,7 @@ keyboard
 *
 param
 {
-UrlbarMatch
+UrlbarResult
 }
 result
 The

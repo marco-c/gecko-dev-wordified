@@ -69,7 +69,7 @@ defineLazyModuleGetters
 (
 this
 {
-UrlbarMatch
+UrlbarResult
 :
 "
 resource
@@ -79,7 +79,7 @@ resource
 /
 modules
 /
-UrlbarMatch
+UrlbarResult
 .
 jsm
 "
@@ -370,7 +370,7 @@ const
 result
 =
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .
