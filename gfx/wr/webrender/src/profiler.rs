@@ -2333,6 +2333,10 @@ declare_intern_profile_counters
 name
 :
 ident
+:
+ty
+:
+ty
 )
 +
 )
@@ -2661,6 +2665,15 @@ Sent
 "
 )
 }
+/
+/
+TODO
+:
+generate
+this
+by
+a
+macro
 intern
 :
 InternProfileCounters
@@ -2804,7 +2817,7 @@ Interned
 clips
 "
 )
-filterdata
+filter_data
 :
 ResourceProfileCounter
 :
@@ -2813,7 +2826,8 @@ new
 (
 "
 Interned
-filterdata
+filter
+data
 "
 )
 }
