@@ -197,6 +197,9 @@ interrupt
 (
 )
 ;
+const
+bp
+=
 await
 setBreakpoint
 (
@@ -352,6 +355,14 @@ client
 number
 "
 10
+)
+;
+await
+client
+.
+removeBreakpoint
+(
+bp
 )
 ;
 await

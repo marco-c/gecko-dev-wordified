@@ -171,6 +171,9 @@ threadClient
 undefined
 )
 ;
+const
+bp
+=
 await
 setBreakpoint
 (
@@ -215,6 +218,14 @@ threadClient
 number
 "
 2
+)
+;
+await
+threadClient
+.
+removeBreakpoint
+(
+bp
 )
 ;
 await

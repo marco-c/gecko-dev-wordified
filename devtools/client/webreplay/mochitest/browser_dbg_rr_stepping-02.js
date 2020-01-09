@@ -188,6 +188,9 @@ interrupt
 (
 )
 ;
+const
+bp
+=
 await
 setBreakpoint
 (
@@ -254,6 +257,14 @@ reverseStepOverToLine
 (
 client
 25
+)
+;
+await
+client
+.
+removeBreakpoint
+(
+bp
 )
 ;
 await

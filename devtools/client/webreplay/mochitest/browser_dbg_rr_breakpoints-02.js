@@ -149,6 +149,9 @@ toolbox
 =
 dbg
 ;
+const
+bp
+=
 await
 setBreakpoint
 (
@@ -236,6 +239,14 @@ testStepping2
 )
 "
 undefined
+)
+;
+await
+threadClient
+.
+removeBreakpoint
+(
+bp
 )
 ;
 await
