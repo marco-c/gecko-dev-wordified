@@ -4748,6 +4748,8 @@ NotifyWait
 (
 )
 ;
+AUTO_PROFILER_THREAD_SLEEP
+;
 curEvent
 =
 mEventQueue
