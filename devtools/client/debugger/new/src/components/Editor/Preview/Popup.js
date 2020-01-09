@@ -1640,11 +1640,6 @@ getAllPopupObjectProperties
 (
 state
 )
-openElementInInspector
-:
-actions
-.
-openElementInInspectorCommand
 }
 )
 ;
@@ -1654,6 +1649,7 @@ addExpression
 selectSourceURL
 setPopupObjectProperties
 openLink
+openElementInInspectorCommand
 }
 =
 actions
@@ -1666,6 +1662,9 @@ addExpression
 selectSourceURL
 setPopupObjectProperties
 openLink
+openElementInInspector
+:
+openElementInInspectorCommand
 }
 ;
 export
