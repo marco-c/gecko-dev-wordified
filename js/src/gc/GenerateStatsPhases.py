@@ -2243,7 +2243,7 @@ write
 (
 "
 static
-const
+constexpr
 PhaseKindTable
 phaseKinds
 =
@@ -2377,7 +2377,7 @@ write
 (
 "
 static
-const
+constexpr
 PhaseTable
 phases
 =
