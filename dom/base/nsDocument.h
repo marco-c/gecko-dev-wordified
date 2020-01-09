@@ -1118,16 +1118,6 @@ while
 (
 0
 )
-#
-ifdef
-DEBUG
-void
-VerifyRootContentState
-(
-)
-;
-#
-endif
 explicit
 nsDocument
 (
