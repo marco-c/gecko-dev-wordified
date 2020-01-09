@@ -647,12 +647,6 @@ create
 inter
 '
     
-kind
-=
-'
-hook
-'
-    
 generic
 =
 True

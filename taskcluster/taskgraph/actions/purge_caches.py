@@ -127,12 +127,6 @@ purge
 cache
 '
     
-kind
-=
-'
-hook
-'
-    
 generic
 =
 True

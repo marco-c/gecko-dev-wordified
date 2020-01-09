@@ -146,12 +146,6 @@ symbol
 rt
 '
     
-kind
-=
-'
-hook
-'
-    
 generic
 =
 True

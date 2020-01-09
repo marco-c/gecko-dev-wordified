@@ -137,12 +137,6 @@ symbol
 rt
 '
     
-kind
-=
-'
-hook
-'
-    
 cb_name
 =
 '
@@ -371,12 +365,6 @@ symbol
 =
 '
 rt
-'
-    
-kind
-=
-'
-hook
 '
     
 generic

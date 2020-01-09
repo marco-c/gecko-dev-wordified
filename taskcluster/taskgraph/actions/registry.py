@@ -335,7 +335,7 @@ None
 kind
 =
 '
-task
+hook
 '
 generic
 =
