@@ -329,12 +329,9 @@ PlaybackParams
 :
 mVolume
 (
-Some
-(
 1
 .
 0
-)
 )
 mPlaybackRate
 (
@@ -348,10 +345,7 @@ true
 )
 {
 }
-Maybe
-<
 double
->
 mVolume
 ;
 double
