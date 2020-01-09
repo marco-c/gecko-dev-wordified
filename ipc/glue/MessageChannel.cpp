@@ -7307,9 +7307,6 @@ aMsg
 )
 return
 ;
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 mListener
 -
 >
@@ -7318,8 +7315,6 @@ OnChannelReceivedMessage
 aMsg
 )
 ;
-#
-endif
 /
 /
 Regardless
