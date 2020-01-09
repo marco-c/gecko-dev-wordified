@@ -2634,7 +2634,7 @@ tabs
 .
 PlacesUIUtils
 .
-openContainerNodeInTabs
+openMultipleLinksInTabs
 (
 node
 aEvent
@@ -9028,7 +9028,7 @@ tabs
 .
 PlacesUIUtils
 .
-openContainerNodeInTabs
+openMultipleLinksInTabs
 (
 node
 aEvent

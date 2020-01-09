@@ -4929,7 +4929,7 @@ toolbarbutton
 )
 PlacesUIUtils
 .
-openContainerNodeInTabs
+openMultipleLinksInTabs
 (
 target
 .
