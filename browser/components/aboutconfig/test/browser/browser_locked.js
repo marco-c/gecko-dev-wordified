@@ -258,7 +258,7 @@ ok
 (
 lockedPref
 .
-firstButton
+editColumnButton
 .
 classList
 .
@@ -278,7 +278,7 @@ ok
 (
 lockedPref
 .
-firstButton
+editColumnButton
 .
 disabled
 )
@@ -338,7 +338,7 @@ ok
 (
 lockedPref
 .
-firstButton
+editColumnButton
 .
 classList
 .
@@ -358,7 +358,7 @@ ok
 (
 lockedPref
 .
-firstButton
+editColumnButton
 .
 disabled
 )
@@ -417,7 +417,7 @@ ok
 (
 lockedPref
 .
-firstButton
+editColumnButton
 .
 classList
 .
@@ -437,7 +437,7 @@ ok
 (
 lockedPref
 .
-firstButton
+editColumnButton
 .
 disabled
 )
@@ -497,7 +497,7 @@ ok
 (
 unlockedPref
 .
-firstButton
+editColumnButton
 .
 classList
 .
@@ -518,7 +518,7 @@ ok
 !
 unlockedPref
 .
-firstButton
+editColumnButton
 .
 disabled
 )
