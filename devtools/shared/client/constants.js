@@ -269,13 +269,6 @@ inspectObject
 "
 inspectObject
 "
-"
-virtualConsoleLog
-"
-:
-"
-virtualConsoleLog
-"
 /
 /
 newSource
