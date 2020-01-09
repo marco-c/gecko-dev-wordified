@@ -657,12 +657,6 @@ IsResourceUpdatesEmpty
 )
 const
 ;
-bool
-IsRenderedFrameInvalidated
-(
-)
-const
-;
 void
 AddImage
 (
