@@ -72,7 +72,7 @@ moduleWithSections
 [
 gcFeatureOptInSection
 (
-2
+3
 )
 v2vSigSection
 declSection

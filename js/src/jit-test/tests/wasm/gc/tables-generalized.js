@@ -118,7 +118,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 table
@@ -165,7 +165,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 table
@@ -226,7 +226,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 import
@@ -306,7 +306,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 table
@@ -403,7 +403,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 table
@@ -562,7 +562,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 table
@@ -845,7 +845,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 func
@@ -928,7 +928,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 func
@@ -1034,7 +1034,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 import
@@ -1116,7 +1116,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 table
@@ -1568,7 +1568,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 table
@@ -1732,7 +1732,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 table
@@ -1882,7 +1882,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 table
@@ -2049,7 +2049,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 table
@@ -2257,7 +2257,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 table
@@ -2333,7 +2333,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 table
@@ -2444,7 +2444,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 table
@@ -2527,7 +2527,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 func
@@ -2643,7 +2643,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 table
@@ -2965,7 +2965,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 table
@@ -3081,7 +3081,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-2
+3
 )
 ;
 ;
@@ -3171,7 +3171,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 table
@@ -3247,7 +3247,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 func
@@ -3374,7 +3374,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 table
