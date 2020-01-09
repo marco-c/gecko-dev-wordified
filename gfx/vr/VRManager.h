@@ -444,6 +444,11 @@ TimeDuration
 aTimeout
 )
 ;
+void
+Destroy
+(
+)
+;
 protected
 :
 VRManager
@@ -459,11 +464,6 @@ private
 :
 void
 Init
-(
-)
-;
-void
-Destroy
 (
 )
 ;
