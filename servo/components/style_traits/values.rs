@@ -3268,7 +3268,7 @@ unit
 variants
 that
 each
-corrsepond
+correspond
 to
 a
 CSS
