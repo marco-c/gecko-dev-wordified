@@ -99,6 +99,16 @@ properties
 LonghandId
 PropertyDeclarationId
 PropertyFlags
+}
+;
+use
+crate
+:
+:
+properties
+:
+:
+{
 PropertyId
 ShorthandId
 }

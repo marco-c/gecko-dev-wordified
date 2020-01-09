@@ -195,6 +195,18 @@ values
 computed
 :
 :
+NonNegativeNumber
+;
+use
+crate
+:
+:
+values
+:
+:
+computed
+:
+:
 {
 Angle
 ExtremumLength
@@ -265,7 +277,6 @@ computed
 {
 NonNegativeLength
 NonNegativeLengthOrPercentage
-NonNegativeNumber
 }
 ;
 use
