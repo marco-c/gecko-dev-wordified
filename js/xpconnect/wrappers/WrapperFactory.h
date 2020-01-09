@@ -509,12 +509,6 @@ obj
 )
 {
 return
-IsXrayWrapper
-(
-obj
-)
-|
-|
 (
 js
 :
