@@ -2978,14 +2978,6 @@ initPushService
 )
 ;
 }
-ThreadUtils
-.
-postToUiThread
-(
-(
-)
--
->
 AudioFocusAgent
 .
 getInstance
@@ -2995,7 +2987,6 @@ getInstance
 attachToContext
 (
 this
-)
 )
 ;
 }

@@ -6310,6 +6310,15 @@ doInBackground
 params
 )
 ;
+SwitchBoard
+.
+loadConfig
+(
+context
+serverUrl
+configStatuslistener
+)
+;
 if
 (
 GeckoPreferences
