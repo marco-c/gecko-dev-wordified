@@ -3079,10 +3079,13 @@ aSeparateLeaf
 )
 {
 mScrollId
-.
-id
 =
-0
+wr
+:
+:
+wr_root_scroll_node_id
+(
+)
 ;
 }
 void
