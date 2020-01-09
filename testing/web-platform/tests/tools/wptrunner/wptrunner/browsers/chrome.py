@@ -248,14 +248,6 @@ capabilities
 {
         
 "
-browserName
-"
-:
-"
-chrome
-"
-        
-"
 goog
 :
 chromeOptions
