@@ -464,6 +464,7 @@ storagePrincipal
 deserialize
 (
 this
+true
 )
 persisted
 )

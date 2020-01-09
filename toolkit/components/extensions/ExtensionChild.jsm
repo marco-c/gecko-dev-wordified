@@ -1357,7 +1357,10 @@ this
 .
 registerOnMessage
 (
+(
 holder
+isLastHandler
+)
 =
 >
 {
@@ -1373,6 +1376,8 @@ this
 context
 .
 cloneScope
+!
+isLastHandler
 )
 ;
 fire
@@ -1710,6 +1715,7 @@ receiveMessage
 {
 data
 }
+isLastHandler
 )
 =
 >
@@ -1732,6 +1738,7 @@ disconnected
 callback
 (
 data
+isLastHandler
 )
 ;
 }
@@ -2888,6 +2895,7 @@ sender
 recipient
 channelId
 }
+isLastHandler
 )
 =
 >
@@ -2955,6 +2963,8 @@ this
 context
 .
 cloneScope
+!
+isLastHandler
 )
 ;
 holder

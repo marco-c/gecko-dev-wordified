@@ -5624,7 +5624,10 @@ handlers
 .
 map
 (
+(
 handler
+i
+)
 =
 >
 {
@@ -5636,6 +5639,14 @@ handler
 receiveMessage
 (
 data
+i
++
+1
+=
+=
+handlers
+.
+length
 )
 ;
 }
