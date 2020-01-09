@@ -641,7 +641,10 @@ acc
 tag
 ]
 =
+parseFloat
+(
 value
+)
 ;
 }
 return

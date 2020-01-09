@@ -173,7 +173,7 @@ value
 :
 PropTypes
 .
-string
+number
 .
 isRequired
 }

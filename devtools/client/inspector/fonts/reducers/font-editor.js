@@ -646,7 +646,10 @@ axes
 .
 wght
 =
+parseFloat
+(
 weight
+)
 ;
 }
 /
@@ -791,10 +794,13 @@ axes
 .
 wdth
 =
+parseFloat
+(
 match
 [
 1
 ]
+)
 ;
 }
 return
