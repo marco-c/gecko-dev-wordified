@@ -82,13 +82,6 @@ h
 #
 include
 "
-HTMLEditorObjectResizerUtils
-.
-h
-"
-#
-include
-"
 HTMLEditRules
 .
 h

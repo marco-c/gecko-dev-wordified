@@ -378,13 +378,6 @@ h
 #
 include
 "
-HTMLEditorObjectResizerUtils
-.
-h
-"
-#
-include
-"
 WSRunObject
 .
 h
