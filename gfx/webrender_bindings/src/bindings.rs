@@ -5666,6 +5666,9 @@ i32
 support_low_priority_transactions
 :
 bool
+enable_picture_caching
+:
+bool
 gl_context
 :
 *
@@ -6235,6 +6238,7 @@ precache_flags
 namespace_alloc_by_client
 :
 true
+enable_picture_caching
 .
 .
 Default

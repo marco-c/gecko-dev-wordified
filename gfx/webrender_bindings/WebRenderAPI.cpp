@@ -544,6 +544,12 @@ mSize
 .
 height
 supportLowPriorityTransactions
+gfxPrefs
+:
+:
+WebRenderPictureCaching
+(
+)
 compositor
 -
 >

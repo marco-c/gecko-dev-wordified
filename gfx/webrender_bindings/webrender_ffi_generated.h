@@ -7659,6 +7659,8 @@ int32_t
 aWindowHeight
 bool
 aSupportLowPriorityTransactions
+bool
+aEnablePictureCaching
 void
 *
 aGlContext
