@@ -393,6 +393,11 @@ GCPtrObject
 array
 )
 ;
+void
+finishInnerFunctions
+(
+)
+;
 }
 ;
 struct
