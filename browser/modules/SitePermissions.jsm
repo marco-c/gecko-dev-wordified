@@ -4984,7 +4984,7 @@ Ci
 .
 nsIAutoplay
 .
-PROMPT
+BLOCKED
 )
 ;
 if
@@ -5005,6 +5005,7 @@ SitePermissions
 ALLOW
 ;
 }
+else
 if
 (
 state
