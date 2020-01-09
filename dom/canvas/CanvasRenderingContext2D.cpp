@@ -30353,15 +30353,13 @@ if
 docshell
 )
 {
+presContext
+=
 docshell
 -
 >
 GetPresContext
 (
-getter_AddRefs
-(
-presContext
-)
 )
 ;
 }

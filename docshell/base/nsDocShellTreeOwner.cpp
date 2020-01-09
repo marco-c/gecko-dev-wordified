@@ -2319,7 +2319,7 @@ RefPtr
 nsPresContext
 >
 presContext
-;
+=
 mWebBrowser
 -
 >
@@ -2328,10 +2328,6 @@ mDocShell
 >
 GetPresContext
 (
-getter_AddRefs
-(
-presContext
-)
 )
 ;
 NS_ENSURE_TRUE

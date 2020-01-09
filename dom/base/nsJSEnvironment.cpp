@@ -2725,16 +2725,12 @@ RefPtr
 nsPresContext
 >
 presContext
-;
+=
 docShell
 -
 >
 GetPresContext
 (
-getter_AddRefs
-(
-presContext
-)
 )
 ;
 static
@@ -3004,7 +3000,7 @@ RefPtr
 nsPresContext
 >
 presContext
-;
+=
 win
 -
 >
@@ -3015,10 +3011,6 @@ GetDocShell
 >
 GetPresContext
 (
-getter_AddRefs
-(
-presContext
-)
 )
 ;
 RootedDictionary

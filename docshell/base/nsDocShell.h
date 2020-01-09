@@ -5585,13 +5585,10 @@ nsISupports
 aExtraInfo
 )
 ;
-nsresult
-GetEldestPresContext
-(
 nsPresContext
 *
-*
-aPresContext
+GetEldestPresContext
+(
 )
 ;
 nsresult

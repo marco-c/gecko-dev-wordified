@@ -10367,16 +10367,12 @@ RefPtr
 nsPresContext
 >
 presContext
-;
+=
 aDocShell
 -
 >
 GetPresContext
 (
-getter_AddRefs
-(
-presContext
-)
 )
 ;
 if
