@@ -69,7 +69,7 @@ base
 import
 (
     
-EntityBase
+Entry
 OffsetComment
     
 Parser
@@ -77,7 +77,7 @@ Parser
 class
 IniSection
 (
-EntityBase
+Entry
 )
 :
     

@@ -184,7 +184,7 @@ CAN_MERGE
 =
 4
 class
-EntityBase
+Entry
 (
 object
 )
@@ -830,9 +830,44 @@ other
 .
 val
 class
+StickyEntry
+(
+Entry
+)
+:
+    
+"
+"
+"
+Subclass
+of
+Entry
+to
+use
+in
+for
+syntax
+fragments
+    
+which
+should
+always
+be
+overwritten
+in
+the
+serializer
+.
+    
+"
+"
+"
+    
+pass
+class
 Entity
 (
-EntityBase
+Entry
 )
 :
     
@@ -1186,7 +1221,7 @@ n
 class
 Comment
 (
-EntityBase
+Entry
 )
 :
     
@@ -1657,7 +1692,7 @@ key
 class
 Whitespace
 (
-EntityBase
+Entry
 )
 :
     

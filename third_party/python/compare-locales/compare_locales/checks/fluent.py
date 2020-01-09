@@ -231,9 +231,20 @@ TermReference
 Same
 for
 terms
+store
+them
+as
+-
+term
+.
+id
                 
 refs
 [
+'
+-
+'
++
 node
 .
 id

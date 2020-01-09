@@ -576,7 +576,7 @@ assertEqual
 (
 a
 .
-val
+raw_val
 '
 A
 '
@@ -674,7 +674,7 @@ assertEqual
 (
 abc
 .
-val
+raw_val
 '
 A
 {
@@ -770,7 +770,7 @@ assertEqual
 (
 abc
 .
-val
+raw_val
 '
 A
 \
@@ -864,7 +864,7 @@ assertEqual
 (
 abc
 .
-val
+raw_val
 '
 ABC
 '
@@ -948,7 +948,7 @@ assertEqual
 (
 abc
 .
-val
+raw_val
 None
 )
         
@@ -1015,7 +1015,7 @@ assertEqual
 (
 attr
 .
-val
+raw_val
 '
 Attr
 '
@@ -1178,7 +1178,7 @@ assertEqual
 (
 entity
 .
-val
+raw_val
 '
 Foo
 '
@@ -1315,7 +1315,7 @@ assertEqual
 (
 entity
 .
-val
+raw_val
 '
 Bar
 '
@@ -1519,7 +1519,7 @@ assertEqual
 (
 entity
 .
-val
+raw_val
 '
 Baz
 '
@@ -1755,7 +1755,7 @@ assertEqual
 (
 entity
 .
-val
+raw_val
 '
 Foo
 '
@@ -1903,7 +1903,7 @@ assertEqual
 (
 entity
 .
-val
+raw_val
 '
 Bar
 '
@@ -2112,7 +2112,7 @@ assertEqual
 (
 entity
 .
-val
+raw_val
 '
 Baz
 '
@@ -2269,6 +2269,10 @@ actual
 .
 val
 values
+.
+raw_val
+is
+None
         
 self
 .
@@ -2602,7 +2606,7 @@ assertEqual
 (
 entity
 .
-val
+raw_val
 '
 \
 n
@@ -2637,7 +2641,7 @@ assertEqual
 (
 entity
 .
-val
+raw_val
 '
 Line
 of
@@ -2671,7 +2675,7 @@ assertEqual
 (
 entity
 .
-val
+raw_val
 '
 \
 n
@@ -2706,7 +2710,7 @@ assertEqual
 (
 entity
 .
-val
+raw_val
 '
 value
 '
@@ -2754,7 +2758,7 @@ assertEqual
 (
 entity
 .
-val
+raw_val
 '
 \
 n

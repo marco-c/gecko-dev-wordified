@@ -95,7 +95,7 @@ import
     
 CAN_SKIP
     
-EntityBase
+Entry
 Entity
 Comment
 Junk
@@ -108,7 +108,7 @@ Parser
 class
 FluentAttribute
 (
-EntityBase
+Entry
 )
 :
     
@@ -289,6 +289,67 @@ start
 end
 )
         
+if
+isinstance
+(
+entry
+ftl
+.
+Term
+)
+:
+            
+#
+Terms
+don
+'
+t
+have
+their
+'
+-
+'
+as
+part
+of
+the
+id
+use
+the
+prior
+            
+#
+character
+            
+self
+.
+key_span
+=
+(
+entry
+.
+id
+.
+span
+.
+start
+-
+1
+entry
+.
+id
+.
+span
+.
+end
+)
+        
+else
+:
+            
+#
+Message
+            
 self
 .
 key_span
@@ -356,7 +417,7 @@ entry
 entry
         
 #
-EntityBase
+Entry
 instances
 are
 expected

@@ -74,7 +74,7 @@ CAN_COPY
 CAN_SKIP
 CAN_MERGE
     
-EntityBase
+Entry
 Entity
 Comment
 OffsetComment
@@ -169,7 +169,7 @@ CAN_MERGE
 Junk
 "
 "
-EntityBase
+Entry
 "
 "
 Entity
