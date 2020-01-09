@@ -936,7 +936,10 @@ void
 SetScrollbarData
 (
 const
+Maybe
+<
 uint64_t
+>
 &
 aScrollbarAnimationId
 const
@@ -1019,9 +1022,10 @@ GetScrollbarData
 )
 const
 ;
-const
+Maybe
+<
 uint64_t
-&
+>
 GetScrollbarAnimationId
 (
 )
@@ -1278,10 +1282,6 @@ This
 is
 only
 set
-to
-non
--
-zero
 if
 WebRender
 is
@@ -1319,7 +1319,10 @@ reflect
 async
 scrolling
 .
+Maybe
+<
 uint64_t
+>
 mScrollbarAnimationId
 ;
 /

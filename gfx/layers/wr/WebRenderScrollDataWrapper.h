@@ -1800,7 +1800,10 @@ GetScrollbarData
 )
 ;
 }
+Maybe
+<
 uint64_t
+>
 GetScrollbarAnimationId
 (
 )

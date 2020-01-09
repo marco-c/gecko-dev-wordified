@@ -2366,7 +2366,10 @@ GetScrollbarData
 )
 ;
 }
+Maybe
+<
 uint64_t
+>
 GetScrollbarAnimationId
 (
 )
@@ -2411,7 +2414,9 @@ not
 used
 .
 return
-0
+Nothing
+(
+)
 ;
 }
 ScrollableLayerGuid

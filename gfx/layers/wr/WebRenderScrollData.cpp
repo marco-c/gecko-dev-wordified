@@ -209,10 +209,6 @@ EventRegionsOverride
 :
 NoOverride
 )
-mScrollbarAnimationId
-(
-0
-)
 mFixedPosScrollContainerId
 (
 ScrollableLayerGuid
@@ -1106,6 +1102,11 @@ mScrollbarData
 .
 mScrollbarLayerType
 mScrollbarAnimationId
+.
+valueOr
+(
+0
+)
 )
 ;
 printf_stderr

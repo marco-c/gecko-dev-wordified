@@ -3112,9 +3112,7 @@ apzc
 GetScrollbarAnimationId
 is
 only
-non
--
-zero
+set
 when
 webrender
 is
@@ -4051,11 +4049,14 @@ mScrollThumbInfo
 .
 emplace_back
 (
+*
+(
 thumb
 -
 >
 GetScrollbarAnimationId
 (
+)
 )
 thumb
 -
