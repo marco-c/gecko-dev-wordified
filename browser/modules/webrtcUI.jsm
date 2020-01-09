@@ -1426,9 +1426,9 @@ observers
 are
 registered
 in
-nsBrowserGlue
+BrowserGlue
 .
-js
+jsm
 receiveMessage
 (
 aMessage

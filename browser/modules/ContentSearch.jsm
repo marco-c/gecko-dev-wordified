@@ -1044,9 +1044,9 @@ observers
 are
 added
 in
-nsBrowserGlue
+BrowserGlue
 .
-js
+jsm
 receiveMessage
 (
 msg

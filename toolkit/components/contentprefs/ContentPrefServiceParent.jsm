@@ -238,9 +238,9 @@ Listeners
 are
 added
 in
-nsBrowserGlue
+BrowserGlue
 .
-js
+jsm
 on
 other
 /
@@ -746,9 +746,9 @@ Listeners
 are
 added
 in
-nsBrowserGlue
+BrowserGlue
 .
-js
+jsm
 receiveMessage
 (
 msg

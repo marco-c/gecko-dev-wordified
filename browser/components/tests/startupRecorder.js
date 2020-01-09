@@ -660,9 +660,9 @@ the
 topics
 observed
 by
-nsBrowserGlue
+BrowserGlue
 .
-js
+jsm
 )
 .
 let
