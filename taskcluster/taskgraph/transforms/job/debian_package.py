@@ -77,6 +77,8 @@ import
 os
 import
 re
+import
+taskcluster_urls
 from
 taskgraph
 .
@@ -1414,6 +1416,30 @@ dist
         
 )
     
+queue_url
+=
+taskcluster_urls
+.
+api
+(
+os
+.
+environ
+[
+'
+TASKCLUSTER_ROOT_URL
+'
+]
+'
+queue
+'
+'
+v1
+'
+'
+'
+)
+    
 #
 We
 can
@@ -1737,22 +1763,10 @@ trusted
 =
 yes
 ]
-https
-:
-/
-/
-queue
-.
-taskcluster
-.
-net
-/
-v1
-/
+{
+queue_url
+}
 task
-'
-        
-'
 /
 task
 /
@@ -2081,6 +2095,10 @@ gz
 .
 format
 (
+            
+queue_url
+=
+queue_url
             
 package
 =
