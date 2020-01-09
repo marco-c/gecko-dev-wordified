@@ -257,10 +257,6 @@ override
 ;
 private
 :
-friend
-class
-MP4TrackDemuxer
-;
 RefPtr
 <
 MediaResource
