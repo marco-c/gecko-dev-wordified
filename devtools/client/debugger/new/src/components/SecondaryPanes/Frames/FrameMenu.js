@@ -348,7 +348,7 @@ callbacks
 Object
 event
 :
-SyntheticKeyboardEvent
+SyntheticMouseEvent
 <
 HTMLElement
 >

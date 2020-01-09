@@ -648,7 +648,7 @@ makeLocationId
 (
 breakpoint
 .
-location
+selectedLocation
 )
 }
 /

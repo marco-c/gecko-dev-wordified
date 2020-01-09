@@ -61,8 +61,6 @@ MPL
 /
 /
 flow
-/
-/
 import
 {
 createParentMap
@@ -79,7 +77,6 @@ type
 {
 TreeNode
 TreeDirectory
-ParentMap
 }
 from
 "
@@ -213,9 +210,6 @@ getAncestors
 sourceTree
 :
 TreeDirectory
-parentMap
-:
-ParentMap
 item
 :
 ?
@@ -232,6 +226,14 @@ return
 null
 ;
 }
+const
+parentMap
+=
+createParentMap
+(
+sourceTree
+)
+;
 const
 directories
 =
@@ -285,9 +287,6 @@ getDirectories
 source
 :
 Source
-parentMap
-:
-ParentMap
 sourceTree
 :
 TreeDirectory
@@ -308,7 +307,6 @@ ancestors
 getAncestors
 (
 sourceTree
-parentMap
 item
 )
 ;
