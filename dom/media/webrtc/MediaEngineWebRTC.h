@@ -557,7 +557,7 @@ threads
 Mutex
 mMutex
 ;
-UniquePtr
+RefPtr
 <
 mozilla
 :
