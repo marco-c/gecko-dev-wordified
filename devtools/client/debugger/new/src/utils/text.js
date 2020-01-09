@@ -460,9 +460,6 @@ maxLength
 2
 )
 }
-.
-.
-.
 {
 sourceText
 .

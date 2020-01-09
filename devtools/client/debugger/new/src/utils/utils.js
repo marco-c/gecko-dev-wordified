@@ -255,9 +255,6 @@ size
 )
 {
 return
-.
-.
-.
 {
 str
 .
