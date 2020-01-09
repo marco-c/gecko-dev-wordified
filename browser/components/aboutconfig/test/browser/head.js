@@ -686,8 +686,9 @@ querySelector
 (
 "
 button
-.
-primary
+[
+autofocus
+]
 "
 )
 ;
