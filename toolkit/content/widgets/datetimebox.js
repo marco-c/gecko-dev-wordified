@@ -2482,7 +2482,6 @@ style
 visibility
 =
 "
-visible
 "
 ;
 }
