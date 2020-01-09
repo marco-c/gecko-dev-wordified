@@ -604,10 +604,6 @@ mKeyPair
 -
 >
 mPublicKey
-.
-get
-(
-)
 -
 >
 GetPublicKey
@@ -960,10 +956,6 @@ mKeyPair
 -
 >
 mPrivateKey
-.
-get
-(
-)
 -
 >
 GetPrivateKey
@@ -1072,10 +1064,6 @@ mKeyPair
 -
 >
 mPublicKey
-.
-get
-(
-)
 -
 >
 Algorithm
@@ -1268,10 +1256,6 @@ mKeyPair
 -
 >
 mPrivateKey
-.
-get
-(
-)
 -
 >
 GetPrivateKey
