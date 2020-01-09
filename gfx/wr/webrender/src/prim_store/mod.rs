@@ -10207,6 +10207,7 @@ pic
 local_rect
 frame_context
 frame_state
+surface_index
 )
 ;
 frame_state
