@@ -407,9 +407,6 @@ class
 nsStyleCoord
 ;
 class
-nsStyleCorners
-;
-class
 nsPIDOMWindowOuter
 ;
 class
@@ -13694,7 +13691,7 @@ param
 aCorners
 the
 |
-nsStyleCorners
+BorderRadius
 |
 object
 to
@@ -13785,7 +13782,10 @@ bool
 HasNonZeroCorner
 (
 const
-nsStyleCorners
+mozilla
+:
+:
+BorderRadius
 &
 aCorners
 )
@@ -13817,7 +13817,10 @@ bool
 HasNonZeroCornerOnSide
 (
 const
-nsStyleCorners
+mozilla
+:
+:
+BorderRadius
 &
 aCorners
 mozilla

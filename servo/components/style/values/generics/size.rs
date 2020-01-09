@@ -154,6 +154,13 @@ allow
 missing_docs
 )
 ]
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 Size2D
