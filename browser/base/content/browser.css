@@ -2200,7 +2200,9 @@ TabsToolbar
 .
 titlebar
 -
-item
+buttonbox
+-
+container
 #
 toolbar
 -
