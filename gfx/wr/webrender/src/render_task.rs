@@ -1897,13 +1897,6 @@ SpatialNodeIndex
 uv_rect_kind
 :
 UvRectKind
-pub
-blits
-:
-Vec
-<
-TileBlit
->
 }
 #
 [
@@ -2834,12 +2827,6 @@ Option
 <
 ColorF
 >
-blits
-:
-Vec
-<
-TileBlit
->
 )
 -
 >
@@ -2976,7 +2963,6 @@ new
 )
 uv_rect_kind
 root_spatial_node_index
-blits
 }
 )
 clear_mode
