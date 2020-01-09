@@ -69,12 +69,6 @@ interfaces
 :
 nsISupports
 ;
-use
-nserror
-:
-:
-NsresultExt
-;
 #
 [
 repr
