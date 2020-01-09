@@ -97,7 +97,6 @@ inspector
 /
 updateFonts
 (
-fonts
 allFonts
 )
 {
@@ -106,7 +105,6 @@ return
 type
 :
 UPDATE_FONTS
-fonts
 allFonts
 }
 ;
