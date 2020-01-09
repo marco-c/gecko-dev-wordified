@@ -2500,9 +2500,8 @@ end
 )
 )
 {
-NS_ASSERTION
+NS_WARNING
 (
-false
 "
 Cannot
 find
