@@ -38168,17 +38168,6 @@ Update
 scrollbar
 attributes
 .
-nsPresContext
-*
-presContext
-=
-mOuter
--
->
-PresContext
-(
-)
-;
 if
 (
 mMayHaveDirtyFixedChildren
@@ -38241,7 +38230,7 @@ of
 the
 fixed
 child
-presContext
+mOuter
 -
 >
 PresShell
