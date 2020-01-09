@@ -971,7 +971,7 @@ on
 middleman
 calls
 .
-bool
+void
 SendMiddlemanCallRequest
 (
 const
