@@ -31,9 +31,9 @@ intern_token
 ;
 pub
 mod
-re
+nfa
 ;
 pub
 mod
-nfa
+re
 ;
