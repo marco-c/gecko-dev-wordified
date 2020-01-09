@@ -1872,6 +1872,16 @@ DeleteRecvStream
 (
 )
 ;
+bool
+RecreateSendStreamIfExists
+(
+)
+;
+bool
+RecreateRecvStreamIfExists
+(
+)
+;
 MediaConduitErrorCode
 CreateChannels
 (
