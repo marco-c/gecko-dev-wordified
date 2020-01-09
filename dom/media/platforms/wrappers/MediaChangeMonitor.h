@@ -548,6 +548,7 @@ void
 AssertOnTaskQueue
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -706,6 +707,12 @@ MozPromiseRequestHolder
 InitPromise
 >
 mInitPromiseRequest
+;
+MozPromiseHolder
+<
+InitPromise
+>
+mInitPromise
 ;
 MozPromiseRequestHolder
 <
