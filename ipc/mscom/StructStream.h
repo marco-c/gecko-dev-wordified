@@ -362,6 +362,9 @@ aSrcStruct
 )
 ;
 }
+#
+ifdef
+HAVE_SEH_EXCEPTIONS
 MOZ_SEH_EXCEPT
 (
 EXCEPTION_EXECUTE_HANDLER
@@ -378,6 +381,8 @@ RpcExceptionCode
 return
 ;
 }
+#
+endif
 if
 (
 !
@@ -1168,6 +1173,9 @@ aDestStruct
 )
 ;
 }
+#
+ifdef
+HAVE_SEH_EXCEPTIONS
 MOZ_SEH_EXCEPT
 (
 EXCEPTION_EXECUTE_HANDLER
@@ -1185,6 +1193,8 @@ return
 false
 ;
 }
+#
+endif
 return
 true
 ;
