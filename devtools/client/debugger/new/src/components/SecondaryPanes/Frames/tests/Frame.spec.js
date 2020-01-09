@@ -573,8 +573,7 @@ text
 toBe
 (
 "
-\
-trenderFoo
+renderFoo
 foo
 -
 view
@@ -582,8 +581,6 @@ view
 js
 :
 10
-\
-n
 "
 )
 ;

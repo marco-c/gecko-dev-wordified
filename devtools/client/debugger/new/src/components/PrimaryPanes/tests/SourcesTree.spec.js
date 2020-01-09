@@ -1356,8 +1356,6 @@ keyCode
 }
 )
 ;
-/
-/
 expect
 (
 props
@@ -2653,11 +2651,7 @@ fn
 )
 sources
 :
-{
-FakeThread
-:
 defaultSources
-}
 debuggeeUrl
 :
 "

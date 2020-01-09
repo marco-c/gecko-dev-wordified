@@ -2051,9 +2051,7 @@ number
 }
 setOptions
 :
-(
 BreakpointOptions
-)
 =
 >
 Promise
