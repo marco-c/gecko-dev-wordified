@@ -625,10 +625,6 @@ Resize
 "
     
 "
-Rotate
-"
-    
-"
 Scale
 "
     
@@ -646,6 +642,10 @@ TimingFunction
     
 "
 TransformStyle
+"
+    
+"
+UserSelect
 "
     
 "
