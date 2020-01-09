@@ -84,7 +84,6 @@ async
 {
 const
 {
-client
 memoryFront
 }
 =
@@ -163,19 +162,6 @@ from
 the
 file
 "
-)
-;
-await
-memoryFront
-.
-detach
-(
-)
-;
-await
-finishClient
-(
-client
 )
 ;
 }
