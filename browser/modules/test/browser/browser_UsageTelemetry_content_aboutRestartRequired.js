@@ -67,6 +67,8 @@ clearScalars
 let
 scalars
 =
+TelemetryTestUtils
+.
 getParentProcessScalars
 (
 Ci
@@ -126,6 +128,8 @@ linkedBrowser
 ;
 scalars
 =
+TelemetryTestUtils
+.
 getParentProcessScalars
 (
 Ci

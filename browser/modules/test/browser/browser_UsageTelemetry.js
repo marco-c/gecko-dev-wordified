@@ -174,6 +174,8 @@ countsObject
 const
 scalars
 =
+TelemetryTestUtils
+.
 getParentProcessScalars
 (
 Ci
@@ -200,7 +202,9 @@ not
 be
 reported
 .
-checkScalar
+TelemetryTestUtils
+.
+assertScalar
 (
 scalars
 MAX_CONCURRENT_TABS
@@ -221,7 +225,9 @@ value
 "
 )
 ;
-checkScalar
+TelemetryTestUtils
+.
+assertScalar
 (
 scalars
 TAB_EVENT_COUNT
@@ -245,7 +251,9 @@ value
 "
 )
 ;
-checkScalar
+TelemetryTestUtils
+.
+assertScalar
 (
 scalars
 MAX_CONCURRENT_WINDOWS
@@ -266,7 +274,9 @@ value
 "
 )
 ;
-checkScalar
+TelemetryTestUtils
+.
+assertScalar
 (
 scalars
 WINDOW_OPEN_COUNT
@@ -290,7 +300,9 @@ value
 "
 )
 ;
-checkScalar
+TelemetryTestUtils
+.
+assertScalar
 (
 scalars
 TOTAL_URI_COUNT
@@ -311,7 +323,9 @@ value
 "
 )
 ;
-checkScalar
+TelemetryTestUtils
+.
+assertScalar
 (
 scalars
 UNIQUE_DOMAINS_COUNT
@@ -332,7 +346,9 @@ value
 "
 )
 ;
-checkScalar
+TelemetryTestUtils
+.
+assertScalar
 (
 scalars
 UNFILTERED_URI_COUNT
@@ -1255,6 +1271,8 @@ openedTabs
 let
 tabCountHist
 =
+TelemetryTestUtils
+.
 getAndClearHistogram
 (
 "

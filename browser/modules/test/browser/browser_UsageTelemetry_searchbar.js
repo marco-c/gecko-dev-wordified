@@ -803,6 +803,8 @@ clearEvents
 let
 resultMethodHist
 =
+TelemetryTestUtils
+.
 getAndClearHistogram
 (
 "
@@ -813,6 +815,8 @@ FX_SEARCHBAR_SELECTED_RESULT_METHOD
 let
 search_hist
 =
+TelemetryTestUtils
+.
 getAndClearKeyedHistogram
 (
 "
@@ -895,6 +899,8 @@ values
 const
 scalars
 =
+TelemetryTestUtils
+.
 getParentProcessScalars
 (
 Ci
@@ -906,7 +912,9 @@ true
 false
 )
 ;
-checkKeyedScalar
+TelemetryTestUtils
+.
+assertKeyedScalar
 (
 scalars
 SCALAR_SEARCHBAR
@@ -956,7 +964,9 @@ contains
 identical
 values
 .
-checkKeyedHistogram
+TelemetryTestUtils
+.
+assertKeyedHistogramSum
 (
 search_hist
 "
@@ -1031,7 +1041,9 @@ search
 "
 )
 ;
-checkEvents
+TelemetryTestUtils
+.
+assertEvents
 (
 events
 [
@@ -1159,6 +1171,8 @@ clearEvents
 let
 resultMethodHist
 =
+TelemetryTestUtils
+.
 getAndClearHistogram
 (
 "
@@ -1169,6 +1183,8 @@ FX_SEARCHBAR_SELECTED_RESULT_METHOD
 let
 search_hist
 =
+TelemetryTestUtils
+.
 getAndClearKeyedHistogram
 (
 "
@@ -1287,6 +1303,8 @@ values
 const
 scalars
 =
+TelemetryTestUtils
+.
 getParentProcessScalars
 (
 Ci
@@ -1298,7 +1316,9 @@ true
 false
 )
 ;
-checkKeyedScalar
+TelemetryTestUtils
+.
+assertKeyedScalar
 (
 scalars
 SCALAR_SEARCHBAR
@@ -1348,7 +1368,9 @@ contains
 identical
 values
 .
-checkKeyedHistogram
+TelemetryTestUtils
+.
+assertKeyedHistogramSum
 (
 search_hist
 "
@@ -1423,7 +1445,9 @@ search
 "
 )
 ;
-checkEvents
+TelemetryTestUtils
+.
+assertEvents
 (
 events
 [
@@ -1557,6 +1581,8 @@ clearScalars
 let
 resultMethodHist
 =
+TelemetryTestUtils
+.
 getAndClearHistogram
 (
 "
@@ -1887,6 +1913,8 @@ clearScalars
 let
 resultMethodHist
 =
+TelemetryTestUtils
+.
 getAndClearHistogram
 (
 "
@@ -2058,6 +2086,8 @@ clearEvents
 let
 resultMethodHist
 =
+TelemetryTestUtils
+.
 getAndClearHistogram
 (
 "
@@ -2068,6 +2098,8 @@ FX_SEARCHBAR_SELECTED_RESULT_METHOD
 let
 search_hist
 =
+TelemetryTestUtils
+.
 getAndClearKeyedHistogram
 (
 "
@@ -2265,6 +2297,8 @@ values
 const
 scalars
 =
+TelemetryTestUtils
+.
 getParentProcessScalars
 (
 Ci
@@ -2276,7 +2310,9 @@ true
 false
 )
 ;
-checkKeyedScalar
+TelemetryTestUtils
+.
+assertKeyedScalar
 (
 scalars
 SCALAR_SEARCHBAR
@@ -2338,7 +2374,9 @@ suggestionEngine
 .
 name
 ;
-checkKeyedHistogram
+TelemetryTestUtils
+.
+assertKeyedHistogramSum
 (
 search_hist
 searchEngineId
@@ -2412,7 +2450,9 @@ search
 "
 )
 ;
-checkEvents
+TelemetryTestUtils
+.
+assertEvents
 (
 events
 [
@@ -2561,6 +2601,8 @@ clearScalars
 let
 resultMethodHist
 =
+TelemetryTestUtils
+.
 getAndClearHistogram
 (
 "

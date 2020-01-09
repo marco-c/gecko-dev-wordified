@@ -457,6 +457,8 @@ clearEvents
 let
 search_hist
 =
+TelemetryTestUtils
+.
 getAndClearKeyedHistogram
 (
 "
@@ -696,6 +698,8 @@ metrics
 const
 scalars
 =
+TelemetryTestUtils
+.
 getParentProcessScalars
 (
 Ci
@@ -707,7 +711,9 @@ true
 false
 )
 ;
-checkKeyedScalar
+TelemetryTestUtils
+.
+assertKeyedScalar
 (
 scalars
 SCALAR_CONTEXT_MENU
@@ -757,7 +763,9 @@ contains
 identical
 values
 .
-checkKeyedHistogram
+TelemetryTestUtils
+.
+assertKeyedHistogramSum
 (
 search_hist
 "
@@ -832,7 +840,9 @@ search
 "
 )
 ;
-checkEvents
+TelemetryTestUtils
+.
+assertEvents
 (
 events
 [
@@ -921,6 +931,8 @@ clearEvents
 let
 search_hist
 =
+TelemetryTestUtils
+.
 getAndClearKeyedHistogram
 (
 "
@@ -1057,6 +1069,8 @@ values
 const
 scalars
 =
+TelemetryTestUtils
+.
 getParentProcessScalars
 (
 Ci
@@ -1068,7 +1082,9 @@ true
 false
 )
 ;
-checkKeyedScalar
+TelemetryTestUtils
+.
+assertKeyedScalar
 (
 scalars
 SCALAR_ABOUT_NEWTAB
@@ -1118,7 +1134,9 @@ contains
 identical
 values
 .
-checkKeyedHistogram
+TelemetryTestUtils
+.
+assertKeyedHistogramSum
 (
 search_hist
 "
@@ -1193,7 +1211,9 @@ search
 "
 )
 ;
-checkEvents
+TelemetryTestUtils
+.
+assertEvents
 (
 events
 [
