@@ -9444,7 +9444,7 @@ dest
 write_str
 (
 "
-i
+s
 "
 )
 ?
