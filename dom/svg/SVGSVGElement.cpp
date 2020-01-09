@@ -1535,7 +1535,7 @@ float
 SVGSVGElement
 :
 :
-GetCurrentTime
+GetCurrentTimeAsFloat
 (
 )
 {
@@ -1560,7 +1560,7 @@ double
 root
 -
 >
-GetCurrentTime
+GetCurrentTimeAsSMILTime
 (
 )
 )
