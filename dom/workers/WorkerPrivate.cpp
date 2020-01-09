@@ -14575,7 +14575,14 @@ queuedEvents
 5000
 )
 {
-mMainThreadEventTarget
+/
+/
+Note
+postMessage
+uses
+mMainThreadDebuggeeEventTarget
+!
+mMainThreadDebuggeeEventTarget
 -
 >
 AwaitIdle
