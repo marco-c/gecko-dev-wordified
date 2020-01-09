@@ -311,20 +311,6 @@ treeherder
 '
 ]
     
-Optional
-(
-'
-attributes
-'
-)
-:
-task_description_schema
-[
-'
-attributes
-'
-]
-    
 #
 Shipping
 product
