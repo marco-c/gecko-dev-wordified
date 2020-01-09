@@ -990,6 +990,11 @@ l10n
 '
 shippable
 '
+'
+shippable
+-
+l10n
+'
 )
         
 #

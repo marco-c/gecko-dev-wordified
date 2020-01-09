@@ -648,7 +648,11 @@ macosx64
 devedition
 )
 -
+(
 nightly
+|
+shippable
+)
 '
 :
         
@@ -824,7 +828,11 @@ aarch64
 devedition
 )
 -
+(
 nightly
+|
+shippable
+)
 '
 :
         
@@ -879,7 +887,11 @@ win
 devedition
 )
 -
+(
 nightly
+|
+shippable
+)
 -
 l10n
 '
@@ -972,7 +984,11 @@ asan
 reporter
 )
 -
+(
 nightly
+|
+shippable
+)
 (
 |
 -
@@ -1025,7 +1041,11 @@ asan
 reporter
 )
 -
+(
 nightly
+|
+shippable
+)
 (
 |
 -
@@ -1033,6 +1053,7 @@ l10n
 )
 '
 :
+        
 [
 '
 target

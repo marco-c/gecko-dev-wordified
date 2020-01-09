@@ -5724,7 +5724,7 @@ linux64
 -
 snap
 -
-nightly
+shippable
 '
 in
 platform
