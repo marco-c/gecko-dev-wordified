@@ -2417,10 +2417,6 @@ mFind
 Find
 (
 mTypeAheadBuffer
-.
-get
-(
-)
 mSearchRange
 mStartPointRange
 mEndPointRange
