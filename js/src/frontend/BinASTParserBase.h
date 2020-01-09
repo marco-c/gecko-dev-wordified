@@ -316,17 +316,6 @@ size_t
 size
 )
 {
-MOZ_ASSERT
-(
-size
-=
-=
-sizeof
-(
-ParseNode
-)
-)
-;
 return
 static_cast
 <
@@ -338,6 +327,7 @@ nodeAlloc_
 .
 allocNode
 (
+size
 )
 )
 ;
