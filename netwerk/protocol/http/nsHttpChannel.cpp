@@ -13762,7 +13762,7 @@ NS_FAILED
 mURI
 -
 >
-GetHost
+GetAsciiHost
 (
 originHost
 )
