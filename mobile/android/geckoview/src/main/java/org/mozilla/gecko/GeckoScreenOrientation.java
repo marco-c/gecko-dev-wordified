@@ -901,6 +901,11 @@ the
 primary
 orientations
 .
+ScreenOrientation
+primaryOrientation
+=
+aScreenOrientation
+;
 if
 (
 aScreenOrientation
@@ -911,7 +916,7 @@ ScreenOrientation
 PORTRAIT
 )
 {
-aScreenOrientation
+primaryOrientation
 =
 ScreenOrientation
 .
@@ -929,7 +934,7 @@ ScreenOrientation
 LANDSCAPE
 )
 {
-aScreenOrientation
+primaryOrientation
 =
 ScreenOrientation
 .
@@ -947,7 +952,7 @@ ScreenOrientation
 DEFAULT
 )
 {
-aScreenOrientation
+primaryOrientation
 =
 ScreenOrientation
 .
@@ -980,7 +985,7 @@ isRunning
 {
 onOrientationChange
 (
-aScreenOrientation
+primaryOrientation
 .
 value
 getAngle
@@ -1001,7 +1006,7 @@ class
 "
 onOrientationChange
 "
-aScreenOrientation
+primaryOrientation
 .
 value
 getAngle

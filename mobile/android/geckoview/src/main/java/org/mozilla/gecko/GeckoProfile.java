@@ -1729,6 +1729,11 @@ profile
 or
 default
 profile
+String
+resolvedProfileName
+=
+profileName
+;
 if
 (
 TextUtils
@@ -1833,7 +1838,7 @@ anonymous
 )
 profile
 .
-profileName
+resolvedProfileName
 =
 CUSTOM_PROFILE
 ;
@@ -1889,7 +1894,7 @@ sProfileCache
 .
 get
 (
-profileName
+resolvedProfileName
 )
 ;
 GeckoProfile
@@ -1913,7 +1918,7 @@ new
 GeckoProfile
 (
 context
-profileName
+resolvedProfileName
 profileDir
 )
 ;
@@ -1950,7 +1955,7 @@ sProfileCache
 .
 putIfAbsent
 (
-profileName
+resolvedProfileName
 newProfile
 )
 ;

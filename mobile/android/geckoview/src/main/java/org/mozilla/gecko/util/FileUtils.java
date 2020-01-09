@@ -1977,9 +1977,14 @@ characters
 )
 ;
 }
+File
+tempDirectory
+=
+directory
+;
 if
 (
-directory
+tempDirectory
 =
 =
 null
@@ -2004,7 +2009,7 @@ tmpdir
 "
 )
 ;
-directory
+tempDirectory
 =
 new
 File
@@ -2031,7 +2036,7 @@ result
 new
 File
 (
-directory
+tempDirectory
 prefix
 +
 random

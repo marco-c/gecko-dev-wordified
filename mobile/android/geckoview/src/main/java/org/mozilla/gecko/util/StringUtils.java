@@ -377,7 +377,8 @@ spaces
 when
 decoding
 URLs
-text
+String
+trimmedText
 =
 text
 .
@@ -387,7 +388,7 @@ trim
 ;
 if
 (
-text
+trimmedText
 .
 length
 (
@@ -404,7 +405,7 @@ wasSearchQuery
 int
 colon
 =
-text
+trimmedText
 .
 indexOf
 (
@@ -416,7 +417,7 @@ indexOf
 int
 dot
 =
-text
+trimmedText
 .
 indexOf
 (
@@ -428,7 +429,7 @@ indexOf
 int
 space
 =
-text
+trimmedText
 .
 indexOf
 (

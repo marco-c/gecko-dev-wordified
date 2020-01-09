@@ -1271,9 +1271,14 @@ return
 null
 ;
 }
+int
+resolvedHandle
+=
+handle
+;
 if
 (
-handle
+resolvedHandle
 =
 =
 0
@@ -1289,7 +1294,7 @@ when
 none
 specified
 .
-handle
+resolvedHandle
 =
 sNextHandle
 +
@@ -1312,7 +1317,7 @@ gst
 new
 GeckoSurfaceTexture
 (
-handle
+resolvedHandle
 singleBufferMode
 )
 ;
@@ -1324,7 +1329,7 @@ gst
 new
 GeckoSurfaceTexture
 (
-handle
+resolvedHandle
 )
 ;
 }
@@ -1334,7 +1339,7 @@ sSurfaceTextures
 .
 containsKey
 (
-handle
+resolvedHandle
 )
 )
 {
@@ -1364,7 +1369,7 @@ sSurfaceTextures
 .
 put
 (
-handle
+resolvedHandle
 gst
 )
 ;
