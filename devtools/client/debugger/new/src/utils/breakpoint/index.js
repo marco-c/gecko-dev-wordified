@@ -301,17 +301,9 @@ in
 its
 Source
 .
-/
-/
-FIXME
-rename
-this
-to
-makeBreakpointId
-.
 export
 function
-makeLocationId
+makeBreakpointId
 (
 location
 :
@@ -884,7 +876,7 @@ properties
 {
 id
 :
-makeLocationId
+makeBreakpointId
 (
 location
 )

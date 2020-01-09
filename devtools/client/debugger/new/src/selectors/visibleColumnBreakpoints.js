@@ -117,7 +117,7 @@ visiblePausePoints
 ;
 import
 {
-makeLocationId
+makeBreakpointId
 }
 from
 "
@@ -751,7 +751,7 @@ generatedLocation
 )
 =
 >
-makeLocationId
+makeBreakpointId
 (
 generatedLocation
 )

@@ -98,7 +98,7 @@ selectors
 ;
 import
 {
-makeLocationId
+makeBreakpointId
 }
 from
 "
@@ -287,7 +287,7 @@ Breakpoint
 key
 =
 {
-makeLocationId
+makeBreakpointId
 (
 bp
 .

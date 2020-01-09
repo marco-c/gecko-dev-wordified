@@ -121,7 +121,7 @@ connect
 ;
 import
 {
-makeLocationId
+makeBreakpointId
 }
 from
 "
@@ -295,7 +295,7 @@ ColumnBreakpoint
 key
 =
 {
-makeLocationId
+makeBreakpointId
 (
 breakpoint
 .

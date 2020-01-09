@@ -185,7 +185,7 @@ maps
 ;
 import
 {
-makeLocationId
+makeBreakpointId
 sortSelectedBreakpoints
 }
 from
@@ -584,7 +584,7 @@ selectedSource
 key
 =
 {
-makeLocationId
+makeBreakpointId
 (
 getSelectedLocation
 (

@@ -98,7 +98,7 @@ lodash
 ;
 import
 {
-makeLocationId
+makeBreakpointId
 }
 from
 "
@@ -804,7 +804,7 @@ action
 const
 locationId
 =
-makeLocationId
+makeBreakpointId
 (
 breakpoint
 .
@@ -894,7 +894,7 @@ breakpoint
 const
 locationId
 =
-makeLocationId
+makeBreakpointId
 (
 action
 .
@@ -961,7 +961,7 @@ state
 .
 breakpoints
 [
-makeLocationId
+makeBreakpointId
 (
 previousLocation
 )
@@ -981,7 +981,7 @@ state
 const
 locationId
 =
-makeLocationId
+makeBreakpointId
 (
 breakpoint
 .
@@ -1016,7 +1016,7 @@ action
 const
 locationId
 =
-makeLocationId
+makeBreakpointId
 (
 breakpoint
 .
@@ -1078,7 +1078,7 @@ breakpoint
 const
 locationId
 =
-makeLocationId
+makeBreakpointId
 (
 breakpoint
 .
@@ -1129,7 +1129,7 @@ breakpoint
 const
 locationId
 =
-makeLocationId
+makeBreakpointId
 (
 breakpoint
 .
@@ -1183,7 +1183,7 @@ action
 const
 id
 =
-makeLocationId
+makeBreakpointId
 (
 breakpoint
 .
@@ -1332,7 +1332,7 @@ state
 return
 breakpoints
 [
-makeLocationId
+makeBreakpointId
 (
 location
 )
