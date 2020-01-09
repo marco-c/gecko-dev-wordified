@@ -161,6 +161,15 @@ TypedEnumBits
 h
 "
 #
+include
+"
+mozilla
+/
+Unused
+.
+h
+"
+#
 define
 COPY_CODES
 (
@@ -854,6 +863,11 @@ defined
 (
 _M_ARM64
 )
+Unused
+<
+<
+opcode1
+;
 MOZ_RELEASE_ASSERT
 (
 false
