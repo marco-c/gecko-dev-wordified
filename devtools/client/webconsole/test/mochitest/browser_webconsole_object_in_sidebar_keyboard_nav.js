@@ -299,6 +299,11 @@ length
 5
 )
 ;
+objectInspector
+.
+focus
+(
+)
 const
 [
 root
