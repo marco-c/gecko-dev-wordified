@@ -1873,7 +1873,7 @@ run
 '
 -
 -
-vcs
+firefox
 -
 checkout
 '

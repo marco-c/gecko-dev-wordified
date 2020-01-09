@@ -1278,7 +1278,7 @@ run
 '
 -
 -
-vcs
+firefox
 -
 checkout
 =

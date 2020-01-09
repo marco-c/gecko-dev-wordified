@@ -1244,7 +1244,7 @@ extend
 '
 -
 -
-vcs
+firefox
 -
 checkout
 '

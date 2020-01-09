@@ -432,7 +432,7 @@ append
 '
 -
 -
-vcs
+firefox
 -
 checkout
 =
