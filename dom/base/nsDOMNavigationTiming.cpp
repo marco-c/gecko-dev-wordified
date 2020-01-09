@@ -553,7 +553,7 @@ Now
 (
 )
 ;
-PROFILER_TRACING_DOCSHELL
+PROFILER_TRACING
 (
 "
 Navigation
@@ -562,7 +562,6 @@ Navigation
 Unload
 "
 TRACING_INTERVAL_START
-mDocShell
 )
 ;
 }
@@ -583,7 +582,7 @@ Now
 (
 )
 ;
-PROFILER_TRACING_DOCSHELL
+PROFILER_TRACING
 (
 "
 Navigation
@@ -592,7 +591,6 @@ Navigation
 Unload
 "
 TRACING_INTERVAL_END
-mDocShell
 )
 ;
 }
@@ -626,7 +624,7 @@ Now
 (
 )
 ;
-PROFILER_TRACING_DOCSHELL
+PROFILER_TRACING
 (
 "
 Navigation
@@ -635,7 +633,6 @@ Navigation
 Load
 "
 TRACING_INTERVAL_START
-mDocShell
 )
 ;
 if
@@ -750,7 +747,7 @@ Now
 (
 )
 ;
-PROFILER_TRACING_DOCSHELL
+PROFILER_TRACING
 (
 "
 Navigation
@@ -759,7 +756,6 @@ Navigation
 Load
 "
 TRACING_INTERVAL_END
-mDocShell
 )
 ;
 if
@@ -999,7 +995,7 @@ Now
 (
 )
 ;
-PROFILER_TRACING_DOCSHELL
+PROFILER_TRACING
 (
 "
 Navigation
@@ -1008,7 +1004,6 @@ Navigation
 DOMContentLoaded
 "
 TRACING_INTERVAL_START
-mDocShell
 )
 ;
 if
@@ -1130,7 +1125,7 @@ Now
 (
 )
 ;
-PROFILER_TRACING_DOCSHELL
+PROFILER_TRACING
 (
 "
 Navigation
@@ -1139,7 +1134,6 @@ Navigation
 DOMContentLoaded
 "
 TRACING_INTERVAL_END
-mDocShell
 )
 ;
 if

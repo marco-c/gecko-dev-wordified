@@ -9565,7 +9565,7 @@ IsEmpty
 )
 )
 {
-AUTO_PROFILER_TRACING_DOCSHELL
+AUTO_PROFILER_TRACING
 (
 "
 Paint
@@ -9573,10 +9573,6 @@ Paint
 "
 Scripts
 "
-GetDocShell
-(
-mPresContext
-)
 )
 ;
 for
