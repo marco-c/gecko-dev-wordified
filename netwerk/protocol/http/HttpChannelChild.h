@@ -1628,10 +1628,8 @@ aRejectedReason
 )
 ;
 void
-ProcessNotifyClassificationFlags
+ProcessNotifyTrackingResource
 (
-uint32_t
-aClassificationFlags
 bool
 aIsThirdParty
 )

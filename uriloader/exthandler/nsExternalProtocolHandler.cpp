@@ -2459,10 +2459,8 @@ NS_IMETHODIMP
 nsExtProtocolChannel
 :
 :
-NotifyClassificationFlags
+NotifyTrackingResource
 (
-uint32_t
-aClassificationFlags
 bool
 aIsThirdParty
 )

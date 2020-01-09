@@ -274,10 +274,8 @@ NS_IMETHODIMP
 DataChannelParent
 :
 :
-NotifyClassificationFlags
+NotifyTrackingResource
 (
-uint32_t
-aClassificationFlags
 bool
 aIsThirdParty
 )

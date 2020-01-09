@@ -12258,10 +12258,8 @@ NS_IMETHODIMP
 HttpChannelParent
 :
 :
-NotifyClassificationFlags
+NotifyTrackingResource
 (
-uint32_t
-aClassificationFlags
 bool
 aIsThirdParty
 )
@@ -12273,15 +12271,7 @@ LOG
 HttpChannelParent
 :
 :
-NotifyClassificationFlags
-"
-"
-classificationFlags
-=
-%
-"
-PRIu32
-"
+NotifyTrackingResource
 thirdparty
 =
 %
@@ -12295,7 +12285,6 @@ p
 \
 n
 "
-aClassificationFlags
 static_cast
 <
 int
@@ -12324,9 +12313,8 @@ Unused
 mBgParent
 -
 >
-OnNotifyClassificationFlags
+OnNotifyTrackingResource
 (
-aClassificationFlags
 aIsThirdParty
 )
 ;

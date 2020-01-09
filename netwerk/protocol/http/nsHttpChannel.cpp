@@ -4151,10 +4151,12 @@ RedirectToInterceptedChannel
 bool
 isTrackingResource
 =
-IsThirdPartyTrackingResource
-(
-)
+mIsThirdPartyTrackingResource
 ;
+/
+/
+is
+atomic
 LOG
 (
 (
@@ -15323,9 +15325,7 @@ httpStatus
 mRequestHead
 mResponseHead
 lci
-IsThirdPartyTrackingResource
-(
-)
+mIsThirdPartyTrackingResource
 )
 ;
 }
@@ -25364,9 +25364,7 @@ TRR
 }
 if
 (
-IsThirdPartyTrackingResource
-(
-)
+mIsThirdPartyTrackingResource
 &
 &
 !

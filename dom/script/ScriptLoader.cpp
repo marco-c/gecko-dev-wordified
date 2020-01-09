@@ -22227,7 +22227,7 @@ URL
 or
 *
 fingerprinting
-cryptomining
+cryptoming
 etc
 )
 .
