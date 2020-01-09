@@ -376,6 +376,15 @@ formattedFrames
 )
 ;
 }
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
 export
 const
 getCallStackFrames

@@ -256,6 +256,7 @@ SELECT_THREAD
 "
 thread
 }
+;
 }
 /
 *

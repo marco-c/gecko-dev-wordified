@@ -1050,8 +1050,6 @@ openQuickOpen
 (
 )
 ;
-return
-;
 }
 ;
 onLayoutChange

@@ -543,14 +543,10 @@ return
 (
 IGNORED_URLS
 .
-indexOf
+includes
 (
 url
 )
-!
-=
--
-1
 |
 |
 !

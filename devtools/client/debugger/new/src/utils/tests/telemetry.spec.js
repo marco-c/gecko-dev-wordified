@@ -191,6 +191,16 @@ debugger
 "
 null
 {
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+camelcase
 session_id
 :
 -

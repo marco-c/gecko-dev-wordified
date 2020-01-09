@@ -128,7 +128,7 @@ string
 return
 str
 .
-indexOf
+includes
 (
 "
 :
@@ -136,11 +136,6 @@ indexOf
 /
 "
 )
-!
-=
-=
--
-1
 ;
 }
 export

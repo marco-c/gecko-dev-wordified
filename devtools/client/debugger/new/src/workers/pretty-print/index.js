@@ -223,7 +223,6 @@ files
 )
 ;
 return
-await
 _prettyPrint
 (
 {

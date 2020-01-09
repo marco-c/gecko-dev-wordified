@@ -267,8 +267,6 @@ i
 "
 ;
 }
-return
-;
 }
 export
 default

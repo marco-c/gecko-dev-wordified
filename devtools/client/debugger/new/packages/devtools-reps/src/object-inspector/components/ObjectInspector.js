@@ -715,8 +715,6 @@ rootsChanged
 )
 ;
 }
-return
-;
 }
 }
 removeOutdatedNodesFromCache
