@@ -12429,10 +12429,7 @@ check
 dance
 )
 let
-(
-local_rect_changed
 clip_node_collector
-)
 =
 self
 .
@@ -12452,13 +12449,6 @@ pic_context_for_children
 pic_state_for_children
 frame_state
 )
-;
-pic_state
-.
-local_rect_changed
-|
-=
-local_rect_changed
 ;
 (
 is_passthrough
@@ -13193,7 +13183,6 @@ prim_local_rect
 pic_context
 .
 surface_index
-pic_state
 frame_context
 frame_state
 )

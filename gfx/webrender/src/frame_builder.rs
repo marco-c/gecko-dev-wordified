@@ -698,10 +698,6 @@ is_cacheable
 :
 bool
 pub
-local_rect_changed
-:
-bool
-pub
 map_local_to_pic
 :
 SpaceMapper
