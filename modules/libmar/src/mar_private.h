@@ -298,7 +298,6 @@ sizeof
 BLOCKSIZE
 )
 <
-\
 (
 SIGNATURE_BLOCK_OFFSET
 +
@@ -501,8 +500,8 @@ HOST_TO_NETWORK64
 (
 x
 )
-(
 \
+(
 (
 (
 (
@@ -519,7 +518,6 @@ x
 56
 )
 |
-\
 (
 (
 (
@@ -650,7 +648,6 @@ x
 8
 )
 |
-\
 (
 (
 (

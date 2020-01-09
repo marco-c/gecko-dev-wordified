@@ -237,7 +237,6 @@ CryptoX_InitCryptoProvider
 (
 CryptoHandle
 )
-\
 CryptoX_Success
 #
 define
@@ -336,7 +335,6 @@ CryptoX_FreePublicKey
 (
 key
 )
-\
 SECKEY_DestroyPublicKey
 (
 *
@@ -348,7 +346,6 @@ CryptoX_FreeCertificate
 (
 cert
 )
-\
 CERT_DestroyCertificate
 (
 *
@@ -586,7 +583,6 @@ CryptoX_FreePublicKey
 (
 aPublicKey
 )
-\
 CryptoMac_FreePublicKey
 (
 aPublicKey
@@ -803,7 +799,6 @@ CryptoX_FreePublicKey
 (
 key
 )
-\
 CryptDestroyKey
 (
 *
@@ -915,7 +910,6 @@ CryptoX_InitCryptoProvider
 (
 CryptoHandle
 )
-\
 CryptoX_Error
 #
 define

@@ -626,6 +626,7 @@ MAR
 file
 with
 replaced
+*
 signature
 *
 return
