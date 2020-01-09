@@ -14077,7 +14077,7 @@ computed
 :
 {
 BorderImageSlice
-NumberOrPercentage
+NonNegativeNumberOrPercentage
 }
 ;
 type
@@ -14097,7 +14097,7 @@ rect
 :
 Rect
 <
-NumberOrPercentage
+NonNegativeNumberOrPercentage
 >
 ;
 BorderImageSlice

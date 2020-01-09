@@ -2136,17 +2136,8 @@ specified
 BorderSideWidth
 :
 :
-Length
-(
-specified
-:
-:
-Length
-:
-:
 zero
 (
-)
 )
 "
 computed_type

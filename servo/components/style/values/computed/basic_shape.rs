@@ -140,6 +140,7 @@ computed
 {
 Image
 LengthOrPercentage
+NonNegativeLengthOrPercentage
 }
 ;
 use
@@ -265,6 +266,7 @@ BasicShape
 LengthOrPercentage
 LengthOrPercentage
 LengthOrPercentage
+NonNegativeLengthOrPercentage
 >
 ;
 /
@@ -287,6 +289,7 @@ generic
 InsetRect
 <
 LengthOrPercentage
+NonNegativeLengthOrPercentage
 >
 ;
 /

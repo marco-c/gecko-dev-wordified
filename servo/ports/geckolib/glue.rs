@@ -27406,9 +27406,9 @@ length
 :
 :
 {
-LengthOrPercentage
 NoCalcLength
 NonNegativeLength
+NonNegativeLengthOrPercentage
 }
 ;
 use
@@ -27642,7 +27642,7 @@ BorderTopLeftRadius
 let
 length
 =
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 :
 :
 from
@@ -27676,7 +27676,7 @@ BorderTopRightRadius
 let
 length
 =
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 :
 :
 from
@@ -27710,7 +27710,7 @@ BorderBottomLeftRadius
 let
 length
 =
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 :
 :
 from
@@ -27744,7 +27744,7 @@ BorderBottomRightRadius
 let
 length
 =
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 :
 :
 from
