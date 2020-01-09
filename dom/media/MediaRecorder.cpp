@@ -8249,7 +8249,10 @@ Debug
 MediaRecorder
 .
 Pause
+%
+p
 "
+this
 )
 )
 ;
@@ -8345,7 +8348,10 @@ Debug
 MediaRecorder
 .
 Resume
+%
+p
 "
+this
 )
 )
 ;
