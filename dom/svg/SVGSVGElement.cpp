@@ -4746,7 +4746,7 @@ nullptr
 ;
 }
 const
-nsSVGViewBox
+SVGViewBox
 &
 SVGSVGElement
 :

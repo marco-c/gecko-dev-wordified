@@ -460,7 +460,10 @@ SVGTransformList
 mSVGTransformList
 ;
 const
-nsSVGViewBox
+mozilla
+:
+:
+SVGViewBox
 *
 mSVGViewBox
 ;

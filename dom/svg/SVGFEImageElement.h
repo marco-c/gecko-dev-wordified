@@ -332,7 +332,7 @@ const
 override
 ;
 virtual
-nsSVGString
+SVGString
 &
 GetResultImageName
 (
@@ -577,7 +577,7 @@ HREF
 XLINK_HREF
 }
 ;
-nsSVGString
+SVGString
 mStringAttributes
 [
 3

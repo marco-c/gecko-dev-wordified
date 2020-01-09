@@ -2130,7 +2130,7 @@ GetCurrentViewElement
 )
 ;
 const
-nsSVGViewBoxRect
+SVGViewBoxRect
 *
 viewbox
 =

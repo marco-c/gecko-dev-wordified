@@ -164,7 +164,7 @@ h
 #
 include
 "
-nsSVGString
+SVGString
 .
 h
 "
@@ -197,7 +197,7 @@ SVGStringInfo
 SVGStringInfo
 (
 const
-nsSVGString
+SVGString
 *
 aString
 SVGElement
@@ -216,7 +216,7 @@ aElement
 {
 }
 const
-nsSVGString
+SVGString
 *
 mString
 ;
@@ -591,7 +591,7 @@ eFILTER
 ;
 }
 virtual
-nsSVGString
+SVGString
 &
 GetResultImageName
 (
@@ -1244,7 +1244,7 @@ const
 override
 ;
 virtual
-nsSVGString
+SVGString
 &
 GetResultImageName
 (
@@ -1405,7 +1405,7 @@ RESULT
 IN1
 }
 ;
-nsSVGString
+SVGString
 mStringAttributes
 [
 2

@@ -225,7 +225,7 @@ mozilla
 SVGEnum
 mZoomAndPan
 ;
-nsSVGViewBox
+SVGViewBox
 mViewBox
 ;
 SVGAnimatedPreserveAspectRatio
@@ -1396,7 +1396,7 @@ mCurrentScale
 }
 virtual
 const
-nsSVGViewBox
+SVGViewBox
 &
 GetViewBoxInternal
 (

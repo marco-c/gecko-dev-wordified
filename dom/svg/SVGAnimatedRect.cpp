@@ -142,7 +142,7 @@ h
 #
 include
 "
-nsSVGViewBox
+SVGViewBox
 .
 h
 "
@@ -179,7 +179,7 @@ SVGAnimatedRect
 :
 SVGAnimatedRect
 (
-nsSVGViewBox
+SVGViewBox
 *
 aVal
 SVGElement
@@ -205,7 +205,7 @@ SVGAnimatedRect
 (
 )
 {
-nsSVGViewBox
+SVGViewBox
 :
 :
 sSVGAnimatedRectTearoffTable

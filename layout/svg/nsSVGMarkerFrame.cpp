@@ -823,7 +823,7 @@ return
 ;
 }
 const
-nsSVGViewBoxRect
+SVGViewBoxRect
 viewBox
 =
 marker
@@ -1145,7 +1145,7 @@ bbox
 ;
 }
 const
-nsSVGViewBoxRect
+SVGViewBoxRect
 viewBox
 =
 content

@@ -1374,7 +1374,7 @@ sEnumInfo
 )
 ;
 }
-nsSVGViewBox
+SVGViewBox
 *
 SVGPatternElement
 :

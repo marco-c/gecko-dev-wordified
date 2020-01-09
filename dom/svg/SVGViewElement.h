@@ -144,7 +144,7 @@ h
 #
 include
 "
-nsSVGViewBox
+SVGViewBox
 .
 h
 "
@@ -396,7 +396,7 @@ sEnumInfo
 ]
 ;
 virtual
-nsSVGViewBox
+SVGViewBox
 *
 GetViewBox
 (
@@ -411,7 +411,7 @@ GetPreserveAspectRatio
 )
 override
 ;
-nsSVGViewBox
+SVGViewBox
 mViewBox
 ;
 SVGAnimatedPreserveAspectRatio

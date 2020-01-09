@@ -277,7 +277,7 @@ const
 override
 ;
 const
-nsSVGString
+SVGString
 *
 GetIn1
 (
@@ -316,7 +316,7 @@ enum
 IN1
 }
 ;
-nsSVGString
+SVGString
 mStringAttributes
 [
 1

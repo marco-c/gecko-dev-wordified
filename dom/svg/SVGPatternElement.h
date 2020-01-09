@@ -158,14 +158,14 @@ h
 #
 include
 "
-nsSVGString
+SVGString
 .
 h
 "
 #
 include
 "
-nsSVGViewBox
+SVGViewBox
 .
 h
 "
@@ -486,7 +486,7 @@ GetEnumInfo
 override
 ;
 virtual
-nsSVGViewBox
+SVGViewBox
 *
 GetViewBox
 (
@@ -563,7 +563,7 @@ HREF
 XLINK_HREF
 }
 ;
-nsSVGString
+SVGString
 mStringAttributes
 [
 2
@@ -580,7 +580,7 @@ sStringInfo
 /
 SVGFitToViewbox
 properties
-nsSVGViewBox
+SVGViewBox
 mViewBox
 ;
 SVGAnimatedPreserveAspectRatio

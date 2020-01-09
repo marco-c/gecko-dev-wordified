@@ -206,7 +206,7 @@ h
 #
 include
 "
-nsSVGViewBox
+SVGViewBox
 .
 h
 "
@@ -815,7 +815,7 @@ PreserveAspectRatio
 )
 ;
 virtual
-nsSVGViewBox
+SVGViewBox
 *
 GetViewBox
 (
@@ -1060,7 +1060,7 @@ viewport
 .
 *
 /
-nsSVGViewBoxRect
+SVGViewBoxRect
 GetViewBoxWithSynthesis
 (
 float
@@ -1154,7 +1154,7 @@ override
 ;
 virtual
 const
-nsSVGViewBox
+SVGViewBox
 &
 GetViewBoxInternal
 (
@@ -1177,7 +1177,7 @@ return
 mTransforms
 ;
 }
-nsSVGViewBox
+SVGViewBox
 mViewBox
 ;
 SVGAnimatedPreserveAspectRatio

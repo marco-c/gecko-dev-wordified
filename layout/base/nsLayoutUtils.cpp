@@ -66056,7 +66056,7 @@ the
 viewBox
 attribute
 .
-nsSVGViewBox
+SVGViewBox
 *
 viewBox
 =
@@ -66068,7 +66068,7 @@ GetViewBox
 )
 ;
 const
-nsSVGViewBoxRect
+SVGViewBoxRect
 &
 value
 =

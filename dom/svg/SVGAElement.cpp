@@ -187,13 +187,6 @@ h
 #
 include
 "
-nsSVGString
-.
-h
-"
-#
-include
-"
 nsIContentInlines
 .
 h

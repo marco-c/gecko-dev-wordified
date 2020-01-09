@@ -1669,7 +1669,7 @@ Matrix
 /
 singular
 }
-nsSVGViewBoxRect
+SVGViewBoxRect
 viewBox
 =
 GetViewBoxWithSynthesis
@@ -1842,7 +1842,7 @@ aCtxType
 )
 {
 const
-nsSVGViewBoxRect
+SVGViewBoxRect
 *
 viewbox
 =
@@ -2536,7 +2536,7 @@ GetAnimValInSpecifiedUnits
 )
 ;
 }
-nsSVGViewBox
+SVGViewBox
 *
 SVGViewportElement
 :
@@ -2684,7 +2684,7 @@ IsBeingUsedAsImage
 /
 implementation
 helpers
-nsSVGViewBoxRect
+SVGViewBoxRect
 SVGViewportElement
 :
 :
@@ -2764,7 +2764,7 @@ svg
 .
 )
 return
-nsSVGViewBoxRect
+SVGViewBoxRect
 (
 0
 0
@@ -2820,7 +2820,7 @@ viewport
 size
 .
 return
-nsSVGViewBoxRect
+SVGViewBoxRect
 (
 0
 0

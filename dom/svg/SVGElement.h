@@ -276,12 +276,6 @@ nsSVGLength2
 class
 nsSVGNumber2
 ;
-class
-nsSVGString
-;
-class
-nsSVGViewBox
-;
 nsresult
 NS_NewSVGElement
 (
@@ -353,10 +347,16 @@ class
 SVGNumberPair
 ;
 class
+SVGString
+;
+class
 SVGStringList
 ;
 class
 DOMSVGStringList
+;
+class
+SVGViewBox
 ;
 struct
 SVGEnumMapping
@@ -3117,7 +3117,7 @@ mIsAnimatable
 struct
 StringAttributesInfo
 {
-nsSVGString
+SVGString
 *
 const
 mStrings
@@ -3134,7 +3134,7 @@ mStringCount
 ;
 StringAttributesInfo
 (
-nsSVGString
+SVGString
 *
 aStrings
 StringInfo
@@ -3308,7 +3308,7 @@ wrap
 the
 class
 virtual
-nsSVGViewBox
+SVGViewBox
 *
 GetViewBox
 (

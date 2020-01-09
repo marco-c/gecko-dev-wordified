@@ -684,7 +684,7 @@ sEnumInfo
 )
 ;
 }
-nsSVGViewBox
+SVGViewBox
 *
 SVGViewElement
 :
