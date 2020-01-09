@@ -441,9 +441,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aInputStream
@@ -592,7 +589,7 @@ rv
 PushAvailableData
 (
 aRequest
-aContext
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -821,7 +818,6 @@ mListener
 OnDataAvailable
 (
 aRequest
-mContext
 stream
 mOffset
 bytesToWrite

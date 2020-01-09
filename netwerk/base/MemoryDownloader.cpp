@@ -373,9 +373,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aCtxt
 nsIInputStream
 *
 aInStr

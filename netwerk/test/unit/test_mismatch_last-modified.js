@@ -292,7 +292,6 @@ function
 test_ODA
 (
 request
-cx
 inputStream
 offset
 count
@@ -451,7 +450,6 @@ function
 test_ODA
 (
 request
-cx
 inputStream
 offset
 count
@@ -690,7 +688,6 @@ function
 test_ODA
 (
 request
-cx
 inputStream
 offset
 count

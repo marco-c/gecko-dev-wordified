@@ -2130,7 +2130,6 @@ rv
 OnDataAvailable
 (
 mChannel
-nullptr
 stringStream
 offset
 count
@@ -3433,9 +3432,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aInputStream
@@ -3492,7 +3488,6 @@ mDivertToListener
 OnDataAvailable
 (
 aRequest
-aContext
 aInputStream
 aOffset
 aCount

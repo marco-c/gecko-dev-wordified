@@ -3679,9 +3679,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aInputStream
@@ -3790,7 +3787,6 @@ listener
 OnDataAvailable
 (
 aRequest
-aContext
 aInputStream
 aOffset
 aCount
@@ -7613,9 +7609,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-ctxt
 nsIInputStream
 *
 inStr

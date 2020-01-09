@@ -6661,9 +6661,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aInputStream
@@ -6719,7 +6716,6 @@ listenerGrip
 OnDataAvailable
 (
 aRequest
-aContext
 aInputStream
 aOffset
 aCount

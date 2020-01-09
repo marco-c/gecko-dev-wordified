@@ -2781,7 +2781,6 @@ onDataAvailable
 function
 (
 request
-cx
 stream
 offset
 cnt

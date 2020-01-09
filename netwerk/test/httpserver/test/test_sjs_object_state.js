@@ -1582,7 +1582,6 @@ called
 onDataAvailable
 (
 request
-cx
 inputStream
 offset
 count

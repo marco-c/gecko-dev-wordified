@@ -575,7 +575,6 @@ onDataAvailable
 function
 (
 aRequest
-aContext
 aInputStream
 aOffset
 aCount

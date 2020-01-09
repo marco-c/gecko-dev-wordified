@@ -676,9 +676,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aSource

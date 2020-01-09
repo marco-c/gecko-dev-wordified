@@ -9161,7 +9161,6 @@ function
 saveLinkAs_onDataAvailable
 (
 aRequest
-aContext
 aInputStream
 aOffset
 aCount
@@ -9174,7 +9173,6 @@ extListener
 onDataAvailable
 (
 aRequest
-aContext
 aInputStream
 aOffset
 aCount

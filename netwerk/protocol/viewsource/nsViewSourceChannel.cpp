@@ -3394,9 +3394,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aInputStream
@@ -3426,7 +3423,6 @@ nsIViewSourceChannel
 (
 this
 )
-aContext
 aInputStream
 aSourceOffset
 aLength

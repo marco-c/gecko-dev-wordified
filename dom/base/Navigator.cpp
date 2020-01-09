@@ -6458,9 +6458,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-ctxt
 nsIInputStream
 *
 inStr

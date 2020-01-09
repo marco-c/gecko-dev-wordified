@@ -180,7 +180,6 @@ onDataAvailable
 function
 (
 request
-ctx
 stream
 )
 {

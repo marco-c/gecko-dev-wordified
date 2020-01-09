@@ -3788,7 +3788,6 @@ asyncRead
 onDataAvailable
 (
 aRequest
-aContext
 aInputStream
 )
 {

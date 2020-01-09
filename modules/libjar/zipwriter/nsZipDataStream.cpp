@@ -349,9 +349,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aInputStream
@@ -412,7 +409,7 @@ return
 ProcessData
 (
 aRequest
-aContext
+nullptr
 buffer
 .
 get
@@ -710,7 +707,6 @@ mOutput
 OnDataAvailable
 (
 aRequest
-aContext
 stream
 aOffset
 aCount

@@ -260,9 +260,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aInStream
@@ -292,7 +289,6 @@ mDelegate
 OnDataAvailable
 (
 aRequest
-aContext
 aInStream
 aSourceOffset
 aLength

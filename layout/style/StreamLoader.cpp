@@ -817,8 +817,6 @@ OnDataAvailable
 (
 nsIRequest
 *
-nsISupports
-*
 nsIInputStream
 *
 aInputStream

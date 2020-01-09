@@ -384,7 +384,6 @@ mListener
 OnDataAvailable
 (
 this
-aContext
 aStream
 aOffset
 aLen
@@ -2375,9 +2374,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-context
 nsIInputStream
 *
 inStr

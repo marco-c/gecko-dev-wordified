@@ -696,9 +696,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-context
 nsIInputStream
 *
 aIStream
@@ -1638,9 +1635,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-context
 nsIInputStream
 *
 aIStream

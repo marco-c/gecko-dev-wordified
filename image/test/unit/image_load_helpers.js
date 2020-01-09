@@ -458,7 +458,6 @@ function
 onDataAvailable
 (
 aRequest
-aContext
 aInputStream
 aOffset
 aCount
@@ -477,7 +476,6 @@ outputListener
 onDataAvailable
 (
 aRequest
-aContext
 aInputStream
 aOffset
 aCount

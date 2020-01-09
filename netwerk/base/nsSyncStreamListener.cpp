@@ -782,9 +782,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-context
 nsIInputStream
 *
 stream
