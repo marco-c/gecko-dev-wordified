@@ -6150,6 +6150,11 @@ XMLPARSEAPI
 void
 *
 )
+XML_ATTR_MALLOC
+XML_ATTR_ALLOC_SIZE
+(
+2
+)
 XML_MemMalloc
 (
 XML_Parser
@@ -6162,6 +6167,10 @@ XMLPARSEAPI
 (
 void
 *
+)
+XML_ATTR_ALLOC_SIZE
+(
+3
 )
 XML_MemRealloc
 (
