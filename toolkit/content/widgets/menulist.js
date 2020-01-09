@@ -88,6 +88,8 @@ scope
 const
 MozXULMenuElement
 =
+MozElements
+.
 MozElementMixin
 (
 XULMenuElement
@@ -96,6 +98,8 @@ XULMenuElement
 const
 MenuBaseControl
 =
+MozElements
+.
 BaseControlMixin
 (
 MozXULMenuElement

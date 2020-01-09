@@ -88,6 +88,8 @@ scope
 const
 MozPopupElement
 =
+MozElements
+.
 MozElementMixin
 (
 XULPopupElement
