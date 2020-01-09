@@ -163,7 +163,7 @@ namespace
 dom
 {
 typedef
-nsSVGFE
+SVGFE
 SVGFEBlendElementBase
 ;
 class

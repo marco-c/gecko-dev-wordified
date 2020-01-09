@@ -626,7 +626,7 @@ GetNextSibling
 {
 RefPtr
 <
-nsSVGFE
+SVGFE
 >
 primitive
 ;
@@ -634,7 +634,7 @@ CallQueryInterface
 (
 child
 (
-nsSVGFE
+SVGFE
 *
 *
 )

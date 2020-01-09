@@ -156,7 +156,7 @@ namespace
 dom
 {
 typedef
-nsSVGFE
+SVGFE
 SVGFEMergeElementBase
 ;
 class

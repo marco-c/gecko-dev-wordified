@@ -177,7 +177,7 @@ namespace
 dom
 {
 typedef
-nsSVGFE
+SVGFE
 SVGFEDropShadowElementBase
 ;
 class

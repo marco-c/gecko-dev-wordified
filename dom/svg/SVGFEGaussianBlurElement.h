@@ -170,7 +170,7 @@ namespace
 dom
 {
 typedef
-nsSVGFE
+SVGFE
 SVGFEGaussianBlurElementBase
 ;
 class

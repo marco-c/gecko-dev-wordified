@@ -211,7 +211,7 @@ class
 SVGAnimatedBoolean
 ;
 typedef
-nsSVGFE
+SVGFE
 SVGFEConvolveMatrixElementBase
 ;
 class

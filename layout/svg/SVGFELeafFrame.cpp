@@ -492,13 +492,13 @@ int32_t
 aModType
 )
 {
-nsSVGFE
+SVGFE
 *
 element
 =
 static_cast
 <
-nsSVGFE
+SVGFE
 *
 >
 (
