@@ -266,6 +266,7 @@ const
 {
 atob
 btoa
+Blob
 ChromeUtils
 CSS
 CSSRule
@@ -313,6 +314,9 @@ atob
 "
 "
 btoa
+"
+"
+Blob
 "
 "
 ChromeUtils
@@ -1252,7 +1256,6 @@ modules
 =
 {
 ChromeUtils
-FileReader
 HeapSnapshot
 InspectorUtils
 promise
@@ -1623,6 +1626,7 @@ globals
 =
 {
 atob
+Blob
 btoa
 console
 CSS
@@ -1793,6 +1797,7 @@ DOMQuad
 DOMRect
 Element
 Event
+FileReader
 FormData
 isWorker
 :
