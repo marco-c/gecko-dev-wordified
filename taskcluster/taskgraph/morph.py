@@ -272,14 +272,13 @@ copy
     
 new_edges
 =
+set
+(
 taskgraph
 .
 graph
 .
 edges
-.
-copy
-(
 )
     
 for

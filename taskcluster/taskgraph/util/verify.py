@@ -79,6 +79,8 @@ import
 os
 import
 sys
+import
+attr
 from
 .
 .
@@ -107,6 +109,14 @@ taskcluster
 '
 docs
 '
+)
+attr
+.
+s
+(
+frozen
+=
+True
 )
 class
 VerificationSequence
@@ -180,19 +190,16 @@ task
 "
 "
     
-def
-__init__
-(
-self
-)
-:
-        
-self
-.
-verifications
+_verifications
 =
-{
-}
+attr
+.
+ib
+(
+factory
+=
+dict
+)
     
 def
 __call__
@@ -208,7 +215,7 @@ verification
 in
 self
 .
-verifications
+_verifications
 .
 get
 (
@@ -263,7 +270,7 @@ func
             
 self
 .
-verifications
+_verifications
 .
 setdefault
 (
