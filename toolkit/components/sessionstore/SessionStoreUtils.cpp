@@ -190,13 +190,6 @@ nsPrintfCString
 .
 h
 "
-#
-include
-"
-nsTArrayHelpers
-.
-h
-"
 using
 namespace
 mozilla

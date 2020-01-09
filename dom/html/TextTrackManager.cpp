@@ -249,13 +249,6 @@ h
 #
 include
 "
-nsTArrayHelpers
-.
-h
-"
-#
-include
-"
 nsVariant
 .
 h
