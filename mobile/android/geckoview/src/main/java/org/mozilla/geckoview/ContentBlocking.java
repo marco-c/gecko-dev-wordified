@@ -2636,6 +2636,7 @@ boolean
 catToCmPref
 (
 Category
+final
 int
 cat
 )
@@ -2661,6 +2662,7 @@ String
 catToCmListPref
 (
 Category
+final
 int
 cat
 )
