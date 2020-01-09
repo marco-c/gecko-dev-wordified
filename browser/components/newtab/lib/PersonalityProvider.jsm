@@ -1073,6 +1073,11 @@ fetch
 remoteFilePath
 {
 headers
+credentials
+:
+"
+omit
+"
 }
 )
 ;

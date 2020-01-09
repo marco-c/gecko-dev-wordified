@@ -1568,6 +1568,11 @@ stringify
 (
 payload
 )
+credentials
+:
+"
+omit
+"
 }
 )
 .
@@ -1793,6 +1798,11 @@ stringify
 (
 payload
 )
+credentials
+:
+"
+omit
+"
 }
 )
 .
