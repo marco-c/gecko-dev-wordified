@@ -3182,12 +3182,6 @@ servo
 Servo
     
 "
-servodriver
-"
-:
-Servo
-    
-"
 sauce
 "
 :
@@ -3493,13 +3487,6 @@ channel
         
 if
 channel
-is
-not
-None
-:
-            
-if
-channel
 !
 =
 kwargs
@@ -3509,7 +3496,7 @@ channel
 "
 ]
 :
-                
+            
 logger
 .
 info
@@ -3535,11 +3522,11 @@ kwargs
 channel
 "
 ]
-                                                                   
+                                                               
 channel
 )
 )
-                
+        
 kwargs
 [
 "
@@ -3548,35 +3535,6 @@ browser_channel
 ]
 =
 channel
-        
-else
-:
-            
-logger
-.
-info
-(
-"
-Valid
-channels
-for
-%
-s
-not
-known
-;
-using
-argument
-unmodified
-"
-%
-kwargs
-[
-"
-product
-"
-]
-)
     
 del
 kwargs

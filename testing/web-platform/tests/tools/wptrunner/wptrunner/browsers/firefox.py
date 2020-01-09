@@ -1441,12 +1441,6 @@ None
         
 self
 .
-lsan_max_stack_depth
-=
-None
-        
-self
-.
 leak_check
 =
 leak_check
@@ -1496,14 +1490,6 @@ lsan_allowed
 test
 .
 lsan_allowed
-        
-self
-.
-lsan_max_stack_depth
-=
-test
-.
-lsan_max_stack_depth
         
 return
 {
@@ -1630,12 +1616,6 @@ allowed
 self
 .
 lsan_allowed
-                                                  
-maxNumRecordedFrames
-=
-self
-.
-lsan_max_stack_depth
 )
         
 env
