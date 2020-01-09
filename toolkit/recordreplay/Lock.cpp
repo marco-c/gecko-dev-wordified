@@ -1122,6 +1122,14 @@ mOwner
 ShouldIdle
 (
 )
+&
+&
+Thread
+:
+:
+CurrentIsMainThread
+(
+)
 )
 {
 ex
