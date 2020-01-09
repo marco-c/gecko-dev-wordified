@@ -443,10 +443,7 @@ for
 dealing
 with
 promises
-and
-Task
 .
-jsm
 *
 /
 const
