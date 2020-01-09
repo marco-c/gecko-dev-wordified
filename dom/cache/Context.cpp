@@ -2775,6 +2775,12 @@ mGroup
 mQuotaInfo
 .
 mOrigin
+/
+*
+aCreateIfNotExists
+*
+/
+true
 getter_AddRefs
 (
 mQuotaInfo

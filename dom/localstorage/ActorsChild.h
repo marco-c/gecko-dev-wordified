@@ -599,7 +599,7 @@ LSObject
 ;
 friend
 class
-LSObjectChild
+LocalStorageManager2
 ;
 RefPtr
 <

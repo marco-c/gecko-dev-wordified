@@ -3906,6 +3906,12 @@ PERSISTENCE_TYPE_TEMPORARY
 mSuffix
 mGroup
 mOrigin
+/
+*
+aCreateIfNotExists
+*
+/
+true
 getter_AddRefs
 (
 mDirectory

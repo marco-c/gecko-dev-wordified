@@ -1153,6 +1153,8 @@ const
 nsACString
 &
 aOrigin
+bool
+aCreateIfNotExists
 nsIFile
 *
 *
@@ -1176,6 +1178,8 @@ const
 nsACString
 &
 aOrigin
+bool
+aCreateIfNotExists
 nsIFile
 *
 *
@@ -1196,6 +1200,8 @@ EnsureOriginDirectory
 nsIFile
 *
 aDirectory
+bool
+aCreateIfNotExists
 bool
 *
 aCreated
