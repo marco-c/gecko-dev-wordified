@@ -7668,6 +7668,14 @@ promiseRejectionTrackerCallbackData
 (
 nullptr
 )
+#
+ifdef
+JS_STRUCTURED_SPEW
+structuredSpewer_
+(
+)
+#
+endif
 {
 MOZ_ASSERT
 (

@@ -5323,7 +5323,7 @@ it
 .
 #
 ifdef
-JS_JITSPEW
+JS_STRUCTURED_SPEW
 if
 (
 !
@@ -6909,7 +6909,7 @@ it
 .
 #
 ifdef
-JS_JITSPEW
+JS_STRUCTURED_SPEW
 if
 (
 !
