@@ -1150,11 +1150,6 @@ id
 )
 ;
 }
-template
-<
-bool
-CheckForDuplicates
->
 static
 bool
 EnumerateExtraProperties
@@ -1326,7 +1321,7 @@ if
 !
 Enumerate
 <
-CheckForDuplicates
+true
 >
 (
 cx
@@ -3212,9 +3207,6 @@ if
 (
 !
 EnumerateExtraProperties
-<
-true
->
 (
 cx
 pobj
