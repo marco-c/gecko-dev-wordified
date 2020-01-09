@@ -64,6 +64,12 @@ use
 strict
 "
 ;
+/
+*
+global
+browserElementTestHelpers
+*
+/
 SimpleTest
 .
 waitForExplicitFinish
@@ -195,7 +201,7 @@ mozbrowsershowmodalprompt
 "
 function
 (
-e
+f
 )
 {
 ok
@@ -214,7 +220,7 @@ event
 ;
 is
 (
-e
+f
 .
 detail
 .

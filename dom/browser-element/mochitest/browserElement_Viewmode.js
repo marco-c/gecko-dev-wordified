@@ -43,6 +43,12 @@ use
 strict
 "
 ;
+/
+*
+global
+browserElementTestHelpers
+*
+/
 SimpleTest
 .
 waitForExplicitFinish

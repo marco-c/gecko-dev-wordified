@@ -50,6 +50,12 @@ use
 strict
 "
 ;
+/
+*
+global
+browserElementTestHelpers
+*
+/
 SimpleTest
 .
 waitForExplicitFinish
@@ -161,11 +167,6 @@ runTest
 (
 )
 {
-var
-count
-=
-0
-;
 var
 iframe
 =

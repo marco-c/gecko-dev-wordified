@@ -73,6 +73,12 @@ use
 strict
 "
 ;
+/
+*
+global
+browserElementTestHelpers
+*
+/
 SimpleTest
 .
 waitForExplicitFinish
@@ -209,12 +215,12 @@ mozbrowserlocationchange
 "
 function
 (
-e
+f
 )
 {
 if
 (
-e
+f
 .
 detail
 .
@@ -273,7 +279,7 @@ locationchange
 to
 "
 +
-e
+f
 .
 detail
 .
@@ -375,7 +381,7 @@ mozbrowseropenwindow
 "
 function
 (
-e
+f
 )
 {
 ok

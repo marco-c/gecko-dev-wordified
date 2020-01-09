@@ -63,6 +63,11 @@ SpecialPowers
 "
 :
 false
+"
+XPCNativeWrapper
+"
+:
+false
 }
 "
 overrides

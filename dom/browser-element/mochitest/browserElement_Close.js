@@ -43,6 +43,12 @@ use
 strict
 "
 ;
+/
+*
+global
+browserElementTestHelpers
+*
+/
 SimpleTest
 .
 waitForExplicitFinish
@@ -164,11 +170,7 @@ close
 )
 <
 /
-scr
-"
-+
-"
-ipt
+script
 >
 <
 /

@@ -50,6 +50,12 @@ use
 strict
 "
 ;
+/
+*
+global
+browserElementTestHelpers
+*
+/
 SimpleTest
 .
 waitForExplicitFinish
@@ -147,7 +153,7 @@ mozbrowserclose
 "
 function
 (
-e
+f
 )
 {
 ok
