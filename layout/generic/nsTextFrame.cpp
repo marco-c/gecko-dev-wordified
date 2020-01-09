@@ -28386,6 +28386,17 @@ mInitSelectionColorsAndShadow
 =
 true
 ;
+if
+(
+selectionStatus
+=
+=
+nsISelectionController
+:
+:
+SELECTION_ON
+)
+{
 /
 /
 Use
@@ -28394,8 +28405,6 @@ Use
 selection
 pseudo
 class
-if
-applicable
 .
 if
 (
@@ -28410,7 +28419,6 @@ mFrame
 >
 ComputeSelectionStyle
 (
-selectionStatus
 )
 )
 {
@@ -28461,6 +28469,7 @@ mTextShadow
 return
 true
 ;
+}
 }
 nscolor
 selectionBGColor
