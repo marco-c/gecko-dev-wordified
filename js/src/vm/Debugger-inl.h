@@ -862,7 +862,7 @@ if
 (
 MOZ_UNLIKELY
 (
-cx
+promise
 -
 >
 realm
