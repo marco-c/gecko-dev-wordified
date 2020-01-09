@@ -759,7 +759,7 @@ aTypeWithOn
 virtual
 nsPIDOMWindowOuter
 *
-GetOwnerGlobalForBindings
+GetOwnerGlobalForBindingsInternal
 (
 )
 override

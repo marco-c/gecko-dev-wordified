@@ -15518,9 +15518,9 @@ false
 }
 #
 endif
-already_AddRefed
+Nullable
 <
-nsPIDOMWindowOuter
+WindowProxyHolder
 >
 nsGlobalWindowInner
 :
@@ -20084,9 +20084,9 @@ Length
 )
 ;
 }
-already_AddRefed
+Nullable
 <
-nsPIDOMWindowOuter
+WindowProxyHolder
 >
 nsGlobalWindowInner
 :
@@ -22344,9 +22344,9 @@ eUseOfReleaseEvents
 ;
 }
 }
-already_AddRefed
+Nullable
 <
-nsPIDOMWindowOuter
+WindowProxyHolder
 >
 nsGlobalWindowInner
 :
@@ -22384,9 +22384,9 @@ nullptr
 )
 ;
 }
-already_AddRefed
+Nullable
 <
-nsPIDOMWindowOuter
+WindowProxyHolder
 >
 nsGlobalWindowInner
 :
@@ -23520,7 +23520,7 @@ nsPIDOMWindowOuter
 nsGlobalWindowInner
 :
 :
-GetOwnerGlobalForBindings
+GetOwnerGlobalForBindingsInternal
 (
 )
 {

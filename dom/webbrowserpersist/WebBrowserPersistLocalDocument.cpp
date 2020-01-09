@@ -797,7 +797,7 @@ window
 mDocument
 -
 >
-GetDefaultView
+GetWindow
 (
 )
 ;
@@ -1029,7 +1029,7 @@ window
 mDocument
 -
 >
-GetDefaultView
+GetWindow
 (
 )
 ;
