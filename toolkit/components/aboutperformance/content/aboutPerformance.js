@@ -7897,7 +7897,7 @@ document
 createElement
 (
 "
-img
+span
 "
 )
 ;
@@ -7955,7 +7955,7 @@ document
 createElement
 (
 "
-img
+span
 "
 )
 ;
@@ -9170,7 +9170,7 @@ document
 createElement
 (
 "
-img
+span
 "
 )
 ;
