@@ -3232,6 +3232,14 @@ ToAnimatedZero
 ToCss
 )
 ]
+#
+[
+repr
+(
+C
+u8
+)
+]
 pub
 enum
 LengthPercentageOrAuto

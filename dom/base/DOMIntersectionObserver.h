@@ -829,7 +829,10 @@ Element
 >
 mRoot
 ;
-nsStyleSides
+StyleRect
+<
+LengthPercentage
+>
 mRootMargin
 ;
 nsTArray

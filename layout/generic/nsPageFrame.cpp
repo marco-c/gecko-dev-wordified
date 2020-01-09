@@ -780,7 +780,7 @@ that
 side
 .
 const
-nsStyleSides
+auto
 &
 marginStyle
 =
@@ -800,13 +800,14 @@ if
 (
 marginStyle
 .
-GetUnit
+Get
 (
 side
 )
-=
-=
-eStyleUnit_Auto
+.
+IsAuto
+(
+)
 )
 {
 mPageContentMargin

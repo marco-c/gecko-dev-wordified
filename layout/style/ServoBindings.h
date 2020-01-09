@@ -3943,7 +3943,10 @@ const
 nsAString
 *
 value
-nsStyleSides
+mozilla
+:
+:
+StyleIntersectionObserverRootMargin
 *
 result
 )
@@ -3952,9 +3955,11 @@ void
 Servo_IntersectionObserverRootMargin_ToString
 (
 const
-nsStyleSides
+mozilla
+:
+:
+StyleIntersectionObserverRootMargin
 *
-rect
 nsAString
 *
 result
