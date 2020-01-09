@@ -144,13 +144,7 @@ public
 :
 static
 void
-Initialize
-(
-)
-;
-static
-void
-Shutdown
+MaybeShutdown
 (
 )
 ;
@@ -226,6 +220,12 @@ UrlClassifierFeatureFlash
 (
 uint32_t
 aId
+)
+;
+static
+void
+MaybeInitialize
+(
 )
 ;
 nsIHttpChannel
