@@ -5655,7 +5655,7 @@ close
 ;
 for
 (
-const
+let
 [
 front
 ]
@@ -5665,6 +5665,11 @@ this
 fronts
 )
 {
+front
+=
+await
+front
+;
 await
 front
 .
