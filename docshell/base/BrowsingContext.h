@@ -1240,6 +1240,10 @@ objects
 void
 Attach
 (
+bool
+aFromIPC
+=
+false
 )
 ;
 /
@@ -1265,6 +1269,10 @@ process
 void
 Detach
 (
+bool
+aFromIPC
+=
+false
 )
 ;
 /
@@ -1292,6 +1300,10 @@ again
 void
 CacheChildren
 (
+bool
+aFromIPC
+=
+false
 )
 ;
 /
