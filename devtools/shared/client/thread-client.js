@@ -4324,6 +4324,9 @@ events
 "
 newSource
 "
+"
+progress
+"
 ]
 }
 ;
