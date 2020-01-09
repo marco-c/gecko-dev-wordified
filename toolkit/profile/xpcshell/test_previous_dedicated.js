@@ -107,6 +107,12 @@ default
 true
 }
 ]
+}
+)
+;
+writeInstallsIni
+(
+{
 installs
 :
 {
@@ -140,6 +146,13 @@ let
 profileData
 =
 readProfilesIni
+(
+)
+;
+let
+installData
+=
+readInstallsIni
 (
 )
 ;
@@ -308,7 +321,7 @@ Object
 .
 keys
 (
-profileData
+installData
 .
 installs
 )
@@ -328,6 +341,7 @@ reference
 checkProfileService
 (
 profileData
+installData
 )
 ;
 }

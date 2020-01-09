@@ -76,6 +76,12 @@ default
 true
 }
 ]
+}
+)
+;
+writeInstallsIni
+(
+{
 installs
 :
 {
@@ -135,6 +141,13 @@ let
 profileData
 =
 readProfilesIni
+(
+)
+;
+let
+installData
+=
+readInstallsIni
 (
 )
 ;
@@ -261,7 +274,7 @@ Object
 .
 keys
 (
-profileData
+installData
 .
 installs
 )
@@ -283,7 +296,7 @@ Assert
 .
 equal
 (
-profileData
+installData
 .
 installs
 [
@@ -318,7 +331,7 @@ Assert
 ok
 (
 !
-profileData
+installData
 .
 installs
 [
@@ -346,6 +359,7 @@ app
 checkProfileService
 (
 profileData
+installData
 )
 ;
 Assert
