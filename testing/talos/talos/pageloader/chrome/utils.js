@@ -143,12 +143,17 @@ wrappedJSObject
 .
 tpRecordTime
 =
-function
+Cu
+.
+exportFunction
+(
 (
 t
 s
 n
 )
+=
+>
 {
 sendAsyncMessage
 (
@@ -171,6 +176,8 @@ n
 )
 ;
 }
+content
+)
 ;
 content
 .
