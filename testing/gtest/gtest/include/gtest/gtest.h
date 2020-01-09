@@ -614,6 +614,15 @@ test
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 Depending
@@ -3552,6 +3561,7 @@ or
 TEST_F
 macro
 .
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 TestBody

@@ -1303,6 +1303,7 @@ return
 "
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsEventStatus
 OnPress
@@ -1324,6 +1325,7 @@ return
 nsEventStatus_eIgnore
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsEventStatus
 OnMove
@@ -1341,6 +1343,7 @@ return
 nsEventStatus_eIgnore
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsEventStatus
 OnRelease
@@ -1354,6 +1357,7 @@ return
 nsEventStatus_eIgnore
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsEventStatus
 OnLongTap
@@ -1371,6 +1375,7 @@ return
 nsEventStatus_eIgnore
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 OnScrollStart
@@ -1381,6 +1386,7 @@ aContext
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 OnScrollEnd
@@ -1391,6 +1397,7 @@ aContext
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 OnScrollPositionChanged
@@ -1401,6 +1408,7 @@ aContext
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 OnBlur
@@ -1413,6 +1421,7 @@ aIsLeavingDocument
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 OnSelectionChanged
@@ -1437,6 +1446,7 @@ aReason
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 OnReflow

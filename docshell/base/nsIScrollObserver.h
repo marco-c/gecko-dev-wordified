@@ -239,6 +239,7 @@ scroll
 offset
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 AsyncPanZoomStarted
@@ -271,6 +272,7 @@ scroll
 offset
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 AsyncPanZoomStopped
