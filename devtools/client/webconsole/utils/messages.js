@@ -1115,6 +1115,11 @@ source
 message
 .
 filename
+sourceId
+:
+message
+.
+sourceId
 line
 :
 message
@@ -1350,6 +1355,11 @@ source
 pageError
 .
 sourceName
+sourceId
+:
+pageError
+.
+sourceId
 line
 :
 pageError

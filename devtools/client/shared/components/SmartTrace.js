@@ -1297,6 +1297,11 @@ onViewSource
 viewSource
 (
 {
+sourceId
+:
+location
+.
+sourceId
 url
 :
 location
