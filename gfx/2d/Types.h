@@ -320,6 +320,16 @@ a
 DrawTargetCapture
 *
 /
+DATA_RECYCLING_SHARED
+/
+*
+Data
+surface
+using
+shared
+memory
+*
+/
 }
 ;
 enum
