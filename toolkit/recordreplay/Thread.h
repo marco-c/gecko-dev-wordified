@@ -2606,7 +2606,8 @@ Return
 whether
 this
 thread
-is
+will
+remain
 in
 the
 idle
@@ -2618,12 +2619,12 @@ after
 WaitForIdleThreads
 .
 bool
-IsIdle
+ShouldIdle
 (
 )
 {
 return
-mIdle
+mShouldIdle
 ;
 }
 }
