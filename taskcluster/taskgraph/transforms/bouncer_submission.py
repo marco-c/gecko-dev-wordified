@@ -626,6 +626,27 @@ version
 .
 exe
 '
+            
+'
+win64
+-
+aarch64
+'
+:
+'
+{
+pretty_product
+}
+%
+20Setup
+%
+20
+{
+version
+}
+.
+exe
+'
         
 }
     
@@ -804,6 +825,22 @@ exe
             
 '
 win64
+'
+:
+'
+{
+pretty_product
+}
+%
+20Installer
+.
+exe
+'
+            
+'
+win64
+-
+aarch64
 '
 :
 '
