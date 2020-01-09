@@ -285,6 +285,11 @@ VP8TrackEncoder
 :
 VP8TrackEncoder
 (
+RefPtr
+<
+DriftCompensator
+>
+aDriftCompensator
 TrackRate
 aTrackRate
 FrameDroppingMode
@@ -293,6 +298,13 @@ aFrameDroppingMode
 :
 VideoTrackEncoder
 (
+std
+:
+:
+move
+(
+aDriftCompensator
+)
 aTrackRate
 aFrameDroppingMode
 )

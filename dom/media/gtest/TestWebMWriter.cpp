@@ -132,6 +132,13 @@ h
 #
 include
 "
+DriftCompensation
+.
+h
+"
+#
+include
+"
 OpusTrackEncoder
 .
 h
@@ -225,6 +232,7 @@ aTrackRate
 :
 VP8TrackEncoder
 (
+nullptr
 aTrackRate
 FrameDroppingMode
 :
