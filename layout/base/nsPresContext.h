@@ -3886,7 +3886,11 @@ AppUnitsPerDevPixel
 (
 )
 const
+{
+return
+mCurAppUnitsPerDevPixel
 ;
+}
 static
 nscoord
 CSSPixelsToAppUnits
