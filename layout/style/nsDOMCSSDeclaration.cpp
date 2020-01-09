@@ -1562,6 +1562,11 @@ nsIPrincipal
 aSubjectPrincipal
 )
 {
+AUTO_PROFILER_LABEL_CATEGORY_PAIR
+(
+LAYOUT_CSSParsing
+)
+;
 DeclarationBlockMutationClosure
 closure
 =

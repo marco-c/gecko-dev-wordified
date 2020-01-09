@@ -5263,6 +5263,11 @@ ServoTraversalFlags
 aFlags
 )
 {
+AUTO_PROFILER_LABEL_CATEGORY_PAIR
+(
+LAYOUT_StyleComputation
+)
+;
 MOZ_ASSERT
 (
 GetPresContext
