@@ -8867,7 +8867,7 @@ log
 ;
 log
 .
-SetCapacity
+SetLength
 (
 len
 )
@@ -8898,7 +8898,7 @@ BeginWriting
 ;
 log
 .
-SetLength
+Truncate
 (
 len
 )
