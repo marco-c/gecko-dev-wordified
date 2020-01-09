@@ -177,6 +177,12 @@ JSContext
 namespace
 mozilla
 {
+enum
+class
+PseudoStyleType
+:
+uint8_t
+;
 class
 ComputedTimingFunction
 ;
