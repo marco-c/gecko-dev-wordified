@@ -13725,15 +13725,6 @@ warning
 )
 :
             
-filename
-=
-warning
-[
-'
-filename
-'
-]
-            
 self
 .
 _warnings_database
@@ -22060,15 +22051,6 @@ w
 re
 .
 MULTILINE
-)
-        
-something
-=
-regex_header
-.
-finditer
-(
-clang_output
 )
         
 headers
