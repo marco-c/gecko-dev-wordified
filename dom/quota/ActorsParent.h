@@ -132,6 +132,11 @@ quota
 class
 PQuotaParent
 ;
+void
+InitializeQuotaManager
+(
+)
+;
 PQuotaParent
 *
 AllocPQuotaParent
