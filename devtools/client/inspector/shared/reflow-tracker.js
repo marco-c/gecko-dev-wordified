@@ -251,6 +251,7 @@ clear
 )
 ;
 }
+async
 startTracking
 (
 )
@@ -284,6 +285,7 @@ this
 .
 reflowFront
 =
+await
 this
 .
 target
