@@ -340,10 +340,10 @@ respective
 docshell
 and
 call
-nsISecurityEventSink
+nsDocLoader
 :
 :
-onSecurityChange
+OnSecurityChange
 .
 static
 nsresult

@@ -194,13 +194,6 @@ h
 #
 include
 "
-nsISecurityEventSink
-.
-h
-"
-#
-include
-"
 nsISupportsPriority
 .
 h
