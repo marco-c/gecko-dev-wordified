@@ -601,7 +601,7 @@ Base
 ;
 static
 void
-postBarrier
+writeBarriers
 (
 nsXBLMaybeCompiled
 <
@@ -633,7 +633,7 @@ IsCompiled
 Base
 :
 :
-postBarrier
+writeBarriers
 (
 &
 functionp
@@ -676,7 +676,7 @@ IsCompiled
 Base
 :
 :
-postBarrier
+writeBarriers
 (
 &
 prev

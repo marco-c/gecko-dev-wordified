@@ -410,7 +410,7 @@ v
 T
 :
 :
-post_barrier
+write_barriers
 (
 ptr
 prev
@@ -772,7 +772,7 @@ get
 T
 :
 :
-post_barrier
+write_barriers
 (
 prev
 *
