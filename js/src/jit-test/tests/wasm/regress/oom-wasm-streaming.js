@@ -17,6 +17,10 @@ oomAfterAllocations
 in
 this
 )
+ignoreUnhandledRejections
+(
+)
+;
 try
 {
 WebAssembly

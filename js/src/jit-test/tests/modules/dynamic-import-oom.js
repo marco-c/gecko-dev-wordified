@@ -62,6 +62,10 @@ See
 bug
 1507721
 .
+ignoreUnhandledRejections
+(
+)
+;
 oomTest
 (
 (

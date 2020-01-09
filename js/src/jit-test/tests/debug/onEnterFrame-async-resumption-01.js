@@ -37,6 +37,10 @@ t
 crash
 .
 )
+ignoreUnhandledRejections
+(
+)
+;
 let
 g
 =

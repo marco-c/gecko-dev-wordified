@@ -52,6 +52,10 @@ ii
 .
 2
 .
+ignoreUnhandledRejections
+(
+)
+;
 var
 asyncIter
 =

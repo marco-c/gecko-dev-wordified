@@ -7,6 +7,10 @@ shouldn
 t
 crash
 .
+ignoreUnhandledRejections
+(
+)
+;
 Promise
 .
 resolve

@@ -17,6 +17,10 @@ oomTest
 in
 this
 )
+ignoreUnhandledRejections
+(
+)
+;
 (
 function
 (

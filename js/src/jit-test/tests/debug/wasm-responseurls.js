@@ -43,6 +43,10 @@ instantiateStreaming
 is
 used
 .
+ignoreUnhandledRejections
+(
+)
+;
 try
 {
 WebAssembly

@@ -34,6 +34,10 @@ js
 "
 )
 ;
+ignoreUnhandledRejections
+(
+)
+;
 let
 g
 =
