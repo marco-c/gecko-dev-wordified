@@ -94,9 +94,7 @@ org
 .
 mozilla
 .
-gecko
-.
-gfx
+geckoview
 ;
 import
 org
@@ -115,13 +113,6 @@ android
 graphics
 .
 Bitmap
-;
-import
-android
-.
-graphics
-.
-PointF
 ;
 import
 android

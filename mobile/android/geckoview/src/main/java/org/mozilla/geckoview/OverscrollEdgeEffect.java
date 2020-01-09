@@ -94,9 +94,7 @@ org
 .
 mozilla
 .
-gecko
-.
-gfx
+geckoview
 ;
 import
 org
