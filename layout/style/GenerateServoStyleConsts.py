@@ -222,22 +222,13 @@ if
 p
 .
 returncode
-=
+!
 =
 0
 :
         
-output
-.
-write
-(
-stdout
-)
-    
-else
-:
-        
-print
+raise
+TypeError
 (
 "
 cbindgen
@@ -248,6 +239,13 @@ s
 "
 %
 stderr
+)
+    
+output
+.
+write
+(
+stdout
 )
     
 deps
