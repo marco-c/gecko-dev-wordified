@@ -1200,6 +1200,8 @@ actor
 ;
 updatedSource
 =
+(
+(
 {
 .
 .
@@ -1207,6 +1209,13 @@ updatedSource
 updatedSource
 actors
 }
+:
+any
+)
+:
+Source
+)
+;
 }
 /
 /
@@ -2097,6 +2106,7 @@ actorId
 string
 )
 :
+?
 Source
 {
 /
@@ -2126,14 +2136,9 @@ for
 const
 source
 of
-Object
-.
-values
-(
-getSources
+getSourceList
 (
 state
-)
 )
 )
 {
