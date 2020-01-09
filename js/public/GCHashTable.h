@@ -975,6 +975,7 @@ hm
 delete
 ;
 }
+MOZ_INHERIT_TYPE_ANNOTATIONS_FROM_TEMPLATE_ARGS
 ;
 }
 /
@@ -1318,6 +1319,7 @@ rhs
 ;
 }
 }
+MOZ_INHERIT_TYPE_ANNOTATIONS_FROM_TEMPLATE_ARGS
 ;
 template
 <
@@ -2570,6 +2572,7 @@ hs
 delete
 ;
 }
+MOZ_INHERIT_TYPE_ANNOTATIONS_FROM_TEMPLATE_ARGS
 ;
 }
 /
@@ -4586,6 +4589,7 @@ v
 ;
 }
 }
+JS_HAZ_NON_GC_POINTER
 ;
 /
 /
@@ -5781,6 +5785,7 @@ t
 ;
 }
 }
+JS_HAZ_NON_GC_POINTER
 ;
 }
 /
