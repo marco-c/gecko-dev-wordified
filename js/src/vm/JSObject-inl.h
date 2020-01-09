@@ -1004,6 +1004,17 @@ obj
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+obj
+-
+>
+isSingleton
+(
+)
+)
+;
 js
 :
 :
