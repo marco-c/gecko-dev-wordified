@@ -263,6 +263,13 @@ PropTypes
 func
 .
 isRequired
+onShowRulePreviewTooltip
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }
@@ -2351,6 +2358,7 @@ const
 {
 boxModel
 onShowBoxModelEditor
+onShowRulePreviewTooltip
 }
 =
 this
@@ -2711,6 +2719,7 @@ textContent
 :
 width
 onShowBoxModelEditor
+onShowRulePreviewTooltip
 }
 )
 dom
@@ -2743,6 +2752,7 @@ textContent
 :
 height
 onShowBoxModelEditor
+onShowRulePreviewTooltip
 }
 )
 )
@@ -3193,6 +3203,7 @@ textContent
 :
 positionTop
 onShowBoxModelEditor
+onShowRulePreviewTooltip
 }
 )
 :
@@ -3225,6 +3236,7 @@ textContent
 :
 positionRight
 onShowBoxModelEditor
+onShowRulePreviewTooltip
 }
 )
 :
@@ -3257,6 +3269,7 @@ textContent
 :
 positionBottom
 onShowBoxModelEditor
+onShowRulePreviewTooltip
 }
 )
 :
@@ -3289,6 +3302,7 @@ textContent
 :
 positionLeft
 onShowBoxModelEditor
+onShowRulePreviewTooltip
 }
 )
 :
@@ -3332,6 +3346,7 @@ textContent
 :
 marginTop
 onShowBoxModelEditor
+onShowRulePreviewTooltip
 }
 )
 BoxModelEditable
@@ -3360,6 +3375,7 @@ textContent
 :
 marginRight
 onShowBoxModelEditor
+onShowRulePreviewTooltip
 }
 )
 BoxModelEditable
@@ -3388,6 +3404,7 @@ textContent
 :
 marginBottom
 onShowBoxModelEditor
+onShowRulePreviewTooltip
 }
 )
 BoxModelEditable
@@ -3416,6 +3433,7 @@ textContent
 :
 marginLeft
 onShowBoxModelEditor
+onShowRulePreviewTooltip
 }
 )
 BoxModelEditable
@@ -3459,6 +3477,7 @@ textContent
 :
 borderTop
 onShowBoxModelEditor
+onShowRulePreviewTooltip
 }
 )
 BoxModelEditable
@@ -3489,6 +3508,7 @@ textContent
 :
 borderRight
 onShowBoxModelEditor
+onShowRulePreviewTooltip
 }
 )
 BoxModelEditable
@@ -3519,6 +3539,7 @@ textContent
 :
 borderBottom
 onShowBoxModelEditor
+onShowRulePreviewTooltip
 }
 )
 BoxModelEditable
@@ -3549,6 +3570,7 @@ textContent
 :
 borderLeft
 onShowBoxModelEditor
+onShowRulePreviewTooltip
 }
 )
 BoxModelEditable
@@ -3590,6 +3612,7 @@ textContent
 :
 paddingTop
 onShowBoxModelEditor
+onShowRulePreviewTooltip
 }
 )
 BoxModelEditable
@@ -3618,6 +3641,7 @@ textContent
 :
 paddingRight
 onShowBoxModelEditor
+onShowRulePreviewTooltip
 }
 )
 BoxModelEditable
@@ -3646,6 +3670,7 @@ textContent
 :
 paddingBottom
 onShowBoxModelEditor
+onShowRulePreviewTooltip
 }
 )
 BoxModelEditable
@@ -3674,6 +3699,7 @@ textContent
 :
 paddingLeft
 onShowBoxModelEditor
+onShowRulePreviewTooltip
 }
 )
 contentBox

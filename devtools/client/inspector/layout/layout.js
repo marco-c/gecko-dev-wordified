@@ -289,6 +289,7 @@ const
 onHideBoxModelHighlighter
 onShowBoxModelEditor
 onShowBoxModelHighlighter
+onShowRulePreviewTooltip
 onToggleGeometryEditor
 }
 =
@@ -394,6 +395,7 @@ onSetGridOverlayColor
 onShowBoxModelEditor
 onShowBoxModelHighlighter
 onShowBoxModelHighlighterForNode
+onShowRulePreviewTooltip
 onShowGridOutlineHighlight
 onToggleFlexboxHighlighter
 onToggleGeometryEditor

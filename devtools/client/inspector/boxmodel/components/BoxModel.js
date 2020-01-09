@@ -237,6 +237,13 @@ PropTypes
 func
 .
 isRequired
+onShowRulePreviewTooltip
+:
+PropTypes
+.
+func
+.
+isRequired
 onToggleGeometryEditor
 :
 PropTypes
@@ -329,6 +336,7 @@ onHideBoxModelHighlighter
 onShowBoxModelEditor
 onShowBoxModelHighlighter
 onShowBoxModelHighlighterForNode
+onShowRulePreviewTooltip
 onToggleGeometryEditor
 setSelectedNode
 showBoxModelProperties
@@ -399,6 +407,7 @@ boxModelMain
 onHideBoxModelHighlighter
 onShowBoxModelEditor
 onShowBoxModelHighlighter
+onShowRulePreviewTooltip
 }
 )
 BoxModelInfo
