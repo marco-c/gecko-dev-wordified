@@ -1651,10 +1651,6 @@ ClearOnShutdown
 (
 &
 sThread
-ShutdownPhase
-:
-:
-ShutdownLoaders
 )
 ;
 }

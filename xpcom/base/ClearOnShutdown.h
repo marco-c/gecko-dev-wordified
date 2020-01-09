@@ -448,7 +448,6 @@ NotInShutdown
 WillShutdown
 Shutdown
 ShutdownThreads
-ShutdownLoaders
 ShutdownFinal
 ShutdownPhase_Length
 /
