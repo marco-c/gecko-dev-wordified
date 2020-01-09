@@ -2179,12 +2179,6 @@ nsAtom
 aEvent
 )
 ;
-static
-void
-Shutdown
-(
-)
-;
 /
 *
 *

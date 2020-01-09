@@ -2417,6 +2417,9 @@ nsAutoPopupStatePusher
 popupStatePusher
 (
 (
+PopupBlocker
+:
+:
 PopupControlState
 )
 blockPopups

@@ -8022,6 +8022,9 @@ open
 nsAutoPopupStatePusher
 popupStatePusher
 (
+PopupBlocker
+:
+:
 openAbused
 )
 ;

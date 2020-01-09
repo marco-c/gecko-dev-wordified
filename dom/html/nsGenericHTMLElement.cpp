@@ -14972,7 +14972,13 @@ popupStatePusher
 (
 aIsTrustedEvent
 ?
+PopupBlocker
+:
+:
 openAllowed
+:
+PopupBlocker
+:
 :
 openAbused
 )

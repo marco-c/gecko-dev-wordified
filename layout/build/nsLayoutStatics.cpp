@@ -266,7 +266,9 @@ include
 "
 mozilla
 /
-EventListenerManager
+dom
+/
+PopupBlocker
 .
 h
 "
@@ -1304,6 +1306,13 @@ Initialize
 (
 )
 ;
+PopupBlocker
+:
+:
+Initialize
+(
+)
+;
 rv
 =
 txMozillaXSLTProcessor
@@ -1922,7 +1931,7 @@ Shutdown
 (
 )
 ;
-EventListenerManager
+PopupBlocker
 :
 :
 Shutdown

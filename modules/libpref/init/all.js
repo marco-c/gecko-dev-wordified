@@ -14713,16 +14713,6 @@ pref
 "
 dom
 .
-disable_open_during_load
-"
-false
-)
-;
-pref
-(
-"
-dom
-.
 popup_maximum
 "
 20

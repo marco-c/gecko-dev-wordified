@@ -767,6 +767,9 @@ FORM_CONTROL_LIST_HASHTABLE_LENGTH
 )
 mSubmitPopupState
 (
+PopupBlocker
+:
+:
 openAbused
 )
 mInvalidElementsCount
@@ -3414,9 +3417,9 @@ window
 {
 mSubmitPopupState
 =
-window
--
->
+PopupBlocker
+:
+:
 GetPopupControlState
 (
 )
@@ -3426,6 +3429,9 @@ else
 {
 mSubmitPopupState
 =
+PopupBlocker
+:
+:
 openAbused
 ;
 }
