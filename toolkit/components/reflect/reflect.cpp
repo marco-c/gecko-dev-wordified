@@ -276,7 +276,7 @@ cx
 JS
 :
 :
-CurrentGlobalOrNull
+GetScriptedCallerGlobal
 (
 cx
 )
@@ -289,6 +289,13 @@ global
 )
 return
 NS_ERROR_NOT_AVAILABLE
+;
+JSAutoRealm
+ar
+(
+cx
+global
+)
 ;
 *
 _retval
