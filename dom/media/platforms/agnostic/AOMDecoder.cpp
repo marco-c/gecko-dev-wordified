@@ -199,6 +199,13 @@ h
 "
 #
 include
+"
+nsThreadUtils
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -457,7 +464,7 @@ interface
 )
 ;
 }
-int
+size_t
 decode_threads
 =
 2
@@ -505,7 +512,7 @@ std
 min
 (
 decode_threads
-PR_GetNumberOfProcessors
+GetNumberOfProcessors
 (
 )
 )
@@ -523,7 +530,14 @@ config
 .
 threads
 =
+static_cast
+<
+unsigned
+int
+>
+(
 decode_threads
+)
 ;
 config
 .
