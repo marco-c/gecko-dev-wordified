@@ -2755,7 +2755,7 @@ offset
 void
 setFunctionBodyEndPos
 (
-TokenPos
+uint32_t
 pos
 )
 {
@@ -2767,15 +2767,13 @@ mozilla
 Some
 (
 pos
-.
-end
 )
 ;
 }
 void
 setScriptStartOffsetIfUnset
 (
-TokenPos
+uint32_t
 pos
 )
 {
@@ -2796,8 +2794,6 @@ mozilla
 Some
 (
 pos
-.
-begin
 )
 ;
 }
