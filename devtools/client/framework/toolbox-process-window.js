@@ -831,7 +831,7 @@ true
 else
 {
 const
-response
+front
 =
 await
 gClient
@@ -846,11 +846,9 @@ await
 openToolbox
 (
 {
-form
+activeTab
 :
-response
-.
-form
+front
 chrome
 :
 true
@@ -1252,6 +1250,7 @@ openToolbox
 (
 {
 form
+activeTab
 chrome
 }
 )
@@ -1261,13 +1260,10 @@ options
 =
 {
 form
-:
-form
+activeTab
 client
 :
 gClient
-chrome
-:
 chrome
 }
 ;
@@ -1282,7 +1278,10 @@ JSON
 .
 stringify
 (
-arguments
+{
+form
+chrome
+}
 null
 2
 )
