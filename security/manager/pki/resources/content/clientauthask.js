@@ -738,7 +738,7 @@ displayed
 .
 selectElement
 .
-firstChild
+menupopup
 .
 appendChild
 (

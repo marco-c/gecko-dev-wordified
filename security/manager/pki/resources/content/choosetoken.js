@@ -207,7 +207,7 @@ token
 ;
 selectElement
 .
-firstChild
+menupopup
 .
 appendChild
 (
