@@ -117,6 +117,15 @@ MPL
 #
 include
 "
+mozilla
+/
+TextUtils
+.
+h
+"
+#
+include
+"
 FunctionHook
 .
 h
@@ -475,7 +484,7 @@ DllInterceptors
 }
 MOZ_ASSERT
 (
-NS_IsAscii
+IsAsciiNullTerminated
 (
 aModuleName
 )
