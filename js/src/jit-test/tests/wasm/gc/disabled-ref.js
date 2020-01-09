@@ -12,13 +12,9 @@ if
 wasmGcEnabled
 (
 )
-assertErrorMessage
+wasmCompilationShouldFail
 (
-(
-)
-=
->
-wasmEvalText
+wasmTextToBinary
 (
 (
 module
@@ -37,9 +33,6 @@ unreachable
 )
 )
 )
-WebAssembly
-.
-CompileError
 /
 reference
 types
