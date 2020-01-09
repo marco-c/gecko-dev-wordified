@@ -4471,6 +4471,12 @@ type
 "
 password
 "
+|
+|
+!
+element
+.
+isConnected
 )
 {
 continue
