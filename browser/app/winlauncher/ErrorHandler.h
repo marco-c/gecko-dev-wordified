@@ -319,6 +319,11 @@ StaticXREAppData
 aAppData
 )
 ;
+void
+SetLauncherErrorForceEventLog
+(
+)
+;
 }
 /
 /
