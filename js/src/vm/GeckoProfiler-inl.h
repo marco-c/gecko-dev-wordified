@@ -512,11 +512,11 @@ const
 char
 *
 label
-ProfilingStackFrame
+JS
 :
 :
-Category
-category
+ProfilingCategoryPair
+categoryPair
 uint32_t
 flags
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
@@ -593,7 +593,7 @@ sp
 *
 /
 this
-category
+categoryPair
 flags
 )
 ;

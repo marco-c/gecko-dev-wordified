@@ -305,14 +305,11 @@ const
 char
 *
 aMarkerName
-js
+JS
 :
 :
-ProfilingStackFrame
-:
-:
-Category
-aCategory
+ProfilingCategoryPair
+aCategoryPair
 mozilla
 :
 :
@@ -360,7 +357,7 @@ new
 ProfilerMarker
 (
 aMarkerName
-aCategory
+aCategoryPair
 mThreadId
 std
 :

@@ -25699,10 +25699,10 @@ mainContextFromOwnThread
 "
 UnmarkGrayGCThing
 "
-ProfilingStackFrame
+JS
 :
 :
-Category
+ProfilingCategoryPair
 :
 :
 GCCC

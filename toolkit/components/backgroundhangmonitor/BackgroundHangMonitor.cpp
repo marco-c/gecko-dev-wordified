@@ -3213,13 +3213,10 @@ mStackHelper
 GetThreadId
 (
 )
-js
+JS
 :
 :
-ProfilingStackFrame
-:
-:
-Category
+ProfilingCategoryPair
 :
 :
 OTHER

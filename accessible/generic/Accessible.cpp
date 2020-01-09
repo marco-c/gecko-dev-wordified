@@ -6000,13 +6000,10 @@ strMarker
 get
 (
 )
-js
+JS
 :
 :
-ProfilingStackFrame
-:
-:
-Category
+ProfilingCategoryPair
 :
 :
 OTHER

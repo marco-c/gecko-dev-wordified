@@ -529,13 +529,10 @@ because
 nothing
 changed
 "
-js
+JS
 :
 :
-ProfilingStackFrame
-:
-:
-Category
+ProfilingCategoryPair
 :
 :
 GRAPHICS

@@ -844,13 +844,10 @@ dynamicStr
 *
 /
 nullptr
-js
+JS
 :
 :
-ProfilingStackFrame
-:
-:
-Category
+ProfilingCategoryPair
 :
 :
 JS

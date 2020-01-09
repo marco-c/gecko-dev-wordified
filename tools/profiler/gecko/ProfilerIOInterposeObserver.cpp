@@ -131,13 +131,10 @@ profiler_add_marker
 "
 DiskIO
 "
-js
+JS
 :
 :
-ProfilingStackFrame
-:
-:
-Category
+ProfilingCategoryPair
 :
 :
 OTHER

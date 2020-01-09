@@ -2809,13 +2809,10 @@ profiler_add_marker
 "
 LogMessages
 "
-js
+JS
 :
 :
-ProfilingStackFrame
-:
-:
-Category
+ProfilingCategoryPair
 :
 :
 OTHER
