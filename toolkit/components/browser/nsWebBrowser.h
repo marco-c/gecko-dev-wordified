@@ -497,8 +497,13 @@ mWebBrowser
 ;
 }
 ;
+explicit
 nsWebBrowser
 (
+int
+aItemType
+=
+typeContentWrapper
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -688,6 +693,7 @@ nsWebBrowserInitInfo
 >
 mInitInfo
 ;
+const
 uint32_t
 mContentType
 ;
