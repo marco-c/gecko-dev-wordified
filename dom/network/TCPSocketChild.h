@@ -248,6 +248,9 @@ nsITCPSocketCallback
 >
 mSocket
 ;
+bool
+mIPCOpen
+;
 }
 ;
 class

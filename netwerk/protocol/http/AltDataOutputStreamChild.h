@@ -247,6 +247,9 @@ nsDependentCSubstring
 data
 )
 ;
+bool
+mIPCOpen
+;
 /
 /
 If

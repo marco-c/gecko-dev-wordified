@@ -205,6 +205,9 @@ AddIPDLReference
 (
 )
 ;
+bool
+mIPCOpen
+;
 }
 ;
 }
