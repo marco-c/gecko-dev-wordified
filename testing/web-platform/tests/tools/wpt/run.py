@@ -12,6 +12,12 @@ distutils
 spawn
 import
 find_executable
+from
+six
+.
+moves
+import
+input
 wpt_root
 =
 os
@@ -1250,7 +1256,7 @@ True
             
 resp
 =
-raw_input
+input
 (
 "
 Download
