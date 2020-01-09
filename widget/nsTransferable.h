@@ -323,7 +323,7 @@ bytes
 nsresult
 WriteCache
 (
-nsISupports
+void
 *
 aData
 uint32_t
