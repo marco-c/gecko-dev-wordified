@@ -256,6 +256,12 @@ MitmproxyDesktop
     
 playback
 .
+start
+(
+)
+    
+playback
+.
 stop
 (
 )
