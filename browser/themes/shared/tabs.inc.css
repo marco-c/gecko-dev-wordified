@@ -4001,15 +4001,6 @@ Add
 a
 translucent
 color
-(
-current
-text
-color
-at
-.
-2
-alpha
-)
 on
 top
 of
@@ -4050,7 +4041,7 @@ currentColor
 opacity
 :
 .
-2
+1
 ;
 }
 .
