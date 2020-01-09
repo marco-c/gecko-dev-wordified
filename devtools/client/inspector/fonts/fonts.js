@@ -5544,9 +5544,7 @@ this
 .
 inspector
 .
-toolbox
-.
-highlighterUtils
+inspector
 .
 getHighlighterByType
 (
