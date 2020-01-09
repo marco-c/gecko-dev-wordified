@@ -3717,7 +3717,7 @@ ref
 /
 Track
 heap
-usage
+size
 under
 this
 Zone
@@ -3728,8 +3728,8 @@ js
 gc
 :
 :
-HeapUsage
-usage
+HeapSize
+zoneSize
 ;
 /
 /

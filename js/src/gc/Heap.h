@@ -5728,7 +5728,7 @@ Zones
 *
 /
 class
-HeapUsage
+HeapSize
 {
 /
 *
@@ -5759,7 +5759,7 @@ container
 .
 *
 /
-HeapUsage
+HeapSize
 *
 const
 parent_
@@ -5862,9 +5862,9 @@ gcBytes_
 public
 :
 explicit
-HeapUsage
+HeapSize
 (
-HeapUsage
+HeapSize
 *
 parent
 )
@@ -5962,7 +5962,7 @@ statistics
 void
 adopt
 (
-HeapUsage
+HeapSize
 &
 other
 )

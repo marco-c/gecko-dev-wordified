@@ -2713,7 +2713,7 @@ zone
 )
 -
 >
-usage
+zoneSize
 .
 gcBytes
 (
@@ -4310,7 +4310,7 @@ DontCheckThresholds
 &
 &
 (
-usage
+heapSize
 .
 gcBytes
 (
@@ -4345,7 +4345,7 @@ lock
 zone
 -
 >
-usage
+zoneSize
 .
 addGCArena
 (
