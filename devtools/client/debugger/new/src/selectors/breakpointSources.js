@@ -188,6 +188,9 @@ condition
 :
 ?
 string
+log
+:
+boolean
 disabled
 :
 boolean
