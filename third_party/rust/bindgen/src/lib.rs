@@ -2926,7 +2926,7 @@ options
 push
 (
 "
-function
+functions
 "
 .
 into
@@ -11552,10 +11552,10 @@ options
 BindgenOptions
 module
 :
-quote
+proc_macro2
 :
 :
-Tokens
+TokenStream
 }
 impl
 Bindings
@@ -12891,10 +12891,14 @@ ErrorKind
 :
 :
 Other
-e
-.
-to_owned
+format
+!
 (
+"
+{
+}
+"
+e
 )
 )
 }
@@ -14136,7 +14140,7 @@ default
 generate
 "
 "
-function
+functions
 types
 vars
 methods
@@ -14272,7 +14276,7 @@ default
 generate
 "
 "
-function
+functions
 types
 vars
 methods

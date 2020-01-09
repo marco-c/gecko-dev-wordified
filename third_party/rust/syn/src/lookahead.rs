@@ -225,6 +225,7 @@ ConstParam
 Ident
 Lifetime
 LifetimeDef
+Result
 TypeParam
 }
 ;
@@ -241,7 +242,6 @@ parse
 {
 Parse
 ParseStream
-Result
 }
 ;
 /
@@ -971,6 +971,7 @@ len
 0
 =
 >
+{
 if
 self
 .
@@ -1015,6 +1016,7 @@ unexpected
 token
 "
 )
+}
 }
 1
 =

@@ -525,6 +525,7 @@ syn
 {
 LitBool
 LitStr
+Result
 }
 ;
 /
@@ -540,7 +541,6 @@ parse
 {
 Parse
 ParseStream
-Result
 }
 ;
 /

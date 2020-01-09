@@ -690,6 +690,7 @@ syn
 {
 token
 Ident
+Result
 Type
 }
 ;
@@ -706,7 +707,6 @@ parse
 {
 Parse
 ParseStream
-Result
 }
 ;
 /
@@ -1157,6 +1157,7 @@ syn
 {
 token
 Ident
+Result
 Type
 }
 ;
@@ -1173,7 +1174,6 @@ parse
 {
 Parse
 ParseStream
-Result
 }
 ;
 /
@@ -1773,7 +1773,10 @@ use
 syn
 :
 :
+{
 token
+Result
+}
 ;
 /
 /
@@ -1788,7 +1791,6 @@ parse
 {
 Parse
 ParseStream
-Result
 }
 ;
 /
