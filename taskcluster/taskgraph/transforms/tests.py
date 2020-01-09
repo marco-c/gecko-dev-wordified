@@ -2466,10 +2466,6 @@ in
 docker
 -
 worker
-or
-docker
--
-engine
 this
 is
 the
