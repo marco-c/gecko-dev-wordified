@@ -1080,6 +1080,9 @@ endif
 /
 BPLOG_INIT
 #
+ifndef
+BPLOG_LAZY_STREAM
+#
 define
 BPLOG_LAZY_STREAM
 (
@@ -1111,6 +1114,8 @@ BPLOG_
 #
 stream
 )
+#
+endif
 #
 ifndef
 BPLOG_MINIMUM_SEVERITY
@@ -1308,6 +1313,9 @@ endif
 /
 BPLOG_CRITICAL
 #
+ifndef
+BPLOG_IF
+#
 define
 BPLOG_IF
 (
@@ -1330,6 +1338,11 @@ severity
 )
 )
 )
+#
+endif
+/
+/
+BPLOG_IF
 #
 endif
 /
