@@ -143,6 +143,13 @@ util
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 content
 .
 ContentUris
@@ -348,6 +355,12 @@ author
 paulburke
 *
 /
+SuppressLint
+(
+"
+NewAPI
+"
+)
 public
 static
 Nullable

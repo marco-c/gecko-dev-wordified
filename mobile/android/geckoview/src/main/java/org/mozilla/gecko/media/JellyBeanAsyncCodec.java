@@ -111,6 +111,13 @@ android
 .
 os
 .
+Build
+;
+import
+android
+.
+os
+.
 Handler
 ;
 import
@@ -2002,7 +2009,6 @@ BUFFER_FLAG_END_OF_STREAM
 ;
 if
 (
-(
 android
 .
 os
@@ -2014,8 +2020,11 @@ VERSION
 SDK_INT
 >
 =
-19
-)
+Build
+.
+VERSION_CODES
+.
+KITKAT
 &
 &
 (
