@@ -206,8 +206,6 @@ width
 =
 input
 .
-r
-#
 try
 (
 |
@@ -228,8 +226,6 @@ height
 =
 input
 .
-r
-#
 try
 (
 |
@@ -668,8 +664,6 @@ vertical
 =
 input
 .
-r
-#
 try
 (
 BackgroundRepeatKeyword

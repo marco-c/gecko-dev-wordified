@@ -915,8 +915,6 @@ inset
 if
 input
 .
-r
-#
 try
 (
 |
@@ -956,8 +954,6 @@ value
 =
 input
 .
-r
-#
 try
 :
 :
@@ -1006,8 +1002,6 @@ spread
 match
 i
 .
-r
-#
 try
 :
 :
@@ -1042,8 +1036,6 @@ spread
 =
 i
 .
-r
-#
 try
 (
 |
@@ -1135,8 +1127,6 @@ value
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1419,8 +1409,6 @@ url
 =
 input
 .
-r
-#
 try
 (
 |
@@ -2074,8 +2062,6 @@ color
 =
 input
 .
-r
-#
 try
 (
 |
@@ -2126,8 +2112,6 @@ blur
 =
 input
 .
-r
-#
 try
 (
 |
@@ -2173,8 +2157,6 @@ or_else
 |
 input
 .
-r
-#
 try
 (
 |

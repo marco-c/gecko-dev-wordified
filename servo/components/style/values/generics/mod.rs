@@ -780,8 +780,6 @@ name
 =
 input
 .
-r
-#
 try
 (
 |
@@ -809,8 +807,6 @@ name
 if
 input
 .
-r
-#
 try
 (
 |
@@ -843,8 +839,6 @@ None
 if
 input
 .
-r
-#
 try
 (
 |
@@ -878,8 +872,6 @@ symbols_type
 =
 input
 .
-r
-#
 try
 (
 |

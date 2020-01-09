@@ -2132,8 +2132,6 @@ lop
 =
 input
 .
-r
-#
 try
 (
 |
@@ -2387,8 +2385,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -2724,8 +2720,6 @@ name
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3561,8 +3555,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -4163,8 +4155,6 @@ x
 if
 input
 .
-r
-#
 try
 (
 |
@@ -4221,8 +4211,6 @@ y
 if
 input
 .
-r
-#
 try
 (
 |
@@ -4959,8 +4947,6 @@ name
 =
 input
 .
-r
-#
 try
 (
 |
@@ -5246,8 +5232,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |

@@ -2616,8 +2616,6 @@ per
 =
 input
 .
-r
-#
 try
 (
 |
@@ -4869,8 +4867,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -4954,8 +4950,6 @@ left
 if
 input
 .
-r
-#
 try
 (
 |
@@ -5157,8 +5151,6 @@ v
 =
 input
 .
-r
-#
 try
 (
 |
@@ -5592,8 +5584,6 @@ first
 =
 input
 .
-r
-#
 try
 (
 |
@@ -5619,8 +5609,6 @@ token
 =
 input
 .
-r
-#
 try
 (
 |

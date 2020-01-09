@@ -656,8 +656,6 @@ auto
 if
 input
 .
-r
-#
 try
 (
 |
@@ -814,8 +812,6 @@ current_source_location
 if
 input
 .
-r
-#
 try
 (
 |
@@ -895,8 +891,6 @@ i
 =
 input
 .
-r
-#
 try
 (
 |
@@ -994,8 +988,6 @@ name
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3016,8 +3008,6 @@ i
 =
 input
 .
-r
-#
 try
 (
 |
@@ -5044,8 +5034,6 @@ repeat_parse_result
 =
 input
 .
-r
-#
 try
 (
 |
@@ -5127,8 +5115,6 @@ names
 =
 input
 .
-r
-#
 try
 (
 parse_line_names
@@ -5333,8 +5319,6 @@ names
 =
 input
 .
-r
-#
 try
 (
 parse_line_names

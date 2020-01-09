@@ -1023,8 +1023,6 @@ explicit_media_type
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1044,8 +1042,6 @@ qualifier
 =
 input
 .
-r
-#
 try
 (
 Qualifier
@@ -1134,8 +1130,6 @@ else
 if
 input
 .
-r
-#
 try
 (
 |

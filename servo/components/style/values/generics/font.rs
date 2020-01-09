@@ -663,8 +663,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |

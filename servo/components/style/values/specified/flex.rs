@@ -250,8 +250,6 @@ width
 =
 input
 .
-r
-#
 try
 (
 |

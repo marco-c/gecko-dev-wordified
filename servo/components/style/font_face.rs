@@ -1010,8 +1010,6 @@ second
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1814,8 +1812,6 @@ second_angle
 =
 input
 .
-r
-#
 try
 (
 |
@@ -2806,8 +2802,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -2880,8 +2874,6 @@ format_hints
 if
 input
 .
-r
-#
 try
 (
 |

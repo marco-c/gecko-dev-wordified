@@ -334,8 +334,6 @@ loop
 match
 input
 .
-r
-#
 try
 (
 |
@@ -554,8 +552,6 @@ hotspot
 match
 input
 .
-r
-#
 try
 (
 |
@@ -967,8 +963,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |

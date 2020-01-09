@@ -343,8 +343,6 @@ none
 if
 input
 .
-r
-#
 try
 (
 |

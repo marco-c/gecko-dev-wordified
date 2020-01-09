@@ -2605,8 +2605,6 @@ item
 =
 input
 .
-r
-#
 try
 (
 &
@@ -2799,8 +2797,6 @@ comma
 =
 input
 .
-r
-#
 try
 (
 |
@@ -2846,8 +2842,6 @@ item
 =
 input
 .
-r
-#
 try
 (
 &

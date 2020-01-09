@@ -567,8 +567,6 @@ style
 =
 input
 .
-r
-#
 try
 (
 |
@@ -778,8 +776,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |

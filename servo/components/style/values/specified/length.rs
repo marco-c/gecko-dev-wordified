@@ -8837,8 +8837,6 @@ v
 =
 input
 .
-r
-#
 try
 (
 |
@@ -9150,8 +9148,6 @@ l
 =
 input
 .
-r
-#
 try
 (
 ExtremumLength
@@ -9493,8 +9489,6 @@ l
 =
 input
 .
-r
-#
 try
 (
 ExtremumLength

@@ -397,8 +397,6 @@ lop
 =
 input
 .
-r
-#
 try
 (
 |
@@ -436,8 +434,6 @@ f
 =
 input
 .
-r
-#
 try
 (
 parse_flex
@@ -527,8 +523,6 @@ b
 =
 input
 .
-r
-#
 try
 (
 |
@@ -560,8 +554,6 @@ b
 if
 input
 .
-r
-#
 try
 (
 |
@@ -596,8 +588,6 @@ inflexible_breadth
 match
 input
 .
-r
-#
 try
 (
 |
@@ -849,8 +839,6 @@ ident
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1150,8 +1138,6 @@ i
 {
 input
 .
-r
-#
 try
 (
 |
@@ -1303,8 +1289,6 @@ current_names
 =
 input
 .
-r
-#
 try
 (
 parse_line_names
@@ -1331,8 +1315,6 @@ track_size
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1542,8 +1524,6 @@ push
 (
 input
 .
-r
-#
 try
 (
 parse_line_names
@@ -1917,8 +1897,6 @@ extend_from_slice
 mut
 input
 .
-r
-#
 try
 (
 parse_line_names
@@ -1946,8 +1924,6 @@ track_size
 =
 input
 .
-r
-#
 try
 (
 |
@@ -2075,8 +2051,6 @@ type_
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3295,8 +3269,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -3408,8 +3380,6 @@ t
 =
 input
 .
-r
-#
 try
 (
 |

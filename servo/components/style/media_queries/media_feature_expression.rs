@@ -1557,8 +1557,6 @@ Equal
 if
 input
 .
-r
-#
 try
 (
 |
@@ -1600,8 +1598,6 @@ GreaterThan
 if
 input
 .
-r
-#
 try
 (
 |
@@ -2303,8 +2299,6 @@ operator
 =
 input
 .
-r
-#
 try
 (
 consume_operation_or_colon

@@ -1160,8 +1160,6 @@ context
 match
 input
 .
-r
-#
 try
 (
 |
@@ -1898,8 +1896,6 @@ i
 {
 input
 .
-r
-#
 try
 (
 |

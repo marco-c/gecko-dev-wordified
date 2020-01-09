@@ -692,8 +692,6 @@ size
 =
 input
 .
-r
-#
 try
 (
 |

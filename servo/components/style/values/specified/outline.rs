@@ -312,8 +312,6 @@ border_style
 =
 input
 .
-r
-#
 try
 (
 BorderStyle
