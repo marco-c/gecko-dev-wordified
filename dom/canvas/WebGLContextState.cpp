@@ -2221,7 +2221,7 @@ JS
 :
 Int32Value
 (
-mGLMaxVaryingVectors
+mGLMaxFragmentInputVectors
 )
 ;
 case
