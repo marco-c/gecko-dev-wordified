@@ -67378,7 +67378,10 @@ doc
 SetPointerLock
 (
 e
-NS_STYLE_CURSOR_NONE
+StyleCursorKind
+:
+:
+None
 )
 )
 {
@@ -67588,7 +67591,7 @@ SetPointerLock
 Element
 *
 aElement
-int
+StyleCursorKind
 aCursorStyle
 )
 {
@@ -67989,7 +67992,10 @@ pointerLockedDoc
 SetPointerLock
 (
 nullptr
-NS_STYLE_CURSOR_AUTO
+StyleCursorKind
+:
+:
+Auto
 )
 )
 {

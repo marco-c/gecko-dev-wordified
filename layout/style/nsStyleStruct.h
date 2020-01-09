@@ -16949,13 +16949,12 @@ mPointerEvents
 /
 NS_STYLE_POINTER_EVENTS_
 *
-uint8_t
+mozilla
+:
+:
+StyleCursorKind
 mCursor
 ;
-/
-/
-NS_STYLE_CURSOR_
-*
 nsTArray
 <
 nsCursorImage

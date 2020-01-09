@@ -533,6 +533,10 @@ CounterReset
 "
     
 "
+Cursor
+"
+    
+"
 FillRule
 "
     

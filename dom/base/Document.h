@@ -862,6 +862,12 @@ ServoStyleSet
 class
 SMILAnimationController
 ;
+enum
+class
+StyleCursorKind
+:
+uint8_t
+;
 template
 <
 typename
@@ -10726,12 +10732,6 @@ RequestPointerLock
 Element
 *
 aElement
-mozilla
-:
-:
-dom
-:
-:
 CallerType
 )
 ;
@@ -10741,8 +10741,7 @@ SetPointerLock
 Element
 *
 aElement
-int
-aCursorStyle
+StyleCursorKind
 )
 ;
 static
