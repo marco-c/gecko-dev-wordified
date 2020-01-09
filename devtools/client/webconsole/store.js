@@ -448,6 +448,18 @@ JSTERM_CODE_MIRROR
 )
 ;
 const
+autocomplete
+=
+getBoolPref
+(
+PREFS
+.
+FEATURES
+.
+AUTOCOMPLETE
+)
+;
+const
 historyCount
 =
 getIntPref
@@ -471,6 +483,7 @@ PrefState
 logLimit
 sidebarToggle
 jstermCodeMirror
+autocomplete
 historyCount
 }
 )

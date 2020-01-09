@@ -800,6 +800,11 @@ editorMode
 PropTypes
 .
 bool
+autocomplete
+:
+PropTypes
+.
+bool
 }
 ;
 }
@@ -4963,6 +4968,15 @@ resizeInput
 (
 )
 ;
+if
+(
+this
+.
+props
+.
+autocomplete
+)
+{
 this
 .
 props
@@ -4971,6 +4985,7 @@ autocompleteUpdate
 (
 )
 ;
+}
 this
 .
 lastInputValue

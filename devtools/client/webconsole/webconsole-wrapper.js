@@ -2469,6 +2469,13 @@ appinfo
 accessibilityEnabled
 ;
 const
+autocomplete
+=
+prefs
+.
+autocomplete
+;
+const
 app
 =
 App
@@ -2491,6 +2498,7 @@ bind
 this
 )
 jstermCodeMirror
+autocomplete
 }
 )
 ;

@@ -494,6 +494,17 @@ jsterm
 .
 codeMirror
 "
+AUTOCOMPLETE
+:
+"
+devtools
+.
+webconsole
+.
+input
+.
+autocomplete
+"
 }
 }
 }
