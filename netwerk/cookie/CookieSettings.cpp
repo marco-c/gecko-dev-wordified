@@ -956,6 +956,12 @@ PrincipalToPrincipalInfo
 principal
 &
 principalInfo
+true
+/
+*
+aSkipBaseDomain
+*
+/
 )
 ;
 if

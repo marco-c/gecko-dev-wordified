@@ -1282,6 +1282,8 @@ aPrincipal
 PrincipalInfo
 *
 aPrincipalInfo
+bool
+aSkipBaseDomain
 )
 {
 MOZ_ASSERT
@@ -1504,6 +1506,7 @@ PrincipalToPrincipalInfo
 prin
 &
 info
+aSkipBaseDomain
 )
 ;
 if
@@ -1817,6 +1820,21 @@ baseDomain
 ;
 if
 (
+aSkipBaseDomain
+)
+{
+baseDomain
+.
+SetIsVoid
+(
+true
+)
+;
+}
+else
+{
+if
+(
 NS_FAILED
 (
 aPrincipal
@@ -1848,6 +1866,7 @@ SetIsVoid
 true
 )
 ;
+}
 }
 *
 aPrincipalInfo
