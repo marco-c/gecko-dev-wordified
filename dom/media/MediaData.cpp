@@ -374,8 +374,10 @@ if
 (
 mAudioBuffer
 )
+{
 return
 ;
+}
 mAudioBuffer
 =
 SharedBuffer
