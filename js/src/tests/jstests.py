@@ -2982,6 +2982,12 @@ mozterm
 "
         
 "
+python
+/
+mozboot
+"
+        
+"
 testing
 /
 mozbase
