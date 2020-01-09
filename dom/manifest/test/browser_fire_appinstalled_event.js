@@ -336,8 +336,6 @@ tabOptions
 =
 {
 gBrowser
-:
-gBrowser
 url
 :
 testURL

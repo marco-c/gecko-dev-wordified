@@ -698,9 +698,9 @@ expectedSize
 {
 if
 (
-'
+"
 cached_icon
-'
+"
 in
 this
 .
