@@ -233,7 +233,6 @@ TEST_URI
 ;
 const
 {
-jsterm
 ui
 }
 =
@@ -544,10 +543,9 @@ layout
 "
 )
 ;
-jsterm
-.
 setInputValue
 (
+hud
 "
 multiline
 \
@@ -768,10 +766,9 @@ testLayout
 appNode
 )
 ;
-jsterm
-.
 setInputValue
 (
+hud
 "
 "
 )

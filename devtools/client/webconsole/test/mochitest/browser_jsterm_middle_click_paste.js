@@ -263,10 +263,9 @@ iframeWindow
 ;
 is
 (
-jsterm
-.
 getInputValue
 (
+hud
 )
 clipboardContent
 "

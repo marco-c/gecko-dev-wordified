@@ -252,10 +252,9 @@ value
 "
 )
 ;
-jsterm
-.
 setInputValue
 (
+hud
 "
 doc
 "
@@ -338,10 +337,9 @@ stringToCopy
 stringToCopy
 )
 ;
-jsterm
-.
 setInputValue
 (
+hud
 "
 docu
 "
