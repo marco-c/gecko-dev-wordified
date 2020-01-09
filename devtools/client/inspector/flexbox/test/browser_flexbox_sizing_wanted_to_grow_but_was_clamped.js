@@ -351,7 +351,7 @@ flexbox
 .
 itemSizing
 .
-growthAttemptWhenClamped
+growthAttemptButMaxClamped
 "
 )
 ;

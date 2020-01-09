@@ -1270,6 +1270,11 @@ actorID
 flexItemFront
 .
 actorID
+computedStyle
+:
+flexItemFront
+.
+computedStyle
 flexItemSizing
 :
 flexItemFront
