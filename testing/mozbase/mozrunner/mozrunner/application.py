@@ -75,7 +75,7 @@ posixpath
 from
 mozdevice
 import
-ADBAndroid
+ADBDevice
 from
 mozprofile
 import
@@ -690,7 +690,7 @@ Create
 a
 mozdevice
 .
-ADBAndroid
+ADBDevice
 object
 for
 the
@@ -748,7 +748,7 @@ else
             
 device
 =
-ADBAndroid
+ADBDevice
 (
 adb
 =

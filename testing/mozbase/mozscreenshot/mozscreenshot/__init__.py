@@ -574,7 +574,7 @@ device
 Reference
 to
 an
-ADBAndroid
+ADBDevice
 object
 which
 provides

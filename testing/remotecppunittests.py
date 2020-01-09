@@ -90,7 +90,7 @@ posixpath
 from
 mozdevice
 import
-ADBAndroid
+ADBDevice
 ADBProcessError
 ADBTimeoutError
 try
@@ -154,7 +154,7 @@ self
 .
 device
 =
-ADBAndroid
+ADBDevice
 (
 adb
 =
@@ -165,13 +165,13 @@ or
 '
 adb
 '
-                                 
+                                
 device
 =
 options
 .
 device_serial
-                                 
+                                
 test_root
 =
 options
