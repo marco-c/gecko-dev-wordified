@@ -1042,7 +1042,9 @@ ref
 q
 )
 (
-get_local
+local
+.
+get
 0
 )
 )
@@ -1073,7 +1075,9 @@ ref
 p
 )
 (
-get_local
+local
+.
+get
 0
 )
 )

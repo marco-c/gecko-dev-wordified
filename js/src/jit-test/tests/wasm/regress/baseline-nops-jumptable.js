@@ -52,7 +52,9 @@ br_table
 2
 default
 (
-get_local
+local
+.
+get
 0
 )
 )

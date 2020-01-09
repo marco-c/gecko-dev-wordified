@@ -236,7 +236,9 @@ i64
 result
 f64
 )
-get_local
+local
+.
+get
 0
 f64
 .
@@ -441,7 +443,9 @@ i32
 call_indirect
 T
 (
-get_local
+local
+.
+get
 0
 )
 )

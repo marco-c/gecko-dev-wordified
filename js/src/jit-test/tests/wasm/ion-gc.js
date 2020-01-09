@@ -121,9 +121,13 @@ param
 type
 }
 )
-get_local
+local
+.
+get
 0
-get_local
+local
+.
+get
 1
 {
 type

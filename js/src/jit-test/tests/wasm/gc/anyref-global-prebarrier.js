@@ -124,9 +124,13 @@ set
 param
 anyref
 )
-get_local
+local
+.
+get
 0
-set_global
+global
+.
+set
 g
 )
 )

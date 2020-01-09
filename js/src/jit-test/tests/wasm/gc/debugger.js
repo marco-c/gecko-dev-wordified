@@ -76,7 +76,9 @@ anyref
 param
 anyref
 )
-get_local
+local
+.
+get
 0
 )
 (
@@ -143,7 +145,9 @@ param
 ref
 anyref
 )
-get_local
+local
+.
+get
 ref
 )
 )

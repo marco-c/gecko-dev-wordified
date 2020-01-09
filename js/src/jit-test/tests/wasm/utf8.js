@@ -17,11 +17,15 @@ i32
 .
 add
 (
-get_local
+local
+.
+get
 0
 )
 (
-get_local
+local
+.
+get
 0
 )
 )

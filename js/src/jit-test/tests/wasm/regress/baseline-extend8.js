@@ -131,7 +131,9 @@ i
 )
 }
 (
-set_local
+local
+.
+set
 0
 (
 i32
@@ -142,7 +144,9 @@ i32
 .
 add
 (
-get_local
+local
+.
+get
 0
 )
 (
@@ -161,7 +165,9 @@ i
 )
 }
 (
-get_local
+local
+.
+get
 0
 )
 )
@@ -237,7 +243,9 @@ i32
 .
 add
 (
-get_local
+local
+.
+get
 0
 )
 (

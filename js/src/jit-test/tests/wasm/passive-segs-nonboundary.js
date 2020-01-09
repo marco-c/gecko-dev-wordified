@@ -701,7 +701,9 @@ cause
 an
 exception
 .
-get_local
+local
+.
+get
 0
 ;
 ;
@@ -3993,7 +3995,9 @@ table
 init
 4
 (
-get_local
+local
+.
+get
 idx
 )
 (

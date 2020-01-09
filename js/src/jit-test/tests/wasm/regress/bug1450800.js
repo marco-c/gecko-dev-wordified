@@ -102,7 +102,9 @@ get
 result
 i32
 )
-get_global
+global
+.
+get
 0
 )
 )
@@ -176,7 +178,9 @@ glob_imm
 type
 }
 (
-get_global
+global
+.
+get
 0
 )
 )

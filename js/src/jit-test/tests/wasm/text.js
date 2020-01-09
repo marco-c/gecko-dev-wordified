@@ -311,7 +311,9 @@ module
 (
 func
 (
-get_local
+local
+.
+get
 a
 )
 )
@@ -489,7 +491,9 @@ const
 0
 )
 (
-get_local
+local
+.
+get
 0
 )
 )
@@ -1830,7 +1834,9 @@ i32
 .
 add
 (
-get_local
+local
+.
+get
 0
 )
 (

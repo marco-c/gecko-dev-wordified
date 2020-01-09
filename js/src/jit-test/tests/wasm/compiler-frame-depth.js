@@ -18,7 +18,9 @@ expr
 =
 '
 (
-get_local
+local
+.
+get
 0
 )
 '

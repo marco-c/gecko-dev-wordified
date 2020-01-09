@@ -366,7 +366,9 @@ struct
 new
 S
 (
-get_local
+local
+.
+get
 v
 )
 )
@@ -499,7 +501,9 @@ ref
 S
 )
 (
-get_local
+local
+.
+get
 o
 )
 )
@@ -643,7 +647,9 @@ ref
 S
 )
 (
-get_local
+local
+.
+get
 o
 )
 )
@@ -1186,7 +1192,9 @@ i
 =
 >
 (
-get_local
+local
+.
+get
 {
 i
 }
