@@ -2192,14 +2192,6 @@ OwnsState
 ownsState
 =
 OwnsData
-HandleObject
-proto
-=
-nullptr
-NewObjectKind
-newKind
-=
-GenericObject
 )
 ;
 static
