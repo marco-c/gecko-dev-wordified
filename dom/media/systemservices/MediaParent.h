@@ -447,15 +447,6 @@ mOriginKeyStore
 bool
 mDestroyed
 ;
-CoatCheck
-<
-Pledge
-<
-nsCString
->
->
-mOutstandingPledges
-;
 }
 ;
 template
