@@ -4515,7 +4515,7 @@ entry
 url
 triggeringPrincipal_base64
 :
-Utils
+E10SUtils
 .
 SERIALIZED_SYSTEMPRINCIPAL
 }
@@ -4637,7 +4637,7 @@ entries
 .
 triggeringPrincipal_base64
 =
-Utils
+E10SUtils
 .
 SERIALIZED_SYSTEMPRINCIPAL
 ;

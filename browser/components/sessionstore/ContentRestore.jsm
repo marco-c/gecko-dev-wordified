@@ -1646,7 +1646,7 @@ loadArguments
 .
 postData
 ?
-Utils
+E10SUtils
 .
 makeInputStream
 (
@@ -1664,7 +1664,7 @@ loadArguments
 .
 triggeringPrincipal
 ?
-Utils
+E10SUtils
 .
 deserializePrincipal
 (

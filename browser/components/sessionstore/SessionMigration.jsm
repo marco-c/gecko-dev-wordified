@@ -116,7 +116,7 @@ defineModuleGetter
 (
 this
 "
-Utils
+E10SUtils
 "
 "
 resource
@@ -127,9 +127,7 @@ gre
 /
 modules
 /
-sessionstore
-/
-Utils
+E10SUtils
 .
 jsm
 "
@@ -489,7 +487,7 @@ entry
 url
 triggeringPrincipal_base64
 :
-Utils
+E10SUtils
 .
 SERIALIZED_SYSTEMPRINCIPAL
 }

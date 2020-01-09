@@ -144,7 +144,7 @@ defineModuleGetter
 (
 this
 "
-Utils
+E10SUtils
 "
 "
 resource
@@ -155,9 +155,7 @@ gre
 /
 modules
 /
-sessionstore
-/
-Utils
+E10SUtils
 .
 jsm
 "
@@ -292,7 +290,7 @@ failedChannel
 .
 loadInfo
 ?
-Utils
+E10SUtils
 .
 serializePrincipal
 (

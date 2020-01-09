@@ -124,7 +124,7 @@ defineLazyModuleGetters
 (
 this
 {
-Utils
+E10SUtils
 :
 "
 resource
@@ -856,7 +856,7 @@ referrerURI
 referrer
 triggeringPrincipal
 :
-Utils
+E10SUtils
 .
 deserializePrincipal
 (

@@ -1038,7 +1038,7 @@ defineModuleGetter
 (
 this
 "
-Utils
+E10SUtils
 "
 "
 resource
@@ -1049,9 +1049,7 @@ gre
 /
 modules
 /
-sessionstore
-/
-Utils
+E10SUtils
 .
 jsm
 "
@@ -26951,7 +26949,7 @@ aParams
 .
 triggeringPrincipal
 ?
-Utils
+E10SUtils
 .
 serializePrincipal
 (
@@ -26960,7 +26958,7 @@ aParams
 triggeringPrincipal
 )
 :
-Utils
+E10SUtils
 .
 SERIALIZED_SYSTEMPRINCIPAL
 ;

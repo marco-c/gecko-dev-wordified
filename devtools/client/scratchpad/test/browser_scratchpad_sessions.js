@@ -34,7 +34,7 @@ strict
 ;
 const
 {
-Utils
+E10SUtils
 }
 =
 ChromeUtils
@@ -50,9 +50,7 @@ gre
 /
 modules
 /
-sessionstore
-/
-Utils
+E10SUtils
 .
 jsm
 "
@@ -61,7 +59,7 @@ jsm
 const
 triggeringPrincipal_base64
 =
-Utils
+E10SUtils
 .
 SERIALIZED_SYSTEMPRINCIPAL
 ;
