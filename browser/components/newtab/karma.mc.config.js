@@ -712,6 +712,9 @@ basePath
 PATHS
 .
 resourcePathRegEx
+removeOtherImports
+:
+true
 replace
 :
 true

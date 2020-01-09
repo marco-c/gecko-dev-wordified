@@ -269,6 +269,9 @@ esmodules
 basePath
 :
 resourcePathRegEx
+removeOtherImports
+:
+true
 replace
 :
 true

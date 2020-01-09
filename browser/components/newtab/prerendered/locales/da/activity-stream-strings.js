@@ -1186,13 +1186,14 @@ Ved
 at
 forts
 tte
-godkender
+accepterer
 du
 vores
 {
 terms
 }
 og
+vores
 {
 privacy
 }

@@ -462,11 +462,12 @@ permite
 descubrir
 art
 culos
-relevantes
 de
 alta
 calidad
-en
+y
+relevantes
+de
 toda
 la
 web

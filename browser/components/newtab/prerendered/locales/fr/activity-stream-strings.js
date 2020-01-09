@@ -889,7 +889,6 @@ pocket_how_it_works
 "
 Mode
 d
-'
 emploi
 "
 "
@@ -1147,7 +1146,7 @@ section_menu_action_add_search_engine
 :
 "
 Ajouter
-un
+ce
 moteur
 de
 recherche

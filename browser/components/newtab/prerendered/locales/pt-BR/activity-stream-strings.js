@@ -498,7 +498,7 @@ prefs_search_header
 "
 :
 "
-Pesquisa
+Pesquisar
 na
 web
 "
@@ -1070,7 +1070,7 @@ section_menu_action_add_search_engine
 Adicionar
 mecanismo
 de
-pesquisa
+busca
 "
 "
 section_menu_action_move_up

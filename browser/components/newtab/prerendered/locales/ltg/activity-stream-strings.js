@@ -1065,7 +1065,8 @@ section_menu_action_add_search_engine
 "
 :
 "
-Dav
+Da
+v
 n
 t
 mekleit

@@ -424,7 +424,7 @@ prefs_content_discovery_header
 :
 "
 Firefox
-Home
+startside
 "
 "
 prefs_content_discovery_description
@@ -1204,14 +1204,6 @@ context_menu_title
 "
 Opne
 meny
-"
-"
-pocket_learn_more
-"
-:
-"
-Les
-meir
 "
 }
 ;
