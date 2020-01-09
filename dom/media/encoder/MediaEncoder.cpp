@@ -1352,7 +1352,6 @@ GetImage
 (
 )
 )
-1
 iter
 -
 >

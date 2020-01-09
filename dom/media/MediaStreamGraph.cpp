@@ -19595,7 +19595,6 @@ GetImage
 (
 )
 )
-1
 iter
 -
 >
@@ -19709,7 +19708,6 @@ GetImage
 (
 )
 )
-1
 iter
 -
 >

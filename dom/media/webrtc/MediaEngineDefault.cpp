@@ -1859,7 +1859,6 @@ ycbcr_image
 forget
 (
 )
-1
 gfx
 :
 :

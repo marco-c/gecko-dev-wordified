@@ -335,7 +335,6 @@ GetImage
 (
 )
 )
-0
 f
 .
 GetIntrinsicSize

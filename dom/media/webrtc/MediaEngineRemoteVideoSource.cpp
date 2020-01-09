@@ -4059,7 +4059,6 @@ image
 forget
 (
 )
-1
 mImageSize
 mPrincipal
 )

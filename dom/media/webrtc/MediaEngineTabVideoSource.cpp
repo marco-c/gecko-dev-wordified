@@ -2394,7 +2394,6 @@ do_AddRef
 (
 rgbImage
 )
-1
 size
 mPrincipalHandle
 )
