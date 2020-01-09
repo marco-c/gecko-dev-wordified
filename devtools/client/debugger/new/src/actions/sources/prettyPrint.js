@@ -358,9 +358,6 @@ loadedState
 "
 loading
 "
-introductionUrl
-:
-null
 }
 ;
 dispatch
