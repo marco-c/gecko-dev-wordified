@@ -75718,8 +75718,9 @@ items
 .
 finalItems
 .
-AddChild
+AppendFrame
 (
+aColumnSetWrapper
 f
 )
 ;
@@ -75766,8 +75767,9 @@ f
 ;
 finalItems
 .
-AddChild
+AppendFrame
 (
+aColumnSetWrapper
 continuingColumnSet
 )
 ;
@@ -75777,13 +75779,6 @@ continuingColumnSet
 ;
 }
 }
-finalItems
-.
-ApplySetParent
-(
-aColumnSetWrapper
-)
-;
 aColumnSetWrapper
 -
 >
