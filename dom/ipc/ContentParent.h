@@ -7295,9 +7295,6 @@ LifecycleState
 mLifecycleState
 ;
 bool
-mShuttingDown
-;
-bool
 mIsForBrowser
 ;
 /
