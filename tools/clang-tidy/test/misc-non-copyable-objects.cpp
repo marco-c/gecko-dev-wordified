@@ -9,10 +9,6 @@ FILE
 FILE
 ;
 }
-/
-/
-namespace
-std
 void
 g
 (

@@ -246,8 +246,6 @@ since
 we
 are
 using
-/
-/
 AllowPointerConditions
 if
 (

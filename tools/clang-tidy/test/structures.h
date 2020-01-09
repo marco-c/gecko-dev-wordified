@@ -13,8 +13,6 @@ to
 avoid
 binding
 with
-/
-/
 system
 headers
 typedef
@@ -453,10 +451,6 @@ Arguments
 )
 ;
 }
-/
-/
-namespace
-std
 typedef
 unsigned
 int
@@ -558,6 +552,7 @@ if
 x
 )
 )
+\
 (
 void
 )

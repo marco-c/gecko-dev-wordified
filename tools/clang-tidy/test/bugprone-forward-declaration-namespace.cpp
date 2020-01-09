@@ -14,10 +14,6 @@ A
 }
 ;
 }
-/
-/
-namespace
-nb
 nb
 :
 :

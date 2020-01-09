@@ -43,15 +43,7 @@ qux
 ;
 }
 }
-/
-/
-namespace
-n2
 }
-/
-/
-namespace
-n1
 namespace
 n1_unused
 =
