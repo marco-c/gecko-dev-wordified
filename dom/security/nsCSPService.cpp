@@ -268,12 +268,6 @@ CSPService
 (
 )
 {
-mAppStatusCache
-.
-Clear
-(
-)
-;
 }
 NS_IMPL_ISUPPORTS
 (
