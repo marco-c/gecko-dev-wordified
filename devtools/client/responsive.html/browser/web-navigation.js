@@ -528,15 +528,13 @@ spec
 null
 triggeringPrincipal
 :
-triggeringPrincipal
-?
 Utils
 .
 serializePrincipal
 (
 triggeringPrincipal
-)
-:
+|
+|
 Services
 .
 scriptSecurityManager
@@ -545,6 +543,7 @@ createNullPrincipal
 (
 {
 }
+)
 )
 requestTime
 :
