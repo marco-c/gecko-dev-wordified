@@ -182,9 +182,9 @@ LightweightThemeManager
 .
 addBuiltInTheme
 in
-BrowserGlue
+nsBrowserGlue
 .
-jsm
+js
 *
 /
 -

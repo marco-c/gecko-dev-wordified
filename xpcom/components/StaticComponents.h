@@ -179,9 +179,6 @@ class
 nsIFactory
 ;
 class
-nsIUTF8StringEnumerator
-;
-class
 nsISupports
 ;
 namespace
@@ -1297,15 +1294,6 @@ bool
 aInvalid
 =
 true
-)
-;
-static
-already_AddRefed
-<
-nsIUTF8StringEnumerator
->
-GetComponentJSMs
-(
 )
 ;
 /

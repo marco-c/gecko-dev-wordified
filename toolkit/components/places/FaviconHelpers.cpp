@@ -9301,7 +9301,7 @@ for
 uint16_t
 supportedSize
 :
-gFaviconSizes
+sFaviconSizes
 )
 {
 if

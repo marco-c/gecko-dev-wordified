@@ -13253,9 +13253,9 @@ run
 from
 _scheduleStartupIdleTasks
 in
-BrowserGlue
+nsBrowserGlue
 .
-jsm
+js
 )
 .
 *

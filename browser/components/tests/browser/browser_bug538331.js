@@ -1842,9 +1842,9 @@ testShowNotification
 }
 /
 /
-BrowserGlue
+nsBrowserGlue
 .
-jsm
+js
 _showUpdateNotification
 notification
 tests
@@ -2016,9 +2016,9 @@ update
 /
 _showUpdateNotification
 in
-BrowserGlue
+nsBrowserGlue
 .
-jsm
+js
 function
 testShowNotification
 (

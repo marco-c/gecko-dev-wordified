@@ -217,6 +217,13 @@ h
 #
 include
 "
+nsBrowserCompsCID
+.
+h
+"
+#
+include
+"
 nsDirectoryServiceUtils
 .
 h

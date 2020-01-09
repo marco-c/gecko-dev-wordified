@@ -119,11 +119,11 @@ resource
 /
 gre
 /
-modules
+components
 /
 FxAccountsPush
 .
-jsm
+js
 "
 importScope
 )
