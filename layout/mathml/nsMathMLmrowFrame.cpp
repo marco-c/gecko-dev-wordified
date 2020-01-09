@@ -132,6 +132,10 @@ gfx
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 /

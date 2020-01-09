@@ -162,6 +162,10 @@ SVGObserverUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 This

@@ -123,6 +123,13 @@ __NS_CSSCLIPPATHINSTANCE_H__
 #
 include
 "
+gfxPoint
+.
+h
+"
+#
+include
+"
 nsStyleStruct
 .
 h

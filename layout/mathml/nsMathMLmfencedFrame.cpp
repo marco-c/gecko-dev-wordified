@@ -144,6 +144,15 @@ using
 namespace
 mozilla
 ;
+using
+mozilla
+:
+:
+gfx
+:
+:
+DrawTarget
+;
 /
 /
 /

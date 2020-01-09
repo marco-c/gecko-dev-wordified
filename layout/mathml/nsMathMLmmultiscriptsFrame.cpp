@@ -148,10 +148,8 @@ gfxMathTable
 h
 "
 using
+namespace
 mozilla
-:
-:
-WritingMode
 ;
 /
 /

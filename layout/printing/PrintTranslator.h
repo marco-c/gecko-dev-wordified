@@ -128,6 +128,13 @@ istream
 #
 include
 "
+DrawEventRecorder
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx

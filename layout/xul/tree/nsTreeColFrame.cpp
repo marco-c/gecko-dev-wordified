@@ -213,6 +213,10 @@ nsXULElement
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 /

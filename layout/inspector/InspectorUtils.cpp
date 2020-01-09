@@ -142,6 +142,13 @@ h
 #
 include
 "
+gfxTextRun
+.
+h
+"
+#
+include
+"
 nsArray
 .
 h

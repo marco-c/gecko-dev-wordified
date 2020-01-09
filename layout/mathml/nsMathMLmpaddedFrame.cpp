@@ -153,6 +153,10 @@ include
 <
 algorithm
 >
+using
+namespace
+mozilla
+;
 /
 /
 /

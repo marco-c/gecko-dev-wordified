@@ -138,6 +138,13 @@ h
 #
 include
 "
+nsIFrameInlines
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h

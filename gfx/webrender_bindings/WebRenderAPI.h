@@ -162,6 +162,17 @@ mozilla
 /
 layers
 /
+IpcResourceUpdateQueue
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 ScrollableLayerGuid
 .
 h

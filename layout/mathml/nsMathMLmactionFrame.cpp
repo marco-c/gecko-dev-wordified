@@ -200,6 +200,10 @@ Event
 h
 "
 using
+namespace
+mozilla
+;
+using
 mozilla
 :
 :

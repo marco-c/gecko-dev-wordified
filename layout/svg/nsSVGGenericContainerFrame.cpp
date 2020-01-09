@@ -134,6 +134,10 @@ nsSVGIntegrationUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 -

@@ -155,6 +155,10 @@ HashFunctions
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 #

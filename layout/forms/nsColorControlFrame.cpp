@@ -182,6 +182,10 @@ nsIDocument
 h
 "
 using
+namespace
+mozilla
+;
+using
 mozilla
 :
 :

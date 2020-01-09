@@ -183,6 +183,13 @@ h
 #
 include
 "
+nsSVGMarkerFrame
+.
+h
+"
+#
+include
+"
 nsSVGPaintServerFrame
 .
 h
@@ -254,6 +261,10 @@ ReferrerPolicy
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla

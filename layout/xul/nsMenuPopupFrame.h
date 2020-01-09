@@ -157,6 +157,13 @@ h
 #
 include
 "
+nsIDOMXULSelectCntrlEl
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h

@@ -178,6 +178,13 @@ h
 #
 include
 "
+nsPresContext
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

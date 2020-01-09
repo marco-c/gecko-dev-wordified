@@ -138,6 +138,13 @@ h
 #
 include
 "
+nsIWidget
+.
+h
+"
+#
+include
+"
 nsPrintObject
 .
 h

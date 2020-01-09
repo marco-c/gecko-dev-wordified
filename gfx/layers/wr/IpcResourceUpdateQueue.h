@@ -147,6 +147,17 @@ include
 "
 mozilla
 /
+layers
+/
+TextureClient
+.
+h
+"
+#
+include
+"
+mozilla
+/
 webrender
 /
 WebRenderTypes
