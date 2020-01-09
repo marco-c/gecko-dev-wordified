@@ -3695,7 +3695,14 @@ searchString
 =
 this
 .
+valueIsTyped
+?
+this
+.
 textValue
+:
+"
+"
 ;
 }
 else
