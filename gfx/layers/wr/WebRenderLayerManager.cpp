@@ -2973,6 +2973,16 @@ TimeStamp
 aCompositeEnd
 )
 {
+if
+(
+IsDestroyed
+(
+)
+)
+{
+return
+;
+}
 MOZ_ASSERT
 (
 mWidget
