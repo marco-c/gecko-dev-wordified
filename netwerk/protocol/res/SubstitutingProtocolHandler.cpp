@@ -3258,11 +3258,15 @@ baseURI
 newBase
 )
 ;
-NS_ENSURE_SUCCESS
+if
+(
+NS_FAILED
 (
 rv
-rv
 )
+)
+return
+rv
 ;
 nsCOMPtr
 <
