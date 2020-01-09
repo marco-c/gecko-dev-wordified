@@ -4928,7 +4928,7 @@ in
 TypedArrayObjectTemplate
 :
 :
-getElement
+getIndexValue
 .
 canonicalizeFloat
 (
@@ -5003,7 +5003,7 @@ in
 TypedArrayObjectTemplate
 :
 :
-getElement
+getIndexValue
 .
 canonicalizeDouble
 (
