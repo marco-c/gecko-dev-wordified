@@ -445,6 +445,15 @@ include
 "
 vm
 /
+AsyncFunction
+.
+h
+"
+#
+include
+"
+vm
+/
 AsyncIteration
 .
 h
