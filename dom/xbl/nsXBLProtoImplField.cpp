@@ -3302,7 +3302,7 @@ scopeChain
 ;
 exec
 .
-CompileAndExec
+Compile
 (
 options
 nsDependentString
@@ -3316,7 +3316,7 @@ rv
 =
 exec
 .
-ExtractReturnValue
+ExecScript
 (
 &
 result
