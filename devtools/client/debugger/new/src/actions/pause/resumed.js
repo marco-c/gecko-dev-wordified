@@ -221,6 +221,7 @@ thread
 packet
 .
 from
+wasStepping
 }
 )
 ;
