@@ -33477,6 +33477,15 @@ GenericObject
 {
 MOZ_ASSERT
 (
+*
+pc
+=
+=
+JSOP_NEWARRAY
+)
+;
+MOZ_ASSERT
+(
 newKind
 !
 =
@@ -33803,10 +33812,6 @@ NewDenseCopyOnWriteArray
 (
 cx
 baseobj
-gc
-:
-:
-DefaultHeap
 )
 ;
 }

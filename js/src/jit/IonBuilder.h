@@ -5106,6 +5106,9 @@ inlineArray
 CallInfo
 &
 callInfo
+Realm
+*
+targetRealm
 )
 ;
 InliningResult
