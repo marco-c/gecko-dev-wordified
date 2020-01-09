@@ -712,6 +712,11 @@ CallIsSuspendedGeneratorResult
 \
 _
 (
+MetaTwoByte
+)
+\
+_
+(
 WrapResult
 )
 /
@@ -4457,10 +4462,12 @@ currentVerificationPosition_
 uint32_t
 expectedLength
 =
+1
++
 CacheIROpFormat
 :
 :
-OpLengths
+ArgLengths
 [
 uint8_t
 (
