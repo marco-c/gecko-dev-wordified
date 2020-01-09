@@ -19963,6 +19963,12 @@ nullptr
 ;
 }
 /
+/
+clang
+-
+format
+off
+/
 *
 The
 methods
@@ -20836,6 +20842,12 @@ generated
 .
 *
 /
+/
+/
+clang
+-
+format
+on
 /
 *
 *
