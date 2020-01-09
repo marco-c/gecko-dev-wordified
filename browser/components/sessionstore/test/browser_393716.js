@@ -530,6 +530,10 @@ linkedBrowser
 id
 :
 "
+about
+-
+config
+-
 search
 "
 value
@@ -617,6 +621,10 @@ linkedBrowser
 id
 :
 "
+about
+-
+config
+-
 search
 "
 }
