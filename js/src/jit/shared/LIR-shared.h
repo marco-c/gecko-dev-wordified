@@ -387,7 +387,7 @@ it
 /
 /
 gets
-CG
+GC
 '
 d
 .
