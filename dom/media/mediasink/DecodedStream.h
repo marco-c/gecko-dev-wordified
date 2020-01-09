@@ -534,13 +534,6 @@ aTime
 )
 ;
 void
-NotifyTrackEnd
-(
-StreamTime
-aEndTime
-)
-;
-void
 AssertOwnerThread
 (
 )
