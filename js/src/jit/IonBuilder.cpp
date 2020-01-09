@@ -5149,14 +5149,6 @@ argTypes
 nullptr
 ;
 }
-AutoSweepTypeScript
-sweep
-(
-script
-(
-)
-)
-;
 bytecodeTypeMap
 =
 script
@@ -5166,7 +5158,6 @@ script
 >
 types
 (
-sweep
 )
 -
 >
