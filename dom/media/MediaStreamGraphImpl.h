@@ -1993,6 +1993,7 @@ aTime
 .
 *
 /
+static
 GraphTime
 RoundUpToEndOfAudioBlock
 (
@@ -2025,6 +2026,7 @@ aTime
 .
 *
 /
+static
 GraphTime
 RoundUpToNextAudioBlock
 (
