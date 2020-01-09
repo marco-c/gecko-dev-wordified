@@ -688,7 +688,7 @@ securityChanged
 =
 waitForSecurityChange
 (
-2
+3
 tabbrowser
 .
 ownerGlobal
@@ -765,7 +765,7 @@ securityChanged
 =
 waitForSecurityChange
 (
-3
+4
 tabbrowser
 .
 ownerGlobal
