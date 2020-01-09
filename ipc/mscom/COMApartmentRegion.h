@@ -247,16 +247,6 @@ mInitResult
 )
 ;
 }
-HRESULT
-GetHResult
-(
-)
-const
-{
-return
-mInitResult
-;
-}
 private
 :
 COMApartmentRegion
