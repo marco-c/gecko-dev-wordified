@@ -883,7 +883,7 @@ TileOffset
 =
 TypedPoint2D
 <
-u16
+u32
 Tiles
 >
 ;
@@ -893,7 +893,7 @@ TileRange
 =
 TypedRect
 <
-u16
+u32
 Tiles
 >
 ;
