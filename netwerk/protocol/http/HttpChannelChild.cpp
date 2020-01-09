@@ -16791,6 +16791,7 @@ uri
 ;
 GetTopWindowURI
 (
+mURI
 getter_AddRefs
 (
 uri
