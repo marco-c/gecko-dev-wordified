@@ -111,6 +111,7 @@ ActorId
 Script
 Source
 Pause
+PendingLocation
 Frame
 SourceId
 Worker
@@ -1750,7 +1751,7 @@ Promise
 >
 removeBreakpoint
 :
-BreakpointLocation
+PendingLocation
 =
 >
 Promise

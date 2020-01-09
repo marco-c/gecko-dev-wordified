@@ -96,6 +96,7 @@ telemetry
 import
 {
 remapBreakpoints
+setBreakpointPositions
 }
 from
 "
@@ -515,6 +516,17 @@ loadedPrettySource
 }
 :
 Action
+)
+)
+;
+await
+dispatch
+(
+setBreakpointPositions
+(
+loadedPrettySource
+.
+id
 )
 )
 ;
