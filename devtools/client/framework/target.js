@@ -2857,6 +2857,7 @@ RootActorActor
 .
 getTab
 requests
+async
 getFront
 (
 typeName
