@@ -827,6 +827,14 @@ mSanityCheck
 =
 false
 ;
+TimeStamp
+:
+:
+SetFuzzyfoxEnabled
+(
+false
+)
+;
 }
 }
 }
