@@ -1261,6 +1261,11 @@ ImageFormat
 :
 :
 BGRA8
+|
+ImageFormat
+:
+:
+RGBA8
 =
 >
 {
