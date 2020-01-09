@@ -2250,7 +2250,7 @@ MaxElemSegments
 static
 const
 unsigned
-MaxTableMaximumLength
+MaxTableLength
 =
 10000000
 ;

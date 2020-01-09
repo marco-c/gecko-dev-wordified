@@ -639,6 +639,7 @@ table
 grow
 (
 3
+null
 {
 }
 )
