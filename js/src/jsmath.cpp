@@ -5597,12 +5597,6 @@ math_static_methods
 ]
 =
 {
-/
-/
-clang
--
-format
-off
 JS_FN
 (
 js_toSource_str
@@ -5961,12 +5955,6 @@ math_cbrt
 MathCbrt
 )
 JS_FS_END
-/
-/
-clang
--
-format
-on
 }
 ;
 JSObject

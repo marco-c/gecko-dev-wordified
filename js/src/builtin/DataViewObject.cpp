@@ -5508,12 +5508,6 @@ methods
 ]
 =
 {
-/
-/
-clang
--
-format
-off
 JS_FN
 (
 "
@@ -5707,12 +5701,6 @@ fun_setFloat64
 0
 )
 JS_FS_END
-/
-/
-clang
--
-format
-on
 }
 ;
 const

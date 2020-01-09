@@ -7234,12 +7234,6 @@ number_methods
 ]
 =
 {
-/
-/
-clang
--
-format
-off
 JS_FN
 (
 js_toSource_str
@@ -7312,12 +7306,6 @@ num_toPrecision
 0
 )
 JS_FS_END
-/
-/
-clang
--
-format
-on
 }
 ;
 bool

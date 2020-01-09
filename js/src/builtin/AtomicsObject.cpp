@@ -6682,12 +6682,6 @@ AtomicsMethods
 ]
 =
 {
-/
-/
-clang
--
-format
-off
 JS_INLINABLE_FN
 (
 "
@@ -6820,12 +6814,6 @@ atomics_notify
 Legacy
 name
 JS_FS_END
-/
-/
-clang
--
-format
-on
 }
 ;
 JSObject

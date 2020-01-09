@@ -1118,12 +1118,6 @@ methods
 ]
 =
 {
-/
-/
-clang
--
-format
-off
 JS_FN
 (
 "
@@ -1152,12 +1146,6 @@ has
 0
 )
 JS_FS_END
-/
-/
-clang
--
-format
-on
 }
 ;
 WeakSetObject

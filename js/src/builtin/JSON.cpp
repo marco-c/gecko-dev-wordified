@@ -7229,12 +7229,6 @@ json_static_methods
 ]
 =
 {
-/
-/
-clang
--
-format
-off
 JS_FN
 (
 js_toSource_str
@@ -7261,12 +7255,6 @@ json_stringify
 0
 )
 JS_FS_END
-/
-/
-clang
--
-format
-on
 }
 ;
 JSObject

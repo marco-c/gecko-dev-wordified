@@ -2037,12 +2037,6 @@ methods
 ]
 =
 {
-/
-/
-clang
--
-format
-off
 JS_FN
 (
 "
@@ -2080,11 +2074,5 @@ set
 0
 )
 JS_FS_END
-/
-/
-clang
--
-format
-on
 }
 ;
