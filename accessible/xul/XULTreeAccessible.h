@@ -820,6 +820,7 @@ BoundsInAppUnits
 const
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsIntRect
 BoundsInCSSPixels
