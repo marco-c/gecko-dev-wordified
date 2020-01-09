@@ -22906,6 +22906,9 @@ types_
 >
 destroy
 (
+zone
+(
+)
 )
 ;
 }

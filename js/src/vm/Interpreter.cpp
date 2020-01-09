@@ -12196,7 +12196,7 @@ script
 script
 -
 >
-hasBaselineScript
+hasICScript
 (
 )
 &
@@ -12210,7 +12210,7 @@ pc
 script
 -
 >
-baselineScript
+icScript
 (
 )
 -
