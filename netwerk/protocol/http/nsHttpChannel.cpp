@@ -9150,10 +9150,13 @@ NoSniFF
 "
 NoSniFF
 "
-contentTypeOptionsHeader
-.
-StripWhitespace
+nsHttp
+:
+:
+TrimHTTPWhitespace
 (
+contentTypeOptionsHeader
+contentTypeOptionsHeader
 )
 ;
 /
