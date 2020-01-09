@@ -1205,9 +1205,9 @@ borderWidth
 nsPresContext
 :
 :
-GetBorderWidthForKeyword
+CSSPixelsToAppUnits
 (
-NS_STYLE_BORDER_WIDTH_THIN
+1
 )
 ;
 nsTArray
