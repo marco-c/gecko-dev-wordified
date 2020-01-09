@@ -24464,7 +24464,7 @@ rv
 =
 mObservers
 .
-AppendWeakElement
+AppendWeakElementUnlessExists
 (
 aObserver
 aOwnsWeak
