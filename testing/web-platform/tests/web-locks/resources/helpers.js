@@ -56,7 +56,10 @@ self
 .
 uniqueName
 =
+(
 testCase
+prefix
+)
 =
 >
 {
@@ -67,6 +70,10 @@ self
 location
 .
 pathname
+}
+-
+{
+prefix
 }
 -
 {
