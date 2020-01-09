@@ -569,7 +569,8 @@ aRange
 {
 mIter
 =
-NS_NewContentSubtreeIterator
+new
+ContentSubtreeIterator
 (
 )
 ;
