@@ -253,6 +253,9 @@ nsIntRect
 &
 aBounds
 const
+uint8_t
+aActionCount
+const
 nsString
 &
 aName
@@ -304,6 +307,9 @@ const
 nsIntRect
 &
 aBounds
+const
+uint8_t
+aActionCount
 )
 ;
 mozilla
@@ -501,6 +507,8 @@ role
 aRole
 uint64_t
 aState
+uint8_t
+aActionCount
 )
 ;
 }

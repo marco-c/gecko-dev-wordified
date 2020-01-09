@@ -305,6 +305,14 @@ aHow
 const
 override
 ;
+virtual
+uint8_t
+ActionCount
+(
+)
+const
+override
+;
 /
 /
 AccessibleWrap

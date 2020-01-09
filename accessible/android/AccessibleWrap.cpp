@@ -1529,6 +1529,8 @@ role
 aRole
 uint64_t
 aState
+uint8_t
+aActionCount
 )
 {
 uint32_t
@@ -1626,12 +1628,16 @@ FLAG_EDITABLE
 }
 if
 (
-aState
+aActionCount
 &
-states
+&
+aRole
+!
+=
+roles
 :
 :
-SENSITIVE
+TEXT_LEAF
 )
 {
 flags
@@ -2565,6 +2571,9 @@ State
 Bounds
 (
 )
+ActionCount
+(
+)
 name
 textValue
 nodeID
@@ -2598,6 +2607,9 @@ const
 nsIntRect
 &
 aBounds
+const
+uint8_t
+aActionCount
 const
 nsString
 &
@@ -2728,6 +2740,7 @@ GetFlags
 (
 role
 aState
+aActionCount
 )
 ;
 GECKOBUNDLE_PUT
@@ -3770,6 +3783,9 @@ State
 Bounds
 (
 )
+ActionCount
+(
+)
 )
 ;
 }
@@ -3795,6 +3811,9 @@ const
 nsIntRect
 &
 aBounds
+const
+uint8_t
+aActionCount
 )
 {
 GECKOBUNDLE_START
@@ -3872,6 +3891,7 @@ WrapperRole
 (
 )
 aState
+aActionCount
 )
 ;
 GECKOBUNDLE_PUT
