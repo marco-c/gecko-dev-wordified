@@ -228,6 +228,7 @@ ANR_LOGW
 .
 .
 )
+\
 MOZ_LOG
 (
 sLogger

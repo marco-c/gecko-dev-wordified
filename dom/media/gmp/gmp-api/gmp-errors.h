@@ -372,6 +372,8 @@ s
 values
 must
 remain
+/
+/
 consecutive
 !
 }

@@ -323,12 +323,12 @@ default
 values
 consistent
 with
+/
+/
 PannerNode
 :
 :
 PannerNode
-/
-/
 below
 .
 mPanningModelFunction
@@ -1642,6 +1642,8 @@ default
 values
 consistent
 with
+/
+/
 PannerNodeEngine
 :
 :

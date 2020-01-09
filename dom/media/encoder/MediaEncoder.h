@@ -190,6 +190,10 @@ class
 VideoStreamTrack
 ;
 }
+/
+/
+namespace
+dom
 class
 MediaEncoder
 ;

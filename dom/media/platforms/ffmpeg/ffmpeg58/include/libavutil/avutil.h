@@ -1311,6 +1311,7 @@ value
 #
 define
 AV_TIME_BASE_Q
+\
 (
 AVRational
 )
@@ -1805,6 +1806,7 @@ av_fourcc2str
 (
 fourcc
 )
+\
 av_fourcc_make_string
 (
 (
@@ -1854,6 +1856,7 @@ bytes
 of
 at
 least
+*
 AV_FOURCC_MAX_STRING_SIZE
 *
 param

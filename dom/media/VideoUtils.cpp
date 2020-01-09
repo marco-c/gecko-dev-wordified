@@ -2533,6 +2533,8 @@ subsampling
 MUST
 be
 3
+/
+/
 (
 4
 :
@@ -2746,6 +2748,8 @@ support
 /
 /
 See
+/
+/
 http
 :
 /
@@ -3071,6 +3075,8 @@ otherwise
 collect
 0
 for
+/
+/
 unknown
 .
 Telemetry

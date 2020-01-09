@@ -661,6 +661,10 @@ mAudioSources
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

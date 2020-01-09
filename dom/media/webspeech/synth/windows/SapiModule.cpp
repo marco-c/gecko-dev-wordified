@@ -149,10 +149,12 @@ define
 SAPISERVICE_CID
 \
 {
+\
 0x21b4a45b
 0x9806
 0x4021
 {
+\
 0xa7
 0x06
 0xd7
@@ -161,7 +163,9 @@ SAPISERVICE_CID
 0x05
 0x48
 0xf9
+\
 }
+\
 }
 #
 define

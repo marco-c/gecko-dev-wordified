@@ -201,7 +201,6 @@ DDLoggedTypeTraits
 <
 TYPE
 >
-\
 {
 \
 using
@@ -270,7 +269,6 @@ DDLoggedTypeTraits
 <
 TYPE
 >
-\
 {
 \
 using
@@ -314,7 +312,6 @@ char
 BaseTypeName
 (
 )
-\
 {
 \
 return
@@ -349,7 +346,6 @@ DDLoggedTypeTraits
 <
 TYPE
 >
-\
 {
 \
 using
@@ -419,7 +415,6 @@ DDLoggedTypeTraits
 <
 TYPE
 >
-\
 {
 \
 using
@@ -463,7 +458,6 @@ char
 BaseTypeName
 (
 )
-\
 {
 \
 return
@@ -629,10 +623,6 @@ HTMLVideoElement
 /
 /
 namespace
-(
-mozilla
-/
-)
 dom
 DDLoggedTypeName
 (

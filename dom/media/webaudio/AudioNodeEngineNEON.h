@@ -263,6 +263,10 @@ WEBAUDIO_BLOCK_SIZE
 )
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

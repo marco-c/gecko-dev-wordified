@@ -231,6 +231,10 @@ mPinCount
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

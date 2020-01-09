@@ -320,8 +320,8 @@ guarantee
 to
 send
 a
-NotifyBlockingChanged
 *
+NotifyBlockingChanged
 callback
 to
 notify
@@ -332,11 +332,11 @@ blocking
 state
 .
 Also
+*
 if
 a
 listener
 is
-*
 attached
 to
 a
@@ -349,6 +349,7 @@ we
 '
 ll
 call
+*
 NotifyFinished
 .
 *
@@ -410,8 +411,8 @@ called
 .
 A
 NotifyPull
-implementation
 *
+implementation
 is
 allowed
 to
@@ -421,8 +422,8 @@ SourceMediaStream
 methods
 that
 alter
-track
 *
+track
 data
 .
 It
@@ -435,8 +436,8 @@ other
 MediaStream
 API
 calls
-including
 *
+including
 calls
 to
 add
@@ -449,15 +450,14 @@ is
 not
 allowed
 to
-block
 *
+block
 for
 any
 length
 of
 time
 .
-*
 aDesiredTime
 is
 the
@@ -466,6 +466,7 @@ time
 we
 would
 like
+*
 to
 get
 data
@@ -473,7 +474,6 @@ up
 to
 .
 Data
-*
 beyond
 this
 point
@@ -482,6 +482,7 @@ not
 be
 played
 until
+*
 NotifyPull
 runs
 again
@@ -489,7 +490,6 @@ so
 there
 '
 s
-*
 not
 much
 point
@@ -499,13 +499,13 @@ it
 .
 Note
 that
+*
 if
 the
 stream
 is
 blocked
 for
-*
 some
 reason
 then
@@ -513,6 +513,7 @@ data
 before
 aDesiredTime
 may
+*
 not
 be
 played

@@ -383,3 +383,7 @@ Length
 ;
 }
 }
+/
+/
+namespace
+mozilla

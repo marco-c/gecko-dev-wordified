@@ -486,6 +486,7 @@ endcode
 #
 define
 AV_DICT_MATCH_CASE
+\
 1
 /
 *
@@ -505,6 +506,7 @@ match
 Only
 relevant
 in
+\
 av_dict_get
 (
 )
@@ -514,6 +516,7 @@ av_dict_get
 #
 define
 AV_DICT_IGNORE_SUFFIX
+\
 2
 /
 *
@@ -530,6 +533,7 @@ first
 part
 corresponds
 to
+\
 the
 search
 key
@@ -543,6 +547,7 @@ key
 string
 .
 Only
+\
 relevant
 in
 av_dict_get
@@ -554,6 +559,7 @@ av_dict_get
 #
 define
 AV_DICT_DONT_STRDUP_KEY
+\
 4
 /
 *
@@ -568,6 +574,7 @@ that
 '
 s
 been
+\
 allocated
 with
 av_malloc
@@ -584,6 +591,7 @@ function
 #
 define
 AV_DICT_DONT_STRDUP_VAL
+\
 8
 /
 *
@@ -598,6 +606,7 @@ that
 '
 s
 been
+\
 allocated
 with
 av_malloc
@@ -629,6 +638,7 @@ entries
 #
 define
 AV_DICT_APPEND
+\
 32
 /
 *
@@ -646,6 +656,7 @@ it
 Note
 that
 no
+\
 delimiter
 is
 added
@@ -783,6 +794,7 @@ how
 the
 entry
 is
+*
 retrieved
 *
 return
@@ -799,6 +811,7 @@ was
 found
 in
 the
+*
 dictionary
 *
 /
@@ -955,10 +968,10 @@ be
 av_strduped
 depending
 on
+*
 flags
 )
 .
-*
 Passing
 a
 NULL
@@ -1427,11 +1440,11 @@ will
 be
 allocated
 with
+*
 string
 containg
 entries
 .
-*
 Buffer
 must
 be
@@ -1443,6 +1456,7 @@ when
 is
 no
 longer
+*
 needed
 .
 *
@@ -1472,6 +1486,7 @@ two
 pairs
 from
 each
+*
 other
 *
 return
@@ -1504,6 +1519,7 @@ also
 cannot
 be
 the
+*
 same
 .
 *

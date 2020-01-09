@@ -268,6 +268,7 @@ ANS_LOGW
 .
 .
 )
+\
 MOZ_LOG
 (
 sLogger
@@ -707,6 +708,8 @@ report
 events
 to
 this
+/
+/
 object
 .
 bool

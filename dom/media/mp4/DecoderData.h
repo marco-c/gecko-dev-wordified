@@ -391,5 +391,9 @@ override
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

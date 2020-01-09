@@ -186,7 +186,6 @@ DDMOZ_LOG
 GetSourceBufferResourceLog
 (
 )
-\
 mozilla
 :
 :
@@ -203,9 +202,7 @@ s
 :
 "
 arg
-\
 __func__
-\
 #
 #
 __VA_ARGS__
@@ -225,7 +222,6 @@ DDMOZ_LOG
 GetSourceBufferResourceLog
 (
 )
-\
 mozilla
 :
 :
@@ -242,9 +238,7 @@ s
 :
 "
 arg
-\
 __func__
-\
 #
 #
 __VA_ARGS__

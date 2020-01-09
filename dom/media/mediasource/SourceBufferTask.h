@@ -757,8 +757,7 @@ mType
 }
 /
 /
-end
-mozilla
 namespace
+mozilla
 #
 endif

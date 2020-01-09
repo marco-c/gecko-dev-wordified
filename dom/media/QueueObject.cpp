@@ -255,3 +255,7 @@ mThread
 ;
 }
 }
+/
+/
+namespace
+mozilla

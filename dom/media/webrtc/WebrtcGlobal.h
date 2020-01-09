@@ -3832,7 +3832,7 @@ true
 /
 /
 namespace
-ipc
+IPC
 #
 endif
 /

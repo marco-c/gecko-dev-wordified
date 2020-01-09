@@ -1199,6 +1199,10 @@ nVersionMajor
 ;
 }
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

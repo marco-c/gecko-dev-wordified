@@ -1187,3 +1187,7 @@ true
 ;
 }
 }
+/
+/
+namespace
+mozilla

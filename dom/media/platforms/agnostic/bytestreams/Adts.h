@@ -118,5 +118,9 @@ aSample
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

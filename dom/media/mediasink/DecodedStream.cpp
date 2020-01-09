@@ -1121,9 +1121,9 @@ t
 start
 playback
 until
+/
+/
 playing
-/
-/
 becomes
 true
 .
@@ -1134,6 +1134,8 @@ with
 the
 settings
 of
+/
+/
 AudioSink
 .
 mPlaying
@@ -1842,9 +1844,9 @@ no
 output
 streams
 .
+/
+/
 This
-/
-/
 happens
 when
 RemoveOutput
@@ -1854,6 +1856,8 @@ is
 called
 immediately
 after
+/
+/
 StartPlayback
 (
 )

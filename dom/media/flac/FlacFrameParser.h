@@ -196,9 +196,9 @@ FLAC_MAX_FRAME_HEADER_SIZE
 #
 define
 FLAC_MAX_FRAME_SIZE
+\
 (
 FLAC_MAX_FRAME_HEADER_SIZE
-\
 +
 FLAC_MAX_BLOCKSIZE
 *
@@ -476,6 +476,10 @@ mParser
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

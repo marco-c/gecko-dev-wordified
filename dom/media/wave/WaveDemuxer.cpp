@@ -177,7 +177,7 @@ mozilla
 media
 :
 :
-TimeUnit
+TimeIntervals
 ;
 using
 mozilla
@@ -186,7 +186,7 @@ mozilla
 media
 :
 :
-TimeIntervals
+TimeUnit
 ;
 namespace
 mozilla

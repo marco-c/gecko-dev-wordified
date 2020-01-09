@@ -197,6 +197,10 @@ sLinkStatus
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

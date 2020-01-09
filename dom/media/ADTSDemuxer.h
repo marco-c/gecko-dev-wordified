@@ -165,6 +165,10 @@ class
 FrameParser
 ;
 }
+/
+/
+namespace
+adts
 class
 ADTSTrackDemuxer
 ;
@@ -554,6 +558,8 @@ time
 for
 more
 accurate
+/
+/
 results
 .
 media
@@ -876,6 +882,8 @@ or
 0
 if
 none
+/
+/
 available
 .
 uint32_t
@@ -916,6 +924,7 @@ mInfo
 }
 /
 /
+namespace
 mozilla
 #
 endif

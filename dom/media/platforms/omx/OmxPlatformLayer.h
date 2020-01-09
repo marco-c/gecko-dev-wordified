@@ -213,8 +213,8 @@ easy
 to
 implement
 this
-layer
 *
+layer
 with
 the
 standard
@@ -422,10 +422,10 @@ and
 output
 port
 is
+/
+/
 next
 .
-/
-/
 See
 OpenMAX
 IL
@@ -537,6 +537,8 @@ implementation
 objects
 for
 different
+/
+/
 platforms
 .
 static
@@ -594,6 +596,8 @@ and
 will
 outlive
 this
+/
+/
 pointer
 .
 const
@@ -607,6 +611,10 @@ mStartPortNumber
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

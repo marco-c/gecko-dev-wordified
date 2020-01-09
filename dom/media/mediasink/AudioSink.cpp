@@ -207,6 +207,7 @@ LogLevel
 :
 :
 Debug
+\
 (
 "
 AudioSink
@@ -238,6 +239,7 @@ LogLevel
 :
 :
 Verbose
+\
 (
 "
 AudioSink
@@ -2658,6 +2660,8 @@ pushed
 onto
 the
 audio
+/
+/
 hardware
 .
 CheckedInt64

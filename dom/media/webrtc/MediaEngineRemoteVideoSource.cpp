@@ -234,6 +234,7 @@ LOGFRAME
 (
 msg
 )
+\
 MOZ_LOG
 (
 GetMediaManagerLog
@@ -1779,9 +1780,9 @@ max
 constraints
 are
 crammed
+/
+/
 together
-/
-/
 in
 mCapability
 for
@@ -1793,12 +1794,12 @@ level
 code
 .
 We
+/
+/
 don
 '
 t
 actually
-/
-/
 know
 the
 real
@@ -1809,6 +1810,8 @@ report
 min
 (
 ideal
+/
+/
 max
 )
 for
@@ -3283,6 +3286,8 @@ dst_max_width
 and
 dst_height
 to
+/
+/
 dst_max_height
 int32_t
 dst_width
@@ -3452,6 +3457,8 @@ to
 minimum
 of
 portrait
+/
+/
 and
 landscape
 if

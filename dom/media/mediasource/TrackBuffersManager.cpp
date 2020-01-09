@@ -246,7 +246,6 @@ DDMOZ_LOG
 GetMediaSourceLog
 (
 )
-\
 mozilla
 :
 :
@@ -254,7 +253,6 @@ LogLevel
 :
 :
 Debug
-\
 "
 (
 %
@@ -277,9 +275,7 @@ OriginalString
 Data
 (
 )
-\
 __func__
-\
 #
 #
 __VA_ARGS__
@@ -299,7 +295,6 @@ DDMOZ_LOG
 GetMediaSourceLog
 (
 )
-\
 mozilla
 :
 :
@@ -307,7 +302,6 @@ LogLevel
 :
 :
 Verbose
-\
 "
 (
 %
@@ -330,9 +324,7 @@ OriginalString
 Data
 (
 )
-\
 __func__
-\
 #
 #
 __VA_ARGS__
@@ -377,7 +369,6 @@ DDMOZ_LOG
 GetMediaSourceSamplesLog
 (
 )
-\
 mozilla
 :
 :
@@ -398,7 +389,6 @@ s
 :
 "
 arg
-\
 mType
 .
 OriginalString
@@ -408,7 +398,6 @@ OriginalString
 Data
 (
 )
-\
 __func__
 \
 #
@@ -428,12 +417,6 @@ using
 media
 :
 :
-TimeUnit
-;
-using
-media
-:
-:
 TimeInterval
 ;
 using
@@ -441,6 +424,12 @@ media
 :
 :
 TimeIntervals
+;
+using
+media
+:
+:
+TimeUnit
 ;
 typedef
 SourceBufferTask
@@ -2060,6 +2049,8 @@ and
 the
 input
 buffer
+/
+/
 contains
 some
 complete
@@ -2071,6 +2062,8 @@ the
 coded
 frame
 processing
+/
+/
 algorithm
 until
 all
@@ -2158,6 +2151,8 @@ set
 the
 group
 start
+/
+/
 timestamp
 to
 the
@@ -2749,6 +2744,8 @@ ranges
 end
 time
 across
+/
+/
 all
 the
 track
@@ -2781,6 +2778,8 @@ object
 containing
 a
 single
+/
+/
 range
 from
 0
@@ -2820,6 +2819,8 @@ SourceBuffer
 run
 the
 following
+/
+/
 steps
 :
 /
@@ -2838,6 +2839,8 @@ for
 the
 current
 track
+/
+/
 buffer
 .
 for
@@ -2870,6 +2873,8 @@ the
 last
 range
 in
+/
+/
 track
 ranges
 to
@@ -2890,6 +2895,8 @@ the
 intersection
 between
 the
+/
+/
 intersection
 ranges
 and
@@ -3977,12 +3984,12 @@ after
 it
 -
 >
+/
+/
 i
 +
 1
 .
-/
-/
 Or
 the
 previous
@@ -3995,6 +4002,8 @@ threshold
 >
 Evict
 from
+/
+/
 it
 -
 >
@@ -4464,14 +4473,14 @@ point
 timestamp
 that
 is
+/
+/
 greater
 than
 or
 equal
 to
 end
-/
-/
 then
 update
 remove
@@ -4479,6 +4488,8 @@ end
 timestamp
 to
 that
+/
+/
 random
 access
 point
@@ -4571,6 +4582,8 @@ than
 the
 remove
 end
+/
+/
 timestamp
 .
 /
@@ -4587,11 +4600,11 @@ frames
 removed
 in
 the
+/
+/
 previous
 step
 :
-/
-/
 Remove
 all
 coded
@@ -4601,6 +4614,8 @@ the
 coded
 frames
 removed
+/
+/
 in
 the
 previous
@@ -4614,6 +4629,8 @@ point
 after
 those
 removed
+/
+/
 frames
 .
 TimeIntervals
@@ -4647,9 +4664,9 @@ activeSourceBuffers
 the
 current
 playback
+/
+/
 position
-/
-/
 is
 greater
 than
@@ -4663,9 +4680,9 @@ than
 the
 remove
 end
+/
+/
 timestamp
-/
-/
 and
 HTMLMediaElement
 .
@@ -4674,11 +4691,11 @@ is
 greater
 than
 HAVE_METADATA
+/
+/
 then
 set
 the
-/
-/
 HTMLMediaElement
 .
 readyState
@@ -4686,11 +4703,11 @@ attribute
 to
 HAVE_METADATA
 and
+/
+/
 stall
 playback
 .
-/
-/
 This
 will
 be
@@ -4753,6 +4770,8 @@ ready
 to
 accept
 more
+/
+/
 bytes
 then
 set
@@ -4914,6 +4933,8 @@ need
 more
 data
 step
+/
+/
 below
 .
 if
@@ -4963,9 +4984,9 @@ the
 append
 error
 algorithm
+/
+/
 with
-/
-/
 the
 decode
 error
@@ -4996,9 +5017,9 @@ format
 specifications
 say
 must
+/
+/
 be
-/
-/
 ignored
 from
 the
@@ -5008,13 +5029,13 @@ the
 input
 buffer
 .
-/
-/
 We
 do
 not
 remove
 bytes
+/
+/
 from
 our
 input
@@ -5024,11 +5045,11 @@ Instead
 we
 enforce
 that
-/
-/
 our
 ContainerParser
 is
+/
+/
 able
 to
 skip
@@ -5040,8 +5061,6 @@ is
 supposed
 to
 be
-/
-/
 ignored
 .
 /
@@ -5635,9 +5654,9 @@ header
 We
 can
 resume
+/
+/
 parsing
-/
-/
 the
 data
 .
@@ -5698,6 +5717,8 @@ a
 complete
 media
 segment
+/
+/
 header
 yet
 then
@@ -5761,6 +5782,8 @@ complete
 coded
 frames
 then
+/
+/
 run
 the
 coded
@@ -7595,6 +7618,8 @@ true
 then
 run
 the
+/
+/
 following
 steps
 :
@@ -7978,6 +8003,8 @@ is
 false
 then
 run
+/
+/
 the
 following
 steps
@@ -8012,9 +8039,9 @@ with
 codecs
 the
 user
+/
+/
 agent
-/
-/
 does
 not
 support
@@ -8026,9 +8053,9 @@ error
 algorithm
 with
 the
+/
+/
 decode
-/
-/
 error
 parameter
 set
@@ -8053,10 +8080,10 @@ initialization
 segment
 run
 following
+/
+/
 steps
 :
-/
-/
 for
 (
 uint32_t
@@ -8095,6 +8122,8 @@ ID
 for
 the
 current
+/
+/
 track
 being
 processed
@@ -8115,6 +8144,8 @@ tag
 for
 the
 language
+/
+/
 specified
 in
 the
@@ -8126,6 +8157,8 @@ track
 or
 an
 empty
+/
+/
 string
 if
 no
@@ -8152,6 +8185,8 @@ und
 '
 BCP
 47
+/
+/
 value
 then
 run
@@ -8161,6 +8196,8 @@ track
 language
 algorithm
 with
+/
+/
 byteStreamTrackID
 set
 to
@@ -8173,6 +8210,8 @@ and
 type
 set
 to
+/
+/
 "
 audio
 "
@@ -8186,6 +8225,8 @@ the
 algorithm
 to
 audio
+/
+/
 language
 .
 /
@@ -8203,6 +8244,8 @@ in
 the
 initialization
 segment
+/
+/
 for
 this
 track
@@ -8233,6 +8276,8 @@ run
 the
 default
 track
+/
+/
 label
 algorithm
 with
@@ -8243,6 +8288,8 @@ audio
 byte
 stream
 track
+/
+/
 ID
 and
 type
@@ -8258,6 +8305,8 @@ value
 returned
 by
 the
+/
+/
 algorithm
 to
 audio
@@ -8279,6 +8328,8 @@ strings
 specified
 in
 the
+/
+/
 initialization
 segment
 for
@@ -8291,6 +8342,8 @@ array
 if
 no
 kind
+/
+/
 information
 is
 provided
@@ -8311,6 +8364,8 @@ run
 the
 default
 track
+/
+/
 kinds
 algorithm
 with
@@ -8321,6 +8376,8 @@ audio
 byte
 stream
 track
+/
+/
 ID
 and
 type
@@ -8336,6 +8393,8 @@ value
 returned
 by
 the
+/
+/
 algorithm
 to
 audio
@@ -8372,6 +8431,8 @@ audio
 kinds
 for
 this
+/
+/
 iteration
 of
 the
@@ -8408,6 +8469,8 @@ id
 property
 on
 new
+/
+/
 audio
 track
 .
@@ -8425,6 +8488,8 @@ property
 on
 new
 audio
+/
+/
 track
 .
 /
@@ -8458,6 +8523,8 @@ property
 on
 new
 audio
+/
+/
 track
 .
 /
@@ -8520,6 +8587,8 @@ audioTracks
 attribute
 on
 this
+/
+/
 SourceBuffer
 object
 .
@@ -8539,6 +8608,8 @@ named
 addtrack
 that
 does
+/
+/
 not
 bubble
 and
@@ -8550,6 +8621,8 @@ that
 uses
 the
 TrackEvent
+/
+/
 interface
 at
 the
@@ -8558,6 +8631,8 @@ object
 referenced
 by
 the
+/
+/
 audioTracks
 attribute
 on
@@ -8579,6 +8654,8 @@ audioTracks
 attribute
 on
 the
+/
+/
 HTMLMediaElement
 .
 /
@@ -8597,6 +8674,8 @@ named
 addtrack
 that
 does
+/
+/
 not
 bubble
 and
@@ -8608,6 +8687,8 @@ that
 uses
 the
 TrackEvent
+/
+/
 interface
 at
 the
@@ -8616,6 +8697,8 @@ object
 referenced
 by
 the
+/
+/
 audioTracks
 attribute
 on
@@ -8691,10 +8774,10 @@ initialization
 segment
 run
 following
+/
+/
 steps
 :
-/
-/
 for
 (
 uint32_t
@@ -8733,6 +8816,8 @@ ID
 for
 the
 current
+/
+/
 track
 being
 processed
@@ -8753,6 +8838,8 @@ tag
 for
 the
 language
+/
+/
 specified
 in
 the
@@ -8764,6 +8851,8 @@ track
 or
 an
 empty
+/
+/
 string
 if
 no
@@ -8790,6 +8879,8 @@ und
 '
 BCP
 47
+/
+/
 value
 then
 run
@@ -8799,6 +8890,8 @@ track
 language
 algorithm
 with
+/
+/
 byteStreamTrackID
 set
 to
@@ -8811,6 +8904,8 @@ and
 type
 set
 to
+/
+/
 "
 video
 "
@@ -8824,6 +8919,8 @@ the
 algorithm
 to
 video
+/
+/
 language
 .
 /
@@ -8841,6 +8938,8 @@ in
 the
 initialization
 segment
+/
+/
 for
 this
 track
@@ -8871,6 +8970,8 @@ run
 the
 default
 track
+/
+/
 label
 algorithm
 with
@@ -8881,6 +8982,8 @@ video
 byte
 stream
 track
+/
+/
 ID
 and
 type
@@ -8896,6 +8999,8 @@ value
 returned
 by
 the
+/
+/
 algorithm
 to
 video
@@ -8917,6 +9022,8 @@ strings
 specified
 in
 the
+/
+/
 initialization
 segment
 for
@@ -8929,6 +9036,8 @@ array
 if
 no
 kind
+/
+/
 information
 is
 provided
@@ -8949,6 +9058,8 @@ run
 the
 default
 track
+/
+/
 kinds
 algorithm
 with
@@ -8959,6 +9070,8 @@ video
 byte
 stream
 track
+/
+/
 ID
 and
 type
@@ -8974,6 +9087,8 @@ value
 returned
 by
 the
+/
+/
 algorithm
 to
 video
@@ -9010,6 +9125,8 @@ video
 kinds
 for
 this
+/
+/
 iteration
 of
 the
@@ -9046,6 +9163,8 @@ id
 property
 on
 new
+/
+/
 video
 track
 .
@@ -9063,6 +9182,8 @@ property
 on
 new
 video
+/
+/
 track
 .
 /
@@ -9096,6 +9217,8 @@ property
 on
 new
 video
+/
+/
 track
 .
 /
@@ -9158,6 +9281,8 @@ videoTracks
 attribute
 on
 this
+/
+/
 SourceBuffer
 object
 .
@@ -9177,6 +9302,8 @@ named
 addtrack
 that
 does
+/
+/
 not
 bubble
 and
@@ -9188,6 +9315,8 @@ that
 uses
 the
 TrackEvent
+/
+/
 interface
 at
 the
@@ -9196,6 +9325,8 @@ object
 referenced
 by
 the
+/
+/
 videoTracks
 attribute
 on
@@ -9217,6 +9348,8 @@ videoTracks
 attribute
 on
 the
+/
+/
 HTMLMediaElement
 .
 /
@@ -9235,6 +9368,8 @@ named
 addtrack
 that
 does
+/
+/
 not
 bubble
 and
@@ -9246,6 +9381,8 @@ that
 uses
 the
 TrackEvent
+/
+/
 interface
 at
 the
@@ -9254,6 +9391,8 @@ object
 referenced
 by
 the
+/
+/
 videoTracks
 attribute
 on
@@ -9323,6 +9462,8 @@ initialization
 segment
 run
 following
+/
+/
 steps
 :
 /
@@ -9638,10 +9779,10 @@ beginning
 of
 the
 input
+/
+/
 buffer
 .
-/
-/
 This
 step
 has
@@ -9650,10 +9791,10 @@ been
 done
 in
 InitializationSegmentReceived
+/
+/
 when
 we
-/
-/
 transferred
 the
 content
@@ -11181,6 +11322,8 @@ media
 data
 then
 set
+/
+/
 the
 buffer
 full
@@ -11220,6 +11363,8 @@ media
 segment
 then
 jump
+/
+/
 to
 the
 need
@@ -11709,6 +11854,8 @@ double
 precision
 floating
 point
+/
+/
 representation
 of
 the
@@ -11763,6 +11910,8 @@ set
 then
 run
 the
+/
+/
 following
 steps
 :
@@ -11788,6 +11937,8 @@ coded
 frame
 will
 be
+/
+/
 added
 to
 .
@@ -12214,6 +12365,8 @@ track
 buffer
 equals
 true
+/
+/
 then
 run
 the
@@ -12245,6 +12398,8 @@ then
 drop
 the
 coded
+/
+/
 frame
 and
 jump
@@ -12259,6 +12414,8 @@ start
 processing
 the
 next
+/
+/
 coded
 frame
 .
@@ -12352,6 +12509,8 @@ double
 precision
 floating
 point
+/
+/
 representation
 of
 the
@@ -12375,6 +12534,8 @@ double
 precision
 floating
 point
+/
+/
 representation
 of
 the
@@ -12401,6 +12562,8 @@ precision
 floating
 point
 representation
+/
+/
 of
 the
 coded
@@ -12411,14 +12574,14 @@ duration
 in
 seconds
 .
-/
-/
 Step
 3
 is
 performed
 earlier
 or
+/
+/
 when
 a
 discontinuity
@@ -12533,6 +12696,8 @@ set
 and
 decode
 timestamp
+/
+/
 is
 less
 than
@@ -12540,17 +12705,15 @@ last
 decode
 timestamp
 :
-/
-/
 OR
-/
-/
 If
 last
 decode
 timestamp
 for
 track
+/
+/
 buffer
 is
 set
@@ -12563,6 +12726,8 @@ timestamp
 and
 last
 decode
+/
+/
 timestamp
 is
 greater
@@ -12799,6 +12964,8 @@ all
 track
 buffers
 to
+/
+/
 true
 .
 track
@@ -12826,11 +12993,11 @@ processing
 of
 the
 current
+/
+/
 coded
 frame
 .
-/
-/
 Rather
 that
 restarting
@@ -12841,10 +13008,10 @@ the
 frame
 we
 run
+/
+/
 the
 first
-/
-/
 steps
 again
 instead
@@ -12867,6 +13034,8 @@ is
 set
 then
 run
+/
+/
 the
 following
 steps
@@ -12924,10 +13093,10 @@ GetTimestampOffset
 was
 modified
 during
+/
+/
 CheckSequenceDiscontinuity
 .
-/
-/
 We
 need
 to
@@ -13011,11 +13180,11 @@ of
 presentation
 timestamp
 and
+/
+/
 frame
 duration
 .
-/
-/
 This
 is
 sampleInterval
@@ -13035,6 +13204,8 @@ appendWindowStart
 then
 set
 the
+/
+/
 need
 random
 access
@@ -13049,6 +13220,8 @@ frame
 and
 jump
 to
+/
+/
 the
 top
 of
@@ -13077,6 +13250,8 @@ appendWindowEnd
 then
 set
 the
+/
+/
 need
 random
 access
@@ -13091,6 +13266,8 @@ frame
 and
 jump
 to
+/
+/
 the
 top
 of
@@ -13356,6 +13533,8 @@ unset
 or
 frame
 end
+/
+/
 timestamp
 is
 greater
@@ -13367,6 +13546,8 @@ then
 set
 highest
 end
+/
+/
 timestamp
 for
 track
@@ -13444,6 +13625,8 @@ end
 timestamp
 then
 set
+/
+/
 group
 end
 timestamp
@@ -13491,6 +13674,8 @@ true
 then
 set
 timestampOffset
+/
+/
 equal
 to
 frame
@@ -13860,6 +14045,8 @@ coded
 frame
 will
 be
+/
+/
 added
 to
 .
@@ -13958,6 +14145,8 @@ for
 holding
 audio
 splice
+/
+/
 information
 /
 /
@@ -13975,6 +14164,8 @@ variable
 for
 holding
 timed
+/
+/
 text
 splice
 information
@@ -13993,6 +14184,8 @@ is
 unset
 and
 presentation
+/
+/
 timestamp
 falls
 within
@@ -14005,6 +14198,8 @@ coded
 frame
 in
 track
+/
+/
 buffer
 then
 run
@@ -14012,14 +14207,14 @@ the
 following
 steps
 :
-/
-/
 For
 now
 we
 only
 handle
 replacing
+/
+/
 existing
 frames
 with
@@ -14029,8 +14224,6 @@ ones
 .
 So
 we
-/
-/
 skip
 this
 step
@@ -14075,6 +14268,8 @@ that
 have
 a
 presentation
+/
+/
 timestamp
 greater
 than
@@ -14085,6 +14280,8 @@ presentation
 timestamp
 and
 less
+/
+/
 than
 frame
 end
@@ -14107,6 +14304,8 @@ and
 less
 than
 or
+/
+/
 equal
 to
 presentation
@@ -14125,6 +14324,8 @@ that
 have
 a
 presentation
+/
+/
 timestamp
 greater
 than
@@ -14137,6 +14338,8 @@ timestamp
 and
 less
 than
+/
+/
 frame
 end
 timestamp
@@ -14201,11 +14404,11 @@ frames
 removed
 in
 the
+/
+/
 previous
 step
 :
-/
-/
 Remove
 all
 coded
@@ -14216,6 +14419,8 @@ coded
 frames
 removed
 in
+/
+/
 the
 previous
 step
@@ -14228,6 +14433,8 @@ point
 after
 those
 removed
+/
+/
 frames
 .
 TimeIntervals
@@ -14463,6 +14670,8 @@ presentation
 timestamp
 decode
 timestamp
+/
+/
 and
 frame
 duration
@@ -14951,16 +15160,14 @@ having
 to
 check
 the
+/
+/
 value
-/
-/
 of
 highest
 end
 timestamp
 :
-/
-/
 "
 Remove
 existing
@@ -14968,6 +15175,8 @@ coded
 frames
 in
 track
+/
+/
 buffer
 :
 /
@@ -14996,6 +15205,8 @@ that
 have
 a
 presentation
+/
+/
 timestamp
 greater
 than
@@ -15007,6 +15218,8 @@ timestamp
 and
 less
 than
+/
+/
 frame
 end
 timestamp
@@ -15028,6 +15241,8 @@ than
 or
 equal
 to
+/
+/
 presentation
 timestamp
 :
@@ -15044,6 +15259,8 @@ that
 have
 a
 presentation
+/
+/
 timestamp
 greater
 than
@@ -15056,6 +15273,8 @@ timestamp
 and
 less
 than
+/
+/
 frame
 end
 timestamp
@@ -15216,10 +15435,10 @@ removed
 in
 the
 previous
+/
+/
 step
 :
-/
-/
 Remove
 all
 coded
@@ -15231,6 +15450,8 @@ frames
 removed
 in
 the
+/
+/
 previous
 step
 and

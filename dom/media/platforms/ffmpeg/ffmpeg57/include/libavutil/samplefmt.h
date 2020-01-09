@@ -251,8 +251,8 @@ the
 lack
 of
 a
-signed
 *
+signed
 24
 -
 bit
@@ -515,6 +515,10 @@ NOT
 USE
 if
 linking
+/
+/
+/
+<
 dynamically
 }
 ;
@@ -1534,6 +1538,7 @@ success
 at
 the
 next
+*
 bump
 *
 see

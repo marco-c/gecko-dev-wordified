@@ -731,6 +731,7 @@ n
 t
 v
 )
+\
 t
 av_used
 __attribute__
@@ -755,6 +756,7 @@ n
 t
 v
 )
+\
 static
 const
 t
@@ -832,6 +834,7 @@ n
 t
 v
 )
+\
 static
 const
 t
@@ -1008,6 +1011,7 @@ function
 see
 <
 a
+*
 href
 =
 "
@@ -1045,6 +1049,7 @@ attribute
 "
 >
 Function
+*
 attribute
 malloc
 in
@@ -1173,6 +1178,7 @@ comma
 see
 <
 a
+*
 href
 =
 "
@@ -1210,6 +1216,7 @@ attribute
 "
 >
 Function
+*
 attribute
 alloc_size
 in
@@ -1809,6 +1816,7 @@ to
 free
 the
 memory
+*
 block
 *
 *
@@ -2247,6 +2255,7 @@ to
 free
 the
 memory
+*
 block
 *
 *

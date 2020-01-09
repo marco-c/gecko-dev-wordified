@@ -318,10 +318,10 @@ this
 function
 will
 return
+*
 NS_ERROR_FAILURE
 to
 caller
-*
 else
 save
 the
@@ -330,6 +330,7 @@ to
 mMetadata
 and
 return
+*
 NS_OK
 .
 *

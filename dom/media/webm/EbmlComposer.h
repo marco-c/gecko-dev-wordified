@@ -255,6 +255,7 @@ cluster
 will
 start
 for
+*
 writing
 .
 *

@@ -673,6 +673,10 @@ mDecrypts
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

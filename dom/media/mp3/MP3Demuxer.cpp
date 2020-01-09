@@ -214,10 +214,7 @@ using
 mozilla
 :
 :
-media
-:
-:
-TimeUnit
+BufferReader
 ;
 using
 mozilla
@@ -241,7 +238,10 @@ using
 mozilla
 :
 :
-BufferReader
+media
+:
+:
+TimeUnit
 ;
 namespace
 mozilla
@@ -2595,9 +2595,9 @@ frame
 count
 as
 Chrome
+/
+/
 since
-/
-/
 some
 web
 sites
@@ -2611,6 +2611,8 @@ to
 test
 our
 playback
+/
+/
 capabilities
 .
 static
@@ -2720,6 +2722,8 @@ frames
 consistent
 with
 our
+/
+/
 candidate
 frame
 .
@@ -2754,9 +2758,9 @@ be
 caught
 by
 the
+/
+/
 consistency
-/
-/
 checks
 alone
 can
@@ -2769,6 +2773,8 @@ alignment
 non
 -
 zero
+/
+/
 gap
 between
 frames

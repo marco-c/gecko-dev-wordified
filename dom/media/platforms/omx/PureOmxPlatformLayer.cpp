@@ -157,8 +157,10 @@ arg
 .
 .
 )
+\
 MOZ_LOG
 (
+\
 sPDMLog
 mozilla
 :
@@ -167,6 +169,7 @@ LogLevel
 :
 :
 Debug
+\
 (
 "
 PureOmxPlatformLayer
@@ -197,6 +200,7 @@ arg
 .
 .
 )
+\
 MOZ_LOG
 (
 sPDMLog
@@ -207,6 +211,7 @@ LogLevel
 :
 :
 Debug
+\
 (
 "
 PureOmxBufferData
@@ -314,6 +319,8 @@ isn
 '
 t
 implemented
+"
+"
 yet
 .
 "
@@ -2342,3 +2349,7 @@ err
 ;
 }
 }
+/
+/
+namespace
+mozilla

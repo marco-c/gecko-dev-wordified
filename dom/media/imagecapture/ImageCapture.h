@@ -505,6 +505,8 @@ a
 error
 string
 in
+/
+/
 dom
 /
 base
@@ -553,9 +555,9 @@ support
 taking
 photo
 this
+/
+/
 function
-/
-/
 should
 return
 NS_ERROR_NOT_IMPLEMENTED

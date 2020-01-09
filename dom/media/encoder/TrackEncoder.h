@@ -1640,6 +1640,7 @@ the
 encoder
 for
 an
+*
 accumulated
 aDuration
 of
@@ -1652,6 +1653,7 @@ initiate
 with
 a
 default
+*
 number
 of
 channels
@@ -1972,9 +1974,9 @@ data
 in
 the
 audio
+*
 encoder
 .
-*
 This
 value
 comes
@@ -1987,11 +1989,11 @@ chunk
 .
 If
 encoder
+*
 can
 '
 t
 support
-*
 the
 channels
 in
@@ -2002,9 +2004,9 @@ PCM
 stream
 can
 be
+*
 performed
 .
-*
 This
 value
 also
@@ -2905,9 +2907,9 @@ so
 far
 handled
 by
+*
 NotifyAdvanceCurrentTime
 .
-*
 When
 a
 new
@@ -2917,6 +2919,7 @@ detected
 mLastChunk
 is
 added
+*
 to
 mOutgoingBuffer
 .

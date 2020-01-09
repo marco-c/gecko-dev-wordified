@@ -595,6 +595,10 @@ mCrashHelper
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

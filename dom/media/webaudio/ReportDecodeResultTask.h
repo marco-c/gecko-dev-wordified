@@ -214,5 +214,9 @@ mFunction
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

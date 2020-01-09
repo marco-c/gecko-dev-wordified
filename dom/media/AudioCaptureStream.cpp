@@ -1207,3 +1207,7 @@ chunk
 ;
 }
 }
+/
+/
+namespace
+mozilla

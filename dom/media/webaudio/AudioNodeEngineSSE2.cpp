@@ -2402,3 +2402,7 @@ out
 ;
 }
 }
+/
+/
+namespace
+mozilla

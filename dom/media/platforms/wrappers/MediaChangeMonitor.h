@@ -584,10 +584,10 @@ we
 have
 a
 SPS
+/
+/
 NAL
 .
-/
-/
 Returns
 NS_ERROR_FAILURE
 if
@@ -600,9 +600,9 @@ can
 t
 be
 recovered
+/
+/
 and
-/
-/
 will
 set
 mError

@@ -156,6 +156,10 @@ class
 FrameParser
 ;
 }
+/
+/
+namespace
+flac
 class
 FlacTrackDemuxer
 ;
@@ -707,6 +711,7 @@ mInfo
 }
 /
 /
+namespace
 mozilla
 #
 endif

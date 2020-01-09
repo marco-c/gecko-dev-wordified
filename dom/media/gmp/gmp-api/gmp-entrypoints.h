@@ -373,6 +373,8 @@ before
 GMPGetAPI
 or
 GMPShutdown
+/
+/
 are
 called
 .
@@ -401,6 +403,8 @@ APIs
 .
 It
 is
+/
+/
 valid
 until
 /
@@ -571,10 +575,10 @@ should
 not
 attempt
 to
+/
+/
 delete
 .
-/
-/
 May
 be
 null
@@ -595,6 +599,8 @@ API
 Destruction
 of
 the
+/
+/
 requsted
 /
 /

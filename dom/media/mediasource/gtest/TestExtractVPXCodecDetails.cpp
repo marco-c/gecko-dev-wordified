@@ -747,6 +747,8 @@ chroma
 subsampling
 MUST
 be
+/
+/
 3
 (
 4

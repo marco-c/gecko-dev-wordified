@@ -519,6 +519,10 @@ mImageContainer
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

@@ -249,7 +249,6 @@ arg
 DDMOZ_LOG
 (
 gMediaDemuxerLog
-\
 mozilla
 :
 :
@@ -257,7 +256,6 @@ LogLevel
 :
 :
 Debug
-\
 "
 :
 :
@@ -268,7 +266,6 @@ s
 arg
 \
 __func__
-\
 #
 #
 __VA_ARGS__
@@ -324,12 +321,6 @@ using
 media
 :
 :
-TimeUnit
-;
-using
-media
-:
-:
 TimeInterval
 ;
 using
@@ -337,6 +328,12 @@ media
 :
 :
 TimeIntervals
+;
+using
+media
+:
+:
+TimeUnit
 ;
 /
 /
@@ -2637,6 +2634,8 @@ related
 information
 per
 different
+/
+/
 types
 .
 for
@@ -7805,6 +7804,8 @@ we
 can
 rollback
 on
+/
+/
 failure
 .
 int64_t
@@ -9064,6 +9065,8 @@ for
 the
 potential
 ogg
+/
+/
 chaining
 .
 data
@@ -13767,6 +13770,8 @@ of
 first
 page
 in
+"
+"
 interval
 "
 )

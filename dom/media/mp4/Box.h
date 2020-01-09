@@ -443,6 +443,8 @@ and
 serves
 through
 an
+/
+/
 AutoByteReader
 .
 class
@@ -509,5 +511,9 @@ mReader
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

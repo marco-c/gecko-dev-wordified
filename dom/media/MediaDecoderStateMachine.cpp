@@ -350,6 +350,7 @@ NS_DispatchToMainThread
 .
 .
 )
+\
 CompileError_UseAbstractThreadDispatchInstead
 /
 /
@@ -419,12 +420,10 @@ x
 DDMOZ_LOG
 (
 gMediaDecoderLog
-\
 LogLevel
 :
 :
 Debug
-\
 "
 Decoder
 =
@@ -432,7 +431,6 @@ Decoder
 p
 "
 x
-\
 mDecoderID
 \
 #
@@ -452,12 +450,10 @@ x
 DDMOZ_LOG
 (
 gMediaDecoderLog
-\
 LogLevel
 :
 :
 Verbose
-\
 "
 Decoder
 =
@@ -465,7 +461,6 @@ Decoder
 p
 "
 x
-\
 mDecoderID
 \
 #
@@ -507,9 +502,11 @@ x
 .
 .
 )
+\
 NS_DebugBreak
 (
 NS_DEBUG_WARNING
+\
 nsPrintfCString
 (
 FMT
@@ -525,6 +522,7 @@ get
 (
 )
 nullptr
+\
 __FILE__
 __LINE__
 )
@@ -547,6 +545,7 @@ x
 .
 .
 )
+\
 "
 Decoder
 =
@@ -568,6 +567,7 @@ GetState
 (
 )
 )
+\
 #
 #
 __VA_ARGS__
@@ -584,14 +584,11 @@ x
 DDMOZ_LOGEX
 (
 mMaster
-\
 gMediaDecoderLog
-\
 LogLevel
 :
 :
 Debug
-\
 "
 state
 =
@@ -606,7 +603,6 @@ GetState
 (
 )
 )
-\
 #
 #
 __VA_ARGS__
@@ -646,9 +642,11 @@ x
 .
 .
 )
+\
 NS_DebugBreak
 (
 NS_DEBUG_WARNING
+\
 nsPrintfCString
 (
 SFMT
@@ -664,6 +662,7 @@ get
 (
 )
 nullptr
+\
 __FILE__
 __LINE__
 )
@@ -700,9 +699,9 @@ sure
 to
 avoid
 using
+/
+/
 these
-/
-/
 constants
 directly
 so
@@ -952,9 +951,9 @@ be
 greater
 than
 AMPLE_AUDIO_USECS
+/
+/
 otherwise
-/
-/
 the
 skip
 -
@@ -971,6 +970,8 @@ re
 running
 low
 on
+/
+/
 data
 .
 static_assert
@@ -3277,6 +3278,7 @@ the
 '
 loadeddata
 '
+*
 event
 .
 *
@@ -6682,6 +6684,8 @@ subclass
 when
 seek
 is
+/
+/
 completed
 .
 virtual
@@ -12033,6 +12037,7 @@ enough
 data
 to
 continue
+*
 playback
 .
 *
@@ -17517,7 +17522,6 @@ INIT_WATCHABLE
 name
 val
 )
-\
 name
 (
 val
@@ -19689,6 +19693,8 @@ s
 %
 s
 )
+"
+"
 mVideoDecodeSuspended
 =
 %
@@ -19783,6 +19789,8 @@ because
 preference
 off
 and
+"
+"
 set
 to
 Suspend
@@ -19813,6 +19821,8 @@ the
 mode
 does
 not
+"
+"
 change
 "
 )
@@ -20599,6 +20609,8 @@ mono
 increasing
 in
 chained
+/
+/
 ogg
 .
 mDecodedAudioEndTime

@@ -305,7 +305,6 @@ DDMOZ_LOG
 GetMediaSourceSamplesLog
 (
 )
-\
 mozilla
 :
 :
@@ -326,7 +325,6 @@ s
 :
 "
 arg
-\
 mType
 .
 OriginalString
@@ -336,7 +334,6 @@ OriginalString
 Data
 (
 )
-\
 __func__
 \
 #
@@ -358,7 +355,6 @@ DDMOZ_LOG
 GetMediaSourceSamplesLog
 (
 )
-\
 mozilla
 :
 :
@@ -379,7 +375,6 @@ s
 :
 "
 arg
-\
 mType
 .
 OriginalString
@@ -389,7 +384,6 @@ OriginalString
 Data
 (
 )
-\
 __func__
 \
 #
@@ -410,11 +404,9 @@ arg
 DDMOZ_LOGEX
 (
 _this
-\
 GetMediaSourceSamplesLog
 (
 )
-\
 mozilla
 :
 :
@@ -435,7 +427,6 @@ s
 :
 "
 arg
-\
 mType
 .
 OriginalString
@@ -445,7 +436,6 @@ OriginalString
 Data
 (
 )
-\
 __func__
 \
 #

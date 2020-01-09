@@ -616,9 +616,9 @@ the
 default
 and
 has
+/
+/
 a
-/
-/
 single
 channel
 .
@@ -634,6 +634,8 @@ are
 not
 to
 be
+/
+/
 used
 .
 RefPtr
@@ -1082,3 +1084,7 @@ Clear
 }
 }
 }
+/
+/
+namespace
+mozilla

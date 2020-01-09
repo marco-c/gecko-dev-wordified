@@ -490,6 +490,10 @@ instead
 of
 rescaling
 this
+/
+/
+/
+<
 avoids
 special
 cases
@@ -538,9 +542,9 @@ value
 is
 >
 =
+*
 0
 ;
-*
 if
 a
 =
@@ -830,6 +834,7 @@ or
 0
 if
 they
+*
 represent
 the
 same

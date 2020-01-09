@@ -98,6 +98,10 @@ mValid
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

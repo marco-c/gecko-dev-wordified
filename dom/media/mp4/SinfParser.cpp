@@ -488,3 +488,7 @@ Ok
 ;
 }
 }
+/
+/
+namespace
+mozilla

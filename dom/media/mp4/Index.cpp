@@ -4113,3 +4113,7 @@ aIterator
 ;
 }
 }
+/
+/
+namespace
+mozilla

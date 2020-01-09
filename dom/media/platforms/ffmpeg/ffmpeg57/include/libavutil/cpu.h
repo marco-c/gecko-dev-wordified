@@ -277,6 +277,7 @@ functions
 #
 define
 AV_CPU_FLAG_SSE2SLOW
+\
 0x40000000
 /
 /
@@ -328,6 +329,7 @@ functions
 #
 define
 AV_CPU_FLAG_SSE3SLOW
+\
 0x20000000
 /
 /
@@ -369,6 +371,7 @@ functions
 #
 define
 AV_CPU_FLAG_ATOM
+\
 0x10000000
 /
 /
@@ -422,6 +425,7 @@ functions
 #
 define
 AV_CPU_FLAG_AVX
+\
 0x4000
 /
 /
@@ -440,10 +444,15 @@ registers
 aren
 '
 t
+/
+/
+/
+<
 used
 #
 define
 AV_CPU_FLAG_AVXSLOW
+\
 0x8000000
 /
 /
@@ -462,6 +471,10 @@ e
 .
 g
 .
+/
+/
+/
+<
 Bulldozer
 )
 #
@@ -500,6 +513,7 @@ instruction
 #
 define
 AV_CPU_FLAG_AVX2
+\
 0x8000
 /
 /
@@ -518,6 +532,10 @@ registers
 aren
 '
 t
+/
+/
+/
+<
 used
 #
 define
@@ -655,6 +673,7 @@ AV_CPU_FLAG_ARMV8
 #
 define
 AV_CPU_FLAG_VFP_VM
+\
 (
 1
 <
@@ -676,6 +695,10 @@ A
 and
 unavailable
 in
+/
+/
+/
+<
 various
 CPUs
 implementations
@@ -821,6 +844,7 @@ instead
 which
 are
 more
+*
 flexible
 *
 *
@@ -867,6 +891,7 @@ well
 as
 related
 unspecified
+*
 flags
 .
 *
@@ -932,6 +957,7 @@ AV_CPU_
 flags
 based
 on
+*
 that
 .
 *

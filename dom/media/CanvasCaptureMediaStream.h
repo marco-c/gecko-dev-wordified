@@ -879,6 +879,7 @@ underlying
 stream
 is
 a
+*
 SourceMediaStream
 .
 *

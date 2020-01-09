@@ -130,6 +130,7 @@ we
 should
 increase
 the
+*
 kCurrentVersion
 .
 *

@@ -560,5 +560,9 @@ mIsAudio
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

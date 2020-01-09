@@ -206,9 +206,9 @@ video
 frames
 are
 made
+*
 black
 .
-*
 SILENCE_FREEZE
 Audio
 data
@@ -219,6 +219,7 @@ silence
 video
 freezes
 at
+*
 last
 frame
 .

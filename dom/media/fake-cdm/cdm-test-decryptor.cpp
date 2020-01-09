@@ -1182,6 +1182,8 @@ doesn
 t
 match
 expected
+"
+"
 data
 "
 )
@@ -1310,6 +1312,8 @@ doesn
 '
 t
 match
+"
+"
 expected
 data
 "
@@ -1464,6 +1468,8 @@ to
 re
 -
 open
+"
+"
 record
 .
 "

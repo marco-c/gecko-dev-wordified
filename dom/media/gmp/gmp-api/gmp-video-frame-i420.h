@@ -1009,6 +1009,8 @@ doesn
 '
 t
 clear
+/
+/
 memory
 .
 virtual

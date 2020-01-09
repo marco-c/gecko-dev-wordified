@@ -352,6 +352,8 @@ MediaDecoder
 :
 :
 GetCurrentTime
+/
+/
 implementation
 .
 #
@@ -1936,6 +1938,8 @@ video
 decode
 suspend
 from
+/
+/
 mochitests
 .
 void
@@ -2480,9 +2484,9 @@ media
 file
 has
 been
+/
+/
 loaded
-/
-/
 by
 the
 state
@@ -2613,6 +2617,8 @@ end
 of
 the
 current
+/
+/
 task
 .
 DurationChanged

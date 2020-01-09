@@ -227,5 +227,9 @@ mType
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

@@ -398,6 +398,7 @@ x
 .
 .
 )
+\
 LOG
 (
 mozilla
@@ -417,6 +418,7 @@ d
 ]
 "
 x
+\
 (
 int
 )
@@ -1633,6 +1635,8 @@ dll
 /
 MFCreateSample
 MFCreateAlignedMemoryBuffer
+/
+/
 MFCreateMediaType
 u
 "
@@ -2788,6 +2792,8 @@ as
 plugin
 -
 container
+/
+/
 alternatively
 .
 sigFilePath

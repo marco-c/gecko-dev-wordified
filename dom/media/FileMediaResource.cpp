@@ -1313,5 +1313,5 @@ aOffset
 }
 /
 /
-mozilla
 namespace
+mozilla

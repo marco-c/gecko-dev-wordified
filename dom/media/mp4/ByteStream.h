@@ -168,5 +168,9 @@ ByteStream
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

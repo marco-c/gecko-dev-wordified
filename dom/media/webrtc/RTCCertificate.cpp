@@ -268,6 +268,7 @@ overflow
 #
 define
 ONE_DAY
+\
 PRTime
 (
 PR_USEC_PER_SEC

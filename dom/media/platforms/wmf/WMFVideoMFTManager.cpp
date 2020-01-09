@@ -2282,6 +2282,8 @@ it
 outside
 of
 the
+/
+/
 loop
 .
 auto
@@ -3433,9 +3435,9 @@ a
 minimum
 resolution
 48x48
+/
+/
 pixels
-/
-/
 for
 resolution
 but
@@ -3450,11 +3452,11 @@ for
 the
 resolution
 <
+/
+/
 132
 pixels
 .
-/
-/
 It
 '
 s
@@ -3468,11 +3470,11 @@ t
 have
 this
 limitation
+/
+/
 but
 it
 still
-/
-/
 might
 have
 maximum
@@ -5826,6 +5828,8 @@ UVUV
 /
 /
 See
+/
+/
 https
 :
 /

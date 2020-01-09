@@ -167,6 +167,7 @@ msg
 .
 .
 )
+\
 MOZ_LOG
 (
 GetMediaManagerLog
@@ -341,6 +342,8 @@ bool
 except
 when
 averaging
+/
+/
 ideals
 .
 template
@@ -4044,3 +4047,7 @@ return
 ;
 }
 }
+/
+/
+namespace
+mozilla

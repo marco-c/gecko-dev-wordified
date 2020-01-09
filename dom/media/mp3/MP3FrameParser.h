@@ -2297,9 +2297,9 @@ to
 an
 MPEG
 frame
+/
+/
 begin
-/
-/
 as
 a
 VBRI
@@ -2314,9 +2314,9 @@ fixed
 offset
 relative
 to
+/
+/
 frame
-/
-/
 begin
 .
 Returns

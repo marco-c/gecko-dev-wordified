@@ -2485,9 +2485,9 @@ track
 '
 s
 PrincipalHandle
+*
 changes
 on
-*
 the
 MediaStreamGraph
 thread
@@ -2496,9 +2496,9 @@ When
 the
 PrincipalHandle
 matches
+*
 the
 pending
-*
 principal
 we
 know
@@ -2509,6 +2509,7 @@ change
 has
 propagated
 to
+*
 consumers
 .
 *

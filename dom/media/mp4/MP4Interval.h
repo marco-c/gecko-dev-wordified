@@ -973,5 +973,9 @@ start
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

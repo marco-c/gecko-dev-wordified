@@ -219,6 +219,10 @@ mSinf
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

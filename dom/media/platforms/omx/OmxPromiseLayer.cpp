@@ -157,6 +157,7 @@ arg
 .
 .
 )
+\
 MOZ_LOG
 (
 sPDMLog
@@ -167,6 +168,7 @@ LogLevel
 :
 :
 Debug
+\
 (
 "
 OmxPromiseLayer
@@ -1192,6 +1194,8 @@ before
 previous
 one
 is
+/
+/
 completed
 .
 MOZ_RELEASE_ASSERT
@@ -1244,9 +1248,9 @@ interpret
 the
 OMX_ALL
 to
+/
+/
 OMX_DirInput
-/
-/
 and
 OMX_DirOutput
 flush
@@ -1350,11 +1354,11 @@ can
 '
 t
 overlay
+/
+/
 flush
 commands
 .
-/
-/
 So
 here
 we
@@ -1364,6 +1368,8 @@ flush
 after
 receiving
 the
+/
+/
 previous
 flush
 completed
@@ -2171,3 +2177,7 @@ Shutdown
 ;
 }
 }
+/
+/
+namespace
+mozilla

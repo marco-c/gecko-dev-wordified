@@ -143,7 +143,6 @@ MOZ_LOG
 (
 \
 sAndroidDecoderModuleLog
-\
 mozilla
 :
 :
@@ -1049,4 +1048,5 @@ forget
 }
 /
 /
+namespace
 mozilla

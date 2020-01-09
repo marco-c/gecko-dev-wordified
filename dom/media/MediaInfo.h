@@ -1212,6 +1212,8 @@ identical
 to
 the
 original
+/
+/
 mImage
 .
 width
@@ -1219,8 +1221,6 @@ width
 mImage
 .
 height
-/
-/
 then
 the
 scaling
@@ -1229,11 +1229,11 @@ will
 be
 1
 .
-/
-/
 This
 is
 used
+/
+/
 for
 when
 the
@@ -1245,11 +1245,11 @@ from
 what
 the
 container
-/
-/
 reports
 .
 This
+/
+/
 is
 legal
 in
@@ -1263,10 +1263,10 @@ ratio
 of
 the
 crop
-/
-/
 rectangle
 as
+/
+/
 it
 was
 reported
@@ -1278,8 +1278,6 @@ size
 reported
 by
 the
-/
-/
 container
 .
 gfx

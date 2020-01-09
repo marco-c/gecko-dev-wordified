@@ -248,6 +248,7 @@ arg
 .
 .
 )
+\
 MOZ_LOG
 (
 sDecoderDoctorLog
@@ -936,6 +937,8 @@ p
 -
 Could
 not
+"
+"
 set
 property
 in
@@ -1075,6 +1078,8 @@ p
 <
 -
 expect
+"
+"
 0
 ]
 :
@@ -1160,6 +1165,8 @@ DecoderDoctorDocumentWatcher
 [
 %
 p
+"
+"
 doc
 =
 %
@@ -2205,6 +2212,8 @@ not
 create
 json
 for
+"
+"
 dispatch
 "
 )
@@ -3847,6 +3856,8 @@ SynthesizeAnalysis
 (
 )
 -
+"
+"
 supported
 key
 systems
@@ -3865,6 +3876,8 @@ See
 if
 they
 show
+"
+"
 issues
 have
 been
@@ -4081,6 +4094,8 @@ DecoderDoctorDocumentWatcher
 [
 %
 p
+"
+"
 doc
 =
 %
@@ -4103,6 +4118,8 @@ s
 now
 works
 it
+"
+"
 was
 in
 pref
@@ -4224,6 +4241,8 @@ SynthesizeAnalysis
 (
 )
 -
+"
+"
 %
 s
 not
@@ -4279,6 +4298,8 @@ take
 precedence
 over
 format
+/
+/
 checks
 .
 if
@@ -4334,6 +4355,8 @@ SynthesizeAnalysis
 (
 )
 -
+"
+"
 unsupported
 key
 systems
@@ -4472,6 +4495,8 @@ SynthesizeAnalysis
 (
 )
 -
+"
+"
 unplayable
 formats
 :
@@ -4486,6 +4511,8 @@ because
 WMF
 was
 not
+"
+"
 found
 "
 this
@@ -4582,6 +4609,8 @@ DecoderDoctorDocumentWatcher
 [
 %
 p
+"
+"
 doc
 =
 %
@@ -4600,6 +4629,8 @@ formats
 s
 -
 >
+"
+"
 Cannot
 play
 media
@@ -4690,6 +4721,8 @@ DecoderDoctorDocumentWatcher
 [
 %
 p
+"
+"
 doc
 =
 %
@@ -4708,6 +4741,8 @@ formats
 s
 -
 >
+"
+"
 Cannot
 play
 media
@@ -4717,6 +4752,8 @@ decoder
 was
 not
 found
+"
+"
 (
 Reason
 :
@@ -4774,6 +4811,8 @@ SynthesizeAnalysis
 (
 )
 -
+"
+"
 Cannot
 play
 media
@@ -4825,6 +4864,8 @@ SynthesizeAnalysis
 )
 -
 Can
+"
+"
 play
 media
 but
@@ -4905,6 +4946,8 @@ SynthesizeAnalysis
 (
 )
 -
+"
+"
 Decode
 error
 :
@@ -4984,6 +5027,8 @@ SynthesizeAnalysis
 (
 )
 -
+"
+"
 Decode
 warning
 :
@@ -5059,6 +5104,8 @@ SynthesizeAnalysis
 )
 -
 Can
+"
+"
 play
 media
 decoders
@@ -5127,6 +5174,8 @@ DecoderDoctorDocumentWatcher
 [
 %
 p
+"
+"
 doc
 =
 %
@@ -5322,6 +5371,8 @@ Notify
 -
 No
 new
+"
+"
 diagnostics
 to
 analyze
@@ -5365,10 +5416,10 @@ them
 as
 another
 burst
+/
+/
 separately
 .
-/
-/
 '
 true
 '
@@ -5486,6 +5537,8 @@ StoreFormatDiagnostics
 (
 nsIDocument
 *
+"
+"
 aDocument
 =
 nullptr
@@ -5551,6 +5604,8 @@ StoreFormatDiagnostics
 (
 nsIDocument
 *
+"
+"
 aDocument
 =
 %
@@ -5620,6 +5675,8 @@ StoreFormatDiagnostics
 (
 nsIDocument
 *
+"
+"
 aDocument
 =
 %
@@ -5646,6 +5703,8 @@ s
 -
 Could
 not
+"
+"
 create
 document
 watcher
@@ -5832,6 +5891,8 @@ StoreMediaKeySystemAccess
 (
 nsIDocument
 *
+"
+"
 aDocument
 =
 nullptr
@@ -5895,6 +5956,8 @@ StoreMediaKeySystemAccess
 (
 nsIDocument
 *
+"
+"
 aDocument
 =
 %
@@ -5962,6 +6025,8 @@ StoreMediaKeySystemAccess
 (
 nsIDocument
 *
+"
+"
 aDocument
 =
 %
@@ -5985,6 +6050,8 @@ s
 )
 -
 Could
+"
+"
 not
 create
 document
@@ -6174,6 +6241,8 @@ StoreEvent
 (
 nsIDocument
 *
+"
+"
 aDocument
 =
 nullptr
@@ -6262,6 +6331,8 @@ AddDiagnostics
 (
 )
 -
+"
+"
 unable
 to
 initialize
@@ -6315,6 +6386,8 @@ AddDiagnostics
 )
 -
 now
+"
+"
 able
 to
 initialize

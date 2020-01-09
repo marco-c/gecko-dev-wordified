@@ -428,6 +428,8 @@ already
 is
 our
 pending
+/
+/
 principalHandle
 .
 void
@@ -851,9 +853,9 @@ invalidating
 for
 the
 image
+/
+/
 change
-/
-/
 in
 the
 ImageLayer

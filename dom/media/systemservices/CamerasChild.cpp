@@ -4330,4 +4330,12 @@ nullptr
 ;
 }
 }
+/
+/
+namespace
+camera
 }
+/
+/
+namespace
+mozilla

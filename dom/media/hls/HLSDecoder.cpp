@@ -267,13 +267,13 @@ using
 NativeCallbacks
 :
 :
-DisposeNative
+AttachNative
 ;
 using
 NativeCallbacks
 :
 :
-AttachNative
+DisposeNative
 ;
 explicit
 HLSResourceCallbacksSupport
@@ -555,9 +555,9 @@ we
 treat
 all
 resource
+/
+/
 errors
-/
-/
 from
 GeckoHlsPlayer
 as

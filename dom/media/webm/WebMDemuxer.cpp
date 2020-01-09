@@ -289,7 +289,6 @@ arg
 DDMOZ_LOG
 (
 gMediaDemuxerLog
-\
 mozilla
 :
 :
@@ -297,7 +296,6 @@ LogLevel
 :
 :
 Debug
-\
 "
 :
 :
@@ -308,7 +306,6 @@ s
 arg
 \
 __func__
-\
 #
 #
 __VA_ARGS__
@@ -3669,6 +3666,8 @@ frame
 for
 file
 resource
+/
+/
 case
 .
 MOZ_ASSERT
@@ -5346,7 +5345,6 @@ end
 )
 0
 )
-\
 +
 std
 :
@@ -5376,7 +5374,6 @@ end
 0
 )
 )
-\
 =
 =
 length
@@ -6737,6 +6734,8 @@ will
 be
 rejected
 with
+/
+/
 EOS
 .
 return

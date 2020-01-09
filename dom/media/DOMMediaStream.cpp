@@ -923,6 +923,8 @@ stream
 ;
 creating
 a
+"
+"
 corresponding
 "
 "
@@ -1180,6 +1182,8 @@ MediaStreamTrack
 p
 ended
 at
+"
+"
 the
 source
 .
@@ -5421,6 +5425,8 @@ mInputStream
 =
 %
 p
+"
+"
 mOwnedStream
 =
 %

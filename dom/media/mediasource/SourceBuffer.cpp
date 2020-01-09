@@ -276,6 +276,8 @@ MediaDecoder
 :
 :
 GetCurrentTime
+/
+/
 implementation
 .
 #
@@ -327,7 +329,6 @@ DDMOZ_LOG
 GetMediaSourceLog
 (
 )
-\
 mozilla
 :
 :
@@ -335,7 +336,6 @@ LogLevel
 :
 :
 Debug
-\
 "
 (
 %
@@ -358,9 +358,7 @@ OriginalString
 Data
 (
 )
-\
 __func__
-\
 #
 #
 __VA_ARGS__
@@ -380,7 +378,6 @@ DDMOZ_LOG
 GetMediaSourceLog
 (
 )
-\
 mozilla
 :
 :
@@ -388,7 +385,6 @@ LogLevel
 :
 :
 Verbose
-\
 "
 (
 %
@@ -411,9 +407,7 @@ OriginalString
 Data
 (
 )
-\
 __func__
-\
 #
 #
 __VA_ARGS__
@@ -433,7 +427,6 @@ DDMOZ_LOG
 GetMediaSourceAPILog
 (
 )
-\
 mozilla
 :
 :
@@ -454,7 +447,6 @@ s
 :
 "
 arg
-\
 mType
 .
 OriginalString
@@ -464,7 +456,6 @@ OriginalString
 Data
 (
 )
-\
 __func__
 \
 #
@@ -901,6 +892,8 @@ sourceBuffers
 attribute
 of
 the
+/
+/
 parent
 media
 source
@@ -911,6 +904,8 @@ InvalidStateError
 exception
 and
 abort
+/
+/
 these
 steps
 .
@@ -1031,6 +1026,8 @@ exact
 same
 range
 information
+/
+/
 as
 the
 current
@@ -1044,6 +1041,8 @@ the
 current
 value
 of
+/
+/
 this
 attribute
 to

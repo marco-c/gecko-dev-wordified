@@ -179,7 +179,6 @@ arg
 \
 DDMOZ_LOG
 (
-\
 sPDMLog
 mozilla
 :
@@ -197,6 +196,7 @@ s
 "
 arg
 __func__
+\
 #
 #
 __VA_ARGS__
@@ -218,9 +218,7 @@ self
 get
 (
 )
-\
 sPDMLog
-\
 mozilla
 :
 :
@@ -228,7 +226,6 @@ LogLevel
 :
 :
 Debug
-\
 "
 :
 :
@@ -239,7 +236,6 @@ s
 arg
 \
 __func__
-\
 #
 #
 __VA_ARGS__
@@ -271,7 +267,6 @@ return
 ;
 \
 }
-\
 namespace
 mozilla
 {
@@ -2598,6 +2593,8 @@ to
 do
 any
 buffer
+/
+/
 operation
 .
 if
@@ -3800,6 +3797,8 @@ the
 first
 packet
 not
+/
+/
 in
 container
 .
@@ -4527,9 +4526,9 @@ Then
 "
 s
 so
+/
+/
 it
-/
-/
 is
 safe
 to
@@ -5202,10 +5201,10 @@ with
 eos
 OMX_BUFFERFLAG_EOS
 in
+/
+/
 queue
 .
-/
-/
 This
 behaviour
 should
@@ -6455,3 +6454,7 @@ forget
 ;
 }
 }
+/
+/
+namespace
+mozilla

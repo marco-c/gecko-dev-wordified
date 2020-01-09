@@ -167,6 +167,7 @@ arg
 .
 .
 )
+\
 MOZ_LOG
 (
 sPDMLog
@@ -177,6 +178,7 @@ LogLevel
 :
 :
 Debug
+\
 (
 "
 OmxPlatformLayer
@@ -227,7 +229,6 @@ err
 ;
 \
 }
-\
 /
 /
 Common
@@ -666,6 +667,8 @@ rate
 %
 lu
 profile
+"
+"
 %
 d
 "
@@ -1915,3 +1918,7 @@ nullptr
 #
 endif
 }
+/
+/
+namespace
+mozilla

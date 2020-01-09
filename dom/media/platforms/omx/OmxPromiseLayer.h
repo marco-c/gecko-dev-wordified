@@ -963,6 +963,8 @@ demuxer
 like
 duration
 stream
+/
+/
 offset
 .
 .
@@ -1264,6 +1266,10 @@ mRawDatas
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

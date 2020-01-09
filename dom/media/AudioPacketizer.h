@@ -394,6 +394,8 @@ channel
 should
 be
 strictly
+"
+"
 positive
 "
 )
@@ -1185,6 +1187,7 @@ mLength
 }
 /
 /
+namespace
 mozilla
 #
 endif

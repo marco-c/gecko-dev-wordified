@@ -605,7 +605,7 @@ NS_INTERFACE_MAP_END
 }
 /
 /
-anonymous
+namespace
 void
 CloneableWithRangeMediaResource
 :
@@ -993,5 +993,5 @@ NS_OK
 }
 /
 /
-mozilla
 namespace
+mozilla

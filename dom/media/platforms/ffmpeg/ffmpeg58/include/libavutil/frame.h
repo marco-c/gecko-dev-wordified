@@ -364,6 +364,7 @@ AVMatrixEncoding
 enum
 defined
 in
+*
 libavutil
 /
 channel_layout
@@ -850,9 +851,9 @@ of
 the
 format
 of
+*
 AV_FRAME_QP_TABLE_DATA
 .
-*
 The
 contents
 of
@@ -862,10 +863,10 @@ data
 are
 undocumented
 and
+*
 internal
 ;
 use
-*
 av_frame_set_qp_table
 (
 )
@@ -875,10 +876,10 @@ av_frame_get_qp_table
 )
 to
 access
+*
 this
 in
 a
-*
 meaningful
 way
 instead
@@ -982,8 +983,8 @@ new
 fields
 may
 be
-added
 *
+added
 to
 the
 end
@@ -1911,6 +1912,7 @@ frame
 should
 be
 shown
+*
 to
 user
 )
@@ -1973,13 +1975,13 @@ frame
 (
 if
 frame
+*
 threading
 isn
 '
 t
 used
 )
-*
 This
 is
 also
@@ -1989,9 +1991,9 @@ time
 of
 this
 AVFrame
+*
 calculated
 from
-*
 only
 AVPacket
 .
@@ -2245,6 +2247,7 @@ by
 the
 user
 through
+*
 AVCodecContext
 .
 reordered_opaque
@@ -3282,6 +3285,7 @@ change
 the
 contents
 of
+*
 the
 buffer
 ref

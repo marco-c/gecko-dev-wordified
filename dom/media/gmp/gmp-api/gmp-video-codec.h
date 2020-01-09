@@ -578,6 +578,8 @@ GMPBufferType
 .
 Top
 6
+/
+/
 reserved
 (
 1
@@ -641,6 +643,7 @@ to
 compiler
 warnings
 and
+*
 warnings
 -
 as

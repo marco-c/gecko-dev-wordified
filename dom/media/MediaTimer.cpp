@@ -1145,8 +1145,8 @@ cancels
 the
 nsITimer
 so
-that
 *
+that
 we
 never
 fire

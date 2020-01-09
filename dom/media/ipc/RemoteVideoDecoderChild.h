@@ -154,6 +154,10 @@ BufferRecycleBin
 ;
 }
 }
+/
+/
+namespace
+mozilla
 namespace
 mozilla
 {

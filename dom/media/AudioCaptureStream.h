@@ -220,6 +220,10 @@ mTrackCreated
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

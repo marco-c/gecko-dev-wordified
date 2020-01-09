@@ -156,6 +156,10 @@ VideoConfiguration
 }
 /
 /
+namespace
+dom
+/
+/
 Class
 containing
 pointing
@@ -331,7 +335,6 @@ DependentMediaMIMEType
 &
 >
 (
-\
 [
 ]
 (

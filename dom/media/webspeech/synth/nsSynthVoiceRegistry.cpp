@@ -1258,9 +1258,9 @@ yet
 we
 will
 recieve
+/
+/
 current
-/
-/
 voices
 at
 contruction
@@ -1313,9 +1313,9 @@ yet
 we
 will
 recieve
+/
+/
 current
-/
-/
 voices
 at
 contruction
@@ -1394,9 +1394,9 @@ yet
 we
 will
 recieve
+/
+/
 current
-/
-/
 voices
 at
 contruction
@@ -1577,6 +1577,8 @@ local
 =
 %
 s
+"
+"
 queued
 =
 %
@@ -3231,6 +3233,8 @@ FindBestMatch
 -
 Matched
 C
+"
+"
 locale
 language
 (
@@ -3774,6 +3778,8 @@ uri
 %
 s
 '
+"
+"
 rate
 =
 %
@@ -4321,6 +4327,8 @@ rate
 =
 %
 f
+"
+"
 pitch
 =
 %

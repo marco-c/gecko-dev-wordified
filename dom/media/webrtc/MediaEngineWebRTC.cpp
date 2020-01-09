@@ -1823,6 +1823,8 @@ must
 protect
 the
 member
+/
+/
 vars
 MutexAutoLock
 lock
@@ -2218,6 +2220,9 @@ Shutdown
 }
 }
 }
+/
+/
+namespace
 void
 MediaEngineWebRTC
 :
@@ -2326,3 +2331,7 @@ Shutdown
 ;
 }
 }
+/
+/
+namespace
+mozilla

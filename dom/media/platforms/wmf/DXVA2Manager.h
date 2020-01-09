@@ -186,6 +186,10 @@ class
 KnowsCompositor
 ;
 }
+/
+/
+namespace
+layers
 class
 DXVA2Manager
 {

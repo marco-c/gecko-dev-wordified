@@ -355,6 +355,7 @@ mOpenSLESLib
 /
 /
 namespace
+mozilla
 #
 endif
 /

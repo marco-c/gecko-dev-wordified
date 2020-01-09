@@ -207,5 +207,9 @@ mThread
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

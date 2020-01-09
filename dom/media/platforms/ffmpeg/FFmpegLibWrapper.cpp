@@ -579,10 +579,10 @@ are
 blocked
 therefore
 we
+/
+/
 must
 be
-/
-/
 dealing
 with
 a
@@ -628,6 +628,7 @@ func
 )
 PR_FindSymbol
 (
+\
 (
 (
 ver
@@ -639,6 +640,7 @@ AV_FUNC_AVUTIL_MASK
 mAVUtilLib
 :
 mAVCodecLib
+\
 #
 func
 )

@@ -208,6 +208,7 @@ DOMException
 *
 Implementation
 of
+*
 https
 :
 /
@@ -251,9 +252,9 @@ from
 UA
 .
 When
+*
 recorder
 starts
-*
 a
 MediaEncoder
 will
@@ -264,10 +265,10 @@ accept
 the
 mediaStream
 as
+*
 input
 source
 .
-*
 Encoder
 will
 get
@@ -280,6 +281,7 @@ data
 changes
 encode
 it
+*
 by
 selected
 MIME
@@ -306,6 +308,7 @@ timeslice
 passed
 from
 Start
+*
 function
 call
 or
@@ -313,14 +316,13 @@ by
 RequestData
 function
 .
-*
 Thread
 model
 :
-*
 When
 the
 recorder
+*
 starts
 it
 creates
@@ -335,6 +337,7 @@ read
 data
 from
 MediaEncoder
+*
 object
 and
 store
@@ -343,10 +346,10 @@ in
 MutableBlobStorage
 object
 .
-*
 Also
 extract
 the
+*
 encoded
 data
 and
@@ -359,6 +362,7 @@ passed
 from
 start
 function
+*
 or
 RequestData
 function
@@ -485,11 +489,11 @@ collected
 data
 on
 every
+/
+/
 timeSlice
 milliseconds
 .
-/
-/
 If
 timeSlice
 isn
@@ -500,6 +504,8 @@ UA
 should
 call
 the
+/
+/
 RequestData
 to
 obtain
@@ -541,6 +547,8 @@ the
 Media
 Encoder
 thread
+/
+/
 un
 -
 hook
@@ -1222,6 +1230,8 @@ input
 is
 a
 media
+/
+/
 stream
 .
 const
@@ -1291,6 +1301,8 @@ audio
 and
 video
 capture
+/
+/
 formats
 .
 nsString

@@ -501,6 +501,10 @@ sInstance
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

@@ -358,6 +358,7 @@ AVMatrixEncoding
 enum
 defined
 in
+*
 libavutil
 /
 channel_layout
@@ -714,8 +715,8 @@ new
 fields
 may
 be
-added
 *
+added
 to
 the
 end
@@ -1555,6 +1556,7 @@ frame
 should
 be
 shown
+*
 to
 user
 )
@@ -1604,13 +1606,13 @@ frame
 (
 if
 frame
+*
 threading
 isn
 '
 t
 used
 )
-*
 This
 is
 also
@@ -1620,9 +1622,9 @@ time
 of
 this
 AVFrame
+*
 calculated
 from
-*
 only
 AVPacket
 .
@@ -1875,6 +1877,7 @@ by
 the
 user
 through
+*
 AVCodecContext
 .
 reordered_opaque

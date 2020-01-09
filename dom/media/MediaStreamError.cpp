@@ -177,6 +177,7 @@ MAP_MEDIAERR
 name
 msg
 )
+\
 {
 Name
 :

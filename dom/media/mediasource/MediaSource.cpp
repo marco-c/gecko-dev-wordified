@@ -433,7 +433,6 @@ DDMOZ_LOG
 GetMediaSourceLog
 (
 )
-\
 mozilla
 :
 :
@@ -441,7 +440,6 @@ LogLevel
 :
 :
 Debug
-\
 "
 :
 :
@@ -452,7 +450,6 @@ s
 arg
 \
 __func__
-\
 #
 #
 __VA_ARGS__
@@ -472,7 +469,6 @@ DDMOZ_LOG
 GetMediaSourceAPILog
 (
 )
-\
 mozilla
 :
 :
@@ -480,7 +476,6 @@ LogLevel
 :
 :
 Debug
-\
 "
 :
 :
@@ -491,7 +486,6 @@ s
 arg
 \
 __func__
-\
 #
 #
 __VA_ARGS__
@@ -558,6 +552,8 @@ optional
 "
 Platform
 Update
+/
+/
 Supplement
 "
 /
@@ -2153,10 +2149,10 @@ fire
 removetrack
 "
 at
+/
+/
 affected
 lists
-/
-/
 fire
 "
 removetrack
@@ -2743,9 +2739,9 @@ open
 then
 throw
 an
+/
+/
 InvalidStateError
-/
-/
 exception
 and
 abort
@@ -2920,9 +2916,9 @@ open
 then
 throw
 an
+/
+/
 InvalidStateError
-/
-/
 exception
 and
 abort

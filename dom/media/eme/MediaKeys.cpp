@@ -1929,6 +1929,8 @@ a
 different
 session
 ID
+"
+"
 than
 requested
 "
@@ -2610,6 +2612,8 @@ principal
 origin
 string
 in
+"
+"
 MediaKeys
 :
 :
@@ -3789,6 +3793,8 @@ policy
 check
 on
 unsupported
+"
+"
 keysystem
 "
 this
@@ -3987,6 +3993,8 @@ id
 =
 %
 d
+"
+"
 keystatus
 =
 %

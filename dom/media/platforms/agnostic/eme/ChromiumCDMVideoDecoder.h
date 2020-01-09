@@ -290,6 +290,7 @@ false
 }
 /
 /
+namespace
 mozilla
 #
 endif

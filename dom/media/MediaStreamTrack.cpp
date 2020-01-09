@@ -342,8 +342,8 @@ PrincipalHandle
 of
 the
 media
-flowing
 *
+flowing
 through
 the
 MediaStreamGraph
@@ -390,8 +390,8 @@ the
 MediaStreamGraph
 thread
 we
-will
 *
+will
 be
 notified
 .
@@ -404,8 +404,8 @@ main
 thread
 matches
 the
-PrincipalHandle
 *
+PrincipalHandle
 we
 just
 saw
@@ -420,6 +420,7 @@ track
 '
 s
 principal
+*
 to
 the
 new
@@ -1641,11 +1642,11 @@ it
 s
 been
 to
+/
+/
 media
 -
 thread
-/
-/
 and
 back
 )
@@ -1659,6 +1660,8 @@ mConstraints
 to
 the
 newly
+/
+/
 applied
 values
 .

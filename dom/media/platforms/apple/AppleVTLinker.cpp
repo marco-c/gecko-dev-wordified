@@ -526,7 +526,6 @@ LINK_FUNC
 (
 func
 )
-\
 func
 =
 nullptr

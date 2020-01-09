@@ -386,6 +386,8 @@ VideoDecoderManagerThreadHolder
 :
 :
 ~
+"
+"
 VideoDecoderManagerThreadHolder
 "
 [

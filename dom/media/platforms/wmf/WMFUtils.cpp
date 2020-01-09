@@ -699,6 +699,8 @@ displayed
 /
 See
 :
+/
+/
 http
 :
 /
@@ -1379,12 +1381,12 @@ FunctionName
 #
 Ptr
 =
-\
 (
 FunctionType
 )
 GetProcAddress
 (
+\
 GetModuleHandleW
 (
 L

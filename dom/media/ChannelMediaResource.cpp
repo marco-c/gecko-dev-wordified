@@ -1560,10 +1560,10 @@ start
 offset
 of
 data
+/
+/
 received
 .
-/
-/
 Note
 :
 If
@@ -1578,6 +1578,8 @@ total
 bytes
 is
 unknown
+/
+/
 at
 this
 stage
@@ -6700,9 +6702,9 @@ to
 make
 sure
 its
+/
+/
 internal
-/
-/
 state
 is
 correct
@@ -6715,6 +6717,8 @@ suspend
 the
 channel
 after
+/
+/
 recreating
 .
 if
@@ -6765,5 +6769,5 @@ mSuspendCount
 }
 /
 /
-mozilla
 namespace
+mozilla

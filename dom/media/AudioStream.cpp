@@ -290,6 +290,7 @@ x
 .
 .
 )
+\
 MOZ_LOG
 (
 gAudioStreamLog
@@ -300,6 +301,7 @@ LogLevel
 :
 :
 Debug
+\
 (
 "
 %
@@ -321,6 +323,7 @@ x
 .
 .
 )
+\
 MOZ_LOG
 (
 gAudioStreamLog
@@ -331,6 +334,7 @@ LogLevel
 :
 :
 Warning
+\
 (
 "
 %
@@ -352,9 +356,11 @@ x
 .
 .
 )
+\
 NS_DebugBreak
 (
 NS_DEBUG_WARNING
+\
 nsPrintfCString
 (
 "
@@ -372,6 +378,7 @@ get
 (
 )
 nullptr
+\
 __FILE__
 __LINE__
 )
@@ -882,10 +889,10 @@ won
 '
 t
 grow
+/
+/
 unlimitedly
 .
-/
-/
 Note
 that
 we
@@ -895,10 +902,10 @@ in
 converting
 integers
 into
+/
+/
 floats
 and
-/
-/
 inaccuracy
 will
 accumulate
@@ -909,9 +916,9 @@ However
 for
 a
 24hr
+/
+/
 long
-/
-/
 sample
 rate
 =
@@ -926,9 +933,9 @@ be
 less
 than
 1
+/
+/
 microsecond
-/
-/
 after
 playing
 24
@@ -4355,12 +4362,12 @@ Shutdown
 )
 (
 mState
+/
+/
 =
 =
 SHUTDOWN
 )
-/
-/
 Bug
 996162
 if

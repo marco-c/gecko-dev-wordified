@@ -244,6 +244,7 @@ others
 run
 in
 MediaEncoder
+*
 thread
 .
 *
@@ -271,10 +272,10 @@ or
 A
 /
 V
+/
+/
 foramt
 .
-/
-/
 Run
 in
 MediaRecorder

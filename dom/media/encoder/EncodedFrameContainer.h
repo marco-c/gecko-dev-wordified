@@ -129,9 +129,9 @@ data
 from
 encoder
 to
+*
 muxer
 .
-*
 The
 media
 data
@@ -144,9 +144,9 @@ and
 recycle
 by
 the
+*
 destructor
 .
-*
 Only
 allow
 to
@@ -244,6 +244,8 @@ encoded
 data
 type
 from
+/
+/
 mEncodedFrames
 .
 nsTArray

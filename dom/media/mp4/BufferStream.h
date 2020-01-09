@@ -251,5 +251,9 @@ mData
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

@@ -641,5 +641,9 @@ ShouldRun
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

@@ -243,3 +243,7 @@ aSize
 )
 ;
 }
+/
+/
+namespace
+mozilla

@@ -1804,6 +1804,8 @@ MultiWriterQueue
 <
 int
 MultiWriterQueueDefaultBufferSize
+/
+/
 MultiWriterQueueReaderLocking_None
 >
 >
@@ -2398,6 +2400,8 @@ t
 pop
 unless
 writes
+/
+/
 can
 '
 t
@@ -2489,6 +2493,8 @@ writes
 can
 '
 t
+/
+/
 happen
 .
 struct

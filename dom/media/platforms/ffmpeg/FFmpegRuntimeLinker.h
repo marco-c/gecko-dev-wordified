@@ -207,6 +207,8 @@ Found
 ffmpeg
 with
 unexpected
+/
+/
 contents
 .
 LinkStatus_UNUSABLE_LIBAV57
@@ -227,6 +229,8 @@ Found
 libav
 with
 unexpected
+/
+/
 contents
 .
 LinkStatus_OBSOLETE_FFMPEG
@@ -318,6 +322,10 @@ sLinkStatusLibraryName
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

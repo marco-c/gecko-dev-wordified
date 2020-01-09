@@ -1528,5 +1528,9 @@ mLastDecodeTime
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

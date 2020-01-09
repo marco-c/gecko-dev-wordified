@@ -703,6 +703,14 @@ sId
 }
 ;
 }
+/
+/
+namespace
+camera
 }
+/
+/
+namespace
+mozilla
 #
 endif

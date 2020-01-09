@@ -487,6 +487,8 @@ with
 smaller
 /
 slower
+/
+/
 fake
 video
 mOpts
@@ -1200,6 +1202,8 @@ problems
 dealing
 with
 realtime
+/
+/
 audio
 inputs
 interval

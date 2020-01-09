@@ -683,10 +683,10 @@ none
 were
 found
 returns
+/
+/
 mBlockEndOffset
 .
-/
-/
 This
 allows
 to
@@ -697,6 +697,8 @@ of
 the
 interval
 containg
+/
+/
 aOffset
 .
 int64_t

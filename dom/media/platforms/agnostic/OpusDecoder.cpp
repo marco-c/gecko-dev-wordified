@@ -232,7 +232,6 @@ arg
 \
 DDMOZ_LOG
 (
-\
 sPDMLog
 mozilla
 :
@@ -250,6 +249,7 @@ s
 "
 arg
 __func__
+\
 #
 #
 __VA_ARGS__

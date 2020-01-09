@@ -170,7 +170,6 @@ arg
 MOZ_LOG
 (
 sAndroidDecoderModuleLog
-\
 mozilla
 :
 :
@@ -4259,4 +4258,5 @@ __func__
 }
 /
 /
+namespace
 mozilla

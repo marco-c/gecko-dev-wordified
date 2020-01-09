@@ -321,3 +321,7 @@ aMimeType
 ;
 }
 }
+/
+/
+namespace
+mozilla

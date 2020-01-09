@@ -2578,9 +2578,9 @@ here
 and
 we
 try
+/
+/
 to
-/
-/
 avoid
 creating
 the
@@ -2591,9 +2591,9 @@ well
 .
 The
 AudioProcessingEvent
+/
+/
 class
-/
-/
 knows
 how
 to
@@ -2606,10 +2606,10 @@ once
 the
 script
 tries
+/
+/
 to
 access
-/
-/
 them
 .
 Otherwise
@@ -2621,6 +2621,8 @@ to
 get
 away
 without
+/
+/
 creating
 them
 !

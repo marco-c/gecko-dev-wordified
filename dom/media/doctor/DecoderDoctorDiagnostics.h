@@ -745,10 +745,10 @@ Store
 .
 .
 '
+/
+/
 methods
 .
-/
-/
 This
 helps
 ensure
@@ -757,11 +757,11 @@ are
 only
 stored
 once
-/
-/
 and
 makes
 it
+/
+/
 easy
 to
 know

@@ -197,6 +197,7 @@ define
 LOG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 gOpenSLESProviderLog

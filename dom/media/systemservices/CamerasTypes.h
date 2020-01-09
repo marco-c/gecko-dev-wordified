@@ -211,6 +211,10 @@ MaxEngine
 }
 ;
 }
+/
+/
+namespace
+IPC
 #
 endif
 /

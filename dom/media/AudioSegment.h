@@ -165,6 +165,10 @@ class
 AudioSegment
 ;
 }
+/
+/
+namespace
+mozilla
 DECLARE_USE_COPY_CONSTRUCTORS
 (
 mozilla
@@ -1774,6 +1778,8 @@ object
 whose
 lifetime
 is
+/
+/
 managed
 ;
 null

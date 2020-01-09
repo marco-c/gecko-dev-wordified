@@ -1122,6 +1122,8 @@ it
 s
 of
 reasonable
+/
+/
 length
 .
 return
@@ -1474,6 +1476,8 @@ promise
 rejected
 with
 an
+/
+/
 InvalidStateError
 .
 if
@@ -1612,6 +1616,8 @@ is
 already
 initialized
 in
+"
+"
 MediaKeySession
 .
 generateRequest
@@ -1907,6 +1913,8 @@ Unsupported
 initDataType
 passed
 to
+"
+"
 MediaKeySession
 .
 generateRequest
@@ -1933,6 +1941,8 @@ GenerateRequest
 )
 failed
 unsupported
+"
+"
 initDataType
 "
 this
@@ -2056,6 +2066,8 @@ with
 a
 newly
 created
+/
+/
 TypeError
 .
 promise
@@ -2071,6 +2083,8 @@ initData
 sanitization
 failed
 in
+"
+"
 MediaKeySession
 .
 generateRequest
@@ -2097,6 +2111,8 @@ GenerateRequest
 )
 initData
 sanitization
+"
+"
 failed
 "
 this
@@ -2385,6 +2401,8 @@ promise
 rejected
 with
 an
+/
+/
 InvalidStateError
 .
 if
@@ -2577,6 +2595,8 @@ rejected
 with
 a
 newly
+/
+/
 created
 TypeError
 .
@@ -2746,6 +2766,8 @@ a
 non
 -
 persistent
+"
+"
 session
 "
 this
@@ -3162,6 +3184,8 @@ is
 closed
 or
 was
+"
+"
 not
 properly
 initialised
@@ -3723,10 +3747,10 @@ session
 s
 cdm
 instance
+/
+/
 value
 .
-/
-/
 5
 .
 2
@@ -3802,6 +3826,8 @@ causes
 us
 to
 run
+/
+/
 OnSessionClosed
 (
 )

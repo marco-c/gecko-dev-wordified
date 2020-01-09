@@ -197,7 +197,7 @@ using
 media
 :
 :
-TimeUnit
+TimeInterval
 ;
 using
 media
@@ -209,7 +209,7 @@ using
 media
 :
 :
-TimeInterval
+TimeUnit
 ;
 static
 VideoInfo
@@ -464,13 +464,13 @@ using
 NativeCallbacks
 :
 :
-DisposeNative
+AttachNative
 ;
 using
 NativeCallbacks
 :
 :
-AttachNative
+DisposeNative
 ;
 explicit
 HLSDemuxerCallbacksSupport

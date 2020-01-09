@@ -384,6 +384,8 @@ removesourcebuffer
 "
 at
 the
+/
+/
 list
 .
 void
@@ -438,6 +440,8 @@ MSE
 specification
 on
 each
+/
+/
 SourceBuffer
 .
 void
