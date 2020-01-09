@@ -503,6 +503,15 @@ IsSnapEnvironment
 (
 )
 ;
+nsresult
+CreateDefaultProfile
+(
+nsIToolkitProfile
+*
+*
+aResult
+)
+;
 /
 /
 Returns
