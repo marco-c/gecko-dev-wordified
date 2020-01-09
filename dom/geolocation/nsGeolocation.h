@@ -450,6 +450,7 @@ nmea
 etc
 .
 )
+MOZ_CAN_RUN_SCRIPT
 nsresult
 StartDevice
 (
@@ -729,6 +730,7 @@ aGivenProto
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 int32_t
 WatchPosition
 (
@@ -796,6 +798,7 @@ to
 actually
 watch
 .
+MOZ_CAN_RUN_SCRIPT
 int32_t
 WatchPosition
 (
@@ -1024,6 +1027,7 @@ CallerType
 aCallerType
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 int32_t
 WatchPosition
 (

@@ -247,6 +247,7 @@ aMessage
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 NotifyCallback
 (
