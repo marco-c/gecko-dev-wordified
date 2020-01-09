@@ -1577,25 +1577,6 @@ playback_recordings
 '
 None
 )
-        
-self
-.
-config
-[
-'
-python3_win_manifest
-'
-]
-=
-test
-.
-get
-(
-'
-python3_win_manifest
-'
-None
-)
     
 def
 run_test
