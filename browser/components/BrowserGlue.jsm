@@ -19739,12 +19739,12 @@ return
 let
 shouldCheck
 =
+!
 AppConstants
 .
 DEBUG
-?
-false
-:
+&
+&
 ShellService
 .
 shouldCheckDefaultBrowser
