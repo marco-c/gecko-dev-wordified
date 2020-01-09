@@ -6223,6 +6223,9 @@ transparent
 xul
 |
 treecol
+[
+sortDirection
+]
 :
 not
 (
@@ -6242,9 +6245,6 @@ xul
 treecol
 -
 sortdirection
-[
-sortDirection
-]
 {
 list
 -
@@ -6301,6 +6301,13 @@ height
 xul
 |
 treecol
+[
+sortDirection
+=
+"
+ascending
+"
+]
 :
 not
 (
@@ -6320,13 +6327,6 @@ xul
 treecol
 -
 sortdirection
-[
-sortDirection
-=
-"
-ascending
-"
-]
 {
 transform
 :
