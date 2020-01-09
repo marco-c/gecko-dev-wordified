@@ -111,13 +111,6 @@ h
 #
 include
 "
-nsIJARProtocolHandler
-.
-h
-"
-#
-include
-"
 nsIProtocolHandler
 .
 h
@@ -162,7 +155,7 @@ nsJARProtocolHandler
 final
 :
 public
-nsIJARProtocolHandler
+nsIProtocolHandler
 public
 nsSupportsWeakReference
 {
@@ -170,7 +163,6 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIPROTOCOLHANDLER
-NS_DECL_NSIJARPROTOCOLHANDLER
 /
 /
 nsJARProtocolHandler
@@ -214,6 +206,7 @@ nsIZipReaderCache
 JarCache
 (
 )
+const
 {
 return
 mJARCache
