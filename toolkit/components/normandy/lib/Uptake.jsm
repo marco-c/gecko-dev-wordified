@@ -181,6 +181,13 @@ UptakeTelemetry
 STATUS
 .
 CUSTOM_1_ERROR
+RECIPE_DIDNT_MATCH_FILTER
+:
+UptakeTelemetry
+.
+STATUS
+.
+CUSTOM_2_ERROR
 RECIPE_EXECUTION_ERROR
 :
 UptakeTelemetry
@@ -188,6 +195,13 @@ UptakeTelemetry
 STATUS
 .
 APPLY_ERROR
+RECIPE_FILTER_BROKEN
+:
+UptakeTelemetry
+.
+STATUS
+.
+CONTENT_ERROR
 RECIPE_INVALID_ACTION
 :
 UptakeTelemetry
