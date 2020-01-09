@@ -114,6 +114,7 @@ pretty
 js
 "
 )
+;
 await
 prettyPrint
 (
