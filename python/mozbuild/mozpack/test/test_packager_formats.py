@@ -2359,6 +2359,8 @@ for
 base
 is_addon
 in
+sorted
+(
 contents
 [
 '
@@ -2368,6 +2370,7 @@ bases
 .
 items
 (
+)
 )
 :
         
@@ -2570,8 +2573,11 @@ formatter
 add_base
 (
 '
-browser
+addon0
 '
+addon
+=
+True
 )
         
 formatter
@@ -2579,11 +2585,8 @@ formatter
 add_base
 (
 '
-addon0
+browser
 '
-addon
-=
-True
 )
         
 self
