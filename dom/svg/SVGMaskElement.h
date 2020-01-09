@@ -123,7 +123,7 @@ mozilla_dom_SVGMaskElement_h
 #
 include
 "
-SVGEnum
+nsSVGEnum
 .
 h
 "
@@ -137,10 +137,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
 SVGElement
 .
 h
@@ -452,7 +448,7 @@ MASKUNITS
 MASKCONTENTUNITS
 }
 ;
-SVGEnum
+nsSVGEnum
 mEnumAttributes
 [
 2

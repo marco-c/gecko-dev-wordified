@@ -123,7 +123,7 @@ mozilla_dom_SVGFEMorphologyElement_h
 #
 include
 "
-SVGEnum
+nsSVGEnum
 .
 h
 "
@@ -460,14 +460,14 @@ enum
 OPERATOR
 }
 ;
-SVGEnum
+nsSVGEnum
 mEnumAttributes
 [
 1
 ]
 ;
 static
-SVGEnumMapping
+nsSVGEnumMapping
 sOperatorMap
 [
 ]

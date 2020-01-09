@@ -123,7 +123,7 @@ mozilla_dom_SVGFEDisplacementMapElement_h
 #
 include
 "
-SVGEnum
+nsSVGEnum
 .
 h
 "
@@ -485,14 +485,14 @@ CHANNEL_X
 CHANNEL_Y
 }
 ;
-SVGEnum
+nsSVGEnum
 mEnumAttributes
 [
 2
 ]
 ;
 static
-SVGEnumMapping
+nsSVGEnumMapping
 sChannelMap
 [
 ]

@@ -123,7 +123,7 @@ mozilla_dom_SVGClipPathElement_h
 #
 include
 "
-SVGEnum
+nsSVGEnum
 .
 h
 "
@@ -328,7 +328,7 @@ enum
 CLIPPATHUNITS
 }
 ;
-SVGEnum
+nsSVGEnum
 mEnumAttributes
 [
 1

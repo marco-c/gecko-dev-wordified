@@ -145,7 +145,7 @@ h
 #
 include
 "
-SVGEnum
+nsSVGEnum
 .
 h
 "
@@ -378,7 +378,7 @@ LENGTHADJUST
 }
 ;
 virtual
-SVGEnum
+nsSVGEnum
 *
 EnumAttributes
 (
@@ -387,7 +387,7 @@ EnumAttributes
 0
 ;
 static
-SVGEnumMapping
+nsSVGEnumMapping
 sLengthAdjustMap
 [
 ]

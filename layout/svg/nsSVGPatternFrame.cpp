@@ -3156,7 +3156,7 @@ nsIContent
 aDefault
 )
 {
-SVGEnum
+nsSVGEnum
 &
 thisEnum
 =

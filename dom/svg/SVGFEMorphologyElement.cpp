@@ -216,7 +216,7 @@ radius
 }
 }
 ;
-SVGEnumMapping
+nsSVGEnumMapping
 SVGFEMorphologyElement
 :
 :

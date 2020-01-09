@@ -210,7 +210,7 @@ using
 namespace
 SVGTextContentElement_Binding
 ;
-SVGEnumMapping
+nsSVGEnumMapping
 SVGTextContentElement
 :
 :

@@ -292,6 +292,9 @@ class
 nsSVGDisplayContainerFrame
 ;
 class
+nsSVGEnum
+;
+class
 nsSVGLength2
 ;
 class
@@ -314,9 +317,6 @@ SVGContextPaint
 ;
 struct
 SVGContextPaintImpl
-;
-class
-SVGEnum
 ;
 class
 SVGGeometryFrame
@@ -2405,10 +2405,7 @@ const
 gfxMatrix
 &
 aMatrix
-mozilla
-:
-:
-SVGEnum
+nsSVGEnum
 *
 aUnits
 nsIFrame

@@ -290,14 +290,14 @@ GetLengthInfo
 )
 override
 ;
-SVGEnum
+nsSVGEnum
 mEnumAttributes
 [
 1
 ]
 ;
 virtual
-SVGEnum
+nsSVGEnum
 *
 EnumAttributes
 (
