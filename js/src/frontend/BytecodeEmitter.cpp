@@ -1546,7 +1546,7 @@ code
 (
 )
 .
-growBy
+growByUninitialized
 (
 delta
 )
@@ -55680,7 +55680,7 @@ if
 !
 notes
 .
-growBy
+growByUninitialized
 (
 1
 )
