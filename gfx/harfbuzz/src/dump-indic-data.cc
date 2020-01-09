@@ -210,7 +210,6 @@ hh
 int
 main
 (
-void
 )
 {
 for

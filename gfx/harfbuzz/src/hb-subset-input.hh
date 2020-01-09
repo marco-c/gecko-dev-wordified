@@ -231,10 +231,6 @@ hb_subset_input_t
 hb_object_header_t
 header
 ;
-ASSERT_POD
-(
-)
-;
 hb_set_t
 *
 unicodes
@@ -250,6 +246,11 @@ drop_hints
 ;
 bool
 drop_layout
+:
+1
+;
+bool
+desubroutinize
 :
 1
 ;

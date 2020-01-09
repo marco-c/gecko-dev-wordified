@@ -279,7 +279,6 @@ char
 *
 hb_buffer_serialize_list_formats
 (
-void
 )
 {
 return
@@ -2887,7 +2886,7 @@ end_ptr
 *
 May
 be
-nullptr
+NULL
 *
 /
 hb_font_t
@@ -2897,7 +2896,7 @@ font
 *
 May
 be
-nullptr
+NULL
 *
 /
 hb_buffer_serialize_format_t

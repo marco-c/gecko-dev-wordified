@@ -242,10 +242,6 @@ hb_subset_plan_t
 hb_object_header_t
 header
 ;
-ASSERT_POD
-(
-)
-;
 bool
 drop_hints
 :
@@ -253,6 +249,11 @@ drop_hints
 ;
 bool
 drop_layout
+:
+1
+;
+bool
+desubroutinize
 :
 1
 ;
@@ -321,7 +322,6 @@ hb_face_t
 *
 dest
 ;
-inline
 bool
 new_gid_for_codepoint
 (
@@ -362,7 +362,6 @@ new_gid
 )
 ;
 }
-inline
 bool
 new_gid_for_old_gid
 (
@@ -404,7 +403,6 @@ return
 true
 ;
 }
-inline
 bool
 add_table
 (

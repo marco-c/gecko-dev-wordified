@@ -106,8 +106,8 @@ print
 "
 "
 static
-Range
-os2UnicodeRangesSorted
+OS2Range
+_hb_os2_unicode_ranges
 [
 ]
 =

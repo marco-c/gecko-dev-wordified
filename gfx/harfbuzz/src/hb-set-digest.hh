@@ -338,10 +338,6 @@ shift
 struct
 hb_set_digest_lowest_bits_t
 {
-ASSERT_POD
-(
-)
-;
 enum
 {
 mask_bytes
@@ -364,10 +360,8 @@ mask_t
 8
 }
 ;
-static
-const
-unsigned
-int
+enum
+{
 num_bits
 =
 0
@@ -428,6 +422,7 @@ mask_bytes
 )
 +
 0
+}
 ;
 static_assert
 (
@@ -464,11 +459,9 @@ hb_codepoint_t
 "
 )
 ;
-inline
 void
 init
 (
-void
 )
 {
 mask
@@ -476,7 +469,6 @@ mask
 0
 ;
 }
-inline
 void
 add
 (
@@ -493,7 +485,6 @@ g
 )
 ;
 }
-inline
 bool
 add_range
 (
@@ -577,7 +568,6 @@ template
 typename
 T
 >
-inline
 void
 add_array
 (
@@ -646,7 +636,6 @@ template
 typename
 T
 >
-inline
 bool
 add_sorted_array
 (
@@ -713,7 +702,6 @@ return
 true
 ;
 }
-inline
 bool
 may_have
 (
@@ -738,7 +726,6 @@ g
 private
 :
 static
-inline
 mask_t
 mask_for
 (
@@ -786,15 +773,9 @@ tail_t
 struct
 hb_set_digest_combiner_t
 {
-ASSERT_POD
-(
-)
-;
-inline
 void
 init
 (
-void
 )
 {
 head
@@ -810,7 +791,6 @@ init
 )
 ;
 }
-inline
 void
 add
 (
@@ -833,7 +813,6 @@ g
 )
 ;
 }
-inline
 bool
 add_range
 (
@@ -868,7 +847,6 @@ template
 typename
 T
 >
-inline
 void
 add_array
 (
@@ -913,7 +891,6 @@ template
 typename
 T
 >
-inline
 bool
 add_sorted_array
 (
@@ -956,7 +933,6 @@ return
 true
 ;
 }
-inline
 bool
 may_have
 (

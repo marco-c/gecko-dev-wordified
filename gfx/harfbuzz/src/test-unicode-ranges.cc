@@ -214,6 +214,7 @@ ranges
 .
 hh
 "
+static
 void
 test
 (
@@ -229,7 +230,7 @@ if
 OT
 :
 :
-hb_get_unicode_range_bit
+_hb_ot_os2_get_unicode_range_bit
 (
 cp
 )
@@ -265,7 +266,7 @@ d
 OT
 :
 :
-hb_get_unicode_range_bit
+_hb_ot_os2_get_unicode_range_bit
 (
 cp
 )
@@ -279,10 +280,10 @@ abort
 ;
 }
 }
+static
 void
 test_get_unicode_range_bit
 (
-void
 )
 {
 test
@@ -351,7 +352,6 @@ test
 int
 main
 (
-void
 )
 {
 test_get_unicode_range_bit

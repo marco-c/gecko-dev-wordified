@@ -266,10 +266,10 @@ nullptr
 setup_masks
 *
 /
-nullptr
+HB_TAG_NONE
 /
 *
-disable_otl
+gpos_tag
 *
 /
 nullptr
