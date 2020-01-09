@@ -45361,6 +45361,15 @@ iter
 safepoint
 (
 )
+&
+&
+!
+gen
+-
+>
+compilingWasm
+(
+)
 )
 {
 resetOsiPointRegs
