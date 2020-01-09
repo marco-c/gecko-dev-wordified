@@ -238,12 +238,12 @@ each
 !
 -
 [
-SecondaryMap
+EntityMap
 ]
 (
 struct
 .
-SecondaryMap
+EntityMap
 .
 html
 )
@@ -739,7 +739,7 @@ key
 /
 of
 an
-SecondaryMap
+EntityMap
 or
 SparseMap
 .
@@ -1196,7 +1196,7 @@ self
 map
 :
 :
-SecondaryMap
+EntityMap
 ;
 pub
 use

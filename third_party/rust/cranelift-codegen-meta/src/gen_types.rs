@@ -145,7 +145,7 @@ name
 =
 ty
 .
-to_string
+name
 (
 )
 .
@@ -487,6 +487,9 @@ all_special_types
 .
 map
 (
+|
+ty
+|
 cdsl_types
 :
 :
@@ -494,6 +497,9 @@ ValueType
 :
 :
 from
+(
+ty
+)
 )
 {
 emit_type

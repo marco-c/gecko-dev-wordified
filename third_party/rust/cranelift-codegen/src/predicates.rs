@@ -583,7 +583,7 @@ ir
 GlobalValueData
 :
 :
-Symbol
+Sym
 {
 colocated
 .

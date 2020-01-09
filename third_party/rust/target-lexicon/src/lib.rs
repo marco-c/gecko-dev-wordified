@@ -199,7 +199,6 @@ triple
 :
 :
 {
-CallingConvention
 Endianness
 PointerWidth
 Triple

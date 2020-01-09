@@ -390,6 +390,7 @@ pub
 fn
 endianness
 (
+&
 self
 )
 -
@@ -402,6 +403,7 @@ Endianness
 >
 {
 match
+*
 self
 {
 Architecture
@@ -597,6 +599,7 @@ pub
 fn
 pointer_width
 (
+&
 self
 )
 -
@@ -609,6 +612,7 @@ PointerWidth
 >
 {
 match
+*
 self
 {
 Architecture

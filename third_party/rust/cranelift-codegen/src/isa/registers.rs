@@ -1253,6 +1253,7 @@ global
 RegInfo
 instance
 containing
+that
 this
 register
 class

@@ -681,6 +681,16 @@ List
 RegClass
 ]
         
+self
+.
+first_toprc_index
+=
+None
+#
+type
+:
+int
+        
 assert
 len
 (
@@ -1903,7 +1913,7 @@ a
 tuple
 representing
 the
-intersection
+intersction
 of
 two
 register

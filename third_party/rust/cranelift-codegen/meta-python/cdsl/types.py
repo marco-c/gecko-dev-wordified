@@ -1320,7 +1320,7 @@ from
 (
 0
 is
-INVALID
+VOID
 )
         
 ValueType

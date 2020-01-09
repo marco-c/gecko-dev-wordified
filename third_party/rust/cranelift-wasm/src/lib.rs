@@ -285,13 +285,6 @@ extern
 crate
 cranelift_frontend
 ;
-#
-[
-cfg
-(
-test
-)
-]
 extern
 crate
 target_lexicon
@@ -351,7 +344,6 @@ DummyEnvironment
 FuncEnvironment
 GlobalVariable
 ModuleEnvironment
-ReturnMode
 WasmError
 WasmResult
 }
@@ -428,13 +420,6 @@ alloc
 :
 :
 vec
-;
-pub
-use
-core
-:
-:
-convert
 ;
 pub
 use

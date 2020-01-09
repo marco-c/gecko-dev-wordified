@@ -2352,10 +2352,9 @@ InstructionFormat
     
 :
 param
-base_size
+size
 :
-Base
-number
+Number
 of
 bytes
 in
@@ -2363,20 +2362,6 @@ the
 binary
 encoded
 instruction
-.
-    
-:
-param
-compute_size
-:
-Function
-name
-to
-use
-when
-computing
-actual
-size
 .
     
 :
@@ -2478,7 +2463,7 @@ type
 :
 InstructionFormat
             
-base_size
+size
 #
 type
 :
@@ -2495,14 +2480,6 @@ outs
 type
 :
 ConstraintSeq
-            
-compute_size
-=
-None
-#
-type
-:
-str
             
 branch_range
 =
@@ -2572,33 +2549,16 @@ format
 format
         
 assert
-base_size
+size
 >
 =
 0
         
 self
 .
-base_size
+size
 =
-base_size
-        
-self
-.
-compute_size
-=
-compute_size
-if
-compute_size
-is
-not
-None
-\
-            
-else
-'
-base_size
-'
+size
         
 self
 .
@@ -3612,13 +3572,6 @@ self
 inst
 .
 is_branch
-and
-not
-self
-.
-inst
-.
-is_indirect_branch
 :
             
 assert
