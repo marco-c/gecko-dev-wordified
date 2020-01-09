@@ -1057,11 +1057,14 @@ else
 browser_cycle
 =
 test
-[
+.
+get
+(
 '
 browser_cycle
 '
-]
+1
+)
 )
         
 self
@@ -3036,11 +3039,14 @@ timeout
 int
 (
 test
-[
+.
+get
+(
 '
 page_cycles
 '
-]
+1
+)
 )
         
 #
