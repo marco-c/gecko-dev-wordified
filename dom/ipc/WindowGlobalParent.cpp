@@ -1518,6 +1518,7 @@ aParentSide
 /
 true
 mBrowsingContext
+mDocumentURI
 &
 obj
 aRv

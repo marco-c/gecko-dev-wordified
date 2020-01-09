@@ -1147,6 +1147,12 @@ aChildSide
 /
 false
 mBrowsingContext
+mWindowGlobal
+-
+>
+GetDocumentURI
+(
+)
 &
 obj
 aRv
