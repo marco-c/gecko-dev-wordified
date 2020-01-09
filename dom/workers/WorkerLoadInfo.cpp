@@ -526,6 +526,10 @@ mServiceWorkersTestingInWindow
 (
 false
 )
+mSecureContext
+(
+eNotSet
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -837,6 +841,12 @@ mParentController
 aOther
 .
 mParentController
+;
+mSecureContext
+=
+aOther
+.
+mSecureContext
 ;
 }
 nsresult
