@@ -412,7 +412,7 @@ matches
 our
 behavior
 in
-nsSVGTransformSMILType
+SVGTransformListSMILType
 .
 )
 *
