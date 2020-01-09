@@ -4820,7 +4820,10 @@ if
 let
 Some
 (
+(
 rasterizer
+epoch
+)
 )
 =
 txn
@@ -4838,6 +4841,7 @@ resource_cache
 set_blob_rasterizer
 (
 rasterizer
+epoch
 )
 ;
 }
