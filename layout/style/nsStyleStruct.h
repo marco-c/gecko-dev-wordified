@@ -7970,7 +7970,7 @@ nsStyleList
 aNewData
 const
 nsStyleDisplay
-*
+&
 aOldDisplay
 )
 const
@@ -9045,7 +9045,7 @@ nsStylePosition
 aNewData
 const
 nsStyleVisibility
-*
+&
 aOldStyleVisibility
 )
 const

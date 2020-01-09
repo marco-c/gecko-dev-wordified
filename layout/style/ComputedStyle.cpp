@@ -1051,6 +1051,7 @@ DO_STRUCT_DIFFERENCE_WITH_ARGS
 (
 List
 (
+*
 StyleDisplay
 (
 )
@@ -1071,6 +1072,7 @@ DO_STRUCT_DIFFERENCE_WITH_ARGS
 (
 Position
 (
+*
 StyleVisibility
 (
 )
