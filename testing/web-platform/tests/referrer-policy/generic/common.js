@@ -641,9 +641,7 @@ queryIframe
 (
 url
 callback
-attributes
 referrer_policy
-test
 )
 {
 var
@@ -652,16 +650,12 @@ iframe
 appendIframeToBody
 (
 url
-attributes
+referrer_policy
 )
 ;
 var
 listener
 =
-test
-.
-step_func
-(
 function
 (
 event
@@ -699,8 +693,6 @@ listener
 )
 ;
 }
-)
-;
 window
 .
 addEventListener
@@ -822,10 +814,6 @@ iframeWithoutOwnPolicy
 .
 onload
 =
-test
-.
-step_func
-(
 function
 (
 )
@@ -855,10 +843,6 @@ getTime
 loadImageInWindow
 (
 nextUrl
-test
-.
-step_func
-(
 function
 (
 img
@@ -876,7 +860,6 @@ img
 )
 ;
 }
-)
 attributes
 iframeWithoutOwnPolicy
 .
@@ -884,7 +867,6 @@ contentWindow
 )
 ;
 }
-)
 ;
 document
 .
@@ -1001,10 +983,6 @@ iframeWithOwnPolicy
 .
 onload
 =
-test
-.
-step_func
-(
 function
 (
 )
@@ -1034,10 +1012,6 @@ getTime
 loadImageInWindow
 (
 nextUrl
-test
-.
-step_func
-(
 function
 (
 img
@@ -1055,7 +1029,6 @@ img
 )
 ;
 }
-)
 null
 iframeWithOwnPolicy
 .
@@ -1063,7 +1036,6 @@ contentWindow
 )
 ;
 }
-)
 ;
 document
 .
@@ -1093,10 +1065,6 @@ reject
 loadImageInWindow
 (
 url
-test
-.
-step_func
-(
 function
 (
 img
@@ -1114,7 +1082,6 @@ img
 )
 ;
 }
-)
 attributes
 window
 )
@@ -1256,9 +1223,6 @@ queryXhr
 (
 url
 callback
-attributes
-referrer_policy
-test
 )
 {
 var
@@ -1284,10 +1248,6 @@ xhr
 .
 onreadystatechange
 =
-test
-.
-step_func
-(
 function
 (
 e
@@ -1295,7 +1255,7 @@ e
 {
 if
 (
-xhr
+this
 .
 readyState
 =
@@ -1303,7 +1263,7 @@ readyState
 4
 &
 &
-xhr
+this
 .
 status
 =
@@ -1318,7 +1278,7 @@ JSON
 .
 parse
 (
-xhr
+this
 .
 responseText
 )
@@ -1335,7 +1295,6 @@ url
 ;
 }
 }
-)
 ;
 xhr
 .
@@ -1349,9 +1308,6 @@ queryWorker
 (
 url
 callback
-attributes
-referrer_policy
-test
 )
 {
 var
@@ -1367,10 +1323,6 @@ worker
 .
 onmessage
 =
-test
-.
-step_func
-(
 function
 (
 event
@@ -1394,7 +1346,6 @@ url
 )
 ;
 }
-)
 ;
 }
 function
@@ -1402,9 +1353,6 @@ queryModuleWorkerTopLevel
 (
 url
 callback
-attributes
-referrer_policy
-test
 )
 {
 var
@@ -1427,10 +1375,6 @@ worker
 .
 onmessage
 =
-test
-.
-step_func
-(
 function
 (
 event
@@ -1454,7 +1398,6 @@ url
 )
 ;
 }
-)
 ;
 }
 function
@@ -1462,9 +1405,6 @@ querySharedWorker
 (
 url
 callback
-attributes
-referrer_policy
-test
 )
 {
 var
@@ -1482,10 +1422,6 @@ port
 .
 onmessage
 =
-test
-.
-step_func
-(
 function
 (
 event
@@ -1509,7 +1445,6 @@ url
 )
 ;
 }
-)
 ;
 }
 function
@@ -1517,9 +1452,6 @@ queryFetch
 (
 url
 callback
-attributes
-referrer_policy
-test
 )
 {
 fetch
@@ -1528,10 +1460,6 @@ url
 )
 .
 then
-(
-test
-.
-step_func
 (
 function
 (
@@ -1545,10 +1473,6 @@ json
 )
 .
 then
-(
-test
-.
-step_func
 (
 function
 (
@@ -1567,10 +1491,8 @@ url
 ;
 }
 )
-)
 ;
 }
-)
 )
 ;
 }
@@ -1581,7 +1503,6 @@ element
 url
 callback
 attributes
-test
 )
 {
 var
@@ -1680,10 +1601,6 @@ attr
 var
 listener
 =
-test
-.
-step_func
-(
 function
 (
 event
@@ -1721,8 +1638,6 @@ listener
 )
 ;
 }
-)
-;
 window
 .
 addEventListener
@@ -1745,9 +1660,7 @@ queryLink
 (
 url
 callback
-attributes
 referrer_policy
-test
 )
 {
 var
@@ -1786,8 +1699,7 @@ queryNavigable
 a
 url
 callback
-attributes
-test
+referrer_policy
 )
 }
 function
@@ -1795,9 +1707,7 @@ queryAreaLink
 (
 url
 callback
-attributes
 referrer_policy
-test
 )
 {
 var
@@ -1840,8 +1750,7 @@ queryNavigable
 area
 url
 callback
-attributes
-test
+referrer_policy
 )
 }
 function
@@ -1851,7 +1760,6 @@ url
 callback
 attributes
 referrer_policy
-test
 )
 {
 var
@@ -1881,10 +1789,6 @@ referrer_policy
 var
 listener
 =
-test
-.
-step_func
-(
 function
 (
 event
@@ -1918,8 +1822,6 @@ listener
 )
 ;
 }
-)
-;
 window
 .
 addEventListener

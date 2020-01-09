@@ -2534,20 +2534,32 @@ None
 manifest_path
 =
 None
-explicit
-=
-False
 )
 :
         
 if
 manifest_path
 is
+not
 None
-or
+and
 include
-or
-explicit
+is
+None
+:
+            
+self
+.
+manifest
+=
+manifestinclude
+.
+get_manifest
+(
+manifest_path
+)
+        
+else
 :
             
 self
@@ -2570,24 +2582,8 @@ set_defaults
 (
 )
         
-else
-:
-            
-self
-.
-manifest
-=
-manifestinclude
-.
-get_manifest
-(
-manifest_path
-)
-        
 if
 include
-or
-explicit
 :
             
 self
@@ -2603,10 +2599,6 @@ skip
 true
 "
 )
-        
-if
-include
-:
             
 for
 item
