@@ -472,6 +472,10 @@ const
 LayoutDeviceRect
 &
 aRect
+const
+LayoutDeviceRect
+&
+aClip
 )
 ;
 Maybe

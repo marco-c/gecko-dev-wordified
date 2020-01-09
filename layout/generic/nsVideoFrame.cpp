@@ -3589,6 +3589,7 @@ aBuilder
 aResources
 aSc
 rect
+rect
 )
 ;
 return
