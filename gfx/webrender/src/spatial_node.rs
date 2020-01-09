@@ -1264,6 +1264,10 @@ mark_uninvertible
 &
 mut
 self
+state
+:
+&
+TransformUpdateState
 )
 {
 self
@@ -1271,6 +1275,14 @@ self
 invertible
 =
 false
+;
+self
+.
+coordinate_system_id
+=
+state
+.
+current_coordinate_system_id
 ;
 self
 .
@@ -1396,6 +1408,7 @@ self
 .
 mark_uninvertible
 (
+state
 )
 ;
 return
@@ -1490,6 +1503,7 @@ self
 .
 mark_uninvertible
 (
+state
 )
 ;
 return
