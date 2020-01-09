@@ -2168,6 +2168,12 @@ eax
 }
 /
 /
+clang
+-
+format
+off
+/
+/
 {
 {
 {
@@ -8434,3 +8440,9 @@ intptr_t
 }
 }
 check_macroassembler_style
+/
+/
+clang
+-
+format
+on

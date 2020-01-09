@@ -1714,6 +1714,12 @@ done
 }
 /
 /
+clang
+-
+format
+off
+/
+/
 {
 {
 {
@@ -10043,3 +10049,9 @@ lfence
 }
 }
 check_macroassembler_style
+/
+/
+clang
+-
+format
+on

@@ -28190,6 +28190,12 @@ scratch
 }
 /
 /
+clang
+-
+format
+off
+/
+/
 {
 {
 {
@@ -39764,6 +39770,12 @@ as_csdb
 }
 }
 check_macroassembler_style
+/
+/
+clang
+-
+format
+on
 void
 MacroAssemblerARM
 :
