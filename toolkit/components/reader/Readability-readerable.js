@@ -262,6 +262,8 @@ unlikelyCandidates
 ad
 -
 |
+ai2html
+|
 banner
 |
 breadcrumbs
@@ -281,6 +283,8 @@ disqus
 extra
 |
 foot
+|
+gdpr
 |
 header
 |
