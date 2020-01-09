@@ -5259,14 +5259,14 @@ _validate_treeherder_data
 (
 parser
 )
-                
+            
 if
 not
 self
 .
 run_local
 :
-                    
+                
 #
 copy
 results
@@ -5280,7 +5280,7 @@ included
 as
 an
 artifact
-                    
+                
 self
 .
 info
@@ -5295,7 +5295,7 @@ dir
 :
 "
 )
-                    
+                
 dest
 =
 os
@@ -5318,7 +5318,7 @@ data
 json
 '
 )
-                    
+                
 self
 .
 info
@@ -5328,7 +5328,7 @@ str
 dest
 )
 )
-                    
+                
 self
 .
 _artifact_perf_data
