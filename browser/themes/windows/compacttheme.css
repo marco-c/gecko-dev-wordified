@@ -336,7 +336,9 @@ var
 (
 -
 -
-chrome
+lwt
+-
+text
 -
 color
 )
@@ -842,9 +844,9 @@ var
 (
 -
 -
-chrome
+lwt
 -
-background
+accent
 -
 color
 )
