@@ -934,6 +934,11 @@ PDMFactory
 )
 {
 }
+/
+*
+static
+*
+/
 void
 PDMFactory
 :
@@ -941,7 +946,6 @@ PDMFactory
 EnsureInit
 (
 )
-const
 {
 {
 StaticMutexAutoLock
