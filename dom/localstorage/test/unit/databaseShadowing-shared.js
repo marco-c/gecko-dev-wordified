@@ -1,3 +1,15 @@
+/
+*
+import
+-
+globals
+-
+from
+head
+.
+js
+*
+/
 const
 principalInfos
 =
