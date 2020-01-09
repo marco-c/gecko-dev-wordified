@@ -4181,7 +4181,10 @@ zeros
 =
 calloc
 (
+size_t
+(
 1
+)
 byteCount
 )
 ;
@@ -4419,7 +4422,10 @@ zeros
 =
 calloc
 (
+size_t
+(
 1
+)
 byteCount
 )
 ;
