@@ -430,6 +430,10 @@ established
 *
 *
 param
+String
+eventName
+*
+param
 WebSocketDebuggerTransport
 transport
 *
@@ -440,6 +444,7 @@ listener
 /
 onConnectionAccepted
 (
+eventName
 transport
 listener
 )

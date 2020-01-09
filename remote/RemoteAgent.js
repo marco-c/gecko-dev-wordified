@@ -415,9 +415,13 @@ on
 "
 open
 "
+(
+eventName
 tab
+)
 =
 >
+{
 this
 .
 targets
@@ -428,6 +432,8 @@ tab
 .
 linkedBrowser
 )
+;
+}
 )
 ;
 this
@@ -439,9 +445,13 @@ on
 "
 close
 "
+(
+eventName
 tab
+)
 =
 >
+{
 this
 .
 targets
@@ -452,6 +462,8 @@ tab
 .
 linkedBrowser
 )
+;
+}
 )
 ;
 /

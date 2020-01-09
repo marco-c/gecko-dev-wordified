@@ -113,13 +113,13 @@ ChromeUtils
 import
 (
 "
-chrome
+resource
 :
 /
 /
-remote
+gre
 /
-content
+modules
 /
 EventEmitter
 .
@@ -844,6 +844,7 @@ WindowObserver
 async
 onWindowOpen
 (
+eventName
 window
 )
 {
