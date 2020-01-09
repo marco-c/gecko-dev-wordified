@@ -3161,7 +3161,6 @@ f32
 is_opaque
 :
 bool
-mut
 f
 :
 F
@@ -3172,7 +3171,7 @@ RenderTaskCacheEntryHandle
 where
 F
 :
-FnMut
+FnOnce
 (
 &
 mut
