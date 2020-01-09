@@ -374,8 +374,6 @@ LSObject
 *
 aObject
 bool
-aRequestedBySetItem
-bool
 aExplicit
 =
 false
