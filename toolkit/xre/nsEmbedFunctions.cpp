@@ -3207,7 +3207,10 @@ sandboxError
 if
 (
 !
-EarlyStartMacSandboxIfEnabled
+GeckoChildProcessHost
+:
+:
+StartMacSandbox
 (
 allArgc
 aArgv
