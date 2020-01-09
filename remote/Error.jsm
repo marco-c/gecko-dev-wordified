@@ -250,11 +250,8 @@ quit
 .
 *
 /
-this
-.
-FatalError
-=
 class
+FatalError
 extends
 RemoteAgentError
 {
@@ -324,11 +321,8 @@ mode
 }
 }
 ;
-this
-.
-UnsupportedError
-=
 class
+UnsupportedError
 extends
 RemoteAgentError
 {

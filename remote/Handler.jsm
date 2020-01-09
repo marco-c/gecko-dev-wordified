@@ -277,11 +277,8 @@ resp
 ;
 }
 }
-this
-.
-TargetListHandler
-=
 class
+TargetListHandler
 extends
 JSONHandler
 {
@@ -338,11 +335,8 @@ targets
 }
 }
 ;
-this
-.
-ProtocolHandler
-=
 class
+ProtocolHandler
 extends
 JSONHandler
 {

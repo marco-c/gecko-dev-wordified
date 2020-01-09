@@ -15,8 +15,7 @@ t
 "
 ]
 ;
-this
-.
+var
 t
 =
 {
@@ -98872,8 +98871,7 @@ minor
 }
 }
 ;
-this
-.
+var
 Protocol
 =
 {

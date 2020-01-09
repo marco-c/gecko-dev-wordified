@@ -94,8 +94,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 Runtime
 =
 {

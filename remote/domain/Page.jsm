@@ -166,11 +166,8 @@ jsm
 "
 )
 ;
-this
-.
-Page
-=
 class
+Page
 extends
 Domain
 {
@@ -616,8 +613,6 @@ schema
 }
 }
 ;
-this
-.
 Page
 .
 FrameId
@@ -630,8 +625,6 @@ t
 String
 }
 ;
-this
-.
 Page
 .
 TransitionType

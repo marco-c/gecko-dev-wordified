@@ -118,11 +118,8 @@ jsm
 "
 )
 ;
-this
-.
-Domain
-=
 class
+Domain
 {
 constructor
 (

@@ -179,11 +179,8 @@ Log
 get
 )
 ;
-this
-.
-MessageChannel
-=
 class
+MessageChannel
 {
 constructor
 (

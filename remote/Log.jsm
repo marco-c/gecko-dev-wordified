@@ -87,11 +87,8 @@ jsm
 .
 *
 /
-this
-.
-Log
-=
 class
+Log
 {
 static
 get

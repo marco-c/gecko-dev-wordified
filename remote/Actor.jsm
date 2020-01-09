@@ -201,11 +201,8 @@ message
 manager
 logs
 .
-this
-.
-RemoteAgentActorChild
-=
 class
+RemoteAgentActorChild
 extends
 ActorChild
 {
@@ -347,11 +344,8 @@ a
 shorter
 name
 ?
-this
-.
-MessageChannelActorChild
-=
 class
+MessageChannelActorChild
 extends
 RemoteAgentActorChild
 {

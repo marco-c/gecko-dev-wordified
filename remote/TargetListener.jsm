@@ -217,11 +217,8 @@ connection
 .
 *
 /
-this
-.
-TargetListener
-=
 class
+TargetListener
 {
 constructor
 (

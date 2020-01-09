@@ -94,11 +94,8 @@ jsm
 "
 )
 ;
-this
-.
-DOMChild
-=
 class
+DOMChild
 extends
 RemoteAgentActorChild
 {

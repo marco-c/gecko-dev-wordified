@@ -233,11 +233,8 @@ frame
 .
 *
 /
-this
-.
-Target
-=
 class
+Target
 {
 constructor
 (
