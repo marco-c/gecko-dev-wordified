@@ -3260,7 +3260,6 @@ if
 (
 IsVisibleForPainting
 (
-aBuilder
 )
 )
 {

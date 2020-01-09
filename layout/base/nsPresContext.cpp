@@ -1504,10 +1504,6 @@ below
 in
 constructor
 body
-mIsRenderingOnlySelection
-(
-false
-)
 mPaginated
 (
 aType

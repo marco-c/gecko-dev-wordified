@@ -595,7 +595,6 @@ if
 (
 IsVisibleForPainting
 (
-aBuilder
 )
 )
 {

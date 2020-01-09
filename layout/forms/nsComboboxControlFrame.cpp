@@ -10718,7 +10718,6 @@ mDisplayFrame
 &
 IsVisibleForPainting
 (
-aBuilder
 )
 )
 {

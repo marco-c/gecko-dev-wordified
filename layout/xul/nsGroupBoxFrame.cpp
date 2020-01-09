@@ -852,7 +852,6 @@ if
 (
 IsVisibleForPainting
 (
-aBuilder
 )
 )
 {

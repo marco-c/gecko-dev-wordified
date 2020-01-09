@@ -5983,7 +5983,6 @@ if
 (
 IsVisibleForPainting
 (
-aBuilder
 )
 |
 |

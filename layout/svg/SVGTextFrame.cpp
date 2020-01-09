@@ -19484,7 +19484,6 @@ if
 !
 IsVisibleForPainting
 (
-aBuilder
 )
 &
 &

@@ -3843,7 +3843,6 @@ if
 !
 IsVisibleForPainting
 (
-aBuilder
 )
 )
 return

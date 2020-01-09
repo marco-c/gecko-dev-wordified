@@ -1814,7 +1814,6 @@ HasValidDimensions
 !
 IsVisibleForPainting
 (
-aBuilder
 )
 &
 &

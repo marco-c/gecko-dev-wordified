@@ -9374,7 +9374,6 @@ if
 (
 IsVisibleForPainting
 (
-aBuilder
 )
 )
 {

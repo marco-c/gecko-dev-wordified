@@ -2020,7 +2020,6 @@ if
 !
 IsVisibleForPainting
 (
-aBuilder
 )
 )
 return

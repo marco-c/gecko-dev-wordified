@@ -6946,7 +6946,6 @@ if
 !
 IsVisibleOrCollapsedForPainting
 (
-aBuilder
 )
 )
 return

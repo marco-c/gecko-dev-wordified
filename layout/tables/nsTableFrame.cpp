@@ -9863,7 +9863,6 @@ aFrame
 >
 IsVisibleForPainting
 (
-aBuilder
 )
 ;
 bool
