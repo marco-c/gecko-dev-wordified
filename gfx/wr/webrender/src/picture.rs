@@ -6584,7 +6584,7 @@ image_data
 &
 resources
 .
-image_data_store
+image
 [
 data_handle
 ]
@@ -6678,7 +6678,7 @@ yuv_image_data
 &
 resources
 .
-yuv_image_data_store
+yuv_image
 [
 data_handle
 ]
@@ -6864,7 +6864,7 @@ clip_node
 &
 resources
 .
-clip_data_store
+clip
 [
 clip_chain_node
 .
@@ -11638,7 +11638,7 @@ data_handle
 &
 resources
 .
-prim_interner
+prim
 [
 data_handle
 ]
@@ -11658,7 +11658,7 @@ data_handle
 &
 resources
 .
-image_interner
+image
 [
 data_handle
 ]
@@ -11678,7 +11678,7 @@ data_handle
 &
 resources
 .
-image_border_interner
+image_border
 [
 data_handle
 ]
@@ -11698,7 +11698,7 @@ data_handle
 &
 resources
 .
-line_decoration_interner
+line_decoration
 [
 data_handle
 ]
@@ -11718,7 +11718,7 @@ data_handle
 &
 resources
 .
-linear_grad_interner
+linear_grad
 [
 data_handle
 ]
@@ -11738,7 +11738,7 @@ data_handle
 &
 resources
 .
-normal_border_interner
+normal_border
 [
 data_handle
 ]
@@ -11758,7 +11758,7 @@ data_handle
 &
 resources
 .
-picture_interner
+picture
 [
 data_handle
 ]
@@ -11778,7 +11778,7 @@ data_handle
 &
 resources
 .
-radial_grad_interner
+radial_grad
 [
 data_handle
 ]
@@ -11798,7 +11798,7 @@ data_handle
 &
 resources
 .
-text_run_interner
+text_run
 [
 data_handle
 ]
@@ -11818,7 +11818,7 @@ data_handle
 &
 resources
 .
-yuv_image_interner
+yuv_image
 [
 data_handle
 ]

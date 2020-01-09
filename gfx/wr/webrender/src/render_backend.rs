@@ -1572,17 +1572,9 @@ declare_frame_resources
 {
 (
 (
-{
 name
 :
 ident
-x
-:
-ident
-datastore_ident
-:
-ident
-}
 )
 +
 )
@@ -1652,7 +1644,7 @@ FrameResources
 {
 (
 pub
-datastore_ident
+name
 :
 intern_types
 :
@@ -1697,12 +1689,14 @@ r
 .
 interning
 .
-datastore_ident
+data_stores
+.
+name
 +
 =
 self
 .
-datastore_ident
+name
 .
 size_of
 (
@@ -1731,7 +1725,7 @@ BackendProfileCounters
 (
 self
 .
-datastore_ident
+name
 .
 apply_updates
 (
@@ -1811,7 +1805,7 @@ prim_data
 &
 self
 .
-prim_data_store
+prim
 [
 data_handle
 ]
@@ -1839,7 +1833,7 @@ prim_data
 &
 self
 .
-image_data_store
+image
 [
 data_handle
 ]
@@ -1867,7 +1861,7 @@ prim_data
 &
 self
 .
-image_border_data_store
+image_border
 [
 data_handle
 ]
@@ -1895,7 +1889,7 @@ prim_data
 &
 self
 .
-line_decoration_data_store
+line_decoration
 [
 data_handle
 ]
@@ -1923,7 +1917,7 @@ prim_data
 &
 self
 .
-linear_grad_data_store
+linear_grad
 [
 data_handle
 ]
@@ -1951,7 +1945,7 @@ prim_data
 &
 self
 .
-normal_border_data_store
+normal_border
 [
 data_handle
 ]
@@ -1979,7 +1973,7 @@ prim_data
 &
 self
 .
-picture_data_store
+picture
 [
 data_handle
 ]
@@ -2007,7 +2001,7 @@ prim_data
 &
 self
 .
-radial_grad_data_store
+radial_grad
 [
 data_handle
 ]
@@ -2035,7 +2029,7 @@ prim_data
 &
 self
 .
-text_run_data_store
+text_run
 [
 data_handle
 ]
@@ -2063,7 +2057,7 @@ prim_data
 &
 self
 .
-yuv_image_data_store
+yuv_image
 [
 data_handle
 ]
@@ -3363,7 +3357,7 @@ self
 .
 resources
 .
-clip_data_store
+clip
 )
 )
 ;
@@ -3481,7 +3475,7 @@ self
 .
 resources
 .
-clip_data_store
+clip
 )
 )
 ;
