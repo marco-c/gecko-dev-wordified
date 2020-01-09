@@ -2154,6 +2154,7 @@ Paint
 "
 Composite
 "
+GRAPHICS
 )
 ;
 MOZ_ASSERT

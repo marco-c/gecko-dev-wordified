@@ -290,6 +290,16 @@ profiler_add_marker
 "
 Styles
 "
+js
+:
+:
+ProfilingStackFrame
+:
+:
+Category
+:
+:
+LAYOUT
 MakeUnique
 <
 StyleMarkerPayload

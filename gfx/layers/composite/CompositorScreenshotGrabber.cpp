@@ -529,6 +529,16 @@ because
 nothing
 changed
 "
+js
+:
+:
+ProfilingStackFrame
+:
+:
+Category
+:
+:
+GRAPHICS
 )
 ;
 #
@@ -930,6 +940,7 @@ compositor
 "
 configuration
 "
+GRAPHICS
 )
 ;
 return
@@ -1027,6 +1038,7 @@ because
 ScaleDownWindowTargetToSize
 failed
 "
+GRAPHICS
 )
 ;
 return
@@ -1058,6 +1070,7 @@ AsyncReadbackBuffer
 creation
 failed
 "
+GRAPHICS
 )
 ;
 return

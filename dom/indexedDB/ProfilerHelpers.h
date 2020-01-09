@@ -1673,6 +1673,7 @@ message
 get
 (
 )
+DOM
 )
 ;
 }

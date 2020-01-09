@@ -2308,6 +2308,7 @@ VR
 "
 RunFrameRequestCallbacks
 "
+GRAPHICS
 )
 ;
 TimeStamp

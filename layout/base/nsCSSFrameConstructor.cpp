@@ -57576,6 +57576,7 @@ MaybeRecreateContainerForFrameRemoval
 "
 reason
 \
+LAYOUT
 TRACING_EVENT
 )
 MOZ_ASSERT
@@ -78752,6 +78753,8 @@ WipeContainingBlock
 :
 "
 reason
+LAYOUT
+\
 TRACING_EVENT
 )
 if

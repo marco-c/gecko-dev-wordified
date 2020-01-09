@@ -23587,6 +23587,7 @@ Paint
 "
 DisplayList
 "
+GRAPHICS
 )
 ;
 PaintTelemetry
@@ -26315,6 +26316,7 @@ Paint
 "
 DisplayListResources
 "
+GRAPHICS
 )
 ;
 /

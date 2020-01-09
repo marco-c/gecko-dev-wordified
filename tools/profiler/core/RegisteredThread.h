@@ -277,6 +277,14 @@ const
 char
 *
 aMarkerName
+js
+:
+:
+ProfilingStackFrame
+:
+:
+Category
+aCategory
 mozilla
 :
 :
@@ -324,6 +332,7 @@ new
 ProfilerMarker
 (
 aMarkerName
+aCategory
 mThreadId
 std
 :
@@ -1838,7 +1847,7 @@ js
 RegisterContextProfilingEventMarker
 (
 mContext
-profiler_add_marker
+profiler_add_js_marker
 )
 ;
 }

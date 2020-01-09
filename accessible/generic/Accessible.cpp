@@ -5940,6 +5940,16 @@ strMarker
 get
 (
 )
+js
+:
+:
+ProfilingStackFrame
+:
+:
+Category
+:
+:
+OTHER
 )
 ;
 }
