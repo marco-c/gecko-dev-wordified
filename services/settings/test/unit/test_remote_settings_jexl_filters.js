@@ -337,7 +337,7 @@ true
 filter_expression
 :
 '
-environment
+env
 .
 appID
 =
@@ -359,7 +359,7 @@ false
 filter_expression
 :
 "
-environment
+env
 .
 version
 =
@@ -374,7 +374,7 @@ true
 filter_expression
 :
 "
-environment
+env
 .
 unknown
 =

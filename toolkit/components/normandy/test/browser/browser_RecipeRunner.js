@@ -333,8 +333,8 @@ key
 in
 context
 .
-environment
-environment
+env
+env
 .
 {
 key
@@ -369,7 +369,7 @@ context
 normandy
 context
 .
-environment
+env
 "
 context
 offers
@@ -390,7 +390,7 @@ is
 (
 context
 .
-environment
+env
 .
 recipe
 .
@@ -422,7 +422,7 @@ deepEqual
 (
 context
 .
-environment
+env
 .
 recipe
 recipe
@@ -477,7 +477,7 @@ is
 (
 context
 .
-environment
+env
 .
 userId
 "
@@ -526,7 +526,7 @@ is
 (
 context
 .
-environment
+env
 .
 userId
 "
