@@ -2403,7 +2403,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 *
 param
-id
+aId
 :
 nsIHttpServerIdentity
 *
@@ -2417,7 +2417,7 @@ test
 function
 checkPrimariesThrow
 (
-id
+aId
 )
 {
 var
@@ -2427,7 +2427,7 @@ false
 ;
 try
 {
-id
+aId
 .
 primaryScheme
 ;
@@ -2463,7 +2463,7 @@ false
 ;
 try
 {
-id
+aId
 .
 primaryHost
 ;
@@ -2499,7 +2499,7 @@ false
 ;
 try
 {
-id
+aId
 .
 primaryPort
 ;
@@ -2548,7 +2548,7 @@ response
 function
 check400
 (
-data
+aData
 )
 {
 var
@@ -2556,7 +2556,7 @@ iter
 =
 LineIterator
 (
-data
+aData
 )
 ;
 /
@@ -2739,7 +2739,7 @@ n
 function
 check10
 (
-data
+aData
 )
 {
 var
@@ -2747,7 +2747,7 @@ iter
 =
 LineIterator
 (
-data
+aData
 )
 ;
 /
@@ -2865,6 +2865,7 @@ PORT
 data
 check10
 )
+;
 tests
 .
 push
@@ -2929,6 +2930,7 @@ PORT
 data
 check400
 )
+;
 tests
 .
 push
@@ -3004,6 +3006,7 @@ PORT
 data
 check400
 )
+;
 tests
 .
 push
@@ -3084,6 +3087,7 @@ PORT
 data
 check400
 )
+;
 tests
 .
 push
@@ -3168,6 +3172,7 @@ PORT
 data
 check400
 )
+;
 tests
 .
 push
@@ -3262,6 +3267,7 @@ PORT
 data
 check400
 )
+;
 tests
 .
 push
@@ -3348,6 +3354,7 @@ PORT
 data
 check400
 )
+;
 tests
 .
 push
@@ -3434,6 +3441,7 @@ PORT
 data
 check400
 )
+;
 tests
 .
 push
@@ -3534,7 +3542,7 @@ n
 function
 check11goodHost
 (
-data
+aData
 )
 {
 var
@@ -3542,7 +3550,7 @@ iter
 =
 LineIterator
 (
-data
+aData
 )
 ;
 /
@@ -3662,6 +3670,7 @@ PORT
 data
 check11goodHost
 )
+;
 tests
 .
 push
@@ -3765,7 +3774,7 @@ n
 function
 check11ipHost
 (
-data
+aData
 )
 {
 var
@@ -3773,7 +3782,7 @@ iter
 =
 LineIterator
 (
-data
+aData
 )
 ;
 /
@@ -3899,6 +3908,7 @@ PORT
 data
 check11ipHost
 )
+;
 tests
 .
 push
@@ -3994,6 +4004,7 @@ PORT
 data
 check11goodHost
 )
+;
 tests
 .
 push
@@ -4089,6 +4100,7 @@ PORT
 data
 check11goodHost
 )
+;
 tests
 .
 push
@@ -4187,6 +4199,7 @@ PORT
 data
 check11goodHost
 )
+;
 tests
 .
 push
@@ -4275,12 +4288,12 @@ n
 function
 checkInaccurate
 (
-data
+aData
 )
 {
 check11goodHost
 (
-data
+aData
 )
 ;
 /
@@ -4321,6 +4334,7 @@ PORT
 data
 checkInaccurate
 )
+;
 tests
 .
 push
@@ -4401,7 +4415,7 @@ n
 function
 check10ip
 (
-data
+aData
 )
 {
 var
@@ -4409,7 +4423,7 @@ iter
 =
 LineIterator
 (
-data
+aData
 )
 ;
 /
@@ -4533,6 +4547,7 @@ PORT
 data
 check10ip
 )
+;
 tests
 .
 push
@@ -4632,7 +4647,7 @@ n
 function
 check11goodHostWackyPort
 (
-data
+aData
 )
 {
 var
@@ -4640,7 +4655,7 @@ iter
 =
 LineIterator
 (
-data
+aData
 )
 ;
 /
@@ -4764,6 +4779,7 @@ PORT
 data
 check11goodHostWackyPort
 )
+;
 tests
 .
 push
@@ -4844,6 +4860,7 @@ PORT
 data
 check11goodHostWackyPort
 )
+;
 tests
 .
 push
@@ -4927,6 +4944,7 @@ PORT
 data
 check11goodHostWackyPort
 )
+;
 tests
 .
 push
@@ -5012,6 +5030,7 @@ PORT
 data
 check11goodHostWackyPort
 )
+;
 tests
 .
 push
@@ -5102,6 +5121,7 @@ PORT
 data
 check11goodHostWackyPort
 )
+;
 tests
 .
 push
@@ -5185,6 +5205,7 @@ PORT
 data
 check400
 )
+;
 tests
 .
 push
@@ -5258,6 +5279,7 @@ PORT
 data
 check400
 )
+;
 tests
 .
 push
@@ -5348,6 +5370,7 @@ PORT
 data
 check11goodHost
 )
+;
 tests
 .
 push
@@ -5438,6 +5461,7 @@ PORT
 data
 check400
 )
+;
 tests
 .
 push
@@ -5523,6 +5547,7 @@ PORT
 data
 check400
 )
+;
 tests
 .
 push
@@ -5612,6 +5637,7 @@ PORT
 data
 check400
 )
+;
 tests
 .
 push

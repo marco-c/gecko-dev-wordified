@@ -132,6 +132,11 @@ do_load_module
 :
 false
 "
+do_note_exception
+"
+:
+false
+"
 do_parse_document
 "
 :
