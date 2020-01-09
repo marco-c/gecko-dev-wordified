@@ -6990,6 +6990,7 @@ options
 )
                     
 if
+(
 self
 .
 verify_enabled
@@ -6997,7 +6998,34 @@ or
 self
 .
 per_test_coverage
+or
+                        
+os
+.
+environ
+.
+get
+(
+'
+MOZHARNESS_TEST_PATHS
+'
+)
+)
 :
+                        
+#
+Ignore
+tests
+list
+in
+modes
+where
+we
+are
+running
+specific
+tests
+.
                         
 tests_list
 =
