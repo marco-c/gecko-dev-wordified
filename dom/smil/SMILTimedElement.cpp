@@ -4606,7 +4606,7 @@ case
 STATE_STARTUP
 :
 {
-nsSMILInterval
+SMILInterval
 firstInterval
 ;
 mElementState
@@ -4639,7 +4639,7 @@ mCurrentInterval
 =
 MakeUnique
 <
-nsSMILInterval
+SMILInterval
 >
 (
 firstInterval
@@ -4919,7 +4919,7 @@ Time
 sampleTime
 )
 {
-nsSMILInterval
+SMILInterval
 newInterval
 ;
 mElementState
@@ -5012,7 +5012,7 @@ mCurrentInterval
 =
 MakeUnique
 <
-nsSMILInterval
+SMILInterval
 >
 (
 newInterval
@@ -7305,7 +7305,7 @@ updater
 this
 )
 ;
-nsSMILRepeatCount
+SMILRepeatCount
 newRepeatCount
 ;
 if
@@ -9836,7 +9836,7 @@ aList
 )
 {
 const
-nsSMILInterval
+SMILInterval
 *
 prevInterval
 =
@@ -10349,7 +10349,7 @@ Length
 i
 )
 {
-nsSMILInterval
+SMILInterval
 *
 interval
 =
@@ -10909,7 +10909,7 @@ Begin
 ;
 }
 const
-nsSMILInterval
+SMILInterval
 *
 prevInterval
 =
@@ -11040,18 +11040,18 @@ SMILTimedElement
 GetNextInterval
 (
 const
-nsSMILInterval
+SMILInterval
 *
 aPrevInterval
 const
-nsSMILInterval
+SMILInterval
 *
 aReplacedInterval
 const
 nsSMILInstanceTime
 *
 aFixedBeginTime
-nsSMILInterval
+SMILInterval
 &
 aResult
 )
@@ -13676,7 +13676,7 @@ Begin
 :
 nullptr
 ;
-nsSMILInterval
+SMILInterval
 updatedInterval
 ;
 if
@@ -13725,7 +13725,7 @@ mCurrentInterval
 =
 MakeUnique
 <
-nsSMILInterval
+SMILInterval
 >
 (
 updatedInterval
@@ -14127,7 +14127,7 @@ STATE_POSTACTIVE
 )
 {
 const
-nsSMILInterval
+SMILInterval
 *
 prevInterval
 =
@@ -15239,7 +15239,7 @@ Next
 )
 )
 {
-nsSMILInterval
+SMILInterval
 *
 interval
 =
@@ -15341,7 +15341,7 @@ SMILTimedElement
 :
 NotifyChangedInterval
 (
-nsSMILInterval
+SMILInterval
 *
 aInterval
 bool
@@ -15559,7 +15559,7 @@ STATE_POSTACTIVE
 :
 {
 const
-nsSMILInterval
+SMILInterval
 *
 prevInterval
 =
@@ -15592,7 +15592,7 @@ state
 ;
 }
 const
-nsSMILInterval
+SMILInterval
 *
 SMILTimedElement
 :

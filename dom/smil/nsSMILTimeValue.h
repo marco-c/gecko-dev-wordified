@@ -300,7 +300,7 @@ timing
 )
 .
 *
-nsSMILInterval
+SMILInterval
 -
 -
 a

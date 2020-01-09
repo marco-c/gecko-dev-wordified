@@ -117,10 +117,13 @@ MPL
 #
 include
 "
-nsSMILRepeatCount
+SMILRepeatCount
 .
 h
 "
+namespace
+mozilla
+{
 /
 *
 static
@@ -128,7 +131,7 @@ static
 /
 const
 double
-nsSMILRepeatCount
+SMILRepeatCount
 :
 :
 kNotSet
@@ -145,7 +148,7 @@ static
 /
 const
 double
-nsSMILRepeatCount
+SMILRepeatCount
 :
 :
 kIndefinite
@@ -155,3 +158,8 @@ kIndefinite
 .
 0
 ;
+}
+/
+/
+namespace
+mozilla
