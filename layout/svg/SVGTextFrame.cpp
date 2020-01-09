@@ -23335,7 +23335,7 @@ runFlags
 TextRenderedRun
 :
 :
-eIncludeFill
+eIncludeStroke
 |
 TextRenderedRun
 :
