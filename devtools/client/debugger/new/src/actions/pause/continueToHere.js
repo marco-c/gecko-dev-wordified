@@ -122,6 +122,10 @@ continueToHere
 line
 :
 number
+column
+?
+:
+number
 )
 {
 return
@@ -217,7 +221,7 @@ addHiddenBreakpoint
 line
 column
 :
-undefined
+column
 sourceId
 :
 selectedSource
