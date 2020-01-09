@@ -21770,7 +21770,9 @@ else
 if
 (
 !
-mTopLevelEditSubAction
+GetTopLevelEditSubAction
+(
+)
 &
 &
 container
@@ -22068,7 +22070,9 @@ else
 if
 (
 !
-mTopLevelEditSubAction
+GetTopLevelEditSubAction
+(
+)
 &
 &
 aChild
@@ -22187,7 +22191,9 @@ return
 }
 MOZ_ASSERT
 (
-mTopLevelEditSubAction
+GetTopLevelEditSubAction
+(
+)
 =
 =
 aEditSubAction
@@ -22212,7 +22218,7 @@ rules
 >
 BeforeEdit
 (
-mTopLevelEditSubAction
+aEditSubAction
 mDirection
 )
 ;
@@ -22280,7 +22286,9 @@ rules
 >
 AfterEdit
 (
-mTopLevelEditSubAction
+GetTopLevelEditSubAction
+(
+)
 mDirection
 )
 :
@@ -22316,7 +22324,9 @@ OnEndHandlingTopLevelEditSubAction
 MOZ_ASSERT
 (
 !
-mTopLevelEditSubAction
+GetTopLevelEditSubAction
+(
+)
 )
 ;
 MOZ_ASSERT
