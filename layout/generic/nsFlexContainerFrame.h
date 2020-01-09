@@ -1555,12 +1555,12 @@ bool
 IsUsedFlexBasisContent
 (
 const
-nsStyleCoord
-*
+StyleFlexBasis
+&
 aFlexBasis
 const
-nsStyleCoord
-*
+StyleSize
+&
 aMainSize
 )
 ;

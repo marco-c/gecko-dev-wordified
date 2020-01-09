@@ -680,7 +680,7 @@ StylePosition
 )
 ;
 const
-nsStyleCoord
+auto
 &
 width
 =
@@ -690,7 +690,7 @@ pos
 mWidth
 ;
 const
-nsStyleCoord
+auto
 &
 height
 =

@@ -11698,7 +11698,7 @@ impl_simple
 FlexBasis
 "
 :
-impl_style_coord
+impl_simple
 "
 Length
 "
@@ -11723,12 +11723,12 @@ impl_style_coord
 MaxSize
 "
 :
-impl_style_coord
+impl_simple
 "
 Size
 "
 :
-impl_style_coord
+impl_simple
 "
 MozScriptMinSize
 "

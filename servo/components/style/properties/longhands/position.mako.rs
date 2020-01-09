@@ -1769,6 +1769,9 @@ servo_restyle_damage
 "
 reflow
 "
+boxed
+=
+True
 )
 }
 %
