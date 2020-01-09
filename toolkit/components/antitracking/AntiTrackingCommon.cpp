@@ -7505,7 +7505,7 @@ rv
 permManager
 -
 >
-TestPermissionFromPrincipal
+TestPermissionWithoutDefaultsFromPrincipal
 (
 parentPrincipal
 type
@@ -9145,7 +9145,7 @@ rv
 permManager
 -
 >
-TestPermissionFromPrincipal
+TestPermissionWithoutDefaultsFromPrincipal
 (
 parentPrincipal
 type
@@ -9708,7 +9708,7 @@ rv
 permManager
 -
 >
-TestPermissionFromPrincipal
+TestPermissionWithoutDefaultsFromPrincipal
 (
 parentPrincipal
 type
@@ -11359,7 +11359,7 @@ rv
 permManager
 -
 >
-TestPermissionFromPrincipal
+TestPermissionWithoutDefaultsFromPrincipal
 (
 aPrincipal
 USER_INTERACTION_PERM
