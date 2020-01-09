@@ -1461,7 +1461,7 @@ heap
 GetInitialHeap
 (
 newKind
-clasp
+group
 )
 ;
 debugCheckNewObject
@@ -1479,10 +1479,7 @@ obj
 js
 :
 :
-Allocate
-<
-JSObject
->
+AllocateObject
 (
 cx
 allocKind
