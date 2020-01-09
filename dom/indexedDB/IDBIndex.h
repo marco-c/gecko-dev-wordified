@@ -185,7 +185,7 @@ nsWrapperCache
 h
 "
 class
-nsPIDOMWindowInner
+nsIGlobalObject
 ;
 namespace
 mozilla
@@ -440,7 +440,7 @@ return
 mObjectStore
 ;
 }
-nsPIDOMWindowInner
+nsIGlobalObject
 *
 GetParentObject
 (
