@@ -2635,12 +2635,13 @@ record
     
 js_cmd_args
 =
-options
-.
-shell_args
+shlex
 .
 split
 (
+options
+.
+shell_args
 )
 +
 shlex
