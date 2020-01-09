@@ -162,7 +162,7 @@ class
 nsIContentChild
 ;
 class
-nsIContentParent
+ContentParent
 ;
 }
 /
@@ -344,7 +344,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aManager
 )
@@ -512,7 +512,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 )
 override
@@ -724,7 +724,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aManager
 )
@@ -1009,7 +1009,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aManager
 )

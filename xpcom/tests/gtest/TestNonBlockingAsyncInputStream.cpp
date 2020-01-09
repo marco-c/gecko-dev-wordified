@@ -1725,7 +1725,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 )
 override

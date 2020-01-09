@@ -3001,7 +3001,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aManager
 )

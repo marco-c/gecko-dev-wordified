@@ -5425,7 +5425,7 @@ intptr_t
 (
 static_cast
 <
-nsIContentParent
+ContentParent
 *
 >
 (

@@ -347,7 +347,7 @@ namespace
 dom
 {
 class
-nsIContentParent
+ContentParent
 ;
 class
 nsIContentChild
@@ -596,7 +596,7 @@ protected
 bool
 BuildClonedMessageDataForParent
 (
-nsIContentParent
+ContentParent
 *
 aParent
 StructuredCloneData

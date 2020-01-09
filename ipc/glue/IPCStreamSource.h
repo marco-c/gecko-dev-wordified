@@ -153,7 +153,7 @@ class
 nsIContentChild
 ;
 class
-nsIContentParent
+ContentParent
 ;
 }
 /
@@ -634,7 +634,7 @@ aInputStream
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aManager
 )

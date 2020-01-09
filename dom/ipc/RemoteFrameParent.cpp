@@ -286,7 +286,7 @@ object
 .
 RefPtr
 <
-nsIContentParent
+ContentParent
 >
 constructorSender
 =

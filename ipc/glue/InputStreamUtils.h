@@ -387,7 +387,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aManager
 )
@@ -498,7 +498,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aManager
 )

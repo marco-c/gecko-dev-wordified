@@ -2091,7 +2091,7 @@ aStream
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aManager
 )

@@ -737,7 +737,7 @@ class
 nsIContentChild
 ;
 class
-nsIContentParent
+ContentParent
 ;
 class
 TabChild
@@ -18715,7 +18715,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aContentParent
 mozilla
@@ -18765,7 +18765,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aParent
 )
@@ -18803,7 +18803,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aParent
 )
