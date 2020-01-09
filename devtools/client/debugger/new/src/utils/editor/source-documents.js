@@ -115,6 +115,7 @@ import
 type
 {
 Source
+SourceDocuments
 }
 from
 "
@@ -144,17 +145,6 @@ workers
 /
 parser
 "
-;
-type
-SourceDocuments
-=
-{
-[
-string
-]
-:
-Object
-}
 ;
 let
 sourceDocs
