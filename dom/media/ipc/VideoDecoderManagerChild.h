@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-include_dom_ipc_VideoDecoderManagerChild_h
+include_ipc_VideoDecoderManagerChild_h
 #
 define
-include_dom_ipc_VideoDecoderManagerChild_h
+include_ipc_VideoDecoderManagerChild_h
 #
 include
 "
@@ -133,8 +133,6 @@ h
 include
 "
 mozilla
-/
-dom
 /
 PVideoDecoderManagerChild
 .
@@ -150,9 +148,6 @@ class
 SourceSurface
 ;
 }
-namespace
-dom
-{
 class
 VideoDecoderManagerChild
 final
@@ -642,14 +637,9 @@ mCanSend
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
 #
 endif
 /
 /
-include_dom_ipc_VideoDecoderManagerChild_h
+include_ipc_VideoDecoderManagerChild_h

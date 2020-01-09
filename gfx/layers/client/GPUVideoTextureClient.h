@@ -141,13 +141,9 @@ class
 SourceSurface
 ;
 }
-namespace
-dom
-{
 class
 VideoDecoderManagerChild
 ;
-}
 namespace
 layers
 {
@@ -161,9 +157,6 @@ public
 :
 GPUVideoTextureData
 (
-dom
-:
-:
 VideoDecoderManagerChild
 *
 aManager
@@ -278,9 +271,6 @@ protected
 :
 RefPtr
 <
-dom
-:
-:
 VideoDecoderManagerChild
 >
 mManager

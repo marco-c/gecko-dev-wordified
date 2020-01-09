@@ -267,6 +267,9 @@ mozilla
 class
 MemoryReportingProcess
 ;
+class
+PVideoDecoderManagerChild
+;
 namespace
 layers
 {
@@ -324,9 +327,6 @@ ContentParent
 ;
 class
 TabParent
-;
-class
-PVideoDecoderManagerChild
 ;
 }
 /
@@ -685,9 +685,6 @@ ipc
 :
 Endpoint
 <
-dom
-:
-:
 PVideoDecoderManagerChild
 >
 *
@@ -1334,9 +1331,6 @@ ipc
 :
 Endpoint
 <
-dom
-:
-:
 PVideoDecoderManagerChild
 >
 *

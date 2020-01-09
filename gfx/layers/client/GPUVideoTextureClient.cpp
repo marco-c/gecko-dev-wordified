@@ -126,8 +126,6 @@ include
 "
 mozilla
 /
-dom
-/
 VideoDecoderManagerChild
 .
 h
@@ -158,9 +156,6 @@ GPUVideoTextureData
 :
 GPUVideoTextureData
 (
-dom
-:
-:
 VideoDecoderManagerChild
 *
 aManager

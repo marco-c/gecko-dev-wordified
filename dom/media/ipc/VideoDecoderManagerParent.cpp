@@ -274,9 +274,6 @@ endif
 /
 /
 XP_WIN
-namespace
-dom
-{
 using
 namespace
 ipc
@@ -379,9 +376,6 @@ NS_DispatchToMainThread
 NS_NewRunnableFunction
 (
 "
-dom
-:
-:
 VideoDecoderManagerThreadHolder
 :
 :
@@ -635,9 +629,6 @@ Dispatch
 NS_NewRunnableFunction
 (
 "
-dom
-:
-:
 VideoDecoderManagerParent
 :
 :
@@ -766,9 +757,6 @@ task
 NS_NewRunnableFunction
 (
 "
-dom
-:
-:
 VideoDecoderManagerParent
 :
 :
@@ -892,9 +880,6 @@ PVideoDecoderManagerParent
 >
 (
 "
-dom
-:
-:
 VideoDecoderManagerParent
 :
 :
@@ -1522,11 +1507,6 @@ IPC_OK
 )
 ;
 }
-}
-/
-/
-namespace
-dom
 }
 /
 /

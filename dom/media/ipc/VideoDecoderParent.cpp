@@ -212,9 +212,6 @@ endif
 namespace
 mozilla
 {
-namespace
-dom
-{
 using
 base
 :
@@ -1868,11 +1865,6 @@ OnManagerThread
 )
 ;
 }
-}
-/
-/
-namespace
-dom
 }
 /
 /

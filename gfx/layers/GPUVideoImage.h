@@ -225,9 +225,6 @@ public
 :
 GPUVideoImage
 (
-dom
-:
-:
 VideoDecoderManagerChild
 *
 aManager

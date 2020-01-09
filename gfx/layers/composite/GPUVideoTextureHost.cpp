@@ -126,8 +126,6 @@ include
 "
 mozilla
 /
-dom
-/
 VideoDecoderManagerParent
 .
 h
