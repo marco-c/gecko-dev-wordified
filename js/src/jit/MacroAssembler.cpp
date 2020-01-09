@@ -8130,6 +8130,10 @@ allocateZeroedBuffer
 (
 obj
 nbytes
+js
+:
+:
+ArrayBufferContentsArena
 )
 ;
 if

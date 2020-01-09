@@ -1461,6 +1461,10 @@ uint8_t
 >
 (
 nbytes
+js
+:
+:
+ArrayBufferContentsArena
 )
 ;
 if
@@ -3565,6 +3569,10 @@ uint8_t
 >
 (
 nbytes
+js
+:
+:
+ArrayBufferContentsArena
 )
 )
 ;
