@@ -957,8 +957,6 @@ tabs
 [
 1
 ]
-.
-linkedBrowser
 )
 ;
             
