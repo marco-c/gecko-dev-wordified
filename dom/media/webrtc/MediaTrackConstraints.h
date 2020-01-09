@@ -325,8 +325,9 @@ virtual
 BaseRange
 (
 )
-{
-}
+=
+default
+;
 public
 :
 virtual
@@ -434,8 +435,8 @@ virtual
 Range
 (
 )
-{
-}
+=
+default
 ;
 template
 <
@@ -1228,8 +1229,9 @@ aOther
 StringRange
 (
 )
-{
-}
+=
+default
+;
 void
 SetFrom
 (
@@ -1906,7 +1908,9 @@ static
 uint32_t
 FitnessDistance
 (
+const
 nsString
+&
 aN
 const
 NormalizedConstraintSet
@@ -1914,7 +1918,7 @@ NormalizedConstraintSet
 :
 StringRange
 &
-aConstraint
+aParams
 )
 ;
 protected

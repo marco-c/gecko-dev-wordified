@@ -280,8 +280,9 @@ virtual
 MediaEngine
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

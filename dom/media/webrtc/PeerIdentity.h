@@ -287,8 +287,9 @@ aPeerIdentity
 PeerIdentity
 (
 )
-{
-}
+=
+default
+;
 bool
 Equals
 (

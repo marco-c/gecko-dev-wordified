@@ -5821,16 +5821,7 @@ candidateSet
 .
 AppendElement
 (
-CapabilityCandidate
-(
-std
-:
-:
-move
-(
 cap
-)
-)
 )
 ;
 }

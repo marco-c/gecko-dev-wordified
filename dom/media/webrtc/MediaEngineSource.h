@@ -330,8 +330,9 @@ virtual
 MediaEnginePhotoCallback
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /
