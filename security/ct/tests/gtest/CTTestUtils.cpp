@@ -136,7 +136,7 @@ iomanip
 #
 include
 "
-BTInclusionProof
+BTTypes
 .
 h
 "
