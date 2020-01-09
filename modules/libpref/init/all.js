@@ -11731,7 +11731,7 @@ picture
 -
 caching
 "
-false
+true
 )
 ;
 #
@@ -12813,6 +12813,18 @@ clickToScroll
 scrollDelay
 "
 150
+)
+;
+pref
+(
+"
+toolkit
+.
+tabbox
+.
+switchByScrolling
+"
+false
 )
 ;
 /
