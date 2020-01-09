@@ -467,7 +467,7 @@ value
 ;
 /
 /
-Searching
+Filtering
 again
 after
 deleting
@@ -485,7 +485,7 @@ PREF_NEW
 ;
 this
 .
-search
+showAll
 (
 )
 ;
@@ -673,10 +673,8 @@ preference
 .
 this
 .
-search
+showAll
 (
-"
-"
 )
 ;
 Assert
@@ -719,10 +717,8 @@ PREF_NEW
 ;
 this
 .
-search
+showAll
 (
-"
-"
 )
 ;
 }
@@ -816,7 +812,7 @@ deleted
 ;
 /
 /
-Searching
+Filtering
 again
 should
 remove
@@ -825,7 +821,7 @@ row
 .
 this
 .
-search
+showAll
 (
 )
 ;
