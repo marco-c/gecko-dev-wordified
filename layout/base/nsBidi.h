@@ -336,9 +336,9 @@ aLength
 /
 code
 >
-*
 long
 .
+*
 <
 /
 strong

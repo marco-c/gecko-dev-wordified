@@ -17383,8 +17383,6 @@ are
 /
 /
 not
-/
-/
 using
 Em
 [
@@ -17396,10 +17394,10 @@ as
 nsDimensions
 for
 text
+/
+/
 metrics
 in
-/
-/
 GFX
 mean
 that
@@ -17409,6 +17407,8 @@ in
 bug
 13072
 cannot
+/
+/
 hold
 .
 /

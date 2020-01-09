@@ -1743,7 +1743,7 @@ use
 /
 /
 this
-memeber
+member
 .
 nscolor
 mColor

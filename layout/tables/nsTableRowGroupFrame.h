@@ -1981,6 +1981,7 @@ search
 all
 rows
 .
+*
 The
 actual
 row
@@ -1993,10 +1994,10 @@ aY
 '
 but
 if
-*
 not
 it
 is
+*
 guaranteed
 to
 be

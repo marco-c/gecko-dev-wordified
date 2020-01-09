@@ -569,9 +569,9 @@ sum
 of
 the
 cells
+*
 height
 set
-*
 to
 height
 of
@@ -1794,13 +1794,13 @@ all
 cells
 that
 have
+/
+/
 '
 vertical
 -
 align
 :
-/
-/
 baseline
 '
 nscoord

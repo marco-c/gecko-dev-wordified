@@ -28378,6 +28378,7 @@ to
 wrap
 .
 *
+*
 param
 aScrolledFrame
 The
@@ -28419,6 +28420,7 @@ the
 scrollframe
 returned
 .
+*
 *
 param
 aContentStyle

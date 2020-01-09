@@ -505,8 +505,8 @@ the
 corresponding
 origin
 of
-the
 *
+the
 rowspan
 *
 param
@@ -572,8 +572,8 @@ the
 corresponding
 origin
 of
-the
 *
+the
 colspan
 *
 return
@@ -702,8 +702,8 @@ a
 row
 -
 and
-a
 *
+a
 colspan
 *
 /
