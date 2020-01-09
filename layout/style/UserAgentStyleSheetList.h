@@ -134,7 +134,7 @@ STYLE_SHEET
 (
 identifier_
 url_
-lazy_
+shared_
 )
 *
 *
@@ -168,7 +168,7 @@ sheet
 .
 *
 *
-lazy_
+shared_
 *
 A
 boolean
@@ -176,9 +176,14 @@ indicating
 whether
 the
 sheet
-is
-loaded
-lazily
+can
+be
+safely
+placed
+in
+shared
+*
+memory
 .
 *
 /
@@ -216,7 +221,7 @@ counterstyles
 .
 css
 "
-false
+true
 )
 STYLE_SHEET
 (
@@ -270,7 +275,7 @@ html
 .
 css
 "
-false
+true
 )
 STYLE_SHEET
 (
@@ -308,7 +313,7 @@ xul
 .
 css
 "
-false
+true
 )
 STYLE_SHEET
 (
@@ -380,7 +385,7 @@ quirk
 .
 css
 "
-false
+true
 )
 STYLE_SHEET
 (
@@ -416,7 +421,7 @@ svg
 .
 css
 "
-false
+true
 )
 STYLE_SHEET
 (
@@ -452,5 +457,5 @@ xul
 .
 css
 "
-true
+false
 )
