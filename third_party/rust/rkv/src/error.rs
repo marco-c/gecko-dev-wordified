@@ -2,6 +2,8 @@
 /
 Copyright
 2018
+-
+2019
 Mozilla
 /
 /
@@ -138,9 +140,18 @@ use
 bincode
 ;
 use
+failure
+:
+:
+Fail
+;
+use
 lmdb
 ;
 use
+crate
+:
+:
 value
 :
 :

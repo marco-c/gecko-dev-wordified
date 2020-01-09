@@ -76,9 +76,9 @@ rkv
 /
 0
 .
-9
+11
 .
-0
+2
 "
 )
 ]
@@ -88,7 +88,7 @@ libc
 ;
 extern
 crate
-lmdb_sys
+lmdb_rkv_sys
 as
 ffi
 ;
