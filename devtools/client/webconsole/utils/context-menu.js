@@ -253,12 +253,13 @@ webconsole
 *
 param
 {
-Object
+WebConsoleUI
 }
-hud
+webConsoleUI
 *
 The
-webConsoleFrame
+webConsoleUI
+instance
 .
 *
 param
@@ -427,7 +428,7 @@ logged
 function
 createContextMenu
 (
-hud
+webConsoleUI
 parentNode
 {
 actor
@@ -920,7 +921,7 @@ selectedObjectActor
 actor
 }
 ;
-hud
+webConsoleUI
 .
 jsterm
 .
@@ -938,7 +939,7 @@ res
 =
 >
 {
-hud
+webConsoleUI
 .
 jsterm
 .
@@ -946,7 +947,7 @@ focus
 (
 )
 ;
-hud
+webConsoleUI
 .
 jsterm
 .
@@ -1224,7 +1225,7 @@ _self
 |
 during
 evaluation
-hud
+webConsoleUI
 .
 jsterm
 .

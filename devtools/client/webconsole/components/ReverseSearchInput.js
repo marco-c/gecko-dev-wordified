@@ -305,7 +305,7 @@ PropTypes
 func
 .
 isRequired
-hud
+webConsoleUI
 :
 PropTypes
 .
@@ -378,7 +378,7 @@ this
 .
 props
 .
-hud
+webConsoleUI
 ;
 if
 (
@@ -513,7 +513,7 @@ event
 const
 {
 dispatch
-hud
+webConsoleUI
 reverseSearchTotalResults
 }
 =
@@ -556,7 +556,7 @@ reverseSearchInputToggle
 )
 )
 ;
-hud
+webConsoleUI
 .
 jsterm
 .

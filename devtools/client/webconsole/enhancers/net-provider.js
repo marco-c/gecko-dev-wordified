@@ -210,7 +210,7 @@ RDP
 function
 enableNetProvider
 (
-hud
+webConsoleUI
 )
 {
 let
@@ -238,9 +238,9 @@ action
 const
 proxy
 =
-hud
+webConsoleUI
 ?
-hud
+webConsoleUI
 .
 proxy
 :

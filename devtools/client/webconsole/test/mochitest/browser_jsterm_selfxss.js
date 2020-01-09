@@ -262,6 +262,7 @@ count
 const
 {
 jsterm
+ui
 }
 =
 await
@@ -275,9 +276,7 @@ const
 document
 }
 =
-jsterm
-.
-hud
+ui
 ;
 info
 (

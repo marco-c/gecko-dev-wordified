@@ -230,10 +230,6 @@ onNetworkMessageUpdate
 =
 ui
 .
-jsterm
-.
-hud
-.
 once
 (
 "

@@ -837,13 +837,6 @@ webconsole
 "
 )
 ;
-let
-{
-jsterm
-}
-=
-hud
-;
 /
 /
 Wait
@@ -867,9 +860,9 @@ resolve
 =
 >
 {
-jsterm
-.
 hud
+.
+ui
 .
 on
 (
@@ -899,9 +892,9 @@ m
 node
 )
 ;
-jsterm
-.
 hud
+.
+ui
 .
 off
 (

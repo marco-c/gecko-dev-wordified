@@ -82,14 +82,14 @@ types
 function
 JSTerm
 (
-webConsoleFrame
+webConsoleUI
 )
 {
 this
 .
-hud
+ui
 =
-webConsoleFrame
+webConsoleUI
 ;
 this
 .
@@ -97,7 +97,7 @@ hudId
 =
 this
 .
-hud
+ui
 .
 hudId
 ;
@@ -469,7 +469,7 @@ executeString
 ;
 this
 .
-hud
+ui
 .
 proxy
 .
@@ -488,7 +488,7 @@ inspectorSelection
 =
 this
 .
-hud
+ui
 .
 owner
 .
@@ -558,7 +558,7 @@ return
 }
 this
 .
-hud
+ui
 .
 wrapper
 .
@@ -944,7 +944,7 @@ state
 =
 this
 .
-hud
+ui
 .
 owner
 .

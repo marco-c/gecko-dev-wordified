@@ -357,7 +357,7 @@ return
 Console
 object
 .
-hud
+webConsoleUI
 :
 PropTypes
 .
@@ -423,12 +423,12 @@ props
 ;
 const
 {
-hud
+webConsoleUI
 }
 =
 props
 ;
-hud
+webConsoleUI
 .
 confirmDialog
 =
@@ -485,7 +485,7 @@ this
 .
 props
 .
-hud
+webConsoleUI
 .
 document
 ;
@@ -500,7 +500,7 @@ this
 .
 props
 .
-hud
+webConsoleUI
 .
 owner
 .
@@ -630,7 +630,7 @@ this
 .
 props
 .
-hud
+webConsoleUI
 .
 jsterm
 .
