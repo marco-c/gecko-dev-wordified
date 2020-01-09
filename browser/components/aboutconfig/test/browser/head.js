@@ -764,10 +764,16 @@ this
 .
 prefsTable
 .
-getElementsByTagName
+querySelectorAll
 (
 "
 tr
+:
+not
+(
+.
+hidden
+)
 "
 )
 ;
