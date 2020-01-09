@@ -103,13 +103,6 @@ h
 #
 include
 "
-nsCPrefetchService
-.
-h
-"
-#
-include
-"
 nsCURILoader
 .
 h

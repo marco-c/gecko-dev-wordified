@@ -350,15 +350,6 @@ nsCExternalHandlerService
 .
 h
 "
-/
-/
-contains
-contractids
-for
-the
-helper
-app
-service
 #
 include
 "
