@@ -1840,7 +1840,6 @@ aListener
 OnDataAvailable
 (
 aChannel
-nullptr
 in
 (
 uint32_t

@@ -3126,7 +3126,6 @@ response
 onDataAvailable
 (
 channel
-cb
 stream
 off
 count

@@ -3263,9 +3263,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-ctx
 nsIInputStream
 *
 input
@@ -3337,7 +3334,6 @@ listener
 OnDataAvailable
 (
 this
-nullptr
 input
 offset
 count

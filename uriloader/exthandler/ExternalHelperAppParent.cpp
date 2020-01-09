@@ -932,7 +932,6 @@ mListener
 OnDataAvailable
 (
 this
-nullptr
 stringStream
 offset
 count
@@ -1120,9 +1119,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-ctx
 nsIInputStream
 *
 input
@@ -1144,7 +1140,6 @@ mListener
 OnDataAvailable
 (
 request
-ctx
 input
 offset
 count

@@ -548,7 +548,6 @@ onDataAvailable
 function
 (
 aRequest
-aContext
 aStream
 aOffset
 aCount
@@ -838,7 +837,6 @@ onDataAvailable
 function
 (
 aRequest
-aContext
 aStream
 aOffset
 aCount
@@ -1131,7 +1129,6 @@ onDataAvailable
 function
 (
 aRequest
-aContext
 aStream
 aOffset
 aCount
@@ -1353,7 +1350,6 @@ onDataAvailable
 function
 (
 aRequest
-aContext
 aStream
 aOffset
 aCount

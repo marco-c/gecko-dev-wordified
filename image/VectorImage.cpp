@@ -2812,7 +2812,6 @@ return
 OnDataAvailable
 (
 aRequest
-aContext
 aInStr
 aSourceOffset
 aCount
@@ -10986,9 +10985,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aCtxt
 nsIInputStream
 *
 aInStr
@@ -11014,7 +11010,6 @@ mSVGDocumentWrapper
 OnDataAvailable
 (
 aRequest
-aCtxt
 aInStr
 aSourceOffset
 aCount

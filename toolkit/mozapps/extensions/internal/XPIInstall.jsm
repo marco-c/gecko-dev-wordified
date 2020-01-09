@@ -13338,7 +13338,6 @@ nsIStreamListener
 onDataAvailable
 (
 aRequest
-aContext
 aInputstream
 aOffset
 aCount

@@ -4007,9 +4007,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-ctx
 nsIInputStream
 *
 aInputStream

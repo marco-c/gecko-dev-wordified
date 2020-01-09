@@ -441,7 +441,6 @@ onDataAvailable
 function
 (
 request
-context
 stream
 offset
 count

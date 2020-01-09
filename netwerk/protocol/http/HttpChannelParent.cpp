@@ -7318,7 +7318,6 @@ mParentListener
 OnDataAvailable
 (
 mChannel
-nullptr
 stringStream
 offset
 count
@@ -10269,9 +10268,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aInputStream

@@ -510,9 +510,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 nsIInputStream
 *
 inStr
@@ -534,7 +531,6 @@ mNextStream
 OnDataAvailable
 (
 request
-ctxt
 inStr
 sourceOffset
 count

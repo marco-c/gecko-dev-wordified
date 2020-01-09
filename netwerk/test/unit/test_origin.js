@@ -689,7 +689,6 @@ function
 testOnDataAvailable
 (
 request
-ctx
 stream
 off
 cnt
@@ -824,7 +823,6 @@ function
 testOnDataAvailable
 (
 request
-ctx
 stream
 off
 cnt
@@ -2032,7 +2030,6 @@ function
 pushAPIOnDataAvailable
 (
 request
-ctx
 stream
 offset
 cnt

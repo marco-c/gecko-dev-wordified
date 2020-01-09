@@ -386,9 +386,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-ctx
 nsIInputStream
 *
 input

@@ -738,7 +738,6 @@ onDataAvailable
 function
 (
 request
-context
 stream
 offset
 count
@@ -977,7 +976,6 @@ onDataAvailable
 function
 (
 request
-context
 stream
 offset
 count

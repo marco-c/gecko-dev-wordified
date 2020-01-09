@@ -301,9 +301,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-context
 nsIInputStream
 *
 input
@@ -450,7 +447,6 @@ mListener
 OnDataAvailable
 (
 request
-context
 tee
 offset
 count

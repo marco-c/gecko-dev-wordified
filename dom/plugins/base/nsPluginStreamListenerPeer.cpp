@@ -1574,9 +1574,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aIStream

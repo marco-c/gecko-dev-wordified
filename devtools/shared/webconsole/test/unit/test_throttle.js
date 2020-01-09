@@ -165,7 +165,6 @@ onDataAvailable
 function
 (
 request
-context
 inputStream
 offset
 count
@@ -700,7 +699,6 @@ listener
 .
 onDataAvailable
 (
-null
 null
 testInputStream
 0

@@ -241,7 +241,6 @@ nsIRequestObserver
 onDataAvailable
 (
 request
-ctx
 stream
 offset
 count

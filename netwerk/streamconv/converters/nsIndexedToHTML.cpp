@@ -5622,7 +5622,6 @@ mListener
 OnDataAvailable
 (
 aRequest
-aContext
 inputData
 0
 aBuffer
@@ -5642,9 +5641,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aCtxt
 nsIInputStream
 *
 aInput
@@ -5661,7 +5657,6 @@ mParser
 OnDataAvailable
 (
 aRequest
-aCtxt
 aInput
 aOffset
 aCount
