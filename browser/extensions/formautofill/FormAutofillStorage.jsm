@@ -10572,16 +10572,9 @@ address
 &
 FormAutofillUtils
 .
-toOneLineAddress
+compareStreetAddress
 (
 existingField
-)
-=
-=
-FormAutofillUtils
-.
-toOneLineAddress
-(
 incomingField
 )
 )
