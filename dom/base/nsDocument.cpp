@@ -43452,7 +43452,7 @@ MinScaleSize
 }
 EventListenerManager
 *
-nsDocument
+nsIDocument
 :
 :
 GetOrCreateListenerManager
@@ -43492,7 +43492,7 @@ mListenerManager
 }
 EventListenerManager
 *
-nsDocument
+nsIDocument
 :
 :
 GetExistingListenerManager
@@ -43505,7 +43505,7 @@ mListenerManager
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 GetEventTargetParent
