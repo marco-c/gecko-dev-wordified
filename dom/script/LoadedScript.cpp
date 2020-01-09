@@ -292,10 +292,6 @@ LoadedScript
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mLoader
-)
-NS_IMPL_CYCLE_COLLECTION_UNLINK
-(
 mFetchOptions
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
@@ -306,10 +302,6 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 (
 LoadedScript
-)
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE
-(
-mLoader
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -336,9 +328,6 @@ LoadedScript
 (
 ScriptKind
 aKind
-ScriptLoader
-*
-aLoader
 ScriptFetchOptions
 *
 aFetchOptions
@@ -351,10 +340,6 @@ mKind
 (
 aKind
 )
-mLoader
-(
-aLoader
-)
 mFetchOptions
 (
 aFetchOptions
@@ -364,11 +349,6 @@ mBaseURL
 aBaseURL
 )
 {
-MOZ_ASSERT
-(
-mLoader
-)
-;
 MOZ_ASSERT
 (
 mFetchOptions
@@ -731,9 +711,6 @@ ClassicScript
 :
 ClassicScript
 (
-ScriptLoader
-*
-aLoader
 ScriptFetchOptions
 *
 aFetchOptions
@@ -748,7 +725,6 @@ ScriptKind
 :
 :
 eClassic
-aLoader
 aFetchOptions
 aBaseURL
 )
@@ -963,9 +939,6 @@ ModuleScript
 :
 ModuleScript
 (
-ScriptLoader
-*
-aLoader
 ScriptFetchOptions
 *
 aFetchOptions
@@ -980,7 +953,6 @@ ScriptKind
 :
 :
 eModule
-aLoader
 aFetchOptions
 aBaseURL
 )
