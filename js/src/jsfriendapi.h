@@ -9227,9 +9227,6 @@ Float64
 return
 8
 ;
-return
-16
-;
 default
 :
 MOZ_CRASH
