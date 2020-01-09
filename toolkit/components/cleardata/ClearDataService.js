@@ -2938,6 +2938,10 @@ deleteAll
 /
 /
 localStorage
+Reporting
+headers
+etc
+.
 Services
 .
 obs
