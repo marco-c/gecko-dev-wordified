@@ -1988,18 +1988,6 @@ substs
 {
 }
         
-command_attrs
-=
-getattr
-(
-context
-'
-command_attrs
-'
-{
-}
-)
-        
 #
 We
 gather
@@ -2153,9 +2141,6 @@ substs
 =
 substs
                                 
-command_attrs
-=
-command_attrs
 paths
 =
 paths
