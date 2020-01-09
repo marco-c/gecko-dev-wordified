@@ -1295,19 +1295,6 @@ void_t
 )
 ;
 }
-bool
-storageAccessAllowed
-=
-storageAllowed
->
-nsContentUtils
-:
-:
-StorageAccess
-:
-:
-ePrivateBrowsing
-;
 RemoteWorkerData
 remoteWorkerData
 (
@@ -1329,7 +1316,6 @@ loadInfo
 mDomain
 isSecureContext
 ipcClientInfo
-storageAccessAllowed
 true
 /
 *
