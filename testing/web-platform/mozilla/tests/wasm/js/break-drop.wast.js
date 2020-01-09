@@ -1,3 +1,9 @@
+(
+function
+break_drop_wast_js
+(
+)
+{
 /
 /
 break
@@ -306,5 +312,14 @@ br_table
 [
 ]
 )
+)
+;
+reinitializeRegistry
+(
+)
+;
+}
+)
+(
 )
 ;
