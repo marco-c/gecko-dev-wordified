@@ -817,6 +817,15 @@ aConstraints
 override
 ;
 virtual
+void
+LockAspectRatio
+(
+bool
+aShouldLock
+)
+override
+;
+virtual
 const
 SizeConstraints
 GetSizeConstraints
@@ -3544,6 +3553,9 @@ mCaptionHeight
 ;
 double
 mDefaultScale
+;
+float
+mAspectRatio
 ;
 nsCOMPtr
 <
