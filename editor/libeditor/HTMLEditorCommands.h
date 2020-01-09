@@ -1159,10 +1159,6 @@ SetDocumentStateCommand
 )
 NS_DECL_COMPOSER_COMMAND
 (
-SetDocumentOptionsCommand
-)
-NS_DECL_COMPOSER_COMMAND
-(
 DecreaseZIndexCommand
 )
 NS_DECL_COMPOSER_COMMAND
