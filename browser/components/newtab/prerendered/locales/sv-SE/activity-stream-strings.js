@@ -489,9 +489,8 @@ prefs_content_discovery_button
 St
 ng
 av
-inneh
-llsuppt
-ckt
+Content
+Discovery
 "
 "
 prefs_section_rows_option
