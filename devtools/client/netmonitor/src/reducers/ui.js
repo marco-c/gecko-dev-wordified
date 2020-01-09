@@ -110,6 +110,9 @@ true
 method
 :
 true
+domain
+:
+true
 file
 :
 true
@@ -119,9 +122,6 @@ false
 scheme
 :
 false
-domain
-:
-true
 remoteip
 :
 false

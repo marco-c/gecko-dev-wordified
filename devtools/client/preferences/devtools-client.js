@@ -1815,12 +1815,12 @@ method
 "
 \
 "
-file
-\
-"
-\
-"
 domain
+\
+"
+\
+"
+file
 \
 "
 \

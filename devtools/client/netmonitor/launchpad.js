@@ -256,6 +256,9 @@ method
 "
 \
 "
+domain
+\
+"
 file
 \
 "
