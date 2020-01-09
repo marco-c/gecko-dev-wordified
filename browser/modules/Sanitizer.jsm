@@ -5880,16 +5880,6 @@ Ci
 nsICookiePermission
 .
 ACCESS_ALLOW_FIRST_PARTY_ONLY
-|
-|
-p
-=
-=
-Ci
-.
-nsICookiePermission
-.
-ACCESS_LIMIT_THIRD_PARTY
 )
 {
 return
