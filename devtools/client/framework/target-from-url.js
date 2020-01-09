@@ -1060,8 +1060,6 @@ getClientByRemoteId
 (
 remoteId
 )
-.
-client
 ;
 }
 const
