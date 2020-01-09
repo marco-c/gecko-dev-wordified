@@ -240,7 +240,7 @@ import
 createStore
 selectors
 actions
-makeSource
+makeOriginalSource
 waitForState
 }
 from
@@ -325,7 +325,7 @@ actions
 .
 newSource
 (
-makeSource
+makeOriginalSource
 (
 "
 foo
@@ -343,7 +343,7 @@ actions
 .
 loadSourceText
 (
-makeSource
+makeOriginalSource
 (
 "
 foo
@@ -542,7 +542,7 @@ actions
 .
 newSource
 (
-makeSource
+makeOriginalSource
 (
 "
 foo
@@ -558,7 +558,7 @@ actions
 .
 newSource
 (
-makeSource
+makeOriginalSource
 (
 "
 foo2
@@ -574,7 +574,7 @@ actions
 .
 loadSourceText
 (
-makeSource
+makeOriginalSource
 (
 "
 foo
@@ -590,7 +590,7 @@ actions
 .
 loadSourceText
 (
-makeSource
+makeOriginalSource
 (
 "
 foo2
@@ -702,7 +702,7 @@ actions
 .
 newSource
 (
-makeSource
+makeOriginalSource
 (
 "
 foo
@@ -718,7 +718,7 @@ actions
 .
 loadSourceText
 (
-makeSource
+makeOriginalSource
 (
 "
 foo
@@ -810,7 +810,7 @@ actions
 .
 newSource
 (
-makeSource
+makeOriginalSource
 (
 "
 foo
@@ -826,7 +826,7 @@ actions
 .
 newSource
 (
-makeSource
+makeOriginalSource
 (
 "
 foo2
@@ -842,7 +842,7 @@ actions
 .
 loadSourceText
 (
-makeSource
+makeOriginalSource
 (
 "
 foo
@@ -858,7 +858,7 @@ actions
 .
 loadSourceText
 (
-makeSource
+makeOriginalSource
 (
 "
 foo2
@@ -901,8 +901,6 @@ actions
 removeBreakpoint
 (
 breakpoint1
-.
-location
 )
 )
 ;
@@ -1025,7 +1023,7 @@ actions
 .
 newSource
 (
-makeSource
+makeOriginalSource
 (
 "
 foo
@@ -1041,7 +1039,7 @@ actions
 .
 loadSourceText
 (
-makeSource
+makeOriginalSource
 (
 "
 foo
@@ -1176,7 +1174,7 @@ actions
 .
 newSource
 (
-makeSource
+makeOriginalSource
 (
 "
 foo
@@ -1192,7 +1190,7 @@ actions
 .
 loadSourceText
 (
-makeSource
+makeOriginalSource
 (
 "
 foo
@@ -1222,8 +1220,6 @@ actions
 disableBreakpoint
 (
 bp
-.
-location
 )
 )
 ;
@@ -1309,7 +1305,7 @@ js
 const
 source
 =
-makeSource
+makeOriginalSource
 (
 "
 foo
@@ -1336,7 +1332,7 @@ actions
 .
 loadSourceText
 (
-makeSource
+makeOriginalSource
 (
 "
 foo
@@ -1547,7 +1543,7 @@ actions
 .
 newSource
 (
-makeSource
+makeOriginalSource
 (
 "
 bar
@@ -1565,7 +1561,7 @@ actions
 .
 loadSourceText
 (
-makeSource
+makeOriginalSource
 (
 "
 bar
@@ -1666,7 +1662,7 @@ actions
 .
 newSource
 (
-makeSource
+makeOriginalSource
 (
 "
 foo
@@ -1684,7 +1680,7 @@ actions
 .
 loadSourceText
 (
-makeSource
+makeOriginalSource
 (
 "
 foo
@@ -1794,7 +1790,7 @@ store
 const
 source
 =
-makeSource
+makeOriginalSource
 (
 "
 bar
@@ -1821,14 +1817,7 @@ actions
 .
 loadSourceText
 (
-makeSource
-(
-"
-bar
-.
-js
-"
-)
+source
 )
 )
 ;
@@ -1848,11 +1837,9 @@ selectors
 getBreakpointsForSource
 (
 state
-"
-bar
+source
 .
-js
-"
+id
 )
 ;
 return
@@ -1892,28 +1879,14 @@ column
 undefined
 sourceUrl
 :
-"
-http
-:
-/
-/
-localhost
-:
-8000
-/
-examples
-/
-bar
+source
 .
-js
-"
+url
 sourceId
 :
-"
-bar
+source
 .
-js
-"
+id
 }
 )
 ;
@@ -1928,11 +1901,9 @@ sourceId
 .
 toEqual
 (
-"
-bar
+source
 .
-js
-"
+id
 )
 ;
 expect
@@ -2021,7 +1992,7 @@ toEqual
 const
 source
 =
-makeSource
+makeOriginalSource
 (
 "
 bar
@@ -2048,7 +2019,7 @@ actions
 .
 loadSourceText
 (
-makeSource
+makeOriginalSource
 (
 "
 bar
@@ -2117,7 +2088,7 @@ async
 const
 source
 =
-makeSource
+makeOriginalSource
 (
 "
 bar
@@ -2336,7 +2307,7 @@ toEqual
 const
 source1
 =
-makeSource
+makeOriginalSource
 (
 "
 bar
@@ -2348,7 +2319,7 @@ js
 const
 source2
 =
-makeSource
+makeOriginalSource
 (
 "
 foo
@@ -2378,7 +2349,7 @@ actions
 .
 loadSourceText
 (
-makeSource
+makeOriginalSource
 (
 "
 foo
@@ -2396,7 +2367,7 @@ actions
 .
 loadSourceText
 (
-makeSource
+makeOriginalSource
 (
 "
 bar
@@ -2534,7 +2505,7 @@ actions
 .
 newSource
 (
-makeSource
+makeOriginalSource
 (
 "
 foo
@@ -2552,7 +2523,7 @@ actions
 .
 loadSourceText
 (
-makeSource
+makeOriginalSource
 (
 "
 foo

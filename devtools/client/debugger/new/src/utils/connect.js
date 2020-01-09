@@ -115,8 +115,7 @@ mapDispatchToProps
 ?
 :
 (
-(
-)
+Function
 =
 >
 MDP

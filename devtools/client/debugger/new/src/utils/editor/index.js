@@ -1138,9 +1138,9 @@ codeMirror
 }
 :
 Object
-selectedLocation
+source
 :
-SourceLocation
+Source
 e
 :
 MouseEvent
@@ -1174,9 +1174,9 @@ return
 {
 sourceId
 :
-selectedLocation
+source
 .
-sourceId
+id
 line
 :
 line

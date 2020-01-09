@@ -63,7 +63,7 @@ MPL
 flow
 import
 {
-getHiddenBreakpointLocation
+getHiddenBreakpoint
 isEvaluatingExpression
 getSelectedFrame
 getSources
@@ -467,9 +467,9 @@ loadedObjects
 )
 ;
 const
-hiddenBreakpointLocation
+hiddenBreakpoint
 =
-getHiddenBreakpointLocation
+getHiddenBreakpoint
 (
 getState
 (
@@ -478,14 +478,14 @@ getState
 ;
 if
 (
-hiddenBreakpointLocation
+hiddenBreakpoint
 )
 {
 dispatch
 (
 removeBreakpoint
 (
-hiddenBreakpointLocation
+hiddenBreakpoint
 )
 )
 ;
