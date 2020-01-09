@@ -2085,6 +2085,9 @@ mType
 MediaData
 :
 :
+Type
+:
+:
 AUDIO_DATA
 ?
 TrackType
@@ -2187,6 +2190,9 @@ mType
 =
 =
 MediaData
+:
+:
+Type
 :
 :
 AUDIO_DATA
@@ -6251,6 +6257,9 @@ this
 MediaData
 :
 :
+Type
+:
+:
 AUDIO_DATA
 StaticPrefs
 :
@@ -6263,6 +6272,9 @@ mVideo
 (
 this
 MediaData
+:
+:
+Type
 :
 :
 VIDEO_DATA
@@ -10760,6 +10772,9 @@ case
 MediaData
 :
 :
+Type
+:
+:
 AUDIO_DATA
 :
 DDLOGPR
@@ -10980,6 +10995,9 @@ case
 MediaData
 :
 :
+Type
+:
+:
 VIDEO_DATA
 :
 DDLOGPR
@@ -11174,6 +11192,9 @@ case
 MediaData
 :
 :
+Type
+:
+:
 RAW_DATA
 :
 DDLOGPR
@@ -11333,6 +11354,9 @@ break
 ;
 case
 MediaData
+:
+:
+Type
 :
 :
 NULL_DATA
@@ -15307,6 +15331,9 @@ mType
 MediaData
 :
 :
+Type
+:
+:
 NULL_DATA
 )
 {
@@ -17018,6 +17045,9 @@ mType
 MediaData
 :
 :
+Type
+:
+:
 NULL_DATA
 )
 ;
@@ -17497,6 +17527,9 @@ aType
 MediaData
 :
 :
+Type
+:
+:
 VIDEO_DATA
 ?
 TrackType
@@ -17655,6 +17688,9 @@ WaitForDataRejectValue
 MediaData
 :
 :
+Type
+:
+:
 AUDIO_DATA
 WaitForDataRejectValue
 :
@@ -17687,6 +17723,9 @@ RejectIfExists
 WaitForDataRejectValue
 (
 MediaData
+:
+:
+Type
 :
 :
 VIDEO_DATA
@@ -19408,9 +19447,15 @@ kAudioTrack
 MediaData
 :
 :
+Type
+:
+:
 AUDIO_DATA
 :
 MediaData
+:
+:
+Type
 :
 :
 VIDEO_DATA

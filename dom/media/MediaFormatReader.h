@@ -306,6 +306,9 @@ mType
 MediaData
 :
 :
+Type
+:
+:
 NULL_DATA
 )
 mError
@@ -324,6 +327,9 @@ aResult
 mType
 (
 MediaData
+:
+:
+Type
 :
 :
 NULL_DATA

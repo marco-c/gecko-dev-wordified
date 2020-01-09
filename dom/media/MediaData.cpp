@@ -1045,6 +1045,9 @@ aFrameID
 :
 MediaData
 (
+Type
+:
+:
 VIDEO_DATA
 aOffset
 aTime
@@ -2622,6 +2625,9 @@ MediaRawData
 :
 MediaData
 (
+Type
+:
+:
 RAW_DATA
 0
 )
@@ -2646,6 +2652,9 @@ aSize
 :
 MediaData
 (
+Type
+:
+:
 RAW_DATA
 0
 )
@@ -2681,6 +2690,9 @@ aAlphaSize
 :
 MediaData
 (
+Type
+:
+:
 RAW_DATA
 0
 )
