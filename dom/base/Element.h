@@ -7364,6 +7364,12 @@ ErrorResult
 aError
 )
 ;
+bool
+CanAttachShadowDOM
+(
+)
+const
+;
 already_AddRefed
 <
 ShadowRoot
