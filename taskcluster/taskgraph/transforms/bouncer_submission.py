@@ -846,7 +846,12 @@ win
 pretty_product
 }
 %
-20Installer
+20Setup
+%
+20
+{
+version
+}
 .
 msi
 '
@@ -860,7 +865,12 @@ win64
 pretty_product
 }
 %
-20Installer
+20Setup
+%
+20
+{
+version
+}
 .
 msi
 '
