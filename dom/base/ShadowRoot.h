@@ -532,8 +532,14 @@ intended
 for
 UA
 widgets
+/
+special
+shadow
+roots
 .
-Forget
+/
+/
+Forgets
 our
 shadow
 host
@@ -541,8 +547,6 @@ and
 unbinds
 all
 our
-/
-/
 kids
 .
 void
