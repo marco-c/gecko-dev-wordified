@@ -2787,6 +2787,16 @@ nsILoadInfo
 aLoadInfo
 )
 {
+if
+(
+!
+aLoadInfo
+)
+{
+return
+false
+;
+}
 nsCOMPtr
 <
 nsICookieSettings
