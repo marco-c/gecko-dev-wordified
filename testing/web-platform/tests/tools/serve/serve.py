@@ -5854,10 +5854,28 @@ _certs
 "
                 
 "
+password
+"
+:
+"
+web
+-
+platform
+-
+tests
+"
+                
+"
 force_regenerate
 "
 :
 False
+                
+"
+duration
+"
+:
+30
                 
 "
 base_conf_path
