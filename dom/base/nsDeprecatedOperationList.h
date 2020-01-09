@@ -284,10 +284,6 @@ IDBOpenDBOptions_StorageType
 )
 DEPRECATED_OPERATION
 (
-DOMAttrModifiedEvent
-)
-DEPRECATED_OPERATION
-(
 MozBoxOrInlineBoxDisplay
 )
 DEPRECATED_OPERATION
