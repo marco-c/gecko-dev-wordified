@@ -512,7 +512,13 @@ testing
 nameMatch
 :
 /
-mozglue
+untrusted
+-
+startup
+-
+test
+-
+dll
 .
 dll
 /
