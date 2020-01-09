@@ -1027,6 +1027,17 @@ MS
 Office
 "
 .
+mobileconfig
+"
+/
+/
+Configuration
+file
+for
+Apple
+systems
+"
+.
 mof
 "
 /
