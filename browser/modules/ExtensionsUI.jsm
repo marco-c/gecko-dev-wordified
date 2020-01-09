@@ -1903,7 +1903,7 @@ let
 browser
 name
 icon
-resolve
+respond
 currentEngine
 newEngine
 }
@@ -2030,8 +2030,6 @@ newEngine
 3
 )
 ;
-resolve
-(
 this
 .
 showDefaultSearchPrompt
@@ -2040,6 +2038,10 @@ browser
 strings
 icon
 )
+.
+then
+(
+respond
 )
 ;
 }
