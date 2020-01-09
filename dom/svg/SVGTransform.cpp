@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-nsSVGTransform
+SVGTransform
 .
 h
 "
@@ -177,7 +177,7 @@ dom
 SVGTransform_Binding
 ;
 void
-nsSVGTransform
+SVGTransform
 :
 :
 GetValueAsString
@@ -507,7 +507,7 @@ break
 }
 }
 void
-nsSVGTransform
+SVGTransform
 :
 :
 SetMatrix
@@ -571,7 +571,7 @@ f
 ;
 }
 void
-nsSVGTransform
+SVGTransform
 :
 :
 SetTranslate
@@ -617,7 +617,7 @@ f
 ;
 }
 void
-nsSVGTransform
+SVGTransform
 :
 :
 SetScale
@@ -663,7 +663,7 @@ f
 ;
 }
 void
-nsSVGTransform
+SVGTransform
 :
 :
 SetRotate
@@ -720,7 +720,7 @@ aCy
 ;
 }
 nsresult
-nsSVGTransform
+SVGTransform
 :
 :
 SetSkewX
@@ -782,7 +782,7 @@ NS_OK
 ;
 }
 nsresult
-nsSVGTransform
+SVGTransform
 :
 :
 SetSkewY
@@ -849,7 +849,7 @@ SVGTransformSMILData
 SVGTransformSMILData
 (
 const
-nsSVGTransform
+SVGTransform
 &
 aTransform
 )
@@ -1181,7 +1181,7 @@ break
 ;
 }
 }
-nsSVGTransform
+SVGTransform
 SVGTransformSMILData
 :
 :
@@ -1190,7 +1190,7 @@ ToSVGTransform
 )
 const
 {
-nsSVGTransform
+SVGTransform
 result
 ;
 switch

@@ -165,7 +165,7 @@ h
 #
 include
 "
-nsSVGTransform
+SVGTransform
 .
 h
 "
@@ -362,7 +362,7 @@ explicit
 DOMSVGTransform
 (
 const
-nsSVGTransform
+SVGTransform
 &
 aMatrix
 )
@@ -705,7 +705,7 @@ RemovingFromList
 (
 )
 ;
-nsSVGTransform
+SVGTransform
 ToSVGTransform
 (
 )
@@ -930,7 +930,7 @@ reference
 to
 the
 internal
-nsSVGTransform
+SVGTransform
 list
 item
 that
@@ -944,14 +944,14 @@ wraps
 .
 *
 /
-nsSVGTransform
+SVGTransform
 &
 InternalItem
 (
 )
 ;
 const
-nsSVGTransform
+SVGTransform
 &
 InternalItem
 (
@@ -969,7 +969,7 @@ IndexIsValid
 #
 endif
 const
-nsSVGTransform
+SVGTransform
 &
 Transform
 (
@@ -989,7 +989,7 @@ InternalItem
 mTransform
 ;
 }
-nsSVGTransform
+SVGTransform
 &
 Transform
 (
@@ -1065,7 +1065,7 @@ a
 wrapper
 for
 an
-nsSVGTransform
+SVGTransform
 object
 which
 is
@@ -1111,7 +1111,7 @@ and
 thus
 no
 internal
-nsSVGTransform
+SVGTransform
 object
 .
 In
@@ -1122,7 +1122,7 @@ case
 we
 allocate
 an
-nsSVGTransform
+SVGTransform
 object
 on
 the
@@ -1136,7 +1136,7 @@ data
 .
 nsAutoPtr
 <
-nsSVGTransform
+SVGTransform
 >
 mTransform
 ;

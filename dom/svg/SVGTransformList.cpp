@@ -309,7 +309,7 @@ CopyFrom
 const
 nsTArray
 <
-nsSVGTransform
+SVGTransform
 >
 &
 aTransformArray

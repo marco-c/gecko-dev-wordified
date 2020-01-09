@@ -277,7 +277,7 @@ namespace
 mozilla
 {
 class
-nsSVGTransform
+SVGTransform
 ;
 class
 SVGTransformListParser
@@ -310,7 +310,7 @@ Parse
 const
 nsTArray
 <
-nsSVGTransform
+SVGTransform
 >
 &
 GetTransformList
@@ -382,7 +382,7 @@ ParseMatrix
 ;
 FallibleTArray
 <
-nsSVGTransform
+SVGTransform
 >
 mTransforms
 ;

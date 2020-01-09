@@ -175,7 +175,7 @@ DOMSVGTransform
 *
 /
 class
-nsSVGTransform
+SVGTransform
 {
 public
 :
@@ -190,7 +190,7 @@ type
 with
 identity
 matrix
-nsSVGTransform
+SVGTransform
 (
 )
 :
@@ -233,7 +233,7 @@ SVG_TRANSFORM_MATRIX
 {
 }
 explicit
-nsSVGTransform
+SVGTransform
 (
 const
 gfxMatrix
@@ -281,7 +281,7 @@ operator
 =
 (
 const
-nsSVGTransform
+SVGTransform
 &
 rhs
 )
@@ -544,7 +544,7 @@ light
 weight
 version
 of
-nsSVGTransform
+SVGTransform
 for
 SMIL
 animation
@@ -1059,17 +1059,17 @@ a
 fully
 -
 fledged
-nsSVGTransform
+SVGTransform
 explicit
 SVGTransformSMILData
 (
 const
-nsSVGTransform
+SVGTransform
 &
 aTransform
 )
 ;
-nsSVGTransform
+SVGTransform
 ToSVGTransform
 (
 )

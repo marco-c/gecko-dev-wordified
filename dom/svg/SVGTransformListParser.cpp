@@ -140,7 +140,7 @@ h
 #
 include
 "
-nsSVGTransform
+SVGTransform
 .
 h
 "
@@ -772,7 +772,7 @@ case
 2
 :
 {
-nsSVGTransform
+SVGTransform
 *
 transform
 =
@@ -877,7 +877,7 @@ case
 2
 :
 {
-nsSVGTransform
+SVGTransform
 *
 transform
 =
@@ -986,7 +986,7 @@ case
 3
 :
 {
-nsSVGTransform
+SVGTransform
 *
 transform
 =
@@ -1072,7 +1072,7 @@ return
 false
 ;
 }
-nsSVGTransform
+SVGTransform
 *
 transform
 =
@@ -1142,7 +1142,7 @@ return
 false
 ;
 }
-nsSVGTransform
+SVGTransform
 *
 transform
 =
@@ -1217,7 +1217,7 @@ return
 false
 ;
 }
-nsSVGTransform
+SVGTransform
 *
 transform
 =
