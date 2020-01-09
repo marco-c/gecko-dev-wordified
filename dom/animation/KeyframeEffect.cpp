@@ -269,6 +269,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoBindings
 .
 h
@@ -369,13 +378,6 @@ nsAutoAnimationMutationBatch
 include
 "
 nsIFrame
-.
-h
-"
-#
-include
-"
-nsIPresShell
 .
 h
 "
@@ -7755,7 +7757,7 @@ return
 false
 ;
 }
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -9078,7 +9080,7 @@ GetComposedDoc
 )
 ;
 }
-nsIPresShell
+PresShell
 *
 KeyframeEffect
 :
@@ -9110,7 +9112,7 @@ return
 doc
 -
 >
-GetShell
+GetPresShell
 (
 )
 ;
