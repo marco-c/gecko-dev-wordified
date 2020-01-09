@@ -16,6 +16,8 @@ import
 BytesIO
 binary_type
 text_type
+iteritems
+PY3
 import
 tempfile
 from
@@ -1849,6 +1851,25 @@ b
 "
 )
             
+if
+PY3
+:
+                
+cookie_headers
+=
+cookie_headers
+.
+decode
+(
+"
+iso
+-
+8859
+-
+1
+"
+)
+            
 parser
 .
 load
@@ -1866,10 +1887,9 @@ for
 key
 value
 in
-parser
-.
 iteritems
 (
+parser
 )
 :
                 
