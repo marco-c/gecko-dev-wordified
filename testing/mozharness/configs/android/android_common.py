@@ -445,13 +445,6 @@ minidump_stackwalk_path
 "
 :
 "
-/
-usr
-/
-local
-/
-bin
-/
 linux64
 -
 minidump_stackwalk
