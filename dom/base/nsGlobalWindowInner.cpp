@@ -26576,7 +26576,7 @@ aError
 LSObject
 :
 :
-Create
+CreateForWindow
 (
 this
 getter_AddRefs
