@@ -11975,7 +11975,10 @@ baseOffset
 +
 baseVertex
 *
+size_t
+(
 vertexStride
+)
 ;
 for
 (
@@ -12084,7 +12087,10 @@ baseOffset
 +
 baseInstance
 *
+size_t
+(
 instanceStride
+)
 ;
 int
 attribIdx
