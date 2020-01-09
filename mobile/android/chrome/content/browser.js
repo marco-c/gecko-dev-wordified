@@ -34733,7 +34733,7 @@ Ci
 nsISpeculativeConnect
 )
 .
-speculativeConnect2
+speculativeConnect
 (
 uri
 target
@@ -47097,7 +47097,7 @@ Ci
 nsISpeculativeConnect
 )
 .
-speculativeConnect2
+speculativeConnect
 (
 uri
 BrowserApp

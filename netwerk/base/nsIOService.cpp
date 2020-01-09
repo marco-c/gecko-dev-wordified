@@ -10196,7 +10196,7 @@ LOAD_ANONYMOUS
 speculativeHandler
 -
 >
-SpeculativeAnonymousConnect2
+SpeculativeAnonymousConnect
 (
 uri
 principal
@@ -10209,7 +10209,7 @@ else
 speculativeHandler
 -
 >
-SpeculativeConnect2
+SpeculativeConnect
 (
 uri
 principal
@@ -10663,7 +10663,7 @@ NS_IMETHODIMP
 nsIOService
 :
 :
-SpeculativeConnect2
+SpeculativeConnect
 (
 nsIURI
 *
@@ -10690,7 +10690,7 @@ NS_IMETHODIMP
 nsIOService
 :
 :
-SpeculativeAnonymousConnect2
+SpeculativeAnonymousConnect
 (
 nsIURI
 *

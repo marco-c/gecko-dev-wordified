@@ -251,7 +251,7 @@ Services
 .
 io
 .
-speculativeConnect2
+speculativeConnect
 (
 uri
 Services

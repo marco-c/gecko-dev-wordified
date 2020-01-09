@@ -1132,7 +1132,7 @@ Ci
 nsISpeculativeConnect
 )
 .
-speculativeConnect2
+speculativeConnect
 (
 URI
 principal

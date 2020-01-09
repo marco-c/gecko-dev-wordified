@@ -926,7 +926,7 @@ attrs
 specConn
 -
 >
-SpeculativeConnect2
+SpeculativeConnect
 (
 uri
 principal

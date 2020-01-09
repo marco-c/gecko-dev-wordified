@@ -4792,7 +4792,7 @@ originAttributes
 mSpeculativeService
 -
 >
-SpeculativeConnect2
+SpeculativeConnect
 (
 targetURI
 principal
@@ -8108,7 +8108,7 @@ originAttributes
 mSpeculativeService
 -
 >
-SpeculativeConnect2
+SpeculativeConnect
 (
 uri
 principal
