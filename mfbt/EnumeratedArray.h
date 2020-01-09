@@ -347,6 +347,7 @@ typename
 Args
 >
 MOZ_IMPLICIT
+constexpr
 EnumeratedArray
 (
 Args
