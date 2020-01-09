@@ -1197,6 +1197,9 @@ const
 nsViewportInfo
 &
 aViewportInfo
+Document
+*
+aDocument
 )
 {
 mozilla
@@ -1219,11 +1222,12 @@ IsZoomAllowed
 )
 &
 &
-gfxPrefs
+nsLayoutUtils
 :
 :
-APZAllowZooming
+AllowZoomingForDocument
 (
+aDocument
 )
 ;
 constraints
@@ -1441,6 +1445,7 @@ zoomConstraints
 ComputeZoomConstraintsFromViewportInfo
 (
 viewportInfo
+mDocument
 )
 ;
 if
