@@ -2302,6 +2302,19 @@ h
 )
 )
         
+dirsettings_template
++
+=
+add_define
+(
+'
+MOZILLA_CLIENT
+'
+'
+1
+'
+)
+        
 #
 Add
 EXTRA_INCLUDES
@@ -2355,6 +2368,20 @@ dist
 include
 /
 nspr
+'
+)
+        
+dirsettings_template
++
+=
+add_objdir_include_path
+(
+'
+dist
+/
+include
+/
+nss
 '
 )
         
