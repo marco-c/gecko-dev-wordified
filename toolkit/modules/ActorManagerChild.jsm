@@ -1291,6 +1291,19 @@ values
 )
 )
 {
+if
+(
+typeof
+actor
+.
+cleanup
+=
+=
+"
+function
+"
+)
+{
 try
 {
 actor
@@ -1312,6 +1325,7 @@ reportError
 e
 )
 ;
+}
 }
 }
 this
