@@ -582,6 +582,12 @@ mCr
 =
 16
 ;
+private
+:
+const
+nsString
+mName
+;
 }
 ;
 class
