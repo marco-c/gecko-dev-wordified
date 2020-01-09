@@ -624,9 +624,6 @@ override
 RefPtr
 <
 GenericPromise
-:
-:
-AllPromiseType
 >
 LoadFromEnvironment
 (
