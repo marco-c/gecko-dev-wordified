@@ -154,10 +154,11 @@ getSelectedSource
 getSelectedFrame
 getGeneratedFrameScope
 getOriginalFrameScope
+isPaused
+as
 getIsPaused
 getPauseReason
 getMapScopes
-getCurrentThread
 }
 from
 "
@@ -1099,20 +1100,11 @@ state
 >
 {
 const
-thread
-=
-getCurrentThread
-(
-state
-)
-;
-const
 selectedFrame
 =
 getSelectedFrame
 (
 state
-thread
 )
 ;
 const
@@ -1136,7 +1128,6 @@ originalPending
 getOriginalFrameScope
 (
 state
-thread
 selectedSource
 &
 &
@@ -1174,7 +1165,6 @@ generatedPending
 getGeneratedFrameScope
 (
 state
-thread
 selectedFrame
 &
 &
@@ -1207,7 +1197,6 @@ isPaused
 getIsPaused
 (
 state
-thread
 )
 isLoading
 :
@@ -1220,7 +1209,6 @@ why
 getPauseReason
 (
 state
-thread
 )
 originalFrameScopes
 generatedFrameScopes
