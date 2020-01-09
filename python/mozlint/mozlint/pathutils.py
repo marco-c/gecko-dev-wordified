@@ -2126,7 +2126,6 @@ path
 :
             
 if
-not
 any
 (
 path
@@ -2139,13 +2138,45 @@ for
 e
 in
 exclude
+if
+'
+*
+'
+not
+in
+e
 )
 :
                 
+continue
+            
+if
+any
+(
+mozpath
+.
+match
+(
+path
+e
+)
+for
+e
+in
+exclude
+if
+'
+*
+'
+in
+e
+)
+:
+                
+continue
+            
 yield
 path
-            
-continue
         
 ignore
 =
