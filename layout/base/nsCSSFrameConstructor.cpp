@@ -27858,6 +27858,11 @@ gfxScrollFrame
 )
 ;
 }
+MOZ_ASSERT
+(
+gfxScrollFrame
+)
+;
 /
 /
 if
@@ -28041,11 +28046,6 @@ aScrolledPseudo
 contentStyle
 )
 ;
-if
-(
-gfxScrollFrame
-)
-{
 gfxScrollFrame
 -
 >
@@ -28055,7 +28055,6 @@ kPrincipalList
 anonymousItems
 )
 ;
-}
 return
 scrolledChildStyle
 .
