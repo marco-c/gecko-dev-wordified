@@ -112,7 +112,6 @@ import
 {
 getCurrentThread
 getIsPaused
-getContext
 }
 from
 "
@@ -158,7 +157,6 @@ AccessibleImage
 import
 type
 {
-Context
 Thread
 }
 from
@@ -176,9 +174,6 @@ type
 Props
 =
 {
-cx
-:
-Context
 selectThread
 :
 typeof
@@ -227,11 +222,6 @@ props
 .
 selectThread
 (
-this
-.
-props
-.
-cx
 thread
 .
 actor
@@ -416,12 +406,6 @@ Props
 >
 (
 {
-cx
-:
-getContext
-(
-state
-)
 currentThread
 :
 getCurrentThread

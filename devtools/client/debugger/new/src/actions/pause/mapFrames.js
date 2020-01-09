@@ -115,7 +115,7 @@ import
 type
 {
 Frame
-ThreadContext
+ThreadId
 }
 from
 "
@@ -939,9 +939,9 @@ export
 function
 mapFrames
 (
-cx
+thread
 :
-ThreadContext
+ThreadId
 )
 {
 return
@@ -965,8 +965,6 @@ getFrames
 getState
 (
 )
-cx
-.
 thread
 )
 ;
@@ -1015,8 +1013,6 @@ getSelectedFrameId
 getState
 (
 )
-cx
-.
 thread
 mappedFrames
 )
@@ -1029,11 +1025,6 @@ type
 "
 MAP_FRAMES
 "
-cx
-thread
-:
-cx
-.
 thread
 frames
 :

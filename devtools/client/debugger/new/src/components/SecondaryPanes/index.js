@@ -136,7 +136,6 @@ getShouldPauseOnExceptions
 getShouldPauseOnCaughtExceptions
 getWorkers
 getCurrentThread
-getThreadContext
 }
 from
 "
@@ -296,7 +295,6 @@ type
 Expression
 Frame
 WorkerList
-ThreadContext
 }
 from
 "
@@ -428,9 +426,6 @@ type
 Props
 =
 {
-cx
-:
-ThreadContext
 expressions
 :
 List
@@ -623,7 +618,6 @@ renderBreakpointsToggle
 {
 const
 {
-cx
 toggleAllBreakpoints
 breakpoints
 breakpointsDisabled
@@ -741,7 +735,6 @@ stopPropagation
 ;
 toggleAllBreakpoints
 (
-cx
 !
 breakpointsDisabled
 )
@@ -872,11 +865,6 @@ props
 .
 evaluateExpressions
 (
-this
-.
-props
-.
-cx
 )
 ;
 }
@@ -2242,12 +2230,6 @@ state
 ;
 return
 {
-cx
-:
-getThreadContext
-(
-state
-)
 expressions
 :
 getExpressions

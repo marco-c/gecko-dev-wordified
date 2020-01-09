@@ -185,7 +185,6 @@ getSource
 getPendingSelectedLocation
 getPendingBreakpointsForSource
 hasBreakpointPositions
-getContext
 }
 from
 "
@@ -237,7 +236,6 @@ type
 {
 Source
 SourceId
-Context
 }
 from
 "
@@ -324,9 +322,6 @@ actors
 function
 loadSourceMaps
 (
-cx
-:
-Context
 sources
 :
 Source
@@ -385,7 +380,6 @@ dispatch
 (
 loadSourceMap
 (
-cx
 id
 )
 )
@@ -453,7 +447,6 @@ dispatch
 (
 checkPendingBreakpoints
 (
-cx
 source
 .
 id
@@ -485,9 +478,6 @@ static
 function
 loadSourceMap
 (
-cx
-:
-Context
 sourceId
 :
 SourceId
@@ -790,7 +780,6 @@ type
 "
 UPDATE_SOURCE
 "
-cx
 /
 /
 NOTE
@@ -885,9 +874,6 @@ it
 function
 checkSelectedSource
 (
-cx
-:
-Context
 sourceId
 :
 string
@@ -994,7 +980,6 @@ dispatch
 (
 togglePrettyPrint
 (
-cx
 source
 .
 id
@@ -1006,7 +991,6 @@ dispatch
 (
 checkPendingBreakpoints
 (
-cx
 prettySource
 .
 id
@@ -1019,7 +1003,6 @@ dispatch
 (
 selectLocation
 (
-cx
 {
 sourceId
 :
@@ -1060,9 +1043,6 @@ column
 function
 checkPendingBreakpoints
 (
-cx
-:
-Context
 sourceId
 :
 string
@@ -1154,7 +1134,6 @@ dispatch
 (
 loadSourceText
 (
-cx
 source
 )
 )
@@ -1177,7 +1156,6 @@ dispatch
 (
 syncBreakpoint
 (
-cx
 sourceId
 bp
 )
@@ -1193,9 +1171,6 @@ bp
 function
 restoreBlackBoxedSources
 (
-cx
-:
-Context
 sources
 :
 Source
@@ -1265,7 +1240,6 @@ dispatch
 (
 toggleBlackBox
 (
-cx
 source
 )
 )
@@ -1359,16 +1333,6 @@ ThunkArgs
 >
 {
 const
-cx
-=
-getContext
-(
-getState
-(
-)
-)
-;
-const
 _newSources
 =
 sources
@@ -1425,7 +1389,6 @@ type
 "
 ADD_SOURCES
 "
-cx
 sources
 }
 )
@@ -1442,7 +1405,6 @@ dispatch
 (
 checkSelectedSource
 (
-cx
 source
 .
 id
@@ -1516,7 +1478,6 @@ dispatch
 (
 setBreakpointPositions
 (
-cx
 source
 .
 id
@@ -1529,7 +1490,6 @@ dispatch
 (
 restoreBlackBoxedSources
 (
-cx
 _newSources
 )
 )
@@ -1538,7 +1498,6 @@ dispatch
 (
 loadSourceMaps
 (
-cx
 _newSources
 )
 )

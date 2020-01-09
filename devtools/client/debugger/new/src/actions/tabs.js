@@ -149,7 +149,6 @@ import
 type
 {
 Source
-Context
 }
 from
 "
@@ -293,9 +292,6 @@ export
 function
 closeTab
 (
-cx
-:
-Context
 source
 :
 Source
@@ -373,7 +369,6 @@ dispatch
 (
 selectSource
 (
-cx
 sourceId
 )
 )
@@ -397,9 +392,6 @@ export
 function
 closeTabs
 (
-cx
-:
-Context
 urls
 :
 string
@@ -505,7 +497,6 @@ dispatch
 (
 selectSource
 (
-cx
 sourceId
 )
 )

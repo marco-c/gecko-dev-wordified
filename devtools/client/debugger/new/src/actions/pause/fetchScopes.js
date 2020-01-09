@@ -107,7 +107,7 @@ promise
 import
 type
 {
-ThreadContext
+ThreadId
 }
 from
 "
@@ -137,9 +137,9 @@ export
 function
 fetchScopes
 (
-cx
+thread
 :
-ThreadContext
+ThreadId
 )
 {
 return
@@ -164,8 +164,6 @@ getSelectedFrame
 getState
 (
 )
-cx
-.
 thread
 )
 ;
@@ -200,11 +198,6 @@ type
 "
 ADD_SCOPES
 "
-cx
-thread
-:
-cx
-.
 thread
 frame
 [
@@ -225,7 +218,6 @@ dispatch
 (
 mapScopes
 (
-cx
 scopes
 frame
 )

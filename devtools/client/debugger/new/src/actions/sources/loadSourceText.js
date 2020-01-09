@@ -181,7 +181,6 @@ import
 type
 {
 Source
-Context
 }
 from
 "
@@ -459,9 +458,6 @@ async
 function
 loadSourceTextPromise
 (
-cx
-:
-Context
 source
 :
 Source
@@ -576,7 +572,6 @@ dispatch
 (
 setBreakpointPositions
 (
-cx
 newSource
 .
 id
@@ -604,9 +599,6 @@ export
 function
 loadSourceText
 (
-cx
-:
-Context
 inputSource
 :
 ?
@@ -719,7 +711,6 @@ return
 await
 loadSourceTextPromise
 (
-cx
 source
 epoch
 thunkArgs

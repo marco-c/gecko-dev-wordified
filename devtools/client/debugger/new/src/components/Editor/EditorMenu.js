@@ -120,7 +120,6 @@ import
 getPrettySource
 getIsPaused
 getCurrentThread
-getThreadContext
 }
 from
 "
@@ -151,7 +150,6 @@ import
 type
 {
 Source
-ThreadContext
 }
 from
 "
@@ -202,9 +200,6 @@ type
 Props
 =
 {
-cx
-:
-ThreadContext
 contextMenu
 :
 ?
@@ -283,7 +278,6 @@ props
 {
 const
 {
-cx
 editor
 selectedSource
 editorActions
@@ -325,7 +319,6 @@ event
 editorMenuItems
 (
 {
-cx
 editorActions
 selectedSource
 hasPrettySource
@@ -378,12 +371,6 @@ props
 >
 (
 {
-cx
-:
-getThreadContext
-(
-state
-)
 isPaused
 :
 getIsPaused

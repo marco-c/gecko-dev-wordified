@@ -293,7 +293,6 @@ type
 SourceLocation
 PartialPosition
 Source
-Context
 }
 from
 "
@@ -324,9 +323,6 @@ const
 setSelectedLocation
 =
 (
-cx
-:
-Context
 source
 :
 Source
@@ -343,7 +339,6 @@ type
 "
 SET_SELECTED_LOCATION
 "
-cx
 source
 location
 }
@@ -354,9 +349,6 @@ const
 setPendingSelectedLocation
 =
 (
-cx
-:
-Context
 url
 :
 string
@@ -373,7 +365,6 @@ type
 "
 SET_PENDING_SELECTED_LOCATION
 "
-cx
 url
 :
 url
@@ -398,9 +389,6 @@ const
 clearSelectedLocation
 =
 (
-cx
-:
-Context
 )
 =
 >
@@ -411,7 +399,6 @@ type
 "
 CLEAR_SELECTED_LOCATION
 "
-cx
 }
 )
 ;
@@ -475,9 +462,6 @@ export
 function
 selectSourceURL
 (
-cx
-:
-Context
 url
 :
 string
@@ -528,7 +512,6 @@ dispatch
 (
 setPendingSelectedLocation
 (
-cx
 url
 options
 )
@@ -561,7 +544,6 @@ dispatch
 (
 selectLocation
 (
-cx
 location
 )
 )
@@ -585,9 +567,6 @@ export
 function
 selectSource
 (
-cx
-:
-Context
 sourceId
 :
 string
@@ -633,7 +612,6 @@ dispatch
 (
 selectSpecificLocation
 (
-cx
 location
 )
 )
@@ -657,9 +635,6 @@ export
 function
 selectLocation
 (
-cx
-:
-Context
 location
 :
 SourceLocation
@@ -774,7 +749,6 @@ dispatch
 (
 clearSelectedLocation
 (
-cx
 )
 )
 ;
@@ -926,7 +900,6 @@ dispatch
 (
 setSelectedLocation
 (
-cx
 source
 location
 )
@@ -937,7 +910,6 @@ dispatch
 (
 loadSourceText
 (
-cx
 source
 )
 )
@@ -1016,7 +988,6 @@ dispatch
 (
 togglePrettyPrint
 (
-cx
 loadedSource
 .
 id
@@ -1027,7 +998,6 @@ dispatch
 (
 closeTab
 (
-cx
 loadedSource
 )
 )
@@ -1037,7 +1007,6 @@ dispatch
 (
 setSymbols
 (
-cx
 loadedSource
 .
 id
@@ -1048,7 +1017,6 @@ dispatch
 (
 setOutOfScopeLocations
 (
-cx
 )
 )
 ;
@@ -1091,7 +1059,6 @@ dispatch
 (
 updateActiveFileSearch
 (
-cx
 )
 )
 ;
@@ -1115,9 +1082,6 @@ export
 function
 selectSpecificLocation
 (
-cx
-:
-Context
 location
 :
 SourceLocation
@@ -1126,7 +1090,6 @@ SourceLocation
 return
 selectLocation
 (
-cx
 location
 {
 keepContext
@@ -1152,9 +1115,6 @@ export
 function
 jumpToMappedLocation
 (
-cx
-:
-Context
 location
 :
 SourceLocation
@@ -1201,7 +1161,6 @@ dispatch
 (
 selectSpecificLocation
 (
-cx
 {
 .
 .
@@ -1218,9 +1177,6 @@ export
 function
 jumpToMappedSelectedLocation
 (
-cx
-:
-Context
 )
 {
 return
@@ -1259,7 +1215,6 @@ dispatch
 (
 jumpToMappedLocation
 (
-cx
 location
 )
 )

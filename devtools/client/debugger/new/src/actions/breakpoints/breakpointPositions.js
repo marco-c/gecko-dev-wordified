@@ -108,7 +108,6 @@ type
 {
 MappedLocation
 SourceLocation
-Context
 }
 from
 "
@@ -399,7 +398,6 @@ async
 function
 _setBreakpointPositions
 (
-cx
 sourceId
 thunkArgs
 )
@@ -735,7 +733,6 @@ type
 "
 ADD_BREAKPOINT_POSITIONS
 "
-cx
 source
 :
 source
@@ -820,9 +817,6 @@ export
 function
 setBreakpointPositions
 (
-cx
-:
-Context
 sourceId
 :
 string
@@ -903,7 +897,6 @@ try
 await
 _setBreakpointPositions
 (
-cx
 sourceId
 thunkArgs
 )

@@ -139,7 +139,6 @@ import
 type
 {
 SourceLocation
-Context
 }
 from
 "
@@ -292,9 +291,6 @@ export
 function
 updateActiveFileSearch
 (
-cx
-:
-Context
 )
 {
 return
@@ -354,7 +350,6 @@ dispatch
 (
 searchContents
 (
-cx
 fileSearchQuery
 editor
 )
@@ -406,9 +401,6 @@ export
 function
 showSource
 (
-cx
-:
-Context
 sourceId
 :
 string
@@ -507,7 +499,6 @@ dispatch
 (
 selectSource
 (
-cx
 source
 .
 id
@@ -774,9 +765,6 @@ export
 function
 clearProjectDirectoryRoot
 (
-cx
-:
-Context
 )
 {
 return
@@ -786,7 +774,6 @@ type
 "
 SET_PROJECT_DIRECTORY_ROOT
 "
-cx
 url
 :
 "
@@ -798,9 +785,6 @@ export
 function
 setProjectDirectoryRoot
 (
-cx
-:
-Context
 newRoot
 :
 string
@@ -947,7 +931,6 @@ type
 "
 SET_PROJECT_DIRECTORY_ROOT
 "
-cx
 url
 :
 newRoot

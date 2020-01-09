@@ -309,7 +309,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -347,7 +346,6 @@ actions
 .
 searchSources
 (
-cx
 mockQuery
 )
 )
@@ -589,7 +587,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -603,7 +600,6 @@ actions
 .
 setFileSearchQuery
 (
-cx
 "
 foobar
 "
@@ -682,7 +678,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -718,7 +713,6 @@ actions
 .
 updateSearchResults
 (
-cx
 2
 3
 searchResults

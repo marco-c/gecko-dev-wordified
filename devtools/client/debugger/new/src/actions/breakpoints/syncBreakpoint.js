@@ -170,7 +170,6 @@ SourceLocation
 ASTLocation
 PendingBreakpoint
 SourceId
-Context
 }
 from
 "
@@ -187,9 +186,6 @@ async
 function
 findBreakpointPosition
 (
-cx
-:
-Context
 {
 getState
 dispatch
@@ -207,7 +203,6 @@ dispatch
 (
 setBreakpointPositions
 (
-cx
 location
 .
 sourceId
@@ -536,9 +531,6 @@ export
 function
 syncBreakpoint
 (
-cx
-:
-Context
 sourceId
 :
 SourceId
@@ -763,7 +755,6 @@ dispatch
 (
 addBreakpoint
 (
-cx
 sourceGeneratedLocation
 pendingBreakpoint
 .
@@ -803,7 +794,6 @@ newGeneratedLocation
 await
 findBreakpointPosition
 (
-cx
 thunkArgs
 newLocation
 )
@@ -912,7 +902,6 @@ dispatch
 (
 removeBreakpoint
 (
-cx
 bp
 )
 )
@@ -945,7 +934,6 @@ dispatch
 (
 addBreakpoint
 (
-cx
 newLocation
 pendingBreakpoint
 .

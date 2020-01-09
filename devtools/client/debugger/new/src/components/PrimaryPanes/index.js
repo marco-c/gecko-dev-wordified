@@ -118,7 +118,6 @@ getActiveSearch
 getProjectDirectoryRoot
 getSelectedPrimaryPaneTab
 getThreads
-getContext
 }
 from
 "
@@ -251,7 +250,6 @@ import
 type
 {
 Thread
-Context
 }
 from
 "
@@ -286,9 +284,6 @@ type
 Props
 =
 {
-cx
-:
-Context
 selectedTab
 :
 SelectedPrimaryPaneTabType
@@ -625,7 +620,6 @@ renderProjectRootHeader
 {
 const
 {
-cx
 projectRoot
 }
 =
@@ -704,7 +698,6 @@ props
 .
 clearProjectDirectoryRoot
 (
-cx
 )
 }
 title
@@ -982,12 +975,6 @@ state
 >
 (
 {
-cx
-:
-getContext
-(
-state
-)
 selectedTab
 :
 getSelectedPrimaryPaneTab

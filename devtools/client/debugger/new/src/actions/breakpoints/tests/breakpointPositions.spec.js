@@ -140,7 +140,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 store
@@ -167,7 +166,6 @@ actions
 .
 setBreakpointPositions
 (
-cx
 "
 foo
 "
@@ -345,7 +343,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 store
@@ -372,7 +369,6 @@ actions
 .
 setBreakpointPositions
 (
-cx
 "
 foo
 "
@@ -385,7 +381,6 @@ actions
 .
 setBreakpointPositions
 (
-cx
 "
 foo
 "
