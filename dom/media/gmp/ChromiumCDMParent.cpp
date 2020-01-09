@@ -4792,6 +4792,11 @@ mDecodePromise
 .
 ResolveIfExists
 (
+MediaDataDecoder
+:
+:
+DecodedData
+(
 {
 std
 :
@@ -4801,6 +4806,7 @@ move
 aFrame
 )
 }
+)
 __func__
 )
 ;
