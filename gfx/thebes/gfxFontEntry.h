@@ -1853,17 +1853,11 @@ AutoTable
 (
 )
 {
-if
-(
-mBlob
-)
-{
 hb_blob_destroy
 (
 mBlob
 )
 ;
-}
 }
 operator
 hb_blob_t
