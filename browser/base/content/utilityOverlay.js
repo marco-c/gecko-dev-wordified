@@ -2518,11 +2518,9 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+principalWithOA
 (
 principal
-.
-URI
 attrs
 )
 ;
