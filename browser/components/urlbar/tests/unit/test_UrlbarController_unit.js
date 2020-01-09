@@ -1257,6 +1257,13 @@ createContext
 (
 )
 ;
+context
+.
+results
+=
+[
+]
+;
 controller
 .
 receiveResults
@@ -1333,6 +1340,13 @@ context
 createContext
 (
 )
+;
+context
+.
+results
+=
+[
+]
 ;
 controller
 .
