@@ -4700,26 +4700,6 @@ self
 )
 :
         
-includes
-=
-(
-'
-util
-.
-configure
-'
-'
-checks
-.
-configure
-'
-'
-java
-.
-configure
-'
-)
-        
 #
 A
 valid
@@ -4798,6 +4778,77 @@ None
         
 }
         
+script
+=
+textwrap
+.
+dedent
+(
+'
+'
+'
+\
+                
+depends
+(
+'
+-
+-
+help
+'
+)
+                
+def
+host
+(
+_
+)
+:
+                    
+return
+namespace
+(
+os
+=
+'
+unknown
+'
+)
+                
+include
+(
+'
+%
+(
+topsrcdir
+)
+s
+/
+build
+/
+moz
+.
+configure
+/
+java
+.
+configure
+'
+)
+            
+'
+'
+'
+%
+{
+'
+topsrcdir
+'
+:
+topsrcdir
+}
+)
+        
 config
 out
 status
@@ -4806,9 +4857,9 @@ self
 .
 get_result
 (
-includes
+command
 =
-includes
+script
 extra_paths
 =
 paths
@@ -5019,9 +5070,9 @@ self
 .
 get_result
 (
-includes
+command
 =
-includes
+script
                                               
 extra_paths
 =
@@ -5178,6 +5229,10 @@ self
 get_result
 (
             
+command
+=
+script
+            
 args
 =
 [
@@ -5203,10 +5258,6 @@ dirname
 alt_java
 )
 ]
-            
-includes
-=
-includes
             
 extra_paths
 =
@@ -5365,6 +5416,10 @@ self
 get_result
 (
             
+command
+=
+script
+            
 args
 =
 [
@@ -5390,10 +5445,6 @@ dirname
 alt_java
 )
 ]
-            
-includes
-=
-includes
             
 extra_paths
 =
@@ -5550,6 +5601,10 @@ self
 get_result
 (
             
+command
+=
+script
+            
 args
 =
 [
@@ -5563,10 +5618,6 @@ java
 coverage
 '
 ]
-            
-includes
-=
-includes
             
 extra_paths
 =
@@ -5674,9 +5725,9 @@ self
 .
 get_result
 (
-includes
+command
 =
-includes
+script
                                               
 extra_paths
 =
