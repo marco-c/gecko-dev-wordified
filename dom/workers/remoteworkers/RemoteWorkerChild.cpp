@@ -1657,9 +1657,6 @@ ChannelFromScriptURLMainThread
 info
 .
 mLoadingPrincipal
-info
-.
-mBaseURI
 nullptr
 /
 *
@@ -1670,9 +1667,6 @@ document
 info
 .
 mLoadGroup
-EmptyString
-(
-)
 info
 .
 mResolvedScriptURI
@@ -1692,13 +1686,6 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_SERVICE_WORKER
-false
-/
-*
-default
-encoding
-*
-/
 getter_AddRefs
 (
 info
