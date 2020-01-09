@@ -1052,7 +1052,6 @@ VIDEO_DATA
 aOffset
 aTime
 aDuration
-1
 )
 mDisplay
 (
@@ -2629,7 +2628,6 @@ Type
 :
 :
 RAW_DATA
-0
 )
 mCrypto
 (
@@ -2656,7 +2654,6 @@ Type
 :
 :
 RAW_DATA
-0
 )
 mCrypto
 (
@@ -2694,7 +2691,6 @@ Type
 :
 :
 RAW_DATA
-0
 )
 mCrypto
 (
