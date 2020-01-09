@@ -3908,11 +3908,6 @@ Linker
 linker
 (
 masm
-)
-;
-AutoFlushICache
-afc
-(
 "
 RegExp
 "

@@ -2066,11 +2066,6 @@ Linker
 linker
 (
 masm
-)
-;
-AutoFlushICache
-afc
-(
 "
 Trampolines
 "
