@@ -2238,15 +2238,12 @@ return
 false
 ;
 }
-NS_IMETHODIMP
+uint32_t
 ContentPrincipal
 :
 :
 GetHashValue
 (
-uint32_t
-*
-aValue
 )
 {
 MOZ_ASSERT
@@ -2259,9 +2256,7 @@ codebase
 "
 )
 ;
-*
-aValue
-=
+return
 nsScriptSecurityManager
 :
 :
@@ -2269,9 +2264,6 @@ HashPrincipalByOrigin
 (
 this
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

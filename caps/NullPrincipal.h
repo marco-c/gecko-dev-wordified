@@ -304,12 +304,9 @@ aInstancePtr
 )
 override
 ;
-NS_IMETHOD
+uint32_t
 GetHashValue
 (
-uint32_t
-*
-aHashValue
 )
 override
 ;
