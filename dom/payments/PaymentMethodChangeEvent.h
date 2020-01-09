@@ -151,6 +151,17 @@ PaymentRequestUpdateEvent
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+PaymentRequest
+.
+h
+"
 namespace
 mozilla
 {
