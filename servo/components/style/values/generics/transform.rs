@@ -100,9 +100,9 @@ computed
 length
 :
 :
-LengthOrPercentage
+LengthPercentage
 as
-ComputedLengthOrPercentage
+ComputedLengthPercentage
 ;
 use
 crate
@@ -151,9 +151,9 @@ specified
 length
 :
 :
-LengthOrPercentage
+LengthPercentage
 as
-SpecifiedLengthOrPercentage
+SpecifiedLengthPercentage
 ;
 use
 crate
@@ -844,7 +844,7 @@ Angle
 Number
 Length
 Integer
-LengthOrPercentage
+LengthPercentage
 >
 {
 /
@@ -1006,10 +1006,10 @@ function
 ]
 Translate
 (
-LengthOrPercentage
+LengthPercentage
 Option
 <
-LengthOrPercentage
+LengthPercentage
 >
 )
 /
@@ -1032,7 +1032,7 @@ translateX
 ]
 TranslateX
 (
-LengthOrPercentage
+LengthPercentage
 )
 /
 /
@@ -1054,7 +1054,7 @@ translateY
 ]
 TranslateY
 (
-LengthOrPercentage
+LengthPercentage
 )
 /
 /
@@ -1101,8 +1101,8 @@ translate3d
 ]
 Translate3D
 (
-LengthOrPercentage
-LengthOrPercentage
+LengthPercentage
+LengthPercentage
 Length
 )
 /
@@ -1619,7 +1619,7 @@ Angle
 Number
 Length
 Integer
-LengthOrPercentage
+LengthPercentage
 >
 >
 to_list
@@ -1632,7 +1632,7 @@ Angle
 Number
 Length
 Integer
-LengthOrPercentage
+LengthPercentage
 >
 >
 progress
@@ -1686,7 +1686,7 @@ Angle
 Number
 Length
 Integer
-LengthOrPercentage
+LengthPercentage
 >
 >
 to_list
@@ -1699,7 +1699,7 @@ Angle
 Number
 Length
 Integer
-LengthOrPercentage
+LengthPercentage
 >
 >
 count
@@ -1761,7 +1761,7 @@ Angle
 Number
 Length
 Integer
-LengthOrPercentage
+LengthPercentage
 >
 TransformOperation
 <
@@ -1769,7 +1769,7 @@ Angle
 Number
 Length
 Integer
-LengthOrPercentage
+LengthPercentage
 >
 {
 /
@@ -2150,7 +2150,7 @@ to_computed_pixel_length_without_context
 impl
 ToAbsoluteLength
 for
-SpecifiedLengthOrPercentage
+SpecifiedLengthPercentage
 {
 /
 /
@@ -2227,7 +2227,7 @@ use
 self
 :
 :
-SpecifiedLengthOrPercentage
+SpecifiedLengthPercentage
 :
 :
 *
@@ -2313,7 +2313,7 @@ px
 impl
 ToAbsoluteLength
 for
-ComputedLengthOrPercentage
+ComputedLengthPercentage
 {
 #
 [
@@ -5439,7 +5439,7 @@ pub
 enum
 Translate
 <
-LengthOrPercentage
+LengthPercentage
 Length
 >
 {
@@ -5475,8 +5475,8 @@ percentage
 '
 Translate
 (
-LengthOrPercentage
-LengthOrPercentage
+LengthPercentage
+LengthPercentage
 )
 /
 /
@@ -5498,8 +5498,8 @@ length
 '
 Translate3D
 (
-LengthOrPercentage
-LengthOrPercentage
+LengthPercentage
+LengthPercentage
 Length
 )
 }
@@ -5553,7 +5553,7 @@ may
 be
 complicated
 for
-LengthOrPercentage
+LengthPercentage
 :
 :
 Calc

@@ -132,7 +132,7 @@ pub
 enum
 BackgroundSize
 <
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 >
 {
 /
@@ -154,7 +154,7 @@ width
 .
 width
 :
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 /
 /
 /
@@ -163,7 +163,7 @@ height
 .
 height
 :
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 }
 /
 /
@@ -192,16 +192,16 @@ Contain
 }
 impl
 <
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 >
 ToCss
 for
 BackgroundSize
 <
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 >
 where
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 ToCss
 +

@@ -94,7 +94,7 @@ s
 specified
 :
 :
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 :
 :
 parse

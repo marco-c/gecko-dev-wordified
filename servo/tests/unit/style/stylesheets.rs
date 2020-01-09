@@ -329,7 +329,7 @@ specified
 :
 :
 {
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 PositionComponent
 }
 ;
@@ -1938,7 +1938,7 @@ PropertyDeclaration
 :
 Width
 (
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Percentage
@@ -2030,7 +2030,7 @@ PropertyDeclaration
 :
 Width
 (
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Percentage

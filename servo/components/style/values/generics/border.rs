@@ -156,7 +156,7 @@ pub
 enum
 BorderImageSideWidth
 <
-LengthOrPercentage
+LengthPercentage
 Number
 >
 {
@@ -172,7 +172,7 @@ percentage
 >
 Length
 (
-LengthOrPercentage
+LengthPercentage
 )
 /
 /
@@ -531,7 +531,7 @@ pub
 struct
 BorderRadius
 <
-LengthOrPercentage
+LengthPercentage
 >
 {
 /
@@ -547,7 +547,7 @@ top_left
 :
 BorderCornerRadius
 <
-LengthOrPercentage
+LengthPercentage
 >
 /
 /
@@ -562,7 +562,7 @@ top_right
 :
 BorderCornerRadius
 <
-LengthOrPercentage
+LengthPercentage
 >
 /
 /
@@ -577,7 +577,7 @@ bottom_right
 :
 BorderCornerRadius
 <
-LengthOrPercentage
+LengthPercentage
 >
 /
 /
@@ -592,7 +592,7 @@ bottom_left
 :
 BorderCornerRadius
 <
-LengthOrPercentage
+LengthPercentage
 >
 }
 impl

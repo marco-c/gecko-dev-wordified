@@ -100,7 +100,7 @@ length
 :
 {
 Length
-LengthOrPercentage
+LengthPercentage
 }
 ;
 use
@@ -355,7 +355,7 @@ WordSpacing
 =
 Spacing
 <
-LengthOrPercentage
+LengthPercentage
 >
 ;
 /

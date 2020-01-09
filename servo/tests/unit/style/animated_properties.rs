@@ -594,9 +594,9 @@ computed
 :
 :
 {
-CalcLengthOrPercentage
+CalcLengthPercentage
 Length
-LengthOrPercentage
+LengthPercentage
 }
 ;
 let
@@ -612,7 +612,7 @@ TransformOperation
 :
 Translate3D
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length
@@ -626,7 +626,7 @@ new
 .
 )
 )
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length
@@ -665,7 +665,7 @@ TransformOperation
 :
 Translate3D
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length
@@ -679,7 +679,7 @@ new
 .
 )
 )
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length
@@ -740,7 +740,7 @@ TransformOperation
 :
 Translate3D
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length
@@ -754,7 +754,7 @@ new
 .
 )
 )
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length
@@ -794,7 +794,7 @@ TransformOperation
 :
 Translate3D
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Percentage
@@ -806,7 +806,7 @@ Percentage
 5
 )
 )
-LengthOrPercentage
+LengthPercentage
 :
 :
 Percentage
@@ -843,7 +843,7 @@ TransformOperation
 :
 Translate3D
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length
@@ -857,7 +857,7 @@ new
 .
 )
 )
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length
@@ -927,12 +927,12 @@ calc
 25
 %
 )
-LengthOrPercentage
+LengthPercentage
 :
 :
 Calc
 (
-CalcLengthOrPercentage
+CalcLengthPercentage
 :
 :
 new
@@ -965,12 +965,12 @@ calc
 50
 %
 )
-LengthOrPercentage
+LengthPercentage
 :
 :
 Calc
 (
-CalcLengthOrPercentage
+CalcLengthPercentage
 :
 :
 new
@@ -1450,7 +1450,7 @@ computed
 {
 Angle
 Length
-LengthOrPercentage
+LengthPercentage
 }
 ;
 let
@@ -1501,7 +1501,7 @@ TransformOperation
 :
 Translate3D
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length
@@ -1515,7 +1515,7 @@ new
 .
 )
 )
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length

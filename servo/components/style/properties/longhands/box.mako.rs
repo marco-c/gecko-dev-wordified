@@ -4216,13 +4216,13 @@ shape
 margin
 "
 "
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 "
 "
 computed
 :
 :
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 :
 :
 zero
@@ -4237,7 +4237,7 @@ gecko
 animation_value_type
 =
 "
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 "
 flags
 =

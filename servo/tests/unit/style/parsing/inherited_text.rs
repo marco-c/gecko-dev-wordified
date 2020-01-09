@@ -208,7 +208,7 @@ length
 :
 {
 NoCalcLength
-LengthOrPercentage
+LengthPercentage
 FontRelativeLength
 }
 ;
@@ -235,7 +235,7 @@ Spacing
 :
 Value
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length

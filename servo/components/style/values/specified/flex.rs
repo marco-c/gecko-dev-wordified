@@ -141,7 +141,7 @@ values
 specified
 :
 :
-NonNegativeLengthOrPercentageOrAuto
+NonNegativeLengthPercentageOrAuto
 ;
 /
 /

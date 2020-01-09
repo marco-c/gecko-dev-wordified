@@ -226,7 +226,7 @@ length
 :
 {
 NonNegativeLength
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 }
 ;
 use
@@ -551,7 +551,7 @@ BorderImageSideWidth
 =
 GenericBorderImageSideWidth
 <
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 NonNegativeNumber
 >
 ;
@@ -598,7 +598,7 @@ BorderRadius
 =
 GenericBorderRadius
 <
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 >
 ;
 /
@@ -623,7 +623,7 @@ BorderCornerRadius
 =
 GenericBorderCornerRadius
 <
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 >
 ;
 /
@@ -1261,7 +1261,7 @@ try
 |
 i
 |
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 :
 :
 parse
@@ -1483,7 +1483,7 @@ parse_with
 (
 context
 input
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 :
 :
 parse
@@ -1522,7 +1522,7 @@ parse_with
 (
 context
 input
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 :
 :
 parse
@@ -1651,7 +1651,7 @@ parse_with
 (
 context
 input
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 :
 :
 parse

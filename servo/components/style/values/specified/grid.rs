@@ -186,7 +186,7 @@ specified
 :
 {
 Integer
-LengthOrPercentage
+LengthPercentage
 }
 ;
 use
@@ -346,7 +346,7 @@ Parse
 for
 TrackBreadth
 <
-LengthOrPercentage
+LengthPercentage
 >
 {
 fn
@@ -400,7 +400,7 @@ try
 |
 i
 |
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse_non_negative
@@ -472,7 +472,7 @@ Parse
 for
 TrackSize
 <
-LengthOrPercentage
+LengthPercentage
 >
 {
 fn
@@ -591,7 +591,7 @@ try
 |
 i
 |
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse_non_negative
@@ -696,7 +696,7 @@ parse_nested_block
 |
 i
 |
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse_non_negative
@@ -1090,7 +1090,7 @@ Fixed
 impl
 TrackRepeat
 <
-LengthOrPercentage
+LengthPercentage
 Integer
 >
 {
@@ -1646,7 +1646,7 @@ Parse
 for
 TrackList
 <
-LengthOrPercentage
+LengthPercentage
 Integer
 >
 {
@@ -2410,7 +2410,7 @@ ToComputedValue
 for
 TrackList
 <
-LengthOrPercentage
+LengthPercentage
 Integer
 >
 {
@@ -2422,7 +2422,7 @@ TrackList
 computed
 :
 :
-LengthOrPercentage
+LengthPercentage
 computed
 :
 :
@@ -3212,7 +3212,7 @@ Parse
 for
 GridTemplateComponent
 <
-LengthOrPercentage
+LengthPercentage
 Integer
 >
 {
@@ -3309,7 +3309,7 @@ input
 impl
 GridTemplateComponent
 <
-LengthOrPercentage
+LengthPercentage
 Integer
 >
 {
@@ -3320,7 +3320,7 @@ Parses
 a
 GridTemplateComponent
 <
-LengthOrPercentage
+LengthPercentage
 >
 except
 none

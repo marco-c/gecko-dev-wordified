@@ -131,7 +131,7 @@ values
 specified
 :
 :
-LengthOrPercentage
+LengthPercentage
 ;
 use
 crate
@@ -144,7 +144,7 @@ specified
 :
 :
 {
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 NonNegativeNumber
 }
 ;
@@ -473,14 +473,14 @@ StrokeProperties
 >
 pub
 type
-SvgLengthOrPercentageOrNumber
+SvgLengthPercentageOrNumber
 =
 generic
 :
 :
-SvgLengthOrPercentageOrNumber
+SvgLengthPercentageOrNumber
 <
-LengthOrPercentage
+LengthPercentage
 Number
 >
 ;
@@ -511,7 +511,7 @@ generic
 :
 SVGLength
 <
-SvgLengthOrPercentageOrNumber
+SvgLengthPercentageOrNumber
 >
 ;
 impl
@@ -563,7 +563,7 @@ try
 |
 i
 |
-SvgLengthOrPercentageOrNumber
+SvgLengthPercentageOrNumber
 :
 :
 parse
@@ -603,7 +603,7 @@ ContextValue
 impl
 From
 <
-SvgLengthOrPercentageOrNumber
+SvgLengthPercentageOrNumber
 >
 for
 SVGLength
@@ -613,7 +613,7 @@ from
 (
 length
 :
-SvgLengthOrPercentageOrNumber
+SvgLengthPercentageOrNumber
 )
 -
 >
@@ -683,14 +683,14 @@ StrokeProperties
 >
 pub
 type
-NonNegativeSvgLengthOrPercentageOrNumber
+NonNegativeSvgLengthPercentageOrNumber
 =
 generic
 :
 :
-SvgLengthOrPercentageOrNumber
+SvgLengthPercentageOrNumber
 <
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 NonNegativeNumber
 >
 ;
@@ -714,7 +714,7 @@ generic
 :
 SVGLength
 <
-NonNegativeSvgLengthOrPercentageOrNumber
+NonNegativeSvgLengthPercentageOrNumber
 >
 ;
 impl
@@ -766,7 +766,7 @@ try
 |
 i
 |
-NonNegativeSvgLengthOrPercentageOrNumber
+NonNegativeSvgLengthPercentageOrNumber
 :
 :
 parse
@@ -806,7 +806,7 @@ ContextValue
 impl
 From
 <
-NonNegativeSvgLengthOrPercentageOrNumber
+NonNegativeSvgLengthPercentageOrNumber
 >
 for
 SVGWidth
@@ -816,7 +816,7 @@ from
 (
 length
 :
-NonNegativeSvgLengthOrPercentageOrNumber
+NonNegativeSvgLengthPercentageOrNumber
 )
 -
 >
@@ -864,7 +864,7 @@ generic
 :
 SVGStrokeDashArray
 <
-NonNegativeSvgLengthOrPercentageOrNumber
+NonNegativeSvgLengthPercentageOrNumber
 >
 ;
 impl
@@ -934,7 +934,7 @@ i
 i
 |
 {
-NonNegativeSvgLengthOrPercentageOrNumber
+NonNegativeSvgLengthPercentageOrNumber
 :
 :
 parse

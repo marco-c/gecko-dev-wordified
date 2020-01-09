@@ -278,7 +278,7 @@ length
 :
 :
 {
-LengthOrPercentage
+LengthPercentage
 NoCalcLength
 }
 ;
@@ -297,7 +297,7 @@ length
 :
 {
 NonNegativeLength
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 }
 ;
 use
@@ -446,7 +446,7 @@ WordSpacing
 =
 Spacing
 <
-LengthOrPercentage
+LengthPercentage
 >
 ;
 /
@@ -469,7 +469,7 @@ LineHeight
 GenericLineHeight
 <
 NonNegativeNumber
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 >
 ;
 impl
@@ -720,7 +720,7 @@ c
 i
 |
 {
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse_quirky
@@ -829,7 +829,7 @@ try
 |
 i
 |
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 :
 :
 parse
@@ -1096,7 +1096,7 @@ non_negative_lop
 .
 0
 {
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length
@@ -1131,7 +1131,7 @@ into
 .
 0
 }
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length
@@ -1147,7 +1147,7 @@ to_computed_value
 (
 context
 )
-LengthOrPercentage
+LengthPercentage
 :
 :
 Percentage
@@ -1175,7 +1175,7 @@ FontBaseSize
 :
 CurrentStyle
 )
-LengthOrPercentage
+LengthPercentage
 :
 :
 Calc

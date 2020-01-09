@@ -94,9 +94,9 @@ computed
 :
 {
 Context
-LengthOrPercentage
+LengthPercentage
 as
-ComputedLengthOrPercentage
+ComputedLengthPercentage
 }
 ;
 use
@@ -182,7 +182,7 @@ self
 Angle
 Integer
 Length
-LengthOrPercentage
+LengthPercentage
 Number
 }
 ;
@@ -241,7 +241,7 @@ Angle
 Number
 Length
 Integer
-LengthOrPercentage
+LengthPercentage
 >
 ;
 /
@@ -1011,7 +1011,7 @@ sx
 specified
 :
 :
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse
@@ -1046,7 +1046,7 @@ sy
 specified
 :
 :
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse
@@ -1104,7 +1104,7 @@ tx
 specified
 :
 :
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse
@@ -1140,7 +1140,7 @@ ty
 specified
 :
 :
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse
@@ -1212,7 +1212,7 @@ tx
 specified
 :
 :
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse
@@ -1235,7 +1235,7 @@ ty
 specified
 :
 :
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse
@@ -2152,7 +2152,7 @@ lop
 >
 Length
 (
-LengthOrPercentage
+LengthPercentage
 )
 /
 /
@@ -2767,7 +2767,7 @@ try
 |
 i
 |
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse
@@ -2833,7 +2833,7 @@ Side
 type
 ComputedValue
 =
-ComputedLengthOrPercentage
+ComputedLengthPercentage
 ;
 fn
 to_computed_value
@@ -2863,7 +2863,7 @@ Center
 =
 >
 {
-ComputedLengthOrPercentage
+ComputedLengthPercentage
 :
 :
 new_percent
@@ -2925,7 +2925,7 @@ else
 }
 )
 ;
-ComputedLengthOrPercentage
+ComputedLengthPercentage
 :
 :
 new_percent
@@ -2993,7 +2993,7 @@ OriginComponent
 :
 Length
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Percentage
@@ -3478,7 +3478,7 @@ generic
 :
 Translate
 <
-LengthOrPercentage
+LengthPercentage
 Length
 >
 ;
@@ -3565,7 +3565,7 @@ tx
 specified
 :
 :
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse
@@ -3592,7 +3592,7 @@ i
 specified
 :
 :
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse
@@ -3723,7 +3723,7 @@ tx
 specified
 :
 :
-LengthOrPercentage
+LengthPercentage
 :
 :
 zero

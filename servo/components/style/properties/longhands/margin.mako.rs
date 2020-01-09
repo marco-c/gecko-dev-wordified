@@ -195,13 +195,13 @@ side
 0
 ]
 "
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 "
 "
 computed
 :
 :
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 zero

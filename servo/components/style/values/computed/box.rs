@@ -79,7 +79,7 @@ length
 :
 :
 {
-LengthOrPercentage
+LengthPercentage
 NonNegativeLength
 }
 ;
@@ -287,7 +287,7 @@ VerticalAlign
 =
 GenericVerticalAlign
 <
-LengthOrPercentage
+LengthPercentage
 >
 ;
 /

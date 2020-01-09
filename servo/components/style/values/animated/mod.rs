@@ -131,7 +131,7 @@ computed
 length
 :
 :
-LengthOrPercentage
+LengthPercentage
 ;
 use
 crate
@@ -2645,7 +2645,7 @@ Au
 trivial_to_animated_value
 !
 (
-LengthOrPercentage
+LengthPercentage
 )
 ;
 trivial_to_animated_value

@@ -260,7 +260,7 @@ specified
 Angle
 Color
 Length
-LengthOrPercentage
+LengthPercentage
 }
 ;
 use
@@ -624,7 +624,7 @@ Gradient
 <
 LineDirection
 Length
-LengthOrPercentage
+LengthPercentage
 Position
 Color
 Angle
@@ -683,7 +683,7 @@ Gradient
 <
 LineDirection
 Length
-LengthOrPercentage
+LengthPercentage
 GradientPosition
 Color
 Angle
@@ -872,7 +872,7 @@ GradientKind
 <
 LineDirection
 Length
-LengthOrPercentage
+LengthPercentage
 Position
 Angle
 >
@@ -907,7 +907,7 @@ GradientKind
 <
 LineDirection
 Length
-LengthOrPercentage
+LengthPercentage
 GradientPosition
 Angle
 >
@@ -1163,7 +1163,7 @@ generic
 EndingShape
 <
 Length
-LengthOrPercentage
+LengthPercentage
 >
 ;
 /
@@ -1184,7 +1184,7 @@ generic
 GradientItem
 <
 Color
-LengthOrPercentage
+LengthPercentage
 >
 ;
 /
@@ -1205,7 +1205,7 @@ generic
 ColorStop
 <
 Color
-LengthOrPercentage
+LengthPercentage
 >
 ;
 /
@@ -4437,7 +4437,7 @@ position
 &
 Some
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Percentage
@@ -4448,7 +4448,7 @@ a
 &
 Some
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Percentage
@@ -5638,7 +5638,7 @@ OriginComponent
 :
 Length
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Percentage
@@ -5688,7 +5688,7 @@ OriginComponent
 :
 Length
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Percentage
@@ -7091,7 +7091,7 @@ i
 let
 x
 =
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse
@@ -7104,7 +7104,7 @@ i
 let
 y
 =
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse
@@ -7202,7 +7202,7 @@ EndingShape
 s
 Length
 or
-LengthOrPercentage
+LengthPercentage
 /
 /
 to
@@ -7266,7 +7266,7 @@ try
 |
 i
 |
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse
@@ -7363,7 +7363,7 @@ ellipse
 )
 ?
 ;
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse
@@ -7492,7 +7492,7 @@ try
 |
 i
 |
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse
@@ -7556,7 +7556,7 @@ ellipse
 ?
 ;
 }
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse
@@ -7804,7 +7804,7 @@ try
 |
 i
 |
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse
@@ -7870,7 +7870,7 @@ try
 |
 i
 |
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse
@@ -8104,7 +8104,7 @@ try
 |
 i
 |
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse

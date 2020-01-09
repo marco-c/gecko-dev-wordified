@@ -81,7 +81,7 @@ computed
 length
 :
 :
-NonNegativeLengthOrPercentageOrAuto
+NonNegativeLengthPercentageOrAuto
 ;
 use
 crate
@@ -135,7 +135,7 @@ BackgroundSize
 =
 GenericBackgroundSize
 <
-NonNegativeLengthOrPercentageOrAuto
+NonNegativeLengthPercentageOrAuto
 >
 ;
 impl
@@ -164,7 +164,7 @@ Explicit
 {
 width
 :
-NonNegativeLengthOrPercentageOrAuto
+NonNegativeLengthPercentageOrAuto
 :
 :
 auto
@@ -172,7 +172,7 @@ auto
 )
 height
 :
-NonNegativeLengthOrPercentageOrAuto
+NonNegativeLengthPercentageOrAuto
 :
 :
 auto

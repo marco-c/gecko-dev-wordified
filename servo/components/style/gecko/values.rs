@@ -193,7 +193,7 @@ computed
 Angle
 ExtremumLength
 Length
-LengthOrPercentage
+LengthPercentage
 }
 ;
 use
@@ -207,7 +207,7 @@ computed
 :
 :
 {
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 Percentage
 }
 ;
@@ -222,7 +222,7 @@ computed
 :
 :
 {
-LengthOrPercentageOrNone
+LengthPercentageOrNone
 Number
 NumberOrPercentage
 }
@@ -1226,7 +1226,7 @@ None
 impl
 GeckoStyleCoordConvertible
 for
-LengthOrPercentage
+LengthPercentage
 {
 fn
 to_gecko_style_coord
@@ -1385,7 +1385,7 @@ coord
 >
 Some
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 new
@@ -1412,7 +1412,7 @@ p
 >
 Some
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 new
@@ -1555,7 +1555,7 @@ None
 impl
 GeckoStyleCoordConvertible
 for
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 {
 fn
 to_gecko_style_coord
@@ -1578,7 +1578,7 @@ match
 *
 self
 {
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Auto
@@ -1593,10 +1593,10 @@ CoordDataValue
 :
 Auto
 )
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
-LengthOrPercentage
+LengthPercentage
 (
 ref
 lop
@@ -1646,7 +1646,7 @@ Auto
 >
 Some
 (
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Auto
@@ -1654,7 +1654,7 @@ Auto
 _
 =
 >
-LengthOrPercentage
+LengthPercentage
 :
 :
 from_gecko_style_coord
@@ -1664,10 +1664,10 @@ coord
 .
 map
 (
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
-LengthOrPercentage
+LengthPercentage
 )
 }
 }
@@ -1675,7 +1675,7 @@ LengthOrPercentage
 impl
 GeckoStyleCoordConvertible
 for
-LengthOrPercentageOrNone
+LengthPercentageOrNone
 {
 fn
 to_gecko_style_coord
@@ -1698,7 +1698,7 @@ match
 *
 self
 {
-LengthOrPercentageOrNone
+LengthPercentageOrNone
 :
 :
 None
@@ -1713,10 +1713,10 @@ CoordDataValue
 :
 None
 )
-LengthOrPercentageOrNone
+LengthPercentageOrNone
 :
 :
-LengthOrPercentage
+LengthPercentage
 (
 ref
 lop
@@ -1766,7 +1766,7 @@ None
 >
 Some
 (
-LengthOrPercentageOrNone
+LengthPercentageOrNone
 :
 :
 None
@@ -1774,7 +1774,7 @@ None
 _
 =
 >
-LengthOrPercentage
+LengthPercentage
 :
 :
 from_gecko_style_coord
@@ -1784,10 +1784,10 @@ coord
 .
 map
 (
-LengthOrPercentageOrNone
+LengthPercentageOrNone
 :
 :
-LengthOrPercentage
+LengthPercentage
 )
 }
 }
@@ -2845,7 +2845,7 @@ self
 MozLength
 :
 :
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 (
 ref
 lopoa
@@ -2896,7 +2896,7 @@ Option
 Self
 >
 {
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 from_gecko_style_coord
@@ -2909,7 +2909,7 @@ map
 MozLength
 :
 :
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 )
 .
 or_else
@@ -2965,7 +2965,7 @@ self
 MaxLength
 :
 :
-LengthOrPercentageOrNone
+LengthPercentageOrNone
 (
 ref
 lopon
@@ -3016,7 +3016,7 @@ Option
 Self
 >
 {
-LengthOrPercentageOrNone
+LengthPercentageOrNone
 :
 :
 from_gecko_style_coord
@@ -3029,7 +3029,7 @@ map
 MaxLength
 :
 :
-LengthOrPercentageOrNone
+LengthPercentageOrNone
 )
 .
 or_else
@@ -3061,7 +3061,7 @@ GeckoStyleCoordConvertible
 for
 ScrollSnapPoint
 <
-LengthOrPercentage
+LengthPercentage
 >
 {
 fn
@@ -3192,7 +3192,7 @@ ScrollSnapPoint
 :
 Repeat
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 from_gecko_style_coord
@@ -3208,7 +3208,7 @@ could
 not
 convert
 to
-LengthOrPercentage
+LengthPercentage
 "
 )
 )

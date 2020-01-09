@@ -117,7 +117,7 @@ computed
 :
 {
 Integer
-LengthOrPercentage
+LengthPercentage
 Percentage
 }
 ;
@@ -233,7 +233,7 @@ pub
 type
 HorizontalPosition
 =
-LengthOrPercentage
+LengthPercentage
 ;
 /
 /
@@ -251,7 +251,7 @@ pub
 type
 VerticalPosition
 =
-LengthOrPercentage
+LengthPercentage
 ;
 impl
 Position
@@ -281,7 +281,7 @@ Self
 :
 new
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 new_percent
@@ -293,7 +293,7 @@ Percentage
 5
 )
 )
-LengthOrPercentage
+LengthPercentage
 :
 :
 new_percent
@@ -332,13 +332,13 @@ Self
 :
 new
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 zero
 (
 )
-LengthOrPercentage
+LengthPercentage
 :
 :
 zero

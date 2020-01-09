@@ -21478,7 +21478,7 @@ self
 computed
 :
 :
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 {
 let
 position_style
@@ -21535,7 +21535,7 @@ self
 computed
 :
 :
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 {
 let
 position_style
@@ -21593,7 +21593,7 @@ self
 computed
 :
 :
-LengthOrPercentage
+LengthPercentage
 {
 let
 position_style
@@ -21651,7 +21651,7 @@ self
 computed
 :
 :
-LengthOrPercentage
+LengthPercentage
 {
 let
 position_style
@@ -21709,7 +21709,7 @@ self
 computed
 :
 :
-LengthOrPercentageOrNone
+LengthPercentageOrNone
 {
 let
 position_style
@@ -21767,7 +21767,7 @@ self
 computed
 :
 :
-LengthOrPercentageOrNone
+LengthPercentageOrNone
 {
 let
 position_style
@@ -21829,7 +21829,7 @@ LogicalMargin
 computed
 :
 :
-LengthOrPercentage
+LengthPercentage
 >
 {
 let
@@ -22035,7 +22035,7 @@ LogicalMargin
 computed
 :
 :
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 >
 {
 let
@@ -22104,7 +22104,7 @@ LogicalMargin
 computed
 :
 :
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 >
 {
 /

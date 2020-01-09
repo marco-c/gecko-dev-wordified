@@ -110,7 +110,7 @@ pub
 enum
 VerticalAlign
 <
-LengthOrPercentage
+LengthPercentage
 >
 {
 /
@@ -190,7 +190,7 @@ percentage
 >
 Length
 (
-LengthOrPercentage
+LengthPercentage
 )
 }
 impl

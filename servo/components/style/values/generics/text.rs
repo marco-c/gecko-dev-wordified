@@ -794,7 +794,7 @@ enum
 LineHeight
 <
 Number
-LengthOrPercentage
+LengthPercentage
 >
 {
 /
@@ -845,7 +845,7 @@ percentage
 >
 Length
 (
-LengthOrPercentage
+LengthPercentage
 )
 }
 impl

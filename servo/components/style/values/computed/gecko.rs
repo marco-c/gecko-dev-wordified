@@ -81,7 +81,7 @@ computed
 length
 :
 :
-LengthOrPercentage
+LengthPercentage
 ;
 use
 crate
@@ -117,6 +117,6 @@ ScrollSnapPoint
 =
 GenericScrollSnapPoint
 <
-LengthOrPercentage
+LengthPercentage
 >
 ;

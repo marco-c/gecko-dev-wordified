@@ -94,7 +94,7 @@ s
 specified
 :
 :
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 parse

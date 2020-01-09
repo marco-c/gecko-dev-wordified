@@ -605,7 +605,7 @@ make
 this
 Size2D
 <
-LengthOrPercentage
+LengthPercentage
 >
 %
 for
@@ -1595,7 +1595,7 @@ computed
 :
 :
 {
-LengthOrPercentage
+LengthPercentage
 Number
 }
 ;
@@ -1732,7 +1732,7 @@ Length
 (
 NonNegative
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 from_gecko_style_coord
@@ -1761,7 +1761,7 @@ could
 not
 convert
 to
-LengthOrPercentage
+LengthPercentage
 "
 )
 )

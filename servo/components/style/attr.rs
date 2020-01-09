@@ -4187,7 +4187,7 @@ to
 return
 Result
 <
-LengthOrPercentage
+LengthPercentage
 _
 >
 pub

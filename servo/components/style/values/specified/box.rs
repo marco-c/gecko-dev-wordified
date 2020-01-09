@@ -178,7 +178,7 @@ length
 :
 :
 {
-LengthOrPercentage
+LengthPercentage
 NonNegativeLength
 }
 ;
@@ -1881,7 +1881,7 @@ VerticalAlign
 =
 GenericVerticalAlign
 <
-LengthOrPercentage
+LengthPercentage
 >
 ;
 impl
@@ -1940,7 +1940,7 @@ try
 |
 i
 |
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse_quirky

@@ -121,7 +121,7 @@ computed
 Angle
 Integer
 Length
-LengthOrPercentage
+LengthPercentage
 Number
 Percentage
 }
@@ -195,7 +195,7 @@ Angle
 Number
 Length
 Integer
-LengthOrPercentage
+LengthPercentage
 >
 ;
 /
@@ -240,8 +240,8 @@ generic
 :
 TransformOrigin
 <
-LengthOrPercentage
-LengthOrPercentage
+LengthPercentage
+LengthPercentage
 Length
 >
 ;
@@ -305,7 +305,7 @@ Self
 :
 new
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 new_percent
@@ -317,7 +317,7 @@ Percentage
 5
 )
 )
-LengthOrPercentage
+LengthPercentage
 :
 :
 new_percent
@@ -4347,7 +4347,7 @@ x
 clone
 (
 )
-LengthOrPercentage
+LengthPercentage
 :
 :
 zero
@@ -4428,7 +4428,7 @@ TransformOperation
 :
 Translate3D
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 zero
@@ -4469,13 +4469,13 @@ TransformOperation
 :
 Translate3D
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 zero
 (
 )
-LengthOrPercentage
+LengthPercentage
 :
 :
 zero
@@ -6102,7 +6102,7 @@ generic
 :
 Translate
 <
-LengthOrPercentage
+LengthPercentage
 Length
 >
 ;

@@ -71,7 +71,7 @@ attr
 :
 {
 AttrValue
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 parse_length
 }
 ;
@@ -86,7 +86,7 @@ computed
 :
 :
 {
-CalcLengthOrPercentage
+CalcLengthPercentage
 Percentage
 }
 ;
@@ -102,7 +102,7 @@ test_length_calc
 let
 calc
 =
-CalcLengthOrPercentage
+CalcLengthPercentage
 :
 :
 new
@@ -189,7 +189,7 @@ None
 let
 calc
 =
-CalcLengthOrPercentage
+CalcLengthPercentage
 :
 :
 new
@@ -661,7 +661,7 @@ input
 str
 expected
 :
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 )
 {
 let
@@ -685,7 +685,7 @@ check
 "
 0
 "
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Length
@@ -708,7 +708,7 @@ check
 000
 %
 "
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Percentage
@@ -728,7 +728,7 @@ check
 82
 %
 "
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Percentage
@@ -746,7 +746,7 @@ check
 .
 82
 "
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Length
@@ -768,7 +768,7 @@ check
 "
 invalid
 "
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Auto
@@ -782,7 +782,7 @@ followed
 by
 invalid
 "
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Length

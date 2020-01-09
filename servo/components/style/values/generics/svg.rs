@@ -899,9 +899,9 @@ ToCss
 ]
 pub
 enum
-SvgLengthOrPercentageOrNumber
+SvgLengthPercentageOrNumber
 <
-LengthOrPercentage
+LengthPercentage
 Number
 >
 {
@@ -915,9 +915,9 @@ length
 <
 percentage
 >
-LengthOrPercentage
+LengthPercentage
 (
-LengthOrPercentage
+LengthPercentage
 )
 /
 /
@@ -935,7 +935,7 @@ Number
 /
 Parsing
 the
-SvgLengthOrPercentageOrNumber
+SvgLengthPercentageOrNumber
 .
 At
 first
@@ -956,7 +956,7 @@ length
 .
 impl
 <
-LengthOrPercentageType
+LengthPercentageType
 :
 Parse
 NumberType
@@ -965,9 +965,9 @@ Parse
 >
 Parse
 for
-SvgLengthOrPercentageOrNumber
+SvgLengthPercentageOrNumber
 <
-LengthOrPercentageType
+LengthPercentageType
 NumberType
 >
 {
@@ -1035,7 +1035,7 @@ i
 return
 Ok
 (
-SvgLengthOrPercentageOrNumber
+SvgLengthPercentageOrNumber
 :
 :
 Number
@@ -1048,7 +1048,7 @@ num
 let
 lop
 =
-LengthOrPercentageType
+LengthPercentageType
 :
 :
 parse
@@ -1060,10 +1060,10 @@ input
 ;
 Ok
 (
-SvgLengthOrPercentageOrNumber
+SvgLengthPercentageOrNumber
 :
 :
-LengthOrPercentage
+LengthPercentage
 (
 lop
 )

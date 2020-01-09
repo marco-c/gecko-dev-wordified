@@ -91,7 +91,7 @@ computed
 length
 :
 :
-LengthOrPercentage
+LengthPercentage
 ;
 use
 crate
@@ -159,7 +159,7 @@ lpcalc
 impl
 Animate
 for
-LengthOrPercentage
+LengthPercentage
 {
 #
 [
@@ -411,7 +411,7 @@ values
 computed
 :
 :
-LengthOrPercentageOrNone
+LengthPercentageOrNone
 ;
 use
 crate
@@ -436,7 +436,7 @@ animated
 GenericMaxLength
 :
 :
-LengthOrPercentageOrNone
+LengthPercentageOrNone
 (
 lopn
 )
@@ -449,20 +449,20 @@ result
 match
 lopn
 {
-LengthOrPercentageOrNone
+LengthPercentageOrNone
 :
 :
-LengthOrPercentage
+LengthPercentage
 (
 len
 )
 =
 >
 {
-LengthOrPercentageOrNone
+LengthPercentageOrNone
 :
 :
-LengthOrPercentage
+LengthPercentage
 (
 len
 .
@@ -471,7 +471,7 @@ clamp_to_non_negative
 )
 )
 }
-LengthOrPercentageOrNone
+LengthPercentageOrNone
 :
 :
 None
@@ -483,7 +483,7 @@ lopn
 GenericMaxLength
 :
 :
-LengthOrPercentageOrNone
+LengthPercentageOrNone
 (
 result
 )
@@ -561,7 +561,7 @@ animated
 GenericMozLength
 :
 :
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 (
 lopa
 )
@@ -571,7 +571,7 @@ lopa
 GenericMozLength
 :
 :
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 (
 lopa
 .

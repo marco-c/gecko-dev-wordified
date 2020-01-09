@@ -110,7 +110,7 @@ specified
 length
 :
 :
-NonNegativeLengthOrPercentageOrAuto
+NonNegativeLengthPercentageOrAuto
 ;
 use
 cssparser
@@ -168,7 +168,7 @@ BackgroundSize
 =
 GenericBackgroundSize
 <
-NonNegativeLengthOrPercentageOrAuto
+NonNegativeLengthPercentageOrAuto
 >
 ;
 impl
@@ -227,7 +227,7 @@ try
 |
 i
 |
-NonNegativeLengthOrPercentageOrAuto
+NonNegativeLengthPercentageOrAuto
 :
 :
 parse
@@ -247,7 +247,7 @@ try
 |
 i
 |
-NonNegativeLengthOrPercentageOrAuto
+NonNegativeLengthPercentageOrAuto
 :
 :
 parse
@@ -259,7 +259,7 @@ i
 .
 unwrap_or
 (
-NonNegativeLengthOrPercentageOrAuto
+NonNegativeLengthPercentageOrAuto
 :
 :
 auto
@@ -335,7 +335,7 @@ Explicit
 {
 width
 :
-NonNegativeLengthOrPercentageOrAuto
+NonNegativeLengthPercentageOrAuto
 :
 :
 auto
@@ -343,7 +343,7 @@ auto
 )
 height
 :
-NonNegativeLengthOrPercentageOrAuto
+NonNegativeLengthPercentageOrAuto
 :
 :
 auto

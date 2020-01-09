@@ -287,7 +287,7 @@ computed
 :
 {
 Integer
-LengthOrPercentage
+LengthPercentage
 }
 ;
 use
@@ -301,8 +301,8 @@ computed
 :
 :
 {
-LengthOrPercentageOrAuto
-NonNegativeLengthOrPercentageOrAuto
+LengthPercentageOrAuto
+NonNegativeLengthPercentageOrAuto
 }
 ;
 use
@@ -434,7 +434,7 @@ AllowedNumericType
 impl
 From
 <
-LengthOrPercentage
+LengthPercentage
 >
 for
 nsStyleCoord_CalcValue
@@ -444,7 +444,7 @@ from
 (
 other
 :
-LengthOrPercentage
+LengthPercentage
 )
 -
 >
@@ -503,7 +503,7 @@ From
 nsStyleCoord_CalcValue
 >
 for
-LengthOrPercentage
+LengthPercentage
 {
 fn
 from
@@ -514,7 +514,7 @@ nsStyleCoord_CalcValue
 )
 -
 >
-LengthOrPercentage
+LengthPercentage
 {
 let
 percentage
@@ -570,7 +570,7 @@ true
 }
 }
 impl
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 {
 /
 /
@@ -604,10 +604,10 @@ match
 *
 self
 {
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
-LengthOrPercentage
+LengthPercentage
 (
 len
 )
@@ -623,7 +623,7 @@ from
 len
 )
 )
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Auto
@@ -639,7 +639,7 @@ From
 nsStyleCoord_CalcValue
 >
 for
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 {
 fn
 from
@@ -650,14 +650,14 @@ nsStyleCoord_CalcValue
 )
 -
 >
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 {
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
-LengthOrPercentage
+LengthPercentage
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 from
@@ -702,7 +702,7 @@ From
 nsStyleCoord_CalcValue
 >
 for
-NonNegativeLengthOrPercentageOrAuto
+NonNegativeLengthPercentageOrAuto
 {
 fn
 from
@@ -717,12 +717,12 @@ Self
 {
 NonNegative
 (
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
-LengthOrPercentage
+LengthPercentage
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 with_clamping_mode
@@ -809,10 +809,10 @@ line_direction
 (
 horizontal
 :
-LengthOrPercentage
+LengthPercentage
 vertical
 :
-LengthOrPercentage
+LengthPercentage
 )
 -
 >
@@ -3115,7 +3115,7 @@ mAngle
 let
 horizontal_style
 =
-LengthOrPercentage
+LengthPercentage
 :
 :
 from_gecko_style_coord
@@ -3129,7 +3129,7 @@ mBgPosX
 let
 vertical_style
 =
-LengthOrPercentage
+LengthPercentage
 :
 :
 from_gecko_style_coord
@@ -3528,7 +3528,7 @@ NS_STYLE_GRADIENT_SIZE_EXPLICIT_SIZE
 >
 match
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 from_gecko_style_coord
@@ -3538,7 +3538,7 @@ gecko_gradient
 .
 mRadiusX
 )
-LengthOrPercentage
+LengthPercentage
 :
 :
 from_gecko_style_coord
@@ -3585,7 +3585,7 @@ could
 not
 convert
 to
-LengthOrPercentage
+LengthPercentage
 "
 )
 ;
@@ -3594,13 +3594,13 @@ Ellipse
 :
 Radii
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 zero
 (
 )
-LengthOrPercentage
+LengthPercentage
 :
 :
 zero
@@ -3687,7 +3687,7 @@ could
 not
 convert
 to
-LengthOrPercentage
+LengthPercentage
 "
 )
 ;
@@ -3695,7 +3695,7 @@ Position
 {
 horizontal
 :
-LengthOrPercentage
+LengthPercentage
 :
 :
 zero
@@ -3703,7 +3703,7 @@ zero
 )
 vertical
 :
-LengthOrPercentage
+LengthPercentage
 :
 :
 zero
@@ -3753,7 +3753,7 @@ GradientItem
 :
 InterpolationHint
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 from_gecko_style_coord
@@ -3772,7 +3772,7 @@ could
 not
 convert
 to
-LengthOrPercentage
+LengthPercentage
 "
 )
 )
@@ -3797,7 +3797,7 @@ into
 )
 position
 :
-LengthOrPercentage
+LengthPercentage
 :
 :
 from_gecko_style_coord
@@ -4034,7 +4034,7 @@ computed
 length
 :
 :
-LengthOrPercentage
+LengthPercentage
 ;
 use
 crate
@@ -4996,7 +4996,7 @@ Inset
 let
 t
 =
-LengthOrPercentage
+LengthPercentage
 :
 :
 from_gecko_style_coord
@@ -5013,7 +5013,7 @@ mCoordinates
 let
 r
 =
-LengthOrPercentage
+LengthPercentage
 :
 :
 from_gecko_style_coord
@@ -5030,7 +5030,7 @@ mCoordinates
 let
 b
 =
-LengthOrPercentage
+LengthPercentage
 :
 :
 from_gecko_style_coord
@@ -5047,7 +5047,7 @@ mCoordinates
 let
 l
 =
-LengthOrPercentage
+LengthPercentage
 :
 :
 from_gecko_style_coord
@@ -5359,7 +5359,7 @@ push
 (
 PolygonCoord
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 from_gecko_style_coord
@@ -5391,7 +5391,7 @@ calc
 value
 "
 )
-LengthOrPercentage
+LengthPercentage
 :
 :
 from_gecko_style_coord
@@ -5490,7 +5490,7 @@ new
 (
 NonNegative
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 from_gecko_style_coord
@@ -5525,7 +5525,7 @@ value
 )
 NonNegative
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 from_gecko_style_coord
@@ -6548,7 +6548,7 @@ User
 impl
 TrackSize
 <
-LengthOrPercentage
+LengthPercentage
 >
 {
 /
@@ -6610,7 +6610,7 @@ computed
 length
 :
 :
-LengthOrPercentage
+LengthPercentage
 ;
 use
 crate
@@ -6691,7 +6691,7 @@ TrackSize
 :
 FitContent
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 from_gecko_style_coord
@@ -6707,7 +6707,7 @@ could
 not
 convert
 to
-LengthOrPercentage
+LengthPercentage
 "
 )
 )
@@ -7014,7 +7014,7 @@ gecko_max
 impl
 TrackListValue
 <
-LengthOrPercentage
+LengthPercentage
 Integer
 >
 {

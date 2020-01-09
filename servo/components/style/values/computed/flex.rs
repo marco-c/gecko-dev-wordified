@@ -117,7 +117,7 @@ values
 computed
 :
 :
-NonNegativeLengthOrPercentageOrAuto
+NonNegativeLengthPercentageOrAuto
 ;
 /
 /
