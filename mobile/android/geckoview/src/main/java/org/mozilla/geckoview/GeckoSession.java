@@ -21906,6 +21906,7 @@ reset
 .
 *
 /
+UiThread
 void
 restartInput
 (
@@ -21964,6 +21965,7 @@ hideSoftInput
 *
 *
 /
+UiThread
 void
 showSoftInput
 (
@@ -22019,6 +22021,7 @@ showSoftInput
 *
 *
 /
+UiThread
 void
 hideSoftInput
 (
@@ -22114,6 +22117,7 @@ composition
 .
 *
 /
+UiThread
 void
 updateSelection
 (
@@ -22202,6 +22206,7 @@ text
 .
 *
 /
+UiThread
 void
 updateExtractedText
 (
@@ -22278,6 +22283,7 @@ information
 .
 *
 /
+UiThread
 void
 updateCursorAnchorInfo
 (
@@ -22656,6 +22662,7 @@ autofill
 .
 *
 /
+UiThread
 void
 notifyAutoFill
 (
