@@ -511,6 +511,12 @@ grip
 function
 reverseSearchInputToggle
 (
+{
+initialValue
+}
+=
+{
+}
 )
 {
 return
@@ -518,6 +524,7 @@ return
 type
 :
 REVERSE_SEARCH_INPUT_TOGGLE
+initialValue
 }
 ;
 }

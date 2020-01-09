@@ -200,6 +200,10 @@ false
 reverseSearchInputVisible
 :
 false
+reverseSearchInitialValue
+:
+"
+"
 }
 overrides
 )
@@ -440,6 +444,15 @@ reverseSearchInputVisible
 state
 .
 reverseSearchInputVisible
+reverseSearchInitialValue
+:
+action
+.
+initialValue
+|
+|
+"
+"
 }
 ;
 }
