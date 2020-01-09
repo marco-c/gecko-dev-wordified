@@ -175,9 +175,6 @@ nsICookiePermission
 class
 nsIEffectiveTLDService
 ;
-class
-nsILoadInfo
-;
 struct
 nsCookieAttributes
 ;
@@ -320,9 +317,10 @@ bool
 aIsSafeTopLevelNav
 bool
 aIsSameSiteForeign
-nsIChannel
-*
-aChannel
+const
+OriginAttributes
+&
+aAttrs
 nsCString
 &
 aCookieString
@@ -408,9 +406,6 @@ aPrefBranch
 bool
 RequireThirdPartyCheck
 (
-nsILoadInfo
-*
-aLoadInfo
 )
 ;
 mozilla
@@ -538,6 +533,9 @@ nsCOMPtr
 nsIEffectiveTLDService
 >
 mTLDService
+;
+uint8_t
+mCookieBehavior
 ;
 bool
 mThirdPartySession

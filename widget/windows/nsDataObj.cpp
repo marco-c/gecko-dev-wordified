@@ -723,10 +723,6 @@ aContentPolicyType
 nullptr
 /
 /
-nsICookieSettings
-nullptr
-/
-/
 PerformanceStorage
 nullptr
 /

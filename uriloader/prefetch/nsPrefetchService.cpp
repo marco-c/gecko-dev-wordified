@@ -1067,17 +1067,6 @@ ServiceWorkerDescriptor
 )
 securityFlags
 mPolicyType
-source
--
->
-OwnerDoc
-(
-)
--
->
-CookieSettings
-(
-)
 nullptr
 /
 /
