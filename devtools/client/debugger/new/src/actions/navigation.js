@@ -440,7 +440,7 @@ function
 dispatch
 getState
 client
-onReload
+panel
 }
 :
 ThunkArgs
@@ -538,8 +538,13 @@ sources
 )
 ;
 }
-onReload
+panel
+.
+emit
 (
+"
+reloaded
+"
 )
 ;
 }
