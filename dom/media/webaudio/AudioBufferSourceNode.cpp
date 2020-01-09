@@ -2900,9 +2900,8 @@ computedPlaybackRate
 =
 aPlaybackRate
 *
-pow
+exp2
 (
-2
 aDetune
 /
 1200

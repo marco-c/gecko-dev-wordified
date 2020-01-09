@@ -807,11 +807,8 @@ else
 unsigned
 npow2
 =
-powf
+exp2f
 (
-2
-.
-0f
 floorf
 (
 logf
@@ -1497,9 +1494,8 @@ keep
 float
 cullingScale
 =
-pow
+exp2
 (
-2
 -
 centsToCull
 /

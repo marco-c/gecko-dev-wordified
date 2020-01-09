@@ -960,10 +960,8 @@ finalFrequency
 =
 frequency
 *
-pow
+exp2
 (
-2
-.
 detune
 /
 1200

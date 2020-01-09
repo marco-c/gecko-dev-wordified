@@ -271,11 +271,8 @@ normalizedFrequency
 std
 :
 :
-pow
+exp2
 (
-2
-.
-0
 aDetune
 /
 1200
