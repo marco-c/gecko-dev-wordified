@@ -436,9 +436,6 @@ class
 ShutdownRunnable
 ;
 class
-ShutdownObserver
-;
-class
 Observer
 ;
 public
