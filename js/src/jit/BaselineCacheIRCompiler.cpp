@@ -1171,6 +1171,15 @@ op
 )
 ;
 }
+#
+ifdef
+DEBUG
+assertAllArgumentsConsumed
+(
+)
+;
+#
+endif
 allocator
 .
 nextOp
