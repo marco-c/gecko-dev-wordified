@@ -398,7 +398,7 @@ EncodingConstraints
 mEncodingConstraints
 ;
 struct
-SimulcastEncoding
+Encoding
 {
 std
 :
@@ -415,7 +415,7 @@ operator
 =
 (
 const
-SimulcastEncoding
+Encoding
 &
 aOther
 )
@@ -445,9 +445,9 @@ std
 :
 vector
 <
-SimulcastEncoding
+Encoding
 >
-mSimulcastEncodings
+mEncodings
 ;
 std
 :
@@ -592,12 +592,12 @@ mEncodingConstraints
 |
 !
 (
-mSimulcastEncodings
+mEncodings
 =
 =
 aRhs
 .
-mSimulcastEncodings
+mEncodings
 )
 |
 |
@@ -797,7 +797,7 @@ const
 {
 if
 (
-mSimulcastEncodings
+mEncodings
 .
 size
 (
@@ -806,7 +806,7 @@ size
 =
 aConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 size
 (
@@ -826,7 +826,7 @@ i
 ;
 i
 <
-mSimulcastEncodings
+mEncodings
 .
 size
 (
@@ -840,7 +840,7 @@ i
 if
 (
 !
-mSimulcastEncodings
+mEncodings
 [
 i
 ]
@@ -851,7 +851,7 @@ ResolutionEquals
 (
 aConfig
 .
-mSimulcastEncodings
+mEncodings
 [
 i
 ]

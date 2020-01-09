@@ -3276,12 +3276,12 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 cinst1
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -3476,7 +3476,7 @@ constraints
 ;
 cinst2
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -3714,7 +3714,7 @@ constraints
 ;
 cinst3
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -3735,7 +3735,7 @@ constraints
 ;
 cinst4
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (

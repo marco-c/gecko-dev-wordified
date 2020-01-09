@@ -2529,7 +2529,7 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 /
@@ -2547,7 +2547,7 @@ constraints
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -2888,7 +2888,7 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 constraints
@@ -2909,7 +2909,7 @@ constraints
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -3012,7 +3012,7 @@ constraints
 ;
 codecConfig2
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -3098,7 +3098,7 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 constraints
@@ -3119,7 +3119,7 @@ constraints
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -3229,7 +3229,7 @@ constraints
 ;
 codecConfig2
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -3322,7 +3322,7 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 std
@@ -3349,7 +3349,7 @@ constraints
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -3528,7 +3528,7 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 std
@@ -3558,7 +3558,7 @@ constraints
 ;
 codecConfigTias
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -3682,7 +3682,7 @@ constraints
 ;
 codecConfigTiasLow
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -3803,7 +3803,7 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 std
@@ -3838,7 +3838,7 @@ maxBr
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -3953,7 +3953,7 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 std
@@ -4011,7 +4011,7 @@ scaleDownBy
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -4028,7 +4028,7 @@ scaleDownBy
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -4199,7 +4199,7 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 std
@@ -4240,7 +4240,7 @@ constraints
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -4314,7 +4314,7 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 WebrtcGmpPCHandleSetter
@@ -4343,7 +4343,7 @@ constraints
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -4595,7 +4595,7 @@ constraints
 ;
 codecConfig2
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -4734,7 +4734,7 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 VideoCodecConfig
@@ -4749,7 +4749,7 @@ constraints
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -4874,7 +4874,7 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 VideoCodecConfig
@@ -4889,7 +4889,7 @@ constraints
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -4969,7 +4969,7 @@ ssrcs
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 clear
 (
@@ -4985,7 +4985,7 @@ rid
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -5002,7 +5002,7 @@ rid
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -5143,7 +5143,7 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 VideoCodecConfig
@@ -5158,7 +5158,7 @@ constraints
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -5689,19 +5689,19 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding2
 ;
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding3
 ;
 encoding2
@@ -5732,7 +5732,7 @@ constraints
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -5741,7 +5741,7 @@ encoding
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -5750,7 +5750,7 @@ encoding2
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -5966,7 +5966,7 @@ simulcast
 )
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 clear
 (
@@ -5974,7 +5974,7 @@ clear
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -6119,19 +6119,19 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding2
 ;
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding3
 ;
 encoding
@@ -6170,7 +6170,7 @@ constraints
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -6179,7 +6179,7 @@ encoding
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -6188,7 +6188,7 @@ encoding2
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -6588,7 +6588,7 @@ height
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 [
 0
 ]
@@ -6601,7 +6601,7 @@ scaleDownBy
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 [
 1
 ]
@@ -6614,7 +6614,7 @@ scaleDownBy
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 [
 2
 ]
@@ -6797,19 +6797,19 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding2
 ;
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding3
 ;
 encoding2
@@ -6840,7 +6840,7 @@ constraints
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -6849,7 +6849,7 @@ encoding
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -6858,7 +6858,7 @@ encoding2
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -6967,7 +6967,7 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 std
@@ -8505,7 +8505,7 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 std
@@ -8541,7 +8541,7 @@ constraints
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -8775,7 +8775,7 @@ constraints
 ;
 codecConfigFEC
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -8913,7 +8913,7 @@ constraints
 ;
 codecConfigH264
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -8994,7 +8994,7 @@ constraints
 ;
 codecConfigTias
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -9122,7 +9122,7 @@ maxBr
 ;
 codecConfigMaxBr
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -9252,7 +9252,7 @@ maxBr
 ;
 codecConfigMaxFs
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -9502,7 +9502,7 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 std
@@ -9538,7 +9538,7 @@ constraints
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -9786,7 +9786,7 @@ constraints
 ;
 codecConfigTias
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -9900,7 +9900,7 @@ maxBr
 ;
 codecConfigMaxBr
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -10016,7 +10016,7 @@ maxBr
 ;
 codecConfigMaxFs
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -10269,7 +10269,7 @@ scaleDownBy
 ;
 codecConfigScaleDownBy
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -10350,7 +10350,7 @@ mOnFrameCount
 ;
 codecConfigScaleDownBy
 .
-mSimulcastEncodings
+mEncodings
 [
 0
 ]
@@ -10458,7 +10458,7 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 std
@@ -10485,7 +10485,7 @@ constraints
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -10747,7 +10747,7 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 std
@@ -10782,7 +10782,7 @@ maxFs
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -11270,7 +11270,7 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 std
@@ -11313,7 +11313,7 @@ maxHeight
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -11575,7 +11575,7 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 encoding
@@ -11618,7 +11618,7 @@ maxFs
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -11849,19 +11849,19 @@ constraints
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding2
 ;
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding3
 ;
 encoding
@@ -11900,7 +11900,7 @@ constraints
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -11909,7 +11909,7 @@ encoding
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
@@ -11918,7 +11918,7 @@ encoding2
 ;
 codecConfig
 .
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
