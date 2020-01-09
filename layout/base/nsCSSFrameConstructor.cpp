@@ -17844,7 +17844,7 @@ nsCSSFrameConstructor
 :
 ConstructRootFrame
 "
-LAYOUT
+LAYOUT_FrameConstruction
 )
 ;
 AUTO_LAYOUT_PHASE_ENTRY_POINT
@@ -44946,7 +44946,7 @@ nsCSSFrameConstructor
 :
 ContentAppended
 "
-LAYOUT
+LAYOUT_FrameConstruction
 )
 ;
 AUTO_LAYOUT_PHASE_ENTRY_POINT
@@ -47267,7 +47267,7 @@ nsCSSFrameConstructor
 :
 ContentRangeInserted
 "
-LAYOUT
+LAYOUT_FrameConstruction
 )
 ;
 AUTO_LAYOUT_PHASE_ENTRY_POINT
@@ -50452,7 +50452,7 @@ nsCSSFrameConstructor
 :
 ContentRemoved
 "
-LAYOUT
+LAYOUT_FrameConstruction
 )
 ;
 AUTO_LAYOUT_PHASE_ENTRY_POINT
@@ -53629,7 +53629,7 @@ nsCSSFrameConstructor
 :
 CharacterDataChanged
 "
-LAYOUT
+LAYOUT_FrameConstruction
 )
 ;
 AUTO_LAYOUT_PHASE_ENTRY_POINT
