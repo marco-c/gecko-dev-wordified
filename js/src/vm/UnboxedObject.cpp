@@ -934,7 +934,7 @@ SP
 .
 masm
 .
-initStackPtr
+initPseudoStackPtr
 (
 )
 ;

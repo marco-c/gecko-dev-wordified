@@ -1059,7 +1059,7 @@ SP
 .
 masm
 .
-initStackPtr
+initPseudoStackPtr
 (
 )
 ;
