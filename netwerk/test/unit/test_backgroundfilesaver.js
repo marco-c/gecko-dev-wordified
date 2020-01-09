@@ -1224,7 +1224,6 @@ onStopRequest
 function
 (
 aRequest
-aContext
 aStatusCode
 )
 {
@@ -1433,7 +1432,6 @@ function
 PPTS_onStartRequest
 (
 aRequest
-aContext
 )
 {
 aSaverStreamListener
@@ -1441,7 +1439,6 @@ aSaverStreamListener
 onStartRequest
 (
 aRequest
-aContext
 )
 ;
 }
@@ -1451,7 +1448,6 @@ function
 PPTS_onStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 {
@@ -1460,7 +1456,6 @@ aSaverStreamListener
 onStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 ;

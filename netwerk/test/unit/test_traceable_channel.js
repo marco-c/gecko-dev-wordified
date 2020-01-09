@@ -151,7 +151,6 @@ onStartRequest
 function
 (
 request
-context
 )
 {
 dump
@@ -358,7 +357,6 @@ onStopRequest
 function
 (
 request
-context
 statusCode
 )
 {

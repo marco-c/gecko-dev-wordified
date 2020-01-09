@@ -571,7 +571,6 @@ onStartRequest
 function
 (
 request
-context
 )
 {
 /
@@ -828,7 +827,6 @@ listener
 onStartRequest
 (
 request
-context
 )
 ;
 /
@@ -931,7 +929,7 @@ listener
 onDataAvailable
 (
 request
-context
+null
 stream
 0
 stream
@@ -947,7 +945,6 @@ onStopRequest
 function
 (
 request
-context
 statusCode
 )
 {
@@ -981,7 +978,6 @@ listener
 onStopRequest
 (
 request
-context
 statusCode
 )
 ;

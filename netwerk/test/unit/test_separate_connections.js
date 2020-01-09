@@ -322,7 +322,6 @@ onStartRequest
 function
 (
 request
-context
 )
 {
 request

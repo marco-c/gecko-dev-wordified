@@ -25459,12 +25459,6 @@ for
 the
 transfer
 *
-param
-context
-*
-Additional
-data
-*
 /
 onStartRequest
 :
@@ -25472,7 +25466,6 @@ function
 Downloader_onStartRequest
 (
 request
-context
 )
 {
 if
@@ -25626,7 +25619,6 @@ i
 onStartRequest
 (
 request
-context
 )
 ;
 }
@@ -26074,12 +26066,6 @@ the
 transfer
 *
 param
-context
-*
-Additional
-data
-*
-param
 status
 *
 Status
@@ -26111,7 +26097,6 @@ function
 Downloader_onStopRequest
 (
 request
-context
 status
 )
 {
@@ -27351,7 +27336,6 @@ i
 onStopRequest
 (
 request
-context
 status
 )
 ;

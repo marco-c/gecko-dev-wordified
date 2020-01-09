@@ -425,7 +425,6 @@ function
 onStartRequest
 (
 aRequest
-aContext
 )
 {
 if
@@ -441,7 +440,6 @@ outputListener
 onStartRequest
 (
 aRequest
-aContext
 )
 ;
 this
@@ -501,7 +499,6 @@ function
 onStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 {
@@ -518,7 +515,6 @@ outputListener
 onStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 ;

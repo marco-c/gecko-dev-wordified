@@ -259,14 +259,12 @@ outputStream
 onStartRequest
 (
 request
-context
 )
 {
 }
 onStopRequest
 (
 request
-context
 statusCode
 )
 {

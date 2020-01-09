@@ -2238,7 +2238,6 @@ idl
 onStartRequest
 (
 aRequest
-aContext
 )
 {
 }
@@ -2255,7 +2254,6 @@ idl
 onStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 {

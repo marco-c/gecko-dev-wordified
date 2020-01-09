@@ -2564,7 +2564,6 @@ delayTimeout
 onStopRequest
 (
 channel
-context
 statusCode
 )
 {

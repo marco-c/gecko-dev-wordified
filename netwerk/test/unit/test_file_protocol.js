@@ -416,7 +416,6 @@ onStartRequest
 function
 (
 request
-context
 )
 {
 if
@@ -588,7 +587,6 @@ onStopRequest
 function
 (
 request
-context
 status
 )
 {

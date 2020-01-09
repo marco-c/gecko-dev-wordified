@@ -254,7 +254,6 @@ nsIRequestObserver
 onStartRequest
 (
 aRequest
-aContext
 )
 {
 let

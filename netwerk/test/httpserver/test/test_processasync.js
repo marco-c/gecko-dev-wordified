@@ -390,7 +390,6 @@ function
 start_handleSync
 (
 ch
-cx
 )
 {
 Assert
@@ -678,7 +677,6 @@ function
 start_handleAsync1
 (
 ch
-cx
 )
 {
 Assert
@@ -731,7 +729,6 @@ function
 stop_handleAsync1
 (
 ch
-cx
 status
 data
 )
@@ -1094,7 +1091,6 @@ function
 start_handleAsync2
 (
 ch
-cx
 )
 {
 var
@@ -1198,7 +1194,6 @@ function
 stop_handleAsync2
 (
 ch
-cx
 status
 data
 )
@@ -1564,7 +1559,6 @@ function
 stop_handleAsyncOrdering
 (
 ch
-cx
 status
 data
 )

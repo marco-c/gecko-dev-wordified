@@ -488,7 +488,6 @@ function
 verifyRawText
 (
 channel
-cx
 status
 bytes
 )
@@ -570,7 +569,6 @@ function
 checkType
 (
 ch
-cx
 )
 {
 if
@@ -621,7 +619,6 @@ function
 checkContents
 (
 ch
-cx
 status
 data
 )
@@ -762,7 +759,6 @@ function
 contentAndCleanup
 (
 ch
-cx
 status
 data
 )
@@ -770,7 +766,6 @@ data
 checkContents
 (
 ch
-cx
 status
 data
 )
@@ -1012,7 +1007,6 @@ function
 checkNotSJS
 (
 ch
-cx
 status
 data
 )
@@ -1104,7 +1098,6 @@ function
 checkRangeResult
 (
 ch
-cx
 )
 {
 try
@@ -1445,7 +1438,6 @@ function
 onStart
 (
 ch
-cx
 )
 {
 Assert
@@ -1467,7 +1459,6 @@ function
 onStop
 (
 ch
-cx
 status
 data
 )

@@ -749,7 +749,6 @@ onStartRequest
 function
 (
 request
-ctx
 )
 {
 }
@@ -770,7 +769,6 @@ onStopRequest
 function
 (
 request
-ctx
 status
 )
 {

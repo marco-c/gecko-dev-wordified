@@ -1080,7 +1080,6 @@ NS_BINDING_ABORTED
 onStartRequest
 (
 request
-context
 )
 {
 }
@@ -1143,7 +1142,6 @@ async
 onStopRequest
 (
 request
-context
 statusCode
 )
 {

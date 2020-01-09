@@ -8754,7 +8754,6 @@ function
 ll_start
 (
 aRequest
-aContext
 )
 {
 appstartup
@@ -8770,7 +8769,6 @@ function
 ll_stop
 (
 aRequest
-aContext
 aStatusCode
 )
 {

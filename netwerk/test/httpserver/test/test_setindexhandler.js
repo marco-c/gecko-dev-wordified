@@ -259,7 +259,6 @@ function
 startCustomIndexHandler
 (
 ch
-cx
 )
 {
 Assert
@@ -293,7 +292,6 @@ function
 stopCustomIndexHandler
 (
 ch
-cx
 status
 data
 )
@@ -334,7 +332,6 @@ function
 startDefaultIndexHandler
 (
 ch
-cx
 )
 {
 Assert
@@ -352,7 +349,6 @@ function
 stopDefaultIndexHandler
 (
 ch
-cx
 status
 data
 )
