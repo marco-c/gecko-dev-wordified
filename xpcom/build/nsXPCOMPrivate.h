@@ -276,16 +276,6 @@ SetICUMemoryFunctions
 (
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
-void
-SetGMPMemoryFunctions
-(
-)
-;
-#
-endif
 /
 *
 *
