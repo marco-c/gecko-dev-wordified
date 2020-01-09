@@ -899,10 +899,10 @@ NO_DIRECTIVE
 define
 FOR_EACH_CSP_KEYWORD
 (
-macro
+MACRO
 )
 \
-macro
+MACRO
 (
 CSP_SELF
 "
@@ -912,7 +912,7 @@ self
 "
 )
 \
-macro
+MACRO
 (
 CSP_UNSAFE_INLINE
 "
@@ -924,7 +924,7 @@ inline
 "
 )
 \
-macro
+MACRO
 (
 CSP_UNSAFE_EVAL
 "
@@ -936,7 +936,7 @@ eval
 "
 )
 \
-macro
+MACRO
 (
 CSP_NONE
 "
@@ -946,7 +946,7 @@ none
 "
 )
 \
-macro
+MACRO
 (
 CSP_NONCE
 "
@@ -956,7 +956,7 @@ nonce
 "
 )
 \
-macro
+MACRO
 (
 CSP_REQUIRE_SRI_FOR
 "
@@ -968,7 +968,7 @@ for
 "
 )
 \
-macro
+MACRO
 (
 CSP_REPORT_SAMPLE
 "
@@ -980,7 +980,7 @@ sample
 "
 )
 \
-macro
+MACRO
 (
 CSP_STRICT_DYNAMIC
 "
