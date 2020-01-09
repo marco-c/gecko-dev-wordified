@@ -958,8 +958,6 @@ gBrowser
 about
 :
 preferences
-#
-search
 "
 )
 ;

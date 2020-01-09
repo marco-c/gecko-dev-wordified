@@ -132,7 +132,7 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
-paneSync
+paneGeneral
 "
 {
 leaveOpen

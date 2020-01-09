@@ -656,7 +656,7 @@ addObserver
 (
 this
 "
-privacy
+sync
 -
 pane
 -
@@ -887,7 +887,7 @@ topic
 {
 case
 "
-privacy
+sync
 -
 pane
 -
@@ -1797,7 +1797,7 @@ removeObserver
 (
 this
 "
-privacy
+sync
 -
 pane
 -
