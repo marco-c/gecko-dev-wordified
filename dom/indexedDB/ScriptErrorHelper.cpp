@@ -628,6 +628,14 @@ mode
 *
 /
 false
+/
+*
+from
+chrome
+context
+*
+/
+aIsChrome
 )
 )
 ;

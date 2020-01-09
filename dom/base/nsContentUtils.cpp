@@ -22709,6 +22709,8 @@ char
 classification
 bool
 aFromPrivateWindow
+bool
+aFromChromeContext
 )
 {
 nsCOMPtr
@@ -22765,6 +22767,7 @@ nsIScriptError
 errorFlag
 classification
 aFromPrivateWindow
+aFromChromeContext
 )
 )
 )
@@ -32401,6 +32404,11 @@ privateBrowsing
 =
 false
 ;
+bool
+chromeContext
+=
+false
+;
 if
 (
 aDocument
@@ -32467,6 +32475,18 @@ OriginAttributesRef
 .
 mPrivateBrowsingId
 ;
+chromeContext
+=
+IsSystemPrincipal
+(
+aDocument
+-
+>
+NodePrincipal
+(
+)
+)
+;
 }
 msg
 .
@@ -32493,6 +32513,7 @@ msg
 DOM
 "
 privateBrowsing
+chromeContext
 )
 ;
 }

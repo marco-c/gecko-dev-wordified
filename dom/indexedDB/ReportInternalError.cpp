@@ -257,6 +257,17 @@ private
 window
 *
 /
+true
+/
+*
+Internal
+errors
+are
+chrome
+context
+only
+*
+/
 )
 ;
 }
