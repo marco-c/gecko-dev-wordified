@@ -144,7 +144,7 @@ mozilla
 /
 mscom
 /
-MainThreadRuntime
+ProcessRuntime
 .
 h
 "
