@@ -4781,6 +4781,9 @@ nsContentUtils
 :
 ShouldResistFingerprinting
 (
+GetDocShell
+(
+)
 )
 )
 {
