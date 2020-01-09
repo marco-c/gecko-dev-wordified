@@ -848,6 +848,10 @@ gecko_bindings
 ;
 pub
 mod
+global_style_data
+;
+pub
+mod
 hash
 ;
 pub
