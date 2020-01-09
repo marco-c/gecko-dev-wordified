@@ -5009,6 +5009,7 @@ TextureCache
 new
 (
 2048
+1024
 )
 ;
 let
@@ -5360,6 +5361,7 @@ TextureCache
 new
 (
 4096
+1024
 )
 &
 mut
