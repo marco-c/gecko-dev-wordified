@@ -476,9 +476,6 @@ mDrawTarget
 Mutex
 mChangeMutex
 ;
-bool
-mIsMapped
-;
 }
 ;
 }
