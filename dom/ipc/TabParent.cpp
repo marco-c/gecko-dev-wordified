@@ -6169,6 +6169,7 @@ aActor
 >
 Init
 (
+aInit
 )
 ;
 return
