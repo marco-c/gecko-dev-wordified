@@ -113,7 +113,7 @@ include
 "
 frontend
 /
-BinTokenReaderBase
+BinASTTokenReaderBase
 .
 h
 "
@@ -191,7 +191,7 @@ NULL_FLOAT_REPRESENTATION
 0x7FF0000000000001
 ;
 void
-BinTokenReaderBase
+BinASTTokenReaderBase
 :
 :
 updateLatestKnownGood
@@ -235,7 +235,7 @@ JS
 Error
 &
 >
-BinTokenReaderBase
+BinASTTokenReaderBase
 :
 :
 raiseError
@@ -280,7 +280,7 @@ JS
 Error
 &
 >
-BinTokenReaderBase
+BinASTTokenReaderBase
 :
 :
 raiseOOM
@@ -309,7 +309,7 @@ JS
 Error
 &
 >
-BinTokenReaderBase
+BinASTTokenReaderBase
 :
 :
 raiseInvalidNumberOfFields
@@ -390,7 +390,7 @@ JS
 Error
 &
 >
-BinTokenReaderBase
+BinASTTokenReaderBase
 :
 :
 raiseInvalidField
@@ -456,7 +456,7 @@ string
 ;
 }
 bool
-BinTokenReaderBase
+BinASTTokenReaderBase
 :
 :
 hasRaisedError
@@ -521,7 +521,7 @@ isExceptionPending
 ;
 }
 size_t
-BinTokenReaderBase
+BinASTTokenReaderBase
 :
 :
 offset
@@ -536,7 +536,7 @@ start_
 ;
 }
 TokenPos
-BinTokenReaderBase
+BinASTTokenReaderBase
 :
 :
 pos
@@ -553,7 +553,7 @@ offset
 ;
 }
 TokenPos
-BinTokenReaderBase
+BinASTTokenReaderBase
 :
 :
 pos
@@ -596,7 +596,7 @@ pos
 ;
 }
 void
-BinTokenReaderBase
+BinASTTokenReaderBase
 :
 :
 seek
@@ -636,7 +636,7 @@ Result
 <
 Ok
 >
-BinTokenReaderBase
+BinASTTokenReaderBase
 :
 :
 readBuf
@@ -723,7 +723,7 @@ Result
 <
 uint8_t
 >
-BinTokenReaderBase
+BinASTTokenReaderBase
 :
 :
 readByte

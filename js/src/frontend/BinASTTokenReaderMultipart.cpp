@@ -113,7 +113,7 @@ include
 "
 frontend
 /
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 .
 h
 "
@@ -358,7 +358,7 @@ MAX_NUMBER_OF_STRINGS
 using
 AutoList
 =
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 AutoList
@@ -366,7 +366,7 @@ AutoList
 using
 AutoTaggedTuple
 =
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 AutoTaggedTuple
@@ -382,15 +382,15 @@ CharSlice
 using
 Chars
 =
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 Chars
 ;
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 (
 JSContext
 *
@@ -407,7 +407,7 @@ size_t
 length
 )
 :
-BinTokenReaderBase
+BinASTTokenReaderBase
 (
 cx
 er
@@ -429,11 +429,11 @@ er
 )
 ;
 }
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 ~
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 (
 )
 {
@@ -461,7 +461,7 @@ metadata_
 }
 BinASTSourceMetadata
 *
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 takeMetadata
@@ -497,7 +497,7 @@ Result
 <
 Ok
 >
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 initFromScriptSource
@@ -536,7 +536,7 @@ Result
 <
 Ok
 >
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 readHeader
@@ -1512,7 +1512,7 @@ Ok
 ;
 }
 void
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 traceMetadata
@@ -1544,7 +1544,7 @@ Result
 <
 bool
 >
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 readBool
@@ -1656,7 +1656,7 @@ Result
 <
 double
 >
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 readDouble
@@ -1818,7 +1818,7 @@ Result
 JSAtom
 *
 >
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 readMaybeAtom
@@ -1881,7 +1881,7 @@ Result
 JSAtom
 *
 >
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 readAtom
@@ -1924,7 +1924,7 @@ Result
 JSAtom
 *
 >
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 readMaybeIdentifierName
@@ -1976,7 +1976,7 @@ Result
 JSAtom
 *
 >
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 readIdentifierName
@@ -2022,7 +2022,7 @@ Result
 JSAtom
 *
 >
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 readMaybePropertyKey
@@ -2043,7 +2043,7 @@ Result
 JSAtom
 *
 >
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 readPropertyKey
@@ -2063,7 +2063,7 @@ Result
 <
 Ok
 >
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 readChars
@@ -2137,7 +2137,7 @@ Result
 <
 BinVariant
 >
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 readVariant
@@ -2374,12 +2374,12 @@ JS
 :
 Result
 <
-BinTokenReaderBase
+BinASTTokenReaderBase
 :
 :
 SkippableSubTree
 >
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 readSkippableSubTree
@@ -2441,7 +2441,7 @@ current_
 byteLen
 ;
 return
-BinTokenReaderBase
+BinASTTokenReaderBase
 :
 :
 SkippableSubTree
@@ -2488,7 +2488,7 @@ Result
 <
 Ok
 >
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 enterTaggedTuple
@@ -2496,7 +2496,7 @@ enterTaggedTuple
 BinKind
 &
 tag
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 BinFields
@@ -2623,7 +2623,7 @@ Result
 <
 Ok
 >
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 enterList
@@ -2657,7 +2657,7 @@ Ok
 ;
 }
 void
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 AutoBase
@@ -2672,7 +2672,7 @@ initialized_
 true
 ;
 }
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 AutoBase
@@ -2680,7 +2680,7 @@ AutoBase
 :
 AutoBase
 (
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 &
 reader
 )
@@ -2695,7 +2695,7 @@ reader
 )
 {
 }
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 AutoBase
@@ -2768,7 +2768,7 @@ Result
 <
 Ok
 >
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 AutoBase
@@ -2817,7 +2817,7 @@ Ok
 )
 ;
 }
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 AutoList
@@ -2825,7 +2825,7 @@ AutoList
 :
 AutoList
 (
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 &
 reader
 )
@@ -2837,7 +2837,7 @@ reader
 {
 }
 void
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 AutoList
@@ -2862,7 +2862,7 @@ Result
 <
 Ok
 >
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 AutoList
@@ -2939,7 +2939,7 @@ Result
 <
 uint32_t
 >
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 readInternalUint32
@@ -3059,7 +3059,7 @@ readInternalUint32
 }
 }
 }
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 AutoTaggedTuple
@@ -3067,7 +3067,7 @@ AutoTaggedTuple
 :
 AutoTaggedTuple
 (
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 &
 reader
 )
@@ -3085,7 +3085,7 @@ Result
 <
 Ok
 >
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 :
 :
 AutoTaggedTuple

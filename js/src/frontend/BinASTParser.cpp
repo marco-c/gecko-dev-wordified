@@ -228,7 +228,7 @@ include
 "
 frontend
 /
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 .
 h
 "
@@ -30210,7 +30210,7 @@ template
 class
 BinASTParser
 <
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 >
 ;
 }

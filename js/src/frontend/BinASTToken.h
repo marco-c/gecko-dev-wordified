@@ -151,10 +151,10 @@ md
 .
 #
 ifndef
-frontend_BinToken_h
+frontend_BinASTToken_h
 #
 define
-frontend_BinToken_h
+frontend_BinASTToken_h
 #
 include
 <
@@ -2755,4 +2755,4 @@ js
 endif
 /
 /
-frontend_BinToken_h
+frontend_BinASTToken_h
