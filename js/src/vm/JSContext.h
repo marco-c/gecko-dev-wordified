@@ -2295,6 +2295,12 @@ addPendingOutOfMemory
 (
 )
 ;
+bool
+isCompileErrorPending
+(
+)
+const
+;
 JSRuntime
 *
 runtime
