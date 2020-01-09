@@ -124,13 +124,6 @@ h
 #
 include
 "
-AccessibleOrProxy
-.
-h
-"
-#
-include
-"
 nsAccessibilityService
 .
 h
@@ -1511,7 +1504,8 @@ static
 bool
 MustPrune
 (
-AccessibleOrProxy
+Accessible
+*
 aAccessible
 )
 ;
