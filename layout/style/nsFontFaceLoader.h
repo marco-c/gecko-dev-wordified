@@ -408,6 +408,16 @@ nsIStreamLoader
 *
 mStreamLoader
 ;
+bool
+mInStreamComplete
+=
+false
+;
+bool
+mInLoadTimerCallback
+=
+false
+;
 }
 ;
 #
