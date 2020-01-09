@@ -99,3 +99,15 @@ rotate
 )
 ;
 }
+.
+debug
+-
+target
+-
+pane__title
+{
+cursor
+:
+pointer
+;
+}

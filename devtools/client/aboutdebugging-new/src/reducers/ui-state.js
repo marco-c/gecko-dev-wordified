@@ -119,6 +119,9 @@ locations
 selectedPage
 :
 null
+selectedRuntime
+:
+null
 showSystemAddons
 wifiEnabled
 }
@@ -246,6 +249,7 @@ PAGE_SELECTED
 const
 {
 page
+runtimeId
 }
 =
 action
@@ -262,6 +266,9 @@ state
 selectedPage
 :
 page
+selectedRuntime
+:
+runtimeId
 }
 )
 ;
