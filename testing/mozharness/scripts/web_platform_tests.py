@@ -1830,9 +1830,7 @@ s
 %
 self
 .
-query_symbols_url
-(
-)
+symbols_path
                 
 "
 -
