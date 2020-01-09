@@ -1011,8 +1011,6 @@ lir
 Register
 obj
 Register
-expandoScratch
-Register
 scratch
 const
 TypedOrValueRegister
@@ -1028,8 +1026,6 @@ LInstruction
 lir
 Register
 obj
-Register
-expandoScratch
 Register
 scratch
 const
