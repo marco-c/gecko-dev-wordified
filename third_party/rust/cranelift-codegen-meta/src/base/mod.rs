@@ -10,5 +10,9 @@ language
 .
 pub
 mod
+settings
+;
+pub
+mod
 types
 ;

@@ -2609,7 +2609,6 @@ def
 gen_constructor
 (
 sgrp
-parent
 fmt
 )
 :
@@ -2619,7 +2618,6 @@ type
 :
 (
 SettingGroup
-PredContext
 srcgen
 .
 Formatter
@@ -3169,7 +3167,6 @@ byte_size
 gen_constructor
 (
 sgrp
-None
 fmt
 )
     

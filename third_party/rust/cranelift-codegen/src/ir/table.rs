@@ -10,7 +10,7 @@ ir
 immediates
 :
 :
-Imm64
+Uimm64
 ;
 use
 ir
@@ -93,7 +93,7 @@ checking
 pub
 min_size
 :
-Imm64
+Uimm64
 /
 /
 /
@@ -128,7 +128,7 @@ bytes
 pub
 element_size
 :
-Imm64
+Uimm64
 /
 /
 /

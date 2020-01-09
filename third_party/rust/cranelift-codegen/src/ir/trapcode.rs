@@ -166,6 +166,13 @@ fault
 on
 the
 heap
+unmapped
+or
+/
+/
+/
+offset
+-
 guard
 pages
 .

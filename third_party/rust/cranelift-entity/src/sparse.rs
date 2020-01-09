@@ -99,6 +99,12 @@ Dec
 1993
 .
 use
+map
+:
+:
+SecondaryMap
+;
+use
 std
 :
 :
@@ -126,10 +132,7 @@ vec
 Vec
 ;
 use
-{
 EntityRef
-SecondaryMap
-}
 ;
 /
 /

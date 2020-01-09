@@ -1570,15 +1570,11 @@ T
 >
 {
 Zero
-(
-)
 One
 (
 T
 )
 More
-(
-)
 }
 #
 [
@@ -4534,8 +4530,6 @@ ZeroOneOrMore
 :
 :
 Zero
-(
-)
 ;
 /
 /
@@ -4613,8 +4607,6 @@ ZeroOneOrMore
 :
 :
 Zero
-(
-)
 =
 >
 {
@@ -4664,8 +4656,6 @@ ZeroOneOrMore
 :
 :
 More
-(
-)
 ;
 }
 }
@@ -4673,8 +4663,6 @@ ZeroOneOrMore
 :
 :
 More
-(
-)
 =
 >
 {
@@ -4691,8 +4679,6 @@ ZeroOneOrMore
 :
 :
 Zero
-(
-)
 =
 >
 {
@@ -5006,8 +4992,6 @@ ZeroOneOrMore
 :
 :
 More
-(
-)
 =
 >
 {

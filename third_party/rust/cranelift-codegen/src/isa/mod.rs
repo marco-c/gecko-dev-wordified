@@ -1664,7 +1664,7 @@ CallConv
 CallConv
 :
 :
-default_for_triple
+triple_default
 (
 self
 .

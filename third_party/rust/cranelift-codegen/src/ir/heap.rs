@@ -10,7 +10,7 @@ ir
 immediates
 :
 :
-Imm64
+Uimm64
 ;
 use
 ir
@@ -93,7 +93,7 @@ checking
 pub
 min_size
 :
-Imm64
+Uimm64
 /
 /
 /
@@ -102,6 +102,8 @@ in
 bytes
 of
 the
+offset
+-
 guard
 pages
 following
@@ -109,9 +111,9 @@ the
 heap
 .
 pub
-guard_size
+offset_guard_size
 :
-Imm64
+Uimm64
 /
 /
 /
@@ -232,6 +234,8 @@ the
 /
 /
 /
+offset
+-
 guard
 pages
 .
@@ -246,6 +250,8 @@ in
 bytes
 .
 The
+offset
+-
 guard
 pages
 are
@@ -256,7 +262,7 @@ bound
 .
 bound
 :
-Imm64
+Uimm64
 }
 }
 impl
@@ -400,7 +406,7 @@ write
 (
 f
 "
-guard
+offset_guard
 {
 }
 index_type
@@ -409,7 +415,7 @@ index_type
 "
 self
 .
-guard_size
+offset_guard_size
 self
 .
 index_type

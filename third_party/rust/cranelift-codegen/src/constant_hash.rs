@@ -505,6 +505,16 @@ python
 constant_hash
 .
 py
+and
+lib
+/
+codegen
+/
+meta
+/
+constant_hash
+.
+rs
 .
 pub
 fn

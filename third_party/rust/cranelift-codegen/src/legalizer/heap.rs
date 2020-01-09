@@ -321,7 +321,7 @@ Function
 let
 access_size
 =
-i64
+u64
 :
 :
 from
@@ -519,7 +519,11 @@ iadd_imm
 (
 bound
 -
+(
 access_size
+as
+i64
+)
 )
 ;
 oob
@@ -568,6 +572,8 @@ iconst
 (
 offset_ty
 access_size
+as
+i64
 )
 ;
 let
@@ -693,7 +699,7 @@ access_size
 u32
 bound
 :
-i64
+u64
 func
 :
 &
@@ -712,7 +718,7 @@ ControlFlowGraph
 let
 access_size
 =
-i64
+u64
 :
 :
 from
@@ -938,7 +944,13 @@ limit
 =
 bound
 -
+u64
+:
+:
+from
+(
 access_size
+)
 ;
 /
 /
@@ -1044,6 +1056,8 @@ IntCC
 UnsignedGreaterThanOrEqual
 offset
 limit
+as
+i64
 -
 1
 )
@@ -1064,6 +1078,8 @@ IntCC
 UnsignedGreaterThan
 offset
 limit
+as
+i64
 )
 }
 ;

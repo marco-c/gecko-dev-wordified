@@ -827,17 +827,6 @@ fmt
 mut
 Formatter
 )
--
->
-Result
-<
-(
-)
-error
-:
-:
-Error
->
 {
 /
 /
@@ -1219,11 +1208,6 @@ line
 "
 )
 ;
-Ok
-(
-(
-)
-)
 }
 pub
 fn
@@ -1231,6 +1215,7 @@ generate
 (
 isa
 :
+&
 TargetIsa
 base_filename
 :
@@ -1272,7 +1257,6 @@ isa
 mut
 fmt
 )
-?
 ;
 fmt
 .
