@@ -12347,6 +12347,17 @@ dom_reporting_delivering_maxReports
 uint32_t
 100
 )
+VARCACHE_PREF
+(
+"
+medium_high_event_queue
+.
+enabled
+"
+medium_high_event_queue_enabled
+RelaxedAtomicBool
+true
+)
 /
 /
 -

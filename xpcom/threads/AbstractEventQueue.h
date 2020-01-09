@@ -159,6 +159,7 @@ EventQueuePriority
 {
 High
 Input
+MediumHigh
 Normal
 DeferredTimers
 Idle
