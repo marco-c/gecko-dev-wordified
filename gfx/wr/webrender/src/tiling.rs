@@ -152,12 +152,6 @@ TypedVector2D
 }
 ;
 use
-frame_builder
-:
-:
-FrameGlobalResources
-;
-use
 gpu_cache
 :
 :
@@ -601,13 +595,6 @@ pub
 screen_world_rect
 :
 WorldRect
-pub
-globals
-:
-&
-'
-a
-FrameGlobalResources
 }
 /
 /

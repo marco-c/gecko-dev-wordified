@@ -3777,9 +3777,6 @@ take
 (
 )
 {
-let
-globals
-=
 frame_builder
 .
 destroy
@@ -3793,6 +3790,7 @@ self
 clip_scroll_tree
 )
 ;
+}
 /
 /
 Provide
@@ -3816,13 +3814,11 @@ built_scene
 .
 frame_builder
 .
-set_retained_resources
+set_retained_tiles
 (
 retained_tiles
-globals
 )
 ;
-}
 self
 .
 frame_builder
