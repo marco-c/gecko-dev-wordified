@@ -1710,7 +1710,7 @@ timelineTime
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 ;
@@ -1745,7 +1745,7 @@ TimeDuration
 >
 previousCurrentTime
 =
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 ;
@@ -1955,7 +1955,7 @@ timelineTime
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 ;
@@ -2102,7 +2102,7 @@ aSeekTime
 )
 =
 =
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 )
@@ -2272,7 +2272,7 @@ TimeDuration
 >
 previousTime
 =
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 ;
@@ -2306,7 +2306,7 @@ In
 the
 case
 where
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 returns
@@ -2314,9 +2314,9 @@ the
 same
 result
 before
+/
+/
 and
-/
-/
 after
 updating
 mPlaybackRate
@@ -2825,7 +2825,7 @@ mTimeline
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .
@@ -2946,7 +2946,7 @@ timelineTime
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .
@@ -2971,7 +2971,7 @@ mStartTime
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 ;
@@ -3127,7 +3127,7 @@ TimeDuration
 >
 currentTime
 =
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 ;
@@ -3562,7 +3562,7 @@ TimeDuration
 bool
 didChange
 =
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 !
@@ -3687,7 +3687,7 @@ mTimeline
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .
@@ -3703,7 +3703,7 @@ StartTimeFromTimelineTime
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .
@@ -3956,7 +3956,7 @@ mTimeline
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .
@@ -4312,7 +4312,7 @@ AnimationUtils
 :
 TimeDurationToDouble
 (
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 )
@@ -4348,7 +4348,7 @@ IsNull
 if
 (
 !
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .
@@ -4519,7 +4519,7 @@ mTimeline
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .
@@ -4594,7 +4594,7 @@ currentTime
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .
@@ -4653,7 +4653,7 @@ mTimeline
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .
@@ -4677,7 +4677,7 @@ FinishPendingAt
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .
@@ -5024,7 +5024,7 @@ mTimeline
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .
@@ -5056,7 +5056,7 @@ FinishPendingAt
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .
@@ -5712,7 +5712,7 @@ mTimeline
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .
@@ -5745,7 +5745,7 @@ mTimeline
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .
@@ -5771,7 +5771,7 @@ StartTimeFromTimelineTime
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .
@@ -6743,7 +6743,7 @@ returned
 by
 /
 /
-GetCurrentTime
+GetCurrentTimeAsDuration
 .
 These
 are
@@ -7461,7 +7461,7 @@ TimeDuration
 >
 currentTime
 =
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 ;
@@ -8193,7 +8193,7 @@ current
 time
 if
 (
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .
@@ -8982,7 +8982,7 @@ TimeDuration
 >
 currentTime
 =
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 ;
@@ -9215,7 +9215,7 @@ mTimeline
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .
@@ -9250,7 +9250,7 @@ StartTimeFromTimelineTime
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .
@@ -9341,7 +9341,7 @@ made
 .
 mPreviousCurrentTime
 =
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 ;
@@ -10047,7 +10047,7 @@ mTimeline
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .

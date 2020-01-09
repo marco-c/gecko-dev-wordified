@@ -2387,7 +2387,7 @@ result
 mAnimation
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 ;
