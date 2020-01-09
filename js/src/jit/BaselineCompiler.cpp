@@ -15869,7 +15869,8 @@ BindVarFn
 (
 JSContext
 *
-HandleObject
+JSObject
+*
 )
 ;
 static
@@ -15882,12 +15883,9 @@ FunctionInfo
 BindVarFn
 >
 (
-jit
-:
-:
-BindVar
+BindVarOperation
 "
-BindVar
+BindVarOperation
 "
 )
 ;
