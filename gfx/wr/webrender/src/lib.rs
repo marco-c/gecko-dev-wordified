@@ -1268,6 +1268,10 @@ extern
 crate
 rand
 ;
+#
+[
+macro_use
+]
 pub
 extern
 crate
