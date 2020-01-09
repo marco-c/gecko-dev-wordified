@@ -6263,7 +6263,7 @@ uint16_t
 MiscOp
 :
 :
-MemDrop
+DataDrop
 )
 :
 {
@@ -6274,11 +6274,11 @@ CHECK
 (
 iter
 .
-readMemOrTableDrop
+readDataOrElemDrop
 (
 /
 *
-isMem
+isData
 =
 *
 /
@@ -6405,7 +6405,7 @@ uint16_t
 MiscOp
 :
 :
-TableDrop
+ElemDrop
 )
 :
 {
@@ -6416,11 +6416,11 @@ CHECK
 (
 iter
 .
-readMemOrTableDrop
+readDataOrElemDrop
 (
 /
 *
-isMem
+isData
 =
 *
 /

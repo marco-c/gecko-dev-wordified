@@ -867,7 +867,7 @@ memory
 mem_test
 (
 "
-memory
+data
 .
 drop
 3
@@ -953,7 +953,7 @@ range
 mem_test
 (
 "
-memory
+data
 .
 drop
 4
@@ -1048,7 +1048,7 @@ segment
 mem_test
 (
 "
-memory
+data
 .
 drop
 2
@@ -1199,13 +1199,13 @@ drop
 mem_test
 (
 "
-memory
+data
 .
 drop
 1
 "
 "
-memory
+data
 .
 drop
 1
@@ -1231,7 +1231,7 @@ init
 mem_test
 (
 "
-memory
+data
 .
 drop
 1
@@ -1573,7 +1573,7 @@ args
 mem_test
 (
 "
-memory
+data
 .
 drop
 1
@@ -1903,7 +1903,7 @@ table
 tab_test
 (
 "
-table
+elem
 .
 drop
 3
@@ -1917,7 +1917,7 @@ CompileError
 can
 '
 t
-table
+elem
 .
 drop
 without
@@ -1989,7 +1989,7 @@ range
 tab_test
 (
 "
-table
+elem
 .
 drop
 4
@@ -2007,7 +2007,7 @@ out
 of
 range
 for
-table
+elem
 .
 drop
 /
@@ -2082,7 +2082,7 @@ segment
 tab_test
 (
 "
-table
+elem
 .
 drop
 2
@@ -2233,13 +2233,13 @@ drop
 tab_test
 (
 "
-table
+elem
 .
 drop
 1
 "
 "
-table
+elem
 .
 drop
 1
@@ -2265,7 +2265,7 @@ init
 tab_test
 (
 "
-table
+elem
 .
 drop
 1
@@ -2607,7 +2607,7 @@ args
 tab_test
 (
 "
-table
+elem
 .
 drop
 1

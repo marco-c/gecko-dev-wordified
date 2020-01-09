@@ -3236,7 +3236,7 @@ ok
 Instance
 :
 :
-memDrop
+dataDrop
 (
 Instance
 *
@@ -4321,7 +4321,7 @@ ok
 Instance
 :
 :
-tableDrop
+elemDrop
 (
 Instance
 *

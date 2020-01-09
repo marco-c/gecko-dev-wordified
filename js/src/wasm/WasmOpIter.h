@@ -796,7 +796,7 @@ Swizzle
 Shuffle
 Splat
 MemOrTableCopy
-MemOrTableDrop
+DataOrElemDrop
 MemFill
 MemOrTableInit
 TableGet
@@ -3323,10 +3323,10 @@ len
 ;
 MOZ_MUST_USE
 bool
-readMemOrTableDrop
+readDataOrElemDrop
 (
 bool
-isMem
+isData
 uint32_t
 *
 segIndex
@@ -11795,10 +11795,10 @@ Policy
 >
 :
 :
-readMemOrTableDrop
+readDataOrElemDrop
 (
 bool
-isMem
+isData
 uint32_t
 *
 segIndex
@@ -11815,12 +11815,12 @@ op_
 OpKind
 :
 :
-MemOrTableDrop
+DataOrElemDrop
 )
 ;
 if
 (
-isMem
+isData
 )
 {
 if
@@ -11872,7 +11872,7 @@ fail
 can
 '
 t
-table
+elem
 .
 drop
 without
@@ -11898,7 +11898,7 @@ false
 }
 if
 (
-isMem
+isData
 )
 {
 /
@@ -11993,7 +11993,7 @@ out
 of
 range
 for
-table
+elem
 .
 drop
 "
@@ -12491,7 +12491,7 @@ Same
 comment
 as
 for
-readMemOrTableDrop
+readDataOrElemDrop
 .
 dvs_
 .

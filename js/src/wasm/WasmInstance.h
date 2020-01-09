@@ -1562,7 +1562,7 @@ len
 ;
 static
 int32_t
-memDrop
+dataDrop
 (
 Instance
 *
@@ -1624,7 +1624,7 @@ srcTableIndex
 ;
 static
 int32_t
-tableDrop
+elemDrop
 (
 Instance
 *
