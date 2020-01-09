@@ -621,6 +621,7 @@ nsAString
 &
 aExtension
 )
+const
 ;
 virtual
 SVGElement
