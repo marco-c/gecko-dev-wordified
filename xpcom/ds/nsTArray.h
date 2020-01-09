@@ -344,9 +344,6 @@ T
 class
 Heap
 ;
-class
-ObjectPtr
-;
 }
 /
 *
@@ -4951,13 +4948,6 @@ mozilla
 :
 :
 SourceBufferTask
-)
-DECLARE_USE_COPY_CONSTRUCTORS
-(
-JS
-:
-:
-ObjectPtr
 )
 /
 /
