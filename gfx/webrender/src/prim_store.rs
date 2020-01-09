@@ -15148,7 +15148,7 @@ inflate
 *
 info
 .
-shadow_rect_alloc_size
+original_alloc_size
 .
 width
 -
@@ -15158,7 +15158,7 @@ width
 *
 info
 .
-shadow_rect_alloc_size
+original_alloc_size
 .
 height
 )
