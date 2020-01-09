@@ -62,7 +62,6 @@ api
 :
 {
 LayoutPrimitiveInfo
-LayoutRect
 }
 ;
 use
@@ -2984,9 +2983,6 @@ info
 :
 &
 LayoutPrimitiveInfo
-prim_relative_clip_rect
-:
-LayoutRect
 )
 -
 >

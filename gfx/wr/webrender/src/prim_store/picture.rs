@@ -63,7 +63,6 @@ api
 {
 ColorU
 FilterOp
-LayoutRect
 LayoutSize
 LayoutPrimitiveInfo
 MixBlendMode
@@ -984,9 +983,6 @@ bool
 prim_size
 :
 LayoutSize
-prim_relative_clip_rect
-:
-LayoutRect
 pic
 :
 Picture
@@ -1005,13 +1001,6 @@ is_backface_visible
 prim_size
 :
 prim_size
-.
-into
-(
-)
-prim_relative_clip_rect
-:
-prim_relative_clip_rect
 .
 into
 (
@@ -1321,9 +1310,6 @@ info
 :
 &
 LayoutPrimitiveInfo
-prim_relative_clip_rect
-:
-LayoutRect
 )
 -
 >
@@ -1342,7 +1328,6 @@ info
 rect
 .
 size
-prim_relative_clip_rect
 self
 )
 }
@@ -1525,7 +1510,7 @@ PictureTemplate
 >
 (
 )
-36
+20
 "
 PictureTemplate
 size
@@ -1547,7 +1532,7 @@ PictureKey
 >
 (
 )
-112
+96
 "
 PictureKey
 size

@@ -63,7 +63,6 @@ api
 {
 AuHelpers
 LayoutPrimitiveInfo
-LayoutRect
 LayoutSideOffsets
 LayoutSideOffsetsAu
 LayoutSize
@@ -213,9 +212,6 @@ info
 :
 &
 LayoutPrimitiveInfo
-prim_relative_clip_rect
-:
-LayoutRect
 normal_border
 :
 NormalBorderPrim
@@ -234,7 +230,6 @@ PrimKeyCommonData
 with_info
 (
 info
-prim_relative_clip_rect
 )
 kind
 :
@@ -938,9 +933,6 @@ info
 :
 &
 LayoutPrimitiveInfo
-prim_relative_clip_rect
-:
-LayoutRect
 )
 -
 >
@@ -952,7 +944,6 @@ NormalBorderKey
 new
 (
 info
-prim_relative_clip_rect
 self
 )
 }
@@ -1186,9 +1177,6 @@ info
 :
 &
 LayoutPrimitiveInfo
-prim_relative_clip_rect
-:
-LayoutRect
 image_border
 :
 ImageBorder
@@ -1207,7 +1195,6 @@ PrimKeyCommonData
 with_info
 (
 info
-prim_relative_clip_rect
 )
 kind
 :
@@ -1877,9 +1864,6 @@ info
 :
 &
 LayoutPrimitiveInfo
-prim_relative_clip_rect
-:
-LayoutRect
 )
 -
 >
@@ -1891,7 +1875,6 @@ ImageBorderKey
 new
 (
 info
-prim_relative_clip_rect
 self
 )
 }
@@ -2074,7 +2057,7 @@ NormalBorderTemplate
 >
 (
 )
-224
+208
 "
 NormalBorderTemplate
 size
@@ -2096,7 +2079,7 @@ NormalBorderKey
 >
 (
 )
-112
+96
 "
 NormalBorderKey
 size
@@ -2140,7 +2123,7 @@ ImageBorderTemplate
 >
 (
 )
-88
+72
 "
 ImageBorderTemplate
 size
@@ -2162,7 +2145,7 @@ ImageBorderKey
 >
 (
 )
-120
+104
 "
 ImageBorderKey
 size
