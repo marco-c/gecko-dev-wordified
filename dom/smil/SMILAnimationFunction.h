@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-NS_SMILANIMATIONFUNCTION_H_
+mozilla_SMILAnimationFunction_h
 #
 define
-NS_SMILANIMATIONFUNCTION_H_
+mozilla_SMILAnimationFunction_h
 #
 include
 "
@@ -2993,4 +2993,4 @@ mozilla
 endif
 /
 /
-NS_SMILANIMATIONFUNCTION_H_
+mozilla_SMILAnimationFunction_h

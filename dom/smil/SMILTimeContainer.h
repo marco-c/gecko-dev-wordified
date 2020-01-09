@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-NS_SMILTIMECONTAINER_H_
+mozilla_SMILTimeContainer_h
 #
 define
-NS_SMILTIMECONTAINER_H_
+mozilla_SMILTimeContainer_h
 #
 include
 "
@@ -1896,4 +1896,4 @@ mozilla
 endif
 /
 /
-NS_SMILTIMECONTAINER_H_
+mozilla_SMILTimeContainer_h

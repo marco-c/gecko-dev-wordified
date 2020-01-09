@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-NS_SMILPARSERUTILS_H_
+mozilla_SMILParserUtils_h
 #
 define
-NS_SMILPARSERUTILS_H_
+mozilla_SMILParserUtils_h
 #
 include
 "
@@ -604,4 +604,4 @@ mozilla
 endif
 /
 /
-NS_SMILPARSERUTILS_H_
+mozilla_SMILParserUtils_h

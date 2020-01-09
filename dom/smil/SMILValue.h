@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-NS_SMILVALUE_H_
+mozilla_SMILValue_h
 #
 define
-NS_SMILVALUE_H_
+mozilla_SMILValue_h
 #
 include
 "
@@ -555,4 +555,4 @@ mozilla
 endif
 /
 /
-NS_SMILVALUE_H_
+mozilla_SMILValue_h

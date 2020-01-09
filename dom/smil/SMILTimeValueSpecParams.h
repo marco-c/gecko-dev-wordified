@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-NS_SMILTIMEVALUESPECPARAMS_H_
+mozilla_SMILTimeValueSpecParams_h
 #
 define
-NS_SMILTIMEVALUESPECPARAMS_H_
+mozilla_SMILTimeValueSpecParams_h
 #
 include
 "
@@ -490,4 +490,4 @@ mozilla
 endif
 /
 /
-NS_SMILTIMEVALUESPECPARAMS_H_
+mozilla_SMILTimeValueSpecParams_h

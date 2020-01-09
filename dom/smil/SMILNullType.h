@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-NS_SMILNULLTYPE_H_
+mozilla_SMILNullType_h
 #
 define
-NS_SMILNULLTYPE_H_
+mozilla_SMILNullType_h
 #
 include
 "
@@ -362,4 +362,4 @@ mozilla
 endif
 /
 /
-NS_SMILNULLTYPE_H_
+mozilla_SMILNullType_h

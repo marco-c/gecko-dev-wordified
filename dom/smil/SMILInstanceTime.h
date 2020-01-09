@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-NS_SMILINSTANCETIME_H_
+mozilla_SMILInstanceTime_h
 #
 define
-NS_SMILINSTANCETIME_H_
+mozilla_SMILInstanceTime_h
 #
 include
 "
@@ -1336,4 +1336,4 @@ mozilla
 endif
 /
 /
-NS_SMILINSTANCETIME_H_
+mozilla_SMILInstanceTime_h

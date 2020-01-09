@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-MOZILLA_SMILINTEGERTYPE_H_
+mozilla_SMILIntegerType_h
 #
 define
-MOZILLA_SMILINTEGERTYPE_H_
+mozilla_SMILIntegerType_h
 #
 include
 "
@@ -294,4 +294,4 @@ mozilla
 endif
 /
 /
-MOZILLA_SMILINTEGERTYPE_H_
+mozilla_SMILIntegerType_h
