@@ -3490,6 +3490,9 @@ logger
 wptrunner
 .
 logger
+    
+return
+logger
 def
 setup_wptrunner
 (
