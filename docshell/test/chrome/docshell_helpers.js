@@ -1331,10 +1331,6 @@ length
 =
 =
 0
-?
-true
-:
-false
 ;
 /
 /
@@ -3177,10 +3173,6 @@ start
 >
 =
 timeout
-?
-true
-:
-false
 ;
 if
 (
@@ -3600,9 +3592,9 @@ file
 +
 gExtractedPath
 +
-'
+"
 /
-'
+"
 ;
 }
 /
@@ -3727,6 +3719,7 @@ content
 contentWindow
 ;
 }
+;
 TestWindow
 .
 getBrowser
@@ -3746,6 +3739,7 @@ content
 )
 ;
 }
+;
 TestWindow
 .
 getDocument
@@ -3767,3 +3761,4 @@ content
 contentDocument
 ;
 }
+;
