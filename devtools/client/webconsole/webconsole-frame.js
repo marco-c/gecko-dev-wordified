@@ -1047,6 +1047,7 @@ logWarningAboutReplacedAPI
 (
 )
 {
+return
 this
 .
 owner

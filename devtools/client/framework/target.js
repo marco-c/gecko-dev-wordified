@@ -5845,6 +5845,11 @@ see
 nsIScriptError
 .
 *
+returns
+{
+Promise
+}
+*
 /
 logErrorInPage
 (
@@ -5873,6 +5878,7 @@ errorFlag
 =
 0
 ;
+return
 this
 .
 activeTab
@@ -5889,6 +5895,13 @@ errorFlag
 )
 ;
 }
+return
+Promise
+.
+resolve
+(
+)
+;
 }
 /
 *
@@ -5937,6 +5950,11 @@ see
 nsIScriptError
 .
 *
+returns
+{
+Promise
+}
+*
 /
 logWarningInPage
 (
@@ -5965,6 +5983,7 @@ warningFlag
 =
 1
 ;
+return
 this
 .
 activeTab
@@ -5981,6 +6000,13 @@ warningFlag
 )
 ;
 }
+return
+Promise
+.
+resolve
+(
+)
+;
 }
 }
 exports
