@@ -2262,6 +2262,10 @@ AddrInfo
 *
 bool
 pb
+const
+nsACString
+&
+aOriginsuffix
 )
 =
 0
@@ -2942,6 +2946,10 @@ AddrInfo
 *
 bool
 pb
+const
+nsACString
+&
+aOriginsuffix
 )
 override
 ;

@@ -2626,6 +2626,9 @@ TRR
 this
 host
 TRRTYPE_NS
+EmptyCString
+(
+)
 false
 )
 ;
@@ -3721,6 +3724,7 @@ TRR
 this
 check
 TRRTYPE_NS
+aOriginSuffix
 privateBrowsing
 )
 ;
@@ -4003,6 +4007,10 @@ AddrInfo
 aNewRRSet
 bool
 pb
+const
+nsACString
+&
+aOriginSuffix
 )
 {
 /
@@ -4340,11 +4348,7 @@ newRRSet
 -
 >
 mHostName
-nsCString
-(
-"
-"
-)
+aOriginSuffix
 pb
 false
 )

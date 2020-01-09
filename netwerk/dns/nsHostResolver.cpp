@@ -4990,6 +4990,10 @@ rec
 -
 >
 pb
+rec
+-
+>
+originSuffix
 )
 ;
 }
@@ -11923,6 +11927,10 @@ AddrInfo
 aNewRRSet
 bool
 pb
+const
+nsACString
+&
+aOriginsuffix
 )
 {
 MutexAutoLock
@@ -14972,6 +14980,10 @@ rec
 -
 >
 pb
+rec
+-
+>
+originSuffix
 )
 )
 {

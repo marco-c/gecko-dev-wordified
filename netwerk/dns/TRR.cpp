@@ -1420,10 +1420,7 @@ gTRRService
 IsTRRBlacklisted
 (
 mHost
-mRec
--
->
-originSuffix
+mOriginSuffix
 mPB
 true
 )
@@ -6204,6 +6201,7 @@ forget
 (
 )
 mPB
+mOriginSuffix
 )
 ;
 mHostResolver
@@ -6328,6 +6326,7 @@ mRec
 error
 ai
 mPB
+mOriginSuffix
 )
 ;
 }

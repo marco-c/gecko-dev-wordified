@@ -278,6 +278,10 @@ AddrInfo
 *
 bool
 pb
+const
+nsACString
+&
+aOriginSuffix
 )
 override
 ;
