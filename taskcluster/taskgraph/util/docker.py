@@ -1755,11 +1755,6 @@ replace
 [
 ]
     
-content
-=
-[
-]
-    
 context_dir
 =
 os
@@ -1847,6 +1842,11 @@ files
 to
 include
 .
+    
+content
+=
+[
+]
     
 with
 open

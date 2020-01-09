@@ -335,19 +335,6 @@ root
 )
 :
     
-#
-Ensure
-that
-TASKCLUSTER_ROOT_URL
-is
-set
-    
-taskgraph
-.
-set_root_url_env
-(
-)
-    
 params
 =
 params
