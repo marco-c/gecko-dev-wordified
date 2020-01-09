@@ -3591,18 +3591,6 @@ x86_64
 nightly
 '
                         
-'
-android
--
-geckoview
--
-fat
--
-aar
--
-nightly
-'
-                        
 )
 :
             
