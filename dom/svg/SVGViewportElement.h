@@ -363,7 +363,7 @@ override
 ;
 /
 /
-nsSVGElement
+SVGElement
 specializations
 :
 virtual

@@ -193,7 +193,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -431,7 +431,7 @@ this
 -
 /
 /
-nsSVGElement
+SVGElement
 methods
 FilterPrimitiveDescription
 SVGFETileElement
@@ -592,9 +592,9 @@ in
 -
 /
 /
-nsSVGElement
+SVGElement
 methods
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo

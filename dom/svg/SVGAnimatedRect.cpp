@@ -135,7 +135,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -182,7 +182,7 @@ SVGAnimatedRect
 nsSVGViewBox
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )

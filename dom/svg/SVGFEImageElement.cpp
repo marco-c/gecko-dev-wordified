@@ -284,7 +284,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -2231,7 +2231,7 @@ true
 -
 /
 /
-nsSVGElement
+SVGElement
 methods
 already_AddRefed
 <
@@ -2267,7 +2267,7 @@ return
 mPreserveAspectRatio
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo

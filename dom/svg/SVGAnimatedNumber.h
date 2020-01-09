@@ -137,7 +137,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -162,7 +162,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 SVGAnimatedNumber
 )
-nsSVGElement
+SVGElement
 *
 GetParentObject
 (
@@ -223,7 +223,7 @@ protected
 explicit
 SVGAnimatedNumber
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -244,7 +244,7 @@ SVGAnimatedNumber
 ;
 RefPtr
 <
-nsSVGElement
+SVGElement
 >
 mSVGElement
 ;

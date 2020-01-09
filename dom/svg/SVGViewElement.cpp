@@ -212,7 +212,7 @@ nullptr
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 EnumInfo
@@ -659,9 +659,9 @@ this
 -
 /
 /
-nsSVGElement
+SVGElement
 methods
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo

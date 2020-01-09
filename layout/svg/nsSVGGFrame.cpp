@@ -326,7 +326,7 @@ IsSVGElement
 &
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (

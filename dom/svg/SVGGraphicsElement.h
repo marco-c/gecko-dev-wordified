@@ -203,7 +203,7 @@ aWithMouse
 )
 override
 ;
-nsSVGElement
+SVGElement
 *
 AsSVGElement
 (

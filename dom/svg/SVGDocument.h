@@ -140,9 +140,6 @@ XMLDocument
 .
 h
 "
-class
-nsSVGElement
-;
 namespace
 mozilla
 {
@@ -152,6 +149,9 @@ SVGContextPaint
 namespace
 dom
 {
+class
+SVGElement
+;
 class
 SVGForeignObjectElement
 ;

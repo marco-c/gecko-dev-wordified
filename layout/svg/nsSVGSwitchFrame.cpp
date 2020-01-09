@@ -670,7 +670,7 @@ tm
 =
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (
@@ -804,7 +804,7 @@ m
 static_cast
 <
 const
-nsSVGElement
+SVGElement
 *
 >
 (
@@ -827,7 +827,7 @@ m
 static_cast
 <
 const
-nsSVGElement
+SVGElement
 *
 >
 (
@@ -1350,7 +1350,7 @@ transform
 =
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (

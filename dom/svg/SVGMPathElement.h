@@ -134,7 +134,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -174,10 +174,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-typedef
-nsSVGElement
-SVGMPathElementBase
-;
 namespace
 mozilla
 {
@@ -186,6 +182,10 @@ dom
 {
 class
 SVGPathElement
+;
+typedef
+SVGElement
+SVGMPathElementBase
 ;
 class
 SVGMPathElement

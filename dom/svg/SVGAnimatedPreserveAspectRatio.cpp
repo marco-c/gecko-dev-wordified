@@ -497,7 +497,7 @@ const
 nsAString
 &
 aValueAsString
-nsSVGElement
+SVGElement
 *
 aSVGElement
 bool
@@ -630,7 +630,7 @@ const
 SVGPreserveAspectRatio
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -786,7 +786,7 @@ SetAnimValue
 (
 uint64_t
 aPackedValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -858,7 +858,7 @@ SVGAnimatedPreserveAspectRatio
 :
 ToDOMAnimatedPreserveAspectRatio
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -933,7 +933,7 @@ SVGAnimatedPreserveAspectRatio
 :
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )

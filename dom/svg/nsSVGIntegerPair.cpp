@@ -392,7 +392,7 @@ const
 nsAString
 &
 aValueAsString
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -506,7 +506,7 @@ called
 by
 /
 /
-nsSVGElement
+SVGElement
 :
 :
 ParseAttribute
@@ -599,7 +599,7 @@ int32_t
 aValue
 PairIndex
 aPairIndex
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -701,7 +701,7 @@ int32_t
 aValue1
 int32_t
 aValue2
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -814,7 +814,7 @@ aValue
 [
 2
 ]
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -895,7 +895,7 @@ ToDOMAnimatedInteger
 (
 PairIndex
 aIndex
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -1025,7 +1025,7 @@ nsSVGIntegerPair
 :
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )

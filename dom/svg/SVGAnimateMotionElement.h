@@ -303,7 +303,7 @@ override
 ;
 /
 /
-nsSVGElement
+SVGElement
 virtual
 nsStaticAtom
 *

@@ -373,7 +373,7 @@ const
 nsAString
 &
 aValueAsString
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -489,7 +489,7 @@ called
 by
 /
 /
-nsSVGElement
+SVGElement
 :
 :
 ParseAttribute
@@ -582,7 +582,7 @@ float
 aValue
 PairIndex
 aPairIndex
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -684,7 +684,7 @@ float
 aValue1
 float
 aValue2
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -797,7 +797,7 @@ aValue
 [
 2
 ]
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -878,7 +878,7 @@ ToDOMAnimatedNumber
 (
 PairIndex
 aIndex
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -1008,7 +1008,7 @@ nsSVGNumberPair
 :
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )

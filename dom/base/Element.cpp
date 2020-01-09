@@ -752,7 +752,7 @@ MOZ_XUL
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -1641,7 +1641,7 @@ return
 static_cast
 <
 const
-nsSVGElement
+SVGElement
 *
 >
 (

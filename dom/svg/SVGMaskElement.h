@@ -137,7 +137,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -221,7 +221,7 @@ Masks
 -
 -
 typedef
-nsSVGElement
+SVGElement
 SVGMaskElementBase
 ;
 class

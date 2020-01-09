@@ -185,9 +185,6 @@ Attributes
 .
 h
 "
-class
-nsSVGElement
-;
 #
 define
 MOZ_SVG_LIST_INDEX_BIT_COUNT
@@ -206,6 +203,9 @@ mozilla
 namespace
 dom
 {
+class
+SVGElement
+;
 class
 SVGMatrix
 ;
@@ -905,7 +905,7 @@ aMatrix
 ;
 private
 :
-nsSVGElement
+SVGElement
 *
 Element
 (

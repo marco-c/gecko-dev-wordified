@@ -270,7 +270,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthInfo
@@ -345,7 +345,7 @@ Y
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -2236,7 +2236,7 @@ Finish
 -
 /
 /
-nsSVGElement
+SVGElement
 methods
 /
 *
@@ -2297,7 +2297,7 @@ GetAnimValInSpecifiedUnits
 0
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthAttributesInfo
@@ -2334,7 +2334,7 @@ return
 mPreserveAspectRatio
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo

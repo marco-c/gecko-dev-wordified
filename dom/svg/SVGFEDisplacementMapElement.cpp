@@ -200,7 +200,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberInfo
@@ -266,7 +266,7 @@ nullptr
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 EnumInfo
@@ -297,7 +297,7 @@ SVG_CHANNEL_A
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -979,9 +979,9 @@ this
 -
 /
 /
-nsSVGElement
+SVGElement
 methods
-nsSVGElement
+SVGElement
 :
 :
 NumberAttributesInfo
@@ -1004,7 +1004,7 @@ sNumberInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo
@@ -1027,7 +1027,7 @@ sEnumInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo

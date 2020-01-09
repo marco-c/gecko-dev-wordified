@@ -150,9 +150,6 @@ nsAtom
 class
 nsStaticAtom
 ;
-class
-nsSVGElement
-;
 namespace
 mozilla
 {
@@ -185,6 +182,9 @@ MOZILLA_DOMSVGTESTS_IID
 namespace
 dom
 {
+class
+SVGElement
+;
 class
 SVGTests
 :
@@ -621,7 +621,7 @@ aExtension
 )
 ;
 virtual
-nsSVGElement
+SVGElement
 *
 AsSVGElement
 (
@@ -630,7 +630,7 @@ AsSVGElement
 0
 ;
 const
-nsSVGElement
+SVGElement
 *
 AsSVGElement
 (

@@ -144,7 +144,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -190,7 +190,7 @@ DOMAnimatedString
 nsSVGClass
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -309,7 +309,7 @@ nsSVGClass
 :
 ToDOMAnimatedString
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -350,7 +350,7 @@ const
 nsAString
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 bool
@@ -420,7 +420,7 @@ nsAString
 &
 aValue
 const
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -450,7 +450,7 @@ nsAString
 &
 aResult
 const
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -493,7 +493,7 @@ const
 nsAString
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -586,7 +586,7 @@ nsSVGClass
 :
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )

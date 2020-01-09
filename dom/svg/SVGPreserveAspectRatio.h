@@ -170,7 +170,11 @@ h
 #
 include
 "
-nsSVGElement
+mozilla
+/
+dom
+/
+SVGElement
 .
 h
 "
@@ -527,7 +531,7 @@ DOMSVGPreserveAspectRatio
 SVGAnimatedPreserveAspectRatio
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 bool
@@ -551,7 +555,7 @@ aIsBaseValue
 /
 /
 WebIDL
-nsSVGElement
+SVGElement
 *
 GetParentObject
 (
@@ -634,7 +638,7 @@ to
 mSVGElement
 RefPtr
 <
-nsSVGElement
+SVGElement
 >
 mSVGElement
 ;

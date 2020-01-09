@@ -831,7 +831,7 @@ m
 =
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (

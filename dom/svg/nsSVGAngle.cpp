@@ -688,7 +688,7 @@ SetBaseValueInSpecifiedUnits
 (
 float
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -758,7 +758,7 @@ ConvertToSpecifiedUnits
 (
 uint16_t
 unitType
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -882,7 +882,7 @@ uint16_t
 unitType
 float
 valueInSpecifiedUnits
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -1006,7 +1006,7 @@ nsSVGAngle
 :
 ToDOMBaseVal
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -1069,7 +1069,7 @@ nsSVGAngle
 :
 ToDOMAnimVal
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -1186,7 +1186,7 @@ const
 nsAString
 &
 aValueAsString
-nsSVGElement
+SVGElement
 *
 aSVGElement
 bool
@@ -1360,7 +1360,7 @@ float
 aValue
 uint8_t
 aUnit
-nsSVGElement
+SVGElement
 *
 aSVGElement
 bool
@@ -1474,7 +1474,7 @@ float
 aValue
 uint8_t
 aUnit
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -1529,7 +1529,7 @@ nsSVGAngle
 :
 ToDOMAnimatedAngle
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -1604,7 +1604,7 @@ nsSVGAngle
 :
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )

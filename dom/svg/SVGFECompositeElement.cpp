@@ -186,7 +186,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberInfo
@@ -290,7 +290,7 @@ nullptr
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 EnumInfo
@@ -313,7 +313,7 @@ SVG_FECOMPOSITE_OPERATOR_OVER
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -979,9 +979,9 @@ this
 -
 /
 /
-nsSVGElement
+SVGElement
 methods
-nsSVGElement
+SVGElement
 :
 :
 NumberAttributesInfo
@@ -1004,7 +1004,7 @@ sNumberInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo
@@ -1027,7 +1027,7 @@ sEnumInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo

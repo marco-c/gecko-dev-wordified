@@ -415,7 +415,7 @@ map
 )
 |
 |
-nsSVGElement
+SVGElement
 :
 :
 IsAttributeMapped
@@ -442,7 +442,7 @@ const
 nsChangeHint
 retval
 =
-nsSVGElement
+SVGElement
 :
 :
 GetAttributeChangeHint
@@ -769,7 +769,7 @@ EventNameType_SVGGraphic
 -
 /
 /
-nsSVGElement
+SVGElement
 overrides
 gfxMatrix
 SVGTransformableElement
@@ -1151,7 +1151,7 @@ return
 mTransforms
 ;
 }
-nsSVGElement
+SVGElement
 *
 SVGTransformableElement
 :
@@ -1170,7 +1170,7 @@ this
 )
 ;
 }
-nsSVGElement
+SVGElement
 *
 SVGTransformableElement
 :

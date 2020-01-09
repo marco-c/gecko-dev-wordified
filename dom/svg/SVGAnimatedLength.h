@@ -132,7 +132,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -170,7 +170,7 @@ SVGAnimatedLength
 nsSVGLength2
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -188,7 +188,7 @@ aSVGElement
 /
 /
 WebIDL
-nsSVGElement
+SVGElement
 *
 GetParentObject
 (
@@ -256,7 +256,7 @@ to
 content
 RefPtr
 <
-nsSVGElement
+SVGElement
 >
 mSVGElement
 ;

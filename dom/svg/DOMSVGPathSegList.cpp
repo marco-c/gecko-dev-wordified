@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -516,7 +516,7 @@ GetDOMWrapper
 void
 *
 aList
-nsSVGElement
+SVGElement
 *
 aElement
 bool

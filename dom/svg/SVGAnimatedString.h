@@ -123,7 +123,7 @@ mozilla_dom_SVGAnimatedString_h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -146,7 +146,7 @@ public
 explicit
 SVGAnimatedString
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -180,7 +180,7 @@ override
 /
 /
 WebIDL
-nsSVGElement
+SVGElement
 *
 GetParentObject
 (
@@ -227,7 +227,7 @@ aResult
 ;
 RefPtr
 <
-nsSVGElement
+SVGElement
 >
 mSVGElement
 ;

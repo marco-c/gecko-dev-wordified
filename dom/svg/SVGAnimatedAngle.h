@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -177,7 +177,7 @@ SVGAnimatedAngle
 nsSVGAngle
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -195,7 +195,7 @@ aSVGElement
 /
 /
 WebIDL
-nsSVGElement
+SVGElement
 *
 GetParentObject
 (
@@ -263,7 +263,7 @@ to
 content
 RefPtr
 <
-nsSVGElement
+SVGElement
 >
 mSVGElement
 ;

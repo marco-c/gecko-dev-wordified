@@ -286,7 +286,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthInfo
@@ -390,7 +390,7 @@ nullptr
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 EnumInfo
@@ -413,7 +413,7 @@ SVG_MARKERUNITS_STROKEWIDTH
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 AngleInfo
@@ -519,7 +519,7 @@ SetBaseValue
 (
 uint16_t
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -616,7 +616,7 @@ nsSVGOrientType
 :
 ToDOMAnimatedEnum
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -1399,7 +1399,7 @@ name
 -
 /
 /
-nsSVGElement
+SVGElement
 methods
 bool
 SVGMarkerElement
@@ -1701,7 +1701,7 @@ aNotify
 -
 /
 /
-nsSVGElement
+SVGElement
 methods
 void
 SVGMarkerElement
@@ -1788,7 +1788,7 @@ GetAnimValInSpecifiedUnits
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthAttributesInfo
@@ -1811,7 +1811,7 @@ sLengthInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 AngleAttributesInfo
@@ -1834,7 +1834,7 @@ sAngleInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo

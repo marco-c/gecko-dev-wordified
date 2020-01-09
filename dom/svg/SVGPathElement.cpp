@@ -1583,7 +1583,7 @@ true
 -
 /
 /
-nsSVGElement
+SVGElement
 methods
 /
 *

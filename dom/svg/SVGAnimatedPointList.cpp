@@ -140,7 +140,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -436,7 +436,7 @@ called
 by
 /
 /
-nsSVGElement
+SVGElement
 :
 :
 ParseAttribute
@@ -662,7 +662,7 @@ const
 SVGPointList
 &
 aNewAnimValue
-nsSVGElement
+SVGElement
 *
 aElement
 )
@@ -995,7 +995,7 @@ SVGAnimatedPointList
 :
 ClearAnimValue
 (
-nsSVGElement
+SVGElement
 *
 aElement
 )
@@ -1096,7 +1096,7 @@ SVGAnimatedPointList
 :
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aElement
 )

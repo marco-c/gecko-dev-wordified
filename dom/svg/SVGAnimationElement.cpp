@@ -792,7 +792,7 @@ return
 mTimedElement
 ;
 }
-nsSVGElement
+SVGElement
 *
 SVGAnimationElement
 :
@@ -845,7 +845,7 @@ IsSVGElement
 ?
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (
@@ -922,7 +922,7 @@ float
 SVGAnimationElement
 :
 :
-GetCurrentTimeAsFloat
+GetCurrentTime
 (
 )
 {
@@ -958,7 +958,7 @@ double
 root
 -
 >
-GetCurrentTimeAsSMILTime
+GetCurrentTime
 (
 )
 )

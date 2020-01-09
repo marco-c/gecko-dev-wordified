@@ -500,7 +500,7 @@ this
 -
 /
 /
-nsSVGElement
+SVGElement
 methods
 FilterPrimitiveDescription
 SVGFESpecularLightingElement

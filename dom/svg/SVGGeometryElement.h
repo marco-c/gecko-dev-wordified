@@ -1518,7 +1518,7 @@ protected
 :
 /
 /
-nsSVGElement
+SVGElement
 method
 virtual
 NumberAttributesInfo

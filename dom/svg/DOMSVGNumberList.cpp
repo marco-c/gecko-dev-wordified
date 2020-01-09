@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "

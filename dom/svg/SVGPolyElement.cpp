@@ -561,7 +561,7 @@ name
 -
 /
 /
-nsSVGElement
+SVGElement
 methods
 /
 *

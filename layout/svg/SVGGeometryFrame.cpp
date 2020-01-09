@@ -1690,13 +1690,13 @@ aFromParentTransform
 )
 ;
 }
-nsSVGElement
+SVGElement
 *
 content
 =
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (
@@ -1795,7 +1795,7 @@ if
 static_cast
 <
 const
-nsSVGElement
+SVGElement
 *
 >
 (
@@ -5560,7 +5560,7 @@ GetStrokeOptions
 strokeOptions
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (

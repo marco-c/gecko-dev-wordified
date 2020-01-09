@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -176,7 +176,7 @@ SVGAnimatedBoolean
 nsSVGBoolean
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -194,7 +194,7 @@ aSVGElement
 /
 /
 WebIDL
-nsSVGElement
+SVGElement
 *
 GetParentObject
 (
@@ -301,7 +301,7 @@ to
 content
 RefPtr
 <
-nsSVGElement
+SVGElement
 >
 mSVGElement
 ;

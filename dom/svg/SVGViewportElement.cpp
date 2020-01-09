@@ -334,7 +334,7 @@ mozilla
 namespace
 dom
 {
-nsSVGElement
+SVGElement
 :
 :
 LengthInfo
@@ -804,7 +804,7 @@ HTML
 We
 rely
 on
-nsSVGElement
+SVGElement
 :
 :
 UpdateContentStyleRule
@@ -840,7 +840,7 @@ on
 a
 check
 in
-nsSVGElement
+SVGElement
 :
 :
 /
@@ -1024,7 +1024,7 @@ name
 -
 /
 /
-nsSVGElement
+SVGElement
 overrides
 /
 /
@@ -2117,7 +2117,7 @@ return
 -
 /
 /
-nsSVGElement
+SVGElement
 methods
 /
 *
@@ -2825,7 +2825,7 @@ aViewportHeight
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthAttributesInfo

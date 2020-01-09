@@ -406,7 +406,7 @@ GetDOMWrapper
 nsSVGAnimatedTransformList
 *
 aList
-nsSVGElement
+SVGElement
 *
 aElement
 )

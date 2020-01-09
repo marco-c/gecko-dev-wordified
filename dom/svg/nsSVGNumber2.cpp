@@ -322,7 +322,7 @@ const
 nsAString
 &
 aValueAsString
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -401,7 +401,7 @@ called
 by
 /
 /
-nsSVGElement
+SVGElement
 :
 :
 ParseAttribute
@@ -455,7 +455,7 @@ SetBaseValue
 (
 float
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -520,7 +520,7 @@ SetAnimValue
 (
 float
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -565,7 +565,7 @@ nsSVGNumber2
 :
 ToDOMAnimatedNumber
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -643,7 +643,7 @@ nsSVGNumber2
 :
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )

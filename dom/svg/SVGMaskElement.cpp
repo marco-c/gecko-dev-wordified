@@ -276,7 +276,7 @@ Masks
 -
 -
 -
-nsSVGElement
+SVGElement
 :
 :
 LengthInfo
@@ -353,7 +353,7 @@ Y
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 EnumInfo
@@ -855,7 +855,7 @@ this
 -
 /
 /
-nsSVGElement
+SVGElement
 methods
 /
 *
@@ -922,7 +922,7 @@ GetAnimValInSpecifiedUnits
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthAttributesInfo
@@ -945,7 +945,7 @@ sLengthInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo

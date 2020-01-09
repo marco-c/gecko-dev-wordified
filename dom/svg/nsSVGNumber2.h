@@ -151,7 +151,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -220,6 +220,16 @@ nsSVGNumber2
 {
 public
 :
+typedef
+mozilla
+:
+:
+dom
+:
+:
+SVGElement
+SVGElement
+;
 void
 Init
 (
@@ -259,7 +269,7 @@ const
 nsAString
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -277,7 +287,7 @@ SetBaseValue
 (
 float
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -297,7 +307,7 @@ SetAnimValue
 (
 float
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -409,7 +419,7 @@ SVGAnimatedNumber
 >
 ToDOMAnimatedNumber
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -423,7 +433,7 @@ nsISMILAttr
 >
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -472,7 +482,7 @@ DOMAnimatedNumber
 nsSVGNumber2
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -623,7 +633,7 @@ SMILNumber
 nsSVGNumber2
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -677,7 +687,7 @@ nsSVGNumber2
 *
 mVal
 ;
-nsSVGElement
+SVGElement
 *
 mSVGElement
 ;

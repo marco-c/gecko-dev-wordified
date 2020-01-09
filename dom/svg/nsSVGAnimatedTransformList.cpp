@@ -228,7 +228,7 @@ const
 nsAString
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -276,7 +276,7 @@ const
 SVGTransformList
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -423,7 +423,7 @@ called
 by
 /
 /
-nsSVGElement
+SVGElement
 :
 :
 ParseAttribute
@@ -631,7 +631,7 @@ const
 SVGTransformList
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aElement
 )
@@ -995,7 +995,7 @@ nsSVGAnimatedTransformList
 :
 ClearAnimValue
 (
-nsSVGElement
+SVGElement
 *
 aElement
 )
@@ -1219,14 +1219,14 @@ called
 by
 /
 /
-nsSVGElement
+SVGElement
 :
 :
 UnsetAttr
 or
 a
 failed
-nsSVGElement
+SVGElement
 :
 :
 ParseAttribute
@@ -1313,7 +1313,7 @@ nsSVGAnimatedTransformList
 :
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )

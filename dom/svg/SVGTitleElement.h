@@ -132,7 +132,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -143,10 +143,6 @@ nsStubMutationObserver
 .
 h
 "
-typedef
-nsSVGElement
-SVGTitleElementBase
-;
 nsresult
 NS_NewSVGTitleElement
 (
@@ -175,6 +171,10 @@ mozilla
 namespace
 dom
 {
+typedef
+SVGElement
+SVGTitleElementBase
+;
 class
 SVGTitleElement
 final

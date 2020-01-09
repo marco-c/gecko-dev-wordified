@@ -137,7 +137,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -409,7 +409,10 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DOMSVGStringList
 )
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 GetParentObject
 (
@@ -674,7 +677,10 @@ GetDOMWrapper
 SVGStringList
 *
 aList
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 aElement
 bool
@@ -709,7 +715,10 @@ type
 /
 DOMSVGStringList
 (
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 aElement
 bool
@@ -758,7 +767,10 @@ alive
 .
 RefPtr
 <
-nsSVGElement
+dom
+:
+:
+SVGElement
 >
 mElement
 ;

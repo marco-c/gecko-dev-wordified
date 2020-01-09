@@ -176,9 +176,6 @@ nsISupports
 class
 nsSMILValue
 ;
-class
-nsSVGElement
-;
 namespace
 mozilla
 {
@@ -196,6 +193,9 @@ SVGAnimatedAngle
 ;
 class
 SVGAnimationElement
+;
+class
+SVGElement
 ;
 }
 /
@@ -229,6 +229,16 @@ dom
 :
 :
 SVGAnimatedAngle
+;
+typedef
+mozilla
+:
+:
+dom
+:
+:
+SVGElement
+SVGElement
 ;
 public
 :
@@ -286,7 +296,7 @@ const
 nsAString
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 bool
@@ -348,7 +358,7 @@ float
 aValue
 uint8_t
 aUnit
-nsSVGElement
+SVGElement
 *
 aSVGElement
 bool
@@ -362,7 +372,7 @@ float
 aValue
 uint8_t
 aUnit
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -429,7 +439,7 @@ SVGAnimatedAngle
 >
 ToDOMAnimatedAngle
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -443,7 +453,7 @@ nsISMILAttr
 >
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -504,7 +514,7 @@ SetBaseValueInSpecifiedUnits
 (
 float
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -516,7 +526,7 @@ uint16_t
 aUnitType
 float
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -526,7 +536,7 @@ ConvertToSpecifiedUnits
 (
 uint16_t
 aUnitType
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -543,7 +553,7 @@ SVGAngle
 >
 ToDOMBaseVal
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -560,7 +570,7 @@ SVGAngle
 >
 ToDOMAnimVal
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -659,7 +669,7 @@ aOrientType
 nsSVGAngle
 *
 aAngle
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -727,7 +737,7 @@ nsSVGAngle
 *
 mAngle
 ;
-nsSVGElement
+SVGElement
 *
 mSVGElement
 ;

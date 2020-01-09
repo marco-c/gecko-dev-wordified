@@ -757,7 +757,7 @@ AnimationsPaused
 )
 ;
 float
-GetCurrentTimeAsFloat
+GetCurrentTime
 (
 )
 ;
@@ -870,7 +870,7 @@ rv
 ;
 /
 /
-nsSVGElement
+SVGElement
 overrides
 virtual
 nsresult
@@ -1649,7 +1649,7 @@ mOriginalTime
 mRootElem
 -
 >
-GetCurrentTimeAsFloat
+GetCurrentTime
 (
 )
 )

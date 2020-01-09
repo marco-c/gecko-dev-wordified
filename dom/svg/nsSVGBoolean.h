@@ -165,9 +165,6 @@ nsAtom
 class
 nsSMILValue
 ;
-class
-nsSVGElement
-;
 namespace
 mozilla
 {
@@ -179,6 +176,9 @@ SVGAnimationElement
 ;
 class
 SVGAnimatedBoolean
+;
+class
+SVGElement
 ;
 }
 /
@@ -195,6 +195,16 @@ nsSVGBoolean
 {
 public
 :
+typedef
+mozilla
+:
+:
+dom
+:
+:
+SVGElement
+SVGElement
+;
 void
 Init
 (
@@ -230,7 +240,7 @@ const
 nsAtom
 *
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -247,7 +257,7 @@ SetBaseValue
 (
 bool
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -267,7 +277,7 @@ SetAnimValue
 (
 bool
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -294,7 +304,7 @@ SVGAnimatedBoolean
 >
 ToDOMAnimatedBoolean
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -308,7 +318,7 @@ nsISMILAttr
 >
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -349,7 +359,7 @@ SMILBool
 nsSVGBoolean
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -403,7 +413,7 @@ nsSVGBoolean
 *
 mVal
 ;
-nsSVGElement
+SVGElement
 *
 mSVGElement
 ;

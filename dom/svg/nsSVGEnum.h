@@ -144,7 +144,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -225,6 +225,16 @@ nsSVGEnum
 {
 public
 :
+typedef
+mozilla
+:
+:
+dom
+:
+:
+SVGElement
+SVGElement
+;
 void
 Init
 (
@@ -263,7 +273,7 @@ const
 nsAtom
 *
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -272,7 +282,7 @@ nsAtom
 *
 GetBaseValueAtom
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -282,7 +292,7 @@ SetBaseValue
 (
 uint16_t
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -302,7 +312,7 @@ SetAnimValue
 (
 uint16_t
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -342,7 +352,7 @@ SVGAnimatedEnumeration
 >
 ToDOMAnimatedEnum
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -356,7 +366,7 @@ nsISMILAttr
 >
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -390,7 +400,7 @@ nsSVGEnumMapping
 *
 GetMapping
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -415,7 +425,7 @@ DOMAnimatedEnum
 nsSVGEnum
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -577,7 +587,7 @@ SMILEnum
 nsSVGEnum
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -631,7 +641,7 @@ nsSVGEnum
 *
 mVal
 ;
-nsSVGElement
+SVGElement
 *
 mSVGElement
 ;

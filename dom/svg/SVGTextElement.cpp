@@ -286,7 +286,7 @@ aNodeInfo
 )
 {
 }
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo
@@ -309,7 +309,7 @@ sEnumInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthAttributesInfo

@@ -152,7 +152,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -801,7 +801,7 @@ DOMSVGLength
 nsSVGLength2
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 bool
@@ -1021,7 +1021,7 @@ GetTearOff
 nsSVGLength2
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 bool

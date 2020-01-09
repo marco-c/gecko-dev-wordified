@@ -168,7 +168,7 @@ mozilla
 namespace
 dom
 {
-nsSVGElement
+SVGElement
 :
 :
 LengthListInfo
@@ -227,7 +227,7 @@ true
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 LengthListAttributesInfo
@@ -250,7 +250,7 @@ sLengthListInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberListInfo
@@ -271,7 +271,7 @@ rotate
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 NumberListAttributesInfo

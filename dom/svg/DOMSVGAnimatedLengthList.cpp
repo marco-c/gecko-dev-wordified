@@ -138,7 +138,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -373,7 +373,10 @@ GetDOMWrapper
 SVGAnimatedLengthList
 *
 aList
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 aElement
 uint8_t

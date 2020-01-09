@@ -247,7 +247,7 @@ points
 }
 /
 /
-nsSVGElement
+SVGElement
 methods
 :
 virtual

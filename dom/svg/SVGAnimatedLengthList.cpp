@@ -140,7 +140,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -331,7 +331,7 @@ called
 by
 /
 /
-nsSVGElement
+SVGElement
 :
 :
 ParseAttribute
@@ -479,7 +479,7 @@ const
 SVGLengthList
 &
 aNewAnimValue
-nsSVGElement
+SVGElement
 *
 aElement
 uint32_t
@@ -801,7 +801,7 @@ SVGAnimatedLengthList
 :
 ClearAnimValue
 (
-nsSVGElement
+SVGElement
 *
 aElement
 uint32_t
@@ -918,7 +918,7 @@ SVGAnimatedLengthList
 :
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 uint8_t

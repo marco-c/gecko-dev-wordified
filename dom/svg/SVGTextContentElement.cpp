@@ -239,7 +239,7 @@ nullptr
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 EnumInfo
@@ -262,7 +262,7 @@ LENGTHADJUST_SPACING
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 LengthInfo

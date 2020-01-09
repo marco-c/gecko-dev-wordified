@@ -179,7 +179,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberInfo
@@ -552,7 +552,7 @@ this
 /
 sSVGElement
 methods
-nsSVGElement
+SVGElement
 :
 :
 NumberAttributesInfo

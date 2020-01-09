@@ -144,7 +144,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -442,7 +442,7 @@ GetDOMWrapper
 nsSVGAnimatedTransformList
 *
 aList
-nsSVGElement
+SVGElement
 *
 aElement
 )
@@ -684,7 +684,7 @@ const
 /
 /
 WebIDL
-nsSVGElement
+SVGElement
 *
 GetParentObject
 (
@@ -772,7 +772,7 @@ type
 explicit
 SVGAnimatedTransformList
 (
-nsSVGElement
+SVGElement
 *
 aElement
 )
@@ -906,7 +906,7 @@ items
 .
 RefPtr
 <
-nsSVGElement
+SVGElement
 >
 mElement
 ;

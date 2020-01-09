@@ -382,7 +382,7 @@ SVGContentUtils
 :
 GetOuterSVGElement
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -554,7 +554,7 @@ SVGContentUtils
 AutoStrokeOptions
 *
 aStrokeOptions
-nsSVGElement
+SVGElement
 *
 aElement
 const
@@ -1243,7 +1243,7 @@ GetStrokeOptions
 AutoStrokeOptions
 *
 aStrokeOptions
-nsSVGElement
+SVGElement
 *
 aElement
 ComputedStyle
@@ -1615,7 +1615,7 @@ SVGContentUtils
 :
 GetStrokeWidth
 (
-nsSVGElement
+SVGElement
 *
 aElement
 ComputedStyle
@@ -2396,7 +2396,7 @@ gfx
 Matrix
 GetCTMInternal
 (
-nsSVGElement
+SVGElement
 *
 aElement
 bool
@@ -2423,7 +2423,7 @@ eAllTransforms
 eUserSpaceToParent
 )
 ;
-nsSVGElement
+SVGElement
 *
 element
 =
@@ -2470,7 +2470,7 @@ element
 =
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (
@@ -2890,7 +2890,7 @@ GetCTMInternal
 (
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (
@@ -3087,7 +3087,7 @@ SVGContentUtils
 :
 GetCTM
 (
-nsSVGElement
+SVGElement
 *
 aElement
 bool
@@ -5185,7 +5185,7 @@ SVGContentUtils
 :
 CoordToFloat
 (
-nsSVGElement
+SVGElement
 *
 aContent
 const

@@ -137,7 +137,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -273,7 +273,7 @@ Gradients
 -
 -
 typedef
-nsSVGElement
+SVGElement
 SVGGradientElementBase
 ;
 class

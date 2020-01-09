@@ -217,7 +217,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -327,7 +327,7 @@ nullptr
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 EnumInfo
@@ -358,7 +358,7 @@ SVG_SPREADMETHOD_PAD
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -570,9 +570,9 @@ aNodeInfo
 -
 /
 /
-nsSVGElement
+SVGElement
 methods
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo
@@ -595,7 +595,7 @@ sEnumInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo
@@ -965,7 +965,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthInfo
@@ -1465,7 +1465,7 @@ this
 -
 /
 /
-nsSVGElement
+SVGElement
 methods
 nsSVGAnimatedTransformList
 *
@@ -1503,7 +1503,7 @@ return
 mGradientTransform
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthAttributesInfo
@@ -1617,7 +1617,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthInfo
@@ -2193,9 +2193,9 @@ this
 -
 /
 /
-nsSVGElement
+SVGElement
 methods
-nsSVGElement
+SVGElement
 :
 :
 LengthAttributesInfo

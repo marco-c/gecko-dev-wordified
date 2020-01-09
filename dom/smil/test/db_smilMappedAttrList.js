@@ -151,7 +151,7 @@ arrays
 in
 /
 /
-nsSVGElement
+SVGElement
 .
 cpp
 /

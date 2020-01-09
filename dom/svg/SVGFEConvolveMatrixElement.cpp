@@ -225,7 +225,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberInfo
@@ -256,7 +256,7 @@ false
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 NumberPairInfo
@@ -279,7 +279,7 @@ kernelUnitLength
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 IntegerInfo
@@ -308,7 +308,7 @@ targetY
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 IntegerPairInfo
@@ -331,7 +331,7 @@ order
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 BooleanInfo
@@ -389,7 +389,7 @@ nullptr
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 EnumInfo
@@ -412,7 +412,7 @@ SVG_EDGEMODE_DUPLICATE
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -443,7 +443,7 @@ true
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 NumberListInfo
@@ -1700,9 +1700,9 @@ kernelMatrix
 -
 /
 /
-nsSVGElement
+SVGElement
 methods
-nsSVGElement
+SVGElement
 :
 :
 NumberAttributesInfo
@@ -1725,7 +1725,7 @@ sNumberInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberPairAttributesInfo
@@ -1748,7 +1748,7 @@ sNumberPairInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 IntegerAttributesInfo
@@ -1771,7 +1771,7 @@ sIntegerInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 IntegerPairAttributesInfo
@@ -1794,7 +1794,7 @@ sIntegerPairInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 BooleanAttributesInfo
@@ -1817,7 +1817,7 @@ sBooleanInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo
@@ -1840,7 +1840,7 @@ sEnumInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo
@@ -1863,7 +1863,7 @@ sStringInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberListAttributesInfo

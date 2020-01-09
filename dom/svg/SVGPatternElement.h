@@ -151,7 +151,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -211,7 +211,7 @@ class
 SVGAnimatedTransformList
 ;
 typedef
-nsSVGElement
+SVGElement
 SVGPatternElementBase
 ;
 class

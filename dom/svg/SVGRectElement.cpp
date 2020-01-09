@@ -256,7 +256,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthInfo
@@ -832,7 +832,7 @@ this
 -
 /
 /
-nsSVGElement
+SVGElement
 methods
 /
 *
@@ -893,7 +893,7 @@ GetAnimValInSpecifiedUnits
 0
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthAttributesInfo

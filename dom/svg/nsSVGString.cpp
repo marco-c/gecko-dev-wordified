@@ -242,7 +242,7 @@ const
 nsAString
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 bool
@@ -312,7 +312,7 @@ nsAString
 &
 aResult
 const
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -351,7 +351,7 @@ const
 nsAString
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -422,7 +422,7 @@ nsSVGString
 :
 ToDOMAnimatedString
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -506,7 +506,7 @@ nsSVGString
 :
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )

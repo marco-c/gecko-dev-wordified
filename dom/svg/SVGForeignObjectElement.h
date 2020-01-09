@@ -253,7 +253,7 @@ public
 :
 /
 /
-nsSVGElement
+SVGElement
 specializations
 :
 virtual

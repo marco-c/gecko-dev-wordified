@@ -1518,7 +1518,7 @@ toChildsUserSpace
 static_cast
 <
 const
-nsSVGElement
+SVGElement
 *
 >
 (
@@ -2090,7 +2090,7 @@ m
 =
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (
@@ -2947,13 +2947,13 @@ GetNextSibling
 )
 )
 {
-nsSVGElement
+SVGElement
 *
 svgNode
 =
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (
