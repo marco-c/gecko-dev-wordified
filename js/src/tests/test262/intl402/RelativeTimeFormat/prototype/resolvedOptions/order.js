@@ -104,6 +104,9 @@ style
 "
 numeric
 "
+"
+numberingSystem
+"
 ]
 ;
 assert
