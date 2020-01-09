@@ -1436,11 +1436,10 @@ caps
 ;
 if
 (
-!
-FAILED
-(
 hr
-)
+=
+=
+S_OK
 )
 {
 if
