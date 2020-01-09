@@ -1542,16 +1542,10 @@ XPCWrappedNativeScope
 *
 scope
 =
-CompartmentPrivate
-:
-:
-Get
+ObjectScope
 (
 global
 )
--
->
-scope
 ;
 /
 /
