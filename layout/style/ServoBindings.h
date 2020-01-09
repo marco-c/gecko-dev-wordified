@@ -3179,13 +3179,6 @@ mozilla
 InheritTarget
 )
 ;
-uint8_t
-Servo_ComputedValues_GetStyleBits
-(
-ComputedStyleBorrowed
-values
-)
-;
 bool
 Servo_ComputedValues_EqualCustomProperties
 (
