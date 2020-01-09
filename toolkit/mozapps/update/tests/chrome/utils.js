@@ -1150,7 +1150,7 @@ update
 /
 tests
 /
-data
+chrome
 /
 "
 ;
