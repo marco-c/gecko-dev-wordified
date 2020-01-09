@@ -6358,6 +6358,14 @@ true
 )
 ;
 }
+if
+(
+!
+IsRootWebRenderBridgeParent
+(
+)
+)
+{
 txn
 .
 Notify
@@ -6380,6 +6388,7 @@ aTxnStartTime
 )
 )
 ;
+}
 mApi
 -
 >
