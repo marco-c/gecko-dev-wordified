@@ -6472,11 +6472,7 @@ useSingletonForAllocationSite
 (
 script
 pc
-&
-PlainObject
-:
-:
-class_
+JSProto_Object
 )
 )
 {
