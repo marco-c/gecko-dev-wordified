@@ -4915,6 +4915,12 @@ this
 prop
 .
 overridden
+|
+|
+!
+this
+.
+shouldShowComputedExpander
 )
 {
 return
