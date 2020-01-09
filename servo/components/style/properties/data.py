@@ -2621,10 +2621,6 @@ TransformStyle
 "
                 
 "
-UserSelect
-"
-                
-"
 XSpan
 "
                 

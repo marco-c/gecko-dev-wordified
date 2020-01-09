@@ -146,10 +146,7 @@ specified
 ui
 :
 :
-{
 MozForceBrokenImageIcon
-UserSelect
-}
 ;
 /
 /
