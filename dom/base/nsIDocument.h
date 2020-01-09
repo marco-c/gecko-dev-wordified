@@ -12767,6 +12767,12 @@ nsIRequest
 aNewRequest
 )
 ;
+virtual
+nsresult
+Init
+(
+)
+;
 /
 *
 *
@@ -12817,8 +12823,6 @@ void
 Destroy
 (
 )
-=
-0
 ;
 /
 *
@@ -12877,8 +12881,6 @@ void
 RemovedFromDocShell
 (
 )
-=
-0
 ;
 /
 *
