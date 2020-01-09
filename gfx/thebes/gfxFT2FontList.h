@@ -158,6 +158,9 @@ class
 nsZipArchive
 ;
 class
+WillShutdownObserver
+;
+class
 FT2FontEntry
 :
 public
@@ -1039,9 +1042,9 @@ mFontNameCache
 int64_t
 mJarModifiedTime
 ;
-nsCOMPtr
+RefPtr
 <
-nsIObserver
+WillShutdownObserver
 >
 mObserver
 ;
