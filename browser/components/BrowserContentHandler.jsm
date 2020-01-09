@@ -1939,7 +1939,7 @@ charset
 null
 /
 /
-referer
+refererInfo
 postData
 undefined
 /
@@ -1964,11 +1964,6 @@ bug
 will
 fix
 .
-undefined
-/
-/
-referrer
-policy
 undefined
 /
 /

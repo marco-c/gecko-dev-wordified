@@ -1618,7 +1618,7 @@ null
 ;
 /
 /
-referrer
+referrerInfo
 args
 .
 appendElement
@@ -1639,16 +1639,6 @@ null
 /
 /
 allowThirdPartyFixup
-args
-.
-appendElement
-(
-null
-)
-;
-/
-/
-referrerPolicy
 if
 (
 createData
