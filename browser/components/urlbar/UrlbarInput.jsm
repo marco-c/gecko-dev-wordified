@@ -1189,9 +1189,12 @@ event
 else
 {
 throw
+new
+Error
+(
 "
 Unrecognized
-urlbar
+UrlbarInput
 event
 :
 "
@@ -1199,6 +1202,7 @@ event
 event
 .
 type
+)
 ;
 }
 }
