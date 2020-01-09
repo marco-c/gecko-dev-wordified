@@ -3462,6 +3462,9 @@ BaselineInterpreterHandler
 InterpreterFrameInfo
 frame_
 ;
+Label
+interpretOp_
+;
 public
 :
 using
@@ -3488,6 +3491,17 @@ frame
 {
 return
 frame_
+;
+}
+Label
+*
+interpretOpLabel
+(
+)
+{
+return
+&
+interpretOp_
 ;
 }
 /

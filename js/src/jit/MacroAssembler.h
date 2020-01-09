@@ -7997,6 +7997,15 @@ mips64
 ;
 inline
 void
+negPtr
+(
+Register
+reg
+)
+PER_ARCH
+;
+inline
+void
 negateFloat
 (
 FloatRegister
