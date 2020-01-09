@@ -1556,6 +1556,15 @@ global
 \
 macro
 (
+globalThis
+globalThis
+"
+globalThis
+"
+)
+\
+macro
+(
 group
 group
 "
