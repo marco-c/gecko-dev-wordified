@@ -1271,13 +1271,6 @@ None
 }
 }
 }
-#
-[
-repr
-(
-C
-)
-]
 /
 /
 /
@@ -1322,6 +1315,13 @@ t
 drop
 this
 .
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 Strong
