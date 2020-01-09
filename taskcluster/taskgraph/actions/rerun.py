@@ -73,8 +73,6 @@ print_function
 unicode_literals
 import
 logging
-import
-sys
 from
 taskgraph
 .
@@ -334,19 +332,23 @@ RERUN_STATES
         
 logger
 .
-error
+warning
 (
             
 "
-Refusing
+No
+need
+to
 to
 rerun
 {
 }
 :
 state
+'
 {
 }
+'
 not
 in
 {
@@ -363,12 +365,7 @@ RERUN_STATES
         
 )
         
-sys
-.
-exit
-(
-1
-)
+return
     
 rerun_task
 (
