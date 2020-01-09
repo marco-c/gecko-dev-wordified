@@ -1248,7 +1248,10 @@ cx
 )
 )
 ;
-OptionalIPCClientInfo
+Maybe
+<
+IPCClientInfo
+>
 ipcClientInfo
 ;
 Maybe
@@ -1274,7 +1277,9 @@ isSome
 )
 {
 ipcClientInfo
-=
+.
+emplace
+(
 clientInfo
 .
 value
@@ -1284,14 +1289,6 @@ value
 ToIPC
 (
 )
-;
-}
-else
-{
-ipcClientInfo
-=
-void_t
-(
 )
 ;
 }
