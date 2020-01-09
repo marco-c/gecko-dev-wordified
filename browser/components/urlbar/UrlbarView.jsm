@@ -1808,6 +1808,16 @@ return
 }
 this
 .
+controller
+.
+userSelectionBehavior
+=
+"
+none
+"
+;
+this
+.
 panel
 .
 removeAttribute

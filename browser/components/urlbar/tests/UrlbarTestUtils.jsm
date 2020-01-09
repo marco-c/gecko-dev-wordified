@@ -2301,6 +2301,8 @@ urlbar
 view
 .
 selectedIndex
+=
+index
 ;
 }
 getResultCount
