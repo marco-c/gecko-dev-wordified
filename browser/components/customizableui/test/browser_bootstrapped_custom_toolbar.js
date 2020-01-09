@@ -138,6 +138,13 @@ appendChild
 testBar
 )
 ;
+CustomizableUI
+.
+registerToolbarNode
+(
+testBar
+)
+;
 return
 testBar
 ;

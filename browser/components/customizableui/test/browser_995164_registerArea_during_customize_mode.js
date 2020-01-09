@@ -773,6 +773,13 @@ appendChild
 otherTB
 )
 ;
+CustomizableUI
+.
+registerToolbarNode
+(
+otherTB
+)
+;
 ok
 (
 wasInformedCorrectlyOfAreaAppearing
