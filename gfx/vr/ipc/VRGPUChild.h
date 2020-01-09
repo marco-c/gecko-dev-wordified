@@ -179,7 +179,7 @@ IsCreated
 ;
 static
 void
-ShutDown
+Shutdown
 (
 )
 ;
