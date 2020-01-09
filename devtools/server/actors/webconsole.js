@@ -9370,6 +9370,11 @@ category
 pageError
 .
 category
+innerWindowID
+:
+pageError
+.
+innerWindowID
 timeStamp
 :
 pageError
@@ -10685,6 +10690,14 @@ category
 "
 webdev
 "
+;
+result
+.
+innerWindowID
+=
+message
+.
+innerID
 ;
 return
 result
