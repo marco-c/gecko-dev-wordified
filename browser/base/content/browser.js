@@ -36009,6 +36009,9 @@ undefined
 )
 {
 throw
+new
+Error
+(
 "
 onContentBlockingEvent
 :
@@ -36018,6 +36021,7 @@ an
 unexpected
 type
 "
+)
 ;
 }
 ContentBlocking
@@ -57685,6 +57689,9 @@ browser
 )
 {
 throw
+new
+Error
+(
 "
 Stale
 promptbox
@@ -57696,6 +57703,7 @@ is
 gone
 .
 "
+)
 ;
 }
 return

@@ -18528,6 +18528,9 @@ downloadsDir
 ;
 }
 throw
+new
+Error
+(
 "
 ASSERTION
 FAILED
@@ -18544,6 +18547,7 @@ or
 Downloads
 '
 "
+)
 ;
 }
 /

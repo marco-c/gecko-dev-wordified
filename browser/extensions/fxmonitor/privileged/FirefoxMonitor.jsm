@@ -1017,6 +1017,9 @@ the
 stack
 .
 throw
+new
+Error
+(
 "
 Cannot
 find
@@ -1029,6 +1032,7 @@ registering
 translated
 strings
 "
+)
 ;
 }
 }

@@ -2015,12 +2015,16 @@ length
 )
 {
 throw
+new
+Error
+(
 "
 No
 selectors
 specified
 .
 "
+)
 ;
 }
 /
@@ -2219,6 +2223,9 @@ element
 )
 {
 throw
+new
+Error
+(
 No
 element
 for
@@ -2229,6 +2236,7 @@ selector
 '
 found
 .
+)
 ;
 }
 /

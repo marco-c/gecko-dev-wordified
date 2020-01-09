@@ -14389,11 +14389,15 @@ null
 )
 {
 throw
+new
+Error
+(
 "
 Invalid
 saved
 state
 "
+)
 ;
 }
 }

@@ -290,6 +290,9 @@ c
 )
 {
 throw
+new
+Error
+(
 "
 rowCount
 is
@@ -297,6 +300,7 @@ a
 readonly
 property
 "
+)
 ;
 }
 get

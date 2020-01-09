@@ -5548,6 +5548,9 @@ if
 notificationEl
 )
 throw
+new
+Error
+(
 "
 PanelUI
 .
@@ -5560,6 +5563,7 @@ find
 notification
 element
 "
+)
 ;
 if
 (
@@ -5569,6 +5573,9 @@ notificationEl
 notification
 )
 throw
+new
+Error
+(
 "
 PanelUI
 .
@@ -5580,6 +5587,7 @@ t
 find
 notification
 "
+)
 ;
 let
 notification
@@ -5640,6 +5648,9 @@ target
 notification
 )
 throw
+new
+Error
+(
 "
 menucommand
 target
@@ -5650,6 +5661,7 @@ action
 /
 notification
 "
+)
 ;
 event
 .

@@ -439,6 +439,8 @@ ex
 )
 {
 throw
+new
+Error
 (
 "
 We

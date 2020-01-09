@@ -1242,6 +1242,9 @@ private
 mode
 .
 throw
+new
+Error
+(
 "
 We
 should
@@ -1253,6 +1256,7 @@ in
 this
 test
 "
+)
 ;
 }
 catch
