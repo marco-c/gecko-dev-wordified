@@ -1635,11 +1635,9 @@ PresShell
 )
 -
 >
-PostDirtyScrollAnchorContainer
+PostPendingScrollAnchorSelection
 (
-ScrollableFrame
-(
-)
+this
 )
 ;
 }
