@@ -599,8 +599,8 @@ UrlbarTestUtils
 .
 promiseAutocompleteResultPopup
 (
-inputText
 win
+inputText
 waitForFocus
 fireInputEvent
 )
