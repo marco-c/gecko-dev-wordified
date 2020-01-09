@@ -999,11 +999,7 @@ mFormat
 (
 aFormat
 )
-mIsMapped
-(
-false
-)
-mImplicitMapped
+mMapped
 (
 false
 )
@@ -1019,7 +1015,7 @@ DataSourceSurfaceD2D1
 {
 if
 (
-mImplicitMapped
+mMapped
 )
 {
 mBitmap
@@ -1120,7 +1116,7 @@ GetData
 MOZ_ASSERT
 (
 !
-mImplicitMapped
+mMapped
 )
 ;
 MOZ_ASSERT
@@ -1312,7 +1308,7 @@ mIsMapped
 ;
 if
 (
-mImplicitMapped
+mMapped
 )
 {
 return
@@ -1353,7 +1349,7 @@ EM
 return
 ;
 }
-mImplicitMapped
+mMapped
 =
 true
 ;
