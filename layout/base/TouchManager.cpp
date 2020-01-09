@@ -1990,6 +1990,7 @@ i
 continue
 ;
 }
+const
 RefPtr
 <
 Touch
@@ -2003,12 +2004,12 @@ mTouch
 if
 (
 !
-touch
+oldTouch
 -
 >
 Equals
 (
-oldTouch
+touch
 )
 )
 {
