@@ -159,9 +159,6 @@ class
 nsIContent
 ;
 class
-nsIPresShell
-;
-class
 nsPresContext
 ;
 /
@@ -207,6 +204,9 @@ mozilla
 {
 class
 EditorBase
+;
+class
+PresShell
 ;
 namespace
 dom
@@ -467,7 +467,7 @@ CleanupDragDropCaret
 (
 )
 ;
-nsIPresShell
+PresShell
 *
 GetPresShell
 (

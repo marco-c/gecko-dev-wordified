@@ -256,17 +256,6 @@ etc
 #
 include
 "
-nsIPresShell
-.
-h
-"
-/
-/
-for
-nsIPresShell
-#
-include
-"
 nsISelectionController
 .
 h
