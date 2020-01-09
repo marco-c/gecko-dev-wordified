@@ -171,13 +171,6 @@ h
 #
 include
 "
-nsSVGAttrTearoffTable
-.
-h
-"
-#
-include
-"
 SVGLengthListSMILType
 .
 h

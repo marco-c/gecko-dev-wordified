@@ -153,13 +153,6 @@ h
 #
 include
 "
-nsSVGAttrTearoffTable
-.
-h
-"
-#
-include
-"
 DOMSVGPointList
 .
 h

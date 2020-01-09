@@ -169,7 +169,7 @@ h
 #
 include
 "
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 .
 h
 "
@@ -322,7 +322,7 @@ Implementation
 *
 /
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGAnimatedPreserveAspectRatio
 DOMSVGAnimatedPreserveAspectRatio
@@ -330,7 +330,7 @@ DOMSVGAnimatedPreserveAspectRatio
 sSVGAnimatedPAspectRatioTearoffTable
 ;
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGAnimatedPreserveAspectRatio
 DOMSVGPreserveAspectRatio
@@ -338,7 +338,7 @@ DOMSVGPreserveAspectRatio
 sBaseSVGPAspectRatioTearoffTable
 ;
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGAnimatedPreserveAspectRatio
 DOMSVGPreserveAspectRatio

@@ -165,7 +165,7 @@ h
 #
 include
 "
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 .
 h
 "
@@ -186,7 +186,7 @@ Implementation
 *
 /
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 nsSVGNumber2
 nsSVGNumber2

@@ -142,14 +142,14 @@ h
 #
 include
 "
-nsSVGAttrTearoffTable
+SMILStringType
 .
 h
 "
 #
 include
 "
-SMILStringType
+SVGAttrTearoffTable
 .
 h
 "
@@ -200,7 +200,7 @@ nsISupports
 NS_INTERFACE_MAP_END
 static
 inline
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGString
 SVGString
@@ -214,7 +214,7 @@ SVGAnimatedStringTearoffTable
 )
 {
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGString
 SVGString

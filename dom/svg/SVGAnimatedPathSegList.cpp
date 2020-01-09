@@ -160,13 +160,6 @@ h
 #
 include
 "
-nsSVGAttrTearoffTable
-.
-h
-"
-#
-include
-"
 SVGPathSegListSMILType
 .
 h

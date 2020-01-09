@@ -146,13 +146,6 @@ h
 #
 include
 "
-nsError
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -160,7 +153,7 @@ h
 #
 include
 "
-nsSVGAttrTearoffTable
+nsError
 .
 h
 "
@@ -168,6 +161,13 @@ h
 include
 "
 nsQueryObject
+.
+h
+"
+#
+include
+"
+SVGAttrTearoffTable
 .
 h
 "
@@ -198,7 +198,7 @@ dom
 ;
 static
 inline
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGStringList
 DOMSVGStringList
@@ -209,7 +209,7 @@ SVGStringListTearoffTable
 )
 {
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGStringList
 DOMSVGStringList

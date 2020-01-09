@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsSVGAttrTearoffTable
-.
-h
-"
-#
-include
-"
 nsCharSeparatedTokenizer
 .
 h
@@ -146,6 +139,13 @@ h
 include
 "
 nsMathUtils
+.
+h
+"
+#
+include
+"
+SVGAttrTearoffTable
 .
 h
 "
@@ -185,7 +185,7 @@ namespace
 mozilla
 {
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGIntegerPair
 SVGIntegerPair
@@ -196,7 +196,7 @@ DOMAnimatedInteger
 sSVGFirstAnimatedIntegerTearoffTable
 ;
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGIntegerPair
 SVGIntegerPair

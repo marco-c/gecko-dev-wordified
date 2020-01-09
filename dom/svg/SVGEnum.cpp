@@ -165,7 +165,7 @@ h
 #
 include
 "
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 .
 h
 "
@@ -180,7 +180,7 @@ namespace
 mozilla
 {
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGEnum
 SVGEnum

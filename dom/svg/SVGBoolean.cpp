@@ -138,7 +138,7 @@ h
 #
 include
 "
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 .
 h
 "
@@ -179,7 +179,7 @@ Implementation
 /
 static
 inline
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGBoolean
 SVGAnimatedBoolean
@@ -190,7 +190,7 @@ SVGAnimatedBooleanTearoffTable
 )
 {
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGBoolean
 SVGAnimatedBoolean

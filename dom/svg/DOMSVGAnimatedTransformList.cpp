@@ -138,7 +138,7 @@ h
 #
 include
 "
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 .
 h
 "
@@ -160,7 +160,7 @@ namespace
 dom
 {
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGAnimatedTransformList
 DOMSVGAnimatedTransformList
