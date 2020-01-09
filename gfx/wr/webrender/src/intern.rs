@@ -60,7 +60,10 @@ use
 api
 :
 :
+{
 LayoutPrimitiveInfo
+LayoutRect
+}
 ;
 use
 internal_types
@@ -2783,6 +2786,9 @@ info
 :
 &
 LayoutPrimitiveInfo
+prim_relative_clip_rect
+:
+LayoutRect
 )
 -
 >

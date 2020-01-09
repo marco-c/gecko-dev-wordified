@@ -73,6 +73,7 @@ api
 :
 :
 {
+LayoutRect
 LayoutToWorldTransform
 LayoutVector2DAu
 RasterSpace
@@ -288,6 +289,9 @@ info
 :
 &
 LayoutPrimitiveInfo
+prim_relative_clip_rect
+:
+LayoutRect
 text_run
 :
 TextRun
@@ -306,6 +310,7 @@ PrimKeyCommonData
 with_info
 (
 info
+prim_relative_clip_rect
 )
 font
 :
@@ -1180,6 +1185,9 @@ info
 :
 &
 LayoutPrimitiveInfo
+prim_relative_clip_rect
+:
+LayoutRect
 )
 -
 >
@@ -1191,6 +1199,7 @@ TextRunKey
 new
 (
 info
+prim_relative_clip_rect
 self
 )
 }
@@ -2079,7 +2088,7 @@ TextRunTemplate
 >
 (
 )
-168
+160
 "
 TextRunTemplate
 size
@@ -2101,7 +2110,7 @@ TextRunKey
 >
 (
 )
-144
+136
 "
 TextRunKey
 size
