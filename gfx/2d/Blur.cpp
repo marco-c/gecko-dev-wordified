@@ -172,7 +172,7 @@ h
 "
 #
 ifdef
-BUILD_ARM_NEON
+USE_NEON
 #
 include
 "
@@ -4743,7 +4743,7 @@ else
 endif
 #
 ifdef
-BUILD_ARM_NEON
+USE_NEON
 if
 (
 mozilla

@@ -165,7 +165,7 @@ h
 "
 #
 ifdef
-BUILD_ARM_NEON
+USE_NEON
 #
 include
 "
@@ -587,7 +587,7 @@ aOpacity
 {
 #
 ifdef
-BUILD_ARM_NEON
+USE_NEON
 if
 (
 mozilla

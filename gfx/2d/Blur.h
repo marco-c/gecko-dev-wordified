@@ -1012,9 +1012,6 @@ aIntegralImageStride
 )
 const
 ;
-#
-ifdef
-BUILD_ARM_NEON
 void
 BoxBlur_NEON
 (
@@ -1037,8 +1034,6 @@ aIntegralImageStride
 )
 const
 ;
-#
-endif
 #
 ifdef
 _MIPS_ARCH_LOONGSON3A
