@@ -140,13 +140,13 @@ info
 -
 wait
 for
-gecko
+AudioFocusAgent
 ready
 -
 "
 )
 ;
-blockForGeckoReady
+blockForAudioFocusAgentReady
 (
 )
 ;
