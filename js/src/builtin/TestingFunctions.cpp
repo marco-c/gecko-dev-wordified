@@ -19019,11 +19019,9 @@ return
 scope
 ;
 }
+static
 bool
-js
-:
-:
-testingFunc_serialize
+Serialize
 (
 JSContext
 *
@@ -39517,7 +39515,7 @@ JS_FN_HELP
 "
 serialize
 "
-testingFunc_serialize
+Serialize
 1
 0
 "

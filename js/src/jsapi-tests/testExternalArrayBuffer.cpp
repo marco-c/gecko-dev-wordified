@@ -123,7 +123,7 @@ cx
 }
 BEGIN_TEST
 (
-testArrayBufferWithUserOwnedContents
+testExternalArrayBuffer
 )
 {
 size_t
@@ -141,7 +141,7 @@ RootedObject
 obj
 (
 cx
-JS_NewArrayBufferWithUserOwnedContents
+JS_NewArrayBufferWithExternalContents
 (
 cx
 length
@@ -275,5 +275,5 @@ true
 }
 END_TEST
 (
-testArrayBufferWithUserOwnedContents
+testExternalArrayBuffer
 )
