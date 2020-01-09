@@ -6335,11 +6335,10 @@ selected
 let
 available
 =
-Services
-.
-locale
-.
-availableLocales
+await
+getAvailableLocales
+(
+)
 ;
 let
 localeNames
