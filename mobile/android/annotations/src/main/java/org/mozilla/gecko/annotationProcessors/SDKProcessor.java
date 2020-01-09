@@ -1764,7 +1764,7 @@ args
 .
 length
 <
-3
+5
 |
 |
 args
@@ -1799,7 +1799,7 @@ outdir
 configfile
 fileprefix
 ]
-*
++
 "
 )
 ;
