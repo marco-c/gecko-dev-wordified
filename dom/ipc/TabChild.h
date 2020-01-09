@@ -430,6 +430,9 @@ nsISHistoryListener
 h
 "
 class
+nsBrowserStatusFilter
+;
+class
 nsIDOMWindowUtils
 ;
 class
@@ -4534,6 +4537,12 @@ BrowsingContext
 >
 mBrowsingContext
 ;
+RefPtr
+<
+nsBrowserStatusFilter
+>
+mStatusFilter
+;
 uint32_t
 mChromeFlags
 ;
@@ -4590,9 +4599,6 @@ mHasValidInnerSize
 ;
 bool
 mDestroyed
-;
-bool
-mProgressListenerRegistered
 ;
 /
 /
