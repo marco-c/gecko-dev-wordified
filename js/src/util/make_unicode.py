@@ -1881,7 +1881,7 @@ lines
 append
 (
 '
-macro
+MACRO
 (
 0x
 {
@@ -1996,7 +1996,7 @@ FOR_EACH_NON_BMP_
 {
 }
 (
-macro
+MACRO
 )
 \
 \
@@ -4743,7 +4743,7 @@ util_UnicodeNonBMP_h
 /
 /
 |
-macro
+MACRO
 |
 receives
 the
@@ -4751,7 +4751,7 @@ following
 arguments
 /
 /
-macro
+MACRO
 (
 FROM
 TO

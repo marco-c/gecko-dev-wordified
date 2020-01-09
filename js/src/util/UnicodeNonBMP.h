@@ -141,7 +141,7 @@ util_UnicodeNonBMP_h
 /
 /
 |
-macro
+MACRO
 |
 receives
 the
@@ -149,7 +149,7 @@ following
 arguments
 /
 /
-macro
+MACRO
 (
 FROM
 TO
@@ -341,10 +341,10 @@ SHA
 define
 FOR_EACH_NON_BMP_LOWERCASE
 (
-macro
+MACRO
 )
 \
-macro
+MACRO
 (
 0x10400
 0x10427
@@ -354,7 +354,7 @@ macro
 40
 )
 \
-macro
+MACRO
 (
 0x104b0
 0x104d3
@@ -364,7 +364,7 @@ macro
 40
 )
 \
-macro
+MACRO
 (
 0x10c80
 0x10cb2
@@ -374,7 +374,7 @@ macro
 64
 )
 \
-macro
+MACRO
 (
 0x118a0
 0x118bf
@@ -384,7 +384,7 @@ macro
 32
 )
 \
-macro
+MACRO
 (
 0x16e40
 0x16e5f
@@ -394,7 +394,7 @@ macro
 32
 )
 \
-macro
+MACRO
 (
 0x1e900
 0x1e921
@@ -520,10 +520,10 @@ SHA
 define
 FOR_EACH_NON_BMP_UPPERCASE
 (
-macro
+MACRO
 )
 \
-macro
+MACRO
 (
 0x10428
 0x1044f
@@ -534,7 +534,7 @@ macro
 40
 )
 \
-macro
+MACRO
 (
 0x104d8
 0x104fb
@@ -545,7 +545,7 @@ macro
 40
 )
 \
-macro
+MACRO
 (
 0x10cc0
 0x10cf2
@@ -556,7 +556,7 @@ macro
 64
 )
 \
-macro
+MACRO
 (
 0x118c0
 0x118df
@@ -567,7 +567,7 @@ macro
 32
 )
 \
-macro
+MACRO
 (
 0x16e60
 0x16e7f
@@ -578,7 +578,7 @@ macro
 32
 )
 \
-macro
+MACRO
 (
 0x1e922
 0x1e943
@@ -705,10 +705,10 @@ SHA
 define
 FOR_EACH_NON_BMP_CASE_FOLDING
 (
-macro
+MACRO
 )
 \
-macro
+MACRO
 (
 0x10400
 0x10427
@@ -718,7 +718,7 @@ macro
 40
 )
 \
-macro
+MACRO
 (
 0x104b0
 0x104d3
@@ -728,7 +728,7 @@ macro
 40
 )
 \
-macro
+MACRO
 (
 0x10c80
 0x10cb2
@@ -738,7 +738,7 @@ macro
 64
 )
 \
-macro
+MACRO
 (
 0x118a0
 0x118bf
@@ -748,7 +748,7 @@ macro
 32
 )
 \
-macro
+MACRO
 (
 0x16e40
 0x16e5f
@@ -758,7 +758,7 @@ macro
 32
 )
 \
-macro
+MACRO
 (
 0x1e900
 0x1e921
@@ -884,10 +884,10 @@ SHA
 define
 FOR_EACH_NON_BMP_REV_CASE_FOLDING
 (
-macro
+MACRO
 )
 \
-macro
+MACRO
 (
 0x10428
 0x1044f
@@ -898,7 +898,7 @@ macro
 40
 )
 \
-macro
+MACRO
 (
 0x104d8
 0x104fb
@@ -909,7 +909,7 @@ macro
 40
 )
 \
-macro
+MACRO
 (
 0x10cc0
 0x10cf2
@@ -920,7 +920,7 @@ macro
 64
 )
 \
-macro
+MACRO
 (
 0x118c0
 0x118df
@@ -931,7 +931,7 @@ macro
 32
 )
 \
-macro
+MACRO
 (
 0x16e60
 0x16e7f
@@ -942,7 +942,7 @@ macro
 32
 )
 \
-macro
+MACRO
 (
 0x1e922
 0x1e943
