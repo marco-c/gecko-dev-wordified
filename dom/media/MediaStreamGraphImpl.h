@@ -5501,6 +5501,16 @@ shutdown
 during
 application
 shutdown
+or
+*
+when
+shutting
+down
+a
+non
+-
+realtime
+graph
 .
 *
 Only
