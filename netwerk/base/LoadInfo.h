@@ -1188,12 +1188,6 @@ bool
 mServiceWorkerTaintingSynthesized
 ;
 bool
-mIsTracker
-;
-bool
-mIsTrackerBlocked
-;
-bool
 mDocumentHasUserInteracted
 ;
 bool
