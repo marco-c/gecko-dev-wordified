@@ -734,6 +734,7 @@ Services
 .
 jsm
 "
+this
 )
 ;
 Cu
@@ -753,6 +754,7 @@ XPCOMUtils
 .
 jsm
 "
+this
 )
 ;
 XPCOMUtils
