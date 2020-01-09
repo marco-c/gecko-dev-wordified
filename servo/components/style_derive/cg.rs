@@ -1918,7 +1918,7 @@ camel_case
 =
 camel_case
 .
-trim_right_matches
+trim_end_matches
 (
 '
 _
