@@ -2591,9 +2591,7 @@ Type
 EqualsLiteral
 (
 "
-webextension
--
-langpack
+locale
 "
 )
 ;
