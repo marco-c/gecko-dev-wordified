@@ -1769,6 +1769,12 @@ nsAString
 outStr
 )
 {
+outStr
+.
+Truncate
+(
+)
+;
 if
 (
 aIndex
