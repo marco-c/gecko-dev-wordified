@@ -66009,6 +66009,8 @@ excluded
 domains
 "
 "
+localhost
+local
 "
 )
 ;
