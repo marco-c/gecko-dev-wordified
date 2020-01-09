@@ -2256,6 +2256,7 @@ mozilla
 .
 com
 >
+*
 explanation
 follows
 :
@@ -2308,6 +2309,7 @@ in
 ection
 points
 for
+*
 planar
 cubic
 bezier
@@ -2325,6 +2327,7 @@ algorithm
 and
 versions
 discussed
+*
 elsewhere
 in
 the
@@ -2406,6 +2409,7 @@ be
 faster
 than
 the
+*
 approach
 take
 below
@@ -2428,6 +2432,7 @@ by
 hain
 et
 .
+*
 al
 *
 Point

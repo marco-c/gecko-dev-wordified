@@ -827,9 +827,9 @@ the
 different
 nsContentBlocker
 permissions
+/
+/
 for
-/
-/
 allowing
 or
 denying
@@ -853,9 +853,9 @@ in
 nsContentBlocker
 .
 cpp
+/
+/
 should
-/
-/
 appear
 in
 this

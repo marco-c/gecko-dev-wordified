@@ -3470,6 +3470,9 @@ The
 nsICommandManager
 calling
 this
+*
+/
+/
 Observer
 *
 in
@@ -3573,6 +3576,7 @@ nsPICommandUpdater
 >
 commandUpdater
 =
+*
 do_QueryInterface
 (
 commandManager
