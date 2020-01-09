@@ -11978,7 +11978,7 @@ stoplabel
 ;
 safeMode
 .
-accesskey
+accessKey
 =
 safeMode
 .
