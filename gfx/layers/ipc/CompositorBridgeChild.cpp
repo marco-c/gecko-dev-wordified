@@ -6217,7 +6217,7 @@ APZCTreeManagerChild
 child
 -
 >
-AddRef
+AddIPDLReference
 (
 )
 ;
@@ -6349,7 +6349,7 @@ aActor
 {
 APZCTreeManagerChild
 *
-parent
+child
 =
 static_cast
 <
@@ -6360,10 +6360,10 @@ APZCTreeManagerChild
 aActor
 )
 ;
-parent
+child
 -
 >
-Release
+ReleaseIPDLReference
 (
 )
 ;
