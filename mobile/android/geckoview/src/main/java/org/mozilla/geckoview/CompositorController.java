@@ -162,7 +162,7 @@ CompositorController
 {
 private
 final
-LayerSession
+GeckoSession
 .
 Compositor
 mCompositor
@@ -214,7 +214,7 @@ package
 CompositorController
 (
 final
-LayerSession
+GeckoSession
 session
 )
 {
