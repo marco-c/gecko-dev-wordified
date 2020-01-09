@@ -221,7 +221,7 @@ Init
 /
 Slot
 for
-NS_InitXPCOM2
+NS_InitXPCOM
 to
 pass
 information
@@ -241,7 +241,7 @@ variable
 definition
 and
 in
-NS_InitXPCOM2
+NS_InitXPCOM
 .
 static
 uint32_t

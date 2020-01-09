@@ -130,16 +130,14 @@ argv
 ]
 )
 {
-nsresult
-rv
-;
 nsIServiceManager
 *
 servMgr
 ;
+nsresult
 rv
 =
-NS_InitXPCOM2
+NS_InitXPCOM
 (
 &
 servMgr
@@ -147,7 +145,7 @@ nullptr
 nullptr
 )
 ;
-NS_ASSERTION
+MOZ_RELEASE_ASSERT
 (
 NS_SUCCEEDED
 (
@@ -311,7 +309,7 @@ NS_ShutdownXPCOM
 servMgr
 )
 ;
-NS_ASSERTION
+MOZ_RELEASE_ASSERT
 (
 NS_SUCCEEDED
 (

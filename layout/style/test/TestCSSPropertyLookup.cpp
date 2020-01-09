@@ -720,7 +720,7 @@ void
 nsresult
 rv
 =
-NS_InitXPCOM2
+NS_InitXPCOM
 (
 nullptr
 nullptr

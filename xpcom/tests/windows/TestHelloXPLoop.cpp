@@ -246,7 +246,7 @@ servMan
 ;
 rv
 =
-NS_InitXPCOM2
+NS_InitXPCOM
 (
 getter_AddRefs
 (

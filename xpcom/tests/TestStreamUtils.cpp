@@ -404,7 +404,7 @@ if
 (
 NS_FAILED
 (
-NS_InitXPCOM2
+NS_InitXPCOM
 (
 nullptr
 nullptr

@@ -435,7 +435,7 @@ endif
 /
 Slot
 for
-NS_InitXPCOM2
+NS_InitXPCOM
 to
 pass
 information

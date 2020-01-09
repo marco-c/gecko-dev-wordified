@@ -372,7 +372,7 @@ bin
 directory
 "
 to
-NS_InitXPCOM2
+NS_InitXPCOM
 (
 )
 .

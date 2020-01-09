@@ -1343,7 +1343,7 @@ gUserUmask
 is
 initialized
 by
-NS_InitXPCOM2
+NS_InitXPCOM
 so
 we
 don
