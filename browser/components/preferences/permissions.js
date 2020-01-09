@@ -1423,16 +1423,8 @@ textbox
 .
 value
 .
-replace
+trim
 (
-/
-^
-\
-s
-*
-/
-"
-"
 )
 ;
 /
@@ -1440,6 +1432,8 @@ s
 trim
 any
 leading
+and
+trailing
 space
 let
 principals
