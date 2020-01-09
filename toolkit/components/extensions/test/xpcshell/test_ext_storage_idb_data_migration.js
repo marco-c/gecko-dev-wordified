@@ -456,7 +456,7 @@ snapshot
 (
 )
 .
-counts
+values
 [
 CATEGORIES
 .

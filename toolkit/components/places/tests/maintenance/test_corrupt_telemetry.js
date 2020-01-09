@@ -81,7 +81,7 @@ snapshot
 (
 )
 .
-counts
+values
 [
 3
 ]
@@ -91,7 +91,7 @@ Assert
 equal
 (
 count
-0
+undefined
 "
 There
 should
@@ -134,7 +134,7 @@ snapshot
 (
 )
 .
-counts
+values
 [
 3
 ]
