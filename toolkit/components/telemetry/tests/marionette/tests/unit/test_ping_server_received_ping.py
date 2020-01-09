@@ -93,7 +93,7 @@ test
 "
         
 def
-action_func
+send_ping_request
 (
 )
 :
@@ -232,14 +232,17 @@ type
 =
 ping_type
         
+[
 ping
+]
 =
 self
 .
-wait_for_ping
+wait_for_pings
 (
-action_func
+send_ping_request
 ping_filter_func
+1
 )
         
 self
