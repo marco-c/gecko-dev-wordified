@@ -5835,31 +5835,31 @@ platforms
 '
 linux
 -
-nightly
+shippable
 '
         
 '
 linux64
 -
-nightly
+shippable
 '
         
 '
 macosx64
 -
-nightly
+shippable
 '
         
 '
 win32
 -
-nightly
+shippable
 '
         
 '
 win64
 -
-nightly
+shippable
 '
         
 '
@@ -5867,7 +5867,7 @@ win64
 -
 aarch64
 -
-nightly
+shippable
 '
         
 '
