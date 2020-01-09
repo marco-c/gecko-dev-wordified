@@ -2204,14 +2204,6 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetScale
-(
-)
-;
-already_AddRefed
-<
-CSSValue
->
 DoGetTransformOrigin
 (
 )

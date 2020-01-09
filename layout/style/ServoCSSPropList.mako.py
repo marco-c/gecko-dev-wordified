@@ -621,6 +621,10 @@ Resize
 "
     
 "
+Scale
+"
+    
+"
 TextAlign
 "
     
