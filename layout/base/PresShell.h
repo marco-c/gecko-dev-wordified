@@ -197,13 +197,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -4337,7 +4330,7 @@ mFramesToDirty
 ;
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 DelayedEvent
 >
