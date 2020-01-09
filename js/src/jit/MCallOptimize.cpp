@@ -26280,6 +26280,14 @@ add
 call
 )
 ;
+MOZ_TRY
+(
+resumeAfter
+(
+call
+)
+)
+;
 callInfo
 .
 setImplicitlyUsedUnchecked
