@@ -2050,7 +2050,7 @@ align
 #
 propdef
 -
-align
+justify
 -
 content
 >
@@ -3153,9 +3153,11 @@ css
 align
 /
 #
-self
+propdef
 -
-alignment
+align
+-
+items
 >
 #
 [
