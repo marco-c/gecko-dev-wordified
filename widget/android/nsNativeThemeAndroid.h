@@ -103,7 +103,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 const
 nsRect
@@ -126,7 +126,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 override
@@ -140,7 +140,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 LayoutDeviceIntMargin
 *
@@ -157,7 +157,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 nsRect
 *
@@ -174,7 +174,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 mozilla
 :
@@ -194,7 +194,7 @@ WidgetStateChanged
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 nsAtom
 *
@@ -227,7 +227,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 override
@@ -238,7 +238,7 @@ bool
 )
 WidgetIsContainer
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 override
@@ -249,7 +249,7 @@ bool
 )
 ThemeDrawsFocusForWidget
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 override
@@ -266,7 +266,7 @@ GetWidgetTransparency
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 override

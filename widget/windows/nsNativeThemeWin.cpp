@@ -3744,7 +3744,7 @@ DrawThemedProgressMeter
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 HANDLE
 aTheme
@@ -4037,7 +4037,7 @@ HTHEME
 aTheme
 nsUXThemeClass
 aThemeClass
-WidgetType
+StyleAppearance
 aWidgetType
 int32_t
 aPart
@@ -4264,7 +4264,7 @@ HANDLE
 aTheme
 nsUXThemeClass
 aThemeClass
-WidgetType
+StyleAppearance
 aWidgetType
 int32_t
 aPart
@@ -4631,7 +4631,7 @@ nsNativeThemeWin
 :
 GetThemeClass
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -5285,7 +5285,7 @@ nsNativeThemeWin
 :
 GetTheme
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -5339,7 +5339,7 @@ StandardGetState
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 bool
 wantFocused
@@ -5408,7 +5408,7 @@ IsMenuActive
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -5558,7 +5558,7 @@ GetThemePartAndState
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 int32_t
 &
@@ -9429,7 +9429,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 const
 nsRect
@@ -12890,7 +12890,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -13487,7 +13487,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 LayoutDeviceIntMargin
 *
@@ -14503,7 +14503,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 nsRect
 *
@@ -14836,7 +14836,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 LayoutDeviceIntSize
 *
@@ -16337,7 +16337,7 @@ WidgetStateChanged
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 nsAtom
 *
@@ -16990,7 +16990,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -17155,7 +17155,7 @@ nsNativeThemeWin
 :
 WidgetIsContainer
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -17248,7 +17248,7 @@ nsNativeThemeWin
 :
 ThemeDrawsFocusForWidget
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -17274,7 +17274,7 @@ nsNativeThemeWin
 :
 WidgetAppearanceDependsOnWindowFocus
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -17359,7 +17359,7 @@ ThemeGeometryTypeForWidget
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -17402,7 +17402,7 @@ GetWidgetTransparency
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -17857,7 +17857,7 @@ ClassicThemeSupportsWidget
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -18393,7 +18393,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -18764,7 +18764,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 LayoutDeviceIntMargin
 *
@@ -19031,7 +19031,7 @@ ClassicGetMinimumWidgetSize
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 LayoutDeviceIntSize
 *
@@ -20387,7 +20387,7 @@ ClassicGetThemePartAndState
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 int32_t
 &
@@ -23604,7 +23604,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 const
 nsRect
@@ -26431,7 +26431,7 @@ nsNativeThemeWin
 :
 GetWidgetNativeDrawingFlags
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -27460,7 +27460,7 @@ aFrame
 ComputedStyle
 *
 aStyle
-WidgetType
+StyleAppearance
 aWidgetType
 const
 nsRect

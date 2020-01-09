@@ -1254,7 +1254,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 const
 nsRect
@@ -1438,7 +1438,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -1460,7 +1460,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 LayoutDeviceIntMargin
 *
@@ -1548,7 +1548,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 nsRect
 *
@@ -1571,7 +1571,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 LayoutDeviceIntSize
 *
@@ -1654,7 +1654,7 @@ WidgetStateChanged
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 nsAtom
 *
@@ -1763,7 +1763,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -1803,7 +1803,7 @@ nsNativeThemeAndroid
 :
 WidgetIsContainer
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -1817,7 +1817,7 @@ nsNativeThemeAndroid
 :
 ThemeDrawsFocusForWidget
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -1849,7 +1849,7 @@ GetWidgetTransparency
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
