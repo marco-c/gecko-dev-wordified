@@ -20830,11 +20830,6 @@ _swapBrowserDocShells
 (
 aOurTab
 otherBrowser
-Ci
-.
-nsIBrowser
-.
-SWAP_DEFAULT
 stateFlags
 )
 ;
@@ -21089,7 +21084,6 @@ swapBrowsers
 (
 aOurTab
 aOtherTab
-aFlags
 )
 {
 let
@@ -21184,7 +21178,6 @@ _swapBrowserDocShells
 (
 aOurTab
 otherBrowser
-aFlags
 )
 ;
 /
@@ -21255,7 +21248,6 @@ _swapBrowserDocShells
 (
 aOurTab
 aOtherBrowser
-aFlags
 aStateFlags
 )
 {
@@ -21524,20 +21516,6 @@ aOtherBrowser
 )
 ;
 }
-if
-(
-!
-(
-aFlags
-&
-Ci
-.
-nsIBrowser
-.
-SWAP_KEEP_PERMANENT_KEY
-)
-)
-{
 /
 /
 Swap
@@ -21601,7 +21579,6 @@ aOtherBrowser
 .
 permanentKey
 ;
-}
 }
 }
 /
