@@ -222,7 +222,7 @@ ScrollbarColor
 generics
 :
 :
-ScrollbarColor
+GenericScrollbarColor
 <
 Color
 >
