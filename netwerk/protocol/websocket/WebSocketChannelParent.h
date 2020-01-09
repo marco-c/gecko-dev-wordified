@@ -288,7 +288,11 @@ LoadInfoArgs
 &
 aLoadInfoArgs
 const
-OptionalTransportProvider
+Maybe
+<
+PTransportProviderParent
+*
+>
 &
 aTransportProvider
 const
