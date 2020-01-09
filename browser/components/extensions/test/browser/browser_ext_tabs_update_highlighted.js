@@ -684,6 +684,9 @@ onActivated
 tabId
 :
 tab1
+previousTabId
+:
+tab2
 windowId
 }
 ]
@@ -809,6 +812,9 @@ onActivated
 tabId
 :
 tab2
+previousTabId
+:
+tab1
 windowId
 }
 ]
@@ -884,6 +890,9 @@ onActivated
 tabId
 :
 tab1
+previousTabId
+:
+tab2
 windowId
 }
 ]
@@ -1094,6 +1103,9 @@ onActivated
 tabId
 :
 tab2
+previousTabId
+:
+tab1
 windowId
 }
 ]
@@ -1172,6 +1184,9 @@ onActivated
 tabId
 :
 tab1
+previousTabId
+:
+tab2
 windowId
 }
 ]
