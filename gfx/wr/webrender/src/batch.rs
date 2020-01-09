@@ -240,6 +240,7 @@ prim_store
 BrushSegment
 ClipMaskKind
 ClipTaskIndex
+VECS_PER_SEGMENT
 }
 ;
 use
@@ -10404,13 +10405,6 @@ VECS_PER_SPECIFIC_BRUSH
 usize
 =
 3
-;
-const
-VECS_PER_SEGMENT
-:
-usize
-=
-2
 ;
 let
 max_tiles_per_header

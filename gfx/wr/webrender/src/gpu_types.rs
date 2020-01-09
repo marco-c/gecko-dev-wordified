@@ -144,6 +144,14 @@ declared
 in
 GLSL
 .
+pub
+const
+VECS_PER_TRANSFORM
+:
+usize
+=
+8
+;
 #
 [
 derive
@@ -2230,6 +2238,7 @@ Complex
 }
 /
 /
+/
 The
 GPU
 data
@@ -2505,6 +2514,11 @@ new
 >
 Self
 {
+let
+_
+=
+VECS_PER_TRANSFORM
+;
 TransformPalette
 {
 transforms
