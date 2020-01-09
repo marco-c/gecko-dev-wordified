@@ -281,6 +281,17 @@ usbRuntimeConnectionParameter
 {
 /
 /
+device
+id
+deviceId
+:
+PropTypes
+.
+string
+.
+isRequired
+/
+/
 socket
 path
 to
