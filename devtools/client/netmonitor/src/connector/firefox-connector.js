@@ -2312,6 +2312,7 @@ viewSourceInDebugger
 (
 sourceURL
 sourceLine
+sourceColumn
 )
 {
 if
@@ -2329,6 +2330,7 @@ viewSourceInDebugger
 (
 sourceURL
 sourceLine
+sourceColumn
 )
 ;
 }

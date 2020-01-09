@@ -21917,6 +21917,7 @@ function
 (
 sourceURL
 sourceLine
+sourceColumn
 sourceId
 reason
 )
@@ -21929,6 +21930,7 @@ viewSourceInDebugger
 this
 sourceURL
 sourceLine
+sourceColumn
 sourceId
 reason
 )

@@ -386,6 +386,7 @@ onViewSourceInDebugger
 {
 url
 line
+column
 }
 )
 =
@@ -398,6 +399,7 @@ viewSourceInDebugger
 (
 url
 line
+column
 )
 ;
 }

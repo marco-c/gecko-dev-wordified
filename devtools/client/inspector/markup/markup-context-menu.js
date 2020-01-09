@@ -1197,6 +1197,7 @@ const
 {
 url
 line
+column
 }
 =
 this
@@ -1215,6 +1216,7 @@ viewSourceInDebugger
 (
 url
 line
+column
 null
 "
 show_custom_element

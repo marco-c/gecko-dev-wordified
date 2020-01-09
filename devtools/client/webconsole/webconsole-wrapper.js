@@ -1895,6 +1895,9 @@ frame
 line
 frame
 .
+column
+frame
+.
 sourceId
 )
 .
