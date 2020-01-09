@@ -20653,7 +20653,7 @@ ReturnReg
 #
 endif
 }
-void
+CodeOffset
 MacroAssembler
 :
 :
@@ -20776,6 +20776,9 @@ loadWasmTlsRegFromFrame
 (
 )
 ;
+CodeOffset
+raOffset
+=
 call
 (
 wasm
@@ -20816,6 +20819,9 @@ Pop
 (
 WasmTlsReg
 )
+;
+return
+raOffset
 ;
 }
 /
@@ -22432,7 +22438,7 @@ ok
 ;
 }
 }
-void
+CodeOffset
 MacroAssembler
 :
 :
@@ -22602,6 +22608,7 @@ loadWasmPinnedRegsFromTls
 (
 )
 ;
+return
 call
 (
 desc
@@ -22609,7 +22616,7 @@ ABINonArgReg0
 )
 ;
 }
-void
+CodeOffset
 MacroAssembler
 :
 :
@@ -22767,6 +22774,7 @@ pointer
 )
 ;
 }
+return
 call
 (
 desc
@@ -22774,7 +22782,7 @@ builtin
 )
 ;
 }
-void
+CodeOffset
 MacroAssembler
 :
 :
@@ -22998,13 +23006,12 @@ code
 scratch
 )
 ;
+return
 call
 (
 desc
 scratch
 )
-;
-return
 ;
 }
 MOZ_ASSERT
@@ -23347,6 +23354,7 @@ code
 scratch
 )
 ;
+return
 call
 (
 desc

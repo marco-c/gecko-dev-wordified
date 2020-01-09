@@ -4393,7 +4393,7 @@ ip0
 )
 ;
 }
-void
+CodeOffset
 MacroAssembler
 :
 :
@@ -4439,6 +4439,7 @@ imm
 scratch
 )
 ;
+return
 call
 (
 scratch

@@ -29646,7 +29646,7 @@ imm
 )
 ;
 }
-void
+CodeOffset
 MacroAssembler
 :
 :
@@ -29665,6 +29665,7 @@ imm
 CallReg
 )
 ;
+return
 call
 (
 CallReg

@@ -2482,6 +2482,9 @@ funcImports
 FuncExportVector
 funcExports
 ;
+StackMaps
+stackMaps
+;
 /
 /
 Debug
@@ -4374,6 +4377,17 @@ lookupFuncRange
 void
 *
 pc
+)
+const
+;
+const
+StackMap
+*
+lookupStackMap
+(
+uint8_t
+*
+nextPC
 )
 const
 ;

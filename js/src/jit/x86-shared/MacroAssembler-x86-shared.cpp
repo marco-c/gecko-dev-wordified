@@ -4133,7 +4133,7 @@ offset
 )
 ;
 }
-void
+CodeOffset
 MacroAssembler
 :
 :
@@ -4152,6 +4152,7 @@ target
 eax
 )
 ;
+return
 Assembler
 :
 :
