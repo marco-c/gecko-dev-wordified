@@ -46584,6 +46584,16 @@ cx
 fun
 )
 ;
+if
+(
+!
+script
+)
+{
+return
+false
+;
+}
 }
 else
 {
