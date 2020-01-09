@@ -223,6 +223,15 @@ AboutDebugging
 store
 ;
 await
+waitForDispatch
+(
+store
+"
+REQUEST_WORKERS_SUCCESS
+"
+)
+;
+await
 waitForRequestsToSettle
 (
 store
