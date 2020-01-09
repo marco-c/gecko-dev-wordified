@@ -4658,9 +4658,7 @@ tables
 (
 )
 [
-seg
-.
-tableIndex
+0
 ]
 ;
 /
