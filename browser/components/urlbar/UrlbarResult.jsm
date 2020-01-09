@@ -815,6 +815,13 @@ UrlbarUtils
 .
 RESULT_TYPE
 .
+KEYWORD
+:
+case
+UrlbarUtils
+.
+RESULT_TYPE
+.
 TAB_SWITCH
 :
 case
