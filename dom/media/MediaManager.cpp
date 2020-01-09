@@ -11034,8 +11034,6 @@ DeviceEnumerationType
 aVideoInputEnumType
 DeviceEnumerationType
 aAudioInputEnumType
-bool
-aForceNoPermRequest
 const
 RefPtr
 <
@@ -11895,9 +11893,6 @@ __func__
 if
 (
 realDeviceRequested
-&
-&
-aForceNoPermRequest
 &
 &
 Preferences
@@ -14240,7 +14235,6 @@ DeviceEnumerationType
 :
 :
 Normal
-false
 devices
 )
 -
@@ -17685,7 +17679,6 @@ MediaSinkEnum
 Other
 videoEnumerationType
 audioEnumerationType
-true
 devices
 )
 -
@@ -19259,8 +19252,6 @@ DeviceEnumerationType
 aVideoInputEnumType
 DeviceEnumerationType
 aAudioInputEnumType
-bool
-aForceNoPermRequest
 const
 RefPtr
 <
@@ -19592,7 +19583,6 @@ aAudioInputType
 aAudioOutputType
 aVideoInputEnumType
 aAudioInputEnumType
-aForceNoPermRequest
 aOutDevices
 originKey
 ]
@@ -19681,7 +19671,6 @@ aAudioInputType
 aAudioOutputType
 aVideoInputEnumType
 aAudioInputEnumType
-aForceNoPermRequest
 aOutDevices
 )
 ;
@@ -20508,7 +20497,6 @@ Microphone
 audioOutputType
 videoEnumerationType
 audioEnumerationType
-false
 devices
 )
 -
@@ -20883,7 +20871,6 @@ DeviceEnumerationType
 :
 :
 Normal
-true
 devices
 )
 -
