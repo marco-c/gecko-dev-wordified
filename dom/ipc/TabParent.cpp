@@ -3851,7 +3851,7 @@ void
 TabParent
 :
 :
-InitRenderFrame
+InitRendering
 (
 )
 {

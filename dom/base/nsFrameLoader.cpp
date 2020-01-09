@@ -16488,7 +16488,7 @@ RenderFrameParent
 mRemoteBrowser
 -
 >
-InitRenderFrame
+InitRendering
 (
 )
 ;
@@ -18087,7 +18087,7 @@ InitializeBrowserAPI
 mRemoteBrowser
 -
 >
-InitRenderFrame
+InitRendering
 (
 )
 ;
