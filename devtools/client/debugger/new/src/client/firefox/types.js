@@ -111,6 +111,7 @@ ActorId
 Script
 Source
 Pause
+PendingLocation
 Frame
 SourceId
 Worker
@@ -1047,15 +1048,6 @@ string
 =
 >
 void
-emit
-:
-(
-string
-any
-)
-=
->
-void
 }
 form
 :
@@ -1115,9 +1107,6 @@ boolean
 isContentProcess
 :
 boolean
-traits
-:
-Object
 }
 ;
 /
@@ -1762,7 +1751,7 @@ Promise
 >
 removeBreakpoint
 :
-BreakpointLocation
+PendingLocation
 =
 >
 Promise

@@ -12,6 +12,7 @@ stepIn
 findSource
 removeBreakpoint
 resume
+selectSource
 *
 /
 info
@@ -296,6 +297,13 @@ onPaused
 waitForPaused
 (
 dbg
+)
+;
+await
+selectSource
+(
+dbg
+fileName
 )
 ;
 await
