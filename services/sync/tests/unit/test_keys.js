@@ -519,7 +519,7 @@ hmacKey
 =
 Utils
 .
-generateRandomBytes
+generateRandomBytesLegacy
 (
 15
 )
@@ -697,7 +697,7 @@ hmacKey
 =
 Utils
 .
-generateRandomBytes
+generateRandomBytesLegacy
 (
 15
 )

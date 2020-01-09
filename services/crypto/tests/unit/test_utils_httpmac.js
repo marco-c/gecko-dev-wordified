@@ -85,8 +85,10 @@ js
 "
 )
 ;
+add_test
+(
 function
-run_test
+setup
 (
 )
 {
@@ -99,8 +101,11 @@ run_next_test
 )
 ;
 }
-add_test
+)
+;
+add_task
 (
+async
 function
 test_sha1
 (
@@ -182,6 +187,7 @@ alias
 let
 result
 =
+await
 CryptoUtils
 .
 computeHTTPMACSHA1
@@ -265,6 +271,7 @@ bar
 ;
 result
 =
+await
 CryptoUtils
 .
 computeHTTPMACSHA1
@@ -348,15 +355,12 @@ bar
 '
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_nonce_length
 (
@@ -426,6 +430,7 @@ length
 let
 result
 =
+await
 get_mac
 (
 12
@@ -448,6 +453,7 @@ length
 ;
 result
 =
+await
 get_mac
 (
 2
@@ -470,6 +476,7 @@ length
 ;
 result
 =
+await
 get_mac
 (
 0
@@ -492,6 +499,7 @@ length
 ;
 result
 =
+await
 get_mac
 (
 -
@@ -511,10 +519,6 @@ nonce
 )
 .
 length
-)
-;
-run_next_test
-(
 )
 ;
 }

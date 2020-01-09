@@ -4829,11 +4829,6 @@ let
 credentials
 =
 {
-algorithm
-:
-"
-sha256
-"
 id
 :
 this
@@ -4908,6 +4903,7 @@ credentials
 let
 headerValue
 =
+await
 CryptoUtils
 .
 computeHAWK

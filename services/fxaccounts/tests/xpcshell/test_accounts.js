@@ -10441,8 +10441,9 @@ null
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_deriveKeys
 (
@@ -10495,6 +10496,7 @@ kExtSync
 kExtKbHash
 }
 =
+await
 account
 .
 internal
@@ -10551,10 +10553,6 @@ kExtKbHash
 "
 6192f1cc7dce95334455ba135fa1d8fca8f70e8f594ae318528de06f24ed0273
 "
-)
-;
-run_next_test
-(
 )
 ;
 }

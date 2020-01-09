@@ -4396,6 +4396,7 @@ data
 let
 sig
 =
+await
 CryptoUtils
 .
 computeHTTPMACSHA1

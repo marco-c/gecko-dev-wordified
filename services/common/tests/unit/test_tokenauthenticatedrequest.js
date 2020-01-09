@@ -216,7 +216,7 @@ btoa
 (
 CryptoUtils
 .
-generateRandomBytes
+generateRandomBytesLegacy
 (
 16
 )
@@ -344,6 +344,7 @@ foo
 let
 sig
 =
+await
 CryptoUtils
 .
 computeHTTPMACSHA1

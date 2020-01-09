@@ -3202,7 +3202,7 @@ btoa
 (
 CryptoUtils
 .
-generateRandomBytes
+generateRandomBytesLegacy
 (
 STORAGE_SYNC_CRYPTO_SALT_LENGTH_BYTES
 )
