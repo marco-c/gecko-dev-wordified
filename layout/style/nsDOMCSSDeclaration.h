@@ -241,6 +241,10 @@ class
 Element
 ;
 }
+/
+/
+namespace
+dom
 struct
 MutationClosureData
 {

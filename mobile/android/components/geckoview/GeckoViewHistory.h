@@ -134,6 +134,10 @@ Document
 ;
 }
 }
+/
+/
+namespace
+mozilla
 struct
 VisitedURI
 {

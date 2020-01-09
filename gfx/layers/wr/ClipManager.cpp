@@ -228,6 +228,12 @@ __VA_ARGS__
 )
 /
 /
+clang
+-
+format
+off
+/
+/
 #
 define
 CLIP_LOG
@@ -250,6 +256,12 @@ CLIP
 "
 __VA_ARGS__
 )
+/
+/
+clang
+-
+format
+on
 namespace
 mozilla
 {

@@ -4727,6 +4727,7 @@ when
 the
 XBL
 binding
+*
 is
 removed
 .
