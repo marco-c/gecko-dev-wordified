@@ -651,10 +651,11 @@ a
 load
 event
 .
-gBrowser
+NewTabPagePreloading
 .
 removePreloadedBrowser
 (
+window
 )
 ;
 let
