@@ -3950,6 +3950,10 @@ names
 '
 features
 '
+        
+'
+output_category
+'
     
 )
     
@@ -3982,6 +3986,14 @@ self
 features
 =
 features
+        
+self
+.
+output_category
+=
+'
+rusttests
+'
 class
 BaseLibrary
 (

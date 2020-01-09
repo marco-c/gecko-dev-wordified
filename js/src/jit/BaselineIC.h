@@ -14501,6 +14501,10 @@ masm
 )
 override
 ;
+JSScript
+*
+script_
+;
 jsbytecode
 *
 pc_
@@ -14512,6 +14516,9 @@ Compiler
 JSContext
 *
 cx
+JSScript
+*
+script
 jsbytecode
 *
 pc
@@ -14524,6 +14531,10 @@ ICStub
 :
 :
 TableSwitch
+)
+script_
+(
+script
 )
 pc_
 (
