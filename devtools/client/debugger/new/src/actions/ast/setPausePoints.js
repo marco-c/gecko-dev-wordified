@@ -398,6 +398,13 @@ getPausePoints
 sourceId
 )
 ;
+if
+(
+features
+.
+columnBreakpoints
+)
+{
 pausePoints
 =
 await
@@ -408,6 +415,7 @@ source
 sourceMaps
 )
 ;
+}
 if
 (
 isGenerated
