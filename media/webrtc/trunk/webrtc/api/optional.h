@@ -206,10 +206,12 @@ sanitizers
 to
 complain
 .
+const
 void
 *
 FunctionThatDoesNothingImpl
 (
+const
 void
 *
 )
@@ -220,10 +222,12 @@ typename
 T
 >
 inline
+const
 T
 *
 FunctionThatDoesNothing
 (
+const
 T
 *
 x
@@ -232,6 +236,7 @@ x
 return
 reinterpret_cast
 <
+const
 T
 *
 >
@@ -240,6 +245,7 @@ FunctionThatDoesNothingImpl
 (
 reinterpret_cast
 <
+const
 void
 *
 >
