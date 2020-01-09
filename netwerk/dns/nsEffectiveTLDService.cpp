@@ -452,10 +452,8 @@ nullptr
 /
 /
 static
-already_AddRefed
-<
 nsEffectiveTLDService
->
+*
 nsEffectiveTLDService
 :
 :
@@ -469,10 +467,7 @@ gService
 )
 {
 return
-do_AddRef
-(
 gService
-)
 ;
 }
 nsCOMPtr
@@ -514,10 +509,7 @@ Init
 )
 ;
 return
-do_AddRef
-(
 gService
-)
 ;
 }
 MOZ_DEFINE_MALLOC_SIZE_OF
