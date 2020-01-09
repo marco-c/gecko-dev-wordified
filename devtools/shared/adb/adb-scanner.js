@@ -135,7 +135,7 @@ adb
 ;
 const
 {
-Devices
+adbDevicesRegistry
 }
 =
 require
@@ -147,9 +147,11 @@ shared
 /
 adb
 /
-Devices
-.
-jsm
+adb
+-
+devices
+-
+registry
 "
 )
 ;
@@ -268,7 +270,7 @@ this
 _onDeviceDisconnected
 )
 ;
-Devices
+adbDevicesRegistry
 .
 on
 (
@@ -280,7 +282,7 @@ this
 _updateRuntimes
 )
 ;
-Devices
+adbDevicesRegistry
 .
 on
 (
@@ -355,7 +357,7 @@ this
 _onDeviceDisconnected
 )
 ;
-Devices
+adbDevicesRegistry
 .
 off
 (
@@ -367,7 +369,7 @@ this
 _updateRuntimes
 )
 ;
-Devices
+adbDevicesRegistry
 .
 off
 (
@@ -418,7 +420,7 @@ Device
 deviceId
 )
 ;
-Devices
+adbDevicesRegistry
 .
 register
 (
@@ -432,7 +434,7 @@ _onDeviceDisconnected
 deviceId
 )
 {
-Devices
+adbDevicesRegistry
 .
 unregister
 (
@@ -475,7 +477,7 @@ for
 const
 id
 of
-Devices
+adbDevicesRegistry
 .
 available
 (
@@ -485,7 +487,7 @@ available
 const
 device
 =
-Devices
+adbDevicesRegistry
 .
 getByName
 (
