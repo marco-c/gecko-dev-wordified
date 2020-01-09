@@ -136,7 +136,7 @@ import
     
 docker_worker_add_workspace_cache
     
-setup_secrets
+docker_worker_setup_secrets
     
 docker_worker_add_artifacts
     
@@ -1860,7 +1860,7 @@ status
 4
 ]
     
-setup_secrets
+docker_worker_setup_secrets
 (
 config
 job
@@ -2109,6 +2109,10 @@ tooltool
 -
 downloads
 '
+                 
+'
+secrets
+'
 '
 taskcluster
 -
@@ -2204,13 +2208,6 @@ taskdesc
 worker
 '
 ]
-    
-setup_secrets
-(
-config
-job
-taskdesc
-)
     
 taskdesc
 [
