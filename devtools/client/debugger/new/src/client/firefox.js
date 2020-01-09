@@ -92,6 +92,7 @@ events
 import
 {
 features
+prefs
 }
 from
 "
@@ -277,6 +278,11 @@ true
 wasmBinarySource
 :
 supportsWasm
+skipBreakpoints
+:
+prefs
+.
+skipPausing
 }
 )
 ;
