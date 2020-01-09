@@ -2670,6 +2670,14 @@ aTag
 aScope
 )
 {
+aScope
+=
+aScope
+|
+|
+{
+}
+;
 const
 tag
 =
