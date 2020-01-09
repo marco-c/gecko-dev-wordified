@@ -244,7 +244,7 @@ nsTArray
 wr
 :
 :
-FilterOp
+WrFilterOp
 >
 &
 aFilters
@@ -254,7 +254,7 @@ nsTArray
 wr
 :
 :
-FilterOp
+WrFilterOp
 >
 (
 )
