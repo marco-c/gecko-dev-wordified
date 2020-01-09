@@ -97,13 +97,6 @@ Proxy
 for
 playback
 "
-"
-left
-behind
-by
-crashed
-processes
-"
     
 long_description
 =
