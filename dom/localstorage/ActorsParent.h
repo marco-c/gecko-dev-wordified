@@ -305,6 +305,15 @@ PBackgroundLSSimpleRequestParent
 *
 AllocPBackgroundLSSimpleRequestParent
 (
+mozilla
+:
+:
+ipc
+:
+:
+PBackgroundParent
+*
+aBackgroundActor
 const
 LSSimpleRequestParams
 &

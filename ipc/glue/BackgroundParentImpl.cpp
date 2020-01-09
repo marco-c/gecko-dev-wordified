@@ -2130,6 +2130,7 @@ dom
 :
 AllocPBackgroundLSSimpleRequestParent
 (
+this
 aParams
 )
 ;
