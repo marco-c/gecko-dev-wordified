@@ -187,6 +187,12 @@ self
 require_conditions
 =
 False
+        
+self
+.
+command_depth
+=
+0
     
 def
 register_command_handler
@@ -588,6 +594,13 @@ fail_conditions
 return
 1
         
+self
+.
+command_depth
++
+=
+1
+        
 fn
 =
 getattr
@@ -692,10 +705,20 @@ result
                         
 start_time
 end_time
+self
+.
+command_depth
 args
 =
 kwargs
 )
+        
+self
+.
+command_depth
+-
+=
+1
         
 return
 result
