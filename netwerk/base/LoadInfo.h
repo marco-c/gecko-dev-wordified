@@ -749,6 +749,8 @@ uint64_t
 aFrameOuterWindowID
 uint64_t
 aBrowsingContextID
+uint64_t
+aFrameBrowsingContextID
 bool
 aInitialSecurityCheckDone
 bool
@@ -1150,6 +1152,9 @@ mFrameOuterWindowID
 uint64_t
 mBrowsingContextID
 ;
+uint64_t
+mFrameBrowsingContextID
+;
 bool
 mInitialSecurityCheckDone
 ;
@@ -1242,6 +1247,12 @@ nsILoadInfo
 isFromProcessingFrameAttributes
 bool
 mIsFromProcessingFrameAttributes
+;
+nsILoadInfo
+:
+:
+CrossOriginOpenerPolicy
+mOpenerPolicy
 ;
 }
 ;
