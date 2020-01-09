@@ -187,17 +187,6 @@ this
 )
 ;
 }
-destroy
-(
-)
-{
-super
-.
-destroy
-(
-)
-;
-}
 }
 exports
 .

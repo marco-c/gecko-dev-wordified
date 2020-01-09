@@ -301,17 +301,6 @@ connect
 )
 ;
 }
-destroy
-(
-)
-{
-super
-.
-destroy
-(
-)
-;
-}
 /
 *
 *
