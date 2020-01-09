@@ -492,7 +492,7 @@ _exec
 f
 =
 >
-setTimeout
+step_timeout
 (
 f
 0
