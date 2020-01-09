@@ -267,6 +267,9 @@ nsINode
 >
 mNode
 ;
+nsRect
+mFrameRect
+;
 /
 *
 *
