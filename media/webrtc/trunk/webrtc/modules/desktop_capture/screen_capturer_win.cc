@@ -289,6 +289,9 @@ options
 )
 )
 ;
+#
+ifdef
+CAPTURE_ALLOW_DIRECTX
 if
 (
 options
@@ -362,6 +365,8 @@ capturer
 ;
 }
 }
+#
+endif
 if
 (
 options

@@ -1239,6 +1239,13 @@ input_frame_rate
 =
 =
 0
+|
+|
+input_frame_rate
+>
+current_codec_
+.
+maxFramerate
 )
 input_frame_rate
 =
@@ -2633,6 +2640,12 @@ return
 VCM_OK
 ;
 }
+/
+*
+TODO
+:
+Fixup
+SetCPULoadState
 void
 VideoSender
 :
@@ -2661,6 +2674,8 @@ state
 )
 ;
 }
+*
+/
 }
 /
 /

@@ -104,8 +104,6 @@ string
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -117,8 +115,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -130,8 +126,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

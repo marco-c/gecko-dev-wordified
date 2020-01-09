@@ -1519,7 +1519,7 @@ is
 very
 wrong
 !
-LOG
+RTC_LOG
 (
 LS_ERROR
 )

@@ -2807,13 +2807,7 @@ nullptr
 ;
 }
 return
-std
-:
-:
-move
-(
 capturer
-)
 ;
 }
 }

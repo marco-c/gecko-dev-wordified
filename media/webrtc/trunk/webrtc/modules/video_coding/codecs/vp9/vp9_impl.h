@@ -722,6 +722,9 @@ num_temporal_layers_
 uint8_t
 num_spatial_layers_
 ;
+uint8_t
+num_cores_
+;
 /
 /
 Used

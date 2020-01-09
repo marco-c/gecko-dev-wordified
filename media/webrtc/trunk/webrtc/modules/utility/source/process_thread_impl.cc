@@ -704,6 +704,8 @@ Location
 from
 )
 {
+/
+/
 RTC_DCHECK
 (
 thread_checker_
@@ -713,6 +715,9 @@ CalledOnValidThread
 )
 )
 ;
+Not
+really
+needed
 RTC_DCHECK
 (
 module

@@ -1628,12 +1628,13 @@ currentPreemptiveRate
 ;
 auto
 ds
-=
+(
 channel_proxy_
 -
 >
 GetDecodingCallStatistics
 (
+)
 )
 ;
 stats

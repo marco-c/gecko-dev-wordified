@@ -424,6 +424,13 @@ degradation_preference
 )
 override
 ;
+CPULoadStateObserver
+*
+LoadStateObserver
+(
+)
+override
+;
 void
 ReconfigureVideoEncoder
 (

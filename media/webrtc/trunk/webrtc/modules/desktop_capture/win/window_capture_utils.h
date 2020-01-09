@@ -86,9 +86,22 @@ tree
 *
 /
 #
+ifndef
+WEBRTC_MODULES_DESKTOP_CAPTURE_WIN_WINDOW_CAPTURE_UTILS_H_
+#
+define
+WEBRTC_MODULES_DESKTOP_CAPTURE_WIN_WINDOW_CAPTURE_UTILS_H_
+#
 include
 <
 windows
+.
+h
+>
+#
+include
+<
+dwmapi
 .
 h
 >
@@ -570,7 +583,6 @@ DwmIsCompositionEnabledFunc
 (
 BOOL
 *
-enabled
 )
 ;
 class
@@ -612,3 +624,5 @@ AeroChecker
 /
 namespace
 webrtc
+#
+endif
