@@ -2238,6 +2238,9 @@ this
 if
 (
 frameLoader
+&
+&
+frameLoader
 .
 tabParent
 )
