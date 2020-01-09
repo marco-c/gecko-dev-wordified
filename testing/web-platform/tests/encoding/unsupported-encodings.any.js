@@ -117,10 +117,15 @@ if
 leading
 BOM
 or
-windows
+UTF
 -
-1252
+8
 otherwise
+(
+due
+to
+XMLHttpRequest
+)
 .
 [
 '
