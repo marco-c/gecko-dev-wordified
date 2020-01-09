@@ -209,7 +209,7 @@ generics
 size
 :
 :
-Size
+Size2D
 ;
 use
 crate
@@ -1645,7 +1645,7 @@ i
 >
 >
 {
-Size
+Size2D
 :
 :
 parse_with
@@ -1706,7 +1706,7 @@ i
 >
 >
 {
-Size
+Size2D
 :
 :
 parse_with

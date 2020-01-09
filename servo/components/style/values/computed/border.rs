@@ -214,7 +214,7 @@ generics
 size
 :
 :
-Size
+Size2D
 ;
 use
 crate
@@ -500,7 +500,7 @@ Self
 {
 GenericBorderSpacing
 (
-Size
+Size2D
 :
 :
 new
@@ -610,7 +610,7 @@ Self
 {
 GenericBorderCornerRadius
 (
-Size
+Size2D
 :
 :
 new
