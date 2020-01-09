@@ -893,6 +893,8 @@ L10N
 PropTypes
 .
 object
+.
+isRequired
 /
 /
 The
@@ -2859,6 +2861,7 @@ render
 const
 {
 deviceDescription
+L10N
 showDebugTargetInfo
 toolbox
 }
@@ -3003,6 +3006,7 @@ DebugTargetInfo
 (
 {
 deviceDescription
+L10N
 toolbox
 }
 )
