@@ -4263,6 +4263,17 @@ SetIsFirstPaint
 )
 {
 }
+virtual
+bool
+GetIsFirstPaint
+(
+)
+const
+{
+return
+false
+;
+}
 /
 *
 *
