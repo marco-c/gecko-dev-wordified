@@ -2293,6 +2293,9 @@ aRenderThread
 UpdateAndRender
 (
 aWindowId
+VsyncId
+(
+)
 mStartTime
 /
 *

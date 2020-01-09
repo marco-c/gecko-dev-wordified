@@ -1230,6 +1230,10 @@ Epoch
 &
 aEpoch
 const
+VsyncId
+&
+aCompositeStartId
+const
 TimeStamp
 &
 aCompositeStartTime
@@ -2082,6 +2086,8 @@ FlushFramePresentation
 void
 MaybeGenerateFrame
 (
+VsyncId
+aId
 bool
 aForceGenerateFrame
 )
