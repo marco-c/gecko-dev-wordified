@@ -265,7 +265,7 @@ GeckoThread
 .
 State
 .
-LIBS_READY
+JNI_READY
 )
 )
 {
