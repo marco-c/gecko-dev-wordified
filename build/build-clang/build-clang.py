@@ -2339,13 +2339,6 @@ keys
             
 "
 -
-DLLVM_ENABLE_LIBCXX
-=
-ON
-"
-            
-"
--
 DLLVM_LIBDIR_SUFFIX
 =
 64
