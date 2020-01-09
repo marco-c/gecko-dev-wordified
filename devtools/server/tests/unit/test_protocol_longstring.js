@@ -534,7 +534,7 @@ trace
 )
 ;
 let
-rootClient
+rootFront
 ;
 let
 strfront
@@ -567,7 +567,7 @@ Assert
 .
 equal
 (
-rootClient
+rootFront
 .
 __poolMap
 .
@@ -596,7 +596,7 @@ traits
 =
 >
 {
-rootClient
+rootFront
 =
 RootFront
 (
@@ -661,7 +661,7 @@ tests
 "
 )
 ;
-rootClient
+rootFront
 .
 shortString
 (
@@ -790,7 +790,7 @@ then
 >
 {
 return
-rootClient
+rootFront
 .
 longString
 (
@@ -1210,7 +1210,7 @@ defer
 (
 )
 ;
-rootClient
+rootFront
 .
 once
 (
@@ -1343,7 +1343,7 @@ value
 }
 )
 ;
-rootClient
+rootFront
 .
 emitShortString
 (
@@ -1411,7 +1411,7 @@ defer
 (
 )
 ;
-rootClient
+rootFront
 .
 once
 (
@@ -1736,7 +1736,7 @@ value
 }
 )
 ;
-rootClient
+rootFront
 .
 emitLongString
 (
