@@ -126,6 +126,14 @@ browser
 /
 extensions
 /
+fxmonitor
+"
+                   
+"
+browser
+/
+extensions
+/
 webcompat
 -
 reporter
