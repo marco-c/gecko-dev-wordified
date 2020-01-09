@@ -1479,7 +1479,10 @@ obj
 js
 :
 :
-AllocateObject
+Allocate
+<
+JSObject
+>
 (
 cx
 allocKind
