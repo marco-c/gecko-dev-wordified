@@ -8354,7 +8354,7 @@ aNewLogin
 password
 selectedLogin
 .
-userNameField
+usernameField
 aNewLogin
 .
 passwordField
