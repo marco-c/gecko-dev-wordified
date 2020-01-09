@@ -456,6 +456,23 @@ win64
 -
 devedition
 "
+                
+"
+win64
+-
+aarch64
+-
+msvc
+"
+"
+win64
+-
+aarch64
+-
+msvc
+-
+devedition
+"
             
 ]
         
@@ -513,6 +530,22 @@ win64
 "
 "
 win64
+-
+devedition
+"
+"
+win64
+-
+aarch64
+-
+msvc
+"
+"
+win64
+-
+aarch64
+-
+msvc
 -
 devedition
 "
