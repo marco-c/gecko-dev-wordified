@@ -228,6 +228,10 @@ global
 "
     
 "
+hashbang
+"
+    
+"
 export
 -
 star
