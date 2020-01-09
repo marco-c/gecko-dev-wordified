@@ -20340,6 +20340,16 @@ enabled
 true
 )
 ;
+pref
+(
+"
+signon
+.
+showAutoCompleteFooter
+"
+true
+)
+;
 /
 /
 Enable
