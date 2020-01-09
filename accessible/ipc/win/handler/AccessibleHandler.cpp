@@ -140,9 +140,6 @@ defined
 MOZILLA_INTERNAL_API
 )
 #
-define
-INITGUID
-#
 include
 "
 AccessibleHandler

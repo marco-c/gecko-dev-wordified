@@ -115,9 +115,6 @@ MPL
 *
 /
 #
-define
-INITGUID
-#
 include
 "
 mozilla
