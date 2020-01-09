@@ -639,7 +639,6 @@ features
 shader
 .
 name
-&
 None
 )
 ;

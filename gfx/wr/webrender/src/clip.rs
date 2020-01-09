@@ -4041,9 +4041,9 @@ world_rect
 WorldRect
 clip_node_collector
 :
-&
 Option
 <
+&
 ClipNodeCollector
 >
 clip_data_store

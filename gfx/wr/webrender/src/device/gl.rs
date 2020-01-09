@@ -1287,9 +1287,9 @@ shader_name
 str
 base_path
 :
-&
 Option
 <
+&
 PathBuf
 >
 )
@@ -1313,7 +1313,6 @@ ref
 base
 )
 =
-*
 base_path
 {
 let
@@ -1462,9 +1461,9 @@ str
 >
 base_path
 :
-&
 Option
 <
+&
 PathBuf
 >
 output
@@ -1611,9 +1610,9 @@ base_filename
 str
 override_path
 :
-&
 Option
 <
+&
 PathBuf
 >
 )
@@ -1757,9 +1756,9 @@ base_filename
 str
 override_path
 :
-&
 Option
 <
+&
 PathBuf
 >
 mut
@@ -12950,10 +12949,13 @@ gl
 features
 kind
 base_filename
-&
 self
 .
 resource_override_path
+.
+as_ref
+(
+)
 output
 )
 }
