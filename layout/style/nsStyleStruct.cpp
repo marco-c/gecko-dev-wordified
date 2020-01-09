@@ -19123,11 +19123,12 @@ mAnimationIterationCountCount
 )
 mShapeMargin
 (
-0
-nsStyleCoord
+LengthPercentage
 :
 :
-CoordConstructor
+Zero
+(
+)
 )
 {
 MOZ_COUNT_CTOR

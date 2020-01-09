@@ -11808,7 +11808,7 @@ impl_simple
 NonNegativeLengthPercentage
 "
 :
-impl_style_coord
+impl_simple
 "
 NonNegativeNumber
 "

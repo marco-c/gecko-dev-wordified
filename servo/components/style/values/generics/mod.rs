@@ -1216,6 +1216,13 @@ ToComputedValue
 ToCss
 )
 ]
+#
+[
+repr
+(
+transparent
+)
+]
 pub
 struct
 NonNegative

@@ -13698,7 +13698,10 @@ outside
 image
 >
 .
-nsStyleCoord
+mozilla
+:
+:
+LengthPercentage
 mShapeMargin
 ;
 mozilla

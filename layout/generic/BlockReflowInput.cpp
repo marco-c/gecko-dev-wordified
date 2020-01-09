@@ -5638,7 +5638,10 @@ mShapeImageThreshold
 .
 0
 ;
-nsStyleCoord
+mozilla
+:
+:
+LengthPercentage
 mShapeMargin
 ;
 ShapeInvalidationData
