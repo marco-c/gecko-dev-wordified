@@ -2211,12 +2211,6 @@ d_rrrraaaa1234
 {
 /
 /
-clang
--
-format
-off
-/
-/
 We
 '
 re
@@ -2349,12 +2343,6 @@ destAlpha
 [
 0
 ]
-/
-/
-clang
--
-format
-on
 i16x8_t
 zeroInterleavedWithSourceAlpha
 =
@@ -4498,8 +4486,6 @@ prodsum_bg
 4
 ]
 =
-/
-/
 {
 b
 *
@@ -4609,8 +4595,6 @@ prodsum_ra
 4
 ]
 =
-/
-/
 {
 r
 *

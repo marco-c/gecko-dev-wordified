@@ -1118,7 +1118,6 @@ t1
 -
 MediaStreamTrack
 X
-*
 (
 removed
 )
@@ -1225,7 +1224,6 @@ t1
 -
 MediaStreamTrack
 Z
-*
 (
 removed
 )

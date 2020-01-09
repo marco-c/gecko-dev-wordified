@@ -2146,7 +2146,6 @@ on
 which
 CreateSimilarDrawTarget
 was
-*
 called
 *
 param

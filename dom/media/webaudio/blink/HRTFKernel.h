@@ -422,8 +422,6 @@ representation
 of
 the
 impulse
-/
-/
 response
 with
 the

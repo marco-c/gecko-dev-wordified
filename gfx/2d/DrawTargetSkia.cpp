@@ -7194,7 +7194,6 @@ CG
 coordinates
 in
 a
-*
 (
 100
 100

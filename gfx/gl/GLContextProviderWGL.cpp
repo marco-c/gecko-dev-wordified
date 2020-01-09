@@ -1021,12 +1021,6 @@ a
 context
 current
 .
-/
-/
-clang
--
-format
-off
 const
 GLLibraryLoader
 :
@@ -1202,12 +1196,6 @@ GetExtensionsStringARB
 END_OF_SYMBOLS
 }
 ;
-/
-/
-clang
--
-format
-on
 if
 (
 !

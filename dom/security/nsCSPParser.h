@@ -858,7 +858,6 @@ currently
 processed
 array
 of
-*
 strings
 .
 *
@@ -960,7 +959,6 @@ string
 of
 that
 array
-*
 resetting
 :
 *
@@ -1013,7 +1011,6 @@ would
 hold
 the
 following
-*
 values
 :
 *
@@ -1067,8 +1064,8 @@ are
 consumed
 then
 we
-*
 reset
+*
 mCurDir
 to
 hold
