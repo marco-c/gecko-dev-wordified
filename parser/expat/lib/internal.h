@@ -99,7 +99,7 @@ macros
 is
 based
 on
-judgment
+judgement
 not
 hard
 rules
