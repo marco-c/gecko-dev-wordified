@@ -247,7 +247,7 @@ formats
 :
 [
 '
-jar
+autograph_apk_fennec_sha1
 '
 ]
         
