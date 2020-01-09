@@ -409,7 +409,7 @@ define
 _PR_MD_MAP_ACCEPTEX_ERROR
 _MD_win32_map_acceptex_error
 extern
-void
+PRInt32
 _MD_win32_map_connect_error
 (
 PRInt32
