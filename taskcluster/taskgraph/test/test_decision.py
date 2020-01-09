@@ -482,6 +482,16 @@ com
 '
             
 '
+tasks_for
+'
+:
+'
+hg
+-
+push
+'
+            
+'
 level
 '
 :
