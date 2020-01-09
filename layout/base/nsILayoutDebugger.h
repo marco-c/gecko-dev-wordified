@@ -142,9 +142,6 @@ nsISupports
 .
 h
 "
-#
-ifdef
-DEBUG
 /
 /
 1295f7c0
@@ -250,6 +247,9 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 nsILayoutDebugger
 NS_ILAYOUT_DEBUGGER_IID
 )
+#
+ifdef
+DEBUG
 nsresult
 NS_NewLayoutDebugger
 (
