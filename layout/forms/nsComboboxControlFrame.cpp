@@ -7911,7 +7911,10 @@ aIndex
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHODIMP_
+(
+void
+)
 nsComboboxControlFrame
 :
 :

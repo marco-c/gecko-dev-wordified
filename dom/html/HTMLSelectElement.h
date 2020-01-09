@@ -1208,13 +1208,8 @@ SetSelectedIndex
 (
 int32_t
 aIdx
-ErrorResult
-&
-aRv
 )
 {
-aRv
-=
 SetSelectedIndexInternal
 (
 aIdx
@@ -3004,7 +2999,7 @@ VerifyOptionsArray
 ;
 #
 endif
-nsresult
+void
 SetSelectedIndexInternal
 (
 int32_t

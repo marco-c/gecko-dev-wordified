@@ -861,11 +861,8 @@ int32_t
 HTMLOptionsCollection
 :
 :
-GetSelectedIndex
+SelectedIndex
 (
-ErrorResult
-&
-aError
 )
 {
 return
@@ -885,9 +882,6 @@ SetSelectedIndex
 (
 int32_t
 aSelectedIndex
-ErrorResult
-&
-aError
 )
 {
 mSelect
@@ -896,7 +890,6 @@ mSelect
 SetSelectedIndex
 (
 aSelectedIndex
-aError
 )
 ;
 }
@@ -1349,9 +1342,6 @@ Remove
 (
 int32_t
 aIndex
-ErrorResult
-&
-aError
 )
 {
 mSelect

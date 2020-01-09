@@ -9444,7 +9444,10 @@ eNo
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHODIMP_
+(
+void
+)
 nsListControlFrame
 :
 :
@@ -9515,7 +9518,6 @@ IsAlive
 )
 {
 return
-NS_OK
 ;
 }
 mStartSelectionIndex
@@ -9539,9 +9541,6 @@ FireMenuItemActiveEvent
 ;
 #
 endif
-return
-NS_OK
-;
 }
 /
 /
