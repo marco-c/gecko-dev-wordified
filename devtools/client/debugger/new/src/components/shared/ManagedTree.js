@@ -273,6 +273,9 @@ new
 Set
 (
 )
+focusedItem
+:
+null
 }
 ;
 }

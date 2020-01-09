@@ -828,9 +828,6 @@ location
 originalFrame
 .
 location
-source
-:
-null
 scope
 :
 frame

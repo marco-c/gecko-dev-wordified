@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 export
 type
 Message
@@ -122,11 +119,6 @@ args
 :
 any
 )
-:
-Promise
-<
-any
->
 {
 return
 new
@@ -241,8 +233,6 @@ function
 workerHandler
 (
 publicInterface
-:
-any
 )
 {
 return

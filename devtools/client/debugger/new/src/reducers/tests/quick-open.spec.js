@@ -181,7 +181,6 @@ state
 update
 (
 undefined
-(
 {
 type
 :
@@ -189,9 +188,6 @@ type
 FAKE
 "
 }
-:
-any
-)
 )
 ;
 expect

@@ -129,16 +129,6 @@ tooltip
 {
 tooltip
 }
-handleClick
-=
-{
-(
-)
-=
->
-{
-}
-}
 /
 >
 )

@@ -86,7 +86,7 @@ len
 import
 type
 {
-Frame
+LocalFrame
 }
 from
 "
@@ -98,6 +98,12 @@ from
 /
 .
 .
+/
+components
+/
+SecondaryPanes
+/
+Frames
 /
 types
 "
@@ -197,7 +203,7 @@ lastGroup
 type
 FrameGroup
 =
-Frame
+LocalFrame
 [
 ]
 ;
@@ -208,7 +214,7 @@ Array
 <
 FrameGroup
 |
-Frame
+LocalFrame
 >
 ;
 export
@@ -217,7 +223,7 @@ collapseFrames
 (
 frames
 :
-Frame
+LocalFrame
 [
 ]
 )

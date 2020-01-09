@@ -553,9 +553,6 @@ plugins
 "
 objectRestSpread
 "
-"
-dynamicImport
-"
 ]
 .
 .

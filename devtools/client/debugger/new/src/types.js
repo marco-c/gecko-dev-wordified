@@ -663,8 +663,8 @@ generatedLocation
 :
 SourceLocation
 source
-:
 ?
+:
 Source
 scope
 :
@@ -689,10 +689,6 @@ isOriginal
 :
 boolean
 originalDisplayName
-?
-:
-string
-library
 ?
 :
 string

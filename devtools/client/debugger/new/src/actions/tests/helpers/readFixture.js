@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 fs
 from
@@ -81,8 +78,6 @@ function
 readFixture
 (
 name
-:
-string
 )
 {
 const
