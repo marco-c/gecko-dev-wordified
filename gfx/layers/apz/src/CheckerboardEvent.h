@@ -258,6 +258,12 @@ CheckerboardEvent
 {
 public
 :
+/
+/
+clang
+-
+format
+off
 MOZ_DEFINE_ENUM_AT_CLASS_SCOPE
 (
 RendertraceProperty
@@ -270,6 +276,12 @@ UserVisible
 )
 )
 ;
+/
+/
+clang
+-
+format
+on
 static
 const
 char

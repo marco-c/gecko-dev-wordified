@@ -381,6 +381,12 @@ _AT_CLASS_SCOPE
 struct
 TestClass
 {
+/
+/
+clang
+-
+format
+off
 MOZ_DEFINE_ENUM_AT_CLASS_SCOPE
 (
 TestEnum3
@@ -401,6 +407,12 @@ C
 )
 )
 ;
+/
+/
+clang
+-
+format
+on
 static_assert
 (
 EnumeratorA

@@ -271,6 +271,12 @@ RepaintRequest
 ;
 public
 :
+/
+/
+clang
+-
+format
+off
 MOZ_DEFINE_ENUM_WITH_BASE_AT_CLASS_SCOPE
 (
 ScrollOffsetUpdateType
@@ -303,6 +309,12 @@ APZ
 )
 )
 ;
+/
+/
+clang
+-
+format
+on
 RepaintRequest
 (
 )

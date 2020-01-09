@@ -327,6 +327,12 @@ ScrollDirection
 >
 ScrollDirections
 ;
+/
+/
+clang
+-
+format
+off
 enum
 class
 ScrollSource
@@ -374,6 +380,12 @@ Scroll
 PinchZoom
 )
 )
+/
+/
+clang
+-
+format
+on
 /
 /
 Epsilon

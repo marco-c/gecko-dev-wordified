@@ -338,6 +338,12 @@ process
 struct
 BreakpointPosition
 {
+/
+/
+clang
+-
+format
+off
 MOZ_DEFINE_ENUM_AT_CLASS_SCOPE
 (
 Kind
@@ -460,6 +466,12 @@ WarpTarget
 )
 )
 ;
+/
+/
+clang
+-
+format
+on
 Kind
 mKind
 ;

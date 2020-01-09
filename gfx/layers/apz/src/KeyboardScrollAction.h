@@ -179,6 +179,12 @@ final
 {
 public
 :
+/
+/
+clang
+-
+format
+off
 MOZ_DEFINE_ENUM_WITH_BASE_AT_CLASS_SCOPE
 (
 KeyboardScrollActionType
@@ -191,6 +197,12 @@ eScrollComplete
 )
 )
 ;
+/
+/
+clang
+-
+format
+on
 static
 nsIScrollableFrame
 :
