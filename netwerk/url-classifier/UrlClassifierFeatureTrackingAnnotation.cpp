@@ -932,7 +932,7 @@ if
 UrlClassifierCommon
 :
 :
-ShouldEnableTrackingProtectionOrAnnotation
+ShouldEnableClassifier
 (
 aChannel
 AntiTrackingCommon
