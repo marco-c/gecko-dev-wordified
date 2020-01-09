@@ -220,6 +220,17 @@ tasks
 ]
             
 '
+attributes
+'
+:
+job
+[
+'
+attributes
+'
+]
+            
+'
 treeherder
 '
 :
