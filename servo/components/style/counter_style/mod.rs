@@ -2763,8 +2763,6 @@ first_symbol_value
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3412,8 +3410,6 @@ input
 ?
 input
 .
-r
-#
 try
 (
 |
@@ -3585,8 +3581,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -3757,8 +3751,6 @@ integer
 =
 input
 .
-r
-#
 try
 (
 |
@@ -4065,8 +4057,6 @@ pad_with
 =
 input
 .
-r
-#
 try
 (
 |
@@ -4361,8 +4351,6 @@ s
 =
 input
 .
-r
-#
 try
 (
 |
@@ -4714,8 +4702,6 @@ symbol
 =
 input
 .
-r
-#
 try
 (
 |
@@ -4925,8 +4911,6 @@ result
 =
 input
 .
-r
-#
 try
 (
 |

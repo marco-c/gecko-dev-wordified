@@ -2683,8 +2683,6 @@ value
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3189,8 +3187,6 @@ ident
 =
 input
 .
-r
-#
 try
 (
 |

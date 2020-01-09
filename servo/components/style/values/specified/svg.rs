@@ -547,8 +547,6 @@ i
 {
 input
 .
-r
-#
 try
 (
 |
@@ -752,8 +750,6 @@ i
 {
 input
 .
-r
-#
 try
 (
 |
@@ -911,8 +907,6 @@ values
 =
 input
 .
-r
-#
 try
 (
 |
@@ -966,8 +960,6 @@ _
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1099,8 +1091,6 @@ opacity
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1575,8 +1565,6 @@ Ok
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1660,8 +1648,6 @@ ParseError
 =
 input
 .
-r
-#
 try
 (
 |

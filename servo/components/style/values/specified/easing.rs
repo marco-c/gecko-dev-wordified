@@ -238,8 +238,6 @@ keyword
 =
 input
 .
-r
-#
 try
 (
 TimingKeyword
@@ -270,8 +268,6 @@ ident
 =
 input
 .
-r
-#
 try
 (
 |
@@ -578,8 +574,6 @@ position
 =
 i
 .
-r
-#
 try
 (
 |

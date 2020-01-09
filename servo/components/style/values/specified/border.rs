@@ -540,8 +540,6 @@ length
 =
 input
 .
-r
-#
 try
 (
 |
@@ -973,8 +971,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -1013,8 +1009,6 @@ len
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1116,8 +1110,6 @@ fill
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1162,8 +1154,6 @@ fill
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1263,8 +1253,6 @@ heights
 if
 input
 .
-r
-#
 try
 (
 |
@@ -1816,8 +1804,6 @@ vertical
 =
 input
 .
-r
-#
 try
 (
 BorderImageRepeatKeyword

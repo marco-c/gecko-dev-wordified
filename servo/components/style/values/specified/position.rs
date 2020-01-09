@@ -624,8 +624,6 @@ i
 match
 input
 .
-r
-#
 try
 (
 |
@@ -662,8 +660,6 @@ y_pos
 =
 input
 .
-r
-#
 try
 (
 |
@@ -699,8 +695,6 @@ x_pos
 =
 input
 .
-r
-#
 try
 (
 |
@@ -761,8 +755,6 @@ lop
 if
 input
 .
-r
-#
 try
 (
 |
@@ -825,8 +817,6 @@ y_keyword
 =
 input
 .
-r
-#
 try
 (
 Y
@@ -840,8 +830,6 @@ y_lop
 =
 input
 .
-r
-#
 try
 (
 |
@@ -966,8 +954,6 @@ y_keyword
 =
 input
 .
-r
-#
 try
 (
 Y
@@ -1011,8 +997,6 @@ y_lop
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1067,8 +1051,6 @@ _
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1130,8 +1112,6 @@ ParseError
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1143,8 +1123,6 @@ y_lop
 =
 i
 .
-r
-#
 try
 (
 |
@@ -1174,8 +1152,6 @@ x_keyword
 =
 i
 .
-r
-#
 try
 (
 X
@@ -1189,8 +1165,6 @@ x_lop
 =
 i
 .
-r
-#
 try
 (
 |
@@ -1690,8 +1664,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -1730,8 +1702,6 @@ lop
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1779,8 +1749,6 @@ lop
 =
 input
 .
-r
-#
 try
 (
 |
@@ -2699,8 +2667,6 @@ i
 match
 input
 .
-r
-#
 try
 (
 |
@@ -2736,8 +2702,6 @@ y_pos
 =
 input
 .
-r
-#
 try
 (
 |
@@ -2772,8 +2736,6 @@ x_pos
 =
 input
 .
-r
-#
 try
 (
 |
@@ -2838,8 +2800,6 @@ y_keyword
 =
 input
 .
-r
-#
 try
 (
 Y
@@ -2904,8 +2864,6 @@ y_lop
 =
 input
 .
-r
-#
 try
 (
 |
@@ -2947,8 +2905,6 @@ _
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3004,8 +2960,6 @@ y_keyword
 =
 input
 .
-r
-#
 try
 (
 Y
@@ -3048,8 +3002,6 @@ y_lop
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3096,8 +3048,6 @@ _
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3162,8 +3112,6 @@ ParseError
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3179,8 +3127,6 @@ x_keyword
 =
 i
 .
-r
-#
 try
 (
 X
@@ -4727,8 +4673,6 @@ string
 =
 input
 .
-r
-#
 try
 (
 |
@@ -5481,8 +5425,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |

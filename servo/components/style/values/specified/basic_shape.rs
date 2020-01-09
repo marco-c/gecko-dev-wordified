@@ -676,8 +676,6 @@ p
 =
 input
 .
-r
-#
 try
 (
 |
@@ -716,8 +714,6 @@ url
 =
 input
 .
-r
-#
 try
 (
 |
@@ -811,8 +807,6 @@ image
 =
 input
 .
-r
-#
 try
 (
 |
@@ -916,8 +910,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -999,8 +991,6 @@ component
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1165,8 +1155,6 @@ shape_box
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1608,8 +1596,6 @@ round
 if
 input
 .
-r
-#
 try
 (
 |
@@ -1779,8 +1765,6 @@ radius
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1806,8 +1790,6 @@ position
 if
 input
 .
-r
-#
 try
 (
 |
@@ -2086,8 +2068,6 @@ b
 =
 input
 .
-r
-#
 try
 (
 |
@@ -2137,8 +2117,6 @@ position
 if
 input
 .
-r
-#
 try
 (
 |
@@ -2388,8 +2366,6 @@ lop
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3177,8 +3153,6 @@ fill
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3414,8 +3388,6 @@ fill
 =
 input
 .
-r
-#
 try
 (
 |

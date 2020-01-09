@@ -471,8 +471,6 @@ v
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1304,8 +1302,6 @@ url
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1346,8 +1342,6 @@ gradient
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1406,8 +1400,6 @@ paint_worklet
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1449,8 +1441,6 @@ image_rect
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1638,8 +1628,6 @@ i
 {
 input
 .
-r
-#
 try
 (
 |
@@ -1828,8 +1816,6 @@ url
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3046,8 +3032,6 @@ i
 {
 input
 .
-r
-#
 try
 (
 |
@@ -3522,8 +3506,6 @@ side
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3561,8 +3543,6 @@ number
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3593,8 +3573,6 @@ number
 }
 input
 .
-r
-#
 try
 (
 |
@@ -3993,8 +3971,6 @@ items
 =
 input
 .
-r
-#
 try
 (
 |
@@ -4647,8 +4623,6 @@ d
 =
 input
 .
-r
-#
 try
 (
 |
@@ -4792,8 +4766,6 @@ shape
 =
 input
 .
-r
-#
 try
 (
 |
@@ -4816,8 +4788,6 @@ position
 =
 input
 .
-r
-#
 try
 (
 |
@@ -4868,8 +4838,6 @@ position
 =
 input
 .
-r
-#
 try
 (
 |
@@ -4890,8 +4858,6 @@ shape
 =
 input
 .
-r
-#
 try
 (
 |
@@ -5104,8 +5070,6 @@ position
 =
 input
 .
-r
-#
 try
 (
 |
@@ -5126,8 +5090,6 @@ angle
 =
 input
 .
-r
-#
 try
 (
 |
@@ -5158,8 +5120,6 @@ position
 =
 input
 .
-r
-#
 try
 (
 |
@@ -5181,8 +5141,6 @@ shape
 =
 input
 .
-r
-#
 try
 (
 |
@@ -6101,8 +6059,6 @@ Moz
 {
 input
 .
-r
-#
 try
 (
 |
@@ -6164,8 +6120,6 @@ angle
 =
 input
 .
-r
-#
 try
 (
 |
@@ -6199,8 +6153,6 @@ None
 ;
 input
 .
-r
-#
 try
 (
 |
@@ -6212,8 +6164,6 @@ to_ident
 =
 i
 .
-r
-#
 try
 (
 |
@@ -6427,8 +6377,6 @@ position
 =
 i
 .
-r
-#
 try
 (
 |
@@ -6459,8 +6407,6 @@ _angle
 =
 i
 .
-r
-#
 try
 (
 |
@@ -6535,8 +6481,6 @@ x
 =
 i
 .
-r
-#
 try
 (
 X
@@ -6554,8 +6498,6 @@ y
 =
 i
 .
-r
-#
 try
 (
 Y
@@ -6612,8 +6554,6 @@ x
 =
 i
 .
-r
-#
 try
 (
 X
@@ -6802,8 +6742,6 @@ extent
 =
 input
 .
-r
-#
 try
 (
 |
@@ -6822,8 +6760,6 @@ compat_mode
 if
 input
 .
-r
-#
 try
 (
 |
@@ -6870,8 +6806,6 @@ _
 =
 input
 .
-r
-#
 try
 (
 |
@@ -6912,8 +6846,6 @@ extent
 if
 input
 .
-r
-#
 try
 (
 |
@@ -6942,8 +6874,6 @@ extent
 =
 input
 .
-r
-#
 try
 (
 |
@@ -6999,8 +6929,6 @@ length
 =
 input
 .
-r
-#
 try
 (
 |
@@ -7067,8 +6995,6 @@ FarthestCorner
 if
 input
 .
-r
-#
 try
 (
 |
@@ -7097,8 +7023,6 @@ extent
 =
 input
 .
-r
-#
 try
 (
 |
@@ -7156,8 +7080,6 @@ ParseError
 =
 input
 .
-r
-#
 try
 (
 |
@@ -7313,8 +7235,6 @@ length
 =
 input
 .
-r
-#
 try
 (
 |
@@ -7339,8 +7259,6 @@ y
 =
 input
 .
-r
-#
 try
 (
 |
@@ -7370,8 +7288,6 @@ _
 =
 input
 .
-r
-#
 try
 (
 |
@@ -7429,8 +7345,6 @@ y
 =
 input
 .
-r
-#
 try
 (
 |
@@ -7499,8 +7413,6 @@ _
 =
 input
 .
-r
-#
 try
 (
 |
@@ -7542,8 +7454,6 @@ length
 }
 input
 .
-r
-#
 try
 (
 |
@@ -7575,8 +7485,6 @@ y
 =
 i
 .
-r
-#
 try
 (
 |
@@ -7606,8 +7514,6 @@ _
 =
 i
 .
-r
-#
 try
 (
 |
@@ -7891,8 +7797,6 @@ hint
 =
 input
 .
-r
-#
 try
 (
 |
@@ -7959,8 +7863,6 @@ multi_position
 =
 input
 .
-r
-#
 try
 (
 |
@@ -8195,8 +8097,6 @@ position
 :
 input
 .
-r
-#
 try
 (
 |
@@ -8303,8 +8203,6 @@ arguments
 =
 input
 .
-r
-#
 try
 (
 |
@@ -8400,8 +8298,6 @@ i
 {
 input
 .
-r
-#
 try
 (
 |

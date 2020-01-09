@@ -970,8 +970,6 @@ absolute
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1469,8 +1467,6 @@ number
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1858,8 +1854,6 @@ angle
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3380,8 +3374,6 @@ percentage
 =
 input
 .
-r
-#
 try
 (
 |
@@ -4781,8 +4773,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -7105,8 +7095,6 @@ lop
 =
 input
 .
-r
-#
 try
 (
 |
@@ -7145,8 +7133,6 @@ kw
 =
 input
 .
-r
-#
 try
 (
 KeywordSize
@@ -8397,8 +8383,6 @@ new
 if
 input
 .
-r
-#
 try
 (
 |
@@ -8503,8 +8487,6 @@ _
 =
 input
 .
-r
-#
 try
 (
 |
@@ -10099,8 +10081,6 @@ empty
 if
 input
 .
-r
-#
 try
 (
 |
@@ -10142,8 +10122,6 @@ flag
 =
 input
 .
-r
-#
 try
 (
 |
@@ -11666,8 +11644,6 @@ empty
 if
 input
 .
-r
-#
 try
 (
 |
@@ -11703,8 +11679,6 @@ result
 if
 input
 .
-r
-#
 try
 (
 |
@@ -11749,8 +11723,6 @@ flag
 =
 input
 .
-r
-#
 try
 (
 |
@@ -13032,8 +13004,6 @@ empty
 if
 input
 .
-r
-#
 try
 (
 |
@@ -13075,8 +13045,6 @@ flag
 =
 input
 .
-r
-#
 try
 (
 |
@@ -13967,8 +13935,6 @@ true
 if
 input
 .
-r
-#
 try
 (
 |
@@ -14015,8 +13981,6 @@ true
 if
 input
 .
-r
-#
 try
 (
 |
@@ -14882,8 +14846,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -15313,8 +15275,6 @@ integer
 =
 input
 .
-r
-#
 try
 (
 |
@@ -15461,8 +15421,6 @@ value
 =
 input
 .
-r
-#
 try
 (
 |
@@ -16311,8 +16269,6 @@ i
 =
 input
 .
-r
-#
 try
 (
 |

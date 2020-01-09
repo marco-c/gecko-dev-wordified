@@ -501,8 +501,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -550,8 +548,6 @@ sink
 =
 input
 .
-r
-#
 try
 (
 |
@@ -775,8 +771,6 @@ number
 =
 input
 .
-r
-#
 try
 (
 |
@@ -814,8 +808,6 @@ nlop
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1778,8 +1770,6 @@ second
 =
 input
 .
-r
-#
 try
 (
 |
@@ -2253,8 +2243,6 @@ NONE
 if
 input
 .
-r
-#
 try
 (
 |
@@ -2288,8 +2276,6 @@ result
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3015,8 +3001,6 @@ key
 =
 input
 .
-r
-#
 try
 (
 TextAlignKeyword
@@ -4390,8 +4374,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -4430,8 +4412,6 @@ s
 =
 input
 .
-r
-#
 try
 (
 |
@@ -4492,8 +4472,6 @@ shape
 =
 input
 .
-r
-#
 try
 (
 TextEmphasisShapeKeyword
@@ -4511,8 +4489,6 @@ fill
 =
 input
 .
-r
-#
 try
 (
 TextEmphasisFillMode
@@ -4536,8 +4512,6 @@ shape
 =
 input
 .
-r
-#
 try
 (
 TextEmphasisShapeKeyword
@@ -5054,8 +5028,6 @@ horizontal
 =
 input
 .
-r
-#
 try
 (
 |
@@ -5364,8 +5336,6 @@ number
 =
 input
 .
-r
-#
 try
 (
 |

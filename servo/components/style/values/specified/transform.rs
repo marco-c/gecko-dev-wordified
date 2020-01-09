@@ -402,8 +402,6 @@ Space
 if
 input
 .
-r
-#
 try
 (
 |
@@ -1026,8 +1024,6 @@ input
 if
 input
 .
-r
-#
 try
 (
 |
@@ -1310,8 +1306,6 @@ input
 if
 input
 .
-r
-#
 try
 (
 |
@@ -1834,8 +1828,6 @@ input
 if
 input
 .
-r
-#
 try
 (
 |
@@ -2228,8 +2220,6 @@ Parser
 {
 input
 .
-r
-#
 try
 (
 |
@@ -2261,8 +2251,6 @@ from_px
 match
 input
 .
-r
-#
 try
 (
 |
@@ -2298,8 +2286,6 @@ y_origin
 =
 input
 .
-r
-#
 try
 (
 |
@@ -2355,8 +2341,6 @@ x_keyword
 =
 input
 .
-r
-#
 try
 (
 X
@@ -2442,8 +2426,6 @@ y_origin
 =
 input
 .
-r
-#
 try
 (
 |
@@ -2558,8 +2540,6 @@ x_keyword
 =
 input
 .
-r
-#
 try
 (
 X
@@ -2605,8 +2585,6 @@ depth
 if
 input
 .
-r
-#
 try
 (
 |
@@ -2746,8 +2724,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -2786,8 +2762,6 @@ lop
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3099,8 +3073,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -3142,8 +3114,6 @@ rx
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3340,8 +3310,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -3399,8 +3367,6 @@ ty
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3428,8 +3394,6 @@ tz
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3616,8 +3580,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -3672,8 +3634,6 @@ sy
 =
 input
 .
-r
-#
 try
 (
 |
@@ -3698,8 +3658,6 @@ sz
 =
 input
 .
-r
-#
 try
 (
 |

@@ -906,8 +906,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -1158,8 +1156,6 @@ input
 if
 input
 .
-r
-#
 try
 (
 |
@@ -1559,8 +1555,6 @@ cases
 while
 input
 .
-r
-#
 try
 (
 Parser
@@ -1630,8 +1624,6 @@ nested
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1672,8 +1664,6 @@ nested
 =
 input
 .
-r
-#
 try
 (
 |
@@ -2130,8 +2120,6 @@ condition
 =
 input
 .
-r
-#
 try
 (
 SupportsCondition
@@ -3374,8 +3362,6 @@ _
 =
 input
 .
-r
-#
 try
 (
 parse_important

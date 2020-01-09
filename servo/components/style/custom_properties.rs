@@ -3983,8 +3983,6 @@ clone
 if
 input
 .
-r
-#
 try
 (
 |
@@ -4135,8 +4133,6 @@ expect_ident
 if
 input
 .
-r
-#
 try
 (
 |

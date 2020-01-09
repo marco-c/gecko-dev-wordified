@@ -1614,8 +1614,6 @@ prefix
 =
 input
 .
-r
-#
 try
 (
 |

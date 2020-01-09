@@ -399,8 +399,6 @@ second
 =
 input
 .
-r
-#
 try
 (
 |
@@ -463,8 +461,6 @@ third
 =
 input
 .
-r
-#
 try
 (
 |
@@ -526,8 +522,6 @@ fourth
 =
 input
 .
-r
-#
 try
 (
 |

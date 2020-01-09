@@ -487,8 +487,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -613,8 +611,6 @@ value
 =
 input
 .
-r
-#
 try
 (
 |
@@ -765,8 +761,6 @@ ListStyleType
 {
 input
 .
-r
-#
 try
 (
 |
@@ -828,8 +822,6 @@ CounterStyleOrNone
 {
 input
 .
-r
-#
 try
 (
 |
@@ -961,8 +953,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -998,8 +988,6 @@ Normal
 if
 input
 .
-r
-#
 try
 (
 |
@@ -1047,8 +1035,6 @@ gecko
 if
 input
 .
-r
-#
 try
 (
 |
@@ -1119,8 +1105,6 @@ url
 =
 input
 .
-r
-#
 try
 (
 |

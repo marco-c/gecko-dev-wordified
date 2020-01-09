@@ -538,8 +538,6 @@ None_
 if
 input
 .
-r
-#
 try
 (
 |
@@ -581,8 +579,6 @@ color
 =
 input
 .
-r
-#
 try
 (
 |
@@ -678,8 +674,6 @@ url
 =
 input
 .
-r
-#
 try
 (
 |
@@ -728,8 +722,6 @@ kind
 =
 input
 .
-r
-#
 try
 (
 SVGPaintKind
@@ -790,8 +782,6 @@ color
 =
 input
 .
-r
-#
 try
 (
 |
@@ -1027,8 +1017,6 @@ num
 =
 input
 .
-r
-#
 try
 (
 |

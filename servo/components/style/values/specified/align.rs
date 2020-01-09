@@ -1415,8 +1415,6 @@ first
 if
 input
 .
-r
-#
 try
 (
 |
@@ -1481,8 +1479,6 @@ value
 =
 input
 .
-r
-#
 try
 (
 parse_baseline
@@ -1518,8 +1514,6 @@ value
 =
 input
 .
-r
-#
 try
 (
 parse_content_distribution
@@ -1556,8 +1550,6 @@ overflow_position
 =
 input
 .
-r
-#
 try
 (
 parse_overflow_position
@@ -2526,8 +2518,6 @@ value
 =
 input
 .
-r
-#
 try
 (
 parse_baseline
@@ -2559,8 +2549,6 @@ value
 =
 input
 .
-r
-#
 try
 (
 parse_auto_normal_stretch
@@ -2594,8 +2582,6 @@ overflow_position
 =
 input
 .
-r
-#
 try
 (
 parse_overflow_position
@@ -3327,8 +3313,6 @@ baseline
 =
 input
 .
-r
-#
 try
 (
 parse_baseline
@@ -3358,8 +3342,6 @@ value
 =
 input
 .
-r
-#
 try
 (
 parse_normal_stretch
@@ -3393,8 +3375,6 @@ overflow
 =
 input
 .
-r
-#
 try
 (
 parse_overflow_position
@@ -3696,8 +3676,6 @@ baseline
 =
 input
 .
-r
-#
 try
 (
 parse_baseline
@@ -3727,8 +3705,6 @@ value
 =
 input
 .
-r
-#
 try
 (
 parse_normal_stretch
@@ -3769,8 +3745,6 @@ value
 =
 input
 .
-r
-#
 try
 (
 parse_legacy
@@ -3804,8 +3778,6 @@ overflow
 =
 input
 .
-r
-#
 try
 (
 parse_overflow_position
@@ -4962,8 +4934,6 @@ flags
 =
 input
 .
-r
-#
 try
 (
 parse_left_right_center
