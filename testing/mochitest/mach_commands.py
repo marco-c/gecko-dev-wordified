@@ -385,6 +385,9 @@ firefox
 '
 android
 '
+'
+thunderbird
+'
 ]
 parser
 =

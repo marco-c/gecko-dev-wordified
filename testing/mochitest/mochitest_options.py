@@ -343,6 +343,9 @@ enabled_apps
 '
 firefox
 '
+'
+thunderbird
+'
 )
         
 '
