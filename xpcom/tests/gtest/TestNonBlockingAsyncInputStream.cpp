@@ -1658,6 +1658,9 @@ InputStreamParams
 FileDescriptorArray
 &
 bool
+uint32_t
+uint32_t
+*
 mozilla
 :
 :
@@ -1684,6 +1687,9 @@ InputStreamParams
 FileDescriptorArray
 &
 bool
+uint32_t
+uint32_t
+*
 mozilla
 :
 :
@@ -1710,6 +1716,9 @@ InputStreamParams
 FileDescriptorArray
 &
 bool
+uint32_t
+uint32_t
+*
 mozilla
 :
 :
@@ -1736,6 +1745,9 @@ InputStreamParams
 FileDescriptorArray
 &
 bool
+uint32_t
+uint32_t
+*
 mozilla
 :
 :

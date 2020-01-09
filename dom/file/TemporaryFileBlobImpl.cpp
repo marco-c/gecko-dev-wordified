@@ -411,6 +411,11 @@ FileDescriptorArray
 aFileDescriptors
 bool
 aDelayedStart
+uint32_t
+aMaxSize
+uint32_t
+*
+aSizeUsed
 nsIContentChild
 *
 aManager
@@ -441,6 +446,11 @@ FileDescriptorArray
 aFileDescriptors
 bool
 aDelayedStart
+uint32_t
+aMaxSize
+uint32_t
+*
+aSizeUsed
 PBackgroundChild
 *
 aManager
@@ -471,6 +481,11 @@ FileDescriptorArray
 aFileDescriptors
 bool
 aDelayedStart
+uint32_t
+aMaxSize
+uint32_t
+*
+aSizeUsed
 nsIContentParent
 *
 aManager
@@ -501,6 +516,11 @@ FileDescriptorArray
 aFileDescriptors
 bool
 aDelayedStart
+uint32_t
+aMaxSize
+uint32_t
+*
+aSizeUsed
 PBackgroundParent
 *
 aManager

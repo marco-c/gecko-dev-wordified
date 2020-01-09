@@ -2015,6 +2015,11 @@ FileDescriptorArray
 aFileDescriptors
 bool
 aDelayedStart
+uint32_t
+aMaxSize
+uint32_t
+*
+aSizeUsed
 mozilla
 :
 :
@@ -2031,6 +2036,8 @@ SerializeInternal
 aParams
 aFileDescriptors
 aDelayedStart
+aMaxSize
+aSizeUsed
 aManager
 )
 ;
@@ -2055,6 +2062,11 @@ FileDescriptorArray
 aFileDescriptors
 bool
 aDelayedStart
+uint32_t
+aMaxSize
+uint32_t
+*
+aSizeUsed
 mozilla
 :
 :
@@ -2071,6 +2083,8 @@ SerializeInternal
 aParams
 aFileDescriptors
 aDelayedStart
+aMaxSize
+aSizeUsed
 aManager
 )
 ;
@@ -2095,6 +2109,11 @@ FileDescriptorArray
 aFileDescriptors
 bool
 aDelayedStart
+uint32_t
+aMaxSize
+uint32_t
+*
+aSizeUsed
 mozilla
 :
 :
@@ -2111,6 +2130,8 @@ SerializeInternal
 aParams
 aFileDescriptors
 aDelayedStart
+aMaxSize
+aSizeUsed
 aManager
 )
 ;
@@ -2135,6 +2156,11 @@ FileDescriptorArray
 aFileDescriptors
 bool
 aDelayedStart
+uint32_t
+aMaxSize
+uint32_t
+*
+aSizeUsed
 mozilla
 :
 :
@@ -2151,6 +2177,8 @@ SerializeInternal
 aParams
 aFileDescriptors
 aDelayedStart
+aMaxSize
+aSizeUsed
 aManager
 )
 ;
@@ -2180,6 +2208,11 @@ FileDescriptorArray
 aFileDescriptors
 bool
 aDelayedStart
+uint32_t
+aMaxSize
+uint32_t
+*
+aSizeUsed
 M
 *
 aManager
@@ -2211,6 +2244,8 @@ stream
 )
 aFileDescriptors
 aDelayedStart
+aMaxSize
+aSizeUsed
 aManager
 )
 ;
