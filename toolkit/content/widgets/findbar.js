@@ -436,7 +436,7 @@ findbar
 -
 highlight
 -
-all
+all2
 "
 oncommand
 =
