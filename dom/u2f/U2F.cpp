@@ -414,7 +414,9 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_PRESERVED_WRAPPER
 tmp
 -
 >
-ClearTransaction
+mTransaction
+.
+reset
 (
 )
 ;
