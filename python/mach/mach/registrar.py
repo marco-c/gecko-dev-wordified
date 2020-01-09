@@ -63,6 +63,8 @@ from
 base
 import
 MachError
+import
+time
 INVALID_COMMAND_CONTEXT
 =
 r
@@ -596,6 +598,14 @@ handler
 method
 )
         
+start_time
+=
+time
+.
+time
+(
+)
+        
 if
 debug_command
 :
@@ -625,6 +635,14 @@ fn
 *
 *
 kwargs
+)
+        
+end_time
+=
+time
+.
+time
+(
 )
         
 result
@@ -669,6 +687,11 @@ postrun
 (
 context
 handler
+instance
+result
+                        
+start_time
+end_time
 args
 =
 kwargs

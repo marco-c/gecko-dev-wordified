@@ -2006,9 +2006,13 @@ command
 success
 =
 False
-monitor
+start_time
 =
 None
+end_time
+=
+None
+                     
 mach_context
 =
 None
@@ -2016,7 +2020,6 @@ substs
 =
 {
 }
-                     
 paths
 =
 [
@@ -2124,8 +2127,6 @@ datetime
 .
 utcfromtimestamp
 (
-monitor
-.
 start_time
 )
 .
@@ -2198,9 +2199,11 @@ duration_ms
 :
 int
 (
-monitor
-.
-elapsed
+(
+end_time
+-
+start_time
+)
 *
 1000
 )
