@@ -347,7 +347,7 @@ filter
 8
 ]
 [
-DAV1D_N_SWITCHABLE_FILTERS
+N_SWITCHABLE_FILTERS
 +
 1
 ]
@@ -643,7 +643,7 @@ seg_id
 3
 ]
 [
-DAV1D_MAX_SEGMENTS
+NUM_SEGMENTS
 +
 1
 ]
@@ -1135,7 +1135,7 @@ void
 dav1d_update_tile_cdf
 (
 const
-Dav1dFrameHeader
+Av1FrameHeader
 *
 hdr
 CdfContext

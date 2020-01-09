@@ -360,14 +360,6 @@ Dav1dRef
 ref
 )
 ;
-int
-dav1d_ref_is_writable
-(
-Dav1dRef
-*
-ref
-)
-;
 #
 endif
 /

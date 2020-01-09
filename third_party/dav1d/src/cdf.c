@@ -33647,7 +33647,7 @@ void
 dav1d_update_tile_cdf
 (
 const
-Dav1dFrameHeader
+Av1FrameHeader
 *
 const
 hdr
@@ -34330,7 +34330,7 @@ br_tok
 update_cdf_2d
 (
 3
-DAV1D_MAX_SEGMENTS
+NUM_SEGMENTS
 m
 .
 seg_id
@@ -34601,7 +34601,7 @@ update_cdf_3d
 (
 2
 8
-DAV1D_N_SWITCHABLE_FILTERS
+N_SWITCHABLE_FILTERS
 m
 .
 filter
