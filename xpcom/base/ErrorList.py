@@ -15369,18 +15369,6 @@ SUCCESS
 1
 )
     
-errors
-[
-"
-NS_SUCCESS_RESTART_APP_NOT_SAME_PROFILE
-"
-]
-=
-SUCCESS
-(
-3
-)
-    
 #
 a11y
     

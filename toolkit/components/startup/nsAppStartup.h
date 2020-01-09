@@ -380,15 +380,6 @@ has
 /
 already
 ended
-bool
-mRestartNotSameProfile
-;
-/
-/
-Quit
-(
-eRestartNotSameProfile
-)
 #
 if
 defined
