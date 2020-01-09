@@ -14785,6 +14785,16 @@ nullptr
 {
 if
 (
+!
+PeerConnectionCtx
+:
+:
+isActive
+(
+)
+|
+|
+(
 PeerConnectionCtx
 :
 :
@@ -14813,6 +14823,7 @@ mPeerConnections
 .
 end
 (
+)
 )
 )
 {
