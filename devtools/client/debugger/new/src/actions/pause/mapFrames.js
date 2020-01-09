@@ -63,6 +63,7 @@ MPL
 flow
 import
 {
+getCurrentThread
 getFrames
 getSymbols
 getSource
@@ -996,6 +997,16 @@ getState
 )
 ;
 const
+thread
+=
+getCurrentThread
+(
+getState
+(
+)
+)
+;
+const
 selectedFrameId
 =
 getSelectedFrameId
@@ -1014,6 +1025,7 @@ type
 "
 MAP_FRAMES
 "
+thread
 frames
 :
 mappedFrames

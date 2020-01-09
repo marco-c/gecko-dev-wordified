@@ -303,6 +303,7 @@ ThunkArgs
 {
 const
 {
+thread
 frames
 why
 loadedObjects
@@ -443,6 +444,7 @@ type
 "
 PAUSED
 "
+thread
 why
 frames
 selectedFrameId

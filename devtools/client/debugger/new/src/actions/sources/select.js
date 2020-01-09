@@ -329,6 +329,11 @@ type
 "
 SET_SELECTED_LOCATION
 "
+thread
+:
+source
+.
+thread
 source
 location
 }

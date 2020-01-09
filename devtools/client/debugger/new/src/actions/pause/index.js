@@ -80,6 +80,7 @@ pause
 /
 export
 {
+selectThread
 stepIn
 stepOver
 stepOut

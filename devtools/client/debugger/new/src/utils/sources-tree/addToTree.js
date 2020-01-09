@@ -485,6 +485,9 @@ traverseTree
 url
 :
 ParsedURL
+thread
+:
+string
 tree
 :
 TreeDirectory
@@ -919,6 +922,9 @@ finalNode
 traverseTree
 (
 url
+source
+.
+thread
 tree
 debuggeeHost
 )

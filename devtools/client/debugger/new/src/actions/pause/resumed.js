@@ -63,6 +63,7 @@ MPL
 flow
 import
 {
+getCurrentThread
 isStepping
 getPauseReason
 }
@@ -185,6 +186,16 @@ getState
 )
 )
 ;
+const
+thread
+=
+getCurrentThread
+(
+getState
+(
+)
+)
+;
 dispatch
 (
 {
@@ -193,6 +204,7 @@ type
 "
 RESUME
 "
+thread
 }
 )
 ;

@@ -63,6 +63,7 @@ MPL
 flow
 import
 {
+getCurrentThread
 getPopupObjectProperties
 }
 from
@@ -154,6 +155,16 @@ actor
 return
 ;
 }
+const
+thread
+=
+getCurrentThread
+(
+getState
+(
+)
+)
+;
 dispatch
 (
 {
@@ -162,6 +173,7 @@ type
 "
 SET_POPUP_OBJECT_PROPERTIES
 "
+thread
 objectId
 properties
 }
