@@ -59,6 +59,15 @@ MPL
 #
 include
 "
+js
+/
+Symbol
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests
