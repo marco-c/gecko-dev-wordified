@@ -279,7 +279,7 @@ override
 /
 SVGAnimationElement
 virtual
-nsSMILAnimationFunction
+SMILAnimationFunction
 &
 AnimationFunction
 (

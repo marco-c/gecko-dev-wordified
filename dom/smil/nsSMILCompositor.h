@@ -155,7 +155,7 @@ h
 #
 include
 "
-nsSMILAnimationFunction
+SMILAnimationFunction
 .
 h
 "
@@ -454,7 +454,10 @@ functions
 void
 AddAnimationFunction
 (
-nsSMILAnimationFunction
+mozilla
+:
+:
+SMILAnimationFunction
 *
 aFunc
 )
@@ -933,7 +936,10 @@ specified
 attr
 nsTArray
 <
-nsSMILAnimationFunction
+mozilla
+:
+:
+SMILAnimationFunction
 *
 >
 mAnimationFunctions

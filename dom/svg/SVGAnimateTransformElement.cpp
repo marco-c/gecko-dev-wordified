@@ -593,7 +593,7 @@ SVGAnimateTransformElement
 -
 -
 -
-nsSMILAnimationFunction
+SMILAnimationFunction
 &
 SVGAnimateTransformElement
 :

@@ -143,7 +143,9 @@ h
 #
 include
 "
-nsSMILAnimationFunction
+mozilla
+/
+SMILAnimationFunction
 .
 h
 "
@@ -275,7 +277,7 @@ SVGMotionSMILAnimationFunction
 /
 Subclass
 of
-nsSMILAnimationFunction
+SMILAnimationFunction
 to
 support
 a
@@ -299,7 +301,7 @@ SVGMotionSMILAnimationFunction
 final
 :
 public
-nsSMILAnimationFunction
+SMILAnimationFunction
 {
 typedef
 mozilla

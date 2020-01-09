@@ -2866,7 +2866,7 @@ its
 time
 client
 (
-nsSMILAnimationFunction
+SMILAnimationFunction
 )
 .
 /
@@ -4918,7 +4918,7 @@ this
 animation
 return
 ;
-nsSMILAnimationFunction
+SMILAnimationFunction
 &
 func
 =

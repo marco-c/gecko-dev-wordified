@@ -178,7 +178,7 @@ h
 #
 include
 "
-nsSMILAnimationFunction
+SMILAnimationFunction
 .
 h
 "
@@ -3855,7 +3855,7 @@ nsSMILTimedElement
 :
 SetTimeClient
 (
-nsSMILAnimationFunction
+SMILAnimationFunction
 *
 aClient
 )

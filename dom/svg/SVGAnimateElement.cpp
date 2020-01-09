@@ -438,7 +438,7 @@ SVGAnimateElement
 -
 -
 -
-nsSMILAnimationFunction
+SMILAnimationFunction
 &
 SVGAnimateElement
 :

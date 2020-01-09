@@ -143,7 +143,9 @@ h
 #
 include
 "
-nsSMILSetAnimationFunction
+mozilla
+/
+SMILSetAnimationFunction
 .
 h
 "
@@ -202,7 +204,7 @@ NodeInfo
 aNodeInfo
 )
 ;
-nsSMILSetAnimationFunction
+SMILSetAnimationFunction
 mAnimationFunction
 ;
 friend
@@ -278,7 +280,7 @@ override
 /
 SVGAnimationElement
 virtual
-nsSMILAnimationFunction
+SMILAnimationFunction
 &
 AnimationFunction
 (

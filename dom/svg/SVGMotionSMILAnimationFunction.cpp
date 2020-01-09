@@ -606,7 +606,7 @@ to
 superclass
 method
 return
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 SetAttr
@@ -729,7 +729,7 @@ to
 superclass
 method
 return
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 UnsetAttr
@@ -742,7 +742,7 @@ return
 true
 ;
 }
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 nsSMILCalcMode
@@ -1282,7 +1282,7 @@ animation
 /
 because
 the
-nsSMILAnimationFunction
+SMILAnimationFunction
 logic
 for
 to
@@ -2343,7 +2343,7 @@ Call
 superclass
 method
 .
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 CheckValueListDependentAttrs
@@ -2465,7 +2465,7 @@ path
 )
 &
 &
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 IsToAnimation

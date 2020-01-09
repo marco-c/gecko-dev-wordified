@@ -164,7 +164,7 @@ h
 #
 include
 "
-nsSMILAnimationFunction
+SMILAnimationFunction
 .
 h
 "

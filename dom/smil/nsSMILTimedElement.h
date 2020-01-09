@@ -225,9 +225,6 @@ nsAttrValue
 h
 "
 class
-nsSMILAnimationFunction
-;
-class
 nsSMILTimeContainer
 ;
 class
@@ -239,6 +236,9 @@ nsAtom
 namespace
 mozilla
 {
+class
+SMILAnimationFunction
+;
 namespace
 dom
 {
@@ -353,6 +353,13 @@ dom
 :
 Element
 Element
+;
+typedef
+mozilla
+:
+:
+SMILAnimationFunction
+SMILAnimationFunction
 ;
 /
 *
@@ -1302,7 +1309,7 @@ any
 void
 SetTimeClient
 (
-nsSMILAnimationFunction
+SMILAnimationFunction
 *
 aClient
 )
@@ -3891,7 +3898,7 @@ mEndInstances
 uint32_t
 mInstanceSerialIndex
 ;
-nsSMILAnimationFunction
+SMILAnimationFunction
 *
 mClient
 ;
