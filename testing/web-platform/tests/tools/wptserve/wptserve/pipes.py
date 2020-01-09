@@ -2342,7 +2342,7 @@ and
 There
 are
 several
-avaliable
+available
 substitutions
 :
     
