@@ -1289,7 +1289,6 @@ get
 (
 )
 wrapper
-aClipboardDataLength
 )
 ;
 }
@@ -1501,11 +1500,6 @@ get
 (
 )
 byteStream
-sizeof
-(
-nsIInputStream
-*
-)
 )
 ;
 mContext

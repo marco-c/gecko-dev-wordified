@@ -4438,7 +4438,6 @@ get
 (
 )
 data
-0
 )
 ;
 if
@@ -4938,7 +4937,6 @@ get
 (
 )
 file
-convertedTextLen
 )
 ;
 g_free
@@ -5941,7 +5939,6 @@ get
 (
 )
 genericDataWrapper
-mTargetDragDataLen
 )
 ;
 /
@@ -10443,11 +10440,6 @@ SetTransferData
 (
 kFilePromiseDirectoryMime
 directory
-sizeof
-(
-nsIFile
-*
-)
 )
 ;
 nsCOMPtr
@@ -10494,16 +10486,6 @@ SetTransferData
 (
 kFilePromiseDestFilename
 filenamePrimitive
-leafName
-.
-Length
-(
-)
-*
-sizeof
-(
-PRUnichar
-)
 )
 ;
 /
