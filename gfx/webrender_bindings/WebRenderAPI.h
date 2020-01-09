@@ -1933,6 +1933,15 @@ FilterOp
 >
 mFilters
 ;
+nsTArray
+<
+wr
+:
+:
+WrFilterData
+>
+mFilterDatas
+;
 wr
 :
 :

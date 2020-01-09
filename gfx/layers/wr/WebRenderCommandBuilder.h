@@ -333,13 +333,7 @@ wr
 LayoutSize
 &
 aContentSize
-nsTArray
-<
-wr
-:
-:
-FilterOp
->
+WrFiltersHolder
 &
 &
 aFilters
