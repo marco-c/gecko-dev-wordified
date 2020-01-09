@@ -1115,6 +1115,14 @@ if
 (
 !
 mCleanShutdown
+&
+&
+(
+mGoAwayReason
+!
+=
+NO_HTTP_ERROR
+)
 )
 {
 CloseStream
@@ -26825,7 +26833,7 @@ if
 aReason
 =
 =
-NS_ERROR_ILLEGAL_VALUE
+NS_ERROR_NET_HTTP2_SENT_GOAWAY
 )
 {
 goAwayReason
