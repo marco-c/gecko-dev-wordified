@@ -5,6 +5,8 @@ jit
 -
 test
 |
+slow
+;
 allow
 -
 overrecursed
