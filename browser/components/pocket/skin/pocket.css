@@ -358,14 +358,6 @@ animatable
 -
 box
 {
-position
-:
-absolute
-;
-overflow
-:
-hidden
-;
 top
 :
 calc
@@ -1429,8 +1421,8 @@ inherit
 ;
 }
 }
-.
-toolbarbutton
+#
+library
 -
 animatable
 -
@@ -1507,8 +1499,8 @@ steps
 )
 ;
 }
-.
-toolbarbutton
+#
+library
 -
 animatable
 -
@@ -1551,8 +1543,8 @@ animation
 rtl
 ;
 }
-.
-toolbarbutton
+#
+library
 -
 animatable
 -
