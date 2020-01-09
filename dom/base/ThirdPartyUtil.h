@@ -144,7 +144,7 @@ h
 #
 include
 "
-nsIEffectiveTLDService
+nsEffectiveTLDService
 .
 h
 "
@@ -205,9 +205,9 @@ bool
 aResult
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIEffectiveTLDService
+nsEffectiveTLDService
 >
 mTLDService
 ;
