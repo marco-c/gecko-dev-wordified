@@ -1428,9 +1428,6 @@ gDataJapaneseInformal
 =
 {
 {
-/
-/
-digit
 0x3007
 0x4e00
 0x4e8c
@@ -1442,6 +1439,9 @@ digit
 0x516b
 0x4e5d
 }
+/
+/
+digit
 {
 0x5341
 0x767e
@@ -1474,9 +1474,6 @@ gDataJapaneseFormal
 =
 {
 {
-/
-/
-digit
 0x96f6
 0x58f1
 0x5f10
@@ -1488,6 +1485,9 @@ digit
 0x516b
 0x4e5d
 }
+/
+/
+digit
 {
 0x62fe
 0x767e
@@ -1520,9 +1520,6 @@ gDataKoreanHangulFormal
 =
 {
 {
-/
-/
-digit
 0xc601
 0xc77c
 0xc774
@@ -1534,6 +1531,9 @@ digit
 0xd314
 0xad6c
 }
+/
+/
+digit
 {
 0xc2ed
 0xbc31
@@ -1566,9 +1566,6 @@ gDataKoreanHanjaInformal
 =
 {
 {
-/
-/
-digit
 0x96f6
 0x4e00
 0x4e8c
@@ -1580,6 +1577,9 @@ digit
 0x516b
 0x4e5d
 }
+/
+/
+digit
 {
 0x5341
 0x767e
@@ -1612,9 +1612,6 @@ gDataKoreanHanjaFormal
 =
 {
 {
-/
-/
-digit
 0x96f6
 0x58f9
 0x8cb3
@@ -1626,6 +1623,9 @@ digit
 0x516b
 0x4e5d
 }
+/
+/
+digit
 {
 0x62fe
 0x767e
@@ -1658,9 +1658,6 @@ gDataSimpChineseInformal
 =
 {
 {
-/
-/
-digit
 0x96f6
 0x4e00
 0x4e8c
@@ -1672,6 +1669,9 @@ digit
 0x516b
 0x4e5d
 }
+/
+/
+digit
 {
 0x5341
 0x767e
@@ -1704,9 +1704,6 @@ gDataSimpChineseFormal
 =
 {
 {
-/
-/
-digit
 0x96f6
 0x58f9
 0x8d30
@@ -1718,6 +1715,9 @@ digit
 0x634c
 0x7396
 }
+/
+/
+digit
 {
 0x62fe
 0x4f70
@@ -1750,9 +1750,6 @@ gDataTradChineseInformal
 =
 {
 {
-/
-/
-digit
 0x96f6
 0x4e00
 0x4e8c
@@ -1764,6 +1761,9 @@ digit
 0x516b
 0x4e5d
 }
+/
+/
+digit
 {
 0x5341
 0x767e
@@ -1796,9 +1796,6 @@ gDataTradChineseFormal
 =
 {
 {
-/
-/
-digit
 0x96f6
 0x58f9
 0x8cb3
@@ -1810,6 +1807,9 @@ digit
 0x634c
 0x7396
 }
+/
+/
+digit
 {
 0x62fe
 0x4f70

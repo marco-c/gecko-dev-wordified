@@ -4221,13 +4221,6 @@ context
 return
 NS_ERROR_FAILURE
 ;
-nsPoint
-desiredPos
-(
-0
-0
-)
-;
 /
 /
 we
@@ -4244,6 +4237,13 @@ just
 UP
 /
 DOWN
+nsPoint
+desiredPos
+(
+0
+0
+)
+;
 int8_t
 index
 =
@@ -6201,6 +6201,7 @@ NS_OK
 /
 *
 *
+*
 After
 moving
 the
@@ -7891,6 +7892,8 @@ to
 keep
 old
 desired
+/
+/
 position
 if
 it

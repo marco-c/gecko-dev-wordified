@@ -7767,7 +7767,7 @@ surface
 *
 /
 /
-*
+/
 we
 '
 ll
@@ -7780,8 +7780,6 @@ right
 spot
 by
 gfxWindowsNativeDrawing
-*
-/
 nsSize
 contentSize
 =
@@ -7840,7 +7838,7 @@ Save
 )
 ;
 /
-*
+/
 Make
 sure
 plugins
@@ -7858,8 +7856,6 @@ they
 re
 supposed
 to
-*
-/
 aRenderingContext
 .
 NewPath

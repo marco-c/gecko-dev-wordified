@@ -14812,7 +14812,7 @@ aFactor
 )
 {
 /
-*
+/
 Get
 a
 new
@@ -14827,11 +14827,10 @@ scaling
 by
 the
 specified
-*
+/
+/
 factor
 .
-*
-/
 Rect
 scaledRect
 =
@@ -14845,7 +14844,7 @@ aFactor
 )
 ;
 /
-*
+/
 We
 now
 need
@@ -14862,8 +14861,6 @@ values
 for
 coords
 .
-*
-/
 ConstrainToCoordValues
 (
 scaledRect
@@ -14885,7 +14882,7 @@ height
 )
 ;
 /
-*
+/
 Now
 typecast
 everything
@@ -14898,8 +14895,6 @@ to
 be
 safe
 .
-*
-/
 if
 (
 aRect
@@ -14989,7 +14984,7 @@ aFactor
 )
 {
 /
-*
+/
 Get
 a
 new
@@ -15004,11 +14999,10 @@ scaling
 by
 the
 specified
-*
+/
+/
 factor
 .
-*
-/
 gfxRect
 scaledRect
 =
@@ -15022,7 +15016,7 @@ aFactor
 )
 ;
 /
-*
+/
 We
 now
 need
@@ -15039,8 +15033,6 @@ values
 for
 coords
 .
-*
-/
 ConstrainToCoordValues
 (
 scaledRect
@@ -15062,7 +15054,7 @@ height
 )
 ;
 /
-*
+/
 Now
 typecast
 everything
@@ -15075,8 +15067,6 @@ to
 be
 safe
 .
-*
-/
 if
 (
 aRect
@@ -46442,6 +46432,11 @@ ComputeSizeForDrawing
 imgIContainer
 *
 aImage
+/
+*
+outparam
+*
+/
 CSSIntSize
 &
 aImageSize
@@ -46469,11 +46464,6 @@ outparam
 bool
 &
 aGotHeight
-/
-*
-outparam
-*
-/
 )
 {
 aGotWidth

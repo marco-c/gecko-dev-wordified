@@ -412,6 +412,8 @@ after
 scrolling
 but
 before
+/
+/
 snapping
 nsPoint
 mStartPos

@@ -4130,6 +4130,12 @@ case
 NS_STYLE_TEXT_TRANSFORM_FULL_SIZE_KANA
 :
 {
+/
+/
+clang
+-
+format
+off
 static
 const
 uint16_t
@@ -4276,6 +4282,12 @@ kFullSizeKanas
 0xFF82
 }
 ;
+/
+/
+clang
+-
+format
+on
 size_t
 index
 ;

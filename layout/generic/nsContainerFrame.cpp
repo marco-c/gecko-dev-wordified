@@ -12678,11 +12678,6 @@ don
 '
 t
 want
-#
-define
-MAX_DEPTH_FOR_LIST_RENUMBERING
-\
-200
 /
 /
 200
@@ -12692,6 +12687,10 @@ tags
 is
 pretty
 unrealistic
+#
+define
+MAX_DEPTH_FOR_LIST_RENUMBERING
+200
 bool
 nsContainerFrame
 :

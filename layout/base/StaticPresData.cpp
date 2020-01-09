@@ -260,6 +260,12 @@ Append
 _s1
 )
 ;
+/
+/
+clang
+-
+format
+off
 static
 const
 char
@@ -309,6 +315,12 @@ fantasy
 "
 }
 ;
+/
+/
+clang
+-
+format
+on
 /
 /
 These
@@ -451,7 +463,6 @@ serif
 sans
 -
 serif
--
 fallback
 generic
 font
@@ -466,7 +477,6 @@ generic
 [
 langGroup
 ]
-=
 current
 user
 '
@@ -515,7 +525,6 @@ langGroup
 ]
 =
 integer
--
 settable
 by
 the
@@ -537,7 +546,6 @@ langGroup
 "
 float
 "
--
 settable
 by
 the
@@ -553,7 +561,6 @@ langGroup
 ]
 =
 integer
--
 settable
 by
 the
@@ -649,6 +656,12 @@ CSSPixelsToAppUnits
 size
 )
 ;
+/
+/
+clang
+-
+format
+off
 nsFont
 *
 fontTypes
@@ -672,6 +685,12 @@ mDefaultCursiveFont
 mDefaultFantasyFont
 }
 ;
+/
+/
+clang
+-
+format
+on
 static_assert
 (
 MOZ_ARRAY_LENGTH

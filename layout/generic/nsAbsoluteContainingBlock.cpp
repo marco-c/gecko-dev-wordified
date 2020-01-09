@@ -5769,6 +5769,8 @@ AbsPosReflowFlags
 :
 eConstrainHeight
 )
+&
+&
 /
 /
 Don
@@ -5788,8 +5790,6 @@ for
 fixed
 frames
 )
-&
-&
 !
 aDelegatingFrame
 -
@@ -5797,6 +5797,8 @@ aDelegatingFrame
 IsInlineFrame
 (
 )
+&
+&
 /
 /
 XXX
@@ -5815,8 +5817,6 @@ containing
 /
 blocks
 yet
-&
-&
 (
 aKidFrame
 -

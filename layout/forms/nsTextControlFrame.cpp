@@ -4871,6 +4871,7 @@ if
 !
 mIsProcessing
 )
+{
 /
 /
 some
@@ -4878,7 +4879,6 @@ kind
 of
 lock
 .
-{
 mIsProcessing
 =
 true

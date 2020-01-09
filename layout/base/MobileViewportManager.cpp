@@ -1937,13 +1937,11 @@ nonzero
 value
 to
 another
+/
+/
 nonzero
-/
-/
 value
 .
-/
-/
 This
 covers
 the
@@ -1956,11 +1954,11 @@ g
 the
 device
 was
+/
+/
 rotated
 and
 again
-/
-/
 we
 want
 to
@@ -2064,8 +2062,6 @@ meta
 /
 /
 viewport
-/
-/
 or
 a
 fixed
@@ -2092,8 +2088,6 @@ a
 device
 -
 width
-/
-/
 viewport
 )
 /
@@ -2113,8 +2107,6 @@ meta
 /
 /
 viewport
-/
-/
 tag
 is
 added

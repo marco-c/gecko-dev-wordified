@@ -5980,7 +5980,7 @@ true
 )
 ;
 /
-*
+/
 XXX
 in
 DEBUG
@@ -5996,8 +5996,6 @@ t
 two
 checked
 items
-*
-/
 return
 ;
 }

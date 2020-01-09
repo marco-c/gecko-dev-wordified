@@ -387,7 +387,6 @@ kMaxDropDownRows
 ;
 /
 /
-This
 matches
 the
 setting

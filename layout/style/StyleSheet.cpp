@@ -469,12 +469,6 @@ mAssociationMode
 (
 NotOwnedByDocumentOrShadowRoot
 )
-mInner
-(
-aCopy
-.
-mInner
-)
 /
 /
 Shallow
@@ -486,6 +480,12 @@ will
 fix
 up
 .
+mInner
+(
+aCopy
+.
+mInner
+)
 {
 MOZ_ASSERT
 (
@@ -5414,6 +5414,8 @@ t
 handle
 )
 .
+/
+/
 (
 3
 )
@@ -5435,8 +5437,6 @@ moz
 bool
 -
 pref
-/
-/
 which
 needs
 to
@@ -5447,6 +5447,8 @@ service
 which
 is
 not
+/
+/
 threadsafe
 .
 static

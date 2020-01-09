@@ -442,10 +442,6 @@ SizeComputationInput
 aFrame
 aRenderingContext
 )
-mCBReflowInput
-(
-nullptr
-)
 /
 /
 will
@@ -455,6 +451,10 @@ properly
 later
 in
 InitCBReflowInput
+mCBReflowInput
+(
+nullptr
+)
 mBlockDelta
 (
 0
@@ -1206,10 +1206,6 @@ aParentReflowInput
 .
 mRenderingContext
 )
-mCBReflowInput
-(
-nullptr
-)
 /
 /
 will
@@ -1219,6 +1215,10 @@ properly
 later
 in
 InitCBReflowInput
+mCBReflowInput
+(
+nullptr
+)
 mBlockDelta
 (
 0
