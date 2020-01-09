@@ -15744,7 +15744,7 @@ PushRedirectAsyncFunc
 nsHttpChannel
 :
 :
-ContinueProcessResponse1_5
+ContinueProcessResponse2
 )
 ;
 rv
@@ -15771,7 +15771,7 @@ PopRedirectAsyncFunc
 nsHttpChannel
 :
 :
-ContinueProcessResponse1_5
+ContinueProcessResponse2
 )
 ;
 }
@@ -15786,7 +15786,7 @@ as
 normal
 .
 return
-ContinueProcessResponse1_5
+ContinueProcessResponse2
 (
 rv
 )
@@ -15796,7 +15796,7 @@ nsresult
 nsHttpChannel
 :
 :
-ContinueProcessResponse1_5
+ContinueProcessResponse2
 (
 nsresult
 rv
@@ -15869,7 +15869,7 @@ PushRedirectAsyncFunc
 nsHttpChannel
 :
 :
-ContinueProcessResponse2
+ContinueProcessResponse3
 )
 ;
 rv
@@ -15901,7 +15901,7 @@ PopRedirectAsyncFunc
 nsHttpChannel
 :
 :
-ContinueProcessResponse2
+ContinueProcessResponse3
 )
 ;
 }
@@ -15909,7 +15909,7 @@ ContinueProcessResponse2
 /
 Hack
 :
-ContinueProcessResponse2
+ContinueProcessResponse3
 uses
 NS_OK
 to
@@ -15945,7 +15945,7 @@ error
 code
 .
 return
-ContinueProcessResponse2
+ContinueProcessResponse3
 (
 NS_BINDING_FAILED
 )
@@ -15955,7 +15955,7 @@ nsresult
 nsHttpChannel
 :
 :
-ContinueProcessResponse2
+ContinueProcessResponse3
 (
 nsresult
 rv
@@ -15968,7 +15968,7 @@ LOG
 nsHttpChannel
 :
 :
-ContinueProcessResponse2
+ContinueProcessResponse3
 [
 this
 =
@@ -16398,7 +16398,7 @@ PushRedirectAsyncFunc
 nsHttpChannel
 :
 :
-ContinueProcessResponse3
+ContinueProcessResponse4
 )
 ;
 rv
@@ -16422,7 +16422,7 @@ PopRedirectAsyncFunc
 nsHttpChannel
 :
 :
-ContinueProcessResponse3
+ContinueProcessResponse4
 )
 ;
 LOG
@@ -16495,7 +16495,7 @@ else
 {
 rv
 =
-ContinueProcessResponse3
+ContinueProcessResponse4
 (
 rv
 )
@@ -17548,7 +17548,7 @@ nsresult
 nsHttpChannel
 :
 :
-ContinueProcessResponse3
+ContinueProcessResponse4
 (
 nsresult
 rv
@@ -17682,7 +17682,7 @@ LOG
 (
 (
 "
-ContinueProcessResponse3
+ContinueProcessResponse4
 detected
 rejected
 Non
@@ -17751,7 +17751,7 @@ LOG
 (
 (
 "
-ContinueProcessResponse3
+ContinueProcessResponse4
 "
 "
 failed
@@ -17817,7 +17817,7 @@ LOG
 (
 (
 "
-ContinueProcessResponse3
+ContinueProcessResponse4
 got
 failure
 result
@@ -48520,7 +48520,7 @@ PushRedirectAsyncFunc
 nsHttpChannel
 :
 :
-ContinueOnStartRequest0
+ContinueOnStartRequest1
 )
 ;
 rv
@@ -48547,7 +48547,7 @@ PopRedirectAsyncFunc
 nsHttpChannel
 :
 :
-ContinueOnStartRequest0
+ContinueOnStartRequest1
 )
 ;
 }
@@ -48562,10 +48562,10 @@ so
 continue
 on
 to
-ContinueOnStartRequest0
+ContinueOnStartRequest1
 .
 return
-ContinueOnStartRequest0
+ContinueOnStartRequest1
 (
 rv
 )
@@ -48575,7 +48575,7 @@ nsresult
 nsHttpChannel
 :
 :
-ContinueOnStartRequest0
+ContinueOnStartRequest1
 (
 nsresult
 result
@@ -48709,7 +48709,7 @@ PushRedirectAsyncFunc
 nsHttpChannel
 :
 :
-ContinueOnStartRequest1
+ContinueOnStartRequest2
 )
 ;
 rv
@@ -48741,7 +48741,7 @@ PopRedirectAsyncFunc
 nsHttpChannel
 :
 :
-ContinueOnStartRequest1
+ContinueOnStartRequest2
 )
 ;
 }
@@ -48749,7 +48749,7 @@ ContinueOnStartRequest1
 /
 Hack
 :
-ContinueOnStartRequest1
+ContinueOnStartRequest2
 uses
 NS_OK
 to
@@ -48785,7 +48785,7 @@ error
 code
 .
 return
-ContinueOnStartRequest1
+ContinueOnStartRequest2
 (
 NS_BINDING_FAILED
 )
@@ -48795,7 +48795,7 @@ nsresult
 nsHttpChannel
 :
 :
-ContinueOnStartRequest1
+ContinueOnStartRequest2
 (
 nsresult
 result
@@ -48894,7 +48894,7 @@ PushRedirectAsyncFunc
 nsHttpChannel
 :
 :
-ContinueOnStartRequest2
+ContinueOnStartRequest3
 )
 ;
 if
@@ -48915,7 +48915,7 @@ PopRedirectAsyncFunc
 nsHttpChannel
 :
 :
-ContinueOnStartRequest2
+ContinueOnStartRequest3
 )
 ;
 }
@@ -48923,7 +48923,7 @@ ContinueOnStartRequest2
 /
 Hack
 :
-ContinueOnStartRequest2
+ContinueOnStartRequest3
 uses
 NS_OK
 to
@@ -48959,7 +48959,7 @@ error
 code
 .
 return
-ContinueOnStartRequest2
+ContinueOnStartRequest3
 (
 NS_BINDING_FAILED
 )
@@ -48969,7 +48969,7 @@ nsresult
 nsHttpChannel
 :
 :
-ContinueOnStartRequest2
+ContinueOnStartRequest3
 (
 nsresult
 result
@@ -49048,7 +49048,7 @@ PushRedirectAsyncFunc
 nsHttpChannel
 :
 :
-ContinueOnStartRequest3
+ContinueOnStartRequest4
 )
 ;
 bool
@@ -49076,12 +49076,12 @@ PopRedirectAsyncFunc
 nsHttpChannel
 :
 :
-ContinueOnStartRequest3
+ContinueOnStartRequest4
 )
 ;
 }
 return
-ContinueOnStartRequest3
+ContinueOnStartRequest4
 (
 NS_OK
 )
@@ -49091,7 +49091,7 @@ nsresult
 nsHttpChannel
 :
 :
-ContinueOnStartRequest3
+ContinueOnStartRequest4
 (
 nsresult
 result
@@ -49104,7 +49104,7 @@ LOG
 nsHttpChannel
 :
 :
-ContinueOnStartRequest3
+ContinueOnStartRequest4
 [
 this
 =
