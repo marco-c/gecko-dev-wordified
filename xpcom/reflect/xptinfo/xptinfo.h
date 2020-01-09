@@ -4676,6 +4676,16 @@ return
 false
 ;
 }
+if
+(
+mHdr
+!
+=
+EmptyHdr
+(
+)
+)
+{
 mHdr
 -
 >
@@ -4683,6 +4693,7 @@ mLength
 =
 aTo
 ;
+}
 return
 true
 ;
