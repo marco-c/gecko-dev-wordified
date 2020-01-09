@@ -61,6 +61,7 @@ a
 search
 alias
 .
+await
 Services
 .
 search
@@ -250,6 +251,7 @@ changed
 "
 )
 ;
+await
 Services
 .
 search
@@ -319,13 +321,15 @@ yet
 "
 )
 ;
+await
 Services
 .
 search
 .
-defaultEngine
-=
+setDefault
+(
 engine
+)
 ;
 await
 check_autocomplete

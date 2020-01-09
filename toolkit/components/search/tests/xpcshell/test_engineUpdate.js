@@ -146,6 +146,7 @@ alias
 =
 KEYWORD
 ;
+await
 Services
 .
 search

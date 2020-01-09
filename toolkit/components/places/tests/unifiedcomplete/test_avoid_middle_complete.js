@@ -254,6 +254,7 @@ searchEngines
 true
 )
 ;
+await
 Services
 .
 search
@@ -315,6 +316,7 @@ null
 ;
 registerCleanupFunction
 (
+async
 (
 )
 =
@@ -413,6 +415,7 @@ searchEngines
 true
 )
 ;
+await
 Services
 .
 search
@@ -474,6 +477,7 @@ null
 ;
 registerCleanupFunction
 (
+async
 (
 )
 =
@@ -563,6 +567,7 @@ searchEngines
 true
 )
 ;
+await
 Services
 .
 search
@@ -624,6 +629,7 @@ null
 ;
 registerCleanupFunction
 (
+async
 (
 )
 =
@@ -713,6 +719,7 @@ searchEngines
 true
 )
 ;
+await
 Services
 .
 search
@@ -774,6 +781,7 @@ null
 ;
 registerCleanupFunction
 (
+async
 (
 )
 =
@@ -872,6 +880,7 @@ searchEngines
 true
 )
 ;
+await
 Services
 .
 search
@@ -933,6 +942,7 @@ null
 ;
 registerCleanupFunction
 (
+async
 (
 )
 =
@@ -1034,6 +1044,7 @@ searchEngines
 true
 )
 ;
+await
 Services
 .
 search
@@ -1097,6 +1108,7 @@ null
 ;
 registerCleanupFunction
 (
+async
 (
 )
 =

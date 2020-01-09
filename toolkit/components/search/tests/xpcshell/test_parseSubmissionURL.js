@@ -85,6 +85,7 @@ for
 let
 engine
 of
+await
 Services
 .
 search
@@ -94,6 +95,7 @@ getEngines
 )
 )
 {
+await
 Services
 .
 search

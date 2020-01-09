@@ -64,6 +64,7 @@ test_searchEngine
 (
 )
 {
+await
 Services
 .
 search
@@ -128,6 +129,7 @@ null
 ;
 registerCleanupFunction
 (
+async
 (
 )
 =

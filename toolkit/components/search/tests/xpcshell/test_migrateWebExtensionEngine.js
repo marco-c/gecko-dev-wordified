@@ -140,10 +140,6 @@ isInitialized
 )
 ;
 await
-asyncInit
-(
-)
-;
 Services
 .
 search
@@ -220,6 +216,7 @@ replace
 the
 existing
 engine
+await
 Services
 .
 search

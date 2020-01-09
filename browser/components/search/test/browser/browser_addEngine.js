@@ -481,7 +481,7 @@ engine
 )
 {
 let
-currentEngine
+defaultEngine
 =
 gSS
 .
@@ -490,7 +490,7 @@ defaultEngine
 is
 (
 engine
-currentEngine
+defaultEngine
 "
 engine
 is
@@ -538,7 +538,7 @@ observer
 before
 calling
 the
-currentEngine
+defaultEngine
 getter
 /
 /
@@ -548,7 +548,7 @@ getter
 will
 set
 the
-currentEngine
+defaultEngine
 to
 the
 original
@@ -590,7 +590,7 @@ modified
 )
 ;
 let
-currentEngine
+defaultEngine
 =
 gSS
 .
@@ -598,7 +598,7 @@ defaultEngine
 ;
 ok
 (
-currentEngine
+defaultEngine
 "
 An
 engine
@@ -610,7 +610,7 @@ present
 ;
 isnot
 (
-currentEngine
+defaultEngine
 .
 name
 this
@@ -694,8 +694,15 @@ waitForExplicitFinish
 (
 )
 ;
-nextTest
+gSS
+.
+init
 (
+)
+.
+then
+(
+nextTest
 )
 ;
 }

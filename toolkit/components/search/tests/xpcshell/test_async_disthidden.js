@@ -225,6 +225,7 @@ isInitialized
 let
 engines
 =
+await
 Services
 .
 search

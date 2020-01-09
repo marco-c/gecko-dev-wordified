@@ -73,6 +73,10 @@ search
 .
 init
 (
+)
+.
+then
+(
 function
 search_initialized
 (
@@ -115,9 +119,6 @@ overrides
 our
 jar
 engine
-let
-engines
-=
 Services
 .
 search
@@ -125,7 +126,13 @@ search
 getEngines
 (
 )
-;
+.
+then
+(
+engines
+=
+>
+{
 Assert
 .
 equal
@@ -186,6 +193,9 @@ override
 ;
 do_test_finished
 (
+)
+;
+}
 )
 ;
 }

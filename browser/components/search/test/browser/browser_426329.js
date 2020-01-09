@@ -543,7 +543,7 @@ Bug
 426329
 "
 "
-currentEngine
+defaultEngine
 set
 "
 )
@@ -802,6 +802,15 @@ prepareTest
 (
 )
 {
+await
+Services
+.
+search
+.
+init
+(
+)
+;
 preSelectedBrowser
 =
 gBrowser

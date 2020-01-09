@@ -152,10 +152,6 @@ isInitialized
 )
 ;
 await
-asyncInit
-(
-)
-;
 Services
 .
 search
@@ -213,6 +209,7 @@ exist
 "
 )
 ;
+await
 Services
 .
 search
@@ -269,6 +266,7 @@ exist
 "
 )
 ;
+await
 Services
 .
 search

@@ -171,6 +171,10 @@ search
 .
 init
 (
+)
+.
+then
+(
 function
 search_initialized
 (

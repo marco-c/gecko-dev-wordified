@@ -101,6 +101,7 @@ engineList
 let
 defaultEngines
 =
+await
 Services
 .
 search

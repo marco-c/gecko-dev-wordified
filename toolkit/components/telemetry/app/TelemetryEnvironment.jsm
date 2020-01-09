@@ -1104,6 +1104,7 @@ exists
 /
 Testing
 method
+async
 testWatchPreferences
 (
 prefMap
@@ -6655,12 +6656,6 @@ _getSystem
 ;
 this
 .
-_updateSettings
-(
-)
-;
-this
-.
 _addObservers
 (
 )
@@ -6696,6 +6691,11 @@ let
 p
 =
 [
+this
+.
+_updateSettings
+(
+)
 ]
 ;
 this
@@ -6709,8 +6709,9 @@ this
 )
 ;
 p
-=
-[
+.
+push
+(
 this
 .
 _addonBuilder
@@ -6718,7 +6719,7 @@ _addonBuilder
 init
 (
 )
-]
+)
 ;
 this
 .
@@ -7774,6 +7775,7 @@ policy
 .
 *
 /
+async
 _watchPreferences
 (
 aPreferences
@@ -7791,6 +7793,7 @@ _watchedPrefs
 =
 aPreferences
 ;
+await
 this
 .
 _updateSettings
@@ -9164,6 +9167,7 @@ value
 .
 *
 /
+async
 _updateSearchEngine
 (
 )
@@ -9311,6 +9315,7 @@ settings
 .
 defaultSearchEngineData
 =
+await
 Services
 .
 search
@@ -9398,6 +9403,7 @@ change
 .
 *
 /
+async
 _onSearchEngineChange
 (
 )
@@ -9435,6 +9441,7 @@ _currentEnvironment
 myScope
 )
 ;
+await
 this
 .
 _updateSearchEngine
@@ -10176,6 +10183,7 @@ data
 .
 *
 /
+async
 _updateSettings
 (
 )
@@ -10405,6 +10413,7 @@ _updateDefaultBrowser
 (
 )
 ;
+await
 this
 .
 _updateSearchEngine

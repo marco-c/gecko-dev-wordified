@@ -2725,7 +2725,6 @@ then
 )
 =
 >
-{
 TelemetryEnvironment
 .
 testWatchPreferences
@@ -2735,8 +2734,6 @@ Map
 (
 )
 )
-;
-}
 )
 ;
 }

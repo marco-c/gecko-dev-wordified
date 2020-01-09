@@ -71,6 +71,10 @@ search
 .
 init
 (
+)
+.
+then
+(
 (
 )
 =

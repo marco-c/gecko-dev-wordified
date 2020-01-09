@@ -153,7 +153,7 @@ MOZ_TOOLKIT_SEARCH
 #
 include
 "
-nsIBrowserSearchService
+nsISearchService
 .
 h
 "
@@ -3092,7 +3092,7 @@ search
 engine
 nsCOMPtr
 <
-nsIBrowserSearchService
+nsISearchService
 >
 searchSvc
 =

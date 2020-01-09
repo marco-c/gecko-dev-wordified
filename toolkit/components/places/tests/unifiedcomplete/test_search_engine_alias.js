@@ -95,6 +95,7 @@ a
 search
 alias
 .
+await
 Services
 .
 search
@@ -129,6 +130,7 @@ search
 "
 )
 ;
+await
 Services
 .
 search
@@ -1115,6 +1117,7 @@ for
 let
 engine
 of
+await
 Services
 .
 search

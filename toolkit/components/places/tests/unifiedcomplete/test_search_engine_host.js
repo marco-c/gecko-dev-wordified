@@ -54,6 +54,7 @@ searchEngines
 true
 )
 ;
+await
 Services
 .
 search
@@ -102,6 +103,7 @@ MySearchEngine
 ;
 registerCleanupFunction
 (
+async
 (
 )
 =

@@ -69,6 +69,10 @@ search
 .
 init
 (
+)
+.
+then
+(
 function
 search_initialized
 (
@@ -108,9 +112,6 @@ are
 not
 loaded
 .
-let
-engines
-=
 Services
 .
 search
@@ -118,7 +119,13 @@ search
 getEngines
 (
 )
-;
+.
+then
+(
+engines
+=
+>
+{
 Assert
 .
 equal
@@ -193,6 +200,9 @@ null
 ;
 do_test_finished
 (
+)
+;
+}
 )
 ;
 }

@@ -6995,6 +6995,7 @@ PingServer
 port
 )
 ;
+await
 TelemetryEnvironment
 .
 testWatchPreferences
@@ -10826,6 +10827,7 @@ Date
 )
 )
 ;
+await
 TelemetryEnvironment
 .
 testWatchPreferences
@@ -13786,6 +13788,7 @@ testReset
 (
 )
 ;
+await
 TelemetryEnvironment
 .
 testWatchPreferences
@@ -15857,6 +15860,7 @@ preferences
 to
 watch
 .
+await
 TelemetryEnvironment
 .
 testWatchPreferences

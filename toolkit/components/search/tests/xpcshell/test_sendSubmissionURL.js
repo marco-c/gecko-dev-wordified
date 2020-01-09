@@ -459,6 +459,7 @@ searchTerms
 ]
 )
 ;
+async
 function
 addAndMakeDefault
 (
@@ -466,6 +467,7 @@ name
 searchURL
 )
 {
+await
 Services
 .
 search
@@ -494,13 +496,15 @@ getEngineByName
 name
 )
 ;
+await
 Services
 .
 search
 .
-defaultEngine
-=
+setDefault
+(
 engine
+)
 ;
 return
 engine
@@ -526,11 +530,6 @@ search
 isInitialized
 )
 ;
-await
-asyncInit
-(
-)
-;
 let
 engineInfo
 ;
@@ -550,6 +549,7 @@ SUBMISSION_YES
 {
 engine
 =
+await
 addAndMakeDefault
 (
 name
@@ -558,6 +558,7 @@ searchURL
 ;
 engineInfo
 =
+await
 Services
 .
 search
@@ -587,6 +588,7 @@ searchTerms
 )
 )
 ;
+await
 Services
 .
 search
@@ -610,6 +612,7 @@ SUBMISSION_NO
 {
 engine
 =
+await
 addAndMakeDefault
 (
 name
@@ -618,6 +621,7 @@ searchURL
 ;
 engineInfo
 =
+await
 Services
 .
 search
@@ -636,6 +640,7 @@ submissionURL
 null
 )
 ;
+await
 Services
 .
 search

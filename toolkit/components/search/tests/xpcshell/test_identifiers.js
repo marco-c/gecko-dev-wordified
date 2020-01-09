@@ -96,6 +96,10 @@ search
 .
 init
 (
+)
+.
+then
+(
 async
 function
 initComplete

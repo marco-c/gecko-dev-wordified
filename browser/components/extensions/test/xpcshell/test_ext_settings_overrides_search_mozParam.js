@@ -129,6 +129,7 @@ promiseStartupManager
 (
 )
 ;
+await
 Services
 .
 search

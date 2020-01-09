@@ -180,6 +180,7 @@ Test
 moving
 the
 engines
+await
 search
 .
 moveEngine
@@ -188,6 +189,7 @@ engine1
 0
 )
 ;
+await
 search
 .
 moveEngine

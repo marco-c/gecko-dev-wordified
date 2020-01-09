@@ -498,6 +498,7 @@ nsSearchService
 js
 #
 939
+async
 function
 checkHasSearchEngine
 (
@@ -505,12 +506,15 @@ keyword
 )
 {
 return
+(
+await
 Services
 .
 search
 .
 getDefaultEngines
 (
+)
 )
 .
 find

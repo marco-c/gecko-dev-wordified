@@ -180,6 +180,10 @@ search
 .
 init
 (
+)
+.
+then
+(
 (
 )
 =
@@ -231,7 +235,14 @@ search
 getEngines
 (
 )
-;
+.
+then
+(
+(
+)
+=
+>
+{
 ok
 (
 !
@@ -358,6 +369,9 @@ do_test_finished
 ;
 run_next_test
 (
+)
+;
+}
 )
 ;
 }
