@@ -2888,7 +2888,8 @@ basestring
         
 #
 If
-true
+not
+false
 tooltool
 downloads
 will
@@ -2896,7 +2897,21 @@ be
 enabled
 via
 relengAPIProxy
+        
+#
+for
+either
+just
+public
+files
+or
+all
+files
 .
+Not
+supported
+on
+Windows
         
 Required
 (
@@ -2907,7 +2922,20 @@ downloads
 '
 )
 :
-bool
+Any
+(
+            
+False
+            
+'
+public
+'
+            
+'
+internal
+'
+        
+)
         
 #
 Add
@@ -3939,7 +3967,9 @@ downloads
 '
 ]
 =
-True
+'
+internal
+'
             
 test
 [
@@ -4498,7 +4528,9 @@ tooltool
 -
 downloads
 '
-False
+'
+public
+'
 )
         
 test

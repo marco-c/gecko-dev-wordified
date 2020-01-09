@@ -1087,6 +1087,22 @@ downloads
 ]
 :
         
+internal
+=
+mozharness
+[
+'
+tooltool
+-
+downloads
+'
+]
+=
+=
+'
+internal
+'
+        
 docker_worker_add_tooltool
 (
 config
@@ -1094,7 +1110,7 @@ job
 taskdesc
 internal
 =
-True
+internal
 )
     
 if
