@@ -164,13 +164,6 @@ request
 :
 queryWorker
 "
-module
--
-worker
-"
-:
-queryModuleWorkerTopLevel
-"
 xhr
 -
 request
