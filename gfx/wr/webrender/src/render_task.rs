@@ -236,10 +236,7 @@ use
 prim_store
 :
 :
-{
 PictureIndex
-LineDecorationCacheKey
-}
 ;
 use
 prim_store
@@ -249,6 +246,15 @@ image
 :
 :
 ImageCacheKey
+;
+use
+prim_store
+:
+:
+line_dec
+:
+:
+LineDecorationCacheKey
 ;
 #
 [
