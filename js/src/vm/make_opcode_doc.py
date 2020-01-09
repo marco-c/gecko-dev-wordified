@@ -110,7 +110,7 @@ __file__
 )
 )
 import
-opcode
+jsopcode
 from
 xml
 .
@@ -1230,7 +1230,7 @@ try
 index
 _
 =
-opcode
+jsopcode
 .
 get_opcodes
 (
