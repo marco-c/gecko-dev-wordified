@@ -1139,7 +1139,7 @@ None
 )
 ;
 let
-fixed_args
+num_fixed_args
 =
 branch_opc
 .
@@ -1147,7 +1147,7 @@ constraints
 (
 )
 .
-fixed_value_arguments
+num_fixed_value_arguments
 (
 )
 ;
@@ -1220,7 +1220,7 @@ args
 .
 get
 (
-fixed_args
+num_fixed_args
 +
 repair
 .
@@ -1353,7 +1353,7 @@ args
 .
 get_mut
 (
-fixed_args
+num_fixed_args
 +
 repair
 .
@@ -1408,7 +1408,7 @@ missing
 if
 num_args
 >
-fixed_args
+num_fixed_args
 +
 repair
 .
@@ -1419,7 +1419,7 @@ args
 .
 get_mut
 (
-fixed_args
+num_fixed_args
 +
 repair
 .
@@ -1503,7 +1503,7 @@ take
 (
 1
 +
-fixed_args
+num_fixed_args
 +
 repair
 .

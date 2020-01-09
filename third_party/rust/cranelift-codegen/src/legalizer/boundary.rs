@@ -1664,9 +1664,9 @@ doesn
 t
 happen
 .
-let
-fixed_results
-=
+debug_assert_eq
+!
+(
 pos
 .
 func
@@ -1684,14 +1684,9 @@ constraints
 (
 )
 .
-fixed_results
+num_fixed_results
 (
 )
-;
-debug_assert_eq
-!
-(
-fixed_results
 0
 "
 Fixed
@@ -3807,7 +3802,7 @@ touch
 those
 .
 let
-fixed_values
+num_fixed_values
 =
 pos
 .
@@ -3826,7 +3821,7 @@ constraints
 (
 )
 .
-fixed_value_arguments
+num_fixed_value_arguments
 (
 )
 ;
@@ -3847,7 +3842,7 @@ dfg
 value_lists
 )
 -
-fixed_values
+num_fixed_values
 ;
 /
 /
@@ -4055,7 +4050,7 @@ vlist
 .
 grow_at
 (
-fixed_values
+num_fixed_values
 abi_args
 -
 have_args
@@ -4073,7 +4068,7 @@ value_lists
 let
 old_arg_offset
 =
-fixed_values
+num_fixed_values
 +
 abi_args
 -
@@ -4177,7 +4172,7 @@ dfg
 value_lists
 )
 [
-fixed_values
+num_fixed_values
 +
 abi_arg
 ]

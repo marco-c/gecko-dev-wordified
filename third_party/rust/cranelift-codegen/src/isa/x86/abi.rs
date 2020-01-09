@@ -2055,7 +2055,6 @@ convention
 )
 }
 }
-pub
 fn
 baldrdash_prologue_epilogue
 (
@@ -2268,7 +2267,6 @@ library
 ms235286
 .
 aspx
-pub
 fn
 fastcall_prologue_epilogue
 (
@@ -2949,7 +2947,6 @@ prologue
 and
 epilogue
 .
-pub
 fn
 system_v_prologue_epilogue
 (

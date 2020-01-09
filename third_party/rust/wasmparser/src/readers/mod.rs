@@ -141,6 +141,7 @@ MemoryType
 NameType
 Naming
 Operator
+Range
 RelocType
 Result
 SectionCode

@@ -377,6 +377,9 @@ translation_utils
 :
 {
 DefinedFuncIndex
+DefinedGlobalIndex
+DefinedMemoryIndex
+DefinedTableIndex
 FuncIndex
 Global
 GlobalIndex

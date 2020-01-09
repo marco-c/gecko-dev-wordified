@@ -131,8 +131,7 @@ keep
 track
 of
 a
-sy
-mbol
+symbol
 table
 .
 /
@@ -567,7 +566,7 @@ user
 -
 provided
 integer
-indicies
+indices
 .
 /
 /
@@ -603,7 +602,7 @@ Create
 ExternalName
 from
 integer
-indicies
+indices
 /
 /
 /

@@ -1874,7 +1874,7 @@ constraints
 (
 )
 .
-fixed_results
+num_fixed_results
 (
 )
 .
@@ -2703,7 +2703,7 @@ constraints
 (
 )
 .
-fixed_value_arguments
+num_fixed_value_arguments
 (
 )
 ;

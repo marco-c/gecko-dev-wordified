@@ -3011,6 +3011,7 @@ table
 read_table
 (
 )
+?
 ;
 let
 mut

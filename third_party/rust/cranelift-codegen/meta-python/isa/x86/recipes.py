@@ -6502,7 +6502,7 @@ False
 compute_size
 =
 "
-size_plus_maybe_offset_for_in_reg_1
+size_plus_maybe_sib_or_offset_for_in_reg_1
 "
         
 emit
@@ -6551,6 +6551,29 @@ sink
 )
 ;
         
+if
+needs_sib_byte
+(
+in_reg1
+)
+{
+            
+modrm_sib
+(
+in_reg0
+sink
+)
+;
+            
+sib_noindex
+(
+in_reg1
+sink
+)
+;
+        
+}
+else
 if
 needs_offset
 (
@@ -6698,6 +6721,18 @@ in_reg2
 sink
 )
 ;
+    
+/
+/
+The
+else
+branch
+always
+inserts
+an
+SIB
+byte
+.
     
 if
 needs_offset
@@ -6826,6 +6861,12 @@ clobbers_flags
 =
 False
         
+compute_size
+=
+"
+size_plus_maybe_sib_or_offset_for_in_reg_1
+"
+        
 emit
 =
 '
@@ -6872,6 +6913,56 @@ sink
 )
 ;
         
+if
+needs_sib_byte
+(
+in_reg1
+)
+{
+            
+modrm_sib
+(
+in_reg0
+sink
+)
+;
+            
+sib_noindex
+(
+in_reg1
+sink
+)
+;
+        
+}
+else
+if
+needs_offset
+(
+in_reg1
+)
+{
+            
+modrm_disp8
+(
+in_reg1
+in_reg0
+sink
+)
+;
+            
+sink
+.
+put1
+(
+0
+)
+;
+        
+}
+else
+{
+            
 modrm_rm
 (
 in_reg1
@@ -6879,6 +6970,8 @@ in_reg0
 sink
 )
 ;
+        
+}
         
 '
 '
@@ -7008,6 +7101,18 @@ sink
 )
 ;
     
+/
+/
+The
+else
+branch
+always
+inserts
+an
+SIB
+byte
+.
+    
 if
 needs_offset
 (
@@ -7119,7 +7224,7 @@ False
 compute_size
 =
 "
-size_plus_maybe_offset_for_in_reg_1
+size_plus_maybe_sib_or_offset_for_in_reg_1
 "
         
 emit
@@ -7168,6 +7273,29 @@ sink
 )
 ;
         
+if
+needs_sib_byte
+(
+in_reg1
+)
+{
+            
+modrm_sib
+(
+in_reg0
+sink
+)
+;
+            
+sib_noindex
+(
+in_reg1
+sink
+)
+;
+        
+}
+else
 if
 needs_offset
 (
@@ -7316,6 +7444,18 @@ in_reg2
 sink
 )
 ;
+        
+/
+/
+The
+else
+branch
+always
+inserts
+an
+SIB
+byte
+.
         
 if
 needs_offset
@@ -7755,6 +7895,12 @@ clobbers_flags
 =
 False
         
+compute_size
+=
+"
+size_plus_maybe_sib_for_in_reg_1
+"
+        
 emit
 =
 '
@@ -7801,6 +7947,31 @@ sink
 )
 ;
         
+if
+needs_sib_byte
+(
+in_reg1
+)
+{
+            
+modrm_sib_disp8
+(
+in_reg0
+sink
+)
+;
+            
+sib_noindex
+(
+in_reg1
+sink
+)
+;
+        
+}
+else
+{
+            
 modrm_disp8
 (
 in_reg1
@@ -7808,6 +7979,8 @@ in_reg0
 sink
 )
 ;
+        
+}
         
 let
 offset
@@ -8671,6 +8844,12 @@ clobbers_flags
 =
 False
         
+compute_size
+=
+"
+size_plus_maybe_sib_for_in_reg_1
+"
+        
 emit
 =
 '
@@ -8717,6 +8896,31 @@ sink
 )
 ;
         
+if
+needs_sib_byte
+(
+in_reg1
+)
+{
+            
+modrm_sib_disp32
+(
+in_reg0
+sink
+)
+;
+            
+sib_noindex
+(
+in_reg1
+sink
+)
+;
+        
+}
+else
+{
+            
 modrm_disp32
 (
 in_reg1
@@ -8724,6 +8928,8 @@ in_reg0
 sink
 )
 ;
+        
+}
         
 let
 offset
@@ -9743,7 +9949,7 @@ False
 compute_size
 =
 "
-size_plus_maybe_offset_for_in_reg_0
+size_plus_maybe_sib_or_offset_for_in_reg_0
 "
         
 emit
@@ -9792,6 +9998,29 @@ sink
 )
 ;
         
+if
+needs_sib_byte
+(
+in_reg0
+)
+{
+            
+modrm_sib
+(
+out_reg0
+sink
+)
+;
+            
+sib_noindex
+(
+in_reg0
+sink
+)
+;
+        
+}
+else
 if
 needs_offset
 (
@@ -9936,6 +10165,18 @@ in_reg1
 sink
 )
 ;
+    
+/
+/
+The
+else
+branch
+always
+inserts
+an
+SIB
+byte
+.
     
 if
 needs_offset
@@ -10044,7 +10285,7 @@ False
 compute_size
 =
 "
-size_plus_maybe_offset_for_in_reg_0
+size_plus_maybe_sib_or_offset_for_in_reg_0
 "
         
 emit
@@ -10093,6 +10334,29 @@ sink
 )
 ;
         
+if
+needs_sib_byte
+(
+in_reg0
+)
+{
+            
+modrm_sib
+(
+out_reg0
+sink
+)
+;
+            
+sib_noindex
+(
+in_reg0
+sink
+)
+;
+        
+}
+else
 if
 needs_offset
 (
@@ -10238,6 +10502,18 @@ in_reg1
 sink
 )
 ;
+    
+/
+/
+The
+else
+branch
+always
+inserts
+an
+SIB
+byte
+.
     
 if
 needs_offset
