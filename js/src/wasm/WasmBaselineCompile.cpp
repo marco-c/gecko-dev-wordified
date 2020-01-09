@@ -14988,6 +14988,10 @@ masm_
 (
 masm
 )
+numStackArgWords_
+(
+0
+)
 memRefsOnStk_
 (
 0
