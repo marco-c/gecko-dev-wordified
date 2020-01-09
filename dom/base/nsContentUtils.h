@@ -22687,10 +22687,6 @@ sIsUAWidgetEnabled
 ;
 static
 bool
-sIsCustomElementsEnabled
-;
-static
-bool
 sSendPerformanceTimingNotifications
 ;
 static
