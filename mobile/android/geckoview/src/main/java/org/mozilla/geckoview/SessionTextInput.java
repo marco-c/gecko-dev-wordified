@@ -254,6 +254,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 NonNull
 ;
 import
@@ -2379,6 +2388,7 @@ getHandler
 .
 *
 /
+AnyThread
 public
 synchronized
 NonNull
@@ -2752,6 +2762,7 @@ mode
 .
 *
 /
+AnyThread
 public
 synchronized
 Nullable

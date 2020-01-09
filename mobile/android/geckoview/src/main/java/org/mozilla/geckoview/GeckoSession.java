@@ -397,6 +397,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 IntDef
 ;
 import
@@ -6670,6 +6679,7 @@ instance
 .
 *
 /
+AnyThread
 public
 NonNull
 SessionTextInput
