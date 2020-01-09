@@ -3616,8 +3616,8 @@ value
 "
 )
 ;
-int64_t
-timeUsecs
+auto
+time
 =
 TimeUnit
 :
@@ -3625,10 +3625,6 @@ TimeUnit
 FromSeconds
 (
 aTime
-)
-.
-ToMicroseconds
-(
 )
 ;
 mLogicalPosition
@@ -3644,7 +3640,7 @@ target
 =
 SeekTarget
 (
-timeUsecs
+time
 aSeekType
 )
 ;
