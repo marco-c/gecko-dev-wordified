@@ -2396,6 +2396,14 @@ destination
 LiveRegisterSet
 preserve
 ;
+if
+(
+shift
+!
+=
+ecx
+)
+{
 preserve
 .
 add
@@ -2403,6 +2411,7 @@ add
 ecx
 )
 ;
+}
 preserve
 .
 add
