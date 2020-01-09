@@ -100,7 +100,6 @@ runTest
 )
 ;
 }
-;
 if
 (
 !
@@ -207,6 +206,7 @@ run_next_test
 )
 ;
 }
+;
 }
 function
 returnToEventLoop
@@ -872,7 +872,7 @@ bostream
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -886,7 +886,7 @@ output
 stream
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -1083,9 +1083,9 @@ relativePath
 .
 split
 (
-'
+"
 /
-'
+"
 )
 .
 forEach
@@ -1358,6 +1358,7 @@ resultCode
 ;
 }
 }
+;
 }
 )
 ;
