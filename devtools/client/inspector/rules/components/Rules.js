@@ -145,6 +145,13 @@ propTypes
 {
 return
 {
+onOpenSourceLink
+:
+PropTypes
+.
+func
+.
+isRequired
 onToggleDeclaration
 :
 PropTypes
@@ -213,6 +220,7 @@ render
 {
 const
 {
+onOpenSourceLink
 onToggleDeclaration
 onToggleSelectorHighlighter
 rules
@@ -244,6 +252,7 @@ key
 rule
 .
 id
+onOpenSourceLink
 onToggleDeclaration
 onToggleSelectorHighlighter
 rule
