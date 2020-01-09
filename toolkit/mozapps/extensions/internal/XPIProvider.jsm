@@ -10078,6 +10078,7 @@ try
 {
 result
 =
+await
 method
 .
 call
