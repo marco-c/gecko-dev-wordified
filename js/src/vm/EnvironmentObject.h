@@ -3876,6 +3876,14 @@ GlobalObject
 )
 ;
 }
+void
+setWindowProxyThisValue
+(
+JSObject
+*
+obj
+)
+;
 /
 /
 Global
