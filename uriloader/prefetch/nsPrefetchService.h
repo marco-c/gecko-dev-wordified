@@ -65,6 +65,13 @@ nsPrefetchService_h__
 #
 include
 "
+nsCPrefetchService
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
@@ -80,13 +87,6 @@ h
 include
 "
 nsIChannelEventSink
-.
-h
-"
-#
-include
-"
-nsIPrefetchService
 .
 h
 "

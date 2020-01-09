@@ -116,13 +116,6 @@ h
 #
 include
 "
-nsITransportSecurityInfo
-.
-h
-"
-#
-include
-"
 nsIWebProgressListener
 .
 h

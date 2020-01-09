@@ -254,6 +254,8 @@ explicit
 MulticastDNSDeviceProvider
 (
 )
+=
+default
 ;
 nsresult
 Init

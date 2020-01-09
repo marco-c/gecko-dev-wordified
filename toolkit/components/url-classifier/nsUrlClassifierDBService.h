@@ -172,6 +172,13 @@ h
 #
 include
 "
+nsToolkitCompsCID
+.
+h
+"
+#
+include
+"
 nsICryptoHMAC
 .
 h
@@ -570,10 +577,8 @@ Init
 )
 ;
 static
-already_AddRefed
-<
 nsUrlClassifierDBService
->
+*
 GetInstance
 (
 nsresult

@@ -179,6 +179,12 @@ delete
 ;
 }
 ;
+NS_IMPL_ISUPPORTS
+(
+NativeFileWatcherService
+nsINativeFileWatcherService
+)
+;
 }
 /
 /
