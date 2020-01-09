@@ -1067,8 +1067,10 @@ aTimeStamp
 override
 ;
 NS_IMETHOD
-CancelForTrackingProtection
+CancelByChannelClassifier
 (
+nsresult
+aErrorCode
 )
 override
 ;
@@ -1854,8 +1856,10 @@ RequestIsConditional
 )
 ;
 void
-HandleContinueCancelledByTrackingProtection
+HandleContinueCancellingByChannelClassifier
 (
+nsresult
+aErrorCode
 )
 ;
 nsresult
@@ -1866,8 +1870,10 @@ status
 )
 ;
 void
-ContinueCancelledByTrackingProtection
+ContinueCancellingByChannelClassifier
 (
+nsresult
+aErrorCode
 )
 ;
 /

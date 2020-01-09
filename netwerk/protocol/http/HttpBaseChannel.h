@@ -2055,8 +2055,10 @@ aTimeStamp
 override
 ;
 NS_IMETHOD
-CancelForTrackingProtection
+CancelByChannelClassifier
 (
+nsresult
+aErrorCode
 )
 override
 ;
