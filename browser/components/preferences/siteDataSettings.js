@@ -1422,6 +1422,8 @@ this
 .
 _list
 .
+previousElementSibling
+.
 querySelectorAll
 (
 "

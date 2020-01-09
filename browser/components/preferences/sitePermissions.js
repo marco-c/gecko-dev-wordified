@@ -3170,6 +3170,8 @@ cols
 =
 list
 .
+previousElementSibling
+.
 querySelectorAll
 (
 "
