@@ -17030,6 +17030,9 @@ GetWindow
 (
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 nsIDocShell
 *
 docShell
@@ -17045,6 +17048,8 @@ GetDocShell
 :
 nullptr
 ;
+#
+endif
 nsAutoCString
 profilerLabelString
 ;
