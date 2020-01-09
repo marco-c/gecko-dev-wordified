@@ -102,6 +102,13 @@ widget_gtk_GtkCompositorWidget_h
 #
 include
 "
+GLDefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 widget
@@ -337,6 +344,11 @@ return
 mXWindow
 ;
 }
+EGLNativeWindowType
+GetEGLNativeWindow
+(
+)
+;
 /
 /
 PlatformCompositorWidgetDelegate
