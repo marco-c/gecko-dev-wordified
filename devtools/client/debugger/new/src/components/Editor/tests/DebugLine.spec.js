@@ -220,10 +220,10 @@ breakpoint
 "
 }
 }
-selectedFrame
+frame
 :
 null
-selectedSource
+source
 :
 makeSource
 (
@@ -311,7 +311,7 @@ setDocument
 (
 props
 .
-selectedSource
+source
 .
 id
 doc
@@ -402,7 +402,7 @@ doc
 render
 (
 {
-selectedSource
+source
 :
 makeSource
 (
@@ -426,7 +426,7 @@ line
 2
 ;
 const
-selectedFrame
+frame
 =
 createFrame
 (
@@ -442,7 +442,7 @@ setProps
 .
 .
 props
-selectedFrame
+frame
 }
 )
 ;
@@ -540,7 +540,7 @@ doc
 render
 (
 {
-selectedSource
+source
 :
 makeSource
 (
@@ -595,7 +595,7 @@ setProps
 .
 .
 props
-selectedFrame
+frame
 :
 createFrame
 (
@@ -613,7 +613,7 @@ setProps
 .
 .
 props
-selectedFrame
+frame
 :
 createFrame
 (
@@ -850,7 +850,7 @@ doc
 render
 (
 {
-selectedFrame
+frame
 :
 null
 }
@@ -862,7 +862,7 @@ line
 2
 ;
 const
-selectedFrame
+frame
 =
 createFrame
 (
@@ -878,7 +878,7 @@ setProps
 .
 .
 props
-selectedFrame
+frame
 }
 )
 ;
@@ -975,7 +975,7 @@ component
 setProps
 (
 {
-selectedFrame
+frame
 :
 newSelectedFrame
 }
