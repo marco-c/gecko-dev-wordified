@@ -3111,6 +3111,8 @@ Register
 "
 )
 ;
+return
+;
 }
 if
 (
