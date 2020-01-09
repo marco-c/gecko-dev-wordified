@@ -1314,10 +1314,6 @@ category
 popupShown
 "
 extension
-:
-this
-.
-extension
 }
 )
 ;
