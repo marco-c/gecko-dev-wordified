@@ -1549,7 +1549,7 @@ Ci
 .
 nsICookieService
 .
-BEHAVIOR_REJECT_FOREIGN
+BEHAVIOR_REJECT_TRACKER
 {
 NCB_PREF
 }
@@ -1562,7 +1562,7 @@ Ci
 .
 nsICookieService
 .
-BEHAVIOR_REJECT_FOREIGN
+BEHAVIOR_REJECT_TRACKER
 }
 )
 ;
@@ -1961,7 +1961,11 @@ prefs
 setIntPref
 (
 NCB_PREF
-4
+Ci
+.
+nsICookieService
+.
+BEHAVIOR_ACCEPT
 )
 ;
 await
@@ -1973,7 +1977,6 @@ waitForCondition
 )
 =
 >
-!
 Services
 .
 prefs
