@@ -2369,6 +2369,17 @@ value
 )
 :
         
+if
+key
+not
+in
+self
+.
+_data
+:
+            
+return
+        
 try
 :
             
