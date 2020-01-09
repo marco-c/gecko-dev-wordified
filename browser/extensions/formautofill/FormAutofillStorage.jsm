@@ -13157,7 +13157,7 @@ if
 (
 FormAutofill
 .
-isAutofillCreditCardsEnabled
+isAutofillCreditCardsAvailable
 )
 {
 initializeAutofillRecords
