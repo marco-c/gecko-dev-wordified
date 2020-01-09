@@ -5196,14 +5196,6 @@ mut
 WrProgramCache
 )
 {
-if
-!
-program_cache
-.
-is_null
-(
-)
-{
 (
 *
 program_cache
@@ -5213,7 +5205,6 @@ try_load_from_disk
 (
 )
 ;
-}
 }
 #
 [
