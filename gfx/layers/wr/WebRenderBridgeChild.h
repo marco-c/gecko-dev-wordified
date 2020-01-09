@@ -379,10 +379,6 @@ wr
 IpcResourceUpdateQueue
 &
 aResources
-bool
-aScheduleComposite
-=
-false
 )
 ;
 void

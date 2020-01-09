@@ -534,14 +534,6 @@ wr
 IpcResourceUpdateQueue
 &
 aResources
-bool
-aScheduleComposite
-/
-*
-=
-false
-*
-/
 )
 {
 if
@@ -611,7 +603,6 @@ SendUpdateResources
 resourceUpdates
 smallShmems
 largeShmems
-aScheduleComposite
 )
 ;
 }

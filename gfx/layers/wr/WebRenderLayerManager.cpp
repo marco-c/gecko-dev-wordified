@@ -2220,12 +2220,6 @@ mAsyncResourceUpdates
 ref
 (
 )
-/
-*
-aScheduleComposite
-*
-/
-false
 )
 ;
 }
@@ -4343,12 +4337,6 @@ mAsyncResourceUpdates
 ref
 (
 )
-/
-*
-aScheduleComposite
-*
-/
-true
 )
 ;
 }

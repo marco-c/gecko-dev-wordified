@@ -560,10 +560,6 @@ Shmem
 &
 &
 aLargeShmems
-const
-bool
-&
-aScheduleComposite
 )
 override
 ;
