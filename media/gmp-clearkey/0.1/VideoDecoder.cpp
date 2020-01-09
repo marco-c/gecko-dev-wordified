@@ -192,7 +192,7 @@ VideoDecoder
 :
 VideoDecoder
 (
-Host_9
+Host_10
 *
 aHost
 )
@@ -292,7 +292,7 @@ VideoDecoder
 InitDecode
 (
 const
-VideoDecoderConfig_1
+VideoDecoderConfig_2
 &
 aConfig
 )
@@ -348,7 +348,7 @@ VideoDecoder
 Decode
 (
 const
-InputBuffer_1
+InputBuffer_2
 &
 aInputBuffer
 VideoFrame

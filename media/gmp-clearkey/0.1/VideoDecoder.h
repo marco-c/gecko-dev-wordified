@@ -201,7 +201,7 @@ VideoDecoder
 cdm
 :
 :
-Host_9
+Host_10
 *
 aHost
 )
@@ -216,7 +216,7 @@ const
 cdm
 :
 :
-VideoDecoderConfig_1
+VideoDecoderConfig_2
 &
 aConfig
 )
@@ -231,7 +231,7 @@ const
 cdm
 :
 :
-InputBuffer_1
+InputBuffer_2
 &
 aEncryptedBuffer
 cdm
@@ -344,7 +344,7 @@ aVideoFrame
 cdm
 :
 :
-Host_9
+Host_10
 *
 mHost
 ;

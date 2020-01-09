@@ -234,7 +234,7 @@ static
 void
 Write
 (
-Host_9
+Host_10
 *
 aHost
 string
@@ -480,7 +480,7 @@ const
 string
 &
 aName
-Host_9
+Host_10
 *
 aHost
 )
@@ -666,7 +666,7 @@ mData
 void
 WriteData
 (
-Host_9
+Host_10
 *
 aHost
 string
@@ -752,7 +752,7 @@ static
 void
 Read
 (
-Host_9
+Host_10
 *
 aHost
 string
@@ -954,7 +954,7 @@ const
 string
 &
 aName
-Host_9
+Host_10
 *
 aHost
 )
@@ -1139,9 +1139,9 @@ mOnFailure
 void
 ReadData
 (
-Host_9
+Host_10
 *
-mHost
+aHost
 string
 &
 aRecordName
@@ -1174,7 +1174,7 @@ ReadRecordClient
 :
 Read
 (
-mHost
+aHost
 aRecordName
 move
 (
