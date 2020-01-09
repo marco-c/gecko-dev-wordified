@@ -11652,12 +11652,12 @@ requestSmooth
 smooth_behavior
 (
 )
-=
+!
 =
 SmoothBehavior
 :
 :
-subpixel
+none
 )
 )
 {
