@@ -1182,6 +1182,9 @@ deserialize_any
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -1387,6 +1390,9 @@ hidden
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
