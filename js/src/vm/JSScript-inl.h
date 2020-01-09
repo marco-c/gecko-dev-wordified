@@ -1367,9 +1367,9 @@ debuggerObservesAllExecution
 )
 |
 |
-bitFields_
-.
-hasDebugScript_
+hasDebugScript
+(
+)
 ;
 }
 inline
