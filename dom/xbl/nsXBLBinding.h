@@ -726,8 +726,6 @@ aAnonParent
 nsIContent
 *
 aElement
-bool
-aNativeAnon
 )
 ;
 static
