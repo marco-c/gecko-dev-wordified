@@ -7967,7 +7967,6 @@ Restore
 restoreMessage
 )
 ;
-}
 /
 /
 Make
@@ -7992,6 +7991,7 @@ updateSessionFile
 mShouldRestore
 )
 ;
+}
 }
 }
 )
