@@ -491,6 +491,10 @@ source
 location
 assertEq
 (
+"
+loc
+"
+in
 Reflect
 .
 parse
@@ -504,9 +508,7 @@ loc
 false
 }
 )
-.
-loc
-null
+false
 )
 ;
 program
