@@ -275,9 +275,6 @@ mozilla
 :
 layers
 ;
-namespace
-media
-{
 /
 /
 Minimum
@@ -513,7 +510,10 @@ aParams
 }
 RefPtr
 <
-GenericPromise
+VideoSink
+:
+:
+EndedPromise
 >
 VideoSink
 :
@@ -1249,7 +1249,7 @@ out
 .
 RefPtr
 <
-GenericPromise
+EndedPromise
 >
 p
 =
@@ -3554,11 +3554,6 @@ str
 )
 ;
 }
-}
-/
-/
-namespace
-media
 }
 /
 /

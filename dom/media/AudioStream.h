@@ -263,9 +263,6 @@ class
 AudioConfig
 ;
 class
-AudioConverter
-;
-class
 AudioClock
 {
 public
@@ -1269,8 +1266,9 @@ virtual
 DataSource
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 explicit

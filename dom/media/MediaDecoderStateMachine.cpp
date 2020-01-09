@@ -18190,9 +18190,6 @@ mIsAudioDataAudible
 aAudible
 ;
 }
-media
-:
-:
 MediaSink
 *
 MediaDecoderStateMachine
@@ -18307,9 +18304,6 @@ audioSinkCreator
 }
 already_AddRefed
 <
-media
-:
-:
 MediaSink
 >
 MediaDecoderStateMachine
@@ -18332,9 +18326,6 @@ aManager
 ;
 RefPtr
 <
-media
-:
-:
 MediaSink
 >
 audioSink
@@ -18362,9 +18353,6 @@ CreateAudioSink
 ;
 RefPtr
 <
-media
-:
-:
 MediaSink
 >
 mediaSink
@@ -20548,13 +20536,13 @@ Stop
 (
 )
 ;
-mMediaSinkAudioPromise
+mMediaSinkAudioEndedPromise
 .
 DisconnectIfExists
 (
 )
 ;
-mMediaSinkVideoPromise
+mMediaSinkVideoEndedPromise
 .
 DisconnectIfExists
 (
@@ -21538,7 +21526,7 @@ OnMediaSinkAudioError
 >
 Track
 (
-mMediaSinkAudioPromise
+mMediaSinkAudioEndedPromise
 )
 ;
 }
@@ -21572,7 +21560,7 @@ OnMediaSinkVideoError
 >
 Track
 (
-mMediaSinkVideoPromise
+mMediaSinkVideoEndedPromise
 )
 ;
 }
@@ -24048,7 +24036,7 @@ s
 __func__
 )
 ;
-mMediaSinkVideoPromise
+mMediaSinkVideoEndedPromise
 .
 Complete
 (
@@ -24096,7 +24084,7 @@ s
 __func__
 )
 ;
-mMediaSinkVideoPromise
+mMediaSinkVideoEndedPromise
 .
 Complete
 (
@@ -24159,7 +24147,7 @@ s
 __func__
 )
 ;
-mMediaSinkAudioPromise
+mMediaSinkAudioEndedPromise
 .
 Complete
 (
@@ -24251,7 +24239,7 @@ s
 __func__
 )
 ;
-mMediaSinkAudioPromise
+mMediaSinkAudioEndedPromise
 .
 Complete
 (

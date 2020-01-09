@@ -167,6 +167,9 @@ namespace
 mozilla
 {
 class
+AudioSink
+;
+class
 MediaData
 ;
 template
@@ -176,12 +179,6 @@ T
 >
 class
 MediaQueue
-;
-namespace
-media
-{
-class
-AudioSink
 ;
 /
 *
@@ -357,6 +354,9 @@ starts
 .
 mPlayDuration
 (
+media
+:
+:
 TimeUnit
 :
 :
@@ -395,7 +395,7 @@ override
 ;
 RefPtr
 <
-GenericPromise
+EndedPromise
 >
 OnEnded
 (
@@ -404,6 +404,9 @@ aType
 )
 override
 ;
+media
+:
+:
 TimeUnit
 GetEndTime
 (
@@ -413,6 +416,9 @@ aType
 const
 override
 ;
+media
+:
+:
 TimeUnit
 GetPosition
 (
@@ -470,6 +476,9 @@ nsresult
 Start
 (
 const
+media
+:
+:
 TimeUnit
 &
 aStartTime
@@ -593,9 +602,9 @@ track
 .
 RefPtr
 <
-GenericPromise
+EndedPromise
 >
-mEndPromise
+mEndedPromise
 ;
 bool
 mIsStarted
@@ -614,9 +623,9 @@ mAudioEnded
 ;
 MozPromiseRequestHolder
 <
-GenericPromise
+EndedPromise
 >
-mAudioSinkPromise
+mAudioSinkEndedPromise
 ;
 const
 MediaQueue
@@ -628,11 +637,6 @@ mAudioQueue
 ;
 }
 ;
-}
-/
-/
-namespace
-media
 }
 /
 /
