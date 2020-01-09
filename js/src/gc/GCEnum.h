@@ -467,12 +467,6 @@ D
 YieldBeforeSweepingShapeTrees
 23
 )
-\
-D
-(
-CheckWeakMapMarking
-24
-)
 enum
 class
 ZealMode
