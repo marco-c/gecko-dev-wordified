@@ -336,6 +336,7 @@ firefox
 %
 VERSION
 %
+beta
 /
 releasenotes
 /
