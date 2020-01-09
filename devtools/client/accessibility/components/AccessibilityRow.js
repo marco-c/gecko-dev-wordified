@@ -557,6 +557,12 @@ selected
 {
 this
 .
+unhighlight
+(
+)
+;
+this
+.
 updateAndScrollIntoViewIfNeeded
 (
 )
@@ -655,6 +661,12 @@ selected
 selected
 )
 {
+this
+.
+unhighlight
+(
+)
+;
 this
 .
 updateAndScrollIntoViewIfNeeded

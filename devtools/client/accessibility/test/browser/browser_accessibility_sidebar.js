@@ -102,13 +102,13 @@ for
 better
 logging
 *
-action
+setup
 {
 Function
 }
 An
 optional
-action
+setup
 that
 needs
 to
@@ -237,7 +237,7 @@ for
 accessibility
 .
 "
-action
+setup
 :
 async
 (
@@ -312,7 +312,7 @@ the
 document
 .
 "
-action
+setup
 :
 async
 (
