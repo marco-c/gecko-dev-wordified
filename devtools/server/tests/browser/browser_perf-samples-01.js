@@ -124,13 +124,6 @@ performance
 "
 )
 ;
-await
-front
-.
-connect
-(
-)
-;
 /
 /
 Perform
@@ -436,13 +429,6 @@ not
 overflow
 .
 "
-)
-;
-await
-front
-.
-destroy
-(
 )
 ;
 await

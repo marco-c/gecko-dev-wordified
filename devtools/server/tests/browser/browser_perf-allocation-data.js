@@ -84,13 +84,6 @@ performance
 "
 )
 ;
-await
-front
-.
-connect
-(
-)
-;
 const
 rec
 =
@@ -287,13 +280,6 @@ are
 positive
 numbers
 "
-)
-;
-await
-front
-.
-destroy
-(
 )
 ;
 await

@@ -118,13 +118,6 @@ performance
 "
 )
 ;
-await
-front
-.
-connect
-(
-)
-;
 const
 rec
 =
