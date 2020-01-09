@@ -169,6 +169,13 @@ Move
 h
 "
 #
+include
+"
+nsISupportsImpl
+.
+h
+"
+#
 ifdef
 MOZ_TASK_TRACER
 using
