@@ -1057,7 +1057,7 @@ eModule
 aFetchOptions
 aBaseURL
 )
-mSourceElementAssociated
+mDebuggerDataInitialized
 (
 false
 )
@@ -1476,7 +1476,7 @@ void
 ModuleScript
 :
 :
-SetSourceElementAssociated
+SetDebuggerDataInitialized
 (
 )
 {
@@ -1490,10 +1490,10 @@ ModuleRecord
 MOZ_ASSERT
 (
 !
-mSourceElementAssociated
+mDebuggerDataInitialized
 )
 ;
-mSourceElementAssociated
+mDebuggerDataInitialized
 =
 true
 ;

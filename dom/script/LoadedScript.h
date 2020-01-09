@@ -386,7 +386,7 @@ Value
 mErrorToRethrow
 ;
 bool
-mSourceElementAssociated
+mDebuggerDataInitialized
 ;
 ~
 ModuleScript
@@ -450,7 +450,7 @@ aError
 )
 ;
 void
-SetSourceElementAssociated
+SetDebuggerDataInitialized
 (
 )
 ;
@@ -522,13 +522,13 @@ isUndefined
 ;
 }
 bool
-SourceElementAssociated
+DebuggerDataInitialized
 (
 )
 const
 {
 return
-mSourceElementAssociated
+mDebuggerDataInitialized
 ;
 }
 void
