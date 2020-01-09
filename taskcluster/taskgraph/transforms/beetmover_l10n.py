@@ -213,6 +213,17 @@ shipping
 phase
 '
 ]
+                
+'
+attributes
+'
+:
+job
+[
+'
+attributes
+'
+]
             
 }
             
