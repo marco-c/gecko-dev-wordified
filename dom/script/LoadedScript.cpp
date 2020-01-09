@@ -554,8 +554,9 @@ unbarrieredGet
 (
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+module
 JS
 :
 :
