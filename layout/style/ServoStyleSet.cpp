@@ -1409,7 +1409,9 @@ sheets
 .
 AutoTArray
 <
-RawServoAuthorStylesBorrowed
+const
+RawServoAuthorStyles
+*
 20
 >
 nonDocumentStyles
@@ -1615,7 +1617,8 @@ aReason
 {
 AutoTArray
 <
-RawServoAuthorStylesBorrowedMut
+RawServoAuthorStyles
+*
 20
 >
 nonDocumentStyles
@@ -2787,7 +2790,9 @@ ComputedStyle
 >
 ResolveStyleForTextOrFirstLetterContinuation
 (
-RawServoStyleSetBorrowed
+const
+RawServoStyleSet
+*
 aStyleSet
 ComputedStyle
 &
@@ -7901,7 +7906,9 @@ const
 ComputedStyle
 *
 aParentOrNull
-RawServoDeclarationBlockBorrowed
+const
+RawServoDeclarationBlock
+*
 aDeclarations
 )
 {

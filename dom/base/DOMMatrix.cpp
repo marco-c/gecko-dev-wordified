@@ -4354,8 +4354,6 @@ ParseTransformIntoMatrix
 aTransformList
 contains3dTransform
 transform
-.
-components
 )
 )
 {

@@ -278,9 +278,6 @@ memchr
 "
 strlen
 "
-"
-Servo_ComputedValues_EqualCustomProperties
-"
 /
 Servo_DeclarationBlock_GetCssText
 /

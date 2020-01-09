@@ -359,7 +359,10 @@ aValue
 bool
 &
 aContains3DTransform
-RawGeckoGfxMatrix4x4
+gfx
+:
+:
+Matrix4x4
 &
 aResult
 )
@@ -373,6 +376,8 @@ aValue
 aContains3DTransform
 &
 aResult
+.
+components
 )
 ;
 }

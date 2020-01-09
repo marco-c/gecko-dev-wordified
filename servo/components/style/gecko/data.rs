@@ -93,12 +93,6 @@ gecko_bindings
 :
 :
 bindings
-:
-:
-{
-self
-RawServoStyleSet
-}
 ;
 use
 crate
@@ -112,6 +106,7 @@ structs
 :
 {
 self
+RawServoStyleSet
 ServoStyleSetSizes
 }
 ;

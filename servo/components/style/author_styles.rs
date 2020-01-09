@@ -551,7 +551,7 @@ crate
 gecko_bindings
 :
 :
-bindings
+structs
 :
 :
 RawServoAuthorStyles
