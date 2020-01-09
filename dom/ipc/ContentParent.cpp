@@ -3177,7 +3177,7 @@ Pid
 channelStr
 static_cast
 <
-nsIContentParent
+nsIObserver
 *
 >
 (
@@ -14406,9 +14406,6 @@ int32_t
 aJSPluginID
 )
 :
-nsIContentParent
-(
-)
 mSelfRef
 (
 nullptr
@@ -18930,9 +18927,9 @@ NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 ContentParent
 )
-NS_INTERFACE_MAP_ENTRY
+NS_INTERFACE_MAP_ENTRY_CONCRETE
 (
-nsIContentParent
+ContentParent
 )
 NS_INTERFACE_MAP_ENTRY
 (
