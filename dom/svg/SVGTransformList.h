@@ -148,7 +148,7 @@ namespace
 dom
 {
 class
-SVGTransform
+DOMSVGTransform
 ;
 }
 /
@@ -236,7 +236,7 @@ class
 dom
 :
 :
-SVGTransform
+DOMSVGTransform
 ;
 public
 :

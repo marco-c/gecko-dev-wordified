@@ -228,7 +228,7 @@ h
 *
 /
 class
-SVGTransform
+DOMSVGTransform
 final
 :
 public
@@ -242,11 +242,11 @@ public
 :
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
-SVGTransform
+DOMSVGTransform
 )
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
-SVGTransform
+DOMSVGTransform
 )
 /
 *
@@ -255,7 +255,7 @@ SVGTransform
 Generic
 ctor
 for
-SVGTransform
+DOMSVGTransform
 objects
 that
 are
@@ -266,7 +266,7 @@ attribute
 .
 *
 /
-SVGTransform
+DOMSVGTransform
 (
 DOMSVGTransformList
 *
@@ -326,12 +326,12 @@ attribute
 *
 /
 explicit
-SVGTransform
+DOMSVGTransform
 (
 )
 ;
 explicit
-SVGTransform
+DOMSVGTransform
 (
 const
 gfxMatrix
@@ -359,7 +359,7 @@ Clone
 *
 /
 explicit
-SVGTransform
+DOMSVGTransform
 (
 const
 nsSVGTransform
@@ -394,7 +394,7 @@ AddRef
 .
 *
 /
-SVGTransform
+DOMSVGTransform
 *
 Clone
 (
@@ -411,7 +411,7 @@ caller
 ;
 return
 new
-SVGTransform
+DOMSVGTransform
 (
 InternalItem
 (
@@ -847,7 +847,7 @@ rv
 protected
 :
 ~
-SVGTransform
+DOMSVGTransform
 (
 )
 ;

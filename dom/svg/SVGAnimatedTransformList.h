@@ -178,7 +178,7 @@ class
 SVGElement
 ;
 class
-SVGTransform
+DOMSVGTransform
 ;
 }
 /
@@ -317,7 +317,7 @@ class
 dom
 :
 :
-SVGTransform
+DOMSVGTransform
 ;
 friend
 class

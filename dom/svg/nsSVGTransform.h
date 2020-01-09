@@ -170,7 +170,7 @@ for
 this
 class
 is
-DOMSVGTransformMatrix
+DOMSVGTransform
 .
 *
 /

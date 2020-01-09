@@ -488,7 +488,7 @@ mozilla
 /
 dom
 /
-SVGTransform
+DOMSVGTransform
 .
 h
 "
@@ -570,14 +570,14 @@ that
 belong
 to
 a
-SVGTransform
+DOMSVGTransform
 .
 *
 /
 explicit
 SVGMatrix
 (
-SVGTransform
+DOMSVGTransform
 &
 aTransform
 )
@@ -601,7 +601,7 @@ created
 independently
 of
 a
-SVGTransform
+DOMSVGTransform
 .
 *
 /
@@ -659,7 +659,7 @@ mMatrix
 /
 /
 WebIDL
-SVGTransform
+DOMSVGTransform
 *
 GetParentObject
 (
@@ -1049,7 +1049,7 @@ false
 }
 RefPtr
 <
-SVGTransform
+DOMSVGTransform
 >
 mTransform
 ;
@@ -1075,10 +1075,12 @@ exist
 independently
 of
 an
-SVGTransform
+DOMSVGTransform
 we
 use
 mMatrix
+/
+/
 below
 .
 gfxMatrix
