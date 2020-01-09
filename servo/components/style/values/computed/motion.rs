@@ -116,6 +116,9 @@ path
 property
 pub
 use
+crate
+:
+:
 values
 :
 :

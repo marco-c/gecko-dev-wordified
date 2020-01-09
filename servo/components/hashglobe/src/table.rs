@@ -125,6 +125,9 @@ those
 terms
 .
 use
+crate
+:
+:
 alloc
 :
 :
@@ -134,6 +137,9 @@ dealloc
 }
 ;
 use
+crate
+:
+:
 shim
 :
 :
@@ -208,6 +214,9 @@ BucketState
 *
 ;
 use
+crate
+:
+:
 FailedAllocationError
 ;
 /
@@ -5967,6 +5976,9 @@ is_null
 )
 {
 use
+crate
+:
+:
 AllocationInfo
 ;
 return

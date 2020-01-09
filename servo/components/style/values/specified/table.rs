@@ -66,12 +66,9 @@ table
 properties
 .
 use
-cssparser
+crate
 :
 :
-Parser
-;
-use
 parser
 :
 :
@@ -79,6 +76,12 @@ parser
 Parse
 ParserContext
 }
+;
+use
+cssparser
+:
+:
+Parser
 ;
 use
 style_traits

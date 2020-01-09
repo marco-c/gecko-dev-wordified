@@ -66,6 +66,9 @@ missing_docs
 ]
 pub
 use
+crate
+:
+:
 counter_style
 :
 :
