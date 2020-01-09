@@ -134,6 +134,15 @@ h
 #
 include
 "
+ds
+/
+TraceableFifo
+.
+h
+"
+#
+include
+"
 js
 /
 CharacterEncoding
@@ -354,7 +363,7 @@ HelperThread
 using
 JobQueue
 =
-GCVector
+TraceableFifo
 <
 JSObject
 *
