@@ -292,6 +292,9 @@ ImageFormat
 namespace
 layers
 {
+struct
+ZoomConstraints
+;
 void
 AppendToString
 (
