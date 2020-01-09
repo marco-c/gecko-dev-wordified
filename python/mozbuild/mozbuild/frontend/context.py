@@ -15837,6 +15837,12 @@ mozilla_flags
 '
 :
 list
+            
+'
+gn_target
+'
+:
+unicode
         
 }
 )
@@ -15947,6 +15953,17 @@ the
 resulting
 mozbuild
 configuration
+.
+            
+-
+gn_target
+the
+name
+of
+the
+target
+to
+build
 .
         
 "
