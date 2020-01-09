@@ -5176,10 +5176,6 @@ excludeQueries
 =
 1
 &
-excludeReadOnlyFolders
-=
-1
-&
 type
 =
 "

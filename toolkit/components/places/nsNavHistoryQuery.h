@@ -707,16 +707,6 @@ mExcludeQueries
 ;
 }
 bool
-ExcludeReadOnlyFolders
-(
-)
-const
-{
-return
-mExcludeReadOnlyFolders
-;
-}
-bool
 ExpandQueries
 (
 )
@@ -873,9 +863,6 @@ mExcludeItems
 ;
 bool
 mExcludeQueries
-;
-bool
-mExcludeReadOnlyFolders
 ;
 bool
 mExpandQueries
