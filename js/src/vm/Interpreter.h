@@ -3213,14 +3213,9 @@ DefLexicalOperation
 JSContext
 *
 cx
-LexicalEnvironmentObject
-*
-lexicalEnvArg
-JSObject
-*
-varObjArg
-JSScript
-*
+HandleObject
+envChain
+HandleScript
 script
 jsbytecode
 *
