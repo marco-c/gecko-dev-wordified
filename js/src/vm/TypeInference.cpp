@@ -11146,6 +11146,15 @@ alloc
 (
 )
 ;
+LifoAlloc
+:
+:
+AutoFallibleScope
+fallibleAllocator
+(
+alloc
+)
+;
 typedef
 CompilerConstraintInstance
 <
