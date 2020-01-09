@@ -370,9 +370,20 @@ SymPath
 "
 symbol_path
         
+#
+ATLVersionCheck
+triggers
+a
+crash
+in
+msdia120
+:
+bug
+1525113
+        
 "
 /
-Checks
+SkippedChecks
 "
 "
 ATLVersionCheck
@@ -581,9 +592,20 @@ Checks
 SharedSectionCheck
 "
         
+#
+VB6Check
+triggers
+a
+crash
+in
+msdia120
+:
+bug
+1525113
+        
 "
 /
-Checks
+SkippedChecks
 "
 "
 VB6Check
