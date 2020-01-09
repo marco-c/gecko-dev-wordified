@@ -2081,9 +2081,6 @@ dataBytes
 )
 )
 {
-uint32_t
-len
-;
 rv
 =
 dataProvider
@@ -2097,8 +2094,6 @@ getter_AddRefs
 (
 dataBytes
 )
-&
-len
 )
 ;
 if
@@ -2256,9 +2251,6 @@ lazy
 data
 provider
 ?
-uint32_t
-len
-;
 if
 (
 nsCOMPtr
@@ -2286,8 +2278,6 @@ getter_AddRefs
 (
 dataBytes
 )
-&
-len
 )
 ;
 if
@@ -2327,7 +2317,7 @@ get
 (
 )
 dataBytes
-len
+0
 aFlavor
 aData
 &
