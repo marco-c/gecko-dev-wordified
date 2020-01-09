@@ -600,11 +600,6 @@ tabId
 tab
 .
 id
-previousTabId
-:
-data
-.
-previousTabId
 windowId
 :
 tab
@@ -2009,7 +2004,6 @@ selected
 muted
 pinned
 openerTabId
-successorTabId
 return
 tabManager
 .
