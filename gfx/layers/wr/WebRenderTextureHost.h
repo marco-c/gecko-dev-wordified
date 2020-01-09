@@ -305,6 +305,13 @@ GetFormat
 const
 override
 ;
+virtual
+void
+NotifyNotUsed
+(
+)
+override
+;
 /
 /
 Return
@@ -442,6 +449,12 @@ return
 this
 ;
 }
+virtual
+void
+PrepareForUse
+(
+)
+;
 wr
 :
 :

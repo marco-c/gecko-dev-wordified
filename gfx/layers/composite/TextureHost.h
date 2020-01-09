@@ -505,6 +505,9 @@ class
 MacIOSurfaceTextureHostOGL
 ;
 class
+SurfaceTextureHost
+;
+class
 TextureHostOGL
 ;
 class
@@ -4085,6 +4088,17 @@ virtual
 WebRenderTextureHost
 *
 AsWebRenderTextureHost
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+SurfaceTextureHost
+*
+AsSurfaceTextureHost
 (
 )
 {
