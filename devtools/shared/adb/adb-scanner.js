@@ -161,7 +161,7 @@ lazyRequireGetter
 (
 this
 "
-Device
+AdbDevice
 "
 "
 devtools
@@ -415,7 +415,7 @@ const
 device
 =
 new
-Device
+AdbDevice
 (
 deviceId
 )
@@ -629,16 +629,16 @@ _runtimes
 function
 Runtime
 (
-device
+adbDevice
 model
 socketPath
 )
 {
 this
 .
-device
+_adbDevice
 =
-device
+adbDevice
 ;
 this
 .
@@ -716,7 +716,7 @@ id
 return
 this
 .
-device
+_adbDevice
 .
 id
 +
@@ -734,7 +734,7 @@ _socketPath
 function
 FirefoxOnAndroidRuntime
 (
-device
+adbDevice
 model
 socketPath
 )
@@ -744,7 +744,7 @@ Runtime
 call
 (
 this
-device
+adbDevice
 model
 socketPath
 )
@@ -772,7 +772,7 @@ detect
 async
 function
 (
-device
+adbDevice
 model
 )
 {
@@ -835,7 +835,7 @@ const
 rawSocketInfo
 =
 await
-device
+adbDevice
 .
 shell
 (
@@ -966,7 +966,7 @@ runtime
 new
 FirefoxOnAndroidRuntime
 (
-device
+adbDevice
 model
 socketPath
 )
@@ -1317,7 +1317,7 @@ _model
 |
 this
 .
-device
+_adbDevice
 .
 id
 ;

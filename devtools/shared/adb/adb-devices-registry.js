@@ -272,7 +272,7 @@ device
 *
 param
 {
-Device
+AdbDevice
 }
 device
 *

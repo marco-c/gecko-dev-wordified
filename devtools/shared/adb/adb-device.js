@@ -107,7 +107,7 @@ connected
 *
 /
 function
-Device
+AdbDevice
 (
 id
 )
@@ -119,7 +119,7 @@ id
 id
 ;
 }
-Device
+AdbDevice
 .
 prototype
 =
@@ -208,5 +208,5 @@ module
 .
 exports
 =
-Device
+AdbDevice
 ;
