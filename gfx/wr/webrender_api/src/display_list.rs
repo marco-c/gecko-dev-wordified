@@ -1482,7 +1482,7 @@ dummy
 )
 )
 )
-info
+layout
 :
 LayoutPrimitiveInfo
 :
@@ -2471,7 +2471,7 @@ iter
 .
 cur_item
 .
-info
+layout
 .
 rect
 }
@@ -2491,7 +2491,7 @@ LayoutVector2D
 LayoutPrimitiveInfo
 {
 let
-info
+layout
 =
 self
 .
@@ -2499,13 +2499,13 @@ iter
 .
 cur_item
 .
-info
+layout
 ;
 LayoutPrimitiveInfo
 {
 rect
 :
-info
+layout
 .
 rect
 .
@@ -2515,7 +2515,7 @@ offset
 )
 clip_rect
 :
-info
+layout
 .
 clip_rect
 .
@@ -2525,12 +2525,12 @@ offset
 )
 is_backface_visible
 :
-info
+layout
 .
 is_backface_visible
 tag
 :
-info
+layout
 .
 tag
 }
@@ -2554,7 +2554,7 @@ iter
 .
 cur_item
 .
-info
+layout
 .
 clip_rect
 }
@@ -2738,7 +2738,7 @@ iter
 .
 cur_item
 .
-info
+layout
 .
 is_backface_visible
 }
@@ -3569,11 +3569,11 @@ clip_and_scroll
 display_item
 .
 clip_and_scroll
-info
+layout
 :
 display_item
 .
-info
+layout
 }
 ;
 seq
@@ -4173,11 +4173,11 @@ clip_and_scroll
 complete
 .
 clip_and_scroll
-info
+layout
 :
 complete
 .
-info
+layout
 }
 ;
 serialize_fast
@@ -7223,7 +7223,7 @@ item
 :
 &
 SpecificDisplayItem
-info
+layout
 :
 &
 LayoutPrimitiveInfo
@@ -7252,7 +7252,7 @@ last
 unwrap
 (
 )
-info
+layout
 }
 )
 }
@@ -7266,7 +7266,7 @@ item
 :
 &
 SpecificDisplayItem
-info
+layout
 :
 &
 LayoutPrimitiveInfo
@@ -7287,7 +7287,7 @@ SerializedDisplayItem
 {
 item
 clip_and_scroll
-info
+layout
 }
 )
 }
@@ -7304,7 +7304,7 @@ SpecificDisplayItem
 )
 {
 let
-info
+layout
 =
 &
 LayoutPrimitiveInfo
@@ -7325,7 +7325,7 @@ self
 push_item
 (
 item
-info
+layout
 )
 }
 fn
@@ -7625,7 +7625,7 @@ push_rect
 &
 mut
 self
-info
+layout
 :
 &
 LayoutPrimitiveInfo
@@ -7654,7 +7654,7 @@ push_item
 (
 &
 item
-info
+layout
 )
 ;
 }
@@ -7665,7 +7665,7 @@ push_clear_rect
 &
 mut
 self
-info
+layout
 :
 &
 LayoutPrimitiveInfo
@@ -7680,7 +7680,7 @@ SpecificDisplayItem
 :
 :
 ClearRectangle
-info
+layout
 )
 ;
 }
@@ -7691,7 +7691,7 @@ push_line
 &
 mut
 self
-info
+layout
 :
 &
 LayoutPrimitiveInfo
@@ -7736,7 +7736,7 @@ push_item
 (
 &
 item
-info
+layout
 )
 ;
 }
@@ -7747,7 +7747,7 @@ push_image
 &
 mut
 self
-info
+layout
 :
 &
 LayoutPrimitiveInfo
@@ -7798,7 +7798,7 @@ push_item
 (
 &
 item
-info
+layout
 )
 ;
 }
@@ -7830,7 +7830,7 @@ push_yuv_image
 &
 mut
 self
-info
+layout
 :
 &
 LayoutPrimitiveInfo
@@ -7871,7 +7871,7 @@ push_item
 (
 &
 item
-info
+layout
 )
 ;
 }
@@ -7882,7 +7882,7 @@ push_text
 &
 mut
 self
-info
+layout
 :
 &
 LayoutPrimitiveInfo
@@ -7938,7 +7938,7 @@ push_item
 (
 &
 item
-info
+layout
 )
 ;
 self
@@ -8139,7 +8139,7 @@ push_border
 &
 mut
 self
-info
+layout
 :
 &
 LayoutPrimitiveInfo
@@ -8172,7 +8172,7 @@ push_item
 (
 &
 item
-info
+layout
 )
 ;
 }
@@ -8183,7 +8183,7 @@ push_box_shadow
 &
 mut
 self
-info
+layout
 :
 &
 LayoutPrimitiveInfo
@@ -8236,7 +8236,7 @@ push_item
 (
 &
 item
-info
+layout
 )
 ;
 }
@@ -8345,7 +8345,7 @@ tiles
 is
 given
 in
-info
+layout
 .
 rect
 .
@@ -8367,7 +8367,7 @@ limit
 /
 /
 the
-info
+layout
 .
 rect
 .
@@ -8397,7 +8397,7 @@ push_gradient
 &
 mut
 self
-info
+layout
 :
 &
 LayoutPrimitiveInfo
@@ -8434,7 +8434,7 @@ push_item
 (
 &
 item
-info
+layout
 )
 ;
 }
@@ -8475,7 +8475,7 @@ push_radial_gradient
 &
 mut
 self
-info
+layout
 :
 &
 LayoutPrimitiveInfo
@@ -8512,7 +8512,7 @@ push_item
 (
 &
 item
-info
+layout
 )
 ;
 }
@@ -8724,7 +8724,7 @@ push_stacking_context
 &
 mut
 self
-info
+layout
 :
 &
 LayoutPrimitiveInfo
@@ -8779,7 +8779,7 @@ push_item
 (
 &
 item
-info
+layout
 )
 ;
 self
@@ -9450,7 +9450,7 @@ image_mask
 )
 ;
 let
-info
+layout
 =
 LayoutPrimitiveInfo
 :
@@ -9467,7 +9467,7 @@ push_item_with_clip_scroll_info
 &
 item
 &
-info
+layout
 &
 scrollinfo
 )
@@ -9542,7 +9542,7 @@ previously_applied_offset
 )
 ;
 let
-info
+layout
 =
 LayoutPrimitiveInfo
 :
@@ -9559,7 +9559,7 @@ push_item
 &
 item
 &
-info
+layout
 )
 ;
 id
@@ -9599,7 +9599,7 @@ push_clip_and_scroll_info
 &
 mut
 self
-info
+layout
 :
 ClipAndScrollInfo
 )
@@ -9610,7 +9610,7 @@ clip_stack
 .
 push
 (
-info
+layout
 )
 ;
 }
@@ -9698,7 +9698,7 @@ push_iframe
 &
 mut
 self
-info
+layout
 :
 &
 LayoutPrimitiveInfo
@@ -9738,7 +9738,7 @@ push_item
 (
 &
 item
-info
+layout
 )
 ;
 }
@@ -9749,7 +9749,7 @@ push_shadow
 &
 mut
 self
-info
+layout
 :
 &
 LayoutPrimitiveInfo
@@ -9770,7 +9770,7 @@ PushShadow
 (
 shadow
 )
-info
+layout
 )
 ;
 }
