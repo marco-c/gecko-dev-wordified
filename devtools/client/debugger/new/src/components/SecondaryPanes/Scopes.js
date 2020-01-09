@@ -550,11 +550,6 @@ disableWrap
 {
 true
 }
-focusable
-=
-{
-false
-}
 dimTopLevelWindow
 =
 {

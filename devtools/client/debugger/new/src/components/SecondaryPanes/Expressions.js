@@ -1344,11 +1344,6 @@ disableWrap
 {
 true
 }
-focusable
-=
-{
-false
-}
 openLink
 =
 {
