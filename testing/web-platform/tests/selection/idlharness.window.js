@@ -54,10 +54,10 @@ api
 ]
 [
 '
-dom
-'
-'
 html
+'
+'
+dom
 '
 ]
 idlArray
