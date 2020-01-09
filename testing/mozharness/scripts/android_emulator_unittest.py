@@ -153,6 +153,14 @@ mozharness
 .
 mozilla
 .
+automation
+import
+TBPL_RETRY
+from
+mozharness
+.
+mozilla
+.
 mozbase
 import
 MozbaseMixin
@@ -3673,7 +3681,6 @@ also
 .
                     
 return
-False
                 
 final_cmd
 =
@@ -3910,6 +3917,32 @@ per_test_args
 tbpl_status
 log_level
 )
+                    
+if
+tbpl_status
+=
+=
+TBPL_RETRY
+:
+                        
+self
+.
+info
+(
+"
+Per
+-
+test
+run
+abandoned
+due
+to
+RETRY
+status
+"
+)
+                        
+return
                 
 else
 :
