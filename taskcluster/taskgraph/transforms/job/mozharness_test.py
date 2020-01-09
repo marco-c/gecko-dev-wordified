@@ -585,8 +585,6 @@ workspace
 /
 build
 /
-upload
-/
 logs
 /
 "
