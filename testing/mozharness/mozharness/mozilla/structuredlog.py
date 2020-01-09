@@ -330,6 +330,20 @@ __init__
 kwargs
 )
         
+self
+.
+allow_crashes
+=
+kwargs
+.
+pop
+(
+"
+allow_crashes
+"
+False
+)
+        
 mozlog
 =
 self
@@ -1360,6 +1374,7 @@ values
 "
 statuses
 "
+False
 )
             
 (
@@ -1389,6 +1404,9 @@ CRASH
 "
 crashes
 "
+self
+.
+allow_crashes
 )
             
 (
@@ -1409,6 +1427,7 @@ valgrind_error
 valgrind
 errors
 "
+False
 )
         
 ]
@@ -1417,6 +1436,7 @@ for
 value
 limit
 type_name
+allow
 in
 failure_conditions
 :
@@ -1427,18 +1447,9 @@ value
 limit
 :
                 
-self
-.
-update_levels
-(
-*
-fail_pair
-)
-                
 msg
 =
 "
-Got
 %
 d
 unexpected
@@ -1473,9 +1484,48 @@ d
 limit
 )
                 
+if
+not
+allow
+:
+                    
+self
+.
+update_levels
+(
+*
+fail_pair
+)
+                    
+msg
+=
+"
+Got
+"
++
+msg
+                    
 self
 .
 error
+(
+msg
+)
+                
+else
+:
+                    
+msg
+=
+"
+Ignored
+"
++
+msg
+                    
+self
+.
+warning
 (
 msg
 )
