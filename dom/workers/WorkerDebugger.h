@@ -125,6 +125,15 @@ include
 "
 mozilla
 /
+PerformanceTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 DOMTypes
@@ -258,7 +267,10 @@ call
 .
 *
 /
-PerformanceInfo
+RefPtr
+<
+PerformanceInfoPromise
+>
 ReportPerformanceInfo
 (
 )

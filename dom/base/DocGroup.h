@@ -199,6 +199,15 @@ PerformanceCounter
 .
 h
 "
+#
+include
+"
+mozilla
+/
+PerformanceTypes
+.
+h
+"
 namespace
 mozilla
 {
@@ -208,9 +217,6 @@ AbstractThread
 namespace
 dom
 {
-class
-PerformanceInfo
-;
 /
 /
 Two
@@ -516,7 +522,10 @@ return
 mPerformanceCounter
 ;
 }
-PerformanceInfo
+RefPtr
+<
+PerformanceInfoPromise
+>
 ReportPerformanceInfo
 (
 )
