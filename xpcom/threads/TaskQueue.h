@@ -797,6 +797,7 @@ bool
 IsCurrentThreadIn
 (
 )
+const
 override
 ;
 /
