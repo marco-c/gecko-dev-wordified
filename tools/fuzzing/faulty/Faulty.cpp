@@ -1983,12 +1983,6 @@ GeckoProcessType_GPU
 currentProcessType
 =
 =
-GeckoProcessType_PDFium
-|
-|
-currentProcessType
-=
-=
 GeckoProcessType_VR
 )
 )

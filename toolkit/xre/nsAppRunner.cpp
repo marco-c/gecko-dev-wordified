@@ -4205,11 +4205,6 @@ GPU
 )
 SYNC_ENUMS
 (
-PDFIUM
-PDFium
-)
-SYNC_ENUMS
-(
 VR
 VR
 )

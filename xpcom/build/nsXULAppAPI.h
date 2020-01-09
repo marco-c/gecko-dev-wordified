@@ -2443,12 +2443,6 @@ GPU
 and
 compositor
 process
-GeckoProcessType_PDFium
-/
-/
-Gecko
-PDFium
-process
 GeckoProcessType_VR
 /
 /
@@ -2495,9 +2489,6 @@ geckomediaplugin
 "
 "
 gpu
-"
-"
-pdfium
 "
 "
 vr
