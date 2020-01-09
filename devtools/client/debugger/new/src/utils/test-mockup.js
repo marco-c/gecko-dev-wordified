@@ -442,9 +442,6 @@ null
 generatedLocation
 :
 location
-loading
-:
-false
 disabled
 :
 false

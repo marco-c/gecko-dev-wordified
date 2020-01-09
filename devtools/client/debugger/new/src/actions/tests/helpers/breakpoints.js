@@ -234,9 +234,6 @@ id
 "
 breakpoint
 "
-loading
-:
-false
 originalText
 :
 "
@@ -268,6 +265,8 @@ sourceId
 {
 filename
 }
+/
+originalSource
 line
 column
 }

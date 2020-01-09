@@ -987,9 +987,6 @@ disabled
 |
 |
 false
-loading
-:
-false
 astLocation
 :
 astLocation
