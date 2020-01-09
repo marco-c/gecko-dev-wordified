@@ -1762,7 +1762,10 @@ transferred
 to
 /
 /
-JS_NewArrayBufferWithContents
+JS
+:
+:
+NewArrayBufferWithContents
 (
 )
 but
