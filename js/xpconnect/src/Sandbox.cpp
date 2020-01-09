@@ -10906,16 +10906,6 @@ sameZoneAs
 ParseBoolean
 (
 "
-freshCompartment
-"
-&
-freshCompartment
-)
-&
-&
-ParseBoolean
-(
-"
 freshZone
 "
 &
