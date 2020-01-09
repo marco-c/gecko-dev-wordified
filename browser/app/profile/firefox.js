@@ -17860,7 +17860,7 @@ ask
 -
 permission
 "
-true
+false
 )
 ;
 /
@@ -17885,7 +17885,7 @@ autoplay
 .
 default
 "
-2
+1
 )
 ;
 /
