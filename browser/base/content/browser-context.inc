@@ -1786,9 +1786,6 @@ leaveDOMFullScreen
 "
 /
 >
-#
-ifdef
-NIGHTLY_BUILD
 <
 menuitem
 id
@@ -1838,8 +1835,6 @@ pictureinpicture
 "
 /
 >
-#
-endif
 <
 menuseparator
 id
