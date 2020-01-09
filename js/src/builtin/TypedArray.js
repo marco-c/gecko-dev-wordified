@@ -6654,6 +6654,12 @@ seq
 .
 if
 (
+IsObject
+(
+overloaded
+)
+&
+&
 IsPossiblyWrappedTypedArray
 (
 overloaded
