@@ -2866,10 +2866,6 @@ self
 .
 device_name
 )
-                      
-exc_info
-=
-1
 )
             
 self
