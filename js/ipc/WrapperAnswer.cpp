@@ -4446,6 +4446,10 @@ GetRegExpFlags
 cx
 obj
 )
+.
+value
+(
+)
 ;
 return
 ok
