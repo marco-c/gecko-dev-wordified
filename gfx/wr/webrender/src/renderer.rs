@@ -25220,6 +25220,16 @@ DebugItem
 ]
 )
 {
+if
+items
+.
+is_empty
+(
+)
+{
+return
+;
+}
 let
 debug_renderer
 =
