@@ -1,3 +1,9 @@
+/
+*
+globals
+finishTest
+*
+/
 class
 XFoo
 extends

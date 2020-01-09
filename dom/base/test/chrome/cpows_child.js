@@ -1,3 +1,15 @@
+/
+*
+eslint
+-
+env
+mozilla
+/
+frame
+-
+script
+*
+/
 dump
 (
 "
@@ -20,6 +32,9 @@ XMLHttpRequest
 "
 ]
 )
+;
+var
+is_remote
 ;
 (
 function
@@ -1120,7 +1135,7 @@ msg
 ;
 }
 function
-ok
+ok1
 (
 x
 msg
@@ -1159,7 +1174,7 @@ getRealmLocation
 obj
 )
 ;
-ok
+ok1
 (
 /
 shared
@@ -1213,7 +1228,7 @@ obj
 .
 expando
 ;
-ok
+ok1
 (
 false
 "
@@ -1234,7 +1249,7 @@ catch
 e
 )
 {
-ok
+ok1
 (
 true
 "
@@ -2056,6 +2071,7 @@ null
 ok
 (
 fin
+=
 =
 =
 true
