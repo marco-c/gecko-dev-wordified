@@ -2145,7 +2145,7 @@ cleared
 .
 /
 /
-nsDateTimeControlFrame
+DateTimeInputTypeBase
 :
 :
 HasBadInput
