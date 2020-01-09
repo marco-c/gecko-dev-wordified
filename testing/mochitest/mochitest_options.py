@@ -7537,13 +7537,43 @@ help
 "
 :
 "
-ip
-address
+adb
+serial
+number
 of
 remote
 device
+.
+This
+is
+required
+"
+                  
+"
+when
+more
+than
+one
+device
+is
+connected
 to
-test
+the
+host
+.
+"
+                  
+"
+Use
+'
+adb
+devices
+'
+to
+see
+connected
+devices
+.
 "
           
 "
@@ -7631,16 +7661,14 @@ help
 "
 :
 "
-ip
+IP
 address
-where
+of
 the
 remote
 web
 server
-is
-hosted
-at
+.
 "
           
 }
@@ -7689,6 +7717,7 @@ the
 remote
 web
 server
+.
 "
           
 "
@@ -7743,6 +7772,7 @@ the
 remote
 web
 server
+.
 "
           
 "
@@ -7786,17 +7816,14 @@ help
 "
 :
 "
-name
+Name
 of
 the
-Robocop
+robocop
 APK
 to
 use
-for
-ADB
-test
-running
+.
 "
           
 }
@@ -7831,15 +7858,16 @@ help
 "
 :
 "
-remote
+Remote
 directory
 to
 use
 as
 test
 root
-\
-                   
+"
+                  
+"
 (
 eg
 .
@@ -7857,6 +7885,7 @@ local
 /
 tests
 )
+.
 "
           
 "
