@@ -476,6 +476,17 @@ name
 '
 ]
             
+#
+sfx
+-
+stub
+is
+only
+defined
+for
+Windows
+targets
+            
 '
 sfx
 -
@@ -483,13 +494,15 @@ stub
 '
 :
 config
-[
+.
+get
+(
 '
 sfx
 -
 stub
 '
-]
+)
             
 '
 installer
