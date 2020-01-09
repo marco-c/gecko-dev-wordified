@@ -13255,7 +13255,6 @@ nsIStreamListener
 onDataAvailable
 (
 aRequest
-aContext
 aInputstream
 aOffset
 aCount
@@ -13535,7 +13534,6 @@ nsIStreamListener
 onStartRequest
 (
 aRequest
-aContext
 )
 {
 if
@@ -13764,7 +13762,6 @@ nsIStreamListener
 onStopRequest
 (
 aRequest
-aContext
 aStatus
 )
 {
