@@ -1528,6 +1528,9 @@ webconsole
 -
 notificationbox
 "
+wrapping
+:
+true
 notifications
 }
 )
