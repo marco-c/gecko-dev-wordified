@@ -5202,14 +5202,7 @@ hint
 types
 -
 >
-bytecodeTypeMap
-(
-)
-+
-script
--
->
-numBytecodeTypeSets
+bytecodeTypeMapHint
 (
 )
 ;
