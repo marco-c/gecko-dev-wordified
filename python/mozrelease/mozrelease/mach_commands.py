@@ -243,6 +243,25 @@ CommandArgument
 '
 -
 -
+repo
+'
+                     
+help
+=
+"
+The
+repo
+being
+built
+.
+"
+)
+    
+CommandArgument
+(
+'
+-
+-
 revision
 '
                      
@@ -268,6 +287,7 @@ self
 version
 product
 revision
+repo
 )
 :
         
@@ -300,6 +320,10 @@ version
 current_revision
 =
 revision
+            
+repo
+=
+repo
         
 )
 )
@@ -430,6 +454,29 @@ help
 "
 The
 product
+being
+built
+.
+"
+)
+    
+CommandArgument
+(
+'
+-
+-
+repo
+'
+                     
+required
+=
+True
+                     
+help
+=
+"
+The
+repo
 being
 built
 .

@@ -195,18 +195,8 @@ CHANGESET_URL_TEMPLATE
 (
     
 '
-https
-:
-/
-/
-hg
-.
-mozilla
-.
-org
-/
 {
-release_branch
+repo
 }
 /
 {
@@ -262,18 +252,8 @@ MAX_BUGS_IN_BUGLIST
 MERCURIAL_TAGS_URL_TEMPLATE
 =
 '
-https
-:
-/
-/
-hg
-.
-mozilla
-.
-org
-/
 {
-release_branch
+repo
 }
 /
 json
@@ -334,6 +314,9 @@ create_bugs_url
 product
 current_version
 current_revision
+repo
+=
+None
 )
 :
     
@@ -433,9 +416,15 @@ links
 return
 NO_BUGS
         
-branch
+if
+repo
+is
+None
+:
+            
+repo
 =
-get_branch_by_version
+get_repo_by_version
 (
 current_version
 )
@@ -476,9 +465,9 @@ MERCURIAL_TAGS_URL_TEMPLATE
 .
 format
 (
-release_branch
+repo
 =
-branch
+repo
 )
         
 mercurial_tags_json
@@ -531,9 +520,9 @@ CHANGESET_URL_TEMPLATE
 .
 format
 (
-release_branch
+repo
 =
-branch
+repo
                                                           
 from_version
 =
@@ -611,9 +600,9 @@ CHANGESET_URL_TEMPLATE
 .
 format
 (
-release_branch
+repo
 =
-branch
+repo
                                                            
 from_version
 =
@@ -1420,7 +1409,7 @@ changeset_full
 return
 return_str
 def
-get_branch_by_version
+get_repo_by_version
 (
 version
 )
@@ -1432,7 +1421,7 @@ version
     
 Get
 the
-branch
+repo
 a
 given
 version
@@ -1453,6 +1442,16 @@ is_beta
         
 return
 '
+https
+:
+/
+/
+hg
+.
+mozilla
+.
+org
+/
 releases
 /
 mozilla
@@ -1468,6 +1467,16 @@ is_release
         
 return
 '
+https
+:
+/
+/
+hg
+.
+mozilla
+.
+org
+/
 releases
 /
 mozilla
@@ -1483,6 +1492,16 @@ is_esr
         
 return
 '
+https
+:
+/
+/
+hg
+.
+mozilla
+.
+org
+/
 releases
 /
 mozilla
@@ -1537,6 +1556,7 @@ product
 version
 build_number
     
+repo
 revision
 task_group_id
 )
@@ -1560,6 +1580,9 @@ create_bugs_url
 product
 version
 revision
+repo
+=
+repo
 )
     
 content
@@ -1577,18 +1600,8 @@ started
 :
 Commit
 :
-https
-:
-/
-/
-hg
-.
-mozilla
-.
-org
-/
 {
-path
+repo
 }
 /
 rev
@@ -1627,12 +1640,9 @@ email_buglist_string
 .
 format
 (
-path
+repo
 =
-get_branch_by_version
-(
-version
-)
+repo
 revision
 =
 revision
