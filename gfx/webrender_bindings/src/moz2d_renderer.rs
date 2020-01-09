@@ -2231,7 +2231,7 @@ left
 x
 x1
 :
-u32
+i32
 /
 /
 /
@@ -2241,7 +2241,7 @@ left
 y
 y1
 :
-u32
+i32
 /
 /
 /
@@ -2251,7 +2251,7 @@ right
 x
 x2
 :
-u32
+i32
 /
 /
 /
@@ -2261,7 +2261,7 @@ right
 y
 y2
 :
-u32
+i32
 }
 impl
 Box2d
@@ -2337,7 +2337,7 @@ y2
 impl
 From
 <
-DeviceUintRect
+DeviceIntRect
 >
 for
 Box2d
@@ -2347,7 +2347,7 @@ from
 (
 rect
 :
-DeviceUintRect
+DeviceIntRect
 )
 -
 >
@@ -4084,7 +4084,7 @@ dirty_rect
 :
 Option
 <
-DeviceUintRect
+DeviceIntRect
 >
 tile_size
 :
@@ -4704,11 +4704,11 @@ dirty_rect
 .
 unwrap_or
 (
-DeviceUintRect
+DeviceIntRect
 {
 origin
 :
-DeviceUintPoint
+DeviceIntPoint
 :
 :
 origin
@@ -4852,7 +4852,7 @@ dirty_rect
 :
 Option
 <
-DeviceUintRect
+DeviceIntRect
 >
 )
 {

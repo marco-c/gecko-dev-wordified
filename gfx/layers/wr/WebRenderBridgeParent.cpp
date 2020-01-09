@@ -2300,7 +2300,7 @@ bytes
 wr
 :
 :
-ToDeviceUintRect
+ToDeviceIntRect
 (
 op
 .
@@ -2334,7 +2334,7 @@ get_OpSetImageVisibleArea
 wr
 :
 :
-DeviceUintRect
+DeviceIntRect
 area
 ;
 area
@@ -4117,7 +4117,7 @@ ExternalBuffer
 wr
 :
 :
-ToDeviceUintRect
+ToDeviceIntRect
 (
 aDirtyRect
 )

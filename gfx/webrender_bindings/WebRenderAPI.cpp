@@ -298,7 +298,7 @@ layers
 CompositorBridgeParent
 *
 aBridge
-uint32_t
+int32_t
 *
 aMaxTextureSize
 bool
@@ -736,7 +736,7 @@ DocumentHandle
 *
 mDocHandle
 ;
-uint32_t
+int32_t
 *
 mMaxTextureSize
 ;
@@ -1201,7 +1201,7 @@ aDocumentRect
 wr
 :
 :
-DeviceUintSize
+DeviceIntSize
 wrWindowSize
 ;
 wrWindowSize
@@ -1223,7 +1223,7 @@ height
 wr
 :
 :
-DeviceUintRect
+DeviceIntRect
 wrDocRect
 ;
 wrDocRect
@@ -1521,7 +1521,7 @@ docHandle
 =
 nullptr
 ;
-uint32_t
+int32_t
 maxTextureSize
 =
 0
@@ -1789,7 +1789,7 @@ aLayerIndex
 wr
 :
 :
-DeviceUintSize
+DeviceIntSize
 wrSize
 ;
 wrSize
@@ -3238,7 +3238,7 @@ const
 wr
 :
 :
-DeviceUintRect
+DeviceIntRect
 &
 aDirtyRect
 )
@@ -3315,7 +3315,7 @@ const
 wr
 :
 :
-DeviceUintRect
+DeviceIntRect
 &
 aDirtyRect
 uint8_t
@@ -3347,7 +3347,7 @@ const
 wr
 :
 :
-DeviceUintRect
+DeviceIntRect
 &
 aArea
 )
@@ -6199,10 +6199,10 @@ wr
 ImageKey
 aImage
 const
-uint32_t
+int32_t
 aWidth
 const
-uint32_t
+int32_t
 aHeight
 const
 wr
@@ -6210,7 +6210,7 @@ wr
 :
 SideOffsets2D
 <
-uint32_t
+int32_t
 >
 &
 aSlice
@@ -6290,10 +6290,10 @@ LayoutSideOffsets
 &
 aWidths
 const
-uint32_t
+int32_t
 aWidth
 const
-uint32_t
+int32_t
 aHeight
 const
 wr
@@ -6301,7 +6301,7 @@ wr
 :
 SideOffsets2D
 <
-uint32_t
+int32_t
 >
 &
 aSlice
