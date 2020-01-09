@@ -745,11 +745,12 @@ rule
 are
 images
 styles
-and
 localization
 DTDs
 /
 /
+and
+XBLs
 using
 a
 scheme
@@ -760,7 +761,7 @@ or
 chrome
 :
 bool
-isImgOrStyleOrDTD
+isImgOrStyleOrDTDorXBL
 =
 contentType
 =
@@ -787,6 +788,15 @@ nsIContentPolicy
 :
 :
 TYPE_DTD
+|
+|
+contentType
+=
+=
+nsIContentPolicy
+:
+:
+TYPE_XBL
 ;
 rv
 =
@@ -814,7 +824,7 @@ match
 &
 &
 !
-isImgOrStyleOrDTD
+isImgOrStyleOrDTDorXBL
 )
 {
 return
@@ -847,7 +857,7 @@ match
 &
 &
 !
-isImgOrStyleOrDTD
+isImgOrStyleOrDTDorXBL
 )
 {
 return
