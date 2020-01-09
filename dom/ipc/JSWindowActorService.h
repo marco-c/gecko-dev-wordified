@@ -181,6 +181,15 @@ ErrorResult
 aRv
 )
 ;
+void
+UnregisterWindowActor
+(
+const
+nsAString
+&
+aName
+)
+;
 /
 /
 Register
