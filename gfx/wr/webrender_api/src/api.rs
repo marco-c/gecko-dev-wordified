@@ -1060,16 +1060,6 @@ Arguments
 /
 /
 *
-document_id
-:
-Target
-Document
-ID
-.
-/
-/
-/
-*
 epoch
 :
 The
