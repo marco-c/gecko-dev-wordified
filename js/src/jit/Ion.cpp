@@ -13543,7 +13543,10 @@ numBytecodeTypeSets
 )
 >
 =
-UINT16_MAX
+JSScript
+:
+:
+MaxBytecodeTypeSets
 )
 {
 /

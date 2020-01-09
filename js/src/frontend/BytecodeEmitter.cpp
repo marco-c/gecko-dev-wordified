@@ -3329,7 +3329,10 @@ if
 (
 typesetCount
 <
-UINT16_MAX
+JSScript
+:
+:
+MaxBytecodeTypeSets
 )
 {
 typesetCount
