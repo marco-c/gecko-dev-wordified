@@ -841,7 +841,9 @@ trackerStart
 aHTMLEditor
 -
 >
-mRangeUpdater
+RangeUpdaterRef
+(
+)
 aStartNode
 aStartOffset
 )
@@ -852,7 +854,9 @@ trackerEnd
 aHTMLEditor
 -
 >
-mRangeUpdater
+RangeUpdaterRef
+(
+)
 aEndNode
 aEndOffset
 )
@@ -1009,7 +1013,9 @@ tracker
 aHTMLEditor
 -
 >
-mRangeUpdater
+RangeUpdaterRef
+(
+)
 aSplitNode
 aSplitOffset
 )
@@ -1171,7 +1177,9 @@ tracker
 mHTMLEditor
 -
 >
-mRangeUpdater
+RangeUpdaterRef
+(
+)
 &
 pointToInsert
 )
@@ -1894,7 +1902,9 @@ tracker
 mHTMLEditor
 -
 >
-mRangeUpdater
+RangeUpdaterRef
+(
+)
 &
 pointToInsert
 )

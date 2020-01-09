@@ -529,7 +529,9 @@ aDoDeleteSelection
 AutoTrackDOMPoint
 tracker
 (
-mRangeUpdater
+RangeUpdaterRef
+(
+)
 &
 pointToInsert
 )
