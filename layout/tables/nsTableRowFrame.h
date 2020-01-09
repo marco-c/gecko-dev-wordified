@@ -511,6 +511,7 @@ child
 cells
 .
 *
+*
 Cells
 with
 rowspan
@@ -528,9 +529,8 @@ stacked
 *
 horizontally
 .
-<
-P
->
+*
+*
 Cells
 are
 not
@@ -539,9 +539,7 @@ unless
 absolutely
 necessary
 .
-<
-P
->
+*
 *
 Cells
 are

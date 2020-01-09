@@ -582,6 +582,8 @@ a
 pointer
 to
 the
+/
+/
 currently
 focused
 window

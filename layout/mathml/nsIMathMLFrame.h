@@ -1237,8 +1237,8 @@ TransmitAutomaticData
 this
 way
 they
-remain
 *
+remain
 up
 -
 to

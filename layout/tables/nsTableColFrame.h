@@ -202,6 +202,8 @@ specified
 a
 width
 via
+/
+/
 colspan
 }
 ;
@@ -221,6 +223,7 @@ aType
 /
 *
 *
+*
 instantiate
 a
 new
@@ -228,6 +231,7 @@ instance
 of
 nsTableRowFrame
 .
+*
 *
 param
 aPresShell

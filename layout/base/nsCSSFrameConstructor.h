@@ -8601,12 +8601,6 @@ aOther
 delete
 ;
 /
-*
-not
-implemented
-*
-/
-/
 /
 Not
 allocated
@@ -13654,8 +13648,6 @@ nsContainerFrame
 aBlockFrame
 )
 ;
-/
-/
 void
 RemoveLetterFrames
 (

@@ -247,11 +247,6 @@ nsIDocument
 >
 mDocument
 ;
-nsIPresShell
-*
-MOZ_NON_OWNING_REF
-mPresShell
-;
 /
 /
 raw
@@ -261,6 +256,11 @@ the
 presShell
 owns
 this
+nsIPresShell
+*
+MOZ_NON_OWNING_REF
+mPresShell
+;
 nsCOMPtr
 <
 mozilla

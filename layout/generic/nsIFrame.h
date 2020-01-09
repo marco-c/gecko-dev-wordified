@@ -2679,10 +2679,6 @@ frames
 .
 *
 /
-#
-define
-NS_FRAME_OVERFLOW_DELTA_MAX
-0xfe
 /
 /
 max
@@ -2692,9 +2688,8 @@ can
 store
 #
 define
-NS_FRAME_OVERFLOW_NONE
-\
-0x00000000
+NS_FRAME_OVERFLOW_DELTA_MAX
+0xfe
 /
 /
 there
@@ -2703,15 +2698,11 @@ no
 overflow
 rects
 ;
-/
-/
 code
 relies
 on
 this
 being
-/
-/
 the
 all
 -
@@ -2719,9 +2710,8 @@ zero
 value
 #
 define
-NS_FRAME_OVERFLOW_LARGE
-\
-0x000000ff
+NS_FRAME_OVERFLOW_NONE
+0x00000000
 /
 /
 overflow
@@ -2729,11 +2719,13 @@ is
 stored
 as
 a
-/
-/
 separate
 rect
 property
+#
+define
+NS_FRAME_OVERFLOW_LARGE
+0x000000ff
 /
 *
 *
@@ -2988,6 +2980,7 @@ nsBidiLevel
 /
 *
 *
+*
 Paragraph
 level
 setting
@@ -3022,6 +3015,7 @@ define
 NSBIDI_DEFAULT_LTR
 0xfe
 /
+*
 *
 *
 Paragraph
@@ -3089,7 +3083,6 @@ code
 >
 )
 .
-*
 *
 /
 #
@@ -4592,6 +4585,7 @@ point
 .
 }
 /
+*
 *
 *
 Flags
@@ -8472,6 +8466,7 @@ type
 \
 MOZ_ASSERT_UNREACHABLE
 (
+\
 "
 Frame
 property
@@ -8482,9 +8477,6 @@ prop
 "
 should
 never
-"
-\
-"
 be
 destroyed
 by
@@ -13825,7 +13817,7 @@ where
 the
 event
 originated
-*
+.
 The
 |
 point
@@ -13837,15 +13829,16 @@ is
 in
 the
 coordinate
+*
 system
 of
 the
-*
 view
 returned
 by
 GetOffsetFromView
 .
+*
 *
 param
 aEventStatus
@@ -17442,6 +17435,8 @@ effect
 when
 eShrinkWrap
 is
+/
+/
 false
 }
 ;
@@ -23644,7 +23639,7 @@ false
 *
 *
 *
-called
+Called
 to
 discover
 where
@@ -23749,6 +23744,7 @@ the
 frame
 .
 *
+*
 param
 aSelCon
 will
@@ -23847,7 +23843,8 @@ character
 word
 or
 line
-returns
+.
+Returns
 the
 *
 actual
@@ -23863,8 +23860,9 @@ NOT
 CHANGE
 SELECTION
 STATE
+.
 *
-uses
+Uses
 frame
 '
 s
@@ -23874,7 +23872,7 @@ state
 to
 start
 .
-if
+If
 no
 selection
 on
@@ -23884,6 +23882,8 @@ frame
 will
 return
 NS_ERROR_FAILURE
+.
+*
 *
 param
 aPOS
@@ -23906,7 +23906,7 @@ aPos
 *
 *
 *
-called
+Called
 to
 find
 the
@@ -23920,6 +23920,7 @@ selectable
 leaf
 frame
 .
+*
 *
 param
 aDirection
@@ -23936,6 +23937,7 @@ eDirPrevious
 or
 eDirNext
 )
+*
 *
 param
 aVisual
@@ -23957,6 +23959,7 @@ logical
 (
 false
 )
+*
 *
 param
 aJumpLines
@@ -23987,6 +23990,7 @@ frame
 *
 boundary
 *
+*
 param
 aOutFrame
 [
@@ -23999,6 +24003,7 @@ next
 selectable
 leaf
 frame
+*
 *
 param
 aOutOffset
@@ -24030,6 +24035,7 @@ its
 end
 .
 *
+*
 param
 aOutJumpedLine
 [
@@ -24047,6 +24053,7 @@ are
 on
 different
 lines
+*
 *
 param
 aOutMovedOverNonSelectableText
@@ -24100,7 +24107,7 @@ aOutMovedOverNonSelectableText
 *
 *
 *
-called
+Called
 to
 see
 if
@@ -24118,14 +24125,14 @@ to
 index
 end
 .
-this
+This
 does
 not
 change
 any
 state
 .
-returns
+Returns
 true
 only
 if
@@ -24142,7 +24149,7 @@ children
 are
 visible
 .
-for
+For
 textframes
 this
 index
@@ -24152,7 +24159,7 @@ the
 character
 index
 .
-if
+If
 aStart
 =
 aEnd
@@ -24160,6 +24167,8 @@ result
 will
 be
 false
+.
+*
 *
 param
 aStart
@@ -24178,6 +24187,7 @@ of
 children
 )
 *
+*
 param
 aEnd
 end
@@ -24189,6 +24199,7 @@ from
 0
 -
 N
+*
 *
 param
 aRecurse
@@ -24208,6 +24219,7 @@ other
 children
 ?
 *
+*
 param
 aFinished
 did
@@ -24225,6 +24237,7 @@ work
 *
 to
 do
+*
 *
 param
 _retval
@@ -31123,6 +31136,7 @@ rendered
 whitespace
 ?
 *
+*
 param
 aForward
 [
@@ -31140,6 +31154,7 @@ in
 content
 order
 .
+*
 *
 param
 aOffset
@@ -31159,10 +31174,7 @@ start
 looking
 .
 *
-on
-output
--
-what
+at
 offset
 was
 reached
@@ -31173,14 +31185,16 @@ not
 we
 found
 a
-*
 place
 to
 stop
 )
 .
 *
+*
 return
+*
+*
 STOP
 :
 An
@@ -31199,6 +31213,7 @@ by
 aOffset
 .
 *
+*
 CONTINUE
 :
 Not
@@ -31214,7 +31229,7 @@ next
 frame
 .
 *
-see
+See
 enum
 FrameSearchResult
 for
@@ -31248,6 +31263,7 @@ the
 next
 character
 *
+*
 param
 aForward
 [
@@ -31265,6 +31281,7 @@ in
 content
 order
 .
+*
 *
 param
 aOffset
@@ -31298,12 +31315,13 @@ not
 we
 found
 a
-*
 place
 to
+*
 stop
 )
 .
+*
 *
 param
 aOptions
@@ -31315,14 +31333,17 @@ see
 the
 comment
 in
-*
 PeekOffsetCharacterOptions
+*
 for
 the
 detail
 .
 *
+*
 return
+*
+*
 STOP
 :
 An
@@ -31333,13 +31354,14 @@ found
 within
 this
 frame
-*
 and
 is
 given
+*
 by
 aOffset
 .
+*
 *
 CONTINUE
 :
@@ -31355,8 +31377,8 @@ the
 next
 frame
 .
+See
 *
-see
 enum
 FrameSearchResult
 for

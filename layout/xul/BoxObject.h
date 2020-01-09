@@ -529,11 +529,6 @@ nsISupports
 >
 mPropertyTable
 ;
-/
-/
-[
-OWNER
-]
 Element
 *
 mContent

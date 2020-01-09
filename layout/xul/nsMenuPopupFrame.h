@@ -1187,10 +1187,6 @@ aActiveFlag
 )
 override
 {
-return
-NS_OK
-;
-}
 /
 /
 We
@@ -1199,6 +1195,10 @@ don
 t
 care
 .
+return
+NS_OK
+;
+}
 virtual
 bool
 IsActive

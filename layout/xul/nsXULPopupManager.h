@@ -3180,9 +3180,9 @@ menu
 is
 closed
 by
+*
 pressing
 the
-*
 Escape
 key
 .

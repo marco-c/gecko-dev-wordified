@@ -178,6 +178,7 @@ nsTableColGroupFrame
 /
 *
 *
+*
 instantiate
 a
 new
@@ -185,6 +186,7 @@ instance
 of
 nsTableRowFrame
 .
+*
 *
 param
 aPresShell

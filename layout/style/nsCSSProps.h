@@ -2088,6 +2088,12 @@ kDisplayKTable
 ;
 /
 /
+clang
+-
+format
+off
+/
+/
 -
 -
 tables
@@ -2105,8 +2111,6 @@ items
 self
 }
 properties
-/
-/
 -
 -
 static
@@ -2269,8 +2273,6 @@ content
 items
 self
 }
-/
-/
 properties
 -
 -
@@ -2363,6 +2365,12 @@ kAutoCompletionAlignJustifyContent
 -
 -
 -
+/
+/
+clang
+-
+format
+on
 static
 const
 KTableEntry

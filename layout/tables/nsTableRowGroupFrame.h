@@ -468,7 +468,8 @@ override
 /
 *
 *
-calls
+*
+Calls
 Reflow
 for
 all
@@ -477,6 +478,7 @@ its
 child
 rows
 .
+*
 *
 Rows
 are
@@ -494,10 +496,8 @@ block
 direction
 .
 *
-<
-P
->
-rows
+*
+Rows
 are
 not
 split
@@ -1479,7 +1479,6 @@ relative
 to
 the
 row
-*
 group
 *
 param

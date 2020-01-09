@@ -3669,6 +3669,7 @@ override
 /
 *
 *
+*
 Load
 all
 of
@@ -3695,9 +3696,9 @@ all
 necessary
 float
 manager
-*
 translations
 ;
+*
 assumes
 float
 manager
@@ -3712,6 +3713,7 @@ s
 coord
 system
 .
+*
 *
 Safe
 to
@@ -4680,8 +4682,10 @@ a
 line
 .
 *
+*
 param
 aState
+*
 the
 current
 reflow
@@ -4689,6 +4693,7 @@ state
 *
 param
 aLine
+*
 the
 line
 to
@@ -4699,12 +4704,12 @@ contain
 a
 single
 block
-*
 frame
 or
 contain
 1
 or
+*
 more
 inline
 frames
@@ -4715,13 +4720,13 @@ aKeepReflowGoing
 [
 OUT
 ]
+*
 indicates
 whether
 the
 caller
 should
 continue
-*
 to
 reflow
 more

@@ -2861,6 +2861,12 @@ const
 {
 /
 /
+clang
+-
+format
+off
+/
+/
 indexes
 are
 four
@@ -3145,6 +3151,12 @@ lr
 rtl
 }
 ;
+/
+/
+clang
+-
+format
+on
 static_assert
 (
 eOrientationMask
@@ -4365,6 +4377,8 @@ BTT
 (
 against
 physical
+/
+/
 coords
 )
 eBlockFlowMask
@@ -4383,6 +4397,8 @@ horizontal
 -
 BT
 if
+/
+/
 added
 )
 eLineOrientMask

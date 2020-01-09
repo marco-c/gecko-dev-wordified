@@ -339,10 +339,6 @@ IsOpen
 )
 override
 {
-return
-true
-;
-}
 /
 /
 menubars
@@ -350,6 +346,10 @@ are
 considered
 always
 open
+return
+true
+;
+}
 bool
 IsMenuOpen
 (
