@@ -599,9 +599,9 @@ WEBRTC_IOS
 #
 include
 <
-CoreServices
+CoreFoundation
 /
-CoreServices
+CoreFoundation
 .
 h
 >
