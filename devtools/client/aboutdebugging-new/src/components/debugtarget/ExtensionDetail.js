@@ -252,6 +252,11 @@ propTypes
 {
 return
 {
+children
+:
+PropTypes
+.
+node
 /
 /
 Provided
@@ -704,6 +709,11 @@ this
 renderManifest
 (
 )
+this
+.
+props
+.
+children
 )
 )
 ;
