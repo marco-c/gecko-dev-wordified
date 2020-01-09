@@ -1981,7 +1981,7 @@ void
 nsStyleBorder
 :
 :
-FinishStyle
+TriggerImageLoads
 (
 Document
 &
@@ -3204,7 +3204,7 @@ void
 nsStyleList
 :
 :
-FinishStyle
+TriggerImageLoads
 (
 Document
 &
@@ -5893,7 +5893,7 @@ void
 StyleShapeSource
 :
 :
-FinishStyle
+TriggerImageLoads
 (
 Document
 &
@@ -6959,7 +6959,7 @@ void
 nsStyleSVGReset
 :
 :
-FinishStyle
+TriggerImageLoads
 (
 Document
 &
@@ -11986,9 +11986,11 @@ style
 "
 argument
 to
-FinishStyle
+TriggerImageLoads
 can
 go
+/
+/
 away
 .
 if
@@ -18127,7 +18129,7 @@ void
 nsStyleBackground
 :
 :
-FinishStyle
+TriggerImageLoads
 (
 Document
 &
@@ -19879,7 +19881,7 @@ void
 nsStyleDisplay
 :
 :
-FinishStyle
+TriggerImageLoads
 (
 Document
 &
@@ -19899,7 +19901,7 @@ NS_IsMainThread
 ;
 mShapeOutside
 .
-FinishStyle
+TriggerImageLoads
 (
 aDocument
 aOldStyle
@@ -23416,7 +23418,7 @@ void
 nsStyleContent
 :
 :
-FinishStyle
+TriggerImageLoads
 (
 Document
 &
@@ -25460,7 +25462,7 @@ void
 nsStyleUI
 :
 :
-FinishStyle
+TriggerImageLoads
 (
 Document
 &
