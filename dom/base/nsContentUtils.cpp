@@ -40083,7 +40083,7 @@ Length
 JS
 :
 :
-RegExpFlag
+RegExpFlags
 :
 :
 Unicode
