@@ -848,11 +848,6 @@ downloads
 "
 ]
 }
-incognitoOverride
-:
-"
-spanning
-"
 }
 )
 ;
