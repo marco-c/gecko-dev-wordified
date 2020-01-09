@@ -258,6 +258,12 @@ aWindow
 ;
 RefPtr
 <
+mozilla
+:
+:
+dom
+:
+:
 Document
 >
 mDocument

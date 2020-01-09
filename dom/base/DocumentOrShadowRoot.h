@@ -134,6 +134,15 @@ h
 #
 include
 "
+mozilla
+/
+IdentifierMapEntry
+.
+h
+"
+#
+include
+"
 nsClassHashtable
 .
 h
@@ -149,13 +158,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-nsIdentifierMapEntry
 .
 h
 "
@@ -1422,7 +1424,7 @@ IDs
 /
 nsTHashtable
 <
-nsIdentifierMapEntry
+IdentifierMapEntry
 >
 mIdentifierMap
 ;
@@ -1476,7 +1478,7 @@ return
 nullptr
 ;
 }
-nsIdentifierMapEntry
+IdentifierMapEntry
 *
 entry
 =

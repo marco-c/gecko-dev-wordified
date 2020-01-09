@@ -227,6 +227,15 @@ include
 "
 mozilla
 /
+IdentifierMapEntry
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoStyleRuleMap
 .
 h
@@ -2621,7 +2630,7 @@ nsAtom
 aId
 )
 {
-nsIdentifierMapEntry
+IdentifierMapEntry
 *
 entry
 =
@@ -2661,7 +2670,7 @@ nsAtom
 aId
 )
 {
-nsIdentifierMapEntry
+IdentifierMapEntry
 *
 entry
 =

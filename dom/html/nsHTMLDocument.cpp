@@ -628,6 +628,15 @@ include
 "
 mozilla
 /
+IdentifierMapEntry
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LoadInfo
 .
 h
@@ -11958,7 +11967,7 @@ ErrorResult
 aError
 )
 {
-nsIdentifierMapEntry
+IdentifierMapEntry
 *
 entry
 =
@@ -12214,7 +12223,7 @@ Next
 )
 )
 {
-nsIdentifierMapEntry
+IdentifierMapEntry
 *
 entry
 =

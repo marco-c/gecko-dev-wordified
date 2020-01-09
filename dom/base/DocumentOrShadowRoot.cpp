@@ -641,7 +641,7 @@ nullptr
 }
 if
 (
-nsIdentifierMapEntry
+IdentifierMapEntry
 *
 entry
 =
@@ -2490,7 +2490,7 @@ return
 nullptr
 ;
 }
-nsIdentifierMapEntry
+IdentifierMapEntry
 *
 entry
 =
@@ -2571,7 +2571,7 @@ id
 return
 ;
 }
-nsIdentifierMapEntry
+IdentifierMapEntry
 *
 entry
 =
@@ -2628,7 +2628,7 @@ return
 nullptr
 ;
 }
-nsIdentifierMapEntry
+IdentifierMapEntry
 *
 entry
 =
