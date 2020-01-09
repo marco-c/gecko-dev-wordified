@@ -156,6 +156,7 @@ util
 attributes
 import
 RELEASE_PROMOTION_PROJECTS
+release_level
 RELEASE_PROMOTION_SIGNOFFS
 =
 (
@@ -1827,6 +1828,21 @@ partial_updates
 if
 not
 partial_updates
+and
+release_level
+(
+parameters
+[
+'
+project
+'
+]
+)
+=
+=
+'
+production
+'
 :
             
 raise
