@@ -229,10 +229,6 @@ licm_
 =
 true
 ;
-loopUnrolling_
-=
-true
-;
 gvn_
 =
 true
