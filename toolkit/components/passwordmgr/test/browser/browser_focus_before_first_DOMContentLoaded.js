@@ -395,15 +395,9 @@ autocompletePopupShown
 let
 richlistbox
 =
-document
-.
-getAnonymousNodes
-(
 autocompletePopup
-)
-[
-0
-]
+.
+richlistbox
 ;
 is
 (
