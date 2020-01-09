@@ -7300,6 +7300,17 @@ GetTextPerfMetrics
 (
 )
 ;
+params
+.
+featureValueLookup
+=
+aPresContext
+-
+>
+GetFontFeatureValuesLookup
+(
+)
+;
 RefPtr
 <
 nsFontMetrics
