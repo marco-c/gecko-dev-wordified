@@ -2443,6 +2443,20 @@ nightly
 '
 )
     
+build_platform
+=
+build_platform
+.
+replace
+(
+'
+-
+msvc
+'
+'
+'
+)
+    
 if
 build_platform
 .
