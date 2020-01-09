@@ -3430,6 +3430,9 @@ nsString
 mFileName
 ;
 uint32_t
+mSourceId
+;
+uint32_t
 mLineNumber
 ;
 uint32_t
@@ -3439,6 +3442,10 @@ ErrorBase
 (
 )
 :
+mSourceId
+(
+0
+)
 mLineNumber
 (
 0

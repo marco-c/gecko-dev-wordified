@@ -512,6 +512,15 @@ aFilename
 )
 ;
 uint32_t
+SourceId
+(
+JSContext
+*
+aCx
+)
+const
+;
+uint32_t
 LineNumber
 (
 JSContext
