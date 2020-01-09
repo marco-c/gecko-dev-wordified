@@ -3335,9 +3335,6 @@ EmulationFront
 this
 .
 client
-targetFront
-.
-targetForm
 )
 ;
 /
@@ -3411,6 +3408,17 @@ emulationFront
 .
 formAttributeName
 ]
+;
+this
+.
+emulationFront
+.
+manage
+(
+this
+.
+emulationFront
+)
 ;
 }
 /
