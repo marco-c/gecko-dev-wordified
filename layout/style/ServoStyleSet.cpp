@@ -189,6 +189,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoBindings
 .
 h
@@ -8468,7 +8477,7 @@ MOZ_ASSERT
 mDocument
 -
 >
-GetShell
+GetPresShell
 (
 )
 "
@@ -8488,7 +8497,7 @@ if
 mDocument
 -
 >
-GetShell
+GetPresShell
 (
 )
 -
