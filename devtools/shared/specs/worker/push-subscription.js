@@ -78,7 +78,7 @@ protocol
 )
 ;
 const
-serviceWorkerSpec
+pushSubscriptionSpec
 =
 generateActorSpec
 (
@@ -86,14 +86,14 @@ generateActorSpec
 typeName
 :
 "
-serviceWorker
+pushSubscription
 "
 }
 )
 ;
 exports
 .
-serviceWorkerSpec
+pushSubscriptionSpec
 =
-serviceWorkerSpec
+pushSubscriptionSpec
 ;
