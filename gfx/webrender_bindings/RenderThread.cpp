@@ -1187,11 +1187,16 @@ move
 aRenderer
 )
 ;
+auto
+windows
+=
 mWindowInfos
 .
 Lock
 (
 )
+;
+windows
 -
 >
 emplace
@@ -2154,6 +2159,7 @@ Paint
 "
 Composite
 "
+GRAPHICS
 )
 ;
 MOZ_ASSERT

@@ -1149,6 +1149,7 @@ Paint
 "
 LayerTransaction
 "
+GRAPHICS
 )
 ;
 AUTO_PROFILER_LABEL

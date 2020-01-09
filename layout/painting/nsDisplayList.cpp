@@ -16880,6 +16880,7 @@ Paint
 "
 LayerBuilding
 "
+GRAPHICS
 docShell
 )
 ;

@@ -25254,6 +25254,7 @@ Fullscreen
 transition
 start
 "
+DOM
 )
 ;
 mWidget
@@ -25289,6 +25290,7 @@ Fullscreen
 toggle
 start
 "
+DOM
 )
 ;
 mFullscreenChangeStartTime
@@ -25731,6 +25733,7 @@ Fullscreen
 transition
 end
 "
+DOM
 )
 ;
 mWidget
@@ -25874,6 +25877,7 @@ Fullscreen
 toggle
 end
 "
+DOM
 )
 ;
 }
@@ -25958,6 +25962,7 @@ Fullscreen
 toggle
 timeout
 "
+DOM
 )
 ;
 }
