@@ -94,8 +94,6 @@ from
 .
 .
 /
-assets
-/
 images
 /
 Svg
