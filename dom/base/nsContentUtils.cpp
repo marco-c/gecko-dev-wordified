@@ -39739,16 +39739,12 @@ RefPtr
 nsNPAPIPluginInstance
 >
 plugin
-;
+=
 olc
 -
 >
 GetPluginInstance
 (
-getter_AddRefs
-(
-plugin
-)
 )
 ;
 if

@@ -162,13 +162,11 @@ NS_DECL_QUERYFRAME_TARGET
 (
 nsIObjectFrame
 )
-NS_IMETHOD
-GetPluginInstance
-(
+virtual
 nsNPAPIPluginInstance
 *
-*
-aPluginInstance
+GetPluginInstance
+(
 )
 =
 0
