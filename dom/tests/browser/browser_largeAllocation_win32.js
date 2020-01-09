@@ -122,6 +122,12 @@ webLargeAllocation
 }
 )
 ;
+/
+*
+global
+largeAllocSuccessTests
+*
+/
 await
 largeAllocSuccessTests
 (

@@ -282,6 +282,12 @@ fired
 .
 *
 /
+/
+*
+global
+messageManager
+*
+/
 add_task
 (
 async

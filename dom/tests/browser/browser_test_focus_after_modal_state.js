@@ -104,6 +104,12 @@ loaded
 )
 ;
 }
+/
+*
+global
+messageManager
+*
+/
 let
 lastMessageReceived
 =
