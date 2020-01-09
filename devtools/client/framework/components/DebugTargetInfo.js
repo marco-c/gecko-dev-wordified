@@ -497,6 +497,11 @@ className
 iconized
 -
 label
+js
+-
+connection
+-
+info
 "
 }
 dom
@@ -824,6 +829,11 @@ devtools
 ellipsis
 -
 text
+js
+-
+target
+-
+title
 "
 }
 title
