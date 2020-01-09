@@ -775,9 +775,6 @@ const
 OptionalURIParams
 &
 topWindowUri
-nsIPrincipal
-*
-aTopWindowPrincipal
 const
 uint32_t
 &
