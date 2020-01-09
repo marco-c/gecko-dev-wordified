@@ -57,9 +57,7 @@ jsm
 )
 ;
 const
-{
 RuleRewriter
-}
 =
 require
 (
@@ -68,11 +66,13 @@ devtools
 /
 shared
 /
-css
+fronts
 /
-parsing
+inspector
+/
+rule
 -
-utils
+rewriter
 "
 )
 ;
