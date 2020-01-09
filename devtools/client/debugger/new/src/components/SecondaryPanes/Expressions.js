@@ -1510,7 +1510,6 @@ renderNewExpressionInput
 const
 {
 expressionError
-showInput
 }
 =
 this
@@ -1661,11 +1660,6 @@ onFocus
 this
 .
 onFocus
-}
-autoFocus
-=
-{
-showInput
 }
 value
 =

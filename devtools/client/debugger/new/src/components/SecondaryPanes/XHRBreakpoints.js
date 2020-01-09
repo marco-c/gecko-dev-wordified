@@ -742,15 +742,6 @@ this
 state
 ;
 const
-{
-showInput
-}
-=
-this
-.
-props
-;
-const
 placeholder
 =
 L10N
@@ -849,11 +840,6 @@ onFocus
 this
 .
 onFocus
-}
-autoFocus
-=
-{
-showInput
 }
 value
 =
