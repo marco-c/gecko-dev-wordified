@@ -384,6 +384,13 @@ Utils
 h
 "
 #
+include
+"
+ProcessUtils
+.
+h
+"
+#
 endif
 /
 /
@@ -1348,7 +1355,7 @@ env
 mozilla
 :
 :
-dom
+ipc
 :
 :
 SetPrefsFd
@@ -1361,7 +1368,7 @@ mPrefsFd
 mozilla
 :
 :
-dom
+ipc
 :
 :
 SetPrefMapFd
