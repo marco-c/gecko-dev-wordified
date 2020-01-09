@@ -146,13 +146,6 @@ GLContext
 #
 include
 "
-OGLShaderProgram
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes

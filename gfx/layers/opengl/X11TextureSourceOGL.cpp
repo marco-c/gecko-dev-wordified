@@ -135,13 +135,6 @@ gfx2DGlue
 .
 h
 "
-#
-include
-"
-GLContext
-.
-h
-"
 namespace
 mozilla
 {
