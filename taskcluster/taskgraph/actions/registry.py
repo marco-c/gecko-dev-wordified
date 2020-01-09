@@ -2062,6 +2062,12 @@ hook
 '
                     
 '
+actionPerm
+'
+:
+actionPerm
+                    
+'
 hookGroupId
 '
 :
