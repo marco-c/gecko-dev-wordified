@@ -323,6 +323,9 @@ paused
 <
 div
 >
+<
+div
+>
 {
 L10N
 .
@@ -341,6 +344,10 @@ renderMessage
 why
 )
 }
+<
+/
+div
+>
 <
 /
 div
