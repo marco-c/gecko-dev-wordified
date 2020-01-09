@@ -215,7 +215,9 @@ once
 "
 picker
 -
-stopped
+node
+-
+canceled
 "
 )
 ;

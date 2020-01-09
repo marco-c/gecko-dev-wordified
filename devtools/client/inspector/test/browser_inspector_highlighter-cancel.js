@@ -297,12 +297,16 @@ options
 return
 inspector
 .
-toolbox
+inspector
+.
+nodePicker
 .
 once
 (
 "
 picker
+-
+node
 -
 canceled
 "
