@@ -305,7 +305,7 @@ js
 prefix
 }
 /
-mojo_layouttest_test
+mojo_web_test_helper_test
 .
 mojom
 .
