@@ -3778,14 +3778,6 @@ false
 )
 ;
 }
-void
-adjustGetToSet
-(
-Node
-node
-)
-{
-}
 }
 JS_HAZ_ROOTED
 ;
