@@ -758,7 +758,6 @@ ListNode
 >
 (
 kind
-JSOP_NOP
 left
 )
 ;
