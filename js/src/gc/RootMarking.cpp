@@ -4145,7 +4145,7 @@ MOZ_ASSERT
 zone
 -
 >
-isGCMarkingGray
+isGCMarkingBlackAndGray
 (
 )
 |

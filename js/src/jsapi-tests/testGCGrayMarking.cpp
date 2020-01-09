@@ -2648,7 +2648,7 @@ zone
 )
 -
 >
-isGCMarkingBlack
+isGCMarkingBlackOnly
 (
 )
 )
@@ -2839,7 +2839,7 @@ zone
 )
 -
 >
-isGCMarkingBlack
+isGCMarkingBlackOnly
 (
 )
 )
