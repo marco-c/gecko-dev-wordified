@@ -64529,6 +64529,7 @@ break
 }
 if
 (
+!
 aBypassClassifier
 )
 {
@@ -64538,7 +64539,7 @@ loadFlags
 nsIChannel
 :
 :
-LOAD_BYPASS_URL_CLASSIFIER
+LOAD_CLASSIFY_URI
 ;
 }
 /
