@@ -3701,7 +3701,6 @@ stopListeners
 function
 (
 listeners
-onResponse
 )
 {
 const
@@ -3731,7 +3730,6 @@ _client
 request
 (
 packet
-onResponse
 )
 ;
 }
