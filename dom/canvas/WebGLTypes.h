@@ -883,7 +883,7 @@ includes
 NormU
 ?
 Int
-Bool
+Boolean
 /
 /
 Can

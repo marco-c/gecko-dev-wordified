@@ -489,7 +489,7 @@ webgl
 AttribBaseType
 :
 :
-Bool
+Boolean
 ;
 /
 /
