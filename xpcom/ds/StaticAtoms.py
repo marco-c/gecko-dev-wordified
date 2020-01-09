@@ -26901,6 +26901,24 @@ n
 "
                  
 "
+#
+ifndef
+nsGkAtomConsts_h
+\
+n
+"
+                 
+"
+#
+define
+nsGkAtomConsts_h
+\
+n
+\
+n
+"
+                 
+"
 namespace
 mozilla
 {
@@ -26958,6 +26976,15 @@ n
                  
 "
 }
+\
+n
+\
+n
+"
+                 
+"
+#
+endif
 \
 n
 "
