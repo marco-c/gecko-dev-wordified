@@ -2004,6 +2004,7 @@ if
 acc
 )
 {
+return
 nsTArray
 <
 ProxyAccessible
@@ -2067,6 +2068,7 @@ if
 relationType
 )
 {
+return
 nsTArray
 <
 ProxyAccessible
@@ -2110,6 +2112,7 @@ hr
 )
 )
 {
+return
 nsTArray
 <
 ProxyAccessible
