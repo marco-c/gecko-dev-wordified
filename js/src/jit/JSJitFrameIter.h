@@ -169,6 +169,9 @@ h
 namespace
 js
 {
+class
+ArgumentsObject
+;
 namespace
 jit
 {

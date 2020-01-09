@@ -1009,11 +1009,7 @@ shared
 )
 ;
 }
-PreBarriered
-<
-RegExpShared
-*
->
+HeapPtrRegExpShared
 &
 sharedRef
 (
@@ -1034,11 +1030,7 @@ PRIVATE_SLOT
 return
 reinterpret_cast
 <
-PreBarriered
-<
-RegExpShared
-*
->
+HeapPtrRegExpShared
 &
 >
 (

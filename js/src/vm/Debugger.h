@@ -13242,6 +13242,7 @@ private
 :
 /
 *
+*
 |
 handler
 |
@@ -13251,6 +13252,14 @@ unconditionally
 during
 minor
 GC
+so
+a
+post
+barrier
+is
+*
+not
+required
 .
 *
 /
@@ -13344,9 +13353,8 @@ nextInSite
 (
 )
 ;
-const
-PreBarrieredObject
-&
+JSObject
+*
 getHandler
 (
 )
