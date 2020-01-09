@@ -1405,7 +1405,7 @@ dummy
 )
 ;
 }
-DispatchTimeMarchesOn
+TimeMarchesOn
 (
 )
 ;
@@ -1562,7 +1562,7 @@ i
 )
 ;
 }
-DispatchTimeMarchesOn
+TimeMarchesOn
 (
 )
 ;
@@ -1932,7 +1932,7 @@ aCue
 )
 ;
 }
-DispatchTimeMarchesOn
+TimeMarchesOn
 (
 )
 ;
@@ -1973,7 +1973,7 @@ aCue
 )
 ;
 }
-DispatchTimeMarchesOn
+TimeMarchesOn
 (
 )
 ;
@@ -4045,6 +4045,10 @@ thread
 "
 )
 ;
+mTimeMarchesOnDispatched
+=
+false
+;
 CycleCollectedJSContext
 *
 context
@@ -4147,10 +4151,6 @@ WEBVTT_LOG
 TimeMarchesOn
 "
 )
-;
-mTimeMarchesOnDispatched
-=
-false
 ;
 /
 /
@@ -5690,7 +5690,7 @@ NotifyCueUpdated
 "
 )
 ;
-DispatchTimeMarchesOn
+TimeMarchesOn
 (
 )
 ;
