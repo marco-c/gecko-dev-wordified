@@ -223,13 +223,11 @@ final
 boolean
 redirected
 ;
-/
-*
-package
-*
-/
+protected
 WebResponse
 (
+final
+NonNull
 Builder
 builder
 )

@@ -274,13 +274,11 @@ Nullable
 ByteBuffer
 body
 ;
-/
-*
-package
-*
-/
+protected
 WebMessage
 (
+final
+NonNull
 Builder
 builder
 )
