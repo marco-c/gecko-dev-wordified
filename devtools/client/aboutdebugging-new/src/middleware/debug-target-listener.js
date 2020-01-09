@@ -360,7 +360,9 @@ WORKER
 {
 client
 .
-addListener
+mainRoot
+.
+on
 (
 "
 workerListChanged
@@ -500,7 +502,9 @@ WORKER
 {
 client
 .
-removeListener
+mainRoot
+.
+off
 (
 "
 workerListChanged
