@@ -182,7 +182,9 @@ h
 #
 include
 "
-jsfriendapi
+js
+/
+Promise
 .
 h
 "

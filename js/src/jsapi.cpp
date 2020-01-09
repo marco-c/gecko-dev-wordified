@@ -23212,7 +23212,7 @@ SetGetIncumbentGlobalCallback
 JSContext
 *
 cx
-JSGetIncumbentGlobalCallback
+GetIncumbentGlobalCallback
 callback
 )
 {
@@ -23234,7 +23234,7 @@ SetEnqueuePromiseJobCallback
 JSContext
 *
 cx
-JSEnqueuePromiseJobCallback
+EnqueuePromiseJobCallback
 callback
 void
 *
@@ -23273,7 +23273,7 @@ SetPromiseRejectionTrackerCallback
 JSContext
 *
 cx
-JSPromiseRejectionTrackerCallback
+PromiseRejectionTrackerCallback
 callback
 void
 *
