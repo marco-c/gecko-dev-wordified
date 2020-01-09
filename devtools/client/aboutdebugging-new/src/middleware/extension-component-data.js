@@ -273,6 +273,7 @@ EXTENSION
 const
 {
 actor
+iconDataURL
 iconURL
 id
 manifestURL
@@ -284,6 +285,9 @@ extension
 const
 icon
 =
+iconDataURL
+|
+|
 iconURL
 |
 |
