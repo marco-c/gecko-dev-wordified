@@ -3943,16 +3943,6 @@ private
 :
 char
 *
-mStart
-;
-/
-/
-The
-first
-entry
-.
-char
-*
 mLimit
 ;
 /
