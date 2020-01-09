@@ -832,7 +832,6 @@ rv
 isEmpty
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 HandleKeyPressEvent
@@ -1268,7 +1267,6 @@ be
 set
 *
 /
-MOZ_CAN_RUN_SCRIPT
 nsresult
 SetText
 (
@@ -1333,7 +1331,6 @@ replaced
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
 nsresult
 ReplaceTextAsAction
 (
@@ -2553,7 +2550,6 @@ document
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 SelectEntireDocument

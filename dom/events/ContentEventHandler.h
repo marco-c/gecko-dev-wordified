@@ -829,7 +829,6 @@ aEvent
 NS_SELECTION_
 *
 event
-MOZ_CAN_RUN_SCRIPT
 nsresult
 OnSelectionEvent
 (
