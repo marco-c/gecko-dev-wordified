@@ -1691,7 +1691,6 @@ flags
 .
 *
 /
-default
 void
 onPlaybackStateChange
 (
@@ -1701,8 +1700,7 @@ MediaStateFlags
 int
 mediaState
 )
-{
-}
+;
 /
 *
 *
@@ -1755,7 +1753,6 @@ flags
 .
 *
 /
-default
 void
 onReadyStateChange
 (
@@ -1765,8 +1762,7 @@ ReadyStateFlags
 int
 readyState
 )
-{
-}
+;
 /
 *
 *
@@ -1805,7 +1801,6 @@ media
 .
 *
 /
-default
 void
 onMetadataChange
 (
@@ -1814,8 +1809,7 @@ mediaElement
 Metadata
 metaData
 )
-{
-}
+;
 /
 *
 *
@@ -1860,7 +1854,6 @@ ranges
 .
 *
 /
-default
 void
 onLoadProgress
 (
@@ -1869,8 +1862,7 @@ mediaElement
 LoadProgressInfo
 progressInfo
 )
-{
-}
+;
 /
 *
 *
@@ -1917,7 +1909,6 @@ muted
 .
 *
 /
-default
 void
 onVolumeChange
 (
@@ -1928,8 +1919,7 @@ volume
 boolean
 muted
 )
-{
-}
+;
 /
 *
 *
@@ -1975,7 +1965,6 @@ seconds
 .
 *
 /
-default
 void
 onTimeChange
 (
@@ -1984,8 +1973,7 @@ mediaElement
 double
 time
 )
-{
-}
+;
 /
 *
 *
@@ -2031,7 +2019,6 @@ speed
 .
 *
 /
-default
 void
 onPlaybackRateChange
 (
@@ -2040,8 +2027,7 @@ mediaElement
 double
 rate
 )
-{
-}
+;
 /
 *
 *
@@ -2085,7 +2071,6 @@ mode
 .
 *
 /
-default
 void
 onFullscreenChange
 (
@@ -2094,8 +2079,7 @@ mediaElement
 boolean
 fullscreen
 )
-{
-}
+;
 /
 *
 *
@@ -2141,7 +2125,6 @@ flags
 .
 *
 /
-default
 void
 onError
 (
@@ -2151,8 +2134,7 @@ MediaErrorFlags
 int
 errorCode
 )
-{
-}
+;
 }
 /
 *

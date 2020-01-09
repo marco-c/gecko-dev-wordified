@@ -16569,15 +16569,13 @@ event
 .
 *
 /
-default
 void
 onFirstComposite
 (
 GeckoSession
 session
 )
-{
-}
+;
 }
 public
 interface

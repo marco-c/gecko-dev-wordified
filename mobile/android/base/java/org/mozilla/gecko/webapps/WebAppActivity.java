@@ -2174,6 +2174,17 @@ in
 Fennec
 }
 Override
+public
+void
+onFirstComposite
+(
+final
+GeckoSession
+session
+)
+{
+}
+Override
 /
 /
 GeckoSession

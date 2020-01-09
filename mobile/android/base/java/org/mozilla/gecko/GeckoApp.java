@@ -5801,6 +5801,17 @@ e10s
 in
 Fennec
 }
+Override
+public
+void
+onFirstComposite
+(
+final
+GeckoSession
+session
+)
+{
+}
 protected
 void
 setFullScreen
