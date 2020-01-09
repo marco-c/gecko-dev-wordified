@@ -3920,8 +3920,10 @@ public
 void
 sendAccessibilityEvent
 (
+final
 View
 host
+final
 int
 eventType
 )
