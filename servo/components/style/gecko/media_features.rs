@@ -2458,6 +2458,9 @@ PrefersColorScheme
 NoPreference
 }
 }
+bitflags
+!
+{
 /
 /
 /
@@ -2479,9 +2482,6 @@ mediaqueries
 mf
 -
 interaction
-bitflags
-!
-{
 struct
 PointerCapabilities
 :

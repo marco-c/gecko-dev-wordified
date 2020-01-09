@@ -133,6 +133,9 @@ smallvec
 :
 SmallVec
 ;
+thread_local
+!
+{
 /
 /
 /
@@ -182,9 +185,6 @@ it
 is
 dropped
 .
-thread_local
-!
-(
 static
 BLOOM_KEY
 :
@@ -214,8 +214,8 @@ new
 )
 )
 )
-)
 ;
+}
 /
 /
 /

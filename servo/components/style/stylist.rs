@@ -666,6 +666,9 @@ data
 :
 GeckoStyleSheet
 ;
+lazy_static
+!
+{
 /
 /
 /
@@ -683,9 +686,6 @@ shared
 across
 documents
 .
-lazy_static
-!
-{
 static
 ref
 UA_CASCADE_DATA_CACHE
