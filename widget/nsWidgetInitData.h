@@ -730,6 +730,10 @@ mHasRemoteContent
 (
 false
 )
+mAlwaysOnTop
+(
+false
+)
 {
 }
 nsWindowType
@@ -902,6 +906,9 @@ mMouseTransparent
 ;
 bool
 mHasRemoteContent
+;
+bool
+mAlwaysOnTop
 ;
 }
 ;
