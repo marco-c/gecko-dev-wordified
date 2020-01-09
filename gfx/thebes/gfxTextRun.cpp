@@ -11095,12 +11095,12 @@ ShapedTextFlags
 TEXT_ORIENT_VERTICAL_UPRIGHT
 )
 ?
-gfxFont
+nsFontMetrics
 :
 :
 eVertical
 :
-gfxFont
+nsFontMetrics
 :
 :
 eHorizontal
@@ -18903,7 +18903,7 @@ font
 >
 GetMetrics
 (
-gfxFont
+nsFontMetrics
 :
 :
 eHorizontal
@@ -18921,7 +18921,7 @@ GetFirstValidFont
 >
 GetMetrics
 (
-gfxFont
+nsFontMetrics
 :
 :
 eHorizontal
@@ -18968,7 +18968,7 @@ GetFirstValidFont
 >
 GetMetrics
 (
-gfxFont
+nsFontMetrics
 :
 :
 eHorizontal

@@ -161,6 +161,13 @@ gfxMathTable
 .
 h
 "
+#
+include
+"
+gfxTextRun
+.
+h
+"
 using
 namespace
 mozilla

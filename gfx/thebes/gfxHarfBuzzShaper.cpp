@@ -2076,7 +2076,7 @@ mFont
 >
 GetMetrics
 (
-gfxFont
+nsFontMetrics
 :
 :
 eVertical
@@ -3241,7 +3241,7 @@ mFont
 >
 GetMetrics
 (
-gfxFont
+nsFontMetrics
 :
 :
 eVertical

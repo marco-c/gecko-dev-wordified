@@ -4429,7 +4429,7 @@ aFont
 >
 GetMetrics
 (
-gfxFont
+nsFontMetrics
 :
 :
 eHorizontal
@@ -6148,6 +6148,9 @@ mFUnitsConvFactor
 {
 GetMetrics
 (
+nsFontMetrics
+:
+:
 eHorizontal
 )
 ;
@@ -13695,6 +13698,9 @@ height
 =
 GetMetrics
 (
+nsFontMetrics
+:
+:
 eHorizontal
 )
 .
@@ -15350,6 +15356,9 @@ metrics
 =
 GetMetrics
 (
+nsFontMetrics
+:
+:
 eHorizontal
 )
 ;
@@ -17004,9 +17013,6 @@ Current
 position
 in
 appunits
-gfxFont
-:
-:
 Orientation
 orientation
 =
@@ -17021,7 +17027,13 @@ ShapedTextFlags
 :
 TEXT_ORIENT_VERTICAL_UPRIGHT
 ?
+nsFontMetrics
+:
+:
 eVertical
+:
+nsFontMetrics
+:
 :
 eHorizontal
 ;
@@ -17056,6 +17068,9 @@ UseCenterBaseline
 orientation
 =
 =
+nsFontMetrics
+:
+:
 eHorizontal
 )
 {
@@ -19598,7 +19613,13 @@ GetMetrics
 (
 aVertical
 ?
+nsFontMetrics
+:
+:
 eVertical
+:
+nsFontMetrics
+:
 :
 eHorizontal
 )
@@ -23701,6 +23722,9 @@ fontMetrics
 =
 GetMetrics
 (
+nsFontMetrics
+:
+:
 eHorizontal
 )
 ;
@@ -27665,6 +27689,9 @@ case
 return
 GetMetrics
 (
+nsFontMetrics
+:
+:
 eHorizontal
 )
 .
@@ -27682,6 +27709,9 @@ case
 return
 GetMetrics
 (
+nsFontMetrics
+:
+:
 eHorizontal
 )
 .
