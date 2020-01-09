@@ -41,7 +41,7 @@ message
 or
 rejects
 on
-2000ms
+3000ms
 timeout
 .
 function
@@ -97,7 +97,7 @@ reject
 timeout
 '
 )
-2000
+3000
 )
 ;
 const
