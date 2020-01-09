@@ -341,9 +341,10 @@ instead
 .
 #
 if
+!
 defined
 (
-XP_LINUX
+XP_WIN
 )
 &
 &
