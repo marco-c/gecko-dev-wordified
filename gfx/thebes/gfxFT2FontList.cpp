@@ -3708,6 +3708,10 @@ sr
 -
 >
 tags
+sr
+-
+>
+numTags
 )
 )
 {
