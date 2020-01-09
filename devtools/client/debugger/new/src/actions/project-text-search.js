@@ -564,7 +564,9 @@ dispatch
 (
 loadSourceText
 (
+{
 source
+}
 )
 )
 ;
