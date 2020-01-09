@@ -214,6 +214,15 @@ Bundle
 import
 android
 .
+support
+.
+annotation
+.
+UiThread
+;
+import
+android
+.
 text
 .
 InputType
@@ -3394,6 +3403,7 @@ instance
 .
 *
 /
+UiThread
 public
 void
 setView
@@ -3403,6 +3413,12 @@ View
 view
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 if
 (
 mView
