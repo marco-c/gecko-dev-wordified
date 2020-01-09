@@ -2017,6 +2017,11 @@ buildSummaryMsg
 (
 )
 }
+isLoading
+=
+{
+false
+}
 onChange
 =
 {
