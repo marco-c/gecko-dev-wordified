@@ -137,10 +137,6 @@ using
 namespace
 Elf
 ;
-using
-namespace
-mozilla
-;
 /
 *
 TODO
