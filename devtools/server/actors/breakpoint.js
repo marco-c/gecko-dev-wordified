@@ -914,6 +914,8 @@ sources
 isBlackBoxed
 (
 url
+generatedLine
+generatedColumn
 )
 |
 |
