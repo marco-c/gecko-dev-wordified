@@ -185,7 +185,7 @@ e
             
 self
 .
-failUnless
+assertTrue
 (
 str
 (

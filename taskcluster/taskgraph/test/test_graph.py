@@ -1204,7 +1204,7 @@ e
                     
 self
 .
-failUnless
+assertTrue
 (
 r
 in
@@ -1415,7 +1415,7 @@ e
                     
 self
 .
-failUnless
+assertTrue
 (
 l
 in
