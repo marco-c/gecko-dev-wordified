@@ -734,6 +734,7 @@ WorkletThread
 :
 Create
 (
+this
 )
 ;
 if
