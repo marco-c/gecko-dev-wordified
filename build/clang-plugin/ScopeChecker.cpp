@@ -496,7 +496,7 @@ Loc
 D
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 ;
@@ -591,7 +591,7 @@ Loc
 E
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 ;
@@ -840,7 +840,7 @@ Loc
 E
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 ;
@@ -923,7 +923,7 @@ Loc
 E
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 ;

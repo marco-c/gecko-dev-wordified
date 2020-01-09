@@ -219,7 +219,7 @@ diag
 Specialization
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 "

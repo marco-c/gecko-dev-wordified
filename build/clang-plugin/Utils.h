@@ -296,7 +296,7 @@ getExpansionLoc
 (
 D
 .
-getLocStart
+getBeginLoc
 (
 )
 )
@@ -1561,7 +1561,7 @@ Loc
 Call
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 ;
@@ -3196,7 +3196,7 @@ Loc
 S
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 ;

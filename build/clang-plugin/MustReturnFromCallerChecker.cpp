@@ -419,7 +419,7 @@ diag
 Call
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 "

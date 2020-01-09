@@ -246,7 +246,7 @@ diag
 Method
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 "
@@ -272,7 +272,7 @@ diag
 Method
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 "

@@ -384,7 +384,7 @@ diag
 Expression
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 Error
@@ -431,7 +431,7 @@ diag
 Expression
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 Error

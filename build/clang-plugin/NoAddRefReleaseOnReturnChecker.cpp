@@ -250,7 +250,7 @@ diag
 Call
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 "

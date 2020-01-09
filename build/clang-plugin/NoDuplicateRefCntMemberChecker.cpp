@@ -365,7 +365,7 @@ diag
 D
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 Error
@@ -383,7 +383,7 @@ diag
 BaseRefCntMember
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 Note1
@@ -406,7 +406,7 @@ diag
 RefCntMember
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 Note2
@@ -474,7 +474,7 @@ diag
 D
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 Error
@@ -492,7 +492,7 @@ diag
 BaseRefCntMember
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 Note
@@ -515,7 +515,7 @@ diag
 FoundRefCntBase
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 Note

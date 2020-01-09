@@ -842,7 +842,7 @@ diag
 D
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 Error
@@ -868,7 +868,7 @@ diag
 E
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 Note
