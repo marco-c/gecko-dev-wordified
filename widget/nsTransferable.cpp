@@ -2304,9 +2304,6 @@ rv
 ;
 }
 }
-uint32_t
-dataLen
-;
 return
 mFormatConv
 -
@@ -2323,11 +2320,8 @@ get
 (
 )
 dataBytes
-0
 aFlavor
 aData
-&
-dataLen
 )
 ;
 }
@@ -2631,9 +2625,6 @@ nsISupports
 >
 ConvertedData
 ;
-uint32_t
-ConvertedLen
-;
 mFormatConv
 -
 >
@@ -2641,7 +2632,6 @@ Convert
 (
 aFlavor
 aData
-0
 data
 .
 GetFlavor
@@ -2655,8 +2645,6 @@ getter_AddRefs
 (
 ConvertedData
 )
-&
-ConvertedLen
 )
 ;
 data
