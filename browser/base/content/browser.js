@@ -34017,6 +34017,8 @@ trimURLs
 {
 url
 =
+BrowserUtils
+.
 trimURL
 (
 url

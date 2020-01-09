@@ -1458,9 +1458,7 @@ trimURLs
 "
 )
 ?
-this
-.
-window
+BrowserUtils
 .
 trimURL
 (
