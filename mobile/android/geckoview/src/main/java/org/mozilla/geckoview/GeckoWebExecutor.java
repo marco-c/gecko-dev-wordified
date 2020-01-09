@@ -114,6 +114,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 IntDef
 ;
 import
@@ -320,6 +329,7 @@ pre
 >
 *
 /
+AnyThread
 public
 class
 GeckoWebExecutor
