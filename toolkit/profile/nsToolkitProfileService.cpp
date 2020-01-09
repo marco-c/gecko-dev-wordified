@@ -9244,9 +9244,9 @@ aOuter
 return
 NS_ERROR_NO_AGGREGATION
 ;
-nsCOMPtr
+RefPtr
 <
-nsIToolkitProfileService
+nsToolkitProfileService
 >
 profileService
 =
@@ -9347,7 +9347,7 @@ NS_OK
 nsresult
 NS_NewToolkitProfileService
 (
-nsIToolkitProfileService
+nsToolkitProfileService
 *
 *
 aResult
