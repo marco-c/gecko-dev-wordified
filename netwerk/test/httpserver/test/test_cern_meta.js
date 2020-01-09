@@ -120,9 +120,9 @@ XPCOMUtils
 defineLazyGetter
 (
 this
-'
+"
 PREFIX
-'
+"
 function
 (
 )
@@ -151,9 +151,9 @@ XPCOMUtils
 defineLazyGetter
 (
 this
-'
+"
 tests
-'
+"
 function
 (
 )

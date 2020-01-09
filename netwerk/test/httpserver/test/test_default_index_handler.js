@@ -140,9 +140,9 @@ XPCOMUtils
 defineLazyGetter
 (
 this
-'
+"
 BASE_URL
-'
+"
 function
 (
 )
@@ -1669,10 +1669,6 @@ push
 (
 {
 name
-:
-name
-isDirectory
-:
 isDirectory
 }
 )

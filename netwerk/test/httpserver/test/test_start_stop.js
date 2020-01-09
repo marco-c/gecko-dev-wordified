@@ -390,8 +390,6 @@ stop
 (
 {
 onStopped
-:
-function
 (
 )
 {

@@ -296,8 +296,6 @@ dispatchToMainThread
 (
 {
 run
-:
-function
 (
 )
 {
