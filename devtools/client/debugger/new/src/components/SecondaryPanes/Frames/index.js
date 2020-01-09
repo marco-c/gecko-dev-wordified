@@ -212,6 +212,7 @@ getFrameworkGroupingState
 getSelectedFrame
 getCallStackFrames
 getPauseReason
+getCurrentThread
 }
 from
 "
@@ -1177,6 +1178,10 @@ why
 getPauseReason
 (
 state
+getCurrentThread
+(
+state
+)
 )
 frameworkGroupingOn
 :
@@ -1189,6 +1194,10 @@ selectedFrame
 getSelectedFrame
 (
 state
+getCurrentThread
+(
+state
+)
 )
 }
 )

@@ -164,6 +164,7 @@ import
 getVisibleSelectedFrame
 getPauseReason
 getSourceFromId
+getCurrentThread
 }
 from
 "
@@ -697,6 +698,10 @@ why
 getPauseReason
 (
 state
+getCurrentThread
+(
+state
+)
 )
 }
 ;

@@ -89,6 +89,7 @@ import
 {
 getShouldPauseOnExceptions
 getShouldPauseOnCaughtExceptions
+getCurrentThread
 }
 from
 "
@@ -152,6 +153,16 @@ pauseOnExceptions
 }
 )
 ;
+const
+thread
+=
+getCurrentThread
+(
+getState
+(
+)
+)
+;
 dispatch
 (
 actions
@@ -184,6 +195,7 @@ getShouldPauseOnExceptions
 getState
 (
 )
+thread
 )
 )
 .
@@ -199,6 +211,7 @@ getShouldPauseOnCaughtExceptions
 getState
 (
 )
+thread
 )
 )
 .

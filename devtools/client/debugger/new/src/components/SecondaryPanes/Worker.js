@@ -111,7 +111,7 @@ actions
 import
 {
 getCurrentThread
-getThreadIsPaused
+getIsPaused
 }
 from
 "
@@ -409,7 +409,7 @@ state
 )
 isPaused
 :
-getThreadIsPaused
+getIsPaused
 (
 state
 props
