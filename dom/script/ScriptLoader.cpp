@@ -8729,6 +8729,9 @@ acceptTypes
 ;
 if
 (
+nsJSUtils
+:
+:
 BinASTEncodingEnabled
 (
 )
