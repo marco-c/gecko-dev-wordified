@@ -489,7 +489,6 @@ chrome
 )
 ;
 let
-form
 front
 ;
 if
@@ -778,8 +777,7 @@ parameter
 )
 ;
 }
-const
-response
+front
 =
 await
 client
@@ -794,12 +792,6 @@ outerWindowID
 id
 }
 )
-;
-form
-=
-response
-.
-window
 ;
 chrome
 =
@@ -873,7 +865,6 @@ forRemoteTab
 (
 {
 client
-form
 activeTab
 :
 front
