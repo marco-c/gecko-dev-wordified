@@ -219,6 +219,15 @@ kDefaultScrollDelayMS
 =
 85
 ;
+bool
+IsEventAttributeNameInternal
+(
+nsAtom
+*
+aName
+)
+override
+;
 void
 SetStartStopCallback
 (
