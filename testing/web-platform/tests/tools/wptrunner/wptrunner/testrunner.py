@@ -1488,23 +1488,7 @@ cancel
 )
     
 def
-check_for_crashes
-(
-self
-)
-:
-        
-return
-self
-.
-browser
-.
-check_for_crashes
-(
-)
-    
-def
-log_crash
+check_crash
 (
 self
 test_id
@@ -1516,7 +1500,7 @@ self
 .
 browser
 .
-log_crash
+check_crash
 (
 process
 =
@@ -3462,21 +3446,11 @@ RunnerManagerState
 initializing
 )
         
-if
 self
 .
 browser
 .
-check_for_crashes
-(
-)
-:
-            
-self
-.
-browser
-.
-log_crash
+check_crash
 (
 None
 )
@@ -4108,8 +4082,11 @@ self
 .
 browser
 .
-check_for_crashes
+check_crash
 (
+test
+.
+id
 )
 :
             
@@ -4163,26 +4140,6 @@ i
 self
 .
 unexpected_count
-)
-        
-if
-status
-=
-=
-"
-CRASH
-"
-:
-            
-self
-.
-browser
-.
-log_crash
-(
-test
-.
-id
 )
         
 if
