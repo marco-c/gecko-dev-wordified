@@ -3428,6 +3428,13 @@ Gecko_NewNoneTransform
 (
 )
 ;
+void
+Gecko_StyleDisplay_GenerateCombinedTransform
+(
+nsStyleDisplay
+*
+)
+;
 /
 /
 Getter
