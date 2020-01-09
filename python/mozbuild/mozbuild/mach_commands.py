@@ -21943,6 +21943,10 @@ get_outgoing_files
 (
 )
         
+if
+path
+:
+            
 path
 =
 map
