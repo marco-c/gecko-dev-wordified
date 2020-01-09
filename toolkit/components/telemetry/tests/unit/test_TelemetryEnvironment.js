@@ -1735,6 +1735,12 @@ nsIGfxInfoDebug
 ;
 gfxInfo
 .
+fireTestProcess
+(
+)
+;
+gfxInfo
+.
 spoofVendorID
 (
 GFX_VENDOR_ID

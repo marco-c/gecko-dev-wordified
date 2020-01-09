@@ -271,6 +271,12 @@ Ci
 nsIGfxInfoDebug
 )
 ;
+gfxInfo
+.
+fireTestProcess
+(
+)
+;
 /
 /
 Set
