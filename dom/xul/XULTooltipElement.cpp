@@ -665,6 +665,11 @@ shouldChange
 =
 false
 ;
+if
+(
+textProvider
+)
+{
 textProvider
 -
 >
@@ -685,6 +690,7 @@ direction
 shouldChange
 )
 ;
+}
 if
 (
 shouldChange
