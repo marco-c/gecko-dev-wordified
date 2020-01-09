@@ -2092,18 +2092,6 @@ ReadableStreamUnderlyingSource
 underlyingSource
 )
 {
-MOZ_ASSERT
-(
-getFixedSlot
-(
-Slot_Flags
-)
-.
-isUndefined
-(
-)
-)
-;
 setUnderlyingSource
 (
 JS
@@ -2115,7 +2103,7 @@ underlyingSource
 )
 )
 ;
-setFlags
+addFlags
 (
 Flag_ExternalSource
 )
