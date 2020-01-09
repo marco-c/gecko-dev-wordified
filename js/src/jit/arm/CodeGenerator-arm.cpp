@@ -11110,7 +11110,7 @@ then
 the
 result
 is
-definately
+definitely
 false
 .
 jumpToBlock
@@ -11233,7 +11233,7 @@ then
 the
 result
 is
-definately
+definitely
 false
 .
 jumpToBlock
