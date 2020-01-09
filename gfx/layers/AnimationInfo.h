@@ -325,6 +325,7 @@ uint64_t
 GetAnimationGeneration
 (
 )
+const
 {
 return
 mAnimationGeneration
