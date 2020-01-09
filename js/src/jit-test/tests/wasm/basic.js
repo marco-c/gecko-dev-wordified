@@ -1397,7 +1397,9 @@ result
 i64
 )
 (
-get_local
+local
+.
+get
 0
 )
 )
@@ -3187,7 +3189,9 @@ get_local
 )
 '
 /
-get_local
+local
+.
+get
 index
 out
 of
@@ -3483,7 +3487,9 @@ module
 (
 func
 (
-set_local
+local
+.
+set
 0
 (
 i32
@@ -3496,7 +3502,9 @@ const
 )
 '
 /
-set_local
+local
+.
+set
 index
 out
 of

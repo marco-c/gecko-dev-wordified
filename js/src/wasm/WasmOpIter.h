@@ -8370,7 +8370,9 @@ return
 fail
 (
 "
-get_local
+local
+.
+get
 index
 out
 of
@@ -8461,7 +8463,9 @@ return
 fail
 (
 "
-set_local
+local
+.
+set
 index
 out
 of
@@ -8553,7 +8557,9 @@ return
 fail
 (
 "
-set_local
+local
+.
+set
 index
 out
 of
@@ -8640,7 +8646,9 @@ return
 fail
 (
 "
-get_global
+global
+.
+get
 index
 out
 of
@@ -8735,7 +8743,9 @@ return
 fail
 (
 "
-set_global
+global
+.
+set
 index
 out
 of
@@ -8862,7 +8872,9 @@ return
 fail
 (
 "
-set_global
+global
+.
+set
 index
 out
 of
