@@ -407,6 +407,16 @@ aTagName
 ;
 static
 EditAction
+GetEditActionForRemoveList
+(
+const
+nsAtom
+&
+aTagName
+)
+;
+static
+EditAction
 GetEditActionForInsert
 (
 const
