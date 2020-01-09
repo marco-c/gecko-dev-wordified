@@ -204,6 +204,9 @@ const
 nsAString
 &
 aScriptURL
+nsIURI
+*
+aResolvedScriptURL
 const
 Maybe
 <
