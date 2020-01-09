@@ -173,7 +173,7 @@ enum
 class
 RecordedProcessType
 :
-uint16_t
+uint8_t
 {
 Main
 =
@@ -208,17 +208,9 @@ Gpu
 <
 GeckoProcessType_GPU
 )
-Socket
-=
-(
-1
-<
-<
-GeckoProcessType_Socket
-)
 AllChildren
 =
-0xFFFF
+0xFF
 -
 1
 /
@@ -240,7 +232,7 @@ gpu
 )
 All
 =
-0xFFFF
+0xFF
 /
 /
 All

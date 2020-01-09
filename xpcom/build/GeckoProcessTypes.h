@@ -314,15 +314,3 @@ rdd
 "
 RDD
 )
-/
-/
-Socket
-process
-GECKO_PROCESS_TYPE
-(
-Socket
-"
-socket
-"
-Socket
-)

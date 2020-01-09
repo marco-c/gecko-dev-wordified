@@ -193,9 +193,6 @@ main
 "
 content
 "
-"
-socket
-"
 ]
                 
 "
