@@ -14645,11 +14645,10 @@ RootedObject
 obj
 (
 cx
-ToObjectFromStackForPropertyAccess
+ToObjectFromStack
 (
 cx
 objv
-index
 )
 )
 ;
@@ -19658,11 +19657,10 @@ RootedObject
 obj
 (
 cx
-ToObjectFromStackForPropertyAccess
+ToObjectFromStack
 (
 cx
 lhs
-id
 )
 )
 ;

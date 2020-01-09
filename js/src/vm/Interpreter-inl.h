@@ -3683,11 +3683,10 @@ RootedObject
 boxed
 (
 cx
-ToObjectFromStackForPropertyAccess
+ToObjectFromStack
 (
 cx
 receiver
-key
 )
 )
 ;

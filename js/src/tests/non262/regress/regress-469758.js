@@ -81,15 +81,6 @@ j
 ]
 is
 undefined
-;
-can
-'
-t
-access
-element
-at
-index
-2
 "
 )
 ;

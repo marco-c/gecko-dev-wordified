@@ -69,16 +69,6 @@ variations
 y
 is
 undefined
-;
-can
-'
-t
-access
-its
-"
-length
-"
-property
 can
 '
 t

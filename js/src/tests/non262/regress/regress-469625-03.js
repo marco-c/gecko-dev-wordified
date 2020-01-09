@@ -399,16 +399,6 @@ value
 is
 null
 ;
-can
-'
-t
-access
-its
-Symbol
-.
-iterator
-property
-;
 actual
 =
 '
