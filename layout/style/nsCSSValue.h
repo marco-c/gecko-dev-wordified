@@ -4020,17 +4020,6 @@ aMallocSizeOf
 )
 const
 ;
-static
-void
-AppendAlignJustifyValueToString
-(
-int32_t
-aValue
-nsAString
-&
-aResult
-)
-;
 private
 :
 static
