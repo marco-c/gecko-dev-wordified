@@ -67,8 +67,6 @@ os
 import
 platform
 import
-random
-import
 subprocess
 import
 sys
@@ -939,21 +937,6 @@ priority
     
 }
 }
-#
-We
-submit
-data
-to
-telemetry
-approximately
-every
-this
-many
-mach
-invocations
-TELEMETRY_SUBMISSION_FREQUENCY
-=
-10
 def
 search_path
 (
@@ -2193,31 +2176,12 @@ handler
 return
 True
         
-#
-But
-only
-submit
-about
-every
-n
--
-th
-operation
-        
-if
-random
-.
-randint
-(
-1
-TELEMETRY_SUBMISSION_FREQUENCY
-)
-!
+state_dir
+_
 =
-1
-:
-            
-return
+get_state_dir
+(
+)
         
 machpath
 =
@@ -2285,12 +2249,7 @@ py
 '
 )
                               
-get_state_dir
-(
-)
-[
-0
-]
+state_dir
 ]
                              
 stdout
