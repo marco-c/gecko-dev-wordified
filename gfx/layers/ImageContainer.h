@@ -4321,7 +4321,7 @@ ImageClient
 >
 mImageClient
 ;
-nsAutoPtr
+RefPtr
 <
 SharedSurfacesAnimation
 >
