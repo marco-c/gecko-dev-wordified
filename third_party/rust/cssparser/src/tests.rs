@@ -7671,7 +7671,7 @@ input
 ;
 input
 .
-look_for_var_functions
+look_for_var_or_env_functions
 (
 )
 ;
@@ -7704,7 +7704,7 @@ is_ok
 ;
 input
 .
-seen_var_functions
+seen_var_or_env_functions
 (
 )
 ;
@@ -7716,7 +7716,7 @@ is_ok
 )
 input
 .
-seen_var_functions
+seen_var_or_env_functions
 (
 )
 )

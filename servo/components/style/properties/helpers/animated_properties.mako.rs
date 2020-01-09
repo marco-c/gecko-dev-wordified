@@ -3751,6 +3751,15 @@ custom_properties
 context
 .
 quirks_mode
+context
+.
+device
+(
+)
+.
+environment
+(
+)
 )
 }
 ;
