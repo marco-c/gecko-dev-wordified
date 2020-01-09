@@ -1010,8 +1010,7 @@ callback
 /
 /
 Iterate
-of
-the
+over
 the
 windows
 [
@@ -1036,7 +1035,7 @@ first
 one
 is
 the
-windows
+window
 object
 itself
 the
@@ -1051,7 +1050,9 @@ indicating
 whether
 or
 not
-its
+it
+'
+s
 on
 the
 same
@@ -4923,7 +4924,7 @@ meaning
 the
 fully
 -
-sycnronous
+synchronous
 done
 function
 can
@@ -10186,7 +10187,7 @@ will
 be
 a
 test
-timout
+timeout
 this
 .
 set_status
@@ -17816,7 +17817,7 @@ template
 is
 just
 a
-javascript
+JavaScript
 structure
 .
 An
@@ -18803,7 +18804,7 @@ output_document
 *
 *
 Utility
-funcions
+functions
 *
 /
 function
@@ -20561,7 +20562,7 @@ a
 try
 .
 .
-cacth
+catch
 block
 .
 try
