@@ -3934,7 +3934,7 @@ if
 (
 previousGC
 .
-nurseryLazyCapacity
+nurseryCommitted
 !
 =
 previousGC
@@ -3951,7 +3951,7 @@ lazy_capacity
 "
 previousGC
 .
-nurseryLazyCapacity
+nurseryCommitted
 )
 ;
 }
@@ -4918,9 +4918,9 @@ capacity
 ;
 previousGC
 .
-nurseryLazyCapacity
+nurseryCommitted
 =
-lazyCapacity
+committed
 (
 )
 ;
@@ -5642,7 +5642,7 @@ rt
 addTelemetry
 (
 JS_TELEMETRY_GC_NURSERY_BYTES
-sizeOfHeapCommitted
+committed
 (
 )
 )
@@ -6566,7 +6566,7 @@ initialNurseryCapacity
 ;
 previousGC
 .
-nurseryLazyCapacity
+nurseryCommitted
 =
 spaceToEnd
 (
@@ -7001,6 +7001,18 @@ chunkCount
 )
 const
 {
+if
+(
+chunkCount
+=
+=
+0
+)
+{
+return
+0
+;
+}
 unsigned
 lastChunk
 =
