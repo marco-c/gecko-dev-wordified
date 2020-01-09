@@ -1552,6 +1552,7 @@ pub
 struct
 WrProgramCache
 {
+pub
 program_cache
 :
 Rc
