@@ -72,11 +72,14 @@ linux_common
 import
 NodeInstall
 StyloInstall
+ClangStaticAnalysisInstall
 class
 CentOSFedoraBootstrapper
 (
 NodeInstall
 StyloInstall
+                               
+ClangStaticAnalysisInstall
 BaseBootstrapper
 )
 :

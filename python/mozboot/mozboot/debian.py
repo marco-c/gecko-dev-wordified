@@ -71,6 +71,7 @@ linux_common
 import
 NodeInstall
 StyloInstall
+ClangStaticAnalysisInstall
 MERCURIAL_INSTALL_PROMPT
 =
 '
@@ -213,6 +214,8 @@ DebianBootstrapper
 (
 NodeInstall
 StyloInstall
+ClangStaticAnalysisInstall
+                         
 BaseBootstrapper
 )
 :

@@ -2420,6 +2420,18 @@ support
 .
         
 #
+Also
+install
+the
+clang
+static
+-
+analysis
+package
+by
+default
+        
+#
 The
 best
 place
@@ -2498,6 +2510,15 @@ instance
 state_dir
 =
 state_dir
+        
+self
+.
+instance
+.
+ensure_clang_static_analysis_package
+(
+checkout_root
+)
         
 self
 .

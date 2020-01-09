@@ -543,6 +543,21 @@ Sorry
 )
     
 def
+ensure_clang_static_analysis_package
+(
+self
+checkout_root
+)
+:
+        
+self
+.
+install_toolchain_static_analysis
+(
+checkout_root
+)
+    
+def
 ensure_stylo_packages
 (
 self

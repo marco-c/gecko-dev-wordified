@@ -81,11 +81,14 @@ linux_common
 import
 NodeInstall
 StyloInstall
+ClangStaticAnalysisInstall
 class
 ArchlinuxBootstrapper
 (
 NodeInstall
 StyloInstall
+                            
+ClangStaticAnalysisInstall
 BaseBootstrapper
 )
 :
