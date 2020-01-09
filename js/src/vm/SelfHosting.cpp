@@ -17933,7 +17933,7 @@ StringIteratorObject
 0
 IntrinsicGuardToStringIterator
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 GuardToRegExpStringIterator
@@ -17944,6 +17944,7 @@ RegExpStringIteratorObject
 >
 1
 0
+IntrinsicGuardToRegExpStringIterator
 )
 JS_FN
 (
@@ -18038,7 +18039,7 @@ StringIteratorObject
 2
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 NewRegExpStringIterator
@@ -18046,6 +18047,7 @@ NewRegExpStringIterator
 intrinsic_NewRegExpStringIterator
 0
 0
+IntrinsicNewRegExpStringIterator
 )
 JS_FN
 (
