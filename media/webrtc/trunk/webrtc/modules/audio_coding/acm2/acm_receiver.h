@@ -1511,6 +1511,12 @@ LastAudioFormat
 )
 const
 ;
+int
+LastAudioSampleRate
+(
+)
+const
+;
 /
 /
 /

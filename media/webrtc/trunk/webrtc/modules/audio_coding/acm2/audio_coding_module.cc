@@ -1011,6 +1011,13 @@ ReceiveFormat
 const
 override
 ;
+int
+ReceiveSampleRate
+(
+)
+const
+override
+;
 /
 /
 Incoming

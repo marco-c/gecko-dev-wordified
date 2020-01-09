@@ -627,6 +627,7 @@ vcm_
 >
 DeRegisterCaptureDataCallback
 (
+this
 )
 ;
 /
