@@ -3193,7 +3193,7 @@ false
 endif
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 static
 bool
 enableWasmGc
@@ -64704,7 +64704,7 @@ cranelift
 endif
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 enableWasmGc
 =
 op
@@ -64901,7 +64901,7 @@ wasmForceCranelift
 endif
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 .
 setWasmGc
 (
@@ -67473,7 +67473,7 @@ wasmForceCranelift
 endif
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 .
 setWasmGc
 (
@@ -70225,7 +70225,7 @@ tier2
 )
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 |
 |
 !

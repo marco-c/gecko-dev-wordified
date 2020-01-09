@@ -6904,6 +6904,11 @@ nothing
 break
 ;
 }
+#
+endif
+#
+ifdef
+ENABLE_WASM_REFTYPES
 case
 uint16_t
 (
@@ -9894,7 +9899,7 @@ true
 }
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 static
 bool
 DecodeGCFeatureOptInSection
@@ -16013,7 +16018,7 @@ false
 }
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 if
 (
 !
@@ -18049,11 +18054,11 @@ error
 ;
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 HasGcTypes
 gcTypesConfigured
 =
-HasGcSupport
+HasReftypesSupport
 (
 cx
 )

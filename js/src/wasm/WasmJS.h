@@ -395,7 +395,7 @@ stack
 walking
 .
 bool
-HasGcSupport
+HasReftypesSupport
 (
 JSContext
 *

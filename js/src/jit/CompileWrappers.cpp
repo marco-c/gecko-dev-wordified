@@ -1536,7 +1536,7 @@ false
 )
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 wasmGcEnabled_
 (
 false
@@ -1617,13 +1617,13 @@ cx
 ;
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 wasmGcEnabled_
 =
 wasm
 :
 :
-HasGcSupport
+HasReftypesSupport
 (
 cx
 )

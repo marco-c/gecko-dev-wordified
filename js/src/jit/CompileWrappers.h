@@ -664,7 +664,7 @@ offThreadCompilationAvailable_
 }
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 bool
 wasmGcEnabled
 (
@@ -690,7 +690,7 @@ offThreadCompilationAvailable_
 ;
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 bool
 wasmGcEnabled_
 ;
