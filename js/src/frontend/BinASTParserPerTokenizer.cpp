@@ -5336,7 +5336,13 @@ printf
 In
 %
 s
+%
+s
 "
+describeBinKind
+(
+kind
+)
 description
 )
 )
