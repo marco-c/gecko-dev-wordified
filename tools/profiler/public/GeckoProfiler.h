@@ -930,7 +930,7 @@ Define
 /
 /
 |
-macro
+MACRO
 |
 appropriately
 to
@@ -992,7 +992,7 @@ json
 define
 PROFILER_FOR_EACH_FEATURE
 (
-macro
+MACRO
 )
 \
 /
@@ -1008,7 +1008,7 @@ only
 *
 /
 \
-macro
+MACRO
 (
 0
 "
@@ -1035,7 +1035,7 @@ profiler
 *
 /
 \
-macro
+MACRO
 (
 1
 "
@@ -1077,7 +1077,7 @@ addresses
 *
 /
 \
-macro
+MACRO
 (
 2
 "
@@ -1102,7 +1102,7 @@ profile
 *
 /
 \
-macro
+MACRO
 (
 3
 "
@@ -1128,7 +1128,7 @@ RSS
 *
 /
 \
-macro
+MACRO
 (
 4
 "
@@ -1151,7 +1151,7 @@ information
 *
 /
 \
-macro
+MACRO
 (
 5
 "
@@ -1171,7 +1171,7 @@ information
 *
 /
 \
-macro
+MACRO
 (
 6
 "
@@ -1196,7 +1196,7 @@ composition
 *
 /
 \
-macro
+MACRO
 (
 7
 "
@@ -1217,7 +1217,7 @@ styling
 *
 /
 \
-macro
+MACRO
 (
 8
 "
@@ -1245,7 +1245,7 @@ platforms
 *
 /
 \
-macro
+MACRO
 (
 9
 "
@@ -1266,7 +1266,7 @@ TaskTracer
 *
 /
 \
-macro
+MACRO
 (
 10
 "
@@ -1287,7 +1287,7 @@ threads
 *
 /
 \
-macro
+MACRO
 (
 11
 "
@@ -1310,7 +1310,7 @@ optimizations
 *
 /
 \
-macro
+MACRO
 (
 12
 "
