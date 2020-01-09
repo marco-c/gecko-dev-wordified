@@ -117,6 +117,8 @@ import
 MarionetteTestCase
 from
 marionette_driver
+.
+legacy_actions
 import
 Actions
 from

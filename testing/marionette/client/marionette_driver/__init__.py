@@ -119,12 +119,6 @@ pinch
 from
 marionette_driver
 .
-marionette
-import
-Actions
-from
-marionette_driver
-.
 wait
 import
 Wait
