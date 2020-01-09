@@ -210,6 +210,14 @@ _
 GuardIsSymbol
 )
 \
+IF_BIGINT
+(
+_
+(
+GuardIsBigInt
+)
+)
+\
 _
 (
 GuardIsNumber
