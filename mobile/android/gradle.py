@@ -61,6 +61,8 @@ import
 buildconfig
 import
 subprocess
+import
+sys
 from
 mozbuild
 .
@@ -157,6 +159,10 @@ try
 cmd
 =
 [
+            
+sys
+.
+executable
             
 mozpath
 .
