@@ -1685,10 +1685,6 @@ const
 nsIFrame
 *
 aFrame
-const
-EffectSet
-&
-aEffects
 AnimationPerformanceWarning
 :
 :
