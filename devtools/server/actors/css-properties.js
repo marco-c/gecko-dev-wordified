@@ -389,14 +389,7 @@ if
 safeCssPropertySupportsType
 (
 name
-InspectorUtils
-[
-"
-TYPE_
-"
-+
 type
-]
 )
 )
 {
@@ -404,10 +397,7 @@ supports
 .
 push
 (
-CSS_TYPES
-[
 type
-]
 )
 ;
 }

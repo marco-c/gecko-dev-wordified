@@ -128,9 +128,7 @@ listed
 here
 should
 match
-TYPE_
-*
-constants
+InspectorPropertyType
 in
 InspectorUtils
 .

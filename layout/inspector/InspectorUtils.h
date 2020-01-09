@@ -135,6 +135,9 @@ class
 nsAtom
 ;
 class
+nsINode
+;
+class
 ComputedStyle
 ;
 namespace
@@ -1055,8 +1058,7 @@ const
 nsAString
 &
 aProperty
-uint32_t
-aType
+InspectorPropertyType
 ErrorResult
 &
 aRv
