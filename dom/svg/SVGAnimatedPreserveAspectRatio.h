@@ -321,7 +321,13 @@ SetBaseValue
 (
 SVGPreserveAspectRatio
 (
+static_cast
+<
+uint8_t
+>
+(
 aAlign
+)
 mBaseVal
 .
 GetMeetOrSlice
@@ -373,7 +379,13 @@ mBaseVal
 GetAlign
 (
 )
+static_cast
+<
+uint8_t
+>
+(
 aMeetOrSlice
+)
 )
 aSVGElement
 )
