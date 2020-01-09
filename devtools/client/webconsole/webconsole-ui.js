@@ -314,7 +314,7 @@ sidebarToggle
 *
 *
 A
-WebConsoleFrame
+WebConsoleUI
 instance
 is
 an
@@ -351,7 +351,7 @@ content
 *
 *
 The
-WebConsoleFrame
+WebConsoleUI
 is
 responsible
 for
@@ -364,13 +364,19 @@ UI
 implementation
 .
 *
+/
+class
+WebConsoleUI
+{
+/
 *
-constructor
 *
 param
+{
 object
+}
 webConsoleOwner
-*
+:
 The
 WebConsole
 owner
@@ -378,8 +384,7 @@ object
 .
 *
 /
-function
-WebConsoleFrame
+constructor
 (
 webConsoleOwner
 )
@@ -467,11 +472,6 @@ this
 )
 ;
 }
-WebConsoleFrame
-.
-prototype
-=
-{
 /
 *
 *
@@ -512,7 +512,7 @@ null
 *
 Initialize
 the
-WebConsoleFrame
+WebConsoleUI
 instance
 .
 *
@@ -1038,11 +1038,6 @@ this
 wrapper
 ;
 }
-_onUpdateListeners
-(
-)
-{
-}
 logWarningAboutReplacedAPI
 (
 )
@@ -1069,11 +1064,6 @@ ConsoleAPIDisabled
 "
 )
 ;
-}
-handleNetworkEventUpdate
-(
-)
-{
 }
 /
 *
@@ -1217,8 +1207,6 @@ result
 *
 /
 _initConnection
-:
-function
 (
 )
 {
@@ -1328,8 +1316,6 @@ promise
 ;
 }
 _initUI
-:
-function
 (
 )
 {
@@ -1468,8 +1454,6 @@ _onChangeSplitConsoleState
 }
 }
 _initOutputSyntaxHighlighting
-:
-function
 (
 )
 {
@@ -1647,8 +1631,6 @@ this
 ;
 }
 _initShortcuts
-:
-function
 (
 )
 {
@@ -1962,8 +1944,6 @@ title
 *
 /
 onLocationChange
-:
-function
 (
 uri
 title
@@ -2023,8 +2003,6 @@ release
 *
 /
 _releaseObject
-:
-function
 (
 actor
 )
@@ -2062,8 +2040,6 @@ changes
 *
 /
 _onToolboxPrefChanged
-:
-function
 (
 )
 {
@@ -2122,8 +2098,6 @@ private
 *
 /
 _onPanelSelected
-:
-function
 (
 )
 {
@@ -2137,8 +2111,6 @@ focus
 ;
 }
 _onChangeSplitConsoleState
-:
-function
 (
 )
 {
@@ -2184,10 +2156,8 @@ server
 .
 *
 /
-handleTabNavigated
-:
 async
-function
+handleTabNavigated
 (
 packet
 )
@@ -2270,8 +2240,6 @@ reloaded
 ;
 }
 handleTabWillNavigate
-:
-function
 (
 packet
 )
@@ -2307,7 +2275,6 @@ title
 }
 }
 }
-;
 /
 *
 This
@@ -2457,7 +2424,7 @@ eRestart
 }
 exports
 .
-WebConsoleFrame
+WebConsoleUI
 =
-WebConsoleFrame
+WebConsoleUI
 ;

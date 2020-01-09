@@ -97,7 +97,7 @@ lazyRequireGetter
 (
 this
 "
-WebConsoleFrame
+WebConsoleUI
 "
 "
 devtools
@@ -108,7 +108,7 @@ webconsole
 /
 webconsole
 -
-frame
+ui
 "
 true
 )
@@ -414,7 +414,7 @@ this
 ui
 =
 new
-WebConsoleFrame
+WebConsoleUI
 (
 this
 )
@@ -762,7 +762,7 @@ null
 Alias
 for
 the
-WebConsoleFrame
+WebConsoleUI
 .
 setFilterState
 (
@@ -776,7 +776,7 @@ webconsole
 js
 :
 :
-WebConsoleFrame
+WebConsoleUI
 .
 setFilterState
 (

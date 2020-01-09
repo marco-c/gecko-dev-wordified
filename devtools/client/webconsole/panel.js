@@ -454,7 +454,7 @@ reloaded
 '
 event
 from
-WebConsoleFrame
+WebConsoleUI
 to
 WebConsolePanel
 .
