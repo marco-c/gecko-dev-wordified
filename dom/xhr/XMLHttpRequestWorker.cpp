@@ -3863,6 +3863,7 @@ mWorkerPrivate
 CookieSettings
 (
 )
+true
 mWorkerPrivate
 -
 >

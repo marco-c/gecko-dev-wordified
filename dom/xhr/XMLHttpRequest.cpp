@@ -357,6 +357,7 @@ GetPrincipal
 )
 global
 cookieSettings
+false
 )
 ;
 req
