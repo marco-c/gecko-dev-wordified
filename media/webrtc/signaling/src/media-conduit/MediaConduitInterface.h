@@ -1635,7 +1635,7 @@ framesDecoded
 ;
 virtual
 bool
-GetRTPStats
+GetRTPReceiverStats
 (
 unsigned
 int

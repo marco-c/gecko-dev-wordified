@@ -6819,7 +6819,7 @@ bool
 WebrtcVideoConduit
 :
 :
-GetRTPStats
+GetRTPReceiverStats
 (
 uint32_t
 *
