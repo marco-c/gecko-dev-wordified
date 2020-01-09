@@ -311,10 +311,6 @@ VsyncIOThreadHolder
 >
 mThread
 ;
-MessageLoop
-*
-mLoop
-;
 uint64_t
 mProcessToken
 ;

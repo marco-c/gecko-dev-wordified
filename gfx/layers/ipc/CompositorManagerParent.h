@@ -248,7 +248,7 @@ CreateSameProcess
 )
 ;
 static
-void
+bool
 Create
 (
 Endpoint

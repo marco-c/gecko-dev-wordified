@@ -5182,7 +5182,9 @@ parentPipe
 ;
 }
 else
-{
+if
+(
+!
 CompositorManagerParent
 :
 :
@@ -5196,6 +5198,10 @@ move
 parentPipe
 )
 )
+)
+{
+return
+false
 ;
 }
 *
