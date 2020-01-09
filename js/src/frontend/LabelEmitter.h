@@ -258,8 +258,10 @@ of
 the
 JSOP_LABEL
 .
-JumpList
+ptrdiff_t
 top_
+=
+0
 ;
 mozilla
 :

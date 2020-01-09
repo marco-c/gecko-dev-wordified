@@ -222,16 +222,6 @@ JSOp
 pc
 )
 )
-|
-|
-JSOp
-(
-*
-pc
-)
-=
-=
-JSOP_LABEL
 )
 ;
 delta
