@@ -208,7 +208,7 @@ async
 function
 reloadAddon
 (
-addonTargetFront
+addonFront
 )
 {
 /
@@ -238,7 +238,7 @@ onInstalled
 )
 ;
 await
-addonTargetFront
+addonFront
 .
 reload
 (
@@ -404,7 +404,7 @@ promiseWebExtensionStartup
 )
 ;
 const
-addonTargetFront
+addonFront
 =
 await
 client
@@ -430,7 +430,7 @@ all
 [
 reloadAddon
 (
-addonTargetFront
+addonFront
 )
 promiseWebExtensionStartup
 (
@@ -525,7 +525,7 @@ equal
 newAddonFront
 .
 id
-addonTargetFront
+addonFront
 .
 id
 )
@@ -544,7 +544,7 @@ reload
 equal
 (
 newAddonFront
-addonTargetFront
+addonFront
 )
 ;
 const
@@ -660,7 +660,7 @@ equal
 upgradedAddonFront
 .
 id
-addonTargetFront
+addonFront
 .
 id
 )
@@ -680,7 +680,7 @@ upgrade
 equal
 (
 upgradedAddonFront
-addonTargetFront
+addonFront
 )
 ;
 /
