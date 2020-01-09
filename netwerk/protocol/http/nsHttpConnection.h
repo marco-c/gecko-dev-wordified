@@ -1541,6 +1541,11 @@ result
 void
 SetupSecondaryTLS
 (
+nsAHttpTransaction
+*
+aSpdyConnectTransaction
+=
+nullptr
 )
 ;
 void
@@ -2107,6 +2112,13 @@ TLSFilterTransaction
 >
 mTLSFilter
 ;
+nsWeakPtr
+mWeakTrans
+;
+/
+/
+SpdyConnectTransaction
+*
 RefPtr
 <
 nsHttpHandler
