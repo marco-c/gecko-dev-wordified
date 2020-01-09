@@ -8183,6 +8183,10 @@ forward
 '
 webidl
 '
+                                                          
+'
+cenum
+'
 ]
 :
             
@@ -8207,6 +8211,7 @@ types
 (
 numbers
 booleans
+cenum
 and
 raw
 char
