@@ -288,9 +288,6 @@ TCPServerSocket
 >
 mServerSocket
 ;
-bool
-mIPCOpen
-;
 }
 ;
 }

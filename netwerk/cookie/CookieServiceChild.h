@@ -510,15 +510,6 @@ aAttrs
 )
 override
 ;
-virtual
-void
-ActorDestroy
-(
-ActorDestroyReason
-aWhy
-)
-override
-;
 CookiesMap
 mCookiesMap
 ;
@@ -551,9 +542,6 @@ mThirdPartyNonsecureSession
 ;
 bool
 mLeaveSecureAlone
-;
-bool
-mIPCOpen
 ;
 }
 ;

@@ -1475,7 +1475,9 @@ const
 {
 return
 !
-mIPCOpen
+IPCOpen
+(
+)
 ;
 }
 virtual
@@ -7360,9 +7362,6 @@ mCreatedPairedMinidumps
 ;
 bool
 mShutdownPending
-;
-bool
-mIPCOpen
 ;
 /
 /

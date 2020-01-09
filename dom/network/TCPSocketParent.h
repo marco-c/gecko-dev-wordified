@@ -241,9 +241,6 @@ TCPSocket
 >
 mSocket
 ;
-bool
-mIPCOpen
-;
 }
 ;
 class

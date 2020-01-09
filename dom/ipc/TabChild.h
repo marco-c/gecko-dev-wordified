@@ -3143,16 +3143,6 @@ mChromeOffset
 }
 ;
 bool
-IPCOpen
-(
-)
-const
-{
-return
-mIPCOpen
-;
-}
-bool
 ParentIsActive
 (
 )
@@ -4646,9 +4636,6 @@ ContentChild
 ;
 bool
 mIsTransparent
-;
-bool
-mIPCOpen
 ;
 bool
 mParentIsActive

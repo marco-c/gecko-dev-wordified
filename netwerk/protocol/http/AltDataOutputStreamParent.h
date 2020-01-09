@@ -272,15 +272,6 @@ RecvClose
 )
 override
 ;
-virtual
-void
-ActorDestroy
-(
-ActorDestroyReason
-aWhy
-)
-override
-;
 /
 /
 Sets
@@ -364,9 +355,6 @@ asynchronously
 .
 nsresult
 mStatus
-;
-bool
-mIPCOpen
 ;
 }
 ;
