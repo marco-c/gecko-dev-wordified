@@ -855,11 +855,17 @@ windows
 )
     
 '
-test
--
-provisioner
-/
 bitbar
+/
+gecko
+-
+t
+-
+win64
+-
+aarch64
+-
+laptop
 '
 :
 (
