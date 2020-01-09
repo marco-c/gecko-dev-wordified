@@ -624,6 +624,10 @@ true
 void
 PostScrollEvent
 (
+bool
+aDelayed
+=
+false
 )
 ;
 void
@@ -849,6 +853,8 @@ ScrollEvent
 ScrollFrameHelper
 *
 aHelper
+bool
+aDelayed
 )
 ;
 void
