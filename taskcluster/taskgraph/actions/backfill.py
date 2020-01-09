@@ -1173,11 +1173,13 @@ flavor
 '
 ]
 :
+[
 input
 [
 '
 testPath
 '
+]
 ]
                         
 }
