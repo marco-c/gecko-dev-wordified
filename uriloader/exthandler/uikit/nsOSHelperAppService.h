@@ -256,10 +256,7 @@ nsIMIMEInfo
 aMIMEInfo
 )
 ;
-already_AddRefed
-<
-nsIMIMEInfo
->
+NS_IMETHOD
 GetMIMEInfoFromOS
 (
 const
@@ -273,7 +270,12 @@ aFileExt
 bool
 *
 aFound
+nsIMIMEInfo
+*
+*
+aMIMEInfo
 )
+override
 ;
 NS_IMETHOD
 GetProtocolHandlerInfoFromOS
@@ -388,6 +390,7 @@ bool
 *
 aHandlerExists
 )
+override
 ;
 }
 ;
