@@ -6454,6 +6454,7 @@ locale
 /
 confirmBrowserLanguageChange
 (
+event
 )
 {
 let
