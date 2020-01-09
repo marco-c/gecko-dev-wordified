@@ -241,13 +241,7 @@ this
 .
 connection
 .
-onmessage
-=
-this
-.
-onMessage
-.
-bind
+registerSession
 (
 this
 )
