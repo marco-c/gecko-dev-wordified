@@ -7390,9 +7390,8 @@ IsClosed
 mWindowGlobalChild
 -
 >
-Send__delete__
+Destroy
 (
-mWindowGlobalChild
 )
 ;
 }
