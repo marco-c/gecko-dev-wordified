@@ -86,6 +86,7 @@ voluptuous
 import
 Required
 Any
+Optional
 from
 taskgraph
 .
@@ -156,8 +157,9 @@ bindings
 )
     
 #
-The
 SPIDERMONKEY_VARIANT
+and
+SPIDERMONKEY_PLATFORM
     
 Required
 (
@@ -165,6 +167,17 @@ Required
 spidermonkey
 -
 variant
+'
+)
+:
+basestring
+    
+Optional
+(
+'
+spidermonkey
+-
+platform
 '
 )
 :
@@ -461,6 +474,32 @@ level
     
 }
 )
+    
+if
+'
+spidermonkey
+-
+platform
+'
+in
+run
+:
+        
+env
+[
+'
+SPIDERMONKEY_PLATFORM
+'
+]
+=
+run
+[
+'
+spidermonkey
+-
+platform
+'
+]
     
 support_vcs_checkout
 (
