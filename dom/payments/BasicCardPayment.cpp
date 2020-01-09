@@ -467,17 +467,6 @@ return
 false
 ;
 }
-if
-(
-request
-.
-mSupportedNetworks
-.
-WasPassed
-(
-)
-)
-{
 for
 (
 const
@@ -488,10 +477,6 @@ network
 request
 .
 mSupportedNetworks
-.
-Value
-(
-)
 )
 {
 if
@@ -525,7 +510,6 @@ network
 return
 false
 ;
-}
 }
 }
 return
