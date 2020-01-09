@@ -2026,11 +2026,9 @@ bool
 net_IsValidIPv4Addr
 (
 const
-char
-*
-addr
-int32_t
-addrLen
+nsACString
+&
+aAddr
 )
 ;
 /
