@@ -343,6 +343,11 @@ return
 mOuterWindowId
 ;
 }
+bool
+IsCurrentGlobal
+(
+)
+;
 /
 /
 Get
