@@ -19979,7 +19979,7 @@ rv
 gHttpHandler
 -
 >
-NewProxiedChannel2
+NewProxiedChannel
 (
 mURI
 pi
