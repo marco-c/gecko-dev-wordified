@@ -17648,12 +17648,12 @@ if
 deviceID
 >
 =
-0x6640
+0x6600
 &
 &
 deviceID
 <
-0x6660
+0x66b0
 )
 |
 |
@@ -17661,12 +17661,12 @@ deviceID
 deviceID
 >
 =
-0x67a0
+0x6780
 &
 &
 deviceID
 <
-0x6800
+0x6840
 )
 |
 |
@@ -17723,6 +17723,7 @@ we
 have
 a
 desktop
+SI
 CIK
 VI
 or
