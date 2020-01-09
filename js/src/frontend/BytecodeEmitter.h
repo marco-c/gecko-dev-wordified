@@ -4024,15 +4024,6 @@ classMembers
 ;
 MOZ_MUST_USE
 bool
-emitCreateFieldKeys
-(
-ListNode
-*
-obj
-)
-;
-MOZ_MUST_USE
-bool
 emitCreateFieldInitializers
 (
 ListNode

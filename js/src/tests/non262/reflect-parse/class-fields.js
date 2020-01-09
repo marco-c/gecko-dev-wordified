@@ -76,15 +76,6 @@ C
 "
 )
 ;
-/
-/
-TODO
-:
-Should
-genConstructor
-be
-present
-?
 assertExpr
 (
 "
@@ -200,9 +191,8 @@ ident
 x
 "
 )
-null
+undefined
 )
-genConstructor
 ]
 )
 )
@@ -240,7 +230,7 @@ ident
 x
 "
 )
-null
+undefined
 )
 classField
 (
