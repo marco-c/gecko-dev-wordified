@@ -1963,7 +1963,8 @@ IsTextRole
 )
 {
 return
-0
+-
+1
 ;
 }
 return
@@ -2012,7 +2013,8 @@ CaretOffset
 ;
 }
 return
-0
+-
+1
 ;
 }
 static
