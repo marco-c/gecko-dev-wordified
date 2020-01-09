@@ -5953,14 +5953,7 @@ byteLength
 JSProtoKey
 key
 =
-JSCLASS_CACHED_PROTO_KEY
-(
-&
-DataViewObject
-:
-:
-class_
-)
+JSProto_DataView
 ;
 RootedObject
 constructor
