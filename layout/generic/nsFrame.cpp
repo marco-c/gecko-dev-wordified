@@ -52032,7 +52032,9 @@ nsIFrame
 IsBlockFrameOrSubclass
 (
 )
+const
 {
+const
 nsBlockFrame
 *
 thisAsBlock
