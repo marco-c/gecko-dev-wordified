@@ -88,6 +88,7 @@ nserror
 :
 {
 nsresult
+NsresultExt
 NS_OK
 }
 ;

@@ -69,6 +69,12 @@ libc
 int32_t
 ;
 use
+nserror
+:
+:
+NsresultExt
+;
+use
 nsstring
 :
 :

@@ -168,6 +168,7 @@ nserror
 :
 {
 nsresult
+NsresultExt
 NS_ERROR_NO_INTERFACE
 NS_OK
 }

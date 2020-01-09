@@ -117,6 +117,7 @@ nserror
 :
 :
 {
+NsresultExt
 nsresult
 NS_OK
 }
