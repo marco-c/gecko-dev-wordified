@@ -3016,7 +3016,7 @@ chrome
 :
 /
 /
-mozapps
+global
 /
 skin
 /
