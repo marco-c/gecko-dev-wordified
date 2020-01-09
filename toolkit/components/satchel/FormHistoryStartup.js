@@ -161,9 +161,6 @@ nsIObserver
 Ci
 .
 nsISupportsWeakReference
-Ci
-.
-nsIFrameMessageListener
 ]
 )
 observe
