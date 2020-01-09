@@ -167,6 +167,9 @@ u128
 feature
 enabled
 for
+/
+/
+/
 this
 crate
 .
@@ -235,6 +238,10 @@ Self
 let
 mut
 bytes
+:
+:
+:
+Bytes
 =
 [
 0
@@ -269,9 +276,12 @@ f
 ;
 }
 Uuid
-{
+:
+:
+from_bytes
+(
 bytes
-}
+)
 }
 }
 #
