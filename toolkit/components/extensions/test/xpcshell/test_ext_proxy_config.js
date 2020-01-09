@@ -501,6 +501,11 @@ proxy
 "
 ]
 }
+incognitoOverride
+:
+"
+spanning
+"
 useAddonManager
 :
 "
@@ -2722,6 +2727,11 @@ proxy
 "
 ]
 }
+incognitoOverride
+:
+"
+spanning
+"
 }
 )
 ;
