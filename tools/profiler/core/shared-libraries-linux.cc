@@ -562,10 +562,7 @@ allocator
 auto_wasteful_vector
 <
 uint8_t
-sizeof
-(
-MDGUID
-)
+kDefaultBuildIdSize
 >
 identifier
 (
