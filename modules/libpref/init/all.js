@@ -11837,7 +11837,7 @@ true
 ;
 #
 ifdef
-NIGHTLY_BUILD
+EARLY_BETA_OR_EARLIER
 pref
 (
 "
@@ -31117,6 +31117,7 @@ js
 parent_utils
 .
 js
+chrometask_chromescript
 "
 )
 ;
