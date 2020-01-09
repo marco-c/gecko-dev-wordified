@@ -420,6 +420,7 @@ set
 )
 =
 >
+{
 for
 lookahead
 in
@@ -466,6 +467,7 @@ insert
 lookahead
 )
 ;
+}
 }
 }
 }
