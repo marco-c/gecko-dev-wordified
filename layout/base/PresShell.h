@@ -3575,6 +3575,12 @@ nsIContent
 >
 mContent
 ;
+nsCOMPtr
+<
+nsIContent
+>
+mOverrideClickTarget
+;
 }
 ;
 /

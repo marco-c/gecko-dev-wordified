@@ -44013,12 +44013,6 @@ be
 nullptr
 here
 .
-nsCOMPtr
-<
-nsIContent
->
-overrideClickTarget
-;
 if
 (
 PointerEventHandler
@@ -44188,7 +44182,9 @@ if
 pointerCapturingContent
 )
 {
-overrideClickTarget
+eventTargetData
+.
+mOverrideClickTarget
 =
 GetOverrideClickTarget
 (
@@ -44674,7 +44670,9 @@ HandleEventInternal
 aGUIEvent
 aEventStatus
 true
-overrideClickTarget
+eventTargetData
+.
+mOverrideClickTarget
 )
 ;
 #
