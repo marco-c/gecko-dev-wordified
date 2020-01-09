@@ -42,14 +42,14 @@ ts
 8
 sts
 =
-2
+4
 et
 sw
 =
-2
+4
 tw
 =
-80
+99
 :
 *
 This
@@ -125,7 +125,7 @@ MODIFY
 Unicode
 version
 :
-11
+12
 .
 0
 .
