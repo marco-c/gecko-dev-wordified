@@ -494,6 +494,14 @@ animatable
 -
 box
 {
+position
+:
+absolute
+;
+overflow
+:
+hidden
+;
 /
 *
 .
