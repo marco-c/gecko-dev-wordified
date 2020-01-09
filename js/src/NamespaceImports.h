@@ -266,6 +266,9 @@ class
 UTF8Chars
 ;
 class
+WTF8Chars
+;
+class
 UTF8CharsZ
 ;
 using
@@ -498,6 +501,12 @@ JS
 :
 :
 UTF8Chars
+;
+using
+JS
+:
+:
+WTF8Chars
 ;
 using
 JS
