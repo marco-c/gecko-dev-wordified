@@ -195,13 +195,6 @@ Create
 )
 ;
 static
-WorkletThread
-*
-Get
-(
-)
-;
-static
 bool
 IsOnWorkletThread
 (
@@ -212,13 +205,6 @@ void
 AssertIsOnWorkletThread
 (
 )
-;
-JSContext
-*
-GetJSContext
-(
-)
-const
 ;
 nsresult
 DispatchRunnable
