@@ -419,7 +419,7 @@ endif
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 #
 include
@@ -510,7 +510,7 @@ preferences
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 static
 already_AddRefed

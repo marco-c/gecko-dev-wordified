@@ -650,7 +650,7 @@ LocalAppData
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 #
 define
