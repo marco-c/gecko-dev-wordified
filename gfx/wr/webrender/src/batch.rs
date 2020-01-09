@@ -4539,7 +4539,11 @@ y
 )
 as
 i32
-0
+run
+.
+raster_space
+as
+i32
 ]
 )
 ;
