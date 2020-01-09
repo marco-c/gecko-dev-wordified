@@ -42166,6 +42166,11 @@ StorageAccessGranted
 (
 )
 {
+PropagateFirstPartyStorageAccessGrantedToWorkers
+(
+this
+)
+;
 /
 /
 If
