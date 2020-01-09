@@ -231,7 +231,7 @@ waitForDispatch
 (
 dbg
 "
-SET_BREAKPOINT
+ADD_BREAKPOINT
 "
 )
 ;
