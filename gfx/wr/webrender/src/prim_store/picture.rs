@@ -1363,10 +1363,10 @@ test
 [
 cfg
 (
-target_os
+target_pointer_width
 =
 "
-linux
+64
 "
 )
 ]
@@ -1515,7 +1515,7 @@ PictureTemplate
 >
 (
 )
-56
+36
 "
 PictureTemplate
 size

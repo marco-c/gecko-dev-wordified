@@ -3084,10 +3084,10 @@ test
 [
 cfg
 (
-target_os
+target_pointer_width
 =
 "
-linux
+64
 "
 )
 ]
@@ -3236,7 +3236,7 @@ ImageTemplate
 >
 (
 )
-144
+124
 "
 ImageTemplate
 size
@@ -3302,7 +3302,7 @@ YuvImageTemplate
 >
 (
 )
-96
+72
 "
 YuvImageTemplate
 size

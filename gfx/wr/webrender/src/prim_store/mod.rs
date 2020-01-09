@@ -18759,10 +18759,10 @@ test
 [
 cfg
 (
-target_os
+target_pointer_width
 =
 "
-linux
+64
 "
 )
 ]
@@ -18933,7 +18933,7 @@ PrimitiveTemplate
 >
 (
 )
-80
+56
 "
 PrimitiveTemplate
 size
