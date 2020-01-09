@@ -1016,6 +1016,10 @@ return
 NS_OK
 ;
 }
+mCurrentPos
+=
+0
+;
 mInvalidIteratorState
 =
 false
