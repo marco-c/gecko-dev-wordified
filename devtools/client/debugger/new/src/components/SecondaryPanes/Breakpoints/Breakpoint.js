@@ -460,8 +460,7 @@ selectedLocation
 ;
 selectBreakpoint
 =
-(
-)
+event
 =
 >
 {
@@ -474,6 +473,12 @@ selectSpecificLocation
 this
 .
 props
+;
+event
+.
+preventDefault
+(
+)
 ;
 selectSpecificLocation
 (
@@ -954,6 +959,13 @@ s
 -
 mozilla
 "
+onClick
+=
+{
+this
+.
+selectBreakpoint
+}
 title
 =
 {
