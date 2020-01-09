@@ -299,6 +299,7 @@ return
 SkCreateTypefaceFromCairoFTFont
 (
 mScaledFont
+mFace
 )
 ;
 }
