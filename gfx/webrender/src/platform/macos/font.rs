@@ -3957,7 +3957,11 @@ as_ref
 )
 glyph
 x_offset
+/
+scale
 y_offset
+/
+scale
 extra_strikes
 as
 f64
@@ -4737,6 +4741,8 @@ as
 f64
 +
 x_offset
+/
+scale
 y
 :
 metrics
@@ -4746,6 +4752,8 @@ as
 f64
 -
 y_offset
+/
+scale
 }
 ;
 if
