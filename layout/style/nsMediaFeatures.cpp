@@ -3088,7 +3088,7 @@ _moz_gtk_csd_reversed_placement
 )
 ;
 }
-rv
+metricResult
 =
 LookAndFeel
 :
@@ -3099,18 +3099,10 @@ LookAndFeel
 :
 :
 eIntID_SystemUsesDarkTheme
-&
-metricResult
 )
 ;
 if
 (
-NS_SUCCEEDED
-(
-rv
-)
-&
-&
 metricResult
 )
 {
