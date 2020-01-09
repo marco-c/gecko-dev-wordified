@@ -1204,7 +1204,7 @@ MediaMgrError
 >
 true
 >
-MediaDeviceSetPromise
+DevicesPromise
 ;
 typedef
 MozPromise
@@ -1216,7 +1216,7 @@ MediaMgrError
 >
 true
 >
-EnumerateImplPromise
+MgrPromise
 ;
 typedef
 MozPromise
@@ -1290,7 +1290,7 @@ nsString
 ;
 RefPtr
 <
-MediaDeviceSetPromise
+DevicesPromise
 >
 EnumerateDevices
 (
@@ -1671,7 +1671,7 @@ devices
 ;
 RefPtr
 <
-EnumerateImplPromise
+MgrPromise
 >
 EnumerateRawDevices
 (
@@ -1704,7 +1704,7 @@ aOutDevices
 ;
 RefPtr
 <
-EnumerateImplPromise
+MgrPromise
 >
 EnumerateDevicesImpl
 (
