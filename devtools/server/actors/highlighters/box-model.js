@@ -111,6 +111,7 @@ markup
 ;
 const
 {
+findFlexOrGridParentContainerForNode
 getCurrentZoom
 setIgnoreLayoutChanges
 }
@@ -3022,9 +3023,13 @@ item
 const
 container
 =
+findFlexOrGridParentContainerForNode
+(
 node
-.
-parentFlexElement
+"
+flex
+"
+)
 ;
 if
 (
