@@ -62,7 +62,7 @@ os
 import
 re
 def
-init_geckoview_power_test
+init_android_power_test
 (
 raptor
 )
@@ -91,16 +91,23 @@ log
 critical
 (
 "
-Geckoview
+%
 power
 test
 ignored
-because
+;
 MOZ_UPLOAD_DIR
-was
-not
-set
+unset
 "
+%
+raptor
+.
+config
+[
+'
+app
+'
+]
 )
         
 return
@@ -739,9 +746,10 @@ Wifi
 lines
 .
 def
-finish_geckoview_power_test
+finish_android_power_test
 (
 raptor
+test_name
 )
 :
     
@@ -768,7 +776,7 @@ log
 critical
 (
 "
-Geckoview
+%
 power
 test
 ignored
@@ -778,6 +786,8 @@ was
 not
 set
 "
+%
+test_name
 )
         
 return
@@ -1671,13 +1681,7 @@ power
 test
 '
 :
-'
-raptor
--
-speedometer
--
-geckoview
-'
+test_name
                   
 '
 unit
