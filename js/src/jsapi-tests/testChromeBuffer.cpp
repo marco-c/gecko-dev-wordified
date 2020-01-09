@@ -120,6 +120,15 @@ h
 #
 include
 "
+js
+/
+ContextOptions
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests
