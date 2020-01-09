@@ -3545,9 +3545,6 @@ gfxMacFont
 :
 GetGlyphWidth
 (
-DrawTarget
-&
-aDrawTarget
 uint16_t
 aGID
 )

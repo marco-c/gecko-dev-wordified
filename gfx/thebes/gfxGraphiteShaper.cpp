@@ -339,12 +339,6 @@ false
 {
 mCallbackData
 .
-mDrawTarget
-=
-nullptr
-;
-mCallbackData
-.
 mFont
 =
 aFont
@@ -428,11 +422,6 @@ mFont
 >
 GetGlyphWidth
 (
-*
-cb
--
->
-mDrawTarget
 glyphid
 )
 )
@@ -631,12 +620,6 @@ return
 false
 ;
 }
-mCallbackData
-.
-mDrawTarget
-=
-aDrawTarget
-;
 const
 gfxFontStyle
 *
