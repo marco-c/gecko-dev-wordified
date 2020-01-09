@@ -4633,7 +4633,6 @@ angle
 derive
 (
 Clone
-ComputeSquaredDistance
 Copy
 Debug
 MallocSizeOf
@@ -5157,7 +5156,6 @@ dest
 derive
 (
 Clone
-ComputeSquaredDistance
 Copy
 Debug
 MallocSizeOf
@@ -5432,7 +5430,6 @@ dest
 derive
 (
 Clone
-ComputeSquaredDistance
 Debug
 MallocSizeOf
 PartialEq
