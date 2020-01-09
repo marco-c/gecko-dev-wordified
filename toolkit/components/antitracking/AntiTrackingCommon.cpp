@@ -541,7 +541,7 @@ if
 nsContentUtils
 :
 :
-IsTrackingResourceWindow
+IsThirdPartyTrackingResourceWindow
 (
 a3rdPartyTrackingWindow
 )
@@ -5185,7 +5185,7 @@ if
 nsContentUtils
 :
 :
-IsTrackingResourceWindow
+IsThirdPartyTrackingResourceWindow
 (
 aWindow
 )
@@ -5201,6 +5201,9 @@ isn
 '
 t
 a
+third
+-
+party
 tracking
 window
 "
@@ -6812,7 +6815,7 @@ if
 aChannel
 -
 >
-GetIsTrackingResource
+GetIsThirdPartyTrackingResource
 (
 )
 )
@@ -6827,6 +6830,9 @@ isn
 '
 t
 a
+third
+-
+party
 tracking
 channel
 "
