@@ -2321,32 +2321,7 @@ c
 )
 :
         
-pfx
-sfx
-=
-'
-'
-'
-'
-        
 if
-c
-.
-dynamic
-:
-            
-pfx
-sfx
-=
-'
-dynamic_cast
-<
-'
-'
->
-'
-        
-elif
 c
 .
 static
@@ -2363,28 +2338,13 @@ static_cast
 >
 '
         
-elif
-c
-.
-reinterpret
+else
 :
             
-pfx
-sfx
-=
-'
-reinterpret_cast
-<
-'
-'
->
-'
-        
-elif
+assert
 c
 .
 const
-:
             
 pfx
 sfx
@@ -2395,22 +2355,6 @@ const_cast
 '
 '
 >
-'
-        
-elif
-c
-.
-C
-:
-            
-pfx
-sfx
-=
-'
-(
-'
-'
-)
 '
         
 self

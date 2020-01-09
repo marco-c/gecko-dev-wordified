@@ -14718,7 +14718,7 @@ value
 cxxtype
 static
 =
-1
+True
 )
 )
 )
@@ -17996,7 +17996,7 @@ Type
 VOID
 static
 =
-1
+True
 )
     
 #
@@ -20337,7 +20337,7 @@ VOID
                                      
 static
 =
-1
+True
 )
 )
                    
@@ -25163,7 +25163,7 @@ managerexp
 managertype
 static
 =
-1
+True
 )
 )
 )
@@ -28467,7 +28467,7 @@ listenervar
 manageecxxtype
 static
 =
-1
+True
 )
 )
                     
@@ -31323,7 +31323,7 @@ callbackptr
                                               
 static
 =
-1
+True
 )
 )
                        
