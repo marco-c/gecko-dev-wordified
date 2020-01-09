@@ -108,7 +108,7 @@ kViewportMinScale
 (
 0
 .
-25f
+1f
 )
 ;
 static
