@@ -311,6 +311,9 @@ editor
 void
 OnSelectionChange
 (
+dom
+:
+:
 Selection
 &
 aSelection

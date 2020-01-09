@@ -1423,6 +1423,9 @@ processing
 .
 eSetValue_Internal
 =
+1
+<
+<
 0
 /
 /
@@ -1445,7 +1448,7 @@ eSetValue_BySetUserInput
 1
 <
 <
-0
+1
 /
 /
 The
@@ -1473,7 +1476,7 @@ eSetValue_ByContent
 1
 <
 <
-1
+2
 /
 /
 Whether
@@ -1496,7 +1499,7 @@ eSetValue_Notify
 1
 <
 <
-2
+3
 /
 /
 Whether
@@ -1581,7 +1584,7 @@ eSetValue_MoveCursorToEndIfValueChanged
 1
 <
 <
-3
+4
 /
 /
 The
@@ -1624,7 +1627,7 @@ eSetValue_ForXUL
 1
 <
 <
-4
+5
 }
 ;
 MOZ_CAN_RUN_SCRIPT

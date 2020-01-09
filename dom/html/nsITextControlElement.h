@@ -1119,6 +1119,15 @@ GetPreviewVisibility
 =
 0
 ;
+enum
+class
+ValueChangeKind
+{
+Internal
+Script
+UserInteraction
+}
+;
 /
 *
 *
@@ -1141,8 +1150,7 @@ OnValueChanged
 (
 bool
 aNotify
-bool
-aWasInteractiveUserChange
+ValueChangeKind
 )
 =
 0
