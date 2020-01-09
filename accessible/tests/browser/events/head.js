@@ -165,10 +165,5 @@ events
 .
 js
 "
-"
-layout
-.
-js
-"
 )
 ;

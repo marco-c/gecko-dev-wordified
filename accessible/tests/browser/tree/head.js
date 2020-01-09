@@ -171,11 +171,6 @@ events
 .
 js
 "
-"
-layout
-.
-js
-"
 )
 ;
 /
