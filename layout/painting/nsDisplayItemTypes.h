@@ -253,12 +253,6 @@ TYPE_RENDERS_NO_IMAGES
 <
 <
 0
-TYPE_IS_CONTENTFUL
-=
-1
-<
-<
-1
 }
 ;
 inline
