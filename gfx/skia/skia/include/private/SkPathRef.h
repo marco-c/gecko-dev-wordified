@@ -3698,6 +3698,10 @@ friend
 class
 SkPath
 ;
+friend
+class
+SkPathPriv
+;
 }
 ;
 #
