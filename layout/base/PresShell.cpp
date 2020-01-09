@@ -7752,12 +7752,8 @@ if
 mPresContext
 )
 {
-const
-bool
-mayFlushUserFontSet
-=
-false
-;
+if
+(
 gfxUserFontSet
 *
 fs
@@ -7767,12 +7763,7 @@ mPresContext
 >
 GetUserFontSet
 (
-mayFlushUserFontSet
 )
-;
-if
-(
-fs
 )
 {
 uint32_t

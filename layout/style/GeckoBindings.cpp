@@ -11954,13 +11954,6 @@ aIsVertical
 aFont
 aFontSize
 aUseUserFontSet
-nsLayoutUtils
-:
-:
-FlushUserFontSet
-:
-:
-No
 )
 ;
 ret

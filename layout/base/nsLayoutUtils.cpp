@@ -66914,8 +66914,6 @@ nscoord
 aFontSize
 bool
 aUseUserFontSet
-FlushUserFontSet
-aFlushUserFontSet
 )
 {
 nsFont
@@ -66991,13 +66989,6 @@ aPresContext
 >
 GetUserFontSet
 (
-aFlushUserFontSet
-=
-=
-FlushUserFontSet
-:
-:
-Yes
 )
 :
 nullptr
