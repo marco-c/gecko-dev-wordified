@@ -2336,6 +2336,12 @@ gOpenPopupSpamCount
 =
 0
 ;
+static
+bool
+gSyncContentBlockingNotifications
+=
+false
+;
 nsGlobalWindowOuter
 :
 :
