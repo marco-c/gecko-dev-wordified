@@ -183,14 +183,6 @@ mozilla
 namespace
 wr
 {
-enum
-{
-ROOT_CLIP_CHAIN
-=
-~
-0
-}
-;
 /
 /
 /
@@ -6807,7 +6799,7 @@ aSpatialId
 const
 WrClipId
 *
-aClipId
+aClipNodeId
 const
 WrAnimationProperty
 *

@@ -242,10 +242,6 @@ XRE_IsContentProcess
 (
 )
 )
-{
-\
-/
-/
 printf_stderr
 (
 "
@@ -254,11 +250,6 @@ CLIP
 "
 __VA_ARGS__
 )
-;
-\
-/
-/
-}
 namespace
 mozilla
 {
