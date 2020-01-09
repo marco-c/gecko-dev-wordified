@@ -3302,6 +3302,13 @@ IsNeckoChild
 )
 )
 {
+NeckoChild
+:
+:
+InitNeckoChild
+(
+)
+;
 /
 /
 Child
