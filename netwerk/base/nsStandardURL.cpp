@@ -2318,6 +2318,12 @@ dlclose
 (
 )
 .
+StaticMutexAutoLock
+lock
+(
+gAllURLsMutex
+)
+;
 static
 DumpLeakedURLs
 d
