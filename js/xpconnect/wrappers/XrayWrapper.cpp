@@ -1142,11 +1142,11 @@ char
 reason
 )
 {
-CompartmentPrivate
+RealmPrivate
 *
 priv
 =
-CompartmentPrivate
+RealmPrivate
 :
 :
 Get
