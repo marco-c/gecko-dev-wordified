@@ -2987,6 +2987,16 @@ complete
 ;
 }
 get
+successorTabId
+(
+)
+{
+return
+-
+1
+;
+}
+get
 width
 (
 )
