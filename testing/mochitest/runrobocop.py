@@ -117,7 +117,6 @@ import
 KeyValueParseError
 MochitestDesktop
 MessageLogger
-parseKeyValue
 from
 mochitest_options
 import
@@ -137,6 +136,12 @@ mozdevice
 import
 ADBAndroid
 ADBTimeoutError
+from
+mozprofile
+.
+cli
+import
+parse_key_value
 import
 mozfile
 import
@@ -3634,7 +3639,7 @@ update
 dict
 (
                     
-parseKeyValue
+parse_key_value
 (
                         
 self
