@@ -190,26 +190,32 @@ bundle
         
 namelist
 =
-bundle
-.
-getnames
-(
-)
+[
+]
         
 for
-name
+m
 in
-namelist
+bundle
 :
             
 bundle
 .
 extract
 (
-name
+m
 path
 =
 dest
+)
+            
+namelist
+.
+append
+(
+m
+.
+name
 )
     
 return
