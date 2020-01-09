@@ -515,7 +515,7 @@ way
 description
 :
 "
-cdm_description
+cdm_description2
 "
 licenseURL
 :
