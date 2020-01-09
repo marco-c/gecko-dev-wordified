@@ -248,7 +248,7 @@ GeckoSystemStateListener
 ;
 private
 boolean
-initialized
+mInitialized
 ;
 private
 ContentObserver
@@ -292,7 +292,7 @@ context
 {
 if
 (
-initialized
+mInitialized
 )
 {
 Log
@@ -407,7 +407,7 @@ false
 mContentObserver
 )
 ;
-initialized
+mInitialized
 =
 true
 ;
@@ -422,7 +422,7 @@ shutdown
 if
 (
 !
-initialized
+mInitialized
 )
 {
 Log
@@ -489,7 +489,7 @@ unregisterContentObserver
 mContentObserver
 )
 ;
-initialized
+mInitialized
 =
 false
 ;

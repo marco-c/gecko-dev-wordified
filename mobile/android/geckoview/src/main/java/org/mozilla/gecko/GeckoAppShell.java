@@ -10521,7 +10521,7 @@ URLConnection
 {
 private
 Bitmap
-bitmap
+mBitmap
 ;
 BitmapConnection
 (
@@ -10538,7 +10538,7 @@ super
 null
 )
 ;
-bitmap
+mBitmap
 =
 b
 ;
@@ -10664,7 +10664,7 @@ run
 {
 try
 {
-bitmap
+mBitmap
 .
 compress
 (

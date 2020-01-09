@@ -199,7 +199,7 @@ getSimpleName
 private
 final
 Intent
-intent
+mIntent
 ;
 public
 SafeIntent
@@ -214,9 +214,7 @@ stripDataUri
 intent
 )
 ;
-this
-.
-intent
+mIntent
 =
 intent
 ;
@@ -233,7 +231,7 @@ name
 try
 {
 return
-intent
+mIntent
 .
 hasExtra
 (
@@ -315,7 +313,7 @@ getExtras
 try
 {
 return
-intent
+mIntent
 .
 getExtras
 (
@@ -395,7 +393,7 @@ defaultValue
 try
 {
 return
-intent
+mIntent
 .
 getBooleanExtra
 (
@@ -477,7 +475,7 @@ defaultValue
 try
 {
 return
-intent
+mIntent
 .
 getIntExtra
 (
@@ -556,7 +554,7 @@ name
 try
 {
 return
-intent
+mIntent
 .
 getStringExtra
 (
@@ -634,7 +632,7 @@ name
 try
 {
 return
-intent
+mIntent
 .
 getBundleExtra
 (
@@ -707,7 +705,7 @@ getAction
 )
 {
 return
-intent
+mIntent
 .
 getAction
 (
@@ -723,7 +721,7 @@ getDataString
 try
 {
 return
-intent
+mIntent
 .
 getDataString
 (
@@ -805,7 +803,7 @@ name
 try
 {
 return
-intent
+mIntent
 .
 getStringArrayListExtra
 (
@@ -882,7 +880,7 @@ getData
 try
 {
 return
-intent
+mIntent
 .
 getData
 (
@@ -954,7 +952,7 @@ getUnsafe
 )
 {
 return
-intent
+mIntent
 ;
 }
 private
