@@ -3694,6 +3694,12 @@ case
 SdpMediaSection
 :
 :
+kTcpDtlsRtpSavpf
+:
+case
+SdpMediaSection
+:
+:
 kDccpTlsRtpSavpf
 :
 return

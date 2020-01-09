@@ -254,6 +254,7 @@ RustSdpProtocolValue
 kRustRtpSavpf
 kRustUdpTlsRtpSavpf
 kRustTcpTlsRtpSavpf
+kRustTcpDtlsRtpSavpf
 kRustDtlsSctp
 kRustUdpDtlsSctp
 kRustTcpDtlsSctp
