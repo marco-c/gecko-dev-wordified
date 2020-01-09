@@ -616,7 +616,7 @@ run
 '
 -
 -
-gecko
+vcs
 -
 checkout
 '
