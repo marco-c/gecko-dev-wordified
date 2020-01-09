@@ -510,7 +510,7 @@ txt
 homepageURL
 :
 "
-http
+https
 :
 /
 /
