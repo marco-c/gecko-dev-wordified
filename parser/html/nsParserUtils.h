@@ -102,13 +102,6 @@ nsParserUtils_h
 #
 include
 "
-nsIScriptableUnescapeHTML
-.
-h
-"
-#
-include
-"
 nsIParserUtils
 .
 h
@@ -127,8 +120,6 @@ nsParserUtils
 final
 :
 public
-nsIScriptableUnescapeHTML
-public
 nsIParserUtils
 {
 ~
@@ -140,7 +131,6 @@ nsParserUtils
 public
 :
 NS_DECL_ISUPPORTS
-NS_DECL_NSISCRIPTABLEUNESCAPEHTML
 NS_DECL_NSIPARSERUTILS
 }
 ;
