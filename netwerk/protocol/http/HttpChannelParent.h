@@ -705,6 +705,14 @@ CancelChildCrossProcessRedirect
 (
 )
 ;
+already_AddRefed
+<
+HttpChannelParentListener
+>
+GetParentListener
+(
+)
+;
 protected
 :
 /
