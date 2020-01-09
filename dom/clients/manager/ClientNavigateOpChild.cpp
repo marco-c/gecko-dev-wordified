@@ -1439,6 +1439,7 @@ loadState
 new
 nsDocShellLoadState
 (
+url
 )
 ;
 loadState
@@ -1476,14 +1477,6 @@ loadState
 SetSourceDocShell
 (
 docShell
-)
-;
-loadState
--
->
-SetURI
-(
-url
 )
 ;
 loadState

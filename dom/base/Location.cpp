@@ -1095,6 +1095,7 @@ loadState
 new
 nsDocShellLoadState
 (
+aURI
 )
 ;
 loadState
@@ -1488,14 +1489,6 @@ GetDocShell
 )
 ;
 }
-loadState
--
->
-SetURI
-(
-aURI
-)
-;
 loadState
 -
 >
