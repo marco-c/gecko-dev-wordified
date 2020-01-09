@@ -1005,23 +1005,12 @@ NullVariant
 ;
 uint16_t
 dataType
-;
-nsresult
-rv
 =
 aVariant
 -
 >
 GetDataType
 (
-&
-dataType
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-nullptr
 )
 ;
 switch
@@ -1087,6 +1076,7 @@ VTYPE_UINT64
 int64_t
 v
 ;
+nsresult
 rv
 =
 aVariant
@@ -1128,6 +1118,7 @@ VTYPE_DOUBLE
 double
 v
 ;
+nsresult
 rv
 =
 aVariant
@@ -1187,6 +1178,7 @@ VTYPE_CSTRING
 nsCString
 v
 ;
+nsresult
 rv
 =
 aVariant
@@ -1239,6 +1231,7 @@ VTYPE_ASTRING
 nsString
 v
 ;
+nsresult
 rv
 =
 aVariant
@@ -1292,6 +1285,7 @@ the
 array
 data
 .
+nsresult
 rv
 =
 aVariant

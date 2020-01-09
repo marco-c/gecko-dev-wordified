@@ -862,10 +862,7 @@ mNumCols
 ;
 uint16_t
 type
-;
-(
-void
-)
+=
 mData
 .
 ObjectAt
@@ -876,8 +873,6 @@ aIndex
 >
 GetDataType
 (
-&
-type
 )
 ;
 switch
@@ -1269,10 +1264,7 @@ _isNull
 ;
 uint16_t
 type
-;
-(
-void
-)
+=
 mData
 .
 ObjectAt
@@ -1283,8 +1275,6 @@ aIndex
 >
 GetDataType
 (
-&
-type
 )
 ;
 *

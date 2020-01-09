@@ -4917,14 +4917,12 @@ aTags
 ;
 uint16_t
 dataType
-;
+=
 aTags
 -
 >
 GetDataType
 (
-&
-dataType
 )
 ;
 /
