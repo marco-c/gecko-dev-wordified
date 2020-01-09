@@ -829,7 +829,7 @@ getIntent
 getBooleanExtra
 (
 FULL_ACCESSIBILITY_TREE_EXTRA
-true
+false
 )
 ;
 mProgressView
