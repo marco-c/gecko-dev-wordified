@@ -10061,6 +10061,16 @@ cx
 )
 )
 ;
+if
+(
+!
+templateObject
+)
+{
+return
+nullptr
+;
+}
 /
 /
 Step
