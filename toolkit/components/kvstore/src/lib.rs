@@ -104,10 +104,6 @@ extern
 crate
 storage_variant
 ;
-#
-[
-macro_use
-]
 extern
 crate
 xpcom
@@ -240,6 +236,8 @@ nsIVariant
 nsIID
 RefPtr
 ThreadBoundRefPtr
+xpcom
+xpcom_method
 }
 ;
 type

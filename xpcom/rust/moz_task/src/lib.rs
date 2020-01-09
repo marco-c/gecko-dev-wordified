@@ -125,10 +125,6 @@ extern
 crate
 nsstring
 ;
-#
-[
-macro_use
-]
 extern
 crate
 xpcom
@@ -193,6 +189,8 @@ AtomicRefcnt
 RefCounted
 RefPtr
 XpCom
+xpcom
+xpcom_method
 }
 ;
 extern
