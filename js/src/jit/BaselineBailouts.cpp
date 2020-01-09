@@ -3616,6 +3616,14 @@ propagatingIonExceptionForDebugMode
 ;
 }
 /
+*
+clang
+-
+format
+off
+*
+/
+/
 /
 For
 every
@@ -4779,6 +4787,12 @@ call
 =
 +
 /
+*
+clang
+-
+format
+on
+*
 /
 static
 bool

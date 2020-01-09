@@ -2482,6 +2482,12 @@ WarmUpCounter_Fallback
 /
 /
 /
+*
+clang
+-
+format
+off
+*
 /
 /
 /
@@ -2839,6 +2845,14 @@ IonOsrTempData
 is
 returned
 .
+/
+*
+clang
+-
+format
+on
+*
+/
 struct
 IonOsrTempData
 {

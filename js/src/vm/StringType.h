@@ -328,6 +328,12 @@ js
 *
 /
 /
+/
+clang
+-
+format
+off
+/
 *
 *
 [
@@ -1477,6 +1483,12 @@ JSFlatString
 .
 *
 /
+/
+/
+clang
+-
+format
+on
 class
 JSString
 :

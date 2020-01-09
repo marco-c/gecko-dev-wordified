@@ -6022,6 +6022,12 @@ removeFront
 }
 ;
 /
+/
+clang
+-
+format
+off
+/
 *
 *
 Container
@@ -7039,6 +7045,12 @@ datums
 .
 *
 /
+/
+/
+clang
+-
+format
+on
 class
 JitcodeRegionEntry
 {

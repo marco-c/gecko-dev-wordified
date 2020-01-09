@@ -151,6 +151,12 @@ TraceLoggingTypes
 h
 "
 /
+/
+clang
+-
+format
+off
+/
 *
 *
 The
@@ -714,6 +720,12 @@ dictId
 ]
 *
 /
+/
+/
+clang
+-
+format
+on
 namespace
 js
 {

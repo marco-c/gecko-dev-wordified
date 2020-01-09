@@ -1887,6 +1887,12 @@ PromiseLookup
 final
 {
 /
+/
+clang
+-
+format
+off
+/
 *
 *
 A
@@ -2071,6 +2077,12 @@ accessible
 .
 *
 /
+/
+/
+clang
+-
+format
+on
 /
 /
 Shape

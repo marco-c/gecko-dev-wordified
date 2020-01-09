@@ -444,6 +444,12 @@ objects
 *
 /
 /
+/
+clang
+-
+format
+off
+/
 *
 *
 [
@@ -2016,6 +2022,12 @@ LexicalEnvironmentObject
 *
 *
 /
+/
+/
+clang
+-
+format
+on
 class
 EnvironmentObject
 :
