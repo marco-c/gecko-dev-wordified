@@ -1104,10 +1104,12 @@ something
 .
 *
 /
+virtual
 nsresult
 InsertLineBreakAsAction
 (
 )
+override
 ;
 /
 *

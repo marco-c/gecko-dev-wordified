@@ -7317,7 +7317,7 @@ like
 EditSubAction
 :
 :
-eInsertParagraphSeparator
+eInsertLineBreak
 or
 EditSubAction
 :
