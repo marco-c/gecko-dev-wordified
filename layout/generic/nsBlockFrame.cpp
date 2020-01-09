@@ -54453,12 +54453,8 @@ return
 aFrame
 -
 >
-IsFrameOfType
+IsBlockFrameOrSubclass
 (
-nsIFrame
-:
-:
-eBlockFrame
 )
 &
 &

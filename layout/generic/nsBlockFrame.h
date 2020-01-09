@@ -1162,11 +1162,6 @@ nsIFrame
 :
 :
 eCanContainOverflowContainers
-|
-nsIFrame
-:
-:
-eBlockFrame
 )
 )
 ;
