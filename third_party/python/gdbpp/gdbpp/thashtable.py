@@ -1140,13 +1140,51 @@ self
 .
 key_field_name
         
-seenCount
-=
-0
+#
+The
+entry
+store
+is
+laid
+out
+with
+hashes
+for
+all
+possible
+entries
         
-pEntry
+#
+first
+followed
+by
+all
+the
+entries
+.
+        
+pHashes
 =
 store
+.
+cast
+(
+hashType
+.
+pointer
+(
+)
+)
+        
+pEntries
+=
+pHashes
++
+capacity
+        
+pEntries
+=
+pEntries
 .
 cast
 (
@@ -1158,6 +1196,10 @@ pointer
 (
 )
 )
+        
+seenCount
+=
+0
         
 for
 i
@@ -1172,10 +1214,10 @@ capacity
 )
 :
             
-entry
+entryHash
 =
 (
-pEntry
+pHashes
 +
 i
 )
@@ -1186,7 +1228,8 @@ dereference
             
 #
 An
-mKeyHash
+entry
+hash
 of
 0
 means
@@ -1208,18 +1251,25 @@ case
 .
             
 if
-entry
-[
-'
-mKeyHash
-'
-]
+entryHash
 <
 =
 1
 :
                 
 continue
+            
+entry
+=
+(
+pEntries
++
+i
+)
+.
+dereference
+(
+)
             
 yield
 (
