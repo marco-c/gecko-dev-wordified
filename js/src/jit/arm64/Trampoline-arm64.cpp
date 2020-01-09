@@ -1406,6 +1406,15 @@ Size
 ;
 masm
 .
+touchFrameValues
+(
+reg_osrNStack
+ScratchReg2
+BaselineFrameReg
+)
+;
+masm
+.
 moveStackPtrTo
 (
 BaselineFrameReg

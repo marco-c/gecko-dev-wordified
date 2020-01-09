@@ -22339,6 +22339,17 @@ performPendingReadBarriers
 (
 )
 ;
+void
+touchFrameValues
+(
+Register
+numStackValues
+Register
+scratch1
+Register
+scratch2
+)
+;
 private
 :
 /
