@@ -53,11 +53,10 @@ stats
 '
 ]
 [
+'
+webrtc
+'
 ]
-/
-/
-No
-deps
 idl_array
 =
 >
