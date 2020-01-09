@@ -3459,6 +3459,7 @@ CreateHistogramSnapshots
 (
 aCx
 aResult
+aStoreName
 dataset
 aClearStore
 aFilterTest
@@ -3660,6 +3661,12 @@ CreateHistogramSnapshots
 (
 aCx
 aResult
+NS_LITERAL_CSTRING
+(
+"
+main
+"
+)
 aDataset
 aClearHistograms
 )
