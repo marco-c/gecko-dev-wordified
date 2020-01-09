@@ -685,12 +685,6 @@ mWindowId
 TimeStamp
 mFrameStartTime
 ;
-wr
-:
-:
-DebugFlags
-mDebugFlags
-;
 }
 ;
 }
