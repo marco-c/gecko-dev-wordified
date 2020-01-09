@@ -17363,16 +17363,6 @@ aTab
 )
 ;
 }
-window
-.
-maybeRecordAbandonmentTelemetry
-(
-aTab
-"
-tabClosed
-"
-)
-;
 /
 /
 Handle
