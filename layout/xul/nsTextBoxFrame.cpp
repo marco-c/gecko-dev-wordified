@@ -1776,11 +1776,10 @@ TerminateShadows
 )
 ;
 return
-!
 textDrawer
 -
 >
-HasUnsupportedFeatures
+Finish
 (
 )
 ;
