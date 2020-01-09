@@ -124,7 +124,6 @@ contextmenu
 import
 {
 makeMockSource
-makeMappedLocation
 }
 from
 "
@@ -210,8 +209,6 @@ breakpoints
 [
 createBreakpoint
 (
-makeMappedLocation
-(
 {
 line
 :
@@ -252,7 +249,6 @@ main
 js
 "
 }
-)
 {
 id
 :
@@ -294,8 +290,6 @@ false
 )
 createBreakpoint
 (
-makeMappedLocation
-(
 {
 line
 :
@@ -336,7 +330,6 @@ main
 js
 "
 }
-)
 {
 id
 :
@@ -369,8 +362,6 @@ false
 }
 )
 createBreakpoint
-(
-makeMappedLocation
 (
 {
 line
@@ -412,7 +403,6 @@ main
 js
 "
 }
-)
 {
 id
 :

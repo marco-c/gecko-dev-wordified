@@ -441,10 +441,17 @@ null
 const
 maybeLineStart
 =
+hasBabel
+?
 col
 =
 >
 col
+:
+col
+=
+>
+0
 ;
 const
 defaultExport
@@ -1016,7 +1023,7 @@ line
 14
 column
 :
-4
+0
 }
 [
 "

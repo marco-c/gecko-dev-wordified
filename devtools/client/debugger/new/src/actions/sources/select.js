@@ -240,7 +240,7 @@ location
 ;
 import
 {
-mapLocation
+getMappedLocation
 }
 from
 "
@@ -834,7 +834,7 @@ sourceId
 location
 =
 await
-mapLocation
+getMappedLocation
 (
 getState
 (
@@ -1137,7 +1137,7 @@ const
 pairedLocation
 =
 await
-mapLocation
+getMappedLocation
 (
 getState
 (
