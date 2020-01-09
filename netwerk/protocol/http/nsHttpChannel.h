@@ -1774,6 +1774,11 @@ BeginConnectActual
 (
 )
 ;
+void
+MaybeStartDNSPrefetch
+(
+)
+;
 /
 /
 We
