@@ -694,6 +694,7 @@ MakeSpan
 aBuffer
 aCount
 )
+NS_ASSIGNMENT_DEPEND
 )
 ;
 NS_ENSURE_SUCCESS

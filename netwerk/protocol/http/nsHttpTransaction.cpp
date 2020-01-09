@@ -2677,6 +2677,7 @@ getter_AddRefs
 headers
 )
 mReqHeaderBuf
+NS_ASSIGNMENT_DEPEND
 )
 ;
 if
