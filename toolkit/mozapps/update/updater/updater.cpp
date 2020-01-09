@@ -17343,7 +17343,7 @@ if
 (
 NSS_NoDB_Init
 (
-NULL
+nullptr
 )
 !
 =
