@@ -931,14 +931,7 @@ void
 SetCursor
 (
 nsCursor
-aCursor
-)
-override
-;
-virtual
-nsresult
-SetCursor
-(
+aDefaultCursor
 imgIContainer
 *
 aCursor

@@ -37613,6 +37613,9 @@ mainWidget
 SetCursor
 (
 eCursor_spinning
+nullptr
+0
+0
 )
 ;
 }
@@ -37727,6 +37730,9 @@ mainWidget
 SetCursor
 (
 eCursor_standard
+nullptr
+0
+0
 )
 ;
 }
