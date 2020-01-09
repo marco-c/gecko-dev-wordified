@@ -73,7 +73,7 @@ bitvector
 /
 /
 Like
-EntityMap
+SecondaryMap
 an
 EntitySet
 is

@@ -1396,7 +1396,7 @@ only
 /
 /
 /
-avaliable
+available
 when
 that
 feature
