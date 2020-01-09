@@ -2134,7 +2134,7 @@ onListTabs
 async
 function
 (
-request
+options
 )
 {
 const
@@ -2308,17 +2308,6 @@ targetActorList
 ;
 let
 selected
-;
-const
-options
-=
-request
-.
-options
-|
-|
-{
-}
 ;
 const
 targetActors
