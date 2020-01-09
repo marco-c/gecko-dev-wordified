@@ -50,6 +50,9 @@ this
 module
 .
 use
+crate
+:
+:
 ir
 :
 :
@@ -59,7 +62,7 @@ entities
 Ebb
 ;
 use
-std
+core
 :
 :
 fmt
@@ -72,7 +75,7 @@ Formatter
 }
 ;
 use
-std
+core
 :
 :
 slice
@@ -579,12 +582,18 @@ super
 JumpTableData
 ;
 use
+crate
+:
+:
 entity
 :
 :
 EntityRef
 ;
 use
+crate
+:
+:
 ir
 :
 :

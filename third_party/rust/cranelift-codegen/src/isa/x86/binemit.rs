@@ -29,6 +29,9 @@ registers
 RU
 ;
 use
+crate
+:
+:
 binemit
 :
 :
@@ -39,6 +42,9 @@ Reloc
 }
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -52,6 +58,9 @@ IntCC
 }
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -66,6 +75,9 @@ TrapCode
 }
 ;
 use
+crate
+:
+:
 isa
 :
 :
@@ -77,6 +89,9 @@ StackRef
 }
 ;
 use
+crate
+:
+:
 regalloc
 :
 :
@@ -2785,6 +2800,9 @@ IntCC
 u16
 {
 use
+crate
+:
+:
 ir
 :
 :
@@ -2981,6 +2999,9 @@ FloatCC
 u16
 {
 use
+crate
+:
+:
 ir
 :
 :

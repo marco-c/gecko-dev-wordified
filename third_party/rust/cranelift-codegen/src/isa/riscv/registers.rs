@@ -8,6 +8,9 @@ register
 descriptions
 .
 use
+crate
+:
+:
 isa
 :
 :
@@ -67,6 +70,9 @@ INFO
 }
 ;
 use
+crate
+:
+:
 isa
 :
 :

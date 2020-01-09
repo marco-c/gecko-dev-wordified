@@ -13,7 +13,7 @@ a
 predicate
 .
 use
-std
+core
 :
 :
 mem

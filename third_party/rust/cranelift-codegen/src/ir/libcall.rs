@@ -12,6 +12,9 @@ runtime
 library
 .
 use
+crate
+:
+:
 ir
 :
 :
@@ -30,6 +33,9 @@ Type
 }
 ;
 use
+crate
+:
+:
 isa
 :
 :
@@ -40,13 +46,13 @@ TargetIsa
 }
 ;
 use
-std
+core
 :
 :
 fmt
 ;
 use
-std
+core
 :
 :
 str

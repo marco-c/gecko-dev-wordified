@@ -8,6 +8,9 @@ machine
 code
 .
 use
+crate
+:
+:
 binemit
 :
 :
@@ -17,6 +20,9 @@ CodeSink
 }
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -26,6 +32,9 @@ Inst
 }
 ;
 use
+crate
+:
+:
 regalloc
 :
 :

@@ -2355,7 +2355,7 @@ ts2
             
 #
 Propagate
-instersections
+intersections
 backward
             
 ts1_src

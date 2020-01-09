@@ -42,7 +42,7 @@ MAX_PATH
 }
 ;
 use
-std
+core
 :
 :
 borrow
@@ -51,7 +51,7 @@ borrow
 Borrow
 ;
 use
-std
+core
 :
 :
 marker
@@ -67,7 +67,7 @@ test
 )
 ]
 use
-std
+core
 :
 :
 fmt
@@ -4308,7 +4308,7 @@ was
 removed
 from
 the
-curent
+current
 node
 so
 move
@@ -6354,7 +6354,7 @@ super
 *
 ;
 use
-std
+core
 :
 :
 cmp
