@@ -4216,6 +4216,11 @@ SYNC_ENUMS
 RDD
 RDD
 )
+SYNC_ENUMS
+(
+SOCKET
+Socket
+)
 /
 /
 .
@@ -4231,7 +4236,7 @@ them
 :
 static_assert
 (
-GeckoProcessType_RDD
+GeckoProcessType_Socket
 +
 1
 =

@@ -2832,6 +2832,13 @@ h
 #
 undef
 GECKO_PROCESS_TYPE
+XRE_API
+(
+bool
+XRE_IsSocketProcess
+(
+)
+)
 /
 *
 *
