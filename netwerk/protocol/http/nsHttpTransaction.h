@@ -844,6 +844,11 @@ TakeResponseTrailers
 (
 )
 ;
+void
+SetH2WSConnRefTaken
+(
+)
+;
 /
 /
 Called
