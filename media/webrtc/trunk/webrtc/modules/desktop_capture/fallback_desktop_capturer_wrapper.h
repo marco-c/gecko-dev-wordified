@@ -277,12 +277,6 @@ callback
 override
 ;
 void
-Stop
-(
-)
-override
-;
-void
 SetSharedMemoryFactory
 (
 std
