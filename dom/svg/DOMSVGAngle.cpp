@@ -139,6 +139,17 @@ SVGAngleBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+SVGSVGElement
+.
+h
+"
 using
 namespace
 mozilla
@@ -170,7 +181,7 @@ DOMSVGAngle
 :
 DOMSVGAngle
 (
-SVGElement
+SVGSVGElement
 *
 aSVGElement
 )
