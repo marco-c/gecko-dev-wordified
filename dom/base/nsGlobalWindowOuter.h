@@ -497,9 +497,6 @@ class
 nsIControllers
 ;
 class
-nsIJSID
-;
-class
 nsIScriptContext
 ;
 class

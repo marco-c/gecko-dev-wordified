@@ -17055,40 +17055,8 @@ signatures
 (
 )
                 
-def
-argTypeIsIID
-(
-arg
-)
-:
-                    
-return
-arg
-.
-type
-.
-inner
-.
-isExternal
-(
-)
-and
-arg
-.
-type
-.
-inner
-.
-identifier
-.
-name
-=
-=
-'
-IID
-'
-                
 if
+(
 len
 (
 signatures
@@ -17109,9 +17077,8 @@ signatures
 >
 1
 or
+                    
 not
-argTypeIsIID
-(
 signatures
 [
 0
@@ -17122,6 +17089,12 @@ signatures
 [
 0
 ]
+.
+type
+.
+isAny
+(
+)
 )
 :
                     
@@ -17141,7 +17114,7 @@ with
 argument
 of
 type
-IID
+any
 "
 )
                 
