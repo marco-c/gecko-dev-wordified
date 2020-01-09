@@ -130,6 +130,9 @@ h
 class
 nsIURI
 ;
+class
+nsIWidget
+;
 namespace
 mozilla
 {
@@ -657,6 +660,16 @@ null
 *
 *
 param
+aWidget
+*
+The
+widget
+for
+the
+DocShell
+.
+*
+param
 aURI
 *
 The
@@ -696,6 +709,9 @@ visit
 NS_IMETHOD
 VisitURI
 (
+nsIWidget
+*
+aWidget
 nsIURI
 *
 aURI
@@ -856,6 +872,10 @@ override
 NS_IMETHOD
 VisitURI
 (
+nsIWidget
+*
+aWidget
+\
 nsIURI
 *
 aURI

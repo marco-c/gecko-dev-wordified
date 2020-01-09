@@ -1226,6 +1226,9 @@ nsAndroidHistory
 :
 VisitURI
 (
+nsIWidget
+*
+aWidget
 nsIURI
 *
 aURI

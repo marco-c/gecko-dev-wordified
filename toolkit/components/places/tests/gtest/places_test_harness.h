@@ -1611,6 +1611,7 @@ history
 >
 VisitURI
 (
+nullptr
 aURI
 nullptr
 mozilla
