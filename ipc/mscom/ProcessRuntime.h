@@ -251,6 +251,16 @@ mInitResult
 )
 ;
 }
+HRESULT
+GetHResult
+(
+)
+const
+{
+return
+mInitResult
+;
+}
 ProcessRuntime
 (
 ProcessRuntime
