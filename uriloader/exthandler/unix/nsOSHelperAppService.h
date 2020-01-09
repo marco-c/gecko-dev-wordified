@@ -199,7 +199,10 @@ info
 look
 up
 steps
-NS_IMETHOD
+already_AddRefed
+<
+nsIMIMEInfo
+>
 GetMIMEInfoFromOS
 (
 const
@@ -213,10 +216,6 @@ aFileExt
 bool
 *
 aFound
-nsIMIMEInfo
-*
-*
-aMIMEInfo
 )
 override
 ;

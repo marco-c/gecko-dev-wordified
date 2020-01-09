@@ -218,7 +218,7 @@ nsOSHelperAppService
 override
 nsIExternalProtocolService
 methods
-NS_IMETHOD
+nsresult
 OSProtocolHandlerExists
 (
 const
@@ -229,7 +229,6 @@ bool
 *
 aHandlerExists
 )
-override
 ;
 nsresult
 LoadUriInternal
@@ -266,7 +265,10 @@ steps
 .
 .
 .
-NS_IMETHOD
+already_AddRefed
+<
+nsIMIMEInfo
+>
 GetMIMEInfoFromOS
 (
 const
@@ -280,12 +282,7 @@ aFileExt
 bool
 *
 aFound
-nsIMIMEInfo
-*
-*
-aMIMEInfo
 )
-override
 ;
 NS_IMETHOD
 GetProtocolHandlerInfoFromOS

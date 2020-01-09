@@ -129,7 +129,11 @@ nsOSHelperAppService
 (
 )
 ;
-nsresult
+virtual
+already_AddRefed
+<
+nsIMIMEInfo
+>
 GetMIMEInfoFromOS
 (
 const
@@ -143,13 +147,9 @@ aFileExt
 bool
 *
 aFound
-nsIMIMEInfo
-*
-*
-aMIMEInfo
 )
-override
 ;
+virtual
 MOZ_MUST_USE
 nsresult
 OSProtocolHandlerExists
@@ -162,7 +162,6 @@ bool
 *
 aExists
 )
-override
 ;
 NS_IMETHOD
 GetProtocolHandlerInfoFromOS
@@ -179,7 +178,6 @@ nsIHandlerInfo
 *
 _retval
 )
-override
 ;
 static
 nsIHandlerApp
