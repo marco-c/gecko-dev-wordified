@@ -257,7 +257,7 @@ InitStatics
 (
 )
 ;
-MOZ_ASSERT
+MOZ_ALWAYS_TRUE
 (
 gotStatics
 )
