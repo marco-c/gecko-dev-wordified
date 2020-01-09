@@ -290,10 +290,7 @@ for
 transfer
 to
 *
-JS
-:
-:
-NewArrayBufferWithContents
+JS_NewArrayBufferWithContents
 (
 )
 .
