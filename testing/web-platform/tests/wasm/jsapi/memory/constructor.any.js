@@ -600,13 +600,6 @@ Memory
 (
 {
 "
-element
-"
-:
-"
-anyfunc
-"
-"
 initial
 "
 :
