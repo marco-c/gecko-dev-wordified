@@ -25417,7 +25417,7 @@ if
 zone
 -
 >
-needsIncrementalBarrier
+isGCMarkingBlackAndGray
 (
 )
 )
@@ -25471,17 +25471,6 @@ true
 return
 ;
 }
-MOZ_ASSERT
-(
-!
-zone
--
->
-isGCMarkingBlackAndGray
-(
-)
-)
-;
 if
 (
 !
