@@ -704,6 +704,13 @@ given
 row
 .
 *
+Returns
+-
+1
+upon
+error
+.
+*
 /
 int32_t
 RowIndexFor
