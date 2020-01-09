@@ -15088,14 +15088,6 @@ context
 )
 atom
 flags
-context
-(
-)
--
->
-tempLifoAlloc
-(
-)
 GenericObject
 )
 ;
