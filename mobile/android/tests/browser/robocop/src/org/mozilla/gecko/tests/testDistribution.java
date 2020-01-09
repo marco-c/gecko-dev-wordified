@@ -2786,6 +2786,10 @@ checkAddon
 (
 )
 {
+/
+*
+Bug
+1511211
 try
 {
 final
@@ -2876,6 +2880,8 @@ toString
 )
 ;
 }
+*
+/
 }
 private
 JSONArray
