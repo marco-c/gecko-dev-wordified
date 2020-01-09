@@ -455,7 +455,7 @@ aValue
 mType
 =
 =
-nsSMILNullType
+SMILNullType
 :
 :
 sSingleton
