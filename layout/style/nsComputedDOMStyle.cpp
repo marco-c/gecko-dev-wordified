@@ -6449,7 +6449,10 @@ nsROCSSPrimitiveValue
 *
 aValue
 const
-StyleComplexColor
+mozilla
+:
+:
+StyleColor
 &
 aColor
 )
@@ -11894,7 +11897,10 @@ list
 ]
 (
 const
-StyleComplexColor
+mozilla
+:
+:
+StyleColor
 &
 color
 )
@@ -12792,7 +12798,12 @@ mTextDecorationStyle
 =
 NS_STYLE_TEXT_DECORATION_STYLE_SOLID
 ;
-StyleComplexColor
+const
+mozilla
+:
+:
+StyleColor
+&
 color
 =
 textReset

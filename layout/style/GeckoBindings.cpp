@@ -7568,7 +7568,7 @@ nsStyleCoord
 (
 eStyleUnit_None
 )
-StyleComplexColor
+StyleColor
 :
 :
 Black

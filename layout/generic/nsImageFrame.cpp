@@ -8551,7 +8551,7 @@ BorderColorFor
 side
 )
 =
-StyleComplexColor
+StyleColor
 :
 :
 Black
