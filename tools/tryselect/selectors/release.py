@@ -95,13 +95,13 @@ staging_release_builds
 '
     
 '
-beta
+release
 -
 sim
 '
 :
 '
-beta_simulation
+release_simulation
 '
 }
 def

@@ -4991,11 +4991,11 @@ t
 _target_task
 (
 '
-beta_simulation
+release_simulation
 '
 )
 def
-target_tasks_beta_simulation
+target_tasks_release_simulation
 (
 full_task_graph
 parameters
@@ -5013,9 +5013,11 @@ that
 would
 run
 on
-mozilla
--
-beta
+push
+on
+a
+release
+branch
 .
     
 "
