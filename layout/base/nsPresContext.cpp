@@ -12134,7 +12134,10 @@ NotifyCounterStylesAreDirty
 PostRebuildAllStyleDataEvent
 (
 NS_STYLE_HINT_REFLOW
-eRestyle_ForceDescendants
+nsRestyleHint
+(
+0
+)
 )
 ;
 RefreshDriver
