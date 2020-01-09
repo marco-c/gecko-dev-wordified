@@ -601,6 +601,7 @@ __init__
 self
 xulinfo
 js_bin
+js_args
 )
 :
         
@@ -619,6 +620,12 @@ self
 js_bin
 =
 js_bin
+        
+self
+.
+js_args
+=
+js_args
         
 #
 Maps
@@ -686,6 +693,14 @@ cmd
 self
 .
 js_bin
+            
+]
++
+self
+.
+js_args
++
+[
                 
 #
 run
