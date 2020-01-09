@@ -2287,6 +2287,8 @@ rv
 __func__
 )
 ;
+return
+;
 }
 WaitForLoad
 (
