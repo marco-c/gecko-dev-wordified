@@ -169,17 +169,6 @@ Units
 .
 h
 "
-#
-include
-"
-nsSVGIntegrationUtils
-.
-h
-"
-/
-/
-for
-WrFiltersHolder
 class
 nsDisplayTransform
 ;

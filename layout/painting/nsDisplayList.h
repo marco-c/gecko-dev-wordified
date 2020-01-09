@@ -486,9 +486,6 @@ enum
 class
 nsDisplayOwnLayerFlags
 ;
-struct
-WrFiltersHolder
-;
 namespace
 mozilla
 {
@@ -37587,7 +37584,16 @@ aBuilder
 bool
 CreateWebRenderCSSFilters
 (
-WrFiltersHolder
+nsTArray
+<
+mozilla
+:
+:
+wr
+:
+:
+FilterOp
+>
 &
 wrFilters
 )
