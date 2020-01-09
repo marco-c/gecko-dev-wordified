@@ -217,13 +217,6 @@ maybeScrollToBottom
 PropTypes
 .
 func
-inWarningGroup
-:
-PropTypes
-.
-bool
-.
-isRequired
 }
 ;
 PageError
@@ -252,7 +245,6 @@ serviceContainer
 timestampsVisible
 isPaused
 maybeScrollToBottom
-inWarningGroup
 }
 =
 props
@@ -263,6 +255,7 @@ id
 :
 messageId
 executionPoint
+indent
 source
 type
 level
@@ -356,11 +349,6 @@ topLevelClasses
 [
 ]
 indent
-:
-message
-.
-indent
-inWarningGroup
 messageBody
 repeat
 frame
