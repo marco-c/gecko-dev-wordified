@@ -11660,7 +11660,7 @@ arguments
 result
 -
 >
-setCallOp
+setOp
 (
 op
 )
@@ -25168,6 +25168,14 @@ ParseNodeKind
 :
 Name
 :
+operand
+-
+>
+setOp
+(
+JSOP_DELNAME
+)
+;
 pnk
 =
 ParseNodeKind

@@ -3300,9 +3300,9 @@ NodeSuperBase
 ;
 }
 void
-setCallOp
+setOp
 (
-CallNodeType
+Node
 pn
 JSOp
 op
@@ -3777,6 +3777,14 @@ false
 "
 )
 ;
+}
+void
+adjustGetToSet
+(
+Node
+node
+)
+{
 }
 }
 JS_HAZ_ROOTED
