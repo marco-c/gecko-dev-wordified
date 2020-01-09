@@ -597,7 +597,7 @@ once
 SourceParseContext
 and
 *
-BinParseContext
+BinASTParseContext
 do
 derive
 from
