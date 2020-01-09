@@ -4085,8 +4085,6 @@ this
 _getFontSize
 (
 containerBox
-.
-height
 )
 ;
 /
@@ -4280,7 +4278,7 @@ class
 /
 _getFontSize
 (
-renderingAreaHeight
+containerBox
 )
 {
 /
@@ -4381,7 +4379,9 @@ font
 size
 .
 return
-renderingAreaHeight
+containerBox
+.
+height
 *
 0
 .
