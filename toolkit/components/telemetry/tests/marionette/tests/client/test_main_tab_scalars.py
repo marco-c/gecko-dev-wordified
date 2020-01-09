@@ -225,31 +225,35 @@ restart_browser
 MAIN_SHUTDOWN_PING
 )
         
-assert
+self
+.
+assertEqual
+(
 ping
 [
 "
 type
 "
 ]
-=
-=
 "
 main
 "
+)
         
-assert
+self
+.
+assertEqual
+(
 ping
 [
 "
 clientId
 "
 ]
-=
-=
 self
 .
 client_id
+)
         
 scalars
 =
@@ -275,7 +279,10 @@ scalars
 "
 ]
         
-assert
+self
+.
+assertEqual
+(
 scalars
 [
 "
@@ -286,11 +293,13 @@ engagement
 max_concurrent_tab_count
 "
 ]
-=
-=
 3
+)
         
-assert
+self
+.
+assertEqual
+(
 scalars
 [
 "
@@ -301,11 +310,13 @@ engagement
 tab_open_event_count
 "
 ]
-=
-=
 2
+)
         
-assert
+self
+.
+assertEqual
+(
 scalars
 [
 "
@@ -316,6 +327,5 @@ engagement
 max_concurrent_window_count
 "
 ]
-=
-=
 1
+)
