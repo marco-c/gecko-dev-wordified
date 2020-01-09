@@ -2116,6 +2116,8 @@ effects
 [
 &
 aProperty
+&
+effects
 ]
 (
 KeyframeEffect
@@ -2145,6 +2147,8 @@ aEffect
 HasEffectiveAnimationOfProperty
 (
 aProperty
+*
+effects
 )
 ;
 }

@@ -4852,6 +4852,18 @@ flags
 "
 )
 ;
+EffectSet
+*
+effects
+=
+EffectSet
+:
+:
+GetEffectSet
+(
+styleFrame
+)
+;
 /
 /
 Add
@@ -4964,6 +4976,8 @@ keyframeEffect
 GetEffectiveAnimationOfProperty
 (
 aProperty
+*
+effects
 )
 ;
 if
