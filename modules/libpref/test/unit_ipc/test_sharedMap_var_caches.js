@@ -260,6 +260,7 @@ cssom
 .
 disabled
 "
+;
 const
 PREF2_VALUE
 =
@@ -536,6 +537,7 @@ pref
 ;
 }
 )
+;
 equal
 (
 values

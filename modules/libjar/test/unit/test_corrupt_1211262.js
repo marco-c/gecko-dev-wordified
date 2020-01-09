@@ -119,9 +119,9 @@ zipreader
 .
 findEntries
 (
-'
+"
 *
-'
+"
 )
 )
 {

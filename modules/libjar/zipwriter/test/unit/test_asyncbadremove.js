@@ -70,8 +70,6 @@ observer
 =
 {
 onStartRequest
-:
-function
 (
 request
 context
@@ -79,8 +77,6 @@ context
 {
 }
 onStopRequest
-:
-function
 (
 request
 context

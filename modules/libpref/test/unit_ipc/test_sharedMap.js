@@ -1421,6 +1421,7 @@ opts
 .
 initial
 )
+;
 check
 (
 PREF
@@ -1477,6 +1478,7 @@ opts
 .
 change1
 )
+;
 check
 (
 PREF
@@ -1540,6 +1542,7 @@ opts
 .
 change2
 )
+;
 check
 (
 PREF

@@ -149,6 +149,7 @@ t
 exist
 "
 )
+;
 }
 catch
 (
@@ -168,5 +169,6 @@ name
 NS_ERROR_FILE_NOT_FOUND
 "
 )
+;
 }
 }

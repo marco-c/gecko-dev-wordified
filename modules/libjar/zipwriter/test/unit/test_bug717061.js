@@ -146,8 +146,6 @@ callback
 :
 null
 onStartRequest
-:
-function
 (
 aRequest
 aContext
@@ -155,8 +153,6 @@ aContext
 {
 }
 onStopRequest
-:
-function
 (
 aRequest
 aContext
@@ -201,8 +197,6 @@ callback
 ;
 }
 onDataAvailable
-:
-function
 (
 aRequest
 aContext
@@ -469,6 +463,7 @@ offset
 }
 }
 }
+;
 function
 comparer_callback
 (

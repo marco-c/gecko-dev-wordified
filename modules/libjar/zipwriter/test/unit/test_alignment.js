@@ -332,10 +332,6 @@ extra_len
 return
 {
 offset
-:
-offset
-size
-:
 size
 }
 ;

@@ -121,9 +121,9 @@ length
 .
 join
 (
-'
+"
 x
-'
+"
 )
 ;
 }
@@ -177,8 +177,6 @@ listener
 =
 {
 observe
-:
-function
 (
 event
 )
@@ -320,16 +318,6 @@ buffer
 )
 ;
 }
-)
-;
-}
-function
-run_test
-(
-)
-{
-run_next_test
-(
 )
 ;
 }
