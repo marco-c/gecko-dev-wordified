@@ -104,9 +104,9 @@ msg
 push
 =
 True
-*
-*
-kwargs
+closed_tree
+=
+False
 )
 :
     
@@ -151,10 +151,5 @@ push
                        
 closed_tree
 =
-kwargs
-[
-"
 closed_tree
-"
-]
 )

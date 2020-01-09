@@ -880,11 +880,13 @@ name
 selector
 =
 preset
-[
+.
+pop
+(
 '
 selector
 '
-]
+)
             
 preset
 .

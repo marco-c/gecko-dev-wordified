@@ -1569,9 +1569,12 @@ msg
 paths
 =
 None
-*
-*
-kwargs
+exact
+=
+False
+closed_tree
+=
+False
 )
 :
     
@@ -1826,12 +1829,7 @@ query
 ]
     
 if
-kwargs
-[
-'
 exact
-'
-]
 :
         
 base_cmd
@@ -2092,10 +2090,5 @@ push
                        
 closed_tree
 =
-kwargs
-[
-"
 closed_tree
-"
-]
 )
