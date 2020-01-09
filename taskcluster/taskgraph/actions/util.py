@@ -80,6 +80,10 @@ os
 import
 re
 from
+six
+import
+text_type
+from
 requests
 .
 exceptions
@@ -1751,7 +1755,7 @@ if
 isinstance
 (
 value
-basestring
+text_type
 )
 :
             
