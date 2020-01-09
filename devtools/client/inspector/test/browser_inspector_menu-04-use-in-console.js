@@ -226,7 +226,7 @@ jsterm
 ;
 is
 (
-jsterm
+hud
 .
 getInputValue
 (
@@ -322,7 +322,7 @@ ready
 ;
 is
 (
-jsterm
+hud
 .
 getInputValue
 (

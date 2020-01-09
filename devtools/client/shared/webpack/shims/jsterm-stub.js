@@ -357,7 +357,7 @@ returns
 void
 *
 /
-setInputValue
+_setValue
 (
 newValue
 )
@@ -395,7 +395,7 @@ returns
 string
 *
 /
-getInputValue
+_getValue
 (
 )
 {
@@ -441,7 +441,7 @@ executeString
 |
 this
 .
-getInputValue
+_getValue
 (
 )
 ;
@@ -605,7 +605,7 @@ onResult
 ;
 this
 .
-setInputValue
+_setValue
 (
 "
 "

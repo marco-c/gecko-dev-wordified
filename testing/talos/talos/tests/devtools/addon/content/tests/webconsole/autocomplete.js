@@ -442,7 +442,7 @@ popup
 .
 jsterm
 .
-setInputValue
+_setValue
 (
 value
 )
