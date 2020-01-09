@@ -135,7 +135,7 @@ MAX_COMMENT_LENGTH
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 #
 include

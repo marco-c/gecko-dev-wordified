@@ -2480,7 +2480,7 @@ false
 }
 #
 ifdef
-XP_WIN32
+XP_WIN
 if
 (
 (

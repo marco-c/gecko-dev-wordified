@@ -305,7 +305,7 @@ h
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 #
 ifdef
@@ -686,7 +686,7 @@ endif
 /
 defined
 (
-XP_WIN32
+XP_WIN
 )
 #
 ifdef
@@ -926,7 +926,7 @@ CrashReporter
 {
 #
 ifdef
-XP_WIN32
+XP_WIN
 typedef
 wchar_t
 XP_CHAR
@@ -1287,7 +1287,7 @@ endif
 endif
 /
 /
-XP_WIN32
+XP_WIN
 #
 if
 defined
@@ -5195,7 +5195,7 @@ void
 context
 #
 ifdef
-XP_WIN32
+XP_WIN
 EXCEPTION_POINTERS
 *
 exinfo
@@ -6577,7 +6577,7 @@ endif
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 static
 size_t
@@ -8360,7 +8360,7 @@ endif
 XP_MACOSX
 #
 ifdef
-XP_WIN32
+XP_WIN
 crashReporterPath
 =
 reinterpret_cast
@@ -8400,7 +8400,7 @@ endif
 endif
 /
 /
-XP_WIN32
+XP_WIN
 #
 else
 /
@@ -8542,7 +8542,7 @@ path
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 nsString
 tempPath
@@ -8569,7 +8569,7 @@ NS_ERROR_FAILURE
 }
 #
 ifdef
-XP_WIN32
+XP_WIN
 ReserveBreakpadVM
 (
 )
@@ -8610,7 +8610,7 @@ dll
 endif
 /
 /
-XP_WIN32
+XP_WIN
 #
 ifdef
 MOZ_WIDGET_ANDROID
@@ -8788,7 +8788,7 @@ MinidumpCallback
 nullptr
 #
 ifdef
-XP_WIN32
+XP_WIN
 google_breakpad
 :
 :
@@ -8830,7 +8830,7 @@ endif
 endif
 /
 /
-XP_WIN32
+XP_WIN
 if
 (
 !
@@ -9229,7 +9229,7 @@ NS_ERROR_NOT_INITIALIZED
 ;
 #
 ifdef
-XP_WIN32
+XP_WIN
 gExceptionHandler
 -
 >
@@ -9997,7 +9997,7 @@ NS_ERROR_FAILURE
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 SetEnvironmentVariableW
 (
@@ -10409,7 +10409,7 @@ lastCrashTimeFilename
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 nsAutoString
 filename
@@ -11842,7 +11842,7 @@ XP_LINUX
 |
 defined
 (
-XP_WIN32
+XP_WIN
 )
 gExceptionHandler
 -
@@ -11892,7 +11892,7 @@ XP_LINUX
 |
 defined
 (
-XP_WIN32
+XP_WIN
 )
 gExceptionHandler
 -
@@ -12308,7 +12308,7 @@ NS_OK
 }
 #
 ifdef
-XP_WIN32
+XP_WIN
 nsresult
 WriteMinidumpForException
 (
@@ -12458,7 +12458,7 @@ rv
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 /
 *
@@ -18951,7 +18951,7 @@ void
 context
 #
 ifdef
-XP_WIN32
+XP_WIN
 EXCEPTION_POINTERS
 *
 /
@@ -19070,7 +19070,7 @@ void
 context
 #
 ifdef
-XP_WIN32
+XP_WIN
 EXCEPTION_POINTERS
 *
 /
@@ -19106,7 +19106,7 @@ endif
 context
 #
 ifdef
-XP_WIN32
+XP_WIN
 nullptr
 nullptr
 #
@@ -19445,7 +19445,7 @@ aResult
 )
 #
 ifdef
-XP_WIN32
+XP_WIN
 GetMinidumpType
 (
 )
@@ -19601,7 +19601,7 @@ targetMinidump
 )
 #
 ifdef
-XP_WIN32
+XP_WIN
 GetMinidumpType
 (
 )
@@ -19688,7 +19688,7 @@ incomingDump
 )
 #
 ifdef
-XP_WIN32
+XP_WIN
 GetMinidumpType
 (
 )
@@ -19899,7 +19899,7 @@ childMinidump
 )
 #
 ifdef
-XP_WIN32
+XP_WIN
 GetMinidumpType
 (
 )

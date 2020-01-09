@@ -486,7 +486,7 @@ aProcess
 }
 #
 ifdef
-XP_WIN32
+XP_WIN
 nsresult
 WriteMinidumpForException
 (

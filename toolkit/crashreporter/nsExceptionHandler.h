@@ -234,7 +234,7 @@ h
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 #
 ifdef
@@ -985,7 +985,7 @@ aDumpFileProcessType
 ;
 #
 ifdef
-XP_WIN32
+XP_WIN
 nsresult
 WriteMinidumpForException
 (
@@ -1686,7 +1686,7 @@ name
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 |
 |
@@ -1845,7 +1845,7 @@ API
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 bool
 SetRemoteExceptionHandler
@@ -2007,7 +2007,7 @@ SetRemoteExceptionHandler
 endif
 /
 /
-XP_WIN32
+XP_WIN
 bool
 UnsetRemoteExceptionHandler
 (

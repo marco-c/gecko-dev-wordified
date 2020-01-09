@@ -1287,7 +1287,7 @@ DEBUG
 &
 defined
 (
-XP_WIN32
+XP_WIN
 )
 #
 include
@@ -5794,7 +5794,7 @@ aExceptionInfo
 {
 #
 ifdef
-XP_WIN32
+XP_WIN
 return
 CrashReporter
 :
@@ -30392,7 +30392,7 @@ PROCESS_DEP_ENABLE
 endif
 #
 ifdef
-XP_WIN32
+XP_WIN
 /
 /
 Suppress

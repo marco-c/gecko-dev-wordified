@@ -500,7 +500,7 @@ aValue
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 &
 &
@@ -548,7 +548,7 @@ aValue
 endif
 /
 *
-XP_WIN32
+XP_WIN
 &
 &
 _M_IX86
@@ -571,7 +571,7 @@ aValue
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 &
 &
@@ -622,7 +622,7 @@ aValue
 endif
 /
 *
-XP_WIN32
+XP_WIN
 &
 &
 _M_IX86

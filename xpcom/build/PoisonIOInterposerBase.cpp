@@ -186,7 +186,7 @@ ids
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 #
 include
@@ -230,7 +230,7 @@ endif
 *
 if
 not
-XP_WIN32
+XP_WIN
 *
 /
 using
