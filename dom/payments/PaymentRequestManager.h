@@ -333,8 +333,6 @@ AbortPayment
 PaymentRequest
 *
 aRequest
-bool
-aDeferredShow
 )
 ;
 nsresult
@@ -368,8 +366,6 @@ PaymentDetailsUpdate
 aDetails
 bool
 aRequestShipping
-bool
-aDeferredShow
 )
 ;
 nsresult

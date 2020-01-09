@@ -800,7 +800,6 @@ mRequest
 AbortUpdate
 (
 NS_ERROR_DOM_NOT_SUPPORTED_ERR
-false
 )
 ;
 mRequest
@@ -858,7 +857,6 @@ mRequest
 AbortUpdate
 (
 NS_ERROR_DOM_ABORT_ERR
-false
 )
 ;
 mRequest
