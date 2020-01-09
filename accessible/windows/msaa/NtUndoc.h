@@ -236,6 +236,9 @@ mHandles
 ;
 }
 ;
+#
+ifndef
+__MINGW32__
 enum
 UndocObjectInformationClass
 {
@@ -252,6 +255,8 @@ mName
 ;
 }
 ;
+#
+endif
 /
 /
 The
