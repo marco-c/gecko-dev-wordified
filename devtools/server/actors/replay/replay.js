@@ -4213,11 +4213,6 @@ url
 script
 .
 url
-format
-:
-script
-.
-format
 }
 ;
 }
@@ -5531,14 +5526,6 @@ forwardToScript
 (
 "
 getPredecessorOffsets
-"
-)
-getAllColumnOffsets
-:
-forwardToScript
-(
-"
-getAllColumnOffsets
 "
 )
 frameEvaluate
