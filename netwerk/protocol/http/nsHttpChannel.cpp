@@ -48948,7 +48948,7 @@ documentPolicy
 ctx
 -
 >
-CrossOriginPolicy
+GetCrossOriginPolicy
 (
 )
 ;
