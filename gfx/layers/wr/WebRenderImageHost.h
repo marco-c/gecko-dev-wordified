@@ -470,16 +470,6 @@ ClearWrBridge
 (
 )
 ;
-void
-EnableUseAsyncImagePipeline
-(
-)
-{
-mUseAsyncImagePipeline
-=
-true
-;
-}
 TextureHost
 *
 GetCurrentTextureHost
@@ -518,9 +508,6 @@ mWrBridge
 ;
 uint32_t
 mWrBridgeBindings
-;
-bool
-mUseAsyncImagePipeline
 ;
 CompositableTextureHostRef
 mCurrentTextureHost
