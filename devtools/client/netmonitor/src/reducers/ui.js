@@ -605,6 +605,17 @@ state
 case
 REMOVE_SELECTED_CUSTOM_REQUEST
 :
+return
+openNetworkDetails
+(
+state
+{
+open
+:
+true
+}
+)
+;
 case
 SEND_CUSTOM_REQUEST
 :
