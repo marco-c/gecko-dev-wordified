@@ -79,7 +79,6 @@ promise
 ;
 import
 {
-getGeneratedSource
 getSource
 }
 from
