@@ -703,8 +703,10 @@ std
 :
 vector
 <
+UniquePtr
+<
 AudioCodecConfig
-*
+>
 >
 &
 codecConfigList

@@ -579,8 +579,10 @@ std
 :
 vector
 <
+UniquePtr
+<
 JsepCodecDescription
-*
+>
 >
 &
 Codecs
