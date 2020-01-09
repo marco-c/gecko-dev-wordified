@@ -9498,6 +9498,14 @@ switch
 sysno
 )
 {
+case
+__NR_getrusage
+:
+return
+Allow
+(
+)
+;
 CASES_FOR_fcntl
 :
 return
