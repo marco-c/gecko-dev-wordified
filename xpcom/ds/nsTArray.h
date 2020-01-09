@@ -9244,8 +9244,9 @@ found
 =
 BinarySearchIf
 (
-*
-this
+Elements
+(
+)
 0
 Length
 (
@@ -11221,8 +11222,9 @@ index
 ;
 BinarySearchIf
 (
-*
-this
+Elements
+(
+)
 0
 Length
 (
