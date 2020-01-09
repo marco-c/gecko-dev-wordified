@@ -560,6 +560,12 @@ aRightEyeRect
 VRDisplayInfo
 mDisplayInfo
 ;
+TimeStamp
+mLastFrameStart
+[
+kVRMaxLatencyFrames
+]
+;
 nsTArray
 <
 VRLayerParent
