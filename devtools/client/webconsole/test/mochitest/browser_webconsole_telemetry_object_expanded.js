@@ -125,13 +125,13 @@ script
 >
 ;
 const
-OPTOUT
+ALL_CHANNELS
 =
 Ci
 .
 nsITelemetry
 .
-DATASET_RELEASE_CHANNEL_OPTOUT
+DATASET_ALL_CHANNELS
 ;
 add_task
 (
@@ -174,7 +174,7 @@ telemetry
 .
 snapshotEvents
 (
-OPTOUT
+ALL_CHANNELS
 true
 )
 ;
@@ -578,7 +578,7 @@ telemetry
 .
 snapshotEvents
 (
-OPTOUT
+ALL_CHANNELS
 true
 )
 ;
