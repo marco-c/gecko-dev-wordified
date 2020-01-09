@@ -379,11 +379,11 @@ VideoDecoderParent
 void
 ProcessDecodedData
 (
-const
 MediaDataDecoder
 :
 :
 DecodedData
+&
 &
 aData
 )
