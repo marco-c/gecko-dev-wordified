@@ -4437,7 +4437,7 @@ it
 down
 ?
 let
-doc
+pres_context
 =
 self
 .
@@ -4447,7 +4447,7 @@ builder
 .
 device
 .
-document
+pres_context
 (
 )
 ;
@@ -4488,7 +4488,7 @@ bindings
 Gecko_nsStyleFont_PrefillDefaultForGeneric
 (
 gecko_font
-doc
+pres_context
 generic
 )
 ;

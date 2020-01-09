@@ -1887,7 +1887,6 @@ static
 bool
 ShouldResistFingerprinting
 (
-const
 Document
 *
 aDoc
@@ -16899,7 +16898,6 @@ aValue
 nsAString
 &
 aPattern
-const
 Document
 *
 aDocument

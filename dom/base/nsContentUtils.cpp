@@ -12417,7 +12417,6 @@ nsContentUtils
 :
 ShouldResistFingerprinting
 (
-const
 Document
 *
 aDoc
@@ -39930,7 +39929,6 @@ ReportPatternCompileFailure
 nsAString
 &
 aPattern
-const
 Document
 *
 aDocument
@@ -40175,7 +40173,6 @@ aValue
 nsAString
 &
 aPattern
-const
 Document
 *
 aDocument

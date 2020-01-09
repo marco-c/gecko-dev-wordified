@@ -1576,7 +1576,7 @@ Gecko_DocumentRule_UseForPresentation
 (
 device
 .
-document
+pres_context
 (
 )
 &

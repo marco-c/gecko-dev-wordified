@@ -260,15 +260,6 @@ using
 namespace
 mozilla
 ;
-using
-mozilla
-:
-:
-dom
-:
-:
-Document
-;
 static
 nsTArray
 <
@@ -370,7 +361,6 @@ static
 nsSize
 GetSize
 (
-const
 Document
 *
 aDocument
@@ -521,7 +511,6 @@ static
 bool
 IsDeviceSizePageSize
 (
-const
 Document
 *
 aDocument
@@ -570,7 +559,6 @@ static
 nsSize
 GetDeviceSize
 (
-const
 Document
 *
 aDocument
@@ -742,7 +730,6 @@ size
 bool
 Gecko_MediaFeatures_IsResourceDocument
 (
-const
 Document
 *
 aDocument
@@ -762,7 +749,6 @@ nsDeviceContext
 *
 GetDeviceContextFor
 (
-const
 Document
 *
 aDocument
@@ -855,7 +841,6 @@ DeviceContext
 void
 Gecko_MediaFeatures_GetDeviceSize
 (
-const
 Document
 *
 aDocument
@@ -893,7 +878,6 @@ height
 uint32_t
 Gecko_MediaFeatures_GetColorDepth
 (
-const
 Document
 *
 aDocument
@@ -1016,7 +1000,6 @@ depth
 float
 Gecko_MediaFeatures_GetResolution
 (
-const
 Document
 *
 aDocument
@@ -1179,18 +1162,15 @@ AppUnitsPerDevPixel
 ;
 }
 static
-const
 Document
 *
 TopDocument
 (
-const
 Document
 *
 aDocument
 )
 {
-const
 Document
 *
 current
@@ -1199,7 +1179,6 @@ aDocument
 ;
 while
 (
-const
 Document
 *
 parent
@@ -1224,13 +1203,11 @@ current
 StyleDisplayMode
 Gecko_MediaFeatures_GetDisplayMode
 (
-const
 Document
 *
 aDocument
 )
 {
-const
 Document
 *
 rootDocument
@@ -1434,7 +1411,6 @@ GetDisplayMode
 bool
 Gecko_MediaFeatures_HasSystemMetric
 (
-const
 Document
 *
 aDocument
@@ -1490,7 +1466,6 @@ nsAtom
 *
 Gecko_MediaFeatures_GetOperatingSystemVersion
 (
-const
 Document
 *
 aDocument
@@ -1573,7 +1548,6 @@ nullptr
 bool
 Gecko_MediaFeatures_PrefersReducedMotion
 (
-const
 Document
 *
 aDocument
@@ -1614,7 +1588,6 @@ eIntID_PrefersReducedMotion
 StylePrefersColorScheme
 Gecko_MediaFeatures_PrefersColorScheme
 (
-const
 Document
 *
 aDocument
@@ -1766,7 +1739,6 @@ static
 PointerCapabilities
 GetPointerCapabilities
 (
-const
 Document
 *
 aDocument
@@ -1950,7 +1922,6 @@ intValue
 PointerCapabilities
 Gecko_MediaFeatures_PrimaryPointerCapabilities
 (
-const
 Document
 *
 aDocument
@@ -1970,7 +1941,6 @@ eIntID_PrimaryPointerCapabilities
 PointerCapabilities
 Gecko_MediaFeatures_AllPointerCapabilities
 (
-const
 Document
 *
 aDocument

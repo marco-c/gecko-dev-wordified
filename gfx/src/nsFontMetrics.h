@@ -491,12 +491,6 @@ textPerf
 =
 nullptr
 ;
-gfxFontFeatureValueSet
-*
-featureValueLookup
-=
-nullptr
-;
 }
 ;
 nsFontMetrics

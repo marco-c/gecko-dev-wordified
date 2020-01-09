@@ -209,7 +209,6 @@ CSSMozDocumentRule
 :
 Match
 (
-const
 Document
 *
 aDoc
