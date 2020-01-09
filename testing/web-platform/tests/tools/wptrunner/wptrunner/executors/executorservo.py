@@ -772,7 +772,6 @@ kill
 )
         
 except
-KeyboardInterrupt
 :
             
 self
