@@ -1808,7 +1808,7 @@ InitPromise
 using
 TokenPromise
 =
-GlobalAllocPolicy
+AllocPolicy
 :
 :
 Promise
@@ -1816,7 +1816,7 @@ Promise
 using
 Token
 =
-GlobalAllocPolicy
+AllocPolicy
 :
 :
 Token
