@@ -5079,30 +5079,6 @@ proxy
 "
 )
         
-no_proxies_on
-=
-"
-localhost
-127
-.
-0
-.
-0
-.
-1
-%
-s
-"
-%
-self
-.
-config
-[
-'
-host
-'
-]
-        
 proxy_prefs
 =
 {
@@ -5198,7 +5174,14 @@ no_proxies_on
 "
 ]
 =
-no_proxies_on
+self
+.
+config
+[
+'
+host
+'
+]
         
 self
 .

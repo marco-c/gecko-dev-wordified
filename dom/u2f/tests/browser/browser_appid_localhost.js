@@ -205,10 +205,9 @@ network
 .
 proxy
 .
-no_proxies_on
+allow_hijacking_localhost
 "
-"
-"
+true
 ]
 ]
 }
