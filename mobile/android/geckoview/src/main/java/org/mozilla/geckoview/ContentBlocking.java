@@ -2074,6 +2074,7 @@ details
 *
 /
 UiThread
+default
 void
 onContentBlocked
 (
@@ -2084,7 +2085,8 @@ NonNull
 BlockEvent
 event
 )
-;
+{
+}
 }
 private
 static

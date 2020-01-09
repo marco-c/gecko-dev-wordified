@@ -15705,6 +15705,7 @@ loaded
 *
 /
 UiThread
+default
 void
 onPageStart
 (
@@ -15715,7 +15716,8 @@ NonNull
 String
 url
 )
-;
+{
+}
 /
 *
 *
@@ -15755,6 +15757,7 @@ occurred
 *
 /
 UiThread
+default
 void
 onPageStop
 (
@@ -15764,7 +15767,8 @@ session
 boolean
 success
 )
-;
+{
+}
 /
 *
 *
@@ -15799,6 +15803,7 @@ value
 *
 /
 UiThread
+default
 void
 onProgressChange
 (
@@ -15808,7 +15813,8 @@ session
 int
 progress
 )
-;
+{
+}
 /
 *
 *
@@ -15840,6 +15846,7 @@ information
 *
 /
 UiThread
+default
 void
 onSecurityChange
 (
@@ -15850,7 +15857,8 @@ NonNull
 SecurityInformation
 securityInfo
 )
-;
+{
+}
 }
 /
 *
@@ -16135,6 +16143,7 @@ content
 *
 /
 UiThread
+default
 void
 onTitleChange
 (
@@ -16145,7 +16154,8 @@ Nullable
 String
 title
 )
-;
+{
+}
 /
 *
 *
@@ -16187,6 +16197,7 @@ callback
 *
 /
 UiThread
+default
 void
 onFocusRequest
 (
@@ -16194,7 +16205,8 @@ NonNull
 GeckoSession
 session
 )
-;
+{
+}
 /
 *
 *
@@ -16218,6 +16230,7 @@ callback
 *
 /
 UiThread
+default
 void
 onCloseRequest
 (
@@ -16225,7 +16238,8 @@ NonNull
 GeckoSession
 session
 )
-;
+{
+}
 /
 *
 *
@@ -16291,6 +16305,7 @@ mode
 *
 /
 UiThread
+default
 void
 onFullScreen
 (
@@ -16300,7 +16315,8 @@ session
 boolean
 fullScreen
 )
-;
+{
+}
 /
 *
 *
@@ -16734,6 +16750,7 @@ element
 *
 /
 UiThread
+default
 void
 onContextMenu
 (
@@ -16748,7 +16765,8 @@ NonNull
 ContextElement
 element
 )
-;
+{
+}
 /
 *
 *
@@ -16801,6 +16819,7 @@ response
 *
 /
 UiThread
+default
 void
 onExternalResponse
 (
@@ -16811,7 +16830,8 @@ NonNull
 WebResponseInfo
 response
 )
-;
+{
+}
 /
 *
 *
@@ -16897,6 +16917,7 @@ crashed
 *
 /
 UiThread
+default
 void
 onCrash
 (
@@ -16904,7 +16925,8 @@ NonNull
 GeckoSession
 session
 )
-;
+{
+}
 /
 *
 *
@@ -16955,6 +16977,7 @@ event
 *
 /
 UiThread
+default
 void
 onFirstComposite
 (
@@ -16962,7 +16985,8 @@ NonNull
 GeckoSession
 session
 )
-;
+{
+}
 }
 public
 interface
@@ -17926,6 +17950,7 @@ once
 *
 /
 UiThread
+default
 void
 onShowActionRequest
 (
@@ -17947,7 +17972,8 @@ String
 >
 response
 )
-;
+{
+}
 Retention
 (
 RetentionPolicy
@@ -18225,6 +18251,7 @@ constants
 *
 /
 UiThread
+default
 void
 onHideAction
 (
@@ -18235,7 +18262,8 @@ HideReason
 int
 reason
 )
-;
+{
+}
 }
 public
 interface
@@ -18276,6 +18304,7 @@ loaded
 *
 /
 UiThread
+default
 void
 onLocationChange
 (
@@ -18286,7 +18315,8 @@ Nullable
 String
 url
 )
-;
+{
+}
 /
 *
 *
@@ -18325,6 +18355,7 @@ ability
 *
 /
 UiThread
+default
 void
 onCanGoBack
 (
@@ -18334,7 +18365,8 @@ session
 boolean
 canGoBack
 )
-;
+{
+}
 /
 *
 *
@@ -18373,6 +18405,7 @@ ability
 *
 /
 UiThread
+default
 void
 onCanGoForward
 (
@@ -18382,7 +18415,8 @@ session
 boolean
 canGoForward
 )
-;
+{
+}
 Retention
 (
 RetentionPolicy
@@ -18868,6 +18902,7 @@ unhandled
 *
 /
 UiThread
+default
 Nullable
 GeckoResult
 <
@@ -18882,7 +18917,11 @@ NonNull
 LoadRequest
 request
 )
+{
+return
+null
 ;
+}
 /
 *
 *
@@ -19008,6 +19047,7 @@ null
 *
 /
 UiThread
+default
 Nullable
 GeckoResult
 <
@@ -19022,7 +19062,11 @@ NonNull
 String
 uri
 )
+{
+return
+null
 ;
+}
 /
 *
 *
@@ -19077,6 +19121,7 @@ entirely
 *
 /
 UiThread
+default
 Nullable
 GeckoResult
 <
@@ -19094,7 +19139,11 @@ NonNull
 WebRequestError
 error
 )
+{
+return
+null
 ;
+}
 }
 /
 *
@@ -19455,6 +19504,7 @@ interface
 *
 /
 UiThread
+default
 void
 onAlert
 (
@@ -19471,7 +19521,14 @@ NonNull
 AlertCallback
 callback
 )
+{
+callback
+.
+dismiss
+(
+)
 ;
+}
 /
 *
 *
@@ -19684,6 +19741,7 @@ interface
 *
 /
 UiThread
+default
 void
 onButtonPrompt
 (
@@ -19705,7 +19763,14 @@ NonNull
 ButtonCallback
 callback
 )
+{
+callback
+.
+dismiss
+(
+)
 ;
+}
 /
 *
 *
@@ -19843,6 +19908,7 @@ interface
 *
 /
 UiThread
+default
 void
 onTextPrompt
 (
@@ -19862,7 +19928,14 @@ NonNull
 TextCallback
 callback
 )
+{
+callback
+.
+dismiss
+(
+)
 ;
+}
 /
 *
 *
@@ -20494,6 +20567,7 @@ interface
 *
 /
 UiThread
+default
 void
 onAuthPrompt
 (
@@ -20513,7 +20587,14 @@ NonNull
 AuthCallback
 callback
 )
+{
+callback
+.
+dismiss
+(
+)
 ;
+}
 class
 Choice
 {
@@ -21329,6 +21410,7 @@ interface
 *
 /
 UiThread
+default
 void
 onChoicePrompt
 (
@@ -21355,7 +21437,14 @@ NonNull
 ChoiceCallback
 callback
 )
+{
+callback
+.
+dismiss
+(
+)
 ;
+}
 /
 *
 *
@@ -21418,6 +21507,7 @@ format
 *
 /
 UiThread
+default
 void
 onColorPrompt
 (
@@ -21434,7 +21524,14 @@ NonNull
 TextCallback
 callback
 )
+{
+callback
+.
+dismiss
+(
+)
 ;
+}
 Retention
 (
 RetentionPolicy
@@ -21678,6 +21775,7 @@ format
 *
 /
 UiThread
+default
 void
 onDateTimePrompt
 (
@@ -21703,7 +21801,14 @@ NonNull
 TextCallback
 callback
 )
+{
+callback
+.
+dismiss
+(
+)
 ;
+}
 /
 *
 *
@@ -21988,6 +22093,7 @@ interface
 *
 /
 UiThread
+default
 void
 onFilePrompt
 (
@@ -22009,7 +22115,14 @@ NonNull
 FileCallback
 callback
 )
+{
+callback
+.
+dismiss
+(
+)
 ;
+}
 /
 *
 *
@@ -22094,6 +22207,8 @@ open
 *
 /
 UiThread
+default
+Nullable
 GeckoResult
 <
 AllowOrDeny
@@ -22107,7 +22222,11 @@ Nullable
 String
 targetUri
 )
+{
+return
+null
 ;
+}
 }
 /
 *
@@ -22180,7 +22299,7 @@ pixels
 *
 /
 UiThread
-public
+default
 void
 onScrollChanged
 (
@@ -22192,7 +22311,8 @@ scrollX
 int
 scrollY
 )
-;
+{
+}
 }
 /
 *
@@ -23423,6 +23543,7 @@ interface
 *
 /
 UiThread
+default
 void
 onAndroidPermissionsRequest
 (
@@ -23438,7 +23559,14 @@ NonNull
 Callback
 callback
 )
+{
+callback
+.
+reject
+(
+)
 ;
+}
 /
 *
 *
@@ -23495,6 +23623,7 @@ interface
 *
 /
 UiThread
+default
 void
 onContentPermissionRequest
 (
@@ -23511,7 +23640,14 @@ NonNull
 Callback
 callback
 )
+{
+callback
+.
+reject
+(
+)
 ;
+}
 class
 MediaSource
 {
@@ -24751,6 +24887,7 @@ interface
 *
 /
 UiThread
+default
 void
 onMediaPermissionRequest
 (
@@ -24774,7 +24911,14 @@ NonNull
 MediaCallback
 callback
 )
+{
+callback
+.
+reject
+(
+)
 ;
+}
 }
 /
 *
@@ -26912,6 +27056,7 @@ created
 *
 /
 UiThread
+default
 void
 onMediaAdd
 (
@@ -26922,7 +27067,8 @@ NonNull
 MediaElement
 element
 )
-;
+{
+}
 /
 *
 *
@@ -26952,6 +27098,7 @@ unloaded
 *
 /
 UiThread
+default
 void
 onMediaRemove
 (
@@ -26962,7 +27109,8 @@ NonNull
 MediaElement
 element
 )
-;
+{
+}
 }
 /
 *
