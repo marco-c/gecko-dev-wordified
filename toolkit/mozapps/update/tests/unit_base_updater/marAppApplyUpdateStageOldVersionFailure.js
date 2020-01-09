@@ -89,11 +89,6 @@ types
 .
 *
 /
-const
-STATE_AFTER_STAGE
-=
-STATE_APPLIED
-;
 async
 function
 run_test
@@ -111,6 +106,11 @@ setupTestCommon
 return
 ;
 }
+const
+STATE_AFTER_STAGE
+=
+STATE_APPLIED
+;
 gTestFiles
 =
 gTestFilesCompleteSuccess
