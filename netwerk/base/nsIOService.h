@@ -403,6 +403,9 @@ nsPISocketTransportService
 namespace
 mozilla
 {
+class
+MemoryReportingProcess
+;
 namespace
 net
 {
@@ -414,6 +417,9 @@ nsAsyncRedirectVerifyHelper
 ;
 class
 SocketProcessHost
+;
+class
+SocketProcessMemoryReporter
 ;
 class
 nsIOService
@@ -819,6 +825,17 @@ const
 char
 *
 aName
+)
+;
+friend
+SocketProcessMemoryReporter
+;
+RefPtr
+<
+MemoryReportingProcess
+>
+GetSocketProcessMemoryReporter
+(
 )
 ;
 private
