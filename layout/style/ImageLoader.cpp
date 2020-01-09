@@ -3561,7 +3561,7 @@ get
 )
 -
 >
-IsAsyncAnimatedImage
+UsingSharedSurface
 (
 )
 )
