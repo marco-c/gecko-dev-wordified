@@ -752,6 +752,8 @@ commonGetPropFunction
 jsbytecode
 *
 pc
+jsid
+id
 bool
 innerized
 JSObject
@@ -788,6 +790,8 @@ megamorphicGetterSetterFunction
 jsbytecode
 *
 pc
+jsid
+id
 bool
 isGetter
 JSFunction
