@@ -929,10 +929,6 @@ appearance
 :
 none
 ;
-padding
-:
-0
-;
 color
 :
 inherit
@@ -1034,11 +1030,6 @@ top
 findbar
 -
 button
->
-.
-toolbarbutton
--
-text
 toolbarbutton
 .
 bookmark
@@ -1566,11 +1557,6 @@ true
 )
 :
 hover
->
-.
-toolbarbutton
--
-text
 toolbarbutton
 .
 bookmark
@@ -1811,11 +1797,6 @@ hover
 :
 active
 )
->
-.
-toolbarbutton
--
-text
 toolbarbutton
 .
 bookmark
