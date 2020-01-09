@@ -1714,6 +1714,7 @@ reportErrorNoOffsetVA
 unsigned
 errorNumber
 va_list
+*
 args
 )
 override

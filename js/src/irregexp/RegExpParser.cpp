@@ -2297,6 +2297,7 @@ err
 nullptr
 JSREPORT_ERROR
 errorNumber
+&
 args
 )
 ;

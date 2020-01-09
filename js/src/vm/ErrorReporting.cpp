@@ -483,6 +483,7 @@ flags
 unsigned
 errorNumber
 va_list
+*
 args
 )
 {
@@ -665,6 +666,7 @@ errorNumber
 nullptr
 ArgumentsAreLatin1
 err
+*
 args
 )
 )
@@ -720,6 +722,7 @@ flags
 unsigned
 errorNumber
 va_list
+*
 args
 )
 {
@@ -901,6 +904,7 @@ errorNumber
 nullptr
 ArgumentsAreLatin1
 err
+*
 args
 )
 )

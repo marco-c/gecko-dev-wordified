@@ -694,6 +694,7 @@ flags
 unsigned
 errorNumber
 va_list
+*
 args
 )
 ;
@@ -783,6 +784,7 @@ flags
 unsigned
 errorNumber
 va_list
+*
 args
 )
 ;

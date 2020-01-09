@@ -6816,6 +6816,7 @@ flags
 unsigned
 errorNumber
 va_list
+*
 args
 )
 ;
@@ -6885,6 +6886,7 @@ reportErrorNoOffsetVA
 unsigned
 errorNumber
 va_list
+*
 args
 )
 ;
@@ -17993,6 +17995,7 @@ reportErrorNoOffsetVA
 unsigned
 errorNumber
 va_list
+*
 args
 )
 final

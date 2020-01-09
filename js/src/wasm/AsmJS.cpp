@@ -11836,6 +11836,7 @@ metadata
 nullptr
 JSREPORT_ERROR
 JSMSG_USE_ASM_TYPE_FAIL
+&
 args
 )
 ;
@@ -11957,6 +11958,7 @@ metadata
 nullptr
 JSREPORT_WARNING
 JSMSG_USE_ASM_TYPE_FAIL
+&
 args
 )
 ;
