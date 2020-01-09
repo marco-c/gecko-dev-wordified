@@ -3589,6 +3589,13 @@ Luminosity
 }
 #
 [
+repr
+(
+C
+)
+]
+#
+[
 derive
 (
 Clone
