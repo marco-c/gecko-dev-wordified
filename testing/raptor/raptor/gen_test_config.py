@@ -144,6 +144,10 @@ b_port
 debug_mode
 =
 0
+                    
+browser_cycle
+=
+1
 )
 :
     
@@ -276,6 +280,15 @@ debug_mode
 %
 d
 "
+            
+"
+browser_cycle
+"
+:
+"
+%
+d
+"
 }
 ;
 }
@@ -294,6 +307,8 @@ post_startup_delay
 b_port
 host
 debug_mode
+       
+browser_cycle
 )
     
 webext_background_script
