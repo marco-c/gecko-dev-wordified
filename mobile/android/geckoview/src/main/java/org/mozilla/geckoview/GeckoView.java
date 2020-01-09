@@ -2774,13 +2774,6 @@ newConfig
 orientation
 )
 ;
-mRuntime
-.
-configurationChanged
-(
-newConfig
-)
-;
 }
 }
 Override
