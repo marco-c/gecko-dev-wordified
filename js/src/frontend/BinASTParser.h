@@ -335,15 +335,6 @@ Tokenizer
 AutoTaggedTuple
 ;
 using
-AutoTuple
-=
-typename
-Tokenizer
-:
-:
-AutoTuple
-;
-using
 Chars
 =
 typename
