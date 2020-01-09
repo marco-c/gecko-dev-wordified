@@ -125,7 +125,7 @@ getSource
 getSources
 getUrls
 getSpecificSourceByURL
-getSpecificSourceByUrlInSources
+getSpecificSourceByURLInSources
 }
 from
 "
@@ -940,16 +940,9 @@ availableTab
 const
 tabSource
 =
-getSpecificSourceByUrlInSources
-(
-getSources
+getSpecificSourceByURL
 (
 state
-)
-getUrls
-(
-state
-)
 availableTab
 .
 url
@@ -1215,7 +1208,7 @@ url
 )
 {
 return
-getSpecificSourceByUrlInSources
+getSpecificSourceByURLInSources
 (
 sources
 urls

@@ -113,7 +113,7 @@ actions
 ;
 import
 {
-getRelativeSources
+getDisplayedSources
 getActiveSearch
 getProjectDirectoryRoot
 getSelectedPrimaryPaneTab
@@ -976,7 +976,7 @@ state
 )
 sources
 :
-getRelativeSources
+getDisplayedSources
 (
 state
 )

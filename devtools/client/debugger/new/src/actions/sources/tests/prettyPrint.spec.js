@@ -171,7 +171,7 @@ js
 "
 ;
 const
-csr
+source
 =
 makeSource
 (
@@ -185,7 +185,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -194,8 +194,6 @@ dispatch
 (
 createPrettySource
 (
-csr
-.
 source
 .
 id
@@ -206,8 +204,6 @@ const
 prettyURL
 =
 {
-csr
-.
 source
 .
 url
@@ -299,7 +295,7 @@ async
 >
 {
 const
-csr
+source
 =
 makeSource
 (
@@ -324,8 +320,6 @@ actions
 .
 togglePrettyPrint
 (
-csr
-.
 source
 .
 id
@@ -373,7 +367,7 @@ async
 >
 {
 const
-csr
+source
 =
 makeSource
 (
@@ -398,8 +392,6 @@ actions
 .
 togglePrettyPrint
 (
-csr
-.
 source
 .
 id
@@ -430,8 +422,6 @@ actions
 .
 togglePrettyPrint
 (
-csr
-.
 source
 .
 id

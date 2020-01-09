@@ -488,7 +488,7 @@ sourceThreadClient
 )
 ;
 const
-fooCSR
+fooSource
 =
 makeSource
 (
@@ -506,7 +506,7 @@ actions
 .
 newSource
 (
-fooCSR
+fooSource
 )
 )
 ;
@@ -655,9 +655,7 @@ actions
 .
 closeTab
 (
-fooCSR
-.
-source
+fooSource
 )
 )
 ;
@@ -972,8 +970,6 @@ actions
 closeTab
 (
 bazSource
-.
-source
 )
 )
 ;
@@ -1211,8 +1207,6 @@ actions
 closeTab
 (
 bazSource
-.
-source
 )
 )
 ;
@@ -1294,7 +1288,7 @@ sourceThreadClient
 )
 ;
 const
-csr
+source
 =
 makeSource
 (
@@ -1303,8 +1297,6 @@ foo
 "
 )
 ;
-csr
-.
 source
 .
 url
@@ -1319,7 +1311,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -1396,8 +1388,6 @@ makeSource
 testSource
 "
 )
-.
-source
 ;
 const
 location
@@ -1655,7 +1645,7 @@ getState
 store
 ;
 const
-baseCSR
+baseSource
 =
 makeSource
 (
@@ -1673,7 +1663,7 @@ actions
 .
 newSource
 (
-baseCSR
+baseSource
 )
 )
 ;
@@ -1687,9 +1677,7 @@ selectLocation
 {
 sourceId
 :
-baseCSR
-.
-source
+baseSource
 .
 id
 line
@@ -1721,9 +1709,7 @@ id
 .
 toBe
 (
-baseCSR
-.
-source
+baseSource
 .
 id
 )
@@ -1738,9 +1724,7 @@ state
 getSymbols
 (
 state
-baseCSR
-.
-source
+baseSource
 )
 )
 ;
@@ -1829,7 +1813,7 @@ source
 )
 ;
 const
-baseCSR
+baseSource
 =
 makeSource
 (
@@ -1847,7 +1831,7 @@ actions
 .
 newSource
 (
-baseCSR
+baseSource
 )
 )
 ;
@@ -1883,14 +1867,12 @@ selectSource
 (
 originalBaseSource
 .
-source
-.
 id
 )
 )
 ;
 const
-fooCSR
+fooSource
 =
 makeSource
 (
@@ -1908,7 +1890,7 @@ actions
 .
 newSource
 (
-fooCSR
+fooSource
 )
 )
 ;
@@ -1922,9 +1904,7 @@ selectLocation
 {
 sourceId
 :
-fooCSR
-.
-source
+fooSource
 .
 id
 line
@@ -2012,7 +1992,7 @@ line
 )
 ;
 const
-baseCSR
+baseSource
 =
 makeOriginalSource
 (
@@ -2030,7 +2010,7 @@ actions
 .
 newSource
 (
-baseCSR
+baseSource
 )
 )
 ;
@@ -2041,9 +2021,7 @@ actions
 .
 selectSource
 (
-baseCSR
-.
-source
+baseSource
 .
 id
 )
@@ -2059,9 +2037,7 @@ selectSpecificLocation
 {
 sourceId
 :
-baseCSR
-.
-source
+baseSource
 .
 id
 line
@@ -2137,7 +2113,7 @@ sourceThreadClient
 )
 ;
 const
-baseCSR
+baseSource
 =
 makeSource
 (
@@ -2155,9 +2131,7 @@ actions
 .
 selectSourceURL
 (
-baseCSR
-.
-source
+baseSource
 .
 url
 )
@@ -2185,7 +2159,7 @@ actions
 .
 newSource
 (
-baseCSR
+baseSource
 )
 )
 ;
@@ -2211,9 +2185,7 @@ url
 .
 toBe
 (
-baseCSR
-.
-source
+baseSource
 .
 url
 )

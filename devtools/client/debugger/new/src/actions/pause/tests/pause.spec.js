@@ -1069,7 +1069,7 @@ column
 )
 ;
 const
-csr
+source
 =
 makeSource
 (
@@ -1085,7 +1085,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -1096,8 +1096,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -1207,7 +1205,7 @@ column
 )
 ;
 const
-csr
+source
 =
 makeSource
 (
@@ -1223,7 +1221,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -1234,8 +1232,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -1378,7 +1374,7 @@ a
 )
 ;
 const
-csr
+source
 =
 makeSource
 (
@@ -1394,7 +1390,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -1421,8 +1417,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -1772,7 +1766,7 @@ generatedLocation
 )
 ;
 const
-fooCSR
+fooSource
 =
 makeSource
 (
@@ -1782,7 +1776,7 @@ foo
 )
 ;
 const
-fooOriginalCSR
+fooOriginalSource
 =
 makeSource
 (
@@ -1800,7 +1794,7 @@ actions
 .
 newSource
 (
-fooCSR
+fooSource
 )
 )
 ;
@@ -1811,7 +1805,7 @@ actions
 .
 newSource
 (
-fooOriginalCSR
+fooOriginalSource
 )
 )
 ;
@@ -1822,9 +1816,7 @@ actions
 .
 loadSourceText
 (
-fooCSR
-.
-source
+fooSource
 )
 )
 ;
@@ -1835,9 +1827,7 @@ actions
 .
 loadSourceText
 (
-fooOriginalCSR
-.
-source
+fooOriginalSource
 )
 )
 ;
@@ -2140,7 +2130,7 @@ generatedLocation
 )
 ;
 const
-csr
+source
 =
 makeSource
 (
@@ -2157,7 +2147,7 @@ true
 )
 ;
 const
-originalCSR
+originalSource
 =
 makeOriginalSource
 (
@@ -2175,7 +2165,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -2186,7 +2176,7 @@ actions
 .
 newSource
 (
-originalCSR
+originalSource
 )
 )
 ;
@@ -2197,8 +2187,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -2210,9 +2198,7 @@ actions
 .
 loadSourceText
 (
-originalCSR
-.
-source
+originalSource
 )
 )
 ;

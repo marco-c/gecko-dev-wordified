@@ -174,6 +174,10 @@ loadedState
 "
 loaded
 "
+actors
+:
+[
+]
 }
 ;
 expect

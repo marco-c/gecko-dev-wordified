@@ -322,7 +322,7 @@ loadInitialState
 )
 ;
 const
-csr
+source
 =
 makeOriginalSource
 (
@@ -340,7 +340,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -369,8 +369,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -557,7 +555,7 @@ loadInitialState
 )
 ;
 const
-csr1
+source1
 =
 makeOriginalSource
 (
@@ -567,7 +565,7 @@ foo
 )
 ;
 const
-csr2
+source2
 =
 makeOriginalSource
 (
@@ -615,7 +613,7 @@ actions
 .
 newSource
 (
-csr1
+source1
 )
 )
 ;
@@ -626,7 +624,7 @@ actions
 .
 newSource
 (
-csr2
+source2
 )
 )
 ;
@@ -637,9 +635,7 @@ actions
 .
 loadSourceText
 (
-csr1
-.
-source
+source1
 )
 )
 ;
@@ -650,9 +646,7 @@ actions
 .
 loadSourceText
 (
-csr2
-.
-source
+source2
 )
 )
 ;
@@ -753,7 +747,7 @@ loadInitialState
 )
 ;
 const
-csr
+source
 =
 makeOriginalSource
 (
@@ -785,7 +779,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -796,8 +790,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -911,7 +903,7 @@ foo2
 )
 ;
 const
-csr1
+source1
 =
 makeOriginalSource
 (
@@ -921,7 +913,7 @@ foo
 )
 ;
 const
-csr2
+source2
 =
 makeOriginalSource
 (
@@ -937,7 +929,7 @@ actions
 .
 newSource
 (
-csr1
+source1
 )
 )
 ;
@@ -948,7 +940,7 @@ actions
 .
 newSource
 (
-csr2
+source2
 )
 )
 ;
@@ -959,9 +951,7 @@ actions
 .
 loadSourceText
 (
-csr1
-.
-source
+source1
 )
 )
 ;
@@ -972,9 +962,7 @@ actions
 .
 loadSourceText
 (
-csr2
-.
-source
+source2
 )
 )
 ;
@@ -1128,7 +1116,7 @@ location
 )
 ;
 const
-csr
+source
 =
 makeOriginalSource
 (
@@ -1144,7 +1132,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -1171,8 +1159,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -1315,7 +1301,7 @@ foo
 )
 ;
 const
-csr
+source
 =
 makeOriginalSource
 (
@@ -1331,7 +1317,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -1342,8 +1328,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -1452,7 +1436,7 @@ js
 )
 ;
 const
-csr
+source
 =
 makeOriginalSource
 (
@@ -1470,7 +1454,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -1499,8 +1483,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -1719,7 +1701,7 @@ js
 )
 ;
 const
-csr
+source
 =
 makeOriginalSource
 (
@@ -1737,7 +1719,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -1748,8 +1730,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -1838,7 +1818,7 @@ js
 )
 ;
 const
-csr
+source
 =
 makeOriginalSource
 (
@@ -1856,7 +1836,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -1885,8 +1865,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -1988,7 +1966,7 @@ dispatch
 store
 ;
 const
-csr
+source
 =
 makeOriginalSource
 (
@@ -2024,7 +2002,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -2035,8 +2013,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -2057,8 +2033,6 @@ selectors
 getBreakpointsForSource
 (
 state
-csr
-.
 source
 .
 id
@@ -2101,15 +2075,11 @@ column
 undefined
 sourceUrl
 :
-csr
-.
 source
 .
 url
 sourceId
 :
-csr
-.
 source
 .
 id
@@ -2144,8 +2114,6 @@ sourceId
 .
 toEqual
 (
-csr
-.
 source
 .
 id
@@ -2235,7 +2203,7 @@ toEqual
 )
 ;
 const
-csr
+source
 =
 makeOriginalSource
 (
@@ -2271,7 +2239,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -2282,8 +2250,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -2344,7 +2310,7 @@ async
 >
 {
 const
-csr
+source
 =
 makeOriginalSource
 (
@@ -2380,8 +2346,6 @@ async
 =
 >
 [
-csr
-.
 source
 .
 url
@@ -2489,7 +2453,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -2583,7 +2547,7 @@ toEqual
 )
 ;
 const
-csr1
+source1
 =
 makeOriginalSource
 (
@@ -2595,7 +2559,7 @@ js
 )
 ;
 const
-csr2
+source2
 =
 makeOriginalSource
 (
@@ -2650,8 +2614,8 @@ actions
 newSources
 (
 [
-csr1
-csr2
+source1
+source2
 ]
 )
 )
@@ -2663,9 +2627,7 @@ actions
 .
 loadSourceText
 (
-csr1
-.
-source
+source1
 )
 )
 ;
@@ -2676,9 +2638,7 @@ actions
 .
 loadSourceText
 (
-csr2
-.
-source
+source2
 )
 )
 ;

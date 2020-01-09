@@ -173,7 +173,7 @@ a
 }
 ;
 const
-csr
+source
 =
 makeSource
 (
@@ -189,7 +189,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -200,8 +200,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -362,7 +360,7 @@ a
 }
 ;
 const
-csr
+source
 =
 makeSource
 (
@@ -378,7 +376,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -389,8 +387,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -531,7 +527,7 @@ a
 }
 ;
 const
-csr
+source
 =
 makeSource
 (
@@ -547,7 +543,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -558,8 +554,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -711,7 +705,7 @@ a
 }
 ;
 const
-csr
+source
 =
 makeSource
 (
@@ -727,7 +721,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -738,8 +732,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -915,7 +907,7 @@ b
 }
 ;
 const
-aCSR
+aSource
 =
 makeSource
 (
@@ -931,7 +923,7 @@ actions
 .
 newSource
 (
-aCSR
+aSource
 )
 )
 ;
@@ -942,14 +934,12 @@ actions
 .
 loadSourceText
 (
-aCSR
-.
-source
+aSource
 )
 )
 ;
 const
-bCSR
+bSource
 =
 makeSource
 (
@@ -965,7 +955,7 @@ actions
 .
 newSource
 (
-bCSR
+bSource
 )
 )
 ;
@@ -976,9 +966,7 @@ actions
 .
 loadSourceText
 (
-bCSR
-.
-source
+bSource
 )
 )
 ;
@@ -1149,7 +1137,7 @@ b
 }
 ;
 const
-aCSR
+aSource
 =
 makeSource
 (
@@ -1165,7 +1153,7 @@ actions
 .
 newSource
 (
-aCSR
+aSource
 )
 )
 ;
@@ -1176,14 +1164,12 @@ actions
 .
 loadSourceText
 (
-aCSR
-.
-source
+aSource
 )
 )
 ;
 const
-bCSR
+bSource
 =
 makeSource
 (
@@ -1199,7 +1185,7 @@ actions
 .
 newSource
 (
-bCSR
+bSource
 )
 )
 ;
@@ -1210,9 +1196,7 @@ actions
 .
 loadSourceText
 (
-bCSR
-.
-source
+bSource
 )
 )
 ;
@@ -1337,7 +1321,7 @@ a
 }
 ;
 const
-aCSR
+aSource
 =
 makeSource
 (
@@ -1353,7 +1337,7 @@ actions
 .
 newSource
 (
-aCSR
+aSource
 )
 )
 ;
@@ -1364,9 +1348,7 @@ actions
 .
 loadSourceText
 (
-aCSR
-.
-source
+aSource
 )
 )
 ;
@@ -1550,7 +1532,7 @@ b
 }
 ;
 const
-aCSR
+aSource
 =
 makeSource
 (
@@ -1566,7 +1548,7 @@ actions
 .
 newSource
 (
-aCSR
+aSource
 )
 )
 ;
@@ -1577,14 +1559,12 @@ actions
 .
 loadSourceText
 (
-aCSR
-.
-source
+aSource
 )
 )
 ;
 const
-bCSR
+bSource
 =
 makeSource
 (
@@ -1600,7 +1580,7 @@ actions
 .
 newSource
 (
-bCSR
+bSource
 )
 )
 ;
@@ -1611,9 +1591,7 @@ actions
 .
 loadSourceText
 (
-bCSR
-.
-source
+bSource
 )
 )
 ;
@@ -1834,7 +1812,7 @@ simpleMockThreadClient
 )
 ;
 const
-csr
+source
 =
 makeSource
 (
@@ -1850,7 +1828,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -1861,8 +1839,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -2009,7 +1985,7 @@ simpleMockThreadClient
 )
 ;
 const
-csr
+source
 =
 makeSource
 (
@@ -2025,7 +2001,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -2036,8 +2012,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -2210,7 +2184,7 @@ a
 }
 ;
 const
-csr
+source
 =
 makeSource
 (
@@ -2226,7 +2200,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -2237,8 +2211,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -2623,7 +2595,7 @@ js
 }
 ;
 const
-csr
+source
 =
 makeSource
 (
@@ -2641,7 +2613,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -2652,8 +2624,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )

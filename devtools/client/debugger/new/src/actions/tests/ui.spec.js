@@ -90,7 +90,7 @@ getFrameworkGroupingState
 getPaneCollapse
 getHighlightedLineRange
 getProjectDirectoryRoot
-getRelativeSources
+getDisplayedSources
 }
 =
 selectors
@@ -1123,7 +1123,7 @@ js
 const
 filteredSourcesByThread
 =
-getRelativeSources
+getDisplayedSources
 (
 getState
 (

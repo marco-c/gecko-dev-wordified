@@ -763,8 +763,6 @@ sourceMaps
 dispatch
 reloadedSource
 .
-source
-.
 id
 pendingBreakpoint
 (
@@ -955,8 +953,6 @@ threadClient
 sourceMaps
 dispatch
 reloadedSource
-.
-source
 .
 id
 pendingBreakpoint
@@ -1245,8 +1241,6 @@ threadClient
 sourceMaps
 dispatch
 reloadedSource
-.
-source
 .
 id
 pendingBreakpoint
@@ -1567,8 +1561,6 @@ sourceMaps
 dispatch
 reloadedSource
 .
-source
-.
 id
 pendingBreakpoint
 (
@@ -1717,8 +1709,6 @@ sourceId
 :
 reloadedSource
 .
-source
-.
 id
 line
 :
@@ -1779,8 +1769,6 @@ actions
 syncBreakpoint
 (
 reloadedSource
-.
-source
 .
 id
 pendingBreakpoint

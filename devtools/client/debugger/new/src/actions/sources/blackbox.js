@@ -128,7 +128,7 @@ prefs
 ;
 import
 {
-getSourceActors
+getSourceFromId
 }
 from
 "
@@ -199,9 +199,9 @@ range
 )
 {
 const
-sourceActors
+source
 =
-getSourceActors
+getSourceFromId
 (
 state
 sourceId
@@ -212,7 +212,9 @@ for
 const
 sourceActor
 of
-sourceActors
+source
+.
+actors
 )
 {
 await

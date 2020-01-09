@@ -422,7 +422,7 @@ threadClient
 )
 ;
 const
-baseCSR
+baseSource
 =
 makeSource
 (
@@ -440,9 +440,7 @@ actions
 .
 selectSourceURL
 (
-baseCSR
-.
-source
+baseSource
 .
 url
 )
@@ -470,7 +468,7 @@ actions
 .
 newSource
 (
-baseCSR
+baseSource
 )
 )
 ;
@@ -496,9 +494,7 @@ url
 .
 toBe
 (
-baseCSR
-.
-source
+baseSource
 .
 url
 )
@@ -550,7 +546,7 @@ js
 )
 ;
 const
-baseCSR
+baseSource
 =
 makeSource
 (
@@ -579,7 +575,7 @@ actions
 .
 newSource
 (
-baseCSR
+baseSource
 )
 )
 ;
@@ -849,7 +845,7 @@ _
 )
 ;
 const
-baseCSR
+baseSource
 =
 makeSource
 (
@@ -878,7 +874,7 @@ actions
 .
 newSource
 (
-baseCSR
+baseSource
 )
 )
 ;

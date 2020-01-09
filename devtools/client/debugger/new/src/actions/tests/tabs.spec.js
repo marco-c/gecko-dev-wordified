@@ -144,7 +144,7 @@ threadClient
 )
 ;
 const
-fooCSR
+fooSource
 =
 makeSource
 (
@@ -162,7 +162,7 @@ actions
 .
 newSource
 (
-fooCSR
+fooSource
 )
 )
 ;
@@ -194,9 +194,7 @@ actions
 .
 closeTab
 (
-fooCSR
-.
-source
+fooSource
 )
 )
 ;
@@ -259,7 +257,7 @@ threadClient
 )
 ;
 const
-fooCSR
+fooSource
 =
 makeSource
 (
@@ -277,7 +275,7 @@ actions
 .
 newSource
 (
-fooCSR
+fooSource
 )
 )
 ;
@@ -349,9 +347,7 @@ actions
 .
 closeTab
 (
-fooCSR
-.
-source
+fooSource
 )
 )
 ;
@@ -428,7 +424,7 @@ threadClient
 )
 ;
 const
-fooCSR
+fooSource
 =
 makeSource
 (
@@ -446,7 +442,7 @@ actions
 .
 newSource
 (
-fooCSR
+fooSource
 )
 )
 ;
@@ -478,9 +474,7 @@ actions
 .
 closeTab
 (
-fooCSR
-.
-source
+fooSource
 )
 )
 ;
@@ -543,7 +537,7 @@ threadClient
 )
 ;
 const
-barCSR
+barSource
 =
 makeSource
 (
@@ -579,7 +573,7 @@ actions
 .
 newSource
 (
-barCSR
+barSource
 )
 )
 ;
@@ -634,9 +628,7 @@ actions
 .
 closeTab
 (
-barCSR
-.
-source
+barSource
 )
 )
 ;
@@ -713,7 +705,7 @@ threadClient
 )
 ;
 const
-fooCSR
+fooSource
 =
 makeSource
 (
@@ -725,7 +717,7 @@ js
 )
 ;
 const
-barCSR
+barSource
 =
 makeSource
 (
@@ -743,7 +735,7 @@ actions
 .
 newSource
 (
-fooCSR
+fooSource
 )
 )
 ;
@@ -754,7 +746,7 @@ actions
 .
 newSource
 (
-barCSR
+barSource
 )
 )
 ;

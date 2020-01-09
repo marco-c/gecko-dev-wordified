@@ -148,7 +148,7 @@ getState
 store
 ;
 const
-foo1CSR
+foo1Source
 =
 makeSource
 (
@@ -164,7 +164,7 @@ actions
 .
 newSource
 (
-foo1CSR
+foo1Source
 )
 )
 ;
@@ -175,9 +175,7 @@ actions
 .
 loadSourceText
 (
-foo1CSR
-.
-source
+foo1Source
 )
 )
 ;
@@ -248,7 +246,7 @@ toBe
 )
 ;
 const
-foo2CSR
+baseFoo2Source
 =
 makeSource
 (
@@ -264,7 +262,7 @@ actions
 .
 newSource
 (
-foo2CSR
+baseFoo2Source
 )
 )
 ;
@@ -275,9 +273,7 @@ actions
 .
 loadSourceText
 (
-foo2CSR
-.
-source
+baseFoo2Source
 )
 )
 ;
@@ -418,7 +414,7 @@ foo
 "
 ;
 const
-csr
+baseSource
 =
 makeSource
 (
@@ -439,7 +435,7 @@ actions
 .
 newSource
 (
-csr
+baseSource
 )
 )
 ;
@@ -640,7 +636,7 @@ foo
 "
 ;
 const
-csr
+baseSource
 =
 makeSource
 (
@@ -661,7 +657,7 @@ actions
 .
 newSource
 (
-csr
+baseSource
 )
 )
 ;
@@ -822,7 +818,7 @@ sourceThreadClient
 )
 ;
 const
-csr
+source
 =
 makeSource
 (
@@ -838,8 +834,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -944,7 +938,7 @@ loading
 state
 .
 const
-csr
+source
 =
 makeSource
 (
@@ -959,8 +953,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
@@ -1028,7 +1020,7 @@ sourceThreadClient
 )
 ;
 const
-csr
+source
 =
 makeSource
 (
@@ -1046,7 +1038,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -1057,8 +1049,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )
