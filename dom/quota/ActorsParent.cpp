@@ -6611,6 +6611,9 @@ classes
 *
 *
 /
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 class
 PrincipalVerifier
 final
@@ -6704,6 +6707,8 @@ aPrincipalInfo
 NS_DECL_NSIRUNNABLE
 }
 ;
+#
+endif
 /
 *
 *
@@ -41160,6 +41165,9 @@ PersistResponse
 )
 ;
 }
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 /
 /
 static
@@ -41581,6 +41589,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 nsresult
 StorageOperationBase
 :
@@ -42237,12 +42247,17 @@ IsEmpty
 nsresult
 rv
 ;
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 nsTArray
 <
 PrincipalInfo
 >
 principalInfos
 ;
+#
+endif
 for
 (
 auto
@@ -42437,6 +42452,9 @@ originProps
 mOrigin
 )
 ;
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 principalInfos
 .
 AppendElement
@@ -42444,6 +42462,8 @@ AppendElement
 principalInfo
 )
 ;
+#
+endif
 break
 ;
 }
@@ -42484,6 +42504,9 @@ type
 ;
 }
 }
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 if
 (
 !
@@ -42515,6 +42538,8 @@ principalInfos
 )
 ;
 }
+#
+endif
 /
 /
 Don
