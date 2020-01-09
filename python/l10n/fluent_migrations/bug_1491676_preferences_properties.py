@@ -76,7 +76,7 @@ ctx
 "
 "
 Bug
-1486937
+1491676
 -
 Move
 strings
@@ -202,14 +202,6 @@ pw_change_ok
 "
 )
 }
-{
--
-pw
--
-empty
--
-warning
-}
 pw
 -
 erased
@@ -226,7 +218,6 @@ pw_erased_ok
 )
 }
 {
--
 pw
 -
 empty
@@ -247,6 +238,13 @@ from_path
 pw_not_wanted
 "
 )
+}
+{
+pw
+-
+empty
+-
+warning
 }
 pw
 -
@@ -749,7 +747,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 windows
@@ -802,7 +800,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 other
@@ -930,7 +928,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 windows
@@ -983,7 +981,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 other
@@ -1123,7 +1121,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 windows
@@ -1197,7 +1195,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 other

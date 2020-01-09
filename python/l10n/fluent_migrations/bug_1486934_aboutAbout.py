@@ -68,7 +68,7 @@ about
 about
 to
 use
-fluent
+Fluent
 for
 localization
 part
