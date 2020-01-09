@@ -806,10 +806,10 @@ frames
 nsLayoutUtils
 :
 :
-FrameForPointFlags
+FrameForPointOption
 :
 :
-ONLY_VISIBLE
+OnlyVisible
 )
 ;
 AccessibleHashtable

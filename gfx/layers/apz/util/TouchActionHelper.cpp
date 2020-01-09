@@ -440,7 +440,10 @@ relativePoint
 nsLayoutUtils
 :
 :
-IGNORE_ROOT_SCROLL_FRAME
+FrameForPointOption
+:
+:
+IgnoreRootScrollFrame
 )
 ;
 if
