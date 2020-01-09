@@ -144,6 +144,14 @@ gpu
 Gpu
 '
     
+'
+socket
+'
+:
+'
+Socket
+'
+    
 #
 Historical
 Values

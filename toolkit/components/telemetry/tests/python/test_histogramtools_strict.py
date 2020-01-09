@@ -193,6 +193,9 @@ main
 "
 content
 "
+"
+socket
+"
 ]
                 
 "
