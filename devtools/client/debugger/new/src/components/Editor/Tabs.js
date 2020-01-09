@@ -987,7 +987,6 @@ start
 collapsed
 =
 {
-!
 this
 .
 props
@@ -1044,7 +1043,6 @@ end
 collapsed
 =
 {
-!
 endPanelCollapsed
 }
 handleClick

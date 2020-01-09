@@ -239,7 +239,6 @@ end
 collapsed
 =
 {
-!
 endPanelCollapsed
 }
 horizontal
