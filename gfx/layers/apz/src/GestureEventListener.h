@@ -1171,7 +1171,7 @@ touch
 .
 *
 /
-ParentLayerCoord
+ScreenCoord
 GetYSpanFromGestureStartPoint
 (
 )
@@ -1373,7 +1373,7 @@ state
 .
 *
 /
-ParentLayerCoord
+ScreenCoord
 mSpanChange
 ;
 /
@@ -1395,7 +1395,7 @@ PinchGestureInput
 .
 *
 /
-ParentLayerCoord
+ScreenCoord
 mPreviousSpan
 ;
 /
@@ -1412,10 +1412,10 @@ the
 focus
 *
 /
-ParentLayerCoord
+ScreenCoord
 mFocusChange
 ;
-ParentLayerPoint
+ScreenPoint
 mPreviousFocus
 ;
 /
@@ -1575,7 +1575,7 @@ passed
 .
 *
 /
-ParentLayerPoint
+ScreenPoint
 mOneTouchPinchStartPosition
 ;
 /
@@ -1649,7 +1649,7 @@ tap
 .
 *
 /
-ParentLayerPoint
+ScreenPoint
 mTouchStartPosition
 ;
 /
