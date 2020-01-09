@@ -21765,7 +21765,6 @@ aBuilder
 aFrame
 bounds
 bounds
-false
 )
 ;
 presShell
@@ -21924,7 +21923,6 @@ aBuilder
 aFrame
 canvasArea
 canvasArea
-false
 )
 ;
 presShell

@@ -22015,7 +22015,6 @@ aBuilder
 mOuter
 visible
 dirty
-true
 )
 ;
 nsDisplayListBuilder
@@ -22182,7 +22181,6 @@ scrollParts
 i
 ]
 )
-true
 )
 ;
 nsDisplayListBuilder
@@ -23646,12 +23644,6 @@ aBuilder
 mOuter
 visibleRect
 dirtyRect
-aBuilder
--
->
-IsAtRootOfPseudoStackingContext
-(
-)
 )
 ;
 /
@@ -25531,12 +25523,6 @@ aBuilder
 mOuter
 visibleRect
 dirtyRect
-aBuilder
--
->
-IsAtRootOfPseudoStackingContext
-(
-)
 )
 ;
 mOuter

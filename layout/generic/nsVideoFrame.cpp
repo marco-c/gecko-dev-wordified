@@ -3960,12 +3960,6 @@ GetOffsetTo
 (
 this
 )
-aBuilder
--
->
-IsAtRootOfPseudoStackingContext
-(
-)
 )
 ;
 child

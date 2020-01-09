@@ -20050,7 +20050,6 @@ aBuilder
 this
 visibleRect
 dirtyRect
-true
 )
 ;
 /
@@ -24149,7 +24148,6 @@ aBuilder
 aChild
 visible
 dirty
-false
 )
 ;
 CheckForApzAwareEventHandlers
@@ -25591,7 +25589,6 @@ aBuilder
 child
 visible
 dirty
-pseudoStackingContext
 )
 ;
 DisplayListClipState

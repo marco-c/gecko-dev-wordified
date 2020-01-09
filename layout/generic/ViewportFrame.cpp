@@ -898,12 +898,6 @@ aBuilder
 aFrame
 visible
 dirty
-aBuilder
--
->
-IsAtRootOfPseudoStackingContext
-(
-)
 )
 ;
 nsDisplayList

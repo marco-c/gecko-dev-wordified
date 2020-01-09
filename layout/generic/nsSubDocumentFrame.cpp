@@ -3213,7 +3213,6 @@ aBuilder
 frame
 visible
 dirty
-true
 )
 ;
 if
@@ -4005,7 +4004,6 @@ aBuilder
 this
 visible
 dirty
-true
 )
 ;
 /

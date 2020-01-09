@@ -3560,7 +3560,6 @@ aBuilder
 GetDirtyRect
 (
 )
-false
 )
 ;
 DisplayListClipState

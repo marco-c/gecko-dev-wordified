@@ -7681,10 +7681,6 @@ mIgnoreSuppression
 (
 false
 )
-mIsAtRootOfPseudoStackingContext
-(
-false
-)
 mIncludeAllOutOfFlows
 (
 false
@@ -24987,7 +24983,6 @@ aBuilder
 GetDirtyRect
 (
 )
-false
 )
 ;
 nsDisplayListBuilder
