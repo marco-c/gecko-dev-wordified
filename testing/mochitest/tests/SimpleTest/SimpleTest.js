@@ -7668,6 +7668,7 @@ validatorFn
 flavor
 )
 {
+await
 operationFn
 (
 )
