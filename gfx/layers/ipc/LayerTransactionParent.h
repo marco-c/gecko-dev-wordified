@@ -495,6 +495,10 @@ aFwdTime
 TransactionId
 FlushTransactionId
 (
+const
+VsyncId
+&
+aId
 TimeStamp
 &
 aCompositeEnd
