@@ -877,7 +877,7 @@ requestAction
 ;
 next
 .
-reset
+resetHistory
 (
 )
 ;
@@ -1157,7 +1157,7 @@ MERGE_STORE_ACTION
 ;
 next
 .
-reset
+resetHistory
 (
 )
 ;
@@ -1478,7 +1478,7 @@ length
 ;
 next
 .
-reset
+resetHistory
 (
 )
 ;
@@ -1569,7 +1569,7 @@ length
 ;
 next
 .
-reset
+resetHistory
 (
 )
 ;

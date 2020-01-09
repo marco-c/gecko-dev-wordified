@@ -10373,7 +10373,7 @@ pinnedLinks
 .
 pin
 .
-reset
+resetHistory
 (
 )
 ;

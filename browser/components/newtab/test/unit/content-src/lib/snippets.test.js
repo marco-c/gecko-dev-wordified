@@ -110,9 +110,7 @@ sandbox
 =
 sinon
 .
-sandbox
-.
-create
+createSandbox
 (
 )
 ;
@@ -1550,9 +1548,7 @@ sandbox
 =
 sinon
 .
-sandbox
-.
-create
+createSandbox
 (
 )
 ;
@@ -2685,7 +2681,7 @@ gSnippetsMap
 .
 clear
 .
-reset
+resetHistory
 (
 )
 ;
@@ -4015,9 +4011,7 @@ sandbox
 =
 sinon
 .
-sandbox
-.
-create
+createSandbox
 (
 )
 ;

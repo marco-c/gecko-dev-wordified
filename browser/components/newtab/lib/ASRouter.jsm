@@ -7281,8 +7281,15 @@ action
 data
 .
 args
+action
+.
+data
+.
+where
+|
+|
 "
-tabshifted
+current
 "
 {
 private
@@ -7449,7 +7456,7 @@ openLinkIn
 (
 url
 "
-tabshifted
+current
 "
 {
 private
