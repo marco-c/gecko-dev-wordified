@@ -1490,6 +1490,14 @@ context
 |
 !
 stream
+|
+|
+!
+data_callback
+|
+|
+!
+state_callback
 )
 {
 return
