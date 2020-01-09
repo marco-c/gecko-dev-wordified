@@ -308,7 +308,7 @@ h
 #
 include
 "
-nsIControllers
+nsBaseCommandController
 .
 h
 "
@@ -846,13 +846,6 @@ h
 include
 "
 HTMLSplitOnSpacesTokenizer
-.
-h
-"
-#
-include
-"
-nsIController
 .
 h
 "
@@ -34222,11 +34215,11 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIController
+nsBaseCommandController
 >
-controller
+commandController
 =
 nsBaseCommandController
 :
@@ -34238,7 +34231,7 @@ CreateEditorController
 if
 (
 !
-controller
+commandController
 )
 {
 aRv
@@ -34257,10 +34250,10 @@ mControllers
 >
 AppendController
 (
-controller
+commandController
 )
 ;
-controller
+commandController
 =
 nsBaseCommandController
 :
@@ -34272,7 +34265,7 @@ CreateEditingController
 if
 (
 !
-controller
+commandController
 )
 {
 aRv
@@ -34291,7 +34284,7 @@ mControllers
 >
 AppendController
 (
-controller
+commandController
 )
 ;
 }

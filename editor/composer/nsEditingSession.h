@@ -199,6 +199,9 @@ class
 mozIDOMWindowProxy
 ;
 class
+nsBaseCommandController
+;
+class
 nsIDOMWindow
 ;
 class
@@ -276,7 +279,7 @@ nsEditingSession
 typedef
 already_AddRefed
 <
-nsIController
+nsBaseCommandController
 >
 (
 *

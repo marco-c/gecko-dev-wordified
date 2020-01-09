@@ -184,14 +184,14 @@ h
 #
 include
 "
-nsIControllerCommandTable
+nsControllerCommandTable
 .
 h
 "
 #
 include
 "
-nsICommandParams
+nsCommandParams
 .
 h
 "
@@ -6090,7 +6090,7 @@ _cmdClass
 \
 rv
 =
-inCommandTable
+aCommandTable
 -
 >
 RegisterCommand
@@ -6131,7 +6131,7 @@ _cmdClass
 \
 rv
 =
-inCommandTable
+aCommandTable
 -
 >
 RegisterCommand
@@ -6158,7 +6158,7 @@ _cmdName
 \
 rv
 =
-inCommandTable
+aCommandTable
 -
 >
 RegisterCommand
@@ -6185,7 +6185,7 @@ _cmdName
 \
 rv
 =
-inCommandTable
+aCommandTable
 -
 >
 RegisterCommand
@@ -6213,9 +6213,9 @@ nsWindowCommandRegistration
 :
 RegisterWindowCommands
 (
-nsIControllerCommandTable
+nsControllerCommandTable
 *
-inCommandTable
+aCommandTable
 )
 {
 nsresult
