@@ -12348,10 +12348,6 @@ content
 .
 push
 (
-"
-\
-n
-"
 stacktrace
 )
 ;

@@ -525,8 +525,7 @@ text
 toBe
 (
 "
-\
-trenderFoo
+renderFoo
 foo
 -
 view
@@ -534,8 +533,6 @@ view
 js
 :
 10
-\
-n
 "
 )
 ;
@@ -643,15 +640,12 @@ text
 .
 toBe
 (
-\
-trenderFoo
+renderFoo
 {
 url
 }
 :
 10
-\
-n
 )
 ;
 }
