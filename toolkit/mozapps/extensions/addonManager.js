@@ -567,7 +567,7 @@ false
 ;
 }
 let
-installTelemetryInfo
+telemetryInfo
 =
 {
 source
@@ -591,7 +591,7 @@ in
 aPayload
 )
 {
-installTelemetryInfo
+telemetryInfo
 .
 method
 =
@@ -605,13 +605,15 @@ AddonManager
 getInstallForURL
 (
 uri
-mimetype
+{
 hash
 name
 icon
-null
+browser
+:
 aBrowser
-installTelemetryInfo
+telemetryInfo
+}
 )
 .
 then

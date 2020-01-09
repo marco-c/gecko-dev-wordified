@@ -8180,12 +8180,9 @@ getInstallForURL
 aUri
 .
 spec
-mimeType
-null
-null
-null
-null
-null
+{
+telemetryInfo
+:
 {
 source
 :
@@ -8194,6 +8191,7 @@ file
 -
 url
 "
+}
 }
 )
 .

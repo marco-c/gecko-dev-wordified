@@ -967,13 +967,6 @@ AddonManager
 getInstallForURL
 (
 TEST_XPI_URL
-"
-application
-/
-x
--
-xpinstall
-"
 )
 ;
 await

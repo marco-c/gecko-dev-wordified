@@ -1137,13 +1137,6 @@ AddonManager
 getInstallForURL
 (
 url
-"
-application
-/
-x
--
-xpinstall
-"
 )
 ;
 /
