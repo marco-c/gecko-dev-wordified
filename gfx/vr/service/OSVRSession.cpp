@@ -1969,7 +1969,7 @@ strncpy
 (
 state
 .
-mDisplayName
+displayName
 "
 OSVR
 HMD
@@ -1979,7 +1979,7 @@ kVRDisplayNameMaxLen
 ;
 state
 .
-mEightCC
+eightCC
 =
 GFX_VR_EIGHTCC
 (
@@ -2007,19 +2007,19 @@ R
 ;
 state
 .
-mIsConnected
+isConnected
 =
 true
 ;
 state
 .
-mIsMounted
+isMounted
 =
 false
 ;
 state
 .
-mCapabilityFlags
+capabilityFlags
 =
 (
 VRDisplayCapabilityFlags
@@ -2068,7 +2068,7 @@ Cap_Present
 ;
 state
 .
-mReportsDroppedFrames
+reportsDroppedFrames
 =
 false
 ;
@@ -2163,7 +2163,7 @@ top
 ;
 state
 .
-mEyeFOV
+eyeFOV
 [
 eye
 ]
@@ -2264,7 +2264,7 @@ h
 ;
 state
 .
-mEyeResolution
+eyeResolution
 .
 width
 =
@@ -2272,7 +2272,7 @@ w
 ;
 state
 .
-mEyeResolution
+eyeResolution
 .
 height
 =
@@ -2339,7 +2339,7 @@ eyePose
 }
 state
 .
-mEyeTranslation
+eyeTranslation
 [
 eye
 ]
@@ -2357,7 +2357,7 @@ data
 ;
 state
 .
-mEyeTranslation
+eyeTranslation
 [
 eye
 ]
@@ -2375,7 +2375,7 @@ data
 ;
 state
 .
-mEyeTranslation
+eyeTranslation
 [
 eye
 ]

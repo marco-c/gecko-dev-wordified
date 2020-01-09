@@ -268,7 +268,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mIsMounted
+isMounted
 =
 aIsMounted
 ;

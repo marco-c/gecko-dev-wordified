@@ -5019,7 +5019,7 @@ strncpy
 (
 state
 .
-mDisplayName
+displayName
 "
 OpenVR
 HMD
@@ -5029,7 +5029,7 @@ kVRDisplayNameMaxLen
 ;
 state
 .
-mEightCC
+eightCC
 =
 GFX_VR_EIGHTCC
 (
@@ -5059,7 +5059,7 @@ R
 ;
 state
 .
-mIsConnected
+isConnected
 =
 mVRSystem
 -
@@ -5076,13 +5076,13 @@ k_unTrackedDeviceIndex_Hmd
 ;
 state
 .
-mIsMounted
+isMounted
 =
 false
 ;
 state
 .
-mCapabilityFlags
+capabilityFlags
 =
 (
 VRDisplayCapabilityFlags
@@ -5139,7 +5139,7 @@ Cap_StageParameters
 ;
 state
 .
-mReportsDroppedFrames
+reportsDroppedFrames
 =
 true
 ;
@@ -5193,7 +5193,7 @@ bHasProximitySensor
 {
 state
 .
-mCapabilityFlags
+capabilityFlags
 =
 (
 VRDisplayCapabilityFlags
@@ -5204,7 +5204,7 @@ int
 )
 state
 .
-mCapabilityFlags
+capabilityFlags
 |
 (
 int
@@ -5233,7 +5233,7 @@ h
 ;
 state
 .
-mEyeResolution
+eyeResolution
 .
 width
 =
@@ -5241,7 +5241,7 @@ w
 ;
 state
 .
-mEyeResolution
+eyeResolution
 .
 height
 =
@@ -5392,7 +5392,7 @@ GetSeatedZeroPoseToStandingAbsoluteTrackingPose
 ;
 aState
 .
-mStageSize
+stageSize
 .
 width
 =
@@ -5400,7 +5400,7 @@ sizeX
 ;
 aState
 .
-mStageSize
+stageSize
 .
 height
 =
@@ -5408,7 +5408,7 @@ sizeZ
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 0
 ]
@@ -5425,7 +5425,7 @@ m
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 1
 ]
@@ -5442,7 +5442,7 @@ m
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 2
 ]
@@ -5459,7 +5459,7 @@ m
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 3
 ]
@@ -5470,7 +5470,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 4
 ]
@@ -5487,7 +5487,7 @@ m
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 5
 ]
@@ -5504,7 +5504,7 @@ m
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 6
 ]
@@ -5521,7 +5521,7 @@ m
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 7
 ]
@@ -5532,7 +5532,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 8
 ]
@@ -5549,7 +5549,7 @@ m
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 9
 ]
@@ -5566,7 +5566,7 @@ m
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 10
 ]
@@ -5583,7 +5583,7 @@ m
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 11
 ]
@@ -5594,7 +5594,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 12
 ]
@@ -5611,7 +5611,7 @@ m
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 13
 ]
@@ -5628,7 +5628,7 @@ m
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 14
 ]
@@ -5645,7 +5645,7 @@ m
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 15
 ]
@@ -5683,7 +5683,7 @@ seated
 position
 aState
 .
-mStageSize
+stageSize
 .
 width
 =
@@ -5693,7 +5693,7 @@ width
 ;
 aState
 .
-mStageSize
+stageSize
 .
 height
 =
@@ -5703,7 +5703,7 @@ height
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 0
 ]
@@ -5714,7 +5714,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 1
 ]
@@ -5725,7 +5725,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 2
 ]
@@ -5736,7 +5736,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 3
 ]
@@ -5747,7 +5747,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 4
 ]
@@ -5758,7 +5758,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 5
 ]
@@ -5769,7 +5769,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 6
 ]
@@ -5780,7 +5780,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 7
 ]
@@ -5791,7 +5791,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 8
 ]
@@ -5802,7 +5802,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 9
 ]
@@ -5813,7 +5813,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 10
 ]
@@ -5824,7 +5824,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 11
 ]
@@ -5835,7 +5835,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 12
 ]
@@ -5846,7 +5846,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 13
 ]
@@ -5857,7 +5857,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 14
 ]
@@ -5868,7 +5868,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 15
 ]
@@ -5966,7 +5966,7 @@ aState
 .
 displayState
 .
-mEyeTranslation
+eyeTranslation
 [
 eye
 ]
@@ -5987,7 +5987,7 @@ aState
 .
 displayState
 .
-mEyeTranslation
+eyeTranslation
 [
 eye
 ]
@@ -6008,7 +6008,7 @@ aState
 .
 displayState
 .
-mEyeTranslation
+eyeTranslation
 [
 eye
 ]
@@ -6062,7 +6062,7 @@ aState
 .
 displayState
 .
-mEyeFOV
+eyeFOV
 [
 eye
 ]
@@ -6085,7 +6085,7 @@ aState
 .
 displayState
 .
-mEyeFOV
+eyeFOV
 [
 eye
 ]
@@ -6107,7 +6107,7 @@ aState
 .
 displayState
 .
-mEyeFOV
+eyeFOV
 [
 eye
 ]
@@ -6129,7 +6129,7 @@ aState
 .
 displayState
 .
-mEyeFOV
+eyeFOV
 [
 eye
 ]
@@ -13653,7 +13653,7 @@ aSystemState
 .
 displayState
 .
-mIsMounted
+isMounted
 =
 true
 ;
@@ -13687,7 +13687,7 @@ aSystemState
 .
 displayState
 .
-mIsMounted
+isMounted
 =
 false
 ;
@@ -13724,7 +13724,7 @@ aSystemState
 .
 displayState
 .
-mIsConnected
+isConnected
 =
 true
 ;
@@ -13761,7 +13761,7 @@ aSystemState
 .
 displayState
 .
-mIsConnected
+isConnected
 =
 false
 ;
@@ -13929,10 +13929,10 @@ ETextureType
 TextureType_DirectX
 aLayer
 .
-mLeftEyeRect
+leftEyeRect
 aLayer
 .
-mRightEyeRect
+rightEyeRect
 )
 ;
 }
@@ -13979,10 +13979,10 @@ ETextureType
 TextureType_IOSurface
 aLayer
 .
-mLeftEyeRect
+leftEyeRect
 aLayer
 .
-mRightEyeRect
+rightEyeRect
 )
 ;
 }
@@ -15585,7 +15585,7 @@ aSystemState
 .
 displayState
 .
-mDroppedFrameCount
+droppedFrameCount
 =
 stats
 .

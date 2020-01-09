@@ -328,7 +328,7 @@ if
 (
 aLayer
 .
-mTextureType
+textureType
 =
 =
 VRLayerTextureType
@@ -356,7 +356,7 @@ HANDLE
 )
 aLayer
 .
-mTextureHandle
+textureHandle
 __uuidof
 (
 ID3D11Texture2D
@@ -593,7 +593,7 @@ if
 (
 aLayer
 .
-mTextureType
+textureType
 =
 =
 VRLayerTextureType
@@ -608,7 +608,7 @@ SubmitFrame
 aLayer
 aLayer
 .
-mTextureHandle
+textureHandle
 )
 ;
 }

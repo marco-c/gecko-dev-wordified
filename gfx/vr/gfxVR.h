@@ -455,7 +455,7 @@ const
 return
 mDisplayState
 .
-mDisplayName
+displayName
 ;
 }
 VRDisplayCapabilityFlags
@@ -467,7 +467,7 @@ const
 return
 mDisplayState
 .
-mCapabilityFlags
+capabilityFlags
 ;
 }
 const
@@ -499,7 +499,7 @@ const
 return
 mDisplayState
 .
-mEyeFOV
+eyeFOV
 [
 whichEye
 ]
@@ -514,7 +514,7 @@ const
 return
 mDisplayState
 .
-mIsConnected
+isConnected
 ;
 }
 bool
@@ -526,7 +526,7 @@ const
 return
 mDisplayState
 .
-mIsMounted
+isMounted
 ;
 }
 uint32_t

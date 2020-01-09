@@ -280,7 +280,7 @@ layer
 .
 layer_stereo_immersive
 .
-mFrameId
+frameId
 ;
 }
 }
@@ -1571,7 +1571,7 @@ mSystemState
 .
 displayState
 .
-mMinRestartInterval
+minRestartInterval
 =
 gfxPrefs
 :
@@ -1684,7 +1684,7 @@ mSystemState
 .
 displayState
 .
-mMinRestartInterval
+minRestartInterval
 =
 gfxPrefs
 :
@@ -2066,7 +2066,7 @@ mSystemState
 .
 displayState
 .
-mLastSubmittedFrameId
+lastSubmittedFrameId
 )
 {
 /
@@ -2197,7 +2197,7 @@ mSystemState
 .
 displayState
 .
-mLastSubmittedFrameId
+lastSubmittedFrameId
 =
 newFrameId
 ;
@@ -2205,7 +2205,7 @@ mSystemState
 .
 displayState
 .
-mLastSubmittedFrameSuccessful
+lastSubmittedFrameSuccessful
 =
 success
 ;
