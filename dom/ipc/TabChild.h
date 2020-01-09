@@ -4475,7 +4475,10 @@ aWebProgress
 nsIRequest
 *
 aRequest
+Maybe
+<
 WebProgressData
+>
 &
 aWebProgressData
 RequestData
