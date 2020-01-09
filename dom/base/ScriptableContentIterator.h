@@ -141,6 +141,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -192,7 +201,7 @@ EnsureContentIterator
 IteratorType
 mIteratorType
 ;
-RefPtr
+UniquePtr
 <
 ContentIteratorBase
 >
