@@ -9796,6 +9796,7 @@ fromContext
 >
 CalcStyleDifference
 (
+*
 toContext
 &
 equalStructs

@@ -973,6 +973,7 @@ nsStyleDisplay
 :
 IsFixedPosContainingBlockForNonSVGTextFrames
 (
+const
 mozilla
 :
 :
@@ -1011,7 +1012,7 @@ NS_ASSERTION
 (
 aStyle
 .
-ThreadsafeStyleDisplay
+StyleDisplay
 (
 )
 =
@@ -1037,7 +1038,7 @@ true
 return
 aStyle
 .
-ThreadsafeStyleEffects
+StyleEffects
 (
 )
 -
@@ -1144,7 +1145,7 @@ NS_ASSERTION
 style
 -
 >
-ThreadsafeStyleDisplay
+StyleDisplay
 (
 )
 =
@@ -1362,7 +1363,7 @@ NS_ASSERTION
 style
 -
 >
-ThreadsafeStyleDisplay
+StyleDisplay
 (
 )
 =
