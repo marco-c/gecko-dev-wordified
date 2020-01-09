@@ -549,6 +549,12 @@ using
 mozilla
 :
 :
+Abs
+;
+using
+mozilla
+:
+:
 ArrayEqual
 ;
 using
@@ -29845,7 +29851,7 @@ NegativeInt
 :
 if
 (
-abs
+Abs
 (
 lit
 .
@@ -29855,7 +29861,10 @@ toInt32
 )
 <
 (
+uint32_t
+(
 1
+)
 <
 <
 20
