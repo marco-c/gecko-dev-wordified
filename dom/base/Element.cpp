@@ -7219,6 +7219,7 @@ shadow
 be
 context
 object
+'
 s
 shadow
 root
@@ -7300,6 +7301,7 @@ const
 If
 context
 object
+'
 s
 namespace
 is
@@ -7373,6 +7375,7 @@ false
 If
 context
 object
+'
 s
 local
 name
@@ -7699,6 +7702,7 @@ aError
 If
 context
 object
+'
 s
 namespace
 is
@@ -7721,6 +7725,7 @@ DOMException
 If
 context
 object
+'
 s
 local
 name
@@ -7948,6 +7953,7 @@ is
 *
 context
 object
+'
 s
 node
 document
@@ -7960,6 +7966,7 @@ and
 mode
 is
 init
+'
 s
 mode
 .
@@ -8007,6 +8014,7 @@ SetAncestorHasDirAuto
 Set
 context
 object
+'
 s
 shadow
 root
