@@ -3987,6 +3987,8 @@ aAccessCharCodes
 bool
 aIsTrustedEvent
 bool
+aIsRepeat
+bool
 aExecute
 )
 ;
