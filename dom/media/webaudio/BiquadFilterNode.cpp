@@ -527,7 +527,7 @@ aWindowID
 {
 }
 enum
-Parameteres
+Parameters
 {
 TYPE
 FREQUENCY

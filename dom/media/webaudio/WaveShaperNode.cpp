@@ -741,7 +741,7 @@ None
 {
 }
 enum
-Parameteres
+Parameters
 {
 TYPE
 }
