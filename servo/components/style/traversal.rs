@@ -4575,12 +4575,6 @@ use
 values
 :
 :
-Either
-;
-use
-values
-:
-:
 generics
 :
 :
@@ -4588,6 +4582,12 @@ image
 :
 :
 Image
+;
+use
+values
+:
+:
+Either
 ;
 /
 /

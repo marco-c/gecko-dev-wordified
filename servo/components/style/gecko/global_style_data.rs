@@ -75,10 +75,7 @@ gecko_bindings
 bindings
 :
 :
-{
-Gecko_RegisterProfilerThread
-Gecko_UnregisterProfilerThread
-}
+Gecko_SetJemallocThreadLocalArena
 ;
 use
 gecko_bindings
@@ -87,7 +84,10 @@ gecko_bindings
 bindings
 :
 :
-Gecko_SetJemallocThreadLocalArena
+{
+Gecko_RegisterProfilerThread
+Gecko_UnregisterProfilerThread
+}
 ;
 use
 num_cpus

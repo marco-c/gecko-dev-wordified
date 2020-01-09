@@ -5648,6 +5648,12 @@ mod
 gecko_leak_checking
 {
 use
+super
+:
+:
+RuleNode
+;
+use
 std
 :
 :
@@ -5670,12 +5676,6 @@ raw
 c_char
 c_void
 }
-;
-use
-super
-:
-:
-RuleNode
 ;
 extern
 "

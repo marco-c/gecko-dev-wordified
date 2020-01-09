@@ -71,6 +71,12 @@ to
 transformations
 .
 use
+super
+:
+:
+CSSFloat
+;
+use
 euclid
 :
 :
@@ -84,12 +90,6 @@ num_traits
 :
 :
 Zero
-;
-use
-super
-:
-:
-CSSFloat
 ;
 use
 values
@@ -3142,7 +3142,6 @@ sy
 )
 =
 >
-{
 Some
 (
 generic
@@ -3160,7 +3159,6 @@ sy
 )
 )
 )
-}
 generic
 :
 :

@@ -84,10 +84,7 @@ use
 malloc_size_of
 :
 :
-{
-MallocSizeOf
-MallocSizeOfOps
-}
+MallocUnconditionalShallowSizeOf
 ;
 #
 [
@@ -104,7 +101,10 @@ use
 malloc_size_of
 :
 :
-MallocUnconditionalShallowSizeOf
+{
+MallocSizeOf
+MallocSizeOfOps
+}
 ;
 use
 properties

@@ -66,12 +66,6 @@ at
 rule
 .
 use
-{
-Namespace
-Prefix
-}
-;
-use
 cssparser
 :
 :
@@ -103,6 +97,12 @@ str
 :
 :
 CssStringWriter
+;
+use
+{
+Namespace
+Prefix
+}
 ;
 /
 /

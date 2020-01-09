@@ -69,9 +69,6 @@ and
 evaluator
 .
 use
-Atom
-;
-use
 app_units
 :
 :
@@ -99,12 +96,6 @@ use
 media_queries
 :
 :
-Device
-;
-use
-media_queries
-:
-:
 media_feature
 :
 :
@@ -121,8 +112,8 @@ media_feature
 :
 :
 {
-MediaFeatureDescription
 Evaluator
+MediaFeatureDescription
 }
 ;
 use
@@ -136,6 +127,12 @@ media_feature_expression
 AspectRatio
 RangeOrOperator
 }
+;
+use
+media_queries
+:
+:
+Device
 ;
 use
 values
@@ -154,6 +151,9 @@ computed
 :
 :
 Resolution
+;
+use
+Atom
 ;
 fn
 viewport_size

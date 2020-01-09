@@ -61,9 +61,9 @@ animate
 :
 :
 {
+AnimationFieldAttrs
 AnimationInputAttrs
 AnimationVariantAttrs
-AnimationFieldAttrs
 }
 ;
 use

@@ -96,7 +96,12 @@ values
 animated
 :
 :
-ToAnimatedValue
+color
+:
+:
+RGBA
+as
+AnimatedRGBA
 ;
 use
 values
@@ -105,12 +110,7 @@ values
 animated
 :
 :
-color
-:
-:
-RGBA
-as
-AnimatedRGBA
+ToAnimatedValue
 ;
 use
 values

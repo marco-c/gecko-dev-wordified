@@ -97,9 +97,6 @@ css
 variables
 /
 use
-Atom
-;
-use
 cssparser
 :
 :
@@ -215,6 +212,9 @@ ParseError
 StyleParseErrorKind
 ToCss
 }
+;
+use
+Atom
 ;
 /
 /

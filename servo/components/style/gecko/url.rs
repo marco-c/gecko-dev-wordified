@@ -96,7 +96,10 @@ root
 mozilla
 :
 :
-CORSMode
+css
+:
+:
+URLValue
 ;
 use
 gecko_bindings
@@ -111,10 +114,7 @@ root
 mozilla
 :
 :
-css
-:
-:
-URLValue
+CORSMode
 ;
 use
 gecko_bindings
@@ -139,8 +139,8 @@ ownership
 :
 :
 {
-HasArcFFI
 FFIArcHelpers
+HasArcFFI
 }
 ;
 use

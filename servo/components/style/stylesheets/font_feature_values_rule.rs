@@ -119,9 +119,6 @@ values
 -
 rule
 use
-Atom
-;
-use
 cssparser
 :
 :
@@ -273,6 +270,9 @@ values
 :
 :
 serialize_atom_identifier
+;
+use
+Atom
 ;
 /
 /

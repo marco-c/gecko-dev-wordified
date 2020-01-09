@@ -99,12 +99,6 @@ ops
 :
 Deref
 ;
-use
-values
-:
-:
-CustomIdent
-;
 #
 [
 cfg
@@ -144,6 +138,12 @@ specified
 :
 :
 Attr
+;
+use
+values
+:
+:
+CustomIdent
 ;
 /
 /

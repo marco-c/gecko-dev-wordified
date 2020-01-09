@@ -64,6 +64,12 @@ color
 values
 .
 use
+super
+:
+:
+AllowQuirks
+;
+use
 cssparser
 :
 :
@@ -186,12 +192,6 @@ SpecifiedValueInfo
 ToCss
 ValueParseErrorKind
 }
-;
-use
-super
-:
-:
-AllowQuirks
 ;
 use
 values

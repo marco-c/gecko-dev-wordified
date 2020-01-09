@@ -64,12 +64,6 @@ extern
 crate
 smallvec
 ;
-use
-hashglobe
-:
-:
-FailedAllocationError
-;
 #
 [
 cfg
@@ -86,6 +80,12 @@ hashglobe
 :
 :
 alloc
+;
+use
+hashglobe
+:
+:
+FailedAllocationError
 ;
 use
 smallvec

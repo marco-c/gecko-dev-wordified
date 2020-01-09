@@ -66,9 +66,6 @@ common
 logic
 .
 use
-CaseSensitivityExt
-;
-use
 gecko_bindings
 :
 :
@@ -103,6 +100,9 @@ string_cache
 Atom
 WeakAtom
 }
+;
+use
+CaseSensitivityExt
 ;
 /
 /
