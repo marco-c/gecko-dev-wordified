@@ -1874,7 +1874,7 @@ oldShape
 obj
 -
 >
-maybeShape
+shape
 (
 )
 ;
