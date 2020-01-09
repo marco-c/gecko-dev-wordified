@@ -188,6 +188,13 @@ nsPresContext
 .
 h
 "
+#
+include
+"
+nsPresContextInlines
+.
+h
+"
 namespace
 mozilla
 {

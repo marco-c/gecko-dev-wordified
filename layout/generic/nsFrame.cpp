@@ -407,6 +407,13 @@ h
 #
 include
 "
+nsPresContextInlines
+.
+h
+"
+#
+include
+"
 nsStyleConsts
 .
 h
