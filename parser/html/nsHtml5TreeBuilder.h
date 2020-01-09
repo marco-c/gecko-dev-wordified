@@ -2092,6 +2092,8 @@ popForeign
 (
 int32_t
 origPos
+int32_t
+eltPos
 )
 ;
 void

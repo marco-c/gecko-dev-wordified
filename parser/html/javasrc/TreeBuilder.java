@@ -18011,6 +18011,7 @@ eltPos
 popForeign
 (
 origPos
+eltPos
 )
 ;
 }
@@ -28313,6 +28314,8 @@ popForeign
 (
 int
 origPos
+int
+eltPos
 )
 throws
 SAXException
@@ -28331,6 +28334,12 @@ currentPtr
 if
 (
 origPos
+!
+=
+currentPtr
+|
+|
+eltPos
 !
 =
 currentPtr

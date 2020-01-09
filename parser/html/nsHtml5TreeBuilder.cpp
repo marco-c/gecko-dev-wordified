@@ -10937,6 +10937,7 @@ eltPos
 popForeign
 (
 origPos
+eltPos
 )
 ;
 }
@@ -19946,6 +19947,8 @@ popForeign
 (
 int32_t
 origPos
+int32_t
+eltPos
 )
 {
 nsHtml5StackNode
@@ -19960,6 +19963,12 @@ currentPtr
 if
 (
 origPos
+!
+=
+currentPtr
+|
+|
+eltPos
 !
 =
 currentPtr
