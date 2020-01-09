@@ -321,6 +321,11 @@ Map
 (
 size_t
 nBytes
+void
+*
+fixed_address
+=
+nullptr
 )
 =
 0
