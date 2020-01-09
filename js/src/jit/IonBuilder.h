@@ -753,11 +753,11 @@ AbortReasonOr
 <
 Ok
 >
-visitCompare
+visitCondSwitchCase
 (
-CFGCompare
+CFGCondSwitchCase
 *
-compare
+switchCase
 )
 ;
 AbortReasonOr
