@@ -325,6 +325,7 @@ titlebar
 await
 closeAboutDevtoolsToolbox
 (
+document
 devtoolsTab
 window
 )

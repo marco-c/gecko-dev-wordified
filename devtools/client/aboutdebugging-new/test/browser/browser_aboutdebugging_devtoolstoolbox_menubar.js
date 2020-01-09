@@ -214,6 +214,7 @@ true
 await
 closeAboutDevtoolsToolbox
 (
+document
 devtoolsTab
 window
 )

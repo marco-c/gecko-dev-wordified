@@ -278,6 +278,7 @@ shown
 await
 closeAboutDevtoolsToolbox
 (
+document
 devtoolsTab
 window
 )

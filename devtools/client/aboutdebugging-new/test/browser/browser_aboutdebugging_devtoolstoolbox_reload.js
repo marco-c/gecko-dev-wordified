@@ -264,6 +264,7 @@ correctly
 await
 closeAboutDevtoolsToolbox
 (
+document
 devtoolsTab
 window
 )
