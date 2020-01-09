@@ -1046,7 +1046,7 @@ num
 ;
 }
 let
-lop
+lp
 =
 LengthPercentageType
 :
@@ -1065,7 +1065,7 @@ SvgLengthPercentageOrNumber
 :
 LengthPercentage
 (
-lop
+lp
 )
 )
 }

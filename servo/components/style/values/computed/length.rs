@@ -3715,14 +3715,14 @@ LengthPercentageOrNone
 LengthPercentage
 (
 ref
-lop
+lp
 )
 =
 >
 {
 Some
 (
-lop
+lp
 .
 to_used_value
 (
@@ -4020,7 +4020,7 @@ inline
 fn
 from
 (
-lop
+lp
 :
 LengthPercentage
 )
@@ -4035,7 +4035,7 @@ NonNegative
 LengthPercentage
 >
 (
-lop
+lp
 )
 }
 }
@@ -4054,7 +4054,7 @@ inline
 fn
 from
 (
-lop
+lp
 :
 NonNegativeLengthPercentage
 )
@@ -4062,7 +4062,7 @@ NonNegativeLengthPercentage
 >
 LengthPercentage
 {
-lop
+lp
 .
 0
 }

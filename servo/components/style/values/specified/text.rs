@@ -819,7 +819,7 @@ if
 let
 Ok
 (
-nlop
+nlp
 )
 =
 input
@@ -847,7 +847,7 @@ GenericLineHeight
 :
 Length
 (
-nlop
+nlp
 )
 )
 ;
@@ -1083,7 +1083,7 @@ GenericLineHeight
 Length
 (
 ref
-non_negative_lop
+non_negative_lp
 )
 =
 >
@@ -1092,7 +1092,7 @@ let
 result
 =
 match
-non_negative_lop
+non_negative_lp
 .
 0
 {

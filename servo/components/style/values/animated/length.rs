@@ -438,7 +438,7 @@ GenericMaxLength
 :
 LengthPercentageOrNone
 (
-lopn
+lpn
 )
 =
 >
@@ -447,7 +447,7 @@ let
 result
 =
 match
-lopn
+lpn
 {
 LengthPercentageOrNone
 :
@@ -477,7 +477,7 @@ LengthPercentageOrNone
 None
 =
 >
-lopn
+lpn
 }
 ;
 GenericMaxLength
@@ -563,7 +563,7 @@ GenericMozLength
 :
 LengthPercentageOrAuto
 (
-lopa
+lpa
 )
 =
 >
@@ -573,7 +573,7 @@ GenericMozLength
 :
 LengthPercentageOrAuto
 (
-lopa
+lpa
 .
 clamp_to_non_negative
 (
