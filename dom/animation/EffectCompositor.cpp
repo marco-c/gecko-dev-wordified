@@ -772,7 +772,7 @@ MOZ_ASSERT
 (
 aPropertySet
 .
-Intersect
+IsSubsetOf
 (
 LayerAnimationInfo
 :
@@ -785,16 +785,11 @@ DisplayItemType
 TYPE_TRANSFORM
 )
 )
-.
-Equals
-(
-aPropertySet
-)
 |
 |
 aPropertySet
 .
-Equals
+IsSubsetOf
 (
 LayerAnimationInfo
 :
@@ -811,7 +806,7 @@ TYPE_OPACITY
 |
 aPropertySet
 .
-Equals
+IsSubsetOf
 (
 LayerAnimationInfo
 :
