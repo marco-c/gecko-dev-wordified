@@ -58,6 +58,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 import
 {
 createStore
@@ -233,6 +236,10 @@ com
 /
 foo
 "
+"
+actor
+"
+false
 )
 )
 ;

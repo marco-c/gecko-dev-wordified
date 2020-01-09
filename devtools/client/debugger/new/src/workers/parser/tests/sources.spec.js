@@ -58,6 +58,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 import
 {
 hasSource
@@ -148,6 +151,14 @@ some
 source
 .
 js
+"
+introductionUrl
+:
+"
+"
+relativeUrl
+:
+"
 "
 isBlackBoxed
 :

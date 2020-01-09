@@ -58,6 +58,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 import
 mapExpression
 from
@@ -108,7 +111,8 @@ mapExpression
 (
 expression
 mappings
-null
+[
+]
 false
 false
 )

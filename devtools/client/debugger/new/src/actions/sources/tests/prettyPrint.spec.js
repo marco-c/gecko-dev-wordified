@@ -58,6 +58,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 import
 {
 actions
@@ -168,7 +171,7 @@ js
 "
 ;
 const
-source
+csr
 =
 makeSource
 (
@@ -182,7 +185,7 @@ actions
 .
 newSource
 (
-source
+csr
 )
 )
 ;
@@ -191,7 +194,7 @@ dispatch
 (
 createPrettySource
 (
-source
+csr
 .
 source
 .
@@ -203,7 +206,7 @@ const
 prettyURL
 =
 {
-source
+csr
 .
 source
 .
@@ -228,6 +231,9 @@ prettyURL
 expect
 (
 pretty
+&
+&
+pretty
 .
 contentType
 )
@@ -243,6 +249,9 @@ javascript
 ;
 expect
 (
+pretty
+&
+&
 pretty
 .
 url
@@ -290,7 +299,7 @@ async
 >
 {
 const
-source
+csr
 =
 makeSource
 (
@@ -315,7 +324,11 @@ actions
 .
 togglePrettyPrint
 (
+csr
+.
 source
+.
+id
 )
 )
 ;
@@ -360,7 +373,7 @@ async
 >
 {
 const
-source
+csr
 =
 makeSource
 (
@@ -385,7 +398,11 @@ actions
 .
 togglePrettyPrint
 (
+csr
+.
 source
+.
+id
 )
 )
 ;
@@ -413,6 +430,8 @@ actions
 .
 togglePrettyPrint
 (
+csr
+.
 source
 .
 id
