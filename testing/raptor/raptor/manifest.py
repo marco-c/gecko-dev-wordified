@@ -446,6 +446,7 @@ valid_settings
 def
 write_test_settings_json
 (
+args
 test_details
 oskey
 )
@@ -528,6 +529,14 @@ page_cycles
 '
 ]
 )
+            
+"
+host
+"
+:
+args
+.
+host
         
 }
     
@@ -2044,6 +2053,7 @@ test
                 
 write_test_settings_json
 (
+args
 test
 oskey
 )
