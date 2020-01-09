@@ -324,9 +324,9 @@ absolute_import
 unicode_literals
 print_function
 import
-subprocess
-import
 sys
+import
+subprocess
 from
 ctypes
 import
@@ -909,7 +909,7 @@ v
 in
 env
 .
-items
+iteritems
 (
 )
 :
