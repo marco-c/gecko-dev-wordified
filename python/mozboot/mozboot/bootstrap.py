@@ -1062,16 +1062,7 @@ Elementary
 '
     
 '
-"
 elementary
-OS
-"
-'
-    
-'
-"
-elementary
-"
 '
 )
 ADD_GIT_TOOLS_PATH
