@@ -101,10 +101,9 @@ full
 1
 '
 def
-find_hg_revision_pushlog_id
+find_hg_revision_push_info
 (
-parameters
-graph_config
+repository
 revision
 )
 :
@@ -133,40 +132,13 @@ revision
 "
 "
     
-repo_param
-=
-'
-{
-}
-head_repository
-'
-.
-format
-(
-graph_config
-[
-'
-project
--
-repo
--
-param
--
-prefix
-'
-]
-)
-    
 pushlog_url
 =
 PUSHLOG_TMPL
 .
 format
 (
-parameters
-[
-repo_param
-]
+repository
 revision
 )
     
@@ -197,10 +169,6 @@ json
 pushes
 '
 ]
-.
-keys
-(
-)
     
 if
 len
@@ -237,12 +205,7 @@ revision
 format
 (
                 
-parameters
-[
-'
-head_repository
-'
-]
+repository
 revision
 pushes
             
@@ -250,11 +213,38 @@ pushes
         
 )
     
-return
+pushid
+=
 pushes
+.
+keys
+(
+)
 [
 0
 ]
+    
+return
+{
+'
+pushdate
+'
+:
+pushes
+[
+pushid
+]
+[
+'
+date
+'
+]
+'
+pushid
+'
+:
+pushid
+}
 def
 get_hg_revision_branch
 (
