@@ -4392,6 +4392,12 @@ return
 false
 ;
 }
+mView
+.
+requestFocus
+(
+)
+;
 final
 GeckoBundle
 data
