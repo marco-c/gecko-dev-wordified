@@ -12351,10 +12351,10 @@ NS_ERROR_INVALID_ARG
 xpc
 :
 :
-NukeAllWrappersForCompartment
+NukeAllWrappersForRealm
 (
 cx
-GetObjectCompartment
+GetNonCCWObjectRealm
 (
 sb
 )
