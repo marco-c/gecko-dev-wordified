@@ -378,6 +378,7 @@ nsContentUtils
 :
 ShouldResistFingerprinting
 (
+aDocument
 )
 )
 {
