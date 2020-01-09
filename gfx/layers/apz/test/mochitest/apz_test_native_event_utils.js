@@ -125,6 +125,7 @@ return
 "
 android
 "
+;
 }
 if
 (
@@ -1410,8 +1411,6 @@ observer
 =
 {
 observe
-:
-function
 (
 aSubject
 aTopic
