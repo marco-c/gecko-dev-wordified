@@ -488,6 +488,12 @@ send
 {
 id
 error
+:
+{
+message
+:
+error
+}
 }
 )
 ;
@@ -712,6 +718,9 @@ send
 id
 error
 :
+{
+message
+:
 formatError
 (
 error
@@ -721,6 +730,7 @@ stack
 true
 }
 )
+}
 }
 )
 ;
