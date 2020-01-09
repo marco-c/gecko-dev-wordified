@@ -361,6 +361,17 @@ mozilla
 /
 dom
 /
+CustomElementRegistry
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 HTMLTemplateElement
 .
 h

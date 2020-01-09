@@ -117,6 +117,13 @@ h
 #
 include
 "
+nsContentList
+.
+h
+"
+#
+include
+"
 nsIWeakReference
 .
 h
