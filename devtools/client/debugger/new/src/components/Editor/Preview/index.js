@@ -328,9 +328,6 @@ DOMRect
 {
 /
 /
-FlowIgnore
-/
-/
 We
 need
 to
@@ -356,6 +353,9 @@ element
 may
 be
 returned
+/
+/
+FlowIgnore
 const
 elementsAtPoint
 =
