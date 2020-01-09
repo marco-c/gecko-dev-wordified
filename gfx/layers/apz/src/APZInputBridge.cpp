@@ -1442,6 +1442,14 @@ input
 .
 mFocusSequenceNumber
 ;
+aEvent
+.
+mLayersId
+=
+input
+.
+mLayersId
+;
 return
 status
 ;

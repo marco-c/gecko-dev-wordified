@@ -10948,6 +10948,16 @@ case
 KEYBOARD_INPUT
 :
 {
+aEvent
+.
+mLayersId
+=
+mFocusState
+.
+GetFocusLayersId
+(
+)
+;
 /
 /
 Disable
@@ -12933,7 +12943,6 @@ return
 result
 ;
 }
-static
 MouseInput
 :
 :
