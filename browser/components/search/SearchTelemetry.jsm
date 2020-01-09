@@ -167,9 +167,7 @@ https
 www
 \
 .
-(
 google
-)
 \
 .
 (
@@ -238,9 +236,7 @@ https
 /
 \
 /
-(
 duckduckgo
-)
 \
 .
 com
@@ -297,9 +293,7 @@ https
 search
 \
 .
-(
 yahoo
-)
 \
 .
 com
@@ -335,9 +329,7 @@ https
 www
 \
 .
-(
 baidu
-)
 \
 .
 com
@@ -404,9 +396,7 @@ https
 www
 \
 .
-(
 bing
-)
 \
 .
 com
