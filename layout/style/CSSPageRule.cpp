@@ -327,8 +327,7 @@ aInstancePtr
 )
 ;
 }
-else
-NS_IMPL_QUERY_TAIL_INHERITING
+NS_INTERFACE_MAP_END_INHERITING
 (
 nsDOMCSSDeclaration
 )
