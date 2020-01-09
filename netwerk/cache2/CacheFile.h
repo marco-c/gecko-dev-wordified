@@ -438,7 +438,7 @@ const
 char
 *
 aAltDataType
-nsIOutputStream
+nsIAsyncOutputStream
 *
 *
 _retval

@@ -7472,7 +7472,7 @@ nsACString
 type
 int64_t
 predictedSize
-nsIOutputStream
+nsIAsyncOutputStream
 *
 *
 _retval
@@ -7619,7 +7619,7 @@ NS_ERROR_FILE_TOO_BIG
 }
 nsCOMPtr
 <
-nsIOutputStream
+nsIAsyncOutputStream
 >
 stream
 ;

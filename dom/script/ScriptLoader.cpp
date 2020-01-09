@@ -613,7 +613,7 @@ h
 #
 include
 "
-nsIOutputStream
+nsIAsyncOutputStream
 .
 h
 "
@@ -19141,7 +19141,7 @@ one
 .
 nsCOMPtr
 <
-nsIOutputStream
+nsIAsyncOutputStream
 >
 output
 ;
@@ -19245,14 +19245,14 @@ MakeScopeExit
 (
 )
 {
-nsresult
 rv
 =
 output
 -
 >
-Close
+CloseWithStatus
 (
+rv
 )
 ;
 LOG
