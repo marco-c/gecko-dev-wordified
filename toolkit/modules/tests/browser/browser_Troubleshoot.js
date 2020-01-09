@@ -824,6 +824,15 @@ type
 string
 "
 }
+launcherProcessState
+:
+{
+type
+:
+"
+number
+"
+}
 remoteAutoStart
 :
 {
