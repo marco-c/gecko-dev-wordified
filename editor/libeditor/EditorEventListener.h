@@ -243,6 +243,7 @@ EditorBase
 aEditorBase
 )
 ;
+virtual
 void
 Disconnect
 (
