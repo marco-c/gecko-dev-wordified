@@ -1277,11 +1277,15 @@ nsIFrame
 targetFrame
 =
 targetContent
+?
+targetContent
 -
 >
 GetPrimaryFrame
 (
 )
+:
+nullptr
 ;
 if
 (
