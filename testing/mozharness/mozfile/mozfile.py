@@ -177,15 +177,17 @@ file
 "
 "
     
-bundle
-=
+with
 tarfile
 .
 open
 (
 src
 )
-    
+as
+bundle
+:
+        
 namelist
 =
 bundle
@@ -193,13 +195,13 @@ bundle
 getnames
 (
 )
-    
+        
 for
 name
 in
 namelist
 :
-        
+            
 bundle
 .
 extract
@@ -208,12 +210,6 @@ name
 path
 =
 dest
-)
-    
-bundle
-.
-close
-(
 )
     
 return
