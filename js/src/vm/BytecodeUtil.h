@@ -2302,9 +2302,6 @@ JSOP_LOOPHEAD
 case
 JSOP_LOOPENTRY
 :
-case
-JSOP_TRY
-:
 return
 true
 ;
