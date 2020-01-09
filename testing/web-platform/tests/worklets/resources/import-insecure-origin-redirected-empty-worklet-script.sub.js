@@ -77,6 +77,15 @@ port
 .
 import
 '
+/
+common
+/
+redirect
+.
+py
+?
+location
+=
 http
 :
 /
