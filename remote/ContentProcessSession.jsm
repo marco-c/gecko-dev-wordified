@@ -394,8 +394,8 @@ try
 const
 {
 id
-domainName
-methodName
+domain
+method
 params
 }
 =
@@ -412,7 +412,7 @@ domains
 .
 get
 (
-domainName
+domain
 )
 ;
 const
@@ -420,7 +420,7 @@ methodFn
 =
 inst
 [
-methodName
+method
 ]
 ;
 if
@@ -446,7 +446,7 @@ Method
 implementation
 of
 {
-methodName
+method
 }
 missing
 )
