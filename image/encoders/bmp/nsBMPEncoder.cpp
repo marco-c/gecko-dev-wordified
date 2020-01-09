@@ -155,6 +155,13 @@ CheckedInt
 .
 h
 "
+#
+include
+"
+BMPHeaders
+.
+h
+"
 using
 namespace
 mozilla

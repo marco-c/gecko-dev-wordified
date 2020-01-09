@@ -136,13 +136,6 @@ h
 #
 include
 "
-BMPHeaders
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
