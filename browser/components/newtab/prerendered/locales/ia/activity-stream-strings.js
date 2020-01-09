@@ -418,7 +418,7 @@ qual
 contento
 tu
 desira
-i
+pro
 tu
 pagina
 initial
@@ -447,8 +447,8 @@ prefs_search_header
 :
 "
 Recerca
-de
-web
+del
+Web
 "
 "
 prefs_topsites_description
@@ -472,7 +472,7 @@ contento
 ex
 tote
 le
-web
+Web
 personalisate
 pro
 te
@@ -542,7 +542,7 @@ prefs_snippets_description
 :
 "
 Actualisationes
-per
+ab
 Mozilla
 e
 Firefox
@@ -876,7 +876,7 @@ altere
 historias
 interessante
 del
-web
+Web
 .
 "
 "

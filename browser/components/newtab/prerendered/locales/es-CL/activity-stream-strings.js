@@ -1089,8 +1089,10 @@ Aprende
 m
 s
 sobre
+las
+cuentas
+de
 Firefox
-Accounts
 "
 "
 firstrun_form_header
@@ -1200,7 +1202,7 @@ pocket_learn_more
 "
 :
 "
-Aprender
+Saber
 m
 s
 "
