@@ -708,6 +708,8 @@ thread
 void
 PostCompositeTask
 (
+VsyncId
+aId
 TimeStamp
 aCompositeTimestamp
 )
@@ -789,6 +791,8 @@ composite
 void
 Composite
 (
+VsyncId
+aId
 TimeStamp
 aVsyncTimestamp
 )

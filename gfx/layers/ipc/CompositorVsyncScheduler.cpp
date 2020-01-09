@@ -796,6 +796,8 @@ CompositorVsyncScheduler
 :
 PostCompositeTask
 (
+VsyncId
+aId
 TimeStamp
 aCompositeTimestamp
 )
@@ -830,6 +832,7 @@ task
 =
 NewCancelableRunnableMethod
 <
+VsyncId
 TimeStamp
 >
 (
@@ -848,6 +851,7 @@ CompositorVsyncScheduler
 :
 :
 Composite
+aId
 aCompositeTimestamp
 )
 ;
@@ -1019,6 +1023,9 @@ date
 .
 PostCompositeTask
 (
+VsyncId
+(
+)
 TimeStamp
 :
 :
@@ -1158,6 +1165,9 @@ process
 .
 PostCompositeTask
 (
+VsyncId
+(
+)
 TimeStamp
 :
 :
@@ -1254,6 +1264,9 @@ started
 .
 PostCompositeTask
 (
+VsyncId
+(
+)
 TimeStamp
 :
 :
@@ -1345,6 +1358,9 @@ PostCompositeTask
 (
 aVsync
 .
+mId
+aVsync
+.
 mTime
 )
 ;
@@ -1412,6 +1428,8 @@ CompositorVsyncScheduler
 :
 Composite
 (
+VsyncId
+aId
 TimeStamp
 aVsyncTimestamp
 )
@@ -1585,6 +1603,7 @@ mVsyncSchedulerOwner
 >
 CompositeToTarget
 (
+aId
 nullptr
 nullptr
 )
@@ -1860,6 +1879,9 @@ mVsyncSchedulerOwner
 >
 CompositeToTarget
 (
+VsyncId
+(
+)
 aTarget
 aRect
 )

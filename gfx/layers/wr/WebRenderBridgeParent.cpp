@@ -5421,6 +5421,10 @@ bool
 &
 aContainsSVGGroup
 const
+VsyncId
+&
+aVsyncId
+const
 TimeStamp
 &
 aRefreshStartTime
@@ -6026,6 +6030,7 @@ HoldPendingTransactionId
 wrEpoch
 aTransactionId
 aContainsSVGGroup
+aVsyncId
 aRefreshStartTime
 aTxnStartTime
 aTxnURL
@@ -6207,6 +6212,10 @@ wr
 IdNamespace
 &
 aIdNamespace
+const
+VsyncId
+&
+aVsyncId
 const
 TimeStamp
 &
@@ -6794,6 +6803,7 @@ HoldPendingTransactionId
 mWrEpoch
 aTransactionId
 false
+aVsyncId
 aRefreshStartTime
 aTxnStartTime
 aTxnURL
@@ -10692,6 +10702,9 @@ false
 ;
 CompositeToTarget
 (
+VsyncId
+(
+)
 nullptr
 nullptr
 )
@@ -10704,6 +10717,8 @@ WebRenderBridgeParent
 :
 CompositeToTarget
 (
+VsyncId
+aId
 gfx
 :
 :
@@ -11399,6 +11414,10 @@ aTransactionId
 bool
 aContainsSVGGroup
 const
+VsyncId
+&
+aVsyncId
+const
 TimeStamp
 &
 aRefreshStartTime
@@ -11440,6 +11459,7 @@ PendingTransactionId
 aWrEpoch
 aTransactionId
 aContainsSVGGroup
+aVsyncId
 aRefreshStartTime
 aTxnStartTime
 aTxnURL

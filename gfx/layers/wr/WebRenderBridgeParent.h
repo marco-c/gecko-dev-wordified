@@ -662,6 +662,10 @@ bool
 &
 aContainsSVGGroup
 const
+VsyncId
+&
+aVsyncId
+const
 TimeStamp
 &
 aRefreshStartTime
@@ -754,6 +758,10 @@ wr
 IdNamespace
 &
 aIdNamespace
+const
+VsyncId
+&
+aVsyncId
 const
 TimeStamp
 &
@@ -1080,6 +1088,8 @@ override
 void
 CompositeToTarget
 (
+VsyncId
+aId
 gfx
 :
 :
@@ -1174,6 +1184,10 @@ TransactionId
 aTransactionId
 bool
 aContainsSVGGroup
+const
+VsyncId
+&
+aVsyncId
 const
 TimeStamp
 &
@@ -2091,6 +2105,10 @@ aId
 bool
 aContainsSVGGroup
 const
+VsyncId
+&
+aVsyncId
+const
 TimeStamp
 &
 aRefreshStartTime
@@ -2121,6 +2139,10 @@ aEpoch
 mId
 (
 aId
+)
+mVsyncId
+(
+aVsyncId
 )
 mRefreshStartTime
 (
@@ -2164,6 +2186,9 @@ mEpoch
 ;
 TransactionId
 mId
+;
+VsyncId
+mVsyncId
 ;
 TimeStamp
 mRefreshStartTime
