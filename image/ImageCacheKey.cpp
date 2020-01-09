@@ -990,7 +990,7 @@ if
 nsContentUtils
 :
 :
-IsTrackingResourceWindow
+IsThirdPartyTrackingResourceWindow
 (
 aDocument
 -
