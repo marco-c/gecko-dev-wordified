@@ -138,20 +138,6 @@ build
 types
 )
 #
-'
-repo_path
-'
-:
-"
-projects
-/
-<
-branch
--
-name
->
-"
-#
 #
 #
 platform
@@ -247,16 +233,6 @@ central
 "
 :
 {
-        
-"
-repo_path
-"
-:
-'
-mozilla
--
-central
-'
     
 }
     
@@ -273,18 +249,6 @@ enable_release_promotion
 '
 :
 True
-        
-'
-repo_path
-'
-:
-'
-releases
-/
-mozilla
--
-release
-'
         
 '
 branch_uses_per_checkin_strategy
@@ -307,18 +271,6 @@ enable_release_promotion
 '
 :
 True
-        
-'
-repo_path
-'
-:
-'
-releases
-/
-mozilla
--
-esr60
-'
         
 '
 branch_uses_per_checkin_strategy
@@ -343,18 +295,6 @@ enable_release_promotion
 1
         
 '
-repo_path
-'
-:
-'
-releases
-/
-mozilla
--
-beta
-'
-        
-'
 branch_uses_per_checkin_strategy
 '
 :
@@ -367,14 +307,6 @@ try
 '
 :
 {
-        
-'
-repo_path
-'
-:
-'
-try
-'
         
 '
 branch_supports_uploadsymbols
@@ -424,18 +356,6 @@ inbound
 '
 :
 {
-        
-'
-repo_path
-'
-:
-'
-integration
-/
-mozilla
--
-inbound
-'
     
 }
     
@@ -444,16 +364,6 @@ autoland
 '
 :
 {
-        
-'
-repo_path
-'
-:
-'
-integration
-/
-autoland
-'
     
 }
     
