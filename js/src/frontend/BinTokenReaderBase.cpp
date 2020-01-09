@@ -257,7 +257,7 @@ hasRaisedError
 errorReporter_
 -
 >
-reportErrorNoOffset
+errorNoOffset
 (
 JSMSG_BINAST
 description

@@ -1774,7 +1774,7 @@ pc
 >
 errorReporter_
 .
-reportErrorNoOffset
+errorNoOffset
 (
 JSMSG_NEED_DIET
 js_script_str
