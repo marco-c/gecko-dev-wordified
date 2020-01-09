@@ -263,7 +263,7 @@ _eventEmitter
 emit
 (
 "
-workerListChanged
+workersUpdated
 "
 )
 ;
