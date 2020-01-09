@@ -650,6 +650,11 @@ self
 _context
 .
 state_dir
+self
+.
+_context
+.
+topdir
 )
             
 else
@@ -691,6 +696,11 @@ self
 _context
 .
 state_dir
+self
+.
+_context
+.
+topdir
 )
             
 else
