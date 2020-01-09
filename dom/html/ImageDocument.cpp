@@ -652,7 +652,7 @@ loadInfo
 channel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
@@ -750,15 +750,11 @@ LoadInfo
 (
 loadingPrincipal
 loadInfo
-?
-loadInfo
 -
 >
 TriggeringPrincipal
 (
 )
-:
-nullptr
 requestingNode
 nsILoadInfo
 :

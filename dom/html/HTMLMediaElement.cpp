@@ -7691,15 +7691,10 @@ loadInfo
 channel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
-if
-(
-loadInfo
-)
-{
 /
 /
 The
@@ -7730,7 +7725,6 @@ OriginAttributesRef
 )
 )
 ;
-}
 }
 nsCOMPtr
 <

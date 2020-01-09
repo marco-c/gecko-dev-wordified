@@ -16057,13 +16057,8 @@ loadinfo
 chan
 -
 >
-GetLoadInfo
+LoadInfo
 (
-)
-;
-NS_ENSURE_STATE
-(
-loadinfo
 )
 ;
 loadinfo

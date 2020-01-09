@@ -975,15 +975,10 @@ loadInfo
 chan
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
-if
-(
-loadInfo
-)
-{
 rv
 =
 loadInfo
@@ -994,7 +989,6 @@ SetPrincipalToInherit
 principalToInherit
 )
 ;
-}
 if
 (
 NS_FAILED
@@ -1529,7 +1523,7 @@ loadInfo
 mChannel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;

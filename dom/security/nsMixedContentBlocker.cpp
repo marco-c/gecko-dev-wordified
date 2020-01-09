@@ -1984,7 +1984,7 @@ loadInfo
 aOldChannel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;

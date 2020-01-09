@@ -693,15 +693,10 @@ loadInfo
 aChannel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
-if
-(
-loadInfo
-)
-{
 nsCOMPtr
 <
 nsIURI
@@ -748,7 +743,6 @@ rv
 )
 )
 ;
-}
 }
 }
 /

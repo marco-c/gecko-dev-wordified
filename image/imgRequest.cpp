@@ -7219,7 +7219,7 @@ loadInfo
 mChannel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;

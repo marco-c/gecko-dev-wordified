@@ -10076,7 +10076,7 @@ loadInfo
 channel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;

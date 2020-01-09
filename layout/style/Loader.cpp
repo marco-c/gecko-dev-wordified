@@ -4839,15 +4839,12 @@ loadInfo
 aChannel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
 if
 (
-loadInfo
-&
-&
 loadInfo
 -
 >
@@ -9023,7 +9020,7 @@ loadInfo
 channel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
@@ -9943,7 +9940,7 @@ loadInfo
 channel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;

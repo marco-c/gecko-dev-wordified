@@ -1702,15 +1702,10 @@ loadInfo
 httpChannel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
-if
-(
-loadInfo
-)
-{
 mShouldFireLoadEvent
 =
 loadInfo
@@ -1763,7 +1758,6 @@ rv
 )
 )
 ;
-}
 /
 /
 no

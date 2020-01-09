@@ -8384,7 +8384,7 @@ loadInfo
 channel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
@@ -8546,7 +8546,6 @@ JSBytecodeMimeType
 EmptyCString
 (
 )
-true
 )
 ;
 }
@@ -8647,7 +8646,6 @@ kNullMimeType
 EmptyCString
 (
 )
-true
 )
 ;
 }
@@ -21345,15 +21343,12 @@ loadInfo
 channel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
 if
 (
-loadInfo
-&
-&
 loadInfo
 -
 >

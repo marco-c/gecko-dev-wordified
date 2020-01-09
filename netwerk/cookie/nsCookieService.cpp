@@ -24561,15 +24561,12 @@ loadInfo
 aChannel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
 addonAllowsLoad
 =
-loadInfo
-&
-&
 BasePrincipal
 :
 :

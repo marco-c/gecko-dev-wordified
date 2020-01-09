@@ -1506,7 +1506,7 @@ loadInfo
 aChannel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 )
