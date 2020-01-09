@@ -505,7 +505,7 @@ mSupportedCodecs
 ;
 }
 virtual
-nsresult
+Result
 CreateOffer
 (
 const
@@ -522,7 +522,7 @@ offer
 override
 ;
 virtual
-nsresult
+Result
 CreateAnswer
 (
 const
@@ -565,7 +565,7 @@ const
 override
 ;
 virtual
-nsresult
+Result
 SetLocalDescription
 (
 JsepSdpType
@@ -581,7 +581,7 @@ sdp
 override
 ;
 virtual
-nsresult
+Result
 SetRemoteDescription
 (
 JsepSdpType
@@ -597,7 +597,7 @@ sdp
 override
 ;
 virtual
-nsresult
+Result
 AddRemoteIceCandidate
 (
 const
