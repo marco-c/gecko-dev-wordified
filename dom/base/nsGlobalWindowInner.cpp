@@ -30796,6 +30796,12 @@ MemoryPressure
 (
 )
 ;
+mReportRecords
+.
+Clear
+(
+)
+;
 }
 return
 NS_OK
