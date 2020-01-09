@@ -529,9 +529,13 @@ JS_NewContext
 1024
 *
 1024
-128
-*
-1024
+js
+:
+:
+gc
+:
+:
+ChunkSize
 )
 ;
 if
