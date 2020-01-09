@@ -25277,9 +25277,12 @@ s
 d
 )
 "
+nsIDToCString
+(
 aDocShellId
+)
 .
-ToString
+get
 (
 )
 aHistoryId
