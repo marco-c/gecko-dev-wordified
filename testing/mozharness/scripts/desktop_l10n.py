@@ -707,6 +707,26 @@ log_name
 "
 single_locale
 "
+                
+"
+hg_l10n_base
+"
+:
+"
+https
+:
+/
+/
+hg
+.
+mozilla
+.
+org
+/
+l10n
+-
+central
+"
             
 }
         

@@ -226,10 +226,12 @@ config
         
 url
 =
-config
+os
+.
+environ
 [
 '
-mar_tools_url
+MAR_TOOLS_URL
 '
 ]
         
