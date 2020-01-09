@@ -4335,7 +4335,10 @@ True
 animation_value_type
 =
 "
-ComputedValue
+basic_shape
+:
+:
+FloatAreaShape
 "
 flags
 =

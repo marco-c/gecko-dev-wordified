@@ -523,6 +523,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 )
 ]

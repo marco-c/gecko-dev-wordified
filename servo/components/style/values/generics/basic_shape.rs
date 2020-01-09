@@ -282,6 +282,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 )
@@ -386,6 +387,7 @@ MallocSizeOf
 Parse
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 )
@@ -437,6 +439,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 )
@@ -518,6 +521,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 )
@@ -560,7 +564,7 @@ Circle
 <
 H
 V
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 >
 )
 Ellipse
@@ -576,7 +580,7 @@ Ellipse
 <
 H
 V
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 >
 )
 Polygon
@@ -639,6 +643,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 )
 ]
@@ -717,6 +722,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 )
 ]
@@ -726,7 +732,7 @@ Circle
 <
 H
 V
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 >
 {
 pub
@@ -742,7 +748,7 @@ radius
 :
 ShapeRadius
 <
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 >
 }
 /
@@ -794,6 +800,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 )
 ]
@@ -803,7 +810,7 @@ Ellipse
 <
 H
 V
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 >
 {
 pub
@@ -819,14 +826,14 @@ semiaxis_x
 :
 ShapeRadius
 <
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 >
 pub
 semiaxis_y
 :
 ShapeRadius
 <
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 >
 }
 /
@@ -873,6 +880,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 )
@@ -881,12 +889,12 @@ pub
 enum
 ShapeRadius
 <
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 >
 {
 Length
 (
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 )
 #
 [
@@ -961,6 +969,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 )
@@ -1047,6 +1056,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 )
@@ -1167,6 +1177,7 @@ MallocSizeOf
 Parse
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 )
@@ -1242,6 +1253,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 )
