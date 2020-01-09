@@ -3944,6 +3944,11 @@ in
 (
 '
 clang
+-
+cl
+'
+'
+clang
 '
 '
 gcc
