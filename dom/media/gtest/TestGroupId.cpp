@@ -178,6 +178,10 @@ testing
 :
 Return
 ;
+using
+namespace
+mozilla
+;
 void
 PrintTo
 (
