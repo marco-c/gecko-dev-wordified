@@ -6986,6 +6986,15 @@ ZealMode
 :
 YieldBeforeSweepingShapeTrees
 )
+|
+|
+hasZealMode
+(
+ZealMode
+:
+:
+YieldWhileGrayMarking
+)
 ;
 }
 #
