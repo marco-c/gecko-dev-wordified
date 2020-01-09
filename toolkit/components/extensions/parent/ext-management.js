@@ -1205,6 +1205,11 @@ url
 {
 hash
 telemetryInfo
+triggeringPrincipal
+:
+extension
+.
+principal
 }
 )
 ;
