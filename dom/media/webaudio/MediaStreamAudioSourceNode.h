@@ -504,6 +504,12 @@ aTrack
 )
 override
 ;
+void
+NotifyActive
+(
+)
+override
+;
 /
 /
 From
