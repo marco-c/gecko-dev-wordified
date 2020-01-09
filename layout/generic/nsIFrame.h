@@ -10011,11 +10011,9 @@ bool
 ComputeBorderRadii
 (
 const
-mozilla
-:
-:
-BorderRadius
+nsStyleCorners
 &
+aBorderRadius
 const
 nsSize
 &

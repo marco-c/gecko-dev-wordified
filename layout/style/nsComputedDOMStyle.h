@@ -305,6 +305,9 @@ nsROCSSPrimitiveValue
 class
 nsStyleCoord
 ;
+class
+nsStyleCorners
+;
 struct
 nsStyleFilter
 ;
@@ -1004,11 +1007,9 @@ CSSValue
 GetEllipseRadii
 (
 const
-mozilla
-:
-:
-BorderRadius
+nsStyleCorners
 &
+aRadius
 mozilla
 :
 :
@@ -1026,6 +1027,7 @@ mozilla
 :
 :
 Side
+aSide
 )
 ;
 already_AddRefed
@@ -3090,11 +3092,9 @@ nsAString
 &
 aCssText
 const
-mozilla
-:
-:
-BorderRadius
+nsStyleCorners
 &
+aCorners
 )
 ;
 /
