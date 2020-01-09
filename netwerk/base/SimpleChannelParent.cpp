@@ -274,8 +274,10 @@ NS_IMETHODIMP
 SimpleChannelParent
 :
 :
-NotifyTrackingResource
+NotifyClassificationFlags
 (
+uint32_t
+aClassificationFlags
 bool
 aIsThirdParty
 )
