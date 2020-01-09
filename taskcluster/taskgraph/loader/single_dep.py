@@ -441,9 +441,8 @@ only_attributes
 )
             
 if
-not
 config_attrs
-&
+-
 set
 (
 task
@@ -455,9 +454,9 @@ attributes
 #
 make
 sure
-any
-attribute
-exists
+all
+attributes
+exist
                 
 continue
         

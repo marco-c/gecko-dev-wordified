@@ -214,10 +214,6 @@ update
 -
 channel
 '
-    
-'
-shippable
-'
 )
 def
 attrmatch

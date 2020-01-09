@@ -745,16 +745,6 @@ get
 '
 nightly
 '
-dep_job
-.
-attributes
-.
-get
-(
-'
-shippable
-'
-)
 )
         
 signing_cert_scope
