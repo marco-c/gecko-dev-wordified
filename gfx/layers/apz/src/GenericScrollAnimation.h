@@ -179,12 +179,15 @@ aDelta
 override
 ;
 bool
-ApplyContentShift
+HandleScrollOffsetUpdate
 (
 const
+Maybe
+<
 CSSPoint
+>
 &
-aShiftDelta
+aRelativeDelta
 )
 override
 ;
