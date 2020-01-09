@@ -1900,7 +1900,7 @@ IsEmpty
 }
 if
 (
-ScriptLoader
+nsJSUtils
 :
 :
 BinASTEncodingEnabled
