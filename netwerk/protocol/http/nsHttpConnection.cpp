@@ -8603,6 +8603,13 @@ socket
 write
 request
 .
+bool
+itWasProxyConnect
+=
+!
+!
+mProxyConnectStream
+;
 if
 (
 mProxyConnectStream
@@ -9104,6 +9111,10 @@ upgrades
 .
 if
 (
+!
+itWasProxyConnect
+&
+&
 hasUpgradeReq
 &
 &
