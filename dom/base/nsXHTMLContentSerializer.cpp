@@ -308,6 +308,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 static
 const
 int32_t
@@ -2657,9 +2664,6 @@ nsXHTMLContentSerializer
 :
 CheckElementEnd
 (
-dom
-:
-:
 Element
 *
 aElement
