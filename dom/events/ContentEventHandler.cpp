@@ -1719,7 +1719,7 @@ correctly
 the
 loop
 with
-nsContentIterator
+ContentIterator
 shouldn
 '
 t
@@ -20549,7 +20549,7 @@ Don
 '
 t
 create
-nsContentIterator
+ContentIterator
 instance
 until
 it
@@ -21698,7 +21698,7 @@ start
 "
 hack
 in
-nsContentIterator
+ContentIterator
 :
 :
 Init

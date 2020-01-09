@@ -9443,7 +9443,7 @@ tree
 In
 such
 case
-nsContentIterator
+ContentIterator
 won
 '
 t
