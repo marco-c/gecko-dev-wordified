@@ -174,6 +174,9 @@ loadedState
 "
 loaded
 "
+isExtension
+:
+false
 actors
 :
 [

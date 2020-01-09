@@ -1104,7 +1104,7 @@ windowless
 -
 workers
 "
-false
+true
 )
 ;
 pref

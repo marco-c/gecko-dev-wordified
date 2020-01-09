@@ -938,7 +938,7 @@ windowless
 -
 workers
 "
-false
+true
 )
 ;
 pref
@@ -1645,18 +1645,6 @@ Bool
 code
 -
 folding
-"
-]
-pausePoints
-:
-[
-"
-Bool
-"
-"
-pause
--
-points
 "
 ]
 skipPausing
