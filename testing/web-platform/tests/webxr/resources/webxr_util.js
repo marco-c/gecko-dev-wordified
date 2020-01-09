@@ -810,9 +810,9 @@ callback
 (
 window
 .
-XRDevicePose
+XRViewerPose
 '
-XRDevicePose
+XRViewerPose
 '
 )
 ;
