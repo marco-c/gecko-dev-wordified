@@ -67133,6 +67133,12 @@ other_values
 1
 0rad
 "
+"
+0rad
+0
+0
+1
+"
 /
 *
 valid
