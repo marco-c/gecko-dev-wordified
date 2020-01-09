@@ -196,14 +196,11 @@ default
 perform
 a
 checkout
-in
-{
-workdir
-}
-/
-checkouts
-/
+of
 gecko
+on
+the
+worker
     
 Required
 (
@@ -382,7 +379,6 @@ config
 job
 taskdesc
 command
-geckodir
 )
 :
     
@@ -442,7 +438,22 @@ checkout
 .
 format
 (
-geckodir
+taskdesc
+[
+'
+worker
+'
+]
+[
+'
+env
+'
+]
+[
+'
+GECKO_PATH
+'
+]
 )
 )
     
@@ -676,25 +687,6 @@ config
 job
 taskdesc
 command
-                 
-geckodir
-=
-'
-{
-workdir
-}
-/
-checkouts
-/
-gecko
-'
-.
-format
-(
-*
-*
-run
-)
 )
     
 if
@@ -990,25 +982,6 @@ config
 job
 taskdesc
 command
-                 
-geckodir
-=
-'
-{
-workdir
-}
-/
-checkouts
-/
-gecko
-'
-.
-format
-(
-*
-*
-run
-)
 )
     
 worker
@@ -1180,6 +1153,20 @@ os
 windows
 '
     
+is_mac
+=
+worker
+[
+'
+os
+'
+]
+=
+=
+'
+macosx
+'
+    
 if
 is_win
 :
@@ -1207,16 +1194,32 @@ run
 task
 '
 ]
+    
+elif
+is_mac
+:
         
-geckodir
+command
 =
+[
 '
+/
+tools
+/
+python36
+/
+bin
+/
+python3
 .
-/
-build
-/
-src
+6
 '
+'
+run
+-
+task
+'
+]
     
 else
 :
@@ -1232,25 +1235,6 @@ run
 task
 '
 ]
-        
-geckodir
-=
-'
-{
-workdir
-}
-/
-checkouts
-/
-gecko
-'
-.
-format
-(
-*
-*
-run
-)
     
 common_setup
 (
@@ -1258,9 +1242,6 @@ config
 job
 taskdesc
 command
-geckodir
-=
-geckodir
 )
     
 worker
