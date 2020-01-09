@@ -98,6 +98,14 @@ util
 import
 exec_
 from
+mozbuild
+.
+shellutil
+import
+quote
+as
+shell_quote
+from
 mozpack
 import
 path
@@ -1513,20 +1521,21 @@ foo
 .
 .
 .
-'
 %
 s
-'
 \
 n
 "
                               
 %
+shell_quote
+(
 fake_short_path
 (
 self
 .
 KNOWN_C
+)
 )
 )
         
@@ -2419,20 +2428,21 @@ foo
 .
 .
 .
-'
 %
 s
-'
 \
 n
 "
                               
 %
+shell_quote
+(
 fake_short_path
 (
 self
 .
 KNOWN_C
+)
 )
 )
         
