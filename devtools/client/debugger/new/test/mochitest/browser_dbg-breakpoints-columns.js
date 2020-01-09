@@ -145,7 +145,7 @@ condition
 const
 {
 addConditionalBreakpoint
-editBreakpoint
+editConditionalBreakpoint
 }
 =
 selectors
@@ -171,7 +171,7 @@ selector
 addConditionalBreakpoint
 }
 {
-editBreakpoint
+editConditionalBreakpoint
 }
 ;
 rightClickElement

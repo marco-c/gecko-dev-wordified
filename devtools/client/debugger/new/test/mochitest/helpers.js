@@ -6664,7 +6664,7 @@ conditional
 -
 breakpoint
 "
-editBreakpoint
+editConditionalBreakpoint
 :
 "
 #
