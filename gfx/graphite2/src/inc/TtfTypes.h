@@ -1493,6 +1493,7 @@ Sfnt
 pragma
 pack
 (
+push
 1
 )
 /
@@ -2202,6 +2203,7 @@ UnscaledOffset
 pragma
 pack
 (
+pop
 )
 }
 /
