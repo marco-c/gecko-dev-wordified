@@ -30727,6 +30727,12 @@ bool
 enabled
 )
 ;
+/
+/
+clang
+-
+format
+off
 #
 define
 JIT_COMPILER_OPTIONS
@@ -30745,9 +30751,9 @@ warmup
 trigger
 "
 )
+\
 Register
 (
-\
 ION_WARMUP_TRIGGER
 "
 ion
@@ -30757,10 +30763,10 @@ warmup
 trigger
 "
 )
+\
 Register
 (
 ION_GVN_ENABLE
-\
 "
 ion
 .
@@ -30779,9 +30785,9 @@ ion
 forceinlineCaches
 "
 )
+\
 Register
 (
-\
 ION_ENABLE
 "
 ion
@@ -30789,10 +30795,10 @@ ion
 enable
 "
 )
+\
 Register
 (
 ION_CHECK_RANGE_ANALYSIS
-\
 "
 ion
 .
@@ -30807,7 +30813,6 @@ analysis
 Register
 (
 ION_FREQUENT_BAILOUT_THRESHOLD
-\
 "
 ion
 .
@@ -30828,11 +30833,10 @@ baseline
 enable
 "
 )
+\
 Register
 (
-\
 OFFTHREAD_COMPILATION_ENABLE
-\
 "
 offthread
 -
@@ -30841,10 +30845,10 @@ compilation
 enable
 "
 )
+\
 Register
 (
 FULL_DEBUG_CHECKS
-\
 "
 jit
 .
@@ -30852,9 +30856,6 @@ full
 -
 debug
 -
-"
-\
-"
 checks
 "
 )
@@ -30868,9 +30869,9 @@ jump
 threshold
 "
 )
+\
 Register
 (
-\
 TRACK_OPTIMIZATIONS
 "
 jit
@@ -30884,7 +30885,6 @@ optimizations
 Register
 (
 SIMULATOR_ALWAYS_INTERRUPT
-\
 "
 simulator
 .
@@ -30897,7 +30897,6 @@ interrupt
 Register
 (
 SPECTRE_INDEX_MASKING
-\
 "
 spectre
 .
@@ -30910,7 +30909,6 @@ masking
 Register
 (
 SPECTRE_OBJECT_MITIGATIONS_BARRIERS
-\
 "
 spectre
 .
@@ -30925,7 +30923,6 @@ barriers
 Register
 (
 SPECTRE_OBJECT_MITIGATIONS_MISC
-\
 "
 spectre
 .
@@ -30940,7 +30937,6 @@ misc
 Register
 (
 SPECTRE_STRING_MITIGATIONS
-\
 "
 spectre
 .
@@ -30953,7 +30949,6 @@ mitigations
 Register
 (
 SPECTRE_VALUE_MASKING
-\
 "
 spectre
 .
@@ -30965,9 +30960,7 @@ masking
 \
 Register
 (
-\
 SPECTRE_JIT_TO_CXX_CALLS
-\
 "
 spectre
 .
@@ -30985,9 +30978,7 @@ calls
 \
 Register
 (
-\
 WASM_FOLD_OFFSETS
-\
 "
 wasm
 .
@@ -30999,9 +30990,7 @@ offsets
 \
 Register
 (
-\
 WASM_DELAY_TIER2
-\
 "
 wasm
 .
@@ -31010,6 +30999,12 @@ delay
 tier2
 "
 )
+/
+/
+clang
+-
+format
+on
 typedef
 enum
 JSJitCompilerOption
