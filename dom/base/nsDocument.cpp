@@ -47403,7 +47403,7 @@ nullptr
 }
 }
 void
-nsDocument
+nsIDocument
 :
 :
 AsyncBlockOnload
@@ -47426,7 +47426,7 @@ BlockOnload
 }
 }
 void
-nsDocument
+nsIDocument
 :
 :
 BlockOnload
@@ -47538,14 +47538,14 @@ AddScriptRunner
 NewRunnableMethod
 (
 "
-nsDocument
+nsIDocument
 :
 :
 AsyncBlockOnload
 "
 this
 &
-nsDocument
+nsIDocument
 :
 :
 AsyncBlockOnload
@@ -47588,7 +47588,7 @@ mOnloadBlockCount
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 UnblockOnload
