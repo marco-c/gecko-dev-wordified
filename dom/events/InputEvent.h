@@ -158,6 +158,9 @@ namespace
 dom
 {
 class
+DataTransfer
+;
+class
 InputEvent
 :
 public
@@ -253,6 +256,12 @@ GetData
 nsAString
 &
 aData
+)
+;
+DataTransfer
+*
+GetDataTransfer
+(
 )
 ;
 bool
