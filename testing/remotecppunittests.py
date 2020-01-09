@@ -310,6 +310,17 @@ remote_tmp_dir
         
 self
 .
+device
+.
+mkdir
+(
+self
+.
+remote_bin_dir
+)
+        
+self
+.
 push_libs
 (
 )
