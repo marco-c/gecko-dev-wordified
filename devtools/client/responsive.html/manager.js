@@ -3329,6 +3329,7 @@ this
 .
 emulationFront
 =
+new
 EmulationFront
 (
 this

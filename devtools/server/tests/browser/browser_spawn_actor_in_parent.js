@@ -253,6 +253,7 @@ targetForm
 const
 inContentFront
 =
+new
 InContentFront
 (
 client
@@ -297,6 +298,7 @@ ACTOR_URL
 const
 inParentFront
 =
+new
 InParentFront
 (
 client

@@ -349,6 +349,7 @@ makeRejectPromise
 const
 front
 =
+new
 PromisesFront
 (
 client
