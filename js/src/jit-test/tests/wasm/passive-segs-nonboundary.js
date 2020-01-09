@@ -4315,6 +4315,7 @@ checkMiscPrefixed
 [
 0x0a
 0x00
+0x00
 ]
 false
 )
@@ -4324,7 +4325,10 @@ false
 memory
 .
 copy
-flags
+src
+=
+0
+dest
 =
 0
 checkMiscPrefixed
@@ -4341,7 +4345,7 @@ false
 memory
 .
 fill
-flags
+mem
 =
 0
 checkMiscPrefixed
@@ -4359,7 +4363,7 @@ false
 memory
 .
 fill
-flags
+mem
 =
 0
 (
