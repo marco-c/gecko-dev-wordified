@@ -150,17 +150,6 @@ include
 "
 mozilla
 /
-dom
-/
-RemoteFrameChild
-.
-h
-"
-#
-include
-"
-mozilla
-/
 layers
 /
 CompositorBridgeParent

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_RemoteFrameChild_h
+mozilla_dom_BrowserBridgeChild_h
 #
 define
-mozilla_dom_RemoteFrameChild_h
+mozilla_dom_BrowserBridgeChild_h
 #
 include
 "
@@ -127,7 +127,7 @@ mozilla
 /
 dom
 /
-PRemoteFrameChild
+PBrowserBridgeChild
 .
 h
 "
@@ -162,16 +162,16 @@ frame
 *
 /
 class
-RemoteFrameChild
+BrowserBridgeChild
 :
 public
-PRemoteFrameChild
+PBrowserBridgeChild
 {
 public
 :
 NS_INLINE_DECL_REFCOUNTING
 (
-RemoteFrameChild
+BrowserBridgeChild
 )
 ;
 TabChild
@@ -192,7 +192,7 @@ TabChild
 *
 >
 (
-PRemoteFrameChild
+PBrowserBridgeChild
 :
 :
 Manager
@@ -219,7 +219,7 @@ mLayersId
 static
 already_AddRefed
 <
-RemoteFrameChild
+BrowserBridgeChild
 >
 Create
 (
@@ -267,7 +267,7 @@ Activate
 )
 ;
 static
-RemoteFrameChild
+BrowserBridgeChild
 *
 GetFrom
 (
@@ -277,7 +277,7 @@ aFrameLoader
 )
 ;
 static
-RemoteFrameChild
+BrowserBridgeChild
 *
 GetFrom
 (
@@ -290,7 +290,7 @@ protected
 :
 friend
 class
-PRemoteFrameChild
+PBrowserBridgeChild
 ;
 mozilla
 :
@@ -324,7 +324,7 @@ override
 private
 :
 explicit
-RemoteFrameChild
+BrowserBridgeChild
 (
 nsFrameLoader
 *
@@ -332,7 +332,7 @@ aFrameLoader
 )
 ;
 ~
-RemoteFrameChild
+BrowserBridgeChild
 (
 )
 ;
@@ -373,5 +373,5 @@ endif
 !
 defined
 (
-mozilla_dom_RemoteFrameParent_h
+mozilla_dom_BrowserBridgeParent_h
 )

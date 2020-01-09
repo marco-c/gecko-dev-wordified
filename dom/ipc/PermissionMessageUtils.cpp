@@ -136,6 +136,17 @@ BackgroundUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ipc
+/
+PBackgroundSharedTypes
+.
+h
+"
 namespace
 mozilla
 {

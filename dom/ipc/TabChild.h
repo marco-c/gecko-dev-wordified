@@ -3852,9 +3852,9 @@ aActor
 override
 ;
 virtual
-PRemoteFrameChild
+PBrowserBridgeChild
 *
-AllocPRemoteFrameChild
+AllocPBrowserBridgeChild
 (
 const
 nsString
@@ -3869,9 +3869,9 @@ override
 ;
 virtual
 bool
-DeallocPRemoteFrameChild
+DeallocPBrowserBridgeChild
 (
-PRemoteFrameChild
+PBrowserBridgeChild
 *
 aActor
 )
