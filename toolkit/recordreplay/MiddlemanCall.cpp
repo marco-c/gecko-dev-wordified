@@ -1127,10 +1127,9 @@ cx
 }
 RecordReplayInvokeCall
 (
-call
--
->
-mCallId
+redirection
+.
+mBaseFunction
 &
 arguments
 )
