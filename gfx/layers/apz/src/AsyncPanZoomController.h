@@ -11469,6 +11469,11 @@ testing
 LayerToParentLayerScale
 mTestAsyncZoom
 ;
+int
+mTestAttributeAppliers
+:
+8
+;
 /
 /
 Flag
