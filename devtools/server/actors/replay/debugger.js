@@ -774,11 +774,6 @@ replayTimeWarp
 RecordReplayControl
 .
 timeWarp
-replayRecordingPosition
-:
-RecordReplayControl
-.
-recordingPosition
 replayPause
 (
 )
