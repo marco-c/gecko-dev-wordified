@@ -5487,9 +5487,6 @@ actorID
 actor
 )
 ;
-return
-actor
-;
 }
 /
 *
@@ -8409,7 +8406,6 @@ typeName
 )
 ;
 }
-return
 Pool
 .
 prototype
