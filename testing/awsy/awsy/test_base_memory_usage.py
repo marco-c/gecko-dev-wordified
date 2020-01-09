@@ -417,6 +417,50 @@ _iterations
 =
 1
         
+#
+We
+don
+'
+t
+want
+to
+measure
+the
+preallocated
+process
+so
+we
+load
+enough
+        
+#
+tabs
+so
+that
+it
+is
+no
+longer
+launched
+.
+        
+process_count
+=
+self
+.
+marionette
+.
+get_pref
+(
+'
+dom
+.
+ipc
+.
+processCount
+'
+)
+        
 self
 .
 _urls
@@ -429,7 +473,7 @@ blank
 '
 ]
 *
-4
+process_count
         
 self
 .
@@ -453,6 +497,10 @@ perTabPause
 %
 d
 settleWaitTime
+%
+d
+content
+processes
 "
                          
 %
@@ -469,6 +517,7 @@ _perTabPause
 self
 .
 _settleWaitTime
+process_count
 )
 )
         
