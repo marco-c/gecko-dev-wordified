@@ -5404,6 +5404,8 @@ parsing
 can
 '
 t
+/
+/
 handle
 )
 .
@@ -5422,14 +5424,14 @@ since
 those
 can
 use
+/
+/
 -
 moz
 -
 bool
 -
 pref
-/
-/
 which
 needs
 to
@@ -5439,6 +5441,8 @@ pref
 service
 which
 is
+/
+/
 not
 threadsafe
 .

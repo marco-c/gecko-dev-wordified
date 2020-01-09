@@ -711,6 +711,7 @@ we
 always
 force
 repaint
+*
 currently
 )
 *

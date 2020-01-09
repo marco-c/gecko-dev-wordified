@@ -1158,8 +1158,8 @@ can
 safely
 query
 them
-and
 *
+and
 the
 process
 will
@@ -1181,6 +1181,7 @@ properties
 related
 to
 your
+*
 descendants
 :
 *
@@ -1196,8 +1197,8 @@ that
 you
 expect
 your
-descendants
 *
+descendants
 to
 have
 reached
@@ -1205,6 +1206,7 @@ upon
 processing
 their
 own
+*
 TransmitAutomaticData
 (
 )
@@ -1220,9 +1222,9 @@ expect
 that
 you
 will
+*
 transmit
 to
-*
 them
 in
 your
@@ -1234,6 +1236,7 @@ TransmitAutomaticData
 this
 way
 they
+*
 remain
 up
 -
@@ -1269,8 +1272,8 @@ safely
 query
 them
 and
-the
 *
+the
 process
 will
 feed

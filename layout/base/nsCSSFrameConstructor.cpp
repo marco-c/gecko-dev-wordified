@@ -18177,9 +18177,9 @@ This
 ensures
 the
 background
+/
+/
 covers
-/
-/
 the
 entire
 canvas
@@ -27959,8 +27959,8 @@ hierarchy
 will
 look
 like
-this
 *
+this
 *
 -
 -
@@ -28051,6 +28051,7 @@ cross
 platform
 frame
 based
+*
 scrollbars
 .
 *
@@ -28066,6 +28067,7 @@ child
 to
 wrap
 .
+*
 *
 param
 aScrolledFrame
@@ -28091,9 +28093,9 @@ initialize
 it
 with
 a
+*
 scrolled
 pseudo
-*
 and
 no
 nsIContent
@@ -28102,13 +28104,14 @@ The
 content
 will
 be
+*
 attached
 to
 the
 scrollframe
-*
 returned
 .
+*
 *
 param
 aContentStyle
@@ -28154,10 +28157,10 @@ we
 create
 .
 It
+*
 will
 contain
 the
-*
 scrolled
 frame
 you
@@ -28179,6 +28182,7 @@ ll
 just
 use
 it
+*
 *
 param
 aScrolledContentStyle

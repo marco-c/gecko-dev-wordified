@@ -338,6 +338,7 @@ code
 >
 long
 .
+*
 <
 /
 strong

@@ -1744,8 +1744,8 @@ cellframe
 which
 will
 be
-appended
 *
+appended
 to
 the
 row
@@ -1785,8 +1785,8 @@ the
 cellmap
 as
 this
-rowspan
 *
+rowspan
 might
 overlap
 another
@@ -1803,6 +1803,7 @@ coordinates
 which
 have
 been
+*
 updated
 .
 *

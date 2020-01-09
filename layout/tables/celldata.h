@@ -468,6 +468,7 @@ corresponding
 origin
 of
 the
+*
 rowspan
 *
 return
@@ -504,6 +505,7 @@ the
 corresponding
 origin
 of
+*
 the
 rowspan
 *
@@ -570,6 +572,7 @@ the
 corresponding
 origin
 of
+*
 the
 colspan
 *
@@ -698,6 +701,7 @@ a
 row
 -
 and
+*
 a
 colspan
 *

@@ -525,6 +525,7 @@ same
 height
 and
 stacked
+*
 horizontally
 .
 *
@@ -571,10 +572,10 @@ sum
 of
 the
 cells
+*
 height
 set
 to
-*
 height
 of
 cells
@@ -1790,6 +1791,8 @@ all
 cells
 that
 have
+/
+/
 '
 vertical
 -

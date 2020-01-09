@@ -1701,6 +1701,12 @@ aElements
 {
 /
 /
+clang
+-
+format
+off
+/
+/
 <
 xul
 :
@@ -1892,6 +1898,12 @@ disabled
 "
 /
 >
+/
+/
+clang
+-
+format
+on
 nsNodeInfoManager
 *
 nodeInfoManager

@@ -4366,8 +4366,8 @@ The
 visible
 area
 is
-scrolled
 *
+scrolled
 the
 minimum
 amount
@@ -4377,6 +4377,7 @@ as
 much
 as
 possible
+*
 of
 the
 frame
@@ -4657,12 +4658,12 @@ a
 perceived
 scrollable
 direction
+*
 (
 i
 .
 e
 .
-*
 no
 scrollbar
 showing
@@ -4672,8 +4673,8 @@ than
 one
 device
 pixel
-of
 *
+of
 scrollable
 distance
 )
