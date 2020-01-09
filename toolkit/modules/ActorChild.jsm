@@ -197,6 +197,10 @@ mm
 .
 *
 /
+this
+.
+ActorChild
+=
 class
 ActorChild
 {
@@ -340,3 +344,4 @@ null
 ;
 }
 }
+;
