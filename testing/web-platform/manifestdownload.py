@@ -313,7 +313,8 @@ found
 )
     
 return
-False
+[
+]
 def
 should_download
 (
@@ -857,14 +858,6 @@ commits
 commits_func
 (
 )
-    
-if
-not
-commits
-:
-        
-return
-False
     
 url
 =
