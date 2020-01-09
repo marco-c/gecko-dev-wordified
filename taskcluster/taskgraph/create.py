@@ -66,12 +66,6 @@ futures
 as
 futures
 import
-requests
-import
-requests
-.
-adapters
-import
 json
 import
 os
