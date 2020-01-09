@@ -1798,6 +1798,10 @@ SourceId
 isBlackBoxed
 :
 boolean
+range
+?
+:
+Range
 )
 :
 Promise
@@ -1829,7 +1833,7 @@ sourceClient
 .
 unblackBox
 (
-null
+range
 )
 ;
 }
@@ -1840,7 +1844,7 @@ sourceClient
 .
 blackBox
 (
-null
+range
 )
 ;
 }

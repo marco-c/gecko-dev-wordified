@@ -144129,6 +144129,18 @@ getOriginalLocation
 )
 ;
 const
+getFileGeneratedRange
+=
+dispatcher
+.
+task
+(
+"
+getFileGeneratedRange
+"
+)
+;
+const
 getLocationScopes
 =
 dispatcher
@@ -144216,6 +144228,7 @@ getGeneratedRanges
 getGeneratedLocation
 getAllGeneratedLocations
 getOriginalLocation
+getFileGeneratedRange
 getLocationScopes
 getOriginalSourceText
 applySourceMap
