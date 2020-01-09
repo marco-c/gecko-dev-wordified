@@ -810,7 +810,7 @@ findSidebarItemByText
 runtime
 .
 shortName
-document
+doc
 )
 )
 ;
