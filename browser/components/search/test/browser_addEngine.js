@@ -466,7 +466,7 @@ description
 ;
 gSS
 .
-currentEngine
+defaultEngine
 =
 engine
 ;
@@ -481,7 +481,7 @@ currentEngine
 =
 gSS
 .
-currentEngine
+defaultEngine
 ;
 is
 (
@@ -590,7 +590,7 @@ currentEngine
 =
 gSS
 .
-currentEngine
+defaultEngine
 ;
 ok
 (

@@ -347,7 +347,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 registerCleanupFunction
 (
@@ -359,7 +359,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 previouslySelectedEngine
 ;
@@ -415,7 +415,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 engine
 ;

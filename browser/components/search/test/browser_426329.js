@@ -514,7 +514,7 @@ added
 ;
 ss
 .
-currentEngine
+defaultEngine
 =
 engine
 ;
@@ -531,7 +531,7 @@ ok
 (
 ss
 .
-currentEngine
+defaultEngine
 .
 name
 =

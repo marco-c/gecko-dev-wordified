@@ -200,13 +200,13 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 engineDefault
 ;
@@ -363,7 +363,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 originalEngine
 ;

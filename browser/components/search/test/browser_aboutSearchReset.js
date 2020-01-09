@@ -389,7 +389,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 "
 the
 custom
@@ -470,7 +470,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 let
 originalEngine
@@ -653,7 +653,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 "
 the
 default
@@ -693,7 +693,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 currentEngine
 ;

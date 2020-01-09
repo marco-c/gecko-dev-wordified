@@ -145,7 +145,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 add_task
 (
@@ -226,7 +226,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 originalEngine
 ;
@@ -331,7 +331,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 let
 engines
@@ -577,7 +577,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 oldCurrentEngine
 ;
@@ -639,7 +639,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 let
 oldAlias
@@ -749,7 +749,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 let
 data
@@ -893,7 +893,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 let
 data
@@ -2617,7 +2617,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 let
 uriFavicon

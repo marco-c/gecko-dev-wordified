@@ -104,7 +104,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 let
 engine
@@ -134,7 +134,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 engine
 ;
@@ -462,7 +462,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 currEngine
 ;

@@ -282,7 +282,7 @@ added
 ;
 ss
 .
-currentEngine
+defaultEngine
 =
 engine
 ;
@@ -321,7 +321,7 @@ is
 (
 ss
 .
-currentEngine
+defaultEngine
 .
 name
 ENGINE_NAME
@@ -786,7 +786,7 @@ removeEngine
 (
 ss
 .
-currentEngine
+defaultEngine
 )
 ;
 }

@@ -68,7 +68,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 const
 expectedString
@@ -187,7 +187,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 originalEngine
 ;
@@ -238,7 +238,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 extraEngine
 ;
@@ -292,7 +292,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 originalEngine
 ;

@@ -177,7 +177,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 await
 promiseNewEngine
@@ -205,7 +205,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 currentEngine
 ;

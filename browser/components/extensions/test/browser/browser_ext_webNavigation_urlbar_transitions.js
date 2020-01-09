@@ -381,7 +381,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 let
 suggestionsEnabled
@@ -418,7 +418,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 engine
 ;
@@ -443,7 +443,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 oldCurrentEngine
 ;
