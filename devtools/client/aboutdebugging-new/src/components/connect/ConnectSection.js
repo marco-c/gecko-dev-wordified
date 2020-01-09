@@ -142,7 +142,7 @@ children
 :
 PropTypes
 .
-any
+node
 .
 isRequired
 className
