@@ -19946,9 +19946,9 @@ table
 uint64_t
 packedFields
 uint32_t
-begin
+sourceStart
 uint32_t
-end
+sourceEnd
 uint32_t
 toStringStart
 uint32_t
@@ -20006,9 +20006,9 @@ sourceObject
 uint64_t
 packedData
 uint32_t
-begin
+sourceStart
 uint32_t
-end
+sourceEnd
 uint32_t
 toStringStart
 uint32_t
@@ -20086,9 +20086,9 @@ JSFunction
 >
 innerFunctions
 uint32_t
-begin
+sourceStart
 uint32_t
-end
+sourceEnd
 uint32_t
 toStringStart
 uint32_t
@@ -20207,9 +20207,9 @@ sourceObject
 uint64_t
 packedData
 uint32_t
-begin
+sourceStart
 uint32_t
-end
+sourceEnd
 uint32_t
 toStringStart
 uint32_t
