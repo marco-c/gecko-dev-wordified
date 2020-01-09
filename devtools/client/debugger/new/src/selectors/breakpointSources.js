@@ -130,6 +130,7 @@ type
 {
 Source
 Breakpoint
+BreakpointId
 Location
 }
 from
@@ -179,6 +180,9 @@ FormattedBreakpoint
 =
 {
 |
+id
+:
+BreakpointId
 condition
 :
 ?
@@ -210,6 +214,7 @@ FormattedBreakpoint
 {
 const
 {
+id
 condition
 disabled
 }
@@ -218,6 +223,7 @@ breakpoint
 ;
 return
 {
+id
 condition
 disabled
 text

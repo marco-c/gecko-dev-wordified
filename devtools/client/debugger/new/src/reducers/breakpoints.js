@@ -373,6 +373,9 @@ NAVIGATE
 return
 initialBreakpointsState
 (
+state
+.
+xhrBreakpoints
 )
 ;
 }
