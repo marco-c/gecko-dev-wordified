@@ -178,7 +178,6 @@ derive
 (
 Debug
 Clone
-MallocSizeOf
 PartialEq
 Hash
 Eq
@@ -948,7 +947,6 @@ derive
 Debug
 Clone
 Eq
-MallocSizeOf
 PartialEq
 Hash
 )
@@ -1128,13 +1126,6 @@ Deserialize
 )
 )
 ]
-#
-[
-derive
-(
-MallocSizeOf
-)
-]
 pub
 struct
 PictureData
@@ -1228,7 +1219,6 @@ Copy
 Debug
 Hash
 Eq
-MallocSizeOf
 PartialEq
 )
 ]

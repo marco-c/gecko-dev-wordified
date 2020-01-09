@@ -395,7 +395,6 @@ Clone
 Copy
 Debug
 Deserialize
-MallocSizeOf
 PartialEq
 Serialize
 )
@@ -973,7 +972,6 @@ Hash
 Eq
 Debug
 Deserialize
-MallocSizeOf
 PartialEq
 PartialOrd
 Ord

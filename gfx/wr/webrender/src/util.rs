@@ -755,7 +755,6 @@ derive
 Debug
 Clone
 Copy
-MallocSizeOf
 )
 ]
 pub
@@ -4388,7 +4387,6 @@ transformations
 derive
 (
 Debug
-MallocSizeOf
 )
 ]
 pub
