@@ -517,7 +517,7 @@ at
 compile
 time
 or
-SetFunctionName
+SetFunctionNameIfNoOwnName
 at
 runtime
 .
@@ -1426,9 +1426,11 @@ NewFunctionClone
 (
 )
 and
-SetFunctionName
+SetFunctionNameIfNoOwnName
 (
 )
+/
+/
 for
 details
 .
@@ -6347,7 +6349,7 @@ None
 ;
 extern
 bool
-SetFunctionName
+SetFunctionNameIfNoOwnName
 (
 JSContext
 *
