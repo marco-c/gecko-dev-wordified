@@ -319,7 +319,7 @@ false
 tel
 "
 :
-false
+true
 "
 tel
 -
@@ -335,7 +335,7 @@ tel
 national
 "
 :
-false
+true
 "
 tel
 -
@@ -381,7 +381,7 @@ false
 email
 "
 :
-false
+true
 "
 impp
 "
