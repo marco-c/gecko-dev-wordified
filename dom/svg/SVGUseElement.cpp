@@ -3089,7 +3089,7 @@ should
 use
 mReferencedElementTracker
 .
-Reset
+ResetToURIFragmentID
 (
 this
 targetURI

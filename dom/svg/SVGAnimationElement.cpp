@@ -2638,7 +2638,7 @@ should
 use
 mHrefTarget
 .
-Reset
+ResetToURIFragmentID
 (
 this
 targetURI

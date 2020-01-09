@@ -1802,7 +1802,7 @@ should
 use
 mPathTracker
 .
-Reset
+ResetToURIFragmentID
 (
 aParent
 targetURI

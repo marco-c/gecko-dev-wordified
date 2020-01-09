@@ -273,7 +273,7 @@ void
 IDTracker
 :
 :
-Reset
+ResetToURIFragmentID
 (
 nsIContent
 *
@@ -296,7 +296,7 @@ MOZ_ASSERT
 (
 aFromContent
 "
-Reset
+ResetToURIFragmentID
 (
 )
 expects
@@ -1489,15 +1489,16 @@ means
 we
 had
 Reset
+*
 (
 )
 called
 with
+/
+/
 aWatch
 =
 =
-/
-/
 true
 .
 So
