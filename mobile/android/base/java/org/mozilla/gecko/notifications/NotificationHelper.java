@@ -1638,7 +1638,7 @@ R
 .
 string
 .
-media_notification_channel
+media_notification_channel2
 )
 NotificationManager
 .
@@ -1737,7 +1737,7 @@ R
 .
 string
 .
-leanplum_default_notifications_channel
+leanplum_default_notifications_channel2
 )
 NotificationManager
 .
@@ -1805,7 +1805,7 @@ R
 .
 string
 .
-default_notification_channel
+default_notification_channel2
 )
 NotificationManager
 .
