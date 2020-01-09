@@ -58,6 +58,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 import
 {
 formatCopyName
@@ -128,6 +131,7 @@ expect
 formatCopyName
 (
 frame
+L10N
 )
 )
 .
@@ -214,6 +218,8 @@ expect
 formatDisplayName
 (
 frame
+undefined
+L10N
 )
 )
 .
@@ -276,6 +282,8 @@ expect
 formatDisplayName
 (
 frame
+undefined
+L10N
 )
 )
 .
@@ -333,6 +341,8 @@ expect
 formatDisplayName
 (
 frame
+undefined
+L10N
 )
 )
 .
@@ -394,6 +404,8 @@ expect
 formatDisplayName
 (
 frame
+undefined
+L10N
 )
 )
 .
