@@ -140,6 +140,15 @@ include
 "
 mozilla
 /
+Move
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -32355,7 +32364,7 @@ state
 .
 internalDispatchQueue_
 .
-append
+pushBack
 (
 d
 )
@@ -32482,7 +32491,7 @@ while
 true
 )
 {
-DispatchableVector
+DispatchableFifo
 dispatchQueue
 ;
 {
@@ -32540,6 +32549,9 @@ lock
 )
 ;
 }
+mozilla
+:
+:
 Swap
 (
 dispatchQueue
@@ -32727,7 +32739,7 @@ usingInternalDispatchQueue
 )
 )
 {
-DispatchableVector
+DispatchableFifo
 dispatchQueue
 ;
 {
@@ -32740,6 +32752,9 @@ lock
 mutex_
 )
 ;
+mozilla
+:
+:
 Swap
 (
 dispatchQueue
