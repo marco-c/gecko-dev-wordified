@@ -107,17 +107,6 @@ update
 channel
 "
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 /
 /
 Get

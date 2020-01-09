@@ -68,17 +68,6 @@ percentEncode
 "
 ]
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-XMLHttpRequest
-"
-]
-)
-;
 /
 /
 Strictly

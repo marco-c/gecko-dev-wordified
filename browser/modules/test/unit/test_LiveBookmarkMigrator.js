@@ -217,17 +217,6 @@ jsm
 }
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URL
-"
-]
-)
-;
 const
 kTestData
 =

@@ -122,17 +122,6 @@ jsm
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-InspectorUtils
-"
-]
-)
-;
 /
 /
 The

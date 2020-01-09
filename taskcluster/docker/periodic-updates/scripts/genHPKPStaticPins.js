@@ -270,17 +270,6 @@ jsm
 }
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-XMLHttpRequest
-"
-]
-)
-;
 var
 gCertDB
 =

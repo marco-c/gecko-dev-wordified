@@ -154,9 +154,6 @@ importGlobalProperties
 "
 fetch
 "
-"
-TextEncoder
-"
 ]
 )
 ;

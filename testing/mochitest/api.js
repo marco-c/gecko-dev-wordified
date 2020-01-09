@@ -234,17 +234,6 @@ Android
 /
 /
 /
-Cu
-.
-importGlobalProperties
-(
-[
-"
-TextDecoder
-"
-]
-)
-;
 const
 windowTracker
 =
