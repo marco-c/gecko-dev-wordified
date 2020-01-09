@@ -2272,7 +2272,7 @@ notifyObservers
 (
 null
 "
-extension
+browser
 :
 purge
 -
