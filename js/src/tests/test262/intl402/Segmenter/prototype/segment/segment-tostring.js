@@ -340,12 +340,12 @@ sameValue
 (
 result
 .
-position
+index
 expected
 .
 length
 Expected
-position
+index
 {
 expected
 .
@@ -355,7 +355,7 @@ found
 {
 result
 .
-position
+index
 }
 for
 arguments

@@ -148,7 +148,7 @@ sameValue
 typeof
 iter
 .
-position
+index
 "
 number
 "
@@ -160,7 +160,7 @@ sameValue
 (
 iter
 .
-position
+index
 0
 )
 ;

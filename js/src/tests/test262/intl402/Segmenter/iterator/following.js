@@ -191,7 +191,7 @@ for
 const
 [
 input
-position
+index
 ]
 of
 tests
@@ -216,8 +216,8 @@ sameValue
 (
 iter
 .
-position
-position
+index
+index
 String
 (
 input

@@ -83,9 +83,7 @@ Object
 .
 prototype
 {
-"
 style
-"
 :
 {
 get
@@ -107,9 +105,7 @@ getter
 ;
 }
 }
-"
 numeric
-"
 :
 {
 get
@@ -203,7 +199,7 @@ arguments
 should
 yield
 the
-correct
+fallback
 value
 for
 "
@@ -233,7 +229,7 @@ arguments
 should
 yield
 the
-correct
+fallback
 value
 for
 "

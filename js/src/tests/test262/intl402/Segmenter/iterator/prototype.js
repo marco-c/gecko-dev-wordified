@@ -150,7 +150,7 @@ property
 of
 [
 "
-position
+index
 "
 "
 breakType
