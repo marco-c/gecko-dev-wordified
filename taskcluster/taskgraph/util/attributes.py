@@ -75,12 +75,6 @@ inbound
 autoland
 '
 }
-#
-Oak
-is
-central
--
-like
 TRUNK_PROJECTS
 =
 INTEGRATION_PROJECTS
@@ -95,9 +89,6 @@ central
 comm
 -
 central
-'
-'
-oak
 '
 }
 RELEASE_PROJECTS
@@ -149,12 +140,6 @@ esr60
 '
 oak
 '
-#
-Oak
-needs
-to
-handle
-nightlies
 }
 RELEASE_PROMOTION_PROJECTS
 =
