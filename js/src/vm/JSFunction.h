@@ -5190,6 +5190,7 @@ entry
 {
 MOZ_ASSERT
 (
+*
 entry
 )
 ;
