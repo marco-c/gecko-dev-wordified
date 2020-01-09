@@ -187,7 +187,6 @@ dom
 class
 SVGElement
 ;
-}
 /
 *
 *
@@ -1020,6 +1019,11 @@ mValue
 ;
 }
 ;
+}
+/
+/
+namespace
+dom
 }
 /
 /

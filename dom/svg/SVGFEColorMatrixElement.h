@@ -166,12 +166,12 @@ aNodeInfo
 namespace
 mozilla
 {
-class
-DOMSVGAnimatedNumberList
-;
 namespace
 dom
 {
+class
+DOMSVGAnimatedNumberList
+;
 typedef
 SVGFE
 SVGFEColorMatrixElementBase

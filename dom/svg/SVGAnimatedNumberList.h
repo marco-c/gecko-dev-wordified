@@ -308,10 +308,16 @@ to
 mBaseVal
 friend
 class
+dom
+:
+:
 DOMSVGNumber
 ;
 friend
 class
+dom
+:
+:
 DOMSVGNumberList
 ;
 public

@@ -274,7 +274,6 @@ dom
 class
 SVGElement
 ;
-}
 /
 *
 *
@@ -1745,6 +1744,11 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 DOMSVGLength
 MOZILLA_DOMSVGLENGTH_IID
 )
+}
+/
+/
+namespace
+dom
 }
 /
 /

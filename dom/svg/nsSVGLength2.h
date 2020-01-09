@@ -218,12 +218,12 @@ nsSMILValue
 namespace
 mozilla
 {
-class
-DOMSVGLength
-;
 namespace
 dom
 {
+class
+DOMSVGLength
+;
 class
 SVGAnimatedLength
 ;
@@ -487,6 +487,9 @@ SVGAnimatedLength
 friend
 class
 mozilla
+:
+:
+dom
 :
 :
 DOMSVGLength
@@ -1221,6 +1224,9 @@ ToDOMBaseVal
 mozilla
 :
 :
+dom
+:
+:
 DOMSVGLength
 *
 *
@@ -1234,6 +1240,9 @@ nsresult
 ToDOMAnimVal
 (
 mozilla
+:
+:
+dom
 :
 :
 DOMSVGLength

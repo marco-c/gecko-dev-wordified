@@ -159,6 +159,9 @@ SVGAnimatedLengthList
 class
 SVGLengthList
 ;
+namespace
+dom
+{
 class
 DOMSVGLengthList
 ;
@@ -1813,6 +1816,11 @@ mAxis
 ;
 }
 ;
+}
+/
+/
+namespace
+dom
 }
 /
 /

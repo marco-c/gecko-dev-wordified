@@ -183,6 +183,9 @@ header
 namespace
 mozilla
 {
+namespace
+dom
+{
 static
 inline
 nsSVGAttrTearoffTable
@@ -844,6 +847,11 @@ mAttrEnum
 )
 ;
 }
+}
+/
+/
+namespace
+dom
 }
 /
 /

@@ -192,6 +192,9 @@ h
 namespace
 mozilla
 {
+namespace
+dom
+{
 /
 /
 We
@@ -1115,9 +1118,6 @@ aGivenProto
 )
 {
 return
-dom
-:
-:
 SVGNumber_Binding
 :
 :
@@ -1129,6 +1129,11 @@ aGivenProto
 )
 ;
 }
+}
+/
+/
+namespace
+dom
 }
 /
 /

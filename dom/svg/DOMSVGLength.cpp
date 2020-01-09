@@ -218,10 +218,9 @@ h
 namespace
 mozilla
 {
-using
 namespace
 dom
-;
+{
 static
 nsSVGAttrTearoffTable
 <
@@ -372,9 +371,6 @@ DOMSVGLength
 NS_WRAPPERCACHE_INTERFACE_MAP_ENTRY
 NS_INTERFACE_MAP_ENTRY
 (
-mozilla
-:
-:
 DOMSVGLength
 )
 /
@@ -2771,6 +2767,11 @@ Length
 }
 #
 endif
+}
+/
+/
+namespace
+dom
 }
 /
 /

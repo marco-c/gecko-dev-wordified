@@ -195,6 +195,9 @@ using
 mozilla
 :
 :
+dom
+:
+:
 DOMSVGLength
 ;
 void
@@ -264,6 +267,9 @@ i
 namespace
 namespace
 mozilla
+{
+namespace
+dom
 {
 /
 /
@@ -2692,6 +2698,11 @@ aIndex
 )
 ;
 }
+}
+/
+/
+namespace
+dom
 }
 /
 /
