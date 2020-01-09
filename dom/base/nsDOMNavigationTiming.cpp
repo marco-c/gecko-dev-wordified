@@ -553,7 +553,7 @@ Now
 (
 )
 ;
-PROFILER_TRACING
+PROFILER_TRACING_DOCSHELL
 (
 "
 Navigation
@@ -562,6 +562,7 @@ Navigation
 Unload
 "
 TRACING_INTERVAL_START
+mDocShell
 )
 ;
 }
@@ -582,7 +583,7 @@ Now
 (
 )
 ;
-PROFILER_TRACING
+PROFILER_TRACING_DOCSHELL
 (
 "
 Navigation
@@ -591,6 +592,7 @@ Navigation
 Unload
 "
 TRACING_INTERVAL_END
+mDocShell
 )
 ;
 }
@@ -624,7 +626,7 @@ Now
 (
 )
 ;
-PROFILER_TRACING
+PROFILER_TRACING_DOCSHELL
 (
 "
 Navigation
@@ -633,6 +635,7 @@ Navigation
 Load
 "
 TRACING_INTERVAL_START
+mDocShell
 )
 ;
 if
@@ -747,7 +750,7 @@ Now
 (
 )
 ;
-PROFILER_TRACING
+PROFILER_TRACING_DOCSHELL
 (
 "
 Navigation
@@ -756,6 +759,7 @@ Navigation
 Load
 "
 TRACING_INTERVAL_END
+mDocShell
 )
 ;
 if
@@ -995,7 +999,7 @@ Now
 (
 )
 ;
-PROFILER_TRACING
+PROFILER_TRACING_DOCSHELL
 (
 "
 Navigation
@@ -1004,6 +1008,7 @@ Navigation
 DOMContentLoaded
 "
 TRACING_INTERVAL_START
+mDocShell
 )
 ;
 if
@@ -1125,7 +1130,7 @@ Now
 (
 )
 ;
-PROFILER_TRACING
+PROFILER_TRACING_DOCSHELL
 (
 "
 Navigation
@@ -1134,6 +1139,7 @@ Navigation
 DOMContentLoaded
 "
 TRACING_INTERVAL_END
+mDocShell
 )
 ;
 if
@@ -1930,6 +1936,11 @@ get
 )
 )
 ;
+DECLARE_DOCSHELL_AND_HISTORY_ID
+(
+mDocShell
+)
+;
 profiler_add_marker
 (
 "
@@ -1945,6 +1956,8 @@ NS_ConvertASCIItoUTF16
 marker
 )
 mTTFI
+docShellId
+docShellHistoryId
 )
 )
 ;
