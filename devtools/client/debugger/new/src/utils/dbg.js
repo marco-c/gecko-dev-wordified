@@ -675,9 +675,9 @@ https
 :
 /
 /
-devtools
+firefox
 -
-html
+devtools
 .
 github
 .
