@@ -2176,6 +2176,14 @@ transform_palette
 )
 )
 ;
+self
+.
+clip_store
+.
+clear_old_instances
+(
+)
+;
 let
 mut
 render_tasks
