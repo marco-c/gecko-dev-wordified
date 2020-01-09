@@ -21025,10 +21025,6 @@ false
 if
 (
 IS_UNIX
-&
-&
-!
-IS_MACOSX
 )
 {
 /
@@ -21048,6 +21044,8 @@ on
 /
 /
 Linux
+and
+Mac
 is
 not
 deterministic
