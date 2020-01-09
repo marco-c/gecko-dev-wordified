@@ -1437,6 +1437,20 @@ treeherder
 '
 ]
     
+Optional
+(
+'
+attributes
+'
+)
+:
+task_description_schema
+[
+'
+attributes
+'
+]
+    
 #
 locale
 is
@@ -2044,6 +2058,22 @@ attributes
 copy_attributes_from_dependent_job
 (
 dep_job
+)
+        
+attributes
+.
+update
+(
+job
+.
+get
+(
+'
+attributes
+'
+{
+}
+)
 )
         
 if
