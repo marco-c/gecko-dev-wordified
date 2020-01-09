@@ -1549,6 +1549,14 @@ return
 .
 if
 (
+isMarkerPseudoElement
+(
+this
+.
+rawNode
+)
+|
+|
 isBeforePseudoElement
 (
 this

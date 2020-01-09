@@ -3869,6 +3869,12 @@ tree
 .
 if
 (
+isMarkerPseudoElement
+(
+node
+)
+|
+|
 isBeforePseudoElement
 (
 node
