@@ -100,10 +100,6 @@ from
 cStringIO
 import
 StringIO
-from
-urllib
-import
-pathname2url
 import
 mozpack
 .
