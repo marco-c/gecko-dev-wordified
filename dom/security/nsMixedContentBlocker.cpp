@@ -2450,14 +2450,6 @@ LoadingPrincipal
 if
 (
 loadingPrincipal
-&
-&
-loadingPrincipal
--
->
-GetIsCodebasePrincipal
-(
-)
 )
 {
 loadingPrincipal
