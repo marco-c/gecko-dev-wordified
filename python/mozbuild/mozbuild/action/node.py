@@ -81,11 +81,15 @@ devtools
 /
 client
 /
-shared
+debugger
+/
+new
 /
 build
 /
-build
+copy
+-
+module
 .
 js
 "
