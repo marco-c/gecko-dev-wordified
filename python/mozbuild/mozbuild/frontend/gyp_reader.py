@@ -2209,24 +2209,16 @@ defines
 )
             
 if
+bool
+(
 config
 .
 substs
 [
 '
-CC_TYPE
+_MSC_VER
 '
 ]
-in
-(
-'
-msvc
-'
-'
-clang
--
-cl
-'
 )
 and
 no_chromium
@@ -3540,24 +3532,16 @@ path
 )
         
 if
+bool
+(
 config
 .
 substs
 [
 '
-CC_TYPE
+_MSC_VER
 '
 ]
-in
-(
-'
-msvc
-'
-'
-clang
--
-cl
-'
 )
 :
             
