@@ -267,8 +267,10 @@ consumedData
 public
 ConsumedInputStream
 (
+final
 int
 consumedLength
+final
 byte
 [
 ]
@@ -424,8 +426,10 @@ static
 ConsumedInputStream
 readFully
 (
+final
 InputStream
 iStream
+final
 int
 bufferSize
 )
@@ -708,10 +712,12 @@ byte
 ]
 truncateBytes
 (
+final
 byte
 [
 ]
 bytes
+final
 int
 length
 )
@@ -747,6 +753,7 @@ static
 void
 safeStreamClose
 (
+final
 Closeable
 stream
 )
@@ -780,8 +787,10 @@ static
 void
 copy
 (
+final
 InputStream
 in
+final
 OutputStream
 out
 )

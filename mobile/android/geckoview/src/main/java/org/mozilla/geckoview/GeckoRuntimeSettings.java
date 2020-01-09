@@ -736,6 +736,7 @@ NonNull
 Builder
 pauseForDebugger
 (
+final
 boolean
 enabled
 )
@@ -844,6 +845,7 @@ NonNull
 Builder
 useMaxScreenDepth
 (
+final
 boolean
 enable
 )
@@ -932,6 +934,7 @@ NonNull
 Builder
 consoleOutput
 (
+final
 boolean
 enabled
 )
@@ -1021,6 +1024,7 @@ NonNull
 Builder
 automaticFontSizeAdjustment
 (
+final
 boolean
 enabled
 )
@@ -1156,6 +1160,7 @@ NonNull
 Builder
 fontSizeFactor
 (
+final
 float
 fontSizeFactor
 )
@@ -1365,6 +1370,7 @@ NonNull
 Builder
 fontInflation
 (
+final
 boolean
 enabled
 )
@@ -1421,6 +1427,7 @@ NonNull
 Builder
 displayDensityOverride
 (
+final
 float
 density
 )
@@ -1476,6 +1483,7 @@ NonNull
 Builder
 displayDpiOverride
 (
+final
 int
 dpi
 )
@@ -1546,8 +1554,10 @@ NonNull
 Builder
 screenSizeOverride
 (
+final
 int
 width
+final
 int
 height
 )
@@ -2084,6 +2094,7 @@ NonNull
 Builder
 locales
 (
+final
 String
 [
 ]
@@ -2175,6 +2186,7 @@ NonNull
 Builder
 autoplayDefault
 (
+final
 AutoplayDefault
 int
 autoplay
@@ -3552,6 +3564,7 @@ public
 void
 setLocales
 (
+final
 Nullable
 String
 [
@@ -3694,6 +3707,7 @@ NonNull
 GeckoRuntimeSettings
 setConsoleOutputEnabled
 (
+final
 boolean
 enabled
 )
@@ -3852,6 +3866,7 @@ NonNull
 GeckoRuntimeSettings
 setAutomaticFontSizeAdjustment
 (
+final
 boolean
 enabled
 )
@@ -4052,6 +4067,7 @@ NonNull
 GeckoRuntimeSettings
 setAutoplayDefault
 (
+final
 AutoplayDefault
 int
 autoplay
@@ -4262,6 +4278,7 @@ NonNull
 GeckoRuntimeSettings
 setFontSizeFactor
 (
+final
 float
 fontSizeFactor
 )
@@ -4307,6 +4324,7 @@ NonNull
 GeckoRuntimeSettings
 setFontSizeFactorInternal
 (
+final
 float
 fontSizeFactor
 )
@@ -4636,6 +4654,7 @@ NonNull
 GeckoRuntimeSettings
 setFontInflationEnabled
 (
+final
 boolean
 enabled
 )
@@ -4681,6 +4700,7 @@ NonNull
 GeckoRuntimeSettings
 setFontInflationEnabledInternal
 (
+final
 boolean
 enabled
 )
@@ -4771,8 +4791,10 @@ public
 void
 writeToParcel
 (
+final
 Parcel
 out
+final
 int
 flags
 )

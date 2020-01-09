@@ -179,6 +179,7 @@ mType
 private
 TrackType
 (
+final
 int
 type
 )
@@ -279,6 +280,7 @@ static
 void
 assertTrue
 (
+final
 boolean
 condition
 )
@@ -313,6 +315,7 @@ BaseHlsPlayer
 TrackType
 getPlayerTrackType
 (
+final
 int
 trackType
 )
@@ -429,8 +432,10 @@ static
 GeckoHLSDemuxerWrapper
 create
 (
+final
 int
 id
+final
 BaseHlsPlayer
 .
 DemuxerCallbacks
@@ -451,6 +456,7 @@ public
 int
 getNumberOfTracks
 (
+final
 int
 trackType
 )
@@ -512,6 +518,7 @@ public
 GeckoAudioInfo
 getAudioInfo
 (
+final
 int
 index
 )
@@ -563,6 +570,7 @@ public
 GeckoVideoInfo
 getVideoInfo
 (
+final
 int
 index
 )
@@ -614,6 +622,7 @@ public
 boolean
 seek
 (
+final
 long
 seekTime
 )
@@ -666,8 +675,10 @@ seekTime
 }
 GeckoHLSDemuxerWrapper
 (
+final
 int
 id
+final
 BaseHlsPlayer
 .
 DemuxerCallbacks
@@ -774,8 +785,10 @@ GeckoHLSSample
 ]
 getSamples
 (
+final
 int
 mediaType
+final
 int
 number
 )

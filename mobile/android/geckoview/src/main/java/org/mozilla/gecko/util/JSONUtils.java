@@ -147,8 +147,10 @@ static
 UUID
 getUUID
 (
+final
 String
 name
+final
 JSONObject
 json
 )
@@ -187,10 +189,13 @@ static
 void
 putUUID
 (
+final
 String
 name
+final
 UUID
 uuid
+final
 JSONObject
 json
 )
@@ -242,6 +247,7 @@ static
 JSONObject
 bundleToJSON
 (
+final
 Bundle
 bundle
 )
@@ -349,6 +355,7 @@ String
 >
 parseStringSet
 (
+final
 JSONArray
 json
 )

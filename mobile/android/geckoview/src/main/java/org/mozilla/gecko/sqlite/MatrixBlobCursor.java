@@ -401,10 +401,12 @@ JNITarget
 public
 MatrixBlobCursor
 (
+final
 String
 [
 ]
 columnNames
+final
 int
 initialCapacity
 )
@@ -500,6 +502,7 @@ JNITarget
 public
 MatrixBlobCursor
 (
+final
 String
 [
 ]
@@ -574,6 +577,7 @@ protected
 Object
 get
 (
+final
 int
 column
 )
@@ -816,6 +820,7 @@ public
 void
 addRow
 (
+final
 Object
 [
 ]
@@ -954,6 +959,7 @@ public
 void
 addRow
 (
+final
 Iterable
 <
 ?
@@ -1141,11 +1147,13 @@ private
 void
 addRow
 (
+final
 ArrayList
 <
 ?
 >
 columnValues
+final
 int
 start
 )
@@ -1436,8 +1444,10 @@ endIndex
 ;
 RowBuilder
 (
+final
 int
 index
+final
 int
 endIndex
 )
@@ -1549,8 +1559,10 @@ public
 void
 set
 (
+final
 int
 column
+final
 Object
 value
 )
@@ -1678,6 +1690,7 @@ public
 String
 getString
 (
+final
 int
 column
 )
@@ -1713,6 +1726,7 @@ public
 short
 getShort
 (
+final
 int
 column
 )
@@ -1772,6 +1786,7 @@ public
 int
 getInt
 (
+final
 int
 column
 )
@@ -1830,6 +1845,7 @@ public
 long
 getLong
 (
+final
 int
 column
 )
@@ -1888,6 +1904,7 @@ public
 float
 getFloat
 (
+final
 int
 column
 )
@@ -1948,6 +1965,7 @@ public
 double
 getDouble
 (
+final
 int
 column
 )
@@ -2010,6 +2028,7 @@ byte
 ]
 getBlob
 (
+final
 int
 column
 )
@@ -2112,6 +2131,7 @@ public
 boolean
 isNull
 (
+final
 int
 column
 )

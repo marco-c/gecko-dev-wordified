@@ -1184,6 +1184,7 @@ public
 boolean
 performContextMenuAction
 (
+final
 int
 id
 )
@@ -1486,8 +1487,10 @@ public
 ExtractedText
 getExtractedText
 (
+final
 ExtractedTextRequest
 req
+final
 int
 flags
 )
@@ -2353,6 +2356,7 @@ public
 boolean
 requestCursorUpdates
 (
+final
 int
 cursorUpdateMode
 )
@@ -3011,6 +3015,7 @@ public
 Handler
 getHandler
 (
+final
 Handler
 defHandler
 )
@@ -3069,6 +3074,7 @@ synchronized
 InputConnection
 onCreateInputConnection
 (
+final
 EditorInfo
 outAttrs
 )
@@ -3372,8 +3378,10 @@ public
 boolean
 commitText
 (
+final
 CharSequence
 text
+final
 int
 newCursorPosition
 )
@@ -3507,8 +3515,10 @@ public
 boolean
 setSelection
 (
+final
 int
 start
+final
 int
 end
 )
@@ -3722,6 +3732,7 @@ package
 void
 performDefaultKeyAction
 (
+final
 KeyEvent
 event
 )

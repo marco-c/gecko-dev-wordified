@@ -225,6 +225,7 @@ public
 boolean
 hasExtra
 (
+final
 String
 name
 )

@@ -752,6 +752,7 @@ package
 /
 WebRequest
 (
+final
 NonNull
 Builder
 builder
@@ -912,6 +913,7 @@ NonNull
 Builder
 uri
 (
+final
 NonNull
 String
 uri

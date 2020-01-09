@@ -132,6 +132,7 @@ SQLiteBridgeException
 public
 SQLiteBridgeException
 (
+final
 String
 msg
 )

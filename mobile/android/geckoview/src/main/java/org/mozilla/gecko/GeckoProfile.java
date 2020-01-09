@@ -1269,6 +1269,7 @@ static
 GeckoProfile
 getDefaultProfile
 (
+final
 Context
 context
 )
@@ -1334,6 +1335,7 @@ static
 GeckoProfile
 get
 (
+final
 Context
 context
 )
@@ -1355,8 +1357,10 @@ static
 GeckoProfile
 get
 (
+final
 Context
 context
+final
 String
 profileName
 )
@@ -1408,10 +1412,13 @@ static
 GeckoProfile
 get
 (
+final
 Context
 context
+final
 String
 profileName
+final
 String
 profilePath
 )
@@ -1518,10 +1525,13 @@ static
 GeckoProfile
 get
 (
+final
 Context
 context
+final
 String
 profileName
+final
 File
 profileDir
 )
@@ -2549,10 +2559,13 @@ false
 private
 GeckoProfile
 (
+final
 Context
 context
+final
 String
 profileName
+final
 File
 profileDir
 )
@@ -2997,6 +3010,7 @@ private
 void
 setDir
 (
+final
 File
 dir
 )
@@ -3326,6 +3340,7 @@ public
 File
 getFile
 (
+final
 String
 aFile
 )
@@ -4931,6 +4946,7 @@ public
 void
 updateSessionFile
 (
+final
 boolean
 shouldRestore
 )
@@ -5169,6 +5185,7 @@ public
 String
 readSessionFile
 (
+final
 boolean
 readBackup
 )
@@ -5243,6 +5260,7 @@ private
 String
 readSessionFile
 (
+final
 String
 fileName
 )
@@ -5755,6 +5773,7 @@ public
 String
 readFile
 (
+final
 String
 filename
 )
@@ -5810,6 +5829,7 @@ private
 String
 readFile
 (
+final
 File
 target
 )
@@ -5905,6 +5925,7 @@ public
 boolean
 deleteFileFromProfileDir
 (
+final
 String
 fileName
 )

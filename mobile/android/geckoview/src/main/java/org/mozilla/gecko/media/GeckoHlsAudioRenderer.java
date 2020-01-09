@@ -238,6 +238,7 @@ GeckoHlsRendererBase
 public
 GeckoHlsAudioRenderer
 (
+final
 GeckoHlsPlayer
 .
 ComponentEventDispatcher
@@ -288,6 +289,7 @@ final
 int
 supportsFormat
 (
+final
 Format
 format
 )
@@ -725,6 +727,7 @@ protected
 void
 handleReconfiguration
 (
+final
 DecoderInputBuffer
 bufferForRead
 )
@@ -739,6 +742,7 @@ protected
 void
 handleFormatRead
 (
+final
 DecoderInputBuffer
 bufferForRead
 )
@@ -758,6 +762,7 @@ protected
 void
 handleEndOfStream
 (
+final
 DecoderInputBuffer
 bufferForRead
 )
@@ -781,6 +786,7 @@ protected
 void
 handleSamplePreparation
 (
+final
 DecoderInputBuffer
 bufferForRead
 )
@@ -1089,6 +1095,7 @@ protected
 void
 notifyPlayerInputFormatChanged
 (
+final
 Format
 newFormat
 )

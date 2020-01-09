@@ -274,6 +274,7 @@ CNCL
 protected
 CancelableHandler
 (
+final
 Looper
 looper
 )
@@ -374,6 +375,7 @@ final
 void
 handleMessage
 (
+final
 Message
 msg
 )
@@ -534,8 +536,10 @@ mCallbacks
 private
 CallbackSender
 (
+final
 Looper
 looper
+final
 Callbacks
 callbacks
 )
@@ -554,6 +558,7 @@ public
 void
 notifyInputBuffer
 (
+final
 int
 index
 )
@@ -592,6 +597,7 @@ private
 void
 processMessage
 (
+final
 Message
 msg
 )
@@ -629,8 +635,10 @@ public
 void
 notifyOutputBuffer
 (
+final
 int
 index
+final
 MediaCodec
 .
 BufferInfo
@@ -672,6 +680,7 @@ public
 void
 notifyOutputFormat
 (
+final
 MediaFormat
 format
 )
@@ -700,6 +709,7 @@ public
 void
 notifyError
 (
+final
 int
 result
 )
@@ -733,6 +743,7 @@ protected
 boolean
 handleMessageLocked
 (
+final
 Message
 msg
 )
@@ -966,6 +977,7 @@ DEQUEUE_TIMEOUT_US
 public
 BufferPoller
 (
+final
 Looper
 looper
 )
@@ -980,6 +992,7 @@ private
 void
 schedulePollingIfNotCanceled
 (
+final
 int
 what
 )
@@ -1004,6 +1017,7 @@ private
 void
 schedulePolling
 (
+final
 int
 what
 )
@@ -1027,6 +1041,7 @@ private
 boolean
 needsBuffer
 (
+final
 int
 what
 )
@@ -1073,6 +1088,7 @@ protected
 boolean
 handleMessageLocked
 (
+final
 Message
 msg
 )
@@ -1436,6 +1452,7 @@ package
 /
 JellyBeanAsyncCodec
 (
+final
 String
 name
 )
@@ -1466,6 +1483,7 @@ private
 void
 initBufferPoller
 (
+final
 String
 name
 )
@@ -1559,10 +1577,12 @@ public
 void
 setCallbacks
 (
+final
 AsyncCodec
 .
 Callbacks
 callbacks
+final
 Handler
 handler
 )
@@ -1690,12 +1710,16 @@ public
 void
 configure
 (
+final
 MediaFormat
 format
+final
 Surface
 surface
+final
 MediaCrypto
 crypto
+final
 int
 flags
 )
@@ -1720,6 +1744,7 @@ public
 boolean
 isAdaptivePlaybackSupported
 (
+final
 String
 mimeType
 )
@@ -1923,6 +1948,7 @@ final
 void
 setRates
 (
+final
 int
 newBitRate
 )
@@ -1978,14 +2004,19 @@ final
 void
 queueInputBuffer
 (
+final
 int
 index
+final
 int
 offset
+final
 int
 size
+final
 long
 presentationTimeUs
+final
 int
 flags
 )
@@ -2128,16 +2159,21 @@ final
 void
 queueSecureInputBuffer
 (
+final
 int
 index
+final
 int
 offset
+final
 MediaCodec
 .
 CryptoInfo
 cryptoInfo
+final
 long
 presentationTimeUs
+final
 int
 flags
 )
@@ -2220,8 +2256,10 @@ final
 void
 releaseOutputBuffer
 (
+final
 int
 index
+final
 boolean
 render
 )
@@ -2245,6 +2283,7 @@ final
 ByteBuffer
 getInputBuffer
 (
+final
 int
 index
 )
@@ -2266,6 +2305,7 @@ final
 ByteBuffer
 getOutputBuffer
 (
+final
 int
 index
 )

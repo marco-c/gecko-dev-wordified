@@ -205,8 +205,10 @@ private
 /
 PermissionBlock
 (
+final
 Context
 context
+final
 PermissionsHelper
 helper
 )
@@ -245,6 +247,7 @@ public
 PermissionBlock
 withPermissions
 (
+final
 NonNull
 String
 .
@@ -417,6 +420,7 @@ public
 PermissionBlock
 doNotPromptIf
 (
+final
 boolean
 condition
 )
@@ -502,6 +506,7 @@ public
 void
 run
 (
+final
 Runnable
 onPermissionsGranted
 )
@@ -635,6 +640,7 @@ public
 PermissionBlock
 andFallback
 (
+final
 NonNull
 Runnable
 onPermissionsDenied
@@ -690,6 +696,7 @@ private
 void
 executeRunnable
 (
+final
 Runnable
 runnable
 )
@@ -811,6 +818,7 @@ private
 boolean
 hasPermissions
 (
+final
 Context
 context
 )
