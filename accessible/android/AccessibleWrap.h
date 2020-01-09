@@ -178,6 +178,16 @@ Shutdown
 )
 override
 ;
+virtual
+bool
+DoAction
+(
+uint8_t
+aIndex
+)
+const
+override
+;
 int32_t
 VirtualViewID
 (
