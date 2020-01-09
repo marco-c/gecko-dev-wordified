@@ -399,6 +399,11 @@ nsIToolkitProfile
 aOldProfile
 )
 ;
+void
+RecordStartupTelemetry
+(
+)
+;
 private
 :
 friend
@@ -850,6 +855,9 @@ created
 .
 bool
 mCreatedAlternateProfile
+;
+nsString
+mStartupReason
 ;
 static
 nsToolkitProfileService
