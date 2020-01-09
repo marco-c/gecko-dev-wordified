@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 base64
 import
@@ -865,7 +869,9 @@ interactive
 :
                 
 print
+(
 line
+)
             
 else
 :
@@ -1715,7 +1721,9 @@ interactive
 :
             
 print
+(
 line
+)
         
 else
 :
