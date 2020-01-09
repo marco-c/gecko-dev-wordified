@@ -1946,6 +1946,7 @@ pub
 local_pos
 :
 LayoutPoint
+pub
 device_pixel_scale
 :
 DevicePixelScale
