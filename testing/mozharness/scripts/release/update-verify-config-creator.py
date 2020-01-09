@@ -2353,22 +2353,6 @@ category
 '
 ]
             
-if
-category
-=
-=
-'
-esr
-'
-:
-                
-version
-+
-=
-'
-esr
-'
-            
 tag
 =
 "
