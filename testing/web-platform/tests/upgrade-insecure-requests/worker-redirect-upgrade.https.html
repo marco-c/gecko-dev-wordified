@@ -38,7 +38,7 @@ Upgrade
 Insecure
 Requests
 :
-image
+worker
 .
 <
 /
@@ -157,12 +157,12 @@ script
 const
 tests
 =
-generateTests
+generateRedirectTests
 (
 ResourceType
 .
-IMAGE
-false
+WORKER
+true
 )
 ;
 tests
@@ -175,7 +175,7 @@ test
 testMap
 [
 '
-image
+worker
 '
 ]
 (

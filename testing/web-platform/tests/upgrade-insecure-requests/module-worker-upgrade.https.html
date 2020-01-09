@@ -38,7 +38,9 @@ Upgrade
 Insecure
 Requests
 :
-image
+module
+-
+worker
 .
 <
 /
@@ -161,8 +163,8 @@ generateTests
 (
 ResourceType
 .
-IMAGE
-false
+WORKER
+true
 )
 ;
 tests
@@ -175,7 +177,9 @@ test
 testMap
 [
 '
-image
+module
+-
+worker
 '
 ]
 (

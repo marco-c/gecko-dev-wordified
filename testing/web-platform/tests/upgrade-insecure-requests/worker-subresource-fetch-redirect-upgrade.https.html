@@ -38,7 +38,11 @@ Upgrade
 Insecure
 Requests
 :
-image
+worker
+-
+subresource
+-
+fetch
 .
 <
 /
@@ -157,7 +161,7 @@ script
 const
 tests
 =
-generateTests
+generateRedirectTests
 (
 ResourceType
 .
@@ -175,7 +179,11 @@ test
 testMap
 [
 '
-image
+worker
+-
+subresource
+-
+fetch
 '
 ]
 (
