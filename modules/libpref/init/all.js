@@ -2406,6 +2406,11 @@ use_legacy_keycode_and_charcode
 "
 *
 .
+collabserv
+.
+com
+*
+.
 gov
 .
 online
@@ -2444,13 +2449,9 @@ partner
 officewebapps
 .
 cn
-mail
+*
 .
-notes
-.
-na
-.
-collabserv
+scniris
 .
 com
 "
