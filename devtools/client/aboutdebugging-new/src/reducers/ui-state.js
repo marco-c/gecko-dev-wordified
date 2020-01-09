@@ -121,9 +121,6 @@ locations
 selectedPage
 :
 null
-selectedRuntime
-:
-null
 showSystemAddons
 temporaryInstallError
 :
@@ -254,7 +251,6 @@ SELECT_PAGE_SUCCESS
 const
 {
 page
-runtimeId
 }
 =
 action
@@ -271,9 +267,6 @@ state
 selectedPage
 :
 page
-selectedRuntime
-:
-runtimeId
 }
 )
 ;

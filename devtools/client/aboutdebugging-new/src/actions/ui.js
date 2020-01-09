@@ -482,7 +482,6 @@ type
 :
 SELECT_PAGE_SUCCESS
 page
-runtimeId
 }
 )
 ;

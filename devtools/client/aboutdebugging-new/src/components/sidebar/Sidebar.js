@@ -421,7 +421,7 @@ selectedPage
 PropTypes
 .
 string
-selectedRuntime
+selectedRuntimeId
 :
 PropTypes
 .
@@ -668,7 +668,7 @@ const
 {
 dispatch
 selectedPage
-selectedRuntime
+selectedRuntimeId
 }
 =
 this
@@ -726,7 +726,7 @@ id
 =
 =
 =
-selectedRuntime
+selectedRuntimeId
 ;
 return
 SidebarRuntimeItem
@@ -778,7 +778,7 @@ const
 {
 dispatch
 selectedPage
-selectedRuntime
+selectedRuntimeId
 isScanningUsb
 }
 =
@@ -854,7 +854,7 @@ RUNTIME
 selectedPage
 &
 &
-selectedRuntime
+selectedRuntimeId
 =
 =
 =
