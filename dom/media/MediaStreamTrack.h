@@ -3216,6 +3216,7 @@ mMuted
 aMuted
 ;
 }
+virtual
 void
 Destroy
 (
