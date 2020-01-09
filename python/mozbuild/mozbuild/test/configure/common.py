@@ -551,7 +551,9 @@ keys
         
 environ
 =
-dict
+copy
+.
+copy
 (
 environ
 )
@@ -610,17 +612,6 @@ environ
 CONFIG_SHELL
 '
 ]
-)
-        
-self
-.
-_environ
-=
-copy
-.
-copy
-(
-environ
 )
         
 self
@@ -904,22 +895,6 @@ imported_os
 path
 .
 isfile
-        
-if
-what
-=
-=
-'
-os
-.
-environ
-'
-:
-            
-return
-self
-.
-_environ
         
 if
 what
