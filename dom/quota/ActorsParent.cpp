@@ -22263,6 +22263,17 @@ AssertIsOnIOThread
 (
 )
 ;
+if
+(
+CachedNextGenLocalStorageEnabled
+(
+)
+)
+{
+return
+NS_OK
+;
+}
 /
 /
 Cleanup
