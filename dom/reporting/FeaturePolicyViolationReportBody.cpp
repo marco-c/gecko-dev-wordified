@@ -334,7 +334,7 @@ void
 FeaturePolicyViolationReportBody
 :
 :
-ToJSONInternal
+ToJSON
 (
 JSONWriter
 &

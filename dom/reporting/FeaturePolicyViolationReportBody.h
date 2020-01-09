@@ -257,7 +257,7 @@ const
 protected
 :
 void
-ToJSONInternal
+ToJSON
 (
 JSONWriter
 &
