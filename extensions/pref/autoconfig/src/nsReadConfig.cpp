@@ -435,7 +435,6 @@ Implementation
 NS_IMPL_ISUPPORTS
 (
 nsReadConfig
-nsIReadConfig
 nsIObserver
 )
 nsReadConfig
