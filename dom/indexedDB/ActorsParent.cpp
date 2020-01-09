@@ -83124,6 +83124,12 @@ in
 bug
 1521541
 .
+REPORT_TELEMETRY_INIT_ERR
+(
+kExternalError
+IDB_RemoveDBFiles
+)
+;
 return
 NS_ERROR_UNEXPECTED
 ;
