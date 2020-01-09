@@ -2518,8 +2518,6 @@ prototype
 -
 placeholder
 "
-JSCLASS_IS_ANONYMOUS
-|
 JSCLASS_HAS_RESERVED_SLOTS
 (
 1
