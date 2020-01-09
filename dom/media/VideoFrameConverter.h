@@ -1846,7 +1846,7 @@ gVideoFrameConverterLog
 LogLevel
 :
 :
-Debug
+Verbose
 (
 "
 Sending
@@ -2093,7 +2093,7 @@ gVideoFrameConverterLog
 LogLevel
 :
 :
-Debug
+Verbose
 (
 "
 Sending
@@ -2175,11 +2175,6 @@ Warning
 Creating
 a
 buffer
-for
-a
-black
-video
-frame
 failed
 "
 )
