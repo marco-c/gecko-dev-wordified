@@ -44,8 +44,6 @@ ConsoleTest
 =
 {
 go
-:
-function
 (
 dumpFunction
 )

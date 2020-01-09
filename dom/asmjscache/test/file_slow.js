@@ -16,6 +16,7 @@ g
 }
 return
 g
+;
 }
 if
 (
@@ -584,8 +585,6 @@ f3
 (
 this
 {
-done
-:
 done
 }
 i32

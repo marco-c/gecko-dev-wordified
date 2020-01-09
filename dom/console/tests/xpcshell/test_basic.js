@@ -104,8 +104,6 @@ prototype
 =
 {
 observe
-:
-function
 (
 aSubject
 aTopic
