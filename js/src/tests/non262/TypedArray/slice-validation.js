@@ -87,6 +87,11 @@ function
 ?
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 :
 undefined
@@ -200,6 +205,12 @@ from
 the
 wrong
 Realm
+if
+/
+/
+cross
+-
+compartment
 .
 error
 :
