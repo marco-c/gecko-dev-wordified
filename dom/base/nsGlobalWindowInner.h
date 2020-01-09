@@ -1829,17 +1829,6 @@ override
 ;
 /
 /
-nsPIDOMWindow
-virtual
-nsPIDOMWindowOuter
-*
-GetPrivateRoot
-(
-)
-override
-;
-/
-/
 Outer
 windows
 only

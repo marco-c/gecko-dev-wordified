@@ -1944,15 +1944,6 @@ TabGroup
 )
 ;
 virtual
-nsPIDOMWindowOuter
-*
-GetPrivateRoot
-(
-)
-=
-0
-;
-virtual
 mozilla
 :
 :
