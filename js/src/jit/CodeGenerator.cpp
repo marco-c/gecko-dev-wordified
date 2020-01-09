@@ -71279,10 +71279,10 @@ masm
 loadObjPrivate
 (
 obj
-JSObject
+PropertyIteratorObject
 :
 :
-ITER_CLASS_NFIXED_SLOTS
+NUM_FIXED_SLOTS
 dest
 )
 ;

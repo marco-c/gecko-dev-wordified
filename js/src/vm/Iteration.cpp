@@ -4300,10 +4300,10 @@ numFixedSlots
 )
 =
 =
-JSObject
+PropertyIteratorObject
 :
 :
-ITER_CLASS_NFIXED_SLOTS
+NUM_FIXED_SLOTS
 )
 ;
 return
