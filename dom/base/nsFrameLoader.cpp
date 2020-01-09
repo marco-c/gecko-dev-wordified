@@ -284,6 +284,13 @@ h
 #
 include
 "
+nsIPresShellInlines
+.
+h
+"
+#
+include
+"
 nsIScriptGlobalObject
 .
 h
@@ -1198,7 +1205,6 @@ mMessageManager
 mChildMessageManager
 mOpener
 mParentSHistory
-mRemoteBrowser
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
