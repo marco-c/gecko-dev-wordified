@@ -760,8 +760,6 @@ List
 /
 #
 categories
->
-scrollbox
 {
 overflow
 :
@@ -787,14 +785,6 @@ very
 small
 *
 /
-}
-#
-categories
->
-scrollbox
->
-box
-{
 padding
 :
 1px

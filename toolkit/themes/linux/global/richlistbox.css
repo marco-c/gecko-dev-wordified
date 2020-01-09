@@ -114,6 +114,10 @@ moz
 -
 FieldText
 ;
+overflow
+:
+auto
+;
 }
 richlistbox
 [
