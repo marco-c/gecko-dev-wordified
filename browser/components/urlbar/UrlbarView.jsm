@@ -1431,14 +1431,14 @@ if
 (
 result
 .
-type
+source
 =
 =
 UrlbarUtils
 .
-MATCH_TYPE
+MATCH_SOURCE
 .
-TAB_SWITCH
+TABS
 )
 {
 item
@@ -1449,7 +1449,7 @@ setAttribute
 type
 "
 "
-switchtab
+tab
 "
 )
 ;
