@@ -15475,9 +15475,15 @@ NS_FAILED
 rv
 )
 )
+{
+ReleaseListeners
+(
+)
+;
 return
 rv
 ;
+}
 nsAutoCString
 cookie
 ;
