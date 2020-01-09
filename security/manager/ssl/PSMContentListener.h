@@ -107,6 +107,13 @@ h
 #
 include
 "
+nsIStreamListener
+.
+h
+"
+#
+include
+"
 nsIURIContentListener
 .
 h
