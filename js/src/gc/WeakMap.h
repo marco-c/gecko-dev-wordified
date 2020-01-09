@@ -1210,6 +1210,12 @@ Base
 :
 shallowSizeOfExcludingThis
 ;
+using
+Base
+:
+:
+shallowSizeOfIncludingThis
+;
 /
 /
 Resolve
