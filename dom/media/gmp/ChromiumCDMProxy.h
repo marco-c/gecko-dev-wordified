@@ -605,8 +605,10 @@ ChromiumCDMProxy
 (
 )
 ;
+RefPtr
+<
 GMPCrashHelper
-*
+>
 mCrashHelper
 ;
 Mutex
