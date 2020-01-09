@@ -4158,6 +4158,17 @@ nsString
 aLocales
 )
 ;
+void
+GetWebExposedLocales
+(
+nsTArray
+<
+nsString
+>
+&
+aLocales
+)
+;
 mozilla
 :
 :

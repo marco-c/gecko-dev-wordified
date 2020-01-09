@@ -552,7 +552,7 @@ this
 .
 window
 .
-getRegionalPrefsLocales
+getWebExposedLocales
 (
 )
 ;
