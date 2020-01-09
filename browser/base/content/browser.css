@@ -5762,6 +5762,15 @@ loginsFooter
 "
 ]
 {
+-
+moz
+-
+box
+-
+pack
+:
+center
+;
 color
 :
 var
@@ -5774,11 +5783,6 @@ text
 -
 color
 )
-;
-padding
-:
-0
-20px
 ;
 min
 -
