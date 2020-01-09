@@ -172,7 +172,7 @@ h
 #
 include
 "
-nsSMILFloatType
+SMILFloatType
 .
 h
 "
@@ -2312,7 +2312,7 @@ NS_ERROR_DOM_SYNTAX_ERR
 nsSMILValue
 val
 (
-nsSMILFloatType
+SMILFloatType
 :
 :
 Singleton
@@ -2390,7 +2390,7 @@ const
 nsSMILValue
 val
 (
-nsSMILFloatType
+SMILFloatType
 :
 :
 Singleton
@@ -2487,7 +2487,7 @@ aValue
 mType
 =
 =
-nsSMILFloatType
+SMILFloatType
 :
 :
 Singleton
@@ -2510,7 +2510,7 @@ aValue
 mType
 =
 =
-nsSMILFloatType
+SMILFloatType
 :
 :
 Singleton

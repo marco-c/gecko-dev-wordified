@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-nsSMILFloatType
+SMILFloatType
 .
 h
 "
@@ -142,8 +142,11 @@ math
 .
 h
 >
+namespace
+mozilla
+{
 void
-nsSMILFloatType
+SMILFloatType
 :
 :
 Init
@@ -186,7 +189,7 @@ this
 ;
 }
 void
-nsSMILFloatType
+SMILFloatType
 :
 :
 Destroy
@@ -235,7 +238,7 @@ Singleton
 ;
 }
 nsresult
-nsSMILFloatType
+SMILFloatType
 :
 :
 Assign
@@ -299,7 +302,7 @@ NS_OK
 ;
 }
 bool
-nsSMILFloatType
+SMILFloatType
 :
 :
 IsEqual
@@ -365,7 +368,7 @@ mDouble
 ;
 }
 nsresult
-nsSMILFloatType
+SMILFloatType
 :
 :
 Add
@@ -436,7 +439,7 @@ NS_OK
 ;
 }
 nsresult
-nsSMILFloatType
+SMILFloatType
 :
 :
 ComputeDistance
@@ -525,7 +528,7 @@ NS_OK
 ;
 }
 nsresult
-nsSMILFloatType
+SMILFloatType
 :
 :
 Interpolate
@@ -640,3 +643,8 @@ return
 NS_OK
 ;
 }
+}
+/
+/
+namespace
+mozilla
