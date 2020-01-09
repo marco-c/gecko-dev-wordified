@@ -1728,7 +1728,7 @@ Accessible
 {
 return
 new
-HTMLProgressMeterAccessible
+HTMLProgressAccessible
 (
 aElement
 aContext

@@ -1988,9 +1988,9 @@ It
 is
 used
 for
-xul
+html
 :
-progressmeter
+progress
 *
 role
 =
