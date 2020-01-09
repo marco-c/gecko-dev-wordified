@@ -171,10 +171,10 @@ c_char
 [
 cfg
 (
-target_arch
+target_pointer_width
 =
 "
-x86_64
+64
 "
 )
 ]
