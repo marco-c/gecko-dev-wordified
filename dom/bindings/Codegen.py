@@ -57013,6 +57013,14 @@ type
 isGeckoInterface
 (
 )
+or
+a
+.
+type
+.
+isCallback
+(
+)
 :
                 
 arg
