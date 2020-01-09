@@ -528,6 +528,9 @@ chrome
 "
 geckoview
 "
+"
+fennec
+"
 ]
           
 "
@@ -1641,6 +1644,9 @@ chrome
 '
 '
 geckoview
+'
+'
+fennec
 '
 ]
 :
@@ -3220,11 +3226,15 @@ or
 self
 .
 app
-=
-=
+in
+[
 "
 geckoview
 "
+"
+fennec
+"
+]
 and
 not
 self
@@ -4283,11 +4293,15 @@ if
 self
 .
 app
-=
-=
+in
+[
 "
 geckoview
 "
+"
+fennec
+"
+]
 :
             
 self
@@ -5448,11 +5462,15 @@ if
 self
 .
 app
-=
-=
+in
+[
 "
 geckoview
 "
+"
+fennec
+"
+]
 :
             
 self
@@ -5537,11 +5555,15 @@ if
 self
 .
 app
-=
-=
+in
+[
 "
 geckoview
 "
+"
+fennec
+"
+]
 :
             
 self
