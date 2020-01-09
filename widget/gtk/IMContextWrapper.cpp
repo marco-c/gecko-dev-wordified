@@ -5513,7 +5513,7 @@ IME
 asynchronously
 .
 bool
-maybeHandledAsynchronously
+probablyHandledAsynchronously
 =
 mIsIMInAsyncKeyHandlingMode
 &
@@ -5630,7 +5630,7 @@ hashtable
 .
 if
 (
-maybeHandledAsynchronously
+probablyHandledAsynchronously
 )
 {
 switch
@@ -5908,7 +5908,7 @@ type
 GDK_KEY_PRESS
 )
 {
-maybeHandledAsynchronously
+probablyHandledAsynchronously
 =
 false
 ;
@@ -6036,7 +6036,7 @@ IMEState
 PASSWORD
 )
 {
-maybeHandledAsynchronously
+probablyHandledAsynchronously
 =
 false
 ;
@@ -6111,7 +6111,7 @@ this
 )
 )
 ;
-maybeHandledAsynchronously
+probablyHandledAsynchronously
 =
 false
 ;
@@ -6414,7 +6414,7 @@ type
 GDK_KEY_PRESS
 )
 {
-maybeHandledAsynchronously
+probablyHandledAsynchronously
 =
 false
 ;
@@ -6578,7 +6578,7 @@ this
 )
 )
 ;
-maybeHandledAsynchronously
+probablyHandledAsynchronously
 =
 false
 ;
@@ -6741,7 +6741,7 @@ if
 isFiltered
 &
 &
-maybeHandledAsynchronously
+probablyHandledAsynchronously
 )
 {
 sWaitingSynthesizedKeyPressHardwareKeyCode
@@ -7032,7 +7032,7 @@ process
 if
 (
 !
-maybeHandledAsynchronously
+probablyHandledAsynchronously
 )
 {
 MaybeDispatchKeyEventAsProcessedByIME
@@ -7281,7 +7281,7 @@ mFallbackToKeyEvent
 s
 "
 "
-maybeHandledAsynchronously
+probablyHandledAsynchronously
 =
 %
 s
@@ -7330,7 +7330,7 @@ mFallbackToKeyEvent
 )
 ToChar
 (
-maybeHandledAsynchronously
+probablyHandledAsynchronously
 )
 mPostingKeyEvents
 .
