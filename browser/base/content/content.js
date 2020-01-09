@@ -318,7 +318,7 @@ Android
 addMessageListener
 (
 "
-RemoteLogins
+PasswordManager
 :
 fillForm
 "

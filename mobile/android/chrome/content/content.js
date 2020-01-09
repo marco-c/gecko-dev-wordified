@@ -3849,7 +3849,7 @@ init
 addMessageListener
 (
 "
-RemoteLogins
+PasswordManager
 :
 fillForm
 "

@@ -1194,7 +1194,7 @@ mm
 addMessageListener
 (
 "
-RemoteLogins
+PasswordManager
 :
 onFormSubmit
 "

@@ -3708,7 +3708,7 @@ BrowserCLH
 .
 js
 "
-RemoteLogins
+PasswordManager
 :
 findLogins
 "
@@ -3719,7 +3719,7 @@ LoginManagerParent
 "
 ]
 "
-RemoteLogins
+PasswordManager
 :
 findRecipes
 "
@@ -3730,7 +3730,7 @@ LoginManagerParent
 "
 ]
 "
-RemoteLogins
+PasswordManager
 :
 onFormSubmit
 "
@@ -3741,7 +3741,7 @@ LoginManagerParent
 "
 ]
 "
-RemoteLogins
+PasswordManager
 :
 autoCompleteLogins
 "
@@ -3752,7 +3752,7 @@ LoginManagerParent
 "
 ]
 "
-RemoteLogins
+PasswordManager
 :
 removeLogin
 "
@@ -3763,7 +3763,7 @@ LoginManagerParent
 "
 ]
 "
-RemoteLogins
+PasswordManager
 :
 insecureLoginFormPresent
 "

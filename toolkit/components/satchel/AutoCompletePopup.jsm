@@ -791,7 +791,7 @@ See
 /
 /
 "
-RemoteLogins
+PasswordManager
 :
 autoCompleteLogins
 "

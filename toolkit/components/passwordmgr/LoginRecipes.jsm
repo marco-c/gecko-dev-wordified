@@ -1715,7 +1715,7 @@ mm
 sendSyncMessage
 (
 "
-RemoteLogins
+PasswordManager
 :
 findRecipes
 "
