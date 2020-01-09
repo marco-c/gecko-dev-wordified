@@ -111,7 +111,7 @@ jsm
 "
 )
 ;
-const
+var
 {
 AppConstants
 }
