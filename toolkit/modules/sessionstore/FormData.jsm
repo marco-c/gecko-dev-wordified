@@ -1139,6 +1139,12 @@ collect
 credit
 card
 numbers
+or
+past
+/
+current
+password
+fields
 .
 if
 (
@@ -1166,6 +1172,11 @@ node
 .
 value
 )
+|
+|
+node
+.
+hasBeenTypePassword
 )
 {
 continue
