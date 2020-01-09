@@ -552,7 +552,6 @@ noFlexboxeOnThisPage
 }
 const
 {
-flexItems
 flexItemShown
 }
 =
@@ -589,13 +588,6 @@ setSelectedNode
 )
 !
 flexItemShown
-&
-&
-flexItems
-.
-length
->
-0
 ?
 this
 .
