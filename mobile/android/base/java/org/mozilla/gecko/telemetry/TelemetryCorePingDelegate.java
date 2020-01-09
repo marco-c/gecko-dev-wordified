@@ -1277,6 +1277,10 @@ final
 String
 clientID
 ;
+final
+boolean
+hadCanaryClientId
+;
 try
 {
 clientID
@@ -1284,6 +1288,14 @@ clientID
 profile
 .
 getClientId
+(
+)
+;
+hadCanaryClientId
+=
+profile
+.
+getIfHadCanaryClientId
 (
 )
 ;
@@ -1306,6 +1318,7 @@ to
 get
 client
 ID
+properties
 to
 generate
 core
@@ -1374,6 +1387,11 @@ activity
 setClientID
 (
 clientID
+)
+.
+setHadCanaryClientId
+(
+hadCanaryClientId
 )
 .
 setDefaultSearchEngine
