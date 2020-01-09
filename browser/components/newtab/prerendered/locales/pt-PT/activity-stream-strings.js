@@ -142,7 +142,7 @@ menu_action_open_new_window
 :
 "
 Abrir
-em
+numa
 nova
 janela
 "
@@ -152,7 +152,7 @@ menu_action_open_private_window
 :
 "
 Abrir
-em
+numa
 nova
 janela
 privada

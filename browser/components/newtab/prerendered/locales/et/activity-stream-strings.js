@@ -1093,8 +1093,8 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Ava
+men
 "
 "
 pocket_learn_more

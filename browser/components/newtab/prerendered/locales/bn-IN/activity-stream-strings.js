@@ -501,8 +501,6 @@ pocket_more_reccommendations
 "
 :
 "
-More
-Recommendations
 "
 "
 pocket_how_it_works
@@ -515,7 +513,6 @@ pocket_cta_button
 "
 :
 "
-Get
 Pocket
 "
 "
@@ -523,21 +520,7 @@ pocket_cta_text
 "
 :
 "
-Save
-the
-stories
-you
-love
-in
 Pocket
-and
-fuel
-your
-mind
-with
-fascinating
-reads
-.
 "
 "
 highlights_empty_state
@@ -560,6 +543,7 @@ manual_migration_explanation2
 "
 :
 "
+Firefox
 "
 "
 manual_migration_cancel_button
@@ -670,7 +654,6 @@ firstrun_form_header
 "
 :
 "
--
 "
 "
 firstrun_form_sub_header
@@ -732,8 +715,6 @@ context_menu_title
 "
 :
 "
-Open
-menu
 "
 "
 pocket_learn_more
