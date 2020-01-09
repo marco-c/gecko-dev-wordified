@@ -891,7 +891,6 @@ void
 )
 >
 &
-&
 aCallback
 )
 :
@@ -909,13 +908,7 @@ aBlacklistResults
 )
 mChannelCallback
 (
-std
-:
-:
-move
-(
 aCallback
-)
 )
 {
 MOZ_ASSERT
@@ -1894,13 +1887,7 @@ WhitelistClassifierCallback
 mChannel
 mURI
 aResults
-std
-:
-:
-move
-(
 mChannelCallback
-)
 )
 ;
 /
