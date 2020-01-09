@@ -18921,7 +18921,10 @@ return
 NS_OK
 ;
 }
-MaybeTransform
+Maybe
+<
+Matrix4x4
+>
 transform
 ;
 forwarder
@@ -18953,15 +18956,9 @@ if
 (
 transform
 .
-type
+isNothing
 (
 )
-!
-=
-MaybeTransform
-:
-:
-TMatrix4x4
 )
 {
 return
@@ -18973,7 +18970,7 @@ matrix
 =
 transform
 .
-get_Matrix4x4
+value
 (
 )
 ;
