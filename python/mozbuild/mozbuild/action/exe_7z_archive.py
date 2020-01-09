@@ -88,6 +88,7 @@ pkg_dir
 tagfile
 sfx_package
 package
+use_upx
 )
 :
     
@@ -121,6 +122,24 @@ core
 '
 )
         
+if
+use_upx
+:
+            
+final_sfx
+=
+mozpath
+.
+join
+(
+tmpdir
+'
+7zSD
+.
+sfx
+'
+)
+            
 subprocess
 .
 check_call
@@ -138,20 +157,17 @@ best
 -
 o
 '
-mozpath
-.
-join
-(
-tmpdir
-'
-7zSD
-.
-sfx
-'
-)
+final_sfx
 sfx_package
 ]
 )
+        
+else
+:
+            
+final_sfx
+=
+sfx_package
         
 try
 :
@@ -290,17 +306,7 @@ for
 i
 in
 [
-mozpath
-.
-join
-(
-tmpdir
-'
-7zSD
-.
-sfx
-'
-)
+final_sfx
 tagfile
 mozpath
 .
@@ -398,6 +404,9 @@ sfx_package
 <
 package
 >
+<
+use_upx
+>
 '
               
 file
@@ -430,6 +439,10 @@ args
 args
 [
 3
+]
+args
+[
+4
 ]
 )
         

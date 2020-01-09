@@ -27122,6 +27122,39 @@ stub
 '
 )
     
+CommandArgument
+(
+'
+-
+-
+use
+-
+upx
+'
+required
+=
+False
+action
+=
+'
+store_true
+'
+        
+help
+=
+'
+Run
+UPX
+on
+the
+self
+-
+extraction
+stub
+.
+'
+)
+    
 def
 repackage_installer
 (
@@ -27132,6 +27165,7 @@ package
 output
 package_name
 sfx_stub
+use_upx
 )
 :
         
@@ -27176,6 +27210,10 @@ package_name
 sfx_stub
 =
 sfx_stub
+            
+use_upx
+=
+use_upx
         
 )
     
