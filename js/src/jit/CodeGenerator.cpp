@@ -22271,7 +22271,7 @@ SetFunNameFn
 js
 :
 :
-SetFunctionNameIfNoOwnName
+SetFunctionName
 "
 SetFunName
 "
