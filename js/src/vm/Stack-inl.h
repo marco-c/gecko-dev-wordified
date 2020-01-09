@@ -6267,7 +6267,9 @@ typename
 Frame
 >
 bool
-match
+operator
+(
+)
 (
 Frame
 *
@@ -6325,7 +6327,9 @@ typename
 Frame
 >
 void
-match
+operator
+(
+)
 (
 Frame
 *
@@ -6379,7 +6383,9 @@ typename
 Frame
 >
 void
-match
+operator
+(
+)
 (
 Frame
 *

@@ -750,7 +750,9 @@ uint64_t
 mSequenceNumber
 ;
 bool
-match
+operator
+(
+)
 (
 const
 FocusTarget
@@ -885,7 +887,9 @@ true
 ;
 }
 bool
-match
+operator
+(
+)
 (
 const
 LayersId
@@ -992,7 +996,9 @@ false
 ;
 }
 bool
-match
+operator
+(
+)
 (
 const
 FocusTarget

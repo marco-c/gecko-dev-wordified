@@ -428,7 +428,9 @@ class
 Parser
 >
 auto
-match
+operator
+(
+)
 (
 Parser
 *
@@ -662,7 +664,9 @@ frontend
 :
 FullParseHandler
 &
-match
+operator
+(
+)
 (
 Parser
 *
@@ -691,7 +695,9 @@ frontend
 :
 ParserSharedBase
 &
-match
+operator
+(
+)
 (
 Parser
 *
@@ -728,7 +734,9 @@ frontend
 :
 ErrorReporter
 &
-match
+operator
+(
+)
 (
 Parser
 *

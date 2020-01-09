@@ -8848,7 +8848,9 @@ source
 {
 }
 bool
-match
+operator
+(
+)
 (
 JS
 :
@@ -8912,7 +8914,9 @@ selfHosted
 ;
 }
 bool
-match
+operator
+(
+)
 (
 JS
 :
@@ -8932,7 +8936,9 @@ maxFrames
 ;
 }
 bool
-match
+operator
+(
+)
 (
 JS
 :
@@ -13282,7 +13288,9 @@ length
 }
 JSAtom
 *
-match
+operator
+(
+)
 (
 JSAtom
 *
@@ -13300,7 +13308,9 @@ atom
 }
 JSAtom
 *
-match
+operator
+(
+)
 (
 const
 char16_t

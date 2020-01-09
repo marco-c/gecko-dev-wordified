@@ -166,7 +166,9 @@ typename
 T
 >
 void
-match
+operator
+(
+)
 (
 T
 &
@@ -206,7 +208,9 @@ void
 Setter
 :
 :
-match
+operator
+(
+)
 <
 std
 :
@@ -254,7 +258,9 @@ void
 Setter
 :
 :
-match
+operator
+(
+)
 <
 RefPtr
 <
@@ -296,7 +302,9 @@ void
 Setter
 :
 :
-match
+operator
+(
+)
 <
 RefPtr
 <
