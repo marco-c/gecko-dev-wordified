@@ -285,7 +285,7 @@ resource_cache
 :
 :
 {
-BlobImageRasterizerEpoch
+AsyncBlobImageInfo
 FontInstanceMap
 }
 ;
@@ -481,7 +481,7 @@ Box
 <
 AsyncBlobImageRasterizer
 >
-BlobImageRasterizerEpoch
+AsyncBlobImageInfo
 )
 >
 pub
@@ -788,7 +788,7 @@ Box
 <
 AsyncBlobImageRasterizer
 >
-BlobImageRasterizerEpoch
+AsyncBlobImageInfo
 )
 >
 pub
