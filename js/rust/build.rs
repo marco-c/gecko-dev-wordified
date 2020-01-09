@@ -1140,12 +1140,6 @@ AutoIdVector
 JS
 :
 :
-AutoObjectVector
-"
-"
-JS
-:
-:
 CallArgs
 "
 "
@@ -1438,6 +1432,12 @@ JS
 :
 :
 RootedObject
+"
+"
+JS
+:
+:
+RootedObjectVector
 "
 "
 JS
