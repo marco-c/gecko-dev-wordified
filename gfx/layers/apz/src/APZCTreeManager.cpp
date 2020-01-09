@@ -12943,6 +12943,7 @@ return
 result
 ;
 }
+static
 MouseInput
 :
 :
