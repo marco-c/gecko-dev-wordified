@@ -3176,6 +3176,8 @@ storedError
 ]
 ]
 to
+/
+/
 undefined
 (
 implicit
@@ -4691,6 +4693,8 @@ is
 "
 byob
 "
+/
+/
 return
 ?
 AcquireReadableStreamBYOBReader
@@ -4810,6 +4814,8 @@ spec
 .
 4
 .
+/
+/
 pipeThrough
 (
 {
@@ -4818,6 +4824,8 @@ readable
 }
 options
 )
+/
+/
 /
 /
 Not
@@ -4835,6 +4843,8 @@ spec
 .
 5
 .
+/
+/
 pipeTo
 (
 dest
@@ -4847,6 +4857,8 @@ preventCancel
 {
 }
 )
+/
+/
 /
 /
 Not
@@ -5267,9 +5279,13 @@ spec
 .
 CreateReadableStream
 (
+/
+/
 startAlgorithm
 pullAlgorithm
 cancelAlgorithm
+/
+/
 [
 highWaterMark
 [
@@ -5294,9 +5310,13 @@ spec
 .
 CreateReadableByteStream
 (
+/
+/
 startAlgorithm
 pullAlgorithm
 cancelAlgorithm
+/
+/
 [
 highWaterMark
 [
@@ -10702,6 +10722,7 @@ spec
 .
 7
 .
+*
 ReadableStreamFulfillReadIntoRequest
 (
 stream
@@ -10717,6 +10738,7 @@ spec
 .
 8
 .
+*
 ReadableStreamFulfillReadRequest
 (
 stream
@@ -11620,6 +11642,8 @@ false
 throw
 a
 TypeError
+/
+/
 exception
 .
 Rooted
@@ -12886,6 +12910,7 @@ spec
 .
 4
 .
+*
 ReadableStreamReaderGenericInitialize
 (
 reader
@@ -13683,9 +13708,9 @@ to
 a
 new
 promise
+/
+/
 rejected
-/
-/
 with
 a
 TypeError
@@ -14074,9 +14099,9 @@ a
 new
 promise
 rejected
+/
+/
 with
-/
-/
 stream
 .
 [
@@ -14432,6 +14457,8 @@ Step
 iv
 :
 Perform
+/
+/
 !
 ReadableStreamDefaultControllerCallPullIfNeeded
 (
@@ -14447,6 +14474,8 @@ Step
 iv
 :
 Perform
+/
+/
 !
 ReadableByteStreamControllerCallPullIfNeeded
 (
@@ -14773,6 +14802,7 @@ spec
 8
 .
 3
+*
 new
 ReadableStreamDefaultController
 (
@@ -16537,8 +16567,8 @@ controllers
 CancelSteps
 ]
 ]
-internal
 *
+internal
 methods
 .
 *
@@ -17521,6 +17551,8 @@ c
 :
 Otherwise
 perform
+/
+/
 !
 ReadableStreamDefaultControllerCallPullIfNeeded
 (
@@ -17926,6 +17958,8 @@ Step
 ii
 :
 Perform
+/
+/
 !
 ReadableByteStreamControllerCallPullIfNeeded
 (
@@ -18162,6 +18196,7 @@ spec
 9
 .
 2
+*
 ReadableStreamDefaultControllerCallPullIfNeeded
 (
 controller
@@ -18175,6 +18210,7 @@ spec
 .
 3
 .
+*
 ReadableByteStreamControllerCallPullIfNeeded
 (
 controller
@@ -18373,6 +18409,8 @@ controller
 underlyingByteSource
 ]
 ]
+/
+/
 "
 pull
 "
@@ -18740,6 +18778,7 @@ spec
 .
 3
 .
+*
 ReadableStreamDefaultControllerShouldCallPull
 (
 controller
@@ -18753,6 +18792,7 @@ spec
 .
 25
 .
+*
 ReadableByteStreamControllerShouldCallPull
 (
 controller
@@ -19008,6 +19048,8 @@ Step
 Let
 desiredSize
 be
+/
+/
 ReadableStreamDefaultControllerGetDesiredSize
 (
 controller
@@ -19227,6 +19269,8 @@ queue
 is
 empty
 perform
+/
+/
 !
 ReadableStreamClose
 (
@@ -19302,6 +19346,7 @@ spec
 .
 6
 .
+*
 ReadableStreamDefaultControllerEnqueue
 (
 controller
@@ -19570,6 +19615,8 @@ i
 Set
 chunkSize
 to
+/
+/
 Call
 (
 stream
@@ -19744,9 +19791,9 @@ Perform
 !
 ReadableStreamDefaultControllerErrorIfNeeded
 (
+/
+/
 controller
-/
-/
 chunkSize
 .
 [
@@ -19802,6 +19849,8 @@ Step
 6
 :
 Perform
+/
+/
 !
 ReadableStreamDefaultControllerCallPullIfNeeded
 (
@@ -20104,6 +20153,7 @@ spec
 .
 7
 .
+*
 ReadableStreamDefaultControllerErrorIfNeeded
 (
 controller
@@ -20214,6 +20264,7 @@ spec
 .
 8
 .
+*
 ReadableStreamDefaultControllerGetDesiredSize
 (
 controller
@@ -20227,6 +20278,7 @@ spec
 .
 14
 .
+*
 ReadableByteStreamControllerGetDesiredSize
 (
 controller
@@ -20402,6 +20454,7 @@ spec
 10
 .
 3
+*
 new
 ReadableByteStreamController
 (
@@ -22274,9 +22327,9 @@ queue
 shifting
 all
 other
+/
+/
 elements
-/
-/
 downward
 (
 so
@@ -22285,6 +22338,8 @@ the
 second
 becomes
 the
+/
+/
 first
 and
 so
@@ -22365,6 +22420,8 @@ Construct
 %
 Uint8Array
 %
+/
+/
 entry
 .
 [
@@ -22381,6 +22438,8 @@ entry
 byteOffset
 ]
 ]
+/
+/
 entry
 .
 [
@@ -22706,6 +22765,8 @@ a
 Let
 buffer
 be
+/
+/
 Construct
 (
 %
@@ -22791,6 +22852,8 @@ c
 Let
 pullIntoDescriptor
 be
+/
+/
 Record
 {
 [
@@ -22911,6 +22974,8 @@ the
 last
 element
 of
+/
+/
 this
 .
 [
@@ -23247,6 +23312,8 @@ spec
 .
 3
 .
+/
+/
 ReadableByteStreamControllerCallPullIfNeeded
 (
 controller
@@ -23290,6 +23357,7 @@ spec
 .
 5
 .
+*
 ReadableByteStreamControllerClearPendingPullIntos
 (
 controller
@@ -23318,6 +23386,8 @@ Step
 1
 :
 Perform
+/
+/
 !
 ReadableByteStreamControllerInvalidateBYOBRequest
 (
@@ -23847,6 +23917,8 @@ spec
 .
 14
 .
+/
+/
 ReadableByteStreamControllerGetDesiredSize
 (
 controller
@@ -23874,6 +23946,7 @@ spec
 .
 15
 .
+*
 ReadableByteStreamControllerHandleQueueDrain
 (
 controller
@@ -23929,6 +24002,8 @@ controlledReadableStream
 state
 ]
 ]
+/
+/
 is
 "
 readable
@@ -24014,6 +24089,8 @@ Step
 a
 :
 Perform
+/
+/
 !
 ReadableStreamClose
 (
@@ -24080,6 +24157,7 @@ spec
 .
 16
 .
+*
 ReadableByteStreamControllerInvalidateBYOBRequest
 (
 controller
@@ -24181,6 +24259,8 @@ controller
 byobRequest
 ]
 ]
+/
+/
 .
 [
 [
@@ -24273,6 +24353,8 @@ spec
 .
 25
 .
+/
+/
 ReadableByteStreamControllerShouldCallPull
 (
 controller
@@ -25502,9 +25584,9 @@ size
 as
 the
 last
+/
+/
 element
-/
-/
 of
 container
 .
@@ -26506,6 +26588,8 @@ previously
 .
 6
 )
+/
+/
 ValidateAndNormalizeQueuingStrategy
 (
 size
@@ -26597,6 +26681,8 @@ Step
 Let
 highWaterMark
 be
+/
+/
 ?
 ValidateAndNormalizeHighWaterMark
 (
@@ -28566,6 +28652,8 @@ Construct
 Uint8Array
 %
 transferredBuffer
+/
+/
 byteOffset
 byteLength
 )
@@ -28722,7 +28810,11 @@ Perform
 ReadableStreamFulfillReadRequest
 (
 stream
+/
+/
 transferredView
+/
+/
 false
 )
 .
@@ -28804,20 +28896,14 @@ Step
 ii
 :
 Perform
-/
-/
 !
 ReadableByteStreamControllerEnqueueChunkToQueue
 (
+/
+/
 controller
-/
-/
 transferredBuffer
-/
-/
 byteOffset
-/
-/
 byteLength
 )
 .
