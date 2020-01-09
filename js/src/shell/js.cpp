@@ -29296,9 +29296,7 @@ result
 cx
 )
 ;
-if
-(
-!
+return
 JS_CallFunctionValue
 (
 cx
@@ -29308,14 +29306,6 @@ args
 &
 result
 )
-)
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 static
