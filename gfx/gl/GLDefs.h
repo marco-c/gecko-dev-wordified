@@ -131,6 +131,12 @@ glContext
 -
 /
 /
+clang
+-
+format
+off
+/
+/
 TODO
 :
 use
@@ -368,5 +374,11 @@ LOCAL_GL_CONTEXT_COMPATIBILITY_PROFILE_BIT_ARB
 define
 LOCAL_GL_CONTEXT_ROBUST_ACCESS_BIT_ARB
 0x00000004
+/
+/
+clang
+-
+format
+on
 #
 endif

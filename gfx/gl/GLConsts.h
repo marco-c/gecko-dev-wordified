@@ -63,6 +63,12 @@ GLCONSTS_H_
 define
 GLCONSTS_H_
 /
+/
+clang
+-
+format
+off
+/
 *
 *
 *
@@ -28121,6 +28127,12 @@ LOCAL_WGL_VIDEO_OUT_STACKED_FIELDS_1_2
 define
 LOCAL_WGL_VIDEO_OUT_STACKED_FIELDS_2_1
 0x20CC
+/
+/
+clang
+-
+format
+on
 #
 endif
 /

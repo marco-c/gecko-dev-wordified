@@ -3011,6 +3011,12 @@ mQuadVAO
 }
 else
 {
+/
+/
+clang
+-
+format
+off
 gl
 -
 >
@@ -3085,6 +3091,12 @@ LOCAL_GL_VERTEX_ATTRIB_ARRAY_POINTER
 vaa0Pointer
 )
 ;
+/
+/
+clang
+-
+format
+on
 gl
 -
 >
