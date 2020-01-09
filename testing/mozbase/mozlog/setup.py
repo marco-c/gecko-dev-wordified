@@ -198,20 +198,18 @@ Mozbase
 license
 =
 '
-MPL
-1
-.
-1
-/
-GPL
+Mozilla
+Public
+License
 2
 .
 0
-/
-LGPL
+(
+MPL
 2
 .
-1
+0
+)
 '
       
 packages
@@ -283,14 +281,14 @@ Approved
 Mozilla
 Public
 License
-1
+2
 .
-1
+0
 (
 MPL
-1
+2
 .
-1
+0
 )
 '
                    
