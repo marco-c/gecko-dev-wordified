@@ -758,15 +758,6 @@ DocGroup
 aDocGroup
 )
 ;
-bool
-GetAffectedSchedulerGroups
-(
-SchedulerGroupSet
-&
-aGroups
-)
-override
-;
 SchedulerGroup
 *
 Group
