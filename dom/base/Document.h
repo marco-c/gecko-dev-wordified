@@ -20667,6 +20667,13 @@ HasBeenUserGestureActivated
 (
 )
 ;
+BrowsingContext
+*
+GetBrowsingContext
+(
+)
+const
+;
 /
 /
 This
