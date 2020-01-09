@@ -91,6 +91,14 @@ MPL
 .
 *
 /
+/
+*
+global
+noSuchMethodExistsYo1
+noSuchMethodExistsYo2
+noSuchMethodExistsYo3
+*
+/
 "
 use
 strict

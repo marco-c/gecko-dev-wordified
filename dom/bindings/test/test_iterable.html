@@ -128,6 +128,14 @@ application
 javascript
 "
 >
+/
+*
+global
+TestInterfaceIterableSingle
+TestInterfaceIterableDouble
+TestInterfaceIterableDoubleUnion
+*
+/
 SimpleTest
 .
 waitForExplicitFinish
@@ -156,6 +164,7 @@ function
 (
 )
 {
+var
 base_properties
 =
 [
@@ -412,16 +421,6 @@ owner
 var
 itr
 ;
-/
-/
-Simple
-single
-type
-iterable
-creation
-and
-functionality
-test
 info
 (
 "
@@ -657,7 +656,7 @@ entries
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -671,7 +670,7 @@ i
 i
 )
 {
-var
+let
 key
 =
 key_itr
@@ -680,7 +679,7 @@ next
 (
 )
 ;
-var
+let
 value
 =
 value_itr
@@ -689,7 +688,7 @@ next
 (
 )
 ;
-var
+let
 entry
 =
 entries_itr
@@ -910,7 +909,7 @@ forEach
 (
 function
 (
-value
+value1
 index
 obj
 )
@@ -938,7 +937,7 @@ callback
 ;
 is
 (
-value
+value1
 values
 [
 index
@@ -1026,7 +1025,7 @@ callback
 "
 )
 ;
-var
+let
 key
 =
 key_itr
@@ -1035,7 +1034,7 @@ next
 (
 )
 ;
-var
+let
 value
 =
 value_itr
@@ -1044,7 +1043,7 @@ next
 (
 )
 ;
-var
+let
 entry
 =
 entries_itr
@@ -1292,7 +1291,6 @@ f
 ]
 ]
 ;
-var
 keys
 =
 [
@@ -1306,7 +1304,6 @@ keys
 )
 ]
 ;
-var
 values
 =
 [
@@ -1320,7 +1317,6 @@ values
 )
 ]
 ;
-var
 entries
 =
 [
@@ -1334,7 +1330,6 @@ entries
 )
 ]
 ;
-var
 key_itr
 =
 itr
@@ -1343,7 +1338,6 @@ keys
 (
 )
 ;
-var
 value_itr
 =
 itr
@@ -1352,7 +1346,6 @@ values
 (
 )
 ;
-var
 entries_itr
 =
 itr
@@ -1363,7 +1356,7 @@ entries
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -1377,7 +1370,6 @@ i
 i
 )
 {
-var
 key
 =
 key_itr
@@ -1386,7 +1378,6 @@ next
 (
 )
 ;
-var
 value
 =
 value_itr
@@ -1395,7 +1386,6 @@ next
 (
 )
 ;
-var
 entry
 =
 entries_itr
@@ -1658,14 +1648,14 @@ forEach
 (
 function
 (
-value
-key
+value1
+key1
 obj
 )
 {
 is
 (
-key
+key1
 keys
 [
 callsToForEachCallback
@@ -1689,7 +1679,7 @@ callback
 ;
 is
 (
-value
+value1
 values
 [
 callsToForEachCallback
@@ -1777,7 +1767,6 @@ callback
 "
 )
 ;
-var
 key
 =
 key_itr
@@ -1786,7 +1775,6 @@ next
 (
 )
 ;
-var
 value
 =
 value_itr
@@ -1795,7 +1783,6 @@ next
 (
 )
 ;
-var
 entry
 =
 entries_itr
@@ -2013,7 +2000,6 @@ entries
 "
 )
 ;
-var
 elements
 =
 [
@@ -2033,7 +2019,6 @@ a
 ]
 ]
 ;
-var
 keys
 =
 [
@@ -2047,7 +2032,6 @@ keys
 )
 ]
 ;
-var
 values
 =
 [
@@ -2061,7 +2045,6 @@ values
 )
 ]
 ;
-var
 entries
 =
 [
@@ -2075,7 +2058,6 @@ entries
 )
 ]
 ;
-var
 key_itr
 =
 itr
@@ -2084,7 +2066,6 @@ keys
 (
 )
 ;
-var
 value_itr
 =
 itr
@@ -2093,7 +2074,6 @@ values
 (
 )
 ;
-var
 entries_itr
 =
 itr
@@ -2104,7 +2084,7 @@ entries
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -2120,7 +2100,6 @@ length
 i
 )
 {
-var
 key
 =
 key_itr
@@ -2129,7 +2108,6 @@ next
 (
 )
 ;
-var
 value
 =
 value_itr
@@ -2138,7 +2116,6 @@ next
 (
 )
 ;
-var
 entry
 =
 entries_itr
@@ -2401,14 +2378,14 @@ forEach
 (
 function
 (
-value
-key
+value1
+key1
 obj
 )
 {
 is
 (
-key
+key1
 keys
 [
 callsToForEachCallback
@@ -2432,7 +2409,7 @@ callback
 ;
 is
 (
-value
+value1
 values
 [
 callsToForEachCallback
@@ -2520,7 +2497,6 @@ callback
 "
 )
 ;
-var
 key
 =
 key_itr
@@ -2529,7 +2505,6 @@ next
 (
 )
 ;
-var
 value
 =
 value_itr
@@ -2538,7 +2513,6 @@ next
 (
 )
 ;
-var
 entry
 =
 entries_itr
