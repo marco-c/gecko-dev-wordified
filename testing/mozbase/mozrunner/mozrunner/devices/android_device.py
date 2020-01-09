@@ -2395,9 +2395,9 @@ while
 sub
 =
 '
-geckoview
-:
-installWithGeckoBinariesDebugAndroidTest
+install
+-
+geckoview_example
 '
                         
 build_obj
@@ -2414,11 +2414,7 @@ android
                                                                   
 subcommand
 =
-'
-install
--
-geckoview_example
-'
+sub
                                                                   
 args
 =
