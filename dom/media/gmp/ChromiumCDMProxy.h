@@ -182,9 +182,6 @@ const
 nsAString
 &
 aKeySystem
-GMPCrashHelper
-*
-aCrashHelper
 bool
 aAllowDistinctiveIdentifier
 bool
@@ -197,6 +194,13 @@ aMainThread
 void
 Init
 (
+RefPtr
+<
+GMPCrashHelper
+>
+&
+&
+aCrashHelper
 PromiseId
 aPromiseId
 const
@@ -604,10 +608,6 @@ aPromiseId
 ChromiumCDMProxy
 (
 )
-;
-GMPCrashHelper
-*
-mCrashHelper
 ;
 Mutex
 mCDMMutex

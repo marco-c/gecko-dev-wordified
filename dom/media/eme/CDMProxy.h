@@ -613,6 +613,13 @@ virtual
 void
 Init
 (
+RefPtr
+<
+GMPCrashHelper
+>
+&
+&
+aCrashHelper
 PromiseId
 aPromiseId
 const
