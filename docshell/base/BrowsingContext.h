@@ -599,14 +599,6 @@ SupportsWeakPtr
 BrowsingContext
 >
 public
-LinkedListElement
-<
-RefPtr
-<
-BrowsingContext
->
->
-public
 BrowsingContextBase
 {
 public
