@@ -15114,7 +15114,7 @@ if
 classField
 -
 >
-hasInitializer
+initializer
 (
 )
 )
@@ -15129,7 +15129,8 @@ classField
 initializer
 (
 )
-.
+-
+>
 body
 (
 )
