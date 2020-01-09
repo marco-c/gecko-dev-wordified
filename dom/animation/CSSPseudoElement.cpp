@@ -176,7 +176,7 @@ dom
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 CSSPseudoElement
-mParentElement
+mOriginatingElement
 )
 NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
 (
@@ -193,6 +193,9 @@ CSSPseudoElement
 :
 CSSPseudoElement
 (
+dom
+:
+:
 Element
 *
 aElement
@@ -200,7 +203,7 @@ PseudoStyleType
 aType
 )
 :
-mParentElement
+mOriginatingElement
 (
 aElement
 )
@@ -266,10 +269,10 @@ check
 .
 if
 (
-mParentElement
+mOriginatingElement
 )
 {
-mParentElement
+mOriginatingElement
 -
 >
 DeleteProperty
@@ -292,7 +295,7 @@ GetParentObject
 const
 {
 return
-mParentElement
+mOriginatingElement
 -
 >
 GetParentObject
@@ -358,7 +361,7 @@ Document
 *
 doc
 =
-mParentElement
+mOriginatingElement
 -
 >
 GetComposedDoc
@@ -450,7 +453,7 @@ Element
 :
 GetAnimationsUnsorted
 (
-mParentElement
+mOriginatingElement
 mPseudoType
 aRetVal
 )
@@ -547,6 +550,9 @@ CSSPseudoElement
 :
 GetCSSPseudoElement
 (
+dom
+:
+:
 Element
 *
 aElement

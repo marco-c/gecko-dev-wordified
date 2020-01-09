@@ -22142,7 +22142,7 @@ GetAsCSSPseudoElement
 (
 )
 .
-ParentElement
+Element
 (
 )
 ;
