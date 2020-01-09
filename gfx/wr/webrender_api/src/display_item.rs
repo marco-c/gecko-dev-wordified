@@ -2625,6 +2625,7 @@ Clone
 Copy
 Debug
 Deserialize
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -4311,6 +4312,7 @@ derive
 Copy
 Clone
 Debug
+MallocSizeOf
 PartialEq
 Serialize
 Deserialize
