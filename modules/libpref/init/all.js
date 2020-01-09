@@ -2399,6 +2399,13 @@ hack
 use_legacy_keycode_and_charcode
 "
 "
+powerpoint
+.
+officeapps
+.
+live
+.
+com
 "
 )
 ;
