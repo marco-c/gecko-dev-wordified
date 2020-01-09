@@ -4131,6 +4131,14 @@ GCReason
 reason
 )
 ;
+size_t
+roundSize
+(
+size_t
+size
+)
+const
+;
 void
 growAllocableSpace
 (
