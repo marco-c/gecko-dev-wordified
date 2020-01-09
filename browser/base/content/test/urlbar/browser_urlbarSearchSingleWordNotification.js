@@ -174,6 +174,8 @@ notificationObserver
 observe
 (
 notificationBox
+.
+stack
 {
 childList
 :

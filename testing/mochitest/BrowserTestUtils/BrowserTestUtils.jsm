@@ -11032,6 +11032,8 @@ BrowserTestUtils
 waitForEvent
 (
 notificationBox
+.
+stack
 "
 AlertActive
 "

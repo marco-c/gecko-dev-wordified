@@ -367,6 +367,8 @@ observer
 observe
 (
 notificationBox
+.
+stack
 {
 childList
 :
@@ -599,7 +601,9 @@ preCount
 =
 notificationBox
 .
-childElementCount
+allNotifications
+.
+length
 ;
 const
 hb
@@ -695,7 +699,9 @@ equal
 (
 notificationBox
 .
-childElementCount
+allNotifications
+.
+length
 preCount
 +
 1
