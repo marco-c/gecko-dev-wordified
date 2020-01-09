@@ -2271,12 +2271,6 @@ GetSystemCSDSupportLevel
 ;
 static
 bool
-HideTitlebarByDefault
-(
-)
-;
-static
-bool
 TopLevelWindowUseARGBVisual
 (
 )

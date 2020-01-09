@@ -410,9 +410,6 @@ bool
 mCSDAvailable
 ;
 bool
-mCSDHideTitlebarByDefault
-;
-bool
 mCSDMaximizeButton
 ;
 bool
