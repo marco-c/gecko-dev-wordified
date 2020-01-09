@@ -199,9 +199,21 @@ self
 )
 :
         
+#
+Updates
+are
+only
+allowed
+when
+run
+via
+the
+UpdateTestCase
+class
+        
 self
 .
-assertTrue
+assertFalse
 (
 self
 .
