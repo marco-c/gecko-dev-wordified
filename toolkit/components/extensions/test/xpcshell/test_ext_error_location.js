@@ -316,7 +316,7 @@ equal
 frame
 .
 column
-7
+23
 "
 Frame
 column
