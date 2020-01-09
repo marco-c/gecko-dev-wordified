@@ -10973,13 +10973,12 @@ mTextOrientation
 /
 NS_STYLE_TEXT_ORIENTATION_MIXED_
 *
-uint8_t
+mozilla
+:
+:
+StyleColorAdjust
 mColorAdjust
 ;
-/
-/
-NS_STYLE_COLOR_ADJUST_ECONOMY_
-*
 bool
 IsVisible
 (
