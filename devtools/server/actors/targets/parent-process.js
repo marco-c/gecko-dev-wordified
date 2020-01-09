@@ -1052,6 +1052,7 @@ docShell
 )
 ;
 }
+return
 BrowsingContextTargetActor
 .
 prototype
@@ -1062,9 +1063,6 @@ call
 (
 this
 )
-;
-return
-undefined
 ;
 }
 ;
