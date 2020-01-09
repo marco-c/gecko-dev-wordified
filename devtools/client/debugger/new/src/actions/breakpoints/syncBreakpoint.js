@@ -201,6 +201,7 @@ makeScopedLocation
 {
 name
 offset
+index
 }
 :
 ASTLocation
@@ -218,6 +219,7 @@ findScopeByName
 (
 source
 name
+index
 )
 ;
 /
