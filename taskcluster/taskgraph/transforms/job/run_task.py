@@ -464,6 +464,8 @@ append
 '
 -
 -
+firefox
+-
 sparse
 -
 profile

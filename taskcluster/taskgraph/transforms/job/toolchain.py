@@ -1219,6 +1219,8 @@ sparse_profile
 '
 -
 -
+firefox
+-
 sparse
 -
 profile
