@@ -1249,7 +1249,11 @@ rust_target
 RustTarget
 :
 :
-Stable_1_0
+Stable_1_25
+)
+.
+disable_untagged_union
+(
 )
 ;
 let
