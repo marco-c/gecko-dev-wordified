@@ -22527,7 +22527,7 @@ properties
 .
 *
 *
-HasOverflowRects
+HasOverflowAreas
 (
 )
 (
@@ -22783,7 +22783,7 @@ properties
 .
 *
 *
-HasOverflowRects
+HasOverflowAreas
 (
 )
 (
