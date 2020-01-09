@@ -26380,17 +26380,6 @@ sig
 temporarilyUnsupportedAnyRef
 (
 )
-#
-ifdef
-WASM_CODEGEN_DEBUG
-|
-|
-!
-JitOptions
-.
-enableWasmIonFastCalls
-#
-endif
 )
 {
 return
