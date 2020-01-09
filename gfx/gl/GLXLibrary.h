@@ -209,6 +209,9 @@ namespace
 gl
 {
 class
+GLContextGLX
+;
+class
 GLXLibrary
 {
 public

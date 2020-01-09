@@ -258,6 +258,7 @@ aWebRender
 GLContextGLX
 (
 )
+override
 ;
 virtual
 GLContextType
