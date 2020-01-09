@@ -19,7 +19,7 @@ supported
 /
 /
 Copyright
-2018
+2019
 Mathias
 Bynens
 .
@@ -85,7 +85,7 @@ escapes
 -
 tests
 Unicode
-v11
+v12
 .
 0
 .
@@ -141,6 +141,7 @@ loneCodePoints
 0x001CE1
 0x001CEA
 0x001CED
+0x001CF2
 0x00A8F1
 ]
 ranges
@@ -415,6 +416,10 @@ ranges
 ]
 [
 0x001CEE
+0x001CF1
+]
+[
+0x001CF3
 0x001CF4
 ]
 [

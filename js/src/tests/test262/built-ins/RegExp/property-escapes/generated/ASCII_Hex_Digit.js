@@ -19,7 +19,7 @@ supported
 /
 /
 Copyright
-2018
+2019
 Mathias
 Bynens
 .
@@ -83,7 +83,7 @@ escapes
 -
 tests
 Unicode
-v11
+v12
 .
 0
 .

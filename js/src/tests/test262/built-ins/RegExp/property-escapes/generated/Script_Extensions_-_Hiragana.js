@@ -19,7 +19,7 @@ supported
 /
 /
 Copyright
-2018
+2019
 Mathias
 Bynens
 .
@@ -85,7 +85,7 @@ escapes
 -
 tests
 Unicode
-v11
+v12
 .
 0
 .
@@ -187,6 +187,10 @@ ranges
 [
 0x01B001
 0x01B11E
+]
+[
+0x01B150
+0x01B152
 ]
 ]
 }
@@ -373,6 +377,10 @@ ranges
 ]
 [
 0x01B11F
+0x01B14F
+]
+[
+0x01B153
 0x01F1FF
 ]
 [

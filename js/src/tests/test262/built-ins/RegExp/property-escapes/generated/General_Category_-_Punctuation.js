@@ -19,7 +19,7 @@ supported
 /
 /
 Copyright
-2018
+2019
 Mathias
 Bynens
 .
@@ -85,7 +85,7 @@ escapes
 -
 tests
 Unicode
-v11
+v12
 .
 0
 .
@@ -154,6 +154,7 @@ loneCodePoints
 0x0009FD
 0x000A76
 0x000AF0
+0x000C77
 0x000C84
 0x000DF4
 0x000E4F
@@ -161,6 +162,7 @@ loneCodePoints
 0x000F85
 0x0010FB
 0x001400
+0x00166E
 0x001CD3
 0x002D70
 0x003030
@@ -191,8 +193,11 @@ loneCodePoints
 0x01145D
 0x0114C6
 0x01183B
+0x0119E2
+0x011FFF
 0x016AF5
 0x016B44
+0x016FE2
 0x01BC9F
 ]
 ranges
@@ -297,10 +302,6 @@ ranges
 [
 0x001360
 0x001368
-]
-[
-0x00166D
-0x00166E
 ]
 [
 0x00169B
@@ -432,7 +433,7 @@ ranges
 ]
 [
 0x002E30
-0x002E4E
+0x002E4F
 ]
 [
 0x003001
@@ -1078,6 +1079,10 @@ ranges
 ]
 [
 0x000AF1
+0x000C76
+]
+[
+0x000C78
 0x000C83
 ]
 [
@@ -1130,7 +1135,7 @@ ranges
 ]
 [
 0x001401
-0x00166C
+0x00166D
 ]
 [
 0x00166F
@@ -1249,7 +1254,7 @@ ranges
 0x002DFF
 ]
 [
-0x002E4F
+0x002E50
 0x003000
 ]
 [
@@ -1502,6 +1507,10 @@ ranges
 ]
 [
 0x01183C
+0x0119E1
+]
+[
+0x0119E3
 0x011A3E
 ]
 [
@@ -1522,6 +1531,10 @@ ranges
 ]
 [
 0x011EF9
+0x011FFE
+]
+[
+0x012000
 0x01246F
 ]
 [
@@ -1546,6 +1559,10 @@ ranges
 ]
 [
 0x016E9B
+0x016FE1
+]
+[
+0x016FE3
 0x01BC9E
 ]
 [
