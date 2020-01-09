@@ -193,13 +193,6 @@ nsServiceManagerUtils
 .
 h
 "
-#
-include
-"
-nsIXULRuntime
-.
-h
-"
 /
 /
 This
@@ -246,6 +239,10 @@ contention
 define
 DEFAULT_ALLOCATE_DELAY
 1000
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
