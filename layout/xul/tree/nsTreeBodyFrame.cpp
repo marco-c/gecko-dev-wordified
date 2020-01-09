@@ -19585,6 +19585,7 @@ mBorderLeftColor
 .
 CalcColor
 (
+*
 lineContext
 )
 ;
