@@ -397,6 +397,17 @@ pattern
 :
 /
 angular
+(
+?
+!
+.
+*
+\
+/
+app
+\
+/
+)
 /
 i
 contextPattern
