@@ -514,9 +514,7 @@ for
 this
 quote
 .
-const
 nsString
-*
 Text
 (
 )
