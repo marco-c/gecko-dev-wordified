@@ -798,6 +798,9 @@ COMPOSING
 COMMIT
 :
 3
+CANCELED
+:
+4
 }
 /
 /
