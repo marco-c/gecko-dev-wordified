@@ -5064,7 +5064,7 @@ lastOffset
 =
 partition
 ;
-assert
+MOZ_ASSERT
 (
 lastOffset
 <
@@ -5304,7 +5304,7 @@ of
 the
 data
 .
-assert
+MOZ_ASSERT
 (
 (
 (
