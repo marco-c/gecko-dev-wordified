@@ -321,10 +321,9 @@ foo
 "
 )
 ;
-jsterm
-.
 setInputValue
 (
+hud
 "
 window
 .
@@ -424,10 +423,9 @@ VK_ESCAPE
 ;
 is
 (
-jsterm
-.
 getInputValue
 (
+hud
 )
 "
 window

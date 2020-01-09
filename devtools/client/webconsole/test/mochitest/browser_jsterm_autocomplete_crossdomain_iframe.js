@@ -256,10 +256,9 @@ updated
 "
 )
 ;
-jsterm
-.
 setInputValue
 (
+hud
 "
 window
 [
@@ -282,12 +281,9 @@ sendString
 await
 autocompleteUpdated
 ;
-hud
-.
-jsterm
-.
 setInputValue
 (
+hud
 "
 window
 [

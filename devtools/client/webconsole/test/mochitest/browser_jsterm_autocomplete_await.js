@@ -251,10 +251,9 @@ KEY_Tab
 ;
 is
 (
-jsterm
-.
 getInputValue
 (
+hud
 )
 "
 await

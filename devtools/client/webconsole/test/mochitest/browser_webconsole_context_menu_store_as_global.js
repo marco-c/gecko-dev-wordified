@@ -828,12 +828,9 @@ hud
 ;
 is
 (
-hud
-.
-jsterm
-.
 getInputValue
 (
+hud
 )
 "
 temp
