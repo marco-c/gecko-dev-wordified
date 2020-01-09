@@ -892,11 +892,13 @@ _ini
 [
 DEFAULT
 ]
-general
+network
 .
-warnOnAboutConfig
+dns
+.
+disableIPv6
 =
-False
+True
 "
 "
 "
@@ -964,13 +966,15 @@ _prefs
 =
 {
 '
-general
+network
 .
-warnOnAboutConfig
+dns
+.
+disableIPv6
 '
 :
 '
-False
+True
 '
 }
         

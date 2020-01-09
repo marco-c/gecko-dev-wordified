@@ -8242,6 +8242,16 @@ prefs
 '
 browser
 .
+aboutConfig
+.
+showWarning
+'
+:
+False
+                   
+'
+browser
+.
 shell
 .
 checkDefaultBrowser
