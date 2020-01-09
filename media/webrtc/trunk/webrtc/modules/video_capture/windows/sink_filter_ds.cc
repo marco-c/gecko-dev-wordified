@@ -2337,10 +2337,10 @@ pIMediaSample
 ;
 if
 (
-SUCCEEDED
-(
 hr
-)
+=
+=
+S_OK
 )
 {
 const
