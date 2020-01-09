@@ -853,7 +853,7 @@ main
 (
 )
 {
-prinf
+printf
 (
 "
 PASS
