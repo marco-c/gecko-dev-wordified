@@ -3054,7 +3054,7 @@ imageSize
 currentFrame
 -
 >
-GetImageSize
+GetSize
 (
 )
 ;

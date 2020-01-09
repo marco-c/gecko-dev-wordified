@@ -2332,9 +2332,6 @@ AllocateFrame
 OutputSize
 (
 )
-FullOutputFrame
-(
-)
 SurfaceFormat
 :
 :

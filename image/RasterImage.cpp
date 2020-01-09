@@ -8172,14 +8172,6 @@ if
 animated
 )
 {
-decoderFlags
-|
-=
-DecoderFlags
-:
-:
-BLEND_ANIMATION
-;
 size_t
 currentFrame
 =
@@ -9048,7 +9040,7 @@ finalSize
 aSurface
 -
 >
-GetImageSize
+GetSize
 (
 )
 ;

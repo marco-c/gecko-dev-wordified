@@ -2578,10 +2578,9 @@ decoder
 DecoderFlags
 decoderFlags
 =
-DecoderFlags
-:
-:
-BLEND_ANIMATION
+DefaultDecoderFlags
+(
+)
 ;
 SurfaceFlags
 surfaceFlags
