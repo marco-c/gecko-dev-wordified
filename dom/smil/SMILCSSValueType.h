@@ -138,7 +138,7 @@ NS_SMILCSSVALUETYPE_H_
 #
 include
 "
-nsISMILType
+SMILType
 .
 h
 "
@@ -204,7 +204,7 @@ class
 SMILCSSValueType
 :
 public
-nsISMILType
+SMILType
 {
 public
 :
@@ -243,7 +243,7 @@ protected
 :
 /
 /
-nsISMILType
+SMILType
 Methods
 /
 /

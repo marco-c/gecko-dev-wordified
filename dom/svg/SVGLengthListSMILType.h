@@ -132,7 +132,7 @@ h
 #
 include
 "
-nsISMILType
+SMILType
 .
 h
 "
@@ -233,7 +233,7 @@ class
 SVGLengthListSMILType
 :
 public
-nsISMILType
+SMILType
 {
 public
 :
@@ -255,7 +255,7 @@ protected
 :
 /
 /
-nsISMILType
+SMILType
 Methods
 /
 /

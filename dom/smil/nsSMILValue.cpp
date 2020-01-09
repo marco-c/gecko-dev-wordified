@@ -217,7 +217,7 @@ nsSMILValue
 nsSMILValue
 (
 const
-nsISMILType
+SMILType
 *
 aType
 )
@@ -950,7 +950,7 @@ methods
 /
 Wrappers
 for
-nsISMILType
+SMILType
 :
 :
 Init
@@ -969,7 +969,7 @@ nsSMILValue
 InitAndCheckPostcondition
 (
 const
-nsISMILType
+SMILType
 *
 aNewType
 )
@@ -1052,7 +1052,7 @@ nsSMILValue
 DestroyAndReinit
 (
 const
-nsISMILType
+SMILType
 *
 aNewType
 )

@@ -132,7 +132,7 @@ h
 #
 include
 "
-nsISMILType
+SMILType
 .
 h
 "
@@ -864,7 +864,7 @@ class
 SVGTransformListSMILType
 :
 public
-nsISMILType
+SMILType
 {
 public
 :
@@ -898,7 +898,7 @@ protected
 :
 /
 /
-nsISMILType
+SMILType
 Methods
 /
 /

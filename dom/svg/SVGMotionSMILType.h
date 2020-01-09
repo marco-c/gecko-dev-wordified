@@ -118,7 +118,7 @@ MPL
 *
 implementation
 of
-nsISMILType
+SMILType
 for
 use
 by
@@ -157,7 +157,7 @@ h
 #
 include
 "
-nsISMILType
+SMILType
 .
 h
 "
@@ -243,7 +243,7 @@ SVGMotionSMILType
 :
 Implements
 the
-nsISMILType
+SMILType
 interface
 for
 SMIL
@@ -288,7 +288,7 @@ class
 SVGMotionSMILType
 :
 public
-nsISMILType
+SMILType
 {
 typedef
 mozilla
@@ -320,7 +320,7 @@ protected
 :
 /
 /
-nsISMILType
+SMILType
 Methods
 /
 /

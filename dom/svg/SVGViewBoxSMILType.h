@@ -132,7 +132,7 @@ h
 #
 include
 "
-nsISMILType
+SMILType
 .
 h
 "
@@ -146,7 +146,7 @@ class
 SVGViewBoxSMILType
 :
 public
-nsISMILType
+SMILType
 {
 public
 :
@@ -168,7 +168,7 @@ protected
 :
 /
 /
-nsISMILType
+SMILType
 Methods
 /
 /

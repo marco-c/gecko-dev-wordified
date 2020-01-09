@@ -132,7 +132,7 @@ h
 #
 include
 "
-nsISMILType
+SMILType
 .
 h
 "
@@ -143,7 +143,7 @@ class
 SMILEnumType
 :
 public
-nsISMILType
+SMILType
 {
 public
 :
@@ -177,7 +177,7 @@ protected
 :
 /
 /
-nsISMILType
+SMILType
 Methods
 /
 /

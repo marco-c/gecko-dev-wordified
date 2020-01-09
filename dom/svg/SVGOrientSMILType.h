@@ -132,7 +132,7 @@ h
 #
 include
 "
-nsISMILType
+SMILType
 .
 h
 "
@@ -144,7 +144,7 @@ nsSMILValue
 *
 *
 This
-nsISMILType
+SMILType
 class
 is
 a
@@ -317,7 +317,7 @@ class
 SVGOrientSMILType
 :
 public
-nsISMILType
+SMILType
 {
 public
 :
@@ -339,7 +339,7 @@ protected
 :
 /
 /
-nsISMILType
+SMILType
 Methods
 /
 /

@@ -139,6 +139,9 @@ h
 class
 nsSMILValue
 ;
+namespace
+mozilla
+{
 /
 /
 /
@@ -219,7 +222,7 @@ nsSMILValue
 /
 /
 /
-nsISMILType
+SMILType
 :
 Interface
 for
@@ -763,7 +766,7 @@ X
 /
 /
 class
-nsISMILType
+SMILType
 {
 /
 *
@@ -783,6 +786,8 @@ interface
 /
 friend
 class
+:
+:
 nsSMILValue
 ;
 protected
@@ -1003,7 +1008,7 @@ objects
 (
 of
 this
-nsISMILType
+SMILType
 )
 for
 equality
@@ -1913,6 +1918,11 @@ const
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /
