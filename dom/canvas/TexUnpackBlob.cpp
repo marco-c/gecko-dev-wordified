@@ -379,7 +379,7 @@ pi
 webgl
 -
 >
-ErrorInvalidOperation
+ErrorInvalidValue
 (
 "
 Format
