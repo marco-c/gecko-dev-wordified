@@ -1001,15 +1001,6 @@ array
 string
 "
 )
-editAuthored
-:
-Arg
-(
-2
-"
-boolean
-"
-)
 }
 response
 :
