@@ -22739,13 +22739,10 @@ GetDefaultGeneric
 currentLang
 )
 ;
-nsTArray
-<
-RefPtr
-<
-gfxFontFamily
->
->
+gfxPlatformFontList
+:
+:
+PrefFontList
 *
 families
 =
