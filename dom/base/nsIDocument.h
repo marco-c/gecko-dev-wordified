@@ -520,6 +520,17 @@ mozilla
 /
 dom
 /
+BrowsingContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ContentBlockingLog
 .
 h

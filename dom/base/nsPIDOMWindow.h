@@ -3088,7 +3088,7 @@ dom
 :
 Location
 *
-GetLocation
+Location
 (
 )
 =
