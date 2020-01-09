@@ -4625,6 +4625,7 @@ self
 .
 free
 (
+&
 entry
 )
 ;
@@ -7446,6 +7447,7 @@ self
 .
 free
 (
+&
 entry
 )
 ;
@@ -7602,6 +7604,7 @@ mut
 self
 entry
 :
+&
 CacheEntry
 )
 {
@@ -9196,6 +9199,7 @@ self
 .
 free
 (
+&
 old_entry
 )
 ;
