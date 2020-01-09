@@ -549,7 +549,6 @@ newSource
 )
 )
 {
-await
 parser
 .
 setSource
