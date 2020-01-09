@@ -413,10 +413,17 @@ event
 toggleFrames
 =
 (
+event
 )
 =
 >
 {
+event
+.
+stopPropagation
+(
+)
+;
 this
 .
 setState
