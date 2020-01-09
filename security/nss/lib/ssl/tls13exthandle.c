@@ -6126,6 +6126,7 @@ outBuf
 1024
 ]
 ;
+unsigned
 int
 outLen
 ;
@@ -6910,6 +6911,7 @@ plainText
 =
 NULL
 ;
+unsigned
 int
 ptLen
 ;

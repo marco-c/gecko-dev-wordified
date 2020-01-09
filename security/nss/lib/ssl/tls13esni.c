@@ -3758,6 +3758,7 @@ const
 sslSocket
 *
 ss
+const
 PRUint8
 *
 in
@@ -3767,9 +3768,11 @@ inLen
 PRUint8
 *
 out
+unsigned
 int
 *
 outLen
+unsigned
 int
 maxLen
 )
