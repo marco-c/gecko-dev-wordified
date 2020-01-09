@@ -390,10 +390,12 @@ SetImage
 *
 v
 *
-___________________
+____________________
 *
 |
-StreamListener
+Stream
+/
+TrackListener
 |
 *
 -
@@ -456,7 +458,6 @@ access
 -
 -
 -
--
 *
 =
 =
@@ -473,7 +474,7 @@ Guarded
 |
 *
 |
-___________________
+____________________
 |
 *
 ^
@@ -739,6 +740,9 @@ OutputStreamDriver
 class
 StreamListener
 ;
+class
+TrackListener
+;
 private
 :
 RefPtr
@@ -752,6 +756,12 @@ RefPtr
 StreamListener
 >
 mStreamListener
+;
+RefPtr
+<
+TrackListener
+>
+mTrackListener
 ;
 }
 ;
