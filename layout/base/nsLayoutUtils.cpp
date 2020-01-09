@@ -41702,6 +41702,15 @@ LayoutFrameType
 :
 :
 FieldSet
+|
+|
+fType
+=
+=
+LayoutFrameType
+:
+:
+ColumnSet
 )
 {
 LinePosition
@@ -41724,6 +41733,10 @@ FirstChild
 ;
 /
 /
+If
+aFrame
+is
+fieldset
 kid
 might
 be
