@@ -201,6 +201,13 @@ for
 application
 .
 *
+/
+class
+TextProperty
+{
+/
+*
+*
 *
 param
 {
@@ -362,8 +369,7 @@ parseDeclarations
 .
 *
 /
-function
-TextProperty
+constructor
 (
 rule
 name
@@ -470,11 +476,6 @@ updateComputed
 )
 ;
 }
-TextProperty
-.
-prototype
-=
-{
 get
 computedProperties
 (
@@ -604,8 +605,6 @@ any
 *
 /
 updateEditor
-:
-function
 (
 )
 {
@@ -644,8 +643,6 @@ property
 *
 /
 updateComputed
-:
-function
 (
 )
 {
@@ -891,8 +888,6 @@ instance
 *
 /
 set
-:
-function
 (
 prop
 )
@@ -968,8 +963,6 @@ updateEditor
 }
 }
 setValue
-:
-function
 (
 value
 priority
@@ -1097,8 +1090,6 @@ value
 *
 /
 updateValue
-:
-function
 (
 value
 )
@@ -1128,10 +1119,8 @@ updateEditor
 ;
 }
 }
-setName
-:
 async
-function
+setName
 (
 name
 )
@@ -1204,8 +1193,6 @@ updateEditor
 ;
 }
 setEnabled
-:
-function
 (
 value
 )
@@ -1228,8 +1215,6 @@ updateEditor
 ;
 }
 remove
-:
-function
 (
 )
 {
@@ -1259,8 +1244,6 @@ property
 *
 /
 stringifyProperty
-:
-function
 (
 )
 {
@@ -1378,8 +1361,6 @@ otherwise
 *
 /
 isValid
-:
-function
 (
 )
 {
@@ -1512,8 +1493,6 @@ otherwise
 *
 /
 isNameValid
-:
-function
 (
 )
 {
@@ -1687,7 +1666,6 @@ true
 ;
 }
 }
-;
 module
 .
 exports
