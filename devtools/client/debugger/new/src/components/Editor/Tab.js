@@ -172,6 +172,7 @@ getFileURL
 getRawSourceURL
 getSourceQueryString
 getTruncatedFileName
+isJavaScript
 isPretty
 shouldBlackbox
 }
@@ -831,7 +832,14 @@ disabled
 :
 isPretty
 (
-sourceTab
+source
+)
+|
+|
+!
+isJavaScript
+(
+source
 )
 }
 }
