@@ -1076,7 +1076,7 @@ scalars
 (
 via
 |
-getSnapshotForScalars
+snapshotScalars
 |
 )
 and
@@ -1092,11 +1092,13 @@ Services
 .
 telemetry
 .
-getSnapshotForScalars
+snapshotScalars
 (
-"
-main
-"
+Ci
+.
+nsITelemetry
+.
+DATASET_RELEASE_CHANNEL_OPTIN
 true
 /
 *

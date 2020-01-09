@@ -279,11 +279,13 @@ Services
 .
 telemetry
 .
-getSnapshotForScalars
+snapshotScalars
 (
-"
-main
-"
+Ci
+.
+nsITelemetry
+.
+DATASET_RELEASE_CHANNEL_OPTOUT
 false
 )
 .
