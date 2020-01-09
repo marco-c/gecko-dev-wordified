@@ -617,6 +617,8 @@ scope
 )
 )
 ;
+MOZ_RELEASE_ASSERT
+(
 data
 .
 Append
@@ -624,6 +626,12 @@ Append
 aOther
 .
 data
+)
+"
+out
+of
+memory
+"
 )
 ;
 return
