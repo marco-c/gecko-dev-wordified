@@ -272,6 +272,9 @@ class
 MediaDataDecoder
 ;
 class
+RemoteDecoderModule
+;
+class
 TaskQueue
 ;
 class
@@ -1274,6 +1277,10 @@ GpuDecoderModule
 friend
 class
 EMEDecoderModule
+;
+friend
+class
+RemoteDecoderModule
 ;
 /
 /
