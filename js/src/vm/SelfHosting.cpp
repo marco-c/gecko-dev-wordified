@@ -4265,6 +4265,8 @@ _DefineProperty
 object
 propertyKey
 attributes
+/
+/
 valueOrGetter
 setter
 strict

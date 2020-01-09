@@ -387,10 +387,10 @@ it
 must
 also
 be
+/
+/
 synced
 .
-/
-/
 In
 other
 words
@@ -403,12 +403,12 @@ Stack
 can
 only
 appear
+/
+/
 on
 top
 of
 the
-/
-/
 abstract
 stack
 .

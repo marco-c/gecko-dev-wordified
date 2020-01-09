@@ -1109,8 +1109,8 @@ to
 work
 on
 the
-tenured
 *
+tenured
 heap
 .
 *

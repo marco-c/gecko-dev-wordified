@@ -4273,9 +4273,9 @@ objects
 of
 the
 same
+*
 JSClass
 .
-*
 Some
 classes
 may
@@ -4284,10 +4284,10 @@ support
 transplantation
 ;
 WindowProxy
+*
 objects
 and
 DOM
-*
 nodes
 are
 OK

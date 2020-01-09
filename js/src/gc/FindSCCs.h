@@ -342,6 +342,7 @@ public
 ComponentFinder
 <
 MyGraphNode
+*
 MyComponentFinder
 >
 *

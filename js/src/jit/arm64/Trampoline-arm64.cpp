@@ -246,6 +246,7 @@ argc
 Value
 *
 argv
+*
 JSObject
 *
 scopeChain

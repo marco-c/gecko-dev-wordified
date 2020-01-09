@@ -4075,8 +4075,8 @@ may
 grow
 .
 They
-are
 *
+are
 otherwise
 constant
 .

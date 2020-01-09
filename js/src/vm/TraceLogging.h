@@ -366,10 +366,10 @@ that
 needs
 to
 get
+*
 logged
 .
 This
-*
 step
 takes
 some
@@ -381,9 +381,9 @@ do
 this
 beforehand
 outside
+*
 the
 hot
-*
 path
 and
 don

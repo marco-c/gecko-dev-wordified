@@ -874,8 +874,8 @@ for
 every
 string
 string
-characters
 *
+characters
 are
 stored
 as
@@ -887,8 +887,8 @@ if
 all
 characters
 are
-representable
 *
+representable
 in
 Latin1
 .

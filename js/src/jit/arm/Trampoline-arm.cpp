@@ -667,8 +667,8 @@ argv
 InterpreterFrame
 *
 fp
-CalleeToken
 *
+CalleeToken
 calleeToken
 JSObject
 *

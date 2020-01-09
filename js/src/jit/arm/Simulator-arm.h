@@ -1010,6 +1010,8 @@ starting
 then
 disassemble
 n
+/
+/
 instructions
 .
 /

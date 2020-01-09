@@ -423,6 +423,7 @@ just
 right
 after
 this
+*
 entry
 .
 *

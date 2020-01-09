@@ -3618,10 +3618,10 @@ saves
 the
 FramePointer
 is
+/
+/
 relied
 upon
-/
-/
 by
 the
 baseline
@@ -3633,11 +3633,11 @@ this
 changes
 fix
 that
+/
+/
 code
 !
 See
-/
-/
 BaselineJIT
 .
 cpp
@@ -3646,9 +3646,9 @@ BaselineStackBuilder
 :
 :
 calculatePrevFramePtr
+/
+/
 and
-/
-/
 BaselineJIT
 .
 cpp
@@ -3658,6 +3658,8 @@ InitFromBailout
 Check
 for
 the
+/
+/
 |
 #
 if
