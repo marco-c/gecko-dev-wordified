@@ -121,6 +121,17 @@ openAboutDebugging
 (
 )
 ;
+await
+selectThisFirefoxPage
+(
+document
+window
+.
+AboutDebugging
+.
+store
+)
+;
 const
 {
 devtoolsTab

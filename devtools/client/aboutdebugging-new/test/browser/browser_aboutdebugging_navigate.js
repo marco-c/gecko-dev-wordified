@@ -172,6 +172,15 @@ window
 .
 AboutDebugging
 ;
+await
+selectThisFirefoxPage
+(
+document
+AboutDebugging
+.
+store
+)
+;
 const
 connectSidebarItem
 =
@@ -517,7 +526,9 @@ requestsSuccess
 =
 waitForRequestsSuccess
 (
-window
+AboutDebugging
+.
+store
 )
 ;
 thisFirefoxLink

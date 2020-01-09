@@ -307,6 +307,7 @@ const
 {
 document
 tab
+window
 }
 =
 await
@@ -317,6 +318,17 @@ enableWorkerUpdates
 :
 true
 }
+)
+;
+await
+selectThisFirefoxPage
+(
+document
+window
+.
+AboutDebugging
+.
+store
 )
 ;
 /
