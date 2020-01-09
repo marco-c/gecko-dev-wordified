@@ -52400,7 +52400,7 @@ is
 .
 nsCOMPtr
 <
-nsIDOMXULSelectControlItemElement
+Element
 >
 item
 ;
@@ -52790,13 +52790,12 @@ if
 (
 item
 )
+{
 focusedContent
 =
-do_QueryInterface
-(
 item
-)
 ;
+}
 #
 endif
 nsIFrame
