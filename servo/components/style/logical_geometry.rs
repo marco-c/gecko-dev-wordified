@@ -1261,10 +1261,12 @@ Top
 )
 =
 >
+{
 PhysicalCorner
 :
 :
 TopLeft
+}
 (
 PhysicalSide
 :
@@ -1288,10 +1290,12 @@ Top
 )
 =
 >
+{
 PhysicalCorner
 :
 :
 TopRight
+}
 (
 PhysicalSide
 :
