@@ -7353,6 +7353,14 @@ CanonicalBrowsingContext
 (
 )
 ;
+browsingContext
+-
+>
+SetEmbedderElement
+(
+aFrameElement
+)
+;
 /
 /
 Ensure
