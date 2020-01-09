@@ -2433,6 +2433,9 @@ texture_cache_textures
 uintptr_t
 depth_target_textures
 ;
+uintptr_t
+total_gpu_bytes_allocated
+;
 bool
 operator
 =
@@ -2556,6 +2559,14 @@ depth_target_textures
 aOther
 .
 depth_target_textures
+&
+&
+total_gpu_bytes_allocated
+=
+=
+aOther
+.
+total_gpu_bytes_allocated
 ;
 }
 }
