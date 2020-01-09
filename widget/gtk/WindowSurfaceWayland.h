@@ -154,6 +154,7 @@ nsISupports
 NS_DECL_THREADSAFE_ISUPPORTS
 public
 :
+explicit
 nsWaylandDisplay
 (
 wl_display
@@ -579,6 +580,7 @@ WindowSurface
 {
 public
 :
+explicit
 WindowSurfaceWayland
 (
 nsWindow
