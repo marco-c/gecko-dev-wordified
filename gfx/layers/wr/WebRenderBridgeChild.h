@@ -379,6 +379,10 @@ wr
 IpcResourceUpdateQueue
 &
 aResources
+bool
+aScheduleComposite
+=
+false
 )
 ;
 void
@@ -450,6 +454,15 @@ const
 ScrollUpdatesMap
 &
 aUpdates
+Maybe
+<
+wr
+:
+:
+IpcResourceUpdateQueue
+>
+&
+aResources
 uint32_t
 aPaintSequenceNumber
 TransactionId
