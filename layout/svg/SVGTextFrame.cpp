@@ -23598,6 +23598,8 @@ mRect
 .
 Inflate
 (
+ceil
+(
 presContext
 -
 >
@@ -23606,6 +23608,7 @@ AppUnitsPerDevPixel
 )
 /
 mLastContextScale
+)
 )
 ;
 }
