@@ -186,10 +186,10 @@ one
 queue
 for
 each
-EventPriority
+/
+/
+EventQueuePriority
 .
-/
-/
 The
 type
 of
@@ -201,10 +201,10 @@ priority
 is
 determined
 by
+/
+/
 the
 template
-/
-/
 parameter
 .
 /
@@ -427,7 +427,7 @@ nsIRunnable
 &
 &
 aEvent
-EventPriority
+EventQueuePriority
 aPriority
 const
 MutexAutoLock
@@ -442,7 +442,7 @@ nsIRunnable
 >
 GetEvent
 (
-EventPriority
+EventQueuePriority
 *
 aPriority
 const
@@ -749,7 +749,7 @@ n
 }
 private
 :
-EventPriority
+EventQueuePriority
 SelectQueue
 (
 bool

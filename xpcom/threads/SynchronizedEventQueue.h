@@ -327,7 +327,7 @@ nsIRunnable
 &
 &
 aEvent
-EventPriority
+EventQueuePriority
 aPriority
 )
 =
@@ -424,7 +424,7 @@ GetEvent
 (
 bool
 aMayWait
-EventPriority
+EventQueuePriority
 *
 aPriority
 )

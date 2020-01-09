@@ -839,7 +839,7 @@ do_AddRef
 (
 wrapper
 )
-EventPriority
+EventQueuePriority
 :
 :
 Normal
@@ -985,7 +985,7 @@ event
 take
 (
 )
-EventPriority
+EventQueuePriority
 :
 :
 Normal

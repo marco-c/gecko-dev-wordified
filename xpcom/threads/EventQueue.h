@@ -175,7 +175,7 @@ EventQueue
 explicit
 EventQueue
 (
-EventPriority
+EventQueuePriority
 aPriority
 )
 ;
@@ -189,7 +189,7 @@ nsIRunnable
 &
 &
 aEvent
-EventPriority
+EventQueuePriority
 aPriority
 const
 MutexAutoLock
@@ -204,7 +204,7 @@ nsIRunnable
 >
 GetEvent
 (
-EventPriority
+EventQueuePriority
 *
 aPriority
 const
