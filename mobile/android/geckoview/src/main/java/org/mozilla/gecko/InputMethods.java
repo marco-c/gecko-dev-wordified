@@ -684,7 +684,7 @@ inputMethod
 public
 static
 boolean
-needsRemoveAutocompleteHack
+needsRestartOnReplaceRemove
 (
 Context
 context
