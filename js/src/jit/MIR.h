@@ -68894,6 +68894,10 @@ MUnaryInstruction
 classOpcode
 valueAddr
 )
+aliasSet_
+(
+aliasSet
+)
 {
 MOZ_ASSERT
 (
