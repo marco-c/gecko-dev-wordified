@@ -782,6 +782,7 @@ false
 }
 for
 (
+let
 i
 in
 x
