@@ -4845,11 +4845,8 @@ isAtomsZone
 )
 )
 ;
-DebugOnly
-<
 Zone
 *
->
 valueZone
 =
 GetCellZone
