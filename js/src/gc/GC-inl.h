@@ -1078,13 +1078,13 @@ typename
 T
 >
 class
-ZoneCellIter
+ZoneAllCellIter
 ;
 template
 <
 >
 class
-ZoneCellIter
+ZoneAllCellIter
 <
 TenuredCell
 >
@@ -1126,7 +1126,7 @@ init
 (
 )
 .
-ZoneCellIter
+ZoneAllCellIter
 (
 )
 {
@@ -1255,7 +1255,7 @@ can
 occur
 while
 a
-ZoneCellIter
+ZoneAllCellIter
 is
 live
 .
@@ -1386,7 +1386,7 @@ settle
 }
 public
 :
-ZoneCellIter
+ZoneAllCellIter
 (
 JS
 :
@@ -1455,7 +1455,7 @@ kind
 )
 ;
 }
-ZoneCellIter
+ZoneAllCellIter
 (
 JS
 :
@@ -1811,7 +1811,7 @@ Its
 actual
 type
 is
-ZoneCellIter
+ZoneAllCellIter
 <
 JSScript
 >
@@ -1838,7 +1838,7 @@ in
 the
 JSScript
 case
-ZoneCellIter
+ZoneAllCellIter
 is
 able
 to
@@ -2113,7 +2113,7 @@ GCs
 Use
 /
 /
-SafeZoneCellIter
+ZoneCellIter
 below
 to
 filter
@@ -2136,10 +2136,10 @@ typename
 GCType
 >
 class
-ZoneCellIter
+ZoneAllCellIter
 :
 public
-ZoneCellIter
+ZoneAllCellIter
 <
 TenuredCell
 >
@@ -2270,7 +2270,7 @@ iterating
 .
 )
 explicit
-ZoneCellIter
+ZoneAllCellIter
 (
 JS
 :
@@ -2280,7 +2280,7 @@ Zone
 zone
 )
 :
-ZoneCellIter
+ZoneAllCellIter
 <
 TenuredCell
 >
@@ -2320,7 +2320,7 @@ as
 /
 above
 .
-ZoneCellIter
+ZoneAllCellIter
 (
 JS
 :
@@ -2339,7 +2339,7 @@ AutoAssertEmptyNursery
 &
 )
 :
-ZoneCellIter
+ZoneAllCellIter
 (
 zone
 )
@@ -2371,7 +2371,7 @@ before
 iterating
 .
 )
-ZoneCellIter
+ZoneAllCellIter
 (
 JS
 :
@@ -2383,7 +2383,7 @@ AllocKind
 kind
 )
 :
-ZoneCellIter
+ZoneAllCellIter
 <
 TenuredCell
 >
@@ -2425,7 +2425,7 @@ non
 nursery
 types
 .
-ZoneCellIter
+ZoneAllCellIter
 (
 JS
 :
@@ -2447,7 +2447,7 @@ AutoAssertEmptyNursery
 empty
 )
 :
-ZoneCellIter
+ZoneAllCellIter
 <
 TenuredCell
 >
@@ -2466,7 +2466,7 @@ get
 const
 {
 return
-ZoneCellIter
+ZoneAllCellIter
 <
 TenuredCell
 >
@@ -2533,10 +2533,10 @@ typename
 T
 >
 class
-SafeZoneCellIter
+ZoneCellIter
 :
 public
-ZoneCellIter
+ZoneAllCellIter
 <
 T
 >
@@ -2555,7 +2555,7 @@ above
 *
 /
 explicit
-SafeZoneCellIter
+ZoneCellIter
 (
 JS
 :
@@ -2565,7 +2565,7 @@ Zone
 zone
 )
 :
-ZoneCellIter
+ZoneAllCellIter
 <
 T
 >
@@ -2578,7 +2578,7 @@ skipDying
 )
 ;
 }
-SafeZoneCellIter
+ZoneCellIter
 (
 JS
 :
@@ -2598,7 +2598,7 @@ AutoAssertEmptyNursery
 empty
 )
 :
-ZoneCellIter
+ZoneAllCellIter
 <
 T
 >
@@ -2612,7 +2612,7 @@ skipDying
 )
 ;
 }
-SafeZoneCellIter
+ZoneCellIter
 (
 JS
 :
@@ -2624,7 +2624,7 @@ AllocKind
 kind
 )
 :
-ZoneCellIter
+ZoneAllCellIter
 <
 T
 >
@@ -2638,7 +2638,7 @@ skipDying
 )
 ;
 }
-SafeZoneCellIter
+ZoneCellIter
 (
 JS
 :
@@ -2660,7 +2660,7 @@ AutoAssertEmptyNursery
 empty
 )
 :
-ZoneCellIter
+ZoneAllCellIter
 <
 T
 >
@@ -2680,7 +2680,7 @@ next
 (
 )
 {
-ZoneCellIter
+ZoneAllCellIter
 <
 T
 >
@@ -2705,7 +2705,7 @@ skipDying
 while
 (
 !
-ZoneCellIter
+ZoneAllCellIter
 <
 T
 >
@@ -2720,7 +2720,7 @@ T
 *
 current
 =
-ZoneCellIter
+ZoneAllCellIter
 <
 T
 >
@@ -2743,7 +2743,7 @@ current
 return
 ;
 }
-ZoneCellIter
+ZoneAllCellIter
 <
 T
 >
