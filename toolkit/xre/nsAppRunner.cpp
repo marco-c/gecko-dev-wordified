@@ -13640,12 +13640,6 @@ CheckDowngrade
 nsIFile
 *
 aProfileDir
-nsIFile
-*
-aProfileLocalDir
-nsACString
-&
-aProfileName
 nsINativeAppSupport
 *
 aNative
@@ -25632,8 +25626,6 @@ rv
 CheckDowngrade
 (
 mProfD
-mProfLD
-mProfileName
 mNativeApp
 mProfileSvc
 lastVersion
