@@ -203,6 +203,15 @@ h
 #
 include
 "
+wasm
+/
+WasmInstance
+.
+h
+"
+#
+include
+"
 jit
 /
 JSJitFrameIter
