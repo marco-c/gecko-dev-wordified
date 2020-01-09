@@ -119,6 +119,8 @@ import
 glob
 import
 imp
+import
+platform
 from
 datetime
 import
@@ -8057,18 +8059,27 @@ success_codes
 None
                     
 if
-self
-.
-_is_windows
-(
-)
-and
 suite_category
-!
+=
 =
 '
-gtest
+reftest
 '
+and
+platform
+.
+platform
+(
+)
+.
+startswith
+(
+'
+Windows
+-
+7
+'
+)
 :
                         
 #
