@@ -14143,6 +14143,13 @@ getCurrentWindow
 )
 )
 ;
+await
+this
+.
+_handleUserPrompts
+(
+)
+;
 let
 {
 using
