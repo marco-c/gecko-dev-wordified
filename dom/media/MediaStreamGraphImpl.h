@@ -143,15 +143,6 @@ include
 "
 mozilla
 /
-Services
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TimeStamp
 .
 h

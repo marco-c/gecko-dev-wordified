@@ -191,15 +191,6 @@ include
 "
 mozilla
 /
-Services
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TextComposition
 .
 h

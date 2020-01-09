@@ -177,15 +177,6 @@ h
 #
 include
 "
-mozilla
-/
-Services
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

@@ -313,15 +313,6 @@ include
 "
 mozilla
 /
-Services
-.
-h
-"
-#
-include
-"
-mozilla
-/
 SnappyCompressOutputStream
 .
 h

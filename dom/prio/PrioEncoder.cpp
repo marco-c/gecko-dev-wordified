@@ -146,15 +146,6 @@ include
 "
 mozilla
 /
-Services
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TextUtils
 .
 h

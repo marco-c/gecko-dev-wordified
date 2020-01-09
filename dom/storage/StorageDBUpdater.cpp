@@ -177,15 +177,6 @@ include
 "
 mozilla
 /
-Services
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Tokenizer
 .
 h

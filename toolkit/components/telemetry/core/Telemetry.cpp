@@ -380,15 +380,6 @@ include
 "
 mozilla
 /
-Services
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StartupTimeline
 .
 h
