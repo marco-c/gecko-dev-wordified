@@ -4533,24 +4533,6 @@ cpp
     
 (
 "
-PAsmJSCacheEntry
-"
-"
-child
-"
-)
-    
-(
-"
-PAsmJSCacheEntry
-"
-"
-parent
-"
-)
-    
-(
-"
 PBackgroundFileHandle
 "
 "
