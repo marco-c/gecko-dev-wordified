@@ -386,6 +386,12 @@ aPresShell
 nsRubyBaseContainerFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

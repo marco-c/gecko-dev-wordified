@@ -3904,6 +3904,9 @@ nsFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 )
@@ -3914,11 +3917,15 @@ nsFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsFrame
 (
 aStyle
+aPresContext
 ClassID
 :
 :

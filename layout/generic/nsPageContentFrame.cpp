@@ -180,6 +180,12 @@ aPresShell
 nsPageContentFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

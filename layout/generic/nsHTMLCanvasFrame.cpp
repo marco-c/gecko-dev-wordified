@@ -1671,6 +1671,12 @@ aPresShell
 nsHTMLCanvasFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

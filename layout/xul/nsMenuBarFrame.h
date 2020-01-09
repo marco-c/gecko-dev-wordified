@@ -237,6 +237,9 @@ nsMenuBarFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 /

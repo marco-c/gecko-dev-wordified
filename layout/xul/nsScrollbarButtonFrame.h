@@ -188,11 +188,15 @@ nsScrollbarButtonFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsButtonBoxFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 mCursorOnThis

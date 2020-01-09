@@ -677,12 +677,12 @@ override
 endif
 protected
 :
-explicit
 nsSimplePageSequenceFrame
 (
 ComputedStyle
 *
-aStyle
+nsPresContext
+*
 )
 ;
 virtual

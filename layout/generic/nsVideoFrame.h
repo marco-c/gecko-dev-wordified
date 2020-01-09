@@ -280,7 +280,8 @@ nsVideoFrame
 (
 ComputedStyle
 *
-aStyle
+nsPresContext
+*
 )
 ;
 NS_DECL_QUERYFRAME

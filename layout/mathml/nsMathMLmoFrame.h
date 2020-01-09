@@ -393,11 +393,15 @@ nsMathMLmoFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsMathMLTokenFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 mFlags

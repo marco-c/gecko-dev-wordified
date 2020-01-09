@@ -1677,6 +1677,9 @@ nsTableColFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 ~

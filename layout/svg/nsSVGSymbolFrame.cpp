@@ -151,6 +151,12 @@ aPresShell
 nsSVGSymbolFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

@@ -1471,6 +1471,9 @@ nsTableColGroupFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 void
@@ -1551,11 +1554,15 @@ nsTableColGroupFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsContainerFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 mColCount

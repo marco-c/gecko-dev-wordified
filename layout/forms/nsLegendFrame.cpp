@@ -259,6 +259,12 @@ aPresShell
 nsLegendFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 f

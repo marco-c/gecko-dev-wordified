@@ -372,6 +372,9 @@ ColumnSetWrapperFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 ~

@@ -322,6 +322,9 @@ nsColorControlFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 nsCOMPtr

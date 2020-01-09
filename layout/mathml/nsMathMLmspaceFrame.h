@@ -244,11 +244,15 @@ nsMathMLmspaceFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsMathMLContainerFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 mWidth

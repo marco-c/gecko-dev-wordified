@@ -18285,6 +18285,12 @@ aPresShell
 nsGridContainerFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

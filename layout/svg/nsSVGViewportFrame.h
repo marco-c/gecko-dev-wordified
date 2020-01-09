@@ -183,6 +183,9 @@ nsSVGViewportFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 nsIFrame
 :
 :
@@ -193,6 +196,7 @@ aID
 nsSVGDisplayContainerFrame
 (
 aStyle
+aPresContext
 aID
 )
 {

@@ -277,6 +277,12 @@ aPresShell
 nsLeafBoxFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

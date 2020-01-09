@@ -171,6 +171,12 @@ aPresShell
 nsMathMLTokenFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

@@ -527,6 +527,9 @@ nsPlaceholderFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 nsFrameState
 aTypeBits
 )
@@ -534,6 +537,7 @@ aTypeBits
 nsFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 mOutOfFlowFrame

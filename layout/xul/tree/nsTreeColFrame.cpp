@@ -235,6 +235,12 @@ aPresShell
 nsTreeColFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

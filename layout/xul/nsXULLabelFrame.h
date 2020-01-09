@@ -246,11 +246,15 @@ nsXULLabelFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsBlockFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 {

@@ -257,6 +257,12 @@ aPresShell
 ViewportFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

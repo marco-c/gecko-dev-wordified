@@ -303,6 +303,9 @@ nsGridRowLeafFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 bool
 aIsRoot
 nsBoxLayout
@@ -317,6 +320,7 @@ kClassID
 nsBoxFrame
 (
 aStyle
+aPresContext
 aID
 aIsRoot
 aLayoutManager

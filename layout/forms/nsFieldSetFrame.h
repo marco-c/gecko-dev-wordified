@@ -172,6 +172,9 @@ nsFieldSetFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 nscoord

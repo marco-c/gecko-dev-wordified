@@ -256,6 +256,12 @@ aPresShell
 nsSVGUseFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

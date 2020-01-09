@@ -506,6 +506,9 @@ nsTextBoxFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 nscoord

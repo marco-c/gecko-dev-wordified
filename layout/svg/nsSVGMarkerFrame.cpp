@@ -223,6 +223,12 @@ aPresShell
 nsSVGMarkerFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }
@@ -1652,6 +1658,12 @@ aPresShell
 nsSVGMarkerAnonChildFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

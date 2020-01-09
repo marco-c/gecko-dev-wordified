@@ -584,6 +584,9 @@ nsSplittableFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 )
@@ -591,6 +594,7 @@ aID
 nsFrame
 (
 aStyle
+aPresContext
 aID
 )
 mPrevContinuation

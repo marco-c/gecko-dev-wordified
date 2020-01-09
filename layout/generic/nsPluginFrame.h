@@ -1379,6 +1379,9 @@ nsPluginFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 virtual

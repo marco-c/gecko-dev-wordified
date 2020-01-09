@@ -268,6 +268,12 @@ aPresShell
 nsPlaceholderFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 aTypeBits
 )
 ;

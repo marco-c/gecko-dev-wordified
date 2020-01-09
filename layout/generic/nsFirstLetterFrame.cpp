@@ -243,6 +243,12 @@ aPresShell
 nsFirstLetterFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

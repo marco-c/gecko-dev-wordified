@@ -326,6 +326,12 @@ aPresShell
 nsSVGClipPathFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

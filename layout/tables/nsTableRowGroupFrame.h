@@ -2293,6 +2293,9 @@ nsTableRowGroupFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 void

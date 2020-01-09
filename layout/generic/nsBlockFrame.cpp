@@ -1980,6 +1980,12 @@ aPresShell
 nsBlockFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }
@@ -52151,6 +52157,7 @@ shell
 nsBulletFrame
 (
 kidSC
+pc
 )
 ;
 bullet

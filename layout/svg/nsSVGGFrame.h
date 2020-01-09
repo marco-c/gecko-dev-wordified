@@ -175,11 +175,15 @@ nsSVGGFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsSVGGFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 {
@@ -191,6 +195,9 @@ nsSVGGFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 nsIFrame
 :
 :
@@ -201,6 +208,7 @@ aID
 nsSVGDisplayContainerFrame
 (
 aStyle
+aPresContext
 aID
 )
 {

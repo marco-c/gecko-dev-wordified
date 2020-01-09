@@ -284,6 +284,9 @@ nsGridRowGroupFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 nsBoxLayout
 *
 aLayoutManager
@@ -292,6 +295,7 @@ aLayoutManager
 nsBoxFrame
 (
 aStyle
+aPresContext
 kClassID
 false
 aLayoutManager

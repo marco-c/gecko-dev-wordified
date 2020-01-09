@@ -204,6 +204,9 @@ nsSVGForeignObjectFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 public

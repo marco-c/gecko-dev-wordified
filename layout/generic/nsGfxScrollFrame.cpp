@@ -1007,6 +1007,12 @@ aPresShell
 nsHTMLScrollFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 aIsRoot
 )
 ;
@@ -1023,6 +1029,9 @@ nsHTMLScrollFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 nsIFrame
 :
 :
@@ -1035,6 +1044,7 @@ aIsRoot
 nsContainerFrame
 (
 aStyle
+aPresContext
 aID
 )
 mHelper
@@ -9088,6 +9098,12 @@ aPresShell
 nsXULScrollFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 aIsRoot
 aClipAllDescendants
 )
@@ -9105,6 +9121,9 @@ nsXULScrollFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 bool
 aIsRoot
 bool
@@ -9114,6 +9133,7 @@ aClipAllDescendants
 nsBoxFrame
 (
 aStyle
+aPresContext
 kClassID
 aIsRoot
 )

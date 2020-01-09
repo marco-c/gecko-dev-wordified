@@ -238,6 +238,12 @@ aPresShell
 nsMathMLmunderoverFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

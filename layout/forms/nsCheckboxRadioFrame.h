@@ -208,6 +208,9 @@ nsCheckboxRadioFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 /

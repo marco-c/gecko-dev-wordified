@@ -1348,6 +1348,9 @@ nsTableFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 )
@@ -1355,6 +1358,7 @@ aID
 nsContainerFrame
 (
 aStyle
+aPresContext
 aID
 )
 mCellMap
@@ -28391,6 +28395,12 @@ aPresShell
 nsTableFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

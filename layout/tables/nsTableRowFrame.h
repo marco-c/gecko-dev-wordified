@@ -1518,6 +1518,9 @@ nsTableRowFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 =

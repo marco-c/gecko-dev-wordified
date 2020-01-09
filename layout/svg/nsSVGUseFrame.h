@@ -166,11 +166,15 @@ nsSVGUseFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsSVGGFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 mHasValidDimensions

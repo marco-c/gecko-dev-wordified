@@ -177,11 +177,15 @@ nsPopupSetFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsBoxFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 {

@@ -316,11 +316,15 @@ nsPageContentFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 ViewportFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 {

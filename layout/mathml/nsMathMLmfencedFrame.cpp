@@ -191,6 +191,12 @@ aPresShell
 nsMathMLmfencedFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

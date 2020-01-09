@@ -287,11 +287,15 @@ nsCanvasFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsContainerFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 mDoPaintFocus

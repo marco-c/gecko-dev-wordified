@@ -371,6 +371,9 @@ nsTreeBodyFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 ~

@@ -780,6 +780,12 @@ aPresShell
 nsBoxFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 nsBoxFrame
 :
 :
@@ -809,6 +815,12 @@ aPresShell
 nsBoxFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }
@@ -841,6 +853,9 @@ nsBoxFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 bool
@@ -853,6 +868,7 @@ aLayoutManager
 nsContainerFrame
 (
 aStyle
+aPresContext
 aID
 )
 mFlex

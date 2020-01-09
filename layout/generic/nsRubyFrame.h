@@ -304,11 +304,15 @@ nsRubyFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsInlineFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 {

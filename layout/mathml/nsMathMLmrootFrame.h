@@ -334,6 +334,9 @@ nsMathMLmrootFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 virtual

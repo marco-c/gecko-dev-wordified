@@ -314,8 +314,11 @@ override
 ;
 nsBox
 (
+ComputedStyle
+*
+nsPresContext
+*
 ClassID
-aID
 )
 ;
 virtual

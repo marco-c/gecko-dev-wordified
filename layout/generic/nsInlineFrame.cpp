@@ -353,6 +353,12 @@ aPresShell
 nsInlineFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }
@@ -7168,6 +7174,12 @@ aPresShell
 nsFirstLineFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

@@ -312,6 +312,9 @@ nsSVGPaintServerFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 )
@@ -319,6 +322,7 @@ aID
 nsSVGContainerFrame
 (
 aStyle
+aPresContext
 aID
 )
 {

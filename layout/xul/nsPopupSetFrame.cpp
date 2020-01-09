@@ -213,6 +213,12 @@ aPresShell
 nsPopupSetFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

@@ -286,11 +286,15 @@ nsRubyTextFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsRubyContentFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 {

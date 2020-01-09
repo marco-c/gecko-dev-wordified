@@ -151,6 +151,12 @@ aPresShell
 nsSVGInnerSVGFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

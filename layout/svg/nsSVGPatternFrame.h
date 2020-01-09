@@ -238,6 +238,9 @@ nsSVGPatternFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 /

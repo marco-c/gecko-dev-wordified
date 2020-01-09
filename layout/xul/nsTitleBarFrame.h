@@ -176,6 +176,9 @@ nsTitleBarFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 =
 kClassID

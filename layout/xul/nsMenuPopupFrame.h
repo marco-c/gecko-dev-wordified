@@ -1088,6 +1088,9 @@ nsMenuPopupFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 /

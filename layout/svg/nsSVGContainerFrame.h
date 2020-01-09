@@ -339,6 +339,9 @@ nsSVGContainerFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 )
@@ -346,6 +349,7 @@ aID
 nsContainerFrame
 (
 aStyle
+aPresContext
 aID
 )
 {
@@ -739,6 +743,9 @@ nsSVGDisplayContainerFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 nsIFrame
 :
 :
@@ -749,6 +756,7 @@ aID
 nsSVGContainerFrame
 (
 aStyle
+aPresContext
 aID
 )
 {

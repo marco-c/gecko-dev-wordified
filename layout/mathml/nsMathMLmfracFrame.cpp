@@ -294,6 +294,12 @@ aPresShell
 nsMathMLmfracFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

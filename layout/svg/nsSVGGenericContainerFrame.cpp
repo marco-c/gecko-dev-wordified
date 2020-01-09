@@ -234,6 +234,12 @@ aPresShell
 nsSVGGenericContainerFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

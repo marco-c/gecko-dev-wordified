@@ -10506,6 +10506,12 @@ aPresShell
 nsMathMLmathBlockFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 newFrame
@@ -10556,6 +10562,12 @@ aPresShell
 nsMathMLmathInlineFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

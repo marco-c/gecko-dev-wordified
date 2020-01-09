@@ -187,11 +187,15 @@ nsMathMLsemanticsFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsMathMLSelectedFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 {
