@@ -159,13 +159,6 @@ h
 #
 include
 "
-MacIOSurfaceImage
-.
-h
-"
-#
-include
-"
 MediaData
 .
 h
@@ -2647,9 +2640,6 @@ Image
 image
 =
 new
-layers
-:
-:
 MacIOSurfaceImage
 (
 macSurface
