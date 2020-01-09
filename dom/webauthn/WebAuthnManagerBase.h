@@ -180,6 +180,11 @@ nsIDOMEventListener
 public
 :
 NS_DECL_NSIDOMEVENTLISTENER
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS
+(
+WebAuthnManagerBase
+)
 explicit
 WebAuthnManagerBase
 (
@@ -243,6 +248,7 @@ ActorDestroyed
 ;
 protected
 :
+virtual
 ~
 WebAuthnManagerBase
 (
