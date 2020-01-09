@@ -14338,6 +14338,12 @@ mMaster
 -
 >
 mLooping
+&
+&
+mMaster
+-
+>
+mSeamlessLoopingAllowed
 )
 {
 SetState
@@ -23436,6 +23442,11 @@ OnTaskQueue
 )
 )
 ;
+if
+(
+mSeamlessLoopingAllowed
+)
+{
 mStateObj
 -
 >
@@ -23443,6 +23454,7 @@ HandleLoopingChanged
 (
 )
 ;
+}
 }
 RefPtr
 <
