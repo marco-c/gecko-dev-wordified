@@ -3983,7 +3983,7 @@ uint8_t
 JitFrameIter
 :
 :
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 const
@@ -4000,7 +4000,7 @@ asWasm
 (
 )
 .
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 ;
@@ -4010,7 +4010,7 @@ asJSJit
 (
 )
 .
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 ;
@@ -12889,7 +12889,7 @@ jsJitIter
 (
 )
 .
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 ;
@@ -13235,7 +13235,7 @@ jsJitIter
 (
 )
 .
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 labels

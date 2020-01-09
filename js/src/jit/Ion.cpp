@@ -16851,7 +16851,7 @@ script
 )
 frame
 .
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 )
@@ -17575,7 +17575,7 @@ getSafepointIndex
 (
 frame
 .
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 )
@@ -17585,7 +17585,7 @@ dataLabelToMunge
 (
 frame
 .
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 )
@@ -17603,7 +17603,7 @@ invalidateEpilogueDataOffset
 (
 frame
 .
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 -

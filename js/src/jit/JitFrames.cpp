@@ -6192,7 +6192,7 @@ getSafepointIndex
 (
 frame
 .
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 )
@@ -6961,7 +6961,7 @@ getSafepointIndex
 (
 frame
 .
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 )
@@ -9376,7 +9376,7 @@ nextPC
 =
 frames
 .
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 ;
@@ -9962,7 +9962,7 @@ frame
 (
 )
 .
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 ;

@@ -1144,7 +1144,7 @@ cannot
 use
 frame
 .
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 as
@@ -1305,7 +1305,7 @@ retAddr
 =
 frame
 .
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 ;
