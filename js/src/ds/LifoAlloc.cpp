@@ -2584,7 +2584,9 @@ unused_
 )
 )
 ;
-appendUsed
+chunks_
+.
+prependAll
 (
 std
 :
@@ -2600,7 +2602,7 @@ chunks_
 ;
 oversize_
 .
-appendAll
+prependAll
 (
 std
 :
