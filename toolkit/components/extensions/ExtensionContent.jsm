@@ -2018,7 +2018,7 @@ return
 !
 this
 .
-removeCss
+removeCSS
 &
 &
 (
