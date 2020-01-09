@@ -161,12 +161,12 @@ nsTPriorityQueue
 .
 h
 "
-class
-nsSMILTimeValue
-;
 namespace
 mozilla
 {
+class
+SMILTimeValue
+;
 /
 /
 -
@@ -799,7 +799,7 @@ future
 .
 *
 /
-nsSMILTimeValue
+SMILTimeValue
 ContainerToParentTime
 (
 nsSMILTime
@@ -855,7 +855,7 @@ began
 .
 *
 /
-nsSMILTimeValue
+SMILTimeValue
 ParentToContainerTime
 (
 nsSMILTime

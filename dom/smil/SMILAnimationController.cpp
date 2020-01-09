@@ -4542,7 +4542,7 @@ milestone
 .
 continue
 ;
-nsSMILTimeValue
+SMILTimeValue
 containerTimeValue
 =
 container

@@ -441,7 +441,7 @@ mEnd
 nullptr
 ;
 }
-nsSMILInstanceTime
+SMILInstanceTime
 *
 SMILInterval
 :
@@ -474,7 +474,7 @@ return
 mBegin
 ;
 }
-nsSMILInstanceTime
+SMILInstanceTime
 *
 SMILInterval
 :
@@ -513,7 +513,7 @@ SMILInterval
 :
 SetBegin
 (
-nsSMILInstanceTime
+SMILInstanceTime
 &
 aBegin
 )
@@ -638,7 +638,7 @@ SMILInterval
 :
 SetEnd
 (
-nsSMILInstanceTime
+SMILInstanceTime
 &
 aEnd
 )
@@ -841,14 +841,14 @@ SMILInterval
 :
 AddDependentTime
 (
-nsSMILInstanceTime
+SMILInstanceTime
 &
 aTime
 )
 {
 RefPtr
 <
-nsSMILInstanceTime
+SMILInstanceTime
 >
 *
 inserted
@@ -889,7 +889,7 @@ SMILInterval
 RemoveDependentTime
 (
 const
-nsSMILInstanceTime
+SMILInstanceTime
 &
 aTime
 )

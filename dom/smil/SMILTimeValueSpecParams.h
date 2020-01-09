@@ -123,7 +123,9 @@ NS_SMILTIMEVALUESPECPARAMS_H_
 #
 include
 "
-nsSMILTimeValue
+mozilla
+/
+SMILTimeValue
 .
 h
 "
@@ -134,6 +136,9 @@ nsAtom
 .
 h
 "
+namespace
+mozilla
+{
 /
 /
 -
@@ -208,7 +213,7 @@ h
 -
 /
 /
-nsSMILTimeValueSpecParams
+SMILTimeValueSpecParams
 /
 /
 /
@@ -257,11 +262,11 @@ begin
 )
 .
 class
-nsSMILTimeValueSpecParams
+SMILTimeValueSpecParams
 {
 public
 :
-nsSMILTimeValueSpecParams
+SMILTimeValueSpecParams
 (
 )
 :
@@ -361,7 +366,7 @@ WALLCLOCK
 or
 INDEFINITE
 times
-nsSMILTimeValue
+SMILTimeValue
 mOffset
 ;
 /
@@ -476,6 +481,11 @@ mRepeatIteration
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /

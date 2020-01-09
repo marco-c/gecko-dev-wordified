@@ -142,7 +142,9 @@ h
 #
 include
 "
-nsSMILTimeValue
+mozilla
+/
+SMILTimeValue
 .
 h
 "
@@ -228,7 +230,7 @@ this
 ;
 }
 }
-nsSMILTimeValue
+SMILTimeValue
 SMILTimeContainer
 :
 :
@@ -263,7 +265,7 @@ aContainerTime
 mCurrentTime
 )
 return
-nsSMILTimeValue
+SMILTimeValue
 :
 :
 Indefinite
@@ -271,7 +273,7 @@ Indefinite
 )
 ;
 return
-nsSMILTimeValue
+SMILTimeValue
 (
 aContainerTime
 +
@@ -279,7 +281,7 @@ mParentOffset
 )
 ;
 }
-nsSMILTimeValue
+SMILTimeValue
 SMILTimeContainer
 :
 :
@@ -318,7 +320,7 @@ aParentTime
 mPauseStart
 )
 return
-nsSMILTimeValue
+SMILTimeValue
 :
 :
 Indefinite
@@ -326,7 +328,7 @@ Indefinite
 )
 ;
 return
-nsSMILTimeValue
+SMILTimeValue
 (
 aParentTime
 -
@@ -1244,7 +1246,7 @@ IsEmpty
 return
 false
 ;
-nsSMILTimeValue
+SMILTimeValue
 parentTime
 =
 ContainerToParentTime
@@ -1322,7 +1324,7 @@ IsEmpty
 return
 false
 ;
-nsSMILTimeValue
+SMILTimeValue
 containerTime
 =
 ParentToContainerTime

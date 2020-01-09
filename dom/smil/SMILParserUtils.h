@@ -138,13 +138,7 @@ class
 nsISMILAttr
 ;
 class
-nsSMILTimeValue
-;
-class
 nsSMILValue
-;
-class
-nsSMILTimeValueSpecParams
 ;
 namespace
 mozilla
@@ -154,6 +148,12 @@ SMILKeySpline
 ;
 class
 SMILRepeatCount
+;
+class
+SMILTimeValue
+;
+class
+SMILTimeValueSpecParams
 ;
 namespace
 dom
@@ -400,7 +400,7 @@ const
 nsAString
 &
 aSpec
-nsSMILTimeValueSpecParams
+SMILTimeValueSpecParams
 &
 aResult
 )
@@ -492,7 +492,7 @@ const
 nsAString
 &
 aSpec
-nsSMILTimeValue
+SMILTimeValue
 *
 aResult
 )

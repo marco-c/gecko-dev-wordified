@@ -134,6 +134,9 @@ nsDebug
 .
 h
 "
+namespace
+mozilla
+{
 /
 *
 -
@@ -207,7 +210,7 @@ h
 -
 -
 *
-nsSMILTimeValue
+SMILTimeValue
 class
 *
 *
@@ -242,7 +245,7 @@ in
 milliseconds
 .
 *
-nsSMILTimeValue
+SMILTimeValue
 -
 -
 (
@@ -266,11 +269,11 @@ and
 unresolved
 '
 *
-nsSMILInstanceTime
+SMILInstanceTime
 -
 -
 an
-nsSMILTimeValue
+SMILTimeValue
 used
 for
 constructing
@@ -306,7 +309,7 @@ SMILInterval
 a
 pair
 of
-nsSMILInstanceTimes
+SMILInstanceTimes
 that
 defines
 a
@@ -320,7 +323,7 @@ for
 animation
 .
 *
-nsSMILTimeValueSpec
+SMILTimeValueSpec
 -
 -
 a
@@ -370,7 +373,7 @@ SMILTimedElement
 and
 its
 *
-nsSMILInstanceTimes
+SMILInstanceTimes
 by
 generating
 new
@@ -472,8 +475,6 @@ IsResolved
 -
 -
 -
--
--
 +
 -
 -
@@ -518,7 +519,7 @@ IsResolved
 *
 Definite
 |
-nsSMILTimeValue
+SMILTimeValue
 |
 true
 |
@@ -538,8 +539,6 @@ true
 -
 -
 +
--
--
 -
 -
 -
@@ -620,8 +619,6 @@ true
 -
 -
 +
--
--
 -
 -
 -
@@ -693,7 +690,7 @@ false
 *
 /
 class
-nsSMILTimeValue
+SMILTimeValue
 {
 public
 :
@@ -704,7 +701,7 @@ an
 unresolved
 time
 value
-nsSMILTimeValue
+SMILTimeValue
 (
 )
 :
@@ -726,7 +723,7 @@ resolved
 time
 value
 explicit
-nsSMILTimeValue
+SMILTimeValue
 (
 nsSMILTime
 aMillis
@@ -753,12 +750,12 @@ indefinite
 time
 value
 static
-nsSMILTimeValue
+SMILTimeValue
 Indefinite
 (
 )
 {
-nsSMILTimeValue
+SMILTimeValue
 value
 ;
 value
@@ -894,7 +891,7 @@ int8_t
 CompareTo
 (
 const
-nsSMILTimeValue
+SMILTimeValue
 &
 aOther
 )
@@ -906,7 +903,7 @@ operator
 =
 (
 const
-nsSMILTimeValue
+SMILTimeValue
 &
 aOther
 )
@@ -928,7 +925,7 @@ operator
 =
 (
 const
-nsSMILTimeValue
+SMILTimeValue
 &
 aOther
 )
@@ -949,7 +946,7 @@ operator
 <
 (
 const
-nsSMILTimeValue
+SMILTimeValue
 &
 aOther
 )
@@ -969,7 +966,7 @@ operator
 >
 (
 const
-nsSMILTimeValue
+SMILTimeValue
 &
 aOther
 )
@@ -990,7 +987,7 @@ operator
 =
 (
 const
-nsSMILTimeValue
+SMILTimeValue
 &
 aOther
 )
@@ -1012,7 +1009,7 @@ operator
 =
 (
 const
-nsSMILTimeValue
+SMILTimeValue
 &
 aOther
 )
@@ -1048,6 +1045,11 @@ mState
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /

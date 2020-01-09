@@ -876,7 +876,7 @@ FlushAnimations
 (
 )
 ;
-nsSMILTimeValue
+SMILTimeValue
 startTime
 =
 mTimedElement
@@ -1001,7 +1001,7 @@ FlushAnimations
 )
 for
 this
-nsSMILTimeValue
+SMILTimeValue
 simpleDur
 =
 mTimedElement
@@ -2160,7 +2160,7 @@ animation
 /
 #
 HyperlinkSemantics
-nsSMILTimeValue
+SMILTimeValue
 seekTime
 =
 mTimedElement

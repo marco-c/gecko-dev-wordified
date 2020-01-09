@@ -215,9 +215,9 @@ see
 /
 /
 the
-documentstation
+documentation
 in
-nsSMILTimeValue
+SMILTimeValue
 .
 h
 /
