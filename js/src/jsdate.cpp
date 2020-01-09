@@ -330,6 +330,15 @@ include
 "
 js
 /
+PropertySpec
+.
+h
+"
+#
+include
+"
+js
+/
 Wrapper
 .
 h

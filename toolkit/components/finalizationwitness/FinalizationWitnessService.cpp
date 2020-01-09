@@ -89,6 +89,15 @@ h
 #
 include
 "
+js
+/
+PropertySpec
+.
+h
+"
+#
+include
+"
 mozJSComponentLoader
 .
 h

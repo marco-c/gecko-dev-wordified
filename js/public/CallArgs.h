@@ -702,11 +702,12 @@ VM
 .
 *
 /
-typedef
+using
+JSNative
+=
 bool
 (
 *
-JSNative
 )
 (
 JSContext
