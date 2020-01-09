@@ -666,6 +666,11 @@ stringPrepFlag
 flag
 )
 ;
+void
+InitializeBlocklist
+(
+)
+;
 bool
 isInWhitelist
 (
@@ -1115,7 +1120,7 @@ to
 /
 /
 |
-mIDNBlacklist
+mIDNBlocklist
 |
 |
 mShowPunycode
@@ -1179,8 +1184,11 @@ mLock
 guarded
 by
 mLock
-nsString
-mIDNBlacklist
+nsTArray
+<
+char16_t
+>
+mIDNBlocklist
 ;
 /
 *
