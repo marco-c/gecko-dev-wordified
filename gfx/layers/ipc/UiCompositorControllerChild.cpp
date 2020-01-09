@@ -975,6 +975,10 @@ underlying
 IPC
 channel
 .
+mWidget
+=
+nullptr
+;
 PUiCompositorControllerChild
 :
 :
