@@ -308,7 +308,7 @@ codes
 and
 49
 -
-57
+58
 are
 for
 the
@@ -432,7 +432,7 @@ codes
 and
 49
 -
-57
+58
 are
 for
 the
@@ -476,6 +476,10 @@ SERVICE_INVALID_WORKING_DIR_PATH_ERROR
 define
 SERVICE_INSTALL_DIR_REG_ERROR
 57
+#
+define
+SERVICE_COULD_NOT_IMPERSONATE
+58
 #
 define
 WRITE_ERROR_FILE_COPY
