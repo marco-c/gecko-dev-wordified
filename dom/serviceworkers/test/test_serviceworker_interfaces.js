@@ -244,6 +244,16 @@ Boolean
 name
 :
 "
+BigInt
+"
+nightly
+:
+true
+}
+{
+name
+:
+"
 ByteLengthQueuingStrategy
 "
 optional
