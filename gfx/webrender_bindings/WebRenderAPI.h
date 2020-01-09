@@ -1878,6 +1878,13 @@ is_backface_visible
 *
 /
 true
+/
+*
+cache_tiles
+=
+*
+/
+false
 wr
 :
 :
