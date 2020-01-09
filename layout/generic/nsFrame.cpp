@@ -25137,6 +25137,13 @@ const
 bool
 isStackingContext
 =
+(
+aFlags
+&
+DISPLAY_CHILD_FORCE_STACKING_CONTEXT
+)
+|
+|
 child
 -
 >
@@ -25146,13 +25153,6 @@ disp
 pos
 effects
 isPositioned
-)
-|
-|
-(
-aFlags
-&
-DISPLAY_CHILD_FORCE_STACKING_CONTEXT
 )
 ;
 if
