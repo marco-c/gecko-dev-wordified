@@ -6195,7 +6195,6 @@ ty
 )
 =
 >
-{
 generic
 :
 :
@@ -6207,7 +6206,6 @@ Translate
 tx
 ty
 )
-}
 generic
 :
 :

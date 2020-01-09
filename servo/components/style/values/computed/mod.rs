@@ -921,8 +921,8 @@ text
 {
 OverflowWrap
 TextOverflow
-WordSpacing
 WordBreak
+WordSpacing
 }
 ;
 pub

@@ -86,11 +86,7 @@ gecko_bindings
 structs
 :
 :
-{
-nsStyleCoord
-nsStyleCoord_Calc
-nsStyleCoord_CalcValue
-}
+nsStyleSides
 ;
 use
 crate
@@ -102,7 +98,11 @@ gecko_bindings
 structs
 :
 :
-nsStyleSides
+{
+nsStyleCoord
+nsStyleCoord_Calc
+nsStyleCoord_CalcValue
+}
 ;
 use
 crate
