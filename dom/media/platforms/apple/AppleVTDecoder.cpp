@@ -3039,7 +3039,7 @@ rv
 VTSessionCopyProperty
 (
 mSession
-kVTVideoDecoderSpecification_EnableHardwareAcceleratedVideoDecoder
+kVTDecompressionPropertyKey_UsingHardwareAcceleratedVideoDecoder
 kCFAllocatorDefault
 &
 isUsingHW
