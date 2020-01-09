@@ -535,6 +535,9 @@ url
 stream
 =
 True
+*
+*
+kwargs
 )
     
 if
@@ -2367,7 +2370,7 @@ link
 }
 )
 def
-list_task_group
+list_task_group_incomplete_tasks
 (
 task_group_id
 )
@@ -2378,6 +2381,7 @@ task_group_id
 "
 Generate
 the
+incomplete
 tasks
 in
 a
