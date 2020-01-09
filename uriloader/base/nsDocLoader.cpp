@@ -2129,9 +2129,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aCtxt
 )
 {
 /

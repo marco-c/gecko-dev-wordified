@@ -712,9 +712,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aContext
 )
 {
 LOG
@@ -757,7 +754,6 @@ listener
 OnStartRequest
 (
 request
-aContext
 )
 ;
 }

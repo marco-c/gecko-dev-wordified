@@ -625,9 +625,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 if
@@ -645,7 +642,6 @@ mListener
 OnStartRequest
 (
 aRequest
-mContext
 )
 ;
 }

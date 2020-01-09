@@ -5857,9 +5857,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 ExternalResourceMap
@@ -5972,7 +5969,6 @@ mTargetListener
 OnStartRequest
 (
 aRequest
-aContext
 )
 ;
 }

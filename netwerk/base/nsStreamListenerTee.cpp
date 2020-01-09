@@ -93,9 +93,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-context
 )
 {
 NS_ENSURE_TRUE
@@ -113,7 +110,6 @@ mListener
 OnStartRequest
 (
 request
-context
 )
 ;
 nsresult
@@ -133,7 +129,6 @@ mObserver
 OnStartRequest
 (
 request
-context
 )
 ;
 /

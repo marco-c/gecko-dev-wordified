@@ -6598,9 +6598,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 NS_ENSURE_ARG

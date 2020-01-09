@@ -364,9 +364,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 )
 {
 NS_ENSURE_TRUE
@@ -394,7 +391,6 @@ mNextStream
 OnStartRequest
 (
 request
-ctxt
 )
 ;
 }

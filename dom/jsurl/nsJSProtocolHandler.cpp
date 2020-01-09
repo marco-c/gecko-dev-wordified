@@ -4428,7 +4428,6 @@ mListener
 OnStartRequest
 (
 this
-nullptr
 )
 ;
 mListener
@@ -5429,9 +5428,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 NS_ENSURE_TRUE
@@ -5450,7 +5446,6 @@ mListener
 OnStartRequest
 (
 this
-aContext
 )
 ;
 }

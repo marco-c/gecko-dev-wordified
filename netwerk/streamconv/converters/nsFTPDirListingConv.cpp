@@ -1115,9 +1115,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 )
 {
 /
@@ -1155,7 +1152,6 @@ mFinalListener
 OnStartRequest
 (
 request
-ctxt
 )
 ;
 }

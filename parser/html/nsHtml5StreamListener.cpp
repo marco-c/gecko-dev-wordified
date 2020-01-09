@@ -189,9 +189,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 if
@@ -214,7 +211,6 @@ mDelegate
 OnStartRequest
 (
 aRequest
-aContext
 )
 ;
 }

@@ -3420,7 +3420,6 @@ aError
 OnStartRequest
 (
 nullptr
-nullptr
 )
 ;
 OnStopRequest
@@ -6096,9 +6095,6 @@ OnStartRequest
 nsIRequest
 *
 req
-nsISupports
-*
-ctx
 )
 {
 LOG
@@ -6142,7 +6138,6 @@ mListener
 OnStartRequest
 (
 this
-nullptr
 )
 ;
 mRequest

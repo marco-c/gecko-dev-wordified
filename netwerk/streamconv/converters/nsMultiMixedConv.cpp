@@ -356,7 +356,6 @@ mListener
 OnStartRequest
 (
 this
-aContext
 )
 ;
 }
@@ -1808,9 +1807,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 )
 {
 /
@@ -1848,10 +1844,6 @@ start
 ;
 nsresult
 rv
-;
-mContext
-=
-ctxt
 ;
 mTotalSent
 =
@@ -2740,7 +2732,6 @@ mFinalListener
 OnStartRequest
 (
 request
-ctxt
 )
 ;
 (

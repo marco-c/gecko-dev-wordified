@@ -316,9 +316,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 )
 {
 nsCOMPtr
@@ -477,10 +474,6 @@ NS_ERROR_OUT_OF_MEMORY
 }
 }
 }
-mContext
-=
-ctxt
-;
 if
 (
 mRequestObserver
@@ -492,7 +485,6 @@ mRequestObserver
 OnStartRequest
 (
 request
-ctxt
 )
 ;
 }

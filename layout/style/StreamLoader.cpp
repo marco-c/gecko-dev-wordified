@@ -222,8 +222,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
 )
 {
 /

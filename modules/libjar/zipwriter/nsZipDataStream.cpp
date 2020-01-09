@@ -432,9 +432,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 if
@@ -452,7 +449,6 @@ mOutput
 OnStartRequest
 (
 aRequest
-aContext
 )
 ;
 }
@@ -763,7 +759,6 @@ rv
 =
 OnStartRequest
 (
-nullptr
 nullptr
 )
 ;

@@ -1209,9 +1209,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-ctxt
 )
 {
 nsresult
@@ -1246,7 +1243,6 @@ mListener
 OnStartRequest
 (
 aRequest
-nullptr
 )
 )
 )

@@ -10058,9 +10058,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aCtxt
 )
 {
 MOZ_ASSERT
@@ -10097,7 +10094,6 @@ mSVGDocumentWrapper
 OnStartRequest
 (
 aRequest
-aCtxt
 )
 ;
 if

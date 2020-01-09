@@ -3794,9 +3794,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-ctxt
 )
 {
 LOG_SCOPE

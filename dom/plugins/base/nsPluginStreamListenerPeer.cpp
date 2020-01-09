@@ -630,9 +630,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aContext
 )
 {
 nsresult

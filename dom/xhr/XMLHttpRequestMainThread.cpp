@@ -9786,9 +9786,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 )
 {
 AUTO_PROFILER_LABEL
@@ -9826,7 +9823,6 @@ mRequestObserver
 OnStartRequest
 (
 request
-ctxt
 )
 ;
 }
@@ -10095,10 +10091,6 @@ mUploadTotal
 )
 ;
 }
-mContext
-=
-ctxt
-;
 mFlagParseBody
 =
 true
@@ -11436,7 +11428,6 @@ mXMLParserStreamListener
 OnStartRequest
 (
 request
-ctxt
 )
 ;
 NS_ENSURE_SUCCESS
