@@ -52,6 +52,7 @@ fn
 {
 open_preferences
 (
+async
 (
 win
 )
@@ -65,6 +66,7 @@ win
 .
 document
 ;
+await
 win
 .
 gotoPref

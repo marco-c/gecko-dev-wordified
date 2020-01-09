@@ -172,6 +172,7 @@ runTest
 )
 ;
 }
+async
 function
 runTest
 (
@@ -228,6 +229,7 @@ pane
 is
 opened
 correctly
+await
 win
 .
 gotoPref

@@ -75,6 +75,7 @@ preferences
 "
 )
 ;
+await
 browser
 .
 contentWindow

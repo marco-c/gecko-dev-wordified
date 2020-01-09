@@ -167,6 +167,7 @@ pixels
 "
 )
 ;
+await
 gBrowser
 .
 contentWindow

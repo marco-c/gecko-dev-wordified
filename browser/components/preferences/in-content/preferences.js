@@ -573,7 +573,6 @@ true
 }
 )
 ;
-async
 function
 init_all
 (
@@ -808,11 +807,17 @@ hashchange
 onHashChange
 )
 ;
-await
 gotoPref
 (
 )
-;
+.
+then
+(
+(
+)
+=
+>
+{
 let
 helpButton
 =
@@ -939,6 +944,9 @@ cancelable
 true
 }
 )
+)
+;
+}
 )
 ;
 }
