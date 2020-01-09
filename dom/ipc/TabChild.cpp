@@ -10773,9 +10773,12 @@ uint32_t
 &
 aDropEffect
 const
-nsCString
+IPC
+:
+:
+Principal
 &
-aPrincipalURISpec
+aPrincipal
 )
 {
 WidgetDragEvent
@@ -10819,9 +10822,9 @@ aDragAction
 dragSession
 -
 >
-SetTriggeringPrincipalURISpec
+SetTriggeringPrincipal
 (
-aPrincipalURISpec
+aPrincipal
 )
 ;
 RefPtr

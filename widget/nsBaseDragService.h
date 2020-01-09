@@ -912,8 +912,11 @@ nsINode
 >
 mSourceNode
 ;
-nsCString
-mTriggeringPrincipalURISpec
+nsCOMPtr
+<
+nsIPrincipal
+>
+mTriggeringPrincipal
 ;
 /
 /

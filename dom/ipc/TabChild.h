@@ -1899,9 +1899,12 @@ uint32_t
 &
 aDropEffect
 const
-nsCString
+IPC
+:
+:
+Principal
 &
-aPrincipalURISpec
+aPrincipal
 )
 override
 ;
