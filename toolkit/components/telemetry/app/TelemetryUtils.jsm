@@ -419,6 +419,17 @@ telemetry
 .
 unified
 "
+UntrustedModulesPingFrequency
+:
+"
+toolkit
+.
+telemetry
+.
+untrustedModulesPing
+.
+frequency
+"
 UpdatePing
 :
 "
