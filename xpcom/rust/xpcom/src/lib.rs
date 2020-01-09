@@ -150,6 +150,10 @@ extern
 crate
 threadbound
 ;
+extern
+crate
+thin_vec
+;
 /
 /
 re
