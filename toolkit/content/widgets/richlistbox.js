@@ -899,6 +899,8 @@ into
 nothing
 should
 unselect
+multiple
+selections
 if
 (
 event
@@ -907,6 +909,16 @@ originalTarget
 =
 =
 this
+&
+&
+this
+.
+selType
+=
+=
+"
+multiple
+"
 )
 {
 this
