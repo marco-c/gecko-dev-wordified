@@ -2401,6 +2401,7 @@ anim
 >
 UpdateKey
 (
+surface
 sharedSurface
 aManager
 aResources
@@ -3109,6 +3110,7 @@ anim
 >
 SetCurrentFrame
 (
+aSurface
 sharedSurface
 aDirtyRect
 )
@@ -3120,6 +3122,9 @@ SharedSurfacesAnimation
 :
 SetCurrentFrame
 (
+SourceSurface
+*
+aParentSurface
 SourceSurfaceSharedData
 *
 aSurface
@@ -3309,6 +3314,9 @@ SharedSurfacesAnimation
 :
 UpdateKey
 (
+SourceSurface
+*
+aParentSurface
 SourceSurfaceSharedData
 *
 aSurface
