@@ -1787,8 +1787,7 @@ positions
 )
 {
 return
-[
-]
+null
 ;
 }
 return
