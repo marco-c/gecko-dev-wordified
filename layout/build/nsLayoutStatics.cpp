@@ -280,6 +280,13 @@ h
 #
 include
 "
+nsFrameState
+.
+h
+"
+#
+include
+"
 nsGlobalWindow
 .
 h
@@ -1045,6 +1052,10 @@ nsCSSAnonBoxes
 :
 :
 AssertAtoms
+(
+)
+;
+DebugVerifyFrameStateBits
 (
 )
 ;
