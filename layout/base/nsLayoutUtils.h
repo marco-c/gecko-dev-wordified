@@ -9476,6 +9476,7 @@ static
 bool
 IsFirstContinuationOrIBSplitSibling
 (
+const
 nsIFrame
 *
 aFrame
