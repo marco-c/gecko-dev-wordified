@@ -173,6 +173,7 @@ frame
 any
 )
 :
+?
 ChromeFrame
 {
 const
@@ -185,6 +186,16 @@ frame
 location
 )
 ;
+if
+(
+!
+location
+)
+{
+return
+null
+;
+}
 return
 {
 id
