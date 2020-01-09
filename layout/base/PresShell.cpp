@@ -7303,6 +7303,17 @@ blocked
 "
 )
 ;
+AUTO_PROFILER_LABEL
+(
+"
+PresShell
+:
+:
+Destroy
+"
+LAYOUT
+)
+;
 /
 /
 dump
