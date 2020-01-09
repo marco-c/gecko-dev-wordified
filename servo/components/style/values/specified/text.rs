@@ -5201,6 +5201,17 @@ behave
 like
 normal
 .
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 BreakWord
 }
 /
