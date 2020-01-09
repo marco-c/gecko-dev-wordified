@@ -1908,9 +1908,6 @@ totalBytesGreater
 query
 .
 totalBytesGreater
-|
-|
-0
 ;
 const
 totalBytesLess
