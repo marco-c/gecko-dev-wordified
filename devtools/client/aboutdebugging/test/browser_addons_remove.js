@@ -100,6 +100,14 @@ button
 )
 ;
 }
+/
+/
+Remove
+in
+Bug
+1497264
+/
+*
 add_task
 (
 async
@@ -271,6 +279,8 @@ tab
 }
 )
 ;
+*
+/
 add_task
 (
 async
