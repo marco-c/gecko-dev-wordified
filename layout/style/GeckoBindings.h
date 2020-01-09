@@ -1218,6 +1218,13 @@ RawGeckoElementBorrowed
 aElementOrPseudo
 )
 ;
+bool
+Gecko_ElementHasWebAnimations
+(
+RawGeckoElementBorrowed
+aElementOrPseudo
+)
+;
 size_t
 Gecko_ElementTransitions_Length
 (
