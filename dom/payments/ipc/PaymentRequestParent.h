@@ -164,15 +164,7 @@ PaymentRequestParent
 )
 public
 :
-explicit
 PaymentRequestParent
-(
-uint64_t
-aTabId
-)
-;
-uint64_t
-GetTabId
 (
 )
 ;
@@ -301,9 +293,6 @@ aData
 ;
 bool
 mActorAlive
-;
-uint64_t
-mTabId
 ;
 nsString
 mRequestId

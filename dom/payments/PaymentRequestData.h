@@ -727,7 +727,7 @@ PaymentRequest
 (
 const
 uint64_t
-aTabId
+aTopOuterWindowId
 const
 nsAString
 &
@@ -1001,7 +1001,7 @@ PaymentRequest
 default
 ;
 uint64_t
-mTabId
+mTopOuterWindowId
 ;
 nsString
 mRequestId
