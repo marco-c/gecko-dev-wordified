@@ -767,7 +767,7 @@ static
 MOZ_MUST_USE
 ReadableStream
 *
-createStream
+create
 (
 JSContext
 *
