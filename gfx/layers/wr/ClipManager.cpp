@@ -2687,12 +2687,13 @@ StackingContextHelper
 aSc
 )
 {
-nsTArray
+AutoTArray
 <
 wr
 :
 :
 WrClipId
+6
 >
 clipIds
 ;

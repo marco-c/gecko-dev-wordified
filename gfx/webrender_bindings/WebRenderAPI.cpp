@@ -4384,7 +4384,7 @@ c_str
 nil
 )
 "
-clipIds
+aClips
 .
 Length
 (
