@@ -13944,7 +13944,7 @@ enableIncrementalGC
 {
 mode
 =
-JSGC_MODE_INCREMENTAL
+JSGC_MODE_ZONE_INCREMENTAL
 ;
 }
 else
