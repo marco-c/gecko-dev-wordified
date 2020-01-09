@@ -385,9 +385,10 @@ unwrapped
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 obj
+cx
 /
 *
 stopAtWindowProxy
