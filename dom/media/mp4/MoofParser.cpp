@@ -2144,7 +2144,6 @@ uint32_t
 ParseMdia
 (
 box
-tkhd
 )
 ;
 }
@@ -2217,9 +2216,6 @@ ParseMdia
 Box
 &
 aBox
-Tkhd
-&
-aTkhd
 )
 {
 LOG_DEBUG
