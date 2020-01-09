@@ -13467,6 +13467,13 @@ JS
 JS_GC
 (
 cx
+JS
+:
+:
+GCReason
+:
+:
+WORKER_SHUTDOWN
 )
 ;
 /
