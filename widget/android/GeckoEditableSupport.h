@@ -577,6 +577,17 @@ replies
 being
 delayed
 .
+int32_t
+mIMEActiveCompositionCount
+;
+/
+/
+The
+number
+of
+compositions
+expected
+.
 bool
 mIMESelectionChanged
 ;
