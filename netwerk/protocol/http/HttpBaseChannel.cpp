@@ -1058,7 +1058,8 @@ mTopLevelOuterContentWindowId
 )
 mAltDataLength
 (
-0
+-
+1
 )
 mChannelId
 (
@@ -1289,6 +1290,10 @@ mAsyncOpenTimeOverriden
 false
 )
 mForcePending
+(
+false
+)
+mDeliveringAltData
 (
 false
 )
@@ -4093,6 +4098,11 @@ NS_ERROR_NOT_AVAILABLE
 ;
 if
 (
+mDeliveringAltData
+)
+{
+MOZ_ASSERT
+(
 !
 mAvailableCachedAltDataType
 .
@@ -4100,7 +4110,7 @@ IsEmpty
 (
 )
 )
-{
+;
 *
 aContentLength
 =
@@ -7002,6 +7012,11 @@ NS_OK
 }
 if
 (
+mDeliveringAltData
+)
+{
+MOZ_ASSERT
+(
 !
 mAvailableCachedAltDataType
 .
@@ -7009,7 +7024,7 @@ IsEmpty
 (
 )
 )
-{
+;
 LOG
 (
 (

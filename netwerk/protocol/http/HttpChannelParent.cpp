@@ -9356,6 +9356,16 @@ GetAltDataLength
 (
 )
 ;
+bool
+deliveringAltData
+=
+chan
+-
+>
+IsDeliveringAltData
+(
+)
+;
 nsCOMPtr
 <
 nsILoadInfo
@@ -9612,6 +9622,7 @@ redirectCount
 cacheKey
 altDataType
 altDataLen
+deliveringAltData
 applyConversion
 timing
 )

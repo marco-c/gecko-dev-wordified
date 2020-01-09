@@ -820,6 +820,10 @@ altDataLen
 const
 bool
 &
+deliveringAltData
+const
+bool
+&
 aApplyConversion
 const
 ResourceTimingStruct
@@ -2825,6 +2829,10 @@ const
 int64_t
 &
 altDataLen
+const
+bool
+&
+deliveringAltData
 const
 bool
 &
