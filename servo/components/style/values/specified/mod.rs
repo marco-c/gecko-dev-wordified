@@ -1376,6 +1376,7 @@ calc_clamping_mode
 None
 }
 )
+;
 }
 Token
 :
@@ -5885,6 +5886,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 }
 ;

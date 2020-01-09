@@ -79,12 +79,6 @@ source
 size
 -
 list
-use
-app_units
-:
-:
-Au
-;
 #
 [
 cfg
@@ -169,6 +163,12 @@ Length
 NoCalcLength
 ViewportPercentageLength
 }
+;
+use
+app_units
+:
+:
+Au
 ;
 use
 cssparser
@@ -890,6 +890,7 @@ Some
 value
 )
 }
+;
 }
 Ok
 (

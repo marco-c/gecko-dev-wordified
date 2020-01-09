@@ -67,12 +67,6 @@ style
 is
 calculated
 .
-use
-app_units
-:
-:
-Au
-;
 #
 [
 cfg
@@ -311,6 +305,12 @@ traversal_flags
 :
 :
 TraversalFlags
+;
+use
+app_units
+:
+:
+Au
 ;
 #
 [

@@ -97,12 +97,6 @@ interface
 -
 attr
 use
-app_units
-:
-:
-Au
-;
-use
 crate
 :
 :
@@ -177,6 +171,12 @@ LocalName
 Namespace
 Prefix
 }
+;
+use
+app_units
+:
+:
+Au
 ;
 use
 cssparser

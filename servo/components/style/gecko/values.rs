@@ -78,12 +78,6 @@ Gecko
 values
 .
 use
-app_units
-:
-:
-Au
-;
-use
 crate
 :
 :
@@ -382,6 +376,12 @@ crate
 :
 :
 Atom
+;
+use
+app_units
+:
+:
+Au
 ;
 use
 cssparser

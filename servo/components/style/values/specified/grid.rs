@@ -318,12 +318,10 @@ is_sign_positive
 )
 =
 >
-{
 Ok
 (
 value
 )
-}
 ref
 t
 =

@@ -69,12 +69,6 @@ to
 borders
 .
 use
-app_units
-:
-:
-Au
-;
-use
 crate
 :
 :
@@ -233,6 +227,12 @@ size
 :
 :
 Size
+;
+use
+app_units
+:
+:
+Au
 ;
 pub
 use

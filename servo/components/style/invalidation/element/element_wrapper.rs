@@ -1704,6 +1704,7 @@ visited_handling
 matches_unvisited
 (
 )
+;
 }
 NonTSPseudoClass
 :
@@ -1729,6 +1730,7 @@ visited_handling
 matches_visited
 (
 )
+;
 }
 #
 [

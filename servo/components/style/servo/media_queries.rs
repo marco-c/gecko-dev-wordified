@@ -71,12 +71,6 @@ expression
 representation
 .
 use
-app_units
-:
-:
-Au
-;
-use
 crate
 :
 :
@@ -180,6 +174,12 @@ values
 :
 :
 KeyframesName
+;
+use
+app_units
+:
+:
+Au
 ;
 use
 cssparser

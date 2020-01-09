@@ -66,12 +66,6 @@ text
 properties
 .
 use
-app_units
-:
-:
-Au
-;
-use
 crate
 :
 :
@@ -110,6 +104,12 @@ distance
 ComputeSquaredDistance
 SquaredDistance
 }
+;
+use
+app_units
+:
+:
+Au
 ;
 use
 cssparser

@@ -89,12 +89,6 @@ CSS
 spec
 .
 use
-app_units
-:
-:
-Au
-;
-use
 crate
 :
 :
@@ -207,6 +201,12 @@ self
 ComputedValues
 StyleBuilder
 }
+;
+use
+app_units
+:
+:
+Au
 ;
 /
 /

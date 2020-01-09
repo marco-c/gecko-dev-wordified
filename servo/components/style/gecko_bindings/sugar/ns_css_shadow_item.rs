@@ -68,12 +68,6 @@ s
 nsCSSShadowItem
 .
 use
-app_units
-:
-:
-Au
-;
-use
 crate
 :
 :
@@ -102,6 +96,12 @@ effects
 BoxShadow
 SimpleShadow
 }
+;
+use
+app_units
+:
+:
+Au
 ;
 impl
 nsCSSShadowItem
