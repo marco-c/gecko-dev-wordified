@@ -1869,6 +1869,11 @@ webProgress
 addProgressListener
 (
 filteredProgressListener
+Ci
+.
+nsIWebProgress
+.
+NOTIFY_ALL
 )
 ;
 /
