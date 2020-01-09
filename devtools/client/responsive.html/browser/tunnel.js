@@ -3391,11 +3391,6 @@ LocationChange
 "
 Content
 :
-ProgressChange
-"
-"
-Content
-:
 SecurityChange
 "
 "
