@@ -649,6 +649,14 @@ list
 )
 ;
 uint32_t
+loadingState
+=
+nsIWebProgressListener
+:
+:
+STATE_LOADED_TRACKING_CONTENT
+;
+uint32_t
 flags
 =
 0
@@ -818,10 +826,7 @@ AntiTrackingCommon
 :
 eTrackingAnnotations
 flags
-nsIWebProgressListener
-:
-:
-STATE_LOADED_TRACKING_CONTENT
+loadingState
 )
 ;
 return
