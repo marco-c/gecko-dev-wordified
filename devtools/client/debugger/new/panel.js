@@ -39,6 +39,7 @@ can
 obtain
 one
 at
+<
 http
 :
 /
@@ -53,14 +54,10 @@ MPL
 .
 0
 /
+>
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 {
 Task
@@ -663,7 +660,7 @@ function
 (
 )
 {
-let
+const
 frames
 =
 this
