@@ -720,7 +720,6 @@ style
 aData
 .
 mModType
-nullptr
 )
 ;
 /
