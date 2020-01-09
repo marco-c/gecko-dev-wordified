@@ -555,7 +555,7 @@ textbox
 )
 ;
 let
-panel
+popupset
 =
 doc
 .
@@ -566,9 +566,7 @@ document
 getElementById
 (
 "
-urlbar
--
-results
+mainPopupSet
 "
 )
 true
@@ -580,7 +578,7 @@ documentElement
 .
 appendChild
 (
-panel
+popupset
 )
 ;
 let
@@ -588,7 +586,6 @@ inputOptions
 =
 {
 textbox
-panel
 controller
 :
 fakeController

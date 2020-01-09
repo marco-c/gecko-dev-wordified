@@ -414,6 +414,12 @@ focus
 (
 )
 ;
+gURLBarHandler
+.
+customizeEnd
+(
+)
+;
 }
 }
 ;
