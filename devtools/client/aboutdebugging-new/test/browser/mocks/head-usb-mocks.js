@@ -725,7 +725,7 @@ getDeviceDescription
 {
 return
 {
-name
+brandName
 :
 runtimeInfo
 .
