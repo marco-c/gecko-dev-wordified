@@ -2268,7 +2268,7 @@ endif
 /
 *
 *
-MOZ_CRASH_UNSAFE_OOL
+MOZ_CRASH_UNSAFE
 (
 explanation
 -
@@ -2280,8 +2280,8 @@ used
 if
 the
 explanation
-*
 string
+*
 cannot
 be
 a
@@ -2296,11 +2296,11 @@ needs
 to
 be
 done
-*
 on
 it
 )
 .
+*
 A
 regular
 MOZ_CRASH
@@ -2312,8 +2312,8 @@ wherever
 possible
 as
 passing
-*
 arbitrary
+*
 strings
 from
 a
@@ -2325,9 +2325,9 @@ not
 without
 risk
 .
-*
 If
 the
+*
 string
 being
 passed
@@ -2340,9 +2340,9 @@ printf
 -
 style
 function
-*
 consider
 using
+*
 MOZ_CRASH_UNSAFE_PRINTF
 instead
 .
@@ -2429,7 +2429,7 @@ aLine
 }
 #
 define
-MOZ_CRASH_UNSAFE_OOL
+MOZ_CRASH_UNSAFE
 (
 reason
 )
