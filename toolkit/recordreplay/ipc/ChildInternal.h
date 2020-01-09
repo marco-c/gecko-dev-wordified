@@ -412,10 +412,8 @@ aBuffer
 )
 ;
 void
-SetBreakpoint
+AddBreakpoint
 (
-size_t
-aId
 const
 js
 :
@@ -423,6 +421,11 @@ js
 BreakpointPosition
 &
 aPosition
+)
+;
+void
+ClearBreakpoints
+(
 )
 ;
 void
@@ -740,12 +743,6 @@ HitBreakpoint
 (
 bool
 aRecordingEndpoint
-const
-uint32_t
-*
-aBreakpoints
-size_t
-aNumBreakpoints
 )
 ;
 /
