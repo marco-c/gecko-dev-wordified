@@ -1985,6 +1985,12 @@ AutoGCRooter
 parser
 )
 ;
+#
+if
+defined
+(
+JS_BUILD_BINAST
+)
 friend
 void
 js
@@ -2006,6 +2012,11 @@ AutoGCRooter
 parser
 )
 ;
+#
+endif
+/
+/
+JS_BUILD_BINAST
 private
 :
 /
