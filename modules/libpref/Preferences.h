@@ -282,11 +282,6 @@ nsPrefBranch
 namespace
 mozilla
 {
-void
-UnloadPrefsModule
-(
-)
-;
 /
 /
 A
