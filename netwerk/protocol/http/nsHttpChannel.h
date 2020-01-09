@@ -2001,6 +2001,16 @@ OnBeforeConnect
 (
 )
 ;
+MOZ_MUST_USE
+nsresult
+ContinueOnBeforeConnect
+(
+bool
+aShouldUpgrade
+nsresult
+aStatus
+)
+;
 void
 OnBeforeConnectContinue
 (
