@@ -239,6 +239,7 @@ asynchronous
 constructor
 *
 /
+async
 open
 (
 )
@@ -261,6 +262,7 @@ this
 .
 _front
 =
+await
 this
 .
 target
