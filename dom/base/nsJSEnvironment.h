@@ -885,8 +885,13 @@ aScope
 JS
 :
 :
-AutoValueVector
-&
+MutableHandleVector
+<
+JS
+:
+:
+Value
+>
 aArgsOut
 )
 ;

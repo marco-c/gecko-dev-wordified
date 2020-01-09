@@ -3296,7 +3296,7 @@ the
 typed
 array
 .
-AutoValueVector
+RootedValueVector
 values
 (
 cx

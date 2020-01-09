@@ -467,7 +467,7 @@ N
 JS
 :
 :
-AutoValueVector
+RootedValueVector
 argv
 (
 cx

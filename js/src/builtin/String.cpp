@@ -19395,7 +19395,7 @@ Step
 reordered
 )
 .
-AutoValueVector
+RootedValueVector
 splits
 (
 cx

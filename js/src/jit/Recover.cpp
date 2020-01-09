@@ -5326,7 +5326,7 @@ const
 JS
 :
 :
-AutoValueVector
+RootedValueVector
 vec
 (
 cx

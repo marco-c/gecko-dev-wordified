@@ -6454,7 +6454,7 @@ the
 return
 value
 .
-AutoValueVector
+RootedValueVector
 exprStack
 (
 cx

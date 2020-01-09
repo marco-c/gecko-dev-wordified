@@ -5311,7 +5311,7 @@ wary
 of
 overflow
 !
-AutoValueVector
+RootedValueVector
 fieldTypeObjs
 (
 cx
@@ -5679,8 +5679,10 @@ allowConstruct
 AutoIdVector
 &
 ids
-AutoValueVector
-&
+JS
+:
+:
+HandleValueVector
 fieldTypeObjs
 Vector
 <
@@ -5701,7 +5703,7 @@ cx
 Canonical
 string
 repr
-AutoValueVector
+RootedValueVector
 fieldNames
 (
 cx
@@ -5714,7 +5716,7 @@ of
 each
 field
 .
-AutoValueVector
+RootedValueVector
 fieldOffsets
 (
 cx
@@ -5728,7 +5730,7 @@ each
 field
 field
 .
-AutoValueVector
+RootedValueVector
 fieldMuts
 (
 cx

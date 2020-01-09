@@ -6549,9 +6549,7 @@ JSContext
 cx
 HandleNativeObject
 obj
-const
-AutoValueVector
-&
+HandleValueVector
 values
 void
 *

@@ -5198,7 +5198,7 @@ return
 false
 ;
 }
-AutoValueVector
+RootedValueVector
 elems
 (
 cx
@@ -5685,7 +5685,7 @@ return
 false
 ;
 }
-AutoValueVector
+RootedValueVector
 elems
 (
 cx
@@ -6213,7 +6213,7 @@ length
 )
 ;
 }
-AutoValueVector
+RootedValueVector
 elems
 (
 cx

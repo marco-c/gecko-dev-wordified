@@ -252,7 +252,7 @@ fun
 JS
 :
 :
-AutoValueVector
+RootedValueVector
 args
 (
 cx

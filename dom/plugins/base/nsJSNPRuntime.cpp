@@ -4374,7 +4374,13 @@ args
 JS
 :
 :
-AutoValueVector
+RootedVector
+<
+JS
+:
+:
+Value
+>
 jsargs
 (
 cx

@@ -26719,7 +26719,7 @@ false
 Constants
 *
 /
-AutoValueVector
+RootedValueVector
 consts
 (
 cx

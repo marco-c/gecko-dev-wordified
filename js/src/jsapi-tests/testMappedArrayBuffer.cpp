@@ -1025,7 +1025,7 @@ values
 JS
 :
 :
-AutoValueVector
+RootedValueVector
 argv
 (
 cx

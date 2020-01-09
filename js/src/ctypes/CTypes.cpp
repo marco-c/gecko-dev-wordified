@@ -42175,7 +42175,7 @@ StructType
 JS
 :
 :
-AutoValueVector
+RootedValueVector
 fieldsVec
 (
 cx
@@ -45601,7 +45601,10 @@ s
 )
 ;
 }
-AutoValueVector
+JS
+:
+:
+RootedValueVector
 argTypes
 (
 cx
@@ -48103,7 +48106,7 @@ cx
 JS
 :
 :
-AutoValueVector
+RootedValueVector
 vec
 (
 cx
@@ -49871,7 +49874,7 @@ arguments
 JS
 :
 :
-AutoValueVector
+RootedValueVector
 argv
 (
 cx

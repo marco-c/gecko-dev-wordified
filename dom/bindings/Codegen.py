@@ -9029,7 +9029,7 @@ interface
 generated
 for
 a
-seperate
+separate
             
 #
 iterable
@@ -129883,7 +129883,13 @@ fill
 JS
 :
 :
-AutoValueVector
+RootedVector
+<
+JS
+:
+:
+Value
+>
 argv
 (
 cx
@@ -134647,13 +134653,19 @@ functions
 will
 use
         
-an
-AutoValueVector
+a
+RootedVector
+<
+JS
+:
+:
+Value
+>
 while
 interface
 methods
 have
-seperate
+separate
 JS
 :
 :
@@ -134734,14 +134746,20 @@ Helper
 functions
 will
 use
-an
-AutoValueVector
+a
+RootedVector
+<
+JS
+:
+:
+Value
+>
 while
 interface
 methods
 have
         
-seperate
+separate
 JS
 :
 :

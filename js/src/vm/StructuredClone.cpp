@@ -583,6 +583,12 @@ JS
 CanonicalizeNaN
 ;
 using
+JS
+:
+:
+RootedValueVector
+;
+using
 mozilla
 :
 :
@@ -2635,7 +2641,7 @@ to
 be
 read
 .
-AutoValueVector
+RootedValueVector
 objs
 ;
 /
@@ -2755,7 +2761,7 @@ readTypedArray
 hack
 )
 .
-AutoValueVector
+RootedValueVector
 allObjs
 ;
 /
@@ -3184,7 +3190,7 @@ manipulation
 is
 performed
 .
-AutoValueVector
+RootedValueVector
 objs
 ;
 /
@@ -3275,7 +3281,7 @@ SavedFrame
 :
 parent
 SavedFrame
-AutoValueVector
+RootedValueVector
 otherEntries
 ;
 /

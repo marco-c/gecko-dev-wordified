@@ -7169,8 +7169,7 @@ fieldNo
 AutoIdVector
 *
 ids
-AutoValueVector
-*
+MutableHandleValueVector
 fieldTypeObjs
 Vector
 <
@@ -7513,8 +7512,7 @@ if
 (
 !
 fieldTypeObjs
--
->
+.
 append
 (
 ObjectValue
@@ -7735,7 +7733,7 @@ ids
 cx
 )
 ;
-AutoValueVector
+RootedValueVector
 fieldTypeObjs
 (
 cx

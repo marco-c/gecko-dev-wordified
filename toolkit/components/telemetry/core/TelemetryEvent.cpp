@@ -4486,7 +4486,13 @@ extra
 JS
 :
 :
-AutoValueVector
+RootedVector
+<
+JS
+:
+:
+Value
+>
 items
 (
 cx

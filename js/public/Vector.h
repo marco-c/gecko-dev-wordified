@@ -209,7 +209,7 @@ Use
 JS
 :
 :
-AutoValueVector
+RootedValueVector
 instead
 .
 typename

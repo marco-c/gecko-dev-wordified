@@ -2685,7 +2685,13 @@ aCx
 JS
 :
 :
-AutoValueVector
+RootedVector
+<
+JS
+:
+:
+Value
+>
 v
 (
 aCx

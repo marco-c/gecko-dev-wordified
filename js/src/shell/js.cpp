@@ -39707,7 +39707,7 @@ GetShellContext
 cx
 )
 ;
-AutoValueVector
+RootedValueVector
 elems
 (
 cx

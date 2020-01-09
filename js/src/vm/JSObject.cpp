@@ -11183,9 +11183,7 @@ JSContext
 cx
 HandleNativeObject
 obj
-const
-AutoValueVector
-&
+HandleValueVector
 values
 void
 *
@@ -11563,8 +11561,7 @@ cx
 ProxyObject
 *
 proxy
-AutoValueVector
-&
+MutableHandleValueVector
 values
 )
 {
@@ -11774,8 +11771,7 @@ JSContext
 *
 cx
 const
-AutoValueVector
-&
+HandleValueVector
 values
 )
 {
@@ -12928,7 +12924,7 @@ from
 the
 objects
 .
-AutoValueVector
+RootedValueVector
 avals
 (
 cx
@@ -13016,7 +13012,7 @@ swap
 }
 }
 }
-AutoValueVector
+RootedValueVector
 bvals
 (
 cx
@@ -13181,6 +13177,7 @@ CopyProxyValuesBeforeSwap
 (
 cx
 proxyA
+&
 avals
 )
 )
@@ -13208,6 +13205,7 @@ CopyProxyValuesBeforeSwap
 (
 cx
 proxyB
+&
 bvals
 )
 )

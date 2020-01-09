@@ -8143,7 +8143,7 @@ optimized
 =
 true
 ;
-AutoValueVector
+RootedValueVector
 properties
 (
 cx
@@ -10006,7 +10006,7 @@ false
 Step
 3
 .
-AutoValueVector
+RootedValueVector
 properties
 (
 cx
