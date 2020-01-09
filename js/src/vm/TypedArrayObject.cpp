@@ -10419,6 +10419,8 @@ JS_NULL_CLASS_OPS
 TypedArrayObjectSharedTypedArrayPrototypeClassSpec
 }
 ;
+namespace
+{
 /
 /
 this
@@ -10499,8 +10501,6 @@ index
 )
 ;
 }
-namespace
-{
 /
 /
 and
