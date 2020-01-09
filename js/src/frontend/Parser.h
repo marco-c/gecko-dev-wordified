@@ -7634,7 +7634,7 @@ Node
 forInOrOfExpression
 )
 ;
-Node
+NameNodeType
 declarationName
 (
 DeclarationKind
@@ -7719,7 +7719,7 @@ by
 forHeadKind
 |
 .
-Node
+bool
 initializerInNameDeclaration
 (
 NameNodeType
