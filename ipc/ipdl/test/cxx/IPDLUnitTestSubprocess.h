@@ -214,11 +214,6 @@ IPDLUnitTestSubprocess
 (
 )
 ;
-~
-IPDLUnitTestSubprocess
-(
-)
-;
 /
 *
 *
@@ -253,6 +248,11 @@ Launch
 ;
 private
 :
+~
+IPDLUnitTestSubprocess
+(
+)
+;
 DISALLOW_EVIL_CONSTRUCTORS
 (
 IPDLUnitTestSubprocess

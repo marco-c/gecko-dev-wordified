@@ -248,11 +248,6 @@ Listener
 aListener
 )
 ;
-~
-VRProcessParent
-(
-)
-;
 bool
 Launch
 (
@@ -338,6 +333,11 @@ get
 }
 private
 :
+~
+VRProcessParent
+(
+)
+;
 DISALLOW_COPY_AND_ASSIGN
 (
 VRProcessParent

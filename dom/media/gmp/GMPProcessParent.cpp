@@ -733,8 +733,9 @@ Run
 )
 ;
 }
-delete
-this
+Destroy
+(
+)
 ;
 }
 }

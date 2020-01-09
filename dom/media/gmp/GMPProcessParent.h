@@ -202,11 +202,6 @@ string
 aGMPPath
 )
 ;
-~
-GMPProcessParent
-(
-)
-;
 /
 /
 Synchronously
@@ -300,6 +295,11 @@ GetChildProcessHandle
 ;
 private
 :
+~
+GMPProcessParent
+(
+)
+;
 void
 DoDelete
 (

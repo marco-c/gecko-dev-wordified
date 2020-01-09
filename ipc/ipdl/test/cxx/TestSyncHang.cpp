@@ -182,8 +182,16 @@ MessageLoop
 uiLoop
 )
 {
-delete
 gSyncHangSubprocess
+-
+>
+Destroy
+(
+)
+;
+gSyncHangSubprocess
+=
+nullptr
 ;
 }
 void

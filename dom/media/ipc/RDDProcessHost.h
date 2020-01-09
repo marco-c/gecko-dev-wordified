@@ -344,11 +344,6 @@ Listener
 listener
 )
 ;
-~
-RDDProcessHost
-(
-)
-;
 /
 /
 Launch
@@ -741,6 +736,11 @@ KillProcess
 ;
 private
 :
+~
+RDDProcessHost
+(
+)
+;
 /
 /
 Called
@@ -824,8 +824,6 @@ DestroyProcess
 (
 )
 ;
-private
-:
 DISALLOW_COPY_AND_ASSIGN
 (
 RDDProcessHost

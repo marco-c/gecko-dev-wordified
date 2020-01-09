@@ -2668,8 +2668,16 @@ uiLoop
 pong
 to
 QuitXPCOM
-delete
 gSubprocess
+-
+>
+Destroy
+(
+)
+;
+gSubprocess
+=
+nullptr
 ;
 uiLoop
 -
