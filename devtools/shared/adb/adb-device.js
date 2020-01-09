@@ -63,7 +63,7 @@ strict
 ;
 const
 {
-ADB
+shell
 }
 =
 require
@@ -75,7 +75,9 @@ shared
 /
 adb
 /
-adb
+commands
+/
+index
 "
 )
 ;
@@ -143,8 +145,6 @@ const
 model
 =
 await
-ADB
-.
 shell
 (
 "
@@ -286,8 +286,6 @@ const
 rawSocketInfo
 =
 await
-ADB
-.
 shell
 (
 query
