@@ -150,12 +150,6 @@ browser
 '
             
 '
-embedding
-/
-ios
-'
-            
-'
 extensions
 '
             
