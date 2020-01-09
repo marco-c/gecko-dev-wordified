@@ -735,7 +735,6 @@ function
 ValidateTypedArray
 (
 obj
-error
 )
 {
 if
@@ -838,7 +837,7 @@ Steps
 /
 ThrowTypeError
 (
-error
+JSMSG_NON_TYPED_ARRAY_RETURNED
 )
 ;
 }
@@ -894,7 +893,6 @@ isTypedArray
 ValidateTypedArray
 (
 newTypedArray
-JSMSG_NON_TYPED_ARRAY_RETURNED
 )
 ;
 /
@@ -1007,7 +1005,6 @@ Step
 ValidateTypedArray
 (
 newTypedArray
-JSMSG_NON_TYPED_ARRAY_RETURNED
 )
 ;
 /
