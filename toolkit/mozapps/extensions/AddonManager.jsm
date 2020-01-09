@@ -5570,7 +5570,7 @@ GetStringFromName
 "
 defaultTheme
 .
-description
+description2
 "
 )
 iconURL
