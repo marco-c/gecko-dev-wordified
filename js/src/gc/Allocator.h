@@ -119,6 +119,15 @@ include
 "
 gc
 /
+GCLock
+.
+h
+"
+#
+include
+"
+gc
+/
 Heap
 .
 h

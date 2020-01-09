@@ -125,6 +125,15 @@ include
 "
 gc
 /
+GCLock
+.
+h
+"
+#
+include
+"
+gc
+/
 GCRuntime
 .
 h
