@@ -17886,9 +17886,6 @@ aBuilder
 GetVisibleRect
 (
 )
-Matrix4x4
-(
-)
 aIndex
 )
 ;
