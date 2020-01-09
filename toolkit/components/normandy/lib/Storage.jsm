@@ -365,7 +365,7 @@ the
 operation
 is
 completed
-successfully
+succesfully
 *
 rejects
 Javascript
@@ -459,7 +459,7 @@ the
 operation
 is
 completed
-successfully
+succesfully
 *
 rejects
 Javascript
@@ -534,7 +534,7 @@ the
 operation
 is
 completed
-successfully
+succesfully
 *
 rejects
 Javascript
