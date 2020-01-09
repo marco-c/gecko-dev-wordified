@@ -12297,12 +12297,6 @@ endif
 if
 defined
 (
-NIGHTLY_BUILD
-)
-&
-&
-defined
-(
 XP_MACOSX
 )
 &
