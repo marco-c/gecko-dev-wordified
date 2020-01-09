@@ -111,10 +111,7 @@ use
 border
 :
 :
-{
-BorderCornerCacheKey
-BorderEdgeCacheKey
-}
+BorderSegmentCacheKey
 ;
 use
 box_shadow
@@ -6814,13 +6811,9 @@ Picture
 (
 SurfaceCacheKey
 )
-BorderEdge
+BorderSegment
 (
-BorderEdgeCacheKey
-)
-BorderCorner
-(
-BorderCornerCacheKey
+BorderSegmentCacheKey
 )
 LineDecoration
 (

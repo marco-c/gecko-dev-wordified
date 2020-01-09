@@ -589,14 +589,6 @@ a
 mut
 TransformPalette
 pub
-resources
-:
-&
-'
-a
-mut
-FrameResources
-pub
 segment_builder
 :
 SegmentBuilder
@@ -1415,7 +1407,6 @@ special_render_passes
 transforms
 :
 transform_palette
-resources
 segment_builder
 :
 SegmentBuilder
@@ -1493,6 +1484,7 @@ frame_context
 &
 mut
 frame_state
+resources
 )
 ;
 let

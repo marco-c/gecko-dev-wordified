@@ -2093,6 +2093,8 @@ Clone
 PartialEq
 Serialize
 Deserialize
+Eq
+Hash
 )
 ]
 pub
