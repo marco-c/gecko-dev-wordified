@@ -132,7 +132,7 @@ mozilla
 /
 dom
 /
-nsIContentChild
+ContentChild
 .
 h
 "

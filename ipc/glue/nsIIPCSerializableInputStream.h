@@ -159,7 +159,7 @@ namespace
 dom
 {
 class
-nsIContentChild
+ContentChild
 ;
 class
 ContentParent
@@ -272,7 +272,7 @@ mozilla
 dom
 :
 :
-nsIContentChild
+ContentChild
 *
 aManager
 )
@@ -446,7 +446,7 @@ mozilla
 dom
 :
 :
-nsIContentChild
+ContentChild
 *
 )
 override
@@ -612,7 +612,7 @@ mozilla
 dom
 :
 :
-nsIContentChild
+ContentChild
 *
 aManager
 )
@@ -877,7 +877,7 @@ mozilla
 dom
 :
 :
-nsIContentChild
+ContentChild
 *
 aManager
 )
