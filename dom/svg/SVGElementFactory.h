@@ -330,6 +330,8 @@ aFromParser
 #
 include
 "
+mozilla
+/
 SVGTagList
 .
 h
