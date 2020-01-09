@@ -131,7 +131,7 @@ target
 hasActor
 (
 "
-timeline
+inspector
 "
 )
 true
