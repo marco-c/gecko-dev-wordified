@@ -505,11 +505,12 @@ config
 .
 get
 (
-                
+            
 "
 ignore_mitmdump_exit_failure
 "
 False
+        
 )
         
 #
@@ -1101,6 +1102,39 @@ split
 1
 ]
                 
+if
+artifact_name
+.
+endswith
+(
+"
+.
+manifest
+"
+)
+:
+                    
+tooltool_download
+(
+                        
+artifact
+self
+.
+config
+[
+"
+run_local
+"
+]
+self
+.
+mozproxy_dir
+                    
+)
+                
+else
+:
+                    
 dest
 =
 os
@@ -1114,7 +1148,7 @@ self
 mozproxy_dir
 artifact_name
 )
-                
+                    
 download_file_from_url
 (
 artifact
@@ -1384,8 +1418,8 @@ mitmproxy_proc
 =
 ProcessHandler
 (
+            
 command
-                                             
 logfile
 =
 os
@@ -1397,17 +1431,16 @@ join
 self
 .
 upload_dir
-                                                                  
 "
 mitmproxy
 .
 log
 "
 )
-                                             
 env
 =
 env
+        
 )
         
 self
@@ -2811,9 +2844,9 @@ self
 .
 config
 [
-'
+"
 run_local
-'
+"
 ]
 else
 1
@@ -3073,9 +3106,9 @@ self
 .
 config
 [
-'
+"
 run_local
-'
+"
 ]
 :
             
@@ -3117,18 +3150,19 @@ os
 .
 environ
 [
-'
+"
 MOZ_HOST_BIN
-'
+"
 ]
-'
+"
 certutil
-'
+"
 )
             
 if
 not
 (
+                
 os
 .
 path
@@ -3151,6 +3185,7 @@ os
 .
 X_OK
 )
+            
 )
 :
                 
@@ -3158,6 +3193,7 @@ LOG
 .
 critical
 (
+                    
 "
 Abort
 :
@@ -3176,6 +3212,7 @@ self
 .
 certutil
 )
+                
 )
                 
 raise
@@ -3188,18 +3225,18 @@ os
 .
 environ
 [
-'
+"
 MOZ_HOST_BIN
-'
+"
 ]
             
 os
 .
 environ
 [
-'
+"
 LD_LIBRARY_PATH
-'
+"
 ]
 =
 self
