@@ -647,8 +647,6 @@ href
 =
 "
 /
-rev
-/
 "
 .
 join
