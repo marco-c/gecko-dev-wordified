@@ -62,6 +62,12 @@ ImageData
 ImageBitmap
 "
 "
+CanvasGradient
+"
+"
+CanvasPattern
+"
+"
 CanvasPath
 "
 "
