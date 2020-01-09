@@ -868,12 +868,6 @@ PREF_OVERRIDES_ENABLED
 return
 ;
 let
-builtUAs
-=
-new
-Map
-;
-let
 domains
 =
 gPrefBranch
