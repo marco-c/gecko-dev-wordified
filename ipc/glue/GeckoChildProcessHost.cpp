@@ -5674,6 +5674,14 @@ end
 ;
 if
 (
+mProcessType
+!
+=
+GeckoProcessType_GMPlugin
+)
+{
+if
+(
 Omnijar
 :
 :
@@ -5830,6 +5838,7 @@ AddAppDirToCommandLine
 childArgv
 )
 ;
+}
 childArgv
 .
 push_back
