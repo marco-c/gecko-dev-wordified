@@ -264,7 +264,7 @@ if
 l_s
 -
 >
-IsPtrData
+IsIndirect
 (
 )
 )
@@ -275,10 +275,11 @@ l_d
 (
 uint64_t
 )
+&
 l_s
 -
 >
-ptr
+val
 ;
 continue
 ;
