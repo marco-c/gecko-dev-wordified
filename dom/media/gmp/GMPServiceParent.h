@@ -484,14 +484,6 @@ NotifySyncShutdownComplete
 )
 ;
 void
-ProcessPossiblePlugin
-(
-nsIFile
-*
-aDir
-)
-;
-void
 RemoveOnGMPThread
 (
 const
