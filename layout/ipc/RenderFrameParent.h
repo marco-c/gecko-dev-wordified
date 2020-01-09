@@ -249,12 +249,8 @@ TextureFactoryIdentifier
 ;
 public
 :
-explicit
 RenderFrameParent
 (
-nsFrameLoader
-*
-aFrameLoader
 )
 ;
 virtual
