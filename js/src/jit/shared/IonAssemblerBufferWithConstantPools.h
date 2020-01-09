@@ -6441,15 +6441,6 @@ this
 oom
 (
 )
-&
-&
-!
-this
--
->
-bail
-(
-)
 )
 {
 return
