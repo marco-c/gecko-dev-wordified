@@ -2064,15 +2064,8 @@ aIndex
 const
 {
 return
-const_cast
-<
-PLDHashEntryHdr
-*
->
-(
 reinterpret_cast
 <
-const
 PLDHashEntryHdr
 *
 >
@@ -2086,7 +2079,6 @@ Get
 aIndex
 *
 mEntrySize
-)
 )
 ;
 }
