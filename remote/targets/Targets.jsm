@@ -120,7 +120,7 @@ jsm
 ;
 const
 {
-Target
+TabTarget
 }
 =
 ChromeUtils
@@ -138,7 +138,7 @@ content
 /
 targets
 /
-Target
+TabTarget
 .
 jsm
 "
@@ -302,8 +302,9 @@ const
 target
 =
 new
-Target
+TabTarget
 (
+this
 browser
 )
 ;
