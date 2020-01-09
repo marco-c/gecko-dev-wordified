@@ -32222,6 +32222,10 @@ aBuilder
 nsIFrame
 *
 aFrame
+bool
+aEnforceMinimumSize
+=
+true
 )
 ;
 void
@@ -39656,6 +39660,10 @@ MayBeAnimated
 nsDisplayListBuilder
 *
 aBuilder
+bool
+aEnforceMinimumSize
+=
+true
 )
 const
 ;
