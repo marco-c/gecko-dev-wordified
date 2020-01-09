@@ -6691,6 +6691,7 @@ aRv
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 PostHandleEvent
 (

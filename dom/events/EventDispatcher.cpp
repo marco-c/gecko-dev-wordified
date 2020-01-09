@@ -957,7 +957,7 @@ chain
 class
 EventTargetChainItem
 {
-private
+public
 :
 explicit
 EventTargetChainItem
@@ -966,13 +966,11 @@ EventTarget
 *
 aTarget
 )
-;
-public
 :
-EventTargetChainItem
+mTarget
 (
+aTarget
 )
-:
 mItemFlags
 (
 0
@@ -1066,14 +1064,8 @@ aChain
 .
 AppendElement
 (
-)
-;
-etci
--
->
-mTarget
-=
 aTarget
+)
 ;
 return
 etci
@@ -2021,6 +2013,7 @@ chain
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 static
 void
 HandleEventTargetChain
@@ -2352,6 +2345,7 @@ PostHandleEvent
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 PostHandleEvent
 (
@@ -2362,6 +2356,7 @@ aVisitor
 ;
 private
 :
+const
 nsCOMPtr
 <
 EventTarget

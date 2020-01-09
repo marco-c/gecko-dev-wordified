@@ -1763,6 +1763,7 @@ EventChainPreVisitor
 aVisitor
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 PostHandleEventForAnchors
 (
