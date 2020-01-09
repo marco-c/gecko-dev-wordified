@@ -3012,9 +3012,9 @@ layout
 "
 "
 Back
+Forward
 Reload
-OpenOrFocus
-AddBookmark
+OpenLocation
 NewTab
 Share
 "
