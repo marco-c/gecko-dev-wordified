@@ -650,6 +650,15 @@ LayerMetricsWrapper
 aLayer
 )
 ;
+ScrollableLayerGuid
+GetGuid
+(
+const
+LayerMetricsWrapper
+&
+aLayer
+)
+;
 /
 *
 *
