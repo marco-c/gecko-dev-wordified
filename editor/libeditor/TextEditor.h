@@ -2217,15 +2217,6 @@ eNone
 *
 *
 param
-aSelection
-The
-selection
-of
-this
-editor
-.
-*
-param
 aPointToInsert
 The
 DOM
@@ -2320,9 +2311,6 @@ Element
 >
 InsertBrElementWithTransaction
 (
-Selection
-&
-aSelection
 const
 EditorDOMPointBase
 <
@@ -2372,9 +2360,6 @@ extension
 nsresult
 ExtendSelectionForDelete
 (
-Selection
-*
-aSelection
 nsIEditor
 :
 :
@@ -2538,9 +2523,6 @@ virtual
 nsresult
 SelectEntireDocument
 (
-Selection
-*
-aSelection
 )
 override
 ;

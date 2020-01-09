@@ -1117,7 +1117,6 @@ aHTMLEditor
 .
 InitializeSelectionAncestorLimit
 (
-aSelection
 *
 root
 )
@@ -3857,9 +3856,6 @@ HTMLEditorRef
 HandleInlineSpellCheck
 (
 aEditSubAction
-SelectionRef
-(
-)
 mRangeItem
 -
 >
@@ -7212,7 +7208,6 @@ EditorBase
 :
 GetStartPoint
 (
-&
 SelectionRef
 (
 )
@@ -9299,9 +9294,6 @@ HTMLEditorRef
 .
 InsertBrElementWithTransaction
 (
-SelectionRef
-(
-)
 currentPoint
 nsIEditor
 :
@@ -11855,9 +11847,6 @@ HTMLEditorRef
 .
 InsertBrElementWithTransaction
 (
-SelectionRef
-(
-)
 endOfBlockParent
 )
 ;
@@ -12531,9 +12520,6 @@ HTMLEditorRef
 .
 InsertBrElementWithTransaction
 (
-SelectionRef
-(
-)
 aPointToBreak
 )
 ;
@@ -13511,7 +13497,6 @@ EditorBase
 :
 GetStartPoint
 (
-&
 SelectionRef
 (
 )
@@ -14156,9 +14141,6 @@ HTMLEditorRef
 .
 InsertBrElementWithTransaction
 (
-SelectionRef
-(
-)
 endOfPreviousNodeOfSplitPoint
 )
 ;
@@ -14266,9 +14248,6 @@ HTMLEditorRef
 .
 InsertBrElementWithTransaction
 (
-SelectionRef
-(
-)
 pointToInsertBrNode
 )
 ;
@@ -14714,9 +14693,6 @@ HTMLEditorRef
 .
 InsertBrElementWithTransaction
 (
-SelectionRef
-(
-)
 pointToCreateNewBrNode
 )
 ;
@@ -15126,9 +15102,6 @@ HTMLEditorRef
 .
 GetFirstSelectedTableCellElement
 (
-SelectionRef
-(
-)
 error
 )
 ;
@@ -15295,7 +15268,6 @@ EditorBase
 :
 GetStartPoint
 (
-&
 SelectionRef
 (
 )
@@ -15525,10 +15497,6 @@ HTMLEditorRef
 ExtendSelectionForDelete
 (
 &
-SelectionRef
-(
-)
-&
 aAction
 )
 ;
@@ -15601,7 +15569,6 @@ EditorBase
 :
 GetStartPoint
 (
-&
 SelectionRef
 (
 )
@@ -20875,7 +20842,6 @@ EditorBase
 :
 GetStartPoint
 (
-&
 SelectionRef
 (
 )
@@ -21037,9 +21003,6 @@ HTMLEditorRef
 .
 InsertBrElementWithTransaction
 (
-SelectionRef
-(
-)
 atStartOfSelection
 nsIEditor
 :
@@ -25179,7 +25142,6 @@ EditorBase
 :
 GetStartPoint
 (
-&
 SelectionRef
 (
 )
@@ -25340,9 +25302,6 @@ HTMLEditorRef
 .
 InsertBrElementWithTransaction
 (
-SelectionRef
-(
-)
 atCiteNode
 )
 ;
@@ -25839,9 +25798,6 @@ aItemType
 AutoSelectionRestorer
 restoreSelectionLater
 (
-SelectionRef
-(
-)
 HTMLEditorRef
 (
 )
@@ -28381,9 +28337,6 @@ rv
 AutoSelectionRestorer
 restoreSelectionLater
 (
-SelectionRef
-(
-)
 HTMLEditorRef
 (
 )
@@ -28988,9 +28941,6 @@ rv
 AutoSelectionRestorer
 restoreSelectionLater
 (
-SelectionRef
-(
-)
 HTMLEditorRef
 (
 )
@@ -29400,9 +29350,6 @@ HTMLEditorRef
 .
 InsertBrElementWithTransaction
 (
-SelectionRef
-(
-)
 pointToInsertBrNode
 )
 ;
@@ -30459,9 +30406,6 @@ IsEditorDataAvailable
 AutoSelectionRestorer
 restoreSelectionLater
 (
-SelectionRef
-(
-)
 HTMLEditorRef
 (
 )
@@ -30540,7 +30484,6 @@ EditorBase
 :
 GetStartPoint
 (
-&
 SelectionRef
 (
 )
@@ -32398,9 +32341,6 @@ IsEditorDataAvailable
 AutoSelectionRestorer
 restoreSelectionLater
 (
-SelectionRef
-(
-)
 HTMLEditorRef
 (
 )
@@ -34942,9 +34882,6 @@ IsEditorDataAvailable
 AutoSelectionRestorer
 restoreSelectionLater
 (
-SelectionRef
-(
-)
 HTMLEditorRef
 (
 )
@@ -38722,9 +38659,6 @@ aAlignType
 AutoSelectionRestorer
 restoreSelectionLater
 (
-SelectionRef
-(
-)
 HTMLEditorRef
 (
 )
@@ -41697,9 +41631,6 @@ HTMLEditorRef
 .
 InsertBrElementWithTransaction
 (
-SelectionRef
-(
-)
 atBlockParent
 )
 ;
@@ -52185,9 +52116,6 @@ HTMLEditorRef
 .
 InsertBrElementWithTransaction
 (
-SelectionRef
-(
-)
 EditorRawDOMPoint
 (
 pNode
@@ -53918,9 +53846,6 @@ HTMLEditorRef
 .
 InsertBrElementWithTransaction
 (
-SelectionRef
-(
-)
 pointToInsertBR
 )
 ;
@@ -55310,9 +55235,6 @@ HTMLEditorRef
 .
 InsertBrElementWithTransaction
 (
-SelectionRef
-(
-)
 EditorRawDOMPoint
 (
 pNode
@@ -61016,7 +60938,6 @@ EditorBase
 :
 GetStartPoint
 (
-&
 SelectionRef
 (
 )
@@ -61152,7 +61073,6 @@ EditorBase
 :
 GetStartPoint
 (
-&
 SelectionRef
 (
 )
@@ -62126,7 +62046,6 @@ EditorBase
 :
 GetStartPoint
 (
-&
 SelectionRef
 (
 )
@@ -64776,9 +64695,6 @@ HTMLEditorRef
 .
 InsertBrElementWithTransaction
 (
-SelectionRef
-(
-)
 EditorRawDOMPoint
 (
 delNode
@@ -66459,7 +66375,6 @@ EditorBase
 :
 GetStartPoint
 (
-&
 SelectionRef
 (
 )
@@ -66633,7 +66548,6 @@ EditorBase
 :
 GetEndPoint
 (
-&
 SelectionRef
 (
 )
@@ -68103,7 +68017,6 @@ EditorBase
 :
 GetStartPoint
 (
-&
 SelectionRef
 (
 )
@@ -68133,7 +68046,6 @@ EditorBase
 :
 GetEndPoint
 (
-&
 SelectionRef
 (
 )
@@ -69062,9 +68974,6 @@ HTMLEditorRef
 .
 InsertBrElementWithTransaction
 (
-SelectionRef
-(
-)
 pointToInsert
 )
 ;
@@ -70101,9 +70010,6 @@ HTMLEditorRef
 .
 GetSelectionContainerElement
 (
-SelectionRef
-(
-)
 )
 ;
 if
@@ -70256,9 +70162,6 @@ aTargetElement
 AutoSelectionRestorer
 restoreSelectionLater
 (
-SelectionRef
-(
-)
 HTMLEditorRef
 (
 )
@@ -72114,9 +72017,6 @@ NS_ERROR_FAILURE
 AutoSelectionRestorer
 restoreSelectionLater
 (
-SelectionRef
-(
-)
 HTMLEditorRef
 (
 )
@@ -72329,9 +72229,6 @@ NS_ERROR_FAILURE
 AutoSelectionRestorer
 restoreSelectionLater
 (
-SelectionRef
-(
-)
 HTMLEditorRef
 (
 )

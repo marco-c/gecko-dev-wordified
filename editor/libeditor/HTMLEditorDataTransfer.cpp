@@ -1525,6 +1525,7 @@ EditorBase
 :
 GetStartPoint
 (
+*
 selection
 )
 ;
@@ -1910,8 +1911,6 @@ cellElement
 =
 GetFirstSelectedTableCellElement
 (
-*
-selection
 ignoredError
 )
 ;
@@ -2139,8 +2138,6 @@ AutoSelectionRestorer
 restoreSelectionLater
 (
 *
-selection
-*
 this
 )
 ;
@@ -2291,8 +2288,12 @@ nodeList
 [
 0
 ]
+EditorBase
+:
+:
 GetStartPoint
 (
+*
 selection
 )
 )

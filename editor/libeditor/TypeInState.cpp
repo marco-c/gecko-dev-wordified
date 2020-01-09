@@ -493,6 +493,7 @@ EditorBase
 :
 GetStartPoint
 (
+*
 aSelection
 )
 ;
@@ -695,7 +696,6 @@ EditorBase
 :
 GetStartPoint
 (
-&
 aSelection
 )
 )

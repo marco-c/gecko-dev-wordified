@@ -1130,7 +1130,6 @@ htmlEditor
 >
 CheckSelectionStateForAnonymousButtons
 (
-selection
 )
 ;
 /

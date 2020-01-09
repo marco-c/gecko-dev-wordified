@@ -1001,10 +1001,6 @@ TextEditorRef
 .
 CollapseSelectionToEnd
 (
-&
-SelectionRef
-(
-)
 )
 ;
 if
@@ -1446,8 +1442,6 @@ TextEditorRef
 HandleInlineSpellCheck
 (
 aEditSubAction
-*
-selection
 mCachedSelectionNode
 mCachedSelectionOffset
 nullptr
@@ -2684,10 +2678,6 @@ TextEditorRef
 .
 CollapseSelectionToEnd
 (
-&
-SelectionRef
-(
-)
 )
 ;
 if
@@ -2754,7 +2744,6 @@ EditorBase
 :
 GetStartPoint
 (
-&
 SelectionRef
 (
 )
@@ -3016,7 +3005,6 @@ EditorBase
 :
 GetStartPoint
 (
-&
 SelectionRef
 (
 )
@@ -5621,9 +5609,6 @@ TextEditorRef
 .
 SetTextImpl
 (
-SelectionRef
-(
-)
 tString
 *
 curNode
@@ -6125,10 +6110,6 @@ TextEditorRef
 ExtendSelectionForDelete
 (
 &
-SelectionRef
-(
-)
-&
 aCollapsedAction
 )
 ;
@@ -6342,7 +6323,6 @@ EditorBase
 :
 GetStartPoint
 (
-&
 SelectionRef
 (
 )
@@ -6438,10 +6418,6 @@ TextEditorRef
 .
 ExtendSelectionForDelete
 (
-&
-SelectionRef
-(
-)
 &
 aCollapsedAction
 )
@@ -6543,7 +6519,6 @@ EditorBase
 :
 GetStartPoint
 (
-&
 SelectionRef
 (
 )
@@ -10210,9 +10185,6 @@ TextEditorRef
 .
 InsertBrElementWithTransaction
 (
-SelectionRef
-(
-)
 aPointToInsert
 )
 ;

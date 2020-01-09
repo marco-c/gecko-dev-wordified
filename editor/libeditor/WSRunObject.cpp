@@ -1644,7 +1644,6 @@ mHTMLEditor
 >
 InsertBrElementWithTransaction
 (
-aSelection
 pointToInsert
 aSelect
 )
@@ -12928,8 +12927,6 @@ htmlEditor
 >
 InsertBrElementWithTransaction
 (
-*
-selection
 aRun
 -
 >
