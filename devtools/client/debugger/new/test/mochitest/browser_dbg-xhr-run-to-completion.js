@@ -127,6 +127,13 @@ waitForPaused
 dbg
 )
 ;
+await
+waitForSelectedLocation
+(
+dbg
+23
+)
+;
 assertPausedLocation
 (
 dbg

@@ -1134,7 +1134,9 @@ dispatch
 (
 loadSourceText
 (
+{
 source
+}
 )
 )
 ;
@@ -1478,9 +1480,13 @@ dispatch
 (
 setBreakpointPositions
 (
+{
+sourceId
+:
 source
 .
 id
+}
 )
 )
 ;

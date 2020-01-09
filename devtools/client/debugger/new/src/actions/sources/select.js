@@ -910,7 +910,9 @@ dispatch
 (
 loadSourceText
 (
+{
 source
+}
 )
 )
 ;
@@ -1007,9 +1009,11 @@ dispatch
 (
 setSymbols
 (
+{
+source
+:
 loadedSource
-.
-id
+}
 )
 )
 ;

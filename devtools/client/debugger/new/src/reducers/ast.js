@@ -128,9 +128,15 @@ number
 ;
 export
 type
-Symbols
+LoadedSymbols
 =
 SymbolDeclarations
+;
+export
+type
+Symbols
+=
+LoadedSymbols
 |
 {
 |
