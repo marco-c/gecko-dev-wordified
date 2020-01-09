@@ -505,7 +505,7 @@ function
 )
 ;
 }
-20
+19
 )
 ;
 test
@@ -520,7 +520,7 @@ defineProperty
 (
 )
 }
-26
+19
 )
 ;
 test
