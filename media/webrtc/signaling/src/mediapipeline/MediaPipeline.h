@@ -1344,7 +1344,6 @@ SendPacket
 (
 MediaPacket
 &
-&
 packet
 )
 ;
