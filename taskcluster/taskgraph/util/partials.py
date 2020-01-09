@@ -682,7 +682,7 @@ locale
 }
 )
 def
-get_partials_artifacts
+get_partials_artifacts_from_params
 (
 release_history
 platform
@@ -739,7 +739,7 @@ items
     
 ]
 def
-get_partials_artifact_map
+get_partials_info_from_params
 (
 release_history
 platform

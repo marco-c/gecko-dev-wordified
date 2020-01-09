@@ -117,9 +117,9 @@ import
 (
 get_balrog_platform_name
                                      
-get_partials_artifacts
+get_partials_artifacts_from_params
                                      
-get_partials_artifact_map
+get_partials_info_from_params
 )
 from
 taskgraph
@@ -129,11 +129,19 @@ util
 scriptworker
 import
 (
+generate_beetmover_artifact_map
+                                         
+generate_beetmover_upstream_artifacts
+                                         
+generate_beetmover_partials_artifact_map
+                                         
 get_beetmover_bucket_scope
                                          
 get_beetmover_action_scope
                                          
 get_worker_type_for_scope
+                                         
+should_use_artifact_map
 )
 from
 taskgraph
@@ -2880,11 +2888,40 @@ build_platform
 "
 ]
         
+if
+should_use_artifact_map
+(
+platform
+config
+.
+params
+[
+'
+project
+'
+]
+)
+:
+            
+upstream_artifacts
+=
+generate_beetmover_upstream_artifacts
+(
+                
+config
+job
+platform
+locale
+)
+        
+else
+:
+            
 upstream_artifacts
 =
 generate_upstream_artifacts
 (
-            
+                
 config
 job
 job
@@ -2895,7 +2932,7 @@ dependencies
 ]
 platform
 locale
-            
+                
 project
 =
 config
@@ -2906,7 +2943,7 @@ params
 project
 '
 ]
-        
+            
 )
         
 worker
@@ -2942,6 +2979,43 @@ artifacts
 upstream_artifacts
         
 }
+        
+if
+should_use_artifact_map
+(
+platform
+config
+.
+params
+[
+'
+project
+'
+]
+)
+:
+            
+worker
+[
+'
+artifact
+-
+map
+'
+]
+=
+generate_beetmover_artifact_map
+(
+                
+config
+job
+platform
+=
+platform
+locale
+=
+locale
+)
         
 if
 locale
@@ -3013,27 +3087,6 @@ en
 US
 '
         
-#
-Remove
-when
-proved
-reliable
-        
-#
-job
-[
-'
-treeherder
-'
-]
-[
-'
-tier
-'
-]
-=
-3
-        
 platform
 =
 job
@@ -3078,7 +3131,7 @@ platform
         
 artifacts
 =
-get_partials_artifacts
+get_partials_artifacts_from_params
 (
 config
 .
@@ -3090,7 +3143,7 @@ get
 release_history
 '
 )
-                                           
+                                                       
 balrog_platform
 locale
 )
@@ -3132,9 +3185,9 @@ list
 (
 )
         
-artifact_map
+partials_info
 =
-get_partials_artifact_map
+get_partials_info_from_params
 (
             
 config
@@ -3151,10 +3204,57 @@ balrog_platform
 locale
 )
         
+if
+should_use_artifact_map
+(
+platform
+config
+.
+params
+[
+'
+project
+'
+]
+)
+:
+            
+job
+[
+'
+worker
+'
+]
+[
+'
+artifact
+-
+map
+'
+]
+.
+extend
+(
+                
+generate_beetmover_partials_artifact_map
+(
+                    
+config
+job
+partials_info
+platform
+=
+platform
+locale
+=
+locale
+)
+)
+        
 for
 artifact
 in
-artifact_map
+partials_info
 :
             
 artifact_extra
@@ -3177,7 +3277,7 @@ artifact
 buildid
 '
 :
-artifact_map
+partials_info
 [
 artifact
 ]
@@ -3209,7 +3309,7 @@ previousVersion
 :
                 
 if
-artifact_map
+partials_info
 [
 artifact
 ]
@@ -3225,7 +3325,7 @@ artifact_extra
 rel_attr
 ]
 =
-artifact_map
+partials_info
 [
 artifact
 ]
