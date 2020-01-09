@@ -274,7 +274,9 @@ sidebarSplitBoxWidth
 =
 inspector
 .
-sidebarSplitBox
+sidebarSplitBoxRef
+.
+current
 .
 state
 .
