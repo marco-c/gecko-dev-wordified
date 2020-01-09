@@ -12053,7 +12053,7 @@ strict
 =
 parser_
 .
-pc
+pc_
 -
 >
 sc
@@ -12069,7 +12069,7 @@ strict
 !
 parser_
 .
-pc
+pc_
 -
 >
 sc
@@ -38091,7 +38091,7 @@ parser
 (
 )
 .
-pc
+pc_
 ;
 Directives
 directives
@@ -40070,7 +40070,7 @@ moduleFunctionNode
 =
 parser
 .
-pc
+pc_
 -
 >
 functionBox
@@ -44048,7 +44048,7 @@ if
 (
 parser
 .
-pc
+pc_
 -
 >
 isGenerator
@@ -44073,7 +44073,7 @@ if
 (
 parser
 .
-pc
+pc_
 -
 >
 isAsync
@@ -44098,7 +44098,7 @@ if
 (
 parser
 .
-pc
+pc_
 -
 >
 isArrowFunction
@@ -44131,7 +44131,7 @@ if
 (
 parser
 .
-pc
+pc_
 -
 >
 isMethod
@@ -44141,7 +44141,7 @@ isMethod
 |
 parser
 .
-pc
+pc_
 -
 >
 isGetterOrSetter
@@ -44355,7 +44355,7 @@ funbox
 =
 parser
 .
-pc
+pc_
 -
 >
 functionBox
