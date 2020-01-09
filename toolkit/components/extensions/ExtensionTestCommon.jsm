@@ -2543,6 +2543,11 @@ cleanupFile
 :
 file
 signedState
+incognitoOverride
+:
+data
+.
+incognitoOverride
 temporarilyInstalled
 :
 !
