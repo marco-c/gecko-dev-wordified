@@ -1336,6 +1336,14 @@ RevokeTransactionId
 mLatestTransactionId
 )
 ;
+mLatestTransactionId
+=
+mLatestTransactionId
+.
+Prev
+(
+)
+;
 return
 true
 ;
