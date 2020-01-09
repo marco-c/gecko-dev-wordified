@@ -5532,6 +5532,10 @@ pic_state
 &
 mut
 PictureState
+frame_context
+:
+&
+FrameBuildingContext
 frame_state
 :
 &
@@ -5759,6 +5763,9 @@ render_tasks
 clip_data_store
 snap_offsets
 device_pixel_scale
+frame_context
+.
+fb_config
 )
 ;
 let
@@ -19249,6 +19256,7 @@ pic_context
 .
 surface_index
 pic_state
+frame_context
 frame_state
 &
 mut
@@ -19415,6 +19423,7 @@ pic_context
 .
 surface_index
 pic_state
+frame_context
 frame_state
 &
 mut
@@ -19813,6 +19822,9 @@ data_stores
 clip
 snap_offsets
 device_pixel_scale
+frame_context
+.
+fb_config
 )
 ;
 let
