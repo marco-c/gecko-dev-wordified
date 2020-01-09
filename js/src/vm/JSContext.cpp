@@ -3409,8 +3409,11 @@ return
 true
 ;
 }
+JS_PUBLIC_API
+(
 bool
-js
+)
+JS
 :
 :
 PrintError
