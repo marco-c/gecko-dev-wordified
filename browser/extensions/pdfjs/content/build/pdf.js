@@ -1713,14 +1713,14 @@ pdfjsVersion
 .
 1
 .
-42
+52
 '
 ;
 var
 pdfjsBuild
 =
 '
-2194aef0
+4724ebbc
 '
 ;
 var
@@ -30221,7 +30221,7 @@ apiVersion
 .
 1
 .
-42
+52
 '
 source
 :
@@ -38965,7 +38965,7 @@ version
 .
 1
 .
-42
+52
 '
 ;
 exports
@@ -38975,7 +38975,7 @@ build
 build
 =
 '
-2194aef0
+4724ebbc
 '
 ;
 }
