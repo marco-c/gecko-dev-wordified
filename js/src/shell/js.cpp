@@ -11598,7 +11598,7 @@ contents
 BufferContents
 :
 :
-createPlainData
+createMalloced
 (
 buffer
 )
