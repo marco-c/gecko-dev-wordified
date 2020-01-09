@@ -4742,6 +4742,9 @@ const
 ContentParentId
 &
 aCpId
+BrowsingContext
+*
+aBrowsingContext
 const
 bool
 &
@@ -4789,6 +4792,9 @@ const
 ContentParentId
 &
 cpId
+BrowsingContext
+*
+aBrowsingContext
 const
 bool
 &
