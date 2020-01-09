@@ -98,7 +98,6 @@ LOG_FUNCTION
 global
 Services
 URL_HOST
-DEBUG_AUS_TEST
 *
 /
 const
@@ -850,6 +849,11 @@ PR_TRUNCATE
 ;
 var
 gChannel
+;
+var
+gDebugTest
+=
+false
 ;
 /
 *
@@ -5252,7 +5256,7 @@ TEST
 INFO
 messages
 when
-DEBUG_AUS_TEST
+gDebugTest
 evaluates
 to
 true
@@ -5306,7 +5310,7 @@ aCaller
 {
 if
 (
-DEBUG_AUS_TEST
+gDebugTest
 )
 {
 let
