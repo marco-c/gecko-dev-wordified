@@ -159,7 +159,7 @@ HTMLEditorEventListener
 /
 /
 nsIDOMEventListener
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 HandleEvent
 (
