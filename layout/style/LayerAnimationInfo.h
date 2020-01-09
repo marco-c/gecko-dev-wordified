@@ -137,6 +137,13 @@ h
 #
 include
 "
+nsCSSPropertyIDSet
+.
+h
+"
+#
+include
+"
 nsDisplayList
 .
 h
@@ -211,7 +218,12 @@ const
 size_t
 kRecords
 =
-2
+nsCSSPropertyIDSet
+:
+:
+CompositorAnimatableCount
+(
+)
 ;
 static
 const
