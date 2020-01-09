@@ -1386,6 +1386,9 @@ perfFrontMock
 receiveProfile
 :
 receiveProfileMock
+actorVersion
+:
+1
 recordingSettingsFromPreferences
 :
 selectors
