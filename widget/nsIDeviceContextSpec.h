@@ -102,6 +102,13 @@ nsIDeviceContextSpec_h___
 #
 include
 "
+gfxPoint
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h

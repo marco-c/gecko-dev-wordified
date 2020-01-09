@@ -135,6 +135,9 @@ nsTArray
 h
 "
 class
+nsChildView
+;
+class
 NSView
 ;
 namespace
@@ -322,7 +325,7 @@ mViews
 0
 ]
 :
-nil
+NULL
 ;
 }
 private

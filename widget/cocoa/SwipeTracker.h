@@ -171,7 +171,13 @@ Units
 h
 "
 class
+nsChildView
+;
+class
 nsIPresShell
+;
+class
+nsIWidget
 ;
 namespace
 mozilla
@@ -215,7 +221,6 @@ API
 -
 [
 NSEvent
-*
 trackSwipeEventWithOptions
 :
 dampenAmountThresholdMin
@@ -269,7 +274,6 @@ API
 does
 (
 bug
-*
 927702
 )
 .

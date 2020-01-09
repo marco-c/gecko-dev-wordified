@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsColor
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

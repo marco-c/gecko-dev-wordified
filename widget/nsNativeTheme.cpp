@@ -231,6 +231,15 @@ include
 "
 mozilla
 /
+ComputedStyle
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventStates
 .
 h

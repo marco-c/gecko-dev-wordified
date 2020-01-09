@@ -154,6 +154,9 @@ class
 nsIContent
 ;
 class
+nsIPrincipal
+;
+class
 imgRequestProxy
 ;
 class

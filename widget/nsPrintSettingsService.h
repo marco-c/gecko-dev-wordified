@@ -116,6 +116,13 @@ h
 #
 include
 "
+nsIPrintSettings
+.
+h
+"
+#
+include
+"
 nsIPrintSettingsService
 .
 h
@@ -134,9 +141,6 @@ nsFont
 .
 h
 "
-class
-nsIPrintSettings
-;
 /
 *
 *
