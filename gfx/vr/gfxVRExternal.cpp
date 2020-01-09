@@ -2812,17 +2812,6 @@ mDoShutdown
 =
 false
 ;
-if
-(
-!
-aAPIShmem
-)
-{
-OpenShmem
-(
-)
-;
-}
 }
 VRSystemManagerExternal
 :
