@@ -927,11 +927,8 @@ getSettings
 (
 )
 .
-getBoolean
+getFullAccessibilityTree
 (
-GeckoSessionSettings
-.
-FULL_ACCESSIBILITY_TREE
 )
 ?
 getNodeFromGecko
@@ -4643,11 +4640,8 @@ getSettings
 (
 )
 .
-getBoolean
+getFullAccessibilityTree
 (
-GeckoSessionSettings
-.
-FULL_ACCESSIBILITY_TREE
 )
 )
 {
