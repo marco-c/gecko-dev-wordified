@@ -2109,6 +2109,12 @@ DataSourceSurface
 >
 mRawSurface
 ;
+RefPtr
+<
+DataSourceSurface
+>
+mBlankRawSurface
+;
 /
 *
 *
@@ -2145,6 +2151,12 @@ RefPtr
 DataSourceSurface
 >
 mLockedSurface
+;
+RefPtr
+<
+DataSourceSurface
+>
+mBlankLockedSurface
 ;
 /
 *
