@@ -1080,6 +1080,15 @@ aGlobal
 ;
 static
 void
+ResetLastExternalProtocolIframeAllowed
+(
+GlobalObject
+&
+aGlobal
+)
+;
+static
+void
 RegisterWindowActor
 (
 const
