@@ -388,6 +388,12 @@ by
 GetModuleFileName
 (
 )
+Maybe
+<
+double
+>
+mLoadDurationMS
+;
 /
 /
 The

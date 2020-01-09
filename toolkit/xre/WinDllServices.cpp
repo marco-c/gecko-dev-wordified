@@ -2254,6 +2254,14 @@ mBase
 =
 base
 ;
+mi
+.
+mLoadDurationMS
+=
+Nothing
+(
+)
+;
 ModuleLoadEvent
 e
 ;

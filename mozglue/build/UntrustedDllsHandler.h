@@ -447,6 +447,8 @@ uintptr_t
 aBaseAddr
 PUNICODE_STRING
 aLdrModuleName
+double
+aLoadDurationMS
 )
 ;
 /

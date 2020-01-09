@@ -1884,6 +1884,8 @@ uintptr_t
 aBaseAddr
 PUNICODE_STRING
 aLdrModuleName
+double
+aLoadDurationMS
 )
 {
 RefPtr
@@ -1970,6 +1972,12 @@ GetModuleFullPath
 (
 aBaseAddr
 )
+;
+moduleInfo
+.
+mLoadDurationMS
+=
+aLoadDurationMS
 ;
 Unused
 <
