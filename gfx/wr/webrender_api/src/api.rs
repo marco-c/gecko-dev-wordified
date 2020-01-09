@@ -3453,6 +3453,7 @@ bitflags
 derive
 (
 Deserialize
+MallocSizeOf
 Serialize
 )
 ]
@@ -5083,6 +5084,7 @@ Clone
 Copy
 Debug
 Eq
+MallocSizeOf
 PartialEq
 Hash
 Ord
@@ -5116,6 +5118,7 @@ Debug
 Deserialize
 Eq
 Hash
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -5270,6 +5273,7 @@ Debug
 Deserialize
 Eq
 Hash
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -6255,6 +6259,7 @@ derive
 (
 Default
 Deserialize
+MallocSizeOf
 Serialize
 )
 ]
