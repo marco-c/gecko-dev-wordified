@@ -2295,6 +2295,12 @@ queue_debug
                 
 yield
         
+self
+.
+_logger
+=
+logger
+        
 #
 Some
 callers
@@ -3120,9 +3126,8 @@ split
 0
 ]
             
-raise
-InvalidOptionError
-(
+msg
+=
 '
 Unknown
 option
@@ -3132,6 +3137,29 @@ s
 '
 %
 without_value
+            
+if
+self
+.
+_help
+:
+                
+self
+.
+_logger
+.
+warning
+(
+msg
+)
+            
+else
+:
+                
+raise
+InvalidOptionError
+(
+msg
 )
         
 #
