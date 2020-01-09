@@ -1847,6 +1847,15 @@ DestroyContent
 )
 override
 ;
+virtual
+void
+DoneAddingChildren
+(
+bool
+aHaveNotified
+)
+override
+;
 #
 ifdef
 DEBUG
