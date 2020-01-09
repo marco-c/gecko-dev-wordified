@@ -3642,7 +3642,7 @@ t
 )
 ]
 def
-make_nightly_filter
+make_desktop_nightly_filter
 (
 platforms
 )
@@ -3704,6 +3704,37 @@ nightly
 '
 False
 )
+            
+#
+Tests
+and
+nightly
+only
+builds
+don
+'
+t
+have
+shipping_product
+set
+            
+task
+.
+attributes
+.
+get
+(
+'
+shipping_product
+'
+)
+in
+{
+None
+"
+firefox
+"
+}
         
 ]
 )
@@ -3767,7 +3798,7 @@ balrog
     
 filter
 =
-make_nightly_filter
+make_desktop_nightly_filter
 (
 {
 '
@@ -3861,7 +3892,7 @@ balrog
     
 filter
 =
-make_nightly_filter
+make_desktop_nightly_filter
 (
 {
 '
@@ -3952,7 +3983,7 @@ balrog
     
 filter
 =
-make_nightly_filter
+make_desktop_nightly_filter
 (
 {
 '
@@ -4043,7 +4074,7 @@ balrog
     
 filter
 =
-make_nightly_filter
+make_desktop_nightly_filter
 (
 {
 '
@@ -4134,7 +4165,7 @@ balrog
     
 filter
 =
-make_nightly_filter
+make_desktop_nightly_filter
 (
 {
 '
@@ -4225,9 +4256,10 @@ balrog
     
 filter
 =
-make_nightly_filter
+make_desktop_nightly_filter
 (
 {
+        
 '
 linux64
 -
@@ -4237,6 +4269,7 @@ reporter
 -
 nightly
 '
+        
 '
 win64
 -
@@ -4246,6 +4279,7 @@ reporter
 -
 nightly
 '
+    
 }
 )
     
@@ -4307,6 +4341,50 @@ windows
 "
 "
 "
+    
+#
+Tasks
+that
+aren
+'
+t
+platform
+specific
+    
+release_filter
+=
+make_desktop_nightly_filter
+(
+{
+None
+}
+)
+    
+release_tasks
+=
+[
+        
+l
+for
+l
+t
+in
+full_task_graph
+.
+tasks
+.
+iteritems
+(
+)
+        
+if
+release_filter
+(
+t
+parameters
+)
+    
+]
     
 #
 Avoid
@@ -4381,6 +4459,12 @@ full_task_graph
 parameters
 graph_config
 )
+)
+        
+|
+set
+(
+release_tasks
 )
     
 )
