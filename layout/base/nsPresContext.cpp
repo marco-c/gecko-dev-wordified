@@ -1725,8 +1725,10 @@ Warning
 {
 mTextPerf
 =
-new
+MakeUnique
+<
 gfxTextPerfMetrics
+>
 (
 )
 ;
@@ -1744,8 +1746,10 @@ GFX_MISSING_FONTS_NOTIFY_PREF
 {
 mMissingFonts
 =
-new
+MakeUnique
+<
 gfxMissingFontRecorder
+>
 (
 )
 ;
@@ -3918,8 +3922,10 @@ mMissingFonts
 {
 mMissingFonts
 =
-new
+MakeUnique
+<
 gfxMissingFontRecorder
+>
 (
 )
 ;
