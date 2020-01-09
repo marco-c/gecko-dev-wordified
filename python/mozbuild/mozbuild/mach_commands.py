@@ -8607,14 +8607,17 @@ get_debugger_info
 debugger
 debugger_args
 )
-                
+            
 if
+not
+debugger
+or
 not
 self
 .
 debuggerInfo
 :
-                    
+                
 print
 (
 "
@@ -8630,7 +8633,7 @@ PATH
 .
 "
 )
-                    
+                
 return
 1
             
