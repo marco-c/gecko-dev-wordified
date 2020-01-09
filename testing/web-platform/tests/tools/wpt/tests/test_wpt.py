@@ -4166,11 +4166,6 @@ here
 :
 #
 wpt
-check
--
-stability
-#
-wpt
 manifest
 #
 wpt
