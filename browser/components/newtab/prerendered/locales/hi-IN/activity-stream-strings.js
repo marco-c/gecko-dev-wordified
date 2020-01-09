@@ -280,6 +280,7 @@ prefs_content_discovery_header
 :
 "
 Firefox
+Home
 "
 "
 prefs_content_discovery_description
