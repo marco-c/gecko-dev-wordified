@@ -61190,6 +61190,15 @@ nsILoadInfo
 SEC_SANDBOXED
 ;
 }
+/
+/
+TODO
+:
+pass
+openerPolicy
+through
+loadInfo
+?
 RefPtr
 <
 LoadInfo
