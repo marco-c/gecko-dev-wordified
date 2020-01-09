@@ -34287,7 +34287,7 @@ other
 .
 0
 .
-into_iter
+iter
 (
 )
 .
@@ -34311,7 +34311,7 @@ assign_str
 &
 servo
 .
-0
+opening
 )
 ;
 gecko
@@ -34323,7 +34323,7 @@ assign_str
 &
 servo
 .
-1
+closing
 )
 ;
 }
@@ -34441,6 +34441,11 @@ computed_value
 :
 T
 (
+Arc
+:
+:
+new
+(
 gecko_quote_values
 .
 mQuotePairs
@@ -34455,7 +34460,16 @@ map
 gecko_pair
 |
 {
-(
+values
+:
+:
+specified
+:
+:
+QuotePair
+{
+opening
+:
 gecko_pair
 .
 first
@@ -34467,6 +34481,8 @@ to_string
 into_boxed_str
 (
 )
+closing
+:
 gecko_pair
 .
 second
@@ -34478,7 +34494,7 @@ to_string
 into_boxed_str
 (
 )
-)
+}
 }
 )
 .
@@ -34496,6 +34512,7 @@ _
 .
 into_boxed_slice
 (
+)
 )
 )
 }
