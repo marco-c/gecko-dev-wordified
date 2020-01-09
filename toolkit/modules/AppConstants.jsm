@@ -576,6 +576,17 @@ else
 false
 #
 endif
+MOZ_BITS_DOWNLOAD
+:
+#
+ifdef
+MOZ_BITS_DOWNLOAD
+true
+#
+else
+false
+#
+endif
 DEBUG
 :
 #
