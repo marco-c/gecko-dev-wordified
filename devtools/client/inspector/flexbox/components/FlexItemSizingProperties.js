@@ -1943,6 +1943,7 @@ render
 {
 const
 {
+flexDirection
 flexItem
 }
 =
@@ -1961,7 +1962,6 @@ flexItem
 ;
 const
 {
-mainAxisDirection
 mainBaseSize
 mainDeltaSize
 mainMaxSize
@@ -1973,12 +1973,12 @@ flexItemSizing
 const
 dimension
 =
-mainAxisDirection
+flexDirection
 .
 startsWith
 (
 "
-horizontal
+row
 "
 )
 ?
