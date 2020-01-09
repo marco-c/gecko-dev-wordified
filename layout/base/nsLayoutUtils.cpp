@@ -64626,15 +64626,6 @@ shell
 return
 ;
 }
-MOZ_ASSERT
-(
-aMetrics
-.
-GetUseDisplayPortMargins
-(
-)
-)
-;
 if
 (
 gfxPrefs
