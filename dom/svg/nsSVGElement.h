@@ -1009,9 +1009,15 @@ const
 gfxMatrix
 &
 aMatrix
+mozilla
+:
+:
 SVGTransformTypes
 aWhich
 =
+mozilla
+:
+:
 eAllTransforms
 )
 const

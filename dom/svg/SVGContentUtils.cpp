@@ -351,10 +351,6 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
@@ -376,6 +372,9 @@ mozilla
 :
 gfx
 ;
+namespace
+mozilla
+{
 SVGSVGElement
 *
 SVGContentUtils
@@ -5404,3 +5403,8 @@ ellipse
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla
