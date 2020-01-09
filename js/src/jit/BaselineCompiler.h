@@ -1740,6 +1740,13 @@ ValueOperand
 dest
 )
 ;
+void
+loadNumFormalArguments
+(
+Register
+dest
+)
+;
 /
 /
 Loads
@@ -2208,6 +2215,11 @@ emitLoadReturnValue
 (
 ValueOperand
 val
+)
+;
+void
+emitPushNonArrowFunctionNewTarget
+(
 )
 ;
 MOZ_MUST_USE
