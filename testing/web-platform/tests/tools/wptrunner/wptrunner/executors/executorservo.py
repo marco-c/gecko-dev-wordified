@@ -773,6 +773,8 @@ kill
         
 except
 :
+#
+noqa
             
 self
 .
