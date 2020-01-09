@@ -269,6 +269,8 @@ color
 roundButtonColor
 ;
 background
+-
+image
 :
 roundButtonBackground
 ;
@@ -442,6 +444,8 @@ true
 ]
 {
 background
+-
+image
 :
 roundButtonPressedBackground
 ;
