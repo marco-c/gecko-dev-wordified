@@ -1120,7 +1120,7 @@ can
 '
 t
 use
-MOZ_CrashOOL
+MOZ_Crash
 directly
 because
 it
@@ -1836,7 +1836,7 @@ to
 Gecko
 '
 s
-MOZ_CrashOOL
+MOZ_Crash
 .
 #
 [

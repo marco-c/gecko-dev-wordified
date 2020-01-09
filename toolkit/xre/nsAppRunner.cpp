@@ -31452,7 +31452,7 @@ size
 Similarly
 this
 wraps
-MOZ_CrashOOL
+MOZ_Crash
 extern
 "
 C
@@ -31472,7 +31472,7 @@ char
 aReason
 )
 {
-MOZ_CrashOOL
+MOZ_Crash
 (
 aFilename
 aLine

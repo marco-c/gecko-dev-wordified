@@ -2390,7 +2390,7 @@ inline
 MOZ_COLD
 MOZ_NORETURN
 void
-MOZ_CrashOOL
+MOZ_Crash
 (
 const
 char
@@ -2433,7 +2433,7 @@ MOZ_CRASH_UNSAFE_OOL
 (
 reason
 )
-MOZ_CrashOOL
+MOZ_Crash
 (
 __FILE__
 __LINE__
