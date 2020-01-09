@@ -57,9 +57,6 @@ MPL
 *
 /
 use
-crate
-:
-:
 cg
 ;
 use
@@ -187,7 +184,6 @@ parse_quote
 #
 param
 :
-crate
 :
 :
 values
@@ -414,7 +410,6 @@ quote
 impl
 #
 impl_generics
-crate
 :
 :
 values
@@ -455,7 +450,6 @@ other
 Self
 procedure
 :
-crate
 :
 :
 values
@@ -693,6 +687,8 @@ let
 #
 result
 =
+:
+:
 std
 :
 :
@@ -719,7 +715,6 @@ let
 #
 result
 =
-crate
 :
 :
 values

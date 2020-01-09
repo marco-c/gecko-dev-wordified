@@ -67,9 +67,6 @@ column
 properties
 .
 use
-crate
-:
-:
 values
 :
 :
@@ -79,9 +76,6 @@ computed
 PositiveInteger
 ;
 use
-crate
-:
-:
 values
 :
 :

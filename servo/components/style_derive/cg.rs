@@ -481,6 +481,8 @@ parse_quote
 #
 ident
 as
+:
+:
 #
 trait_path
 >

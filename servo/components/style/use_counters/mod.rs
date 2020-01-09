@@ -79,9 +79,6 @@ gecko
 )
 ]
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -98,9 +95,6 @@ HasSimpleFFI
 }
 ;
 use
-crate
-:
-:
 properties
 :
 :
@@ -614,7 +608,6 @@ UseCounters
 type
 FFIType
 =
-crate
 :
 :
 gecko_bindings

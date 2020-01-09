@@ -73,9 +73,6 @@ missing_docs
 )
 ]
 use
-crate
-:
-:
 context
 :
 :
@@ -105,9 +102,6 @@ ParseErrorKind
 }
 ;
 use
-crate
-:
-:
 custom_properties
 :
 :
@@ -117,9 +111,6 @@ CssEnvironment
 }
 ;
 use
-crate
-:
-:
 error_reporting
 :
 :
@@ -135,18 +126,12 @@ itertools
 Itertools
 ;
 use
-crate
-:
-:
 parser
 :
 :
 ParserContext
 ;
 use
-crate
-:
-:
 properties
 :
 :
@@ -159,9 +144,6 @@ AnimationValueMap
 }
 ;
 use
-crate
-:
-:
 shared_lock
 :
 :
@@ -216,9 +198,6 @@ slice
 Iter
 ;
 use
-crate
-:
-:
 str
 :
 :
@@ -241,9 +220,6 @@ ToCss
 }
 ;
 use
-crate
-:
-:
 stylesheets
 :
 :
@@ -260,9 +236,6 @@ super
 *
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -1103,7 +1076,6 @@ Option
 a
 Arc
 <
-crate
 :
 :
 custom_properties
@@ -1170,7 +1142,6 @@ Option
 a
 Arc
 <
-crate
 :
 :
 custom_properties
@@ -1774,7 +1745,6 @@ Option
 a
 Arc
 <
-crate
 :
 :
 custom_properties
@@ -3276,9 +3246,6 @@ old_display
 slot
 {
 use
-crate
-:
-:
 properties
 :
 :
@@ -5777,7 +5744,6 @@ Option
 <
 Arc
 <
-crate
 :
 :
 custom_properties
@@ -5856,7 +5822,6 @@ Option
 &
 Arc
 <
-crate
 :
 :
 custom_properties
@@ -5876,7 +5841,6 @@ Option
 <
 Arc
 <
-crate
 :
 :
 custom_properties

@@ -66,9 +66,6 @@ box
 properties
 .
 use
-crate
-:
-:
 values
 :
 :
@@ -84,9 +81,6 @@ NonNegativeLength
 }
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -100,9 +94,6 @@ ToComputedValue
 }
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -117,9 +108,6 @@ as
 GenericAnimationIterationCount
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -134,9 +122,6 @@ as
 GenericPerspective
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -151,9 +136,6 @@ as
 GenericVerticalAlign
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -166,9 +148,6 @@ specified
 ;
 pub
 use
-crate
-:
-:
 values
 :
 :
@@ -188,9 +167,6 @@ OverflowClipBox
 ;
 pub
 use
-crate
-:
-:
 values
 :
 :
@@ -211,9 +187,6 @@ SpecifiedFloat
 ;
 pub
 use
-crate
-:
-:
 values
 :
 :

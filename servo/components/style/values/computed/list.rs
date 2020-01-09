@@ -76,9 +76,6 @@ gecko
 ]
 pub
 use
-crate
-:
-:
 values
 :
 :
@@ -92,9 +89,6 @@ ListStyleType
 ;
 pub
 use
-crate
-:
-:
 values
 :
 :

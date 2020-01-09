@@ -160,9 +160,6 @@ mask
 "
 >
 use
-crate
-:
-:
 properties
 :
 :
@@ -180,9 +177,6 @@ mask_position_y
 }
 ;
 use
-crate
-:
-:
 properties
 :
 :
@@ -195,9 +189,6 @@ mask_image
 }
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -210,9 +201,6 @@ PositionComponent
 }
 ;
 use
-crate
-:
-:
 parser
 :
 :
@@ -1135,9 +1123,6 @@ fmt
 Write
 {
 use
-crate
-:
-:
 properties
 :
 :
@@ -1158,9 +1143,6 @@ as
 Origin
 ;
 use
-crate
-:
-:
 properties
 :
 :
@@ -1596,9 +1578,6 @@ position
 "
 >
 use
-crate
-:
-:
 properties
 :
 :
@@ -1611,9 +1590,6 @@ mask_position_y
 }
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -1626,9 +1602,6 @@ position
 Position
 ;
 use
-crate
-:
-:
 parser
 :
 :

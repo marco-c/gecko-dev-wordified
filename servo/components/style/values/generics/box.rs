@@ -66,9 +66,6 @@ box
 properties
 .
 use
-crate
-:
-:
 values
 :
 :

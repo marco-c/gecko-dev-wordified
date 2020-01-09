@@ -80,9 +80,6 @@ ToAnimatedZero
 }
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -98,9 +95,6 @@ Length
 }
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -116,9 +110,6 @@ LengthOrPercentageOrNone
 }
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -130,9 +121,6 @@ as
 ComputedMaxLength
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -144,9 +132,6 @@ as
 ComputedMozLength
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -550,9 +535,6 @@ AnimatedValue
 Self
 {
 use
-crate
-:
-:
 values
 :
 :
@@ -566,9 +548,6 @@ Percentage
 }
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -729,9 +708,6 @@ AnimatedValue
 Self
 {
 use
-crate
-:
-:
 values
 :
 :
@@ -745,9 +721,6 @@ Percentage
 }
 ;
 use
-crate
-:
-:
 values
 :
 :

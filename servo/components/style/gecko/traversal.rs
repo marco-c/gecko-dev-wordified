@@ -70,9 +70,6 @@ DOM
 traversal
 .
 use
-crate
-:
-:
 context
 :
 :
@@ -82,9 +79,6 @@ StyleContext
 }
 ;
 use
-crate
-:
-:
 dom
 :
 :
@@ -94,9 +88,6 @@ TNode
 }
 ;
 use
-crate
-:
-:
 gecko
 :
 :
@@ -109,9 +100,6 @@ GeckoNode
 }
 ;
 use
-crate
-:
-:
 traversal
 :
 :

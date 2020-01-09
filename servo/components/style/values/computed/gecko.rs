@@ -69,9 +69,6 @@ only
 properties
 .
 use
-crate
-:
-:
 values
 :
 :
@@ -84,9 +81,6 @@ length
 LengthOrPercentage
 ;
 use
-crate
-:
-:
 values
 :
 :

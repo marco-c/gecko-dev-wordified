@@ -66,9 +66,6 @@ outline
 properties
 pub
 use
-crate
-:
-:
 values
 :
 :

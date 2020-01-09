@@ -72,9 +72,6 @@ url
 values
 .
 use
-crate
-:
-:
 values
 :
 :
@@ -101,9 +98,6 @@ gecko
 ]
 pub
 use
-crate
-:
-:
 gecko
 :
 :
@@ -128,9 +122,6 @@ servo
 ]
 pub
 use
-crate
-:
-:
 servo
 :
 :

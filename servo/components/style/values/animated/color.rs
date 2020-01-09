@@ -66,9 +66,6 @@ CSS
 colors
 .
 use
-crate
-:
-:
 values
 :
 :
@@ -82,9 +79,6 @@ ToAnimatedZero
 }
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -97,9 +91,6 @@ SquaredDistance
 }
 ;
 use
-crate
-:
-:
 values
 :
 :

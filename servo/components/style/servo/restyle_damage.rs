@@ -86,9 +86,6 @@ style
 changes
 .
 use
-crate
-:
-:
 computed_values
 :
 :
@@ -100,9 +97,6 @@ as
 Display
 ;
 use
-crate
-:
-:
 matching
 :
 :
@@ -112,9 +106,6 @@ StyleDifference
 }
 ;
 use
-crate
-:
-:
 properties
 :
 :

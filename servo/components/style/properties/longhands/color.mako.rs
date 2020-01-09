@@ -607,9 +607,6 @@ split
 %
 >
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -619,9 +616,6 @@ bindings
 Gecko_GetLookAndFeelSystemColor
 ;
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -658,9 +652,6 @@ ToCss
 }
 ;
 use
-crate
-:
-:
 values
 :
 :

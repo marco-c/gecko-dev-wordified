@@ -65,9 +65,6 @@ for
 UI
 properties
 use
-crate
-:
-:
 values
 :
 :
@@ -80,9 +77,6 @@ color
 Color
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -95,9 +89,6 @@ url
 ComputedImageUrl
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -107,9 +98,6 @@ computed
 Number
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -121,9 +109,6 @@ as
 generics
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -134,9 +119,6 @@ Either
 ;
 pub
 use
-crate
-:
-:
 values
 :
 :

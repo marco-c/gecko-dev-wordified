@@ -139,9 +139,6 @@ columns
 "
 >
 use
-crate
-:
-:
 properties
 :
 :
@@ -492,9 +489,6 @@ rule
 "
 >
 use
-crate
-:
-:
 properties
 :
 :
@@ -507,9 +501,6 @@ column_rule_style
 }
 ;
 use
-crate
-:
-:
 properties
 :
 :

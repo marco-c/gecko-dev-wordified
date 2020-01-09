@@ -86,9 +86,6 @@ css
 align
 /
 use
-crate
-:
-:
 values
 :
 :
@@ -101,9 +98,6 @@ ToComputedValue
 }
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -581,9 +575,6 @@ Context
 JustifyItems
 {
 use
-crate
-:
-:
 values
 :
 :

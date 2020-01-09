@@ -68,9 +68,6 @@ s
 nsCSSShadowArray
 .
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -80,9 +77,6 @@ bindings
 Gecko_AddRefCSSShadowArrayArbitraryThread
 ;
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -92,9 +86,6 @@ bindings
 Gecko_NewCSSShadowArray
 ;
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -104,9 +95,6 @@ bindings
 Gecko_ReleaseCSSShadowArrayArbitraryThread
 ;
 use
-crate
-:
-:
 gecko_bindings
 :
 :

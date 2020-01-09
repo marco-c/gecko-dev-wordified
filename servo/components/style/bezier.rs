@@ -95,9 +95,6 @@ missing_docs
 )
 ]
 use
-crate
-:
-:
 values
 :
 :

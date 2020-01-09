@@ -257,9 +257,6 @@ width
 "
 >
 use
-crate
-:
-:
 values
 :
 :
@@ -272,9 +269,6 @@ rect
 Rect
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -525,9 +519,6 @@ i
 >
 {
 use
-crate
-:
-:
 values
 :
 :
@@ -1252,9 +1243,6 @@ i
 >
 {
 use
-crate
-:
-:
 properties
 :
 :
@@ -1268,9 +1256,6 @@ border_image_slice
 }
 ;
 use
-crate
-:
-:
 properties
 :
 :
@@ -1678,7 +1663,6 @@ border_left
 =
 "
 <
-crate
 :
 :
 properties
@@ -1831,9 +1815,6 @@ radius
 "
 >
 use
-crate
-:
-:
 values
 :
 :
@@ -1846,9 +1827,6 @@ rect
 Rect
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -1861,9 +1839,6 @@ border
 BorderCornerRadius
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -1876,9 +1851,6 @@ border
 BorderRadius
 ;
 use
-crate
-:
-:
 parser
 :
 :
@@ -2208,9 +2180,6 @@ image
 "
 >
 use
-crate
-:
-:
 properties
 :
 :
@@ -2224,9 +2193,6 @@ border_image_slice
 }
 ;
 use
-crate
-:
-:
 properties
 :
 :

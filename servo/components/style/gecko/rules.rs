@@ -65,9 +65,6 @@ CSS
 Rule
 objects
 use
-crate
-:
-:
 counter_style
 :
 :
@@ -77,9 +74,6 @@ CounterBound
 }
 ;
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -92,9 +86,6 @@ nsCSSValue
 }
 ;
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -133,9 +124,6 @@ nsCSSValue
 )
 {
 use
-crate
-:
-:
 counter_style
 :
 :
@@ -1022,9 +1010,6 @@ nsCSSValue
 )
 {
 use
-crate
-:
-:
 counter_style
 :
 :
