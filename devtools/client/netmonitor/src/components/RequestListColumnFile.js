@@ -280,6 +280,13 @@ decodedFileURL
 )
 ;
 const
+requestedFile
+=
+urlDetails
+.
+baseNameWithQuery
+;
+const
 fileToolTip
 =
 originalFileURL
@@ -326,7 +333,7 @@ title
 :
 fileToolTip
 }
-originalFileURL
+requestedFile
 )
 )
 ;

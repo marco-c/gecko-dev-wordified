@@ -3988,6 +3988,15 @@ n
 DECODED_FILE_URL
 ;
 const
+requestedFile
+=
+requestItem
+.
+urlDetails
+.
+baseNameWithQuery
+;
+const
 host
 =
 getUnicodeHostname
@@ -4217,7 +4226,7 @@ textContent
 .
 startsWith
 (
-url
+requestedFile
 )
 "
 The
@@ -4286,7 +4295,7 @@ file
 )
 .
 textContent
-url
+requestedFile
 "
 The
 displayed
