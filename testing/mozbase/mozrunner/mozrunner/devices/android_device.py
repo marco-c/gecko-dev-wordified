@@ -4484,7 +4484,7 @@ command
 gpu
 '
 '
-swiftshader
+swiftshader_indirect
 '
 ]
         
