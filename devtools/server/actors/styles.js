@@ -3475,7 +3475,7 @@ if
 (
 selectorInfo
 .
-elementStyle
+inlineStyle
 )
 {
 const
@@ -4436,7 +4436,7 @@ isSystem
 !
 SharedCssLogic
 .
-isContentStylesheet
+isAuthorStylesheet
 (
 domRule
 .
