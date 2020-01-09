@@ -25643,6 +25643,15 @@ downgrade
 &
 &
 isDowngrade
+&
+&
+!
+EnvHasValue
+(
+"
+MOZ_ALLOW_DOWNGRADE
+"
+)
 )
 {
 rv
