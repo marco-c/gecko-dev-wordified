@@ -1418,8 +1418,8 @@ mPresShell
 .
 nsIPresShell
 *
-MOZ_NON_OWNING_REF
 const
+MOZ_NON_OWNING_REF
 mPresShell
 =
 nullptr

@@ -2749,6 +2749,7 @@ QUALIFIERS
 T
 *
 \
+MOZ_HEAP_ALLOCATOR
 NEWNAME
 (
 Args
@@ -2759,7 +2760,6 @@ Args
 .
 args
 )
-MOZ_HEAP_ALLOCATOR
 {
 \
 void
@@ -2931,6 +2931,7 @@ T
 >
 >
 \
+MOZ_HEAP_ALLOCATOR
 MAKENAME
 (
 Args
@@ -2941,7 +2942,6 @@ Args
 .
 args
 )
-MOZ_HEAP_ALLOCATOR
 {
 \
 T
