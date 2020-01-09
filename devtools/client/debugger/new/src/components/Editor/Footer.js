@@ -803,7 +803,6 @@ toggle
 collapsed
 =
 {
-!
 this
 .
 props
