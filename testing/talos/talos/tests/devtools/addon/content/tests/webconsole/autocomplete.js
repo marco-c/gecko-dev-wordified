@@ -430,7 +430,9 @@ we
 need
 to
 call
-fetchAutocompletionProperties
+the
+autocompleteUpdate
+action
 in
 order
 to
@@ -447,7 +449,9 @@ value
 ;
 jsterm
 .
-fetchAutocompletionProperties
+props
+.
+autocompleteUpdate
 (
 )
 ;
