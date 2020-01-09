@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+from
+__future__
+import
+print_function
 __all__
 =
 [
@@ -283,10 +287,12 @@ p
 :
         
 print
->
->
-errout
+(
 p
+file
+=
+errout
+)
         
 return
 None

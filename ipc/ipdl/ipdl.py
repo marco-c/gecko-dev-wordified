@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+from
+__future__
+import
+print_function
 import
 optparse
 import
@@ -882,11 +886,7 @@ None
 :
         
 print
->
->
-sys
-.
-stderr
+(
 '
 Specification
 could
@@ -895,6 +895,12 @@ be
 parsed
 .
 '
+file
+=
+sys
+.
+stderr
+)
         
 sys
 .
@@ -923,11 +929,7 @@ ast
 :
         
 print
->
->
-sys
-.
-stderr
+(
 '
 Specification
 is
@@ -936,6 +938,12 @@ well
 typed
 .
 '
+file
+=
+sys
+.
+stderr
+)
         
 sys
 .
@@ -956,11 +964,7 @@ syncMsgList
 :
         
 print
->
->
-sys
-.
-stderr
+(
 '
 Error
 :
@@ -985,6 +989,12 @@ s
 options
 .
 syncMsgList
+file
+=
+sys
+.
+stderr
+)
 #
 NOQA
 :
@@ -1220,11 +1230,7 @@ undefinedMessages
 :
     
 print
->
->
-sys
-.
-stderr
+(
 '
 Error
 :
@@ -1239,14 +1245,22 @@ metadata
 ini
 :
 '
-    
-print
->
->
+file
+=
 sys
 .
 stderr
+)
+    
+print
+(
 undefinedMessages
+file
+=
+sys
+.
+stderr
+)
     
 sys
 .
@@ -1260,9 +1274,7 @@ StringIO
 (
 )
 print
->
->
-ipcmsgstart
+(
 "
 "
 "
@@ -1291,6 +1303,10 @@ IPCMessageStart
 "
 "
 "
+file
+=
+ipcmsgstart
+)
 for
 name
 in
@@ -1298,19 +1314,19 @@ allprotocols
 :
     
 print
->
->
-ipcmsgstart
+(
 "
 %
 s
 "
 %
 name
-print
->
->
+file
+=
 ipcmsgstart
+)
+print
+(
 "
 "
 "
@@ -1341,15 +1357,17 @@ IPCMessageStart_h
 "
 "
 "
+file
+=
+ipcmsgstart
+)
 ipc_msgtype_name
 =
 StringIO
 (
 )
 print
->
->
-ipc_msgtype_name
+(
 "
 "
 "
@@ -1403,6 +1421,10 @@ IPCMessages
 "
 "
 "
+file
+=
+ipc_msgtype_name
+)
 for
 protocol
 in
@@ -1435,9 +1457,7 @@ num
 :
             
 print
->
->
-ipc_msgtype_name
+(
 "
 %
 s
@@ -1449,6 +1469,10 @@ s
 (
 msg
 num
+)
+file
+=
+ipc_msgtype_name
 )
         
 elif
@@ -1464,9 +1488,7 @@ End
 :
             
 print
->
->
-ipc_msgtype_name
+(
 "
 %
 s__
@@ -1478,10 +1500,12 @@ s
 protocol
 msg
 )
-print
->
->
+file
+=
 ipc_msgtype_name
+)
+print
+(
 "
 "
 "
@@ -1513,6 +1537,10 @@ aMessageType
 "
 "
 "
+file
+=
+ipc_msgtype_name
+)
 for
 protocol
 in
@@ -1556,9 +1584,7 @@ End
 continue
         
 print
->
->
-ipc_msgtype_name
+(
 "
 "
 "
@@ -1590,10 +1616,12 @@ msg
 protocol
 msg
 )
-print
->
->
+file
+=
 ipc_msgtype_name
+)
+print
+(
 "
 "
 "
@@ -1672,6 +1700,10 @@ IPC
 "
 "
 "
+file
+=
+ipc_msgtype_name
+)
 ipdl
 .
 writeifmodified

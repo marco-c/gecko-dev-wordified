@@ -68,6 +68,10 @@ MPL
 0
 /
 .
+from
+__future__
+import
+print_function
 import
 sys
 from
@@ -409,10 +413,12 @@ errors
 :
             
 print
->
->
-errout
+(
 error
+file
+=
+errout
+)
         
 return
 False
@@ -513,9 +519,7 @@ item
 :
             
 print
->
->
-errout
+(
 '
 Error
 :
@@ -535,8 +539,7 @@ fixed
 \
 n
 '
-\
-                            
+                  
 '
 Please
 remove
@@ -551,6 +554,10 @@ ini
 '
 %
 item
+file
+=
+errout
+)
             
 error_free
 =
