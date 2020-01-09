@@ -317,7 +317,6 @@ HippoError
 )
 "
 HippoError
-:
 "
 )
 ;
@@ -342,7 +341,6 @@ neigh
 HorseError
 :
 neigh
-:
 "
 )
 ;
@@ -381,7 +379,6 @@ dog
 DogError
 :
 woof
-:
 "
 )
 ;
@@ -443,7 +440,6 @@ cat
 CatError
 :
 meow
-:
 "
 )
 ;
