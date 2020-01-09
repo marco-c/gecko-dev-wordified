@@ -422,6 +422,9 @@ bool
 mCSDCloseButton
 ;
 bool
+mCSDReversedPlacement
+;
+bool
 mInitialized
 ;
 void
