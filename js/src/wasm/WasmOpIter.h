@@ -252,6 +252,7 @@ LabelKind
 :
 uint8_t
 {
+Body
 Block
 Loop
 Then
@@ -5547,7 +5548,7 @@ pushControl
 LabelKind
 :
 :
-Block
+Body
 ret
 )
 ;
@@ -5703,7 +5704,7 @@ kind
 LabelKind
 :
 :
-Block
+Body
 )
 ;
 if
