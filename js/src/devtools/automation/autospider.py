@@ -2994,15 +2994,6 @@ i686
 pc
 -
 mingw32
--
--
-host
-=
-i686
--
-pc
--
-mingw32
 '
     
 elif
@@ -3041,15 +3032,6 @@ CONFIGURE_ARGS
 -
 -
 target
-=
-i686
--
-pc
--
-linux
--
--
-host
 =
 i686
 -
@@ -3207,15 +3189,6 @@ CONFIGURE_ARGS
 -
 -
 target
-=
-x86_64
--
-pc
--
-mingw32
--
--
-host
 =
 x86_64
 -
