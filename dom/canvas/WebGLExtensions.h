@@ -668,6 +668,15 @@ WebGLExtensionDepthTexture
 (
 )
 ;
+static
+bool
+IsSupported
+(
+const
+WebGLContext
+*
+)
+;
 DECL_WEBGL_EXTENSION_GOOP
 }
 ;
