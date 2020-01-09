@@ -675,6 +675,9 @@ aCallFactory
 )
 :
 ForgettableAsyncCall
+<
+AsyncInterface
+>
 (
 aCallFactory
 )
@@ -2059,6 +2062,8 @@ Begin_
 #
 SyncMethodName
 \
+#
+#
 __VA_ARGS__
 )
 #
