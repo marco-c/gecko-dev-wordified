@@ -18332,7 +18332,7 @@ intrinsic_TypedArrayByteOffset
 0
 IntrinsicTypedArrayByteOffset
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 TypedArrayElementShift
@@ -18340,6 +18340,7 @@ TypedArrayElementShift
 intrinsic_TypedArrayElementShift
 1
 0
+IntrinsicTypedArrayElementShift
 )
 JS_INLINABLE_FN
 (

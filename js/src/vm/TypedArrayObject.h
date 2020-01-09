@@ -1854,6 +1854,7 @@ result
 ;
 static
 inline
+constexpr
 unsigned
 TypedArrayShift
 (
@@ -1943,8 +1944,6 @@ return
 ;
 default
 :
-;
-}
 MOZ_CRASH
 (
 "
@@ -1954,6 +1953,7 @@ type
 "
 )
 ;
+}
 }
 static
 inline

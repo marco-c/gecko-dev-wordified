@@ -5579,6 +5579,14 @@ callInfo
 )
 ;
 InliningResult
+inlineTypedArrayElementShift
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningResult
 inlineSetDisjointTypedElements
 (
 CallInfo
