@@ -9331,7 +9331,7 @@ targetField
 getAttribute
 (
 "
-maxLength
+maxlength
 "
 )
 ;
