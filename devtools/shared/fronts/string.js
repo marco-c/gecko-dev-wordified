@@ -131,17 +131,6 @@ FrontClassWithSpec
 longStringSpec
 )
 {
-constructor
-(
-client
-)
-{
-super
-(
-client
-)
-;
-}
 destroy
 (
 )
