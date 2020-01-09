@@ -428,10 +428,6 @@ mIsBoundToChrome
 (
 false
 )
-mUsingContentXBLScope
-(
-false
-)
 {
 }
 nsXBLKeyEventHandler
@@ -564,10 +560,6 @@ hasAllowUntrustedAttr
 &
 !
 mIsBoundToChrome
-&
-&
-!
-mUsingContentXBLScope
 )
 )
 &
