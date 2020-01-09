@@ -457,6 +457,7 @@ window
 \
 "
 function
+*
 (
 )
 {
@@ -505,7 +506,11 @@ function
 (
 y
 )
+{
+return
 this
+;
+}
 )
 )
 ;
@@ -538,15 +543,7 @@ p
 .
 z
 =
-<
-x
-/
->
-=
-=
-=
-'
-'
+false
 )
 (
 )

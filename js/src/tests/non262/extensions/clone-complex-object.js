@@ -1958,8 +1958,9 @@ for
 (
 obj
 of
-new
 getTestContent
+(
+)
 )
 check
 (
@@ -1975,6 +1976,7 @@ postMessage_structured_clone_helper
 .
 js
 function
+*
 getTestContent
 (
 )

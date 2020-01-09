@@ -446,6 +446,11 @@ expectExitCode
 5
 )
 ;
+expectExitCode
+(
+3
+)
+;
 }
 const
 numRows
