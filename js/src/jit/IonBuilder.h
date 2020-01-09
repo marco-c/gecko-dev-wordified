@@ -3779,6 +3779,16 @@ AbortReasonOr
 <
 Ok
 >
+jsop_inc_or_dec
+(
+JSOp
+op
+)
+;
+AbortReasonOr
+<
+Ok
+>
 jsop_tostring
 (
 )

@@ -1334,6 +1334,16 @@ _
 (
 JSOP_DYNAMIC_IMPORT
 )
+\
+_
+(
+JSOP_INC
+)
+\
+_
+(
+JSOP_DEC
+)
 /
 /
 Base
@@ -1967,6 +1977,8 @@ EMIT_OP
 /
 JSOP_NEG
 JSOP_BITNOT
+JSOP_INC
+JSOP_DEC
 MOZ_MUST_USE
 bool
 emitUnaryArith

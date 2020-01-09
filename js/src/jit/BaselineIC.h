@@ -15503,6 +15503,12 @@ JSOP_BITNOT
 /
 /
 JSOP_NEG
+/
+/
+JSOP_INC
+/
+/
+JSOP_DEC
 class
 ICUnaryArith_Fallback
 :
