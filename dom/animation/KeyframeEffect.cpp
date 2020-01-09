@@ -7306,6 +7306,12 @@ false
 ;
 }
 }
+EffectSet
+*
+effectSet
+=
+nullptr
+;
 for
 (
 const
@@ -7381,8 +7387,12 @@ mProperty
 continue
 ;
 }
-EffectSet
-*
+if
+(
+!
+effectSet
+)
+{
 effectSet
 =
 EffectSet
@@ -7421,6 +7431,7 @@ element
 "
 )
 ;
+}
 /
 /
 Note
