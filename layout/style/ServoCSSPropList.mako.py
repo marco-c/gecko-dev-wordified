@@ -704,12 +704,6 @@ letter
 "
     
 "
-letter
--
-spacing
-"
-    
-"
 marker
 -
 end
@@ -996,12 +990,6 @@ width
 will
 -
 change
-"
-    
-"
-word
--
-spacing
 "
 ]
 def
