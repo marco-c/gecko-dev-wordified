@@ -43511,8 +43511,10 @@ capturing
 content
 outdated
 ?
+nsCOMPtr
+<
 nsIContent
-*
+>
 capturingContent
 =
 EventHandler
