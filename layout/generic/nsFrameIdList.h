@@ -220,7 +220,7 @@ FRAME_ID
 (
 nsDateTimeControlFrame
 DateTimeControl
-DynamicLeaf
+NotLeaf
 )
 FRAME_ID
 (
