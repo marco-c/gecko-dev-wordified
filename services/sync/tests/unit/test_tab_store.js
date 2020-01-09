@@ -1173,6 +1173,10 @@ Service
 "
 getMemcacheMaxRecordPayloadSize
 "
+)
+.
+callsFake
+(
 (
 )
 =
