@@ -1934,7 +1934,7 @@ columnNumber
 =
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 offset
 )

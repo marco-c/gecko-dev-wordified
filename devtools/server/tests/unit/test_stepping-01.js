@@ -370,7 +370,6 @@ dbg
 [
 stepOver
 stepIn
-stepOver
 ]
 )
 ;
@@ -508,10 +507,10 @@ arithmetic
 {
 line
 :
-16
+17
 column
 :
-8
+0
 }
 )
 ;
@@ -525,10 +524,10 @@ composition
 {
 line
 :
-21
+22
 column
 :
-2
+0
 }
 )
 ;
@@ -542,10 +541,10 @@ chaining
 {
 line
 :
-26
+27
 column
 :
-6
+0
 }
 )
 ;

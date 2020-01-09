@@ -186,7 +186,7 @@ line
 2
 )
 ;
-equal
+deepEqual
 (
 step2
 .
@@ -195,7 +195,13 @@ why
 frameFinished
 .
 return
-42
+{
+type
+:
+"
+undefined
+"
+}
 )
 ;
 }

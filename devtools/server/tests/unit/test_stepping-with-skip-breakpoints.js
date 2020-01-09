@@ -321,7 +321,7 @@ frame
 where
 .
 column
-0
+12
 )
 ;
 equal
@@ -404,7 +404,7 @@ frame
 where
 .
 column
-0
+12
 )
 ;
 equal
