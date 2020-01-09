@@ -1338,6 +1338,10 @@ static
 guint
 sLastRepeatableHardwareKeyCode
 ;
+static
+Time
+sLastRepeatableKeyTime
+;
 enum
 RepeatState
 {
