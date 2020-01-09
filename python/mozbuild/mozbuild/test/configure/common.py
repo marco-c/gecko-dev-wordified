@@ -706,6 +706,24 @@ os_path
 )
 )
         
+self
+.
+modules
+=
+kwargs
+.
+pop
+(
+'
+modules
+'
+{
+}
+)
+or
+{
+}
+        
 super
 (
 ConfigureTestSandbox
@@ -731,6 +749,22 @@ self
 what
 )
 :
+        
+if
+what
+in
+self
+.
+modules
+:
+            
+return
+self
+.
+modules
+[
+what
+]
         
 if
 what
@@ -1647,6 +1681,9 @@ None
 logger
 =
 None
+modules
+=
+None
 )
 :
         
@@ -1901,6 +1938,9 @@ target
 +
 args
                                            
+modules
+=
+modules
 *
 *
 kwargs
