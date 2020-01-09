@@ -2178,7 +2178,7 @@ task_config
                 
 "
 Invalid
-v1
+v2
 try_task_config
 .
 json
