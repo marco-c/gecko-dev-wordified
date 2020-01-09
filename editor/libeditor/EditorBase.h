@@ -2329,6 +2329,7 @@ element
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 ToggleTextDirection
 (
@@ -2366,6 +2367,7 @@ eLTR
 eRTL
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SwitchTextDirectionTo
 (
@@ -10382,6 +10384,7 @@ batches
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 BeginPlaceholderTransaction
 (
@@ -10390,6 +10393,7 @@ nsAtom
 aTransactionName
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 EndPlaceholderTransaction
 (
@@ -10600,6 +10604,7 @@ DetermineCurrentDirection
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FireInputEvent
 (
@@ -11219,9 +11224,9 @@ null
 virtual
 already_AddRefed
 <
-nsIContent
+Element
 >
-GetInputEventTargetContent
+GetInputEventTargetElement
 (
 )
 =
@@ -11588,6 +11593,7 @@ eNotifyEditorObserversOfBefore
 eNotifyEditorObserversOfCancel
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 NotifyEditorObservers
 (

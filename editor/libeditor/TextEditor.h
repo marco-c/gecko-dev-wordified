@@ -537,6 +537,7 @@ just
 run
 them
 .
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Undo
 (
@@ -545,6 +546,7 @@ aCount
 )
 final
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Redo
 (
@@ -1443,6 +1445,7 @@ editor
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 OnCompositionChange
 (
@@ -1486,6 +1489,7 @@ called
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 OnCompositionEnd
 (
@@ -3503,9 +3507,9 @@ aCompositionEvent
 virtual
 already_AddRefed
 <
-nsIContent
+Element
 >
-GetInputEventTargetContent
+GetInputEventTargetElement
 (
 )
 override

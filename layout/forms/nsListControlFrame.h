@@ -706,6 +706,7 @@ objects
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 FireOnInputAndOnChange
 (
@@ -865,6 +866,7 @@ Event
 aMouseEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 MouseUp
 (
@@ -907,6 +909,7 @@ Event
 aMouseEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 KeyDown
 (
@@ -921,6 +924,7 @@ Event
 aKeyEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 KeyPress
 (
@@ -1478,6 +1482,7 @@ this
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 bool
 UpdateSelection
 (
@@ -1552,6 +1557,7 @@ objects
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 DropDownToggleKey
 (
@@ -2249,6 +2255,7 @@ int32_t
 aClickedIndex
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 PostHandleKeyEvent
 (

@@ -1074,6 +1074,7 @@ aVisitor
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 PostHandleEvent
@@ -1084,6 +1085,7 @@ aVisitor
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 PostHandleEventForRangeThumb
 (
@@ -1092,6 +1094,7 @@ EventChainPostVisitor
 aVisitor
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 StartRangeThumbDrag
 (
@@ -1100,6 +1103,7 @@ WidgetGUIEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FinishRangeThumbDrag
 (
@@ -1110,6 +1114,7 @@ aEvent
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 CancelRangeThumbDrag
 (
@@ -1119,6 +1124,7 @@ aIsForUserEvent
 true
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetValueOfRangeForUserEvent
 (
@@ -1311,6 +1317,19 @@ TextEditor
 *
 )
 GetTextEditor
+(
+)
+override
+;
+NS_IMETHOD_
+(
+mozilla
+:
+:
+TextEditor
+*
+)
+GetTextEditorWithoutCreation
 (
 )
 override
@@ -4909,6 +4928,7 @@ aState
 eAllowDispatchingEvents
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 StepNumberControlForUserEvent
 (
@@ -4945,6 +4965,7 @@ number
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 void
 HandleNumberControlSpin
@@ -5008,6 +5029,7 @@ GetEditor
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 SetUserInput
 (
@@ -5912,6 +5934,7 @@ been
 changed
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 AfterSetAttr
@@ -6597,6 +6620,7 @@ changes
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 HandleTypeChange
 (

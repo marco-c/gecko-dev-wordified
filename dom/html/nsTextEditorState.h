@@ -1352,6 +1352,15 @@ GetTextEditor
 (
 )
 ;
+mozilla
+:
+:
+TextEditor
+*
+GetTextEditorWithoutCreation
+(
+)
+;
 nsISelectionController
 *
 GetSelectionController
