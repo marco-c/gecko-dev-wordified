@@ -163,6 +163,7 @@ AnimData
 ;
 class
 AnimationInfo
+final
 {
 typedef
 InfallibleTArray
@@ -173,15 +174,10 @@ AnimationArray
 ;
 public
 :
-explicit
 AnimationInfo
 (
-LayerManager
-*
-aManager
 )
 ;
-virtual
 ~
 AnimationInfo
 (
@@ -472,10 +468,6 @@ aDisplayItemKey
 ;
 protected
 :
-LayerManager
-*
-mManager
-;
 AnimationArray
 mAnimations
 ;
