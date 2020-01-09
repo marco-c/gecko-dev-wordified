@@ -137,6 +137,12 @@ devProfile
 leafName
 }
 ]
+}
+)
+;
+writeInstallsIni
+(
+{
 installs
 :
 {
@@ -189,6 +195,13 @@ let
 profileData
 =
 readProfilesIni
+(
+)
+;
+let
+installData
+=
+readInstallsIni
 (
 )
 ;
@@ -388,7 +401,7 @@ Object
 .
 keys
 (
-profileData
+installData
 .
 installs
 )
@@ -409,7 +422,7 @@ Assert
 .
 equal
 (
-profileData
+installData
 .
 installs
 [
@@ -437,7 +450,7 @@ Assert
 .
 equal
 (
-profileData
+installData
 .
 installs
 .
@@ -464,6 +477,7 @@ install
 checkProfileService
 (
 profileData
+installData
 )
 ;
 Assert
