@@ -248,8 +248,7 @@ succeed
 )
 ;
 }
-JSObject
-*
+bool
 OpaqueCrossCompartmentWrapper
 :
 :
@@ -259,7 +258,10 @@ JSContext
 *
 cx
 HandleObject
-wrapper
+proxy
+AutoIdVector
+&
+props
 )
 const
 {
@@ -270,7 +272,8 @@ BaseProxyHandler
 enumerate
 (
 cx
-wrapper
+proxy
+props
 )
 ;
 }

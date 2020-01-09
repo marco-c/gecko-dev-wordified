@@ -14651,8 +14651,7 @@ Base
 typename
 Traits
 >
-JSObject
-*
+bool
 XrayWrapper
 <
 Base
@@ -14667,6 +14666,12 @@ JSContext
 cx
 HandleObject
 wrapper
+JS
+:
+:
+AutoIdVector
+&
+props
 )
 const
 {
@@ -14688,9 +14693,6 @@ hasPrototype
 )
 "
 )
-;
-return
-nullptr
 ;
 }
 template

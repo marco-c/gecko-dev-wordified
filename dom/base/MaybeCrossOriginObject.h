@@ -2938,8 +2938,7 @@ objects
 .
 *
 /
-JSObject
-*
+bool
 enumerate
 (
 JSContext
@@ -2954,6 +2953,12 @@ JSObject
 *
 >
 proxy
+JS
+:
+:
+AutoIdVector
+&
+props
 )
 const
 final

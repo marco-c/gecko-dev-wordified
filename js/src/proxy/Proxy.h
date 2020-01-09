@@ -286,8 +286,7 @@ result
 )
 ;
 static
-JSObject
-*
+bool
 enumerate
 (
 JSContext
@@ -295,6 +294,9 @@ JSContext
 cx
 HandleObject
 proxy
+AutoIdVector
+&
+props
 )
 ;
 static

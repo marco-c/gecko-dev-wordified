@@ -3452,8 +3452,7 @@ const
 override
 ;
 virtual
-JSObject
-*
+bool
 enumerate
 (
 JSContext
@@ -3468,6 +3467,12 @@ JSObject
 *
 >
 proxy
+JS
+:
+:
+AutoIdVector
+&
+props
 )
 const
 override
@@ -5578,8 +5583,7 @@ props
 )
 ;
 }
-JSObject
-*
+bool
 SandboxProxyHandler
 :
 :
@@ -5597,6 +5601,12 @@ JSObject
 *
 >
 proxy
+JS
+:
+:
+AutoIdVector
+&
+props
 )
 const
 {
@@ -5608,6 +5618,7 @@ enumerate
 (
 cx
 proxy
+props
 )
 ;
 }

@@ -600,8 +600,7 @@ result
 )
 ;
 }
-JSObject
-*
+bool
 ForwardingProxyHandler
 :
 :
@@ -612,6 +611,9 @@ JSContext
 cx
 HandleObject
 proxy
+AutoIdVector
+&
+props
 )
 const
 {
@@ -664,10 +666,11 @@ target
 )
 ;
 return
-GetIterator
+EnumerateProperties
 (
 cx
 target
+props
 )
 ;
 }

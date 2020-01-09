@@ -336,8 +336,7 @@ ObjectOpResult
 result
 )
 ;
-JSObject
-*
+bool
 (
 *
 enumerate
@@ -351,6 +350,12 @@ JS
 :
 HandleObject
 proxy
+JS
+:
+:
+AutoIdVector
+&
+props
 )
 ;
 bool
@@ -880,8 +885,7 @@ methods
 /
 \
 virtual
-JSObject
-*
+bool
 enumerate
 (
 JSContext
@@ -892,8 +896,14 @@ JS
 :
 HandleObject
 proxy
-)
 \
+JS
+:
+:
+AutoIdVector
+&
+props
+)
 const
 override
 {
@@ -909,6 +919,7 @@ enumerate
 (
 cx
 proxy
+props
 )
 \
 :
@@ -919,6 +930,7 @@ enumerate
 (
 cx
 proxy
+props
 )
 ;
 \
