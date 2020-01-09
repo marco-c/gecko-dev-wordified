@@ -6299,6 +6299,16 @@ into
 )
 )
 ;
+if
+shorthand
+.
+is_legacy_shorthand
+(
+)
+{
+continue
+;
+}
 /
 /
 Substep
