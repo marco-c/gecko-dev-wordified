@@ -265,6 +265,7 @@ getFrames
 (
 0
 null
+async
 function
 (
 frameResponse
@@ -320,6 +321,18 @@ location
 wasmFrame
 .
 where
+;
+const
+source
+=
+await
+getSourceById
+(
+gThreadClient
+location
+.
+actor
+)
 ;
 Assert
 .
@@ -379,8 +392,6 @@ f
 .
 test
 (
-location
-.
 source
 .
 url

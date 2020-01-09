@@ -680,15 +680,13 @@ form
 where
 =
 {
-source
+actor
 :
 generatedLocation
 .
 generatedSourceActor
 .
-form
-(
-)
+actorID
 line
 :
 generatedLocation
