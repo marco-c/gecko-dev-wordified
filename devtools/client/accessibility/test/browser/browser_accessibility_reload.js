@@ -170,13 +170,13 @@ for
 better
 logging
 *
-setup
+action
 {
 Function
 }
 An
 optional
-setup
+action
 that
 needs
 to
@@ -236,7 +236,7 @@ is
 expanded
 .
 "
-setup
+action
 :
 async
 (
@@ -324,7 +324,7 @@ the
 page
 .
 "
-setup
+action
 :
 async
 (
@@ -390,7 +390,7 @@ new
 page
 .
 "
-setup
+action
 :
 async
 (

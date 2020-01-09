@@ -124,13 +124,13 @@ for
 better
 logging
 *
-setup
+action
 {
 Function
 }
 An
 optional
-setup
+action
 that
 needs
 to
@@ -218,7 +218,7 @@ tree
 node
 .
 "
-setup
+action
 :
 async
 (
@@ -291,7 +291,7 @@ tree
 node
 .
 "
-setup
+action
 :
 async
 (

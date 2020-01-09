@@ -134,13 +134,13 @@ for
 better
 logging
 *
-setup
+action
 {
 Function
 }
 An
 optional
-setup
+action
 that
 needs
 to
@@ -197,7 +197,7 @@ third
 row
 .
 "
-setup
+action
 :
 async
 (
@@ -355,7 +355,7 @@ a
 document
 .
 "
-setup
+action
 :
 async
 (
@@ -531,7 +531,7 @@ text
 content
 .
 "
-setup
+action
 :
 async
 (
@@ -639,7 +639,7 @@ the
 tree
 .
 "
-setup
+action
 :
 (
 {
