@@ -305,6 +305,9 @@ ref
 <
 allocation
 origin
+Dav1dDataProps
+m
+;
 }
 Dav1dData
 ;
@@ -341,7 +344,8 @@ Pointer
 to
 the
 allocated
-bufferon
+buffer
+on
 success
 .
 NULL
