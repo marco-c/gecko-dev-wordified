@@ -28,6 +28,9 @@ extends
 .
 /
 .
+.
+/
+.
 eslintrc
 .
 js

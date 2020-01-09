@@ -58,6 +58,9 @@ from
 .
 .
 /
+.
+.
+/
 shared
 /
 test
@@ -144,6 +147,8 @@ require
 devtools
 /
 client
+/
+shared
 /
 sourceeditor
 /

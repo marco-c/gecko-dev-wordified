@@ -190,6 +190,8 @@ devtools
 /
 client
 /
+shared
+/
 sourceeditor
 /
 editor
@@ -209,6 +211,8 @@ editor
 devtools
 /
 client
+/
+shared
 /
 sourceeditor
 /

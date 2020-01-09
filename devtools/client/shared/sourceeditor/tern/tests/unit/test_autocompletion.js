@@ -49,6 +49,8 @@ devtools
 /
 client
 /
+shared
+/
 sourceeditor
 /
 tern
@@ -66,6 +68,8 @@ require
 devtools
 /
 client
+/
+shared
 /
 sourceeditor
 /

@@ -53,6 +53,8 @@ client
 +
 "
 /
+shared
+/
 sourceeditor
 /
 test

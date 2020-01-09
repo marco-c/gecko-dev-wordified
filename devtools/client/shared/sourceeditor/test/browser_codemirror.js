@@ -68,11 +68,13 @@ devtools
 /
 client
 /
+shared
+/
+sourceeditor
+/
 "
 +
 "
-sourceeditor
-/
 test
 /
 codemirror
@@ -112,6 +114,8 @@ In
 devtools
 /
 client
+/
+shared
 /
 sourceeditor
 /

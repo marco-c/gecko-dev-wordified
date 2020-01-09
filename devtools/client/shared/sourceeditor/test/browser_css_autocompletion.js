@@ -60,6 +60,8 @@ devtools
 /
 client
 /
+shared
+/
 sourceeditor
 /
 css
@@ -87,6 +89,8 @@ browser
 devtools
 /
 client
+/
+shared
 /
 sourceeditor
 "
@@ -122,6 +126,8 @@ client
 "
 +
 "
+/
+shared
 /
 sourceeditor
 /
