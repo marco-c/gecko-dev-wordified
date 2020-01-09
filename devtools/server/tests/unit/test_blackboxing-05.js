@@ -495,6 +495,7 @@ gThreadClient
 pauseOnExceptions
 (
 true
+false
 )
 ;
 gClient
