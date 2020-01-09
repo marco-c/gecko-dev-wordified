@@ -1059,7 +1059,7 @@ sourceObject_
 cx
 sourceObject
 )
-keepAtoms
+keepAtoms_
 (
 cx
 )
@@ -16473,7 +16473,7 @@ directives
 Position
 start
 (
-keepAtoms
+keepAtoms_
 tokenStream
 )
 ;
@@ -16841,7 +16841,7 @@ stream
 Position
 currentPosition
 (
-keepAtoms
+keepAtoms_
 tokenStream
 )
 ;
@@ -17067,7 +17067,7 @@ parser
 Position
 currentSyntaxPosition
 (
-keepAtoms
+keepAtoms_
 syntaxParser
 -
 >
@@ -48196,7 +48196,7 @@ rewind
 Position
 start
 (
-keepAtoms
+keepAtoms_
 tokenStream
 )
 ;
