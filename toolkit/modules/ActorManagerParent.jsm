@@ -1115,12 +1115,6 @@ events
 :
 {
 "
-AudibleAutoplayMediaOccurred
-"
-:
-{
-}
-"
 GloballyAutoplayBlocked
 "
 :
