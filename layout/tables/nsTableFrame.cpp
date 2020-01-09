@@ -28817,9 +28817,6 @@ size
 set
 to
 '
--
-moz
--
 max
 -
 content

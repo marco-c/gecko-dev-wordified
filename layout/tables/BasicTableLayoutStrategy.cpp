@@ -1284,12 +1284,7 @@ content
 '
 is
 like
-/
-/
 '
--
-moz
--
 max
 -
 content
@@ -1531,12 +1526,7 @@ content
 '
 is
 like
-/
-/
 '
--
-moz
--
 min
 -
 content
