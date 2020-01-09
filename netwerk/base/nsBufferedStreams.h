@@ -413,8 +413,10 @@ mBufferStartOffset
 uint32_t
 mFillPoint
 ;
+nsCOMPtr
+<
 nsISupports
-*
+>
 mStream
 ;
 /
@@ -591,6 +593,10 @@ nsIInputStream
 *
 )
 mStream
+.
+get
+(
+)
 ;
 }
 protected
@@ -847,6 +853,10 @@ nsIOutputStream
 *
 )
 mStream
+.
+get
+(
+)
 ;
 }
 protected

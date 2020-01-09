@@ -1337,6 +1337,12 @@ data
 members
 *
 /
+nsCOMPtr
+<
+nsICacheServiceInternal
+>
+mCacheService
+;
 nsCacheEntry
 *
 mCacheEntry

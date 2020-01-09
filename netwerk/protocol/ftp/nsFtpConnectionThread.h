@@ -922,6 +922,17 @@ Connect
 /
 Private
 members
+nsCOMPtr
+<
+nsIProxiedProtocolHandler
+>
+mHandler
+;
+/
+/
+Ref
+to
+gFtpHandler
 /
 /
 *
