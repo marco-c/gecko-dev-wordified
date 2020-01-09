@@ -14250,6 +14250,10 @@ IsDestroyed
 )
 return
 ;
+OnMarkDestroyed
+(
+)
+;
 /
 /
 Null

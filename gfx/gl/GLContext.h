@@ -16224,6 +16224,15 @@ MarkDestroyed
 (
 )
 ;
+protected
+:
+virtual
+void
+OnMarkDestroyed
+(
+)
+{
+}
 /
 /
 -

@@ -552,6 +552,13 @@ friend
 class
 GLContextEGLFactory
 ;
+virtual
+void
+OnMarkDestroyed
+(
+)
+override
+;
 public
 :
 const
