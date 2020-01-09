@@ -2189,10 +2189,10 @@ audio
 ;
 if
 (
+NS_FAILED
+(
 updateStatus
-!
-=
-NS_OK
+)
 )
 {
 MOZ_LOG
@@ -2396,10 +2396,10 @@ video
 ;
 if
 (
+NS_FAILED
+(
 updateStatus
-!
-=
-NS_OK
+)
 )
 {
 MOZ_LOG
