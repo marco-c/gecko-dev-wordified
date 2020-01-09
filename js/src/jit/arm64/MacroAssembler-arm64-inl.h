@@ -135,12 +135,6 @@ jit
 {
 /
 /
-clang
--
-format
-off
-/
-/
 {
 {
 {
@@ -11718,12 +11712,6 @@ LessThanOrEqual
 }
 }
 check_macroassembler_style
-/
-/
-clang
--
-format
-on
 /
 /
 =

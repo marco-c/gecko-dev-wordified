@@ -2226,12 +2226,6 @@ StackPointer
 }
 /
 /
-clang
--
-format
-off
-/
-/
 {
 {
 {
@@ -6856,9 +6850,3 @@ MOZ_CRASH
 }
 }
 check_macroassembler_style
-/
-/
-clang
--
-format
-on
