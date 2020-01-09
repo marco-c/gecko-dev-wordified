@@ -7424,7 +7424,7 @@ marquee
 /
 CPPONLY
 :
-NS_NewHTMLMarqueeElement
+NS_NewHTMLDivElement
 /
 /
 CPPONLY
