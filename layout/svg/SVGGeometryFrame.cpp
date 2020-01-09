@@ -1965,8 +1965,10 @@ IsVisible
 (
 )
 )
+{
 return
 ;
+}
 /
 /
 Matrix
@@ -2571,9 +2573,11 @@ this
 aPoint
 )
 )
+{
 return
 this
 ;
+}
 return
 nullptr
 ;

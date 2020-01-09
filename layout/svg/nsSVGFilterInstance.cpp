@@ -2028,9 +2028,11 @@ if
 (
 mSourceAlphaAvailable
 )
+{
 return
 mSourceAlphaIndex
 ;
+}
 /
 /
 If

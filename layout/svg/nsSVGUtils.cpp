@@ -2069,9 +2069,11 @@ if
 !
 svg
 )
+{
 return
 nullptr
 ;
+}
 nsSVGOuterSVGFrame
 *
 outer
@@ -3891,8 +3893,10 @@ if
 !
 svgFrame
 )
+{
 return
 ;
+}
 MaskUsage
 maskUsage
 ;
@@ -6504,8 +6508,10 @@ IsSingular
 (
 )
 )
+{
 return
 ;
+}
 gfxContextMatrixAutoSaveRestore
 matrixAutoSaveRestore
 (

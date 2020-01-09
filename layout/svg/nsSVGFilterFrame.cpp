@@ -293,6 +293,7 @@ IsExplicitlySet
 (
 )
 )
+{
 return
 thisEnum
 .
@@ -300,6 +301,7 @@ GetAnimValue
 (
 )
 ;
+}
 /
 /
 Before
@@ -466,9 +468,11 @@ IsExplicitlySet
 (
 )
 )
+{
 return
 thisLength
 ;
+}
 /
 /
 Before

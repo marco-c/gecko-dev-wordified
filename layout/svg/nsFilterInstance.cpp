@@ -4698,11 +4698,13 @@ numPrimitives
 =
 0
 )
+{
 return
 nsIntRect
 (
 )
 ;
+}
 return
 mFilterDescription
 .

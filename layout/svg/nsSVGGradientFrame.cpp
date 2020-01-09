@@ -707,6 +707,7 @@ IsExplicitlySet
 (
 )
 )
+{
 return
 thisEnum
 .
@@ -714,6 +715,7 @@ GetAnimValue
 (
 )
 ;
+}
 /
 /
 Before
@@ -1193,9 +1195,11 @@ if
 !
 animTransformList
 )
+{
 return
 bboxMatrix
 ;
+}
 gfxMatrix
 gradientTransform
 =
