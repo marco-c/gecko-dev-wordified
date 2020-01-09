@@ -546,7 +546,8 @@ enum
 StorageAccessGrantedReason
 {
 eStorageAccessAPI
-eHeuristic
+eOpenerAfterUserInteraction
+eOpener
 }
 ;
 /
