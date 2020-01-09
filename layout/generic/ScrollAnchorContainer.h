@@ -128,7 +128,13 @@ nsPoint
 h
 "
 class
+nsFrameList
+;
+class
 nsIFrame
+;
+class
+nsIScrollableFrame
 ;
 namespace
 mozilla
