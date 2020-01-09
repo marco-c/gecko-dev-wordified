@@ -105,6 +105,7 @@ __name__
 def
 main
 (
+argv
 )
 :
     
@@ -112,6 +113,7 @@ from
 argparse
 import
 ArgumentParser
+REMAINDER
     
 parser
 =
@@ -269,9 +271,7 @@ cmd
 "
 nargs
 =
-"
-+
-"
+REMAINDER
 help
 =
 "
@@ -296,6 +296,11 @@ parser
 .
 parse_args
 (
+argv
+[
+1
+:
+]
 )
     
 if
@@ -472,4 +477,7 @@ __main__
     
 main
 (
+sys
+.
+argv
 )
