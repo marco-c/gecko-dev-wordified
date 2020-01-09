@@ -32954,6 +32954,13 @@ if
 this
 .
 mBlank
+|
+|
+this
+.
+mBrowser
+.
+hasContentOpener
 )
 {
 this
