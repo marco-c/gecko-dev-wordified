@@ -136,7 +136,7 @@ called
 ;
 refreshState
 .
-reset
+resetHistory
 (
 )
 ;
@@ -253,7 +253,7 @@ calledOnce
 ;
 refreshState
 .
-reset
+resetHistory
 (
 )
 ;
@@ -1683,7 +1683,7 @@ calledOnce
 ;
 refreshState
 .
-reset
+resetHistory
 (
 )
 ;

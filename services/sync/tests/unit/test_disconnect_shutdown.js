@@ -27,12 +27,6 @@ zero
 /
 *
 /
-/
-*
-global
-sinon
-*
-/
 "
 use
 strict

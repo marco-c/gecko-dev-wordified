@@ -43,12 +43,6 @@ tw
 :
 *
 /
-/
-*
-global
-sinon
-*
-/
 "
 use
 strict

@@ -396,7 +396,7 @@ formAutofillParent
 .
 _onStatusChanged
 .
-reset
+resetHistory
 (
 )
 ;
@@ -507,7 +507,7 @@ formAutofillParent
 .
 _onStatusChanged
 .
-reset
+resetHistory
 (
 )
 ;
@@ -571,7 +571,7 @@ formAutofillParent
 .
 _onStatusChanged
 .
-reset
+resetHistory
 (
 )
 ;
