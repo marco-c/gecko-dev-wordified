@@ -749,7 +749,7 @@ waitForDispatch
 (
 dbg
 "
-ADD_BREAKPOINT
+SET_BREAKPOINT
 "
 )
 ;
@@ -958,7 +958,7 @@ waitForDispatch
 (
 dbg
 "
-ADD_BREAKPOINT
+SET_BREAKPOINT
 "
 )
 ;

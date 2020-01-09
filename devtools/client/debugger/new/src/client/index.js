@@ -456,6 +456,7 @@ connection
 actions
 )
 ;
+await
 syncBreakpoints
 (
 )
