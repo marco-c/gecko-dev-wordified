@@ -593,7 +593,7 @@ if
 (
 aLayer
 .
-textureType
+mTextureType
 =
 =
 VRLayerTextureType
@@ -608,7 +608,7 @@ SubmitFrame
 aLayer
 aLayer
 .
-textureHandle
+mTextureHandle
 )
 ;
 }
