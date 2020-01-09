@@ -4157,6 +4157,14 @@ widgetToolkit
 windows
 "
 ;
+sandbox
+.
+is64Bit
+=
+xr
+.
+is64Bit
+;
 /
 /
 Scrollbars
