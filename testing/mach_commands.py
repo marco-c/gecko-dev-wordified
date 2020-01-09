@@ -5924,11 +5924,14 @@ runs
 failures
 =
 record
-[
+.
+get
+(
 '
 failures
 '
-]
+0
+)
                 
 total_failures
 =
