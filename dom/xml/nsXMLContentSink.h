@@ -362,13 +362,6 @@ override
 ;
 virtual
 void
-InitialDocumentTranslationCompleted
-(
-)
-override
-;
-virtual
-void
 FlushPendingNotifications
 (
 mozilla

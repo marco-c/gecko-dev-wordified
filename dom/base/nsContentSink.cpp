@@ -6843,18 +6843,8 @@ if
 aIgnorePendingSheets
 &
 &
-(
 WaitForPendingSheets
 (
-)
-|
-|
-mDocument
--
->
-HasPendingInitialTranslation
-(
-)
 )
 )
 {
@@ -6871,8 +6861,6 @@ layout
 when
 the
 sheets
-and
-l10n
 load
 return
 ;
