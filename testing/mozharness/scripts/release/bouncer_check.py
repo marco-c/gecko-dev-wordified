@@ -153,15 +153,6 @@ mozharness
 .
 base
 .
-python
-import
-VirtualenvMixin
-virtualenv_config_options
-from
-mozharness
-.
-base
-.
 script
 import
 BaseScript
@@ -194,7 +185,6 @@ class
 BouncerCheck
 (
 BaseScript
-VirtualenvMixin
 )
 :
     
@@ -577,8 +567,6 @@ parallel
 ]
     
 ]
-+
-virtualenv_config_options
     
 def
 __init__
@@ -612,41 +600,6 @@ require_config_file
 config
 =
 {
-                
-"
-virtualenv_modules
-"
-:
-[
-                    
-"
-redo
-"
-                    
-"
-requests
-"
-                    
-"
-futures
-=
-=
-3
-.
-1
-.
-1
-"
-                
-]
-                
-"
-virtualenv_path
-"
-:
-"
-venv
-"
                 
 "
 cdn_urls
@@ -701,18 +654,6 @@ all_actions
 [
                 
 "
-create
--
-virtualenv
-"
-                
-"
-activate
--
-virtualenv
-"
-                
-"
 check
 -
 bouncer
@@ -723,18 +664,6 @@ bouncer
 default_actions
 =
 [
-                
-"
-create
--
-virtualenv
-"
-                
-"
-activate
--
-virtualenv
-"
                 
 "
 check
