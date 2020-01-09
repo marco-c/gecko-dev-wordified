@@ -747,10 +747,6 @@ OverscrollBehavior
 "
     
 "
-OverflowAnchor
-"
-    
-"
 OverflowClipBox
 "
     

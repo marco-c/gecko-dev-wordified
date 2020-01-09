@@ -2581,10 +2581,6 @@ Overflow
 "
                 
 "
-OverflowAnchor
-"
-                
-"
 OverflowClipBox
 "
                 
