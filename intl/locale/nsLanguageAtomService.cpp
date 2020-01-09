@@ -1237,15 +1237,6 @@ forget
 }
 }
 else
-if
-(
-!
-langStr
-.
-IsEmpty
-(
-)
-)
 {
 /
 /
