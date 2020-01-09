@@ -617,11 +617,7 @@ toggle
 "
 >
 <
-a
-href
-=
-"
-"
+button
 onClick
 =
 {
@@ -677,7 +673,7 @@ toggleToOriginal
 }
 <
 /
-a
+button
 >
 <
 /
