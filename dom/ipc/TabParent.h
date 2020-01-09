@@ -3346,10 +3346,9 @@ ipc
 IPCResult
 RecvRootBrowsingContext
 (
-const
-BrowsingContextId
-&
-aId
+BrowsingContext
+*
+aContext
 )
 ;
 mozilla

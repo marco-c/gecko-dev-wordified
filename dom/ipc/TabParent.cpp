@@ -21100,10 +21100,9 @@ TabParent
 :
 RecvRootBrowsingContext
 (
-const
-BrowsingContextId
-&
-aId
+BrowsingContext
+*
+aBrowsingContext
 )
 {
 MOZ_ASSERT
@@ -21126,9 +21125,9 @@ mBrowsingContext
 CanonicalBrowsingContext
 :
 :
-Get
+Cast
 (
-aId
+aBrowsingContext
 )
 ;
 MOZ_ASSERT

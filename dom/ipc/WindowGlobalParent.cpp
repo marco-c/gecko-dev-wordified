@@ -343,12 +343,9 @@ MOZ_RELEASE_ASSERT
 (
 aInit
 .
-browsingContextId
+browsingContext
 (
 )
-!
-=
-0
 "
 Must
 be
@@ -542,11 +539,11 @@ mBrowsingContext
 CanonicalBrowsingContext
 :
 :
-Get
+Cast
 (
 aInit
 .
-browsingContextId
+browsingContext
 (
 )
 )

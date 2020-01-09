@@ -3567,15 +3567,7 @@ GetBrowsingContext
 ;
 SendRootBrowsingContext
 (
-BrowsingContextId
-(
 browsingContext
--
->
-Id
-(
-)
-)
 )
 ;
 /
