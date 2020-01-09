@@ -612,18 +612,6 @@ GLCONSTS_H_
             
 '
 /
-/
-clang
--
-format
-off
-'
-            
-'
-'
-            
-'
-/
 *
 *
 '
@@ -902,18 +890,6 @@ self
 write
 (
 [
-            
-'
-'
-            
-'
-/
-/
-clang
--
-format
-on
-'
             
 '
 '

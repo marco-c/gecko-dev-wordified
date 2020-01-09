@@ -11414,7 +11414,7 @@ NV_fence
 clang
 -
 format
-off
+on
 if
 (
 IsExtensionSupported
