@@ -2495,13 +2495,6 @@ kTouchActionKTable
 static
 const
 KTableEntry
-kTransitionTimingFunctionKTable
-[
-]
-;
-static
-const
-KTableEntry
 kVerticalAlignKTable
 [
 ]
