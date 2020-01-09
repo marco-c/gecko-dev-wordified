@@ -73,6 +73,7 @@ PictureToLayoutTransform
 PicturePixel
 WorldPixel
 WorldToLayoutTransform
+LayoutPoint
 }
 ;
 use
@@ -855,6 +856,14 @@ pub
 resource_address
 :
 GpuCacheAddress
+pub
+local_pos
+:
+LayoutPoint
+pub
+tile_rect
+:
+LayoutRect
 }
 /
 /
