@@ -24113,6 +24113,9 @@ if
 (
 !
 mOnStopRequestCalled
+&
+&
+mListener
 )
 {
 DoPreOnStopRequest
