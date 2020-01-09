@@ -95,9 +95,6 @@ DONOTEVALUATE
 (
 )
 ;
-throw
-NotEarlyError
-;
 for
 (
 var

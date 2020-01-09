@@ -84,9 +84,6 @@ DONOTEVALUATE
 (
 )
 ;
-throw
-NotEarlyError
-;
 for
 (
 let
