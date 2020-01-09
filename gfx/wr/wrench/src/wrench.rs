@@ -1297,6 +1297,9 @@ clone
 )
 disable_dual_source_blending
 chase_primitive
+testing
+:
+true
 .
 .
 Default
