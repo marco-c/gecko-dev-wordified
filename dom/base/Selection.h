@@ -4363,6 +4363,11 @@ GetCommonEditingHostForAllRanges
 (
 )
 ;
+void
+Disconnect
+(
+)
+;
 /
 /
 These
