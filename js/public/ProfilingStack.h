@@ -2282,6 +2282,8 @@ void
 sp
 Category
 aCategory
+uint32_t
+aFlags
 )
 {
 label_
@@ -2336,6 +2338,8 @@ Flags
 FLAGS_BITCOUNT
 )
 )
+|
+aFlags
 ;
 MOZ_ASSERT
 (
@@ -3083,6 +3087,10 @@ ProfilingStackFrame
 :
 Category
 category
+uint32_t
+flags
+=
+0
 )
 {
 uint32_t
@@ -3117,6 +3125,7 @@ label
 dynamicString
 sp
 category
+flags
 )
 ;
 /
