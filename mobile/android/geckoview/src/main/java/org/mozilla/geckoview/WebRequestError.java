@@ -1143,14 +1143,12 @@ Request
 failed
 error
 =
-0x
 %
-x
+d
 category
 =
-0x
 %
-x
+d
 "
 code
 category
