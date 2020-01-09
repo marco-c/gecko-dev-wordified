@@ -92,7 +92,6 @@ compile
 =
 off
 '
-]
 #
 implies
 -
@@ -100,6 +99,15 @@ implies
 baseline
 -
 eager
+         
+'
+-
+-
+more
+-
+compartments
+'
+]
         
 [
 '
@@ -182,6 +190,13 @@ no
 -
 ion
 '
+'
+-
+-
+more
+-
+compartments
+'
 ]
     
 ]
@@ -227,6 +242,13 @@ offthread
 compile
 =
 off
+'
+'
+-
+-
+more
+-
+compartments
 '
 ]
     
@@ -281,7 +303,6 @@ compile
 =
 off
 '
-]
 #
 implies
 -
@@ -289,6 +310,15 @@ implies
 baseline
 -
 eager
+         
+'
+-
+-
+more
+-
+compartments
+'
+]
         
 [
 '
