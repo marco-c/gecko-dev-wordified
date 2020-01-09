@@ -1221,7 +1221,7 @@ return
 NS_OK
 ;
 }
-void
+nsresult
 MediaEngineTabVideoSource
 :
 :
@@ -1311,6 +1311,9 @@ VideoSegment
 (
 )
 )
+;
+return
+NS_OK
 ;
 }
 nsresult
