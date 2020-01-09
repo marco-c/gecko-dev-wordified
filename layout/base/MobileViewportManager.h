@@ -855,7 +855,7 @@ mozilla
 :
 CSSSize
 &
-aViewportSize
+aViewportOrContentSize
 )
 const
 ;

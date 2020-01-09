@@ -744,7 +744,7 @@ mozilla
 :
 CSSSize
 &
-aViewportSize
+aViewportOrContentSize
 )
 const
 {
@@ -757,7 +757,7 @@ ScreenSize
 (
 aDisplaySize
 )
-aViewportSize
+aViewportOrContentSize
 )
 ;
 MVM_LOG
