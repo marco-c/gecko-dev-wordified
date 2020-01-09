@@ -5260,6 +5260,10 @@ pub
 depth_target_textures
 :
 usize
+pub
+swap_chain
+:
+usize
 /
 /
 /
@@ -5435,6 +5439,15 @@ depth_target_textures
 other
 .
 depth_target_textures
+;
+self
+.
+swap_chain
++
+=
+other
+.
+swap_chain
 ;
 /
 /
