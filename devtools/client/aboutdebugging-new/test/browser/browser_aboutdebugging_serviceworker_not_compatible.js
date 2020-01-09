@@ -218,6 +218,11 @@ tab
 await
 openAboutDebugging
 (
+{
+enableWorkerUpdates
+:
+true
+}
 )
 ;
 assertWarningMessage
@@ -390,6 +395,11 @@ tab
 await
 openAboutDebugging
 (
+{
+enableWorkerUpdates
+:
+true
+}
 )
 ;
 info
