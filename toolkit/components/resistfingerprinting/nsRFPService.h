@@ -1229,7 +1229,7 @@ User
 Agent
 .
 static
-nsresult
+void
 GetSpoofedUserAgent
 (
 nsACString
