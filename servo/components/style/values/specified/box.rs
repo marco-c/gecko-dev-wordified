@@ -129,6 +129,13 @@ style_traits
 CssWriter
 KeywordsCollectFn
 ParseError
+}
+;
+use
+style_traits
+:
+:
+{
 SpecifiedValueInfo
 StyleParseErrorKind
 ToCss

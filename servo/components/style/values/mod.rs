@@ -112,6 +112,14 @@ serialize_identifier
 serialize_name
 CowRcStr
 Parser
+}
+;
+pub
+use
+cssparser
+:
+:
+{
 SourceLocation
 Token
 RGBA

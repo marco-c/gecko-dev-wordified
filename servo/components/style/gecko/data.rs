@@ -108,6 +108,17 @@ gecko_bindings
 structs
 :
 :
+StyleSheet
+as
+DomStyleSheet
+;
+use
+gecko_bindings
+:
+:
+structs
+:
+:
 {
 nsIDocument
 StyleSheetInfo
@@ -123,9 +134,6 @@ structs
 {
 RawGeckoPresContextBorrowed
 ServoStyleSetSizes
-StyleSheet
-as
-DomStyleSheet
 }
 ;
 use
