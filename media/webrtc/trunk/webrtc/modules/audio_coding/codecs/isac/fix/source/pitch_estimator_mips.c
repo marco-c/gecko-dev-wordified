@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -109,8 +107,6 @@ h
 #
 include
 "
-webrtc
-/
 common_audio
 /
 signal_processing
@@ -124,11 +120,7 @@ h
 #
 include
 "
-webrtc
-/
-system_wrappers
-/
-include
+rtc_base
 /
 compile_assert_c
 .
@@ -261,7 +253,7 @@ n
 =
 PITCH_CORR_LEN2
 ;
-COMPILE_ASSERT
+RTC_COMPILE_ASSERT
 (
 PITCH_CORR_LEN2
 %

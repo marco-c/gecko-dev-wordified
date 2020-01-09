@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -124,9 +122,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .
@@ -135,8 +131,6 @@ h
 #
 include
 "
-webrtc
-/
 common_audio
 /
 signal_processing
@@ -150,8 +144,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -165,8 +157,6 @@ h
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include

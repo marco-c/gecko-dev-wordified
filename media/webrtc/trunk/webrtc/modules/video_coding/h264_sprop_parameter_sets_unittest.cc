@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 modules
 /
 video_coding
@@ -113,8 +111,6 @@ vector
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
@@ -128,8 +124,6 @@ class
 H264SpropParameterSetsTest
 :
 public
-:
-:
 testing
 :
 :

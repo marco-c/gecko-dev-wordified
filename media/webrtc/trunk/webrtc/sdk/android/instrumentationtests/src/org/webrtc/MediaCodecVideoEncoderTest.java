@@ -230,8 +230,23 @@ String
 TAG
 =
 "
-MediaCodecVideoEncoderTest
+MCVideoEncoderTest
 "
+;
+final
+static
+int
+profile
+=
+MediaCodecVideoEncoder
+.
+H264Profile
+.
+CONSTRAINED_BASELINE
+.
+getValue
+(
+)
 ;
 Test
 SmallTest
@@ -290,6 +305,7 @@ MediaCodecVideoEncoder
 VideoCodecType
 .
 VIDEO_CODEC_VP8
+profile
 640
 480
 300
@@ -374,6 +390,7 @@ MediaCodecVideoEncoder
 VideoCodecType
 .
 VIDEO_CODEC_VP8
+profile
 640
 480
 300
@@ -456,6 +473,7 @@ MediaCodecVideoEncoder
 VideoCodecType
 .
 VIDEO_CODEC_VP8
+profile
 640
 480
 300
@@ -493,6 +511,7 @@ MediaCodecVideoEncoder
 VideoCodecType
 .
 VIDEO_CODEC_VP8
+profile
 640
 480
 300
@@ -607,6 +626,7 @@ MediaCodecVideoEncoder
 VideoCodecType
 .
 VIDEO_CODEC_VP8
+profile
 width
 height
 300
@@ -966,6 +986,7 @@ MediaCodecVideoEncoder
 VideoCodecType
 .
 VIDEO_CODEC_VP8
+profile
 width
 height
 300

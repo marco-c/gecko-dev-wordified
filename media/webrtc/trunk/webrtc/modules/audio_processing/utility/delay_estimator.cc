@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -122,9 +120,7 @@ algorithm
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .
@@ -3545,7 +3541,7 @@ history_size
 {
 BinaryDelayEstimatorFarend
 *
-farend
+far
 =
 self
 -
@@ -3571,7 +3567,7 @@ if
 history_size
 !
 =
-farend
+far
 -
 >
 history_size
@@ -3593,7 +3589,7 @@ history_size
 =
 WebRtc_AllocateFarendBufferMemory
 (
-farend
+far
 history_size
 )
 ;

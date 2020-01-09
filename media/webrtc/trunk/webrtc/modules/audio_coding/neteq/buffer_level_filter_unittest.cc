@@ -96,8 +96,6 @@ class
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -125,8 +123,6 @@ function
 #
 include
 "
-webrtc
-/
 test
 /
 gtest

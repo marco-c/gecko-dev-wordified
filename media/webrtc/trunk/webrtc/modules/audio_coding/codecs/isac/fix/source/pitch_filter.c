@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -109,8 +107,6 @@ h
 #
 include
 "
-webrtc
-/
 common_audio
 /
 signal_processing
@@ -124,8 +120,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -145,8 +139,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -166,11 +158,7 @@ h
 #
 include
 "
-webrtc
-/
-system_wrappers
-/
-include
+rtc_base
 /
 compile_assert_c
 .
@@ -509,7 +497,7 @@ WebRtcIsacfix_PitchFilterCoreARM
 (
 )
 .
-COMPILE_ASSERT
+RTC_COMPILE_ASSERT
 (
 PITCH_FRACORDER
 =
@@ -517,7 +505,7 @@ PITCH_FRACORDER
 9
 )
 ;
-COMPILE_ASSERT
+RTC_COMPILE_ASSERT
 (
 PITCH_DAMPORDER
 =

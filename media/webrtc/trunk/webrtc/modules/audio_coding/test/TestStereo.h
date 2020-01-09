@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_MODULES_AUDIO_CODING_TEST_TESTSTEREO_H_
+MODULES_AUDIO_CODING_TEST_TESTSTEREO_H_
 #
 define
-WEBRTC_MODULES_AUDIO_CODING_TEST_TESTSTEREO_H_
+MODULES_AUDIO_CODING_TEST_TESTSTEREO_H_
 #
 include
 <
@@ -106,8 +106,6 @@ memory
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -121,8 +119,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -136,8 +132,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -457,14 +451,9 @@ stereo
 codecs
 and
 CNG
-#
-ifdef
-WEBRTC_CODEC_G722
 int
 g722_pltype_
 ;
-#
-endif
 int
 l16_8khz_pltype_
 ;
@@ -504,4 +493,4 @@ webrtc
 endif
 /
 /
-WEBRTC_MODULES_AUDIO_CODING_TEST_TESTSTEREO_H_
+MODULES_AUDIO_CODING_TEST_TESTSTEREO_H_

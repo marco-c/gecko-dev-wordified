@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 test
 /
 linux
@@ -133,8 +131,6 @@ h
 #
 include
 "
-webrtc
-/
 common_video
 /
 libyuv

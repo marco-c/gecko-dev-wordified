@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -141,8 +139,6 @@ iostream
 #
 include
 "
-webrtc
-/
 test
 /
 gtest

@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_TEST_RUN_TEST_H
+TEST_RUN_TEST_H_
 #
 define
-WEBRTC_TEST_RUN_TEST_H
+TEST_RUN_TEST_H_
 namespace
 webrtc
 {
@@ -139,4 +139,4 @@ webrtc
 endif
 /
 /
-WEBRTC_TEST_RUN_TEST_H
+TEST_RUN_TEST_H_

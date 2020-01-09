@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_VIDEO_QUALITY_THRESHOLD_H_
+VIDEO_QUALITY_THRESHOLD_H_
 #
 define
-WEBRTC_VIDEO_QUALITY_THRESHOLD_H_
+VIDEO_QUALITY_THRESHOLD_H_
 #
 include
 <
@@ -99,9 +99,7 @@ memory
 #
 include
 "
-webrtc
-/
-base
+api
 /
 optional
 .
@@ -273,4 +271,4 @@ webrtc
 endif
 /
 /
-WEBRTC_VIDEO_QUALITY_THRESHOLD_H_
+VIDEO_QUALITY_THRESHOLD_H_

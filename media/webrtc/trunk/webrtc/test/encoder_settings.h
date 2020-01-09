@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_TEST_ENCODER_SETTINGS_H_
+TEST_ENCODER_SETTINGS_H_
 #
 define
-WEBRTC_TEST_ENCODER_SETTINGS_H_
+TEST_ENCODER_SETTINGS_H_
 #
 include
 <
@@ -99,7 +99,7 @@ vector
 #
 include
 "
-webrtc
+call
 /
 video_receive_stream
 .
@@ -108,7 +108,7 @@ h
 #
 include
 "
-webrtc
+call
 /
 video_send_stream
 .
@@ -314,4 +314,4 @@ webrtc
 endif
 /
 /
-WEBRTC_TEST_ENCODER_SETTINGS_H_
+TEST_ENCODER_SETTINGS_H_

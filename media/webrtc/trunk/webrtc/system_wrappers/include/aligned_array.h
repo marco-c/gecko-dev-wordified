@@ -94,9 +94,7 @@ WEBRTC_SYSTEM_WRAPPERS_INCLUDE_ALIGNED_ARRAY_
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .
@@ -105,8 +103,6 @@ h
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include

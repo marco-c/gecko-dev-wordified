@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 test
 /
 testsupport
@@ -131,8 +129,6 @@ memory
 #
 include
 "
-webrtc
-/
 api
 /
 video
@@ -144,8 +140,6 @@ h
 #
 include
 "
-webrtc
-/
 api
 /
 video
@@ -157,8 +151,6 @@ h
 #
 include
 "
-webrtc
-/
 common_video
 /
 libyuv
@@ -172,8 +164,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 frame_utils
@@ -282,11 +272,11 @@ CalculateFrame
 VideoMetricsType
 video_metrics_type
 const
-VideoFrameBuffer
+I420BufferInterface
 &
 ref
 const
-VideoFrameBuffer
+I420BufferInterface
 &
 test
 int

@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 common_audio
 /
 channel_buffer
@@ -99,9 +97,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .

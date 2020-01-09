@@ -87,15 +87,13 @@ tree
 /
 #
 ifndef
-WEBRTC_MEDIA_BASE_ADAPTEDVIDEOTRACKSOURCE_H_
+MEDIA_BASE_ADAPTEDVIDEOTRACKSOURCE_H_
 #
 define
-WEBRTC_MEDIA_BASE_ADAPTEDVIDEOTRACKSOURCE_H_
+MEDIA_BASE_ADAPTEDVIDEOTRACKSOURCE_H_
 #
 include
 "
-webrtc
-/
 api
 /
 mediastreaminterface
@@ -105,8 +103,6 @@ h
 #
 include
 "
-webrtc
-/
 api
 /
 notifier
@@ -116,8 +112,6 @@ h
 #
 include
 "
-webrtc
-/
 media
 /
 base
@@ -129,8 +123,6 @@ h
 #
 include
 "
-webrtc
-/
 media
 /
 base
@@ -229,6 +221,7 @@ custom
 /
 alignment
 .
+explicit
 AdaptedVideoTrackSource
 (
 int
@@ -540,7 +533,7 @@ Optional
 Stats
 >
 stats_
-GUARDED_BY
+RTC_GUARDED_BY
 (
 stats_crit_
 )
@@ -559,4 +552,4 @@ rtc
 endif
 /
 /
-WEBRTC_MEDIA_BASE_ADAPTEDVIDEOTRACKSOURCE_H_
+MEDIA_BASE_ADAPTEDVIDEOTRACKSOURCE_H_

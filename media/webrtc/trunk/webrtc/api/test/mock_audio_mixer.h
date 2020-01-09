@@ -87,15 +87,13 @@ tree
 /
 #
 ifndef
-WEBRTC_API_TEST_MOCK_AUDIO_MIXER_H_
+API_TEST_MOCK_AUDIO_MIXER_H_
 #
 define
-WEBRTC_API_TEST_MOCK_AUDIO_MIXER_H_
+API_TEST_MOCK_AUDIO_MIXER_H_
 #
 include
 "
-webrtc
-/
 api
 /
 audio
@@ -107,8 +105,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gmock
@@ -180,4 +176,4 @@ webrtc
 endif
 /
 /
-WEBRTC_API_TEST_MOCK_AUDIO_MIXER_H_
+API_TEST_MOCK_AUDIO_MIXER_H_

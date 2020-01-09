@@ -95,8 +95,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -125,7 +123,7 @@ uint8_t
 payload_type
 size_t
 payload_length_samples
-WebRtcRTPHeader
+RTPHeader
 *
 rtp_header
 )
@@ -148,8 +146,6 @@ return
 rtp_header
 -
 >
-header
-.
 sequenceNumber
 =
 seq_number_
@@ -159,8 +155,6 @@ seq_number_
 rtp_header
 -
 >
-header
-.
 timestamp
 =
 timestamp_
@@ -179,8 +173,6 @@ payload_length_samples
 rtp_header
 -
 >
-header
-.
 payloadType
 =
 payload_type
@@ -188,8 +180,6 @@ payload_type
 rtp_header
 -
 >
-header
-.
 markerBit
 =
 false
@@ -197,8 +187,6 @@ false
 rtp_header
 -
 >
-header
-.
 ssrc
 =
 ssrc_
@@ -206,18 +194,9 @@ ssrc_
 rtp_header
 -
 >
-header
-.
 numCSRCs
 =
 0
-;
-rtp_header
--
->
-frameType
-=
-kAudioFrameSpeech
 ;
 uint32_t
 this_send_time
@@ -288,7 +267,7 @@ uint8_t
 payload_type
 size_t
 payload_length_samples
-WebRtcRTPHeader
+RTPHeader
 *
 rtp_header
 )

@@ -135,8 +135,6 @@ test
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -169,8 +167,6 @@ string
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -184,8 +180,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 include
@@ -197,8 +191,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
@@ -208,8 +200,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 testsupport

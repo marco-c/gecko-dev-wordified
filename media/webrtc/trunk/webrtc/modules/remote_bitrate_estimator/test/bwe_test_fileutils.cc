@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 modules
 /
 remote_bitrate_estimator
@@ -133,8 +131,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 remote_bitrate_estimator
@@ -148,8 +144,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 testsupport

@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 media
 /
 base
@@ -101,9 +99,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .

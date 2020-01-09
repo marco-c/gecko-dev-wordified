@@ -93,8 +93,6 @@ memory
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -106,8 +104,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -119,8 +115,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -132,8 +126,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -145,8 +137,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -158,21 +148,6 @@ h
 #
 include
 "
-webrtc
-/
-system_wrappers
-/
-include
-/
-logging
-.
-h
-"
-#
-include
-"
-webrtc
-/
 test
 /
 gtest
@@ -508,7 +483,7 @@ get
 capturer
 -
 >
-Start
+Init
 (
 this
 MouseCursorMonitor
@@ -810,7 +785,7 @@ get
 capturer
 -
 >
-Start
+Init
 (
 this
 MouseCursorMonitor
@@ -906,7 +881,7 @@ get
 capturer
 -
 >
-Start
+Init
 (
 this
 MouseCursorMonitor

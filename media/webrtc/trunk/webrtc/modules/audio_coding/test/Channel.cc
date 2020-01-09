@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -115,9 +113,7 @@ iostream
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 format_macros
 .
@@ -126,9 +122,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 timeutils
 .

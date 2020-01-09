@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -106,8 +104,6 @@ vector
 #
 include
 "
-webrtc
-/
 test
 /
 gtest

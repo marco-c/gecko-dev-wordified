@@ -381,7 +381,7 @@ id
 field
 name
 title
-_fields
+_FIELDS
 =
 [
     
@@ -535,7 +535,7 @@ delta
 "
 )
 ]
-name_to_id
+NAME_TO_ID
 =
 {
 field
@@ -550,9 +550,9 @@ field
 for
 field
 in
-_fields
+_FIELDS
 }
-id_to_title
+ID_TO_TITLE
 =
 {
 field
@@ -567,10 +567,10 @@ field
 for
 field
 in
-_fields
+_FIELDS
 }
 def
-field_arg_to_id
+FieldArgToId
 (
 arg
 )
@@ -591,11 +591,11 @@ None
 if
 arg
 in
-name_to_id
+NAME_TO_ID
 :
     
 return
-name_to_id
+NAME_TO_ID
 [
 arg
 ]
@@ -607,11 +607,11 @@ arg
 _ms
 "
 in
-name_to_id
+NAME_TO_ID
 :
     
 return
-name_to_id
+NAME_TO_ID
 [
 arg
 +
@@ -741,13 +741,13 @@ list
     
 self
 .
-_read_samples
+_ReadSamples
 (
 filename
 )
   
 def
-_read_samples
+_ReadSamples
 (
 self
 filename
@@ -835,7 +835,7 @@ split
 field_ids
 =
 [
-name_to_id
+NAME_TO_ID
 [
 name
 ]
@@ -917,13 +917,13 @@ value
     
 self
 .
-_subtract_first_input_time
+_SubtractFirstInputTime
 (
 )
     
 self
 .
-_generate_additional_data
+_GenerateAdditionalData
 (
 )
     
@@ -934,7 +934,7 @@ close
 )
   
 def
-_subtract_first_input_time
+_SubtractFirstInputTime
 (
 self
 )
@@ -994,7 +994,7 @@ field
 ]
   
 def
-_generate_additional_data
+_GenerateAdditionalData
 (
 self
 )
@@ -1168,7 +1168,7 @@ last_render_time
 decoded_time
   
 def
-_hide
+_Hide
 (
 self
 values
@@ -1195,7 +1195,7 @@ then
 skipped
 by
 the
-plot
+Plot
 (
 )
 method
@@ -1237,7 +1237,7 @@ values
 ]
   
 def
-add_samples
+AddSamples
 (
 self
 config
@@ -1327,7 +1327,7 @@ values
 =
 self
 .
-_hide
+_Hide
 (
 values
 )
@@ -1346,7 +1346,7 @@ title
 "
 "
 +
-id_to_title
+ID_TO_TITLE
 [
 field_id
 ]
@@ -1359,7 +1359,7 @@ FIELD_MASK
 )
 )
 def
-average_over_cycle
+AverageOverCycle
 (
 values
 length
@@ -1646,7 +1646,7 @@ title
 title
   
 def
-plot
+Plot
 (
 self
 ax1
@@ -1702,14 +1702,14 @@ else
         
 data
 .
-add_samples
+AddSamples
 (
 self
 lines
 )
     
 def
-_slice_values
+_SliceValues
 (
 values
 )
@@ -1772,7 +1772,7 @@ line
 .
 values
 =
-_slice_values
+_SliceValues
 (
 line
 .
@@ -1789,7 +1789,7 @@ line
 .
 values
 =
-average_over_cycle
+AverageOverCycle
 (
 line
 .
@@ -2042,7 +2042,7 @@ ax1
       
 ax
 .
-plot
+Plot
 (
 x
 y
@@ -2148,7 +2148,7 @@ large
 "
 )
 def
-load_files
+LoadFiles
 (
 filenames
 )
@@ -2168,7 +2168,7 @@ filenames
 if
 filename
 in
-load_files
+LoadFiles
 .
 cache
 :
@@ -2177,7 +2177,7 @@ result
 .
 append
 (
-load_files
+LoadFiles
 .
 cache
 [
@@ -2195,7 +2195,7 @@ Data
 filename
 )
       
-load_files
+LoadFiles
 .
 cache
 [
@@ -2213,14 +2213,14 @@ data
   
 return
 result
-load_files
+LoadFiles
 .
 cache
 =
 {
 }
 def
-get_parser
+GetParser
 (
 )
 :
@@ -2656,7 +2656,7 @@ tests
 return
 parser
 def
-_plot_config_from_args
+_PlotConfigFromArgs
 (
 args
 graph_num
@@ -2840,7 +2840,7 @@ field
       
 field_id
 =
-field_arg_to_id
+FieldArgToId
 (
 values
 [
@@ -2952,7 +2952,7 @@ return
 PlotConfig
 (
 fields
-load_files
+LoadFiles
 (
 files
 )
@@ -2975,7 +2975,7 @@ title
 title
 )
 def
-plot_configs_from_args
+PlotConfigsFromArgs
 (
 args
 )
@@ -3107,7 +3107,7 @@ match
   
 parser
 =
-get_parser
+GetParser
 (
 )
   
@@ -3141,7 +3141,7 @@ plot_configs
 .
 append
 (
-_plot_config_from_args
+_PlotConfigFromArgs
 (
 graph_args
 index
@@ -3151,7 +3151,7 @@ index
 return
 plot_configs
 def
-show_or_save_plots
+ShowOrSavePlots
 (
 plot_configs
 )
@@ -3185,7 +3185,7 @@ ax
 =
 fig
 .
-add_subplot
+add_subPlot
 (
 1
 1
@@ -3203,7 +3203,7 @@ title
     
 config
 .
-plot
+Plot
 (
 ax
 )
@@ -3253,9 +3253,9 @@ __main__
 "
 :
   
-show_or_save_plots
+ShowOrSavePlots
 (
-plot_configs_from_args
+PlotConfigsFromArgs
 (
 sys
 .

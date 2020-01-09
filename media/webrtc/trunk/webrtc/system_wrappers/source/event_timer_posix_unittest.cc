@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 source
@@ -101,9 +99,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 criticalsection
 .
@@ -112,9 +108,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 event
 .
@@ -123,8 +117,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest

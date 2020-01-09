@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_MODULES_AUDIO_PROCESSING_VAD_PITCH_BASED_VAD_H_
+MODULES_AUDIO_PROCESSING_VAD_PITCH_BASED_VAD_H_
 #
 define
-WEBRTC_MODULES_AUDIO_PROCESSING_VAD_PITCH_BASED_VAD_H_
+MODULES_AUDIO_PROCESSING_VAD_PITCH_BASED_VAD_H_
 #
 include
 <
@@ -99,8 +99,6 @@ memory
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -114,8 +112,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -129,12 +125,18 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
 "
+/
+/
+NOLINT
+(
+build
+/
+include
+)
 namespace
 webrtc
 {
@@ -357,4 +359,4 @@ webrtc
 endif
 /
 /
-WEBRTC_MODULES_AUDIO_PROCESSING_VAD_PITCH_BASED_VAD_H_
+MODULES_AUDIO_PROCESSING_VAD_PITCH_BASED_VAD_H_

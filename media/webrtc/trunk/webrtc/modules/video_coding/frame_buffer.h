@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_MODULES_VIDEO_CODING_FRAME_BUFFER_H_
+MODULES_VIDEO_CODING_FRAME_BUFFER_H_
 #
 define
-WEBRTC_MODULES_VIDEO_CODING_FRAME_BUFFER_H_
+MODULES_VIDEO_CODING_FRAME_BUFFER_H_
 #
 include
 <
@@ -99,8 +99,6 @@ vector
 #
 include
 "
-webrtc
-/
 modules
 /
 include
@@ -112,8 +110,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 video_coding
@@ -127,8 +123,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 video_coding
@@ -140,8 +134,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 video_coding
@@ -153,8 +145,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 video_coding
@@ -166,12 +156,18 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
 "
+/
+/
+NOLINT
+(
+build
+/
+include
+)
 namespace
 webrtc
 {
@@ -542,4 +538,4 @@ webrtc
 endif
 /
 /
-WEBRTC_MODULES_VIDEO_CODING_FRAME_BUFFER_H_
+MODULES_VIDEO_CODING_FRAME_BUFFER_H_

@@ -95,8 +95,6 @@ h
 #
 include
 "
-webrtc
-/
 common_audio
 /
 vad
@@ -108,8 +106,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
@@ -119,12 +115,18 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
 "
+/
+/
+NOLINT
+(
+build
+/
+include
+)
 extern
 "
 C
@@ -133,8 +135,6 @@ C
 #
 include
 "
-webrtc
-/
 common_audio
 /
 vad
@@ -145,6 +145,10 @@ h
 "
 }
 namespace
+webrtc
+{
+namespace
+test
 {
 TEST_F
 (
@@ -180,7 +184,7 @@ VadInstT
 ;
 /
 /
-NULL
+null
 pointer
 test
 .
@@ -190,7 +194,7 @@ EXPECT_EQ
 1
 WebRtcVad_InitCore
 (
-NULL
+nullptr
 )
 )
 ;
@@ -203,7 +207,7 @@ return
 for
 non
 -
-NULL
+null
 pointer
 .
 EXPECT_EQ
@@ -270,7 +274,7 @@ bjornv
 )
 :
 Add
-NULL
+null
 pointer
 check
 if
@@ -416,7 +420,7 @@ bjornv
 )
 :
 Add
-NULL
+null
 pointer
 check
 if
@@ -800,3 +804,9 @@ self
 /
 /
 namespace
+test
+}
+/
+/
+namespace
+webrtc

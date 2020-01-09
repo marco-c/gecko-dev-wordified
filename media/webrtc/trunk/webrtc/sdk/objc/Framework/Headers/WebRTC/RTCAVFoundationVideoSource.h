@@ -114,6 +114,13 @@ NS_ASSUME_NONNULL_BEGIN
 *
 *
 *
+DEPRECATED
+Use
+RTCCameraVideoCapturer
+instead
+.
+*
+*
 RTCAVFoundationVideoSource
 is
 a

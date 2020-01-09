@@ -85,8 +85,6 @@ tree
 #
 include
 "
-webrtc
-/
 common_video
 /
 include
@@ -108,9 +106,7 @@ cmath
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .
@@ -119,9 +115,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 logging
 .
@@ -130,8 +124,6 @@ h
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include
@@ -916,7 +908,7 @@ adjusted_bitrate_bps
 last_adjusted_bitrate_bps
 )
 {
-LOG
+RTC_LOG
 (
 LS_VERBOSE
 )

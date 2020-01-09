@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_MODULES_AUDIO_PROCESSING_LEVEL_CONTROLLER_BIQUAD_FILTER_H_
+MODULES_AUDIO_PROCESSING_LEVEL_CONTROLLER_BIQUAD_FILTER_H_
 #
 define
-WEBRTC_MODULES_AUDIO_PROCESSING_LEVEL_CONTROLLER_BIQUAD_FILTER_H_
+MODULES_AUDIO_PROCESSING_LEVEL_CONTROLLER_BIQUAD_FILTER_H_
 #
 include
 <
@@ -99,9 +99,7 @@ vector
 #
 include
 "
-webrtc
-/
-base
+api
 /
 array_view
 .
@@ -110,9 +108,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 arraysize
 .
@@ -121,9 +117,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 constructormagic
 .
@@ -301,4 +295,4 @@ webrtc
 endif
 /
 /
-WEBRTC_MODULES_AUDIO_PROCESSING_LEVEL_CONTROLLER_BIQUAD_FILTER_H_
+MODULES_AUDIO_PROCESSING_LEVEL_CONTROLLER_BIQUAD_FILTER_H_

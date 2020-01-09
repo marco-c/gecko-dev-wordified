@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 common_audio
 /
 sparse_fir_filter
@@ -99,9 +97,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .

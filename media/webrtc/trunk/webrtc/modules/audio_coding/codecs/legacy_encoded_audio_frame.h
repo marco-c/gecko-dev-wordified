@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_MODULES_AUDIO_CODING_CODECS_LEGACY_ENCODED_AUDIO_FRAME_H_
+MODULES_AUDIO_CODING_CODECS_LEGACY_ENCODED_AUDIO_FRAME_H_
 #
 define
-WEBRTC_MODULES_AUDIO_CODING_CODECS_LEGACY_ENCODED_AUDIO_FRAME_H_
+MODULES_AUDIO_CODING_CODECS_LEGACY_ENCODED_AUDIO_FRAME_H_
 #
 include
 <
@@ -99,9 +99,7 @@ vector
 #
 include
 "
-webrtc
-/
-base
+api
 /
 array_view
 .
@@ -110,13 +108,9 @@ h
 #
 include
 "
-webrtc
+api
 /
-modules
-/
-audio_coding
-/
-codecs
+audio_codecs
 /
 audio_decoder
 .
@@ -261,4 +255,4 @@ webrtc
 endif
 /
 /
-WEBRTC_MODULES_AUDIO_CODING_CODECS_LEGACY_ENCODED_AUDIO_FRAME_H_
+MODULES_AUDIO_CODING_CODECS_LEGACY_ENCODED_AUDIO_FRAME_H_

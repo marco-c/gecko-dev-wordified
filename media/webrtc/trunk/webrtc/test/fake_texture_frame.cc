@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 test
 /
 fake_texture_frame
@@ -103,14 +101,11 @@ namespace
 test
 {
 VideoFrame
-FakeNativeHandle
+FakeNativeBuffer
 :
 :
 CreateFrame
 (
-FakeNativeHandle
-*
-native_handle
 int
 width
 int
@@ -132,10 +127,9 @@ rtc
 :
 RefCountedObject
 <
-FakeNativeHandleBuffer
+FakeNativeBuffer
 >
 (
-native_handle
 width
 height
 )

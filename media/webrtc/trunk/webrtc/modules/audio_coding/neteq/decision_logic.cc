@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -108,8 +106,6 @@ algorithm
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -123,8 +119,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -138,8 +132,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -153,8 +145,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -168,8 +158,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -183,8 +171,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -198,8 +184,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -207,19 +191,6 @@ audio_coding
 neteq
 /
 sync_buffer
-.
-h
-"
-#
-include
-"
-webrtc
-/
-system_wrappers
-/
-include
-/
-logging
 .
 h
 "

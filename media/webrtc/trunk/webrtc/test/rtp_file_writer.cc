@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 test
 /
 rtp_file_writer
@@ -111,9 +109,7 @@ string
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .
@@ -122,9 +118,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 constructormagic
 .

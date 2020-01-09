@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -109,8 +107,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 fuzzers
@@ -175,7 +171,7 @@ output
 kAllocatedOuputSizeSamples
 ]
 ;
-AudioDecoderIsac
+AudioDecoderIsacFloatImpl
 dec
 (
 sample_rate_hz

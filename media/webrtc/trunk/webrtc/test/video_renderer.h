@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_TEST_VIDEO_RENDERER_H_
+TEST_VIDEO_RENDERER_H_
 #
 define
-WEBRTC_TEST_VIDEO_RENDERER_H_
+TEST_VIDEO_RENDERER_H_
 #
 include
 <
@@ -101,8 +101,6 @@ h
 #
 include
 "
-webrtc
-/
 media
 /
 base
@@ -273,4 +271,4 @@ webrtc
 endif
 /
 /
-WEBRTC_TEST_VIDEO_RENDERER_H_
+TEST_VIDEO_RENDERER_H_

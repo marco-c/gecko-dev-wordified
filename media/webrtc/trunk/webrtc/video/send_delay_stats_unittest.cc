@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 video
 /
 send_delay_stats
@@ -99,8 +97,6 @@ h
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include
@@ -112,8 +108,6 @@ h
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include
@@ -125,8 +119,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest

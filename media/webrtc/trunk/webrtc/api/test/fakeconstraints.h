@@ -84,10 +84,10 @@ tree
 /
 #
 ifndef
-WEBRTC_API_TEST_FAKECONSTRAINTS_H_
+API_TEST_FAKECONSTRAINTS_H_
 #
 define
-WEBRTC_API_TEST_FAKECONSTRAINTS_H_
+API_TEST_FAKECONSTRAINTS_H_
 #
 include
 <
@@ -101,8 +101,6 @@ vector
 #
 include
 "
-webrtc
-/
 api
 /
 mediaconstraintsinterface
@@ -112,9 +110,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 stringencode
 .
@@ -595,4 +591,4 @@ webrtc
 endif
 /
 /
-WEBRTC_API_TEST_FAKECONSTRAINTS_H_
+API_TEST_FAKECONSTRAINTS_H_

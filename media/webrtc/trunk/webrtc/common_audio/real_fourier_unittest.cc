@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 common_audio
 /
 real_fourier
@@ -106,8 +104,6 @@ h
 #
 include
 "
-webrtc
-/
 common_audio
 /
 real_fourier_ooura
@@ -117,8 +113,6 @@ h
 #
 include
 "
-webrtc
-/
 common_audio
 /
 real_fourier_openmax
@@ -128,8 +122,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
