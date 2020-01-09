@@ -436,7 +436,12 @@ is
 (
 notification
 .
+getAttribute
+(
+"
 value
+"
+)
 "
 drmContentDisabled
 "

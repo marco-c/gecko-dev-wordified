@@ -444,7 +444,7 @@ notification
 {
 notification
 .
-remove
+close
 (
 )
 ;

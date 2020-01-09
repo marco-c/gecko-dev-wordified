@@ -1275,6 +1275,8 @@ shadow
 }
 notification
 >
+hbox
+>
 button
 {
 margin
@@ -1341,6 +1343,8 @@ roundButtonShadow
 }
 notification
 >
+hbox
+>
 button
 :
 active
@@ -1363,6 +1367,8 @@ roundButtonPressedShadow
 ;
 }
 notification
+>
+hbox
 >
 button
 :
@@ -1392,6 +1398,8 @@ roundButtonShadow
 }
 notification
 >
+hbox
+>
 button
 :
 active
@@ -1423,6 +1431,8 @@ roundButtonPressedShadow
 ;
 }
 notification
+>
+hbox
 >
 button
 >

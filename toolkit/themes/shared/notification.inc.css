@@ -375,8 +375,7 @@ fill
 currentColor
 ;
 }
-.
-messageImage
+notification
 [
 type
 =
@@ -384,6 +383,11 @@ type
 info
 "
 ]
+>
+hbox
+>
+.
+messageImage
 {
 list
 -
@@ -411,8 +415,7 @@ svg
 )
 ;
 }
-.
-messageImage
+notification
 [
 type
 =
@@ -420,6 +423,11 @@ type
 warning
 "
 ]
+>
+hbox
+>
+.
+messageImage
 {
 list
 -
@@ -447,8 +455,7 @@ svg
 )
 ;
 }
-.
-messageImage
+notification
 [
 type
 =
@@ -456,6 +463,11 @@ type
 critical
 "
 ]
+>
+hbox
+>
+.
+messageImage
 {
 list
 -

@@ -11020,7 +11020,12 @@ event
 .
 target
 .
+getAttribute
+(
+"
 value
+"
+)
 =
 =
 notificationValue

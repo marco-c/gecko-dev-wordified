@@ -409,6 +409,8 @@ styles
 .
 heartbeat
 >
+hbox
+>
 .
 text
 -
@@ -434,6 +436,8 @@ important
 }
 .
 heartbeat
+>
+hbox
 >
 .
 text
@@ -461,6 +465,8 @@ important
 .
 heartbeat
 >
+hbox
+>
 .
 text
 -
@@ -487,9 +493,6 @@ Star
 Classes
 *
 /
-.
-heartbeat
->
 #
 star
 -
@@ -511,9 +514,6 @@ bottom
 4px
 ;
 }
-.
-heartbeat
->
 #
 star
 -
@@ -536,9 +536,6 @@ group
 5
 ;
 }
-.
-heartbeat
->
 #
 star
 -
@@ -561,9 +558,6 @@ group
 4
 ;
 }
-.
-heartbeat
->
 #
 star
 -
@@ -586,9 +580,6 @@ group
 3
 ;
 }
-.
-heartbeat
->
 #
 star
 -
@@ -611,9 +602,6 @@ group
 2
 ;
 }
-.
-heartbeat
->
 #
 star
 -
@@ -694,9 +682,6 @@ width
 16px
 ;
 }
-.
-heartbeat
->
 #
 star
 -
@@ -710,9 +695,6 @@ star
 x
 :
 hover
-.
-heartbeat
->
 #
 star
 -

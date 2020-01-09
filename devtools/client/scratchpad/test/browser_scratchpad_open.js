@@ -548,7 +548,12 @@ is
 (
 cn
 .
+getAttribute
+(
+"
 value
+"
+)
 "
 file
 -
@@ -570,7 +575,12 @@ is
 (
 cn
 .
+getAttribute
+(
+"
 type
+"
+)
 "
 warning
 "

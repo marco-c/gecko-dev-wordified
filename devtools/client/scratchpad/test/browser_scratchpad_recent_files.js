@@ -1274,7 +1274,9 @@ notificationBox
 .
 currentNotification
 .
-label
+messageText
+.
+textContent
 gScratchpad
 .
 strings

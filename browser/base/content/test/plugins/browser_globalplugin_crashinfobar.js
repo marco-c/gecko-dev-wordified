@@ -158,12 +158,9 @@ is
 (
 notification
 .
-getAttribute
-(
-"
-label
-"
-)
+messageText
+.
+textContent
 "
 The
 GlobalTestPlugin

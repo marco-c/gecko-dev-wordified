@@ -1513,9 +1513,6 @@ return
 true
 ;
 }
-isDefault
-:
-true
 }
 ]
 ;

@@ -2366,7 +2366,9 @@ is
 (
 updateBox
 .
-label
+messageText
+.
+textContent
 testCase
 .
 notificationText
