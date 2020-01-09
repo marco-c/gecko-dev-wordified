@@ -128,7 +128,7 @@ element
 removeEventListener
 (
 "
-click
+mousedown
 "
 clickHandler
 )
@@ -140,7 +140,7 @@ element
 addEventListener
 (
 "
-click
+mousedown
 "
 clickHandler
 )
@@ -260,7 +260,7 @@ entry
 .
 name
 '
-click
+mousedown
 '
 )
 ;
