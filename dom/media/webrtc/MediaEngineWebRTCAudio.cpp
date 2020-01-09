@@ -2628,6 +2628,12 @@ mState
 =
 =
 kStopped
+|
+|
+mState
+=
+=
+kAllocated
 )
 ;
 class
