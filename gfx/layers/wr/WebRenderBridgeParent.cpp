@@ -5898,7 +5898,7 @@ SetDisplayList
 (
 clearColor
 wrEpoch
-LayoutDeviceSize
+LayerSize
 (
 aSize
 .
@@ -7335,7 +7335,7 @@ pipelineId
 )
 op
 .
-scSize
+scBounds
 (
 )
 op
