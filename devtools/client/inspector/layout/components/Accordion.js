@@ -394,6 +394,14 @@ containerClassName
 =
 item
 .
+className
+?
+item
+.
+className
+:
+item
+.
 header
 .
 toLowerCase

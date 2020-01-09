@@ -205,9 +205,9 @@ querySelector
 (
 "
 .
-flexbox
+flex
 -
-pane
+accordion
 .
 devtools
 -

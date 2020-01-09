@@ -129,12 +129,12 @@ waitForDOM
 (
 doc
 "
-#
+.
 layout
 -
 flexbox
 -
-container
+wrapper
 .
 flex
 -
