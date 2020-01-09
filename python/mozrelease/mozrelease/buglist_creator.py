@@ -1,3 +1,75 @@
+#
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
+#
+This
+Source
+Code
+Form
+is
+subject
+to
+the
+terms
+of
+the
+Mozilla
+Public
+#
+License
+v
+.
+2
+.
+0
+.
+If
+a
+copy
+of
+the
+MPL
+was
+not
+distributed
+with
+this
+#
+file
+You
+can
+obtain
+one
+at
+http
+:
+/
+/
+mozilla
+.
+org
+/
+MPL
+/
+2
+.
+0
+/
+.
+from
+__future__
+import
+absolute_import
+print_function
 import
 logging
 import
@@ -96,6 +168,8 @@ _RELEASE
 '
 CHANGESET_URL_TEMPLATE
 =
+(
+    
 '
 https
 :
@@ -114,6 +188,9 @@ release_branch
 {
 logtype
 }
+'
+    
+'
 ?
 fromchange
 =
@@ -131,6 +208,7 @@ full
 =
 1
 '
+)
 FULL_CHANGESET_PREFIX
 =
 '
@@ -279,6 +357,7 @@ releases
 with
 Bugzilla
 links
+        
 containing
 all
 bugs
@@ -426,6 +505,7 @@ previous_version_tag
 =
 get_previous_tag_version
 (
+            
 product
 current_version_dot
 current_version_tag
@@ -522,10 +602,11 @@ LIST_DESCRIPTION_TEMPLATE
 .
 format
 (
+                
 from_version
 =
 previous_version_tag
-                                                                  
+                
 to_version
 =
 current_version_tag
@@ -559,6 +640,7 @@ pushloghtml
 return
 format_return_value
 (
+                
 description_string
 unique_bugs
 unique_backout_bugs
@@ -835,7 +917,7 @@ set_of_bugs
 )
 )
                 
-url
+response
 =
 requests
 .
@@ -850,6 +932,10 @@ url
 long_bugzilla_link
 )
 )
+                
+url
+=
+response
 .
 json
 (
@@ -870,6 +956,13 @@ url
 \
 n
 '
+            
+except
+(
+KeyError
+ValueError
+)
+:
                 
 #
 If
@@ -882,6 +975,8 @@ limiting
 the
 number
 of
+                
+#
 bugs
 don
 '
@@ -891,13 +986,6 @@ the
 url
 and
 continue
-            
-except
-(
-KeyError
-ValueError
-)
-:
                 
 url
 =
@@ -1005,6 +1093,7 @@ dot_version
 def
 get_previous_tag_version
 (
+    
 product
 current_version_dot
 current_version_tag
@@ -1015,6 +1104,7 @@ mercurial_tags_json
 "
 "
 "
+    
 Gets
 the
 previous
@@ -1031,6 +1121,7 @@ the
 current
 version
 tag
+    
 "
 "
 "
@@ -1250,6 +1341,8 @@ version
     
 next_version_index
 =
+(
+        
 map
 (
 itemgetter
@@ -1268,6 +1361,8 @@ current_version_dot
 )
 -
 1
+    
+)
     
 return
 dot_tag_version_mapping
@@ -1292,6 +1387,7 @@ backout_bugs_link
 =
 create_short_url_with_prefix
 (
+        
 unique_bugs
 unique_backout_bugs
 )
