@@ -94,9 +94,6 @@ options
 localeMatcher
 "
 "
-lineBreakStyle
-"
-"
 granularity
 "
 ]

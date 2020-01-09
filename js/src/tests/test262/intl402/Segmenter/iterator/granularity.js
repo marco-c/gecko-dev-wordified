@@ -109,9 +109,6 @@ word
 "
 sentence
 "
-"
-line
-"
 ]
 )
 {
