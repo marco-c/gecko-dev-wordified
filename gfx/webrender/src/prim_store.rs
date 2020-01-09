@@ -5028,7 +5028,7 @@ SmallVec
 [
 BrushSegment
 ;
-8
+1
 ]
 >
 ;
