@@ -33524,7 +33524,7 @@ get
 OptimizationLevel
 :
 :
-Normal
+Full
 )
 ;
 CompilerConstraintList
