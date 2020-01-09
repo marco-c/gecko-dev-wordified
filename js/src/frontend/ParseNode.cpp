@@ -787,9 +787,6 @@ return
 list
 ;
 }
-#
-ifdef
-DEBUG
 const
 ParseNodeArity
 js
@@ -820,6 +817,9 @@ undef
 ARITY
 }
 ;
+#
+ifdef
+DEBUG
 static
 const
 char
@@ -1009,9 +1009,8 @@ indent
 {
 switch
 (
-ParseNodeArity
+getArity
 (
-pn_arity
 )
 )
 {
@@ -1246,10 +1245,6 @@ kind
 =
 %
 u
-arity
-=
-%
-u
 >
 "
 (
@@ -1262,10 +1257,6 @@ unsigned
 getKind
 (
 )
-)
-unsigned
-(
-pn_arity
 )
 )
 ;
