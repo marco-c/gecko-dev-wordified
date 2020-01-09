@@ -685,10 +685,36 @@ return
 False
         
 except
+(
 errors
 .
 StaleElementException
+errors
+.
+NoSuchElementException
+)
 :
+            
+#
+StaleElementException
+is
+raised
+when
+the
+element
+is
+gone
+and
+            
+#
+NoSuchElementException
+is
+raised
+after
+a
+process
+swap
+.
             
 return
 True
