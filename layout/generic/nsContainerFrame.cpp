@@ -12028,10 +12028,7 @@ nsBlockFrame
 *
 ourBlock
 =
-nsLayoutUtils
-:
-:
-GetAsBlock
+do_QueryFrame
 (
 aOurLineContainer
 )
@@ -12949,10 +12946,7 @@ nsBlockFrame
 *
 listItem
 =
-nsLayoutUtils
-:
-:
-GetAsBlock
+do_QueryFrame
 (
 kid
 )

@@ -3374,10 +3374,7 @@ nsBlockFrame
 *
 newFloatCB
 =
-nsLayoutUtils
-:
-:
-GetAsBlock
+do_QueryFrame
 (
 aLineLayout
 -
