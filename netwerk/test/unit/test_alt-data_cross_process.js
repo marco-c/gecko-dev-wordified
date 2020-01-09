@@ -569,6 +569,7 @@ preferAlternativeDataType
 altContentType
 "
 "
+true
 )
 ;
 chan
@@ -760,6 +761,7 @@ preferAlternativeDataType
 altContentType
 "
 "
+true
 )
 ;
 chan
