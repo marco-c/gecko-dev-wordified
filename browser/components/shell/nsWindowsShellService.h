@@ -116,6 +116,13 @@ h
 #
 include
 "
+nsToolkitShellService
+.
+h
+"
+#
+include
+"
 nsIShellService
 .
 h
@@ -139,6 +146,8 @@ nsWindowsShellService
 :
 public
 nsIShellService
+public
+nsToolkitShellService
 {
 virtual
 ~
