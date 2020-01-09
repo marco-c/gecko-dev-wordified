@@ -7024,9 +7024,10 @@ AppUnitsPerDevPixel
 ;
 context
 .
-SnappedRectangle
+Rectangle
 (
 drawingRect
+true
 )
 ;
 Color
