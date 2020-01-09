@@ -212,11 +212,7 @@ System
 FONT_SCALE
 *
 /
-/
-*
-package
-*
-/
+public
 final
 class
 GeckoFontScaleListener
