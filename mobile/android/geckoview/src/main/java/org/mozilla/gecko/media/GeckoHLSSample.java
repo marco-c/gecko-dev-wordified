@@ -201,7 +201,7 @@ cryptoInfo
 ;
 private
 ByteBuffer
-buffer
+mBuffer
 =
 null
 ;
@@ -219,7 +219,7 @@ IOException
 {
 if
 (
-buffer
+mBuffer
 !
 =
 null
@@ -242,7 +242,7 @@ dest
 .
 put
 (
-buffer
+mBuffer
 )
 ;
 }
@@ -352,7 +352,7 @@ MAX_VALUE
 ;
 this
 .
-buffer
+mBuffer
 =
 buffer
 ;

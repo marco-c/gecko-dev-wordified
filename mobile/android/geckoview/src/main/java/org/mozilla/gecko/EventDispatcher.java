@@ -2432,7 +2432,7 @@ EventCallback
 private
 final
 Thread
-originalThread
+mOriginalThread
 =
 Thread
 .
@@ -2443,7 +2443,7 @@ currentThread
 private
 final
 EventCallback
-callback
+mCallback
 ;
 public
 static
@@ -2504,9 +2504,7 @@ EventCallback
 callback
 )
 {
-this
-.
-callback
+mCallback
 =
 callback
 ;
@@ -2718,7 +2716,7 @@ ThreadUtils
 .
 isOnThread
 (
-originalThread
+mOriginalThread
 )
 )
 {
@@ -2727,7 +2725,7 @@ if
 callSuccess
 )
 {
-callback
+mCallback
 .
 sendSuccess
 (
@@ -2737,7 +2735,7 @@ response
 }
 else
 {
-callback
+mCallback
 .
 sendError
 (
@@ -2783,7 +2781,7 @@ final
 Handler
 handler
 =
-originalThread
+mOriginalThread
 =
 =
 ThreadUtils
@@ -2798,7 +2796,7 @@ getUiHandler
 (
 )
 :
-originalThread
+mOriginalThread
 =
 =
 ThreadUtils
@@ -2819,9 +2817,7 @@ final
 EventCallback
 callback
 =
-this
-.
-callback
+mCallback
 ;
 handler
 .

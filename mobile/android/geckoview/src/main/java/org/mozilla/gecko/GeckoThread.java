@@ -581,7 +581,7 @@ available
 private
 final
 int
-rank
+mRank
 ;
 private
 State
@@ -591,9 +591,7 @@ int
 rank
 )
 {
-this
-.
-rank
+mRank
 =
 rank
 ;
@@ -637,9 +635,7 @@ State
 )
 {
 return
-this
-.
-rank
+mRank
 >
 =
 (
@@ -649,7 +645,7 @@ State
 other
 )
 .
-rank
+mRank
 ;
 }
 return

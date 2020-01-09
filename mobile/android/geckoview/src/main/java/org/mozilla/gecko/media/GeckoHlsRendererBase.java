@@ -430,7 +430,7 @@ BUFFER_REPLACEMENT_MODE_NORMAL
 private
 final
 DecoderInputBuffer
-mflagsOnlyBuffer
+mFlagsOnlyBuffer
 =
 DecoderInputBuffer
 .
@@ -1607,7 +1607,7 @@ readFormat
 throws
 ExoPlaybackException
 {
-mflagsOnlyBuffer
+mFlagsOnlyBuffer
 .
 clear
 (
@@ -1619,7 +1619,7 @@ result
 readSource
 (
 mFormatHolder
-mflagsOnlyBuffer
+mFlagsOnlyBuffer
 true
 )
 ;
