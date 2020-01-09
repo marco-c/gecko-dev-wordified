@@ -234,6 +234,15 @@ include
 "
 js
 /
+Id
+.
+h
+"
+#
+include
+"
+js
+/
 TracingAPI
 .
 h
@@ -310,9 +319,6 @@ js
 TaggedProto
 struct
 JSContext
-;
-struct
-jsid
 ;
 class
 JSObject

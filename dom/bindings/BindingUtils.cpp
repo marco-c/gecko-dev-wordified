@@ -9309,6 +9309,10 @@ iteratorAliasMethodIndex
 &
 &
 id
+.
+get
+(
+)
 =
 =
 SYMBOL_TO_JSID
@@ -11568,6 +11572,10 @@ eInterface
 if
 (
 id
+.
+get
+(
+)
 =
 =
 GetJSIDByIndex
@@ -11616,6 +11624,10 @@ cacheOnHolder
 if
 (
 id
+.
+get
+(
+)
 =
 =
 GetJSIDByIndex
@@ -11732,6 +11744,10 @@ true
 if
 (
 id
+.
+get
+(
+)
 =
 =
 SYMBOL_TO_JSID
@@ -11870,6 +11886,10 @@ type
 if
 (
 id
+.
+get
+(
+)
 =
 =
 GetJSIDByIndex
