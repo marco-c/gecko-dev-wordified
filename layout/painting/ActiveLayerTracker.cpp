@@ -1507,9 +1507,6 @@ CSS
 transform
 property
 .
-bool
-dummyBool
-;
 nsStyleTransformMatrix
 :
 :
@@ -1566,8 +1563,6 @@ refBox
 AppUnitsPerCSSPixel
 (
 )
-&
-dummyBool
 )
 ;
 Matrix

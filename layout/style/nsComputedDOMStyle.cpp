@@ -22796,9 +22796,6 @@ nsSize
 )
 )
 ;
-bool
-dummyBool
-;
 gfx
 :
 :
@@ -22824,8 +22821,6 @@ AppUnitsPerCSSPixel
 (
 )
 )
-&
-dummyBool
 )
 ;
 return

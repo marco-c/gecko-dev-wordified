@@ -3115,9 +3115,6 @@ aData
 TransformReferenceBox
 &
 aRefBox
-bool
-*
-aContains3dTransform
 )
 {
 MOZ_ASSERT
@@ -3292,7 +3289,6 @@ ReadTransforms
 list
 aRefBox
 appUnitPerCSSPixel
-aContains3dTransform
 )
 ;
 return
@@ -3465,9 +3461,6 @@ aData
 TransformReferenceBox
 &
 aRefBox
-bool
-*
-aContains3dTransform
 )
 {
 ProcessMatrixOperator
@@ -3478,7 +3471,6 @@ Interpolate
 aMatrix
 aData
 aRefBox
-aContains3dTransform
 )
 ;
 }
@@ -3498,9 +3490,6 @@ aData
 TransformReferenceBox
 &
 aRefBox
-bool
-*
-aContains3dTransform
 )
 {
 ProcessMatrixOperator
@@ -3511,7 +3500,6 @@ Accumulate
 aMatrix
 aData
 aRefBox
-aContains3dTransform
 )
 ;
 }
@@ -5123,16 +5111,8 @@ aData
 TransformReferenceBox
 &
 aRefBox
-bool
-*
-aContains3dTransform
 )
 {
-MOZ_ASSERT
-(
-aContains3dTransform
-)
-;
 MOZ_ASSERT
 (
 aData
@@ -5198,11 +5178,6 @@ break
 case
 eCSSKeyword_translatez
 :
-*
-aContains3dTransform
-=
-true
-;
 ProcessTranslateZ
 (
 aMatrix
@@ -5226,11 +5201,6 @@ break
 case
 eCSSKeyword_translate3d
 :
-*
-aContains3dTransform
-=
-true
-;
 ProcessTranslate3D
 (
 aMatrix
@@ -5265,11 +5235,6 @@ break
 case
 eCSSKeyword_scalez
 :
-*
-aContains3dTransform
-=
-true
-;
 ProcessScaleZ
 (
 aMatrix
@@ -5292,11 +5257,6 @@ break
 case
 eCSSKeyword_scale3d
 :
-*
-aContains3dTransform
-=
-true
-;
 ProcessScale3D
 (
 aMatrix
@@ -5341,11 +5301,6 @@ break
 case
 eCSSKeyword_rotatex
 :
-*
-aContains3dTransform
-=
-true
-;
 ProcessRotateX
 (
 aMatrix
@@ -5357,11 +5312,6 @@ break
 case
 eCSSKeyword_rotatey
 :
-*
-aContains3dTransform
-=
-true
-;
 ProcessRotateY
 (
 aMatrix
@@ -5373,11 +5323,6 @@ break
 case
 eCSSKeyword_rotatez
 :
-*
-aContains3dTransform
-=
-true
-;
 MOZ_FALLTHROUGH
 ;
 case
@@ -5394,11 +5339,6 @@ break
 case
 eCSSKeyword_rotate3d
 :
-*
-aContains3dTransform
-=
-true
-;
 ProcessRotate3D
 (
 aMatrix
@@ -5422,11 +5362,6 @@ break
 case
 eCSSKeyword_matrix3d
 :
-*
-aContains3dTransform
-=
-true
-;
 ProcessMatrix3D
 (
 aMatrix
@@ -5447,7 +5382,6 @@ Interpolate
 aMatrix
 aData
 aRefBox
-aContains3dTransform
 )
 ;
 break
@@ -5463,7 +5397,6 @@ Accumulate
 aMatrix
 aData
 aRefBox
-aContains3dTransform
 )
 ;
 break
@@ -5471,11 +5404,6 @@ break
 case
 eCSSKeyword_perspective
 :
-*
-aContains3dTransform
-=
-true
-;
 ProcessPerspective
 (
 aMatrix
@@ -5763,9 +5691,6 @@ aList
 TransformReferenceBox
 &
 aRefBox
-bool
-*
-aContains3dTransform
 )
 {
 for
@@ -5895,7 +5820,6 @@ GetArrayValue
 (
 )
 aRefBox
-aContains3dTransform
 )
 ;
 }
@@ -5912,9 +5836,6 @@ TransformReferenceBox
 aRefBox
 float
 aAppUnitsPerMatrixUnit
-bool
-*
-aContains3dTransform
 )
 {
 Matrix4x4
@@ -5925,7 +5846,6 @@ ReadTransformsImpl
 result
 aList
 aRefBox
-aContains3dTransform
 )
 ;
 float
@@ -5991,9 +5911,6 @@ TransformReferenceBox
 aRefBox
 float
 aAppUnitsPerMatrixUnit
-bool
-*
-aContains3dTransform
 )
 {
 Matrix4x4
@@ -6009,7 +5926,6 @@ ReadTransformsImpl
 result
 aIndividualTransforms
 aRefBox
-aContains3dTransform
 )
 ;
 }
@@ -6127,7 +6043,6 @@ ReadTransformsImpl
 result
 aTransform
 aRefBox
-aContains3dTransform
 )
 ;
 }
@@ -9527,9 +9442,6 @@ MOZ_ASSERT
 aForFrame
 )
 ;
-bool
-dontCareBool
-;
 TransformReferenceBox
 refBox
 (
@@ -9557,8 +9469,6 @@ PresContext
 AppUnitsPerDevPixel
 (
 )
-&
-dontCareBool
 )
 ;
 Matrix
