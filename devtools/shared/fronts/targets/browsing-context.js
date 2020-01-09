@@ -204,6 +204,20 @@ client
 =
 client
 ;
+}
+form
+(
+json
+)
+{
+this
+.
+actorID
+=
+json
+.
+actor
+;
 /
 /
 Save
@@ -214,6 +228,7 @@ for
 Target
 class
 usage
+.
 /
 /
 Do
@@ -236,7 +251,7 @@ this
 .
 targetForm
 =
-form
+json
 ;
 }
 /
