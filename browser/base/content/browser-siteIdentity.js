@@ -5403,8 +5403,6 @@ getIdentityData
 (
 )
 ;
-host
-=
 owner
 =
 iData
