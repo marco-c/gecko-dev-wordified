@@ -559,6 +559,20 @@ release_product
 None
     
 '
+required_signoffs
+'
+:
+[
+]
+    
+'
+signoff_urls
+'
+:
+{
+}
+    
+'
 target_tasks_method
 '
 :
