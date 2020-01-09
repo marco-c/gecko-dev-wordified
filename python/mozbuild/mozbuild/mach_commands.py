@@ -155,6 +155,8 @@ import
     
 backends
 )
+import
+taskgraph
 BUILD_WHAT_HELP
 =
 '
@@ -10842,6 +10844,12 @@ verbose
 False
 )
 :
+        
+taskgraph
+.
+set_root_url_env
+(
+)
         
 self
 .
@@ -27302,7 +27310,9 @@ archtecture
 you
 are
 building
-.
+x64
+or
+x32
 '
 )
     
@@ -27601,32 +27611,6 @@ format
 '
 )
     
-CommandArgument
-(
-'
--
--
-arch
-'
-type
-=
-str
-required
-=
-True
-        
-help
-=
-'
-The
-archtecture
-you
-are
-building
-.
-'
-)
-    
 def
 repackage_mar
 (
@@ -27635,7 +27619,6 @@ input
 mar
 output
 format
-arch
 )
 :
         
@@ -27657,9 +27640,6 @@ input
 mar
 output
 format
-arch
-=
-arch
 )
 CommandProvider
 class
