@@ -1307,6 +1307,16 @@ return
 mUseDComp
 ;
 }
+bool
+GetUseTripleBuffering
+(
+)
+const
+{
+return
+mUseTripleBuffering
+;
+}
 layers
 :
 :
@@ -1346,6 +1356,8 @@ bool
 aUseANGLE
 bool
 aUseDComp
+bool
+aUseTripleBuffering
 layers
 :
 :
@@ -1372,6 +1384,10 @@ aUseANGLE
 mUseDComp
 (
 aUseDComp
+)
+mUseTripleBuffering
+(
+aUseTripleBuffering
 )
 mSyncHandle
 (
@@ -1419,6 +1435,9 @@ mUseANGLE
 ;
 bool
 mUseDComp
+;
+bool
+mUseTripleBuffering
 ;
 layers
 :
