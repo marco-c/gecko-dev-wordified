@@ -104,12 +104,11 @@ pardir
 EXTRA_PATHS
 =
 (
-    
-'
+"
 python
 /
 mozversioncontrol
-'
+"
 )
 sys
 .
@@ -169,9 +168,9 @@ vcs
 .
 get_outgoing_files
 (
-'
+"
 AM
-'
+"
 )
     
 if
@@ -191,19 +190,19 @@ return
 arguments
 =
 [
-'
+"
 clang
 -
 format
-'
-'
+"
+"
 -
 s
-'
-'
+"
+"
 -
 p
-'
+"
 ]
 +
 changedFiles
@@ -231,20 +230,20 @@ os
 name
 =
 =
-'
+"
 nt
-'
+"
 :
         
 clang_format_cmd
 =
 [
-'
+"
 sh
-'
-'
+"
+"
 mach
-'
+"
 ]
 +
 arguments
@@ -271,9 +270,9 @@ mach
 arguments
     
 if
-'
+"
 commit
-'
+"
 in
 hooktype
 :
@@ -343,6 +342,7 @@ kwargs
     
 print
 (
+        
 "
 warning
 :
@@ -362,7 +362,7 @@ instead
 \
 n
 "
-          
+        
 "
 please
 add
@@ -389,14 +389,14 @@ clang
 format
 '
 "
-          
+        
 "
 to
 hgrc
 \
 n
 "
-          
+        
 "
 Or
 run
@@ -405,6 +405,7 @@ mach
 bootstrap
 '
 "
+    
 )
     
 return
@@ -430,20 +431,20 @@ if
 hooktype
 =
 =
-'
+"
 hooks_clang_format
 .
 py
-'
+"
 :
         
 hooktype
 =
-'
+"
 pre
 -
 push
-'
+"
     
 return
 run_clang_format
@@ -456,9 +457,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 sys
