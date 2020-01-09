@@ -4261,6 +4261,15 @@ debugging
 "
 )
 ;
+manager
+.
+disallowFeature
+(
+"
+xpinstall
+"
+)
+;
 }
 }
 }
