@@ -1769,10 +1769,9 @@ SystemAllocPolicy
 &
 &
 structTypeDescrs
-Handle
-<
-FunctionVector
->
+const
+JSFunctionVector
+&
 funcImports
 const
 wasm
@@ -1781,10 +1780,12 @@ wasm
 GlobalDescVector
 &
 globals
+const
 wasm
 :
 :
-HandleValVector
+ValVector
+&
 globalImportValues
 const
 WasmGlobalObjectVector
