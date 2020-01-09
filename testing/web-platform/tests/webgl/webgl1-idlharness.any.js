@@ -24,13 +24,6 @@ idlharness
 js
 /
 /
-META
-:
-timeout
-=
-long
-/
-/
 https
 :
 /

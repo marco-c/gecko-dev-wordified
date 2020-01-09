@@ -1110,21 +1110,6 @@ server_config
 )
     
 def
-reset
-(
-self
-)
-:
-        
-self
-.
-implementation
-.
-reset
-(
-)
-    
-def
 teardown
 (
 self
@@ -1356,7 +1341,7 @@ resolution
 viewport_size
 or
 "
-800x600
+600x600
 "
 ]
             

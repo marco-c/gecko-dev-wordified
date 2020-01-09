@@ -1035,7 +1035,7 @@ viewport
 desktopWidth
 "
 :
-800
+600
                                           
 #
 Disable

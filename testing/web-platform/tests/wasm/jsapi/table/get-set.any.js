@@ -50,9 +50,6 @@ assertions
 js
 let
 functions
-=
-{
-}
 ;
 setup
 (
