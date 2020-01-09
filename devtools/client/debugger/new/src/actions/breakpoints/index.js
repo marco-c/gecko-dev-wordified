@@ -258,6 +258,15 @@ utils
 telemetry
 "
 ;
+export
+*
+from
+"
+.
+/
+breakpointPositions
+"
+;
 async
 function
 removeBreakpointsPromise
