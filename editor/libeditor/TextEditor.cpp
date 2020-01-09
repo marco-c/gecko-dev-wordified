@@ -10567,9 +10567,6 @@ aFormatType
 {
 nsAutoCString
 formatType
-(
-NS_DOC_ENCODER_CONTRACTID_BASE
-)
 ;
 LossyAppendUTF16toASCII
 (
@@ -10579,9 +10576,12 @@ formatType
 ;
 docEncoder
 =
-do_CreateInstance
+do_createDocumentEncoder
+(
+PromiseFlatCString
 (
 formatType
+)
 .
 get
 (
