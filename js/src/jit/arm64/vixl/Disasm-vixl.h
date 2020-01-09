@@ -1372,6 +1372,16 @@ Instruction
 instr
 )
 ;
+char
+*
+GdbDisassembleInstruction
+(
+const
+Instruction
+*
+instr
+)
+;
 }
 /
 /
