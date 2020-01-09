@@ -1165,6 +1165,7 @@ clone
 notifier
 opts
 None
+framebuffer_size
 )
 .
 unwrap

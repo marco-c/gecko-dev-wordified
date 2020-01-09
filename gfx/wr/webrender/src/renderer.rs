@@ -11285,6 +11285,9 @@ Option
 mut
 WrShaders
 >
+start_size
+:
+FramebufferIntSize
 )
 -
 >
@@ -13008,6 +13011,13 @@ new
 (
 max_texture_size
 max_texture_layers
+if
+config
+.
+enable_picture_caching
+{
+Some
+(
 TileCache
 :
 :
@@ -13017,6 +13027,13 @@ config
 .
 testing
 )
+)
+}
+else
+{
+None
+}
+start_size
 )
 ;
 let
