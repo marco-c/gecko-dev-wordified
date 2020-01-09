@@ -4488,7 +4488,7 @@ js
 Nursery
 :
 :
-needIdleTimeCollection
+shouldCollect
 (
 )
 const

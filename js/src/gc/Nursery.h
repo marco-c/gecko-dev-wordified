@@ -2439,7 +2439,7 @@ NO_REASON
 ;
 }
 bool
-needIdleTimeCollection
+shouldCollect
 (
 )
 const
