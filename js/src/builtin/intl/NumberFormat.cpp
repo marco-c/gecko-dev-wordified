@@ -230,15 +230,6 @@ include
 "
 js
 /
-PropertySpec
-.
-h
-"
-#
-include
-"
-js
-/
 RootingAPI
 .
 h

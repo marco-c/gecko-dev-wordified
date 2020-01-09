@@ -167,15 +167,6 @@ include
 "
 js
 /
-PropertySpec
-.
-h
-"
-#
-include
-"
-js
-/
 Vector
 .
 h

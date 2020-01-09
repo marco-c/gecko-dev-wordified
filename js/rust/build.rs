@@ -2209,10 +2209,7 @@ js
 ObjectClassName
 "
 "
-JS
-:
-:
-ObjectIsDate
+JS_ObjectIsDate
 "
 "
 JS_ParseJSON
@@ -2254,10 +2251,7 @@ js
 RunJobs
 "
 "
-JS
-:
-:
-SameValue
+JS_SameValue
 "
 "
 js

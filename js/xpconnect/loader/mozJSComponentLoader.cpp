@@ -200,15 +200,6 @@ h
 #
 include
 "
-js
-/
-PropertySpec
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
