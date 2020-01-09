@@ -154,17 +154,6 @@ frameworks
 "
 ;
 import
-{
-getPausePoints
-}
-from
-"
-.
-/
-pausePoints
-"
-;
-import
 mapExpression
 from
 "
@@ -210,7 +199,6 @@ clearSources
 getNextStep
 hasSyntaxError
 getFramework
-getPausePoints
 mapExpression
 }
 )

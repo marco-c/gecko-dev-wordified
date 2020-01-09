@@ -350,17 +350,6 @@ from
 visibleColumnBreakpoints
 "
 ;
-export
-{
-getVisiblePausePoints
-}
-from
-"
-.
-/
-visiblePausePoints
-"
-;
 import
 {
 objectInspector

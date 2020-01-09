@@ -218,15 +218,6 @@ frame
 frame
 .
 scope
-setPausePoints
-:
-async
-(
-)
-=
->
-{
-}
 setBreakpoint
 :
 (

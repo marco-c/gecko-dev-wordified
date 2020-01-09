@@ -174,15 +174,6 @@ javascript
 "
 }
 )
-setPausePoints
-:
-async
-(
-)
-=
->
-{
-}
 getFrameScopes
 :
 async
