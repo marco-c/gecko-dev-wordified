@@ -1641,13 +1641,6 @@ LoginManagerContent
 onDOMFormHasPassword
 (
 event
-event
-.
-target
-.
-ownerGlobal
-.
-top
 )
 ;
 }
@@ -1777,13 +1770,6 @@ LoginManagerContent
 onPageShow
 (
 event
-event
-.
-target
-.
-defaultView
-.
-top
 )
 ;
 }
