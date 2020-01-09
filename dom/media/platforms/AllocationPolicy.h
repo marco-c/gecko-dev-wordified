@@ -685,7 +685,7 @@ time
 *
 /
 class
-LocalAllocPolicy
+SingleAllocPolicy
 :
 public
 AllocPolicyImpl
@@ -700,7 +700,7 @@ TrackType
 ;
 public
 :
-LocalAllocPolicy
+SingleAllocPolicy
 (
 TrackType
 aTrack
@@ -772,7 +772,7 @@ AutoDeallocCombinedToken
 ;
 virtual
 ~
-LocalAllocPolicy
+SingleAllocPolicy
 (
 )
 ;
