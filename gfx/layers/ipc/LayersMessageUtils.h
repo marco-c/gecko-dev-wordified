@@ -1436,7 +1436,7 @@ WriteParam
 aMsg
 aParam
 .
-mViewport
+mLayoutViewport
 )
 ;
 WriteParam
@@ -1714,7 +1714,7 @@ aIter
 aResult
 -
 >
-mViewport
+mLayoutViewport
 )
 &
 &
@@ -1943,7 +1943,7 @@ WriteParam
 aMsg
 aParam
 .
-mViewport
+mLayoutViewport
 )
 ;
 WriteParam
@@ -2133,7 +2133,7 @@ aIter
 aResult
 -
 >
-mViewport
+mLayoutViewport
 )
 &
 &

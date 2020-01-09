@@ -60525,7 +60525,7 @@ GetMetrics
 ;
 metrics
 .
-SetViewport
+SetLayoutViewport
 (
 CSSRect
 :
@@ -60856,7 +60856,7 @@ viewport
 =
 metrics
 .
-GetViewport
+GetLayoutViewport
 (
 )
 ;
@@ -60869,7 +60869,7 @@ scrollPosition
 ;
 metrics
 .
-SetViewport
+SetLayoutViewport
 (
 viewport
 )
