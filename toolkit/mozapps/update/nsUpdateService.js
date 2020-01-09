@@ -912,7 +912,7 @@ are
 from
 common
 /
-errors
+updatererrors
 .
 h
 const
@@ -1140,7 +1140,7 @@ defined
 in
 common
 /
-errors
+updatererrors
 .
 h
 const

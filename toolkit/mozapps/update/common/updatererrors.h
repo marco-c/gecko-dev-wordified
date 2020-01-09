@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-Errors_h__
+UPDATEERRORS_H
 #
 define
-Errors_h__
+UPDATEERRORS_H
 #
 define
 OK
@@ -612,4 +612,4 @@ FALLBACKKEY_LAUNCH_ERROR
 endif
 /
 /
-Errors_h__
+UPDATEERRORS_H
