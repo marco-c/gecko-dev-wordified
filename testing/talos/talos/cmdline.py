@@ -786,7 +786,9 @@ Deprecated
 Use
 -
 -
-geckoProfile
+gecko
+-
+profile
 instead
 .
 )
@@ -831,7 +833,11 @@ Deprecated
 Use
 -
 -
-geckoProfileInterval
+gecko
+-
+profile
+-
+interval
 instead
 .
 )
@@ -874,7 +880,11 @@ Deprecated
 Use
 -
 -
-geckoProfileEntries
+gecko
+-
+profile
+-
+entries
 instead
 .
 )
