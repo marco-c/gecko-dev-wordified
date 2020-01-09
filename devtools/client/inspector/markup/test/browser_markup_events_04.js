@@ -588,8 +588,6 @@ handler
 function
 sort
 (
-arr
-comparefn
 )
 {
 \
