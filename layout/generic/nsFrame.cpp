@@ -20050,6 +20050,7 @@ aBuilder
 this
 visibleRect
 dirtyRect
+isTransformed
 )
 ;
 /
@@ -24138,6 +24139,20 @@ dirty
 return
 ;
 }
+/
+/
+Child
+cannot
+be
+transformed
+since
+it
+is
+not
+a
+stacking
+context
+.
 nsDisplayListBuilder
 :
 :
@@ -24148,6 +24163,7 @@ aBuilder
 aChild
 visible
 dirty
+false
 )
 ;
 CheckForApzAwareEventHandlers
