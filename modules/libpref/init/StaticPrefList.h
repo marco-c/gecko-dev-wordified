@@ -3136,6 +3136,13 @@ via
 MIME
 Sniffing
 standard
+/
+/
+Disabled
+for
+now
+in
+bz1499136
 VARCACHE_PREF
 (
 "
@@ -3147,7 +3154,7 @@ standard_content_type_normalization
 "
 dom_xhr_standard_content_type_normalization
 RelaxedAtomicBool
-true
+false
 )
 /
 /
