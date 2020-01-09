@@ -234,6 +234,11 @@ PropTypes
 any
 .
 isRequired
+additionalActionsComponent
+:
+PropTypes
+.
+any
 collapsibilityKey
 :
 PropTypes
@@ -345,6 +350,7 @@ render
 const
 {
 actionComponent
+additionalActionsComponent
 detailComponent
 dispatch
 getString
@@ -544,6 +550,7 @@ DebugTargetList
 (
 {
 actionComponent
+additionalActionsComponent
 detailComponent
 dispatch
 isCollapsed

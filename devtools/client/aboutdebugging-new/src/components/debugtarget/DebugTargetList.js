@@ -224,6 +224,11 @@ PropTypes
 any
 .
 isRequired
+additionalActionsComponent
+:
+PropTypes
+.
+any
 detailComponent
 :
 PropTypes
@@ -443,6 +448,7 @@ render
 const
 {
 actionComponent
+additionalActionsComponent
 detailComponent
 dispatch
 isCollapsed
@@ -527,6 +533,7 @@ DebugTargetItem
 (
 {
 actionComponent
+additionalActionsComponent
 detailComponent
 dispatch
 key

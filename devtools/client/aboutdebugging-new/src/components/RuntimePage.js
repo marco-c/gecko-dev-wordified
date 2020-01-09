@@ -373,7 +373,7 @@ TabDetail
 )
 ;
 const
-TemporaryExtensionAction
+TemporaryExtensionAdditionalActions
 =
 createFactory
 (
@@ -384,7 +384,7 @@ require
 /
 debugtarget
 /
-TemporaryExtensionAction
+TemporaryExtensionAdditionalActions
 "
 )
 )
@@ -799,6 +799,7 @@ name
 icon
 targets
 actionComponent
+additionalActionsComponent
 detailComponent
 paneKey
 localizationId
@@ -852,6 +853,7 @@ DebugTargetPane
 (
 {
 actionComponent
+additionalActionsComponent
 collapsibilityKey
 :
 paneKey
@@ -1224,7 +1226,8 @@ DEBUG_TARGETS
 EXTENSION
 )
 temporaryExtensions
-TemporaryExtensionAction
+ExtensionAction
+TemporaryExtensionAdditionalActions
 TemporaryExtensionDetail
 DEBUG_TARGET_PANE
 .
@@ -1258,6 +1261,7 @@ EXTENSION
 )
 installedExtensions
 ExtensionAction
+null
 ExtensionDetail
 DEBUG_TARGET_PANE
 .
@@ -1289,6 +1293,7 @@ TAB
 )
 tabs
 InspectAction
+null
 TabDetail
 DEBUG_TARGET_PANE
 .
@@ -1321,6 +1326,7 @@ WORKER
 )
 serviceWorkers
 ServiceWorkerAction
+null
 WorkerDetail
 DEBUG_TARGET_PANE
 .
@@ -1355,6 +1361,7 @@ WORKER
 )
 sharedWorkers
 InspectAction
+null
 WorkerDetail
 DEBUG_TARGET_PANE
 .
@@ -1389,6 +1396,7 @@ WORKER
 )
 otherWorkers
 InspectAction
+null
 WorkerDetail
 DEBUG_TARGET_PANE
 .
