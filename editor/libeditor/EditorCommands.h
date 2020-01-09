@@ -363,10 +363,6 @@ CopyOrDeleteCommand
 )
 NS_DECL_EDITOR_COMMAND
 (
-CopyAndCollapseToEndCommand
-)
-NS_DECL_EDITOR_COMMAND
-(
 PasteCommand
 )
 NS_DECL_EDITOR_COMMAND

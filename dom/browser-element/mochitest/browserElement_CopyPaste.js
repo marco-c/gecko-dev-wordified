@@ -614,7 +614,7 @@ copy
 '
 :
 '
-cmd_copyAndCollapseToEnd
+cmd_copy
 '
 '
 paste
