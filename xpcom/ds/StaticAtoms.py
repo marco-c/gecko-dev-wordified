@@ -24062,6 +24062,24 @@ pagebreak
 "
 )
     
+NonInheritingAnonBoxAtom
+(
+"
+AnonBox_columnSpanWrapper
+"
+"
+:
+-
+moz
+-
+column
+-
+span
+-
+wrapper
+"
+)
+    
 InheritingAnonBoxAtom
 (
 "
@@ -24467,6 +24485,22 @@ scrolled
 page
 -
 sequence
+"
+)
+    
+InheritingAnonBoxAtom
+(
+"
+AnonBox_columnSet
+"
+"
+:
+-
+moz
+-
+column
+-
+set
 "
 )
     
