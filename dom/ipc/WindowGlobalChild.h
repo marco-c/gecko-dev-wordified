@@ -168,9 +168,6 @@ WindowGlobalParent
 class
 JSWindowActorChild
 ;
-class
-TabChild
-;
 /
 *
 *
