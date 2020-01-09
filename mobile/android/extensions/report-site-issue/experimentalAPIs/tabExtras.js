@@ -70,6 +70,9 @@ ExtensionCommon
 XPCOMUtils
 *
 /
+var
+Services
+;
 ChromeUtils
 .
 defineModuleGetter
@@ -163,7 +166,7 @@ frame
 script
 *
 /
-const
+(
 {
 Services
 }
@@ -185,6 +188,7 @@ Services
 .
 jsm
 "
+)
 )
 ;
 function
