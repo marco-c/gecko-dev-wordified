@@ -929,9 +929,6 @@ dump
 (
 Fprinter
 &
-c1
-Fprinter
-&
 json
 )
 ;
