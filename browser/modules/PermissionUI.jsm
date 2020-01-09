@@ -4977,11 +4977,6 @@ topLevelPrincipal
 .
 URI
 )
-escAction
-:
-"
-buttoncommand
-"
 }
 ;
 }
