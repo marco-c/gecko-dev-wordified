@@ -5032,8 +5032,10 @@ RenderTaskTree
 new
 (
 FrameId
+:
+:
+invalid
 (
-0
 )
 )
 ;

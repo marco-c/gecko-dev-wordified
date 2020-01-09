@@ -2896,8 +2896,10 @@ Idle
 current_frame_id
 :
 FrameId
+:
+:
+invalid
 (
-0
 )
 pending_image_requests
 :
@@ -5831,7 +5833,7 @@ texture_cache_handle
 TextureCacheHandle
 :
 :
-new
+invalid
 (
 )
 dirty_rect
@@ -5939,7 +5941,7 @@ texture_cache_handle
 TextureCacheHandle
 :
 :
-new
+invalid
 (
 )
 dirty_rect
@@ -6063,7 +6065,7 @@ texture_cache_handle
 TextureCacheHandle
 :
 :
-new
+invalid
 (
 )
 dirty_rect
@@ -12988,8 +12990,10 @@ self
 current_frame_id
 =
 FrameId
+:
+:
+invalid
 (
-0
 )
 ;
 self

@@ -458,7 +458,7 @@ device
 {
 DepthFunction
 Device
-FrameId
+GpuFrameId
 Program
 UploadMethod
 Texture
@@ -685,7 +685,10 @@ use
 render_backend
 :
 :
+{
+FrameId
 RenderBackend
+}
 ;
 use
 scene_builder
@@ -3607,7 +3610,7 @@ GpuProfile
 pub
 frame_id
 :
-FrameId
+GpuFrameId
 pub
 paint_time_ns
 :
@@ -3635,7 +3638,7 @@ T
 (
 frame_id
 :
-FrameId
+GpuFrameId
 timers
 :
 &
@@ -3690,7 +3693,7 @@ CpuProfile
 pub
 frame_id
 :
-FrameId
+GpuFrameId
 pub
 backend_time_ns
 :
@@ -3712,7 +3715,7 @@ new
 (
 frame_id
 :
-FrameId
+GpuFrameId
 backend_time_ns
 :
 u64
@@ -4491,7 +4494,7 @@ mut
 Device
 frame_id
 :
-FrameId
+GpuFrameId
 )
 {
 /
@@ -8289,7 +8292,7 @@ FrameOutput
 {
 last_access
 :
-FrameId
+GpuFrameId
 fbo_id
 :
 FBOId
@@ -11398,9 +11401,8 @@ gpu_cache_frame_id
 FrameId
 :
 :
-new
+invalid
 (
-0
 )
 gpu_cache_overflow
 :
@@ -16208,9 +16210,8 @@ frame_id
 FrameId
 :
 :
-new
+invalid
 (
-0
 )
 height
 :
@@ -18501,7 +18502,7 @@ f32
 >
 frame_id
 :
-FrameId
+GpuFrameId
 stats
 :
 &
@@ -22401,9 +22402,8 @@ frame_id
 FrameId
 :
 :
-new
+invalid
 (
-0
 )
 height
 :
@@ -23734,7 +23734,7 @@ framebuffer_depth_is_ready
 bool
 frame_id
 :
-FrameId
+GpuFrameId
 stats
 :
 &

@@ -1724,6 +1724,7 @@ gpu_cache
 .
 begin_frame
 (
+frame_id
 )
 ;
 let

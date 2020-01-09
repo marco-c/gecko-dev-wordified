@@ -1258,7 +1258,7 @@ texture_cache_handle
 TextureCacheHandle
 :
 :
-new
+invalid
 (
 )
 ;
