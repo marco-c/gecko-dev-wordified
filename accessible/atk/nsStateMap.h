@@ -133,6 +133,12 @@ include
 type_traits
 >
 /
+/
+clang
+-
+format
+off
+/
 *
 *
 *
@@ -534,6 +540,12 @@ state
 *
 *
 /
+/
+/
+clang
+-
+format
+on
 enum
 EStateMapEntryType
 {

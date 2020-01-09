@@ -10077,6 +10077,12 @@ AppUnitsPerDevPixel
 ;
 /
 /
+clang
+-
+format
+off
+/
+/
 (
 (
 content
@@ -10098,6 +10104,12 @@ origin
 on
 the
 screen
+/
+/
+clang
+-
+format
+on
 caretRect
 .
 MoveBy

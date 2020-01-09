@@ -2619,6 +2619,7 @@ the
 selection
 (
 the
+*
 offset
 into
 the
@@ -2841,6 +2842,7 @@ offset
 of
 the
 new
+*
 selection
 end
 .

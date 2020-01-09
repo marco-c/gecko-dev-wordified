@@ -8,14 +8,12 @@ Mode
 C
 +
 +
-final
 ;
 tab
 -
 width
 :
 2
-final
 ;
 indent
 -
@@ -24,7 +22,6 @@ tabs
 mode
 :
 nil
-final
 ;
 c
 -

@@ -302,8 +302,8 @@ internalFormat
 width
 height
 border
-unpackFormat
 *
+unpackFormat
 unpackType
 data
 )
@@ -316,8 +316,8 @@ internalFormat
 width
 height
 depth
-border
 *
+border
 unpackFormat
 unpackType
 data
@@ -331,8 +331,8 @@ xOffset
 yOffset
 width
 height
-unpackFormat
 *
+unpackFormat
 unpackType
 data
 )
@@ -345,9 +345,9 @@ xOffset
 yOffset
 zOffset
 width
+*
 height
 depth
-*
 unpackFormat
 unpackType
 data
@@ -361,8 +361,8 @@ level
 internalFormat
 width
 height
-border
 *
+border
 imageSize
 data
 )
@@ -374,8 +374,8 @@ level
 internalFormat
 width
 height
-depth
 *
+depth
 border
 imageSize
 data
@@ -388,8 +388,8 @@ level
 xOffset
 yOffset
 width
-height
 *
+height
 sizedUnpackFormat
 imageSize
 data
@@ -402,12 +402,13 @@ level
 xOffset
 yOffset
 zOffset
-width
 *
+width
 height
 depth
 sizedUnpackFormat
 imageSize
+*
 data
 )
 *
@@ -421,6 +422,7 @@ x
 y
 width
 height
+*
 border
 )
 *
@@ -435,10 +437,10 @@ inhererntly
 two
 -
 dimensional
+*
 there
 is
 no
-*
 CopyTexImage3D
 command
 .
@@ -453,6 +455,7 @@ yOffset
 x
 y
 width
+*
 height
 )
 *
@@ -465,8 +468,8 @@ yOffset
 zOffset
 x
 y
-width
 *
+width
 height
 )
 *

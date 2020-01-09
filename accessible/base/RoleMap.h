@@ -57,6 +57,12 @@ MPL
 *
 /
 /
+/
+clang
+-
+format
+off
+/
 *
 *
 *
@@ -3970,3 +3976,9 @@ SessionAccessibility
 CLASSNAME_VIEW
 eNoNameRule
 )
+/
+/
+clang
+-
+format
+on

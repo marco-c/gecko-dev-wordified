@@ -6688,6 +6688,8 @@ rgbaPixel
 /
 printf_stderr
 (
+/
+/
 "
 \
 nlibyuv
@@ -6732,7 +6734,7 @@ yuvPixel
 ]
 /
 /
-rgbaPixel
+gbaPixel
 [
 0
 ]

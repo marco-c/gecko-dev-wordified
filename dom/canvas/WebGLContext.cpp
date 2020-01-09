@@ -8896,6 +8896,8 @@ that
 it
 is
 activated
+/
+/
 for
 :
 /
@@ -9000,9 +9002,9 @@ it
 triggers
 a
 context
+/
+/
 loss
-/
-/
 the
 webglcontextlost
 event
@@ -9015,10 +9017,10 @@ the
 next
 time
 the
+/
+/
 robustness
 timer
-/
-/
 fires
 .
 /
@@ -9037,9 +9039,9 @@ of
 these
 3
 criteria
-/
-/
 are
+/
+/
 met
 .
 /

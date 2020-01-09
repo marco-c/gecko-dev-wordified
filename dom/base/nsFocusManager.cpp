@@ -22754,6 +22754,12 @@ follows
 :
 /
 /
+clang
+-
+format
+off
+/
+/
 <
 0
 not
@@ -22791,6 +22797,12 @@ specified
 by
 this
 value
+/
+/
+clang
+-
+format
+on
 int32_t
 tabIndex
 ;

@@ -787,6 +787,12 @@ id_ecDH
 ;
 /
 /
+clang
+-
+format
+off
+/
+/
 python
 security
 /
@@ -811,6 +817,12 @@ dhKeyAgreement
 3
 .
 1
+/
+/
+clang
+-
+format
+on
 static
 const
 uint8_t

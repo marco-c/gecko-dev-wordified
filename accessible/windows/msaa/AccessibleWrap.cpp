@@ -4021,6 +4021,12 @@ pvarChild
 ;
 /
 /
+clang
+-
+format
+off
+/
+/
 VT_EMPTY
 :
 None
@@ -4106,6 +4112,12 @@ the
 keyboard
 focus
 .
+/
+/
+clang
+-
+format
+on
 if
 (
 IsDefunct

@@ -206,9 +206,9 @@ texture
 arrays
 is
 a
+/
+/
 sized
-/
-/
 internal
 color
 format
@@ -221,6 +221,8 @@ filterable
 (
 see
 table
+/
+/
 3
 .
 13
@@ -228,8 +230,6 @@ table
 and
 [
 the
-/
-/
 mag
 filter
 requires
@@ -250,10 +250,10 @@ formats
 and
 indeed
 they
+/
+/
 are
 not
-/
-/
 listed
 in
 table

@@ -374,10 +374,14 @@ script
 |
 TYPE_INTERNAL_SCRIPT
 TYPE_INTERNAL_SCRIPT_PRELOAD
+*
+|
 TYPE_SCRIPT
 *
 |
 TYPE_INTERNAL_SERVICE_WORKER
+*
+|
 TYPE_INTERNAL_WORKER_IMPORT_SCRIPTS
 *
 sharedworker
@@ -397,10 +401,10 @@ value
 for
 the
 enum
-however
-it
 *
 |
+however
+it
 is
 impossible
 to
@@ -409,6 +413,8 @@ a
 request
 with
 this
+*
+|
 destination
 value
 .
@@ -416,6 +422,8 @@ value
 style
 |
 TYPE_INTERNAL_STYLESHEET
+*
+|
 TYPE_INTERNAL_STYLESHEET_PRELOAD
 *
 |

@@ -317,6 +317,7 @@ e
 handled
 by
 the
+*
 embedder
 )
 .
@@ -334,10 +335,10 @@ document
 and
 the
 embedder
+*
 didn
 '
 t
-*
 call
 preventDefault
 (
@@ -347,6 +348,7 @@ prevent
 the
 platform
 from
+*
 handling
 the
 call
@@ -377,6 +379,7 @@ the
 platform
 from
 handling
+*
 the
 call
 .
