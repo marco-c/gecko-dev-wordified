@@ -6894,6 +6894,9 @@ JSAtom
 atom
 =
 BigIntToAtom
+<
+allowGC
+>
 (
 cx
 i
