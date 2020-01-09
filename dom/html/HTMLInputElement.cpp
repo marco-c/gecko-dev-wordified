@@ -15466,6 +15466,8 @@ eSetValue_ByContent
 {
 MaybeUpdateAllValidityStates
 (
+!
+mDoneCreating
 )
 ;
 }

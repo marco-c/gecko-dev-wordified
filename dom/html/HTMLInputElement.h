@@ -2060,9 +2060,12 @@ bool
 aNotify
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 MaybeUpdateAllValidityStates
 (
+bool
+aNotify
 )
 {
 /
@@ -2099,8 +2102,7 @@ NS_FORM_INPUT_EMAIL
 {
 UpdateAllValidityStates
 (
-!
-mDoneCreating
+aNotify
 )
 ;
 }
