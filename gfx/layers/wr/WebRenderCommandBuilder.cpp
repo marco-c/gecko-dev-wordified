@@ -11283,11 +11283,6 @@ FilterOp
 aFilters
 )
 {
-AUTO_PROFILER_LABEL_CATEGORY_PAIR
-(
-GRAPHICS_WRDisplayList
-)
-;
 StackingContextHelper
 sc
 ;

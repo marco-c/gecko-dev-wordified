@@ -43486,10 +43486,10 @@ HeapStateToLabel
 (
 heapState
 )
-JS
+ProfilingStackFrame
 :
 :
-ProfilingCategoryPair
+Category
 :
 :
 GCCC
