@@ -3812,6 +3812,13 @@ kIsScrollViewAStop
 kIsKeyboardSelect
 kIsVisualBidi
 false
+nsPeekOffsetStruct
+:
+:
+ForceEditableRegion
+:
+:
+No
 aWordMovementType
 )
 ;
