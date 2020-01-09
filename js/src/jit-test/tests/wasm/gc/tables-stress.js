@@ -45,10 +45,6 @@ wasmTextToBinary
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 {
 prefix
 }
