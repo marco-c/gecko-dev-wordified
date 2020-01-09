@@ -227,6 +227,8 @@ RDDChild
 bool
 Init
 (
+bool
+aStartMacSandbox
 )
 ;
 bool

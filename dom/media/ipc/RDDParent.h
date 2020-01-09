@@ -214,6 +214,8 @@ FileDescriptor
 >
 &
 aBrokerFd
+bool
+aStartMacSandbox
 )
 ;
 mozilla

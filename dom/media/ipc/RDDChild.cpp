@@ -246,6 +246,8 @@ RDDChild
 :
 Init
 (
+bool
+aStartMacSandbox
 )
 {
 Maybe
@@ -384,6 +386,7 @@ MOZ_SANDBOX
 SendInit
 (
 brokerFd
+aStartMacSandbox
 )
 ;
 #
