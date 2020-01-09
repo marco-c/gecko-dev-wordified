@@ -12296,17 +12296,6 @@ FunctionBox
 funbox
 )
 ;
-static
-void
-initFromModuleContext
-(
-js
-:
-:
-HandleScript
-script
-)
-;
 public
 :
 static
