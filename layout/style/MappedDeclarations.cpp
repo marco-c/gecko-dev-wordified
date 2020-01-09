@@ -317,6 +317,7 @@ str
 Servo_DeclarationBlock_SetBackgroundImage
 (
 mDecl
+&
 str
 mDocument
 -

@@ -1577,6 +1577,8 @@ namespace
 mozilla
 enum
 nsCSSUnit
+:
+uint32_t
 {
 eCSSUnit_Null
 =
