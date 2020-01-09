@@ -1145,13 +1145,5 @@ context_menu_title
 Apri
 menu
 "
-"
-pocket_learn_more
-"
-:
-"
-Ulteriori
-informazioni
-"
 }
 ;

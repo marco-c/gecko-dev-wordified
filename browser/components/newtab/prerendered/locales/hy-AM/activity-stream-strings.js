@@ -139,7 +139,6 @@ menu_action_pin
 "
 :
 "
-Pin
 "
 "
 menu_action_unpin

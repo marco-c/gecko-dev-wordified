@@ -1448,11 +1448,11 @@ privacyLink
 >
 Learn
 more
-.
 <
 /
 privacyLink
 >
+.
 "
 scene2_dismiss_button_text
 :

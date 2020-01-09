@@ -827,8 +827,6 @@ Comece
 a
 navegar
 e
-n
-s
 mostraremos
 aqui
 alguns

@@ -1185,13 +1185,9 @@ firstrun_extra_legal_links
 "
 :
 "
-Continu
-nd
-e
-ti
-de
-acord
-cu
+Prin
+continuare
+agreezi
 {
 terms
 }
