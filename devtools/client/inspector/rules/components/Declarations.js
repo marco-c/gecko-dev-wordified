@@ -267,6 +267,17 @@ declaration
 =
 >
 {
+if
+(
+declaration
+.
+isInvisible
+)
+{
+return
+null
+;
+}
 return
 Declaration
 (
