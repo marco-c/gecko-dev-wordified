@@ -71,7 +71,7 @@ have
 a
 total
 of
-3
+4
 messages
 "
 (
@@ -263,6 +263,19 @@ bug
 1494778
 and
 1497653
+if
+(
+message
+.
+id
+!
+=
+=
+"
+PIN_TAB
+"
+)
+{
 assert
 .
 include
@@ -278,6 +291,7 @@ true
 )
 )
 ;
+}
 }
 }
 )

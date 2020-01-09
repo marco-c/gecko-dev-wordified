@@ -456,10 +456,9 @@ prefs_content_discovery_button
 "
 :
 "
-Turn
-Off
-Content
-Discovery
+Sl
+av
+innhaldsoppdaging
 "
 "
 prefs_section_rows_option

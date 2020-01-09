@@ -1063,6 +1063,9 @@ filters
 {
 domain
 }
+syncIfEmpty
+:
+false
 }
 )
 ;

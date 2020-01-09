@@ -701,7 +701,7 @@ describe
 (
 "
 #
-show
+showAddressBarNotifier
 "
 (
 )
@@ -714,7 +714,7 @@ it
 should
 un
 -
-hide
+hideAddressBarNotifier
 the
 element
 and
@@ -756,7 +756,7 @@ FAKE_NOTIFICATION_TEXT
 await
 pageAction
 .
-show
+showAddressBarNotifier
 (
 fakeRecommendation
 )
@@ -820,7 +820,7 @@ getClientRects
 await
 pageAction
 .
-show
+showAddressBarNotifier
 (
 fakeRecommendation
 )
@@ -877,7 +877,7 @@ async
 await
 pageAction
 .
-show
+showAddressBarNotifier
 (
 fakeRecommendation
 )
@@ -984,7 +984,7 @@ _dispatchImpression
 await
 pageAction
 .
-show
+showAddressBarNotifier
 (
 fakeRecommendation
 )
@@ -1031,7 +1031,7 @@ expanded
 await
 pageAction
 .
-show
+showAddressBarNotifier
 (
 fakeRecommendation
 true
@@ -1125,7 +1125,7 @@ async
 await
 pageAction
 .
-show
+showAddressBarNotifier
 (
 fakeRecommendation
 true
@@ -1186,7 +1186,7 @@ describe
 (
 "
 #
-hide
+hideAddressBarNotifier
 "
 (
 )
@@ -1197,7 +1197,7 @@ it
 (
 "
 should
-hide
+hideAddressBarNotifier
 the
 container
 cancel
@@ -1227,7 +1227,7 @@ _clearScheduledStateChanges
 ;
 pageAction
 .
-hide
+hideAddressBarNotifier
 (
 )
 ;
@@ -1301,7 +1301,7 @@ notification
 ;
 pageAction
 .
-hide
+hideAddressBarNotifier
 (
 )
 ;
@@ -3218,7 +3218,7 @@ describe
 (
 "
 #
-_handleClick
+_showPopupOnClick
 "
 (
 )
@@ -3506,7 +3506,7 @@ it
 should
 call
 .
-hide
+hideAddressBarNotifier
 and
 do
 nothing
@@ -3532,7 +3532,7 @@ spy
 (
 pageAction
 "
-hide
+hideAddressBarNotifier
 "
 )
 ;
@@ -3548,7 +3548,7 @@ fakeBrowser
 await
 pageAction
 .
-_handleClick
+_showPopupOnClick
 (
 {
 }
@@ -3560,7 +3560,7 @@ calledOnce
 (
 pageAction
 .
-hide
+hideAddressBarNotifier
 )
 ;
 assert
@@ -3615,7 +3615,7 @@ _clearScheduledStateChanges
 await
 pageAction
 .
-_handleClick
+_showPopupOnClick
 (
 {
 }
@@ -3652,7 +3652,7 @@ async
 await
 pageAction
 .
-_handleClick
+_showPopupOnClick
 (
 {
 }
@@ -3871,7 +3871,7 @@ async
 await
 pageAction
 .
-_handleClick
+_showPopupOnClick
 (
 )
 ;
@@ -3997,7 +3997,7 @@ async
 await
 pageAction
 .
-_handleClick
+_showPopupOnClick
 (
 )
 ;
@@ -4076,7 +4076,7 @@ async
 await
 pageAction
 .
-_handleClick
+_showPopupOnClick
 (
 )
 ;
@@ -4168,7 +4168,7 @@ xpi
 await
 pageAction
 .
-_handleClick
+_showPopupOnClick
 (
 )
 ;
@@ -4230,7 +4230,7 @@ spy
 (
 pageAction
 "
-hide
+hideAddressBarNotifier
 "
 )
 ;
@@ -4247,7 +4247,7 @@ calledOnce
 (
 pageAction
 .
-hide
+hideAddressBarNotifier
 )
 ;
 /
@@ -4418,7 +4418,7 @@ async
 await
 pageAction
 .
-_handleClick
+_showPopupOnClick
 (
 )
 ;
@@ -4482,7 +4482,7 @@ spy
 (
 pageAction
 "
-hide
+hideAddressBarNotifier
 "
 )
 ;
@@ -4584,7 +4584,7 @@ notCalled
 (
 pageAction
 .
-hide
+hideAddressBarNotifier
 )
 ;
 }
@@ -4611,7 +4611,7 @@ async
 await
 pageAction
 .
-_handleClick
+_showPopupOnClick
 (
 )
 ;
@@ -4677,7 +4677,7 @@ spy
 (
 pageAction
 "
-hide
+hideAddressBarNotifier
 "
 )
 ;
@@ -4714,7 +4714,7 @@ calledOnce
 (
 pageAction
 .
-hide
+hideAddressBarNotifier
 )
 ;
 assert
@@ -4820,7 +4820,7 @@ async
 await
 pageAction
 .
-_handleClick
+_showPopupOnClick
 (
 )
 ;
@@ -4886,7 +4886,7 @@ spy
 (
 pageAction
 "
-hide
+hideAddressBarNotifier
 "
 )
 ;
@@ -4988,7 +4988,7 @@ notCalled
 (
 pageAction
 .
-hide
+hideAddressBarNotifier
 )
 ;
 }
@@ -5016,7 +5016,7 @@ async
 await
 pageAction
 .
-_handleClick
+_showPopupOnClick
 (
 )
 ;
@@ -5144,7 +5144,7 @@ PageAction
 .
 prototype
 "
-show
+showAddressBarNotifier
 "
 )
 ;
@@ -5156,7 +5156,7 @@ PageAction
 .
 prototype
 "
-hide
+hideAddressBarNotifier
 "
 )
 ;
@@ -5289,7 +5289,7 @@ PageAction
 .
 prototype
 .
-show
+showAddressBarNotifier
 )
 ;
 assert
@@ -5300,7 +5300,7 @@ PageAction
 .
 prototype
 .
-hide
+hideAddressBarNotifier
 )
 ;
 }
@@ -5346,7 +5346,7 @@ PageAction
 .
 prototype
 .
-show
+showAddressBarNotifier
 )
 ;
 assert
@@ -5357,7 +5357,7 @@ PageAction
 .
 prototype
 .
-hide
+hideAddressBarNotifier
 )
 ;
 }
@@ -5367,7 +5367,7 @@ it
 (
 "
 should
-hide
+hideAddressBarNotifier
 the
 pageAction
 if
@@ -5411,7 +5411,7 @@ PageAction
 .
 prototype
 .
-hide
+hideAddressBarNotifier
 )
 ;
 }
@@ -5453,7 +5453,7 @@ PageAction
 .
 prototype
 .
-show
+showAddressBarNotifier
 )
 ;
 assert
@@ -5464,7 +5464,7 @@ PageAction
 .
 prototype
 .
-show
+showAddressBarNotifier
 savedRec
 )
 ;
@@ -5475,7 +5475,7 @@ it
 (
 "
 should
-hide
+hideAddressBarNotifier
 the
 pageAction
 and
@@ -5547,7 +5547,7 @@ PageAction
 .
 prototype
 .
-hide
+hideAddressBarNotifier
 )
 ;
 assert
@@ -5644,7 +5644,7 @@ PageAction
 .
 prototype
 .
-hide
+hideAddressBarNotifier
 )
 ;
 assert
@@ -5740,7 +5740,7 @@ PageAction
 .
 prototype
 .
-hide
+hideAddressBarNotifier
 )
 ;
 assert
@@ -5946,7 +5946,7 @@ PageAction
 .
 prototype
 .
-show
+showAddressBarNotifier
 )
 ;
 }
@@ -6318,7 +6318,7 @@ PageAction
 .
 prototype
 .
-show
+showAddressBarNotifier
 )
 ;
 }
@@ -6536,7 +6536,7 @@ createFakePageAction
 >
 (
 {
-hide
+hideAddressBarNotifier
 :
 sandbox
 .
@@ -6662,7 +6662,7 @@ it
 (
 "
 should
-hide
+hideAddressBarNotifier
 the
 PageActions
 of
@@ -6727,7 +6727,7 @@ pageActions
 0
 ]
 .
-hide
+hideAddressBarNotifier
 )
 ;
 assert
@@ -6749,7 +6749,7 @@ pageActions
 2
 ]
 .
-hide
+hideAddressBarNotifier
 )
 ;
 }
