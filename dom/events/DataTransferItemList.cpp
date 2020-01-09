@@ -314,7 +314,6 @@ new
 DataTransferItemList
 (
 aDataTransfer
-mIsExternal
 )
 ;
 /
