@@ -244,6 +244,8 @@ BrowserFullScreen
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -391,6 +393,8 @@ button
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
