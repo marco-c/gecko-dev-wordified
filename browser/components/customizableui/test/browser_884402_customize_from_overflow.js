@@ -145,6 +145,8 @@ outerHeight
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -510,6 +512,8 @@ for
 it
 :
 await
+TestUtils
+.
 waitForCondition
 (
 (
