@@ -8881,6 +8881,12 @@ sInstanceMutex
 ;
 /
 /
+clang
+-
+format
+off
+/
+/
 We
 have
 explicit
@@ -9031,6 +9037,12 @@ surface
 "
 )
 ;
+/
+/
+clang
+-
+format
+on
 return
 NS_OK
 ;

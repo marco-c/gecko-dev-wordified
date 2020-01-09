@@ -3801,6 +3801,12 @@ aData
 )
 ;
 }
+/
+/
+clang
+-
+format
+off
 MOZ_COLLECT_REPORT
 (
 "
@@ -3934,6 +3940,12 @@ ons
 "
 )
 ;
+/
+/
+clang
+-
+format
+on
 WindowPaths
 windowPaths
 ;
