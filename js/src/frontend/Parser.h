@@ -1704,7 +1704,7 @@ ParseContext
 prs
 -
 >
-context
+cx_
 prs
 -
 >
@@ -1868,7 +1868,7 @@ public
 JSContext
 *
 const
-context
+cx_
 ;
 LifoAlloc
 &
@@ -2264,7 +2264,7 @@ const
 override
 {
 return
-context
+cx_
 ;
 }
 bool
@@ -4831,7 +4831,7 @@ using
 Base
 :
 :
-context
+cx_
 ;
 using
 Base
@@ -8839,7 +8839,7 @@ using
 Base
 :
 :
-context
+cx_
 ;
 using
 Base
@@ -9861,7 +9861,7 @@ using
 Base
 :
 :
-context
+cx_
 ;
 using
 Base

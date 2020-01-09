@@ -372,7 +372,7 @@ declared_
 parser
 -
 >
-context
+cx_
 -
 >
 frontendCollectionPool
@@ -384,7 +384,7 @@ possibleAnnexBFunctionBoxes_
 parser
 -
 >
-context
+cx_
 -
 >
 frontendCollectionPool
