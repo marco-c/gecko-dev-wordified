@@ -2189,6 +2189,10 @@ LoadCanceled
 (
 )
 ;
+mUserFontEntry
+=
+nullptr
+;
 mFontFaceSet
 =
 nullptr
