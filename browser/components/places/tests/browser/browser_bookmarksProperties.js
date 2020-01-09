@@ -2350,14 +2350,9 @@ this
 .
 window
 .
-document
+gEditItemOverlay
 .
-getElementById
-(
-"
-editBMPanel_folderTree
-"
-)
+_folderTree
 ;
 var
 self

@@ -2605,13 +2605,15 @@ node
 getAttribute
 (
 "
-type
+is
 "
 )
 =
 =
 "
 places
+-
+tree
 "
 )
 return
