@@ -1235,7 +1235,9 @@ isnot
 (
 icon
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 0

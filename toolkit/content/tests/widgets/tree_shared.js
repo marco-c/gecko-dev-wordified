@@ -9344,7 +9344,9 @@ columnWidth
 =
 down
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 ;

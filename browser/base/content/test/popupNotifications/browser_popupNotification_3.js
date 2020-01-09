@@ -382,7 +382,9 @@ icon
 "
 )
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 0
@@ -418,7 +420,9 @@ icon
 "
 )
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 0
@@ -672,7 +676,9 @@ icon
 "
 )
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 0
@@ -710,7 +716,9 @@ icon
 "
 )
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 0

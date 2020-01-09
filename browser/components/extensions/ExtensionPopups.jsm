@@ -3911,7 +3911,9 @@ viewHeight
 =
 viewNode
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 height
 ;

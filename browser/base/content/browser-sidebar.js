@@ -1819,7 +1819,9 @@ sourceUI
 .
 _box
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 )

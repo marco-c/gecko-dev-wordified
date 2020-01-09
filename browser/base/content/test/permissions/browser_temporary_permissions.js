@@ -252,7 +252,9 @@ notEqual
 (
 geoIcon
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 0
@@ -280,7 +282,9 @@ equal
 (
 geoIcon
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 0

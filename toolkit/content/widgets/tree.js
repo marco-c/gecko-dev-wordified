@@ -2035,7 +2035,9 @@ cols
 i
 ]
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 >
@@ -2404,7 +2406,9 @@ treecol
 &
 sib
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 >
@@ -2420,9 +2424,11 @@ this
 .
 parentNode
 )
+{
 return
 sib
 ;
+}
 sib
 =
 sib
@@ -7073,7 +7079,9 @@ currentX
 =
 this
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 x
 ;
@@ -7118,7 +7126,9 @@ col
 .
 element
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 ;
