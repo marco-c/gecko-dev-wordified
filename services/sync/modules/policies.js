@@ -4691,7 +4691,7 @@ fxAccounts
 .
 commands
 .
-fetchMissedRemoteCommands
+pollDeviceCommands
 (
 )
 .
