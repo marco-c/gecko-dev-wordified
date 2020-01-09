@@ -1706,6 +1706,16 @@ OptimizedBackend
 Cranelift
 )
 ;
+MOZ_ASSERT
+(
+!
+env
+.
+isAsmJS
+(
+)
+)
+;
 AutoCranelift
 compiler
 (
