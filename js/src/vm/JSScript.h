@@ -585,7 +585,9 @@ JSContext
 cx
 HandleScript
 src
-HandleScript
+HandleScriptSourceObject
+sourceObject
+MutableHandleScript
 dst
 MutableHandle
 <
@@ -11880,7 +11882,12 @@ src
 js
 :
 :
-HandleScript
+HandleScriptSourceObject
+sourceObject
+js
+:
+:
+MutableHandleScript
 dst
 js
 :
