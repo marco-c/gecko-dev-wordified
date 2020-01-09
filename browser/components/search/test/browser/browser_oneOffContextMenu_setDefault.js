@@ -658,7 +658,7 @@ engine
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -801,7 +801,7 @@ buttons
 *
 param
 {
-Boolean
+boolean
 }
 isSearch
 true
@@ -823,7 +823,7 @@ popup
 *
 param
 {
-Object
+object
 }
 popup
 The
@@ -833,7 +833,7 @@ popup
 *
 param
 {
-Object
+object
 }
 oneOffInstance
 The
@@ -849,7 +849,7 @@ popup
 *
 param
 {
-String
+string
 }
 baseId
 The
@@ -870,9 +870,9 @@ engine
 name
 .
 *
-return
+returns
 {
-Object
+object
 }
 Returns
 an

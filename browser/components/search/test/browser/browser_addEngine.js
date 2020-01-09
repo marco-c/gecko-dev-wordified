@@ -224,7 +224,7 @@ engine
 ;
 for
 (
-var
+let
 prop
 in
 checkObj

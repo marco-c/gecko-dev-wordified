@@ -86,7 +86,7 @@ test
 *
 param
 {
-String
+string
 }
 url
 The
