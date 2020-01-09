@@ -327,6 +327,12 @@ localhost
 .
 1
 "
+      
+"
+Locked
+"
+:
+true
     
 }
   
@@ -361,6 +367,12 @@ Mode
 "
 none
 "
+      
+"
+Locked
+"
+:
+false
     
 }
   
