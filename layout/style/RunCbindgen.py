@@ -213,19 +213,20 @@ returncode
 0
 :
         
-raise
-TypeError
+print
 (
-"
-cbindgen
-failed
-:
-%
-s
-"
-%
+stdout
+)
+        
+print
+(
 stderr
 )
+        
+return
+p
+.
+returncode
     
 output
 .
