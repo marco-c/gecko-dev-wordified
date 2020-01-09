@@ -2951,17 +2951,6 @@ has_been_rendered
 false
 has_texture_cache_tasks
 prim_headers
-#
-[
-cfg
-(
-feature
-=
-"
-debug_renderer
-"
-)
-]
 debug_items
 :
 mem
