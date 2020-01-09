@@ -428,5 +428,27 @@ artifact_url
         
 }
         
+job
+[
+'
+run
+-
+on
+-
+projects
+'
+]
+=
+dep_task
+.
+attributes
+.
+get
+(
+'
+run_on_projects
+'
+)
+        
 yield
 job
