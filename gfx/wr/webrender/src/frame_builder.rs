@@ -807,7 +807,7 @@ screen_world_rect
 :
 WorldRect
 pub
-device_pixel_scale
+global_device_pixel_scale
 :
 DevicePixelScale
 pub
@@ -915,7 +915,7 @@ a
 >
 {
 pub
-device_pixel_scale
+global_device_pixel_scale
 :
 DevicePixelScale
 pub
@@ -1910,7 +1910,7 @@ profile_counters
 &
 mut
 FrameProfileCounters
-device_pixel_scale
+global_device_pixel_scale
 :
 DevicePixelScale
 scene_properties
@@ -2002,7 +2002,7 @@ frame_context
 =
 FrameBuildingContext
 {
-device_pixel_scale
+global_device_pixel_scale
 scene_properties
 pipelines
 screen_world_rect
@@ -2075,6 +2075,7 @@ ROOT_SPATIAL_NODE_INDEX
 0
 screen_world_rect
 clip_scroll_tree
+global_device_pixel_scale
 )
 ;
 surfaces
@@ -2241,7 +2242,7 @@ visibility_context
 =
 FrameVisibilityContext
 {
-device_pixel_scale
+global_device_pixel_scale
 clip_scroll_tree
 screen_world_rect
 surfaces
@@ -2581,6 +2582,7 @@ UvRectKind
 :
 Rect
 root_spatial_node_index
+global_device_pixel_scale
 )
 ;
 let
@@ -2661,7 +2663,7 @@ Arc
 ScenePipeline
 >
 >
-device_pixel_scale
+global_device_pixel_scale
 :
 DevicePixelScale
 layer
@@ -2886,7 +2888,7 @@ to_f32
 (
 )
 /
-device_pixel_scale
+global_device_pixel_scale
 )
 .
 round_out
@@ -2911,7 +2913,7 @@ render_tasks
 &
 mut
 profile_counters
-device_pixel_scale
+global_device_pixel_scale
 scene_properties
 &
 mut
@@ -3162,7 +3164,7 @@ ctx
 =
 RenderTargetContext
 {
-device_pixel_scale
+global_device_pixel_scale
 prim_store
 :
 &
@@ -3298,7 +3300,6 @@ render_tasks
 .
 write_task_data
 (
-device_pixel_scale
 )
 ;
 *
@@ -3329,11 +3330,6 @@ inner_rect
 self
 .
 screen_rect
-device_pixel_ratio
-:
-device_pixel_scale
-.
-0
 background_color
 :
 self

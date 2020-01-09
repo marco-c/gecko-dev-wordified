@@ -545,7 +545,7 @@ rc
 >
 {
 pub
-device_pixel_scale
+global_device_pixel_scale
 :
 DevicePixelScale
 pub
@@ -4526,7 +4526,7 @@ actual_rect
 ctx
 .
 screen_world_rect
-ctx
+task_info
 .
 device_pixel_scale
 task_info
@@ -7065,10 +7065,6 @@ pub
 layer
 :
 DocumentLayer
-pub
-device_pixel_ratio
-:
-f32
 pub
 passes
 :
