@@ -10207,6 +10207,18 @@ FAILURE
 40
 )
     
+errors
+[
+"
+NS_ERROR_FINGERPRINTING_URI
+"
+]
+=
+FAILURE
+(
+41
+)
+    
 #
 Used
 when
