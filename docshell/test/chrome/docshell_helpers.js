@@ -1012,6 +1012,9 @@ back
 forward
 )
 throw
+new
+Error
+(
 "
 Can
 '
@@ -1022,6 +1025,7 @@ back
 and
 forward
 "
+)
 ;
 if
 (
@@ -1031,6 +1035,9 @@ back
 uri
 )
 throw
+new
+Error
+(
 "
 Can
 '
@@ -1042,6 +1049,7 @@ and
 a
 uri
 "
+)
 ;
 if
 (
@@ -1051,6 +1059,9 @@ forward
 uri
 )
 throw
+new
+Error
+(
 "
 Can
 '
@@ -1062,6 +1073,7 @@ and
 a
 uri
 "
+)
 ;
 if
 (
@@ -1079,6 +1091,9 @@ uri
 )
 )
 throw
+new
+Error
+(
 "
 Can
 '
@@ -1090,6 +1105,7 @@ another
 navigation
 type
 "
+)
 ;
 if
 (
@@ -1113,6 +1129,9 @@ reload
 waitOnly
 )
 throw
+new
+Error
+(
 "
 Must
 specify
@@ -1124,6 +1143,7 @@ reload
 or
 uri
 "
+)
 ;
 if
 (
@@ -1140,6 +1160,9 @@ length
 0
 )
 throw
+new
+Error
+(
 "
 Can
 '
@@ -1153,6 +1176,7 @@ eventsToListenFor
 [
 ]
 "
+)
 ;
 if
 (
@@ -1169,6 +1193,9 @@ length
 0
 )
 throw
+new
+Error
+(
 "
 Can
 '
@@ -1182,6 +1209,7 @@ eventsToListenFor
 [
 ]
 "
+)
 ;
 if
 (
@@ -1193,6 +1221,9 @@ preventBFCache
 waitOnly
 )
 throw
+new
+Error
+(
 "
 Can
 '
@@ -1205,6 +1236,7 @@ waiting
 for
 events
 "
+)
 ;
 if
 (
@@ -1224,6 +1256,9 @@ undefined
 "
 )
 throw
+new
+Error
+(
 "
 Must
 specify
@@ -1232,6 +1267,7 @@ when
 specifying
 waitForEventsOnly
 "
+)
 ;
 if
 (
@@ -1252,6 +1288,9 @@ uri
 )
 )
 throw
+new
+Error
+(
 "
 Can
 '
@@ -1264,6 +1303,7 @@ when
 using
 waitForEventsOnly
 "
+)
 ;
 for
 (
@@ -1583,6 +1623,9 @@ NAV_NONE
 else
 {
 throw
+new
+Error
+(
 "
 No
 valid
@@ -1593,6 +1636,7 @@ to
 doPageNavigation
 !
 "
+)
 ;
 }
 /
