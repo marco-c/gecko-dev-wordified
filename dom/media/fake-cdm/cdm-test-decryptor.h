@@ -127,7 +127,7 @@ public
 cdm
 :
 :
-ContentDecryptionModule_9
+ContentDecryptionModule_10
 {
 public
 :
@@ -137,7 +137,7 @@ FakeDecryptor
 cdm
 :
 :
-Host_9
+Host_10
 *
 aHost
 )
@@ -149,9 +149,19 @@ bool
 aAllowDistinctiveIdentifier
 bool
 aAllowPersistentState
+bool
+aUseHardwareSecureCodecs
 )
 override
 {
+mHost
+-
+>
+OnInitialized
+(
+true
+)
+;
 }
 void
 GetStatusForPolicy
@@ -299,7 +309,7 @@ const
 cdm
 :
 :
-InputBuffer_1
+InputBuffer_2
 &
 aEncryptedBuffer
 cdm
@@ -331,7 +341,7 @@ const
 cdm
 :
 :
-AudioDecoderConfig_1
+AudioDecoderConfig_2
 &
 aAudioDecoderConfig
 )
@@ -357,7 +367,7 @@ const
 cdm
 :
 :
-VideoDecoderConfig_1
+VideoDecoderConfig_2
 &
 aVideoDecoderConfig
 )
@@ -407,7 +417,7 @@ const
 cdm
 :
 :
-InputBuffer_1
+InputBuffer_2
 &
 aEncryptedBuffer
 cdm
@@ -439,7 +449,7 @@ const
 cdm
 :
 :
-InputBuffer_1
+InputBuffer_2
 &
 aEncryptedBuffer
 cdm
@@ -536,7 +546,7 @@ aMessage
 cdm
 :
 :
-Host_9
+Host_10
 *
 mHost
 ;
