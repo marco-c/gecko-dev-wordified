@@ -1744,8 +1744,12 @@ this
 crossAxisDirection
 =
 flex
+?
+flex
 .
 crossAxisDirection
+:
+null
 ;
 const
 newCrossAxisDirection
@@ -1766,8 +1770,12 @@ this
 mainAxisDirection
 =
 flex
+?
+flex
 .
 mainAxisDirection
+:
+null
 ;
 const
 newMainAxisDirection
