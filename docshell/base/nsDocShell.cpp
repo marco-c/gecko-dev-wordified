@@ -5037,12 +5037,6 @@ LoadReplace
 aLoadState
 -
 >
-GetIsFromProcessingFrameAttributes
-(
-)
-aLoadState
--
->
 Referrer
 (
 )
@@ -26770,7 +26764,6 @@ Nothing
 )
 false
 false
-false
 nullptr
 RP_Unset
 nsContentUtils
@@ -27352,10 +27345,6 @@ originalURI
 emplacedResultPrincipalURI
 false
 loadReplace
-false
-/
-/
-IsFromProcessingFrameAttributes
 referrerURI
 referrerPolicy
 triggeringPrincipal
@@ -52145,8 +52134,6 @@ bool
 aKeepResultPrincipalURIIfSet
 bool
 aLoadReplace
-bool
-aIsFromProcessingFrameAttributes
 nsIURI
 *
 aReferrer
@@ -52229,10 +52216,6 @@ aKeepResultPrincipalURIIfSet
 mLoadReplace
 (
 aLoadReplace
-)
-mIsFromProcessingFrameAttributes
-(
-aIsFromProcessingFrameAttributes
 )
 mReferrer
 (
@@ -52321,7 +52304,6 @@ mOriginalURI
 mResultPrincipalURI
 mKeepResultPrincipalURIIfSet
 mLoadReplace
-mIsFromProcessingFrameAttributes
 mReferrer
 mReferrerPolicy
 mTriggeringPrincipal
@@ -52387,9 +52369,6 @@ mKeepResultPrincipalURIIfSet
 ;
 bool
 mLoadReplace
-;
-bool
-mIsFromProcessingFrameAttributes
 ;
 nsCOMPtr
 <
@@ -52592,8 +52571,6 @@ bool
 aKeepResultPrincipalURIIfSet
 bool
 aLoadReplace
-bool
-aIsFromProcessingFrameAttributes
 nsIURI
 *
 aReferrer
@@ -54971,7 +54948,6 @@ aOriginalURI
 aResultPrincipalURI
 aKeepResultPrincipalURIIfSet
 aLoadReplace
-aIsFromProcessingFrameAttributes
 aReferrer
 aReferrerPolicy
 aTriggeringPrincipal
@@ -55517,7 +55493,6 @@ aOriginalURI
 aResultPrincipalURI
 aKeepResultPrincipalURIIfSet
 aLoadReplace
-aIsFromProcessingFrameAttributes
 aReferrer
 aReferrerPolicy
 aTriggeringPrincipal
@@ -59052,7 +59027,6 @@ aOriginalURI
 aResultPrincipalURI
 aKeepResultPrincipalURIIfSet
 aLoadReplace
-aIsFromProcessingFrameAttributes
 loadFromExternal
 (
 aFlags
@@ -59955,8 +59929,6 @@ bool
 aKeepResultPrincipalURIIfSet
 bool
 aLoadReplace
-bool
-aIsFromProcessingFrameAttributes
 bool
 aLoadFromExternal
 bool
@@ -61073,9 +61045,9 @@ nsILoadInfo
 SEC_SANDBOXED
 ;
 }
-RefPtr
+nsCOMPtr
 <
-LoadInfo
+nsILoadInfo
 >
 loadInfo
 =
@@ -61384,19 +61356,6 @@ rv
 rv
 )
 ;
-if
-(
-aIsFromProcessingFrameAttributes
-)
-{
-loadInfo
--
->
-SetIsFromProcessingFrameAttributes
-(
-)
-;
-}
 if
 (
 !
@@ -72740,10 +72699,6 @@ originalURI
 emplacedResultPrincipalURI
 false
 loadReplace
-false
-/
-/
-IsFromProcessingFrameAttributes
 referrerURI
 referrerPolicy
 triggeringPrincipal
@@ -79237,10 +79192,6 @@ false
 /
 /
 LoadReplace
-false
-/
-/
-IsFromProcessingFrameAttributes
 referer
 /
 /
