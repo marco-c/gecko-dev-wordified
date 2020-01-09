@@ -6203,7 +6203,7 @@ foo
 /
 skin
 /
-icon264
+icon
 .
 png
 "
