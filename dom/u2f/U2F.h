@@ -559,6 +559,7 @@ aGivenProto
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Register
 (
@@ -598,6 +599,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Sign
 (
@@ -637,6 +639,7 @@ aRv
 /
 /
 WebAuthnManagerBase
+MOZ_CAN_RUN_SCRIPT
 void
 FinishMakeCredential
 (
@@ -651,6 +654,7 @@ aResult
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FinishGetAssertion
 (
@@ -665,6 +669,7 @@ aResult
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 RequestAborted
 (
@@ -708,6 +713,7 @@ RejectTransaction
 (
 )
 .
+MOZ_CAN_RUN_SCRIPT
 void
 CancelTransaction
 (
@@ -720,6 +726,7 @@ override
 ;
 private
 :
+MOZ_CAN_RUN_SCRIPT
 ~
 U2F
 (
@@ -732,6 +739,7 @@ T
 typename
 C
 >
+MOZ_CAN_RUN_SCRIPT
 void
 ExecuteCallback
 (
@@ -773,6 +781,7 @@ and
 clears
 it
 .
+MOZ_CAN_RUN_SCRIPT
 void
 RejectTransaction
 (
