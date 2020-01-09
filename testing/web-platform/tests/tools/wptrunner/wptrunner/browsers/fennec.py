@@ -46,7 +46,15 @@ executors
 .
 executormarionette
 import
+(
 MarionetteTestharnessExecutor
+#
+noqa
+:
+F401
+                                            
+MarionetteRefTestExecutor
+)
 #
 noqa
 :
@@ -102,6 +110,14 @@ testharness
 :
 "
 MarionetteTestharnessExecutor
+"
+                              
+"
+reftest
+"
+:
+"
+MarionetteRefTestExecutor
 "
 }
                  
