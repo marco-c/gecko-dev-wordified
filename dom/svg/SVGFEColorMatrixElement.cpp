@@ -204,7 +204,7 @@ aGivenProto
 )
 ;
 }
-nsSVGEnumMapping
+SVGEnumMapping
 SVGFEColorMatrixElement
 :
 :

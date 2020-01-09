@@ -193,7 +193,7 @@ aGivenProto
 )
 ;
 }
-nsSVGEnumMapping
+SVGEnumMapping
 SVGFEBlendElement
 :
 :

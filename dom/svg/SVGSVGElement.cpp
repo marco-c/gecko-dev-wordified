@@ -300,7 +300,7 @@ using
 namespace
 SVGSVGElement_Binding
 ;
-nsSVGEnumMapping
+SVGEnumMapping
 SVGSVGElement
 :
 :

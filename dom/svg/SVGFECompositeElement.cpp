@@ -233,7 +233,7 @@ false
 }
 }
 ;
-nsSVGEnumMapping
+SVGEnumMapping
 SVGFECompositeElement
 :
 :

@@ -291,7 +291,7 @@ Gradients
 -
 -
 -
-nsSVGEnumMapping
+SVGEnumMapping
 SVGGradientElement
 :
 :

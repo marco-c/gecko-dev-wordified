@@ -223,7 +223,7 @@ false
 }
 }
 ;
-nsSVGEnumMapping
+SVGEnumMapping
 SVGFEDisplacementMapElement
 :
 :

@@ -123,7 +123,7 @@ mozilla_dom_SVGFECompositeElement_h
 #
 include
 "
-nsSVGEnum
+SVGEnum
 .
 h
 "
@@ -469,14 +469,14 @@ enum
 OPERATOR
 }
 ;
-nsSVGEnum
+SVGEnum
 mEnumAttributes
 [
 1
 ]
 ;
 static
-nsSVGEnumMapping
+SVGEnumMapping
 sOperatorMap
 [
 ]

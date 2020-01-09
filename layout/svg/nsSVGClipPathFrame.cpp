@@ -2806,7 +2806,7 @@ gfxMatrix
 )
 )
 ;
-nsSVGEnum
+SVGEnum
 *
 clipPathUnits
 =

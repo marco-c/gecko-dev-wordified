@@ -353,7 +353,7 @@ false
 }
 }
 ;
-nsSVGEnumMapping
+SVGEnumMapping
 SVGFEConvolveMatrixElement
 :
 :
