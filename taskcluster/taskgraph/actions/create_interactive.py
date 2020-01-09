@@ -75,6 +75,8 @@ import
 logging
 import
 re
+import
+taskcluster_urls
 from
 .
 util
@@ -92,7 +94,12 @@ util
 .
 taskcluster
 import
+(
+    
 send_email
+    
+get_root_url
+)
 from
 .
 registry
@@ -1269,17 +1276,14 @@ info
 url
 '
 :
+taskcluster_urls
+.
+ui
+(
+get_root_url
+(
+)
 '
-https
-:
-/
-/
-tools
-.
-taskcluster
-.
-net
-/
 tasks
 /
 {
@@ -1291,6 +1295,7 @@ connect
 format
 (
 taskId
+)
 )
             
 '
