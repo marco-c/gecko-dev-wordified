@@ -6160,7 +6160,7 @@ sourceId
 =
 iter
 .
-script
+hasScript
 (
 )
 ?
