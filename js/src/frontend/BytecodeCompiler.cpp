@@ -415,7 +415,7 @@ directives
 RootedScript
 script
 ;
-public
+protected
 :
 /
 /
@@ -440,6 +440,8 @@ SourceBufferHolder
 sourceBuffer
 )
 ;
+public
+:
 ScriptSourceObject
 *
 sourceObjectPtr
@@ -455,6 +457,8 @@ get
 )
 ;
 }
+protected
+:
 /
 /
 Call
@@ -489,8 +493,6 @@ createCompleteScript
 )
 ;
 }
-protected
-:
 void
 assertSourceAndParserCreated
 (
