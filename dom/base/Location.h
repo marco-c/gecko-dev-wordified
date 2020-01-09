@@ -378,7 +378,10 @@ nsWrapperCache
 public
 :
 typedef
-Location
+BrowsingContext
+:
+:
+LocationProxy
 RemoteProxy
 ;
 Location
