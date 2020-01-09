@@ -72,10 +72,16 @@ util
 IdentList
 ;
 use
+proc_macro2
+:
+:
+TokenStream
+;
+use
 quote
 :
 :
-Tokens
+TokenStreamExt
 ;
 use
 syn
@@ -106,7 +112,7 @@ DeriveInput
 )
 -
 >
-Tokens
+TokenStream
 {
 let
 animation_input_attrs
@@ -500,7 +506,7 @@ VariantInfo
 >
 Result
 <
-Tokens
+TokenStream
 (
 )
 >
