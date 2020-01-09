@@ -486,7 +486,6 @@ soon
 as
 "
 USB
-devices
 enabled
 "
 is

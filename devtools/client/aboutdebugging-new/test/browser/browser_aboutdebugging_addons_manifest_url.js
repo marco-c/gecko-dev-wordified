@@ -252,7 +252,6 @@ includes
 (
 "
 USB
-devices
 enabled
 "
 )
@@ -529,7 +528,6 @@ includes
 (
 "
 USB
-devices
 disabled
 "
 )

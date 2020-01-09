@@ -424,6 +424,11 @@ ERROR
 "
 error
 "
+INFO
+:
+"
+info
+"
 WARNING
 :
 "
