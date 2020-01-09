@@ -1909,6 +1909,14 @@ aConnection
 )
 ;
 nsresult
+UpgradeStorageFrom2_1To2_2
+(
+mozIStorageConnection
+*
+aConnection
+)
+;
+nsresult
 MaybeRemoveLocalStorageData
 (
 )
