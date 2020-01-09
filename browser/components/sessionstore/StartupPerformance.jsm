@@ -462,6 +462,13 @@ _onRestorationStarts
 isAutoRestore
 )
 {
+if
+(
+Services
+.
+profiler
+)
+{
 Services
 .
 profiler
@@ -473,6 +480,7 @@ _onRestorationStarts
 "
 )
 ;
+}
 this
 .
 _latestRestoredTimeStamp
@@ -1420,6 +1428,13 @@ detail
 isRemotenessUpdate
 )
 {
+if
+(
+Services
+.
+profiler
+)
+{
 Services
 .
 profiler
@@ -1431,6 +1446,7 @@ SSTabRestored
 "
 )
 ;
+}
 this
 .
 _latestRestoredTimeStamp
