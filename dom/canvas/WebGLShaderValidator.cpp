@@ -1290,6 +1290,11 @@ outputLanguage
 resources
 )
 ;
+MOZ_RELEASE_ASSERT
+(
+handle
+)
+;
 if
 (
 !
