@@ -582,9 +582,6 @@ join
 get_state_dir
 (
 )
-[
-0
-]
 '
 performance
 -

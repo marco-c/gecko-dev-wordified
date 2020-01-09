@@ -2145,9 +2145,6 @@ join
 get_state_dir
 (
 )
-[
-0
-]
 '
 telemetry
 '
@@ -2280,7 +2277,6 @@ return
 True
         
 state_dir
-_
 =
 get_state_dir
 (
@@ -2394,14 +2390,25 @@ state_dir
 :
             
 state_dir
-is_environ
 =
 get_state_dir
 (
 )
             
 if
-is_environ
+state_dir
+=
+=
+os
+.
+environ
+.
+get
+(
+'
+MOZBUILD_STATE_PATH
+'
+)
 :
                 
 if
@@ -2683,9 +2690,6 @@ append
 get_state_dir
 (
 )
-[
-0
-]
 )
     
 #
