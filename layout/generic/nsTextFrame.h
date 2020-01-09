@@ -4427,7 +4427,7 @@ IsFrameSelected
 (
 )
 const
-override
+final
 ;
 mozilla
 :
