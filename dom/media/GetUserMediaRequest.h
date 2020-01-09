@@ -161,6 +161,8 @@ const
 nsAString
 &
 aMediaSource
+bool
+aIsHandlingUserInput
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS

@@ -197,6 +197,8 @@ const
 nsAString
 &
 aMediaSource
+bool
+aIsHandlingUserInput
 )
 :
 mInnerWindowID
@@ -221,7 +223,7 @@ false
 )
 mIsHandlingUserInput
 (
-false
+aIsHandlingUserInput
 )
 {
 if
