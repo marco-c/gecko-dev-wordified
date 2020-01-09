@@ -3091,6 +3091,7 @@ document
 .
 *
 /
+virtual
 void
 NotifyPossibleTitleChange
 (
