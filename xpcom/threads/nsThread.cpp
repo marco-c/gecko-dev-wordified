@@ -5760,11 +5760,13 @@ aSync
 true
 )
 ;
-NS_ENSURE_TRUE
+if
 (
+!
 maybeContext
-NS_ERROR_UNEXPECTED
 )
+return
+NS_ERROR_UNEXPECTED
 ;
 NotNull
 <
