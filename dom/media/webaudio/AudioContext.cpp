@@ -1277,7 +1277,7 @@ void
 AudioContext
 :
 :
-StartBlockedAudioContextIfAllowed
+NotifyScheduledSourceNodeStarted
 (
 )
 {
