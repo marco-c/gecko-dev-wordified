@@ -16880,7 +16880,6 @@ Paint
 "
 LayerBuilding
 "
-GRAPHICS
 docShell
 )
 ;
@@ -62430,13 +62429,6 @@ opacity
 :
 nullptr
 nullptr
-wr
-:
-:
-ReferenceFrameKind
-:
-:
-Transform
 gfx
 :
 :
