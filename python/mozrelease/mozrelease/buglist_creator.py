@@ -14,10 +14,6 @@ from
 pkg_resources
 import
 parse_version
-from
-simplejson
-import
-JSONDecodeError
 BUGLIST_PREFIX
 =
 '
@@ -874,13 +870,6 @@ url
 \
 n
 '
-            
-except
-(
-KeyError
-JSONDecodeError
-)
-:
                 
 #
 If
@@ -902,6 +891,13 @@ the
 url
 and
 continue
+            
+except
+(
+KeyError
+ValueError
+)
+:
                 
 url
 =
