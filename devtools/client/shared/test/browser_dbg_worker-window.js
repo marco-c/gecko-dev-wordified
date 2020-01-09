@@ -157,10 +157,17 @@ attach
 (
 )
 ;
+const
+targetFront
+=
+target
+.
+activeTab
+;
 await
 listWorkers
 (
-target
+targetFront
 )
 ;
 await
@@ -178,7 +185,7 @@ workers
 await
 listWorkers
 (
-target
+targetFront
 )
 ;
 const

@@ -665,6 +665,8 @@ hud
 owner
 .
 target
+.
+activeTab
 )
 )
 {
@@ -678,6 +680,8 @@ hud
 owner
 .
 target
+.
+activeTab
 .
 traits
 .

@@ -187,6 +187,9 @@ releaseActor
 target
 :
 {
+activeTab
+:
+{
 ensureCSSErrorReportingEnabled
 :
 (
@@ -194,6 +197,7 @@ ensureCSSErrorReportingEnabled
 =
 >
 {
+}
 }
 }
 }

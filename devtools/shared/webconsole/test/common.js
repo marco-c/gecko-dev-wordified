@@ -599,6 +599,8 @@ workers
 await
 target
 .
+activeTab
+.
 listWorkers
 (
 )

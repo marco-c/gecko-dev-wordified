@@ -2044,6 +2044,8 @@ this
 .
 target
 .
+activeTab
+.
 focus
 (
 )

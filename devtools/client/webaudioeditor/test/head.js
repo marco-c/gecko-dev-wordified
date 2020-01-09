@@ -501,6 +501,8 @@ navigate
 {
 aTarget
 .
+activeTab
+.
 reload
 (
 )
@@ -532,6 +534,8 @@ executeSoon
 =
 >
 aTarget
+.
+activeTab
 .
 navigateTo
 (

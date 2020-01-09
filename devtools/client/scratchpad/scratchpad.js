@@ -3766,6 +3766,8 @@ navigate
 ;
 target
 .
+activeTab
+.
 reload
 (
 )

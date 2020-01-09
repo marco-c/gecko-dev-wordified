@@ -202,6 +202,13 @@ client
 target
 ;
 const
+targetFront
+=
+target
+.
+activeTab
+;
+const
 threadClient
 =
 await
@@ -209,7 +216,7 @@ testEarlyDebuggerStatement
 (
 client
 tab
-target
+targetFront
 )
 ;
 await
