@@ -15809,7 +15809,7 @@ Operands
 resume
 kind
 (
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 ResumeKind

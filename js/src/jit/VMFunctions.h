@@ -179,7 +179,7 @@ class
 InlineTypedObject
 ;
 class
-GeneratorObject
+AbstractGeneratorObject
 ;
 class
 RegExpObject
@@ -3058,7 +3058,7 @@ TypeToDataType
 <
 Handle
 <
-GeneratorObject
+AbstractGeneratorObject
 *
 >
 >
@@ -3547,7 +3547,7 @@ TypeToArgProperties
 <
 Handle
 <
-GeneratorObject
+AbstractGeneratorObject
 *
 >
 >
@@ -3559,7 +3559,7 @@ result
 =
 TypeToArgProperties
 <
-GeneratorObject
+AbstractGeneratorObject
 *
 >
 :
@@ -4310,7 +4310,7 @@ TypeToRootType
 <
 Handle
 <
-GeneratorObject
+AbstractGeneratorObject
 *
 >
 >
@@ -6484,7 +6484,7 @@ BaselineFrame
 frame
 Handle
 <
-GeneratorObject
+AbstractGeneratorObject
 *
 >
 genObj

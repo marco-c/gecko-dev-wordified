@@ -1219,9 +1219,6 @@ Linker
 linker
 (
 masm
-"
-Baseline
-"
 )
 ;
 if
@@ -1242,6 +1239,14 @@ return
 Method_Error
 ;
 }
+AutoFlushICache
+afc
+(
+"
+Baseline
+"
+)
+;
 JitCode
 *
 code
@@ -29275,7 +29280,7 @@ Int32Value
 Address
 (
 genObj
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 offsetOfResumeIndexSlot
@@ -29306,7 +29311,7 @@ Address
 envChainSlot
 (
 genObj
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 offsetOfEnvironmentChainSlot
@@ -29554,7 +29559,7 @@ Address
 resumeIndexSlot
 (
 genObj
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 offsetOfResumeIndexSlot
@@ -29589,7 +29594,7 @@ Address
 envChainSlot
 (
 genObj
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 offsetOfEnvironmentChainSlot
@@ -30132,7 +30137,7 @@ BaselineFrame
 *
 Handle
 <
-GeneratorObject
+AbstractGeneratorObject
 *
 >
 HandleValue
@@ -30170,13 +30175,10 @@ emit_JSOP_RESUME
 (
 )
 {
-GeneratorObject
-:
-:
-ResumeKind
+auto
 resumeKind
 =
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 getResumeKind
@@ -30274,7 +30276,7 @@ unboxObject
 Address
 (
 genObj
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 offsetOfCalleeSlot
@@ -31011,7 +31013,7 @@ unboxObject
 Address
 (
 genObj
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 offsetOfEnvironmentChainSlot
@@ -31051,7 +31053,7 @@ Address
 argsObjSlot
 (
 genObj
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 offsetOfArgsObjSlot
@@ -31135,7 +31137,7 @@ Address
 exprStackSlot
 (
 genObj
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 offsetOfExpressionStackSlot
@@ -31359,7 +31361,7 @@ if
 resumeKind
 =
 =
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 NEXT
@@ -31420,7 +31422,7 @@ unboxInt32
 Address
 (
 genObj
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 offsetOfResumeIndexSlot
@@ -31470,7 +31472,7 @@ storeValue
 (
 Int32Value
 (
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 RESUME_INDEX_RUNNING
@@ -31478,7 +31480,7 @@ RESUME_INDEX_RUNNING
 Address
 (
 genObj
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 offsetOfResumeIndexSlot
@@ -31502,7 +31504,7 @@ MOZ_ASSERT
 resumeKind
 =
 =
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 THROW
@@ -31511,7 +31513,7 @@ THROW
 resumeKind
 =
 =
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 RETURN
@@ -31904,7 +31906,7 @@ if
 resumeKind
 =
 =
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 NEXT
@@ -31932,7 +31934,7 @@ if
 resumeKind
 =
 =
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 THROW
@@ -31961,7 +31963,7 @@ MOZ_ASSERT
 resumeKind
 =
 =
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 RETURN
