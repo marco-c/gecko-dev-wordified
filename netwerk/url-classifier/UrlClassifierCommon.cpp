@@ -642,7 +642,7 @@ bool
 UrlClassifierCommon
 :
 :
-ShouldEnableTrackingProtectionOrAnnotation
+ShouldEnableClassifier
 (
 nsIChannel
 *
@@ -677,6 +677,15 @@ AntiTrackingCommon
 :
 :
 eTrackingAnnotations
+|
+|
+aBlockingPurpose
+=
+=
+AntiTrackingCommon
+:
+:
+eFingerprinting
 )
 ;
 nsCOMPtr
