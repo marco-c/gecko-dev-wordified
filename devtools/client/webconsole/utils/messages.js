@@ -1832,6 +1832,11 @@ stacktrace
 message
 .
 stacktrace
+executionPoint
+:
+message
+.
+executionPoint
 }
 )
 ;
