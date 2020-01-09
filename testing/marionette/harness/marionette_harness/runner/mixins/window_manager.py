@@ -1322,6 +1322,15 @@ centerscreen
 )
 ;
                     
+let
+focused
+=
+waitForFocus
+(
+win
+)
+;
+                    
 /
 /
 Bug
@@ -1382,10 +1391,7 @@ focus
 ;
                     
 await
-waitForFocus
-(
-win
-)
+focused
 ;
                     
 /
@@ -1403,7 +1409,6 @@ to
 happen
 .
                     
-let
 focused
 =
 waitForFocus
