@@ -931,7 +931,7 @@ manageExtension
 let
 separator
 =
-manageExtension
+removeExtension
 .
 nextElementSibling
 ;
