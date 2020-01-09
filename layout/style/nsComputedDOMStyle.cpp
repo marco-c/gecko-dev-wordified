@@ -6263,6 +6263,11 @@ eSideBottom
 )
 ;
 }
+/
+*
+static
+*
+/
 void
 nsComputedDOMStyle
 :
