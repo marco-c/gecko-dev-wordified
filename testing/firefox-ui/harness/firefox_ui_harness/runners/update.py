@@ -77,6 +77,16 @@ DEFAULT_PREFS
 =
 {
     
+'
+app
+.
+update
+.
+disabledForTesting
+'
+:
+False
+    
 #
 Bug
 1355026
