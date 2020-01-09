@@ -1049,7 +1049,7 @@ debugger
 .
 features
 .
-origial
+original
 -
 blackbox
 "

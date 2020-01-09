@@ -889,7 +889,7 @@ debugger
 .
 features
 .
-origial
+original
 -
 blackbox
 "
@@ -1637,7 +1637,7 @@ originalBlackbox
 Bool
 "
 "
-origial
+original
 -
 blackbox
 "
