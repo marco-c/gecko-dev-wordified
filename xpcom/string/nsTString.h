@@ -3017,7 +3017,7 @@ AssertValidDependentString
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 this
 -
@@ -3035,7 +3035,7 @@ buffer
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 this
 -
@@ -3056,7 +3056,7 @@ length
 "
 )
 ;
-NS_ASSERTION
+MOZ_DIAGNOSTIC_ASSERT
 (
 this
 -
@@ -3079,15 +3079,17 @@ only
 null
 -
 terminated
+"
+"
 strings
 .
-"
-"
 You
 are
 probably
 looking
 for
+"
+"
 nsTDependentSubstring
 .
 "
