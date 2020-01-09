@@ -497,7 +497,7 @@ openAboutDebugging
 )
 ;
 await
-installRegularAddon
+installRegularExtension
 (
 "
 resources
