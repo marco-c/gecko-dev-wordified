@@ -6519,6 +6519,13 @@ bitflags
 {
 #
 [
+repr
+(
+C
+)
+]
+#
+[
 derive
 (
 Default

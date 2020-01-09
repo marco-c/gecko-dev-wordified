@@ -217,9 +217,9 @@ IsKeyword
 &
 mTiming
 .
-keyword
-.
-_0
+AsKeyword
+(
+)
 =
 =
 mozilla

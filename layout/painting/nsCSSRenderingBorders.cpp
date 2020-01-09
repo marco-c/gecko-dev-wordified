@@ -32053,9 +32053,9 @@ NS_lround
 (
 slice
 .
-number
-.
-_0
+AsNumber
+(
+)
 )
 )
 ;
@@ -32075,9 +32075,9 @@ value
 =
 slice
 .
-percentage
-.
-_0
+AsPercentage
+(
+)
 .
 _0
 *

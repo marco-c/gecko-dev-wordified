@@ -210,7 +210,7 @@ pub
 const
 BLACK
 :
-Self
+PremultipliedColorF
 =
 PremultipliedColorF
 {
@@ -240,7 +240,7 @@ pub
 const
 TRANSPARENT
 :
-Self
+PremultipliedColorF
 =
 PremultipliedColorF
 {
@@ -270,7 +270,7 @@ pub
 const
 WHITE
 :
-Self
+PremultipliedColorF
 =
 PremultipliedColorF
 {
@@ -433,7 +433,7 @@ pub
 const
 BLACK
 :
-Self
+ColorF
 =
 ColorF
 {
@@ -463,7 +463,7 @@ pub
 const
 TRANSPARENT
 :
-Self
+ColorF
 =
 ColorF
 {
@@ -493,7 +493,7 @@ pub
 const
 WHITE
 :
-Self
+ColorF
 =
 ColorF
 {
