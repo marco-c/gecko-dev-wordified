@@ -179,7 +179,7 @@ gFindBar
 backgroundColor
 hexToCSS
 (
-TOOLBAR_COLOR
+ACCENT_COLOR
 )
 "
 Findbar
