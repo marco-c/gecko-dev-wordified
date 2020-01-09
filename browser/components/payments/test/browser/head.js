@@ -3150,6 +3150,7 @@ fillInBillingAddressForm
 (
 frame
 aAddress
+aOptions
 )
 {
 /
@@ -3196,6 +3197,10 @@ page
 billingAddressGUID
 "
 ]
+.
+.
+.
+aOptions
 }
 )
 ;
