@@ -5702,7 +5702,7 @@ case
 ParseNodeKind
 :
 :
-BigInt
+BigIntExpr
 :
 MOZ_ASSERT
 (
@@ -26408,7 +26408,7 @@ case
 ParseNodeKind
 :
 :
-BigInt
+BigIntExpr
 :
 vp
 .
@@ -55794,7 +55794,7 @@ case
 ParseNodeKind
 :
 :
-BigInt
+BigIntExpr
 :
 if
 (

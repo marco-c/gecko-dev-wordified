@@ -2643,7 +2643,7 @@ case
 ParseNodeKind
 :
 :
-BigInt
+BigIntExpr
 :
 #
 endif
@@ -3195,7 +3195,7 @@ isKind
 ParseNodeKind
 :
 :
-BigInt
+BigIntExpr
 )
 |
 |
@@ -3320,7 +3320,7 @@ case
 ParseNodeKind
 :
 :
-BigInt
+BigIntExpr
 :
 return
 (
@@ -3921,7 +3921,7 @@ isKind
 ParseNodeKind
 :
 :
-BigInt
+BigIntExpr
 )
 )
 {

@@ -10058,7 +10058,7 @@ ParseNode
 ParseNodeKind
 :
 :
-BigInt
+BigIntExpr
 JSOP_NOP
 pos
 )
@@ -10092,7 +10092,7 @@ isKind
 ParseNodeKind
 :
 :
-BigInt
+BigIntExpr
 )
 ;
 MOZ_ASSERT_IF
