@@ -3663,7 +3663,7 @@ rootContent
 htmlEditor
 -
 >
-GetActiveEditingHost
+GetFocusedContent
 (
 )
 ;
@@ -3678,6 +3678,16 @@ mEditor
 GetRoot
 (
 )
+;
+}
+if
+(
+!
+rootContent
+)
+{
+return
+NS_ERROR_FAILURE
 ;
 }
 /
@@ -3764,8 +3774,6 @@ GetDocumentElement
 (
 )
 ;
-}
-}
 if
 (
 !
@@ -3775,6 +3783,8 @@ rootContent
 return
 NS_ERROR_FAILURE
 ;
+}
+}
 }
 RefPtr
 <
