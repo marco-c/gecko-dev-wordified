@@ -765,7 +765,7 @@ stroke
 miterlimit
 "
 "
-GreaterThanOrEqualToOneNumber
+NonNegativeNumber
 "
 "
 From
@@ -795,7 +795,7 @@ values
 computed
 :
 :
-GreaterThanOrEqualToOneNumber
+NonNegativeNumber
 "
 spec
 =
@@ -812,7 +812,7 @@ org
 /
 TR
 /
-SVG11
+SVG2
 /
 painting
 .
