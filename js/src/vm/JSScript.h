@@ -20213,6 +20213,8 @@ sourceEnd
 uint32_t
 toStringStart
 uint32_t
+toStringEnd
+uint32_t
 lineno
 uint32_t
 column
