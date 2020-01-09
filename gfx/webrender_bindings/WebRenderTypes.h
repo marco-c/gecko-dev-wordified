@@ -430,6 +430,17 @@ FontInstancePlatformOptions
 >
 MaybeFontInstancePlatformOptions
 ;
+struct
+ExternalImageKeyPair
+{
+ImageKey
+key
+;
+ExternalImageId
+id
+;
+}
+;
 /
 *
 Generate
