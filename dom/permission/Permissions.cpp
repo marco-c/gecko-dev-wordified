@@ -568,8 +568,8 @@ nsIPrincipal
 *
 aPrincipal
 const
-char
-*
+nsACString
+&
 aPermissionType
 )
 {
@@ -821,8 +821,8 @@ forget
 ;
 }
 const
-char
-*
+nsLiteralCString
+&
 permissionType
 =
 PermissionNameToType
@@ -912,10 +912,7 @@ NodePrincipal
 (
 )
 )
-nsDependentCString
-(
 permissionType
-)
 &
 rv
 )

@@ -1024,11 +1024,14 @@ mgr
 TestExactPermissionFromPrincipal
 (
 principal
+NS_LITERAL_CSTRING
+(
 "
 speech
 -
 recognition
 "
+)
 &
 speechRecognition
 )

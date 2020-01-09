@@ -148,9 +148,12 @@ h
 #
 define
 USER_INTERACTION_PERM
+NS_LITERAL_CSTRING
+(
 "
 storageAccessAPI
 "
+)
 class
 nsIChannel
 ;

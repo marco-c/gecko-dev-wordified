@@ -900,13 +900,15 @@ sMaxVibrateListLen
 ;
 static
 const
-char
-*
+nsLiteralCString
 kVibrationPermissionType
 =
+NS_LITERAL_CSTRING
+(
 "
 vibration
 "
+)
 ;
 /
 *

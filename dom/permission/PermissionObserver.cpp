@@ -609,10 +609,6 @@ permission
 TypeToPermissionName
 (
 type
-.
-get
-(
-)
 )
 ;
 if

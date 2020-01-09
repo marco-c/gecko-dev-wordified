@@ -617,11 +617,14 @@ nsContentUtils
 IsExactSitePermAllow
 (
 mPrincipal
+NS_LITERAL_CSTRING
+(
 "
 midi
 -
 sysex
 "
+)
 )
 )
 {

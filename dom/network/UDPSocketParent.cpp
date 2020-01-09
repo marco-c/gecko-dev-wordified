@@ -438,11 +438,14 @@ permMgr
 TestExactPermissionFromPrincipal
 (
 mPrincipal
+NS_LITERAL_CSTRING
+(
 "
 udp
 -
 socket
 "
+)
 &
 permission
 )

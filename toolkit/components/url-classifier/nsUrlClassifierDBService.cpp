@@ -10351,11 +10351,14 @@ permissionManager
 TestPermissionFromPrincipal
 (
 aPrincipal
+NS_LITERAL_CSTRING
+(
 "
 safe
 -
 browsing
 "
+)
 &
 perm
 )

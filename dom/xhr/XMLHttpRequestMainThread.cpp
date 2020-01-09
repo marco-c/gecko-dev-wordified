@@ -1843,9 +1843,12 @@ permMgr
 TestPermissionFromPrincipal
 (
 principal
+NS_LITERAL_CSTRING
+(
 "
 systemXHR
 "
+)
 &
 permission
 )

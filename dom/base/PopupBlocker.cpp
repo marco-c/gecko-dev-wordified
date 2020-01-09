@@ -737,9 +737,12 @@ permissionManager
 TestPermissionFromPrincipal
 (
 aPrincipal
+NS_LITERAL_CSTRING
+(
 "
 popup
 "
+)
 &
 permit
 )

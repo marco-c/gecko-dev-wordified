@@ -2153,10 +2153,6 @@ TestPermissionFromPrincipal
 (
 principal
 permString
-.
-get
-(
-)
 &
 permission
 )

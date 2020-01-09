@@ -226,12 +226,13 @@ permissions
 -
 "
 const
-char
+nsLiteralCString
 kPermissionString
-[
-]
 =
+NS_LITERAL_CSTRING
+(
 IDB_PREFIX
+)
 ;
 const
 char
