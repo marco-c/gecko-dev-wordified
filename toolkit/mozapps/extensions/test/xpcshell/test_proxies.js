@@ -884,9 +884,9 @@ file
 append
 (
 "
-install
+manifest
 .
-rdf
+json
 "
 )
 ;
@@ -911,9 +911,9 @@ addon
 getResourceURI
 (
 "
-install
+manifest
 .
-rdf
+json
 "
 )
 .
