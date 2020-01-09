@@ -12580,6 +12580,9 @@ added
 explanation
 .
 throw
+new
+Error
+(
 "
 [
 accessible
@@ -12594,6 +12597,8 @@ observe
 This
 is
 expected
+"
++
 if
 a
 previous
@@ -12609,13 +12614,11 @@ exception
 was
 :
 [
-"
-+
+{
 ex
-+
-"
+}
 ]
-"
+)
 ;
 }
 var
