@@ -590,16 +590,12 @@ constructor
 (
 conn
 form
-detail
-ctx
 )
 {
 super
 (
 conn
 form
-detail
-ctx
 )
 ;
 /
