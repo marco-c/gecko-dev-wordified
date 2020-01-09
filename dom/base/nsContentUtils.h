@@ -8115,6 +8115,7 @@ static
 bool
 IsChromeDoc
 (
+const
 Document
 *
 aDocument
