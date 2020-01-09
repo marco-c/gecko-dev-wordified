@@ -226,6 +226,41 @@ key
 "
 ]
     
+if
+session
+.
+capabilities
+[
+"
+browserName
+"
+]
+=
+=
+"
+internet
+explorer
+"
+:
+        
+key_reporter
+.
+click
+(
+)
+        
+session
+.
+execute_script
+(
+"
+resetEvents
+(
+)
+;
+"
+)
+    
 key_chain
 \
         
@@ -1709,7 +1744,6 @@ preventDefault
 )
     
 if
-(
 session
 .
 capabilities
@@ -1720,11 +1754,10 @@ browserName
 ]
 =
 =
-'
+"
 internet
 explorer
-'
-)
+"
 :
         
 key_reporter
