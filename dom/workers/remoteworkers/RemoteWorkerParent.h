@@ -158,6 +158,11 @@ RemoteWorkerParent
 )
 ;
 void
+Initialize
+(
+)
+;
+void
 SetController
 (
 RemoteWorkerController
