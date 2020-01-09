@@ -12049,7 +12049,7 @@ bool
 GCMarker
 :
 :
-markUntilBudgetExhaused
+markUntilBudgetExhausted
 (
 SliceBudget
 &

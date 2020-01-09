@@ -37745,7 +37745,7 @@ IncrementalProgress
 GCRuntime
 :
 :
-markUntilBudgetExhaused
+markUntilBudgetExhausted
 (
 SliceBudget
 &
@@ -37822,7 +37822,7 @@ phase
 return
 marker
 .
-markUntilBudgetExhaused
+markUntilBudgetExhausted
 (
 sliceBudget
 )
@@ -37854,7 +37854,7 @@ MOZ_RELEASE_ASSERT
 (
 marker
 .
-markUntilBudgetExhaused
+markUntilBudgetExhausted
 (
 unlimited
 )
@@ -42037,7 +42037,7 @@ else
 {
 if
 (
-markUntilBudgetExhaused
+markUntilBudgetExhausted
 (
 budget
 gcstats
@@ -44906,7 +44906,7 @@ marker
 ;
 if
 (
-markUntilBudgetExhaused
+markUntilBudgetExhausted
 (
 budget
 gcstats

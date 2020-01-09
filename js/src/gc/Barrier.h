@@ -540,7 +540,7 @@ in
 GCRuntime
 :
 :
-markUntilBudgetExhaused
+markUntilBudgetExhausted
 ]
 *
 5
@@ -568,7 +568,7 @@ in
 GCRuntime
 :
 :
-markUntilBudgetExhaused
+markUntilBudgetExhausted
 ]
 *
 7

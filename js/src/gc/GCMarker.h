@@ -1677,7 +1677,7 @@ unmarkedArenaStackTop
 }
 MOZ_MUST_USE
 bool
-markUntilBudgetExhaused
+markUntilBudgetExhausted
 (
 SliceBudget
 &
