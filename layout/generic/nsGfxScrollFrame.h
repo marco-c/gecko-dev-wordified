@@ -2553,8 +2553,14 @@ nsRect
 aRect
 bool
 aHasResizer
-bool
-aVertical
+mozilla
+:
+:
+layers
+:
+:
+ScrollDirection
+aDirection
 )
 ;
 /
