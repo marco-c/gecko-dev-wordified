@@ -255,6 +255,8 @@ document
 getAnonymousElementByAttribute
 (
 gURLBar
+.
+textbox
 "
 anonid
 "
@@ -279,6 +281,8 @@ document
 getAnonymousElementByAttribute
 (
 gURLBar
+.
+textbox
 "
 anonid
 "
