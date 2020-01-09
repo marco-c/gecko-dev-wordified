@@ -21197,9 +21197,6 @@ keys
 for
 Prio
 servers
-#
-ifdef
-MOZ_LIBPRIO
 pref
 (
 "
@@ -21224,8 +21221,6 @@ publicKeyB
 "
 )
 ;
-#
-endif
 /
 /
 Coverage
@@ -21294,12 +21289,6 @@ if
 defined
 (
 NIGHTLY_BUILD
-)
-&
-&
-defined
-(
-MOZ_LIBPRIO
 )
 pref
 (

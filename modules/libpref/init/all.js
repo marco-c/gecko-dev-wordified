@@ -69977,9 +69977,6 @@ on
 this
 platform
 .
-#
-ifdef
-MOZ_LIBPRIO
 pref
 (
 "
@@ -69990,8 +69987,6 @@ enabled
 false
 )
 ;
-#
-endif
 /
 /
 External
