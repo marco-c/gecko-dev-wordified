@@ -883,7 +883,7 @@ android
 )
             
 '
-arm
+armv7a
 -
 unknown
 -
