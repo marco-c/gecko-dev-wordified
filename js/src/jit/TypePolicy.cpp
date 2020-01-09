@@ -8998,6 +8998,11 @@ _
 \
 _
 (
+AllDoublePolicy
+)
+\
+_
+(
 ArithPolicy
 )
 \
@@ -9079,11 +9084,6 @@ StoreUnboxedStringPolicy
 _
 (
 TestPolicy
-)
-\
-_
-(
-AllDoublePolicy
 )
 \
 _

@@ -1341,7 +1341,7 @@ bce_
 >
 emit1
 (
-JSOP_POS
+JSOP_TONUMERIC
 )
 )
 {

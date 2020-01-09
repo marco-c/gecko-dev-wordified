@@ -279,6 +279,11 @@ JSOP_POS
 \
 _
 (
+JSOP_TONUMERIC
+)
+\
+_
+(
 JSOP_LOOPHEAD
 )
 \
