@@ -1994,6 +1994,9 @@ h
 namespace
 mozilla
 {
+class
+LogModule
+;
 namespace
 ipc
 {
@@ -2267,6 +2270,12 @@ aOriginAttrSuffix
 nsACString
 &
 aOriginKey
+)
+;
+LogModule
+*
+GetLocalStorageLogger
+(
 )
 ;
 }
