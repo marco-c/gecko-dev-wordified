@@ -8961,13 +8961,12 @@ mJustifyItems
 uint8_t
 mJustifySelf
 ;
-uint8_t
+mozilla
+:
+:
+StyleFlexDirection
 mFlexDirection
 ;
-/
-/
-NS_STYLE_FLEX_DIRECTION_
-*
 uint8_t
 mFlexWrap
 ;
