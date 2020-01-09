@@ -519,7 +519,7 @@ kInfinitySymbol
 unisets
 :
 :
-INFINITY_KEY
+INFINITY_SIGN
 )
 {
 }

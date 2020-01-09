@@ -3311,6 +3311,7 @@ ICU
 0
 *
 /
+inline
 UBool
 operator
 !
@@ -8122,6 +8123,7 @@ ICU
 1
 *
 /
+inline
 UBool
 isBogus
 (

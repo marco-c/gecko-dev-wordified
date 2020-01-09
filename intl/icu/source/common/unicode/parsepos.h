@@ -642,6 +642,7 @@ ICU
 0
 *
 /
+inline
 ParsePosition
 &
 operator
@@ -681,6 +682,7 @@ ICU
 0
 *
 /
+inline
 UBool
 operator
 =
@@ -722,6 +724,7 @@ ICU
 0
 *
 /
+inline
 UBool
 operator
 !
@@ -857,6 +860,7 @@ ICU
 0
 *
 /
+inline
 int32_t
 getIndex
 (
@@ -889,6 +893,7 @@ ICU
 0
 *
 /
+inline
 void
 setIndex
 (
@@ -947,6 +952,7 @@ ICU
 0
 *
 /
+inline
 void
 setErrorIndex
 (
@@ -987,6 +993,7 @@ ICU
 0
 *
 /
+inline
 int32_t
 getErrorIndex
 (

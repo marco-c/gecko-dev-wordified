@@ -4418,7 +4418,13 @@ buffer
 infoffset
 +
 =
+static_cast
+<
+uint32_t
+>
+(
 rd
+)
 ;
 rd
 =
@@ -6078,6 +6084,11 @@ offset
 ]
 ferroffset
 =
+static_cast
+<
+int32_t
+>
+(
 infoffset
 +
 (
@@ -6087,6 +6098,7 @@ buf
 )
 +
 fromoffset
+)
 ;
 errtag
 =

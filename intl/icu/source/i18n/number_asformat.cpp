@@ -418,7 +418,9 @@ found
 =
 data
 .
-string
+getStringRef
+(
+)
 .
 nextFieldPosition
 (
@@ -482,7 +484,9 @@ append
 (
 data
 .
-string
+getStringRef
+(
+)
 .
 toTempUnicodeString
 (
@@ -580,7 +584,9 @@ append
 (
 data
 .
-string
+getStringRef
+(
+)
 .
 toTempUnicodeString
 (
@@ -604,7 +610,9 @@ status
 ;
 data
 .
-string
+getStringRef
+(
+)
 .
 getAllFieldPositions
 (

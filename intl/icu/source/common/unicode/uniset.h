@@ -5275,6 +5275,7 @@ ICU
 0
 *
 /
+inline
 UBool
 operator
 !

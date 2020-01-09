@@ -6386,10 +6386,7 @@ break
 ;
 default
 :
-U_ASSERT
-(
-FALSE
-)
+UPRV_UNREACHABLE
 ;
 /
 /
@@ -6404,8 +6401,6 @@ getFinalCE32
 (
 ce32
 )
-break
-;
 }
 return
 ce32

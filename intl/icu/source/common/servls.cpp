@@ -388,12 +388,6 @@ UChar
 46
 )
 U_NAMESPACE_BEGIN
-static
-UMutex
-llock
-=
-U_MUTEX_INITIALIZER
-;
 ICULocaleService
 :
 :
@@ -1560,6 +1554,12 @@ ICULocaleService
 *
 )
 this
+;
+static
+UMutex
+llock
+=
+U_MUTEX_INITIALIZER
 ;
 {
 Mutex

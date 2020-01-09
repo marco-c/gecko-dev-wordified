@@ -2010,10 +2010,7 @@ u
 )
 )
 {
-U_ASSERT
-(
-FALSE
-)
+UPRV_UNREACHABLE
 ;
 /
 *
@@ -2031,10 +2028,6 @@ ICU
 .
 *
 /
-u
-=
-0
-;
 }
 *
 cs

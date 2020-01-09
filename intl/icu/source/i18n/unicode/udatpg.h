@@ -800,9 +800,6 @@ UDATPG_FIELD_COUNT
 }
 UDateTimePatternField
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -818,7 +815,7 @@ udatpg_getFieldDisplayName
 )
 .
 *
-draft
+stable
 ICU
 61
 *
@@ -830,7 +827,7 @@ UDateTimePGDisplayWidth
 /
 *
 *
-draft
+stable
 ICU
 61
 *
@@ -839,7 +836,7 @@ UDATPG_WIDE
 /
 *
 *
-draft
+stable
 ICU
 61
 *
@@ -848,7 +845,7 @@ UDATPG_ABBREVIATED
 /
 *
 *
-draft
+stable
 ICU
 61
 *
@@ -857,11 +854,6 @@ UDATPG_NARROW
 }
 UDateTimePGDisplayWidth
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -3145,9 +3137,6 @@ int32_t
 pLength
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -3330,12 +3319,12 @@ truncated
 result
 .
 *
-draft
+stable
 ICU
 61
 *
 /
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 udatpg_getFieldDisplayName
@@ -3358,11 +3347,6 @@ UErrorCode
 pErrorCode
 )
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *

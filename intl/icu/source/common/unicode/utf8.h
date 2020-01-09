@@ -5936,9 +5936,6 @@ i
 }
 \
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -6154,7 +6151,7 @@ length
 see
 U8_SET_CP_START
 *
-draft
+stable
 ICU
 61
 *
@@ -6387,11 +6384,6 @@ length
 }
 \
 }
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 definitions

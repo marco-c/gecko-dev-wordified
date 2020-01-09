@@ -1227,7 +1227,7 @@ kBigitSize
 int
 exponent_
 ;
-DISALLOW_COPY_AND_ASSIGN
+DC_DISALLOW_COPY_AND_ASSIGN
 (
 Bignum
 )

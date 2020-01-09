@@ -1027,7 +1027,6 @@ loc
 )
 {
 }
-;
 LocaleCacheKey
 (
 const

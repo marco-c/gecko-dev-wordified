@@ -563,12 +563,6 @@ getStaticClassID
 (
 )
 ;
-private
-:
-NumberFormat
-*
-fmt
-;
 }
 ;
 U_NAMESPACE_END

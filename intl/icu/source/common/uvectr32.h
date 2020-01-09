@@ -937,6 +937,7 @@ API
 -
 -
 -
+inline
 void
 addElement
 (
@@ -968,6 +969,7 @@ UErrorCode
 status
 )
 ;
+inline
 int32_t
 elementAti
 (
@@ -986,6 +988,7 @@ other
 )
 const
 ;
+inline
 int32_t
 lastElementi
 (
@@ -1005,6 +1008,7 @@ startIndex
 )
 const
 ;
+inline
 UBool
 contains
 (
@@ -1053,6 +1057,7 @@ removeAllElements
 (
 )
 ;
+inline
 int32_t
 size
 (
@@ -1060,6 +1065,7 @@ void
 )
 const
 ;
+inline
 UBool
 isEmpty
 (
@@ -1410,6 +1416,7 @@ vector
 .
 *
 /
+inline
 int32_t
 *
 getBuffer
@@ -1606,6 +1613,7 @@ together
 .
 public
 :
+inline
 UBool
 empty
 (
@@ -1627,6 +1635,7 @@ empty
 Remove
 it
 ?
+inline
 int32_t
 peeki
 (
@@ -1634,12 +1643,14 @@ void
 )
 const
 ;
+inline
 int32_t
 popi
 (
 void
 )
 ;
+inline
 int32_t
 push
 (
@@ -1650,6 +1661,7 @@ UErrorCode
 status
 )
 ;
+inline
 int32_t
 *
 reserveBlock
@@ -1661,6 +1673,7 @@ UErrorCode
 status
 )
 ;
+inline
 int32_t
 *
 popFrame

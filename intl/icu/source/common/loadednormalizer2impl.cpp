@@ -1149,10 +1149,7 @@ errorCode
 }
 else
 {
-U_ASSERT
-(
-FALSE
-)
+UPRV_UNREACHABLE
 ;
 /
 /

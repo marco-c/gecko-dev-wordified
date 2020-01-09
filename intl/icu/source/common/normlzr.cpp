@@ -311,12 +311,6 @@ uniset_getUnicode32Instance
 if
 defined
 (
-_ARM64_
-)
-&
-&
-defined
-(
 move32
 )
 /

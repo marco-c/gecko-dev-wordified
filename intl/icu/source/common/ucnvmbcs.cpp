@@ -9906,6 +9906,9 @@ the
 pointers
 *
 /
+icu
+:
+:
 umtx_lock
 (
 NULL
@@ -9952,6 +9955,9 @@ newStateTable
 NULL
 ;
 }
+icu
+:
+:
 umtx_unlock
 (
 NULL
@@ -13774,6 +13780,9 @@ broken
 UBool
 isCached
 ;
+icu
+:
+:
 umtx_lock
 (
 NULL
@@ -13789,6 +13798,9 @@ swapLFNLStateTable
 =
 NULL
 ;
+icu
+:
+:
 umtx_unlock
 (
 NULL

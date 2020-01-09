@@ -1399,6 +1399,7 @@ other
 )
 const
 ;
+inline
 void
 *
 firstElement
@@ -1407,6 +1408,7 @@ void
 )
 const
 ;
+inline
 void
 *
 lastElement
@@ -1415,6 +1417,7 @@ void
 )
 const
 ;
+inline
 int32_t
 lastElementi
 (
@@ -1447,6 +1450,7 @@ startIndex
 )
 const
 ;
+inline
 UBool
 contains
 (
@@ -1456,6 +1460,7 @@ obj
 )
 const
 ;
+inline
 UBool
 contains
 (
@@ -1512,6 +1517,7 @@ removeAllElements
 (
 )
 ;
+inline
 int32_t
 size
 (
@@ -1519,6 +1525,7 @@ void
 )
 const
 ;
+inline
 UBool
 isEmpty
 (
@@ -1772,6 +1779,7 @@ UElementsAreEqual
 c
 )
 ;
+inline
 void
 *
 operator
@@ -2557,6 +2565,7 @@ cleanup
 to
 do
 .
+inline
 UBool
 empty
 (
@@ -2564,6 +2573,7 @@ void
 )
 const
 ;
+inline
 void
 *
 peek
@@ -2572,6 +2582,7 @@ void
 )
 const
 ;
+inline
 int32_t
 peeki
 (
@@ -2592,6 +2603,7 @@ popi
 void
 )
 ;
+inline
 void
 *
 push
@@ -2604,6 +2616,7 @@ UErrorCode
 status
 )
 ;
+inline
 int32_t
 push
 (

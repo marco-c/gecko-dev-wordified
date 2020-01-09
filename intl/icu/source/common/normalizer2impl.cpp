@@ -838,10 +838,7 @@ cpStart
 ;
 default
 :
-U_ASSERT
-(
-FALSE
-)
+UPRV_UNREACHABLE
 ;
 /
 /
@@ -849,9 +846,6 @@ Should
 not
 occur
 .
-return
-U_SENTINEL
-;
 }
 }
 /

@@ -929,6 +929,7 @@ API
 -
 -
 -
+inline
 void
 addElement
 (
@@ -960,6 +961,7 @@ UErrorCode
 status
 )
 ;
+inline
 int64_t
 elementAti
 (
@@ -980,6 +982,7 @@ other
 )
 const
 ;
+inline
 int64_t
 lastElementi
 (
@@ -1059,6 +1062,7 @@ removeAllElements
 (
 )
 ;
+inline
 int32_t
 size
 (
@@ -1359,6 +1363,7 @@ vector
 .
 *
 /
+inline
 int64_t
 *
 getBuffer
@@ -1587,12 +1592,14 @@ void
 )
 const
 ;
+inline
 int64_t
 popi
 (
 void
 )
 ;
+inline
 int64_t
 push
 (
@@ -1603,6 +1610,7 @@ UErrorCode
 status
 )
 ;
+inline
 int64_t
 *
 reserveBlock
@@ -1614,6 +1622,7 @@ UErrorCode
 status
 )
 ;
+inline
 int64_t
 *
 popFrame

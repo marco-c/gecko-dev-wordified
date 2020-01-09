@@ -176,6 +176,12 @@ decimal
 bool
 useCurrency
 ;
+char
+nsName
+[
+9
+]
+;
 /
 /
 Note

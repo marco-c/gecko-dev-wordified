@@ -2153,6 +2153,7 @@ setPatternInfo
 (
 &
 patternInfo
+UNUM_COMPACT_FIELD
 )
 ;
 info
@@ -2465,6 +2466,7 @@ applyToMicros
 (
 micros
 quantity
+status
 )
 ;
 break
@@ -2574,6 +2576,7 @@ setPatternInfo
 (
 &
 patternInfo
+UNUM_COMPACT_FIELD
 )
 ;
 }

@@ -833,7 +833,7 @@ handled
 by
 any
 *
-LangugageBreakEngine
+LanguageBreakEngine
 .
 *
 internal
@@ -1973,6 +1973,7 @@ ICU
 0
 *
 /
+inline
 UBool
 operator
 !

@@ -580,6 +580,9 @@ const
 UnicodeString
 &
 skeletonString
+UParseError
+*
+perror
 UErrorCode
 &
 status
@@ -677,6 +680,9 @@ const
 UnicodeString
 &
 skeletonString
+int32_t
+&
+errOffset
 UErrorCode
 &
 status
@@ -892,7 +898,7 @@ StemEnum
 stem
 )
 ;
-UGroupingStrategy
+UNumberGroupingStrategy
 groupingStrategy
 (
 skeleton
@@ -983,7 +989,7 @@ sb
 void
 groupingStrategy
 (
-UGroupingStrategy
+UNumberGroupingStrategy
 value
 UnicodeString
 &

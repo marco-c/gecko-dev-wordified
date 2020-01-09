@@ -483,6 +483,9 @@ UTRACE_ENTRY_OC
 UTRACE_U_CLEANUP
 )
 ;
+icu
+:
+:
 umtx_lock
 (
 NULL
@@ -503,6 +506,9 @@ to
 see
 *
 /
+icu
+:
+:
 umtx_unlock
 (
 NULL

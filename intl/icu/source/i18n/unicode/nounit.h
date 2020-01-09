@@ -236,6 +236,9 @@ if
 !
 UCONFIG_NO_FORMATTING
 #
+ifndef
+U_HIDE_DRAFT_API
+#
 include
 "
 unicode
@@ -266,9 +269,6 @@ permille
 *
 /
 U_NAMESPACE_BEGIN
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -637,6 +637,7 @@ subtype
 ;
 }
 ;
+U_NAMESPACE_END
 #
 endif
 /
@@ -644,7 +645,6 @@ endif
 U_HIDE_DRAFT_API
 *
 /
-U_NAMESPACE_END
 #
 endif
 /

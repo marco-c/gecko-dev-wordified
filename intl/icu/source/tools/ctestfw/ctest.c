@@ -2980,6 +2980,9 @@ spaces
 FLAG_INDENT
 -
 (
+(
+int
+)
 strlen
 (
 root

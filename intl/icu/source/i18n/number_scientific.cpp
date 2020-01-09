@@ -700,13 +700,7 @@ for
 inner
 modifiers
 .
-U_ASSERT
-(
-false
-)
-;
-return
-false
+UPRV_UNREACHABLE
 ;
 }
 void

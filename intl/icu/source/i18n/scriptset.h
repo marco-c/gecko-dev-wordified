@@ -546,7 +546,6 @@ other
 )
 ;
 }
-;
 ScriptSet
 &
 operator

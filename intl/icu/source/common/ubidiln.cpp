@@ -4196,9 +4196,6 @@ UBiDi
 pBiDi
 int32_t
 logicalIndex
-UErrorCode
-*
-pErrorCode
 )
 {
 Run
@@ -4302,18 +4299,7 @@ get
 here
 *
 /
-U_ASSERT
-(
-FALSE
-)
-;
-*
-pErrorCode
-=
-U_INVALID_STATE_ERROR
-;
-return
-0
+UPRV_UNREACHABLE
 ;
 }
 /
@@ -4423,7 +4409,6 @@ UBiDi
 pBiDi
 UErrorCode
 *
-pErrorCode
 )
 {
 /
@@ -5528,7 +5513,6 @@ point
 -
 >
 pos
-pErrorCode
 )
 ;
 pBiDi
@@ -5629,7 +5613,6 @@ pu
 -
 start
 )
-pErrorCode
 )
 ;
 pBiDi

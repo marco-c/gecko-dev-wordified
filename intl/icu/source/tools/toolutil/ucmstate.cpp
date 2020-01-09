@@ -5451,7 +5451,13 @@ entry
 )
 =
 =
+static_cast
+<
+uint32_t
+>
+(
 trailState
+)
 )
 {
 /

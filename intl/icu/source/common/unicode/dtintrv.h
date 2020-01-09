@@ -484,6 +484,7 @@ ICU
 0
 *
 /
+inline
 UDate
 getFromDate
 (
@@ -515,6 +516,7 @@ ICU
 0
 *
 /
+inline
 UDate
 getToDate
 (
@@ -839,6 +841,7 @@ ICU
 0
 *
 /
+inline
 UBool
 operator
 !

@@ -432,6 +432,9 @@ const
 char
 *
 localeID
+UErrorCode
+*
+status
 )
 ;
 /

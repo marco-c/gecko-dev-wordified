@@ -218,6 +218,9 @@ ICU4C
 PARSE_FLAG_NO_FOREIGN_CURRENCY
 =
 0x2000
+PARSE_FLAG_ALLOW_INFINITE_RECURSION
+=
+0x4000
 }
 ;
 /
@@ -285,7 +288,7 @@ length
 1
 )
 {
-memcpy
+uprv_memcpy
 (
 fBuffer
 .
@@ -896,6 +899,9 @@ const
 double
 getDouble
 (
+UErrorCode
+&
+status
 )
 const
 ;
@@ -1542,6 +1548,7 @@ private
 :
 const
 UnicodeString
+&
 fStr
 ;
 int32_t
@@ -2215,7 +2222,6 @@ no
 -
 op
 }
-;
 /
 /
 String

@@ -8624,12 +8624,6 @@ issue
 .
 *
 /
-static
-UMutex
-gLock
-=
-U_MUTEX_INITIALIZER
-;
 void
 SimpleTimeZone
 :
@@ -8653,6 +8647,12 @@ status
 return
 ;
 }
+static
+UMutex
+gLock
+=
+U_MUTEX_INITIALIZER
+;
 umtx_lock
 (
 &

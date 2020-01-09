@@ -1608,10 +1608,7 @@ break
 case
 RULES
 :
-U_ASSERT
-(
-FALSE
-)
+UPRV_UNREACHABLE
 ;
 /
 /
@@ -1629,8 +1626,6 @@ isRuleBased
 returns
 TRUE
 !
-break
-;
 }
 return
 t
@@ -10285,10 +10280,7 @@ return
 ;
 default
 :
-U_ASSERT
-(
-FALSE
-)
+UPRV_UNREACHABLE
 ;
 /
 /
@@ -10297,9 +10289,6 @@ can
 t
 get
 here
-return
-0
-;
 }
 }
 U_NAMESPACE_END

@@ -415,6 +415,7 @@ ICU
 4
 *
 /
+inline
 static
 LocaleDisplayNames
 *

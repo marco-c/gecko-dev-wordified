@@ -379,7 +379,6 @@ isDefaultEnabled
 )
 {
 }
-;
 ~
 CSRecognizerInfo
 (
@@ -389,7 +388,6 @@ delete
 recognizer
 ;
 }
-;
 CharsetRecognizer
 *
 recognizer

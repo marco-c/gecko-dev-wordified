@@ -1011,9 +1011,15 @@ path
 ;
 resultLen
 =
+static_cast
+<
+int32_t
+>
+(
 basename
 -
 path
+)
 ;
 if
 (

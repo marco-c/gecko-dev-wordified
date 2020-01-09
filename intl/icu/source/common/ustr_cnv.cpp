@@ -404,6 +404,9 @@ gDefaultConverter
 NULL
 )
 {
+icu
+:
+:
 umtx_lock
 (
 NULL
@@ -445,6 +448,9 @@ gDefaultConverter
 NULL
 ;
 }
+icu
+:
+:
 umtx_unlock
 (
 NULL
@@ -539,6 +545,9 @@ ucnv_enableCleanup
 (
 )
 ;
+icu
+:
+:
 umtx_lock
 (
 NULL
@@ -561,6 +570,9 @@ converter
 NULL
 ;
 }
+icu
+:
+:
 umtx_unlock
 (
 NULL
@@ -603,6 +615,9 @@ gDefaultConverter
 NULL
 )
 {
+icu
+:
+:
 umtx_lock
 (
 NULL
@@ -644,6 +659,9 @@ gDefaultConverter
 NULL
 ;
 }
+icu
+:
+:
 umtx_unlock
 (
 NULL

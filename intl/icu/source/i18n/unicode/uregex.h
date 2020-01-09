@@ -1206,6 +1206,10 @@ UErrorCode
 status
 )
 ;
+#
+if
+!
+UCONFIG_NO_CONVERSION
 /
 *
 *
@@ -1400,10 +1404,6 @@ ICU
 0
 *
 /
-#
-if
-!
-UCONFIG_NO_CONVERSION
 U_STABLE
 URegularExpression
 *
