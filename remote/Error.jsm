@@ -320,14 +320,12 @@ mode
 ;
 }
 }
-;
 class
 UnsupportedError
 extends
 RemoteAgentError
 {
 }
-;
 function
 formatError
 (

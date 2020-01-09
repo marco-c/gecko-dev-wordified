@@ -583,4 +583,3 @@ nsISupportsWeakReference
 ;
 }
 }
-;

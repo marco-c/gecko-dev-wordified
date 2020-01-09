@@ -653,7 +653,6 @@ schema
 ;
 }
 }
-;
 Page
 .
 FrameId

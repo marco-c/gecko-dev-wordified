@@ -611,7 +611,6 @@ nsIWindowMediatorListener
 ;
 }
 }
-;
 /
 *
 *
@@ -946,7 +945,6 @@ closes
 ?
 }
 }
-;
 /
 *
 *
@@ -1322,7 +1320,6 @@ nsIObserver
 ;
 }
 }
-;
 /
 *
 *

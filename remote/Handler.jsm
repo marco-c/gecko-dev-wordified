@@ -334,7 +334,6 @@ targets
 ;
 }
 }
-;
 class
 ProtocolHandler
 extends
@@ -371,7 +370,6 @@ Description
 ;
 }
 }
-;
 /
 *
 *

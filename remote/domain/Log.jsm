@@ -526,7 +526,6 @@ schema
 ;
 }
 }
-;
 Log
 .
 LogEntry
