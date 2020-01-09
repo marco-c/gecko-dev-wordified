@@ -803,7 +803,6 @@ function
 line
 column
 options
-noSliding
 }
 )
 {
@@ -848,7 +847,6 @@ setBreakpoint
 "
 location
 options
-noSliding
 }
 ;
 /
