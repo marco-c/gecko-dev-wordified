@@ -78,6 +78,10 @@ TestManyChildAllocsParent
 public
 PTestManyChildAllocsParent
 {
+friend
+class
+PTestManyChildAllocsParent
+;
 public
 :
 TestManyChildAllocsParent
@@ -117,7 +121,6 @@ Main
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -128,9 +131,7 @@ IPCResult
 RecvDone
 (
 )
-override
 ;
-virtual
 bool
 DeallocPTestManyChildAllocsSubParent
 (
@@ -138,15 +139,12 @@ PTestManyChildAllocsSubParent
 *
 __a
 )
-override
 ;
-virtual
 PTestManyChildAllocsSubParent
 *
 AllocPTestManyChildAllocsSubParent
 (
 )
-override
 ;
 virtual
 void
@@ -193,6 +191,10 @@ TestManyChildAllocsChild
 public
 PTestManyChildAllocsChild
 {
+friend
+class
+PTestManyChildAllocsChild
+;
 public
 :
 TestManyChildAllocsChild
@@ -207,7 +209,6 @@ TestManyChildAllocsChild
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -218,9 +219,7 @@ IPCResult
 RecvGo
 (
 )
-override
 ;
-virtual
 bool
 DeallocPTestManyChildAllocsSubChild
 (
@@ -228,15 +227,12 @@ PTestManyChildAllocsSubChild
 *
 __a
 )
-override
 ;
-virtual
 PTestManyChildAllocsSubChild
 *
 AllocPTestManyChildAllocsSubChild
 (
 )
-override
 ;
 virtual
 void
@@ -285,6 +281,10 @@ TestManyChildAllocsSubParent
 public
 PTestManyChildAllocsSubParent
 {
+friend
+class
+PTestManyChildAllocsSubParent
+;
 public
 :
 TestManyChildAllocsSubParent
@@ -311,7 +311,6 @@ why
 override
 {
 }
-virtual
 mozilla
 :
 :
@@ -322,7 +321,6 @@ IPCResult
 RecvHello
 (
 )
-override
 {
 return
 IPC_OK

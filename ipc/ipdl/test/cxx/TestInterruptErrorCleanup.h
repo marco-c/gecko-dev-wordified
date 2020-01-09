@@ -149,6 +149,10 @@ TestInterruptErrorCleanupChild
 public
 PTestInterruptErrorCleanupChild
 {
+friend
+class
+PTestInterruptErrorCleanupChild
+;
 public
 :
 TestInterruptErrorCleanupChild
@@ -163,7 +167,6 @@ TestInterruptErrorCleanupChild
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -174,7 +177,6 @@ IPCResult
 AnswerError
 (
 )
-override
 ;
 virtual
 void

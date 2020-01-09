@@ -223,6 +223,10 @@ TestShutdownSubParent
 public
 PTestShutdownSubParent
 {
+friend
+class
+PTestShutdownSubParent
+;
 public
 :
 explicit
@@ -268,7 +272,6 @@ manager
 }
 protected
 :
-virtual
 mozilla
 :
 :
@@ -279,7 +282,6 @@ IPCResult
 AnswerStackFrame
 (
 )
-override
 {
 if
 (
@@ -302,7 +304,6 @@ IPC_OK
 )
 ;
 }
-virtual
 PTestShutdownSubsubParent
 *
 AllocPTestShutdownSubsubParent
@@ -312,7 +313,6 @@ bool
 &
 expectParentDelete
 )
-override
 {
 return
 new
@@ -322,7 +322,6 @@ expectParentDelete
 )
 ;
 }
-virtual
 bool
 DeallocPTestShutdownSubsubParent
 (
@@ -330,7 +329,6 @@ PTestShutdownSubsubParent
 *
 actor
 )
-override
 {
 delete
 actor
@@ -368,6 +366,10 @@ TestShutdownParent
 public
 PTestShutdownParent
 {
+friend
+class
+PTestShutdownParent
+;
 public
 :
 TestShutdownParent
@@ -419,7 +421,6 @@ Main
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -430,7 +431,6 @@ IPCResult
 RecvSync
 (
 )
-override
 {
 return
 IPC_OK
@@ -438,7 +438,6 @@ IPC_OK
 )
 ;
 }
-virtual
 PTestShutdownSubParent
 *
 AllocPTestShutdownSubParent
@@ -448,7 +447,6 @@ bool
 &
 expectCrash
 )
-override
 {
 return
 new
@@ -458,7 +456,6 @@ expectCrash
 )
 ;
 }
-virtual
 bool
 DeallocPTestShutdownSubParent
 (
@@ -466,7 +463,6 @@ PTestShutdownSubParent
 *
 actor
 )
-override
 {
 delete
 actor
@@ -621,6 +617,10 @@ TestShutdownSubChild
 public
 PTestShutdownSubChild
 {
+friend
+class
+PTestShutdownSubChild
+;
 public
 :
 explicit
@@ -645,7 +645,6 @@ TestShutdownSubChild
 }
 protected
 :
-virtual
 mozilla
 :
 :
@@ -656,9 +655,7 @@ IPCResult
 AnswerStackFrame
 (
 )
-override
 ;
-virtual
 PTestShutdownSubsubChild
 *
 AllocPTestShutdownSubsubChild
@@ -668,7 +665,6 @@ bool
 &
 expectParentDelete
 )
-override
 {
 return
 new
@@ -678,7 +674,6 @@ expectParentDelete
 )
 ;
 }
-virtual
 bool
 DeallocPTestShutdownSubsubChild
 (
@@ -686,7 +681,6 @@ PTestShutdownSubsubChild
 *
 actor
 )
-override
 {
 delete
 actor
@@ -717,6 +711,10 @@ TestShutdownChild
 public
 PTestShutdownChild
 {
+friend
+class
+PTestShutdownChild
+;
 public
 :
 TestShutdownChild
@@ -733,7 +731,6 @@ TestShutdownChild
 }
 protected
 :
-virtual
 mozilla
 :
 :
@@ -744,9 +741,7 @@ IPCResult
 RecvStart
 (
 )
-override
 ;
-virtual
 PTestShutdownSubChild
 *
 AllocPTestShutdownSubChild
@@ -756,7 +751,6 @@ bool
 &
 expectCrash
 )
-override
 {
 return
 new
@@ -766,7 +760,6 @@ expectCrash
 )
 ;
 }
-virtual
 bool
 DeallocPTestShutdownSubChild
 (
@@ -774,7 +767,6 @@ PTestShutdownSubChild
 *
 actor
 )
-override
 {
 delete
 actor

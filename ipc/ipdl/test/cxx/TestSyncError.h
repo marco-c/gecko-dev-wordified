@@ -50,6 +50,10 @@ TestSyncErrorParent
 public
 PTestSyncErrorParent
 {
+friend
+class
+PTestSyncErrorParent
+;
 public
 :
 TestSyncErrorParent
@@ -89,7 +93,6 @@ Main
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -100,7 +103,6 @@ IPCResult
 RecvError
 (
 )
-override
 ;
 virtual
 void
@@ -165,6 +167,10 @@ TestSyncErrorChild
 public
 PTestSyncErrorChild
 {
+friend
+class
+PTestSyncErrorChild
+;
 public
 :
 TestSyncErrorChild
@@ -179,7 +185,6 @@ TestSyncErrorChild
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -190,7 +195,6 @@ IPCResult
 RecvStart
 (
 )
-override
 ;
 virtual
 void

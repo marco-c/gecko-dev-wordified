@@ -97,7 +97,6 @@ Main
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -108,9 +107,7 @@ IPCResult
 RecvStartDeath
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -121,7 +118,6 @@ IPCResult
 RecvOrphan
 (
 )
-override
 ;
 protected
 :
@@ -164,6 +160,10 @@ TestInterruptShutdownRaceChild
 public
 PTestInterruptShutdownRaceChild
 {
+friend
+class
+PTestInterruptShutdownRaceChild
+;
 public
 :
 TestInterruptShutdownRaceChild
@@ -178,7 +178,6 @@ TestInterruptShutdownRaceChild
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -189,9 +188,7 @@ IPCResult
 RecvStart
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -202,7 +199,6 @@ IPCResult
 AnswerExit
 (
 )
-override
 ;
 virtual
 void
