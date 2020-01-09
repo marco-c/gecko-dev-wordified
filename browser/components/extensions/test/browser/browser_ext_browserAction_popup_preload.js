@@ -166,6 +166,8 @@ EventUtils
 synthesizeMouseAtCenter
 (
 gURLBar
+.
+textbox
 {
 type
 :
@@ -800,6 +802,8 @@ EventUtils
 synthesizeMouseAtCenter
 (
 gURLBar
+.
+textbox
 {
 type
 :
@@ -1663,6 +1667,8 @@ synthesizeMouseAtCenter
 win
 .
 gURLBar
+.
+textbox
 {
 type
 :
@@ -1884,6 +1890,8 @@ EventUtils
 synthesizeMouseAtCenter
 (
 gURLBar
+.
+textbox
 {
 type
 :
