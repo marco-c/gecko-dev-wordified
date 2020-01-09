@@ -434,6 +434,10 @@ pub
 chase_primitive
 :
 ChasePrimitive
+pub
+enable_picture_caching
+:
+bool
 }
 /
 /
@@ -981,6 +985,9 @@ ChasePrimitive
 :
 :
 Nothing
+enable_picture_caching
+:
+false
 }
 }
 }

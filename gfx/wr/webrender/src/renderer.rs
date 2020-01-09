@@ -10285,6 +10285,11 @@ chase_primitive
 options
 .
 chase_primitive
+enable_picture_caching
+:
+options
+.
+enable_picture_caching
 }
 ;
 let
