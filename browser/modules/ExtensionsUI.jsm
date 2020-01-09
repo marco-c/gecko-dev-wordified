@@ -2990,11 +2990,6 @@ checkbox
 hidden
 =
 allowPrivateBrowsingByDefault
-|
-|
-PrivateBrowsingUtils
-.
-permanentPrivateBrowsing
 ;
 async
 function
