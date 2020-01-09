@@ -130,6 +130,13 @@ h
 #
 include
 "
+nsILocalStorageManager
+.
+h
+"
+#
+include
+"
 StorageObserver
 .
 h
@@ -203,10 +210,13 @@ final
 public
 nsIDOMStorageManager
 public
+nsILocalStorageManager
+public
 StorageObserverSink
 {
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMSTORAGEMANAGER
+NS_DECL_NSILOCALSTORAGEMANAGER
 public
 :
 LocalStorageManager

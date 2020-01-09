@@ -127,6 +127,13 @@ nsIDOMStorageManager
 .
 h
 "
+#
+include
+"
+nsILocalStorageManager
+.
+h
+"
 namespace
 mozilla
 {
@@ -139,6 +146,8 @@ final
 :
 public
 nsIDOMStorageManager
+public
+nsILocalStorageManager
 {
 public
 :
@@ -148,6 +157,7 @@ LocalStorageManager2
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMSTORAGEMANAGER
+NS_DECL_NSILOCALSTORAGEMANAGER
 private
 :
 ~
