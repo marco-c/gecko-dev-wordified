@@ -24483,13 +24483,6 @@ blockedOnLock
 blockedOnLocks
 )
 {
-blockedOnLock
--
->
-Invalidate
-(
-)
-;
 if
 (
 !
@@ -24501,6 +24494,13 @@ IsInternal
 )
 )
 {
+blockedOnLock
+-
+>
+Invalidate
+(
+)
+;
 MOZ_ASSERT
 (
 !
