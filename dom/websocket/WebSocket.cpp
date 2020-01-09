@@ -3870,7 +3870,7 @@ rv
 mWebSocket
 -
 >
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;
@@ -8503,7 +8503,7 @@ rv
 mWebSocket
 -
 >
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;
@@ -8800,7 +8800,7 @@ rv
 mWebSocket
 -
 >
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;
@@ -10537,7 +10537,7 @@ AssertIsOnTargetThread
 nsresult
 rv
 =
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;
@@ -10674,7 +10674,7 @@ cx
 nsresult
 rv
 =
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;
@@ -11149,7 +11149,7 @@ aReason
 nsresult
 rv
 =
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;

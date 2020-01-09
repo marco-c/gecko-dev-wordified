@@ -6767,7 +6767,7 @@ if
 (
 NS_FAILED
 (
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 )
@@ -7134,7 +7134,7 @@ if
 (
 NS_FAILED
 (
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 )
@@ -7238,7 +7238,7 @@ if
 (
 NS_FAILED
 (
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 )
@@ -7723,7 +7723,7 @@ context
 nsresult
 rv
 =
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;
@@ -8046,7 +8046,7 @@ NS_WARN_IF
 (
 NS_FAILED
 (
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 )
@@ -11220,7 +11220,7 @@ NS_WARN_IF
 (
 NS_FAILED
 (
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 )
@@ -16553,7 +16553,7 @@ NS_ERROR_DOM_INVALID_STATE_XHR_MUST_NOT_BE_SENDING
 nsresult
 rv
 =
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;

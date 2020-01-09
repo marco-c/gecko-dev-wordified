@@ -1436,9 +1436,8 @@ return
 /
 /
 See
-if
-our
-window
+this
+global
 is
 still
 valid
@@ -1449,7 +1448,7 @@ NS_WARN_IF
 (
 NS_FAILED
 (
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 )

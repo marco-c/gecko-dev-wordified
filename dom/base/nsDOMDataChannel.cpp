@@ -679,7 +679,7 @@ to
 fail
 rv
 =
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;
@@ -1655,7 +1655,7 @@ binary
 nsresult
 rv
 =
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;
@@ -2100,7 +2100,7 @@ NS_IsMainThread
 nsresult
 rv
 =
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;

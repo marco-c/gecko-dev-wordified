@@ -11055,7 +11055,7 @@ NS_SUCCEEDED
 mql
 -
 >
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 )
