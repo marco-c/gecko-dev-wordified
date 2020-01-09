@@ -245,6 +245,13 @@ PropTypes
 func
 .
 isRequired
+showDeclarationValueEditor
+:
+PropTypes
+.
+func
+.
+isRequired
 showSelectorEditor
 :
 PropTypes
@@ -265,6 +272,7 @@ onToggleDeclaration
 onToggleSelectorHighlighter
 rule
 showDeclarationNameEditor
+showDeclarationValueEditor
 showSelectorEditor
 }
 =
@@ -402,6 +410,7 @@ declarations
 isUserAgentStyle
 onToggleDeclaration
 showDeclarationNameEditor
+showDeclarationValueEditor
 }
 )
 dom

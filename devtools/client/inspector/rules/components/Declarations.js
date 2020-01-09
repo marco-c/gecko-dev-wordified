@@ -205,6 +205,13 @@ PropTypes
 func
 .
 isRequired
+showDeclarationValueEditor
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }
@@ -218,6 +225,7 @@ declarations
 isUserAgentStyle
 onToggleDeclaration
 showDeclarationNameEditor
+showDeclarationValueEditor
 }
 =
 this
@@ -272,6 +280,7 @@ declaration
 isUserAgentStyle
 onToggleDeclaration
 showDeclarationNameEditor
+showDeclarationValueEditor
 }
 )
 ;
