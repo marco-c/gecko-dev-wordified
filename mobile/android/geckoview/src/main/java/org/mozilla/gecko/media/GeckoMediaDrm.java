@@ -233,4 +233,14 @@ getMediaCrypto
 (
 )
 ;
+void
+setServerCertificate
+(
+final
+byte
+[
+]
+cert
+)
+;
 }
