@@ -6719,6 +6719,11 @@ XRE_IsContentProcess
 XRE_IsGPUProcess
 (
 )
+|
+|
+XRE_IsSocketProcess
+(
+)
 )
 &
 &
