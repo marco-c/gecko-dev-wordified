@@ -431,6 +431,11 @@ nsString
 aResourceIds
 )
 ;
+void
+Destroy
+(
+)
+;
 protected
 :
 virtual
