@@ -6515,16 +6515,6 @@ memoryUsage
 metadata_
 -
 >
-temporaryGcTypesConfigured
-=
-env_
--
->
-gcTypesConfigured
-;
-metadata_
--
->
 minMemoryLength
 =
 env_

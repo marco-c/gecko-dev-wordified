@@ -4441,14 +4441,6 @@ False
 True
 }
 ;
-enum
-class
-HasGcTypes
-{
-False
-True
-}
-;
 /
 /
 The

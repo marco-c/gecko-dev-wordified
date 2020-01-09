@@ -935,19 +935,6 @@ false
 ;
 }
 }
-HasGcTypes
-gcTypesConfigured
-=
-code
-(
-)
-.
-metadata
-(
-)
-.
-temporaryGcTypesConfigured
-;
 const
 CodeTier
 &
@@ -979,7 +966,6 @@ stubs2
 >
 createTier2
 (
-gcTypesConfigured
 funcExportIndices
 tier2
 &

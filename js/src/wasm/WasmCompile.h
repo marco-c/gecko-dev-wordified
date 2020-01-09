@@ -331,7 +331,7 @@ ionEnabled
 bool
 sharedMemoryEnabled
 ;
-HasGcTypes
+bool
 gcTypesConfigured
 ;
 bool
@@ -378,10 +378,7 @@ false
 )
 gcTypesConfigured
 (
-HasGcTypes
-:
-:
-False
+false
 )
 testTiering
 (

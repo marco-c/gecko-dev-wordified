@@ -289,8 +289,6 @@ ImmPtr
 callee
 bool
 isAsmJS
-HasGcTypes
-gcTypesConfigured
 CodeRangeVector
 *
 codeRanges
