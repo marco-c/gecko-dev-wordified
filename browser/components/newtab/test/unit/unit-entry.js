@@ -1410,6 +1410,17 @@ firefox
 -
 b
 "
+wrappedJSObject
+:
+{
+__internalAliases
+:
+[
+"
+google
+"
+]
+}
 }
 currentEngine
 :

@@ -2819,7 +2819,7 @@ e88c401e1b1f2242d9e441c4
 &
 layout_variant
 =
-control
+basic
 "
 }
 )

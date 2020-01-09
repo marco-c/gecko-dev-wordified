@@ -285,7 +285,6 @@ prefs_content_discovery_header
 :
 "
 Firefox
-Home
 "
 "
 prefs_content_discovery_description
@@ -317,10 +316,6 @@ prefs_content_discovery_button
 "
 :
 "
-Turn
-Off
-Content
-Discovery
 "
 "
 prefs_section_rows_option
