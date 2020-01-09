@@ -35879,7 +35879,7 @@ mFontSizeScaleFactor
 =
 CLAMP_MIN_SIZE
 /
-minTextRunSize
+minSize
 ;
 }
 else
@@ -35894,7 +35894,7 @@ mFontSizeScaleFactor
 =
 CLAMP_MIN_SIZE
 /
-minTextRunSize
+minSize
 ;
 }
 else
@@ -35903,7 +35903,7 @@ mFontSizeScaleFactor
 =
 CLAMP_MAX_SIZE
 /
-maxTextRunSize
+maxSize
 ;
 }
 return
