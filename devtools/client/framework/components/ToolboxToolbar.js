@@ -2792,12 +2792,9 @@ onClick
 )
 =
 >
-{
 closeToolbox
 (
 )
-;
-}
 tabIndex
 :
 focusedButton
