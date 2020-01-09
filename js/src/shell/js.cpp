@@ -70570,7 +70570,7 @@ sse3
 )
 {
 return
-EXIT_SUCCESS
+EXIT_FAILURE
 ;
 }
 }
@@ -70619,7 +70619,7 @@ sse4
 )
 {
 return
-EXIT_SUCCESS
+EXIT_FAILURE
 ;
 }
 }
@@ -70668,7 +70668,7 @@ avx
 )
 {
 return
-EXIT_SUCCESS
+EXIT_FAILURE
 ;
 }
 }
