@@ -552,7 +552,7 @@ prefs_topsites_description
 "
 :
 "
-El
+Els
 llocs
 que
 visiteu
