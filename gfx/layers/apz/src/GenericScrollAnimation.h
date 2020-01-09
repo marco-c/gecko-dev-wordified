@@ -178,6 +178,16 @@ aDelta
 )
 override
 ;
+bool
+ApplyContentShift
+(
+const
+CSSPoint
+&
+aShiftDelta
+)
+override
+;
 void
 UpdateDelta
 (

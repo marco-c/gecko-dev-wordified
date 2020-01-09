@@ -211,6 +211,16 @@ aCurrentVelocity
 )
 override
 ;
+void
+ApplyContentShift
+(
+const
+CSSPoint
+&
+aShiftDelta
+)
+override
+;
 /
 /
 Get
