@@ -485,11 +485,6 @@ writes
 may
 occur
 .
-Does
-not
-return
-SECWouldBlock
-.
 *
 /
 int

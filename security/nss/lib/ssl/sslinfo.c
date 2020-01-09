@@ -1183,6 +1183,19 @@ maxEarlyDataSize
 0
 ;
 }
+inf
+.
+zeroRttCipherSuite
+=
+ss
+-
+>
+ssl3
+.
+hs
+.
+zeroRttSuite
+;
 memcpy
 (
 info
@@ -1770,6 +1783,7 @@ B_128
 M_AEAD_128
 F_FIPS_STD
 A_ANY
+ssl_hash_sha256
 }
 {
 0
@@ -1784,6 +1798,7 @@ B_256
 M_AEAD_128
 F_NFIPS_STD
 A_ANY
+ssl_hash_sha256
 }
 {
 0
@@ -1798,6 +1813,7 @@ B_256
 M_AEAD_128
 F_NFIPS_STD
 A_ANY
+ssl_hash_sha384
 }
 {
 0
@@ -1812,6 +1828,7 @@ B_128
 M_AEAD_128
 F_FIPS_STD
 A_RSAD
+ssl_hash_sha256
 }
 {
 0
@@ -1826,6 +1843,7 @@ B_256
 M_AEAD_128
 F_NFIPS_STD
 A_RSAS
+ssl_hash_sha256
 }
 {
 0
@@ -1840,6 +1858,7 @@ B_256
 M_SHA
 F_NFIPS_STD
 A_RSAS
+ssl_hash_none
 }
 {
 0
@@ -1854,6 +1873,7 @@ B_256
 M_SHA
 F_NFIPS_STD
 A_DSA
+ssl_hash_none
 }
 {
 0
@@ -1868,6 +1888,7 @@ B_256
 M_SHA256
 F_FIPS_STD
 A_RSAS
+ssl_hash_sha256
 }
 {
 0
@@ -1882,6 +1903,7 @@ B_256
 M_SHA
 F_FIPS_STD
 A_RSAS
+ssl_hash_none
 }
 {
 0
@@ -1896,6 +1918,7 @@ B_256
 M_SHA
 F_FIPS_STD
 A_DSA
+ssl_hash_none
 }
 {
 0
@@ -1910,6 +1933,7 @@ B_256
 M_SHA256
 F_FIPS_STD
 A_DSA
+ssl_hash_sha256
 }
 {
 0
@@ -1924,6 +1948,7 @@ B_256
 M_SHA
 F_NFIPS_STD
 A_RSAD
+ssl_hash_none
 }
 {
 0
@@ -1938,6 +1963,7 @@ B_256
 M_SHA256
 F_FIPS_STD
 A_RSAD
+ssl_hash_sha256
 }
 {
 0
@@ -1952,6 +1978,7 @@ B_256
 M_SHA
 F_FIPS_STD
 A_RSAD
+ssl_hash_none
 }
 {
 0
@@ -1966,6 +1993,7 @@ B_128
 M_SHA
 F_NFIPS_STD
 A_RSAS
+ssl_hash_none
 }
 {
 0
@@ -1980,6 +2008,7 @@ B_128
 M_SHA
 F_NFIPS_STD
 A_DSA
+ssl_hash_none
 }
 {
 0
@@ -1994,6 +2023,7 @@ B_128
 M_SHA
 F_NFIPS_STD
 A_DSA
+ssl_hash_none
 }
 {
 0
@@ -2008,6 +2038,7 @@ B_128
 M_SHA256
 F_FIPS_STD
 A_RSAS
+ssl_hash_sha256
 }
 {
 0
@@ -2022,6 +2053,7 @@ B_128
 M_AEAD_128
 F_FIPS_STD
 A_RSAS
+ssl_hash_sha256
 }
 {
 0
@@ -2036,6 +2068,7 @@ B_128
 M_SHA
 F_FIPS_STD
 A_RSAS
+ssl_hash_none
 }
 {
 0
@@ -2050,6 +2083,7 @@ B_128
 M_AEAD_128
 F_FIPS_STD
 A_DSA
+ssl_hash_sha256
 }
 {
 0
@@ -2064,6 +2098,7 @@ B_128
 M_SHA
 F_FIPS_STD
 A_DSA
+ssl_hash_none
 }
 {
 0
@@ -2078,6 +2113,7 @@ B_128
 M_SHA256
 F_FIPS_STD
 A_DSA
+ssl_hash_sha256
 }
 {
 0
@@ -2092,6 +2128,7 @@ B_128
 M_SHA
 F_FIPS_STD
 A_RSAD
+ssl_hash_none
 }
 {
 0
@@ -2106,6 +2143,7 @@ B_128
 M_SHA
 F_NFIPS_STD
 A_RSAD
+ssl_hash_none
 }
 {
 0
@@ -2120,6 +2158,7 @@ B_128
 M_SHA
 F_NFIPS_STD
 A_RSAD
+ssl_hash_none
 }
 {
 0
@@ -2134,6 +2173,7 @@ B_128
 M_MD5
 F_NFIPS_STD
 A_RSAD
+ssl_hash_none
 }
 {
 0
@@ -2148,6 +2188,7 @@ B_128
 M_SHA256
 F_FIPS_STD
 A_RSAD
+ssl_hash_sha256
 }
 {
 0
@@ -2162,6 +2203,7 @@ B_128
 M_SHA
 F_FIPS_STD
 A_RSAD
+ssl_hash_none
 }
 {
 0
@@ -2176,6 +2218,7 @@ B_3DES
 M_SHA
 F_FIPS_STD
 A_RSAS
+ssl_hash_none
 }
 {
 0
@@ -2190,6 +2233,7 @@ B_3DES
 M_SHA
 F_FIPS_STD
 A_DSA
+ssl_hash_none
 }
 {
 0
@@ -2204,6 +2248,7 @@ B_3DES
 M_SHA
 F_FIPS_STD
 A_RSAD
+ssl_hash_none
 }
 {
 0
@@ -2218,6 +2263,7 @@ B_DES
 M_SHA
 F_NFIPS_STD
 A_RSAS
+ssl_hash_none
 }
 {
 0
@@ -2232,6 +2278,7 @@ B_DES
 M_SHA
 F_NFIPS_STD
 A_DSA
+ssl_hash_none
 }
 {
 0
@@ -2246,6 +2293,7 @@ B_DES
 M_SHA
 F_NFIPS_STD
 A_RSAD
+ssl_hash_none
 }
 {
 0
@@ -2260,6 +2308,7 @@ B_0
 M_SHA256
 F_EXPORT
 A_RSAD
+ssl_hash_sha256
 }
 {
 0
@@ -2274,6 +2323,7 @@ B_0
 M_SHA
 F_EXPORT
 A_RSAD
+ssl_hash_none
 }
 {
 0
@@ -2288,6 +2338,7 @@ B_0
 M_MD5
 F_EXPORT
 A_RSAD
+ssl_hash_none
 }
 /
 *
@@ -2309,6 +2360,7 @@ B_128
 M_AEAD_128
 F_FIPS_STD
 A_RSAS
+ssl_hash_sha256
 }
 {
 0
@@ -2323,6 +2375,7 @@ B_128
 M_AEAD_128
 F_FIPS_STD
 A_ECDSA
+ssl_hash_sha256
 }
 {
 0
@@ -2337,6 +2390,7 @@ B_0
 M_SHA
 F_NFIPS_STD
 A_ECDH_E
+ssl_hash_none
 }
 {
 0
@@ -2351,6 +2405,7 @@ B_128
 M_SHA
 F_NFIPS_STD
 A_ECDH_E
+ssl_hash_none
 }
 {
 0
@@ -2365,6 +2420,7 @@ B_3DES
 M_SHA
 F_FIPS_STD
 A_ECDH_E
+ssl_hash_none
 }
 {
 0
@@ -2379,6 +2435,7 @@ B_128
 M_SHA
 F_FIPS_STD
 A_ECDH_E
+ssl_hash_none
 }
 {
 0
@@ -2393,6 +2450,7 @@ B_256
 M_SHA
 F_FIPS_STD
 A_ECDH_E
+ssl_hash_none
 }
 {
 0
@@ -2407,6 +2465,7 @@ B_0
 M_SHA
 F_NFIPS_STD
 A_ECDSA
+ssl_hash_none
 }
 {
 0
@@ -2421,6 +2480,7 @@ B_128
 M_SHA
 F_NFIPS_STD
 A_ECDSA
+ssl_hash_none
 }
 {
 0
@@ -2435,6 +2495,7 @@ B_3DES
 M_SHA
 F_FIPS_STD
 A_ECDSA
+ssl_hash_none
 }
 {
 0
@@ -2449,6 +2510,7 @@ B_128
 M_SHA
 F_FIPS_STD
 A_ECDSA
+ssl_hash_none
 }
 {
 0
@@ -2463,6 +2525,7 @@ B_128
 M_SHA256
 F_FIPS_STD
 A_ECDSA
+ssl_hash_sha256
 }
 {
 0
@@ -2477,6 +2540,7 @@ B_256
 M_SHA
 F_FIPS_STD
 A_ECDSA
+ssl_hash_none
 }
 {
 0
@@ -2491,6 +2555,7 @@ B_256
 M_AEAD_128
 F_NFIPS_STD
 A_ECDSA
+ssl_hash_sha256
 }
 {
 0
@@ -2505,6 +2570,7 @@ B_0
 M_SHA
 F_NFIPS_STD
 A_ECDH_R
+ssl_hash_none
 }
 {
 0
@@ -2519,6 +2585,7 @@ B_128
 M_SHA
 F_NFIPS_STD
 A_ECDH_R
+ssl_hash_none
 }
 {
 0
@@ -2533,6 +2600,7 @@ B_3DES
 M_SHA
 F_FIPS_STD
 A_ECDH_R
+ssl_hash_none
 }
 {
 0
@@ -2547,6 +2615,7 @@ B_128
 M_SHA
 F_FIPS_STD
 A_ECDH_R
+ssl_hash_none
 }
 {
 0
@@ -2561,6 +2630,7 @@ B_256
 M_SHA
 F_FIPS_STD
 A_ECDH_R
+ssl_hash_none
 }
 {
 0
@@ -2575,6 +2645,7 @@ B_0
 M_SHA
 F_NFIPS_STD
 A_RSAS
+ssl_hash_none
 }
 {
 0
@@ -2589,6 +2660,7 @@ B_128
 M_SHA
 F_NFIPS_STD
 A_RSAS
+ssl_hash_none
 }
 {
 0
@@ -2603,6 +2675,7 @@ B_3DES
 M_SHA
 F_FIPS_STD
 A_RSAS
+ssl_hash_none
 }
 {
 0
@@ -2617,6 +2690,7 @@ B_128
 M_SHA
 F_FIPS_STD
 A_RSAS
+ssl_hash_none
 }
 {
 0
@@ -2631,6 +2705,7 @@ B_128
 M_SHA256
 F_FIPS_STD
 A_RSAS
+ssl_hash_sha256
 }
 {
 0
@@ -2645,6 +2720,7 @@ B_256
 M_SHA
 F_FIPS_STD
 A_RSAS
+ssl_hash_none
 }
 {
 0
@@ -2659,6 +2735,7 @@ B_256
 M_AEAD_128
 F_NFIPS_STD
 A_RSAS
+ssl_hash_sha256
 }
 {
 0
@@ -2673,6 +2750,7 @@ B_256
 M_SHA384
 F_FIPS_STD
 A_RSAS
+ssl_hash_sha384
 }
 {
 0
@@ -2687,6 +2765,7 @@ B_256
 M_SHA384
 F_FIPS_STD
 A_ECDSA
+ssl_hash_sha384
 }
 {
 0
@@ -2701,6 +2780,7 @@ B_256
 M_AEAD_128
 F_FIPS_STD
 A_ECDSA
+ssl_hash_sha384
 }
 {
 0
@@ -2715,6 +2795,7 @@ B_256
 M_AEAD_128
 F_FIPS_STD
 A_RSAS
+ssl_hash_sha384
 }
 {
 0
@@ -2729,6 +2810,7 @@ B_256
 M_AEAD_128
 F_FIPS_STD
 A_DSA
+ssl_hash_sha384
 }
 {
 0
@@ -2743,6 +2825,7 @@ B_256
 M_AEAD_128
 F_FIPS_STD
 A_RSAS
+ssl_hash_sha384
 }
 {
 0
@@ -2757,6 +2840,7 @@ B_256
 M_AEAD_128
 F_FIPS_STD
 A_RSAD
+ssl_hash_sha384
 }
 }
 ;

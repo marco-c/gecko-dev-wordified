@@ -139,14 +139,6 @@ TrafficKeyApplicationData
 }
 TrafficKeyType
 ;
-typedef
-enum
-{
-CipherSpecRead
-CipherSpecWrite
-}
-CipherSpecDirection
-;
 #
 define
 SPEC_DIR
@@ -162,7 +154,7 @@ spec
 direction
 =
 =
-CipherSpecRead
+ssl_secret_read
 )
 ?
 "
@@ -711,7 +703,7 @@ link
 PRUint8
 refCt
 ;
-CipherSpecDirection
+SSLSecretDirection
 direction
 ;
 SSL3ProtocolVersion
@@ -915,7 +907,7 @@ ssl_CreateCipherSpec
 sslSocket
 *
 ss
-CipherSpecDirection
+SSLSecretDirection
 direction
 )
 ;
@@ -960,7 +952,7 @@ ssl_SetupNullCipherSpec
 sslSocket
 *
 ss
-CipherSpecDirection
+SSLSecretDirection
 dir
 )
 ;
@@ -971,7 +963,7 @@ ssl_FindCipherSpecByEpoch
 sslSocket
 *
 ss
-CipherSpecDirection
+SSLSecretDirection
 direction
 DTLSEpoch
 epoch
@@ -983,7 +975,7 @@ ssl_CipherSpecReleaseByEpoch
 sslSocket
 *
 ss
-CipherSpecDirection
+SSLSecretDirection
 direction
 DTLSEpoch
 epoch

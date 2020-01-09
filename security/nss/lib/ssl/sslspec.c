@@ -907,7 +907,7 @@ ssl_FindCipherSpecByEpoch
 sslSocket
 *
 ss
-CipherSpecDirection
+SSLSecretDirection
 direction
 DTLSEpoch
 epoch
@@ -1008,7 +1008,7 @@ ssl_CreateCipherSpec
 sslSocket
 *
 ss
-CipherSpecDirection
+SSLSecretDirection
 direction
 )
 {
@@ -1164,7 +1164,7 @@ ssl_SetupNullCipherSpec
 sslSocket
 *
 ss
-CipherSpecDirection
+SSLSecretDirection
 dir
 )
 {
@@ -1355,7 +1355,7 @@ if
 dir
 =
 =
-CipherSpecRead
+ssl_secret_read
 )
 {
 ss
@@ -1784,7 +1784,7 @@ ssl_CipherSpecReleaseByEpoch
 sslSocket
 *
 ss
-CipherSpecDirection
+SSLSecretDirection
 dir
 DTLSEpoch
 epoch
@@ -1829,7 +1829,7 @@ fd
 dir
 =
 =
-CipherSpecRead
+ssl_secret_read
 )
 ?
 "

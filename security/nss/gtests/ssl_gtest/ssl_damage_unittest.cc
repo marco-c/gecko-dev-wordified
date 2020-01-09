@@ -441,13 +441,6 @@ server_
 kTlsHandshakeServerKeyExchange
 )
 ;
-filter
--
->
-EnableDecryption
-(
-)
-;
 ExpectAlert
 (
 client_
@@ -556,6 +549,14 @@ client_
 kTlsHandshakeCertificateVerify
 )
 ;
+if
+(
+version_
+>
+=
+SSL_LIBRARY_VERSION_TLS_1_3
+)
+{
 filter
 -
 >
@@ -563,6 +564,7 @@ EnableDecryption
 (
 )
 ;
+}
 server_
 -
 >

@@ -3550,16 +3550,6 @@ sendBuf
 buffer
 .
 *
-This
-function
-returns
-SECSuccess
-or
-SECFailure
-never
-SECWouldBlock
-.
-*
 Always
 set
 sendBuf

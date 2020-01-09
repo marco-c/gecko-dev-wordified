@@ -473,6 +473,12 @@ DummyPrSocket
 )
 {
 }
+static
+PRDescIdentity
+LayerId
+(
+)
+;
 /
 /
 Create

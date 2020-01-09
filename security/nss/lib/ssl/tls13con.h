@@ -820,6 +820,14 @@ ssl3CipherSpec
 spec
 )
 ;
+SECStatus
+SSLExp_SendCertificateRequest
+(
+PRFileDesc
+*
+fd
+)
+;
 /
 *
 Use

@@ -3215,7 +3215,7 @@ idle_handshake
 ssl_CipherSpecReleaseByEpoch
 (
 ss
-CipherSpecRead
+ssl_secret_read
 TrafficKeyHandshake
 )
 ;
@@ -3388,7 +3388,7 @@ fd
 ssl_CipherSpecReleaseByEpoch
 (
 ss
-CipherSpecRead
+ssl_secret_read
 TrafficKeyHandshake
 )
 ;
