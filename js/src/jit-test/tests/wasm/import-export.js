@@ -8003,6 +8003,13 @@ null
 ;
 }
 else
+if
+(
+!
+wasmUsesCranelift
+(
+)
+)
 {
 assertEq
 (
@@ -8175,6 +8182,13 @@ mem8
 ;
 }
 else
+if
+(
+!
+wasmUsesCranelift
+(
+)
+)
 {
 assertEq
 (
