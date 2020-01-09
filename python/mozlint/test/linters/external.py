@@ -363,7 +363,9 @@ return
 def
 setup
 (
-root
+*
+*
+lintargs
 )
 :
     
@@ -377,7 +379,9 @@ passed
 def
 setupfailed
 (
-root
+*
+*
+lintargs
 )
 :
     
@@ -394,7 +398,9 @@ return
 def
 setupraised
 (
-root
+*
+*
+lintargs
 )
 :
     

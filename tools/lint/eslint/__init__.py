@@ -228,6 +228,9 @@ def
 setup
 (
 root
+*
+*
+lintargs
 )
 :
     

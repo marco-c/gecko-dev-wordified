@@ -495,7 +495,9 @@ results
 def
 setuppy2
 (
-root
+*
+*
+lintargs
 )
 :
     
@@ -532,7 +534,9 @@ kwargs
 def
 setuppy3
 (
-root
+*
+*
+lintargs
 )
 :
     

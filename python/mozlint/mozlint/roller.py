@@ -827,9 +827,11 @@ setup
 ]
 )
 (
+*
+*
 self
 .
-root
+lintargs
 )
             
 except

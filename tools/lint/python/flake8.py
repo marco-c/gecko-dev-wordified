@@ -509,6 +509,9 @@ def
 setup
 (
 root
+*
+*
+lintargs
 )
 :
     
