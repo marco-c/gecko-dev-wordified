@@ -171,7 +171,7 @@ h
 #
 include
 "
-XRemoteClient
+nsXRemoteClient
 .
 h
 "
@@ -447,7 +447,7 @@ LazyLogModule
 sRemoteLm
 (
 "
-XRemoteClient
+nsXRemoteClient
 "
 )
 ;
@@ -468,10 +468,10 @@ static
 bool
 sGotBadWindow
 ;
-XRemoteClient
+nsXRemoteClient
 :
 :
-XRemoteClient
+nsXRemoteClient
 (
 )
 {
@@ -528,20 +528,20 @@ LogLevel
 Debug
 (
 "
-XRemoteClient
+nsXRemoteClient
 :
 :
-XRemoteClient
+nsXRemoteClient
 "
 )
 )
 ;
 }
-XRemoteClient
+nsXRemoteClient
 :
 :
 ~
-XRemoteClient
+nsXRemoteClient
 (
 )
 {
@@ -554,11 +554,11 @@ LogLevel
 Debug
 (
 "
-XRemoteClient
+nsXRemoteClient
 :
 :
 ~
-XRemoteClient
+nsXRemoteClient
 "
 )
 )
@@ -614,7 +614,7 @@ XAtomNames
 ]
 ;
 nsresult
-XRemoteClient
+nsXRemoteClient
 :
 :
 Init
@@ -630,7 +630,7 @@ LogLevel
 Debug
 (
 "
-XRemoteClient
+nsXRemoteClient
 :
 :
 Init
@@ -776,7 +776,7 @@ NS_OK
 ;
 }
 void
-XRemoteClient
+nsXRemoteClient
 :
 :
 Shutdown
@@ -793,7 +793,7 @@ LogLevel
 Debug
 (
 "
-XRemoteClient
+nsXRemoteClient
 :
 :
 Shutdown
@@ -888,7 +888,7 @@ event
 ;
 }
 nsresult
-XRemoteClient
+nsXRemoteClient
 :
 :
 SendCommandLine
@@ -935,7 +935,7 @@ LogLevel
 Debug
 (
 "
-XRemoteClient
+nsXRemoteClient
 :
 :
 SendCommandLine
@@ -1218,7 +1218,7 @@ rv
 ;
 }
 Window
-XRemoteClient
+nsXRemoteClient
 :
 :
 CheckWindow
@@ -1317,7 +1317,7 @@ aWindow
 ;
 }
 Window
-XRemoteClient
+nsXRemoteClient
 :
 :
 CheckChildren
@@ -1527,7 +1527,7 @@ retval
 ;
 }
 nsresult
-XRemoteClient
+nsXRemoteClient
 :
 :
 GetLock
@@ -2324,7 +2324,7 @@ rv
 ;
 }
 Window
-XRemoteClient
+nsXRemoteClient
 :
 :
 FindBestWindow
@@ -2422,7 +2422,7 @@ Debug
 XQueryTree
 failed
 in
-XRemoteClient
+nsXRemoteClient
 :
 :
 FindBestWindow
@@ -3140,7 +3140,7 @@ bestWindow
 ;
 }
 nsresult
-XRemoteClient
+nsXRemoteClient
 :
 :
 FreeLock
@@ -3358,7 +3358,7 @@ NS_OK
 ;
 }
 nsresult
-XRemoteClient
+nsXRemoteClient
 :
 :
 DoSendCommandLine
@@ -3446,7 +3446,7 @@ NS_OK
 ;
 }
 bool
-XRemoteClient
+nsXRemoteClient
 :
 :
 WaitForResponse
