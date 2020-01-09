@@ -236,7 +236,7 @@ we
 have
 no
 tabs
-getProcess
+getMainProcess
 gives
 us
 the
@@ -250,9 +250,8 @@ client
 .
 mainRoot
 .
-getProcess
+getMainProcess
 (
-0
 )
 ;
 const

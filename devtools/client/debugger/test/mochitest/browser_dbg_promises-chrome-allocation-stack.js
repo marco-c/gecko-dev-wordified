@@ -240,9 +240,8 @@ client
 .
 mainRoot
 .
-getProcess
+getMainProcess
 (
-0
 )
 ;
 let

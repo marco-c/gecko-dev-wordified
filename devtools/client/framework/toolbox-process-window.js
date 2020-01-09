@@ -838,9 +838,8 @@ gClient
 .
 mainRoot
 .
-getProcess
+getMainProcess
 (
-0
 )
 ;
 await
