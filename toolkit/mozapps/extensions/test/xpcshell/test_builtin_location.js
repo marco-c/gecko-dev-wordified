@@ -39,7 +39,7 @@ SCOPE_PROFILE
 |
 AddonManager
 .
-SCOPE_SYSTEM
+SCOPE_APPLICATION
 ;
 Services
 .
