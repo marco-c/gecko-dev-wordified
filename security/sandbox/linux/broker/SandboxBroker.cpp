@@ -2848,7 +2848,11 @@ this
 /
 /
 for
-directories
+directory
+access
+(
+creation
+)
 .
 if
 (
@@ -6211,6 +6215,8 @@ permissive
 AllowOperation
 (
 W_OK
+|
+X_OK
 perms
 )
 )
@@ -6276,6 +6282,8 @@ permissive
 AllowOperation
 (
 W_OK
+|
+X_OK
 perms
 )
 )
@@ -6456,6 +6464,8 @@ permissive
 AllowOperation
 (
 W_OK
+|
+X_OK
 perms
 )
 )
