@@ -273,6 +273,11 @@ disablePageLabels
 :
 false
 "
+historyUpdateUrl
+"
+:
+false
+"
 scrollModeOnLoad
 "
 :
