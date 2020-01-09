@@ -856,7 +856,7 @@ open
 tab
 .
 const
-response
+tabs
 =
 await
 gClient
@@ -876,8 +876,6 @@ i
 ;
 i
 <
-response
-.
 tabs
 .
 length
@@ -889,19 +887,11 @@ i
 {
 buildTabLink
 (
-response
-.
 tabs
 [
 i
 ]
 parent
-i
-=
-=
-response
-.
-selected
 )
 ;
 }
@@ -1315,7 +1305,6 @@ buildTabLink
 (
 tab
 parent
-selected
 )
 {
 const
@@ -1388,6 +1377,8 @@ href
 ;
 if
 (
+tab
+.
 selected
 )
 {

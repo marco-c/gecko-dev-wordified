@@ -107,15 +107,6 @@ client
 .
 connect
 (
-(
-)
-=
->
-client
-.
-listTabs
-(
-)
 )
 ;
 }
