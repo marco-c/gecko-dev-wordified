@@ -169,10 +169,6 @@ getState
 )
 )
 .
-valueSeq
-(
-)
-.
 map
 (
 file
@@ -181,10 +177,6 @@ file
 file
 .
 matches
-)
-.
-toJS
-(
 )
 ;
 return
