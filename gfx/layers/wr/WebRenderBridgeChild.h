@@ -440,6 +440,13 @@ mozilla
 :
 TimeStamp
 &
+aVsyncStartTime
+const
+mozilla
+:
+:
+TimeStamp
+&
 aRefreshStartTime
 const
 mozilla
@@ -485,6 +492,13 @@ mozilla
 VsyncId
 &
 aVsyncId
+const
+mozilla
+:
+:
+TimeStamp
+&
+aVsyncStartTime
 const
 mozilla
 :

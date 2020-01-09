@@ -659,6 +659,13 @@ mozilla
 :
 TimeStamp
 &
+aVsyncStartTime
+const
+mozilla
+:
+:
+TimeStamp
+&
 aRefreshStartTime
 const
 mozilla
@@ -794,6 +801,7 @@ largeShmems
 mIdNamespace
 aContainsSVGGroup
 aVsyncId
+aVsyncStartTime
 aRefreshStartTime
 aTxnStartTime
 aTxnURL
@@ -851,6 +859,13 @@ mozilla
 VsyncId
 &
 aVsyncId
+const
+mozilla
+:
+:
+TimeStamp
+&
+aVsyncStartTime
 const
 mozilla
 :
@@ -954,6 +969,7 @@ smallShmems
 largeShmems
 mIdNamespace
 aVsyncId
+aVsyncStartTime
 aRefreshStartTime
 aTxnStartTime
 aTxnURL

@@ -2743,6 +2743,11 @@ vsyncId
 )
 aInfo
 .
+vsyncStart
+(
+)
+aInfo
+.
 refreshStart
 (
 )

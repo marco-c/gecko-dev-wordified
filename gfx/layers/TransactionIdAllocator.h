@@ -600,6 +600,17 @@ GetVsyncId
 =
 0
 ;
+virtual
+mozilla
+:
+:
+TimeStamp
+GetVsyncStart
+(
+)
+=
+0
+;
 }
 ;
 }

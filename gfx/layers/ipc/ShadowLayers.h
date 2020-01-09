@@ -1929,6 +1929,13 @@ mozilla
 :
 TimeStamp
 &
+aVsyncTime
+const
+mozilla
+:
+:
+TimeStamp
+&
 aRefreshStart
 const
 mozilla

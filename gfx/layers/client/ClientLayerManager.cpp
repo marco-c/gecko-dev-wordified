@@ -4500,6 +4500,12 @@ mTransactionIdAllocator
 GetVsyncId
 (
 )
+mTransactionIdAllocator
+-
+>
+GetVsyncStart
+(
+)
 refreshStart
 mTransactionStart
 mURL
