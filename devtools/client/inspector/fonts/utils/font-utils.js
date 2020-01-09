@@ -289,6 +289,15 @@ value
 "
 string
 "
+|
+|
+isNaN
+(
+parseFloat
+(
+value
+)
+)
 )
 {
 return
