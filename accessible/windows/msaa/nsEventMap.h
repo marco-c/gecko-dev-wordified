@@ -769,6 +769,13 @@ nsIAccessibleEvent
 :
 :
 EVENT_SCROLLING
+kEVENT_WIN_UNKNOWN
+/
+/
+nsIAccessibleEvent
+:
+:
+EVENT_ANNOUNCEMENT
 /
 /
 clang

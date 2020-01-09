@@ -2604,6 +2604,12 @@ scrolling
 /
 /
 EVENT_SCROLLING
+"
+announcement
+"
+/
+/
+EVENT_ANNOUNCEMENT
 }
 ;
 #

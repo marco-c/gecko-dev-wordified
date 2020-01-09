@@ -138,6 +138,13 @@ Ci
 nsIAccessibleObjectAttributeChangedEvent
 ;
 const
+nsIAccessibleAnnouncementEvent
+=
+Ci
+.
+nsIAccessibleAnnouncementEvent
+;
+const
 nsIAccessibleStates
 =
 Ci
