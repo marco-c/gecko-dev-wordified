@@ -116,13 +116,6 @@ h
 #
 include
 "
-nsPILoadGroupInternal
-.
-h
-"
-#
-include
-"
 nsAgg
 .
 h
@@ -190,8 +183,6 @@ public
 nsISupportsPriority
 public
 nsSupportsWeakReference
-public
-nsPILoadGroupInternal
 {
 public
 :
@@ -360,7 +351,6 @@ nsILoadGroup
 methods
 :
 NS_DECL_NSILOADGROUP
-NS_DECL_NSPILOADGROUPINTERNAL
 /
 /
 /
