@@ -223,6 +223,12 @@ datetime
 import
 jsone
 from
+mozbuild
+.
+util
+import
+memoize
+from
 .
 schema
 import
@@ -2010,6 +2016,12 @@ alias_to_scope_map
 =
 PUSH_APK_SCOPES
 )
+cached_load_yaml
+=
+memoize
+(
+load_yaml
+)
 #
 release_config
 {
@@ -2746,7 +2758,7 @@ platform
     
 map_config
 =
-load_yaml
+cached_load_yaml
 (
 job
 [
@@ -3269,7 +3281,7 @@ job
     
 map_config
 =
-load_yaml
+cached_load_yaml
 (
 job
 [
@@ -3601,7 +3613,7 @@ platform
     
 map_config
 =
-load_yaml
+cached_load_yaml
 (
 job
 [
@@ -4741,7 +4753,7 @@ platform
     
 map_config
 =
-load_yaml
+cached_load_yaml
 (
 job
 [
