@@ -61,7 +61,7 @@ crate
 libc
 ;
 use
-core_foundation_sys
+core_foundation
 :
 :
 runloop

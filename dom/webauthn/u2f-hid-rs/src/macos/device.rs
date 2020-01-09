@@ -70,7 +70,7 @@ HID_RPT_SIZE
 }
 ;
 use
-core_foundation_sys
+core_foundation
 :
 :
 base
@@ -443,12 +443,16 @@ HID_RPT_SIZE
 let
 report_id
 =
+i64
+:
+:
+from
+(
 bytes
 [
 0
 ]
-as
-i64
+)
 ;
 /
 /

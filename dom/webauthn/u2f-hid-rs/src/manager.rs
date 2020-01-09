@@ -467,10 +467,6 @@ Ok
 Self
 {
 queue
-:
-queue
-tx
-:
 tx
 }
 )
@@ -758,11 +754,9 @@ Unknown
 if
 app_ids
 .
-len
+is_empty
 (
 )
-<
-1
 {
 return
 Err

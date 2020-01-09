@@ -133,8 +133,6 @@ const
 UDEV_SUBSYSTEM
 :
 &
-'
-static
 str
 =
 "
@@ -588,6 +586,7 @@ self
 .
 process_event
 (
+&
 event
 )
 ;
@@ -620,6 +619,7 @@ mut
 self
 event
 :
+&
 libudev
 :
 :
@@ -703,6 +703,7 @@ self
 .
 remove_device
 (
+&
 path
 )
 ;
@@ -811,6 +812,7 @@ mut
 self
 path
 :
+&
 OsString
 )
 {
@@ -827,7 +829,6 @@ runloops
 .
 remove
 (
-&
 path
 )
 {
@@ -884,6 +885,7 @@ self
 .
 remove_device
 (
+&
 path
 )
 ;
