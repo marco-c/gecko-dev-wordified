@@ -1115,13 +1115,6 @@ h
 #
 include
 "
-nsToolkitCompsCID
-.
-h
-"
-#
-include
-"
 nsIAppStartup
 .
 h
