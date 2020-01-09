@@ -9605,6 +9605,14 @@ params
 ;
 }
 }
+policy
+-
+>
+setDeliveredViaMetaTagFlag
+(
+aDeliveredViaMetaTag
+)
+;
 if
 (
 policy
