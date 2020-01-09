@@ -530,14 +530,6 @@ paths
 userScripts
 "
 "
-setScriptAPIs
-"
-]
-[
-"
-userScripts
-"
-"
 onBeforeScript
 "
 ]
