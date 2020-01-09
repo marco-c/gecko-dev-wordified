@@ -734,7 +734,7 @@ HandleValue
 underlyingSource
 HandleValue
 size
-HandleValue
+double
 highWaterMark
 HandleObject
 proto
