@@ -300,7 +300,7 @@ debuggerClient
 addListener
 (
 "
-networkEvent
+serverNetworkEvent
 "
 this
 .
@@ -335,7 +335,7 @@ debuggerClient
 removeListener
 (
 "
-networkEvent
+serverNetworkEvent
 "
 this
 .
