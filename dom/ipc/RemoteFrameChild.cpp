@@ -125,6 +125,17 @@ RemoteFrameChild
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+BrowsingContext
+.
+h
+"
 using
 namespace
 mozilla
@@ -146,6 +157,9 @@ RemoteFrameChild
 nsFrameLoader
 *
 aFrameLoader
+BrowsingContext
+*
+aBrowsingContext
 )
 :
 mLayersId
@@ -159,6 +173,10 @@ true
 mFrameLoader
 (
 aFrameLoader
+)
+mBrowsingContext
+(
+aBrowsingContext
 )
 {
 }
@@ -191,6 +209,9 @@ const
 nsString
 &
 aRemoteType
+BrowsingContext
+*
+aBrowsingContext
 )
 {
 MOZ_ASSERT
@@ -278,6 +299,7 @@ new
 RemoteFrameChild
 (
 aFrameLoader
+aBrowsingContext
 )
 ;
 /
@@ -313,6 +335,7 @@ PresentationURL
 )
 )
 aRemoteType
+aBrowsingContext
 )
 ;
 remoteFrame
