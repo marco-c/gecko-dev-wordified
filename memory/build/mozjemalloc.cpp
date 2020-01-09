@@ -30677,6 +30677,9 @@ functions
 *
 *
 *
+#
+ifndef
+XP_WIN
 /
 /
 Begin
@@ -30931,6 +30934,11 @@ Init
 )
 ;
 }
+#
+endif
+/
+/
+XP_WIN
 /
 /
 End

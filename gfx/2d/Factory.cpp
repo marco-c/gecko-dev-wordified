@@ -298,13 +298,6 @@ HelpersD2D
 h
 "
 #
-include
-"
-HelpersWinFonts
-.
-h
-"
-#
 endif
 #
 include

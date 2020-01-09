@@ -626,6 +626,18 @@ hr
 }
 #
 endif
+#
+if
+defined
+(
+MOZ_THUNDERBIRD
+)
+|
+|
+defined
+(
+MOZ_SUITE
+)
 /
 *
 *
@@ -777,6 +789,8 @@ aFile
 )
 ;
 }
+#
+endif
 /
 *
 *

@@ -10870,6 +10870,9 @@ up
 -
 -
 -
+#
+ifndef
+XP_WIN
 static
 void
 prefork
@@ -10910,6 +10913,8 @@ Unlock
 ;
 }
 }
+#
+endif
 /
 /
 WARNING
