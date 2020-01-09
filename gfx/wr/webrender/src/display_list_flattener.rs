@@ -12554,6 +12554,8 @@ glyphs
 )
 font
 offset
+:
+prim_offset
 shadow
 :
 false
