@@ -21599,7 +21599,7 @@ absoluteSaveState
 nsFrameItems
 childItems
 ;
-contentFrame
+contentFrameTop
 -
 >
 AddStateBits
@@ -21616,7 +21616,7 @@ aState
 .
 PushAbsoluteContainingBlock
 (
-contentFrame
+contentFrameTop
 absPosContainer
 absoluteSaveState
 )
