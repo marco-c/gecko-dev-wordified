@@ -15121,6 +15121,7 @@ CASE
 (
 JSOP_LOOPENTRY
 )
+{
 COUNT_COVERAGE
 (
 )
@@ -15387,6 +15388,7 @@ AdvanceExecutionProgressCounter
 )
 ;
 }
+}
 END_CASE
 (
 JSOP_LOOPENTRY
@@ -15411,6 +15413,7 @@ CASE
 (
 JSOP_UNDEFINED
 )
+{
 /
 /
 If
@@ -15427,6 +15430,7 @@ PUSH_UNDEFINED
 (
 )
 ;
+}
 END_CASE
 (
 JSOP_UNDEFINED
@@ -15435,12 +15439,14 @@ CASE
 (
 JSOP_POP
 )
+{
 REGS
 .
 sp
 -
 -
 ;
+}
 END_CASE
 (
 JSOP_POP
@@ -15449,6 +15455,7 @@ CASE
 (
 JSOP_POPN
 )
+{
 MOZ_ASSERT
 (
 GET_UINT16
@@ -15478,6 +15485,7 @@ REGS
 pc
 )
 ;
+}
 END_CASE
 (
 JSOP_POPN
@@ -15545,10 +15553,12 @@ CASE
 (
 JSOP_SETRVAL
 )
+{
 POP_RETURN_VALUE
 (
 )
 ;
+}
 END_CASE
 (
 JSOP_SETRVAL
@@ -15557,6 +15567,7 @@ CASE
 (
 JSOP_GETRVAL
 )
+{
 PUSH_COPY
 (
 REGS
@@ -15571,6 +15582,7 @@ returnValue
 )
 )
 ;
+}
 END_CASE
 (
 JSOP_GETRVAL
@@ -15659,6 +15671,7 @@ CASE
 (
 JSOP_LEAVEWITH
 )
+{
 REGS
 .
 fp
@@ -15673,6 +15686,7 @@ WithEnvironmentObject
 (
 )
 ;
+}
 END_CASE
 (
 JSOP_LEAVEWITH
@@ -15681,6 +15695,7 @@ CASE
 (
 JSOP_RETURN
 )
+{
 POP_RETURN_VALUE
 (
 )
@@ -15691,6 +15706,7 @@ FALL
 THROUGH
 *
 /
+}
 CASE
 (
 JSOP_RETRVAL
@@ -16008,6 +16024,7 @@ CASE
 (
 JSOP_DEFAULT
 )
+{
 REGS
 .
 sp
@@ -16020,6 +16037,7 @@ FALL
 THROUGH
 *
 /
+}
 CASE
 (
 JSOP_GOTO
@@ -17586,6 +17604,7 @@ CASE
 (
 JSOP_EQ
 )
+{
 if
 (
 !
@@ -17603,6 +17622,7 @@ goto
 error
 ;
 }
+}
 END_CASE
 (
 JSOP_EQ
@@ -17611,6 +17631,7 @@ CASE
 (
 JSOP_NE
 )
+{
 if
 (
 !
@@ -17627,6 +17648,7 @@ REGS
 goto
 error
 ;
+}
 }
 END_CASE
 (
@@ -18930,6 +18952,7 @@ CASE
 (
 JSOP_POS
 )
+{
 if
 (
 !
@@ -18949,6 +18972,7 @@ stackHandleAt
 goto
 error
 ;
+}
 }
 END_CASE
 (
@@ -19518,6 +19542,7 @@ CASE
 (
 JSOP_VOID
 )
+{
 REGS
 .
 sp
@@ -19530,6 +19555,7 @@ setUndefined
 (
 )
 ;
+}
 END_CASE
 (
 JSOP_VOID
@@ -19538,6 +19564,7 @@ CASE
 (
 JSOP_FUNCTIONTHIS
 )
+{
 PUSH_NULL
 (
 )
@@ -19566,6 +19593,7 @@ stackHandleAt
 goto
 error
 ;
+}
 }
 END_CASE
 (
@@ -21362,6 +21390,7 @@ CASE
 (
 JSOP_SPREADSUPERCALL
 )
+{
 if
 (
 REGS
@@ -21399,6 +21428,7 @@ FALL
 THROUGH
 *
 /
+}
 CASE
 (
 JSOP_SPREADEVAL
@@ -22940,6 +22970,7 @@ CASE
 (
 JSOP_UINT16
 )
+{
 PUSH_INT32
 (
 (
@@ -22953,6 +22984,7 @@ pc
 )
 )
 ;
+}
 END_CASE
 (
 JSOP_UINT16
@@ -22965,6 +22997,7 @@ CASE
 (
 JSOP_RESUMEINDEX
 )
+{
 PUSH_INT32
 (
 (
@@ -22978,6 +23011,7 @@ pc
 )
 )
 ;
+}
 END_CASE
 (
 JSOP_UINT24
@@ -22986,6 +23020,7 @@ CASE
 (
 JSOP_INT8
 )
+{
 PUSH_INT32
 (
 GET_INT8
@@ -22996,6 +23031,7 @@ pc
 )
 )
 ;
+}
 END_CASE
 (
 JSOP_INT8
@@ -23004,6 +23040,7 @@ CASE
 (
 JSOP_INT32
 )
+{
 PUSH_INT32
 (
 GET_INT32
@@ -23014,6 +23051,7 @@ pc
 )
 )
 ;
+}
 END_CASE
 (
 JSOP_INT32
@@ -23046,6 +23084,7 @@ CASE
 (
 JSOP_STRING
 )
+{
 PUSH_STRING
 (
 script
@@ -23059,6 +23098,7 @@ pc
 )
 )
 ;
+}
 END_CASE
 (
 JSOP_STRING
@@ -23129,6 +23169,7 @@ CASE
 (
 JSOP_SYMBOL
 )
+{
 PUSH_SYMBOL
 (
 cx
@@ -23149,6 +23190,7 @@ pc
 )
 )
 ;
+}
 END_CASE
 (
 JSOP_SYMBOL
@@ -23421,11 +23463,13 @@ CASE
 (
 JSOP_ZERO
 )
+{
 PUSH_INT32
 (
 0
 )
 ;
+}
 END_CASE
 (
 JSOP_ZERO
@@ -23434,11 +23478,13 @@ CASE
 (
 JSOP_ONE
 )
+{
 PUSH_INT32
 (
 1
 )
 ;
+}
 END_CASE
 (
 JSOP_ONE
@@ -23447,10 +23493,12 @@ CASE
 (
 JSOP_NULL
 )
+{
 PUSH_NULL
 (
 )
 ;
+}
 END_CASE
 (
 JSOP_NULL
@@ -23459,11 +23507,13 @@ CASE
 (
 JSOP_FALSE
 )
+{
 PUSH_BOOLEAN
 (
 false
 )
 ;
+}
 END_CASE
 (
 JSOP_FALSE
@@ -23472,11 +23522,13 @@ CASE
 (
 JSOP_TRUE
 )
+{
 PUSH_BOOLEAN
 (
 true
 )
 ;
+}
 END_CASE
 (
 JSOP_TRUE
@@ -23724,6 +23776,7 @@ CASE
 (
 JSOP_ARGUMENTS
 )
+{
 if
 (
 !
@@ -23797,6 +23850,7 @@ JS_OPTIMIZED_ARGUMENTS
 )
 )
 ;
+}
 }
 END_CASE
 (
@@ -24429,11 +24483,13 @@ CASE
 (
 JSOP_UNINITIALIZED
 )
+{
 PUSH_MAGIC
 (
 JS_UNINITIALIZED_LEXICAL
 )
 ;
+}
 END_CASE
 (
 JSOP_UNINITIALIZED
@@ -25844,6 +25900,7 @@ CASE
 (
 JSOP_CALLEE
 )
+{
 MOZ_ASSERT
 (
 REGS
@@ -25872,6 +25929,7 @@ calleev
 )
 )
 ;
+}
 END_CASE
 (
 JSOP_CALLEE
@@ -26128,11 +26186,13 @@ CASE
 (
 JSOP_HOLE
 )
+{
 PUSH_MAGIC
 (
 JS_ELEMENTS_HOLE
 )
 ;
+}
 END_CASE
 (
 JSOP_HOLE
@@ -27198,10 +27258,12 @@ CASE
 (
 JSOP_FINALLY
 )
+{
 CHECK_BRANCH
 (
 )
 ;
+}
 END_CASE
 (
 JSOP_FINALLY
@@ -29370,6 +29432,7 @@ CASE
 (
 JSOP_NEWTARGET
 )
+{
 PUSH_COPY
 (
 REGS
@@ -29412,6 +29475,7 @@ isUndefined
 )
 )
 ;
+}
 END_CASE
 (
 JSOP_NEWTARGET
@@ -29825,11 +29889,13 @@ CASE
 (
 JSOP_IS_CONSTRUCTING
 )
+{
 PUSH_MAGIC
 (
 JS_IS_CONSTRUCTING
 )
 ;
+}
 END_CASE
 (
 JSOP_IS_CONSTRUCTING
