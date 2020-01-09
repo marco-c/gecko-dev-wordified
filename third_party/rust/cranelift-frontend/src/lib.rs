@@ -309,7 +309,7 @@ method
 use_var
 )
 will
-returns
+return
 the
 Cranelift
 IR
@@ -332,6 +332,7 @@ the
 program
 .
 However
+if
 you
 know
 /
@@ -480,7 +481,7 @@ the
 source
 code
 but
-artefacts
+artifacts
 of
 the
 translation

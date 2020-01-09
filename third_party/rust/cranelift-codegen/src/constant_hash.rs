@@ -16,8 +16,8 @@ tables
 /
 !
 The
-lib
-/
+cranelift
+-
 codegen
 /
 meta
@@ -494,8 +494,8 @@ opcodes
 /
 Must
 match
-lib
-/
+cranelift
+-
 codegen
 /
 meta
@@ -506,8 +506,8 @@ constant_hash
 .
 py
 and
-lib
-/
+cranelift
+-
 codegen
 /
 meta

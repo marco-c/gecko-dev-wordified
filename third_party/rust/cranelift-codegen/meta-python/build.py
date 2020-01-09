@@ -12,8 +12,8 @@ script
 is
 run
 from
-lib
-/
+cranelift
+-
 codegen
 /
 build

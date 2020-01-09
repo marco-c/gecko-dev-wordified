@@ -451,14 +451,14 @@ possible_values
 (
 )
 :
-                    
+                
 s
 [
 arg
 ]
 =
 val
-                    
+                
 new_variants
 .
 append
@@ -590,7 +590,7 @@ src
 is
 None
 :
-                        
+                    
 continue
                 
 #

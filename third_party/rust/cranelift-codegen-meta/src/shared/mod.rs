@@ -1,11 +1,12 @@
 /
 /
 !
-Definitions
+Shared
+definitions
 for
 the
-base
 Cranelift
+intermediate
 language
 .
 pub

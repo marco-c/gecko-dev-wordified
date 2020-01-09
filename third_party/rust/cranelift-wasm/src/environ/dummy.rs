@@ -3183,6 +3183,9 @@ data
 [
 u8
 ]
+body_offset
+:
+usize
 )
 -
 >
@@ -3285,6 +3288,7 @@ trans
 translate
 (
 body_bytes
+body_offset
 &
 mut
 func

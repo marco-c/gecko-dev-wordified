@@ -258,8 +258,8 @@ Include
 code
 generated
 by
-lib
-/
+cranelift
+-
 codegen
 /
 meta
@@ -562,8 +562,8 @@ trait
 really
 belongs
 in
-lib
-/
+cranelift
+-
 reader
 where
 it
