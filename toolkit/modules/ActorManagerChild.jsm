@@ -998,7 +998,8 @@ this
 .
 listeners
 =
-null
+[
+]
 ;
 }
 handleEvent
