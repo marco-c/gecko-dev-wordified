@@ -980,6 +980,16 @@ tests
 are
 short
 .
+if
+(
+getenv
+(
+"
+VIXL_STATS
+"
+)
+)
+{
 instrumentation_
 =
 js_new
@@ -1007,6 +1017,7 @@ true
 ;
 return
 ;
+}
 }
 /
 /
