@@ -11821,7 +11821,6 @@ haveRadius
 =
 true
 ;
-}
 /
 /
 avoid
@@ -11855,6 +11854,7 @@ length
 sum
 )
 ;
+}
 }
 }
 if
