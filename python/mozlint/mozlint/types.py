@@ -294,6 +294,25 @@ exclude
 =
 exclude
         
+elif
+config
+.
+get
+(
+'
+exclude
+'
+)
+:
+            
+del
+config
+[
+'
+exclude
+'
+]
+        
 if
 not
 paths
