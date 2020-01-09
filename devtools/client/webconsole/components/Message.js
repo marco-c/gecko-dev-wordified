@@ -586,11 +586,6 @@ isPaused
 PropTypes
 .
 bool
-maybeScrollToBottom
-:
-PropTypes
-.
-func
 }
 ;
 }
@@ -1232,13 +1227,6 @@ onViewSource
 serviceContainer
 .
 onViewSource
-onReady
-:
-this
-.
-props
-.
-maybeScrollToBottom
 sourceMapService
 :
 serviceContainer

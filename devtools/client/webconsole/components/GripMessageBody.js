@@ -308,11 +308,6 @@ helperType
 PropTypes
 .
 string
-maybeScrollToBottom
-:
-PropTypes
-.
-func
 }
 ;
 GripMessageBody
@@ -346,7 +341,6 @@ MODE
 .
 LONG
 dispatch
-maybeScrollToBottom
 }
 =
 props
@@ -393,7 +387,6 @@ props
 :
 0
 mode
-maybeScrollToBottom
 /
 /
 TODO

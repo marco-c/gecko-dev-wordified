@@ -212,11 +212,6 @@ serviceContainer
 PropTypes
 .
 object
-maybeScrollToBottom
-:
-PropTypes
-.
-func
 }
 ;
 PageError
@@ -244,7 +239,6 @@ repeat
 serviceContainer
 timestampsVisible
 isPaused
-maybeScrollToBottom
 }
 =
 props
@@ -358,7 +352,6 @@ exceptionDocURL
 timeStamp
 notes
 timestampsVisible
-maybeScrollToBottom
 }
 )
 ;

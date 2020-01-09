@@ -232,11 +232,6 @@ serviceContainer
 PropTypes
 .
 object
-maybeScrollToBottom
-:
-PropTypes
-.
-func
 }
 ;
 function
@@ -251,7 +246,6 @@ dispatch
 message
 serviceContainer
 timestampsVisible
-maybeScrollToBottom
 }
 =
 props
@@ -386,7 +380,6 @@ escapeWhitespace
 false
 type
 helperType
-maybeScrollToBottom
 }
 )
 ;
@@ -422,7 +415,6 @@ timeStamp
 parameters
 notes
 timestampsVisible
-maybeScrollToBottom
 }
 )
 ;
