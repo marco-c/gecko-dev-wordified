@@ -452,9 +452,15 @@ leaveBtn
 =
 dialogNode
 .
-ui
+querySelector
+(
+"
 .
+tabmodalprompt
+-
 button0
+"
+)
 ;
 waitForDialogDestroyed
 (
