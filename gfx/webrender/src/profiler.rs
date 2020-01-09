@@ -3036,6 +3036,7 @@ new
 0
 255
 )
+None
 )
 ;
 debug_renderer
@@ -3069,6 +3070,7 @@ stats
 min_value
 )
 text_color
+None
 )
 ;
 debug_renderer
@@ -3106,6 +3108,7 @@ stats
 mean_value
 )
 text_color
+None
 )
 ;
 debug_renderer
@@ -3143,6 +3146,7 @@ stats
 max_value
 )
 text_color
+None
 )
 ;
 rect
@@ -4203,6 +4207,7 @@ new
 0
 255
 )
+None
 )
 ;
 }
@@ -4533,6 +4538,7 @@ colors
 [
 color_index
 ]
+None
 )
 ;
 color_index
@@ -4627,6 +4633,7 @@ colors
 [
 color_index
 ]
+None
 )
 ;
 color_index
@@ -4857,6 +4864,7 @@ draw_state
 y_left
 label
 label_color
+None
 )
 ;
 let

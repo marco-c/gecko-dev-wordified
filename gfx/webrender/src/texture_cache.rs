@@ -5433,6 +5433,9 @@ filter
 layer_count
 :
 1
+is_shared_cache
+:
+true
 }
 ;
 self
@@ -5791,6 +5794,9 @@ filter
 layer_count
 :
 1
+is_shared_cache
+:
+false
 }
 ;
 self
@@ -6133,6 +6139,9 @@ num_regions
 )
 as
 i32
+is_shared_cache
+:
+true
 }
 ;
 self
