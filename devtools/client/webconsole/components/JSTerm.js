@@ -1316,6 +1316,9 @@ tabIndex
 viewportMargin
 :
 Infinity
+disableSearchAddon
+:
+true
 extraKeys
 :
 {
