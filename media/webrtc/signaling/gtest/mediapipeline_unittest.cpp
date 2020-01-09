@@ -1155,9 +1155,7 @@ audio_config_
 opus
 "
 48000
-960
 2
-64000
 false
 )
 audio_conduit_

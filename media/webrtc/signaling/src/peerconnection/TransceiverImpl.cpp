@@ -3817,9 +3817,6 @@ desc
 mClock
 desc
 .
-mPacketSize
-desc
-.
 mForceMono
 ?
 1
@@ -3827,9 +3824,6 @@ mForceMono
 desc
 .
 mChannels
-desc
-.
-mBitrate
 desc
 .
 mFECEnabled
