@@ -2217,12 +2217,9 @@ transform_style
 TransformStyle
 source_transform
 :
-Option
-<
 PropertyBinding
 <
 LayoutTransform
->
 >
 kind
 :

@@ -3277,12 +3277,9 @@ matrix
 pub
 transform
 :
-Option
-<
 PropertyBinding
 <
 LayoutTransform
->
 >
 pub
 id
