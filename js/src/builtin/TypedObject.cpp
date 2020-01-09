@@ -16122,7 +16122,7 @@ TypedObject
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 args
 [
@@ -16290,7 +16290,7 @@ length
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 args
 [
@@ -16448,7 +16448,7 @@ TypedObject
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 args
 [
@@ -17411,7 +17411,7 @@ TypedObject
 )
 ;
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 args
 [
@@ -17660,7 +17660,7 @@ TypedObject
 )
 ;
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 args
 [
@@ -17954,7 +17954,7 @@ TypedObject
 )
 ;
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 args
 [
@@ -18176,7 +18176,7 @@ TypedObject
 )
 ;
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 args
 [
