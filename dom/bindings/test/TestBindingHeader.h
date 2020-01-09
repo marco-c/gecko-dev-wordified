@@ -11392,6 +11392,17 @@ nsAString
 arg
 )
 ;
+uint8_t
+SomeAttr
+(
+)
+;
+void
+SetSomeAttr
+(
+uint8_t
+)
+;
 void
 ArgWithAttr
 (
