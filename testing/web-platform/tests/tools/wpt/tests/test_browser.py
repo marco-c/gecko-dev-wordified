@@ -2,12 +2,21 @@ import
 mock
 import
 subprocess
+import
+logging
 from
 tools
 .
 wpt
 import
 browser
+logger
+=
+logging
+.
+getLogger
+(
+)
 mock
 .
 patch
@@ -31,6 +40,7 @@ browser
 .
 Safari
 (
+logger
 )
     
 #
@@ -165,6 +175,7 @@ browser
 .
 Safari
 (
+logger
 )
     
 #
