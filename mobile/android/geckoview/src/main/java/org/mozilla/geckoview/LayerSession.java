@@ -162,6 +162,15 @@ NonNull
 import
 android
 .
+support
+.
+annotation
+.
+UiThread
+;
+import
+android
+.
 util
 .
 Log
@@ -1371,6 +1380,7 @@ instance
 .
 *
 /
+UiThread
 public
 PanZoomController
 getPanZoomController
@@ -1437,6 +1447,7 @@ instance
 .
 *
 /
+UiThread
 public
 OverscrollEdgeEffect
 getOverscrollEdgeEffect
@@ -1490,6 +1501,7 @@ instance
 .
 *
 /
+UiThread
 public
 NonNull
 DynamicToolbarAnimator
@@ -1544,6 +1556,7 @@ instance
 .
 *
 /
+UiThread
 public
 NonNull
 CompositorController
@@ -1666,6 +1679,7 @@ Matrix
 )
 *
 /
+UiThread
 public
 void
 getClientToScreenMatrix
@@ -1741,6 +1755,7 @@ Matrix
 )
 *
 /
+UiThread
 public
 void
 getClientToSurfaceMatrix
@@ -1864,6 +1879,7 @@ Matrix
 )
 *
 /
+UiThread
 public
 void
 getPageToScreenMatrix
@@ -1939,6 +1955,7 @@ Matrix
 )
 *
 /
+UiThread
 public
 void
 getPageToSurfaceMatrix
@@ -2059,6 +2076,7 @@ Rect
 )
 *
 /
+UiThread
 public
 void
 getClientBounds
@@ -2160,6 +2178,7 @@ coordinates
 .
 *
 /
+UiThread
 public
 void
 getSurfaceBounds
@@ -3058,6 +3077,7 @@ mClientHeight
 ;
 }
 }
+UiThread
 public
 void
 onSurfaceChanged
@@ -3159,6 +3179,7 @@ onWindowBoundsChanged
 )
 ;
 }
+UiThread
 public
 void
 onSurfaceDestroyed
@@ -3215,6 +3236,7 @@ mSurface
 null
 ;
 }
+UiThread
 public
 void
 onScreenOriginChanged
