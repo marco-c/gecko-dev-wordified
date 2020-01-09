@@ -6847,6 +6847,9 @@ document
 "
 )
 ;
+mozilla
+:
+:
 PresShell
 *
 presShell

@@ -135,6 +135,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Text
@@ -3217,7 +3226,7 @@ PresContext
 (
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -3835,7 +3844,7 @@ PresContext
 (
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =

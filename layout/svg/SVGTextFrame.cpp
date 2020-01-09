@@ -229,6 +229,15 @@ h
 #
 include
 "
+mozilla
+/
+PresShell
+.
+h
+"
+#
+include
+"
 nsAlgorithm
 .
 h

@@ -258,6 +258,15 @@ h
 #
 include
 "
+mozilla
+/
+PresShell
+.
+h
+"
+#
+include
+"
 nsAbsoluteContainingBlock
 .
 h

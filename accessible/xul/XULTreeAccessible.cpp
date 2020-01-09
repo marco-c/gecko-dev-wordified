@@ -288,6 +288,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 XULTreeElementBinding
@@ -1441,7 +1450,7 @@ PresContext
 (
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =

@@ -203,6 +203,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
@@ -2067,7 +2076,7 @@ PresContext
 (
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =

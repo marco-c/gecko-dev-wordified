@@ -169,6 +169,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Sprintf
 .
 h
@@ -2623,9 +2632,9 @@ PostDestroyData
 aPostDestroyData
 )
 {
-nsIPresShell
+PresShell
 *
-shell
+presShell
 =
 aPresContext
 -
@@ -2834,7 +2843,7 @@ line
 >
 Destroy
 (
-shell
+presShell
 )
 ;
 }

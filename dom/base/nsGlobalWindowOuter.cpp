@@ -853,6 +853,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ProcessHangMonitor
 .
 h
@@ -1033,13 +1042,6 @@ h
 include
 "
 nsILoadContext
-.
-h
-"
-#
-include
-"
-nsIPresShell
 .
 h
 "
@@ -41392,9 +41394,9 @@ GetPresContext
 )
 )
 {
-nsIPresShell
+PresShell
 *
-activeShell
+activePresShell
 =
 activeESM
 -
@@ -41410,7 +41412,7 @@ GetPresShell
 ;
 if
 (
-activeShell
+activePresShell
 &
 &
 (
@@ -41419,7 +41421,7 @@ nsContentUtils
 :
 ContentIsCrossDocDescendantOf
 (
-activeShell
+activePresShell
 -
 >
 GetDocument
@@ -41435,7 +41437,7 @@ nsContentUtils
 ContentIsCrossDocDescendantOf
 (
 mDoc
-activeShell
+activePresShell
 -
 >
 GetDocument
@@ -41464,7 +41466,7 @@ nullptr
 ;
 if
 (
-activeShell
+activePresShell
 )
 {
 RefPtr
@@ -41473,7 +41475,7 @@ nsFrameSelection
 >
 frameSelection
 =
-activeShell
+activePresShell
 -
 >
 FrameSelection

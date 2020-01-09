@@ -162,6 +162,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 MouseEventBinding
@@ -1953,7 +1962,7 @@ PresContext
 (
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -2761,7 +2770,7 @@ PresContext
 (
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -3676,7 +3685,7 @@ PresContext
 (
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =

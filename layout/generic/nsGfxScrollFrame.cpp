@@ -375,6 +375,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LookAndFeel
 .
 h
@@ -26801,7 +26810,10 @@ rootPresContext
 )
 {
 const
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 const
 rootPresShell

@@ -17698,7 +17698,7 @@ PresContext
 (
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -18504,7 +18504,7 @@ PresContext
 (
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -44377,7 +44377,7 @@ IsRootContentDocument
 (
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =
