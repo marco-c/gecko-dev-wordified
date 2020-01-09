@@ -1348,7 +1348,7 @@ env
 mozilla
 :
 :
-dom
+ipc
 :
 :
 SetPrefsFd
@@ -1361,7 +1361,7 @@ mPrefsFd
 mozilla
 :
 :
-dom
+ipc
 :
 :
 SetPrefMapFd
