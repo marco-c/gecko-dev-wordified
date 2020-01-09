@@ -3130,6 +3130,15 @@ createDebuggerContext
 toolbox
 )
 ;
+dbg
+.
+client
+.
+waitForWorkers
+(
+false
+)
+;
 await
 waitForSources
 (
