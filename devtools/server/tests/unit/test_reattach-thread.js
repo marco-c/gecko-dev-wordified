@@ -83,16 +83,6 @@ detached
 "
 )
 ;
-Assert
-.
-equal
-(
-targetFront
-.
-thread
-null
-)
-;
 const
 [
 newThreadClient
@@ -133,7 +123,7 @@ equal
 (
 targetFront
 .
-thread
+threadClient
 newThreadClient
 )
 ;
