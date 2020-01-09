@@ -157,6 +157,12 @@ python2
 }
     
 '
+avoid_avx2
+'
+:
+True
+    
+'
 dump_syms_binary
 '
 :
@@ -169,14 +175,14 @@ arch
 '
 :
 '
-aarch64
+x86_64
 '
     
 '
 min_sdk
 '
 :
-21
+16
     
 '
 operating_system
