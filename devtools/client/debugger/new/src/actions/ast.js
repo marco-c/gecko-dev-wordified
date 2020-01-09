@@ -80,7 +80,6 @@ selectors
 import
 {
 mapFrames
-fetchExtra
 }
 from
 "
@@ -403,14 +402,6 @@ getState
 )
 )
 {
-await
-dispatch
-(
-fetchExtra
-(
-)
-)
-;
 await
 dispatch
 (
