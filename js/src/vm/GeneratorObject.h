@@ -287,7 +287,7 @@ JSOP_RESUME
 unsigned
 arg
 =
-GET_UINT16
+GET_UINT8
 (
 pc
 )
