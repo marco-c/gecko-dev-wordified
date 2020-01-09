@@ -548,7 +548,7 @@ mBackgroundManager
 SendPUDPSocketConstructor
 (
 this
-void_t
+Nothing
 (
 )
 mFilterName
