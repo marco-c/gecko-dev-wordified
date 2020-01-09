@@ -2472,7 +2472,7 @@ icon
 DEFAULT_EXTENSION_ICON
 persistent
 :
-false
+true
 removeOnDismissal
 :
 true
