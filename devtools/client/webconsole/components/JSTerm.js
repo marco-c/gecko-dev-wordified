@@ -1419,7 +1419,7 @@ isCompilableUnit
 (
 this
 .
-getInputValue
+_getValue
 (
 )
 )
@@ -2040,7 +2040,7 @@ if
 !
 this
 .
-getInputValue
+_getValue
 (
 )
 )
@@ -2125,7 +2125,7 @@ if
 !
 this
 .
-getInputValue
+_getValue
 (
 )
 )
@@ -2538,7 +2538,7 @@ lastInputValue
 &
 this
 .
-setInputValue
+_setValue
 (
 this
 .
@@ -3513,7 +3513,7 @@ from
 |
 this
 .
-getInputValue
+_getValue
 (
 )
 |
@@ -3559,7 +3559,7 @@ executeString
 |
 this
 .
-getInputValue
+_getValue
 (
 )
 ;
@@ -3600,7 +3600,7 @@ usageCount
 ;
 this
 .
-setInputValue
+_setValue
 (
 "
 "
@@ -4433,7 +4433,7 @@ returns
 void
 *
 /
-setInputValue
+_setValue
 (
 newValue
 )
@@ -4684,7 +4684,7 @@ returns
 string
 *
 /
-getInputValue
+_getValue
 (
 )
 {
@@ -4917,7 +4917,7 @@ value
 =
 this
 .
-getInputValue
+_getValue
 (
 )
 ;
@@ -5035,7 +5035,7 @@ inputValue
 =
 this
 .
-getInputValue
+_getValue
 (
 )
 ;
@@ -5632,7 +5632,7 @@ isCompilableUnit
 (
 this
 .
-getInputValue
+_getValue
 (
 )
 )
@@ -6409,7 +6409,7 @@ expression
 =
 this
 .
-getInputValue
+_getValue
 (
 )
 ;
@@ -6429,7 +6429,7 @@ null
 {
 this
 .
-setInputValue
+_setValue
 (
 newInputValue
 )
@@ -6464,7 +6464,7 @@ hasEmptyInput
 return
 this
 .
-getInputValue
+_getValue
 (
 )
 =
@@ -6521,7 +6521,7 @@ test
 (
 this
 .
-getInputValue
+_getValue
 (
 )
 )
@@ -6602,7 +6602,7 @@ inputValue
 =
 this
 .
-getInputValue
+_getValue
 (
 )
 ;
@@ -6801,7 +6801,7 @@ inputValue
 =
 this
 .
-getInputValue
+_getValue
 (
 )
 ;
@@ -7277,7 +7277,7 @@ inputAfterCursor
 =
 this
 .
-getInputValue
+_getValue
 (
 )
 .
@@ -7832,7 +7832,7 @@ inputAfterCursor
 =
 this
 .
-getInputValue
+_getValue
 (
 )
 .
@@ -8253,7 +8253,7 @@ inputAfterCursor
 =
 this
 .
-getInputValue
+_getValue
 (
 )
 .
@@ -8387,7 +8387,7 @@ selectionStart
 return
 this
 .
-getInputValue
+_getValue
 (
 )
 .
@@ -8459,7 +8459,7 @@ value
 =
 this
 .
-getInputValue
+_getValue
 (
 )
 ;
@@ -8553,7 +8553,7 @@ null
 ;
 this
 .
-setInputValue
+_setValue
 (
 prefix
 +
@@ -9099,7 +9099,7 @@ value
 =
 this
 .
-getInputValue
+_getValue
 (
 )
 ;
