@@ -1050,12 +1050,20 @@ always
 painted
                                           
 "
-ui
+layout
 .
-scrollbarFadeBeginDelay
+testing
+.
+overlay
+-
+scrollbars
+.
+always
+-
+visible
 "
 :
-100000
+True
 }
 )
         
