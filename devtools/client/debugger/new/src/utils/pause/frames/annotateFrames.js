@@ -153,14 +153,7 @@ frames
 .
 map
 (
-f
-=
->
 annotateFrame
-(
-f
-frames
-)
 )
 ;
 return
@@ -176,11 +169,6 @@ annotateFrame
 frame
 :
 Frame
-frames
-:
-Frame
-[
-]
 )
 :
 AnnotatedFrame
@@ -191,7 +179,6 @@ library
 getLibraryFromUrl
 (
 frame
-frames
 )
 ;
 if

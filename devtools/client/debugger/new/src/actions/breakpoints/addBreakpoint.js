@@ -301,6 +301,7 @@ newBreakpoint
 const
 {
 id
+hitCount
 actualLocation
 }
 =
@@ -405,6 +406,7 @@ location
 :
 newLocation
 astLocation
+hitCount
 generatedLocation
 :
 newGeneratedLocation
