@@ -4554,9 +4554,10 @@ aReport
 .
 interning
 .
-interners
-.
 id
+#
+#
+_interner
 \
 "
 interning
@@ -4591,9 +4592,10 @@ aReport
 .
 interning
 .
-data_stores
-.
 id
+#
+#
+_data_store
 \
 "
 interning
