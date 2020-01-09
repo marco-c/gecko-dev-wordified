@@ -147,6 +147,10 @@ onHover
 =
 toolbox
 .
+inspector
+.
+nodePicker
+.
 once
 (
 "
