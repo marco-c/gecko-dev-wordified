@@ -2687,16 +2687,6 @@ NS_IMPL_ELEMENT_CLONE_WITH_INIT
 (
 SVGFEFuncAElement
 )
-}
-/
-/
-namespace
-dom
-}
-/
-/
-namespace
-mozilla
 /
 /
 -
@@ -2773,7 +2763,7 @@ nsSVGElement
 :
 :
 NumberInfo
-nsSVGFELightingElement
+SVGFELightingElement
 :
 :
 sNumberInfo
@@ -2820,7 +2810,7 @@ nsSVGElement
 :
 :
 NumberPairInfo
-nsSVGFELightingElement
+SVGFELightingElement
 :
 :
 sNumberPairInfo
@@ -2843,7 +2833,7 @@ nsSVGElement
 :
 :
 StringInfo
-nsSVGFELightingElement
+SVGFELightingElement
 :
 :
 sStringInfo
@@ -2949,7 +2939,7 @@ NS_IMETHODIMP_
 (
 bool
 )
-nsSVGFELightingElement
+SVGFELightingElement
 :
 :
 IsAttributeMapped
@@ -2983,7 +2973,7 @@ map
 )
 |
 |
-nsSVGFELightingElementBase
+SVGFELightingElementBase
 :
 :
 IsAttributeMapped
@@ -2993,7 +2983,7 @@ name
 ;
 }
 void
-nsSVGFELightingElement
+SVGFELightingElement
 :
 :
 GetSourceImageNames
@@ -3023,7 +3013,7 @@ this
 ;
 }
 LightType
-nsSVGFELightingElement
+SVGFELightingElement
 :
 :
 ComputeLightAttributes
@@ -3124,7 +3114,7 @@ None
 ;
 }
 bool
-nsSVGFELightingElement
+SVGFELightingElement
 :
 :
 AddLightingAttributes
@@ -3336,7 +3326,7 @@ true
 ;
 }
 bool
-nsSVGFELightingElement
+SVGFELightingElement
 :
 :
 AttributeAffectsRendering
@@ -3350,7 +3340,7 @@ aAttribute
 const
 {
 return
-nsSVGFELightingElementBase
+SVGFELightingElementBase
 :
 :
 AttributeAffectsRendering
@@ -3477,7 +3467,7 @@ nsSVGElement
 :
 :
 NumberAttributesInfo
-nsSVGFELightingElement
+SVGFELightingElement
 :
 :
 GetNumberInfo
@@ -3500,7 +3490,7 @@ nsSVGElement
 :
 :
 NumberPairAttributesInfo
-nsSVGFELightingElement
+SVGFELightingElement
 :
 :
 GetNumberPairInfo
@@ -3523,7 +3513,7 @@ nsSVGElement
 :
 :
 StringAttributesInfo
-nsSVGFELightingElement
+SVGFELightingElement
 :
 :
 GetStringInfo
@@ -3542,3 +3532,13 @@ sStringInfo
 )
 ;
 }
+}
+/
+/
+namespace
+dom
+}
+/
+/
+namespace
+mozilla

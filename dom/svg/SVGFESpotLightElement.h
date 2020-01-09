@@ -201,9 +201,7 @@ aNodeInfo
 ;
 friend
 class
-:
-:
-nsSVGFELightingElement
+SVGFELightingElement
 ;
 protected
 :

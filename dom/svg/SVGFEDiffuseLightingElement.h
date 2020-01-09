@@ -156,7 +156,7 @@ namespace
 dom
 {
 typedef
-nsSVGFELightingElement
+SVGFELightingElement
 SVGFEDiffuseLightingElementBase
 ;
 class

@@ -204,7 +204,7 @@ SpecularLighting
 -
 -
 typedef
-nsSVGFELightingElement
+SVGFELightingElement
 SVGFESpecularLightingElementBase
 ;
 class
