@@ -297,6 +297,9 @@ nsAString
 aName
 bool
 aParentSide
+BrowsingContext
+*
+aBrowsingContext
 JS
 :
 :

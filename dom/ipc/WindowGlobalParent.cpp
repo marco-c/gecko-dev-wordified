@@ -1516,6 +1516,7 @@ aParentSide
 *
 /
 true
+mBrowsingContext
 &
 obj
 aRv
