@@ -13,16 +13,6 @@ if
 wasmGcEnabled
 (
 )
-|
-|
-wasmCompileMode
-(
-)
-!
-=
-'
-baseline
-'
 /
 /
 Moving

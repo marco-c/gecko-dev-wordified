@@ -19,16 +19,6 @@ wasmGeneralizedTables
 wasmGcEnabled
 (
 )
-|
-|
-wasmCompileMode
-(
-)
-!
-=
-'
-baseline
-'
 /
 /
 table
