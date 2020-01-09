@@ -1848,6 +1848,9 @@ Option
 <
 FramebufferIntSize
 >
+scale
+:
+f32
 )
 {
 if
@@ -1894,11 +1897,15 @@ viewport_size
 width
 as
 f32
+*
+scale
 viewport_size
 .
 height
 as
 f32
+*
+scale
 0
 .
 0
