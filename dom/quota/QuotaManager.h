@@ -635,6 +635,11 @@ nsIFile
 *
 aFile
 int64_t
+aFileSize
+=
+-
+1
+int64_t
 *
 aFileSizeOut
 =
@@ -661,6 +666,11 @@ const
 nsAString
 &
 aPath
+int64_t
+aFileSize
+=
+-
+1
 int64_t
 *
 aFileSizeOut
