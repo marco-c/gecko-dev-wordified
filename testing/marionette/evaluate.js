@@ -2827,6 +2827,13 @@ true
 wantXrays
 :
 true
+wantGlobalProperties
+:
+[
+"
+ChromeUtils
+"
+]
 }
 opts
 )
