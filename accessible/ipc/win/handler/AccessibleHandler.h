@@ -223,6 +223,12 @@ defined
 (
 __midl
 )
+|
+|
+defined
+(
+__WIDL__
+)
 import
 NEWEST_IA2_IDL
 ;
