@@ -6695,10 +6695,12 @@ dest
 return
 ;
 }
-FloatRegister
+ScratchDoubleScope
 scratch
-=
-ScratchDoubleReg
+(
+*
+this
+)
 ;
 FloatRegister
 freg
@@ -9037,6 +9039,13 @@ float
 INT32_MIN
 )
 ;
+ScratchFloat32Scope
+fpscratch
+(
+*
+this
+)
+;
 if
 (
 flags
@@ -9049,7 +9058,7 @@ loadConstantFloat32
 two_31
 *
 2
-ScratchFloat32Reg
+fpscratch
 )
 ;
 branchFloat
@@ -9059,7 +9068,7 @@ Assembler
 :
 DoubleGreaterThanOrEqual
 input
-ScratchFloat32Reg
+fpscratch
 &
 isOverflow
 )
@@ -9070,7 +9079,7 @@ loadConstantFloat32
 1
 .
 0f
-ScratchFloat32Reg
+fpscratch
 )
 ;
 branchFloat
@@ -9080,7 +9089,7 @@ Assembler
 :
 DoubleGreaterThan
 input
-ScratchFloat32Reg
+fpscratch
 rejoin
 )
 ;
@@ -9090,7 +9099,7 @@ else
 loadConstantFloat32
 (
 two_31
-ScratchFloat32Reg
+fpscratch
 )
 ;
 branchFloat
@@ -9100,7 +9109,7 @@ Assembler
 :
 DoubleGreaterThanOrEqual
 input
-ScratchFloat32Reg
+fpscratch
 &
 isOverflow
 )
@@ -9109,7 +9118,7 @@ loadConstantFloat32
 (
 -
 two_31
-ScratchFloat32Reg
+fpscratch
 )
 ;
 branchFloat
@@ -9119,7 +9128,7 @@ Assembler
 :
 DoubleGreaterThanOrEqual
 input
-ScratchFloat32Reg
+fpscratch
 rejoin
 )
 ;
@@ -9211,6 +9220,13 @@ double
 INT32_MIN
 )
 ;
+ScratchDoubleScope
+fpscratch
+(
+*
+this
+)
+;
 if
 (
 flags
@@ -9223,7 +9239,7 @@ loadConstantDouble
 two_31
 *
 2
-ScratchDoubleReg
+fpscratch
 )
 ;
 branchDouble
@@ -9233,7 +9249,7 @@ Assembler
 :
 DoubleGreaterThanOrEqual
 input
-ScratchDoubleReg
+fpscratch
 &
 isOverflow
 )
@@ -9244,7 +9260,7 @@ loadConstantDouble
 1
 .
 0
-ScratchDoubleReg
+fpscratch
 )
 ;
 branchDouble
@@ -9254,7 +9270,7 @@ Assembler
 :
 DoubleGreaterThan
 input
-ScratchDoubleReg
+fpscratch
 rejoin
 )
 ;
@@ -9264,7 +9280,7 @@ else
 loadConstantDouble
 (
 two_31
-ScratchDoubleReg
+fpscratch
 )
 ;
 branchDouble
@@ -9274,7 +9290,7 @@ Assembler
 :
 DoubleGreaterThanOrEqual
 input
-ScratchDoubleReg
+fpscratch
 &
 isOverflow
 )
@@ -9285,7 +9301,7 @@ loadConstantDouble
 two_31
 -
 1
-ScratchDoubleReg
+fpscratch
 )
 ;
 branchDouble
@@ -9295,7 +9311,7 @@ Assembler
 :
 DoubleGreaterThan
 input
-ScratchDoubleReg
+fpscratch
 rejoin
 )
 ;
@@ -9387,6 +9403,13 @@ float
 INT64_MIN
 )
 ;
+ScratchFloat32Scope
+fpscratch
+(
+*
+this
+)
+;
 if
 (
 flags
@@ -9399,7 +9422,7 @@ loadConstantFloat32
 two_63
 *
 2
-ScratchFloat32Reg
+fpscratch
 )
 ;
 branchFloat
@@ -9409,7 +9432,7 @@ Assembler
 :
 DoubleGreaterThanOrEqual
 input
-ScratchFloat32Reg
+fpscratch
 &
 isOverflow
 )
@@ -9420,7 +9443,7 @@ loadConstantFloat32
 1
 .
 0f
-ScratchFloat32Reg
+fpscratch
 )
 ;
 branchFloat
@@ -9430,7 +9453,7 @@ Assembler
 :
 DoubleGreaterThan
 input
-ScratchFloat32Reg
+fpscratch
 rejoin
 )
 ;
@@ -9440,7 +9463,7 @@ else
 loadConstantFloat32
 (
 two_63
-ScratchFloat32Reg
+fpscratch
 )
 ;
 branchFloat
@@ -9450,7 +9473,7 @@ Assembler
 :
 DoubleGreaterThanOrEqual
 input
-ScratchFloat32Reg
+fpscratch
 &
 isOverflow
 )
@@ -9459,7 +9482,7 @@ loadConstantFloat32
 (
 -
 two_63
-ScratchFloat32Reg
+fpscratch
 )
 ;
 branchFloat
@@ -9469,7 +9492,7 @@ Assembler
 :
 DoubleGreaterThanOrEqual
 input
-ScratchFloat32Reg
+fpscratch
 rejoin
 )
 ;
@@ -9561,6 +9584,13 @@ double
 INT64_MIN
 )
 ;
+ScratchDoubleScope
+fpscratch
+(
+*
+this
+)
+;
 if
 (
 flags
@@ -9573,7 +9603,7 @@ loadConstantDouble
 two_63
 *
 2
-ScratchDoubleReg
+fpscratch
 )
 ;
 branchDouble
@@ -9583,7 +9613,7 @@ Assembler
 :
 DoubleGreaterThanOrEqual
 input
-ScratchDoubleReg
+fpscratch
 &
 isOverflow
 )
@@ -9594,7 +9624,7 @@ loadConstantDouble
 1
 .
 0
-ScratchDoubleReg
+fpscratch
 )
 ;
 branchDouble
@@ -9604,7 +9634,7 @@ Assembler
 :
 DoubleGreaterThan
 input
-ScratchDoubleReg
+fpscratch
 rejoin
 )
 ;
@@ -9614,7 +9644,7 @@ else
 loadConstantDouble
 (
 two_63
-ScratchDoubleReg
+fpscratch
 )
 ;
 branchDouble
@@ -9624,7 +9654,7 @@ Assembler
 :
 DoubleGreaterThanOrEqual
 input
-ScratchDoubleReg
+fpscratch
 &
 isOverflow
 )
@@ -9633,7 +9663,7 @@ loadConstantDouble
 (
 -
 two_63
-ScratchDoubleReg
+fpscratch
 )
 ;
 branchDouble
@@ -9643,7 +9673,7 @@ Assembler
 :
 DoubleGreaterThanOrEqual
 input
-ScratchDoubleReg
+fpscratch
 rejoin
 )
 ;

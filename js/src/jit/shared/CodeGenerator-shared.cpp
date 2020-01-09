@@ -8294,9 +8294,6 @@ Address
 dump
 )
 {
-FloatRegister
-scratch
-;
 if
 (
 reg
@@ -8306,9 +8303,11 @@ isDouble
 )
 )
 {
+ScratchDoubleScope
 scratch
-=
-ScratchDoubleReg
+(
+masm
+)
 ;
 masm
 .
@@ -8342,9 +8341,11 @@ isSingle
 )
 )
 {
+ScratchFloat32Scope
 scratch
-=
-ScratchFloat32Reg
+(
+masm
+)
 ;
 masm
 .
