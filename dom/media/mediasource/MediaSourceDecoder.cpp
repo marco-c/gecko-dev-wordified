@@ -2021,7 +2021,7 @@ mediasource
 s
 duration
 or
-10s
+3s
 ahead
 we
 can
@@ -2070,7 +2070,7 @@ TimeUnit
 :
 FromSeconds
 (
-10
+3
 )
 )
 ;
