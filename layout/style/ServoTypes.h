@@ -1135,6 +1135,9 @@ nscoord
 mDefaultVariableSize
 ;
 nscoord
+mDefaultFixedSize
+;
+nscoord
 mDefaultSerifSize
 ;
 nscoord

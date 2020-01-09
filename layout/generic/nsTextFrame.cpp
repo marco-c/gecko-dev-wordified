@@ -40013,10 +40013,7 @@ nullptr
 >
 GetDefaultFont
 (
-StyleGenericFontFamily
-:
-:
-None
+kPresContext_DefaultVariableFont_ID
 )
 -
 >

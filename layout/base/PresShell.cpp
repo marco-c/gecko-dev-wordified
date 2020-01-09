@@ -68876,10 +68876,7 @@ font
 nsFont
 font
 (
-StyleGenericFontFamily
-:
-:
-Serif
+eFamily_serif
 nsPresContext
 :
 :
