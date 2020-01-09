@@ -209,6 +209,13 @@ h
 #
 include
 "
+StyleInfo
+.
+h
+"
+#
+include
+"
 nsAccUtils
 .
 h
@@ -10252,8 +10259,13 @@ nsGkAtoms
 :
 :
 dd
+nsGkAtoms
+:
+:
+div
 )
 )
+{
 newAcc
 =
 new
@@ -10263,6 +10275,7 @@ aContent
 document
 )
 ;
+}
 break
 ;
 case
