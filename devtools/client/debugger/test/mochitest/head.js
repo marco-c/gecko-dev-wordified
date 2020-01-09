@@ -6270,8 +6270,6 @@ client
 attachTarget
 (
 tab
-.
-actor
 )
 ;
 }

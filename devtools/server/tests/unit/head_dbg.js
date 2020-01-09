@@ -1141,8 +1141,6 @@ client
 attachTarget
 (
 tab
-.
-actor
 )
 ;
 }
@@ -2264,8 +2262,6 @@ client
 attachTarget
 (
 tab
-.
-actor
 )
 .
 then
