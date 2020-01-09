@@ -3188,7 +3188,7 @@ chrome
 :
 /
 /
-pocket
+browser
 /
 locale
 /
