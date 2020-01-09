@@ -537,7 +537,7 @@ return
 }
 LoginManagerContent
 .
-onUsernameInput
+onDOMAutoComplete
 (
 event
 )
