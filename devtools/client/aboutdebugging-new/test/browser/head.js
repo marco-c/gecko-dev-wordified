@@ -1994,7 +1994,7 @@ js
 -
 runtime
 -
-info
+name
 "
 )
 ;

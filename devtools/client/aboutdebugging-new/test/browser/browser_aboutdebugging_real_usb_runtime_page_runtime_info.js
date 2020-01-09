@@ -300,7 +300,7 @@ js
 -
 runtime
 -
-info
+name
 "
 )
 ;

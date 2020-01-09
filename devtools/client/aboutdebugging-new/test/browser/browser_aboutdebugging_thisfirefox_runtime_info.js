@@ -262,7 +262,7 @@ js
 -
 runtime
 -
-info
+name
 "
 )
 ;

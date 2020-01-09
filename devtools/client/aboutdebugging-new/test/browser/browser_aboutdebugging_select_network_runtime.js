@@ -218,7 +218,7 @@ js
 -
 runtime
 -
-info
+name
 "
 )
 ;
