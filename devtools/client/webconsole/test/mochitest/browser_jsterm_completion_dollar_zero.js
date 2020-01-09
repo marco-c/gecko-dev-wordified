@@ -326,7 +326,7 @@ jsterm
 await
 setInputValueForAutocompletion
 (
-jsterm
+hud
 "
 0
 .
@@ -373,7 +373,7 @@ open
 await
 setInputValueForAutocompletion
 (
-jsterm
+hud
 "
 0
 .

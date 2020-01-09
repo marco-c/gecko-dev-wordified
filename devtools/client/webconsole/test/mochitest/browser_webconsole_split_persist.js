@@ -365,7 +365,7 @@ default
 ;
 ok
 (
-isJstermFocused
+isInputFocused
 (
 toolbox
 .
@@ -377,8 +377,6 @@ webconsole
 )
 .
 hud
-.
-jsterm
 )
 "
 Split
