@@ -15699,7 +15699,6 @@ HomePage
 .
 get
 (
-window
 )
 ;
 var
