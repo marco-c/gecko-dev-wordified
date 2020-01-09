@@ -746,7 +746,7 @@ __sun
 |
 defined
 (
-ANDROID
+__ANDROID__
 )
 /
 *
@@ -847,7 +847,7 @@ fsync
 elif
 defined
 (
-ANDROID
+__ANDROID__
 )
 #
 define
@@ -1644,7 +1644,7 @@ MDB_USE_POSIX_MUTEX
 (
 defined
 (
-ANDROID
+__ANDROID__
 )
 |
 |
