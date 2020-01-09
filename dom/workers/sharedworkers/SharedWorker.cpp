@@ -227,6 +227,12 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+workerinternals
+/
 RuntimeService
 .
 h
@@ -234,6 +240,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 WorkerPrivate
 .
 h
