@@ -5458,7 +5458,10 @@ textEditor
 )
 ;
 return
+MOZ_KnownLive
+(
 textEditor
+)
 -
 >
 SelectAll

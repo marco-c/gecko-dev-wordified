@@ -6493,6 +6493,7 @@ InsertParagraphSeparatorAsSubAction
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 SelectAllInternal
@@ -10341,6 +10342,7 @@ document
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 SelectEntireDocument
