@@ -371,6 +371,9 @@ target
 var
 url
 =
+new
+URL
+(
 "
 http
 :
@@ -409,6 +412,7 @@ encodeURIComponent
 target
 .
 url
+)
 )
 ;
 url
