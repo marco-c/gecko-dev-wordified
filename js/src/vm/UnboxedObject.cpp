@@ -6223,7 +6223,8 @@ heap
 GetInitialHeap
 (
 newKind
-group
+&
+class_
 )
 ;
 MOZ_ASSERT
