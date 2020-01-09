@@ -202,7 +202,7 @@ stack
 :
 [
 "
-__rebuild
+_rebuild
 chrome
 :
 /
