@@ -258,6 +258,11 @@ enablePrintAutoRotate
 :
 false
 "
+disableOpenActionDestination
+"
+:
+true
+"
 disablePageMode
 "
 :
