@@ -683,6 +683,9 @@ const
 bool
 aRequestShipping
 const
+bool
+aRequestBillingAddress
+const
 nsAString
 &
 aShippintType
@@ -706,6 +709,9 @@ mRequestPayerPhone
 ;
 bool
 mRequestShipping
+;
+bool
+mRequestBillingAddress
 ;
 nsString
 mShippingType
