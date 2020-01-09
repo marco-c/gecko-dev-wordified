@@ -959,9 +959,9 @@ prefix
 .
 trim_right_matches
 (
-"
+'
 _
-"
+'
 )
 ;
 quote
