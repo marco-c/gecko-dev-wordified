@@ -4849,7 +4849,7 @@ size
 "
 layout_cursor_block_max_size
 uint32_t
-64
+32
 )
 /
 /
