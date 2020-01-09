@@ -1244,7 +1244,7 @@ url
 "
 )
 .
-textContent
+value
 ;
 is
 (
