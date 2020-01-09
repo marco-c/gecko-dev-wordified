@@ -501,6 +501,12 @@ binary
 "
 )
         
+self
+.
+policies_dir
+=
+None
+        
 #
 mozproxy_dir
 is
@@ -733,32 +739,41 @@ start
 )
         
 #
-XXX
-if
-this
+In
+case
+the
+setup
 fails
 we
-fail
+want
 to
-create
-an
-insatnce
-and
-mitdump
-has
+stop
+the
+process
+before
+raising
+.
         
-#
-started
-and
-become
-a
-ghost
-        
+try
+:
+            
 self
 .
 setup
 (
 )
+        
+except
+Exception
+:
+            
+self
+.
+stop
+(
+)
+            
+raise
     
 def
 download
@@ -2762,6 +2777,13 @@ app
 "
 firefox
 "
+and
+self
+.
+policies_dir
+is
+not
+None
 :
             
 LOG
