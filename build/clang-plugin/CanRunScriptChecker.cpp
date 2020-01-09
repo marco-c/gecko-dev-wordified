@@ -1354,7 +1354,7 @@ char
 NoteNonCanRunScriptParent
 =
 "
-parent
+caller
 function
 declared
 here
@@ -1893,6 +1893,11 @@ CallRange
 diag
 (
 ParentFunction
+-
+>
+getCanonicalDecl
+(
+)
 -
 >
 getLocation
