@@ -2146,6 +2146,12 @@ AddMainThreadListener
 this
 )
 ;
+if
+(
+!
+aIsOffline
+)
+{
 mStream
 -
 >
@@ -2157,10 +2163,6 @@ gWebAudioOutputKey
 ;
 if
 (
-!
-aIsOffline
-&
-&
 aAllowedToStart
 )
 {
@@ -2172,6 +2174,7 @@ NotifyWhenGraphStarted
 mStream
 )
 ;
+}
 }
 }
 AudioDestinationNode
