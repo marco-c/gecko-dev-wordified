@@ -3261,6 +3261,13 @@ Principal
 &
 aPrincipal
 const
+IPC
+:
+:
+Principal
+&
+aTopLevelPrincipal
+const
 bool
 &
 aIsHandlingUserInput
