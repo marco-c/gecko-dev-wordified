@@ -1004,6 +1004,15 @@ include
 "
 mozilla
 /
+OperatorNewExtensions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PodOperations
 .
 h
@@ -9990,6 +9999,7 @@ aHashNumber
 ;
 new
 (
+KnownNotNull
 valuePtr
 (
 )
@@ -12588,6 +12598,7 @@ i
 {
 new
 (
+KnownNotNull
 &
 table
 [

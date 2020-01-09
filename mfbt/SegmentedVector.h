@@ -305,6 +305,15 @@ include
 "
 mozilla
 /
+OperatorNewExtensions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TypeTraits
 .
 h
@@ -831,6 +840,7 @@ mLength
 ;
 new
 (
+KnownNotNull
 elem
 )
 T
@@ -1343,6 +1353,7 @@ false
 }
 new
 (
+KnownNotNull
 last
 )
 Segment
