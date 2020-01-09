@@ -1785,7 +1785,7 @@ pull
 /
 688
 return
-false
+null
 ;
 }
 /
