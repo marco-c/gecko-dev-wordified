@@ -452,15 +452,9 @@ file
 (
 )
 .
-type
+isNothing
 (
 )
-=
-=
-IPCFileUnion
-:
-:
-Tvoid_t
 )
 {
 blobImpl
@@ -506,7 +500,7 @@ file
 (
 )
 .
-get_IPCFile
+ref
 (
 )
 ;
@@ -1242,7 +1236,7 @@ file
 (
 )
 =
-void_t
+Nothing
 (
 )
 ;
@@ -1376,7 +1370,10 @@ file
 (
 )
 =
+Some
+(
 file
+)
 ;
 }
 aIPCBlob
