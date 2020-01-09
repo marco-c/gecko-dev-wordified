@@ -1433,7 +1433,7 @@ GetStreamTracks
 (
 )
 .
-GetAllTracksEnd
+GetLatestTrackEnd
 (
 )
 )
@@ -8802,7 +8802,7 @@ GetStreamTracks
 (
 )
 .
-GetAllTracksEnd
+GetLatestTrackEnd
 (
 )
 +
@@ -9628,7 +9628,7 @@ stream
 >
 mTracks
 .
-GetEnd
+GetEarliestTrackEnd
 (
 )
 >
@@ -17486,7 +17486,7 @@ current
 =
 mTracks
 .
-GetEnd
+GetEarliestTrackEnd
 (
 )
 ;
@@ -18194,7 +18194,7 @@ if
 (
 mTracks
 .
-GetEnd
+GetEarliestTrackEnd
 (
 )
 >

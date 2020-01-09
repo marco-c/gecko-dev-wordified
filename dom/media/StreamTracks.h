@@ -1445,7 +1445,7 @@ time
 *
 /
 StreamTime
-GetEnd
+GetEarliestTrackEnd
 (
 )
 const
@@ -1489,7 +1489,7 @@ time
 *
 /
 StreamTime
-GetAllTracksEnd
+GetLatestTrackEnd
 (
 )
 const
