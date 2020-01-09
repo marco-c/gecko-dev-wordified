@@ -19,6 +19,15 @@ evalInWorker
 '
 undefined
 '
+|
+|
+helperThreadCount
+(
+)
+=
+=
+=
+0
 gcslice
 (
 11

@@ -19,6 +19,15 @@ oomTest
 in
 this
 )
+|
+|
+helperThreadCount
+(
+)
+=
+=
+=
+0
 enableGeckoProfiling
 (
 )
