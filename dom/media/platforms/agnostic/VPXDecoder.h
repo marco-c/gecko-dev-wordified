@@ -822,8 +822,8 @@ mBitDepth
 &
 &
 mSubSampling_x
-&
-&
+=
+=
 aOther
 .
 mSubSampling_x
