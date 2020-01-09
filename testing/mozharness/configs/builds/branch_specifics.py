@@ -245,12 +245,6 @@ release
 {
         
 '
-enable_release_promotion
-'
-:
-True
-        
-'
 branch_uses_per_checkin_strategy
 '
 :
@@ -267,12 +261,6 @@ esr60
 {
         
 '
-enable_release_promotion
-'
-:
-True
-        
-'
 branch_uses_per_checkin_strategy
 '
 :
@@ -287,12 +275,6 @@ beta
 '
 :
 {
-        
-'
-enable_release_promotion
-'
-:
-1
         
 '
 branch_uses_per_checkin_strategy
@@ -477,12 +459,6 @@ jamun
 '
 :
 {
-        
-'
-enable_release_promotion
-'
-:
-1
     
 }
     
