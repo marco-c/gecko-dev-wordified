@@ -326,8 +326,6 @@ gc
 *
 *
 *
-*
-*
 /
 class
 GlobalObject
