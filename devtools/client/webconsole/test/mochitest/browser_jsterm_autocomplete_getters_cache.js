@@ -303,7 +303,7 @@ await
 setInputValueForGetterConfirmDialog
 (
 toolbox
-hud
+jsterm
 "
 foo
 .
@@ -438,9 +438,9 @@ items
 "
 )
 ;
-checkInputValueAndCursorPosition
+checkJsTermValueAndCursor
 (
-hud
+jsterm
 "
 foo
 .
@@ -576,9 +576,9 @@ items
 "
 )
 ;
-checkInputValueAndCursorPosition
+checkJsTermValueAndCursor
 (
-hud
+jsterm
 "
 foo
 .

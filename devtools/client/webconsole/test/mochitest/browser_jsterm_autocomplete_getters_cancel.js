@@ -231,7 +231,7 @@ await
 setInputValueForGetterConfirmDialog
 (
 toolbox
-hud
+jsterm
 "
 foo
 .

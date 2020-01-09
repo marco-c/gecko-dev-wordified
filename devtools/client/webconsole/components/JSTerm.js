@@ -199,6 +199,26 @@ lazyRequireGetter
 (
 this
 "
+gDevTools
+"
+"
+devtools
+/
+client
+/
+framework
+/
+devtools
+"
+true
+)
+;
+loader
+.
+lazyRequireGetter
+(
+this
+"
 KeyCodes
 "
 "
@@ -1003,13 +1023,18 @@ document
 const
 toolbox
 =
+gDevTools
+.
+getToolbox
+(
 this
 .
 webConsoleUI
 .
-wrapper
+owner
 .
-toolbox
+target
+)
 ;
 const
 tooltipDoc
@@ -1419,7 +1444,7 @@ isCompilableUnit
 (
 this
 .
-_getValue
+getInputValue
 (
 )
 )
@@ -2040,7 +2065,7 @@ if
 !
 this
 .
-_getValue
+getInputValue
 (
 )
 )
@@ -2125,7 +2150,7 @@ if
 !
 this
 .
-_getValue
+getInputValue
 (
 )
 )
@@ -2538,7 +2563,7 @@ lastInputValue
 &
 this
 .
-_setValue
+setInputValue
 (
 this
 .
@@ -3271,7 +3296,7 @@ this
 .
 webConsoleUI
 .
-hud
+owner
 .
 openLink
 (
@@ -3513,7 +3538,7 @@ from
 |
 this
 .
-_getValue
+getInputValue
 (
 )
 |
@@ -3559,7 +3584,7 @@ executeString
 |
 this
 .
-_getValue
+getInputValue
 (
 )
 ;
@@ -3600,7 +3625,7 @@ usageCount
 ;
 this
 .
-_setValue
+setInputValue
 (
 "
 "
@@ -3624,7 +3649,7 @@ this
 .
 webConsoleUI
 .
-hud
+owner
 .
 getInspectorSelection
 (
@@ -3712,7 +3737,7 @@ this
 .
 webConsoleUI
 .
-hud
+owner
 .
 getMappedExpression
 (
@@ -4433,7 +4458,7 @@ returns
 void
 *
 /
-_setValue
+setInputValue
 (
 newValue
 )
@@ -4684,7 +4709,7 @@ returns
 string
 *
 /
-_getValue
+getInputValue
 (
 )
 {
@@ -4917,7 +4942,7 @@ value
 =
 this
 .
-_getValue
+getInputValue
 (
 )
 ;
@@ -5035,7 +5060,7 @@ inputValue
 =
 this
 .
-_getValue
+getInputValue
 (
 )
 ;
@@ -5632,7 +5657,7 @@ isCompilableUnit
 (
 this
 .
-_getValue
+getInputValue
 (
 )
 )
@@ -6409,7 +6434,7 @@ expression
 =
 this
 .
-_getValue
+getInputValue
 (
 )
 ;
@@ -6429,7 +6454,7 @@ null
 {
 this
 .
-_setValue
+setInputValue
 (
 newInputValue
 )
@@ -6464,7 +6489,7 @@ hasEmptyInput
 return
 this
 .
-_getValue
+getInputValue
 (
 )
 =
@@ -6521,7 +6546,7 @@ test
 (
 this
 .
-_getValue
+getInputValue
 (
 )
 )
@@ -6602,7 +6627,7 @@ inputValue
 =
 this
 .
-_getValue
+getInputValue
 (
 )
 ;
@@ -6801,7 +6826,7 @@ inputValue
 =
 this
 .
-_getValue
+getInputValue
 (
 )
 ;
@@ -7277,7 +7302,7 @@ inputAfterCursor
 =
 this
 .
-_getValue
+getInputValue
 (
 )
 .
@@ -7832,7 +7857,7 @@ inputAfterCursor
 =
 this
 .
-_getValue
+getInputValue
 (
 )
 .
@@ -8253,7 +8278,7 @@ inputAfterCursor
 =
 this
 .
-_getValue
+getInputValue
 (
 )
 .
@@ -8387,7 +8412,7 @@ selectionStart
 return
 this
 .
-_getValue
+getInputValue
 (
 )
 .
@@ -8459,7 +8484,7 @@ value
 =
 this
 .
-_getValue
+getInputValue
 (
 )
 ;
@@ -8553,7 +8578,7 @@ null
 ;
 this
 .
-_setValue
+setInputValue
 (
 prefix
 +
@@ -9099,7 +9124,7 @@ value
 =
 this
 .
-_getValue
+getInputValue
 (
 )
 ;

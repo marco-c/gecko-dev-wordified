@@ -199,7 +199,9 @@ performTests
 )
 {
 const
-hud
+{
+jsterm
+}
 =
 await
 openNewTabAndConsole
@@ -212,7 +214,7 @@ try
 await
 setInputValueForAutocompletion
 (
-hud
+jsterm
 "
 document
 .

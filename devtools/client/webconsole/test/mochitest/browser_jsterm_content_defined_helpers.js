@@ -345,7 +345,7 @@ HELPERS
 await
 setInputValueForAutocompletion
 (
-hud
+jsterm
 helper
 )
 ;
