@@ -635,7 +635,6 @@ nextListener
 OnStopRequest
 (
 mContentRequest
-mContentContext
 NS_ERROR_INVALID_SIGNATURE
 )
 ;
@@ -810,7 +809,6 @@ nextListener
 OnStopRequest
 (
 mContentRequest
-mContentContext
 rv
 )
 ;
@@ -854,9 +852,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatus
 )
@@ -940,7 +935,6 @@ nextListener
 OnStopRequest
 (
 aRequest
-aContext
 aStatus
 )
 ;
@@ -1241,7 +1235,6 @@ nextListener
 OnStopRequest
 (
 mContentRequest
-mContentContext
 NS_ERROR_INVALID_SIGNATURE
 )
 ;

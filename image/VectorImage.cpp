@@ -2684,7 +2684,6 @@ finalStatus
 OnStopRequest
 (
 aRequest
-aContext
 aStatus
 )
 ;
@@ -10315,9 +10314,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aCtxt
 nsresult
 aStatus
 )
@@ -10338,7 +10334,6 @@ mSVGDocumentWrapper
 OnStopRequest
 (
 aRequest
-aCtxt
 aStatus
 )
 ;

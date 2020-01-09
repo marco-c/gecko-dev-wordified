@@ -4608,9 +4608,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-context
 nsresult
 aStatus
 )

@@ -4400,9 +4400,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-ctxt
 nsresult
 status
 )
@@ -4466,7 +4463,7 @@ mNewPartPending
 OnDataAvailable
 (
 aRequest
-ctxt
+nullptr
 nullptr
 0
 0
@@ -4711,7 +4708,7 @@ image
 OnImageDataComplete
 (
 aRequest
-ctxt
+nullptr
 status
 lastPart
 )

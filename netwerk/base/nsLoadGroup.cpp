@@ -3740,7 +3740,6 @@ observer
 OnStopRequest
 (
 request
-ctxt
 aStatus
 )
 ;

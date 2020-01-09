@@ -440,9 +440,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-context
 nsresult
 status
 )
@@ -1341,9 +1338,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aCtxt
 nsresult
 aStatus
 )
@@ -1480,7 +1474,7 @@ rv
 FireListenerNotifications
 (
 request
-aCtxt
+nullptr
 )
 ;
 if
@@ -1555,7 +1549,6 @@ listener
 OnStopRequest
 (
 request
-aCtxt
 aStatus
 )
 ;
@@ -4868,7 +4861,6 @@ listener
 OnStopRequest
 (
 request
-nullptr
 NS_OK
 )
 ;

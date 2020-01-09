@@ -407,9 +407,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 nsresult
 status
 )
@@ -432,7 +429,6 @@ mNextStream
 OnStopRequest
 (
 request
-ctxt
 status
 )
 ;

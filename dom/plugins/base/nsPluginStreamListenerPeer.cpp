@@ -1687,9 +1687,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatusCode
 )
@@ -1710,7 +1707,6 @@ mListener
 OnStopRequest
 (
 aRequest
-mContext
 aStatusCode
 )
 ;
@@ -1989,9 +1985,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aContext
 nsresult
 aStatus
 )

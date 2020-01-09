@@ -7647,7 +7647,6 @@ mParentListener
 OnStopRequest
 (
 mChannel
-nullptr
 status
 )
 ;
@@ -9685,9 +9684,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatusCode
 )
@@ -15548,7 +15544,6 @@ mParentListener
 OnStopRequest
 (
 mChannel
-nullptr
 aErrorCode
 )
 ;

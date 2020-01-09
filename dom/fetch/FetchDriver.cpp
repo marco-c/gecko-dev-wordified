@@ -1813,9 +1813,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatusCode
 )
@@ -1903,7 +1900,6 @@ fetchDriver
 OnStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 ;
@@ -8159,9 +8155,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatusCode
 )

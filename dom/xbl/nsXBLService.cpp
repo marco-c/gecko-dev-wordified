@@ -1338,9 +1338,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aCtxt
 nsresult
 aStatus
 )
@@ -1363,7 +1360,6 @@ mInner
 OnStopRequest
 (
 request
-aCtxt
 aStatus
 )
 ;

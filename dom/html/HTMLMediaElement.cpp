@@ -4623,9 +4623,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatus
 )
@@ -4642,7 +4639,6 @@ mNextListener
 OnStopRequest
 (
 aRequest
-aContext
 aStatus
 )
 ;

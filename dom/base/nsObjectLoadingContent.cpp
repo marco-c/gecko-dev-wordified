@@ -6457,9 +6457,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatusCode
 )
@@ -6636,7 +6633,6 @@ listenerGrip
 OnStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 ;
@@ -15159,7 +15155,6 @@ listenerGrip
 OnStopRequest
 (
 channelGrip
-nullptr
 NS_BINDING_ABORTED
 )
 ;

@@ -3307,9 +3307,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatus
 )
@@ -3380,7 +3377,6 @@ nsIViewSourceChannel
 (
 this
 )
-aContext
 aStatus
 )
 ;

@@ -3418,7 +3418,6 @@ nullptr
 OnStopRequest
 (
 nullptr
-nullptr
 aError
 )
 ;
@@ -6274,9 +6273,6 @@ OnStopRequest
 nsIRequest
 *
 req
-nsISupports
-*
-ctx
 nsresult
 status
 )
@@ -6344,7 +6340,6 @@ mListener
 OnStopRequest
 (
 this
-nullptr
 status
 )
 ;
