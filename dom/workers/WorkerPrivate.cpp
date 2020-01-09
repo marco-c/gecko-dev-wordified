@@ -25326,6 +25326,15 @@ aCx
 ;
 init
 .
+mData
+=
+JS_GetEmptyStringValue
+(
+aCx
+)
+;
+init
+.
 mBubbles
 =
 false
