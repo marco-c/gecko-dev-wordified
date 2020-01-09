@@ -207,6 +207,12 @@ js
 namespace
 wasm
 {
+MOZ_MUST_USE
+bool
+CraneliftCanCompile
+(
+)
+;
 /
 /
 Generates
