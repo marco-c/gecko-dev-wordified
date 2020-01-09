@@ -312,13 +312,6 @@ h
 #
 include
 "
-nsErrorService
-.
-h
-"
-#
-include
-"
 nsArray
 .
 h
@@ -1583,7 +1576,7 @@ Create
 Module
 :
 :
-ALLOW_IN_GPU_AND_VR_PROCESS
+ALLOW_IN_GPU_PROCESS
 }
 {
 &
@@ -1780,7 +1773,7 @@ nullptr
 Module
 :
 :
-ALLOW_IN_GPU_AND_VR_PROCESS
+ALLOW_IN_GPU_PROCESS
 }
 ;
 /
