@@ -4346,6 +4346,14 @@ SetScriptHandlingObject
 sgo
 )
 ;
+mDocument
+-
+>
+SetStateObjectFrom
+(
+aSourceDocument
+)
+;
 /
 /
 Set
