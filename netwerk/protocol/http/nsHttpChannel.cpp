@@ -48390,6 +48390,14 @@ GetCrossOriginOpenerPolicy
 head
 )
 ;
+mLoadInfo
+-
+>
+SetOpenerPolicy
+(
+resultPolicy
+)
+;
 /
 /
 We
