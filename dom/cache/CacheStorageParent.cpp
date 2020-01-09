@@ -143,17 +143,6 @@ mozilla
 /
 dom
 /
-ContentParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 cache
 /
 ActorUtils

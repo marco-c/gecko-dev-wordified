@@ -162,6 +162,9 @@ ipc
 namespace
 dom
 {
+class
+ContentParent
+;
 namespace
 cache
 {

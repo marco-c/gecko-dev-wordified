@@ -146,6 +146,9 @@ ClientManagerParent
 class
 ClientSourceParent
 ;
+class
+ContentParent
+;
 /
 /
 Define

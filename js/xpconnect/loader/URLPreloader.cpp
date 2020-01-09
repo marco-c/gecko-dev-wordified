@@ -307,17 +307,6 @@ xpcpublic
 h
 "
 #
-include
-"
-mozilla
-/
-dom
-/
-ContentChild
-.
-h
-"
-#
 undef
 DELAYED_STARTUP_TOPIC
 #

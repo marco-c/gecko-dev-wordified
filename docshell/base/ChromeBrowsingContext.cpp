@@ -121,17 +121,6 @@ ChromeBrowsingContext
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-ContentParent
-.
-h
-"
 namespace
 mozilla
 {

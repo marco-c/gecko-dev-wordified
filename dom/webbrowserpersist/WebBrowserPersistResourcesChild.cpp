@@ -105,17 +105,6 @@ WebBrowserPersistDocumentChild
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-ContentChild
-.
-h
-"
 namespace
 mozilla
 {

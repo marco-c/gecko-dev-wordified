@@ -180,17 +180,6 @@ mozilla
 /
 dom
 /
-ContentParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 ScriptSettings
 .
 h

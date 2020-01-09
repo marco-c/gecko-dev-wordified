@@ -166,6 +166,17 @@ include
 "
 mozilla
 /
+dom
+/
+ContentChild
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 NeckoChild

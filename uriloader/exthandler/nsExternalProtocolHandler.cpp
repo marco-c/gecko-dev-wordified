@@ -110,6 +110,17 @@ MPL
 #
 include
 "
+mozilla
+/
+dom
+/
+ContentChild
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h
