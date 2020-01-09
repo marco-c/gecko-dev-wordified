@@ -399,8 +399,6 @@ state
 temporaryInstallError
 :
 error
-.
-message
 }
 )
 ;
