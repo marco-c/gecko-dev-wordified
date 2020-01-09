@@ -1460,9 +1460,9 @@ disabled
 proxyTypePref
 .
 value
+!
 =
-=
-0
+1
 ;
 var
 autoconfigURLPref
