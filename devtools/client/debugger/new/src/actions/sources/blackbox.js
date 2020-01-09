@@ -245,6 +245,7 @@ isBlackBoxed
 isBlackBoxed
 }
 )
+;
 }
 else
 {
@@ -257,6 +258,7 @@ blackBox
 id
 isBlackBoxed
 )
+;
 }
 return
 dispatch
