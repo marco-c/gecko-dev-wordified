@@ -3458,7 +3458,11 @@ patch
 (
             
 '
-os
+tools
+.
+lint
+.
+lint
 .
 walk
 '
@@ -3468,53 +3472,60 @@ return_value
 [
 (
 '
-.
 '
                            
 [
+(
 '
 dir_a
 '
+None
+)
+(
 '
 dir_b
 '
+None
+)
 ]
                            
 [
+(
 '
 file_a
 '
+None
+)
+(
 '
 file_b
 '
+None
+)
 ]
 )
                           
 (
-os
-.
-path
-.
-join
-(
-'
-.
-'
 '
 dir_a
 '
-)
                            
 [
 ]
                            
 [
+(
 '
 file_c
 '
+None
+)
+(
 '
 file_d
 '
+None
+)
 ]
 )
 ]
