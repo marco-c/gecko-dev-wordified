@@ -753,9 +753,9 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Wie
+es
+funktioniert
 "
 "
 pocket_cta_button
@@ -1173,8 +1173,8 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Men
+ffnen
 "
 "
 pocket_learn_more
