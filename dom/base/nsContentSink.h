@@ -1573,6 +1573,16 @@ Document
 aDoc
 )
 ;
+Document
+*
+GetDocument
+(
+)
+{
+return
+mDocument
+;
+}
 protected
 :
 void
