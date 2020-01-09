@@ -6463,7 +6463,7 @@ we
 want
 /
 /
-GetContextProfilingStackIfEnabled
+GetContextProfilingStack
 to
 be
 inlineable
@@ -6473,9 +6473,9 @@ non
 JS
 code
 and
-/
-/
 we
+/
+/
 didn
 '
 t
@@ -7868,7 +7868,7 @@ zone_
 inline
 ProfilingStack
 *
-GetContextProfilingStackIfEnabled
+GetContextProfilingStack
 (
 JSContext
 *
@@ -7892,7 +7892,7 @@ geckoProfiler
 (
 )
 .
-getProfilingStackIfEnabled
+getProfilingStack
 (
 )
 ;
