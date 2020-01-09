@@ -17100,7 +17100,7 @@ Clear
 PrimitiveOpacity
 :
 :
-opaque
+translucent
 (
 )
 }
