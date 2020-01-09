@@ -549,6 +549,14 @@ firing
 uint32_t
 mFiringId
 ;
+#
+ifdef
+DEBUG
+int64_t
+mFiringIndex
+;
+#
+endif
 /
 /
 The

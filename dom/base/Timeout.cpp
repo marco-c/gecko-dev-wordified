@@ -163,6 +163,16 @@ TimeoutManager
 :
 InvalidFiringId
 )
+#
+ifdef
+DEBUG
+mFiringIndex
+(
+-
+1
+)
+#
+endif
 mPopupState
 (
 PopupBlocker
