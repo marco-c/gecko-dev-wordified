@@ -66,7 +66,7 @@ cbindgen
 .
 6
 .
-7
+8
 *
 /
 /
@@ -165,6 +165,11 @@ h
 #
 include
 <
+cstdarg
+>
+#
+include
+<
 cstdint
 >
 #
@@ -178,6 +183,7 @@ mozilla
 namespace
 wr
 {
+/
 /
 /
 Whether
@@ -300,6 +306,7 @@ FrameTexturesUpdated
 FrameRendered
 /
 /
+/
 NotificationRequests
 get
 notified
@@ -312,6 +319,7 @@ dropped
 without
 having
 been
+/
 /
 /
 notified
@@ -370,6 +378,7 @@ purposes
 ;
 /
 /
+/
 Specifies
 the
 color
@@ -393,6 +402,7 @@ uint8_t
 {
 /
 /
+/
 8
 bits
 image
@@ -403,16 +413,19 @@ common
 Color8
 /
 /
+/
 10
 bits
 image
 Color10
 /
 /
+/
 12
 bits
 image
 Color12
+/
 /
 /
 16
@@ -570,6 +583,7 @@ purposes
 ;
 /
 /
+/
 Specifies
 the
 format
@@ -588,6 +602,7 @@ ImageFormat
 :
 uint32_t
 {
+/
 /
 /
 One
@@ -609,6 +624,7 @@ the
 color
 /
 /
+/
 red
 per
 se
@@ -624,6 +640,7 @@ historically
 referred
 /
 /
+/
 to
 single
 -
@@ -633,6 +650,7 @@ buffers
 R8
 =
 1
+/
 /
 /
 One
@@ -645,6 +663,7 @@ R16
 2
 /
 /
+/
 Four
 channels
 byte
@@ -655,6 +674,7 @@ BGRA8
 3
 /
 /
+/
 Four
 channels
 float
@@ -663,6 +683,7 @@ storage
 RGBAF32
 =
 4
+/
 /
 /
 Two
@@ -677,6 +698,7 @@ R8
 this
 just
 means
+/
 /
 /
 "
@@ -696,6 +718,7 @@ RG8
 5
 /
 /
+/
 Four
 channels
 signed
@@ -705,6 +728,7 @@ storage
 RGBAI32
 =
 6
+/
 /
 /
 Four
@@ -877,6 +901,7 @@ purposes
 /
 }
 ;
+/
 /
 /
 Used
@@ -1185,6 +1210,7 @@ Device
 ;
 /
 /
+/
 Geometry
 in
 the
@@ -1200,6 +1226,7 @@ or
 intermediate
 /
 /
+/
 surface
 )
 in
@@ -1212,6 +1239,7 @@ DevicePixel
 struct
 DocumentHandle
 ;
+/
 /
 /
 Geometry
@@ -1234,6 +1262,7 @@ LayoutPixel
 ;
 /
 /
+/
 The
 renderer
 is
@@ -1250,9 +1279,9 @@ by
 the
 /
 /
+/
 RenderBackend
 .
-/
 /
 /
 /
@@ -1269,6 +1298,7 @@ of
 WebRender
 (
 generally
+/
 /
 /
 one
@@ -1289,6 +1319,7 @@ Renderer
 ;
 /
 /
+/
 Unit
 for
 tile
@@ -1297,6 +1328,7 @@ coordinates
 struct
 TileCoordinate
 ;
+/
 /
 /
 Represents
@@ -1315,6 +1347,7 @@ Transaction
 ;
 /
 /
+/
 The
 default
 unit
@@ -1330,6 +1363,7 @@ T
 struct
 Vec
 ;
+/
 /
 /
 Geometry
@@ -1542,6 +1576,7 @@ FontKey
 ;
 /
 /
+/
 Represents
 RGBA
 screen
@@ -1552,7 +1587,6 @@ byte
 per
 channel
 .
-/
 /
 /
 /
@@ -1670,6 +1704,7 @@ flags
 ;
 /
 /
+/
 When
 bg_color
 .
@@ -1685,6 +1720,7 @@ FontRenderMode
 :
 :
 Subpixel
+/
 /
 /
 the
@@ -1704,6 +1740,7 @@ as
 an
 opaque
 estimated
+/
 /
 /
 background
@@ -2036,6 +2073,7 @@ mHandle
 ;
 /
 /
+/
 This
 type
 carries
@@ -2051,6 +2089,7 @@ reflects
 the
 fact
 that
+/
 /
 /
 clients
@@ -2069,6 +2108,7 @@ sources
 .
 /
 /
+/
 These
 pipelines
 still
@@ -2082,6 +2122,7 @@ the
 same
 DocumentId
 .
+/
 /
 /
 Having
@@ -2104,6 +2145,7 @@ uint32_t
 ;
 /
 /
+/
 From
 the
 point
@@ -2120,6 +2162,7 @@ generic
 as
 long
 as
+/
 /
 /
 it
@@ -2394,6 +2437,7 @@ removed_pipelines
 }
 }
 ;
+/
 /
 /
 Collection
@@ -2686,6 +2730,7 @@ LayoutPixel
 ;
 /
 /
+/
 Describes
 the
 memory
@@ -2695,7 +2740,6 @@ a
 display
 list
 .
-/
 /
 /
 /
@@ -2718,11 +2762,13 @@ of
 display
 /
 /
+/
 items
 .
 struct
 BuiltDisplayListDescriptor
 {
+/
 /
 /
 The
@@ -2742,6 +2788,7 @@ builder_start_time
 ;
 /
 /
+/
 The
 second
 IPC
@@ -2753,6 +2800,7 @@ serialization
 uint64_t
 builder_finish_time
 ;
+/
 /
 /
 The
@@ -2767,6 +2815,7 @@ sending
 uint64_t
 send_start_time
 ;
+/
 /
 /
 The
@@ -2784,6 +2833,7 @@ list
 uintptr_t
 total_clip_nodes
 ;
+/
 /
 /
 The
@@ -2910,6 +2960,7 @@ capacity
 ;
 /
 /
+/
 A
 2d
 Point
@@ -3032,6 +3083,7 @@ id
 }
 }
 ;
+/
 /
 /
 A
@@ -3174,6 +3226,7 @@ ComplexClipRegion
 {
 /
 /
+/
 The
 boundaries
 of
@@ -3183,6 +3236,7 @@ rectangle
 LayoutRect
 rect
 ;
+/
 /
 /
 Border
@@ -3196,6 +3250,7 @@ radii
 ;
 /
 /
+/
 Whether
 we
 are
@@ -3203,6 +3258,7 @@ clipping
 inside
 or
 outside
+/
 /
 /
 the
@@ -3252,6 +3308,7 @@ mode
 ;
 /
 /
+/
 An
 opaque
 identifier
@@ -3262,6 +3319,7 @@ registered
 with
 WebRender
 .
+/
 /
 /
 This
@@ -3278,6 +3336,7 @@ is
 used
 as
 the
+/
 /
 /
 hash
@@ -3419,6 +3478,7 @@ repeat
 ;
 /
 /
+/
 The
 minimum
 and
@@ -3439,6 +3499,7 @@ StickyOffsetBounds
 {
 /
 /
+/
 The
 minimum
 offset
@@ -3452,6 +3513,7 @@ value
 which
 specifies
 how
+/
 /
 /
 far
@@ -3470,11 +3532,13 @@ in
 this
 /
 /
+/
 dimension
 .
 float
 min
 ;
+/
 /
 /
 The
@@ -3492,6 +3556,7 @@ specifies
 how
 /
 /
+/
 far
 in
 the
@@ -3506,6 +3571,7 @@ its
 contents
 in
 this
+/
 /
 /
 dimension
@@ -3544,6 +3610,7 @@ max
 }
 }
 ;
+/
 /
 /
 A
@@ -3690,6 +3757,7 @@ LayoutPixel
 ;
 /
 /
+/
 Represents
 RGBA
 screen
@@ -3699,7 +3767,6 @@ floating
 point
 numbers
 .
-/
 /
 /
 /
@@ -3716,6 +3783,7 @@ and
 .
 0
 .
+/
 /
 /
 An
@@ -3837,6 +3905,7 @@ style
 }
 }
 ;
+/
 /
 /
 The
@@ -4004,6 +4073,7 @@ id
 ;
 /
 /
+/
 A
 3d
 transform
@@ -4025,7 +4095,6 @@ memory
 /
 /
 /
-/
 Transforms
 can
 be
@@ -4041,6 +4110,7 @@ describe
 a
 /
 /
+/
 transformation
 from
 a
@@ -4048,6 +4118,7 @@ space
 to
 another
 .
+/
 /
 /
 For
@@ -4061,6 +4132,7 @@ ScreenSpace
 :
 :
 transform_point3d
+/
 /
 /
 takes
@@ -4082,7 +4154,6 @@ ScreenSpace
 /
 /
 /
-/
 Transforms
 expose
 a
@@ -4100,6 +4171,7 @@ transformations
 .
 /
 /
+/
 A
 pre
 -
@@ -4115,6 +4187,7 @@ applied
 before
 /
 /
+/
 the
 rest
 of
@@ -4128,6 +4201,7 @@ transformation
 adds
 an
 operation
+/
 /
 /
 that
@@ -4373,6 +4447,7 @@ matrix
 ;
 /
 /
+/
 Configure
 whether
 the
@@ -4381,6 +4456,7 @@ of
 a
 stacking
 context
+/
 /
 /
 should
@@ -4395,6 +4471,7 @@ space
 .
 /
 /
+/
 Local
 space
 rasterized
@@ -4402,6 +4479,7 @@ pictures
 are
 typically
 used
+/
 /
 /
 when
@@ -4416,6 +4494,7 @@ performance
 is
 /
 /
+/
 important
 .
 Note
@@ -4426,6 +4505,7 @@ a
 performance
 hint
 only
+/
 /
 /
 which
@@ -4507,8 +4587,8 @@ static
 RasterSpace
 Local
 (
-float
 const
+float
 &
 a0
 )
@@ -4843,6 +4923,7 @@ len
 ;
 /
 /
+/
 A
 C
 function
@@ -4862,7 +4943,6 @@ size
 /
 /
 /
-/
 This
 is
 borrowed
@@ -4876,6 +4956,7 @@ we
 want
 to
 avoid
+/
 /
 /
 a
@@ -4894,6 +4975,7 @@ uintptr_t
 const
 void
 *
+ptr
 )
 ;
 struct
@@ -5200,6 +5282,7 @@ unlock_func
 ;
 /
 /
+/
 An
 opaque
 identifier
@@ -5211,6 +5294,7 @@ registered
 with
 WebRender
 .
+/
 /
 /
 This
@@ -5229,6 +5313,7 @@ be
 used
 as
 an
+/
 /
 /
 image
@@ -6625,6 +6710,7 @@ WR_FUNC
 ;
 /
 /
+/
 Push
 a
 2
@@ -6660,6 +6746,7 @@ WR_FUNC
 ;
 /
 /
+/
 Push
 a
 yuv
@@ -6690,6 +6777,7 @@ aImageRendering
 )
 WR_FUNC
 ;
+/
 /
 /
 Push
