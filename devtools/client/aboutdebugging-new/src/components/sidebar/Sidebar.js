@@ -748,6 +748,11 @@ isConnected
 :
 runtimeHasDetails
 isSelected
+isUnknown
+:
+runtime
+.
+isUnknown
 name
 :
 runtime
