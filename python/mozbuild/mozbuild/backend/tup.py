@@ -7166,8 +7166,8 @@ program
 '
 ]
 )
-=
-=
+in
+[
 '
 build
 -
@@ -7175,6 +7175,14 @@ script
 -
 build
 '
+'
+build
+-
+script
+-
+main
+'
+]
 :
                 
 out_dir
