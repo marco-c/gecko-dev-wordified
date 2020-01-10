@@ -13454,7 +13454,6 @@ document
 .
 *
 /
-virtual
 nsISupports
 *
 GetContainer
