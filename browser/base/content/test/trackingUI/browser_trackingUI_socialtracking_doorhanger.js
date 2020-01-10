@@ -245,7 +245,9 @@ _socialTrackingSessionPageLoad
 let
 numPopupShown
 =
-SpecialPowers
+Services
+.
+prefs
 .
 getIntPref
 (
@@ -501,7 +503,9 @@ string
 {
 is
 (
-SpecialPowers
+Services
+.
+prefs
 .
 getBoolPref
 (
@@ -547,7 +551,9 @@ buttonToClick
 ;
 is
 (
-SpecialPowers
+Services
+.
+prefs
 .
 getBoolPref
 (
@@ -574,7 +580,9 @@ now
 let
 lastShown
 =
-SpecialPowers
+Services
+.
+prefs
 .
 getCharPref
 (
@@ -611,7 +619,9 @@ updated
 ;
 is
 (
-SpecialPowers
+Services
+.
+prefs
 .
 getIntPref
 (
@@ -1403,6 +1413,7 @@ config
 description
 )
 ;
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -1436,6 +1447,7 @@ button
 )
 ;
 }
+await
 SpecialPowers
 .
 popPrefEnv

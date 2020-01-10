@@ -256,6 +256,9 @@ SpecialPowers
 allFrames
 :
 true
+includeChrome
+:
+true
 child
 :
 {

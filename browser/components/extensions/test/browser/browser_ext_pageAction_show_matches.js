@@ -48,6 +48,16 @@ use
 strict
 "
 ;
+PromiseTestUtils
+.
+whitelistRejectionsGlobally
+(
+/
+packaging
+errors
+/
+)
+;
 function
 getExtension
 (

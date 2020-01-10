@@ -1772,7 +1772,9 @@ registerCleanupFunction
 =
 >
 {
-SpecialPowers
+Services
+.
+prefs
 .
 clearUserPref
 (
@@ -1815,7 +1817,9 @@ of
 ]
 )
 {
-SpecialPowers
+Services
+.
+prefs
 .
 setCharPref
 (
@@ -1932,7 +1936,9 @@ removeTab
 tab3
 )
 ;
-SpecialPowers
+Services
+.
+prefs
 .
 clearUserPref
 (
