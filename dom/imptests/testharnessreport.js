@@ -1976,6 +1976,7 @@ tests
 timeout
 "
 :
+async
 function
 (
 )
