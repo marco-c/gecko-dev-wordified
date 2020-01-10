@@ -56,17 +56,6 @@ MPL
 .
 *
 /
-Cu
-.
-importGlobalProperties
-(
-[
-"
-NodeFilter
-"
-]
-)
-;
 const
 UNORDERED_TYPE
 =

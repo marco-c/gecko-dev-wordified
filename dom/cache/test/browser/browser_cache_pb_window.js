@@ -585,17 +585,6 @@ function
 (
 )
 {
-Cu
-.
-importGlobalProperties
-(
-[
-"
-Blob
-"
-]
-)
-;
 let
 workerFunctionString
 =

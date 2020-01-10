@@ -81,17 +81,6 @@ MPL
 .
 *
 /
-Cu
-.
-importGlobalProperties
-(
-[
-"
-NodeFilter
-"
-]
-)
-;
 function
 run_test
 (

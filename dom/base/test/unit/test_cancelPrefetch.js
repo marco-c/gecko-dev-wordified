@@ -60,17 +60,6 @@ Services
 .
 prefs
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-DOMParser
-"
-]
-)
-;
 var
 parser
 =

@@ -56,17 +56,6 @@ MPL
 .
 *
 /
-Cu
-.
-importGlobalProperties
-(
-[
-"
-DOMParser
-"
-]
-)
-;
 var
 {
 HttpServer

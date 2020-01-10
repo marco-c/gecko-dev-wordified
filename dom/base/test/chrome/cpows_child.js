@@ -22,17 +22,6 @@ n
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-XMLHttpRequest
-"
-]
-)
-;
 var
 is_remote
 ;
