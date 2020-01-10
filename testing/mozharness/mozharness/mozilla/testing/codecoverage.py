@@ -62,6 +62,10 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
 import
 json
 import
@@ -2148,13 +2152,13 @@ abs_test_install_dir
 ]
 '
 mozbuild
-/
-codecoverage
 '
 )
 )
         
 from
+codecoverage
+.
 lcov_rewriter
 import
 LcovFileRewriter
