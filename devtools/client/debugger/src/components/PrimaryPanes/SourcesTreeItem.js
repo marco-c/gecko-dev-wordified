@@ -209,6 +209,7 @@ source
 import
 {
 isDirectory
+getPathWithoutThread
 }
 from
 "
@@ -1760,8 +1761,12 @@ contents
 url
 )
 :
-"
-"
+getPathWithoutThread
+(
+item
+.
+path
+)
 ;
 }
 render
