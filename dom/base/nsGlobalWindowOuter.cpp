@@ -30085,11 +30085,11 @@ IsChromeWindow
 {
 if
 (
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
-shell
+presShell
 =
 do_QueryReferent
 (
@@ -30105,7 +30105,7 @@ nsRefreshDriver
 *
 rd
 =
-shell
+presShell
 -
 >
 GetRefreshDriver

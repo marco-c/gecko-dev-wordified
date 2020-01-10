@@ -3765,9 +3765,9 @@ nullptr
 ;
 if
 (
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 presShell
 =
