@@ -9807,6 +9807,12 @@ count
 )
 )
 ;
+data
+.
+length
+=
+count
+;
 var
 bos
 =
@@ -9825,7 +9831,6 @@ bos
 writeByteArray
 (
 data
-count
 )
 ;
 this
@@ -18307,9 +18312,6 @@ output
 writeByteArray
 (
 data
-data
-.
-length
 )
 ;
 if

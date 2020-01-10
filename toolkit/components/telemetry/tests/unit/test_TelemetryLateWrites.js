@@ -393,9 +393,6 @@ bos
 writeByteArray
 (
 utf8
-utf8
-.
-length
 )
 ;
 ostream

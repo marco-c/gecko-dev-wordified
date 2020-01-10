@@ -169,6 +169,15 @@ include
 "
 mozilla
 /
+Span
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -7015,7 +7024,11 @@ return
 aStream
 -
 >
-WriteByteArray
+WriteBytes
+(
+AsBytes
+(
+MakeSpan
 (
 mCert
 -
@@ -7029,6 +7042,8 @@ mCert
 derCert
 .
 len
+)
+)
 )
 ;
 }
