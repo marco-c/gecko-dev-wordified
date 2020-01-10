@@ -727,7 +727,6 @@ nsSVGUtils
 GetTransformMatrixInUserSpace
 (
 kid
-this
 )
 *
 tm
@@ -1753,7 +1752,6 @@ nsSVGUtils
 GetTransformMatrixInUserSpace
 (
 kid
-this
 )
 *
 transform
