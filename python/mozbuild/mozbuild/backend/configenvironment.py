@@ -61,6 +61,8 @@ print_function
 import
 os
 import
+six
+import
 sys
 import
 json
@@ -72,7 +74,6 @@ OrderedDict
 from
 types
 import
-StringTypes
 ModuleType
 import
 mozpack
@@ -1255,7 +1256,9 @@ if
 isinstance
 (
 obj
-StringTypes
+six
+.
+string_types
 )
 :
                 
@@ -1630,7 +1633,9 @@ not
 isinstance
 (
 v
-StringTypes
+six
+.
+string_types
 )
 :
                 
