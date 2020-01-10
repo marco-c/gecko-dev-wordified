@@ -363,6 +363,13 @@ nsACString
 aName
 )
 {
+Unused
+<
+<
+MaybeRebuild
+(
+)
+;
 return
 mEntries
 .
