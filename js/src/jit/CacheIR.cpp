@@ -32874,6 +32874,13 @@ MutableHandleObject
 res
 )
 {
+AutoRealm
+ar
+(
+cx_
+calleeFunc
+)
+;
 /
 /
 Saving
