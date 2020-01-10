@@ -4682,6 +4682,13 @@ MinimumCompressibleLength
 =
 256
 ;
+private
+:
+class
+LoadSourceMatcher
+;
+public
+:
 /
 /
 Attempt
