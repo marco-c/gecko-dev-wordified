@@ -3155,7 +3155,6 @@ s
 >
 {
 let
-mut
 items
 =
 s
