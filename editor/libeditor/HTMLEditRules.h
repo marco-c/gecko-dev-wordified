@@ -1680,17 +1680,6 @@ RemoveEmptyNodesInChangedRange
 (
 )
 ;
-nsresult
-SelectionEndpointInNode
-(
-nsINode
-*
-aNode
-bool
-*
-aResult
-)
-;
 /
 *
 *
