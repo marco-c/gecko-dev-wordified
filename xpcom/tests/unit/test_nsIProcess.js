@@ -840,7 +840,7 @@ topic
 "
 process
 -
-finished
+failed
 "
 )
 ;
@@ -1073,7 +1073,7 @@ topic
 "
 process
 -
-finished
+failed
 "
 )
 ;
