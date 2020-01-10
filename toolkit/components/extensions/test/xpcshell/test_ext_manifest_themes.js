@@ -211,14 +211,6 @@ await
 test_theme_property
 (
 "
-icons
-"
-)
-;
-await
-test_theme_property
-(
-"
 unrecognized_key
 "
 )
