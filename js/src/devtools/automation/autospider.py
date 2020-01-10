@@ -3925,7 +3925,7 @@ os
 chmod
 (
 configure
-0755
+0o755
 )
     
 #
