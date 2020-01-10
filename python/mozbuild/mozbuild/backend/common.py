@@ -131,8 +131,6 @@ GnProjectData
     
 HostLibrary
     
-HostRustLibrary
-    
 HostGeneratedSources
     
 IPDLCollection
@@ -140,8 +138,6 @@ IPDLCollection
 LocalizedPreprocessedFiles
     
 LocalizedFiles
-    
-RustLibrary
     
 SharedLibrary
     
@@ -1740,19 +1736,6 @@ linked_libraries
 :
             
 if
-isinstance
-(
-lib
-(
-HostRustLibrary
-RustLibrary
-)
-)
-:
-                
-continue
-            
-elif
 isinstance
 (
 lib
