@@ -1541,15 +1541,6 @@ product
 )
                 
 '
-check_uptake
-'
-:
-craft_check_uptake
-(
-bouncer_product
-)
-                
-'
 ssl_only
 '
 :
@@ -2004,24 +1995,6 @@ postfix
 postfix
     
 )
-def
-craft_check_uptake
-(
-bouncer_product
-)
-:
-    
-return
-bouncer_product
-!
-=
-'
-complete
--
-mar
--
-candidates
-'
 def
 craft_ssl_only
 (
