@@ -136,8 +136,8 @@ stylesheets
 :
 :
 {
-UrlExtraData
 CorsMode
+UrlExtraData
 }
 ;
 use

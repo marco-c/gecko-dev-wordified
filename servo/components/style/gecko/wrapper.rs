@@ -5316,7 +5316,6 @@ null_mut
 |
 slots
 |
-{
 slots
 .
 _base
@@ -5324,7 +5323,6 @@ _base
 mBindingParent
 .
 mRawPtr
-}
 )
 }
 #
