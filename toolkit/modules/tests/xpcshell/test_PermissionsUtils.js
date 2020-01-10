@@ -759,8 +759,6 @@ prefs
 getChildList
 (
 PREF_ROOT
-{
-}
 )
 ;
 /

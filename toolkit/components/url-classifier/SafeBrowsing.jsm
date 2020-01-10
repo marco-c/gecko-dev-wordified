@@ -2307,8 +2307,6 @@ getChildList
 (
 "
 "
-{
-}
 )
 ;
 this

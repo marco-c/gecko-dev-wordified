@@ -759,8 +759,6 @@ getChildList
 (
 "
 "
-{
-}
 )
 .
 filter

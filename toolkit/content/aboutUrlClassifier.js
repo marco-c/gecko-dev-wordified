@@ -1230,8 +1230,6 @@ getChildList
 (
 "
 "
-{
-}
 )
 ;
 for
@@ -4698,8 +4696,6 @@ getChildList
 (
 "
 "
-{
-}
 )
 ;
 for

@@ -575,8 +575,6 @@ prefs
 getChildList
 (
 base
-{
-}
 )
 )
 {

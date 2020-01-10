@@ -335,8 +335,6 @@ prefs
 getChildList
 (
 PREF_XPI_WHITELIST_PERMISSIONS
-{
-}
 )
 ;
 var
@@ -349,8 +347,6 @@ prefs
 getChildList
 (
 PREF_XPI_BLACKLIST_PERMISSIONS
-{
-}
 )
 ;
 var

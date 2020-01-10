@@ -2534,8 +2534,6 @@ _prefBranch
 getChildList
 (
 prefBranch
-[
-]
 )
 )
 ;

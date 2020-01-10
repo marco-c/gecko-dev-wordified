@@ -115,8 +115,6 @@ prefs
 getChildList
 (
 aPrefBranch
-{
-}
 )
 ;
 for
