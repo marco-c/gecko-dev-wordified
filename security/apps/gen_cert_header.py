@@ -284,10 +284,6 @@ addonsPublicIntermediate
 '
 addonsStageRoot
 '
-    
-'
-privilegedPackageRoot
-'
 ]
 for
 n
