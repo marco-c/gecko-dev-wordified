@@ -503,10 +503,6 @@ certDB
 getCerts
 (
 )
-.
-getEnumerator
-(
-)
 )
 {
 if

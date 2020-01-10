@@ -3225,10 +3225,6 @@ let
 cert
 of
 allCerts
-.
-getEnumerator
-(
-)
 )
 {
 if

@@ -337,10 +337,6 @@ gCertDB
 getCerts
 (
 )
-.
-getEnumerator
-(
-)
 )
 {
 if

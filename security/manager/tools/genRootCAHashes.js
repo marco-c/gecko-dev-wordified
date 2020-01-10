@@ -1952,10 +1952,6 @@ CertDb
 getCerts
 (
 )
-.
-getEnumerator
-(
-)
 )
 {
 /
