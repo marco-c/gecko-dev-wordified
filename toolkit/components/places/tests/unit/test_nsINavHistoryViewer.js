@@ -894,7 +894,6 @@ bookmarks
 .
 menuGuid
 ]
-1
 )
 ;
 let

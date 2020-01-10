@@ -277,7 +277,6 @@ bookmarks
 .
 unfiledGuid
 ]
-1
 )
 ;
 let

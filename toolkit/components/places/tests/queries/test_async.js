@@ -1670,7 +1670,6 @@ bookmark
 .
 parentGuid
 ]
-1
 )
 ;
 this

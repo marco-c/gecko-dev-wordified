@@ -292,7 +292,6 @@ bookmarks
 .
 toolbarGuid
 ]
-1
 )
 ;
 var
@@ -557,7 +556,6 @@ bookmarks
 .
 toolbarGuid
 ]
-1
 )
 ;
 var
@@ -844,7 +842,6 @@ bookmarks
 .
 toolbarGuid
 ]
-1
 )
 ;
 var
@@ -1125,7 +1122,6 @@ bookmarks
 .
 toolbarGuid
 ]
-1
 )
 ;
 var
@@ -1413,7 +1409,6 @@ bookmarks
 .
 toolbarGuid
 ]
-1
 )
 ;
 var

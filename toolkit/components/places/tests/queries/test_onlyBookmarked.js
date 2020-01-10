@@ -432,7 +432,6 @@ bookmarks
 .
 toolbarGuid
 ]
-1
 )
 ;
 query

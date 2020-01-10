@@ -1563,7 +1563,6 @@ setParents
 (
 [
 ]
-0
 )
 ;
 }
@@ -1584,7 +1583,6 @@ bookmarks
 .
 rootGuid
 ]
-1
 )
 ;
 }
@@ -1610,7 +1608,6 @@ bookmarks
 .
 tagsGuid
 ]
-2
 )
 ;
 }

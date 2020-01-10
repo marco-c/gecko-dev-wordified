@@ -380,7 +380,6 @@ testRoot
 .
 guid
 ]
-1
 )
 ;
 let
@@ -592,7 +591,6 @@ testRoot
 .
 guid
 ]
-1
 )
 ;
 let
@@ -1290,7 +1288,6 @@ testRoot
 .
 guid
 ]
-1
 )
 ;
 var

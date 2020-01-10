@@ -282,7 +282,6 @@ folder
 .
 guid
 ]
-1
 )
 ;
 var

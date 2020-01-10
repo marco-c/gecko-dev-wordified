@@ -154,7 +154,6 @@ bookmarks
 .
 toolbarGuid
 ]
-2
 )
 ;
 let
