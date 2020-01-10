@@ -16445,6 +16445,11 @@ aRecordingStart
 )
 )
 ;
+if
+(
+mLayerManager
+)
+{
 mLayerManager
 -
 >
@@ -16457,6 +16462,7 @@ get
 )
 )
 ;
+}
 return
 IPC_OK
 (
@@ -16477,6 +16483,11 @@ RecvEndRecording
 (
 )
 {
+if
+(
+mLayerManager
+)
+{
 mLayerManager
 -
 >
@@ -16485,6 +16496,7 @@ SetCompositionRecorder
 nullptr
 )
 ;
+}
 mCompositionRecorder
 -
 >
