@@ -974,6 +974,12 @@ if
 shortcutsModalEnabled
 )
 {
+e
+.
+preventDefault
+(
+)
+;
 this
 .
 toggleShortcutsModal
