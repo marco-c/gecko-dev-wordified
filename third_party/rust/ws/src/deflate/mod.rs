@@ -16,13 +16,13 @@ extension
 .
 extern
 crate
-libc
-;
-extern
-crate
 libz_sys
 as
 ffi
+;
+extern
+crate
+libc
 ;
 mod
 context
@@ -39,8 +39,8 @@ extension
 :
 :
 {
-DeflateBuilder
 DeflateHandler
+DeflateBuilder
 DeflateSettings
 }
 ;
