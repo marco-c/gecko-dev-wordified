@@ -1856,3 +1856,6 @@ Shutdown
 )
 ;
 }
+#
+undef
+ENABLE_SET_CUBEB_BACKEND
