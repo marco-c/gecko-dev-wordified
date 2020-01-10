@@ -2093,6 +2093,17 @@ searches
 "
 :
 false
+"
+browser
+.
+search
+.
+suggest
+.
+enabled
+"
+:
+false
 }
 }
 /
