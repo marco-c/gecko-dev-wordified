@@ -1217,6 +1217,9 @@ activated
 disableSearchAddon
 :
 false
+maxHighlightLength
+:
+1000
 }
 ;
 /
