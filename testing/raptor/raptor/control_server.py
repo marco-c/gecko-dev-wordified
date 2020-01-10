@@ -80,6 +80,8 @@ json
 import
 os
 import
+shutil
+import
 socket
 import
 threading
@@ -129,7 +131,7 @@ results_handler
                            
 shutdown_browser
                            
-write_raw_gecko_profile
+handle_gecko_profile
                            
 background_app
                            
@@ -729,9 +731,9 @@ shutdown_browser
             
 self
 .
-write_raw_gecko_profile
+handle_gecko_profile
 =
-write_raw_gecko_profile
+handle_gecko_profile
             
 self
 .
@@ -1407,11 +1409,15 @@ webext_gecko_profile
                 
 #
 received
+file
+name
+of
+the
+saved
 gecko
-profiling
-results
+profile
                 
-_test
+filename
 =
 str
 (
@@ -1421,37 +1427,7 @@ data
 data
 '
 ]
-[
-0
-]
 )
-                
-_pagecycle
-=
-str
-(
-data
-[
-'
-data
-'
-]
-[
-1
-]
-)
-                
-_raw_profile
-=
-data
-[
-'
-data
-'
-]
-[
-2
-]
                 
 LOG
 .
@@ -1461,28 +1437,23 @@ info
 received
 gecko
 profile
-for
-test
-%
-s
-pagecycle
-%
-s
+filename
+:
+{
+}
 "
-%
+.
+format
 (
-_test
-_pagecycle
+filename
 )
 )
                 
 self
 .
-write_raw_gecko_profile
+handle_gecko_profile
 (
-_test
-_pagecycle
-_raw_profile
+filename
 )
             
 elif
@@ -2617,6 +2588,12 @@ self
 debug_mode
 =
 debug_mode
+        
+self
+.
+user_profile
+=
+None
     
 def
 start
@@ -2724,7 +2701,7 @@ shutdown_browser
                                                
 self
 .
-write_raw_gecko_profile
+handle_gecko_profile
                                                
 self
 .
@@ -2967,32 +2944,46 @@ start
 )
     
 def
-write_raw_gecko_profile
+handle_gecko_profile
 (
 self
-test
-pagecycle
-profile
+filename
 )
 :
         
-profile_file
+#
+Move
+the
+stored
+profile
+to
+a
+location
+outside
+the
+Firefox
+profile
+        
+source_path
 =
-'
-%
-s_pagecycle_
-%
-s
+os
+.
+path
+.
+join
+(
+self
+.
+user_profile
 .
 profile
-'
-%
-(
-test
-pagecycle
+"
+profiler
+"
+filename
 )
         
-profile_path
+target_path
 =
 os
 .
@@ -3003,7 +2994,15 @@ join
 self
 .
 gecko_profile_dir
-profile_file
+filename
+)
+        
+shutil
+.
+move
+(
+source_path
+target_path
 )
         
 LOG
@@ -3011,72 +3010,18 @@ LOG
 info
 (
 "
-writing
-raw
+moved
 gecko
 profile
 to
-disk
-:
-%
-s
+{
+}
 "
-%
-str
-(
-profile_path
-)
-)
-        
-try
-:
-            
-with
-open
-(
-profile_path
-'
-w
-'
-)
-as
-profile_file
-:
-                
-json
 .
-dump
+format
 (
-profile
-profile_file
+target_path
 )
-                
-profile_file
-.
-close
-(
-)
-        
-except
-Exception
-:
-            
-LOG
-.
-critical
-(
-"
-Encountered
-an
-exception
-whie
-writing
-raw
-gecko
-profile
-to
-disk
-"
 )
     
 def

@@ -818,9 +818,10 @@ config
 )
         
 #
-create
-results
-holder
+setup
+the
+control
+server
         
 self
 .
@@ -832,13 +833,13 @@ RaptorResultsHandler
         
 self
 .
-build_browser_profile
+start_control_server
 (
 )
         
 self
 .
-start_control_server
+build_browser_profile
 (
 )
     
@@ -1964,12 +1965,17 @@ path
 )
         
 #
-add
+share
+the
 profile
 dir
-to
-our
+with
+the
 config
+and
+the
+control
+server
         
 self
 .
@@ -1983,6 +1989,16 @@ local_profile_dir
 self
 .
 profile
+.
+profile
+        
+self
+.
+control_server
+.
+user_profile
+=
+self
 .
 profile
     
@@ -5537,31 +5553,44 @@ dir
 the
 control
 server
-will
             
 #
+will
 receive
 the
-actual
+filename
+of
+the
+stored
 gecko
-profiles
+profile
 from
 the
 web
-ext
-and
-will
-write
-them
             
 #
+extension
+and
+will
+move
+it
+out
+of
+the
+browser
+user
+profile
 to
-disk
+            
+#
+this
+directory
 ;
-then
-profiles
-are
+where
+it
+is
 picked
+-
 up
 by
 gecko_profile
