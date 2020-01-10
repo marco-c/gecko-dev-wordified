@@ -3210,6 +3210,13 @@ ReadUnlockTextures
 )
 ;
 }
+virtual
+void
+WaitForGPU
+(
+)
+{
+}
 /
 *
 *
