@@ -2039,6 +2039,7 @@ XPCNativeInterface
 :
 GetNewOrUsed
 (
+cx
 &
 NS_GET_IID
 (
@@ -3176,12 +3177,14 @@ XPCNativeInterface
 :
 GetISupports
 (
+cx
 )
 ;
 }
 XPCNativeSetKey
 key
 (
+cx
 iface
 )
 ;
@@ -3196,6 +3199,7 @@ XPCNativeSet
 :
 GetNewOrUsed
 (
+cx
 &
 key
 )
@@ -6222,6 +6226,9 @@ XPCWrappedNative
 :
 ExtendSet
 (
+JSContext
+*
+aCx
 XPCNativeInterface
 *
 aInterface
@@ -6257,6 +6264,7 @@ XPCNativeSet
 :
 GetNewOrUsed
 (
+aCx
 &
 key
 )
@@ -6657,6 +6665,9 @@ XPCWrappedNative
 :
 FindTearOff
 (
+JSContext
+*
+cx
 const
 nsIID
 &
@@ -6674,6 +6685,7 @@ XPCNativeInterface
 :
 GetNewOrUsed
 (
+cx
 &
 iid
 )
@@ -7384,6 +7396,7 @@ aInterface
 !
 ExtendSet
 (
+cx
 aInterface
 )
 )
@@ -12130,6 +12143,9 @@ XPCWrappedNative
 :
 ToString
 (
+JSContext
+*
+cx
 XPCWrappedNativeTearOff
 *
 to
@@ -12317,6 +12333,7 @@ XPCNativeInterface
 :
 GetISupports
 (
+cx
 )
 ;
 uint16_t

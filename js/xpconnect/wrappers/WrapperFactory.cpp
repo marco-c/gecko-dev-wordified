@@ -2590,6 +2590,7 @@ XPCNativeSet
 :
 GetNewOrUsed
 (
+cx
 newwn
 -
 >

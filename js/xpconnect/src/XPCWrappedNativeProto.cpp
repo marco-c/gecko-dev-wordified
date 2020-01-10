@@ -674,6 +674,7 @@ XPCNativeSet
 :
 GetNewOrUsed
 (
+cx
 classInfo
 )
 ;

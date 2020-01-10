@@ -3594,6 +3594,7 @@ obj
 >
 FindTearOff
 (
+cx
 *
 iid
 )
