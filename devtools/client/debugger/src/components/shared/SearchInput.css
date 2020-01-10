@@ -140,8 +140,10 @@ out
 search
 -
 outline
-.
-focused
+:
+focus
+-
+within
 {
 border
 -
