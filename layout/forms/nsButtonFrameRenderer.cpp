@@ -1506,6 +1506,7 @@ inner
 paint
 border
 .
+const
 nsRect
 buttonRect
 =
@@ -2451,6 +2452,14 @@ mFrame
 >
 GetRectRelativeToSelf
 (
+)
++
+aBuilder
+-
+>
+ToReferenceFrame
+(
+mFrame
 )
 ;
 nsDisplayBackgroundImage
