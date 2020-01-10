@@ -615,7 +615,7 @@ dir_svc
 .
 Get
 (
-c_str
+cstr
 !
 (
 "
@@ -652,7 +652,7 @@ dir_svc
 .
 Get
 (
-c_str
+cstr
 !
 (
 "
@@ -953,7 +953,7 @@ observer
 coerce
 (
 )
-c_str
+cstr
 !
 (
 "
