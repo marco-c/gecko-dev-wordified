@@ -5435,7 +5435,7 @@ u
 mSelector
 =
 =
-kAudioDevicePropertyDataSource
+kAudioHardwarePropertyDataSource
 for
 id
 =
@@ -7270,7 +7270,7 @@ layout
 /
 When
 having
-one
+on
 or
 two
 channel
@@ -8734,7 +8734,7 @@ noErr
 LOG
 (
 "
-AudioObjectGetPropertyDataSize
+AudioHardwareGetPropertyInfo
 /
 kAudioHardwarePropertyPlugInForBundleID
 rv
@@ -8826,7 +8826,7 @@ noErr
 LOG
 (
 "
-AudioObjectGetPropertyData
+AudioHardwareGetProperty
 /
 kAudioHardwarePropertyPlugInForBundleID
 rv
@@ -14336,7 +14336,7 @@ In
 this
 case
 *
-latency
+latecy
 is
 set
 to
@@ -14452,7 +14452,7 @@ latency_frames
 ;
 /
 /
-Ugly
+Ungly
 error
 check
 audiounit_set_global_latency
