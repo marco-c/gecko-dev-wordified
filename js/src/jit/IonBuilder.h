@@ -5764,14 +5764,6 @@ CallInfo
 callInfo
 )
 ;
-InliningResult
-inlineSetDisjointTypedElements
-(
-CallInfo
-&
-callInfo
-)
-;
 /
 /
 TypedObject

@@ -1002,15 +1002,6 @@ MDefinition
 Opcode
 :
 :
-SetDisjointTypedElements
-:
-case
-MDefinition
-:
-:
-Opcode
-:
-:
 ArrayPopShift
 :
 case

@@ -765,11 +765,6 @@ _
 IntrinsicTypedArrayElementShift
 )
 \
-_
-(
-IntrinsicSetDisjointTypedElements
-)
-\
 \
 _
 (
