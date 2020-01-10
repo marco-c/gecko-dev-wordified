@@ -58,7 +58,7 @@ timeout
 .
 requestLongerTimeout
 (
-2
+3
 )
 ;
 /
@@ -134,7 +134,7 @@ js
 const
 SW_TIMEOUT
 =
-1000
+4000
 ;
 /
 /
@@ -512,7 +512,7 @@ onToolboxReady
 Wait
 for
 more
-10
+5
 times
 the
 service
@@ -537,7 +537,7 @@ wait
 (
 SW_TIMEOUT
 *
-10
+5
 )
 ;
 /
@@ -553,7 +553,7 @@ running
 even
 after
 waiting
-10
+5
 times
 the
 /
