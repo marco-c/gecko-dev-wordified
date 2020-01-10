@@ -350,6 +350,11 @@ x
 #
 include
 <
+cmath
+>
+#
+include
+<
 float
 .
 h
@@ -563,7 +568,10 @@ t
 one
 /
 (
-__ieee754_sqrt
+std
+:
+:
+sqrt
 (
 x
 *
@@ -616,7 +624,10 @@ t
 (
 one
 +
-__ieee754_sqrt
+std
+:
+:
+sqrt
 (
 one
 +

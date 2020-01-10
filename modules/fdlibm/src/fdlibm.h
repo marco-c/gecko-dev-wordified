@@ -258,12 +258,6 @@ double
 )
 ;
 double
-sqrt
-(
-double
-)
-;
-double
 fabs
 (
 double

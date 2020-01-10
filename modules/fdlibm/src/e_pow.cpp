@@ -735,6 +735,11 @@ shown
 /
 #
 include
+<
+cmath
+>
+#
+include
 "
 math_private
 .
@@ -1819,6 +1824,9 @@ x
 *
 /
 return
+std
+:
+:
 sqrt
 (
 x

@@ -622,6 +622,11 @@ signal
 #
 include
 <
+cmath
+>
+#
+include
+<
 float
 .
 h
@@ -1215,6 +1220,9 @@ qS4
 ;
 s
 =
+std
+:
+:
 sqrt
 (
 t
