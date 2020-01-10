@@ -12528,6 +12528,14 @@ aSupportedTokens
 nullptr
 )
 ;
+enum
+class
+ReparseAttributes
+{
+No
+Yes
+}
+;
 /
 *
 *
@@ -12555,6 +12563,12 @@ CopyInnerTo
 Element
 *
 aDest
+ReparseAttributes
+=
+ReparseAttributes
+:
+:
+Yes
 )
 ;
 private
