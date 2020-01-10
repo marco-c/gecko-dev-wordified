@@ -15113,6 +15113,8 @@ o
 ;
 }
 }
+private
+:
 void
 MaybeKillObject
 (
@@ -15214,6 +15216,8 @@ mPointer
 ;
 }
 }
+public
+:
 bool
 Visit
 (
