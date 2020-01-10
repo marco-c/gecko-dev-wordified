@@ -224,6 +224,10 @@ getFrames
 (
 0
 null
+)
+.
+then
+(
 function
 (
 frameResponse
@@ -359,6 +363,10 @@ i
 gThreadClient
 .
 resume
+(
+)
+.
+then
 (
 (
 )

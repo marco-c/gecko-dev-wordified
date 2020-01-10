@@ -379,9 +379,12 @@ gThreadClient
 .
 resume
 (
+)
+.
+then
+(
 function
 (
-response
 )
 {
 finishClient

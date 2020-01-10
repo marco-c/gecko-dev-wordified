@@ -282,6 +282,10 @@ gThreadClient
 .
 getSources
 (
+)
+.
+then
+(
 function
 (
 response
@@ -428,6 +432,10 @@ source
 gThreadClient
 .
 resume
+(
+)
+.
+then
 (
 function
 (

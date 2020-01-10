@@ -300,6 +300,10 @@ gThreadClient
 .
 resume
 (
+)
+.
+then
+(
 test_inferred_name_function
 )
 ;
@@ -490,6 +494,10 @@ baz
 gThreadClient
 .
 resume
+(
+)
+.
+then
 (
 test_anonymous_function
 )
@@ -695,6 +703,10 @@ baz
 gThreadClient
 .
 resume
+(
+)
+.
+then
 (
 function
 (

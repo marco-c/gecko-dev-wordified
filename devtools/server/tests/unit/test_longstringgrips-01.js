@@ -484,6 +484,10 @@ gThreadClient
 .
 resume
 (
+)
+.
+then
+(
 function
 (
 )
@@ -509,6 +513,10 @@ error
 gThreadClient
 .
 resume
+(
+)
+.
+then
 (
 function
 (

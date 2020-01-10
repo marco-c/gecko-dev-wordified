@@ -668,6 +668,10 @@ threadClient
 .
 resume
 (
+)
+.
+then
+(
 (
 )
 =

@@ -402,6 +402,10 @@ gThreadClient
 .
 resume
 (
+)
+.
+then
+(
 (
 )
 =

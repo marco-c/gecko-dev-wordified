@@ -197,6 +197,10 @@ gThreadClient
 .
 getSources
 (
+)
+.
+then
+(
 function
 (
 packet

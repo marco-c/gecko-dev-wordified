@@ -265,6 +265,10 @@ getFrames
 (
 0
 null
+)
+.
+then
+(
 async
 function
 (
