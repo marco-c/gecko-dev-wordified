@@ -64,6 +64,7 @@ flow
 import
 type
 {
+SourceId
 Source
 SourceLocation
 Context
@@ -198,16 +199,16 @@ Source
 type
 :
 "
-UPDATE_SOURCE
+CLEAR_SOURCE_MAP_URL
 "
 +
 cx
 :
 Context
 +
-source
+sourceId
 :
-Source
+SourceId
 |
 }
 |
