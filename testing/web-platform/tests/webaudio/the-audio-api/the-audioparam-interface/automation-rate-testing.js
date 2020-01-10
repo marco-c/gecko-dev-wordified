@@ -484,7 +484,7 @@ context
 .
 destination
 .
-numberOfChannels
+channelCount
 }
 )
 ;
