@@ -2636,7 +2636,14 @@ HadOriginalOpener
 const
 {
 return
-mHadOriginalOpener
+GetBrowsingContext
+(
+)
+-
+>
+HadOriginalOpener
+(
+)
 ;
 }
 bool
