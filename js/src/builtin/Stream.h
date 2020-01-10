@@ -741,6 +741,11 @@ create
 JSContext
 *
 cx
+void
+*
+nsISupportsObject_alreadyAddreffed
+=
+nullptr
 HandleObject
 proto
 =
@@ -761,6 +766,11 @@ JS
 ReadableStreamUnderlyingSource
 *
 source
+void
+*
+nsISupportsObject_alreadyAddreffed
+=
+nullptr
 HandleObject
 proto
 =
