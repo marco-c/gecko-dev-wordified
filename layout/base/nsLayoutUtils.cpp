@@ -26963,6 +26963,13 @@ PAINT_RASTERIZE_TIME
 paintStart
 )
 ;
+presShell
+-
+>
+EndPaint
+(
+)
+;
 builder
 .
 Check
@@ -61976,7 +61983,7 @@ mUpdateType
 presShell
 -
 >
-ClearPendingVisualScrollUpdate
+AcknowledgePendingVisualScrollUpdate
 (
 )
 ;
