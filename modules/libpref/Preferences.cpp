@@ -21369,7 +21369,7 @@ shared
 memory
 .
 static
-InfallibleTArray
+nsTArray
 <
 dom
 :
@@ -22992,7 +22992,7 @@ gChangedDomPrefs
 gChangedDomPrefs
 =
 new
-InfallibleTArray
+nsTArray
 <
 dom
 :
