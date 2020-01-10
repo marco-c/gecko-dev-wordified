@@ -102,8 +102,6 @@ self
 -
 >
 &
-'
-static
 CStr
 ;
 fn
