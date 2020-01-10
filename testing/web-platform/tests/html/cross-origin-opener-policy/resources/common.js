@@ -283,7 +283,7 @@ test
 1
 ]
 {
-mainTest
+documentCOOPValueTitle
 }
 _to_
 {
