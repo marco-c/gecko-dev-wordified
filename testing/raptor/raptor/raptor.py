@@ -310,7 +310,13 @@ Benchmark
 from
 cmdline
 import
+(
 parse_args
+                     
+FIREFOX_ANDROID_APPS
+                     
+CHROMIUM_DISTROS
+)
 from
 control_server
 import
@@ -694,20 +700,7 @@ self
 .
 firefox_android_apps
 =
-[
-'
-fennec
-'
-'
-geckoview
-'
-'
-refbrow
-'
-'
-fenix
-'
-]
+FIREFOX_ANDROID_APPS
         
 #
 debug
@@ -2245,6 +2238,23 @@ cmd
 line
 )
         
+chrome_apps
+=
+CHROMIUM_DISTROS
++
+[
+"
+chrome
+-
+android
+"
+"
+chromium
+-
+android
+"
+]
+        
 if
 self
 .
@@ -2255,16 +2265,7 @@ app
 '
 ]
 in
-[
-"
-chrome
-"
-"
-chrome
--
-android
-"
-]
+chrome_apps
 :
             
 self
@@ -7920,11 +7921,8 @@ elif
 args
 .
 app
-=
-=
-"
-chrome
-"
+in
+CHROMIUM_DISTROS
 :
         
 raptor_class

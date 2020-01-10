@@ -85,6 +85,8 @@ Profile
     
 ChromeProfile
     
+ChromiumProfile
+    
 FirefoxProfile
     
 ThunderbirdProfile
@@ -122,6 +124,12 @@ chrome
 '
 :
 ChromeContext
+        
+'
+chromium
+'
+:
+ChromiumContext
         
 '
 default
@@ -901,3 +909,13 @@ object
 profile_class
 =
 ChromeProfile
+class
+ChromiumContext
+(
+object
+)
+:
+    
+profile_class
+=
+ChromiumProfile

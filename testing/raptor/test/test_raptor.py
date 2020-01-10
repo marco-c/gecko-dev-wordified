@@ -258,6 +258,13 @@ chrome
 ]
                          
 [
+RaptorDesktopChrome
+"
+chromium
+"
+]
+                         
+[
 RaptorAndroid
 "
 fennec
@@ -589,6 +596,17 @@ xfail
 (
 '
 chrome
+'
+)
+    
+pytest
+.
+mark
+.
+xfail
+(
+'
+chromium
 '
 )
 ]

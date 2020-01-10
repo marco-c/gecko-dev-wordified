@@ -259,7 +259,7 @@ result
 '
 :
 '
-chrome
+chromium
 -
 linux
 .
@@ -301,7 +301,7 @@ result
 '
 :
 '
-chrome
+chromium
 -
 win32
 .
@@ -343,7 +343,7 @@ result
 '
 :
 '
-chrome
+chromium
 -
 win64
 .
@@ -385,7 +385,7 @@ result
 '
 :
 '
-chrome
+chromium
 -
 mac
 .
@@ -941,7 +941,7 @@ tmppath
 '
 tmp
 -
-chrome
+chromium
 .
 zip
 '
@@ -1122,7 +1122,7 @@ zip
         
 )
     
-chrome_dir
+chromium_dir
 =
 os
 .
@@ -1145,7 +1145,7 @@ path
 .
 join
 (
-chrome_dir
+chromium_dir
 '
 .
 REVISION
