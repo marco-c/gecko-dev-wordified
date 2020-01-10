@@ -632,8 +632,11 @@ mXHRParamsAllowed
 bool
 mPrincipalIsSystem
 ;
-bool
-mStorageAllowed
+nsContentUtils
+:
+:
+StorageAccess
+mStorageAccess
 ;
 bool
 mFirstPartyStorageAccessGranted
