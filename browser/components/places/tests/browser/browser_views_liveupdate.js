@@ -2004,7 +2004,7 @@ popup
 =
 child
 .
-menupopup
+lastElementChild
 ;
 popup
 .
