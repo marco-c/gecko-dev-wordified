@@ -676,6 +676,9 @@ class
 ProfilerBacktrace
 ;
 class
+ProfilerCodeAddressService
+;
+class
 ProfilerMarkerPayload
 ;
 class
@@ -7509,6 +7512,11 @@ bool
 aIsShuttingDown
 =
 false
+ProfilerCodeAddressService
+*
+aService
+=
+nullptr
 )
 ;
 /
