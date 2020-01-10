@@ -248,6 +248,15 @@ include
 "
 mozilla
 /
+HashTable
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -1366,7 +1375,6 @@ const
 void
 ApplyUpdates
 (
-const
 ScrollUpdatesMap
 &
 aUpdates
@@ -1537,10 +1545,7 @@ the
 mScrollMetadatas
 array
 .
-std
-:
-:
-map
+HashMap
 <
 ScrollableLayerGuid
 :
