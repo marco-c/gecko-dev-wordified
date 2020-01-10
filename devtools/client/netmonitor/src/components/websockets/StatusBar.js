@@ -362,7 +362,7 @@ UPDATED_WS_SUMMARY_PROPS
 count
 "
 "
-totalMillis
+totalMs
 "
 "
 totalSize
@@ -457,7 +457,7 @@ const
 {
 count
 totalSize
-totalMillis
+totalMs
 }
 =
 summary
@@ -516,7 +516,7 @@ totalMillisText
 =
 getFormattedTime
 (
-totalMillis
+totalMs
 )
 ;
 return

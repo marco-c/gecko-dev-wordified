@@ -543,7 +543,7 @@ PropTypes
 array
 .
 isRequired
-firstRequestStartedMillis
+firstRequestStartedMs
 :
 PropTypes
 .
@@ -1992,7 +1992,7 @@ const
 connector
 columns
 displayedRequests
-firstRequestStartedMillis
+firstRequestStartedMs
 onCauseBadgeMouseDown
 onSecurityIconMouseDown
 onWaterfallMouseDown
@@ -2118,7 +2118,7 @@ blocked
 item
 .
 blockedReason
-firstRequestStartedMillis
+firstRequestStartedMs
 fromCache
 :
 item
@@ -2307,13 +2307,13 @@ getDisplayedRequests
 (
 state
 )
-firstRequestStartedMillis
+firstRequestStartedMs
 :
 state
 .
 requests
 .
-firstStartedMillis
+firstStartedMs
 selectedRequest
 :
 getSelectedRequest

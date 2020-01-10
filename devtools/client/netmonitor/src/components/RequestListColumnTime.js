@@ -234,7 +234,7 @@ PropTypes
 object
 .
 isRequired
-firstRequestStartedMillis
+firstRequestStartedMs
 :
 PropTypes
 .
@@ -364,7 +364,7 @@ props
 {
 const
 {
-firstRequestStartedMillis
+firstRequestStartedMs
 item
 type
 }
@@ -385,7 +385,7 @@ return
 getStartTime
 (
 item
-firstRequestStartedMillis
+firstRequestStartedMs
 )
 ;
 case
@@ -397,7 +397,7 @@ return
 getEndTime
 (
 item
-firstRequestStartedMillis
+firstRequestStartedMs
 )
 ;
 case
@@ -409,7 +409,7 @@ return
 getResponseTime
 (
 item
-firstRequestStartedMillis
+firstRequestStartedMs
 )
 ;
 case

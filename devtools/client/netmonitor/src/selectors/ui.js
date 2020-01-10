@@ -138,7 +138,7 @@ if
 (
 requests
 .
-firstStartedMillis
+firstStartedMs
 =
 =
 =
@@ -160,7 +160,7 @@ null
 ;
 }
 const
-lastEventMillis
+lastEventMs
 =
 Math
 .
@@ -168,7 +168,7 @@ max
 (
 requests
 .
-lastEndedMillis
+lastEndedMs
 timingMarkers
 .
 firstDocumentDOMContentLoadedTimestamp
@@ -180,11 +180,11 @@ firstDocumentLoadTimestamp
 const
 longestWidth
 =
-lastEventMillis
+lastEventMs
 -
 requests
 .
-firstStartedMillis
+firstStartedMs
 ;
 /
 /

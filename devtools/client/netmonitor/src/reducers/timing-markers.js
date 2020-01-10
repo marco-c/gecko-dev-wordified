@@ -120,7 +120,7 @@ state
 ;
 const
 {
-startedMillis
+startedMs
 }
 =
 action
@@ -129,7 +129,7 @@ data
 ;
 if
 (
-startedMillis
+startedMs
 <
 state
 .
@@ -140,7 +140,7 @@ nextState
 .
 firstDocumentRequestStartTimestamp
 =
-startedMillis
+startedMs
 ;
 }
 return

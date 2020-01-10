@@ -761,7 +761,7 @@ contentSize
 transferredSize
 "
 "
-startedMillis
+startedMs
 "
 "
 totalTime
@@ -785,7 +785,7 @@ UPDATED_REQ_PROPS
 =
 [
 "
-firstRequestStartedMillis
+firstRequestStartedMs
 "
 "
 index
@@ -1059,7 +1059,7 @@ props
 connector
 "
 "
-firstRequestStartedMillis
+firstRequestStartedMs
 "
 {
 type
@@ -1086,7 +1086,7 @@ props
 connector
 "
 "
-firstRequestStartedMillis
+firstRequestStartedMs
 "
 {
 type
@@ -1113,7 +1113,7 @@ props
 connector
 "
 "
-firstRequestStartedMillis
+firstRequestStartedMs
 "
 {
 type
@@ -1140,7 +1140,7 @@ props
 connector
 "
 "
-firstRequestStartedMillis
+firstRequestStartedMs
 "
 {
 type
@@ -1167,7 +1167,7 @@ props
 connector
 "
 "
-firstRequestStartedMillis
+firstRequestStartedMs
 "
 {
 type
@@ -1247,7 +1247,7 @@ PropTypes
 bool
 .
 isRequired
-firstRequestStartedMillis
+firstRequestStartedMs
 :
 PropTypes
 .
@@ -1565,7 +1565,7 @@ columns
 item
 index
 isSelected
-firstRequestStartedMillis
+firstRequestStartedMs
 fromCache
 onDoubleClick
 onContextMenu
@@ -1818,7 +1818,7 @@ RequestListColumnWaterfall
 (
 {
 connector
-firstRequestStartedMillis
+firstRequestStartedMs
 item
 onWaterfallMouseDown
 }
