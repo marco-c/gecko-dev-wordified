@@ -346,8 +346,8 @@ IDWriteFontFace
 aFontFace
 SkFontStyle
 aStyle
-bool
-aForceGDI
+DWRITE_RENDERING_MODE
+aRenderingMode
 float
 aGamma
 float

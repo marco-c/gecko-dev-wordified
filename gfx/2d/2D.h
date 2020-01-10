@@ -12014,8 +12014,8 @@ Float
 aSize
 bool
 aUseEmbeddedBitmap
-bool
-aForceGDIMode
+int
+aRenderingMode
 IDWriteRenderingParams
 *
 aParams
