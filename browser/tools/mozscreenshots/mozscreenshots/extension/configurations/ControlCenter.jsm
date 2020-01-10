@@ -436,7 +436,7 @@ contentblocking
 .
 introCount
 "
-20
+5
 )
 ;
 }
