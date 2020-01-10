@@ -3082,6 +3082,13 @@ bool
 &
 aIsHandlingUserInput
 const
+bool
+&
+aDocumentHasUserInput
+const
+DOMTimeStamp
+aPageLoadTimestamp
+const
 TabId
 &
 aTabId

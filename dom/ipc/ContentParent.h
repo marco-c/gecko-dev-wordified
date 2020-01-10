@@ -2734,7 +2734,15 @@ aTopLevelPrincipal
 const
 bool
 &
-aIsTrusted
+aIsHandlingUserInput
+const
+bool
+&
+aDocumentHasUserInput
+const
+DOMTimeStamp
+&
+aPageLoadTimestamp
 const
 TabId
 &
