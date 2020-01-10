@@ -241,6 +241,10 @@ config
 "
 "
 from
+__future__
+import
+print_function
+from
 datetime
 import
 datetime
@@ -668,18 +672,22 @@ stderr
 :
                 
 print
->
->
+(
+message
+file
+=
 sys
 .
 stderr
-message
+)
             
 else
 :
                 
 print
+(
 message
+)
     
 def
 log

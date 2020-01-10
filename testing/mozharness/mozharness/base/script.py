@@ -109,6 +109,10 @@ mozharness
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 codecs
 from
@@ -4149,6 +4153,7 @@ except
 urllib2
 .
 HTTPError
+as
 e
 :
             
@@ -4190,6 +4195,7 @@ except
 urllib2
 .
 URLError
+as
 e
 :
             
@@ -4271,6 +4277,7 @@ except
 socket
 .
 timeout
+as
 e
 :
             
@@ -4304,6 +4311,7 @@ except
 socket
 .
 error
+as
 e
 :
             
@@ -6632,6 +6640,7 @@ html
         
 except
 IOError
+as
 e
 :
             
@@ -6668,6 +6677,7 @@ except
 shutil
 .
 Error
+as
 e
 :
             
@@ -7066,6 +7076,7 @@ close
             
 except
 IOError
+as
 e
 :
                 
@@ -7150,6 +7161,7 @@ shutil
 .
 Error
 )
+as
 e
 :
                 
@@ -7213,6 +7225,7 @@ shutil
 .
 Error
 )
+as
 e
 :
                 
@@ -8379,6 +8392,7 @@ open_mode
         
 except
 IOError
+as
 err
 :
             
@@ -9628,6 +9642,7 @@ True
             
 except
 retry_exceptions
+as
 e
 :
                 
@@ -12291,6 +12306,7 @@ return
         
 except
 OSError
+as
 e
 :
             
@@ -18593,6 +18609,7 @@ __del__
 "
                     
 print
+(
 "
 #
 #
@@ -18613,6 +18630,7 @@ item
 message
 '
 ]
+)
     
 def
 add_summary

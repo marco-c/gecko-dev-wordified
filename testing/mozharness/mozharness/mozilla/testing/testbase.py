@@ -4958,7 +4958,7 @@ self
 chmod
 (
 abs_minidump_path
-0755
+0o755
 )
             
 self

@@ -3450,7 +3450,7 @@ self
 chmod
 (
 dump_syms
-0755
+0o755
 )
         
 python

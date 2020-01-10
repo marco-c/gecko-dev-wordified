@@ -92,6 +92,10 @@ operations
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 getpass
 import
@@ -325,7 +329,7 @@ os
 chmod
 (
 CREDENTIALS_PATH
-0600
+0o600
 )
     
 if
@@ -334,6 +338,7 @@ LDAP_PASSWORD
 :
         
 print
+(
 "
 Please
 enter
@@ -350,6 +355,7 @@ it
 )
 :
 "
+)
         
 LDAP_PASSWORD
 =

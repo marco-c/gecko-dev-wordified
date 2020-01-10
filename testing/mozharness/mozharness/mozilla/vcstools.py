@@ -286,7 +286,7 @@ self
 chmod
 (
 file_path
-0755
+0o755
 )
         
 else
