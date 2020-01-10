@@ -4552,7 +4552,6 @@ name
 ]
 =
 shorthand
-;
         
 return
 shorthand
@@ -4618,6 +4617,27 @@ prop
 in
 props
 :
+        
+if
+prop
+not
+in
+data
+.
+longhands_by_name
+:
+            
+assert
+data
+.
+product
+=
+=
+"
+servo
+"
+            
+continue
         
 prop
 =
@@ -4685,9 +4705,19 @@ def
 _remove_common_first_line_and_first_letter_properties
 (
 props
+product
 )
 :
     
+if
+product
+=
+=
+"
+gecko
+"
+:
+        
 props
 .
 remove
@@ -4701,7 +4731,7 @@ tab
 size
 "
 )
-    
+        
 props
 .
 remove
@@ -4710,7 +4740,7 @@ remove
 hyphens
 "
 )
-    
+        
 props
 .
 remove
@@ -4719,6 +4749,99 @@ remove
 line
 -
 break
+"
+)
+        
+props
+.
+remove
+(
+"
+text
+-
+align
+-
+last
+"
+)
+        
+props
+.
+remove
+(
+"
+text
+-
+emphasis
+-
+position
+"
+)
+        
+props
+.
+remove
+(
+"
+text
+-
+emphasis
+-
+style
+"
+)
+        
+props
+.
+remove
+(
+"
+text
+-
+emphasis
+-
+color
+"
+)
+        
+props
+.
+remove
+(
+"
+text
+-
+decoration
+-
+skip
+-
+ink
+"
+)
+        
+props
+.
+remove
+(
+"
+text
+-
+decoration
+-
+thickness
+"
+)
+        
+props
+.
+remove
+(
+"
+text
+-
+underline
+-
+offset
 "
 )
     
@@ -4741,19 +4864,6 @@ remove
 text
 -
 align
-"
-)
-    
-props
-.
-remove
-(
-"
-text
--
-align
--
-last
 "
 )
     
@@ -4797,87 +4907,7 @@ remove
 "
 text
 -
-emphasis
--
-position
-"
-)
-    
-props
-.
-remove
-(
-"
-text
--
-emphasis
--
-style
-"
-)
-    
-props
-.
-remove
-(
-"
-text
--
-emphasis
--
-color
-"
-)
-    
-props
-.
-remove
-(
-"
-text
--
 indent
-"
-)
-    
-props
-.
-remove
-(
-"
-text
--
-decoration
--
-skip
--
-ink
-"
-)
-    
-props
-.
-remove
-(
-"
-text
--
-decoration
--
-thickness
-"
-)
-    
-props
-.
-remove
-(
-"
-text
--
-underline
--
-offset
 "
 )
 class
@@ -5125,7 +5155,6 @@ data
 padding
 "
 )
-\
           
 +
 PropertyRestrictions
@@ -5137,7 +5166,6 @@ data
 margin
 "
 )
-\
           
 +
 PropertyRestrictions
@@ -5151,7 +5179,6 @@ css
 fonts
 "
 )
-\
           
 +
 PropertyRestrictions
@@ -5165,7 +5192,6 @@ css
 backgrounds
 "
 )
-\
           
 +
 PropertyRestrictions
@@ -5179,7 +5205,6 @@ css
 text
 "
 )
-\
           
 +
 PropertyRestrictions
@@ -5193,7 +5218,6 @@ css
 shapes
 "
 )
-\
           
 +
 PropertyRestrictions
@@ -5220,6 +5244,9 @@ props
 _remove_common_first_line_and_first_letter_properties
 (
 props
+data
+.
+product
 )
         
 return
@@ -5372,7 +5399,6 @@ css
 fonts
 "
 )
-\
           
 +
 PropertyRestrictions
@@ -5386,7 +5412,6 @@ css
 backgrounds
 "
 )
-\
           
 +
 PropertyRestrictions
@@ -5400,7 +5425,6 @@ css
 text
 "
 )
-\
           
 +
 PropertyRestrictions
@@ -5490,6 +5514,9 @@ shadow
 _remove_common_first_line_and_first_letter_properties
 (
 props
+data
+.
+product
 )
         
 return
@@ -5884,7 +5911,6 @@ text
 decoration
 "
 )
-\
           
 +
 PropertyRestrictions
@@ -5896,7 +5922,6 @@ data
 background
 "
 )
-\
           
 +
 PropertyRestrictions
@@ -5908,7 +5933,6 @@ data
 outline
 "
 )
-\
           
 +
 PropertyRestrictions

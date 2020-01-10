@@ -181,6 +181,9 @@ Au
 ;
 use
 euclid
+;
+use
+euclid
 :
 :
 default
@@ -190,9 +193,6 @@ default
 Rect
 Transform3D
 }
-;
-use
-euclid
 ;
 use
 std
