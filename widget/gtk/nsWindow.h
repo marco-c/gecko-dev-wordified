@@ -1707,6 +1707,11 @@ return
 mIsDestroyed
 ;
 }
+bool
+IsWaylandPopup
+(
+)
+;
 void
 DispatchDragEvent
 (
@@ -3329,11 +3334,6 @@ override
 ;
 void
 ForceTitlebarRedraw
-(
-)
-;
-bool
-IsWaylandPopup
 (
 )
 ;
