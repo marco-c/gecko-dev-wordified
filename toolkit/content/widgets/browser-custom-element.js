@@ -7666,9 +7666,7 @@ undefined
 enableDisableCommandsRemoteOnly
 (
 aAction
-aEnabledLength
 aEnabledCommands
-aDisabledLength
 aDisabledCommands
 )
 {
@@ -7686,9 +7684,7 @@ _controller
 enableDisableCommands
 (
 aAction
-aEnabledLength
 aEnabledCommands
-aDisabledLength
 aDisabledCommands
 )
 ;
@@ -10971,7 +10967,6 @@ backgroundColor
 }
 dropLinks
 (
-aLinksCount
 aLinks
 aTriggeringPrincipal
 )
@@ -11003,7 +10998,9 @@ i
 ;
 i
 <
-aLinksCount
+aLinks
+.
+length
 ;
 i
 +
