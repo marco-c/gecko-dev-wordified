@@ -636,6 +636,7 @@ break
 }
 }
 ;
+}
 this
 .
 richlistbox
@@ -664,7 +665,6 @@ this
 listEvents
 )
 ;
-}
 }
 get
 richlistbox
@@ -1388,7 +1388,7 @@ if
 !
 this
 .
-_initialized
+_richlistbox
 )
 {
 this
@@ -1396,12 +1396,6 @@ this
 initialize
 (
 )
-;
-this
-.
-_initialized
-=
-true
 ;
 }
 if
