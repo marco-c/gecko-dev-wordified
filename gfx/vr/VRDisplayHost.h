@@ -426,6 +426,11 @@ GetIsConnected
 (
 )
 ;
+void
+ShutdownSubmitThread
+(
+)
+;
 class
 AutoRestoreRenderState
 {
