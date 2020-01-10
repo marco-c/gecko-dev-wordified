@@ -313,13 +313,6 @@ endif
 nsIHTMLReflow
 overrides
 virtual
-void
-MarkIntrinsicISizesDirty
-(
-)
-override
-;
-virtual
 nscoord
 GetMinISize
 (
