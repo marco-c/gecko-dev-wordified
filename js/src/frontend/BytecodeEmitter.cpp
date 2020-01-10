@@ -47081,12 +47081,6 @@ LabeledStatement
 labeledStmt
 )
 {
-LabelEmitter
-label
-(
-this
-)
-;
 RootedAtom
 name
 (
@@ -47097,6 +47091,12 @@ labeledStmt
 label
 (
 )
+)
+;
+LabelEmitter
+label
+(
+this
 )
 ;
 if
