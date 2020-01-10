@@ -3484,6 +3484,9 @@ bool
 aSkipContentSniffing
 uint32_t
 aRequestBlockingReason
+nsINode
+*
+aLoadingContext
 )
 :
 mLoadingPrincipal
@@ -3533,6 +3536,13 @@ aInitialClientInfo
 mController
 (
 aController
+)
+mLoadingContext
+(
+do_GetWeakReference
+(
+aLoadingContext
+)
 )
 mSecurityFlags
 (
