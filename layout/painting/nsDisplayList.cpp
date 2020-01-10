@@ -8834,6 +8834,12 @@ Clear
 (
 )
 ;
+mEffectsUpdates
+.
+Clear
+(
+)
+;
 FreeClipChains
 (
 )
