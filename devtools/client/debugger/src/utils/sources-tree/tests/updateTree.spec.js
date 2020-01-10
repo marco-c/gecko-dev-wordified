@@ -300,7 +300,9 @@ name
 "
 type
 :
-1
+"
+worker
+"
 name
 :
 "

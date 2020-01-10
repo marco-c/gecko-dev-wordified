@@ -1648,7 +1648,9 @@ name
 "
 type
 :
-1
+"
+worker
+"
 }
 ]
 }
@@ -1815,7 +1817,9 @@ name
 "
 type
 :
-1
+"
+worker
+"
 name
 :
 "
@@ -1991,7 +1995,9 @@ name
 "
 type
 :
-1
+"
+worker
+"
 }
 {
 actor
@@ -2021,7 +2027,9 @@ js
 "
 type
 :
-2
+"
+worker
+"
 }
 ]
 }
