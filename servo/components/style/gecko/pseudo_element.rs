@@ -1415,10 +1415,12 @@ restricted
 )
 =
 >
+{
 PropertyFlags
 :
 :
 APPLIES_TO_MARKER
+}
 _
 =
 >
