@@ -14561,6 +14561,16 @@ pref
 "
 dom
 .
+beforeunload_timeout_ms
+"
+1000
+)
+;
+pref
+(
+"
+dom
+.
 disable_window_flip
 "
 false
