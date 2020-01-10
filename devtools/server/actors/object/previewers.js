@@ -1064,7 +1064,12 @@ items
 .
 push
 (
-null
+hooks
+.
+createValueGrip
+(
+undefined
+)
 )
 ;
 }
