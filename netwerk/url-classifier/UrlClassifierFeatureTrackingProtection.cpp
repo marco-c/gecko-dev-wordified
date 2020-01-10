@@ -777,10 +777,6 @@ UrlClassifierCommon
 IsAllowListed
 (
 aChannel
-AntiTrackingCommon
-:
-:
-eTrackingProtection
 )
 ;
 /

@@ -768,10 +768,6 @@ UrlClassifierCommon
 IsAllowListed
 (
 aChannel
-AntiTrackingCommon
-:
-:
-eCryptomining
 )
 ;
 /

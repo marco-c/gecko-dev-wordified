@@ -756,10 +756,6 @@ UrlClassifierCommon
 AnnotateChannel
 (
 aChannel
-AntiTrackingCommon
-:
-:
-eSocialTracking
 flags
 nsIWebProgressListener
 :

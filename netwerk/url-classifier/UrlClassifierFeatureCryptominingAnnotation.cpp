@@ -718,10 +718,6 @@ UrlClassifierCommon
 AnnotateChannel
 (
 aChannel
-AntiTrackingCommon
-:
-:
-eCryptomining
 flags
 nsIWebProgressListener
 :

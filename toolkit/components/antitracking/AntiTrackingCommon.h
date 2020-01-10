@@ -1008,17 +1008,6 @@ int
 aAllowMode
 )
 ;
-enum
-ContentBlockingAllowListPurpose
-{
-eStorageChecks
-eTrackingProtection
-eTrackingAnnotations
-eFingerprinting
-eCryptomining
-eSocialTracking
-}
-;
 /
 /
 Check
@@ -1044,8 +1033,6 @@ nsIURI
 aTopWinURI
 bool
 aIsPrivateBrowsing
-ContentBlockingAllowListPurpose
-aPurpose
 bool
 &
 aIsAllowListed

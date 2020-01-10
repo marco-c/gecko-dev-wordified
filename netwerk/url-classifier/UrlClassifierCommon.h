@@ -340,11 +340,6 @@ AnnotateChannel
 nsIChannel
 *
 aChannel
-AntiTrackingCommon
-:
-:
-ContentBlockingAllowListPurpose
-aPurpose
 uint32_t
 aClassificationFlags
 uint32_t
@@ -358,11 +353,6 @@ IsAllowListed
 nsIChannel
 *
 aChannel
-AntiTrackingCommon
-:
-:
-ContentBlockingAllowListPurpose
-aPurpose
 )
 ;
 static
