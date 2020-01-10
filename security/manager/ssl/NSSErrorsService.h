@@ -86,6 +86,9 @@ nsCOMPtr
 h
 "
 #
+ifdef
+MOZ_NEW_CERT_STORAGE
+#
 include
 "
 nsILineInputStream
@@ -99,6 +102,8 @@ nsISafeOutputStream
 .
 h
 "
+#
+endif
 #
 include
 "
