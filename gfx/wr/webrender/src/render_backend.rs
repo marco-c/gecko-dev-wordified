@@ -3565,7 +3565,6 @@ pan
 self
 .
 dynamic_properties
-None
 )
 ;
 self
