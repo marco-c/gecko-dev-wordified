@@ -9553,6 +9553,14 @@ PCImplSignalingState
 :
 :
 SignalingStable
+&
+&
+!
+transportId
+.
+empty
+(
+)
 )
 {
 mMedia
