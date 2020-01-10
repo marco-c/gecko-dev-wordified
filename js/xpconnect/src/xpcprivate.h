@@ -2690,16 +2690,6 @@ XPCJSContext
 public
 :
 static
-mozilla
-:
-:
-Atomic
-<
-uint64_t
->
-gTabIdToCancelContentJS
-;
-static
 void
 InitTLS
 (
