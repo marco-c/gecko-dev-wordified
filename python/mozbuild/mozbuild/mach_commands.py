@@ -11458,6 +11458,40 @@ GIT
 '
 ]
         
+#
+If
+we
+'
+re
+building
+Thunderbird
+we
+should
+be
+checking
+for
+comm
+-
+central
+artifacts
+.
+        
+topsrcdir
+=
+self
+.
+substs
+.
+get
+(
+'
+commtopsrcdir
+'
+self
+.
+topsrcdir
+)
+        
 from
 mozbuild
 .
@@ -11499,8 +11533,6 @@ git
                               
 topsrcdir
 =
-self
-.
 topsrcdir
                               
 download_tests
