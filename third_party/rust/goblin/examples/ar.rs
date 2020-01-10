@@ -12,10 +12,6 @@ ar
 crt1
 .
 a
-extern
-crate
-goblin
-;
 use
 goblin
 :

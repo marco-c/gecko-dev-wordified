@@ -1,7 +1,3 @@
-extern
-crate
-goblin
-;
 use
 std
 :
@@ -135,6 +131,9 @@ target_pointer_width
 )
 ]
 use
+crate
+:
+:
 elf
 :
 :
