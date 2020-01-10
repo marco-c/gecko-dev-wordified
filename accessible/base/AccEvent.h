@@ -136,6 +136,9 @@ a11y
 class
 DocAccessible
 ;
+class
+EventQueue
+;
 /
 /
 Constants
