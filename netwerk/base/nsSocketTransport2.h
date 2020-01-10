@@ -2306,6 +2306,9 @@ mEsniQueried
 bool
 mEsniUsed
 ;
+bool
+mResolvedByTRR
+;
 /
 /
 mNetAddr
