@@ -159,6 +159,9 @@ WorkerList
 mainThread
 :
 MainThread
+isWebExtension
+:
+boolean
 }
 ;
 export
@@ -195,6 +198,9 @@ name
 "
 "
 }
+isWebExtension
+:
+false
 }
 ;
 }
@@ -255,6 +261,11 @@ mainThread
 "
 )
 }
+isWebExtension
+:
+action
+.
+isWebExtension
 }
 ;
 case
