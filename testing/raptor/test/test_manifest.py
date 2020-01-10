@@ -393,6 +393,12 @@ ms
 '
     
 '
+alert_change_type
+'
+:
+None
+    
+'
 alert_on
 '
 :
