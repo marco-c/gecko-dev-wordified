@@ -1115,9 +1115,9 @@ browserWin
 .
 gBrowser
 .
-tabContainer
+tabs
 .
-childElementCount
+length
 ;
 i
 +
