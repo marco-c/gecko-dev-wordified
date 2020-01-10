@@ -934,6 +934,11 @@ InitSingleFaceList
 (
 )
 ;
+void
+InitAliasesForSingleFaceList
+(
+)
+;
 /
 /
 initialize
