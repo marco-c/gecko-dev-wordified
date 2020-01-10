@@ -4762,6 +4762,15 @@ u
 infinity
 "
 )
+|
+|
+consume
+(
+u
+"
+inf
+"
+)
 )
 {
 return
