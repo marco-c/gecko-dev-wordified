@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -220,11 +224,7 @@ else
 :
             
 print
->
->
-sys
-.
-stderr
+(
 "
 Could
 not
@@ -235,6 +235,12 @@ s
 "
 %
 script_abs_path
+file
+=
+sys
+.
+stderr
+)
             
 sys
 .
@@ -957,6 +963,7 @@ pid
 :
             
 print
+(
 "
 TEST
 -
@@ -973,6 +980,7 @@ starting
 server
 .
 "
+)
             
 return
 2
@@ -1085,7 +1093,7 @@ remotereftests
 py
 |
 "
-                   
+                  
 "
 Timed
 out
@@ -1299,11 +1307,13 @@ verbose
 True
             
 print
+(
 "
 set
 verbose
 !
 "
+)
         
 self
 .
@@ -2102,7 +2112,7 @@ for
 %
 s
 "
-                   
+                  
 "
 please
 specify
@@ -2232,7 +2242,7 @@ for
 %
 s
 "
-                   
+                  
 "
 please
 specify
@@ -2802,6 +2812,7 @@ Exception
 :
             
 print
+(
 "
 Automation
 Error
@@ -2813,6 +2824,7 @@ profiledir
 to
 device
 "
+)
             
 raise
         
@@ -2892,6 +2904,7 @@ replace
 )
                     
 print
+(
 "
 %
 s
@@ -2900,13 +2913,16 @@ n
 "
 %
 sl
+)
             
 print
+(
 "
 Device
 info
 :
 "
+)
             
 devinfo
 =
@@ -2937,6 +2953,7 @@ list
 :
                     
 print
+(
 "
 %
 s
@@ -2944,6 +2961,7 @@ s
 "
 %
 category
+)
                     
 for
 item
@@ -2955,17 +2973,20 @@ category
 :
                         
 print
+(
 "
 %
 s
 "
 %
 item
+)
                 
 else
 :
                     
 print
+(
 "
 %
 s
@@ -2981,8 +3002,10 @@ devinfo
 category
 ]
 )
+)
             
 print
+(
 "
 Test
 root
@@ -2996,6 +3019,7 @@ self
 device
 .
 test_root
+)
         
 except
 ADBTimeoutError
@@ -3010,6 +3034,7 @@ e
 :
             
 print
+(
 "
 WARNING
 :
@@ -3025,6 +3050,7 @@ s
 str
 (
 e
+)
 )
     
 def
@@ -3391,6 +3417,7 @@ debug
 :
         
 print
+(
 "
 changing
 timeout
@@ -3405,10 +3432,12 @@ to
 600
 seconds
 "
+              
 %
 options
 .
 timeout
+)
         
 options
 .
@@ -3624,6 +3653,7 @@ Exception
 :
         
 print
+(
 "
 Automation
 Error
@@ -3634,6 +3664,7 @@ while
 running
 tests
 "
+)
         
 traceback
 .

@@ -65,6 +65,10 @@ harness
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 copy
 import
@@ -180,6 +184,17 @@ mozscreenshot
 import
 printstatus
 dump_screen
+from
+six
+import
+reraise
+string_types
+from
+six
+.
+moves
+import
+range
 try
 :
     
@@ -196,8 +211,11 @@ import
 Marionette
 except
 ImportError
+as
 e
 :
+#
+noqa
     
 #
 Defer
@@ -223,6 +241,8 @@ raise
 (
 e
 )
+#
+noqa
     
 Marionette
 =
@@ -671,6 +691,7 @@ printLock
 :
             
 print
+(
 "
 Starting
 thread
@@ -679,6 +700,7 @@ with
 self
 .
 cmdargs
+)
             
 sys
 .
@@ -722,7 +744,9 @@ printLock
 :
                 
 print
+(
 chunk
+)
                 
 sys
 .
@@ -3275,6 +3299,7 @@ thispref
 :
                 
 print
+(
 "
 Error
 :
@@ -3288,6 +3313,7 @@ setpref
 "
 +
 v
+)
                 
 sys
 .
@@ -3655,6 +3681,7 @@ ix
 :
                 
 print
+(
 "
 Error
 :
@@ -3668,6 +3695,7 @@ setenv
 "
 +
 v
+)
                 
 return
 None
@@ -4029,7 +4057,7 @@ options
 for
 i
 in
-xrange
+range
 (
 VERIFY_REPEAT_SINGLE_BROWSER
 )
@@ -4141,7 +4169,7 @@ MOZ_CHAOSMODE
 for
 i
 in
-xrange
+range
 (
 VERIFY_REPEAT_SINGLE_BROWSER
 )
@@ -5408,6 +5436,7 @@ total
 amount
         
 print
+(
 '
 REFTEST
 INFO
@@ -5416,6 +5445,7 @@ Result
 summary
 :
 '
+)
         
 for
 (
@@ -5467,6 +5497,7 @@ categories
 )
             
 print
+(
 '
 REFTEST
 INFO
@@ -5489,6 +5520,7 @@ total
 ]
 )
 +
+                  
 '
 (
 '
@@ -5498,6 +5530,7 @@ details
 '
 )
 '
+)
         
 return
 int
@@ -6884,9 +6917,12 @@ tb
 marionette_exception
             
 raise
+reraise
+(
 exc
 value
 tb
+)
         
 self
 .
@@ -7245,7 +7281,7 @@ isinstance
 self
 .
 lastTest
-basestring
+string_types
 )
 :
                     
