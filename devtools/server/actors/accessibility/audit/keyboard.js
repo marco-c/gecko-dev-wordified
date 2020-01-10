@@ -352,6 +352,11 @@ Ci
 .
 nsIAccessibleRole
 .
+ROLE_PARENT_MENUITEM
+Ci
+.
+nsIAccessibleRole
+.
 ROLE_PUSHBUTTON
 Ci
 .
