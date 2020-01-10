@@ -9782,6 +9782,14 @@ category
 testing
 '
              
+conditions
+=
+[
+conditions
+.
+is_non_artifact_build
+]
+             
 description
 =
 "
