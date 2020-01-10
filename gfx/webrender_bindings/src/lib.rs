@@ -90,10 +90,6 @@ rayon
 ;
 extern
 crate
-num_cpus
-;
-extern
-crate
 thread_profiler
 ;
 extern
