@@ -438,11 +438,6 @@ state
 {
 return
 (
-this
-.
-enabled
-&
-&
 (
 state
 &
@@ -1115,11 +1110,6 @@ state
 {
 return
 (
-this
-.
-enabled
-&
-&
 (
 state
 &
