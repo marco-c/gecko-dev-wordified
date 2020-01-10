@@ -335,10 +335,6 @@ _PlatformData
 {
 }
 ;
-using
-namespace
-std
-;
 bool
 pluginSupportsWindowMode
 (
@@ -553,6 +549,9 @@ pluginDoInternalConsistencyCheck
 InstanceData
 *
 instanceData
+std
+:
+:
 string
 &
 error

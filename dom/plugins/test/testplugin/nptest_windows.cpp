@@ -367,10 +367,6 @@ d2d1
 .
 h
 >
-using
-namespace
-std
-;
 void
 SetSubclass
 (
@@ -4764,6 +4760,9 @@ const
 char
 *
 msg
+std
+:
+:
 string
 &
 error
@@ -4826,6 +4825,9 @@ pluginDoInternalConsistencyCheck
 InstanceData
 *
 instanceData
+std
+:
+:
 string
 &
 error
