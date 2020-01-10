@@ -341,15 +341,11 @@ config
 |
 crashes
 |
-customizing
-|
 downloads
-|
-healthreport
 |
 license
 |
-permissions
+logins
 |
 preferences
 |
