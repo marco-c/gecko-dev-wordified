@@ -249,6 +249,25 @@ now
 )
         
 #
+datetime
+:
+Optional
+the
+last
+time
+update
+(
+)
+ran
+.
+        
+self
+.
+last_update_time
+=
+None
+        
+#
 Compute
 the
 width
@@ -595,13 +614,17 @@ the
 bar
 .
         
-dt
+now
 =
 datetime
 .
 now
 (
 )
+        
+dt
+=
+now
 -
 self
 .
@@ -670,6 +693,12 @@ stdout
 flush
 (
 )
+        
+self
+.
+last_update_time
+=
+now
     
 def
 poke
@@ -683,6 +712,26 @@ not
 self
 .
 prior
+:
+            
+return
+        
+if
+datetime
+.
+now
+(
+)
+-
+self
+.
+last_update_time
+<
+self
+.
+update_granularity
+(
+)
 :
             
 return
