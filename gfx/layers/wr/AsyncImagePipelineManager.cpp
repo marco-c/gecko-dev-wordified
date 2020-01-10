@@ -1277,6 +1277,7 @@ mImageHost
 >
 GetAsTextureHostForComposite
 (
+this
 )
 ;
 TextureHost
