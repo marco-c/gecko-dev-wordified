@@ -8,6 +8,7 @@ strict
 globals
 MozXULElement
 Services
+useHtmlViews
 getHtmlBrowser
 htmlBrowserLoaded
 *
@@ -1637,6 +1638,9 @@ box
 )
 if
 (
+useHtmlViews
+&
+&
 ABUSE_REPORT_ENABLED
 )
 {

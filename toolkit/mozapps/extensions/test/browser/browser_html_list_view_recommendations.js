@@ -256,6 +256,16 @@ false
 "
 extensions
 .
+htmlaboutaddons
+.
+enabled
+"
+true
+]
+[
+"
+extensions
+.
 getAddons
 .
 discovery

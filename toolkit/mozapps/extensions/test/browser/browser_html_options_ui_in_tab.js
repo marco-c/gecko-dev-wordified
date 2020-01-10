@@ -70,6 +70,16 @@ extensions
 .
 htmlaboutaddons
 .
+enabled
+"
+true
+]
+[
+"
+extensions
+.
+htmlaboutaddons
+.
 inline
 -
 options
