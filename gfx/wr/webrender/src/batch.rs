@@ -6711,7 +6711,7 @@ i32
 RasterizationSpace
 :
 :
-Screen
+Local
 as
 i32
 get_shader_opacity
