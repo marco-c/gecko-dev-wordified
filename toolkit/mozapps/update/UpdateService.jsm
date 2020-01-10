@@ -2261,6 +2261,11 @@ closeHandle
 handle
 )
 {
+if
+(
+handle
+)
+{
 let
 lib
 =
@@ -2319,6 +2324,7 @@ close
 (
 )
 ;
+}
 }
 /
 *
@@ -13991,6 +13997,10 @@ closeHandle
 (
 gUpdateMutexHandle
 )
+;
+gUpdateMutexHandle
+=
+null
 ;
 }
 if
