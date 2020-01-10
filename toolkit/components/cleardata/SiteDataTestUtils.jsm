@@ -904,6 +904,16 @@ worker
 r
 .
 installing
+|
+|
+r
+.
+waiting
+|
+|
+r
+.
+active
 ;
 worker
 .
