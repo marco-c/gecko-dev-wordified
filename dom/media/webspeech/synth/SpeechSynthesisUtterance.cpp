@@ -241,10 +241,6 @@ mPitch
 (
 1
 )
-mState
-(
-STATE_NONE
-)
 mPaused
 (
 false
