@@ -2320,9 +2320,9 @@ this
 .
 dbg
 .
-enabled
-=
-false
+disable
+(
+)
 ;
 this
 .

@@ -113,8 +113,7 @@ test1
 const
 dbg
 =
-new
-Debugger
+makeDebugger
 (
 )
 ;
@@ -250,8 +249,8 @@ debuggerStatement
 ;
 dbg
 .
-enabled
-=
-false
+disable
+(
+)
 ;
 }
