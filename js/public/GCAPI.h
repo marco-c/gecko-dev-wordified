@@ -903,15 +903,15 @@ this
 far
 apart
 in
-time
+milliseconds
 will
 be
 considered
+*
 '
 high
 -
 frequency
-*
 GCs
 '
 .
@@ -944,6 +944,9 @@ of
 dynamic
 heap
 growth
+(
+MB
+)
 .
 *
 *
@@ -974,6 +977,9 @@ of
 dynamic
 heap
 growth
+(
+MB
+)
 .
 *
 *
@@ -1004,6 +1010,7 @@ bound
 of
 heap
 growth
+percentage
 .
 *
 *
@@ -1034,6 +1041,7 @@ bound
 of
 heap
 growth
+percentage
 .
 *
 *
@@ -1061,6 +1069,7 @@ JSGC_HIGH_FREQUENCY_HEAP_GROWTH_MIN
 *
 Heap
 growth
+percentage
 for
 low
 frequency
@@ -1469,7 +1478,9 @@ falls
 *
 below
 this
-threshold
+number
+of
+bytes
 .
 *
 *
