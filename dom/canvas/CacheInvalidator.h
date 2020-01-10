@@ -490,7 +490,7 @@ OnInvalidate
 =
 0
 ;
-InvalidatorListT
+void
 ResetInvalidators
 (
 InvalidatorListT
@@ -498,13 +498,6 @@ InvalidatorListT
 &
 )
 ;
-/
-/
-Returns
-the
-old
-list
-.
 void
 AddInvalidator
 (
