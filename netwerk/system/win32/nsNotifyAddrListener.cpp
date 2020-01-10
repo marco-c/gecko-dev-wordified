@@ -1359,7 +1359,7 @@ Accumulate
 Telemetry
 :
 :
-NETWORK_ID
+NETWORK_ID2
 1
 )
 ;
@@ -1382,7 +1382,7 @@ Accumulate
 Telemetry
 :
 :
-NETWORK_ID
+NETWORK_ID2
 2
 )
 ;
@@ -1780,7 +1780,7 @@ Accumulate
 Telemetry
 :
 :
-NETWORK_ID
+NETWORK_ID2
 0
 )
 ;
