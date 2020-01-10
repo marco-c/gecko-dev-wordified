@@ -6620,6 +6620,12 @@ ScopeKind
 :
 StrictNamedLambda
 :
+case
+ScopeKind
+:
+:
+FunctionLexical
+:
 if
 (
 MOZ_UNLIKELY

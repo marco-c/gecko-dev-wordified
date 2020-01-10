@@ -8326,6 +8326,8 @@ Scope
 scope
 Node
 body
+ScopeKind
+kind
 )
 {
 if
@@ -8374,6 +8376,8 @@ scope
 ParseNode
 *
 body
+ScopeKind
+kind
 )
 {
 if
@@ -8422,6 +8426,7 @@ newLexicalScope
 *
 bindings
 body
+kind
 )
 ;
 }
@@ -12133,6 +12138,10 @@ varScope
 (
 )
 body
+ScopeKind
+:
+:
+FunctionLexical
 )
 ;
 }
@@ -42542,6 +42551,10 @@ varScope
 (
 )
 stmtList
+ScopeKind
+:
+:
+FunctionLexical
 )
 ;
 if
@@ -43652,6 +43665,10 @@ varScope
 (
 )
 statementList
+ScopeKind
+:
+:
+FunctionLexical
 )
 ;
 if

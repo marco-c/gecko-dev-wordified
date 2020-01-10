@@ -30810,10 +30810,12 @@ else
 {
 kind
 =
-ScopeKind
-:
-:
-Lexical
+lexicalScope
+-
+>
+kind
+(
+)
 ;
 }
 if
