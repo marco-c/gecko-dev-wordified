@@ -1857,6 +1857,11 @@ nsString
 aLineNameLists
 )
 ;
+void
+NormalizeChildLists
+(
+)
+;
 /
 *
 *
