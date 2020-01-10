@@ -444,6 +444,15 @@ CLEARTYPE_QUALITY
 *
 /
 )
+\
+_
+(
+LayersWindowRecordingPath
+nsCString
+nsCString
+(
+)
+)
 /
 *
 Add
