@@ -888,6 +888,10 @@ media_queries
 ;
 pub
 mod
+owned_slice
+;
+pub
+mod
 parallel
 ;
 pub
@@ -1164,6 +1168,13 @@ servo_atoms
 :
 :
 Atom
+;
+pub
+use
+owned_slice
+:
+:
+OwnedSlice
 ;
 /
 /

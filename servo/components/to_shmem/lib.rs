@@ -2398,6 +2398,7 @@ to
 the
 slice
 .
+pub
 unsafe
 fn
 to_shmem_slice
