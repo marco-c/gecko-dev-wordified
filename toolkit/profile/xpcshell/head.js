@@ -2812,7 +2812,6 @@ getInstallHash
 let
 defaultPath
 =
-(
 profileData
 .
 installs
@@ -2823,7 +2822,6 @@ in
 profileData
 .
 installs
-)
 ?
 profileData
 .
