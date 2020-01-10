@@ -287,8 +287,8 @@ redux
 const
 {
 receiveProfile
-getRecordingPreferences
-setRecordingPreferences
+getRecordingPreferencesFromDebuggee
+setRecordingPreferencesOnDebuggee
 }
 =
 require
@@ -466,7 +466,7 @@ settings
 recordingSettingsFromPreferences
 :
 await
-getRecordingPreferences
+getRecordingPreferencesFromDebuggee
 (
 preferenceFront
 selectors
@@ -507,7 +507,7 @@ setRecordingPreferences
 )
 =
 >
-setRecordingPreferences
+setRecordingPreferencesOnDebuggee
 (
 preferenceFront
 selectors
