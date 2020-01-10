@@ -6317,6 +6317,10 @@ if
 mozinfo
 .
 isWin
+or
+mozinfo
+.
+isMac
 :
             
 #
