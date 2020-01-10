@@ -8655,9 +8655,7 @@ dbg
 .
 toolbox
 .
-win
-.
-document
+topDoc
 ;
 /
 /
@@ -8718,7 +8716,7 @@ dbg
 .
 toolbox
 .
-win
+topWindow
 )
 ;
 }
