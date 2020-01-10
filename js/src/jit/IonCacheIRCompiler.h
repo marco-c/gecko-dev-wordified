@@ -290,6 +290,8 @@ CodeOffset
 >
 stubJitCodeOffset_
 ;
+public
+:
 #
 ifdef
 DEBUG
@@ -298,6 +300,8 @@ calledPrepareVMCall_
 ;
 #
 endif
+private
+:
 bool
 savedLiveRegs_
 ;
@@ -342,16 +346,6 @@ masm
 const
 AutoSaveLiveRegisters
 &
-)
-;
-void
-callVMInternal
-(
-MacroAssembler
-&
-masm
-VMFunctionId
-id
 )
 ;
 template
