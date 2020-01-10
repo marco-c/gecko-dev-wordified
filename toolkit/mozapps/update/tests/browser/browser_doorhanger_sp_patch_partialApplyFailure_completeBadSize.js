@@ -30,7 +30,6 @@ already
 /
 retried
 .
-await
 SpecialPowers
 .
 pushPrefEnv
@@ -40,7 +39,7 @@ set
 :
 [
 [
-PREF_APP_UPDATE_DOWNLOAD_MAXATTEMPTS
+PREF_APP_UPDATE_DOWNLOADPROMPT_MAXATTEMPTS
 0
 ]
 ]
