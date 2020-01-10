@@ -722,6 +722,8 @@ destination
 "
 +
 view
+.
+name
 )
 ;
 }
