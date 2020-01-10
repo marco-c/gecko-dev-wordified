@@ -2104,6 +2104,7 @@ click
 await
 hidePanel
 ;
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -3548,6 +3549,7 @@ com
 "
 )
 ;
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -3611,6 +3613,7 @@ config
 "
 )
 ;
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -3687,6 +3690,7 @@ com
 "
 )
 ;
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -3770,6 +3774,7 @@ com
 "
 )
 ;
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -3817,6 +3822,7 @@ pattern
 "
 )
 ;
+await
 BrowserTestUtils
 .
 waitForCondition
