@@ -29447,7 +29447,6 @@ SetIgnoreUserModify
 true
 )
 ;
-}
 selectionController
 -
 >
@@ -29456,6 +29455,7 @@ SetCaretEnabled
 false
 )
 ;
+}
 nsFocusManager
 *
 fm
