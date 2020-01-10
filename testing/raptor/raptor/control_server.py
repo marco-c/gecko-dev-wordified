@@ -1,4 +1,13 @@
 #
+!
+/
+usr
+/
+bin
+/
+env
+python
+#
 This
 Source
 Code
@@ -99,13 +108,13 @@ RaptorLogger
 (
 component
 =
-'
+"
 raptor
 -
 control
 -
 server
-'
+"
 )
 here
 =
@@ -127,14 +136,11 @@ __file__
 def
 MakeCustomHandlerClass
 (
+    
 results_handler
-                           
 shutdown_browser
-                           
 handle_gecko_profile
-                           
 background_app
-                           
 foreground_app
 )
 :
@@ -228,7 +234,7 @@ type
 .
         
 The
-contol
+control
 server
 can
 be
@@ -274,6 +280,9 @@ key
 of
 the
 message
+for
+which
+the
 control
 server
 should
@@ -324,12 +333,10 @@ incoming
 message
 against
 wait_for_messages
-and
+;
 if
-it
-is
-        
 found
+        
 and
 its
 value
@@ -363,7 +370,8 @@ to
 False
 .
         
-Control
+The
+control
 server
 will
 stop
@@ -530,7 +538,6 @@ to
 stop
 waiting
 and
-to
 finish
         
 processing
@@ -576,7 +583,6 @@ to
 stop
 waiting
 and
-to
 finish
         
 processing
@@ -768,14 +774,14 @@ log_request
 self
 code
 =
-'
+"
 -
-'
+"
 size
 =
-'
+"
 -
-'
+"
 )
 :
             
@@ -814,8 +820,7 @@ for
 test
 settings
 from
-web
-ext
+webext
 runner
             
 self
@@ -844,19 +849,19 @@ tail
 .
 startswith
 (
-'
+"
 raptor
-'
+"
 )
 and
 tail
 .
 endswith
 (
-'
+"
 .
 json
-'
+"
 )
 :
                 
@@ -864,14 +869,14 @@ LOG
 .
 info
 (
-'
+"
 reading
 test
 settings
 from
 json
 /
-'
+"
 +
 tail
 )
@@ -902,7 +907,7 @@ self
 .
 send_header
 (
-'
+"
 Access
 -
 Control
@@ -910,26 +915,26 @@ Control
 Allow
 -
 Origin
-'
-'
+"
+"
 *
-'
+"
 )
                         
 self
 .
 send_header
 (
-'
+"
 Content
 -
 type
-'
-'
+"
+"
 application
 /
 json
-'
+"
 )
                         
 self
@@ -969,15 +974,14 @@ LOG
 .
 info
 (
-'
+"
 sent
 test
 settings
 to
-web
-ext
+webext
 runner
-'
+"
 )
                 
 except
@@ -990,11 +994,11 @@ LOG
 .
 info
 (
-'
+"
 control
 server
 exception
-'
+"
 )
                     
 LOG
@@ -1011,14 +1015,14 @@ LOG
 .
 info
 (
-'
+"
 received
 request
 for
 unknown
 file
 :
-'
+"
 +
 self
 .
@@ -1051,7 +1055,7 @@ self
 .
 send_header
 (
-'
+"
 Access
 -
 Control
@@ -1059,26 +1063,26 @@ Control
 Allow
 -
 Origin
-'
-'
+"
+"
 *
-'
+"
 )
             
 self
 .
 send_header
 (
-'
+"
 Content
 -
 type
-'
-'
+"
+"
 text
 /
 html
-'
+"
 )
             
 self
@@ -1097,11 +1101,11 @@ headers
 .
 getheader
 (
-'
+"
 content
 -
 length
-'
+"
 )
 )
             
@@ -1139,15 +1143,15 @@ post_body
 if
 data
 [
-'
+"
 type
-'
+"
 ]
 =
 =
-'
+"
 webext_status
-'
+"
 :
                 
 wait_key
@@ -1163,15 +1167,15 @@ s
 (
 data
 [
-'
+"
 type
-'
+"
 ]
 data
 [
-'
+"
 data
-'
+"
 ]
 )
             
@@ -1182,9 +1186,9 @@ wait_key
 =
 data
 [
-'
+"
 type
-'
+"
 ]
             
 if
@@ -1293,6 +1297,7 @@ LOG
 .
 error
 (
+                        
 "
 TEST
 -
@@ -1301,9 +1306,10 @@ UNEXPECTED
 ERROR
 |
 "
-                              
+                        
 "
-ControlServer
+control
+server
 wait
 %
 s
@@ -1312,14 +1318,15 @@ exceeded
 s
 seconds
 "
+                        
 %
-                              
 (
 wait_key
 MyHandler
 .
 wait_timeout
 )
+                    
 )
             
 if
@@ -1346,9 +1353,8 @@ False
 it
 was
 continued
-and
+so
 we
-just
 set
 it
 back
@@ -1362,8 +1368,6 @@ next
 time
 .
 If
-it
-was
 removed
 by
 clear
@@ -1378,10 +1382,8 @@ it
 will
 not
 cause
-a
-wait
-any
-more
+further
+waits
 .
                 
 MyHandler
@@ -1396,9 +1398,9 @@ True
 if
 data
 [
-'
+"
 type
-'
+"
 ]
 =
 =
@@ -1423,9 +1425,9 @@ str
 (
 data
 [
-'
+"
 data
-'
+"
 ]
 )
                 
@@ -1459,15 +1461,15 @@ filename
 elif
 data
 [
-'
+"
 type
-'
+"
 ]
 =
 =
-'
+"
 webext_results
-'
+"
 :
                 
 LOG
@@ -1480,9 +1482,9 @@ received
 +
 data
 [
-'
+"
 type
-'
+"
 ]
 +
 "
@@ -1493,9 +1495,9 @@ str
 (
 data
 [
-'
+"
 data
-'
+"
 ]
 )
 )
@@ -1508,18 +1510,18 @@ add
 (
 data
 [
-'
+"
 data
-'
+"
 ]
 )
             
 elif
 data
 [
-'
+"
 type
-'
+"
 ]
 =
 =
@@ -1542,9 +1544,9 @@ received
 +
 data
 [
-'
+"
 type
-'
+"
 ]
 +
 "
@@ -1555,9 +1557,9 @@ str
 (
 data
 [
-'
+"
 data
-'
+"
 ]
 )
 )
@@ -1567,9 +1569,9 @@ len
 (
 data
 [
-'
+"
 data
-'
+"
 ]
 )
 =
@@ -1579,9 +1581,9 @@ data
                     
 data
 [
-'
+"
 data
-'
+"
 ]
 .
 append
@@ -1609,52 +1611,52 @@ results_handler
 .
 add_page_timeout
 (
+                    
 str
 (
 data
 [
-'
+"
 data
-'
+"
 ]
 [
 0
 ]
 )
-                                                      
 str
 (
 data
 [
-'
+"
 data
-'
+"
 ]
 [
 1
 ]
 )
-                                                      
 dict
 (
 data
 [
-'
+"
 data
-'
+"
 ]
 [
 2
 ]
 )
+                
 )
             
 elif
 data
 [
-'
+"
 type
-'
+"
 ]
 =
 =
@@ -1686,15 +1688,15 @@ shutdown_browser
 elif
 data
 [
-'
+"
 type
-'
+"
 ]
 =
 =
-'
+"
 webext_start_background
-'
+"
 :
                 
 LOG
@@ -1719,15 +1721,15 @@ background_app
 elif
 data
 [
-'
+"
 type
-'
+"
 ]
 =
 =
-'
+"
 webext_end_background
-'
+"
 :
                 
 LOG
@@ -1752,15 +1754,15 @@ foreground_app
 elif
 data
 [
-'
+"
 type
-'
+"
 ]
 =
 =
-'
+"
 webext_screenshot
-'
+"
 :
                 
 LOG
@@ -1773,9 +1775,9 @@ received
 +
 data
 [
-'
+"
 type
-'
+"
 ]
 )
                 
@@ -1785,58 +1787,58 @@ results_handler
 .
 add_image
 (
+                    
 str
 (
 data
 [
-'
+"
 data
-'
+"
 ]
 [
 0
 ]
 )
-                                               
 str
 (
 data
 [
-'
+"
 data
-'
+"
 ]
 [
 1
 ]
 )
-                                               
 str
 (
 data
 [
-'
+"
 data
-'
+"
 ]
 [
 2
 ]
 )
+                
 )
             
 elif
 data
 [
-'
+"
 type
-'
+"
 ]
 =
 =
-'
+"
 webext_status
-'
+"
 :
                 
 LOG
@@ -1849,9 +1851,9 @@ received
 +
 data
 [
-'
+"
 type
-'
+"
 ]
 +
 "
@@ -1862,9 +1864,9 @@ str
 (
 data
 [
-'
+"
 data
-'
+"
 ]
 )
 )
@@ -1872,17 +1874,17 @@ data
 elif
 data
 [
-'
+"
 type
-'
+"
 ]
 =
 =
-'
+"
 wait
 -
 set
-'
+"
 :
                 
 LOG
@@ -1895,9 +1897,9 @@ received
 +
 data
 [
-'
+"
 type
-'
+"
 ]
 +
 "
@@ -1908,9 +1910,9 @@ str
 (
 data
 [
-'
+"
 data
-'
+"
 ]
 )
 )
@@ -1923,9 +1925,9 @@ str
 (
 data
 [
-'
+"
 data
-'
+"
 ]
 )
 ]
@@ -1935,17 +1937,17 @@ True
 elif
 data
 [
-'
+"
 type
-'
+"
 ]
 =
 =
-'
+"
 wait
 -
 timeout
-'
+"
 :
                 
 LOG
@@ -1958,9 +1960,9 @@ received
 +
 data
 [
-'
+"
 type
-'
+"
 ]
 +
 "
@@ -1971,9 +1973,9 @@ str
 (
 data
 [
-'
+"
 data
-'
+"
 ]
 )
 )
@@ -1984,25 +1986,25 @@ wait_timeout
 =
 data
 [
-'
+"
 data
-'
+"
 ]
             
 elif
 data
 [
-'
+"
 type
-'
+"
 ]
 =
 =
-'
+"
 wait
 -
 get
-'
+"
 :
                 
 self
@@ -2019,17 +2021,17 @@ waiting_in_state
 elif
 data
 [
-'
+"
 type
-'
+"
 ]
 =
 =
-'
+"
 wait
 -
 continue
-'
+"
 :
                 
 LOG
@@ -2042,9 +2044,9 @@ received
 +
 data
 [
-'
+"
 type
-'
+"
 ]
 +
 "
@@ -2055,9 +2057,9 @@ str
 (
 data
 [
-'
+"
 data
-'
+"
 ]
 )
 )
@@ -2088,17 +2090,17 @@ None
 elif
 data
 [
-'
+"
 type
-'
+"
 ]
 =
 =
-'
+"
 wait
 -
 clear
-'
+"
 :
                 
 LOG
@@ -2111,9 +2113,9 @@ received
 +
 data
 [
-'
+"
 type
-'
+"
 ]
 +
 "
@@ -2124,9 +2126,9 @@ str
 (
 data
 [
-'
+"
 data
-'
+"
 ]
 )
 )
@@ -2137,9 +2139,9 @@ str
 (
 data
 [
-'
+"
 data
-'
+"
 ]
 )
                 
@@ -2147,8 +2149,8 @@ if
 clear_key
 =
 =
-'
-'
+"
+"
 :
                     
 if
@@ -2182,9 +2184,9 @@ elif
 clear_key
 =
 =
-'
+"
 all
-'
+"
 :
                     
 MyHandler
@@ -2250,9 +2252,9 @@ received
 +
 data
 [
-'
+"
 type
-'
+"
 ]
 +
 "
@@ -2263,9 +2265,9 @@ str
 (
 data
 [
-'
+"
 data
-'
+"
 ]
 )
 )
@@ -2291,7 +2293,7 @@ self
 .
 send_header
 (
-'
+"
 Access
 -
 Control
@@ -2299,17 +2301,17 @@ Control
 Allow
 -
 Origin
-'
-'
+"
+"
 *
-'
+"
 )
             
 self
 .
 send_header
 (
-'
+"
 Access
 -
 Control
@@ -2317,12 +2319,12 @@ Control
 Allow
 -
 Methods
-'
-'
+"
+"
 GET
 POST
 OPTIONS
-'
+"
 )
             
 self
@@ -2429,12 +2431,13 @@ threading
 .
 Thread
 (
+            
 target
 =
 self
 .
 __new_request
-                                  
+            
 args
 =
 (
@@ -2445,6 +2448,7 @@ request
 client_address
 self
 )
+        
 )
         
 thread
@@ -2479,8 +2483,6 @@ request
 )
 class
 RaptorControlServer
-(
-)
 :
     
 "
@@ -2522,11 +2524,11 @@ os
 getcwd
 (
 )
-'
+"
 raptor
 -
 venv
-'
+"
 )
         
 self
@@ -2611,9 +2613,9 @@ path
 join
 (
 here
-'
+"
 tests
-'
+"
 )
         
 os
@@ -2648,8 +2650,8 @@ sock
 bind
 (
 (
-'
-'
+"
+"
 0
 )
 )
@@ -2676,8 +2678,8 @@ close
 server_address
 =
 (
-'
-'
+"
+"
 self
 .
 port
@@ -2691,25 +2693,27 @@ handler_class
 =
 MakeCustomHandlerClass
 (
+            
 self
 .
 results_handler
-                                               
+            
 self
 .
 shutdown_browser
-                                               
+            
 self
 .
 handle_gecko_profile
-                                               
+            
 self
 .
 background_app
-                                               
+            
 self
 .
 foreground_app
+        
 )
         
 httpd
@@ -2928,9 +2932,9 @@ wait_for_quit
 kwargs
 =
 {
-'
+"
 timeout
-'
+"
 :
 0
 }
@@ -3202,7 +3206,6 @@ device
 .
 shell_output
 (
-            
 "
 am
 start
@@ -3220,7 +3223,6 @@ s
 self
 .
 app_name
-        
 )
         
 self
@@ -3390,9 +3392,9 @@ supporting_data
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Allow
 the
@@ -3438,9 +3440,9 @@ http
 post
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
