@@ -238,6 +238,9 @@ protected
 class
 IconAsyncOpenTask
 ;
+class
+IconSyncOpenTask
+;
 void
 OnAsyncError
 (
