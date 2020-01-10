@@ -57,12 +57,6 @@ MPL
 *
 /
 use
-peek_poke
-:
-:
-PeekPoke
-;
-use
 std
 :
 :
@@ -398,12 +392,10 @@ derive
 Clone
 Copy
 Debug
-Default
 Deserialize
 MallocSizeOf
 PartialEq
 Serialize
-PeekPoke
 )
 ]
 pub
