@@ -166,7 +166,6 @@ const
 {
 changeDevice
 changePixelRatio
-changeViewportAngle
 }
 =
 require
@@ -1186,17 +1185,6 @@ id
 device
 .
 pixelRatio
-)
-)
-;
-dispatch
-(
-changeViewportAngle
-(
-id
-viewport
-.
-angle
 )
 )
 ;
