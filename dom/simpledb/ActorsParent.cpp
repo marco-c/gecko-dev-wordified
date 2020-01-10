@@ -6305,12 +6305,6 @@ PERSISTENCE_TYPE_DEFAULT
 mSuffix
 mGroup
 mOrigin
-/
-*
-aCreateIfNotExists
-*
-/
-true
 getter_AddRefs
 (
 dbDirectory
