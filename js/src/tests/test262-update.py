@@ -242,14 +242,6 @@ Intl
 .
 DateTimeFormat
 -
-fractionalSecondDigits
-"
-    
-"
-Intl
-.
-DateTimeFormat
--
 datetimestyle
 "
     
@@ -430,6 +422,14 @@ Intl
 NumberFormat
 -
 unified
+"
+    
+"
+Intl
+.
+DateTimeFormat
+-
+fractionalSecondDigits
 "
 ]
 )
