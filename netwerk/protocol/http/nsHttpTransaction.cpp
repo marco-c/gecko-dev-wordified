@@ -16766,6 +16766,10 @@ len
 int32_t
 end
 =
+(
+newline
+&
+&
 aTrailers
 [
 newline
@@ -16778,6 +16782,7 @@ newline
 \
 r
 '
+)
 ?
 newline
 -
