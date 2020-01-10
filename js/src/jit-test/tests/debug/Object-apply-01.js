@@ -536,7 +536,7 @@ reported
 as
 {
 throw
-:
+stack
 }
 completion
 values
@@ -597,6 +597,7 @@ join
 )
 "
 throw
+stack
 "
 )
 ;
