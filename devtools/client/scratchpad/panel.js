@@ -320,13 +320,6 @@ destroyed
 "
 )
 ;
-return
-Promise
-.
-resolve
-(
-)
-;
 }
 }
 ;
