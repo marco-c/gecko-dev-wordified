@@ -9222,6 +9222,11 @@ this
 .
 startQuery
 (
+{
+allowAutofill
+:
+false
+}
 )
 ;
 }
@@ -9272,6 +9277,11 @@ this
 .
 startQuery
 (
+{
+allowAutofill
+:
+false
+}
 )
 ;
 }
