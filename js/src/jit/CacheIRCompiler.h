@@ -712,11 +712,6 @@ CallNumberToString
 \
 _
 (
-BooleanToString
-)
-\
-_
-(
 CallIsSuspendedGeneratorResult
 )
 \

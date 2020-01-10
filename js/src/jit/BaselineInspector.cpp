@@ -1690,12 +1690,6 @@ case
 CacheOp
 :
 :
-BooleanToString
-:
-case
-CacheOp
-:
-:
 CallNumberToString
 :
 return
