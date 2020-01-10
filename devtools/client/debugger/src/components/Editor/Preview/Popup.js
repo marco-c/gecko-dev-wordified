@@ -1297,10 +1297,8 @@ nodeType
 =
 =
 1
-)
-{
-if
-(
+&
+&
 nextElementSibling
 .
 className
@@ -1358,7 +1356,6 @@ nextElementSibling
 .
 nextElementSibling
 ;
-}
 }
 let
 previousSibling
@@ -1389,10 +1386,8 @@ nodeType
 =
 =
 1
-)
-{
-if
-(
+&
+&
 previousElementSibling
 .
 className
@@ -1450,7 +1445,6 @@ previousElementSibling
 .
 previousElementSibling
 ;
-}
 }
 }
 }
