@@ -4112,7 +4112,7 @@ sub
 process
 launch
 .
-void
+bool
 InitInternal
 (
 ProcessPriority
