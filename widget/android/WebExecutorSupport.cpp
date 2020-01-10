@@ -551,6 +551,8 @@ mBuffer
 Address
 (
 )
++
+mPosition
 *
 aCountRead
 )
