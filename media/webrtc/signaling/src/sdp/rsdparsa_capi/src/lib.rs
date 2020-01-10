@@ -1126,7 +1126,7 @@ Protocol
 :
 :
 kUdpTlsRtpSavp
-23
+22
 =
 >
 SdpProtocolValue
@@ -1139,7 +1139,7 @@ Protocol
 :
 :
 kTcpDtlsRtpSavp
-25
+24
 =
 >
 SdpProtocolValue
@@ -1152,20 +1152,7 @@ Protocol
 :
 :
 kUdpTlsRtpSavpf
-26
-=
->
-SdpProtocolValue
-:
-:
-TcpTlsRtpSavpf
-/
-/
-Protocol
-:
-:
-kTcpTlsRtpSavpf
-27
+25
 =
 >
 SdpProtocolValue
@@ -1178,7 +1165,7 @@ Protocol
 :
 :
 kTcpTlsRtpSavpf
-39
+37
 =
 >
 SdpProtocolValue
@@ -1191,7 +1178,7 @@ Protocol
 :
 :
 kDtlsSctp
-40
+38
 =
 >
 SdpProtocolValue
@@ -1204,7 +1191,7 @@ Protocol
 :
 :
 kUdpDtlsSctp
-41
+39
 =
 >
 SdpProtocolValue
