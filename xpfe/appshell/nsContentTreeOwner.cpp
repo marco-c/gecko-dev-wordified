@@ -3032,9 +3032,9 @@ aDocShell
 nsIURI
 *
 aURI
-nsIURI
+nsIReferrerInfo
 *
-aReferrer
+aReferrerInfo
 bool
 aHasPostData
 nsIPrincipal
@@ -3082,7 +3082,7 @@ ShouldLoadURI
 (
 aDocShell
 aURI
-aReferrer
+aReferrerInfo
 aHasPostData
 aTriggeringPrincipal
 aCsp
@@ -3147,9 +3147,9 @@ aDocShell
 nsIURI
 *
 aURI
-nsIURI
+nsIReferrerInfo
 *
-aReferrer
+aReferrerInfo
 nsIPrincipal
 *
 aTriggeringPrincipal

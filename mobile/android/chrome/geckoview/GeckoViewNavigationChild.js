@@ -542,7 +542,7 @@ shouldLoadURI
 (
 aDocShell
 aURI
-aReferrer
+aReferrerInfo
 aHasPostData
 aTriggeringPrincipal
 aCsp
@@ -565,7 +565,6 @@ shouldLoadURI
 (
 aDocShell
 aURI
-aReferrer
 aHasPostData
 )
 )
@@ -576,7 +575,7 @@ redirectLoad
 (
 aDocShell
 aURI
-aReferrer
+aReferrerInfo
 aTriggeringPrincipal
 false
 null
@@ -638,7 +637,7 @@ reloadInFreshProcess
 (
 aDocShell
 aURI
-aReferrer
+aReferrerInfo
 aTriggeringPrincipal
 aLoadFlags
 aCsp
@@ -658,7 +657,7 @@ redirectLoad
 (
 aDocShell
 aURI
-aReferrer
+aReferrerInfo
 aTriggeringPrincipal
 true
 aLoadFlags
