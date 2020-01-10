@@ -253,7 +253,9 @@ boxed
 True
 allow_quirks
 =
-True
+"
+Yes
+"
 spec
 =
 "

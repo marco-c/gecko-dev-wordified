@@ -6289,7 +6289,9 @@ inset
 "
 allow_quirks
 =
-False
+"
+No
+"
 )
 }
 {
