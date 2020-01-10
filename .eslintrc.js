@@ -321,12 +321,6 @@ devtools
 *
 "
 "
-editor
-/
-*
-*
-"
-"
 extensions
 /
 *
