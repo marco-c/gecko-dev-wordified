@@ -1541,6 +1541,17 @@ Target
 Architecture
 /
 ISA
+/
+/
+Hack
+:
+always
+include
+AArch64
+.
+#
+define
+VIXL_INCLUDE_TARGET_A64
 #
 ifdef
 VIXL_INCLUDE_TARGET_A64
