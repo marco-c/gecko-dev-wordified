@@ -238,9 +238,6 @@ DebuggerObjectPattern
 Promise
 "
 )
-await
-:
-true
 }
 )
 EXACT
@@ -249,9 +246,6 @@ EXACT
 return
 :
 2
-yield
-:
-true
 }
 )
 EXACT
@@ -266,9 +260,6 @@ DebuggerObjectPattern
 Promise
 "
 )
-await
-:
-true
 }
 )
 EXACT
@@ -277,9 +268,6 @@ EXACT
 return
 :
 4
-yield
-:
-true
 }
 )
 EXACT
@@ -290,9 +278,6 @@ return
 "
 ok
 "
-await
-:
-true
 }
 )
 EXACT
