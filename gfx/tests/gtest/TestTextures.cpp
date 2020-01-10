@@ -2231,9 +2231,6 @@ StereoMode
 :
 :
 MONO
-gfx
-:
-:
 ColorDepth
 :
 :
@@ -2242,6 +2239,10 @@ YUVColorSpace
 :
 :
 BT601
+ColorRange
+:
+:
+LIMITED
 TextureFlags
 :
 :

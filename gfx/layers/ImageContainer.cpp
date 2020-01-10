@@ -2838,6 +2838,10 @@ pdata
 -
 >
 mYUVColorSpace
+pdata
+-
+>
+mColorRange
 /
 *
 hasIntermediateBuffer

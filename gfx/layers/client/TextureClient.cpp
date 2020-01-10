@@ -8067,6 +8067,11 @@ gfx
 :
 YUVColorSpace
 aYUVColorSpace
+gfx
+:
+:
+ColorRange
+aColorRange
 TextureFlags
 aTextureFlags
 )
@@ -8131,6 +8136,7 @@ aCbCrStride
 aStereoMode
 aColorDepth
 aYUVColorSpace
+aColorRange
 aTextureFlags
 )
 ;

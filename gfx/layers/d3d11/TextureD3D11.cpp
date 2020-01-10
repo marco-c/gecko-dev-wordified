@@ -6351,6 +6351,13 @@ ToWrYuvColorSpace
 (
 mYUVColorSpace
 )
+wr
+:
+:
+WrColorRange
+:
+:
+Limited
 aFilter
 )
 ;
@@ -7808,6 +7815,13 @@ ToWrYuvColorSpace
 (
 mYUVColorSpace
 )
+wr
+:
+:
+WrColorRange
+:
+:
+Limited
 aFilter
 )
 ;
