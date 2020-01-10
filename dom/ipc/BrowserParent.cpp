@@ -21471,14 +21471,6 @@ bool
 NO_IMPL
 ;
 NS_IMETHOD
-GetIsInIsolatedMozBrowserElement
-(
-bool
-*
-)
-NO_IMPL
-;
-NS_IMETHOD
 GetScriptableOriginAttributes
 (
 JSContext
