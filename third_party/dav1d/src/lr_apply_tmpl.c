@@ -1178,7 +1178,7 @@ f
 >
 lf
 .
-lr_lpf_line_ptr
+lr_lpf_line
 [
 0
 ]
@@ -1384,7 +1384,7 @@ f
 >
 lf
 .
-lr_lpf_line_ptr
+lr_lpf_line
 [
 1
 ]
@@ -1438,7 +1438,7 @@ f
 >
 lf
 .
-lr_lpf_line_ptr
+lr_lpf_line
 [
 2
 ]
@@ -1584,7 +1584,7 @@ f
 >
 lf
 .
-lr_lpf_line_ptr
+lr_lpf_line
 [
 plane
 ]

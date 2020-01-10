@@ -996,8 +996,10 @@ function
 until
 it
 returns
--
+DAV1D_ERR
+(
 EAGAIN
+)
 .
 *
 *
@@ -1093,8 +1095,10 @@ res
 res
 !
 =
--
+DAV1D_ERR
+(
 EAGAIN
+)
 )
 *
 free_and_abort
@@ -1125,8 +1129,10 @@ if
 res
 !
 =
--
+DAV1D_ERR
+(
 EAGAIN
+)
 )
 *
 free_and_abort
@@ -1218,8 +1224,10 @@ if
 res
 !
 =
--
+DAV1D_ERR
+(
 EAGAIN
+)
 )
 *
 free_and_abort

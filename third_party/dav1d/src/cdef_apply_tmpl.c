@@ -1126,7 +1126,7 @@ f
 >
 lf
 .
-cdef_line_ptr
+cdef_line
 [
 !
 tf
@@ -1787,7 +1787,7 @@ f
 >
 lf
 .
-cdef_line_ptr
+cdef_line
 [
 tf
 ]
@@ -1808,7 +1808,7 @@ f
 >
 lf
 .
-cdef_line_ptr
+cdef_line
 [
 tf
 ]
@@ -1950,7 +1950,7 @@ f
 >
 lf
 .
-cdef_line_ptr
+cdef_line
 [
 tf
 ]
@@ -1974,7 +1974,7 @@ f
 >
 lf
 .
-cdef_line_ptr
+cdef_line
 [
 tf
 ]
