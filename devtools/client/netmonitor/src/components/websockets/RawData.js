@@ -131,7 +131,7 @@ factories
 *
 Shows
 raw
-payload
+data
 of
 a
 WebSocket
