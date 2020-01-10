@@ -7315,6 +7315,8 @@ aMsg
 aParam
 .
 mWritingMode
+.
+bits
 )
 ;
 }
@@ -7344,6 +7346,8 @@ aResult
 -
 >
 mWritingMode
+.
+bits
 )
 ;
 }
