@@ -723,6 +723,13 @@ appReadyState
 docReadyState
 }
 ;
+await
+Promise
+.
+race
+(
+[
+error
 /
 /
 eslint
@@ -735,13 +742,6 @@ line
 no
 -
 shadow
-await
-Promise
-.
-race
-(
-[
-error
 ContentTask
 .
 spawn
