@@ -260,8 +260,10 @@ namespace
 mozilla
 {
 using
-namespace
 detail
+:
+:
+Any
 ;
 /
 *
