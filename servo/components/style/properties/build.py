@@ -223,6 +223,10 @@ inherited_box
 "
     
 "
+inherited_svg
+"
+    
+"
 inherited_table
 "
     
@@ -232,10 +236,6 @@ inherited_text
     
 "
 inherited_ui
-"
-    
-"
-inherited_svg
 "
     
 "
@@ -259,6 +259,10 @@ position
 "
     
 "
+svg
+"
+    
+"
 table
 "
     
@@ -268,10 +272,6 @@ text
     
 "
 ui
-"
-    
-"
-svg
 "
     
 "
@@ -294,6 +294,12 @@ Usage
 s
 [
 servo
+-
+2013
+|
+servo
+-
+2020
 |
 gecko
 ]
@@ -336,7 +342,7 @@ abort
 usage
 )
     
-product
+engine
 =
 sys
 .
@@ -355,17 +361,26 @@ argv
 ]
     
 if
-product
+engine
 not
 in
 [
 "
 servo
+-
+2013
+"
+"
+servo
+-
+2020
 "
 "
 gecko
 "
 ]
+\
+            
 or
 output
 not
@@ -396,9 +411,9 @@ data
 .
 PropertiesData
 (
-product
+engine
 =
-product
+engine
 )
     
 files
@@ -503,9 +518,9 @@ render
                 
 file_name
                 
-product
+engine
 =
-product
+engine
                 
 data
 =
@@ -543,9 +558,9 @@ render
         
 properties_template
         
-product
+engine
 =
-product
+engine
         
 data
 =
@@ -646,7 +661,7 @@ struct
 )
         
 if
-product
+engine
 =
 =
 "
@@ -694,13 +709,55 @@ rust
 )
         
 if
-product
+engine
+in
+[
+"
+servo
+-
+2013
+"
+"
+servo
+-
+2020
+"
+]
+:
+            
+if
+engine
 =
 =
 "
 servo
+-
+2013
 "
 :
+                
+pref_attr
+=
+"
+servo_2013_pref
+"
+            
+if
+engine
+=
+=
+"
+servo
+-
+2020
+"
+:
+                
+pref_attr
+=
+"
+servo_2020_pref
+"
             
 names_and_prefs
 =
@@ -710,9 +767,11 @@ names_and_prefs
 prop
 .
 name
+getattr
+(
 prop
-.
-servo_pref
+pref_attr
+)
 )
                 
 for
@@ -1141,7 +1200,7 @@ flag
 :
 p
 .
-servo_pref
+servo_2013_pref
             
 "
 shorthand

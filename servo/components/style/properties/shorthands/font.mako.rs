@@ -94,6 +94,26 @@ name
 "
 font
 "
+engines
+=
+"
+gecko
+servo
+-
+2013
+servo
+-
+2020
+"
+servo_2020_pref
+=
+"
+layout
+.
+2020
+.
+unimplemented
+"
 sub_properties
 =
 "
@@ -129,7 +149,7 @@ size
 adjust
 '
 if
-product
+engine
 =
 =
 '
@@ -146,7 +166,7 @@ font
 kerning
 '
 if
-product
+engine
 =
 =
 '
@@ -165,7 +185,7 @@ optical
 sizing
 '
 if
-product
+engine
 =
 =
 '
@@ -184,7 +204,7 @@ variant
 alternates
 '
 if
-product
+engine
 =
 =
 '
@@ -205,7 +225,7 @@ east
 asian
 '
 if
-product
+engine
 =
 =
 '
@@ -224,7 +244,7 @@ variant
 ligatures
 '
 if
-product
+engine
 =
 =
 '
@@ -243,7 +263,7 @@ variant
 numeric
 '
 if
-product
+engine
 =
 =
 '
@@ -262,7 +282,7 @@ variant
 position
 '
 if
-product
+engine
 =
 =
 '
@@ -281,7 +301,7 @@ language
 override
 '
 if
-product
+engine
 =
 =
 '
@@ -300,7 +320,7 @@ feature
 settings
 '
 if
-product
+engine
 =
 =
 '
@@ -319,7 +339,7 @@ variation
 settings
 '
 if
-product
+engine
 =
 =
 '
@@ -498,7 +518,7 @@ split
 >
 %
 if
-product
+engine
 =
 =
 "
@@ -614,7 +634,7 @@ size
 ;
 %
 if
-product
+engine
 =
 =
 "
@@ -1206,7 +1226,7 @@ font_family
 family
 %
 if
-product
+engine
 =
 =
 "
@@ -1242,7 +1262,7 @@ endif
 }
 %
 if
-product
+engine
 =
 =
 "
@@ -1307,7 +1327,7 @@ Write
 {
 %
 if
-product
+engine
 =
 =
 "
@@ -1362,7 +1382,7 @@ None
 endif
 %
 if
-product
+engine
 =
 =
 "
@@ -1755,7 +1775,7 @@ a
 {
 %
 if
-product
+engine
 =
 =
 "
@@ -2103,6 +2123,14 @@ font
 -
 variant
 "
+engines
+=
+"
+gecko
+servo
+-
+2013
+"
 flags
 =
 "
@@ -2125,7 +2153,7 @@ variant
 alternates
 '
 if
-product
+engine
 =
 =
 '
@@ -2146,7 +2174,7 @@ east
 asian
 '
 if
-product
+engine
 =
 =
 '
@@ -2165,7 +2193,7 @@ variant
 ligatures
 '
 if
-product
+engine
 =
 =
 '
@@ -2184,7 +2212,7 @@ variant
 numeric
 '
 if
-product
+engine
 =
 =
 '
@@ -2203,7 +2231,7 @@ variant
 position
 '
 if
-product
+engine
 =
 =
 '
@@ -2268,7 +2296,7 @@ caps
 "
 ]
 if
-product
+engine
 =
 =
 "
@@ -2477,7 +2505,7 @@ value
 .
 %
 if
-product
+engine
 =
 =
 "
@@ -2738,7 +2766,7 @@ has_none_ligatures
 =
 %
 if
-product
+engine
 =
 =
 "

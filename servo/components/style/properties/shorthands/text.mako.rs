@@ -88,6 +88,14 @@ text
 -
 decoration
 "
+engines
+=
+"
+gecko
+servo
+-
+2013
+"
 flags
 =
 "
@@ -115,7 +123,7 @@ decoration
 color
 '
 if
-product
+engine
 =
 =
 '
@@ -155,7 +163,7 @@ decoration
 >
 %
 if
-product
+engine
 =
 =
 "
@@ -182,14 +190,12 @@ longhands
 :
 :
 {
-text_decoration_line
 text_decoration_style
 text_decoration_color
 }
 ;
 %
-else
-:
+endif
 use
 crate
 :
@@ -202,8 +208,6 @@ longhands
 :
 text_decoration_line
 ;
-%
-endif
 pub
 fn
 parse_value
@@ -244,7 +248,7 @@ i
 {
 %
 if
-product
+engine
 =
 =
 "
@@ -362,7 +366,7 @@ text_decoration_line
 ;
 %
 if
-product
+engine
 =
 =
 "
@@ -422,7 +426,7 @@ line
 )
 %
 if
-product
+engine
 =
 =
 "
@@ -506,7 +510,7 @@ dest
 ;
 %
 if
-product
+engine
 =
 =
 "

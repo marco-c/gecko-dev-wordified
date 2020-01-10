@@ -86,6 +86,14 @@ name
 "
 columns
 "
+engines
+=
+"
+gecko
+servo
+-
+2013
+"
 sub_properties
 =
 "
@@ -96,7 +104,7 @@ column
 -
 count
 "
-servo_pref
+servo_2013_pref
 =
 "
 layout
@@ -432,7 +440,7 @@ column
 -
 rule
 "
-products
+engines
 =
 "
 gecko
