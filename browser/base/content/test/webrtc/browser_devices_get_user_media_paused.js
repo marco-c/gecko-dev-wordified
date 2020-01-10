@@ -638,6 +638,8 @@ gIdentityHandler
 .
 _sharingState
 .
+webRTC
+.
 camera
 =
 =
@@ -715,6 +717,8 @@ gIdentityHandler
 .
 _sharingState
 .
+webRTC
+.
 microphone
 =
 =
@@ -791,6 +795,8 @@ window
 gIdentityHandler
 .
 _sharingState
+.
+webRTC
 .
 camera
 =
@@ -1110,6 +1116,8 @@ gIdentityHandler
 .
 _sharingState
 .
+webRTC
+.
 camera
 =
 =
@@ -1121,6 +1129,8 @@ window
 gIdentityHandler
 .
 _sharingState
+.
+webRTC
 .
 microphone
 =
@@ -1201,6 +1211,8 @@ gIdentityHandler
 .
 _sharingState
 .
+webRTC
+.
 microphone
 =
 =
@@ -1277,6 +1289,8 @@ window
 gIdentityHandler
 .
 _sharingState
+.
+webRTC
 .
 camera
 =
@@ -1642,6 +1656,8 @@ gIdentityHandler
 .
 _sharingState
 .
+webRTC
+.
 screen
 =
 =
@@ -1709,6 +1725,8 @@ window
 gIdentityHandler
 .
 _sharingState
+.
+webRTC
 .
 screen
 =
