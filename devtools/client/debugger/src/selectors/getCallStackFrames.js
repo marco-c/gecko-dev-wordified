@@ -134,6 +134,7 @@ import
 type
 {
 State
+SourceResourceState
 }
 from
 "
@@ -157,21 +158,6 @@ from
 .
 /
 types
-"
-;
-import
-type
-{
-SourcesMap
-}
-from
-"
-.
-.
-/
-reducers
-/
-sources
 "
 ;
 import
@@ -212,7 +198,7 @@ getSourceForFrame
 (
 sources
 :
-SourcesMap
+SourceResourceState
 frame
 :
 Frame
@@ -243,7 +229,7 @@ appendSource
 (
 sources
 :
-SourcesMap
+SourceResourceState
 frame
 :
 Frame
@@ -302,7 +288,7 @@ Frame
 ]
 sources
 :
-SourcesMap
+SourceResourceState
 selectedSource
 :
 Source

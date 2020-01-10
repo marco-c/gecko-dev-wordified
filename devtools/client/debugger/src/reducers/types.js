@@ -349,6 +349,7 @@ type
 {
 SourcesMap
 SourcesMapByThread
+SourceResourceState
 }
 from
 "

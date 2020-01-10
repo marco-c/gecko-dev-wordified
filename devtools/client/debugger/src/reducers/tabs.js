@@ -123,6 +123,7 @@ import
 {
 getSource
 getSources
+getSourceInSources
 getUrls
 getSpecificSourceByURL
 getSpecificSourceByURLInSources
@@ -1226,12 +1227,13 @@ tab
 .
 sourceId
 ?
+getSourceInSources
+(
 sources
-[
 tab
 .
 sourceId
-]
+)
 :
 null
 ;

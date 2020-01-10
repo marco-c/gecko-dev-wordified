@@ -289,10 +289,7 @@ keys
 .
 every
 (
-(
 k
-i
-)
 =
 >
 value
@@ -304,10 +301,7 @@ k
 =
 other
 [
-existingKeys
-[
-i
-]
+k
 ]
 )
 )

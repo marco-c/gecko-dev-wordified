@@ -511,7 +511,7 @@ dbg
 .
 selectors
 .
-getSources
+getSourceList
 (
 dbg
 .
@@ -521,12 +521,7 @@ getState
 )
 ;
 return
-Object
-.
-values
-(
 sources
-)
 .
 find
 (
