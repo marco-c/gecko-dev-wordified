@@ -1986,7 +1986,6 @@ atom
 syntax
 generatorKind
 functionAsyncKind
-nullptr
 )
 )
 ;
