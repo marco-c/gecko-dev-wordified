@@ -1683,6 +1683,7 @@ impacted
 :
 "
 not
+-
 impacted
 "
 IsLineWrapped
@@ -1695,6 +1696,7 @@ wrapped
 :
 "
 not
+-
 wrapped
 "
 BreakTypeToString

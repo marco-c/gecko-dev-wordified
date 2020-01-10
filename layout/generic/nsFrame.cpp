@@ -56036,8 +56036,8 @@ wm
 =
 %
 s
-:
 logical
+-
 size
 =
 {
@@ -56128,6 +56128,7 @@ nsPrintfCString
 (
 "
 parent
+-
 wm
 =
 %
@@ -56140,8 +56141,6 @@ d
 %
 d
 }
-"
-"
 logicalRect
 =
 {
@@ -56248,6 +56247,7 @@ vis
 -
 overflow
 =
+{
 %
 d
 %
@@ -56256,6 +56256,7 @@ d
 d
 %
 d
+}
 "
 vo
 .
@@ -56303,6 +56304,7 @@ scr
 -
 overflow
 =
+{
 %
 d
 %
@@ -56311,6 +56313,7 @@ d
 d
 %
 d
+}
 "
 so
 .
