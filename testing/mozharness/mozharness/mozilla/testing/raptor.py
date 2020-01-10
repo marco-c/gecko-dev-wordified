@@ -1,4 +1,13 @@
 #
+!
+/
+usr
+/
+bin
+/
+env
+python
+#
 This
 Source
 Code
@@ -455,15 +464,13 @@ launch
 or
 the
 test
-was
 otherwise
 "
      
 "
-unsuccessful
-in
-even
-starting
+failed
+to
+start
 .
 "
 }
@@ -482,10 +489,10 @@ AndroidMixin
 "
 "
     
-install
+Install
 and
 run
-raptor
+Raptor
 tests
     
 "
@@ -495,7 +502,7 @@ tests
 #
 Options
 to
-browsertime
+Browsertime
 .
 Paths
 are
@@ -805,7 +812,7 @@ help
 "
 :
 "
-name
+Name
 of
 the
 application
@@ -817,6 +824,7 @@ default
 :
 firefox
 )
+.
 "
           
 }
@@ -845,20 +853,23 @@ help
 "
 :
 "
-the
-android
+The
+Android
 activity
 used
 to
 launch
 the
-android
+Android
 app
 .
 "
                   
 "
-ex
+e
+.
+g
+.
 :
 org
 .
@@ -897,17 +908,17 @@ help
 "
 :
 "
-name
+Name
 of
 the
-android
+Android
 intent
 action
 used
 to
 launch
 the
-android
+Android
 app
 "
           
@@ -1022,10 +1033,11 @@ help
 "
 :
 "
-extra
+Extra
 options
 to
-raptor
+Raptor
+.
 "
           
 }
@@ -1239,8 +1251,6 @@ help
 :
 "
 Whether
-or
-not
 to
 profile
 the
@@ -1251,6 +1261,7 @@ save
 the
 profile
 results
+.
 "
         
 }
@@ -1300,8 +1311,9 @@ by
 the
 profiler
 (
-milliseconds
+ms
 )
+.
 "
         
 }
@@ -1350,6 +1362,7 @@ take
 with
 the
 profiler
+.
 "
         
 }
@@ -1421,6 +1434,7 @@ test
 will
 be
 run
+.
 "
         
 }
@@ -1474,6 +1488,7 @@ complete
 before
 timing
 out
+.
 "
         
 }
@@ -1542,6 +1557,7 @@ between
 test
 iterations
 )
+.
 "
         
 }
@@ -1590,6 +1606,7 @@ the
 test_url
 query
 string
+.
 "
         
 }
@@ -1712,34 +1729,25 @@ to
 measure
 power
 usage
-.
-Currently
-only
-supported
-for
-Geckoview
-.
-"
-                    
-"
-The
+;
+the
 host
-ip
+IP
 address
 must
 be
 specified
-either
 via
+"
+            
+"
 the
 -
 -
 host
 command
+-
 line
-"
-                    
-"
 argument
 .
 "
@@ -1843,6 +1851,7 @@ to
 measure
 CPU
 usage
+.
 "
         
 }
@@ -1952,6 +1961,7 @@ to
 install
 Android
 APK
+.
 "
         
 }
@@ -2178,6 +2188,9 @@ __init__
 kwargs
 )
         
+#
+Convenience
+        
 self
 .
 workdir
@@ -2192,8 +2205,6 @@ query_abs_dirs
 abs_work_dir
 '
 ]
-#
-convenience
         
 self
 .
@@ -2211,7 +2222,7 @@ run_local
 )
         
 #
-app
+App
 (
 browser
 testing
@@ -2236,19 +2247,13 @@ run_local
 :
             
 #
-raptor
-initiated
-locally
-get
+Get
 app
 from
 command
+-
 line
 args
-            
-#
-which
-are
 passed
 in
 from
@@ -2259,7 +2264,8 @@ raptor_cmd_line_args
 '
             
 #
-cmd
+Command
+-
 line
 args
 can
@@ -2270,6 +2276,7 @@ formats
 depending
 on
 how
+the
 user
 entered
 them
@@ -2523,7 +2530,7 @@ else
 :
             
 #
-raptor
+Raptor
 initiated
 in
 production
@@ -2939,8 +2946,7 @@ browsertime_options
             
 #
 Allow
-to
-override
+overriding
 defaults
 on
 the
@@ -2954,6 +2960,7 @@ test
 .
 .
 command
+-
 line
 .
             
@@ -3058,7 +3065,7 @@ gecko_results
 ]
         
 #
-if
+If
 gecko_profile
 is
 set
@@ -3066,8 +3073,9 @@ we
 add
 that
 to
-the
-raptor
+Raptor
+'
+s
 options
         
 if
@@ -3244,20 +3252,12 @@ self
 '
 '
 '
-install
+Install
 Google
 Chromium
 distribution
 in
 production
-;
-installation
-        
-requirements
-depend
-on
-the
-platform
 '
 '
 '
@@ -3409,7 +3409,7 @@ self
 info
 (
 "
-expecting
+Expecting
 %
 s
 to
@@ -3607,9 +3607,9 @@ chromium_dist_path
 )
         
 #
-now
+Now
 ensure
-chrome
+Chromium
 binary
 exists
         
@@ -3631,7 +3631,7 @@ self
 info
 (
 "
-successfully
+Successfully
 installed
 %
 s
@@ -3658,7 +3658,7 @@ self
 info
 (
 "
-abort
+Abort
 :
 failed
 to
@@ -3686,10 +3686,10 @@ kw
 "
 "
 "
-return
+Return
 options
 to
-raptor
+Raptor
 "
 "
 "
@@ -3705,13 +3705,10 @@ kw_options
 }
         
 #
-binary
-path
-;
-if
+If
 testing
 on
-firefox
+Firefox
 the
 binary
 path
@@ -3731,12 +3728,14 @@ path
 is
 forwarded
 from
-cmd
+command
+-
 line
 arg
 (
 raptor_cmd_line_args
 )
+.
         
 kw_options
 [
@@ -3834,7 +3833,7 @@ firefox_android_browsers
 :
                 
 #
-in
+In
 production
 ensure
 we
@@ -3872,7 +3871,7 @@ self
 info
 (
 "
-set
+Set
 binary
 to
 %
@@ -3897,10 +3896,9 @@ binary_path
 else
 :
 #
-running
+Running
 on
-google
-chrome
+Chromium
             
 if
 not
@@ -3910,36 +3908,38 @@ run_local
 :
                 
 #
-when
+When
 running
 locally
 we
 already
 set
 the
-chrome
+Chromium
 binary
 above
 in
 init
-;
-here
+.
                 
 #
-in
+In
 production
 we
-aready
+already
 installed
-chrome
+Chromium
 so
 set
 the
 binary
 path
+                
+#
 to
 our
 install
+.
                 
 kw_options
 [
@@ -3953,7 +3953,7 @@ self
 chromium_dist_path
         
 #
-options
+Options
 overwritten
 from
 *
@@ -4084,7 +4084,7 @@ self
 host
         
 #
-configure
+Configure
 profiling
 options
         
@@ -4100,7 +4100,7 @@ query_gecko_profile_options
 )
         
 #
-extra
+Extra
 arguments
         
 if
@@ -4355,8 +4355,7 @@ browsertime_options
             
 #
 Allow
-to
-override
+overriding
 defaults
 on
 the
@@ -4370,8 +4369,8 @@ test
 .
 .
 command
+-
 line
-.
             
 value
 =
@@ -4559,21 +4558,6 @@ raptor
 '
 )
     
-#
-Action
-methods
-.
-{
-{
-{
-1
-    
-#
-clobber
-defined
-in
-BaseScript
-    
 def
 clobber
 (
@@ -4594,7 +4578,7 @@ collected
         
 #
 during
-apk
+APK
 installation
 .
         
@@ -4650,7 +4634,7 @@ apk
         
 #
 Override
-AnroidMixin
+AndroidMixin
 '
 s
 install_apk
@@ -4766,7 +4750,7 @@ VirtualenvMixin
 create_virtualenv
 (
 )
-assuemes
+assumes
 we
 '
 re
@@ -4783,7 +4767,8 @@ virtualenv_modules
 .
 Since
 we
-are
+'
+re
 installing
         
 raptor
@@ -4803,7 +4788,7 @@ here
 "
         
 #
-if
+If
 virtualenv
 already
 exists
@@ -4818,14 +4803,16 @@ t
 re
 -
 install
-need
-it
+.
         
 #
+We
+need
+it
 in
+-
 path
-so
-can
+to
 import
 jsonschema
 later
@@ -4834,6 +4821,7 @@ validating
 output
 for
 perfherder
+.
         
 _virtualenv_path
 =
@@ -4961,12 +4949,12 @@ packages
 )
             
 #
-if
+If
 running
 gecko
 profiling
 install
-the
+its
 requirements
             
 if
@@ -5004,7 +4992,7 @@ create
 it
         
 #
-install
+Install
 mozbase
 first
 so
@@ -5111,7 +5099,7 @@ True
 )
         
 #
-require
+Require
 pip
 >
 =
@@ -5153,23 +5141,9 @@ pip
 )
         
 #
-raptor
-in
-harness
-requires
-what
-else
-is
-        
-#
-listed
-in
-raptor
-requirements
-.
-txt
-file
-.
+Install
+Raptor
+dependencies
         
 self
 .
@@ -5200,12 +5174,15 @@ txt
 )
         
 #
-if
+If
+we
+'
+re
 running
 gecko
 profiling
 install
-the
+its
 requirements
         
 if
@@ -5278,7 +5255,7 @@ self
 :
         
 #
-if
+If
 running
 locally
 and
@@ -5366,7 +5343,7 @@ self
 info
 (
 "
-installing
+Installing
 requirements
 for
 the
@@ -5435,7 +5412,7 @@ self
 info
 (
 "
-creating
+Creating
 dir
 :
 %
@@ -5471,7 +5448,7 @@ self
 info
 (
 '
-copying
+Copying
 raptor
 results
 from
@@ -5552,7 +5529,7 @@ kw
 "
 "
 "
-run
+Run
 raptor
 tests
 "
@@ -5560,8 +5537,8 @@ tests
 "
         
 #
-get
-raptor
+Get
+Raptor
 options
         
 options
@@ -5579,7 +5556,7 @@ kw
 )
         
 #
-python
+Python
 version
 check
         
@@ -5851,16 +5828,15 @@ JSGC_DISABLE_POISONING
 '
         
 #
-needed
+Needed
 to
 load
 unsigned
-raptor
-webext
+Raptor
+WebExt
 on
 release
 builds
-.
         
 if
 self
@@ -5920,13 +5896,13 @@ self
 obj_path
         
 #
-sets
+Sets
 a
 timeout
 for
 how
 long
-raptor
+Raptor
 should
 run
 without
@@ -5947,8 +5923,8 @@ raptor_output_timeout
 )
         
 #
-run
-raptor
+Run
+Raptor
 tests
         
 run_tests
@@ -6304,7 +6280,7 @@ run_local
 :
             
 #
-copy
+Copy
 results
 to
 upload
@@ -6322,8 +6298,8 @@ self
 info
 (
 "
-copying
-raptor
+Copying
+Raptor
 results
 to
 upload
@@ -6399,11 +6375,11 @@ dest
 )
             
 #
-make
+Make
 individual
 perfherder
 data
-json
+JSON
 '
 s
 for
