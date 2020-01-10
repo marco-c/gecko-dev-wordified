@@ -14001,7 +14001,7 @@ aClosure
 )
 {
 int32_t
-prefMB
+prefKB
 =
 Preferences
 :
@@ -14032,7 +14032,7 @@ CheckedInt
 int32_t
 >
 (
-prefMB
+prefKB
 )
 *
 1024
