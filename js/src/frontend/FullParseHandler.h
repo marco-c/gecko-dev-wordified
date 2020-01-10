@@ -186,6 +186,9 @@ RegExpObject
 namespace
 frontend
 {
+class
+TokenStreamAnyChars
+;
 enum
 class
 SourceKind
