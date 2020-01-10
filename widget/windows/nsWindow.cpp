@@ -38448,12 +38448,10 @@ false
 ;
 if
 (
-WindowAtMouse
+EventIsInsideWindow
 (
+this
 )
-=
-=
-mWnd
 )
 {
 /
