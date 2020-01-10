@@ -123,6 +123,10 @@ Attributes
 .
 h
 "
+/
+/
+MOZ_STACK_CLASS
+MOZ_MUST_USE
 #
 include
 "
@@ -132,6 +136,12 @@ Maybe
 .
 h
 "
+/
+/
+mozilla
+:
+:
+Maybe
 #
 include
 <
@@ -139,6 +149,9 @@ stddef
 .
 h
 >
+/
+/
+ptrdiff_t
 #
 include
 <
@@ -146,6 +159,9 @@ stdint
 .
 h
 >
+/
+/
+uint32_t
 #
 include
 "
@@ -155,6 +171,9 @@ BytecodeControlStructures
 .
 h
 "
+/
+/
+LoopControl
 #
 include
 "
@@ -164,6 +183,9 @@ TDZCheckCache
 .
 h
 "
+/
+/
+TDZCheckCache
 namespace
 js
 {

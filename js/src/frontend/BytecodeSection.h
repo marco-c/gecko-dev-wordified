@@ -265,6 +265,7 @@ h
 /
 /
 jsbytecode
+JSContext
 #
 include
 "
@@ -319,9 +320,6 @@ h
 /
 JSOP_
 *
-struct
-JSContext
-;
 namespace
 js
 {

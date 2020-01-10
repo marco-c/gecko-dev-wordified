@@ -121,6 +121,9 @@ stddef
 .
 h
 >
+/
+/
+ptrdiff_t
 #
 include
 "
@@ -130,6 +133,9 @@ TypeDecls
 .
 h
 "
+/
+/
+jsbytecode
 namespace
 js
 {
