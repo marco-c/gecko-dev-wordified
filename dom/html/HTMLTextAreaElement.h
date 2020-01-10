@@ -1029,7 +1029,7 @@ Cols
 )
 {
 return
-GetIntAttr
+GetUnsignedIntAttr
 (
 nsGkAtoms
 :
@@ -1464,7 +1464,7 @@ Rows
 )
 {
 return
-GetIntAttr
+GetUnsignedIntAttr
 (
 nsGkAtoms
 :

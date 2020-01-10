@@ -203,7 +203,7 @@ ColSpan
 const
 {
 return
-GetIntAttr
+GetUnsignedIntAttr
 (
 nsGkAtoms
 :
@@ -242,7 +242,7 @@ RowSpan
 const
 {
 return
-GetIntAttr
+GetUnsignedIntAttr
 (
 nsGkAtoms
 :
