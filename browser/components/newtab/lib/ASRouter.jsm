@@ -10155,6 +10155,7 @@ _clearCache
 (
 )
 ;
+await
 AttributionCode
 .
 getAttrDataAsync
