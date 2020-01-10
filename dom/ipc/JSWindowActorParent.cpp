@@ -469,11 +469,10 @@ mCanSend
 mManager
 |
 |
-!
 mManager
 -
 >
-CanSend
+IsClosed
 (
 )
 )
