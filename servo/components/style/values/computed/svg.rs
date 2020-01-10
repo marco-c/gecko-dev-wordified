@@ -460,7 +460,7 @@ SVGStrokeDashArray
 generic
 :
 :
-SVGStrokeDashArray
+GenericSVGStrokeDashArray
 <
 NonNegativeLengthPercentage
 >
@@ -486,10 +486,12 @@ SVGStrokeDashArray
 :
 Values
 (
-vec
-!
-[
-]
+Default
+:
+:
+default
+(
+)
 )
 }
 }
@@ -520,7 +522,7 @@ SVGOpacity
 generic
 :
 :
-SVGOpacity
+GenericSVGOpacity
 <
 Opacity
 >

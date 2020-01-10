@@ -675,6 +675,10 @@ SVGStrokeDashArray
 Values
 (
 values
+.
+into
+(
+)
 )
 )
 ;
@@ -721,10 +725,12 @@ SVGStrokeDashArray
 :
 Values
 (
-vec
-!
-[
-]
+Default
+:
+:
+default
+(
+)
 )
 )
 }
