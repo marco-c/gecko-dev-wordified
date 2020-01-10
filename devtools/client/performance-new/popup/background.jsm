@@ -543,6 +543,7 @@ error
 ;
 }
 }
+async
 function
 getSymbols
 (
