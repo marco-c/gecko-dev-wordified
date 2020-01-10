@@ -303,17 +303,30 @@ a
 string
 )
         
+#
+one
+by
+one
+(
+fails
+otherwise
+see
+bug
+#
+1541409
+)
+        
+for
+f
+in
+changedFiles
+:
+            
 vcs
 .
 add_remove_files
 (
-"
-"
-.
-join
-(
-changedFiles
-)
+f
 )
         
 return
