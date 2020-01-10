@@ -653,12 +653,9 @@ result
 .
 length
 ;
-hud
-.
-jsterm
-.
 execute
 (
+hud
 command
 )
 ;

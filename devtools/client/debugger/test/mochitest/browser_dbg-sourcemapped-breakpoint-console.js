@@ -176,9 +176,10 @@ statements
 )
 {
 const
-jsterm
+{
+hud
+}
 =
-(
 await
 dbg
 .
@@ -190,11 +191,6 @@ selectTool
 webconsole
 "
 )
-)
-.
-hud
-.
-jsterm
 ;
 for
 (
@@ -227,10 +223,9 @@ false
 )
 ;
 await
-jsterm
-.
-execute
+evaluateExpressionInConsole
 (
+hud
 TEST_RESULT
 =
 {

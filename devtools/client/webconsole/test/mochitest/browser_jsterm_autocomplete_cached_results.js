@@ -940,11 +940,9 @@ work
 "
 )
 ;
-await
-jsterm
-.
 execute
 (
+hud
 window
 .
 testObject

@@ -213,12 +213,9 @@ message
 null
 )
 ;
-hud
-.
-jsterm
-.
 execute
 (
+hud
 "
 clear
 (
