@@ -8510,7 +8510,7 @@ return
 nullptr
 ;
 }
-ParseNode
+ListNode
 *
 list
 =
@@ -24788,7 +24788,7 @@ typename
 ParseHandler
 :
 :
-Node
+AssignmentNodeType
 GeneralParser
 <
 ParseHandler
@@ -27126,7 +27126,7 @@ b
 '
 |
 .
-Node
+NameNodeType
 importName
 =
 newName
@@ -27174,7 +27174,7 @@ null
 )
 ;
 }
-Node
+NameNodeType
 bindingName
 =
 newName
@@ -43750,7 +43750,7 @@ typename
 ParseHandler
 :
 :
-Node
+ListNodeType
 GeneralParser
 <
 ParseHandler

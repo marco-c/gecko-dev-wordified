@@ -1900,8 +1900,7 @@ ArrayExpr
 )
 )
 ;
-ParseNode
-*
+UnaryNodeType
 spread
 =
 newSpread

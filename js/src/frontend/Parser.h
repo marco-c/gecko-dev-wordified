@@ -6993,7 +6993,7 @@ debuggerStatement
 (
 )
 ;
-Node
+ListNodeType
 variableStatement
 (
 YieldHandling
@@ -7677,7 +7677,7 @@ by
 forHeadKind
 |
 .
-Node
+AssignmentNodeType
 initializerInNameDeclaration
 (
 NameNodeType
