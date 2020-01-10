@@ -2377,6 +2377,7 @@ PopupNotifications
 remove
 (
 notifications
+true
 )
 ;
 }

@@ -3706,6 +3706,7 @@ eventCallback
 (
 topic
 nextRemovalReason
+isCancel
 )
 =
 >
@@ -3930,6 +3931,18 @@ this
 .
 _buttonAction
 nextRemovalReason
+)
+;
+}
+if
+(
+isCancel
+)
+{
+this
+.
+cancel
+(
 )
 ;
 }
