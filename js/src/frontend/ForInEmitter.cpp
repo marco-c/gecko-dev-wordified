@@ -813,6 +813,10 @@ setContinueTarget
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )
@@ -1086,6 +1090,10 @@ headOffset
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )
