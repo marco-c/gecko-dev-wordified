@@ -29091,11 +29091,9 @@ downloads
 home
 newtab
 preferences
-sessionrestore
 sync
 -
 log
-welcomeback
 "
 )
 ;
