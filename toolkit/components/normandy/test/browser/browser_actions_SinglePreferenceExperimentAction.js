@@ -489,6 +489,12 @@ slug
 "
 test
 "
+userFacingName
+:
+null
+userFacingDescription
+:
+null
 isHighPopulation
 :
 false
