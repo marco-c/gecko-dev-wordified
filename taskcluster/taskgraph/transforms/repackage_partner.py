@@ -1689,12 +1689,27 @@ macosx
 :
             
 task
+.
+setdefault
+(
+'
+fetches
+'
+{
+}
+)
+.
+setdefault
+(
+'
+toolchain
+'
 [
-'
-toolchains
-'
 ]
-=
+)
+.
+extend
+(
 [
                 
 '
@@ -1716,6 +1731,7 @@ node
 '
             
 ]
+)
         
 yield
 task

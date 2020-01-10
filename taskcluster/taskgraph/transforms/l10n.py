@@ -734,9 +734,13 @@ None
 Optional
 (
 '
-toolchains
+fetches
 '
 )
+:
+{
+        
+basestring
 :
 _by_platform
 (
@@ -744,6 +748,8 @@ _by_platform
 basestring
 ]
 )
+    
+}
     
 #
 The
@@ -1796,7 +1802,9 @@ secrets
 "
         
 "
-toolchains
+fetches
+.
+toolchain
 "
         
 "
@@ -3306,7 +3314,7 @@ job
 get
 (
 '
-toolchains
+fetches
 '
 )
 :
@@ -3314,14 +3322,14 @@ toolchains
 job_description
 [
 '
-toolchains
+fetches
 '
 ]
 =
 job
 [
 '
-toolchains
+fetches
 '
 ]
         
