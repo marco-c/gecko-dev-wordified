@@ -3117,6 +3117,9 @@ TabListener
 >
 mSessionStoreListener
 ;
+nsString
+mRemoteType
+;
 bool
 mDepthTooGreat
 :

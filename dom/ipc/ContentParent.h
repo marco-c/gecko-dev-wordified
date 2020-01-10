@@ -1237,6 +1237,10 @@ aContext
 Element
 *
 aFrameElement
+const
+nsAString
+&
+aRemoteType
 BrowsingContext
 *
 aBrowsingContext
