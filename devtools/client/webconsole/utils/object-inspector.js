@@ -382,6 +382,11 @@ createElement
 (
 SmartTrace
 {
+key
+:
+"
+stacktrace
+"
 stacktrace
 onViewSourceInDebugger
 :
