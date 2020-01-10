@@ -1267,10 +1267,10 @@ aOldViewport
 )
 {
 float
-cssViewportChangeRatio
+inverseCssWidthChangeRatio
 =
 (
-aOldViewport
+aNewViewport
 .
 width
 =
@@ -1282,11 +1282,11 @@ width
 .
 0f
 :
-aNewViewport
+aOldViewport
 .
 width
 /
-aOldViewport
+aNewViewport
 .
 width
 ;
@@ -1298,8 +1298,8 @@ aZoom
 scale
 *
 aDisplayWidthChangeRatio
-/
-cssViewportChangeRatio
+*
+inverseCssWidthChangeRatio
 )
 ;
 MVM_LOG
@@ -1317,7 +1317,7 @@ changed
 by
 %
 f
-/
+*
 %
 f
 to
@@ -1331,7 +1331,7 @@ aZoom
 .
 scale
 aDisplayWidthChangeRatio
-cssViewportChangeRatio
+inverseCssWidthChangeRatio
 newZoom
 .
 scale
