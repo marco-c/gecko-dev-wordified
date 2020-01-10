@@ -5973,9 +5973,9 @@ true
 ;
 options
 .
-strictOption
-=
-true
+setForceStrictMode
+(
+)
 ;
 JS
 :
@@ -31667,9 +31667,8 @@ CompileModule
 .
 options
 .
-maybeMakeStrictMode
+setForceStrictMode
 (
-true
 )
 ;
 options

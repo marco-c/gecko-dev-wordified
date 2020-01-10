@@ -5170,9 +5170,8 @@ setNoScriptRval
 true
 )
 .
-maybeMakeStrictMode
+setForceStrictMode
 (
-true
 )
 .
 setFileAndLine
