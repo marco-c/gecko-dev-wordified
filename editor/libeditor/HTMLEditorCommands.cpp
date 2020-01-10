@@ -1363,7 +1363,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
-return
+*
+outCmdEnabled
+=
 htmlEditor
 -
 >
@@ -1373,8 +1375,10 @@ nsIClipboard
 :
 :
 kGlobalClipboard
-outCmdEnabled
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP
