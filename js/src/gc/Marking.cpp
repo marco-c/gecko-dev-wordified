@@ -17260,7 +17260,7 @@ void
 m
 -
 >
-markIteratively
+markEntries
 (
 this
 )
