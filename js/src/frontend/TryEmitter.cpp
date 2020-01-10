@@ -293,12 +293,6 @@ Try
 )
 ;
 }
-finallyStart_
-.
-offset
-=
-0
-;
 }
 /
 /
@@ -663,7 +657,10 @@ offset
 -
 tryStart_
 +
+BytecodeOffsetDiff
+(
 JSOP_TRY_LENGTH
+)
 )
 )
 {

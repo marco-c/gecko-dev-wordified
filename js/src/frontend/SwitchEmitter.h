@@ -164,7 +164,6 @@ h
 /
 /
 size_t
-ptrdiff_t
 #
 include
 <
@@ -1947,10 +1946,8 @@ after
 emitting
 discriminant
 .
-ptrdiff_t
+BytecodeOffset
 top_
-=
-0
 ;
 /
 /
@@ -1961,10 +1958,8 @@ the
 previous
 JSOP_CASE
 .
-ptrdiff_t
+BytecodeOffset
 lastCaseOffset_
-=
-0
 ;
 /
 /
@@ -1981,8 +1976,12 @@ JumpTarget
 defaultJumpTargetOffset_
 =
 {
--
-1
+BytecodeOffset
+:
+:
+invalidOffset
+(
+)
 }
 ;
 /
@@ -2104,7 +2103,7 @@ js
 :
 Vector
 <
-ptrdiff_t
+BytecodeOffset
 32
 SystemAllocPolicy
 >

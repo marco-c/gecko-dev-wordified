@@ -283,7 +283,7 @@ bce
 JSAtom
 *
 label
-ptrdiff_t
+BytecodeOffset
 startOffset
 )
 :
@@ -777,7 +777,7 @@ offset
 )
 }
 ;
-ptrdiff_t
+BytecodeOffset
 off
 ;
 if
@@ -875,7 +875,7 @@ loopDepth_
 0
 )
 ;
-ptrdiff_t
+BytecodeOffset
 off
 ;
 if
@@ -980,10 +980,10 @@ MOZ_ASSERT
 continueTarget_
 .
 offset
-!
-=
--
-1
+.
+valid
+(
+)
 )
 ;
 if

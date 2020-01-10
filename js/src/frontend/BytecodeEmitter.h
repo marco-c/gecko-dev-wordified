@@ -244,6 +244,18 @@ include
 "
 frontend
 /
+BytecodeOffset
+.
+h
+"
+/
+/
+BytecodeOffset
+#
+include
+"
+frontend
+/
 BytecodeSection
 .
 h
@@ -2491,9 +2503,9 @@ JSTryNoteKind
 kind
 uint32_t
 stackDepth
-size_t
+BytecodeOffset
 start
-size_t
+BytecodeOffset
 end
 )
 ;
@@ -2608,7 +2620,7 @@ unsigned
 index
 unsigned
 which
-ptrdiff_t
+BytecodeOffsetDiff
 offset
 )
 ;
@@ -2766,7 +2778,7 @@ JSOp
 op
 ptrdiff_t
 delta
-ptrdiff_t
+BytecodeOffset
 *
 offset
 )
@@ -3029,7 +3041,7 @@ JSOp
 op
 size_t
 extra
-ptrdiff_t
+BytecodeOffset
 *
 offset
 =
@@ -3134,7 +3146,7 @@ emitJumpTargetOp
 (
 JSOp
 op
-ptrdiff_t
+BytecodeOffset
 *
 off
 )
@@ -3427,7 +3439,7 @@ replaceNewInitWithNewObject
 JSObject
 *
 obj
-ptrdiff_t
+BytecodeOffset
 offset
 )
 ;
@@ -3792,7 +3804,7 @@ MOZ_MUST_USE
 bool
 allocateResumeIndex
 (
-ptrdiff_t
+BytecodeOffset
 offset
 uint32_t
 *
@@ -3808,7 +3820,7 @@ mozilla
 :
 Span
 <
-ptrdiff_t
+BytecodeOffset
 >
 offsets
 uint32_t
