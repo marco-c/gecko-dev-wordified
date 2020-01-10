@@ -559,10 +559,10 @@ under
 double
 scale
 =
-nsIWidget
+StaticPrefs
 :
 :
-DefaultScaleOverride
+layout_css_devPixelsPerPx
 (
 )
 ;

@@ -9278,10 +9278,10 @@ IsPerMonitorDPIAware
 )
 |
 |
-nsIWidget
+StaticPrefs
 :
 :
-DefaultScaleOverride
+layout_css_devPixelsPerPx
 (
 )
 >

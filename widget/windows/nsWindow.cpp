@@ -1228,6 +1228,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs_layout
+.
+h
+"
+#
+include
+"
 nsIGfxInfo
 .
 h
@@ -50786,7 +50795,10 @@ return
 }
 if
 (
-DefaultScaleOverride
+StaticPrefs
+:
+:
+layout_css_devPixelsPerPx
 (
 )
 >
