@@ -501,7 +501,7 @@ canBaselineCompile
 setBaselineScriptImpl
 (
 script
-BASELINE_DISABLED_SCRIPT
+BaselineDisabledScriptPtr
 )
 ;
 }
@@ -519,7 +519,7 @@ canIonCompile
 setIonScriptImpl
 (
 script
-ION_DISABLED_SCRIPT
+IonDisabledScriptPtr
 )
 ;
 }
@@ -4122,14 +4122,16 @@ nullptr
 }
 MOZ_ASSERT
 (
-!
 ionScript_
+=
+=
+nullptr
 |
 |
 ionScript_
 =
 =
-ION_DISABLED_SCRIPT
+IonDisabledScriptPtr
 )
 ;
 baselineScript_
@@ -4240,7 +4242,7 @@ MOZ_ASSERT_IF
 ionScript
 !
 =
-ION_DISABLED_SCRIPT
+IonDisabledScriptPtr
 !
 baselineScript
 (
