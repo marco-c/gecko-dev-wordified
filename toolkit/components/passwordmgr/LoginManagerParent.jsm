@@ -2810,7 +2810,7 @@ length
 0
 )
 {
-var
+let
 prompter
 =
 getPrompter
@@ -3259,6 +3259,7 @@ change
 "
 )
 ;
+let
 prompter
 =
 getPrompter
@@ -3305,6 +3306,7 @@ change
 "
 )
 ;
+let
 prompter
 =
 getPrompter
@@ -3346,6 +3348,7 @@ or
 notification
 bar
 )
+let
 prompter
 =
 getPrompter

@@ -8401,6 +8401,9 @@ form
 elements
 )
 ;
+let
+usernameField
+;
 /
 /
 Will
@@ -8597,11 +8600,12 @@ password
 without
 need
 .
-var
+let
+passwordField
+;
 [
 usernameField
 passwordField
-ignored
 ]
 =
 this
