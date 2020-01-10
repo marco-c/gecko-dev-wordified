@@ -288,7 +288,7 @@ SYSTEM_TICK_INTERVAL
 *
 1000
 ;
-let
+const
 notificationsByWindow
 =
 new
@@ -1258,13 +1258,6 @@ state
 {
 }
 ;
-notificationsByWindow
-=
-new
-WeakMap
-(
-)
-;
 }
 removeToolbarNotification
 (
@@ -1957,13 +1950,6 @@ this
 state
 =
 null
-;
-notificationsByWindow
-=
-new
-WeakMap
-(
-)
 ;
 Services
 .
