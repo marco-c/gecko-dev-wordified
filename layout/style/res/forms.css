@@ -815,8 +815,6 @@ word
 wrap
 :
 normal
-!
-important
 ;
 /
 *
@@ -1088,14 +1086,10 @@ auto
 border
 :
 0px
-!
-important
 ;
 padding
 :
 inherit
-!
-important
 ;
 margin
 :
@@ -1253,8 +1247,6 @@ display
 inline
 -
 block
-!
-important
 ;
 /
 *
@@ -1275,14 +1267,10 @@ assert
 resize
 :
 none
-!
-important
 ;
 overflow
 :
 hidden
-!
-important
 ;
 /
 *
@@ -1319,8 +1307,6 @@ pointer
 events
 :
 none
-!
-important
 ;
 }
 input

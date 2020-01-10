@@ -304,11 +304,6 @@ writing
 -
 mode
 "
-flags
-=
-"
-APPLIES_TO_CUE
-"
 servo_restyle_damage
 =
 "
