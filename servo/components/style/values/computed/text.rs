@@ -795,13 +795,6 @@ PartialEq
 ToResolvedValue
 )
 ]
-#
-[
-repr
-(
-C
-)
-]
 /
 /
 /

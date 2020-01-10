@@ -1840,7 +1840,7 @@ void
 Init
 (
 const
-StyleTextOverflowSide
+nsStyleTextOverflowSide
 &
 aStyle
 )
@@ -1920,9 +1920,10 @@ mHasBlockEllipsis
 mStyle
 -
 >
-IsClip
-(
-)
+mType
+=
+=
+NS_STYLE_TEXT_OVERFLOW_CLIP
 ;
 }
 bool
@@ -2013,7 +2014,7 @@ block
 ellipsis
 .
 const
-StyleTextOverflowSide
+nsStyleTextOverflowSide
 *
 mStyle
 ;
