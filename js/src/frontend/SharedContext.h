@@ -1740,6 +1740,17 @@ COB
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
+/
+/
+closedOverBindings
+uses
+SystemAllocPolicy
+.
 return
 false
 ;
