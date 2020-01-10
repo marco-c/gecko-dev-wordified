@@ -225,6 +225,9 @@ nsPIDOMWindowOuter
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -1333,6 +1336,7 @@ instance
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 SetFocusInner
 (
@@ -2178,6 +2182,7 @@ state
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 Focus
 (
@@ -2555,10 +2560,14 @@ set
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 ScrollIntoView
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 nsIContent

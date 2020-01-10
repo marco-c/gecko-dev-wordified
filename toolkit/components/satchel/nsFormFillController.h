@@ -278,6 +278,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 nsFormFillController
 nsIFormFillController
 )
+MOZ_CAN_RUN_SCRIPT
 nsresult
 Focus
 (
@@ -292,6 +293,7 @@ Event
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 KeyDown
 (
@@ -306,6 +308,7 @@ Event
 aKeyEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 KeyPress
 (
@@ -320,6 +323,7 @@ Event
 aKeyEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 MouseDown
 (
@@ -340,6 +344,7 @@ nsFormFillController
 ;
 protected
 :
+MOZ_CAN_RUN_SCRIPT
 virtual
 ~
 nsFormFillController
@@ -354,6 +359,7 @@ nsPIDOMWindowOuter
 aWindow
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 RemoveWindowListeners
 (
@@ -375,6 +381,7 @@ RemoveKeyListener
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 StartControllingInput
 (
@@ -389,6 +396,7 @@ HTMLInputElement
 aInput
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 StopControllingInput
 (
@@ -400,6 +408,7 @@ IsFocusedInputControlled
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 HandleFocus
 (
@@ -439,6 +448,7 @@ it
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 MaybeStartControllingInput
 (
@@ -466,6 +476,7 @@ nsIAutoCompleteResult
 aResult
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 RevalidateDataList
 (

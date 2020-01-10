@@ -7687,6 +7687,7 @@ nullptr
 }
 private
 :
+MOZ_CAN_RUN_SCRIPT
 void
 ScrollIntoView
 (
@@ -7698,6 +7699,7 @@ aOptions
 ;
 public
 :
+MOZ_CAN_RUN_SCRIPT
 void
 ScrollIntoView
 (
