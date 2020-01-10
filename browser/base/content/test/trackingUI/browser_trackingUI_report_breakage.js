@@ -2178,6 +2178,15 @@ lifetimePolicy
 "
 privacy
 .
+annotate_channels
+.
+strict_list
+.
+enabled
+"
+"
+privacy
+.
 restrict3rdpartystorage
 .
 expiration
