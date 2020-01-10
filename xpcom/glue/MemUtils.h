@@ -138,7 +138,12 @@ namespace
 mozilla
 {
 bool
-MaybePrefetchMemory
+CanPrefetchMemory
+(
+)
+;
+void
+PrefetchMemory
 (
 uint8_t
 *
