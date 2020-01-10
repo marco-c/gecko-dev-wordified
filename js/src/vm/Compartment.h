@@ -2907,7 +2907,7 @@ pointers
 *
 /
 void
-traceOutgoingCrossCompartmentWrappers
+traceWrapperTargetsInCollectedZones
 (
 JSTracer
 *
