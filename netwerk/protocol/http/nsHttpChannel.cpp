@@ -25335,6 +25335,15 @@ mIsIsolated
 }
 mIsIsolated
 =
+StaticPrefs
+:
+:
+browser_cache_cache_isolation
+(
+)
+|
+|
+(
 IsThirdPartyTrackingResource
 (
 )
@@ -25349,6 +25358,7 @@ IsFirstPartyStorageAccessGrantedFor
 this
 mURI
 nullptr
+)
 )
 ;
 mHasBeenIsolatedChecked
