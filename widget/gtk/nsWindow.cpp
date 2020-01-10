@@ -12725,6 +12725,13 @@ RequestsUpdatingEGLSurface
 (
 )
 ;
+remoteRenderer
+-
+>
+SendResumeAsync
+(
+)
+;
 }
 remoteRenderer
 -
