@@ -1035,10 +1035,6 @@ AppendLiteral
 (
 "
 ^
-appId
-=
-123
-&
 inBrowser
 =
 1
@@ -1490,10 +1486,6 @@ ASSERT_STREQ
 (
 "
 ^
-appId
-=
-123
-&
 inBrowser
 =
 1
@@ -2061,7 +2053,7 @@ i
 ;
 i
 <
-10
+2
 ;
 +
 +
@@ -2227,7 +2219,6 @@ mozilla
 OriginAttributes
 (
 i
-i
 %
 2
 )
@@ -2340,7 +2331,7 @@ ASSERT_EQ
 (
 uint32_t
 )
-10
+2
 data
 .
 Length
@@ -2350,7 +2341,7 @@ Length
 <
 <
 "
-10
+2
 entries
 should
 be
@@ -2366,7 +2357,7 @@ i
 ;
 i
 <
-10
+2
 ;
 +
 +
@@ -2428,7 +2419,6 @@ mozilla
 OriginAttributes
 attrs
 (
-i
 i
 %
 2
@@ -3023,10 +3013,6 @@ ASSERT_STREQ
 (
 "
 ^
-appId
-=
-123
-&
 inBrowser
 =
 1
@@ -3760,10 +3746,6 @@ ASSERT_STREQ
 (
 "
 ^
-appId
-=
-123
-&
 inBrowser
 =
 1
@@ -4491,10 +4473,6 @@ ASSERT_STREQ
 (
 "
 ^
-appId
-=
-123
-&
 inBrowser
 =
 1
@@ -5272,10 +5250,6 @@ ASSERT_STREQ
 (
 "
 ^
-appId
-=
-123
-&
 inBrowser
 =
 1
@@ -6083,10 +6057,6 @@ ASSERT_STREQ
 (
 "
 ^
-appId
-=
-123
-&
 inBrowser
 =
 1
@@ -7003,10 +6973,6 @@ ASSERT_STREQ
 (
 "
 ^
-appId
-=
-123
-&
 inBrowser
 =
 1
@@ -7472,10 +7438,6 @@ AppendLiteral
 (
 "
 ^
-appId
-=
-123
-&
 inBrowser
 =
 1
@@ -7578,10 +7540,6 @@ AppendLiteral
 (
 "
 ^
-appId
-=
-123
-&
 inBrowser
 =
 1
@@ -7633,10 +7591,6 @@ AppendLiteral
 (
 "
 ^
-appId
-=
-123
-&
 inBrowser
 =
 1
@@ -7903,10 +7857,6 @@ ASSERT_STREQ
 (
 "
 ^
-appId
-=
-123
-&
 inBrowser
 =
 1
@@ -8371,7 +8321,7 @@ i
 ;
 i
 <
-10
+2
 ;
 +
 +
@@ -8505,7 +8455,6 @@ mozilla
 :
 OriginAttributes
 (
-0
 false
 )
 spec
@@ -8694,7 +8643,6 @@ mozilla
 OriginAttributes
 attrs
 (
-0
 false
 )
 ;
@@ -8739,7 +8687,7 @@ values
 So
 expect
 "
-9
+1
 "
 in
 values
@@ -8811,7 +8759,7 @@ ASSERT_STREQ
 "
 currentWorkerURL
 write
-9
+1
 "
 data
 [
@@ -8845,7 +8793,7 @@ ASSERT_STREQ
 "
 cacheName
 write
-9
+1
 "
 NS_ConvertUTF16toUTF8
 (

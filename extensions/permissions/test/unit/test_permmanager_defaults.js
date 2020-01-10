@@ -436,10 +436,6 @@ spec
 +
 "
 ^
-appId
-=
-1000
-&
 inBrowser
 =
 1
@@ -623,9 +619,6 @@ let
 attrs
 =
 {
-appId
-:
-1000
 inIsolatedMozBrowser
 :
 true

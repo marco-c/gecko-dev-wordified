@@ -1309,7 +1309,7 @@ var
 attrs
 =
 {
-appId
+userContextId
 :
 1
 }
@@ -1373,7 +1373,7 @@ principal
 attrs
 =
 {
-appId
+userContextId
 :
 1
 inIsolatedMozBrowser

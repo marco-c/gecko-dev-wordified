@@ -545,9 +545,6 @@ addonId
 :
 "
 "
-appId
-:
-0
 inIsolatedMozBrowser
 :
 false

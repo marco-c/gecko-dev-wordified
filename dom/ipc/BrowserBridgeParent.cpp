@@ -283,15 +283,6 @@ false
 ;
 attrs
 .
-mAppId
-=
-nsIScriptSecurityManager
-:
-:
-NO_APP_ID
-;
-attrs
-.
 SyncAttributesWithPrivateBrowsing
 (
 false
