@@ -269,6 +269,7 @@ return
 Badge
 (
 {
+score
 label
 :
 L10N
