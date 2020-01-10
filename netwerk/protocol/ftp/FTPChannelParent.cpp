@@ -3714,7 +3714,7 @@ FTPChannelParent
 :
 SetParentListener
 (
-HttpChannelParentListener
+ParentChannelListener
 *
 aListener
 )
@@ -3726,7 +3726,7 @@ not
 need
 ptr
 to
-HttpChannelParentListener
+ParentChannelListener
 .
 return
 NS_OK

@@ -197,7 +197,7 @@ SimpleChannelParent
 :
 SetParentListener
 (
-HttpChannelParentListener
+ParentChannelListener
 *
 aListener
 )

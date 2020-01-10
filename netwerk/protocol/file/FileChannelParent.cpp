@@ -197,7 +197,7 @@ FileChannelParent
 :
 SetParentListener
 (
-HttpChannelParentListener
+ParentChannelListener
 *
 aListener
 )
