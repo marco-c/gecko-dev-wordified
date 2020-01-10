@@ -2611,6 +2611,13 @@ length
 >
 =
 0
+&
+&
+length
+/
+aDuration
+<
+UINT32_MAX
 )
 {
 return
