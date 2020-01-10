@@ -1164,6 +1164,26 @@ resolved
 "
 )
     
+assert
+iface
+.
+attributes
+.
+scriptable
+"
+Don
+'
+t
+generate
+XPT
+info
+for
+non
+-
+scriptable
+interfaces
+"
+    
 #
 State
 used
@@ -1733,17 +1753,6 @@ flags
 :
 flags
 (
-            
-(
-'
-scriptable
-'
-iface
-.
-attributes
-.
-scriptable
-)
             
 (
 '
