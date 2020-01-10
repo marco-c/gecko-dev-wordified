@@ -5613,6 +5613,9 @@ MAGIC_OFFSET
 )
 ;
 }
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 inline
 void
 checkTraceMagic
@@ -5640,6 +5643,8 @@ EXPECTED_MAGIC
 )
 ;
 }
+#
+endif
 public
 :
 inline

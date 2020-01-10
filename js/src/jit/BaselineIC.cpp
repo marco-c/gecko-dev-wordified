@@ -3454,10 +3454,15 @@ JSTracer
 trc
 )
 {
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 checkTraceMagic
 (
 )
 ;
+#
+endif
 /
 /
 Fallback
@@ -6630,6 +6635,9 @@ monitorFallback
 )
 ;
 }
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 stub
 -
 >
@@ -6637,6 +6645,8 @@ checkTraceMagic
 (
 )
 ;
+#
+endif
 #
 ifdef
 DEBUG
