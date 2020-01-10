@@ -2225,8 +2225,6 @@ to
 enable
 the
 extension
-ARB_shader_viewport_layer_array
-/
 NV_viewport_array2
 is
 included

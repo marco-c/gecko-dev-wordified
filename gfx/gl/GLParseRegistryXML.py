@@ -596,18 +596,6 @@ MPL
 '
             
 '
-/
-/
-clang
--
-format
-off
-'
-            
-'
-'
-            
-'
 #
 ifndef
 GLCONSTS_H_
@@ -912,18 +900,6 @@ endif
 /
 /
 GLCONSTS_H_
-'
-            
-'
-'
-            
-'
-/
-/
-clang
--
-format
-on
 '
         
 ]
