@@ -4195,7 +4195,7 @@ Y
 )
 ;
 auto
-browserParent
+tab
 =
 static_cast
 <
@@ -4211,13 +4211,13 @@ Manager
 )
 )
 ;
-isActive
-=
-browserParent
+tab
 -
 >
 GetDocShellIsActive
 (
+&
+isActive
 )
 ;
 }

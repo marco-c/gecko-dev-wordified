@@ -451,7 +451,7 @@ already_AddRefed
 <
 BrowserParent
 >
-GetBrowserParent
+GetRemoteTab
 (
 )
 ;

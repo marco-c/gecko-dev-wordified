@@ -445,8 +445,6 @@ resolve
 self
 .
 remoteTab
-.
-contentProcessId
 )
 ;
 }
