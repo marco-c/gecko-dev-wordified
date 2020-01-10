@@ -188,6 +188,10 @@ aRemoteType
 CanonicalBrowsingContext
 *
 aBrowsingContext
+const
+uint32_t
+&
+aChromeFlags
 )
 ;
 TabParent

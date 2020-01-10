@@ -3866,6 +3866,10 @@ aRemoteType
 BrowsingContext
 *
 aBrowsingContext
+const
+uint32_t
+&
+aChromeFlags
 )
 override
 ;

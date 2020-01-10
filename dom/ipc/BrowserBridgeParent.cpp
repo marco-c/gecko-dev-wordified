@@ -248,6 +248,10 @@ aRemoteType
 CanonicalBrowsingContext
 *
 aBrowsingContext
+const
+uint32_t
+&
+aChromeFlags
 )
 {
 mIPCOpen
@@ -475,11 +479,6 @@ for
 our
 subframe
 .
-uint32_t
-chromeFlags
-=
-0
-;
 RefPtr
 <
 TabParent
@@ -493,7 +492,7 @@ constructorSender
 tabId
 tabContext
 aBrowsingContext
-chromeFlags
+aChromeFlags
 this
 )
 )
@@ -535,7 +534,7 @@ tabContext
 AsIPCTabContext
 (
 )
-chromeFlags
+aChromeFlags
 constructorSender
 -
 >

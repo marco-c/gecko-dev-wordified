@@ -6465,6 +6465,10 @@ aRemoteType
 BrowsingContext
 *
 aBrowsingContext
+const
+uint32_t
+&
+aChromeFlags
 )
 {
 static_cast
@@ -6488,6 +6492,7 @@ Cast
 (
 aBrowsingContext
 )
+aChromeFlags
 )
 ;
 return
@@ -6514,6 +6519,10 @@ aRemoteType
 BrowsingContext
 *
 aBrowsingContext
+const
+uint32_t
+&
+aChromeFlags
 )
 {
 /
