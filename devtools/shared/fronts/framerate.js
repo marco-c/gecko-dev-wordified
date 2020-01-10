@@ -121,11 +121,15 @@ framerateSpec
 constructor
 (
 client
+targetFront
+parentFront
 )
 {
 super
 (
 client
+targetFront
+parentFront
 )
 ;
 /
