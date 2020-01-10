@@ -200,7 +200,9 @@ org
 "
 )
 ;
-PermissionTestUtils
+Services
+.
+perms
 .
 add
 (
@@ -287,7 +289,9 @@ org
 "
 )
 ;
-PermissionTestUtils
+Services
+.
+perms
 .
 add
 (
@@ -589,7 +593,9 @@ host
 Cleaning
 up
 permissions
-PermissionTestUtils
+Services
+.
+perms
 .
 remove
 (
@@ -599,7 +605,9 @@ cookie
 "
 )
 ;
-PermissionTestUtils
+Services
+.
+perms
 .
 remove
 (
@@ -768,7 +776,9 @@ org
 "
 )
 ;
-PermissionTestUtils
+Services
+.
+perms
 .
 add
 (
@@ -1144,7 +1154,9 @@ host
 Cleaning
 up
 permissions
-PermissionTestUtils
+Services
+.
+perms
 .
 remove
 (

@@ -685,7 +685,9 @@ com
 "
 )
 ;
-PermissionTestUtils
+Services
+.
+perms
 .
 add
 (
@@ -728,7 +730,9 @@ apply
 await
 observeAllPromise
 ;
-PermissionTestUtils
+Services
+.
+perms
 .
 remove
 (
@@ -1983,7 +1987,9 @@ newURI
 URL
 )
 ;
-PermissionTestUtils
+Services
+.
+perms
 .
 add
 (
@@ -2167,7 +2173,9 @@ newURI
 URL
 )
 ;
-PermissionTestUtils
+Services
+.
+perms
 .
 remove
 (

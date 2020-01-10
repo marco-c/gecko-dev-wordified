@@ -127,7 +127,9 @@ newURI
 scope
 )
 ;
-PermissionTestUtils
+Services
+.
+perms
 .
 add
 (
@@ -152,7 +154,9 @@ registerCleanupFunction
 =
 >
 {
-PermissionTestUtils
+Services
+.
+perms
 .
 remove
 (
@@ -825,7 +829,9 @@ revoked
 "
 )
 ;
-PermissionTestUtils
+Services
+.
+perms
 .
 add
 (

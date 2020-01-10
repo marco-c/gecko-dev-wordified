@@ -356,7 +356,7 @@ ended
 ;
 SitePermissions
 .
-removeFromPrincipal
+remove
 (
 null
 "
@@ -369,7 +369,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-removeFromPrincipal
+remove
 (
 null
 "
@@ -382,7 +382,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-removeFromPrincipal
+remove
 (
 null
 "
@@ -802,7 +802,7 @@ frame1
 ;
 SitePermissions
 .
-removeFromPrincipal
+remove
 (
 null
 "
@@ -815,7 +815,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-removeFromPrincipal
+remove
 (
 null
 "
@@ -828,7 +828,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-removeFromPrincipal
+remove
 (
 null
 "
@@ -1175,7 +1175,7 @@ ended
 ;
 SitePermissions
 .
-removeFromPrincipal
+remove
 (
 null
 "
@@ -1188,7 +1188,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-removeFromPrincipal
+remove
 (
 null
 "
@@ -1201,7 +1201,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-removeFromPrincipal
+remove
 (
 null
 "
@@ -1513,7 +1513,7 @@ closeStream
 ;
 SitePermissions
 .
-removeFromPrincipal
+remove
 (
 null
 "
@@ -1526,7 +1526,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-removeFromPrincipal
+remove
 (
 null
 "
@@ -1539,7 +1539,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-removeFromPrincipal
+remove
 (
 null
 "

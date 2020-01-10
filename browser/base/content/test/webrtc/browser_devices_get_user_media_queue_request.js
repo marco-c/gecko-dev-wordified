@@ -297,7 +297,7 @@ deny
 ;
 SitePermissions
 .
-removeFromPrincipal
+remove
 (
 null
 "
@@ -541,7 +541,7 @@ true
 ;
 SitePermissions
 .
-removeFromPrincipal
+remove
 (
 null
 "
@@ -929,7 +929,7 @@ ended
 ;
 SitePermissions
 .
-removeFromPrincipal
+remove
 (
 null
 "
