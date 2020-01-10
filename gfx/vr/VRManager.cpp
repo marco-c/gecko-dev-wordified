@@ -687,7 +687,7 @@ XRE_IsParentProcess
 StaticPrefs
 :
 :
-VREnabled
+dom_vr_enabled
 (
 )
 )

@@ -2498,7 +2498,7 @@ nsEventStatus_eConsumeDoDefault
 StaticPrefs
 :
 :
-PointerEventsEnabled
+dom_w3c_pointer_events_enabled
 (
 )
 )

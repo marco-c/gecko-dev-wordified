@@ -1801,7 +1801,7 @@ if
 StaticPrefs
 :
 :
-APZTestLoggingEnabled
+apz_test_logging_enabled
 (
 )
 )
@@ -3574,7 +3574,7 @@ if
 StaticPrefs
 :
 :
-APZTestLoggingEnabled
+apz_test_logging_enabled
 (
 )
 )
