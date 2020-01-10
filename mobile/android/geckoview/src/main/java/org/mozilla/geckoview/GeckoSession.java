@@ -8492,7 +8492,7 @@ Override
 /
 /
 Parcelable
-UiThread
+AnyThread
 public
 void
 writeToParcel
@@ -8545,7 +8545,7 @@ part
 of
 Parcelable
 .
-UiThread
+AnyThread
 public
 void
 readFromParcel
@@ -8662,7 +8662,7 @@ GeckoSession
 )
 {
 Override
-UiThread
+AnyThread
 public
 GeckoSession
 createFromParcel
@@ -8693,7 +8693,7 @@ session
 ;
 }
 Override
-UiThread
+AnyThread
 public
 GeckoSession
 [
