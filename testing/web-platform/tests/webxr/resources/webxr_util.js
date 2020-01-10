@@ -386,6 +386,12 @@ testSession
 =
 session
 ;
+session
+.
+mode
+=
+sessionMode
+;
 /
 /
 Session
