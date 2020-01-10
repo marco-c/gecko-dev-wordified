@@ -11499,7 +11499,7 @@ gfxBreakPriority
 aPriority
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 !
 aFits
