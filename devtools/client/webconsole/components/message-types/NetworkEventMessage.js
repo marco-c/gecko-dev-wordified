@@ -1143,7 +1143,6 @@ messageBody
 serviceContainer
 request
 timestampsVisible
-message
 }
 )
 ;

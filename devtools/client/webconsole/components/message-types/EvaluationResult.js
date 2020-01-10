@@ -451,7 +451,6 @@ parameters
 notes
 timestampsVisible
 maybeScrollToBottom
-message
 }
 )
 ;

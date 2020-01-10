@@ -374,7 +374,6 @@ timeStamp
 notes
 timestampsVisible
 maybeScrollToBottom
-message
 }
 )
 ;
