@@ -19562,7 +19562,7 @@ if
 modifier
 =
 =
-Operand
+SlashIsRegExp
 )
 {
 return

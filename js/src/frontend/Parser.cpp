@@ -2450,7 +2450,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -5469,7 +5469,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -9378,7 +9378,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -10759,7 +10759,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -10803,7 +10803,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -11145,7 +11145,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -12457,7 +12457,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -12668,7 +12668,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 ;
 error
@@ -12701,7 +12701,7 @@ Semi
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 ;
 }
@@ -13097,7 +13097,7 @@ tokens
 TokenStream
 :
 :
-None
+SlashIsDiv
 for
 the
 following
@@ -13161,7 +13161,7 @@ a
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 for
 the
 following
@@ -13182,7 +13182,7 @@ firstTokenModifier
 TokenStream
 :
 :
-None
+SlashIsDiv
 ;
 /
 /
@@ -13205,7 +13205,7 @@ to
 TokenStream
 :
 :
-None
+SlashIsDiv
 for
 the
 following
@@ -13227,7 +13227,7 @@ argModifier
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 ;
 if
 (
@@ -13262,7 +13262,7 @@ with
 TokenStream
 :
 :
-None
+SlashIsDiv
 .
 /
 /
@@ -13281,7 +13281,7 @@ with
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 .
 firstTokenModifier
 =
@@ -13295,12 +13295,12 @@ isAsync
 TokenStream
 :
 :
-None
+SlashIsDiv
 :
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 ;
 if
 (
@@ -13558,7 +13558,7 @@ RightParen
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -13711,7 +13711,7 @@ argModifier
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 ;
 MOZ_ASSERT_IF
 (
@@ -14194,7 +14194,7 @@ Assign
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -14429,7 +14429,7 @@ Comma
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -14464,7 +14464,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -14509,7 +14509,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -15061,7 +15061,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -17276,7 +17276,7 @@ use
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 to
 keep
 /
@@ -17293,7 +17293,7 @@ use
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 in
 functionArguments
 )
@@ -17322,12 +17322,12 @@ SyncFunction
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 :
 TokenStream
 :
 :
-None
+SlashIsDiv
 ;
 if
 (
@@ -17880,7 +17880,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -18415,7 +18415,7 @@ actual
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -20935,7 +20935,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -20994,7 +20994,7 @@ pos
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -21032,7 +21032,7 @@ statementBegin
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -21256,7 +21256,7 @@ RightParen
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 JSMSG_PAREN_AFTER_COND
 )
 )
@@ -21367,7 +21367,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -21391,7 +21391,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 ;
 label
@@ -22783,7 +22783,7 @@ addModifierException
 TokenStream
 :
 :
-OperandIsNone
+SlashIsRegExpOK
 )
 ;
 break
@@ -22998,7 +22998,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -23049,7 +23049,7 @@ Assign
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -23365,7 +23365,7 @@ Comma
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -23419,7 +23419,7 @@ RightCurly
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 [
 this
 begin
@@ -23632,7 +23632,7 @@ addModifierException
 TokenStream
 :
 :
-OperandIsNone
+SlashIsRegExpOK
 )
 ;
 break
@@ -23797,7 +23797,7 @@ Assign
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -23889,7 +23889,7 @@ Comma
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -23944,7 +23944,7 @@ RightBracket
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 [
 this
 begin
@@ -24308,7 +24308,7 @@ RightCurly
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 [
 this
 errorNumber
@@ -24628,7 +24628,7 @@ Assign
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 JSMSG_BAD_DESTRUCT_DECL
 )
 )
@@ -24744,7 +24744,7 @@ initializerOffset
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -25211,8 +25211,8 @@ get
 the
 token
 here
-as
-Operand
+with
+SlashIsRegExp
 .
 bool
 matched
@@ -25233,7 +25233,7 @@ Assign
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -25842,7 +25842,7 @@ Comma
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -30012,7 +30012,9 @@ an
 ASI
 opportunity
 in
-Operand
+SlashIsRegExp
+/
+/
 context
 :
 /
@@ -30080,7 +30082,7 @@ From
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -31330,7 +31332,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -31947,7 +31949,7 @@ next
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -32055,7 +32057,7 @@ next
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 ;
 /
@@ -32411,7 +32413,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -32522,7 +32524,7 @@ Else
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -32553,7 +32555,7 @@ If
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -32750,7 +32752,7 @@ While
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 JSMSG_WHILE_AFTER_DO
 )
 )
@@ -32876,7 +32878,7 @@ false
 |
 correctly
 use
-Operand
+SlashIsRegExp
 .
 bool
 ignored
@@ -32897,7 +32899,7 @@ Semi
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -33065,7 +33067,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -33201,7 +33203,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -33329,7 +33331,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 ;
 /
@@ -33480,7 +33482,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 ;
 }
@@ -33556,7 +33558,7 @@ Let
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 ;
 TokenKind
@@ -33722,7 +33724,7 @@ exprOffset
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -34796,7 +34798,7 @@ using
 TokenStream
 :
 :
-None
+SlashIsDiv
 semantics
 .
 if
@@ -34939,7 +34941,7 @@ Semi
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 JSMSG_SEMI_AFTER_FOR_INIT
 )
 )
@@ -34965,7 +34967,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -35032,7 +35034,7 @@ Semi
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 JSMSG_SEMI_AFTER_FOR_COND
 )
 )
@@ -35055,7 +35057,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -35122,7 +35124,7 @@ RightParen
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 JSMSG_PAREN_AFTER_FOR_CTRL
 )
 )
@@ -35341,7 +35343,7 @@ RightParen
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 JSMSG_PAREN_AFTER_FOR_CTRL
 )
 )
@@ -35551,7 +35553,7 @@ RightParen
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 JSMSG_PAREN_AFTER_SWITCH
 )
 )
@@ -35669,7 +35671,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -35809,7 +35811,7 @@ Colon
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 JSMSG_COLON_AFTER_CASE
 )
 )
@@ -35876,7 +35878,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -35935,7 +35937,7 @@ statementBegin
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -36574,7 +36576,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -36784,7 +36786,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -36978,7 +36980,7 @@ Mul
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 ;
 MOZ_FALLTHROUGH
@@ -37256,7 +37258,7 @@ RightParen
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 JSMSG_PAREN_AFTER_WITH
 )
 )
@@ -37367,7 +37369,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -37815,7 +37817,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -38213,7 +38215,7 @@ RightCurly
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 [
 this
 openedPos
@@ -38559,7 +38561,7 @@ RightParen
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 JSMSG_PAREN_AFTER_CATCH
 )
 )
@@ -38674,7 +38676,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -38821,7 +38823,7 @@ RightCurly
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 [
 this
 openedPos
@@ -39079,7 +39081,7 @@ RightCurly
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 [
 this
 openedPos
@@ -42359,7 +42361,7 @@ Assign
 TokenStream
 :
 :
-None
+SlashIsDiv
 )
 )
 {
@@ -43466,7 +43468,7 @@ verifyConsistentModifier
 TokenStreamShared
 :
 :
-None
+SlashIsDiv
 anyChars
 .
 nextToken
@@ -43754,7 +43756,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -43886,7 +43888,7 @@ modifier
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 ;
 }
 else
@@ -43896,7 +43898,7 @@ modifier
 TokenStream
 :
 :
-None
+SlashIsDiv
 ;
 }
 TokenKind
@@ -43956,7 +43958,7 @@ getting
 next
 token
 with
-None
+SlashIsDiv
 .
 if
 (
@@ -45074,7 +45076,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -45300,7 +45302,7 @@ modifier
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 ;
 }
 else
@@ -45310,7 +45312,7 @@ modifier
 TokenStream
 :
 :
-None
+SlashIsDiv
 ;
 }
 TokenKind
@@ -45370,7 +45372,7 @@ getting
 next
 token
 with
-None
+SlashIsDiv
 .
 if
 (
@@ -46210,7 +46212,7 @@ Comma
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -46340,7 +46342,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -46372,7 +46374,7 @@ RightParen
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 ;
 if
@@ -46583,7 +46585,7 @@ Comma
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -47543,7 +47545,7 @@ token
 modifier
 can
 be
-Operand
+SlashIsRegExp
 .
 anyChars
 .
@@ -47558,7 +47560,7 @@ addModifierException
 TokenStream
 :
 :
-OperandIsNone
+SlashIsRegExpOK
 )
 ;
 MOZ_ASSERT
@@ -47707,7 +47709,7 @@ Colon
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 JSMSG_COLON_IN_COND
 )
 )
@@ -47958,7 +47960,7 @@ firstToken
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -48317,7 +48319,7 @@ Async
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 ;
 TokenKind
@@ -48470,7 +48472,7 @@ null
 /
 /
 Use
-Operand
+SlashIsRegExp
 here
 because
 the
@@ -48512,7 +48514,7 @@ tokenAfterLHS
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -48560,7 +48562,7 @@ next
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -48617,7 +48619,7 @@ next
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 ;
 TokenKind
@@ -48770,7 +48772,7 @@ tokenAfterLHS
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 ;
@@ -49847,7 +49849,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -50120,7 +50122,7 @@ tt2
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -50225,7 +50227,7 @@ exprOffset
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -50759,7 +50761,7 @@ RightParen
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -50821,7 +50823,7 @@ TripleDot
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -50932,7 +50934,7 @@ Comma
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -50966,7 +50968,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -51003,7 +51005,7 @@ RightParen
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 JSMSG_PAREN_AFTER_ARGS
 )
 )
@@ -51811,7 +51813,7 @@ RightBracket
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 JSMSG_BRACKET_IN_INDEX
 )
 )
@@ -55294,7 +55296,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -55402,7 +55404,7 @@ tt
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -55448,7 +55450,7 @@ Comma
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 ;
 if
@@ -55496,7 +55498,7 @@ TripleDot
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 ;
 uint32_t
@@ -55523,7 +55525,7 @@ innerPos
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -55620,7 +55622,7 @@ elementPos
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -55708,7 +55710,7 @@ Comma
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -55766,7 +55768,7 @@ RightBracket
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 [
 this
 begin
@@ -56987,7 +56989,7 @@ addModifierException
 TokenStream
 :
 :
-OperandIsNone
+SlashIsRegExpOK
 )
 ;
 *
@@ -57248,7 +57250,7 @@ RightBracket
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 JSMSG_COMP_PROP_UNTERM_EXPR
 )
 )
@@ -57421,7 +57423,7 @@ addModifierException
 TokenStream
 :
 :
-OperandIsNone
+SlashIsRegExpOK
 )
 ;
 break
@@ -57472,7 +57474,7 @@ innerPos
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -57625,7 +57627,7 @@ exprPos
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -58588,7 +58590,7 @@ Comma
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -58646,7 +58648,7 @@ RightCurly
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 [
 this
 openedPos
@@ -59050,7 +59052,7 @@ next
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -59470,7 +59472,7 @@ RightParen
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 JSMSG_PAREN_AFTER_ARGS
 )
 )
@@ -59687,7 +59689,7 @@ next
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -59745,7 +59747,7 @@ RightParen
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 ;
 if
@@ -59903,7 +59905,7 @@ RightParen
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 JSMSG_PAREN_IN_PAREN
 )
 )

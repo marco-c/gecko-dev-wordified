@@ -3019,7 +3019,7 @@ modifier
 TokenStream
 :
 :
-None
+SlashIsDiv
 continues
 a
 LexicalDeclaration
@@ -6358,7 +6358,7 @@ If
 modifier
 is
 omitted
-None
+SlashIsDiv
 is
 used
 .
@@ -6471,7 +6471,7 @@ excpected
 TokenStream
 :
 :
-None
+SlashIsDiv
 errorNumber
 )
 ;
@@ -6498,7 +6498,7 @@ condition
 TokenStream
 :
 :
-None
+SlashIsDiv
 [
 this
 errorNumber
@@ -6581,7 +6581,7 @@ expected
 TokenStream
 :
 :
-None
+SlashIsDiv
 errorReport
 )
 ;
@@ -8344,8 +8344,8 @@ next
 token
 (
 tokenized
-as
-Operand
+with
+SlashIsRegExp
 )
 is
 |
@@ -8356,9 +8356,9 @@ or
 of
 |
 .
+/
+/
 If
-/
-/
 so
 consume
 it
