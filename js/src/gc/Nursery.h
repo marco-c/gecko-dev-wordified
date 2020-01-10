@@ -3823,6 +3823,11 @@ setCurrentChunk
 (
 unsigned
 chunkno
+)
+;
+void
+poisonAndInitCurrentChunk
+(
 bool
 fullPoison
 =
