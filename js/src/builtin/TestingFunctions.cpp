@@ -2916,6 +2916,15 @@ false
 _
 (
 "
+nurseryBytes
+"
+JSGC_NURSERY_BYTES
+false
+)
+\
+_
+(
+"
 gcNumber
 "
 JSGC_NUMBER
