@@ -141,6 +141,17 @@ mozilla
 /
 dom
 /
+ContentChild
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WindowGlobalChild
 .
 h
