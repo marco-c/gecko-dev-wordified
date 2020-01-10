@@ -2821,13 +2821,6 @@ wr
 RenderRootSet
 &
 aRenderRoots
-=
-wr
-:
-:
-RenderRootSet
-(
-)
 )
 override
 ;

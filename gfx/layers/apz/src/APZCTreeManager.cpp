@@ -5319,6 +5319,13 @@ controller
 >
 ScheduleRenderOnCompositorThread
 (
+wr
+:
+:
+RenderRootSet
+(
+aRenderRoot
+)
 )
 ;
 }
