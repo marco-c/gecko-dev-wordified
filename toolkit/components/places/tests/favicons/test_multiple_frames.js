@@ -183,9 +183,6 @@ replaceFaviconData
 (
 faviconURI
 icoData
-icoData
-.
-length
 "
 image
 /

@@ -169,9 +169,6 @@ replaceFaviconData
 (
 iconUri
 data
-data
-.
-length
 icon
 .
 mimetype

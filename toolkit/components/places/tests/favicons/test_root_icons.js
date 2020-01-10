@@ -1347,9 +1347,6 @@ replaceFaviconData
 (
 faviconURI
 data
-data
-.
-length
 "
 image
 /
@@ -1393,9 +1390,6 @@ replaceFaviconData
 (
 faviconURI
 data
-data
-.
-length
 "
 image
 /

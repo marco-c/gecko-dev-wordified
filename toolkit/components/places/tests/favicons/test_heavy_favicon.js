@@ -222,11 +222,6 @@ icon
 data
 icon
 .
-data
-.
-length
-icon
-.
 mimetype
 )
 ;

@@ -190,9 +190,6 @@ icon
 name
 )
 data
-data
-.
-length
 icon
 .
 mimeType
@@ -239,9 +236,6 @@ icon
 name
 )
 data
-data
-.
-length
 icon
 .
 mimeType

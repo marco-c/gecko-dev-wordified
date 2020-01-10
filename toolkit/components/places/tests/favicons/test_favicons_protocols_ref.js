@@ -125,9 +125,6 @@ newURI
 ICON16_URL
 )
 data
-data
-.
-length
 "
 image
 /
@@ -171,9 +168,6 @@ newURI
 ICON32_URL
 )
 data
-data
-.
-length
 "
 image
 /
