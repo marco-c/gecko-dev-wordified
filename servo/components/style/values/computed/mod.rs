@@ -485,7 +485,7 @@ box_
 :
 {
 ScrollSnapAlign
-ScrollSnapType
+ScrollSnapStrictness
 TouchAction
 VerticalAlign
 WillChange

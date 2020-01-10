@@ -267,7 +267,7 @@ snap
 .
 mScrollSnapTypeY
 =
-StyleScrollSnapType
+StyleScrollSnapStrictness
 :
 :
 Mandatory
@@ -769,7 +769,7 @@ snap
 .
 mScrollSnapTypeY
 =
-StyleScrollSnapType
+StyleScrollSnapStrictness
 :
 :
 Mandatory

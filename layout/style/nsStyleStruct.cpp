@@ -18803,14 +18803,14 @@ Auto
 )
 mScrollSnapTypeX
 (
-StyleScrollSnapType
+StyleScrollSnapStrictness
 :
 :
 None
 )
 mScrollSnapTypeY
 (
-StyleScrollSnapType
+StyleScrollSnapStrictness
 :
 :
 None
