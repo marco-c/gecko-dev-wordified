@@ -43865,7 +43865,7 @@ return
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 |

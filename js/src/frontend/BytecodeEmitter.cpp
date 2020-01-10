@@ -10483,7 +10483,7 @@ if
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )

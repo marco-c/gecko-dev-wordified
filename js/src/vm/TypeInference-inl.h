@@ -7930,7 +7930,7 @@ if
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )

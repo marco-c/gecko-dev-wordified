@@ -3168,7 +3168,7 @@ MOZ_ASSERT
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )
@@ -3226,7 +3226,7 @@ MOZ_ASSERT
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )
@@ -3694,7 +3694,7 @@ MOZ_ASSERT
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )
@@ -3980,7 +3980,7 @@ MOZ_ASSERT
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )
@@ -4104,7 +4104,7 @@ MOZ_ASSERT
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )
@@ -4266,7 +4266,7 @@ MOZ_ASSERT
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )
@@ -4407,7 +4407,7 @@ MOZ_ASSERT
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )

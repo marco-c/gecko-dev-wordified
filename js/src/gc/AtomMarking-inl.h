@@ -501,7 +501,7 @@ if
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )

@@ -469,7 +469,7 @@ if
 cx_
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )

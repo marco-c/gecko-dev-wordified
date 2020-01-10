@@ -691,7 +691,7 @@ MOZ_ASSERT
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )
