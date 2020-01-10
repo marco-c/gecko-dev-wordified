@@ -7370,7 +7370,11 @@ flags
 '
         
 '
-required_for_compile
+required_before_compile
+'
+        
+'
+required_during_compile
 '
         
 '
@@ -7472,21 +7476,6 @@ suffixes
             
 '
 .
-asm
-'
-            
-'
-.
-c
-'
-            
-'
-.
-cpp
-'
-            
-'
-.
 h
 '
             
@@ -7580,7 +7569,7 @@ webidl
         
 self
 .
-required_for_compile
+required_before_compile
 =
 [
             
@@ -7605,6 +7594,41 @@ stl_wrappers
 '
 in
 f
+]
+        
+self
+.
+required_during_compile
+=
+[
+            
+f
+for
+f
+in
+self
+.
+outputs
+if
+f
+.
+endswith
+(
+(
+'
+.
+asm
+'
+'
+.
+c
+'
+'
+.
+cpp
+'
+)
+)
 ]
 class
 ChromeManifestEntry

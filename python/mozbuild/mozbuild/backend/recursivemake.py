@@ -3354,7 +3354,7 @@ GeneratedFile
 if
 obj
 .
-required_for_compile
+required_before_compile
 :
                 
 tier
@@ -3362,6 +3362,16 @@ tier
 '
 export
 '
+            
+elif
+obj
+.
+required_during_compile
+:
+                
+tier
+=
+None
             
 elif
 obj
@@ -3384,6 +3394,10 @@ tier
 misc
 '
             
+if
+tier
+:
+                
 self
 .
 _no_skip
@@ -3976,25 +3990,8 @@ script
 #
 If
 we
-'
-re
+are
 doing
-this
-during
-export
-that
-means
-we
-need
-it
-during
-                
-#
-compile
-but
-if
-we
-have
 an
 artifact
 build
@@ -4003,15 +4000,22 @@ don
 '
 t
 run
-compile
+compiler
+so
                 
 #
-so
 we
 can
 skip
-it
-altogether
+generated
+files
+that
+are
+needed
+during
+compile
+                
+#
 or
 let
 the
@@ -4021,22 +4025,28 @@ as
 the
 result
 of
-                
-#
 something
 depending
 on
+                
+#
 it
 .
                 
 if
-tier
-!
-=
-'
-export
-'
+not
+(
+obj
+.
+required_before_compile
 or
+obj
+.
+required_during_compile
+)
+or
+\
+                        
 not
 self
 .
@@ -4046,6 +4056,8 @@ is_artifact_build
 :
                     
 if
+tier
+and
 not
 needs_AB_rCD
 :
