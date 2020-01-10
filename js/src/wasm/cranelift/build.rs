@@ -648,10 +648,6 @@ cargo
 :
 warning
 =
-{
-}
-"
-"
 MOZ_TOPOBJDIR
 should
 be
