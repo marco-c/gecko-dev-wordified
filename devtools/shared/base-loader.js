@@ -902,6 +902,14 @@ options
 invisibleToDebugger
 :
 false
+freshCompartment
+:
+options
+.
+freshCompartment
+|
+|
+false
 }
 ;
 const
@@ -4283,6 +4291,11 @@ sandboxPrototype
 |
 |
 globals
+freshCompartment
+:
+options
+.
+freshCompartment
 }
 )
 ;
