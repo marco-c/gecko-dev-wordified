@@ -1739,14 +1739,6 @@ AllowQuirks
 :
 Yes
 )
-.
-map
-(
-From
-:
-:
-from
-)
 }
 )
 .
