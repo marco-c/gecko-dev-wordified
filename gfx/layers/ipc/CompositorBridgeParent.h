@@ -4669,6 +4669,9 @@ bool
 mPaused
 ;
 bool
+mHaveCompositionRecorder
+;
+bool
 mUseExternalSurfaceSize
 ;
 gfx
@@ -4776,12 +4779,6 @@ RefPtr
 CompositorAnimationStorage
 >
 mAnimationStorage
-;
-RefPtr
-<
-CompositionRecorder
->
-mCompositionRecorder
 ;
 TimeDuration
 mPaintTime
