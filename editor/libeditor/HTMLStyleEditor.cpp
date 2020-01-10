@@ -5854,11 +5854,14 @@ rv
 =
 RemoveAttributeWithTransaction
 (
+MOZ_KnownLive
+(
 *
 aNode
 .
 AsElement
 (
+)
 )
 *
 aAttribute
