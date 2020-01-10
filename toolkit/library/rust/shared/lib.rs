@@ -212,7 +212,7 @@ env_logger
 ;
 extern
 crate
-u2fhid
+authenticator
 ;
 extern
 crate
