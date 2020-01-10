@@ -14700,6 +14700,10 @@ WSRunObject
 ;
 friend
 class
+WSRunScanner
+;
+friend
+class
 nsIEditor
 ;
 }
