@@ -1791,6 +1791,7 @@ getattr
 (
 __builtin__
 b
+None
 )
         
 for
@@ -1856,6 +1857,17 @@ zip
 '
 AssertionError
 '
+                  
+'
+__build_class__
+'
+#
+will
+be
+None
+on
+py2
+                  
 )
     
 }
@@ -2461,7 +2473,9 @@ if
 isinstance
 (
 arg
-str
+six
+.
+binary_type
 )
 else
 arg
