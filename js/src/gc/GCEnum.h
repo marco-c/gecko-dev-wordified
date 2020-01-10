@@ -605,6 +605,16 @@ _
 (
 WeakMapObject
 )
+\
+_
+(
+ShapeKids
+)
+\
+_
+(
+ShapeCache
+)
 #
 define
 JS_FOR_EACH_MEMORY_USE
