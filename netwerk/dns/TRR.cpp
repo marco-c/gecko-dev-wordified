@@ -2054,7 +2054,7 @@ rv
 internalChannel
 -
 >
-SetTrr
+SetIsTRRServiceChannel
 (
 true
 )
