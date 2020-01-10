@@ -2288,10 +2288,21 @@ options
 )
 :
         
-import
+from
 taskgraph
 .
 actions
+import
+trigger_action_callback
+        
+from
+taskgraph
+.
+actions
+.
+util
+import
+get_parameters
         
 try
 :
@@ -2400,28 +2411,6 @@ ACTION_CALLBACK
 None
 )
             
-parameters
-=
-json
-.
-loads
-(
-os
-.
-environ
-.
-get
-(
-'
-ACTION_PARAMETERS
-'
-'
-{
-}
-'
-)
-)
-            
 root
 =
 options
@@ -2431,11 +2420,14 @@ root
 '
 ]
             
+parameters
+=
+get_parameters
+(
+task_group_id
+)
+            
 return
-taskgraph
-.
-actions
-.
 trigger_action_callback
 (
                     
