@@ -3842,7 +3842,7 @@ nsCOMPtr
 nsIRemoteTab
 >
 &
-aNewBrowserParent
+aNewRemoteTab
 bool
 *
 aWindowIsNew
