@@ -321,7 +321,7 @@ BufferData
 (
 GLenum
 target
-size_t
+uint64_t
 size
 const
 void
@@ -336,9 +336,9 @@ BufferSubData
 (
 GLenum
 target
-size_t
+uint64_t
 dstByteOffset
-size_t
+uint64_t
 dataLen
 const
 void
