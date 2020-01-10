@@ -417,7 +417,7 @@ Table
 /
 static
 const
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 decltype
 (

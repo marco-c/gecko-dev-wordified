@@ -173,9 +173,6 @@ namespace
 mozilla
 {
 static
-const
-DynamicallyLinkedFunctionPtr
-<
 decltype
 (
 &
@@ -183,15 +180,13 @@ decltype
 :
 GetProcessMitigationPolicy
 )
->
-&
 FetchGetProcessMitigationPolicyFunc
 (
 )
 {
 static
 const
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 decltype
 (
@@ -225,7 +220,6 @@ IsWin32kLockedDown
 )
 {
 auto
-&
 pGetProcessMitigationPolicy
 =
 FetchGetProcessMitigationPolicyFunc
@@ -282,7 +276,6 @@ IsDynamicCodeDisabled
 )
 {
 auto
-&
 pGetProcessMitigationPolicy
 =
 FetchGetProcessMitigationPolicyFunc

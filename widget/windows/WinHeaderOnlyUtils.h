@@ -1018,7 +1018,7 @@ aNtStatus
 {
 static
 const
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 decltype
 (

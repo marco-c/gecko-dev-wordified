@@ -2895,7 +2895,7 @@ PVOID
 {
 static
 const
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 decltype
 (
@@ -4094,7 +4094,7 @@ PVOID
 {
 static
 const
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 decltype
 (
