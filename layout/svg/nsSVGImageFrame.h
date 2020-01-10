@@ -515,7 +515,7 @@ aPostDestroyData
 override
 ;
 bool
-GetIntrinsicImageSize
+GetIntrinsicImageDimensions
 (
 mozilla
 :
@@ -525,7 +525,13 @@ gfx
 :
 Size
 &
-aIntrinsicSize
+aSize
+mozilla
+:
+:
+AspectRatio
+&
+aAspectRatio
 )
 const
 ;
