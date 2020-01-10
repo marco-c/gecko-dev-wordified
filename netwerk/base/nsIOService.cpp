@@ -6969,7 +6969,7 @@ bool
 _retval
 )
 {
-int16_t
+int32_t
 port
 =
 inPort
