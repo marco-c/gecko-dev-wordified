@@ -197,14 +197,6 @@ CrossOriginEmbedderPolicy
 )
 MOZ_BC_FIELD
 (
-InheritedEmbedderPolicy
-nsILoadInfo
-:
-:
-CrossOriginEmbedderPolicy
-)
-MOZ_BC_FIELD
-(
 OpenerPolicy
 nsILoadInfo
 :
