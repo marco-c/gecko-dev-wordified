@@ -1519,13 +1519,10 @@ void
 ScheduleGenerateFrame
 (
 const
-nsTArray
-<
 wr
 :
 :
-RenderRoot
->
+RenderRootSet
 &
 aRenderRoots
 )
