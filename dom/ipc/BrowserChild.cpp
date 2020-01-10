@@ -3085,6 +3085,10 @@ BrowserChild
 :
 ContentReceivedInputBlock
 (
+const
+ScrollableLayerGuid
+&
+aGuid
 uint64_t
 aInputBlockId
 bool
@@ -3872,6 +3876,10 @@ callback
 weakPtrThis
 ]
 (
+const
+ScrollableLayerGuid
+&
+aGuid
 uint64_t
 aInputBlockId
 bool
@@ -3908,6 +3916,7 @@ get
 >
 ContentReceivedInputBlock
 (
+aGuid
 aInputBlockId
 aPreventDefault
 )
@@ -8065,6 +8074,7 @@ ProcessSingleTap
 point
 scale
 aModifiers
+aGuid
 1
 )
 ;
@@ -8111,6 +8121,7 @@ ProcessSingleTap
 point
 scale
 aModifiers
+aGuid
 2
 )
 ;
@@ -8149,6 +8160,7 @@ presShell
 point
 scale
 aModifiers
+aGuid
 aInputBlockId
 )
 ;
@@ -10081,8 +10093,6 @@ mPuppetWidget
 document
 aEvent
 aGuid
-.
-mLayersId
 aInputBlockId
 )
 ;
@@ -10149,6 +10159,7 @@ mAPZEventState
 ProcessMouseEvent
 (
 aEvent
+aGuid
 aInputBlockId
 )
 ;
@@ -10736,8 +10747,6 @@ mPuppetWidget
 document
 aEvent
 aGuid
-.
-mLayersId
 aInputBlockId
 )
 ;
@@ -10827,6 +10836,7 @@ mAPZEventState
 ProcessWheelEvent
 (
 localEvent
+aGuid
 aInputBlockId
 )
 ;
@@ -11186,8 +11196,6 @@ mPuppetWidget
 document
 localEvent
 aGuid
-.
-mLayersId
 aInputBlockId
 )
 ;

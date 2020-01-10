@@ -1229,6 +1229,7 @@ ProcessSingleTap
 point
 scale
 aModifiers
+aGuid
 1
 )
 ;
@@ -1263,6 +1264,7 @@ ProcessSingleTap
 point
 scale
 aModifiers
+aGuid
 2
 )
 ;
@@ -1293,6 +1295,7 @@ presShell
 point
 scale
 aModifiers
+aGuid
 aInputBlockId
 )
 ;
