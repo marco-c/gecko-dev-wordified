@@ -690,7 +690,7 @@ SlowScriptAction
 SlowScriptAction
 NotifySlowScript
 (
-nsITabChild
+nsIBrowserChild
 *
 aTabChild
 const
@@ -2548,7 +2548,7 @@ HangMonitorChild
 :
 NotifySlowScript
 (
-nsITabChild
+nsIBrowserChild
 *
 aTabChild
 const
@@ -5662,7 +5662,7 @@ ProcessHangMonitor
 :
 NotifySlowScript
 (
-nsITabChild
+nsIBrowserChild
 *
 aTabChild
 const

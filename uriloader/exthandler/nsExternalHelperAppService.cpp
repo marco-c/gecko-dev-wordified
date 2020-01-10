@@ -6658,7 +6658,7 @@ uri
 ;
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tabChild
 (

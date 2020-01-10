@@ -221,7 +221,7 @@ class
 nsIScriptContext
 ;
 class
-nsITabChild
+nsIBrowserChild
 ;
 class
 nsIURI
@@ -484,7 +484,7 @@ InterfaceRequestor
 }
 already_AddRefed
 <
-nsITabChild
+nsIBrowserChild
 >
 GetAnyLiveTabChild
 (
@@ -509,7 +509,7 @@ of
 weak
 references
 to
-nsITabChild
+nsIBrowserChild
 .
 We
 do
@@ -517,9 +517,9 @@ not
 want
 to
 keep
+/
+/
 TabChild
-/
-/
 actors
 alive
 for
@@ -531,6 +531,8 @@ ActorDestroy
 )
 methods
 are
+/
+/
 called
 .
 nsTArray

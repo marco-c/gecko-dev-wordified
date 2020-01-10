@@ -365,7 +365,7 @@ h
 #
 include
 "
-nsITabChild
+nsIBrowserChild
 .
 h
 "
@@ -2105,7 +2105,7 @@ mDocShell
 {
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tabChild
 =
@@ -4956,7 +4956,7 @@ webBrowserChrome
 {
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tabChild
 =

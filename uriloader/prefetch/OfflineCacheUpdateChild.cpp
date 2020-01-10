@@ -246,7 +246,7 @@ h
 #
 include
 "
-nsITabChild
+nsIBrowserChild
 .
 h
 "
@@ -2363,7 +2363,7 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tabchild
 =
@@ -2379,7 +2379,7 @@ GetTabChild
 because
 owner
 implements
-nsITabChild
+nsIBrowserChild
 we
 can
 assume

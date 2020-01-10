@@ -243,7 +243,7 @@ h
 #
 include
 "
-nsITabChild
+nsIBrowserChild
 .
 h
 "
@@ -1154,7 +1154,7 @@ nsIWindowProvider
 public
 nsSupportsWeakReference
 public
-nsITabChild
+nsIBrowserChild
 public
 nsIObserver
 public
@@ -1429,7 +1429,7 @@ NS_DECL_NSIEMBEDDINGSITEWINDOW
 NS_DECL_NSIWEBBROWSERCHROMEFOCUS
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIWINDOWPROVIDER
-NS_DECL_NSITABCHILD
+NS_DECL_NSIBROWSERCHILD
 NS_DECL_NSIOBSERVER
 NS_DECL_NSIWEBPROGRESSLISTENER
 NS_DECL_NSIWEBPROGRESSLISTENER2
@@ -2716,7 +2716,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tc
 =

@@ -205,7 +205,7 @@ h
 #
 include
 "
-nsITabChild
+nsIBrowserChild
 .
 h
 "
@@ -602,7 +602,7 @@ requestingContext
 ;
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tabChild
 (

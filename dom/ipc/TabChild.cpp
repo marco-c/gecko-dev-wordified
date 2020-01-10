@@ -2671,7 +2671,7 @@ do_GetWeakReference
 (
 static_cast
 <
-nsITabChild
+nsIBrowserChild
 *
 >
 (
@@ -2708,7 +2708,7 @@ if
 (
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tabChild
 =
@@ -3832,7 +3832,7 @@ do_GetWeakReference
 (
 static_cast
 <
-nsITabChild
+nsIBrowserChild
 *
 >
 (
@@ -3868,7 +3868,7 @@ if
 (
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tabChild
 =
@@ -4188,7 +4188,7 @@ nsIWindowProvider
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsITabChild
+nsIBrowserChild
 )
 NS_INTERFACE_MAP_ENTRY
 (

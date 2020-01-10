@@ -6950,7 +6950,7 @@ childDoc
 else
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tabChild
 =

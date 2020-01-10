@@ -5379,7 +5379,7 @@ if
 (
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 child
 =
@@ -10933,7 +10933,7 @@ process
 .
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tabChild
 =

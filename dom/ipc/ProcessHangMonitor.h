@@ -163,7 +163,7 @@ class
 nsIRunnable
 ;
 class
-nsITabChild
+nsIBrowserChild
 ;
 class
 nsIThread
@@ -323,7 +323,7 @@ TerminateGlobal
 SlowScriptAction
 NotifySlowScript
 (
-nsITabChild
+nsIBrowserChild
 *
 aTabChild
 const

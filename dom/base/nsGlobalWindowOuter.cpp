@@ -1829,7 +1829,7 @@ h
 #
 include
 "
-nsITabChild
+nsIBrowserChild
 .
 h
 "
@@ -31021,7 +31021,7 @@ docShell
 {
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 child
 =
@@ -42499,7 +42499,7 @@ ChildCommandDispatcher
 nsPIWindowRoot
 *
 aRoot
-nsITabChild
+nsIBrowserChild
 *
 aTabChild
 const
@@ -42594,7 +42594,7 @@ mRoot
 ;
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 mTabChild
 ;
@@ -42719,7 +42719,7 @@ if
 (
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 child
 =

@@ -2277,7 +2277,7 @@ getInterface
 (
 Ci
 .
-nsITabChild
+nsIBrowserChild
 )
 .
 messageManager

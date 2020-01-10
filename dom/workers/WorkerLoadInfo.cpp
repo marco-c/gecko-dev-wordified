@@ -210,7 +210,7 @@ h
 #
 include
 "
-nsITabChild
+nsIBrowserChild
 .
 h
 "
@@ -2391,7 +2391,7 @@ return
 }
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tabChild
 ;
@@ -2402,7 +2402,7 @@ GetInterface
 (
 NS_GET_IID
 (
-nsITabChild
+nsIBrowserChild
 )
 getter_AddRefs
 (
@@ -2546,7 +2546,7 @@ still
 have
 an
 active
-nsITabChild
+nsIBrowserChild
 then
 return
 it
@@ -2583,14 +2583,14 @@ Equals
 (
 NS_GET_IID
 (
-nsITabChild
+nsIBrowserChild
 )
 )
 )
 {
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tabChild
 =
@@ -2673,7 +2673,7 @@ NS_NOINTERFACE
 }
 already_AddRefed
 <
-nsITabChild
+nsIBrowserChild
 >
 WorkerLoadInfo
 :
@@ -2719,7 +2719,7 @@ IsEmpty
 {
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tabChild
 =

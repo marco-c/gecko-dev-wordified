@@ -12507,7 +12507,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 iTabChild
 ;
@@ -16485,7 +16485,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 iTabChild
 ;

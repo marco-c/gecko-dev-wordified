@@ -12208,7 +12208,7 @@ NotifyObservers
 (
 static_cast
 <
-nsITabChild
+nsIBrowserChild
 *
 >
 (

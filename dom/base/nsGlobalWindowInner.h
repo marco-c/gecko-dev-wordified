@@ -554,7 +554,7 @@ class
 nsIScriptTimeoutHandler
 ;
 class
-nsITabChild
+nsIBrowserChild
 ;
 class
 nsITimeoutHandler
@@ -9254,7 +9254,7 @@ process
 .
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 mTabChild
 ;

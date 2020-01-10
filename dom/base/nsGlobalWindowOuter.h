@@ -521,7 +521,7 @@ class
 nsIScriptTimeoutHandler
 ;
 class
-nsITabChild
+nsIBrowserChild
 ;
 class
 nsITimeoutHandler
