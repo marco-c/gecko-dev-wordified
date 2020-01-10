@@ -3830,6 +3830,15 @@ shouldLoad
 )
 )
 {
+NS_SetRequestBlockingReasonIfNull
+(
+aLoadInfo
+nsILoadInfo
+:
+:
+BLOCKING_REASON_CONTENT_POLICY_GENERAL
+)
+;
 if
 (
 (

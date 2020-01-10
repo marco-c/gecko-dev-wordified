@@ -818,6 +818,8 @@ const
 nsAString
 &
 aCspNonce
+uint32_t
+aRequestBlockingReason
 )
 ;
 LoadInfo
@@ -1214,6 +1216,9 @@ nsTArray
 nsCString
 >
 mCorsUnsafeHeaders
+;
+uint32_t
+mRequestBlockingReason
 ;
 bool
 mForcePreflight
