@@ -66,8 +66,8 @@ strict
 React
 const
 {
+Component
 createFactory
-PureComponent
 }
 =
 require
@@ -201,7 +201,7 @@ tree
 class
 ContrastBadge
 extends
-PureComponent
+Component
 {
 static
 get
@@ -241,8 +241,14 @@ props
 if
 (
 error
-|
-|
+)
+{
+return
+null
+;
+}
+if
+(
 score
 !
 =

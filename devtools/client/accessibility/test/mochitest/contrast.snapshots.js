@@ -299,7 +299,7 @@ accessibility
 contrast
 -
 value
-FAIL
+fail
 "
 role
 :
@@ -610,7 +610,7 @@ accessibility
 contrast
 -
 value
-FAIL
+fail
 "
 role
 :
@@ -717,7 +717,7 @@ accessibility
 contrast
 -
 value
-FAIL
+fail
 "
 role
 :

@@ -66,8 +66,8 @@ strict
 React
 const
 {
+Component
 createFactory
-PureComponent
 }
 =
 require
@@ -208,7 +208,7 @@ tree
 class
 TextLabelBadge
 extends
-PureComponent
+Component
 {
 static
 get
@@ -248,8 +248,14 @@ props
 if
 (
 error
-|
-|
+)
+{
+return
+null
+;
+}
+if
+(
 !
 [
 BEST_PRACTICES
