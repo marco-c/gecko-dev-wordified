@@ -1581,10 +1581,6 @@ new
 VideoSegment
 (
 )
-SourceMediaStream
-:
-:
-ADDTRACK_QUEUED
 )
 ;
 }
@@ -2857,10 +2853,6 @@ new
 AudioSegment
 (
 )
-SourceMediaStream
-:
-:
-ADDTRACK_QUEUED
 )
 ;
 }

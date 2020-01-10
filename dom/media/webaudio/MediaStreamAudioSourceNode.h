@@ -128,6 +128,13 @@ h
 #
 include
 "
+AudioNodeEngine
+.
+h
+"
+#
+include
+"
 DOMMediaStream
 .
 h
@@ -135,7 +142,7 @@ h
 #
 include
 "
-AudioNodeEngine
+PrincipalChangeObserver
 .
 h
 "
@@ -436,6 +443,9 @@ MediaStreamTrack
 >
 &
 aTrack
+ErrorResult
+&
+aRv
 )
 ;
 /

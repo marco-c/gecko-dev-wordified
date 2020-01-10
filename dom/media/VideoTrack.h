@@ -167,7 +167,7 @@ nsAString
 aLanguage
 VideoStreamTrack
 *
-aStreamTarck
+aStreamTrack
 =
 nullptr
 )

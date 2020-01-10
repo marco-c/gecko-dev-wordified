@@ -163,17 +163,6 @@ mozilla
 /
 dom
 /
-VideoStreamTrack
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 VideoTrack
 .
 h
@@ -654,6 +643,9 @@ nsAString
 aLanguage
 bool
 aEnabled
+AudioStreamTrack
+*
+aAudioTrack
 )
 {
 RefPtr
@@ -671,6 +663,7 @@ aKind
 aLabel
 aLanguage
 aEnabled
+aAudioTrack
 )
 ;
 return

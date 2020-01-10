@@ -1694,10 +1694,6 @@ new
 VideoSegment
 (
 )
-SourceMediaStream
-:
-:
-ADDTRACK_QUEUED
 )
 ;
 }

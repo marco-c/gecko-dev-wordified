@@ -2918,10 +2918,6 @@ GraphRate
 (
 )
 segment
-SourceMediaStream
-:
-:
-ADDTRACK_QUEUED
 )
 ;
 mInputProcessing
