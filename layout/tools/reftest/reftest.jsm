@@ -11812,7 +11812,7 @@ id
 =
 subject
 .
-getPropertyAsAString
+get
 (
 "
 pluginDumpID
@@ -11839,7 +11839,7 @@ id
 =
 subject
 .
-getPropertyAsAString
+get
 (
 "
 dumpID
