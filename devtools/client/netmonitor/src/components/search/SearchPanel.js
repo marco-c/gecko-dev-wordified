@@ -1080,6 +1080,7 @@ if
 (
 indexStart
 >
+=
 0
 )
 {
