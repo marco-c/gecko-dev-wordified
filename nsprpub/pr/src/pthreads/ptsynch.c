@@ -6799,12 +6799,6 @@ defined
 (
 DARWIN
 )
-|
-|
-defined
-(
-SYMBIAN
-)
 /
 *
 union

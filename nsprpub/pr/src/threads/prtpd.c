@@ -374,9 +374,6 @@ btthreads
 *
 /
 #
-ifndef
-XP_BEOS
-#
 include
 "
 primpl
@@ -1810,13 +1807,5 @@ void
 /
 *
 _PR_DestroyThreadPrivate
-*
-/
-#
-endif
-/
-*
-!
-XP_BEOS
 *
 /

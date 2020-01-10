@@ -1032,13 +1032,6 @@ defined
 (
 XP_UNIX
 )
-&
-&
-!
-defined
-(
-SYMBIAN
-)
 /
 *
 *

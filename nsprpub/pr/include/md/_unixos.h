@@ -400,12 +400,6 @@ defined
 (
 AIX
 )
-|
-|
-defined
-(
-SYMBIAN
-)
 #
 include
 <
@@ -418,13 +412,8 @@ h
 #
 endif
 #
-ifndef
-SYMBIAN
-#
 define
 HAVE_NETINET_TCP_H
-#
-endif
 #
 define
 _PR_HAVE_O_APPEND
@@ -1803,9 +1792,6 @@ _MD_CLEANUP_BEFORE_EXIT
 #
 endif
 #
-ifndef
-IRIX
-#
 define
 _MD_EXIT
 (
@@ -1815,8 +1801,6 @@ _exit
 (
 status
 )
-#
-endif
 /
 *
 *

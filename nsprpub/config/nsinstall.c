@@ -261,17 +261,6 @@ h
 #
 define
 HAVE_FCHMOD
-#
-if
-defined
-(
-BEOS
-)
-#
-undef
-HAVE_FCHMOD
-#
-endif
 /
 *
 *
@@ -3315,7 +3304,7 @@ cp
 =
 3
 ;
-strncpy
+memcpy
 (
 cp
 "

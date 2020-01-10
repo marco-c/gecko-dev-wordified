@@ -171,8 +171,6 @@ on
 HP
 -
 UX
-and
-OSF1
 must
 be
 a

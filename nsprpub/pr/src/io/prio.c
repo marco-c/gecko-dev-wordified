@@ -1270,12 +1270,6 @@ defined
 (
 XP_OS2
 )
-|
-|
-defined
-(
-XP_BEOS
-)
 /
 *
 *

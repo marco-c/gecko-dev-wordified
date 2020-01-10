@@ -357,12 +357,6 @@ defined
 (
 XP_OS2
 )
-|
-|
-defined
-(
-XP_BEOS
-)
 #
 include
 <
@@ -615,12 +609,6 @@ if
 defined
 (
 BSDI
-)
-|
-|
-defined
-(
-OSF1
 )
 #
 include

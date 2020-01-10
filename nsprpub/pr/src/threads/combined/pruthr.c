@@ -4218,15 +4218,6 @@ thread
 =
 NULL
 ;
-#
-ifdef
-IRIX
-_PR_MD_WAKEUP_PRIMORDIAL_CPU
-(
-)
-;
-#
-endif
 continue
 ;
 }
@@ -7870,7 +7861,6 @@ void
 *
 *
 On
-IRIX
 Solaris
 and
 Windows
@@ -7887,13 +7877,6 @@ terminate
 /
 #
 if
-!
-defined
-(
-IRIX
-)
-&
-&
 !
 defined
 (

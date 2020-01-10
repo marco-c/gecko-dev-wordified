@@ -497,12 +497,6 @@ defined
 _THREAD_SAFE
 )
 )
-|
-|
-defined
-(
-OSF1
-)
 #
 define
 PR_NETDB_BUF_SIZE
