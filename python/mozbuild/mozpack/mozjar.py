@@ -528,12 +528,13 @@ t
 for
 t
 in
-self
-.
-STRUCT
+six
 .
 itervalues
 (
+self
+.
+STRUCT
 )
                                
 if
@@ -2748,10 +2749,11 @@ compression
 for
 f
 in
-entries
+six
 .
 itervalues
 (
+entries
 )
 )
     
@@ -3361,12 +3363,13 @@ jarReader
 for
 entry
 in
-self
-.
-entries
+six
 .
 itervalues
 (
+self
+.
+entries
 )
 :
             
@@ -4030,12 +4033,13 @@ for
 entry
 content
 in
-self
-.
-_contents
+six
 .
 itervalues
 (
+self
+.
+_contents
 )
 :
             
@@ -4273,12 +4277,13 @@ for
 entry
 _
 in
-self
-.
-_contents
+six
 .
 itervalues
 (
+self
+.
+_contents
 )
 :
                 
@@ -4332,12 +4337,13 @@ for
 entry
 content
 in
-self
-.
-_contents
+six
 .
 itervalues
 (
+self
+.
+_contents
 )
 :
             
@@ -4396,12 +4402,13 @@ for
 entry
 _
 in
-self
-.
-_contents
+six
 .
 itervalues
 (
+self
+.
+_contents
 )
 :
                 
