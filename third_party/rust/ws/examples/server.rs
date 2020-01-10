@@ -1,3 +1,7 @@
+extern
+crate
+env_logger
+;
 /
 /
 /
@@ -42,10 +46,6 @@ extern
 crate
 ws
 ;
-extern
-crate
-env_logger
-;
 use
 ws
 :
@@ -65,10 +65,6 @@ env_logger
 :
 :
 init
-(
-)
-.
-unwrap
 (
 )
 ;
