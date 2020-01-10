@@ -261,6 +261,7 @@ primary
 "
 )
     
+#
 parameterized
 (
 "
@@ -274,6 +275,9 @@ portrait
 secondary
 "
 )
+#
+Bug
+1533084
     
 def
 test_set_orientation
