@@ -312,6 +312,7 @@ ErrorResult
 &
 aRv
 )
+const
 =
 0
 ;
@@ -326,6 +327,7 @@ ErrorResult
 &
 aRv
 )
+const
 =
 0
 ;

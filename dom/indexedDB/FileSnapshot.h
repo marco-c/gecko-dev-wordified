@@ -386,6 +386,7 @@ ErrorResult
 &
 aRv
 )
+const
 override
 {
 mBlobImpl
@@ -410,6 +411,7 @@ ErrorResult
 &
 aRv
 )
+const
 override
 {
 mBlobImpl

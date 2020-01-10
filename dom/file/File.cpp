@@ -703,6 +703,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 mImpl
 -
@@ -728,6 +729,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 mImpl
 -

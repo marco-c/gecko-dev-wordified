@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_IPCBlobInputStreamStorage_h
+mozilla_dom_ipc_IPCBlobInputStreamStorage_h
 #
 define
-mozilla_dom_IPCBlobInputStreamStorage_h
+mozilla_dom_ipc_IPCBlobInputStreamStorage_h
 #
 include
 "
@@ -354,4 +354,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_IPCBlobInputStreamStorage_h
+mozilla_dom_ipc_IPCBlobInputStreamStorage_h
