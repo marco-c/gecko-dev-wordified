@@ -185,9 +185,6 @@ struct
 gfxFontFeature
 ;
 struct
-gfxAlternateValue
-;
-struct
 nsCSSKTableEntry
 ;
 struct
