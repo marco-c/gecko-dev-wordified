@@ -2103,8 +2103,10 @@ callback
 "
 )
 ;
+RefPtr
+<
 CustomElementDefinition
-*
+>
 definition
 =
 mRegistry
@@ -2112,7 +2114,7 @@ mRegistry
 >
 mCustomDefinitions
 .
-GetWeak
+Get
 (
 mAtom
 )
