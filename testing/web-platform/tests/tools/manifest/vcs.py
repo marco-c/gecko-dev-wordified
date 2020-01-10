@@ -1090,8 +1090,6 @@ __init__
 cache_root
 tests_root
 rebuild
-=
-False
 )
     
 def
