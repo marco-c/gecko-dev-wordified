@@ -394,6 +394,7 @@ resolve
 )
 ;
 }
+;
 image
 .
 onerror
@@ -440,6 +441,7 @@ resolve
 )
 ;
 }
+;
 doc
 .
 body
@@ -715,6 +717,7 @@ resolve
 )
 ;
 }
+;
 image
 .
 onerror
@@ -764,6 +767,7 @@ resolve
 )
 ;
 }
+;
 doc
 .
 body

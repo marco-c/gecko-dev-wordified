@@ -328,9 +328,7 @@ TYPE_ONE_SHOT
 while
 (
 !
-(
 yield
-)
 )
 ;
 is
@@ -663,9 +661,7 @@ TYPE_ONE_SHOT
 while
 (
 !
-(
 yield
-)
 )
 ;
 is
@@ -1286,9 +1282,7 @@ TYPE_ONE_SHOT
 while
 (
 !
-(
 yield
-)
 )
 ;
 is

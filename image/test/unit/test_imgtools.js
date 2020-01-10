@@ -438,6 +438,7 @@ bytes
 .
 length
 )
+{
 throw
 "
 Didn
@@ -450,6 +451,7 @@ of
 bytes
 "
 ;
+}
 return
 bytes
 ;
@@ -510,6 +512,7 @@ i
 +
 +
 )
+{
 if
 (
 aArray1
@@ -523,6 +526,7 @@ aArray2
 i
 ]
 )
+{
 throw
 "
 arrays
@@ -533,6 +537,8 @@ index
 +
 i
 ;
+}
+}
 }
 /
 *
@@ -579,6 +585,7 @@ if
 !
 aActualError
 )
+{
 throw
 "
 Didn
@@ -596,6 +603,7 @@ aExpectedError
 )
 "
 ;
+}
 if
 (
 !
@@ -606,6 +614,7 @@ test
 aActualError
 )
 )
+{
 throw
 "
 Threw
@@ -622,6 +631,7 @@ not
 +
 aExpectedError
 ;
+}
 /
 /
 We
@@ -755,6 +765,7 @@ if
 !
 imgTools
 )
+{
 throw
 "
 Couldn
@@ -764,6 +775,8 @@ get
 imgITools
 service
 "
+;
+}
 /
 /
 Ugh
@@ -5463,4 +5476,3 @@ e
 ;
 }
 }
-;

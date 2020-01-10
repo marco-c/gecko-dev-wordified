@@ -112,8 +112,8 @@ registerDirectory
 "
 do_get_file
 (
-'
-'
+"
+"
 )
 )
 ;
@@ -139,11 +139,11 @@ start
 ;
 load
 (
-'
+"
 image_load_helpers
 .
 js
-'
+"
 )
 ;
 var
@@ -236,6 +236,7 @@ do_test_finished
 )
 ;
 }
+;
 }
 /
 /
@@ -772,6 +773,7 @@ do_test_finished
 )
 ;
 }
+;
 }
 /
 /
@@ -1260,6 +1262,7 @@ request
 )
 ;
 }
+;
 }
 var
 gCurrentLoader
@@ -1292,6 +1295,7 @@ request
 unlockImage
 (
 )
+;
 }
 catch
 (

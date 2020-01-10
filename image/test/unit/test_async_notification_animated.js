@@ -185,10 +185,10 @@ spec
 ;
 load
 (
-'
+"
 async_load_tests
 .
 js
-'
+"
 )
 ;
