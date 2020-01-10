@@ -1085,17 +1085,6 @@ pool
 }
 }
 ;
-using
-FunctionBoxVector
-=
-Vector
-<
-FunctionBox
-*
-24
-SystemAllocPolicy
->
-;
 template
 <
 typename
