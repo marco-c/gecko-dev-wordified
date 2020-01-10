@@ -1119,10 +1119,6 @@ kPointerLibraryName
 [
 ]
 ;
-static
-bool
-sFirePointerEventsByWinPointerMessages
-;
 /
 /
 Static
