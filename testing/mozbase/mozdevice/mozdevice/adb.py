@@ -14954,7 +14954,7 @@ self
 .
 _logger
 .
-warning
+debug
 (
 '
 Ignoring
