@@ -2382,9 +2382,6 @@ products
 "
 gecko
 "
-boxed
-=
-True
 )
 }
 %
