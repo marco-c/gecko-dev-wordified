@@ -3463,6 +3463,15 @@ strings
 \
 MACRO
 (
+String_split
+String_split
+"
+String_split
+"
+)
+\
+MACRO
+(
 StructType
 StructType
 "
