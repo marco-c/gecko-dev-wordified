@@ -37368,9 +37368,6 @@ element
 if
 (
 document
-&
-&
-document
 -
 >
 IsHTMLOrXHTML
