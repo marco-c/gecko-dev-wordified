@@ -97,7 +97,9 @@ devtools
 /
 server
 /
-main
+debugger
+-
+server
 "
 true
 )
