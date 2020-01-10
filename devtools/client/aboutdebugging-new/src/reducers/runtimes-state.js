@@ -481,6 +481,9 @@ false
 isConnectionNotResponding
 :
 false
+isConnectionTimeout
+:
+false
 }
 ;
 return
@@ -540,6 +543,9 @@ false
 isConnectionNotResponding
 :
 false
+isConnectionTimeout
+:
+true
 }
 ;
 return
@@ -592,6 +598,9 @@ false
 isConnectionNotResponding
 :
 false
+isConnectionTimeout
+:
+false
 runtimeDetails
 }
 ;
@@ -626,6 +635,9 @@ isConnectionFailed
 :
 true
 isConnectionNotResponding
+:
+false
+isConnectionTimeout
 :
 false
 }

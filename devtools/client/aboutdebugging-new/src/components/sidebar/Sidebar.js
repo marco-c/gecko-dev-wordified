@@ -830,6 +830,11 @@ isConnectionNotResponding
 runtime
 .
 isConnectionNotResponding
+isConnectionTimeout
+:
+runtime
+.
+isConnectionTimeout
 isSelected
 isUnavailable
 :
