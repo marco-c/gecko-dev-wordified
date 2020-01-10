@@ -7007,6 +7007,8 @@ interpretOpNoDebugTrapOffset
 uint32_t
 bailoutPrologueOffset
 uint32_t
+generatorThrowOrReturnCallOffset
+uint32_t
 profilerEnterToggleOffset
 uint32_t
 profilerExitToggleOffset
@@ -7047,6 +7049,10 @@ interpretOpNoDebugTrapOffset
 bailoutPrologueOffset_
 =
 bailoutPrologueOffset
+;
+generatorThrowOrReturnCallOffset_
+=
+generatorThrowOrReturnCallOffset
 ;
 profilerEnterToggleOffset_
 =
