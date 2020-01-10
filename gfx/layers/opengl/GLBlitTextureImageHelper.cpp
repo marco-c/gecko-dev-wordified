@@ -1204,7 +1204,7 @@ comes
 out
 of
 decompose
-InfallibleTArray
+nsTArray
 <
 RectTriangles
 :

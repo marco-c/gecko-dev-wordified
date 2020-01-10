@@ -624,7 +624,7 @@ const
 uint32_t
 &
 aStartIndex
-InfallibleTArray
+nsTArray
 <
 float
 >

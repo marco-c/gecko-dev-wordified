@@ -2837,7 +2837,7 @@ ForwardDPTransaction
 GRAPHICS
 )
 ;
-InfallibleTArray
+nsTArray
 <
 RenderRootDisplayListData
 >

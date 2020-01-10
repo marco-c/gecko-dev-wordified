@@ -319,7 +319,7 @@ h
 /
 /
 for
-InfallibleTArray
+nsTArray
 #
 include
 "
@@ -1970,14 +1970,14 @@ bool
 *
 aSent
 const
-InfallibleTArray
+nsTArray
 <
 CompositionPayload
 >
 &
 aPayload
 =
-InfallibleTArray
+nsTArray
 <
 CompositionPayload
 >
@@ -2892,7 +2892,7 @@ mFocusTarget
 bool
 mWindowOverlayChanged
 ;
-InfallibleTArray
+nsTArray
 <
 PluginWindowData
 >

@@ -635,7 +635,7 @@ h
 /
 /
 for
-InfallibleTArray
+nsTArray
 #
 include
 "

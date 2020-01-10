@@ -1364,7 +1364,7 @@ shut
 themselves
 down
 cleanly
-InfallibleTArray
+nsTArray
 <
 PTextureChild
 *
@@ -5224,7 +5224,7 @@ ImageBridgeChild
 :
 RecvParentAsyncMessages
 (
-InfallibleTArray
+nsTArray
 <
 AsyncParentMessageData
 >
@@ -5412,7 +5412,7 @@ ImageBridgeChild
 :
 RecvDidComposite
 (
-InfallibleTArray
+nsTArray
 <
 ImageCompositeNotification
 >

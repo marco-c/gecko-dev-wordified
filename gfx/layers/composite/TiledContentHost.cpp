@@ -1780,7 +1780,7 @@ retainedHeight
 )
 ;
 const
-InfallibleTArray
+nsTArray
 <
 TileDescriptor
 >

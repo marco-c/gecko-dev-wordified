@@ -1636,7 +1636,7 @@ AutoWebRenderBridgeParentAsyncMessageSender
 WebRenderBridgeParent
 *
 aWebRenderBridgeParent
-InfallibleTArray
+nsTArray
 <
 OpDestroy
 >
@@ -1730,7 +1730,7 @@ WebRenderBridgeParent
 *
 mWebRenderBridgeParent
 ;
-InfallibleTArray
+nsTArray
 <
 OpDestroy
 >
@@ -4870,7 +4870,7 @@ WebRenderBridgeParent
 :
 RecvDeleteCompositorAnimations
 (
-InfallibleTArray
+nsTArray
 <
 uint64_t
 >
@@ -6211,7 +6211,7 @@ RenderRootDisplayListData
 &
 &
 aDisplayLists
-InfallibleTArray
+nsTArray
 <
 OpDestroy
 >
@@ -7169,7 +7169,7 @@ RenderRootUpdates
 &
 &
 aRenderRootUpdates
-InfallibleTArray
+nsTArray
 <
 OpDestroy
 >
@@ -8379,7 +8379,7 @@ WebRenderBridgeParent
 ProcessWebRenderParentCommands
 (
 const
-InfallibleTArray
+nsTArray
 <
 WebRenderParentCommand
 >
@@ -8440,7 +8440,7 @@ txnForImageBridge
 ;
 for
 (
-InfallibleTArray
+nsTArray
 <
 WebRenderParentCommand
 >
@@ -15386,7 +15386,7 @@ WebRenderBridgeParent
 SendAsyncMessage
 (
 const
-InfallibleTArray
+nsTArray
 <
 AsyncParentMessageData
 >

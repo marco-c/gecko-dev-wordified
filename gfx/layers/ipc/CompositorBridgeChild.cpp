@@ -5342,7 +5342,7 @@ CompositorBridgeChild
 :
 RecvParentAsyncMessages
 (
-InfallibleTArray
+nsTArray
 <
 AsyncParentMessageData
 >

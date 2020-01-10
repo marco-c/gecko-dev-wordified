@@ -457,7 +457,7 @@ h
 /
 /
 for
-InfallibleTArray
+nsTArray
 #
 include
 "
@@ -1187,7 +1187,7 @@ AutoImageBridgeParentAsyncMessageSender
 ImageBridgeParent
 *
 aImageBridge
-InfallibleTArray
+nsTArray
 <
 OpDestroy
 >
@@ -1259,7 +1259,7 @@ ImageBridgeParent
 *
 mImageBridge
 ;
-InfallibleTArray
+nsTArray
 <
 OpDestroy
 >
@@ -1834,7 +1834,7 @@ associated
 GL
 context
 .
-InfallibleTArray
+nsTArray
 <
 PTextureParent
 *
@@ -2148,7 +2148,7 @@ ImageBridgeParent
 SendAsyncMessage
 (
 const
-InfallibleTArray
+nsTArray
 <
 AsyncParentMessageData
 >

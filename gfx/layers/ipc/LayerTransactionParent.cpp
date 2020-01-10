@@ -961,7 +961,7 @@ LayerTransactionParent
 *
 aLayerTransaction
 const
-InfallibleTArray
+nsTArray
 <
 OpDestroy
 >
@@ -1056,7 +1056,7 @@ LayerTransactionParent
 mLayerTransaction
 ;
 const
-InfallibleTArray
+nsTArray
 <
 OpDestroy
 >
@@ -6439,7 +6439,7 @@ LayerTransactionParent
 SendAsyncMessage
 (
 const
-InfallibleTArray
+nsTArray
 <
 AsyncParentMessageData
 >
