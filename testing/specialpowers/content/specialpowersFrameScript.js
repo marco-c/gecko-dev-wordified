@@ -43,9 +43,9 @@ resource
 /
 specialpowers
 /
-specialpowers
+SpecialPowers
 .
-js
+jsm
 "
 this
 )

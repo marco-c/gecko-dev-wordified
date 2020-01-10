@@ -27,9 +27,9 @@ import
 globals
 -
 from
-specialpowers
+SpecialPowers
 .
-js
+jsm
 *
 /
 function
