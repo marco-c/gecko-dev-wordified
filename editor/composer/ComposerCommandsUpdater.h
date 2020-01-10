@@ -239,11 +239,11 @@ NS_DECL_NSINAMED
 /
 nsITransactionListener
 NS_DECL_NSITRANSACTIONLISTENER
-nsresult
+void
 Init
 (
 nsPIDOMWindowOuter
-*
+&
 aDOMWindow
 )
 ;
