@@ -1847,9 +1847,32 @@ total
 +
 1
         
+#
+Filter
+source
+to
+remove
+excluded
+files
+        
+source
+=
+self
+.
+_generate_path_list
+(
+source
+verbose
+=
+verbose
+)
+        
 if
 not
 total
+or
+not
+source
 :
             
 self
@@ -17254,9 +17277,9 @@ verbose
 print
 (
 "
-clang
+static
 -
-format
+analysis
 :
 Ignored
 third
