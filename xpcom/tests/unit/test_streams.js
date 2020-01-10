@@ -593,6 +593,9 @@ os
 writeByteArray
 (
 HelloArray
+HelloArray
+.
+length
 )
 ;
 Assert
@@ -663,6 +666,9 @@ os
 writeByteArray
 (
 HelloArray
+HelloArray
+.
+length
 )
 ;
 Assert
@@ -845,6 +851,9 @@ os
 writeByteArray
 (
 HelloArray
+HelloArray
+.
+length
 )
 ;
 /

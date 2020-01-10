@@ -812,6 +812,9 @@ bos
 writeByteArray
 (
 httpbodyGZip
+httpbodyGZip
+.
+length
 )
 ;
 if

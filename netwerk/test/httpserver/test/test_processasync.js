@@ -1435,6 +1435,9 @@ out
 writeByteArray
 (
 data
+data
+.
+length
 )
 ;
 step

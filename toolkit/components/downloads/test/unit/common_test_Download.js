@@ -12654,6 +12654,9 @@ bos
 writeByteArray
 (
 TEST_DATA_SHORT_GZIP_ENCODED
+TEST_DATA_SHORT_GZIP_ENCODED
+.
+length
 )
 ;
 }
@@ -12869,6 +12872,9 @@ bos
 writeByteArray
 (
 TEST_DATA_SHORT_GZIP_ENCODED
+TEST_DATA_SHORT_GZIP_ENCODED
+.
+length
 )
 ;
 }
