@@ -525,7 +525,7 @@ rust
 )
 ;
 }
-getBreakpointPositions
+getSourceActorBreakpointPositions
 :
 async
 (
@@ -536,7 +536,7 @@ async
 {
 }
 )
-getBreakableLines
+getSourceActorBreakableLines
 :
 async
 (
@@ -1273,7 +1273,7 @@ createStore
 .
 .
 mockCommandClient
-getBreakpointPositions
+getSourceActorBreakpointPositions
 :
 async
 (

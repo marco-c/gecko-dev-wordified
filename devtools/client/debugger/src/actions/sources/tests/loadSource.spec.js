@@ -461,7 +461,7 @@ async
 =
 >
 fooGenContent
-getBreakpointPositions
+getSourceActorBreakpointPositions
 :
 async
 (
@@ -479,7 +479,7 @@ async
 ]
 }
 )
-getBreakableLines
+getSourceActorBreakableLines
 :
 async
 (
@@ -1034,7 +1034,7 @@ r
 ;
 }
 )
-getBreakpointPositions
+getSourceActorBreakpointPositions
 :
 async
 (
@@ -1045,7 +1045,7 @@ async
 {
 }
 )
-getBreakableLines
+getSourceActorBreakableLines
 :
 async
 (
@@ -1293,7 +1293,7 @@ r
 ;
 }
 )
-getBreakpointPositions
+getSourceActorBreakpointPositions
 :
 async
 (
@@ -1304,7 +1304,7 @@ async
 {
 }
 )
-getBreakableLines
+getSourceActorBreakableLines
 :
 async
 (
