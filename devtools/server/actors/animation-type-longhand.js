@@ -1572,6 +1572,11 @@ Set
 (
 [
 "
+backdrop
+-
+filter
+"
+"
 background
 -
 position
