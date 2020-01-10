@@ -2274,13 +2274,6 @@ kTextEmphasisStyleShapeKTable
 [
 ]
 ;
-static
-const
-KTableEntry
-kTextOverflowKTable
-[
-]
-;
 }
 ;
 /
