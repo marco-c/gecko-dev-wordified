@@ -1834,7 +1834,7 @@ override
 }
 JSObject
 *
-ReadableStreamBody
+GetReadableStreamBody
 (
 )
 override

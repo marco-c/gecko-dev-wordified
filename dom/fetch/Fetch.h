@@ -1384,16 +1384,11 @@ nullptr
 }
 JSObject
 *
-ReadableStreamBody
+GetReadableStreamBody
 (
 )
 override
 {
-MOZ_ASSERT
-(
-mReadableStreamBody
-)
-;
 return
 mReadableStreamBody
 ;

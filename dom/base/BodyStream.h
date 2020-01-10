@@ -211,7 +211,7 @@ MarkAsRead
 virtual
 JSObject
 *
-ReadableStreamBody
+GetReadableStreamBody
 (
 )
 =
