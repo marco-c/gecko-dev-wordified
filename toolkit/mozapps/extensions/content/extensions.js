@@ -24155,6 +24155,7 @@ addons
 {
 type
 }
+/
 ;
 if
 (
@@ -24164,10 +24165,6 @@ param
 viewId
 +
 =
-"
-/
-"
-+
 encodeURIComponent
 (
 param
@@ -24179,6 +24176,18 @@ gViewController
 loadView
 (
 viewId
+)
+;
+}
+replaceWithDefaultViewFn
+(
+)
+{
+gViewController
+.
+replaceView
+(
+gViewDefault
 )
 ;
 }
