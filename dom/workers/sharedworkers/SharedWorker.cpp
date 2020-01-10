@@ -1240,10 +1240,12 @@ loadInfo
 .
 mReferrerInfo
 storageAllowed
-true
+void_t
+(
+)
 /
 *
-sharedWorker
+OptionalServiceWorkerData
 *
 /
 )
