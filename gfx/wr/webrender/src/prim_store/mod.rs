@@ -1224,7 +1224,7 @@ scale_offset
 =
 ref_spatial_node
 .
-coordinate_system_relative_scale_offset
+content_transform
 .
 inverse
 (
@@ -1235,7 +1235,7 @@ accumulate
 &
 target_spatial_node
 .
-coordinate_system_relative_scale_offset
+content_transform
 )
 ;
 CoordinateSpaceMapping
