@@ -4077,6 +4077,14 @@ nsHttpConnectionInfo
 *
 )
 ;
+uint32_t
+FindTunnelCount
+(
+nsCString
+const
+&
+)
+;
 nsDataHashtable
 <
 nsCStringHashKey
