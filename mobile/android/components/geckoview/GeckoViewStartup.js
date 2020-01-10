@@ -482,6 +482,11 @@ GeckoView
 :
 RegisterWebExtension
 "
+"
+GeckoView
+:
+UnregisterWebExtension
+"
 ]
 }
 )
