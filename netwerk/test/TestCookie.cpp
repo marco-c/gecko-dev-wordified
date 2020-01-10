@@ -6297,7 +6297,7 @@ cookie
 get
 (
 )
-MUST_CONTAIN
+MUST_NOT_CONTAIN
 "
 five
 "
@@ -6465,10 +6465,7 @@ cookie
 get
 (
 )
-MUST_EQUAL
-"
-six
-"
+MUST_BE_NULL
 )
 )
 ;
@@ -6518,10 +6515,7 @@ cookie
 get
 (
 )
-MUST_EQUAL
-"
-seven
-"
+MUST_BE_NULL
 )
 )
 ;
@@ -6572,10 +6566,7 @@ cookie
 get
 (
 )
-MUST_EQUAL
-"
-eight
-"
+MUST_BE_NULL
 )
 )
 ;
