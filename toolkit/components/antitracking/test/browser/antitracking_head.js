@@ -2684,10 +2684,6 @@ message
 msg
 )
 ;
-resolve
-(
-)
-;
 return
 ;
 }
