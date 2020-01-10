@@ -7566,10 +7566,10 @@ delete
 ;
 public
 :
-RefPtr
-<
-RawServoQuotes
->
+mozilla
+:
+:
+StyleQuotes
 mQuotes
 ;
 nsRect
