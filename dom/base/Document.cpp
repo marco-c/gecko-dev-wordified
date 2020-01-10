@@ -69900,6 +69900,10 @@ rs
 {
 if
 (
+!
+mXULPersist
+&
+&
 nsContentUtils
 :
 :
