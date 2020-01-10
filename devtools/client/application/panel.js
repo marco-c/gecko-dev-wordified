@@ -226,6 +226,9 @@ destroyed
 "
 )
 ;
+return
+this
+;
 }
 }
 exports

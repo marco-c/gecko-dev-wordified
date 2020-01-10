@@ -279,6 +279,7 @@ toolbox
 target
 ;
 }
+async
 destroy
 (
 )

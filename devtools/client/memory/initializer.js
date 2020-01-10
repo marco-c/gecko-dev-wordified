@@ -307,6 +307,7 @@ store
 const
 destroy
 =
+async
 function
 (
 )
