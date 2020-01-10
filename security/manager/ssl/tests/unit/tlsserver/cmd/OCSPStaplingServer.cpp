@@ -1285,6 +1285,7 @@ certNickname
 cert
 &
 certKEA
+nullptr
 )
 )
 {
