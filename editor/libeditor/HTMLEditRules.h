@@ -9016,9 +9016,6 @@ bool
 mReturnInEmptyLIKillsList
 ;
 bool
-mDidDeleteSelection
-;
-bool
 mDidExplicitlySetInterline
 ;
 bool
