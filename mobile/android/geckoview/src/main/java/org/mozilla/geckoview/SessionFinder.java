@@ -651,8 +651,6 @@ bundle
 )
 ;
 final
-GeckoSession
-.
 CallbackResult
 <
 FinderResult
@@ -660,8 +658,6 @@ FinderResult
 result
 =
 new
-GeckoSession
-.
 CallbackResult
 <
 FinderResult
