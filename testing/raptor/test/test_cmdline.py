@@ -68,6 +68,10 @@ True
 power_test
 =
 False
+                     
+memory_test
+=
+False
 )
     
 parser
@@ -164,6 +168,10 @@ sophie
 power_test
 =
 False
+                     
+memory_test
+=
+False
 )
     
 verify_options
@@ -223,6 +231,10 @@ sophie
 power_test
 =
 False
+                     
+memory_test
+=
+False
 )
     
 verify_options
@@ -280,6 +292,10 @@ sophie
 '
                      
 power_test
+=
+False
+                     
+memory_test
 =
 False
 )
@@ -337,6 +353,10 @@ sophie
 '
                      
 power_test
+=
+False
+                     
+memory_test
 =
 False
 )
