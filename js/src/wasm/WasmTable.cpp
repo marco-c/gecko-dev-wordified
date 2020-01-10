@@ -262,7 +262,7 @@ TableDesc
 desc
 HandleWasmTableObject
 maybeObject
-UniqueAnyFuncArray
+UniqueFuncRefArray
 functions
 )
 :
@@ -435,7 +435,7 @@ case
 TableKind
 :
 :
-AnyFunction
+FuncRef
 :
 case
 TableKind
@@ -444,7 +444,7 @@ TableKind
 TypedFunction
 :
 {
-UniqueAnyFuncArray
+UniqueFuncRefArray
 functions
 (
 cx
@@ -679,7 +679,7 @@ case
 TableKind
 :
 :
-AnyFunction
+FuncRef
 :
 {
 for
@@ -953,7 +953,7 @@ FunctionTableElem
 Table
 :
 :
-getAnyFunc
+getFuncRef
 (
 uint32_t
 index
@@ -1082,7 +1082,7 @@ void
 Table
 :
 :
-setAnyFunc
+setFuncRef
 (
 uint32_t
 index
@@ -1146,7 +1146,7 @@ case
 TableKind
 :
 :
-AnyFunction
+FuncRef
 :
 elem
 .
@@ -1314,7 +1314,7 @@ case
 TableKind
 :
 :
-AnyFunction
+FuncRef
 :
 {
 FunctionTableElem
@@ -1432,7 +1432,7 @@ case
 TableKind
 :
 :
-AnyFunction
+FuncRef
 :
 {
 FunctionTableElem
@@ -1749,7 +1749,7 @@ case
 TableKind
 :
 :
-AnyFunction
+FuncRef
 :
 {
 /

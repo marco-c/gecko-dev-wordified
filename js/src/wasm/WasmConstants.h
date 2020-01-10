@@ -317,7 +317,7 @@ pointer
 with
 any
 signature
-AnyFunc
+FuncRef
 =
 0x70
 /

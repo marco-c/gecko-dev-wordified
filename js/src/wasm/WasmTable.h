@@ -256,7 +256,7 @@ tables
 A
 table
 of
-AnyFunction
+FuncRef
 holds
 FunctionTableElems
 which
@@ -366,7 +366,7 @@ SystemAllocPolicy
 >
 ;
 using
-UniqueAnyFuncArray
+UniqueFuncRefArray
 =
 UniquePtr
 <
@@ -385,7 +385,7 @@ maybeObject_
 InstanceSet
 observers_
 ;
-UniqueAnyFuncArray
+UniqueFuncRefArray
 functions_
 ;
 /
@@ -440,7 +440,7 @@ TableDesc
 td
 HandleWasmTableObject
 maybeObject
-UniqueAnyFuncArray
+UniqueFuncRefArray
 functions
 )
 ;
@@ -543,7 +543,7 @@ kind_
 TableKind
 :
 :
-AnyFunction
+FuncRef
 |
 |
 kind_
@@ -602,7 +602,7 @@ const
 /
 get
 /
-setAnyFunc
+setFuncRef
 is
 allowed
 only
@@ -639,7 +639,7 @@ either
 const
 FunctionTableElem
 &
-getAnyFunc
+getFuncRef
 (
 uint32_t
 index
@@ -647,7 +647,7 @@ index
 const
 ;
 void
-setAnyFunc
+setFuncRef
 (
 uint32_t
 index
