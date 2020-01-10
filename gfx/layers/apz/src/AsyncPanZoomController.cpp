@@ -18520,7 +18520,7 @@ mX
 GetPos
 (
 )
--
++
 logicalPanDisplacement
 .
 x
@@ -18538,7 +18538,7 @@ mY
 GetPos
 (
 )
--
++
 logicalPanDisplacement
 .
 y
