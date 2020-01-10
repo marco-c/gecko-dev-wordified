@@ -1757,7 +1757,6 @@ self
 .
 e
 )
-;
     
 class
 __AST
@@ -2203,13 +2202,13 @@ FILE
 :
 '
 '
-                    
+                     
 '
 LINE
 '
 :
 0
-                    
+                     
 '
 DIRECTORY
 '
@@ -2636,6 +2635,7 @@ Fake
 object
 )
 :
+                
 pass
             
 fake

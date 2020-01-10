@@ -137,6 +137,7 @@ assertEqual
 (
 android_version_code_v0
 (
+            
 buildid
 cpu_arch
 =
@@ -159,6 +160,7 @@ assertEqual
 (
 android_version_code_v0
 (
+            
 buildid
 cpu_arch
 =
@@ -183,6 +185,7 @@ assertEqual
 (
 android_version_code_v0
 (
+            
 buildid
 cpu_arch
 =
@@ -230,6 +233,7 @@ assertEqual
 (
 android_version_code_v1
 (
+            
 buildid
 cpu_arch
 =
@@ -254,6 +258,7 @@ assertEqual
 (
 android_version_code_v1
 (
+            
 buildid
 cpu_arch
 =
@@ -278,6 +283,7 @@ assertEqual
 (
 android_version_code_v1
 (
+            
 buildid
 cpu_arch
 =
@@ -343,6 +349,7 @@ assertEqual
 (
 android_version_code_v1
 (
+            
 buildid
 cpu_arch
 =

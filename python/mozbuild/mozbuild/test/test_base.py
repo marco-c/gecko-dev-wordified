@@ -471,7 +471,7 @@ join
 base
 .
 topsrcdir
-                
+                                                          
 '
 foo
 '
@@ -2321,7 +2321,7 @@ ConfigEnvironment
 base
 .
 topsrcdir
-            
+                                                     
 base
 .
 topobjdir

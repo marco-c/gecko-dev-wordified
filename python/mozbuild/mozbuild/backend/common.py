@@ -1116,6 +1116,7 @@ files
 walk
 (
 )
+                            
 for
 f
 in
@@ -1859,7 +1860,6 @@ sorted
 seen_pgo_gen_only_objs
 )
 no_pgo_objs
-\
                 
 shared_libs
 os_libs
@@ -2188,6 +2188,7 @@ mozpath
 .
 relpath
 (
+            
 f
 self
 .

@@ -1044,6 +1044,7 @@ mozpath
 .
 join
 (
+                    
 obj
 .
 objdir
@@ -1093,6 +1094,7 @@ mozpath
 .
 relpath
 (
+                        
 fullpath
 self
 .
@@ -1685,6 +1687,7 @@ rule
 .
 add_commands
 (
+                    
 [
 '
 (

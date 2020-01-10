@@ -106,7 +106,7 @@ yet
 Please
 run
 '
-            
+              
 '
 |
 mach
@@ -220,7 +220,7 @@ showbuild
 log
 =
 False
-                
+                      
 print_directory
 =
 False
@@ -230,7 +230,7 @@ False
 silent
 =
 True
-                
+                      
 line_handler
 =
 on_line

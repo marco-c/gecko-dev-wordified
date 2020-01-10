@@ -469,7 +469,7 @@ likely
 the
 value
 )
-        
+                                  
 re
 .
 VERBOSE
@@ -1223,7 +1223,7 @@ p
 for
 p
 in
-            
+                        
 self
 .
 DEFAULT_TOPSRCDIR_PATHS
@@ -1270,7 +1270,7 @@ default
 mozconfig
 files
 '
-                
+                                         
 '
 present
 .
@@ -1362,7 +1362,7 @@ s
 for
 s
 in
-            
+                            
 self
 .
 DEPRECATED_TOPSRCDIR_PATHS
@@ -1404,7 +1404,7 @@ s
 for
 s
 in
-            
+                                     
 self
 .
 DEPRECATED_HOME_PATHS
@@ -1855,7 +1855,7 @@ stderr
 subprocess
 .
 STDOUT
-                
+                                             
 cwd
 =
 self
@@ -2334,12 +2334,14 @@ them
 out
 .
         
+def
 filt
-=
-lambda
+(
 x
 y
+)
 :
+return
 {
 k
 :

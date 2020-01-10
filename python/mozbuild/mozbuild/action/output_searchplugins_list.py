@@ -82,7 +82,7 @@ argv
 as
 f
 :
-  
+    
 searchinfo
 =
 json
@@ -119,7 +119,7 @@ locales
 "
 ]
 :
-  
+    
 for
 region
 table
@@ -138,7 +138,7 @@ iteritems
 (
 )
 :
-    
+        
 if
 "
 visibleDefaultEngines
@@ -146,7 +146,7 @@ visibleDefaultEngines
 in
 table
 :
-      
+            
 engines
 .
 update
@@ -162,7 +162,7 @@ if
 not
 engines
 :
-  
+    
 engines
 .
 update
@@ -200,7 +200,7 @@ iteritems
 (
 )
 :
-  
+    
 for
 originalengine
 replacement
@@ -211,13 +211,13 @@ iteritems
 (
 )
 :
-    
+        
 if
 originalengine
 in
 engines
 :
-      
+            
 #
 We
 add
@@ -229,7 +229,7 @@ still
 need
 the
 original
-      
+            
 engines
 .
 add

@@ -2443,17 +2443,17 @@ run_process
 args
 =
 args
-                                  
+                                    
 line_handler
 =
 output
 .
 on_line
-                                  
+                                    
 ensure_exit_code
 =
 False
-                                  
+                                    
 append_env
 =
 self
@@ -5210,7 +5210,7 @@ shell_quote
 value
 )
 )
-                
+                                        
 for
 (
 name
@@ -5695,7 +5695,7 @@ in
 a
 common
 "
-                    
+                                
 "
 ancestor
 directory
@@ -5706,7 +5706,7 @@ and
 srcdir
 possibly
 "
-                    
+                                
 "
 %
 s
@@ -5719,7 +5719,7 @@ overhead
 this
 directory
 "
-                    
+                                
 "
 should
 contain
@@ -5731,7 +5731,7 @@ that
 are
 not
 "
-                    
+                                
 "
 necessary
 for
@@ -5775,6 +5775,7 @@ log_name
 '
 tup
 '
+                                  
 args
 =
 [
@@ -9475,6 +9476,7 @@ backend_file
 .
 symlink_rule
 (
+                            
 f
 .
 full_path
@@ -9597,6 +9599,7 @@ delayed_installed_files
 .
 append
 (
+                            
 (
 f
 .
@@ -9689,6 +9692,7 @@ self
 environment
 .
 topobjdir
+                                                      
 obj
 .
 install_target
@@ -10832,6 +10836,7 @@ mozpath
 .
 join
 (
+            
 outheaderdir
 '
 IPCMessageStart
@@ -11366,6 +11371,7 @@ cpp
 .
 extend
 (
+            
 sorted
 (
 '
