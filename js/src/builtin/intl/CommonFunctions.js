@@ -14496,7 +14496,7 @@ INTL_INTERNALS_OBJECT_SLOT
 =
 =
 =
-null
+undefined
 "
 Internal
 slot
