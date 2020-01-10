@@ -1366,14 +1366,6 @@ PRIVATE
 TYPES
 namespace
 {
-typedef
-nsDataHashtable
-<
-nsCStringHashKey
-HistogramID
->
-StringToHistogramIdMap
-;
 /
 /
 Hardcoded
