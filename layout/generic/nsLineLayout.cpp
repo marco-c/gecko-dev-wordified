@@ -6602,11 +6602,6 @@ away
 content
 .
 bool
-placedFloat
-=
-false
-;
-bool
 isEmpty
 ;
 if
@@ -6890,8 +6885,6 @@ outOfFlowFrame
 }
 else
 {
-placedFloat
-=
 TryToPlaceFloat
 (
 outOfFlowFrame
@@ -8088,9 +8081,6 @@ if
 LineIsEmpty
 (
 )
-|
-|
-placedFloat
 )
 {
 /
@@ -8138,6 +8128,15 @@ content
 .
 if
 (
+!
+aFrame
+-
+>
+IsPlaceholderFrame
+(
+)
+&
+&
 NotifyOptionalBreakPosition
 (
 aFrame
