@@ -12968,9 +12968,6 @@ LaunchPromise
 :
 CreateAndReject
 (
-GeckoChildProcessHost
-:
-:
 LaunchError
 (
 )
@@ -13418,9 +13415,6 @@ self
 this
 ]
 (
-GeckoChildProcessHost
-:
-:
 LaunchError
 err
 )
@@ -14045,9 +14039,6 @@ Unused
 <
 reject
 (
-GeckoChildProcessHost
-:
-:
 LaunchError
 {
 }
@@ -14106,10 +14097,7 @@ extraArgs
 {
 RefPtr
 <
-GeckoChildProcessHost
-:
-:
-HandlePromise
+ProcessHandlePromise
 >
 ready
 =
@@ -14165,9 +14153,6 @@ retptr
 =
 reject
 (
-GeckoChildProcessHost
-:
-:
 LaunchError
 {
 }
