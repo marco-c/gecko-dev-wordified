@@ -2582,7 +2582,7 @@ volatile
 Locale
 mLastLocale
 ;
-private
+protected
 boolean
 mShutdownOnDestroy
 ;
