@@ -1342,7 +1342,7 @@ to
 the
 PuppetSession
 .
-InfallibleTArray
+nsTArray
 <
 uint64_t
 >
