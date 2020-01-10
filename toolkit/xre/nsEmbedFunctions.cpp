@@ -1274,7 +1274,7 @@ nsAppStartupNotifier
 :
 NotifyObservers
 (
-APPSTARTUP_TOPIC
+APPSTARTUP_CATEGORY
 )
 ;
 return

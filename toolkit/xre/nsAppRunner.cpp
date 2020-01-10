@@ -26861,7 +26861,7 @@ nsAppStartupNotifier
 :
 NotifyObservers
 (
-APPSTARTUP_TOPIC
+APPSTARTUP_CATEGORY
 )
 ;
 nsCOMPtr

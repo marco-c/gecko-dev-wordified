@@ -336,14 +336,6 @@ app
 -
 startup
 "
-#
-define
-APPSTARTUP_TOPIC
-"
-app
--
-startup
-"
 /
 *
 Please
