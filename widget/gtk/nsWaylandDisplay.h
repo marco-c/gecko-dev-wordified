@@ -629,11 +629,6 @@ WaylandDispatchDisplays
 (
 )
 ;
-void
-WaylandDisplayShutdown
-(
-)
-;
 nsWaylandDisplay
 *
 WaylandDisplayGet
