@@ -236,12 +236,11 @@ BrowserBridgeChild
 aChild
 )
 ;
-NS_INLINE_DECL_REFCOUNTING
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS
 (
 BrowserBridgeHost
-override
 )
-;
 /
 /
 Get
