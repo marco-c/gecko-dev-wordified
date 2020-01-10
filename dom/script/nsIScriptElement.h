@@ -1101,7 +1101,7 @@ parser
 parser
 -
 >
-PushDefinedInsertionPoint
+IncrementScriptNestingLevel
 (
 )
 ;
@@ -1149,7 +1149,7 @@ parser
 parser
 -
 >
-PopDefinedInsertionPoint
+DecrementScriptNestingLevel
 (
 )
 ;
