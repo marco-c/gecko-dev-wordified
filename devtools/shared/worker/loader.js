@@ -3727,6 +3727,11 @@ isWorker
 :
 true
 "
+isReplaying
+"
+:
+false
+"
 dump
 "
 :
