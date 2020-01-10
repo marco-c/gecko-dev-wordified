@@ -1686,11 +1686,6 @@ OriginPos
 :
 :
 BottomLeft
-mConfig
-.
-HasAlpha
-(
-)
 )
 ;
 RefPtr
