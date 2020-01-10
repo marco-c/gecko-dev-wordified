@@ -201,11 +201,6 @@ s
 "
 %
 side
-flags
-=
-"
-GETCS_NEEDS_LAYOUT_FLUSH
-"
 animation_value_type
 =
 "
@@ -336,11 +331,6 @@ s
 "
 %
 side
-flags
-=
-"
-GETCS_NEEDS_LAYOUT_FLUSH
-"
 alias
 =
 "
@@ -2156,11 +2146,6 @@ animation_value_type
 "
 Size
 "
-flags
-=
-"
-GETCS_NEEDS_LAYOUT_FLUSH
-"
 servo_restyle_damage
 =
 "
@@ -2860,11 +2845,6 @@ kind
 boxed
 =
 True
-flags
-=
-"
-GETCS_NEEDS_LAYOUT_FLUSH
-"
 animation_value_type
 =
 "

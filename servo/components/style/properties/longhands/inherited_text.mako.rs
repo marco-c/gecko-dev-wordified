@@ -224,11 +224,6 @@ animation_value_type
 "
 LineHeight
 "
-flags
-=
-"
-GETCS_NEEDS_LAYOUT_FLUSH
-"
 spec
 =
 "

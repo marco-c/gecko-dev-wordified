@@ -568,11 +568,6 @@ border
 -
 width
 "
-flags
-=
-"
-GETCS_NEEDS_LAYOUT_FLUSH
-"
 allow_quirks
 =
 "
