@@ -1376,6 +1376,8 @@ aImage
 nsIPrincipal
 *
 aPrincipal
+bool
+hadCrossOriginRedirects
 )
 ;
 NS_IMETHOD
@@ -1385,6 +1387,15 @@ nsIPrincipal
 *
 *
 aPrincipal
+)
+override
+;
+NS_IMETHOD
+GetHadCrossOriginRedirects
+(
+bool
+*
+aHadCrossOriginRedirects
 )
 override
 ;
@@ -1434,6 +1445,10 @@ nsCOMPtr
 nsIPrincipal
 >
 mPrincipal
+;
+const
+bool
+mHadCrossOriginRedirects
 ;
 }
 ;
