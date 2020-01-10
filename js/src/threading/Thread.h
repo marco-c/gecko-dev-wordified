@@ -290,11 +290,6 @@ Thread
 {
 public
 :
-using
-Id
-=
-ThreadId
-;
 /
 /
 Provides
@@ -501,7 +496,7 @@ Options
 :
 id_
 (
-Id
+ThreadId
 (
 )
 )
@@ -660,7 +655,7 @@ MOZ_RELEASE_ASSERT
 id_
 =
 =
-Id
+ThreadId
 (
 )
 )
@@ -1050,7 +1045,7 @@ the
 =
 operator
 .
-Id
+ThreadId
 get_id
 (
 )
@@ -1137,7 +1132,7 @@ to
 each
 thread
 .
-Id
+ThreadId
 id_
 ;
 /

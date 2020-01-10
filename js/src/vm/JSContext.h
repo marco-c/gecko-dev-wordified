@@ -1084,10 +1084,7 @@ use
 js
 :
 :
-Thread
-:
-:
-Id
+ThreadId
 currentThread_
 ;
 js
@@ -1226,10 +1223,7 @@ currentThread_
 js
 :
 :
-Thread
-:
-:
-Id
+ThreadId
 (
 )
 ;
