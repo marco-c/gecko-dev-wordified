@@ -2370,7 +2370,7 @@ ReflowInput
 &
 aReflowInput
 nsReflowStatus
-*
+&
 aStatus
 nscoord
 aContentBSize

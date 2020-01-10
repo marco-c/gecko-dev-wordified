@@ -13051,7 +13051,6 @@ wm
 ComputeFinalBSize
 (
 aReflowInput
-&
 aState
 .
 mReflowStatus
@@ -56372,7 +56371,7 @@ ReflowInput
 &
 aReflowInput
 nsReflowStatus
-*
+&
 aStatus
 nscoord
 aContentBSize
@@ -56482,8 +56481,7 @@ wm
 if
 (
 aStatus
--
->
+.
 IsIncomplete
 (
 )
@@ -56535,8 +56533,7 @@ for
 overflow
 .
 aStatus
--
->
+.
 SetOverflowIncomplete
 (
 )
@@ -56548,8 +56545,7 @@ finalBSize
 if
 (
 aStatus
--
->
+.
 IsComplete
 (
 )
@@ -56582,8 +56578,7 @@ aReflowInput
 )
 {
 aStatus
--
->
+.
 SetInlineLineBreakBeforeAndReset
 (
 )
@@ -56635,8 +56630,7 @@ block
 size
 .
 aStatus
--
->
+.
 SetIncomplete
 (
 )
@@ -56650,8 +56644,7 @@ GetNextInFlow
 )
 {
 aStatus
--
->
+.
 SetNextInFlowNeedsReflow
 (
 )
@@ -56662,8 +56655,7 @@ SetNextInFlowNeedsReflow
 if
 (
 aStatus
--
->
+.
 IsIncomplete
 (
 )
