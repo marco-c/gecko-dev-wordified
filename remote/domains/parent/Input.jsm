@@ -407,6 +407,9 @@ _getEventUtils
 browserWindow
 )
 ;
+const
+eventId
+=
 await
 this
 .
@@ -572,7 +575,7 @@ executeInChild
 "
 waitForContentEvent
 "
-domType
+eventId
 )
 ;
 }
