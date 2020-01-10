@@ -384,7 +384,7 @@ visibleColumns
 :
 PropTypes
 .
-object
+array
 .
 isRequired
 }
