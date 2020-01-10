@@ -10101,6 +10101,7 @@ updateMozinfo
 (
 self
 prefs
+options
 )
 :
         
@@ -10332,6 +10333,25 @@ dom
 serviceWorkers
 .
 parent_intercept
+'
+False
+)
+        
+self
+.
+mozInfo
+[
+'
+verify
+'
+]
+=
+options
+.
+get
+(
+'
+verify
 '
 False
 )
@@ -11260,6 +11280,7 @@ self
 updateMozinfo
 (
 prefs
+options
 )
 :
             
