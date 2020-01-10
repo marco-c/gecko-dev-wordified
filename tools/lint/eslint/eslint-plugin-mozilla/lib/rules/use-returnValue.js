@@ -408,11 +408,7 @@ Public
 -
 return
 {
-"
 ExpressionStatement
-"
-:
-function
 (
 node
 )

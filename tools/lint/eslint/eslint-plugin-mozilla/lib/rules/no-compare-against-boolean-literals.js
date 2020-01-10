@@ -402,11 +402,7 @@ Public
 -
 return
 {
-"
 BinaryExpression
-"
-:
-function
 (
 node
 )

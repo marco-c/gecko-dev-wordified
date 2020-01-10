@@ -307,9 +307,7 @@ XXX
 Better
 name
 ?
-"
 enum
-"
 :
 [
 "
@@ -334,11 +332,7 @@ context
 {
 return
 {
-"
 CallExpression
-"
-:
-function
 (
 node
 )

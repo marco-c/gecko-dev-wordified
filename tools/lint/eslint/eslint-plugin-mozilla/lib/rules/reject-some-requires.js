@@ -402,14 +402,12 @@ Public
 if
 (
 typeof
-(
 context
 .
 options
 [
 0
 ]
-)
 !
 =
 =
@@ -489,11 +487,7 @@ allowed
 ;
 return
 {
-"
 CallExpression
-"
-:
-function
 (
 node
 )

@@ -714,13 +714,11 @@ file
 .
 startNode
 ?
-(
 startNode
 .
 end
 +
 1
-)
 :
 0
 /

@@ -423,11 +423,7 @@ Public
 -
 return
 {
-"
 VariableDeclarator
-"
-:
-function
 (
 node
 )

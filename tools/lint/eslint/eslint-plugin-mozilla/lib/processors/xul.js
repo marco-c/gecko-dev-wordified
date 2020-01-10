@@ -1877,7 +1877,6 @@ find
 r
 =
 >
-(
 target
 >
 =
@@ -1892,7 +1891,6 @@ target
 r
 .
 end
-)
 )
 ;
 /
@@ -1971,14 +1969,12 @@ filter
 r
 =
 >
-(
 target
 >
 =
 r
 .
 end
-)
 )
 .
 map

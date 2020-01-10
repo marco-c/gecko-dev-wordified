@@ -415,11 +415,7 @@ Public
 -
 return
 {
-"
 TryStatement
-"
-:
-function
 (
 node
 )

@@ -434,11 +434,7 @@ context
 {
 return
 {
-"
 CallExpression
-"
-:
-function
 (
 node
 )
@@ -547,11 +543,7 @@ measurements
 )
 ;
 }
-"
 NewExpression
-"
-:
-function
 (
 node
 )

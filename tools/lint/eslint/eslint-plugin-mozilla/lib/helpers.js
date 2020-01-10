@@ -851,6 +851,7 @@ filename
 ;
 }
 return
+(
 this
 .
 getASTSource
@@ -871,6 +872,7 @@ getASTSource
 node
 .
 property
+)
 )
 ;
 case
@@ -1056,6 +1058,7 @@ AssignmentExpression
 "
 :
 return
+(
 this
 .
 getASTSource
@@ -1077,6 +1080,7 @@ node
 .
 right
 )
+)
 ;
 case
 "
@@ -1084,6 +1088,7 @@ BinaryExpression
 "
 :
 return
+(
 this
 .
 getASTSource
@@ -1110,6 +1115,7 @@ getASTSource
 node
 .
 right
+)
 )
 ;
 default

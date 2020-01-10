@@ -417,9 +417,11 @@ catch
 e
 =
 >
+(
 error
 =
 e
+)
 )
 .
 then

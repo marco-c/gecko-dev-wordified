@@ -58,8 +58,10 @@ tagName
 INPUT
 "
 )
+{
 return
 ;
+}
 let
 box
 =
@@ -158,6 +160,7 @@ if
 (
 isFirefox
 )
+{
 box
 .
 checked
@@ -167,6 +170,7 @@ box
 .
 checked
 ;
+}
 let
 start
 =

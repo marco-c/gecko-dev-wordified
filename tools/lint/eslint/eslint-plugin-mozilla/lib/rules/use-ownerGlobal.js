@@ -405,11 +405,7 @@ Public
 -
 return
 {
-"
 MemberExpression
-"
-:
-function
 (
 node
 )

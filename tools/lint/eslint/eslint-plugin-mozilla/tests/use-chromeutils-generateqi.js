@@ -453,7 +453,6 @@ type
 const
 MSG_NO_JS_QUERY_INTERFACE
 =
-(
 "
 Please
 use
@@ -471,12 +470,10 @@ JavaScript
 QueryInterface
 functions
 "
-)
 ;
 const
 MSG_NO_XPCOMUTILS_GENERATEQI
 =
-(
 "
 Please
 use
@@ -489,7 +486,6 @@ XPCOMUtils
 .
 generateQI
 "
-)
 ;
 /
 *

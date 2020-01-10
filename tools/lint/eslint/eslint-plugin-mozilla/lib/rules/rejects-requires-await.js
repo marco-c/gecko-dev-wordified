@@ -106,11 +106,7 @@ context
 {
 return
 {
-"
 CallExpression
-"
-:
-function
 (
 node
 )

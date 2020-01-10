@@ -459,11 +459,7 @@ Public
 -
 return
 {
-"
 CallExpression
-"
-:
-function
 (
 node
 )
