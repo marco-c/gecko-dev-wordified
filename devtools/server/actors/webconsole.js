@@ -6143,6 +6143,11 @@ const
 evalOptions
 =
 {
+bindObjectActor
+:
+request
+.
+bindObjectActor
 frameActor
 :
 request
