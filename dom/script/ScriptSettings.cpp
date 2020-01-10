@@ -3764,12 +3764,16 @@ didn
 '
 t
 .
-JS_SetPendingException
+JS
+:
+:
+SetPendingExceptionAndStack
 (
 cx
 (
 )
 exn
+exnStack
 )
 ;
 worker
