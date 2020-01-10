@@ -58,12 +58,18 @@ __future__
 import
 absolute_import
 print_function
+unicode_literals
 from
 mozbuild
 .
 util
 import
+(
+    
 ensureParentDir
+    
+ensure_bytes
+)
 from
 mozpack
 .
@@ -194,8 +200,6 @@ import
 os
 import
 random
-import
-string
 import
 sys
 import
@@ -833,6 +837,7 @@ qux
 )
 rand
 =
+b
 '
 '
 .
@@ -842,10 +847,13 @@ random
 .
 choice
 (
-string
-.
-letters
+    
+b
+'
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+'
 )
+                
 for
 i
 in
@@ -858,25 +866,31 @@ samples
 =
 [
     
+b
 '
 '
     
+b
 '
 test
 '
     
+b
 '
 fooo
 '
     
+b
 '
 same
 '
     
+b
 '
 same
 '
     
+b
 '
 Different
 and
@@ -894,10 +908,12 @@ rand
 1
 ]
 +
+b
 '
 _
 '
     
+b
 '
 test
 '
@@ -4517,6 +4533,7 @@ object
         
 content
 =
+b
 '
 '
 .
@@ -4622,6 +4639,7 @@ f
 =
 GeneratedFile
 (
+b
 '
 test
 '
@@ -4658,6 +4676,7 @@ self
 .
 assertEqual
 (
+b
 '
 test
 '
@@ -4693,6 +4712,7 @@ f
 =
 GeneratedFile
 (
+b
 '
 test
 '
@@ -4712,6 +4732,7 @@ self
 .
 assertEqual
 (
+b
 '
 test
 '
@@ -4751,6 +4772,7 @@ f
 =
 GeneratedFile
 (
+b
 '
 fooo
 '
@@ -4832,6 +4854,7 @@ num_calls
 1
             
 return
+b
 '
 content
 '
@@ -4880,6 +4903,7 @@ self
 .
 assertEqual
 (
+b
 '
 content
 '
@@ -4900,6 +4924,7 @@ self
 .
 assertEqual
 (
+b
 '
 content
 '
@@ -4918,6 +4943,7 @@ self
 .
 assertEqual
 (
+b
 '
 content
 '
@@ -4934,6 +4960,7 @@ assertEqual
 (
 len
 (
+b
 '
 content
 '
@@ -4962,6 +4989,7 @@ f
 .
 content
 =
+b
 '
 modified
 '
@@ -4990,6 +5018,7 @@ self
 .
 assertEqual
 (
+b
 '
 modified
 '
@@ -5010,6 +5039,7 @@ self
 .
 assertEqual
 (
+b
 '
 modified
 '
@@ -5028,6 +5058,7 @@ self
 .
 assertEqual
 (
+b
 '
 modified
 '
@@ -5044,6 +5075,7 @@ assertEqual
 (
 len
 (
+b
 '
 modified
 '
@@ -5078,6 +5110,7 @@ self
 .
 assertEqual
 (
+b
 '
 content
 '
@@ -5198,6 +5231,7 @@ samples
                 
 name
 =
+b
 '
 '
 .
@@ -5207,11 +5241,13 @@ random
 .
 choice
 (
-string
-.
-letters
+                    
+b
+'
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+'
 )
-                               
+                    
 for
 i
 in
@@ -5329,6 +5365,7 @@ jar
         
 content
 =
+b
 '
 '
 .
@@ -5482,6 +5519,7 @@ add
 '
 test
 '
+b
 '
 test
 '
@@ -5494,6 +5532,7 @@ add
 '
 test2
 '
+b
 '
 test
 '
@@ -5506,6 +5545,7 @@ add
 '
 fooo
 '
+b
 '
 fooo
 '
@@ -5565,6 +5605,7 @@ self
 .
 assertEqual
 (
+b
 '
 test
 '
@@ -5624,6 +5665,7 @@ self
 .
 assertEqual
 (
+b
 '
 test
 '
@@ -7031,6 +7073,7 @@ propLines
 =
 [
             
+b
 '
 #
 Comments
@@ -7038,15 +7081,18 @@ are
 removed
 '
             
+b
 '
 foo
 =
 bar
 '
             
+b
 '
 '
             
+b
 '
 #
 Another
@@ -7059,6 +7105,7 @@ prop
 =
 GeneratedFile
 (
+b
 '
 \
 n
@@ -7204,6 +7251,7 @@ orig_lines
 =
 [
         
+b
 '
 /
 /
@@ -7211,6 +7259,7 @@ Comment
 line
 '
         
+b
 '
 let
 foo
@@ -7221,6 +7270,7 @@ bar
 ;
 '
         
+b
 '
 var
 bar
@@ -7229,9 +7279,11 @@ true
 ;
 '
         
+b
 '
 '
         
+b
 '
 /
 /
@@ -7252,6 +7304,7 @@ orig_f
 =
 GeneratedFile
 (
+b
 '
 \
 n
@@ -7373,6 +7426,7 @@ orig_f
 =
 GeneratedFile
 (
+b
 '
 \
 n
@@ -7451,6 +7505,7 @@ orig_f
 =
 GeneratedFile
 (
+b
 '
 \
 n
@@ -9735,7 +9790,10 @@ jar
 add
 (
 path
+ensure_bytes
+(
 path
+)
 compress
 =
 True
@@ -10578,6 +10636,17 @@ configs
 =
 (
             
+#
+b
+'
+'
+because
+py2
+needs
+!
+unicode
+            
+b
 '
 ui
 .
@@ -10606,13 +10675,24 @@ open
 self
 .
 tmpdir
+                            
 encoding
 =
+b
 '
 UTF
 -
 8
 '
+#
+b
+'
+'
+because
+py2
+needs
+!
+unicode
                             
 configs
 =

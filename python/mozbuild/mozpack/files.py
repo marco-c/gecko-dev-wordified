@@ -58,6 +58,7 @@ __future__
 import
 absolute_import
 print_function
+unicode_literals
 import
 errno
 import
@@ -95,7 +96,14 @@ mozbuild
 .
 util
 import
+(
+    
 FileAvoidWrite
+    
+ensure_bytes
+    
+ensure_unicode
+)
 from
 mozpack
 .
@@ -455,7 +463,10 @@ self
 .
 path
 =
+ensure_unicode
+(
 path
+)
         
 self
 .
@@ -1312,6 +1323,7 @@ dest
 .
 write
 (
+b
 '
 '
 )
@@ -1341,6 +1353,7 @@ open
         
 copy_content
 =
+b
 '
 '
         
@@ -1729,7 +1742,10 @@ self
 .
 path
 =
+ensure_unicode
+(
 path
+)
     
 property
     
@@ -3572,13 +3588,19 @@ self
 .
 path
 =
+ensure_unicode
+(
 path
+)
         
 self
 .
 depfile
 =
+ensure_unicode
+(
 depfile_path
+)
         
 self
 .
@@ -4945,11 +4967,16 @@ manifest
 return
 BytesIO
 (
+            
+ensure_bytes
+(
+                
 '
 '
 .
 join
 (
+                    
 '
 %
 s
@@ -4965,7 +4992,7 @@ self
 .
 _base
 )
-                               
+                    
 for
 e
 in
@@ -4974,10 +5001,11 @@ chain
 self
 .
 _entries
-                                              
 self
 .
 _interfaces
+)
+                
 )
 )
 )
@@ -5158,6 +5186,7 @@ file
 return
 BytesIO
 (
+b
 '
 '
 .
@@ -5178,13 +5207,14 @@ open
 readlines
 (
 )
-                               
+                                
 if
 not
 l
 .
 startswith
 (
+b
 '
 #
 '
