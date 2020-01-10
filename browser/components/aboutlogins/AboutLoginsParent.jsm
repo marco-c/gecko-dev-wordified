@@ -2212,10 +2212,6 @@ LoginRemoved
 login
 )
 ;
-}
-default
-:
-{
 break
 ;
 }
