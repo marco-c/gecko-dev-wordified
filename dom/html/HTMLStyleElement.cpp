@@ -300,6 +300,7 @@ HTMLStyleElement
 Disabled
 (
 )
+const
 {
 StyleSheet
 *
@@ -1024,6 +1025,10 @@ IsInline
 :
 :
 Yes
+IsExplicitlyEnabled
+:
+:
+No
 }
 )
 ;
