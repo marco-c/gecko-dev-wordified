@@ -83,7 +83,7 @@ SimpleTest
 .
 requestLongerTimeout
 (
-2
+4
 )
 ;
 /

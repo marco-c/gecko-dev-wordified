@@ -378,6 +378,7 @@ unknownContentType
 xul
 "
 ;
+return
 BrowserTestUtils
 .
 promiseAlertDialogOpen
