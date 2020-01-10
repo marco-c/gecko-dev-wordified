@@ -4099,11 +4099,11 @@ setAttribute
 "
 placeholder
 "
-Weave
+fxAccounts
 .
-Utils
+device
 .
-getDefaultDeviceName
+getDefaultLocalName
 (
 )
 )
