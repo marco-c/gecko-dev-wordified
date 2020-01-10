@@ -150,13 +150,6 @@ client
 =
 client
 ;
-this
-.
-traits
-=
-{
-}
-;
 }
 form
 (
