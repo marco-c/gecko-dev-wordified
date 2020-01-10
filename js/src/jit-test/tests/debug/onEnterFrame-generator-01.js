@@ -424,6 +424,11 @@ frame
 .
 this
 gw
+.
+makeDebuggeeValue
+(
+g
+)
 )
 ;
 assertEq

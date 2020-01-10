@@ -100,6 +100,11 @@ unwrap
 (
 )
 dg2
+.
+makeDebuggeeValue
+(
+g2
+)
 )
 ;
 /

@@ -540,6 +540,11 @@ unwrap
 (
 )
 dg1
+.
+makeDebuggeeValue
+(
+g1
+)
 )
 ;
 dwg1
@@ -559,7 +564,8 @@ Object
 for
 CCW
 of
-global
+WindowProxy
+of
 g1
 ]
 "

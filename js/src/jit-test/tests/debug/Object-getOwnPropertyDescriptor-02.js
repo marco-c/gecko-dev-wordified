@@ -65,5 +65,10 @@ desc
 .
 value
 gobj
+.
+makeDebuggeeValue
+(
+g
+)
 )
 ;

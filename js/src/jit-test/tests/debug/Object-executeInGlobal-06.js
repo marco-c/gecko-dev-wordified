@@ -56,6 +56,11 @@ this
 .
 return
 g1w
+.
+makeDebuggeeValue
+(
+g1
+)
 )
 ;
 assertEq
@@ -76,5 +81,10 @@ x
 .
 return
 g1w
+.
+makeDebuggeeValue
+(
+g1
+)
 )
 ;
