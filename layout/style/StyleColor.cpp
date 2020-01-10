@@ -640,7 +640,7 @@ we
 can
 skip
 resolving
-StyleColor
+StyleText
 (
 )
 .
@@ -679,7 +679,7 @@ CalcColor
 (
 aStyle
 .
-StyleColor
+StyleText
 (
 )
 -

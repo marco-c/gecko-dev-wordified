@@ -13367,9 +13367,6 @@ line
 clamp
 "
 "
-color
-"
-"
 column
 -
 width
@@ -13620,6 +13617,9 @@ side
 border
 -
 spacing
+"
+"
+color
 "
 "
 line

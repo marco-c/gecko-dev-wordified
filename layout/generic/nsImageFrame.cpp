@@ -8006,7 +8006,7 @@ Color
 :
 FromABGR
 (
-StyleColor
+StyleText
 (
 )
 -

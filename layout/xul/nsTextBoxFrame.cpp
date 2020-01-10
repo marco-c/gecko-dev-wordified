@@ -1560,7 +1560,7 @@ GetPaintRect
 mFrame
 -
 >
-StyleColor
+StyleText
 (
 )
 -
@@ -2887,7 +2887,7 @@ aOverrideColor
 *
 aOverrideColor
 :
-StyleColor
+StyleText
 (
 )
 -

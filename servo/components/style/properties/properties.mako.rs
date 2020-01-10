@@ -20110,7 +20110,7 @@ to_rgba
 (
 self
 .
-get_color
+get_inherited_text
 (
 )
 .

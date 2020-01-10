@@ -203,10 +203,6 @@ box
 "
     
 "
-color
-"
-    
-"
 column
 "
     

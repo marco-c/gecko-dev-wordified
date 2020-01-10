@@ -6149,7 +6149,7 @@ aColor
 canvasStyle
 -
 >
-StyleColor
+StyleText
 (
 )
 -

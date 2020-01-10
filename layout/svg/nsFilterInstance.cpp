@@ -4307,7 +4307,7 @@ mTargetFrame
 mTargetFrame
 -
 >
-StyleColor
+StyleText
 (
 )
 -
