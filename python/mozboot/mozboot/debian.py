@@ -780,8 +780,8 @@ self
 .
 check_output
 (
-[
                 
+[
 '
 apt
 -
@@ -794,6 +794,9 @@ pkgnames
 python3
 '
 ]
+universal_newlines
+=
+True
 )
             
 python3_packages
