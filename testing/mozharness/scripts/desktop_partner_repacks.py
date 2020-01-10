@@ -214,10 +214,6 @@ actions
 [
                 
 "
-clobber
-"
-                
-"
 get
 -
 secrets
