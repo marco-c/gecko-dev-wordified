@@ -1602,6 +1602,9 @@ wikipedia
 wiktionary
 "
 "
+yandex
+"
+"
 multilocale
 "
 ]
