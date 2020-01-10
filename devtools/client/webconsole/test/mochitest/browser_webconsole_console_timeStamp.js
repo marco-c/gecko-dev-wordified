@@ -118,9 +118,13 @@ the
 console
 input
 .
+await
+hud
+.
+jsterm
+.
 execute
 (
-hud
 "
 console
 .

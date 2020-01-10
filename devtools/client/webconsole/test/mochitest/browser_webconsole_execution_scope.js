@@ -144,6 +144,13 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
+const
+{
+jsterm
+}
+=
+hud
+;
 hud
 .
 ui
@@ -189,9 +196,10 @@ result
 "
 )
 ;
+jsterm
+.
 execute
 (
-hud
 "
 window
 .

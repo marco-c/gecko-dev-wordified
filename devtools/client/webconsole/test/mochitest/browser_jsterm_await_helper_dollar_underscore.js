@@ -187,6 +187,13 @@ TEST_URI
 )
 ;
 const
+{
+jsterm
+}
+=
+hud
+;
+const
 executeAndWaitForResultMessage
 =
 (
@@ -630,9 +637,10 @@ of
 inputs
 )
 {
+jsterm
+.
 execute
 (
-hud
 input
 )
 ;

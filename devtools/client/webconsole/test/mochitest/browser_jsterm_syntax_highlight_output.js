@@ -119,6 +119,13 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
+const
+jsterm
+=
+hud
+.
+jsterm
+;
 /
 /
 Syntax
@@ -189,9 +196,10 @@ str
 ;
 )
 ;
+jsterm
+.
 execute
 (
-hud
 "
 var
 a

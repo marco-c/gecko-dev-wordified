@@ -574,9 +574,12 @@ window
 Test
 eval
 .
+hud
+.
+jsterm
+.
 execute
 (
-hud
 "
 document
 .
@@ -592,9 +595,12 @@ Test
 eval
 frame
 script
+hud
+.
+jsterm
+.
 execute
 (
-hud
 gBrowser
 .
 selectedBrowser

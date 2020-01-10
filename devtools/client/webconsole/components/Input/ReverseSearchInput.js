@@ -319,6 +319,13 @@ PropTypes
 func
 .
 isRequired
+evaluateInput
+:
+PropTypes
+.
+func
+.
+isRequired
 reverseSearchResult
 :
 PropTypes
@@ -505,6 +512,7 @@ event
 const
 {
 dispatch
+evaluateInput
 }
 =
 this
@@ -526,13 +534,8 @@ reverseSearchInputToggle
 )
 )
 ;
-dispatch
+evaluateInput
 (
-actions
-.
-evaluateExpression
-(
-)
 )
 ;
 }
