@@ -19206,6 +19206,14 @@ GetTopLevelContentDocument
 (
 )
 ;
+const
+Document
+*
+GetTopLevelContentDocument
+(
+)
+const
+;
 /
 /
 Returns

@@ -316,6 +316,8 @@ bool
 aIsTrackingResource
 bool
 aFirstPartyStorageAccessGranted
+uint32_t
+aRejectedReason
 bool
 aIsSafeTopLevelNav
 bool

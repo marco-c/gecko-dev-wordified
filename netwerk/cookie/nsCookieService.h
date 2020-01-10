@@ -1620,6 +1620,8 @@ bool
 aIsTrackingResource
 bool
 aFirstPartyStorageAccessGranted
+uint32_t
+aRejectedReason
 bool
 aIsSafeTopLevelNav
 bool
@@ -1815,6 +1817,8 @@ bool
 aIsTrackingResource
 bool
 aFirstPartyStorageAccessGranted
+uint32_t
+aRejectedReason
 bool
 aIsSafeTopLevelNav
 bool
@@ -1863,6 +1867,8 @@ bool
 aIsTrackingResource
 bool
 aFirstPartyStorageAccessGranted
+uint32_t
+aRejectedReason
 nsDependentCString
 &
 aCookieHeader
