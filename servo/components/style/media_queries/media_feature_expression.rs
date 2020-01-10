@@ -1992,15 +1992,6 @@ gecko
 ]
 {
 if
-unsafe
-{
-structs
-:
-:
-StaticPrefs_sVarCache_layout_css_prefixes_webkit
-}
-&
-&
 starts_with_ignore_ascii_case
 (
 feature_name
