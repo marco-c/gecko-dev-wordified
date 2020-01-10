@@ -1926,18 +1926,6 @@ opt
 -
 mochitest
 -
-clipboard
-'
-    
-'
-test
--
-linux64
-/
-opt
--
-mochitest
--
 devtools
 '
     
