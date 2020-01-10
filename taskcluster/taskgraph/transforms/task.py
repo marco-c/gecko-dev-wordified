@@ -6074,6 +6074,11 @@ macosx
 '
 linux
 '
+'
+linux
+-
+bitbar
+'
 )
     
 #
