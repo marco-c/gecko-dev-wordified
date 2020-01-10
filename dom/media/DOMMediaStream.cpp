@@ -997,10 +997,6 @@ mFinishedOnInactive
 (
 true
 )
-mCORSMode
-(
-CORS_NONE
-)
 {
 nsresult
 rv
