@@ -1541,6 +1541,7 @@ if
 (
 haveDefaultHandlersVersion
 )
+{
 Assert
 .
 equal
@@ -1553,7 +1554,9 @@ possibleApplicationHandlers
 length
 )
 ;
+}
 else
+{
 Assert
 .
 equal
@@ -1566,6 +1569,7 @@ possibleApplicationHandlers
 length
 )
 ;
+}
 /
 /
 Win7
@@ -1587,6 +1591,7 @@ if
 (
 noMailto
 )
+{
 Assert
 .
 ok
@@ -1596,7 +1601,9 @@ protoInfo
 alwaysAskBeforeHandling
 )
 ;
+}
 else
+{
 Assert
 .
 ok
@@ -1607,6 +1614,7 @@ protoInfo
 alwaysAskBeforeHandling
 )
 ;
+}
 /
 /
 OS
@@ -1735,6 +1743,7 @@ if
 (
 noMailto
 )
+{
 Assert
 .
 ok
@@ -1744,7 +1753,9 @@ protoInfo
 alwaysAskBeforeHandling
 )
 ;
+}
 else
+{
 Assert
 .
 ok
@@ -1755,6 +1766,7 @@ protoInfo
 alwaysAskBeforeHandling
 )
 ;
+}
 }
 else
 {
@@ -2350,6 +2362,7 @@ hasMoreElements
 (
 )
 )
+{
 Assert
 .
 notEqual
@@ -2373,6 +2386,7 @@ handlerInfo2
 type
 )
 ;
+}
 /
 /
 Make
@@ -2855,6 +2869,7 @@ Ci
 .
 nsILocalHandlerApp
 )
+{
 [
 localPossibleHandler
 webPossibleHandler
@@ -2867,7 +2882,9 @@ handler2
 0
 ]
 ;
+}
 else
+{
 [
 localPossibleHandler
 webPossibleHandler
@@ -2880,6 +2897,7 @@ handler1
 1
 ]
 ;
+}
 localPossibleHandler
 .
 QueryInterface

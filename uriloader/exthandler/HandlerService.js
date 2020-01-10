@@ -1807,6 +1807,7 @@ this
 _handlerInfo
 ;
 return
+(
 this
 .
 _handlerInfo
@@ -1816,6 +1817,7 @@ gExternalProtocolService
 getProtocolHandlerInfo
 (
 type
+)
 )
 ;
 }
@@ -3194,6 +3196,7 @@ the
 callers
 .
 return
+(
 handlerInfo
 instanceof
 Ci
@@ -3211,6 +3214,7 @@ includes
 /
 "
 )
+)
 ;
 }
 /
@@ -3222,6 +3226,7 @@ handlerInfo
 )
 {
 return
+(
 handlerInfo
 .
 type
@@ -3231,6 +3236,7 @@ this
 _getHandlerListByHandlerInfoType
 (
 handlerInfo
+)
 )
 ;
 }
