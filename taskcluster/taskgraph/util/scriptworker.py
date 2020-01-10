@@ -4369,11 +4369,15 @@ platforms
 deepcopy
 (
 map_config
-[
+.
+get
+(
 '
 platform_names
 '
-]
+{
+}
+)
 )
         
 if
@@ -4468,39 +4472,6 @@ build_number
 ]
             
 '
-filename_platform
-'
-:
-platforms
-[
-'
-filename_platform
-'
-]
-            
-'
-path_platform
-'
-:
-platforms
-[
-'
-path_platform
-'
-]
-            
-'
-stage_platform
-'
-:
-platforms
-[
-'
-stage_platform
-'
-]
-            
-'
 year
 '
 :
@@ -4558,6 +4529,15 @@ S
 )
         
 }
+)
+        
+kwargs
+.
+update
+(
+*
+*
+platforms
 )
         
 paths
@@ -4894,11 +4874,15 @@ platforms
 deepcopy
 (
 map_config
-[
+.
+get
+(
 '
 platform_names
 '
-]
+{
+}
+)
 )
     
 if
@@ -5578,39 +5562,6 @@ build_number
 ]
                     
 '
-filename_platform
-'
-:
-platforms
-[
-'
-filename_platform
-'
-]
-                    
-'
-path_platform
-'
-:
-platforms
-[
-'
-path_platform
-'
-]
-                    
-'
-stage_platform
-'
-:
-platforms
-[
-'
-stage_platform
-'
-]
-                    
-'
 year
 '
 :
@@ -5668,6 +5619,15 @@ S
 )
                 
 }
+)
+                
+kwargs
+.
+update
+(
+*
+*
+platforms
 )
                 
 paths
