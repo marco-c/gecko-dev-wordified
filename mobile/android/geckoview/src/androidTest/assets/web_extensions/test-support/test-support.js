@@ -131,8 +131,6 @@ warning
 const
 response
 =
-window
-.
 eval
 (
 message
