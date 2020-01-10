@@ -3447,9 +3447,6 @@ effective
 for
 a
 given
-XBL
-binding
-or
 Shadow
 Root
 .

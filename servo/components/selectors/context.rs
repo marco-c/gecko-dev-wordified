@@ -1806,10 +1806,7 @@ mut
 self
 host
 :
-Option
-<
 E
->
 f
 :
 F
@@ -1848,14 +1845,9 @@ self
 .
 current_host
 =
-host
-.
-map
+Some
 (
-|
-h
-|
-h
+host
 .
 opaque
 (
