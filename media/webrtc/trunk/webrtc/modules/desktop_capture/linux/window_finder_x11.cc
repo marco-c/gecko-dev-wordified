@@ -92,10 +92,17 @@ modules
 /
 desktop_capture
 /
+linux
+/
 window_finder_x11
 .
 h
 "
+#
+include
+<
+memory
+>
 #
 include
 "
@@ -103,7 +110,7 @@ modules
 /
 desktop_capture
 /
-x11
+linux
 /
 window_list_utils
 .

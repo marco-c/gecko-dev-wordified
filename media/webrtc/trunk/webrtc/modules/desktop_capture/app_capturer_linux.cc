@@ -114,7 +114,7 @@ modules
 /
 desktop_capture
 /
-x11
+linux
 /
 shared_x_util
 .
@@ -217,7 +217,7 @@ modules
 /
 desktop_capture
 /
-x11
+linux
 /
 shared_x_display
 .
@@ -230,7 +230,7 @@ modules
 /
 desktop_capture
 /
-x11
+linux
 /
 x_error_trap
 .
@@ -243,7 +243,7 @@ modules
 /
 desktop_capture
 /
-x11
+linux
 /
 x_server_pixel_buffer
 .

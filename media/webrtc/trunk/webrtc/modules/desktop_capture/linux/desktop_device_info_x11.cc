@@ -63,7 +63,7 @@ modules
 /
 desktop_capture
 /
-x11
+linux
 /
 desktop_device_info_x11
 .
@@ -97,7 +97,7 @@ modules
 /
 desktop_capture
 /
-x11
+linux
 /
 shared_x_util
 .
@@ -110,7 +110,7 @@ modules
 /
 desktop_capture
 /
-x11
+linux
 /
 x_error_trap
 .
@@ -123,9 +123,18 @@ modules
 /
 desktop_capture
 /
-x11
+linux
 /
 x_server_pixel_buffer
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+logging
 .
 h
 "
