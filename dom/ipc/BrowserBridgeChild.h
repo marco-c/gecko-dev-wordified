@@ -174,9 +174,6 @@ BrowsingContext
 class
 ContentChild
 ;
-class
-Document
-;
 /
 *
 *
@@ -561,14 +558,6 @@ BrowserBridgeChild
 (
 )
 ;
-void
-UnblockOwnerDocsLoadEvent
-(
-Document
-*
-aOwnerDoc
-)
-;
 TabId
 mId
 ;
@@ -577,11 +566,6 @@ mLayersId
 ;
 bool
 mIPCOpen
-;
-bool
-mHadInitialLoad
-=
-false
 ;
 RefPtr
 <
