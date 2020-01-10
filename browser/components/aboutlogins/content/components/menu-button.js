@@ -481,6 +481,13 @@ dataset
 .
 eventName
 ;
+const
+linkTrackingSource
+=
+"
+Elipsis_Menu
+"
+;
 document
 .
 dispatchEvent
@@ -493,6 +500,9 @@ eventName
 bubbles
 :
 true
+detail
+:
+linkTrackingSource
 }
 )
 )
