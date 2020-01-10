@@ -9574,7 +9574,7 @@ requiredRemoteType
 {
 browser
 .
-inLoadURI
+isNavigating
 =
 true
 ;
@@ -9905,7 +9905,7 @@ requiredRemoteType
 {
 browser
 .
-inLoadURI
+isNavigating
 =
 false
 ;
