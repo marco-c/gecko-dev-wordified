@@ -300,7 +300,7 @@ nullptr
 }
 }
 ;
-static
+extern
 const
 mozilla
 :
@@ -319,12 +319,4 @@ kVersion
 kBrowserCIDs
 kBrowserContracts
 }
-;
-NSMODULE_DEFN
-(
-nsBrowserCompsModule
-)
-=
-&
-kBrowserModule
 ;

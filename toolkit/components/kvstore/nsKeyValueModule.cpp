@@ -171,6 +171,7 @@ nullptr
 }
 }
 ;
+extern
 const
 mozilla
 :
@@ -190,12 +191,4 @@ kKeyValueCIDs
 kKeyValueContracts
 nullptr
 }
-;
-NSMODULE_DEFN
-(
-nsKeyValueModule
-)
-=
-&
-kKeyValueModule
 ;

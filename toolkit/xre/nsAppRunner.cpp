@@ -6652,7 +6652,7 @@ nullptr
 }
 }
 ;
-static
+extern
 const
 mozilla
 :
@@ -6671,14 +6671,6 @@ kVersion
 kXRECIDs
 kXREContracts
 }
-;
-NSMODULE_DEFN
-(
-Apprunner
-)
-=
-&
-kXREModule
 ;
 nsresult
 ScopedXPCOMStartup

@@ -1589,7 +1589,7 @@ xpcModuleDtor
 )
 ;
 }
-static
+extern
 const
 mozilla
 :
@@ -1612,12 +1612,4 @@ nullptr
 nullptr
 nullptr
 }
-;
-NSMODULE_DEFN
-(
-nsLayoutModule
-)
-=
-&
-kLayoutModule
 ;

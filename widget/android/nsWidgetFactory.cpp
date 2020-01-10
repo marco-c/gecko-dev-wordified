@@ -833,7 +833,7 @@ nsAppShellShutdown
 )
 ;
 }
-static
+extern
 const
 mozilla
 :
@@ -856,12 +856,4 @@ nullptr
 nsAppShellInit
 nsWidgetAndroidModuleDtor
 }
-;
-NSMODULE_DEFN
-(
-nsWidgetAndroidModule
-)
-=
-&
-kWidgetModule
 ;

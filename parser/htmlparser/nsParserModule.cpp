@@ -286,7 +286,8 @@ ReleaseTable
 )
 ;
 }
-static
+extern
+const
 mozilla
 :
 :
@@ -308,12 +309,4 @@ nullptr
 Initialize
 Shutdown
 }
-;
-NSMODULE_DEFN
-(
-nsParserModule
-)
-=
-&
-kParserModule
 ;
