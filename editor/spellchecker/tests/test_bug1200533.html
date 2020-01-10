@@ -499,6 +499,7 @@ script
 var
 loadListener
 =
+async
 function
 (
 evt
@@ -810,9 +811,10 @@ de_DE
 var
 existenceChecks
 =
+await
 script
 .
-sendSyncMessage
+sendQuery
 (
 "
 check
@@ -820,12 +822,6 @@ check
 existence
 "
 )
-[
-0
-]
-[
-0
-]
 ;
 is
 (
@@ -1214,7 +1210,7 @@ tests
 .
 script
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 destroy
