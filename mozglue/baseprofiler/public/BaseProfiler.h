@@ -6969,6 +6969,10 @@ bool
 aIsShuttingDown
 =
 false
+bool
+aOnlyThreads
+=
+false
 )
 ;
 /
@@ -7009,6 +7013,10 @@ aSinceTime
 0
 bool
 aIsShuttingDown
+=
+false
+bool
+aOnlyThreads
 =
 false
 )
