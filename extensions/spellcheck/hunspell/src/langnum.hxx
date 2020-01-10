@@ -482,6 +482,13 @@ LANG_bg
 LANG_ca
 =
 37
+LANG_crh
+=
+102
+/
+/
+custom
+number
 LANG_cs
 =
 42
