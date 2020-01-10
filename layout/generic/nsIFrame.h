@@ -1054,7 +1054,7 @@ class
 nsILineIterator
 ;
 class
-nsDisplayItem
+nsDisplayItemBase
 ;
 class
 nsDisplayListBuilder
@@ -8597,7 +8597,7 @@ const
 typedef
 AutoTArray
 <
-nsDisplayItem
+nsDisplayItemBase
 *
 4
 >
@@ -30279,7 +30279,7 @@ mDisplayItemData
 void
 AddDisplayItem
 (
-nsDisplayItem
+nsDisplayItemBase
 *
 aItem
 )
@@ -30287,7 +30287,7 @@ aItem
 bool
 RemoveDisplayItem
 (
-nsDisplayItem
+nsDisplayItemBase
 *
 aItem
 )
@@ -30305,7 +30305,7 @@ HasDisplayItems
 bool
 HasDisplayItem
 (
-nsDisplayItem
+nsDisplayItemBase
 *
 aItem
 )

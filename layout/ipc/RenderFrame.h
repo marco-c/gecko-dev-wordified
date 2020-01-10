@@ -586,10 +586,6 @@ final
 public
 nsDisplayItem
 {
-friend
-class
-nsDisplayItem
-;
 typedef
 mozilla
 :
@@ -806,6 +802,10 @@ TYPE_REMOTE
 )
 private
 :
+friend
+class
+nsDisplayItemBase
+;
 nsFrameLoader
 *
 GetFrameLoader
