@@ -19281,6 +19281,17 @@ presShell
 )
 )
 {
+if
+(
+!
+browserChild
+-
+>
+IsTopLevel
+(
+)
+)
+{
 resolutionX
 *
 =
@@ -19305,6 +19316,7 @@ GetEffectsInfo
 .
 mScaleY
 ;
+}
 }
 ContainerLayerParameters
 containerParameters
