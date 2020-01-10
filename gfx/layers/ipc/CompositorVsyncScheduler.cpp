@@ -666,7 +666,7 @@ thread
 .
 mAsapScheduling
 =
-gfxPrefs
+StaticPrefs
 :
 :
 LayersCompositionFrameRate

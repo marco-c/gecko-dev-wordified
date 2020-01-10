@@ -3224,7 +3224,7 @@ subset
 int32_t
 thresholdSurfaces
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ImageCacheFactor2ThresholdSurfaces
@@ -11721,7 +11721,7 @@ maximum
 int32_t
 maxSizeKB
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ImageCacheMaxRasterizedSVGThresholdKB

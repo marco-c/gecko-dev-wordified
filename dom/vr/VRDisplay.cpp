@@ -208,6 +208,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 DataSurfaceHelpers
@@ -218,13 +227,6 @@ h
 include
 "
 Navigator
-.
-h
-"
-#
-include
-"
-gfxPrefs
 .
 h
 "
@@ -2783,7 +2785,7 @@ TimeDuration
 :
 FromMilliseconds
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VRNavigationTimeout
@@ -2932,7 +2934,7 @@ TimeDuration
 :
 FromMilliseconds
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VRNavigationTimeout
@@ -3102,7 +3104,7 @@ IsHandlingVRNavigationEvent
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 VRRequireGesture

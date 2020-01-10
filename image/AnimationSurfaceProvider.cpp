@@ -309,7 +309,7 @@ threshold
 (
 size_t
 (
-gfxPrefs
+StaticPrefs
 :
 :
 ImageAnimatedDecodeOnDemandThresholdKB
@@ -338,7 +338,7 @@ height
 size_t
 batch
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ImageAnimatedDecodeOnDemandBatchSize
@@ -2804,7 +2804,7 @@ GetFrameRecycler
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 ImageAnimatedDecodeOnDemandRecycle

@@ -3246,7 +3246,7 @@ continue
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersDrawFPS
@@ -3577,7 +3577,7 @@ layer
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 DrawLayerInfo
@@ -3835,7 +3835,7 @@ asyncTransform
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZMinimap
@@ -4704,7 +4704,7 @@ enabled
 .
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersDrawFPS

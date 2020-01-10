@@ -11273,7 +11273,7 @@ GetTopLevelDocument
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 TouchActionEnabled

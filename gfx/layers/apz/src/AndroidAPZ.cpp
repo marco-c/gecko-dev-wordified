@@ -185,6 +185,15 @@ ViewConfiguration
 h
 "
 #
+include
+"
+mozilla
+/
+StaticPrefs
+.
+h
+"
+#
 define
 ANDROID_APZ_LOG
 (
@@ -418,7 +427,7 @@ aPLPPI
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZUseChromeFlingPhysics
@@ -484,7 +493,7 @@ aAxis
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZUseChromeFlingPhysics
@@ -529,7 +538,7 @@ InitializeGlobalState
 Not
 conditioned
 on
-gfxPrefs
+StaticPrefs
 :
 :
 APZUseChromeFlingPhysics
@@ -1313,7 +1322,7 @@ ToMilliseconds
 (
 )
 <
-gfxPrefs
+StaticPrefs
 :
 :
 APZFlingAccelInterval
@@ -1328,7 +1337,7 @@ Length
 )
 >
 =
-gfxPrefs
+StaticPrefs
 :
 :
 APZFlingAccelMinVelocity
@@ -1903,7 +1912,7 @@ Length
 ;
 /
 /
-gfxPrefs
+StaticPrefs
 :
 :
 APZFlingStoppedThreshold
@@ -1922,7 +1931,7 @@ shouldContinueFling
 (
 speed
 <
-gfxPrefs
+StaticPrefs
 :
 :
 APZFlingStoppedThreshold

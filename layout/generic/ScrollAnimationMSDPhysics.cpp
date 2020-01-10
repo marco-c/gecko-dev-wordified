@@ -152,7 +152,7 @@ mModelX
 0
 0
 0
-gfxPrefs
+StaticPrefs
 :
 :
 SmoothScrollMSDPhysicsRegularSpringConstant
@@ -165,7 +165,7 @@ mModelY
 0
 0
 0
-gfxPrefs
+StaticPrefs
 :
 :
 SmoothScrollMSDPhysicsRegularSpringConstant
@@ -428,7 +428,7 @@ TimeDuration
 )
 ;
 return
-gfxPrefs
+StaticPrefs
 :
 :
 SmoothScrollMSDPhysicsMotionBeginSpringConstant
@@ -470,7 +470,7 @@ if
 deltaMS
 >
 =
-gfxPrefs
+StaticPrefs
 :
 :
 SmoothScrollMSDPhysicsContinuousMotionMaxDeltaMS
@@ -479,7 +479,7 @@ SmoothScrollMSDPhysicsContinuousMotionMaxDeltaMS
 )
 {
 return
-gfxPrefs
+StaticPrefs
 :
 :
 SmoothScrollMSDPhysicsMotionBeginSpringConstant
@@ -495,7 +495,7 @@ previousDelta
 deltaMS
 >
 =
-gfxPrefs
+StaticPrefs
 :
 :
 SmoothScrollMSDPhysicsSlowdownMinDeltaMS
@@ -512,7 +512,7 @@ ToMilliseconds
 (
 )
 *
-gfxPrefs
+StaticPrefs
 :
 :
 SmoothScrollMSDPhysicsSlowdownMinDeltaRatio
@@ -572,7 +572,7 @@ more
 quickly
 .
 return
-gfxPrefs
+StaticPrefs
 :
 :
 SmoothScrollMSDPhysicsSlowdownSpringConstant
@@ -581,7 +581,7 @@ SmoothScrollMSDPhysicsSlowdownSpringConstant
 ;
 }
 return
-gfxPrefs
+StaticPrefs
 :
 :
 SmoothScrollMSDPhysicsRegularSpringConstant

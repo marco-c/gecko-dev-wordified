@@ -155,6 +155,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 GamepadEventTypes
@@ -1528,7 +1537,7 @@ TimeDuration
 :
 FromMilliseconds
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VROculusPresentTimeout
@@ -1750,7 +1759,7 @@ ovrInit_MixedRendering
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VROculusInvisibleEnabled
@@ -7127,7 +7136,7 @@ predictedFrameTime
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VRPosePredictionEnabled
@@ -8544,7 +8553,7 @@ const
 float
 triggerThreshold
 =
-gfxPrefs
+StaticPrefs
 :
 :
 VRControllerTriggerThreshold

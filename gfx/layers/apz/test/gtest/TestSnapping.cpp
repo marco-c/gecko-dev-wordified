@@ -622,7 +622,7 @@ TimeDuration
 :
 FromMilliseconds
 (
-gfxPrefs
+StaticPrefs
 :
 :
 MouseWheelTransactionTimeoutMs

@@ -279,6 +279,15 @@ TextRenderer
 h
 "
 #
+include
+"
+mozilla
+/
+StaticPrefs
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
@@ -1480,7 +1489,7 @@ output
 .
 mDrawDiagnostics
 =
-gfxPrefs
+StaticPrefs
 :
 :
 LayersDrawFPS
@@ -1493,7 +1502,7 @@ mTarget
 ;
 mUsingInvalidation
 =
-gfxPrefs
+StaticPrefs
 :
 :
 AdvancedLayersUseInvalidation
@@ -3179,7 +3188,7 @@ NotifyShadowTreeTransaction
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersDrawFPS

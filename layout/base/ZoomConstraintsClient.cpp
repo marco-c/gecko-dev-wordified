@@ -1246,7 +1246,7 @@ constraints
 mAllowZoom
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 APZAllowDoubleTapZooming

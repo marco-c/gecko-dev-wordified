@@ -844,7 +844,7 @@ ToMilliseconds
 (
 )
 <
-gfxPrefs
+StaticPrefs
 :
 :
 APZFlingAccelInterval
@@ -859,7 +859,7 @@ Length
 )
 >
 =
-gfxPrefs
+StaticPrefs
 :
 :
 APZFlingAccelMinVelocity
@@ -1963,7 +1963,7 @@ return
 (
 aBase
 *
-gfxPrefs
+StaticPrefs
 :
 :
 APZFlingAccelBaseMultiplier
@@ -1974,7 +1974,7 @@ APZFlingAccelBaseMultiplier
 (
 aSupplemental
 *
-gfxPrefs
+StaticPrefs
 :
 :
 APZFlingAccelSupplementalMultiplier

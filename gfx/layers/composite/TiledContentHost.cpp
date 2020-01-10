@@ -124,17 +124,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-/
-/
-for
-gfxPrefs
-#
-include
-"
 PaintedLayerComposite
 .
 h
@@ -355,6 +344,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 TextureClient
@@ -397,7 +395,7 @@ Now
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 LayerTileFadeInEnabled
@@ -424,7 +422,7 @@ aOpacity
 float
 duration
 =
-gfxPrefs
+StaticPrefs
 :
 :
 LayerTileFadeInDuration
@@ -2352,7 +2350,7 @@ TimeDuration
 :
 FromMilliseconds
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayerTileFadeInDuration
@@ -2924,7 +2922,7 @@ aOpacity
 0f
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 LowPrecisionOpacity
@@ -3039,7 +3037,7 @@ a
 0f
 )
 ?
-gfxPrefs
+StaticPrefs
 :
 :
 LowPrecisionOpacity
@@ -4365,7 +4363,7 @@ MOZ_DUMP_PAINTING
 )
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersDumpTexture

@@ -8878,7 +8878,7 @@ HaveSkia
 |
 |
 !
-gfxPrefs
+StaticPrefs
 :
 :
 ImageDownscaleDuringDecodeEnabled
