@@ -13653,7 +13653,7 @@ directions
 scrollableFrame
 -
 >
-GetAvailableScrollingDirections
+GetPerceivedScrollingDirections
 (
 )
 ;
@@ -67497,7 +67497,7 @@ Bug
 The
 size
 of
-srtoke
+stroke
 -
 box
 is
@@ -67531,7 +67531,7 @@ aFrame
 nsSVGUtils
 :
 :
-eBBoxIncludeFill
+eBBoxIncludeFillGeometry
 |
 nsSVGUtils
 :
@@ -67849,7 +67849,7 @@ aFrame
 nsSVGUtils
 :
 :
-eBBoxIncludeFill
+eBBoxIncludeFillGeometry
 )
 ;
 r
@@ -67892,7 +67892,7 @@ aFrame
 nsSVGUtils
 :
 :
-eBBoxIncludeFill
+eBBoxIncludeFillGeometry
 )
 ;
 r
