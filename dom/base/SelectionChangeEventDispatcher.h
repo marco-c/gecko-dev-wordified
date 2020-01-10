@@ -169,6 +169,10 @@ class
 Selection
 ;
 }
+/
+/
+namespace
+dom
 class
 SelectionChangeEventDispatcher
 final

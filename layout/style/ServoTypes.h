@@ -180,6 +180,10 @@ LangGroupFontPrefs
 }
 /
 /
+namespace
+mozilla
+/
+/
 used
 for
 associating
