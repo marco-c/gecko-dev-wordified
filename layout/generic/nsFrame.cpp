@@ -7961,6 +7961,7 @@ StartImageLoads
 (
 *
 doc
+aOldComputedStyle
 )
 ;
 }
