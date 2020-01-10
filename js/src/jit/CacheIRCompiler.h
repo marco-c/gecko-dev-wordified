@@ -257,6 +257,11 @@ GuardFunctionIsNative
 \
 _
 (
+GuardFunctionIsConstructor
+)
+\
+_
+(
 GuardSpecificNativeFunction
 )
 \
