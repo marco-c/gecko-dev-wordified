@@ -7489,6 +7489,12 @@ case
 ValType
 :
 :
+FuncRef
+:
+case
+ValType
+:
+:
 AnyRef
 :
 t
