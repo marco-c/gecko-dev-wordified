@@ -1660,9 +1660,6 @@ this
 .
 STORE_LABEL
 textArr
-.
-length
-textArr
 )
 ;
 /

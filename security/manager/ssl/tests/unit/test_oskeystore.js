@@ -621,9 +621,6 @@ LABELS
 0
 ]
 text
-.
-length
-text
 )
 ;
 ok
@@ -1405,9 +1402,6 @@ LABELS
 0
 ]
 text
-.
-length
-text
 )
 ;
 /
@@ -1603,9 +1597,6 @@ LABELS
 [
 0
 ]
-text
-.
-length
 text
 )
 ;
@@ -2090,9 +2081,6 @@ LABELS
 0
 ]
 text
-.
-length
-text
 )
 ;
 ok
@@ -2439,9 +2427,6 @@ LABELS
 [
 0
 ]
-text
-.
-length
 text
 )
 ;
