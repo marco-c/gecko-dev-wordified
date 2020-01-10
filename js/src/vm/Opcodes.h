@@ -16052,6 +16052,9 @@ handled
 by
 the
 JITs
+or
+Baseline
+Interpreter
 so
 the
 script
@@ -16059,6 +16062,10 @@ always
 runs
 in
 the
+C
++
++
+*
 interpreter
 .
 *
