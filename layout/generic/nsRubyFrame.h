@@ -344,6 +344,10 @@ const
 ReflowInput
 &
 aReflowInput
+nscoord
+aBlockStartAscent
+nscoord
+aBlockSize
 nsRubyBaseContainerFrame
 *
 aBaseContainer

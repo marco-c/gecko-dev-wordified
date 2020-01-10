@@ -439,6 +439,9 @@ const
 RubyReflowInput
 &
 aReflowInput
+ReflowOutput
+&
+aDesiredSize
 nsReflowStatus
 &
 aStatus
@@ -460,6 +463,9 @@ mozilla
 RubyColumn
 &
 aColumn
+ReflowOutput
+&
+aDesiredSize
 nsReflowStatus
 &
 aStatus
