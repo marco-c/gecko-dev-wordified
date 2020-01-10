@@ -70,6 +70,10 @@ urllib
 import
 typing
 from
+urllib
+import
+parse
+from
 mitmproxy
 import
 command
@@ -538,6 +542,15 @@ flow
 .
 request
         
+#
+unquote
+url
+        
+#
+See
+Bug
+1509835
+        
 _
 _
 path
@@ -551,9 +564,14 @@ parse
 .
 urlparse
 (
+parse
+.
+unquote
+(
 r
 .
 url
+)
 )
         
 queriesArray
