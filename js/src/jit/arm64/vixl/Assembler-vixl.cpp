@@ -20986,7 +20986,7 @@ LSL
 {
 VIXL_ASSERT
 (
-IsUint8
+is_uint8
 (
 imm
 )
@@ -21011,7 +21011,7 @@ else
 {
 VIXL_ASSERT
 (
-IsUint8
+is_uint8
 (
 imm
 )
@@ -28487,7 +28487,7 @@ h000
 uint32_t
 bits
 =
-FloatToRawbits
+float_to_rawbits
 (
 imm
 )
@@ -28644,7 +28644,7 @@ efgh
 uint64_t
 bits
 =
-DoubleToRawbits
+double_to_rawbits
 (
 imm
 )
@@ -29095,7 +29095,7 @@ shift
 }
 VIXL_ASSERT
 (
-IsUint16
+is_uint16
 (
 imm
 )
@@ -29623,7 +29623,7 @@ code
 {
 VIXL_ASSERT
 (
-IsUint16
+is_uint16
 (
 code
 )
@@ -29652,7 +29652,7 @@ code
 {
 VIXL_ASSERT
 (
-IsUint16
+is_uint16
 (
 code
 )
@@ -30125,7 +30125,7 @@ left_shift
 ;
 VIXL_ASSERT
 (
-IsUint8
+is_uint8
 (
 imm8
 )
@@ -30353,7 +30353,7 @@ shift_amount
 ;
 VIXL_ASSERT
 (
-IsUint8
+is_uint8
 (
 imm8
 )
@@ -31402,14 +31402,14 @@ immediate
 )
 {
 return
-IsUint12
+is_uint12
 (
 immediate
 )
 |
 |
 (
-IsUint12
+is_uint12
 (
 immediate
 >
@@ -31442,7 +31442,7 @@ immediate
 )
 {
 return
-IsUint5
+is_uint5
 (
 immediate
 )
@@ -31487,7 +31487,7 @@ h000
 uint32_t
 bits
 =
-FloatToRawbits
+float_to_rawbits
 (
 imm
 )
@@ -31665,7 +31665,7 @@ efgh
 uint64_t
 bits
 =
-DoubleToRawbits
+double_to_rawbits
 (
 imm
 )
@@ -31843,7 +31843,7 @@ return
 offset_is_size_multiple
 &
 &
-IsInt7
+is_int7
 (
 offset
 >
@@ -31896,7 +31896,7 @@ return
 offset_is_size_multiple
 &
 &
-IsUint12
+is_uint12
 (
 offset
 >
@@ -31916,7 +31916,7 @@ offset
 )
 {
 return
-IsInt9
+is_int9
 (
 offset
 )

@@ -387,13 +387,13 @@ NULL
 ;
 VIXL_ASSERT
 (
-IsUint32
+is_uint32
 (
 imm
 )
 |
 |
-IsInt32
+is_int32
 (
 imm
 )
@@ -2417,7 +2417,7 @@ Is64Bits
 )
 |
 |
-IsUint32
+is_uint32
 (
 immediate
 )
@@ -3460,7 +3460,7 @@ imm
 {
 VIXL_ASSERT
 (
-IsUint16
+is_uint16
 (
 imm
 )
@@ -3641,7 +3641,7 @@ imm
 {
 VIXL_ASSERT
 (
-IsUint32
+is_uint32
 (
 imm
 )
@@ -4455,7 +4455,7 @@ immediate
 .
 VIXL_ASSERT
 (
-IsUint8
+is_uint8
 (
 imm
 )
@@ -6155,7 +6155,7 @@ else
 uint64_t
 rawbits
 =
-DoubleToRawbits
+double_to_rawbits
 (
 imm
 )
@@ -6323,7 +6323,7 @@ else
 uint32_t
 rawbits
 =
-FloatToRawbits
+float_to_rawbits
 (
 imm
 )
@@ -7812,7 +7812,7 @@ ROR
 ;
 VIXL_ASSERT
 (
-IsUintN
+is_uintn
 (
 rd
 .

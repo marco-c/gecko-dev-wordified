@@ -791,7 +791,7 @@ case
 CondBranchType
 :
 return
-IsInt19
+is_int19
 (
 offset
 )
@@ -800,7 +800,7 @@ case
 UncondBranchType
 :
 return
-IsInt26
+is_int26
 (
 offset
 )
@@ -809,7 +809,7 @@ case
 CompareBranchType
 :
 return
-IsInt19
+is_int19
 (
 offset
 )
@@ -818,7 +818,7 @@ case
 TestBranchType
 :
 return
-IsInt14
+is_int14
 (
 offset
 )
