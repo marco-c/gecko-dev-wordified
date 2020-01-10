@@ -5118,13 +5118,12 @@ STATE_COOKIES_BLOCKED_TRACKER
 ;
 if
 (
-(
 aReason
 !
 =
 eOpenerAfterUserInteraction
-|
-|
+&
+&
 nsContentUtils
 :
 :
@@ -5140,7 +5139,6 @@ restrict3rdpartystorage
 "
 userInteractionRequiredForHosts
 "
-)
 )
 &
 &
