@@ -75,7 +75,6 @@ ProxyLogger
 class
 RaptorLogger
 (
-ProxyLogger
 )
 :
     
