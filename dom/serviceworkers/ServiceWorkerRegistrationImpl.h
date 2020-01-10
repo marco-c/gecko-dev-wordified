@@ -361,7 +361,7 @@ FireUpdateFound
 override
 ;
 void
-RegistrationRemoved
+RegistrationCleared
 (
 )
 override
@@ -409,7 +409,7 @@ StopListeningForEvents
 )
 ;
 void
-RegistrationRemovedInternal
+RegistrationClearedInternal
 (
 )
 ;
@@ -526,7 +526,7 @@ aDescriptor
 )
 ;
 void
-RegistrationRemoved
+RegistrationCleared
 (
 )
 ;

@@ -629,7 +629,7 @@ void
 ServiceWorkerRegistration
 :
 :
-RegistrationRemoved
+RegistrationCleared
 (
 )
 {

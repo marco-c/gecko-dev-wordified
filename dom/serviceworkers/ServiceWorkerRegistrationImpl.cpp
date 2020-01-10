@@ -622,7 +622,7 @@ void
 ServiceWorkerRegistrationMainThread
 :
 :
-RegistrationRemovedInternal
+RegistrationClearedInternal
 (
 )
 {
@@ -681,7 +681,7 @@ mOuter
 mOuter
 -
 >
-RegistrationRemoved
+RegistrationCleared
 (
 )
 ;
@@ -964,7 +964,7 @@ void
 ServiceWorkerRegistrationMainThread
 :
 :
-RegistrationRemoved
+RegistrationCleared
 (
 )
 {
@@ -1051,14 +1051,14 @@ NewRunnableMethod
 ServiceWorkerRegistrationMainThread
 :
 :
-RegistrationRemoved
+RegistrationCleared
 "
 this
 &
 ServiceWorkerRegistrationMainThread
 :
 :
-RegistrationRemovedInternal
+RegistrationClearedInternal
 )
 ;
 Unused
@@ -3664,7 +3664,7 @@ FireUpdateFound
 }
 }
 void
-RegistrationRemoved
+RegistrationCleared
 (
 )
 override
@@ -3806,7 +3806,7 @@ void
 ServiceWorkerRegistrationWorkerThread
 :
 :
-RegistrationRemoved
+RegistrationCleared
 (
 )
 {
@@ -3857,7 +3857,7 @@ mOuter
 mOuter
 -
 >
-RegistrationRemoved
+RegistrationCleared
 (
 )
 ;
@@ -5054,7 +5054,7 @@ MaybeDispatchUpdateFoundRunnable
 }
 }
 class
-RegistrationRemovedWorkerRunnable
+RegistrationClearedWorkerRunnable
 final
 :
 public
@@ -5068,7 +5068,7 @@ mListener
 ;
 public
 :
-RegistrationRemovedWorkerRunnable
+RegistrationClearedWorkerRunnable
 (
 WorkerPrivate
 *
@@ -5170,7 +5170,7 @@ AssertIsOnWorkerThread
 mListener
 -
 >
-RegistrationRemoved
+RegistrationCleared
 (
 )
 ;
@@ -5184,7 +5184,7 @@ void
 WorkerListener
 :
 :
-RegistrationRemoved
+RegistrationCleared
 (
 )
 {
@@ -5217,7 +5217,7 @@ WorkerRunnable
 r
 =
 new
-RegistrationRemovedWorkerRunnable
+RegistrationClearedWorkerRunnable
 (
 mRegistration
 -
@@ -5249,7 +5249,7 @@ return
 mRegistration
 -
 >
-RegistrationRemoved
+RegistrationCleared
 (
 )
 ;

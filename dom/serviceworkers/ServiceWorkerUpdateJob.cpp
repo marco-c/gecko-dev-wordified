@@ -1361,14 +1361,6 @@ if
 (
 !
 registration
-|
-|
-registration
--
->
-IsPendingUninstall
-(
-)
 )
 {
 ErrorResult
