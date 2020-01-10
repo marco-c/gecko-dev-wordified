@@ -953,16 +953,12 @@ GENERATOR_INFO_SLOT
 RESERVED_SLOTS
 }
 ;
-static
 void
 trace
 (
 JSTracer
 *
 trc
-JSObject
-*
-obj
 )
 ;
 static
