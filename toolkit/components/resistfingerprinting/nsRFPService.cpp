@@ -2543,20 +2543,11 @@ lock
 sLock
 )
 ;
-if
-(
-sSecretMidpointSeed
-!
-=
-nullptr
-)
-{
 delete
 [
 ]
 sSecretMidpointSeed
 ;
-}
 sSecretMidpointSeed
 =
 new
@@ -3536,8 +3527,6 @@ return
 aTime
 ;
 }
-else
-{
 unconditionalClamping
 =
 true
@@ -3568,7 +3557,6 @@ end
 /
 otherwise
 unused
-}
 }
 if
 (
