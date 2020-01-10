@@ -1997,7 +1997,7 @@ next
 -
 line
 complexity
-receiveMessage
+_receiveMessage
 (
 aMessage
 )
