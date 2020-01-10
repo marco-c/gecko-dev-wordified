@@ -1902,14 +1902,8 @@ aLang
 /
 map
 a
-Unicode
-range
-(
-based
-on
 char
 code
-)
 to
 a
 font
@@ -1920,8 +1914,8 @@ static
 eFontPrefLang
 GetFontPrefLangFor
 (
-uint8_t
-aUnicodeRange
+uint32_t
+aCh
 )
 ;
 /

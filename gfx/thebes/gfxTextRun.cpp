@@ -215,13 +215,6 @@ h
 #
 include
 "
-nsUnicodeRange
-.
-h
-"
-#
-include
-"
 nsStyleConsts
 .
 h
@@ -22692,14 +22685,6 @@ been
 set
 up
 already
-uint32_t
-unicodeRange
-=
-FindCharUnicodeRange
-(
-aCh
-)
-;
 charLang
 =
 pfl
@@ -22707,7 +22692,7 @@ pfl
 >
 GetFontPrefLangFor
 (
-unicodeRange
+aCh
 )
 ;
 }
