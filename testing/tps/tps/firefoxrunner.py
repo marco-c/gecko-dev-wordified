@@ -350,10 +350,12 @@ the
 build
         
 print
+(
 '
 downloading
 build
 '
+)
         
 self
 .
@@ -371,13 +373,18 @@ the
 build
         
 print
+(
 '
 installing
-%
-s
+{
+}
 '
-%
+.
+format
+(
 pathToBuild
+)
+)
         
 mozfile
 .

@@ -1125,7 +1125,9 @@ printToConsole
 :
             
 print
+(
 msg
+)
     
 def
 writeToResultFile
@@ -2073,6 +2075,7 @@ profiles
 :
             
 print
+(
 "
 #
 #
@@ -2081,6 +2084,7 @@ Cleanup
 Profile
 "
 profilename
+)
             
 cleanup_phase
 =
@@ -2685,16 +2689,18 @@ phaselist
 :
             
 print
+(
 "
 \
 t
-%
-s
+{
+}
 :
-%
-s
+{
+}
 "
-%
+.
+format
 (
 phase
 .
@@ -2702,6 +2708,7 @@ phase
 phase
 .
 status
+)
 )
         
 return
@@ -3291,12 +3298,14 @@ test
 results
         
 print
+(
 '
 Test
 Summary
 \
 n
 '
+)
         
 for
 test
@@ -3316,17 +3325,19 @@ tests
 :
             
 print
+(
 '
-%
-s
+{
+}
 |
-%
-s
+{
+}
 |
-%
-s
+{
+}
 '
-%
+.
+format
 (
 test
 [
@@ -3346,6 +3357,7 @@ test
 message
 '
 ]
+)
 )
     
 def
@@ -3499,19 +3511,22 @@ skip_reason
 :
                     
 print
+(
 '
 Skipping
 test
-%
-s
+{
+}
 -
-%
-s
+{
+}
 '
-%
+.
+format
 (
 filename
 skip_reason
+)
 )
                 
 else
@@ -3732,6 +3747,7 @@ stop_on_error
 :
                     
 print
+(
 '
 \
 nTest
@@ -3747,7 +3763,6 @@ error
 specified
 ;
 '
-\
                           
 '
 not
@@ -3759,6 +3774,7 @@ tests
 \
 n
 '
+)
                     
 break
         
