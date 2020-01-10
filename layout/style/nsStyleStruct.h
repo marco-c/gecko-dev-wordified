@@ -8189,7 +8189,7 @@ mozilla
 :
 :
 StyleLengthOrAuto
-mTextDecorationWidth
+mTextDecorationThickness
 ;
 }
 ;

@@ -4864,7 +4864,7 @@ text
 -
 decoration
 -
-width
+thickness
 "
 )
     

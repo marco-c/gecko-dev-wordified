@@ -29731,7 +29731,7 @@ s
 line
 height
 gfxFloat
-decorationWidthOffset
+decorationThicknessOffset
 =
 (
 lineThickness
@@ -29753,7 +29753,7 @@ lineThickness
 +
 extra
 +
-decorationWidthOffset
+decorationThicknessOffset
 ;
 }
 else

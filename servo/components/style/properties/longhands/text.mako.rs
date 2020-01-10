@@ -547,7 +547,7 @@ text
 -
 decoration
 -
-width
+thickness
 "
 "
 LengthOrAuto
@@ -584,7 +584,7 @@ text
 -
 decoration
 -
-width
+thickness
 .
 enabled
 "

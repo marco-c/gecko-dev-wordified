@@ -2180,7 +2180,7 @@ text
 -
 decoration
 -
-width
+thickness
 "
 "
 text
