@@ -1771,6 +1771,9 @@ querySelectorAll
 (
 "
 :
+scope
+>
+:
 not
 (
 [
