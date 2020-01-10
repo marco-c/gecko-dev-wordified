@@ -545,7 +545,10 @@ unsafe
 mozilla
 :
 :
-StaticPrefs_sVarCache_layout_css_clip_path_path_enabled
+StaticPrefs
+:
+:
+sVarCache_layout_css_clip_path_path_enabled
 }
 }
 #

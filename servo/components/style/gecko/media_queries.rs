@@ -2058,7 +2058,10 @@ unsafe
 structs
 :
 :
-StaticPrefs_sVarCache_browser_display_document_color_use
+StaticPrefs
+:
+:
+sVarCache_browser_display_document_color_use
 }
 ;
 let

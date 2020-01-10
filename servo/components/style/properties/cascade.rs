@@ -3939,7 +3939,10 @@ unsafe
 structs
 :
 :
-StaticPrefs_sVarCache_browser_display_use_document_fonts
+StaticPrefs
+:
+:
+sVarCache_browser_display_use_document_fonts
 !
 =
 0

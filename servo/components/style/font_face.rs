@@ -3014,7 +3014,10 @@ mozilla
 mozilla
 :
 :
-StaticPrefs_sVarCache_layout_css_font_display_enabled
+StaticPrefs
+:
+:
+sVarCache_layout_css_font_display_enabled
 }
 }
 ;
@@ -3047,7 +3050,10 @@ mozilla
 mozilla
 :
 :
-StaticPrefs_sVarCache_layout_css_font_variations_enabled
+StaticPrefs
+:
+:
+sVarCache_layout_css_font_variations_enabled
 !
 =
 0
