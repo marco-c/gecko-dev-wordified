@@ -6292,7 +6292,7 @@ mDocShell
 )
 return
 ;
-docShell
+mDocShell
 -
 >
 MaybeClearStorageAccessFlag
