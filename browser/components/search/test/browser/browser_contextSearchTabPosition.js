@@ -263,6 +263,7 @@ loadSearchFromContext
 "
 mozilla
 "
+false
 Services
 .
 scriptSecurityManager
@@ -279,6 +280,7 @@ loadSearchFromContext
 "
 firefox
 "
+false
 Services
 .
 scriptSecurityManager

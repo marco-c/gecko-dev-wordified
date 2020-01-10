@@ -3238,6 +3238,9 @@ this
 searchTerms
 this
 .
+usePrivate
+this
+.
 principal
 this
 .
