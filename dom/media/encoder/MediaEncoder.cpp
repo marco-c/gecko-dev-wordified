@@ -352,14 +352,6 @@ h
 "
 #
 endif
-#
-ifdef
-LOG
-#
-undef
-LOG
-#
-endif
 mozilla
 :
 :
@@ -5922,3 +5914,6 @@ rv
 /
 namespace
 mozilla
+#
+undef
+LOG

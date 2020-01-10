@@ -392,14 +392,6 @@ nsTArray
 .
 h
 "
-#
-ifdef
-LOG
-#
-undef
-LOG
-#
-endif
 mozilla
 :
 :
@@ -10149,3 +10141,6 @@ dom
 /
 namespace
 mozilla
+#
+undef
+LOG
