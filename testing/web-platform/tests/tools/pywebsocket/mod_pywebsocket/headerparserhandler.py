@@ -1425,6 +1425,7 @@ except
 dispatch
 .
 DispatchException
+as
 e
 :
         
@@ -1507,6 +1508,7 @@ except
 handshake
 .
 VersionException
+as
 e
 :
             
@@ -1559,6 +1561,7 @@ except
 handshake
 .
 HandshakeException
+as
 e
 :
             
@@ -1630,6 +1633,7 @@ except
 handshake
 .
 AbortedByUserException
+as
 e
 :
         
@@ -1655,6 +1659,7 @@ APLOG_INFO
     
 except
 Exception
+as
 e
 :
         

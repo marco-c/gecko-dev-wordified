@@ -3496,6 +3496,7 @@ popleft
         
 except
 IndexError
+as
 e
 :
             
@@ -4353,6 +4354,7 @@ except
 Queue
 .
 Empty
+as
 e
 :
             
@@ -4587,6 +4589,7 @@ except
 Queue
 .
 Empty
+as
 e
 :
             

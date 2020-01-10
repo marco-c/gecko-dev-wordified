@@ -1767,6 +1767,7 @@ close_connection
         
 except
 ConnectionTerminatedException
+as
 e
 :
             
@@ -1785,6 +1786,7 @@ e
         
 except
 Exception
+as
 e
 :
             
