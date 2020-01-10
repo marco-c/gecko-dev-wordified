@@ -1562,6 +1562,9 @@ profileString_
 return
 ;
 }
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 profileString_
 =
 cx
@@ -1588,7 +1591,9 @@ if
 profileString_
 )
 {
-MOZ_CRASH
+oomUnsafe
+.
+crash
 (
 "
 Failed
