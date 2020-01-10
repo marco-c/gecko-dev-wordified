@@ -1067,14 +1067,6 @@ Sdp
 remote
 )
 ;
-bool
-WasMsectionDisabledLastNegotiation
-(
-size_t
-level
-)
-const
-;
 JsepTransceiver
 *
 GetTransceiverForLevel
