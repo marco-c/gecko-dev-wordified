@@ -283,7 +283,7 @@ android
 )
     
 #
-TODO
+XXX
 Bug
 1368484
 :
@@ -298,28 +298,27 @@ trains
 regularly
 .
 It
-may
-stay
+stayed
 on
-nightly
+central
     
 #
 for
 a
-few
+couple
+of
 cycles
-.
-Then
-we
-should
-activate
-it
+and
+is
+planned
+to
+stay
 on
+mozilla
+-
 beta
-then
-release
-once
-ready
+until
+68
 .
     
 if
@@ -335,6 +334,11 @@ in
 mozilla
 -
 central
+'
+'
+mozilla
+-
+beta
 '
 '
 try
