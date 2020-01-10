@@ -3585,7 +3585,6 @@ ShutDown
 #
 ifdef
 XP_WIN
-else
 if
 (
 widget
