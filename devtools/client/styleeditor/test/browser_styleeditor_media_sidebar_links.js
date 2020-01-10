@@ -160,7 +160,6 @@ responsive
 /
 manager
 "
-true
 )
 ;
 const

@@ -434,7 +434,6 @@ responsive
 /
 manager
 "
-true
 )
 ;
 const

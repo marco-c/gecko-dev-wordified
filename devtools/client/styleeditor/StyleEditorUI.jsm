@@ -333,7 +333,6 @@ responsive
 /
 manager
 "
-true
 )
 ;
 loader

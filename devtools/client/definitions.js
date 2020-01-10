@@ -582,7 +582,6 @@ responsive
 /
 manager
 "
-true
 )
 ;
 loader
