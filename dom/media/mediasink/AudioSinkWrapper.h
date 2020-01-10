@@ -515,9 +515,15 @@ Shutdown
 )
 override
 ;
-nsCString
+void
 GetDebugInfo
 (
+dom
+:
+:
+MediaSinkDebugInfo
+&
+aInfo
 )
 override
 ;
