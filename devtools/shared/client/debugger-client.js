@@ -2599,6 +2599,13 @@ removeRequestListeners
 (
 )
 ;
+resp
+=
+safeOnResponse
+(
+resp
+)
+;
 if
 (
 resp
@@ -2610,10 +2617,7 @@ deferred
 .
 reject
 (
-safeOnResponse
-(
 resp
-)
 )
 ;
 }
@@ -2623,10 +2627,7 @@ deferred
 .
 resolve
 (
-safeOnResponse
-(
 resp
-)
 )
 ;
 }
