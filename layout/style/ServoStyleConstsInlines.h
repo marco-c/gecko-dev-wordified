@@ -3015,7 +3015,6 @@ StyleAllowedNumericType
 :
 All
 false
-false
 }
 ;
 }
@@ -3042,7 +3041,6 @@ StyleAllowedNumericType
 :
 :
 All
-false
 false
 }
 ;
@@ -3097,7 +3095,6 @@ StyleAllowedNumericType
 :
 All
 true
-false
 }
 ;
 }

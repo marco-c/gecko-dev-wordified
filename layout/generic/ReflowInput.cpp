@@ -17171,7 +17171,6 @@ auto
 IsQuirky
 =
 [
-&
 ]
 (
 const
@@ -17189,16 +17188,6 @@ aSize
 ConvertsToPercentage
 (
 )
-&
-&
-!
-aSize
-.
-AsLengthPercentage
-(
-)
-.
-was_calc
 ;
 }
 ;
