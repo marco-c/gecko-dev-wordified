@@ -39520,6 +39520,10 @@ peekOffset
 (
 &
 propNameOffset
+TokenStream
+:
+:
+SlashIsInvalid
 )
 )
 {
@@ -55813,6 +55817,10 @@ getToken
 (
 &
 ltok
+TokenStream
+:
+:
+SlashIsInvalid
 )
 )
 {
