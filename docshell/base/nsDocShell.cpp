@@ -65051,6 +65051,11 @@ return
 NS_OK
 ;
 }
+/
+*
+static
+*
+/
 nsresult
 nsDocShell
 :
