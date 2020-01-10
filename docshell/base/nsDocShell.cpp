@@ -47096,6 +47096,16 @@ rv
 )
 ;
 }
+if
+(
+!
+contexts
+.
+IsEmpty
+(
+)
+)
+{
 GetBrowsingContext
 (
 )
@@ -47112,6 +47122,7 @@ contexts
 )
 )
 ;
+}
 /
 /
 Make
