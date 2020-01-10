@@ -5402,6 +5402,17 @@ blockReason
 channel
 false
 trackingURI
+parentWindow
+-
+>
+GetExtantDoc
+(
+)
+-
+>
+GetChannel
+(
+)
 Some
 (
 aReason
@@ -11074,6 +11085,7 @@ aRejectedReason
 aChannel
 true
 uri
+aChannel
 )
 ;
 ReportBlockingToConsole
@@ -11096,6 +11108,7 @@ STATE_COOKIES_LOADED
 aChannel
 false
 uri
+aChannel
 )
 ;
 }
@@ -11299,6 +11312,17 @@ GetDocumentURI
 (
 )
 ;
+nsIChannel
+*
+trackingChannel
+=
+document
+-
+>
+GetChannel
+(
+)
+;
 if
 (
 aDecision
@@ -11319,6 +11343,7 @@ aRejectedReason
 channel
 true
 uri
+trackingChannel
 )
 ;
 ReportBlockingToConsole
@@ -11341,6 +11366,7 @@ STATE_COOKIES_LOADED
 channel
 false
 uri
+trackingChannel
 )
 ;
 }
