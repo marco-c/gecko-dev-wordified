@@ -438,15 +438,6 @@ case
 RustSdpProtocolValue
 :
 :
-kRustTcpTlsRtpSavpf
-:
-return
-kTcpTlsRtpSavpf
-;
-case
-RustSdpProtocolValue
-:
-:
 kRustTcpDtlsRtpSavpf
 :
 return

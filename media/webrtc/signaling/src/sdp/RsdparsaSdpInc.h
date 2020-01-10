@@ -255,7 +255,6 @@ kRustRtpSavpf
 kRustUdpTlsRtpSavp
 kRustTcpDtlsRtpSavp
 kRustUdpTlsRtpSavpf
-kRustTcpTlsRtpSavpf
 kRustTcpDtlsRtpSavpf
 kRustDtlsSctp
 kRustUdpDtlsSctp
