@@ -412,8 +412,8 @@ gecko
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 MallocSizeOf
 Parse
