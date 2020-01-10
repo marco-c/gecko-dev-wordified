@@ -43312,7 +43312,7 @@ wholeInitializerPos
 if
 (
 !
-argsbody
+statementList
 )
 {
 return
