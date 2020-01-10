@@ -54,15 +54,6 @@ date
 prototype
 .
 setmonth
-es5id
-:
-15
-.
-9
-.
-5
-.
-38_A2_T1
 description
 :
 The

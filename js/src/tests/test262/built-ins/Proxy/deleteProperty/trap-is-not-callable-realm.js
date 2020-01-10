@@ -56,13 +56,6 @@ slots
 delete
 -
 p
-es6id
-:
-9
-.
-5
-.
-10
 description
 :
 >

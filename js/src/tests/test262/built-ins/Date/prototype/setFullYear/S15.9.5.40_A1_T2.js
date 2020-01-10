@@ -55,15 +55,6 @@ date
 prototype
 .
 setfullyear
-es5id
-:
-15
-.
-9
-.
-5
-.
-40_A1_T2
 description
 :
 Checking

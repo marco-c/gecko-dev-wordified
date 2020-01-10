@@ -60,15 +60,6 @@ date
 prototype
 .
 setminutes
-es5id
-:
-15
-.
-9
-.
-5
-.
-32_A3_T3
 description
 :
 Checking

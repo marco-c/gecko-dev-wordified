@@ -55,15 +55,6 @@ date
 prototype
 .
 valueof
-es5id
-:
-15
-.
-9
-.
-5
-.
-8_A1_T1
 description
 :
 Checking

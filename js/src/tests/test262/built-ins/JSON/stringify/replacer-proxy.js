@@ -42,13 +42,6 @@ sec
 json
 .
 stringify
-es6id
-:
-24
-.
-3
-.
-2
 description
 :
 Proxy

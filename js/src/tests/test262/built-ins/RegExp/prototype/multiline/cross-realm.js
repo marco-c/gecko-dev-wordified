@@ -46,15 +46,6 @@ regexp
 prototype
 .
 multiline
-es6id
-:
-21
-.
-2
-.
-5
-.
-7
 description
 :
 A

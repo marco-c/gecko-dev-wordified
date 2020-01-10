@@ -42,15 +42,6 @@ array
 prototype
 .
 map
-es6id
-:
-22
-.
-1
-.
-3
-.
-15
 description
 :
 >

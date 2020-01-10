@@ -44,15 +44,6 @@ symbol
 prototype
 .
 valueof
-es6id
-:
-19
-.
-4
-.
-3
-.
-3
 description
 :
 Called

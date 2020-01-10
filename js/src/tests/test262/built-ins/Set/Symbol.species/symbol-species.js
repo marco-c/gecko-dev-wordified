@@ -42,15 +42,6 @@ get
 set
 -
 species
-es6id
-:
-23
-.
-2
-.
-2
-.
-2
 author
 :
 Sam

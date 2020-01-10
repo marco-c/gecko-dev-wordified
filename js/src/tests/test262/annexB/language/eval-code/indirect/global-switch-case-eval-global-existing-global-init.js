@@ -95,15 +95,6 @@ web
 compat
 -
 evaldeclarationinstantiation
-es6id
-:
-B
-.
-3
-.
-3
-.
-3
 flags
 :
 [

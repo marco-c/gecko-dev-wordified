@@ -44,15 +44,6 @@ string
 prototype
 .
 tolocalelowercase
-es6id
-:
-21
-.
-1
-.
-3
-.
-20
 description
 :
 The

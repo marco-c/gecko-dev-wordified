@@ -42,13 +42,6 @@ sec
 string
 -
 constructor
-es6id
-:
-21
-.
-1
-.
-1
 description
 :
 Symbol

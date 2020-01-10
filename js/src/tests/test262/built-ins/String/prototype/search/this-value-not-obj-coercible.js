@@ -44,15 +44,6 @@ string
 prototype
 .
 search
-es6id
-:
-21
-.
-1
-.
-3
-.
-15
 description
 :
 The

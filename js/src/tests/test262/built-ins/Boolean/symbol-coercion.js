@@ -40,13 +40,6 @@ esid
 sec
 -
 toboolean
-es6id
-:
-7
-.
-1
-.
-2
 description
 :
 >

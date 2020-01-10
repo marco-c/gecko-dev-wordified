@@ -44,15 +44,6 @@ get
 array
 -
 species
-es6id
-:
-24
-.
-1
-.
-2
-.
-5
 description
 :
 Return

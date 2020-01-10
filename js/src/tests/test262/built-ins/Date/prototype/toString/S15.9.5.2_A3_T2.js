@@ -61,15 +61,6 @@ date
 prototype
 .
 tostring
-es5id
-:
-15
-.
-9
-.
-5
-.
-2_A3_T2
 description
 :
 Checking

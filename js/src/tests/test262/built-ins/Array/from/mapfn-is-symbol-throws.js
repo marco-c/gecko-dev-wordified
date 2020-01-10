@@ -36,15 +36,6 @@ sec
 array
 .
 from
-es6id
-:
-22
-.
-1
-.
-2
-.
-1
 description
 :
 Throws

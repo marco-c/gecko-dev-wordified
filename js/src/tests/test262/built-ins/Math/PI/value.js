@@ -51,15 +51,6 @@ sec
 math
 .
 pi
-es6id
-:
-20
-.
-2
-.
-1
-.
-6
 info
 :
 |

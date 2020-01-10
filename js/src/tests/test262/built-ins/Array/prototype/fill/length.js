@@ -44,15 +44,6 @@ array
 prototype
 .
 fill
-es6id
-:
-22
-.
-1
-.
-3
-.
-6
 description
 :
 Array

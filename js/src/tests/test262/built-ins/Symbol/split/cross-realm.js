@@ -42,15 +42,6 @@ sec
 symbol
 .
 split
-es6id
-:
-19
-.
-4
-.
-2
-.
-11
 description
 :
 Value

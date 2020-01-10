@@ -48,15 +48,6 @@ p2
 pn
 -
 body
-es6id
-:
-19
-.
-2
-.
-1
-.
-1
 description
 :
 Default

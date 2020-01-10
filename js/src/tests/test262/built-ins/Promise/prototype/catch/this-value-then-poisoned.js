@@ -44,15 +44,6 @@ promise
 prototype
 .
 catch
-es6id
-:
-25
-.
-4
-.
-5
-.
-1
 description
 :
 >

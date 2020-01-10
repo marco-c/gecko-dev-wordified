@@ -84,13 +84,6 @@ runtime
 semantics
 -
 catchclauseevaluation
-es6id
-:
-13
-.
-15
-.
-7
 features
 :
 [

@@ -44,15 +44,6 @@ array
 prototype
 .
 keys
-es6id
-:
-22
-.
-1
-.
-3
-.
-13
 description
 :
 >

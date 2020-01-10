@@ -44,15 +44,6 @@ string
 prototype
 .
 concat
-es6id
-:
-21
-.
-1
-.
-3
-.
-4
 description
 :
 The

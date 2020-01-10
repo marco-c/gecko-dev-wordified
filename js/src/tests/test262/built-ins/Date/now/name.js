@@ -40,15 +40,6 @@ sec
 date
 .
 now
-es6id
-:
-20
-.
-3
-.
-3
-.
-1
 description
 :
 >

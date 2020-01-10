@@ -44,15 +44,6 @@ string
 prototype
 .
 match
-es6id
-:
-21
-.
-1
-.
-3
-.
-11
 description
 :
 The

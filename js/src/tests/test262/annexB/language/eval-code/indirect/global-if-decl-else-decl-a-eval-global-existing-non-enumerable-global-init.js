@@ -129,13 +129,6 @@ ifstatement
 statement
 -
 clauses
-es6id
-:
-B
-.
-3
-.
-3
 flags
 :
 [

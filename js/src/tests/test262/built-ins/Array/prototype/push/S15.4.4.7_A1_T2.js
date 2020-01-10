@@ -75,15 +75,6 @@ array
 prototype
 .
 push
-es5id
-:
-15
-.
-4
-.
-4
-.
-7_A1_T2
 description
 :
 Checking

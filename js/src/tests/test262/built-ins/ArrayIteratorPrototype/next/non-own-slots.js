@@ -69,17 +69,6 @@ a
 TypeError
 exception
 .
-es6id
-:
-22
-.
-1
-.
-5
-.
-2
-.
-1
 esid
 :
 sec

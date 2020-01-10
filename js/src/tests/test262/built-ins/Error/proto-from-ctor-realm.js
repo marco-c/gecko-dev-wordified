@@ -42,15 +42,6 @@ sec
 error
 -
 message
-es6id
-:
-19
-.
-5
-.
-1
-.
-1
 description
 :
 Default

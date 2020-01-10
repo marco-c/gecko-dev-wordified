@@ -48,13 +48,6 @@ the
 dataview
 -
 constructor
-es6id
-:
-24
-.
-2
-.
-3
 description
 :
 >

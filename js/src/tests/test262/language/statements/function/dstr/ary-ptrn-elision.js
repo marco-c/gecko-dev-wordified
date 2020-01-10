@@ -69,13 +69,6 @@ runtime
 semantics
 -
 instantiatefunctionobject
-es6id
-:
-14
-.
-1
-.
-19
 features
 :
 [

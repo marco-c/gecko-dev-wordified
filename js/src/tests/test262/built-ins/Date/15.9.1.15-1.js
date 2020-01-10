@@ -44,17 +44,6 @@ time
 string
 -
 format
-es5id
-:
-15
-.
-9
-.
-1
-.
-15
--
-1
 description
 :
 >

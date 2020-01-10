@@ -44,15 +44,6 @@ generator
 prototype
 .
 next
-es6id
-:
-25
-.
-3
-.
-1
-.
-2
 description
 :
 >

@@ -55,15 +55,6 @@ date
 prototype
 .
 setutcdate
-es5id
-:
-15
-.
-9
-.
-5
-.
-37_A1_T2
 description
 :
 Checking

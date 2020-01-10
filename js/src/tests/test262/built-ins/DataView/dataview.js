@@ -42,13 +42,6 @@ sec
 dataview
 -
 constructor
-es6id
-:
-24
-.
-2
-.
-2
 description
 :
 >

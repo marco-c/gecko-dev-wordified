@@ -55,13 +55,6 @@ the
 Object
 prototype
 object
-es5id
-:
-15
-.
-6
-.
-4_A2
 esid
 :
 sec

@@ -44,15 +44,6 @@ date
 prototype
 .
 setmonth
-es6id
-:
-20
-.
-3
-.
-4
-.
-25
 description
 :
 Abrupt

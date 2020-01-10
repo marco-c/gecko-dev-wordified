@@ -63,15 +63,6 @@ sec
 promise
 .
 race
-es6id
-:
-25
-.
-4
-.
-4
-.
-3
 info
 :
 |

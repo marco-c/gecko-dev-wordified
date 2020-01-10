@@ -44,15 +44,6 @@ date
 prototype
 .
 getutcdate
-es6id
-:
-20
-.
-3
-.
-4
-.
-12
 description
 :
 >

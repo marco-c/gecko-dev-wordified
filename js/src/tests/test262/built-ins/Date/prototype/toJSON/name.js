@@ -42,15 +42,6 @@ date
 prototype
 .
 tojson
-es6id
-:
-20
-.
-3
-.
-4
-.
-37
 description
 :
 >

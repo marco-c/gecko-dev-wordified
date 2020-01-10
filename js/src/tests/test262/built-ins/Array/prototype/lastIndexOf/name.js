@@ -42,15 +42,6 @@ array
 prototype
 .
 lastindexof
-es6id
-:
-22
-.
-1
-.
-3
-.
-15
 description
 :
 >

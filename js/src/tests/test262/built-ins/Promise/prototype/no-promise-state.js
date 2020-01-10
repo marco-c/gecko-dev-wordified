@@ -50,13 +50,6 @@ promise
 prototype
 -
 object
-es6id
-:
-25
-.
-4
-.
-5
 description
 :
 Promise

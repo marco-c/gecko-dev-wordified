@@ -60,15 +60,6 @@ date
 prototype
 .
 getutcmonth
-es5id
-:
-15
-.
-9
-.
-5
-.
-13_A3_T1
 description
 :
 Checking

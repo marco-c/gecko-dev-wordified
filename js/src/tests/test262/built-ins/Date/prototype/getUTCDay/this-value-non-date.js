@@ -44,15 +44,6 @@ date
 prototype
 .
 getutcday
-es6id
-:
-20
-.
-3
-.
-4
-.
-13
 description
 :
 >

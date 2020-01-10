@@ -42,15 +42,6 @@ date
 prototype
 .
 setutchours
-es6id
-:
-20
-.
-3
-.
-4
-.
-30
 description
 :
 >

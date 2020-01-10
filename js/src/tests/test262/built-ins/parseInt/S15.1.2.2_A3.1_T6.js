@@ -53,13 +53,6 @@ Checking
 for
 String
 object
-es6id
-:
-18
-.
-2
-.
-5
 esid
 :
 sec

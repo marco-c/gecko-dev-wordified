@@ -42,15 +42,6 @@ sec
 array
 .
 of
-es6id
-:
-22
-.
-1
-.
-2
-.
-3
 description
 :
 >

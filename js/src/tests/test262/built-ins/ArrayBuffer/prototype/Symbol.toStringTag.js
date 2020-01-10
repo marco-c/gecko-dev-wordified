@@ -44,15 +44,6 @@ arraybuffer
 prototype
 -
 tostringtag
-es6id
-:
-24
-.
-1
-.
-4
-.
-4
 description
 :
 >

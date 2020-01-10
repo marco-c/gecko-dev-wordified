@@ -77,15 +77,6 @@ web
 compat
 -
 globaldeclarationinstantiation
-es6id
-:
-B
-.
-3
-.
-3
-.
-2
 flags
 :
 [

@@ -48,15 +48,6 @@ objects
 getownproperty
 -
 p
-es6id
-:
-9
-.
-4
-.
-3
-.
-1
 description
 :
 >

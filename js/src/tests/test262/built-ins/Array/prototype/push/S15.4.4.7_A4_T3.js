@@ -51,15 +51,6 @@ array
 prototype
 .
 push
-es5id
-:
-15
-.
-4
-.
-4
-.
-7_A4_T3
 description
 :
 length

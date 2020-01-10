@@ -42,15 +42,6 @@ date
 prototype
 .
 todatestring
-es6id
-:
-20
-.
-3
-.
-4
-.
-35
 description
 :
 >

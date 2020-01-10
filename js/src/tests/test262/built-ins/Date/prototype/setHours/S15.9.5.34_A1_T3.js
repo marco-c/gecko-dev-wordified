@@ -55,15 +55,6 @@ date
 prototype
 .
 sethours
-es5id
-:
-15
-.
-9
-.
-5
-.
-34_A1_T3
 description
 :
 Checking

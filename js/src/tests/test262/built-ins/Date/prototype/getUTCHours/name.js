@@ -42,15 +42,6 @@ date
 prototype
 .
 getutchours
-es6id
-:
-20
-.
-3
-.
-4
-.
-15
 description
 :
 >

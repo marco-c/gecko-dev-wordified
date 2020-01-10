@@ -44,15 +44,6 @@ generator
 prototype
 .
 return
-es6id
-:
-25
-.
-3
-.
-1
-.
-3
 description
 :
 >

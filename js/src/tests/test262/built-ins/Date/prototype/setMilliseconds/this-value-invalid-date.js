@@ -44,15 +44,6 @@ date
 prototype
 .
 setmilliseconds
-es6id
-:
-20
-.
-3
-.
-4
-.
-23
 description
 :
 >

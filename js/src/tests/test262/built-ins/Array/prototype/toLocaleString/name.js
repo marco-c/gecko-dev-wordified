@@ -42,15 +42,6 @@ array
 prototype
 .
 tolocalestring
-es6id
-:
-22
-.
-1
-.
-3
-.
-26
 description
 :
 >

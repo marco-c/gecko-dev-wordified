@@ -42,15 +42,6 @@ sec
 symbol
 .
 iterator
-es6id
-:
-19
-.
-4
-.
-2
-.
-4
 description
 :
 Value

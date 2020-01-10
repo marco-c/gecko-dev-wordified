@@ -42,15 +42,6 @@ sec
 symbol
 .
 species
-es6id
-:
-19
-.
-4
-.
-2
-.
-10
 description
 :
 Value

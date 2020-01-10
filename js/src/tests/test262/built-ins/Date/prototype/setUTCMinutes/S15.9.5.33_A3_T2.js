@@ -61,15 +61,6 @@ date
 prototype
 .
 setutcminutes
-es5id
-:
-15
-.
-9
-.
-5
-.
-33_A3_T2
 description
 :
 Checking

@@ -51,15 +51,6 @@ sec
 math
 .
 log10e
-es6id
-:
-20
-.
-2
-.
-1
-.
-4
 info
 :
 |

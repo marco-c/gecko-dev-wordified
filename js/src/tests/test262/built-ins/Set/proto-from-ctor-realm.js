@@ -42,15 +42,6 @@ sec
 set
 -
 iterable
-es6id
-:
-23
-.
-2
-.
-1
-.
-1
 description
 :
 Default

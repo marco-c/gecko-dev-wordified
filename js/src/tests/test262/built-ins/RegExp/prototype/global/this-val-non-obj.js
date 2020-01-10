@@ -46,15 +46,6 @@ regexp
 prototype
 .
 global
-es6id
-:
-21
-.
-2
-.
-5
-.
-4
 description
 :
 A

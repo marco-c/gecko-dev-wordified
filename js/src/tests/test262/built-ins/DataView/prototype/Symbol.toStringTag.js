@@ -44,15 +44,6 @@ dataview
 prototype
 -
 tostringtag
-es6id
-:
-24
-.
-2
-.
-4
-.
-21
 description
 :
 >

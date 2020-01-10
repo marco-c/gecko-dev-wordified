@@ -44,15 +44,6 @@ string
 prototype
 .
 tolocaleuppercase
-es6id
-:
-21
-.
-1
-.
-3
-.
-21
 description
 :
 The

@@ -55,15 +55,6 @@ date
 prototype
 .
 toutcstring
-es5id
-:
-15
-.
-9
-.
-5
-.
-42_A1_T3
 description
 :
 Checking

@@ -60,15 +60,6 @@ date
 prototype
 .
 getseconds
-es5id
-:
-15
-.
-9
-.
-5
-.
-9_A3_T3
 description
 :
 Checking

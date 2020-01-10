@@ -44,15 +44,6 @@ string
 prototype
 .
 substring
-es6id
-:
-21
-.
-1
-.
-3
-.
-19
 description
 :
 The
