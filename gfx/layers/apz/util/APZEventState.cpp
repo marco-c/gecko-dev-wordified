@@ -2502,7 +2502,7 @@ aApzResponse
 nsEventStatus_eConsumeDoDefault
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 PointerEventsEnabled

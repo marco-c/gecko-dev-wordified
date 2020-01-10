@@ -1882,13 +1882,13 @@ Inflate
 (
 LayerSize
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZDangerZoneX
 (
 )
-gfxPrefs
+StaticPrefs
 :
 :
 APZDangerZoneY
@@ -4202,7 +4202,7 @@ pref
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 LayersTileRetainBackBuffer

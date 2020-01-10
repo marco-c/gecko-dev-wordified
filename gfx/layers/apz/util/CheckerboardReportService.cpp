@@ -1431,7 +1431,7 @@ IsRecordingEnabled
 const
 {
 return
-gfxPrefs
+StaticPrefs
 :
 :
 APZRecordCheckerboarding
@@ -1449,7 +1449,7 @@ bool
 aEnabled
 )
 {
-gfxPrefs
+StaticPrefs
 :
 :
 SetAPZRecordCheckerboarding

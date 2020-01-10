@@ -659,7 +659,7 @@ const
 bool
 mVerifyOrder
 =
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutVerifyRetainDisplayListOrder

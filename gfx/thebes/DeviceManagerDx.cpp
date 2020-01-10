@@ -146,6 +146,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -2398,7 +2407,7 @@ testing
 .
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 DeviceFailForTesting
@@ -4174,7 +4183,7 @@ false
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 Direct3D11ReuseDecoderDevice
@@ -4222,7 +4231,7 @@ true
 else
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 Direct3D11ReuseDecoderDevice
@@ -5631,7 +5640,7 @@ NS_IsMainThread
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 DeviceResetForTesting
@@ -5639,7 +5648,7 @@ DeviceResetForTesting
 )
 )
 {
-gfxPrefs
+StaticPrefs
 :
 :
 SetDeviceResetForTesting
@@ -6079,7 +6088,7 @@ return
 mDeviceStatus
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 Direct3D11AllowKeyedMutex

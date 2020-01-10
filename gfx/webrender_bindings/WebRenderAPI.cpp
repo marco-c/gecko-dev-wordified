@@ -124,7 +124,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -578,7 +580,7 @@ mSize
 .
 height
 supportLowPriorityTransactions
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderPictureCaching
@@ -587,7 +589,7 @@ WebRenderPictureCaching
 &
 &
 supportPictureCaching
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderStartDebugServer

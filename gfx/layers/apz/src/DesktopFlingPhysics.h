@@ -226,7 +226,7 @@ aOutOffset
 float
 friction
 =
-gfxPrefs
+StaticPrefs
 :
 :
 APZFlingFriction
@@ -236,7 +236,7 @@ APZFlingFriction
 float
 threshold
 =
-gfxPrefs
+StaticPrefs
 :
 :
 APZFlingStoppedThreshold

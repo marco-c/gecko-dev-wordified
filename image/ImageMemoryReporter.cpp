@@ -142,6 +142,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs
+.
+h
+"
+#
+include
+"
 nsIMemoryReporter
 .
 h
@@ -597,7 +606,7 @@ AppendLiteral
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemDebugReporting
@@ -913,7 +922,7 @@ extId
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemDebugReporting

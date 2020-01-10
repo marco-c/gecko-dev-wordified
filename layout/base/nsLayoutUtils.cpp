@@ -577,13 +577,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 gfxTypes
 .
 h
@@ -3815,7 +3808,7 @@ AreRetainedDisplayListsEnabled
 ifdef
 MOZ_WIDGET_ANDROID
 return
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutRetainDisplayList
@@ -3832,7 +3825,7 @@ XRE_IsContentProcess
 )
 {
 return
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutRetainDisplayList
@@ -3848,7 +3841,7 @@ XRE_IsE10sParentProcess
 )
 {
 return
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutRetainDisplayListChrome
@@ -5035,7 +5028,7 @@ some
 circumstances
 .
 return
-gfxPrefs
+StaticPrefs
 :
 :
 APZAllowZooming
@@ -7383,7 +7376,7 @@ false
 ;
 }
 return
-gfxPrefs
+StaticPrefs
 :
 :
 APZDisableForScrollLinkedEffects
@@ -8098,7 +8091,7 @@ ScrollPort
 float
 multiplier
 =
-gfxPrefs
+StaticPrefs
 :
 :
 UseLowPrecisionBuffer
@@ -8109,7 +8102,7 @@ UseLowPrecisionBuffer
 .
 0f
 /
-gfxPrefs
+StaticPrefs
 :
 :
 LowPrecisionResolution
@@ -8811,7 +8804,7 @@ hasDisplayPort
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -9348,7 +9341,7 @@ aResult
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 UseLowPrecisionBuffer
@@ -9406,7 +9399,7 @@ aResult
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 UseLowPrecisionBuffer
@@ -25563,7 +25556,7 @@ shouldAttemptPartialUpdate
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutVerifyRetainDisplayList
@@ -25642,7 +25635,7 @@ Failed
 &
 &
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutDisplayListBuildTwice
@@ -25663,7 +25656,7 @@ Failed
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersDrawFPS
@@ -26063,7 +26056,7 @@ presShell
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersDrawFPS
@@ -26861,7 +26854,7 @@ Check
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 GfxLoggingPaintedPixelCountEnabled
@@ -27296,7 +27289,7 @@ ifdef
 MOZ_DUMP_PAINTING
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 DumpClientLayers
@@ -59553,7 +59546,7 @@ IsAPZTestLoggingEnabled
 )
 {
 return
-gfxPrefs
+StaticPrefs
 :
 :
 APZTestLoggingEnabled
@@ -61558,7 +61551,7 @@ scrollId
 "
 displayport
 "
-gfxPrefs
+StaticPrefs
 :
 :
 UseLowPrecisionBuffer
@@ -63455,7 +63448,7 @@ metrics
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZPrintTree
@@ -63463,7 +63456,7 @@ APZPrintTree
 )
 |
 |
-gfxPrefs
+StaticPrefs
 :
 :
 APZTestLoggingEnabled
@@ -63905,7 +63898,7 @@ APZC
 bool
 addMetrics
 =
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -63979,7 +63972,7 @@ frame
 &
 &
 !
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -68549,7 +68542,7 @@ the
 gfxPrefs
 .
 return
-gfxPrefs
+StaticPrefs
 :
 :
 MetaViewportEnabled

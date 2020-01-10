@@ -30976,7 +30976,7 @@ enabled
 .
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 PointerEventsEnabled

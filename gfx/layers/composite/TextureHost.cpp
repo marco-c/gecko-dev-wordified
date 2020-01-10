@@ -2765,7 +2765,7 @@ ifdef
 MOZ_DUMP_PAINTING
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersDumpTexture

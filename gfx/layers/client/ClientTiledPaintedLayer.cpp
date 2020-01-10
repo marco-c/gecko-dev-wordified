@@ -689,7 +689,7 @@ GetTransform
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -1949,7 +1949,7 @@ UseProgressiveDraw
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 ProgressivePaint
@@ -3460,7 +3460,7 @@ ClientManager
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 LayersSingleTileEnabled

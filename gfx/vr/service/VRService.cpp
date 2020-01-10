@@ -124,7 +124,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -1765,7 +1767,7 @@ displayState
 .
 minRestartInterval
 =
-gfxPrefs
+StaticPrefs
 :
 :
 VRExternalNotDetectedTimeout
@@ -1878,7 +1880,7 @@ displayState
 .
 minRestartInterval
 =
-gfxPrefs
+StaticPrefs
 :
 :
 VRExternalQuitTimeout

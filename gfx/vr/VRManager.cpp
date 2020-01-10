@@ -2484,7 +2484,7 @@ ToMilliseconds
 (
 )
 >
-gfxPrefs
+StaticPrefs
 :
 :
 VRInactiveTimeout
@@ -2682,7 +2682,7 @@ ToMilliseconds
 (
 )
 <
-gfxPrefs
+StaticPrefs
 :
 :
 VRDisplayEnumerateInterval
@@ -4266,7 +4266,7 @@ ToMilliseconds
 (
 )
 <
-gfxPrefs
+StaticPrefs
 :
 :
 VRControllerEnumerateInterval

@@ -506,7 +506,7 @@ sync
 mCanBeAvailable
 |
 |
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLImmediateQueries
@@ -771,7 +771,7 @@ sync
 mCanBeAvailable
 |
 |
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLImmediateQueries

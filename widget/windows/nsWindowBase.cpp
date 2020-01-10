@@ -895,7 +895,7 @@ touchpoint
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZTestFailsWithNativeInjection

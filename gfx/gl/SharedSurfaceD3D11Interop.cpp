@@ -2522,7 +2522,7 @@ dxgiHandle
 )
 mNeedsFinish
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLDXGLNeedsFinish

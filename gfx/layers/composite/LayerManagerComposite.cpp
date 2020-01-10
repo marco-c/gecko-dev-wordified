@@ -4177,7 +4177,7 @@ aBounds
 bool
 drawFps
 =
-gfxPrefs
+StaticPrefs
 :
 :
 LayersDrawFPS
@@ -4187,7 +4187,7 @@ LayersDrawFPS
 bool
 drawFrameColorBars
 =
-gfxPrefs
+StaticPrefs
 :
 :
 CompositorDrawColorBars
@@ -4244,7 +4244,7 @@ USE_SKIA
 bool
 drawPaintTimes
 =
-gfxPrefs
+StaticPrefs
 :
 :
 AlwaysPaint
@@ -4350,7 +4350,7 @@ aBounds
 bool
 drawFps
 =
-gfxPrefs
+StaticPrefs
 :
 :
 LayersDrawFPS
@@ -4360,7 +4360,7 @@ LayersDrawFPS
 bool
 drawFrameColorBars
 =
-gfxPrefs
+StaticPrefs
 :
 :
 CompositorDrawColorBars
@@ -5212,7 +5212,7 @@ USE_SKIA
 bool
 drawPaintTimes
 =
-gfxPrefs
+StaticPrefs
 :
 :
 AlwaysPaint
@@ -5269,7 +5269,7 @@ for
 investigation
 MOZ_ASSERT
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersEffectInvert
@@ -5277,7 +5277,7 @@ LayersEffectInvert
 )
 |
 |
-gfxPrefs
+StaticPrefs
 :
 :
 LayersEffectGrayscale
@@ -5285,7 +5285,7 @@ LayersEffectGrayscale
 )
 |
 |
-gfxPrefs
+StaticPrefs
 :
 :
 LayersEffectContrast
@@ -6314,7 +6314,7 @@ future
 bool
 invertVal
 =
-gfxPrefs
+StaticPrefs
 :
 :
 LayersEffectInvert
@@ -6324,7 +6324,7 @@ LayersEffectInvert
 bool
 grayscaleVal
 =
-gfxPrefs
+StaticPrefs
 :
 :
 LayersEffectGrayscale
@@ -6334,7 +6334,7 @@ LayersEffectGrayscale
 float
 contrastVal
 =
-gfxPrefs
+StaticPrefs
 :
 :
 LayersEffectContrast
@@ -6382,7 +6382,7 @@ to
 console
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersDump
@@ -9392,7 +9392,7 @@ NotifyShadowTreeTransaction
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersDrawFPS

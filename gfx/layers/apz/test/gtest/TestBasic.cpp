@@ -2570,7 +2570,7 @@ blockId
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 TouchActionEnabled

@@ -632,7 +632,7 @@ manager
 |
 |
 !
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemDebugReporting
@@ -1883,7 +1883,7 @@ IsNotable
 )
 |
 |
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemDebugReporting
@@ -2471,7 +2471,7 @@ eAnimated
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemDebugReporting

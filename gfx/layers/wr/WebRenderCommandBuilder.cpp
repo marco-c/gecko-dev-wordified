@@ -12646,7 +12646,7 @@ XRE_IsParentProcess
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderDLDumpParent
@@ -12661,7 +12661,7 @@ XRE_IsContentProcess
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderDLDumpContent
@@ -16095,7 +16095,7 @@ aImageRect
 bool
 useBlobImage
 =
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderBlobImages
@@ -16126,7 +16126,7 @@ Nothing
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderHighlightPaintedLayers

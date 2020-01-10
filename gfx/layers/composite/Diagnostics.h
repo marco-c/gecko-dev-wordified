@@ -130,7 +130,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+Maybe
 .
 h
 "
@@ -139,7 +141,7 @@ include
 "
 mozilla
 /
-Maybe
+StaticPrefs
 .
 h
 "
@@ -445,7 +447,7 @@ TimeStamp
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersDrawFPS

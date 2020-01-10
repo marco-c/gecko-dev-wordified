@@ -124,13 +124,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 GLContext
 .
 h
@@ -157,6 +150,15 @@ include
 mozilla
 /
 Preferences
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -1690,7 +1692,7 @@ false
 }
 mDisableExtensions
 =
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLDisableExtensions
@@ -1699,7 +1701,7 @@ WebGLDisableExtensions
 ;
 mLoseContextOnMemoryPressure
 =
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLLoseContextOnMemoryPressure
@@ -1708,7 +1710,7 @@ WebGLLoseContextOnMemoryPressure
 ;
 mCanLoseContextInForeground
 =
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLCanLoseContextInForeground
@@ -2773,7 +2775,7 @@ ShouldResistFingerprinting
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLMinCapabilityMode
@@ -3897,7 +3899,7 @@ robust_buffer_access_behavior
 ;
 switch
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLForceIndexValidation
@@ -3928,7 +3930,7 @@ default
 :
 MOZ_ASSERT
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLForceIndexValidation

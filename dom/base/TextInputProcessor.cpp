@@ -2384,7 +2384,7 @@ aForTests
 bool
 isAPZAware
 =
-gfxPrefs
+StaticPrefs
 :
 :
 TestEventsAsyncEnabled

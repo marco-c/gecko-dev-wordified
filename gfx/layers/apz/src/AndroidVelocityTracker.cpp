@@ -124,7 +124,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -2342,7 +2344,7 @@ const
 uint32_t
 horizon
 =
-gfxPrefs
+StaticPrefs
 :
 :
 APZVelocityRelevanceTime
