@@ -668,7 +668,7 @@ true
 }
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -1757,7 +1757,7 @@ payload
 {
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -1849,7 +1849,7 @@ channelId
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -2013,7 +2013,7 @@ headersSize
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -2208,7 +2208,7 @@ actor
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -2729,7 +2729,7 @@ this
 .
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -3280,7 +3280,7 @@ some
 data
 this
 .
-emit
+emitForTests
 (
 EVENTS
 [
@@ -3580,7 +3580,7 @@ response
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -3653,7 +3653,7 @@ response
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -3726,7 +3726,7 @@ response
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -3799,7 +3799,7 @@ response
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -3874,7 +3874,7 @@ securityInfo
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -3947,7 +3947,7 @@ response
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -4019,7 +4019,7 @@ response
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -4132,7 +4132,7 @@ response
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -4205,7 +4205,7 @@ response
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -4279,7 +4279,7 @@ stacktrace
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -4308,7 +4308,7 @@ object
 .
 *
 /
-emit
+emitForTests
 (
 type
 data
@@ -4325,7 +4325,7 @@ this
 .
 owner
 .
-emit
+emitForTests
 (
 type
 data
