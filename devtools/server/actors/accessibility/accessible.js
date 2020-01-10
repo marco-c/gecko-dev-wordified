@@ -2358,6 +2358,13 @@ win
 bounds
 )
 win
+appliedColorMatrix
+:
+this
+.
+walker
+.
+colorMatrix
 }
 )
 ;
