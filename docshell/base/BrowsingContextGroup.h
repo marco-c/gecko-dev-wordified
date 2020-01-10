@@ -803,6 +803,11 @@ BrowsingContextGroup
 (
 )
 ;
+void
+UnsubscribeAllContentParents
+(
+)
+;
 /
 /
 A

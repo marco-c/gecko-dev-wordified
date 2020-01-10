@@ -3976,6 +3976,14 @@ BrowsingContextGroup
 aBCG
 )
 ;
+void
+ReleaseBrowsingContextGroup
+(
+BrowsingContextGroup
+*
+aBCG
+)
+;
 #
 ifdef
 NIGHTLY_BUILD
