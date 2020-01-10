@@ -9065,7 +9065,7 @@ with
 FileAvoidWrite
 (
 path
-mode
+readmode
 =
 '
 rb
@@ -9368,7 +9368,7 @@ fh
 FileAvoidWrite
 (
 n
-mode
+readmode
 =
 '
 rb
