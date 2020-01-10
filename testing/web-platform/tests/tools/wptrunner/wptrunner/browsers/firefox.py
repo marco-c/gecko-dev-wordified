@@ -1252,6 +1252,19 @@ os
 environ
           
 "
+fission
+"
+:
+get_bool_pref
+(
+"
+fission
+.
+autostart
+"
+)
+          
+"
 sw
 -
 e10s
