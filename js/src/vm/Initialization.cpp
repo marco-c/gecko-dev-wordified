@@ -822,6 +822,16 @@ SystemPageSize
 )
 works
 .
+js
+:
+:
+coverage
+:
+:
+InitLCov
+(
+)
+;
 RETURN_IF_FAIL
 (
 js
