@@ -217,6 +217,10 @@ document
 getElementById
 (
 "
+urlbar
+-
+label
+-
 extension
 "
 )
@@ -267,7 +271,7 @@ getElementById
 "
 urlbar
 -
-display
+label
 -
 box
 "
