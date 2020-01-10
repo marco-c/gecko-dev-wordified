@@ -4638,7 +4638,7 @@ aObj
 )
 ;
 static
-void
+nsresult
 GenerateStateKey
 (
 nsIContent
