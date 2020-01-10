@@ -9165,6 +9165,16 @@ onreadystatechange
 Atom
 (
 "
+onrejectionhandled
+"
+"
+onrejectionhandled
+"
+)
+    
+Atom
+(
+"
 onrequestprogress
 "
 "
@@ -9469,6 +9479,16 @@ onunderflow
 "
 "
 onunderflow
+"
+)
+    
+Atom
+(
+"
+onunhandledrejection
+"
+"
+onunhandledrejection
 "
 )
     

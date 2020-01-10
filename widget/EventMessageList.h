@@ -713,7 +713,15 @@ ePopState
 )
 NS_EVENT_MESSAGE
 (
+eRejectionHandled
+)
+NS_EVENT_MESSAGE
+(
 eStorage
+)
+NS_EVENT_MESSAGE
+(
+eUnhandledRejection
 )
 NS_EVENT_MESSAGE
 (
