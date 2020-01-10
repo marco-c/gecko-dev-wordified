@@ -10486,7 +10486,7 @@ NumClosedOverBindingsLimit
 pc_
 -
 >
-innerFunctionsForLazy
+innerFunctionBoxesForLazy
 .
 length
 (
@@ -10561,7 +10561,7 @@ closedOverBindingsForLazy
 pc_
 -
 >
-innerFunctionsForLazy
+innerFunctionBoxesForLazy
 funbox
 -
 >
@@ -13052,7 +13052,7 @@ function
 Append
 the
 inner
-function
+functionbox
 here
 unconditionally
 ;
@@ -13090,7 +13090,7 @@ if
 outerpc
 -
 >
-innerFunctionsForLazy
+innerFunctionBoxesForLazy
 .
 append
 (
@@ -13098,11 +13098,6 @@ pc_
 -
 >
 functionBox
-(
-)
--
->
-function
 (
 )
 )
