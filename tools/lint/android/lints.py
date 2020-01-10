@@ -755,29 +755,12 @@ or
 message
 '
 :
-'
-{
-}
-:
-{
-}
-'
-.
-format
-(
 r
 [
 '
 msg
 '
 ]
-r
-[
-'
-detail
-'
-]
-)
                 
 }
                 
