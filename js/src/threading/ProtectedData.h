@@ -1488,10 +1488,10 @@ CheckThreadLocal
 :
 id
 (
-ThisThread
+ThreadId
 :
 :
-GetId
+ThisThreadId
 (
 )
 )

@@ -499,10 +499,7 @@ init
 js
 :
 :
-Thread
-:
-:
-Id
+ThreadId
 *
 idp
 )
@@ -513,10 +510,10 @@ idp
 js
 :
 :
-ThisThread
+ThreadId
 :
 :
-GetId
+ThisThreadId
 (
 )
 ;
