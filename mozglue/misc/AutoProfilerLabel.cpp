@@ -174,7 +174,7 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
-mProfilingStack
+mEntryContext
 =
 sEnter
 ?
@@ -201,12 +201,12 @@ if
 sExit
 &
 &
-mProfilingStack
+mEntryContext
 )
 {
 sExit
 (
-mProfilingStack
+mEntryContext
 )
 ;
 }

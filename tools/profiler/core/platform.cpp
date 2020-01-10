@@ -20773,7 +20773,8 @@ AutoProfilerLabel
 s
 constructor
 .
-ProfilingStack
+static
+void
 *
 MozGlueLabelEnter
 (
@@ -20840,10 +20841,11 @@ AutoProfilerLabel
 s
 destructor
 .
+static
 void
 MozGlueLabelExit
 (
-ProfilingStack
+void
 *
 sProfilingStack
 )
@@ -20853,7 +20855,14 @@ if
 sProfilingStack
 )
 {
+reinterpret_cast
+<
+ProfilingStack
+*
+>
+(
 sProfilingStack
+)
 -
 >
 pop
