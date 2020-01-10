@@ -2600,9 +2600,6 @@ LOG
 (
 SearchTelemetry
 :
-:
-recordSearchURLTelemetry
-:
 {
 payload
 }
@@ -3331,9 +3328,6 @@ LOG
 (
 SearchTelemetry
 :
-:
-recordSearchURLTelemetry
-:
 Counting
 ad
 click
@@ -3598,9 +3592,6 @@ provider
 LOG
 (
 SearchTelemetry
-:
-:
-recordSearchURLTelemetry
 :
 Counting
 ads
