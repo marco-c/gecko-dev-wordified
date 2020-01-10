@@ -582,6 +582,9 @@ value
 )
 ;
 }
+let
+script
+;
 const
 dbgGlobal
 =
@@ -596,7 +599,6 @@ if
 dbgGlobal
 )
 {
-const
 script
 =
 dbgGlobal
@@ -612,6 +614,16 @@ unsafeDereference
 .
 script
 ;
+}
+else
+{
+script
+=
+obj
+.
+script
+;
+}
 if
 (
 script
@@ -634,7 +646,6 @@ script
 startLine
 }
 ;
-}
 }
 return
 true

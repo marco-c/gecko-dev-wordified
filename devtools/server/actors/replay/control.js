@@ -10128,8 +10128,9 @@ onFinished
 (
 child
 {
-data
+pauseData
 result
+resultData
 }
 )
 {
@@ -10141,7 +10142,7 @@ result
 addPauseData
 (
 point
-data
+pauseData
 /
 *
 trackCached
@@ -10153,12 +10154,8 @@ true
 callback
 (
 point
-gDebugger
-.
-_convertCompletionValue
-(
 result
-)
+resultData
 )
 ;
 }
