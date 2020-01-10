@@ -14595,6 +14595,17 @@ return
 false
 ;
 }
+if
+(
+!
+StaticPrefs
+:
+:
+privacy_file_unique_origin
+(
+)
+)
+{
 /
 /
 /
@@ -14804,6 +14815,7 @@ allowed
 return
 true
 ;
+}
 }
 return
 false
