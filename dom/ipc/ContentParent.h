@@ -3475,10 +3475,10 @@ RecvRestoreBrowsingContextChildren
 BrowsingContext
 *
 aContext
-nsTArray
-<
-BrowsingContextId
->
+BrowsingContext
+:
+:
+Children
 &
 &
 aChildren
