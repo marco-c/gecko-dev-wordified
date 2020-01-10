@@ -7243,6 +7243,13 @@ actualBounds
 )
 )
 ;
+mCompositor
+-
+>
+NormalDrawingDone
+(
+)
+;
 mProfilerScreenshotGrabber
 .
 MaybeGrabScreenshot
@@ -7328,13 +7335,6 @@ frame
 }
 }
 }
-mCompositor
--
->
-NormalDrawingDone
-(
-)
-;
 #
 if
 defined

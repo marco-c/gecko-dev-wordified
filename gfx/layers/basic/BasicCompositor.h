@@ -714,6 +714,12 @@ nullptr
 override
 ;
 void
+NormalDrawingDone
+(
+)
+override
+;
+void
 EndFrame
 (
 )
