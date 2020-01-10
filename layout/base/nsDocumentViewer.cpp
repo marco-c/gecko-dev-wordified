@@ -4853,7 +4853,7 @@ should
 the
 InitInternal
 in
-SetPageMode
+SetPageModeForTesting
 just
 pass
 false
@@ -5094,12 +5094,12 @@ context
 already
 created
 in
-SetPageMode
+SetPageModeForTesting
 which
+/
+/
 is
 calling
-/
-/
 this
 method
 }
@@ -25478,7 +25478,7 @@ NS_IMETHODIMP
 nsDocumentViewer
 :
 :
-SetPageMode
+SetPageModeForTesting
 (
 bool
 aPageMode

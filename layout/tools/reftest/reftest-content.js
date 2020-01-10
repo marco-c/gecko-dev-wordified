@@ -1517,8 +1517,13 @@ docShell
 .
 contentViewer
 .
-setPageMode
+setPageModeForTesting
 (
+/
+*
+aPageMode
+*
+/
 true
 ps
 )
