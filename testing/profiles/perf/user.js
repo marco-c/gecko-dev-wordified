@@ -1803,3 +1803,17 @@ additional
 "
 )
 ;
+user_pref
+(
+"
+trailhead
+.
+firstrun
+.
+branches
+"
+"
+join
+"
+)
+;
