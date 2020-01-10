@@ -828,9 +828,11 @@ jobs
 signing_task_ref
 =
 '
+<
 langpack
 -
 copy
+>
 '
         
 platform
