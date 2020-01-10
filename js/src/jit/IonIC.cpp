@@ -3710,7 +3710,7 @@ op
 )
 ;
 }
-TryAttachIonStubOld
+TryAttachIonStub
 <
 UnaryArithIRGenerator
 IonUnaryArithIC

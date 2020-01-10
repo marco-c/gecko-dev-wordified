@@ -15357,12 +15357,12 @@ val_
 HandleValue
 res_
 ;
-bool
+AttachDecision
 tryAttachInt32
 (
 )
 ;
-bool
+AttachDecision
 tryAttachNumber
 (
 )
@@ -15400,7 +15400,7 @@ HandleValue
 res
 )
 ;
-bool
+AttachDecision
 tryAttachStub
 (
 )
