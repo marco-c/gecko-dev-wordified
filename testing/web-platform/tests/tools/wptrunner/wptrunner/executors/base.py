@@ -4664,6 +4664,17 @@ origin
 selector
 "
 ]
+action
+[
+"
+frame
+"
+]
+[
+"
+frame
+"
+]
 )
         
 self
@@ -4687,7 +4698,8 @@ def
 get_element
 (
 self
-selector
+element_selector
+frame
 )
 :
         
@@ -4701,7 +4713,8 @@ select
 .
 element_by_selector
 (
-selector
+element_selector
+frame
 )
         
 return
