@@ -4335,10 +4335,7 @@ wcompartment
 putWrapper
 (
 cx
-CrossCompartmentKey
-(
 newTarget
-)
 ObjectValue
 (
 *
