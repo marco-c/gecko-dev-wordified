@@ -321,8 +321,9 @@ aPresContext
 ComputedStyle
 *
 aComputedStyle
-nsStyleGradient
-*
+const
+StyleGradient
+&
 aGradient
 const
 nsSize
@@ -730,7 +731,8 @@ nsPresContext
 *
 mPresContext
 ;
-nsStyleGradient
+const
+StyleGradient
 *
 mGradient
 ;
