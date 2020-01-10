@@ -531,6 +531,16 @@ aResult
 )
 override
 ;
+virtual
+void
+DidSetComputedStyle
+(
+ComputedStyle
+*
+aOldComputedStyle
+)
+override
+;
 protected
 :
 /
