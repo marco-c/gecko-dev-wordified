@@ -50,7 +50,7 @@ content
 /
 test
 /
-general
+contextMenu
 /
 "
 ;
