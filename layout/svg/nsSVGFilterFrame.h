@@ -166,9 +166,6 @@ nsIContent
 class
 nsIFrame
 ;
-class
-nsIPresShell
-;
 struct
 nsRect
 ;
@@ -177,6 +174,9 @@ mozilla
 {
 class
 SVGAnimatedLength
+;
+class
+PresShell
 ;
 namespace
 dom
@@ -206,7 +206,10 @@ nsIFrame
 *
 NS_NewSVGFilterFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

@@ -250,6 +250,9 @@ nsTreeImageListener
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 layout
 {
@@ -1133,7 +1136,10 @@ nsIFrame
 *
 NS_NewTreeBodyFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 )

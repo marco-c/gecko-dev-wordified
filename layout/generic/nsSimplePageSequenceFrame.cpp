@@ -318,7 +318,7 @@ nsSimplePageSequenceFrame
 *
 NS_NewSimplePageSequenceFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

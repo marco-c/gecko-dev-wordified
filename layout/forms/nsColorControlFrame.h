@@ -150,6 +150,9 @@ PseudoStyleType
 :
 uint8_t
 ;
+class
+PresShell
+;
 }
 /
 /
@@ -198,7 +201,10 @@ nsIFrame
 *
 NS_NewColorControlFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

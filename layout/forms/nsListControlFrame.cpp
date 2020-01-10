@@ -816,7 +816,7 @@ nsContainerFrame
 *
 NS_NewListControlFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

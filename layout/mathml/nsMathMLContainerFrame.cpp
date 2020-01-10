@@ -10487,7 +10487,7 @@ nsContainerFrame
 *
 NS_NewMathMLmathBlockFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -10545,7 +10545,7 @@ nsContainerFrame
 *
 NS_NewMathMLmathInlineFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

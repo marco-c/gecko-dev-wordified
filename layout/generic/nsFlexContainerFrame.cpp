@@ -19362,7 +19362,7 @@ nsContainerFrame
 *
 NS_NewFlexContainerFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

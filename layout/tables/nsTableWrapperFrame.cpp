@@ -7171,7 +7171,7 @@ nsTableWrapperFrame
 *
 NS_NewTableWrapperFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

@@ -456,7 +456,7 @@ nsIFrame
 *
 NS_NewBulletFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

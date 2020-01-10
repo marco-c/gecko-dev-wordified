@@ -814,7 +814,7 @@ nsIFrame
 *
 NS_NewImageBoxFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

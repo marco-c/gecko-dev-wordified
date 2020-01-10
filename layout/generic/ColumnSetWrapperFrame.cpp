@@ -124,6 +124,15 @@ h
 #
 include
 "
+mozilla
+/
+PresShell
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -150,7 +159,7 @@ nsBlockFrame
 *
 NS_NewColumnSetWrapperFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

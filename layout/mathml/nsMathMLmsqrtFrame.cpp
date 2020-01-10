@@ -126,6 +126,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D
@@ -156,7 +165,7 @@ nsIFrame
 *
 NS_NewMathMLmsqrtFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

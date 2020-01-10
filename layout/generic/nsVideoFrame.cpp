@@ -153,6 +153,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLVideoElement
@@ -306,7 +315,7 @@ nsIFrame
 *
 NS_NewHTMLVideoFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

@@ -293,7 +293,7 @@ nsIFrame
 *
 NS_NewDeckFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

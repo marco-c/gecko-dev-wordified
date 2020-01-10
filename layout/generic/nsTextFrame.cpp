@@ -30183,7 +30183,10 @@ nsIFrame
 *
 NS_NewContinuingTextFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -31802,7 +31805,7 @@ nsIFrame
 *
 NS_NewTextFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -31835,7 +31838,7 @@ nsIFrame
 *
 NS_NewContinuingTextFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

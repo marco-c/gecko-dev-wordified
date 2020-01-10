@@ -168,6 +168,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLInputElement
@@ -250,7 +259,7 @@ nsIFrame
 *
 NS_NewColorControlFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

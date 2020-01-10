@@ -292,6 +292,9 @@ nsPluginInstanceOwner
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 layers
 {
@@ -435,7 +438,10 @@ nsIFrame
 *
 NS_NewObjectFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

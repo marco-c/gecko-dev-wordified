@@ -188,6 +188,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLInputElement
@@ -255,7 +264,7 @@ nsIFrame
 *
 NS_NewDateTimeControlFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

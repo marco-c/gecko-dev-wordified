@@ -166,6 +166,9 @@ h
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 layers
 {
@@ -198,7 +201,7 @@ nsIFrame
 *
 NS_NewHTMLCanvasFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 mozilla

@@ -250,7 +250,7 @@ nsFirstLetterFrame
 *
 NS_NewFirstLetterFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

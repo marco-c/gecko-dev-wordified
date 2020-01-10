@@ -330,7 +330,7 @@ nsIFrame
 *
 NS_NewResizerFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

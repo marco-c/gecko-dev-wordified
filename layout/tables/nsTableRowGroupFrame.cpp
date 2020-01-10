@@ -11601,7 +11601,7 @@ nsTableRowGroupFrame
 *
 NS_NewTableRowGroupFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

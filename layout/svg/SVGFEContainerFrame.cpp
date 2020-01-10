@@ -128,6 +128,15 @@ order
 #
 include
 "
+mozilla
+/
+PresShell
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -206,7 +215,10 @@ nsIFrame
 *
 NS_NewSVGFEContainerFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -387,7 +399,7 @@ nsIFrame
 *
 NS_NewSVGFEContainerFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

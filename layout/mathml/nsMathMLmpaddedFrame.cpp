@@ -144,6 +144,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TextUtils
 .
 h
@@ -230,7 +239,7 @@ nsIFrame
 *
 NS_NewMathMLmpaddedFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

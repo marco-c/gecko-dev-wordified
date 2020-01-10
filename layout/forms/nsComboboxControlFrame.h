@@ -256,6 +256,9 @@ nsTextNode
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 gfx
 {
@@ -306,7 +309,10 @@ nsComboboxControlFrame
 *
 NS_NewComboboxControlFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

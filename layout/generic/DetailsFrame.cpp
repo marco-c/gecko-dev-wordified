@@ -135,6 +135,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLDetailsElement
@@ -208,7 +217,7 @@ nsBlockFrame
 *
 NS_NewDetailsFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

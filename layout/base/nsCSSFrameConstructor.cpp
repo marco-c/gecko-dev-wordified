@@ -982,7 +982,7 @@ nsIFrame
 *
 NS_NewHTMLCanvasFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -994,7 +994,7 @@ nsIFrame
 *
 NS_NewHTMLVideoFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1006,7 +1006,7 @@ nsContainerFrame
 *
 NS_NewSVGOuterSVGFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1018,7 +1018,7 @@ nsContainerFrame
 *
 NS_NewSVGOuterSVGAnonChildFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1030,7 +1030,7 @@ nsIFrame
 *
 NS_NewSVGInnerSVGFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1042,7 +1042,7 @@ nsIFrame
 *
 NS_NewSVGGeometryFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1054,7 +1054,7 @@ nsIFrame
 *
 NS_NewSVGGFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1066,7 +1066,7 @@ nsIFrame
 *
 NS_NewSVGGenericContainerFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1078,7 +1078,7 @@ nsContainerFrame
 *
 NS_NewSVGForeignObjectFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1090,7 +1090,7 @@ nsIFrame
 *
 NS_NewSVGAFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1102,7 +1102,7 @@ nsIFrame
 *
 NS_NewSVGSwitchFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1114,7 +1114,7 @@ nsIFrame
 *
 NS_NewSVGSymbolFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1126,7 +1126,7 @@ nsIFrame
 *
 NS_NewSVGTextFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1138,7 +1138,7 @@ nsIFrame
 *
 NS_NewSVGContainerFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1150,7 +1150,7 @@ nsIFrame
 *
 NS_NewSVGUseFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1162,7 +1162,7 @@ nsIFrame
 *
 NS_NewSVGViewFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1175,7 +1175,7 @@ nsIFrame
 *
 NS_NewSVGLinearGradientFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1188,7 +1188,7 @@ nsIFrame
 *
 NS_NewSVGRadialGradientFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1201,7 +1201,7 @@ nsIFrame
 *
 NS_NewSVGStopFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1213,7 +1213,7 @@ nsContainerFrame
 *
 NS_NewSVGMarkerFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1225,7 +1225,7 @@ nsContainerFrame
 *
 NS_NewSVGMarkerAnonChildFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1238,7 +1238,7 @@ nsIFrame
 *
 NS_NewSVGImageFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1250,7 +1250,7 @@ nsIFrame
 *
 NS_NewSVGClipPathFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1262,7 +1262,7 @@ nsIFrame
 *
 NS_NewSVGFilterFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1274,7 +1274,7 @@ nsIFrame
 *
 NS_NewSVGPatternFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1286,7 +1286,7 @@ nsIFrame
 *
 NS_NewSVGMaskFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1298,7 +1298,7 @@ nsIFrame
 *
 NS_NewSVGFEContainerFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1310,7 +1310,7 @@ nsIFrame
 *
 NS_NewSVGFELeafFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1322,7 +1322,7 @@ nsIFrame
 *
 NS_NewSVGFEImageFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1334,7 +1334,7 @@ nsIFrame
 *
 NS_NewSVGFEUnstyledLeafFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1606,7 +1606,7 @@ nsContainerFrame
 *
 NS_NewRootBoxFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1618,7 +1618,7 @@ nsContainerFrame
 *
 NS_NewDocElementBoxFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1630,7 +1630,7 @@ nsIFrame
 *
 NS_NewDeckFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1642,7 +1642,7 @@ nsIFrame
 *
 NS_NewLeafBoxFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1654,7 +1654,7 @@ nsIFrame
 *
 NS_NewStackFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1666,7 +1666,7 @@ nsIFrame
 *
 NS_NewRangeFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1678,7 +1678,7 @@ nsIFrame
 *
 NS_NewImageBoxFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1690,7 +1690,7 @@ nsIFrame
 *
 NS_NewTextBoxFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1702,7 +1702,7 @@ nsIFrame
 *
 NS_NewGroupBoxFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1714,7 +1714,7 @@ nsIFrame
 *
 NS_NewButtonBoxFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1726,7 +1726,7 @@ nsIFrame
 *
 NS_NewSplitterFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1738,7 +1738,7 @@ nsIFrame
 *
 NS_NewMenuPopupFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1750,7 +1750,7 @@ nsIFrame
 *
 NS_NewPopupSetFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1762,7 +1762,7 @@ nsIFrame
 *
 NS_NewMenuFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1776,7 +1776,7 @@ nsIFrame
 *
 NS_NewMenuBarFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1788,7 +1788,7 @@ nsIFrame
 *
 NS_NewTreeBodyFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1802,9 +1802,6 @@ grid
 nsresult
 NS_NewGridLayout2
 (
-nsIPresShell
-*
-aPresShell
 nsBoxLayout
 *
 *
@@ -1815,7 +1812,7 @@ nsIFrame
 *
 NS_NewGridRowLeafFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1827,7 +1824,7 @@ nsIFrame
 *
 NS_NewGridRowGroupFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1843,7 +1840,7 @@ nsIFrame
 *
 NS_NewTitleBarFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1855,7 +1852,7 @@ nsIFrame
 *
 NS_NewResizerFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1869,7 +1866,7 @@ nsHTMLScrollFrame
 *
 NS_NewHTMLScrollFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1883,7 +1880,7 @@ nsXULScrollFrame
 *
 NS_NewXULScrollFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1899,7 +1896,7 @@ nsIFrame
 *
 NS_NewSliderFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1911,7 +1908,7 @@ nsIFrame
 *
 NS_NewScrollbarFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1923,7 +1920,7 @@ nsIFrame
 *
 NS_NewScrollbarButtonFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1935,7 +1932,7 @@ nsIFrame
 *
 NS_NewImageFrameForContentProperty
 (
-nsIPresShell
+PresShell
 *
 ComputedStyle
 *
@@ -1945,7 +1942,7 @@ nsIFrame
 *
 NS_NewImageFrameForGeneratedContentIndex
 (
-nsIPresShell
+PresShell
 *
 ComputedStyle
 *
@@ -26750,7 +26747,7 @@ nsIFrame
 *
 NS_NewGridBoxFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -26766,7 +26763,6 @@ layout
 ;
 NS_NewGridLayout2
 (
-aPresShell
 getter_AddRefs
 (
 layout
@@ -27280,7 +27276,7 @@ nsIFrame
 *
 NS_NewXULDescriptionFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

@@ -445,7 +445,7 @@ nsIFrame
 *
 NS_NewTextControlFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

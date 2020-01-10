@@ -134,6 +134,15 @@ nsSVGIntegrationUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+PresShell
+.
+h
+"
 using
 namespace
 mozilla
@@ -218,7 +227,7 @@ nsIFrame
 *
 NS_NewSVGGenericContainerFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

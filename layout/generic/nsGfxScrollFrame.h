@@ -265,9 +265,6 @@ class
 nsPresContext
 ;
 class
-nsIPresShell
-;
-class
 nsIContent
 ;
 class
@@ -279,6 +276,9 @@ nsIScrollPositionListener
 namespace
 mozilla
 {
+class
+PresShell
+;
 struct
 ScrollReflowInput
 ;
@@ -5343,7 +5343,10 @@ nsHTMLScrollFrame
 *
 NS_NewHTMLScrollFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -8059,7 +8062,10 @@ nsXULScrollFrame
 *
 NS_NewXULScrollFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

@@ -152,6 +152,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -305,7 +314,7 @@ nsContainerFrame
 *
 NS_NewRubyTextContainerFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

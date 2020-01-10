@@ -124,6 +124,15 @@ h
 #
 include
 "
+mozilla
+/
+PresShell
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h
@@ -157,7 +166,7 @@ nsContainerFrame
 *
 NS_NewSelectsAreaFrame
 (
-nsIPresShell
+PresShell
 *
 aShell
 ComputedStyle

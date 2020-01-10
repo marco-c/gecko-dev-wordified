@@ -173,6 +173,9 @@ PseudoStyleType
 uint8_t
 ;
 class
+PresShell
+;
+class
 WidgetEvent
 ;
 class
@@ -229,7 +232,10 @@ nsIFrame
 *
 NS_NewNumberControlFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

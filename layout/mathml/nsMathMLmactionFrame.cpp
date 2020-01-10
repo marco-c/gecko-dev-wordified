@@ -390,7 +390,7 @@ nsIFrame
 *
 NS_NewMathMLmactionFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

@@ -137,6 +137,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 SVGAElement
@@ -205,7 +214,10 @@ nsIFrame
 *
 NS_NewSVGAFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -389,7 +401,7 @@ nsIFrame
 *
 NS_NewSVGAFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

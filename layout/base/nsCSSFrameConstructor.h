@@ -3783,7 +3783,7 @@ children
 etc
 .
 param
-nsIPresShell
+PresShell
 the
 presshell
 whose
@@ -3816,7 +3816,7 @@ nsIFrame
 FrameCreationFunc
 )
 (
-nsIPresShell
+PresShell
 *
 ComputedStyle
 *
@@ -3830,7 +3830,7 @@ nsContainerFrame
 ContainerFrameCreationFunc
 )
 (
-nsIPresShell
+PresShell
 *
 ComputedStyle
 *
@@ -3844,7 +3844,7 @@ nsBlockFrame
 BlockFrameCreationFunc
 )
 (
-nsIPresShell
+PresShell
 *
 ComputedStyle
 *

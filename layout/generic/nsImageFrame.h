@@ -1150,7 +1150,10 @@ nsIFrame
 *
 NS_NewImageFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 ComputedStyle
 *
@@ -1161,7 +1164,10 @@ nsIFrame
 *
 NS_NewImageFrameForContentProperty
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 ComputedStyle
 *
@@ -1172,7 +1178,10 @@ nsIFrame
 *
 NS_NewImageFrameForGeneratedContentIndex
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 ComputedStyle
 *

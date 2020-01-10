@@ -348,7 +348,7 @@ nsIFrame
 *
 NS_NewRangeFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

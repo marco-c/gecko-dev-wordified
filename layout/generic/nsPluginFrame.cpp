@@ -11064,7 +11064,7 @@ nsIFrame
 *
 NS_NewObjectFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

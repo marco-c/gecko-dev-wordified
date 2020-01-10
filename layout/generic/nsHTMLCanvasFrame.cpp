@@ -155,6 +155,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLCanvasElement
@@ -1670,7 +1679,7 @@ nsIFrame
 *
 NS_NewHTMLCanvasFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

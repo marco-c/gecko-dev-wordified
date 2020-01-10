@@ -165,6 +165,9 @@ nsTableRowFrame
 namespace
 mozilla
 {
+class
+PresShell
+;
 struct
 TableRowGroupReflowInput
 ;
@@ -292,7 +295,10 @@ nsTableRowGroupFrame
 *
 NS_NewTableRowGroupFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

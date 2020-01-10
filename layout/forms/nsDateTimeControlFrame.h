@@ -232,6 +232,9 @@ h
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -283,7 +286,10 @@ nsIFrame
 *
 NS_NewDateTimeControlFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

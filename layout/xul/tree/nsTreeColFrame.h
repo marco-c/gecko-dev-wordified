@@ -142,6 +142,9 @@ h
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -158,7 +161,10 @@ nsIFrame
 *
 NS_NewTreeColFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 mozilla
@@ -281,7 +287,10 @@ nsIFrame
 *
 NS_NewTreeColFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

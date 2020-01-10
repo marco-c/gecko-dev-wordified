@@ -127,6 +127,15 @@ nsSVGSymbolFrame
 .
 h
 "
+#
+include
+"
+mozilla
+/
+PresShell
+.
+h
+"
 using
 namespace
 mozilla
@@ -135,7 +144,7 @@ nsIFrame
 *
 NS_NewSVGSymbolFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

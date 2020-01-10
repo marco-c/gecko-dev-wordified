@@ -255,7 +255,7 @@ nsIFrame
 *
 NS_NewScrollbarFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

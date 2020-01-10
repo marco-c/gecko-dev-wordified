@@ -140,6 +140,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLInputElement
@@ -189,7 +198,7 @@ nsContainerFrame
 *
 NS_NewGfxButtonControlFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

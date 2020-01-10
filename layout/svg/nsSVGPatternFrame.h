@@ -177,6 +177,9 @@ namespace
 mozilla
 {
 class
+PresShell
+;
+class
 SVGAnimatedLength
 ;
 class
@@ -224,7 +227,10 @@ nsIFrame
 *
 NS_NewSVGPatternFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

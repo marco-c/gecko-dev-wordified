@@ -253,7 +253,7 @@ nsIFrame
 *
 NS_NewProgressFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

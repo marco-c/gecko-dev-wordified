@@ -216,6 +216,9 @@ nsIWidget
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -959,7 +962,10 @@ nsIFrame
 *
 NS_NewMenuPopupFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 mozilla

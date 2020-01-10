@@ -144,6 +144,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -278,7 +287,7 @@ nsIFrame
 *
 NS_NewMathMLmfracFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

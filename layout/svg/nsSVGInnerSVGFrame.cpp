@@ -127,6 +127,15 @@ nsSVGInnerSVGFrame
 .
 h
 "
+#
+include
+"
+mozilla
+/
+PresShell
+.
+h
+"
 using
 namespace
 mozilla
@@ -135,7 +144,7 @@ nsIFrame
 *
 NS_NewSVGInnerSVGFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

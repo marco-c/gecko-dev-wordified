@@ -150,6 +150,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WritingModes
 .
 h
@@ -294,7 +303,7 @@ nsContainerFrame
 *
 NS_NewRubyTextFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

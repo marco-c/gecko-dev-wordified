@@ -124,6 +124,15 @@ h
 #
 include
 "
+mozilla
+/
+PresShell
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h
@@ -155,7 +164,7 @@ nsIFrame
 *
 NS_NewMathMLTokenFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

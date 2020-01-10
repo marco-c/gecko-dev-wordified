@@ -186,6 +186,9 @@ LinkedList
 class
 LogicalPoint
 ;
+class
+PresShell
+;
 }
 /
 /
@@ -195,7 +198,10 @@ nsContainerFrame
 *
 NS_NewFlexContainerFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 mozilla
@@ -795,7 +801,10 @@ nsContainerFrame
 *
 NS_NewFlexContainerFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

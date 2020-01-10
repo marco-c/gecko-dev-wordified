@@ -124,6 +124,15 @@ h
 #
 include
 "
+mozilla
+/
+PresShell
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -204,7 +213,7 @@ nsContainerFrame
 *
 NS_NewHTMLButtonControlFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

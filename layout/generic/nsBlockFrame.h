@@ -400,6 +400,9 @@ class
 BlockReflowInput
 ;
 class
+PresShell
+;
+class
 ServoRestyleState
 ;
 class
@@ -885,7 +888,10 @@ nsBlockFrame
 *
 NS_NewBlockFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle
