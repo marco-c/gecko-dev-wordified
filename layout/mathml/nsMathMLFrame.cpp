@@ -684,6 +684,7 @@ StyleSet
 >
 ResolvePseudoElementStyle
 (
+*
 aContent
 -
 >
@@ -692,7 +693,6 @@ AsElement
 )
 pseudoType
 aParentComputedStyle
-nullptr
 )
 ;
 aMathMLChar

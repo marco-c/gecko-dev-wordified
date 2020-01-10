@@ -42146,6 +42146,7 @@ StyleSet
 .
 ResolvePseudoElementStyle
 (
+*
 mContent
 -
 >
@@ -42157,7 +42158,6 @@ PseudoStyleType
 :
 firstLetter
 parentStyle
-nullptr
 )
 ;
 /
@@ -55281,6 +55281,7 @@ StyleSet
 .
 ResolvePseudoElementStyle
 (
+*
 mContent
 -
 >
@@ -55292,7 +55293,6 @@ PseudoStyleType
 :
 firstLine
 parentStyle
-nullptr
 )
 ;
 /
