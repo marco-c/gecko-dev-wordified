@@ -347,10 +347,6 @@ RootedScript
 script
 (
 cx
-)
-;
-CHECK
-(
 JS
 :
 :
@@ -365,9 +361,12 @@ code
 )
 -
 1
-&
-script
 )
+)
+;
+CHECK
+(
+script
 )
 ;
 JS_SetReservedSlot

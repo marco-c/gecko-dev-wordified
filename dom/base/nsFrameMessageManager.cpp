@@ -8169,9 +8169,8 @@ setNoScriptRval
 true
 )
 ;
-if
-(
-!
+script
+=
 JS
 :
 :
@@ -8180,9 +8179,12 @@ CompileForNonSyntacticScope
 cx
 options
 srcBuf
-&
-script
 )
+;
+if
+(
+!
+script
 )
 {
 return

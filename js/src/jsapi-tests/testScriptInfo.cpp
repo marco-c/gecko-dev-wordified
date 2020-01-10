@@ -260,10 +260,6 @@ RootedScript
 script
 (
 cx
-)
-;
-CHECK
-(
 JS
 :
 :
@@ -276,8 +272,6 @@ strlen
 (
 code
 )
-&
-script
 )
 )
 ;

@@ -208,7 +208,8 @@ mozJSSubScriptLoader
 (
 )
 ;
-bool
+JSScript
+*
 ReadScript
 (
 nsIURI
@@ -233,11 +234,6 @@ bool
 wantReturnValue
 bool
 useCompilationScope
-JS
-:
-:
-MutableHandleScript
-script
 )
 ;
 nsresult
