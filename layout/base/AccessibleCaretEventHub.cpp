@@ -2836,10 +2836,10 @@ aEvent
 mButton
 !
 =
-WidgetMouseEvent
+MouseButton
 :
 :
-eLeftButton
+eLeft
 )
 {
 return

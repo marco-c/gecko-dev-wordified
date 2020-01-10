@@ -13609,10 +13609,10 @@ MouseEvent_Binding
 :
 :
 MOZ_SOURCE_TOUCH
-WidgetMouseEvent
+MouseButtonsFlag
 :
 :
-eLeftButtonFlag
+eLeftFlag
 aTouchInput
 .
 mTouches

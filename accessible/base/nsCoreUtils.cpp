@@ -1015,10 +1015,10 @@ event
 .
 mButton
 =
-WidgetMouseEvent
+MouseButton
 :
 :
-eLeftButton
+eLeft
 ;
 event
 .

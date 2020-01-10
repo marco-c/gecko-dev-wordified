@@ -1056,10 +1056,10 @@ event
 )
 ;
 return
-WidgetMouseEvent
+MouseButton
 :
 :
-eLeftButton
+eLeft
 ;
 }
 }
