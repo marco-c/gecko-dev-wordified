@@ -616,6 +616,13 @@ nsCString
 >
 &
 aList
+const
+nsTArray
+<
+nsCString
+>
+&
+aHashes
 bool
 *
 aShouldContinue
