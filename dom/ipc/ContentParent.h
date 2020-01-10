@@ -3234,6 +3234,14 @@ LayersObserverEpoch
 aEpoch
 )
 ;
+void
+CancelContentJSExecutionIfRunning
+(
+BrowserParent
+*
+aBrowserParent
+)
+;
 /
 /
 This
