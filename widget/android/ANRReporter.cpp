@@ -275,7 +275,13 @@ profiler_start
 entries
 *
 /
+PowerOfTwo
+<
+uint32_t
+>
+(
 100
+)
 /
 *
 interval
