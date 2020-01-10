@@ -1727,6 +1727,9 @@ name
 "
 PushEvent
 "
+fennecOrDesktop
+:
+true
 }
 /
 /
@@ -1750,6 +1753,9 @@ name
 "
 PushManager
 "
+fennecOrDesktop
+:
+true
 }
 /
 /
@@ -1773,6 +1779,9 @@ name
 "
 PushMessageData
 "
+fennecOrDesktop
+:
+true
 }
 /
 /
@@ -1796,6 +1805,9 @@ name
 "
 PushSubscription
 "
+fennecOrDesktop
+:
+true
 }
 /
 /
@@ -1819,6 +1831,9 @@ name
 "
 PushSubscriptionOptions
 "
+fennecOrDesktop
+:
+true
 }
 /
 /
