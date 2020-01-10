@@ -16519,8 +16519,11 @@ true
 ;
 rv
 =
+MOZ_KnownLive
+(
 HTMLEditorRef
 (
+)
 )
 .
 DeleteTextWithTransaction
@@ -20584,8 +20587,11 @@ get
 ;
 rv
 =
+MOZ_KnownLive
+(
 HTMLEditorRef
 (
+)
 )
 .
 DeleteTextWithTransaction
@@ -20674,8 +20680,11 @@ get
 ;
 rv
 =
+MOZ_KnownLive
+(
 HTMLEditorRef
 (
+)
 )
 .
 DeleteTextWithTransaction
