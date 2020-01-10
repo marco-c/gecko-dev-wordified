@@ -708,6 +708,14 @@ Length
 )
 const
 ;
+already_AddRefed
+<
+nsIRunnable
+>
+GetEvent
+(
+)
+;
 /
 /
 Block

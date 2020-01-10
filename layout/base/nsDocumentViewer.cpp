@@ -262,6 +262,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+DocGroup
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h
