@@ -6821,14 +6821,6 @@ PICTURE_CACHING_DBG
 <
 15
 ;
-const
-TEXTURE_CACHE_DBG_DISABLE_SHRINK
-=
-1
-<
-<
-16
-;
 /
 /
 /
@@ -6847,7 +6839,7 @@ PRIMITIVE_DBG
 1
 <
 <
-17
+16
 ;
 /
 /
@@ -6870,7 +6862,7 @@ ZOOM_DBG
 1
 <
 <
-18
+17
 ;
 /
 /
@@ -6925,7 +6917,7 @@ SMALL_SCREEN
 1
 <
 <
-19
+18
 ;
 }
 }
