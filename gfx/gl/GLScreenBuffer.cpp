@@ -2804,6 +2804,9 @@ mGL
 ;
 #
 endif
+if
+(
+!
 SharedSurface
 :
 :
@@ -2817,7 +2820,13 @@ get
 (
 )
 )
+)
+{
+ret
+=
+false
 ;
+}
 #
 ifdef
 DEBUG
@@ -2951,7 +2960,7 @@ ProducerRelease
 ;
 }
 return
-true
+ret
 ;
 }
 bool
@@ -3058,6 +3067,11 @@ ProducerRelease
 mBack
 =
 newBack
+;
+bool
+ret
+=
+true
 ;
 mBack
 -

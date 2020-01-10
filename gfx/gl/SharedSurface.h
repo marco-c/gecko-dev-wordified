@@ -310,7 +310,7 @@ SharedSurface
 public
 :
 static
-void
+bool
 ProdCopy
 (
 SharedSurface
