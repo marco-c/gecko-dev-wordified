@@ -225,12 +225,6 @@ DNSRequestChild
 aDnsRequest
 )
 ;
-bool
-GetOffline
-(
-)
-const
-;
 private
 :
 virtual
