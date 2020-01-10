@@ -140,7 +140,7 @@ const
 kSearchSuggestURL
 =
 "
-http
+https
 :
 /
 /
