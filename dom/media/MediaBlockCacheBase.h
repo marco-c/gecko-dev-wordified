@@ -530,11 +530,9 @@ it
 .
 )
 virtual
-size_t
+int32_t
 GetMaxBlocks
 (
-size_t
-aCacheSizeInKiB
 )
 const
 =
