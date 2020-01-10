@@ -208,8 +208,10 @@ docs
 /
 Tools
 /
-WebIDE
-/
+about
+:
+debugging
+#
 Troubleshooting
 "
 ;

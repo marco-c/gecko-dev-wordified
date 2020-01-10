@@ -984,9 +984,7 @@ Tools
 /
 Remote_Debugging
 /
-Debugging_Firefox_for_Android_with_WebIDE
-#
-Setting_up_the_Android_device
+Debugging_over_USB
 "
 }
 {
@@ -1026,9 +1024,7 @@ Tools
 /
 Remote_Debugging
 /
-Debugging_Firefox_for_Android_with_WebIDE
-#
-Setting_up_the_Android_device
+Debugging_over_USB
 "
 }
 {
@@ -1070,9 +1066,7 @@ Tools
 /
 Remote_Debugging
 /
-Debugging_Firefox_for_Android_with_WebIDE
-#
-Setting_up_the_Android_device
+Debugging_over_USB
 "
 }
 {
