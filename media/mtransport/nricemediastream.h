@@ -583,6 +583,11 @@ trickled
 uint32_t
 priority
 ;
+bool
+is_proxied
+=
+false
+;
 }
 ;
 struct

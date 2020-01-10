@@ -256,6 +256,13 @@ _transport_addr_h
 #
 include
 <
+stdbool
+.
+h
+>
+#
+include
+<
 sys
 /
 types
@@ -456,6 +463,9 @@ tls_host
 [
 256
 ]
+;
+bool
+is_proxied
 ;
 }
 nr_transport_addr
