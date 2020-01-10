@@ -1381,6 +1381,13 @@ SetCuesInactive
 (
 )
 {
+WEBVTT_LOG
+(
+"
+SetCuesInactive
+"
+)
+;
 mCueList
 -
 >
