@@ -2254,6 +2254,11 @@ width
 treeTable
 :
 focus
+.
+treeTable
+tbody
+:
+focus
 {
 outline
 :
