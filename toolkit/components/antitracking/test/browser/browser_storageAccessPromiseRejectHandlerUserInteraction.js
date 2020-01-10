@@ -182,7 +182,11 @@ user
 -
 interaction
 test
-0
+Ci
+.
+nsIWebProgressListener
+.
+STATE_COOKIES_BLOCKED_TRACKER
 /
 /
 expected
