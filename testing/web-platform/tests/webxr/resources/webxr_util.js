@@ -617,6 +617,12 @@ inline
 }
 )
 ;
+glLayer
+.
+context
+=
+gl
+;
 /
 /
 Session
