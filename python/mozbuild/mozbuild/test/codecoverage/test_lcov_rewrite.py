@@ -125,6 +125,9 @@ get
 '
 MOZ_APP_NAME
 '
+'
+nightly
+'
 )
     
 '
@@ -140,6 +143,11 @@ get
 '
 OMNIJAR_NAME
 '
+'
+omni
+.
+ja
+'
 )
     
 '
@@ -154,6 +162,11 @@ get
 (
 '
 MOZ_MACBUNDLE_NAME
+'
+'
+Nightly
+.
+app
 '
 )
 }
@@ -2268,29 +2281,21 @@ self
         
 app_name
 =
-buildconfig
-.
-substs
-.
-get
-(
+BUILDCONFIG
+[
 '
 MOZ_APP_NAME
 '
-)
+]
         
 omnijar_name
 =
-buildconfig
-.
-substs
-.
-get
-(
+BUILDCONFIG
+[
 '
 OMNIJAR_NAME
 '
-)
+]
         
 paths
 =
