@@ -191,6 +191,10 @@ const
 if
 (
 mIsLost
+|
+|
+!
+mContext
 )
 return
 ;

@@ -217,6 +217,10 @@ true
 if
 (
 mIsLost
+|
+|
+!
+mContext
 )
 return
 ;

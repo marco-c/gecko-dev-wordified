@@ -154,6 +154,13 @@ LoseContext
 (
 )
 {
+if
+(
+!
+mContext
+)
+return
+;
 mContext
 -
 >
@@ -170,6 +177,13 @@ RestoreContext
 (
 )
 {
+if
+(
+!
+mContext
+)
+return
+;
 mContext
 -
 >

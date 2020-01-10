@@ -181,6 +181,10 @@ CreateVertexArrayOES
 if
 (
 mIsLost
+|
+|
+!
+mContext
 )
 return
 nullptr
@@ -208,6 +212,10 @@ array
 if
 (
 mIsLost
+|
+|
+!
+mContext
 )
 return
 ;
@@ -235,6 +243,10 @@ array
 if
 (
 mIsLost
+|
+|
+!
+mContext
 )
 return
 false
@@ -263,6 +275,10 @@ array
 if
 (
 mIsLost
+|
+|
+!
+mContext
 )
 return
 ;

@@ -227,6 +227,11 @@ if
 mIsLost
 )
 {
+if
+(
+mContext
+)
+{
 mContext
 -
 >
@@ -242,6 +247,7 @@ lost
 "
 )
 ;
+}
 return
 ;
 }
