@@ -1653,13 +1653,12 @@ WasmModule
 >
 DeserializeModule
 (
-PRFileDesc
+const
+uint8_t
 *
 bytecode
-UniqueChars
-filename
-unsigned
-line
+size_t
+bytecodeLength
 )
 ;
 }
