@@ -3771,11 +3771,17 @@ remote
 ;
 canvas
 =
+await
 capture
 .
 canvas
 (
 win
+win
+.
+docShell
+.
+browsingContext
 0
 /
 /
@@ -3793,6 +3799,9 @@ height
 {
 canvas
 flags
+readback
+:
+true
 }
 )
 ;
