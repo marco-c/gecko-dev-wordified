@@ -9376,7 +9376,7 @@ Loadinfo
 Within
 /
 /
-NS_SniffContent
+GetMIMETypeFromContent
 we
 then
 bail
