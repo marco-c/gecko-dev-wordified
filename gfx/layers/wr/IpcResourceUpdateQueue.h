@@ -1024,6 +1024,8 @@ Range
 uint8_t
 >
 aBytes
+ImageIntRect
+aVisibleRect
 )
 ;
 void
@@ -1100,6 +1102,8 @@ Range
 uint8_t
 >
 aBytes
+ImageIntRect
+aVisibleRect
 ImageIntRect
 aDirtyRect
 )

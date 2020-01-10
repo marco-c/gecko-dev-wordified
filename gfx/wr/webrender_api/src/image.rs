@@ -2513,6 +2513,10 @@ Arc
 <
 BlobImageData
 >
+visible_rect
+:
+&
+DeviceIntRect
 tiling
 :
 Option
@@ -2546,6 +2550,10 @@ Arc
 <
 BlobImageData
 >
+visible_rect
+:
+&
+DeviceIntRect
 dirty_rect
 :
 &
