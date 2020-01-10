@@ -6156,7 +6156,11 @@ Self
 if
 self
 .
-is_pseudo_element
+implemented_pseudo_element
+(
+)
+.
+is_some
 (
 )
 {
