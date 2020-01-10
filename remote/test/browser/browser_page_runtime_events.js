@@ -578,9 +578,6 @@ is
 the
 same
 than
-"
-+
-"
 getFrameTree
 '
 s
@@ -611,9 +608,6 @@ top
 level
 document
 and
-"
-+
-"
 has
 a
 null
@@ -638,9 +632,6 @@ same
 than
 the
 one
-"
-+
-"
 returned
 by
 Page
@@ -685,9 +676,6 @@ same
 being
 given
 to
-"
-+
-"
 Page
 .
 navigate
@@ -823,9 +811,6 @@ is
 different
 from
 the
-"
-+
-"
 created
 one
 "

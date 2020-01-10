@@ -452,9 +452,6 @@ is
 the
 same
 than
-"
-+
-"
 getFrameTree
 '
 s
@@ -831,9 +828,6 @@ top
 level
 document
 and
-"
-+
-"
 has
 a
 null
@@ -918,9 +912,6 @@ frameId
 navigatedWithinDocument
 frameId
 is
-"
-+
-"
 the
 same
 one
