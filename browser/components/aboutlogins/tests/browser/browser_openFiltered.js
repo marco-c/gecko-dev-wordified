@@ -309,7 +309,7 @@ waitForCondition
 return
 loginList
 .
-_logins
+_loginGuidsSortedOrder
 .
 length
 =
