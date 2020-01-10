@@ -4403,10 +4403,11 @@ for
 arg
 pos
 in
-d
+six
 .
 itervalues
 (
+d
 )
 :
                 
