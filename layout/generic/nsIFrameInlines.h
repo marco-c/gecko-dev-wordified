@@ -679,7 +679,7 @@ aGroup
 BaselineSharingGroup
 :
 :
-eFirst
+First
 )
 {
 if
@@ -791,7 +791,7 @@ aGroup
 BaselineSharingGroup
 :
 :
-eLast
+Last
 )
 ;
 if
@@ -965,7 +965,7 @@ aGroup
 BaselineSharingGroup
 :
 :
-eFirst
+First
 )
 {
 return
@@ -993,7 +993,7 @@ aGroup
 BaselineSharingGroup
 :
 :
-eLast
+Last
 )
 ;
 /
@@ -1097,7 +1097,7 @@ aAlignmentContext
 AlignmentContext
 :
 :
-eInline
+Inline
 )
 {
 return
@@ -1114,7 +1114,7 @@ XXX
 AlignmentContext
 :
 :
-eTable
+Table
 should
 use
 content

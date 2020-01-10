@@ -269,7 +269,7 @@ aFlags
 AlignJustifyFlags
 :
 :
-eOverflowSafe
+OverflowSafe
 )
 ;
 const
@@ -284,7 +284,7 @@ aFlags
 AlignJustifyFlags
 :
 :
-eSameSide
+SameSide
 )
 ;
 /
@@ -626,7 +626,7 @@ aFlags
 AlignJustifyFlags
 :
 :
-eIgnoreAutoMargins
+IgnoreAutoMargins
 )
 {
 /

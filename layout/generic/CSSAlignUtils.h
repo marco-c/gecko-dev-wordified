@@ -169,7 +169,7 @@ enum
 class
 AlignJustifyFlags
 {
-eNoFlags
+NoFlags
 =
 0
 /
@@ -186,7 +186,7 @@ position
 =
 safe
 .
-eOverflowSafe
+OverflowSafe
 =
 1
 <
@@ -224,7 +224,7 @@ s
 parallel
 axis
 .
-eSameSide
+SameSide
 =
 1
 <
@@ -274,7 +274,7 @@ is
 done
 .
 )
-eIgnoreAutoMargins
+IgnoreAutoMargins
 =
 1
 <

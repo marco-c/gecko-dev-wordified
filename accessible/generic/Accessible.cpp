@@ -2805,14 +2805,14 @@ nsIFrame
 TextOffsetType
 :
 :
-OFFSETS_IN_CONTENT_TEXT
+OffsetsInContentText
 nsIFrame
 :
 :
 TrailingWhitespace
 :
 :
-DONT_TRIM_TRAILING_WHITESPACE
+DontTrim
 )
 ;
 if

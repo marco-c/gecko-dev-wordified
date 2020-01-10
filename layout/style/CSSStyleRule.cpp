@@ -1287,7 +1287,7 @@ pseudoElt
 CSSEnabledState
 :
 :
-eIgnoreEnabledState
+IgnoreEnabledState
 )
 ;
 if

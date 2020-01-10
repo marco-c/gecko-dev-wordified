@@ -7418,7 +7418,7 @@ ownLayerASR
 nsDisplayOwnLayerFlags
 :
 :
-eNone
+None
 mozilla
 :
 :

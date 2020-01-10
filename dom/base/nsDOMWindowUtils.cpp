@@ -3069,16 +3069,16 @@ NS_RGB
 nsDisplayListBuilderMode
 :
 :
-PAINTING
+Painting
 PaintFrameFlags
 :
 :
-PAINT_WIDGET_LAYERS
+WidgetLayers
 |
 PaintFrameFlags
 :
 :
-PAINT_EXISTING_TRANSACTION
+ExistingTransaction
 )
 ;
 }
@@ -8212,7 +8212,7 @@ scrollMode
 ScrollMode
 :
 :
-eInstant
+Instant
 ;
 break
 ;
@@ -8224,7 +8224,7 @@ scrollMode
 ScrollMode
 :
 :
-eSmoothMsd
+SmoothMsd
 ;
 break
 ;

@@ -3669,7 +3669,7 @@ flags
 nsDisplayOwnLayerFlags
 :
 :
-eGenerateSubdocInvalidations
+GenerateSubdocInvalidations
 ;
 /
 /
@@ -3749,7 +3749,7 @@ zoomFlags
 nsDisplayOwnLayerFlags
 :
 :
-eGenerateScrollableLayer
+GenerateScrollableLayer
 ;
 }
 childItems
@@ -3821,7 +3821,7 @@ flags
 nsDisplayOwnLayerFlags
 :
 :
-eGenerateScrollableLayer
+GenerateScrollableLayer
 ;
 }
 if

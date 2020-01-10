@@ -21957,7 +21957,7 @@ nsPoint
 ScrollMode
 :
 :
-eInstant
+Instant
 )
 ;
 return
@@ -22335,7 +22335,7 @@ newYPosn
 ScrollMode
 :
 :
-eInstant
+Instant
 )
 ;
 }

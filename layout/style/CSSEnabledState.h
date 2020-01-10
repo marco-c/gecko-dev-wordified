@@ -186,7 +186,7 @@ values
 of
 preferences
 .
-eForAllContent
+ForAllContent
 =
 0
 /
@@ -198,7 +198,7 @@ in
 UA
 sheets
 .
-eInUASheets
+InUASheets
 =
 0x01
 /
@@ -210,7 +210,7 @@ in
 chrome
 code
 .
-eInChrome
+InChrome
 =
 0x02
 /
@@ -271,7 +271,7 @@ bits
 above
 set
 .
-eIgnoreEnabledState
+IgnoreEnabledState
 =
 0xff
 }

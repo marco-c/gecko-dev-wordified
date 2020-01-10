@@ -356,10 +356,10 @@ enum
 class
 ScrollMode
 {
-eInstant
-eSmooth
-eSmoothMsd
-eNormal
+Instant
+Smooth
+SmoothMsd
+Normal
 }
 ;
 }

@@ -2100,7 +2100,7 @@ ShouldSyncDecodeImages
 PaintBorderFlags
 :
 :
-SYNC_DECODE_IMAGES
+SyncDecodeImages
 :
 PaintBorderFlags
 (

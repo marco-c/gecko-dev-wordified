@@ -4093,10 +4093,10 @@ InteractionType
 :
 uint32_t
 {
-eClickInteraction
-eKeyInteraction
-eMouseMoveInteraction
-eScrollInteraction
+ClickInteraction
+KeyInteraction
+MouseMoveInteraction
+ScrollInteraction
 }
 ;
 void

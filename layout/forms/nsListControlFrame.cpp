@@ -12995,7 +12995,7 @@ nsPoint
 ScrollMode
 :
 :
-eInstant
+Instant
 )
 ;
 }

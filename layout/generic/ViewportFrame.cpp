@@ -2632,7 +2632,7 @@ flags
 AbsPosReflowFlags
 :
 :
-eCBWidthAndHeightChanged
+CBWidthAndHeightChanged
 ;
 /
 /

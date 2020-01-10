@@ -8144,7 +8144,7 @@ flags
 PaintFrameFlags
 :
 :
-PAINT_IN_TRANSFORM
+InTransform
 ;
 if
 (
@@ -8162,7 +8162,7 @@ flags
 PaintFrameFlags
 :
 :
-PAINT_SYNC_DECODE_IMAGES
+SyncDecodeImages
 ;
 }
 nsLayoutUtils
@@ -8183,7 +8183,7 @@ NS_RGBA
 nsDisplayListBuilderMode
 :
 :
-PAINTING
+Painting
 flags
 )
 ;
@@ -8309,7 +8309,7 @@ NS_RGBA
 nsDisplayListBuilderMode
 :
 :
-PAINTING
+Painting
 flags
 )
 ;

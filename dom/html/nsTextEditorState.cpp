@@ -3438,7 +3438,7 @@ WHOLE
 ScrollMode
 :
 :
-eInstant
+Instant
 )
 ;
 return
@@ -3688,7 +3688,7 @@ PAGES
 ScrollMode
 :
 :
-eSmooth
+Smooth
 )
 ;
 return
@@ -3735,7 +3735,7 @@ LINES
 ScrollMode
 :
 :
-eSmooth
+Smooth
 )
 ;
 return
@@ -3782,7 +3782,7 @@ LINES
 ScrollMode
 :
 :
-eSmooth
+Smooth
 )
 ;
 return

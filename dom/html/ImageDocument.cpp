@@ -2598,7 +2598,7 @@ height
 ScrollMode
 :
 :
-eInstant
+Instant
 )
 ;
 }

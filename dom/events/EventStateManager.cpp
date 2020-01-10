@@ -17687,7 +17687,7 @@ mode
 ScrollMode
 :
 :
-eNormal
+Normal
 ;
 }
 else
@@ -17706,7 +17706,7 @@ mode
 ScrollMode
 :
 :
-eSmoothMsd
+SmoothMsd
 ;
 }
 else
@@ -17716,7 +17716,7 @@ mode
 ScrollMode
 :
 :
-eSmooth
+Smooth
 ;
 }
 break
@@ -17732,7 +17732,7 @@ mode
 ScrollMode
 :
 :
-eInstant
+Instant
 ;
 break
 ;
@@ -17747,7 +17747,7 @@ mode
 ScrollMode
 :
 :
-eNormal
+Normal
 ;
 break
 ;
@@ -17762,7 +17762,7 @@ mode
 ScrollMode
 :
 :
-eSmooth
+Smooth
 ;
 break
 ;
@@ -37435,7 +37435,7 @@ scrollUnit
 ScrollMode
 :
 :
-eInstant
+Instant
 )
 ;
 return

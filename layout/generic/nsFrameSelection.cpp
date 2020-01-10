@@ -10800,7 +10800,7 @@ PAGES
 ScrollMode
 :
 :
-eSmooth
+Smooth
 )
 ;
 }

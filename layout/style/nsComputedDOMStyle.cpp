@@ -1447,7 +1447,7 @@ mProperty
 CSSEnabledState
 :
 :
-eForAllContent
+ForAllContent
 )
 ;
 }
@@ -3083,7 +3083,7 @@ aPseudo
 CSSEnabledState
 :
 :
-eForAllContent
+ForAllContent
 )
 ;
 }
@@ -4232,7 +4232,7 @@ aProp
 CSSEnabledState
 :
 :
-eForAllContent
+ForAllContent
 )
 {
 CollectImageURLsForProperty

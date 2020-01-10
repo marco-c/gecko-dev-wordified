@@ -390,7 +390,7 @@ aAtom
 EnabledState
 :
 :
-eIgnoreEnabledState
+IgnoreEnabledState
 )
 CSS_PSEUDO_ELEMENT_IS_CSS2
 )

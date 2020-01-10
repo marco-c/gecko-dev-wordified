@@ -1793,7 +1793,7 @@ aEnabled
 EnabledState
 :
 :
-eIgnoreEnabledState
+IgnoreEnabledState
 )
 {
 return
@@ -1808,7 +1808,7 @@ aEnabled
 EnabledState
 :
 :
-eInUASheets
+InUASheets
 )
 &
 &
@@ -1834,7 +1834,7 @@ aEnabled
 EnabledState
 :
 :
-eInChrome
+InChrome
 )
 &
 &

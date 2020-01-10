@@ -24357,7 +24357,7 @@ mComputedStyle
 PaintBorderFlags
 :
 :
-SYNC_DECODE_IMAGES
+SyncDecodeImages
 )
 ;
 nsCSSRendering
@@ -25107,7 +25107,7 @@ mHorzPosition
 ScrollMode
 :
 :
-eInstant
+Instant
 )
 ;
 if

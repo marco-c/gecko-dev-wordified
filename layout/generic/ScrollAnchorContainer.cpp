@@ -2480,7 +2480,7 @@ physicalAdjustment
 ScrollMode
 :
 :
-eInstant
+Instant
 nsGkAtoms
 :
 :

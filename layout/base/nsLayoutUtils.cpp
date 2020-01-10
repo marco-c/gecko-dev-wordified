@@ -7678,7 +7678,7 @@ maximum
 allowed
 size
 .
-eAssert
+Assert
 /
 /
 Ask
@@ -7705,7 +7705,7 @@ maximum
 allowed
 size
 .
-eDrop
+Drop
 }
 ;
 static
@@ -7726,7 +7726,7 @@ aBehaviour
 MaxSizeExceededBehaviour
 :
 :
-eAssert
+Assert
 )
 {
 DisplayPortPropertyData
@@ -7988,7 +7988,7 @@ case
 MaxSizeExceededBehaviour
 :
 :
-eAssert
+Assert
 :
 NS_ASSERTION
 (
@@ -8010,7 +8010,7 @@ case
 MaxSizeExceededBehaviour
 :
 :
-eDrop
+Drop
 :
 return
 false
@@ -8318,7 +8318,7 @@ aResult
 MaxSizeExceededBehaviour
 :
 :
-eDrop
+Drop
 )
 ;
 if
@@ -19708,7 +19708,7 @@ root
 nsDisplayListBuilderMode
 :
 :
-TRANSFORM_COMPUTATION
+TransformComputation
 false
 /
 *
@@ -21362,7 +21362,7 @@ aFrame
 nsDisplayListBuilderMode
 :
 :
-EVENT_DELIVERY
+EventDelivery
 false
 )
 ;
@@ -23517,7 +23517,7 @@ aFrame
 nsDisplayListBuilderMode
 :
 :
-PAINTING
+Painting
 aBuildCaret
 )
 ;
@@ -23895,7 +23895,7 @@ aFlags
 PaintFrameFlags
 :
 :
-PAINT_WIDGET_LAYERS
+WidgetLayers
 )
 {
 nsView
@@ -23941,7 +23941,7 @@ aFlags
 PaintFrameFlags
 :
 :
-PAINT_WIDGET_LAYERS
+WidgetLayers
 ;
 NS_ASSERTION
 (
@@ -24020,7 +24020,7 @@ aFlags
 PaintFrameFlags
 :
 :
-PAINT_HIDE_CARET
+HideCaret
 )
 ;
 const
@@ -24033,7 +24033,7 @@ aFlags
 PaintFrameFlags
 :
 :
-PAINT_WIDGET_LAYERS
+WidgetLayers
 )
 &
 &
@@ -24043,7 +24043,7 @@ aBuilderMode
 nsDisplayListBuilderMode
 :
 :
-PAINTING
+Painting
 ;
 /
 /
@@ -24332,7 +24332,7 @@ aFlags
 PaintFrameFlags
 :
 :
-PAINT_IN_TRANSFORM
+InTransform
 )
 {
 builder
@@ -24350,7 +24350,7 @@ aFlags
 PaintFrameFlags
 :
 :
-PAINT_SYNC_DECODE_IMAGES
+SyncDecodeImages
 )
 {
 builder
@@ -24369,12 +24369,12 @@ aFlags
 PaintFrameFlags
 :
 :
-PAINT_WIDGET_LAYERS
+WidgetLayers
 |
 PaintFrameFlags
 :
 :
-PAINT_TO_WINDOW
+ToWindow
 )
 )
 {
@@ -24393,7 +24393,7 @@ aFlags
 PaintFrameFlags
 :
 :
-PAINT_FOR_WEBRENDER
+ForWebRender
 )
 {
 builder
@@ -24411,7 +24411,7 @@ aFlags
 PaintFrameFlags
 :
 :
-PAINT_IGNORE_SUPPRESSION
+IgnoreSuppression
 )
 {
 builder
@@ -24547,7 +24547,7 @@ aFlags
 PaintFrameFlags
 :
 :
-PAINT_WIDGET_LAYERS
+WidgetLayers
 )
 {
 /
@@ -24668,7 +24668,7 @@ aFlags
 PaintFrameFlags
 :
 :
-PAINT_WIDGET_LAYERS
+WidgetLayers
 )
 &
 &
@@ -24679,7 +24679,7 @@ aFlags
 PaintFrameFlags
 :
 :
-PAINT_DOCUMENT_RELATIVE
+DocumentRelative
 )
 &
 &
@@ -24798,7 +24798,7 @@ aFlags
 PaintFrameFlags
 :
 :
-PAINT_DOCUMENT_RELATIVE
+DocumentRelative
 )
 {
 /
@@ -26738,7 +26738,7 @@ aFlags
 PaintFrameFlags
 :
 :
-PAINT_WIDGET_LAYERS
+WidgetLayers
 )
 {
 flags
@@ -26758,7 +26758,7 @@ aFlags
 PaintFrameFlags
 :
 :
-PAINT_DOCUMENT_RELATIVE
+DocumentRelative
 )
 )
 {
@@ -26833,7 +26833,7 @@ aFlags
 PaintFrameFlags
 :
 :
-PAINT_EXISTING_TRANSACTION
+ExistingTransaction
 )
 {
 flags
@@ -26852,7 +26852,7 @@ aFlags
 PaintFrameFlags
 :
 :
-PAINT_NO_COMPOSITE
+NoComposite
 )
 {
 flags
@@ -26871,7 +26871,7 @@ aFlags
 PaintFrameFlags
 :
 :
-PAINT_COMPRESSED
+Compressed
 )
 {
 flags
@@ -27482,7 +27482,7 @@ aFlags
 PaintFrameFlags
 :
 :
-PAINT_WIDGET_LAYERS
+WidgetLayers
 )
 &
 &
@@ -27493,7 +27493,7 @@ aFlags
 PaintFrameFlags
 :
 :
-PAINT_DOCUMENT_RELATIVE
+DocumentRelative
 )
 )
 {
@@ -29000,14 +29000,14 @@ nsIFrame
 TextOffsetType
 :
 :
-OFFSETS_IN_CONTENT_TEXT
+OffsetsInContentText
 nsIFrame
 :
 :
 TrailingWhitespace
 :
 :
-DONT_TRIM_TRAILING_WHITESPACE
+DontTrim
 )
 ;
 aResult
@@ -41719,7 +41719,7 @@ aFlags
 DrawStringFlags
 :
 :
-eForceHorizontal
+ForceHorizontal
 )
 {
 aFontMetrics
@@ -42821,7 +42821,7 @@ aWM
 BaselineSharingGroup
 :
 :
-eFirst
+First
 )
 ;
 aResult
@@ -61826,7 +61826,7 @@ eRestore
 ScrollMode
 :
 :
-eInstant
+Instant
 )
 ;
 }

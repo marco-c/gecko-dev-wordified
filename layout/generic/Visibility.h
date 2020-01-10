@@ -199,7 +199,7 @@ for
 this
 frame
 .
-UNTRACKED
+Untracked
 /
 /
 Indicates
@@ -218,7 +218,7 @@ may
 be
 /
 /
-APPROXIMATELY_NONVISIBLE
+ApproximatelyNonVisible
 because
 approximate
 visibility
@@ -238,7 +238,7 @@ be
 marked
 /
 /
-APPROXIMATELY_VISIBLE
+ApproximatelyVisible
 instead
 if
 our
@@ -255,7 +255,7 @@ be
 visible
 soon
 .
-APPROXIMATELY_NONVISIBLE
+ApproximatelyNonVisible
 /
 /
 Indicates
@@ -282,7 +282,7 @@ heuristics
 .
 As
 with
-APPROXIMATELY_NONVISIBLE
+ApproximatelyNonVisible
 it
 '
 s
@@ -309,7 +309,7 @@ out
 of
 date
 .
-APPROXIMATELY_VISIBLE
+ApproximatelyVisible
 }
 ;
 /
@@ -330,7 +330,7 @@ OnNonvisible
 :
 uint8_t
 {
-DISCARD_IMAGES
+DiscardImages
 /
 /
 Discard

@@ -2225,12 +2225,12 @@ mIncludeExperimentals
 CSSEnabledState
 :
 :
-eIgnoreEnabledState
+IgnoreEnabledState
 :
 CSSEnabledState
 :
 :
-eForAllContent
+ForAllContent
 ;
 auto
 appendProperty
@@ -3819,7 +3819,7 @@ type
 CSSEnabledState
 :
 :
-eForAllContent
+ForAllContent
 )
 )
 {

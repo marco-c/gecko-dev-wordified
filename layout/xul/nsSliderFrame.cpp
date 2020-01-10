@@ -2506,7 +2506,7 @@ ownLayerASR
 nsDisplayOwnLayerFlags
 :
 :
-eNone
+None
 ScrollbarData
 :
 :

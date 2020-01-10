@@ -1744,7 +1744,7 @@ aMode
 ScrollMode
 :
 :
-eSmoothMsd
+SmoothMsd
 )
 ;
 void
@@ -1760,7 +1760,7 @@ aMode
 ScrollMode
 :
 :
-eSmoothMsd
+SmoothMsd
 )
 ;
 protected
@@ -1929,7 +1929,7 @@ aMode
 ScrollMode
 :
 :
-eInstant
+Instant
 nsIScrollbarMediator
 :
 :
@@ -2102,7 +2102,7 @@ aMode
 ScrollMode
 :
 :
-eInstant
+Instant
 nsAtom
 *
 aOrigin
@@ -6414,7 +6414,7 @@ aMode
 ScrollMode
 :
 :
-eInstant
+Instant
 nsIScrollbarMediator
 :
 :
@@ -6594,7 +6594,7 @@ aMode
 ScrollMode
 :
 :
-eInstant
+Instant
 nsAtom
 *
 aOrigin
@@ -9098,7 +9098,7 @@ aMode
 ScrollMode
 :
 :
-eInstant
+Instant
 nsIScrollbarMediator
 :
 :
@@ -9259,7 +9259,7 @@ aMode
 ScrollMode
 :
 :
-eInstant
+Instant
 nsAtom
 *
 aOrigin

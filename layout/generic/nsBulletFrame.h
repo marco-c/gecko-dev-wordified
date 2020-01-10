@@ -656,6 +656,9 @@ override
 bool
 GetNaturalBaselineBOffset
 (
+mozilla
+:
+:
 WritingMode
 aWM
 BaselineSharingGroup

@@ -1977,7 +1977,7 @@ GetVisibility
 Visibility
 :
 :
-APPROXIMATELY_VISIBLE
+ApproximatelyVisible
 )
 {
 /
@@ -6354,7 +6354,7 @@ Some
 OnNonvisible
 :
 :
-DISCARD_IMAGES
+DiscardImages
 )
 )
 ;
@@ -7785,7 +7785,7 @@ Some
 OnNonvisible
 :
 :
-DISCARD_IMAGES
+DiscardImages
 )
 )
 ;
@@ -7797,7 +7797,7 @@ Some
 OnNonvisible
 :
 :
-DISCARD_IMAGES
+DiscardImages
 )
 )
 ;
@@ -8494,7 +8494,7 @@ Some
 OnNonvisible
 :
 :
-DISCARD_IMAGES
+DiscardImages
 )
 )
 ;
@@ -8566,7 +8566,7 @@ Some
 OnNonvisible
 :
 :
-DISCARD_IMAGES
+DiscardImages
 )
 )
 ;
@@ -9428,7 +9428,7 @@ case
 Visibility
 :
 :
-APPROXIMATELY_VISIBLE
+ApproximatelyVisible
 :
 TrackImage
 (
@@ -9446,7 +9446,7 @@ case
 Visibility
 :
 :
-APPROXIMATELY_NONVISIBLE
+ApproximatelyNonVisible
 :
 UntrackImage
 (
@@ -9466,7 +9466,7 @@ case
 Visibility
 :
 :
-UNTRACKED
+Untracked
 :
 MOZ_ASSERT_UNREACHABLE
 (
@@ -9711,7 +9711,7 @@ GetVisibility
 Visibility
 :
 :
-APPROXIMATELY_NONVISIBLE
+ApproximatelyNonVisible
 )
 {
 return
@@ -9966,7 +9966,7 @@ Some
 OnNonvisible
 :
 :
-DISCARD_IMAGES
+DiscardImages
 )
 ?
 ImageTracker
@@ -9989,7 +9989,7 @@ Some
 OnNonvisible
 :
 :
-DISCARD_IMAGES
+DiscardImages
 )
 )
 {
@@ -10065,7 +10065,7 @@ Some
 OnNonvisible
 :
 :
-DISCARD_IMAGES
+DiscardImages
 )
 ?
 ImageTracker
@@ -10088,7 +10088,7 @@ Some
 OnNonvisible
 :
 :
-DISCARD_IMAGES
+DiscardImages
 )
 )
 {

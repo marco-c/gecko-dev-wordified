@@ -317,7 +317,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_HAS_SHY
+HasShy
 ;
 return
 true
@@ -362,7 +362,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_HAS_SHY
+HasShy
 ;
 return
 true
@@ -1636,7 +1636,7 @@ flags
 Flags
 :
 :
-TEXT_HAS_TAB
+HasTab
 ;
 }
 }

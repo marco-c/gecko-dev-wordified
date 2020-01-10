@@ -3388,7 +3388,7 @@ nsPoint
 ScrollMode
 :
 :
-eInstant
+Instant
 )
 ;
 if

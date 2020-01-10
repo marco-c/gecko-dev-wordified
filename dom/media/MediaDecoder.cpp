@@ -1925,7 +1925,7 @@ mElementVisibility
 Visibility
 :
 :
-UNTRACKED
+Untracked
 )
 mIsElementInTree
 (
@@ -6494,7 +6494,7 @@ mElementVisibility
 Visibility
 :
 :
-UNTRACKED
+Untracked
 )
 {
 LOG
@@ -6578,7 +6578,7 @@ mElementVisibility
 Visibility
 :
 :
-APPROXIMATELY_VISIBLE
+ApproximatelyVisible
 )
 {
 LOG

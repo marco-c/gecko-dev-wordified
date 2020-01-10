@@ -6989,7 +6989,7 @@ NS_RGB
 nsDisplayListBuilderMode
 :
 :
-GENERATE_GLYPH
+GenerateGlyph
 )
 ;
 /
@@ -35138,7 +35138,7 @@ ShouldSyncDecodeImages
 PaintBorderFlags
 :
 :
-SYNC_DECODE_IMAGES
+SyncDecodeImages
 :
 PaintBorderFlags
 (
@@ -42752,7 +42752,7 @@ mFlags
 nsDisplayOwnLayerFlags
 :
 :
-eGenerateSubdocInvalidations
+GenerateSubdocInvalidations
 )
 {
 mFrame
@@ -44353,7 +44353,7 @@ mFlags
 nsDisplayOwnLayerFlags
 :
 :
-eGenerateScrollableLayer
+GenerateScrollableLayer
 )
 )
 {
@@ -44629,7 +44629,7 @@ mFlags
 nsDisplayOwnLayerFlags
 :
 :
-eGenerateScrollableLayer
+GenerateScrollableLayer
 )
 &
 &
@@ -44701,7 +44701,7 @@ mFlags
 nsDisplayOwnLayerFlags
 :
 :
-eGenerateScrollableLayer
+GenerateScrollableLayer
 )
 |
 |
@@ -44982,7 +44982,7 @@ mFlags
 nsDisplayOwnLayerFlags
 :
 :
-eGenerateScrollableLayer
+GenerateScrollableLayer
 )
 &
 &
@@ -46111,7 +46111,7 @@ return
 TableType
 :
 :
-TABLE
+Table
 ;
 }
 if
@@ -46128,7 +46128,7 @@ return
 TableType
 :
 :
-TABLE_COL
+TableCol
 ;
 }
 if
@@ -46145,7 +46145,7 @@ return
 TableType
 :
 :
-TABLE_COL_GROUP
+TableColGroup
 ;
 }
 if
@@ -46162,7 +46162,7 @@ return
 TableType
 :
 :
-TABLE_ROW
+TableRow
 ;
 }
 if
@@ -46179,7 +46179,7 @@ return
 TableType
 :
 :
-TABLE_ROW_GROUP
+TableRowGroup
 ;
 }
 if
@@ -46196,7 +46196,7 @@ return
 TableType
 :
 :
-TABLE_CELL
+TableCell
 ;
 }
 MOZ_ASSERT_UNREACHABLE
@@ -46212,7 +46212,7 @@ return
 TableType
 :
 :
-TABLE
+Table
 ;
 }
 nsDisplayTableFixedPosition
@@ -49386,7 +49386,7 @@ mFlags
 nsDisplayOwnLayerFlags
 :
 :
-eGenerateScrollableLayer
+GenerateScrollableLayer
 )
 |
 |

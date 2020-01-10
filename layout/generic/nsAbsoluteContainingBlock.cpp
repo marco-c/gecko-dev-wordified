@@ -733,7 +733,7 @@ aFlags
 AbsPosReflowFlags
 :
 :
-eIsGridContainerCB
+IsGridContainerCB
 )
 ;
 nsIFrame
@@ -792,7 +792,7 @@ aFlags
 AbsPosReflowFlags
 :
 :
-eCBWidthChanged
+CBWidthChanged
 )
 !
 !
@@ -802,7 +802,7 @@ aFlags
 AbsPosReflowFlags
 :
 :
-eCBHeightChanged
+CBHeightChanged
 )
 )
 ;
@@ -3963,7 +3963,7 @@ flags
 AlignJustifyFlags
 :
 :
-eIgnoreAutoMargins
+IgnoreAutoMargins
 ;
 uint16_t
 alignConst
@@ -4065,7 +4065,7 @@ flags
 AlignJustifyFlags
 :
 :
-eOverflowSafe
+OverflowSafe
 ;
 }
 alignConst
@@ -4129,7 +4129,7 @@ flags
 AlignJustifyFlags
 :
 :
-eSameSide
+SameSide
 ;
 }
 /
@@ -5504,7 +5504,7 @@ aFlags
 AbsPosReflowFlags
 :
 :
-eIsGridContainerCB
+IsGridContainerCB
 )
 {
 /
@@ -5842,7 +5842,7 @@ aFlags
 AbsPosReflowFlags
 :
 :
-eConstrainHeight
+ConstrainHeight
 )
 &
 &
