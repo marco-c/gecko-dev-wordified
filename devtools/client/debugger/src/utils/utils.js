@@ -76,7 +76,7 @@ types
 ;
 import
 {
-saveAs
+DevToolsUtils
 }
 from
 "
@@ -348,6 +348,8 @@ content
 value
 )
 ;
+DevToolsUtils
+.
 saveAs
 (
 window
