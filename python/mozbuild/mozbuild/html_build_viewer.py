@@ -313,7 +313,7 @@ p
 =
 '
 /
-index
+build_resources
 .
 html
 '
