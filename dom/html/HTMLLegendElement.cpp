@@ -555,6 +555,11 @@ nsIFocusManager
 :
 :
 FLAG_NOPARENTFRAME
+|
+nsIFocusManager
+:
+:
+FLAG_BYELEMENTFOCUS
 getter_AddRefs
 (
 result

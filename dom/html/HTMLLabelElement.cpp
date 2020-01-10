@@ -411,7 +411,10 @@ fm
 SetFocus
 (
 elem
-0
+nsIFocusManager
+:
+:
+FLAG_BYELEMENTFOCUS
 )
 ;
 }
@@ -1054,6 +1057,11 @@ nsIFocusManager
 :
 :
 FLAG_BYMOVEFOCUS
+|
+nsIFocusManager
+:
+:
+FLAG_BYELEMENTFOCUS
 |
 (
 byMouse

@@ -2423,7 +2423,10 @@ fm
 SetFocus
 (
 this
-0
+nsIFocusManager
+:
+:
+FLAG_BYELEMENTFOCUS
 )
 ;
 }

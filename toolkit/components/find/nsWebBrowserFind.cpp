@@ -4491,7 +4491,10 @@ fm
 SetFocus
 (
 frameElement
-0
+nsIFocusManager
+:
+:
+FLAG_BYELEMENTFOCUS
 )
 ;
 }
