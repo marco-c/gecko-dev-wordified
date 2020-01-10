@@ -4288,6 +4288,10 @@ role
 "
 presentation
 "
+tabIndex
+:
+-
+1
 }
 rows
 )
