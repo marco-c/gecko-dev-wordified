@@ -3425,6 +3425,10 @@ JSTracer
 trc
 )
 {
+checkTraceMagic
+(
+)
+;
 /
 /
 Fallback
@@ -6597,6 +6601,13 @@ monitorFallback
 )
 ;
 }
+stub
+-
+>
+checkTraceMagic
+(
+)
+;
 #
 ifdef
 DEBUG
