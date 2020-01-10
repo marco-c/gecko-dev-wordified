@@ -8481,7 +8481,7 @@ var
 aCreateLazyBrowser
 ;
 var
-aNextTabParentId
+aNextRemoteTabId
 ;
 var
 aFocusUrlBar
@@ -8651,11 +8651,11 @@ params
 .
 createLazyBrowser
 ;
-aNextTabParentId
+aNextRemoteTabId
 =
 params
 .
-nextTabParentId
+nextRemoteTabId
 ;
 aFocusUrlBar
 =
@@ -8814,9 +8814,9 @@ aOpener
 openerBrowser
 :
 aOpenerBrowser
-nextTabParentId
+nextRemoteTabId
 :
-aNextTabParentId
+aNextRemoteTabId
 focusUrlBar
 :
 aFocusUrlBar
@@ -11065,7 +11065,7 @@ createBrowser
 {
 isPreloadBrowser
 name
-nextTabParentId
+nextRemoteTabId
 openerWindow
 recordExecution
 remoteType
@@ -11528,7 +11528,7 @@ preloaded
 }
 if
 (
-nextTabParentId
+nextRemoteTabId
 )
 {
 if
@@ -11544,7 +11544,7 @@ Error
 "
 Cannot
 have
-nextTabParentId
+nextRemoteTabId
 without
 a
 remoteType
@@ -11570,9 +11570,9 @@ b
 setAttribute
 (
 "
-nextTabParentId
+nextRemoteTabId
 "
-nextTabParentId
+nextRemoteTabId
 .
 toString
 (
@@ -13868,7 +13868,7 @@ fromExternal
 index
 lazyTabTitle
 name
-nextTabParentId
+nextRemoteTabId
 noInitialLabel
 opener
 openerBrowser
@@ -15271,7 +15271,7 @@ sameProcessAsFrameLoader
 openerWindow
 :
 opener
-nextTabParentId
+nextRemoteTabId
 name
 recordExecution
 replayExecution
@@ -17666,14 +17666,14 @@ browser
 .
 frameLoader
 .
-tabParent
+remoteTab
 &
 &
 browser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 hasBeforeUnload
 ;
@@ -26653,7 +26653,7 @@ linkedBrowser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 osPid
 +

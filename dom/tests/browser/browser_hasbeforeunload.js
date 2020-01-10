@@ -2545,7 +2545,7 @@ a
 browser
 '
 s
-nsITabParent
+nsIRemoteTab
 hasBeforeUnload
 attribute
 *
@@ -2571,7 +2571,7 @@ browser
 The
 browser
 whose
-nsITabParent
+nsIRemoteTab
 we
 will
 check
@@ -2609,7 +2609,7 @@ browser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 hasBeforeUnload
 expected
@@ -2623,7 +2623,7 @@ expected
 Tests
 that
 the
-nsITabParent
+nsIRemoteTab
 hasBeforeUnload
 attribute
 works
@@ -3882,7 +3882,7 @@ false
 Tests
 that
 the
-nsITabParent
+nsIRemoteTab
 hasBeforeUnload
 attribute
 works

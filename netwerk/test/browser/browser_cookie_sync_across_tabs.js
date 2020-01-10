@@ -175,7 +175,7 @@ browser1
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 osPid
 ;
@@ -186,7 +186,7 @@ browser2
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 osPid
 ;

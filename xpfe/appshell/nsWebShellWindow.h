@@ -146,7 +146,7 @@ h
 #
 include
 "
-nsITabParent
+nsIRemoteTab
 .
 h
 "
@@ -465,7 +465,7 @@ int32_t
 aInitialHeight
 bool
 aIsHiddenWindow
-nsITabParent
+nsIRemoteTab
 *
 aOpeningTab
 mozIDOMWindowProxy

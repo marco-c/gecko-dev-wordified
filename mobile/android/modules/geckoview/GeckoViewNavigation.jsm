@@ -975,7 +975,7 @@ waitAndSetupWindow
 aSessionId
 {
 opener
-nextTabParentId
+nextRemoteTabId
 }
 )
 {
@@ -1039,7 +1039,7 @@ aSessionId
 {
 if
 (
-nextTabParentId
+nextRemoteTabId
 )
 {
 aSubject
@@ -1049,9 +1049,9 @@ browser
 setAttribute
 (
 "
-nextTabParentId
+nextRemoteTabId
 "
-nextTabParentId
+nextRemoteTabId
 .
 toString
 (
@@ -1193,7 +1193,7 @@ aUri
 aOpener
 aWhere
 aFlags
-aNextTabParentId
+aNextRemoteTabId
 )
 {
 debug
@@ -1297,9 +1297,9 @@ OPEN_NO_OPENER
 null
 :
 aOpener
-nextTabParentId
+nextRemoteTabId
 :
-aNextTabParentId
+aNextRemoteTabId
 }
 )
 ;
@@ -1514,7 +1514,7 @@ aUri
 aParams
 aWhere
 aFlags
-aNextTabParentId
+aNextRemoteTabId
 aName
 )
 {
@@ -1541,10 +1541,10 @@ flags
 {
 aFlags
 }
-nextTabParentId
+nextRemoteTabId
 =
 {
-aNextTabParentId
+aNextRemoteTabId
 }
 name
 =
@@ -1610,7 +1610,7 @@ aUri
 null
 aWhere
 aFlags
-aNextTabParentId
+aNextRemoteTabId
 )
 ;
 if
@@ -1643,7 +1643,7 @@ aWhere
 aFlags
 aTriggeringPrincipal
 aCsp
-aNextTabParentId
+aNextRemoteTabId
 )
 {
 debug
@@ -1833,7 +1833,7 @@ aUri
 aParams
 aWhere
 aFlags
-aNextTabParentId
+aNextRemoteTabId
 aName
 )
 {
@@ -1854,7 +1854,7 @@ triggeringPrincipal
 aParams
 .
 csp
-aNextTabParentId
+aNextRemoteTabId
 )
 ;
 return

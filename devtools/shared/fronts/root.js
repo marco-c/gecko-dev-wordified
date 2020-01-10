@@ -1547,7 +1547,7 @@ browser
 .
 frameLoader
 .
-tabParent
+remoteTab
 )
 {
 /
@@ -1564,7 +1564,7 @@ browser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 tabId
 ;

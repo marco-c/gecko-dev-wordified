@@ -308,7 +308,7 @@ class
 nsFrameLoaderOwner
 ;
 class
-nsITabParent
+nsIRemoteTab
 ;
 class
 nsIDocShellTreeItem
@@ -717,9 +717,9 @@ aRv
 ;
 already_AddRefed
 <
-nsITabParent
+nsIRemoteTab
 >
-GetTabParent
+GetRemoteTab
 (
 )
 ;
@@ -1931,7 +1931,7 @@ ReallyStartLoading
 void
 SetRemoteBrowser
 (
-nsITabParent
+nsIRemoteTab
 *
 aTabParent
 )

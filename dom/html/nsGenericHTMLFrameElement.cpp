@@ -782,7 +782,7 @@ nsGenericHTMLFrameElement
 :
 CreateRemoteFrameLoader
 (
-nsITabParent
+nsIRemoteTab
 *
 aTabParent
 )

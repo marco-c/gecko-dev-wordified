@@ -542,7 +542,7 @@ browser1
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 osPid
 ;
@@ -612,7 +612,7 @@ browser2
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 osPid
 privilegedPid
@@ -1013,7 +1013,7 @@ browser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 osPid
 ;
@@ -1109,7 +1109,7 @@ browser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 osPid
 privilegedPid
@@ -1167,7 +1167,7 @@ browser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 osPid
 privilegedPid
@@ -1307,7 +1307,7 @@ browser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 osPid
 privilegedPid
@@ -1475,7 +1475,7 @@ browser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 osPid
 privilegedPid
@@ -1574,7 +1574,7 @@ browser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 osPid
 privilegedPid

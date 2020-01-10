@@ -212,7 +212,7 @@ h
 #
 include
 "
-nsITabParent
+nsIRemoteTab
 .
 h
 "
@@ -1740,7 +1740,7 @@ __func__
 (
 nsCOMPtr
 <
-nsITabParent
+nsIRemoteTab
 >
 tp
 )

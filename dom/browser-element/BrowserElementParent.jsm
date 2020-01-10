@@ -3486,7 +3486,7 @@ this
 .
 _frameLoader
 .
-tabParent
+remoteTab
 /
 /
 was

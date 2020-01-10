@@ -3161,20 +3161,6 @@ attrs
 Atom
 (
 "
-datal10nname
-"
-"
-data
--
-l10n
--
-name
-"
-)
-    
-Atom
-(
-"
 dataType
 "
 "
@@ -7386,10 +7372,10 @@ newline
 Atom
 (
 "
-nextTabParentId
+nextRemoteTabId
 "
 "
-nextTabParentId
+nextRemoteTabId
 "
 )
     

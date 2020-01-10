@@ -596,7 +596,7 @@ int32_t
 aInitialHeight
 bool
 aIsHiddenWindow
-nsITabParent
+nsIRemoteTab
 *
 aOpeningTab
 mozIDOMWindowProxy

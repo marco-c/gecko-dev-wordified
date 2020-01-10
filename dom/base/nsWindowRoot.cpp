@@ -1712,7 +1712,7 @@ do_GetWeakReference
 (
 static_cast
 <
-nsITabParent
+nsIRemoteTab
 *
 >
 (
@@ -1752,7 +1752,7 @@ do_GetWeakReference
 (
 static_cast
 <
-nsITabParent
+nsIRemoteTab
 *
 >
 (
@@ -1837,7 +1837,7 @@ Next
 {
 nsCOMPtr
 <
-nsITabParent
+nsIRemoteTab
 >
 tabParent
 (

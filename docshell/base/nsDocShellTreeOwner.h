@@ -569,9 +569,9 @@ mAuthPrompter
 ;
 nsCOMPtr
 <
-nsITabParent
+nsIRemoteTab
 >
-mPrimaryTabParent
+mPrimaryRemoteTab
 ;
 }
 ;

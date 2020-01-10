@@ -266,7 +266,7 @@ h
 #
 include
 "
-nsITabParent
+nsIRemoteTab
 .
 h
 "
@@ -781,7 +781,7 @@ const
 WebExtensionPolicy
 &
 aAddon
-nsITabParent
+nsIRemoteTab
 *
 aTabParent
 )
@@ -893,7 +893,7 @@ const
 WebExtensionPolicy
 &
 aAddon
-nsITabParent
+nsIRemoteTab
 *
 aTabParent
 )
@@ -1603,7 +1603,7 @@ nsPtrHashKey
 const
 nsAtom
 >
-nsITabParent
+nsIRemoteTab
 >
 mAddonEntries
 ;

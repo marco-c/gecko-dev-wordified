@@ -56,7 +56,7 @@ null
 function
 _createProcessChooser
 (
-tabParent
+remoteTab
 from
 to
 rejectPromise
@@ -70,7 +70,7 @@ processChooser
 new
 ProcessChooser
 (
-tabParent
+remoteTab
 "
 example
 .
@@ -103,7 +103,7 @@ unregister
 function
 ProcessChooser
 (
-tabParent
+remoteTab
 from
 to
 rejectPromise
@@ -113,9 +113,9 @@ false
 {
 this
 .
-tabParent
+remoteTab
 =
-tabParent
+remoteTab
 ;
 this
 .
@@ -444,7 +444,7 @@ resolve
 (
 self
 .
-tabParent
+remoteTab
 )
 ;
 }
@@ -782,7 +782,7 @@ browser2
 .
 frameLoader
 .
-tabParent
+remoteTab
 "
 example
 .
@@ -1488,7 +1488,7 @@ browser2
 .
 frameLoader
 .
-tabParent
+remoteTab
 "
 example
 .

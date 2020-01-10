@@ -4704,7 +4704,7 @@ registerTraceableChannel
 =
 (
 extension
-tabParent
+remoteTab
 )
 =
 >
@@ -4788,7 +4788,7 @@ channel
 registerTraceableChannel
 (
 extension
-tabParent
+remoteTab
 )
 ;
 }
@@ -6304,7 +6304,7 @@ details
 extension
 details
 .
-tabParent
+remoteTab
 )
 ;
 if

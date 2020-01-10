@@ -1102,7 +1102,7 @@ const
 WebExtensionPolicy
 &
 aAddon
-nsITabParent
+nsIRemoteTab
 *
 aTabParent
 )
@@ -4704,7 +4704,7 @@ const
 WebExtensionPolicy
 &
 aAddon
-nsITabParent
+nsIRemoteTab
 *
 aTabParent
 )
@@ -4808,7 +4808,7 @@ const
 {
 nsCOMPtr
 <
-nsITabParent
+nsIRemoteTab
 >
 tabParent
 ;

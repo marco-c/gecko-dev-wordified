@@ -92,7 +92,7 @@ eventName
 fire
 filter
 info
-tabParent
+remoteTab
 =
 null
 )
@@ -286,7 +286,7 @@ registerTraceableChannel
 extension
 .
 policy
-tabParent
+remoteTab
 )
 ;
 }
@@ -645,7 +645,7 @@ fire
 =
 _fire
 ;
-tabParent
+remoteTab
 =
 context
 .
@@ -653,7 +653,7 @@ xulBrowser
 .
 frameLoader
 .
-tabParent
+remoteTab
 ;
 }
 }
@@ -717,7 +717,7 @@ xulBrowser
 .
 frameLoader
 .
-tabParent
+remoteTab
 )
 .
 unregister
@@ -878,7 +878,7 @@ context
 extension
 .
 policy
-tabParent
+remoteTab
 :
 context
 .
@@ -886,7 +886,7 @@ xulBrowser
 .
 frameLoader
 .
-tabParent
+remoteTab
 options
 }
 )

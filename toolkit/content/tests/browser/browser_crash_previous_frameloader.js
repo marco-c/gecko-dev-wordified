@@ -436,7 +436,7 @@ event
 is
 fired
 when
-TabParents
+RemoteTabs
 /
 /
 are
