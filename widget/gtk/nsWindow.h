@@ -2741,6 +2741,10 @@ GdkWindow
 *
 mGdkWindow
 ;
+GtkWindow
+*
+mToplevelParentWindow
+;
 bool
 mWindowShouldStartDragging
 =
