@@ -13972,7 +13972,6 @@ table
 grow
 (
 delta
-cx
 )
 ;
 if
