@@ -1791,6 +1791,11 @@ not
 be
 traced
 .
+template
+<
+typename
+T
+>
 void
 TraceCrossCompartmentEdge
 (
@@ -1802,7 +1807,7 @@ JSObject
 src
 WriteBarriered
 <
-Value
+T
 >
 *
 dst
