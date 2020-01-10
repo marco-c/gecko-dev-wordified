@@ -42690,7 +42690,7 @@ fun
 cx_
 newFunction
 (
-propAtom
+nullptr
 FunctionSyntaxKind
 :
 :
