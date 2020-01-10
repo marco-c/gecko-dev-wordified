@@ -123,17 +123,12 @@ nsWaylandDisplay
 h
 "
 #
-ifdef
-HAVE_LIBDRM
-#
 include
 "
 WaylandDMABufSurface
 .
 h
 "
-#
-endif
 #
 define
 BACK_BUFFER_NUM
@@ -694,9 +689,6 @@ mIsLocked
 ;
 }
 ;
-#
-ifdef
-HAVE_LIBDRM
 class
 WindowBackBufferDMABuf
 :
@@ -806,8 +798,6 @@ mDMAbufSurface
 ;
 }
 ;
-#
-endif
 class
 WindowImageSurface
 {

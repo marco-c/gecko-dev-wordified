@@ -180,9 +180,6 @@ StaticMutex
 h
 "
 #
-ifdef
-HAVE_LIBDRM
-#
 include
 <
 drm
@@ -226,8 +223,6 @@ protocol
 .
 h
 "
-#
-endif
 namespace
 mozilla
 {
@@ -444,9 +439,6 @@ Shutdown
 (
 )
 ;
-#
-ifdef
-HAVE_LIBDRM
 void
 SetDmabuf
 (
@@ -532,20 +524,13 @@ mIsDMABufEnabled
 ;
 }
 ;
-#
-endif
 private
 :
-#
-ifdef
-HAVE_LIBDRM
 bool
 ConfigureGbm
 (
 )
 ;
-#
-endif
 MessageLoop
 *
 mDispatcherThreadLoop
@@ -586,9 +571,6 @@ wl_registry
 *
 mRegistry
 ;
-#
-ifdef
-HAVE_LIBDRM
 zwp_linux_dmabuf_v1
 *
 mDmabuf
@@ -620,8 +602,6 @@ static
 bool
 mIsDMABufPrefLoaded
 ;
-#
-endif
 }
 ;
 void
@@ -645,9 +625,6 @@ aGdkDisplay
 nullptr
 )
 ;
-#
-ifdef
-HAVE_LIBDRM
 typedef
 struct
 gbm_device
@@ -1286,8 +1263,6 @@ sLibLoaded
 ;
 }
 ;
-#
-endif
 }
 /
 /
