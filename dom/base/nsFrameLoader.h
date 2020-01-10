@@ -702,6 +702,13 @@ nsSubDocumentFrame
 aIFrame
 )
 ;
+void
+SendIsUnderHiddenEmbedderElement
+(
+bool
+aIsUnderHiddenEmbedderElement
+)
+;
 /
 /
 WebIDL

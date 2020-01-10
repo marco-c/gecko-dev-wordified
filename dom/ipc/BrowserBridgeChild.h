@@ -327,6 +327,13 @@ Deactivate
 (
 )
 ;
+void
+SetIsUnderHiddenEmbedderElement
+(
+bool
+aIsUnderHiddenEmbedderElement
+)
+;
 static
 BrowserBridgeChild
 *
