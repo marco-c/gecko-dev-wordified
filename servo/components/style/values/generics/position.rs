@@ -296,13 +296,16 @@ property
 [
 derive
 (
+Animate
 Clone
+ComputeSquaredDistance
 Copy
 Debug
 MallocSizeOf
 Parse
 PartialEq
 SpecifiedValueInfo
+ToAnimatedZero
 ToComputedValue
 ToCss
 ToResolvedValue
