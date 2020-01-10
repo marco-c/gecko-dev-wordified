@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_layout_RenderFrame_h
+mozilla_layout_RemoteLayerTreeOwner_h
 #
 define
-mozilla_layout_RenderFrame_h
+mozilla_layout_RemoteLayerTreeOwner_h
 #
 include
 "
@@ -218,7 +218,7 @@ layout
 *
 *
 *
-RenderFrame
+RemoteLayerTreeOwner
 connects
 and
 manages
@@ -229,8 +229,8 @@ remote
 frames
 .
 It
-is
 *
+is
 directly
 owned
 by
@@ -247,7 +247,7 @@ process
 *
 /
 class
-RenderFrame
+RemoteLayerTreeOwner
 final
 {
 typedef
@@ -292,13 +292,13 @@ TextureFactoryIdentifier
 ;
 public
 :
-RenderFrame
+RemoteLayerTreeOwner
 (
 )
 ;
 virtual
 ~
-RenderFrame
+RemoteLayerTreeOwner
 (
 )
 ;
@@ -514,7 +514,7 @@ In
 some
 cases
 this
-RenderFrame
+RemoteLayerTreeOwner
 is
 not
 connected
@@ -549,4 +549,4 @@ mozilla
 endif
 /
 /
-mozilla_layout_RenderFrame_h
+mozilla_layout_RemoteLayerTreeOwner_h

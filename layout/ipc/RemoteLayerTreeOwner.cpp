@@ -211,7 +211,7 @@ h
 #
 include
 "
-RenderFrame
+RemoteLayerTreeOwner
 .
 h
 "
@@ -378,10 +378,10 @@ return
 nullptr
 ;
 }
-RenderFrame
+RemoteLayerTreeOwner
 :
 :
-RenderFrame
+RemoteLayerTreeOwner
 (
 )
 :
@@ -407,17 +407,17 @@ false
 )
 {
 }
-RenderFrame
+RemoteLayerTreeOwner
 :
 :
 ~
-RenderFrame
+RemoteLayerTreeOwner
 (
 )
 {
 }
 bool
-RenderFrame
+RemoteLayerTreeOwner
 :
 :
 Initialize
@@ -545,7 +545,7 @@ true
 ;
 }
 void
-RenderFrame
+RemoteLayerTreeOwner
 :
 :
 Destroy
@@ -586,7 +586,7 @@ nullptr
 ;
 }
 void
-RenderFrame
+RemoteLayerTreeOwner
 :
 :
 EnsureLayersConnected
@@ -655,7 +655,7 @@ mCompositorOptions
 }
 LayerManager
 *
-RenderFrame
+RemoteLayerTreeOwner
 :
 :
 AttachLayerManager
@@ -750,7 +750,7 @@ mLayerManager
 ;
 }
 void
-RenderFrame
+RemoteLayerTreeOwner
 :
 :
 OwnerContentChanged
@@ -766,7 +766,7 @@ AttachLayerManager
 ;
 }
 void
-RenderFrame
+RemoteLayerTreeOwner
 :
 :
 GetTextureFactoryIdentifier
