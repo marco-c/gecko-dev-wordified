@@ -255,7 +255,7 @@ if
 mMinISize
 !
 =
-NS_INTRINSIC_WIDTH_UNKNOWN
+NS_INTRINSIC_ISIZE_UNKNOWN
 )
 {
 return
@@ -1088,7 +1088,7 @@ MarkIntrinsicISizesDirty
 {
 mMinISize
 =
-NS_INTRINSIC_WIDTH_UNKNOWN
+NS_INTRINSIC_ISIZE_UNKNOWN
 ;
 mLastCalcISize
 =
