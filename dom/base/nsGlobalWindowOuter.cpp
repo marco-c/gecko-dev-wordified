@@ -44211,9 +44211,10 @@ nullptr
 aDocument
 -
 >
-DocumentStatesChanged
+UpdateDocumentStates
 (
 NS_DOCUMENT_STATE_WINDOW_INACTIVE
+true
 )
 ;
 return
