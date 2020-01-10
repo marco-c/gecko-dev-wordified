@@ -2384,7 +2384,7 @@ fieldset
 {
 score
 :
-FAIL
+WARNING
 issue
 :
 FORM_FIELDSET_NO_NAME_FROM_LEGEND
@@ -2409,7 +2409,7 @@ fieldset
 {
 score
 :
-FAIL
+WARNING
 issue
 :
 FORM_FIELDSET_NO_NAME_FROM_LEGEND
