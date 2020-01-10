@@ -28727,8 +28727,11 @@ lastClonedElement
 =
 CreateNodeWithTransaction
 (
+MOZ_KnownLive
+(
 *
 tagName
+)
 atStartOfNewBlock
 )
 ;
