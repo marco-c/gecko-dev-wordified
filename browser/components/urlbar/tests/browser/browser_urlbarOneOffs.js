@@ -1546,7 +1546,7 @@ add_task
 (
 async
 function
-collapsedOneOffs
+hiddenOneOffs
 (
 )
 {
@@ -1566,7 +1566,7 @@ oneoffs
 are
 /
 /
-collapsed
+hidden
 and
 that
 moving
@@ -1693,9 +1693,9 @@ ok
 (
 oneOffSearchButtons
 .
-buttons
+container
 .
-collapsed
+hidden
 "
 The
 one
@@ -1704,7 +1704,7 @@ off
 buttons
 should
 be
-collapsed
+hidden
 "
 )
 ;
