@@ -7401,11 +7401,6 @@ subviewbutton
 -
 iconic
 "
-"
-badged
--
-button
-"
 )
 ;
 button

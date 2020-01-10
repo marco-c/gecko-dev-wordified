@@ -3251,14 +3251,12 @@ this
 action
 will
 get
-the
+a
 *
 "
 badged
--
-button
 "
-class
+attribute
 .
 *
 param
