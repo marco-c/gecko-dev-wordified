@@ -156,7 +156,7 @@ ThunkArgs
 >
 Promise
 <
-Result
+mixed
 >
 }
 ;
