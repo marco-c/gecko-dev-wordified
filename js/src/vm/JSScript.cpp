@@ -11363,7 +11363,7 @@ ssc
 ss
 -
 >
-compressedSourceIs
+isCompressed
 <
 Unit
 >
