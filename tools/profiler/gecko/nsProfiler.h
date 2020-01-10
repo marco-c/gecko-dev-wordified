@@ -173,6 +173,15 @@ h
 #
 include
 "
+mozilla
+/
+Vector
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h
@@ -443,7 +452,10 @@ to
 profile
 gathering
 .
-nsTArray
+mozilla
+:
+:
+Vector
 <
 ExitProfile
 >

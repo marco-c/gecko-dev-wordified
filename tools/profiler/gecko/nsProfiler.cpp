@@ -3563,7 +3563,7 @@ add
 them
 immediately
 .
-nsTArray
+Vector
 <
 nsCString
 >

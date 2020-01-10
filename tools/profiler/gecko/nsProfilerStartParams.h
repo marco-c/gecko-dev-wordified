@@ -190,11 +190,11 @@ double
 aInterval
 uint32_t
 aFeatures
-const
 nsTArray
 <
 nsCString
 >
+&
 &
 aFilters
 )
