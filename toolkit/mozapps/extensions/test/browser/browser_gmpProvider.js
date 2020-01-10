@@ -317,8 +317,6 @@ id
 html
 -
 view
--
-browser
 "
 "
 Should
