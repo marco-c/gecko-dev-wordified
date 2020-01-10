@@ -6677,9 +6677,10 @@ InterceptedHttpChannel
 :
 GetOriginalInputStream
 (
-nsIInputStreamReceiver
+nsIInputStream
 *
-aReceiver
+*
+aStream
 )
 {
 if
@@ -6693,7 +6694,7 @@ mSynthesizedCacheInfo
 >
 GetOriginalInputStream
 (
-aReceiver
+aStream
 )
 ;
 }
