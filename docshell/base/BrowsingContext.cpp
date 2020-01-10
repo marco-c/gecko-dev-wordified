@@ -524,7 +524,7 @@ BrowsingContext
 BrowsingContext
 :
 :
-TopLevelBrowsingContext
+Top
 (
 )
 {
@@ -2937,7 +2937,7 @@ BrowsingContext
 *
 top
 =
-TopLevelBrowsingContext
+Top
 (
 )
 ;
@@ -3402,7 +3402,7 @@ BrowsingContext
 >
 topLevelBC
 =
-TopLevelBrowsingContext
+Top
 (
 )
 ;
@@ -3488,7 +3488,7 @@ BrowsingContext
 >
 topLevelBC
 =
-TopLevelBrowsingContext
+Top
 (
 )
 ;
@@ -3536,7 +3536,7 @@ BrowsingContext
 >
 topLevelBC
 =
-TopLevelBrowsingContext
+Top
 (
 )
 ;
@@ -4164,7 +4164,7 @@ signature
 return
 WindowProxyHolder
 (
-TopLevelBrowsingContext
+Top
 (
 )
 )

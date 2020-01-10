@@ -1077,6 +1077,12 @@ return
 mParent
 ;
 }
+BrowsingContext
+*
+Top
+(
+)
+;
 already_AddRefed
 <
 BrowsingContext
@@ -2834,12 +2840,6 @@ mWindowProxy
 nullptr
 ;
 }
-BrowsingContext
-*
-TopLevelBrowsingContext
-(
-)
-;
 friend
 class
 Location
