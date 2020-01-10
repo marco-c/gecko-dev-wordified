@@ -117,6 +117,11 @@ methods
 -
 private
 class
+-
+fields
+-
+public
+class
 ]
 flags
 :

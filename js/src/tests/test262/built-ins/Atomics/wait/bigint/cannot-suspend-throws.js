@@ -29,17 +29,6 @@ this
 hasOwnProperty
 (
 '
-BigInt
-'
-)
-|
-|
-!
-this
-.
-hasOwnProperty
-(
-'
 SharedArrayBuffer
 '
 )
@@ -76,7 +65,6 @@ block
 main
 thread
 Atomics
-BigInt
 SharedArrayBuffer
 is
 not

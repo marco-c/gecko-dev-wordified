@@ -132,7 +132,7 @@ values
 call
 (
 new
-WeakMap
+WeakSet
 (
 )
 )
@@ -164,7 +164,7 @@ values
 call
 (
 new
-WeakMap
+WeakSet
 (
 )
 )

@@ -100,7 +100,7 @@ guoyu
 canonical
 :
 "
-cmn
+zh
 "
 }
 {

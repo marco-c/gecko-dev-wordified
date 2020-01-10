@@ -550,7 +550,6 @@ loc
 .
 caseFirst
 "
-true
 "
 )
 ;
@@ -1049,7 +1048,6 @@ loc
 .
 caseFirst
 "
-true
 "
 )
 ;

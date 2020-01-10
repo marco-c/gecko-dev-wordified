@@ -96,13 +96,6 @@ weirdCases
 =
 [
 "
-x
--
-u
--
-foo
-"
-"
 en
 -
 x

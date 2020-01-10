@@ -148,6 +148,11 @@ class
 fields
 -
 private
+class
+-
+fields
+-
+public
 ]
 flags
 :

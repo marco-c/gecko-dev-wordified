@@ -24,17 +24,6 @@ this
 hasOwnProperty
 (
 '
-BigInt
-'
-)
-|
-|
-!
-this
-.
-hasOwnProperty
-(
-'
 SharedArrayBuffer
 '
 )
@@ -66,7 +55,6 @@ simulator
 -
 -
 Atomics
-BigInt
 SharedArrayBuffer
 is
 not
