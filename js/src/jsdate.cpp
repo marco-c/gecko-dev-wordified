@@ -6506,16 +6506,6 @@ year
 ;
 }
 else
-if
-(
-!
-PEEK
-(
-'
-T
-'
-)
-)
 {
 NEED_NDIGITS
 (
@@ -7053,6 +7043,9 @@ DONE_UNLESS
 #
 undef
 NEED_NDIGITS
+#
+undef
+NEED_NDIGITS_OR_LESS
 }
 template
 <

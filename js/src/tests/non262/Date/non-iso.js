@@ -665,6 +665,12 @@ getTime
 )
 )
 ;
+/
+/
+Date
+(
+NaN
+)
 assertEq
 (
 new
