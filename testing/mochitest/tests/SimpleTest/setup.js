@@ -997,9 +997,7 @@ fileLevel
 "
 spl
 .
-getLogCallback
-(
-)
+logCallback
 )
 ;
 }
