@@ -1118,16 +1118,25 @@ job
 name
 '
 ]
-project
-=
+            
+*
+*
+{
+'
+release
+-
+type
+'
+:
 config
 .
 params
 [
 '
-project
+release_type
 '
 ]
+}
         
 )
         
