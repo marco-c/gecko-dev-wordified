@@ -959,6 +959,15 @@ use
 crate
 :
 :
+render_task_graph
+:
+:
+RenderTaskGraph
+;
+use
+crate
+:
+:
 render_task
 :
 :
@@ -967,7 +976,6 @@ RenderTargetKind
 RenderTask
 RenderTaskData
 RenderTaskKind
-RenderTaskGraph
 }
 ;
 use
@@ -1031,7 +1039,7 @@ use
 crate
 :
 :
-tiling
+render_task_graph
 :
 :
 {
@@ -1044,7 +1052,7 @@ use
 crate
 :
 :
-tiling
+render_task_graph
 :
 :
 {
@@ -1058,7 +1066,7 @@ use
 crate
 :
 :
-tiling
+render_task_graph
 :
 :
 {

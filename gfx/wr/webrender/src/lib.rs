@@ -758,6 +758,9 @@ mod
 render_backend
 ;
 mod
+render_task_graph
+;
+mod
 render_task
 ;
 mod
@@ -792,9 +795,6 @@ texture_allocator
 ;
 mod
 texture_cache
-;
-mod
-tiling
 ;
 mod
 util

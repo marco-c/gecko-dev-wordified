@@ -433,7 +433,7 @@ use
 crate
 :
 :
-render_task
+render_task_graph
 :
 :
 RenderTaskGraphCounters
@@ -663,7 +663,7 @@ use
 crate
 :
 :
-tiling
+render_task_graph
 :
 :
 Frame
@@ -10583,7 +10583,7 @@ use
 crate
 :
 :
-render_task
+render_task_graph
 :
 :
 dump_render_tasks_as_svg
