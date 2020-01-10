@@ -73,7 +73,7 @@ password
 "
 password
 "
-hostname
+origin
 :
 "
 https
@@ -84,7 +84,7 @@ c9
 .
 io
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -135,7 +135,7 @@ password
 "
 password2
 "
-hostname
+origin
 :
 "
 https
@@ -148,7 +148,7 @@ google
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -198,7 +198,7 @@ password
 "
 password3
 "
-hostname
+origin
 :
 "
 https
@@ -211,7 +211,7 @@ facebook
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -263,7 +263,7 @@ P
 w
 rd
 "
-hostname
+origin
 :
 "
 http
@@ -274,7 +274,7 @@ httpbin
 .
 org
 "
-formSubmitURL
+formActionOrigin
 :
 null
 httpRealm
@@ -322,7 +322,7 @@ password
 "
 bpassword
 "
-hostname
+origin
 :
 "
 http
@@ -333,7 +333,7 @@ httpbin
 .
 org
 "
-formSubmitURL
+formActionOrigin
 :
 null
 httpRealm
@@ -379,7 +379,7 @@ password
 "
 password6
 "
-hostname
+origin
 :
 "
 https
@@ -392,7 +392,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -569,10 +569,10 @@ equal
 (
 passwordManagerLogin
 .
-hostname
+origin
 chromeLogin
 .
-hostname
+origin
 "
 The
 two
@@ -586,7 +586,7 @@ id
 have
 the
 same
-hostname
+origin
 "
 )
 ;
@@ -596,10 +596,10 @@ equal
 (
 passwordManagerLogin
 .
-formSubmitURL
+formActionOrigin
 chromeLogin
 .
-formSubmitURL
+formActionOrigin
 "
 The
 two
@@ -613,7 +613,7 @@ id
 have
 the
 same
-formSubmitURL
+formActionOrigin
 "
 )
 ;
@@ -819,10 +819,10 @@ init
 (
 login
 .
-hostname
+origin
 login
 .
-formSubmitURL
+formActionOrigin
 null
 login
 .

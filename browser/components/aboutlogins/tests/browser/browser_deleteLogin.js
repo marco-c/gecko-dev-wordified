@@ -48,7 +48,7 @@ password
 "
 deraj
 "
-hostname
+origin
 :
 "
 https
@@ -78,7 +78,7 @@ password
 "
 xoferif
 "
-hostname
+origin
 :
 "
 https

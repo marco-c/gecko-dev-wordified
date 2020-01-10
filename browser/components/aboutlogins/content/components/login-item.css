@@ -86,7 +86,7 @@ isNewLogin
 ]
 )
 .
-hostname
+origin
 -
 saved
 -
@@ -145,7 +145,7 @@ input
 name
 =
 "
-hostname
+origin
 "
 ]
 :
@@ -490,7 +490,7 @@ bottom
 ;
 }
 .
-hostname
+origin
 -
 label
 :

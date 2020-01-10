@@ -103,7 +103,7 @@ password
 "
 deraj
 "
-hostname
+origin
 :
 "
 https

@@ -338,7 +338,7 @@ login
 return
 login
 .
-hostname
+origin
 .
 toLocaleLowerCase
 (

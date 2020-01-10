@@ -418,11 +418,6 @@ required
 symbol
 "
 "
-hostname
--
-label
-"
-"
 modal
 -
 input
@@ -457,6 +452,11 @@ open
 site
 -
 button
+"
+"
+origin
+-
+label
 "
 "
 password
@@ -691,7 +691,7 @@ of
 [
 "
 .
-hostname
+origin
 -
 label
 "
@@ -1025,7 +1025,7 @@ querySelector
 (
 "
 .
-hostname
+origin
 -
 saved
 -
@@ -1039,7 +1039,7 @@ this
 .
 _login
 .
-hostname
+origin
 |
 |
 "
@@ -1057,7 +1057,7 @@ input
 name
 =
 '
-hostname
+origin
 '
 ]
 "
@@ -1069,7 +1069,7 @@ this
 .
 _login
 .
-hostname
+origin
 |
 |
 "
@@ -1885,7 +1885,7 @@ input
 name
 =
 '
-hostname
+origin
 '
 ]
 "
@@ -2019,7 +2019,7 @@ value
 trim
 (
 )
-hostname
+origin
 :
 this
 .
@@ -2042,7 +2042,7 @@ input
 name
 =
 '
-hostname
+origin
 '
 ]
 "
@@ -2062,7 +2062,7 @@ querySelector
 (
 "
 .
-hostname
+origin
 -
 saved
 -

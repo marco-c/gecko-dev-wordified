@@ -188,7 +188,7 @@ querySelector
 (
 "
 .
-hostname
+origin
 "
 )
 .
@@ -198,7 +198,7 @@ this
 .
 _login
 .
-hostname
+origin
 ;
 this
 .
