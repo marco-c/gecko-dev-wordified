@@ -1585,6 +1585,10 @@ from
 manifest
 import
 manifest
+#
+type
+:
+ignore
     
 if
 manifest_path

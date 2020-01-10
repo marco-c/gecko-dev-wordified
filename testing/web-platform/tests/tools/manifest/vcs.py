@@ -508,6 +508,10 @@ from
 gitignore
 import
 gitignore
+#
+type
+:
+ignore
         
 self
 .
@@ -788,6 +792,13 @@ object
 file_name
 =
 None
+#
+type
+:
+Optional
+[
+str
+]
     
 def
 __init__

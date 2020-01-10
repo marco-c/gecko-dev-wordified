@@ -11,6 +11,8 @@ import
 argparse
 import
 os
+from
+.
 import
 manifest
 from
