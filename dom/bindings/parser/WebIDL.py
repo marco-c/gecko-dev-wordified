@@ -49632,7 +49632,7 @@ p
 )
     
 def
-p_SingleTypeNonAnyType
+p_SingleTypeDistinguishableType
 (
 self
 p
@@ -49645,7 +49645,7 @@ p
             
 SingleType
 :
-NonAnyType
+DistinguishableType
         
 "
 "
@@ -49694,6 +49694,86 @@ Types
 .
 any
 ]
+    
+#
+Note
+:
+Promise
+<
+void
+>
+is
+allowed
+so
+we
+want
+to
+parametrize
+on
+ReturnType
+    
+#
+not
+Type
+.
+Promise
+types
+can
+'
+t
+be
+null
+hence
+no
+"
+Null
+"
+in
+there
+.
+    
+def
+p_SingleTypePromiseType
+(
+self
+p
+)
+:
+        
+"
+"
+"
+            
+SingleType
+:
+PROMISE
+LT
+ReturnType
+GT
+        
+"
+"
+"
+        
+p
+[
+0
+]
+=
+IDLPromiseType
+(
+self
+.
+getLocation
+(
+p
+1
+)
+p
+[
+3
+]
+)
     
 def
 p_UnionType
@@ -49761,7 +49841,7 @@ types
 )
     
 def
-p_UnionMemberTypeNonAnyType
+p_UnionMemberTypeDistinguishableType
 (
 self
 p
@@ -49775,7 +49855,7 @@ p
 UnionMemberType
 :
 ExtendedAttributeList
-NonAnyType
+DistinguishableType
         
 "
 "
@@ -49914,7 +49994,7 @@ p
 ]
     
 def
-p_NonAnyType
+p_DistinguishableType
 (
 self
 p
@@ -49925,23 +50005,23 @@ p
 "
 "
             
-NonAnyType
+DistinguishableType
 :
 PrimitiveType
 Null
-                       
+                                
 |
 ARRAYBUFFER
 Null
-                       
+                                
 |
 SHAREDARRAYBUFFER
 Null
-                       
+                                
 |
 READABLESTREAM
 Null
-                       
+                                
 |
 OBJECT
 Null
@@ -50072,7 +50152,7 @@ p
 )
     
 def
-p_NonAnyTypeStringType
+p_DistinguishableTypeStringType
 (
 self
 p
@@ -50083,7 +50163,7 @@ p
 "
 "
             
-NonAnyType
+DistinguishableType
 :
 StringType
 Null
@@ -50112,7 +50192,7 @@ p
 )
     
 def
-p_NonAnyTypeSequenceType
+p_DistinguishableTypeSequenceType
 (
 self
 p
@@ -50123,7 +50203,7 @@ p
 "
 "
             
-NonAnyType
+DistinguishableType
 :
 SEQUENCE
 LT
@@ -50172,45 +50252,8 @@ p
 ]
 )
     
-#
-Note
-:
-Promise
-<
-void
->
-is
-allowed
-so
-we
-want
-to
-parametrize
-on
-ReturnType
-    
-#
-not
-Type
-.
-Promise
-types
-can
-'
-t
-be
-null
-hence
-no
-"
-Null
-"
-in
-there
-.
-    
 def
-p_NonAnyTypePromiseType
+p_DistinguishableTypeRecordType
 (
 self
 p
@@ -50221,50 +50264,7 @@ p
 "
 "
             
-NonAnyType
-:
-PROMISE
-LT
-ReturnType
-GT
-        
-"
-"
-"
-        
-p
-[
-0
-]
-=
-IDLPromiseType
-(
-self
-.
-getLocation
-(
-p
-1
-)
-p
-[
-3
-]
-)
-    
-def
-p_NonAnyTypeRecordType
-(
-self
-p
-)
-:
-        
-"
-"
-"
-            
-NonAnyType
+DistinguishableType
 :
 RECORD
 LT
@@ -50324,7 +50324,7 @@ p
 )
     
 def
-p_NonAnyTypeScopedName
+p_DistinguishableTypeScopedName
 (
 self
 p
@@ -50335,7 +50335,7 @@ p
 "
 "
             
-NonAnyType
+DistinguishableType
 :
 ScopedName
 Null
@@ -50581,7 +50581,7 @@ p
 )
     
 def
-p_NonAnyTypeDate
+p_DistinguishableTypeDate
 (
 self
 p
@@ -50592,7 +50592,7 @@ p
 "
 "
             
-NonAnyType
+DistinguishableType
 :
 DATE
 Null
