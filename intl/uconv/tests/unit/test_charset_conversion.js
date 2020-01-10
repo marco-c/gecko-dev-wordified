@@ -673,9 +673,6 @@ bos
 writeByteArray
 (
 data
-data
-.
-length
 )
 ;
 }
