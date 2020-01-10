@@ -351,7 +351,10 @@ aRv
 struct
 Sided
 {
+Maybe
+<
 nsCString
+>
 mModuleURI
 ;
 }
