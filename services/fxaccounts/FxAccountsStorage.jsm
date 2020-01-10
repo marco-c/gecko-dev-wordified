@@ -4492,7 +4492,7 @@ FXA_PWDMGR_HOST
 null
 /
 /
-aFormSubmitURL
+aFormActionOrigin
 FXA_PWDMGR_REALM
 /
 /
