@@ -1597,6 +1597,7 @@ getCurrentRecording
 return
 ;
 }
+await
 this
 .
 render
