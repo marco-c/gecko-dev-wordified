@@ -229,7 +229,7 @@ GetOrCreateTask
 GetTask
 HasTask
 PutTask
-PutManyTask
+WriteManyTask
 }
 ;
 use
@@ -1076,10 +1076,10 @@ thread
 xpcom_method
 !
 (
-put_many
+write_many
 =
 >
-PutMany
+WriteMany
 (
 callback
 :
@@ -1101,7 +1101,7 @@ nsIKeyValuePair
 )
 ;
 fn
-put_many
+write_many
 (
 &
 self
@@ -1236,15 +1236,6 @@ variant_to_owned
 val
 )
 ?
-.
-ok_or
-(
-KeyValueError
-:
-:
-UnexpectedValue
-)
-?
 ;
 entries
 .
@@ -1265,7 +1256,7 @@ Box
 :
 new
 (
-PutManyTask
+WriteManyTask
 :
 :
 new
@@ -1320,7 +1311,7 @@ new
 KVDatabase
 :
 :
-PutMany
+WriteMany
 "
 task
 )
