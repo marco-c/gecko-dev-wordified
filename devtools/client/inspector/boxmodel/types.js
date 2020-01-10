@@ -118,7 +118,7 @@ geometryEditorEnabled
 :
 PropTypes
 .
-boolean
+bool
 /
 /
 The
