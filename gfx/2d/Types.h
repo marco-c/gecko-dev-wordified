@@ -3067,7 +3067,7 @@ checked
 in
 /
 /
-nsStyleCoord
+nsFrame
 .
 cpp
 which
