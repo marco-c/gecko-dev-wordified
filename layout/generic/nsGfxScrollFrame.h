@@ -2793,6 +2793,12 @@ aDestination
 )
 const
 ;
+bool
+NeedsScrollSnap
+(
+)
+const
+;
 public
 :
 bool
