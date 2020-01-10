@@ -1376,6 +1376,7 @@ exists
 :
         
 print
+(
 "
 The
 file
@@ -1389,6 +1390,7 @@ doesn
 t
 exists
 "
+)
         
 return
 False
@@ -1447,7 +1449,9 @@ namespace
 namespace
     
 print
+(
 cmdLine
+)
     
 write_to_file
 (
@@ -1728,7 +1732,9 @@ closure_entry_point
 namespace
     
 print
+(
 cmdLine
+)
     
 filename
 =
@@ -1807,6 +1813,7 @@ result
 :
         
 print
+(
 target
 +
 '
@@ -1818,6 +1825,7 @@ result
 group
 (
 0
+)
 )
         
 errors
@@ -1971,12 +1979,14 @@ dep
 :
             
 print
+(
 fixjsstyle
 +
 '
 '
 +
 dep
+)
             
 subprocess
 .
@@ -1992,6 +2002,7 @@ dep
 )
             
 print
+(
 reformat
 +
 '
@@ -2000,6 +2011,7 @@ f
 '
 +
 dep
+)
             
 subprocess
 .
@@ -2053,9 +2065,11 @@ total_warnings
 :
         
 print
+(
 "
 Passed
 "
+)
     
 elif
 len
@@ -2138,12 +2152,14 @@ v
 )
         
 print
+(
 "
 \
 nBuild
 Summary
 :
 "
+)
         
 #
 Print
@@ -2160,6 +2176,7 @@ passed
 :
             
 print
+(
 "
 {
 0
@@ -2178,6 +2195,7 @@ target
 "
 :
 "
+)
 )
         
 #
@@ -2220,6 +2238,7 @@ target
 ]
             
 print
+(
 "
 {
 0
@@ -2255,8 +2274,10 @@ target
 errors
 warnings
 )
+)
         
 print
+(
 "
 Compilation
 failed
@@ -2280,6 +2301,7 @@ format
 (
 total_errors
 total_warnings
+)
 )
 def
 main
@@ -2488,6 +2510,7 @@ list
 :
         
 print
+(
 "
 List
 of
@@ -2495,6 +2518,7 @@ available
 targets
 :
 "
+)
         
 for
 target
@@ -2507,6 +2531,7 @@ keys
 :
             
 print
+(
 "
 \
 t
@@ -2517,6 +2542,7 @@ t
 format
 (
 target
+)
 )
     
 else
