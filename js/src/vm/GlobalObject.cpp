@@ -366,6 +366,17 @@ h
 #
 include
 "
+gc
+/
+FreeOp
+-
+inl
+.
+h
+"
+#
+include
+"
 vm
 /
 JSObject
