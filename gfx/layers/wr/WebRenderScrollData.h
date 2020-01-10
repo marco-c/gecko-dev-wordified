@@ -248,6 +248,15 @@ include
 "
 mozilla
 /
+HashTable
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -1537,10 +1546,7 @@ the
 mScrollMetadatas
 array
 .
-std
-:
-:
-map
+HashMap
 <
 ScrollableLayerGuid
 :
