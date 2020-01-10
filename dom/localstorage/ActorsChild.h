@@ -706,11 +706,11 @@ nsString
 &
 aKey
 const
-nsString
+LSValue
 &
 aOldValue
 const
-nsString
+LSValue
 &
 aNewValue
 )

@@ -120,6 +120,13 @@ mozilla_dom_localstorage_LSSnapshot_h
 #
 define
 mozilla_dom_localstorage_LSSnapshot_h
+#
+include
+"
+LSValue
+.
+h
+"
 namespace
 mozilla
 {
