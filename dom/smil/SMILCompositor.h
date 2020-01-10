@@ -346,7 +346,6 @@ SMILCompositor
 &
 toMove
 )
-noexcept
 :
 PLDHashEntryHdr
 (
