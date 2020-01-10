@@ -2161,9 +2161,13 @@ ins
 .
 load
 (
-native_pointer_type
-(
-)
+ir
+:
+:
+types
+:
+:
+I32
 ir
 :
 :
