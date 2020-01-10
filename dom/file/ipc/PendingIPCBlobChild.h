@@ -116,16 +116,16 @@ MPL
 /
 #
 ifndef
-mozilla_dom_ipc_PendingIPCBlobChild_h
+mozilla_dom_PendingIPCBlobChild_h
 #
 define
-mozilla_dom_ipc_PendingIPCBlobChild_h
+mozilla_dom_PendingIPCBlobChild_h
 #
 include
 "
 mozilla
 /
-ipc
+dom
 /
 PPendingIPCBlob
 .
@@ -136,7 +136,7 @@ include
 "
 mozilla
 /
-ipc
+dom
 /
 PPendingIPCBlobChild
 .
@@ -156,12 +156,6 @@ PendingIPCBlobChild
 final
 :
 public
-mozilla
-:
-:
-ipc
-:
-:
 PPendingIPCBlobChild
 {
 public
@@ -263,4 +257,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_ipc_PendingIPCBlobChild_h
+mozilla_dom_PendingIPCBlobChild_h
