@@ -2788,6 +2788,12 @@ hideShowContentMessagesCheckbox
 webConsoleUI
 .
 isBrowserConsole
+|
+|
+!
+prefs
+.
+filterContentMessages
 }
 )
 ;
