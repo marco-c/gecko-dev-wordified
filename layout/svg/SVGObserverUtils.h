@@ -2029,7 +2029,7 @@ process
 the
 list
 of
-nsStyleFilter
+StyleFilter
 *
 objects
 separately
@@ -2066,11 +2066,11 @@ aContext
 Element
 *
 aCanvasElement
-nsTArray
+Span
 <
-nsStyleFilter
+const
+StyleFilter
 >
-&
 aFilters
 )
 ;
@@ -2870,7 +2870,7 @@ nsIFrame
 *
 aFrame
 const
-nsStyleFilter
+StyleFilter
 &
 aFilter
 )
