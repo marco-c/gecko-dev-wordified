@@ -823,7 +823,6 @@ position
 GridAutoFlow
 GridTemplateAreas
 Position
-PositionOrAuto
 ZIndex
 }
 ;
