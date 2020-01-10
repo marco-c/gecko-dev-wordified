@@ -173,8 +173,10 @@ login
 filter
 {
 flex
+-
+grow
 :
-auto
+1
 ;
 align
 -
