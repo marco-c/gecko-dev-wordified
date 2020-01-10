@@ -323,7 +323,6 @@ as_ref
 len
 (
 )
-&
 config
 )
 {
@@ -388,7 +387,6 @@ len
 )
 )
 ;
-return
 String
 :
 :
@@ -404,7 +402,6 @@ Invalid
 UTF8
 "
 )
-;
 }
 /
 /
@@ -1001,7 +998,6 @@ input_bytes
 len
 (
 )
-&
 config
 )
 .
@@ -1035,7 +1031,6 @@ encode_with_padding
 (
 &
 input_bytes
-&
 config
 encoded_size
 &
@@ -1145,7 +1140,6 @@ u8
 ]
 config
 :
-&
 Config
 encoded_size
 :
@@ -2743,7 +2737,6 @@ bytes_len
 usize
 config
 :
-&
 Config
 )
 -
@@ -3011,7 +3004,7 @@ distributions
 :
 {
 Distribution
-Range
+Uniform
 }
 ;
 use
@@ -3022,8 +3015,8 @@ rand
 :
 :
 {
-Rng
 FromEntropy
+Rng
 }
 ;
 use
@@ -3287,7 +3280,6 @@ usize
 :
 :
 MAX
-&
 STANDARD
 )
 )
@@ -3360,7 +3352,7 @@ new
 let
 prefix_len_range
 =
-Range
+Uniform
 :
 :
 new
@@ -3372,7 +3364,7 @@ new
 let
 input_len_range
 =
-Range
+Uniform
 :
 :
 new
@@ -3576,7 +3568,6 @@ assert_encode_sanity
 (
 &
 encoded_data_no_prefix
-&
 config
 input_len
 )
@@ -3590,7 +3581,6 @@ prefix_len
 .
 .
 ]
-&
 config
 input_len
 )
@@ -3697,7 +3687,7 @@ new
 let
 input_len_range
 =
-Range
+Uniform
 :
 :
 new
@@ -3843,7 +3833,6 @@ encoded_size
 encoded_size
 (
 input_len
-&
 config
 )
 .
@@ -3889,7 +3878,6 @@ encoded_size
 unwrap
 (
 )
-&
 config
 input_len
 )
@@ -3987,7 +3975,7 @@ new
 let
 input_len_range
 =
-Range
+Uniform
 :
 :
 new
@@ -4087,7 +4075,6 @@ encoded_size
 encoded_size
 (
 input_len
-&
 config
 )
 .
@@ -4141,7 +4128,6 @@ encoded_size
 unwrap
 (
 )
-&
 config
 input_len
 )
@@ -4209,7 +4195,7 @@ new
 let
 input_len_range
 =
-Range
+Uniform
 :
 :
 new
@@ -4312,7 +4298,6 @@ encoded_size
 encoded_size
 (
 input_len
-&
 config
 )
 .
@@ -4469,7 +4454,7 @@ new
 let
 input_len_range
 =
-Range
+Uniform
 :
 :
 new
@@ -4572,7 +4557,6 @@ encoded_size
 encoded_size
 (
 input_len
-&
 config
 )
 .
@@ -4615,7 +4599,6 @@ encode_with_padding
 (
 &
 input
-&
 config
 encoded_size
 &
@@ -4890,7 +4873,6 @@ encoded_len
 encoded_size
 (
 input_len
-&
 config
 )
 .
@@ -4966,7 +4948,6 @@ assert_encode_sanity
 (
 &
 encoded
-&
 config
 input_len
 )

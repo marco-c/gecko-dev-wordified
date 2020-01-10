@@ -19,8 +19,6 @@ const
 STANDARD_ENCODE
 :
 &
-'
-static
 [
 u8
 ;
@@ -1068,8 +1066,6 @@ const
 STANDARD_DECODE
 :
 &
-'
-static
 [
 u8
 ;
@@ -3781,8 +3777,6 @@ const
 URL_SAFE_ENCODE
 :
 &
-'
-static
 [
 u8
 ;
@@ -4830,8 +4824,6 @@ const
 URL_SAFE_DECODE
 :
 &
-'
-static
 [
 u8
 ;
@@ -7543,8 +7535,6 @@ const
 CRYPT_ENCODE
 :
 &
-'
-static
 [
 u8
 ;
@@ -8592,8 +8582,6 @@ const
 CRYPT_DECODE
 :
 &
-'
-static
 [
 u8
 ;
