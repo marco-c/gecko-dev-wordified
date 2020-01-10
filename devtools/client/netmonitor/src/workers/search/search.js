@@ -450,7 +450,7 @@ requestPostData
 panel
 :
 "
-headers
+params
 "
 }
 )
@@ -461,6 +461,7 @@ return
 getResults
 (
 results
+resource
 )
 ;
 }
@@ -487,6 +488,7 @@ function
 getResults
 (
 results
+resource
 )
 {
 const
@@ -526,6 +528,12 @@ result
 key
 =
 index
+;
+result
+.
+parentResource
+=
+resource
 ;
 }
 )
@@ -1070,9 +1078,6 @@ line
 i
 +
 1
-+
-"
-"
 ;
 const
 match
@@ -1093,6 +1098,9 @@ url
 "
 ?
 line
++
+"
+"
 :
 "
 Url

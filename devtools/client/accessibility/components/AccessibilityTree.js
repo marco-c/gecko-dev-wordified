@@ -1320,6 +1320,9 @@ true
 }
 )
 ;
+return
+true
+;
 }
 onContextMenuTree
 :
