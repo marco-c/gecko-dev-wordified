@@ -4428,7 +4428,7 @@ Constants
 *
 Operands
 :
-double
+DoubleValue
 literal
 *
 Stack

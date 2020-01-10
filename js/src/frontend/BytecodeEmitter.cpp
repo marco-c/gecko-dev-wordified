@@ -12585,10 +12585,13 @@ jsbytecode
 JSOP_DOUBLE
 )
 ;
-SET_DOUBLE
+SET_INLINE_VALUE
 (
 code
+DoubleValue
+(
 d
+)
 )
 ;
 updateDepth

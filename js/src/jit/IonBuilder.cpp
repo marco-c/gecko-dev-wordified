@@ -13951,12 +13951,9 @@ JSOP_DOUBLE
 :
 pushConstant
 (
-DoubleValue
-(
-GET_DOUBLE
+GET_INLINE_VALUE
 (
 pc
-)
 )
 )
 ;
