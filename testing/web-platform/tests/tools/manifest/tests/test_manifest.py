@@ -19,8 +19,37 @@ from
 .
 import
 manifest
+sourcefile
 item
 utils
+MYPY
+=
+False
+if
+MYPY
+:
+    
+#
+MYPY
+is
+set
+to
+True
+when
+run
+under
+Mypy
+.
+    
+from
+typing
+import
+Any
+    
+from
+typing
+import
+Type
 def
 SourceFileWithTest
 (
@@ -32,6 +61,28 @@ cls
 kwargs
 )
 :
+    
+#
+type
+:
+(
+str
+str
+Type
+[
+item
+.
+ManifestItem
+]
+*
+*
+Any
+)
+-
+>
+sourcefile
+.
+SourceFile
     
 s
 =
@@ -65,13 +116,19 @@ cls
 foobar
 "
 path
-*
-*
-kwargs
 )
     
 else
 :
+        
+assert
+issubclass
+(
+cls
+item
+.
+URLManifestItem
+)
         
 test
 =
@@ -118,6 +175,10 @@ test
     
 return
 s
+#
+type
+:
+ignore
 def
 SourceFileWithTests
 (
@@ -127,6 +188,28 @@ cls
 variants
 )
 :
+    
+#
+type
+:
+(
+str
+str
+Type
+[
+item
+.
+URLManifestItem
+]
+*
+*
+Any
+)
+-
+>
+sourcefile
+.
+SourceFile
     
 s
 =
@@ -160,10 +243,10 @@ item
 0
 ]
 *
+*
 item
 [
 1
-:
 ]
 )
 for
@@ -192,6 +275,10 @@ tests
     
 return
 s
+#
+type
+:
+ignore
 hs
 .
 composite
@@ -912,7 +999,7 @@ b
 '
 :
 [
-[
+(
 '
 a
 /
@@ -920,7 +1007,7 @@ b
 '
 {
 }
-]
+)
 ]
             
 }
@@ -1065,7 +1152,7 @@ b
 '
 :
 [
-[
+(
 '
 a
 /
@@ -1073,7 +1160,7 @@ b
 '
 {
 }
-]
+)
 ]
             
 }
@@ -2549,6 +2636,8 @@ test2
 .
 html
 "
+{
+}
 )
                                                                            
 (
@@ -2559,6 +2648,8 @@ test2
 .
 html
 "
+{
+}
 )
 ]
 )
@@ -3445,7 +3536,7 @@ test1
 '
 :
 [
-[
+(
 '
 test1
 '
@@ -3458,7 +3549,7 @@ timeout
 long
 "
 }
-]
+)
 ]
 }
 }

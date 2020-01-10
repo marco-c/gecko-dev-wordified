@@ -18,6 +18,15 @@ setup
 )
 :
     
+#
+type
+:
+(
+)
+-
+>
+None
+    
 logger
 .
 setLevel
@@ -68,6 +77,17 @@ get_logger
 (
 )
 :
+    
+#
+type
+:
+(
+)
+-
+>
+logging
+.
+Logger
     
 return
 logger
