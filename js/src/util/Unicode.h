@@ -1402,7 +1402,7 @@ inline
 bool
 IsSpaceOrBOM2
 (
-char16_t
+char32_t
 ch
 )
 {
@@ -1453,6 +1453,18 @@ BYTE_ORDER_MARK2
 {
 return
 true
+;
+}
+if
+(
+ch
+>
+=
+NonBMPMin
+)
+{
+return
+false
 ;
 }
 return
