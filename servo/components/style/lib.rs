@@ -633,10 +633,6 @@ extern
 crate
 smallvec
 ;
-extern
-crate
-static_prefs
-;
 #
 [
 cfg
