@@ -2179,6 +2179,10 @@ const
 nscolor
 &
 aBackgroundColor
+const
+uint32_t
+&
+aFlags
 DrawSnapshotResolver
 &
 &
@@ -2236,6 +2240,13 @@ docShell
 aRect
 aScale
 aBackgroundColor
+(
+gfx
+:
+:
+CrossProcessPaintFlags
+)
+aFlags
 )
 )
 ;

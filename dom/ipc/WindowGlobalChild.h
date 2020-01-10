@@ -764,6 +764,10 @@ const
 nscolor
 &
 aBackgroundColor
+const
+uint32_t
+&
+aFlags
 DrawSnapshotResolver
 &
 &
