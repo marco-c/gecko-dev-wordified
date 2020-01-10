@@ -36744,6 +36744,9 @@ values
 :
 [
 "
+auto
+"
+"
 inherit
 "
 "

@@ -770,10 +770,7 @@ self
 list
 :
 :
-{
-QuotePair
 Quotes
-}
 ;
 pub
 use
