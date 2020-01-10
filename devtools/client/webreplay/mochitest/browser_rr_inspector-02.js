@@ -220,7 +220,7 @@ focus
 )
 ;
 await
-toolbox
+inspector
 .
 inspectorFront
 .

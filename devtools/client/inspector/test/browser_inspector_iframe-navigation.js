@@ -138,6 +138,7 @@ function
 {
 const
 {
+inspector
 toolbox
 testActor
 }
@@ -147,6 +148,13 @@ openInspectorForURL
 (
 TEST_URI
 )
+;
+const
+{
+inspectorFront
+}
+=
+inspector
 ;
 info
 (
@@ -318,8 +326,6 @@ picker
 )
 ;
 await
-toolbox
-.
 inspectorFront
 .
 nodePicker
