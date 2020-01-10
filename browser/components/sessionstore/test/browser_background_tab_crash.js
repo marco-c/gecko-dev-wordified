@@ -1643,11 +1643,12 @@ a
 fresh
 preloaded
 browser
-NewTabPagePreloading
+await
+BrowserTestUtils
 .
 maybeCreatePreloadedBrowser
 (
-window
+gBrowser
 )
 ;
 await
