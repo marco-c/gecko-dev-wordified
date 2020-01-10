@@ -724,7 +724,7 @@ process
 info
 (
 "
-DISBALED
+DISABLED
 -
 -
 FILE
