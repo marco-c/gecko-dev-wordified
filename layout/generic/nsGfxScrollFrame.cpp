@@ -15704,7 +15704,7 @@ aScrollPosition
 nsRect
 scrollRange
 =
-GetVisualScrollRange
+GetLayoutScrollRange
 (
 )
 ;
@@ -16096,7 +16096,7 @@ GetScrollPosition
 )
 mDestination
 currentVelocity
-GetVisualScrollRange
+GetLayoutScrollRange
 (
 )
 now
@@ -16143,7 +16143,7 @@ mAsyncSmoothMSDScroll
 >
 SetRange
 (
-GetVisualScrollRange
+GetLayoutScrollRange
 (
 )
 )
@@ -18899,7 +18899,7 @@ pt
 ClampAndAlignWithLayerPixels
 (
 aPt
-GetVisualScrollRange
+GetLayoutScrollRange
 (
 )
 aRange
@@ -22386,7 +22386,7 @@ range
 nsRect
 scrollRange
 =
-GetVisualScrollRange
+GetLayoutScrollRange
 (
 )
 ;
@@ -30255,7 +30255,7 @@ aMode
 nsRect
 scrollRange
 =
-GetVisualScrollRange
+GetLayoutScrollRange
 (
 )
 ;
@@ -45935,7 +45935,7 @@ GetScrollSnapInfo
 (
 )
 aUnit
-GetVisualScrollRange
+GetLayoutScrollRange
 (
 )
 aStartPos
@@ -46153,7 +46153,7 @@ GetScrollPosition
 nsRect
 rangeRect
 =
-GetVisualScrollRange
+GetLayoutScrollRange
 (
 )
 ;
