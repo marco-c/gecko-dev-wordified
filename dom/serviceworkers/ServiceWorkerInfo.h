@@ -269,6 +269,10 @@ mCacheName
 OriginAttributes
 mOriginAttributes
 ;
+const
+nsString
+mWorkerPrivateId
+;
 /
 /
 This

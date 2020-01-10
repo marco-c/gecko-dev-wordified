@@ -584,6 +584,11 @@ AssertCurrentThreadOwns
 }
 }
 ;
+nsString
+ComputeWorkerPrivateId
+(
+)
+;
 class
 WorkerPrivate
 :
@@ -660,6 +665,12 @@ aLoadInfo
 ErrorResult
 &
 aRv
+nsString
+aId
+=
+EmptyString
+(
+)
 )
 ;
 enum
@@ -4107,6 +4118,7 @@ StartCancelingTimer
 (
 )
 ;
+const
 nsAString
 &
 Id
@@ -4139,6 +4151,10 @@ aServiceWorkerScope
 WorkerLoadInfo
 &
 aLoadInfo
+nsString
+&
+&
+aId
 )
 ;
 ~
@@ -5753,7 +5769,7 @@ PerformanceCounter
 mPerformanceCounter
 ;
 nsString
-mID
+mId
 ;
 }
 ;
