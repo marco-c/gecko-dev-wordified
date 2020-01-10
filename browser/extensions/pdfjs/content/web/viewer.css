@@ -1244,6 +1244,10 @@ strikeoutAnnotation
 .
 annotationLayer
 .
+freeTextAnnotation
+.
+annotationLayer
+.
 lineAnnotation
 svg
 line
@@ -1271,6 +1275,10 @@ annotationLayer
 polygonAnnotation
 svg
 polygon
+.
+annotationLayer
+.
+caretAnnotation
 .
 annotationLayer
 .
