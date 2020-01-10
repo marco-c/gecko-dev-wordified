@@ -5992,8 +5992,9 @@ name
 }
 }
 ;
-var
-go
+window
+.
+onload
 =
 async
 function
