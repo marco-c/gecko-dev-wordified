@@ -101,7 +101,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_UNSET
+SAMESITE_NONE
 )
 ;
 return

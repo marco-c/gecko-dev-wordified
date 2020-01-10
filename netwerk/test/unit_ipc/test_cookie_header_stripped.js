@@ -608,7 +608,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_UNSET
+SAMESITE_NONE
 )
 ;
 do_send_remote_message
