@@ -958,6 +958,7 @@ test
 url
 )
 )
+{
 /
 /
 eslint
@@ -977,6 +978,7 @@ markPageAsTyped
 url
 )
 ;
+}
 }
 /
 *
@@ -1932,7 +1934,8 @@ j
 +
 len
 )
-;
+{
+}
 ranges
 .
 push

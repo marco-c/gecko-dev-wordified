@@ -1859,9 +1859,7 @@ let
 handleCommand
 =
 async
-(
 event
-)
 =
 >
 {

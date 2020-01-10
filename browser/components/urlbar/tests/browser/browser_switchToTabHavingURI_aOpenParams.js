@@ -1170,12 +1170,14 @@ length
 >
 1
 )
+{
 gBrowser
 .
 removeCurrentTab
 (
 )
 ;
+}
 }
 function
 switchTab
@@ -1216,7 +1218,6 @@ one
 existed
 +
 {
-(
 aOpenParams
 .
 ignoreFragment
@@ -1228,7 +1229,6 @@ ignoring
 "
 including
 "
-)
 }
 fragment
 portion

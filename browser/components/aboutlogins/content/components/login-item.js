@@ -1276,11 +1276,13 @@ COPY_BUTTON_RESET_TIMEOUT
 )
 =
 >
+(
 copyButton
 .
 disabled
 =
 false
+)
 )
 ;
 recordTelemetryEvent

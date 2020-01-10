@@ -1537,6 +1537,7 @@ parseXULToFragment
 let
 progress
 =
+(
 this
 .
 _downloadProgress
@@ -1549,6 +1550,7 @@ HTML_NS
 "
 progress
 "
+)
 )
 ;
 progress
@@ -1828,6 +1830,7 @@ nsIMozIconURI
 interface
 .
 return
+(
 "
 moz
 -
@@ -1868,6 +1871,7 @@ normal
 :
 "
 "
+)
 )
 ;
 }

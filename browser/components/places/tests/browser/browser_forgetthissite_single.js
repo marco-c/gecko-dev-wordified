@@ -489,12 +489,10 @@ placesContext_deleteHost
 let
 hideForgetThisSite
 =
-(
 selectionCount
 !
 =
 1
-)
 ;
 is
 (

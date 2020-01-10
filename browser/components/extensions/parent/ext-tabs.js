@@ -2417,7 +2417,7 @@ Cu
 .
 reportError
 (
-"
+'
 Url
 filtering
 in
@@ -2425,20 +2425,16 @@ tabs
 .
 onUpdated
 requires
-\
 "
 tabs
-\
 "
 or
-\
 "
 activeTab
-\
 "
 permission
 .
-"
+'
 )
 ;
 return
@@ -7306,9 +7302,7 @@ messageManager
 let
 onEntered
 =
-(
 message
-)
 =
 >
 {
@@ -7652,7 +7646,7 @@ init
 picker
 .
 file
-0x2A
+0x2a
 0o666
 0
 )
@@ -8287,7 +8281,6 @@ status
 {
 if
 (
-(
 flags
 &
 Ci
@@ -8295,10 +8288,8 @@ Ci
 nsIWebProgressListener
 .
 STATE_STOP
-)
 &
 &
-(
 flags
 &
 Ci
@@ -8306,7 +8297,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_IS_DOCUMENT
-)
 )
 {
 resolve
@@ -9245,9 +9235,7 @@ tabs
 .
 map
 (
-(
 tabIndex
-)
 =
 >
 {

@@ -73,7 +73,6 @@ bookmarks
 .
 push
 (
-(
 await
 PlacesUtils
 .
@@ -112,7 +111,6 @@ title
 test
 "
 }
-)
 )
 )
 ;
@@ -179,7 +177,6 @@ bookmarks
 .
 push
 (
-(
 await
 PlacesUtils
 .
@@ -215,7 +212,6 @@ keyword
 abc
 "
 }
-)
 )
 )
 ;

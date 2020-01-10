@@ -435,6 +435,7 @@ waitForCondition
 >
 {
 return
+(
 navbar
 .
 getAttribute
@@ -461,6 +462,7 @@ search
 -
 container
 "
+)
 )
 ;
 }

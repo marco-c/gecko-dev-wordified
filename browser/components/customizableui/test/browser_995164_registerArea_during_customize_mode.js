@@ -1136,7 +1136,6 @@ correct
 ;
 wasInformedCorrectlyOfAreaDisappearing
 =
-(
 aReason
 =
 =
@@ -1144,7 +1143,6 @@ aReason
 CustomizableUI
 .
 REASON_WINDOW_CLOSED
-)
 ;
 }
 }
@@ -1423,7 +1421,6 @@ correct
 ;
 wasInformedCorrectlyOfAreaDisappearing
 =
-(
 aReason
 =
 =
@@ -1431,7 +1428,6 @@ aReason
 CustomizableUI
 .
 REASON_AREA_UNREGISTERED
-)
 ;
 }
 }

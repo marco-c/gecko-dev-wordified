@@ -121,9 +121,7 @@ customize
 .
 then
 (
-(
 customizeTarget
-)
 =
 >
 {
@@ -230,9 +228,7 @@ appMenu
 .
 then
 (
-(
 target
-)
 =
 >
 {
@@ -477,9 +473,7 @@ customize
 .
 then
 (
-(
 customizeTarget
-)
 =
 >
 {
@@ -589,9 +583,7 @@ appMenu
 .
 then
 (
-(
 target
-)
 =
 >
 {

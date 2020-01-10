@@ -138,9 +138,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -181,9 +179,7 @@ DUMMY_URL
 .
 then
 (
-(
 tab
-)
 =
 >
 {
@@ -229,9 +225,7 @@ keywordForBM
 .
 then
 (
-(
 values
-)
 =
 >
 {

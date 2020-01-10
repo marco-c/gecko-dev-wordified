@@ -1648,6 +1648,7 @@ catch
 )
 ;
 return
+(
 this
 .
 _blockersPromise
@@ -1836,6 +1837,7 @@ return
 cancel
 ;
 }
+)
 )
 ;
 }
@@ -2445,12 +2447,15 @@ this
 .
 __screenManager
 )
+{
 return
 this
 .
 __screenManager
 ;
+}
 return
+(
 this
 .
 __screenManager
@@ -2475,6 +2480,7 @@ getService
 Ci
 .
 nsIScreenManager
+)
 )
 ;
 }
@@ -2533,6 +2539,7 @@ window
 let
 viewContainer
 =
+(
 this
 .
 _viewContainer
@@ -2546,6 +2553,7 @@ createXULElement
 "
 box
 "
+)
 )
 ;
 viewContainer
@@ -2564,6 +2572,7 @@ viewcontainer
 let
 viewStack
 =
+(
 this
 .
 _viewStack
@@ -2577,6 +2586,7 @@ createXULElement
 "
 box
 "
+)
 )
 ;
 viewStack
@@ -2632,6 +2642,7 @@ offscreen
 let
 offscreenViewStack
 =
+(
 this
 .
 _offscreenViewStack
@@ -2645,6 +2656,7 @@ createXULElement
 "
 box
 "
+)
 )
 ;
 offscreenViewStack
@@ -2842,8 +2854,10 @@ this
 .
 connected
 )
+{
 return
 ;
+}
 this
 .
 _panel
@@ -3401,6 +3415,7 @@ true
 let
 cancelCallback
 =
+(
 this
 .
 _openPopupCancelCallback
@@ -3504,6 +3519,7 @@ popuphidden
 ;
 }
 }
+)
 ;
 /
 /
@@ -3599,6 +3615,7 @@ the
 meantime
 .
 return
+(
 this
 .
 _openPopupPromise
@@ -4071,6 +4088,7 @@ ex
 ;
 }
 }
+)
 )
 ;
 }
@@ -6602,6 +6620,7 @@ previousViewNode
 let
 details
 =
+(
 this
 .
 _transitionDetails
@@ -6613,6 +6632,7 @@ TRANSITION_PHASES
 .
 START
 }
+)
 ;
 /
 /
@@ -7278,6 +7298,7 @@ if
 (
 reverse
 )
+{
 this
 .
 _viewStack
@@ -7296,6 +7317,7 @@ deltaX
 px
 "
 ;
+}
 /
 /
 Set
@@ -7686,6 +7708,7 @@ addEventListener
 "
 transitionend
 "
+(
 details
 .
 listener
@@ -7760,8 +7783,10 @@ propertyName
 transform
 "
 )
+{
 return
 ;
+}
 this
 .
 _viewContainer
@@ -7787,6 +7812,7 @@ resolve
 ;
 }
 )
+)
 ;
 this
 .
@@ -7797,6 +7823,7 @@ addEventListener
 "
 transitioncancel
 "
+(
 details
 .
 cancelListener
@@ -7816,8 +7843,10 @@ this
 .
 _viewStack
 )
+{
 return
 ;
+}
 this
 .
 _viewContainer
@@ -7842,6 +7871,7 @@ resolve
 )
 ;
 }
+)
 )
 ;
 }
@@ -8131,6 +8161,7 @@ if
 (
 listener
 )
+{
 this
 .
 _viewContainer
@@ -8143,10 +8174,12 @@ transitionend
 listener
 )
 ;
+}
 if
 (
 cancelListener
 )
+{
 this
 .
 _viewContainer
@@ -8159,14 +8192,17 @@ transitioncancel
 cancelListener
 )
 ;
+}
 if
 (
 resolve
 )
+{
 resolve
 (
 )
 ;
+}
 }
 }
 _calculateMaxHeight
@@ -10954,6 +10990,7 @@ element
 localName
 ;
 return
+(
 tag
 =
 =
@@ -10984,6 +11021,8 @@ tag
 "
 textarea
 "
+|
+|
 /
 /
 Allow
@@ -10993,8 +11032,6 @@ reach
 embedded
 documents
 .
-|
-|
 tag
 =
 =
@@ -11009,6 +11046,7 @@ tag
 "
 iframe
 "
+)
 ;
 }
 /
@@ -12657,14 +12695,12 @@ stop
 let
 isDown
 =
-(
 keyCode
 =
 =
 "
 ArrowDown
 "
-)
 |
 |
 (
@@ -12970,8 +13006,10 @@ if
 !
 button
 )
+{
 break
 ;
+}
 stop
 (
 )
@@ -13111,9 +13149,7 @@ MouseEvent
 mousedown
 "
 {
-"
 bubbles
-"
 :
 true
 }
@@ -13141,9 +13177,7 @@ MouseEvent
 click
 "
 {
-"
 bubbles
-"
 :
 true
 }

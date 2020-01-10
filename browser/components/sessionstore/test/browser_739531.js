@@ -172,8 +172,10 @@ loadCount
 <
 2
 )
+{
 return
 ;
+}
 removeFunc
 (
 )
@@ -288,6 +290,7 @@ if
 (
 tab2
 )
+{
 gBrowser
 .
 removeTab
@@ -295,6 +298,7 @@ removeTab
 tab2
 )
 ;
+}
 gBrowser
 .
 removeTab

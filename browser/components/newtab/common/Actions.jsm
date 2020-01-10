@@ -2266,17 +2266,15 @@ throw
 new
 Error
 (
-"
+'
 WebExtEvent
 actions
 should
 include
 a
 property
-\
 "
 source
-\
 "
 the
 id
@@ -2289,7 +2287,7 @@ receive
 the
 event
 .
-"
+'
 )
 ;
 }
@@ -2386,6 +2384,7 @@ false
 ;
 }
 return
+(
 action
 .
 meta
@@ -2406,6 +2405,7 @@ from
 =
 =
 CONTENT_MESSAGE_TYPE
+)
 ;
 }
 isBroadcastToContent
@@ -2517,6 +2517,7 @@ false
 ;
 }
 return
+(
 action
 .
 meta
@@ -2537,6 +2538,7 @@ from
 =
 =
 MAIN_MESSAGE_TYPE
+)
 ;
 }
 isFromMain
@@ -2557,6 +2559,7 @@ false
 ;
 }
 return
+(
 action
 .
 meta
@@ -2577,6 +2580,7 @@ to
 =
 =
 CONTENT_MESSAGE_TYPE
+)
 ;
 }
 getPortIdOfSender

@@ -69,7 +69,6 @@ requestLongerTimeout
 const
 isOSX
 =
-(
 Services
 .
 appinfo
@@ -81,7 +80,6 @@ OS
 "
 Darwin
 "
-)
 ;
 const
 overflowButton

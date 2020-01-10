@@ -109,6 +109,7 @@ rootElt
 in
 aOptions
 )
+{
 this
 .
 _rootElt
@@ -117,6 +118,7 @@ aOptions
 .
 rootElt
 ;
+}
 if
 (
 "
@@ -125,6 +127,7 @@ viewElt
 in
 aOptions
 )
+{
 this
 .
 _viewElt
@@ -133,6 +136,7 @@ aOptions
 .
 viewElt
 ;
+}
 this
 .
 options
@@ -397,9 +401,11 @@ _result
 =
 val
 )
+{
 return
 val
 ;
+}
 if
 (
 this
@@ -438,6 +444,7 @@ localName
 menupopup
 "
 )
+{
 this
 .
 _rootElt
@@ -446,6 +453,7 @@ _built
 =
 false
 ;
+}
 this
 .
 _result
@@ -558,11 +566,13 @@ if
 !
 val
 )
+{
 val
 =
 {
 }
 ;
+}
 if
 (
 !
@@ -574,6 +584,7 @@ in
 val
 )
 )
+{
 val
 .
 extraClasses
@@ -581,6 +592,7 @@ extraClasses
 {
 }
 ;
+}
 this
 .
 _options
@@ -771,15 +783,18 @@ if
 !
 anchor
 )
+{
 return
 null
 ;
+}
 if
 (
 anchor
 .
 _placesNode
 )
+{
 return
 this
 .
@@ -794,6 +809,7 @@ anchor
 .
 _placesNode
 ;
+}
 anchor
 =
 anchor
@@ -810,14 +826,12 @@ anchor
 ?
 null
 :
-(
 anchor
 .
 _placesNode
 |
 |
 null
-)
 ;
 }
 return
@@ -930,10 +944,12 @@ popupNode
 _placesNode
 )
 )
+{
 return
 [
 ]
 ;
+}
 return
 [
 this
@@ -1021,9 +1037,11 @@ nsINavHistoryQueryOptions
 .
 QUERY_TYPE_HISTORY
 )
+{
 return
 null
 ;
+}
 /
 /
 By
@@ -1236,9 +1254,11 @@ disallowInsertion
 container
 )
 )
+{
 return
 null
 ;
+}
 return
 new
 PlacesInsertionPoint
@@ -1543,6 +1563,7 @@ aPopup
 .
 _delayedRemovals
 )
+{
 aPopup
 .
 _delayedRemovals
@@ -1550,6 +1571,7 @@ _delayedRemovals
 [
 ]
 ;
+}
 aPopup
 .
 _delayedRemovals
@@ -1599,8 +1621,10 @@ resultNode
 .
 containerOpen
 )
+{
 return
 ;
+}
 this
 .
 _cleanPopup
@@ -1756,12 +1780,14 @@ popupNode
 =
 aChild
 )
+{
 document
 .
 popupNode
 =
 null
 ;
+}
 aChild
 .
 remove
@@ -1863,6 +1889,7 @@ entry
 string
 "
 )
+{
 aPopup
 .
 _emptyMenuitem
@@ -1880,6 +1907,7 @@ extraClasses
 entry
 )
 ;
+}
 }
 if
 (
@@ -1929,6 +1957,7 @@ _endMarker
 .
 nextElementSibling
 )
+{
 aPopup
 .
 insertBefore
@@ -1941,6 +1970,7 @@ aPopup
 _endMarker
 )
 ;
+}
 }
 else
 {
@@ -2170,6 +2200,7 @@ nodeIsTagQuery
 aPlacesNode
 )
 )
+{
 element
 .
 setAttribute
@@ -2182,6 +2213,7 @@ true
 "
 )
 ;
+}
 else
 if
 (
@@ -2192,6 +2224,7 @@ nodeIsDay
 aPlacesNode
 )
 )
+{
 element
 .
 setAttribute
@@ -2204,6 +2237,7 @@ true
 "
 )
 ;
+}
 else
 if
 (
@@ -2214,6 +2248,7 @@ nodeIsHost
 aPlacesNode
 )
 )
+{
 element
 .
 setAttribute
@@ -2226,6 +2261,7 @@ true
 "
 )
 ;
+}
 }
 let
 popup
@@ -2374,6 +2410,7 @@ if
 (
 icon
 )
+{
 element
 .
 setAttribute
@@ -2384,6 +2421,7 @@ image
 icon
 )
 ;
+}
 }
 element
 .
@@ -2403,6 +2441,7 @@ has
 aPlacesNode
 )
 )
+{
 this
 .
 _domNodes
@@ -2413,6 +2452,7 @@ aPlacesNode
 element
 )
 ;
+}
 return
 element
 ;
@@ -2477,6 +2517,7 @@ entry
 string
 "
 )
+{
 element
 .
 classList
@@ -2492,6 +2533,7 @@ extraClasses
 entry
 )
 ;
+}
 }
 aInsertionNode
 .
@@ -2551,16 +2593,19 @@ localName
 menupopup
 "
 )
+{
 elt
 =
 elt
 .
 parentNode
 ;
+}
 if
 (
 aValue
 )
+{
 elt
 .
 setAttribute
@@ -2573,7 +2618,9 @@ true
 "
 )
 ;
+}
 else
+{
 elt
 .
 removeAttribute
@@ -2583,6 +2630,7 @@ cutting
 "
 )
 ;
+}
 }
 nodeURIChanged
 :
@@ -2624,12 +2672,14 @@ localName
 menupopup
 "
 )
+{
 elt
 =
 elt
 .
 parentNode
 ;
+}
 elt
 .
 setAttribute
@@ -2702,8 +2752,10 @@ this
 .
 _rootElt
 )
+{
 return
 ;
+}
 /
 /
 Here
@@ -2824,8 +2876,10 @@ this
 .
 _rootElt
 )
+{
 return
 ;
+}
 /
 /
 Here
@@ -2847,12 +2901,14 @@ localName
 menupopup
 "
 )
+{
 elt
 =
 elt
 .
 parentNode
 ;
+}
 if
 (
 !
@@ -2986,12 +3042,14 @@ localName
 menupopup
 "
 )
+{
 elt
 =
 elt
 .
 parentNode
 ;
+}
 if
 (
 parentElt
@@ -3060,6 +3118,7 @@ parentElt
 .
 _endMarker
 )
+{
 this
 .
 _setEmptyPopupStatus
@@ -3068,6 +3127,7 @@ parentElt
 true
 )
 ;
+}
 }
 }
 nodeHistoryDetailsChanged
@@ -3132,8 +3192,10 @@ parentElt
 .
 _built
 )
+{
 return
 ;
+}
 let
 index
 =
@@ -3286,12 +3348,14 @@ localName
 menupopup
 "
 )
+{
 elt
 =
 elt
 .
 parentNode
 ;
+}
 /
 /
 If
@@ -3329,8 +3393,10 @@ this
 .
 _rootElt
 )
+{
 return
 ;
+}
 let
 parentElt
 =
@@ -3546,6 +3612,7 @@ _isPopupOpen
 elt
 )
 )
+{
 this
 .
 _rebuildPopup
@@ -3553,6 +3620,7 @@ _rebuildPopup
 elt
 )
 ;
+}
 }
 uninit
 :
@@ -3722,12 +3790,15 @@ _isRTL
 in
 this
 )
+{
 return
 this
 .
 _isRTL
 ;
+}
 return
+(
 this
 .
 _isRTL
@@ -3749,6 +3820,7 @@ direction
 "
 rtl
 "
+)
 ;
 }
 get
@@ -3820,8 +3892,10 @@ this
 .
 _rootElt
 )
+{
 return
 ;
+}
 let
 hasMultipleURIs
 =
@@ -3919,8 +3993,10 @@ numURINodes
 =
 2
 )
+{
 break
 ;
+}
 }
 currentChild
 =
@@ -4130,6 +4206,7 @@ entry
 string
 "
 )
+{
 aPopup
 .
 _endOptOpenAllInTabs
@@ -4147,6 +4224,7 @@ extraClasses
 entry
 )
 ;
+}
 if
 (
 typeof
@@ -4163,6 +4241,7 @@ footer
 string
 "
 )
+{
 aPopup
 .
 _endOptOpenAllInTabs
@@ -4180,6 +4259,7 @@ extraClasses
 footer
 )
 ;
+}
 aPopup
 .
 _endOptOpenAllInTabs
@@ -4285,8 +4365,10 @@ aPopup
 .
 _startMarker
 )
+{
 return
 ;
+}
 /
 /
 _startMarker
@@ -4689,6 +4771,7 @@ _placesNode
 .
 containerOpen
 )
+{
 popup
 .
 _placesNode
@@ -4697,6 +4780,7 @@ containerOpen
 =
 true
 ;
+}
 if
 (
 !
@@ -4704,6 +4788,7 @@ popup
 .
 _built
 )
+{
 this
 .
 _rebuildPopup
@@ -4711,6 +4796,7 @@ _rebuildPopup
 popup
 )
 ;
+}
 this
 .
 _mayAddCommandsItems
@@ -4922,9 +5008,11 @@ if
 !
 element
 )
+{
 return
 null
 ;
+}
 delete
 thisView
 [
@@ -4932,12 +5020,14 @@ name
 ]
 ;
 return
+(
 thisView
 [
 name
 ]
 =
 element
+)
 ;
 }
 )
@@ -5383,12 +5473,14 @@ _overFolder
 .
 elt
 )
+{
 this
 .
 _clearOverFolder
 (
 )
 ;
+}
 this
 .
 _openedMenuButton
@@ -5543,12 +5635,14 @@ this
 .
 _isAlive
 )
+{
 return
 resolve
 (
 cc
 )
 ;
+}
 /
 /
 Look
@@ -5604,20 +5698,24 @@ localName
 toolbarseparator
 "
 )
+{
 break
 ;
+}
 }
 if
 (
 !
 elt
 )
+{
 return
 resolve
 (
 cc
 )
 ;
+}
 return
 window
 .
@@ -5726,8 +5824,10 @@ this
 .
 _isAlive
 )
+{
 return
 ;
+}
 let
 fragment
 =
@@ -6029,6 +6129,7 @@ nodeIsTagQuery
 aChild
 )
 )
+{
 button
 .
 setAttribute
@@ -6041,6 +6142,7 @@ true
 "
 )
 ;
+}
 }
 let
 popup
@@ -6155,6 +6257,7 @@ has
 aChild
 )
 )
+{
 this
 .
 _domNodes
@@ -6165,10 +6268,12 @@ aChild
 button
 )
 ;
+}
 if
 (
 aBefore
 )
+{
 aInsertionNode
 .
 insertBefore
@@ -6177,7 +6282,9 @@ button
 aBefore
 )
 ;
+}
 else
+{
 aInsertionNode
 .
 appendChild
@@ -6185,6 +6292,7 @@ appendChild
 button
 )
 ;
+}
 return
 button
 ;
@@ -6298,8 +6406,10 @@ this
 .
 _chevronPopup
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -6309,6 +6419,7 @@ _chevron
 .
 _placesView
 )
+{
 this
 .
 _chevron
@@ -6324,6 +6435,7 @@ this
 place
 )
 ;
+}
 this
 .
 _updateChevronPopupNodesVisibility
@@ -6433,8 +6545,10 @@ _isOverflowStateEventRelevant
 aEvent
 )
 )
+{
 return
 ;
+}
 /
 /
 Avoid
@@ -6473,8 +6587,10 @@ _isOverflowStateEventRelevant
 aEvent
 )
 )
+{
 return
 ;
+}
 /
 /
 Avoid
@@ -6876,6 +6992,7 @@ this
 .
 _updateNodesVisibilityTimer
 )
+{
 this
 .
 _updateNodesVisibilityTimer
@@ -6884,6 +7001,7 @@ cancel
 (
 )
 ;
+}
 this
 .
 _updateNodesVisibilityTimer
@@ -7060,7 +7178,6 @@ this
 .
 isRTL
 ?
-(
 childRect
 .
 left
@@ -7068,9 +7185,7 @@ left
 scrollRect
 .
 left
-)
 :
-(
 childRect
 .
 right
@@ -7078,7 +7193,6 @@ right
 scrollRect
 .
 right
-)
 ;
 }
 if
@@ -7121,6 +7235,7 @@ if
 (
 icon
 )
+{
 child
 .
 setAttribute
@@ -7131,6 +7246,7 @@ image
 icon
 )
 ;
+}
 child
 .
 style
@@ -7303,8 +7419,10 @@ children
 .
 length
 )
+{
 return
 ;
+}
 /
 /
 Note
@@ -7488,6 +7606,7 @@ if
 (
 icon
 )
+{
 button
 .
 setAttribute
@@ -7498,6 +7617,7 @@ image
 icon
 )
 ;
+}
 this
 .
 updateNodesVisibility
@@ -7590,8 +7710,10 @@ if
 !
 elt
 )
+{
 return
 ;
+}
 /
 /
 Here
@@ -7613,12 +7735,14 @@ localName
 menupopup
 "
 )
+{
 elt
 =
 elt
 .
 parentNode
 ;
+}
 let
 overflowed
 =
@@ -7702,12 +7826,14 @@ if
 !
 overflowed
 )
+{
 this
 .
 updateNodesVisibility
 (
 )
 ;
+}
 return
 ;
 }
@@ -7802,8 +7928,10 @@ lastBuiltIndex
 +
 1
 )
+{
 return
 ;
+}
 let
 elt
 =
@@ -7841,12 +7969,14 @@ localName
 menupopup
 "
 )
+{
 elt
 =
 elt
 .
 parentNode
 ;
+}
 this
 .
 _removeChild
@@ -7986,6 +8116,7 @@ if
 (
 icon
 )
+{
 elt
 .
 setAttribute
@@ -7996,6 +8127,7 @@ image
 icon
 )
 ;
+}
 }
 else
 {
@@ -8168,8 +8300,10 @@ this
 .
 _rootElt
 )
+{
 return
 ;
+}
 PlacesViewBase
 .
 prototype
@@ -8203,12 +8337,14 @@ localName
 menupopup
 "
 )
+{
 elt
 =
 elt
 .
 parentNode
 ;
+}
 if
 (
 elt
@@ -8242,12 +8378,14 @@ visibility
 hidden
 "
 )
+{
 this
 .
 updateNodesVisibility
 (
 )
 ;
+}
 }
 }
 invalidateContainer
@@ -8289,8 +8427,10 @@ if
 !
 elt
 )
+{
 return
 ;
+}
 if
 (
 elt
@@ -8611,9 +8751,11 @@ this
 _resultNode
 )
 )
+{
 return
 null
 ;
+}
 let
 dropPoint
 =
@@ -8762,7 +8904,6 @@ this
 .
 isRTL
 ?
-(
 aEvent
 .
 clientX
@@ -8772,9 +8913,7 @@ eltRect
 right
 -
 threshold
-)
 :
-(
 aEvent
 .
 clientX
@@ -8784,7 +8923,6 @@ eltRect
 left
 +
 threshold
-)
 )
 {
 /
@@ -8849,7 +8987,6 @@ this
 .
 isRTL
 ?
-(
 aEvent
 .
 clientX
@@ -8859,9 +8996,7 @@ eltRect
 left
 +
 threshold
-)
 :
-(
 aEvent
 .
 clientX
@@ -8871,7 +9006,6 @@ eltRect
 right
 -
 threshold
-)
 )
 {
 /
@@ -8958,7 +9092,6 @@ folder
 let
 beforeIndex
 =
-(
 eltIndex
 =
 =
@@ -8971,7 +9104,6 @@ children
 length
 -
 1
-)
 ?
 -
 1
@@ -9075,7 +9207,6 @@ this
 .
 isRTL
 ?
-(
 aEvent
 .
 clientX
@@ -9085,9 +9216,7 @@ eltRect
 left
 +
 threshold
-)
 :
-(
 aEvent
 .
 clientX
@@ -9097,7 +9226,6 @@ eltRect
 left
 +
 threshold
-)
 )
 {
 /
@@ -9668,6 +9796,7 @@ if
 (
 inHierarchy
 )
+{
 this
 .
 _overFolder
@@ -9676,6 +9805,7 @@ elt
 =
 null
 ;
+}
 /
 /
 Clear
@@ -9736,6 +9866,7 @@ button
 _placesNode
 )
 )
+{
 window
 .
 XULBrowserWindow
@@ -9752,6 +9883,7 @@ uri
 null
 )
 ;
+}
 }
 _onMouseOut
 :
@@ -9909,6 +10041,7 @@ this
 .
 _ibTimer
 )
+{
 this
 .
 _ibTimer
@@ -9917,6 +10050,7 @@ cancel
 (
 )
 ;
+}
 this
 .
 _dropIndicator
@@ -9970,8 +10104,10 @@ draggedElt
 .
 _placesNode
 )
+{
 return
 ;
+}
 if
 (
 draggedElt
@@ -10047,9 +10183,7 @@ clientX
 ;
 if
 (
-(
 translateY
-)
 >
 =
 Math
@@ -10379,6 +10513,7 @@ dragover
 "
 )
 )
+{
 this
 .
 _overFolder
@@ -10395,6 +10530,7 @@ true
 "
 )
 ;
+}
 this
 .
 _dropIndicator
@@ -10664,12 +10800,10 @@ style
 .
 marginInlineStart
 =
-(
 -
 ind
 .
 clientWidth
-)
 +
 "
 px
@@ -10834,6 +10968,7 @@ this
 .
 _ibTimer
 )
+{
 this
 .
 _ibTimer
@@ -10842,6 +10977,7 @@ cancel
 (
 )
 ;
+}
 this
 .
 _ibTimer
@@ -10873,6 +11009,7 @@ _overFolder
 .
 elt
 )
+{
 this
 .
 _overFolder
@@ -10890,6 +11027,7 @@ _overFolder
 hoverTime
 )
 ;
+}
 }
 _onDragEnd
 :
@@ -10957,12 +11095,14 @@ localName
 toolbarbutton
 "
 )
+{
 this
 .
 _openedMenuButton
 =
 parent
 ;
+}
 PlacesViewBase
 .
 prototype
@@ -11144,6 +11284,7 @@ dragover
 "
 )
 )
+{
 parent
 .
 removeAttribute
@@ -11153,6 +11294,7 @@ dragover
 "
 )
 ;
+}
 }
 }
 _onMouseMove
@@ -11198,8 +11340,10 @@ getSession
 (
 )
 )
+{
 return
 ;
+}
 let
 target
 =
@@ -11636,8 +11780,10 @@ popup
 =
 this
 )
+{
 return
 ;
+}
 /
 /
 UI
@@ -11936,6 +12082,7 @@ entry
 string
 "
 )
+{
 button
 .
 classList
@@ -11951,6 +12098,7 @@ extraClasses
 entry
 )
 ;
+}
 button
 .
 setAttribute
@@ -11978,6 +12126,7 @@ if
 (
 icon
 )
+{
 button
 .
 setAttribute
@@ -11988,6 +12137,7 @@ image
 icon
 )
 ;
+}
 if
 (
 PlacesUtils
@@ -12043,6 +12193,7 @@ nodeIsTagQuery
 aChild
 )
 )
+{
 button
 .
 setAttribute
@@ -12055,6 +12206,7 @@ true
 "
 )
 ;
+}
 }
 }
 else
@@ -12105,6 +12257,7 @@ has
 aChild
 )
 )
+{
 this
 .
 _domNodes
@@ -12115,6 +12268,7 @@ aChild
 button
 )
 ;
+}
 aInsertionNode
 .
 insertBefore
@@ -12156,8 +12310,10 @@ this
 .
 _rootElt
 )
+{
 return
 ;
+}
 let
 children
 =
@@ -12219,8 +12375,10 @@ this
 .
 _rootElt
 )
+{
 return
 ;
+}
 let
 elt
 =
@@ -12270,8 +12428,10 @@ this
 .
 _rootElt
 )
+{
 return
 ;
+}
 let
 elt
 =
@@ -12348,8 +12508,10 @@ this
 .
 _rootElt
 )
+{
 return
 ;
+}
 PlacesViewBase
 .
 prototype
@@ -12390,8 +12552,10 @@ this
 .
 _rootElt
 )
+{
 return
 ;
+}
 /
 /
 Container
@@ -12601,12 +12765,15 @@ this
 .
 _events
 )
+{
 return
 this
 .
 _events
 ;
+}
 return
+(
 this
 .
 _events
@@ -12631,6 +12798,7 @@ ViewHiding
 ViewShown
 "
 ]
+)
 ;
 }
 handleEvent
@@ -12787,8 +12955,10 @@ button
 .
 _placesNode
 )
+{
 return
 ;
+}
 let
 modifKey
 =
@@ -12992,8 +13162,10 @@ draggedElt
 .
 _placesNode
 )
+{
 return
 ;
+}
 /
 /
 Activate
@@ -13140,6 +13312,7 @@ nsINavHistoryResultNode
 .
 RESULT_TYPE_URI
 )
+{
 throw
 new
 Error
@@ -13150,6 +13323,7 @@ node
 "
 )
 ;
+}
 element
 =
 document
@@ -13225,6 +13399,7 @@ if
 (
 icon
 )
+{
 element
 .
 setAttribute
@@ -13235,6 +13410,7 @@ image
 icon
 )
 ;
+}
 }
 element
 .
@@ -13254,6 +13430,7 @@ has
 placesNode
 )
 )
+{
 this
 .
 _domNodes
@@ -13264,6 +13441,7 @@ placesNode
 element
 )
 ;
+}
 return
 element
 ;
@@ -13359,6 +13537,7 @@ entry
 string
 "
 )
+{
 panelview
 .
 _emptyMenuitem
@@ -13376,6 +13555,7 @@ extraClasses
 entry
 )
 ;
+}
 }
 if
 (
@@ -13706,8 +13886,10 @@ this
 .
 _viewElt
 )
+{
 return
 ;
+}
 /
 /
 Because
@@ -13758,6 +13940,7 @@ this
 .
 _controller
 )
+{
 this
 .
 controllers
@@ -13769,6 +13952,7 @@ this
 _controller
 )
 ;
+}
 }
 }
 ;

@@ -280,8 +280,10 @@ isValidHandlerApp
 app
 )
 )
+{
 continue
 ;
+}
 /
 /
 Ensure
@@ -493,6 +495,7 @@ length
 +
 i
 )
+{
 this
 .
 handlerInfo
@@ -507,6 +510,7 @@ i
 ]
 )
 ;
+}
 this
 .
 handlerInfo
@@ -647,10 +651,12 @@ list
 .
 itemCount
 )
+{
 -
 -
 index
 ;
+}
 list
 .
 selectedIndex
@@ -738,6 +744,7 @@ Ci
 .
 nsILocalHandlerApp
 )
+{
 address
 =
 app
@@ -746,6 +753,7 @@ executable
 .
 path
 ;
+}
 else
 if
 (
@@ -755,12 +763,14 @@ Ci
 .
 nsIWebHandlerApp
 )
+{
 address
 =
 app
 .
 uriTemplate
 ;
+}
 document
 .
 getElementById

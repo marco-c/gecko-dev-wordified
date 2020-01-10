@@ -142,9 +142,7 @@ BrowserTestUtils
 openNewBrowserWindow
 (
 {
-"
 private
-"
 :
 aIsPrivate
 }
@@ -255,9 +253,7 @@ BrowserTestUtils
 openNewBrowserWindow
 (
 {
-"
 private
-"
 :
 aIsPrivate
 }

@@ -735,6 +735,7 @@ billingAddressRow
 let
 addressPicker
 =
+(
 this
 .
 billingAddressPicker
@@ -742,6 +743,7 @@ billingAddressPicker
 new
 BillingAddressPicker
 (
+)
 )
 ;
 /
@@ -3043,13 +3045,11 @@ if
 (
 editing
 ?
-(
 basicCardPage
 .
 guid
 in
 tempBasicCards
-)
 :
 !
 this

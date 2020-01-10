@@ -830,9 +830,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "

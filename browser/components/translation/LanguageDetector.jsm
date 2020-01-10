@@ -400,12 +400,14 @@ _idleTimeout
 =
 null
 )
+{
 this
 .
 flushWorker
 (
 )
 ;
+}
 return
 result
 ;
@@ -431,6 +433,7 @@ this
 .
 _workerReadyPromise
 )
+{
 this
 .
 _workerReadyPromise
@@ -455,9 +458,7 @@ worker
 .
 onmessage
 =
-(
 aMsg
-)
 =
 >
 {
@@ -472,12 +473,15 @@ data
 ready
 "
 )
+{
 resolve
 (
 worker
 )
 ;
+}
 else
+{
 this
 .
 detectionQueue
@@ -494,6 +498,7 @@ data
 )
 ;
 }
+}
 ;
 this
 .
@@ -504,6 +509,7 @@ worker
 }
 )
 ;
+}
 return
 this
 .
@@ -553,6 +559,7 @@ _idleTimeout
 =
 null
 )
+{
 clearTimeout
 (
 this
@@ -560,6 +567,7 @@ this
 _idleTimeout
 )
 ;
+}
 this
 .
 _idleTimeout
@@ -634,6 +642,7 @@ this
 .
 _worker
 )
+{
 this
 .
 _worker
@@ -642,6 +651,7 @@ terminate
 (
 )
 ;
+}
 this
 .
 _worker
@@ -1014,6 +1024,7 @@ aParams
 string
 "
 )
+{
 aParams
 =
 {
@@ -1022,6 +1033,7 @@ text
 aParams
 }
 ;
+}
 return
 workerManager
 .

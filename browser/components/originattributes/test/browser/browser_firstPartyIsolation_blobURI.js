@@ -368,9 +368,7 @@ script
 >
 ]
 {
-"
 type
-"
 :
 "
 text

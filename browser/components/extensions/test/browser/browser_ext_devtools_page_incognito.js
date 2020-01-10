@@ -166,9 +166,7 @@ loadExtension
 manifest
 :
 {
-"
 devtools_page
-"
 :
 "
 devtools_page

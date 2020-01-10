@@ -45,9 +45,7 @@ await
 setupPolicyEngineWithJson
 (
 {
-"
 policies
-"
 :
 {
 }

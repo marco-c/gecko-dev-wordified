@@ -706,12 +706,10 @@ URL
 .
 is
 (
-(
 await
 restoreStateWithURL
 (
 URL
-)
 )
 VALUE
 "
@@ -740,7 +738,6 @@ URL
 .
 is
 (
-(
 await
 restoreStateWithURL
 (
@@ -749,7 +746,6 @@ URL
 "
 ?
 "
-)
 )
 "
 "
@@ -763,11 +759,9 @@ restored
 ;
 is
 (
-(
 await
 restoreStateWithURL
 (
-)
 )
 "
 "
@@ -943,6 +937,7 @@ field
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -953,6 +948,7 @@ addTab
 (
 gBrowser
 URL
+)
 )
 ;
 let
@@ -1248,6 +1244,7 @@ document
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -1258,6 +1255,7 @@ addTab
 (
 gBrowser
 URL
+)
 )
 ;
 let

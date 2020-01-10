@@ -529,9 +529,7 @@ addVisits
 (
 [
 {
-"
 uri
-"
 :
 "
 http
@@ -542,9 +540,7 @@ example
 .
 com
 "
-"
 title
-"
 :
 "
 Whittingtons

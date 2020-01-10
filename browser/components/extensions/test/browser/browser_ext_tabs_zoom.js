@@ -1610,9 +1610,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "

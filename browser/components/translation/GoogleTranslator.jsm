@@ -1387,11 +1387,9 @@ result
 let
 doc
 =
-(
 new
 DOMParser
 (
-)
 )
 .
 parseFromString

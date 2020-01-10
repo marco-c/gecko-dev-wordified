@@ -45,9 +45,7 @@ let
 manifest
 =
 {
-"
 theme
-"
 :
 {
 }
@@ -85,9 +83,7 @@ prop
 ]
 =
 {
-"
 scripts
-"
 :
 [
 "
@@ -129,9 +125,7 @@ prop
 ]
 =
 {
-"
 keyword
-"
 :
 "
 test

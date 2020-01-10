@@ -85,12 +85,6 @@ jsm
 )
 ;
 /
-*
-globals
-RemotePages
-*
-/
-/
 /
 Remove
 when
@@ -106,6 +100,12 @@ mozilla
 .
 0
 +
+/
+*
+globals
+RemotePages
+*
+/
 const
 {
 RemotePages

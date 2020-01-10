@@ -109,9 +109,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -548,9 +546,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -775,9 +771,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -930,9 +924,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -1146,9 +1138,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -1462,9 +1452,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -1657,9 +1645,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -1975,9 +1961,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 ]
@@ -2107,9 +2091,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 ]
@@ -2133,9 +2115,7 @@ tabs
 query
 (
 {
-"
 url
-"
 :
 "
 http
@@ -2211,9 +2191,7 @@ tabs
 query
 (
 {
-"
 title
-"
 :
 "
 Foo
@@ -2327,9 +2305,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -2604,9 +2580,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "

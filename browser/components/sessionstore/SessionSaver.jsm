@@ -1227,9 +1227,7 @@ again
 let
 saveStateAsyncWhenIdle
 =
-(
 deadline
-)
 =
 >
 {

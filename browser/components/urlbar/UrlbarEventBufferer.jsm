@@ -2196,6 +2196,7 @@ selectedResult
 ;
 return
 (
+(
 selectedResult
 &
 &
@@ -2208,6 +2209,7 @@ heuristic
 |
 !
 waitingFirstResult
+)
 ;
 }
 if
@@ -2454,6 +2456,7 @@ _lastQuery
 results
 ;
 return
+(
 results
 .
 length
@@ -2476,6 +2479,7 @@ input
 view
 .
 selectedResult
+)
 ;
 }
 }

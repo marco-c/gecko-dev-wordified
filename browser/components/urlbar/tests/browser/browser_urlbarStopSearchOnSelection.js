@@ -461,6 +461,7 @@ waitForCondition
 >
 {
 return
+(
 UrlbarTestUtils
 .
 getResultCount
@@ -472,6 +473,7 @@ window
 2
 +
 TEST_ENGINE_NUM_EXPECTED_RESULTS
+)
 ;
 }
 )

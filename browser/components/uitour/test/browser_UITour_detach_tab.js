@@ -202,9 +202,7 @@ defer
 let
 onDOMWindowDestroyed
 =
-(
 aWindow
-)
 =
 >
 {

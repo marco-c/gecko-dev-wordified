@@ -818,6 +818,7 @@ strings
 )
 {
 return
+(
 this
 .
 _strings
@@ -971,6 +972,7 @@ data
 )
 ;
 }
+)
 )
 )
 ;

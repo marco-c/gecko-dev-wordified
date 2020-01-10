@@ -459,6 +459,7 @@ gHistoryGrouping
 site
 "
 )
+{
 document
 .
 getElementById
@@ -478,6 +479,7 @@ true
 "
 )
 ;
+}
 else
 if
 (
@@ -488,6 +490,7 @@ gHistoryGrouping
 visited
 "
 )
+{
 document
 .
 getElementById
@@ -507,6 +510,7 @@ true
 "
 )
 ;
+}
 else
 if
 (
@@ -517,6 +521,7 @@ gHistoryGrouping
 lastvisited
 "
 )
+{
 document
 .
 getElementById
@@ -536,6 +541,7 @@ true
 "
 )
 ;
+}
 else
 if
 (
@@ -546,6 +552,7 @@ gHistoryGrouping
 dayandsite
 "
 )
+{
 document
 .
 getElementById
@@ -565,7 +572,9 @@ true
 "
 )
 ;
+}
 else
+{
 document
 .
 getElementById
@@ -585,6 +594,7 @@ true
 "
 )
 ;
+}
 searchHistory
 (
 "
@@ -814,6 +824,7 @@ gHistoryGrouping
 lastvisited
 "
 )
+{
 TelemetryStopwatch
 .
 start
@@ -823,6 +834,7 @@ HISTORY_LASTVISITED_TREE_QUERY_TIME_MS
 "
 )
 ;
+}
 /
 /
 call
@@ -874,6 +886,7 @@ gHistoryGrouping
 lastvisited
 "
 )
+{
 TelemetryStopwatch
 .
 finish
@@ -883,6 +896,7 @@ HISTORY_LASTVISITED_TREE_QUERY_TIME_MS
 "
 )
 ;
+}
 }
 window
 .

@@ -737,7 +737,6 @@ visits
 ;
 equal
 (
-(
 await
 PlacesTestUtils
 .
@@ -749,7 +748,6 @@ visits
 ]
 .
 url
-)
 )
 5
 "
@@ -776,14 +774,12 @@ url
 ;
 ok
 (
-(
 await
 PlacesTestUtils
 .
 isPageInDB
 (
 testUrl
-)
 )
 "
 expected
@@ -821,14 +817,12 @@ deleted
 ;
 equal
 (
-(
 await
 PlacesTestUtils
 .
 isPageInDB
 (
 testUrl
-)
 )
 false
 "
@@ -942,7 +936,6 @@ onVisitRemoved
 ;
 ok
 (
-(
 await
 PlacesTestUtils
 .
@@ -954,7 +947,6 @@ visits
 ]
 .
 url
-)
 )
 "
 expected
@@ -968,7 +960,6 @@ database
 ;
 equal
 (
-(
 await
 PlacesTestUtils
 .
@@ -980,7 +971,6 @@ visits
 ]
 .
 url
-)
 )
 2
 "
@@ -997,7 +987,6 @@ database
 ;
 ok
 (
-(
 await
 PlacesTestUtils
 .
@@ -1009,7 +998,6 @@ visits
 ]
 .
 url
-)
 )
 "
 expected
@@ -1023,7 +1011,6 @@ database
 ;
 equal
 (
-(
 await
 PlacesTestUtils
 .
@@ -1035,7 +1022,6 @@ visits
 ]
 .
 url
-)
 )
 1
 "
@@ -1125,7 +1111,6 @@ deleted
 ;
 equal
 (
-(
 await
 PlacesTestUtils
 .
@@ -1137,7 +1122,6 @@ visits
 ]
 .
 url
-)
 )
 false
 "
@@ -1153,7 +1137,6 @@ database
 ;
 equal
 (
-(
 await
 PlacesTestUtils
 .
@@ -1165,7 +1148,6 @@ visits
 ]
 .
 url
-)
 )
 0
 "
@@ -1182,7 +1164,6 @@ database
 ;
 equal
 (
-(
 await
 PlacesTestUtils
 .
@@ -1194,7 +1175,6 @@ visits
 ]
 .
 url
-)
 )
 false
 "
@@ -1210,7 +1190,6 @@ database
 ;
 equal
 (
-(
 await
 PlacesTestUtils
 .
@@ -1222,7 +1201,6 @@ visits
 ]
 .
 url
-)
 )
 0
 "
@@ -1239,7 +1217,6 @@ database
 ;
 ok
 (
-(
 await
 PlacesTestUtils
 .
@@ -1251,7 +1228,6 @@ visits
 ]
 .
 url
-)
 )
 "
 expected
@@ -2833,7 +2809,6 @@ results
 {
 ok
 (
-(
 await
 PlacesTestUtils
 .
@@ -2844,7 +2819,6 @@ results
 details
 .
 url
-)
 )
 {
 results
@@ -3887,10 +3861,12 @@ date
 new
 Date
 (
+(
 visitDate
 -
 =
 1000
+)
 )
 }
 ]
@@ -4374,10 +4350,12 @@ date
 new
 Date
 (
+(
 visitDate
 +
 =
 1000
+)
 )
 }
 {
@@ -4386,10 +4364,12 @@ date
 new
 Date
 (
+(
 visitDate
 +
 =
 1000
+)
 )
 }
 ]

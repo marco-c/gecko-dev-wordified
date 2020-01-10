@@ -751,9 +751,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -864,6 +862,7 @@ cookie
 passedCookie
 =
 >
+(
 content
 .
 document
@@ -871,6 +870,7 @@ document
 cookie
 =
 passedCookie
+)
 )
 ]
 )

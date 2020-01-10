@@ -762,6 +762,7 @@ mouseup
 "
 ]
 )
+{
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -777,6 +778,7 @@ button
 }
 )
 ;
+}
 }
 /
 /

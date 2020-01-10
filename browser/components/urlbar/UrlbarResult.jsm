@@ -595,7 +595,6 @@ if
 payload
 |
 |
-(
 typeof
 payload
 !
@@ -603,7 +602,6 @@ payload
 "
 object
 "
-)
 )
 {
 throw
@@ -630,7 +628,6 @@ if
 payloadHighlights
 |
 |
-(
 typeof
 payloadHighlights
 !
@@ -638,7 +635,6 @@ payloadHighlights
 "
 object
 "
-)
 )
 {
 throw
@@ -1398,9 +1394,7 @@ payloadInfo
 if
 (
 typeof
-(
 info
-)
 =
 =
 "

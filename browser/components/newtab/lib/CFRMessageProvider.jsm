@@ -3079,9 +3079,7 @@ steps
 :
 [
 {
-"
 string_id
-"
 :
 "
 cfr
@@ -3094,9 +3092,7 @@ step1
 "
 }
 {
-"
 string_id
-"
 :
 "
 cfr
@@ -3109,9 +3105,7 @@ step2
 "
 }
 {
-"
 string_id
-"
 :
 "
 cfr

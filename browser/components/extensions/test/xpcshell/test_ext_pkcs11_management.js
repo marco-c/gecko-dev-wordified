@@ -1386,9 +1386,7 @@ pkcs11
 applications
 :
 {
-"
 gecko
-"
 :
 {
 id

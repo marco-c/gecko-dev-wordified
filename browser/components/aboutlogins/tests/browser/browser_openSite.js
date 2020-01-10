@@ -132,9 +132,7 @@ loginToVanillaObject
 TEST_LOGIN1
 )
 async
-(
 login
-)
 =
 >
 {

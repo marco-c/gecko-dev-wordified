@@ -98,9 +98,7 @@ loadExtension
 manifest
 :
 {
-"
 browser_action
-"
 :
 {
 }

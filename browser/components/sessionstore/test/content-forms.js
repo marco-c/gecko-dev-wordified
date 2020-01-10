@@ -642,6 +642,7 @@ idx
 )
 =
 >
+(
 opt
 .
 selected
@@ -657,6 +658,7 @@ idx
 >
 -
 1
+)
 )
 ;
 dispatchUIEvent

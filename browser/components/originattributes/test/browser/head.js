@@ -1315,9 +1315,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 aPref
 }
@@ -1329,9 +1327,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -1354,9 +1350,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -2301,13 +2295,11 @@ false
 let
 shouldIsolate
 =
-(
 aMode
 !
 =
 =
 TEST_MODE_NO_ISOLATION
-)
 &
 &
 tabSettingA

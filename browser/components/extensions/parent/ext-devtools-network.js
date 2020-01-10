@@ -227,9 +227,7 @@ fire
 const
 listener
 =
-(
 data
-)
 =
 >
 {

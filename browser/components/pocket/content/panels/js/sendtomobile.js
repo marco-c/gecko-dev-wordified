@@ -71,15 +71,13 @@ pkt_ext_sendtomobile_button
 .
 replaceWith
 (
-"
+'
 <
 div
 class
 =
-\
 "
 pkt_ext_loadingspinner
-\
 "
 >
 <
@@ -93,7 +91,7 @@ div
 /
 div
 >
-"
+'
 )
 ;
 thePKT_SAVED
@@ -229,9 +227,7 @@ pkt_ext_ho2_experiment
 var
 height
 =
-(
 adjustHeight
-)
 ?
 premDetailsHeight
 :
@@ -301,7 +297,7 @@ create
 }
 ;
 }
-(
 )
+(
 )
 ;

@@ -172,9 +172,7 @@ onConnect
 .
 addListener
 (
-(
 port
-)
 =
 >
 {
@@ -259,9 +257,7 @@ onMessage
 .
 addListener
 (
-(
 msg
-)
 =
 >
 {
@@ -466,9 +462,7 @@ onMessage
 .
 addListener
 (
-(
 msg
-)
 =
 >
 {
@@ -1200,9 +1194,7 @@ onConnect
 .
 addListener
 (
-(
 port
-)
 =
 >
 {

@@ -649,9 +649,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -1400,7 +1398,6 @@ loading
 .
 if
 (
-(
 flags
 &
 Ci
@@ -1408,7 +1405,6 @@ Ci
 nsIAboutModule
 .
 URI_SAFE_FOR_UNTRUSTED_CONTENT
-)
 &
 &
 !

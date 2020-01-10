@@ -89,9 +89,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -122,9 +120,7 @@ onConnect
 .
 addListener
 (
-(
 port
-)
 =
 >
 {
@@ -240,9 +236,7 @@ onMessage
 .
 addListener
 (
-(
 msg
-)
 =
 >
 {
@@ -399,9 +393,7 @@ tab
 html
 "
 }
-(
 tab
-)
 =
 >
 {
@@ -469,9 +461,7 @@ onMessage
 .
 addListener
 (
-(
 msg
-)
 =
 >
 {

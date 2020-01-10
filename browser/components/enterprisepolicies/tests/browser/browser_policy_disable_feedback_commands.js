@@ -228,14 +228,10 @@ await
 setupPolicyEngineWithJson
 (
 {
-"
 policies
-"
 :
 {
-"
 DisableFeedbackCommands
-"
 :
 true
 }

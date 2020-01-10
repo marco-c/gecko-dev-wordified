@@ -267,9 +267,11 @@ Promise
 r
 =
 >
+(
 resolveLocationChangePromise
 =
 r
+)
 )
 ;
 }

@@ -820,9 +820,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -1071,6 +1069,7 @@ aFileName
 )
 {
 return
+(
 "
 http
 :
@@ -1091,6 +1090,7 @@ primaryPort
 "
 +
 aFileName
+)
 ;
 }
 function

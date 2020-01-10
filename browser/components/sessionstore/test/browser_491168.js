@@ -156,6 +156,7 @@ tab
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -170,6 +171,7 @@ about
 :
 blank
 "
+)
 )
 ;
 let

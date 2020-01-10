@@ -1174,10 +1174,12 @@ targeting
 profileAgeCreated
 >
 {
+(
 await
 profileAccessor
 .
 created
+)
 -
 100
 }
@@ -2973,7 +2975,6 @@ installDate
 )
 &
 &
-(
 Math
 .
 abs
@@ -2996,7 +2997,6 @@ installDate
 60
 *
 1000
-)
 "
 should
 correctly
@@ -3742,7 +3742,6 @@ sitesToPin
 .
 forEach
 (
-(
 site
 =
 >
@@ -3760,7 +3759,6 @@ pinnedLinks
 links
 .
 length
-)
 )
 )
 ;
@@ -4137,9 +4135,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

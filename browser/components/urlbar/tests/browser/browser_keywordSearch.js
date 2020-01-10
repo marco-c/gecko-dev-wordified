@@ -211,6 +211,7 @@ windowObserver
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -220,6 +221,7 @@ BrowserTestUtils
 addTab
 (
 gBrowser
+)
 )
 ;
 /
@@ -447,8 +449,10 @@ flags
 docStart
 )
 )
+{
 return
 ;
+}
 info
 (
 "

@@ -871,6 +871,7 @@ if
 (
 aCol
 )
+{
 prevSortKey
 =
 SORT_LOOKUP_TABLE
@@ -887,6 +888,7 @@ anonid
 .
 key
 ;
+}
 else
 if
 (
@@ -896,14 +898,17 @@ prevSortKey
 =
 null
 )
+{
 prevSortKey
 =
 DEFAULT_SORT_KEY
 ;
+}
 if
 (
 aDir
 )
+{
 prevSortDir
 =
 aDir
@@ -912,6 +917,7 @@ toUpperCase
 (
 )
 ;
+}
 else
 if
 (
@@ -921,6 +927,7 @@ prevSortDir
 =
 null
 )
+{
 prevSortDir
 =
 SORT_LOOKUP_TABLE
@@ -937,6 +944,7 @@ anonid
 .
 dir
 ;
+}
 }
 }
 catch
@@ -1553,13 +1561,11 @@ dir
 let
 key
 =
-(
 aUnsortFirst
 ?
 DEFAULT_SORT_KEY
 :
 prevSortKey
-)
 ;
 let
 sortStr

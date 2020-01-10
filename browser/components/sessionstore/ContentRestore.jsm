@@ -1584,7 +1584,6 @@ null
 let
 referrerPolicy
 =
-(
 "
 referrerPolicy
 "
@@ -1600,7 +1599,6 @@ Ci
 nsIHttpChannel
 .
 REFERRER_POLICY_UNSET
-)
 ;
 let
 ReferrerInfo
@@ -2824,7 +2822,6 @@ if
 currentURI
 &
 &
-(
 currentURI
 .
 spec
@@ -2833,7 +2830,6 @@ spec
 newURI
 .
 spec
-)
 )
 {
 return

@@ -2533,7 +2533,6 @@ URL
 }
 ;
 }
-else
 /
 *
 bookmark
@@ -2541,6 +2540,7 @@ bookmark
 IsFolder
 *
 /
+else
 {
 /
 /

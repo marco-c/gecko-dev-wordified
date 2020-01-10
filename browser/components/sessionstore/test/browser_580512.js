@@ -473,10 +473,12 @@ if
 !
 expectedURIs
 )
+{
 expectedURIs
 =
 argURIs
 ;
+}
 var
 win
 =

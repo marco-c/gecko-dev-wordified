@@ -256,6 +256,7 @@ id
 selectionCol
 "
 )
+{
 return
 gBlocklistManager
 .
@@ -266,6 +267,7 @@ row
 .
 selected
 ;
+}
 return
 undefined
 ;

@@ -388,6 +388,7 @@ finishTranslation
 "
 ]
 )
+{
 ui
 [
 name
@@ -398,6 +399,7 @@ TranslationStub
 name
 ]
 ;
+}
 return
 ui
 .

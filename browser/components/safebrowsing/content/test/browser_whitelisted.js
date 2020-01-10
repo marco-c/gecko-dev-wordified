@@ -209,6 +209,7 @@ gBrowser
 let
 tab
 =
+(
 tabbrowser
 .
 selectedTab
@@ -218,6 +219,7 @@ BrowserTestUtils
 addTab
 (
 tabbrowser
+)
 )
 ;
 info

@@ -1073,12 +1073,14 @@ state
 )
 )
 )
+{
 this
 .
 _serviceUnavailable
 =
 true
 ;
+}
 }
 this
 .
@@ -3008,6 +3010,7 @@ getPrefType
 prefName
 )
 )
+{
 paramValue
 =
 Services
@@ -3019,6 +3022,7 @@ getCharPref
 prefName
 )
 ;
+}
 paramValue
 =
 Services

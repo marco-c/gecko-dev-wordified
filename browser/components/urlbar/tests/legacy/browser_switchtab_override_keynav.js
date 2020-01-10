@@ -109,6 +109,7 @@ tab
 let
 secondTab
 =
+(
 gBrowser
 .
 selectedTab
@@ -118,6 +119,7 @@ BrowserTestUtils
 addTab
 (
 gBrowser
+)
 )
 ;
 registerCleanupFunction

@@ -1303,9 +1303,7 @@ Cu
 .
 exportFunction
 (
-(
 fn
-)
 =
 >
 {

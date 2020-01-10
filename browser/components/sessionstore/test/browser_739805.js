@@ -71,9 +71,7 @@ formdata
 id
 :
 {
-"
 foo
-"
 :
 "
 bar
@@ -124,6 +122,7 @@ length
 >
 1
 )
+{
 gBrowser
 .
 removeTab
@@ -136,6 +135,7 @@ tabs
 ]
 )
 ;
+}
 Services
 .
 prefs

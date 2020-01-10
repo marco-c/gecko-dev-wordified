@@ -140,11 +140,13 @@ registerCleanupFunction
 )
 =
 >
+(
 CustomizableUIBSPass
 .
 gSavedState
 =
 oldState
+)
 )
 ;
 is

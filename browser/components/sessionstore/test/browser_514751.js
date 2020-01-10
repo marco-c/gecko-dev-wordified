@@ -171,10 +171,12 @@ test
 e
 )
 )
+{
 gotError
 =
 true
 ;
+}
 }
 ok
 (

@@ -100,9 +100,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -249,7 +247,7 @@ New
 Private
 Window
 "
-"
+'
 The
 Private
 Browsing
@@ -257,14 +255,12 @@ menu
 item
 should
 read
-\
 "
 New
 Private
 Window
-\
 "
-"
+'
 )
 ;
 is

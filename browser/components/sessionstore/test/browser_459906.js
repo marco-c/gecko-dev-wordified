@@ -190,8 +190,10 @@ frameCount
 <
 2
 )
+{
 return
 ;
+}
 tab
 .
 linkedBrowser
@@ -294,8 +296,10 @@ frameCount
 <
 2
 )
+{
 return
 ;
+}
 tab2
 .
 linkedBrowser

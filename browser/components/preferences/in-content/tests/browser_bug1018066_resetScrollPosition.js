@@ -56,6 +56,7 @@ tabs
 1
 ]
 )
+{
 gBrowser
 .
 removeTab
@@ -68,6 +69,7 @@ tabs
 ]
 )
 ;
+}
 }
 )
 ;

@@ -171,7 +171,6 @@ for
 let
 name
 of
-(
 this
 .
 constructor
@@ -181,7 +180,6 @@ observedAttributes
 |
 [
 ]
-)
 )
 {
 if

@@ -484,7 +484,6 @@ Assert
 .
 ok
 (
-(
 await
 OS
 .
@@ -493,7 +492,6 @@ File
 exists
 (
 dbPath
-)
 )
 "
 should

@@ -96,7 +96,6 @@ test
 let
 win
 =
-(
 await
 BrowserTestUtils
 .
@@ -108,12 +107,10 @@ private
 true
 }
 )
-)
 ;
 let
 tabAbout
 =
-(
 await
 BrowserTestUtils
 .
@@ -127,13 +124,11 @@ about
 :
 mozilla
 "
-)
 )
 ;
 let
 tabMozilla
 =
-(
 await
 BrowserTestUtils
 .
@@ -147,7 +142,6 @@ about
 :
 mozilla
 "
-)
 )
 ;
 let

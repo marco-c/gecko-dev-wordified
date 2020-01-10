@@ -1096,7 +1096,6 @@ endReached
 =
 reverse
 ?
-(
 row
 =
 =
@@ -1105,14 +1104,11 @@ this
 _rows
 .
 firstElementChild
-)
 :
-(
 row
 =
 =
 lastElementChild
-)
 ;
 if
 (
@@ -3464,6 +3460,8 @@ _elements
 =
 new
 Map
+(
+)
 ;
 let
 content

@@ -123,15 +123,11 @@ windows
 :
 [
 {
-"
 tabs
-"
 :
 [
 {
-"
 entries
-"
 :
 [
 ]

@@ -326,9 +326,7 @@ onUnenroll
 "
 register
 :
-(
 fire
-)
 =
 >
 {
@@ -336,9 +334,7 @@ const
 listener
 =
 async
-(
 reason
-)
 =
 >
 {

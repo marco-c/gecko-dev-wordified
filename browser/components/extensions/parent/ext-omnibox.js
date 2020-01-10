@@ -185,9 +185,7 @@ omnibox
 {
 setDefaultSuggestion
 :
-(
 suggestion
-)
 =
 >
 {
@@ -256,9 +254,7 @@ fire
 let
 listener
 =
-(
 eventName
-)
 =
 >
 {
@@ -328,9 +324,7 @@ fire
 let
 listener
 =
-(
 eventName
-)
 =
 >
 {

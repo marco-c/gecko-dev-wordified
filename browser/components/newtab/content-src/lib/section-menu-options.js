@@ -617,7 +617,6 @@ CheckCollapsed
 section
 =
 >
-(
 section
 .
 collapsed
@@ -634,7 +633,6 @@ SectionMenuOptions
 CollapseSection
 (
 section
-)
 )
 }
 ;

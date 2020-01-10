@@ -132,13 +132,17 @@ if
 !
 aInitInfo
 )
+{
 return
+(
 this
 .
 _paneInfo
 =
 null
+)
 ;
+}
 if
 (
 "
@@ -154,6 +158,7 @@ node
 in
 aInitInfo
 )
+{
 throw
 new
 Error
@@ -165,6 +170,7 @@ info
 "
 )
 ;
+}
 if
 (
 !
@@ -186,6 +192,7 @@ in
 aInitInfo
 )
 )
+{
 throw
 new
 Error
@@ -202,6 +209,7 @@ info
 "
 )
 ;
+}
 /
 /
 We
@@ -572,6 +580,7 @@ aInitInfo
 onPanelReady
 ;
 return
+(
 this
 .
 _paneInfo
@@ -596,6 +605,7 @@ focusedElement
 onPanelReady
 tag
 }
+)
 ;
 }
 get
@@ -644,10 +654,12 @@ _paneInfo
 .
 bulkTagging
 )
+{
 return
 -
 1
 ;
+}
 return
 this
 .
@@ -668,9 +680,11 @@ this
 .
 initialized
 )
+{
 return
 null
 ;
+}
 if
 (
 this
@@ -679,6 +693,7 @@ _paneInfo
 .
 bulkTagging
 )
+{
 return
 this
 .
@@ -689,6 +704,7 @@ uris
 0
 ]
 ;
+}
 return
 this
 .
@@ -851,6 +867,7 @@ a
 tag
 container
 return
+(
 !
 this
 .
@@ -905,6 +922,7 @@ _paneInfo
 .
 isTag
 )
+)
 ;
 }
 /
@@ -942,6 +960,7 @@ _paneInfo
 .
 bulkTagging
 )
+{
 throw
 new
 Error
@@ -953,6 +972,7 @@ unexpectedly
 "
 )
 ;
+}
 /
 /
 title
@@ -1009,6 +1029,7 @@ _paneInfo
 .
 isURI
 )
+{
 throw
 new
 Error
@@ -1020,6 +1041,7 @@ unexpectedly
 "
 )
 ;
+}
 this
 .
 _initTextField
@@ -1448,9 +1470,7 @@ aInfo
 if
 (
 typeof
-(
 aInfo
-)
 !
 =
 "
@@ -1464,6 +1484,7 @@ aInfo
 =
 null
 )
+{
 throw
 new
 Error
@@ -1478,6 +1499,7 @@ object
 "
 )
 ;
+}
 if
 (
 "
@@ -1612,6 +1634,7 @@ this
 .
 initialized
 )
+{
 this
 .
 uninitPanel
@@ -1619,6 +1642,7 @@ uninitPanel
 false
 )
 ;
+}
 this
 .
 transactionPromises
@@ -1678,6 +1702,7 @@ aInfo
 &
 nameInHiddenRows
 )
+{
 visible
 &
 =
@@ -1691,10 +1716,12 @@ includes
 nameInHiddenRows
 )
 ;
+}
 if
 (
 visible
 )
+{
 visibleRows
 .
 add
@@ -1702,6 +1729,7 @@ add
 rowId
 )
 ;
+}
 return
 !
 (
@@ -1883,12 +1911,14 @@ tags
 "
 )
 )
+{
 this
 .
 _initTagsField
 (
 )
 ;
+}
 else
 if
 (
@@ -1904,6 +1934,7 @@ tagsSelectorRow
 .
 collapsed
 )
+{
 this
 .
 toggleTagsSelector
@@ -1917,6 +1948,7 @@ Cu
 reportError
 )
 ;
+}
 /
 /
 Folder
@@ -2327,6 +2359,7 @@ this
 .
 _paneInfo
 )
+{
 return
 this
 .
@@ -2334,6 +2367,7 @@ _paneInfo
 .
 _cachedCommonTags
 ;
+}
 let
 uris
 =
@@ -2382,14 +2416,18 @@ size
 =
 0
 )
+{
 return
+(
 this
 .
 _cachedCommonTags
 =
 [
 ]
+)
 ;
+}
 for
 (
 let
@@ -2445,7 +2483,9 @@ size
 =
 0
 )
+{
 return
+(
 this
 .
 _paneInfo
@@ -2454,11 +2494,14 @@ cachedCommonTags
 =
 [
 ]
+)
 ;
 }
 }
 }
+}
 return
+(
 this
 .
 _paneInfo
@@ -2471,6 +2514,7 @@ _cachedCommonTags
 .
 commonTags
 ]
+)
 ;
 }
 _initTextField
@@ -2806,6 +2850,7 @@ length
 >
 6
 )
+{
 menupopup
 .
 removeChild
@@ -2815,6 +2860,7 @@ menupopup
 lastElementChild
 )
 ;
+}
 /
 /
 Build
@@ -3268,7 +3314,6 @@ foldersSeparator
 .
 hidden
 =
-(
 menupopup
 .
 children
@@ -3277,7 +3322,6 @@ length
 <
 =
 6
-)
 ;
 this
 .
@@ -3415,12 +3459,14 @@ folderTreeRow
 .
 collapsed
 )
+{
 this
 .
 toggleFolderTreeVisibility
 (
 )
 ;
+}
 /
 /
 Hide
@@ -3452,6 +3498,7 @@ tagsSelectorRow
 .
 collapsed
 )
+{
 this
 .
 toggleTagsSelector
@@ -3465,6 +3512,7 @@ Cu
 reportError
 )
 ;
+}
 }
 if
 (
@@ -3553,6 +3601,7 @@ selectedFolderGuid
 )
 {
 return
+(
 this
 .
 _folderMenuList
@@ -3567,6 +3616,7 @@ _folderMenuList
 selectedItem
 .
 folderGuid
+)
 ;
 }
 onTagsFieldChange
@@ -3652,6 +3702,7 @@ this
 .
 _paneInfo
 )
+{
 this
 .
 _mayUpdateFirstEditField
@@ -3661,6 +3712,7 @@ tagsField
 "
 )
 ;
+}
 }
 Cu
 .
@@ -3772,6 +3824,7 @@ length
 =
 0
 )
+{
 return
 {
 newTags
@@ -3784,6 +3837,7 @@ removedTags
 ]
 }
 ;
+}
 if
 (
 inputTags
@@ -3793,6 +3847,7 @@ length
 =
 0
 )
+{
 return
 {
 newTags
@@ -3804,6 +3859,7 @@ removedTags
 aCurrentTags
 }
 ;
+}
 if
 (
 aCurrentTags
@@ -3813,6 +3869,7 @@ length
 =
 0
 )
+{
 return
 {
 newTags
@@ -3824,6 +3881,7 @@ removedTags
 ]
 }
 ;
+}
 /
 /
 Do
@@ -4280,9 +4338,11 @@ if
 !
 anyChanges
 )
+{
 return
 false
 ;
+}
 /
 /
 The
@@ -4302,9 +4362,11 @@ this
 .
 _paneInfo
 )
+{
 return
 false
 ;
+}
 /
 /
 Ensure
@@ -4479,8 +4541,10 @@ this
 .
 _firstEditedField
 )
+{
 return
 ;
+}
 this
 .
 _firstEditedField
@@ -4539,8 +4603,10 @@ _paneInfo
 isTag
 )
 )
+{
 return
 ;
+}
 /
 /
 Here
@@ -4801,8 +4867,10 @@ _paneInfo
 .
 isBookmark
 )
+{
 return
 ;
+}
 let
 newURI
 ;
@@ -4858,8 +4926,10 @@ equals
 newURI
 )
 )
+{
 return
 ;
+}
 let
 guid
 =
@@ -4918,8 +4988,10 @@ _paneInfo
 .
 isBookmark
 )
+{
 return
 ;
+}
 let
 oldKeyword
 =
@@ -4930,6 +5002,7 @@ _keyword
 let
 keyword
 =
+(
 this
 .
 _keyword
@@ -4939,6 +5012,7 @@ this
 _keywordField
 .
 value
+)
 ;
 let
 postData
@@ -5394,9 +5468,11 @@ menuItem
 =
 undefined
 )
+{
 return
 menuItem
 ;
+}
 /
 /
 3
@@ -5424,6 +5500,7 @@ length
 +
 MAX_FOLDER_ITEM_IN_MENU_LIST
 )
+{
 menupopup
 .
 removeChild
@@ -5433,6 +5510,7 @@ menupopup
 lastElementChild
 )
 ;
+}
 return
 this
 .
@@ -5768,6 +5846,7 @@ selectedNode
 =
 containerGuid
 )
+{
 this
 .
 _folderTree
@@ -5779,6 +5858,7 @@ containerGuid
 ]
 )
 ;
+}
 }
 }
 onFolderTreeSelect
@@ -5837,8 +5917,10 @@ if
 !
 selectedNode
 )
+{
 return
 ;
+}
 var
 folderGuid
 =
@@ -5862,8 +5944,10 @@ folderGuid
 =
 folderGuid
 )
+{
 return
 ;
+}
 var
 folderItem
 =
@@ -5927,8 +6011,10 @@ tagsSelectorRow
 .
 collapsed
 )
+{
 return
 ;
+}
 let
 selectedIndex
 =
@@ -6093,6 +6179,7 @@ includes
 tag
 )
 )
+{
 elt
 .
 setAttribute
@@ -6105,6 +6192,7 @@ true
 "
 )
 ;
+}
 fragment
 .
 appendChild
@@ -6120,10 +6208,12 @@ selectedTag
 =
 tag
 )
+{
 selectedIndex
 =
 i
 ;
+}
 }
 tagsSelector
 .
@@ -6962,6 +7052,7 @@ curTagIndex
 -
 1
 )
+{
 tags
 .
 push
@@ -6971,6 +7062,7 @@ item
 label
 )
 ;
+}
 }
 else
 {
@@ -6991,6 +7083,7 @@ curTagIndex
 -
 1
 )
+{
 tags
 .
 splice
@@ -6999,6 +7092,7 @@ curTagIndex
 1
 )
 ;
+}
 }
 this
 .
@@ -7041,6 +7135,7 @@ _paneInfo
 .
 isURI
 )
+{
 tags
 =
 PlacesUtils
@@ -7056,6 +7151,7 @@ _paneInfo
 uri
 )
 ;
+}
 else
 if
 (
@@ -7065,6 +7161,7 @@ _paneInfo
 .
 bulkTagging
 )
+{
 tags
 =
 this
@@ -7073,7 +7170,9 @@ _getCommonTags
 (
 )
 ;
+}
 else
+{
 throw
 new
 Error
@@ -7085,6 +7184,7 @@ unexpectedly
 "
 )
 ;
+}
 this
 .
 _initTextField
@@ -7734,12 +7834,14 @@ locationRow
 "
 )
 )
+{
 this
 .
 _initLocationField
 (
 )
 ;
+}
 if
 (
 this
@@ -7802,6 +7904,7 @@ keywordRow
 "
 )
 )
+{
 this
 .
 _initKeywordField
@@ -7816,6 +7919,7 @@ Cu
 reportError
 )
 ;
+}
 break
 ;
 }

@@ -42,9 +42,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -273,9 +271,7 @@ spawn
 browser
 vanillaLogins
 async
-(
 logins
-)
 =
 >
 {

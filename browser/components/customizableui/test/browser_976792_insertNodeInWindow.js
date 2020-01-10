@@ -1928,6 +1928,7 @@ waitForCondition
 >
 {
 return
+(
 navbar
 .
 hasAttribute
@@ -1958,6 +1959,7 @@ overflows
 "
 false
 "
+)
 ;
 }
 )
@@ -2370,11 +2372,9 @@ if
 id
 =
 =
-(
 kTestWidgetPrefix
 +
 nonOverflowableId
-)
 )
 {
 node

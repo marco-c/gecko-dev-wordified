@@ -85,9 +85,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -175,9 +173,7 @@ duplicate
 source
 .
 id
-(
 tab
-)
 =
 >
 {
@@ -713,9 +709,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -934,9 +928,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -988,9 +980,7 @@ tabs
 ]
 .
 id
-(
 tab
-)
 =
 >
 {
@@ -1199,9 +1189,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -1228,9 +1216,7 @@ lastFocusedWindow
 true
 }
 async
-(
 tabs
-)
 =
 >
 {
@@ -1297,9 +1283,7 @@ tabs
 .
 id
 async
-(
 tab
-)
 =
 >
 {

@@ -494,6 +494,7 @@ longer
 url
 parts
 return
+(
 handleIDNHost
 (
 hostname
@@ -517,6 +518,7 @@ pathname
 parsed
 .
 href
+)
 ;
 }
 const

@@ -461,6 +461,7 @@ TAB_FORMDATA
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -475,6 +476,7 @@ about
 :
 blank
 "
+)
 )
 ;
 /
@@ -530,7 +532,6 @@ style
 .
 height
 =
-(
 doc
 .
 body
@@ -538,7 +539,6 @@ body
 clientHeight
 +
 100
-)
 +
 "
 px

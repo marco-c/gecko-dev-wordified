@@ -1182,6 +1182,7 @@ isContainerEmpty
 aContainerIndex
 )
 )
+{
 return
 [
 null
@@ -1190,6 +1191,7 @@ null
 "
 ]
 ;
+}
 /
 /
 The
@@ -1389,9 +1391,11 @@ foundNode
 =
 null
 )
+{
 return
 foundNode
 ;
+}
 }
 /
 /
@@ -1417,8 +1421,10 @@ aContainerIndex
 i
 )
 )
+{
 break
 ;
+}
 }
 return
 [
@@ -1524,9 +1530,11 @@ foundNode
 =
 null
 )
+{
 return
 foundNode
 ;
+}
 }
 return
 [

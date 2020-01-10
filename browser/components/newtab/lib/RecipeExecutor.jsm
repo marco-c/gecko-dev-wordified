@@ -569,9 +569,7 @@ let
 t
 =
 typeof
-(
 data
-)
 ;
 if
 (
@@ -691,7 +689,6 @@ k
 else
 if
 (
-(
 this
 .
 _typeOf
@@ -704,17 +701,13 @@ k
 "
 string
 "
-)
 &
 &
-(
 k
 in
 item
-)
 &
 &
-(
 this
 .
 _typeOf
@@ -730,7 +723,6 @@ k
 "
 number
 "
-)
 )
 {
 return
@@ -1027,7 +1019,6 @@ tokens
 ;
 if
 (
-(
 result
 .
 label
@@ -1035,7 +1026,6 @@ label
 =
 =
 null
-)
 &
 &
 result
@@ -1502,22 +1492,18 @@ rhsValue
 else
 if
 (
-(
 "
 rhsField
 "
 in
 config
-)
 &
 &
-(
 config
 .
 rhsField
 in
 item
-)
 )
 {
 rhs
@@ -1556,7 +1542,6 @@ next
 line
 eqeqeq
 (
-(
 config
 .
 op
@@ -1567,10 +1552,8 @@ op
 =
 =
 "
-)
 &
 &
-(
 item
 [
 config
@@ -1580,7 +1563,6 @@ field
 =
 =
 rhs
-)
 )
 |
 |
@@ -1595,7 +1577,6 @@ next
 line
 eqeqeq
 (
-(
 config
 .
 op
@@ -1606,10 +1587,8 @@ op
 !
 =
 "
-)
 &
 &
-(
 item
 [
 config
@@ -1620,10 +1599,8 @@ field
 =
 rhs
 )
-)
 |
 |
-(
 (
 config
 .
@@ -1634,10 +1611,8 @@ op
 "
 <
 "
-)
 &
 &
-(
 item
 [
 config
@@ -1647,10 +1622,8 @@ field
 <
 rhs
 )
-)
 |
 |
-(
 (
 config
 .
@@ -1662,10 +1635,8 @@ op
 <
 =
 "
-)
 &
 &
-(
 item
 [
 config
@@ -1676,10 +1647,8 @@ field
 =
 rhs
 )
-)
 |
 |
-(
 (
 config
 .
@@ -1690,10 +1659,8 @@ op
 "
 >
 "
-)
 &
 &
-(
 item
 [
 config
@@ -1703,10 +1670,8 @@ field
 >
 rhs
 )
-)
 |
 |
-(
 (
 config
 .
@@ -1718,10 +1683,8 @@ op
 >
 =
 "
-)
 &
 &
-(
 item
 [
 config
@@ -1731,7 +1694,6 @@ field
 >
 =
 rhs
-)
 )
 )
 {
@@ -1967,7 +1929,6 @@ tok
 }
 if
 (
-(
 pair
 [
 1
@@ -1976,10 +1937,8 @@ pair
 =
 =
 null
-)
 &
 &
-(
 pair
 [
 1
@@ -1989,7 +1948,6 @@ pair
 =
 "
 "
-)
 )
 {
 let
@@ -2565,7 +2523,6 @@ k
 let
 descending
 =
-(
 !
 (
 "
@@ -2576,7 +2533,6 @@ config
 )
 |
 |
-(
 config
 .
 descending
@@ -2584,8 +2540,6 @@ descending
 =
 =
 false
-)
-)
 ;
 /
 /
@@ -5966,16 +5920,13 @@ config
 {
 if
 (
-(
 config
 .
 haystack
 in
 item
-)
 &
 &
-(
 config
 .
 needle
@@ -5986,7 +5937,6 @@ config
 .
 haystack
 ]
-)
 )
 {
 item
@@ -7267,7 +7217,6 @@ field
 )
 |
 |
-(
 right
 [
 config
@@ -7287,7 +7236,6 @@ field
 [
 key
 ]
-)
 )
 {
 left
@@ -7761,11 +7709,9 @@ b
 =
 >
 (
-(
 a
 >
 b
-)
 ?
 a
 :
@@ -7856,7 +7802,6 @@ left_field
 }
 if
 (
-(
 !
 (
 config
@@ -7865,10 +7810,8 @@ right_key_field
 in
 right
 )
-)
 |
 |
-(
 !
 (
 config
@@ -7876,7 +7819,6 @@ config
 right_value_field
 in
 right
-)
 )
 )
 {

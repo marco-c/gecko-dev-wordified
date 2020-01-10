@@ -55,14 +55,10 @@ extData
 manifest
 :
 {
-"
 sidebar_action
-"
 :
 {
-"
 default_panel
-"
 :
 "
 sidebar

@@ -142,9 +142,7 @@ ExtensionTestUtils
 normalizeManifest
 (
 {
-"
 commands
-"
 :
 {
 "
@@ -154,20 +152,14 @@ feature
 "
 :
 {
-"
 suggested_key
-"
 :
 {
-"
 default
-"
 :
 shortcut
 }
-"
 description
-"
 :
 "
 Send
@@ -215,7 +207,6 @@ else
 let
 expectedError
 =
-(
 String
 .
 raw
@@ -319,7 +310,6 @@ json
 commands
 #
 Key_combinations
-)
 ;
 ok
 (

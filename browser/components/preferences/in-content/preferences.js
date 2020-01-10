@@ -963,14 +963,10 @@ CustomEvent
 Initialized
 "
 {
-"
 bubbles
-"
 :
 true
-"
 cancelable
-"
 :
 true
 }
@@ -1332,8 +1328,10 @@ category
 !
 subcategory
 )
+{
 return
 ;
+}
 let
 item
 ;
@@ -1889,6 +1887,7 @@ attributeValue
 =
 aQuery
 )
+{
 element
 .
 removeAttribute
@@ -1898,7 +1897,9 @@ disabled
 "
 )
 ;
+}
 else
+{
 element
 .
 setAttribute
@@ -1909,6 +1910,7 @@ disabled
 true
 )
 ;
+}
 }
 }
 async
@@ -2224,9 +2226,11 @@ pane
 "
 )
 )
+{
 return
 aName
 ;
+}
 return
 "
 pane
@@ -2522,7 +2526,6 @@ button
 let
 buttonFlags
 =
-(
 Services
 .
 prompt
@@ -2534,7 +2537,6 @@ Services
 prompt
 .
 BUTTON_TITLE_IS_STRING
-)
 ;
 /
 /
@@ -2556,7 +2558,6 @@ aWantRevertAsCancelButton
 buttonFlags
 +
 =
-(
 Services
 .
 prompt
@@ -2568,7 +2569,6 @@ Services
 prompt
 .
 BUTTON_TITLE_IS_STRING
-)
 ;
 }
 else
@@ -2580,7 +2580,6 @@ null
 buttonFlags
 +
 =
-(
 Services
 .
 prompt
@@ -2592,7 +2591,6 @@ Services
 prompt
 .
 BUTTON_TITLE_CANCEL
-)
 ;
 }
 /
@@ -2615,7 +2613,6 @@ aWantRestartLaterButton
 buttonFlags
 +
 =
-(
 Services
 .
 prompt
@@ -2627,7 +2624,6 @@ Services
 prompt
 .
 BUTTON_TITLE_IS_STRING
-)
 ;
 }
 else

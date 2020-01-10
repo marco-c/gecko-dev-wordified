@@ -1575,6 +1575,7 @@ false
 let
 supportedNetworks
 =
+(
 modifier
 .
 data
@@ -1585,12 +1586,14 @@ modifier
 data
 .
 supportedNetworks
+)
 |
 |
 [
 ]
 ;
 return
+(
 supportedNetworks
 .
 length
@@ -1611,6 +1614,7 @@ cc
 type
 "
 ]
+)
 )
 ;
 }

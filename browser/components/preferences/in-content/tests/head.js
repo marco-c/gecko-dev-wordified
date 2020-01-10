@@ -282,8 +282,10 @@ about
 blank
 "
 )
+{
 return
 ;
+}
 content
 .
 gSubDialog
@@ -750,8 +752,10 @@ aEvent
 .
 target
 )
+{
 return
 ;
+}
 /
 /
 stop
@@ -969,12 +973,14 @@ aOptions
 .
 leaveOpen
 )
+{
 gBrowser
 .
 removeCurrentTab
 (
 )
 ;
+}
 resolve
 (
 {
@@ -1202,9 +1208,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

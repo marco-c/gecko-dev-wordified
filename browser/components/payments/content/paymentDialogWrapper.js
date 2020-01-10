@@ -661,6 +661,7 @@ Math
 .
 abs
 (
+(
 Math
 .
 random
@@ -668,6 +669,7 @@ random
 )
 *
 0xffffffff
+)
 |
 0
 )
@@ -810,6 +812,7 @@ guid
 )
 |
 |
+(
 await
 formAutofillStorage
 .
@@ -818,6 +821,7 @@ addresses
 get
 (
 guid
+)
 )
 ;
 if
@@ -931,6 +935,7 @@ guid
 )
 |
 |
+(
 await
 formAutofillStorage
 .
@@ -939,6 +944,7 @@ addresses
 get
 (
 guid
+)
 )
 ;
 if
@@ -1286,6 +1292,7 @@ guid
 )
 |
 |
+(
 await
 formAutofillStorage
 .
@@ -1294,6 +1301,7 @@ creditCards
 get
 (
 guid
+)
 )
 ;
 if
@@ -1515,9 +1523,7 @@ requestId
 |
 |
 typeof
-(
 requestId
-)
 !
 =
 "
@@ -3757,6 +3763,7 @@ if
 shippingGUID
 &
 &
+(
 await
 formAutofillStorage
 .
@@ -3765,6 +3772,7 @@ addresses
 get
 (
 shippingGUID
+)
 )
 )
 {
@@ -3783,6 +3791,7 @@ if
 payerGUID
 &
 &
+(
 await
 formAutofillStorage
 .
@@ -3791,6 +3800,7 @@ addresses
 get
 (
 payerGUID
+)
 )
 )
 {

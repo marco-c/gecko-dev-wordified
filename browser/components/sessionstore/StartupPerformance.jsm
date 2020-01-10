@@ -1343,9 +1343,7 @@ subject
 let
 observer
 =
-(
 event
-)
 =
 >
 {

@@ -101,6 +101,7 @@ the
 parent
 :
 return
+(
 Ci
 .
 nsIAboutModule
@@ -118,6 +119,7 @@ Ci
 nsIAboutModule
 .
 HIDE_FROM_ABOUTABOUT
+)
 ;
 }
 newChannel
@@ -379,9 +381,11 @@ Promise
 r
 =
 >
+(
 resolveLocationChangePromise
 =
 r
+)
 )
 ;
 let

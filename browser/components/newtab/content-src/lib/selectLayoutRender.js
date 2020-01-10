@@ -372,9 +372,7 @@ recommendations
 push
 (
 {
-"
 placeholder
-"
 :
 true
 }

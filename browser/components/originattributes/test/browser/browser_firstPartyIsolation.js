@@ -1037,7 +1037,6 @@ return
 url
 =
 =
-(
 BASE_URL
 +
 "
@@ -1045,7 +1044,6 @@ test_firstParty_iframe_http_redirect
 .
 html
 "
-)
 ;
 }
 )

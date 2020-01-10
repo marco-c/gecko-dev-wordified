@@ -187,12 +187,10 @@ fn
 &
 &
 typeof
-(
 this
 [
 fn
 ]
-)
 =
 =
 =

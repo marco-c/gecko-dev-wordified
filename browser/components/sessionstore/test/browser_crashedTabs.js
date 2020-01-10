@@ -225,9 +225,7 @@ id
 let
 frame_script
 =
-(
 buttonId
-)
 =
 >
 {
@@ -828,9 +826,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -3253,7 +3249,6 @@ hidden
 ok
 (
 !
-(
 restoreOneButton
 .
 classList
@@ -3263,7 +3258,6 @@ contains
 "
 primary
 "
-)
 )
 "
 Restore

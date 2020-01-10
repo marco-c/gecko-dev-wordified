@@ -323,9 +323,7 @@ withSidebarTree
 bookmarks
 "
 async
-(
 tree
-)
 =
 >
 {

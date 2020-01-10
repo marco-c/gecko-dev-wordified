@@ -540,10 +540,12 @@ bookmarks
 selectedNode
 )
 )
+{
 disableAcceptButton
 =
 false
 ;
+}
 }
 accept
 .
@@ -703,6 +705,7 @@ bookmarks
 .
 hasSelection
 )
+{
 throw
 new
 Error
@@ -725,6 +728,7 @@ URL
 "
 )
 ;
+}
 var
 urls
 =

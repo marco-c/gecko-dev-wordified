@@ -104,9 +104,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -138,9 +136,7 @@ promise
 new
 Promise
 (
-(
 r
-)
 =
 >
 {
@@ -163,9 +159,7 @@ events
 let
 listener
 =
-(
 highlightInfo
-)
 =
 >
 {
@@ -211,9 +205,11 @@ listener
 ;
 expected
 =
+(
 await
 fn
 (
+)
 )
 |
 |

@@ -553,8 +553,10 @@ source
 =
 target
 )
+{
 continue
 ;
+}
 let
 key
 =
@@ -1257,14 +1259,10 @@ opportunitiesCount
 opportunitiesCountByLang
 :
 {
-"
 ru
-"
 :
 1
-"
 de
-"
 :
 1
 }

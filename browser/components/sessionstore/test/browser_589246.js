@@ -902,6 +902,7 @@ prefHasUserValue
 p
 )
 )
+{
 Services
 .
 prefs
@@ -911,6 +912,7 @@ clearUserPref
 p
 )
 ;
+}
 }
 )
 ;
@@ -1197,6 +1199,7 @@ if
 (
 shouldPinTab
 )
+{
 newWin
 .
 gBrowser
@@ -1210,6 +1213,7 @@ gBrowser
 selectedTab
 )
 ;
+}
 newWin
 .
 addEventListener

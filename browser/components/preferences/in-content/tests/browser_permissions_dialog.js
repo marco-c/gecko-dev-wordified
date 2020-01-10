@@ -1104,7 +1104,6 @@ waitForCondition
 )
 =
 >
-(
 SitePermissions
 .
 get
@@ -1123,10 +1122,8 @@ state
 SitePermissions
 .
 UNKNOWN
-)
 &
 &
-(
 SitePermissions
 .
 get
@@ -1145,7 +1142,6 @@ state
 SitePermissions
 .
 UNKNOWN
-)
 )
 ;
 }
@@ -2885,9 +2881,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

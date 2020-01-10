@@ -80,9 +80,7 @@ dialogPromise
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

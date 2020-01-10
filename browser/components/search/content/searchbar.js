@@ -690,7 +690,6 @@ this
 .
 FormHistory
 =
-(
 ChromeUtils
 .
 import
@@ -710,7 +709,6 @@ jsm
 "
 {
 }
-)
 )
 .
 FormHistory
@@ -820,8 +818,10 @@ this
 .
 _initialized
 )
+{
 return
 ;
+}
 /
 /
 Refresh
@@ -1031,6 +1031,7 @@ this
 .
 _engines
 )
+{
 this
 .
 _engines
@@ -1044,6 +1045,7 @@ getVisibleEngines
 (
 )
 ;
+}
 return
 this
 .
@@ -1150,6 +1152,7 @@ val
 )
 {
 return
+(
 this
 .
 _textbox
@@ -1157,6 +1160,7 @@ _textbox
 value
 =
 val
+)
 ;
 }
 get
@@ -1500,8 +1504,10 @@ _textbox
 .
 open
 )
+{
 return
 ;
+}
 this
 .
 _textbox
@@ -1830,8 +1836,10 @@ button
 =
 2
 )
+{
 return
 ;
+}
 where
 =
 whereToOpenLink
@@ -1871,6 +1879,7 @@ loadInBackground
 "
 )
 )
+{
 where
 +
 =
@@ -1879,6 +1888,7 @@ where
 background
 "
 ;
+}
 }
 else
 {
@@ -1903,7 +1913,6 @@ openintab
 if
 (
 (
-(
 aEvent
 instanceof
 KeyboardEvent
@@ -1915,7 +1924,6 @@ altKey
 )
 ^
 newTabPref
-)
 &
 &
 !
@@ -1935,11 +1943,9 @@ tab
 }
 if
 (
-(
 aEvent
 instanceof
 MouseEvent
-)
 &
 &
 (
@@ -2044,7 +2050,6 @@ if
 selection
 |
 |
-(
 selection
 .
 index
@@ -2052,7 +2057,6 @@ index
 =
 -
 1
-)
 )
 {
 oneOffRecorded
@@ -2273,12 +2277,14 @@ aParams
 .
 inBackground
 )
+{
 this
 .
 focus
 (
 )
 ;
+}
 }
 doSearch
 (
@@ -2469,13 +2475,11 @@ isOneOff
 aOneOff
 isSuggestion
 :
-(
 !
 aOneOff
 &
 &
 telemetrySearchDetails
-)
 selection
 :
 telemetrySearchDetails
@@ -2588,9 +2592,7 @@ addEventListener
 "
 command
 "
-(
 event
-)
 =
 >
 {
@@ -2675,11 +2677,13 @@ then
 engine
 =
 >
+(
 this
 .
 currentEngine
 =
 engine
+)
 )
 ;
 }
@@ -2710,9 +2714,7 @@ addEventListener
 "
 DOMMouseScroll
 "
-(
 event
-)
 =
 >
 {
@@ -2752,9 +2754,7 @@ addEventListener
 "
 input
 "
-(
 event
-)
 =
 >
 {
@@ -2774,9 +2774,7 @@ addEventListener
 "
 drop
 "
-(
 event
-)
 =
 >
 {
@@ -2796,9 +2794,7 @@ addEventListener
 "
 blur
 "
-(
 event
-)
 =
 >
 {
@@ -2830,7 +2826,6 @@ this
 .
 _ignoreFocus
 =
-(
 document
 .
 activeElement
@@ -2841,7 +2836,6 @@ this
 _textbox
 .
 inputField
-)
 ;
 }
 true
@@ -2854,9 +2848,7 @@ addEventListener
 "
 focus
 "
-(
 event
-)
 =
 >
 {
@@ -2960,8 +2952,10 @@ _textbox
 .
 value
 )
+{
 return
 ;
+}
 /
 /
 Don
@@ -3009,8 +3003,10 @@ focus
 .
 FLAG_BYMOUSE
 )
+{
 return
 ;
+}
 this
 .
 openSuggestionsPanel
@@ -3028,9 +3024,7 @@ addEventListener
 "
 mousedown
 "
-(
 event
-)
 =
 >
 {
@@ -3234,9 +3228,7 @@ addEventListener
 "
 input
 "
-(
 event
-)
 =
 >
 {
@@ -3265,9 +3257,7 @@ addEventListener
 "
 keypress
 "
-(
 event
-)
 =
 >
 {
@@ -3382,9 +3372,7 @@ addEventListener
 "
 keypress
 "
-(
 event
-)
 =
 >
 {
@@ -3432,9 +3420,7 @@ addEventListener
 "
 keypress
 "
-(
 event
-)
 =
 >
 {
@@ -3482,9 +3468,7 @@ addEventListener
 "
 keypress
 "
-(
 event
-)
 =
 >
 {
@@ -3544,9 +3528,7 @@ addEventListener
 "
 dragover
 "
-(
 event
-)
 =
 >
 {
@@ -3610,9 +3592,7 @@ addEventListener
 "
 drop
 "
-(
 event
-)
 =
 >
 {
@@ -3716,6 +3696,7 @@ command
 )
 {
 return
+(
 command
 =
 =
@@ -3730,6 +3711,7 @@ command
 "
 cmd_togglesuggest
 "
+)
 ;
 }
 isCommandEnabled
@@ -4110,6 +4092,7 @@ get
 )
 {
 return
+(
 this
 .
 getAttribute
@@ -4134,6 +4117,7 @@ private
 :
 "
 "
+)
 )
 ;
 }
@@ -4190,6 +4174,7 @@ val
 )
 {
 return
+(
 this
 .
 popup
@@ -4199,6 +4184,7 @@ oneOffButtons
 selectedButton
 =
 val
+)
 ;
 }
 }
@@ -4242,9 +4228,7 @@ textbox
 .
 onBeforeValueSet
 =
-(
 aValue
-)
 =
 >
 {
@@ -4670,9 +4654,7 @@ textbox
 .
 handleEnter
 =
-(
 event
-)
 =
 >
 {
@@ -4830,9 +4812,7 @@ textbox
 .
 onTextEntered
 =
-(
 event
-)
 =
 >
 {
@@ -4985,12 +4965,14 @@ cmd
 cmd_paste
 "
 )
+{
 insertLocation
 =
 insertLocation
 .
 nextElementSibling
 ;
+}
 if
 (
 insertLocation
@@ -5285,9 +5267,7 @@ addEventListener
 "
 keypress
 "
-(
 event
-)
 =
 >
 {
@@ -5388,8 +5368,10 @@ if
 !
 pasteAndSearch
 )
+{
 return
 ;
+}
 let
 controller
 =
@@ -5420,6 +5402,7 @@ if
 (
 enabled
 )
+{
 pasteAndSearch
 .
 removeAttribute
@@ -5429,7 +5412,9 @@ disabled
 "
 )
 ;
+}
 else
+{
 pasteAndSearch
 .
 setAttribute
@@ -5442,6 +5427,7 @@ true
 "
 )
 ;
+}
 }
 ;
 aMenu

@@ -886,6 +886,7 @@ matchesFilter
 )
 {
 return
+(
 gFilterShowAll
 |
 |
@@ -919,6 +920,7 @@ toLowerCase
 includes
 (
 gFilterString
+)
 )
 )
 ;
@@ -1013,6 +1015,7 @@ _element
 append
 (
 nameCell
+(
 this
 .
 valueCell
@@ -1025,6 +1028,8 @@ createElement
 td
 "
 )
+)
+(
 this
 .
 editCell
@@ -1037,6 +1042,8 @@ createElement
 td
 "
 )
+)
+(
 this
 .
 resetCell
@@ -1050,12 +1057,14 @@ td
 "
 )
 )
+)
 ;
 this
 .
 editCell
 .
 appendChild
+(
 (
 this
 .
@@ -1068,6 +1077,7 @@ createElement
 "
 button
 "
+)
 )
 )
 ;
@@ -2805,6 +2815,7 @@ content
 let
 search
 =
+(
 gSearchInput
 =
 document
@@ -2819,10 +2830,12 @@ config
 search
 "
 )
+)
 ;
 let
 prefs
 =
+(
 gPrefsTable
 =
 document
@@ -2832,6 +2845,7 @@ getElementById
 "
 prefs
 "
+)
 )
 ;
 let
@@ -4037,12 +4051,10 @@ gPrefsTable
 .
 appendChild
 (
-(
 new
 PrefRow
 (
 searchName
-)
 )
 .
 getElement

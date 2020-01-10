@@ -1075,6 +1075,7 @@ page
 )
 ;
 return
+(
 startupPref
 .
 value
@@ -1089,6 +1090,7 @@ STARTUP_PREF_BLANK
 HomePage
 .
 isDefault
+)
 ;
 }
 /
@@ -1133,6 +1135,7 @@ page
 )
 ;
 return
+(
 [
 "
 about
@@ -1162,6 +1165,7 @@ value
 gMainPane
 .
 STARTUP_PREF_BLANK
+)
 ;
 }
 /
@@ -1595,9 +1599,7 @@ controlled
 .
 forEach
 (
-(
 element
-)
 =
 >
 {
@@ -2393,8 +2395,10 @@ button
 accept
 "
 )
+{
 return
 ;
+}
 if
 (
 rv

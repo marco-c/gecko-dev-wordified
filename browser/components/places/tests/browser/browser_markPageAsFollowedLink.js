@@ -165,12 +165,10 @@ LEFT_URL
 {
 is
 (
-(
 await
 getTransitionForUrl
 (
 url
-)
 )
 null
 "
@@ -204,12 +202,10 @@ RIGHT_URL
 {
 is
 (
-(
 await
 getTransitionForUrl
 (
 url
-)
 )
 PlacesUtils
 .

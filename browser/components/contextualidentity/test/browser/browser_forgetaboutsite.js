@@ -530,6 +530,7 @@ if
 !
 lci
 )
+{
 lci
 =
 Services
@@ -538,6 +539,7 @@ loadContextInfo
 .
 default
 ;
+}
 switch
 (
 where
@@ -717,11 +719,9 @@ this
 }
 }
 ;
-(
 new
 CacheListener
 (
-)
 )
 .
 run
@@ -2382,9 +2382,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -2499,6 +2497,7 @@ i
 +
 +
 )
+{
 add_task
 (
 tests
@@ -2507,6 +2506,7 @@ i
 ]
 )
 ;
+}
 }
 )
 ;

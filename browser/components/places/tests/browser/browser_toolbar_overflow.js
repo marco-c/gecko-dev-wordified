@@ -383,6 +383,7 @@ visibility
 visible
 "
 )
+{
 visibleNodes
 .
 push
@@ -390,6 +391,7 @@ push
 node
 )
 ;
+}
 }
 Assert
 .
@@ -1011,6 +1013,7 @@ waitForCondition
 >
 {
 return
+(
 content
 .
 children
@@ -1033,6 +1036,7 @@ hasAttribute
 "
 image
 "
+)
 )
 ;
 }

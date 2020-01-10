@@ -247,9 +247,7 @@ spawn
 browser
 loginCount
 async
-(
 expectedLoginCount
-)
 =
 >
 {
@@ -444,6 +442,7 @@ waitForCondition
 )
 =
 >
+(
 notification
 =
 gBrowser
@@ -463,6 +462,7 @@ login
 -
 required
 "
+)
 )
 )
 ;

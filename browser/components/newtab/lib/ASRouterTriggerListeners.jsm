@@ -262,6 +262,7 @@ win
 )
 {
 return
+(
 !
 (
 win
@@ -282,6 +283,7 @@ PrivateBrowsingUtils
 isWindowPrivate
 (
 win
+)
 )
 ;
 }
@@ -502,6 +504,7 @@ spec
 )
 {
 return
+(
 hosts
 .
 has
@@ -524,6 +527,7 @@ originalLocation
 .
 spec
 }
+)
 ;
 }
 return
@@ -1375,13 +1379,11 @@ domwindowclosed
 :
 if
 (
-(
 win
 instanceof
 Ci
 .
 nsIDOMWindow
-)
 &
 &
 win
@@ -2078,13 +2080,11 @@ domwindowclosed
 :
 if
 (
-(
 win
 instanceof
 Ci
 .
 nsIDOMWindow
-)
 &
 &
 win

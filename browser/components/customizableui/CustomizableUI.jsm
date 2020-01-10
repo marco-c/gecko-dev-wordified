@@ -2798,11 +2798,9 @@ downloadButtonIndex
 ?
 bmbIndex
 :
-(
 downloadButtonIndex
 +
 1
-)
 ;
 placements
 .
@@ -3503,8 +3501,10 @@ if
 !
 gSavedState
 )
+{
 return
 ;
+}
 let
 currentVersion
 =
@@ -3519,8 +3519,10 @@ currentVersion
 =
 kVersion
 )
+{
 return
 ;
+}
 /
 /
 we
@@ -7003,7 +7005,6 @@ contextmenu
 let
 contextMenuForPlace
 =
-(
 forcePanel
 |
 |
@@ -7019,7 +7020,6 @@ CustomizableUI
 getPlaceForItem
 (
 aAreaNode
-)
 )
 ?
 kPanelItemContextMenu
@@ -9520,6 +9520,7 @@ aId2
 )
 ;
 return
+(
 this
 .
 isSpecialWidget
@@ -9568,6 +9569,7 @@ separator
 [
 0
 ]
+)
 ;
 }
 ensureSpecialWidgetId
@@ -9636,11 +9638,9 @@ kSpecialWidgetPfx
 +
 aId
 +
-(
 +
 +
 gNewElementCount
-)
 ;
 }
 return
@@ -10381,6 +10381,7 @@ defaultView
 XULElement
 )
 )
+{
 log
 .
 error
@@ -10406,6 +10407,7 @@ node
 "
 )
 ;
+}
 }
 else
 {
@@ -11493,8 +11495,10 @@ shortcut
 "
 )
 )
+{
 return
 ;
+}
 let
 document
 =
@@ -11550,6 +11554,7 @@ if
 (
 commandId
 )
+{
 shortcut
 =
 ShortcutUtils
@@ -11564,6 +11569,7 @@ commandId
 )
 )
 ;
+}
 }
 if
 (
@@ -12510,7 +12516,6 @@ closemenu
 ;
 menuitemCloseMenu
 =
-(
 closemenuVal
 =
 =
@@ -12525,7 +12530,6 @@ closemenuVal
 "
 none
 "
-)
 ?
 closemenuVal
 :
@@ -14837,6 +14841,7 @@ id
 of
 placements
 )
+{
 this
 .
 addWidgetToArea
@@ -14845,6 +14850,7 @@ id
 aArea
 )
 ;
+}
 gDirty
 =
 false
@@ -14906,6 +14912,7 @@ id
 of
 defaults
 )
+{
 this
 .
 addWidgetToArea
@@ -14916,6 +14923,7 @@ null
 true
 )
 ;
+}
 }
 gDirty
 =
@@ -14990,6 +14998,7 @@ get
 aArea
 )
 )
+{
 this
 .
 addWidgetToArea
@@ -14998,6 +15007,7 @@ id
 aArea
 )
 ;
+}
 gFuturePlacements
 .
 delete
@@ -15307,6 +15317,7 @@ mapValue
 of
 aValue
 )
+{
 result
 [
 mapKey
@@ -15314,6 +15325,7 @@ mapKey
 =
 mapValue
 ;
+}
 return
 result
 ;
@@ -18951,9 +18963,7 @@ gUIStateBeforeReset
 .
 forEach
 (
-(
 prop
-)
 =
 >
 {
@@ -19611,9 +19621,7 @@ areaNodes
 .
 filter
 (
-(
 n
-)
 =
 >
 n
@@ -20073,9 +20081,7 @@ buildAreaNodes
 let
 removableOrDefault
 =
-(
 itemNodeOrItem
-)
 =
 >
 {
@@ -20182,9 +20188,7 @@ currentPlacements
 .
 filter
 (
-(
 item
-)
 =
 >
 {
@@ -21165,9 +21169,11 @@ window
 of
 gBuildWindows
 )
+{
 yield
 window
 ;
+}
 }
 }
 /
@@ -26551,6 +26557,7 @@ canUndoReset
 )
 {
 return
+(
 gUIStateBeforeReset
 .
 uiCustomizationState
@@ -26597,6 +26604,7 @@ uiDensity
 !
 =
 null
+)
 ;
 }
 /
@@ -28261,12 +28269,14 @@ localName
 toolbar
 "
 )
+{
 place
 =
 "
 toolbar
 "
 ;
+}
 else
 if
 (
@@ -28279,6 +28289,7 @@ CustomizableUI
 .
 AREA_FIXED_OVERFLOW_PANEL
 )
+{
 place
 =
 "
@@ -28287,6 +28298,7 @@ menu
 panel
 "
 ;
+}
 else
 if
 (
@@ -28301,12 +28313,14 @@ customization
 palette
 "
 )
+{
 place
 =
 "
 palette
 "
 ;
+}
 node
 =
 node
@@ -28529,8 +28543,10 @@ menuChild
 .
 hidden
 )
+{
 continue
 ;
+}
 let
 subviewItem
 ;
@@ -28813,6 +28829,7 @@ if
 (
 attrVal
 )
+{
 subviewItem
 .
 setAttribute
@@ -28821,6 +28838,7 @@ attr
 attrVal
 )
 ;
+}
 }
 /
 /
@@ -29426,9 +29444,7 @@ Array
 from
 (
 buildAreas
-(
 node
-)
 =
 >
 this
@@ -30171,9 +30187,7 @@ Array
 from
 (
 gBuildWindows
-(
 wins
-)
 =
 >
 this
@@ -30610,12 +30624,10 @@ anchorid
 ;
 }
 return
-(
 anchorId
 &
 &
 node
-)
 ?
 node
 .
@@ -32277,8 +32289,10 @@ this
 .
 _enabled
 )
+{
 return
 ;
+}
 let
 child
 =
@@ -33299,8 +33313,10 @@ this
 .
 _enabled
 )
+{
 return
 ;
+}
 let
 win
 =
@@ -34687,7 +34703,6 @@ true
 let
 containerForAppending
 =
-(
 this
 .
 _collapsed
@@ -34696,7 +34711,6 @@ size
 &
 &
 newNodeCanOverflow
-)
 ?
 this
 .

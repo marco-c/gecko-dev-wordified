@@ -428,11 +428,14 @@ childCount
 =
 aChildCount
 )
+{
 aCallback
 (
 )
 ;
+}
 else
+{
 setTimeout
 (
 (
@@ -448,4 +451,5 @@ aCallback
 100
 )
 ;
+}
 }

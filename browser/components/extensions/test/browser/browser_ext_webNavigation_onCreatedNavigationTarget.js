@@ -62,9 +62,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -140,9 +138,7 @@ onCreatedNavigationTarget
 .
 addListener
 (
-(
 msg
-)
 =
 >
 {
@@ -170,9 +166,7 @@ onCompleted
 addListener
 (
 async
-(
 msg
-)
 =
 >
 {
@@ -265,9 +259,7 @@ onCreated
 .
 addListener
 (
-(
 tab
-)
 =
 >
 {
@@ -544,16 +536,14 @@ click
 ;
 info
 (
-"
+'
 Open
 link
 with
 target
 =
-\
 "
 _blank
-\
 "
 in
 a
@@ -561,7 +551,7 @@ new
 tab
 using
 click
-"
+'
 )
 ;
 await
@@ -1006,7 +996,7 @@ subframe
 ;
 info
 (
-"
+'
 Open
 a
 subframe
@@ -1014,10 +1004,8 @@ link
 with
 target
 =
-\
 "
 _blank
-\
 "
 in
 a
@@ -1025,7 +1013,7 @@ new
 tab
 using
 click
-"
+'
 )
 ;
 await

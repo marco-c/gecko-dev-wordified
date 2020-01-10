@@ -246,9 +246,7 @@ PLACES
 .
 filter
 (
-(
 elem
-)
 =
 >
 {

@@ -652,9 +652,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -752,9 +750,7 @@ extension
 .
 id
 async
-(
 extId
-)
 =
 >
 {

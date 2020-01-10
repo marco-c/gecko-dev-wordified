@@ -584,6 +584,7 @@ _observer
 _observer
 =
 new
+(
 class
 extends
 EventEmitter
@@ -794,6 +795,7 @@ spec
 }
 }
 }
+)
 (
 )
 ;
@@ -1117,14 +1119,12 @@ query
 let
 beginTime
 =
-(
 query
 .
 startTime
 =
 =
 null
-)
 ?
 PlacesUtils
 .
@@ -1160,14 +1160,12 @@ startTime
 let
 endTime
 =
-(
 query
 .
 endTime
 =
 =
 null
-)
 ?
 Number
 .

@@ -64,14 +64,10 @@ ExtensionTestUtils
 normalizeManifest
 (
 {
-"
 omnibox
-"
 :
 {
-"
 keyword
-"
 :
 params
 .
@@ -90,7 +86,6 @@ expectError
 let
 expectedError
 =
-(
 String
 .
 raw
@@ -129,7 +124,6 @@ s
 ]
 *
 /
-)
 ;
 ok
 (

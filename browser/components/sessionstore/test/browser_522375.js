@@ -79,6 +79,7 @@ values
 =
 0
 )
+{
 ok
 (
 startup_info
@@ -104,7 +105,9 @@ startup_info
 )
 )
 ;
+}
 else
+{
 todo
 (
 false
@@ -124,6 +127,7 @@ test
 "
 )
 ;
+}
 /
 /
 on
@@ -147,6 +151,7 @@ startup_info
 .
 firstPaint
 )
+{
 ok
 (
 startup_info
@@ -171,6 +176,7 @@ startup_info
 )
 )
 ;
+}
 ok
 (
 startup_info

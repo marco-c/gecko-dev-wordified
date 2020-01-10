@@ -1243,6 +1243,7 @@ win
 >
 {
 return
+(
 winAcc
 +
 win
@@ -1273,6 +1274,7 @@ pinned
 ;
 }
 0
+)
 )
 ;
 }
@@ -1609,7 +1611,6 @@ crashed
 let
 stateFlagPresent
 =
-(
 this
 .
 _initialState
@@ -1624,7 +1625,6 @@ _initialState
 session
 .
 state
-)
 ;
 this
 .
@@ -1634,7 +1634,6 @@ _previousSessionCrashed
 stateFlagPresent
 |
 |
-(
 this
 .
 _initialState
@@ -1645,7 +1644,6 @@ state
 =
 =
 STATE_RUNNING_STR
-)
 ;
 }
 /
@@ -2130,6 +2128,7 @@ willRestore
 )
 {
 return
+(
 this
 .
 sessionType
@@ -2148,6 +2147,7 @@ sessionType
 this
 .
 RESUME_SESSION
+)
 ;
 }
 /

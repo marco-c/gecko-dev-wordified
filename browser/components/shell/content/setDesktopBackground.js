@@ -1499,11 +1499,9 @@ gMask
 var
 b
 =
-(
 color
 &
 bMask
-)
 ;
 this
 .
@@ -1595,6 +1593,8 @@ aString
 )
 {
 return
+(
+(
 parseInt
 (
 aString
@@ -1609,7 +1609,9 @@ substring
 <
 <
 16
+)
 |
+(
 parseInt
 (
 aString
@@ -1624,6 +1626,7 @@ substring
 <
 <
 8
+)
 |
 parseInt
 (
@@ -1635,6 +1638,7 @@ substring
 7
 )
 16
+)
 )
 ;
 }
@@ -1651,6 +1655,7 @@ aB
 )
 {
 return
+(
 "
 #
 "
@@ -1696,6 +1701,7 @@ join
 .
 toUpperCase
 (
+)
 )
 ;
 }

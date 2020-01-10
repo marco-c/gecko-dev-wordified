@@ -418,7 +418,6 @@ targetWidth
 =
 aRealWidth
 -
-(
 2
 *
 RFPHelper
@@ -427,14 +426,12 @@ steppedRange
 (
 aRealWidth
 )
-)
 ;
 let
 targetHeight
 =
 aRealHeight
 -
-(
 2
 *
 RFPHelper
@@ -442,7 +439,6 @@ RFPHelper
 steppedRange
 (
 aRealHeight
-)
 )
 ;
 /
@@ -604,6 +600,7 @@ it
 succeeds
 .
 return
+(
 handleOSFuzziness
 (
 aContentWidth
@@ -615,6 +612,7 @@ handleOSFuzziness
 (
 aContentHeight
 targetHeight
+)
 )
 ;
 }
@@ -728,9 +726,7 @@ promiseForTheFirstRounding
 let
 getContainerSize
 =
-(
 aTab
-)
 =
 >
 {
@@ -1406,9 +1402,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -1758,6 +1752,7 @@ it
 succeeds
 .
 return
+(
 handleOSFuzziness
 (
 aContentWidth
@@ -1773,6 +1768,7 @@ aContentHeight
 targetDimensions
 .
 height
+)
 )
 ;
 }
@@ -1932,9 +1928,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

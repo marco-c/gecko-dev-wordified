@@ -268,13 +268,11 @@ messagePayload
 panelId
 data
 :
-(
 payload
 |
 |
 {
 }
-)
 }
 ;
 /
@@ -422,7 +420,7 @@ sendMessage
 }
 ;
 }
-(
 )
+(
 )
 ;

@@ -680,8 +680,10 @@ arguments
 i
 ]
 )
+{
 continue
 ;
+}
 for
 (
 var
@@ -705,6 +707,7 @@ hasOwnProperty
 key
 )
 )
+{
 out
 [
 key
@@ -718,6 +721,7 @@ i
 key
 ]
 ;
+}
 }
 }
 return
@@ -984,9 +988,11 @@ prefHasUserValue
 key
 )
 )
+{
 return
 undefined
 ;
+}
 return
 prefBranch
 .
@@ -1542,7 +1548,6 @@ isUserLoggedIn
 )
 {
 return
-(
 typeof
 getAccessToken
 (
@@ -1553,7 +1558,6 @@ getAccessToken
 "
 undefined
 "
-)
 ;
 }
 /
@@ -1751,7 +1755,6 @@ options
 {
 if
 (
-(
 typeof
 options
 =
@@ -1760,10 +1763,8 @@ options
 "
 undefined
 "
-)
 |
 |
-(
 typeof
 options
 .
@@ -1774,7 +1775,6 @@ path
 "
 undefined
 "
-)
 )
 {
 return
@@ -2399,7 +2399,6 @@ tags
 ;
 if
 (
-(
 typeof
 tags
 !
@@ -2408,7 +2407,6 @@ tags
 "
 undefined
 "
-)
 &
 &
 Array
@@ -2526,7 +2524,6 @@ flags
 var
 showHo2
 =
-(
 Services
 .
 locale
@@ -2540,7 +2537,6 @@ en
 -
 US
 "
-)
 ?
 data
 .
@@ -3773,14 +3769,10 @@ var
 newUsedTagObject
 =
 {
-"
 tag
-"
 :
 tagToSave
-"
 timestamp
-"
 :
 new
 Date
@@ -4720,7 +4712,7 @@ getMobileDownload
 }
 ;
 }
-(
 )
+(
 )
 ;

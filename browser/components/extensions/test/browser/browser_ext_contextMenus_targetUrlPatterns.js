@@ -1471,9 +1471,7 @@ onMessage
 addListener
 (
 async
-(
 msg
-)
 =
 >
 {

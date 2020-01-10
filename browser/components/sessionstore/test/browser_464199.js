@@ -200,15 +200,11 @@ windows
 :
 [
 {
-"
 tabs
-"
 :
 [
 {
-"
 entries
-"
 :
 [
 ]
@@ -596,9 +592,7 @@ formdata
 id
 :
 {
-"
 url
-"
 :
 "
 http
@@ -649,9 +643,7 @@ form
 extData
 :
 {
-"
 setCustomTabValue
-"
 :
 "
 http

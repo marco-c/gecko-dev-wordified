@@ -98,15 +98,11 @@ loadExtension
 manifest
 :
 {
-"
 content_scripts
-"
 :
 [
 {
-"
 js
-"
 :
 [
 "
@@ -115,9 +111,7 @@ script
 js
 "
 ]
-"
 matches
-"
 :
 [
 "
@@ -148,9 +142,7 @@ onConnect
 .
 addListener
 (
-(
 port
-)
 =
 >
 {

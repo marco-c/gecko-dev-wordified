@@ -1022,7 +1022,6 @@ Assert
 equal
 (
 false
-(
 await
 File
 .
@@ -1033,14 +1032,12 @@ Paths
 recovery
 )
 )
-)
 ;
 Assert
 .
 equal
 (
 false
-(
 await
 File
 .
@@ -1049,7 +1046,6 @@ exists
 Paths
 .
 recoveryBackup
-)
 )
 )
 ;

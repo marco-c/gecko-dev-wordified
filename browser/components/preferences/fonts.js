@@ -760,8 +760,10 @@ i
 .
 element
 )
+{
 continue
 ;
+}
 var
 element
 =
@@ -803,6 +805,7 @@ i
 .
 fonttype
 )
+{
 await
 FontBuilder
 .
@@ -818,6 +821,7 @@ fonttype
 element
 )
 ;
+}
 preference
 .
 setElementValue

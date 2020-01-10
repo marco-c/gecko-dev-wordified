@@ -267,9 +267,11 @@ clearInputHistory
 if
 (
 !
+(
 await
 openFn
 (
+)
 )
 )
 {

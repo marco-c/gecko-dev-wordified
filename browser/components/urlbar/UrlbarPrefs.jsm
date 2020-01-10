@@ -1645,6 +1645,7 @@ has
 pref
 )
 )
+{
 this
 .
 _map
@@ -1660,6 +1661,7 @@ pref
 )
 )
 ;
+}
 return
 this
 .
@@ -1738,8 +1740,10 @@ has
 pref
 )
 )
+{
 return
 ;
+}
 this
 .
 _map
@@ -1922,6 +1926,7 @@ def
 =
 undefined
 )
+{
 throw
 new
 Error
@@ -1938,6 +1943,7 @@ pref
 pref
 )
 ;
+}
 let
 getterName
 ;

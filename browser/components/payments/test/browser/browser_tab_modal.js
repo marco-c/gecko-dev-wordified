@@ -915,9 +915,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {

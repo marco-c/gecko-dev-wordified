@@ -134,7 +134,6 @@ expectedPrecision
 let
 rounded
 =
-(
 Math
 .
 floor
@@ -145,7 +144,6 @@ expectedPrecision
 )
 *
 expectedPrecision
-)
 ;
 /
 /
@@ -176,9 +174,11 @@ x
 =
 0
 )
+{
 return
 true
 ;
+}
 /
 /
 When
@@ -285,6 +285,7 @@ x
 expectedPrecision
 )
 <
+0
 .
 0005
 )
@@ -305,6 +306,7 @@ rounded
 x
 )
 <
+0
 .
 0005
 )
@@ -486,9 +488,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -1160,6 +1160,7 @@ setupTest
 tab
 true
 false
+0
 .
 13
 runTests
@@ -1899,6 +1900,7 @@ setupTest
 tab
 false
 true
+0
 .
 13
 runTests
@@ -2322,6 +2324,7 @@ setupTest
 tab
 true
 true
+0
 .
 13
 runWorkerTest
@@ -2398,6 +2401,7 @@ setupTest
 tab
 false
 true
+0
 .
 13
 runWorkerTest

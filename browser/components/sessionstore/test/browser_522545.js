@@ -1273,6 +1273,7 @@ i
 +
 +
 )
+{
 uris
 .
 push
@@ -1291,6 +1292,7 @@ com
 i
 )
 ;
+}
 /
 /
 We
@@ -1426,6 +1428,7 @@ aTab
 )
 {
 return
+(
 aTab
 .
 userTypedValue
@@ -1442,6 +1445,7 @@ aTab
 entries
 .
 length
+)
 ;
 }
 )
@@ -2164,12 +2168,10 @@ URLBarSetURI
 (
 )
 ;
-(
 tests
 .
 shift
 (
-)
 )
 (
 )

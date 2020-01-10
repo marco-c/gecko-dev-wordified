@@ -429,6 +429,7 @@ candidateShortURL
 )
 {
 return
+(
 SEARCH_SHORTCUTS
 .
 filter
@@ -450,6 +451,7 @@ shortURL
 |
 |
 null
+)
 ;
 }
 this

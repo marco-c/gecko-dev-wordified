@@ -475,6 +475,7 @@ com
 let
 tab
 =
+(
 win
 .
 gBrowser
@@ -489,6 +490,7 @@ win
 .
 gBrowser
 url
+)
 )
 ;
 BrowserTestUtils
@@ -563,10 +565,12 @@ if
 !
 aBrowserWin
 )
+{
 aBrowserWin
 =
 window
 ;
+}
 aBrowserWin
 .
 gCustomizeMode

@@ -1284,6 +1284,7 @@ paymentOptions
 )
 {
 return
+(
 paymentOptions
 .
 requestPayerName
@@ -1297,6 +1298,7 @@ requestPayerEmail
 paymentOptions
 .
 requestPayerPhone
+)
 ;
 }
 _getAdditionalDisplayItems

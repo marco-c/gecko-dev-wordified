@@ -458,9 +458,7 @@ resolve
 let
 onPopupHandler
 =
-(
 e
-)
 =
 >
 {

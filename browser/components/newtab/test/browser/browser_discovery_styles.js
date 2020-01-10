@@ -95,9 +95,7 @@ HorizontalRule
 styles
 :
 {
-"
 hr
-"
 :
 "
 border
@@ -253,9 +251,7 @@ size
 .
 2345cm
 "
-"
 hr
-"
 :
 "
 font
@@ -428,9 +424,7 @@ requests
 to
 unfiltered
 urls
-"
 hr
-"
 :
 display
 :

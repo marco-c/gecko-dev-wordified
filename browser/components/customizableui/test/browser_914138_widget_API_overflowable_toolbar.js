@@ -293,6 +293,7 @@ waitForCondition
 >
 {
 return
+(
 navbar
 .
 hasAttribute
@@ -321,6 +322,7 @@ overflowedItem
 "
 true
 "
+)
 ;
 }
 )
@@ -644,7 +646,6 @@ ok
 sidebarBtnNode
 &
 &
-(
 sidebarBtnNode
 .
 getAttribute
@@ -658,7 +659,6 @@ overflowedItem
 "
 true
 "
-)
 "
 Sidebar
 button
@@ -747,7 +747,6 @@ ok
 newButtonNode
 &
 &
-(
 newButtonNode
 .
 getAttribute
@@ -761,7 +760,6 @@ overflowedItem
 "
 true
 "
-)
 "
 New
 button
@@ -1325,6 +1323,7 @@ waitForCondition
 >
 {
 return
+(
 navbar
 .
 hasAttribute
@@ -1353,6 +1352,7 @@ overflowedItem
 "
 true
 "
+)
 ;
 }
 )
@@ -1947,6 +1947,7 @@ waitForCondition
 >
 {
 return
+(
 libraryButton
 .
 getAttribute
@@ -1966,6 +1967,7 @@ true
 libraryButton
 .
 previousElementSibling
+)
 ;
 }
 )

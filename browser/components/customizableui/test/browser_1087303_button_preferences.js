@@ -250,6 +250,7 @@ length
 =
 1
 )
+{
 BrowserTestUtils
 .
 addTab
@@ -262,6 +263,7 @@ blank
 "
 )
 ;
+}
 gBrowser
 .
 removeTab

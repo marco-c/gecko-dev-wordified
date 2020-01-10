@@ -640,6 +640,7 @@ let
 observer
 =
 new
+(
 class
 extends
 EventEmitter
@@ -992,6 +993,7 @@ info
 ;
 }
 }
+)
 (
 )
 ;
@@ -1628,7 +1630,6 @@ info
 .
 index
 =
-(
 destination
 .
 index
@@ -1636,7 +1637,6 @@ index
 =
 =
 null
-)
 ?
 PlacesUtils
 .

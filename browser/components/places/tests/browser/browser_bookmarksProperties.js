@@ -2458,8 +2458,10 @@ attrName
 place
 "
 )
+{
 return
 ;
+}
 folderTree
 .
 removeEventListener
@@ -3106,6 +3108,7 @@ sidebar
 =
 SIDEBAR_HISTORY_ID
 )
+{
 sidebar
 .
 contentDocument
@@ -3121,6 +3124,7 @@ doCommand
 (
 )
 ;
+}
 /
 /
 Get
@@ -3267,8 +3271,10 @@ aTopic
 domwindowopened
 "
 )
+{
 return
 ;
+}
 Services
 .
 ww
@@ -3426,6 +3432,7 @@ itemType
 =
 TYPE_FOLDER
 )
+{
 command
 =
 "
@@ -3434,6 +3441,7 @@ placesCmd_new
 folder
 "
 ;
+}
 else
 if
 (
@@ -3444,6 +3452,7 @@ itemType
 =
 TYPE_BOOKMARK
 )
+{
 command
 =
 "
@@ -3452,7 +3461,9 @@ placesCmd_new
 bookmark
 "
 ;
+}
 else
+{
 Assert
 .
 ok
@@ -3474,6 +3485,7 @@ item
 "
 )
 ;
+}
 }
 else
 {

@@ -1079,7 +1079,6 @@ waitForCondition
 )
 =
 >
-(
 content
 .
 document
@@ -1121,7 +1120,6 @@ mozilla
 .
 org
 "
-)
 "
 No
 Topsite
@@ -1276,7 +1274,6 @@ waitForCondition
 )
 =
 >
-(
 content
 .
 document
@@ -1318,7 +1315,6 @@ mozilla
 .
 org
 "
-)
 "
 Topsite
 not

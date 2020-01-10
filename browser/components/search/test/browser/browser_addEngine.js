@@ -143,12 +143,14 @@ gCurrentTest
 .
 added
 )
+{
 method
 =
 "
 added
 "
 ;
+}
 break
 ;
 case
@@ -164,12 +166,14 @@ gCurrentTest
 .
 current
 )
+{
 method
 =
 "
 current
 "
 ;
+}
 break
 ;
 case
@@ -185,12 +189,14 @@ gCurrentTest
 .
 removed
 )
+{
 method
 =
 "
 removed
 "
 ;
+}
 break
 ;
 }
@@ -198,6 +204,7 @@ if
 (
 method
 )
+{
 gCurrentTest
 [
 method
@@ -206,6 +213,7 @@ method
 engine
 )
 ;
+}
 }
 function
 checkEngine
@@ -229,6 +237,7 @@ prop
 in
 checkObj
 )
+{
 is
 (
 checkObj
@@ -247,6 +256,7 @@ correct
 "
 )
 ;
+}
 }
 var
 gTests

@@ -72,14 +72,10 @@ await
 setupPolicyEngineWithJson
 (
 {
-"
 policies
-"
 :
 {
-"
 Preferences
-"
 :
 {
 "

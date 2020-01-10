@@ -661,9 +661,7 @@ Assert
 equal
 (
 typeof
-(
 maxResults
-)
 "
 number
 "
@@ -1054,11 +1052,9 @@ Assert
 equal
 (
 typeof
-(
 result
 .
 image
-)
 "
 string
 "

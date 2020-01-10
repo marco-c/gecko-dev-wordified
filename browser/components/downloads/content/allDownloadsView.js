@@ -839,6 +839,7 @@ download
 )
 ;
 return
+(
 displayName
 .
 toLowerCase
@@ -866,6 +867,7 @@ toLowerCase
 includes
 (
 aTerm
+)
 )
 ;
 }
@@ -1578,12 +1580,14 @@ this
 .
 _active
 )
+{
 this
 .
 _ensureVisibleElementsAreActive
 (
 )
 ;
+}
 return
 this
 .
@@ -2120,11 +2124,13 @@ _ensureVisibleElementsAreActive
 ;
 }
 return
+(
 this
 .
 _searchTerm
 =
 aValue
+)
 ;
 }
 /
@@ -3288,6 +3294,7 @@ true
 unconditionally
 .
 return
+(
 aCommand
 =
 =
@@ -3304,6 +3311,7 @@ activeElement
 this
 .
 _richlistbox
+)
 ;
 }
 /
@@ -4754,8 +4762,10 @@ links
 .
 length
 )
+{
 return
 ;
+}
 let
 browserWin
 =
@@ -4798,8 +4808,10 @@ about
 "
 )
 )
+{
 continue
 ;
+}
 DownloadURL
 (
 link

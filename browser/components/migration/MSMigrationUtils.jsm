@@ -306,10 +306,10 @@ const
 INTERNET_EXPLORER_EDGE_GUID
 =
 [
-0x3CCD5499
-0x4B1087A8
-0x886015A2
-0x553BDD88
+0x3ccd5499
+0x4b1087a8
+0x886015a2
+0x553bdd88
 ]
 ;
 const
@@ -326,10 +326,10 @@ const
 WEB_CREDENTIALS_VAULT_ID
 =
 [
-0x4BF4C442
-0x41A09B8A
-0x4ADD80B3
-0x28DB4D70
+0x4bf4c442
+0x41a09b8a
+0x4add80b3
+0x28db4d70
 ]
 ;
 XPCOMUtils
@@ -839,6 +839,7 @@ result
 =
 0
 )
+{
 throw
 new
 Error
@@ -848,6 +849,7 @@ ctypes
 winLastError
 )
 ;
+}
 /
 /
 System
@@ -3314,7 +3316,6 @@ CtypesKernelHelpers
 let
 cookiesGenerator
 =
-(
 function
 *
 genCookie
@@ -3414,8 +3415,10 @@ entry
 leafName
 )
 )
+{
 continue
 ;
+}
 this
 .
 _readCookieFile
@@ -3443,10 +3446,12 @@ if
 (
 aSuccess
 )
+{
 success
 =
 true
 ;
+}
 try
 {
 cookiesGenerator
@@ -3484,7 +3489,6 @@ success
 )
 ;
 }
-)
 .
 apply
 (
@@ -3948,8 +3952,10 @@ length
 =
 0
 )
+{
 continue
 ;
+}
 /
 /
 IE
@@ -3997,8 +4003,10 @@ local
 "
 )
 )
+{
 continue
 ;
+}
 let
 hostLen
 =
@@ -4119,6 +4127,7 @@ hostIsIPAddress
 host
 )
 )
+{
 host
 =
 "
@@ -4127,6 +4136,7 @@ host
 +
 host
 ;
+}
 }
 /
 /
@@ -4654,6 +4664,7 @@ length
 =
 1
 )
+{
 c
 =
 "
@@ -4662,6 +4673,7 @@ c
 +
 c
 ;
+}
 urlTimeHex
 .
 unshift
@@ -5130,6 +5142,7 @@ id
 )
 {
 return
+(
 id
 [
 0
@@ -5176,6 +5189,7 @@ INTERNET_EXPLORER_EDGE_GUID
 [
 3
 ]
+)
 ;
 }
 let

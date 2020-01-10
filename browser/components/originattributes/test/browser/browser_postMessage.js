@@ -86,9 +86,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -386,9 +384,7 @@ tab
 linkedBrowser
 shouldBlock
 async
-(
 aValue
-)
 =
 >
 {
@@ -614,9 +610,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

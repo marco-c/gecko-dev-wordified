@@ -863,9 +863,7 @@ command
 suggested_key
 :
 {
-"
 default
-"
 :
 "
 Alt

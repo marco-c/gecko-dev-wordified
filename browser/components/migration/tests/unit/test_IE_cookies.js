@@ -386,11 +386,9 @@ cleared
 let
 date
 =
-(
 new
 Date
 (
-)
 )
 .
 getDate

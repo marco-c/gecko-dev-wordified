@@ -281,7 +281,6 @@ sidebar
 ;
 }
 )
-.
 /
 /
 Part
@@ -295,6 +294,7 @@ WINDOW
 NON
 PRIVATE
 WINDOW
+.
 then
 (
 (
@@ -379,7 +379,6 @@ sidebar
 ;
 }
 )
-.
 /
 /
 Part
@@ -392,6 +391,7 @@ WINDOW
 NON
 PRIVATE
 WINDOW
+.
 then
 (
 (
@@ -483,7 +483,6 @@ sidebar
 ;
 }
 )
-.
 /
 /
 Part
@@ -495,6 +494,7 @@ WINDOW
 >
 PRIVATE
 WINDOW
+.
 then
 (
 (

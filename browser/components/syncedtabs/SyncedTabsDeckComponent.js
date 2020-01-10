@@ -1408,8 +1408,10 @@ _window
 .
 document
 )
+{
 return
 ;
+}
 if
 (
 Services

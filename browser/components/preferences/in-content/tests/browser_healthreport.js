@@ -53,9 +53,7 @@ fn
 open_preferences
 (
 async
-(
 win
-)
 =
 >
 {

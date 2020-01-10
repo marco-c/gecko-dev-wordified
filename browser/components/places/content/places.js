@@ -868,6 +868,7 @@ if
 !
 aHierarchy
 )
+{
 throw
 new
 Error
@@ -880,6 +881,7 @@ specified
 "
 )
 ;
+}
 let
 hierarchy
 =
@@ -909,6 +911,7 @@ if
 !
 selectWasSuppressed
 )
+{
 this
 .
 _places
@@ -921,6 +924,7 @@ selectEventsSuppressed
 =
 true
 ;
+}
 try
 {
 for
@@ -1047,6 +1051,7 @@ if
 !
 selectWasSuppressed
 )
+{
 this
 .
 _places
@@ -1059,6 +1064,7 @@ selectEventsSuppressed
 =
 false
 ;
+}
 }
 }
 init
@@ -1199,6 +1205,7 @@ arguments
 0
 ]
 )
+{
 leftPaneSelection
 =
 window
@@ -1208,6 +1215,7 @@ arguments
 0
 ]
 ;
+}
 this
 .
 selectLeftPaneContainerByHierarchy
@@ -1243,6 +1251,7 @@ childCount
 >
 0
 )
+{
 this
 .
 _places
@@ -1257,6 +1266,7 @@ getChild
 )
 )
 ;
+}
 }
 /
 /
@@ -1624,8 +1634,10 @@ type
 AppCommand
 "
 )
+{
 return
 ;
+}
 aEvent
 .
 stopPropagation
@@ -1654,12 +1666,14 @@ length
 >
 0
 )
+{
 this
 .
 back
 (
 )
 ;
+}
 break
 ;
 case
@@ -1677,12 +1691,14 @@ length
 >
 0
 )
+{
 this
 .
 forward
 (
 )
 ;
+}
 break
 ;
 case
@@ -1741,9 +1757,11 @@ _location
 =
 aLocation
 )
+{
 return
 aLocation
 ;
+}
 if
 (
 this
@@ -1848,6 +1866,7 @@ length
 =
 0
 )
+{
 document
 .
 getElementById
@@ -1867,7 +1886,9 @@ disabled
 true
 )
 ;
+}
 else
+{
 document
 .
 getElementById
@@ -1886,6 +1907,7 @@ disabled
 "
 )
 ;
+}
 if
 (
 this
@@ -1897,6 +1919,7 @@ length
 =
 0
 )
+{
 document
 .
 getElementById
@@ -1916,7 +1939,9 @@ disabled
 true
 )
 ;
+}
 else
+{
 document
 .
 getElementById
@@ -1935,6 +1960,7 @@ disabled
 "
 )
 ;
+}
 return
 aLocation
 ;
@@ -2168,8 +2194,10 @@ _places
 .
 hasSelection
 )
+{
 return
 ;
+}
 let
 node
 =
@@ -2352,8 +2380,10 @@ this
 .
 _cachedLeftPaneSelectedURI
 )
+{
 return
 ;
+}
 this
 .
 _cachedLeftPaneSelectedURI
@@ -2602,8 +2632,10 @@ localName
 treechildren
 "
 )
+{
 return
 ;
+}
 let
 node
 =
@@ -2732,8 +2764,10 @@ currentViewOptions
 .
 showDetailsPane
 )
+{
 return
 ;
+}
 let
 view
 =
@@ -3372,6 +3406,7 @@ length
 >
 1
 )
+{
 restorePopup
 .
 firstChild
@@ -3380,6 +3415,7 @@ remove
 (
 )
 ;
+}
 (
 async
 function
@@ -3405,8 +3441,10 @@ length
 =
 0
 )
+{
 return
 ;
+}
 /
 /
 Populate
@@ -4048,8 +4086,10 @@ bookmarksRestoreAlert
 )
 )
 )
+{
 return
 ;
+}
 (
 async
 function
@@ -4503,12 +4543,14 @@ parentNode
 id
 )
 )
+{
 focusedElement
 .
 blur
 (
 )
 ;
+}
 /
 /
 don
@@ -4614,8 +4656,10 @@ gEditItemOverlay
 .
 multiEdit
 )
+{
 return
 ;
+}
 }
 }
 /
@@ -4892,12 +4936,14 @@ rootNode
 .
 containerOpen
 )
+{
 itemsCount
 =
 rootNode
 .
 childCount
 ;
+}
 }
 if
 (
@@ -5679,9 +5725,11 @@ this
 .
 filterCollection
 )
+{
 return
 collectionName
 ;
+}
 this
 .
 searchFilter
@@ -5834,6 +5882,7 @@ value
 )
 {
 return
+(
 this
 .
 searchFilter
@@ -5841,6 +5890,7 @@ searchFilter
 value
 =
 value
+)
 ;
 }
 }
@@ -6091,6 +6141,7 @@ if
 (
 searchStr
 )
+{
 PlacesSearchBox
 .
 search
@@ -6098,6 +6149,7 @@ search
 searchStr
 )
 ;
+}
 }
 }
 ;
@@ -6305,6 +6357,7 @@ endID
 !
 startID
 )
+{
 throw
 new
 Error
@@ -6321,6 +6374,7 @@ startID
 "
 )
 ;
+}
 if
 (
 startID
@@ -6345,6 +6399,7 @@ parentNode
 =
 popup
 )
+{
 throw
 new
 Error
@@ -6358,11 +6413,13 @@ popup
 "
 )
 ;
+}
 if
 (
 !
 startElement
 )
+{
 throw
 new
 Error
@@ -6379,6 +6436,7 @@ element
 "
 )
 ;
+}
 var
 endElement
 =
@@ -6407,6 +6465,7 @@ parentNode
 =
 popup
 )
+{
 throw
 new
 Error
@@ -6420,11 +6479,13 @@ popup
 "
 )
 ;
+}
 if
 (
 !
 endElement
 )
+{
 throw
 new
 Error
@@ -6442,6 +6503,7 @@ element
 )
 ;
 }
+}
 while
 (
 startElement
@@ -6451,6 +6513,7 @@ nextSibling
 =
 endElement
 )
+{
 popup
 .
 removeChild
@@ -6460,6 +6523,7 @@ startElement
 nextSibling
 )
 ;
+}
 return
 endElement
 ;
@@ -6996,6 +7060,7 @@ primary
 true
 "
 )
+{
 menuitem
 .
 setAttribute
@@ -7008,6 +7073,7 @@ true
 "
 )
 ;
+}
 /
 /
 Items
@@ -7024,6 +7090,7 @@ column
 .
 hidden
 )
+{
 menuitem
 .
 setAttribute
@@ -7037,10 +7104,12 @@ true
 )
 ;
 }
+}
 if
 (
 pivot
 )
+{
 popup
 .
 insertBefore
@@ -7049,7 +7118,9 @@ menuitem
 pivot
 )
 ;
+}
 else
+{
 popup
 .
 appendChild
@@ -7057,6 +7128,7 @@ appendChild
 menuitem
 )
 ;
+}
 }
 event
 .
@@ -7382,10 +7454,12 @@ localName
 splitter
 "
 )
+{
 splitter
 =
 null
 ;
+}
 if
 (
 element
@@ -7419,6 +7493,7 @@ if
 (
 splitter
 )
+{
 splitter
 .
 removeAttribute
@@ -7428,6 +7503,7 @@ hidden
 "
 )
 ;
+}
 }
 else
 {
@@ -7447,6 +7523,7 @@ if
 (
 splitter
 )
+{
 splitter
 .
 setAttribute
@@ -7459,6 +7536,7 @@ true
 "
 )
 ;
+}
 }
 }
 /
@@ -7574,9 +7652,11 @@ sortDirection
 descending
 "
 )
+{
 return
 column
 ;
+}
 }
 return
 null
@@ -7755,6 +7835,7 @@ if
 (
 sortColumn
 )
+{
 aDirection
 =
 sortColumn
@@ -7766,6 +7847,7 @@ sortDirection
 "
 )
 ;
+}
 }
 }
 else
@@ -7987,6 +8069,7 @@ hasOwnProperty
 columnId
 )
 )
+{
 throw
 new
 Error
@@ -7997,6 +8080,7 @@ column
 "
 )
 ;
+}
 /
 /
 Use
@@ -8403,6 +8487,7 @@ if
 aQueryString
 |
 |
+(
 typeof
 aView
 !
@@ -8420,6 +8505,8 @@ aView
 function
 "
 )
+)
+{
 throw
 new
 Error
@@ -8430,6 +8517,7 @@ arguments
 "
 )
 ;
+}
 this
 .
 _specialViews
@@ -8531,6 +8619,7 @@ oldView
 .
 associatedElement
 )
+{
 aNewView
 .
 associatedElement
@@ -8539,6 +8628,7 @@ focus
 (
 )
 ;
+}
 }
 return
 aNewView
@@ -9150,6 +9240,7 @@ KeyEvent
 .
 DOM_VK_RETURN
 )
+{
 this
 .
 openSelectedNode
@@ -9157,6 +9248,7 @@ openSelectedNode
 aEvent
 )
 ;
+}
 }
 }
 ;

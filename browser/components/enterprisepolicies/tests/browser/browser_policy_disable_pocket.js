@@ -136,14 +136,10 @@ await
 setupPolicyEngineWithJson
 (
 {
-"
 policies
-"
 :
 {
-"
 DisablePocket
-"
 :
 true
 }

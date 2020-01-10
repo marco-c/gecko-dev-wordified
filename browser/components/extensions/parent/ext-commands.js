@@ -114,9 +114,7 @@ this
 extension
 onCommand
 :
-(
 name
-)
 =
 >
 this
@@ -196,9 +194,7 @@ allCommands
 )
 update
 :
-(
 args
-)
 =
 >
 this
@@ -213,9 +209,7 @@ args
 )
 reset
 :
-(
 name
-)
 =
 >
 this

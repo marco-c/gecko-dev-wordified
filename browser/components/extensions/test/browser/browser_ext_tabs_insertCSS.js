@@ -157,7 +157,6 @@ mm
 {
 return
 !
-(
 [
 Services
 .
@@ -170,7 +169,6 @@ ppmm
 includes
 (
 mm
-)
 )
 ;
 }
@@ -734,9 +732,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -983,9 +979,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "

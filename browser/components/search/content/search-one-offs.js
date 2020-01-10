@@ -1872,11 +1872,13 @@ this
 ;
 }
 return
+(
 this
 .
 _textbox
 =
 val
+)
 ;
 }
 get
@@ -1967,6 +1969,7 @@ val
 ;
 if
 (
+(
 this
 .
 _view
@@ -1977,8 +1980,10 @@ this
 _view
 .
 isOpen
+)
 |
 |
+(
 this
 .
 popup
@@ -1989,6 +1994,7 @@ this
 popup
 .
 popupOpen
+)
 )
 {
 this
@@ -2415,6 +2421,7 @@ val
 {
 return
 (
+(
 this
 .
 _view
@@ -2428,6 +2435,7 @@ popup
 selectedIndex
 =
 val
+)
 ;
 }
 get
@@ -2534,6 +2542,7 @@ includecurrentengine
 "
 )
 )
+{
 currentEngineNameToIgnore
 =
 (
@@ -2549,6 +2558,7 @@ getDefault
 .
 name
 ;
+}
 let
 pref
 =
@@ -2613,6 +2623,7 @@ name
 ;
 return
 (
+(
 !
 currentEngineNameToIgnore
 |
@@ -2630,6 +2641,7 @@ hiddenList
 includes
 (
 name
+)
 )
 ;
 }
@@ -4215,11 +4227,9 @@ remainder
 =
 panelWidth
 -
-(
 enginesPerRow
 *
 buttonWidth
-)
 ;
 let
 width
@@ -5009,6 +5019,7 @@ engine
 )
 {
 return
+(
 this
 .
 telemetryOrigin
@@ -5032,6 +5043,7 @@ _fixUpEngineNameForID
 engine
 .
 name
+)
 )
 ;
 }
@@ -5083,6 +5095,7 @@ quantumbar
 )
 {
 return
+(
 this
 .
 _popup
@@ -5103,6 +5116,7 @@ this
 _buttonIDForEngine
 (
 engine
+)
 )
 )
 ;

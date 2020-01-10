@@ -448,14 +448,10 @@ await
 setupPolicyEngineWithJson
 (
 {
-"
 policies
-"
 :
 {
-"
 DisableProfileRefresh
-"
 :
 true
 }

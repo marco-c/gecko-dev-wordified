@@ -86,9 +86,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -395,9 +393,7 @@ transferCompletePromise
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

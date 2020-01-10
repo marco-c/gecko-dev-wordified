@@ -1042,6 +1042,7 @@ val
 )
 {
 return
+(
 this
 .
 textbox
@@ -1050,6 +1051,7 @@ property
 ]
 =
 val
+)
 ;
 }
 }
@@ -4482,7 +4484,6 @@ searchString
 {
 searchString
 =
-(
 this
 .
 getAttribute
@@ -4496,7 +4497,6 @@ pageproxystate
 "
 valid
 "
-)
 ?
 "
 "
@@ -5378,6 +5378,7 @@ SEARCH
 :
 return
 (
+(
 result
 .
 payload
@@ -5410,6 +5411,7 @@ result
 payload
 .
 query
+)
 )
 ;
 case
@@ -10809,7 +10811,6 @@ if
 droppedURL
 &
 &
-(
 droppedURL
 !
 =
@@ -10823,7 +10824,6 @@ gBrowser
 currentURI
 .
 spec
-)
 )
 {
 let
@@ -11738,6 +11738,7 @@ command
 )
 {
 return
+(
 this
 .
 supportsCommand
@@ -11775,6 +11776,7 @@ this
 urlbar
 .
 selectionEnd
+)
 ;
 }
 onEvent

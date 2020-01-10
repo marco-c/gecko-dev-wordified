@@ -341,9 +341,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -392,9 +390,7 @@ gBrowser
 .
 selectedBrowser
 TEST_URI
-(
 url
-)
 =
 >
 {
@@ -500,9 +496,7 @@ gBrowser
 .
 selectedBrowser
 TEST_URI
-(
 url
-)
 =
 >
 {

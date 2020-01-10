@@ -226,7 +226,6 @@ listType
 ;
 equal
 (
-(
 await
 downloadExists
 (
@@ -236,15 +235,12 @@ OLD_NAMES
 listType
 ]
 )
-)
 expectOldExists
 Fake
 old
 download
 {
-(
 expectOldExists
-)
 ?
 "
 was
@@ -261,7 +257,6 @@ removed
 ;
 equal
 (
-(
 await
 downloadExists
 (
@@ -271,15 +266,12 @@ RECENT_NAMES
 listType
 ]
 )
-)
 expectRecentExists
 Fake
 recent
 download
 {
-(
 expectRecentExists
-)
 ?
 "
 was

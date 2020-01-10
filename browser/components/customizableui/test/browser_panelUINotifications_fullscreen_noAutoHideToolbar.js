@@ -173,9 +173,7 @@ true
 capture
 *
 /
-(
 aEvent
-)
 =
 >
 {
@@ -285,7 +283,6 @@ might
 be
 denied
 .
-(
 Services
 .
 appinfo
@@ -297,7 +294,6 @@ OS
 "
 Darwin
 "
-)
 ?
 waitForDocshellActivated
 (

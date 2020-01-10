@@ -155,9 +155,7 @@ withSidebarTree
 bookmarks
 "
 async
-(
 tree
-)
 =
 >
 {
@@ -273,9 +271,7 @@ withSidebarTree
 bookmarks
 "
 async
-(
 tree
-)
 =
 >
 {
@@ -403,9 +399,7 @@ withNewTab
 gBrowser
 }
 async
-(
 initialTab
-)
 =
 >
 {
@@ -416,9 +410,7 @@ withSidebarTree
 bookmarks
 "
 async
-(
 tree
-)
 =
 >
 {
@@ -596,9 +588,7 @@ withSidebarTree
 bookmarks
 "
 async
-(
 tree
-)
 =
 >
 {

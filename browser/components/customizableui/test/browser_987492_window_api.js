@@ -84,6 +84,7 @@ CustomizableUI
 .
 windows
 )
+{
 windows
 .
 push
@@ -91,6 +92,7 @@ push
 win
 )
 ;
+}
 is
 (
 windows
@@ -207,6 +209,7 @@ CustomizableUI
 .
 windows
 )
+{
 windows
 .
 push
@@ -214,6 +217,7 @@ push
 win
 )
 ;
+}
 is
 (
 windows
@@ -356,6 +360,7 @@ CustomizableUI
 .
 windows
 )
+{
 windows
 .
 push
@@ -363,6 +368,7 @@ push
 win
 )
 ;
+}
 is
 (
 windows

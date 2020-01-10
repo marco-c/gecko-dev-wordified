@@ -355,12 +355,14 @@ if
 (
 btn
 )
+{
 btn
 .
 remove
 (
 )
 ;
+}
 CustomizableUI
 .
 removeWidgetFromArea

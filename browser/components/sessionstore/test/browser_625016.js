@@ -309,11 +309,9 @@ JSON
 .
 parse
 (
-(
 await
 promiseRecoveryFileContents
 (
-)
 )
 )
 ;
@@ -501,11 +499,9 @@ JSON
 .
 parse
 (
-(
 await
 promiseRecoveryFileContents
 (
-)
 )
 )
 ;

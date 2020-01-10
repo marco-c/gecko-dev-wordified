@@ -116,9 +116,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -653,9 +651,7 @@ checkList
 .
 map
 (
-(
 check
-)
 =
 >
 Object
@@ -741,9 +737,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "

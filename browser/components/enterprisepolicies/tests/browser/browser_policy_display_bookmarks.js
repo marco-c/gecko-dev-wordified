@@ -45,14 +45,10 @@ await
 setupPolicyEngineWithJson
 (
 {
-"
 policies
-"
 :
 {
-"
 DisplayBookmarksToolbar
-"
 :
 true
 }

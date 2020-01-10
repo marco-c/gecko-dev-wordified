@@ -70,9 +70,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -133,9 +131,7 @@ spanning
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "

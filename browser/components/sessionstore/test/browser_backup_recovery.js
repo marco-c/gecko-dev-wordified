@@ -567,7 +567,6 @@ run
 ;
 ok
 (
-(
 await
 File
 .
@@ -576,7 +575,6 @@ exists
 Paths
 .
 recovery
-)
 )
 "
 After
@@ -754,7 +752,6 @@ run
 ;
 ok
 (
-(
 await
 File
 .
@@ -763,7 +760,6 @@ exists
 Paths
 .
 recovery
-)
 )
 "
 After
@@ -806,7 +802,6 @@ url
 ;
 ok
 (
-(
 await
 File
 .
@@ -815,7 +810,6 @@ exists
 Paths
 .
 recoveryBackup
-)
 )
 "
 After
@@ -1711,14 +1705,12 @@ run
 ;
 is
 (
-(
 await
 promiseRead
 (
 Paths
 .
 cleanBackup
-)
 )
 SOURCE
 "

@@ -1155,6 +1155,7 @@ _source
 =
 migratorKey
 )
+{
 selectedMigrator
 =
 group
@@ -1164,6 +1165,7 @@ childNodes
 i
 ]
 ;
+}
 this
 .
 _availableMigrators
@@ -1521,14 +1523,12 @@ this
 _migrator
 |
 |
-(
 newSource
 !
 =
 this
 .
 _source
-)
 )
 {
 /
@@ -1657,6 +1657,7 @@ this
 .
 _autoMigrate
 )
+{
 this
 .
 _wiz
@@ -1669,7 +1670,9 @@ next
 migrating
 "
 ;
+}
 else
+{
 this
 .
 _wiz
@@ -1682,6 +1685,7 @@ next
 importItems
 "
 ;
+}
 if
 (
 sourceProfiles
@@ -1694,6 +1698,7 @@ length
 =
 1
 )
+{
 this
 .
 _selectedProfile
@@ -1703,13 +1708,16 @@ sourceProfiles
 0
 ]
 ;
+}
 else
+{
 this
 .
 _selectedProfile
 =
 null
 ;
+}
 }
 }
 /
@@ -1796,6 +1804,7 @@ hasChildNodes
 (
 )
 )
+{
 profiles
 .
 firstChild
@@ -1804,6 +1813,7 @@ remove
 (
 )
 ;
+}
 /
 /
 Note
@@ -2076,6 +2086,7 @@ this
 .
 _autoMigrate
 )
+{
 this
 .
 _wiz
@@ -2088,6 +2099,7 @@ next
 migrating
 "
 ;
+}
 }
 /
 /
@@ -2118,6 +2130,7 @@ hasChildNodes
 (
 )
 )
+{
 dataSources
 .
 firstChild
@@ -2126,6 +2139,7 @@ remove
 (
 )
 ;
+}
 var
 items
 =
@@ -2255,12 +2269,14 @@ _itemsFlags
 &
 itemID
 )
+{
 checkbox
 .
 checked
 =
 true
 ;
+}
 }
 }
 }
@@ -2351,6 +2367,7 @@ checkbox
 .
 checked
 )
+{
 this
 .
 _itemsFlags
@@ -2363,6 +2380,7 @@ checkbox
 id
 )
 ;
+}
 }
 }
 onImportItemCommand
@@ -2695,6 +2713,7 @@ hasChildNodes
 (
 )
 )
+{
 items
 .
 firstChild
@@ -2703,6 +2722,7 @@ remove
 (
 )
 ;
+}
 var
 itemID
 ;
@@ -2895,6 +2915,7 @@ if
 (
 label
 )
+{
 label
 .
 setAttribute
@@ -2911,6 +2932,7 @@ bold
 "
 )
 ;
+}
 break
 ;
 case
@@ -2937,6 +2959,7 @@ if
 (
 label
 )
+{
 label
 .
 removeAttribute
@@ -2946,6 +2969,7 @@ style
 "
 )
 ;
+}
 break
 ;
 case

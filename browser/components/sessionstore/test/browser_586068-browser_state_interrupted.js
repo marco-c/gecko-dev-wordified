@@ -170,9 +170,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -203,9 +201,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -236,9 +232,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -269,9 +263,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -311,9 +303,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -344,9 +334,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -377,9 +365,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -410,9 +396,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -462,9 +446,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -495,9 +477,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -528,9 +508,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -561,9 +539,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -603,9 +579,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -636,9 +610,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -669,9 +641,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -702,9 +672,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -834,10 +802,12 @@ entries
 .
 url
 )
+{
 loadedWindow1
 =
 true
 ;
+}
 if
 (
 aBrowser
@@ -866,10 +836,12 @@ entries
 .
 url
 )
+{
 loadedWindow2
 =
 true
 ;
+}
 if
 (
 !
@@ -909,8 +881,10 @@ numTabs
 +
 interruptedAfter
 )
+{
 return
 ;
+}
 /
 /
 We

@@ -2302,13 +2302,11 @@ if
 (
 editing
 ?
-(
 addressPage
 .
 guid
 in
 tempAddresses
-)
 :
 !
 this
@@ -2856,6 +2854,7 @@ null
 .
 return
 (
+(
 paymentDetails
 .
 paymentMethodErrors
@@ -2871,6 +2870,7 @@ billingAddress
 |
 {
 }
+)
 ;
 }
 default

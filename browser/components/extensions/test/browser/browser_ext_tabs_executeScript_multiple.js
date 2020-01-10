@@ -322,9 +322,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "

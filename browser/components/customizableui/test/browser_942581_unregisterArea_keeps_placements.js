@@ -670,9 +670,7 @@ from
 aNode
 .
 children
-(
 node
-)
 =
 >
 node

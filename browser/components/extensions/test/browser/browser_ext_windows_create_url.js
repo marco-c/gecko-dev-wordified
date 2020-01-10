@@ -118,6 +118,7 @@ let
 windows
 =
 new
+(
 class
 extends
 Map
@@ -199,6 +200,9 @@ id
 ;
 }
 }
+)
+(
+)
 ;
 browser
 .

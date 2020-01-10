@@ -840,6 +840,7 @@ index
 -
 1
 )
+{
 actualData
 .
 targets
@@ -850,6 +851,7 @@ index
 1
 )
 ;
+}
 ok
 (
 Array

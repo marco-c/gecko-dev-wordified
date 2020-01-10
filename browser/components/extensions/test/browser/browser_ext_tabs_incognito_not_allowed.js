@@ -124,9 +124,7 @@ captureTab
 requires
 all_urls
 permission
-"
 permissions
-"
 :
 [
 "

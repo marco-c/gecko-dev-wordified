@@ -1126,11 +1126,13 @@ this
 strings
 ;
 return
+(
 this
 .
 strings
 =
 strings
+)
 ;
 }
 /
@@ -1355,9 +1357,11 @@ isPrivate
 &
 privateAll
 )
+{
 return
 LimitedPrivateHistoryDownloadData
 ;
+}
 return
 limited
 ?
@@ -1563,6 +1567,7 @@ _privateSummary
 ;
 }
 return
+(
 this
 .
 _privateSummary
@@ -1572,6 +1577,7 @@ DownloadsSummaryData
 (
 true
 aNumToExclude
+)
 )
 ;
 }
@@ -1589,6 +1595,7 @@ _summary
 ;
 }
 return
+(
 this
 .
 _summary
@@ -1598,6 +1605,7 @@ DownloadsSummaryData
 (
 false
 aNumToExclude
+)
 )
 ;
 }
@@ -2548,9 +2556,11 @@ diff
 <
 0
 ?
+0
 .
 3
 :
+0
 .
 1
 )
@@ -2593,9 +2603,11 @@ aLastSeconds
 let
 diffPercent
 =
+(
 diff
 /
 aLastSeconds
+)
 *
 100
 ;
@@ -2630,9 +2642,11 @@ diff
 <
 0
 ?
+0
 .
 4
 :
+0
 .
 2
 )
@@ -2681,6 +2695,7 @@ actually
 finished
 .
 return
+(
 aLastSeconds
 =
 Math
@@ -2689,6 +2704,7 @@ max
 (
 aSeconds
 1
+)
 )
 ;
 }
@@ -3736,7 +3752,6 @@ unblock
 let
 buttonFlags
 =
-(
 Ci
 .
 nsIPrompt
@@ -3748,9 +3763,7 @@ Ci
 nsIPrompt
 .
 BUTTON_POS_0
-)
 +
-(
 Ci
 .
 nsIPrompt
@@ -3762,7 +3775,6 @@ Ci
 nsIPrompt
 .
 BUTTON_POS_1
-)
 ;
 switch
 (
@@ -3823,7 +3835,6 @@ file
 buttonFlags
 +
 =
-(
 Ci
 .
 nsIPrompt
@@ -3835,7 +3846,6 @@ Ci
 nsIPrompt
 .
 BUTTON_POS_2
-)
 +
 Ci
 .
@@ -3887,7 +3897,6 @@ open
 buttonFlags
 +
 =
-(
 Ci
 .
 nsIPrompt
@@ -3899,7 +3908,6 @@ Ci
 nsIPrompt
 .
 BUTTON_POS_2
-)
 +
 Ci
 .
@@ -4676,11 +4684,13 @@ Promise
 resolve
 =
 >
+(
 this
 .
 initializeDataLink
 =
 resolve
+)
 )
 ;
 let
@@ -7739,13 +7749,11 @@ this
 .
 _hasDownloads
 =
-(
 this
 .
 _itemCount
 >
 0
-)
 ;
 /
 /

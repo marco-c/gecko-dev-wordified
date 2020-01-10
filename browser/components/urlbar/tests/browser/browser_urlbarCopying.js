@@ -72,6 +72,7 @@ file
 )
 {
 return
+(
 getRootDirectory
 (
 gTestPath
@@ -92,6 +93,7 @@ hostname
 )
 +
 file
+)
 ;
 }
 function
@@ -102,6 +104,7 @@ test
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -111,6 +114,7 @@ BrowserTestUtils
 addTab
 (
 gBrowser
+)
 )
 ;
 registerCleanupFunction
@@ -1786,19 +1790,23 @@ length
 =
 0
 )
+{
 runTest
 (
 testCase
 finish
 )
 ;
+}
 else
+{
 runTest
 (
 testCase
 nextTest
 )
 ;
+}
 }
 function
 runTest
@@ -1914,6 +1922,7 @@ testCase
 .
 setURL
 )
+{
 gURLBar
 .
 value
@@ -1922,6 +1931,7 @@ testCase
 .
 setURL
 ;
+}
 doCheck
 (
 )

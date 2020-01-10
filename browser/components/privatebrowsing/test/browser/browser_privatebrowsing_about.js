@@ -398,6 +398,7 @@ win
 )
 {
 return
+(
 win
 .
 gURLBar
@@ -426,6 +427,7 @@ hidden
 focus
 "
 )
+)
 ;
 }
 function
@@ -435,6 +437,7 @@ win
 )
 {
 return
+(
 win
 .
 gURLBar
@@ -463,6 +466,7 @@ hidden
 -
 focus
 "
+)
 )
 ;
 }

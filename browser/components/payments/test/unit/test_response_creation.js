@@ -747,9 +747,7 @@ actual
 if
 (
 typeof
-(
 propVal
-)
 !
 =
 "

@@ -140,9 +140,7 @@ format
 id
 :
 {
-"
 input1
-"
 :
 "
 value4
@@ -153,9 +151,7 @@ value4
 id
 :
 {
-"
 input1
-"
 :
 "
 value5
@@ -170,9 +166,7 @@ xpath
 id
 :
 {
-"
 input1
-"
 :
 "
 value6
@@ -289,9 +283,7 @@ value10
 id
 :
 {
-"
 input1
-"
 :
 "
 value11
@@ -310,9 +302,7 @@ value12
 id
 :
 {
-"
 input1
-"
 :
 "
 value13
@@ -416,9 +406,7 @@ value17
 id
 :
 {
-"
 input1
-"
 :
 "
 value18
@@ -454,9 +442,7 @@ value19
 id
 :
 {
-"
 input1
-"
 :
 "
 value20
@@ -585,9 +571,7 @@ value25
 id
 :
 {
-"
 input1
-"
 :
 "
 value26
@@ -631,9 +615,7 @@ value28
 id
 :
 {
-"
 input1
-"
 :
 "
 value29

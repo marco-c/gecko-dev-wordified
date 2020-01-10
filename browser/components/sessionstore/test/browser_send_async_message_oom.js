@@ -345,9 +345,7 @@ promiseFlushed
 .
 then
 (
-(
 success
-)
 =
 >
 {

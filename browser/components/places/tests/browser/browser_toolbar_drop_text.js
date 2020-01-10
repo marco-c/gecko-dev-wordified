@@ -712,6 +712,7 @@ moz
 url
 "
 )
+{
 data
 =
 urls
@@ -739,7 +740,9 @@ n
 "
 )
 ;
+}
 else
+{
 data
 =
 urls
@@ -752,6 +755,7 @@ n
 "
 )
 ;
+}
 let
 promiseItemAddedNotification
 =
@@ -869,9 +873,7 @@ Assert
 equal
 (
 typeof
-(
 bookmark
-)
 "
 object
 "

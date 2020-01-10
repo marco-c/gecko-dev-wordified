@@ -1024,9 +1024,7 @@ loadExtension
 manifest
 :
 {
-"
 commands
-"
 :
 commands
 }
@@ -1596,9 +1594,7 @@ loadExtension
 manifest
 :
 {
-"
 commands
-"
 :
 commands
 }

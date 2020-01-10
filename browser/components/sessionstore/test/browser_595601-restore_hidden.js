@@ -629,6 +629,7 @@ browser
 =
 TAB_STATE_RESTORING
 )
+{
 this
 .
 callback
@@ -652,6 +653,7 @@ countTabs
 )
 )
 ;
+}
 }
 countTabs
 (
@@ -717,10 +719,12 @@ state
 =
 TAB_STATE_RESTORING
 )
+{
 isRestoring
 +
 +
 ;
+}
 else
 if
 (
@@ -729,10 +733,12 @@ state
 =
 TAB_STATE_NEEDS_RESTORE
 )
+{
 needsRestore
 +
 +
 ;
+}
 }
 return
 [

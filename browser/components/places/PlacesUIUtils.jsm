@@ -1006,6 +1006,7 @@ loadData
 >
 {
 return
+(
 loadData
 .
 innerWindowID
@@ -1034,6 +1035,7 @@ request
 callback
 .
 request
+)
 ;
 }
 )
@@ -2571,6 +2573,7 @@ lastChild
 .
 _placesView
 )
+{
 return
 node
 .
@@ -2578,6 +2581,7 @@ lastChild
 .
 _placesView
 ;
+}
 while
 (
 Element
@@ -2594,11 +2598,13 @@ node
 .
 _placesView
 )
+{
 return
 node
 .
 _placesView
 ;
+}
 if
 (
 node
@@ -2627,9 +2633,11 @@ places
 tree
 "
 )
+{
 return
 node
 ;
+}
 node
 =
 node
@@ -2769,6 +2777,7 @@ view
 .
 _contextMenuShown
 )
+{
 return
 view
 .
@@ -2779,6 +2788,7 @@ getControllerForCommand
 command
 )
 ;
+}
 }
 /
 /
@@ -3033,6 +3043,7 @@ isCommandEnabled
 command
 )
 )
+{
 controller
 .
 doCommand
@@ -3040,6 +3051,7 @@ doCommand
 command
 )
 ;
+}
 }
 /
 *
@@ -3567,9 +3579,11 @@ nodeIsBookmark
 aURINode
 )
 )
+{
 return
 true
 ;
+}
 var
 uri
 =
@@ -4164,6 +4178,7 @@ placesNode
 ;
 }
 return
+(
 PlacesUtils
 .
 getConcreteItemId
@@ -4175,6 +4190,7 @@ placesNode
 PlacesUtils
 .
 placesRootId
+)
 ;
 }
 /
@@ -4220,8 +4236,10 @@ aItemsToOpen
 .
 length
 )
+{
 return
 ;
+}
 let
 browserWindow
 =
@@ -4280,6 +4298,7 @@ item
 .
 isBookmark
 )
+{
 this
 .
 markPageAsFollowedBookmark
@@ -4289,7 +4308,9 @@ item
 uri
 )
 ;
+}
 else
+{
 this
 .
 markPageAsTyped
@@ -4299,6 +4320,7 @@ item
 uri
 )
 ;
+}
 }
 /
 /
@@ -5061,6 +5083,7 @@ if
 (
 isBookmark
 )
+{
 this
 .
 markPageAsFollowedBookmark
@@ -5070,7 +5093,9 @@ aNode
 uri
 )
 ;
+}
 else
+{
 this
 .
 markPageAsTyped
@@ -5080,6 +5105,7 @@ aNode
 uri
 )
 ;
+}
 }
 const
 isJavaScriptURL
@@ -5601,6 +5627,7 @@ options
 value
 ;
 return
+(
 query
 .
 folderCount
@@ -5656,6 +5683,7 @@ maxResults
 =
 =
 0
+)
 ;
 }
 /
@@ -5777,6 +5805,7 @@ bookmarks
 .
 TYPE_SEPARATOR
 )
+{
 throw
 new
 Error
@@ -5791,6 +5820,7 @@ separators
 "
 )
 ;
+}
 let
 parent
 =
@@ -5883,6 +5913,7 @@ bookmarks
 .
 TYPE_FOLDER
 )
+{
 return
 Ci
 .
@@ -5890,6 +5921,7 @@ nsINavHistoryResultNode
 .
 RESULT_TYPE_FOLDER
 ;
+}
 if
 (
 this
@@ -5901,6 +5933,7 @@ length
 =
 0
 )
+{
 throw
 new
 Error
@@ -5912,6 +5945,7 @@ type
 "
 )
 ;
+}
 if
 (
 /
@@ -5939,6 +5973,7 @@ this
 uri
 )
 )
+{
 return
 Ci
 .
@@ -5946,6 +5981,7 @@ nsINavHistoryResultNode
 .
 RESULT_TYPE_FOLDER_SHORTCUT
 ;
+}
 return
 Ci
 .
@@ -6595,8 +6631,10 @@ button
 =
 2
 )
+{
 return
 ;
+}
 let
 tree
 =
@@ -6641,8 +6679,10 @@ childElt
 twisty
 "
 )
+{
 return
 ;
+}
 /
 /
 getCoordsForCellItem
@@ -7069,6 +7109,7 @@ event
 .
 DOM_VK_RETURN
 )
+{
 this
 .
 openNodeWithEvent
@@ -7077,6 +7118,7 @@ node
 event
 )
 ;
+}
 }
 }
 /
@@ -7124,8 +7166,10 @@ localName
 treechildren
 "
 )
+{
 return
 ;
+}
 let
 tree
 =

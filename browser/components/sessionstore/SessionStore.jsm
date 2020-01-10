@@ -4070,7 +4070,6 @@ tabTimestamps
 length
 |
 |
-(
 tabTimestamps
 .
 sort
@@ -4097,7 +4096,6 @@ _closedWindows
 ]
 .
 closedAt
-)
 )
 {
 return
@@ -4146,6 +4144,7 @@ willAutoRestore
 )
 {
 return
+(
 !
 PrivateBrowsingUtils
 .
@@ -4186,6 +4185,7 @@ page
 =
 =
 BROWSER_STARTUP_RESUME_SESSION
+)
 )
 ;
 }
@@ -4568,6 +4568,7 @@ this
 _recentCrashes
 =
 (
+(
 state
 .
 session
@@ -4578,6 +4579,7 @@ state
 session
 .
 recentCrashes
+)
 |
 |
 0
@@ -4876,6 +4878,7 @@ sizemode
 minimized
 "
 )
+{
 state
 .
 windows
@@ -4889,6 +4892,7 @@ sizemode
 normal
 "
 ;
+}
 /
 /
 clear
@@ -4997,6 +5001,7 @@ resume_session_once
 "
 )
 )
+{
 this
 .
 _prefBranch
@@ -5011,6 +5016,7 @@ resume_session_once
 false
 )
 ;
+}
 TelemetryStopwatch
 .
 finish
@@ -7645,6 +7651,7 @@ detail
 .
 adoptedBy
 )
+{
 this
 .
 onTabClose
@@ -7653,6 +7660,7 @@ win
 target
 )
 ;
+}
 this
 .
 onTabRemove
@@ -7938,13 +7946,11 @@ return
 window
 "
 +
-(
 this
 .
 _nextWindowID
 +
 +
-)
 ;
 }
 /
@@ -8000,8 +8006,10 @@ aWindow
 __SSi
 ]
 )
+{
 return
 ;
+}
 /
 /
 ignore
@@ -8016,8 +8024,10 @@ RunState
 .
 isQuitting
 )
+{
 return
 ;
+}
 /
 /
 Assign
@@ -8166,6 +8176,7 @@ isWindowPrivate
 aWindow
 )
 )
+{
 this
 .
 _windows
@@ -8179,6 +8190,7 @@ isPrivate
 =
 true
 ;
+}
 if
 (
 !
@@ -8189,6 +8201,7 @@ _isWindowLoaded
 aWindow
 )
 )
+{
 this
 .
 _windows
@@ -8202,6 +8215,7 @@ _restoring
 =
 true
 ;
+}
 if
 (
 !
@@ -8211,6 +8225,7 @@ toolbar
 .
 visible
 )
+{
 this
 .
 _windows
@@ -8224,6 +8239,7 @@ isPopup
 =
 true
 ;
+}
 let
 tabbrowser
 =
@@ -11659,23 +11675,19 @@ winData
 let
 alreadyStored
 =
-(
 winIndex
 !
 =
 -
 1
-)
 ;
 let
 shouldStore
 =
-(
 hasSaveableTabs
 |
 |
 isLastWindow
-)
 ;
 if
 (
@@ -12891,6 +12903,7 @@ if
 (
 activeWindow
 )
+{
 this
 .
 activeWindowSSiCache
@@ -12903,6 +12916,7 @@ __SSi
 "
 "
 ;
+}
 DirtyWindows
 .
 clear
@@ -13291,8 +13305,10 @@ RunState
 .
 isQuitting
 )
+{
 return
 ;
+}
 LastSession
 .
 clear
@@ -13777,6 +13793,7 @@ i
 -
 -
 )
+{
 if
 (
 closedTabs
@@ -13794,6 +13811,7 @@ containsDomain
 this
 )
 )
+{
 closedTabs
 .
 splice
@@ -13802,6 +13820,8 @@ i
 1
 )
 ;
+}
+}
 for
 (
 let
@@ -13860,6 +13880,7 @@ selected
 >
 j
 )
+{
 this
 .
 _closedWindows
@@ -13871,6 +13892,7 @@ selected
 -
 -
 ;
+}
 }
 }
 if
@@ -13979,6 +14001,7 @@ entries
 .
 length
 )
+{
 activeIndex
 =
 selectedTab
@@ -13989,6 +14012,7 @@ length
 -
 1
 ;
+}
 this
 .
 _closedWindows
@@ -15375,12 +15399,14 @@ previousState
 =
 TAB_STATE_RESTORING
 )
+{
 this
 .
 restoreNextTab
 (
 )
 ;
+}
 }
 }
 /
@@ -16677,9 +16703,7 @@ _closedWindows
 .
 map
 (
-(
 winData
-)
 =
 >
 winData
@@ -16711,9 +16735,7 @@ _windows
 .
 map
 (
-(
 key
-)
 =
 >
 this
@@ -19983,6 +20005,7 @@ gBrowser
 let
 tab
 =
+(
 tabbrowser
 .
 selectedTab
@@ -20007,6 +20030,7 @@ state
 .
 userContextId
 }
+)
 )
 ;
 /
@@ -20718,6 +20742,7 @@ extData
 aKey
 ]
 )
+{
 delete
 this
 .
@@ -20733,6 +20758,7 @@ extData
 aKey
 ]
 ;
+}
 this
 .
 saveStateDelayed
@@ -22066,6 +22092,7 @@ window
 .
 __SS_lastSessionWindowID
 )
+{
 windows
 [
 window
@@ -22075,6 +22102,7 @@ __SS_lastSessionWindowID
 =
 window
 ;
+}
 }
 let
 lastSessionState
@@ -22782,6 +22810,7 @@ this
 .
 _recentCrashes
 =
+(
 lastSessionState
 .
 session
@@ -22792,6 +22821,7 @@ lastSessionState
 session
 .
 recentCrashes
+)
 |
 |
 0
@@ -24594,12 +24624,14 @@ if
 !
 aWindow
 )
+{
 return
 [
 false
 false
 ]
 ;
+}
 /
 /
 We
@@ -24748,6 +24780,7 @@ startupPref
 =
 1
 )
+{
 homePages
 =
 homePages
@@ -24769,6 +24802,7 @@ split
 )
 )
 ;
+}
 for
 (
 let
@@ -25013,6 +25047,7 @@ sizemode
 minimized
 "
 )
+{
 winData
 .
 sizemodeBeforeMinimized
@@ -25021,6 +25056,7 @@ winData
 .
 sizemode
 ;
+}
 var
 hidden
 =
@@ -25060,6 +25096,7 @@ length
 =
 0
 )
+{
 winData
 .
 hidden
@@ -25072,6 +25109,7 @@ join
 "
 )
 ;
+}
 else
 if
 (
@@ -25079,11 +25117,13 @@ winData
 .
 hidden
 )
+{
 delete
 winData
 .
 hidden
 ;
+}
 let
 sidebarBox
 =
@@ -25131,12 +25171,14 @@ checked
 true
 "
 )
+{
 winData
 .
 sidebar
 =
 sidebar
 ;
+}
 else
 if
 (
@@ -25144,11 +25186,13 @@ winData
 .
 sidebar
 )
+{
 delete
 winData
 .
 sidebar
 ;
+}
 }
 /
 *
@@ -25265,6 +25309,7 @@ _isWindowLoaded
 window
 )
 )
+{
 /
 /
 window
@@ -25275,6 +25320,7 @@ in
 _statesToRestore
 continue
 ;
+}
 if
 (
 aUpdateAll
@@ -25452,6 +25498,7 @@ ix
 .
 _restoring
 )
+{
 /
 /
 window
@@ -25462,6 +25509,7 @@ in
 _statesToRestore
 continue
 ;
+}
 total
 .
 push
@@ -25493,10 +25541,12 @@ ix
 .
 isPopup
 )
+{
 nonPopupCount
 +
 +
 ;
+}
 }
 /
 /
@@ -25548,10 +25598,12 @@ winData
 .
 isPopup
 )
+{
 nonPopupCount
 +
 +
 ;
+}
 }
 }
 /
@@ -25836,11 +25888,13 @@ sizemode
 minimized
 "
 )
+{
 ix
 =
 -
 1
 ;
+}
 let
 session
 =
@@ -26047,6 +26101,7 @@ _isWindowLoaded
 aWindow
 )
 )
+{
 return
 this
 .
@@ -26060,6 +26115,7 @@ aWindow
 )
 ]
 ;
+}
 if
 (
 RunState
@@ -26177,9 +26233,11 @@ _isWindowLoaded
 aWindow
 )
 )
+{
 return
 tabMap
 ;
+}
 let
 tabbrowser
 =
@@ -26209,12 +26267,14 @@ __SSi
 let
 tabsData
 =
+(
 winData
 .
 tabs
 =
 [
 ]
+)
 ;
 /
 /
@@ -26310,6 +26370,7 @@ aWindow
 .
 __SS_lastSessionWindowID
 )
+{
 this
 .
 _windows
@@ -26325,6 +26386,7 @@ aWindow
 .
 __SS_lastSessionWindowID
 ;
+}
 DirtyWindows
 .
 remove
@@ -26427,8 +26489,10 @@ tabs
 0
 ]
 )
+{
 continue
 ;
+}
 this
 .
 _openWindowWithState
@@ -26613,6 +26677,7 @@ __SSi
 ]
 )
 )
+{
 this
 .
 onLoad
@@ -26620,6 +26685,7 @@ onLoad
 aWindow
 )
 ;
+}
 TelemetryStopwatch
 .
 start
@@ -27583,6 +27649,7 @@ winData
 .
 __lastSessionWindowID
 )
+{
 aWindow
 .
 __SS_lastSessionWindowID
@@ -27591,6 +27658,7 @@ winData
 .
 __lastSessionWindowID
 ;
+}
 if
 (
 overwriteTabs
@@ -28697,6 +28765,7 @@ __SSi
 ]
 )
 )
+{
 this
 .
 onLoad
@@ -28704,6 +28773,7 @@ onLoad
 aWindow
 )
 ;
+}
 let
 root
 ;
@@ -28711,7 +28781,6 @@ try
 {
 root
 =
-(
 typeof
 aState
 =
@@ -28719,7 +28788,6 @@ aState
 "
 string
 "
-)
 ?
 JSON
 .
@@ -31514,8 +31582,10 @@ RunState
 .
 isQuitting
 )
+{
 return
 ;
+}
 /
 /
 Don
@@ -31539,8 +31609,10 @@ _tabsRestoringCount
 =
 MAX_CONCURRENT_TAB_RESTORES
 )
+{
 return
 ;
+}
 let
 tab
 =
@@ -31607,11 +31679,9 @@ aWinData
 var
 hidden
 =
-(
 aWinData
 .
 hidden
-)
 ?
 aWinData
 .
@@ -32567,12 +32637,14 @@ aSizeModeBeforeMinimized
 maximized
 "
 )
+{
 aWindow
 .
 maximize
 (
 )
 ;
+}
 aWindow
 .
 minimize
@@ -33158,9 +33230,11 @@ window
 .
 closed
 )
+{
 yield
 window
 ;
+}
 }
 }
 }
@@ -33303,9 +33377,11 @@ window
 .
 closed
 )
+{
 yield
 window
 ;
+}
 }
 }
 }
@@ -33747,6 +33823,7 @@ aFeature
 ]
 )
 )
+{
 features
 +
 =
@@ -33764,6 +33841,7 @@ winState
 aFeature
 ]
 ;
+}
 }
 )
 ;
@@ -33988,10 +34066,12 @@ arguments
 =
 defaultArgs
 )
+{
 hasFirstArgument
 =
 false
 ;
+}
 }
 return
 !
@@ -34505,9 +34585,11 @@ length
 =
 0
 )
+{
 return
 false
 ;
+}
 /
 /
 don
@@ -34570,9 +34652,11 @@ appinfo
 .
 inSafeMode
 )
+{
 return
 true
 ;
+}
 let
 max_resumed_crashes
 =
@@ -34604,7 +34688,6 @@ session
 lastUpdate
 &
 &
-(
 Date
 .
 now
@@ -34616,9 +34699,9 @@ aState
 session
 .
 lastUpdate
-)
 ;
 return
+(
 max_resumed_crashes
 !
 =
@@ -34632,6 +34715,7 @@ aRecentCrashes
 max_resumed_crashes
 |
 |
+(
 sessionAge
 &
 &
@@ -34639,6 +34723,8 @@ sessionAge
 >
 =
 SIX_HOURS_IN_MS
+)
+)
 )
 ;
 }
@@ -34876,6 +34962,7 @@ s
 data
 .
 return
+(
 aTabState
 .
 entries
@@ -34969,6 +35056,7 @@ privatebrowsing
 aTabState
 .
 userTypedValue
+)
 )
 ;
 }
@@ -35106,6 +35194,7 @@ to
 disk
 .
 return
+(
 aTabState
 .
 userTypedValue
@@ -35172,6 +35261,7 @@ about
 :
 privatebrowsing
 "
+)
 )
 )
 ;
@@ -35516,6 +35606,7 @@ window
 .
 selected
 )
+{
 window
 .
 selected
@@ -35523,6 +35614,7 @@ selected
 =
 1
 ;
+}
 else
 if
 (
@@ -35535,6 +35627,7 @@ window
 .
 selected
 )
+{
 pinnedWindowState
 .
 selected
@@ -35547,6 +35640,7 @@ length
 +
 1
 ;
+}
 /
 /
 +
@@ -35837,6 +35931,7 @@ state
 .
 selectedWindow
 )
+{
 state
 .
 selectedWindow
@@ -35844,6 +35939,7 @@ selectedWindow
 =
 1
 ;
+}
 else
 if
 (
@@ -35856,6 +35952,7 @@ state
 .
 selectedWindow
 )
+{
 defaultState
 .
 selectedIndex
@@ -35868,6 +35965,7 @@ length
 +
 1
 ;
+}
 state
 .
 windows
@@ -35954,8 +36052,10 @@ _restoreCount
 -
 1
 )
+{
 return
 ;
+}
 /
 /
 This
@@ -36749,8 +36849,10 @@ this
 .
 _max_windows_undo
 )
+{
 return
 ;
+}
 let
 spliceTo
 =
@@ -36811,10 +36913,12 @@ normalWindowIndex
 .
 isPopup
 )
+{
 normalWindowIndex
 +
 +
 ;
+}
 if
 (
 normalWindowIndex
@@ -36824,12 +36928,14 @@ this
 .
 _max_windows_undo
 )
+{
 spliceTo
 =
 normalWindowIndex
 +
 1
 ;
+}
 }
 if
 (
@@ -37181,12 +37287,14 @@ this
 .
 _tabsRestoringCount
 )
+{
 this
 .
 _tabsRestoringCount
 -
 -
 ;
+}
 }
 else
 if
@@ -39083,6 +39191,7 @@ priority
 .
 length
 )
+{
 candidateSet
 .
 push
@@ -39093,6 +39202,7 @@ push
 priority
 )
 ;
+}
 if
 (
 !
@@ -39105,6 +39215,7 @@ visible
 .
 length
 )
+{
 candidateSet
 .
 push
@@ -39115,6 +39226,7 @@ push
 visible
 )
 ;
+}
 if
 (
 restoreHiddenTabs
@@ -39124,6 +39236,7 @@ hidden
 .
 length
 )
+{
 candidateSet
 .
 push
@@ -39134,6 +39247,7 @@ push
 hidden
 )
 ;
+}
 }
 return
 candidateSet
@@ -39503,6 +39617,7 @@ if
 !
 silent
 )
+{
 Services
 .
 obs
@@ -39513,6 +39628,7 @@ null
 NOTIFY_LAST_SESSION_CLEARED
 )
 ;
+}
 }
 }
 }

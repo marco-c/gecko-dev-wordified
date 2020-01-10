@@ -117,9 +117,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 foo
-"
 :
 "
 bar
@@ -148,9 +146,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 baz
-"
 :
 "
 qux
@@ -251,8 +247,10 @@ tabRestoredCount
 <
 2
 )
+{
 return
 ;
+}
 is
 (
 busyEventCount

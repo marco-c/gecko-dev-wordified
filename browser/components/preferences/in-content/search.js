@@ -1171,8 +1171,10 @@ engines
 .
 length
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -1191,6 +1193,7 @@ name
 currentEngine
 )
 )
+{
 currentEngine
 =
 engines
@@ -1200,6 +1203,7 @@ engines
 .
 name
 ;
+}
 /
 /
 Now
@@ -1300,12 +1304,14 @@ name
 =
 currentEngine
 )
+{
 list
 .
 selectedItem
 =
 item
 ;
+}
 }
 )
 ;
@@ -1992,12 +1998,14 @@ aEngine
 .
 name
 )
+{
 gSearchPane
 .
 buildDefaultEngineDropDown
 (
 )
 ;
+}
 break
 ;
 }
@@ -2032,8 +2040,10 @@ editing
 "
 )
 )
+{
 return
 ;
+}
 /
 /
 Accept
@@ -2119,8 +2129,10 @@ editing
 "
 )
 )
+{
 return
 ;
+}
 if
 (
 aEvent
@@ -2770,6 +2782,7 @@ engine
 .
 shown
 )
+{
 hiddenList
 .
 push
@@ -2779,6 +2792,7 @@ engine
 name
 )
 ;
+}
 }
 Preferences
 .
@@ -3198,6 +3212,7 @@ i
 in
 aEngine
 )
+{
 clonedObj
 [
 i
@@ -3208,6 +3223,7 @@ aEngine
 i
 ]
 ;
+}
 clonedObj
 .
 originalEngine
@@ -3313,6 +3329,7 @@ length
 -
 1
 )
+{
 throw
 new
 Error
@@ -3326,6 +3343,7 @@ aNewIndex
 "
 )
 ;
+}
 var
 index
 =
@@ -3344,6 +3362,7 @@ index
 -
 1
 )
+{
 throw
 new
 Error
@@ -3357,6 +3376,7 @@ engine
 "
 )
 ;
+}
 if
 (
 index
@@ -3364,6 +3384,7 @@ index
 =
 aNewIndex
 )
+{
 return
 Promise
 .
@@ -3371,6 +3392,7 @@ resolve
 (
 )
 ;
+}
 /
 /
 nothing
@@ -3492,6 +3514,7 @@ index
 -
 1
 )
+{
 throw
 new
 Error
@@ -3503,6 +3526,7 @@ engine
 "
 )
 ;
+}
 let
 removedEngine
 =
@@ -3533,6 +3557,7 @@ _isSameEngine
 removedEngine
 )
 )
+{
 gSearchPane
 .
 showRestoreDefaults
@@ -3540,6 +3565,7 @@ showRestoreDefaults
 true
 )
 ;
+}
 gSearchPane
 .
 buildDefaultEngineDropDown
@@ -3774,6 +3800,7 @@ index
 -
 1
 )
+{
 throw
 new
 Error
@@ -3785,6 +3812,7 @@ engine
 "
 )
 ;
+}
 this
 .
 _engines
@@ -3958,6 +3986,7 @@ this
 .
 tree
 )
+{
 this
 .
 tree
@@ -3968,6 +3997,7 @@ index
 count
 )
 ;
+}
 }
 invalidate
 (
@@ -4102,6 +4132,7 @@ index
 .
 iconURI
 )
+{
 return
 this
 .
@@ -4116,6 +4147,7 @@ iconURI
 .
 spec
 ;
+}
 if
 (
 window
@@ -4124,6 +4156,7 @@ devicePixelRatio
 >
 1
 )
+{
 return
 "
 chrome
@@ -4144,6 +4177,7 @@ placeholder
 png
 "
 ;
+}
 return
 "
 chrome
@@ -4186,6 +4220,7 @@ id
 engineName
 "
 )
+{
 return
 this
 .
@@ -4198,6 +4233,7 @@ index
 .
 name
 ;
+}
 else
 if
 (
@@ -4210,6 +4246,7 @@ id
 engineKeyword
 "
 )
+{
 return
 this
 .
@@ -4222,6 +4259,7 @@ index
 .
 alias
 ;
+}
 return
 "
 "
@@ -4333,10 +4371,12 @@ nsITreeView
 .
 DROP_BEFORE
 )
+{
 dropIndex
 -
 -
 ;
+}
 }
 else
 if
@@ -4525,6 +4565,7 @@ id
 engineShown
 "
 )
+{
 return
 this
 .
@@ -4537,6 +4578,7 @@ index
 .
 shown
 ;
+}
 return
 undefined
 ;
@@ -4678,6 +4720,7 @@ if
 !
 valid
 )
+{
 document
 .
 getElementById
@@ -4693,6 +4736,7 @@ index
 column
 )
 ;
+}
 }
 )
 ;

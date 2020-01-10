@@ -201,9 +201,7 @@ fire
 let
 onFinished
 =
-(
 data
-)
 =
 >
 {

@@ -231,12 +231,14 @@ i
 ;
 i
 <
+(
 await
 UrlbarTestUtils
 .
 getResultCount
 (
 window
+)
 )
 ;
 +

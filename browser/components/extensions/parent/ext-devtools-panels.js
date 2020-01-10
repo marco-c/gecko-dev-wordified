@@ -3457,9 +3457,7 @@ fire
 const
 listener
 =
-(
 eventName
-)
 =
 >
 {
