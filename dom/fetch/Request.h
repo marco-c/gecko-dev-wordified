@@ -213,8 +213,6 @@ Request
 final
 :
 public
-nsISupports
-public
 FetchBody
 <
 Request
@@ -222,10 +220,14 @@ Request
 public
 nsWrapperCache
 {
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
+NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
 Request
+FetchBody
+<
+Request
+>
 )
 public
 :
