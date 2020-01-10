@@ -275,6 +275,12 @@ sphinx
 '
 sphinx_js
 '
+    
+'
+sphinxcontrib
+.
+mermaid
+'
 ]
 #
 JSDoc
