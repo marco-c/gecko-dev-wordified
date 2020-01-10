@@ -21588,6 +21588,17 @@ WindowID
 }
 }
 }
+uint32_t
+maxTouchPoints
+=
+BrowserParent
+:
+:
+GetMaxTouchPoints
+(
+mOwnerContent
+)
+;
 bool
 tabContextUpdated
 =
@@ -21603,6 +21614,7 @@ chromeOuterWindowID
 showFocusRings
 attrs
 presentationURLStr
+maxTouchPoints
 )
 ;
 NS_ENSURE_STATE
