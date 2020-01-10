@@ -571,6 +571,14 @@ use_dual_source_blending
 :
 bool
 pub
+use_advanced_blending
+:
+bool
+pub
+break_advanced_blend_batches
+:
+bool
+pub
 clip_scroll_tree
 :
 &
@@ -3261,6 +3269,9 @@ self
 .
 screen_size
 scisor_rect
+ctx
+.
+break_advanced_blend_batches
 )
 ;
 batch_builder
