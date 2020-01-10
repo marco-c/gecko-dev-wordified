@@ -59263,7 +59263,7 @@ csp
 loadInfo
 -
 >
-GetCspToInherit
+GetCsp
 (
 )
 ;
