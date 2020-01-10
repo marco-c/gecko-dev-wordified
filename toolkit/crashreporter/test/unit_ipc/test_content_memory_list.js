@@ -140,6 +140,7 @@ match
 6
 |
 |
+(
 parseInt
 (
 match
@@ -162,6 +163,7 @@ match
 >
 =
 1
+)
 )
 )
 {
@@ -205,6 +207,7 @@ if
 (
 is_win7_or_newer
 )
+{
 Assert
 .
 ok
@@ -222,6 +225,7 @@ MD_MEMORY_INFO_LIST_STREAM
 )
 )
 ;
+}
 }
 )
 ;

@@ -510,17 +510,14 @@ undefined
 "
 &
 &
-(
 frame
 .
 module_index
 >
 =
 0
-)
 &
 &
-(
 frame
 .
 module_index
@@ -528,7 +525,6 @@ module_index
 gModules
 .
 length
-)
 )
 {
 let

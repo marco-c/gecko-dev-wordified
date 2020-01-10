@@ -153,9 +153,11 @@ reportURL
 )
 )
 )
+{
 return
 reports
 ;
+}
 }
 catch
 (

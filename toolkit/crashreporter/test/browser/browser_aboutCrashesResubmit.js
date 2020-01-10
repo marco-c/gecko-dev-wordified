@@ -617,6 +617,7 @@ SubmittedCrash
 .
 extra
 )
+{
 is
 (
 result
@@ -643,7 +644,9 @@ expected
 "
 )
 ;
+}
 else
+{
 ok
 (
 false
@@ -662,6 +665,7 @@ data
 "
 )
 ;
+}
 }
 for
 (
@@ -682,6 +686,7 @@ in
 result
 )
 )
+{
 ok
 (
 false
@@ -700,6 +705,7 @@ data
 "
 )
 ;
+}
 }
 /
 /
@@ -808,9 +814,7 @@ browserLoaded
 (
 browser
 false
-(
 url
-)
 =
 >
 url
@@ -1104,9 +1108,7 @@ date
 +
 60000
 {
-"
 ServerURL
-"
 :
 "
 http
@@ -1131,17 +1133,13 @@ crashreport
 .
 sjs
 "
-"
 ProductName
-"
 :
 "
 Test
 App
 "
-"
 Foo
-"
 :
 "
 ABC
@@ -1252,9 +1250,7 @@ crashes
 .
 then
 (
-(
 tab
-)
 =
 >
 {
