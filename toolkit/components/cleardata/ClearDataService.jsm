@@ -4984,8 +4984,6 @@ remove
 HSTS
 /
 HPKP
-/
-OMS
 information
 for
 subdomains
@@ -5044,7 +5042,7 @@ as
 a
 key
 to
-remove
+reset
 the
 state
 .
@@ -5069,7 +5067,7 @@ hostname
 ;
 sss
 .
-removeState
+resetState
 (
 type
 uri

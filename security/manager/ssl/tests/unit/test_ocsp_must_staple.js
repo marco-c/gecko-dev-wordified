@@ -493,7 +493,7 @@ state
 .
 ssservice
 .
-removeState
+resetState
 (
 Ci
 .

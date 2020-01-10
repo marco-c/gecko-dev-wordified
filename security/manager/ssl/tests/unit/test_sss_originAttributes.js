@@ -583,7 +583,7 @@ storage
 .
 sss
 .
-removeState
+resetState
 (
 type
 uri
@@ -626,7 +626,7 @@ storage
 .
 sss
 .
-removeState
+resetState
 (
 type
 uri
@@ -883,7 +883,7 @@ originAttributes
 >
 sss
 .
-removeState
+resetState
 (
 type
 uri

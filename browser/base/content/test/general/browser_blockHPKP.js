@@ -698,7 +698,7 @@ kPinningDomain
 ;
 gSSService
 .
-removeState
+resetState
 (
 Ci
 .
