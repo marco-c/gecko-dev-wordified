@@ -5352,14 +5352,6 @@ object
 .
 environment
 )
-global
-:
-getObjectId
-(
-object
-.
-global
-)
 isProxy
 :
 object
