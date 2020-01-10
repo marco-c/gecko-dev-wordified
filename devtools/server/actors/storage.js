@@ -2884,7 +2884,7 @@ win
 .
 document
 .
-nodePrincipal
+effectiveStoragePrincipal
 ;
 }
 /
@@ -3847,7 +3847,7 @@ getCookiesFromHost
 host
 doc
 .
-nodePrincipal
+effectiveStoragePrincipal
 .
 originAttributes
 )
@@ -4637,7 +4637,7 @@ originAttributes
 =
 doc
 .
-nodePrincipal
+effectiveStoragePrincipal
 .
 originAttributes
 ;
@@ -4738,7 +4738,7 @@ host
 name
 doc
 .
-nodePrincipal
+effectiveStoragePrincipal
 .
 originAttributes
 )
@@ -4768,7 +4768,7 @@ host
 domain
 doc
 .
-nodePrincipal
+effectiveStoragePrincipal
 .
 originAttributes
 )
@@ -4798,7 +4798,7 @@ host
 domain
 doc
 .
-nodePrincipal
+effectiveStoragePrincipal
 .
 originAttributes
 )
@@ -8196,7 +8196,7 @@ storageActor
 .
 document
 .
-nodePrincipal
+effectiveStoragePrincipal
 .
 originAttributes
 ;
@@ -10235,7 +10235,7 @@ win
 .
 document
 .
-nodePrincipal
+effectiveStoragePrincipal
 ;
 return
 this
@@ -10296,7 +10296,7 @@ win
 .
 document
 .
-nodePrincipal
+effectiveStoragePrincipal
 ;
 this
 .
@@ -10358,7 +10358,7 @@ win
 .
 document
 .
-nodePrincipal
+effectiveStoragePrincipal
 ;
 this
 .
