@@ -1057,8 +1057,6 @@ actor
 ;
 webConsoleUI
 .
-webConsoleClient
-.
 evaluateJSAsync
 (
 evalString
@@ -1375,8 +1373,6 @@ js
 evalWithDebugger
 .
 webConsoleUI
-.
-webConsoleClient
 .
 evaluateJSAsync
 (
