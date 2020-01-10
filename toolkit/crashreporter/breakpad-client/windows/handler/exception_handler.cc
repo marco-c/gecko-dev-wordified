@@ -5196,6 +5196,7 @@ next_minidump_id_c_
 callback_context
 NULL
 NULL
+nullptr
 success
 )
 ;
@@ -5311,6 +5312,7 @@ filter_
 (
 callback_context_
 exinfo
+nullptr
 assertion
 )
 )
@@ -5432,6 +5434,7 @@ next_minidump_id_c_
 callback_context_
 exinfo
 assertion
+nullptr
 success
 )
 ;

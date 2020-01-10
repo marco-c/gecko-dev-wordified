@@ -1902,6 +1902,7 @@ c_str
 (
 )
 callback_context
+nullptr
 result
 )
 ;
@@ -2043,6 +2044,7 @@ filter_
 filter_
 (
 callback_context_
+nullptr
 )
 )
 return
@@ -2185,6 +2187,7 @@ filter_
 filter_
 (
 callback_context_
+nullptr
 )
 )
 return
@@ -2274,6 +2277,7 @@ callback_
 dump_path_c_
 next_minidump_id_c_
 callback_context_
+nullptr
 result
 )
 )
