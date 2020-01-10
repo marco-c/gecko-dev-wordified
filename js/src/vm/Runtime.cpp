@@ -3396,10 +3396,10 @@ trc
 )
 ;
 }
-FreeOp
+JSFreeOp
 :
 :
-FreeOp
+JSFreeOp
 (
 JSRuntime
 *
@@ -3408,7 +3408,7 @@ bool
 isDefault
 )
 :
-JSFreeOp
+runtime_
 (
 maybeRuntime
 )
@@ -3432,11 +3432,11 @@ maybeRuntime
 )
 ;
 }
-FreeOp
+JSFreeOp
 :
 :
 ~
-FreeOp
+JSFreeOp
 (
 )
 {

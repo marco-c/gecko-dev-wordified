@@ -161,9 +161,6 @@ namespace
 js
 {
 class
-FreeOp
-;
-class
 RelativeTimeFormatObject
 :
 public

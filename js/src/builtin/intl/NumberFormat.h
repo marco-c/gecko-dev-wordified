@@ -191,9 +191,6 @@ class
 ArrayObject
 ;
 class
-FreeOp
-;
-class
 NumberFormatObject
 :
 public
