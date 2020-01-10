@@ -950,9 +950,9 @@ test
 -
 Foo
 -
-TEST
--
 Test
+-
+TEST
 "
 "
 popup
@@ -1001,9 +1001,9 @@ join
 "
 )
 "
-TEST
--
 Test
+-
+TEST
 "
 "
 popup
