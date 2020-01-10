@@ -2055,7 +2055,7 @@ script
 static
 inline
 void
-Monitor
+MonitorBytecodeType
 (
 JSContext
 *
@@ -2078,7 +2078,7 @@ val
 static
 inline
 void
-Monitor
+MonitorBytecodeType
 (
 JSContext
 *
@@ -2099,7 +2099,7 @@ type
 static
 inline
 void
-Monitor
+MonitorBytecodeType
 (
 JSContext
 *
@@ -2116,7 +2116,7 @@ rval
 static
 inline
 void
-Monitor
+MonitorBytecodeType
 (
 JSContext
 *
@@ -2187,7 +2187,7 @@ script
 static
 inline
 void
-SetThis
+MonitorThisType
 (
 JSContext
 *
@@ -2205,7 +2205,7 @@ type
 static
 inline
 void
-SetThis
+MonitorThisType
 (
 JSContext
 *
@@ -2225,7 +2225,7 @@ value
 static
 inline
 void
-SetArgument
+MonitorArgType
 (
 JSContext
 *
@@ -2245,7 +2245,7 @@ type
 static
 inline
 void
-SetArgument
+MonitorArgType
 (
 JSContext
 *
@@ -2328,17 +2328,6 @@ TemporaryTypeSet
 *
 *
 pBytecodeTypes
-)
-;
-static
-void
-Purge
-(
-JSContext
-*
-cx
-HandleScript
-script
 )
 ;
 void

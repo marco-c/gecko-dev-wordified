@@ -14168,7 +14168,7 @@ interpReturnOK
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 script
@@ -18202,7 +18202,7 @@ error
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 script
@@ -18309,7 +18309,7 @@ error
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 script
@@ -18418,7 +18418,7 @@ error
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 script
@@ -19026,7 +19026,7 @@ error
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 script
@@ -19181,7 +19181,7 @@ error
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 script
@@ -19615,7 +19615,7 @@ spAfterCall
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 script
@@ -20365,7 +20365,7 @@ spAfterCall
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 script
@@ -21185,7 +21185,7 @@ rval
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 script
@@ -21277,7 +21277,7 @@ error
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 script
@@ -21334,7 +21334,7 @@ rval
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 script
@@ -22323,7 +22323,7 @@ val
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 script
@@ -32657,7 +32657,7 @@ false
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 script

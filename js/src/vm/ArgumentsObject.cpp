@@ -3547,7 +3547,7 @@ nargs
 TypeScript
 :
 :
-SetArgument
+MonitorArgType
 (
 cx
 script
@@ -4889,7 +4889,7 @@ nargs
 TypeScript
 :
 :
-SetArgument
+MonitorArgType
 (
 cx
 script

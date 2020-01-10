@@ -1681,7 +1681,7 @@ monitoredResult
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 ic
@@ -1884,7 +1884,7 @@ entry
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 ic

@@ -10982,7 +10982,7 @@ analyzed
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 script
