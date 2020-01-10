@@ -509,25 +509,6 @@ patch
 '
         
 #
-avoid
-selecting
-neon
-codepaths
-on
-AArch64
-Windows
-        
-'
-aarch64
--
-windows
--
-noneon
-.
-patch
-'
-        
-#
 fix
 the
 x86
