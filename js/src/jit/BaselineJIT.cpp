@@ -1629,7 +1629,7 @@ Method_CantCompile
 script
 -
 >
-setBaselineScript
+disableBaselineCompile
 (
 cx
 -
@@ -1637,7 +1637,6 @@ cx
 runtime
 (
 )
-BASELINE_DISABLED_SCRIPT
 )
 ;
 }
@@ -1694,7 +1693,7 @@ IsBaselineJitEnabled
 script
 -
 >
-setBaselineScript
+disableBaselineCompile
 (
 cx
 -
@@ -1702,7 +1701,6 @@ cx
 runtime
 (
 )
-BASELINE_DISABLED_SCRIPT
 )
 ;
 return
@@ -1959,7 +1957,7 @@ BaselineMaxScriptLength
 script
 -
 >
-setBaselineScript
+disableBaselineCompile
 (
 cx
 -
@@ -1967,7 +1965,6 @@ cx
 runtime
 (
 )
-BASELINE_DISABLED_SCRIPT
 )
 ;
 return
@@ -1989,7 +1986,7 @@ BaselineMaxScriptSlots
 script
 -
 >
-setBaselineScript
+disableBaselineCompile
 (
 cx
 -
@@ -1997,7 +1994,6 @@ cx
 runtime
 (
 )
-BASELINE_DISABLED_SCRIPT
 )
 ;
 return
@@ -2116,7 +2112,7 @@ hasForceInterpreterOp
 script
 -
 >
-setBaselineScript
+disableBaselineCompile
 (
 cx
 -
@@ -2124,7 +2120,6 @@ cx
 runtime
 (
 )
-BASELINE_DISABLED_SCRIPT
 )
 ;
 return
@@ -3315,11 +3310,7 @@ by
 JSScript
 :
 :
-setBaselineScript
-/
-/
-/
-clearBaselineScript
+setBaselineScriptImpl
 .
 fop
 -
@@ -5811,10 +5802,9 @@ baselineScript
 script
 -
 >
-setBaselineScript
+clearBaselineScript
 (
 fop
-nullptr
 )
 ;
 BaselineScript
