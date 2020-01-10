@@ -829,6 +829,9 @@ results_handler
 =
 RaptorResultsHandler
 (
+self
+.
+config
 )
         
 self
