@@ -302,8 +302,11 @@ CallOrNewEmitter
 :
 emitNameCallee
 (
+Handle
+<
 JSAtom
 *
+>
 name
 )
 {
