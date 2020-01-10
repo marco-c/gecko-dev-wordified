@@ -219,6 +219,13 @@ TextDrawTarget
 .
 h
 "
+#
+include
+"
+malloc_decls
+.
+h
+"
 /
 /
 clang
