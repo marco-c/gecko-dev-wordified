@@ -1889,7 +1889,7 @@ Object
 assign
 (
 {
-name
+slug
 :
 STUDY_NAME
 actionName
