@@ -1706,13 +1706,6 @@ AppClearDataObserverInit
 (
 )
 ;
-HTMLVideoElement
-:
-:
-InitStatics
-(
-)
-;
 #
 ifdef
 MOZ_XUL

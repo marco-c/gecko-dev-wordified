@@ -276,12 +276,6 @@ aAttribute
 const
 override
 ;
-static
-void
-InitStatics
-(
-)
-;
 virtual
 nsMapRuleToAttributesFunc
 GetAttributeMappingFunction
