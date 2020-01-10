@@ -653,6 +653,11 @@ ContentParentId
 (
 )
 ;
+int32_t
+OsPid
+(
+)
+;
 bool
 IsCurrentGlobal
 (
