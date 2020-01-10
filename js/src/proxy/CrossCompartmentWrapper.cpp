@@ -3756,15 +3756,6 @@ map
 "
 )
 ;
-Value
-origv
-=
-ObjectValue
-(
-*
-origTarget
-)
-;
 JS
 :
 :
@@ -3849,11 +3840,7 @@ wcompartment
 >
 lookupWrapper
 (
-ObjectValue
-(
-*
 newTarget
-)
 )
 )
 ;
@@ -3892,7 +3879,7 @@ wcompartment
 >
 lookupWrapper
 (
-origv
+origTarget
 )
 ;
 MOZ_ASSERT

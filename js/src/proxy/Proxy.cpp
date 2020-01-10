@@ -4675,15 +4675,6 @@ map
 .
 *
 /
-Value
-key
-=
-ObjectValue
-(
-*
-referent
-)
-;
 WrapperMap
 :
 :
@@ -4700,7 +4691,7 @@ compartment
 >
 lookupWrapper
 (
-key
+referent
 )
 ;
 MOZ_ASSERT
