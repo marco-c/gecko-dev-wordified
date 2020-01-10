@@ -163,10 +163,7 @@ ToComputedValue
 }
 ;
 use
-std
-:
-:
-sync
+servo_arc
 :
 :
 Arc
@@ -334,6 +331,7 @@ Deserialize
 MallocSizeOf
 Serialize
 SpecifiedValueInfo
+ToShmem
 )
 ]
 pub

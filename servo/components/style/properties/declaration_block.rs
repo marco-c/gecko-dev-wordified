@@ -278,9 +278,7 @@ crate
 selector_parser
 :
 :
-{
 SelectorImpl
-}
 ;
 use
 selectors

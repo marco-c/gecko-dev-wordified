@@ -366,6 +366,7 @@ where_clause
 allow
 (
 unused_variables
+unreachable_code
 )
 ]
 fn

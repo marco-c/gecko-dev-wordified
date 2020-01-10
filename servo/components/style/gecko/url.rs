@@ -962,9 +962,9 @@ URL_VALUE_TABLE
 [
 derive
 (
+Eq
 Hash
 PartialEq
-Eq
 )
 ]
 struct

@@ -8624,8 +8624,8 @@ bitflags
 derive
 (
 MallocSizeOf
-ToShmem
 ToResolvedValue
+ToShmem
 )
 ]
 /

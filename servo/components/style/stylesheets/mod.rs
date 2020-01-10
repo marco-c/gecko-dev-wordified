@@ -290,6 +290,17 @@ style_traits
 :
 ParsingMode
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 use
 to_shmem
 :

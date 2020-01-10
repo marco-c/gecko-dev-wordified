@@ -4282,8 +4282,8 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
-ToShmem
 ToResolvedValue
+ToShmem
 )
 ]
 pub
