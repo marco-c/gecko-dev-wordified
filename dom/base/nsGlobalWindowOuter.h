@@ -7247,7 +7247,7 @@ weak
 pointer
 to
 the
-nsPresShell
+PresShell
 that
 we
 are

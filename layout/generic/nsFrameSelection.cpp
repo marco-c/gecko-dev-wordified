@@ -17265,12 +17265,14 @@ This
 is
 basically
 what
-nsPresShell
+nsCopySupport
 :
 :
-DoCopy
-does
+HTMLCopy
+(
+)
 *
+does
 to
 move
 the

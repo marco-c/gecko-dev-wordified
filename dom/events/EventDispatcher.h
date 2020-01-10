@@ -1727,7 +1727,7 @@ This
 is
 used
 in
-nsPresShell
+PresShell
 .
 *
 /

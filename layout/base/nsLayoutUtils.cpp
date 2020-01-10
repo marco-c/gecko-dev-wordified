@@ -15297,7 +15297,7 @@ correctly
 handle
 /
 /
-nsPresShell
+PresShell
 resolution
 widgetToView
 =

@@ -129,9 +129,6 @@ TypedEnumBits
 .
 h
 "
-class
-nsIPresShell
-;
 struct
 CapturingContentInfo
 ;

@@ -17237,10 +17237,12 @@ nsDisplayCanvasBackground
 by
 /
 /
-nsPresShell
+PresShell
 :
 :
 AddCanvasBackgroundColorItem
+(
+)
 and
 painted
 by

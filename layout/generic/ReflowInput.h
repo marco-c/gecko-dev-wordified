@@ -2641,7 +2641,7 @@ the
 reflow
 root
 by
-nsPresShell
+PresShell
 .
 nscoord
 mOrthogonalLimit
