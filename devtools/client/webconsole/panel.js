@@ -441,7 +441,6 @@ this
 target
 webConsoleUIWindow
 chromeWindow
-this
 )
 ;
 await
