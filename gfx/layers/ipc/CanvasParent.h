@@ -266,7 +266,7 @@ Shutdown
 *
 *
 *
-Create
+Initialize
 a
 canvas
 translator
@@ -275,8 +275,8 @@ a
 particular
 TextureType
 which
-translates
 *
+translates
 events
 from
 a
@@ -328,7 +328,7 @@ ipc
 :
 :
 IPCResult
-RecvCreateTranslator
+RecvInitTranslator
 (
 const
 TextureType
