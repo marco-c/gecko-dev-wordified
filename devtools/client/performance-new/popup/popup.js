@@ -269,9 +269,6 @@ leaf
 mainthreadio
 "
 "
-memory
-"
-"
 privacy
 "
 "

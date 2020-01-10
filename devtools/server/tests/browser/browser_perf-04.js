@@ -216,8 +216,11 @@ startProfiler
 ;
 is
 (
+typeof
 features
-0x202
+"
+number
+"
 "
 Should
 apply
