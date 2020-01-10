@@ -194,11 +194,7 @@ const
 SUITES
 =
 {
-"
 aboutdebugging
--
-new
-"
 :
 {
 path
@@ -208,8 +204,6 @@ path
 .
 /
 aboutdebugging
--
-new
 /
 test
 /
