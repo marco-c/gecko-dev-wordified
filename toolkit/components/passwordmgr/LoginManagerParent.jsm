@@ -2611,9 +2611,6 @@ prompter
 promptToChangePasswordWithUsernames
 (
 logins
-logins
-.
-length
 formLogin
 )
 ;
