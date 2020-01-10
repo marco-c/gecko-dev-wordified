@@ -945,13 +945,6 @@ contentChild
 >
 SendReportContentBlockingLog
 (
-IPC
-:
-:
-Principal
-(
-aFirstPartyPrincipal
-)
 ipcStream
 .
 TakeValue

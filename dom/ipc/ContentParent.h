@@ -6889,10 +6889,6 @@ IPCResult
 RecvReportContentBlockingLog
 (
 const
-Principal
-&
-aPrincipal
-const
 IPCStream
 &
 aIPCStream

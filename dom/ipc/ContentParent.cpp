@@ -34961,10 +34961,6 @@ ContentParent
 RecvReportContentBlockingLog
 (
 const
-Principal
-&
-aPrincipal
-const
 IPCStream
 &
 aIPCStream
@@ -35009,15 +35005,6 @@ this
 )
 ;
 }
-nsCOMPtr
-<
-nsIPrincipal
->
-principal
-(
-aPrincipal
-)
-;
 nsCOMPtr
 <
 nsIInputStream
@@ -35074,7 +35061,6 @@ trackingDBService
 >
 RecordContentBlockingLog
 (
-principal
 asyncStream
 )
 ;
