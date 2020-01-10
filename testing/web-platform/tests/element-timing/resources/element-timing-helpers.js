@@ -52,6 +52,14 @@ assert_equals
 (
 entry
 .
+startTime
+0
+)
+;
+assert_equals
+(
+entry
+.
 duration
 0
 )
@@ -68,7 +76,7 @@ assert_greater_than_equal
 (
 entry
 .
-startTime
+renderTime
 beforeRender
 )
 ;
@@ -81,7 +89,7 @@ now
 )
 entry
 .
-startTime
+renderTime
 )
 ;
 if
@@ -127,7 +135,7 @@ basic
 check
 on
 |
-startTime
+renderTime
 |
 :
 after
