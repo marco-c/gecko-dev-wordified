@@ -455,7 +455,7 @@ waitingWorker
 installingWorker
 ;
 const
-isNewE10sImplementation
+isParentInterceptEnabled
 =
 swm
 .
@@ -474,7 +474,7 @@ browserTabsRemoteAutostart
 &
 &
 !
-isNewE10sImplementation
+isParentInterceptEnabled
 ;
 return
 {
@@ -550,6 +550,11 @@ lastUpdateTime
 registration
 .
 lastUpdateTime
+traits
+:
+{
+isParentInterceptEnabled
+}
 }
 ;
 }
