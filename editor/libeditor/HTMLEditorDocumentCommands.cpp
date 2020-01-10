@@ -606,7 +606,7 @@ return
 true
 ;
 }
-NS_IMETHODIMP
+nsresult
 SetDocumentStateCommand
 :
 :
@@ -616,10 +616,11 @@ const
 char
 *
 aCommandName
-nsISupports
-*
-refCon
+TextEditor
+&
+aTextEditor
 )
+const
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -3207,7 +3208,7 @@ return
 false
 ;
 }
-NS_IMETHODIMP
+nsresult
 DocumentStateCommand
 :
 :
@@ -3217,10 +3218,11 @@ const
 char
 *
 aCommandName
-nsISupports
-*
-refCon
+TextEditor
+&
+aTextEditor
 )
+const
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
