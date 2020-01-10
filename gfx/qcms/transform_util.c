@@ -3023,7 +3023,7 @@ PRECACHE_OUTPUT_SIZE
 ;
 }
 }
-bool
+qcms_bool
 compute_precache
 (
 struct

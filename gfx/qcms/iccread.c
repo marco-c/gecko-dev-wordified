@@ -578,7 +578,7 @@ buf
 size_t
 size
 ;
-bool
+qcms_bool
 valid
 ;
 const
@@ -1260,7 +1260,7 @@ mem
 profile
 -
 >
-class_type
+class
 =
 read_u32
 (
@@ -1273,7 +1273,7 @@ switch
 profile
 -
 >
-class_type
+class
 )
 {
 case
@@ -1648,7 +1648,7 @@ be
 /
 ignored
 .
-bool
+qcms_bool
 qcms_profile_is_bogus
 (
 qcms_profile
@@ -6289,7 +6289,7 @@ NO_MEM_PROFILE
 profile
 -
 >
-class_type
+class
 =
 DISPLAY_DEVICE_PROFILE
 ;
@@ -6445,7 +6445,7 @@ NO_MEM_PROFILE
 profile
 -
 >
-class_type
+class
 =
 DISPLAY_DEVICE_PROFILE
 ;
@@ -7323,7 +7323,7 @@ if
 profile
 -
 >
-class_type
+class
 =
 =
 DISPLAY_DEVICE_PROFILE
@@ -7332,7 +7332,7 @@ DISPLAY_DEVICE_PROFILE
 profile
 -
 >
-class_type
+class
 =
 =
 INPUT_DEVICE_PROFILE
@@ -7341,7 +7341,7 @@ INPUT_DEVICE_PROFILE
 profile
 -
 >
-class_type
+class
 =
 =
 OUTPUT_DEVICE_PROFILE
@@ -7350,7 +7350,7 @@ OUTPUT_DEVICE_PROFILE
 profile
 -
 >
-class_type
+class
 =
 =
 COLOR_SPACE_PROFILE
@@ -9340,7 +9340,7 @@ DISPLAY_DEVICE_PROFILE
 profile
 -
 >
-class_type
+class
 write_u32
 (
 data
