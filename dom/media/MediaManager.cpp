@@ -15150,6 +15150,12 @@ Value
 )
 ;
 }
+aConstraint
+.
+Uninit
+(
+)
+;
 if
 (
 mediaSource
@@ -15163,12 +15169,11 @@ SetAsMediaTrackConstraints
 .
 mMediaSource
 .
-Value
+Construct
 (
-)
-=
 *
 mediaSource
+)
 ;
 }
 else
