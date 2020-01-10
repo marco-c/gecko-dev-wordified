@@ -4202,7 +4202,7 @@ _ensureEntries
 await
 this
 .
-_ensureInitialized
+ensureInitialized
 (
 )
 ;
@@ -4575,7 +4575,7 @@ entry
 ;
 }
 async
-_ensureInitialized
+ensureInitialized
 (
 )
 {
@@ -4712,7 +4712,7 @@ _entries
 await
 this
 .
-_ensureInitialized
+ensureInitialized
 (
 )
 ;
@@ -6646,7 +6646,7 @@ _ensureEntries
 await
 this
 .
-_ensureInitialized
+ensureInitialized
 (
 )
 ;
@@ -7041,7 +7041,7 @@ entry
 ;
 }
 async
-_ensureInitialized
+ensureInitialized
 (
 )
 {
@@ -7178,7 +7178,7 @@ _entries
 await
 this
 .
-_ensureInitialized
+ensureInitialized
 (
 )
 ;
@@ -17819,6 +17819,18 @@ stuff
 GfxBlocklistRS
 .
 checkForEntries
+(
+)
+;
+ExtensionBlocklistRS
+.
+ensureInitialized
+(
+)
+;
+PluginBlocklistRS
+.
+ensureInitialized
 (
 )
 ;

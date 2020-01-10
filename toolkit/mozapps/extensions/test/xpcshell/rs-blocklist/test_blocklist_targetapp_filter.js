@@ -207,7 +207,7 @@ BlocklistGlobal
 .
 PluginBlocklistRS
 .
-_ensureInitialized
+ensureInitialized
 (
 )
 ;
