@@ -26,6 +26,12 @@ random
 import
 mozunit
 from
+six
+.
+moves
+import
+range
+from
 manifestparser
 .
 filters
@@ -475,7 +481,7 @@ i
 for
 i
 in
-xrange
+range
 (
 num_tests
 )

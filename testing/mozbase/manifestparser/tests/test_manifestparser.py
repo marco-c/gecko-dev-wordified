@@ -212,7 +212,7 @@ tests
 )
 len
 (
-file
+open
 (
 mozmill_example
 )
@@ -271,7 +271,7 @@ self
 assertEqual
 (
 lines
-file
+open
 (
 mozmill_example
 )

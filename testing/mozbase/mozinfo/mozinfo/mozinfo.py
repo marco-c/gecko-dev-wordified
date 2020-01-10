@@ -1576,32 +1576,10 @@ info
 "
 "
     
-PY3
-=
-sys
-.
-version_info
-[
-0
-]
-=
-=
-3
-    
-if
-PY3
-:
-        
+from
+six
+import
 string_types
-=
-str
-    
-else
-:
-        
-string_types
-=
-basestring
     
 if
 isinstance

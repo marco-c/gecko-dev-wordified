@@ -121,6 +121,10 @@ import
 defaultdict
 MutableSequence
 from
+six
+import
+string_types
+from
 .
 expression
 import
@@ -2738,7 +2742,7 @@ if
 isinstance
 (
 tags
-basestring
+string_types
 )
 :
             
@@ -2884,7 +2888,7 @@ if
 isinstance
 (
 paths
-basestring
+string_types
 )
 :
             

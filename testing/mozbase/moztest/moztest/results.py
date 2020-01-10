@@ -61,6 +61,10 @@ import
 time
 import
 os
+from
+six
+import
+string_types
 import
 mozinfo
 class
@@ -664,7 +668,7 @@ assert
 isinstance
 (
 name
-basestring
+string_types
 )
 "
 name
@@ -1303,7 +1307,7 @@ if
 isinstance
 (
 output
-basestring
+string_types
 )
 :
             

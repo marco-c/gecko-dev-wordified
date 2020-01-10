@@ -3369,7 +3369,7 @@ string_types
             
 fp
 =
-file
+open
 (
 fp
 '
@@ -5121,7 +5121,7 @@ overwrite
 :
                 
 with
-file
+open
 (
 manifest_path
 '
@@ -5406,7 +5406,7 @@ write
             
 write
 =
-file
+open
 (
 write
 '

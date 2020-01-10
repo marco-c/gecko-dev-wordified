@@ -82,6 +82,10 @@ mozbuild
 base
 import
 MozbuildObject
+from
+six
+import
+string_types
 here
 =
 os
@@ -352,7 +356,7 @@ if
 isinstance
 (
 actions
-basestring
+string_types
 )
 :
         

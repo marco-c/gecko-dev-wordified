@@ -66,6 +66,10 @@ minidom
 as
 dom
 from
+six
+import
+string_types
+from
 base
 import
 Output
@@ -148,7 +152,7 @@ not
 isinstance
 (
 text
-basestring
+string_types
 )
 :
                 

@@ -91,6 +91,7 @@ from
 six
 import
 string_types
+text_type
 try
 :
     
@@ -119,26 +120,6 @@ from
 errors
 import
 RunnerNotStartedError
-if
-sys
-.
-version_info
-[
-0
-]
-<
-3
-:
-    
-unicode_type
-=
-unicode
-else
-:
-    
-unicode_type
-=
-str
 class
 BaseRunner
 (
@@ -700,7 +681,7 @@ if
 isinstance
 (
 v
-unicode_type
+text_type
 )
 :
                 
@@ -721,7 +702,7 @@ if
 isinstance
 (
 k
-unicode_type
+text_type
 )
 :
                 

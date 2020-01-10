@@ -82,6 +82,11 @@ import
 namedtuple
 from
 six
+import
+string_types
+text_type
+from
+six
 .
 moves
 .
@@ -3707,7 +3712,7 @@ if
 isinstance
 (
 file_name
-unicode
+string_types
 )
 :
                 
@@ -3804,7 +3809,7 @@ not
 isinstance
 (
 file_name
-unicode
+string_types
 )
 :
             
@@ -3828,7 +3833,7 @@ CreateFileW
             
 file_name
 =
-unicode
+text_type
 (
 file_name
 sys
