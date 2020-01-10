@@ -32,6 +32,8 @@ idl_test
 [
 '
 xslt
+.
+tentative
 '
 ]
 [
