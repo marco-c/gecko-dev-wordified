@@ -2626,7 +2626,7 @@ NodePrincipal
 outerDoc
 -
 >
-SetDocumentAndPageUseCounter
+SetUseCounter
 (
 eUseCounter_custom_FilteredCrossOriginIFrame
 )

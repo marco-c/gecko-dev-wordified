@@ -26344,7 +26344,7 @@ endif
 /
 DEBUG
 void
-SetDocumentAndPageUseCounter
+SetUseCounter
 (
 JSObject
 *
@@ -26392,7 +26392,7 @@ GetDocument
 )
 -
 >
-SetDocumentAndPageUseCounter
+SetUseCounter
 (
 aUseCounter
 )

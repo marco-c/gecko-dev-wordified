@@ -7429,7 +7429,7 @@ OwnerDoc
 )
 -
 >
-SetDocumentAndPageUseCounter
+SetUseCounter
 (
 useCounter
 )
@@ -7466,7 +7466,7 @@ OwnerDoc
 )
 -
 >
-SetDocumentAndPageUseCounter
+SetUseCounter
 (
 useCounter
 )

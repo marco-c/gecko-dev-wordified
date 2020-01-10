@@ -766,7 +766,7 @@ rv
 )
 )
 {
-SetDocumentAndPageUseCounter
+SetUseCounter
 (
 mozilla
 :

@@ -447,7 +447,7 @@ IsSecureContext
 doc
 -
 >
-SetDocumentAndPageUseCounter
+SetUseCounter
 (
 eUseCounter_custom_GetUserMediaInsec
 )
@@ -465,7 +465,7 @@ doc
 doc
 -
 >
-SetDocumentAndPageUseCounter
+SetUseCounter
 (
 eUseCounter_custom_GetUserMediaXOrigin
 )
@@ -503,7 +503,7 @@ ignored
 doc
 -
 >
-SetDocumentAndPageUseCounter
+SetUseCounter
 (
 eUseCounter_custom_GetUserMediaUnfocused
 )
@@ -761,7 +761,7 @@ IsSecureContext
 doc
 -
 >
-SetDocumentAndPageUseCounter
+SetUseCounter
 (
 eUseCounter_custom_EnumerateDevicesInsec
 )
@@ -799,7 +799,7 @@ ignored
 doc
 -
 >
-SetDocumentAndPageUseCounter
+SetUseCounter
 (
 eUseCounter_custom_EnumerateDevicesUnfocused
 )
@@ -1233,7 +1233,7 @@ doc
 doc
 -
 >
-SetDocumentAndPageUseCounter
+SetUseCounter
 (
 eUseCounter_custom_GetDisplayMediaXOrigin
 )
