@@ -658,6 +658,10 @@ Create
 nsISerialEventTarget
 *
 aBaseTarget
+const
+char
+*
+aName
 uint32_t
 aPriority
 =
