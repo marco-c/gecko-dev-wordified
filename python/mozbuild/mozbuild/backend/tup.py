@@ -3080,7 +3080,6 @@ lib_name
         
 objs
 _
-_
 shared_libs
 os_libs
 static_libs
@@ -3438,7 +3437,6 @@ CC
 '
         
 objs
-_
 _
 shared_libs
 os_libs
@@ -3823,7 +3821,6 @@ prog
 _
 _
 _
-_
 extra_libs
 _
 =
@@ -4136,7 +4133,6 @@ o
 ]
         
 objs
-_
 _
 shared_libs
 _
