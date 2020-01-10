@@ -1496,6 +1496,10 @@ TypeScript
 types
 =
 script
+.
+unbarrieredGet
+(
+)
 -
 >
 types

@@ -590,7 +590,7 @@ Arena
 ;
 friend
 class
-ArenaCellIterImpl
+ArenaCellIter
 ;
 friend
 class
