@@ -350,12 +350,15 @@ StructuredCloneData
 aData
 )
 ;
+virtual
 nsIGlobalObject
 *
 GetParentObject
 (
 )
 const
+=
+0
 ;
 void
 RejectPendingQueries
