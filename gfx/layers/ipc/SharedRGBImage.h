@@ -319,14 +319,6 @@ aForwarder
 )
 override
 ;
-uint8_t
-*
-GetBuffer
-(
-)
-const
-override
-;
 gfx
 :
 :
