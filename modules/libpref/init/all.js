@@ -28998,8 +28998,6 @@ toolbox
 addons
 config
 downloads
-home
-newtab
 preferences
 sync
 -
