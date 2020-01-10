@@ -8301,7 +8301,7 @@ jsClass
 js
 :
 :
-GetObjectJSClass
+GetObjectClass
 (
 wrapper
 )

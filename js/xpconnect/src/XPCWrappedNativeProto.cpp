@@ -360,14 +360,8 @@ mJSProtoObject
 JS_NewObjectWithUniqueType
 (
 cx
-js
-:
-:
-Jsvalify
-(
 &
 XPC_WN_Proto_JSClass
-)
 proto
 )
 ;

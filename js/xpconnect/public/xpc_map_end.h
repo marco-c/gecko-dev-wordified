@@ -438,11 +438,8 @@ GetJSClass
 )
 {
 return
-Jsvalify
-(
 GetClass
 (
-)
 )
 ;
 }

@@ -3707,11 +3707,8 @@ ToJSClass
 const
 {
 return
-Jsvalify
-(
 &
 mBase
-)
 ;
 }
 }
@@ -3933,11 +3930,8 @@ ToJSClass
 const
 {
 return
-Jsvalify
-(
 &
 mBase
-)
 ;
 }
 }
