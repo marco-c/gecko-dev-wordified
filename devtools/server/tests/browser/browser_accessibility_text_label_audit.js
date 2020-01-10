@@ -2499,7 +2499,7 @@ heading
 {
 score
 :
-FAIL
+WARNING
 issue
 :
 HEADING_NO_CONTENT
@@ -2524,7 +2524,7 @@ heading
 {
 score
 :
-FAIL
+WARNING
 issue
 :
 HEADING_NO_CONTENT
@@ -2651,7 +2651,7 @@ heading
 {
 score
 :
-FAIL
+WARNING
 issue
 :
 HEADING_NO_CONTENT
@@ -2675,7 +2675,7 @@ heading
 {
 score
 :
-FAIL
+WARNING
 issue
 :
 HEADING_NO_CONTENT

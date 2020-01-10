@@ -1839,7 +1839,7 @@ null
 {
 score
 :
-FAIL
+WARNING
 issue
 :
 HEADING_NO_CONTENT
