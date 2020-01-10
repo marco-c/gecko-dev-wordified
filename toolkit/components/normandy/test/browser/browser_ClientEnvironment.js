@@ -778,7 +778,7 @@ const
 active
 =
 {
-name
+slug
 :
 "
 active
@@ -792,7 +792,7 @@ const
 expired
 =
 {
-name
+slug
 :
 "
 expired

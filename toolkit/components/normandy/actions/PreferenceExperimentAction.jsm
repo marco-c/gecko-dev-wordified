@@ -264,7 +264,7 @@ super
 ;
 this
 .
-seenExperimentNames
+seenExperimentSlugs
 =
 [
 ]
@@ -292,7 +292,7 @@ arguments
 ;
 this
 .
-seenExperimentNames
+seenExperimentSlugs
 .
 push
 (
@@ -529,8 +529,6 @@ PreferenceExperiments
 start
 (
 {
-name
-:
 slug
 actionName
 :
@@ -880,13 +878,13 @@ if
 (
 this
 .
-seenExperimentNames
+seenExperimentSlugs
 .
 includes
 (
 experiment
 .
-name
+slug
 )
 )
 {
@@ -901,7 +899,7 @@ stop
 (
 experiment
 .
-name
+slug
 {
 resetValue
 :
@@ -935,7 +933,7 @@ experiment
 {
 experiment
 .
-name
+slug
 }
 failed
 :

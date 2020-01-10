@@ -449,7 +449,7 @@ stop
 (
 experiment
 .
-name
+slug
 {
 reason
 :
