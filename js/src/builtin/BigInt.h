@@ -284,6 +284,9 @@ Value
 vp
 )
 ;
+#
+ifndef
+EXPOSE_INTL_API
 static
 bool
 toLocaleString_impl
@@ -314,6 +317,8 @@ Value
 vp
 )
 ;
+#
+endif
 static
 bool
 asUintN

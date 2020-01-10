@@ -2842,7 +2842,7 @@ Steps
 var
 x
 =
-ToNumber
+ToNumeric
 (
 value
 )
@@ -3181,7 +3181,7 @@ Step
 var
 x
 =
-ToNumber
+ToNumeric
 (
 value
 )
