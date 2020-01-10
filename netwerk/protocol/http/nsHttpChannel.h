@@ -1829,7 +1829,7 @@ connection
 .
 )
 nsresult
-BeginConnectActual
+MaybeResolveProxyAndBeginConnect
 (
 )
 ;
@@ -1846,7 +1846,7 @@ synchronously
 or
 asynchronously
 call
-BeginConnectActual
+BeginConnect
 /
 /
 which
@@ -1883,7 +1883,7 @@ just
 return
 NS_OK
 and
-BeginConnectActual
+BeginConnect
 (
 )
 /
@@ -3488,7 +3488,7 @@ InitLocalBlockList
 and
 /
 /
-BeginConnectActual
+BeginConnect
 (
 )
 so
