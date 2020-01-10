@@ -17,10 +17,23 @@ os
 try
 :
     
+#
+import
+Queue
+under
+its
+Python
+3
+name
+    
 import
 Queue
 as
 queue
+#
+noqa
+:
+N813
 except
 ImportError
 :

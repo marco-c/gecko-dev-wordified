@@ -1770,11 +1770,6 @@ None
 abstractmethod
     
 #
-noqa
-:
-N805
-    
-#
 classmethod
 (
 doesn
@@ -1783,6 +1778,11 @@ t
 compose
 with
 abstractmethod
+in
+<
+3
+.
+3
 )
     
 def
@@ -1795,6 +1795,10 @@ tests
 kwargs
 )
 :
+#
+noqa
+:
+N805
         
 pass
     

@@ -23,6 +23,10 @@ etree
 ElementTree
 as
 etree
+#
+noqa
+:
+N813
 MYPY
 =
 False
