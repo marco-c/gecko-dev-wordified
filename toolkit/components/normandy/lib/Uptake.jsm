@@ -187,7 +187,7 @@ UptakeTelemetry
 .
 STATUS
 .
-CUSTOM_2_ERROR
+BACKOFF
 RECIPE_EXECUTION_ERROR
 :
 UptakeTelemetry
