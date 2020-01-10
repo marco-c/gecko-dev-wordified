@@ -1043,10 +1043,7 @@ super
 specified
 :
 :
-{
-BorderStyle
-TextDecorationLine
-}
+TextTransform
 ;
 pub
 use
@@ -1056,7 +1053,10 @@ super
 specified
 :
 :
-TextTransform
+{
+BorderStyle
+TextDecorationLine
+}
 ;
 pub
 use
