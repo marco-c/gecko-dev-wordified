@@ -649,6 +649,20 @@ artifacts
 '
 ]
     
+Optional
+(
+'
+priority
+'
+)
+:
+task_description_schema
+[
+'
+priority
+'
+]
+    
 #
 The
 "

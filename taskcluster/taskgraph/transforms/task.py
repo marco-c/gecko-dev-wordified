@@ -1932,6 +1932,24 @@ Extra
 object
     
 }
+    
+#
+Override
+the
+default
+priority
+for
+the
+project
+    
+Optional
+(
+'
+priority
+'
+)
+:
+basestring
 }
 )
 TC_TREEHERDER_SCHEMA_URL
