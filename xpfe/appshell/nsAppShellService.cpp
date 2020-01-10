@@ -2468,6 +2468,13 @@ OriginAttributes
 (
 )
 browsingContext
+true
+/
+*
+disable
+history
+*
+/
 )
 ;
 if
