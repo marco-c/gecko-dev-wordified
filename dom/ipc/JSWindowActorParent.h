@@ -264,6 +264,14 @@ JSWindowActorParent
 )
 ;
 }
+nsIGlobalObject
+*
+GetParentObject
+(
+)
+const
+override
+;
 WindowGlobalParent
 *
 GetManager
