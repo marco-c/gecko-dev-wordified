@@ -2904,6 +2904,11 @@ ProcessCrossOriginHeader
 (
 )
 ;
+nsresult
+ProcessCrossOriginResourcePolicyHeader
+(
+)
+;
 /
 *
 *
