@@ -492,6 +492,9 @@ region
 struct
 Header
 {
+uint32_t
+mMagic
+;
 /
 /
 The
