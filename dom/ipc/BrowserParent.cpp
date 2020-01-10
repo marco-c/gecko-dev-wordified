@@ -16153,9 +16153,12 @@ jsm
 "
 )
 ;
-MOZ_ALWAYS_TRUE
+NS_ENSURE_TRUE
 (
 funcs
+IPC_OK
+(
+)
 )
 ;
 nsCOMPtr
