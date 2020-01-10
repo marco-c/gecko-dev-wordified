@@ -1566,10 +1566,13 @@ extension
 "
 }
 ;
-assertTelemetryMatches
+assertAboutAddonsTelemetryEvents
 (
 [
 [
+"
+addonsManager
+"
 "
 action
 "
@@ -1595,6 +1598,9 @@ default
 ]
 [
 "
+addonsManager
+"
+"
 action
 "
 "
@@ -1618,6 +1624,9 @@ override
 }
 ]
 [
+"
+addonsManager
+"
 "
 action
 "
@@ -1645,7 +1654,7 @@ permanent
 ]
 ]
 {
-filterMethods
+methods
 :
 [
 "
