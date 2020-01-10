@@ -6712,10 +6712,7 @@ type
 -
 icon
 "
->
-<
 /
-image
 >
 <
 image
@@ -6728,10 +6725,7 @@ site
 -
 icon
 "
->
-<
 /
-image
 >
 <
 vbox
@@ -6773,10 +6767,7 @@ title
 -
 text
 "
->
-<
 /
-description
 >
 <
 /
@@ -6826,10 +6817,7 @@ tags
 -
 text
 "
->
-<
 /
-description
 >
 <
 /
@@ -6869,10 +6857,7 @@ value
 =
 "
 "
->
-<
 /
-description
 >
 <
 /
@@ -6918,10 +6903,7 @@ url
 -
 text
 "
->
-<
 /
-description
 >
 <
 /
@@ -6971,10 +6953,7 @@ action
 -
 text
 "
->
-<
 /
-description
 >
 <
 /
