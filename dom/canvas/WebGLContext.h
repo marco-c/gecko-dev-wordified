@@ -4356,6 +4356,14 @@ readPixels
 ;
 if
 (
+IsContextLost
+(
+)
+)
+return
+;
+if
+(
 !
 ValidateNonNull
 (
