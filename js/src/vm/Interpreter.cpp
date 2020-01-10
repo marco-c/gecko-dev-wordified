@@ -13514,13 +13514,8 @@ geckoProfiler
 .
 exit
 (
+cx
 script
-script
--
->
-functionNonDelazifying
-(
-)
 )
 ;
 }
