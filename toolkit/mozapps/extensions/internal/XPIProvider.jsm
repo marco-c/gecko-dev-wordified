@@ -2192,6 +2192,11 @@ isTemporary
 location
 .
 isSystem
+|
+|
+location
+.
+isBuiltin
 ;
 }
 /
