@@ -2979,6 +2979,12 @@ uint32_t
 length
 )
 ;
+size_t
+associatedBytes
+(
+)
+const
+;
 uint32_t
 flags
 (
