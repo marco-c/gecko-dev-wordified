@@ -3131,7 +3131,12 @@ aSurface
 ;
 wl_display_flush
 (
-WaylandDisplayGetWLDisplay
+GetWaylandDisplay
+(
+)
+-
+>
+GetDisplay
 (
 )
 )
