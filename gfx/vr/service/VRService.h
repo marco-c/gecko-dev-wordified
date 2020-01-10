@@ -237,6 +237,13 @@ VRService
 (
 )
 ;
+void
+StopInternal
+(
+bool
+aFromDtor
+)
+;
 bool
 InitShmem
 (
