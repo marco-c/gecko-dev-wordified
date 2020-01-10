@@ -4030,9 +4030,9 @@ debugging
 only
 show
 system
-add
--
-ons
+and
+hidden
+extensions
 in
 local
 builds
@@ -4049,7 +4049,7 @@ devtools
 .
 aboutdebugging
 .
-showSystemAddons
+showHiddenAddons
 "
 false
 )
@@ -4063,7 +4063,7 @@ devtools
 .
 aboutdebugging
 .
-showSystemAddons
+showHiddenAddons
 "
 true
 )

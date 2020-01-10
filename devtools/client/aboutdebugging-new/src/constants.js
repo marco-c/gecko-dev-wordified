@@ -568,6 +568,8 @@ drives
 the
 display
 of
+hidden
+&
 system
 addons
 in
@@ -575,14 +577,14 @@ about
 :
 debugging
 .
-SHOW_SYSTEM_ADDONS
+SHOW_HIDDEN_ADDONS
 :
 "
 devtools
 .
 aboutdebugging
 .
-showSystemAddons
+showHiddenAddons
 "
 }
 ;

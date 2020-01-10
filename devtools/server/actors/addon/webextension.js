@@ -571,6 +571,13 @@ this
 addon
 .
 isDebuggable
+hidden
+:
+this
+.
+addon
+.
+hidden
 /
 /
 iconDataURL

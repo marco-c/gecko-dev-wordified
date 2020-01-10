@@ -97,7 +97,7 @@ debugTargetCollapsibilities
 =
 {
 }
-showSystemAddons
+showHiddenAddons
 =
 false
 )
@@ -123,7 +123,7 @@ null
 showProfilerDialog
 :
 false
-showSystemAddons
+showHiddenAddons
 temporaryInstallError
 :
 null

@@ -459,7 +459,7 @@ getNetworkLocations
 )
 ;
 const
-showSystemAddons
+showHiddenAddons
 =
 Services
 .
@@ -469,7 +469,7 @@ getBoolPref
 (
 PREFERENCES
 .
-SHOW_SYSTEM_ADDONS
+SHOW_HIDDEN_ADDONS
 false
 )
 ;
@@ -479,7 +479,7 @@ UiState
 (
 locations
 collapsibilities
-showSystemAddons
+showHiddenAddons
 )
 ;
 }

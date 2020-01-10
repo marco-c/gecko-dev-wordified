@@ -342,7 +342,7 @@ devtools
 .
 aboutdebugging
 .
-showSystemAddons
+showHiddenAddons
 "
 ;
 const
