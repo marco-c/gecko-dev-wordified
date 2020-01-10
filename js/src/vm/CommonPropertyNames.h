@@ -1073,6 +1073,16 @@ initializers
 \
 MACRO
 (
+dotLocalInitializers
+dotLocalInitializers
+"
+.
+localInitializers
+"
+)
+\
+MACRO
+(
 dotFieldKeys
 dotFieldKeys
 "
