@@ -7173,6 +7173,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -7351,6 +7352,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -8623,6 +8625,7 @@ derive
 (
 MallocSizeOf
 ToShmem
+ToResolvedValue
 )
 ]
 /
@@ -10103,6 +10106,7 @@ bitflags
 derive
 (
 MallocSizeOf
+ToResolvedValue
 ToShmem
 )
 ]
@@ -11580,6 +11584,7 @@ bitflags
 derive
 (
 MallocSizeOf
+ToResolvedValue
 ToShmem
 )
 ]
@@ -13169,6 +13174,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
@@ -15069,6 +15075,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -15184,6 +15191,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -15837,6 +15845,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]

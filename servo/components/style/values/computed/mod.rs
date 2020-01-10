@@ -3898,6 +3898,7 @@ Debug
 MallocSizeOf
 PartialEq
 ToCss
+ToResolvedValue
 )
 ]
 #
