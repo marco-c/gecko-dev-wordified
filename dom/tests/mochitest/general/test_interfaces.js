@@ -10519,6 +10519,9 @@ PushManager
 insecureContext
 :
 true
+fennecOrDesktop
+:
+true
 }
 /
 /
@@ -10545,6 +10548,9 @@ PushSubscription
 insecureContext
 :
 true
+fennecOrDesktop
+:
+true
 }
 /
 /
@@ -10569,6 +10575,9 @@ name
 PushSubscriptionOptions
 "
 insecureContext
+:
+true
+fennecOrDesktop
 :
 true
 }
