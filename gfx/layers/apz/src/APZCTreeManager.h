@@ -3855,6 +3855,10 @@ aEndPoint
 OverscrollHandoffState
 &
 aOverscrollHandoffState
+const
+TimeStamp
+&
+aTimeStamp
 )
 ;
 /
