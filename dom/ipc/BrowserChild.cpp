@@ -2546,6 +2546,15 @@ mBeforeUnloadListeners
 (
 0
 )
+mEffectsInfo
+{
+EffectsInfo
+:
+:
+FullyHidden
+(
+)
+}
 mDidFakeShow
 (
 false
