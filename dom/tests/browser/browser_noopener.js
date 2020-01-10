@@ -817,7 +817,7 @@ times
 .
 requestLongerTimeout
 (
-25
+30
 )
 ;
 add_task
