@@ -349,6 +349,12 @@ isMediaPlayingForCurrentTab
 )
 )
 {
+playbackState
+=
+PlaybackState
+.
+PLAYING
+;
 EventDispatcher
 .
 getInstance
