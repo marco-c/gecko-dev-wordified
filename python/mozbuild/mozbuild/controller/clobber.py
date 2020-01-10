@@ -260,6 +260,9 @@ __init__
 self
 topsrcdir
 topobjdir
+substs
+=
+None
 )
 :
         
@@ -374,6 +377,27 @@ topobjdir
 '
 CLOBBER
 '
+)
+        
+if
+substs
+:
+            
+self
+.
+substs
+=
+substs
+        
+else
+:
+            
+self
+.
+substs
+=
+dict
+(
 )
         
 #
