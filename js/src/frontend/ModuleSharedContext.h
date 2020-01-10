@@ -152,11 +152,7 @@ h
 js
 :
 :
-Module
-{
-Builder
-Object
-}
+ModuleObject
 #
 include
 "
@@ -215,6 +211,9 @@ Scope
 namespace
 js
 {
+class
+ModuleBuilder
+;
 namespace
 frontend
 {
