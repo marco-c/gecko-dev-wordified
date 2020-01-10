@@ -980,6 +980,7 @@ GECKO_PROCESS_TYPE
 enum_name
 string_name
 xre_name
+bin_type
 )
 \
 case
@@ -1363,6 +1364,7 @@ GECKO_PROCESS_TYPE
 enum_name
 string_name
 xre_name
+bin_type
 )
 \
 case
