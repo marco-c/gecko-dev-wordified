@@ -321,14 +321,6 @@ devtools
 *
 "
 "
-other
--
-licenses
-/
-*
-*
-"
-"
 parser
 /
 *
