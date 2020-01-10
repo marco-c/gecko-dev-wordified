@@ -8951,7 +8951,6 @@ aEditSubAction
 CollectNonEditableNodes
 aCollectNonEditableNodes
 )
-const
 ;
 /
 *
