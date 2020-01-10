@@ -906,8 +906,7 @@ mapStateToProps
 state
 =
 >
-{
-return
+(
 {
 activeEventListeners
 :
@@ -928,8 +927,7 @@ getEventListenerExpanded
 state
 )
 }
-;
-}
+)
 ;
 export
 default

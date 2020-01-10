@@ -1278,14 +1278,6 @@ getConditionalPanelLocation
 state
 )
 ;
-const
-log
-=
-getLogPointStatus
-(
-state
-)
-;
 return
 {
 cx
@@ -1303,6 +1295,11 @@ location
 )
 location
 log
+:
+getLogPointStatus
+(
+state
+)
 }
 ;
 }

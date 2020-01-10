@@ -310,8 +310,7 @@ props
 )
 =
 >
-{
-return
+(
 {
 symbols
 :
@@ -337,8 +336,7 @@ source
 url
 )
 }
-;
-}
+)
 )
 (
 SourceIcon

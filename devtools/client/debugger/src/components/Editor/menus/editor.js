@@ -335,8 +335,7 @@ EditorItemActions
 )
 =
 >
-{
-return
+(
 {
 id
 :
@@ -402,8 +401,7 @@ selectedContent
 value
 )
 }
-;
-}
+)
 ;
 const
 copySourceItem
@@ -990,8 +988,7 @@ EditorItemActions
 )
 =
 >
-{
-return
+(
 {
 id
 :
@@ -1043,8 +1040,7 @@ selectedSource
 )
 )
 }
-;
-}
+)
 ;
 export
 function

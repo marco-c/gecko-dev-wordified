@@ -1091,6 +1091,7 @@ map
 scope
 =
 >
+(
 {
 /
 /
@@ -1117,8 +1118,6 @@ the
 Location
 type
 .
-return
-{
 start
 :
 scope
@@ -1189,8 +1188,7 @@ children
 sourceId
 )
 }
-;
-}
+)
 )
 ;
 }

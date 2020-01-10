@@ -767,8 +767,7 @@ map
 element
 =
 >
-{
-return
+(
 {
 name
 :
@@ -808,8 +807,7 @@ element
 .
 loc
 }
-;
-}
+)
 )
 .
 filter
