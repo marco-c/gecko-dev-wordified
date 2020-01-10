@@ -2808,7 +2808,7 @@ contains
 TraversalFlags
 :
 :
-Forgetful
+FinalAnimationTraversal
 )
 )
 ;
@@ -4452,8 +4452,9 @@ we
 '
 re
 in
-a
-forgetful
+the
+final
+animation
 traversal
 .
 if
@@ -4468,7 +4469,7 @@ contains
 TraversalFlags
 :
 :
-Forgetful
+FinalAnimationTraversal
 )
 {
 return
