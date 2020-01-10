@@ -8927,7 +8927,7 @@ static
 void
 NotifyTabUIResolutionChanged
 (
-BrowserParent
+nsIRemoteTab
 *
 aTab
 void
@@ -8938,7 +8938,7 @@ aArg
 aTab
 -
 >
-UIResolutionChanged
+NotifyResolutionChanged
 (
 )
 ;
