@@ -462,3 +462,4 @@ RandomSelector
 MinTabSelector
 "
 ]
+;

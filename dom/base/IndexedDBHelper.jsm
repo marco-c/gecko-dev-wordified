@@ -100,6 +100,7 @@ n
 )
 ;
 }
+;
 }
 else
 {
@@ -111,6 +112,7 @@ s
 )
 {
 }
+;
 }
 var
 EXPORTED_SYMBOLS
@@ -137,10 +139,10 @@ ChromeUtils
 defineModuleGetter
 (
 this
-'
+"
 Services
-'
-'
+"
+"
 resource
 :
 /
@@ -152,7 +154,7 @@ modules
 Services
 .
 jsm
-'
+"
 )
 ;
 function
@@ -162,12 +164,14 @@ err
 )
 {
 return
+(
 err
 &
 &
 err
 .
 name
+)
 |
 |
 "
@@ -359,6 +363,7 @@ if
 (
 DEBUG
 )
+{
 debug
 (
 "
@@ -381,6 +386,7 @@ self
 dbVersion
 )
 ;
+}
 let
 req
 ;
@@ -410,6 +416,7 @@ if
 (
 DEBUG
 )
+{
 debug
 (
 "
@@ -424,6 +431,7 @@ self
 dbName
 )
 ;
+}
 Services
 .
 tm
@@ -459,6 +467,7 @@ if
 (
 DEBUG
 )
+{
 debug
 (
 "
@@ -479,6 +488,7 @@ self
 dbVersion
 )
 ;
+}
 self
 .
 _db
@@ -504,6 +514,7 @@ if
 (
 DEBUG
 )
+{
 debug
 (
 "
@@ -520,6 +531,8 @@ window
 )
 ;
 }
+}
+;
 invokeCallbacks
 (
 )
@@ -625,6 +638,7 @@ if
 (
 DEBUG
 )
+{
 debug
 (
 "
@@ -640,6 +654,7 @@ self
 dbName
 )
 ;
+}
 invokeCallbacks
 (
 getErrorName
@@ -667,6 +682,7 @@ if
 (
 DEBUG
 )
+{
 debug
 (
 "
@@ -679,6 +695,7 @@ blocked
 "
 )
 ;
+}
 }
 ;
 }
@@ -742,6 +759,7 @@ if
 (
 DEBUG
 )
+{
 debug
 (
 "
@@ -757,6 +775,7 @@ early
 "
 )
 ;
+}
 if
 (
 aSuccessCb
@@ -951,6 +970,7 @@ if
 (
 DEBUG
 )
+{
 debug
 (
 "
@@ -962,6 +982,7 @@ transaction
 txn_type
 )
 ;
+}
 let
 txn
 ;
@@ -1000,6 +1021,7 @@ if
 (
 DEBUG
 )
+{
 debug
 (
 "
@@ -1014,6 +1036,7 @@ this
 dbName
 )
 ;
+}
 failureCb
 (
 getErrorName
@@ -1029,6 +1052,7 @@ if
 (
 DEBUG
 )
+{
 debug
 (
 "
@@ -1043,6 +1067,7 @@ this
 dbName
 )
 ;
+}
 let
 stores
 ;
@@ -1120,6 +1145,7 @@ if
 (
 DEBUG
 )
+{
 debug
 (
 "
@@ -1133,6 +1159,7 @@ callback
 "
 )
 ;
+}
 /
 *
 *
@@ -1249,6 +1276,7 @@ if
 (
 DEBUG
 )
+{
 debug
 (
 "
@@ -1259,6 +1287,7 @@ transaction
 "
 )
 ;
+}
 /
 *
 *
@@ -1432,3 +1461,4 @@ Set
 ;
 }
 }
+;

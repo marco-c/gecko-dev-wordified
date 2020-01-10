@@ -546,9 +546,7 @@ aMessages
 .
 forEach
 (
-(
 aMsg
-)
 =
 >
 {
@@ -782,9 +780,7 @@ aMessages
 .
 forEach
 (
-(
 aName
-)
 =
 >
 {
@@ -1214,9 +1210,7 @@ _listeners
 .
 forEach
 (
-(
 aName
-)
 =
 >
 {
@@ -1966,9 +1960,7 @@ _requests
 .
 forEach
 (
-(
 aKey
-)
 =
 >
 {
@@ -2027,9 +2019,7 @@ _requests
 .
 forEach
 (
-(
 aKey
-)
 =
 >
 {
@@ -2070,3 +2060,4 @@ aKey
 ;
 }
 }
+;

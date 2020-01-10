@@ -110,11 +110,13 @@ cb
 )
 {
 return
+(
 this
 .
 _activationHandler
 =
 cb
+)
 ;
 }
 get
@@ -135,11 +137,13 @@ cb
 )
 {
 return
+(
 this
 .
 _remoteActivationHandler
 =
 cb
+)
 ;
 }
 }
