@@ -430,6 +430,7 @@ remoteDoc
 >
 SendParentCOMProxy
 (
+this
 )
 ;
 }
