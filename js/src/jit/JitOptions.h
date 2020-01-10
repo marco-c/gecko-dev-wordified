@@ -320,9 +320,6 @@ bool
 disableCacheIR
 ;
 bool
-disableCacheIRCalls
-;
-bool
 disableSincos
 ;
 bool
