@@ -812,10 +812,7 @@ rv
 =
 NS_NewNamedThread
 (
-"
-Lazy
-Idle
-"
+mName
 getter_AddRefs
 (
 mThread
@@ -2662,11 +2659,9 @@ aName
 {
 aName
 .
-AssignLiteral
+Assign
 (
-"
-LazyIdleThread
-"
+mName
 )
 ;
 return
