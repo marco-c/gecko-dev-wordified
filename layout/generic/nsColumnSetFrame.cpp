@@ -7627,10 +7627,8 @@ ReflowOutput
 &
 aDesiredSize
 bool
-&
 aUnboundedLastColumn
 bool
-&
 aRunWasFeasible
 nsReflowStatus
 &
@@ -8666,10 +8664,6 @@ aColData
 ;
 }
 }
-aRunWasFeasible
-=
-feasible
-;
 }
 void
 nsColumnSetFrame

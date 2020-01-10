@@ -1357,8 +1357,6 @@ param
 aRunWasFeasible
 An
 input
-/
-output
 parameter
 indicating
 whether
@@ -1427,10 +1425,8 @@ ReflowOutput
 &
 aDesiredSize
 bool
-&
 aUnboundedLastColumn
 bool
-&
 aRunWasFeasible
 nsReflowStatus
 &
