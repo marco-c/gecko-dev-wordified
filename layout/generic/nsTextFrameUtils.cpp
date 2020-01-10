@@ -2452,9 +2452,9 @@ nsTextFrameUtils
 :
 ComputeApproximateLengthWithWhitespaceCompression
 (
-nsIContent
+Text
 *
-aContent
+aText
 const
 nsStyleText
 *
@@ -2466,10 +2466,11 @@ nsTextFragment
 *
 frag
 =
-aContent
+&
+aText
 -
 >
-GetText
+TextFragment
 (
 )
 ;

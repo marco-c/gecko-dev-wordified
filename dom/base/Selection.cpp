@@ -9673,10 +9673,10 @@ textFrame
 SetSelectedRange
 (
 0
-aContent
+textFrame
 -
 >
-GetText
+TextFragment
 (
 )
 -
