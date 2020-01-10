@@ -236,6 +236,12 @@ using
 media
 :
 :
+NullableTimeUnit
+;
+using
+media
+:
+:
 TimeUnit
 ;
 /
@@ -1718,10 +1724,7 @@ the
 output
 stream
 .
-Maybe
-<
-TimeUnit
->
+NullableTimeUnit
 mLastVideoStartTime
 ;
 /
@@ -1764,10 +1767,7 @@ overlaps
 in
 VideoData
 .
-Maybe
-<
-TimeUnit
->
+NullableTimeUnit
 mLastVideoEndTime
 ;
 /
