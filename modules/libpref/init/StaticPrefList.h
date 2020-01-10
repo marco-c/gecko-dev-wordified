@@ -18992,7 +18992,7 @@ enabled
 "
 layout_css_cached_scrollbar_styles_enabled
 bool
-false
+true
 )
 /
 /
