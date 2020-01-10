@@ -1157,9 +1157,6 @@ mDidCreateDoc
 bool
 mCallingShow
 ;
-WeakFrame
-mPreviousCaret
-;
 }
 ;
 /
