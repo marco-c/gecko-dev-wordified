@@ -20546,10 +20546,6 @@ https
 bool
 newuriIsHttps
 =
-false
-;
-rv
-=
 newuri
 -
 >
@@ -20558,14 +20554,6 @@ SchemeIs
 "
 https
 "
-&
-newuriIsHttps
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
