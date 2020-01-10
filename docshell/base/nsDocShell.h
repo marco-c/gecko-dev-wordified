@@ -1454,10 +1454,10 @@ dom
 .
 background_loading_iframe
 is
+/
+/
 set
 .
-/
-/
 As
 soon
 as
@@ -1470,10 +1470,10 @@ can
 be
 treated
 as
+/
+/
 background
 loading
-/
-/
 it
 triggers
 the
@@ -1484,6 +1484,8 @@ see
 if
 the
 parent
+/
+/
 document
 can
 fire

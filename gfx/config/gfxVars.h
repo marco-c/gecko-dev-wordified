@@ -460,7 +460,6 @@ RemoteCanvasEnabled
 bool
 false
 )
-\
 /
 *
 Add

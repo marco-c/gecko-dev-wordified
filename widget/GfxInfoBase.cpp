@@ -7498,6 +7498,8 @@ the
 StringVectorCopy
 (
 )
+/
+/
 call
 .
 LoggingRecord

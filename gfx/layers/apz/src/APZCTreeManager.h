@@ -1650,6 +1650,7 @@ and
 to
 which
 aIsFirstPaint
+*
 applies
 .
 *
