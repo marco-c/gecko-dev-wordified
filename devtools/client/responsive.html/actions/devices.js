@@ -1191,6 +1191,17 @@ pixelRatio
 ;
 dispatch
 (
+changeViewportAngle
+(
+id
+viewport
+.
+angle
+)
+)
+;
+dispatch
+(
 changeUserAgent
 (
 device
