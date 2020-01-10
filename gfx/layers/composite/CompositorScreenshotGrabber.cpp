@@ -357,7 +357,7 @@ QueueItem
 >
 mQueue
 ;
-UniquePtr
+RefPtr
 <
 ProfilerScreenshots
 >
@@ -1287,10 +1287,8 @@ mProfilerScreenshots
 {
 mProfilerScreenshots
 =
-MakeUnique
-<
+new
 ProfilerScreenshots
->
 (
 )
 ;
