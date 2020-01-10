@@ -131,7 +131,7 @@ Services
 ;
 const
 {
-ChromeDebuggerActor
+ThreadActor
 }
 =
 require
@@ -688,12 +688,10 @@ this
 threadActor
 =
 new
-ChromeDebuggerActor
+ThreadActor
 (
 this
-.
-conn
-this
+null
 )
 ;
 this
@@ -821,7 +819,7 @@ this
 _consoleActor
 .
 actorID
-chromeDebugger
+threadActor
 :
 this
 .
