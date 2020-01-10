@@ -7282,7 +7282,7 @@ ppBrowser
 =
 PrintUtils
 .
-_shouldSimplify
+shouldSimplify
 ?
 PrintPreviewListener
 .
