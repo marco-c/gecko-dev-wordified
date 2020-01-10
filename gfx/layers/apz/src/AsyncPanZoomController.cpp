@@ -14689,7 +14689,7 @@ if
 StaticPrefs
 :
 :
-SmoothScrollEnabled
+general_smoothScroll
 (
 )
 )

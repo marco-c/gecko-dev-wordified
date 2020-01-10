@@ -201,7 +201,7 @@ if
 StaticPrefs
 :
 :
-SmoothScrollMSDPhysicsEnabled
+general_smoothScroll_msdPhysics_enabled
 (
 )
 )

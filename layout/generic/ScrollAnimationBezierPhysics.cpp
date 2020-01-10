@@ -688,7 +688,7 @@ aCurrentPos
 StaticPrefs
 :
 :
-SmoothScrollCurrentVelocityWeighting
+general_smoothScroll_currentVelocityWeighting
 (
 )
 =
@@ -707,7 +707,7 @@ Init
 StaticPrefs
 :
 :
-SmoothScrollStopDecelerationWeighting
+general_smoothScroll_stopDecelerationWeighting
 (
 )
 1
@@ -771,7 +771,7 @@ normalization
 StaticPrefs
 :
 :
-SmoothScrollCurrentVelocityWeighting
+general_smoothScroll_currentVelocityWeighting
 (
 )
 ;
@@ -785,7 +785,7 @@ normalization
 StaticPrefs
 :
 :
-SmoothScrollCurrentVelocityWeighting
+general_smoothScroll_currentVelocityWeighting
 (
 )
 ;
@@ -800,7 +800,7 @@ dxy
 StaticPrefs
 :
 :
-SmoothScrollStopDecelerationWeighting
+general_smoothScroll_stopDecelerationWeighting
 (
 )
 1

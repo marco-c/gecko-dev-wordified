@@ -148,7 +148,7 @@ mModelX
 StaticPrefs
 :
 :
-SmoothScrollMSDPhysicsRegularSpringConstant
+general_smoothScroll_msdPhysics_regularSpringConstant
 (
 )
 1
@@ -161,7 +161,7 @@ mModelY
 StaticPrefs
 :
 :
-SmoothScrollMSDPhysicsRegularSpringConstant
+general_smoothScroll_msdPhysics_regularSpringConstant
 (
 )
 1
@@ -424,7 +424,7 @@ return
 StaticPrefs
 :
 :
-SmoothScrollMSDPhysicsMotionBeginSpringConstant
+general_smoothScroll_msdPhysics_motionBeginSpringConstant
 (
 )
 ;
@@ -466,7 +466,7 @@ deltaMS
 StaticPrefs
 :
 :
-SmoothScrollMSDPhysicsContinuousMotionMaxDeltaMS
+general_smoothScroll_msdPhysics_continuousMotionMaxDeltaMS
 (
 )
 )
@@ -475,7 +475,7 @@ return
 StaticPrefs
 :
 :
-SmoothScrollMSDPhysicsMotionBeginSpringConstant
+general_smoothScroll_msdPhysics_motionBeginSpringConstant
 (
 )
 ;
@@ -491,7 +491,7 @@ deltaMS
 StaticPrefs
 :
 :
-SmoothScrollMSDPhysicsSlowdownMinDeltaMS
+general_smoothScroll_msdPhysics_slowdownMinDeltaMS
 (
 )
 &
@@ -508,7 +508,7 @@ ToMilliseconds
 StaticPrefs
 :
 :
-SmoothScrollMSDPhysicsSlowdownMinDeltaRatio
+general_smoothScroll_msdPhysics_slowdownMinDeltaRatio
 (
 )
 )
@@ -568,7 +568,7 @@ return
 StaticPrefs
 :
 :
-SmoothScrollMSDPhysicsSlowdownSpringConstant
+general_smoothScroll_msdPhysics_slowdownSpringConstant
 (
 )
 ;
@@ -577,7 +577,7 @@ return
 StaticPrefs
 :
 :
-SmoothScrollMSDPhysicsRegularSpringConstant
+general_smoothScroll_msdPhysics_regularSpringConstant
 (
 )
 ;

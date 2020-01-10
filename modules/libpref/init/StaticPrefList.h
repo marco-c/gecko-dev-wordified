@@ -11913,7 +11913,7 @@ general
 .
 smoothScroll
 "
-SmoothScrollEnabled
+general_smoothScroll
 RelaxedAtomicBool
 true
 )
@@ -11927,7 +11927,7 @@ smoothScroll
 .
 currentVelocityWeighting
 "
-SmoothScrollCurrentVelocityWeighting
+general_smoothScroll_currentVelocityWeighting
 AtomicFloat
 0
 .
@@ -11943,7 +11943,7 @@ smoothScroll
 .
 durationToIntervalRatio
 "
-SmoothScrollDurationToIntervalRatio
+general_smoothScroll_durationToIntervalRatio
 RelaxedAtomicInt32
 200
 )
@@ -11959,7 +11959,7 @@ lines
 .
 durationMaxMS
 "
-LineSmoothScrollMaxDurationMs
+general_smoothScroll_lines_durationMaxMS
 RelaxedAtomicInt32
 150
 )
@@ -11975,7 +11975,7 @@ lines
 .
 durationMinMS
 "
-LineSmoothScrollMinDurationMs
+general_smoothScroll_lines_durationMinMS
 RelaxedAtomicInt32
 150
 )
@@ -11989,7 +11989,7 @@ smoothScroll
 .
 mouseWheel
 "
-WheelSmoothScrollEnabled
+general_smoothScroll_mouseWheel
 RelaxedAtomicBool
 true
 )
@@ -12005,7 +12005,7 @@ mouseWheel
 .
 durationMaxMS
 "
-WheelSmoothScrollMaxDurationMs
+general_smoothScroll_mouseWheel_durationMaxMS
 RelaxedAtomicInt32
 400
 )
@@ -12021,7 +12021,7 @@ mouseWheel
 .
 durationMinMS
 "
-WheelSmoothScrollMinDurationMs
+general_smoothScroll_mouseWheel_durationMinMS
 RelaxedAtomicInt32
 200
 )
@@ -12037,7 +12037,7 @@ other
 .
 durationMaxMS
 "
-OtherSmoothScrollMaxDurationMs
+general_smoothScroll_other_durationMaxMS
 RelaxedAtomicInt32
 150
 )
@@ -12053,7 +12053,7 @@ other
 .
 durationMinMS
 "
-OtherSmoothScrollMinDurationMs
+general_smoothScroll_other_durationMinMS
 RelaxedAtomicInt32
 150
 )
@@ -12067,7 +12067,7 @@ smoothScroll
 .
 pages
 "
-PageSmoothScrollEnabled
+general_smoothScroll_pages
 RelaxedAtomicBool
 true
 )
@@ -12083,7 +12083,7 @@ pages
 .
 durationMaxMS
 "
-PageSmoothScrollMaxDurationMs
+general_smoothScroll_pages_durationMaxMS
 RelaxedAtomicInt32
 150
 )
@@ -12099,7 +12099,7 @@ pages
 .
 durationMinMS
 "
-PageSmoothScrollMinDurationMs
+general_smoothScroll_pages_durationMinMS
 RelaxedAtomicInt32
 150
 )
@@ -12115,7 +12115,7 @@ pixels
 .
 durationMaxMS
 "
-PixelSmoothScrollMaxDurationMs
+general_smoothScroll_pixels_durationMaxMS
 RelaxedAtomicInt32
 150
 )
@@ -12131,7 +12131,7 @@ pixels
 .
 durationMinMS
 "
-PixelSmoothScrollMinDurationMs
+general_smoothScroll_pixels_durationMinMS
 RelaxedAtomicInt32
 150
 )
@@ -12145,7 +12145,7 @@ smoothScroll
 .
 stopDecelerationWeighting
 "
-SmoothScrollStopDecelerationWeighting
+general_smoothScroll_stopDecelerationWeighting
 AtomicFloat
 0
 .
@@ -12163,7 +12163,7 @@ msdPhysics
 .
 enabled
 "
-SmoothScrollMSDPhysicsEnabled
+general_smoothScroll_msdPhysics_enabled
 RelaxedAtomicBool
 false
 )
@@ -12179,7 +12179,7 @@ msdPhysics
 .
 continuousMotionMaxDeltaMS
 "
-SmoothScrollMSDPhysicsContinuousMotionMaxDeltaMS
+general_smoothScroll_msdPhysics_continuousMotionMaxDeltaMS
 RelaxedAtomicInt32
 120
 )
@@ -12195,7 +12195,7 @@ msdPhysics
 .
 motionBeginSpringConstant
 "
-SmoothScrollMSDPhysicsMotionBeginSpringConstant
+general_smoothScroll_msdPhysics_motionBeginSpringConstant
 RelaxedAtomicInt32
 1250
 )
@@ -12211,7 +12211,7 @@ msdPhysics
 .
 slowdownMinDeltaMS
 "
-SmoothScrollMSDPhysicsSlowdownMinDeltaMS
+general_smoothScroll_msdPhysics_slowdownMinDeltaMS
 RelaxedAtomicInt32
 12
 )
@@ -12227,7 +12227,7 @@ msdPhysics
 .
 slowdownMinDeltaRatio
 "
-SmoothScrollMSDPhysicsSlowdownMinDeltaRatio
+general_smoothScroll_msdPhysics_slowdownMinDeltaRatio
 AtomicFloat
 1
 .
@@ -12245,7 +12245,7 @@ msdPhysics
 .
 slowdownSpringConstant
 "
-SmoothScrollMSDPhysicsSlowdownSpringConstant
+general_smoothScroll_msdPhysics_slowdownSpringConstant
 RelaxedAtomicInt32
 2000
 )
@@ -12261,7 +12261,7 @@ msdPhysics
 .
 regularSpringConstant
 "
-SmoothScrollMSDPhysicsRegularSpringConstant
+general_smoothScroll_msdPhysics_regularSpringConstant
 RelaxedAtomicInt32
 1000
 )

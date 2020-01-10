@@ -196,7 +196,7 @@ clamped
 StaticPrefs
 :
 :
-PageSmoothScrollMaxDurationMs
+general_smoothScroll_pages_durationMaxMS
 (
 )
 0
@@ -210,7 +210,7 @@ clamped
 StaticPrefs
 :
 :
-PageSmoothScrollMinDurationMs
+general_smoothScroll_pages_durationMinMS
 (
 )
 0
@@ -232,7 +232,7 @@ clamped
 StaticPrefs
 :
 :
-PixelSmoothScrollMaxDurationMs
+general_smoothScroll_pixels_durationMaxMS
 (
 )
 0
@@ -246,7 +246,7 @@ clamped
 StaticPrefs
 :
 :
-PixelSmoothScrollMinDurationMs
+general_smoothScroll_pixels_durationMinMS
 (
 )
 0
@@ -268,7 +268,7 @@ clamped
 StaticPrefs
 :
 :
-WheelSmoothScrollMaxDurationMs
+general_smoothScroll_mouseWheel_durationMaxMS
 (
 )
 0
@@ -282,7 +282,7 @@ clamped
 StaticPrefs
 :
 :
-WheelSmoothScrollMinDurationMs
+general_smoothScroll_mouseWheel_durationMinMS
 (
 )
 0
@@ -319,7 +319,7 @@ double
 StaticPrefs
 :
 :
-SmoothScrollDurationToIntervalRatio
+general_smoothScroll_durationToIntervalRatio
 (
 )
 )
