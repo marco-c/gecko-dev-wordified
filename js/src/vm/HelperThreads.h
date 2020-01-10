@@ -963,7 +963,7 @@ finishThreads
 ;
 MOZ_MUST_USE
 bool
-initializeHelperContexts
+ensureContextListForThreadCount
 (
 )
 ;
@@ -2682,7 +2682,7 @@ count
 N
 option
 .
-void
+bool
 SetFakeCPUCount
 (
 size_t
