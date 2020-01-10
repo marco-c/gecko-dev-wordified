@@ -979,7 +979,7 @@ WriteParam
 aMsg
 aParam
 .
-hitCluster
+mHitCluster
 )
 ;
 WriteParam
@@ -1070,7 +1070,7 @@ aIter
 aResult
 -
 >
-hitCluster
+mHitCluster
 )
 &
 &

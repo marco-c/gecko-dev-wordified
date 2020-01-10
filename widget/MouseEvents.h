@@ -775,7 +775,7 @@ mPressure
 (
 0
 )
-hitCluster
+mHitCluster
 (
 false
 )
@@ -850,7 +850,7 @@ mPressure
 (
 0
 )
-hitCluster
+mHitCluster
 (
 false
 )
@@ -1122,7 +1122,7 @@ links
 true
 )
 bool
-hitCluster
+mHitCluster
 ;
 /
 /
@@ -1259,11 +1259,11 @@ aEvent
 .
 mPressure
 ;
-hitCluster
+mHitCluster
 =
 aEvent
 .
-hitCluster
+mHitCluster
 ;
 inputSource
 =

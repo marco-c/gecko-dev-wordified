@@ -12692,7 +12692,7 @@ mAPZEventState
 &
 hittest
 .
-hitCluster
+mHitCluster
 )
 {
 mAPZEventState

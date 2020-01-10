@@ -1738,7 +1738,7 @@ AsMouseEventBase
 )
 -
 >
-hitCluster
+mHitCluster
 ;
 }
 uint16_t
