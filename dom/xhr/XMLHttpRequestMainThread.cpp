@@ -7787,11 +7787,11 @@ Steps
 5
 -
 6
-nsCOMPtr
-<
 nsIURI
->
+*
 baseURI
+=
+nullptr
 ;
 if
 (

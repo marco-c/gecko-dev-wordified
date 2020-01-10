@@ -596,11 +596,11 @@ NS_IsMainThread
 )
 )
 {
-nsCOMPtr
-<
 nsIURI
->
+*
 baseURI
+=
+nullptr
 ;
 nsCOMPtr
 <

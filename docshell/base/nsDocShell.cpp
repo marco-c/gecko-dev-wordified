@@ -27205,11 +27205,11 @@ INTERNAL_LOAD_FLAGS_NONE
 nsAutoString
 srcdoc
 ;
-nsCOMPtr
-<
 nsIURI
->
+*
 baseURI
+=
+nullptr
 ;
 nsCOMPtr
 <
