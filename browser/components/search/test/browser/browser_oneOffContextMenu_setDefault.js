@@ -111,18 +111,6 @@ PopupSearchAutoComplete
 )
 ;
 const
-urlbarPopup
-=
-document
-.
-getElementById
-(
-"
-PopupAutoCompleteRichResult
-"
-)
-;
-const
 searchOneOff
 =
 searchPopup
@@ -475,7 +463,7 @@ await
 openPopupAndGetEngineButton
 (
 false
-urlbarPopup
+null
 urlBarOneOff
 URLBAR_BASE_ID
 )
@@ -686,7 +674,7 @@ EventUtils
 .
 synthesizeNativeMouseMove
 (
-urlbarPopup
+urlbar
 )
 ;
 }

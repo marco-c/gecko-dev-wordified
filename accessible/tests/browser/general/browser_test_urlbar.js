@@ -164,7 +164,7 @@ key
 to
 show
 the
-PopupAutoCompleteRichResult
+urlbar
 panel
 "
 )
