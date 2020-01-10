@@ -15507,7 +15507,7 @@ hasScriptCounts
 script
 -
 >
-jitScript
+hasJitScript
 (
 )
 )

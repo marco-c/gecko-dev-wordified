@@ -789,16 +789,6 @@ jitScript
 )
 const
 {
-MOZ_ASSERT
-(
-script
--
->
-hasJitScript
-(
-)
-)
-;
 return
 script
 -
@@ -4914,9 +4904,6 @@ JSObject
 *
 res
 =
-script
--
->
 jitScript
 (
 )
@@ -4982,9 +4969,6 @@ JSObject
 *
 res
 =
-script
--
->
 jitScript
 (
 )
