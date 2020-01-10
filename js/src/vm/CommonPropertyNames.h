@@ -1865,6 +1865,15 @@ Infinity
 \
 MACRO
 (
+initial
+initial
+"
+initial
+"
+)
+\
+MACRO
+(
 InitializeCollator
 InitializeCollator
 "
