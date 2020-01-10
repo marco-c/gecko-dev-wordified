@@ -1383,9 +1383,6 @@ Option
 String
 >
 {
-use
-clang_sys
-;
 if
 !
 ctx

@@ -3639,9 +3639,6 @@ BindgenOptions
 >
 Self
 {
-use
-clang_sys
-;
 /
 /
 TODO
@@ -11162,9 +11159,6 @@ Option
 TypeId
 >
 {
-use
-clang_sys
-;
 let
 num_expected_args
 =
