@@ -29777,7 +29777,6 @@ newtab
 plugins
 preferences
 sessionrestore
-support
 sync
 -
 log
