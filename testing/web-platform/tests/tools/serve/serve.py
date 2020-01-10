@@ -2645,24 +2645,6 @@ ErrorHandler
 404
 )
 )
-                          
-(
-"
-*
-"
-"
-/
-serve
-.
-py
-"
-handlers
-.
-ErrorHandler
-(
-404
-)
-)
 ]
         
 self
