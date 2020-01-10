@@ -537,7 +537,10 @@ Length
 (
 )
 *
-2
+sizeof
+(
+char16_t
+)
 /
 /
 Length

@@ -613,7 +613,10 @@ aCx
 sval
 bytes
 /
-2
+sizeof
+(
+char16_t
+)
 )
 ;
 if
