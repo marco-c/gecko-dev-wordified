@@ -3313,17 +3313,6 @@ color
 :
 DEFAULT_HIGHLIGHTER_COLOR
 ;
-const
-zIndex
-=
-grid
-?
-grid
-.
-zIndex
-:
-0
-;
 return
 Object
 .
@@ -3334,7 +3323,6 @@ assign
 highlighterSettings
 {
 color
-zIndex
 }
 )
 ;
