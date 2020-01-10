@@ -2398,6 +2398,10 @@ symbol
 "
 /
 "
+narrowSymbol
+"
+/
+"
 name
 "
 /
@@ -3107,6 +3111,9 @@ code
 "
 "
 symbol
+"
+"
+narrowSymbol
 "
 "
 name
