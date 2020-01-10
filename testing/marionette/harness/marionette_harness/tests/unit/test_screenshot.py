@@ -1348,7 +1348,6 @@ self
 start_window
 )
     
-#
 skip_if_mobile
 (
 "
@@ -1360,28 +1359,6 @@ support
 other
 chrome
 windows
-"
-)
-    
-skip
-(
-"
-Bug
-1329424
--
-AssertionError
-:
-u
-'
-iVBORw0KGgoA
-.
-.
-.
-(
-images
-unexpectedly
-equal
-)
 "
 )
     
@@ -2514,28 +2491,6 @@ self
 .
 page_y_offset
 0
-)
-    
-skip
-(
-"
-Bug
-1330560
--
-AssertionError
-:
-u
-'
-iVBORw0KGgoA
-.
-.
-.
-(
-images
-unexpectedly
-equal
-)
-"
 )
     
 def
