@@ -664,6 +664,9 @@ PromiseAllResolveElementFunctionSlot_Data
 PromiseAllResolveElementFunctionSlot_ElementIndex
 }
 ;
+#
+ifdef
+NIGHTLY_BUILD
 enum
 PromiseAllSettledElementFunctionSlots
 {
@@ -673,6 +676,8 @@ PromiseAllSettledElementFunctionSlot_Data
 PromiseAllSettledElementFunctionSlot_ElementIndex
 }
 ;
+#
+endif
 enum
 ReactionJobSlots
 {
@@ -14896,6 +14901,9 @@ bool
 done
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 static
 MOZ_MUST_USE
 bool
@@ -14919,6 +14927,8 @@ bool
 done
 )
 ;
+#
+endif
 static
 MOZ_MUST_USE
 bool
@@ -14947,7 +14957,12 @@ class
 IterationMode
 {
 All
+#
+ifdef
+NIGHTLY_BUILD
 AllSettled
+#
+endif
 Race
 }
 ;
@@ -15115,6 +15130,9 @@ call
 ;
 break
 ;
+#
+ifdef
+NIGHTLY_BUILD
 case
 IterationMode
 :
@@ -15134,6 +15152,8 @@ call
 ;
 break
 ;
+#
+endif
 case
 IterationMode
 :
@@ -15293,6 +15313,9 @@ all
 ;
 break
 ;
+#
+ifdef
+NIGHTLY_BUILD
 case
 IterationMode
 :
@@ -15311,6 +15334,8 @@ allSettled
 ;
 break
 ;
+#
+endif
 case
 IterationMode
 :
@@ -15390,6 +15415,9 @@ done
 ;
 break
 ;
+#
+ifdef
+NIGHTLY_BUILD
 case
 IterationMode
 :
@@ -15410,6 +15438,8 @@ done
 ;
 break
 ;
+#
+endif
 case
 IterationMode
 :
@@ -20595,6 +20625,9 @@ getResolveAndReject
 )
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 enum
 class
 PromiseAllSettledElementFunctionKind
@@ -22221,6 +22254,11 @@ return
 true
 ;
 }
+#
+endif
+/
+/
+NIGHTLY_BUILD
 /
 /
 https
