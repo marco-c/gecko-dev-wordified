@@ -262,6 +262,9 @@ Accessibility
 Panel
 Test
 "
+selected
+:
+true
 }
 ]
 }
@@ -330,6 +333,9 @@ badges
 contrast
 "
 ]
+selected
+:
+true
 }
 {
 role
@@ -405,6 +411,9 @@ Accessibility
 Panel
 Test
 "
+selected
+:
+true
 }
 {
 role
