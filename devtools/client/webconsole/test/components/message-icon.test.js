@@ -108,6 +108,8 @@ webconsole
 /
 components
 /
+Output
+/
 MessageIcon
 "
 )

@@ -215,6 +215,8 @@ webconsole
 /
 components
 /
+Output
+/
 ConsoleOutput
 "
 )
@@ -237,6 +239,8 @@ webconsole
 components
 /
 FilterBar
+/
+FilterBar
 "
 )
 )
@@ -277,6 +281,8 @@ client
 webconsole
 /
 components
+/
+Input
 /
 ReverseSearchInput
 "
@@ -298,6 +304,8 @@ client
 webconsole
 /
 components
+/
+Input
 /
 JSTerm
 "
@@ -319,6 +327,8 @@ client
 webconsole
 /
 components
+/
+Input
 /
 ConfirmDialog
 "

@@ -193,6 +193,8 @@ webconsole
 /
 components
 /
+Output
+/
 Message
 "
 )

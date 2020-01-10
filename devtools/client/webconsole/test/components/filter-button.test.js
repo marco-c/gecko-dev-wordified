@@ -90,6 +90,8 @@ webconsole
 /
 components
 /
+FilterBar
+/
 FilterButton
 "
 )

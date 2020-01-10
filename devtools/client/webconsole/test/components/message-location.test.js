@@ -125,6 +125,8 @@ webconsole
 /
 components
 /
+Output
+/
 MessageContainer
 "
 )

@@ -198,6 +198,8 @@ webconsole
 /
 components
 /
+Output
+/
 GripMessageBody
 "
 )

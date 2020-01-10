@@ -112,6 +112,8 @@ webconsole
 /
 components
 /
+Output
+/
 ConsoleOutput
 "
 )

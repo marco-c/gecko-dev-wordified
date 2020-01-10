@@ -226,6 +226,8 @@ webconsole
 /
 components
 /
+Output
+/
 Message
 "
 )
@@ -247,6 +249,8 @@ client
 webconsole
 /
 components
+/
+Output
 /
 GripMessageBody
 "

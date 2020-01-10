@@ -104,6 +104,8 @@ webconsole
 /
 components
 /
+Output
+/
 message
 -
 types
@@ -128,6 +130,8 @@ client
 webconsole
 /
 components
+/
+Output
 /
 MessageIndent
 "
