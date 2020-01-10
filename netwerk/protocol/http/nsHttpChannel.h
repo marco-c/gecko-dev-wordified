@@ -4364,13 +4364,6 @@ in
 an
 app
 context
-(
-load
-context
-has
-an
-appid
-)
 uint32_t
 mPinCacheContent
 :
