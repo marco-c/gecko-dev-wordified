@@ -1380,7 +1380,6 @@ inspector
 this
 .
 targetForm
-this
 )
 ;
 this
@@ -1574,7 +1573,6 @@ typeName
 this
 .
 targetForm
-this
 )
 ;
 this
