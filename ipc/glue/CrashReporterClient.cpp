@@ -208,7 +208,7 @@ CrashReporter
 Annotation
 aKey
 const
-nsCString
+nsACString
 &
 aData
 )
@@ -236,7 +236,7 @@ CrashReporterClient
 AppendAppNotes
 (
 const
-nsCString
+nsACString
 &
 aData
 )

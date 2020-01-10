@@ -1573,7 +1573,7 @@ CrashReporter
 Annotation
 aKey
 const
-nsCString
+nsACString
 &
 aValue
 )

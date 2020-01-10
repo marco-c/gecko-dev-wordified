@@ -1802,10 +1802,10 @@ f
 UIOpenWrite
 (
 aPath
-.
-c_str
-(
-)
+ios
+:
+:
+trunc
 )
 ;
 bool

@@ -213,7 +213,7 @@ AnnotateCrashReport
 Annotation
 aKey
 const
-nsCString
+nsACString
 &
 aData
 )
@@ -237,7 +237,7 @@ CrashReporterMetadataShmem
 AppendAppNotes
 (
 const
-nsCString
+nsACString
 &
 aData
 )

@@ -282,6 +282,12 @@ gpointer
 userData
 )
 ;
+void
+SaveSettings
+(
+void
+)
+;
 #
 endif
 /
