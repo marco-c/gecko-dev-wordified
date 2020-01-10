@@ -556,6 +556,7 @@ testframe
 "
 )
 ;
+async
 function
 checkResult
 (
@@ -577,12 +578,14 @@ ok
 (
 compareSnapshots
 (
+await
 snapshotWindow
 (
 baselineframe
 .
 contentWindow
 )
+await
 snapshotWindow
 (
 testframe

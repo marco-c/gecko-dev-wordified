@@ -202,6 +202,7 @@ gTestRunner
 =
 null
 ;
+async
 function
 test
 (
@@ -230,6 +231,7 @@ focus
 var
 baseSnapshot
 =
+await
 snapshotWindow
 (
 window
@@ -246,6 +248,7 @@ check
 var
 s2
 =
+await
 snapshotWindow
 (
 window
@@ -257,6 +260,7 @@ results
 compareSnapshots
 (
 baseSnapshot
+await
 snapshotWindow
 (
 window
@@ -311,6 +315,7 @@ f
 ;
 requestAnimationFrame
 (
+async
 function
 (
 )
@@ -318,6 +323,7 @@ function
 var
 selectionAtTheEndSnapshot
 =
+await
 snapshotWindow
 (
 window
@@ -361,6 +367,7 @@ value
 var
 tmpSnapshot
 =
+await
 snapshotWindow
 (
 window
@@ -482,6 +489,7 @@ are
 shown
 correctly
 .
+async
 function
 testCorrectUpdateOnScroll
 (
@@ -542,6 +550,7 @@ textarea
 var
 baseSnapshot
 =
+await
 snapshotWindow
 (
 window
@@ -592,6 +601,7 @@ length
 var
 fullSnapshot
 =
+await
 snapshotWindow
 (
 window
@@ -643,6 +653,7 @@ nd
 var
 tmpSnapshot
 =
+await
 snapshotWindow
 (
 window
