@@ -550,7 +550,7 @@ if
 (
 changedNodeFronts
 .
-length
+size
 >
 0
 )
