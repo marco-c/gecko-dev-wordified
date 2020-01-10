@@ -764,7 +764,7 @@ void
 CopyURIs
 (
 const
-InfallibleTArray
+nsTArray
 <
 URIParams
 >
@@ -1307,7 +1307,7 @@ DomainSet
 :
 CloneSet
 (
-InfallibleTArray
+nsTArray
 <
 URIParams
 >
