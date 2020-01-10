@@ -8196,7 +8196,7 @@ HandlePropertyName
 className
 uint32_t
 classStartOffset
-bool
+HasHeritage
 hasHeritage
 size_t
 &
@@ -8241,6 +8241,8 @@ fieldInitializerOpt
 (
 YieldHandling
 yieldHandling
+HasHeritage
+hasHeritage
 Node
 name
 HandleAtom
