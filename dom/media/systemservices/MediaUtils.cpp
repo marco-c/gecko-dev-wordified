@@ -124,7 +124,7 @@ mozilla
 namespace
 media
 {
-already_AddRefed
+RefPtr
 <
 nsIAsyncShutdownClient
 >
@@ -150,7 +150,7 @@ MOZ_RELEASE_ASSERT
 svc
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAsyncShutdownClient
 >
@@ -229,10 +229,6 @@ barrier
 ;
 return
 barrier
-.
-forget
-(
-)
 ;
 }
 NS_IMPL_ISUPPORTS
