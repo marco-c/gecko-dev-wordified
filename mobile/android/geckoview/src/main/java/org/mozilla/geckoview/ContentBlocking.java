@@ -2558,6 +2558,8 @@ blocked
 resource
 .
 *
+*
+return
 One
 or
 more
@@ -2598,6 +2600,8 @@ blocked
 resource
 .
 *
+*
+return
 One
 or
 more
@@ -2605,7 +2609,7 @@ of
 the
 {
 link
-AntiTracking
+SafeBrowsing
 }
 flags
 .
@@ -2636,6 +2640,8 @@ blocked
 resource
 .
 *
+*
+return
 One
 or
 more
