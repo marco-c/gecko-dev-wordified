@@ -215,6 +215,10 @@ scalarReplacement_
 =
 true
 ;
+sincos_
+=
+true
+;
 sink_
 =
 true
@@ -381,6 +385,10 @@ has
 no
 objects
 .
+sincos_
+=
+false
+;
 sink_
 =
 false

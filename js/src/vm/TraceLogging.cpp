@@ -1368,6 +1368,13 @@ true
 ;
 enabledTextIds
 [
+TraceLogger_Sincos
+]
+=
+true
+;
+enabledTextIds
+[
 TraceLogger_RangeAnalysis
 ]
 =
@@ -6839,6 +6846,7 @@ EagerSimdUnbox
 AliasAnalysis
 GVN
 LICM
+Sincos
 "
 "
 RangeAnalysis

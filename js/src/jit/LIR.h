@@ -2813,6 +2813,7 @@ vector
 FPU
 )
 .
+SINCOS
 #
 ifdef
 JS_NUNBOX32
@@ -3715,6 +3716,18 @@ BOX
 ;
 #
 endif
+case
+MIRType
+:
+:
+SinCosDouble
+:
+return
+LDefinition
+:
+:
+SINCOS
+;
 case
 MIRType
 :
