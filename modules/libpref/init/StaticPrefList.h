@@ -25905,7 +25905,7 @@ acceleration
 .
 factor
 "
-MouseWheelAccelerationFactor
+mousewheel_acceleration_factor
 RelaxedAtomicInt32
 -
 1
@@ -25920,7 +25920,7 @@ acceleration
 .
 start
 "
-MouseWheelAccelerationStart
+mousewheel_acceleration_start
 RelaxedAtomicInt32
 -
 1
@@ -25949,7 +25949,7 @@ system_scroll_override_on_root_content
 .
 enabled
 "
-MouseWheelHasRootScrollDeltaOverride
+mousewheel_system_scroll_override_on_root_content_enabled
 RelaxedAtomicBool
 false
 )
@@ -25965,7 +25965,7 @@ horizontal
 .
 factor
 "
-MouseWheelRootScrollHorizontalFactor
+mousewheel_system_scroll_override_on_root_content_horizontal_factor
 RelaxedAtomicInt32
 0
 )
@@ -25981,7 +25981,7 @@ vertical
 .
 factor
 "
-MouseWheelRootScrollVerticalFactor
+mousewheel_system_scroll_override_on_root_content_vertical_factor
 RelaxedAtomicInt32
 0
 )
@@ -25995,7 +25995,7 @@ transaction
 .
 ignoremovedelay
 "
-MouseWheelIgnoreMoveDelayMs
+mousewheel_transaction_ignoremovedelay
 RelaxedAtomicInt32
 (
 int32_t
@@ -26012,7 +26012,7 @@ transaction
 .
 timeout
 "
-MouseWheelTransactionTimeoutMs
+mousewheel_transaction_timeout
 RelaxedAtomicInt32
 (
 int32_t

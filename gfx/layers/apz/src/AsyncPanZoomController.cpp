@@ -14310,7 +14310,7 @@ if
 StaticPrefs
 :
 :
-MouseWheelHasRootScrollDeltaOverride
+mousewheel_system_scroll_override_on_root_content_enabled
 (
 )
 &
@@ -14427,7 +14427,7 @@ start
 StaticPrefs
 :
 :
-MouseWheelAccelerationStart
+mousewheel_acceleration_start
 (
 )
 ;
@@ -14456,7 +14456,7 @@ factor
 StaticPrefs
 :
 :
-MouseWheelAccelerationFactor
+mousewheel_acceleration_factor
 (
 )
 ;

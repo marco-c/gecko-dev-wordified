@@ -4876,7 +4876,7 @@ if
 StaticPrefs
 :
 :
-MouseWheelHasRootScrollDeltaOverride
+mousewheel_system_scroll_override_on_root_content_enabled
 (
 )
 )
@@ -4893,14 +4893,14 @@ aIsForVertical
 StaticPrefs
 :
 :
-MouseWheelRootScrollVerticalFactor
+mousewheel_system_scroll_override_on_root_content_vertical_factor
 (
 )
 :
 StaticPrefs
 :
 :
-MouseWheelRootScrollHorizontalFactor
+mousewheel_system_scroll_override_on_root_content_horizontal_factor
 (
 )
 ;
