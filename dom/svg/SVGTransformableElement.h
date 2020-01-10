@@ -188,7 +188,7 @@ class
 SVGMatrix
 ;
 class
-SVGIRect
+SVGRect
 ;
 struct
 SVGBoundingBoxOptions
@@ -281,7 +281,7 @@ GetFarthestViewportElement
 MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
-SVGIRect
+SVGRect
 >
 GetBBox
 (

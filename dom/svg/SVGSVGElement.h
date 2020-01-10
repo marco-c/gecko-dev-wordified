@@ -195,7 +195,7 @@ class
 SVGMatrix
 ;
 class
-SVGIRect
+SVGRect
 ;
 class
 SVGSVGElement
@@ -826,7 +826,7 @@ CreateSVGMatrix
 ;
 already_AddRefed
 <
-SVGIRect
+SVGRect
 >
 CreateSVGRect
 (

@@ -154,7 +154,7 @@ mozilla
 /
 dom
 /
-SVGIRect
+SVGRect
 .
 h
 "
@@ -1105,7 +1105,7 @@ forget
 }
 already_AddRefed
 <
-SVGIRect
+SVGRect
 >
 SVGTextContentElement
 :
@@ -1146,7 +1146,7 @@ nullptr
 }
 RefPtr
 <
-SVGIRect
+SVGRect
 >
 rect
 ;
