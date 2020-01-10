@@ -1038,20 +1038,15 @@ setter
             
 (
 '
-notxpcom
-'
-method
-.
-notxpcom
-)
-            
-(
-'
 hidden
 '
 method
 .
 noscript
+or
+method
+.
+notxpcom
 )
             
 (
