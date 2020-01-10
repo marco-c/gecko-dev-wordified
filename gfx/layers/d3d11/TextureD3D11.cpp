@@ -4248,6 +4248,11 @@ PaintThread
 IsOnPaintThread
 (
 )
+|
+|
+NS_IsInCanvasThread
+(
+)
 )
 ;
 if

@@ -4269,6 +4269,15 @@ Now
 (
 )
 ;
+GetCompositorBridgeChild
+(
+)
+-
+>
+EndCanvasTransaction
+(
+)
+;
 /
 /
 Skip

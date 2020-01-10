@@ -2628,6 +2628,12 @@ NS_IsInCompositorThread
 ;
 extern
 bool
+NS_IsInCanvasThread
+(
+)
+;
+extern
+bool
 NS_IsInVRThread
 (
 )
