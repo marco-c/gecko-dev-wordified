@@ -96,7 +96,7 @@ unrecognized_key
 const
 expectedWarning
 =
-Error
+Warning
 processing
 theme
 .
