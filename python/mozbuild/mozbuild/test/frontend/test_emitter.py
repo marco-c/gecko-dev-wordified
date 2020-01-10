@@ -117,8 +117,6 @@ IPDLCollection
     
 JARManifest
     
-LinkageMultipleRustLibrariesError
-    
 LocalInclude
     
 LocalizedFiles
@@ -13253,12 +13251,14 @@ self
 .
 assertRaisesRegexp
 (
-LinkageMultipleRustLibrariesError
-                                     
+                
+SandboxValidationError
+                
 '
 Cannot
 link
-multiple
+the
+following
 Rust
 libraries
 '
