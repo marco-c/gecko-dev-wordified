@@ -835,6 +835,12 @@ u32
 impl
 SpecifiedValueInfo
 for
+usize
+{
+}
+impl
+SpecifiedValueInfo
+for
 str
 {
 }
