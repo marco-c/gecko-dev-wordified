@@ -295,6 +295,11 @@ consoleActor
 this
 .
 _consoleActor
+contextActor
+:
+this
+.
+_threadActor
 id
 :
 this
