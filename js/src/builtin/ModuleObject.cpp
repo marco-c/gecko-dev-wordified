@@ -5406,7 +5406,7 @@ merge
 fop
 -
 >
-deleteUntracked
+delete_
 (
 funDecls
 )
