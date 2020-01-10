@@ -2425,6 +2425,16 @@ exists
 (
 config_status
 )
+or
+not
+os
+.
+path
+.
+getsize
+(
+config_status
+)
 :
             
 raise
