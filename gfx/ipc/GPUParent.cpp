@@ -3634,6 +3634,13 @@ mVsyncBridge
 nullptr
 ;
 }
+RemoteDecoderManagerParent
+:
+:
+ShutdownVideoBridge
+(
+)
+;
 CompositorThreadHolder
 :
 :

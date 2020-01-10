@@ -481,6 +481,12 @@ blacklistedD3D11Driver
 nsCString
 blacklistedD3D9Driver
 ;
+layers
+:
+:
+TextureFactoryIdentifier
+defaultIdent
+;
 if
 (
 manager
@@ -491,9 +497,7 @@ SendPRemoteDecoderConstructor
 this
 aAudioInfo
 aOptions
-Nothing
-(
-)
+defaultIdent
 &
 success
 &
