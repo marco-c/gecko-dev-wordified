@@ -147,13 +147,6 @@ h
 #
 include
 <
-ctype
-.
-h
->
-#
-include
-<
 stdarg
 .
 h
@@ -1613,7 +1606,7 @@ String
 if
 (
 !
-isprint
+IsAsciiPrintable
 (
 c
 )
