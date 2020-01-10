@@ -84,6 +84,10 @@ expected_statuses
 "
                          
 "
+known_intermittent_statuses
+"
+                         
+"
 log_level_counts
 "
                          
@@ -190,6 +194,30 @@ int
 The
 count
 of
+known
+intermittent
+result
+statuses
+(
+includes
+tests
+and
+subtests
+)
+        
+self
+.
+known_intermittent_statuses
+=
+defaultdict
+(
+int
+)
+        
+#
+The
+count
+of
 actions
 logged
         
@@ -257,6 +285,19 @@ data
 action
 '
 ]
+        
+known_intermittent
+=
+data
+.
+get
+(
+"
+known_intermittent
+"
+[
+]
+)
         
 self
 .
@@ -349,12 +390,27 @@ status
 '
 ]
             
+#
+Don
+'
+t
+count
+known_intermittent
+status
+as
+unexpected
+            
 if
 '
 expected
 '
 in
 data
+and
+status
+not
+in
+known_intermittent
 :
                 
 self
@@ -373,6 +429,31 @@ else
 self
 .
 expected_statuses
+[
+status
+]
++
+=
+1
+                
+#
+Count
+known_intermittent
+as
+expected
+and
+intermittent
+.
+                
+if
+status
+in
+known_intermittent
+:
+                    
+self
+.
+known_intermittent_statuses
 [
 status
 ]
@@ -614,6 +695,13 @@ dict
 self
 .
 expected_statuses
+)
+            
+dict
+(
+self
+.
+known_intermittent_statuses
 )
             
 dict
