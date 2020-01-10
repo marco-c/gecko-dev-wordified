@@ -1340,7 +1340,7 @@ remoteType
 =
 =
 "
-privilegedabout
+privileged
 "
 )
 {

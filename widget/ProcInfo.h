@@ -157,7 +157,7 @@ jsm
 Web
 File
 Extension
-PrivilegedAbout
+Privileged
 WebLargeAllocation
 /
 /
