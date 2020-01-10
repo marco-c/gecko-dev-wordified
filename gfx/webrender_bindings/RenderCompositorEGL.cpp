@@ -785,15 +785,6 @@ void
 RenderCompositorEGL
 :
 :
-WaitForGPU
-(
-)
-{
-}
-void
-RenderCompositorEGL
-:
-:
 Pause
 (
 )

@@ -269,7 +269,7 @@ EndFrame
 )
 override
 ;
-void
+bool
 WaitForGPU
 (
 )
@@ -359,6 +359,12 @@ GetBufferSize
 )
 override
 ;
+bool
+IsContextLost
+(
+)
+override
+;
 protected
 :
 void
@@ -366,7 +372,7 @@ InsertPresentWaitQuery
 (
 )
 ;
-void
+bool
 WaitForPreviousPresentQuery
 (
 )
