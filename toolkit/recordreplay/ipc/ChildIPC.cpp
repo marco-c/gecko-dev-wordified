@@ -3662,9 +3662,6 @@ SendMessage
 (
 PaintMessage
 (
-GetLastCheckpoint
-(
-)
 gPaintWidth
 gPaintHeight
 )

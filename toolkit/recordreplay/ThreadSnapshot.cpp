@@ -187,7 +187,7 @@ or
 restoring
 /
 /
-checkpoints
+snapshots
 .
 The
 contents
@@ -475,7 +475,7 @@ its
 state
 when
 restoring
-checkpoints
+snapshots
 .
 static
 ThreadState
@@ -1749,7 +1749,7 @@ mShouldRestore
 bool
 SaveAllThreads
 (
-SavedCheckpoint
+AllSavedThreadStacks
 &
 aSaved
 )
@@ -1851,7 +1851,7 @@ void
 RestoreAllThreads
 (
 const
-SavedCheckpoint
+AllSavedThreadStacks
 &
 aSaved
 )

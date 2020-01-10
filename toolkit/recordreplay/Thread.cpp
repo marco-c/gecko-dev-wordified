@@ -2933,7 +2933,7 @@ bool
 Thread
 :
 :
-MaybeWaitForCheckpointSave
+MaybeWaitForSnapshot
 (
 const
 std
