@@ -806,7 +806,7 @@ DeclarationListParser
 to
 parse
 a
-declartions
+declarations
 list
 with
 only
