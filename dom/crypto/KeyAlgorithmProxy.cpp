@@ -132,6 +132,17 @@ mozilla
 /
 dom
 /
+StructuredCloneHolder
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WebCryptoCommon
 .
 h
@@ -157,6 +168,9 @@ const
 if
 (
 !
+StructuredCloneHolder
+:
+:
 WriteString
 (
 aWriter
@@ -209,6 +223,9 @@ mLength
 )
 &
 &
+StructuredCloneHolder
+:
+:
 WriteString
 (
 aWriter
@@ -243,6 +260,9 @@ mPublicExponent
 )
 &
 &
+StructuredCloneHolder
+:
+:
 WriteString
 (
 aWriter
@@ -258,6 +278,9 @@ case
 EC
 :
 return
+StructuredCloneHolder
+:
+:
 WriteString
 (
 aWriter
@@ -313,6 +336,9 @@ dummy
 if
 (
 !
+StructuredCloneHolder
+:
+:
 ReadString
 (
 aReader
@@ -419,6 +445,9 @@ dummy
 |
 |
 !
+StructuredCloneHolder
+:
+:
 ReadString
 (
 aReader
@@ -478,6 +507,9 @@ mPublicExponent
 |
 |
 !
+StructuredCloneHolder
+:
+:
 ReadString
 (
 aReader
@@ -519,6 +551,9 @@ namedCurve
 if
 (
 !
+StructuredCloneHolder
+:
+:
 ReadString
 (
 aReader
