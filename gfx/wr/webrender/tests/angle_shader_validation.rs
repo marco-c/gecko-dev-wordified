@@ -362,17 +362,6 @@ features
 :
 CACHE_FEATURES
 }
-Shader
-{
-name
-:
-"
-cs_svg_filter
-"
-features
-:
-CACHE_FEATURES
-}
 /
 /
 Prim
