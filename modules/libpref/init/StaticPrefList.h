@@ -16307,7 +16307,6 @@ AccessibilityBrowseWithCaret
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -16324,7 +16323,6 @@ GPUProcessEnabled
 RelaxedAtomicBool
 false
 )
-;
 /
 /
 The
@@ -16348,7 +16346,6 @@ APZAllowDoubleTapZooming
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16361,7 +16358,6 @@ APZAllowImmediateHandoff
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16374,7 +16370,6 @@ APZAllowZooming
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16391,7 +16386,6 @@ APZUseChromeFlingPhysics
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16410,7 +16404,6 @@ AtomicFloat
 .
 015f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16429,7 +16422,6 @@ AtomicFloat
 .
 35f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16448,7 +16440,6 @@ AtomicFloat
 .
 1f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16463,7 +16454,6 @@ APZAutoscrollEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16493,7 +16483,6 @@ degrees
 *
 /
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16514,7 +16503,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16542,7 +16530,6 @@ degrees
 *
 /
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16570,7 +16557,6 @@ degrees
 *
 /
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16585,7 +16571,6 @@ APZAxisLockMode
 RelaxedAtomicInt32
 0
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16598,7 +16583,6 @@ APZContentResponseTimeout
 RelaxedAtomicInt32
 400
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16611,7 +16595,6 @@ APZDangerZoneX
 RelaxedAtomicInt32
 50
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16624,7 +16607,6 @@ APZDangerZoneY
 RelaxedAtomicInt32
 100
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16637,7 +16619,6 @@ APZDisableForScrollLinkedEffects
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16650,7 +16631,6 @@ APZDisplayPortExpiryTime
 RelaxedAtomicUint32
 15000
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16665,7 +16645,6 @@ APZDragEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16682,7 +16661,6 @@ APZDragInitiationEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16699,7 +16677,6 @@ APZTouchDragEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16712,7 +16689,6 @@ APZEnlargeDisplayPortWhenClipped
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16731,7 +16707,6 @@ APZFixedMarginOverrideEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16750,7 +16725,6 @@ APZFixedMarginOverrideBottom
 RelaxedAtomicInt32
 0
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16769,7 +16743,6 @@ APZFixedMarginOverrideTop
 RelaxedAtomicInt32
 0
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16784,7 +16757,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16797,7 +16769,6 @@ APZFlingAccelInterval
 RelaxedAtomicInt32
 500
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16812,7 +16783,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16827,7 +16797,6 @@ AtomicFloat
 .
 5f
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -16842,7 +16811,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -16857,7 +16825,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -16872,7 +16839,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -16887,7 +16853,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16903,7 +16868,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16918,7 +16882,6 @@ AtomicFloat
 .
 002f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16933,7 +16896,6 @@ AtomicFloat
 .
 5f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16948,7 +16910,6 @@ AtomicFloat
 .
 05f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16963,7 +16924,6 @@ AtomicFloat
 .
 01f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -16978,7 +16938,6 @@ APZFrameDelayEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -16993,7 +16952,6 @@ APZKeyboardEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17010,7 +16968,6 @@ APZKeyboardPassiveListeners
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17023,7 +16980,6 @@ APZMaxTapTime
 RelaxedAtomicInt32
 300
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17039,7 +16995,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -17052,7 +17007,6 @@ APZMaxVelocityQueueSize
 RelaxedAtomicUint32
 5
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17067,7 +17021,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17082,7 +17035,6 @@ APZMinimap
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17097,7 +17049,6 @@ APZOneTouchPinchEnabled
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17112,7 +17063,6 @@ APZOverscrollEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17129,7 +17079,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17146,7 +17095,6 @@ AtomicFloat
 .
 001f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17163,7 +17111,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17178,7 +17125,6 @@ APZPaintSkipping
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17193,7 +17139,6 @@ APZPeekMessages
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17208,7 +17153,6 @@ APZPinchLockMode
 RelaxedAtomicInt32
 1
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17229,7 +17173,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17250,7 +17193,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17271,7 +17213,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -17286,7 +17227,6 @@ APZPinchLockBufferMaxAge
 RelaxedAtomicInt32
 50
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17301,7 +17241,6 @@ APZPopupsEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17314,7 +17253,6 @@ APZPrintTree
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17327,7 +17265,6 @@ APZRecordCheckerboarding
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17342,7 +17279,6 @@ AtomicFloat
 .
 5f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17357,7 +17293,6 @@ APZTestFailsWithNativeInjection
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17372,7 +17307,6 @@ APZTestLoggingEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17387,7 +17321,6 @@ AtomicFloat
 .
 1f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17406,7 +17339,6 @@ AtomicFloat
 .
 5f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17421,7 +17353,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17434,7 +17365,6 @@ APZVelocityRelevanceTime
 RelaxedAtomicUint32
 150
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17449,7 +17379,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17464,7 +17393,6 @@ AtomicFloat
 .
 5f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17479,7 +17407,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17494,7 +17421,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17509,7 +17435,6 @@ AtomicFloat
 .
 5f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17524,7 +17449,6 @@ AtomicFloat
 .
 5f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17537,7 +17461,6 @@ APZZoomAnimationDuration
 RelaxedAtomicInt32
 250
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17550,7 +17473,6 @@ APZScaleRepaintDelay
 RelaxedAtomicInt32
 500
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17567,7 +17489,6 @@ APZRelativeUpdate
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17586,7 +17507,6 @@ ToolbarScrollThreshold
 RelaxedAtomicInt32
 10
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17607,7 +17527,6 @@ ForceUserScalable
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17622,7 +17541,6 @@ DesktopViewportWidth
 RelaxedAtomicInt32
 980
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17641,7 +17559,6 @@ PluginAsyncDrawingEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17658,7 +17575,6 @@ MetaViewportEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -17673,7 +17589,6 @@ VREnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17690,7 +17605,6 @@ VRAutoActivateEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17707,7 +17621,6 @@ AtomicFloat
 .
 1f
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -17724,7 +17637,6 @@ VRExternalEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17743,7 +17655,6 @@ VRExternalNotDetectedTimeout
 RelaxedAtomicInt32
 60000
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17762,7 +17673,6 @@ VRExternalQuitTimeout
 RelaxedAtomicInt32
 10000
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17779,7 +17689,6 @@ VRNavigationTimeout
 RelaxedAtomicInt32
 1000
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -17796,7 +17705,6 @@ VROculusEnabled
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17815,7 +17723,6 @@ VROculusInvisibleEnabled
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17834,7 +17741,6 @@ VROculusPresentTimeout
 RelaxedAtomicInt32
 500
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17853,7 +17759,6 @@ VROculusQuitTimeout
 RelaxedAtomicInt32
 10000
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -17870,7 +17775,6 @@ VROpenVREnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -17887,7 +17791,6 @@ VROpenVRActionInputEnabled
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -17904,7 +17807,6 @@ VROSVREnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17923,7 +17825,6 @@ VRControllerEnumerateInterval
 RelaxedAtomicInt32
 1000
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17942,7 +17843,6 @@ VRDisplayEnumerateInterval
 RelaxedAtomicInt32
 5000
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17959,7 +17859,6 @@ VRInactiveTimeout
 RelaxedAtomicInt32
 5000
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17976,7 +17875,6 @@ VRPosePredictionEnabled
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -17993,7 +17891,6 @@ VRRequireGesture
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18010,7 +17907,6 @@ VRPuppetEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18027,7 +17923,6 @@ VRPuppetSubmitFrame
 RelaxedAtomicUint32
 0
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18044,7 +17939,6 @@ VRDisplayRafMaxDuration
 RelaxedAtomicUint32
 50
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -18061,7 +17955,6 @@ VRProcessEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -18078,7 +17971,6 @@ VRProcessTimeoutMs
 RelaxedAtomicInt32
 5000
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -18095,7 +17987,6 @@ VRServiceEnabled
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18110,7 +18001,6 @@ PointerEventsEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18123,7 +18013,6 @@ SmoothScrollEnabled
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18140,7 +18029,6 @@ AtomicFloat
 .
 25
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18155,7 +18043,6 @@ SmoothScrollDurationToIntervalRatio
 RelaxedAtomicInt32
 200
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18172,7 +18059,6 @@ LineSmoothScrollMaxDurationMs
 RelaxedAtomicInt32
 150
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18189,7 +18075,6 @@ LineSmoothScrollMinDurationMs
 RelaxedAtomicInt32
 150
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18204,7 +18089,6 @@ WheelSmoothScrollEnabled
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18221,7 +18105,6 @@ WheelSmoothScrollMaxDurationMs
 RelaxedAtomicInt32
 400
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18238,7 +18121,6 @@ WheelSmoothScrollMinDurationMs
 RelaxedAtomicInt32
 200
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18255,7 +18137,6 @@ OtherSmoothScrollMaxDurationMs
 RelaxedAtomicInt32
 150
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18272,7 +18153,6 @@ OtherSmoothScrollMinDurationMs
 RelaxedAtomicInt32
 150
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18287,7 +18167,6 @@ PageSmoothScrollEnabled
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18304,7 +18183,6 @@ PageSmoothScrollMaxDurationMs
 RelaxedAtomicInt32
 150
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18321,7 +18199,6 @@ PageSmoothScrollMinDurationMs
 RelaxedAtomicInt32
 150
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18338,7 +18215,6 @@ PixelSmoothScrollMaxDurationMs
 RelaxedAtomicInt32
 150
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18355,7 +18231,6 @@ PixelSmoothScrollMinDurationMs
 RelaxedAtomicInt32
 150
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18372,7 +18247,6 @@ AtomicFloat
 .
 4f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18389,7 +18263,6 @@ SmoothScrollMSDPhysicsEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18406,7 +18279,6 @@ SmoothScrollMSDPhysicsContinuousMotionMaxDeltaMS
 RelaxedAtomicInt32
 120
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18423,7 +18295,6 @@ SmoothScrollMSDPhysicsMotionBeginSpringConstant
 RelaxedAtomicInt32
 1250
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18440,7 +18311,6 @@ SmoothScrollMSDPhysicsSlowdownMinDeltaMS
 RelaxedAtomicInt32
 12
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18459,7 +18329,6 @@ AtomicFloat
 .
 3f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18476,7 +18345,6 @@ SmoothScrollMSDPhysicsSlowdownSpringConstant
 RelaxedAtomicInt32
 2000
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18493,7 +18361,6 @@ SmoothScrollMSDPhysicsRegularSpringConstant
 RelaxedAtomicInt32
 1000
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -18510,7 +18377,6 @@ AndroidRGB16Force
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -18525,7 +18391,6 @@ UseApitrace
 RelaxedAtomicBool
 false
 )
-;
 #
 if
 defined
@@ -18564,7 +18429,6 @@ BlocklistAll
 RelaxedAtomicInt32
 0
 )
-;
 #
 else
 VARCACHE_PREF
@@ -18581,7 +18445,6 @@ BlocklistAll
 RelaxedAtomicInt32
 0
 )
-;
 #
 endif
 #
@@ -18640,7 +18503,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18663,7 +18525,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18686,7 +18547,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18709,7 +18569,6 @@ AtomicFloat
 .
 0f
 )
-;
 #
 endif
 /
@@ -18732,7 +18591,6 @@ CompositorClearState
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18749,7 +18607,6 @@ CompositorGLContextOpaque
 RelaxedAtomicBool
 false
 )
-;
 /
 /
 0x7fff
@@ -18784,7 +18641,6 @@ MaxCanvasSize
 RelaxedAtomicInt32
 0x7fff
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18799,7 +18655,6 @@ CMSEnableV4
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18815,7 +18670,6 @@ RelaxedAtomicInt32
 -
 1
 )
-;
 /
 /
 The
@@ -18843,7 +18697,6 @@ CMSRenderingIntent
 RelaxedAtomicInt32
 0
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18860,7 +18713,6 @@ AlwaysPaint
 RelaxedAtomicBool
 false
 )
-;
 /
 /
 Size
@@ -18886,7 +18738,6 @@ SkiaContentFontCacheSize
 RelaxedAtomicInt32
 5
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -18903,7 +18754,6 @@ DeviceResetLimitCount
 RelaxedAtomicInt32
 10
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -18923,7 +18773,6 @@ RelaxedAtomicInt32
 -
 1
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -18938,7 +18787,6 @@ Direct2DDisabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -18955,7 +18803,6 @@ Direct2DForceEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18976,7 +18823,6 @@ Direct2DDestroyDTOnPaintThread
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -18996,7 +18842,6 @@ RelaxedAtomicInt32
 -
 1
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19015,7 +18860,6 @@ Direct3D11AllowKeyedMutex
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19034,7 +18878,6 @@ Direct3D11UseDoubleBuffering
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -19053,7 +18896,6 @@ Direct3D11EnableDebugLayer
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -19072,7 +18914,6 @@ Direct3D11BreakOnError
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -19093,7 +18934,6 @@ Direct3D11SleepOnCreateDevice
 RelaxedAtomicInt32
 0
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19108,7 +18948,6 @@ KeepColorBitmaps
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19123,7 +18962,6 @@ ValidateVariationTables
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19138,7 +18976,6 @@ ValidateOTLTables
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19155,7 +18992,6 @@ CompositorDrawColorBars
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -19176,7 +19012,6 @@ HidePluginsForScroll
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -19195,7 +19030,6 @@ SharedFontList
 RelaxedAtomicBool
 false
 )
-;
 #
 if
 defined
@@ -19218,7 +19052,6 @@ CoreTextEnabled
 RelaxedAtomicBool
 false
 )
-;
 #
 endif
 VARCACHE_PREF
@@ -19235,7 +19068,6 @@ LayerScopeEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19250,7 +19082,6 @@ LayerScopePort
 RelaxedAtomicInt32
 23456
 )
-;
 /
 /
 Note
@@ -19289,7 +19120,6 @@ gfx
 :
 LOG_DEFAULT
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -19306,7 +19136,6 @@ GfxLoggingCrashLength
 RelaxedAtomicUint32
 16
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19327,7 +19156,6 @@ GfxLoggingPaintedPixelCountEnabled
 RelaxedAtomicBool
 false
 )
-;
 /
 /
 The
@@ -19363,7 +19191,6 @@ GfxLoggingTextureUsageEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -19384,7 +19211,6 @@ GfxLoggingPeakTextureUsageEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -19403,7 +19229,6 @@ LoggingSlowFramesEnabled
 RelaxedAtomicBool
 false
 )
-;
 /
 /
 Use
@@ -19435,7 +19260,6 @@ int32_t
 )
 500000000
 )
-;
 /
 /
 Use
@@ -19467,7 +19291,6 @@ int32_t
 )
 32767
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19482,7 +19305,6 @@ PartialPresent
 RelaxedAtomicInt32
 0
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19499,7 +19321,6 @@ PerfWarnings
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19516,7 +19337,6 @@ DeviceResetForTesting
 RelaxedAtomicInt32
 0
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19533,7 +19353,6 @@ DeviceFailForTesting
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -19550,7 +19369,6 @@ DisableAllTextAA
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19567,7 +19385,6 @@ YCbCrAccurateConversion
 RelaxedAtomicBool
 false
 )
-;
 /
 /
 Disable
@@ -19610,7 +19427,6 @@ UseGLXTextureFromPixmap
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -19627,7 +19443,6 @@ UseIOSurfaceTextures
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -19646,7 +19461,6 @@ UseMutexOnPresent
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -19663,7 +19477,6 @@ UseSurfaceTextureTextures
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -19682,7 +19495,6 @@ AllowTextureDirectMapping
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19701,7 +19513,6 @@ CollectScrollTransforms
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -19720,7 +19531,6 @@ CompositorUnobserveCount
 RelaxedAtomicInt32
 10
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -19735,7 +19545,6 @@ WebRenderAll
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -19752,7 +19561,6 @@ WebRenderAllQualified
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -19771,7 +19579,6 @@ WebRenderAllQualifiedDefault
 bool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19788,7 +19595,6 @@ WebRenderBlobImages
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19805,7 +19611,6 @@ WebRenderBlobInvalidation
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19824,7 +19629,6 @@ WebRenderBlobPaintFlashing
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19843,7 +19647,6 @@ WebRenderDLDumpParent
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19862,7 +19665,6 @@ WebRenderDLDumpContent
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -19877,7 +19679,6 @@ WebRenderEnabledDoNotUseDirectly
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -19894,7 +19695,6 @@ WebRenderForceDisabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19913,7 +19713,6 @@ WebRenderHighlightPaintedLayers
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19932,7 +19731,6 @@ WebRenderLateSceneBuildThreshold
 RelaxedAtomicInt32
 4
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19955,7 +19753,6 @@ WebRenderMaxFilterOpsPerChain
 RelaxedAtomicUint32
 64
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -19972,7 +19769,6 @@ WebRenderPictureCaching
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -19991,7 +19787,6 @@ WebRenderSplitRenderRoots
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20010,7 +19805,6 @@ WebRenderStartDebugServer
 RelaxedAtomicBool
 false
 )
-;
 /
 /
 Use
@@ -20037,7 +19831,6 @@ WorkAroundDriverBugs
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20054,7 +19847,6 @@ GLAllowHighPower
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20073,7 +19865,6 @@ IgnoreDXInterop2Blacklist
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20088,7 +19879,6 @@ MSAALevel
 RelaxedAtomicUint32
 2
 )
-;
 #
 if
 defined
@@ -20107,7 +19897,6 @@ GLMultithreaded
 RelaxedAtomicBool
 false
 )
-;
 #
 endif
 VARCACHE_PREF
@@ -20124,7 +19913,6 @@ RequireHardwareGL
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20143,7 +19931,6 @@ UseTLSIsCurrent
 RelaxedAtomicInt32
 0
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20166,7 +19953,6 @@ ImageAnimatedDecodeOnDemandThresholdKB
 RelaxedAtomicUint32
 20480
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20189,7 +19975,6 @@ ImageAnimatedDecodeOnDemandBatchSize
 RelaxedAtomicUint32
 6
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20210,7 +19995,6 @@ ImageAnimatedDecodeOnDemandRecycle
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20231,7 +20015,6 @@ ImageAnimatedResumeFromLastDisplayed
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20251,7 +20034,6 @@ RelaxedAtomicInt32
 -
 1
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20276,7 +20058,6 @@ RelaxedAtomicInt32
 *
 1024
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -20295,7 +20076,6 @@ RelaxedAtomicInt32
 *
 1024
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -20310,7 +20090,6 @@ ImageCacheTimeWeight
 RelaxedAtomicInt32
 500
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20327,7 +20106,6 @@ ImageDecodeImmediatelyEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20346,7 +20124,6 @@ ImageDownscaleDuringDecodeEnabled
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20367,7 +20144,6 @@ ImageInferSrcAnimationThresholdMS
 RelaxedAtomicUint32
 2000
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20380,7 +20156,6 @@ ImageLayoutNetworkPriority
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -20395,7 +20170,6 @@ ImageMemDecodeBytesAtATime
 RelaxedAtomicUint32
 200000
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20410,7 +20184,6 @@ ImageMemDiscardable
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -20427,7 +20200,6 @@ ImageMemAnimatedDiscardable
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20444,7 +20216,6 @@ ImageMemAnimatedUseHeap
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20461,7 +20232,6 @@ ImageMemDebugReporting
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20476,7 +20246,6 @@ ImageMemShared
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -20493,7 +20262,6 @@ ImageMemSurfaceCacheDiscardFactor
 RelaxedAtomicUint32
 1
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -20512,7 +20280,6 @@ RelaxedAtomicUint32
 *
 1024
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -20531,7 +20298,6 @@ RelaxedAtomicUint32
 *
 1000
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -20548,7 +20314,6 @@ ImageMemSurfaceCacheSizeFactor
 RelaxedAtomicUint32
 64
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20566,7 +20331,6 @@ RelaxedAtomicInt32
 -
 1
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -20582,7 +20346,6 @@ RelaxedAtomicInt32
 -
 1
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -20598,7 +20361,6 @@ RelaxedAtomicInt32
 -
 1
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20613,7 +20375,6 @@ ImageWebPEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -20628,7 +20389,6 @@ LayersAccelerationDisabledDoNotUseDirectly
 RelaxedAtomicBool
 false
 )
-;
 /
 /
 Instead
@@ -20660,7 +20420,6 @@ LayersDrawFPS
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20681,7 +20440,6 @@ FPSPrintHistogram
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20704,7 +20462,6 @@ WriteFPSToFile
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -20721,7 +20478,6 @@ LayersAccelerationForceEnabledDoNotUseDirectly
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20740,7 +20496,6 @@ LayersAdvancedBasicLayerEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -20759,7 +20514,6 @@ LayersAMDSwitchableGfxEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -20778,7 +20532,6 @@ AsyncPanZoomEnabledDoNotUseDirectly
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20793,7 +20546,6 @@ LayersBenchEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -20808,7 +20560,6 @@ BufferRotationEnabled
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20825,7 +20576,6 @@ ChildProcessShutdown
 RelaxedAtomicBool
 true
 )
-;
 #
 ifdef
 MOZ_GFX_OPTIMIZE_MOBILE
@@ -20861,7 +20611,6 @@ ComponentAlphaEnabled
 RelaxedAtomicBool
 false
 )
-;
 #
 else
 /
@@ -20897,7 +20646,6 @@ ComponentAlphaEnabled
 RelaxedAtomicBool
 true
 )
-;
 #
 endif
 VARCACHE_PREF
@@ -20916,7 +20664,6 @@ LayersD3D11ForceWARP
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20931,7 +20678,6 @@ LayersDEAAEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20948,7 +20694,6 @@ DrawBigImageBorders
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20963,7 +20708,6 @@ DrawLayerBorders
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20980,7 +20724,6 @@ DrawTileBorders
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -20997,7 +20740,6 @@ DrawLayerInfo
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21010,7 +20752,6 @@ LayersDump
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21025,7 +20766,6 @@ LayersDumpTexture
 RelaxedAtomicBool
 false
 )
-;
 #
 ifdef
 MOZ_DUMP_PAINTING
@@ -21045,7 +20785,6 @@ DumpClientLayers
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21060,7 +20799,6 @@ LayersDumpDecision
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21077,7 +20815,6 @@ DumpHostLayers
 RelaxedAtomicBool
 false
 )
-;
 #
 endif
 /
@@ -21131,7 +20868,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21146,7 +20882,6 @@ LayersEffectGrayscale
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21161,7 +20896,6 @@ LayersEffectInvert
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21176,7 +20910,6 @@ LayersTilesEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21197,7 +20930,6 @@ LayersTilesEnabledIfSkiaPOMTP
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21212,7 +20944,6 @@ FlashLayerBorders
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21229,7 +20960,6 @@ ForceShmemTiles
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21248,7 +20978,6 @@ GPUProcessAllowSoftware
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21267,7 +20996,6 @@ GPUProcessForceEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21284,7 +21012,6 @@ GPUProcessIPCReplyTimeoutMs
 RelaxedAtomicInt32
 10000
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21301,7 +21028,6 @@ GPUProcessMaxRestarts
 RelaxedAtomicInt32
 1
 )
-;
 /
 /
 Note
@@ -21341,7 +21067,6 @@ GPUProcessMaxRestartsWithDecoder
 RelaxedAtomicInt32
 0
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21358,7 +21083,6 @@ GPUProcessTimeoutMs
 RelaxedAtomicInt32
 5000
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21375,7 +21099,6 @@ UseLowPrecisionBuffer
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21394,7 +21117,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21413,7 +21135,6 @@ AtomicFloat
 .
 25f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21429,7 +21150,6 @@ RelaxedAtomicInt32
 -
 1
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21444,7 +21164,6 @@ AdvancedLayersEnabledDoNotUseDirectly
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21463,7 +21182,6 @@ AdvancedLayersEnableBufferCache
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21482,7 +21200,6 @@ AdvancedLayersEnableBufferSharing
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21501,7 +21218,6 @@ AdvancedLayersEnableClearView
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21520,7 +21236,6 @@ AdvancedLayersEnableCPUOcclusion
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21539,7 +21254,6 @@ AdvancedLayersEnableDepthBuffer
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21556,7 +21270,6 @@ AdvancedLayersUseInvalidation
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21575,7 +21288,6 @@ AdvancedLayersEnableOnWindows7
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21594,7 +21306,6 @@ AdvancedLayersEnableContainerResizing
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21611,7 +21322,6 @@ LayersOffMainThreadCompositionForceDisabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21629,7 +21339,6 @@ RelaxedAtomicInt32
 -
 1
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21650,7 +21359,6 @@ RelaxedAtomicUint32
 *
 1024
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21667,7 +21375,6 @@ LayersOMTPDumpCapture
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21684,7 +21391,6 @@ LayersOMTPPaintWorkers
 RelaxedAtomicInt32
 1
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21707,7 +21413,6 @@ LayersOMTPReleaseCaptureOnMainThread
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21727,7 +21432,6 @@ uint32_t
 )
 0
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21742,7 +21446,6 @@ LayersPreferOpenGL
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21757,7 +21460,6 @@ ProgressivePaint
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21776,7 +21478,6 @@ PersistentBufferProviderSharedEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21793,7 +21494,6 @@ LayersSingleTileEnabled
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -21810,7 +21510,6 @@ LayersForceSynchronousResize
 RelaxedAtomicBool
 true
 )
-;
 /
 /
 We
@@ -21877,7 +21576,6 @@ LayersTileWidth
 RelaxedAtomicInt32
 256
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21892,7 +21590,6 @@ LayersTileHeight
 RelaxedAtomicInt32
 256
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21914,7 +21611,6 @@ uint32_t
 )
 50
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21936,7 +21632,6 @@ uint32_t
 )
 10
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21958,7 +21653,6 @@ uint32_t
 )
 50
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21980,7 +21674,6 @@ uint32_t
 )
 5000
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -21995,7 +21688,6 @@ LayersTilesAdjust
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22014,7 +21706,6 @@ LayersTileRetainBackBuffer
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -22031,7 +21722,6 @@ TileEdgePaddingEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22050,7 +21740,6 @@ LayerTileFadeInEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22071,7 +21760,6 @@ LayerTileFadeInDuration
 RelaxedAtomicUint32
 250
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22088,7 +21776,6 @@ LayerTransactionWarning
 RelaxedAtomicUint32
 200
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -22103,7 +21790,6 @@ UniformityInfo
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -22122,7 +21808,6 @@ UseImageOffscreenSurfaces
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22139,7 +21824,6 @@ DrawMaskLayer
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22156,7 +21840,6 @@ OGLLayerGeometry
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22173,7 +21856,6 @@ BasicLayerGeometry
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22190,7 +21872,6 @@ D3D11LayerGeometry
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22207,7 +21888,6 @@ PartiallyPrerenderAnimatedContent
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22232,7 +21912,6 @@ AtomicFloat
 .
 125f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22257,7 +21936,6 @@ AtomicFloat
 .
 125f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22278,7 +21956,6 @@ AnimationPrerenderAbsoluteLimitX
 RelaxedAtomicUint32
 4096
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22299,7 +21976,6 @@ AnimationPrerenderAbsoluteLimitY
 RelaxedAtomicUint32
 4096
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22318,7 +21994,6 @@ PaintOrderEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22341,7 +22016,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22360,7 +22034,6 @@ ScrollBehaviorEnabled
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22383,7 +22056,6 @@ AtomicFloat
 .
 0f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22406,7 +22078,6 @@ ScrollSnapPredictionMaxVelocity
 RelaxedAtomicInt32
 2000
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22429,7 +22100,6 @@ AtomicFloat
 .
 750f
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22450,7 +22120,6 @@ ScrollSnapProximityThreshold
 RelaxedAtomicInt32
 200
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22467,7 +22136,6 @@ TouchActionEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22486,7 +22154,6 @@ LayoutDisplayListBuildTwice
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22503,7 +22170,6 @@ LayoutRetainDisplayList
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22522,7 +22188,6 @@ LayoutRetainDisplayListChrome
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22541,7 +22206,6 @@ LayoutVerifyRetainDisplayList
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22562,7 +22226,6 @@ LayoutVerifyRetainDisplayListOrder
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22583,7 +22246,6 @@ LayoutRebuildFrameLimit
 RelaxedAtomicUint32
 500
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22600,7 +22262,6 @@ LayoutDumpDisplayList
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22619,7 +22280,6 @@ LayoutDumpDisplayListContent
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22638,7 +22298,6 @@ LayoutDumpDisplayListParent
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22659,7 +22318,6 @@ LayoutDisplayListShowArea
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22678,7 +22336,6 @@ LayoutFlattenTransform
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22692,7 +22349,6 @@ RelaxedAtomicInt32
 -
 1
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22711,7 +22367,6 @@ LayoutMinActiveLayerSize
 int
 64
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -22724,7 +22379,6 @@ LayoutPaintRectsSeparately
 RelaxedAtomicBool
 true
 )
-;
 /
 /
 This
@@ -22760,7 +22414,6 @@ LayoutUseContainersForRootFrames
 RelaxedAtomicBool
 false
 )
-;
 /
 /
 This
@@ -22792,7 +22445,6 @@ AlwaysLayerizeScrollbarTrackTestOnly
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22809,7 +22461,6 @@ LayoutSmallerPaintedLayers
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -22830,7 +22481,6 @@ HardwareVideoDecodingForceEnabled
 RelaxedAtomicBool
 false
 )
-;
 #
 ifdef
 XP_WIN
@@ -22852,7 +22502,6 @@ PDMWMFAllowD3D11
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22871,7 +22520,6 @@ PDMWMFMaxDXVAVideos
 RelaxedAtomicUint32
 8
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22890,7 +22538,6 @@ PDMWMFUseNV12Format
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22911,7 +22558,6 @@ PDMWMFForceAllowP010Format
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -22930,7 +22576,6 @@ PDMWMFUseSyncTexture
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22949,7 +22594,6 @@ PDMWMFLowLatencyEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22970,7 +22614,6 @@ PDMWMFLowLatencyForceDisabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -22987,7 +22630,6 @@ PDMWMFSkipBlacklist
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23012,7 +22654,6 @@ PDMWMFDeblacklistingForTelemetryInGPUProcess
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23031,7 +22672,6 @@ PDMWMFAMDHighResEnabled
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23050,7 +22690,6 @@ PDMWMFAllowUnsupportedResolutions
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -23067,7 +22706,6 @@ MediaWmfVp9Enabled
 RelaxedAtomicBool
 true
 )
-;
 #
 endif
 /
@@ -23099,7 +22737,6 @@ RelaxedAtomicInt32
 -
 1
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23115,7 +22752,6 @@ RelaxedAtomicInt32
 -
 1
 )
-;
 /
 /
 This
@@ -23144,7 +22780,6 @@ MouseWheelHasRootScrollDeltaOverride
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23161,7 +22796,6 @@ MouseWheelRootScrollHorizontalFactor
 RelaxedAtomicInt32
 0
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23178,7 +22812,6 @@ MouseWheelRootScrollVerticalFactor
 RelaxedAtomicInt32
 0
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23196,7 +22829,6 @@ int32_t
 )
 100
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23214,7 +22846,6 @@ int32_t
 )
 1500
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23229,7 +22860,6 @@ WidgetUpdateFlashing
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23248,7 +22878,6 @@ PrintFontVariationsAsPaths
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23261,7 +22890,6 @@ ResistFingerprinting
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -23274,7 +22902,6 @@ SliderSnapMultiplier
 RelaxedAtomicInt32
 0
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23291,7 +22918,6 @@ TestEventsAsyncEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23304,7 +22930,6 @@ MouseScrollTestingEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23319,7 +22944,6 @@ ToolkitHorizontalScrollDistance
 RelaxedAtomicInt32
 5
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23334,7 +22958,6 @@ ToolkitVerticalScrollDistance
 RelaxedAtomicInt32
 3
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23349,7 +22972,6 @@ UiClickHoldContextMenusDelay
 RelaxedAtomicInt32
 500
 )
-;
 /
 /
 WebGL
@@ -23379,7 +23001,6 @@ WebGL1AllowCoreProfile
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23396,7 +23017,6 @@ WebGLAllANGLEOptions
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23413,7 +23033,6 @@ WebGLANGLEForceD3D11
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23430,7 +23049,6 @@ WebGLANGLETryD3D11
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23447,7 +23065,6 @@ WebGLANGLEForceWARP
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23468,7 +23085,6 @@ WebGLCanLoseContextInForeground
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23485,7 +23101,6 @@ WebGLDefaultLowPower
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23502,7 +23117,6 @@ WebGLDefaultNoAlpha
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23517,7 +23131,6 @@ WebGLDisableANGLE
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23532,7 +23145,6 @@ WebGLDisableWGL
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23547,7 +23159,6 @@ WebGLDisableExtensions
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23562,7 +23173,6 @@ WebGLDXGLEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23579,7 +23189,6 @@ WebGLDXGLNeedsFinish
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23602,7 +23211,6 @@ WebGLDisableFailIfMajorPerformanceCaveat
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23621,7 +23229,6 @@ WebGLDisableDOMBlitUploads
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23634,7 +23241,6 @@ WebGLDisabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23651,7 +23257,6 @@ WebGLDraftExtensionsEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23668,7 +23273,6 @@ WebGLPrivilegedExtensionsEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23685,7 +23289,6 @@ WebGLSurfaceTextureEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23700,7 +23303,6 @@ WebGL2Enabled
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23715,7 +23317,6 @@ WebGLForceEnabled
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Once
@@ -23732,7 +23333,6 @@ WebGLForceLayersReadback
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23749,7 +23349,6 @@ WebGLForceIndexValidation
 RelaxedAtomicInt32
 0
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23770,7 +23369,6 @@ WebGLLoseContextOnMemoryPressure
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23785,7 +23383,6 @@ WebGLMaxContexts
 RelaxedAtomicUint32
 32
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23804,7 +23401,6 @@ WebGLMaxContextsPerPrincipal
 RelaxedAtomicUint32
 16
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23823,7 +23419,6 @@ WebGLMaxWarningsPerContext
 RelaxedAtomicUint32
 32
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23836,7 +23431,6 @@ WebGLMinCapabilityMode
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23851,7 +23445,6 @@ WebGLForceMSAA
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23866,7 +23459,6 @@ WebGLMsaaSamples
 RelaxedAtomicUint32
 4
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23881,7 +23473,6 @@ WebGLPrefer16bpp
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23898,7 +23489,6 @@ WebGLImmediateQueries
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23915,7 +23505,6 @@ WebGLFBInvalidation
 RelaxedAtomicBool
 false
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23932,7 +23521,6 @@ WebGLMaxPerfWarnings
 RelaxedAtomicInt32
 0
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23955,7 +23543,6 @@ WebGLMaxAcceptableFBStatusInvals
 RelaxedAtomicInt32
 0
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23974,7 +23561,6 @@ WebGLSpewFrameAllocs
 RelaxedAtomicBool
 true
 )
-;
 VARCACHE_PREF
 (
 Live
@@ -23991,7 +23577,6 @@ WindowTransformsDisabled
 RelaxedAtomicBool
 false
 )
-;
 /
 /
 -
