@@ -2374,5 +2374,10 @@ mIsAboutBlank
 ;
 }
 ;
+nsresult
+nsParserInitialize
+(
+)
+;
 #
 endif
