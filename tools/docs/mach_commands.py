@@ -73,6 +73,10 @@ functools
 import
 partial
 from
+pprint
+import
+pprint
+from
 mozbuild
 .
 base
