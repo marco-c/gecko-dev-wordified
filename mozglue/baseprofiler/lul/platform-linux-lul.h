@@ -106,6 +106,13 @@ platform
 .
 h
 "
+#
+include
+"
+BaseProfiler
+.
+h
+"
 /
 /
 Find
