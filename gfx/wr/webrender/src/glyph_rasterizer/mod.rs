@@ -113,7 +113,7 @@ internal_types
 ResourceCacheError
 ;
 use
-wr_malloc_size_of
+malloc_size_of
 :
 :
 {
