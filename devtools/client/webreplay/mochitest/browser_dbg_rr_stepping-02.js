@@ -165,6 +165,8 @@ attachDebugger
 (
 tab
 )
+;
+const
 front
 =
 toolbox
@@ -172,7 +174,7 @@ toolbox
 threadFront
 ;
 await
-client
+front
 .
 interrupt
 (
