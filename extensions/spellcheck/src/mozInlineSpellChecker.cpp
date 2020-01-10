@@ -10317,7 +10317,7 @@ rv
 aSpellCheckSelection
 -
 >
-RemoveRange
+RemoveRangeAndUnselectFramesAndNotifyListeners
 (
 *
 aRange

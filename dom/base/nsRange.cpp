@@ -7498,7 +7498,7 @@ mSelection
 mSelection
 -
 >
-RemoveRange
+RemoveRangeAndUnselectFramesAndNotifyListeners
 (
 *
 this

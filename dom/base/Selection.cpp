@@ -13679,7 +13679,7 @@ result
 Selection
 :
 :
-RemoveRange
+RemoveRangeAndUnselectFramesAndNotifyListeners
 /
 /
 /
@@ -13805,7 +13805,7 @@ void
 Selection
 :
 :
-RemoveRange
+RemoveRangeAndUnselectFramesAndNotifyListeners
 (
 nsRange
 &

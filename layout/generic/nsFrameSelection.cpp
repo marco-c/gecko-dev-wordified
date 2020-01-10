@@ -14151,7 +14151,7 @@ index
 ]
 -
 >
-RemoveRange
+RemoveRangeAndUnselectFramesAndNotifyListeners
 (
 *
 range
@@ -14626,7 +14626,7 @@ index
 ]
 -
 >
-RemoveRange
+RemoveRangeAndUnselectFramesAndNotifyListeners
 (
 *
 range
@@ -14815,7 +14815,7 @@ index
 ]
 -
 >
-RemoveRange
+RemoveRangeAndUnselectFramesAndNotifyListeners
 (
 *
 range
