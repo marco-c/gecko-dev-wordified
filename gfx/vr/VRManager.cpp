@@ -554,7 +554,7 @@ if
 StaticPrefs
 :
 :
-VRProcessEnabled
+dom_vr_process_enabled
 (
 )
 |
@@ -996,7 +996,7 @@ XRE_IsGPUProcess
 StaticPrefs
 :
 :
-VRProcessEnabled
+dom_vr_process_enabled
 (
 )
 &
@@ -2489,7 +2489,7 @@ ToMilliseconds
 StaticPrefs
 :
 :
-VRInactiveTimeout
+dom_vr_inactive_timeout
 (
 )
 )
@@ -2651,7 +2651,8 @@ interval
 set
 in
 *
-VRDisplayEnumerateInterval
+dom_vr_display_enumerate_interval
+.
 *
 /
 if
@@ -2687,7 +2688,7 @@ ToMilliseconds
 StaticPrefs
 :
 :
-VRDisplayEnumerateInterval
+dom_vr_display_enumerate_interval
 (
 )
 )
@@ -2760,10 +2761,11 @@ t
 try
 again
 until
-*
 the
-VRDisplayEnumerateInterval
+*
+dom_vr_display_enumerate_interval
 elapses
+.
 *
 /
 mLastDisplayEnumerationTime
@@ -2859,7 +2861,7 @@ XRE_IsGPUProcess
 StaticPrefs
 :
 :
-VRProcessEnabled
+dom_vr_process_enabled
 (
 )
 )
@@ -4271,7 +4273,7 @@ ToMilliseconds
 StaticPrefs
 :
 :
-VRControllerEnumerateInterval
+dom_vr_controller_enumerate_interval
 (
 )
 )

@@ -1106,12 +1106,14 @@ that
 StaticPrefs
 :
 :
-ForceUserScalable
+browser_ui_zoom_force_user_scalable
 (
 )
 returns
 the
 updated
+/
+/
 value
 .
 RefPtr

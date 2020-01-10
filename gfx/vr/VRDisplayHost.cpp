@@ -1809,7 +1809,7 @@ ToMilliseconds
 StaticPrefs
 :
 :
-VRDisplayRafMaxDuration
+dom_vr_display_rafMaxDuration
 (
 )
 )

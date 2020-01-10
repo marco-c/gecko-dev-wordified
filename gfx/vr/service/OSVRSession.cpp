@@ -1398,7 +1398,7 @@ dom_vr_enabled
 StaticPrefs
 :
 :
-VROSVREnabled
+dom_vr_osvr_enabled
 (
 )
 )

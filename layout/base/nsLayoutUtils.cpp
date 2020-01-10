@@ -69120,7 +69120,7 @@ return
 StaticPrefs
 :
 :
-MetaViewportEnabled
+dom_meta_viewport_enabled
 (
 )
 ;

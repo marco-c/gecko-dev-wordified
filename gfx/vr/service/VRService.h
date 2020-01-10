@@ -422,10 +422,12 @@ of
 StaticPrefs
 :
 :
-VRProcessEnabled
+dom_vr_process_enabled
 (
 )
 in
+/
+/
 mVRProcessEnabled
 .
 bool

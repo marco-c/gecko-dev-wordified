@@ -573,7 +573,7 @@ timeoutMs
 StaticPrefs
 :
 :
-VRProcessTimeoutMs
+dom_vr_process_startup_timeout_ms
 (
 )
 ;

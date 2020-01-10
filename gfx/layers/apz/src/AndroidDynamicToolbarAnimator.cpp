@@ -1206,15 +1206,15 @@ NOTE
 StaticPrefs
 :
 :
-ToolbarScrollThreshold
+browser_ui_scroll_toolbar_threshold
 (
 )
 returns
 a
+/
+/
 percentage
 as
-/
-/
 an
 int32_t
 .
@@ -1246,7 +1246,7 @@ lround
 StaticPrefs
 :
 :
-ToolbarScrollThreshold
+browser_ui_scroll_toolbar_threshold
 (
 )
 *
