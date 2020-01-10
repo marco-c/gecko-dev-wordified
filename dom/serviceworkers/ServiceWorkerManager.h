@@ -382,6 +382,9 @@ class
 ServiceWorkerRegistrar
 ;
 class
+ServiceWorkerShutdownBlocker
+;
+class
 ServiceWorkerUpdateFinishCallback
 {
 protected
@@ -1668,6 +1671,14 @@ ServiceWorkerDescriptor
 aController
 )
 ;
+void
+BlockShutdownOn
+(
+GenericNonExclusivePromise
+*
+aPromise
+)
+;
 nsresult
 GetClientRegistration
 (
@@ -2145,6 +2156,12 @@ nsAString
 &
 aBehavior
 )
+;
+RefPtr
+<
+ServiceWorkerShutdownBlocker
+>
+mShutdownBlocker
 ;
 }
 ;
