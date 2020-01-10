@@ -340,7 +340,7 @@ struct
 MediaPlaybackEvent
 ;
 class
-MediaStreamGraphImpl
+MediaStreamGraph
 ;
 enum
 class
@@ -1110,7 +1110,7 @@ AddOutputStream
 DOMMediaStream
 *
 aStream
-MediaStreamGraphImpl
+MediaStreamGraph
 *
 aGraph
 )

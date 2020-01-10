@@ -4542,12 +4542,6 @@ DOMMediaStream
 >
 mStream
 ;
-RefPtr
-<
-MediaStreamGraphImpl
->
-mGraph
-;
 /
 /
 Dummy

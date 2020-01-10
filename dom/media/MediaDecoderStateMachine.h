@@ -1294,7 +1294,7 @@ created
 void
 EnsureOutputStreamManager
 (
-MediaStreamGraphImpl
+MediaStreamGraph
 *
 aGraph
 )
