@@ -6904,6 +6904,16 @@ onPassword
 &
 &
 isGeneratedPasswordEnabled
+&
+&
+Services
+.
+logins
+.
+getLoginSavingEnabled
+(
+formOrigin
+)
 ;
 this
 .
