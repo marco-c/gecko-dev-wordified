@@ -1954,6 +1954,10 @@ section
 nsGkAtoms
 :
 :
+main
+nsGkAtoms
+:
+:
 blockquote
 nsGkAtoms
 :
