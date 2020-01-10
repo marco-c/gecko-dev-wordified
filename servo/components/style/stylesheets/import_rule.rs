@@ -247,6 +247,17 @@ instead
 .
 #
 [
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
+#
+[
 derive
 (
 Clone
