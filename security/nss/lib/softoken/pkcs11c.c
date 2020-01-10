@@ -43236,11 +43236,14 @@ withCofactor
 tmp
 )
 ;
-PORT_Free
+PORT_ZFree
 (
 ecScalar
 .
 data
+ecScalar
+.
+len
 )
 ;
 ecScalar
