@@ -83,6 +83,17 @@ name
 )
 ;
 }
+connectedCallback
+(
+)
+{
+this
+.
+reflectFluentStrings
+(
+)
+;
+}
 /
 *
 *
