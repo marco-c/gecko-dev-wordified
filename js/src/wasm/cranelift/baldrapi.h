@@ -517,6 +517,9 @@ hasBmi2
 bool
 hasLzcnt
 ;
+bool
+platformIsWindows
+;
 size_t
 staticMemoryBound
 ;
