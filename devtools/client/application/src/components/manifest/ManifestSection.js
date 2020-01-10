@@ -105,9 +105,8 @@ react
 ;
 const
 {
-caption
-table
-tbody
+h2
+section
 }
 =
 require
@@ -206,7 +205,7 @@ length
 0
 ;
 return
-table
+section
 (
 {
 className
@@ -230,7 +229,7 @@ empty
 "
 }
 }
-caption
+h2
 (
 {
 className
@@ -243,12 +242,7 @@ section__title
 }
 title
 )
-tbody
-(
-{
-}
 children
-)
 )
 ;
 }
