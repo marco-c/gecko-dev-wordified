@@ -544,7 +544,7 @@ getElementById
 "
 device
 -
-submit
+close
 -
 button
 "
@@ -881,7 +881,7 @@ getElementById
 "
 device
 -
-submit
+close
 -
 button
 "
