@@ -495,15 +495,6 @@ function
 (
 )
 {
-await
-this
-.
-toolbox
-.
-initInspector
-(
-)
-;
 this
 .
 toolbox
