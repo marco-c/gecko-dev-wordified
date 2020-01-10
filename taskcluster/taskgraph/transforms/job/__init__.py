@@ -2079,6 +2079,23 @@ path
 =
 path
 )
+                                
+if
+not
+path
+.
+startswith
+(
+'
+/
+'
+)
+else
+path
+[
+1
+:
+]
                         
 '
 task
