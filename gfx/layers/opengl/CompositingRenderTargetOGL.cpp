@@ -183,6 +183,15 @@ CompositingRenderTargetOGL
 {
 if
 (
+mGLResourceOwnership
+=
+=
+GLResourceOwnership
+:
+:
+OWNED_BY_RENDER_TARGET
+&
+&
 mGL
 &
 &
