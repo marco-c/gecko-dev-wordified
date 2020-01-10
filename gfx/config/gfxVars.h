@@ -474,6 +474,13 @@ UseDoubleBufferingWithCompositor
 bool
 false
 )
+\
+_
+(
+UseGLSwizzle
+bool
+true
+)
 /
 *
 Add
