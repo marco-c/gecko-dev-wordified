@@ -651,6 +651,13 @@ GetParentRule
 =
 0
 ;
+protected
+:
+bool
+IsReadOnly
+(
+)
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

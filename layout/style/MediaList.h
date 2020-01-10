@@ -508,6 +508,12 @@ cleared
 )
 ;
 }
+bool
+IsReadOnly
+(
+)
+const
+;
 /
 /
 not

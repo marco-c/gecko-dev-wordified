@@ -838,6 +838,16 @@ Func
 aCallback
 )
 {
+if
+(
+IsReadOnly
+(
+)
+)
+{
+return
+;
+}
 aCallback
 (
 )
