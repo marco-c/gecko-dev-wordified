@@ -293,9 +293,6 @@ jstracer
 jsallocations
 "
 "
-preferencereads
-"
-"
 trackopts
 "
 ]
