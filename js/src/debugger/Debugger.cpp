@@ -15724,9 +15724,12 @@ if
 filename
 |
 |
-strlen
+strnlen
 (
 filename
+SourceURLMaxLength
++
+1
 )
 >
 SourceURLMaxLength
