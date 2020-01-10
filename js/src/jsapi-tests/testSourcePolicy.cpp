@@ -292,12 +292,11 @@ CHECK
 JS
 :
 :
-EvaluateUtf8
+Evaluate
 (
 cx
 opts
-s
-strLen
+srcBuf
 &
 unused
 )
