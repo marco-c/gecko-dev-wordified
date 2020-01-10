@@ -7428,10 +7428,9 @@ border
 return
 aResult
 .
-ParseIntWithBounds
+ParseNonNegativeIntValue
 (
 aString
-0
 )
 ;
 }
