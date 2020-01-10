@@ -101526,7 +101526,7 @@ temp1
 RuntimeScriptData
 :
 :
-offsetOfSSD
+offsetOfISD
 (
 )
 )
@@ -101540,7 +101540,7 @@ load16ZeroExtend
 Address
 (
 temp1
-SharedScriptData
+ImmutableScriptData
 :
 :
 offsetOfFunLength
