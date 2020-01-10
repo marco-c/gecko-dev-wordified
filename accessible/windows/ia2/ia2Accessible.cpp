@@ -3464,6 +3464,13 @@ Next
 )
 &
 &
+(
+aMaxTargets
+=
+=
+0
+|
+|
 static_cast
 <
 long
@@ -3476,8 +3483,8 @@ Length
 )
 )
 <
-=
 aMaxTargets
+)
 )
 {
 targets
