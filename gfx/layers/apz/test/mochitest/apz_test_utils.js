@@ -3947,7 +3947,7 @@ waitUntilApzStable
 .
 chromeHelper
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 cleanup
@@ -5298,7 +5298,7 @@ getSnapshot
 .
 chromeHelper
 .
-sendSyncMessage
+sendQuery
 (
 "
 snapshot
@@ -5309,10 +5309,6 @@ stringify
 (
 rect
 )
-)
-.
-toString
-(
 )
 ;
 }

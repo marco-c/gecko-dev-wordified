@@ -412,7 +412,7 @@ true
 ;
 chromeScript
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 socket
@@ -488,7 +488,7 @@ resolve
 ;
 chromeScript
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 socket

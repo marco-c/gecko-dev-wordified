@@ -264,6 +264,7 @@ classifierHelper
 .
 allowCompletion
 =
+async
 function
 (
 lists
@@ -288,9 +289,10 @@ provider
 var
 pref
 =
+await
 SpecialPowers
 .
-getCharPref
+getParentCharPref
 (
 PREFS
 .
@@ -305,6 +307,7 @@ pref
 +
 list
 ;
+await
 SpecialPowers
 .
 setCharPref
@@ -330,9 +333,10 @@ from
 completions
 pref
 =
+await
 SpecialPowers
 .
-getCharPref
+getParentCharPref
 (
 PREFS
 .
@@ -354,6 +358,7 @@ backup
 "
 )
 ;
+await
 SpecialPowers
 .
 setCharPref
@@ -371,6 +376,7 @@ Set
 get
 hash
 url
+await
 SpecialPowers
 .
 setCharPref
