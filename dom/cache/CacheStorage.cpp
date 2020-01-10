@@ -1436,7 +1436,7 @@ principalInfo
 aWorkerPrivate
 -
 >
-GetPrincipalInfo
+GetEffectiveStoragePrincipalInfo
 (
 )
 ;

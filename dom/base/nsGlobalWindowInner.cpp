@@ -28228,7 +28228,7 @@ cache
 :
 DEFAULT_NAMESPACE
 this
-GetPrincipal
+GetEffectiveStoragePrincipal
 (
 )
 forceTrustedOrigin
@@ -43227,6 +43227,15 @@ IndexedDB
 factory
 .
 mIndexedDB
+=
+nullptr
+;
+/
+/
+Reset
+DOM
+Cache
+mCacheStorage
 =
 nullptr
 ;
