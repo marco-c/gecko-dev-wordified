@@ -1975,7 +1975,8 @@ id
 PRIu64
 "
 for
-target
+%
+starget
 %
 p
 \
@@ -1988,6 +1989,16 @@ block
 GetBlockId
 (
 )
+aFlags
+.
+mTargetConfirmed
+?
+"
+confirmed
+"
+:
+"
+"
 aTarget
 .
 get
