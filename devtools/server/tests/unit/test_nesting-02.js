@@ -138,7 +138,7 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
 /
@@ -188,7 +188,7 @@ _serverConnection
 .
 getActor
 (
-threadClient
+threadFront
 .
 actorID
 )

@@ -135,7 +135,7 @@ const
 {
 tab
 toolbox
-threadClient
+threadFront
 }
 =
 dbg
@@ -199,14 +199,14 @@ shown
 await
 stepOverToLine
 (
-threadClient
+threadFront
 18
 )
 ;
 await
 reverseStepOverToLine
 (
-threadClient
+threadFront
 17
 )
 ;

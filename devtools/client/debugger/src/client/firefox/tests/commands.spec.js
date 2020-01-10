@@ -98,7 +98,7 @@ a
 /
 /
 thread
-client
+front
 .
 return
 (
@@ -259,7 +259,7 @@ getProperties
 clientCommands
 ;
 const
-threadClient
+threadFront
 =
 makeThreadCLient
 (
@@ -284,7 +284,7 @@ setupCommands
 makeDependencies
 (
 )
-threadClient
+threadFront
 }
 )
 ;
@@ -333,7 +333,7 @@ getProperties
 clientCommands
 ;
 const
-threadClient
+threadFront
 =
 makeThreadCLient
 (
@@ -376,7 +376,7 @@ setupCommands
 makeDependencies
 (
 )
-threadClient
+threadFront
 }
 )
 ;
@@ -425,7 +425,7 @@ getProperties
 clientCommands
 ;
 const
-threadClient
+threadFront
 =
 makeThreadCLient
 (
@@ -483,7 +483,7 @@ setupCommands
 makeDependencies
 (
 )
-threadClient
+threadFront
 }
 )
 ;
@@ -533,7 +533,7 @@ getProperties
 clientCommands
 ;
 const
-threadClient
+threadFront
 =
 makeThreadCLient
 (
@@ -582,7 +582,7 @@ setupCommands
 makeDependencies
 (
 )
-threadClient
+threadFront
 }
 )
 ;

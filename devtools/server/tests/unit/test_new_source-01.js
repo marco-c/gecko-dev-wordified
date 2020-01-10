@@ -53,7 +53,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 function
 run_test
@@ -111,12 +111,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_simple_new_source
 (
@@ -138,7 +138,7 @@ test_simple_new_source
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (

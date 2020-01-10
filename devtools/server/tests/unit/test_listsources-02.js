@@ -50,7 +50,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 var
 gNumTimesSourcesSent
@@ -166,12 +166,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_listing_zero_sources
 (
@@ -193,7 +193,7 @@ test_listing_zero_sources
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 getSources
 (

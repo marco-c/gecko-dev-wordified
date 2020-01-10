@@ -130,7 +130,7 @@ const
 {
 tab
 toolbox
-threadClient
+threadFront
 target
 }
 =
@@ -164,7 +164,7 @@ Number
 )
 ;
 await
-threadClient
+threadFront
 .
 interrupt
 (
@@ -217,14 +217,14 @@ line
 await
 reverseStepOverToLine
 (
-threadClient
+threadFront
 19
 )
 ;
 await
 reverseStepOverToLine
 (
-threadClient
+threadFront
 18
 )
 ;
@@ -234,7 +234,7 @@ bp
 await
 setBreakpoint
 (
-threadClient
+threadFront
 "
 doc_rr_error
 .
@@ -246,7 +246,7 @@ html
 await
 rewindToLine
 (
-threadClient
+threadFront
 12
 )
 ;
@@ -263,7 +263,7 @@ number
 await
 resumeToLine
 (
-threadClient
+threadFront
 12
 )
 ;
@@ -278,7 +278,7 @@ number
 )
 ;
 await
-threadClient
+threadFront
 .
 removeBreakpoint
 (

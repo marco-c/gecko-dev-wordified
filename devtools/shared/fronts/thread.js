@@ -187,7 +187,7 @@ true
 Creates
 a
 thread
-client
+front
 for
 the
 remote
@@ -241,7 +241,7 @@ thread
 *
 /
 class
-ThreadClient
+ThreadFront
 extends
 FrontClassWithSpec
 (
@@ -1884,12 +1884,12 @@ actor
 }
 exports
 .
-ThreadClient
+ThreadFront
 =
-ThreadClient
+ThreadFront
 ;
 registerFront
 (
-ThreadClient
+ThreadFront
 )
 ;

@@ -80,7 +80,7 @@ function
 testFinish
 (
 {
-threadClient
+threadFront
 debuggerClient
 }
 )
@@ -102,7 +102,7 @@ invokeAndPause
 (
 {
 global
-threadClient
+threadFront
 }
 expression
 )
@@ -121,7 +121,7 @@ evalInSandbox
 expression
 global
 )
-threadClient
+threadFront
 )
 ;
 }
@@ -129,14 +129,14 @@ async
 function
 step
 (
-threadClient
+threadFront
 cmd
 )
 {
 return
 cmd
 (
-threadClient
+threadFront
 )
 ;
 }
@@ -205,7 +205,7 @@ async
 function
 steps
 (
-threadClient
+threadFront
 sequence
 )
 {
@@ -229,7 +229,7 @@ packet
 await
 step
 (
-threadClient
+threadFront
 cmd
 )
 ;
@@ -270,7 +270,7 @@ func
 ;
 const
 {
-threadClient
+threadFront
 }
 =
 dbg
@@ -278,7 +278,7 @@ dbg
 await
 steps
 (
-threadClient
+threadFront
 [
 stepOver
 stepIn
@@ -301,7 +301,7 @@ packet
 await
 stepOut
 (
-threadClient
+threadFront
 )
 ;
 dump
@@ -331,7 +331,7 @@ func
 )
 ;
 await
-threadClient
+threadFront
 .
 resume
 (
@@ -360,7 +360,7 @@ func
 ;
 const
 {
-threadClient
+threadFront
 }
 =
 dbg
@@ -368,7 +368,7 @@ dbg
 await
 steps
 (
-threadClient
+threadFront
 [
 stepOver
 stepIn
@@ -381,7 +381,7 @@ packet
 await
 stepOver
 (
-threadClient
+threadFront
 )
 ;
 dump
@@ -418,7 +418,7 @@ packet
 await
 stepOver
 (
-threadClient
+threadFront
 )
 ;
 deepEqual
@@ -440,7 +440,7 @@ func
 await
 dbg
 .
-threadClient
+threadFront
 .
 resume
 (

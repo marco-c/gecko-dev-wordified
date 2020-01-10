@@ -489,7 +489,7 @@ null
 ;
 this
 .
-threadClient
+threadFront
 =
 null
 ;
@@ -2696,7 +2696,7 @@ hasThreadFront
 {
 this
 .
-threadClient
+threadFront
 =
 await
 this
@@ -2727,7 +2727,7 @@ a
 front
 this
 .
-threadClient
+threadFront
 =
 new
 ThreadClient
@@ -2751,12 +2751,12 @@ context
 "
 this
 .
-threadClient
+threadFront
 )
 ;
 this
 .
-threadClient
+threadFront
 .
 actorID
 =
@@ -2770,7 +2770,7 @@ manage
 (
 this
 .
-threadClient
+threadFront
 )
 ;
 }
@@ -2780,7 +2780,7 @@ result
 await
 this
 .
-threadClient
+threadFront
 .
 attach
 (
@@ -2789,7 +2789,7 @@ options
 ;
 this
 .
-threadClient
+threadFront
 .
 on
 (
@@ -2806,7 +2806,7 @@ return
 result
 this
 .
-threadClient
+threadFront
 ]
 ;
 }
@@ -3081,12 +3081,12 @@ if
 (
 this
 .
-threadClient
+threadFront
 )
 {
 this
 .
-threadClient
+threadFront
 .
 off
 (
@@ -3516,7 +3516,7 @@ _teardownRemoteListeners
 ;
 this
 .
-threadClient
+threadFront
 =
 null
 ;
@@ -3806,7 +3806,7 @@ null
 ;
 this
 .
-threadClient
+threadFront
 =
 null
 ;

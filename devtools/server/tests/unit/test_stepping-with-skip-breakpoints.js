@@ -76,12 +76,12 @@ statement
 /
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 }
 )
@@ -117,7 +117,7 @@ evaluateTestCode
 (
 debuggee
 )
-threadClient
+threadFront
 )
 ;
 equal
@@ -164,7 +164,7 @@ source
 await
 getSource
 (
-threadClient
+threadFront
 "
 test_stepping
 -
@@ -273,7 +273,7 @@ step1
 await
 stepOver
 (
-threadClient
+threadFront
 )
 ;
 equal
@@ -345,7 +345,7 @@ step2
 await
 stepOver
 (
-threadClient
+threadFront
 )
 ;
 equal
@@ -420,7 +420,7 @@ step3
 await
 stepOver
 (
-threadClient
+threadFront
 )
 ;
 equal

@@ -54,12 +54,12 @@ ones
 /
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 }
 )
@@ -67,7 +67,7 @@ debuggee
 >
 {
 await
-threadClient
+threadFront
 .
 pauseOnExceptions
 (
@@ -89,7 +89,7 @@ evaluateTestCode
 (
 debuggee
 )
-threadClient
+threadFront
 )
 ;
 equal
@@ -112,7 +112,7 @@ throw
 await
 resume
 (
-threadClient
+threadFront
 )
 ;
 }

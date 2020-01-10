@@ -69,12 +69,12 @@ thrown
 /
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 }
 )
@@ -92,10 +92,10 @@ evaluateTestCode
 (
 debuggee
 )
-threadClient
+threadFront
 )
 ;
-threadClient
+threadFront
 .
 pauseOnExceptions
 (
@@ -106,7 +106,7 @@ false
 await
 resume
 (
-threadClient
+threadFront
 )
 ;
 const
@@ -115,7 +115,7 @@ paused
 await
 waitForPause
 (
-threadClient
+threadFront
 )
 ;
 Assert
@@ -152,7 +152,7 @@ throw
 await
 resume
 (
-threadClient
+threadFront
 )
 ;
 }

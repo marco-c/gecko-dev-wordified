@@ -1474,7 +1474,7 @@ attach
 ;
 const
 [
-threadClient
+threadFront
 ]
 =
 await
@@ -1485,7 +1485,7 @@ attachThread
 )
 ;
 await
-threadClient
+threadFront
 .
 resume
 (
@@ -1498,7 +1498,7 @@ client
 target
 .
 client
-threadClient
+threadFront
 }
 ;
 }

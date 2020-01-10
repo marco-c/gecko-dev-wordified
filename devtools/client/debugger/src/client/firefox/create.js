@@ -98,7 +98,7 @@ PausedPacket
 FramesResponse
 FramePacket
 SourcePayload
-ThreadClient
+ThreadFront
 }
 from
 "
@@ -124,7 +124,7 @@ prepareSourcePayload
 (
 client
 :
-ThreadClient
+ThreadFront
 source
 :
 SourcePayload

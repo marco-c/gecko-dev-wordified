@@ -112,7 +112,7 @@ updateWorkerClients
 {
 tabTarget
 debuggerClient
-threadClient
+threadFront
 workerClients
 options
 }

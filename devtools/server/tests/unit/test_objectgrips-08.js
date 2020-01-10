@@ -71,12 +71,12 @@ allow_eval_with_system_principal
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 }
 )
@@ -109,7 +109,7 @@ bigint
 "
 )
 ;
-threadClient
+threadFront
 .
 once
 (
@@ -148,7 +148,7 @@ Object
 const
 objClient
 =
-threadClient
+threadFront
 .
 pauseGrip
 (
@@ -254,7 +254,7 @@ BigInt
 )
 ;
 }
-threadClient
+threadFront
 .
 resume
 (

@@ -66,7 +66,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 function
 run_test
@@ -128,12 +128,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_black_box
 (
@@ -189,7 +189,7 @@ test_black_box
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -201,7 +201,7 @@ function
 packet
 )
 {
-gThreadClient
+gThreadFront
 .
 setBreakpoint
 (
@@ -384,7 +384,7 @@ test_black_box_paused
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 getSources
 (
@@ -422,7 +422,7 @@ error
 const
 sourceFront
 =
-gThreadClient
+gThreadFront
 .
 source
 (
@@ -476,7 +476,7 @@ source
 )
 ;
 await
-gThreadClient
+gThreadFront
 .
 resume
 (

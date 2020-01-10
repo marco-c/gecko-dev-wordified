@@ -71,7 +71,7 @@ brakpoints
 /
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 props
@@ -133,7 +133,7 @@ function
 testDebuggerStatements
 (
 {
-threadClient
+threadFront
 targetFront
 }
 )
@@ -193,7 +193,7 @@ js
 await
 performActions
 (
-threadClient
+threadFront
 [
 [
 "
@@ -299,7 +299,7 @@ function
 testBreakpointsAndDebuggerStatements
 (
 {
-threadClient
+threadFront
 targetFront
 }
 )
@@ -356,7 +356,7 @@ testBreakpointsAndDebuggerStatements
 js
 )
 ;
-threadClient
+threadFront
 .
 setBreakpoint
 (
@@ -387,7 +387,7 @@ line
 await
 performActions
 (
-threadClient
+threadFront
 [
 [
 "
@@ -493,7 +493,7 @@ function
 testBreakpoints
 (
 {
-threadClient
+threadFront
 targetFront
 }
 )
@@ -558,7 +558,7 @@ testBreakpoints
 js
 )
 ;
-threadClient
+threadFront
 .
 setBreakpoint
 (
@@ -589,7 +589,7 @@ line
 await
 performActions
 (
-threadClient
+threadFront
 [
 [
 "
@@ -691,7 +691,7 @@ function
 testLoops
 (
 {
-threadClient
+threadFront
 targetFront
 }
 )
@@ -766,7 +766,7 @@ js
 await
 performActions
 (
-threadClient
+threadFront
 [
 [
 "
@@ -871,7 +871,7 @@ async
 function
 performActions
 (
-threadClient
+threadFront
 actions
 )
 {
@@ -886,7 +886,7 @@ actions
 await
 performAction
 (
-threadClient
+threadFront
 action
 )
 ;
@@ -896,7 +896,7 @@ async
 function
 performAction
 (
-threadClient
+threadFront
 [
 description
 result
@@ -915,7 +915,7 @@ packet
 await
 waitForEvent
 (
-threadClient
+threadFront
 "
 paused
 "
@@ -952,7 +952,7 @@ type
 )
 ;
 await
-threadClient
+threadFront
 [
 action
 ]

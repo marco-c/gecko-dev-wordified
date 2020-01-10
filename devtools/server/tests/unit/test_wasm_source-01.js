@@ -99,7 +99,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 Services
 .
@@ -234,14 +234,14 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
-gThreadClient
+gThreadFront
 .
 reconfigure
 (
@@ -351,7 +351,7 @@ test_source
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -363,7 +363,7 @@ function
 packet
 )
 {
-gThreadClient
+gThreadFront
 .
 getSources
 (
@@ -439,7 +439,7 @@ source
 const
 sourceFront
 =
-gThreadClient
+gThreadFront
 .
 source
 (
@@ -543,7 +543,7 @@ sourceContent
 binary
 )
 ;
-gThreadClient
+gThreadFront
 .
 resume
 (

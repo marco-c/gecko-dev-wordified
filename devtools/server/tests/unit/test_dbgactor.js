@@ -57,12 +57,12 @@ nsIJSInspector
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 targetFront
 }
@@ -88,7 +88,7 @@ resolve
 =
 >
 {
-threadClient
+threadFront
 .
 on
 (
@@ -205,7 +205,7 @@ debuggee
 continue
 execution
 .
-threadClient
+threadFront
 .
 resume
 (

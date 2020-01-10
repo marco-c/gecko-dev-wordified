@@ -672,7 +672,7 @@ Sources
 Packet
 from
 calling
-threadClient
+threadFront
 .
 getSources
 (
@@ -1561,7 +1561,7 @@ string
 }
 _activeThread
 :
-ThreadClient
+ThreadFront
 actor
 :
 string
@@ -1670,7 +1670,7 @@ any
 *
 *
 *
-ThreadClient
+ThreadFront
 *
 memberof
 firefox
@@ -1680,7 +1680,7 @@ static
 /
 export
 type
-ThreadClient
+ThreadFront
 =
 {
 resume

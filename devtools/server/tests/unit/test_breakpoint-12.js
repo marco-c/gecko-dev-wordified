@@ -83,11 +83,11 @@ gCount
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 (
 {
-threadClient
+threadFront
 debuggee
 }
 )
@@ -102,7 +102,7 @@ resolve
 =
 >
 {
-threadClient
+threadFront
 .
 once
 (
@@ -121,7 +121,7 @@ source
 await
 getSourceById
 (
-threadClient
+threadFront
 packet
 .
 frame
@@ -520,7 +520,7 @@ effectively
 /
 remained
 .
-threadClient
+threadFront
 .
 once
 (
@@ -539,18 +539,6 @@ the
 return
 value
 .
-Assert
-.
-equal
-(
-packet
-.
-type
-"
-paused
-"
-)
-;
 Assert
 .
 equal
@@ -644,7 +632,7 @@ b
 undefined
 )
 ;
-threadClient
+threadFront
 .
 once
 (
@@ -683,7 +671,7 @@ false
 }
 )
 ;
-threadClient
+threadFront
 .
 resume
 (
@@ -727,7 +715,7 @@ breakpoint
 is
 hit
 .
-threadClient
+threadFront
 .
 resume
 (

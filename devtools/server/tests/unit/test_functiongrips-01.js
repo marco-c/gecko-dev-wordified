@@ -39,7 +39,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 function
 run_test
@@ -153,12 +153,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_named_function
 (
@@ -180,7 +180,7 @@ test_named_function
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -249,7 +249,7 @@ stopMe
 const
 objClient
 =
-gThreadClient
+gThreadFront
 .
 pauseGrip
 (
@@ -295,7 +295,7 @@ arg1
 "
 )
 ;
-gThreadClient
+gThreadFront
 .
 resume
 (
@@ -330,7 +330,7 @@ test_inferred_name_function
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -413,7 +413,7 @@ m
 const
 objClient
 =
-gThreadClient
+gThreadFront
 .
 pauseGrip
 (
@@ -489,7 +489,7 @@ baz
 "
 )
 ;
-gThreadClient
+gThreadFront
 .
 resume
 (
@@ -542,7 +542,7 @@ test_anonymous_function
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -621,7 +621,7 @@ undefined
 const
 objClient
 =
-gThreadClient
+gThreadFront
 .
 pauseGrip
 (
@@ -697,7 +697,7 @@ baz
 "
 )
 ;
-gThreadClient
+gThreadFront
 .
 resume
 (

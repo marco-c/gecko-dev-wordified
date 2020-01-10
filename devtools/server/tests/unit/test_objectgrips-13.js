@@ -59,7 +59,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 function
 run_test
@@ -136,12 +136,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 add_pause_listener
 (
@@ -163,7 +163,7 @@ add_pause_listener
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -190,7 +190,7 @@ arguments
 const
 func
 =
-gThreadClient
+gThreadFront
 .
 pauseGrip
 (
@@ -200,7 +200,7 @@ funcGrip
 const
 obj
 =
-gThreadClient
+gThreadFront
 .
 pauseGrip
 (
@@ -386,7 +386,7 @@ catch
 e
 )
 {
-gThreadClient
+gThreadFront
 .
 resume
 (

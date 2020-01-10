@@ -82,11 +82,11 @@ bug
 /
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 (
 {
-threadClient
+threadFront
 debuggee
 }
 )
@@ -101,7 +101,7 @@ resolve
 =
 >
 {
-threadClient
+threadFront
 .
 once
 (
@@ -120,7 +120,7 @@ source
 await
 getSourceById
 (
-threadClient
+threadFront
 packet
 .
 frame
@@ -151,7 +151,7 @@ column
 8
 }
 ;
-threadClient
+threadFront
 .
 setBreakpoint
 (
@@ -160,7 +160,7 @@ location
 }
 )
 ;
-threadClient
+threadFront
 .
 once
 (
@@ -217,7 +217,7 @@ Remove
 the
 breakpoint
 .
-threadClient
+threadFront
 .
 removeBreakpoint
 (
@@ -245,7 +245,7 @@ column
 32
 }
 ;
-threadClient
+threadFront
 .
 setBreakpoint
 (
@@ -254,7 +254,7 @@ location2
 }
 )
 ;
-threadClient
+threadFront
 .
 once
 (
@@ -323,14 +323,14 @@ Remove
 the
 breakpoint
 .
-threadClient
+threadFront
 .
 removeBreakpoint
 (
 location2
 )
 ;
-threadClient
+threadFront
 .
 resume
 (
@@ -354,7 +354,7 @@ is
 hit
 again
 .
-threadClient
+threadFront
 .
 resume
 (
@@ -372,7 +372,7 @@ breakpoint
 is
 hit
 .
-threadClient
+threadFront
 .
 resume
 (

@@ -121,12 +121,12 @@ allow_eval_with_system_principal
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 client
 }
@@ -1243,7 +1243,7 @@ test_object_grip
 (
 debuggee
 client
-threadClient
+threadFront
 test
 )
 ;
@@ -1265,12 +1265,12 @@ workers
 .
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 client
 }
@@ -1459,7 +1459,7 @@ test_object_grip
 (
 debuggee
 client
-threadClient
+threadFront
 test
 )
 ;
@@ -1479,7 +1479,7 @@ test_object_grip
 (
 debuggee
 dbgClient
-threadClient
+threadFront
 testData
 =
 {
@@ -1506,7 +1506,7 @@ reject
 =
 >
 {
-threadClient
+threadFront
 .
 once
 (
@@ -1533,7 +1533,7 @@ arguments
 const
 objClient
 =
-threadClient
+threadFront
 .
 pauseGrip
 (
@@ -1619,7 +1619,7 @@ expectedNonIndexedProperties
 )
 ;
 await
-threadClient
+threadFront
 .
 resume
 (

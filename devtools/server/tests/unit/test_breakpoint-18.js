@@ -63,11 +63,11 @@ Bug
 /
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 (
 {
-threadClient
+threadFront
 debuggee
 client
 }
@@ -121,7 +121,7 @@ t
 resolve
 when
 paused
-threadClient
+threadFront
 .
 once
 (
@@ -137,11 +137,11 @@ await
 setBreakpoint
 (
 packet1
-threadClient
+threadFront
 client
 )
 ;
-threadClient
+threadFront
 .
 once
 (
@@ -168,7 +168,7 @@ breakpoint
 "
 )
 ;
-threadClient
+threadFront
 .
 once
 (
@@ -191,7 +191,7 @@ resolve
 }
 )
 ;
-threadClient
+threadFront
 .
 resume
 (
@@ -268,7 +268,7 @@ function
 setBreakpoint
 (
 packet
-threadClient
+threadFront
 client
 )
 {
@@ -287,7 +287,7 @@ source
 await
 getSourceById
 (
-threadClient
+threadFront
 packet
 .
 frame
@@ -297,7 +297,7 @@ where
 actor
 )
 ;
-threadClient
+threadFront
 .
 once
 (
@@ -307,7 +307,7 @@ resumed
 resolve
 )
 ;
-threadClient
+threadFront
 .
 setBreakpoint
 (
@@ -333,7 +333,7 @@ waitForRequestsToSettle
 )
 ;
 await
-threadClient
+threadFront
 .
 resume
 (

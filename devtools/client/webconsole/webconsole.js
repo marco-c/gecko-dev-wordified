@@ -1503,7 +1503,7 @@ frames
 :
 the
 active
-ThreadClient
+ThreadFront
 .
 cachedFrames
 array

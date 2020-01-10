@@ -179,7 +179,7 @@ is
 (
 toolbox
 .
-threadClient
+threadFront
 .
 state
 "

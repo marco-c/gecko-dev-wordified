@@ -67,11 +67,11 @@ lines
 /
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 (
 {
-threadClient
+threadFront
 debuggee
 client
 }
@@ -91,7 +91,7 @@ resolve
 /
 Debugger
 statement
-threadClient
+threadFront
 .
 once
 (
@@ -110,7 +110,7 @@ source
 await
 getSourceById
 (
-threadClient
+threadFront
 packet
 .
 frame
@@ -146,7 +146,7 @@ timesBreakpointHit
 =
 0
 ;
-threadClient
+threadFront
 .
 setBreakpoint
 (
@@ -155,7 +155,7 @@ location
 }
 )
 ;
-threadClient
+threadFront
 .
 on
 (
@@ -271,7 +271,7 @@ timesBreakpointHit
 3
 )
 {
-threadClient
+threadFront
 .
 off
 (
@@ -281,14 +281,14 @@ paused
 onPaused
 )
 ;
-threadClient
+threadFront
 .
 removeBreakpoint
 (
 location
 )
 ;
-threadClient
+threadFront
 .
 resume
 (
@@ -302,7 +302,7 @@ resolve
 }
 else
 {
-threadClient
+threadFront
 .
 resume
 (
@@ -321,7 +321,7 @@ breakpoint
 is
 hit
 .
-threadClient
+threadFront
 .
 resume
 (

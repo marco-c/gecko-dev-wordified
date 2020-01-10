@@ -119,7 +119,7 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
 add_task
@@ -130,7 +130,7 @@ bind
 (
 null
 client
-threadClient
+threadFront
 debuggee
 )
 )
@@ -155,7 +155,7 @@ function
 testSymbols
 (
 client
-threadClient
+threadFront
 debuggee
 )
 {
@@ -254,7 +254,7 @@ await
 executeOnNextTickAndWaitForPause
 (
 evalCode
-threadClient
+threadFront
 )
 ;
 const

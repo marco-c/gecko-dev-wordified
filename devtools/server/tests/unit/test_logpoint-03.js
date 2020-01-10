@@ -73,7 +73,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 function
 run_test
@@ -131,12 +131,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_simple_breakpoint
 (
@@ -207,7 +207,7 @@ message
 }
 }
 ;
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -226,7 +226,7 @@ source
 await
 getSourceById
 (
-gThreadClient
+gThreadFront
 packet
 .
 frame
@@ -249,7 +249,7 @@ error
 message
 .
 await
-gThreadClient
+gThreadFront
 .
 setBreakpoint
 (
@@ -282,7 +282,7 @@ the
 code
 .
 await
-gThreadClient
+gThreadFront
 .
 resume
 (

@@ -161,7 +161,7 @@ expression
 ;
 }
 function
-mockThreadClient
+mockThreadFront
 (
 overrides
 )
@@ -465,7 +465,7 @@ store
 =
 createStore
 (
-mockThreadClient
+mockThreadFront
 (
 )
 )
@@ -704,7 +704,7 @@ store
 =
 createStore
 (
-mockThreadClient
+mockThreadFront
 (
 {
 loadObjectProperties
@@ -1011,7 +1011,7 @@ store
 =
 createStore
 (
-mockThreadClient
+mockThreadFront
 (
 {
 loadObjectProperties

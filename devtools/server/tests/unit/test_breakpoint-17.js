@@ -155,11 +155,11 @@ column
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 (
 {
-threadClient
+threadFront
 debuggee
 }
 )
@@ -174,7 +174,7 @@ resolve
 =
 >
 {
-threadClient
+threadFront
 .
 on
 (
@@ -196,7 +196,7 @@ await
 set_breakpoints
 (
 packet
-threadClient
+threadFront
 )
 ;
 test_different_actors
@@ -210,7 +210,7 @@ test_remove_one
 (
 first
 second
-threadClient
+threadFront
 debuggee
 )
 ;
@@ -256,7 +256,7 @@ function
 set_breakpoints
 (
 packet
-threadClient
+threadFront
 )
 {
 return
@@ -278,7 +278,7 @@ source
 await
 getSourceById
 (
-threadClient
+threadFront
 packet
 .
 frame
@@ -416,7 +416,7 @@ test_remove_one
 (
 first
 second
-threadClient
+threadFront
 debuggee
 )
 {
@@ -460,7 +460,7 @@ breakpoint
 let
 hitSecond
 ;
-threadClient
+threadFront
 .
 on
 (
@@ -585,7 +585,7 @@ column
 "
 )
 ;
-threadClient
+threadFront
 .
 resume
 (
@@ -606,7 +606,7 @@ debuggerStatement
 "
 )
 {
-threadClient
+threadFront
 .
 off
 (
@@ -657,7 +657,7 @@ here
 }
 )
 ;
-threadClient
+threadFront
 .
 resume
 (

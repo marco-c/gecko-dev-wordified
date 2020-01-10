@@ -1481,7 +1481,7 @@ function
 test_unsafe_grips
 (
 {
-threadClient
+threadFront
 debuggee
 client
 }
@@ -1526,7 +1526,7 @@ function
 resolve
 )
 {
-threadClient
+threadFront
 .
 once
 (
@@ -1652,7 +1652,7 @@ isUnsafe
 let
 objClient
 =
-threadClient
+threadFront
 .
 pauseGrip
 (
@@ -2047,7 +2047,7 @@ Function
 ;
 objClient
 =
-threadClient
+threadFront
 .
 pauseGrip
 (
@@ -2125,7 +2125,7 @@ actor
 }
 }
 await
-threadClient
+threadFront
 .
 resume
 (
@@ -2825,7 +2825,7 @@ correctly
 }
 /
 /
-threadClientTest
+threadFrontTest
 uses
 systemPrincipal
 by
@@ -2840,7 +2840,7 @@ here
 .
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 options
 =
@@ -2890,7 +2890,7 @@ nsIPrincipal
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 options
 =

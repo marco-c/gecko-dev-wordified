@@ -86,12 +86,12 @@ allow_eval_with_system_principal
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 client
 }
@@ -108,7 +108,7 @@ function
 resolve
 )
 {
-threadClient
+threadFront
 .
 once
 (
@@ -135,7 +135,7 @@ arguments
 const
 objClient
 =
-threadClient
+threadFront
 .
 pauseGrip
 (
@@ -211,7 +211,7 @@ proxy
 )
 ;
 await
-threadClient
+threadFront
 .
 resume
 (

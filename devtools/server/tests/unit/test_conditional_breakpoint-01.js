@@ -69,7 +69,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 function
 run_test
@@ -131,12 +131,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_simple_breakpoint
 (
@@ -163,7 +163,7 @@ hitBreakpoint
 =
 false
 ;
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -182,7 +182,7 @@ source
 await
 getSourceById
 (
-gThreadClient
+gThreadFront
 packet
 .
 frame
@@ -206,7 +206,7 @@ line
 3
 }
 ;
-gThreadClient
+gThreadFront
 .
 setBreakpoint
 (
@@ -224,7 +224,7 @@ a
 }
 )
 ;
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -289,14 +289,14 @@ Remove
 the
 breakpoint
 .
-gThreadClient
+gThreadFront
 .
 removeBreakpoint
 (
 location
 )
 ;
-gThreadClient
+gThreadFront
 .
 resume
 (
@@ -328,7 +328,7 @@ breakpoint
 is
 hit
 .
-gThreadClient
+gThreadFront
 .
 resume
 (

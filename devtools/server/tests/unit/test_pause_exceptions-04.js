@@ -74,12 +74,12 @@ thrown
 /
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 client
 debuggee
 }
@@ -97,7 +97,7 @@ packet
 =
 null
 ;
-threadClient
+threadFront
 .
 once
 (
@@ -115,7 +115,7 @@ pkt
 ;
 onResume
 =
-threadClient
+threadFront
 .
 resume
 (
@@ -125,7 +125,7 @@ resume
 )
 ;
 await
-threadClient
+threadFront
 .
 pauseOnExceptions
 (
@@ -252,7 +252,7 @@ packet
 =
 null
 ;
-threadClient
+threadFront
 .
 once
 (
@@ -270,7 +270,7 @@ pkt
 ;
 onResume
 =
-threadClient
+threadFront
 .
 resume
 (
@@ -280,7 +280,7 @@ resume
 )
 ;
 await
-threadClient
+threadFront
 .
 pauseOnExceptions
 (
@@ -396,7 +396,7 @@ false
 )
 ;
 await
-threadClient
+threadFront
 .
 pauseOnExceptions
 (

@@ -205,7 +205,7 @@ connection
 .
 tabConnection
 .
-threadClient
+threadFront
 .
 pauseGrip
 (

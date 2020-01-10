@@ -3435,11 +3435,11 @@ toolbox
 >
 {
 const
-threadClient
+threadFront
 =
 toolbox
 .
-threadClient
+threadFront
 ;
 /
 /
@@ -3465,7 +3465,7 @@ happens
 .
 switch
 (
-threadClient
+threadFront
 .
 state
 )
@@ -3484,7 +3484,7 @@ is
 already
 paused
 .
-threadClient
+threadFront
 .
 resumeThenPause
 (
@@ -3510,7 +3510,7 @@ is
 already
 open
 .
-threadClient
+threadFront
 .
 interrupt
 (
@@ -3523,7 +3523,7 @@ then
 =
 >
 {
-threadClient
+threadFront
 .
 resumeThenPause
 (
@@ -3551,7 +3551,7 @@ is
 newly
 opened
 .
-threadClient
+threadFront
 .
 once
 (
@@ -3563,7 +3563,7 @@ resumed
 =
 >
 {
-threadClient
+threadFront
 .
 interrupt
 (
@@ -3576,7 +3576,7 @@ then
 =
 >
 {
-threadClient
+threadFront
 .
 resumeThenPause
 (
@@ -3602,7 +3602,7 @@ Error
 "
 invalid
 thread
-client
+front
 state
 in
 slow
@@ -3612,7 +3612,7 @@ handler
 :
 "
 +
-threadClient
+threadFront
 .
 state
 )

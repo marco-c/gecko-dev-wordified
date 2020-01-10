@@ -1583,7 +1583,7 @@ null
 function
 waitForNewSource
 (
-threadClient
+threadFront
 url
 )
 {
@@ -1612,7 +1612,7 @@ n
 return
 waitForEvent
 (
-threadClient
+threadFront
 "
 newSource
 "
@@ -1670,7 +1670,7 @@ options
 function
 resume
 (
-threadClient
+threadFront
 )
 {
 dump
@@ -1685,7 +1685,7 @@ n
 )
 ;
 return
-threadClient
+threadFront
 .
 resume
 (
@@ -1695,7 +1695,7 @@ resume
 function
 getSources
 (
-threadClient
+threadFront
 )
 {
 dump
@@ -1710,7 +1710,7 @@ n
 )
 ;
 return
-threadClient
+threadFront
 .
 getSources
 (
@@ -1775,7 +1775,7 @@ null
 function
 waitForPause
 (
-threadClient
+threadFront
 )
 {
 dump
@@ -1793,7 +1793,7 @@ n
 return
 waitForEvent
 (
-threadClient
+threadFront
 "
 paused
 "
@@ -1843,7 +1843,7 @@ newValue
 function
 setBreakpoint
 (
-threadClient
+threadFront
 location
 )
 {
@@ -1859,7 +1859,7 @@ n
 )
 ;
 return
-threadClient
+threadFront
 .
 setBreakpoint
 (
@@ -2736,7 +2736,7 @@ the
 tab
 and
 a
-ThreadClient
+ThreadFront
 referring
 to
 the
@@ -2771,7 +2771,7 @@ title
 )
 ;
 const
-threadClient
+threadFront
 =
 await
 targetFront
@@ -2786,7 +2786,7 @@ context
 const
 onPaused
 =
-threadClient
+threadFront
 .
 once
 (
@@ -2817,7 +2817,7 @@ Assert
 .
 equal
 (
-threadClient
+threadFront
 .
 state
 "
@@ -2860,13 +2860,13 @@ callback
 (
 response
 targetFront
-threadClient
+threadFront
 )
 ;
 return
 {
 targetFront
-threadClient
+threadFront
 }
 ;
 }
@@ -2924,7 +2924,7 @@ the
 tab
 and
 a
-ThreadClient
+ThreadFront
 for
 the
 /
@@ -2950,7 +2950,7 @@ callback
 const
 {
 targetFront
-threadClient
+threadFront
 }
 =
 await
@@ -2964,7 +2964,7 @@ const
 response
 =
 await
-threadClient
+threadFront
 .
 resume
 (
@@ -2974,13 +2974,13 @@ callback
 (
 response
 targetFront
-threadClient
+threadFront
 )
 ;
 return
 {
 targetFront
-threadClient
+threadFront
 }
 ;
 }
@@ -4303,8 +4303,8 @@ event
 *
 *
 param
-ThreadClient
-threadClient
+ThreadFront
+threadFront
 *
 param
 String
@@ -4321,7 +4321,7 @@ Promise
 function
 waitForEvent
 (
-threadClient
+threadFront
 type
 predicate
 )
@@ -4333,7 +4333,7 @@ predicate
 )
 {
 return
-threadClient
+threadFront
 .
 once
 (
@@ -4368,7 +4368,7 @@ packet
 return
 ;
 }
-threadClient
+threadFront
 .
 off
 (
@@ -4382,7 +4382,7 @@ packet
 )
 ;
 }
-threadClient
+threadFront
 .
 on
 (
@@ -4533,8 +4533,8 @@ Function
 action
 *
 param
-ThreadClient
-threadClient
+ThreadFront
+threadFront
 *
 returns
 Promise
@@ -4544,7 +4544,7 @@ function
 executeOnNextTickAndWaitForPause
 (
 action
-threadClient
+threadFront
 )
 {
 const
@@ -4552,7 +4552,7 @@ paused
 =
 waitForPause
 (
-threadClient
+threadFront
 )
 ;
 executeSoon
@@ -4616,8 +4616,8 @@ thread
 *
 *
 param
-ThreadClient
-threadClient
+ThreadFront
+threadFront
 *
 returns
 Promise
@@ -4626,7 +4626,7 @@ Promise
 function
 interrupt
 (
-threadClient
+threadFront
 )
 {
 dumpn
@@ -4638,7 +4638,7 @@ Interrupting
 )
 ;
 return
-threadClient
+threadFront
 .
 interrupt
 (
@@ -4673,8 +4673,8 @@ DebuggerClient
 client
 *
 param
-ThreadClient
-threadClient
+ThreadFront
+threadFront
 *
 returns
 Promise
@@ -4683,7 +4683,7 @@ Promise
 function
 resumeAndWaitForPause
 (
-threadClient
+threadFront
 )
 {
 const
@@ -4691,13 +4691,13 @@ paused
 =
 waitForPause
 (
-threadClient
+threadFront
 )
 ;
 return
 resume
 (
-threadClient
+threadFront
 )
 .
 then
@@ -4737,8 +4737,8 @@ taken
 *
 *
 param
-ThreadClient
-threadClient
+ThreadFront
+threadFront
 *
 returns
 Promise
@@ -4747,7 +4747,7 @@ Promise
 function
 stepIn
 (
-threadClient
+threadFront
 )
 {
 dumpn
@@ -4764,11 +4764,11 @@ paused
 =
 waitForPause
 (
-threadClient
+threadFront
 )
 ;
 return
-threadClient
+threadFront
 .
 stepIn
 (
@@ -4811,8 +4811,8 @@ taken
 *
 *
 param
-ThreadClient
-threadClient
+ThreadFront
+threadFront
 *
 returns
 Promise
@@ -4821,7 +4821,7 @@ Promise
 function
 stepOver
 (
-threadClient
+threadFront
 )
 {
 dumpn
@@ -4834,7 +4834,7 @@ over
 )
 ;
 return
-threadClient
+threadFront
 .
 stepOver
 (
@@ -4848,7 +4848,7 @@ then
 >
 waitForPause
 (
-threadClient
+threadFront
 )
 )
 ;
@@ -4884,8 +4884,8 @@ DebuggerClient
 client
 *
 param
-ThreadClient
-threadClient
+ThreadFront
+threadFront
 *
 returns
 Promise
@@ -4894,7 +4894,7 @@ Promise
 function
 stepOut
 (
-threadClient
+threadFront
 )
 {
 dumpn
@@ -4907,7 +4907,7 @@ out
 )
 ;
 return
-threadClient
+threadFront
 .
 stepOut
 (
@@ -4921,7 +4921,7 @@ then
 >
 waitForPause
 (
-threadClient
+threadFront
 )
 )
 ;
@@ -4953,8 +4953,8 @@ thread
 *
 *
 param
-ThreadClient
-threadClient
+ThreadFront
+threadFront
 *
 param
 Number
@@ -4971,7 +4971,7 @@ Promise
 function
 getFrames
 (
-threadClient
+threadFront
 first
 count
 )
@@ -4986,7 +4986,7 @@ frames
 )
 ;
 return
-threadClient
+threadFront
 .
 getFrames
 (
@@ -5212,8 +5212,8 @@ url
 *
 *
 param
-ThreadClient
-threadClient
+ThreadFront
+threadFront
 *
 param
 string
@@ -5230,7 +5230,7 @@ async
 function
 getSource
 (
-threadClient
+threadFront
 url
 )
 {
@@ -5240,7 +5240,7 @@ source
 await
 getSourceForm
 (
-threadClient
+threadFront
 url
 )
 ;
@@ -5250,7 +5250,7 @@ source
 )
 {
 return
-threadClient
+threadFront
 .
 source
 (
@@ -5274,7 +5274,7 @@ async
 function
 getSourceById
 (
-threadClient
+threadFront
 id
 )
 {
@@ -5284,12 +5284,12 @@ form
 await
 getSourceFormById
 (
-threadClient
+threadFront
 id
 )
 ;
 return
-threadClient
+threadFront
 .
 source
 (
@@ -5301,7 +5301,7 @@ async
 function
 getSourceForm
 (
-threadClient
+threadFront
 url
 )
 {
@@ -5311,7 +5311,7 @@ sources
 }
 =
 await
-threadClient
+threadFront
 .
 getSources
 (
@@ -5339,7 +5339,7 @@ async
 function
 getSourceFormById
 (
-threadClient
+threadFront
 id
 )
 {
@@ -5349,7 +5349,7 @@ sources
 }
 =
 await
-threadClient
+threadFront
 .
 getSources
 (
@@ -5727,7 +5727,7 @@ attach
 ;
 const
 [
-threadClient
+threadFront
 ]
 =
 await
@@ -5739,7 +5739,7 @@ targetFront
 await
 resume
 (
-threadClient
+threadFront
 )
 ;
 const
@@ -5755,7 +5755,7 @@ promise
 =
 waitForNewSource
 (
-threadClient
+threadFront
 sourceUrl
 )
 ;
@@ -5776,7 +5776,7 @@ promise
 const
 sourceFront
 =
-threadClient
+threadFront
 .
 source
 (
@@ -5787,7 +5787,7 @@ return
 {
 global
 debuggerClient
-threadClient
+threadFront
 sourceFront
 }
 ;
@@ -5875,14 +5875,14 @@ default
 .
 *
 -
-ThreadClient
-threadClient
+ThreadFront
+threadFront
 *
 A
 reference
 to
 a
-ThreadClient
+ThreadFront
 instance
 that
 is
@@ -5952,7 +5952,7 @@ context
 *
 /
 function
-threadClientTest
+threadFrontTest
 (
 test
 options
@@ -5982,7 +5982,7 @@ systemPrincipal
 }
 async
 function
-runThreadClientTestWithServer
+runThreadFrontTestWithServer
 (
 server
 test
@@ -6113,7 +6113,7 @@ target
 and
 retrieve
 the
-ThreadClient
+ThreadFront
 instance
 .
 /
@@ -6133,7 +6133,7 @@ attach
 const
 {
 targetFront
-threadClient
+threadFront
 }
 =
 await
@@ -6153,7 +6153,7 @@ await
 test
 (
 {
-threadClient
+threadFront
 debuggee
 client
 server
@@ -6213,7 +6213,7 @@ dump
 >
 Run
 thread
-client
+front
 test
 against
 a
@@ -6225,7 +6225,7 @@ n
 )
 ;
 await
-runThreadClientTestWithServer
+runThreadFrontTestWithServer
 (
 DebuggerServer
 test
@@ -6255,7 +6255,7 @@ dump
 >
 Run
 thread
-client
+front
 test
 against
 a
@@ -6267,7 +6267,7 @@ n
 )
 ;
 await
-runThreadClientTestWithServer
+runThreadFrontTestWithServer
 (
 WorkerDebuggerServer
 test

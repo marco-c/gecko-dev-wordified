@@ -39,7 +39,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 Services
 .
@@ -134,12 +134,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_banana_environment
 (
@@ -161,7 +161,7 @@ test_banana_environment
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -319,7 +319,7 @@ banana
 "
 )
 ;
-gThreadClient
+gThreadFront
 .
 resume
 (

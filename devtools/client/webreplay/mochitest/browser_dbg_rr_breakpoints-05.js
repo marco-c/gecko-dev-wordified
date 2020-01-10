@@ -135,7 +135,7 @@ true
 ;
 const
 {
-threadClient
+threadFront
 tab
 toolbox
 target
@@ -144,7 +144,7 @@ target
 dbg
 ;
 await
-threadClient
+threadFront
 .
 interrupt
 (
@@ -163,7 +163,7 @@ recording
 await
 rewindToLine
 (
-threadClient
+threadFront
 undefined
 )
 ;
@@ -173,7 +173,7 @@ bp
 await
 setBreakpoint
 (
-threadClient
+threadFront
 "
 doc_rr_basic
 .
@@ -185,7 +185,7 @@ html
 await
 resumeToLine
 (
-threadClient
+threadFront
 21
 )
 ;
@@ -202,7 +202,7 @@ number
 await
 resumeToLine
 (
-threadClient
+threadFront
 21
 )
 ;
@@ -217,7 +217,7 @@ number
 )
 ;
 await
-threadClient
+threadFront
 .
 removeBreakpoint
 (

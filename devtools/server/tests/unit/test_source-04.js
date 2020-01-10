@@ -88,12 +88,12 @@ js
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 server
 }
 )
@@ -105,7 +105,7 @@ promise
 =
 waitForNewSource
 (
-threadClient
+threadFront
 SOURCE_URL
 )
 ;
@@ -250,7 +250,7 @@ backed
 await
 setBreakpoint
 (
-threadClient
+threadFront
 {
 sourceUrl
 :
@@ -269,7 +269,7 @@ sources
 await
 getSources
 (
-threadClient
+threadFront
 )
 ;
 Assert
@@ -312,7 +312,7 @@ onResumed
 =
 null
 ;
-threadClient
+threadFront
 .
 once
 (
@@ -332,7 +332,7 @@ onResumed
 =
 resume
 (
-threadClient
+threadFront
 )
 ;
 }
@@ -519,7 +519,7 @@ pausedTwo
 =
 false
 ;
-threadClient
+threadFront
 .
 once
 (
@@ -539,7 +539,7 @@ onResumed
 =
 resume
 (
-threadClient
+threadFront
 )
 ;
 }

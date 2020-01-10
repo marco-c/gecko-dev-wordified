@@ -93,7 +93,7 @@ js
 ;
 import
 {
-simpleMockThreadClient
+simpleMockThreadFront
 }
 from
 "
@@ -101,7 +101,7 @@ from
 /
 helpers
 /
-threadClient
+threadFront
 .
 js
 "
@@ -297,7 +297,7 @@ return
 .
 .
 .
-simpleMockThreadClient
+simpleMockThreadFront
 getBreakpointPositions
 :
 async

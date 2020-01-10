@@ -257,7 +257,7 @@ getMainProcess
 ;
 const
 [
-threadClient
+threadFront
 ]
 =
 await
@@ -277,7 +277,7 @@ resolve
 =
 >
 {
-threadClient
+threadFront
 .
 once
 (
@@ -329,7 +329,7 @@ debugger
 "
 statement
 .
-threadClient
+threadFront
 .
 once
 (
@@ -365,7 +365,7 @@ script
 "
 )
 ;
-threadClient
+threadFront
 .
 resume
 (
@@ -379,7 +379,7 @@ resolve
 }
 )
 ;
-threadClient
+threadFront
 .
 resume
 (
@@ -420,7 +420,7 @@ file
 under
 test
 .
-threadClient
+threadFront
 .
 resume
 (

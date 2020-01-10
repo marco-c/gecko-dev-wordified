@@ -252,7 +252,7 @@ connection
 .
 tabConnection
 .
-threadClient
+threadFront
 .
 actor
 .

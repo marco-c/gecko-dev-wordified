@@ -123,7 +123,7 @@ getFramework
 selectors
 ;
 const
-threadClient
+threadFront
 =
 {
 sourceContents
@@ -439,7 +439,7 @@ store
 =
 createStore
 (
-threadClient
+threadFront
 )
 ;
 const
@@ -596,7 +596,7 @@ dispatch
 =
 createStore
 (
-threadClient
+threadFront
 )
 ;
 const
@@ -681,7 +681,7 @@ getState
 =
 createStore
 (
-threadClient
+threadFront
 )
 ;
 const
@@ -739,7 +739,7 @@ store
 =
 createStore
 (
-threadClient
+threadFront
 {
 }
 sourceMaps
@@ -882,7 +882,7 @@ store
 =
 createStore
 (
-threadClient
+threadFront
 )
 ;
 const

@@ -61,11 +61,11 @@ works
 /
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 (
 {
-threadClient
+threadFront
 client
 debuggee
 }
@@ -81,7 +81,7 @@ resolve
 =
 >
 {
-threadClient
+threadFront
 .
 once
 (
@@ -100,7 +100,7 @@ source
 await
 getSourceById
 (
-threadClient
+threadFront
 packet
 .
 frame
@@ -129,7 +129,7 @@ line0
 }
 ;
 await
-threadClient
+threadFront
 .
 resume
 (
@@ -146,7 +146,7 @@ interrupt
 the
 debuggee
 .
-threadClient
+threadFront
 .
 once
 (
@@ -164,18 +164,6 @@ equal
 (
 packet
 .
-type
-"
-paused
-"
-)
-;
-Assert
-.
-equal
-(
-packet
-.
 why
 .
 type
@@ -187,7 +175,7 @@ interrupted
 }
 )
 ;
-threadClient
+threadFront
 .
 setBreakpoint
 (

@@ -54,7 +54,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 function
 run_test
@@ -116,12 +116,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 testObjectGroup
 (
@@ -214,7 +214,7 @@ await
 executeOnNextTickAndWaitForPause
 (
 evalCode
-gThreadClient
+gThreadFront
 )
 ;
 const
@@ -238,7 +238,7 @@ const
 ughClient
 =
 await
-gThreadClient
+gThreadFront
 .
 pauseGrip
 (
@@ -260,7 +260,7 @@ packet
 await
 resumeAndWaitForPause
 (
-gThreadClient
+gThreadFront
 )
 ;
 const
@@ -283,7 +283,7 @@ ugh
 const
 ugh2Client
 =
-gThreadClient
+gThreadFront
 .
 pauseGrip
 (
@@ -317,7 +317,7 @@ value
 await
 resume
 (
-gThreadClient
+gThreadFront
 )
 ;
 finishClient

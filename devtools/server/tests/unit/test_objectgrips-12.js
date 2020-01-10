@@ -76,7 +76,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 Services
 .
@@ -190,12 +190,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_display_string
 (
@@ -762,7 +762,7 @@ Error
 /
 )
 ;
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -792,7 +792,7 @@ loop
 const
 objClient
 =
-gThreadClient
+gThreadFront
 .
 pauseGrip
 (
@@ -842,7 +842,7 @@ loop
 }
 else
 {
-gThreadClient
+gThreadFront
 .
 resume
 (

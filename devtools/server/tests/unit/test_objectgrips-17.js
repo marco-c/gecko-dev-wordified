@@ -343,7 +343,7 @@ function
 test
 (
 {
-threadClient
+threadFront
 debuggee
 }
 testOptions
@@ -365,7 +365,7 @@ function
 resolve
 )
 {
-threadClient
+threadFront
 .
 once
 (
@@ -430,7 +430,7 @@ object
 const
 proxyClient
 =
-threadClient
+threadFront
 .
 pauseGrip
 (
@@ -517,7 +517,7 @@ proxy
 const
 inheritsProxyClient
 =
-threadClient
+threadFront
 .
 pauseGrip
 (
@@ -590,7 +590,7 @@ debuggee
 const
 inheritsProxy2Client
 =
-threadClient
+threadFront
 .
 pauseGrip
 (
@@ -668,7 +668,7 @@ current
 test
 .
 await
-threadClient
+threadFront
 .
 resume
 (
@@ -2008,7 +2008,7 @@ debuggeeHasXrays
 }
 /
 /
-threadClientTest
+threadFrontTest
 uses
 systemPrincipal
 by
@@ -2023,7 +2023,7 @@ here
 .
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 options
 =
@@ -2051,7 +2051,7 @@ true
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 options
 =
@@ -2102,7 +2102,7 @@ nsIPrincipal
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 options
 =
@@ -2130,7 +2130,7 @@ true
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 options
 =

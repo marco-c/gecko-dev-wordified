@@ -88,7 +88,7 @@ works
 /
 var
 gClient
-gThreadClient
+gThreadFront
 ;
 var
 gNewChromeSource
@@ -257,7 +257,7 @@ source
 url
 )
 ;
-gThreadClient
+gThreadFront
 .
 off
 (
@@ -282,7 +282,7 @@ resumeAndCloseConnection
 )
 {
 await
-gThreadClient
+gThreadFront
 .
 resume
 (
@@ -306,7 +306,7 @@ gClient
 =
 null
 ;
-gThreadClient
+gThreadFront
 =
 null
 ;
@@ -390,7 +390,7 @@ attach
 ;
 const
 [
-threadClient
+threadFront
 ]
 =
 await
@@ -400,9 +400,9 @@ attachThread
 (
 )
 ;
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 gBrowser
 .
@@ -429,7 +429,7 @@ new
 source
 and
 global
-gThreadClient
+gThreadFront
 .
 on
 (

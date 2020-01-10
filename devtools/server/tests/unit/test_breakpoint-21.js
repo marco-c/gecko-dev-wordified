@@ -71,12 +71,12 @@ scripts
 /
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 }
 )
@@ -105,7 +105,7 @@ onNewScript
 await
 getSources
 (
-threadClient
+threadFront
 )
 ;
 let
@@ -125,7 +125,7 @@ debuggee
 )
 ;
 }
-threadClient
+threadFront
 )
 ;
 const
@@ -134,7 +134,7 @@ source
 await
 getSourceById
 (
-threadClient
+threadFront
 packet
 .
 frame
@@ -164,14 +164,14 @@ line0
 ;
 setBreakpoint
 (
-threadClient
+threadFront
 location
 )
 ;
 await
 resume
 (
-threadClient
+threadFront
 )
 ;
 packet
@@ -179,7 +179,7 @@ packet
 await
 waitForPause
 (
-threadClient
+threadFront
 )
 ;
 Assert
@@ -231,7 +231,7 @@ line
 await
 resume
 (
-threadClient
+threadFront
 )
 ;
 }

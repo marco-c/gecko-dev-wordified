@@ -123,7 +123,7 @@ selectors
 ;
 import
 {
-sourceThreadClient
+sourceThreadFront
 }
 from
 "
@@ -137,7 +137,7 @@ tests
 /
 helpers
 /
-threadClient
+threadFront
 .
 js
 "
@@ -223,7 +223,7 @@ store
 =
 createStore
 (
-sourceThreadClient
+sourceThreadFront
 )
 ;
 const
@@ -455,7 +455,7 @@ cx
 =
 createStore
 (
-sourceThreadClient
+sourceThreadFront
 )
 ;
 const
@@ -706,7 +706,7 @@ cx
 =
 createStore
 (
-sourceThreadClient
+sourceThreadFront
 )
 ;
 await
@@ -823,7 +823,7 @@ cx
 =
 createStore
 (
-sourceThreadClient
+sourceThreadFront
 )
 ;
 await
@@ -1027,7 +1027,7 @@ cx
 =
 createStore
 (
-sourceThreadClient
+sourceThreadFront
 )
 ;
 await
@@ -1267,7 +1267,7 @@ getState
 =
 createStore
 (
-sourceThreadClient
+sourceThreadFront
 )
 ;
 await
@@ -1358,7 +1358,7 @@ cx
 =
 createStore
 (
-sourceThreadClient
+sourceThreadFront
 )
 ;
 const
@@ -1493,7 +1493,7 @@ cx
 =
 createStore
 (
-sourceThreadClient
+sourceThreadFront
 )
 ;
 const
@@ -1629,7 +1629,7 @@ store
 =
 createStore
 (
-sourceThreadClient
+sourceThreadFront
 )
 ;
 const
@@ -1753,7 +1753,7 @@ cx
 =
 createStore
 (
-sourceThreadClient
+sourceThreadFront
 {
 }
 {
@@ -1973,7 +1973,7 @@ cx
 =
 createStore
 (
-sourceThreadClient
+sourceThreadFront
 {
 }
 {
@@ -2164,7 +2164,7 @@ cx
 =
 createStore
 (
-sourceThreadClient
+sourceThreadFront
 )
 ;
 const

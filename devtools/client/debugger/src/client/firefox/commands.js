@@ -156,7 +156,7 @@ type
 TabTarget
 DebuggerClient
 Grip
-ThreadClient
+ThreadFront
 ObjectClient
 SourcesPacket
 }
@@ -192,9 +192,9 @@ workerClients
 Object
 ;
 let
-threadClient
+threadFront
 :
-ThreadClient
+ThreadFront
 ;
 let
 tabTarget
@@ -248,9 +248,9 @@ type
 Dependencies
 =
 {
-threadClient
+threadFront
 :
-ThreadClient
+ThreadFront
 tabTarget
 :
 TabTarget
@@ -270,11 +270,11 @@ dependencies
 Dependencies
 )
 {
-threadClient
+threadFront
 =
 dependencies
 .
-threadClient
+threadFront
 ;
 tabTarget
 =
@@ -441,7 +441,7 @@ packet
 ;
 }
 function
-lookupThreadClient
+lookupThreadFront
 (
 thread
 :
@@ -453,13 +453,13 @@ if
 thread
 =
 =
-threadClient
+threadFront
 .
 actor
 )
 {
 return
-threadClient
+threadFront
 ;
 }
 if
@@ -507,7 +507,7 @@ if
 thread
 =
 =
-threadClient
+threadFront
 .
 actor
 )
@@ -528,7 +528,7 @@ console
 ;
 }
 function
-listWorkerThreadClients
+listWorkerThreadFronts
 (
 )
 {
@@ -566,7 +566,7 @@ iteratee
 const
 promises
 =
-listWorkerThreadClients
+listWorkerThreadFronts
 (
 )
 .
@@ -658,7 +658,7 @@ Promise
 >
 {
 return
-lookupThreadClient
+lookupThreadFront
 (
 thread
 )
@@ -682,7 +682,7 @@ Promise
 >
 {
 return
-lookupThreadClient
+lookupThreadFront
 (
 thread
 )
@@ -706,7 +706,7 @@ Promise
 >
 {
 return
-lookupThreadClient
+lookupThreadFront
 (
 thread
 )
@@ -730,7 +730,7 @@ Promise
 >
 {
 return
-lookupThreadClient
+lookupThreadFront
 (
 thread
 )
@@ -754,7 +754,7 @@ Promise
 >
 {
 return
-lookupThreadClient
+lookupThreadFront
 (
 thread
 )
@@ -778,7 +778,7 @@ Promise
 >
 {
 return
-lookupThreadClient
+lookupThreadFront
 (
 thread
 )
@@ -802,7 +802,7 @@ Promise
 >
 {
 return
-lookupThreadClient
+lookupThreadFront
 (
 thread
 )
@@ -840,9 +840,9 @@ string
 >
 {
 const
-sourceThreadClient
+sourceThreadFront
 =
-lookupThreadClient
+lookupThreadFront
 (
 thread
 )
@@ -850,7 +850,7 @@ thread
 const
 sourceFront
 =
-sourceThreadClient
+sourceThreadFront
 .
 source
 (
@@ -891,7 +891,7 @@ string
 )
 {
 return
-threadClient
+threadFront
 .
 setXHRBreakpoint
 (
@@ -912,7 +912,7 @@ string
 )
 {
 return
-threadClient
+threadFront
 .
 removeXHRBreakpoint
 (
@@ -1031,7 +1031,7 @@ for
 const
 thread
 of
-listWorkerThreadClients
+listWorkerThreadFronts
 (
 )
 )
@@ -1293,7 +1293,7 @@ server
 const
 mainThreadPromise
 =
-threadClient
+threadFront
 .
 setBreakpoint
 (
@@ -1369,7 +1369,7 @@ setBreakpoint
 const
 mainThreadPromise
 =
-threadClient
+threadFront
 .
 removeBreakpoint
 (
@@ -1704,7 +1704,7 @@ Promise
 const
 objClient
 =
-lookupThreadClient
+lookupThreadFront
 (
 thread
 )
@@ -1804,9 +1804,9 @@ scope
 ;
 }
 const
-sourceThreadClient
+sourceThreadFront
 =
-lookupThreadClient
+lookupThreadFront
 (
 frame
 .
@@ -1814,7 +1814,7 @@ thread
 )
 ;
 return
-sourceThreadClient
+sourceThreadFront
 .
 getEnvironment
 (
@@ -1842,7 +1842,7 @@ Promise
 >
 {
 await
-threadClient
+threadFront
 .
 pauseOnExceptions
 (
@@ -1905,7 +1905,7 @@ Promise
 const
 sourceFront
 =
-threadClient
+threadFront
 .
 source
 (
@@ -1954,7 +1954,7 @@ boolean
 )
 {
 await
-threadClient
+threadFront
 .
 skipBreakpoints
 (
@@ -1990,7 +1990,7 @@ Promise
 >
 {
 return
-lookupThreadClient
+lookupThreadFront
 (
 thread
 )
@@ -2016,7 +2016,7 @@ eventBreakpoints
 ids
 ;
 await
-threadClient
+threadFront
 .
 setActiveEventBreakpoints
 (
@@ -2066,7 +2066,7 @@ try
 categories
 =
 await
-threadClient
+threadFront
 .
 getAvailableEventBreakpoints
 (
@@ -2202,7 +2202,7 @@ Function
 ObjectClient
 {
 return
-lookupThreadClient
+lookupThreadFront
 (
 thread
 )
@@ -2238,7 +2238,7 @@ getSources
 (
 client
 :
-ThreadClient
+ThreadFront
 )
 :
 Promise
@@ -2296,7 +2296,7 @@ GeneratedSourceData
 return
 getSources
 (
-threadClient
+threadFront
 )
 ;
 }
@@ -2378,7 +2378,7 @@ updateWorkerClients
 {
 tabTarget
 debuggerClient
-threadClient
+threadFront
 workerClients
 options
 }
@@ -2575,7 +2575,7 @@ getMainThread
 )
 {
 return
-threadClient
+threadFront
 .
 actor
 ;
@@ -2627,9 +2627,9 @@ actors
 )
 {
 const
-sourceThreadClient
+sourceThreadFront
 =
-lookupThreadClient
+lookupThreadFront
 (
 thread
 )
@@ -2637,7 +2637,7 @@ thread
 const
 sourceFront
 =
-sourceThreadClient
+sourceThreadFront
 .
 source
 (
@@ -2757,9 +2757,9 @@ actors
 )
 {
 const
-sourceThreadClient
+sourceThreadFront
 =
-lookupThreadClient
+lookupThreadFront
 (
 thread
 )
@@ -2767,7 +2767,7 @@ thread
 const
 sourceFront
 =
-sourceThreadClient
+sourceThreadFront
 .
 source
 (

@@ -126,7 +126,7 @@ true
 ;
 const
 {
-threadClient
+threadFront
 tab
 toolbox
 target
@@ -140,7 +140,7 @@ bp
 await
 setBreakpoint
 (
-threadClient
+threadFront
 "
 doc_rr_basic
 .
@@ -173,7 +173,7 @@ boundaries
 await
 rewindToLine
 (
-threadClient
+threadFront
 21
 )
 ;
@@ -190,7 +190,7 @@ number
 await
 rewindToLine
 (
-threadClient
+threadFront
 21
 )
 ;
@@ -207,7 +207,7 @@ number
 await
 rewindToLine
 (
-threadClient
+threadFront
 21
 )
 ;
@@ -224,7 +224,7 @@ number
 await
 rewindToLine
 (
-threadClient
+threadFront
 21
 )
 ;
@@ -241,7 +241,7 @@ number
 await
 rewindToLine
 (
-threadClient
+threadFront
 21
 )
 ;
@@ -258,7 +258,7 @@ number
 await
 resumeToLine
 (
-threadClient
+threadFront
 21
 )
 ;
@@ -275,7 +275,7 @@ number
 await
 resumeToLine
 (
-threadClient
+threadFront
 21
 )
 ;
@@ -292,7 +292,7 @@ number
 await
 resumeToLine
 (
-threadClient
+threadFront
 21
 )
 ;
@@ -309,7 +309,7 @@ number
 await
 resumeToLine
 (
-threadClient
+threadFront
 21
 )
 ;
@@ -324,7 +324,7 @@ number
 )
 ;
 await
-threadClient
+threadFront
 .
 removeBreakpoint
 (

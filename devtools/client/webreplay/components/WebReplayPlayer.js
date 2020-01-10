@@ -678,7 +678,7 @@ updateOverlayWidth
 ;
 this
 .
-threadClient
+threadFront
 .
 on
 (
@@ -697,7 +697,7 @@ this
 ;
 this
 .
-threadClient
+threadFront
 .
 on
 (
@@ -716,7 +716,7 @@ this
 ;
 this
 .
-threadClient
+threadFront
 .
 on
 (
@@ -868,7 +868,7 @@ webconsole
 ;
 }
 get
-threadClient
+threadFront
 (
 )
 {
@@ -877,7 +877,7 @@ this
 .
 toolbox
 .
-threadClient
+threadFront
 ;
 }
 isRecording
@@ -1597,7 +1597,7 @@ true
 return
 this
 .
-threadClient
+threadFront
 .
 timeWarp
 (
@@ -1708,7 +1708,7 @@ isRecording
 await
 this
 .
-threadClient
+threadFront
 .
 interrupt
 (
@@ -1807,7 +1807,7 @@ null
 return
 this
 .
-threadClient
+threadFront
 .
 resume
 (
@@ -1831,7 +1831,7 @@ isRecording
 await
 this
 .
-threadClient
+threadFront
 .
 interrupt
 (
@@ -1855,7 +1855,7 @@ null
 return
 this
 .
-threadClient
+threadFront
 .
 rewind
 (
@@ -1882,7 +1882,7 @@ null
 return
 this
 .
-threadClient
+threadFront
 .
 interrupt
 (

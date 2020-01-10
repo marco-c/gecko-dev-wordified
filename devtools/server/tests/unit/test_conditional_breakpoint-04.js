@@ -80,7 +80,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 function
 run_test
@@ -142,12 +142,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_simple_breakpoint
 (
@@ -171,7 +171,7 @@ test_simple_breakpoint
 )
 {
 await
-gThreadClient
+gThreadFront
 .
 setBreakpoint
 (
@@ -202,7 +202,7 @@ Error
 }
 )
 ;
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -243,7 +243,7 @@ debuggerStatement
 "
 )
 ;
-gThreadClient
+gThreadFront
 .
 resume
 (
@@ -255,7 +255,7 @@ pausedPacket
 await
 waitForEvent
 (
-gThreadClient
+gThreadFront
 "
 paused
 "
@@ -296,7 +296,7 @@ the
 breakpoint
 .
 await
-gThreadClient
+gThreadFront
 .
 removeBreakpoint
 (
@@ -317,7 +317,7 @@ line
 )
 ;
 await
-gThreadClient
+gThreadFront
 .
 resume
 (

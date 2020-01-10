@@ -112,12 +112,12 @@ allow_eval_with_system_principal
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 client
 }
@@ -171,7 +171,7 @@ test_object_grip_is_array_like
 (
 debuggee
 client
-threadClient
+threadFront
 object
 )
 ;
@@ -522,7 +522,7 @@ test_object_grip_is_array_like
 (
 debuggee
 dbgClient
-threadClient
+threadFront
 object
 )
 {
@@ -537,7 +537,7 @@ reject
 =
 >
 {
-threadClient
+threadFront
 .
 once
 (
@@ -562,7 +562,7 @@ frame
 arguments
 ;
 await
-threadClient
+threadFront
 .
 resume
 (

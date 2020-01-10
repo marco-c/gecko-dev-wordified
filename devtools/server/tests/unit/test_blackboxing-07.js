@@ -64,7 +64,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 function
 run_test
@@ -126,12 +126,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 testBlackBox
 (
@@ -198,7 +198,7 @@ await
 executeOnNextTickAndWaitForPause
 (
 evalCode
-gThreadClient
+gThreadFront
 )
 ;
 const
@@ -209,7 +209,7 @@ sources
 await
 getSources
 (
-gThreadClient
+gThreadFront
 )
 ;
 equal
@@ -281,7 +281,7 @@ false
 )
 ;
 await
-gThreadClient
+gThreadFront
 .
 resume
 (

@@ -156,7 +156,7 @@ tabConnection
 :
 {
 tabTarget
-threadClient
+threadFront
 debuggerClient
 }
 }
@@ -174,7 +174,7 @@ tabTarget
 |
 |
 !
-threadClient
+threadFront
 |
 |
 !
@@ -205,7 +205,7 @@ wasmBinarySource
 setupCommands
 (
 {
-threadClient
+threadFront
 tabTarget
 debuggerClient
 supportsWasm
@@ -215,7 +215,7 @@ supportsWasm
 setupEvents
 (
 {
-threadClient
+threadFront
 tabTarget
 actions
 supportsWasm
@@ -249,7 +249,7 @@ navigated
 )
 ;
 await
-threadClient
+threadFront
 .
 reconfigure
 (
@@ -425,7 +425,7 @@ connect
 tabTarget
 .
 url
-threadClient
+threadFront
 .
 actor
 traits
@@ -465,7 +465,7 @@ sources
 /
 If
 the
-threadClient
+threadFront
 is
 already
 paused
@@ -482,7 +482,7 @@ state
 const
 pausedPacket
 =
-threadClient
+threadFront
 .
 getLastPausePacket
 (
@@ -497,7 +497,7 @@ clientEvents
 .
 paused
 (
-threadClient
+threadFront
 pausedPacket
 )
 ;

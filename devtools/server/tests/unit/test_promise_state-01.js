@@ -131,7 +131,7 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
 (
@@ -154,7 +154,7 @@ evalCode
 (
 debuggee
 )
-threadClient
+threadFront
 )
 ;
 const

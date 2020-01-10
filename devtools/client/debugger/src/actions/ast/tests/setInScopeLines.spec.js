@@ -172,7 +172,7 @@ js
 }
 ;
 const
-threadClient
+threadFront
 =
 {
 sourceContents
@@ -270,7 +270,7 @@ store
 =
 createStore
 (
-threadClient
+threadFront
 )
 ;
 const

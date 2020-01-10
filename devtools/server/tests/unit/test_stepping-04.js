@@ -69,12 +69,12 @@ function
 /
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 }
 )
@@ -107,7 +107,7 @@ evaluateTestCode
 (
 debuggee
 )
-threadClient
+threadFront
 )
 ;
 dumpn
@@ -128,7 +128,7 @@ step1
 await
 stepOver
 (
-threadClient
+threadFront
 )
 ;
 equal
@@ -188,7 +188,7 @@ step2
 await
 stepOver
 (
-threadClient
+threadFront
 )
 ;
 equal

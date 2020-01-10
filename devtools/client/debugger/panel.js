@@ -196,13 +196,13 @@ Debugger
 bootstrap
 (
 {
-threadClient
+threadFront
 :
 this
 .
 toolbox
 .
-threadClient
+threadFront
 tabTarget
 :
 this

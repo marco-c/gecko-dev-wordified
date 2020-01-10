@@ -66,12 +66,12 @@ bug
 /
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 }
 )
@@ -107,7 +107,7 @@ evaluateTestCode
 (
 debuggee
 )
-threadClient
+threadFront
 )
 ;
 equal
@@ -153,7 +153,7 @@ step2
 await
 stepOut
 (
-threadClient
+threadFront
 )
 ;
 equal
@@ -206,7 +206,7 @@ step3
 await
 stepOut
 (
-threadClient
+threadFront
 )
 ;
 equal
