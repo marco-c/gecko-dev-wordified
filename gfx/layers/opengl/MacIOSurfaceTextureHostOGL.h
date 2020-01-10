@@ -491,6 +491,16 @@ aImageKeys
 )
 override
 ;
+gfx
+:
+:
+YUVColorSpace
+GetYUVColorSpace
+(
+)
+const
+override
+;
 protected
 :
 GLTextureSource

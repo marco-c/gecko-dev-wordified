@@ -356,6 +356,12 @@ mSurface
 HasAlpha
 (
 )
+mSurface
+-
+>
+GetYUVColorSpace
+(
+)
 )
 ;
 return

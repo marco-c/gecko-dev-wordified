@@ -928,8 +928,14 @@ represents
 the
 unknown
 format
+and
+is
+a
+valid
+value
 .
 UNKNOWN
+_NUM_COLORSPACE
 }
 ;
 enum

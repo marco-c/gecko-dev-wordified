@@ -1033,6 +1033,12 @@ GetContentsScaleFactor
 (
 )
 isOpaque
+mIOSurf
+-
+>
+GetYUVColorSpace
+(
+)
 )
 ;
 return
