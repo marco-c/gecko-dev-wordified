@@ -922,6 +922,9 @@ profiles
 .
 ini
 "
+ignoreIfUnused
+:
+true
 condition
 :
 MAC
