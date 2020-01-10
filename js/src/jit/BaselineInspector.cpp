@@ -779,21 +779,31 @@ return
 true
 ;
 }
-ICScript
+JitScript
 *
 BaselineInspector
 :
 :
-icScript
+jitScript
 (
 )
 const
 {
+MOZ_ASSERT
+(
+script
+-
+>
+hasJitScript
+(
+)
+)
+;
 return
 script
 -
 >
-icScript
+jitScript
 (
 )
 ;
@@ -843,7 +853,7 @@ pc
 {
 MOZ_ASSERT
 (
-hasICScript
+hasJitScript
 (
 )
 )
@@ -860,7 +870,7 @@ ICEntry
 *
 ent
 =
-icScript
+jitScript
 (
 )
 -
@@ -968,7 +978,7 @@ empty
 if
 (
 !
-hasICScript
+hasJitScript
 (
 )
 )
@@ -1206,7 +1216,7 @@ pc
 if
 (
 !
-hasICScript
+hasJitScript
 (
 )
 )
@@ -1336,7 +1346,7 @@ psecond
 if
 (
 !
-hasICScript
+hasJitScript
 (
 )
 )
@@ -3388,7 +3398,7 @@ pc
 if
 (
 !
-hasICScript
+hasJitScript
 (
 )
 )
@@ -3573,7 +3583,7 @@ pc
 if
 (
 !
-hasICScript
+hasJitScript
 (
 )
 )
@@ -3640,7 +3650,7 @@ pc
 if
 (
 !
-hasICScript
+hasJitScript
 (
 )
 )
@@ -3711,7 +3721,7 @@ pc
 if
 (
 !
-hasICScript
+hasJitScript
 (
 )
 )
@@ -3782,7 +3792,7 @@ pc
 if
 (
 !
-hasICScript
+hasJitScript
 (
 )
 )
@@ -4251,7 +4261,7 @@ pc
 if
 (
 !
-hasICScript
+hasJitScript
 (
 )
 )
@@ -4498,7 +4508,7 @@ pc
 if
 (
 !
-hasICScript
+hasJitScript
 (
 )
 )
@@ -4604,7 +4614,7 @@ JSOP_NEW
 if
 (
 !
-hasICScript
+hasJitScript
 (
 )
 )
@@ -4826,7 +4836,7 @@ native
 if
 (
 !
-hasICScript
+hasJitScript
 (
 )
 )
@@ -5029,7 +5039,7 @@ clasp
 if
 (
 !
-hasICScript
+hasJitScript
 (
 )
 )
@@ -7308,7 +7318,7 @@ receivers
 if
 (
 !
-hasICScript
+hasJitScript
 (
 )
 )
@@ -7825,7 +7835,7 @@ getterOrSetter
 if
 (
 !
-hasICScript
+hasJitScript
 (
 )
 )
@@ -8844,7 +8854,7 @@ receivers
 if
 (
 !
-hasICScript
+hasJitScript
 (
 )
 )
@@ -9412,7 +9422,7 @@ holder
 if
 (
 !
-hasICScript
+hasJitScript
 (
 )
 )
@@ -9767,7 +9777,7 @@ pc
 if
 (
 !
-hasICScript
+hasJitScript
 (
 )
 )
@@ -10030,7 +10040,7 @@ JSOP_INSTANCEOF
 if
 (
 !
-hasICScript
+hasJitScript
 (
 )
 )

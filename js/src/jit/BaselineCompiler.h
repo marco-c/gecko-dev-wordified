@@ -2940,7 +2940,7 @@ the
 script
 '
 s
-ICScript
+JitScript
 .
 uint32_t
 icEntryIndex_

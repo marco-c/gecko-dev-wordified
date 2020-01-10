@@ -20420,7 +20420,7 @@ if
 script
 -
 >
-hasICScript
+hasJitScript
 (
 )
 )
@@ -20428,7 +20428,7 @@ hasICScript
 script
 -
 >
-icScript
+jitScript
 (
 )
 -

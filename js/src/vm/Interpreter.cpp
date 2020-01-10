@@ -10620,7 +10620,7 @@ script
 script
 -
 >
-hasICScript
+hasJitScript
 (
 )
 &
@@ -10634,7 +10634,7 @@ pc
 script
 -
 >
-icScript
+jitScript
 (
 )
 -

@@ -298,9 +298,6 @@ HeapTypeSetKey
 namespace
 jit
 {
-class
-ICScript
-;
 struct
 IonScript
 ;

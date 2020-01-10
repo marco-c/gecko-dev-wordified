@@ -8688,14 +8688,14 @@ baselineScript
 (
 )
 ;
-ICScript
+JitScript
 *
-icScript
+jitScript
 =
 script
 -
 >
-icScript
+jitScript
 (
 )
 ;
@@ -9297,7 +9297,7 @@ ICEntry
 &
 icEntry
 =
-icScript
+jitScript
 -
 >
 icEntryFromPCOffset
@@ -9387,7 +9387,7 @@ ICEntry
 &
 icEntry
 =
-icScript
+jitScript
 -
 >
 icEntryFromPCOffset
@@ -10767,7 +10767,7 @@ ICEntry
 &
 icEntry
 =
-icScript
+jitScript
 -
 >
 icEntryFromPCOffset

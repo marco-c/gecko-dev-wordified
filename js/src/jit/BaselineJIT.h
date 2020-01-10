@@ -3666,9 +3666,6 @@ mallocSizeOf
 size_t
 *
 data
-size_t
-*
-fallbackStubs
 )
 ;
 void
