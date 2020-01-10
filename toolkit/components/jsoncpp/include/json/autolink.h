@@ -6,6 +6,10 @@ Copyright
 2010
 Baptiste
 Lepilleur
+and
+The
+JsonCpp
+Authors
 /
 /
 Distributed

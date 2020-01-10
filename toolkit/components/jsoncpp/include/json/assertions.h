@@ -6,6 +6,10 @@ Copyright
 2010
 Baptiste
 Lepilleur
+and
+The
+JsonCpp
+Authors
 /
 /
 Distributed
@@ -55,9 +59,7 @@ CPPTL_JSON_ASSERTIONS_H_INCLUDED
 #
 include
 <
-stdlib
-.
-h
+cstdlib
 >
 #
 include
@@ -153,6 +155,7 @@ condition
 )
 \
 {
+\
 if
 (
 !
@@ -161,6 +164,7 @@ condition
 )
 )
 {
+\
 Json
 :
 :
@@ -173,7 +177,9 @@ failed
 "
 )
 ;
+\
 }
+\
 }
 #
 define
@@ -184,9 +190,10 @@ message
 \
 {
 \
-JSONCPP_OSTRINGSTREAM
+OStringStream
 oss
 ;
+\
 oss
 <
 <
@@ -268,9 +275,10 @@ message
 \
 {
 \
-JSONCPP_OSTRINGSTREAM
+OStringStream
 oss
 ;
+\
 oss
 <
 <

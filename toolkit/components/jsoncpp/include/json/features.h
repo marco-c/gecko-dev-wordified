@@ -6,6 +6,10 @@ Copyright
 2010
 Baptiste
 Lepilleur
+and
+The
+JsonCpp
+Authors
 /
 /
 Distributed
@@ -282,6 +286,9 @@ true
 .
 bool
 allowComments_
+{
+true
+}
 ;
 /
 /
@@ -312,6 +319,9 @@ false
 .
 bool
 strictRoot_
+{
+false
+}
 ;
 /
 /
@@ -334,6 +344,9 @@ false
 .
 bool
 allowDroppedNullPlaceholders_
+{
+false
+}
 ;
 /
 /
@@ -356,6 +369,9 @@ false
 .
 bool
 allowNumericKeys_
+{
+false
+}
 ;
 }
 ;

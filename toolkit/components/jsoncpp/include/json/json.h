@@ -6,6 +6,10 @@ Copyright
 2010
 Baptiste
 Lepilleur
+and
+The
+JsonCpp
+Authors
 /
 /
 Distributed
@@ -62,7 +66,7 @@ h
 #
 include
 "
-value
+features
 .
 h
 "
@@ -76,14 +80,14 @@ h
 #
 include
 "
-writer
+value
 .
 h
 "
 #
 include
 "
-features
+writer
 .
 h
 "
