@@ -349,7 +349,7 @@ close
 }
 )
 ;
-browser
+window
 .
 addEventListener
 (
