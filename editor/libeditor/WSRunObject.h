@@ -2891,6 +2891,7 @@ nsINode
 GetWSBoundingParent
 (
 )
+const
 ;
 nsresult
 GetWSNodes
@@ -2925,6 +2926,7 @@ nsINode
 *
 aBlockParent
 )
+const
 ;
 nsIContent
 *
@@ -2938,6 +2940,7 @@ nsINode
 *
 aBlockParent
 )
+const
 ;
 nsIContent
 *
@@ -2950,6 +2953,7 @@ nsINode
 *
 aBlockParent
 )
+const
 ;
 nsIContent
 *
@@ -2963,6 +2967,7 @@ nsINode
 *
 aBlockParent
 )
+const
 ;
 MOZ_CAN_RUN_SCRIPT
 nsresult
@@ -3558,6 +3563,7 @@ int32_t
 *
 outEndOffset
 )
+const
 ;
 /
 *
@@ -3884,6 +3890,7 @@ Scrub
 (
 )
 ;
+static
 bool
 IsBlockNode
 (

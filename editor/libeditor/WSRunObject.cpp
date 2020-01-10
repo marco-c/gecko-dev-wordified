@@ -445,6 +445,7 @@ int32_t
 *
 outEndOffset
 )
+const
 ;
 template
 void
@@ -480,6 +481,7 @@ int32_t
 *
 outEndOffset
 )
+const
 ;
 template
 <
@@ -4596,6 +4598,7 @@ WSRunObject
 GetWSBoundingParent
 (
 )
+const
 {
 if
 (
@@ -7369,6 +7372,7 @@ nsINode
 *
 aBlockParent
 )
+const
 {
 /
 /
@@ -7668,6 +7672,7 @@ nsINode
 *
 aBlockParent
 )
+const
 {
 /
 /
@@ -7967,6 +7972,7 @@ nsINode
 *
 aBlockParent
 )
+const
 {
 /
 /
@@ -8265,6 +8271,7 @@ nsINode
 *
 aBlockParent
 )
+const
 {
 /
 /
@@ -11005,6 +11012,7 @@ int32_t
 *
 outEndOffset
 )
+const
 {
 MOZ_ASSERT
 (
