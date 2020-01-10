@@ -2003,6 +2003,9 @@ filename
 CacheableChars
 sourceMapURL
 ;
+bool
+omitsBoundsChecks
+;
 /
 /
 namePayload
