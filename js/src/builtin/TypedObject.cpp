@@ -20021,10 +20021,7 @@ hasTraceList
 )
 )
 {
-fop
--
->
-free_
+js_free
 (
 const_cast
 <

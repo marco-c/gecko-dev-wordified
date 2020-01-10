@@ -6086,10 +6086,7 @@ comp
 compilationArray
 )
 {
-fop
--
->
-free_
+js_free
 (
 comp
 .
@@ -6097,11 +6094,10 @@ byteCode
 )
 ;
 }
-this
--
->
+tables
+.
 ~
-RegExpShared
+JitCodeTables
 (
 )
 ;
