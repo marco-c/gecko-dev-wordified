@@ -4932,18 +4932,6 @@ s
 /
 /
 directionless
-which
-is
-the
-same
-condition
-under
-which
-we
-can
-'
-t
-cut
 .
 bool
 isEnabled
@@ -4973,7 +4961,7 @@ return
 aTextEditor
 -
 >
-CanDelete
+CanDeleteSelection
 (
 )
 ;
