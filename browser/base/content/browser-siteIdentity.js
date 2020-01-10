@@ -8647,6 +8647,16 @@ state
 SitePermissions
 .
 BLOCK
+|
+|
+aPermission
+.
+state
+=
+=
+SitePermissions
+.
+AUTOPLAY_BLOCKED_ALL
 )
 {
 img
