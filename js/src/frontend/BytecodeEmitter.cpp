@@ -1111,11 +1111,6 @@ asFunctionBox
 )
 -
 >
-function
-(
-)
--
->
 nargs
 (
 )
