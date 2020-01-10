@@ -5935,10 +5935,6 @@ ProfilingFrameIterator
 ProfilingFrameIterator
 (
 const
-JitActivation
-&
-activation
-const
 Frame
 *
 fp

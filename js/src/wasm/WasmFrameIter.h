@@ -1232,15 +1232,9 @@ of
 JSJit
 frames
 .
+explicit
 ProfilingFrameIterator
 (
-const
-jit
-:
-:
-JitActivation
-&
-activation
 const
 Frame
 *
