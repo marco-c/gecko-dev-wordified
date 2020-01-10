@@ -4468,9 +4468,6 @@ layers
 LayersId
 mLayersId
 ;
-int64_t
-mBeforeUnloadListeners
-;
 CSSRect
 mUnscaledOuterRect
 ;
