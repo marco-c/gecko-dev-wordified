@@ -940,7 +940,7 @@ const
 uint64_t
 &
 objId
-InfallibleTArray
+nsTArray
 <
 JSParam
 >

@@ -930,7 +930,7 @@ JSContext
 *
 cx
 const
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
@@ -955,7 +955,7 @@ JS
 :
 HandleObject
 aObj
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
