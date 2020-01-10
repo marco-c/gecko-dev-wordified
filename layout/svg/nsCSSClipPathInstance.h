@@ -252,6 +252,7 @@ nsIFrame
 aFrame
 const
 StyleShapeSource
+&
 aClipPathStyle
 )
 :
