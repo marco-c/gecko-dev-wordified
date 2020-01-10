@@ -456,7 +456,7 @@ findInStatus
 (
 status
 [
-0
+1
 ]
 "
 Mock
@@ -474,7 +474,7 @@ equal
 (
 status
 [
-1
+2
 ]
 .
 name
@@ -490,7 +490,7 @@ equal
 (
 status
 [
-1
+2
 ]
 .
 state
@@ -546,7 +546,7 @@ equal
 (
 status
 [
-0
+1
 ]
 .
 name
@@ -567,7 +567,7 @@ equal
 (
 status
 [
-0
+1
 ]
 .
 state
@@ -580,7 +580,7 @@ equal
 (
 status
 [
-1
+2
 ]
 .
 name
@@ -596,7 +596,7 @@ equal
 (
 status
 [
-1
+2
 ]
 .
 state

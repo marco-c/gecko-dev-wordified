@@ -18501,7 +18501,7 @@ changed
 .
 AddonManager
 .
-shutdown
+beforeShutdown
 .
 addBlocker
 (
