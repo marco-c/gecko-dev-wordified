@@ -100,6 +100,15 @@ true
 }
 )
 ;
+EventUtils
+.
+synthesizeKey
+(
+"
+ArrowRight
+"
+)
+;
 await
 focused
 ;
