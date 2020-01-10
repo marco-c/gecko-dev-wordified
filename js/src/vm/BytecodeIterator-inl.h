@@ -135,6 +135,7 @@ h
 namespace
 js
 {
+inline
 BytecodeIterator
 :
 :
