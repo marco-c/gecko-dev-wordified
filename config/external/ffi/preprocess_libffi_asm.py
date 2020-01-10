@@ -146,6 +146,20 @@ suppresses
 them
 .
     
+#
+-
+TC
+forces
+the
+compiler
+to
+treat
+the
+input
+as
+C
+.
+    
 cpp
 =
 buildconfig
@@ -161,6 +175,13 @@ CPP
 '
 -
 EP
+'
+]
++
+[
+'
+-
+TC
 '
 ]
     
