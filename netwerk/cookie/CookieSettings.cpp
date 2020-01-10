@@ -839,6 +839,7 @@ cookie
 aCookiePermission
 0
 0
+0
 )
 ;
 if
@@ -1126,6 +1127,7 @@ cookiePermission
 )
 0
 0
+0
 )
 ;
 if
@@ -1300,6 +1302,7 @@ data
 cookiePermission
 (
 )
+0
 0
 0
 )
