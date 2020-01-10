@@ -67,7 +67,6 @@ from
 marionette_harness
 import
 MarionetteTestCase
-skip_if_mobile
 class
 TestExecuteSandboxes
 (
@@ -338,18 +337,6 @@ assertEqual
 (
 foo
 2
-)
-    
-skip_if_mobile
-(
-"
-Intermittent
-on
-Android
--
-bug
-1526914
-"
 )
     
 def

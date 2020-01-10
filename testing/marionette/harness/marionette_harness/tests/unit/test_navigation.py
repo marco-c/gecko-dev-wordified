@@ -94,8 +94,6 @@ run_if_e10s
     
 run_if_manage_instance
     
-skip_if_mobile
-    
 WindowManagerMixin
 )
 here
@@ -2208,20 +2206,6 @@ self
 test_page_push_state
 )
     
-skip_if_mobile
-(
-"
-Test
-file
-is
-only
-located
-on
-host
-machine
-"
-)
-    
 def
 test_navigate_file_url
 (
@@ -2274,20 +2258,6 @@ Requires
 e10s
 mode
 enabled
-"
-)
-    
-skip_if_mobile
-(
-"
-Test
-file
-is
-only
-located
-on
-host
-machine
 "
 )
     
@@ -2429,18 +2399,6 @@ instance
 "
 )
     
-skip_if_mobile
-(
-"
-Bug
-1322993
--
-Missing
-temporary
-folder
-"
-)
-    
 def
 test_focus_after_navigation
 (
@@ -2556,20 +2514,6 @@ navigate
 self
 .
 test_page_remote
-)
-    
-skip_if_mobile
-(
-"
-Interacting
-with
-chrome
-elements
-not
-available
-for
-Fennec
-"
 )
     
 def
@@ -2729,20 +2673,6 @@ assertFalse
 self
 .
 is_remote_tab
-)
-    
-skip_if_mobile
-(
-"
-Interacting
-with
-chrome
-elements
-not
-available
-for
-Fennec
-"
 )
     
 run_if_e10s
@@ -3747,20 +3677,6 @@ run_bfcache_test
 test_pages
 )
     
-skip_if_mobile
-(
-"
-Test
-file
-is
-only
-located
-on
-host
-machine
-"
-)
-    
 def
 test_file_url
 (
@@ -4581,21 +4497,6 @@ self
 run_bfcache_test
 (
 test_pages
-)
-    
-skip_if_mobile
-(
-"
-Bug
-1333209
--
-Process
-killed
-because
-of
-connection
-loss
-"
 )
     
 def
@@ -5426,20 +5327,6 @@ By
 NAME
 "
 third
-"
-)
-    
-skip_if_mobile
-(
-"
-Test
-file
-is
-only
-located
-on
-host
-machine
 "
 )
     

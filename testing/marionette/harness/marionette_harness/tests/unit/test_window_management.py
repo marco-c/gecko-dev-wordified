@@ -72,7 +72,6 @@ marionette_harness
 import
 MarionetteTestCase
 WindowManagerMixin
-skip_if_mobile
 class
 TestNoSuchWindowContent
 (
@@ -119,20 +118,6 @@ self
 .
 tearDown
 (
-)
-    
-skip_if_mobile
-(
-"
-Fennec
-doesn
-'
-t
-support
-other
-chrome
-windows
-"
 )
     
 def
@@ -273,20 +258,6 @@ marionette
 switch_to_window
 (
 new_window
-)
-    
-skip_if_mobile
-(
-"
-Fennec
-doesn
-'
-t
-support
-other
-chrome
-windows
-"
 )
     
 def

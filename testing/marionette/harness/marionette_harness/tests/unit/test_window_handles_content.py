@@ -69,7 +69,6 @@ from
 marionette_harness
 import
 MarionetteTestCase
-skip_if_mobile
 WindowManagerMixin
 def
 inline
@@ -566,20 +565,6 @@ current_window_handle
 self
 .
 start_tab
-)
-    
-skip_if_mobile
-(
-"
-Fennec
-doesn
-'
-t
-support
-other
-chrome
-windows
-"
 )
     
 def

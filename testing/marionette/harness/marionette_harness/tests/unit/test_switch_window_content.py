@@ -74,8 +74,6 @@ import
     
 MarionetteTestCase
     
-skip_if_mobile
-    
 WindowManagerMixin
 )
 class
@@ -625,20 +623,6 @@ get_selected_tab_index
 self
 .
 selected_tab_index
-)
-    
-skip_if_mobile
-(
-"
-Fennec
-doesn
-'
-t
-support
-other
-chrome
-windows
-"
 )
     
 def

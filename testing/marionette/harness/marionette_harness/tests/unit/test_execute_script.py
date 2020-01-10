@@ -28,7 +28,6 @@ from
 marionette_harness
 import
 MarionetteTestCase
-skip_if_mobile
 WindowManagerMixin
 def
 inline
@@ -3037,18 +3036,6 @@ comment
 "
 )
     
-skip_if_mobile
-(
-"
-Modal
-dialogs
-not
-supported
-in
-Fennec
-"
-)
-    
 def
 test_return_value_on_alert
 (
@@ -3187,18 +3174,6 @@ service
 1
 '
 ]
-"
-)
-    
-skip_if_mobile
-(
-"
-New
-windows
-not
-supported
-in
-Fennec
 "
 )
     
