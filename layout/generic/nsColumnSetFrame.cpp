@@ -4611,7 +4611,7 @@ columnCount
 =
 0
 ;
-int
+nscoord
 contentBEnd
 =
 0
