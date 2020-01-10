@@ -168,14 +168,9 @@ PATH
 :
 (
 '
-%
-(
-abs_work_dir
-)
-s
-\
-\
-src
+{
+MOZ_FETCHES_DIR
+}
 \
 \
 clang
@@ -277,6 +272,16 @@ format
 _VSPATH
 =
 VSPATH
+MOZ_FETCHES_DIR
+=
+os
+.
+environ
+[
+'
+MOZ_FETCHES_DIR
+'
+]
 )
         
 '

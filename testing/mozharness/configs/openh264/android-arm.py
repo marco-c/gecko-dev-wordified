@@ -224,13 +224,9 @@ PATH
 :
 (
 '
-%
-(
-abs_work_dir
-)
-s
-/
-src
+{
+MOZ_FETCHES_DIR
+}
 /
 android
 -
@@ -243,13 +239,9 @@ tools
 '
                  
 '
-%
-(
-abs_work_dir
-)
-s
-/
-src
+{
+MOZ_FETCHES_DIR
+}
 /
 clang
 /
@@ -258,13 +250,9 @@ bin
 '
                  
 '
-%
-(
-abs_work_dir
-)
-s
-/
-src
+{
+MOZ_FETCHES_DIR
+}
 /
 nasm
 :
@@ -274,6 +262,21 @@ PATH
 )
 s
 '
+                 
+.
+format
+(
+MOZ_FETCHES_DIR
+=
+os
+.
+environ
+[
+'
+MOZ_FETCHES_DIR
+'
+]
+)
 )
     
 }
