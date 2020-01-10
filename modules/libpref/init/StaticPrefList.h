@@ -14390,7 +14390,7 @@ high
 -
 power
 "
-GLAllowHighPower
+gl_allow_high_power
 RelaxedAtomicBool
 true
 )
@@ -14408,7 +14408,7 @@ interop2
 -
 blacklist
 "
-IgnoreDXInterop2Blacklist
+gl_ignore_dx_interop2_blacklist
 RelaxedAtomicBool
 false
 )
@@ -14426,7 +14426,7 @@ gl
 .
 multithreaded
 "
-GLMultithreaded
+gl_multithreaded
 RelaxedAtomicBool
 false
 )
@@ -14442,7 +14442,7 @@ require
 -
 hardware
 "
-RequireHardwareGL
+gl_require_hardware
 RelaxedAtomicBool
 false
 )
@@ -14460,7 +14460,7 @@ is
 -
 current
 "
-UseTLSIsCurrent
+gl_use_tls_is_current
 RelaxedAtomicInt32
 0
 )

@@ -1405,7 +1405,7 @@ DXInterop2Blocked
 StaticPrefs
 :
 :
-IgnoreDXInterop2Blacklist
+gl_ignore_dx_interop2_blacklist
 (
 )
 )
