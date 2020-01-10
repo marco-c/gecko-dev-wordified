@@ -2805,7 +2805,7 @@ define
 JS_COLUMN_DIMENSION_IS_CODE_POINTS
 (
 )
-0
+1
 class
 TokenStreamAnyChars
 :
