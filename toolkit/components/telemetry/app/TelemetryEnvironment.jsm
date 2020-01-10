@@ -2541,6 +2541,8 @@ const
 BLOCKLIST_LOADED_TOPIC
 =
 "
+plugin
+-
 blocklist
 -
 loaded
