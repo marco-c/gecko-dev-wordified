@@ -317,7 +317,7 @@ const
 nsAString
 &
 aName
-VoidFunction
+AudioWorkletProcessorConstructor
 &
 aProcessorCtor
 ErrorResult

@@ -170,6 +170,9 @@ namespace
 dom
 {
 class
+AudioWorkletProcessorConstructor
+;
+class
 AudioWorkletGlobalScope
 final
 :
@@ -221,7 +224,7 @@ const
 nsAString
 &
 aName
-VoidFunction
+AudioWorkletProcessorConstructor
 &
 aProcessorCtor
 ErrorResult
@@ -338,7 +341,7 @@ typedef
 nsRefPtrHashtable
 <
 nsStringHashKey
-VoidFunction
+AudioWorkletProcessorConstructor
 >
 NodeNameToProcessorDefinitionMap
 ;
