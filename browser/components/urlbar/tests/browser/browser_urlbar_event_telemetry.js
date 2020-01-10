@@ -3401,6 +3401,13 @@ TelemetryTestUtils
 assertEvents
 (
 expectedEvents
+{
+category
+:
+"
+urlbar
+"
+}
 )
 ;
 }
