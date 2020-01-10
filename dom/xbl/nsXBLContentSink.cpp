@@ -4923,14 +4923,8 @@ prototype
 new
 nsXULPrototypeElement
 (
-)
-;
-prototype
--
->
-mNodeInfo
-=
 aNodeInfo
+)
 ;
 AddAttributesToXULPrototype
 (
