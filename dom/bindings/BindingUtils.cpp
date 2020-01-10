@@ -7183,6 +7183,7 @@ XPCVariant
 :
 VariantDataToJS
 (
+aCx
 aVariant
 &
 rv

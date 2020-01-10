@@ -2683,6 +2683,7 @@ XPCVariant
 :
 VariantDataToJS
 (
+cx
 variant
 pErr
 d
@@ -2847,6 +2848,7 @@ T_LEGACY_ARRAY
 return
 NativeArray2JS
 (
+cx
 d
 *
 static_cast
@@ -2900,6 +2902,7 @@ s
 return
 NativeArray2JS
 (
+cx
 d
 array
 -
@@ -5565,6 +5568,7 @@ ok
 =
 JSArray2Native
 (
+cx
 s
 elty
 iid
@@ -5730,6 +5734,7 @@ ok
 =
 JSArray2Native
 (
+cx
 s
 elty
 iid
@@ -8138,6 +8143,9 @@ static
 nsresult
 JSErrorToXPCException
 (
+JSContext
+*
+cx
 const
 char
 *
@@ -8160,9 +8168,6 @@ Exception
 exceptn
 )
 {
-AutoJSContext
-cx
-;
 nsresult
 rv
 =
@@ -8414,6 +8419,9 @@ XPCConvert
 :
 JSValToXPCException
 (
+JSContext
+*
+cx
 MutableHandleValue
 s
 const
@@ -8430,9 +8438,6 @@ Exception
 exceptn
 )
 {
-AutoJSContext
-cx
-;
 AutoExceptionRestorer
 aer
 (
@@ -8732,6 +8737,7 @@ str
 return
 JSErrorToXPCException
 (
+cx
 toStringResult
 .
 get
@@ -9413,6 +9419,9 @@ XPCConvert
 :
 NativeArray2JS
 (
+JSContext
+*
+cx
 MutableHandleValue
 d
 const
@@ -9452,9 +9461,6 @@ or
 elements
 "
 )
-;
-AutoJSContext
-cx
 ;
 RootedObject
 array
@@ -9583,6 +9589,9 @@ XPCConvert
 :
 JSArray2Native
 (
+JSContext
+*
+cx
 JS
 :
 :
@@ -9756,9 +9765,6 @@ return
 buf
 ;
 }
-;
-AutoJSContext
-cx
 ;
 /
 /

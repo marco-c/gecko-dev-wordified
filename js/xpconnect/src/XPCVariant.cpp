@@ -2378,6 +2378,9 @@ XPCVariant
 :
 VariantDataToJS
 (
+JSContext
+*
+cx
 nsIVariant
 *
 variant
@@ -2412,9 +2415,6 @@ variant
 GetDataType
 (
 )
-;
-AutoJSContext
-cx
 ;
 RootedValue
 realVal
