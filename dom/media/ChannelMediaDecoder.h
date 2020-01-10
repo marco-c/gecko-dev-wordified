@@ -580,12 +580,6 @@ GetCurrentPrincipal
 override
 ;
 bool
-HadCrossOriginRedirects
-(
-)
-override
-;
-bool
 IsTransportSeekable
 (
 )
