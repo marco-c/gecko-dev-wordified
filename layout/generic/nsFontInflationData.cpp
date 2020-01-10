@@ -1455,9 +1455,9 @@ src
 /
 init
 /
-all
+StaticPrefList
 .
-js
+yaml
 .
 PresShell
 *
