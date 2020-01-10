@@ -416,8 +416,6 @@ GetStockHIcon
 nsIMozIconURI
 *
 aIconURI
-bool
-aNonBlocking
 HICON
 *
 hIcon
