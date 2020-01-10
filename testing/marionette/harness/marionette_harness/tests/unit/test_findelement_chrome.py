@@ -807,7 +807,7 @@ window
 .
 document
 .
-createElement
+createXULElement
 (
 '
 button

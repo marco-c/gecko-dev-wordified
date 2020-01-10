@@ -3574,7 +3574,7 @@ insertBefore
 (
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -3659,7 +3659,7 @@ insertBefore
 (
 document
 .
-createElement
+createXULElement
 (
 "
 menuseparator
@@ -6721,7 +6721,7 @@ menuitem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem

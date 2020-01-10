@@ -409,7 +409,7 @@ node
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -2743,7 +2743,7 @@ _arrowNode
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox

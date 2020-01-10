@@ -965,7 +965,7 @@ node
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -1092,7 +1092,7 @@ menuNode
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 menu
@@ -1147,7 +1147,7 @@ menuPopupNode
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 menupopup
@@ -1206,7 +1206,7 @@ appendChild
 (
 doc
 .
-createElement
+createXULElement
 (
 "
 menuseparator
@@ -1240,7 +1240,7 @@ appendChild
 (
 doc
 .
-createElement
+createXULElement
 (
 "
 menuseparator

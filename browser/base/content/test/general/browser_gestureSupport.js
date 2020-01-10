@@ -2648,7 +2648,7 @@ appendChild
 (
 document
 .
-createElement
+createXULElement
 (
 "
 command

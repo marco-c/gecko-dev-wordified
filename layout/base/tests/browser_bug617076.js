@@ -145,7 +145,7 @@ e
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 button

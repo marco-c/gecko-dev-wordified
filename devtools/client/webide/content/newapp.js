@@ -406,7 +406,7 @@ richlistitemNode
 =
 document
 .
-createElement
+createXULElement
 (
 "
 richlistitem
@@ -418,7 +418,7 @@ imageNode
 =
 document
 .
-createElement
+createXULElement
 (
 "
 image
@@ -442,7 +442,7 @@ labelNode
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -466,7 +466,7 @@ descriptionNode
 =
 document
 .
-createElement
+createXULElement
 (
 "
 description
@@ -486,7 +486,7 @@ vboxNode
 =
 document
 .
-createElement
+createXULElement
 (
 "
 vbox

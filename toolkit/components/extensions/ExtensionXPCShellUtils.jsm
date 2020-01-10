@@ -1187,7 +1187,7 @@ browser
 =
 chromeDoc
 .
-createElement
+createXULElement
 (
 "
 browser

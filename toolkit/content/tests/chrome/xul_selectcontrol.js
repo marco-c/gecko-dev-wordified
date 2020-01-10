@@ -908,7 +908,7 @@ element
 .
 ownerDocument
 .
-createElement
+createXULElement
 (
 childtag
 )

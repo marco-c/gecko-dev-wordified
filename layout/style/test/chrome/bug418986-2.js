@@ -1340,8 +1340,9 @@ div
 =
 document
 .
-createElement
+createElementNS
 (
+HTML_NS
 "
 div
 "
@@ -1400,8 +1401,9 @@ div
 =
 document
 .
-createElement
+createElementNS
 (
+HTML_NS
 "
 div
 "
@@ -1461,8 +1463,9 @@ div
 =
 document
 .
-createElement
+createElementNS
 (
+HTML_NS
 "
 div
 "
@@ -2418,8 +2421,9 @@ div
 =
 document
 .
-createElement
+createElementNS
 (
+HTML_NS
 "
 div
 "

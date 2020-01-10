@@ -34,7 +34,7 @@ textbox
 =
 document
 .
-createElement
+createXULElement
 (
 "
 textbox

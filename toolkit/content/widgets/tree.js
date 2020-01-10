@@ -1638,7 +1638,7 @@ popupChild
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
