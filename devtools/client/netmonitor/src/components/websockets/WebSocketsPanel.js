@@ -681,6 +681,7 @@ const
 frameDetailsOpen
 connector
 selectedFrame
+channelId
 }
 =
 this
@@ -790,6 +791,7 @@ FrameListContent
 {
 connector
 startPanelContainer
+channelId
 }
 )
 endPanel
