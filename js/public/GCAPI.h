@@ -2270,6 +2270,12 @@ PREPARE_FOR_TRACING
 26
 )
 \
+D
+(
+INCREMENTAL_ALLOC_TRIGGER
+27
+)
+\
 \
 /
 *
@@ -2282,12 +2288,6 @@ use
 .
 *
 /
-\
-D
-(
-RESERVED3
-27
-)
 \
 D
 (
