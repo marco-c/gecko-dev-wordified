@@ -3438,6 +3438,9 @@ mozilla
 TimeDuration
 mShortIdleTimeout
 ;
+bool
+mSkipTRRWhenParentalControlEnabled
+;
 RefPtr
 <
 nsIThreadPool
