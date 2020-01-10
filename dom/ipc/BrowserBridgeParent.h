@@ -387,6 +387,17 @@ ipc
 :
 :
 IPCResult
+RecvSkipBrowsingContextDetach
+(
+)
+;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvActivate
 (
 )
