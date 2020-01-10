@@ -707,7 +707,7 @@ NativeFontHandle
 [
 repr
 (
-u8
+u32
 )
 ]
 #

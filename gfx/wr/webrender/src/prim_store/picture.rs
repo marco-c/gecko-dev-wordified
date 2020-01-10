@@ -63,6 +63,7 @@ api
 {
 ColorU
 FilterOp
+LayoutPrimitiveInfo
 MixBlendMode
 PropertyBinding
 PropertyBindingId
@@ -104,12 +105,6 @@ Handle
 as
 InternHandle
 }
-;
-use
-internal_types
-:
-:
-LayoutPrimitiveInfo
 ;
 use
 picture

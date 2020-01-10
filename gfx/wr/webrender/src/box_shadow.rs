@@ -65,6 +65,7 @@ BorderRadius
 BoxShadowClipMode
 ClipMode
 ColorF
+LayoutPrimitiveInfo
 PrimitiveKeyKind
 }
 ;
@@ -124,12 +125,6 @@ util
 :
 :
 RectHelpers
-;
-use
-internal_types
-:
-:
-LayoutPrimitiveInfo
 ;
 #
 [

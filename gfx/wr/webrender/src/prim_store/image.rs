@@ -69,6 +69,7 @@ ImageKey
 as
 ApiImageKey
 ImageRendering
+LayoutPrimitiveInfo
 PremultipliedColorF
 Shadow
 YuvColorSpace
@@ -118,12 +119,6 @@ Handle
 as
 InternHandle
 }
-;
-use
-internal_types
-:
-:
-LayoutPrimitiveInfo
 ;
 use
 prim_store
@@ -3018,7 +3013,7 @@ Image
 >
 (
 )
-52
+56
 "
 Image
 size
@@ -3040,7 +3035,7 @@ ImageTemplate
 >
 (
 )
-104
+108
 "
 ImageTemplate
 size
@@ -3062,7 +3057,7 @@ ImageKey
 >
 (
 )
-64
+68
 "
 ImageKey
 size
@@ -3084,7 +3079,7 @@ YuvImage
 >
 (
 )
-28
+36
 "
 YuvImage
 size
@@ -3106,7 +3101,7 @@ YuvImageTemplate
 >
 (
 )
-48
+56
 "
 YuvImageTemplate
 size
@@ -3128,7 +3123,7 @@ YuvImageKey
 >
 (
 )
-40
+48
 "
 YuvImageKey
 size

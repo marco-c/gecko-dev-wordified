@@ -705,7 +705,7 @@ images
 [
 repr
 (
-u8
+u32
 )
 ]
 #
@@ -882,7 +882,7 @@ terms
 [
 repr
 (
-u8
+u32
 )
 ]
 #
