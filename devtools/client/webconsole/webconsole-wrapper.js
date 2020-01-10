@@ -2604,7 +2604,6 @@ app
 App
 (
 {
-attachRefToWebConsoleUI
 serviceContainer
 webConsoleUI
 onFirstMeaningfulPaint
