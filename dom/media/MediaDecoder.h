@@ -339,8 +339,8 @@ MediaDecoderStateMachine
 struct
 MediaPlaybackEvent
 ;
-class
-MediaStreamGraph
+struct
+SharedDummyStream
 ;
 enum
 class
@@ -1110,9 +1110,9 @@ AddOutputStream
 DOMMediaStream
 *
 aStream
-MediaStreamGraph
+SharedDummyStream
 *
-aGraph
+aDummyStream
 )
 ;
 /

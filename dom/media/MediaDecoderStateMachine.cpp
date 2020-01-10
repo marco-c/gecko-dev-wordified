@@ -25277,9 +25277,9 @@ MediaDecoderStateMachine
 :
 EnsureOutputStreamManager
 (
-MediaStreamGraph
+SharedDummyStream
 *
-aGraph
+aDummyStream
 )
 {
 MOZ_ASSERT
@@ -25302,7 +25302,7 @@ mOutputStreamManager
 new
 OutputStreamManager
 (
-aGraph
+aDummyStream
 mOutputStreamPrincipal
 mAbstractMainThread
 )

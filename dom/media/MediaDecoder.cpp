@@ -1436,9 +1436,9 @@ AddOutputStream
 DOMMediaStream
 *
 aStream
-MediaStreamGraph
+SharedDummyStream
 *
-aGraph
+aDummyStream
 )
 {
 MOZ_ASSERT
@@ -1479,7 +1479,7 @@ mDecoderStateMachine
 >
 EnsureOutputStreamManager
 (
-aGraph
+aDummyStream
 )
 ;
 if

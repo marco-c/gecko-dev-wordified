@@ -1294,9 +1294,9 @@ created
 void
 EnsureOutputStreamManager
 (
-MediaStreamGraph
+SharedDummyStream
 *
-aGraph
+aDummyStream
 )
 ;
 /

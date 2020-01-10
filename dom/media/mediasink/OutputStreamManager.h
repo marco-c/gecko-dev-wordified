@@ -390,9 +390,9 @@ public
 :
 OutputStreamManager
 (
-MediaStreamGraph
+SharedDummyStream
 *
-aGraph
+aDummyStream
 nsIPrincipal
 *
 aPrincipal
@@ -1024,7 +1024,7 @@ aStream
 const
 RefPtr
 <
-SourceMediaStream
+SharedDummyStream
 >
 mDummyStream
 ;
