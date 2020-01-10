@@ -237,6 +237,7 @@ Settings
 newSettings
 (
 final
+Nullable
 Settings
 settings
 )

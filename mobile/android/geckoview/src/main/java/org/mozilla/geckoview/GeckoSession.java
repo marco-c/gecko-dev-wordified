@@ -9852,6 +9852,7 @@ String
 AnyThread
 public
 static
+NonNull
 String
 createDataUri
 (
@@ -9973,6 +9974,7 @@ String
 AnyThread
 public
 static
+NonNull
 String
 createDataUri
 (
@@ -18729,6 +18731,7 @@ session
 NonNull
 Selection
 selection
+NonNull
 Action
 String
 [

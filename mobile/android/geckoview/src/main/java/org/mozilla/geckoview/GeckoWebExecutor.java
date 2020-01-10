@@ -1067,6 +1067,7 @@ UnknownHostException
 *
 /
 public
+NonNull
 GeckoResult
 <
 InetAddress

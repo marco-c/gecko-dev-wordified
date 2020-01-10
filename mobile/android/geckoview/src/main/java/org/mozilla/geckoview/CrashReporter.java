@@ -603,6 +603,7 @@ ACTION_CRASHED
 AnyThread
 public
 static
+NonNull
 GeckoResult
 <
 String
