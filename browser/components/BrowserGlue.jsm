@@ -730,7 +730,7 @@ wantUntrusted
 :
 true
 }
-AboutLoginsOpenFeedback
+AboutLoginsGetHelp
 :
 {
 wantUntrusted
@@ -4116,7 +4116,7 @@ AboutLoginsParent
 "
 AboutLogins
 :
-OpenFeedback
+GetHelp
 "
 :
 [

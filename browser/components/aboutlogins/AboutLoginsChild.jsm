@@ -615,7 +615,7 @@ break
 }
 case
 "
-AboutLoginsOpenFeedback
+AboutLoginsGetHelp
 "
 :
 {
@@ -628,7 +628,7 @@ sendAsyncMessage
 "
 AboutLogins
 :
-OpenFeedback
+GetHelp
 "
 )
 ;
