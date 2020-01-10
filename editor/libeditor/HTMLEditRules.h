@@ -9015,9 +9015,6 @@ mListenerEnabled
 bool
 mReturnInEmptyLIKillsList
 ;
-bool
-mRestoreContentEditableCount
-;
 RefPtr
 <
 nsRange
