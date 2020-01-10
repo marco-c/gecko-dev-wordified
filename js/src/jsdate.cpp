@@ -474,6 +474,12 @@ using
 mozilla
 :
 :
+IsAsciiDigit
+;
+using
+mozilla
+:
+:
 IsFinite
 ;
 using
@@ -19983,7 +19989,7 @@ yr
 *
 /
 !
-isdigit
+IsAsciiDigit
 (
 buf
 [
@@ -19994,7 +20000,7 @@ result_len
 )
 &
 &
-isdigit
+IsAsciiDigit
 (
 buf
 [
@@ -20005,7 +20011,7 @@ result_len
 )
 &
 &
-isdigit
+IsAsciiDigit
 (
 buf
 [
@@ -20041,7 +20047,7 @@ like
 /
 !
 (
-isdigit
+IsAsciiDigit
 (
 buf
 [
@@ -20050,7 +20056,7 @@ buf
 )
 &
 &
-isdigit
+IsAsciiDigit
 (
 buf
 [
@@ -20059,7 +20065,7 @@ buf
 )
 &
 &
-isdigit
+IsAsciiDigit
 (
 buf
 [
@@ -20068,7 +20074,7 @@ buf
 )
 &
 &
-isdigit
+IsAsciiDigit
 (
 buf
 [
