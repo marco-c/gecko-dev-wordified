@@ -244,7 +244,6 @@ onPaused
 =
 function
 (
-event
 packet
 )
 {
@@ -271,7 +270,7 @@ attached
 ;
 client
 .
-addListener
+on
 (
 "
 paused
@@ -314,7 +313,7 @@ runDebuggerStatement
 ;
 client
 .
-removeListener
+off
 (
 "
 paused
@@ -393,14 +392,13 @@ resolve
 {
 client
 .
-addListener
+on
 (
 "
 paused
 "
 async
 (
-event
 packet
 )
 =

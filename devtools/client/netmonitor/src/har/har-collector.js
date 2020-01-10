@@ -297,7 +297,7 @@ this
 .
 debuggerClient
 .
-addListener
+on
 (
 "
 serverNetworkEvent
@@ -311,7 +311,7 @@ this
 .
 debuggerClient
 .
-addListener
+on
 (
 "
 networkEventUpdate
@@ -332,7 +332,7 @@ this
 .
 debuggerClient
 .
-removeListener
+off
 (
 "
 serverNetworkEvent
@@ -346,7 +346,7 @@ this
 .
 debuggerClient
 .
-removeListener
+off
 (
 "
 networkEventUpdate
@@ -1086,7 +1086,6 @@ onNetworkEvent
 :
 function
 (
-type
 packet
 )
 {
@@ -1127,6 +1126,8 @@ onNetworkEvent
 ;
 "
 +
+packet
+.
 type
 packet
 )
@@ -1282,7 +1283,6 @@ onNetworkEventUpdate
 :
 function
 (
-type
 packet
 )
 {

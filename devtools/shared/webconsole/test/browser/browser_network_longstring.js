@@ -270,7 +270,6 @@ const
 onNetworkEventUpdate
 =
 (
-type
 packet
 )
 =
@@ -315,7 +314,7 @@ eventTimings
 {
 client
 .
-removeListener
+off
 (
 "
 networkEventUpdate
@@ -332,7 +331,7 @@ resolve
 ;
 client
 .
-addListener
+on
 (
 "
 networkEventUpdate

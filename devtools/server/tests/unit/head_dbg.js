@@ -4304,7 +4304,7 @@ event
 *
 *
 param
-DebuggerClient
+ThreadClient
 client
 *
 param
@@ -4354,7 +4354,6 @@ resolve
 function
 listener
 (
-type
 packet
 )
 {
@@ -4374,6 +4373,7 @@ client
 .
 removeListener
 (
+type
 listener
 )
 ;

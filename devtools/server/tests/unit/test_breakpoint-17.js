@@ -177,14 +177,13 @@ resolve
 {
 client
 .
-addOneTimeListener
+on
 (
 "
 paused
 "
 async
 (
-event
 packet
 )
 =
@@ -468,7 +467,7 @@ hitSecond
 ;
 client
 .
-addListener
+on
 (
 "
 paused
@@ -476,7 +475,6 @@ paused
 function
 _onPaused
 (
-event
 {
 why
 frame
@@ -615,7 +613,7 @@ debuggerStatement
 {
 client
 .
-removeListener
+off
 (
 "
 paused

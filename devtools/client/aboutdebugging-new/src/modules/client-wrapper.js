@@ -272,7 +272,7 @@ mainRoot
 )
 ;
 }
-addOneTimeListener
+once
 (
 evt
 listener
@@ -307,7 +307,7 @@ this
 .
 client
 .
-addOneTimeListener
+once
 (
 evt
 listener
@@ -315,7 +315,7 @@ listener
 ;
 }
 }
-addListener
+on
 (
 evt
 listener
@@ -372,7 +372,7 @@ this
 .
 client
 .
-addListener
+on
 (
 evt
 listener
@@ -380,7 +380,7 @@ listener
 ;
 }
 }
-removeListener
+off
 (
 evt
 listener
@@ -437,7 +437,7 @@ this
 .
 client
 .
-removeListener
+off
 (
 evt
 listener

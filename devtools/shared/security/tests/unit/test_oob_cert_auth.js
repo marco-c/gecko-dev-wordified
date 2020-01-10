@@ -456,7 +456,7 @@ unexpectedly
 ;
 client
 .
-addListener
+on
 (
 "
 closed
@@ -517,7 +517,7 @@ matches
 ;
 client
 .
-removeListener
+off
 (
 "
 closed
