@@ -11951,6 +11951,9 @@ this
 .
 _updateMutationBreakpointState
 (
+"
+api
+"
 rawNode
 {
 .
@@ -12016,6 +12019,7 @@ support
 /
 _updateMutationBreakpointState
 (
+mutationReason
 rawNode
 bpsForNode
 )
@@ -12309,6 +12313,7 @@ getMutationBreakpoints
 (
 actor
 )
+mutationReason
 }
 )
 ;
@@ -12956,6 +12961,9 @@ this
 .
 _updateMutationBreakpointState
 (
+"
+detach
+"
 walker
 .
 currentNode
@@ -15355,6 +15363,9 @@ this
 .
 _updateMutationBreakpointState
 (
+"
+unload
+"
 node
 null
 )
