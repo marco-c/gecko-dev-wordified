@@ -2296,6 +2296,14 @@ tableFrame
 IsGeometryDirty
 (
 )
+|
+|
+tableFrame
+-
+>
+NeedToCollapse
+(
+)
 ;
 /
 /
