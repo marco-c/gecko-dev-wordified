@@ -348,7 +348,7 @@ t
 >
 {
 new
-IdleDetector
+SMSReceiver
 (
 {
 timeout
