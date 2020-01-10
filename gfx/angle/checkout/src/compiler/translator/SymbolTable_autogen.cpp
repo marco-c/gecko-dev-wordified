@@ -13571,7 +13571,7 @@ BuiltIn
 TExtension
 :
 :
-OVR_multiview
+OVR_multiview2
 StaticType
 :
 :
@@ -13607,7 +13607,7 @@ BuiltIn
 TExtension
 :
 :
-OVR_multiview
+OVR_multiview2
 StaticType
 :
 :
@@ -84314,7 +84314,7 @@ if
 (
 mResources
 .
-OVR_multiview
+OVR_multiview2
 &
 &
 mShaderType
@@ -86242,7 +86242,7 @@ if
 (
 mResources
 .
-OVR_multiview
+OVR_multiview2
 &
 &
 mShaderType

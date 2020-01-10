@@ -2896,7 +2896,7 @@ int
 ARM_shader_framebuffer_fetch
 ;
 int
-OVR_multiview
+OVR_multiview2
 ;
 int
 EXT_YUV_target

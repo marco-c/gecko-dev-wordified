@@ -261,8 +261,7 @@ FramebufferTexture2D
 FramebufferTexture2DOES
 FramebufferTextureEXT
 FramebufferTextureLayer
-FramebufferTextureMultiviewLayeredANGLE
-FramebufferTextureMultiviewSideBySideANGLE
+FramebufferTextureMultiviewOVR
 FrontFace
 Frustumf
 Frustumx

@@ -324,7 +324,7 @@ if
 (
 resources
 .
-OVR_multiview
+OVR_multiview2
 )
 {
 extBehavior
@@ -332,7 +332,7 @@ extBehavior
 TExtension
 :
 :
-OVR_multiview
+OVR_multiview2
 ]
 =
 EBhUndefined

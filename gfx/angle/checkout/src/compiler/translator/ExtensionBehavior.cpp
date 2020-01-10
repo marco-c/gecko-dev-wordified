@@ -179,7 +179,7 @@ OES_texture_storage_multisample_2d_array
 \
 OP
 (
-OVR_multiview
+OVR_multiview2
 )
 \
 OP

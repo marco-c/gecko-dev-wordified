@@ -1686,7 +1686,7 @@ first
 TExtension
 :
 :
-OVR_multiview
+OVR_multiview2
 )
 ;
 if
@@ -1732,7 +1732,7 @@ is
 set
 and
 the
-OVR_multiview
+OVR_multiview2
 (
 2
 )

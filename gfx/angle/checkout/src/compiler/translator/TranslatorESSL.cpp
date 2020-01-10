@@ -884,7 +884,7 @@ first
 TExtension
 :
 :
-OVR_multiview
+OVR_multiview2
 )
 ;
 if
@@ -1033,10 +1033,7 @@ and
 the
 /
 /
-OVR_multiview
-(
-2
-)
+OVR_multiview2
 extension
 is
 requested

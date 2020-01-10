@@ -943,7 +943,7 @@ ARM_shader_framebuffer_fetch
 resources
 -
 >
-OVR_multiview
+OVR_multiview2
 =
 0
 ;

@@ -1188,9 +1188,9 @@ fragDepth
 ;
 /
 /
-ANGLE_multiview
+OVR_multiview2
 bool
-multiview
+multiview2
 ;
 GLuint
 maxViews

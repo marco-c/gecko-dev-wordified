@@ -7971,7 +7971,7 @@ true
 extensions
 -
 >
-multiview
+multiview2
 =
 IsMultiviewSupported
 (
@@ -7983,7 +7983,7 @@ if
 extensions
 -
 >
-multiview
+multiview2
 )
 {
 extensions
@@ -8166,7 +8166,7 @@ multiviewMultisample
 extensions
 -
 >
-multiview
+multiview2
 &
 &
 extensions

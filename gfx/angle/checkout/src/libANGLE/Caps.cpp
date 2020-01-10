@@ -925,7 +925,7 @@ fragDepth
 (
 false
 )
-multiview
+multiview2
 (
 false
 )
@@ -4227,7 +4227,7 @@ fragDepth
 map
 [
 "
-GL_ANGLE_multiview
+GL_OVR_multiview2
 "
 ]
 =
@@ -4237,7 +4237,7 @@ enableableExtension
 Extensions
 :
 :
-multiview
+multiview2
 )
 ;
 map
