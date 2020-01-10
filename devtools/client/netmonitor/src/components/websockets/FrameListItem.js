@@ -508,7 +508,6 @@ index
 }
 connector
 item
-index
 }
 )
 ;

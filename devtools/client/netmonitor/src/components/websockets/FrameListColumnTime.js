@@ -182,13 +182,6 @@ PropTypes
 object
 .
 isRequired
-index
-:
-PropTypes
-.
-number
-.
-isRequired
 }
 ;
 }
@@ -360,13 +353,6 @@ dom
 td
 (
 {
-key
-:
-this
-.
-props
-.
-index
 className
 :
 "

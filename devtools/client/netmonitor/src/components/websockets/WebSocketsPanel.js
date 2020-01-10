@@ -441,7 +441,7 @@ this
 }
 componentDidUpdate
 (
-nextProps
+prevProps
 )
 {
 const
@@ -474,7 +474,7 @@ channelId
 !
 =
 =
-nextProps
+prevProps
 .
 channelId
 )

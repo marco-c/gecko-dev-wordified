@@ -373,17 +373,6 @@ isRequired
 }
 ;
 }
-constructor
-(
-props
-)
-{
-super
-(
-props
-)
-;
-}
 onMouseDown
 (
 evt
