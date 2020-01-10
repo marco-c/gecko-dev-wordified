@@ -1749,6 +1749,9 @@ if
 queryContext
 )
 {
+let
+handled
+=
 this
 .
 view
@@ -1775,9 +1778,7 @@ searchString
 ;
 if
 (
-event
-.
-defaultPrevented
+handled
 )
 {
 return
