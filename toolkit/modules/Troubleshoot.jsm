@@ -3261,6 +3261,11 @@ adapterDriver
 "
 adapterDrivers
 "
+adapterDriverVendor
+:
+"
+driverVendor
+"
 adapterDriverVersion
 :
 "
@@ -3290,6 +3295,11 @@ adapterDriver2
 :
 "
 adapterDrivers2
+"
+adapterDriverVendor2
+:
+"
+driverVendor2
 "
 adapterDriverVersion2
 :
