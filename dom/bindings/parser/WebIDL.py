@@ -50439,6 +50439,14 @@ t
 IDLType
 )
         
+#
+Arg
+names
+can
+be
+reserved
+identifiers
+        
 identifier
 =
 IDLUnresolvedIdentifier
@@ -50454,6 +50462,10 @@ p
 [
 3
 ]
+                                             
+allowForbidden
+=
+True
 )
         
 defaultValue
@@ -50583,6 +50595,14 @@ t
 IDLType
 )
         
+#
+Arg
+names
+can
+be
+reserved
+identifiers
+        
 identifier
 =
 IDLUnresolvedIdentifier
@@ -50598,6 +50618,10 @@ p
 [
 3
 ]
+                                             
+allowForbidden
+=
+True
 )
         
 variadic
