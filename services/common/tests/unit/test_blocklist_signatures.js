@@ -52,7 +52,9 @@ jsm
 )
 ;
 const
+{
 BlocklistClients
+}
 =
 ChromeUtils
 .
@@ -73,7 +75,6 @@ clients
 .
 js
 "
-null
 )
 ;
 const
@@ -461,6 +462,9 @@ length
 )
 ;
 }
+let
+OneCRLBlocklistClient
+;
 /
 /
 Check
@@ -503,13 +507,6 @@ server
 identity
 .
 primaryPort
-;
-const
-OneCRLBlocklistClient
-=
-BlocklistClients
-.
-OneCRLBlocklistClient
 ;
 /
 /
@@ -4756,11 +4753,15 @@ run_test
 (
 )
 {
+OneCRLBlocklistClient
+=
 BlocklistClients
 .
 initialize
 (
 )
+.
+OneCRLBlocklistClient
 ;
 /
 /
