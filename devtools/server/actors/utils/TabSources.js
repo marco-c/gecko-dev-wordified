@@ -100,7 +100,7 @@ emitter
 ;
 const
 {
-GeneratedLocation
+SourceLocation
 }
 =
 require
@@ -2278,7 +2278,7 @@ offset
 ;
 return
 new
-GeneratedLocation
+SourceLocation
 (
 this
 .
@@ -2384,7 +2384,7 @@ script
 {
 return
 new
-GeneratedLocation
+SourceLocation
 (
 )
 ;
