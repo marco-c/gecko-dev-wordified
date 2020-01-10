@@ -171,6 +171,15 @@ test
 .
 run
 (
+false
+)
+;
+await
+test
+.
+run
+(
+true
 )
 ;
 }
