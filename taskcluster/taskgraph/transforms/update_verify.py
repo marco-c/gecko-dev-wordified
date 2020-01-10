@@ -137,6 +137,20 @@ in
 dep
 .
 kind
+or
+'
+update
+-
+verify
+-
+next
+-
+config
+'
+in
+dep
+.
+kind
 :
             
 config_tasks
