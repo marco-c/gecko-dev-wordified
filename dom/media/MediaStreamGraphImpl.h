@@ -762,6 +762,8 @@ GraphRunType
 aRunTypeRequested
 TrackRate
 aSampleRate
+uint32_t
+aChannelCount
 AbstractThread
 *
 aWindow
