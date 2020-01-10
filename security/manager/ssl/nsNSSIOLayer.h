@@ -232,8 +232,6 @@ psm
 TransportSecurityInfo
 public
 nsISSLSocketControl
-public
-nsIClientAuthUserDecision
 {
 public
 :
@@ -256,7 +254,6 @@ providerTlsFlags
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSISSLSOCKETCONTROL
-NS_DECL_NSICLIENTAUTHUSERDECISION
 void
 SetForSTARTTLS
 (
@@ -917,9 +914,6 @@ mTLSVersionRange
 ;
 bool
 mHandshakePending
-;
-bool
-mRememberClientAuthCertificate
 ;
 bool
 mPreliminaryHandshakeDone
