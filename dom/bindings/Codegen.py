@@ -13457,14 +13457,8 @@ dom
 :
 FinalizeGlobal
 (
-js
-:
-:
-CastToJSFreeOp
-(
 %
 s
-)
 %
 s
 )
@@ -13607,10 +13601,7 @@ args
 Argument
 (
 '
-js
-:
-:
-FreeOp
+JSFreeOp
 *
 '
 '

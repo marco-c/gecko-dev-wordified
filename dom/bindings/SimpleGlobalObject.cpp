@@ -251,10 +251,7 @@ static
 void
 SimpleGlobal_finalize
 (
-js
-:
-:
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
