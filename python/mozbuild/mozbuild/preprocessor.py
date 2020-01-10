@@ -1891,7 +1891,7 @@ __repr__
 class
 ParseError
 (
-StandardError
+Exception
 )
 :
         
