@@ -237,12 +237,7 @@ find_element
 (
 By
 .
-ANON_ATTRIBUTE
-{
-'
-anonid
-'
-:
+CLASS_NAME
 '
 tabs
 -
@@ -250,7 +245,6 @@ newtab
 -
 button
 '
-}
 )
     
 property
