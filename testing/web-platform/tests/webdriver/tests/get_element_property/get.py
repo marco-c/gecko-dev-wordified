@@ -15,19 +15,6 @@ support
 inline
 import
 inline
-_input
-=
-inline
-(
-"
-<
-input
-id
-=
-i1
->
-"
-)
 def
 get_element_property
 (
@@ -123,14 +110,7 @@ session
 )
 :
     
-#
-13
-.
-3
-Step
-3
-    
-result
+response
 =
 get_element_property
 (
@@ -145,7 +125,7 @@ id
     
 assert_error
 (
-result
+response
 "
 no
 such
@@ -163,7 +143,17 @@ session
 .
 url
 =
-_input
+inline
+(
+"
+<
+input
+id
+=
+foobar
+>
+"
+)
     
 element
 =
@@ -187,7 +177,7 @@ refresh
 (
 )
     
-result
+response
 =
 get_element_property
 (
@@ -202,7 +192,7 @@ id
     
 assert_error
 (
-result
+response
 "
 stale
 element
@@ -220,7 +210,14 @@ session
 .
 url
 =
-_input
+inline
+(
+"
+<
+input
+>
+"
+)
     
 element
 =
@@ -238,7 +235,7 @@ all
 False
 )
     
-result
+response
 =
 get_element_property
 (
@@ -253,7 +250,7 @@ foo
     
 assert_success
 (
-result
+response
 None
 )
     
@@ -273,14 +270,14 @@ foo
 "
 args
 =
-[
+(
 element
-]
+)
 )
 is
 None
 def
-test_element
+test_mutated_element
 (
 session
 )
@@ -352,7 +349,7 @@ element
 is
 False
     
-result
+response
 =
 get_element_property
 (
@@ -367,6 +364,6 @@ checked
     
 assert_success
 (
-result
+response
 True
 )
