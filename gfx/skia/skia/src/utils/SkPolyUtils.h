@@ -58,6 +58,9 @@ SkPoint
 .
 h
 "
+struct
+SkRect
+;
 /
 *
 *
@@ -249,6 +252,16 @@ polygon
 .
 *
 param
+bounds
+Bounding
+rectangle
+for
+the
+original
+polygon
+.
+*
+param
 offset
 How
 far
@@ -317,6 +330,10 @@ SkPoint
 inputPolygonVerts
 int
 inputPolygonSize
+const
+SkRect
+&
+bounds
 SkScalar
 offset
 SkTDArray
