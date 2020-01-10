@@ -16980,16 +16980,6 @@ GPUImageScalingEnabled
 (
 )
 ;
-static
-bool
-InterruptibleReflowEnabled
-(
-)
-{
-return
-sInterruptibleReflowEnabled
-;
-}
 /
 *
 *
@@ -21247,10 +21237,6 @@ aFrame
 ;
 private
 :
-static
-bool
-sInterruptibleReflowEnabled
-;
 static
 bool
 sSVGTransformBoxEnabled
