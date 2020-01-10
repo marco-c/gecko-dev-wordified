@@ -2882,6 +2882,15 @@ mFull
 ;
 }
 ;
+void
+LogHeaders
+(
+const
+char
+*
+lineStart
+)
+;
 }
 /
 /
