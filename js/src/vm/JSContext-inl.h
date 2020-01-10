@@ -2077,6 +2077,11 @@ JS
 :
 HandleValue
 v
+js
+:
+:
+HandleSavedFrame
+stack
 )
 {
 #
@@ -2311,6 +2316,15 @@ unwrappedException
 )
 =
 v
+;
+this
+-
+>
+unwrappedExceptionStack
+(
+)
+=
+stack
 ;
 check
 (

@@ -3241,6 +3241,18 @@ ErrorObject
 )
 )
 {
+RootedSavedFrame
+stack
+(
+cx
+cx
+-
+>
+getPendingExceptionStack
+(
+)
+)
+;
 cx
 -
 >
@@ -3307,6 +3319,7 @@ cx
 setPendingException
 (
 rootedCopy
+stack
 )
 ;
 }

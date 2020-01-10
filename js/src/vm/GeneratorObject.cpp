@@ -1072,7 +1072,7 @@ THROW
 cx
 -
 >
-setPendingException
+setPendingExceptionAndCaptureStack
 (
 arg
 )
@@ -1132,6 +1132,7 @@ cx
 setPendingException
 (
 closing
+nullptr
 )
 ;
 genObj
