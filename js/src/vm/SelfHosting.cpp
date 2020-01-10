@@ -18363,17 +18363,12 @@ strictOption
 =
 true
 ;
-#
-ifdef
-DEBUG
 options
 .
 extraWarningsOption
 =
 true
 ;
-#
-endif
 }
 GlobalObject
 *
