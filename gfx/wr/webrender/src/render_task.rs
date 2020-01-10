@@ -3745,10 +3745,6 @@ pub
 target_kind
 :
 RenderTargetKind
-pub
-uv_rect_handle
-:
-GpuCacheHandle
 uv_rect_kind
 :
 UvRectKind
@@ -6679,14 +6675,6 @@ Scaling
 ScalingTask
 {
 target_kind
-uv_rect_handle
-:
-GpuCacheHandle
-:
-:
-new
-(
-)
 uv_rect_kind
 }
 )
