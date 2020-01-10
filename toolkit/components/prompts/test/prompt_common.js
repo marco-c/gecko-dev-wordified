@@ -49,6 +49,7 @@ jsm
 Services
 ;
 return
+(
 Services
 .
 prefs
@@ -74,6 +75,7 @@ getBoolPref
 (
 prefName
 )
+)
 ;
 }
 var
@@ -91,7 +93,6 @@ false
 var
 isOSX
 =
-(
 "
 nsILocalFileMac
 "
@@ -99,7 +100,6 @@ in
 SpecialPowers
 .
 Ci
-)
 ;
 var
 isE10S
@@ -437,6 +437,7 @@ isOSX
 !
 isTabModal
 )
+{
 ok
 (
 !
@@ -454,7 +455,9 @@ X
 "
 )
 ;
+}
 else
+{
 is
 (
 promptState
@@ -470,6 +473,7 @@ visibility
 "
 )
 ;
+}
 is
 (
 promptState
@@ -550,6 +554,7 @@ if
 !
 isTabModal
 )
+{
 is
 (
 promptState
@@ -567,6 +572,7 @@ class
 "
 )
 ;
+}
 is
 (
 promptState

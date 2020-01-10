@@ -702,9 +702,7 @@ redirectURI
 .
 catch
 (
-(
 requestError
-)
 =
 >
 {

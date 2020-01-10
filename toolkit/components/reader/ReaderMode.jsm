@@ -1820,6 +1820,7 @@ includeURLs
 "
 )
 )
+{
 errorMsg
 +
 =
@@ -1838,6 +1839,7 @@ newURL
 .
 "
 ;
+}
 reject
 (
 errorMsg
@@ -2179,9 +2181,11 @@ e
 .
 becauseNoSuchFile
 )
+{
 throw
 e
 ;
+}
 return
 null
 ;
@@ -2433,6 +2437,7 @@ this
 .
 DEBUG
 )
+{
 dump
 (
 "
@@ -2443,6 +2448,7 @@ Reader
 msg
 )
 ;
+}
 }
 /
 *
@@ -3002,6 +3008,7 @@ this
 _cryptoHash
 ;
 return
+(
 this
 .
 _cryptoHash
@@ -3026,6 +3033,7 @@ createInstance
 Ci
 .
 nsICryptoHash
+)
 )
 ;
 }

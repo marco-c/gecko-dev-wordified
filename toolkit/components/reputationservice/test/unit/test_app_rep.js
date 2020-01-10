@@ -1188,9 +1188,11 @@ Cr
 .
 NS_ERROR_INVALID_POINTER
 )
+{
 throw
 ex
 ;
+}
 /
 /
 We

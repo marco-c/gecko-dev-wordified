@@ -92,9 +92,7 @@ const
 ALLOWED
 =
 {
-"
 toolbar
-"
 :
 {
 flag
@@ -108,9 +106,7 @@ defaults_to
 :
 true
 }
-"
 personalbar
-"
 :
 {
 flag
@@ -124,9 +120,7 @@ defaults_to
 :
 true
 }
-"
 menubar
-"
 :
 {
 flag
@@ -140,9 +134,7 @@ defaults_to
 :
 true
 }
-"
 scrollbars
-"
 :
 {
 flag
@@ -156,9 +148,7 @@ defaults_to
 :
 false
 }
-"
 minimizable
-"
 :
 {
 flag
@@ -285,9 +275,7 @@ const
 DISALLOWED
 =
 {
-"
 location
-"
 :
 {
 flag
@@ -301,9 +289,7 @@ defaults_to
 :
 true
 }
-"
 chrome
-"
 :
 {
 flag
@@ -317,9 +303,7 @@ defaults_to
 :
 false
 }
-"
 dialog
-"
 :
 {
 flag
@@ -333,9 +317,7 @@ defaults_to
 :
 false
 }
-"
 private
-"
 :
 {
 flag
@@ -416,9 +398,7 @@ enabled
 by
 default
 .
-"
 popup
-"
 :
 {
 flag
@@ -432,9 +412,7 @@ defaults_to
 :
 false
 }
-"
 alwaysLowered
-"
 :
 {
 flag
@@ -471,9 +449,7 @@ defaults_to
 :
 false
 }
-"
 alwaysRaised
-"
 :
 {
 flag
@@ -487,9 +463,7 @@ defaults_to
 :
 false
 }
-"
 alwaysOnTop
-"
 :
 {
 flag
@@ -503,9 +477,7 @@ defaults_to
 :
 false
 }
-"
 suppressanimation
-"
 :
 {
 flag
@@ -519,9 +491,7 @@ defaults_to
 :
 false
 }
-"
 extrachrome
-"
 :
 {
 flag
@@ -535,9 +505,7 @@ defaults_to
 :
 false
 }
-"
 centerscreen
-"
 :
 {
 flag
@@ -551,9 +519,7 @@ defaults_to
 :
 false
 }
-"
 dependent
-"
 :
 {
 flag
@@ -567,9 +533,7 @@ defaults_to
 :
 false
 }
-"
 modal
-"
 :
 {
 flag
@@ -583,9 +547,7 @@ defaults_to
 :
 false
 }
-"
 titlebar
-"
 :
 {
 flag
@@ -599,9 +561,7 @@ defaults_to
 :
 true
 }
-"
 close
-"
 :
 {
 flag
@@ -615,9 +575,7 @@ defaults_to
 :
 true
 }
-"
 resizable
-"
 :
 {
 flag
@@ -631,9 +589,7 @@ defaults_to
 :
 true
 }
-"
 status
-"
 :
 {
 flag
@@ -1125,11 +1081,9 @@ Assert
 .
 ok
 (
-(
 chromeFlags
 &
 flag
-)
 Expected
 feature
 {
@@ -1210,11 +1164,9 @@ Assert
 .
 ok
 (
-(
 chromeFlags
 &
 flag
-)
 Expected
 feature
 {
@@ -1720,7 +1672,6 @@ Assert
 .
 notEqual
 (
-(
 parentChromeFlags
 &
 Ci
@@ -1728,7 +1679,6 @@ Ci
 nsIWebBrowserChrome
 .
 CHROME_ALL
-)
 Ci
 .
 nsIWebBrowserChrome

@@ -228,7 +228,6 @@ NetUtil
 .
 newURI
 (
-(
 uri
 &
 &
@@ -244,7 +243,6 @@ moz
 /
 eh
 "
-)
 ?
 kCanada
 :

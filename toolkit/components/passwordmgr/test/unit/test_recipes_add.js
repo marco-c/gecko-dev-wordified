@@ -320,9 +320,7 @@ Assert
 strictEqual
 (
 typeof
-(
 recipe
-)
 "
 object
 "
@@ -492,9 +490,7 @@ Assert
 strictEqual
 (
 typeof
-(
 recipe
-)
 "
 object
 "
@@ -665,9 +661,7 @@ Assert
 strictEqual
 (
 typeof
-(
 recipe
-)
 "
 object
 "
@@ -811,9 +805,7 @@ Assert
 strictEqual
 (
 typeof
-(
 fooRecipe
-)
 "
 object
 "
@@ -1010,9 +1002,7 @@ Assert
 strictEqual
 (
 typeof
-(
 recipe
-)
 "
 object
 "
@@ -1226,9 +1216,7 @@ Assert
 strictEqual
 (
 typeof
-(
 recipe
-)
 "
 object
 "

@@ -2370,7 +2370,6 @@ finalize
 this
 .
 finalizeBound
-(
 {
 fetchState
 :
@@ -2382,7 +2381,6 @@ this
 .
 progress
 }
-)
 )
 ;
 }
@@ -3885,9 +3883,7 @@ yieldingForEach
 (
 records
 async
-(
 record
-)
 =
 >
 {

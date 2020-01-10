@@ -64,9 +64,7 @@ ExtensionTestUtils
 normalizeManifest
 (
 {
-"
 theme
-"
 :
 {
 [

@@ -122,7 +122,6 @@ aValue
 )
 {
 return
-(
 typeof
 aValue
 =
@@ -130,16 +129,13 @@ aValue
 "
 string
 "
-)
 &
 &
-(
 aValue
 !
 =
 "
 "
-)
 ;
 }
 /
@@ -303,7 +299,6 @@ aValue
 null
 |
 |
-(
 typeof
 aValue
 =
@@ -311,7 +306,6 @@ aValue
 "
 boolean
 "
-)
 ;
 }
 function

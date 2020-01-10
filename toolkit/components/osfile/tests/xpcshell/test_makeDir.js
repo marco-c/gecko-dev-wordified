@@ -262,7 +262,6 @@ Assert
 equal
 (
 false
-(
 await
 OS
 .
@@ -271,7 +270,6 @@ File
 exists
 (
 dir
-)
 )
 )
 ;
@@ -545,7 +543,6 @@ Assert
 equal
 (
 false
-(
 await
 OS
 .
@@ -554,7 +551,6 @@ File
 exists
 (
 dir
-)
 )
 )
 ;
@@ -831,7 +827,6 @@ Assert
 equal
 (
 false
-(
 await
 OS
 .
@@ -840,7 +835,6 @@ File
 exists
 (
 dir3
-)
 )
 )
 ;
@@ -863,7 +857,6 @@ Assert
 .
 ok
 (
-(
 await
 OS
 .
@@ -872,7 +865,6 @@ File
 exists
 (
 dir3
-)
 )
 )
 ;
@@ -944,7 +936,6 @@ Assert
 equal
 (
 false
-(
 await
 OS
 .
@@ -953,7 +944,6 @@ File
 exists
 (
 dir4
-)
 )
 )
 ;
@@ -976,7 +966,6 @@ Assert
 .
 ok
 (
-(
 await
 OS
 .
@@ -985,7 +974,6 @@ File
 exists
 (
 dir4
-)
 )
 )
 ;

@@ -664,9 +664,7 @@ controller
 new
 SearchSuggestionController
 (
-(
 result
-)
 =
 >
 {

@@ -1023,6 +1023,7 @@ aNode
 .
 tags
 )
+{
 data
 .
 tags
@@ -1031,6 +1032,7 @@ aNode
 .
 tags
 ;
+}
 }
 else
 if
@@ -1256,6 +1258,7 @@ v
 input
 )
 )
+{
 throw
 new
 Error
@@ -1266,6 +1269,7 @@ value
 "
 )
 ;
+}
 return
 v
 ;
@@ -1483,9 +1487,7 @@ return
 if
 (
 typeof
-(
 v
-)
 =
 =
 "
@@ -1527,9 +1529,7 @@ val
 >
 (
 typeof
-(
 val
-)
 =
 =
 "
@@ -1591,9 +1591,7 @@ v
 if
 (
 typeof
-(
 v
-)
 =
 =
 =
@@ -1601,6 +1599,7 @@ v
 string
 "
 )
+{
 return
 new
 URL
@@ -1608,6 +1607,7 @@ URL
 v
 )
 ;
+}
 if
 (
 v
@@ -1616,6 +1616,7 @@ Ci
 .
 nsIURI
 )
+{
 return
 new
 URL
@@ -1625,6 +1626,7 @@ v
 spec
 )
 ;
+}
 return
 v
 ;
@@ -1667,17 +1669,13 @@ simpleValidateFunc
 v
 =
 >
-(
 typeof
-(
 v
-)
 =
 =
 "
 string
 "
-)
 &
 &
 v
@@ -1691,17 +1689,13 @@ simpleValidateFunc
 v
 =
 >
-(
 typeof
-(
 v
-)
 =
 =
 "
 string
 "
-)
 &
 &
 v
@@ -1715,17 +1709,13 @@ simpleValidateFunc
 v
 =
 >
-(
 typeof
-(
 v
-)
 =
 =
 "
 string
 "
-)
 &
 &
 v
@@ -1821,7 +1811,6 @@ string
 &
 &
 (
-(
 PlacesSyncUtils
 .
 bookmarks
@@ -1839,7 +1828,6 @@ PlacesUtils
 isValidGuid
 (
 v
-)
 )
 )
 )
@@ -2099,6 +2087,7 @@ feed
 v
 =
 >
+(
 v
 =
 =
@@ -2113,11 +2102,13 @@ url
 (
 v
 )
+)
 site
 :
 v
 =
 >
+(
 v
 =
 =
@@ -2131,6 +2122,7 @@ BOOKMARK_VALIDATORS
 url
 (
 v
+)
 )
 title
 :
@@ -2804,7 +2796,6 @@ inVisit
 .
 date
 >
-(
 Date
 .
 now
@@ -2812,7 +2803,6 @@ now
 )
 +
 TIMERS_RESOLUTION_SKEW_MS
-)
 )
 {
 throw
@@ -3293,6 +3283,7 @@ guid
 )
 {
 return
+(
 guid
 =
 =
@@ -3323,6 +3314,7 @@ guid
 PlacesUtils
 .
 virtualTagsGuid
+)
 ;
 }
 asContainer
@@ -3390,7 +3382,6 @@ string
 guid
 &
 &
-(
 /
 ^
 [
@@ -3413,7 +3404,6 @@ _
 test
 (
 guid
-)
 )
 ;
 }
@@ -3450,6 +3440,7 @@ guidPrefix
 )
 {
 return
+(
 typeof
 guidPrefix
 =
@@ -3462,7 +3453,6 @@ string
 guidPrefix
 &
 &
-(
 /
 ^
 [
@@ -3613,11 +3603,9 @@ url
 {
 url
 =
-(
 url
 instanceof
 URL
-)
 ?
 url
 .
@@ -3696,6 +3684,7 @@ name
 Date
 "
 )
+{
 throw
 new
 Error
@@ -3709,6 +3698,7 @@ toPRTime
 "
 )
 ;
+}
 return
 date
 *
@@ -3760,6 +3750,7 @@ time
 number
 "
 )
+{
 throw
 new
 Error
@@ -3773,6 +3764,7 @@ toDate
 "
 )
 ;
+}
 return
 new
 Date
@@ -4103,12 +4095,14 @@ Ci
 .
 nsIURI
 )
+{
 url
 =
 url
 .
 spec
 ;
+}
 else
 if
 (
@@ -4116,12 +4110,14 @@ url
 instanceof
 URL
 )
+{
 url
 =
 url
 .
 href
 ;
+}
 /
 /
 Faster
@@ -4139,9 +4135,11 @@ this
 ACTION_SCHEME
 )
 )
+{
 return
 null
 ;
+}
 try
 {
 let
@@ -4549,6 +4547,7 @@ aNode
 )
 {
 return
+(
 aNode
 .
 type
@@ -4568,6 +4567,7 @@ itemId
 =
 -
 1
+)
 ;
 }
 /
@@ -5052,6 +5052,7 @@ object
 !
 props
 )
+{
 throw
 new
 Error
@@ -5068,6 +5069,7 @@ valid
 object
 )
 ;
+}
 /
 /
 Make
@@ -5529,6 +5531,7 @@ size
 >
 0
 )
+{
 throw
 new
 Error
@@ -5559,6 +5562,7 @@ join
 }
 )
 ;
+}
 return
 normalizedInput
 ;
@@ -5748,6 +5752,7 @@ aNode
 )
 {
 return
+(
 aNode
 .
 type
@@ -5782,6 +5787,7 @@ Ci
 nsINavHistoryQueryOptions
 .
 RESULTS_AS_SITE_QUERY
+)
 ;
 }
 /
@@ -5831,6 +5837,7 @@ var
 resultType
 ;
 return
+(
 aNode
 .
 type
@@ -5880,6 +5887,7 @@ Ci
 nsINavHistoryQueryOptions
 .
 RESULTS_AS_DATE_SITE_QUERY
+)
 )
 ;
 }
@@ -5943,9 +5951,11 @@ nsINavHistoryResultNode
 .
 RESULT_TYPE_QUERY
 )
+{
 return
 false
 ;
+}
 /
 /
 Direct
@@ -5983,9 +5993,11 @@ nsINavHistoryQueryOptions
 .
 RESULTS_AS_TAGS_ROOT
 )
+{
 return
 true
 ;
+}
 /
 /
 We
@@ -6066,9 +6078,11 @@ length
 =
 1
 )
+{
 return
 true
 ;
+}
 return
 false
 ;
@@ -6198,6 +6212,7 @@ var
 resultType
 ;
 return
+(
 this
 .
 nodeIsQuery
@@ -6261,6 +6276,7 @@ this
 nodeIsHost
 (
 aNode
+)
 )
 )
 ;
@@ -6420,6 +6436,7 @@ nsINavHistoryResultNode
 .
 RESULT_TYPE_FOLDER_SHORTCUT
 )
+{
 return
 asQuery
 (
@@ -6428,6 +6445,7 @@ aNode
 .
 targetFolderGuid
 ;
+}
 return
 aNode
 .
@@ -6504,6 +6522,7 @@ url
 )
 {
 return
+(
 url
 .
 host
@@ -6527,6 +6546,7 @@ join
 "
 .
 "
+)
 ;
 }
 /
@@ -6876,12 +6896,14 @@ if
 !
 wasOpen
 )
+{
 node
 .
 containerOpen
 =
 true
 ;
+}
 let
 childString
 =
@@ -6987,6 +7009,7 @@ nodeIsURI
 node
 )
 )
+{
 return
 <
 A
@@ -7011,6 +7034,7 @@ A
 NEWLINE
 }
 ;
+}
 if
 (
 PlacesUtils
@@ -7020,6 +7044,7 @@ nodeIsSeparator
 node
 )
 )
+{
 return
 "
 <
@@ -7029,6 +7054,7 @@ HR
 +
 NEWLINE
 ;
+}
 return
 "
 "
@@ -7067,12 +7093,14 @@ if
 !
 wasOpen
 )
+{
 node
 .
 containerOpen
 =
 true
 ;
+}
 let
 childString
 =
@@ -7120,11 +7148,9 @@ suffix
 =
 i
 <
-(
 cc
 -
 1
-)
 ?
 NEWLINE
 :
@@ -7161,11 +7187,13 @@ nodeIsURI
 node
 )
 )
+{
 return
 node
 .
 uri
 ;
+}
 if
 (
 PlacesUtils
@@ -7175,6 +7203,7 @@ nodeIsSeparator
 node
 )
 )
+{
 return
 "
 -
@@ -7199,6 +7228,7 @@ return
 -
 "
 ;
+}
 return
 "
 "
@@ -7584,8 +7614,10 @@ length
 %
 2
 )
+{
 break
 ;
+}
 for
 (
 let
@@ -8466,6 +8498,7 @@ this
 placesRootId
 ;
 return
+(
 this
 .
 placesRootId
@@ -8475,6 +8508,7 @@ this
 bookmarks
 .
 placesRoot
+)
 ;
 }
 get
@@ -8488,6 +8522,7 @@ this
 bookmarksMenuFolderId
 ;
 return
+(
 this
 .
 bookmarksMenuFolderId
@@ -8497,6 +8532,7 @@ this
 bookmarks
 .
 bookmarksMenuFolder
+)
 ;
 }
 get
@@ -8510,6 +8546,7 @@ this
 toolbarFolderId
 ;
 return
+(
 this
 .
 toolbarFolderId
@@ -8519,6 +8556,7 @@ this
 bookmarks
 .
 toolbarFolder
+)
 ;
 }
 get
@@ -8532,6 +8570,7 @@ this
 tagsFolderId
 ;
 return
+(
 this
 .
 tagsFolderId
@@ -8541,6 +8580,7 @@ this
 bookmarks
 .
 tagsFolder
+)
 ;
 }
 /
@@ -8592,6 +8632,7 @@ guid
 )
 {
 return
+(
 guid
 =
 =
@@ -8650,6 +8691,7 @@ PlacesUtils
 bookmarks
 .
 mobileGuid
+)
 ;
 }
 /
@@ -8801,11 +8843,13 @@ nodeIsContainer
 aNode
 )
 )
+{
 throw
 Cr
 .
 NS_ERROR_INVALID_ARG
 ;
+}
 /
 /
 excludeItems
@@ -8912,9 +8956,11 @@ expandQueries
 =
 aExpandQueries
 )
+{
 return
 aNode
 ;
+}
 /
 /
 Otherwise
@@ -9055,9 +9101,11 @@ nodeIsContainer
 aNode
 )
 )
+{
 return
 false
 ;
+}
 let
 root
 =
@@ -9106,12 +9154,14 @@ if
 !
 didSuppressNotifications
 )
+{
 result
 .
 suppressNotifications
 =
 true
 ;
+}
 root
 .
 containerOpen
@@ -9165,10 +9215,12 @@ nodeIsURI
 child
 )
 )
+{
 found
 =
 true
 ;
+}
 }
 if
 (
@@ -9187,12 +9239,14 @@ if
 !
 didSuppressNotifications
 )
+{
 result
 .
 suppressNotifications
 =
 false
 ;
+}
 }
 return
 found
@@ -9284,9 +9338,11 @@ nodeIsContainer
 aNode
 )
 )
+{
 return
 urls
 ;
+}
 let
 root
 =
@@ -9335,12 +9391,14 @@ if
 !
 didSuppressNotifications
 )
+{
 result
 .
 suppressNotifications
 =
 true
 ;
+}
 root
 .
 containerOpen
@@ -9385,6 +9443,7 @@ nodeIsURI
 child
 )
 )
+{
 urls
 .
 push
@@ -9412,6 +9471,7 @@ title
 )
 ;
 }
+}
 if
 (
 !
@@ -9429,12 +9489,14 @@ if
 !
 didSuppressNotifications
 )
+{
 result
 .
 suppressNotifications
 =
 false
 ;
+}
 }
 return
 urls
@@ -10115,6 +10177,7 @@ size
 )
 {
 return
+(
 href
 +
 (
@@ -10141,7 +10204,6 @@ size
 =
 "
 +
-(
 Math
 .
 round
@@ -11252,6 +11314,7 @@ val
 =
 null
 )
+{
 item
 [
 prop
@@ -11259,6 +11322,7 @@ prop
 =
 val
 ;
+}
 }
 }
 ;
@@ -11285,6 +11349,7 @@ if
 (
 aIncludeParentGuid
 )
+{
 copyProps
 (
 "
@@ -11292,6 +11357,7 @@ parentGuid
 "
 )
 ;
+}
 let
 itemId
 =
@@ -11310,12 +11376,14 @@ aOptions
 .
 includeItemIds
 )
+{
 item
 .
 id
 =
 itemId
 ;
+}
 /
 /
 Cache
@@ -11364,6 +11432,7 @@ nsINavBookmarksService
 .
 TYPE_BOOKMARK
 )
+{
 copyProps
 (
 "
@@ -11377,6 +11446,7 @@ iconuri
 "
 )
 ;
+}
 switch
 (
 type
@@ -11553,6 +11623,7 @@ bookmarks
 .
 rootGuid
 )
+{
 item
 .
 root
@@ -11561,6 +11632,7 @@ root
 placesRoot
 "
 ;
+}
 else
 if
 (
@@ -11575,6 +11647,7 @@ bookmarks
 .
 menuGuid
 )
+{
 item
 .
 root
@@ -11583,6 +11656,7 @@ root
 bookmarksMenuFolder
 "
 ;
+}
 else
 if
 (
@@ -11597,6 +11671,7 @@ bookmarks
 .
 unfiledGuid
 )
+{
 item
 .
 root
@@ -11605,6 +11680,7 @@ root
 unfiledBookmarksFolder
 "
 ;
+}
 else
 if
 (
@@ -11619,6 +11695,7 @@ bookmarks
 .
 toolbarGuid
 )
+{
 item
 .
 root
@@ -11627,6 +11704,7 @@ root
 toolbarFolder
 "
 ;
+}
 else
 if
 (
@@ -11641,6 +11719,7 @@ bookmarks
 .
 mobileGuid
 )
+{
 item
 .
 root
@@ -11649,6 +11728,7 @@ root
 mobileFolder
 "
 ;
+}
 break
 ;
 case
@@ -12054,6 +12134,7 @@ if
 !
 aItemGuid
 )
+{
 aItemGuid
 =
 this
@@ -12062,6 +12143,7 @@ bookmarks
 .
 rootGuid
 ;
+}
 let
 hasExcludeItemsCallback
 =
@@ -12126,6 +12208,7 @@ this
 .
 TYPE_X_MOZ_PLACE_CONTAINER
 )
+{
 excludedParents
 .
 add
@@ -12135,6 +12218,7 @@ aItem
 guid
 )
 ;
+}
 }
 return
 exclude
@@ -12338,8 +12422,10 @@ item
 parentGuid
 )
 )
+{
 continue
 ;
+}
 let
 parentItem
 =
@@ -12358,6 +12444,7 @@ children
 in
 parentItem
 )
+{
 parentItem
 .
 children
@@ -12367,7 +12454,9 @@ push
 item
 )
 ;
+}
 else
+{
 parentItem
 .
 children
@@ -12376,6 +12465,7 @@ children
 item
 ]
 ;
+}
 rootItem
 .
 itemsCount
@@ -12433,6 +12523,7 @@ this
 .
 TYPE_X_MOZ_PLACE_CONTAINER
 )
+{
 parentsMap
 .
 set
@@ -12443,6 +12534,7 @@ guid
 item
 )
 ;
+}
 /
 /
 With
@@ -14786,15 +14878,14 @@ null
 if
 (
 typeof
-(
 keywordOrEntry
-)
 =
 =
 "
 string
 "
 )
+{
 keywordOrEntry
 =
 {
@@ -14803,6 +14894,7 @@ keyword
 keywordOrEntry
 }
 ;
+}
 if
 (
 keywordOrEntry
@@ -14813,9 +14905,7 @@ null
 |
 |
 typeof
-(
 keywordOrEntry
-)
 !
 =
 "
@@ -14824,21 +14914,17 @@ object
 |
 |
 (
-(
 "
 keyword
 "
 in
 keywordOrEntry
-)
 &
 &
 typeof
-(
 keywordOrEntry
 .
 keyword
-)
 !
 =
 "
@@ -14846,6 +14932,7 @@ string
 "
 )
 )
+{
 throw
 new
 Error
@@ -14856,6 +14943,7 @@ keyword
 "
 )
 ;
+}
 let
 hasKeyword
 =
@@ -14883,6 +14971,7 @@ hasKeyword
 !
 hasUrl
 )
+{
 throw
 new
 Error
@@ -14899,6 +14988,7 @@ provided
 "
 )
 ;
+}
 if
 (
 onResult
@@ -14912,6 +15002,7 @@ onResult
 function
 "
 )
+{
 throw
 new
 Error
@@ -14927,6 +15018,7 @@ function
 "
 )
 ;
+}
 if
 (
 hasUrl
@@ -14976,6 +15068,7 @@ if
 (
 hasKeyword
 )
+{
 keywordOrEntry
 .
 keyword
@@ -14992,6 +15085,7 @@ toLowerCase
 (
 )
 ;
+}
 let
 safeOnResult
 =
@@ -15066,6 +15160,7 @@ if
 (
 entry
 )
+{
 entries
 .
 push
@@ -15073,6 +15168,7 @@ push
 entry
 )
 ;
+}
 }
 if
 (
@@ -15106,6 +15202,7 @@ url
 .
 href
 )
+{
 entries
 .
 push
@@ -15113,6 +15210,7 @@ push
 entry
 )
 ;
+}
 }
 }
 entries
@@ -15126,6 +15224,7 @@ e
 >
 {
 return
+(
 (
 !
 hasUrl
@@ -15159,6 +15258,7 @@ keyword
 keywordOrEntry
 .
 keyword
+)
 )
 ;
 }
@@ -15332,6 +15432,7 @@ keywordEntry
 object
 "
 )
+{
 throw
 new
 Error
@@ -15346,6 +15447,7 @@ object
 "
 )
 ;
+}
 if
 (
 !
@@ -15365,17 +15467,16 @@ keyword
 |
 |
 typeof
-(
 keywordEntry
 .
 keyword
-)
 !
 =
 "
 string
 "
 )
+{
 throw
 new
 Error
@@ -15386,15 +15487,14 @@ keyword
 "
 )
 ;
+}
 if
-(
 (
 "
 postData
 "
 in
 keywordEntry
-)
 &
 &
 keywordEntry
@@ -15403,17 +15503,16 @@ postData
 &
 &
 typeof
-(
 keywordEntry
 .
 postData
-)
 !
 =
 "
 string
 "
 )
+{
 throw
 new
 Error
@@ -15425,6 +15524,7 @@ data
 "
 )
 ;
+}
 if
 (
 !
@@ -15436,6 +15536,7 @@ in
 keywordEntry
 )
 )
+{
 throw
 new
 Error
@@ -15450,6 +15551,7 @@ URL
 "
 )
 ;
+}
 if
 (
 !
@@ -15975,6 +16077,7 @@ postData
 =
 postData
 )
+{
 oldKeywords
 .
 push
@@ -15984,6 +16087,7 @@ entry
 keyword
 )
 ;
+}
 }
 if
 (
@@ -16185,9 +16289,7 @@ keywordOrEntry
 if
 (
 typeof
-(
 keywordOrEntry
-)
 =
 =
 "
@@ -16221,9 +16323,7 @@ null
 |
 |
 typeof
-(
 keywordOrEntry
-)
 !
 =
 "
@@ -16247,6 +16347,7 @@ keyword
 string
 "
 )
+{
 throw
 new
 Error
@@ -16257,6 +16358,7 @@ keyword
 "
 )
 ;
+}
 let
 {
 keyword
@@ -16320,8 +16422,10 @@ has
 keyword
 )
 )
+{
 return
 ;
+}
 let
 {
 url
@@ -18154,9 +18258,11 @@ cached
 =
 undefined
 )
+{
 return
 cached
 ;
+}
 let
 itemId
 =
@@ -18221,6 +18327,7 @@ length
 =
 0
 )
+{
 throw
 new
 Error
@@ -18236,6 +18343,7 @@ GUID
 "
 )
 ;
+}
 return
 rows
 [
@@ -18393,6 +18501,7 @@ chunk
 .
 length
 )
+{
 throw
 new
 Error
@@ -18407,6 +18516,7 @@ found
 "
 )
 ;
+}
 for
 (
 let
@@ -18491,9 +18601,11 @@ cached
 =
 undefined
 )
+{
 return
 cached
 ;
+}
 let
 guid
 =
@@ -18558,6 +18670,7 @@ length
 =
 0
 )
+{
 throw
 new
 Error
@@ -18573,6 +18686,7 @@ itemId
 "
 )
 ;
+}
 return
 rows
 [
@@ -18647,9 +18761,7 @@ aGuid
 if
 (
 typeof
-(
 aItemId
-)
 !
 =
 "
@@ -18662,6 +18774,7 @@ aItemId
 =
 0
 )
+{
 throw
 new
 Error
@@ -18680,6 +18793,7 @@ itemId
 "
 )
 ;
+}
 if
 (
 !
@@ -18690,6 +18804,7 @@ isValidGuid
 aGuid
 )
 )
+{
 throw
 new
 Error
@@ -18708,6 +18823,7 @@ GUID
 "
 )
 ;
+}
 this
 .
 ensureObservingRemovedItems

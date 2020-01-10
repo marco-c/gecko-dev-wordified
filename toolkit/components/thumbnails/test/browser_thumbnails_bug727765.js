@@ -84,10 +84,8 @@ expectedR
 <
 =
 aFuzz
-)
 &
 &
-(
 Math
 .
 abs
@@ -99,10 +97,8 @@ expectedG
 <
 =
 aFuzz
-)
 &
 &
-(
 Math
 .
 abs

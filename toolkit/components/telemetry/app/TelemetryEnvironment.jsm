@@ -2674,9 +2674,7 @@ aValue
 if
 (
 typeof
-(
 aValue
-)
 !
 =
 =
@@ -2686,9 +2684,7 @@ number
 &
 &
 typeof
-(
 aValue
-)
 !
 =
 =
@@ -3383,9 +3379,7 @@ aMaxLength
 if
 (
 typeof
-(
 aString
-)
 !
 =
 =
@@ -4653,9 +4647,7 @@ _updateAddons
 .
 then
 (
-(
 result
-)
 =
 >
 {
@@ -4686,9 +4678,7 @@ oldEnvironment
 ;
 }
 }
-(
 err
-)
 =
 >
 {
@@ -5354,7 +5344,6 @@ id
 {
 blocklisted
 :
-(
 addon
 .
 blocklistState
@@ -5366,7 +5355,6 @@ Ci
 nsIBlocklistService
 .
 STATE_NOT_BLOCKED
-)
 description
 :
 limitStringToLength
@@ -5615,7 +5603,6 @@ theme
 id
 blocklisted
 :
-(
 theme
 .
 blocklistState
@@ -5627,7 +5614,6 @@ Ci
 nsIBlocklistService
 .
 STATE_NOT_BLOCKED
-)
 description
 :
 limitStringToLength
@@ -6826,9 +6812,7 @@ then
 setup
 (
 )
-(
 err
-)
 =
 >
 {
@@ -7631,9 +7615,7 @@ saneId
 ]
 =
 {
-"
 branch
-"
 :
 saneBranch
 }
@@ -9100,14 +9082,12 @@ update
 .
 autoDownload
 =
-(
 aData
 =
 =
 "
 true
 "
-)
 ;
 break
 ;
@@ -11711,11 +11691,9 @@ Windows
 if
 (
 typeof
-(
 data
 .
 version
-)
 =
 =
 =
@@ -11806,13 +11784,11 @@ data
 .
 windowsUBR
 =
-(
 ubr
 !
 =
 =
 undefined
-)
 ?
 ubr
 :

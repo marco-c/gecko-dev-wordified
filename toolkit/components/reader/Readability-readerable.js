@@ -373,6 +373,7 @@ nodes
 .
 return
 (
+(
 !
 node
 .
@@ -400,6 +401,7 @@ hasAttribute
 "
 hidden
 "
+)
 )
 ;
 }
@@ -657,9 +659,11 @@ isVisible
 node
 )
 )
+{
 return
 false
 ;
+}
 var
 matchString
 =

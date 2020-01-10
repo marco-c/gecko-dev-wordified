@@ -1162,6 +1162,7 @@ cases
 var
 Scheduler
 =
+(
 this
 .
 Scheduler
@@ -1927,6 +1928,7 @@ deferred
 promise
 ;
 return
+(
 this
 .
 _killQueue
@@ -2238,12 +2240,14 @@ reset
 &
 &
 (
+(
 openedFiles
 &
 &
 openedFiles
 .
 length
+)
 |
 |
 (
@@ -2460,6 +2464,7 @@ resolve
 }
 )
 (
+)
 )
 ;
 }
@@ -3446,6 +3451,7 @@ launchTimeStamp
 ;
 }
 }
+)
 ;
 const
 PREF_OSFILE_LOG
@@ -4298,6 +4304,7 @@ _fdmsg
 null
 ;
 return
+(
 this
 .
 _closeResult
@@ -4313,6 +4320,7 @@ File_prototype_close
 msg
 ]
 this
+)
 )
 ;
 }
@@ -8859,7 +8867,6 @@ buffer
 )
 &
 &
-(
 !
 (
 "
@@ -8867,7 +8874,6 @@ bytes
 "
 in
 options
-)
 )
 )
 {
@@ -10333,6 +10339,7 @@ x
 )
 {
 return
+(
 SharedAll
 .
 Config
@@ -10340,6 +10347,7 @@ Config
 DEBUG
 =
 x
+)
 ;
 }
 }

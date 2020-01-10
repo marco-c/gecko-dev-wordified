@@ -5549,9 +5549,7 @@ return
 sum
 /
 count
-)
 +
-(
 stddevMultiplier
 *
 Math
@@ -5562,14 +5560,12 @@ sqrt
 squares
 -
 (
-(
 sum
 *
 sum
 )
 /
 count
-)
 )
 /
 count

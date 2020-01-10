@@ -467,9 +467,11 @@ Math
 .
 min
 (
+(
 expectedWidth
 *
 height
+)
 /
 width
 expectedWidth
@@ -628,7 +630,6 @@ image
 encoding
 ok
 (
-(
 Math
 .
 abs
@@ -675,7 +676,6 @@ color
 <
 =
 2
-)
 "
 The
 thumbnail

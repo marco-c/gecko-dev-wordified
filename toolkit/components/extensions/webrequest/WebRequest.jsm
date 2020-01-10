@@ -2681,9 +2681,7 @@ wrapper
 .
 authPromptCallback
 =
-(
 authCredentials
-)
 =
 >
 {
@@ -6391,9 +6389,7 @@ onErrorOccurred
 onErrorOccurred
 getSecurityInfo
 :
-(
 details
-)
 =
 >
 {

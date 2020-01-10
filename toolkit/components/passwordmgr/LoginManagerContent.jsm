@@ -620,7 +620,6 @@ aStatus
 {
 if
 (
-(
 aState
 &
 Ci
@@ -628,10 +627,8 @@ Ci
 nsIWebProgressListener
 .
 STATE_RESTORING
-)
 &
 &
-(
 aState
 &
 Ci
@@ -639,7 +636,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_STOP
-)
 )
 {
 /
@@ -2775,9 +2771,7 @@ addEventListener
 "
 pageshow
 "
-(
 event
-)
 =
 >
 {
@@ -4243,9 +4237,7 @@ forms
 let
 hasInsecureLoginForms
 =
-(
 thisWindow
-)
 =
 >
 {
@@ -4292,6 +4284,7 @@ length
 ;
 return
 (
+(
 hasLoginForm
 &
 &
@@ -4319,6 +4312,7 @@ frame
 hasInsecureLoginForms
 (
 frame
+)
 )
 )
 ;
@@ -6653,7 +6647,6 @@ value
 let
 pw3
 =
-(
 pwFields
 [
 2
@@ -6669,7 +6662,6 @@ element
 value
 :
 null
-)
 ;
 if
 (
@@ -9864,7 +9856,6 @@ l
 let
 fit
 =
-(
 l
 .
 username
@@ -9883,7 +9874,6 @@ length
 <
 =
 maxPasswordLen
-)
 ;
 if
 (

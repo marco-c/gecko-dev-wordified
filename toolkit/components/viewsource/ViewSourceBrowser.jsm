@@ -492,9 +492,7 @@ messages
 .
 forEach
 (
-(
 msgName
-)
 =
 >
 {
@@ -555,9 +553,7 @@ messages
 .
 forEach
 (
-(
 msgName
-)
 =
 >
 {
@@ -929,6 +925,7 @@ _bundle
 ;
 }
 return
+(
 this
 .
 _bundle
@@ -940,6 +937,7 @@ strings
 createBundle
 (
 BUNDLE_URL
+)
 )
 ;
 }
@@ -1610,8 +1608,10 @@ if
 !
 ok
 )
+{
 return
 ;
+}
 let
 line
 =

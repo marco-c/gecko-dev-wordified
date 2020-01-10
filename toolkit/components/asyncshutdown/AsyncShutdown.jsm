@@ -477,11 +477,13 @@ nsICrashReporter
 )
 ;
 return
+(
 this
 .
 gCrashReporter
 =
 reporter
+)
 ;
 }
 catch
@@ -490,11 +492,13 @@ ex
 )
 {
 return
+(
 this
 .
 gCrashReporter
 =
 null
+)
 ;
 }
 }
@@ -1254,7 +1258,6 @@ object
 }
 if
 (
-(
 !
 (
 "
@@ -1262,7 +1265,6 @@ then
 "
 in
 key
-)
 )
 |
 |
@@ -3564,7 +3566,6 @@ DELAY_CRASH_MS
 )
 .
 catch
-(
 /
 /
 Additional
@@ -3578,6 +3579,7 @@ we
 cannot
 reject
 .
+(
 )
 ;
 }
@@ -3625,9 +3627,11 @@ then
 )
 =
 >
+(
 satisfied
 =
 true
+)
 )
 ;
 /
@@ -5030,7 +5034,6 @@ error
 )
 .
 catch
-(
 /
 /
 Added
@@ -5055,6 +5058,7 @@ throws
 an
 error
 .
+(
 )
 ;
 let
@@ -5340,9 +5344,7 @@ otherwise
 /
 removeBlocker
 :
-(
 condition
-)
 =
 >
 {
@@ -5730,6 +5732,7 @@ _promise
 ;
 }
 return
+(
 this
 .
 _promise
@@ -5739,6 +5742,7 @@ this
 _wait
 (
 options
+)
 )
 ;
 }

@@ -559,7 +559,6 @@ now
 ;
 while
 (
-(
 Date
 .
 now
@@ -567,11 +566,11 @@ now
 )
 -
 startTime
-)
 <
 10000
 )
-;
+{
+}
 }
 )
 ;
@@ -593,7 +592,6 @@ now
 ;
 while
 (
-(
 Date
 .
 now
@@ -601,11 +599,11 @@ now
 )
 -
 startTime
-)
 <
 1000
 )
-;
+{
+}
 }
 )
 ;

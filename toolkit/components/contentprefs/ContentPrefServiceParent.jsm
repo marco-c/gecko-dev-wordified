@@ -163,14 +163,12 @@ context
 )
 {
 return
-(
 context
 &
 &
 context
 .
 usePrivateBrowsing
-)
 ?
 privateLoadContext
 :
@@ -423,8 +421,10 @@ if
 !
 observer
 )
+{
 return
 ;
+}
 for
 (
 let

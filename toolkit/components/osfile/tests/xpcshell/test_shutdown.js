@@ -567,7 +567,6 @@ Path
 .
 join
 (
-(
 await
 OS
 .
@@ -575,7 +574,6 @@ File
 .
 getCurrentDirectory
 (
-)
 )
 "
 .
@@ -627,7 +625,6 @@ Assert
 .
 ok
 (
-(
 await
 testLeaksOf
 (
@@ -641,7 +638,6 @@ dir
 .
 leak
 "
-)
 )
 )
 ;
@@ -674,7 +670,6 @@ Assert
 equal
 (
 false
-(
 await
 testLeaksOf
 (
@@ -688,7 +683,6 @@ dir
 .
 noleak
 "
-)
 )
 )
 ;
@@ -763,7 +757,6 @@ Assert
 .
 ok
 (
-(
 await
 testLeaksOf
 (
@@ -777,7 +770,6 @@ file
 .
 leak
 "
-)
 )
 )
 ;
@@ -810,7 +802,6 @@ Assert
 equal
 (
 false
-(
 await
 testLeaksOf
 (
@@ -826,7 +817,6 @@ leak
 .
 2
 "
-)
 )
 )
 ;

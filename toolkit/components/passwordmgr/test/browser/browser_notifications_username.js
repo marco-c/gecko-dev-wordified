@@ -420,9 +420,7 @@ panel
 "
 popupshown
 "
-(
 event
-)
 =
 >
 event

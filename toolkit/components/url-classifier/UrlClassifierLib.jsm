@@ -355,24 +355,28 @@ fn
 .
 boundSelf_
 )
+{
 self
 =
 fn
 .
 boundSelf_
 ;
+}
 if
 (
 fn
 .
 boundFn_
 )
+{
 fn
 =
 fn
 .
 boundFn_
 ;
+}
 var
 newfn
 =
@@ -984,7 +988,6 @@ this
 MAX_REQUESTS_
 |
 |
-(
 now
 -
 this
@@ -993,7 +996,6 @@ requestTimes_
 [
 0
 ]
-)
 >
 this
 .
@@ -1052,6 +1054,7 @@ this
 .
 MAX_REQUESTS_
 )
+{
 this
 .
 requestTimes_
@@ -1060,6 +1063,7 @@ shift
 (
 )
 ;
+}
 }
 ;
 RequestBackoff
@@ -1149,6 +1153,7 @@ this
 .
 MAX_ERRORS_
 )
+{
 this
 .
 errorTimeout_
@@ -1157,6 +1162,7 @@ this
 .
 RETRY_INCREMENT_
 ;
+}
 else
 if
 (
@@ -1169,6 +1175,7 @@ this
 .
 MAX_ERRORS_
 )
+{
 this
 .
 errorTimeout_
@@ -1177,7 +1184,9 @@ this
 .
 TIMEOUT_INCREMENT_
 ;
+}
 else
+{
 this
 .
 errorTimeout_
@@ -1185,6 +1194,7 @@ errorTimeout_
 =
 2
 ;
+}
 this
 .
 errorTimeout_

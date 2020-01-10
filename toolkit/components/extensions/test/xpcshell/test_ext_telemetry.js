@@ -1706,9 +1706,7 @@ test
 dynamic
 "
 {
-"
 webext_string
-"
 :
 {
 kind
@@ -1861,9 +1859,7 @@ test
 dynamic
 "
 {
-"
 webext_string
-"
 :
 {
 kind
@@ -1882,9 +1878,7 @@ record_on_release
 :
 true
 }
-"
 webext_string_too
-"
 :
 {
 kind
@@ -2079,9 +2073,7 @@ test
 dynamic
 "
 {
-"
 webext_boolean
-"
 :
 {
 kind
@@ -2230,9 +2222,7 @@ test
 dynamic
 "
 {
-"
 webext_count
-"
 :
 {
 kind
@@ -2381,9 +2371,7 @@ test
 dynamic
 "
 {
-"
 test1
-"
 :
 {
 methods

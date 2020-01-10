@@ -188,9 +188,7 @@ registerEvents
 (
 DYNAMIC_CATEGORY
 {
-"
 an_event
-"
 :
 {
 methods
@@ -263,9 +261,7 @@ dynamic
 +
 i
 {
-"
 scalar_name
-"
 :
 {
 kind

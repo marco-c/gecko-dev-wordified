@@ -111,6 +111,7 @@ if
 (
 aKeyword
 )
+{
 aKeyword
 =
 aKeyword
@@ -119,6 +120,7 @@ toLowerCase
 (
 )
 ;
+}
 if
 (
 aKeyword
@@ -373,8 +375,10 @@ prop
 keyword
 "
 )
+{
 return
 ;
+}
 let
 args
 =
@@ -398,6 +402,7 @@ Ci
 .
 nsIURI
 )
+{
 return
 new
 URL
@@ -407,15 +412,14 @@ arg
 spec
 )
 ;
+}
 if
 (
 arg
 &
 &
 typeof
-(
 arg
-)
 =
 =
 "
@@ -434,6 +438,7 @@ now
 *
 1000
 )
+{
 return
 new
 Date
@@ -446,6 +451,7 @@ arg
 )
 )
 ;
+}
 return
 arg
 ;
@@ -669,7 +675,6 @@ lastModified
 bookmark
 .
 type
-(
 await
 PlacesUtils
 .
@@ -678,7 +683,6 @@ promiseItemId
 bookmark
 .
 parentGuid
-)
 )
 bookmark
 .
@@ -711,12 +715,10 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
 URI1
-)
 )
 fc
 +
@@ -816,12 +818,10 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
 URI1
-)
 )
 fc
 +
@@ -1026,7 +1026,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -1035,7 +1034,6 @@ promiseItemId
 bookmark1
 .
 guid
-)
 )
 "
 keyword
@@ -1051,7 +1049,6 @@ lastModified
 bookmark1
 .
 type
-(
 await
 PlacesUtils
 .
@@ -1060,7 +1057,6 @@ promiseItemId
 bookmark1
 .
 parentGuid
-)
 )
 bookmark1
 .
@@ -1086,7 +1082,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -1095,7 +1090,6 @@ promiseItemId
 bookmark2
 .
 guid
-)
 )
 "
 keyword
@@ -1112,7 +1106,6 @@ lastModified
 bookmark2
 .
 type
-(
 await
 PlacesUtils
 .
@@ -1121,7 +1114,6 @@ promiseItemId
 bookmark2
 .
 parentGuid
-)
 )
 bookmark2
 .
@@ -1167,12 +1159,10 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
 URI1
-)
 )
 fc1
 -
@@ -1197,12 +1187,10 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
 URI2
-)
 )
 fc2
 +
@@ -1346,7 +1334,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -1358,7 +1345,6 @@ bookmarks
 ]
 .
 guid
-)
 )
 "
 keyword
@@ -1381,7 +1367,6 @@ bookmarks
 ]
 .
 type
-(
 await
 PlacesUtils
 .
@@ -1393,7 +1378,6 @@ bookmarks
 ]
 .
 parentGuid
-)
 )
 bookmarks
 [
@@ -1425,7 +1409,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -1437,7 +1420,6 @@ bookmarks
 ]
 .
 guid
-)
 )
 "
 keyword
@@ -1460,7 +1442,6 @@ bookmarks
 ]
 .
 type
-(
 await
 PlacesUtils
 .
@@ -1472,7 +1453,6 @@ bookmarks
 ]
 .
 parentGuid
-)
 )
 bookmarks
 [
@@ -1511,12 +1491,10 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
 URI2
-)
 )
 fc
 +
@@ -1626,12 +1604,10 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
 URI2
-)
 )
 fc
 )
@@ -1784,7 +1760,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -1796,7 +1771,6 @@ bookmarks
 ]
 .
 guid
-)
 )
 "
 keyword
@@ -1818,7 +1792,6 @@ bookmarks
 ]
 .
 type
-(
 await
 PlacesUtils
 .
@@ -1830,7 +1803,6 @@ bookmarks
 ]
 .
 parentGuid
-)
 )
 bookmarks
 [
@@ -1862,7 +1834,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -1874,7 +1845,6 @@ bookmarks
 ]
 .
 guid
-)
 )
 "
 keyword
@@ -1896,7 +1866,6 @@ bookmarks
 ]
 .
 type
-(
 await
 PlacesUtils
 .
@@ -1908,7 +1877,6 @@ bookmarks
 ]
 .
 parentGuid
-)
 )
 bookmarks
 [
@@ -1940,7 +1908,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -1952,7 +1919,6 @@ bookmarks
 ]
 .
 guid
-)
 )
 "
 keyword
@@ -1974,7 +1940,6 @@ bookmarks
 ]
 .
 type
-(
 await
 PlacesUtils
 .
@@ -1986,7 +1951,6 @@ bookmarks
 ]
 .
 parentGuid
-)
 )
 bookmarks
 [
@@ -2030,12 +1994,10 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
 URI2
-)
 )
 fc
 )
@@ -2112,7 +2074,6 @@ test3
 let
 itemId
 =
-(
 await
 PlacesUtils
 .
@@ -2121,7 +2082,6 @@ promiseItemId
 bookmark
 .
 guid
-)
 )
 ;
 await
@@ -2183,7 +2143,6 @@ lastModified
 bookmark
 .
 type
-(
 await
 PlacesUtils
 .
@@ -2192,7 +2151,6 @@ promiseItemId
 bookmark
 .
 parentGuid
-)
 )
 bookmark
 .
@@ -2223,12 +2181,10 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
 URI3
-)
 )
 fc
 )
@@ -2489,7 +2445,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -2498,7 +2453,6 @@ promiseItemId
 oldBmk
 .
 guid
-)
 )
 "
 keyword
@@ -2514,7 +2468,6 @@ lastModified
 oldBmk
 .
 type
-(
 await
 PlacesUtils
 .
@@ -2523,7 +2476,6 @@ promiseItemId
 oldBmk
 .
 parentGuid
-)
 )
 oldBmk
 .
@@ -2549,7 +2501,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -2558,7 +2509,6 @@ promiseItemId
 newBmk
 .
 guid
-)
 )
 "
 keyword
@@ -2574,7 +2524,6 @@ lastModified
 newBmk
 .
 type
-(
 await
 PlacesUtils
 .
@@ -2583,7 +2532,6 @@ promiseItemId
 newBmk
 .
 parentGuid
-)
 )
 newBmk
 .
@@ -2609,7 +2557,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -2618,7 +2565,6 @@ promiseItemId
 newBmk
 .
 guid
-)
 )
 "
 keyword
@@ -2637,7 +2583,6 @@ lastModified
 newBmk
 .
 type
-(
 await
 PlacesUtils
 .
@@ -2646,7 +2591,6 @@ promiseItemId
 newBmk
 .
 parentGuid
-)
 )
 newBmk
 .
@@ -2672,7 +2616,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -2681,7 +2624,6 @@ promiseItemId
 newBmk
 .
 guid
-)
 )
 "
 keyword
@@ -2700,7 +2642,6 @@ lastModified
 newBmk
 .
 type
-(
 await
 PlacesUtils
 .
@@ -2709,7 +2650,6 @@ promiseItemId
 newBmk
 .
 parentGuid
-)
 )
 newBmk
 .
@@ -3262,7 +3202,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -3271,7 +3210,6 @@ promiseItemId
 oldBmk
 .
 guid
-)
 )
 "
 keyword
@@ -3287,7 +3225,6 @@ lastModified
 oldBmk
 .
 type
-(
 await
 PlacesUtils
 .
@@ -3296,7 +3233,6 @@ promiseItemId
 oldBmk
 .
 parentGuid
-)
 )
 oldBmk
 .
@@ -3322,7 +3258,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -3331,7 +3266,6 @@ promiseItemId
 newBmk
 .
 guid
-)
 )
 "
 keyword
@@ -3347,7 +3281,6 @@ lastModified
 newBmk
 .
 type
-(
 await
 PlacesUtils
 .
@@ -3356,7 +3289,6 @@ promiseItemId
 newBmk
 .
 parentGuid
-)
 )
 newBmk
 .
@@ -3382,7 +3314,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -3391,7 +3322,6 @@ promiseItemId
 newBmk
 .
 guid
-)
 )
 "
 keyword
@@ -3410,7 +3340,6 @@ lastModified
 newBmk
 .
 type
-(
 await
 PlacesUtils
 .
@@ -3419,7 +3348,6 @@ promiseItemId
 newBmk
 .
 parentGuid
-)
 )
 newBmk
 .
@@ -3445,7 +3373,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -3454,7 +3381,6 @@ promiseItemId
 newBmk
 .
 guid
-)
 )
 "
 keyword
@@ -3473,7 +3399,6 @@ lastModified
 newBmk
 .
 type
-(
 await
 PlacesUtils
 .
@@ -3482,7 +3407,6 @@ promiseItemId
 newBmk
 .
 parentGuid
-)
 )
 newBmk
 .

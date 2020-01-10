@@ -267,7 +267,6 @@ html
 ;
 if
 (
-(
 await
 OS
 .
@@ -278,7 +277,7 @@ exists
 bookmarksFile
 )
 )
-)
+{
 await
 OS
 .
@@ -289,6 +288,7 @@ remove
 bookmarksFile
 )
 ;
+}
 await
 BookmarkHTMLUtils
 .

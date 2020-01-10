@@ -1200,10 +1200,12 @@ numExpecting
 =
 0
 )
+{
 checkChunksWithSub
 (
 )
 ;
+}
 }
 function
 phishExists

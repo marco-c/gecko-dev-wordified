@@ -1000,6 +1000,7 @@ __worker
 let
 worker
 =
+(
 this
 .
 __worker
@@ -1010,6 +1011,7 @@ ChromeWorker
 this
 .
 _url
+)
 )
 ;
 /
@@ -1722,7 +1724,6 @@ transfers
 )
 {
 return
-(
 async
 function
 postMessage
@@ -2425,7 +2426,6 @@ ok
 bind
 (
 this
-)
 )
 (
 )

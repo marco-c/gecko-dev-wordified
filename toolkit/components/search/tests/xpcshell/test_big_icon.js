@@ -112,6 +112,7 @@ nsISearchEngine
 )
 ;
 return
+(
 verb
 =
 =
@@ -135,6 +136,7 @@ BigIcon
 engine
 .
 iconURI
+)
 ;
 }
 )

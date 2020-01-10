@@ -270,6 +270,7 @@ value
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -279,6 +280,7 @@ BrowserTestUtils
 addTab
 (
 gBrowser
+)
 )
 ;
 is_element_hidden
@@ -833,6 +835,7 @@ able
 let
 newTab
 =
+(
 gBrowser
 .
 selectedTab
@@ -842,6 +845,7 @@ BrowserTestUtils
 addTab
 (
 gBrowser
+)
 )
 ;
 await
@@ -1420,9 +1424,7 @@ observer
 new
 MutationObserver
 (
-(
 mutations
-)
 =
 >
 {

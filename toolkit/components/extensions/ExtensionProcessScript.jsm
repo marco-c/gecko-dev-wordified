@@ -829,9 +829,7 @@ registeredContentScripts
 new
 DefaultWeakMap
 (
-(
 policy
-)
 =
 >
 new

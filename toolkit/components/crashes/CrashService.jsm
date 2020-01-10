@@ -1628,9 +1628,7 @@ gRunningProcesses
 .
 forEach
 (
-(
 process
-)
 =
 >
 {

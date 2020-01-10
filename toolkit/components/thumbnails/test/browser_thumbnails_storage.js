@@ -197,12 +197,14 @@ URL_COPY
 let
 mtime
 =
+(
 copy
 .
 lastModifiedTime
 -
 =
 60
+)
 ;
 await
 PageThumbsStorage

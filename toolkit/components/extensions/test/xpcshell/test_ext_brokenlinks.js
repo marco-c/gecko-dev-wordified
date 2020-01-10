@@ -105,14 +105,10 @@ loadExtension
 manifest
 :
 {
-"
 background
-"
 :
 {
-"
 scripts
-"
 :
 [
 "
@@ -121,9 +117,7 @@ missing
 js
 "
 ]
-"
 persistent
-"
 :
 false
 }

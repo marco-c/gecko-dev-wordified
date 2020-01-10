@@ -322,9 +322,7 @@ options
 getEncodedOriginSnapshot
 :
 async
-(
 aClear
-)
 =
 >
 Telemetry

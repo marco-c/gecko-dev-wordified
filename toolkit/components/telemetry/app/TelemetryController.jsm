@@ -2784,12 +2784,10 @@ generatePingId
 )
 creationDate
 :
-(
 Policy
 .
 now
 (
-)
 )
 .
 toISOString
@@ -7733,9 +7731,7 @@ const
 payload
 =
 {
-"
 reason
-"
 :
 this
 .

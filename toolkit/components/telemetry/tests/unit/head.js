@@ -1341,11 +1341,9 @@ JSON
 .
 parse
 (
-(
 new
 TextDecoder
 (
-)
 )
 .
 decode
@@ -1751,9 +1749,7 @@ ex
 if
 (
 typeof
-(
 ex
-)
 !
 =
 "
@@ -1896,9 +1892,7 @@ AddonTestUtils
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 "
@@ -2634,9 +2628,7 @@ Policy
 .
 gzipCompressString
 =
-(
 data
-)
 =
 >
 {

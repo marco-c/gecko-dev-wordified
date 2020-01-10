@@ -3176,7 +3176,6 @@ updatePlaces
 let
 oldTime
 =
-(
 Date
 .
 now
@@ -3184,7 +3183,6 @@ now
 )
 *
 1000
-)
 -
 (
 RECENT_EVENT_THRESHOLD

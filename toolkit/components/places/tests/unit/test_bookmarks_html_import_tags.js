@@ -207,7 +207,6 @@ html
 ;
 if
 (
-(
 await
 OS
 .
@@ -218,7 +217,7 @@ exists
 HTMLFile
 )
 )
-)
+{
 await
 OS
 .
@@ -229,6 +228,7 @@ remove
 HTMLFile
 )
 ;
+}
 /
 /
 Adds

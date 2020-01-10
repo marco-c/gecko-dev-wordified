@@ -298,9 +298,7 @@ testSetup
 let
 checkActiveTicks
 =
-(
 expected
-)
 =
 >
 {

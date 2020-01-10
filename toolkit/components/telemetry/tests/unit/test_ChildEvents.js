@@ -531,6 +531,7 @@ false
 )
 ;
 return
+(
 Object
 .
 keys
@@ -558,6 +559,7 @@ includes
 "
 dynamic
 "
+)
 )
 ;
 }
@@ -697,9 +699,7 @@ only
 required
 fields
 .
-"
 test1
-"
 :
 {
 methods
@@ -723,9 +723,7 @@ Event
 with
 extra_keys
 .
-"
 test2
-"
 :
 {
 methods
@@ -1388,7 +1386,6 @@ every
 ts
 =
 >
-(
 ts
 >
 Math
@@ -1397,14 +1394,11 @@ floor
 (
 timestampBeforeChildEvents
 )
-)
 &
 &
-(
 ts
 <
 timestampAfterChildEvents
-)
 )
 "
 All
@@ -1433,7 +1427,6 @@ every
 ts
 =
 >
-(
 ts
 >
 =
@@ -1442,7 +1435,6 @@ Math
 floor
 (
 timestampAfterChildEvents
-)
 )
 )
 "

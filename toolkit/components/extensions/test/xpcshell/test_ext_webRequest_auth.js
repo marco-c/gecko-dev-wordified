@@ -580,9 +580,7 @@ onBeforeRequest
 .
 addListener
 (
-(
 details
-)
 =
 >
 {
@@ -619,6 +617,7 @@ onBeforeRequest
 )
 ;
 return
+(
 config
 .
 onBeforeRequest
@@ -636,6 +635,7 @@ config
 onBeforeRequest
 .
 result
+)
 ;
 }
 {
@@ -674,9 +674,7 @@ onAuthRequired
 .
 addListener
 (
-(
 details
-)
 =
 >
 {
@@ -732,6 +730,7 @@ onAuthRequired
 )
 ;
 return
+(
 config
 .
 onAuthRequired
@@ -749,6 +748,7 @@ config
 onAuthRequired
 .
 result
+)
 ;
 }
 {
@@ -787,9 +787,7 @@ onCompleted
 .
 addListener
 (
-(
 details
-)
 =
 >
 {
@@ -843,9 +841,7 @@ onErrorOccurred
 .
 addListener
 (
-(
 details
-)
 =
 >
 {
@@ -2478,9 +2474,7 @@ onAuthRequired
 .
 addListener
 (
-(
 details
-)
 =
 >
 {

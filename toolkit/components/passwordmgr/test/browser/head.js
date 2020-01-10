@@ -111,9 +111,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -392,6 +390,7 @@ waitForCondition
 >
 {
 return
+(
 content
 .
 location
@@ -419,6 +418,7 @@ readyState
 "
 complete
 "
+)
 ;
 }
 "
@@ -1222,6 +1222,7 @@ waitForCondition
 >
 {
 return
+(
 document
 .
 getElementById
@@ -1239,6 +1240,7 @@ value
 =
 =
 username
+)
 ;
 }
 "

@@ -55,9 +55,7 @@ types
 :
 [
 {
-"
 extend
-"
 :
 "
 WebExtensionManifest
@@ -95,9 +93,7 @@ any
 additionalProperties
 :
 {
-"
 ref
-"
 :
 "
 UnrecognizedProperty
@@ -441,9 +437,7 @@ prop
 }
 }
 async
-(
 extension
-)
 =
 >
 {
@@ -654,9 +648,7 @@ prop
 }
 }
 async
-(
 extension
-)
 =
 >
 {

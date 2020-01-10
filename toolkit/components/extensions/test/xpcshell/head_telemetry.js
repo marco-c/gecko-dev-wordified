@@ -385,6 +385,7 @@ id
 ]
 ;
 return
+(
 snapshot
 &
 &
@@ -406,6 +407,7 @@ values
 >
 =
 expectedCount
+)
 ;
 }
 ;
@@ -501,9 +503,7 @@ histogramId
 {
 processSnapshot
 :
-(
 snapshot
-)
 =
 >
 snapshot
@@ -541,9 +541,7 @@ keyed
 true
 processSnapshot
 :
-(
 snapshot
-)
 =
 >
 Object

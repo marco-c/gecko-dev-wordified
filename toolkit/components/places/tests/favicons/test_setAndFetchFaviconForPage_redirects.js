@@ -235,6 +235,7 @@ guid
 >
 {
 return
+(
 prop
 =
 =
@@ -259,6 +260,7 @@ value
 SMALLPNG_DATA_URI
 .
 spec
+)
 ;
 }
 "
@@ -488,6 +490,7 @@ guid
 >
 {
 return
+(
 prop
 =
 =
@@ -512,6 +515,7 @@ value
 SMALLPNG_DATA_URI
 .
 spec
+)
 ;
 }
 "

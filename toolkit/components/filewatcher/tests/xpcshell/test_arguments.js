@@ -216,9 +216,11 @@ Cr
 .
 NS_ERROR_NULL_POINTER
 )
+{
 throw
 ex
 ;
+}
 info
 (
 "
@@ -270,9 +272,11 @@ Cr
 .
 NS_ERROR_NULL_POINTER
 )
+{
 throw
 ex
 ;
+}
 info
 (
 "
@@ -407,9 +411,11 @@ Cr
 .
 NS_ERROR_NULL_POINTER
 )
+{
 throw
 ex
 ;
+}
 info
 (
 "
@@ -461,9 +467,11 @@ Cr
 .
 NS_ERROR_NULL_POINTER
 )
+{
 throw
 ex
 ;
+}
 info
 (
 "

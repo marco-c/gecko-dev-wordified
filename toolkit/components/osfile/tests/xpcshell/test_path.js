@@ -1534,7 +1534,6 @@ foo
 join
 c
 :
-\
 foo
 "
 )

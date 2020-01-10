@@ -296,9 +296,7 @@ HISTOGRAM
 {
 processSnapshot
 :
-(
 snapshot
-)
 =
 >
 snapshot

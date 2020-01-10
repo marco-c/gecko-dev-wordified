@@ -560,6 +560,7 @@ ROOT_RECORD_ID_TO_GUID
 const
 HistorySyncUtils
 =
+(
 PlacesSyncUtils
 .
 history
@@ -2512,10 +2513,12 @@ url
 }
 }
 )
+)
 ;
 const
 BookmarkSyncUtils
 =
+(
 PlacesSyncUtils
 .
 bookmarks
@@ -9360,6 +9363,7 @@ val
 }
 }
 )
+)
 ;
 XPCOMUtils
 .
@@ -12397,6 +12401,7 @@ length
 >
 0
 )
+{
 PlacesUtils
 .
 tagging
@@ -12408,6 +12413,7 @@ newTags
 SOURCE_SYNC
 )
 ;
+}
 PlacesUtils
 .
 tagging
@@ -12430,6 +12436,7 @@ length
 >
 0
 )
+{
 PlacesUtils
 .
 tagging
@@ -12441,6 +12448,7 @@ newTags
 SOURCE_SYNC
 )
 ;
+}
 PlacesUtils
 .
 tagging
@@ -12512,6 +12520,7 @@ bookmarkInfo
 )
 {
 return
+(
 bookmarkInfo
 .
 hasOwnProperty
@@ -12539,6 +12548,7 @@ hasOwnProperty
 "
 url
 "
+)
 )
 ;
 }

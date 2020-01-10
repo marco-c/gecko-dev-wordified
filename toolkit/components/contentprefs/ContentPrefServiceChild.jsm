@@ -165,14 +165,12 @@ context
 )
 {
 return
-(
 context
 &
 &
 context
 .
 usePrivateBrowsing
-)
 ?
 {
 usePrivateBrowsing
@@ -610,8 +608,10 @@ if
 !
 observerList
 )
+{
 break
 ;
+}
 for
 (
 let
@@ -853,8 +853,10 @@ if
 !
 set
 )
+{
 return
 ;
+}
 set
 .
 delete

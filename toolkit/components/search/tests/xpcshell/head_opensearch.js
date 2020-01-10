@@ -182,6 +182,7 @@ exists
 (
 )
 )
+{
 dir
 .
 create
@@ -194,6 +195,7 @@ FileUtils
 PERMS_DIRECTORY
 )
 ;
+}
 dir
 .
 append
@@ -551,6 +553,7 @@ aProp
 =
 XRE_APP_DISTRIBUTION_DIR
 )
+{
 return
 distDir
 .
@@ -558,6 +561,7 @@ clone
 (
 )
 ;
+}
 return
 null
 ;

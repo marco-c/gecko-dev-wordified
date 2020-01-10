@@ -496,7 +496,6 @@ Path
 .
 join
 (
-(
 await
 OS
 .
@@ -504,7 +503,6 @@ File
 .
 getCurrentDirectory
 (
-)
 )
 EXISTING_FILE
 )
@@ -626,7 +624,6 @@ Assert
 .
 equal
 (
-(
 await
 OS
 .
@@ -635,7 +632,6 @@ File
 exists
 (
 dest
-)
 )
 false
 )

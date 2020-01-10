@@ -76,6 +76,7 @@ exists
 (
 )
 )
+{
 dir
 .
 create
@@ -88,6 +89,7 @@ FileUtils
 PERMS_DIRECTORY
 )
 ;
+}
 do_get_file
 (
 "

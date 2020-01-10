@@ -159,12 +159,10 @@ null
 &
 &
 typeof
-(
 obj
 [
 i
 ]
-)
 =
 =
 "

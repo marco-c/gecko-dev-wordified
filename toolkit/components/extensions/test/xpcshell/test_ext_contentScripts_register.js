@@ -339,9 +339,7 @@ onMessage
 addListener
 (
 async
-(
 msg
-)
 =
 >
 {
@@ -1146,9 +1144,7 @@ onMessage
 .
 addListener
 (
-(
 msg
-)
 =
 >
 {
@@ -1894,14 +1890,13 @@ js
 {
 code
 :
-"
+'
 browser
 .
 test
 .
 fail
 (
-\
 "
 content
 script
@@ -1911,10 +1906,9 @@ matches
 should
 not
 run
-\
 "
 )
-"
+'
 }
 ]
 }

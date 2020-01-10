@@ -1054,11 +1054,9 @@ preference
 let
 time
 =
-(
 new
 Date
 (
-)
 )
 .
 getTime

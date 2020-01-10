@@ -1129,10 +1129,8 @@ actual
 else
 if
 (
-(
 typeof
 expected
-)
 =
 =
 =
@@ -1230,6 +1228,7 @@ object
 >
 {
 return
+(
 matches
 (
 filterCategory
@@ -1248,6 +1247,7 @@ matches
 (
 filterObject
 object
+)
 )
 ;
 }

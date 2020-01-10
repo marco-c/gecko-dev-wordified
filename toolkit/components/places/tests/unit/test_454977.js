@@ -690,13 +690,11 @@ Assert
 .
 equal
 (
-(
 await
 task_add_visit
 (
 TEST_URI
 TRANSITION_TYPED
-)
 )
 placeId
 )
@@ -720,7 +718,6 @@ visit_count
 Assert
 .
 equal
-(
 (
 await
 task_add_visit
@@ -728,7 +725,6 @@ task_add_visit
 TEST_URI
 TRANSITION_RELOAD
 )
-)
 placeId
 )
 ;
@@ -752,13 +748,11 @@ Assert
 .
 equal
 (
-(
 await
 task_add_visit
 (
 TEST_URI
 TRANSITION_DOWNLOAD
-)
 )
 placeId
 )

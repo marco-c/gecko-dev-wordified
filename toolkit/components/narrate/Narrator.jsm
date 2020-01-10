@@ -737,6 +737,7 @@ speaking
 )
 {
 return
+(
 this
 .
 _win
@@ -753,6 +754,7 @@ _win
 speechSynthesis
 .
 pending
+)
 ;
 }
 _getVoice
@@ -2106,9 +2108,7 @@ Object
 assign
 (
 {
-"
 top
-"
 :
 {
 r
@@ -2126,9 +2126,7 @@ height
 2
 }
 px
-"
 left
-"
 :
 {
 r
@@ -2146,9 +2144,7 @@ width
 2
 }
 px
-"
 width
-"
 :
 {
 r
@@ -2156,9 +2152,7 @@ r
 width
 }
 px
-"
 height
-"
 :
 {
 r

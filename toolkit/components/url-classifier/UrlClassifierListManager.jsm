@@ -2641,9 +2641,7 @@ split
 .
 forEach
 (
-(
 table
-)
 =
 >
 {
@@ -2684,9 +2682,7 @@ updateUrls
 .
 forEach
 (
-(
 url
-)
 =
 >
 {

@@ -2128,6 +2128,7 @@ _aggregatePromise
 ;
 }
 return
+(
 this
 .
 _aggregatePromise
@@ -2501,6 +2502,7 @@ _storeProtectedCount
 }
 )
 (
+)
 )
 ;
 }
@@ -3232,6 +3234,7 @@ generateSubmissionID
 )
 {
 return
+(
 "
 sub
 -
@@ -3272,6 +3275,7 @@ slice
 1
 -
 1
+)
 )
 ;
 }
@@ -4208,13 +4212,11 @@ metadata
 reportMeta
 hasCrashEnvironment
 :
-(
 crashEnvironment
 !
 =
 =
 null
-)
 }
 {
 addClientId
@@ -4779,9 +4781,7 @@ path
 .
 then
 (
-(
 info
-)
 =
 >
 {
@@ -4875,6 +4875,7 @@ _getStoreTask
 ;
 }
 return
+(
 this
 .
 _getStoreTask
@@ -5189,6 +5190,7 @@ null
 }
 )
 (
+)
 )
 ;
 }

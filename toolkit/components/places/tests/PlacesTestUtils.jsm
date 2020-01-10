@@ -2373,6 +2373,7 @@ name
 QueryInterface
 "
 )
+{
 return
 ChromeUtils
 .
@@ -2383,6 +2384,7 @@ iface
 ]
 )
 ;
+}
 if
 (
 name
@@ -2390,6 +2392,7 @@ name
 =
 notification
 )
+{
 return
 (
 .
@@ -2432,6 +2435,7 @@ resolve
 }
 }
 ;
+}
 if
 (
 name
@@ -2874,6 +2878,7 @@ place
 :
 "
 )
+{
 throw
 new
 Error
@@ -2892,6 +2897,7 @@ url1
 href
 )
 ;
+}
 url2
 =
 url2
@@ -2922,6 +2928,7 @@ place
 :
 "
 )
+{
 throw
 new
 Error
@@ -2940,6 +2947,7 @@ url2
 href
 )
 ;
+}
 let
 tokens1
 =

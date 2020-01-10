@@ -1023,6 +1023,7 @@ container
 .
 label
 )
+{
 Assert
 .
 equal
@@ -1035,6 +1036,7 @@ container
 label
 )
 ;
+}
 /
 /
 Check
@@ -1840,6 +1842,7 @@ container
 .
 label
 )
+{
 Assert
 .
 equal
@@ -1852,6 +1855,7 @@ container
 label
 )
 ;
+}
 }
 /
 /

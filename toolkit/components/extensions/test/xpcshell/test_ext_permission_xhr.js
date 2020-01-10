@@ -210,9 +210,7 @@ XMLHttpRequest
 )
 {
 return
-(
 url
-)
 =
 >
 {
@@ -597,9 +595,7 @@ content_scripts
 :
 [
 {
-"
 matches
-"
 :
 [
 "
@@ -618,9 +614,7 @@ file_permission_xhr
 html
 "
 ]
-"
 js
-"
 :
 [
 "
@@ -960,9 +954,7 @@ resolve
 const
 listenPageMessage
 =
-(
 event
-)
 =
 >
 {
@@ -1352,9 +1344,7 @@ content_scripts
 :
 [
 {
-"
 matches
-"
 :
 [
 "
@@ -1369,9 +1359,7 @@ test
 *
 "
 ]
-"
 js
-"
 :
 [
 "

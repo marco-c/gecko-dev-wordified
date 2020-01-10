@@ -248,9 +248,7 @@ _iterator
 .
 _collectFrames
 =
-(
 window
-)
 =
 >
 {

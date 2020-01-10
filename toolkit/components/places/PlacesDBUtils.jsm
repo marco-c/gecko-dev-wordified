@@ -6133,9 +6133,7 @@ let
 _getTableCount
 =
 async
-(
 tableName
-)
 =
 >
 {
@@ -7341,13 +7339,11 @@ val
 ;
 if
 (
-(
 "
 query
 "
 in
 probe
-)
 )
 {
 let
@@ -7886,8 +7882,10 @@ check
 db
 )
 )
+{
 return
 ;
+}
 /
 /
 We
@@ -7961,10 +7959,12 @@ again
 if
 (
 !
+(
 await
 check
 (
 db
+)
 )
 )
 {

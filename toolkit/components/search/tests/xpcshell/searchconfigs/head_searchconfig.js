@@ -1993,7 +1993,6 @@ instead
 let
 included
 =
-(
 hasIncluded
 &
 &
@@ -2007,12 +2006,10 @@ included
 region
 locale
 )
-)
 ;
 let
 notExcluded
 =
-(
 hasExcluded
 &
 &
@@ -2026,7 +2023,6 @@ config
 excluded
 region
 locale
-)
 )
 ;
 if
@@ -2947,7 +2943,6 @@ purposes
 const
 code
 =
-(
 typeof
 rules
 .
@@ -2958,7 +2953,6 @@ codes
 "
 string
 "
-)
 ?
 rules
 .

@@ -2309,6 +2309,7 @@ principal
 )
 {
 return
+(
 this
 .
 params
@@ -2324,6 +2325,7 @@ createNullPrincipal
 (
 {
 }
+)
 )
 ;
 }
@@ -6150,7 +6152,6 @@ string
 let
 errorMessage
 =
-(
 Value
 "
 {
@@ -6221,7 +6222,6 @@ json
 commands
 #
 Key_combinations
-)
 ;
 throw
 new
@@ -6779,11 +6779,9 @@ deprecated
 if
 (
 typeof
-(
 this
 .
 deprecated
-)
 =
 =
 "
@@ -8674,9 +8672,7 @@ e
 if
 (
 typeof
-(
 e
-)
 =
 =
 "
@@ -9822,9 +9818,7 @@ true
 type
 =
 {
-"
 type
-"
 :
 "
 any
@@ -12647,7 +12641,6 @@ isAsync
 {
 hasAsyncCallback
 =
-(
 parameters
 &
 &
@@ -12671,7 +12664,6 @@ name
 schema
 .
 async
-)
 ;
 }
 if
@@ -13142,9 +13134,7 @@ writable
 let
 setStub
 =
-(
 value
-)
 =
 >
 {
@@ -14157,7 +14147,6 @@ hasAsyncCallback
 &
 &
 typeof
-(
 args
 [
 args
@@ -14166,7 +14155,6 @@ length
 -
 1
 ]
-)
 !
 =
 "
@@ -15510,9 +15498,7 @@ actuals
 let
 removeStub
 =
-(
 listener
-)
 =
 >
 {
@@ -15538,9 +15524,7 @@ listener
 let
 hasStub
 =
-(
 listener
-)
 =
 >
 {
@@ -19582,7 +19566,6 @@ loadCachedSchemas
 let
 blob
 =
-(
 schemaCache
 .
 get
@@ -19591,6 +19574,7 @@ url
 )
 |
 |
+(
 await
 StartupCache
 .

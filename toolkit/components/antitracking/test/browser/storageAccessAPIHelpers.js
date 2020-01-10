@@ -1085,6 +1085,7 @@ type
 >
 {
 return
+(
 SpecialPowers
 .
 Services
@@ -1105,6 +1106,7 @@ Services
 perms
 .
 ALLOW_ACTION
+)
 ;
 }
 )

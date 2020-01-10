@@ -88,9 +88,7 @@ SAMESITE_STRICT
 const
 isIPv4
 =
-(
 host
-)
 =
 >
 {
@@ -178,9 +176,7 @@ false
 const
 isIPv6
 =
-(
 host
-)
 =
 >
 host
@@ -195,12 +191,9 @@ includes
 const
 addBracketIfIPv6
 =
-(
 host
-)
 =
 >
-(
 isIPv6
 (
 host
@@ -216,7 +209,6 @@ startsWith
 [
 "
 )
-)
 ?
 [
 {
@@ -229,12 +221,9 @@ host
 const
 dropBracketIfIPv6
 =
-(
 host
-)
 =
 >
-(
 isIPv6
 (
 host
@@ -258,7 +247,6 @@ endsWith
 "
 ]
 "
-)
 )
 ?
 host
@@ -1707,13 +1695,11 @@ if
 host
 &
 &
-(
 "
 firstPartyDomain
 "
 in
 originAttributes
-)
 )
 {
 /
@@ -1790,6 +1776,7 @@ host
 )
 {
 return
+(
 cookie
 .
 rawHost
@@ -1811,6 +1798,7 @@ endsWith
 cookie
 .
 host
+)
 )
 )
 ;
@@ -2218,9 +2206,7 @@ storeId
 const
 normalizeFirstPartyDomain
 =
-(
 details
-)
 =
 >
 {

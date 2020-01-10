@@ -224,12 +224,15 @@ aNodeProp
 =
 null
 )
+{
 check_unset
 (
 aItemProp
 )
 ;
+}
 else
+{
 Assert
 .
 strictEqual
@@ -244,6 +247,7 @@ aNodeProp
 ]
 )
 ;
+}
 }
 /
 /
@@ -490,12 +494,14 @@ aNode
 .
 containerOpen
 )
+{
 aNode
 .
 containerOpen
 =
 true
 ;
+}
 for
 (
 let
@@ -660,6 +666,7 @@ if
 (
 rootName
 )
+{
 Assert
 .
 equal
@@ -670,7 +677,9 @@ root
 rootName
 )
 ;
+}
 else
+{
 check_unset
 (
 "
@@ -678,6 +687,7 @@ root
 "
 )
 ;
+}
 break
 ;
 case
@@ -792,6 +802,7 @@ tags
 =
 null
 )
+{
 check_unset
 (
 "
@@ -799,7 +810,9 @@ tags
 "
 )
 ;
+}
 else
+{
 Assert
 .
 equal
@@ -821,6 +834,7 @@ g
 )
 )
 ;
+}
 if
 (
 aNode
@@ -915,6 +929,7 @@ if
 (
 expectedCharset
 )
+{
 Assert
 .
 equal
@@ -925,7 +940,9 @@ charset
 expectedCharset
 )
 ;
+}
 else
+{
 check_unset
 (
 "
@@ -933,6 +950,7 @@ charset
 "
 )
 ;
+}
 let
 entry
 =
@@ -956,6 +974,7 @@ if
 (
 entry
 )
+{
 Assert
 .
 equal
@@ -968,7 +987,9 @@ entry
 keyword
 )
 ;
+}
 else
+{
 check_unset
 (
 "
@@ -976,6 +997,7 @@ keyword
 "
 )
 ;
+}
 if
 (
 "
@@ -984,6 +1006,7 @@ title
 in
 aItem
 )
+{
 compare_prop
 (
 "
@@ -991,7 +1014,9 @@ title
 "
 )
 ;
+}
 else
+{
 Assert
 .
 equal
@@ -1003,10 +1028,12 @@ title
 )
 ;
 }
+}
 if
 (
 aIsRootItem
 )
+{
 Assert
 .
 strictEqual
@@ -1017,6 +1044,7 @@ itemsCount
 nodesCount
 )
 ;
+}
 return
 nodesCount
 ;
@@ -1048,6 +1076,7 @@ in
 aInfo
 )
 )
+{
 aInfo
 .
 url
@@ -1068,6 +1097,7 @@ item
 itemsCount
 )
 ;
+}
 if
 (
 !
@@ -1079,6 +1109,7 @@ in
 aInfo
 )
 )
+{
 aInfo
 .
 title
@@ -1093,6 +1124,7 @@ bookmark
 +
 itemsCount
 ;
+}
 await
 PlacesTransactions
 .
@@ -1123,6 +1155,7 @@ in
 aInfo
 )
 )
+{
 aInfo
 .
 title
@@ -1137,6 +1170,7 @@ folder
 +
 itemsCount
 ;
+}
 return
 PlacesTransactions
 .
@@ -1304,6 +1338,7 @@ PlacesUtils
 .
 tagsFolderId
 )
+{
 await
 test_promiseBookmarksTreeForEachNode
 (
@@ -1316,6 +1351,7 @@ true
 aExcludedGuids
 )
 ;
+}
 }
 return
 item

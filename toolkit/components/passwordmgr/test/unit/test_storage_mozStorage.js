@@ -852,6 +852,8 @@ testuser1
 =
 new
 nsLoginInfo
+(
+)
 ;
 testuser1
 .
@@ -895,6 +897,8 @@ testuser1B
 =
 new
 nsLoginInfo
+(
+)
 ;
 testuser1B
 .
@@ -938,6 +942,8 @@ testuser2
 =
 new
 nsLoginInfo
+(
+)
 ;
 testuser2
 .
@@ -981,6 +987,8 @@ testuser3
 =
 new
 nsLoginInfo
+(
+)
 ;
 testuser3
 .
@@ -1024,6 +1032,8 @@ testuser4
 =
 new
 nsLoginInfo
+(
+)
 ;
 testuser4
 .
@@ -1067,6 +1077,8 @@ testuser5
 =
 new
 nsLoginInfo
+(
+)
 ;
 testuser5
 .
@@ -3905,6 +3917,8 @@ testuser1
 =
 new
 nsLoginInfo
+(
+)
 ;
 testuser1
 .

@@ -271,13 +271,11 @@ BookmarkJSONUtils
 .
 importFromFile
 (
-(
 await
 PlacesBackups
 .
 getMostRecentBackup
 (
-)
 )
 {
 replace

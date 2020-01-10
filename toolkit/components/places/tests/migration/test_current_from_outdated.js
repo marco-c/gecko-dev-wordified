@@ -172,13 +172,11 @@ Assert
 .
 equal
 (
-(
 await
 db
 .
 getSchemaVersion
 (
-)
 )
 CURRENT_SCHEMA_VERSION
 )
@@ -283,7 +281,6 @@ Assert
 .
 ok
 (
-(
 await
 OS
 .
@@ -292,7 +289,6 @@ File
 exists
 (
 corruptPath
-)
 )
 "
 Corrupt

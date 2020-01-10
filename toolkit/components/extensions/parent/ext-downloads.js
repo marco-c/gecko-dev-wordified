@@ -596,11 +596,9 @@ now
 (
 )
 +
-(
 timeLeftInSeconds
 *
 1000
-)
 )
 ;
 }
@@ -652,6 +650,7 @@ paused
 )
 {
 return
+(
 this
 .
 download
@@ -672,6 +671,7 @@ this
 download
 .
 error
+)
 ;
 }
 get
@@ -680,6 +680,7 @@ canResume
 )
 {
 return
+(
 (
 this
 .
@@ -709,6 +710,7 @@ this
 download
 .
 error
+)
 ;
 }
 get
@@ -1176,6 +1178,7 @@ const
 DownloadMap
 =
 new
+(
 class
 extends
 EventEmitter
@@ -1712,6 +1715,7 @@ download
 ;
 }
 }
+)
 (
 )
 ;
@@ -2091,12 +2095,10 @@ return
 input
 =
 >
-(
 value
 =
 =
 input
-)
 ;
 }
 return
@@ -2519,7 +2521,6 @@ map
 field
 =
 >
-(
 field
 [
 0
@@ -2552,7 +2553,6 @@ name
 :
 field
 }
-)
 )
 ;
 for
@@ -4311,9 +4311,7 @@ false
 .
 catch
 (
-(
 err
-)
 =
 >
 {
@@ -4957,9 +4955,7 @@ completed
 .
 catch
 (
-(
 error
-)
 =
 >
 {
@@ -5381,9 +5377,7 @@ dataURL
 ;
 handleError
 =
-(
 error
-)
 =
 >
 {
@@ -5463,9 +5457,7 @@ size
 .
 catch
 (
-(
 error
-)
 =
 >
 {
@@ -5612,11 +5604,11 @@ val
 =
 =
 undefined
-)
 ?
 null
 :
 val
+)
 ;
 DOWNLOAD_ITEM_CHANGE_FIELDS
 .

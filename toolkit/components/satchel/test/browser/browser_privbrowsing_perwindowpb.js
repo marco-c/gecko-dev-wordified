@@ -61,7 +61,6 @@ var
 FormHistory
 }
 =
-(
 ChromeUtils
 .
 import
@@ -79,7 +78,6 @@ FormHistory
 .
 jsm
 "
-)
 )
 ;
 /
@@ -208,11 +206,13 @@ Promise
 resolve
 =
 >
+(
 doneCounting
 .
 resolve
 =
 resolve
+)
 )
 ;
 FormHistory

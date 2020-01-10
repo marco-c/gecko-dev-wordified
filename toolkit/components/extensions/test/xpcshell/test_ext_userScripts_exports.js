@@ -1316,9 +1316,7 @@ this
 const
 cb
 =
-(
 cbParam
-)
 =
 >
 {
@@ -2693,9 +2691,7 @@ generic
 error
 message
 .
-"
 apiScriptError
-"
 :
 {
 name
@@ -2736,9 +2732,7 @@ the
 userScript
 side
 .
-"
 apiScriptThrowsPlainString
-"
 :
 {
 typeOf
@@ -2759,9 +2753,7 @@ message
 :
 undefined
 }
-"
 apiScriptThrowsNull
-"
 :
 {
 typeOf
@@ -2806,9 +2798,7 @@ passing
 through
 unmodified
 .
-"
 userScriptError
-"
 :
 {
 name
@@ -2823,9 +2813,7 @@ userScriptError
 message
 "
 }
-"
 userScriptTypeError
-"
 :
 {
 name
@@ -2861,9 +2849,7 @@ passing
 through
 unmodified
 .
-"
 userScriptProxyObject
-"
 :
 {
 typeOf
@@ -4293,13 +4279,11 @@ assertTrue
 result
 &
 &
-(
 "
 objKey1
 "
 in
 result
-)
 &
 &
 result

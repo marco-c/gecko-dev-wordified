@@ -154,7 +154,6 @@ addVisits
 (
 uri
 (
-(
 "
 http
 :
@@ -167,7 +166,6 @@ moz
 org
 /
 "
-)
 )
 )
 ;

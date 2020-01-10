@@ -816,6 +816,7 @@ if
 (
 formatArgs
 )
+{
 return
 this
 .
@@ -827,6 +828,7 @@ key
 formatArgs
 )
 ;
+}
 return
 this
 .
@@ -866,7 +868,6 @@ BUTTON_DEFAULT_MASK
 let
 isDelayEnabled
 =
-(
 flags
 &
 Ci
@@ -874,7 +875,6 @@ Ci
 nsIPrompt
 .
 BUTTON_DELAY_ENABLE
-)
 ;
 /
 /
@@ -1131,6 +1131,7 @@ if
 (
 buttonLabel
 )
+{
 buttonLabels
 [
 i
@@ -1138,6 +1139,7 @@ i
 =
 buttonLabel
 ;
+}
 flags
 >
 >
@@ -1195,6 +1197,7 @@ authInfo
 .
 domain
 )
+{
 username
 =
 authInfo
@@ -1210,13 +1213,16 @@ authInfo
 .
 username
 ;
+}
 else
+{
 username
 =
 authInfo
 .
 username
 ;
+}
 password
 =
 authInfo
@@ -1437,6 +1443,7 @@ Ci
 nsIProxiedChannel
 )
 )
+{
 throw
 new
 Error
@@ -1449,6 +1456,7 @@ nsIProxiedChannel
 "
 )
 ;
+}
 let
 info
 =
@@ -1461,6 +1469,7 @@ if
 !
 info
 )
+{
 throw
 new
 Error
@@ -1473,6 +1482,7 @@ nsIProxyInfo
 "
 )
 ;
+}
 /
 /
 Proxies
@@ -1576,10 +1586,12 @@ if
 !
 realm
 )
+{
 realm
 =
 hostname
 ;
+}
 return
 [
 hostname
@@ -1652,10 +1664,12 @@ if
 !
 realm
 )
+{
 realm
 =
 hostname
 ;
+}
 return
 [
 hostname
@@ -1672,7 +1686,6 @@ authInfo
 let
 isProxy
 =
-(
 authInfo
 .
 flags
@@ -1682,12 +1695,10 @@ Ci
 nsIAuthInformation
 .
 AUTH_PROXY
-)
 ;
 let
 isPassOnly
 =
-(
 authInfo
 .
 flags
@@ -1697,12 +1708,10 @@ Ci
 nsIAuthInformation
 .
 ONLY_PASSWORD
-)
 ;
 let
 isCrossOrig
 =
-(
 authInfo
 .
 flags
@@ -1712,7 +1721,6 @@ Ci
 nsIAuthInformation
 .
 CROSS_ORIGIN_SUB_RESOURCE
-)
 ;
 let
 username
@@ -1763,11 +1771,13 @@ realm
 !
 isProxy
 )
+{
 realm
 =
 "
 "
 ;
+}
 /
 /
 Trim
@@ -2131,6 +2141,7 @@ if
 !
 bundle
 )
+{
 throw
 new
 Error
@@ -2146,6 +2157,7 @@ present
 "
 )
 ;
+}
 return
 bundle
 ;
@@ -2661,8 +2673,10 @@ newPrompt
 !
 forceCleanup
 )
+{
 return
 ;
+}
 callbackInvoked
 =
 true
@@ -2671,6 +2685,7 @@ if
 (
 newPrompt
 )
+{
 tabPrompt
 .
 removePrompt
@@ -2678,6 +2693,7 @@ removePrompt
 newPrompt
 )
 ;
+}
 frameMM
 .
 removeEventListener
@@ -2924,6 +2940,7 @@ args
 .
 promptAborted
 )
+{
 throw
 Components
 .
@@ -2940,6 +2957,7 @@ Cr
 NS_ERROR_NOT_AVAILABLE
 )
 ;
+}
 }
 finally
 {
@@ -2963,11 +2981,13 @@ if
 !
 callbackInvoked
 )
+{
 onPromptClose
 (
 true
 )
 ;
+}
 }
 }
 function
@@ -3693,6 +3713,7 @@ prefs
 .
 PREF_BOOL
 )
+{
 prefValue
 =
 Services
@@ -3704,6 +3725,7 @@ getBoolPref
 prefName
 )
 ;
+}
 let
 allowTabModal
 =
@@ -3879,7 +3901,6 @@ xul
 let
 uri
 =
-(
 args
 .
 promptType
@@ -3888,7 +3909,6 @@ promptType
 "
 select
 "
-)
 ?
 SELECT_DIALOG
 :
@@ -4026,6 +4046,7 @@ arguments
 object
 "
 )
+{
 return
 this
 .
@@ -4037,6 +4058,7 @@ this
 arguments
 )
 ;
+}
 return
 this
 .
@@ -4076,6 +4098,7 @@ arguments
 object
 "
 )
+{
 return
 this
 .
@@ -4087,6 +4110,7 @@ this
 arguments
 )
 ;
+}
 return
 this
 .
@@ -4126,6 +4150,7 @@ arguments
 object
 "
 )
+{
 return
 this
 .
@@ -4137,6 +4162,7 @@ this
 arguments
 )
 ;
+}
 return
 this
 .
@@ -4185,6 +4211,7 @@ if
 !
 title
 )
+{
 title
 =
 PromptUtils
@@ -4196,6 +4223,7 @@ Alert
 "
 )
 ;
+}
 let
 args
 =
@@ -4230,6 +4258,7 @@ if
 !
 title
 )
+{
 title
 =
 PromptUtils
@@ -4241,6 +4270,7 @@ Alert
 "
 )
 ;
+}
 let
 args
 =
@@ -4298,6 +4328,7 @@ if
 !
 title
 )
+{
 title
 =
 PromptUtils
@@ -4309,6 +4340,7 @@ Confirm
 "
 )
 ;
+}
 let
 args
 =
@@ -4360,6 +4392,7 @@ if
 !
 title
 )
+{
 title
 =
 PromptUtils
@@ -4371,6 +4404,7 @@ ConfirmCheck
 "
 )
 ;
+}
 let
 args
 =
@@ -4451,6 +4485,7 @@ if
 !
 title
 )
+{
 title
 =
 PromptUtils
@@ -4462,6 +4497,7 @@ Confirm
 "
 )
 ;
+}
 let
 args
 =
@@ -4612,6 +4648,7 @@ if
 !
 title
 )
+{
 title
 =
 PromptUtils
@@ -4623,6 +4660,7 @@ Prompt
 "
 )
 ;
+}
 let
 args
 =
@@ -4714,6 +4752,7 @@ if
 !
 title
 )
+{
 title
 =
 PromptUtils
@@ -4725,6 +4764,7 @@ PromptUsernameAndPassword2
 "
 )
 ;
+}
 let
 args
 =
@@ -4828,6 +4868,7 @@ if
 !
 title
 )
+{
 title
 =
 PromptUtils
@@ -4839,6 +4880,7 @@ PromptPassword2
 "
 )
 ;
+}
 let
 args
 =
@@ -4928,6 +4970,7 @@ if
 !
 title
 )
+{
 title
 =
 PromptUtils
@@ -4939,6 +4982,7 @@ Select
 "
 )
 ;
+}
 let
 args
 =
@@ -4987,6 +5031,7 @@ if
 (
 ok
 )
+{
 selected
 .
 value
@@ -4995,6 +5040,7 @@ args
 .
 selected
 ;
+}
 return
 ok
 ;
@@ -5051,12 +5097,14 @@ if
 (
 defaultText
 )
+{
 result
 .
 value
 =
 defaultText
 ;
+}
 return
 this
 .
@@ -5236,6 +5284,7 @@ nsIAuthInformation
 .
 ONLY_PASSWORD
 )
+{
 ok
 =
 this
@@ -5249,7 +5298,9 @@ checkLabel
 checkValue
 )
 ;
+}
 else
+{
 ok
 =
 this
@@ -5264,10 +5315,12 @@ checkLabel
 checkValue
 )
 ;
+}
 if
 (
 ok
 )
+{
 PromptUtils
 .
 setAuthInfo
@@ -5281,6 +5334,7 @@ passParam
 value
 )
 ;
+}
 return
 ok
 ;
@@ -5409,18 +5463,22 @@ name
 allowTabModal
 "
 )
+{
 this
 .
 allowTabModal
 =
 value
 ;
+}
 else
+{
 throw
 Cr
 .
 NS_ERROR_ILLEGAL_VALUE
 ;
+}
 }
 }
 ;
@@ -5673,6 +5731,7 @@ nsIAuthInformation
 .
 ONLY_PASSWORD
 )
+{
 ok
 =
 this
@@ -5692,7 +5751,9 @@ SAVE_PASSWORD_PERMANENTLY
 passParam
 )
 ;
+}
 else
+{
 ok
 =
 this
@@ -5713,10 +5774,12 @@ userParam
 passParam
 )
 ;
+}
 if
 (
 ok
 )
+{
 PromptUtils
 .
 setAuthInfo
@@ -5730,6 +5793,7 @@ passParam
 value
 )
 ;
+}
 return
 ok
 ;

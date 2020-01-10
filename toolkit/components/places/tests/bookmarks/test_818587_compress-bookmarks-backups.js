@@ -279,7 +279,6 @@ Assert
 equal
 (
 false
-(
 await
 OS
 .
@@ -288,7 +287,6 @@ File
 exists
 (
 mostRecentBackupFile
-)
 )
 )
 ;

@@ -310,7 +310,6 @@ Assert
 equal
 (
 false
-(
 await
 OS
 .
@@ -319,7 +318,6 @@ File
 exists
 (
 dir
-)
 )
 )
 ;
@@ -534,7 +532,6 @@ Assert
 equal
 (
 false
-(
 await
 OS
 .
@@ -543,7 +540,6 @@ File
 exists
 (
 dir
-)
 )
 )
 ;
@@ -603,7 +599,6 @@ Assert
 equal
 (
 false
-(
 await
 OS
 .
@@ -612,7 +607,6 @@ File
 exists
 (
 dir
-)
 )
 )
 ;
@@ -695,7 +689,6 @@ Assert
 equal
 (
 false
-(
 await
 OS
 .
@@ -704,7 +697,6 @@ File
 exists
 (
 dir
-)
 )
 )
 ;
@@ -800,7 +792,6 @@ Assert
 equal
 (
 false
-(
 await
 OS
 .
@@ -809,7 +800,6 @@ File
 exists
 (
 dir
-)
 )
 )
 ;
@@ -1065,7 +1055,6 @@ Assert
 equal
 (
 false
-(
 await
 OS
 .
@@ -1074,7 +1063,6 @@ File
 exists
 (
 dir
-)
 )
 )
 ;
@@ -1105,7 +1093,6 @@ Assert
 .
 ok
 (
-(
 await
 OS
 .
@@ -1114,7 +1101,6 @@ File
 exists
 (
 file
-)
 )
 )
 ;
@@ -1176,7 +1162,6 @@ Assert
 .
 ok
 (
-(
 await
 OS
 .
@@ -1190,7 +1175,6 @@ file
 .
 link
 "
-)
 )
 )
 ;
@@ -1292,7 +1276,6 @@ Assert
 equal
 (
 false
-(
 await
 OS
 .
@@ -1306,7 +1289,6 @@ file
 .
 link
 "
-)
 )
 )
 ;
@@ -1324,7 +1306,6 @@ Assert
 .
 ok
 (
-(
 await
 OS
 .
@@ -1333,7 +1314,6 @@ File
 exists
 (
 dir
-)
 )
 )
 ;
@@ -1409,7 +1389,6 @@ Assert
 .
 ok
 (
-(
 await
 OS
 .
@@ -1418,7 +1397,6 @@ File
 exists
 (
 link
-)
 )
 )
 ;
@@ -1567,7 +1545,6 @@ Assert
 .
 ok
 (
-(
 await
 OS
 .
@@ -1576,7 +1553,6 @@ File
 exists
 (
 file1
-)
 )
 )
 ;
@@ -1594,7 +1570,6 @@ Assert
 .
 ok
 (
-(
 await
 OS
 .
@@ -1603,7 +1578,6 @@ File
 exists
 (
 dir3
-)
 )
 )
 ;
@@ -1634,7 +1608,6 @@ Assert
 .
 ok
 (
-(
 await
 OS
 .
@@ -1643,7 +1616,6 @@ File
 exists
 (
 file3
-)
 )
 )
 ;
@@ -1667,7 +1639,6 @@ Assert
 .
 ok
 (
-(
 await
 OS
 .
@@ -1676,7 +1647,6 @@ File
 exists
 (
 link2
-)
 )
 )
 ;
@@ -1695,7 +1665,6 @@ Assert
 equal
 (
 false
-(
 await
 OS
 .
@@ -1706,12 +1675,10 @@ exists
 link
 )
 )
-)
 ;
 Assert
 .
 ok
-(
 (
 await
 OS
@@ -1723,7 +1690,6 @@ exists
 file1
 )
 )
-)
 ;
 await
 OS
@@ -1740,7 +1706,6 @@ Assert
 equal
 (
 false
-(
 await
 OS
 .
@@ -1751,12 +1716,10 @@ exists
 dir
 )
 )
-)
 ;
 Assert
 .
 ok
-(
 (
 await
 OS
@@ -1768,7 +1731,6 @@ exists
 file3
 )
 )
-)
 ;
 await
 OS
@@ -1785,7 +1747,6 @@ Assert
 equal
 (
 false
-(
 await
 OS
 .
@@ -1794,7 +1755,6 @@ File
 exists
 (
 dir3
-)
 )
 )
 ;

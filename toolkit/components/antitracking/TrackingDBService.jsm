@@ -1048,7 +1048,6 @@ TRACKING_COOKIES_ID
 }
 if
 (
-(
 state
 &
 Ci
@@ -1056,10 +1055,8 @@ Ci
 nsIWebProgressListener
 .
 STATE_COOKIES_BLOCKED_BY_PERMISSION
-)
 |
 |
-(
 state
 &
 Ci
@@ -1067,10 +1064,8 @@ Ci
 nsIWebProgressListener
 .
 STATE_COOKIES_BLOCKED_ALL
-)
 |
 |
-(
 state
 &
 Ci
@@ -1078,7 +1073,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_COOKIES_BLOCKED_FOREIGN
-)
 )
 {
 result

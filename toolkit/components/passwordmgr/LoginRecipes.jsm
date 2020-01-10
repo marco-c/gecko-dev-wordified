@@ -1195,12 +1195,10 @@ prop
 &
 &
 typeof
-(
 recipe
 [
 prop
 ]
-)
 !
 =
 "

@@ -2369,9 +2369,7 @@ onMessage
 addListener
 (
 async
-(
 perms
-)
 =
 >
 {

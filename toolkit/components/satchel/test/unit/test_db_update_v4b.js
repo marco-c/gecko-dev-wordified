@@ -314,6 +314,7 @@ Assert
 .
 ok
 (
+(
 await
 promiseCountEntries
 (
@@ -327,6 +328,7 @@ value
 -
 A
 "
+)
 )
 >
 0

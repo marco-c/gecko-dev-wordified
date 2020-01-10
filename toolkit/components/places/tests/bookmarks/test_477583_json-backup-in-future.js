@@ -230,6 +230,7 @@ entry
 leafName
 )
 )
+{
 entry
 .
 remove
@@ -237,6 +238,7 @@ remove
 false
 )
 ;
+}
 }
 let
 futureBackupFile

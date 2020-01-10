@@ -191,7 +191,6 @@ html
 ;
 if
 (
-(
 await
 OS
 .
@@ -200,7 +199,6 @@ File
 exists
 (
 file
-)
 )
 )
 {

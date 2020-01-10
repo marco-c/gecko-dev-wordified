@@ -693,6 +693,7 @@ i
 +
 +
 )
+{
 Assert
 .
 equal
@@ -711,6 +712,7 @@ moz
 "
 )
 ;
+}
 /
 /
 Update

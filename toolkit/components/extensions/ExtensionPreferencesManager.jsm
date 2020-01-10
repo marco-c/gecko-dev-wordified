@@ -1097,7 +1097,6 @@ some
 pref
 =
 >
-(
 expectedPrefs
 [
 pref
@@ -1116,7 +1115,6 @@ expectedPrefs
 [
 pref
 ]
-)
 )
 )
 {
@@ -2574,7 +2572,6 @@ storeType
 ;
 levelOfControl
 =
-(
 readOnly
 &
 &
@@ -2585,7 +2582,6 @@ levelOfControl
 "
 controllable_by_this_extension
 "
-)
 ?
 "
 not_controllable

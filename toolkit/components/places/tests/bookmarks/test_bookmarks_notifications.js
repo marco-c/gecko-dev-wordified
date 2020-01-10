@@ -5174,6 +5174,7 @@ Ci
 .
 nsIURI
 )
+{
 return
 new
 URL
@@ -5183,6 +5184,7 @@ arg
 spec
 )
 ;
+}
 return
 arg
 ;
@@ -5210,12 +5212,14 @@ name
 in
 target
 )
+{
 return
 target
 [
 name
 ]
 ;
+}
 return
 undefined
 ;

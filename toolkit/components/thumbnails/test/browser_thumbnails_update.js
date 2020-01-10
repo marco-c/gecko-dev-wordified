@@ -107,9 +107,11 @@ test
 (
 )
 )
+{
 yield
 iterator
 ;
+}
 }
 }
 function

@@ -80,11 +80,13 @@ if
 (
 outer
 )
+{
 throw
 Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;
+}
 return
 this
 .

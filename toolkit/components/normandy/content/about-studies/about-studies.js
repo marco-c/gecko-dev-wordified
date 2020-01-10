@@ -484,7 +484,6 @@ null
 ;
 }
 return
-(
 r
 (
 "
@@ -521,7 +520,6 @@ translations
 addonStudies
 prefStudies
 }
-)
 )
 )
 ;
@@ -585,7 +583,6 @@ this
 props
 ;
 return
-(
 r
 (
 "
@@ -713,7 +710,6 @@ updateButtonWin
 translations
 .
 updateButtonUnix
-)
 )
 )
 )
@@ -987,7 +983,6 @@ sortDate
 )
 ;
 return
-(
 r
 (
 "
@@ -1032,7 +1027,6 @@ map
 study
 =
 >
-(
 study
 .
 type
@@ -1069,7 +1063,6 @@ name
 study
 translations
 }
-)
 )
 )
 )
@@ -1110,7 +1103,6 @@ map
 study
 =
 >
-(
 study
 .
 type
@@ -1147,8 +1139,6 @@ name
 study
 translations
 }
-)
-)
 )
 )
 )
@@ -1280,7 +1270,6 @@ this
 props
 ;
 return
-(
 r
 (
 "
@@ -1546,7 +1535,6 @@ box
 translations
 .
 removeButton
-)
 )
 )
 )
@@ -1954,7 +1942,6 @@ sanitizedPreferenceValue
 ;
 }
 return
-(
 r
 (
 "
@@ -2185,7 +2172,6 @@ box
 translations
 .
 removeButton
-)
 )
 )
 )

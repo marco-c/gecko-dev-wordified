@@ -453,9 +453,7 @@ print
 percent
 "
 {
-"
 percent
-"
 :
 100
 }
@@ -825,10 +823,12 @@ percent
 >
 100
 )
+{
 percent
 =
 100
 ;
+}
 /
 /
 Advance
@@ -871,10 +871,6 @@ print
 percent
 "
 {
-"
-percent
-"
-:
 percent
 }
 )
@@ -962,6 +958,7 @@ aMessage
 "
 "
 )
+{
 dialog
 .
 title
@@ -974,6 +971,7 @@ value
 aMessage
 )
 ;
+}
 }
 onSecurityChange
 (

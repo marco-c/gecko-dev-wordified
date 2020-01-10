@@ -531,14 +531,12 @@ color
 )
 ;
 return
-(
 color
 =
 =
 test
 .
 color
-)
 ;
 }
 test

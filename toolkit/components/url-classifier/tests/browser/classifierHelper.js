@@ -156,9 +156,7 @@ nsIUrlListManager
 if
 (
 typeof
-(
 classifierHelper
-)
 =
 =
 "

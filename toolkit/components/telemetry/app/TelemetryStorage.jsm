@@ -963,7 +963,6 @@ getPendingPingsQuota
 )
 =
 >
-(
 AppConstants
 .
 platform
@@ -972,7 +971,6 @@ platform
 "
 android
 "
-)
 ?
 PENDING_PINGS_QUOTA_BYTES_MOBILE
 :
@@ -1609,7 +1607,6 @@ testCleanupTaskPromise
 )
 {
 return
-(
 TelemetryStorageImpl
 .
 _cleanArchiveTask
@@ -1619,7 +1616,6 @@ Promise
 .
 resolve
 (
-)
 )
 ;
 }
@@ -3288,11 +3284,9 @@ promise
 |
 |
 typeof
-(
 promise
 .
 then
-)
 !
 =
 "
@@ -4088,9 +4082,7 @@ promise
 .
 then
 (
-(
 r
-)
 =
 >
 {
@@ -4104,9 +4096,7 @@ promise
 )
 ;
 }
-(
 e
-)
 =
 >
 {
@@ -5392,11 +5382,13 @@ clear
 )
 =
 >
+(
 this
 .
 _cleanArchiveTask
 =
 null
+)
 ;
 /
 /
@@ -5713,14 +5705,12 @@ it
 .
 if
 (
-(
 startTimeStamp
 -
 archiveDate
 .
 getTime
 (
-)
 )
 >
 MAX_ARCHIVED_PINGS_RETENTION_MS
@@ -8526,9 +8516,7 @@ type
 .
 catch
 (
-(
 e
-)
 =
 >
 this
@@ -9078,9 +9066,7 @@ true
 .
 then
 (
-(
 path
-)
 =
 >
 {
@@ -9663,9 +9649,7 @@ path
 .
 catch
 (
-(
 ex
-)
 =
 >
 this
@@ -11653,9 +11637,7 @@ aFilePath
 .
 catch
 (
-(
 ex
-)
 =
 >
 {
@@ -12692,11 +12674,9 @@ field
 let
 pingIdentifier
 =
-(
 ping
 .
 slug
-)
 ?
 ping
 .

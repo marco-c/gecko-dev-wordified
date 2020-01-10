@@ -573,9 +573,7 @@ controller
 new
 SearchSuggestionController
 (
-(
 result
-)
 =
 >
 {
@@ -675,9 +673,7 @@ controller
 new
 SearchSuggestionController
 (
-(
 result
-)
 =
 >
 {
@@ -2010,9 +2006,7 @@ resultPromise1
 .
 then
 (
-(
 results
-)
 =
 >
 Assert
@@ -3854,9 +3848,7 @@ controller
 new
 SearchSuggestionController
 (
-(
 result
-)
 =
 >
 {
@@ -3905,9 +3897,7 @@ resultPromise
 .
 then
 (
-(
 result
-)
 =
 >
 {
@@ -4266,9 +4256,7 @@ resultPromise
 .
 then
 (
-(
 result
-)
 =
 >
 {
@@ -5096,10 +5084,12 @@ if
 !
 reason
 )
+{
 resolve
 (
 )
 ;
+}
 }
 }
 )

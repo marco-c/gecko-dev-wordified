@@ -1504,6 +1504,7 @@ ensureInitialized
 )
 ;
 return
+(
 SearchAutocompleteProviderInternal
 .
 enginesByAlias
@@ -1519,6 +1520,7 @@ toLocaleLowerCase
 |
 |
 null
+)
 ;
 }
 /
@@ -1838,6 +1840,7 @@ url
 )
 ;
 return
+(
 parseUrlResult
 .
 engine
@@ -1857,6 +1860,7 @@ parseUrlResult
 .
 terms
 }
+)
 ;
 }
 /

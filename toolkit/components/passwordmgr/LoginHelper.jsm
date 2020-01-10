@@ -3474,9 +3474,7 @@ logins
 .
 filter
 (
-(
 login
-)
 =
 >
 {
@@ -5233,7 +5231,6 @@ false
 let
 fieldType
 =
-(
 element
 .
 hasAttribute
@@ -5259,7 +5256,6 @@ toLowerCase
 element
 .
 type
-)
 ;
 if
 (
@@ -5557,11 +5553,9 @@ formActionOrigin
 |
 (
 typeof
-(
 loginData
 .
 httpRealm
-)
 =
 =
 "
@@ -5574,11 +5568,9 @@ null
 "
 )
 typeof
-(
 loginData
 .
 httpRealm
-)
 =
 =
 "
@@ -5866,6 +5858,7 @@ nsILoginMetaInfo
 ;
 if
 (
+(
 login
 .
 password
@@ -5874,7 +5867,9 @@ password
 newLogin
 .
 password
+)
 &
+(
 login
 .
 timePasswordChanged
@@ -5882,6 +5877,7 @@ timePasswordChanged
 newLogin
 .
 timePasswordChanged
+)
 )
 {
 /
@@ -6120,6 +6116,7 @@ nsILoginMetaInfo
 ;
 if
 (
+(
 login
 .
 password
@@ -6128,7 +6125,9 @@ password
 existingLogin
 .
 password
+)
 &
+(
 login
 .
 timePasswordChanged
@@ -6136,6 +6135,7 @@ timePasswordChanged
 existingLogin
 .
 timePasswordChanged
+)
 )
 {
 /
@@ -6788,9 +6788,7 @@ else
 if
 (
 typeof
-(
 data
-)
 =
 =
 "

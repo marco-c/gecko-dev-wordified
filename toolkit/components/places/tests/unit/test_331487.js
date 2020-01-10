@@ -319,9 +319,7 @@ bookmarks
 .
 map
 (
-(
 bookmark
-)
 =
 >
 bookmark

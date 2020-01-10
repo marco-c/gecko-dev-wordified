@@ -660,11 +660,9 @@ lineNumber
 stack
 }
 =
-(
 new
 Error
 (
-)
 )
 ;
 return

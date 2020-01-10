@@ -575,7 +575,6 @@ Assert
 .
 ok
 (
-(
 await
 PlacesUtils
 .
@@ -586,7 +585,6 @@ fetch
 {
 guid
 }
-)
 )
 "
 item

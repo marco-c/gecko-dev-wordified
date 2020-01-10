@@ -516,13 +516,16 @@ i
 .
 "
 )
+{
 lf
 =
 lf
 .
 parent
 ;
+}
 else
+{
 lf
 .
 append
@@ -533,6 +536,7 @@ i
 ]
 )
 ;
+}
 }
 }
 return

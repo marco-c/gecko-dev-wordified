@@ -956,6 +956,7 @@ if
 (
 tags
 )
+{
 title
 +
 =
@@ -976,10 +977,12 @@ join
 "
 )
 ;
+}
 if
 (
 style
 )
+{
 style
 =
 style
@@ -988,7 +991,9 @@ sort
 (
 )
 ;
+}
 else
+{
 style
 =
 [
@@ -997,6 +1002,7 @@ favicon
 "
 ]
 ;
+}
 let
 actual
 =
@@ -1168,6 +1174,7 @@ if
 (
 style
 )
+{
 Assert
 .
 equal
@@ -1191,6 +1198,7 @@ style
 "
 )
 ;
+}
 if
 (
 uri
@@ -1463,6 +1471,7 @@ test
 .
 searchParam
 )
+{
 input
 .
 searchParam
@@ -1471,6 +1480,7 @@ test
 .
 searchParam
 ;
+}
 /
 /
 Caret
@@ -2085,8 +2095,10 @@ j
 =
 undefined
 )
+{
 continue
 ;
+}
 if
 (
 await
@@ -2150,6 +2162,7 @@ if
 !
 found
 )
+{
 do_throw
 (
 Didn
@@ -2179,6 +2192,7 @@ in
 matches
 )
 ;
+}
 /
 /
 '

@@ -94,9 +94,7 @@ aProcesses
 aKeyed
 aAdditionalCondition
 =
-(
 data
-)
 =
 >
 true
@@ -142,6 +140,7 @@ false
 )
 ;
 return
+(
 aProcesses
 .
 every
@@ -166,6 +165,7 @@ p
 aAdditionalCondition
 (
 scalars
+)
 )
 ;
 }
@@ -252,6 +252,7 @@ registerCleanupFunction
 )
 =
 >
+(
 Services
 .
 telemetry
@@ -259,6 +260,7 @@ telemetry
 canRecordExtended
 =
 canRecordExtended
+)
 )
 ;
 }
@@ -320,9 +322,7 @@ test
 dynamic
 "
 {
-"
 pre_content_spawn
-"
 :
 {
 kind
@@ -339,9 +339,7 @@ record_on_release
 :
 true
 }
-"
 pre_content_spawn_expiration
-"
 :
 {
 kind
@@ -524,9 +522,7 @@ test
 dynamic
 "
 {
-"
 post_content_spawn
-"
 :
 {
 kind
@@ -543,9 +539,7 @@ record_on_release
 :
 false
 }
-"
 post_content_spawn_keyed
-"
 :
 {
 kind
@@ -562,9 +556,7 @@ record_on_release
 :
 true
 }
-"
 pre_content_spawn_expiration
-"
 :
 {
 kind
@@ -1161,9 +1153,7 @@ cheattest
 dynamic
 "
 {
-"
 test_aggregation
-"
 :
 {
 kind
@@ -1333,6 +1323,7 @@ scalarData
 >
 {
 return
+(
 "
 dynamic
 "
@@ -1356,6 +1347,7 @@ SCALAR_FULL_NAME
 =
 =
 4
+)
 ;
 }
 )

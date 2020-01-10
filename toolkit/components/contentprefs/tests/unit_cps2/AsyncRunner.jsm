@@ -286,15 +286,14 @@ value
 if
 (
 typeof
-(
 value
-)
 !
 =
 "
 boolean
 "
 )
+{
 this
 .
 _iteratorQueue
@@ -304,6 +303,7 @@ unshift
 value
 )
 ;
+}
 this
 .
 next

@@ -53,9 +53,7 @@ let
 manifest
 =
 {
-"
 permissions
-"
 :
 [
 "

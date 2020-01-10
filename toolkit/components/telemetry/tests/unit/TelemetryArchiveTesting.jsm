@@ -200,9 +200,7 @@ promiseArchivedPingList
 .
 then
 (
-(
 plist
-)
 =
 >
 {

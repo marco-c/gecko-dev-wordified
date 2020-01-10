@@ -319,6 +319,7 @@ if
 (
 url
 )
+{
 BrowserTestUtils
 .
 loadURI
@@ -329,6 +330,7 @@ linkedBrowser
 url
 )
 ;
+}
 /
 /
 Promise

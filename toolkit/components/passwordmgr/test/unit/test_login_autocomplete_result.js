@@ -4587,11 +4587,9 @@ index
 if
 (
 typeof
-(
 item
 .
 comment
-)
 =
 =
 "

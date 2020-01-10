@@ -347,7 +347,6 @@ JSON
 .
 stringify
 (
-(
 await
 Promise
 .
@@ -358,7 +357,6 @@ Promise
 all
 (
 message
-)
 )
 )
 )
@@ -454,7 +452,6 @@ JSON
 .
 stringify
 (
-(
 await
 Promise
 .
@@ -465,7 +462,6 @@ Promise
 all
 (
 message
-)
 )
 )
 )
@@ -582,9 +578,11 @@ ex
 =
 error
 )
+{
 throw
 ex
 ;
+}
 info
 (
 "

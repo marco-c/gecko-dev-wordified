@@ -4323,12 +4323,14 @@ containerNesting
 >
 0
 )
+{
 frame
 .
 containerNesting
 -
 -
 ;
+}
 if
 (
 this
@@ -5660,6 +5662,7 @@ _root
 .
 children
 )
+{
 this
 .
 _root
@@ -5669,6 +5672,7 @@ children
 [
 ]
 ;
+}
 this
 .
 _root
@@ -6214,6 +6218,7 @@ root
 toolbarFolder
 "
 )
+{
 this
 .
 _writeAttribute
@@ -6226,6 +6231,7 @@ true
 "
 )
 ;
+}
 else
 if
 (
@@ -6239,6 +6245,7 @@ root
 unfiledBookmarksFolder
 "
 )
+{
 this
 .
 _writeAttribute
@@ -6251,6 +6258,7 @@ true
 "
 )
 ;
+}
 this
 .
 _writeLine
@@ -6297,6 +6305,7 @@ aItem
 .
 children
 )
+{
 await
 this
 .
@@ -6306,6 +6315,7 @@ aItem
 aIndent
 )
 ;
+}
 if
 (
 aItem
@@ -6315,6 +6325,7 @@ this
 .
 _root
 )
+{
 this
 .
 _writeLine
@@ -6329,7 +6340,9 @@ DL
 "
 )
 ;
+}
 else
+{
 this
 .
 _writeLine
@@ -6347,6 +6360,7 @@ p
 "
 )
 ;
+}
 }
 async
 _writeContainerContents
@@ -6469,6 +6483,7 @@ aItem
 .
 title
 )
+{
 this
 .
 _writeAttribute
@@ -6484,6 +6499,7 @@ title
 )
 )
 ;
+}
 this
 .
 _write
@@ -6610,6 +6626,7 @@ aItem
 .
 postData
 )
+{
 this
 .
 _writeAttribute
@@ -6626,12 +6643,14 @@ postData
 )
 ;
 }
+}
 if
 (
 aItem
 .
 charset
 )
+{
 this
 .
 _writeAttribute
@@ -6647,12 +6666,14 @@ charset
 )
 )
 ;
+}
 if
 (
 aItem
 .
 tags
 )
+{
 this
 .
 _writeAttribute
@@ -6668,6 +6689,7 @@ tags
 )
 )
 ;
+}
 this
 .
 _writeLine
@@ -6703,6 +6725,7 @@ aItem
 .
 dateAdded
 )
+{
 this
 .
 _writeAttribute
@@ -6722,12 +6745,14 @@ MICROSEC_PER_SEC
 )
 )
 ;
+}
 if
 (
 aItem
 .
 lastModified
 )
+{
 this
 .
 _writeAttribute
@@ -6748,6 +6773,7 @@ MICROSEC_PER_SEC
 )
 ;
 }
+}
 async
 _writeFaviconAttribute
 (
@@ -6761,8 +6787,10 @@ aItem
 .
 iconuri
 )
+{
 return
 ;
+}
 let
 favicon
 ;

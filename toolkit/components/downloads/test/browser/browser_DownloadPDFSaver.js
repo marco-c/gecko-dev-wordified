@@ -500,7 +500,6 @@ else
 {
 ok
 (
-(
 await
 OS
 .
@@ -513,7 +512,6 @@ download
 target
 .
 path
-)
 )
 "
 File

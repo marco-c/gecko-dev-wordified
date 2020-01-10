@@ -1782,7 +1782,6 @@ SEARCH_RESPONSE_SUGGESTION_JSON
 let
 method
 =
-(
 submission
 .
 postData
@@ -1794,7 +1793,6 @@ POST
 "
 GET
 "
-)
 ;
 this
 .
@@ -2052,9 +2050,7 @@ addEventListener
 "
 error
 "
-(
 evt
-)
 =
 >
 deferredResponse
@@ -2111,9 +2107,7 @@ addEventListener
 "
 abort
 "
-(
 evt
-)
 =
 >
 deferredResponse

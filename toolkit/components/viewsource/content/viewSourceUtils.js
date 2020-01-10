@@ -936,8 +936,10 @@ message
 .
 data
 )
+{
 return
 ;
+}
 let
 viewSourceBrowser
 =
@@ -1127,6 +1129,7 @@ test
 args
 )
 )
+{
 editorArgs
 .
 push
@@ -1141,6 +1144,7 @@ RegExp
 2
 )
 ;
+}
 }
 editorArgs
 .
@@ -2122,7 +2126,6 @@ loading
 .
 if
 (
-(
 aFlag
 &
 this
@@ -2130,7 +2133,6 @@ this
 mnsIWebProgressListener
 .
 STATE_STOP
-)
 &
 &
 aStatus

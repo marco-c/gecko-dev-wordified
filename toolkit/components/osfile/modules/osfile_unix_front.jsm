@@ -870,11 +870,9 @@ O
 if
 (
 typeof
-(
 UnixFile
 .
 posix_fadvise
-)
 =
 =
 =
@@ -4737,12 +4735,10 @@ null
 dest_fd
 null
 bytes_read
-(
 bytes_read
 =
 =
 chunk_size
-)
 ?
 Const
 .
@@ -5349,8 +5345,10 @@ result
 -
 1
 )
+{
 return
 ;
+}
 /
 /
 If
@@ -6214,8 +6212,10 @@ this
 .
 _closed
 )
+{
 return
 ;
+}
 this
 .
 _closed
@@ -6309,6 +6309,7 @@ this
 .
 _dir
 )
+{
 throw
 File
 .
@@ -6324,6 +6325,7 @@ this
 _path
 )
 ;
+}
 return
 error_or_file
 (
@@ -6614,13 +6616,13 @@ let
 MODE_MASK
 =
 4095
+;
 /
 *
 =
 07777
 *
 /
-;
 File
 .
 Info
@@ -8269,6 +8271,8 @@ array
 (
 length
 )
+)
+(
 )
 ;
 path

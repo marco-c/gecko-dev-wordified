@@ -730,7 +730,6 @@ resolved
 let
 isLinux
 =
-(
 "
 mozilla
 .
@@ -746,14 +745,15 @@ service
 "
 in
 Cc
-)
 ;
 if
 (
 isLinux
 )
+{
 return
 ;
+}
 /
 /
 In
@@ -1128,6 +1128,7 @@ j
 +
 +
 )
+{
 roots
 [
 i
@@ -1140,6 +1141,7 @@ containerOpen
 =
 false
 ;
+}
 }
 root
 .

@@ -854,9 +854,7 @@ forms
 .
 map
 (
-(
 f
-)
 =
 >
 f
@@ -960,9 +958,7 @@ passwords
 .
 map
 (
-(
 p
-)
 =
 >
 p
@@ -1361,9 +1357,7 @@ forms
 .
 map
 (
-(
 f
-)
 =
 >
 f
@@ -1467,9 +1461,7 @@ inputs
 .
 map
 (
-(
 p
-)
 =
 >
 p

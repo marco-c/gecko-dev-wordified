@@ -222,11 +222,9 @@ path
 let
 string
 =
-(
 new
 TextDecoder
 (
-)
 )
 .
 decode

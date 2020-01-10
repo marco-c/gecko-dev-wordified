@@ -321,13 +321,11 @@ aObj
 )
 {
 return
-(
 aObj
 instanceof
 Ci
 .
 nsIFile
-)
 ?
 Services
 .

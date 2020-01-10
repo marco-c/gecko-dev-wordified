@@ -65,9 +65,7 @@ ExtensionTestUtils
 normalizeManifest
 (
 {
-"
 minimum_chrome_version
-"
 :
 "
 42

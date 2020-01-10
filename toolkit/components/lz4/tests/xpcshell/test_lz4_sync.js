@@ -159,11 +159,9 @@ data
 let
 text
 =
-(
 new
 TextDecoder
 (
-)
 )
 .
 decode

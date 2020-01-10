@@ -751,7 +751,6 @@ stackTraces
 modules
 &
 &
-(
 stackTraces
 .
 modules
@@ -759,7 +758,6 @@ modules
 length
 >
 0
-)
 "
 The
 module
@@ -779,7 +777,6 @@ stackTraces
 threads
 &
 &
-(
 stackTraces
 .
 threads
@@ -787,7 +784,6 @@ threads
 length
 >
 0
-)
 "
 The
 thread
@@ -874,13 +870,11 @@ ok
 frames
 &
 &
-(
 frames
 .
 length
 >
 0
-)
 "
 The
 stack
@@ -1208,9 +1202,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

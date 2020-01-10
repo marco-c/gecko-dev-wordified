@@ -193,9 +193,7 @@ let
 funcs
 =
 {
-"
 get_prefix
-"
 :
 parts
 .
@@ -210,9 +208,7 @@ join
 "
 "
 )
-"
 get_host_and_port
-"
 :
 parts
 .
@@ -227,9 +223,7 @@ join
 "
 "
 )
-"
 strip_prefix_and_userinfo
-"
 :
 parts
 .

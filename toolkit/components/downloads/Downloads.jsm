@@ -929,13 +929,11 @@ if
 aOptions
 &
 &
-(
 "
 isPrivate
 "
 in
 aOptions
-)
 )
 {
 aDownload

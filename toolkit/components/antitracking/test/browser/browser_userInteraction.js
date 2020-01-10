@@ -71,9 +71,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -267,6 +265,7 @@ nsIPermission
 )
 ;
 return
+(
 permission
 .
 type
@@ -286,6 +285,7 @@ URI
 equals
 (
 uri
+)
 )
 ;
 }
@@ -419,6 +419,7 @@ nsIPermission
 )
 ;
 return
+(
 permission
 .
 type
@@ -438,6 +439,7 @@ URI
 equals
 (
 uri
+)
 )
 ;
 }
@@ -512,9 +514,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

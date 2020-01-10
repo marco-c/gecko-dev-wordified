@@ -445,9 +445,11 @@ fakeSchedulerTimer
 callback
 =
 >
+(
 schedulerTickCallback
 =
 callback
+)
 (
 )
 =
@@ -467,7 +469,6 @@ Assert
 .
 ok
 (
-(
 await
 OS
 .
@@ -476,7 +477,6 @@ File
 exists
 (
 DATAREPORTING_PATH
-)
 )
 "
 Telemetry
@@ -575,7 +575,6 @@ Assert
 .
 ok
 (
-(
 await
 OS
 .
@@ -584,7 +583,6 @@ File
 exists
 (
 ABORTED_FILE
-)
 )
 "
 There
@@ -884,9 +882,11 @@ fakeSchedulerTimer
 callback
 =
 >
+(
 schedulerTickCallback
 =
 callback
+)
 (
 )
 =
@@ -906,7 +906,6 @@ Assert
 .
 ok
 (
-(
 await
 OS
 .
@@ -915,7 +914,6 @@ File
 exists
 (
 DATAREPORTING_PATH
-)
 )
 "
 Telemetry
@@ -1014,7 +1012,6 @@ Assert
 .
 ok
 (
-(
 await
 OS
 .
@@ -1023,7 +1020,6 @@ File
 exists
 (
 ABORTED_FILE
-)
 )
 "
 There

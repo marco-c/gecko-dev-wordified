@@ -248,9 +248,7 @@ certerror
 "
 :
 {
-"
 getFormatURLPref
-"
 :
 [
 "
@@ -261,9 +259,7 @@ support
 baseURL
 "
 ]
-"
 getBoolPref
-"
 :
 [
 "
@@ -312,9 +308,7 @@ errorReporting
 enabled
 "
 ]
-"
 getIntPref
-"
 :
 [
 "
@@ -332,9 +326,7 @@ settings
 last_update_seconds
 "
 ]
-"
 getAppBuildID
-"
 :
 [
 "
@@ -360,9 +352,7 @@ within
 AboutPrivateBrowsingHandler
 .
 jsm
-"
 getFormatURLPref
-"
 :
 [
 "
@@ -373,9 +363,7 @@ support
 baseURL
 "
 ]
-"
 isWindowPrivate
-"
 :
 [
 "
@@ -390,18 +378,14 @@ newinstall
 "
 :
 {
-"
 getUpdateChannel
-"
 :
 [
 "
 yes
 "
 ]
-"
 getFxAccountsEndpoint
-"
 :
 [
 "
@@ -805,6 +789,7 @@ has
 name
 )
 )
+{
 this
 .
 listeners
@@ -821,7 +806,9 @@ callback
 )
 )
 ;
+}
 else
+{
 this
 .
 listeners
@@ -836,6 +823,7 @@ add
 callback
 )
 ;
+}
 }
 removeMessageListener
 (
@@ -855,8 +843,10 @@ has
 name
 )
 )
+{
 return
 ;
+}
 this
 .
 listeners
@@ -1380,7 +1370,6 @@ this
 destroyed
 |
 |
-(
 messagedata
 .
 portID
@@ -1389,7 +1378,6 @@ portID
 this
 .
 portID
-)
 )
 {
 return
@@ -1487,7 +1475,6 @@ this
 destroyed
 |
 |
-(
 messagedata
 .
 portID
@@ -1496,7 +1483,6 @@ portID
 this
 .
 portID
-)
 )
 {
 return
@@ -1634,7 +1620,6 @@ this
 destroyed
 |
 |
-(
 messagedata
 .
 portID
@@ -1643,7 +1628,6 @@ portID
 this
 .
 portID
-)
 )
 {
 return

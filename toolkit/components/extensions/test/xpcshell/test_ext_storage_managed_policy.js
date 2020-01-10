@@ -6,7 +6,6 @@ strict
 const
 PREF_DISABLE_SECURITY
 =
-(
 "
 security
 .
@@ -16,7 +15,6 @@ turn_off_all_security_so_that_
 "
 viruses_can_take_over_this_computer
 "
-)
 ;
 const
 {
@@ -147,9 +145,7 @@ EnterprisePolicyTesting
 setupPolicyEngineWithJson
 (
 {
-"
 policies
-"
 :
 {
 "
@@ -157,9 +153,7 @@ policies
 "
 :
 {
-"
 Extensions
-"
 :
 {
 "
@@ -176,9 +170,7 @@ com
 "
 :
 {
-"
 string
-"
 :
 "
 value
@@ -288,9 +280,7 @@ results
 "
 )
 {
-"
 string
-"
 :
 "
 value

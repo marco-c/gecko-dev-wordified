@@ -465,9 +465,7 @@ let
 manifest
 =
 {
-"
 permissions
-"
 :
 [
 "

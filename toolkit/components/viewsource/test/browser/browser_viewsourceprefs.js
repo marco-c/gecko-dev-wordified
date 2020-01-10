@@ -1027,6 +1027,7 @@ checked
 "
 )
 )
+{
 item
 .
 removeAttribute
@@ -1036,7 +1037,9 @@ checked
 "
 )
 ;
+}
 else
+{
 item
 .
 setAttribute
@@ -1049,6 +1052,7 @@ true
 "
 )
 ;
+}
 item
 .
 click
@@ -1176,9 +1180,7 @@ some
 call
 (
 spans
-(
 span
-)
 =
 >
 {

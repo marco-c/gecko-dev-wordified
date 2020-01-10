@@ -6278,9 +6278,7 @@ error
 &
 &
 typeof
-(
 error
-)
 =
 =
 "

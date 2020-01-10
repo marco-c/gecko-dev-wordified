@@ -2561,6 +2561,7 @@ case
 let
 acLookupPromise
 =
+(
 this
 .
 _autoCompleteLookupPromise
@@ -2575,6 +2576,7 @@ logins
 [
 ]
 }
+)
 )
 ;
 acLookupPromise
@@ -2617,6 +2619,7 @@ filled
 let
 acLookupPromise
 =
+(
 this
 .
 _autoCompleteLookupPromise
@@ -2631,6 +2634,7 @@ logins
 [
 ]
 }
+)
 )
 ;
 acLookupPromise
@@ -2660,6 +2664,7 @@ enabled
 let
 acLookupPromise
 =
+(
 this
 .
 _autoCompleteLookupPromise
@@ -2674,6 +2679,7 @@ logins
 [
 ]
 }
+)
 )
 ;
 acLookupPromise
@@ -2743,6 +2749,7 @@ null
 let
 acLookupPromise
 =
+(
 this
 .
 _autoCompleteLookupPromise
@@ -2754,6 +2761,7 @@ _autoCompleteSearchAsync
 aSearchString
 previousResult
 aElement
+)
 )
 ;
 acLookupPromise

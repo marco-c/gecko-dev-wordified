@@ -444,6 +444,7 @@ pageGuid
 guid
 ;
 return
+(
 prop
 =
 =
@@ -468,6 +469,7 @@ value
 faviconURI
 .
 spec
+)
 ;
 }
 "

@@ -826,6 +826,7 @@ Cr
 .
 NS_ERROR_NOT_INITIALIZED
 )
+{
 Cu
 .
 reportError
@@ -833,6 +834,7 @@ reportError
 e
 )
 ;
+}
 }
 }
 }
@@ -1332,8 +1334,10 @@ this
 .
 _permanentKey
 )
+{
 return
 ;
+}
 this
 .
 _browser
@@ -1412,8 +1416,10 @@ this
 .
 messageManager
 )
+{
 return
 ;
+}
 this
 .
 listener
@@ -1560,12 +1566,14 @@ RemotePage
 Unload
 "
 )
+{
 this
 .
 destroy
 (
 )
 ;
+}
 }
 destroy
 (

@@ -235,6 +235,7 @@ callbacks
 .
 handleCompletion
 )
+{
 callbacks
 .
 handleCompletion
@@ -273,6 +274,7 @@ resolve
 }
 }
 ;
+}
 return
 callbacks
 ;
@@ -700,6 +702,7 @@ if
 (
 strict
 )
+{
 strictEqual
 (
 actual
@@ -710,7 +713,9 @@ expected
 value
 )
 ;
+}
 else
+{
 equal
 (
 actual
@@ -721,6 +726,7 @@ expected
 value
 )
 ;
+}
 }
 async
 function
@@ -741,6 +747,7 @@ length
 =
 2
 )
+{
 args
 .
 push
@@ -748,6 +755,7 @@ push
 undefined
 )
 ;
+}
 let
 expectedPrefs
 =
@@ -812,6 +820,7 @@ length
 =
 2
 )
+{
 args
 .
 push
@@ -819,6 +828,7 @@ push
 undefined
 )
 ;
+}
 let
 expectedPrefs
 =
@@ -881,6 +891,7 @@ length
 =
 1
 )
+{
 args
 .
 push
@@ -888,6 +899,7 @@ push
 undefined
 )
 ;
+}
 let
 expectedPrefs
 =
@@ -1034,6 +1046,7 @@ length
 =
 2
 )
+{
 args
 .
 push
@@ -1041,6 +1054,7 @@ push
 undefined
 )
 ;
+}
 let
 expectedPref
 =
@@ -1097,6 +1111,7 @@ length
 =
 2
 )
+{
 args
 .
 push
@@ -1104,6 +1119,7 @@ push
 undefined
 )
 ;
+}
 let
 actualPrefs
 =
@@ -1207,6 +1223,7 @@ length
 =
 1
 )
+{
 args
 .
 push
@@ -1214,6 +1231,7 @@ push
 undefined
 )
 ;
+}
 let
 expectedPref
 =
@@ -1274,6 +1292,7 @@ if
 (
 expectedPref
 )
+{
 prefOK
 (
 actualPref
@@ -1281,13 +1300,16 @@ expectedPref
 strict
 )
 ;
+}
 else
+{
 strictEqual
 (
 actualPref
 null
 )
 ;
+}
 }
 function
 arraysOK
@@ -1607,7 +1629,6 @@ map
 row
 =
 >
-(
 cols
 .
 map
@@ -1620,7 +1641,6 @@ row
 getResultByName
 (
 c
-)
 )
 )
 )
@@ -1687,6 +1707,7 @@ prop
 ]
 )
 )
+{
 this
 [
 prop
@@ -1703,6 +1724,7 @@ prop
 length
 )
 ;
+}
 }
 }
 }
@@ -1830,6 +1852,7 @@ if
 !
 dontRemove
 )
+{
 names
 .
 forEach
@@ -1849,6 +1872,7 @@ n
 )
 )
 ;
+}
 deferred
 .
 resolve

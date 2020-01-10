@@ -1868,6 +1868,7 @@ browser
 history
 .
 return
+(
 !
 aDownload
 .
@@ -1892,6 +1893,7 @@ platform
 "
 android
 "
+)
 ;
 }
 /
@@ -2579,6 +2581,7 @@ shouldBlockForRuntimePermissions
 )
 {
 return
+(
 AppConstants
 .
 platform
@@ -2599,6 +2602,7 @@ waitForPermissions
 RuntimePermissions
 .
 WRITE_EXTERNAL_STORAGE
+)
 )
 )
 ;
@@ -6374,13 +6378,11 @@ nothing
 .
 if
 (
-(
 aCancel
 instanceof
 Ci
 .
 nsISupportsPRBool
-)
 &
 &
 aCancel
@@ -7597,11 +7599,13 @@ then
 )
 =
 >
+(
 this
 .
 _initialized
 =
 true
+)
 )
 ;
 }

@@ -450,6 +450,7 @@ Assert
 ok
 (
 !
+(
 await
 OS
 .
@@ -458,6 +459,7 @@ File
 exists
 (
 dest
+)
 )
 "
 {
@@ -497,6 +499,7 @@ Assert
 ok
 (
 !
+(
 await
 OS
 .
@@ -505,6 +508,7 @@ File
 exists
 (
 corrupt
+)
 )
 {
 filename
@@ -796,6 +800,7 @@ Assert
 ok
 (
 !
+(
 await
 OS
 .
@@ -804,6 +809,7 @@ File
 exists
 (
 corrupt
+)
 )
 "
 The

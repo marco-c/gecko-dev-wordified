@@ -499,6 +499,7 @@ waitForCondition
 >
 {
 return
+(
 content
 .
 location
@@ -521,6 +522,7 @@ readyState
 "
 complete
 "
+)
 ;
 }
 Wait

@@ -1655,13 +1655,11 @@ this
 _currentRequest
 &
 &
-(
 pendingUrls
 .
 length
 >
 0
-)
 )
 {
 let
@@ -1850,6 +1848,7 @@ aGethashUrl
 )
 {
 return
+(
 this
 .
 _backoffs
@@ -1875,6 +1874,7 @@ _nextGethashTimeMs
 [
 aGethashUrl
 ]
+)
 ;
 }
 /
@@ -3762,13 +3762,11 @@ PARTIAL_LENGTH
 :
 "
 +
-(
 PARTIAL_LENGTH
 *
 prefixes
 .
 length
-)
 +
 "
 \
@@ -4676,11 +4674,9 @@ i
 ;
 i
 <
-(
 dataLength
 /
 COMPLETE_LENGTH
-)
 ;
 i
 +
@@ -4933,9 +4929,7 @@ handler
 let
 completionV2
 =
-(
 req
-)
 =
 >
 {
@@ -4947,9 +4941,7 @@ matches
 .
 forEach
 (
-(
 m
-)
 =
 >
 {
@@ -4994,9 +4986,7 @@ handler
 let
 completionV4
 =
-(
 req
-)
 =
 >
 {
@@ -5107,9 +5097,7 @@ _requests
 .
 forEach
 (
-(
 req
-)
 =
 >
 {

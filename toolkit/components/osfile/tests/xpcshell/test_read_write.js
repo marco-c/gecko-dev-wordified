@@ -669,6 +669,7 @@ i
 +
 +
 )
+{
 contents
 [
 i
@@ -678,6 +679,7 @@ i
 %
 256
 ;
+}
 view
 =
 new
@@ -750,6 +752,7 @@ j
 +
 +
 )
+{
 Assert
 .
 equal
@@ -767,6 +770,7 @@ START
 256
 )
 ;
+}
 /
 /
 Cleanup

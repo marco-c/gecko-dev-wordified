@@ -12,9 +12,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -161,9 +159,7 @@ panel
 "
 popupshown
 "
-(
 event
-)
 =
 >
 event

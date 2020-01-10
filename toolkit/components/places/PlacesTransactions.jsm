@@ -2684,6 +2684,7 @@ isProxifiedTransactionObject
 proxifiedTransaction
 )
 )
+{
 throw
 new
 Error
@@ -2698,6 +2699,7 @@ transaction
 "
 )
 ;
+}
 if
 (
 this
@@ -2768,6 +2770,7 @@ this
 .
 length
 )
+{
 this
 .
 splice
@@ -2777,6 +2780,7 @@ this
 undoPosition
 )
 ;
+}
 }
 /
 *
@@ -2918,6 +2922,7 @@ length
 =
 0
 )
+{
 throw
 new
 Error
@@ -2933,6 +2938,7 @@ array
 "
 )
 ;
+}
 if
 (
 transactionsToBatch
@@ -3015,9 +3021,7 @@ ex
 if
 (
 typeof
-(
 transactionsToBatch
-)
 =
 =
 "
@@ -3500,6 +3504,7 @@ this
 .
 length
 )
+{
 throw
 new
 Error
@@ -3510,6 +3515,7 @@ index
 "
 )
 ;
+}
 return
 TransactionsHistory
 [
@@ -4398,6 +4404,7 @@ if
 !
 rawTxn
 )
+{
 throw
 new
 Error
@@ -4415,6 +4422,7 @@ object
 "
 )
 ;
+}
 if
 (
 this
@@ -4426,6 +4434,7 @@ has
 rawTxn
 )
 )
+{
 throw
 new
 Error
@@ -4441,6 +4450,7 @@ recycled
 "
 )
 ;
+}
 /
 /
 Add
@@ -4556,12 +4566,14 @@ this
 .
 _batching
 )
+{
 this
 .
 _createdBatchEntry
 =
 true
 ;
+}
 this
 .
 _updateCommandsOnActiveWindow
@@ -4742,8 +4754,10 @@ if
 !
 entry
 )
+{
 return
 ;
+}
 for
 (
 let
@@ -4911,8 +4925,10 @@ if
 !
 entry
 )
+{
 return
 ;
+}
 for
 (
 let
@@ -5094,35 +5110,42 @@ undoEntries
 &
 redoEntries
 )
+{
 TransactionsHistory
 .
 clearAllEntries
 (
 )
 ;
+}
 else
 if
 (
 undoEntries
 )
+{
 TransactionsHistory
 .
 clearUndoEntries
 (
 )
 ;
+}
 else
 if
 (
 redoEntries
 )
+{
 TransactionsHistory
 .
 clearRedoEntries
 (
 )
 ;
+}
 else
+{
 throw
 new
 Error
@@ -5138,6 +5161,7 @@ true
 "
 )
 ;
+}
 }
 )
 ;
@@ -5214,6 +5238,7 @@ if
 (
 win
 )
+{
 win
 .
 updateCommands
@@ -5223,6 +5248,7 @@ undo
 "
 )
 ;
+}
 }
 catch
 (
@@ -5432,6 +5458,7 @@ has
 prop
 )
 )
+{
 throw
 new
 Error
@@ -5451,6 +5478,7 @@ defined
 "
 )
 ;
+}
 }
 let
 ctor
@@ -5497,6 +5525,7 @@ this
 =
 PlacesTransactions
 )
+{
 return
 new
 ctor
@@ -5504,6 +5533,7 @@ ctor
 input
 )
 ;
+}
 if
 (
 requiredProps
@@ -5591,6 +5621,7 @@ checkFn
 v
 )
 )
+{
 throw
 new
 Error
@@ -5601,6 +5632,7 @@ value
 "
 )
 ;
+}
 return
 v
 ;
@@ -5617,9 +5649,7 @@ v
 =
 >
 typeof
-(
 v
-)
 =
 =
 "
@@ -5637,9 +5667,7 @@ v
 =
 >
 typeof
-(
 v
-)
 =
 =
 "
@@ -5731,9 +5759,7 @@ null
 |
 (
 typeof
-(
 v
-)
 !
 =
 "
@@ -5742,9 +5768,7 @@ object
 &
 &
 typeof
-(
 v
-)
 !
 =
 "
@@ -5768,6 +5792,7 @@ prop
 in
 obj
 )
+{
 return
 checkFn
 (
@@ -5777,6 +5802,7 @@ prop
 ]
 )
 ;
+}
 return
 !
 required
@@ -5807,9 +5833,7 @@ v
 =
 >
 typeof
-(
 v
-)
 =
 =
 "
@@ -5923,6 +5947,7 @@ Ci
 .
 nsIURI
 )
+{
 return
 new
 URL
@@ -5932,6 +5957,7 @@ url
 spec
 )
 ;
+}
 return
 new
 URL
@@ -5990,9 +6016,11 @@ value
 =
 undefined
 )
+{
 return
 defaultValue
 ;
+}
 try
 {
 return
@@ -6045,6 +6073,7 @@ in
 input
 )
 )
+{
 throw
 new
 Error
@@ -6060,6 +6089,7 @@ name
 }
 )
 ;
+}
 return
 this
 .
@@ -6108,6 +6138,7 @@ if
 !
 baseProp
 )
+{
 throw
 new
 Error
@@ -6121,6 +6152,7 @@ basePropertyName
 }
 )
 ;
+}
 this
 .
 inputProps
@@ -6141,10 +6173,12 @@ aValue
 =
 undefined
 )
+{
 return
 [
 ]
 ;
+}
 if
 (
 !
@@ -6155,6 +6189,7 @@ isArray
 aValue
 )
 )
+{
 throw
 new
 Error
@@ -6171,6 +6206,7 @@ an
 array
 )
 ;
+}
 /
 /
 We
@@ -6459,6 +6495,7 @@ in
 input
 )
 )
+{
 throw
 new
 Error
@@ -6474,12 +6511,14 @@ name
 }
 )
 ;
+}
 if
 (
 basePropertyName
 in
 input
 )
+{
 return
 [
 baseProp
@@ -6493,6 +6532,7 @@ basePropertyName
 )
 ]
 ;
+}
 return
 [
 ]
@@ -6734,10 +6774,12 @@ length
 =
 0
 )
+{
 return
 {
 }
 ;
+}
 /
 /
 If
@@ -6835,13 +6877,11 @@ input
 )
 |
 |
-(
 input
 instanceof
 Ci
 .
 nsISupports
-)
 ;
 if
 (
@@ -7346,17 +7386,16 @@ uri
 if
 (
 typeof
-(
 item
 .
 title
-)
 =
 =
 "
 string
 "
 )
+{
 info
 .
 title
@@ -7365,6 +7404,7 @@ item
 .
 title
 ;
+}
 guid
 =
 (
@@ -7475,17 +7515,16 @@ TYPE_FOLDER
 if
 (
 typeof
-(
 item
 .
 title
-)
 =
 =
 "
 string
 "
 )
+{
 info
 .
 title
@@ -7494,6 +7533,7 @@ item
 .
 title
 ;
+}
 guid
 =
 (
@@ -7542,10 +7582,12 @@ if
 (
 restoring
 )
+{
 shouldResetLastModified
 =
 true
 ;
+}
 break
 ;
 }
@@ -8851,6 +8893,7 @@ if
 !
 originalInfo
 )
+{
 throw
 new
 Error
@@ -8866,6 +8909,7 @@ item
 "
 )
 ;
+}
 originalInfos
 .
 push
@@ -9071,6 +9115,7 @@ if
 !
 originalInfo
 )
+{
 throw
 new
 Error
@@ -9086,6 +9131,7 @@ item
 "
 )
 ;
+}
 let
 updateInfo
 =
@@ -9224,6 +9270,7 @@ if
 !
 originalInfo
 )
+{
 throw
 new
 Error
@@ -9239,6 +9286,7 @@ item
 "
 )
 ;
+}
 if
 (
 originalInfo
@@ -9252,6 +9300,7 @@ bookmarks
 .
 TYPE_BOOKMARK
 )
+{
 throw
 new
 Error
@@ -9268,6 +9317,7 @@ items
 "
 )
 ;
+}
 let
 uri
 =
@@ -9398,6 +9448,7 @@ url
 )
 )
 )
+{
 PlacesUtils
 .
 tagging
@@ -9408,6 +9459,7 @@ originalURI
 originalTags
 )
 ;
+}
 let
 currentNewURITags
 =
@@ -9449,6 +9501,7 @@ length
 >
 0
 )
+{
 PlacesUtils
 .
 tagging
@@ -9459,6 +9512,7 @@ uri
 newURIAdditionalTags
 )
 ;
+}
 }
 }
 await
@@ -9893,10 +9947,12 @@ nodeIsContainer
 node_b
 )
 )
+{
 return
 -
 1
 ;
+}
 if
 (
 !
@@ -9915,9 +9971,11 @@ nodeIsContainer
 node_b
 )
 )
+{
 return
 1
 ;
+}
 return
 node_a
 .
@@ -11558,8 +11616,10 @@ includes
 oldTag
 )
 )
+{
 continue
 ;
+}
 if
 (
 tags

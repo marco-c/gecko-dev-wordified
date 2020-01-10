@@ -241,7 +241,6 @@ Assert
 equal
 (
 false
-(
 await
 OS
 .
@@ -250,7 +249,6 @@ File
 exists
 (
 dir
-)
 )
 )
 ;
@@ -399,7 +397,6 @@ Assert
 equal
 (
 false
-(
 await
 OS
 .
@@ -408,7 +405,6 @@ File
 exists
 (
 dir
-)
 )
 )
 ;

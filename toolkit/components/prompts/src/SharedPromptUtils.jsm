@@ -264,6 +264,7 @@ propName
 in
 obj
 )
+{
 bag
 .
 setProperty
@@ -275,6 +276,7 @@ propName
 ]
 )
 ;
+}
 return
 bag
 ;
@@ -349,6 +351,7 @@ propName
 in
 obj
 )
+{
 obj
 [
 propName
@@ -361,6 +364,7 @@ getProperty
 propName
 )
 ;
+}
 }
 }
 ;
@@ -667,8 +671,10 @@ focusTarget
 .
 document
 )
+{
 return
 ;
+}
 switch
 (
 event
@@ -1015,8 +1021,10 @@ this
 .
 _focusTimer
 )
+{
 return
 ;
+}
 this
 .
 _focusTimer

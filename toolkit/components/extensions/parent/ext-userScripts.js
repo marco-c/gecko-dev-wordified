@@ -355,9 +355,7 @@ Set
 const
 unregisterContentScripts
 =
-(
 scriptIds
-)
 =
 >
 {
@@ -506,9 +504,7 @@ userScripts
 register
 :
 async
-(
 details
-)
 =
 >
 {
@@ -696,9 +692,7 @@ promise
 unregister
 :
 async
-(
 scriptId
-)
 =
 >
 {

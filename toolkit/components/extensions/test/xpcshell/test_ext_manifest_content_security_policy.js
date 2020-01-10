@@ -65,9 +65,7 @@ ExtensionTestUtils
 normalizeManifest
 (
 {
-"
 content_security_policy
-"
 :
 "
 script
@@ -158,9 +156,7 @@ ExtensionTestUtils
 normalizeManifest
 (
 {
-"
 content_security_policy
-"
 :
 "
 object

@@ -1383,7 +1383,6 @@ aStartDate
 getMonth
 (
 )
-)
 +
 12
 *
@@ -1398,6 +1397,7 @@ aStartDate
 .
 getFullYear
 (
+)
 )
 )
 ;
@@ -1497,11 +1497,10 @@ length
 let
 sign
 =
-(
 n
-)
 =
 >
+(
 n
 >
 =
@@ -1514,6 +1513,7 @@ n
 "
 -
 "
+)
 ;
 /
 /
@@ -1571,6 +1571,7 @@ eg
 00
 )
 return
+(
 padNumber
 (
 date
@@ -1701,6 +1702,7 @@ tzOffset
 60
 )
 2
+)
 )
 ;
 }

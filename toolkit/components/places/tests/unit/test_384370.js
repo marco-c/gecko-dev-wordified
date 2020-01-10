@@ -238,7 +238,6 @@ json
 ;
 if
 (
-(
 await
 OS
 .
@@ -249,7 +248,7 @@ exists
 jsonFile
 )
 )
-)
+{
 await
 OS
 .
@@ -260,6 +259,7 @@ remove
 jsonFile
 )
 ;
+}
 /
 /
 Test
@@ -1320,6 +1320,7 @@ child
 .
 tags
 )
+{
 Assert
 .
 equal
@@ -1337,6 +1338,7 @@ i
 title
 )
 ;
+}
 }
 root
 .

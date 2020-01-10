@@ -625,9 +625,7 @@ content_scripts
 :
 [
 {
-"
 matches
-"
 :
 [
 "
@@ -644,9 +642,7 @@ file_toplevel
 html
 "
 ]
-"
 js
-"
 :
 [
 "

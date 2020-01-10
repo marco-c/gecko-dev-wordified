@@ -675,7 +675,6 @@ created
 .
 ok
 (
-(
 await
 db
 .
@@ -684,7 +683,6 @@ tableExists
 "
 events
 "
-)
 )
 "
 events
@@ -1185,7 +1183,6 @@ now
 (
 )
 -
-(
 24
 *
 60
@@ -1193,7 +1190,6 @@ now
 60
 *
 1000
-)
 )
 .
 toISOString

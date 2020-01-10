@@ -214,9 +214,7 @@ content_scripts
 :
 [
 {
-"
 matches
-"
 :
 [
 "
@@ -233,9 +231,7 @@ file_shadowdom
 html
 "
 ]
-"
 js
-"
 :
 [
 "

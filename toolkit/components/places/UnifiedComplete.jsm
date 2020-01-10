@@ -3672,6 +3672,7 @@ special
 chars
 .
 return
+(
 !
 REGEXP_SPACES
 .
@@ -3770,6 +3771,7 @@ includes
 "
 .
 "
+)
 )
 )
 )
@@ -5606,6 +5608,7 @@ this
 .
 _sleepTimer
 )
+{
 this
 .
 _sleepTimer
@@ -5630,6 +5633,7 @@ Ci
 nsITimer
 )
 ;
+}
 return
 new
 Promise
@@ -6100,14 +6104,17 @@ this
 .
 pending
 )
+{
 return
 ;
+}
 if
 (
 this
 .
 _notifyTimer
 )
+{
 this
 .
 _notifyTimer
@@ -6116,6 +6123,7 @@ cancel
 (
 )
 ;
+}
 this
 .
 _notifyDelaysCount
@@ -6128,6 +6136,7 @@ this
 .
 _sleepTimer
 )
+{
 this
 .
 _sleepTimer
@@ -6136,6 +6145,7 @@ cancel
 (
 )
 ;
+}
 if
 (
 this
@@ -6265,8 +6275,10 @@ this
 .
 pending
 )
+{
 return
 ;
+}
 /
 /
 Used
@@ -6380,8 +6392,10 @@ this
 .
 pending
 )
+{
 return
 ;
+}
 /
 /
 For
@@ -6818,8 +6832,10 @@ this
 .
 pending
 )
+{
 return
 ;
+}
 /
 /
 We
@@ -6904,8 +6920,10 @@ this
 .
 pending
 )
+{
 return
 ;
+}
 /
 /
 If
@@ -7428,6 +7446,7 @@ return
 let
 alias
 =
+(
 this
 .
 _searchEngineAliasMatch
@@ -7438,6 +7457,7 @@ this
 _searchEngineAliasMatch
 .
 alias
+)
 |
 |
 "
@@ -7652,8 +7672,10 @@ this
 .
 pending
 )
+{
 return
 ;
+}
 /
 /
 Then
@@ -7692,8 +7714,10 @@ this
 .
 pending
 )
+{
 return
 ;
+}
 }
 /
 /
@@ -7825,8 +7849,10 @@ this
 .
 pending
 )
+{
 return
 ;
+}
 }
 /
 /
@@ -8071,8 +8097,10 @@ this
 .
 pending
 )
+{
 return
 ;
+}
 }
 }
 this
@@ -8124,7 +8152,6 @@ more
 character
 .
 return
-(
 this
 .
 _strippedPrefix
@@ -8139,7 +8166,6 @@ about
 this
 .
 _searchString
-)
 ;
 }
 _matchAboutPages
@@ -8303,8 +8329,10 @@ enabled
 "
 )
 )
+{
 return
 ;
+}
 let
 profileCreationDate
 =
@@ -8341,6 +8369,7 @@ expire_days
 "
 )
 )
+{
 Services
 .
 prefs
@@ -8359,6 +8388,7 @@ enabled
 false
 )
 ;
+}
 }
 _matchPreloadedSites
 (
@@ -8549,6 +8579,7 @@ site
 {
 return
 (
+(
 !
 this
 .
@@ -8601,6 +8632,7 @@ www
 this
 .
 _searchString
+)
 )
 )
 ;
@@ -9993,8 +10025,10 @@ if
 !
 result
 )
+{
 break
 ;
+}
 let
 {
 suggestion
@@ -10051,9 +10085,11 @@ this
 .
 _prohibitSearchSuggestions
 )
+{
 return
 true
 ;
+}
 /
 /
 Never
@@ -10124,9 +10160,11 @@ length
 <
 2
 )
+{
 return
 true
 ;
+}
 /
 /
 The
@@ -10292,6 +10330,7 @@ t
 >
 {
 return
+(
 t
 .
 type
@@ -10337,6 +10376,7 @@ test
 t
 .
 value
+)
 )
 )
 ;
@@ -12387,7 +12427,6 @@ if
 (
 lastUsed
 >
-(
 Date
 .
 now
@@ -12395,7 +12434,6 @@ now
 )
 -
 RECENT_REMOTE_TAB_THRESHOLD_MS
-)
 )
 {
 this
@@ -12756,9 +12794,11 @@ fixupInfo
 .
 keywordAsSent
 )
+{
 return
 false
 ;
+}
 let
 uri
 =
@@ -12868,9 +12908,11 @@ uri
 .
 host
 )
+{
 return
 false
 ;
+}
 /
 /
 getFixupURIInfo
@@ -13582,6 +13624,7 @@ frecency
 number
 "
 )
+{
 throw
 new
 Error
@@ -13593,12 +13636,14 @@ provided
 "
 )
 ;
+}
 if
 (
 this
 .
 _addingHeuristicFirstMatch
 )
+{
 match
 .
 type
@@ -13609,6 +13654,7 @@ RESULT_GROUP
 .
 HEURISTIC
 ;
+}
 else
 if
 (
@@ -13622,6 +13668,7 @@ type
 string
 "
 )
+{
 match
 .
 type
@@ -13632,6 +13679,7 @@ RESULT_GROUP
 .
 GENERAL
 ;
+}
 /
 /
 A
@@ -13670,8 +13718,10 @@ this
 .
 pending
 )
+{
 return
 ;
+}
 match
 .
 style
@@ -13790,8 +13840,10 @@ index
 -
 1
 )
+{
 return
 ;
+}
 if
 (
 replace
@@ -13876,6 +13928,7 @@ _currentMatchCount
 =
 1
 )
+{
 TelemetryStopwatch
 .
 finish
@@ -13884,6 +13937,7 @@ TELEMETRY_1ST_RESULT
 this
 )
 ;
+}
 if
 (
 this
@@ -13893,6 +13947,7 @@ _currentMatchCount
 =
 6
 )
+{
 TelemetryStopwatch
 .
 finish
@@ -13901,6 +13956,7 @@ TELEMETRY_6_FIRST_RESULTS
 this
 )
 ;
+}
 }
 this
 .
@@ -14465,6 +14521,7 @@ match
 .
 placeId
 )
+{
 this
 .
 _usedPlaceIds
@@ -14476,6 +14533,7 @@ match
 placeId
 )
 ;
+}
 let
 index
 =
@@ -15029,8 +15087,10 @@ this
 .
 pending
 )
+{
 return
 ;
+}
 let
 index
 =
@@ -16048,10 +16108,12 @@ frecency
 =
 null
 )
+{
 frecency
 =
 FRECENCY_DEFAULT
 ;
+}
 }
 /
 /
@@ -16385,6 +16447,7 @@ if
 (
 action
 )
+{
 match
 .
 style
@@ -16395,6 +16458,7 @@ action
 +
 action
 ;
+}
 match
 .
 value
@@ -17179,9 +17243,11 @@ autoFill
 "
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 this
@@ -17193,9 +17259,11 @@ length
 =
 1
 )
+{
 return
 false
 ;
+}
 /
 /
 autoFill
@@ -17233,9 +17301,11 @@ bookmark
 "
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 autoFill
@@ -17268,9 +17338,11 @@ tag
 "
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Don
@@ -17333,9 +17405,11 @@ this
 _originalSearchString
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 this
@@ -17347,18 +17421,22 @@ length
 =
 0
 )
+{
 return
 false
 ;
+}
 if
 (
 this
 .
 _prohibitAutoFill
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -18096,8 +18174,10 @@ this
 .
 pending
 )
+{
 return
 ;
+}
 this
 .
 _notifyDelaysCount
@@ -19181,6 +19261,7 @@ result
 let
 search
 =
+(
 this
 .
 _currentSearch
@@ -19194,6 +19275,7 @@ listener
 this
 prohibitSearchSuggestions
 previousResult
+)
 )
 ;
 this
@@ -19420,8 +19502,10 @@ if
 !
 search
 )
+{
 return
 ;
+}
 this
 .
 _lastLowResultsSearchSuggestion
@@ -19441,8 +19525,10 @@ search
 .
 pending
 )
+{
 return
 ;
+}
 /
 /
 If

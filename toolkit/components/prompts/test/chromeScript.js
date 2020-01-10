@@ -296,11 +296,14 @@ if
 (
 isSelect
 )
+{
 ui
 =
 doc
 ;
+}
 else
+{
 ui
 =
 doc
@@ -311,6 +314,7 @@ Dialog
 .
 ui
 ;
+}
 }
 let
 promptState
@@ -694,7 +698,6 @@ b
 )
 {
 return
-(
 b
 .
 hasAttribute
@@ -718,7 +721,6 @@ default
 "
 true
 "
-)
 ;
 }
 state
@@ -1468,8 +1470,10 @@ button0
 .
 disabled
 )
+{
 return
 ;
+}
 ui
 .
 button0
@@ -1642,8 +1646,10 @@ nsIDocShell
 .
 BUSY_FLAGS_NONE
 )
+{
 continue
 ;
+}
 var
 childDoc
 =
@@ -1698,8 +1704,10 @@ selectDialog
 xul
 "
 )
+{
 continue
 ;
+}
 /
 /
 We
@@ -1751,8 +1759,10 @@ childDoc
 .
 defaultView
 )
+{
 continue
 ;
+}
 return
 childDoc
 ;

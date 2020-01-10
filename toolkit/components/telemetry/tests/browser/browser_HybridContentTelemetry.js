@@ -151,6 +151,7 @@ DATASET_PRERELEASE_CHANNELS
 )
 ;
 return
+(
 aProcesses
 .
 every
@@ -175,6 +176,7 @@ p
 aAdditionalCondition
 (
 events
+)
 )
 ;
 }
@@ -525,6 +527,7 @@ registerCleanupFunction
 )
 =
 >
+(
 Services
 .
 telemetry
@@ -532,6 +535,7 @@ telemetry
 canRecordExtended
 =
 canRecordExtended
+)
 )
 ;
 }
@@ -2543,16 +2547,12 @@ object1
 "
 null
 {
-"
 key1
-"
 :
 "
 foo
 "
-"
 key2
-"
 :
 "
 bar
@@ -2831,9 +2831,7 @@ only
 required
 fields
 .
-"
 test1
-"
 :
 {
 methods
@@ -2857,9 +2855,7 @@ Event
 with
 extra_keys
 .
-"
 test2
-"
 :
 {
 methods

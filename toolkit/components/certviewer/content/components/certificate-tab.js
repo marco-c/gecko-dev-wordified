@@ -141,9 +141,7 @@ addEventListener
 "
 click
 "
-(
 e
-)
 =
 >
 this

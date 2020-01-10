@@ -389,6 +389,7 @@ filenamesRegex
 )
 ;
 return
+(
 "
 bookmarks
 -
@@ -423,6 +424,7 @@ matches
 [
 4
 ]
+)
 ;
 }
 /
@@ -474,12 +476,14 @@ matches
 3
 ]
 )
+{
 return
 matches
 [
 3
 ]
 ;
+}
 return
 null
 ;
@@ -622,9 +626,11 @@ backupFile
 aFilename
 )
 )
+{
 return
 backupFile
 ;
+}
 }
 return
 null
@@ -787,11 +793,13 @@ true
 )
 ;
 return
+(
 this
 .
 _backupFolder
 =
 backupsDirPath
+)
 ;
 }
 )
@@ -864,11 +872,13 @@ this
 .
 _backupFiles
 )
+{
 return
 this
 .
 _backupFiles
 ;
+}
 this
 .
 _backupFiles
@@ -1173,6 +1183,7 @@ getTime
 (
 )
 )
+{
 throw
 new
 Error
@@ -1184,6 +1195,7 @@ object
 "
 )
 ;
+}
 let
 padDate
 =
@@ -1360,6 +1372,7 @@ more
 useful
 .
 return
+(
 "
 bookmarks
 -
@@ -1386,6 +1399,7 @@ lz4
 :
 "
 "
+)
 )
 ;
 }
@@ -1477,6 +1491,7 @@ if
 !
 matches
 )
+{
 throw
 new
 Error
@@ -1491,6 +1506,7 @@ filename
 }
 )
 ;
+}
 return
 new
 Date
@@ -1801,6 +1817,7 @@ this
 .
 _backupFiles
 )
+{
 await
 this
 .
@@ -1808,6 +1825,7 @@ getBackupFiles
 (
 )
 ;
+}
 limitBackups
 (
 aMaxBackup
@@ -1991,6 +2009,7 @@ this
 .
 _backupFiles
 )
+{
 await
 this
 .
@@ -1998,7 +2017,9 @@ getBackupFiles
 (
 )
 ;
+}
 else
+{
 this
 .
 _backupFiles
@@ -2007,6 +2028,7 @@ shift
 (
 )
 ;
+}
 this
 .
 _backupFiles
@@ -2039,6 +2061,7 @@ this
 .
 _backupFiles
 )
+{
 await
 this
 .
@@ -2046,6 +2069,7 @@ getBackupFiles
 (
 )
 ;
+}
 this
 .
 _backupFiles
@@ -2248,6 +2272,7 @@ this
 .
 _backupFiles
 )
+{
 await
 this
 .
@@ -2255,6 +2280,7 @@ getBackupFiles
 (
 )
 ;
+}
 await
 limitBackups
 (
@@ -2280,6 +2306,7 @@ this
 .
 _backupFiles
 )
+{
 await
 this
 .
@@ -2287,6 +2314,7 @@ getBackupFiles
 (
 )
 ;
+}
 let
 newBackupFilename
 =
@@ -2341,8 +2369,10 @@ backupFile
 !
 aForceBackup
 )
+{
 return
 ;
+}
 if
 (
 backupFile
@@ -2619,6 +2649,7 @@ mostRecentBackupFile
 )
 )
 )
+{
 newBackupFilename
 =
 this
@@ -2627,6 +2658,7 @@ getFilenameForDate
 (
 )
 ;
+}
 newFilenameWithMetaData
 =
 appendMetaDataToFilename
@@ -2792,6 +2824,7 @@ matches
 2
 ]
 )
+{
 count
 =
 matches
@@ -2799,6 +2832,7 @@ matches
 2
 ]
 ;
+}
 return
 count
 ;

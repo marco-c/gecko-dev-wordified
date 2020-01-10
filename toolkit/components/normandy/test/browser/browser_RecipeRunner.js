@@ -3982,9 +3982,7 @@ returns
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 setTimeout
@@ -4461,9 +4459,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 setTimeout

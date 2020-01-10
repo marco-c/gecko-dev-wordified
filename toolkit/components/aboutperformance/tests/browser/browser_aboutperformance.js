@@ -93,6 +93,7 @@ performance
 let
 tabAboutPerformance
 =
+(
 gBrowser
 .
 selectedTab
@@ -107,6 +108,7 @@ about
 :
 performance
 "
+)
 )
 ;
 await
@@ -314,12 +316,14 @@ browser_aboutperformance
 js
 "
 )
+{
 row
 =
 row
 .
 nextSibling
 ;
+}
 Assert
 .
 ok

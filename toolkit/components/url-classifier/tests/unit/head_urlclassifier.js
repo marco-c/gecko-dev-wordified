@@ -485,6 +485,7 @@ exists
 (
 )
 )
+{
 file
 .
 remove
@@ -492,6 +493,7 @@ remove
 false
 )
 ;
+}
 }
 catch
 (
@@ -1032,6 +1034,7 @@ tableName
 "
 "
 )
+{
 updateStr
 +
 =
@@ -1047,6 +1050,7 @@ tableName
 n
 "
 ;
+}
 var
 chunks
 =
@@ -2625,10 +2629,12 @@ seed
 =
 0
 )
+{
 seed
 =
 1
 ;
+}
 this
 .
 _value
@@ -2672,10 +2678,12 @@ if
 !
 bits
 )
+{
 bits
 =
 32
 ;
+}
 let
 val
 =
@@ -2756,7 +2764,6 @@ _value
 val
 ;
 return
-(
 val
 >
 >
@@ -2765,7 +2772,6 @@ val
 32
 -
 bits
-)
 )
 ;
 }

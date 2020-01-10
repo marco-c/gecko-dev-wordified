@@ -133,7 +133,6 @@ args
 )
 =
 >
-(
 BrowserTestUtils
 .
 withNewTab
@@ -147,7 +146,6 @@ async
 browser
 =
 >
-(
 testFunc
 (
 .
@@ -155,8 +153,6 @@ testFunc
 .
 args
 browser
-)
-)
 )
 )
 ;
@@ -1545,7 +1541,6 @@ waitForCondition
 )
 =
 >
-(
 getStudyRow
 (
 doc
@@ -1565,7 +1560,6 @@ study
 .
 disabled
 "
-)
 )
 )
 ;
@@ -1636,7 +1630,6 @@ waitForCondition
 )
 =
 >
-(
 getStudyRow
 (
 doc
@@ -1656,7 +1649,6 @@ study
 .
 disabled
 "
-)
 )
 )
 ;

@@ -300,7 +300,6 @@ true
 {
 if
 (
-(
 await
 OS
 .
@@ -309,7 +308,6 @@ File
 exists
 (
 PATH
-)
 )
 )
 {
@@ -797,11 +795,9 @@ at
 least
 "
 +
-(
 WAIT_MS
 /
 2000
-)
 +
 "
 ticks

@@ -172,9 +172,7 @@ testIconPaths
 (
 path
 {
-"
 icons
-"
 :
 path
 }
@@ -190,9 +188,7 @@ testIconPaths
 (
 path
 {
-"
 icons
-"
 :
 {
 "
@@ -268,9 +264,7 @@ testIconPaths
 (
 path
 {
-"
 icons
-"
 :
 path
 }
@@ -286,9 +280,7 @@ testIconPaths
 (
 path
 {
-"
 icons
-"
 :
 {
 "

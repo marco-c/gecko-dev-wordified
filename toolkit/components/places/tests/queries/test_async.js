@@ -1010,6 +1010,7 @@ hasOwnProperty
 aState
 )
 )
+{
 this
 .
 stateCounts
@@ -1019,6 +1020,7 @@ aState
 =
 0
 ;
+}
 this
 .
 stateCounts
@@ -1163,10 +1165,12 @@ aExpectedMax
 =
 undefined
 )
+{
 aExpectedMax
 =
 aExpectedMin
 ;
+}
 if
 (
 aExpectedMin

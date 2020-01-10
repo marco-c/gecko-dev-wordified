@@ -347,6 +347,7 @@ Assert
 .
 ok
 (
+(
 await
 promiseCountEntries
 (
@@ -360,6 +361,7 @@ value
 -
 A
 "
+)
 )
 >
 0
@@ -376,6 +378,7 @@ Assert
 .
 ok
 (
+(
 await
 promiseCountEntries
 (
@@ -389,6 +392,7 @@ value
 -
 B
 "
+)
 )
 >
 0
@@ -741,6 +745,7 @@ Assert
 .
 ok
 (
+(
 await
 promiseCountEntries
 (
@@ -755,6 +760,7 @@ value
 A
 "
 )
+)
 >
 0
 )
@@ -762,6 +768,7 @@ A
 Assert
 .
 ok
+(
 (
 await
 promiseCountEntries
@@ -773,6 +780,7 @@ promiseCountEntries
 foo
 "
 )
+)
 >
 0
 )
@@ -780,6 +788,7 @@ foo
 Assert
 .
 ok
+(
 (
 await
 promiseCountEntries
@@ -790,6 +799,7 @@ promiseCountEntries
 "
 foo
 "
+)
 )
 >
 0
@@ -864,6 +874,7 @@ Assert
 .
 ok
 (
+(
 await
 promiseCountEntries
 (
@@ -873,6 +884,7 @@ promiseCountEntries
 "
 foo
 "
+)
 )
 >
 0
@@ -947,6 +959,7 @@ Assert
 .
 ok
 (
+(
 await
 promiseCountEntries
 (
@@ -957,6 +970,7 @@ promiseCountEntries
 foo
 "
 )
+)
 >
 0
 )
@@ -964,6 +978,7 @@ foo
 Assert
 .
 ok
+(
 (
 await
 promiseCountEntries
@@ -975,6 +990,7 @@ bar
 31days
 "
 )
+)
 >
 0
 )
@@ -982,6 +998,7 @@ bar
 Assert
 .
 ok
+(
 (
 await
 promiseCountEntries
@@ -992,6 +1009,7 @@ bar
 "
 29days
 "
+)
 )
 >
 0
@@ -1053,6 +1071,7 @@ Assert
 .
 ok
 (
+(
 await
 promiseCountEntries
 (
@@ -1062,6 +1081,7 @@ bar
 "
 29days
 "
+)
 )
 >
 0
@@ -1130,6 +1150,7 @@ Assert
 .
 ok
 (
+(
 await
 promiseCountEntries
 (
@@ -1140,6 +1161,7 @@ bar
 29days
 "
 )
+)
 >
 0
 )
@@ -1147,6 +1169,7 @@ bar
 Assert
 .
 ok
+(
 (
 await
 promiseCountEntries
@@ -1157,6 +1180,7 @@ promiseCountEntries
 "
 foo
 "
+)
 )
 >
 0
@@ -1201,6 +1225,7 @@ Assert
 .
 ok
 (
+(
 await
 promiseCountEntries
 (
@@ -1211,6 +1236,7 @@ promiseCountEntries
 foo
 "
 )
+)
 >
 0
 )
@@ -1218,6 +1244,7 @@ foo
 Assert
 .
 ok
+(
 (
 await
 promiseCountEntries
@@ -1233,6 +1260,7 @@ value
 B
 "
 )
+)
 >
 0
 )
@@ -1240,6 +1268,7 @@ B
 Assert
 .
 ok
+(
 (
 await
 promiseCountEntries
@@ -1254,6 +1283,7 @@ value
 -
 C
 "
+)
 )
 >
 0

@@ -1109,9 +1109,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -1258,9 +1256,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 extraPrefs
 }
@@ -1589,7 +1585,6 @@ thirdPartyPage
 string
 "
 ?
-(
 "
 and
 third
@@ -1602,7 +1597,6 @@ to
 options
 .
 thirdPartyPage
-)
 :
 "
 "
@@ -1710,13 +1704,11 @@ event
 {
 if
 (
-(
 event
 &
 options
 .
 expectedBlockingNotifications
-)
 )
 {
 +

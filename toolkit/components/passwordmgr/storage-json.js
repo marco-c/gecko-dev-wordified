@@ -2314,6 +2314,8 @@ formActionOrigin
 =
 "
 "
+&
+&
 /
 /
 Carve
@@ -2328,8 +2330,6 @@ in
 test_legacy_empty_formSubmitURL
 .
 js
-&
-&
 Object
 .
 keys

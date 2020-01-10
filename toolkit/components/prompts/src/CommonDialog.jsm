@@ -282,10 +282,12 @@ args
 .
 button0Label
 )
+{
 numButtons
 +
 +
 ;
+}
 if
 (
 this
@@ -294,10 +296,12 @@ args
 .
 button1Label
 )
+{
 numButtons
 +
 +
 ;
+}
 if
 (
 this
@@ -306,10 +310,12 @@ args
 .
 button2Label
 )
+{
 numButtons
 +
 +
 ;
+}
 if
 (
 this
@@ -318,10 +324,12 @@ args
 .
 button3Label
 )
+{
 numButtons
 +
 +
 ;
+}
 if
 (
 numButtons
@@ -329,6 +337,7 @@ numButtons
 =
 0
 )
+{
 throw
 new
 Error
@@ -347,6 +356,7 @@ haz
 "
 )
 ;
+}
 this
 .
 numButtons
@@ -733,6 +743,7 @@ if
 (
 xulDialog
 )
+{
 xulDialog
 .
 ownerDocument
@@ -741,6 +752,7 @@ title
 =
 title
 ;
+}
 /
 /
 Set
@@ -887,6 +899,7 @@ args
 .
 button1Label
 )
+{
 this
 .
 setLabelForNode
@@ -903,6 +916,7 @@ args
 button1Label
 )
 ;
+}
 break
 ;
 case
@@ -939,6 +953,7 @@ args
 .
 button0Label
 )
+{
 this
 .
 setLabelForNode
@@ -955,6 +970,7 @@ args
 button0Label
 )
 ;
+}
 /
 /
 display
@@ -1124,6 +1140,7 @@ if
 (
 icon
 )
+{
 this
 .
 iconClass
@@ -1147,6 +1164,7 @@ el
 )
 )
 ;
+}
 /
 /
 set
@@ -1179,7 +1197,6 @@ button
 let
 b
 =
-(
 this
 .
 args
@@ -1188,7 +1205,6 @@ defaultButtonNum
 |
 |
 0
-)
 ;
 let
 button
@@ -1208,6 +1224,7 @@ if
 (
 xulDialog
 )
+{
 xulDialog
 .
 defaultButton
@@ -1230,7 +1247,9 @@ extra2
 b
 ]
 ;
+}
 else
+{
 button
 .
 setAttribute
@@ -1243,6 +1262,7 @@ true
 "
 )
 ;
+}
 if
 (
 !
@@ -1815,12 +1835,14 @@ if
 (
 accessKey
 )
+{
 aNode
 .
 accessKey
 =
 accessKey
 ;
+}
 }
 initTextbox
 (
@@ -1928,7 +1950,6 @@ isInitialLoad
 let
 b
 =
-(
 this
 .
 args
@@ -1937,7 +1958,6 @@ defaultButtonNum
 |
 |
 0
-)
 ;
 let
 button
@@ -1964,18 +1984,17 @@ hasInputField
 let
 isOSX
 =
-(
 "
 nsILocalFileMac
 "
 in
 Ci
-)
 ;
 if
 (
 isOSX
 )
+{
 this
 .
 ui
@@ -1986,13 +2005,16 @@ focus
 (
 )
 ;
+}
 else
+{
 button
 .
 focus
 (
 )
 ;
+}
 }
 else
 if
@@ -2035,6 +2057,7 @@ if
 (
 isInitialLoad
 )
+{
 this
 .
 ui
@@ -2045,7 +2068,9 @@ select
 (
 )
 ;
+}
 else
+{
 this
 .
 ui
@@ -2056,6 +2081,7 @@ focus
 (
 )
 ;
+}
 }
 else
 if

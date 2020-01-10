@@ -415,6 +415,7 @@ storeId
 )
 {
 return
+(
 isDefaultCookieStoreId
 (
 storeId
@@ -430,6 +431,7 @@ storeId
 isContainerCookieStoreId
 (
 storeId
+)
 )
 ;
 }

@@ -144,9 +144,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -261,9 +259,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 extraPrefs
 }

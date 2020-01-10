@@ -263,8 +263,10 @@ if
 !
 debugMode
 )
+{
 return
 ;
+}
 console
 .
 log
@@ -677,14 +679,12 @@ hasMore
 )
 {
 yield
-(
 this
 .
 enumerator
 .
 getNext
 (
-)
 )
 ;
 }

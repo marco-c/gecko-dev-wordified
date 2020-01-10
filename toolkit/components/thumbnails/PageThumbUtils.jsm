@@ -1136,9 +1136,11 @@ imageWidth
 const
 height
 =
+(
 imageHeight
 *
 width
+)
 /
 imageWidth
 ;
@@ -1722,7 +1724,6 @@ size
 .
 if
 (
-(
 intermediateWidth
 >
 =
@@ -1733,7 +1734,6 @@ intermediateHeight
 >
 =
 contentHeight
-)
 |
 |
 fullScale
@@ -2278,6 +2278,7 @@ scaledHeight
 >
 thumbnailHeight
 )
+{
 height
 -
 =
@@ -2297,12 +2298,14 @@ thumbnailHeight
 scale
 )
 ;
+}
 if
 (
 scaledWidth
 >
 thumbnailWidth
 )
+{
 width
 -
 =
@@ -2322,6 +2325,7 @@ thumbnailWidth
 scale
 )
 ;
+}
 return
 [
 width
@@ -2777,9 +2781,11 @@ if
 !
 channel
 )
+{
 return
 true
 ;
+}
 if
 (
 !
@@ -2791,6 +2797,7 @@ Ci
 nsIHttpChannel
 )
 )
+{
 /
 /
 it
@@ -2808,6 +2815,7 @@ ok
 return
 false
 ;
+}
 try
 {
 return

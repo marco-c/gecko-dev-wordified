@@ -1310,9 +1310,7 @@ sync
 set
 (
 {
-"
 a
-"
 :
 "
 b
@@ -1905,9 +1903,7 @@ prop2
 "
 :
 undefined
-"
 other
-"
 :
 "
 default
@@ -3026,7 +3022,6 @@ assertEq
 object
 "
 typeof
-(
 recentChanges
 [
 "
@@ -3037,7 +3032,6 @@ prop1
 ]
 .
 newValue
-)
 "
 newValue
 is
@@ -3327,11 +3321,9 @@ assertEq
 object
 "
 typeof
-(
 obj
 .
 obj
-)
 "
 object
 part
@@ -3832,9 +3824,7 @@ sync
 set
 (
 {
-"
 foo
-"
 :
 "
 bar

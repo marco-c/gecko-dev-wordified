@@ -676,7 +676,6 @@ Listing
 "
 uriFlags
 :
-(
 Ci
 .
 nsIAboutModule
@@ -694,7 +693,6 @@ Ci
 nsIAboutModule
 .
 URI_MUST_LOAD_IN_CHILD
-)
 }
 )
 ;

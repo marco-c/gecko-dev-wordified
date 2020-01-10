@@ -293,11 +293,13 @@ Assert
 .
 ok
 (
+(
 await
 promiseCountEntries
 (
 null
 null
+)
 )
 >
 0

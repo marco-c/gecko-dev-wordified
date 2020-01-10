@@ -338,9 +338,7 @@ registerBuiltinEvents
 (
 TEST_EVENT_NAME
 {
-"
 dynamic
-"
 :
 {
 methods
@@ -364,9 +362,7 @@ anotherone
 "
 ]
 }
-"
 dynamic_expired
-"
 :
 {
 methods
@@ -565,13 +561,11 @@ Assert
 .
 ok
 (
-(
 "
 parent
 "
 in
 snapshot
-)
 "
 Should
 have
@@ -588,13 +582,11 @@ Assert
 .
 ok
 (
-(
 "
 content
 "
 in
 snapshot
-)
 "
 Should
 have

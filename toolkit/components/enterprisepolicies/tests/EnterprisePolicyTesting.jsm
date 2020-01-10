@@ -240,9 +240,7 @@ filePath
 if
 (
 typeof
-(
 json
-)
 =
 =
 "
@@ -589,6 +587,7 @@ prefHasUserValue
 key
 )
 )
+{
 Services
 .
 prefs
@@ -598,6 +597,7 @@ clearUserPref
 key
 )
 ;
+}
 }
 }
 }

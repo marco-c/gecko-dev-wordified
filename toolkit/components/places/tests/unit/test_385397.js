@@ -192,13 +192,11 @@ when
 =
 now
 +
-(
 i
 *
 TOTAL_SITES
 *
 1000
-)
 ;
 await
 PlacesTestUtils

@@ -789,12 +789,14 @@ if
 !
 previousResult
 )
+{
 this
 .
 _formHistoryResult
 =
 null
 ;
+}
 var
 formHistorySearchParam
 =
@@ -908,7 +910,6 @@ gross
 var
 privacyMode
 =
-(
 searchParam
 .
 split
@@ -925,7 +926,6 @@ split
 "
 private
 "
-)
 ;
 /
 /

@@ -247,6 +247,7 @@ value
 >
 {
 return
+(
 prop
 =
 =
@@ -271,6 +272,7 @@ value
 SMALLPNG_DATA_URI
 .
 spec
+)
 ;
 }
 "

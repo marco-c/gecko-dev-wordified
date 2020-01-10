@@ -79,9 +79,7 @@ ExtensionTestUtils
 normalizeManifest
 (
 {
-"
 incognito
-"
 :
 "
 spanning
@@ -148,9 +146,7 @@ ExtensionTestUtils
 normalizeManifest
 (
 {
-"
 incognito
-"
 :
 "
 not_allowed
@@ -217,9 +213,7 @@ ExtensionTestUtils
 normalizeManifest
 (
 {
-"
 incognito
-"
 :
 "
 split

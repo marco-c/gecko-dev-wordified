@@ -1179,7 +1179,6 @@ log_fn
 ;
 if
 (
-(
 name
 =
 =
@@ -1189,10 +1188,8 @@ slice
 .
 times
 "
-)
 |
 |
-(
 name
 =
 =
@@ -1202,7 +1199,6 @@ data
 .
 totals
 "
-)
 )
 {
 /

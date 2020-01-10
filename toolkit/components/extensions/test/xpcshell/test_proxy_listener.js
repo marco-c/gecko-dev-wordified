@@ -464,9 +464,7 @@ extensionData
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -1117,9 +1115,7 @@ extensionData
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "

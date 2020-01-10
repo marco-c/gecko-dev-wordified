@@ -83,7 +83,6 @@ tests
 var
 isWindows
 =
-(
 "
 mozilla
 .
@@ -99,7 +98,6 @@ key
 "
 in
 Cc
-)
 ;
 /
 *

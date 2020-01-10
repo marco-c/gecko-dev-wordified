@@ -655,7 +655,6 @@ command
 >
 {
 return
-(
 {
 name
 description
@@ -669,7 +668,6 @@ command
 .
 shortcut
 }
-)
 ;
 }
 )
@@ -1026,9 +1024,7 @@ new
 Promise
 (
 async
-(
 resolve
-)
 =
 >
 {
@@ -1259,9 +1255,7 @@ this
 .
 windowOpenListener
 =
-(
 window
-)
 =
 >
 {
@@ -2158,9 +2152,7 @@ addEventListener
 "
 command
 "
-(
 event
-)
 =
 >
 {

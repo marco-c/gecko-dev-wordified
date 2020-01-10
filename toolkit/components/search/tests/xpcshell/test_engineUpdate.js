@@ -350,11 +350,9 @@ now
 (
 )
 -
-(
 ONE_DAY_IN_MS
 *
 8
-)
 )
 ;
 Services

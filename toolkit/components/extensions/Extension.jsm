@@ -8850,7 +8850,6 @@ it
 const
 haveAccessKeys
 =
-(
 AppConstants
 .
 platform
@@ -8860,7 +8859,6 @@ platform
 "
 android
 "
-)
 ;
 result
 .
@@ -11380,7 +11378,6 @@ experimentsAllowed
 )
 {
 return
-(
 AddonSettings
 .
 ALLOW_LEGACY_EXTENSIONS
@@ -11389,7 +11386,6 @@ ALLOW_LEGACY_EXTENSIONS
 this
 .
 isPrivileged
-)
 ;
 }
 saveStartupData
@@ -11564,7 +11560,6 @@ backgroundScripts
 )
 {
 return
-(
 this
 .
 manifest
@@ -11579,7 +11574,6 @@ manifest
 background
 .
 scripts
-)
 ;
 }
 get

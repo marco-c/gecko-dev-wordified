@@ -536,9 +536,11 @@ handleResult
 result
 =
 >
+(
 count
 =
 result
+)
 handleError
 (
 error

@@ -86,9 +86,7 @@ addEventListener
 "
 DOMContentLoaded
 "
-(
 e
-)
 =
 >
 {
@@ -193,9 +191,7 @@ state
 const
 str2ab
 =
-(
 str
-)
 =
 >
 {
@@ -258,9 +254,7 @@ buf
 const
 showCertificate
 =
-(
 message
-)
 =
 >
 {

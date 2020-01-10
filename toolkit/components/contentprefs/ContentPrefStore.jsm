@@ -121,6 +121,7 @@ has
 group
 )
 )
+{
 this
 .
 _groups
@@ -134,6 +135,7 @@ Map
 )
 )
 ;
+}
 this
 .
 _groups
@@ -177,15 +179,14 @@ val
 if
 (
 typeof
-(
 val
-)
 =
 =
 "
 boolean
 "
 )
+{
 val
 =
 val
@@ -194,6 +195,7 @@ val
 :
 0
 ;
+}
 else
 if
 (
@@ -203,10 +205,12 @@ val
 =
 undefined
 )
+{
 val
 =
 null
 ;
+}
 this
 .
 set
@@ -291,6 +295,7 @@ has
 group
 )
 )
+{
 return
 this
 .
@@ -306,6 +311,7 @@ get
 name
 )
 ;
+}
 return
 this
 .
@@ -373,6 +379,7 @@ size
 =
 0
 )
+{
 this
 .
 _groups
@@ -382,6 +389,7 @@ delete
 group
 )
 ;
+}
 }
 }
 else
@@ -621,6 +629,7 @@ sgroup
 name
 )
 )
+{
 yield
 [
 sgroup
@@ -633,6 +642,7 @@ name
 )
 ]
 ;
+}
 }
 }
 *
