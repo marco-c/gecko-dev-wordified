@@ -164,7 +164,10 @@ mozilla
 .
 org
 /
-protocol
+about
+/
+manifesto
+/
 "
 )
 ;
