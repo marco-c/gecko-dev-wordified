@@ -36,7 +36,7 @@ strict
 /
 *
 global
-toggleFilter
+toggleMenuItem
 *
 /
 const
@@ -447,9 +447,10 @@ doc
 >
 {
 await
-toggleFilter
+toggleMenuItem
 (
 doc
+0
 1
 )
 ;
@@ -544,9 +545,10 @@ doc
 >
 {
 await
-toggleFilter
+toggleMenuItem
 (
 doc
+0
 1
 )
 ;

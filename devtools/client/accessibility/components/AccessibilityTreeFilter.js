@@ -419,7 +419,7 @@ PropTypes
 func
 .
 isRequired
-walker
+accessibilityWalker
 :
 PropTypes
 .
@@ -444,7 +444,7 @@ const
 {
 dispatch
 filters
-walker
+accessibilityWalker
 }
 =
 this
@@ -501,7 +501,7 @@ actions
 .
 audit
 (
-walker
+accessibilityWalker
 filterKey
 )
 )

@@ -36,7 +36,7 @@ strict
 /
 *
 global
-toggleFilter
+toggleMenuItem
 selectAccessibleForNode
 *
 /
@@ -298,9 +298,10 @@ doc
 >
 {
 await
-toggleFilter
+toggleMenuItem
 (
 doc
+0
 1
 )
 ;

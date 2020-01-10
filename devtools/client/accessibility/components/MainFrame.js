@@ -62,12 +62,6 @@ strict
 "
 ;
 /
-*
-global
-gToolbox
-*
-/
-/
 /
 React
 &
@@ -391,7 +385,7 @@ PropTypes
 array
 .
 isRequired
-walker
+accessibilityWalker
 :
 PropTypes
 .
@@ -417,6 +411,18 @@ auditing
 PropTypes
 .
 array
+.
+isRequired
+supports
+:
+PropTypes
+.
+object
+getDOMWalker
+:
+PropTypes
+.
+func
 .
 isRequired
 }
@@ -499,7 +505,7 @@ this
 .
 props
 .
-walker
+accessibilityWalker
 .
 on
 (
@@ -595,7 +601,7 @@ this
 .
 props
 .
-walker
+accessibilityWalker
 .
 off
 (
@@ -631,6 +637,7 @@ const
 {
 dispatch
 accessibility
+supports
 }
 =
 this
@@ -642,6 +649,7 @@ dispatch
 reset
 (
 accessibility
+supports
 )
 )
 ;
@@ -747,7 +755,8 @@ render
 const
 {
 accessibility
-walker
+accessibilityWalker
+getDOMWalker
 fluentBundles
 enabled
 auditing
@@ -814,7 +823,7 @@ Toolbar
 (
 {
 accessibility
-walker
+accessibilityWalker
 }
 )
 isAuditing
@@ -897,7 +906,8 @@ presentation
 AccessibilityTree
 (
 {
-walker
+accessibilityWalker
+getDOMWalker
 }
 )
 )
@@ -906,7 +916,8 @@ endPanel
 RightSidebar
 (
 {
-walker
+accessibilityWalker
+getDOMWalker
 }
 )
 vert
@@ -928,6 +939,11 @@ mapStateToProps
 (
 {
 ui
+:
+{
+enabled
+supports
+}
 audit
 :
 {
@@ -940,10 +956,7 @@ auditing
 (
 {
 enabled
-:
-ui
-.
-enabled
+supports
 auditing
 }
 )

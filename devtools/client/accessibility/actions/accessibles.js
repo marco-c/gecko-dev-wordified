@@ -156,7 +156,7 @@ exports
 select
 =
 (
-walker
+accessibilityWalker
 accessible
 )
 =
@@ -164,7 +164,7 @@ accessible
 dispatch
 =
 >
-walker
+accessibilityWalker
 .
 getAncestry
 (
@@ -210,7 +210,7 @@ exports
 highlight
 =
 (
-walker
+accessibilityWalker
 accessible
 )
 =
@@ -218,7 +218,7 @@ accessible
 dispatch
 =
 >
-walker
+accessibilityWalker
 .
 getAncestry
 (
