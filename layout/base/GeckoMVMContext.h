@@ -314,6 +314,13 @@ const
 override
 ;
 bool
+IsInReaderMode
+(
+)
+const
+override
+;
+bool
 IsDocumentLoading
 (
 )

@@ -606,6 +606,16 @@ true
 ;
 }
 bool
+IsInReaderMode
+(
+)
+const
+{
+return
+false
+;
+}
+bool
 IsDocumentLoading
 (
 )
