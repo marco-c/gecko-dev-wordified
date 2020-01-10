@@ -1646,6 +1646,7 @@ ResetToURI
 uri
 aLoadGroup
 aPrincipal
+aPrincipal
 )
 ;
 blankDoc

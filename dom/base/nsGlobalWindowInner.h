@@ -1523,6 +1523,14 @@ GetPrincipal
 )
 override
 ;
+virtual
+nsIPrincipal
+*
+GetEffectiveStoragePrincipal
+(
+)
+override
+;
 /
 /
 nsIDOMWindow
@@ -9225,6 +9233,12 @@ nsCOMPtr
 nsIPrincipal
 >
 mDocumentPrincipal
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mDocumentStoragePrincipal
 ;
 /
 /
