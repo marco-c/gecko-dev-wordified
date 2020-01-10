@@ -3445,13 +3445,7 @@ options
 .
 setClass
 (
-js
-:
-:
-Valueify
-(
 aClass
-)
 )
 ;
 }
@@ -3603,11 +3597,8 @@ WrapperNew
 aCx
 aObj
 aHandler
-Jsvalify
-(
 &
 WindowProxyClass
-)
 true
 )
 ;

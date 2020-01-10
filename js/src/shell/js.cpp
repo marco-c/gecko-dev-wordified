@@ -17304,14 +17304,11 @@ toObject
 )
 =
 =
-Jsvalify
-(
 &
 JSFunction
 :
 :
 class_
-)
 )
 {
 script
@@ -51112,11 +51109,8 @@ source
 NewBuiltinClassInstance
 (
 cx
-Valueify
-(
 &
 TransplantableDOMObjectClass
-)
 TenuredObject
 )
 ;
@@ -62672,7 +62666,7 @@ global
 ;
 if
 (
-GetObjectJSClass
+GetObjectClass
 (
 global
 )
@@ -62909,11 +62903,8 @@ return
 clasp
 =
 =
-Valueify
-(
 GetDomClass
 (
-)
 )
 ;
 }

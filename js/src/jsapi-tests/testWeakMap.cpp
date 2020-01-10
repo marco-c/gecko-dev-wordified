@@ -1079,11 +1079,8 @@ cx
 JS_NewObject
 (
 cx
-Jsvalify
-(
 &
 keyClass
-)
 )
 )
 ;
@@ -1388,11 +1385,8 @@ cx
 JS_NewGlobalObject
 (
 cx
-Jsvalify
-(
 &
 delegateClass
-)
 nullptr
 JS
 :

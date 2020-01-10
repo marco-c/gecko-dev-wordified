@@ -867,10 +867,7 @@ cx
 NewObjectWithGivenProto
 (
 cx
-Valueify
-(
 clasp
-)
 nullptr
 SingletonObject
 )
