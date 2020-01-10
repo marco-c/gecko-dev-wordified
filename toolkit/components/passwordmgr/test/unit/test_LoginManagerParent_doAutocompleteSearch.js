@@ -403,7 +403,11 @@ msg1
 generatedPassword
 .
 length
-15
+LoginTestUtils
+.
+generation
+.
+LENGTH
 "
 generated
 password
