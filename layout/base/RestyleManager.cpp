@@ -5824,7 +5824,7 @@ parentWM
 )
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 &
 &
 parentSize
@@ -5835,7 +5835,7 @@ parentWM
 )
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 "
 parentSize
 should
@@ -5940,7 +5940,7 @@ BSize
 frameWM
 )
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 ViewportFrame
 *
@@ -6074,7 +6074,7 @@ computedSize
 height
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 computedSize
@@ -6130,7 +6130,7 @@ computedSize
 height
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 then
 the
 new
@@ -6211,7 +6211,7 @@ computedSize
 height
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 |
 |
 computedSize

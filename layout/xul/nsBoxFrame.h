@@ -798,7 +798,7 @@ to
 be
 /
 /
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 wide
 .
 )

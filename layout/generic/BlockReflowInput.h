@@ -866,7 +866,7 @@ aBlockNeedsFloatManager
 nscoord
 aConsumedBSize
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 ;
 /

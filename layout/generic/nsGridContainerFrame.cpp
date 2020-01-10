@@ -45857,7 +45857,7 @@ mIsAutoBSize
 bSize
 =
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 ;
 if
 (
@@ -54894,7 +54894,7 @@ if
 computedBSize
 =
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 bSize
@@ -55029,7 +55029,7 @@ if
 computedBSize
 =
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 bSize
@@ -55140,7 +55140,7 @@ if
 computedBSize
 =
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 &
 &
 stylePos
@@ -55225,7 +55225,7 @@ if
 computedBSize
 =
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 bSize

@@ -9039,7 +9039,7 @@ ComputedBSize
 )
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 float

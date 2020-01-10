@@ -673,7 +673,7 @@ if
 contentBoxBSize
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 borderBoxBSize
@@ -733,7 +733,7 @@ if
 contentBoxBSize
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 contentBoxBSize
@@ -975,7 +975,7 @@ if
 contentBoxBSize
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 /

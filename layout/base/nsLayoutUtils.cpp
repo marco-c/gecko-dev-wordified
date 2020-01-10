@@ -39264,7 +39264,7 @@ aContainingBlockBSize
 /
 /
 against
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 *
 and
 *
@@ -39337,7 +39337,7 @@ auto
 .
 MOZ_ASSERT
 (
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 !
 =
 aContainingBlockBSize

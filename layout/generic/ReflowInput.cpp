@@ -3838,7 +3838,7 @@ ok
 .
 if
 (
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 =
 =
 rs
@@ -5588,7 +5588,7 @@ ComputedBSize
 )
 =
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 SetBResize
@@ -5614,7 +5614,7 @@ ComputedBSize
 )
 =
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 if
@@ -6026,7 +6026,7 @@ that
 ComputedBSize
 !
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 |
 /
 /
@@ -8405,7 +8405,7 @@ auto
 '
 if
 (
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 =
 =
 aCBSize
@@ -12954,7 +12954,7 @@ cbwm
 )
 !
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 "
 containing
 block
@@ -16159,7 +16159,7 @@ mComputedHeight
 =
 =
 *
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 This
 will
 walk
@@ -16170,9 +16170,9 @@ of
 containing
 blocks
 looking
+*
 for
 a
-*
 computed
 height
 until
@@ -16185,8 +16185,8 @@ or
 it
 encounters
 a
-frame
 *
+frame
 that
 is
 not
@@ -16200,8 +16200,8 @@ frame
 This
 handles
 compatibility
-with
 *
+with
 IE
 (
 see
@@ -16291,15 +16291,15 @@ initialize
 the
 default
 to
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 as
 this
 is
 the
 containings
+/
+/
 block
-/
-/
 computed
 height
 when
@@ -16332,7 +16332,7 @@ level
 nscoord
 result
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 ;
 const
 ReflowInput
@@ -16509,7 +16509,7 @@ positioned
 .
 if
 (
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 =
 =
 ri
@@ -16698,7 +16698,7 @@ huge
 height
 if
 (
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 =
 =
 result
@@ -17539,7 +17539,7 @@ IsVertical
 )
 &
 &
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 =
 =
 cbSize
@@ -18171,7 +18171,7 @@ its
 content
 if
 (
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 =
 =
 cbSize
@@ -18440,7 +18440,7 @@ HasPercent
 {
 if
 (
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 =
 =
 cbSize
@@ -18606,7 +18606,7 @@ wm
 )
 =
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 isAutoBSize
@@ -18683,7 +18683,7 @@ wm
 ;
 if
 (
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 !
 =
 computedBSize
@@ -19268,7 +19268,7 @@ ComputedBSize
 (
 )
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 ;
 }
 else
@@ -22751,7 +22751,7 @@ IsMozBlockHeight
 aBlockBSize
 !
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 return
@@ -22815,7 +22815,7 @@ ComputedBSize
 (
 )
 :
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 ;
 return

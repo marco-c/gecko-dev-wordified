@@ -1318,7 +1318,7 @@ BSize
 wm
 )
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 /
 /
@@ -1592,7 +1592,7 @@ ComputedBSize
 )
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 /
@@ -1825,7 +1825,7 @@ ComputedISize
 )
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 buttonContentBox

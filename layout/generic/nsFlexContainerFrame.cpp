@@ -5995,7 +5995,7 @@ mIsFrozen
 mFlexBaseSize
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 "
 flex
 base
@@ -11322,7 +11322,7 @@ if
 tentativeCrossSize
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 tentativeCrossSize
@@ -11947,13 +11947,15 @@ i
 e
 .
 not
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 excluding
 cases
 where
 huge
 sizes
 are
+/
+/
 involved
 )
 .
@@ -12182,7 +12184,7 @@ cross
 size
 .
 return
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 ;
 }
 /
@@ -12547,7 +12549,7 @@ GetFlexBaseSize
 )
 !
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 /
@@ -12931,7 +12933,7 @@ aAxisTracker
 {
 MOZ_ASSERT
 (
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 =
 =
 aFlexItem
@@ -13086,7 +13088,7 @@ if
 crossSizeToUseWithRatio
 !
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 /
@@ -13251,7 +13253,7 @@ IsInlineAxisMainAxis
 )
 &
 &
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 =
 =
 aFlexItem
@@ -13662,7 +13664,7 @@ it
 '
 s
 not
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 .
 if
 (
@@ -13676,7 +13678,7 @@ IsColumnOriented
 containerCrossSize
 !
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 /
@@ -32248,7 +32250,7 @@ if
 aTentativeMainSize
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 /
@@ -32747,7 +32749,7 @@ if
 effectiveComputedBSize
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 /
@@ -38688,7 +38690,7 @@ ComputedBSize
 )
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 &
 &
 aReflowInput
@@ -40866,7 +40868,7 @@ ComputedBSize
 )
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 /

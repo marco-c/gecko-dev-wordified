@@ -38571,7 +38571,7 @@ Style
 PresContext
 (
 )
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 GetFontSizeInflation
 (
 )

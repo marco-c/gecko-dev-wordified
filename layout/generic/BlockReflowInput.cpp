@@ -1194,7 +1194,7 @@ if
 mConsumedBSize
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 mConsumedBSize

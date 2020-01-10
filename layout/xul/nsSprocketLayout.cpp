@@ -4701,7 +4701,7 @@ biggestMinWidth
 nscoord
 smallestMaxWidth
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 nsFrameState
 frameState
@@ -4723,7 +4723,7 @@ aMinSize
 ;
 aMaxSize
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 bool
 isHorizontal
@@ -5127,8 +5127,8 @@ minSize
 nsSize
 maxSize
 (
-NS_INTRINSICSIZE
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
+NS_UNCONSTRAINEDSIZE
 )
 ;
 bool
@@ -7772,7 +7772,7 @@ pref
 nscoord
 max
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 nscoord
 min
@@ -8754,13 +8754,13 @@ aBox
 nscoord
 smallestMax
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 nsSize
 maxSize
 (
-NS_INTRINSICSIZE
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
+NS_UNCONSTRAINEDSIZE
 )
 ;
 /
@@ -8982,7 +8982,7 @@ if
 smallestMax
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 maxSize
 .
@@ -8997,7 +8997,7 @@ maxSize
 .
 width
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 }
 else
@@ -9007,7 +9007,7 @@ if
 smallestMax
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 maxSize
 .
@@ -9022,7 +9022,7 @@ maxSize
 .
 height
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 }
 }
@@ -9434,7 +9434,7 @@ if
 aCoord
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 if
@@ -9442,7 +9442,7 @@ if
 aCoordToAdd
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 aCoord
 =
@@ -9566,7 +9566,7 @@ min
 ;
 max
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 collapsed
 =

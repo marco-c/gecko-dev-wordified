@@ -606,7 +606,7 @@ column
 nscoord
 mColISize
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 /
 /
@@ -658,7 +658,7 @@ gap
 nscoord
 mColGap
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 /
 /
@@ -700,7 +700,7 @@ size
 nscoord
 mColMaxBSize
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 /
 /
@@ -766,7 +766,7 @@ bSize
 nscoord
 mKnownFeasibleBSize
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 /
 /
@@ -818,7 +818,7 @@ frame
 nscoord
 mComputedBSize
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 /
 /

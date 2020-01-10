@@ -8480,7 +8480,7 @@ ComputedBSize
 )
 !
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 &
 &
 ShouldApplyOverflowClipping

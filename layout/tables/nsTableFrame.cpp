@@ -27430,7 +27430,7 @@ ComputedBSize
 ;
 if
 (
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 !
 =
 bSize
