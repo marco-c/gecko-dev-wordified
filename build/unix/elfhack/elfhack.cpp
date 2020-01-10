@@ -1449,6 +1449,7 @@ ei_class
 char
 ei_data
 )
+override
 {
 /
 /
@@ -1677,6 +1678,7 @@ bool
 isRelocatable
 (
 )
+override
 {
 return
 false
