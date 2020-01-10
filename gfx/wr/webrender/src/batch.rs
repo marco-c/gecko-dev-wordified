@@ -5258,7 +5258,7 @@ local_rect
 :
 picture
 .
-local_rect
+snapped_local_rect
 local_clip_rect
 :
 prim_info
@@ -5520,7 +5520,7 @@ local_rect
 :
 pic
 .
-local_rect
+snapped_local_rect
 local_clip_rect
 :
 prim_info
@@ -6095,7 +6095,7 @@ intersection
 &
 picture
 .
-local_rect
+snapped_local_rect
 )
 .
 and_then
@@ -8684,7 +8684,7 @@ local_rect
 :
 picture
 .
-local_rect
+snapped_local_rect
 local_clip_rect
 :
 prim_info
