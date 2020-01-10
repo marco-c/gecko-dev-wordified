@@ -583,13 +583,10 @@ nullptr
 If
 the
 layer
-is
-marked
-as
-scale
--
-to
--
+has
+a
+pres
+shell
 resolution
 add
 a
