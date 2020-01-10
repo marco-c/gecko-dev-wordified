@@ -310,7 +310,15 @@ end
 of
 this
 list
+/
+/
+and
+update
+widget
+/
+ProcInfo
 .
+h
 GECKO_PROCESS_TYPE
 (
 Default
