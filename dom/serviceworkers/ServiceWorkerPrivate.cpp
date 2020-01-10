@@ -9912,11 +9912,14 @@ rv
 =
 info
 .
-SetPrincipalOnMainThread
+SetPrincipalsOnMainThread
 (
 info
 .
 mPrincipal
+info
+.
+mStoragePrincipal
 info
 .
 mLoadGroup
