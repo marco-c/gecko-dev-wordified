@@ -122,13 +122,6 @@ openInspectorForURL
 TEST_URL
 )
 ;
-const
-{
-inspectorFront
-}
-=
-inspector
-;
 await
 startPicker
 (
@@ -152,6 +145,8 @@ nodes
 const
 onHover
 =
+toolbox
+.
 inspectorFront
 .
 nodePicker
@@ -213,6 +208,8 @@ stop
 const
 onPickerStopped
 =
+toolbox
+.
 inspectorFront
 .
 nodePicker

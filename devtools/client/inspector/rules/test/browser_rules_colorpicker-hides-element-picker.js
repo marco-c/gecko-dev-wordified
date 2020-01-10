@@ -100,9 +100,8 @@ TEST_URI
 ;
 const
 {
-inspector
-toolbox
 view
+toolbox
 }
 =
 await
@@ -113,7 +112,7 @@ openRuleView
 const
 pickerStopped
 =
-inspector
+toolbox
 .
 inspectorFront
 .
