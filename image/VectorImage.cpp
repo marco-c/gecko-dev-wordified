@@ -510,7 +510,7 @@ elem
 this
 )
 ;
-mInObserverList
+mInObserverSet
 =
 true
 ;
@@ -709,7 +709,7 @@ back
 if
 (
 !
-mInObserverList
+mInObserverSet
 )
 {
 SVGObserverUtils
@@ -721,7 +721,7 @@ elem
 this
 )
 ;
-mInObserverList
+mInObserverSet
 =
 true
 ;
