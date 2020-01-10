@@ -19160,12 +19160,11 @@ static
 nsresult
 SendMouseEvent
 (
-const
-nsCOMPtr
-<
-nsIPresShell
->
-&
+mozilla
+:
+:
+PresShell
+*
 aPresShell
 const
 nsAString

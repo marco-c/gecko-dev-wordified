@@ -4462,12 +4462,8 @@ APZCCallbackHelper
 :
 DispatchMouseEvent
 (
-const
-nsCOMPtr
-<
-nsIPresShell
->
-&
+PresShell
+*
 aPresShell
 const
 nsString

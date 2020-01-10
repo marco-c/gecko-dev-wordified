@@ -162,9 +162,6 @@ class
 nsIDOMWindowUtils
 ;
 class
-nsIPresShell
-;
-class
 nsIWidget
 ;
 class
@@ -173,6 +170,9 @@ MessageLoop
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -539,7 +539,7 @@ InitializeRoot
 (
 )
 ;
-nsIPresShell
+PresShell
 *
 GetPresShell
 (
