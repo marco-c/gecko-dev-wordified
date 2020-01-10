@@ -3998,7 +3998,6 @@ case_name
             
 except
 HandshakeException
-as
 e
 :
                 
@@ -4021,7 +4020,6 @@ status
             
 except
 VersionException
-as
 e
 :
                 
