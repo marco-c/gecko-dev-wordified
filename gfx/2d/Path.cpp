@@ -518,7 +518,7 @@ push_back
 op
 )
 ;
-mLastMove
+mBeginPoint
 =
 aPoint
 ;
@@ -768,7 +768,7 @@ mCalculatedLength
 ;
 LineTo
 (
-mLastMove
+mBeginPoint
 )
 ;
 }
