@@ -2651,9 +2651,6 @@ FT_OUTLINE_REVERSE_FILL
 ;
 if
 (
-size
-&
-&
 pfrsize
 -
 >

@@ -2563,6 +2563,7 @@ cff_get_name_index
 (
 CFF_Face
 face
+const
 FT_String
 *
 glyph_name

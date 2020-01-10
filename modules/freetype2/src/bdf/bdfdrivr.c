@@ -587,6 +587,7 @@ if
 (
 mid
 >
+=
 max
 |
 |
@@ -803,6 +804,7 @@ if
 (
 mid
 >
+=
 max
 |
 |
@@ -1068,6 +1070,7 @@ bdf_property_t
 *
 prop
 ;
+const
 char
 *
 strings
@@ -1083,12 +1086,12 @@ NULL
 }
 ;
 size_t
-nn
-len
 lengths
 [
 4
 ]
+nn
+len
 ;
 face
 -
@@ -1102,10 +1105,6 @@ prop
 bdf_get_font_property
 (
 font
-(
-char
-*
-)
 "
 SLANT
 "
@@ -1245,18 +1244,10 @@ o
 '
 )
 ?
-(
-char
-*
-)
 "
 Oblique
 "
 :
-(
-char
-*
-)
 "
 Italic
 "
@@ -1267,10 +1258,6 @@ prop
 bdf_get_font_property
 (
 font
-(
-char
-*
-)
 "
 WEIGHT_NAME
 "
@@ -1345,10 +1332,6 @@ strings
 1
 ]
 =
-(
-char
-*
-)
 "
 Bold
 "
@@ -1359,10 +1342,6 @@ prop
 bdf_get_font_property
 (
 font
-(
-char
-*
-)
 "
 SETWIDTH_NAME
 "
@@ -1441,6 +1420,7 @@ strings
 ]
 =
 (
+const
 char
 *
 )
@@ -1458,10 +1438,6 @@ prop
 bdf_get_font_property
 (
 font
-(
-char
-*
-)
 "
 ADD_STYLE_NAME
 "
@@ -1540,6 +1516,7 @@ strings
 ]
 =
 (
+const
 char
 *
 )
@@ -1623,10 +1600,6 @@ strings
 0
 ]
 =
-(
-char
-*
-)
 "
 Regular
 "
@@ -1695,6 +1668,7 @@ nn
 +
 )
 {
+const
 char
 *
 src

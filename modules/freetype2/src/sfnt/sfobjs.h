@@ -258,7 +258,7 @@ FT_END_HEADER
 endif
 /
 *
-SFDRIVER_H_
+SFOBJS_H_
 *
 /
 /

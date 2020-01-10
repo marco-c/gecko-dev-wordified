@@ -492,8 +492,6 @@ ft_lcd_filter_fir
 FT_Bitmap
 *
 bitmap
-FT_Render_Mode
-mode
 FT_LcdFiveTapFilter
 weights
 )
@@ -536,6 +534,14 @@ bitmap
 -
 >
 buffer
+;
+FT_Byte
+mode
+=
+bitmap
+-
+>
+pixel_mode
 ;
 /
 *
@@ -586,7 +592,7 @@ if
 mode
 =
 =
-FT_RENDER_MODE_LCD
+FT_PIXEL_MODE_LCD
 &
 &
 width
@@ -935,7 +941,7 @@ if
 mode
 =
 =
-FT_RENDER_MODE_LCD_V
+FT_PIXEL_MODE_LCD_V
 &
 &
 height
@@ -1280,8 +1286,6 @@ _ft_lcd_filter_legacy
 FT_Bitmap
 *
 bitmap
-FT_Render_Mode
-mode
 FT_Byte
 *
 weights
@@ -1325,6 +1329,14 @@ bitmap
 -
 >
 buffer
+;
+FT_Byte
+mode
+=
+bitmap
+-
+>
+pixel_mode
 ;
 static
 const
@@ -1448,7 +1460,7 @@ if
 mode
 =
 =
-FT_RENDER_MODE_LCD
+FT_PIXEL_MODE_LCD
 &
 &
 width
@@ -1700,7 +1712,7 @@ if
 mode
 =
 =
-FT_RENDER_MODE_LCD_V
+FT_PIXEL_MODE_LCD_V
 &
 &
 height

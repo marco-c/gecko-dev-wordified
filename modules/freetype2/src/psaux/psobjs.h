@@ -567,6 +567,7 @@ PS_Table
 table
 FT_Int
 idx
+const
 void
 *
 object

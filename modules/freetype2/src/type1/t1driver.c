@@ -425,6 +425,7 @@ t1_get_name_index
 (
 T1_Face
 face
+const
 FT_String
 *
 glyph_name

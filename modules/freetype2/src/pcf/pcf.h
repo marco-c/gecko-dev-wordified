@@ -356,6 +356,15 @@ attributes
 FT_ULong
 bits
 ;
+/
+*
+offset
+into
+the
+PCF_BITMAPS
+table
+*
+/
 }
 PCF_MetricRec
 *

@@ -1643,12 +1643,8 @@ was
 used
 in
 FT_Load_Glyph
-(
-)
 or
 FT_Load_Char
-(
-)
 .
 *
 *

@@ -2240,8 +2240,6 @@ FT_Bitmap_LcdFilterFunc
 FT_Bitmap
 *
 bitmap
-FT_Render_Mode
-render_mode
 FT_Byte
 *
 weights
@@ -2276,8 +2274,6 @@ ft_lcd_filter_fir
 FT_Bitmap
 *
 bitmap
-FT_Render_Mode
-mode
 FT_LcdFiveTapFilter
 weights
 )
@@ -8453,6 +8449,7 @@ FT_Face_GetGlyphNameIndexFunc
 (
 FT_Face
 face
+const
 FT_String
 *
 glyph_name

@@ -21327,6 +21327,7 @@ FT_Get_Name_Index
 (
 FT_Face
 face
+const
 FT_String
 *
 glyph_name

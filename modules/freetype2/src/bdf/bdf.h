@@ -768,6 +768,7 @@ typedef
 struct
 bdf_property_t_
 {
+const
 char
 *
 name

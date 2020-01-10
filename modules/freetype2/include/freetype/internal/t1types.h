@@ -904,6 +904,7 @@ FT_UShort
 *
 char_index
 ;
+const
 FT_String
 *
 *
