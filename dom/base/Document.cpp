@@ -21406,10 +21406,10 @@ root
 return
 ;
 }
-AnimationFilter
-filter
+GetAnimationsOptions
+options
 ;
-filter
+options
 .
 mSubtree
 =
@@ -21420,7 +21420,7 @@ root
 >
 GetAnimations
 (
-filter
+options
 aAnimations
 )
 ;

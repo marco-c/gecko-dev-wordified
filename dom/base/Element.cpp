@@ -22557,9 +22557,9 @@ Element
 GetAnimations
 (
 const
-AnimationFilter
+GetAnimationsOptions
 &
-filter
+aOptions
 nsTArray
 <
 RefPtr
@@ -22766,7 +22766,7 @@ return
 if
 (
 !
-filter
+aOptions
 .
 mSubtree
 |
