@@ -7782,6 +7782,19 @@ findSourceURLs
 )
 )
 {
+if
+(
+url
+!
+=
+=
+"
+self
+-
+hosted
+"
+)
+{
 urlMap
 [
 url
@@ -7799,6 +7812,7 @@ url
 0
 )
 ;
+}
 }
 const
 sources
