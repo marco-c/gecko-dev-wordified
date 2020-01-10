@@ -8958,6 +8958,12 @@ mozilla
 LengthPercentage
 mTextIndent
 ;
+mozilla
+:
+:
+StyleLengthOrAuto
+mTextUnderlineOffset
+;
 nscoord
 mWebkitTextStrokeWidth
 ;
