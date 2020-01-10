@@ -164,7 +164,7 @@ while
 (
 gURLBar
 .
-value
+untrimmedValue
 !
 =
 uri

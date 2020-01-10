@@ -305,7 +305,7 @@ equal
 (
 gURLBar
 .
-textValue
+value
 "
 moz
 "

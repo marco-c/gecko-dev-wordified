@@ -624,7 +624,7 @@ is
 (
 gURLBar
 .
-value
+untrimmedValue
 readerUrl
 "
 gURLBar
@@ -641,7 +641,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 url
 .
 substring

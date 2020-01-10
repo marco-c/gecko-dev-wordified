@@ -152,7 +152,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 "
 www
 .

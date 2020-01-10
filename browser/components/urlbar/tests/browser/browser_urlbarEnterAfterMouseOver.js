@@ -380,7 +380,7 @@ equal
 (
 gURLBar
 .
-value
+untrimmedValue
 expectedURL
 "
 Value

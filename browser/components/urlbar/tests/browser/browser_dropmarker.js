@@ -101,7 +101,7 @@ is
 (
 gURLBar
 .
-value
+untrimmedValue
 "
 http
 :

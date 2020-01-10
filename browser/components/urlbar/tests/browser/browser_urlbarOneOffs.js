@@ -1936,11 +1936,11 @@ equal
 (
 gURLBar
 .
-textValue
+value
 textValue
 "
 Expected
-textValue
+value
 "
 )
 ;

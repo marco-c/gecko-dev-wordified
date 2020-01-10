@@ -2211,7 +2211,7 @@ equal
 (
 gURLBar
 .
-value
+untrimmedValue
 value
 )
 ;

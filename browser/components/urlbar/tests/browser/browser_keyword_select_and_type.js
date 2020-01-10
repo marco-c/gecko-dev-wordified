@@ -400,7 +400,7 @@ equal
 (
 gURLBar
 .
-textValue
+value
 "
 keyword
 ab
