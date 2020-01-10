@@ -136,6 +136,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+TextUtils
+.
+h
+"
+#
+include
 <
 errno
 .
@@ -562,7 +571,10 @@ pathname
 3
 &
 &
-isalpha
+mozilla
+:
+:
+IsAsciiAlpha
 (
 pathname
 [
