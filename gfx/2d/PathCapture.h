@@ -460,6 +460,9 @@ mPathOps
 Point
 mCurrentPoint
 ;
+Point
+mFirstPoint
+;
 RefPtr
 <
 DrawTarget
