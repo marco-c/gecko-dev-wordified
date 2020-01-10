@@ -350,13 +350,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 gfxCrashReporterUtils
 .
 h
@@ -3516,7 +3509,7 @@ bool
 isASAP
 =
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutFrameRate

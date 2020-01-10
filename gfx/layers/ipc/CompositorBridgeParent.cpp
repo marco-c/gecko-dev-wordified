@@ -309,17 +309,6 @@ endif
 #
 include
 "
-gfxPrefs
-.
-h
-"
-/
-/
-for
-gfxPrefs
-#
-include
-"
 mozilla
 /
 AutoRestore
@@ -2187,7 +2176,7 @@ layout
 int32_t
 layoutFrameRatePref
 =
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutFrameRate
