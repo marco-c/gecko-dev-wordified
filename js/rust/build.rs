@@ -1134,7 +1134,7 @@ AutoCheckCannotGC
 JS
 :
 :
-AutoIdVector
+RootedIdVector
 "
 "
 JS
