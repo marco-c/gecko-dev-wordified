@@ -408,11 +408,7 @@ CACHE_MODE_FORCE_CACHE
 CACHE_MODE_ONLY_IF_CACHED
 }
 )
-/
-*
-package
-*
-/
+public
 interface
 CacheMode
 {

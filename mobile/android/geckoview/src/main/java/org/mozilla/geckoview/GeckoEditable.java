@@ -10101,6 +10101,8 @@ icRestartInput
 (
 GeckoSession
 .
+TextInputDelegate
+.
 RestartReason
 final
 int
