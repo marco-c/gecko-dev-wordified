@@ -17148,7 +17148,9 @@ mRenderLayers
 :
 mEffectsInfo
 .
-mVisible
+IsVisible
+(
+)
 ;
 bool
 isVisible
