@@ -335,7 +335,9 @@ if
 entry
 -
 >
-mData
+GetData
+(
+)
 .
 glyphIndex
 =
@@ -356,11 +358,12 @@ FillGlyphDataForChar
 (
 aFace
 ch
-&
 entry
 -
 >
-mData
+GetModifiableData
+(
+)
 )
 ;
 }
@@ -369,7 +372,9 @@ return
 entry
 -
 >
-mData
+GetData
+(
+)
 ;
 }
 bool
