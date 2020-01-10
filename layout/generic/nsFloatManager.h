@@ -221,9 +221,6 @@ ReflowInput
 class
 PresShell
 ;
-class
-StyleBasicShape
-;
 }
 /
 /

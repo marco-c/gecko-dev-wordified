@@ -648,9 +648,6 @@ products
 "
 gecko
 "
-boxed
-=
-True
 animation_value_type
 =
 "
@@ -659,6 +656,9 @@ basic_shape
 :
 ClippingShape
 "
+boxed
+=
+True
 flags
 =
 "

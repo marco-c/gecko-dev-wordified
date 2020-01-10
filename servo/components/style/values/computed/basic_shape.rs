@@ -261,7 +261,7 @@ BasicShape
 generic
 :
 :
-BasicShape
+GenericBasicShape
 <
 LengthPercentage
 LengthPercentage
@@ -349,7 +349,7 @@ ShapeRadius
 generic
 :
 :
-ShapeRadius
+GenericShapeRadius
 <
 NonNegativeLengthPercentage
 >
