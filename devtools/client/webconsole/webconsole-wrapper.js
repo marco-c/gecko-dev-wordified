@@ -2557,6 +2557,13 @@ prefs
 .
 autocomplete
 ;
+const
+editorFeatureEnabled
+=
+prefs
+.
+editor
+;
 this
 .
 prefsObservers
@@ -2707,6 +2714,7 @@ this
 )
 jstermCodeMirror
 autocomplete
+editorFeatureEnabled
 hideShowContentMessagesCheckbox
 :
 !
