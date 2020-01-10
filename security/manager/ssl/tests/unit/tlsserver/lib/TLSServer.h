@@ -345,10 +345,13 @@ nssCertDBDir
 int
 StartServer
 (
-const
+int
+argc
 char
 *
-nssCertDBDir
+argv
+[
+]
 SSLSNISocketConfig
 sniSocketConfig
 void
