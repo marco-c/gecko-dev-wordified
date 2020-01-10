@@ -362,6 +362,8 @@ items
 capabilities
 [
 "
+goog
+:
 chromeOptions
 "
 ]
@@ -370,7 +372,33 @@ chromeOptions
 }
     
 #
-required
+TODO
+(
+chrome
+)
+:
+browser_channel
+should
+be
+properly
+supported
+.
+    
+package_name
+=
+"
+com
+.
+android
+.
+chrome
+"
+#
+stable
+channel
+    
+#
+Required
 to
 start
 on
@@ -379,6 +407,8 @@ mobile
 capabilities
 [
 "
+goog
+:
 chromeOptions
 "
 ]
@@ -388,17 +418,7 @@ androidPackage
 "
 ]
 =
-"
-com
-.
-google
-.
-android
-.
-apps
-.
-chrome
-"
+package_name
     
 for
 (
@@ -439,6 +459,8 @@ None
 capabilities
 [
 "
+goog
+:
 chromeOptions
 "
 ]
@@ -483,29 +505,6 @@ enable
 automation
 "
 ]
-    
-if
-test_type
-=
-=
-"
-wdspec
-"
-:
-        
-capabilities
-[
-"
-chromeOptions
-"
-]
-[
-"
-w3c
-"
-]
-=
-True
     
 executor_kwargs
 [
@@ -647,6 +646,12 @@ args
 =
 webdriver_args
 )
+        
+self
+.
+setup_adb_reverse
+(
+)
     
 def
 _adb_run
@@ -689,7 +694,7 @@ args
 )
     
 def
-setup
+setup_adb_reverse
 (
 self
 )
@@ -745,6 +750,20 @@ all
 '
 ]
 )
+        
+#
+"
+adb
+reverse
+"
+forwards
+network
+connection
+from
+device
+to
+host
+.
         
 for
 port
