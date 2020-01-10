@@ -96,13 +96,6 @@ use
 strict
 "
 ;
-const
-nsIDialogParamBlock
-=
-Ci
-.
-nsIDialogParamBlock
-;
 var
 dialogParams
 ;
@@ -122,6 +115,8 @@ arguments
 .
 QueryInterface
 (
+Ci
+.
 nsIDialogParamBlock
 )
 ;
