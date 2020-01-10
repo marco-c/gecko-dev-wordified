@@ -320,10 +320,6 @@ h
 "
 using
 namespace
-std
-;
-using
-namespace
 mozilla
 :
 :
@@ -1500,6 +1496,9 @@ parameters
 .
 attackTime
 =
+std
+:
+:
 max
 (
 0
@@ -2540,6 +2539,9 @@ compressionDiffDb
 ;
 x
 =
+std
+:
+:
 max
 (
 -
@@ -2551,6 +2553,9 @@ x
 ;
 x
 =
+std
+:
+:
 min
 (
 0
@@ -2751,6 +2756,9 @@ compressionDiffDb
 float
 effAttenDiffDb
 =
+std
+:
+:
 max
 (
 0
@@ -3240,6 +3248,9 @@ attenuation
 ;
 attenuationDb
 =
+std
+:
+:
 max
 (
 2
@@ -3299,6 +3310,9 @@ rate
 ;
 detectorAverage
 =
+std
+:
+:
 min
 (
 1
@@ -3390,6 +3404,9 @@ envelopeRate
 ;
 compressorGain
 =
+std
+:
+:
 min
 (
 1

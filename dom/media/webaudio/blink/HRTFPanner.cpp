@@ -276,10 +276,6 @@ h
 "
 using
 namespace
-std
-;
-using
-namespace
 mozilla
 ;
 using
@@ -817,6 +813,9 @@ otherwise
 .
 desiredAzimuthIndex
 =
+std
+:
+:
 max
 (
 0
@@ -825,6 +824,9 @@ desiredAzimuthIndex
 ;
 desiredAzimuthIndex
 =
+std
+:
+:
 min
 (
 numberOfAzimuths
