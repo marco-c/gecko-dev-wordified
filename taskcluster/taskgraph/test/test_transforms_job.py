@@ -607,8 +607,6 @@ impl
 schema
 .
 schema
-.
-schema
 [
 key
 ]
