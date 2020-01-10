@@ -575,6 +575,9 @@ sourceId
 location
 :
 frameLocation
+generatedLocation
+:
+frameLocation
 .
 .
 .

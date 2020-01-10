@@ -348,6 +348,17 @@ breakpointSources
 ;
 export
 {
+isLineInScope
+}
+from
+"
+.
+/
+isLineInScope
+"
+;
+export
+{
 getXHRBreakpoints
 shouldPauseOnAnyXHR
 }

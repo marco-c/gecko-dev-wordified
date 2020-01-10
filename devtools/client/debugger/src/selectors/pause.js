@@ -327,6 +327,7 @@ null
 const
 {
 id
+displayName
 }
 =
 selectedFrame
@@ -334,6 +335,7 @@ selectedFrame
 return
 {
 id
+displayName
 location
 :
 _getSelectedLocation
