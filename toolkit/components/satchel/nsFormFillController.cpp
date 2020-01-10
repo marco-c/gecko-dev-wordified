@@ -2457,9 +2457,6 @@ presShell
 ScrollContentIntoView
 (
 content
-nsIPresShell
-:
-:
 ScrollAxis
 (
 kScrollMinimum
@@ -2468,9 +2465,6 @@ WhenToScroll
 :
 IfNotVisible
 )
-nsIPresShell
-:
-:
 ScrollAxis
 (
 kScrollMinimum
