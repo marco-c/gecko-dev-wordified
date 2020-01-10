@@ -1780,6 +1780,9 @@ AppendElementEnd
 Element
 *
 aElement
+Element
+*
+aOriginalElement
 nsAString
 &
 aStr

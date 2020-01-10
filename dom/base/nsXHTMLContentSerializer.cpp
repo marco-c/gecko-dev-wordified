@@ -2584,6 +2584,9 @@ CheckElementEnd
 Element
 *
 aElement
+Element
+*
+aOriginalElement
 bool
 &
 aForceFormat
@@ -2731,6 +2734,7 @@ nsXMLContentSerializer
 CheckElementEnd
 (
 aElement
+aOriginalElement
 dummyFormat
 aStr
 )

@@ -445,6 +445,15 @@ dom
 Element
 *
 aElement
+mozilla
+:
+:
+dom
+:
+:
+Element
+*
+aOriginalElement
 nsAString
 &
 aStr
