@@ -272,6 +272,9 @@ false
 logpointId
 :
 undefined
+chromeContext
+:
+false
 }
 props
 )
