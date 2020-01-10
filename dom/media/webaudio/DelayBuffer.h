@@ -260,6 +260,8 @@ MOZ_ASSERT
 aMaxDelayTicks
 <
 =
+float
+(
 std
 :
 :
@@ -274,6 +276,7 @@ mMaxDelayTicks
 :
 max
 (
+)
 )
 )
 ;

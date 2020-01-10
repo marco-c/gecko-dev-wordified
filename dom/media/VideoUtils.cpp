@@ -573,7 +573,10 @@ double
 USECS_PER_S
 )
 >
+double
+(
 INT64_MAX
+)
 )
 {
 return
@@ -628,7 +631,10 @@ aValue
 aValue
 <
 =
+float
+(
 INT32_MAX
+)
 )
 return
 int32_t
