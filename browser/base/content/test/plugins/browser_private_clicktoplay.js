@@ -1015,7 +1015,7 @@ firstElementChild
 secondaryButton
 .
 hidden
-true
+false
 "
 Test
 2c
@@ -1026,7 +1026,6 @@ a
 private
 window
 should
-not
 have
 visible
 '
@@ -1525,10 +1524,10 @@ firstElementChild
 secondaryButton
 .
 hidden
-true
+false
 "
 Test
-2c
+3c
 Activated
 plugin
 in
@@ -1536,7 +1535,6 @@ a
 private
 window
 should
-not
 have
 visible
 '
@@ -1563,7 +1561,7 @@ hidden
 true
 "
 Test
-2c
+3c
 Activated
 plugin
 in
