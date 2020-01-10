@@ -3189,7 +3189,7 @@ pc
 )
 )
 ;
-TryAttachIonStubOld
+TryAttachIonStub
 <
 BindNameIRGenerator
 IonBindNameIC

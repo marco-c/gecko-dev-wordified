@@ -18096,7 +18096,7 @@ pc
 )
 )
 ;
-TryAttachStubOld
+TryAttachStub
 <
 BindNameIRGenerator
 >
