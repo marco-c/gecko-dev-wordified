@@ -2296,6 +2296,15 @@ MaybeNotifyCrashed
 mozilla
 :
 :
+dom
+:
+:
+BrowsingContext
+*
+aBrowsingContext
+mozilla
+:
+:
 ipc
 :
 :
