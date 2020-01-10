@@ -309,6 +309,10 @@ extern
 crate
 malloc_size_of
 ;
+extern
+crate
+peek_poke
+;
 mod
 api
 ;
