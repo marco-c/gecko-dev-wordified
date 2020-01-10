@@ -182,6 +182,10 @@ SharedPreferenceSerializer
 ;
 }
 }
+/
+/
+namespace
+mozilla
 class
 nsITimer
 ;

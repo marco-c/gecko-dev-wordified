@@ -4972,9 +4972,9 @@ SlashIsRegExp
 mode
 when
 scanning
+/
+/
 ahead
-/
-/
 for
 a
 semicolon
