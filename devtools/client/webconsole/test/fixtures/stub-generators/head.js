@@ -2695,6 +2695,16 @@ await
 closeTabAndToolbox
 (
 )
+.
+catch
+(
+(
+)
+=
+>
+{
+}
+)
 ;
 return
 formatFile
