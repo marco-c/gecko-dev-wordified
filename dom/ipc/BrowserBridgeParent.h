@@ -230,9 +230,10 @@ const
 nsString
 &
 aRemoteType
-CanonicalBrowsingContext
-*
-aBrowsingContext
+const
+WindowGlobalInit
+&
+aWindowInit
 const
 uint32_t
 &

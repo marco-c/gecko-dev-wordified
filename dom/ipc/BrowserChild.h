@@ -1011,6 +1011,9 @@ Init
 mozIDOMWindowProxy
 *
 aParent
+WindowGlobalChild
+*
+aInitialWindowChild
 )
 ;
 /
@@ -3736,9 +3739,10 @@ const
 nsString
 &
 aRemoteType
-BrowsingContext
-*
-aBrowsingContext
+const
+WindowGlobalInit
+&
+aWindowInit
 const
 uint32_t
 &
