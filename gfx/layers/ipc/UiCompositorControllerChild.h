@@ -556,8 +556,10 @@ bool
 >
 mLayerUpdateEnabled
 ;
+RefPtr
+<
 nsBaseWidget
-*
+>
 mWidget
 ;
 /
