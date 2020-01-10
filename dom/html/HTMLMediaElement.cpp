@@ -14344,10 +14344,6 @@ MUTED_BY_AUDIO_TRACK
 else
 if
 (
-VideoTrack
-*
-t
-=
 aTrack
 -
 >
@@ -14366,7 +14362,12 @@ MOZ_DIAGNOSTIC_ASSERT
 mSelectedVideoStreamTrack
 =
 =
-t
+aTrack
+-
+>
+AsVideoTrack
+(
+)
 -
 >
 GetVideoStreamTrack
