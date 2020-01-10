@@ -42756,6 +42756,17 @@ EnsureObserver
 ;
 }
 }
+/
+/
+Reset
+the
+IndexedDB
+factory
+.
+mIndexedDB
+=
+nullptr
+;
 }
 mozilla
 :
