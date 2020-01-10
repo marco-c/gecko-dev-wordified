@@ -4978,13 +4978,13 @@ MemoryTracker
 (
 )
 ;
-~
-MemoryTracker
+void
+fixupAfterMovingGC
 (
 )
 ;
 void
-fixupAfterMovingGC
+checkEmptyOnDestroy
 (
 )
 ;
