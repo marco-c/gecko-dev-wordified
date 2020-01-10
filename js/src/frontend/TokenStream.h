@@ -4862,11 +4862,6 @@ uint32_t
 lineStartOffset
 )
 ;
-void
-undoInternalUpdateLineInfoForEOL
-(
-)
-;
 public
 :
 const
