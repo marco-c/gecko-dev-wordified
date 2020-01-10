@@ -453,16 +453,6 @@ sourceURL
 if
 (
 source
-&
-&
-dbg
-.
-canLoadSource
-(
-source
-.
-id
-)
 )
 {
 await
