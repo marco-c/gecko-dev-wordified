@@ -6456,7 +6456,7 @@ Borrowed
 JS
 :
 :
-Evaluate
+EvaluateDontInflate
 (
 cx
 opts
