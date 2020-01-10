@@ -7245,6 +7245,14 @@ nullptr
 ;
 }
 }
+aBrowsingContext
+-
+>
+SetEmbedderElement
+(
+aFrameElement
+)
+;
 /
 /
 Ensure
