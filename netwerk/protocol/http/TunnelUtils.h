@@ -1084,6 +1084,11 @@ again
 )
 override
 ;
+bool
+HasDataToRecv
+(
+)
+;
 private
 :
 MOZ_MUST_USE
