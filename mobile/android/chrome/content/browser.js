@@ -23944,7 +23944,6 @@ aOpener
 aWhere
 aFlags
 aTriggeringPrincipal
-aCsp
 )
 {
 let
@@ -24424,9 +24423,6 @@ pinned
 triggeringPrincipal
 :
 aTriggeringPrincipal
-csp
-:
-aCsp
 }
 )
 ;
@@ -24492,7 +24488,6 @@ aOpener
 aWhere
 aFlags
 aTriggeringPrincipal
-aCsp
 )
 {
 if
@@ -24525,7 +24520,6 @@ aOpener
 aWhere
 aFlags
 aTriggeringPrincipal
-aCsp
 )
 ;
 return
@@ -24547,7 +24541,6 @@ aOpener
 aWhere
 aFlags
 aTriggeringPrincipal
-aCsp
 )
 {
 let
@@ -24562,7 +24555,6 @@ aOpener
 aWhere
 aFlags
 aTriggeringPrincipal
-aCsp
 )
 ;
 return

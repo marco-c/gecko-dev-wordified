@@ -1394,7 +1394,6 @@ aOpener
 aWhere
 aFlags
 aTriggeringPrincipal
-aCsp
 )
 {
 debug
@@ -1642,7 +1641,6 @@ aOpener
 aWhere
 aFlags
 aTriggeringPrincipal
-aCsp
 aNextTabParentId
 )
 {
@@ -1777,7 +1775,6 @@ null
 null
 null
 aTriggeringPrincipal
-aCsp
 )
 ;
 return
@@ -1795,7 +1792,6 @@ aOpener
 aWhere
 aFlags
 aTriggeringPrincipal
-aCsp
 )
 {
 const
@@ -1810,7 +1806,6 @@ aOpener
 aWhere
 aFlags
 aTriggeringPrincipal
-aCsp
 null
 )
 ;
@@ -1851,9 +1846,6 @@ aFlags
 aParams
 .
 triggeringPrincipal
-aParams
-.
-csp
 aNextTabParentId
 )
 ;

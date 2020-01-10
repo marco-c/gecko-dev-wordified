@@ -31053,7 +31053,6 @@ nsIBrowserDOMWindow
 :
 OPEN_NEW
 aTriggeringPrincipal
-aCsp
 getter_AddRefs
 (
 win
