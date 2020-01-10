@@ -46237,6 +46237,13 @@ viewBox
 15
 \
 "
+stroke
+=
+\
+"
+currentColor
+\
+"
 >
 <
 path
