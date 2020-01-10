@@ -2813,12 +2813,6 @@ if
 state
 .
 avatarURL
-&
-&
-!
-state
-.
-avatarIsDefault
 )
 {
 let
