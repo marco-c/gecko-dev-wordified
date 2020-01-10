@@ -2442,6 +2442,11 @@ search
 .
 case
 "
+acceptDifferentSubdomains
+"
+:
+case
+"
 schemeUpgrades
 "
 :
@@ -2581,6 +2586,9 @@ aOptions
 =
 {
 schemeUpgrades
+:
+false
+acceptDifferentSubdomains
 :
 false
 }
