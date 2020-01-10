@@ -123,7 +123,7 @@ getFramework
 selectors
 ;
 const
-threadFront
+mockCommandClient
 =
 {
 sourceContents
@@ -202,7 +202,7 @@ expression
 }
 )
 )
-getBreakpointPositions
+getSourceActorBreakpointPositions
 :
 async
 (
@@ -213,7 +213,7 @@ async
 {
 }
 )
-getBreakableLines
+getSourceActorBreakableLines
 :
 async
 (
@@ -439,7 +439,7 @@ store
 =
 createStore
 (
-threadFront
+mockCommandClient
 )
 ;
 const
@@ -596,7 +596,7 @@ dispatch
 =
 createStore
 (
-threadFront
+mockCommandClient
 )
 ;
 const
@@ -681,7 +681,7 @@ getState
 =
 createStore
 (
-threadFront
+mockCommandClient
 )
 ;
 const
@@ -739,7 +739,7 @@ store
 =
 createStore
 (
-threadFront
+mockCommandClient
 {
 }
 sourceMaps
@@ -882,7 +882,7 @@ store
 =
 createStore
 (
-threadFront
+mockCommandClient
 )
 ;
 const

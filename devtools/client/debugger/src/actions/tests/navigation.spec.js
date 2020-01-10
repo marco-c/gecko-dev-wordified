@@ -156,7 +156,7 @@ javascript
 "
 }
 )
-getBreakpointPositions
+getSourceActorBreakpointPositions
 :
 async
 (
@@ -167,7 +167,7 @@ async
 {
 }
 )
-getBreakableLines
+getSourceActorBreakableLines
 :
 async
 (

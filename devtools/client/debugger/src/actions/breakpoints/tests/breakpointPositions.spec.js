@@ -146,7 +146,7 @@ store
 createStore
 (
 {
-getBreakpointPositions
+getSourceActorBreakpointPositions
 :
 async
 (
@@ -164,7 +164,7 @@ async
 ]
 }
 )
-getBreakableLines
+getSourceActorBreakableLines
 :
 async
 (
@@ -405,7 +405,7 @@ store
 createStore
 (
 {
-getBreakpointPositions
+getSourceActorBreakpointPositions
 :
 (
 )
@@ -428,7 +428,7 @@ r
 ;
 }
 )
-getBreakableLines
+getSourceActorBreakableLines
 :
 async
 (
