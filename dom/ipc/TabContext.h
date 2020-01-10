@@ -526,12 +526,6 @@ PresentationURL
 const
 ;
 UIStateChangeType
-ShowAccelerators
-(
-)
-const
-;
-UIStateChangeType
 ShowFocusRings
 (
 )
@@ -660,8 +654,6 @@ bool
 aIsMozBrowserElement
 uint64_t
 aChromeOuterWindowID
-UIStateChangeType
-aShowAccelerators
 UIStateChangeType
 aShowFocusRings
 const
@@ -946,14 +938,10 @@ state
 (
 focus
 rings
-accelerators
 )
 .
 *
 /
-UIStateChangeType
-mShowAccelerators
-;
 UIStateChangeType
 mShowFocusRings
 ;
@@ -1032,8 +1020,6 @@ aIsMozBrowserElement
 uint64_t
 aChromeOuterWindowID
 UIStateChangeType
-aShowAccelerators
-UIStateChangeType
 aShowFocusRings
 const
 OriginAttributes
@@ -1057,7 +1043,6 @@ SetTabContext
 (
 aIsMozBrowserElement
 aChromeOuterWindowID
-aShowAccelerators
 aShowFocusRings
 aOriginAttributes
 aPresentationURL

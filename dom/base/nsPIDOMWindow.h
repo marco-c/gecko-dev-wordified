@@ -4165,8 +4165,6 @@ keyboard
 indicator
 state
 for
-accelerators
-and
 focus
 rings
 .
@@ -4175,8 +4173,6 @@ rings
 void
 SetInitialKeyboardIndicators
 (
-UIStateChangeType
-aShowAccelerators
 UIStateChangeType
 aShowFocusRings
 )
@@ -5743,8 +5739,6 @@ virtual
 void
 SetKeyboardIndicators
 (
-UIStateChangeType
-aShowAccelerators
 UIStateChangeType
 aShowFocusRings
 )

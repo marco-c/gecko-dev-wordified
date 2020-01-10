@@ -18307,8 +18307,6 @@ nsPIDOMWindowOuter
 *
 aWindow
 UIStateChangeType
-aShowAccelerators
-UIStateChangeType
 aShowFocusRings
 )
 ;

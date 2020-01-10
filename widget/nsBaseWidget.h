@@ -2221,8 +2221,6 @@ void
 NotifyUIStateChanged
 (
 UIStateChangeType
-aShowAccelerators
-UIStateChangeType
 aShowFocusRings
 )
 ;

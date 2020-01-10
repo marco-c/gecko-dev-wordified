@@ -4157,10 +4157,6 @@ RecvSetKeyboardIndicators
 const
 UIStateChangeType
 &
-aShowAccelerators
-const
-UIStateChangeType
-&
 aShowFocusRings
 )
 ;
