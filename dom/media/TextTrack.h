@@ -701,6 +701,11 @@ aInterval
 )
 const
 ;
+void
+ClearAllCues
+(
+)
+;
 private
 :
 ~
