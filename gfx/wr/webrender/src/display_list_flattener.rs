@@ -159,6 +159,7 @@ ClipMode
 PrimitiveKeyKind
 TransformStyle
 YuvColorSpace
+ColorRange
 YuvData
 TempFilterData
 }
@@ -5821,6 +5822,9 @@ color_depth
 info
 .
 color_space
+info
+.
+color_range
 info
 .
 image_rendering
@@ -15813,6 +15817,9 @@ ColorDepth
 color_space
 :
 YuvColorSpace
+color_range
+:
+ColorRange
 image_rendering
 :
 ImageRendering
@@ -15907,6 +15914,7 @@ color_depth
 yuv_key
 format
 color_space
+color_range
 image_rendering
 }
 )

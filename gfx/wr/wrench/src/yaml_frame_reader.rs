@@ -8133,6 +8133,14 @@ YuvColorSpace
 Rec709
 ;
 let
+color_range
+=
+ColorRange
+:
+:
+Limited
+;
+let
 yuv_data
 =
 match
@@ -8498,6 +8506,7 @@ bounds
 yuv_data
 color_depth
 color_space
+color_range
 ImageRendering
 :
 :
