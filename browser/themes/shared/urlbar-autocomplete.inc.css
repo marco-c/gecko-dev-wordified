@@ -1003,6 +1003,17 @@ tags
 .
 urlbarView
 -
+title
+:
+not
+(
+:
+empty
+)
+~
+.
+urlbarView
+-
 secondary
 {
 font
