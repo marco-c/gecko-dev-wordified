@@ -48773,6 +48773,14 @@ nsIChannelEventSink
 REDIRECT_INTERNAL
 )
 ;
+redirectLoadInfo
+-
+>
+SetResultPrincipalURI
+(
+mURI
+)
+;
 listener
 -
 >
