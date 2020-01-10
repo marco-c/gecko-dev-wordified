@@ -1248,9 +1248,8 @@ it
 d
 -
 >
-SetPrincipals
+SetPrincipal
 (
-aPrincipal
 aPrincipal
 )
 ;
@@ -1939,9 +1938,6 @@ aLoadGroup
 nsIPrincipal
 *
 aPrincipal
-nsIPrincipal
-*
-aStoragePrincipal
 )
 {
 if
@@ -1974,7 +1970,6 @@ ResetToURI
 aURI
 aLoadGroup
 aPrincipal
-aStoragePrincipal
 )
 ;
 }
@@ -2046,16 +2041,6 @@ nsIPrincipal
 principal
 =
 NodePrincipal
-(
-)
-;
-nsCOMPtr
-<
-nsIPrincipal
->
-storagePrincipal
-=
-EffectiveStoragePrincipal
 (
 )
 ;
@@ -2751,7 +2736,6 @@ ResetToURI
 uri
 loadGroup
 principal
-storagePrincipal
 )
 ;
 mListenerManager

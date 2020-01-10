@@ -578,14 +578,8 @@ document
 mDocument
 -
 >
-SetPrincipals
+SetPrincipal
 (
-proto
--
->
-DocumentPrincipal
-(
-)
 proto
 -
 >
@@ -1210,9 +1204,8 @@ mCurrentPrototype
 mDocument
 -
 >
-SetPrincipals
+SetPrincipal
 (
-aDocumentPrincipal
 aDocumentPrincipal
 )
 ;

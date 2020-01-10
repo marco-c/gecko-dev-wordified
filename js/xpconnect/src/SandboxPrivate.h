@@ -363,17 +363,6 @@ return
 mPrincipal
 ;
 }
-nsIPrincipal
-*
-GetEffectiveStoragePrincipal
-(
-)
-override
-{
-return
-nullptr
-;
-}
 JSObject
 *
 GetGlobalJSObject

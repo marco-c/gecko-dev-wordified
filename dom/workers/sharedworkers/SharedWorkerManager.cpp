@@ -238,10 +238,6 @@ aData
 nsIPrincipal
 *
 aLoadingPrincipal
-const
-OriginAttributes
-&
-aStoragePrincipalAttrs
 )
 {
 MOZ_ASSERT
@@ -263,7 +259,6 @@ SharedWorkerManager
 aPBackgroundEventTarget
 aData
 aLoadingPrincipal
-aStoragePrincipalAttrs
 )
 ;
 RefPtr
@@ -302,10 +297,6 @@ aData
 nsIPrincipal
 *
 aLoadingPrincipal
-const
-OriginAttributes
-&
-aStoragePrincipalAttrs
 )
 :
 mPBackgroundEventTarget
@@ -323,10 +314,6 @@ aData
 domain
 (
 )
-)
-mStoragePrincipalAttrs
-(
-aStoragePrincipalAttrs
 )
 mResolvedScriptURL
 (
@@ -546,10 +533,6 @@ aName
 nsIPrincipal
 *
 aLoadingPrincipal
-const
-OriginAttributes
-&
-aStoragePrincipalAttrs
 )
 {
 MOZ_ASSERT
@@ -642,12 +625,6 @@ Subsumes
 (
 mLoadingPrincipal
 )
-&
-&
-mStoragePrincipalAttrs
-=
-=
-aStoragePrincipalAttrs
 ;
 if
 (

@@ -50862,7 +50862,6 @@ nsContentUtils
 :
 StorageAllowedForDocument
 (
-const
 Document
 *
 aDoc
