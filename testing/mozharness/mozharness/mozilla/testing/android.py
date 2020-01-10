@@ -3004,6 +3004,7 @@ mozdevice
 .
 ADBTimeoutError
 )
+e
 :
             
 self
@@ -3019,6 +3020,11 @@ s
 on
 %
 s
+:
+%
+s
+%
+s
 '
 %
                       
@@ -3029,6 +3035,14 @@ installer_path
 self
 .
 device_name
+                       
+type
+(
+e
+)
+.
+__name__
+e
 )
 )
             
@@ -3049,9 +3063,16 @@ s
 '
 %
                        
+os
+.
+path
+.
+basename
+(
 self
 .
 installer_path
+)
                        
 EXIT_STATUS_DICT
 [
