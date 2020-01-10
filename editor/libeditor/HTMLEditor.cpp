@@ -23593,10 +23593,16 @@ rv
 =
 JoinNodesWithTransaction
 (
+MOZ_KnownLive
+(
 *
 leftTextNode
+)
+MOZ_KnownLive
+(
 *
 rightTextNode
+)
 )
 ;
 if

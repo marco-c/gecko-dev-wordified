@@ -6886,6 +6886,7 @@ aLeftNode
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 JoinNodesWithTransaction
 (
@@ -9013,6 +9014,7 @@ node
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 EditorDOMPoint
 JoinNodesDeepWithTransaction
 (
