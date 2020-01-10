@@ -163,6 +163,10 @@ addons
 about
 :
 credits
+and
+about
+:
+logins
 will
 initiate
 network
@@ -170,6 +174,9 @@ request
 .
 "
 credits
+"
+"
+logins
 "
 /
 /
