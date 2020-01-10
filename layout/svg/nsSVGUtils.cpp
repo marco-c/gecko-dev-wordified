@@ -5028,6 +5028,7 @@ ApplyBasicShapeOrPathClip
 (
 aContext
 aFrame
+aTransform
 )
 ;
 }
