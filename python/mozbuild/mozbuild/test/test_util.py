@@ -62,8 +62,6 @@ MPL
 from
 __future__
 import
-absolute_import
-print_function
 unicode_literals
 import
 itertools
@@ -1502,7 +1500,6 @@ with
 /
 file
 '
-                           
 (
 '
 test
@@ -1596,7 +1593,6 @@ without
 /
 file
 '
-                           
 (
 '
 test
@@ -1697,7 +1693,6 @@ with
 /
 Makefile
 '
-                           
 (
 '
 test
@@ -1791,7 +1786,6 @@ without
 /
 Makefile
 '
-                           
 (
 '
 test
@@ -2452,6 +2446,8 @@ assertRaises
 (
 MozbuildDeletionError
 )
+as
+mde
 :
             
 self
@@ -2490,6 +2486,8 @@ assertRaises
 (
 UnsortedError
 )
+as
+ee
 :
             
 self
@@ -2517,6 +2515,8 @@ assertRaises
 (
 UnsortedError
 )
+as
+ee
 :
             
 self
@@ -2545,6 +2545,8 @@ assertRaises
 (
 UnsortedError
 )
+as
+ee
 :
             
 self
@@ -2595,6 +2597,8 @@ assertRaises
 (
 KeyError
 )
+as
+ee
 :
             
 self
@@ -4299,6 +4303,8 @@ Exception
 )
 :
             
+c
+=
 l
 [
 '

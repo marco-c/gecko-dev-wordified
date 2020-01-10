@@ -57,7 +57,6 @@ from
 __future__
 import
 absolute_import
-print_function
 import
 sys
 from
@@ -133,7 +132,7 @@ __name__
 __main__
 "
 :
-    
+  
 main
 (
 sys

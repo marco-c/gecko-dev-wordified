@@ -57,7 +57,6 @@ from
 __future__
 import
 absolute_import
-print_function
 unicode_literals
 import
 itertools
@@ -112,6 +111,8 @@ import
 (
     
 BaseRustProgram
+    
+BaseSources
     
 ChromeManifestEntry
     
@@ -255,6 +256,8 @@ ObjDirPath
 Path
     
 SubContext
+    
+TemplateContext
 )
 from
 mozbuild
@@ -927,7 +930,6 @@ emit_objs
 objs
 )
 :
-                    
 yield
 o
             
@@ -1021,7 +1023,6 @@ emit_objs
 objs
 )
 :
-                
 yield
 o
     
@@ -1330,7 +1331,6 @@ test
 ]
 =
 [
-                                             
 s
 for
 s
@@ -1530,7 +1530,7 @@ candidates
 )
 and
 \
-                    
+                   
 len
 (
 set
@@ -1598,7 +1598,7 @@ s
 lib
 .
 link_into
-                                                  
+                    
 '
 \
 n
@@ -1753,7 +1753,7 @@ in
 lib
 .
 linked_libraries
-                                     
+                    
 if
 isinstance
 (
@@ -1827,7 +1827,7 @@ library
 lib
 .
 basename
-                                              
+                    
 '
 \
 n
@@ -2702,7 +2702,7 @@ _get_external_library
 (
 dir
 name
-                                                                 
+                            
 force_static
 )
 ]
@@ -2747,7 +2747,7 @@ s
 variable
 path
 name
-                       
+                    
 self
 .
 LIBRARY_NAME_VAR
@@ -2939,7 +2939,7 @@ s
 variable
 path
 name
-                                            
+                        
 self
 .
 LIBRARY_NAME_VAR
@@ -2990,7 +2990,7 @@ tree
 variable
 name
 name
-                                        
+                    
 self
 .
 LIBRARY_NAME_VAR
@@ -3075,7 +3075,7 @@ moz
 build
 '
 )
-                     
+                
 for
 l
 in
@@ -3116,7 +3116,7 @@ s
 (
 variable
 path
-                                     
+                
 self
 .
 LIBRARY_NAME_VAR
@@ -3125,7 +3125,7 @@ obj
 .
 KIND
 ]
-                                     
+                
 '
 \
 n
@@ -3212,9 +3212,9 @@ static
 '
 %
 (
-                    
 variable
 path
+                
 name
 candidates
 [
@@ -3246,7 +3246,7 @@ candidates
 [
 0
 ]
-                                                           
+                
 SharedLibrary
 )
 :
@@ -3567,7 +3567,6 @@ path
 '
 %
 (
-                        
 description
 dep_crate_name
 crate_name
@@ -3614,7 +3613,6 @@ path
 '
 %
 (
-                        
 description
 dep_crate_name
 crate_name
@@ -3674,7 +3672,6 @@ path
 '
 %
 (
-                        
 description
 dep_crate_name
 crate_name
@@ -3729,7 +3726,6 @@ path
 '
 %
 (
-                        
 description
 dep_crate_name
 crate_name
@@ -4346,9 +4342,9 @@ s
 '
 %
 (
-                        
 program
 kind
+                    
 self
 .
 _binaries
@@ -4427,7 +4423,7 @@ _binaries
 [
 program
 ]
-                                      
+                    
 kind
 .
 replace
@@ -4524,6 +4520,7 @@ _parse_cargo_file
 (
 context
 )
+;
             
 bin_section
 =
@@ -4730,9 +4727,9 @@ s
 '
 %
 (
-                            
 program
 kind
+                        
 self
 .
 _binaries
@@ -4756,7 +4753,7 @@ cls
 (
 context
 program
-                                              
+                    
 is_unit_test
 =
 kind
@@ -4781,7 +4778,7 @@ _binaries
 [
 program
 ]
-                                      
+                    
 '
 HOST_USE_LIBS
 '
@@ -4792,7 +4789,7 @@ kind
 '
 HOST_SIMPLE_PROGRAMS
 '
-                                      
+                    
 else
 '
 USE_LIBS
@@ -4847,10 +4844,12 @@ libname
 raise
 SandboxValidationError
 (
-                    
 '
 LIBRARY_NAME
 and
+'
+                    
+'
 HOST_LIBRARY_NAME
 must
 have
@@ -5710,7 +5709,7 @@ s
 %
 (
 symbols_file
-                                                  
+                            
 symbols_file
 .
 full_path
@@ -5910,14 +5909,14 @@ GeneratedFile
 (
 context
 script
-                                        
+                        
 '
 generate_symbols_file
 '
 lib
 .
 symbols_file
-                                        
+                        
 [
 symbols_file
 ]
@@ -6019,7 +6018,7 @@ LIBRARY_DEFINES
 needs
 a
 '
-                                                 
+                        
 '
 LIBRARY_NAME
 to
@@ -6293,7 +6292,7 @@ file
 should
 only
 '
-                                                 
+                        
 '
 be
 added
@@ -6367,7 +6366,7 @@ SOURCES
 '
 :
                     
-context_flags
+flags
 =
 context_srcs
 [
@@ -6375,7 +6374,7 @@ f
 ]
                     
 if
-context_flags
+flags
 :
                         
 all_flags
@@ -6383,7 +6382,7 @@ all_flags
 full_path
 ]
 =
-context_flags
+flags
                     
 #
 Files
@@ -6412,7 +6411,7 @@ special
 .
                     
 if
-context_flags
+flags
 .
 pgo_generate_only
 :
@@ -6429,10 +6428,12 @@ Path
 raise
 SandboxValidationError
 (
-                                
 '
 pgo_generate_only
 file
+'
+                                
+'
 must
 not
 be
@@ -6445,7 +6446,6 @@ s
 '
 %
 f
-                                
 context
 )
                         
@@ -6474,7 +6474,7 @@ SandboxValidationError
 pgo_generate_only
 file
 '
-                                                         
+                                
 '
 must
 be
@@ -6492,7 +6492,7 @@ context
 )
                         
 if
-context_flags
+flags
 .
 no_pgo
 :
@@ -6500,10 +6500,12 @@ no_pgo
 raise
 SandboxValidationError
 (
-                                
 '
 pgo_generate_only
 files
+'
+                                
+'
 cannot
 be
 marked
@@ -6554,7 +6556,7 @@ s
 does
 not
 '
-                                                 
+                        
 '
 exist
 :
@@ -6674,7 +6676,7 @@ SOURCES
 .
 no_pgo
 '
-                                             
+                    
 '
 cannot
 be
@@ -7834,7 +7836,6 @@ _emit_directory_traversal_from_context
 context
 )
 :
-            
 yield
 o
         
@@ -8067,7 +8068,7 @@ s
 %
 dll
 )
-                                       
+                
 for
 dll
 in
@@ -8329,7 +8330,7 @@ s
 %
 (
 deffile
-                                              
+                        
 deffile
 .
 full_path
@@ -8930,7 +8931,7 @@ _create_substitution
 (
 ConfigFileSubstitution
 context
-                                            
+                
 path
 )
             
@@ -8960,7 +8961,6 @@ in
 DEFINES
 '
 Defines
-                                                 
 (
 computed_flags
 computed_as_flags
@@ -8972,12 +8972,10 @@ computed_as_flags
 HOST_DEFINES
 '
 HostDefines
-                                                 
 (
 computed_host_flags
 )
 )
-                                                
 )
 :
             
@@ -9269,12 +9267,14 @@ full_path
 raise
 SandboxValidationError
 (
-                        
 '
 Path
 specified
 in
 LOCAL_INCLUDES
+'
+                        
+'
 does
 not
 exist
@@ -9289,9 +9289,9 @@ s
 )
 '
 %
-                        
 (
 local_include
+                        
 full_path
 )
 context
@@ -9318,7 +9318,7 @@ specified
 in
 LOCAL_INCLUDES
 '
-                                                 
+                        
 '
 is
 a
@@ -9332,7 +9332,7 @@ required
 %
 s
 '
-                                                 
+                        
 '
 (
 resolved
@@ -9346,7 +9346,6 @@ s
 local_include
 full_path
 )
-                                                 
 context
 )
             
@@ -9376,7 +9375,6 @@ topobjdir
 raise
 SandboxValidationError
 (
-                    
 '
 Path
 specified
@@ -9551,7 +9549,6 @@ BIN_SUFFIX
 '
 )
 )
-                                
 for
 k
 in
@@ -10215,35 +10212,31 @@ SandboxValidationError
 (
                                     
 (
-                                        
 '
 Outputs
 of
 LOCALIZED_GENERATED_FILES
 cannot
-'
-                                        
-'
 be
 used
 in
 %
 s
 :
+'
++
+                                     
+'
 %
 s
 '
-                                    
 )
-                                    
 %
 (
 var
 f
 )
-                                    
 context
-                                
 )
             
 #
@@ -11093,7 +11086,7 @@ be
 defined
 if
 '
-                                             
+                    
 '
 XPIDL_SOURCES
 is
@@ -11124,7 +11117,7 @@ cannot
 be
 defined
 '
-                                         
+                
 '
 unless
 there
@@ -11217,7 +11210,7 @@ s
 from
 XPIDL_SOURCES
 '
-                                             
+                    
 '
 does
 not
@@ -11817,7 +11810,7 @@ mozpath
 relpath
 (
 path
-                                                          
+            
 context
 .
 config
@@ -11880,7 +11873,7 @@ manifest
 %
 s
 '
-                                             
+                    
 %
 path
 context
@@ -11912,11 +11905,11 @@ mpmanifest
 flavor
 =
 flavor
-                               
+                
 install_prefix
 =
 install_prefix
-                               
+                
 relpath
 =
 mozpath
@@ -11931,11 +11924,11 @@ basename
 path
 )
 )
-                               
+                
 sources
 =
 manifest_sources
-                               
+                
 dupe_manifest
 =
 '
@@ -11999,7 +11992,7 @@ s
 )
 lists
 '
-                                             
+                    
 '
 test
 that
@@ -12012,7 +12005,7 @@ s
 '
 %
 (
-                                                 
+                    
 path
 '
 '
@@ -12228,13 +12221,12 @@ external_installs
 raise
 SandboxValidationError
 (
-                            
 '
 Error
 processing
 test
 '
-                            
+                           
 '
 manifest
 %
@@ -12248,7 +12240,7 @@ files
 not
 present
 '
-                            
+                           
 '
 in
 the
@@ -12332,7 +12324,7 @@ test
 path
 '
 ]
-                                                       
+                        
 mozpath
 .
 dirname
@@ -12597,7 +12589,6 @@ KeyError
 raise
 SandboxValidationError
 (
-                        
 '
 Error
 processing
@@ -12647,7 +12638,6 @@ Exception
 raise
 SandboxValidationError
 (
-                
 '
 Error
 processing
@@ -12666,7 +12656,7 @@ s
 %
 (
 path
-                                          
+                    
 '
 \
 n
@@ -12719,7 +12709,7 @@ mozpath
 relpath
 (
 manifest_full_path
-                                                          
+            
 context
 .
 config
@@ -12777,7 +12767,7 @@ TestManifest
 context
 manifest_full_path
 manifest
-                           
+                
 flavor
 =
 flavor
@@ -12790,7 +12780,7 @@ s
 '
 %
 flavor
-                           
+                
 relpath
 =
 mozpath
@@ -12798,7 +12788,7 @@ mozpath
 join
 (
 manifest_reldir
-                                                
+                    
 mozpath
 .
 basename
@@ -12931,7 +12921,7 @@ is
 a
 list
 '
-                                         
+                
 '
 it
 is
@@ -13061,7 +13051,7 @@ exists
 but
 it
 '
-                                             
+                    
 '
 is
 not
@@ -13074,7 +13064,7 @@ build
 file
 .
 '
-                                             
+                    
 '
 Please
 define

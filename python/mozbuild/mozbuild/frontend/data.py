@@ -143,7 +143,6 @@ from
 __future__
 import
 absolute_import
-print_function
 unicode_literals
 from
 mozbuild
@@ -158,6 +157,12 @@ ObjDirPath
     
 SourcePath
 )
+from
+mozbuild
+.
+util
+import
+StrictOrderingOnAppendList
 from
 mozpack
 .
@@ -181,6 +186,7 @@ from
 collections
 import
 defaultdict
+OrderedDict
 import
 itertools
 from
@@ -3360,7 +3366,6 @@ mozpath
 .
 join
 (
-                
 self
 .
 install_target
@@ -4337,7 +4342,7 @@ basename
 real_name
 =
 None
-                 
+        
 link_into
 =
 None
@@ -4568,7 +4573,7 @@ context
 config
 .
 rust_lib_prefix
-                                    
+                                     
 basename
 .
 replace
@@ -4580,7 +4585,7 @@ replace
 _
 '
 )
-                                    
+                                     
 context
 .
 config
@@ -5736,7 +5741,7 @@ manifest
 flavor
 =
 None
-                 
+            
 install_prefix
 =
 None
@@ -5747,7 +5752,7 @@ sources
 =
 (
 )
-                 
+            
 dupe_manifest
 =
 False
@@ -6597,24 +6602,22 @@ unified_source_mapping
 =
 list
 (
-                
 group_unified_files
 (
 source_files
-                                    
+                                                                   
 unified_prefix
 =
 unified_prefix
-                                    
+                                                                   
 unified_suffix
 =
 suffix
-                                    
+                                                                   
 files_per_unified_file
 =
 files_per_unified_file
 )
-                
 )
 class
 InstallationTarget
@@ -7422,8 +7425,6 @@ installing
 node
 files
 :
-                          
-#
 https
 :
 /
@@ -7444,6 +7445,9 @@ id
 #
 c55
             
+'
+android_apks
+'
 #
 We
 need
@@ -7457,16 +7461,10 @@ wrappers
 for
 native
 code
-            
-#
 compilation
 to
 consume
 .
-            
-'
-android_apks
-'
             
 '
 .
@@ -7485,7 +7483,6 @@ self
 required_for_compile
 =
 [
-            
 f
 for
 f

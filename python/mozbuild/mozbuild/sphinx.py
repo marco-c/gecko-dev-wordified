@@ -57,7 +57,6 @@ from
 __future__
 import
 absolute_import
-print_function
 import
 importlib
 import
@@ -1082,7 +1081,7 @@ ve
 VirtualenvManager
 (
 topsrcdir
-                           
+        
 os
 .
 path
@@ -1096,7 +1095,7 @@ dummy
 objdir
 '
 )
-                           
+        
 os
 .
 path
@@ -1110,11 +1109,11 @@ outdir
 _venv
 '
 )
-                           
+        
 sys
 .
 stderr
-                           
+        
 os
 .
 path

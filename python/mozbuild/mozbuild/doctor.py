@@ -58,7 +58,6 @@ from
 __future__
 import
 absolute_import
-print_function
 import
 os
 import
@@ -466,21 +465,11 @@ system
         
 elif
 False
-and
-fixable
 :
 #
 elif
 fixable
 :
-#
-'
-and
-fixable
-'
-avoids
-flake8
-error
             
 print
 (

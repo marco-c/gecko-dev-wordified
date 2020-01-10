@@ -53,11 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
 import
 os
 import
@@ -759,7 +754,8 @@ unique
             
 if
 ret
-is
+=
+=
 None
 :
                 
@@ -941,7 +937,7 @@ Commands
 %
 d
 "
-                       
+                    
 %
 (
 f

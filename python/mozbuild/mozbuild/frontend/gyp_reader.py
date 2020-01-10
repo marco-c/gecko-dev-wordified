@@ -57,7 +57,6 @@ from
 __future__
 import
 absolute_import
-print_function
 unicode_literals
 import
 gyp
@@ -73,6 +72,8 @@ import
 time
 import
 types
+import
+warnings
 import
 mozpack
 .
@@ -112,7 +113,16 @@ import
 (
     
 expand_variables
+    
+List
+    
+memoize
 )
+from
+.
+reader
+import
+SandboxValidationError
 #
 Define
 this
@@ -285,7 +295,7 @@ gyp
 .
 __file__
 )
-                                          
+    
 '
 .
 .
@@ -548,7 +558,7 @@ template
 '
 Gyp
 '
-                                 
+            
 allowed_variables
 =
 VARIABLES
@@ -632,7 +642,6 @@ outputs
 raise
 NotImplementedError
 (
-                
 '
 GYP
 actions
@@ -671,7 +680,6 @@ idir
 raise
 NotImplementedError
 (
-                
 '
 GYP
 actions
@@ -680,9 +688,6 @@ to
 somewhere
 other
 than
-'
-                
-'
 <
 (
 INTERMEDIATE_DIR
@@ -693,10 +698,8 @@ supported
 %
 s
 '
-                
 %
 output
-            
 )
         
 output
@@ -798,7 +801,6 @@ dist
 raise
 NotImplementedError
 (
-                
 '
 GYP
 copies
@@ -1082,7 +1084,7 @@ dirname
 (
 build_file
 )
-                                 
+                                  
 mozpath
 .
 dirname
@@ -1317,7 +1319,7 @@ actions
 in
 spec
 :
-            
+          
 handle_actions
 (
 spec
@@ -1337,7 +1339,7 @@ copies
 in
 spec
 :
-            
+          
 handle_copies
 (
 spec
@@ -1555,7 +1557,7 @@ l
 in
 libs
 :
-            
+          
 if
 l
 .
@@ -1566,14 +1568,14 @@ startswith
 '
 )
 :
-                
+              
 os_libs
 .
 append
 (
 l
 )
-            
+          
 elif
 l
 .
@@ -1585,7 +1587,7 @@ lib
 '
 )
 :
-                
+              
 os_libs
 .
 append
@@ -1597,11 +1599,11 @@ l
 4
 ]
 )
-            
+          
 elif
 l
 :
-                
+            
 #
 For
 library
@@ -1613,7 +1615,7 @@ moz
 .
 build
 .
-                
+            
 use_libs
 .
 append
@@ -1641,7 +1643,7 @@ type
 none
 '
 :
-            
+          
 if
 not
 (
@@ -1658,7 +1660,7 @@ in
 spec
 )
 :
-                
+            
 continue
         
 elif
@@ -1681,7 +1683,7 @@ executable
 '
 )
 :
-                
+            
 #
 Remove
 leading
@@ -1696,7 +1698,7 @@ any
 and
 use
 as
-                
+            
 #
 library
 name
@@ -1832,8 +1834,6 @@ type
 static_library
 '
 and
-\
-                    
 spec
 .
 get
@@ -2033,7 +2033,7 @@ INTERMEDIATE_DIR
 '
 )
 :
-                    
+                  
 s
 =
 ObjDirPath
@@ -2055,7 +2055,7 @@ INTERMEDIATE_DIR
                 
 else
 :
-                    
+                  
 s
 =
 SourcePath
@@ -2312,8 +2312,6 @@ name
 NSS_ALLOW_SSLKEYLOGFILE
 '
 and
-\
-                            
 config
 .
 substs
@@ -2687,7 +2685,6 @@ mozpath
 .
 join
 (
-                            
 mozpath
 .
 dirname
@@ -3083,7 +3080,7 @@ if
 not
 no_chromium
 :
-            
+          
 #
 Add
 some
@@ -3097,12 +3094,12 @@ here
 in
 case
 LOCAL_INCLUDES
-            
+          
 #
 order
 matters
 .
-            
+          
 context
 [
 '
@@ -3112,7 +3109,7 @@ LOCAL_INCLUDES
 +
 =
 [
-                
+              
 '
 !
 /
@@ -3122,7 +3119,7 @@ ipdl
 /
 _ipdlheaders
 '
-                
+              
 '
 /
 ipc
@@ -3131,16 +3128,16 @@ chromium
 /
 src
 '
-                
+              
 '
 /
 ipc
 /
 glue
 '
-            
+          
 ]
-            
+          
 #
 These
 get
@@ -3155,7 +3152,7 @@ normal
 GYP
 builds
 .
-            
+          
 if
 config
 .
@@ -3171,7 +3168,7 @@ OS_TARGET
 WINNT
 '
 :
-                
+              
 context
 [
 '
@@ -3185,7 +3182,7 @@ UNICODE
 ]
 =
 True
-                
+              
 context
 [
 '

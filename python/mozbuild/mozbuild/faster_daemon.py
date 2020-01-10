@@ -693,9 +693,9 @@ git
 wholename
 '
 ]
-                  
-]
                  
+]
+                
 ]
             
 ]
@@ -1499,6 +1499,8 @@ True
 try
 :
                     
+_watch_result
+=
 self
 .
 client
@@ -1642,6 +1644,8 @@ still
 functional
 .
                     
+_version
+=
 self
 .
 client

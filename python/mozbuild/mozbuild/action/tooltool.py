@@ -161,11 +161,6 @@ MA
 1301
 USA
 .
-from
-__future__
-import
-absolute_import
-print_function
 #
 A
 manifest
@@ -5228,6 +5223,8 @@ False
     
 except
 IOError
+as
+e
 :
         
 return
@@ -7562,7 +7559,6 @@ is_taskcluster_auth
 True
         
 except
-Exception
 :
             
 pass

@@ -54,16 +54,17 @@ MPL
 /
 .
 from
-__future__
+collections
 import
-absolute_import
-print_function
+defaultdict
 import
 json
 import
 os
 import
 re
+import
+urlparse
 from
 mach
 .
@@ -137,7 +138,6 @@ path
 as
 mozpath
 from
-.
 manifest_handler
 import
 ChromeManifestHandler
@@ -881,8 +881,6 @@ an
 object
 storing
 mapping
-        
-#
 information
 for
 preprocessed
@@ -932,8 +930,6 @@ js
 {
 }
 ]
-        
-#
 .
 .
 .

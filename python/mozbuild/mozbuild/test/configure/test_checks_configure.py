@@ -4117,7 +4117,6 @@ self
 .
 get_result
 (
-            
 '
 check_prog
 (
@@ -4653,21 +4652,6 @@ a
 .
 .
 .
-'
-'
-'
-#
-noqa
-#
-trailing
-whitespace
-.
-.
-.
-                
-'
-'
-'
             
 DEBUG
 :
@@ -5844,7 +5828,6 @@ Set
 JAVA_HOME
 to
 your
-\
 Java
 SDK
 directory
@@ -5877,9 +5860,7 @@ dir
 (
 java
 )
-            
 )
-        
 )
     
 def
@@ -6392,6 +6373,26 @@ mock_pkg_config_path
 mock_pkg_config
         
 }
+        
+includes
+=
+(
+'
+util
+.
+configure
+'
+'
+checks
+.
+configure
+'
+'
+pkg
+.
+configure
+'
+)
         
 config
 output

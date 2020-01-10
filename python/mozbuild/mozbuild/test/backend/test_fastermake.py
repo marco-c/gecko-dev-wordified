@@ -56,11 +56,17 @@ MPL
 from
 __future__
 import
-absolute_import
-print_function
 unicode_literals
 import
+cPickle
+as
+pickle
+import
+json
+import
 os
+import
+unittest
 from
 mozpack
 .
@@ -158,7 +164,7 @@ join
 env
 .
 topobjdir
-                                                    
+            
 '
 backend
 .
@@ -185,7 +191,7 @@ join
 env
 .
 topobjdir
-                                                    
+            
 '
 backend
 .
@@ -250,7 +256,7 @@ join
 env
 .
 topobjdir
-                                              
+            
 '
 faster
 '

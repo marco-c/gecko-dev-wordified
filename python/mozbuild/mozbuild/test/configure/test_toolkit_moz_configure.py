@@ -797,7 +797,7 @@ enable
 release
 '
 ]
-                                       
+                             
 environ
 =
 {
@@ -1157,7 +1157,6 @@ getvalue
 (
 )
             
-(
 '
 ERROR
 :
@@ -1173,9 +1172,6 @@ you
 do
 not
 appear
-'
-             
-'
 to
 have
 Yasm
@@ -1184,7 +1180,6 @@ installed
 \
 n
 '
-)
         
 )
         
@@ -1237,7 +1232,6 @@ getvalue
 (
 )
             
-(
 '
 ERROR
 :
@@ -1255,9 +1249,6 @@ you
 do
 not
 appear
-'
-             
-'
 to
 have
 Yasm
@@ -1266,7 +1257,6 @@ installed
 \
 n
 '
-)
         
 )
         
@@ -1326,7 +1316,6 @@ getvalue
 (
 )
             
-(
 '
 ERROR
 :
@@ -1345,9 +1334,6 @@ you
 do
 not
 appear
-'
-             
-'
 to
 have
 Yasm
@@ -1356,7 +1342,6 @@ installed
 \
 n
 '
-)
         
 )
         

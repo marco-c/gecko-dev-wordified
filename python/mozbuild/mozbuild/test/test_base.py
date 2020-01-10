@@ -56,8 +56,6 @@ MPL
 from
 __future__
 import
-absolute_import
-print_function
 unicode_literals
 import
 json
@@ -105,6 +103,8 @@ BadEnvironmentException
 MachCommandBase
     
 MozbuildObject
+    
+ObjdirMismatchException
     
 PathArgument
 )
@@ -471,7 +471,7 @@ join
 base
 .
 topsrcdir
-                                                          
+                
 '
 foo
 '
@@ -2321,7 +2321,7 @@ ConfigEnvironment
 base
 .
 topsrcdir
-                                                     
+            
 base
 .
 topobjdir

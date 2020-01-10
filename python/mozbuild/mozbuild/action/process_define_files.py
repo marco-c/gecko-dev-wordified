@@ -80,6 +80,12 @@ backend
 configenvironment
 import
 PartialConfigEnvironment
+from
+mozbuild
+.
+util
+import
+FileAvoidWrite
 import
 mozpack
 .
@@ -468,17 +474,7 @@ CONFIGURE_DEFINE_FILE
 '
 )
                         
-def
-define_for_name
-(
-name
-val
-)
-:
-                            
-"
-"
-"
+#
 WebRTC
 files
 like
@@ -487,7 +483,8 @@ define
 WINVER
 and
 _WIN32_WINNT
-                            
+                        
+#
 via
 the
 command
@@ -498,7 +495,8 @@ a
 mass
 of
 macro
-                            
+                        
+#
 redefinition
 warnings
 .
@@ -506,13 +504,19 @@ Just
 handle
 those
 macros
-                            
+                        
+#
 specially
 here
 .
-"
-"
-"
+                        
+def
+define_for_name
+(
+name
+val
+)
+:
                             
 define
 =

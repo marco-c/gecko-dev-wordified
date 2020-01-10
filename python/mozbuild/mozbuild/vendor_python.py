@@ -242,7 +242,6 @@ path
 .
 join
 (
-                
 self
 .
 topsrcdir

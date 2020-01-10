@@ -56,8 +56,6 @@ MPL
 from
 __future__
 import
-absolute_import
-print_function
 unicode_literals
 import
 os
@@ -936,6 +934,13 @@ get_temp_dir
 (
 )
         
+dirs
+=
+[
+srcdir
+curdir
+]
+        
 loader
 =
 MozconfigLoader
@@ -1408,7 +1413,7 @@ mozconfig
 files
 present
 '
-                      
+            
 e
 .
 exception
@@ -1508,7 +1513,7 @@ is
 no
 longer
 '
-                          
+                
 e
 .
 exception
@@ -1638,7 +1643,7 @@ is
 no
 longer
 '
-                          
+                
 e
 .
 exception
@@ -2637,7 +2642,7 @@ some
 objdir
 '
 %
-                             
+                
 loader
 .
 topsrcdir
@@ -3609,7 +3614,7 @@ added
 TEST
 '
 ]
-                             
+                
 loader
 .
 topsrcdir
@@ -3910,7 +3915,7 @@ e
 exception
 .
 path
-                              
+                
 mozconfig
 .
 name

@@ -707,8 +707,6 @@ Build_Instructions
 Simple_Firefox_build
 '
 )
-#
-noqa
             
 return
 1
@@ -764,8 +762,6 @@ Build_Instructions
 Incremental_builds_with_filesystem_watching
 '
 )
-#
-noqa
             
 return
 1
@@ -836,8 +832,6 @@ Build_Instructions
 Incremental_builds_with_filesystem_watching
 '
 )
-#
-noqa
             
 return
 1
@@ -956,7 +950,7 @@ jobs
 type
 =
 int
-                     
+        
 help
 =
 '
@@ -991,7 +985,7 @@ directory
 default
 =
 None
-                     
+        
 help
 =
 '
@@ -1082,7 +1076,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -1140,7 +1134,7 @@ None
 jobs
 =
 0
-              
+        
 directory
 =
 None
@@ -1396,7 +1390,7 @@ category
 '
 build
 '
-             
+        
 description
 =
 '
@@ -1516,7 +1510,7 @@ post
 -
 build
 '
-             
+        
 description
 =
 '
@@ -1545,7 +1539,7 @@ default
 '
 localhost
 '
-                     
+        
 help
 =
 '
@@ -1573,7 +1567,7 @@ int
 default
 =
 0
-                     
+        
 help
 =
 '
@@ -1601,7 +1595,7 @@ default
 '
 firefox
 '
-                     
+        
 help
 =
 '
@@ -1626,7 +1620,7 @@ CommandArgument
 -
 url
 '
-                     
+        
 help
 =
 '
@@ -1732,7 +1726,7 @@ have
 performed
 a
 '
-                      
+                    
 '
 build
 and
@@ -1744,7 +1738,7 @@ psutil
 Python
 package
 '
-                      
+                    
 '
 likely
 failed
@@ -1876,7 +1870,7 @@ category
 '
 build
 '
-             
+        
 description
 =
 '
@@ -1908,7 +1902,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -1966,7 +1960,7 @@ sorted
 (
 backends
 )
-                     
+        
 help
 =
 '
@@ -1994,7 +1988,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -2022,7 +2016,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -2219,7 +2213,7 @@ args
 pass_thru
 =
 True
-                                           
+            
 ensure_exit_code
 =
 False
@@ -2330,7 +2324,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -2487,7 +2481,8 @@ keys
         
 elif
 crates
-is
+=
+=
 None
 or
 crates
@@ -2682,7 +2677,7 @@ category
 '
 devenv
 '
-             
+        
 description
 =
 '
@@ -2704,7 +2699,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -2792,7 +2787,7 @@ category
 '
 build
 '
-             
+        
 description
 =
 '
@@ -2826,7 +2821,7 @@ nargs
 '
 *
 '
-                     
+        
 help
 =
 '
@@ -2875,7 +2870,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -3241,7 +3236,7 @@ error
 :
 e
 }
-                                 
+                            
 "
 Could
 not
@@ -3256,7 +3251,7 @@ use
 If
 the
 "
-                                 
+                            
 "
 application
 is
@@ -3553,7 +3548,7 @@ post
 -
 build
 '
-             
+        
 description
 =
 '
@@ -3583,7 +3578,7 @@ FileType
 rb
 '
 )
-                     
+        
 help
 =
 '
@@ -3602,7 +3597,7 @@ of
 the
 last
 '
-                     
+             
 '
 mach
 command
@@ -4167,7 +4162,7 @@ post
 -
 build
 '
-             
+        
 description
 =
 '
@@ -4195,7 +4190,7 @@ directory
 default
 =
 None
-                     
+        
 help
 =
 '
@@ -4225,7 +4220,7 @@ nargs
 '
 ?
 '
-                     
+        
 help
 =
 '
@@ -4241,7 +4236,7 @@ show
 the
 most
 '
-                     
+            
 '
 recent
 report
@@ -4317,7 +4312,7 @@ type_counts
 iteritems
 (
 )
-                               
+            
 key
 =
 operator
@@ -4387,7 +4382,7 @@ post
 -
 build
 '
-             
+        
 description
 =
 '
@@ -4415,7 +4410,7 @@ directory
 default
 =
 None
-                     
+        
 help
 =
 '
@@ -4447,7 +4442,7 @@ nargs
 '
 +
 '
-                     
+        
 help
 =
 '
@@ -4473,7 +4468,7 @@ nargs
 '
 ?
 '
-                     
+        
 help
 =
 '
@@ -4489,7 +4484,7 @@ show
 the
 most
 '
-                     
+            
 '
 recent
 report
@@ -4710,7 +4705,6 @@ s
 '
 %
 (
-                    
 filename
 warning
 [
@@ -4718,13 +4712,13 @@ warning
 line
 '
 ]
+                    
 warning
 [
 '
 column
 '
 ]
-                    
 warning
 [
 '
@@ -4767,7 +4761,7 @@ warning
 line
 '
 ]
-                                         
+                    
 warning
 [
 '
@@ -4865,7 +4859,7 @@ category
 '
 testing
 '
-             
+        
 description
 =
 '
@@ -4904,7 +4898,7 @@ metavar
 '
 gtest_filter
 '
-                     
+        
 help
 =
 "
@@ -4920,15 +4914,15 @@ list
 of
 wildcard
 patterns
-"
-                     
-"
 (
 called
 the
 positive
 patterns
 )
+"
+             
+"
 optionally
 followed
 by
@@ -4936,9 +4930,6 @@ a
 '
 -
 '
-"
-                     
-"
 and
 another
 '
@@ -4987,7 +4978,7 @@ jobs
 type
 =
 int
-                     
+        
 help
 =
 '
@@ -5021,7 +5012,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -5057,7 +5048,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -5078,7 +5069,7 @@ CommandArgument
 -
 package
 '
-                     
+        
 default
 =
 '
@@ -5090,7 +5081,7 @@ geckoview
 .
 test
 '
-                     
+        
 help
 =
 '
@@ -5114,13 +5105,13 @@ CommandArgument
 -
 adbpath
 '
-                     
+        
 dest
 =
 '
 adb_path
 '
-                     
+        
 help
 =
 '
@@ -5143,13 +5134,13 @@ CommandArgument
 -
 deviceSerial
 '
-                     
+        
 dest
 =
 '
 device_serial
 '
-                     
+        
 help
 =
 "
@@ -5165,7 +5156,7 @@ remote
 device
 .
 "
-                     
+             
 "
 Required
 when
@@ -5180,7 +5171,7 @@ the
 host
 .
 "
-                     
+             
 "
 Use
 '
@@ -5202,13 +5193,13 @@ CommandArgument
 -
 remoteTestRoot
 '
-                     
+        
 dest
 =
 '
 remote_test_root
 '
-                     
+        
 help
 =
 '
@@ -5224,7 +5215,7 @@ as
 test
 root
 '
-                     
+             
 '
 (
 eg
@@ -5254,13 +5245,13 @@ CommandArgument
 -
 libxul
 '
-                     
+        
 dest
 =
 '
 libxul_path
 '
-                     
+        
 help
 =
 '
@@ -5302,7 +5293,7 @@ group
 '
 debugging
 '
-                     
+        
 help
 =
 '
@@ -5320,9 +5311,6 @@ option
 will
 result
 in
-'
-                     
-'
 the
 default
 debugger
@@ -5350,7 +5338,7 @@ group
 '
 debugging
 '
-                     
+        
 help
 =
 '
@@ -5383,13 +5371,13 @@ params
 type
 =
 str
-                     
+        
 group
 =
 '
 debugging
 '
-                     
+        
 help
 =
 '
@@ -5404,9 +5392,6 @@ the
 debugger
 itself
 ;
-'
-                     
-'
 split
 as
 the
@@ -5735,7 +5720,6 @@ gtest_filter
 package
 adb_path
 device_serial
-                                      
 remote_test_root
 libxul_path
 )
@@ -5795,6 +5779,7 @@ gtest_death_test_style
 threadsafe
 '
 ]
+;
         
 if
 sys
@@ -5809,7 +5794,7 @@ win
 )
 and
 \
-                
+            
 '
 MOZ_LAUNCHER_PROCESS
 '
@@ -6226,19 +6211,18 @@ app_path
 unittest
 "
 ]
-                                               
+                             
 cwd
 =
 cwd
-                                               
+                             
 env
 =
 gtest_env
-                                               
+                             
 processOutputLine
 =
 [
-                                                   
 functools
 .
 partial
@@ -6247,7 +6231,7 @@ handle_line
 i
 )
 ]
-                                               
+                             
 universal_newlines
 =
 True
@@ -6393,6 +6377,8 @@ format
 '
 ]
         
+log
+=
 setup_logging
 (
 '
@@ -6895,7 +6881,7 @@ category
 '
 devenv
 '
-             
+        
 description
 =
 '
@@ -7318,7 +7304,7 @@ post
 -
 build
 '
-             
+        
 description
 =
 '
@@ -7353,7 +7339,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -7457,7 +7443,7 @@ post
 -
 build
 '
-             
+        
 description
 =
 '
@@ -7491,7 +7477,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -7697,7 +7683,7 @@ post
 -
 build
 '
-             
+        
 description
 =
 '
@@ -7730,7 +7716,7 @@ nargs
 group
 =
 prog_group
-                     
+        
 help
 =
 '
@@ -7747,9 +7733,6 @@ the
 program
 .
 Not
-'
-                     
-'
 specifying
 a
 -
@@ -7765,9 +7748,6 @@ in
 a
 temporary
 profile
-'
-                     
-'
 being
 used
 .
@@ -7798,7 +7778,7 @@ store_true
 group
 =
 prog_group
-                     
+        
 help
 =
 '
@@ -7837,7 +7817,7 @@ store_true
 group
 =
 prog_group
-                     
+        
 help
 =
 '
@@ -7876,7 +7856,7 @@ store_true
 group
 =
 prog_group
-                     
+        
 help
 =
 '
@@ -7911,7 +7891,7 @@ store_true
 group
 =
 prog_group
-                     
+        
 help
 =
 '
@@ -7944,7 +7924,7 @@ store_true
 group
 =
 prog_group
-                     
+        
 help
 =
 '
@@ -7979,7 +7959,7 @@ default
 group
 =
 prog_group
-                     
+        
 help
 =
 '
@@ -7995,9 +7975,6 @@ program
 Can
 be
 set
-'
-                     
-'
 multiple
 times
 .
@@ -8015,9 +7992,6 @@ mozbuild
 machrc
 in
 the
-'
-                     
-'
 [
 runprefs
 ]
@@ -8052,7 +8026,7 @@ store_true
 group
 =
 prog_group
-                     
+        
 help
 =
 '
@@ -8066,9 +8040,6 @@ temporary
 profile
 created
 inside
-'
-                     
-'
 the
 objdir
 .
@@ -8092,7 +8063,7 @@ store_true
 group
 =
 prog_group
-                     
+        
 help
 =
 "
@@ -8114,9 +8085,6 @@ open
 (
 1
 )
-"
-                     
-"
 the
 browser
 is
@@ -8135,9 +8103,6 @@ the
 file
 '
 s
-"
-                     
-"
 icon
 \
 "
@@ -8182,7 +8147,7 @@ group
 '
 debugging
 '
-                     
+        
 help
 =
 '
@@ -8199,9 +8164,6 @@ debugger
 option
 will
 result
-'
-                     
-'
 in
 the
 default
@@ -8230,7 +8192,7 @@ group
 '
 debugging
 '
-                     
+        
 help
 =
 '
@@ -8263,13 +8225,13 @@ params
 type
 =
 str
-                     
+        
 group
 =
 '
 debugging
 '
-                     
+        
 help
 =
 '
@@ -8284,9 +8246,6 @@ the
 debugger
 itself
 ;
-'
-                     
-'
 split
 as
 the
@@ -8307,7 +8266,7 @@ debugparams
 action
 =
 StoreDebugParamsAndWarnAction
-                     
+        
 default
 =
 None
@@ -8324,7 +8283,7 @@ group
 '
 debugging
 '
-                     
+        
 help
 =
 argparse
@@ -8356,7 +8315,7 @@ group
 '
 DMD
 '
-                     
+        
 help
 =
 '
@@ -8405,7 +8364,7 @@ group
 '
 DMD
 '
-                     
+         
 help
 =
 '
@@ -8448,7 +8407,7 @@ group
 '
 DMD
 '
-                     
+        
 help
 =
 '
@@ -8490,7 +8449,7 @@ group
 '
 DMD
 '
-                     
+        
 help
 =
 '
@@ -8512,13 +8471,13 @@ remote
 background
 noprofile
 disable_e10s
-            
+        
 enable_crash_reporter
 setpref
 temp_profile
 macos_open
 debug
-            
+        
 debugger
 debugger_args
 dmd
@@ -8574,13 +8533,8 @@ devices
 .
 android_device
 import
-(
-                
 verify_android_device
-                
 run_firefox_for_android
-            
-)
             
 if
 not
@@ -8669,7 +8623,7 @@ t
 built
 .
 "
-                      
+                    
 "
 You
 can
@@ -8719,7 +8673,7 @@ in
 the
 debugger
 "
-                          
+                        
 "
 when
 using
@@ -8801,7 +8755,7 @@ binary
 path
 .
 "
-                          
+                        
 "
 The
 macOS
@@ -9682,7 +9636,7 @@ args
 ensure_exit_code
 =
 False
-                                
+            
 pass_thru
 =
 True
@@ -9729,7 +9683,7 @@ post
 -
 build
 '
-             
+        
 description
 =
 '
@@ -9793,7 +9747,7 @@ build
 -
 dev
 '
-             
+        
 description
 =
 '
@@ -10057,7 +10011,7 @@ parsefile
 (
 path
 )
-                              
+                    
 if
 is_statement_relevant
 (
@@ -10172,7 +10126,7 @@ build
 -
 dev
 '
-             
+        
 description
 =
 '
@@ -10200,7 +10154,7 @@ default
 '
 pretty
 '
-                     
+        
 choices
 =
 [
@@ -10214,7 +10168,7 @@ configure
 json
 '
 ]
-                     
+        
 help
 =
 '
@@ -10242,7 +10196,7 @@ o
 type
 =
 str
-                     
+        
 help
 =
 '
@@ -10271,7 +10225,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -11113,7 +11067,7 @@ TREE
 type
 =
 str
-                            
+                
 help
 =
 '
@@ -11138,7 +11092,7 @@ JOB
 choices
 =
 JOB_CHOICES
-                            
+                
 help
 =
 '
@@ -11164,7 +11118,7 @@ action
 '
 store_true
 '
-                            
+                
 help
 =
 '
@@ -11298,7 +11252,7 @@ post
 -
 build
 '
-             
+        
 description
 =
 '
@@ -11605,7 +11559,7 @@ artifact
 '
 install
 '
-                        
+        
 '
 Install
 a
@@ -11636,7 +11590,7 @@ nargs
 type
 =
 str
-                     
+        
 help
 =
 '
@@ -11653,7 +11607,7 @@ be
 omitted
 in
 '
-                     
+            
 '
 which
 case
@@ -11669,7 +11623,7 @@ hg
 revision
 ;
 '
-                     
+            
 '
 a
 remote
@@ -11681,7 +11635,7 @@ local
 file
 .
 '
-                     
+        
 default
 =
 None
@@ -11701,7 +11655,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -11718,7 +11672,7 @@ remote
 artifacts
 .
 '
-                     
+        
 default
 =
 False
@@ -11912,7 +11866,7 @@ clear
 -
 cache
 '
-                        
+        
 '
 Delete
 local
@@ -11998,7 +11952,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -12023,7 +11977,7 @@ metavar
 '
 DIR
 '
-                     
+        
 help
 =
 '
@@ -12051,7 +12005,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -12068,7 +12022,7 @@ remote
 artifacts
 .
 '
-                     
+        
 default
 =
 False
@@ -12093,7 +12047,7 @@ nargs
 '
 +
 '
-                     
+        
 help
 =
 '
@@ -12109,7 +12063,7 @@ s
 )
 ;
 '
-                     
+             
 '
 BUILD
 is
@@ -12143,7 +12097,7 @@ metavar
 '
 MANIFEST
 '
-                     
+        
 help
 =
 '
@@ -12169,7 +12123,7 @@ metavar
 '
 FILE
 '
-                     
+        
 help
 =
 '
@@ -12201,7 +12155,7 @@ metavar
 '
 URL
 '
-                     
+        
 help
 =
 '
@@ -12229,7 +12183,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -12255,7 +12209,7 @@ int
 default
 =
 4
-                     
+        
 help
 =
 '
@@ -12283,7 +12237,7 @@ metavar
 '
 FILE
 '
-                     
+        
 help
 =
 '
@@ -12308,7 +12262,7 @@ nargs
 '
 *
 '
-                     
+        
 help
 =
 '
@@ -12327,7 +12281,7 @@ task
 id
 in
 '
-                     
+             
 '
 addition
 to
@@ -12352,7 +12306,7 @@ False
 cache_dir
 =
 None
-                           
+                          
 skip_cache
 =
 False
@@ -12360,14 +12314,14 @@ from_build
 =
 (
 )
-                           
+                          
 tooltool_manifest
 =
 None
 authentication_file
 =
 None
-                           
+                          
 tooltool_url
 =
 None
@@ -12377,7 +12331,7 @@ False
 retry
 =
 None
-                           
+                          
 artifact_manifest
 =
 None
@@ -13025,7 +12979,7 @@ get_artifact_url
 (
 task_id
 artifact_name
-                                                
+                    
 use_proxy
 =
 not
@@ -14728,7 +14682,6 @@ line
 )
         
 except
-Exception
 :
             
 pass
@@ -15661,13 +15614,13 @@ strip
 verbose
 =
 False
+              
 checks
 =
 '
 -
 *
 '
-              
 fix
 =
 False
@@ -15764,7 +15717,6 @@ analysis
 '
 {
 }
-                     
 "
 You
 '
@@ -15780,7 +15732,7 @@ format
 binary
 .
 "
-                     
+                            
 "
 Please
 update
@@ -16029,7 +15981,7 @@ analysis
 '
 {
 }
-                     
+                
 "
 There
 are
@@ -16047,7 +15999,7 @@ header
 '
 files
 "
-                     
+                
 "
 cannot
 be
@@ -16128,7 +16080,6 @@ monitor
 =
 StaticAnalysisMonitor
 (
-            
 self
 .
 topsrcdir
@@ -16178,7 +16129,6 @@ args
 ensure_exit_code
 =
 False
-                                  
 line_handler
 =
 output_manager
@@ -16487,10 +16437,10 @@ from
 the
 coverity
 working
+directory
 '
                      
 '
-directory
 ~
 .
 /
@@ -16549,7 +16499,6 @@ None
 coverity_output_path
 =
 None
-                       
 outgoing
 =
 False
@@ -16599,7 +16548,6 @@ analysis
 '
 {
 }
-                     
 '
 Coverity
 based
@@ -16683,7 +16631,6 @@ analysis
 '
 {
 }
-                     
 '
 There
 are
@@ -16772,7 +16719,6 @@ analysis
 '
 {
 }
-                     
 '
 There
 are
@@ -16913,7 +16859,6 @@ analysis
 '
 {
 }
-                 
 '
 Running
 {
@@ -16971,7 +16916,6 @@ analysis
 '
 {
 }
-                     
 '
 Running
 {
@@ -17029,7 +16973,6 @@ analysis
 '
 {
 }
-                 
 '
 Running
 {
@@ -17087,7 +17030,6 @@ analysis
 '
 {
 }
-                     
 '
 Running
 {
@@ -17170,7 +17112,6 @@ analysis
 '
 {
 }
-                     
 '
 Running
 Coverity
@@ -17229,7 +17170,6 @@ analysis
 '
 {
 }
-                         
 '
 Running
 Coverity
@@ -17349,7 +17289,6 @@ analysis
 '
 {
 }
-                 
 '
 Running
 Coverity
@@ -17464,7 +17403,7 @@ file
 not
 found
 '
-                     
+                
 '
 using
 default
@@ -17486,7 +17425,6 @@ checker
 .
 format
 (
-                        
 checker_name
 )
 )
@@ -17528,7 +17466,7 @@ analysis
 '
 {
 }
-                     
+                
 '
 Coverity
 checker
@@ -17542,7 +17480,7 @@ reliability
 index
 .
 '
-                     
+                
 '
 For
 the
@@ -17564,7 +17502,6 @@ medium
 .
 format
 (
-                        
 checker_name
 )
 )
@@ -17611,7 +17548,7 @@ analysis
 '
 {
 }
-                     
+                
 '
 Coverity
 checker
@@ -17627,7 +17564,7 @@ reliability
 index
 set
 '
-                     
+                
 '
 field
 \
@@ -17643,7 +17580,7 @@ adding
 it
 .
 '
-                     
+                
 '
 For
 the
@@ -17665,7 +17602,6 @@ medium
 .
 format
 (
-                        
 checker_name
 )
 )
@@ -17771,7 +17707,6 @@ event_path
 =
 next
 (
-                    
 (
 event
 for
@@ -17841,14 +17776,12 @@ self
 .
 get_reliability_index_for_cov_checker
 (
-                        
 issue
 [
 '
 checkerName
 '
 ]
-                        
 )
                     
 '
@@ -17928,7 +17861,6 @@ stack
 .
 append
 (
-                        
 {
 '
 file_path
@@ -17940,7 +17872,7 @@ event
 strippedFilePathname
 '
 ]
-                         
+                                                         
 '
 line_number
 '
@@ -17951,7 +17883,7 @@ event
 lineNumber
 '
 ]
-                         
+                                                         
 '
 path_type
 '
@@ -17962,7 +17894,7 @@ event
 eventTag
 '
 ]
-                         
+                                                         
 '
 description
 '
@@ -18036,7 +17968,6 @@ analysis
 '
 {
 }
-                             
 '
 Skipping
 CID
@@ -18057,9 +17988,6 @@ it
 s
 not
 related
-'
-                             
-'
 with
 the
 current
@@ -18069,7 +17997,7 @@ patch
 .
 format
 (
-                                
+                        
 issue
 [
 '
@@ -18081,7 +18009,6 @@ stateOnServer
 cid
 '
 ]
-                                
 issue
 [
 '
@@ -18089,7 +18016,6 @@ strippedMainEventFilePathname
 '
 ]
 )
-                             
 )
                     
 continue
@@ -18224,7 +18150,6 @@ analysis
 '
 {
 }
-                 
 '
 Using
 symbol
@@ -18310,7 +18235,6 @@ analysis
 '
 {
 }
-                     
 '
 Ill
 formatted
@@ -19023,7 +18947,6 @@ analysis
 '
 {
 }
-                     
 '
 Missing
 Coverity
@@ -20651,6 +20574,8 @@ third_party
             
 except
 Exception
+as
+e
 :
                 
 print
@@ -20881,7 +20806,7 @@ analysis
 '
 {
 }
-                     
+                    
 '
 Looks
 like
@@ -20898,7 +20823,7 @@ to
 use
 default
 '
-                     
+                    
 '
 values
 for
@@ -20983,7 +20908,7 @@ analysis
 '
 {
 }
-                     
+                    
 '
 Looks
 like
@@ -21000,7 +20925,7 @@ to
 use
 default
 '
-                     
+                    
 '
 values
 for
@@ -21100,7 +21025,6 @@ analysis
 '
 {
 }
-                     
 "
 Unable
 to
@@ -21276,9 +21200,6 @@ binary
 please
 see
 the
-"
-                     
-"
 attached
 exception
 :
@@ -21451,7 +21372,7 @@ s
 %
 (
 header_filter
-                                               
+                                              
 if
 len
 (
@@ -22666,7 +22587,6 @@ self
 .
 log
 (
-                
 logging
 .
 ERROR
@@ -22677,7 +22597,7 @@ analysis
 '
 {
 }
-                
+                     
 "
 RUNNING
 :
@@ -22696,10 +22616,8 @@ supported
 .
 format
 (
-                    
 platform
 )
-                
 )
             
 return
@@ -22973,7 +22891,6 @@ them
                 
 ignored_platform
 =
-(
 '
 restricted
 -
@@ -22982,7 +22899,6 @@ platforms
 in
 item
 and
-                                    
 platform
 not
 in
@@ -22994,7 +22910,6 @@ restricted
 platforms
 '
 ]
-)
                 
 #
 3
@@ -23062,7 +22977,6 @@ checker_not_in_list
 checker_names
 and
 (
-                    
 item
 [
 '
@@ -23228,7 +23142,6 @@ analysis
 '
 {
 }
-                         
 "
 FAIL
 :
@@ -23317,8 +23230,6 @@ TOOLS_CHECKER_NOT_FOUND
                         
 message_to_log
 =
-\
-                            
 "
 \
 tChecker
@@ -23337,7 +23248,7 @@ version
 .
 format
 (
-                                
+                            
 checker_name
 )
                     
@@ -23352,8 +23263,6 @@ TOOLS_CHECKER_NO_TEST_FILE
                         
 message_to_log
 =
-\
-                            
 "
 \
 tChecker
@@ -23376,7 +23285,6 @@ cpp
 .
 format
 (
-                                
 checker_name
 )
                     
@@ -23391,8 +23299,6 @@ TOOLS_CHECKER_RETURNED_NO_ISSUES
                         
 message_to_log
 =
-(
-                            
 "
 \
 tChecker
@@ -23408,9 +23314,6 @@ in
 its
 test
 file
-"
-                            
-"
 clang
 -
 tidy
@@ -23426,11 +23329,10 @@ n
 1
 }
 "
-                            
-)
 .
 format
 (
+                            
 checker_name
 info1
 )
@@ -23446,8 +23348,6 @@ TOOLS_CHECKER_RESULT_FILE_NOT_FOUND
                         
 message_to_log
 =
-\
-                            
 "
 \
 tChecker
@@ -23470,7 +23370,6 @@ json
 .
 format
 (
-                                
 checker_name
 )
                     
@@ -23485,8 +23384,6 @@ TOOLS_CHECKER_DIFF_FAILED
                         
 message_to_log
 =
-(
-                            
 "
 \
 tChecker
@@ -23500,21 +23397,13 @@ nExpected
 1
 }
 \
-n
-"
-                            
-"
-Got
+nGot
 :
 {
 2
 }
 \
-n
-"
-                            
-"
-clang
+nclang
 -
 tidy
 output
@@ -23525,18 +23414,14 @@ is
 :
 \
 n
-"
-                            
-"
 {
 3
 }
 "
-                            
-)
 .
 format
 (
+                            
 checker_name
 info1
 info2
@@ -23803,7 +23688,6 @@ analysis
 '
 {
 }
-                 
 "
 RUNNING
 :
@@ -23839,7 +23723,6 @@ analysis
 '
 {
 }
-                     
 "
 ERROR
 :
@@ -23881,7 +23764,6 @@ join
 (
 items
 )
-            
 header_filter
 =
 '
@@ -23907,13 +23789,11 @@ checker
 .
 cpp
 '
-                     
 for
 checker
 in
 items
 ]
-            
 print_out
 =
 True
@@ -23952,7 +23832,6 @@ mozpath
 .
 join
 (
-                
 self
 .
 _clang_tidy_base_path
@@ -24077,7 +23956,6 @@ analysis
 '
 {
 }
-                     
 '
 The
 following
@@ -24137,7 +24015,6 @@ t
 .
 format
 (
-                    
 failed_check
 baseline_issue
 )
@@ -24168,7 +24045,6 @@ n
 .
 format
 (
-                
 clang_output
 )
 )
@@ -25908,7 +25784,6 @@ action
 '
 store_true
 '
-                     
 help
 =
 '
@@ -25941,7 +25816,6 @@ False
 minimal_install
 =
 False
-                
 verbose
 =
 False
@@ -26691,7 +26565,6 @@ default
 '
 diff
 '
-                     
 dest
 =
 '
@@ -26780,7 +26653,6 @@ output_format
 '
 diff
 '
-                     
 verbose
 =
 False
@@ -26848,13 +26720,11 @@ full
 path
 list
             
-def
 path_maker
-(
+=
+lambda
 f_name
-)
 :
-return
 os
 .
 path
@@ -27153,7 +27023,6 @@ analysis
 '
 {
 }
-                     
 "
 You
 '
@@ -27169,7 +27038,7 @@ format
 binary
 .
 "
-                     
+                            
 "
 Please
 update
@@ -27227,7 +27096,6 @@ _run_clang_format_in_console
 self
 .
 _clang_format_path
-                                                     
 path
 assume_filename
 )
@@ -27391,8 +27259,8 @@ actually
 exists
         
 if
-check
 not
+check
 in
 self
 .
@@ -28205,7 +28073,7 @@ are
 unable
 to
 '
-                  
+                    
 '
 determine
 default
@@ -28435,7 +28303,7 @@ are
 unable
 to
 '
-                  
+                    
 '
 determine
 configuration
@@ -28550,6 +28418,8 @@ config_environment
             
 except
 Exception
+as
+e
 :
                 
 pass
@@ -29097,13 +28967,13 @@ clang
 -
 tidy
 "
-                                                 
 "
 share
 "
 "
 clang
 "
+                                                 
 "
 run
 -
@@ -29131,13 +29001,13 @@ clang
 -
 tidy
 "
-                                               
 "
 share
 "
 "
 clang
 "
+                                               
 "
 clang
 -
@@ -29321,14 +29191,14 @@ force
 skip_cache
 =
 skip_cache
-                                         
+                                            
 source
 =
 source
 verbose
 =
 verbose
-                                         
+                                            
 download_if_needed
 =
 download_if_needed
@@ -29486,21 +29356,21 @@ artifact_toolchain
 verbose
 =
 verbose
-                                                       
+                                                        
 skip_cache
 =
 skip_cache
-                                                       
+                                                        
 from_build
 =
 [
 job
 ]
-                                                       
+                                                        
 no_unpack
 =
 False
-                                                       
+                                                        
 retry
 =
 0
@@ -31646,8 +31516,6 @@ to
 the
 repository
 to
-                            
-#
 display
 a
 valid
@@ -32387,7 +32255,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -32398,7 +32266,7 @@ in
 current
 checkout
 '
-                     
+        
 default
 =
 False
@@ -32428,7 +32296,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -32444,7 +32312,7 @@ to
 the
 repository
 '
-                     
+        
 default
 =
 False
@@ -32505,9 +32373,6 @@ reference
 implementation
 into
 the
-'
-                
-'
 source
 repository
 .
@@ -32525,7 +32390,7 @@ r
 -
 revision
 '
-                     
+        
 help
 =
 '
@@ -32547,7 +32412,7 @@ CommandArgument
 -
 repo
 '
-                     
+        
 help
 =
 '
@@ -32559,9 +32424,6 @@ a
 snapshot
 from
 .
-'
-                     
-'
 Supports
 github
 and
@@ -32584,7 +32446,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -32595,7 +32457,7 @@ in
 current
 checkout
 '
-                     
+        
 default
 =
 False
@@ -32672,7 +32534,7 @@ r
 -
 revision
 '
-                     
+        
 help
 =
 '
@@ -32694,7 +32556,7 @@ CommandArgument
 -
 repo
 '
-                     
+        
 help
 =
 '
@@ -32726,7 +32588,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -32737,7 +32599,7 @@ in
 current
 checkout
 '
-                     
+        
 default
 =
 False
@@ -32820,7 +32682,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -32835,7 +32697,7 @@ the
 source
 package
 '
-                     
+        
 default
 =
 False
@@ -32854,7 +32716,6 @@ nargs
 '
 *
 '
-                     
 help
 =
 '
@@ -32868,9 +32729,6 @@ packages
 and
 their
 dependencies
-'
-                     
-'
 defined
 in
 Pipfile
@@ -32885,9 +32743,6 @@ Pipfile
 has
 been
 modified
-'
-                     
-'
 then
 Pipfile
 .
@@ -32900,9 +32755,6 @@ Note
 that
 transient
 dependencies
-'
-                     
-'
 may
 be
 updated
@@ -33077,7 +32929,7 @@ category
 '
 testing
 '
-             
+        
 description
 =
 '
@@ -33113,7 +32965,7 @@ metavar
 '
 gtest_filter
 '
-                     
+        
 help
 =
 "
@@ -33129,15 +32981,15 @@ list
 of
 wildcard
 patterns
-"
-                     
-"
 (
 called
 the
 positive
 patterns
 )
+"
+             
+"
 optionally
 followed
 by
@@ -33146,9 +32998,6 @@ a
 -
 '
 and
-"
-                     
-"
 another
 '
 :
@@ -33191,7 +33040,7 @@ group
 '
 debugging
 '
-                     
+        
 help
 =
 '
@@ -33207,9 +33056,6 @@ a
 debugger
 option
 will
-'
-                     
-'
 result
 in
 the
@@ -33239,7 +33085,7 @@ group
 '
 debugging
 '
-                     
+        
 help
 =
 '
@@ -33272,13 +33118,13 @@ params
 type
 =
 str
-                     
+        
 group
 =
 '
 debugging
 '
-                     
+        
 help
 =
 '
@@ -33293,9 +33139,6 @@ the
 debugger
 itself
 ;
-'
-                     
-'
 split
 as
 the
@@ -33685,7 +33528,7 @@ str
 required
 =
 True
-                     
+        
 help
 =
 '
@@ -33711,7 +33554,7 @@ str
 required
 =
 True
-                     
+        
 help
 =
 '
@@ -33866,7 +33709,7 @@ str
 required
 =
 True
-                     
+        
 help
 =
 '
@@ -33895,7 +33738,7 @@ str
 required
 =
 True
-                     
+        
 help
 =
 '
@@ -33922,7 +33765,7 @@ str
 required
 =
 False
-                     
+        
 help
 =
 '
@@ -33955,7 +33798,7 @@ str
 required
 =
 True
-                     
+        
 help
 =
 '
@@ -33979,7 +33822,7 @@ str
 required
 =
 False
-                     
+        
 help
 =
 '
@@ -34007,7 +33850,7 @@ str
 required
 =
 True
-                     
+        
 help
 =
 '
@@ -34039,7 +33882,7 @@ action
 '
 store_true
 '
-                     
+        
 help
 =
 '
@@ -34149,7 +33992,7 @@ str
 required
 =
 True
-                     
+        
 help
 =
 '
@@ -34177,7 +34020,7 @@ str
 required
 =
 True
-                     
+        
 help
 =
 '
@@ -34205,7 +34048,7 @@ str
 required
 =
 True
-                     
+        
 help
 =
 '
@@ -34230,7 +34073,7 @@ str
 required
 =
 True
-                     
+        
 help
 =
 '
@@ -34256,7 +34099,7 @@ str
 required
 =
 True
-                     
+        
 help
 =
 '
@@ -34280,7 +34123,7 @@ str
 required
 =
 False
-                     
+        
 help
 =
 '
@@ -34304,7 +34147,7 @@ str
 required
 =
 False
-                     
+        
 help
 =
 '
@@ -34332,7 +34175,7 @@ str
 required
 =
 True
-                     
+        
 help
 =
 '
@@ -34445,7 +34288,7 @@ str
 required
 =
 True
-                     
+        
 help
 =
 '
@@ -34467,7 +34310,7 @@ str
 required
 =
 True
-                     
+        
 help
 =
 '
@@ -34494,7 +34337,7 @@ str
 required
 =
 True
-                     
+        
 help
 =
 '
@@ -34518,7 +34361,7 @@ default
 '
 lzma
 '
-                     
+        
 choices
 =
 (
@@ -34529,7 +34372,7 @@ lzma
 bz2
 '
 )
-                     
+        
 help
 =
 '
@@ -34551,7 +34394,7 @@ str
 required
 =
 True
-                     
+        
 help
 =
 '
@@ -34632,7 +34475,7 @@ category
 '
 misc
 '
-             
+        
 description
 =
 '
@@ -34682,7 +34525,7 @@ analyze
 '
 files
 '
-                
+        
 description
 =
 '
@@ -34718,7 +34561,7 @@ to
 tup
 db
 '
-                     
+        
 default
 =
 None
@@ -34878,7 +34721,7 @@ analyze
 '
 all
 '
-                
+        
 description
 =
 '
@@ -34894,9 +34737,6 @@ last
 n
 days
 and
-'
-                
-'
 their
 corresponding
 build
@@ -34922,7 +34762,7 @@ int
 default
 =
 14
-                     
+        
 help
 =
 '
@@ -34950,7 +34790,7 @@ default
 '
 pretty
 '
-                     
+        
 choices
 =
 [
@@ -34967,7 +34807,7 @@ json
 html
 '
 ]
-                     
+        
 help
 =
 '
@@ -34996,7 +34836,7 @@ int
 default
 =
 None
-                     
+        
 help
 =
 '
@@ -35030,7 +34870,7 @@ cost_dict
 .
 gz
 '
-                     
+        
 default
 =
 None
@@ -36051,7 +35891,6 @@ mach
 '
 android
 '
-                 
 '
 archive
 -

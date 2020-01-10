@@ -115,7 +115,6 @@ from
 __future__
 import
 absolute_import
-print_function
 import
 argparse
 import
@@ -167,6 +166,8 @@ mozbuild
 preprocessor
 import
 Preprocessor
+import
+buildconfig
 def
 write_file
 (
@@ -2148,7 +2149,11 @@ buildid
 :
         
 print
-(
+>
+>
+sys
+.
+stderr
 '
 Ignoring
 invalid
@@ -2159,12 +2164,6 @@ s
 '
 %
 buildid
-file
-=
-sys
-.
-stderr
-)
         
 buildid
 =

@@ -63,11 +63,8 @@ generate
 the
 wpt
 manifest
-from
-__future__
 import
-absolute_import
-print_function
+os
 import
 sys
 import

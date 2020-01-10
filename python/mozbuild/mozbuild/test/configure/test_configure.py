@@ -2157,9 +2157,9 @@ foo
 '
 '
 )
-                  
+                
 sandbox
-                  
+            
 )
         
 exec_
@@ -2193,9 +2193,9 @@ sys
 '
 '
 )
-              
+            
 sandbox
-              
+        
 )
         
 self
@@ -2251,9 +2251,9 @@ path
 '
 '
 )
-              
+            
 sandbox
-              
+        
 )
         
 self
@@ -2316,9 +2316,9 @@ os_path
 '
 '
 )
-              
+            
 sandbox
-              
+        
 )
         
 self
@@ -2369,9 +2369,9 @@ __builtin__
 '
 '
 )
-              
+            
 sandbox
-              
+        
 )
         
 import
@@ -2440,9 +2440,9 @@ os
 .
 devnull
 )
-              
+            
 sandbox
-              
+        
 )
         
 f
@@ -2521,9 +2521,9 @@ sys
 '
 '
 )
-              
+            
 sandbox
-              
+        
 )
         
 self
@@ -2572,9 +2572,9 @@ __sandbox__
 '
 '
 )
-              
+            
 sandbox
-              
+        
 )
         
 self
@@ -2630,9 +2630,9 @@ s
 '
 '
 )
-              
+            
 sandbox
-              
+        
 )
         
 self
@@ -2746,9 +2746,9 @@ foo
 '
 '
 )
-              
+            
 sandbox
-              
+        
 )
         
 with
@@ -2923,9 +2923,9 @@ foo
 '
 '
 )
-              
+            
 sandbox
-              
+        
 )
         
 self
@@ -5312,7 +5312,7 @@ self
 assertRaisesRegexp
 (
 InvalidOptionError
-                                     
+            
 "
 -
 -
@@ -5331,10 +5331,10 @@ s
 7
 '
 conflicts
-"
-                                     
-"
 with
+"
+            
+"
 '
 -
 -
@@ -5372,7 +5372,7 @@ self
 assertRaisesRegexp
 (
 InvalidOptionError
-                                     
+            
 "
 -
 -
@@ -5393,10 +5393,10 @@ s
 :
 16
 '
-"
-                                     
-"
 conflicts
+"
+            
+"
 with
 '
 -
@@ -5415,7 +5415,6 @@ command
 -
 line
 "
-                                     
 %
 config_path
 )
@@ -5444,7 +5443,7 @@ self
 assertRaisesRegexp
 (
 InvalidOptionError
-                                     
+            
 "
 -
 -
@@ -5464,10 +5463,10 @@ s
 :
 25
 '
-"
-                                     
-"
 conflicts
+"
+            
+"
 with
 '
 -
@@ -5484,7 +5483,6 @@ command
 -
 line
 "
-                                     
 %
 config_path
 )
@@ -6941,6 +6939,8 @@ as
 e
 :
                 
+config
+=
 self
 .
 get_config
@@ -6970,6 +6970,8 @@ as
 e
 :
                 
+config
+=
 self
 .
 get_config
@@ -7008,6 +7010,8 @@ as
 e
 :
                 
+config
+=
 self
 .
 get_config

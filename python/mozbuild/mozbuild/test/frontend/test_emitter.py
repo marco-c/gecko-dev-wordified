@@ -56,8 +56,6 @@ MPL
 from
 __future__
 import
-absolute_import
-print_function
 unicode_literals
 import
 os
@@ -89,6 +87,8 @@ data
 import
 (
     
+ChromeManifestEntry
+    
 ComputedFlags
     
 ConfigFileSubstitution
@@ -104,6 +104,8 @@ FinalTargetPreprocessedFiles
 GeneratedFile
     
 GeneratedSources
+    
+HostDefines
     
 HostProgram
     
@@ -170,6 +172,12 @@ BuildReaderError
     
 SandboxValidationError
 )
+from
+mozpack
+.
+chrome
+import
+manifest
 from
 mozbuild
 .
@@ -1110,7 +1118,7 @@ objs
 .
 output_path
 )
-                         
+            
 mozpath
 .
 normpath
@@ -1142,7 +1150,7 @@ objs
 .
 output_path
 )
-                         
+            
 mozpath
 .
 normpath
@@ -3433,7 +3441,7 @@ self
 assertRaisesRegexp
 (
 BuildReaderError
-                                     
+            
 "
 DEFINES
 may
@@ -3769,7 +3777,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-                                     
+            
 '
 yasm
 is
@@ -4576,7 +4584,6 @@ self
 .
 assertRaisesRegexp
 (
-            
 SandboxValidationError
             
 '
@@ -4590,10 +4597,11 @@ in
 LOCALIZED_GENERATED_FILES
 :
 '
-        
 )
 :
             
+objs
+=
 self
 .
 read_topsrcdir
@@ -4662,7 +4670,6 @@ self
 .
 assertRaisesRegexp
 (
-            
 SandboxValidationError
             
 '
@@ -4676,10 +4683,11 @@ in
 FINAL_TARGET_FILES
 :
 '
-        
 )
 :
             
+objs
+=
 self
 .
 read_topsrcdir
@@ -4959,7 +4967,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-                                     
+            
 '
 Script
 for
@@ -5011,7 +5019,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-                                     
+            
 '
 Input
 for
@@ -5065,7 +5073,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-                                     
+            
 '
 Script
 for
@@ -5363,7 +5371,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-                                     
+             
 '
 File
 listed
@@ -5435,7 +5443,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-                                     
+             
 '
 Objdir
 file
@@ -5784,7 +5792,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-                                     
+            
 '
 Cannot
 install
@@ -6610,9 +6618,7 @@ self
 .
 assertRaisesRegexp
 (
-            
 SandboxValidationError
-            
 '
 bar
 .
@@ -6640,7 +6646,6 @@ duplicate
 entry
 .
 '
-        
 )
 :
             
@@ -8163,7 +8168,7 @@ p
 for
 p
 in
-                                      
+                    
 o
 .
 external_installs
@@ -8346,7 +8351,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-                                     
+            
 '
 entry
 in
@@ -8492,7 +8497,7 @@ installs
 [
 expected
 ]
-                         
+            
 (
 '
 testing
@@ -8560,7 +8565,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-                                     
+            
 '
 lists
 test
@@ -8640,7 +8645,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-                                     
+            
 '
 lists
 test
@@ -9183,6 +9188,8 @@ topobjdir
 )
 :
             
+objs
+=
 self
 .
 read_topsrcdir
@@ -9233,6 +9240,8 @@ topobjdir
 )
 :
             
+objs
+=
 self
 .
 read_topsrcdir
@@ -9299,6 +9308,8 @@ filename
 )
 :
             
+objs
+=
 self
 .
 read_topsrcdir
@@ -9699,7 +9710,7 @@ SandboxValidationError
 '
 XPIDL_MODULE
 '
-                                     
+            
 '
 cannot
 be
@@ -9763,7 +9774,7 @@ File
 .
 *
 '
-                                     
+            
 '
 from
 XPIDL_SOURCES
@@ -9829,7 +9840,7 @@ Path
 specified
 in
 '
-                                     
+            
 '
 LOCAL_INCLUDES
 does
@@ -12235,7 +12246,7 @@ File
 listed
 in
 '
-                                     
+            
 '
 FINAL_TARGET_PP_FILES
 does
@@ -12318,9 +12329,8 @@ self
 .
 assertRaisesRegexp
 (
-            
 SandboxValidationError
-            
+             
 '
 Only
 source
@@ -12331,7 +12341,6 @@ in
 FINAL_TARGET_PP_FILES
 :
 '
-        
 )
 :
             
@@ -12558,9 +12567,8 @@ self
 .
 assertRaisesRegexp
 (
-            
 SandboxValidationError
-            
+             
 '
 LOCALIZED_FILES
 paths
@@ -12584,10 +12592,11 @@ foo
 .
 js
 '
-        
 )
 :
             
+objs
+=
 self
 .
 read_topsrcdir
@@ -12790,7 +12799,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-                                     
+             
 '
 No
 Cargo
@@ -12861,7 +12870,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-                                     
+             
 '
 library
 .
@@ -12940,7 +12949,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-                                     
+             
 '
 Cargo
 .
@@ -13022,7 +13031,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-                                     
+             
 '
 crate
 -
@@ -13254,7 +13263,7 @@ self
 assertRaisesRegexp
 (
 LinkageMultipleRustLibrariesError
-                                     
+             
 '
 Cannot
 link
@@ -13438,7 +13447,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-                                     
+             
 '
 features
 for
@@ -13509,7 +13518,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-                                     
+             
 '
 No
 Cargo
@@ -13580,7 +13589,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-                                     
+             
 '
 No
 Cargo
@@ -13655,7 +13664,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-                                     
+             
 '
 Cannot
 find
@@ -13733,7 +13742,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-                                     
+             
 '
 Cannot
 find
@@ -14697,9 +14706,8 @@ self
 .
 assertRaisesRegexp
 (
-            
 SandboxValidationError
-            
+             
 '
 Objdir
 file
@@ -14711,7 +14719,6 @@ in
 GENERATED_FILES
 :
 '
-        
 )
 :
             

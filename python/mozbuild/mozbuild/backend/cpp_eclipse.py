@@ -57,17 +57,20 @@ from
 __future__
 import
 absolute_import
-print_function
 import
 errno
 import
 glob
+import
+random
 import
 os
 import
 shutil
 import
 subprocess
+import
+types
 from
 xml
 .
@@ -76,6 +79,14 @@ sax
 saxutils
 import
 quoteattr
+import
+xml
+.
+etree
+.
+ElementTree
+as
+ET
 from
 .
 common
@@ -91,6 +102,8 @@ import
 (
     
 ComputedFlags
+    
+Defines
 )
 from
 mozbuild
@@ -724,7 +737,6 @@ _args_for_dirs
 .
 setdefault
 (
-                
 '
 tree
 /
@@ -1002,7 +1014,6 @@ path
 .
 join
 (
-            
 self
 .
 _workspace_dir
@@ -1222,7 +1233,6 @@ workspace_lang_settings
 .
 replace
 (
-                
 "
 COMPILER_FLAGS
 "
@@ -1237,6 +1247,7 @@ self
 .
 _cppflags
 )
+;
             
 fh
 .
@@ -1260,7 +1271,6 @@ path
 .
 join
 (
-            
 workspace_settings_dir
 '
 org
@@ -1293,6 +1303,7 @@ write
 (
 STATIC_CORE_RESOURCES_PREFS
 )
+;
         
 core_runtime_prefs_path
 =
@@ -1302,7 +1313,6 @@ path
 .
 join
 (
-            
 workspace_settings_dir
 '
 org
@@ -1335,6 +1345,7 @@ write
 (
 STATIC_CORE_RUNTIME_PREFS
 )
+;
         
 ui_prefs_path
 =
@@ -1374,6 +1385,7 @@ write
 (
 STATIC_UI_PREFS
 )
+;
         
 cdt_ui_prefs_path
 =
@@ -1598,7 +1610,6 @@ replace
 "
 PREF_NAME
 "
-                                                      
 pref
 )
 .
@@ -1648,6 +1659,7 @@ write
 (
 cdt_ui_prefs
 )
+;
         
 cdt_core_prefs_path
 =
@@ -1752,6 +1764,7 @@ write
 (
 cdt_core_prefs
 )
+;
         
 editor_prefs_path
 =
@@ -1774,6 +1787,7 @@ editors
 prefs
 "
 )
+;
         
 with
 open
@@ -1793,6 +1807,7 @@ write
 (
 EDITOR_SETTINGS
 )
+;
         
 #
 Now
@@ -1889,6 +1904,8 @@ _write_noindex
 try
 :
             
+process
+=
 subprocess
 .
 check_call
@@ -2085,6 +2102,7 @@ write
 (
 NOINDEX_TEMPLATE
 )
+;
     
 def
 _remove_noindex
@@ -2561,7 +2579,6 @@ path
 .
 join
 (
-            
 self
 .
 environment
@@ -3155,7 +3172,6 @@ LANGUAGE_SETTINGS_TEMPLATE_FOOTER
 .
 replace
 (
-            
 "
 COMPILER_FLAGS
 "
@@ -3359,6 +3375,7 @@ fh
 project
 =
 PROJECT_TEMPLATE
+;
         
 project
 =
@@ -3405,7 +3422,6 @@ path
 .
 join
 (
-            
 self
 .
 environment
@@ -3435,7 +3451,6 @@ path
 .
 join
 (
-            
 self
 .
 environment
@@ -3475,7 +3490,6 @@ cproject_header
 .
 replace
 (
-            
 '
 PROJECT_TOPSRCDIR
 '
@@ -3492,7 +3506,6 @@ cproject_header
 .
 replace
 (
-            
 '
 MACH_COMMAND
 '
@@ -3662,11 +3675,11 @@ triggers
 /
 triggers
 >
-            
+			
 <
 arguments
 >
-            
+			
 <
 /
 arguments
@@ -4840,7 +4853,7 @@ cross
 "
 /
 >
-                            
+							
 <
 builder
 arguments
@@ -5236,11 +5249,11 @@ CPROJECT_TEMPLATE_FOOTER
 "
 "
 "
-                    
+					
 <
 sourceEntries
 >
-                        
+						
 <
 entry
 excluding
@@ -5416,7 +5429,7 @@ name
 "
 /
 >
-                    
+					
 <
 /
 sourceEntries
@@ -5916,7 +5929,7 @@ no
 <
 project
 >
-    
+	
 <
 configuration
 id
@@ -5932,7 +5945,7 @@ name
 Default
 "
 >
-        
+		
 <
 extension
 point
@@ -5949,7 +5962,7 @@ core
 LanguageSettingsProvider
 "
 >
-            
+			
 <
 provider
 class
@@ -6013,7 +6026,7 @@ project
 true
 "
 >
-                
+				
 <
 language
 id
@@ -6052,7 +6065,7 @@ path
 RELATIVE_PATH
 "
 >
-                        
+						
 <
 entry
 kind
@@ -6066,7 +6079,7 @@ name
 PREINCLUDE_FILE_PATH
 "
 >
-                            
+							
 <
 flag
 value
@@ -6076,7 +6089,7 @@ LOCAL
 "
 /
 >
-                        
+						
 <
 /
 entry
@@ -6102,7 +6115,7 @@ name
 INCLUDE_PATH
 "
 >
-                            
+							
 <
 flag
 value
@@ -6112,7 +6125,7 @@ LOCAL
 "
 /
 >
-                        
+						
 <
 /
 entry
@@ -6166,12 +6179,12 @@ LANGUAGE_SETTINGS_TEMPLATE_FOOTER
 /
 language
 >
-                
+			
 <
 /
 provider
 >
-            
+			
 <
 provider
 class
@@ -6290,7 +6303,7 @@ project
 true
 "
 >
-                
+				
 <
 language
 -
@@ -6310,7 +6323,7 @@ gcc
 "
 /
 >
-                
+				
 <
 language
 -
@@ -6332,12 +6345,12 @@ g
 "
 /
 >
-            
+			
 <
 /
 provider
 >
-            
+			
 <
 provider
 -
@@ -6366,12 +6379,12 @@ provider
 "
 /
 >
-        
+		
 <
 /
 extension
 >
-    
+	
 <
 /
 configuration

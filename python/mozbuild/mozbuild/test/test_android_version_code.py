@@ -54,11 +54,6 @@ MPL
 /
 .
 from
-__future__
-import
-absolute_import
-print_function
-from
 mozunit
 import
 main
@@ -142,7 +137,6 @@ assertEqual
 (
 android_version_code_v0
 (
-            
 buildid
 cpu_arch
 =
@@ -165,7 +159,6 @@ assertEqual
 (
 android_version_code_v0
 (
-            
 buildid
 cpu_arch
 =
@@ -190,7 +183,6 @@ assertEqual
 (
 android_version_code_v0
 (
-            
 buildid
 cpu_arch
 =
@@ -238,7 +230,6 @@ assertEqual
 (
 android_version_code_v1
 (
-            
 buildid
 cpu_arch
 =
@@ -263,7 +254,6 @@ assertEqual
 (
 android_version_code_v1
 (
-            
 buildid
 cpu_arch
 =
@@ -288,7 +278,6 @@ assertEqual
 (
 android_version_code_v1
 (
-            
 buildid
 cpu_arch
 =
@@ -354,7 +343,6 @@ assertEqual
 (
 android_version_code_v1
 (
-            
 buildid
 cpu_arch
 =
@@ -449,7 +437,6 @@ one
 asks
 for
 v1
-        
 codes
 that
 are
@@ -630,7 +617,6 @@ self
 .
 assertGreater
 (
-            
 android_version_code_v1
 (
 buildid
@@ -646,7 +632,7 @@ max_sdk
 =
 None
 )
-            
+                           
 android_version_code_v0
 (
 buildid

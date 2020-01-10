@@ -53,13 +53,10 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
 import
 os
+import
+subprocess
 import
 unittest
 import
@@ -1976,7 +1973,6 @@ netError
 xhtml
 '
 :
-                    
 '
 chrome
 :
@@ -2319,7 +2315,6 @@ application
 +
 app_name
 +
-             
 '
 /
 '
@@ -2363,7 +2358,6 @@ application
 +
 app_name
 +
-             
 '
 /
 browser
@@ -2435,6 +2429,32 @@ test_wrong_scheme_paths
 self
 )
 :
+        
+app_name
+=
+buildconfig
+.
+substs
+.
+get
+(
+'
+MOZ_APP_NAME
+'
+)
+        
+omnijar_name
+=
+buildconfig
+.
+substs
+.
+get
+(
+'
+OMNIJAR_NAME
+'
+)
         
 paths
 =
@@ -2561,7 +2581,6 @@ osfile_async_worker
 .
 js
 '
-             
 (
 '
 toolkit
@@ -2607,7 +2626,6 @@ PrefsFeed
 .
 jsm
 '
-             
 (
 '
 browser
@@ -2648,7 +2666,6 @@ netError
 .
 xhtml
 '
-             
 (
 '
 browser
@@ -2767,9 +2784,6 @@ osfile_async_worker
 .
 js
 '
-#
-noqa
-             
 (
 '
 toolkit
@@ -2871,7 +2885,6 @@ q
 .
 9098419174803978
 '
-             
 (
 '
 browser

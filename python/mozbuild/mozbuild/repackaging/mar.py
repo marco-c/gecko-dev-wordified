@@ -53,11 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
 import
 os
 import
@@ -79,10 +74,6 @@ path
 as
 mozpath
 from
-mozbuild
-.
-repackaging
-.
 application_ini
 import
 get_application_ini_value

@@ -57,7 +57,6 @@ from
 __future__
 import
 absolute_import
-print_function
 unicode_literals
 import
 os
@@ -77,6 +76,10 @@ mozpack
 path
 as
 mozpath
+from
+mozbuild
+import
+shellutil
 from
 mozbuild
 .
@@ -99,6 +102,23 @@ mozbuild
 base
 import
 MozbuildObject
+from
+mozbuild
+.
+backend
+.
+base
+import
+PartialBackend
+HybridBackend
+from
+mozbuild
+.
+backend
+.
+recursivemake
+import
+RecursiveMakeBackend
 from
 mozbuild
 .
@@ -208,6 +228,8 @@ import
 (
     
 FileAvoidWrite
+    
+expand_variables
 )
 from
 .
@@ -746,7 +768,6 @@ self
 .
 write
 (
-(
 '
 :
 %
@@ -773,9 +794,6 @@ cmd
 s
 |
 >
-'
-                    
-'
 %
 (
 outputs
@@ -789,7 +807,6 @@ s
 \
 n
 '
-)
 %
 {
             
@@ -1895,8 +1912,6 @@ self
 .
 _built_in_addons_file
 =
-\
-            
 '
 dist
 /
@@ -2428,17 +2443,17 @@ run_process
 args
 =
 args
-                                    
+                                  
 line_handler
 =
 output
 .
 on_line
-                                    
+                                  
 ensure_exit_code
 =
 False
-                                    
+                                  
 append_env
 =
 self
@@ -5027,7 +5042,6 @@ var
 gen_method
 in
 (
-                
 (
 backend_file
 .
@@ -5036,7 +5050,7 @@ self
 .
 _gen_shared_library
 )
-                
+                                    
 (
 backend_file
 .
@@ -5047,12 +5061,12 @@ backend_file
 static_lib
 .
 no_expand_lib
-                 
+                                     
 self
 .
 _gen_static_library
 )
-                
+                                    
 (
 backend_file
 .
@@ -5061,7 +5075,7 @@ self
 .
 _gen_programs
 )
-                
+                                    
 (
 backend_file
 .
@@ -5070,7 +5084,6 @@ self
 .
 _gen_host_programs
 )
-            
 )
 :
                 
@@ -5179,7 +5192,6 @@ acdefines_flags
 .
 join
 (
-                
 [
 '
 -
@@ -5198,7 +5210,7 @@ shell_quote
 value
 )
 )
-                 
+                
 for
 (
 name
@@ -5683,7 +5695,7 @@ in
 a
 common
 "
-                                
+                    
 "
 ancestor
 directory
@@ -5694,7 +5706,7 @@ and
 srcdir
 possibly
 "
-                                
+                    
 "
 %
 s
@@ -5707,7 +5719,7 @@ overhead
 this
 directory
 "
-                                
+                    
 "
 should
 contain
@@ -5719,7 +5731,7 @@ that
 are
 not
 "
-                                
+                    
 "
 necessary
 for
@@ -5763,7 +5775,6 @@ log_name
 '
 tup
 '
-                                  
 args
 =
 [
@@ -6483,6 +6494,7 @@ cargo_library_flags
 ]
         
 if
+(
 not
 obj
 .
@@ -6497,6 +6509,7 @@ DEVELOPER_OPTIONS
 '
 )
 and
+            
 not
 obj
 .
@@ -6506,11 +6519,10 @@ substs
 .
 get
 (
-            
 '
 MOZ_DEBUG_RUST
 '
-        
+)
 )
 :
             
@@ -6526,6 +6538,27 @@ C
 lto
 '
 ]
+        
+rust_build_home
+=
+mozpath
+.
+join
+(
+self
+.
+environment
+.
+topobjdir
+                                       
+'
+toolkit
+/
+library
+/
+rust
+'
+)
         
 def
 display_name
@@ -7029,7 +7062,6 @@ program
 )
 in
 [
-                
 '
 build
 -
@@ -7044,7 +7076,6 @@ script
 -
 main
 '
-            
 ]
 :
                 
@@ -9098,7 +9129,6 @@ basepath
 raise
 Exception
 (
-                                    
 "
 Wildcards
 are
@@ -9110,7 +9140,7 @@ filename
 part
 of
 "
-                                    
+                                                
 "
 srcdir
 -
@@ -9365,6 +9395,21 @@ prefix
 )
 :
                                 
+install_dir
+=
+prefix
+[
+len
+(
+obj
+.
+srcdir
+)
++
+1
+:
+]
+                                
 output
 =
 p
@@ -9430,7 +9475,6 @@ backend_file
 .
 symlink_rule
 (
-                            
 f
 .
 full_path
@@ -9467,7 +9511,6 @@ f
 target_basename
 p
 )
-                            
 for
 p
 in
@@ -9554,7 +9597,6 @@ delayed_installed_files
 .
 append
 (
-                            
 (
 f
 .
@@ -9647,7 +9689,6 @@ self
 environment
 .
 topobjdir
-                                                      
 obj
 .
 install_target
@@ -10791,7 +10832,6 @@ mozpath
 .
 join
 (
-            
 outheaderdir
 '
 IPCMessageStart
@@ -11326,7 +11366,6 @@ cpp
 .
 extend
 (
-            
 sorted
 (
 '

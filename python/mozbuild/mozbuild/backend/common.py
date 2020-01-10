@@ -57,7 +57,6 @@ from
 __future__
 import
 absolute_import
-print_function
 unicode_literals
 import
 itertools
@@ -133,6 +132,8 @@ HostLibrary
     
 HostGeneratedSources
     
+HostRustLibrary
+    
 IPDLCollection
     
 LocalizedPreprocessedFiles
@@ -184,6 +185,8 @@ mozbuild
 util
 import
 (
+    
+group_unified_files
     
 mkdir
 )
@@ -1113,7 +1116,6 @@ files
 walk
 (
 )
-                            
 for
 f
 in
@@ -1217,7 +1219,6 @@ self
 .
 _handle_generated_sources
 (
-                
 mozpath
 .
 join
@@ -1240,7 +1241,7 @@ h
 %
 stem
 )
-                
+                                           
 for
 stem
 in
@@ -1858,6 +1859,7 @@ sorted
 seen_pgo_gen_only_objs
 )
 no_pgo_objs
+\
                 
 shared_libs
 os_libs
@@ -2186,7 +2188,6 @@ mozpath
 .
 relpath
 (
-            
 f
 self
 .
@@ -2675,8 +2676,6 @@ MOZ_WINDOWS_WRAPPER_DISABLED_REASON
 \
 n
 '
-#
-noqa
                     
 '
 #

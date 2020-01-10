@@ -120,7 +120,6 @@ n
 for
 line
 in
-                           
 '
 '
 '
@@ -513,7 +512,7 @@ src_clobber
 <
 =
 \
-                
+            
 os
 .
 path
@@ -728,7 +727,6 @@ winrm
 )
         
 except
-Exception
 :
             
 return
@@ -1434,7 +1432,7 @@ enabled
 \
 n
 '
-                             
+                              
 '
 (
 add
@@ -1447,7 +1445,7 @@ AUTOCLOBBER
 to
 your
 '
-                             
+                              
 '
 mozconfig
 )
@@ -1635,7 +1633,7 @@ join
 (
 lines
 )
-                                      
+            
 no_reason
 =
 '
