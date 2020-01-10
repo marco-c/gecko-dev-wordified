@@ -2486,6 +2486,10 @@ mNeedsUpdatingEGLSurface
 =
 false
 ;
+mCompositorInitiallyPaused
+=
+false
+;
 #
 endif
 if
@@ -12714,6 +12718,10 @@ if
 mCompositorWidgetDelegate
 )
 {
+mCompositorInitiallyPaused
+=
+false
+;
 mNeedsUpdatingEGLSurface
 =
 false
@@ -23563,6 +23571,10 @@ ComputeShouldAccelerate
 )
 )
 {
+mCompositorInitiallyPaused
+=
+true
+;
 RefPtr
 <
 nsWindow
