@@ -2665,6 +2665,14 @@ reg
 PER_SHARED_ARCH
 ;
 void
+PushBoxed
+(
+FloatRegister
+reg
+)
+PER_ARCH
+;
+void
 PushFlags
 (
 )
