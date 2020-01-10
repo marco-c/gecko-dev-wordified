@@ -9019,6 +9019,9 @@ bool
 mDidDeleteSelection
 ;
 bool
+mDidExplicitlySetInterline
+;
+bool
 mDidRangedDelete
 ;
 bool
