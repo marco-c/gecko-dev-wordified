@@ -3153,11 +3153,6 @@ async
 =
 >
 {
-await
-openProtectionsPanel
-(
-)
-;
 item
 .
 classList
@@ -3175,6 +3170,11 @@ Force
 visible
 for
 test
+await
+openProtectionsPanel
+(
+)
+;
 let
 viewShownEvent
 =
