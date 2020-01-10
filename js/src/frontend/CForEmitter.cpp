@@ -1141,6 +1141,8 @@ bytecodeSection
 setCurrentLine
 (
 lineNum
+*
+endPos
 )
 ;
 }

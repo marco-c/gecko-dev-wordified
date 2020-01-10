@@ -511,7 +511,7 @@ columnNumber
 \
 "
 :
-5
+8
 \
 "
 functionName
@@ -596,7 +596,7 @@ columnNumber
 \
 "
 :
-3
+6
 \
 "
 functionName
@@ -852,7 +852,7 @@ lineNumber
 columnNumber
 "
 :
-5
+8
 "
 functionName
 "
@@ -921,7 +921,7 @@ lineNumber
 columnNumber
 "
 :
-3
+6
 "
 functionName
 "
@@ -4755,7 +4755,7 @@ lineNumber
 columnNumber
 "
 :
-5
+8
 "
 functionName
 "
@@ -4824,7 +4824,7 @@ lineNumber
 columnNumber
 "
 :
-3
+6
 "
 functionName
 "
