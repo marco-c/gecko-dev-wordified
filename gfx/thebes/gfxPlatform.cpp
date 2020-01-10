@@ -6195,13 +6195,13 @@ layers_amd_switchable_gfx_enabled
 StaticPrefs
 :
 :
-layers_acceleration_disabled_do_not_use_directly
+layers_acceleration_disabled_DoNotUseDirectly
 (
 )
 StaticPrefs
 :
 :
-layers_acceleration_force_enabled_do_not_use_directly
+layers_acceleration_force_enabled_DoNotUseDirectly
 (
 )
 StaticPrefs
@@ -7565,7 +7565,7 @@ kMinSizePref
 StaticPrefs
 :
 :
-gfx_max_texture_size_do_not_use_directly
+gfx_max_texture_size_DoNotUseDirectly
 (
 )
 )
@@ -7623,7 +7623,7 @@ kMinAllocPref
 StaticPrefs
 :
 :
-gfx_max_alloc_size_do_not_use_directly
+gfx_max_alloc_size_DoNotUseDirectly
 (
 )
 )
@@ -16008,7 +16008,7 @@ if
 StaticPrefs
 :
 :
-layers_acceleration_disabled_do_not_use_directly
+layers_acceleration_disabled_DoNotUseDirectly
 (
 )
 )
@@ -16112,7 +16112,7 @@ if
 StaticPrefs
 :
 :
-layers_acceleration_force_enabled_do_not_use_directly
+layers_acceleration_force_enabled_DoNotUseDirectly
 (
 )
 )
@@ -16267,7 +16267,7 @@ gfx_webrender_all
 StaticPrefs
 :
 :
-gfx_webrender_enabled_do_not_use_directly
+gfx_webrender_enabled_DoNotUseDirectly
 (
 )
 ;
@@ -20495,7 +20495,7 @@ result
 StaticPrefs
 :
 :
-layers_acceleration_force_enabled_do_not_use_directly
+layers_acceleration_force_enabled_DoNotUseDirectly
 (
 )
 ;
@@ -22402,7 +22402,7 @@ return
 StaticPrefs
 :
 :
-layers_async_pan_zoom_enabled_do_not_use_directly
+layers_async_pan_zoom_enabled_DoNotUseDirectly
 (
 )
 ;
@@ -23366,7 +23366,7 @@ if
 StaticPrefs
 :
 :
-layers_acceleration_force_enabled_do_not_use_directly
+layers_acceleration_force_enabled_DoNotUseDirectly
 (
 )
 )

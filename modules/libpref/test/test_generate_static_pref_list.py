@@ -554,7 +554,7 @@ my
 float
 "
    
-my_float_do_not_use_directly
+my_float_DoNotUseDirectly
   
 float
 0
@@ -620,7 +620,7 @@ atomic
 int
 "
    
-my_atomic_int_do_not_use_directly
+my_atomic_int_DoNotUseDirectly
   
 ReleaseAcquireAtomicInt32
 10
