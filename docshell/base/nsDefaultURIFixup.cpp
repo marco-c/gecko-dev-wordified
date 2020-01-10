@@ -1873,7 +1873,6 @@ info
 mFixedURI
 )
 uriString
-nullptr
 )
 ;
 if
@@ -4000,7 +3999,6 @@ uriSpecOut
 get
 (
 )
-nullptr
 )
 )
 )
@@ -4503,7 +4501,6 @@ NS_NewURI
 (
 aURI
 uriString
-nullptr
 )
 ;
 }

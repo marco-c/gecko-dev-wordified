@@ -4732,7 +4732,6 @@ result
 aSpec
 aCharset
 aBaseURI
-nullptr
 )
 ;
 }

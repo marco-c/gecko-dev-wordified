@@ -933,8 +933,6 @@ getter_AddRefs
 referrerURI
 )
 referrer
-nullptr
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS

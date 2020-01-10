@@ -2808,12 +2808,6 @@ mCacheStorageService
 ;
 nsCOMPtr
 <
-nsIIOService
->
-mIOService
-;
-nsCOMPtr
-<
 nsISpeculativeConnect
 >
 mSpeculativeService

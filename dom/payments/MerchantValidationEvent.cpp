@@ -179,13 +179,6 @@ nsNetUtil
 .
 h
 "
-#
-include
-"
-nsContentUtils
-.
-h
-"
 namespace
 mozilla
 {
@@ -571,12 +564,6 @@ aEventInitDict
 mValidationURL
 nullptr
 baseURI
-nsContentUtils
-:
-:
-GetIOService
-(
-)
 )
 ;
 if

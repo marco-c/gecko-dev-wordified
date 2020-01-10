@@ -3464,8 +3464,6 @@ getter_AddRefs
 uri
 )
 aURL
-nullptr
-nullptr
 )
 ;
 if

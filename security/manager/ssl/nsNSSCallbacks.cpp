@@ -1430,9 +1430,6 @@ getter_AddRefs
 uri
 )
 mAIALocation
-nullptr
-nullptr
-ios
 )
 ;
 if

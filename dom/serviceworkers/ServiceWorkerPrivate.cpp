@@ -9402,8 +9402,6 @@ mInfo
 ScriptSpec
 (
 )
-nullptr
-nullptr
 )
 ;
 if

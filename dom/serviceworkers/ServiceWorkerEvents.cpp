@@ -2241,8 +2241,6 @@ getter_AddRefs
 uri
 )
 url
-nullptr
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS

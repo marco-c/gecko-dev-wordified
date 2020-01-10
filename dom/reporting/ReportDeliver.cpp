@@ -1225,14 +1225,9 @@ getter_AddRefs
 (
 uri
 )
-NS_ConvertUTF8toUTF16
-(
 aReportData
 .
 mEndpointURL
-)
-nullptr
-nullptr
 )
 ;
 if
