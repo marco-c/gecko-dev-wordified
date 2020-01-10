@@ -61,6 +61,8 @@ import
 re
 import
 os
+import
+functools
 from
 mozbuild
 .
@@ -276,6 +278,12 @@ True
 )
 :
     
+md5_chunk_size
+=
+1024
+*
+10
+    
 allowed_dupes
 =
 set
@@ -299,8 +307,27 @@ source
 )
 :
         
-content
+md5
 =
+hashlib
+.
+md5
+(
+)
+        
+content_size
+=
+0
+        
+for
+buf
+in
+iter
+(
+functools
+.
+partial
+(
 f
 .
 open
@@ -308,17 +335,32 @@ open
 )
 .
 read
+md5_chunk_size
+)
+b
+'
+'
+)
+:
+            
+md5
+.
+update
 (
+buf
+)
+            
+content_size
++
+=
+len
+(
+buf
 )
         
 m
 =
-hashlib
-.
 md5
-(
-content
-)
 .
 digest
 (
@@ -352,10 +394,7 @@ else
                 
 compressed
 =
-len
-(
-content
-)
+content_size
             
 md5s
 [
@@ -363,10 +402,7 @@ m
 ]
 =
 (
-len
-(
-content
-)
+content_size
 compressed
 [
 ]
