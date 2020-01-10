@@ -336,6 +336,7 @@ UseTripleBuffering
 (
 )
 const
+override
 {
 return
 mUseTripleBuffering
