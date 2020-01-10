@@ -391,6 +391,15 @@ const
 INSTALLER_PREFS_LIST
 =
 [
+"
+installer
+.
+taskbarpin
+.
+win10
+.
+enabled
+"
 ]
 ;
 const
