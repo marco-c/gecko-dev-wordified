@@ -7429,6 +7429,11 @@ freeLists_
 (
 nullptr
 )
+defaultFreeOp_
+(
+runtime
+true
+)
 jitActivation
 (
 nullptr

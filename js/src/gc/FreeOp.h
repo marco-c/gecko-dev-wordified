@@ -276,6 +276,10 @@ jit
 JitPoisonRangeVector
 jitPoisonRanges
 ;
+const
+bool
+isDefault
+;
 public
 :
 static
@@ -305,6 +309,10 @@ FreeOp
 JSRuntime
 *
 maybeRuntime
+bool
+isDefault
+=
+false
 )
 ;
 ~
@@ -367,7 +375,11 @@ isDefaultFreeOp
 (
 )
 const
+{
+return
+isDefault
 ;
+}
 void
 free_
 (
