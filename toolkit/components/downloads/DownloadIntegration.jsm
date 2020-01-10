@@ -6485,6 +6485,14 @@ catch
 )
 ;
 }
+this
+.
+_canceledOfflineDownloads
+.
+clear
+(
+)
+;
 }
 /
 /
