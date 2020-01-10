@@ -3040,6 +3040,8 @@ URL
 which
 contains
 JavaScript
+or
+CSS
 is
 /
 /
