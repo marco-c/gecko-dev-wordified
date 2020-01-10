@@ -170,10 +170,6 @@ aContext
 MediaStreamAudioSourceNode
 (
 aContext
-TrackChangeBehavior
-:
-:
-FollowChanges
 )
 {
 }
