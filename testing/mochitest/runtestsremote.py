@@ -3107,7 +3107,12 @@ printDeviceInfo
 (
 printLogcat
 =
-True
+(
+retVal
+!
+=
+0
+)
 )
     
 mochitest
