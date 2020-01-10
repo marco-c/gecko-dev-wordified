@@ -2030,8 +2030,7 @@ Gecko_ConstructFontFeatureValueSet
 ;
 nsTArray
 <
-unsigned
-int
+uint32_t
 >
 *
 Gecko_AppendFeatureValueHashEntry
