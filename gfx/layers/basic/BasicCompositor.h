@@ -1427,6 +1427,11 @@ mIsPendingEndRemoteDrawing
 bool
 mRecordFrames
 ;
+bool
+mShouldInvalidateWindow
+=
+false
+;
 /
 /
 Where
