@@ -1606,6 +1606,7 @@ browser
 )
 ;
 return
+(
 [
 .
 .
@@ -1632,6 +1633,7 @@ item
 >
 {
 return
+(
 (
 item
 .
@@ -1693,8 +1695,10 @@ hasAttribute
 formautofillattached
 "
 )
+)
 ;
 }
+)
 )
 ;
 }

@@ -367,9 +367,7 @@ key
 ]
 =
 typeof
-(
 origVal
-)
 ;
 /
 /

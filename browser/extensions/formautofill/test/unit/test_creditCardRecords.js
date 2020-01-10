@@ -3992,9 +3992,7 @@ MERGE_TESTCASES
 .
 forEach
 (
-(
 testcase
-)
 =
 >
 {

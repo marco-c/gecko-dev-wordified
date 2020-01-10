@@ -221,9 +221,7 @@ year
 let
 do_check_tombstone_record
 =
-(
 profile
-)
 =
 >
 {

@@ -2347,9 +2347,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -2388,9 +2386,7 @@ options
 .
 eventCallback
 =
-(
 topic
-)
 =
 >
 {

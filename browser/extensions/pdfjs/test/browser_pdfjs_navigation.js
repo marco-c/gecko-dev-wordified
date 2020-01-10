@@ -1080,9 +1080,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -1475,6 +1473,7 @@ action
 .
 value
 )
+{
 el
 .
 value
@@ -1485,6 +1484,7 @@ action
 .
 value
 ;
+}
 /
 /
 Dispatch

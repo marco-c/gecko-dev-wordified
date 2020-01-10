@@ -1034,9 +1034,7 @@ registerEvents
 fxmonitor
 "
 {
-"
 interaction
-"
 :
 {
 methods
@@ -1326,9 +1324,7 @@ loadBreaches
 let
 populateSites
 =
-(
 data
-)
 =
 >
 {
@@ -1433,14 +1429,12 @@ site
 PwnCount
 Year
 :
-(
 new
 Date
 (
 site
 .
 BreachDate
-)
 )
 .
 getFullYear
@@ -1522,9 +1516,7 @@ on
 "
 sync
 "
-(
 event
-)
 =
 >
 {
@@ -1730,9 +1722,7 @@ registerCallback
 this
 .
 kNotificationID
-(
 win
-)
 =
 >
 {
@@ -2496,9 +2486,7 @@ false
 )
 handleResult
 :
-(
 result
-)
 =
 >
 resolve
@@ -2565,6 +2553,7 @@ host
 )
 |
 |
+(
 await
 this
 .
@@ -2574,6 +2563,7 @@ browser
 .
 loadContext
 host
+)
 )
 )
 {
@@ -2784,9 +2774,7 @@ false
 let
 populatePanel
 =
-(
 event
-)
 =
 >
 {
@@ -3264,6 +3252,7 @@ _brandString
 ;
 }
 return
+(
 this
 .
 _brandString
@@ -3278,13 +3267,12 @@ fxmonitor
 brandName
 "
 )
+)
 ;
 }
 getFirefoxMonitorURL
 :
-(
 aSiteName
-)
 =
 >
 {
@@ -3333,6 +3321,7 @@ _primaryAction
 ;
 }
 return
+(
 this
 .
 _primaryAction
@@ -3427,6 +3416,7 @@ check_btn
 ;
 }
 }
+)
 ;
 }
 get
@@ -3448,6 +3438,7 @@ _secondaryActions
 ;
 }
 return
+(
 this
 .
 _secondaryActions
@@ -3575,6 +3566,7 @@ never_show_btn
 }
 }
 ]
+)
 ;
 }
 refresh

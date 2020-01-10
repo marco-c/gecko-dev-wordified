@@ -1276,9 +1276,7 @@ const
 GROUP_FIELDS
 =
 {
-"
 name
-"
 :
 [
 "
@@ -1344,9 +1342,7 @@ country
 name
 "
 ]
-"
 tel
-"
 :
 [
 "

@@ -1192,9 +1192,7 @@ data
 .
 then
 (
-(
 records
-)
 =
 >
 {
@@ -1301,9 +1299,7 @@ pendingSearchResult
 .
 then
 (
-(
 result
-)
 =
 >
 {
@@ -1594,9 +1590,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

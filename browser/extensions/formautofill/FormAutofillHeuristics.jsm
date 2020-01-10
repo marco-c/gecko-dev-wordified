@@ -662,11 +662,9 @@ length
 ;
 i
 <
-(
 index
 +
 1
-)
 ;
 i
 +
@@ -1502,6 +1500,7 @@ field2
 )
 {
 return
+(
 field1
 .
 section
@@ -1530,6 +1529,7 @@ fieldName
 field2
 .
 fieldName
+)
 ;
 }
 /
@@ -2175,9 +2175,7 @@ strings
 let
 _extractLabelStrings
 =
-(
 el
-)
 =
 >
 {
@@ -2822,6 +2820,7 @@ false
 ;
 }
 return
+(
 this
 .
 _matchContiguousSubArray
@@ -2859,6 +2858,7 @@ e
 label
 )
 desiredValues
+)
 )
 ;
 }
@@ -3009,6 +3009,7 @@ i
 )
 ;
 return
+(
 this
 .
 _matchContiguousSubArray
@@ -3046,6 +3047,7 @@ e
 label
 )
 desiredValues
+)
 )
 ;
 }
@@ -4809,7 +4811,7 @@ element
 ^
 mm
 /
-ig
+gi
 )
 )
 {
@@ -4989,7 +4991,7 @@ y
 |
 )
 /
-ig
+gi
 )
 |
 |
@@ -5044,7 +5046,7 @@ y
 |
 )
 /
-ig
+gi
 )
 )
 {
@@ -5492,12 +5494,14 @@ i
 >
 p
 |
+(
 !
 !
 c
 <
 <
 i
+)
 0
 )
 ;

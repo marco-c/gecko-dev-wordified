@@ -965,9 +965,7 @@ addEventListener
 "
 click
 "
-(
 event
-)
 =
 >
 {
@@ -1328,14 +1326,12 @@ data
 let
 categories
 =
-(
 data
 &
 &
 data
 .
 categories
-)
 ?
 data
 .
@@ -2178,9 +2174,7 @@ addEventListener
 "
 click
 "
-(
 event
-)
 =
 >
 {

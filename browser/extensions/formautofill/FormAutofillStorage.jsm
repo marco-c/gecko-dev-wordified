@@ -8442,6 +8442,7 @@ record
 deleted
 &
 &
+(
 await
 this
 .
@@ -8452,6 +8453,7 @@ record
 guid
 targetRecord
 strict
+)
 )
 )
 {
@@ -10846,9 +10848,7 @@ VALID_FIELDS
 .
 every
 (
-(
 field
-)
 =
 >
 {
@@ -10940,10 +10940,8 @@ field
 =
 =
 undefined
-)
 |
 |
-(
 addressFound
 [
 field
@@ -12656,6 +12654,7 @@ card
 number
 .
 return
+(
 CreditCard
 .
 getLongMaskedNumber
@@ -12671,6 +12670,7 @@ creditCard
 [
 field
 ]
+)
 ;
 }
 return
@@ -12999,9 +12999,7 @@ field
 &
 &
 typeof
-(
 existingField
-)
 !
 =
 "
@@ -13087,9 +13085,7 @@ VALID_FIELDS
 .
 every
 (
-(
 field
-)
 =
 >
 creditCardFound

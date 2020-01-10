@@ -58,9 +58,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

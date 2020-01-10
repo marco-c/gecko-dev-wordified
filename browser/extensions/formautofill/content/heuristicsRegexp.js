@@ -170,9 +170,7 @@ Email
 =
 =
 =
-"
 email
-"
 :
 new
 RegExp
@@ -271,9 +269,7 @@ Telephone
 =
 =
 =
-"
 tel
-"
 :
 new
 RegExp
@@ -398,9 +394,7 @@ Fields
 =
 =
 =
-"
 organization
-"
 :
 new
 RegExp
@@ -1473,9 +1467,7 @@ KR
 iu
 "
 )
-"
 country
-"
 :
 new
 RegExp
@@ -1540,9 +1532,7 @@ Fields
 =
 =
 =
-"
 name
-"
 :
 new
 RegExp

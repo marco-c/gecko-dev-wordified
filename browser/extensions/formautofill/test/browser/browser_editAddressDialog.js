@@ -1502,6 +1502,7 @@ waitForCondition
 >
 {
 return
+(
 doc
 .
 querySelector
@@ -1527,6 +1528,7 @@ textContent
 "
 Province
 "
+)
 ;
 }
 "
@@ -1945,6 +1947,7 @@ waitForCondition
 >
 {
 return
+(
 doc
 .
 querySelector
@@ -1971,6 +1974,7 @@ textContent
 Postal
 Code
 "
+)
 ;
 }
 "
@@ -2461,6 +2465,7 @@ waitForCondition
 >
 {
 return
+(
 doc
 .
 querySelector
@@ -2487,6 +2492,7 @@ textContent
 Postal
 Code
 "
+)
 ;
 }
 "
@@ -2898,6 +2904,7 @@ waitForCondition
 >
 {
 return
+(
 doc
 .
 querySelector
@@ -2923,6 +2930,7 @@ textContent
 "
 Eircode
 "
+)
 ;
 }
 "
@@ -3632,9 +3640,7 @@ let
 expectedStateOptions
 =
 {
-"
 BS
-"
 :
 {
 /
@@ -3662,9 +3668,7 @@ with
 ISO
 IDs
 .
-"
 keys
-"
 :
 "
 Abaco
@@ -3717,9 +3721,7 @@ split
 ~
 "
 )
-"
 names
-"
 :
 "
 Abaco
@@ -3783,14 +3785,10 @@ split
 "
 )
 }
-"
 US
-"
 :
 {
-"
 keys
-"
 :
 "
 AL
@@ -3924,9 +3922,7 @@ split
 ~
 "
 )
-"
 names
-"
 :
 "
 Alabama

@@ -294,6 +294,7 @@ data
 {
 if
 (
+(
 type
 &
 &
@@ -301,6 +302,7 @@ data
 !
 =
 type
+)
 |
 |
 !
@@ -932,7 +934,6 @@ in
 recordB
 &
 &
-(
 recordA
 [
 field
@@ -944,7 +945,6 @@ recordB
 [
 field
 ]
-)
 )
 {
 return
@@ -1171,9 +1171,7 @@ FormAutofillTest
 :
 AddAddress
 "
-(
 msg
-)
 =
 >
 {
@@ -1198,9 +1196,7 @@ FormAutofillTest
 :
 RemoveAddress
 "
-(
 msg
-)
 =
 >
 {
@@ -1225,9 +1221,7 @@ FormAutofillTest
 :
 UpdateAddress
 "
-(
 msg
-)
 =
 >
 {
@@ -1252,9 +1246,7 @@ FormAutofillTest
 :
 CheckAddresses
 "
-(
 msg
-)
 =
 >
 {
@@ -1276,9 +1268,7 @@ FormAutofillTest
 :
 CleanUpAddresses
 "
-(
 msg
-)
 =
 >
 {
@@ -1299,9 +1289,7 @@ FormAutofillTest
 :
 AddCreditCard
 "
-(
 msg
-)
 =
 >
 {
@@ -1326,9 +1314,7 @@ FormAutofillTest
 :
 RemoveCreditCard
 "
-(
 msg
-)
 =
 >
 {
@@ -1353,9 +1339,7 @@ FormAutofillTest
 :
 CheckCreditCards
 "
-(
 msg
-)
 =
 >
 {
@@ -1377,9 +1361,7 @@ FormAutofillTest
 :
 CleanUpCreditCards
 "
-(
 msg
-)
 =
 >
 {
@@ -1400,9 +1382,7 @@ FormAutofillTest
 :
 CanTestOSKeyStoreLogin
 "
-(
 msg
-)
 =
 >
 {
@@ -1428,9 +1408,7 @@ FormAutofillTest
 OSKeyStoreLogin
 "
 async
-(
 msg
-)
 =
 >
 {

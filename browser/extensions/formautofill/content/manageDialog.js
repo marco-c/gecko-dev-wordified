@@ -1576,6 +1576,7 @@ _elements
 edit
 |
 |
+(
 event
 .
 target
@@ -1595,6 +1596,7 @@ event
 detail
 >
 1
+)
 )
 {
 this
@@ -2183,12 +2185,14 @@ if
 creditCard
 |
 |
+(
 await
 OSKeyStore
 .
 ensureLoggedIn
 (
 reauthPasswordPromptMessage
+)
 )
 )
 {

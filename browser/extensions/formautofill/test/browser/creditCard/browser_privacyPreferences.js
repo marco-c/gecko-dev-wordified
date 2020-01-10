@@ -147,9 +147,7 @@ spawn
 (
 browser
 SELECTORS
-(
 selectors
-)
 =
 >
 {
@@ -268,9 +266,7 @@ spawn
 (
 browser
 SELECTORS
-(
 selectors
-)
 =
 >
 {
@@ -727,9 +723,7 @@ spawn
 (
 browser
 SELECTORS
-(
 selectors
-)
 =
 >
 {
@@ -896,9 +890,7 @@ spawn
 (
 browser
 SELECTORS
-(
 selectors
-)
 =
 >
 {
@@ -1046,9 +1038,7 @@ spawn
 (
 browser
 SELECTORS
-(
 selectors
-)
 =
 >
 {

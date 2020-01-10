@@ -1376,9 +1376,7 @@ SECTION_TYPES
 _fieldNameInfo
 :
 {
-"
 name
-"
 :
 "
 name
@@ -1410,9 +1408,7 @@ name
 "
 name
 "
-"
 organization
-"
 :
 "
 organization
@@ -1480,9 +1476,7 @@ code
 "
 address
 "
-"
 country
-"
 :
 "
 address
@@ -1496,9 +1490,7 @@ name
 "
 address
 "
-"
 tel
-"
 :
 "
 tel
@@ -1574,9 +1566,7 @@ extension
 "
 tel
 "
-"
 email
-"
 :
 "
 email
@@ -1687,6 +1677,7 @@ fieldName
 )
 {
 return
+(
 !
 !
 this
@@ -1703,6 +1694,7 @@ this
 isCreditCardField
 (
 fieldName
+)
 )
 ;
 }
@@ -2350,6 +2342,7 @@ map
 s
 =
 >
+(
 s
 ?
 s
@@ -2360,6 +2353,7 @@ trim
 :
 "
 "
+)
 )
 .
 filter
@@ -4236,6 +4230,7 @@ subLnames
 |
 |
 (
+(
 subNames
 &
 &
@@ -4247,8 +4242,10 @@ length
 subNames
 .
 length
+)
 |
 |
+(
 subLnames
 &
 &
@@ -4260,6 +4257,7 @@ length
 subLnames
 .
 length
+)
 )
 )
 {
