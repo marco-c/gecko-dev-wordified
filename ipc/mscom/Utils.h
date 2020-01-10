@@ -180,6 +180,16 @@ IsCurrentThreadMTA
 )
 ;
 bool
+IsCurrentThreadExplicitMTA
+(
+)
+;
+bool
+IsCurrentThreadImplicitMTA
+(
+)
+;
+bool
 IsProxy
 (
 IUnknown
