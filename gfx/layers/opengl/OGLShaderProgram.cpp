@@ -140,6 +140,9 @@ sstream
 /
 /
 for
+std
+:
+:
 ostringstream
 #
 include
@@ -233,8 +236,10 @@ namespace
 layers
 {
 using
-namespace
 std
+:
+:
+endl
 ;
 #
 define
@@ -827,6 +832,9 @@ aConfig
 ProgramProfileOGL
 result
 ;
+std
+:
+:
 ostringstream
 fs
 vs
@@ -8561,6 +8569,9 @@ initialised
 "
 )
 ;
+std
+:
+:
 ostringstream
 vs
 fs

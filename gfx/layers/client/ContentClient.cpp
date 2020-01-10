@@ -441,10 +441,6 @@ include
 <
 vector
 >
-using
-namespace
-std
-;
 namespace
 mozilla
 {
@@ -3991,6 +3987,9 @@ until
 the
 callback
 .
+std
+:
+:
 vector
 <
 RefPtr
