@@ -468,6 +468,17 @@ redux
 "
 ReactRedux
 "
+"
+react
+-
+transition
+-
+group
+"
+:
+"
+ReactTransitionGroup
+"
 }
 }
 )
