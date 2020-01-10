@@ -6138,13 +6138,6 @@ the
 previous
 frame
 .
-frame
--
->
-deleteDebugModeOSRInfo
-(
-)
-;
 JitFrameLayout
 *
 prefix

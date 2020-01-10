@@ -2917,10 +2917,6 @@ bailoutPrologueOffset
 uint32_t
 warmUpCheckPrologueOffset
 uint32_t
-debugOsrPrologueOffset
-uint32_t
-debugOsrEpilogueOffset
-uint32_t
 profilerEnterToggleOffset
 uint32_t
 profilerExitToggleOffset
@@ -3083,8 +3079,6 @@ BaselineScript
 (
 bailoutPrologueOffset
 warmUpCheckPrologueOffset
-debugOsrPrologueOffset
-debugOsrEpilogueOffset
 profilerEnterToggleOffset
 profilerExitToggleOffset
 )
@@ -7035,6 +7029,10 @@ CodeOffsetVector
 &
 &
 codeCoverageOffsets
+const
+CallVMOffsets
+&
+callVMOffsets
 )
 {
 code_
@@ -7086,6 +7084,10 @@ move
 (
 codeCoverageOffsets
 )
+;
+callVMOffsets_
+=
+callVMOffsets
 ;
 }
 bool
