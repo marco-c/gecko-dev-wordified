@@ -42,7 +42,7 @@ Network
 requestWillBeSent
 event
 const
-PAGE_URL
+PAGE_URI
 =
 "
 http
@@ -67,7 +67,7 @@ html
 "
 ;
 const
-JS_URL
+JS_URI
 =
 "
 http
@@ -104,7 +104,7 @@ client
 }
 =
 await
-setupForURL
+setupTestForUri
 (
 toDataURL
 (
@@ -195,7 +195,7 @@ event
 request
 .
 url
-PAGE_URL
+PAGE_URI
 "
 Got
 the
@@ -266,7 +266,7 @@ event
 request
 .
 url
-JS_URL
+JS_URI
 "
 Got
 the
@@ -315,7 +315,7 @@ navigate
 {
 url
 :
-PAGE_URL
+PAGE_URI
 }
 )
 ;

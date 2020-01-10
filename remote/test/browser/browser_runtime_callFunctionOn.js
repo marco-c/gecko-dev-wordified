@@ -66,8 +66,13 @@ client
 }
 =
 await
-setup
+setupTestForUri
 (
+toDataURL
+(
+"
+"
+)
 )
 ;
 const

@@ -48,7 +48,7 @@ tab
 }
 =
 await
-setupForURL
+setupTestForUri
 (
 toDataURL
 (

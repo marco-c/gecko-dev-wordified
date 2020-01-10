@@ -68,7 +68,7 @@ tab
 }
 =
 await
-setupForURL
+setupTestForUri
 (
 FIRST_DOC
 )
@@ -260,7 +260,7 @@ tab
 }
 =
 await
-setupForURL
+setupTestForUri
 (
 FIRST_DOC
 )
