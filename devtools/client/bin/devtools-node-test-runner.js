@@ -317,6 +317,8 @@ path
 webconsole
 /
 test
+/
+node
 "
 type
 :

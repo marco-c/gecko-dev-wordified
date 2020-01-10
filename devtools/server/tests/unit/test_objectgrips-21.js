@@ -441,6 +441,8 @@ webconsole
 /
 test
 /
+browser
+/
 browser_console
 .
 js
