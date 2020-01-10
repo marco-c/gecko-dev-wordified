@@ -164,6 +164,12 @@ space
 :
 nowrap
 ;
+flex
+-
+grow
+:
+1
+;
 }
 .
 datetime
@@ -176,9 +182,6 @@ display
 :
 inline
 ;
--
-moz
--
 user
 -
 select
@@ -277,9 +280,6 @@ true
 "
 ]
 {
--
-moz
--
 user
 -
 select
