@@ -2738,13 +2738,8 @@ nsILoadInfo
 :
 :
 CrossOriginOpenerPolicy
-aInitiatorPolicy
-nsILoadInfo
-:
-:
-CrossOriginOpenerPolicy
 *
-aOutPolicy
+aPolicy
 )
 {
 return
