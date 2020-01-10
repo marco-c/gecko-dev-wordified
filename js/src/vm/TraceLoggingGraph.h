@@ -126,6 +126,15 @@ h
 #
 include
 "
+mozilla
+/
+TimeStamp
+.
+h
+"
+#
+include
+"
 js
 /
 TypeDecls

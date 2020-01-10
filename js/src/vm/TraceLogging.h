@@ -219,6 +219,15 @@ include
 "
 js
 /
+Utility
+.
+h
+"
+#
+include
+"
+js
+/
 Vector
 .
 h
@@ -1865,6 +1874,9 @@ graphStack_
 ;
 #
 endif
+JS
+:
+:
 UniqueChars
 threadName_
 =
@@ -2657,6 +2669,9 @@ mozilla
 :
 Vector
 <
+JS
+:
+:
 UniqueChars
 0
 SystemAllocPolicy
@@ -2790,6 +2805,9 @@ ToMicroseconds
 )
 ;
 }
+JS
+:
+:
 UniqueChars
 getFullScriptName
 (
@@ -2881,6 +2899,9 @@ mozilla
 :
 Vector
 <
+JS
+:
+:
 UniqueChars
 0
 SystemAllocPolicy

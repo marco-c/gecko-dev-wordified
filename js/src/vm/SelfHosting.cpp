@@ -364,6 +364,15 @@ include
 "
 builtin
 /
+String
+.
+h
+"
+#
+include
+"
+builtin
+/
 TypedObject
 .
 h
