@@ -687,6 +687,8 @@ SetResolutionAndScaleTo
 (
 float
 aResolution
+ResolutionChangeOrigin
+aOrigin
 )
 {
 MOZ_ASSERT
@@ -700,10 +702,7 @@ mPresShell
 SetResolutionAndScaleTo
 (
 aResolution
-ResolutionChangeOrigin
-:
-:
-MainThreadRestore
+aOrigin
 )
 ;
 }
