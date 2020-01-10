@@ -38737,6 +38737,7 @@ mFrames
 LastChild
 (
 )
+nullptr
 )
 ;
 didFindOverflow
@@ -41233,6 +41234,7 @@ AddFrames
 (
 aFrameList
 lastKid
+nullptr
 )
 ;
 if
@@ -41436,6 +41438,7 @@ AddFrames
 (
 aFrameList
 aPrevFrame
+aPrevFrameLine
 )
 ;
 if
@@ -41838,6 +41841,13 @@ aFrameList
 nsIFrame
 *
 aPrevSibling
+const
+nsLineList
+:
+:
+iterator
+*
+aPrevSiblingLine
 )
 {
 /
@@ -53872,6 +53882,7 @@ endif
 AddFrames
 (
 aChildList
+nullptr
 nullptr
 )
 ;
