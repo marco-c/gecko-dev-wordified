@@ -1092,6 +1092,12 @@ result
 =
 ResultSummary
 (
+lintargs
+[
+'
+root
+'
+]
 )
     
 result
