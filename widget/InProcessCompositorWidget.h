@@ -134,6 +134,13 @@ override
 ;
 virtual
 void
+DoCompositorCleanup
+(
+)
+override
+;
+virtual
+void
 DrawWindowUnderlay
 (
 WidgetRenderingContext

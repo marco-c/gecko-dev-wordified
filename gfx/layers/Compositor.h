@@ -1421,6 +1421,12 @@ mIsDestroyed
 }
 virtual
 void
+DoWidgetCleanup
+(
+)
+;
+virtual
+void
 DetachWidget
 (
 )
