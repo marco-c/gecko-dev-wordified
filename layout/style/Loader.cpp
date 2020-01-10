@@ -2832,15 +2832,10 @@ Loader
 :
 Sheets
 {
-nsBaseHashtable
+nsRefPtrHashtable
 <
 SheetLoadDataHashKey
-RefPtr
-<
 StyleSheet
->
-StyleSheet
-*
 >
 mCompleteSheets
 ;
