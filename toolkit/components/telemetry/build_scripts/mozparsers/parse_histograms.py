@@ -5756,6 +5756,7 @@ hook
         
 except
 ValueError
+as
 e
 :
             
