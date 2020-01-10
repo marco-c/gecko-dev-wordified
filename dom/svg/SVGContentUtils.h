@@ -1078,6 +1078,7 @@ dom
 SVGElement
 *
 aElement
+const
 ComputedStyle
 *
 aComputedStyle
@@ -1186,6 +1187,7 @@ dom
 SVGElement
 *
 aElement
+const
 ComputedStyle
 *
 aComputedStyle
