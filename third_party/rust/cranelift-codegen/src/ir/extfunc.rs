@@ -2811,7 +2811,11 @@ WindowsFastcall
 CallConv
 :
 :
-Baldrdash
+BaldrdashSystemV
+CallConv
+:
+:
+BaldrdashWindows
 ]
 {
 assert_eq
@@ -2854,7 +2858,7 @@ new
 CallConv
 :
 :
-Baldrdash
+BaldrdashSystemV
 )
 ;
 assert_eq
@@ -2868,7 +2872,7 @@ to_string
 "
 (
 )
-baldrdash
+baldrdash_system_v
 "
 )
 ;
@@ -2899,7 +2903,7 @@ to_string
 (
 i32
 )
-baldrdash
+baldrdash_system_v
 "
 )
 ;
@@ -2933,7 +2937,7 @@ i32
 -
 >
 f32
-baldrdash
+baldrdash_system_v
 "
 )
 ;
@@ -2977,7 +2981,7 @@ i32x4
 -
 >
 f32
-baldrdash
+baldrdash_system_v
 "
 )
 ;
@@ -3013,7 +3017,7 @@ i32x4
 >
 f32
 b8
-baldrdash
+baldrdash_system_v
 "
 )
 ;
@@ -3089,7 +3093,7 @@ i32x4
 >
 f32
 b8
-baldrdash
+baldrdash_system_v
 "
 )
 ;

@@ -35,6 +35,15 @@ use
 crate
 :
 :
+isa
+:
+:
+TargetIsa
+;
+use
+crate
+:
+:
 regalloc
 :
 :
