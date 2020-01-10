@@ -1076,7 +1076,7 @@ principal
 sop
 -
 >
-GetPrincipal
+GetEffectiveStoragePrincipal
 (
 )
 ;
