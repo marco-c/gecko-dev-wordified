@@ -1055,6 +1055,10 @@ aOpacity
 )
 ;
 }
+Flush
+(
+)
+;
 mLuminanceEffect
 -
 >
