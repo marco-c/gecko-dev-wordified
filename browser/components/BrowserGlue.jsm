@@ -205,6 +205,12 @@ let
 ACTORS
 =
 {
+}
+;
+let
+LEGACY_ACTORS
+=
+{
 AboutReader
 :
 {
@@ -7065,6 +7071,13 @@ ActorManagerParent
 addActors
 (
 ACTORS
+)
+;
+ActorManagerParent
+.
+addLegacyActors
+(
+LEGACY_ACTORS
 )
 ;
 ActorManagerParent
