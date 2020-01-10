@@ -8838,7 +8838,7 @@ i
 /
 /
 Create
-realm
+zone
 '
 s
 scriptCountsMap
@@ -8848,7 +8848,7 @@ necessary
 if
 (
 !
-realm
+zone
 (
 )
 -
@@ -8879,7 +8879,7 @@ return
 false
 ;
 }
-realm
+zone
 (
 )
 -
@@ -8944,7 +8944,7 @@ current
 ScriptCounts
 in
 the
-realm
+zone
 '
 s
 map
@@ -8952,7 +8952,7 @@ map
 if
 (
 !
-realm
+zone
 (
 )
 -
@@ -9115,7 +9115,7 @@ p
 script
 -
 >
-realm
+zone
 (
 )
 -
@@ -9156,7 +9156,7 @@ p
 script
 -
 >
-realm
+zone
 (
 )
 -
@@ -10340,7 +10340,7 @@ get
 )
 )
 ;
-realm
+zone
 (
 )
 -
@@ -10400,7 +10400,7 @@ GetScriptNameMapEntry
 this
 )
 ;
-realm
+zone
 (
 )
 -
@@ -10493,7 +10493,7 @@ hasScriptName
 if
 (
 !
-realm
+zone
 (
 )
 -
@@ -10508,7 +10508,7 @@ false
 auto
 p
 =
-realm
+zone
 (
 )
 -
@@ -25615,7 +25615,7 @@ vtuneMethodID
 if
 (
 !
-realm
+zone
 (
 )
 -
@@ -25650,7 +25650,7 @@ ScriptVTuneIdMap
 )
 ;
 }
-realm
+zone
 (
 )
 -
@@ -25672,7 +25672,7 @@ ScriptVTuneIdMap
 AddPtr
 p
 =
-realm
+zone
 (
 )
 -
@@ -25712,7 +25712,7 @@ GenerateUniqueMethodID
 if
 (
 !
-realm
+zone
 (
 )
 -
@@ -25781,7 +25781,7 @@ true
 /
 /
 Create
-realm
+zone
 '
 s
 scriptNameMap
@@ -25791,7 +25791,7 @@ necessary
 if
 (
 !
-realm
+zone
 (
 )
 -
@@ -25822,7 +25822,7 @@ return
 false
 ;
 }
-realm
+zone
 (
 )
 -
@@ -25871,7 +25871,7 @@ script
 name
 in
 the
-realm
+zone
 '
 s
 map
@@ -25879,7 +25879,7 @@ map
 if
 (
 !
-realm
+zone
 (
 )
 -
@@ -27861,7 +27861,7 @@ ifdef
 MOZ_VTUNE
 if
 (
-realm
+zone
 (
 )
 -
@@ -27886,7 +27886,7 @@ profiler
 is
 running
 .
-realm
+zone
 (
 )
 -

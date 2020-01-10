@@ -542,7 +542,7 @@ map
 script
 -
 >
-realm
+zone
 (
 )
 -
@@ -675,7 +675,7 @@ nullptr
 /
 *
 Create
-realm
+zone
 '
 s
 debugScriptMap
@@ -690,7 +690,7 @@ if
 script
 -
 >
-realm
+zone
 (
 )
 -
@@ -724,7 +724,7 @@ nullptr
 script
 -
 >
-realm
+zone
 (
 )
 -
@@ -756,7 +756,7 @@ if
 script
 -
 >
-realm
+zone
 (
 )
 -
@@ -1984,7 +1984,7 @@ map
 script
 -
 >
-realm
+zone
 (
 )
 -
