@@ -5094,7 +5094,7 @@ MOZ_RELEASE_ASSERT
 vixl
 :
 :
-is_int26
+IsInt26
 (
 relTarget00
 )

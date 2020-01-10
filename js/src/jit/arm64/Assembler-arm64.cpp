@@ -2990,7 +2990,7 @@ MOZ_RELEASE_ASSERT
 vixl
 :
 :
-is_int26
+IsInt26
 (
 relTarget00
 )
@@ -3204,7 +3204,7 @@ MOZ_ASSERT
 vixl
 :
 :
-is_int19
+IsInt19
 (
 imm19
 )
@@ -3313,7 +3313,7 @@ MOZ_ASSERT
 vixl
 :
 :
-is_int18
+IsInt18
 (
 imm19
 )
@@ -3847,7 +3847,7 @@ MOZ_ASSERT
 vixl
 :
 :
-is_int19
+IsInt19
 (
 offset
 )

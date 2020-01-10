@@ -3118,7 +3118,7 @@ code
 {
 VIXL_ASSERT
 (
-is_uint16
+IsUint16
 (
 code
 )
@@ -3263,7 +3263,7 @@ Is64Bits
 )
 |
 |
-is_uint32
+IsUint32
 (
 immediate
 )
@@ -3585,7 +3585,7 @@ Is32Bits
 )
 &
 &
-is_uint5
+IsUint5
 (
 operand
 .
@@ -5126,7 +5126,7 @@ ImmTestBranchBit40
 ;
 VIXL_ASSERT
 (
-is_uint6
+IsUint6
 (
 bit_pos
 )
