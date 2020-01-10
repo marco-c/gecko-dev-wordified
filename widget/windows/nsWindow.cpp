@@ -5026,6 +5026,10 @@ GetDefaultScale
 .
 scale
 ;
+mRequestFxrOutputPending
+=
+false
+;
 sInstanceCount
 +
 +

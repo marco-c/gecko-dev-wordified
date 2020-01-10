@@ -646,6 +646,11 @@ return
 mTransparentSurfaceLock
 ;
 }
+void
+RequestFxrOutput
+(
+)
+;
 protected
 :
 private
