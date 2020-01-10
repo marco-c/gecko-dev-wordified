@@ -1416,7 +1416,7 @@ override
 ;
 nsIFrame
 *
-GetPrevInFlowVirtual
+GetPrevInFlow
 (
 )
 const
@@ -1432,7 +1432,7 @@ override
 ;
 nsIFrame
 *
-GetNextInFlowVirtual
+GetNextInFlow
 (
 )
 const
