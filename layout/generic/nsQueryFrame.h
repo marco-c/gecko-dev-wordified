@@ -503,9 +503,7 @@ _id
 #
 include
 "
-mozilla
-/
-FrameIdList
+nsFrameIdList
 .
 h
 "
@@ -597,9 +595,7 @@ classname
 #
 include
 "
-mozilla
-/
-FrameIdList
+nsFrameIdList
 .
 h
 "

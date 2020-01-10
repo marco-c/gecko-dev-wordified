@@ -3250,9 +3250,7 @@ ABSTRACT_FRAME_ID
 #
 include
 "
-mozilla
-/
-FrameIdList
+nsFrameIdList
 .
 h
 "
@@ -4890,9 +4888,7 @@ ABSTRACT_FRAME_ID
 #
 include
 "
-mozilla
-/
-FrameIdList
+nsFrameIdList
 .
 h
 "

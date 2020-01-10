@@ -1291,9 +1291,7 @@ ABSTRACT_FRAME_ID
 #
 include
 "
-mozilla
-/
-FrameIdList
+nsFrameIdList
 .
 h
 "
