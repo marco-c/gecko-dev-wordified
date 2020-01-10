@@ -202,6 +202,7 @@ ASTLocation
 PendingBreakpoint
 SourceId
 BreakpointPositions
+Context
 }
 from
 "
@@ -218,6 +219,9 @@ async
 function
 findBreakpointPosition
 (
+cx
+:
+Context
 {
 getState
 dispatch
@@ -238,6 +242,7 @@ dispatch
 setBreakpointPositions
 (
 {
+cx
 sourceId
 :
 location
@@ -269,6 +274,9 @@ async
 function
 findNewLocation
 (
+cx
+:
+Context
 {
 name
 offset
@@ -296,6 +304,7 @@ dispatch
 setSymbols
 (
 {
+cx
 source
 }
 )
@@ -587,6 +596,9 @@ export
 function
 syncBreakpoint
 (
+cx
+:
+Context
 sourceId
 :
 SourceId
@@ -780,6 +792,7 @@ dispatch
 (
 addBreakpoint
 (
+cx
 sourceGeneratedLocation
 pendingBreakpoint
 .
@@ -819,6 +832,7 @@ newLocation
 await
 findNewLocation
 (
+cx
 astLocation
 previousLocation
 source
@@ -831,6 +845,7 @@ newGeneratedLocation
 await
 findBreakpointPosition
 (
+cx
 thunkArgs
 newLocation
 )
@@ -920,6 +935,7 @@ dispatch
 (
 removeBreakpointAtGeneratedLocation
 (
+cx
 sourceGeneratedLocation
 )
 )
@@ -976,6 +992,7 @@ dispatch
 (
 removeBreakpointAtGeneratedLocation
 (
+cx
 sourceGeneratedLocation
 )
 )
@@ -986,6 +1003,7 @@ dispatch
 (
 addBreakpoint
 (
+cx
 newLocation
 pendingBreakpoint
 .

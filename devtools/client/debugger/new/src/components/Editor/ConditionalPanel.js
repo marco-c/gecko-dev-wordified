@@ -148,6 +148,7 @@ import
 getBreakpointForLocation
 getConditionalPanelLocation
 getLogPointStatus
+getContext
 }
 from
 "
@@ -164,6 +165,7 @@ import
 type
 {
 SourceLocation
+Context
 }
 from
 "
@@ -180,13 +182,19 @@ type
 Props
 =
 {
+cx
+:
+Context
 breakpoint
 :
 ?
 Object
 setBreakpointOptions
 :
-Function
+typeof
+actions
+.
+setBreakpointOptions
 location
 :
 SourceLocation
@@ -379,6 +387,7 @@ string
 {
 const
 {
+cx
 location
 log
 breakpoint
@@ -420,6 +429,7 @@ props
 .
 setBreakpointOptions
 (
+cx
 location
 {
 .
@@ -1099,6 +1109,12 @@ state
 ;
 return
 {
+cx
+:
+getContext
+(
+state
+)
 breakpoint
 :
 getBreakpointForLocation

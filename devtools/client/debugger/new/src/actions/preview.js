@@ -182,6 +182,7 @@ import
 type
 {
 Position
+Context
 }
 from
 "
@@ -282,6 +283,9 @@ export
 function
 updatePreview
 (
+cx
+:
+Context
 target
 :
 HTMLElement
@@ -386,6 +390,7 @@ dispatch
 (
 setPreview
 (
+cx
 expression
 location
 tokenPos
@@ -400,6 +405,9 @@ export
 function
 setPreview
 (
+cx
+:
+Context
 expression
 :
 string
@@ -438,6 +446,7 @@ type
 "
 SET_PREVIEW
 "
+cx
 [
 PROMISE
 ]
@@ -644,6 +653,9 @@ export
 function
 clearPreview
 (
+cx
+:
+Context
 )
 {
 return
@@ -688,6 +700,7 @@ type
 "
 CLEAR_SELECTION
 "
+cx
 }
 :
 Action

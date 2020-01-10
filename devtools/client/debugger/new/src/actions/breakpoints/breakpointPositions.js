@@ -109,6 +109,7 @@ type
 MappedLocation
 SourceLocation
 BreakpointPositions
+Context
 }
 from
 "
@@ -402,6 +403,7 @@ async
 function
 _setBreakpointPositions
 (
+cx
 sourceId
 thunkArgs
 )
@@ -737,6 +739,7 @@ type
 "
 ADD_BREAKPOINT_POSITIONS
 "
+cx
 source
 :
 source
@@ -755,6 +758,9 @@ setBreakpointPositions
 MemoizedAction
 <
 {
+cx
+:
+Context
 sourceId
 :
 string
@@ -883,6 +889,7 @@ action
 :
 (
 {
+cx
 sourceId
 }
 thunkArgs
@@ -891,6 +898,7 @@ thunkArgs
 >
 _setBreakpointPositions
 (
+cx
 sourceId
 thunkArgs
 )

@@ -301,6 +301,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -320,6 +321,7 @@ actions
 .
 addSearchQuery
 (
+cx
 mockQuery
 )
 )
@@ -366,6 +368,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -429,6 +432,7 @@ actions
 .
 searchSources
 (
+cx
 mockQuery
 )
 )
@@ -623,6 +627,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -669,6 +674,7 @@ actions
 .
 searchSources
 (
+cx
 mockQuery
 )
 )
@@ -714,6 +720,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -750,6 +757,7 @@ actions
 loadSourceText
 (
 {
+cx
 source
 }
 )
@@ -761,6 +769,7 @@ actions
 .
 addSearchQuery
 (
+cx
 "
 bla
 "
@@ -811,6 +820,7 @@ actions
 .
 searchSource
 (
+cx
 sourceId
 "
 bla
@@ -873,6 +883,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -910,6 +921,7 @@ actions
 .
 searchSources
 (
+cx
 mockQuery
 )
 )
@@ -935,6 +947,7 @@ actions
 .
 clearSearchResults
 (
+cx
 )
 )
 ;
@@ -973,6 +986,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -992,6 +1006,7 @@ actions
 .
 updateSearchStatus
 (
+cx
 mockStatus
 )
 )
@@ -1032,6 +1047,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -1069,6 +1085,7 @@ actions
 .
 searchSources
 (
+cx
 mockQuery
 )
 )
@@ -1093,6 +1110,7 @@ actions
 .
 closeProjectSearch
 (
+cx
 )
 )
 ;

@@ -161,6 +161,7 @@ import
 type
 {
 Source
+Context
 }
 from
 "
@@ -241,6 +242,9 @@ export
 function
 toggleBlackBox
 (
+cx
+:
+Context
 source
 :
 Source
@@ -339,6 +343,7 @@ type
 "
 BLACKBOX
 "
+cx
 source
 [
 PROMISE

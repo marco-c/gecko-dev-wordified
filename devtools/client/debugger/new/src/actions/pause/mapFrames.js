@@ -130,7 +130,7 @@ import
 type
 {
 Frame
-ThreadId
+ThreadContext
 }
 from
 "
@@ -902,6 +902,7 @@ async
 function
 updateFrameSymbols
 (
+cx
 frames
 {
 dispatch
@@ -943,6 +944,7 @@ dispatch
 setSymbols
 (
 {
+cx
 source
 }
 )
@@ -1009,9 +1011,9 @@ export
 function
 mapFrames
 (
-thread
+cx
 :
-ThreadId
+ThreadContext
 )
 {
 return
@@ -1040,6 +1042,8 @@ getFrames
 getState
 (
 )
+cx
+.
 thread
 )
 ;
@@ -1065,6 +1069,7 @@ sourceMaps
 await
 updateFrameSymbols
 (
+cx
 mappedFrames
 thunkArgs
 )
@@ -1095,6 +1100,8 @@ getSelectedFrameId
 getState
 (
 )
+cx
+.
 thread
 mappedFrames
 )
@@ -1107,6 +1114,11 @@ type
 "
 MAP_FRAMES
 "
+cx
+thread
+:
+cx
+.
 thread
 frames
 :

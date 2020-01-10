@@ -334,6 +334,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -348,6 +349,7 @@ actions
 .
 addExpression
 (
+cx
 "
 foo
 "
@@ -394,6 +396,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -407,6 +410,7 @@ actions
 .
 addExpression
 (
+cx
 (
 undefined
 :
@@ -421,6 +425,7 @@ actions
 .
 addExpression
 (
+cx
 "
 "
 )
@@ -467,6 +472,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -481,6 +487,7 @@ actions
 .
 addExpression
 (
+cx
 "
 foo
 #
@@ -548,6 +555,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -562,6 +570,7 @@ actions
 .
 addExpression
 (
+cx
 "
 foo
 "
@@ -590,6 +599,7 @@ actions
 .
 updateExpression
 (
+cx
 "
 bar
 "
@@ -647,6 +657,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -661,6 +672,7 @@ actions
 .
 addExpression
 (
+cx
 "
 foo
 "
@@ -689,6 +701,7 @@ actions
 .
 updateExpression
 (
+cx
 "
 #
 bar
@@ -737,6 +750,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -751,6 +765,7 @@ actions
 .
 addExpression
 (
+cx
 "
 foo
 "
@@ -764,6 +779,7 @@ actions
 .
 addExpression
 (
+cx
 "
 bar
 "
@@ -879,6 +895,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -893,6 +910,7 @@ actions
 .
 addExpression
 (
+cx
 "
 foo
 "
@@ -906,6 +924,7 @@ actions
 .
 addExpression
 (
+cx
 "
 bar
 "
@@ -967,6 +986,7 @@ actions
 .
 evaluateExpressions
 (
+cx
 )
 )
 ;
@@ -1051,7 +1071,20 @@ mockThreadClient
 await
 createFrames
 (
+getState
 dispatch
+)
+;
+const
+cx
+=
+selectors
+.
+getThreadContext
+(
+getState
+(
+)
 )
 ;
 await
@@ -1077,6 +1110,7 @@ actions
 .
 addExpression
 (
+cx
 "
 foo
 "
@@ -1090,6 +1124,7 @@ actions
 .
 addExpression
 (
+cx
 "
 bar
 "
@@ -1151,6 +1186,7 @@ actions
 .
 evaluateExpressions
 (
+cx
 )
 )
 ;
@@ -1225,6 +1261,7 @@ async
 {
 const
 {
+cx
 dispatch
 getState
 }
@@ -1241,6 +1278,7 @@ actions
 .
 autocomplete
 (
+cx
 "
 to
 "
@@ -1274,6 +1312,7 @@ async
 function
 createFrames
 (
+getState
 dispatch
 )
 {
@@ -1329,7 +1368,7 @@ paused
 thread
 :
 "
-UnknownThread
+FakeThread
 "
 frame
 frames
@@ -1358,6 +1397,14 @@ actions
 .
 selectFrame
 (
+selectors
+.
+getThreadContext
+(
+getState
+(
+)
+)
 frame
 )
 )

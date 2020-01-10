@@ -269,6 +269,7 @@ getConditionalPanelLocation
 getSymbols
 getIsPaused
 getCurrentThread
+getThreadContext
 }
 from
 "
@@ -508,6 +509,7 @@ type
 {
 SourceLocation
 Source
+ThreadContext
 }
 from
 "
@@ -545,6 +547,9 @@ type
 Props
 =
 {
+cx
+:
+ThreadContext
 selectedLocation
 :
 ?
@@ -1327,6 +1332,7 @@ KeyboardEvent
 {
 const
 {
+cx
 selectedSource
 }
 =
@@ -1357,6 +1363,7 @@ props
 .
 closeTab
 (
+cx
 selectedSource
 )
 ;
@@ -1654,6 +1661,11 @@ props
 .
 toggleBreakpointAtLine
 (
+this
+.
+props
+.
+cx
 line
 )
 ;
@@ -2005,6 +2017,11 @@ props
 .
 traverseResults
 (
+this
+.
+props
+.
+cx
 e
 .
 shiftKey
@@ -2038,6 +2055,7 @@ preventDefault
 ;
 const
 {
+cx
 selectedSource
 breakpointActions
 editorActions
@@ -2153,6 +2171,7 @@ event
 .
 createBreakpointItems
 (
+cx
 location
 breakpointActions
 )
@@ -2165,6 +2184,7 @@ separator
 }
 continueToHereItem
 (
+cx
 location
 isPaused
 editorActions
@@ -2247,6 +2267,7 @@ MouseEvent
 {
 const
 {
+cx
 selectedSource
 conditionalPanelLocation
 closeConditionalPanel
@@ -2373,6 +2394,7 @@ metaKey
 return
 continueToHere
 (
+cx
 sourceLine
 )
 ;
@@ -2380,6 +2402,7 @@ sourceLine
 return
 addBreakpointAtLine
 (
+cx
 sourceLine
 )
 ;
@@ -2414,6 +2437,7 @@ MouseEvent
 {
 const
 {
+cx
 selectedSource
 jumpToMappedLocation
 }
@@ -2453,6 +2477,7 @@ e
 ;
 jumpToMappedLocation
 (
+cx
 sourceLocation
 )
 ;
@@ -2999,6 +3024,7 @@ renderItems
 {
 const
 {
+cx
 selectedSource
 conditionalPanelLocation
 }
@@ -3073,6 +3099,11 @@ editor
 =
 {
 editor
+}
+cx
+=
+{
+cx
 }
 /
 >
@@ -3337,6 +3368,12 @@ state
 ;
 return
 {
+cx
+:
+getThreadContext
+(
+state
+)
 selectedLocation
 :
 getSelectedLocation

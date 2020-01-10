@@ -173,6 +173,7 @@ import
 type
 {
 Source
+Context
 }
 from
 "
@@ -207,6 +208,7 @@ async
 function
 doSetSymbols
 (
+cx
 source
 {
 dispatch
@@ -236,6 +238,7 @@ dispatch
 loadSourceText
 (
 {
+cx
 source
 }
 )
@@ -251,6 +254,7 @@ type
 "
 SET_SYMBOLS
 "
+cx
 sourceId
 [
 PROMISE
@@ -306,6 +310,9 @@ type
 Args
 =
 {
+cx
+:
+Context
 source
 :
 Source
@@ -394,6 +401,7 @@ action
 :
 (
 {
+cx
 source
 }
 thunkArgs
@@ -402,6 +410,7 @@ thunkArgs
 >
 doSetSymbols
 (
+cx
 source
 thunkArgs
 )
