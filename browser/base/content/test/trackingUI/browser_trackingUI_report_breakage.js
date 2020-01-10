@@ -408,14 +408,6 @@ set
 :
 [
 [
-ContentBlocking
-.
-prefIntroCount
-ContentBlocking
-.
-MAX_INTROS
-]
-[
 "
 privacy
 .
