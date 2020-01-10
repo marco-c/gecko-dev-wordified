@@ -4168,11 +4168,6 @@ GetBidi
 )
 const
 ;
-bool
-IsTopLevelWindowInactive
-(
-)
-;
 /
 *
 *
