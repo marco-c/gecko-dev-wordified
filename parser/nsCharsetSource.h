@@ -133,6 +133,7 @@ propagates
 to
 child
 frames
+kCharsetFromUserForcedAutoDetection
 kCharsetFromByteOrderMark
 kCharsetFromUtf8OnlyMime
 /
