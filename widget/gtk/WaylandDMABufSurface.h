@@ -147,12 +147,6 @@ WaylandDMABufSurface
 {
 public
 :
-static
-bool
-IsAvailable
-(
-)
-;
 bool
 Create
 (
@@ -397,14 +391,6 @@ mWLBufferAttached
 ;
 bool
 mFastWLBufferCreation
-;
-static
-bool
-mAvailable
-;
-static
-bool
-mInitialized
 ;
 }
 ;
