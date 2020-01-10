@@ -756,6 +756,8 @@ for
 test
 usage
 .
+runningInParent
+=
 /
 /
 eslint
@@ -770,8 +772,6 @@ mozilla
 use
 -
 services
-runningInParent
-=
 Cc
 [
 "

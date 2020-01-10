@@ -142,6 +142,9 @@ dispatchReply
 return
 ;
 }
+var
+uniqueMessageId
+=
 /
 /
 eslint
@@ -158,9 +161,6 @@ avoid
 Date
 -
 timing
-var
-uniqueMessageId
-=
 TART_PREFIX
 +
 content
