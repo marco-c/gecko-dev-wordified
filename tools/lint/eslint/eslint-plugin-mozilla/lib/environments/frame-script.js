@@ -153,6 +153,9 @@ false
 RPMAddMessageListener
 :
 false
+RPMRecordTelemetryEvent
+:
+false
 RPMRemoveMessageListener
 :
 false
