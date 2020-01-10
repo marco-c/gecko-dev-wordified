@@ -2510,7 +2510,11 @@ mSession
 ;
 }
 AnyThread
-public
+/
+*
+package
+*
+/
 NonNull
 EventDispatcher
 getEventDispatcher
