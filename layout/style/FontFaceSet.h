@@ -1495,8 +1495,11 @@ FontFace
 >
 mFontFace
 ;
-SheetType
-mSheetType
+Maybe
+<
+StyleOrigin
+>
+mOrigin
 ;
 /
 /
@@ -1554,8 +1557,7 @@ aFamilyName
 FontFace
 *
 aFontFace
-SheetType
-aSheetType
+StyleOrigin
 )
 ;
 /
@@ -1684,8 +1686,8 @@ InsertRuleFontFace
 FontFace
 *
 aFontFace
-SheetType
-aSheetType
+StyleOrigin
+aOrigin
 nsTArray
 <
 FontFaceRecord

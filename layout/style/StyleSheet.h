@@ -893,10 +893,11 @@ value
 mozilla
 :
 :
-OriginFlags
+StyleOrigin
 GetOrigin
 (
 )
+const
 ;
 /
 *
