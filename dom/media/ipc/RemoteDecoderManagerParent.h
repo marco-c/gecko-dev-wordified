@@ -129,6 +129,17 @@ PRemoteDecoderManagerParent
 .
 h
 "
+#
+include
+"
+mozilla
+/
+layers
+/
+VideoBridgeChild
+.
+h
+"
 namespace
 mozilla
 {
