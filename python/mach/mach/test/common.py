@@ -60,6 +60,8 @@ unicode_literals
 import
 os
 import
+sys
+import
 unittest
 try
 :
@@ -266,6 +268,17 @@ StringIO
 (
 )
         
+if
+sys
+.
+version_info
+<
+(
+3
+0
+)
+:
+            
 stdout
 .
 encoding
@@ -275,7 +288,7 @@ UTF
 -
 8
 '
-        
+            
 stderr
 .
 encoding

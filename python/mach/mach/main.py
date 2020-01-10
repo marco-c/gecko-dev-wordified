@@ -2328,13 +2328,24 @@ try
 :
             
 if
+sys
+.
+version_info
+<
+(
+3
+0
+)
+:
+                
+if
 stdin
 .
 encoding
 is
 None
 :
-                
+                    
 sys
 .
 stdin
@@ -2352,7 +2363,7 @@ utf
 (
 stdin
 )
-            
+                
 if
 stdout
 .
@@ -2360,7 +2371,7 @@ encoding
 is
 None
 :
-                
+                    
 sys
 .
 stdout
@@ -2378,7 +2389,7 @@ utf
 (
 stdout
 )
-            
+                
 if
 stderr
 .
@@ -2386,7 +2397,7 @@ encoding
 is
 None
 :
-                
+                    
 sys
 .
 stderr
