@@ -28706,7 +28706,9 @@ textPos
 =
 {
 0
-0
+aParams
+.
+baselineOffset
 }
 ;
 SkScalar
