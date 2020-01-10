@@ -28252,7 +28252,7 @@ routed__
 '
 )
                 
-failif
+actorgone
 =
 StmtIf
 (
@@ -28265,18 +28265,41 @@ routedvar
 )
 )
                 
-failif
+actorgone
 .
 ifb
 .
-addstmt
+addstmts
 (
+[
+                    
+self
+.
+logMessage
+(
+None
+ExprAddrOf
+(
+msgvar
+)
+                                    
+'
+Ignored
+message
+for
+dead
+actor
+'
+)
+                    
 StmtReturn
 (
 _Result
 .
-RouteError
+Processed
 )
+                
+]
 )
                 
 routeif
@@ -28311,7 +28334,7 @@ routevar
 )
 )
                     
-failif
+actorgone
                     
 StmtDecl
 (
