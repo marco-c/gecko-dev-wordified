@@ -172,10 +172,7 @@ public
 using
 Config
 =
-VideoConfig
-<
-H264Specific
->
+H264Config
 ;
 struct
 FrameParams
