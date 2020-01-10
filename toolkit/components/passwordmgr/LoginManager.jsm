@@ -1898,7 +1898,7 @@ an
 existing
 entry
 .
-var
+let
 logins
 =
 this

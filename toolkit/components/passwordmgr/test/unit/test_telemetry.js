@@ -172,7 +172,7 @@ past
 24
 hours
 .
-var
+const
 daysBeforeMs
 =
 days

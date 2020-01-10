@@ -135,7 +135,7 @@ openDB
 aLeafName
 )
 {
-var
+let
 dbFile
 =
 new
@@ -177,7 +177,7 @@ pathname
 filename
 )
 {
-var
+let
 file
 =
 new
@@ -273,7 +273,7 @@ aInputPathName
 aInputFileName
 )
 {
-var
+let
 inputFile
 =
 null
@@ -628,7 +628,7 @@ conn
 id
 )
 {
-var
+let
 stmt
 =
 conn
@@ -654,7 +654,7 @@ executeStep
 (
 )
 ;
-var
+let
 guid
 =
 stmt
@@ -681,7 +681,7 @@ conn
 id
 )
 {
-var
+let
 stmt
 =
 conn
@@ -707,7 +707,7 @@ executeStep
 (
 )
 ;
-var
+let
 encType
 =
 stmt
