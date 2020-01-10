@@ -568,6 +568,9 @@ rv
 EnsureSnapshot
 (
 aObject
+VoidString
+(
+)
 )
 ;
 if
@@ -656,6 +659,9 @@ rv
 EnsureSnapshot
 (
 aObject
+VoidString
+(
+)
 )
 ;
 if
@@ -747,6 +753,7 @@ rv
 EnsureSnapshot
 (
 aObject
+aKey
 )
 ;
 if
@@ -837,6 +844,9 @@ rv
 EnsureSnapshot
 (
 aObject
+VoidString
+(
+)
 )
 ;
 if
@@ -931,6 +941,7 @@ rv
 EnsureSnapshot
 (
 aObject
+aKey
 )
 ;
 if
@@ -1023,6 +1034,7 @@ rv
 EnsureSnapshot
 (
 aObject
+aKey
 )
 ;
 if
@@ -1110,6 +1122,9 @@ rv
 EnsureSnapshot
 (
 aObject
+VoidString
+(
+)
 )
 ;
 if
@@ -1202,6 +1217,9 @@ rv
 EnsureSnapshot
 (
 aObject
+VoidString
+(
+)
 /
 *
 aExplicit
@@ -1318,6 +1336,10 @@ EnsureSnapshot
 LSObject
 *
 aObject
+const
+nsAString
+&
+aKey
 bool
 aExplicit
 )
@@ -1394,6 +1416,10 @@ aObject
 DocumentURI
 (
 )
+nsString
+(
+aKey
+)
 /
 *
 increasePeakUsage
@@ -1452,6 +1478,7 @@ snapshot
 >
 Init
 (
+aKey
 initInfo
 aExplicit
 )
