@@ -9782,9 +9782,6 @@ info
 .
 mStorageAccess
 =
-nsContentUtils
-:
-:
 StorageAllowedForServiceWorker
 (
 info

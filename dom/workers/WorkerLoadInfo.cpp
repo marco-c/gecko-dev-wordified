@@ -193,6 +193,15 @@ h
 #
 include
 "
+mozilla
+/
+StorageAccess
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -540,9 +549,6 @@ false
 )
 mStorageAccess
 (
-nsContentUtils
-:
-:
 StorageAccess
 :
 :

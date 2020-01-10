@@ -264,6 +264,15 @@ StaticPrefs
 h
 "
 #
+include
+"
+mozilla
+/
+StorageAccess
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
@@ -1130,9 +1139,6 @@ return
 auto
 storageAllowed
 =
-nsContentUtils
-:
-:
 StorageAllowedForWindow
 (
 window
@@ -1143,9 +1149,6 @@ if
 storageAllowed
 !
 =
-nsContentUtils
-:
-:
 StorageAccess
 :
 :

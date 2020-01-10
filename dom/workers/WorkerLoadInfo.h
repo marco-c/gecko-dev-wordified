@@ -125,6 +125,15 @@ include
 "
 mozilla
 /
+StorageAccess
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ChannelInfo
@@ -743,9 +752,6 @@ mPrincipalIsSystem
 bool
 mWatchedByDevtools
 ;
-nsContentUtils
-:
-:
 StorageAccess
 mStorageAccess
 ;

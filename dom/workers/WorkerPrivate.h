@@ -170,6 +170,15 @@ h
 #
 include
 "
+mozilla
+/
+StorageAccess
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -3459,7 +3468,7 @@ mXHRParamsAllowed
 aAllowed
 ;
 }
-nsContentUtils
+mozilla
 :
 :
 StorageAccess
@@ -3480,7 +3489,7 @@ mFirstPartyStorageAccessGranted
 )
 {
 return
-nsContentUtils
+mozilla
 :
 :
 StorageAccess

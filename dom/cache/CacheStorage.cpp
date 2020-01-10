@@ -3642,9 +3642,6 @@ NS_ASSERT_OWNINGTHREAD
 CacheStorage
 )
 ;
-nsContentUtils
-:
-:
 StorageAccess
 access
 ;
@@ -3681,9 +3678,6 @@ true
 }
 access
 =
-nsContentUtils
-:
-:
 StorageAllowedForWindow
 (
 window
@@ -3718,9 +3712,6 @@ StorageAccess
 return
 access
 >
-nsContentUtils
-:
-:
 StorageAccess
 :
 :

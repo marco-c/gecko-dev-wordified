@@ -117,6 +117,13 @@ MPL
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
