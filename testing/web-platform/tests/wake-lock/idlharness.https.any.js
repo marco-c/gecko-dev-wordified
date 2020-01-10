@@ -59,6 +59,9 @@ dom
 '
 html
 '
+'
+permissions
+'
 ]
 idl_array
 =
