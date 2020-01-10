@@ -802,7 +802,7 @@ NS_IMETHODIMP
 nsPrintingProxy
 :
 :
-ShowProgress
+ShowPrintProgressDialog
 (
 mozIDOMWindowProxy
 *
@@ -1167,7 +1167,7 @@ NS_IMETHODIMP
 nsPrintingProxy
 :
 :
-ShowPageSetup
+ShowPageSetupDialog
 (
 mozIDOMWindowProxy
 *

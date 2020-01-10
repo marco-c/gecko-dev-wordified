@@ -10122,7 +10122,7 @@ rv
 printPromptService
 -
 >
-ShowProgress
+ShowPrintProgressDialog
 (
 domWin
 wbp
