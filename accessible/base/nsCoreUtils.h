@@ -2007,6 +2007,15 @@ nsIAccessibleEvent
 aEvent
 )
 ;
+static
+bool
+IsDisplayContents
+(
+nsIContent
+*
+aContent
+)
+;
 }
 ;
 #
