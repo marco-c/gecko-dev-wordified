@@ -777,7 +777,7 @@ see
 Selection
 :
 :
-AddItem
+AddRangesForSelectableNodes
 *
 see
 ExcludeNonSelectableNodes
