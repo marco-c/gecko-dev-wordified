@@ -150,6 +150,10 @@ h
 class
 AudioDeviceInfo
 ;
+MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
+(
+cubeb_stream_prefs
+)
 namespace
 mozilla
 {
