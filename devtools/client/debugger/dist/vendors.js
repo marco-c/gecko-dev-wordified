@@ -17094,8 +17094,9 @@ parent
 document
 .
 documentURI
-=
-=
+.
+startsWith
+(
 "
 about
 :
@@ -17103,6 +17104,7 @@ devtools
 -
 toolbox
 "
+)
 ;
 }
 catch
@@ -18322,8 +18324,9 @@ parent
 document
 .
 documentURI
-=
-=
+.
+startsWith
+(
 "
 about
 :
@@ -18331,6 +18334,7 @@ devtools
 -
 toolbox
 "
+)
 ;
 }
 catch
