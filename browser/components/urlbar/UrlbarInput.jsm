@@ -1031,7 +1031,7 @@ this
 querySelector
 (
 "
-.
+#
 urlbar
 -
 input

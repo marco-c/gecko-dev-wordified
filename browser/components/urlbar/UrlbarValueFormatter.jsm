@@ -318,12 +318,10 @@ this
 .
 urlbarInput
 .
-textbox
-.
 querySelector
 (
 "
-.
+#
 urlbar
 -
 scheme
