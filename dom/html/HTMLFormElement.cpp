@@ -4154,8 +4154,6 @@ aFormSubmission
 IsInitiatedFromUserInput
 (
 )
-nullptr
-doc
 )
 ;
 nsCOMPtr

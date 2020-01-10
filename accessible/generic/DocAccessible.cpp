@@ -2307,8 +2307,6 @@ AutoHandlingUserInputStatePusher
 inputStatePusher
 (
 true
-nullptr
-mDocumentNode
 )
 ;
 fm

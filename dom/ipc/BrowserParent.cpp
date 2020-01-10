@@ -13776,7 +13776,6 @@ IsTrusted
 )
 &
 localEvent
-doc
 )
 ;
 nsEventStatus
