@@ -57,14 +57,6 @@ MPL
 *
 /
 /
-*
-global
-intl_DateTimeFormat
-:
-false
-*
-/
-/
 /
 This
 cache

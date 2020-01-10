@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-/
-*
-global
-intl_NumberFormat
-:
-false
-*
-/
 var
 numberFormatCache
 =
