@@ -1493,6 +1493,8 @@ config
 pref
 -
 toggle
+-
+button
 "
 )
 ;
@@ -1528,6 +1530,8 @@ config
 pref
 -
 edit
+-
+button
 "
 )
 ;
@@ -1755,6 +1759,8 @@ config
 pref
 -
 save
+-
+button
 "
 )
 ;
@@ -2019,6 +2025,8 @@ config
 pref
 -
 add
+-
+button
 "
 )
 ;
@@ -2142,6 +2150,8 @@ config
 pref
 -
 delete
+-
+button
 "
 )
 ;
@@ -2152,6 +2162,9 @@ resetButton
 className
 =
 "
+button
+-
+delete
 "
 ;
 }
@@ -2174,6 +2187,8 @@ config
 pref
 -
 reset
+-
+button
 "
 )
 ;
