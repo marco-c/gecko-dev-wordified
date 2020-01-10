@@ -2046,6 +2046,13 @@ defined
 (
 __aarch64__
 )
+&
+&
+!
+defined
+(
+__powerpc__
+)
 #
 define
 MALLOC_STATIC_PAGESIZE
