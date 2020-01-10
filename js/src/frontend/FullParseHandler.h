@@ -4674,8 +4674,6 @@ Node
 defaultValue
 )
 ;
-private
-:
 void
 checkAndSetIsDirectRHSAnonFunction
 (
@@ -4701,8 +4699,6 @@ true
 ;
 }
 }
-public
-:
 FunctionNodeType
 newFunction
 (
