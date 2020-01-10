@@ -2086,6 +2086,11 @@ MapStreamToPlainText
 void
 MapStreamToHttpConnection
 (
+int32_t
+httpResponseCode
+=
+-
+1
 )
 ;
 bool

@@ -1399,6 +1399,8 @@ aTransport
 nsHttpConnectionInfo
 *
 aConnInfo
+int32_t
+httpResponseCode
 )
 ;
 MOZ_MUST_USE

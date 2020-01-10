@@ -7078,6 +7078,7 @@ MapStreamToPlainText
 }
 MapStreamToHttpConnection
 (
+httpResponseCode
 )
 ;
 ClearTransactionsBlockedOnTunnel
@@ -10831,6 +10832,8 @@ Http2Stream
 :
 MapStreamToHttpConnection
 (
+int32_t
+httpResponseCode
 )
 {
 RefPtr
@@ -10864,6 +10867,12 @@ mTransaction
 ConnectionInfo
 (
 )
+mIsTunnel
+?
+httpResponseCode
+:
+-
+1
 )
 ;
 }
