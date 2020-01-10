@@ -62,7 +62,12 @@ unicode_literals
 from
 io
 import
+(
+    
 BytesIO
+    
+UnsupportedOperation
+)
 import
 struct
 import
@@ -4799,14 +4804,7 @@ read
 )
 :
                 
-if
-hasattr
-(
-data
-'
-seek
-'
-)
+try
 :
                     
 data
@@ -4815,6 +4813,15 @@ seek
 (
 0
 )
+                
+except
+(
+UnsupportedOperation
+AttributeError
+)
+:
+                    
+pass
                 
 deflater
 .
