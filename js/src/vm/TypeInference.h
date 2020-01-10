@@ -2053,7 +2053,6 @@ script
 *
 /
 static
-inline
 void
 MonitorBytecodeType
 (
@@ -2076,7 +2075,6 @@ val
 )
 ;
 static
-inline
 void
 MonitorBytecodeType
 (
