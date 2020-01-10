@@ -4017,10 +4017,8 @@ aURI
 )
 const
 {
-nsCOMPtr
-<
 nsIURI
->
+*
 baseURI
 =
 GetBaseURI
