@@ -3062,9 +3062,7 @@ break
 frames
 -
 >
-mSamples
-.
-AppendElement
+AppendSample
 (
 frame
 )

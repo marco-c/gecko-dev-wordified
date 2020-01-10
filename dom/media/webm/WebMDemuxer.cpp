@@ -7336,9 +7336,7 @@ false
 samples
 -
 >
-mSamples
-.
-AppendElement
+AppendSample
 (
 sample
 )
