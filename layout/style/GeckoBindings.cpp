@@ -7263,7 +7263,10 @@ SetCropRect
 (
 MakeUnique
 <
-nsStyleSides
+nsStyleImage
+:
+:
+CropRect
 >
 (
 )
