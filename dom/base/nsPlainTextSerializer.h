@@ -566,6 +566,11 @@ noOfRows
 )
 ;
 void
+ResetCurrentLineContentAndIndentationHeader
+(
+)
+;
+void
 FlushLine
 (
 )
