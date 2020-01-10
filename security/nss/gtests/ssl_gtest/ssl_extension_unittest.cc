@@ -2651,6 +2651,8 @@ sha
 -
 256
 rsa
+-
+pss
 const
 uint8_t
 val
@@ -2722,8 +2724,8 @@ val
 0xff
 0xff
 0xff
+0x08
 0x04
-0x01
 }
 ;
 DataBuffer
