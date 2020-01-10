@@ -311,10 +311,6 @@ bookmark_sync
 ;
 extern
 crate
-shift_or_euc_c
-;
-extern
-crate
 arrayvec
 ;
 use

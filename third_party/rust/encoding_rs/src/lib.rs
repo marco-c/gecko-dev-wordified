@@ -149,7 +149,7 @@ encoding_rs
 .
 8
 .
-17
+16
 "
 )
 ]
@@ -53836,6 +53836,10 @@ serialize
 (
 &
 demo
+bincode
+:
+:
+Infinite
 )
 .
 unwrap
