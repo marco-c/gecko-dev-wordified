@@ -21064,9 +21064,9 @@ ExecCommand
 const
 nsAString
 &
-aCommandID
+aHTMLCommandName
 bool
-aDoShowUI
+aShowUI
 const
 nsAString
 &
@@ -21079,7 +21079,7 @@ mozilla
 :
 ErrorResult
 &
-rv
+aRv
 )
 ;
 bool
@@ -21088,7 +21088,7 @@ QueryCommandEnabled
 const
 nsAString
 &
-aCommandID
+aHTMLCommandName
 nsIPrincipal
 &
 aSubjectPrincipal
@@ -21097,7 +21097,7 @@ mozilla
 :
 ErrorResult
 &
-rv
+aRv
 )
 ;
 bool
@@ -21106,13 +21106,13 @@ QueryCommandIndeterm
 const
 nsAString
 &
-aCommandID
+aHTMLCommandName
 mozilla
 :
 :
 ErrorResult
 &
-rv
+aRv
 )
 ;
 bool
@@ -21121,13 +21121,13 @@ QueryCommandState
 const
 nsAString
 &
-aCommandID
+aHTMLCommandName
 mozilla
 :
 :
 ErrorResult
 &
-rv
+aRv
 )
 ;
 bool
@@ -21136,7 +21136,7 @@ QueryCommandSupported
 const
 nsAString
 &
-aCommandID
+aHTMLCommandName
 mozilla
 :
 :
@@ -21150,7 +21150,7 @@ mozilla
 :
 ErrorResult
 &
-rv
+aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -21160,7 +21160,7 @@ QueryCommandValue
 const
 nsAString
 &
-aCommandID
+aHTMLCommandName
 nsAString
 &
 aValue
@@ -21169,7 +21169,7 @@ mozilla
 :
 ErrorResult
 &
-rv
+aRv
 )
 ;
 nsIHTMLCollection
