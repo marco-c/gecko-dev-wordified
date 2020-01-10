@@ -121,6 +121,15 @@ gpu_cache
 GpuCacheUpdateList
 ;
 use
+crate
+:
+:
+frame_builder
+:
+:
+Frame
+;
+use
 fxhash
 :
 :
@@ -243,12 +252,6 @@ capture
 :
 :
 PlainExternalImage
-;
-use
-crate
-:
-:
-render_task_graph
 ;
 pub
 type
@@ -3693,7 +3696,7 @@ coalesced
 /
 Wraps
 a
-render_task_graph
+frame_builder
 :
 :
 Frame
@@ -3709,9 +3712,6 @@ RenderedDocument
 {
 pub
 frame
-:
-render_task_graph
-:
 :
 Frame
 pub

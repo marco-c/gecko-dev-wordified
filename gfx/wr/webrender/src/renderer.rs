@@ -724,6 +724,7 @@ frame_builder
 :
 :
 {
+Frame
 ChasePrimitive
 FrameBuilderConfig
 }
@@ -1070,7 +1071,6 @@ render_task_graph
 :
 :
 {
-Frame
 RenderTarget
 TextureCacheRenderTarget
 }
