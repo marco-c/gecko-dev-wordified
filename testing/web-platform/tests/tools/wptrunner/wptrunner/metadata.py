@@ -2570,8 +2570,6 @@ utf8
 try
 :
             
-test_data
-=
 self
 .
 id_test_map
