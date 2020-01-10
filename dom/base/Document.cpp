@@ -64440,6 +64440,11 @@ IsInPrivateBrowsing
 (
 this
 )
+&
+&
+IsTopLevelContentDocument
+(
+)
 )
 {
 mContentBlockingLog
