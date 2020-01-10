@@ -2080,6 +2080,21 @@ debug
 return
 None
     
+if
+os
+.
+getenv
+(
+'
+MOZ_DISABLE_STACK_FIX
+'
+0
+)
+:
+        
+return
+None
+    
 def
 import_stack_fixer_module
 (
