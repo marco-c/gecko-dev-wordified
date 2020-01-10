@@ -60695,7 +60695,7 @@ define
 NS_LONG_REFLOW_TIME_MS
 5000
 bool
-nsIPresShell
+PresShell
 :
 :
 ProcessReflowCommands
