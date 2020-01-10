@@ -209,6 +209,11 @@ being
 disabled
 .
 Unavailable
+UnavailableInSafeMode
+UnavailableNoGpuProcess
+UnavailableNoHwCompositing
+UnavailableNotBuilt
+UnavailableNoAngle
 /
 /
 This
@@ -259,6 +264,14 @@ test
 failing
 .
 Blocked
+BlockedDeviceUnknown
+BlockedDeviceTooOld
+BlockedVendorUnsupported
+BlockedHasBattery
+BlockedScreenTooLarge
+BlockedScreenUnknown
+BlockedNoGfxInfo
+BlockedOverride
 /
 /
 This
