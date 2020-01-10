@@ -156,6 +156,15 @@ base
 script
 import
 BaseScript
+from
+mozharness
+.
+mozilla
+.
+automation
+import
+EXIT_STATUS_DICT
+TBPL_FAILURE
 BOUNCER_URL_PATTERN
 =
 "
@@ -823,6 +832,13 @@ redo
 import
 retry
         
+from
+requests
+.
+exceptions
+import
+HTTPError
+        
 try
 :
             
@@ -896,7 +912,7 @@ raise_for_status
 )
             
 except
-Exception
+HTTPError
 :
                 
 self
@@ -969,6 +985,15 @@ r
 url
 )
 )
+                
+self
+.
+return_code
+=
+EXIT_STATUS_DICT
+[
+TBPL_FAILURE
+]
             
 if
 final_url
@@ -1010,7 +1035,19 @@ r
 url
 )
 )
+                
+self
+.
+return_code
+=
+EXIT_STATUS_DICT
+[
+TBPL_FAILURE
+]
         
+try
+:
+            
 retry
 (
 do_check_url
@@ -1024,6 +1061,30 @@ attempts
 =
 3
 )
+        
+except
+HTTPError
+:
+            
+#
+The
+error
+was
+already
+logged
+above
+.
+            
+self
+.
+return_code
+=
+EXIT_STATUS_DICT
+[
+TBPL_FAILURE
+]
+            
+return
     
 def
 get_urls
