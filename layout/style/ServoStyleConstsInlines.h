@@ -4308,6 +4308,7 @@ auto
 &
 list
 =
+*
 AsTrackList
 (
 )
@@ -4392,7 +4393,8 @@ return
 AsTrackList
 (
 )
-.
+-
+>
 values
 .
 AsSpan
