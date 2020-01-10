@@ -611,7 +611,7 @@ ThreadSnapshot
 struct
 SavedCheckpoint
 {
-CheckpointId
+size_t
 mCheckpoint
 ;
 SavedThreadStack
@@ -623,7 +623,7 @@ MaxRecordedThreadId
 explicit
 SavedCheckpoint
 (
-CheckpointId
+size_t
 aCheckpoint
 )
 :

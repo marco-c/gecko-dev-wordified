@@ -3155,7 +3155,7 @@ checkpoint
 if
 (
 !
-HasSavedCheckpoint
+HasSavedAnyCheckpoint
 (
 )
 )
@@ -3391,7 +3391,7 @@ zero
 if
 (
 !
-HasSavedCheckpoint
+HasSavedAnyCheckpoint
 (
 )
 )
@@ -3519,7 +3519,7 @@ be
 int
 newProt
 =
-HasSavedCheckpoint
+HasSavedAnyCheckpoint
 (
 )
 ?
@@ -5148,6 +5148,13 @@ pthread_mutex_t
 (
 )
 ;
+js
+:
+:
+BeginIdleTime
+(
+)
+;
 aArguments
 -
 >
@@ -5181,6 +5188,13 @@ mutex
 )
 ;
 }
+)
+;
+js
+:
+:
+EndIdleTime
+(
 )
 ;
 return
@@ -7080,7 +7094,7 @@ block
 MOZ_RELEASE_ASSERT
 (
 !
-HasSavedCheckpoint
+HasSavedAnyCheckpoint
 (
 )
 )
@@ -7183,7 +7197,7 @@ mprotect
 if
 (
 !
-HasSavedCheckpoint
+HasSavedAnyCheckpoint
 (
 )
 )
