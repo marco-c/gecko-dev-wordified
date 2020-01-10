@@ -507,7 +507,6 @@ nsSVGUtils
 GetTransformMatrixInUserSpace
 (
 pathFrame
-this
 )
 *
 (
@@ -1546,12 +1545,6 @@ nsSVGUtils
 GetTransformMatrixInUserSpace
 (
 child
-child
--
->
-GetParent
-(
-)
 )
 *
 mMatrixForChildren
@@ -2118,7 +2111,6 @@ nsSVGUtils
 GetTransformMatrixInUserSpace
 (
 kid
-this
 )
 ;
 if
@@ -2822,12 +2814,6 @@ nsSVGUtils
 GetTransformMatrixInUserSpace
 (
 this
-this
--
->
-GetParent
-(
-)
 )
 ;
 SVGAnimatedEnumeration
@@ -3023,7 +3009,6 @@ nsSVGUtils
 GetTransformMatrixInUserSpace
 (
 frame
-this
 )
 *
 aMatrix

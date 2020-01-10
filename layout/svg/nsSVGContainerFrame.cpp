@@ -2012,7 +2012,6 @@ nsSVGUtils
 GetTransformMatrixInUserSpace
 (
 kid
-this
 )
 *
 m
@@ -3039,7 +3038,6 @@ nsSVGUtils
 GetTransformMatrixInUserSpace
 (
 kid
-this
 )
 *
 transform

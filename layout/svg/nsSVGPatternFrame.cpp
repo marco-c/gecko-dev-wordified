@@ -2886,7 +2886,6 @@ nsSVGUtils
 GetTransformMatrixInUserSpace
 (
 kid
-patternWithChildren
 )
 *
 tm
