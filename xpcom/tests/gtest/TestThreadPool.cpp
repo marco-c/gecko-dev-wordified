@@ -907,7 +907,7 @@ for
 a
 max
 of
-300
+350
 ms
 .
 All
@@ -923,7 +923,7 @@ pool
 >
 ShutdownWithTimeout
 (
-300
+350
 )
 ;
 EXPECT_EQ
@@ -1284,7 +1284,7 @@ for
 a
 max
 of
-300
+350
 ms
 .
 The
@@ -1305,7 +1305,7 @@ pool
 >
 ShutdownWithTimeout
 (
-300
+350
 )
 ;
 /
