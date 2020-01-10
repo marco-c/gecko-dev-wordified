@@ -161,6 +161,10 @@ MA
 1301
 USA
 .
+from
+__future__
+import
+absolute_import
 #
 A
 manifest
