@@ -5767,7 +5767,7 @@ obj
 the
 object
 to
-instal
+install
 the
 properties
 on
