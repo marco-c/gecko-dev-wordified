@@ -3906,7 +3906,7 @@ GetBlobWhenReady
 mRecorder
 -
 >
-GetParentObject
+GetOwner
 (
 )
 NS_ConvertUTF16toUTF8
@@ -4772,7 +4772,7 @@ window
 mRecorder
 -
 >
-GetParentObject
+GetOwner
 (
 )
 ;
