@@ -531,9 +531,11 @@ length
 =
 0
 )
+{
 return
 true
 ;
+}
 rectList
 =
 newList
@@ -580,9 +582,11 @@ i
 ]
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -971,6 +975,7 @@ true
 )
 ;
 }
+;
 checkClipRegionForFrame
 =
 function
@@ -1016,6 +1021,7 @@ true
 )
 ;
 }
+;
 checkClipRegionNoBounds
 =
 function
@@ -1035,6 +1041,7 @@ false
 )
 ;
 }
+;
 function
 loaded
 (

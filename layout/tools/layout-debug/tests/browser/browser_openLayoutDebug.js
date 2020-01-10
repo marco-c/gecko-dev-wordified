@@ -70,6 +70,7 @@ window
 open
 "
 )
+;
 const
 domWindow
 =

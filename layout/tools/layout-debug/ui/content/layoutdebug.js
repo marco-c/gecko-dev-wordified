@@ -255,8 +255,10 @@ gBrowser
 .
 webProgress
 )
+{
 return
 ;
+}
 if
 (
 aStateFlags
@@ -483,6 +485,7 @@ if
 (
 aEnabled
 )
+{
 aButtonElement
 .
 removeAttribute
@@ -492,7 +495,9 @@ disabled
 "
 )
 ;
+}
 else
+{
 aButtonElement
 .
 setAttribute
@@ -505,6 +510,7 @@ true
 "
 )
 ;
+}
 }
 mStatusText
 :
@@ -525,6 +531,7 @@ mLoading
 :
 false
 }
+;
 function
 OnLDBLoad
 (
