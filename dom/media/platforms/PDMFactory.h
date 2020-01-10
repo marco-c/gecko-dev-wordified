@@ -501,7 +501,7 @@ false
 ;
 friend
 class
-VideoDecoderParent
+RemoteVideoDecoderParent
 ;
 static
 void
