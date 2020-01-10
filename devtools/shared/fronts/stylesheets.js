@@ -322,7 +322,7 @@ this
 .
 conn
 .
-getActor
+getFrontByID
 (
 this
 .

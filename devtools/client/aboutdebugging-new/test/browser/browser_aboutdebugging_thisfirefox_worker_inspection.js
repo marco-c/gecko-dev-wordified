@@ -133,7 +133,7 @@ sharedWorkers
 /
 /
 Override
-getActor
+getFrontByID
 of
 client
 and
@@ -158,7 +158,7 @@ thisFirefoxClient
 .
 client
 .
-getActor
+getFrontByID
 =
 id
 =

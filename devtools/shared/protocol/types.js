@@ -2134,6 +2134,14 @@ v
 .
 actor
 ;
+/
+/
+ctx
+.
+conn
+is
+a
+DebuggerClient
 let
 front
 =
@@ -2141,7 +2149,7 @@ ctx
 .
 conn
 .
-getActor
+getFrontByID
 (
 actorID
 )

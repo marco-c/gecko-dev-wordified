@@ -299,7 +299,7 @@ actorID
 (
 which
 means
-getActor
+getFrontByID
 (
 )
 should
@@ -342,7 +342,7 @@ clientWrapper
 .
 client
 .
-getActor
+getFrontByID
 (
 id
 )
