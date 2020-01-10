@@ -132,11 +132,11 @@ like
 from
 raptor
 import
-filter
-  
 filters
+  
+filter_list
 =
-filter
+filters
 .
 ignore_first
 .
@@ -145,7 +145,7 @@ prepare
 1
 )
 +
-filter
+filters
 .
 median
 .
@@ -156,7 +156,7 @@ prepare
 for
 filter
 in
-filters
+filter_list
 :
       
 data
