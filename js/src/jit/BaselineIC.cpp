@@ -38252,7 +38252,7 @@ setSawDoubleResult
 )
 ;
 }
-TryAttachStubOld
+TryAttachStub
 <
 BinaryArithIRGenerator
 >

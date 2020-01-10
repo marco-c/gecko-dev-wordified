@@ -4054,7 +4054,7 @@ op
 )
 ;
 }
-TryAttachIonStubOld
+TryAttachIonStub
 <
 BinaryArithIRGenerator
 IonBinaryArithIC
