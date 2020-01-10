@@ -2693,6 +2693,18 @@ after
 browser
 startup
         
+#
+and
+the
+time
+an
+exception
+is
+propagated
+through
+the
+framework
+        
 timeout
 +
 =
@@ -2706,7 +2718,7 @@ post_startup_delay
 1000
 )
 +
-3
+10
 )
         
 #
@@ -7923,6 +7935,31 @@ timeout
 =
 None
 )
+            
+#
+break
+test
+execution
+if
+a
+exception
+is
+present
+            
+if
+len
+(
+self
+.
+results_handler
+.
+page_timeout_list
+)
+>
+0
+:
+                
+break
     
 def
 run_test_warm
