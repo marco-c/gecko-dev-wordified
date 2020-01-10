@@ -411,7 +411,13 @@ baseConfig
 {
 onMouseOut
 :
+_
+=
+>
 onDOMNodeMouseOut
+(
+object
+)
 }
 )
 ;
