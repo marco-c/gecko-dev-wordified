@@ -187,6 +187,17 @@ mozilla
 /
 dom
 /
+RemoteBrowser
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 CPOWManagerGetter
 .
 h
@@ -956,7 +967,7 @@ aChannel
 static
 already_AddRefed
 <
-BrowserBridgeChild
+RemoteBrowser
 >
 CreateBrowser
 (
