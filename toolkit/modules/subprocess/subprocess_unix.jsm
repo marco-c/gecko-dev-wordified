@@ -818,6 +818,14 @@ environ
 !
 envp
 .
+isNull
+(
+)
+&
+&
+!
+envp
+.
 contents
 .
 isNull
