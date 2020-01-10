@@ -2263,16 +2263,6 @@ be
 nonascii
 ?
 }
-nsCOMPtr
-<
-nsIURI
->
-baseURI
-=
-GetBaseURI
-(
-)
-;
 /
 /
 Create
@@ -2295,7 +2285,9 @@ getter_AddRefs
 uri
 )
 aURL
-baseURI
+GetBaseURI
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS
