@@ -191,12 +191,6 @@ CheckForNewChrome
 override
 ;
 NS_IMETHOD
-CheckForOSAccessibility
-(
-)
-override
-;
-NS_IMETHOD
 GetLocalesForPackage
 (
 const
@@ -614,9 +608,6 @@ mProfileLoaded
 ;
 bool
 mDynamicRegistration
-;
-nsCString
-mSelectedSkin
 ;
 /
 /

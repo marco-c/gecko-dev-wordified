@@ -691,11 +691,6 @@ nsIURI
 aURL
 )
 ;
-void
-FlushSkinBindings
-(
-)
-;
 nsresult
 GetBindingImplementation
 (

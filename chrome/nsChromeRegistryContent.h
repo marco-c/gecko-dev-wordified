@@ -187,12 +187,6 @@ CheckForNewChrome
 override
 ;
 NS_IMETHOD
-CheckForOSAccessibility
-(
-)
-override
-;
-NS_IMETHOD
 Observe
 (
 nsISupports

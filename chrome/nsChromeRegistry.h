@@ -275,12 +275,6 @@ nsIXULChromeRegistry
 methods
 :
 NS_IMETHOD
-RefreshSkins
-(
-)
-override
-;
-NS_IMETHOD
 AllowScriptsForPackage
 (
 nsIURI
