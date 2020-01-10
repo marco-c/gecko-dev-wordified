@@ -10787,6 +10787,14 @@ initLazyScript
 lazy
 )
 ;
+funbox
+-
+>
+setIsInterpretedLazy
+(
+true
+)
+;
 return
 true
 ;
@@ -40877,11 +40885,6 @@ lazyScript
 if
 (
 ctorbox
--
->
-function
-(
-)
 -
 >
 isInterpretedLazy
