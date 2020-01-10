@@ -478,6 +478,11 @@ updated
 void
 ResolutionUpdated
 (
+mozilla
+:
+:
+ResolutionChangeOrigin
+aOrigin
 )
 ;
 /

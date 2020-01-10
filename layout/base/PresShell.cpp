@@ -34470,6 +34470,7 @@ mMobileViewportManager
 >
 ResolutionUpdated
 (
+aOrigin
 )
 ;
 }
