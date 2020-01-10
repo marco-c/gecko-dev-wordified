@@ -495,6 +495,12 @@ spectreValueMasking
 bool
 spectreJitToCxxCalls
 ;
+bool
+supportsFloatingPoint
+;
+bool
+supportsUnalignedAccesses
+;
 DefaultJitOptions
 (
 )
