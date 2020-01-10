@@ -5423,6 +5423,10 @@ KIND
 '
 host
 '
+    
+no_expand_lib
+=
+False
 class
 HostRustLibrary
 (
@@ -5476,6 +5480,10 @@ __slots__
 BaseRustLibrary
 .
 slots
+    
+no_expand_lib
+=
+True
     
 def
 __init__

@@ -134,6 +134,8 @@ BaseLibrary
     
 BaseProgram
     
+BaseRustLibrary
+    
 ChromeManifestEntry
     
 ComputedFlags
@@ -164,8 +166,6 @@ HostLibrary
     
 HostProgram
     
-HostRustLibrary
-    
 HostRustProgram
     
 HostSimpleProgram
@@ -192,11 +192,7 @@ PerSourceFlag
     
 Program
     
-RustLibrary
-    
 HostSharedLibrary
-    
-HostRustLibrary
     
 RustProgram
     
@@ -4800,10 +4796,7 @@ elif
 isinstance
 (
 obj
-(
-RustLibrary
-HostRustLibrary
-)
+BaseRustLibrary
 )
 :
             
@@ -12214,6 +12207,16 @@ in
 shared_libs
 :
             
+assert
+obj
+.
+KIND
+!
+=
+'
+host
+'
+            
 backend_file
 .
 write_once
@@ -12281,6 +12284,25 @@ Rust
 symbols
 .
         
+var
+=
+'
+HOST_LIBS
+'
+if
+obj
+.
+KIND
+=
+=
+'
+host
+'
+else
+'
+STATIC_LIBS
+'
+        
 for
 lib
 in
@@ -12298,7 +12320,7 @@ not
 isinstance
 (
 l
-RustLibrary
+BaseRustLibrary
 )
 )
                 
@@ -12312,7 +12334,7 @@ if
 isinstance
 (
 l
-RustLibrary
+BaseRustLibrary
 )
 )
         
@@ -12324,7 +12346,8 @@ backend_file
 write_once
 (
 '
-STATIC_LIBS
+%
+s
 +
 =
 %
@@ -12334,12 +12357,15 @@ n
 '
 %
                                     
+(
+var
 pretty_relpath
 (
 lib
 lib
 .
 import_name
+)
 )
 )
         
@@ -12429,38 +12455,6 @@ self
 _build_target_for_obj
 (
 lib
-)
-)
-            
-if
-isinstance
-(
-lib
-HostRustLibrary
-)
-:
-                
-backend_file
-.
-write_once
-(
-'
-HOST_LIBS
-+
-=
-%
-s
-\
-n
-'
-%
-                                        
-pretty_relpath
-(
-lib
-lib
-.
-import_name
 )
 )
         
