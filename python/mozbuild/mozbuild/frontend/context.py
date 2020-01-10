@@ -6754,9 +6754,21 @@ def
 __init__
 (
 self
+inclusive
+=
+None
+exclusive
+=
+None
 )
 :
         
+if
+inclusive
+is
+None
+:
+            
 self
 .
 _inclusive
@@ -6774,6 +6786,21 @@ INCLUSIVE_COMPONENTS
 (
 )
         
+else
+:
+            
+self
+.
+_inclusive
+=
+inclusive
+        
+if
+exclusive
+is
+None
+:
+            
 self
 .
 _exclusive
@@ -6784,6 +6811,15 @@ schedules
 .
 EXCLUSIVE_COMPONENTS
 )
+        
+else
+:
+            
+self
+.
+_exclusive
+=
+exclusive
     
 #
 inclusive
@@ -7089,15 +7125,7 @@ other
 )
 :
         
-rv
-=
-Schedules
-(
-)
-        
-rv
-.
-_inclusive
+inclusive
 =
 self
 .
@@ -7118,9 +7146,7 @@ self
 _exclusive
 :
             
-rv
-.
-_exclusive
+exclusive
 =
 self
 .
@@ -7137,9 +7163,7 @@ schedules
 EXCLUSIVE_COMPONENTS
 :
             
-rv
-.
-_exclusive
+exclusive
 =
 other
 .
@@ -7156,9 +7180,7 @@ schedules
 EXCLUSIVE_COMPONENTS
 :
             
-rv
-.
-_exclusive
+exclusive
 =
 self
 .
@@ -7197,16 +7219,22 @@ to
 work
 .
             
-rv
-.
-_exclusive
+exclusive
 =
 other
 .
 _exclusive
         
 return
-rv
+Schedules
+(
+inclusive
+=
+inclusive
+exclusive
+=
+exclusive
+)
 memoize
 def
 ContextDerivedTypedHierarchicalStringList
