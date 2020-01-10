@@ -318,6 +318,7 @@ GetQuotaObject
 mPersistenceType
 mGroup
 mOrigin
+mClientType
 FileStreamBase
 :
 :
@@ -516,6 +517,11 @@ const
 nsACString
 &
 aOrigin
+Client
+:
+:
+Type
+aClientType
 nsIFile
 *
 aFile
@@ -539,6 +545,7 @@ FileInputStream
 aPersistenceType
 aGroup
 aOrigin
+aClientType
 )
 ;
 nsresult
@@ -585,6 +592,11 @@ const
 nsACString
 &
 aOrigin
+Client
+:
+:
+Type
+aClientType
 nsIFile
 *
 aFile
@@ -608,6 +620,7 @@ FileOutputStream
 aPersistenceType
 aGroup
 aOrigin
+aClientType
 )
 ;
 nsresult
@@ -654,6 +667,11 @@ const
 nsACString
 &
 aOrigin
+Client
+:
+:
+Type
+aClientType
 nsIFile
 *
 aFile
@@ -677,6 +695,7 @@ FileStream
 aPersistenceType
 aGroup
 aOrigin
+aClientType
 )
 ;
 nsresult
