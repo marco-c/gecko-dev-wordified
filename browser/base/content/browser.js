@@ -26581,7 +26581,6 @@ aEvent
 validateURIsForDrop
 (
 aEvent
-aURIsCount
 aURIs
 )
 {
@@ -26593,7 +26592,6 @@ droppedLinkHandler
 validateURIsForDrop
 (
 aEvent
-aURIsCount
 aURIs
 )
 ;
@@ -26723,9 +26721,6 @@ browserDragAndDrop
 validateURIsForDrop
 (
 aEvent
-urls
-.
-length
 urls
 )
 ;

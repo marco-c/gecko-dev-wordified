@@ -2197,7 +2197,6 @@ validateURIsForDrop
 function
 (
 aEvent
-aURIsCount
 aURIs
 aDisallowInherit
 )
