@@ -2419,7 +2419,7 @@ locks
 js
 :
 :
-ScriptDataTable
+RuntimeScriptDataTable
 &
 scriptDataTable
 (

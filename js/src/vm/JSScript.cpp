@@ -23747,7 +23747,7 @@ the
 runtime
 '
 s
-ScriptDataTable
+RuntimeScriptDataTable
 or
 frees
 it
@@ -23756,6 +23756,8 @@ a
 matching
 entry
 already
+/
+/
 exists
 .
 bool
@@ -23825,7 +23827,7 @@ lock
 if
 necessary
 .
-SharedScriptDataHasher
+RuntimeScriptDataHasher
 :
 :
 Lookup
@@ -23845,7 +23847,7 @@ runtime
 )
 )
 ;
-ScriptDataTable
+RuntimeScriptDataTable
 :
 :
 AddPtr
@@ -23941,7 +23943,7 @@ AddRef
 Refs
 :
 JSScript
-ScriptDataTable
+RuntimeScriptDataTable
 MOZ_ASSERT
 (
 scriptData
@@ -24010,7 +24012,7 @@ lock
 rt
 )
 ;
-ScriptDataTable
+RuntimeScriptDataTable
 &
 table
 =
@@ -24024,7 +24026,7 @@ lock
 ;
 for
 (
-ScriptDataTable
+RuntimeScriptDataTable
 :
 :
 Enum
@@ -24103,7 +24105,7 @@ lock
 rt
 )
 ;
-ScriptDataTable
+RuntimeScriptDataTable
 &
 table
 =
@@ -24191,7 +24193,7 @@ env
 endif
 for
 (
-ScriptDataTable
+RuntimeScriptDataTable
 :
 :
 Enum
