@@ -3586,6 +3586,7 @@ GetDisplay
 )
 )
 ;
+}
 LOGWAYLAND
 (
 (
@@ -3620,7 +3621,6 @@ surface
 )
 )
 ;
-}
 return
 container
 -
@@ -3747,6 +3747,7 @@ surface
 scale
 )
 ;
+}
 LOGWAYLAND
 (
 (
@@ -3781,7 +3782,6 @@ eglwindow
 )
 )
 ;
-}
 return
 container
 -
