@@ -697,12 +697,8 @@ WorkerTerminated
 )
 ;
 }
-Unused
-<
-<
-Send__delete__
+MaybeSendDelete
 (
-this
 )
 ;
 return
