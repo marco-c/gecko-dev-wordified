@@ -53516,7 +53516,7 @@ readString
 js
 :
 :
-MallocArena
+StringBufferArena
 )
 ;
 }
@@ -53559,7 +53559,7 @@ readString
 js
 :
 :
-MallocArena
+StringBufferArena
 )
 ;
 }
@@ -53599,7 +53599,7 @@ readStringReplaceMalformed
 js
 :
 :
-MallocArena
+StringBufferArena
 )
 ;
 }

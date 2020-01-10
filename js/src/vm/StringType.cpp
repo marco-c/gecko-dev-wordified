@@ -2328,6 +2328,10 @@ CharT
 >
 (
 numChars
+js
+:
+:
+StringBufferArena
 )
 ;
 return
@@ -6561,6 +6565,10 @@ CharT
 n
 +
 1
+js
+:
+:
+StringBufferArena
 )
 ;
 if
@@ -10630,6 +10638,10 @@ char16_t
 n
 +
 1
+js
+:
+:
+StringBufferArena
 )
 ;
 if
@@ -11468,6 +11480,10 @@ Latin1Char
 n
 +
 1
+js
+:
+:
+StringBufferArena
 )
 ;
 if
@@ -11648,6 +11664,10 @@ Latin1Char
 length
 +
 1
+js
+:
+:
+StringBufferArena
 )
 ;
 if
@@ -12481,6 +12501,10 @@ CharT
 n
 +
 1
+js
+:
+:
+StringBufferArena
 )
 ;
 if
@@ -12697,6 +12721,10 @@ char16_t
 length
 +
 1
+js
+:
+:
+StringBufferArena
 )
 ;
 if
@@ -13109,7 +13137,7 @@ length
 js
 :
 :
-MallocArena
+StringBufferArena
 )
 .
 get
@@ -13171,7 +13199,7 @@ length
 js
 :
 :
-MallocArena
+StringBufferArena
 )
 .
 get

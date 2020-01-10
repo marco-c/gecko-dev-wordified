@@ -7277,7 +7277,7 @@ nbytes
 js
 :
 :
-MallocArena
+StringBufferArena
 )
 )
 ;
@@ -7336,7 +7336,7 @@ newBytes
 js
 :
 :
-MallocArena
+StringBufferArena
 )
 )
 ;

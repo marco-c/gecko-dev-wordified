@@ -15710,7 +15710,7 @@ DuplicateStringToArena
 js
 :
 :
-MallocArena
+StringBufferArena
 cx
 frames
 [
@@ -22242,7 +22242,7 @@ DuplicateStringToArena
 js
 :
 :
-MallocArena
+StringBufferArena
 cx
 edge
 .

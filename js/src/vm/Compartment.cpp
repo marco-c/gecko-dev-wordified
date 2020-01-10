@@ -906,7 +906,7 @@ cx
 js
 :
 :
-MallocArena
+StringBufferArena
 )
 ;
 if
@@ -953,7 +953,7 @@ cx
 js
 :
 :
-MallocArena
+StringBufferArena
 )
 ;
 if
