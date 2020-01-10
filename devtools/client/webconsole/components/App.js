@@ -630,6 +630,11 @@ editorWidth
 PropTypes
 .
 number
+hidePersistLogsCheckbox
+:
+PropTypes
+.
+bool
 hideShowContentMessagesCheckbox
 :
 PropTypes
@@ -1524,9 +1529,9 @@ renderFilterBar
 {
 const
 {
-webConsoleUI
 closeSplitConsole
 filterBarDisplayMode
+hidePersistLogsCheckbox
 hideShowContentMessagesCheckbox
 }
 =
@@ -1544,10 +1549,6 @@ key
 filterbar
 "
 hidePersistLogsCheckbox
-:
-webConsoleUI
-.
-isBrowserConsole
 hideShowContentMessagesCheckbox
 closeSplitConsole
 displayMode
