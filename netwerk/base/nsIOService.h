@@ -691,12 +691,6 @@ BlockToplevelDataUriNavigations
 (
 )
 ;
-static
-bool
-BlockFTPSubresources
-(
-)
-;
 /
 /
 Used
@@ -1360,10 +1354,6 @@ sIsDataURIUniqueOpaqueOrigin
 static
 bool
 sBlockToplevelDataUriNavigations
-;
-static
-bool
-sBlockFTPSubresources
 ;
 uint32_t
 mTotalRequests
