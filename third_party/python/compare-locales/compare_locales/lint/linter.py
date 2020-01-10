@@ -163,6 +163,11 @@ path
 )
         
 if
+ref
+is
+not
+None
+and
 os
 .
 path
@@ -665,6 +670,29 @@ current_entity
 )
 :
                 
+if
+isinstance
+(
+pos
+checks
+.
+EntityPos
+)
+:
+                    
+lineno
+col
+=
+current_entity
+.
+position
+(
+pos
+)
+                
+else
+:
+                    
 lineno
 col
 =

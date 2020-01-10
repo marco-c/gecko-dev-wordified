@@ -1760,10 +1760,6 @@ inipath
 basepath
 l10nbase
 redirects
-                 
-locales
-=
-None
 )
 :
         
@@ -1786,7 +1782,6 @@ __init__
 self
 inipath
 l10nbase
-locales
 )
     
 def

@@ -183,6 +183,27 @@ report
 '
 '
         
+for
+encoding_trouble
+in
+super
+(
+            
+AndroidChecker
+self
+        
+)
+.
+check
+(
+refEnt
+l10nEnt
+)
+:
+            
+yield
+encoding_trouble
+        
 refNode
 =
 refEnt

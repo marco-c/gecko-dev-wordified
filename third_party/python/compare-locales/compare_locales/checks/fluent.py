@@ -2198,6 +2198,27 @@ l10nEnt
 )
 :
         
+for
+encoding_trouble
+in
+super
+(
+            
+FluentChecker
+self
+        
+)
+.
+check
+(
+refEnt
+l10nEnt
+)
+:
+            
+yield
+encoding_trouble
+        
 l10n_entry
 =
 l10nEnt
