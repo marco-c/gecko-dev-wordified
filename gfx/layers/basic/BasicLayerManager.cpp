@@ -405,6 +405,15 @@ include
 "
 mozilla
 /
+StaticPrefs_nglayout
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WidgetUtils
 .
 h

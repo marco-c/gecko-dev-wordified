@@ -149,7 +149,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_dom
 .
 h
 "

@@ -184,6 +184,15 @@ include
 "
 mozilla
 /
+StaticPrefs_gfx
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h

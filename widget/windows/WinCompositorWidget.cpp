@@ -105,6 +105,15 @@ include
 "
 mozilla
 /
+StaticPrefs_layers
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 DeviceManagerDx

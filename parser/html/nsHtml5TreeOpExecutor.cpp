@@ -199,7 +199,16 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_security
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs_view_source
 .
 h
 "

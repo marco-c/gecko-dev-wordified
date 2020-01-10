@@ -458,6 +458,15 @@ PresShell
 h
 "
 #
+include
+"
+mozilla
+/
+StaticPrefs_image
+.
+h
+"
+#
 ifdef
 LoadImage
 /

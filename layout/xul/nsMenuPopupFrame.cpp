@@ -470,6 +470,15 @@ include
 "
 mozilla
 /
+StaticPrefs_xul
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element

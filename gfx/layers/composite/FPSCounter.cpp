@@ -242,14 +242,10 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_layers
 .
 h
 "
-/
-/
-for
-StaticPrefs
 #
 include
 "

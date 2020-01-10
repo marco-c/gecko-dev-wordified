@@ -161,7 +161,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_mousewheel
 .
 h
 "

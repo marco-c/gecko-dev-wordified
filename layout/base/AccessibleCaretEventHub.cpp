@@ -174,7 +174,16 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_layout
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs_ui
 .
 h
 "

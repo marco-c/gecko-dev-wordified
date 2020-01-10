@@ -157,6 +157,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs_extensions
+.
+h
+"
+#
+include
+"
 nsEscape
 .
 h

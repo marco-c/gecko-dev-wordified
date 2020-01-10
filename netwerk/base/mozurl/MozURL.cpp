@@ -61,7 +61,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_security
 .
 h
 "

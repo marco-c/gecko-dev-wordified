@@ -206,14 +206,10 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_image
 .
 h
 "
-/
-/
-for
-StaticPrefs
 #
 include
 "

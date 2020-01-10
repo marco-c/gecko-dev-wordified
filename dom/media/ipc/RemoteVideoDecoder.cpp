@@ -247,6 +247,15 @@ include
 "
 mozilla
 /
+StaticPrefs_media
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 TextureClient

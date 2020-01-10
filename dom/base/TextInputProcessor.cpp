@@ -148,6 +148,15 @@ include
 "
 mozilla
 /
+StaticPrefs_test
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TextEventDispatcher
 .
 h

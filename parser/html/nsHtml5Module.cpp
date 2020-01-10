@@ -95,7 +95,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_html5
 .
 h
 "

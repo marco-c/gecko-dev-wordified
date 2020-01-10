@@ -264,6 +264,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs_media
+.
+h
+"
+#
+include
+"
 nsIPermissionManager
 .
 h

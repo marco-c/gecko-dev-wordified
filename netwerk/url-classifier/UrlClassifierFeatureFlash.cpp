@@ -135,6 +135,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs_plugins
+.
+h
+"
+#
+include
+"
 nsScriptSecurityManager
 .
 h

@@ -121,6 +121,15 @@ ScrollAnimationBezierPhysics
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StaticPrefs_general
+.
+h
+"
 using
 namespace
 mozilla

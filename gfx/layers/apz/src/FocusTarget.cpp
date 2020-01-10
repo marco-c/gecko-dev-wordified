@@ -199,6 +199,15 @@ PresShell
 #
 include
 "
+mozilla
+/
+StaticPrefs_apz
+.
+h
+"
+#
+include
+"
 nsIContentInlines
 .
 h

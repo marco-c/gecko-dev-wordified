@@ -151,7 +151,16 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_accessibility
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs_media
 .
 h
 "

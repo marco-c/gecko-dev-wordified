@@ -178,6 +178,15 @@ include
 "
 mozilla
 /
+StaticPrefs_editor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D

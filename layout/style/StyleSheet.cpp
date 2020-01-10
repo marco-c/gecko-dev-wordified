@@ -261,7 +261,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_layout
 .
 h
 "

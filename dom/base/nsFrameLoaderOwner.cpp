@@ -191,6 +191,15 @@ MozFrameLoaderOwnerBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StaticPrefs_fission
+.
+h
+"
 using
 namespace
 mozilla

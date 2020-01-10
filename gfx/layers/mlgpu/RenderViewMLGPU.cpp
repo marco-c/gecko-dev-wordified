@@ -140,7 +140,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_layers
 .
 h
 "

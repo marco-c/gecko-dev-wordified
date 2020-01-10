@@ -227,7 +227,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+SystemGroup
 .
 h
 "
@@ -236,7 +236,16 @@ include
 "
 mozilla
 /
-SystemGroup
+StaticPrefs_intl
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs_html5
 .
 h
 "

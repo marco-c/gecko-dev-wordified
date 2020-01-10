@@ -151,7 +151,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_privacy
 .
 h
 "

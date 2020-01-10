@@ -195,7 +195,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_print
 .
 h
 "

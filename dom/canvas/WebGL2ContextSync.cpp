@@ -114,6 +114,15 @@ WebGLSync
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StaticPrefs_webgl
+.
+h
+"
 namespace
 mozilla
 {

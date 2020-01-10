@@ -174,6 +174,15 @@ include
 "
 mozilla
 /
+StaticPrefs_apz
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h

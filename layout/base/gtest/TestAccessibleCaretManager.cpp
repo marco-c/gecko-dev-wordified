@@ -160,15 +160,6 @@ Preferences
 .
 h
 "
-#
-include
-"
-mozilla
-/
-StaticPrefs
-.
-h
-"
 using
 :
 :

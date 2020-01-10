@@ -180,14 +180,10 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_apz
 .
 h
 "
-/
-/
-for
-StaticPrefs
 #
 include
 "
