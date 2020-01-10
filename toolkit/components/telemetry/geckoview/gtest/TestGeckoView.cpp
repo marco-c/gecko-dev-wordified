@@ -2916,6 +2916,8 @@ recorded
 .
 *
 /
+/
+*
 TEST_F
 (
 TelemetryGeckoViewFixture
@@ -3082,6 +3084,8 @@ RemovePersistenceFile
 )
 ;
 }
+*
+/
 TEST_F
 (
 TelemetryGeckoViewFixture
