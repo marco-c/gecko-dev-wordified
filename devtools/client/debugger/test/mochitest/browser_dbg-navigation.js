@@ -367,6 +367,12 @@ js
 )
 ;
 await
+waitForRequestsToSettle
+(
+dbg
+)
+;
+await
 reload
 (
 dbg

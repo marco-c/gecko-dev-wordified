@@ -329,6 +329,14 @@ line
 }
 )
 ;
+await
+client
+.
+waitForRequestsToSettle
+(
+)
+;
+await
 threadClient
 .
 resume

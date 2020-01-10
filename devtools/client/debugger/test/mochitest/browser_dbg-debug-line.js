@@ -231,6 +231,12 @@ frame
 )
 ;
 await
+waitForRequestsToSettle
+(
+dbg
+)
+;
+await
 waitForSelectedSource
 (
 dbg
@@ -253,6 +259,7 @@ would
 trigger
 the
 problem
+await
 resume
 (
 dbg

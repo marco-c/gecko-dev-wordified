@@ -280,6 +280,13 @@ isBlackBoxed
 false
 )
 ;
+await
+gThreadClient
+.
+resume
+(
+)
+;
 finishClient
 (
 gClient

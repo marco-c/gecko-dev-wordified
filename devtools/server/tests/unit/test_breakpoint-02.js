@@ -66,6 +66,7 @@ threadClientTest
 (
 {
 threadClient
+client
 debuggee
 }
 )
@@ -129,6 +130,7 @@ line0
 3
 }
 ;
+await
 threadClient
 .
 resume
@@ -194,6 +196,13 @@ setBreakpoint
 location
 {
 }
+)
+;
+await
+client
+.
+waitForRequestsToSettle
+(
 )
 ;
 executeSoon

@@ -578,6 +578,7 @@ once
 "
 paused
 "
+async
 function
 (
 packet
@@ -654,6 +655,7 @@ gClient
 }
 )
 ;
+await
 gThreadClient
 .
 resume
