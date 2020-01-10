@@ -4698,7 +4698,7 @@ arenas
 offset
 ]
 ;
-MarkPagesInUse
+MarkPagesInUseSoft
 (
 arena
 ArenaSize
@@ -5602,7 +5602,7 @@ clear
 true
 )
 ;
-MarkPagesUnused
+MarkPagesUnusedSoft
 (
 &
 arenas

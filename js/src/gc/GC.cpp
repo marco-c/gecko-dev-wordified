@@ -6557,7 +6557,7 @@ lock
 ;
 ok
 =
-MarkPagesUnused
+MarkPagesUnusedSoft
 (
 arena
 ArenaSize
@@ -6647,7 +6647,7 @@ continue
 }
 if
 (
-MarkPagesUnused
+MarkPagesUnusedSoft
 (
 &
 arenas

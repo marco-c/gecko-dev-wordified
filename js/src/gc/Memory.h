@@ -309,7 +309,7 @@ some
 platforms
 .
 bool
-MarkPagesUnused
+MarkPagesUnusedSoft
 (
 void
 *
@@ -322,7 +322,7 @@ size
 /
 Undo
 |
-MarkPagesUnused
+MarkPagesUnusedSoft
 |
 :
 tell
@@ -360,7 +360,7 @@ some
 platforms
 .
 void
-MarkPagesInUse
+MarkPagesInUseSoft
 (
 void
 *
