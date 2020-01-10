@@ -105,6 +105,24 @@ quote
 as
 shell_quote
 class
+ConfigStatusFailure
+(
+Exception
+)
+:
+    
+"
+"
+"
+Error
+loading
+config
+.
+status
+"
+"
+"
+class
 BuildConfig
 (
 object
@@ -390,6 +408,9 @@ l
 {
 }
         
+try
+:
+            
 exec
 (
 code_cache
@@ -401,6 +422,15 @@ path
 ]
 g
 l
+)
+        
+except
+Exception
+:
+            
+raise
+ConfigStatusFailure
+(
 )
         
 config
