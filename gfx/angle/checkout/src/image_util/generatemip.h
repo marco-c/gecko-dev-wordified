@@ -139,7 +139,7 @@ include
 "
 generatemip
 .
-inc
+inl
 "
 #
 endif

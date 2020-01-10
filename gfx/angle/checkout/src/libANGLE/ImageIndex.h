@@ -301,8 +301,6 @@ TextureTarget
 target
 GLint
 levelIndex
-GLint
-depth
 )
 ;
 static

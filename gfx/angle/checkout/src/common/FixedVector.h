@@ -413,12 +413,11 @@ size
 )
 const
 ;
-static
-constexpr
 size_type
 max_size
 (
 )
+const
 ;
 void
 clear
@@ -1558,7 +1557,6 @@ N
 class
 Storage
 >
-constexpr
 typename
 FixedVector
 <
@@ -1580,6 +1578,7 @@ Storage
 max_size
 (
 )
+const
 {
 return
 N

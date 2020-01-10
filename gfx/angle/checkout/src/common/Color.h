@@ -500,7 +500,7 @@ include
 "
 Color
 .
-inc
+inl
 "
 #
 endif

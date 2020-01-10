@@ -261,11 +261,6 @@ std
 string
 &
 message
-gl
-:
-:
-LogSeverity
-logSeverity
 )
 const
 ;
@@ -287,11 +282,6 @@ string
 &
 &
 message
-gl
-:
-:
-LogSeverity
-logSeverity
 )
 const
 ;

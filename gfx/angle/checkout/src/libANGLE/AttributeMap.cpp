@@ -210,7 +210,12 @@ key
 ;
 return
 (
-iter
+mAttributes
+.
+find
+(
+key
+)
 !
 =
 mAttributes

@@ -96,17 +96,6 @@ Observer
 h
 "
 namespace
-gl
-{
-class
-Context
-;
-}
-/
-/
-namespace
-gl
-namespace
 rx
 {
 class

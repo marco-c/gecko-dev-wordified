@@ -55,15 +55,6 @@ include
 <
 string
 >
-#
-include
-"
-GLSLANG
-/
-ShaderLang
-.
-h
-"
 namespace
 angle
 {
@@ -221,8 +212,6 @@ SourceLocation
 loc
 int
 version
-ShShaderSpec
-spec
 )
 =
 0
