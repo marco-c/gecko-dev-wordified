@@ -237,6 +237,8 @@ require
 "
 .
 /
+websockets
+/
 WebSocketsPanel
 "
 )
@@ -838,6 +840,7 @@ WebSocketsPanel
 (
 {
 channelId
+connector
 }
 )
 )
