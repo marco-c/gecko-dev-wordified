@@ -276,9 +276,11 @@ querySelectorAll
 (
 "
 .
-textbox
+security
 -
-input
+info
+-
+value
 "
 )
 ;
@@ -318,7 +320,7 @@ textboxes
 0
 ]
 .
-value
+textContent
 ;
 ok
 (
@@ -406,7 +408,7 @@ textboxes
 1
 ]
 .
-value
+textContent
 ;
 ok
 (
@@ -494,7 +496,7 @@ textboxes
 2
 ]
 .
-value
+textContent
 !
 =
 =
@@ -517,7 +519,7 @@ textboxes
 3
 ]
 .
-value
+textContent
 !
 =
 =
@@ -540,7 +542,7 @@ textboxes
 4
 ]
 .
-value
+textContent
 "
 Disabled
 "
@@ -561,7 +563,7 @@ textboxes
 5
 ]
 .
-value
+textContent
 "
 Disabled
 "
@@ -585,7 +587,7 @@ textboxes
 6
 ]
 .
-value
+textContent
 "
 example
 .
@@ -608,7 +610,7 @@ textboxes
 7
 ]
 .
-value
+textContent
 "
 <
 Not
@@ -632,7 +634,7 @@ textboxes
 8
 ]
 .
-value
+textContent
 "
 <
 Not
@@ -656,7 +658,7 @@ textboxes
 9
 ]
 .
-value
+textContent
 "
 Temporary
 Certificate
@@ -679,7 +681,7 @@ textboxes
 10
 ]
 .
-value
+textContent
 "
 Mozilla
 Testing
@@ -701,7 +703,7 @@ textboxes
 11
 ]
 .
-value
+textContent
 "
 Profile
 Guided
@@ -726,7 +728,7 @@ varies
 between
 timezones
 .
-Cant
+Can
 '
 t
 compare
@@ -761,7 +763,7 @@ textboxes
 12
 ]
 .
-value
+textContent
 "
 "
 "
@@ -785,7 +787,7 @@ textboxes
 13
 ]
 .
-value
+textContent
 "
 "
 "
@@ -809,7 +811,7 @@ textboxes
 14
 ]
 .
-value
+textContent
 "
 "
 "
@@ -833,7 +835,7 @@ textboxes
 15
 ]
 .
-value
+textContent
 "
 "
 "
@@ -856,7 +858,7 @@ textboxes
 16
 ]
 .
-value
+textContent
 "
 "
 "
