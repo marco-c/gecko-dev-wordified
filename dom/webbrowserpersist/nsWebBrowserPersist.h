@@ -306,11 +306,9 @@ nsContentPolicyType
 aContentPolicyType
 uint32_t
 aCacheKey
-nsIURI
+nsIReferrerInfo
 *
-aReferrer
-uint32_t
-aReferrerPolicy
+aReferrerInfo
 nsIInputStream
 *
 aPostData
