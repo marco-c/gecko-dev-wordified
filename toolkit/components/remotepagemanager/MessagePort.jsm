@@ -445,6 +445,17 @@ monitor
 .
 url
 "
+"
+browser
+.
+contentblocking
+.
+report
+.
+manage_devices
+.
+url
+"
 ]
 getFormatURLPref
 :
