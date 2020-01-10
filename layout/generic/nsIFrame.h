@@ -28970,13 +28970,6 @@ const
 ;
 inline
 bool
-IsBlockInside
-(
-)
-const
-;
-inline
-bool
 IsBlockOutside
 (
 )
