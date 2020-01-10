@@ -760,13 +760,9 @@ url
 URL
 :
 :
-Constructor
+WorkerConstructor
 (
 aGlobal
-.
-GetAsSupports
-(
-)
 aUrl
 baseURL
 aRv
