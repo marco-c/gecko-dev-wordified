@@ -294,6 +294,13 @@ aHeight
 )
 ;
 bool
+SetFixedBottomOffset
+(
+int32_t
+aOffset
+)
+;
+bool
 SetPinned
 (
 const
