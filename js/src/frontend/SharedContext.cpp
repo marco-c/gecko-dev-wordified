@@ -1084,6 +1084,10 @@ isMethod
 (
 )
 )
+nargs_
+(
+0
+)
 kind_
 (
 fun
