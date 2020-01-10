@@ -8118,7 +8118,7 @@ event
 )
 -
 >
-RunDOMEventWhenSafe
+PostDOMEvent
 (
 )
 ;
