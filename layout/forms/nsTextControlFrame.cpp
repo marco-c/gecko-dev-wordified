@@ -5451,7 +5451,7 @@ StealNSResult
 selection
 -
 >
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 range

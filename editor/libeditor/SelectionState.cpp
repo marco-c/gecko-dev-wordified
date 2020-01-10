@@ -813,7 +813,7 @@ rv
 aSel
 -
 >
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 range

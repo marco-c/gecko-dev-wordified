@@ -10439,7 +10439,7 @@ err
 aSpellCheckSelection
 -
 >
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 aRange

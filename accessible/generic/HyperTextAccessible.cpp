@@ -11003,7 +11003,7 @@ err
 domSel
 -
 >
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 range

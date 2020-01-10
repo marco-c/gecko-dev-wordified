@@ -7048,7 +7048,7 @@ SelectionRefPtr
 )
 -
 >
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 aReplaceRange

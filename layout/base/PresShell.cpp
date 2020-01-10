@@ -20067,7 +20067,7 @@ IgnoreErrors
 sel
 -
 >
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 jumpToRange

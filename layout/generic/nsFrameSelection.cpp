@@ -7885,7 +7885,7 @@ index
 ]
 -
 >
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 newRange
@@ -16466,7 +16466,7 @@ index
 ]
 -
 >
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 range

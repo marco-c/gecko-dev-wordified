@@ -15382,7 +15382,7 @@ inx
 selectionPS
 -
 >
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 selection
@@ -18759,7 +18759,7 @@ Collapsed
 selection
 -
 >
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 range
@@ -19051,7 +19051,7 @@ Collapsed
 selection
 -
 >
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 lastRange

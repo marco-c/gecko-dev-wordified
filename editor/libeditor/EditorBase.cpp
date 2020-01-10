@@ -18523,7 +18523,7 @@ range
 mSelection
 -
 >
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 newRange
@@ -19753,7 +19753,7 @@ range
 mSelection
 -
 >
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 newRange
@@ -26126,7 +26126,7 @@ SelectionRefPtr
 )
 -
 >
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 range

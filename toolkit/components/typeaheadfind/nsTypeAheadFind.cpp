@@ -3645,7 +3645,7 @@ IgnoreErrors
 selection
 -
 >
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 returnRange
