@@ -1403,11 +1403,15 @@ nsPIDOMWindowInner
 topInner
 =
 top
+?
+top
 -
 >
 GetCurrentInnerWindow
 (
 )
+:
+nullptr
 ;
 if
 (
