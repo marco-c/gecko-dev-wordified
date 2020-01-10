@@ -153,6 +153,13 @@ h
 #
 include
 "
+nsIGIOService
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h

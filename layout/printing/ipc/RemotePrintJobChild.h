@@ -223,6 +223,7 @@ FileDescriptor
 &
 aFd
 )
+final
 ;
 void
 ProcessPage
@@ -243,6 +244,7 @@ FileDescriptor
 &
 aFd
 )
+final
 ;
 mozilla
 :
@@ -258,6 +260,7 @@ nsresult
 &
 aRv
 )
+final
 ;
 void
 SetPagePrintTimer
