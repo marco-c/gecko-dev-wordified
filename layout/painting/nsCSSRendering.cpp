@@ -6864,6 +6864,10 @@ ourOutline
 -
 >
 mOutlineOffset
+.
+ToAppUnits
+(
+)
 ;
 innerRect
 .

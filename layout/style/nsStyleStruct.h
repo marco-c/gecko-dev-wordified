@@ -7283,7 +7283,10 @@ comment
 nscoord
 mOutlineWidth
 ;
-nscoord
+mozilla
+:
+:
+Length
 mOutlineOffset
 ;
 mozilla

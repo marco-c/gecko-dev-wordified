@@ -65400,6 +65400,10 @@ outline
 -
 >
 mOutlineOffset
+.
+ToAppUnits
+(
+)
 ;
 nsRect
 outerRect
