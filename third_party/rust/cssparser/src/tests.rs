@@ -112,33 +112,33 @@ super
 :
 :
 {
-Parser
-Delimiter
-Token
-SourceLocation
-ParseError
-ParseErrorKind
-BasicParseError
-BasicParseErrorKind
-DeclarationListParser
-DeclarationParser
-RuleListParser
-AtRuleType
-AtRuleParser
-QualifiedRuleParser
-ParserInput
+parse_important
+parse_nth
 parse_one_declaration
 parse_one_rule
-parse_important
 stylesheet_encoding
-EncodingSupport
-TokenSerializationType
-CowRcStr
+AtRuleParser
+AtRuleType
+BasicParseError
+BasicParseErrorKind
 Color
-RGBA
-parse_nth
-UnicodeRange
+CowRcStr
+DeclarationListParser
+DeclarationParser
+Delimiter
+EncodingSupport
+ParseError
+ParseErrorKind
+Parser
+ParserInput
+QualifiedRuleParser
+RuleListParser
+SourceLocation
 ToCss
+Token
+TokenSerializationType
+UnicodeRange
+RGBA
 }
 ;
 macro_rules
@@ -902,7 +902,6 @@ json_data
 input
 expected
 |
-{
 match
 input
 {
@@ -968,7 +967,6 @@ JSON
 "
 )
 }
-}
 )
 ;
 }
@@ -1001,7 +999,6 @@ json
 |
 input
 |
-{
 Json
 :
 :
@@ -1012,7 +1009,6 @@ component_values_to_json
 input
 )
 )
-}
 )
 ;
 }
@@ -1155,7 +1151,6 @@ map
 |
 result
 |
-{
 result
 .
 unwrap_or
@@ -1171,7 +1166,6 @@ invalid
 "
 ]
 )
-}
 )
 .
 collect
@@ -1286,7 +1280,6 @@ map
 |
 result
 |
-{
 result
 .
 unwrap_or
@@ -1302,7 +1295,6 @@ invalid
 "
 ]
 )
-}
 )
 .
 collect
@@ -1362,7 +1354,6 @@ map
 |
 result
 |
-{
 result
 .
 unwrap_or
@@ -1378,7 +1369,6 @@ invalid
 "
 ]
 )
-}
 )
 .
 collect
@@ -2364,7 +2354,6 @@ parse_nested_block
 |
 input
 |
-{
 input
 .
 expect_function_matching
@@ -2390,7 +2379,6 @@ ParseError
 :
 into
 )
-}
 )
 .
 is_ok
@@ -3377,7 +3365,6 @@ parse_entirely
 |
 i
 |
-{
 Color
 :
 :
@@ -3393,7 +3380,6 @@ Into
 :
 into
 )
-}
 )
 ;
 to_json
@@ -3442,6 +3428,7 @@ json
 |
 c
 |
+{
 c
 .
 ok
@@ -3451,6 +3438,7 @@ ok
 to_json
 (
 )
+}
 )
 }
 #
@@ -3482,6 +3470,7 @@ json
 |
 c
 |
+{
 c
 .
 ok
@@ -3491,6 +3480,7 @@ ok
 to_json
 (
 )
+}
 )
 }
 /
@@ -3965,6 +3955,7 @@ Token
 ParenthesisBlock
 =
 >
+{
 Some
 (
 Token
@@ -3972,6 +3963,7 @@ Token
 :
 CloseParenthesis
 )
+}
 Token
 :
 :
@@ -5097,16 +5089,16 @@ use
 std
 :
 :
-iter
-:
-:
-repeat
+f32
 ;
 use
 std
 :
 :
-f32
+iter
+:
+:
+repeat
 ;
 let
 css
@@ -7542,7 +7534,6 @@ rgba
 )
 =
 >
-{
 [
 rgba
 .
@@ -7561,7 +7552,6 @@ alpha
 to_json
 (
 )
-}
 Color
 :
 :
@@ -7680,7 +7670,7 @@ result
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -8116,6 +8106,7 @@ important
 true
 ;
 break
+;
 }
 }
 input
@@ -8158,6 +8149,7 @@ input
 else
 {
 break
+;
 }
 }
 Ok
@@ -8845,7 +8837,6 @@ parse_nested_block
 |
 input
 |
-{
 Ok
 (
 component_values_to_json
@@ -8853,7 +8844,6 @@ component_values_to_json
 input
 )
 )
-}
 )
 ;
 result
@@ -10097,6 +10087,7 @@ _
 ox
 {
 break
+;
 }
 }
 Ok

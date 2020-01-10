@@ -68,22 +68,6 @@ Notation
 use
 itoa
 ;
-#
-[
-allow
-(
-unused_imports
-)
-]
-use
-std
-:
-:
-ascii
-:
-:
-AsciiExt
-;
 use
 std
 :
@@ -681,7 +665,6 @@ has_sign
 }
 =
 >
-{
 write_numeric
 (
 value
@@ -690,7 +673,6 @@ has_sign
 dest
 )
 ?
-}
 Token
 :
 :
@@ -1588,6 +1570,7 @@ Ok
 (
 )
 )
+;
 }
 if
 value
@@ -2361,9 +2344,6 @@ Write
 /
 /
 /
-try
-!
-(
 dest
 .
 write_str
@@ -2373,7 +2353,7 @@ write_str
 "
 "
 )
-)
+?
 ;
 /
 /
@@ -2412,9 +2392,6 @@ string_dest
 /
 /
 /
-try
-!
-(
 dest
 .
 write_str
@@ -2424,7 +2401,7 @@ write_str
 "
 "
 )
-)
+?
 ;
 /
 /
@@ -3029,6 +3006,7 @@ Error
 }
 }
 }
+;
 }
 impl_tocss_for_int
 !
@@ -3148,6 +3126,7 @@ _
 }
 }
 }
+;
 }
 impl_tocss_for_float
 !
