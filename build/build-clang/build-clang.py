@@ -87,20 +87,22 @@ import
 errno
 import
 re
+import
+sys
 from
 contextlib
 import
 contextmanager
-import
-sys
-import
-which
 from
 distutils
 .
 dir_util
 import
 copy_tree
+from
+mozfile
+import
+which
 def
 symlink
 (
@@ -3787,12 +3789,8 @@ on
 PATH
 .
     
-try
-:
-        
-return
-which
-.
+tool
+=
 which
 (
 f
@@ -3801,16 +3799,13 @@ if
 f
 else
 which
-.
-which
 (
 key
 )
     
-except
-which
-.
-WhichError
+if
+not
+tool
 :
         
 raise
@@ -3825,8 +3820,15 @@ on
 PATH
 "
 %
+(
 f
+or
+key
 )
+)
+    
+return
+tool
 #
 This
 function

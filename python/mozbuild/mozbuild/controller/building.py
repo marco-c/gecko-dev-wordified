@@ -77,8 +77,6 @@ import
 sys
 import
 time
-import
-which
 from
 collections
 import
@@ -3504,12 +3502,9 @@ ccache_stats
 =
 None
         
-try
-:
-            
 ccache
 =
-which
+mozfile
 .
 which
 (
@@ -3517,7 +3512,14 @@ which
 ccache
 '
 )
+        
+if
+ccache
+:
             
+try
+:
+                
 output
 =
 subprocess
@@ -3532,28 +3534,20 @@ s
 '
 ]
 )
-            
+                
 ccache_stats
 =
 CCacheStats
 (
 output
 )
-        
-except
-which
-.
-WhichError
-:
             
-pass
-        
 except
 ValueError
 as
 e
 :
-            
+                
 self
 .
 log
