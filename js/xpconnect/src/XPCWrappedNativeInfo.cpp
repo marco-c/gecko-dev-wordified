@@ -1785,10 +1785,12 @@ continue
 if
 (
 !
-info
-.
-IsReflectable
+XPCConvert
+:
+:
+IsMethodReflectable
 (
+info
 )
 )
 {
