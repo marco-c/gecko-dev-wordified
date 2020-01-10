@@ -998,6 +998,8 @@ css
 (
 element_selector
 frame
+=
+frame
 )
 class
 WebDriverClickProtocolPart
