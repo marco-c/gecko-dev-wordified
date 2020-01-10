@@ -947,7 +947,7 @@ GeqZero
 {
 static
 bool
-check
+isNonNegative
 (
 T
 t
@@ -976,7 +976,7 @@ true
 {
 static
 bool
-check
+isNonNegative
 (
 T
 t
@@ -1039,7 +1039,7 @@ IntType
 >
 :
 :
-check
+isNonNegative
 (
 aEnd
 )
