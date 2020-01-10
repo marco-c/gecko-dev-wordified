@@ -600,6 +600,8 @@ _anchor
 =
 tabBrowser
 .
+selectedBrowser
+.
 popupAnchor
 ;
 this
