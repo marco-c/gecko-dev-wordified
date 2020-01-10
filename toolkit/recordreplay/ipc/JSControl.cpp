@@ -5100,9 +5100,9 @@ or
 UINT32_MAX
 if
 this
-/
-/
 represents
+/
+/
 an
 aggregate
 set

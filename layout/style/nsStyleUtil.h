@@ -212,10 +212,6 @@ class
 Element
 ;
 }
-/
-/
-namespace
-dom
 }
 /
 /

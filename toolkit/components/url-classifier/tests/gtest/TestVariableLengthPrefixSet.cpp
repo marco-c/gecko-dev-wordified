@@ -3052,8 +3052,6 @@ for
 different
 configurations
 of
-/
-/
 "
 browser_safebrowsing_prefixset_max_array_size
 "
