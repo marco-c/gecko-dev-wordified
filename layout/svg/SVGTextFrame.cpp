@@ -19677,9 +19677,11 @@ anonymous
 block
 frame
 .
-AddStateBits
+this
+-
+>
+MarkSubtreeDirty
 (
-NS_FRAME_IS_DIRTY
 )
 ;
 /
@@ -34443,9 +34445,8 @@ ReflowSVG
 kid
 -
 >
-AddStateBits
+MarkSubtreeDirty
 (
-NS_FRAME_IS_DIRTY
 )
 ;
 }

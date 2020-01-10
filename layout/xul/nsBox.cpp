@@ -341,9 +341,8 @@ box
 box
 -
 >
-AddStateBits
+MarkSubtreeDirty
 (
-NS_FRAME_IS_DIRTY
 )
 ;
 }

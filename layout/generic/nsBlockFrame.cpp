@@ -3946,6 +3946,8 @@ if
 aMarkDirty
 )
 {
+/
+/
 aFrame
 -
 >
@@ -23130,9 +23132,8 @@ n
 f
 -
 >
-AddStateBits
+MarkSubtreeDirty
 (
-NS_FRAME_IS_DIRTY
 )
 ;
 }
@@ -23193,9 +23194,8 @@ fc
 mFloat
 -
 >
-AddStateBits
+MarkSubtreeDirty
 (
-NS_FRAME_IS_DIRTY
 )
 ;
 }

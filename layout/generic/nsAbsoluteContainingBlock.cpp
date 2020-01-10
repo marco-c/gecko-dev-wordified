@@ -1553,9 +1553,8 @@ NS_FRAME_IS_DIRTY
 kidFrame
 -
 >
-AddStateBits
+MarkSubtreeDirty
 (
-NS_FRAME_IS_DIRTY
 )
 ;
 }
@@ -2756,9 +2755,8 @@ aMarkAllDirty
 kidFrame
 -
 >
-AddStateBits
+MarkSubtreeDirty
 (
-NS_FRAME_IS_DIRTY
 )
 ;
 }
