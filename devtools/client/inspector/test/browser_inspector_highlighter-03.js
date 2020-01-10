@@ -493,7 +493,7 @@ deactivate
 await
 inspector
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -549,7 +549,7 @@ mousemove
 return
 inspector
 .
-inspector
+inspectorFront
 .
 nodePicker
 .

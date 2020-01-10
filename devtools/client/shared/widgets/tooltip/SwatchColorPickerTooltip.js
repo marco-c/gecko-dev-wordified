@@ -1550,7 +1550,7 @@ _openEyeDropper
 {
 const
 {
-inspector
+inspectorFront
 toolbox
 telemetry
 }
@@ -1587,7 +1587,7 @@ opening
 eye
 -
 dropper
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -1644,7 +1644,7 @@ eyedropperOpen
 =
 true
 ;
-inspector
+inspectorFront
 .
 pickColorFromPage
 (
@@ -1701,7 +1701,7 @@ console
 error
 )
 ;
-inspector
+inspectorFront
 .
 once
 (
@@ -1738,7 +1738,7 @@ _onEyeDropperDone
 }
 )
 ;
-inspector
+inspectorFront
 .
 once
 (

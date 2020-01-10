@@ -320,7 +320,7 @@ picker
 await
 toolbox
 .
-inspector
+inspectorFront
 .
 nodePicker
 .

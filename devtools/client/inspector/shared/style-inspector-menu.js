@@ -2304,7 +2304,7 @@ this
 .
 inspector
 .
-inspector
+inspectorFront
 ;
 const
 imageUrl

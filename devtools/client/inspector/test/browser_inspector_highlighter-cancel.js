@@ -295,7 +295,7 @@ options
 return
 inspector
 .
-inspector
+inspectorFront
 .
 nodePicker
 .

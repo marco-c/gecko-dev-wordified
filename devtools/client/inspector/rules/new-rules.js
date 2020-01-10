@@ -1977,7 +1977,7 @@ this
 .
 inspector
 .
-inspector
+inspectorFront
 ;
 this
 .

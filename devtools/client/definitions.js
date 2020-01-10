@@ -992,7 +992,7 @@ toolbox
 {
 toolbox
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -3899,7 +3899,7 @@ highlighter
 await
 toolbox
 .
-inspector
+inspectorFront
 .
 getOrCreateHighlighterByType
 (

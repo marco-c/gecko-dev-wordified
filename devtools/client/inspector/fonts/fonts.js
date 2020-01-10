@@ -5819,7 +5819,7 @@ this
 .
 inspector
 .
-inspector
+inspectorFront
 .
 getHighlighterByType
 (

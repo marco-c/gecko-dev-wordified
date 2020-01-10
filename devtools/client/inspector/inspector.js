@@ -1663,7 +1663,7 @@ _toolbox
 ;
 }
 get
-inspector
+inspectorFront
 (
 )
 {
@@ -1672,7 +1672,7 @@ this
 .
 toolbox
 .
-inspector
+inspectorFront
 ;
 }
 get
@@ -2647,7 +2647,7 @@ function
 return
 this
 .
-inspector
+inspectorFront
 .
 getPageStyle
 (
@@ -7527,7 +7527,7 @@ return
 await
 this
 .
-inspector
+inspectorFront
 .
 supportsHighlighters
 (
@@ -10437,7 +10437,7 @@ function
 {
 this
 .
-inspector
+inspectorFront
 .
 once
 (
@@ -10455,7 +10455,7 @@ onEyeDropperDone
 ;
 this
 .
-inspector
+inspectorFront
 .
 once
 (
@@ -10494,7 +10494,7 @@ function
 {
 this
 .
-inspector
+inspectorFront
 .
 off
 (
@@ -10512,7 +10512,7 @@ onEyeDropperDone
 ;
 this
 .
-inspector
+inspectorFront
 .
 off
 (
@@ -10675,7 +10675,7 @@ startEyeDropperListeners
 return
 this
 .
-inspector
+inspectorFront
 .
 pickColorFromPage
 (
@@ -10775,7 +10775,7 @@ stopEyeDropperListeners
 return
 this
 .
-inspector
+inspectorFront
 .
 cancelPickColorFromPage
 (

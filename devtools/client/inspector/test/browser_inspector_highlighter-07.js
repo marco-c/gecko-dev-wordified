@@ -653,7 +653,7 @@ mousemove
 return
 inspector
 .
-inspector
+inspectorFront
 .
 nodePicker
 .

@@ -845,7 +845,7 @@ expected
 await
 inspector
 .
-inspector
+inspectorFront
 .
 resolveRelativeURL
 (

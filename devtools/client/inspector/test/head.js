@@ -683,7 +683,7 @@ focus
 await
 toolbox
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -1102,7 +1102,7 @@ onHovered
 =
 inspector
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -3593,7 +3593,7 @@ front
 =
 inspector
 .
-inspector
+inspectorFront
 ;
 const
 highlighter

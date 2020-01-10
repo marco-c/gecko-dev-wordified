@@ -7316,7 +7316,7 @@ inspectorFront
 =
 inspector
 .
-inspector
+inspectorFront
 ;
 const
 onPickerStarted

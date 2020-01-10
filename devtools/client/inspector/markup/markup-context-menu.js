@@ -534,7 +534,7 @@ this
 .
 inspector
 .
-inspector
+inspectorFront
 .
 resolveRelativeURL
 (

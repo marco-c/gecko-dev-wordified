@@ -223,7 +223,7 @@ focus
 await
 toolbox
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -367,7 +367,7 @@ mousemove
 return
 inspector
 .
-inspector
+inspectorFront
 .
 nodePicker
 .

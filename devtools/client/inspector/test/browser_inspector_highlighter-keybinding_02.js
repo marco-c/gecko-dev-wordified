@@ -375,7 +375,7 @@ picker
 await
 toolbox
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -425,7 +425,7 @@ onPickerNodeHovered
 =
 toolbox
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -501,7 +501,7 @@ onPickerNodeHovered
 =
 toolbox
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
