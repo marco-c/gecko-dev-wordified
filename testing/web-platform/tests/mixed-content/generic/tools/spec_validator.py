@@ -274,12 +274,20 @@ basestring
 or
 isinstance
 (
+            
 obj
 [
 field
 ]
 int
 )
+or
+obj
+[
+field
+]
+is
+None
 :
         
 assert_value_from
@@ -853,12 +861,15 @@ expansion
 source_scheme
 '
 '
-opt_in_method
+delivery_type
 '
+'
+delivery_value
+'
+        
 '
 context_nesting
 '
-        
 '
 redirection
 '
@@ -868,6 +879,7 @@ subresource
 '
 origin
 '
+        
 '
 expectation
 '
