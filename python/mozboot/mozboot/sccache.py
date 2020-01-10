@@ -66,3 +66,10 @@ linux64
 -
 sccache
 '
+MACOS_SCCACHE
+=
+'
+macosx64
+-
+sccache
+'
