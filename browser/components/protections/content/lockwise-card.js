@@ -1124,8 +1124,6 @@ sync
 not
 -
 syncing
--
-devices
 "
 )
 ;

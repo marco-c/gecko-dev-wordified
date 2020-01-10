@@ -630,8 +630,6 @@ graph
 -
 total
 -
-tracker
--
 summary
 "
 )
