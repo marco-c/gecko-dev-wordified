@@ -761,13 +761,16 @@ branch
 "
 branch1
 "
-preferenceName
+preferences
 :
+{
 "
 fake
 .
 preference
 "
+:
+{
 preferenceValue
 :
 "
@@ -783,6 +786,8 @@ preferenceType
 "
 string
 "
+}
+}
 experimentType
 :
 "
