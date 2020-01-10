@@ -799,7 +799,7 @@ return
 ;
 }
 let
-flags
+loadFlags
 =
 webNav
 .
@@ -839,8 +839,6 @@ triggeringPrincipal
 :
 principal
 loadFlags
-:
-flags
 referrerInfo
 :
 new

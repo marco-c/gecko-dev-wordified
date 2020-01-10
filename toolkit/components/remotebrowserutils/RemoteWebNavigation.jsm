@@ -820,7 +820,7 @@ LoadURI
 uri
 :
 aURI
-flags
+loadFlags
 :
 aLoadURIOptions
 .
@@ -959,7 +959,7 @@ WebNavigation
 Reload
 "
 {
-flags
+loadFlags
 :
 aReloadFlags
 }
@@ -981,7 +981,7 @@ WebNavigation
 Stop
 "
 {
-flags
+loadFlags
 :
 aStopFlags
 }

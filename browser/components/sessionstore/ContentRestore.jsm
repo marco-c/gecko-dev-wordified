@@ -2953,7 +2953,7 @@ the
 rest
 .
 let
-flags
+loadFlags
 =
 Ci
 .
@@ -2975,8 +2975,6 @@ getSystemPrincipal
 (
 )
 loadFlags
-:
-flags
 }
 ;
 this

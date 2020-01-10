@@ -669,7 +669,7 @@ loadURIWithPostData
 (
 tabId
 url
-postData
+postDataString
 postDataContentType
 )
 {
@@ -736,7 +736,7 @@ url
 if
 (
 typeof
-postData
+postDataString
 !
 =
 =
@@ -747,7 +747,7 @@ string
 &
 !
 (
-postData
+postDataString
 instanceof
 String
 )
@@ -759,7 +759,7 @@ Promise
 reject
 (
 "
-postData
+postDataString
 must
 be
 a
@@ -801,10 +801,10 @@ stringStream
 .
 data
 =
-postData
+postDataString
 ;
 const
-post
+postData
 =
 Cc
 [
@@ -832,7 +832,7 @@ Ci
 nsIMIMEInputStream
 )
 ;
-post
+postData
 .
 addHeader
 (
@@ -857,7 +857,7 @@ urlencoded
 "
 )
 ;
-post
+postData
 .
 setData
 (
@@ -954,8 +954,6 @@ createNullPrincipal
 }
 )
 postData
-:
-post
 }
 ;
 tab
