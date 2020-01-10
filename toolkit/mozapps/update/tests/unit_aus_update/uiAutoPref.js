@@ -302,7 +302,7 @@ MSG_SHOULD_EQUAL
 ;
 /
 /
-Pause
+Cancel
 the
 download
 and
@@ -345,7 +345,7 @@ directory
 .
 gAUS
 .
-pauseDownload
+stopDownload
 (
 )
 ;

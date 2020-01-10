@@ -194,7 +194,7 @@ MSG_SHOULD_EQUAL
 ;
 /
 /
-Pause
+Cancel
 the
 download
 early
@@ -213,7 +213,7 @@ shutdown
 .
 gAUS
 .
-pauseDownload
+stopDownload
 (
 )
 ;
