@@ -383,10 +383,6 @@ EnsureSnapshot
 LSObject
 *
 aObject
-const
-nsAString
-&
-aKey
 bool
 aExplicit
 =
