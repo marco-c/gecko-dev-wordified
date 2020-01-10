@@ -236,7 +236,13 @@ override
 nsresult
 GetEncodedTrack
 (
-EncodedFrameContainer
+nsTArray
+<
+RefPtr
+<
+EncodedFrame
+>
+>
 &
 aData
 )
