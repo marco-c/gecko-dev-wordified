@@ -1887,6 +1887,9 @@ testScope
 init
 (
 testScope
+enableLogging
+=
+true
 )
 {
 if
@@ -2105,6 +2108,12 @@ more
 extensive
 EM
 logging
+.
+if
+(
+enableLogging
+)
+{
 Services
 .
 prefs
@@ -2121,6 +2130,7 @@ enabled
 true
 )
 ;
+}
 /
 /
 By
