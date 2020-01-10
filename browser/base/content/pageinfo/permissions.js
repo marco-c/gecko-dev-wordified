@@ -1211,7 +1211,6 @@ SitePermissions
 .
 getMultichoiceStateLabel
 (
-aPartId
 state
 )
 )
