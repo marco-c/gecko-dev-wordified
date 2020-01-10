@@ -202,6 +202,13 @@ CreateDecoderParams
 OptionSet
 &
 aOptions
+const
+layers
+:
+:
+TextureFactoryIdentifier
+*
+aIdentifier
 )
 ;
 IPCResult
@@ -338,10 +345,13 @@ OptionSet
 &
 aOptions
 const
+Maybe
+<
 layers
 :
 :
 TextureFactoryIdentifier
+>
 &
 aIdentifier
 TaskQueue
