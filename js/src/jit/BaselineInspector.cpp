@@ -451,7 +451,7 @@ match
 /
 /
 /
-GuardIsObject
+GuardToObject
 0
 /
 /
@@ -500,7 +500,7 @@ matchOp
 CacheOp
 :
 :
-GuardIsObject
+GuardToObject
 objId
 )
 )
@@ -592,7 +592,7 @@ match
 /
 /
 /
-GuardIsObject
+GuardToObject
 0
 /
 /
@@ -645,7 +645,7 @@ matchOp
 CacheOp
 :
 :
-GuardIsObject
+GuardToObject
 objId
 )
 )
@@ -1438,7 +1438,7 @@ matchOp
 CacheOp
 :
 :
-GuardIsInt32
+GuardToInt32
 )
 |
 |
@@ -1471,7 +1471,7 @@ matchOp
 CacheOp
 :
 :
-GuardIsBoolean
+GuardToBoolean
 )
 )
 {
@@ -1527,7 +1527,7 @@ matchOp
 CacheOp
 :
 :
-GuardIsString
+GuardToString
 )
 |
 |
@@ -1538,7 +1538,7 @@ matchOp
 CacheOp
 :
 :
-GuardIsObject
+GuardToObject
 )
 )
 {
@@ -2190,7 +2190,7 @@ case
 CacheOp
 :
 :
-GuardIsString
+GuardToString
 :
 guardType
 [
@@ -2208,7 +2208,7 @@ case
 CacheOp
 :
 :
-GuardIsSymbol
+GuardToSymbol
 :
 guardType
 [
@@ -2226,7 +2226,7 @@ case
 CacheOp
 :
 :
-GuardIsBigInt
+GuardToBigInt
 :
 guardType
 [
@@ -2284,7 +2284,7 @@ case
 CacheOp
 :
 :
-GuardIsInt32
+GuardToInt32
 :
 guardType
 [
@@ -2313,7 +2313,7 @@ case
 CacheOp
 :
 :
-GuardIsBoolean
+GuardToBoolean
 :
 guardType
 [
@@ -5768,7 +5768,7 @@ matchOp
 CacheOp
 :
 :
-GuardIsString
+GuardToString
 keyId
 )
 )
@@ -5863,7 +5863,7 @@ matchOp
 CacheOp
 :
 :
-GuardIsSymbol
+GuardToSymbol
 keyId
 )
 )
@@ -5990,7 +5990,7 @@ getter
 /
 /
 /
-GuardIsObject
+GuardToObject
 objId
 /
 /
@@ -6043,7 +6043,7 @@ prototype
 /
 /
 /
-GuardIsObject
+GuardToObject
 objId
 /
 /
@@ -6243,7 +6243,7 @@ matchOp
 CacheOp
 :
 :
-GuardIsObject
+GuardToObject
 objId
 )
 )
@@ -7275,7 +7275,7 @@ match
 /
 /
 /
-GuardIsObject
+GuardToObject
 objId
 /
 /
@@ -7378,7 +7378,7 @@ matchOp
 CacheOp
 :
 :
-GuardIsObject
+GuardToObject
 objId
 )
 )
@@ -7918,7 +7918,7 @@ setter
 /
 /
 /
-GuardIsObject
+GuardToObject
 objId
 /
 /
@@ -7951,7 +7951,7 @@ prototype
 /
 /
 /
-GuardIsObject
+GuardToObject
 objId
 /
 /
@@ -8006,7 +8006,7 @@ matchOp
 CacheOp
 :
 :
-GuardIsObject
+GuardToObject
 objId
 )
 )
@@ -8751,7 +8751,7 @@ match
 /
 /
 /
-GuardIsObject
+GuardToObject
 0
 /
 /
@@ -8811,7 +8811,7 @@ matchOp
 CacheOp
 :
 :
-GuardIsObject
+GuardToObject
 objId
 )
 )
@@ -9295,7 +9295,7 @@ matchOp
 CacheOp
 :
 :
-GuardIsObject
+GuardToObject
 ValOperandId
 (
 0
@@ -9319,7 +9319,7 @@ matchOp
 CacheOp
 :
 :
-GuardIsString
+GuardToString
 ValOperandId
 (
 0
@@ -9806,7 +9806,7 @@ matchOp
 CacheOp
 :
 :
-GuardIsObject
+GuardToObject
 rhsId
 )
 )

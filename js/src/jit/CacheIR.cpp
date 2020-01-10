@@ -1676,7 +1676,7 @@ objId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 valId
 )
@@ -2162,7 +2162,7 @@ objId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 valId
 )
@@ -7001,7 +7001,7 @@ isSuper
 ?
 writer
 .
-guardIsObject
+guardToObject
 (
 getSuperReceiverValueId
 (
@@ -9562,7 +9562,7 @@ expandoObjId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 expandoValId
 )
@@ -12542,7 +12542,7 @@ strId
 =
 writer
 .
-guardIsString
+guardToString
 (
 valId
 )
@@ -12808,7 +12808,7 @@ strId
 =
 writer
 .
-guardIsString
+guardToString
 (
 valId
 )
@@ -12818,7 +12818,7 @@ int32IndexId
 =
 writer
 .
-guardIsInt32Index
+guardToInt32Index
 (
 indexId
 )
@@ -13071,7 +13071,7 @@ int32IndexId
 =
 writer
 .
-guardIsInt32Index
+guardToInt32Index
 (
 indexId
 )
@@ -15186,7 +15186,7 @@ symId
 =
 writer
 .
-guardIsSymbol
+guardToSymbol
 (
 valId
 )
@@ -15218,7 +15218,7 @@ strId
 =
 writer
 .
-guardIsString
+guardToString
 (
 valId
 )
@@ -19673,7 +19673,7 @@ objId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 valId
 )
@@ -20029,7 +20029,7 @@ int32IndexId
 =
 writer
 .
-guardIsInt32Index
+guardToInt32Index
 (
 indexId
 )
@@ -20075,7 +20075,7 @@ strId
 =
 writer
 .
-guardIsString
+guardToString
 (
 indexId
 )
@@ -20342,7 +20342,7 @@ objId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 objValId
 )
@@ -27660,7 +27660,7 @@ objId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 objValId
 )
@@ -28631,7 +28631,7 @@ rhsId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 rhs
 )
@@ -29101,7 +29101,7 @@ objId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 valId
 )
@@ -29263,7 +29263,7 @@ objId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 valId
 )
@@ -29930,7 +29930,7 @@ calleeObjId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 calleeValId
 )
@@ -29974,7 +29974,7 @@ thisObjId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 thisValId
 )
@@ -30485,7 +30485,7 @@ calleeObjId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 calleeValId
 )
@@ -30539,7 +30539,7 @@ argc_
 ;
 writer
 .
-guardIsString
+guardToString
 (
 argValId
 )
@@ -30573,7 +30573,7 @@ thisObjId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 thisValId
 )
@@ -31043,7 +31043,7 @@ calleeObjId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 calleeValId
 )
@@ -31086,7 +31086,7 @@ thisObjId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 thisValId
 )
@@ -31501,7 +31501,7 @@ calleeObjId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 calleeValId
 )
@@ -31544,7 +31544,7 @@ thisObjId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 thisValId
 )
@@ -32715,7 +32715,7 @@ calleeObjId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 calleeValId
 )
@@ -33747,7 +33747,7 @@ calleeObjId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 calleeValId
 )
@@ -34332,7 +34332,7 @@ calleeObjId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 calleeValId
 )
@@ -35139,7 +35139,7 @@ lhsStrId
 =
 writer
 .
-guardIsString
+guardToString
 (
 lhsId
 )
@@ -35149,7 +35149,7 @@ rhsStrId
 =
 writer
 .
-guardIsString
+guardToString
 (
 rhsId
 )
@@ -35233,7 +35233,7 @@ lhsObjId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 lhsId
 )
@@ -35243,7 +35243,7 @@ rhsObjId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 rhsId
 )
@@ -35327,7 +35327,7 @@ lhsSymId
 =
 writer
 .
-guardIsSymbol
+guardToSymbol
 (
 lhsId
 )
@@ -35337,7 +35337,7 @@ rhsSymId
 =
 writer
 .
-guardIsSymbol
+guardToSymbol
 (
 rhsId
 )
@@ -35611,14 +35611,14 @@ isBoolean
 ?
 writer
 .
-guardIsBoolean
+guardToBoolean
 (
 lhsId
 )
 :
 writer
 .
-guardIsInt32
+guardToInt32
 (
 lhsId
 )
@@ -35634,14 +35634,14 @@ isBoolean
 ?
 writer
 .
-guardIsBoolean
+guardToBoolean
 (
 rhsId
 )
 :
 writer
 .
-guardIsInt32
+guardToInt32
 (
 rhsId
 )
@@ -35916,7 +35916,7 @@ objOperand
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 obj
 )
@@ -36296,7 +36296,7 @@ JSVAL_TYPE_BOOLEAN
 :
 writer
 .
-guardIsBoolean
+guardToBoolean
 (
 id
 )
@@ -36308,7 +36308,7 @@ JSVAL_TYPE_SYMBOL
 :
 writer
 .
-guardIsSymbol
+guardToSymbol
 (
 id
 )
@@ -36320,7 +36320,7 @@ JSVAL_TYPE_BIGINT
 :
 writer
 .
-guardIsBigInt
+guardToBigInt
 (
 id
 )
@@ -36332,7 +36332,7 @@ JSVAL_TYPE_STRING
 :
 writer
 .
-guardIsString
+guardToString
 (
 id
 )
@@ -36808,7 +36808,7 @@ strId
 =
 writer
 .
-guardIsString
+guardToString
 (
 vId
 )
@@ -37809,7 +37809,7 @@ strId
 =
 writer
 .
-guardIsString
+guardToString
 (
 valId
 )
@@ -37952,7 +37952,7 @@ objId
 =
 writer
 .
-guardIsObject
+guardToObject
 (
 valId
 )
@@ -38317,7 +38317,7 @@ intId
 =
 writer
 .
-guardIsInt32
+guardToInt32
 (
 valId
 )
@@ -39080,7 +39080,7 @@ isInt32
 return
 writer
 .
-guardIsInt32
+guardToInt32
 (
 id
 )
@@ -39098,7 +39098,7 @@ isBoolean
 return
 writer
 .
-guardIsBoolean
+guardToBoolean
 (
 id
 )
@@ -39790,7 +39790,7 @@ isInt32
 return
 writer
 .
-guardIsInt32
+guardToInt32
 (
 id
 )
@@ -39808,7 +39808,7 @@ isBoolean
 return
 writer
 .
-guardIsBoolean
+guardToBoolean
 (
 id
 )
@@ -40101,7 +40101,7 @@ isString
 return
 writer
 .
-guardIsString
+guardToString
 (
 id
 )
@@ -40121,7 +40121,7 @@ intId
 =
 writer
 .
-guardIsInt32
+guardToInt32
 (
 id
 )
@@ -40349,7 +40349,7 @@ isString
 return
 writer
 .
-guardIsString
+guardToString
 (
 id
 )
@@ -40369,7 +40369,7 @@ intId
 =
 writer
 .
-guardIsBoolean
+guardToBoolean
 (
 id
 )
@@ -40515,7 +40515,7 @@ lhsStrId
 =
 writer
 .
-guardIsString
+guardToString
 (
 lhsId
 )
@@ -40525,7 +40525,7 @@ rhsStrId
 =
 writer
 .
-guardIsString
+guardToString
 (
 rhsId
 )
@@ -40698,14 +40698,14 @@ isString
 {
 writer
 .
-guardIsString
+guardToString
 (
 lhsId
 )
 ;
 writer
 .
-guardIsObject
+guardToObject
 (
 rhsId
 )
@@ -40715,14 +40715,14 @@ else
 {
 writer
 .
-guardIsObject
+guardToObject
 (
 lhsId
 )
 ;
 writer
 .
-guardIsString
+guardToString
 (
 rhsId
 )
