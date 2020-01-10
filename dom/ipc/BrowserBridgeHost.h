@@ -386,6 +386,15 @@ BrowserBridgeHost
 =
 default
 ;
+already_AddRefed
+<
+nsIWidget
+>
+GetWidget
+(
+)
+const
+;
 /
 /
 The
