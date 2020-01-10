@@ -1304,7 +1304,7 @@ in
 process
 BrowsingContexts
 .
-void
+nsresult
 LoadURI
 (
 BrowsingContext
