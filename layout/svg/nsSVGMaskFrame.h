@@ -299,10 +299,6 @@ toUserSpace
 float
 opacity
 ;
-Matrix
-*
-maskTransform
-;
 mozilla
 :
 :
@@ -328,9 +324,6 @@ gfxMatrix
 aToUserSpace
 float
 aOpacity
-Matrix
-*
-aMaskTransform
 mozilla
 :
 :
@@ -356,10 +349,6 @@ aToUserSpace
 opacity
 (
 aOpacity
-)
-maskTransform
-(
-aMaskTransform
 )
 maskMode
 (
