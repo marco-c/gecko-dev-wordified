@@ -202,6 +202,9 @@ hb
 hh
 "
 #
+ifdef
+HAVE_UNISCRIBE
+#
 include
 "
 hb
@@ -233,6 +236,18 @@ rpc
 .
 h
 >
+#
+ifndef
+E_NOT_SUFFICIENT_BUFFER
+#
+define
+E_NOT_SUFFICIENT_BUFFER
+HRESULT_FROM_WIN32
+(
+ERROR_INSUFFICIENT_BUFFER
+)
+#
+endif
 #
 include
 "
@@ -4007,7 +4022,6 @@ false
 \
 }
 HB_STMT_END
-;
 HRESULT
 hr
 ;
@@ -5962,3 +5976,5 @@ return
 true
 ;
 }
+#
+endif

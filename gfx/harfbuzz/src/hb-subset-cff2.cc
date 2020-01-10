@@ -196,6 +196,16 @@ Ariza
 include
 "
 hb
+.
+hh
+"
+#
+ifndef
+HB_NO_SUBSET_CFF
+#
+include
+"
+hb
 -
 open
 -
@@ -273,9 +283,6 @@ cs
 .
 hh
 "
-#
-ifndef
-HB_NO_SUBSET_CFF
 using
 namespace
 CFF
@@ -1813,16 +1820,6 @@ init
 ;
 if
 (
-fdmap
-.
-includes
-(
-fd
-)
-)
-{
-if
-(
 !
 subr_subsetter
 .
@@ -1914,7 +1911,6 @@ length
 dataSize
 )
 ;
-}
 }
 }
 }
@@ -2108,7 +2104,7 @@ if
 (
 fdmap
 .
-includes
+has
 (
 i
 )
@@ -2253,7 +2249,7 @@ if
 (
 fdmap
 .
-includes
+has
 (
 i
 )
@@ -2400,7 +2396,7 @@ code_pair_t
 >
 subset_fdselect_ranges
 ;
-remap_t
+hb_inc_bimap_t
 fdmap
 ;
 str_buff_vec_t
@@ -3219,7 +3215,7 @@ plan
 .
 fdmap
 .
-includes
+has
 (
 i
 )

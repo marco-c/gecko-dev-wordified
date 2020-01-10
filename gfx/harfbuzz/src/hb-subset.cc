@@ -544,7 +544,7 @@ plan
 bool
 result
 =
-true
+false
 ;
 hb_blob_t
 *
@@ -1403,7 +1403,7 @@ HB_OT_TAG_hmtx
 :
 result
 =
-_subset
+_subset2
 <
 const
 OT
@@ -1441,7 +1441,7 @@ HB_OT_TAG_vmtx
 :
 result
 =
-_subset
+_subset2
 <
 const
 OT
@@ -1460,7 +1460,7 @@ HB_OT_TAG_maxp
 :
 result
 =
-_subset
+_subset2
 <
 const
 OT
@@ -1517,7 +1517,7 @@ HB_OT_TAG_OS2
 :
 result
 =
-_subset
+_subset2
 <
 const
 OT
@@ -1536,7 +1536,7 @@ HB_OT_TAG_post
 :
 result
 =
-_subset
+_subset2
 <
 const
 OT
@@ -1596,7 +1596,7 @@ HB_OT_TAG_VORG
 :
 result
 =
-_subset
+_subset2
 <
 const
 OT

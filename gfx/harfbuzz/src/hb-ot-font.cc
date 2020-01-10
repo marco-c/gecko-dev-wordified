@@ -203,6 +203,9 @@ hb
 hh
 "
 #
+ifndef
+HB_NO_OT_FONT
+#
 include
 "
 hb
@@ -300,19 +303,6 @@ hb
 ot
 -
 hmtx
--
-table
-.
-hh
-"
-#
-include
-"
-hb
--
-ot
--
-kern
 -
 table
 .
@@ -933,6 +923,9 @@ glyph
 /
 2
 ;
+#
+ifndef
+HB_NO_OT_FONT_CFF
 const
 OT
 :
@@ -976,6 +969,8 @@ return
 true
 ;
 }
+#
+endif
 hb_glyph_extents_t
 extents
 =
@@ -1316,6 +1311,9 @@ return
 ret
 ;
 }
+#
+ifndef
+HB_NO_OT_FONT_GLYPH_NAMES
 static
 hb_bool_t
 hb_ot_get_glyph_name
@@ -1421,6 +1419,8 @@ glyph
 )
 ;
 }
+#
+endif
 static
 hb_bool_t
 hb_ot_get_font_h_extents
@@ -1754,6 +1754,9 @@ nullptr
 nullptr
 )
 ;
+#
+ifndef
+HB_NO_OT_FONT_GLYPH_NAMES
 hb_font_funcs_set_glyph_name_func
 (
 funcs
@@ -1770,6 +1773,8 @@ nullptr
 nullptr
 )
 ;
+#
+endif
 hb_font_funcs_make_immutable
 (
 funcs
@@ -1869,3 +1874,5 @@ nullptr
 )
 ;
 }
+#
+endif

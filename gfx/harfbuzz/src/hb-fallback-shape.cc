@@ -203,6 +203,9 @@ impl
 .
 hh
 "
+#
+ifndef
+HB_NO_FALLBACK_SHAPE
 /
 *
 *
@@ -603,3 +606,5 @@ return
 true
 ;
 }
+#
+endif

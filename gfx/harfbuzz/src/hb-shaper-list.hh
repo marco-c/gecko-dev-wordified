@@ -301,8 +301,8 @@ coretext
 #
 endif
 #
-ifdef
-HAVE_FALLBACK
+ifndef
+HB_NO_FALLBACK_SHAPE
 HB_SHAPER_IMPLEMENT
 (
 fallback

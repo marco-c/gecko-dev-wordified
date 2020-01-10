@@ -10684,6 +10684,9 @@ Debugging
 .
 *
 /
+#
+ifndef
+HB_NO_BUFFER_MESSAGE
 /
 *
 *
@@ -10871,3 +10874,5 @@ message_data
 )
 ;
 }
+#
+endif

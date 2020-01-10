@@ -199,6 +199,9 @@ hb
 .
 hh
 "
+#
+ifdef
+HAVE_GOBJECT
 /
 *
 *
@@ -626,3 +629,5 @@ HB_DEFINE_VALUE_TYPE
 (
 ot_math_glyph_part
 )
+#
+endif

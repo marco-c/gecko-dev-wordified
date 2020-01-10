@@ -217,6 +217,9 @@ hb
 hh
 "
 #
+ifdef
+HAVE_GLIB
+#
 include
 "
 hb
@@ -1512,5 +1515,7 @@ _hb_g_bytes_unref
 )
 ;
 }
+#
+endif
 #
 endif

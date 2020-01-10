@@ -317,7 +317,7 @@ static
 .
 hh
 "
-hb_vector_size_impl_t
+uint64_t
 const
 _hb_NullPool
 [
@@ -326,7 +326,7 @@ HB_NULL_POOL_SIZE
 +
 sizeof
 (
-hb_vector_size_impl_t
+uint64_t
 )
 -
 1
@@ -334,7 +334,7 @@ hb_vector_size_impl_t
 /
 sizeof
 (
-hb_vector_size_impl_t
+uint64_t
 )
 ]
 =
@@ -346,7 +346,7 @@ hb_vector_size_impl_t
 thread_local
 *
 /
-hb_vector_size_impl_t
+uint64_t
 _hb_CrapPool
 [
 (
@@ -354,7 +354,7 @@ HB_NULL_POOL_SIZE
 +
 sizeof
 (
-hb_vector_size_impl_t
+uint64_t
 )
 -
 1
@@ -362,7 +362,7 @@ hb_vector_size_impl_t
 /
 sizeof
 (
-hb_vector_size_impl_t
+uint64_t
 )
 ]
 =

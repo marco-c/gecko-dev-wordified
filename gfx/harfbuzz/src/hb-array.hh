@@ -1078,9 +1078,7 @@ likely
 length
 )
 )
-:
-:
-qsort
+hb_qsort
 (
 arrayZ
 length
@@ -1117,9 +1115,7 @@ likely
 length
 )
 )
-:
-:
-qsort
+hb_qsort
 (
 arrayZ
 length
@@ -1180,9 +1176,7 @@ start
 end
 )
 )
-:
-:
-qsort
+hb_qsort
 (
 arrayZ
 +

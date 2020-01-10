@@ -1599,9 +1599,6 @@ return
 ret
 ;
 }
-#
-ifndef
-HB_DISABLE_DEPRECATED
 static
 hb_position_t
 hb_font_get_glyph_h_kerning_nil
@@ -1671,6 +1668,9 @@ right_glyph
 )
 ;
 }
+#
+ifndef
+HB_DISABLE_DEPRECATED
 static
 hb_position_t
 hb_font_get_glyph_v_kerning_nil
@@ -3740,9 +3740,6 @@ y
 )
 ;
 }
-#
-ifndef
-HB_DISABLE_DEPRECATED
 /
 *
 *
@@ -3778,14 +3775,6 @@ Since
 .
 2
 *
-Deprecated
-:
-2
-.
-0
-.
-0
-*
 *
 /
 hb_position_t
@@ -3811,6 +3800,9 @@ right_glyph
 )
 ;
 }
+#
+ifndef
+HB_DISABLE_DEPRECATED
 /
 *
 *
@@ -4642,9 +4634,6 @@ y
 )
 ;
 }
-#
-ifndef
-HB_DISABLE_DEPRECATED
 /
 *
 *
@@ -4692,14 +4681,6 @@ Since
 .
 2
 *
-Deprecated
-:
-2
-.
-0
-.
-0
-*
 *
 /
 void
@@ -4736,8 +4717,6 @@ y
 )
 ;
 }
-#
-endif
 /
 *
 *
@@ -7137,6 +7116,9 @@ num_coords
 coords_length
 ;
 }
+#
+ifndef
+HB_NO_VAR
 /
 *
 *
@@ -7354,6 +7336,8 @@ coords_length
 )
 ;
 }
+#
+endif
 /
 *
 *

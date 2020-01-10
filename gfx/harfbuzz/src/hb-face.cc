@@ -2238,6 +2238,9 @@ set
 .
 *
 /
+#
+ifndef
+HB_NO_FACE_COLLECT_UNICODES
 /
 *
 *
@@ -2431,6 +2434,8 @@ out
 )
 ;
 }
+#
+endif
 /
 *
 *

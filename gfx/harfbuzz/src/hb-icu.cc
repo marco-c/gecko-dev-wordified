@@ -222,6 +222,9 @@ hb
 hh
 "
 #
+ifdef
+HAVE_ICU
+#
 include
 "
 hb
@@ -1888,3 +1891,5 @@ get_unconst
 )
 ;
 }
+#
+endif

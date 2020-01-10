@@ -2317,7 +2317,12 @@ decltype
 (
 &
 (
-src
+hb_declval
+<
+Type
+>
+(
+)
 =
 src
 )

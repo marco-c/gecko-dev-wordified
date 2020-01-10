@@ -191,6 +191,9 @@ hb
 hh
 "
 #
+ifdef
+HAVE_DIRECTWRITE
+#
 include
 "
 hb
@@ -935,7 +938,6 @@ nullptr
 \
 }
 HB_STMT_END
-;
 if
 (
 FAILED
@@ -5142,7 +5144,11 @@ input
 *
 Since
 :
-REPLACEME
+2
+.
+5
+.
+0
 *
 *
 /
@@ -5167,3 +5173,5 @@ directwrite
 fontFace
 ;
 }
+#
+endif
