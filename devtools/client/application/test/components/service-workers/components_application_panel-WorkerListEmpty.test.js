@@ -49,7 +49,9 @@ enzyme
 )
 ;
 const
-React
+{
+createFactory
+}
 =
 require
 (
@@ -61,8 +63,6 @@ react
 const
 WorkerListEmpty
 =
-React
-.
 createFactory
 (
 require
@@ -130,10 +130,6 @@ shallow
 WorkerListEmpty
 (
 {
-serviceContainer
-:
-{
-}
 }
 )
 )

@@ -193,20 +193,6 @@ propTypes
 {
 return
 {
-client
-:
-PropTypes
-.
-object
-.
-isRequired
-serviceContainer
-:
-PropTypes
-.
-object
-.
-isRequired
 /
 /
 mapped
@@ -243,9 +229,7 @@ render
 const
 {
 canDebugWorkers
-client
 domain
-serviceContainer
 workers
 }
 =
@@ -327,7 +311,6 @@ isWorkerListEmpty
 WorkerListEmpty
 (
 {
-serviceContainer
 }
 )
 :
@@ -335,7 +318,6 @@ WorkerList
 (
 {
 canDebugWorkers
-client
 workers
 :
 domainWorkers
