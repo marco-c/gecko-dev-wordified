@@ -285,7 +285,7 @@ after
 color
 :
 #
-E57180
+e57180
 ;
 content
 :
@@ -324,6 +324,12 @@ AA
 2713
 "
 ;
+unicode
+-
+bidi
+:
+isolate
+;
 }
 .
 accessibility
@@ -355,6 +361,12 @@ AAA
 \
 2713
 "
+;
+unicode
+-
+bidi
+:
+isolate
 ;
 }
 .
