@@ -1485,7 +1485,7 @@ p
 in
 (
 '
-nightly
+shippable
 '
 '
 haz
