@@ -21991,7 +21991,7 @@ mDecodedVideoEndTime
 TimeUnit
 :
 :
-FromInfinity
+FromNegativeInfinity
 (
 )
 ;
@@ -22019,7 +22019,7 @@ mDecodedAudioEndTime
 TimeUnit
 :
 :
-FromInfinity
+FromNegativeInfinity
 (
 )
 ;
@@ -22029,7 +22029,7 @@ endOfDecodedData
 std
 :
 :
-min
+max
 (
 endOfDecodedVideo
 endOfDecodedAudio
