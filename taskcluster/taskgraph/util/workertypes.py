@@ -764,11 +764,13 @@ implementation
 '
 ]
 worker_config
-[
+.
+get
+(
 '
 os
 '
-]
+)
 memoize
 def
 get_worker_type
