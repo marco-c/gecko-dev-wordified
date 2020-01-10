@@ -787,7 +787,7 @@ mut
 c_void
 )
 {
-assert_eq
+debug_assert_eq
 !
 (
 :
@@ -1147,7 +1147,7 @@ mut
 c_void
 )
 {
-assert_eq
+debug_assert_eq
 !
 (
 :
@@ -1338,7 +1338,7 @@ mut
 c_void
 )
 {
-assert_eq
+debug_assert_eq
 !
 (
 :
@@ -1550,7 +1550,7 @@ mut
 c_void
 )
 {
-assert_eq
+debug_assert_eq
 !
 (
 :
@@ -1786,7 +1786,7 @@ CStr
 >
 >
 {
-assert_eq
+debug_assert_eq
 !
 (
 :
@@ -1994,7 +1994,7 @@ mut
 c_void
 )
 {
-assert_eq
+debug_assert_eq
 !
 (
 :
@@ -2196,7 +2196,7 @@ mut
 c_void
 )
 {
-assert_eq
+debug_assert_eq
 !
 (
 :
@@ -2396,7 +2396,7 @@ mut
 c_void
 )
 {
-assert_eq
+debug_assert_eq
 !
 (
 :
@@ -2599,7 +2599,7 @@ mut
 c_void
 )
 {
-assert_eq
+debug_assert_eq
 !
 (
 :
@@ -2788,7 +2788,7 @@ mut
 c_void
 )
 {
-assert_eq
+debug_assert_eq
 !
 (
 :
@@ -3003,7 +3003,7 @@ mut
 c_void
 )
 {
-assert_eq
+debug_assert_eq
 !
 (
 :
