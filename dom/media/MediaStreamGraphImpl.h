@@ -811,6 +811,13 @@ OnGraphThread
 const
 override
 ;
+bool
+Destroyed
+(
+)
+const
+override
+;
 #
 ifdef
 DEBUG
