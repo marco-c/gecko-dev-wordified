@@ -1604,11 +1604,12 @@ possible
 .
 mPIStartBorderData
 .
-mCoord
-=
+SetCoord
+(
 saved
 .
 mCoord
+)
 ;
 }
 if
