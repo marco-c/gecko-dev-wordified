@@ -316,6 +316,9 @@ const
 Float32Array
 &
 aPhaseResponse
+ErrorResult
+&
+aRv
 )
 ;
 const
