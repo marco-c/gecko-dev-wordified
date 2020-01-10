@@ -803,6 +803,14 @@ return
 mStatus
 ;
 }
+gHttpHandler
+-
+>
+OnOpeningDocumentRequest
+(
+this
+)
+;
 DocumentChannelCreationArgs
 args
 ;
