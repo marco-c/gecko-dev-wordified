@@ -597,6 +597,9 @@ VsyncSource
 .
 h
 "
+struct
+nsCSSValueSharedList
+;
 namespace
 mozilla
 {

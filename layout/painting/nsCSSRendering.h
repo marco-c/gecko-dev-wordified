@@ -857,12 +857,9 @@ gfx
 Color
 GetShadowColor
 (
-const
-mozilla
-:
-:
-StyleSimpleShadow
-&
+nsCSSShadowItem
+*
+aShadow
 nsIFrame
 *
 aFrame

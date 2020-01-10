@@ -189,7 +189,7 @@ TransformOperation
 generic
 :
 :
-GenericTransformOperation
+TransformOperation
 <
 Angle
 Number
@@ -212,7 +212,7 @@ Transform
 generic
 :
 :
-GenericTransform
+Transform
 <
 TransformOperation
 >
@@ -5808,10 +5808,7 @@ collect
 <
 Result
 <
-crate
-:
-:
-OwnedSlice
+Vec
 <
 _
 >
@@ -5839,7 +5836,7 @@ Rotate
 generic
 :
 :
-GenericRotate
+Rotate
 <
 Number
 Angle
@@ -6053,7 +6050,7 @@ Translate
 generic
 :
 :
-GenericTranslate
+Translate
 <
 LengthPercentage
 Length
@@ -6268,7 +6265,7 @@ Scale
 generic
 :
 :
-GenericScale
+Scale
 <
 Number
 >

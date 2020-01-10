@@ -1082,10 +1082,6 @@ SpecifiedValue
 prop
 }
 s
-.
-into
-(
-)
 )
 %
 endfor
@@ -1987,10 +1983,6 @@ SpecifiedValue
 prop
 }
 s
-.
-into
-(
-)
 )
 %
 endfor

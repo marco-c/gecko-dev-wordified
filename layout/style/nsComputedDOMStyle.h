@@ -1136,12 +1136,9 @@ CSSValue
 >
 GetTransformValue
 (
-const
-mozilla
-:
-:
-StyleTransform
-&
+nsCSSValueSharedList
+*
+aSpecifiedTransform
 )
 ;
 /

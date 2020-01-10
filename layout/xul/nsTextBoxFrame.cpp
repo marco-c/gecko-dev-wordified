@@ -5643,9 +5643,7 @@ if
 textStyle
 -
 >
-HasTextShadow
-(
-)
+mTextShadow
 )
 {
 /
@@ -5714,9 +5712,7 @@ StyleText
 )
 -
 >
-HasTextShadow
-(
-)
+mTextShadow
 )
 {
 return

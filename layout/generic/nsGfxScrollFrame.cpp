@@ -24339,9 +24339,7 @@ if
 disp
 -
 >
-mWillChange
-.
-bits
+mWillChangeBitField
 &
 StyleWillChangeBits_SCROLL
 )
@@ -37859,9 +37857,7 @@ if
 disp
 -
 >
-mWillChange
-.
-bits
+mWillChangeBitField
 &
 StyleWillChangeBits_SCROLL
 )
@@ -37937,9 +37933,7 @@ if
 disp
 -
 >
-mWillChange
-.
-bits
+mWillChangeBitField
 &
 StyleWillChangeBits_SCROLL
 &

@@ -153,14 +153,6 @@ extern
 crate
 euclid
 ;
-#
-[
-macro_use
-]
-extern
-crate
-lazy_static
-;
 extern
 crate
 malloc_size_of
@@ -715,10 +707,6 @@ viewport
 pub
 mod
 owned_slice
-;
-pub
-mod
-owned_str
 ;
 pub
 use

@@ -171,9 +171,6 @@ None
 vector
 =
 True
-simple_vector_bindings
-=
-True
 animation_value_type
 =
 "

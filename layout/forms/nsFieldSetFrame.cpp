@@ -1671,17 +1671,12 @@ IsVisibleForPainting
 {
 if
 (
-!
 StyleEffects
 (
 )
 -
 >
 mBoxShadow
-.
-IsEmpty
-(
-)
 )
 {
 aLists
