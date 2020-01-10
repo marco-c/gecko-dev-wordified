@@ -1558,11 +1558,9 @@ addFromPrincipal
 aRequest
 .
 principal
-"
-desktop
--
-notification
-"
+perm
+.
+type
 granted
 ?
 Services
