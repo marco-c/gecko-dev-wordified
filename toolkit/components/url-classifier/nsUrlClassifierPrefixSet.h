@@ -582,9 +582,6 @@ uint16_t
 >
 mIndexDeltas
 ;
-uint32_t
-mIndexDeltasChecksum
-;
 /
 /
 how
