@@ -749,6 +749,8 @@ close
 oncommand
 =
 "
+window
+.
 close
 (
 )
