@@ -1408,8 +1408,6 @@ parent
 >
 condVar_
 .
-impl_
-.
 wait
 (
 parent
