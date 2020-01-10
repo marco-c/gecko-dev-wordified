@@ -331,6 +331,14 @@ void
 aArg
 )
 {
+MOZ_RELEASE_ASSERT
+(
+!
+joinable
+(
+)
+)
+;
 /
 /
 Use

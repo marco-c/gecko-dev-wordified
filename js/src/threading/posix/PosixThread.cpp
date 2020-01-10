@@ -371,6 +371,14 @@ void
 aArg
 )
 {
+MOZ_RELEASE_ASSERT
+(
+!
+joinable
+(
+)
+)
+;
 pthread_attr_t
 attrs
 ;
