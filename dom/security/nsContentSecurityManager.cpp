@@ -5104,11 +5104,11 @@ in
 path
 like
 /
+/
+/
 %
 LOCALE
 %
-/
-/
 /
 so
 we
