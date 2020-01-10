@@ -200,7 +200,7 @@ input
 {
 this
 .
-dispatchFilterEvent
+_dispatchFilterEvent
 (
 event
 .
@@ -269,7 +269,7 @@ val
 ;
 this
 .
-dispatchFilterEvent
+_dispatchFilterEvent
 (
 val
 )
@@ -317,7 +317,7 @@ return
 true
 ;
 }
-dispatchFilterEvent
+_dispatchFilterEvent
 (
 value
 )
