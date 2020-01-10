@@ -139,13 +139,6 @@ h
 #
 include
 "
-nsPIDOMWindow
-.
-h
-"
-#
-include
-"
 mozilla
 /
 UniquePtr

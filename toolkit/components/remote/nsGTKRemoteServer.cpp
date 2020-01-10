@@ -160,13 +160,6 @@ h
 #
 include
 "
-nsPIDOMWindow
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ModuleUtils

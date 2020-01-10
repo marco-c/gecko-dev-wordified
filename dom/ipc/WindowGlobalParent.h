@@ -143,6 +143,13 @@ h
 #
 include
 "
+nsRefPtrHashtable
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
