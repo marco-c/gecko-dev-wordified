@@ -412,7 +412,10 @@ GetIntrinsicSize
 override
 ;
 virtual
-nsSize
+mozilla
+:
+:
+AspectRatio
 GetIntrinsicRatio
 (
 )

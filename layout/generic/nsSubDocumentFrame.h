@@ -490,7 +490,10 @@ GetIntrinsicSize
 )
 override
 ;
-nsSize
+mozilla
+:
+:
+AspectRatio
 GetIntrinsicRatio
 (
 )

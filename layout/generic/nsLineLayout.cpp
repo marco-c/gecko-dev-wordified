@@ -5267,13 +5267,6 @@ f
 GetIntrinsicRatio
 (
 )
-!
-=
-nsSize
-(
-0
-0
-)
 &
 &
 /

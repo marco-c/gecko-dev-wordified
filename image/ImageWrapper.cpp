@@ -648,15 +648,15 @@ aSize
 )
 ;
 }
-NS_IMETHODIMP
+Maybe
+<
+AspectRatio
+>
 ImageWrapper
 :
 :
 GetIntrinsicRatio
 (
-nsSize
-*
-aSize
 )
 {
 return
@@ -665,7 +665,6 @@ mInnerImage
 >
 GetIntrinsicRatio
 (
-aSize
 )
 ;
 }
