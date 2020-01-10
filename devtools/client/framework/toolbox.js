@@ -21349,7 +21349,6 @@ to
 the
 toolbox
 .
-await
 this
 .
 _inspector
