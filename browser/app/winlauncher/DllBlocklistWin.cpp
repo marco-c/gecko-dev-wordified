@@ -184,6 +184,12 @@ WinHeaderOnlyUtils
 .
 h
 "
+/
+/
+clang
+-
+format
+off
 #
 define
 MOZ_LITERAL_UNICODE_STRING
@@ -217,6 +223,7 @@ sizeof
 (
 wchar_t
 )
+\
 /
 *
 Length
@@ -226,7 +233,6 @@ string
 in
 bytes
 including
-\
 the
 null
 terminator
@@ -237,6 +243,7 @@ sizeof
 (
 s
 )
+\
 /
 *
 Pointer
@@ -256,6 +263,12 @@ s
 )
 \
 }
+/
+/
+clang
+-
+format
+on
 #
 define
 DLL_BLOCKLIST_ENTRY
@@ -1141,6 +1154,13 @@ BLOCK_WIN8_ONLY
 {
 RTL_OSVERSIONINFOW
 osv
+=
+{
+sizeof
+(
+osv
+)
+}
 ;
 NTSTATUS
 ntStatus
