@@ -247,10 +247,7 @@ exports
 processors
 :
 {
-"
-.
-js
-"
+processor
 :
 require
 (
