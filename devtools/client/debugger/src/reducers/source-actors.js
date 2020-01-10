@@ -1194,7 +1194,7 @@ acc
 ;
 export
 function
-getAllThreadsBySource
+getThreadsBySource
 (
 state
 :

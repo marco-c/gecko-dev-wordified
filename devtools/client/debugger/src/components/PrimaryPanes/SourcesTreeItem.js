@@ -145,7 +145,7 @@ from
 /
 utils
 /
-threads
+workers
 "
 ;
 import
@@ -304,6 +304,7 @@ type
 {
 Source
 Context
+MainThread
 Thread
 SourceContent
 }
@@ -366,7 +367,7 @@ Thread
 ]
 mainThread
 :
-Thread
+MainThread
 hasMatchingGeneratedSource
 :
 boolean

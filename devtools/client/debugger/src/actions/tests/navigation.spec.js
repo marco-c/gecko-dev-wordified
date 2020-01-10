@@ -219,7 +219,7 @@ getState
 createStore
 (
 {
-fetchThreads
+fetchWorkers
 :
 (
 )
