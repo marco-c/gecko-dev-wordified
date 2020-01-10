@@ -23732,11 +23732,6 @@ HAVE_METADATA
 case
 HAVE_CURRENT_DATA
 :
-FireTimeUpdate
-(
-false
-)
-;
 DispatchAsyncEvent
 (
 NS_LITERAL_STRING
