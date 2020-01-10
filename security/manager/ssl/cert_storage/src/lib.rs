@@ -2742,9 +2742,7 @@ is_data_fresh
 "
 services
 .
-settings
-.
-security
+blocklist
 .
 onecrl
 .
@@ -4558,9 +4556,7 @@ int_prefs
 "
 services
 .
-settings
-.
-security
+blocklist
 .
 onecrl
 .

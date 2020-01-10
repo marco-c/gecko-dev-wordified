@@ -2224,9 +2224,7 @@ setIntPref
 "
 services
 .
-settings
-.
-security
+blocklist
 .
 onecrl
 .
@@ -2481,9 +2479,7 @@ setIntPref
 "
 services
 .
-settings
-.
-security
+blocklist
 .
 onecrl
 .
@@ -2593,9 +2589,7 @@ behavior
 when
 services
 .
-settings
-.
-security
+blocklist
 .
 onecrl
 .
@@ -2668,9 +2662,7 @@ past
 (
 services
 .
-settings
-.
-security
+blocklist
 .
 onecrl
 .
@@ -2767,9 +2759,7 @@ behavior
 when
 services
 .
-settings
-.
-security
+blocklist
 .
 onecrl
 .
@@ -2812,9 +2802,7 @@ now
 set
 services
 .
-settings
-.
-security
+blocklist
 .
 onecrl
 .
@@ -2832,9 +2820,7 @@ setIntPref
 "
 services
 .
-settings
-.
-security
+blocklist
 .
 onecrl
 .
@@ -2918,9 +2904,7 @@ clearUserPref
 "
 services
 .
-settings
-.
-security
+blocklist
 .
 onecrl
 .
