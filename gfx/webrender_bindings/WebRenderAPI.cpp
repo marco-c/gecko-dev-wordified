@@ -3767,13 +3767,6 @@ uint8_t
 >
 &
 aBytes
-const
-wr
-:
-:
-DeviceIntRect
-&
-aVisibleRect
 )
 {
 wr_resource_updates_add_blob_image
@@ -3786,7 +3779,6 @@ aDescriptor
 aBytes
 .
 inner
-aVisibleRect
 )
 ;
 }
@@ -3926,13 +3918,6 @@ const
 wr
 :
 :
-DeviceIntRect
-&
-aVisibleRect
-const
-wr
-:
-:
 LayoutIntRect
 &
 aDirtyRect
@@ -3948,7 +3933,6 @@ aDescriptor
 aBytes
 .
 inner
-aVisibleRect
 aDirtyRect
 )
 ;
@@ -4037,7 +4021,7 @@ void
 TransactionBuilder
 :
 :
-SetBlobImageVisibleArea
+SetImageVisibleArea
 (
 BlobImageKey
 aKey

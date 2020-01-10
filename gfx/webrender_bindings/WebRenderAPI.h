@@ -736,13 +736,6 @@ uint8_t
 >
 &
 aBytes
-const
-wr
-:
-:
-DeviceIntRect
-&
-aVisibleRect
 )
 ;
 void
@@ -828,13 +821,6 @@ const
 wr
 :
 :
-DeviceIntRect
-&
-aVisibleRect
-const
-wr
-:
-:
 LayoutIntRect
 &
 aDirtyRect
@@ -892,7 +878,7 @@ aChannelIndex
 )
 ;
 void
-SetBlobImageVisibleArea
+SetImageVisibleArea
 (
 BlobImageKey
 aKey
