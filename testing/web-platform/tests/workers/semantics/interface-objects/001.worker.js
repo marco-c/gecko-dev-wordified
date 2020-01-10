@@ -71,6 +71,9 @@ CanvasPattern
 CanvasPath
 "
 "
+TextMetrics
+"
+"
 Path2D
 "
 "

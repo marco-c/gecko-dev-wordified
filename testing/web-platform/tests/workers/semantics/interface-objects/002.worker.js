@@ -56,9 +56,6 @@ HTMLCanvasElement
 Path
 "
 "
-TextMetrics
-"
-"
 CanvasProxy
 "
 "
