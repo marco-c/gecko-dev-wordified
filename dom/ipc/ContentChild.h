@@ -3881,6 +3881,10 @@ const
 uint64_t
 &
 aIdentifier
+const
+uint32_t
+&
+aRedirectMode
 )
 ;
 mozilla
