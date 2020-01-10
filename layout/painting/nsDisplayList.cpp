@@ -15027,6 +15027,8 @@ IsAlive
 )
 |
 |
+AnyContentAncestorModified
+(
 wrapper
 .
 mWeakFrame
@@ -15035,10 +15037,6 @@ mWeakFrame
 GetFrame
 (
 )
--
->
-IsFrameModified
-(
 )
 )
 {
