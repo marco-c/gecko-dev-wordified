@@ -442,12 +442,8 @@ waitUntil
 findDebugTargetByText
 (
 "
-about
-:
-devtools
+Toolbox
 -
-toolbox
-?
 "
 document
 )
