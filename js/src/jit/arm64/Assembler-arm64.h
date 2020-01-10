@@ -524,6 +524,17 @@ x1
 static
 constexpr
 Register
+InterpreterPCReg
+{
+Registers
+:
+:
+x9
+}
+;
+static
+constexpr
+Register
 ReturnReg
 {
 Registers
