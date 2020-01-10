@@ -1543,6 +1543,16 @@ GCCellPtr
 {
 public
 :
+GCCellPtr
+(
+)
+:
+GCCellPtr
+(
+nullptr
+)
+{
+}
 /
 /
 Construction

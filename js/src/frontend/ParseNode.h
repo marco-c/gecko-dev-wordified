@@ -13397,7 +13397,7 @@ protected
 :
 friend
 struct
-CGObjectList
+GCThingList
 ;
 ObjectBox
 *
