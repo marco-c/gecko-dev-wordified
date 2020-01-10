@@ -2757,6 +2757,10 @@ true
 ;
 break
 ;
+default
+:
+break
+;
 }
 /
 /
