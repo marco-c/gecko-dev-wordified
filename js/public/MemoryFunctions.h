@@ -496,11 +496,6 @@ _
 (
 CTypesInt64
 )
-\
-_
-(
-PerfMeasurement
-)
 enum
 class
 MemoryUse

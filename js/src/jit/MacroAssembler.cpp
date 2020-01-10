@@ -6151,7 +6151,7 @@ startOfUndefined
 }
 static
 void
-AllocateAndInitTypedArrayBuffer
+AllocateObjectBufferWithInit
 (
 JSContext
 *
@@ -6340,15 +6340,12 @@ if
 buf
 )
 {
-InitObjectPrivate
-(
 obj
+-
+>
+initPrivate
+(
 buf
-nbytes
-MemoryUse
-:
-:
-TypedArrayElements
 )
 ;
 }
@@ -6860,7 +6857,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-AllocateAndInitTypedArrayBuffer
+AllocateObjectBufferWithInit
 )
 )
 ;
