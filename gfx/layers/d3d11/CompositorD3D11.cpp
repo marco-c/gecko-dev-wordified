@@ -783,7 +783,7 @@ return
 StaticPrefs
 :
 :
-D3D11LayerGeometry
+layers_geometry_d3d11_enabled
 (
 )
 ;
@@ -6413,7 +6413,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-ComponentAlphaEnabled
+layers_componentalpha_enabled
 (
 )
 )
@@ -7307,7 +7307,7 @@ if
 StaticPrefs
 :
 :
-LayersDrawFPS
+layers_acceleration_draw_fps
 (
 )
 )

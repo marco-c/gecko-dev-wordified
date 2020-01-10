@@ -2166,7 +2166,7 @@ if
 StaticPrefs
 :
 :
-AdvancedLayersEnableDepthBuffer
+layers_mlgpu_enable_depth_buffer
 (
 )
 )

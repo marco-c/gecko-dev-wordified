@@ -555,7 +555,7 @@ mUseDepthBuffer
 StaticPrefs
 :
 :
-AdvancedLayersEnableDepthBuffer
+layers_mlgpu_enable_depth_buffer
 (
 )
 )
@@ -1359,7 +1359,7 @@ translation
 StaticPrefs
 :
 :
-AdvancedLayersEnableCPUOcclusion
+layers_mlgpu_enable_cpu_occlusion
 (
 )
 )

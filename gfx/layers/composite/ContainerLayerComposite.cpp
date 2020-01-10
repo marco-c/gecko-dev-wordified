@@ -3251,7 +3251,7 @@ if
 StaticPrefs
 :
 :
-LayersDrawFPS
+layers_acceleration_draw_fps
 (
 )
 )
@@ -3566,7 +3566,7 @@ if
 StaticPrefs
 :
 :
-UniformityInfo
+layers_uniformity_info
 (
 )
 )
@@ -3582,7 +3582,7 @@ if
 StaticPrefs
 :
 :
-DrawLayerInfo
+layers_draw_layer_info
 (
 )
 )
@@ -4709,7 +4709,7 @@ if
 StaticPrefs
 :
 :
-LayersDrawFPS
+layers_acceleration_draw_fps
 (
 )
 &

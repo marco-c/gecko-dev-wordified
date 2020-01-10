@@ -2151,7 +2151,7 @@ wantBenchmark
 StaticPrefs
 :
 :
-LayersBenchEnabled
+layers_bench_enabled
 (
 )
 ;

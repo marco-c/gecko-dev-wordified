@@ -666,7 +666,7 @@ if
 StaticPrefs
 :
 :
-AdvancedLayersEnableBufferSharing
+layers_mlgpu_enable_buffer_sharing
 (
 )
 )
@@ -771,7 +771,7 @@ if
 StaticPrefs
 :
 :
-AdvancedLayersEnableClearView
+layers_mlgpu_enable_clear_view
 (
 )
 )
@@ -954,7 +954,7 @@ if
 StaticPrefs
 :
 :
-AdvancedLayersEnableBufferCache
+layers_mlgpu_enable_buffer_cache
 (
 )
 )

@@ -1033,7 +1033,7 @@ if
 StaticPrefs
 :
 :
-ForceShmemTiles
+layers_force_shmem_tiles
 (
 )
 )

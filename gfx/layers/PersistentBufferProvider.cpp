@@ -672,7 +672,7 @@ if
 StaticPrefs
 :
 :
-PersistentBufferProviderSharedEnabled
+layers_shared_buffer_provider_enabled
 (
 )
 )

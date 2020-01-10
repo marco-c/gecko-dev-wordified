@@ -213,7 +213,7 @@ SetResolution
 StaticPrefs
 :
 :
-LowPrecisionResolution
+layers_low_precision_resolution
 (
 )
 )
@@ -223,7 +223,7 @@ mHasLowPrecision
 StaticPrefs
 :
 :
-UseLowPrecisionBuffer
+layers_low_precision_buffer
 (
 )
 ;
@@ -1768,7 +1768,7 @@ if
 StaticPrefs
 :
 :
-TileEdgePaddingEnabled
+layers_tiles_edge_padding
 (
 )
 &

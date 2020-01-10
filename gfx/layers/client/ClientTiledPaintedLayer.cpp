@@ -1954,7 +1954,7 @@ if
 StaticPrefs
 :
 :
-ProgressivePaint
+layers_progressive_paint
 (
 )
 )
@@ -3465,7 +3465,7 @@ ClientManager
 StaticPrefs
 :
 :
-LayersSingleTileEnabled
+layers_single_tile_enabled
 (
 )
 ;

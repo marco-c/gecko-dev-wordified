@@ -4203,7 +4203,7 @@ if
 StaticPrefs
 :
 :
-LayersTileRetainBackBuffer
+layers_tiles_retain_back_buffer
 (
 )
 )
@@ -4657,7 +4657,7 @@ target
 StaticPrefs
 :
 :
-LayersOMTPCaptureLimit
+layers_omtp_capture_limit
 (
 )
 )

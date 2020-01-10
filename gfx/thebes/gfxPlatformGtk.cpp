@@ -1932,7 +1932,7 @@ CAIRO
 StaticPrefs
 :
 :
-UseImageOffscreenSurfaces
+layers_use_image_offscreen_surfaces
 (
 )
 ;
