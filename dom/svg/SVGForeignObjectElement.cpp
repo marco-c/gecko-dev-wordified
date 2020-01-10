@@ -1023,6 +1023,13 @@ sViewportsMap
 }
 ;
 return
+IsInLengthInfo
+(
+name
+sLengthInfo
+)
+|
+|
 FindAttributeDependence
 (
 name
