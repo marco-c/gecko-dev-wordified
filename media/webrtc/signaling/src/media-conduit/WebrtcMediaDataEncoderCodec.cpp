@@ -891,7 +891,7 @@ int32_t
 WebrtcMediaDataEncoder
 :
 :
-Release
+Shutdown
 (
 )
 {

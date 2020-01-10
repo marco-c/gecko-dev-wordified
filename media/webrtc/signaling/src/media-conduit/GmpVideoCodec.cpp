@@ -86,6 +86,10 @@ return
 new
 WebrtcVideoEncoderProxy
 (
+new
+WebrtcGmpVideoEncoder
+(
+)
 )
 ;
 }

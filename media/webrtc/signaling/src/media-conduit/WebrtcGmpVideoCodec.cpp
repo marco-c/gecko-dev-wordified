@@ -802,7 +802,7 @@ VideoCodec
 aCodecSettings
 int32_t
 aNumberOfCores
-uint32_t
+size_t
 aMaxPayloadSize
 )
 {
@@ -2816,7 +2816,7 @@ int32_t
 WebrtcGmpVideoEncoder
 :
 :
-ReleaseGmp
+Shutdown
 (
 )
 {
@@ -2872,7 +2872,7 @@ SetChannelParameters
 (
 uint32_t
 aPacketLoss
-int
+int64_t
 aRTT
 )
 {
