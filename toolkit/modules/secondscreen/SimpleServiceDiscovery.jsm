@@ -1480,9 +1480,6 @@ send
 SSDP_ADDRESS
 SSDP_PORT
 msgRaw
-msgRaw
-.
-length
 )
 ;
 }

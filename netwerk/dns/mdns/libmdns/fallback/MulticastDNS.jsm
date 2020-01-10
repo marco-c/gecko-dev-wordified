@@ -2266,9 +2266,6 @@ target
 .
 port
 data
-data
-.
-length
 )
 ;
 }
@@ -2848,9 +2845,6 @@ send
 MDNS_MULTICAST_GROUP
 MDNS_PORT
 data
-data
-.
-length
 )
 ;
 }

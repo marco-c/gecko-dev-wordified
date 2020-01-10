@@ -321,9 +321,6 @@ socket
 .
 port
 rawData
-rawData
-.
-length
 )
 ;
 Assert
@@ -719,9 +716,6 @@ socket
 .
 port
 rawData
-rawData
-.
-length
 )
 ;
 Assert
