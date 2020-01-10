@@ -1560,6 +1560,7 @@ getActivity
 (
 )
 bundle
+this
 )
 .
 execute
