@@ -527,18 +527,6 @@ s
 "
 -
 -
-utility
--
-path
-=
-tests
-/
-bin
-"
-                
-"
--
--
 xre
 -
 path
@@ -1502,6 +1490,13 @@ flavor
 =
 chrome
 "
+"
+-
+-
+disable
+-
+e10s
+"
 ]
         
 "
@@ -1562,6 +1557,13 @@ by
 dir
 =
 4
+"
+"
+-
+-
+disable
+-
+e10s
 "
 ]
         
@@ -1912,6 +1914,13 @@ a11y
 flavor
 =
 a11y
+"
+"
+-
+-
+disable
+-
+e10s
 "
 ]
     
