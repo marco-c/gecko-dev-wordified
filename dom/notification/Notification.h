@@ -1416,6 +1416,10 @@ const
 NotificationOptions
 &
 aOptions
+const
+ServiceWorkerRegistrationDescriptor
+&
+aDescriptor
 ErrorResult
 &
 aRv
