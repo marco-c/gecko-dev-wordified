@@ -4300,7 +4300,7 @@ Init
 mPromise
 -
 >
-GlobalJSObject
+GetGlobalObject
 (
 )
 )

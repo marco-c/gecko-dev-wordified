@@ -2025,7 +2025,7 @@ Init
 mPromise
 -
 >
-GlobalJSObject
+GetGlobalObject
 (
 )
 )

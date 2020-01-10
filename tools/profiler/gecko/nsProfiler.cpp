@@ -1515,7 +1515,7 @@ Init
 promise
 -
 >
-GlobalJSObject
+GetGlobalObject
 (
 )
 )
@@ -1881,7 +1881,7 @@ Init
 promise
 -
 >
-GlobalJSObject
+GetGlobalObject
 (
 )
 )
@@ -2472,7 +2472,7 @@ Init
 promise
 -
 >
-GlobalJSObject
+GetGlobalObject
 (
 )
 )
