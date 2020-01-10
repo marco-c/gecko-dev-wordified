@@ -1817,6 +1817,16 @@ bool
 proxy_only
 )
 ;
+bool
+proxy_only
+(
+)
+const
+{
+return
+proxy_only_
+;
+}
 /
 /
 Start
@@ -2299,6 +2309,9 @@ shared_ptr
 NrSocketProxyConfig
 >
 proxy_config_
+;
+bool
+proxy_only_
 ;
 }
 ;
