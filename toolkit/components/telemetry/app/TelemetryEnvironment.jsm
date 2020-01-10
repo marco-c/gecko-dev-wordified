@@ -11959,6 +11959,15 @@ ContentBackend
 "
 null
 )
+Headless
+:
+getGfxField
+(
+"
+isHeadless
+"
+null
+)
 /
 /
 The

@@ -4198,6 +4198,17 @@ in
 gfxData
 )
 ;
+Assert
+.
+ok
+(
+"
+Headless
+"
+in
+gfxData
+)
+;
 /
 /
 DWriteVersion
