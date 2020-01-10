@@ -315,9 +315,7 @@ actor
 type
 :
 "
-main
--
-thread
+mainThread
 "
 name
 :
