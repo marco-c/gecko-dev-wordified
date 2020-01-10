@@ -120,6 +120,10 @@ extern
 crate
 serde_json
 ;
+extern
+crate
+tempfile
+;
 #
 [
 macro_use
