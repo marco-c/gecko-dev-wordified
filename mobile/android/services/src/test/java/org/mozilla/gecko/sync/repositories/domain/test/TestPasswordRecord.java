@@ -197,8 +197,6 @@ https
 example
 .
 com
-/
-login
 \
 "
 \
