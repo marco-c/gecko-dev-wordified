@@ -528,7 +528,7 @@ if
 StaticPrefs
 :
 :
-UseApitrace
+gfx_apitrace_enabled
 (
 )
 )

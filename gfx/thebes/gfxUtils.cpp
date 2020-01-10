@@ -10464,7 +10464,7 @@ UseWebRender
 StaticPrefs
 :
 :
-WebRenderSplitRenderRoots
+gfx_webrender_split_render_roots
 (
 )
 )
@@ -10522,7 +10522,7 @@ UseWebRender
 StaticPrefs
 :
 :
-WebRenderSplitRenderRoots
+gfx_webrender_split_render_roots
 (
 )
 )
@@ -10640,7 +10640,7 @@ UseWebRender
 StaticPrefs
 :
 :
-WebRenderSplitRenderRoots
+gfx_webrender_split_render_roots
 (
 )
 )
@@ -10739,7 +10739,7 @@ UseWebRender
 StaticPrefs
 :
 :
-WebRenderSplitRenderRoots
+gfx_webrender_split_render_roots
 (
 )
 )

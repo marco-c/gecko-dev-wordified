@@ -583,7 +583,7 @@ supportLowPriorityTransactions
 StaticPrefs
 :
 :
-WebRenderPictureCaching
+gfx_webrender_picture_caching
 (
 )
 &
@@ -592,7 +592,7 @@ supportPictureCaching
 StaticPrefs
 :
 :
-WebRenderStartDebugServer
+gfx_webrender_start_debug_server
 (
 )
 compositor

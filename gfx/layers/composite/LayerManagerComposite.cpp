@@ -4179,7 +4179,7 @@ drawFrameColorBars
 StaticPrefs
 :
 :
-CompositorDrawColorBars
+gfx_draw_color_bars
 (
 )
 ;
@@ -4236,7 +4236,7 @@ drawPaintTimes
 StaticPrefs
 :
 :
-AlwaysPaint
+gfx_content_always_paint
 (
 )
 ;
@@ -4352,7 +4352,7 @@ drawFrameColorBars
 StaticPrefs
 :
 :
-CompositorDrawColorBars
+gfx_draw_color_bars
 (
 )
 ;
@@ -5204,7 +5204,7 @@ drawPaintTimes
 StaticPrefs
 :
 :
-AlwaysPaint
+gfx_content_always_paint
 (
 )
 ;

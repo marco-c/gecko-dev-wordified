@@ -616,7 +616,7 @@ if
 StaticPrefs
 :
 :
-AndroidRGB16Force
+gfx_android_rgb16_force
 (
 )
 )

@@ -1194,7 +1194,7 @@ mCheckOTLTables
 StaticPrefs
 :
 :
-ValidateOTLTables
+gfx_downloadable_fonts_otl_validation
 (
 )
 ;
@@ -1213,7 +1213,7 @@ mCheckVariationTables
 StaticPrefs
 :
 :
-ValidateVariationTables
+gfx_downloadable_fonts_validate_variation_tables
 (
 )
 ;
@@ -1230,7 +1230,7 @@ mKeepColorBitmaps
 StaticPrefs
 :
 :
-KeepColorBitmaps
+gfx_downloadable_fonts_keep_color_bitmaps
 (
 )
 ;

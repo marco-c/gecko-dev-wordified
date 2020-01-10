@@ -1484,7 +1484,7 @@ if
 StaticPrefs
 :
 :
-Direct3D11UseDoubleBuffering
+gfx_direct3d11_use_double_buffering
 (
 )
 &

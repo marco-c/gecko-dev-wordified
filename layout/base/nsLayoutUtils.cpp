@@ -27649,7 +27649,7 @@ if
 StaticPrefs
 :
 :
-GfxLoggingPaintedPixelCountEnabled
+gfx_logging_painted_pixel_count_enabled
 (
 )
 )

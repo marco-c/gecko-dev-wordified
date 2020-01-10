@@ -4075,7 +4075,7 @@ around
 StaticPrefs
 :
 :
-PerfWarnings
+gfx_perf_warnings_enabled
 (
 )
 .

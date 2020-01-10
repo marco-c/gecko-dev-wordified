@@ -9186,14 +9186,14 @@ SetDefaultFromPref
 StaticPrefs
 :
 :
-GetDirect2DDisabledPrefName
+Getgfx_direct2d_disabledPrefName
 (
 )
 false
 StaticPrefs
 :
 :
-GetDirect2DDisabledPrefDefault
+Getgfx_direct2d_disabledPrefDefault
 (
 )
 )
@@ -9252,7 +9252,7 @@ IsEnabled
 StaticPrefs
 :
 :
-Direct2DForceEnabled
+gfx_direct2d_force_enabled
 (
 )
 )

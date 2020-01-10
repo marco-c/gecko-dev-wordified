@@ -591,7 +591,7 @@ use_deprecated
 StaticPrefs
 :
 :
-YCbCrAccurateConversion
+gfx_ycbcr_accurate_conversion
 (
 )
 |
@@ -1886,7 +1886,7 @@ use_deprecated
 StaticPrefs
 :
 :
-YCbCrAccurateConversion
+gfx_ycbcr_accurate_conversion
 (
 )
 |

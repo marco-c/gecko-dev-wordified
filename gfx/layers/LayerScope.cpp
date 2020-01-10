@@ -8426,7 +8426,7 @@ port
 StaticPrefs
 :
 :
-LayerScopePort
+gfx_layerscope_port
 (
 )
 ;
@@ -8746,7 +8746,7 @@ if
 StaticPrefs
 :
 :
-LayerScopeEnabled
+gfx_layerscope_enabled
 (
 )
 |
@@ -9295,7 +9295,7 @@ if
 StaticPrefs
 :
 :
-LayerScopeEnabled
+gfx_layerscope_enabled
 (
 )
 )

@@ -861,7 +861,7 @@ if
 StaticPrefs
 :
 :
-Direct2DForceEnabled
+gfx_direct2d_force_enabled
 (
 )
 |
@@ -1262,7 +1262,7 @@ if
 StaticPrefs
 :
 :
-Direct2DForceEnabled
+gfx_direct2d_force_enabled
 (
 )
 |

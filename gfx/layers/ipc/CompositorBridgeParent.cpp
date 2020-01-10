@@ -9759,7 +9759,7 @@ if
 StaticPrefs
 :
 :
-Direct3D11UseDoubleBuffering
+gfx_direct3d11_use_double_buffering
 (
 )
 &
@@ -11308,7 +11308,7 @@ if
 StaticPrefs
 :
 :
-WebRenderSplitRenderRoots
+gfx_webrender_split_render_roots
 (
 )
 )

@@ -7316,7 +7316,7 @@ mWidth
 StaticPrefs
 :
 :
-MaxCanvasSize
+gfx_canvas_max_size
 (
 )
 |
@@ -7326,7 +7326,7 @@ mHeight
 StaticPrefs
 :
 :
-MaxCanvasSize
+gfx_canvas_max_size
 (
 )
 |
@@ -35062,7 +35062,7 @@ than
 gfxPrefs
 :
 :
-MaxCanvasSize
+gfx_canvas_max_size
 (
 )
 .
@@ -35071,6 +35071,8 @@ should
 check
 this
 here
+/
+/
 too
 .
 CheckedInt

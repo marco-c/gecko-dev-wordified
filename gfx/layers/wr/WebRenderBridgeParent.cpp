@@ -1972,7 +1972,7 @@ IsRootWebRenderBridgeParent
 StaticPrefs
 :
 :
-WebRenderSplitRenderRoots
+gfx_webrender_split_render_roots
 (
 )
 )
@@ -5901,7 +5901,7 @@ if
 StaticPrefs
 :
 :
-WebRenderSplitRenderRoots
+gfx_webrender_split_render_roots
 (
 )
 )
@@ -10727,7 +10727,7 @@ IsRootWebRenderBridgeParent
 StaticPrefs
 :
 :
-WebRenderSplitRenderRoots
+gfx_webrender_split_render_roots
 (
 )
 )
@@ -11294,7 +11294,7 @@ IsRootWebRenderBridgeParent
 StaticPrefs
 :
 :
-WebRenderSplitRenderRoots
+gfx_webrender_split_render_roots
 (
 )
 )
@@ -11569,7 +11569,7 @@ kHighestRenderRoot
 StaticPrefs
 :
 :
-WebRenderSplitRenderRoots
+gfx_webrender_split_render_roots
 (
 )
 &
@@ -13995,7 +13995,7 @@ ToMilliseconds
 StaticPrefs
 :
 :
-WebRenderLateSceneBuildThreshold
+gfx_webrender_late_scenebuild_threshold
 (
 )
 )

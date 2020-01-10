@@ -1354,7 +1354,7 @@ aVertical
 StaticPrefs
 :
 :
-CoreTextEnabled
+gfx_font_rendering_coretext_enabled
 (
 )
 )

@@ -1182,7 +1182,7 @@ sleepSec
 StaticPrefs
 :
 :
-Direct3D11SleepOnCreateDevice
+gfx_direct3d11_sleep_on_create_device
 (
 )
 )
@@ -2563,7 +2563,7 @@ if
 StaticPrefs
 :
 :
-DeviceFailForTesting
+gfx_testing_device_fail
 (
 )
 )
@@ -3332,7 +3332,7 @@ if
 StaticPrefs
 :
 :
-Direct3D11EnableDebugLayer
+gfx_direct3d11_enable_debug_layer
 (
 )
 |
@@ -3340,7 +3340,7 @@ Direct3D11EnableDebugLayer
 StaticPrefs
 :
 :
-Direct3D11BreakOnError
+gfx_direct3d11_break_on_error
 (
 )
 )
@@ -3395,7 +3395,7 @@ if
 StaticPrefs
 :
 :
-Direct3D11BreakOnError
+gfx_direct3d11_break_on_error
 (
 )
 )
@@ -4339,7 +4339,7 @@ if
 StaticPrefs
 :
 :
-Direct3D11ReuseDecoderDevice
+gfx_direct3d11_reuse_decoder_device
 (
 )
 <
@@ -4387,7 +4387,7 @@ if
 StaticPrefs
 :
 :
-Direct3D11ReuseDecoderDevice
+gfx_direct3d11_reuse_decoder_device
 (
 )
 >
@@ -5824,7 +5824,7 @@ NS_IsMainThread
 StaticPrefs
 :
 :
-DeviceResetForTesting
+gfx_testing_device_reset
 (
 )
 )
@@ -6313,7 +6313,7 @@ mDeviceStatus
 StaticPrefs
 :
 :
-Direct3D11AllowKeyedMutex
+gfx_direct3d11_allow_keyed_mutex
 (
 )
 &

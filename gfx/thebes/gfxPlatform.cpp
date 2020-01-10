@@ -3964,7 +3964,7 @@ cacheSize
 StaticPrefs
 :
 :
-SkiaContentFontCacheSize
+gfx_content_skia_font_cache_size
 (
 )
 *
@@ -6146,13 +6146,13 @@ d
 StaticPrefs
 :
 :
-Direct2DDisabled
+gfx_direct2d_disabled
 (
 )
 StaticPrefs
 :
 :
-Direct2DForceEnabled
+gfx_direct2d_force_enabled
 (
 )
 )
@@ -6313,7 +6313,7 @@ d
 StaticPrefs
 :
 :
-AndroidRGB16Force
+gfx_android_rgb16_force
 (
 )
 0
@@ -7556,7 +7556,7 @@ kMinSizePref
 StaticPrefs
 :
 :
-MaxTextureSizeDoNotUseDirectly
+gfx_max_texture_size_do_not_use_directly
 (
 )
 )
@@ -7614,7 +7614,7 @@ kMinAllocPref
 StaticPrefs
 :
 :
-MaxAllocSizeDoNotUseDirectly
+gfx_max_alloc_size_do_not_use_directly
 (
 )
 )
@@ -7656,7 +7656,7 @@ SetCircularBufferSize
 StaticPrefs
 :
 :
-GfxLoggingCrashLength
+gfx_logging_crash_length
 (
 )
 )
@@ -12994,7 +12994,7 @@ mode
 StaticPrefs
 :
 :
-CMSMode
+gfx_color_management_mode
 (
 )
 ;
@@ -13028,7 +13028,7 @@ enableV4
 StaticPrefs
 :
 :
-CMSEnableV4
+gfx_color_management_enablev4
 (
 )
 ;
@@ -13159,7 +13159,7 @@ pIntent
 StaticPrefs
 :
 :
-CMSRenderingIntent
+gfx_color_management_rendering_intent
 (
 )
 ;
@@ -15589,7 +15589,7 @@ SetRemoteCanvasEnabled
 StaticPrefs
 :
 :
-CanvasRemote
+gfx_canvas_remote
 (
 )
 &
@@ -15863,7 +15863,7 @@ if
 StaticPrefs
 :
 :
-LayerScopeEnabled
+gfx_layerscope_enabled
 (
 )
 )
@@ -16226,7 +16226,7 @@ return
 StaticPrefs
 :
 :
-WebRenderAll
+gfx_webrender_all
 (
 )
 |
@@ -16234,7 +16234,7 @@ WebRenderAll
 StaticPrefs
 :
 :
-WebRenderEnabledDoNotUseDirectly
+gfx_webrender_enabled_do_not_use_directly
 (
 )
 ;
@@ -18520,7 +18520,7 @@ if
 StaticPrefs
 :
 :
-WebRenderForceDisabled
+gfx_webrender_force_disabled
 (
 )
 |
@@ -21456,7 +21456,7 @@ if
 StaticPrefs
 :
 :
-LoggingSlowFramesEnabled
+gfx_logging_slow_frames_enabled
 (
 )
 )
@@ -21692,7 +21692,7 @@ return
 StaticPrefs
 :
 :
-PerfWarnings
+gfx_perf_warnings_enabled
 (
 )
 ;
