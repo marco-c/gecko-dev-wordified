@@ -1159,6 +1159,9 @@ nsDisplayCanvasBackgroundImage
 nsDisplayListBuilder
 *
 aBuilder
+nsIFrame
+*
+aFrame
 const
 InitData
 &
@@ -1168,6 +1171,7 @@ aInitData
 nsDisplayBackgroundImage
 (
 aBuilder
+aFrame
 aInitData
 )
 {
