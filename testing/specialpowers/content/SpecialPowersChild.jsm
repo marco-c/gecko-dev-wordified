@@ -113,13 +113,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-SpecialPowers
-"
-"
 SpecialPowersChild
-"
-"
-attachSpecialPowersToWindow
 "
 ]
 ;
