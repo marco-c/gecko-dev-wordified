@@ -357,6 +357,11 @@ GuardFunctionHasJitEntry
 \
 _
 (
+GuardNotClassConstructor
+)
+\
+_
+(
 LoadObject
 )
 \
