@@ -2504,8 +2504,6 @@ tag
 .
 getMimeTypes
 (
-{
-}
 )
 ;
 let
@@ -2515,8 +2513,6 @@ tag
 .
 getMimeDescriptions
 (
-{
-}
 )
 ;
 let
@@ -2526,8 +2522,6 @@ tag
 .
 getExtensions
 (
-{
-}
 )
 ;
 for
