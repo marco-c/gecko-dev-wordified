@@ -3592,6 +3592,9 @@ overrideContext
 mozillaAddons
 "
 "
+normandyAddonStudy
+"
+"
 search
 "
 "
