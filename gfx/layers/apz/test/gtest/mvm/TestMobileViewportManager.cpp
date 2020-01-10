@@ -492,6 +492,8 @@ const
 CSSSize
 &
 aOldSize
+ResizeEventFlag
+aResizeEventFlag
 )
 {
 mICBSize
