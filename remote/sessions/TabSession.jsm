@@ -519,9 +519,10 @@ this
 .
 domains
 .
-has
+domainSupportsMethod
 (
 domain
+command
 )
 )
 {
