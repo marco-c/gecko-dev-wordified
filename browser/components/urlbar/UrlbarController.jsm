@@ -1925,11 +1925,11 @@ oneOffSearchButtons
 handleKeyPress
 (
 event
-queryContext
+this
 .
-results
+view
 .
-length
+visibleItemCount
 this
 .
 view
