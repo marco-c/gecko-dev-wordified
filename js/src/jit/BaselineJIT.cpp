@@ -3317,6 +3317,13 @@ BaselineScript
 allocBytes
 )
 ;
+script
+-
+>
+allocBytes_
+=
+allocBytes
+;
 return
 script
 ;
