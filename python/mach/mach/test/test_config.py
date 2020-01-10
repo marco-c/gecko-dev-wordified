@@ -771,12 +771,27 @@ setting
 raises
 .
         
+exc_type
+=
+AttributeError
+if
+sys
+.
+version_info
+<
+(
+3
+0
+)
+else
+KeyError
+        
 with
 self
 .
 assertRaises
 (
-AttributeError
+exc_type
 )
 :
             
