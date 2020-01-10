@@ -81,6 +81,13 @@ NewLinkAttributes
 (
 )
 ;
+static
+nsHtml5HtmlAttributes
+*
+NewBodyAttributes
+(
+)
+;
 }
 ;
 #
