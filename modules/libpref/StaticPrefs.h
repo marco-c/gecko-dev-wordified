@@ -628,7 +628,7 @@ inline
 const
 char
 *
-Getmy_prefPrefName
+GetPrefName_my_pref
 (
 )
 {
@@ -644,7 +644,7 @@ pref
 /
 inline
 int32_t
-Getmy_prefPrefDefault
+GetPrefDefault_my_pref
 (
 )
 {
@@ -809,13 +809,10 @@ inline
 const
 char
 *
-Get
+GetPrefName_
 #
 #
 id
-#
-#
-PrefName
 (
 )
 {
@@ -829,13 +826,10 @@ StripAtomic
 <
 cpp_type
 >
-Get
+GetPrefDefault_
 #
 #
 id
-#
-#
-PrefDefault
 (
 )
 {

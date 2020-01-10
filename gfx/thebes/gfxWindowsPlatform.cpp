@@ -8119,7 +8119,7 @@ SetDefaultFromPref
 StaticPrefs
 :
 :
-Getlayers_mlgpu_enabled_do_not_use_directlyPrefName
+GetPrefName_layers_mlgpu_enabled_do_not_use_directly
 (
 )
 true
@@ -8131,7 +8131,7 @@ aIsEnablePref
 StaticPrefs
 :
 :
-Getlayers_mlgpu_enabled_do_not_use_directlyPrefDefault
+GetPrefDefault_layers_mlgpu_enabled_do_not_use_directly
 (
 )
 )
@@ -9186,14 +9186,14 @@ SetDefaultFromPref
 StaticPrefs
 :
 :
-Getgfx_direct2d_disabledPrefName
+GetPrefName_gfx_direct2d_disabled
 (
 )
 false
 StaticPrefs
 :
 :
-Getgfx_direct2d_disabledPrefDefault
+GetPrefDefault_gfx_direct2d_disabled
 (
 )
 )

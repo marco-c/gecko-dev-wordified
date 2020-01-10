@@ -1432,13 +1432,13 @@ GetInt
 StaticPrefs
 :
 :
-Getgfx_logging_levelPrefName
+GetPrefName_gfx_logging_level
 (
 )
 StaticPrefs
 :
 :
-Getgfx_logging_levelPrefDefault
+GetPrefDefault_gfx_logging_level
 (
 )
 )
@@ -1481,7 +1481,7 @@ nsDependentCString
 StaticPrefs
 :
 :
-Getgfx_logging_levelPrefName
+GetPrefName_gfx_logging_level
 (
 )
 )
