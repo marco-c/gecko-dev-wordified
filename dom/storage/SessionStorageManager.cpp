@@ -397,6 +397,9 @@ PrecacheStorage
 nsIPrincipal
 *
 aPrincipal
+nsIPrincipal
+*
+aStoragePrincipal
 Storage
 *
 *
