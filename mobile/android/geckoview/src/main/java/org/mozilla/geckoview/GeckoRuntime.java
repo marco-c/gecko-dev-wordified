@@ -1271,6 +1271,7 @@ RuntimeTelemetry
 mTelemetry
 ;
 private
+final
 WebExtensionEventDispatcher
 mWebExtensionDispatcher
 ;
@@ -1279,6 +1280,7 @@ StorageController
 mStorageController
 ;
 private
+final
 WebExtensionController
 mWebExtensionController
 ;
@@ -3079,6 +3081,7 @@ result
 protected
 *
 /
+NonNull
 WebExtensionEventDispatcher
 getWebExtensionDispatcher
 (
