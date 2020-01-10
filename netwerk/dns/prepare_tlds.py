@@ -381,6 +381,15 @@ ToASCII
 (
 label
 )
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
   
 return
 "
