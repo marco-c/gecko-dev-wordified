@@ -165,6 +165,9 @@ vec
 Vec
 ;
 use
+crate
+:
+:
 limits
 :
 :
@@ -176,6 +179,9 @@ MAX_WASM_TABLE_ENTRIES
 }
 ;
 use
+crate
+:
+:
 primitives
 :
 :
@@ -198,6 +204,9 @@ Type
 }
 ;
 use
+crate
+:
+:
 readers
 :
 :
@@ -234,6 +243,9 @@ TypeSectionReader
 }
 ;
 use
+crate
+:
+:
 binary_reader
 :
 :

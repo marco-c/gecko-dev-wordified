@@ -125,7 +125,7 @@ License
 *
 /
 use
-std
+core
 :
 :
 iter
