@@ -22045,7 +22045,7 @@ Element
 aElement
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mInStyleRefresh
@@ -23734,7 +23734,7 @@ EventStates
 aChangedBits
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mInStyleRefresh
@@ -24472,7 +24472,7 @@ nsAtom
 aAttribute
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mInStyleRefresh
