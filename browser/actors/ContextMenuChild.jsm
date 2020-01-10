@@ -3946,12 +3946,6 @@ instead
 .
 aEvent
 .
-preventDefault
-(
-)
-;
-aEvent
-.
 stopPropagation
 (
 )
