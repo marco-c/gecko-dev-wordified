@@ -2393,6 +2393,13 @@ h
 #
 include
 "
+MobileViewportManager
+.
+h
+"
+#
+include
+"
 NodeUbiReporting
 .
 h
