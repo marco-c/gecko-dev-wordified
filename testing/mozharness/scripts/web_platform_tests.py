@@ -3071,20 +3071,6 @@ MOZ_ACCELERATED
 1
 '
         
-else
-:
-            
-env
-[
-'
-MOZ_WEBRENDER
-'
-]
-=
-'
-0
-'
-        
 if
 self
 .
