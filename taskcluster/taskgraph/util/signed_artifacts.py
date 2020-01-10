@@ -357,7 +357,7 @@ formats
 macapp
 '
 '
-widevine
+autograph_widevine
 '
 '
 autograph_omnija
@@ -446,7 +446,7 @@ formats
 sha2signcode
 '
 '
-widevine
+autograph_widevine
 '
 '
 autograph_omnija
@@ -535,7 +535,7 @@ formats
 autograph_gpg
 '
 '
-widevine
+autograph_widevine
 '
 '
 autograph_omnija
@@ -697,7 +697,7 @@ artifacts_specifications
         
 if
 '
-widevine
+autograph_widevine
 '
 in
 spec
