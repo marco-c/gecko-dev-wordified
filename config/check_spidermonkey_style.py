@@ -762,7 +762,7 @@ gc
 /
 StatsPhasesGenerated
 .
-cpp
+inc
 '
 #
 generated
@@ -1323,7 +1323,7 @@ gc
 /
 StatsPhasesGenerated
 .
-cpp
+inc
 '
 #
 Included

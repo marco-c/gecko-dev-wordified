@@ -1490,7 +1490,7 @@ include
 "
 nsComputedDOMStyleGenerated
 .
-cpp
+inc
 "
 /
 *
