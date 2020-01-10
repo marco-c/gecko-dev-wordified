@@ -2086,14 +2086,6 @@ MediaEngineSource
 >
 &
 aMediaEngineSource
-const
-nsString
-&
-aDeviceId
-const
-nsString
-&
-aGroupId
 )
 ;
 static
