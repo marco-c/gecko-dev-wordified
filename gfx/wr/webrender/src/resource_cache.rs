@@ -1302,12 +1302,6 @@ Option
 <
 TileSize
 >
-viewport_tiles
-:
-Option
-<
-TileRange
->
 }
 #
 [
@@ -5454,9 +5448,6 @@ ImageResource
 descriptor
 data
 tiling
-viewport_tiles
-:
-None
 }
 ;
 self
@@ -5817,11 +5808,6 @@ ImageResource
 descriptor
 data
 tiling
-viewport_tiles
-:
-image
-.
-viewport_tiles
 }
 ;
 }
@@ -14963,9 +14949,6 @@ tiling
 template
 .
 tiling
-viewport_tiles
-:
-None
 }
 )
 ;
