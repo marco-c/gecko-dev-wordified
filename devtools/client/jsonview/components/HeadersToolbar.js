@@ -265,15 +265,13 @@ onCopy
 JSONView
 .
 Locale
-.
-STR
-(
+[
 "
 jsonViewer
 .
 Copy
 "
-)
+]
 )
 )
 ;

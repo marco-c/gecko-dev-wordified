@@ -347,15 +347,13 @@ placeholder
 JSONView
 .
 Locale
-.
-STR
-(
+[
 "
 jsonViewer
 .
 filterJSON
 "
-)
+]
 onChange
 :
 this
