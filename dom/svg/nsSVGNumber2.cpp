@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-SVGAnimatedNumber
+nsSVGNumber2
 .
 h
 "
@@ -172,13 +172,14 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 dom
 ;
-namespace
-mozilla
-{
 /
 *
 Implementation
@@ -187,8 +188,8 @@ Implementation
 static
 SVGAttrTearoffTable
 <
-SVGAnimatedNumber
-SVGAnimatedNumber
+nsSVGNumber2
+nsSVGNumber2
 :
 :
 DOMAnimatedNumber
@@ -338,7 +339,7 @@ end
 ;
 }
 nsresult
-SVGAnimatedNumber
+nsSVGNumber2
 :
 :
 SetBaseValueString
@@ -448,7 +449,7 @@ NS_OK
 ;
 }
 void
-SVGAnimatedNumber
+nsSVGNumber2
 :
 :
 GetBaseValueString
@@ -473,7 +474,7 @@ mBaseVal
 ;
 }
 void
-SVGAnimatedNumber
+nsSVGNumber2
 :
 :
 SetBaseValue
@@ -538,7 +539,7 @@ mAttrEnum
 ;
 }
 void
-SVGAnimatedNumber
+nsSVGNumber2
 :
 :
 SetAnimValue
@@ -585,7 +586,7 @@ already_AddRefed
 <
 DOMSVGAnimatedNumber
 >
-SVGAnimatedNumber
+nsSVGNumber2
 :
 :
 ToDOMAnimatedNumber
@@ -640,7 +641,7 @@ forget
 )
 ;
 }
-SVGAnimatedNumber
+nsSVGNumber2
 :
 :
 DOMAnimatedNumber
@@ -663,7 +664,7 @@ UniquePtr
 <
 SMILAttr
 >
-SVGAnimatedNumber
+nsSVGNumber2
 :
 :
 ToSMILAttr
@@ -685,7 +686,7 @@ aSVGElement
 ;
 }
 nsresult
-SVGAnimatedNumber
+nsSVGNumber2
 :
 :
 SMILNumber
@@ -779,7 +780,7 @@ NS_OK
 ;
 }
 SMILValue
-SVGAnimatedNumber
+nsSVGNumber2
 :
 :
 SMILNumber
@@ -817,7 +818,7 @@ val
 ;
 }
 void
-SVGAnimatedNumber
+nsSVGNumber2
 :
 :
 SMILNumber
@@ -866,7 +867,7 @@ mAttrEnum
 }
 }
 nsresult
-SVGAnimatedNumber
+nsSVGNumber2
 :
 :
 SMILNumber
@@ -939,8 +940,3 @@ return
 NS_OK
 ;
 }
-}
-/
-/
-namespace
-mozilla

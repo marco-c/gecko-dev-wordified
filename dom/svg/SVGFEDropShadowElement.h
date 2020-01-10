@@ -123,7 +123,7 @@ mozilla_dom_SVGFEDropShadowElement_h
 #
 include
 "
-SVGAnimatedNumber
+nsSVGNumber2
 .
 h
 "
@@ -454,7 +454,7 @@ DX
 DY
 }
 ;
-SVGAnimatedNumber
+nsSVGNumber2
 mNumberAttributes
 [
 2

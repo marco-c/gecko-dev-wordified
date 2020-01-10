@@ -148,7 +148,7 @@ h
 #
 include
 "
-SVGAnimatedLength
+nsSVGLength2
 .
 h
 "
@@ -401,7 +401,7 @@ TEXTLENGTH
 }
 ;
 virtual
-SVGAnimatedLength
+nsSVGLength2
 *
 LengthAttributes
 (

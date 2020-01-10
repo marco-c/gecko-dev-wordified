@@ -195,8 +195,7 @@ length
 >
 attributes
 is
-*
-SVGAnimatedLength
+nsSVGLength2
 .
 *
 *

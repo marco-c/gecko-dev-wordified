@@ -123,14 +123,14 @@ mozilla_dom_SVGLineElement_h
 #
 include
 "
-SVGAnimatedLength
+SVGGeometryElement
 .
 h
 "
 #
 include
 "
-SVGGeometryElement
+nsSVGLength2
 .
 h
 "
@@ -462,7 +462,7 @@ ATTR_X2
 ATTR_Y2
 }
 ;
-SVGAnimatedLength
+nsSVGLength2
 mLengthAttributes
 [
 4

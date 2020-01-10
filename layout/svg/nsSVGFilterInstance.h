@@ -137,7 +137,7 @@ h
 #
 include
 "
-SVGAnimatedNumber
+nsSVGNumber2
 .
 h
 "
@@ -567,13 +567,6 @@ typedef
 mozilla
 :
 :
-SVGAnimatedNumber
-SVGAnimatedNumber
-;
-typedef
-mozilla
-:
-:
 SVGAnimatedNumberPair
 SVGAnimatedNumberPair
 ;
@@ -937,7 +930,7 @@ GetPrimitiveNumber
 uint8_t
 aCtxType
 const
-SVGAnimatedNumber
+nsSVGNumber2
 *
 aNumber
 )

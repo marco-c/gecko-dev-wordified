@@ -130,7 +130,7 @@ h
 #
 include
 "
-SVGAnimatedLength
+nsSVGLength2
 .
 h
 "
@@ -446,14 +446,14 @@ STARTOFFSET
 1
 }
 ;
-SVGAnimatedLength
+nsSVGLength2
 mLengthAttributes
 [
 2
 ]
 ;
 virtual
-SVGAnimatedLength
+nsSVGLength2
 *
 LengthAttributes
 (

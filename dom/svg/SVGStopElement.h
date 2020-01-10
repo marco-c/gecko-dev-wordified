@@ -123,10 +123,6 @@ mozilla_dom_SVGStopElement_h
 #
 include
 "
-mozilla
-/
-dom
-/
 SVGElement
 .
 h
@@ -134,7 +130,7 @@ h
 #
 include
 "
-SVGAnimatedNumber
+nsSVGNumber2
 .
 h
 "
@@ -301,7 +297,7 @@ GetNumberInfo
 )
 override
 ;
-SVGAnimatedNumber
+nsSVGNumber2
 mOffset
 ;
 static

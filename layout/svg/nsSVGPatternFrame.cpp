@@ -3819,7 +3819,7 @@ mPreserveAspectRatio
 ;
 }
 const
-SVGAnimatedLength
+nsSVGLength2
 *
 nsSVGPatternFrame
 :
@@ -3834,7 +3834,7 @@ aDefault
 )
 {
 const
-SVGAnimatedLength
+nsSVGLength2
 *
 thisLength
 =
@@ -4251,7 +4251,7 @@ width
 and
 height
 const
-SVGAnimatedLength
+nsSVGLength2
 *
 tmpX
 *

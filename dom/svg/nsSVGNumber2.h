@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_SVGAnimatedNumber_h
+__NS_SVGNUMBER2_H__
 #
 define
-mozilla_SVGAnimatedNumber_h
+__NS_SVGNUMBER2_H__
 #
 include
 "
@@ -212,8 +212,13 @@ SVGAnimationElement
 /
 namespace
 dom
+}
+/
+/
+namespace
+mozilla
 class
-SVGAnimatedNumber
+nsSVGNumber2
 {
 public
 :
@@ -494,7 +499,7 @@ the
 wrapped
 class
 is
-SVGAnimatedNumber
+nsSVGNumber2
 .
 struct
 DOMAnimatedNumber
@@ -511,7 +516,7 @@ DOMSVGAnimatedNumber
 {
 DOMAnimatedNumber
 (
-SVGAnimatedNumber
+nsSVGNumber2
 *
 aVal
 SVGElement
@@ -541,7 +546,7 @@ DOMAnimatedNumber
 (
 )
 ;
-SVGAnimatedNumber
+nsSVGNumber2
 *
 mVal
 ;
@@ -662,7 +667,7 @@ public
 :
 SMILNumber
 (
-SVGAnimatedNumber
+nsSVGNumber2
 *
 aVal
 SVGElement
@@ -715,7 +720,7 @@ die
 during
 that
 .
-SVGAnimatedNumber
+nsSVGNumber2
 *
 mVal
 ;
@@ -785,13 +790,8 @@ override
 ;
 }
 ;
-}
-/
-/
-namespace
-mozilla
 #
 endif
 /
 /
-mozilla_SVGAnimatedNumber_h
+__NS_SVGNUMBER2_H__

@@ -151,7 +151,7 @@ h
 #
 include
 "
-SVGAnimatedLength
+nsSVGLength2
 .
 h
 "
@@ -567,7 +567,7 @@ MARKERWIDTH
 MARKERHEIGHT
 }
 ;
-SVGAnimatedLength
+nsSVGLength2
 mLengthAttributes
 [
 4

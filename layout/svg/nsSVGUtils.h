@@ -289,6 +289,9 @@ class
 nsSVGDisplayContainerFrame
 ;
 class
+nsSVGLength2
+;
+class
 nsSVGOuterSVGFrame
 ;
 class
@@ -305,9 +308,6 @@ mozilla
 {
 class
 SVGAnimatedEnumeration
-;
-class
-SVGAnimatedLength
 ;
 class
 SVGContextPaint
@@ -923,13 +923,6 @@ typedef
 mozilla
 :
 :
-SVGAnimatedLength
-SVGAnimatedLength
-;
-typedef
-mozilla
-:
-:
 SVGContextPaint
 SVGContextPaint
 ;
@@ -1469,7 +1462,7 @@ gfxRect
 &
 aRect
 const
-SVGAnimatedLength
+nsSVGLength2
 *
 aLength
 )
@@ -1517,7 +1510,7 @@ SVGElement
 *
 aSVGElement
 const
-SVGAnimatedLength
+nsSVGLength2
 *
 aLength
 )
@@ -1530,7 +1523,7 @@ nsIFrame
 *
 aFrame
 const
-SVGAnimatedLength
+nsSVGLength2
 *
 aLength
 )
@@ -1550,7 +1543,7 @@ UserSpaceMetrics
 &
 aMetrics
 const
-SVGAnimatedLength
+nsSVGLength2
 *
 aLength
 )
@@ -3100,7 +3093,7 @@ specified
 *
 using
 four
-SVGAnimatedLength
+nsSVGLength2
 values
 into
 a
@@ -3109,7 +3102,6 @@ unit
 rectangle
 in
 user
-*
 space
 .
 *
@@ -3120,7 +3112,7 @@ pointer
 to
 4
 consecutive
-SVGAnimatedLength
+nsSVGLength2
 objects
 containing
 *
@@ -3189,7 +3181,7 @@ GetRelativeRect
 uint16_t
 aUnits
 const
-SVGAnimatedLength
+nsSVGLength2
 *
 aXYWH
 const
@@ -3208,7 +3200,7 @@ GetRelativeRect
 uint16_t
 aUnits
 const
-SVGAnimatedLength
+nsSVGLength2
 *
 aXYWH
 const
