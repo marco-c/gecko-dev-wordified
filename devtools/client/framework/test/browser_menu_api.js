@@ -533,6 +533,8 @@ popup
 0
 0
 toolbox
+.
+doc
 )
 ;
 ok
@@ -1132,6 +1134,8 @@ popup
 0
 0
 toolbox
+.
+doc
 )
 ;
 ok
