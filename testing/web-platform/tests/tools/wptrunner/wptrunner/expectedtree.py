@@ -66,8 +66,9 @@ self
 .
 result_values
 =
-set
+defaultdict
 (
+int
 )
     
 def
@@ -511,8 +512,9 @@ properties
     
 all_results
 =
-set
+defaultdict
 (
+int
 )
     
 for
@@ -525,10 +527,24 @@ itervalues
 )
 :
         
-all_results
-|
-=
+for
+result_value
+count
+in
 result_values
+.
+iteritems
+(
+)
+:
+            
+all_results
+[
+result_value
+]
++
+=
+count
     
 #
 If
@@ -554,12 +570,26 @@ all_results
 1
 :
         
+for
+value
+count
+in
+all_results
+.
+iteritems
+(
+)
+:
+            
 tree
 .
 result_values
-|
+[
+value
+]
++
 =
-all_results
+count
         
 tree
 .
@@ -735,12 +765,26 @@ not
 results_partitions
 :
         
+for
+value
+count
+in
+all_results
+.
+iteritems
+(
+)
+:
+            
 tree
 .
 result_values
-|
+[
+value
+]
++
 =
-all_results
+count
         
 tree
 .

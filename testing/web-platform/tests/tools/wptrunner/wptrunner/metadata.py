@@ -277,7 +277,7 @@ False
 sync_root
 =
 None
-stability
+disable_intermittent
 =
 None
 )
@@ -362,7 +362,7 @@ id_test_map
                                                        
 update_properties
                                                        
-stability
+disable_intermittent
                                                        
 full_update
                                                        
@@ -378,7 +378,7 @@ updated_ini
 )
         
 if
-stability
+disable_intermittent
 :
             
 for
@@ -1420,7 +1420,7 @@ update_from_logs
 (
 id_test_map
 update_properties
-stability
+disable_intermittent
 full_update
                      
 *
@@ -1491,7 +1491,7 @@ update_results
 (
 id_test_map
 update_properties
-stability
+disable_intermittent
 full_update
 )
 :
@@ -1502,9 +1502,20 @@ def
 update_results
 (
 id_test_map
+                   
 update_properties
-stability
+                   
 full_update
+                   
+disable_intermittent
+                   
+update_intermittent
+=
+False
+                   
+remove_intermittent
+=
+False
 )
 :
     
@@ -1591,9 +1602,12 @@ update
 (
 default_expected_by_type
 update_properties
-stability
                                             
 full_update
+disable_intermittent
+                                            
+update_intermittent
+remove_intermittent
 )
         
 if
@@ -2240,6 +2254,8 @@ get
 "
 known_intermittent
 "
+[
+]
 )
 }
 )
@@ -2298,6 +2314,8 @@ get
 "
 known_intermittent
 "
+[
+]
 )
 }
 )
@@ -4393,10 +4411,17 @@ self
 default_expected_by_type
 update_properties
                
-stability
+full_update
+=
+False
+disable_intermittent
 =
 None
-full_update
+update_intermittent
+=
+False
+               
+remove_intermittent
 =
 False
 )
@@ -4783,12 +4808,21 @@ expected
 .
 update
 (
-stability
-=
-stability
 full_update
 =
 full_update
+                        
+disable_intermittent
+=
+disable_intermittent
+                        
+update_intermittent
+=
+update_intermittent
+                        
+remove_intermittent
+=
+remove_intermittent
 )
         
 for
@@ -4815,24 +4849,42 @@ subtest
 .
 update
 (
-stability
-=
-stability
 full_update
 =
 full_update
+                               
+disable_intermittent
+=
+disable_intermittent
+                               
+update_intermittent
+=
+update_intermittent
+                               
+remove_intermittent
+=
+remove_intermittent
 )
             
 test
 .
 update
 (
-stability
-=
-stability
 full_update
 =
 full_update
+                        
+disable_intermittent
+=
+disable_intermittent
+                        
+update_intermittent
+=
+update_intermittent
+                        
+remove_intermittent
+=
+remove_intermittent
 )
         
 return

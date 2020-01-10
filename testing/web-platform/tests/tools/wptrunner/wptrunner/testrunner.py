@@ -3930,6 +3930,17 @@ result
 name
 )
             
+known_intermittent
+=
+test
+.
+known_intermittent
+(
+result
+.
+name
+)
+            
 is_unexpected
 =
 expected
@@ -3938,6 +3949,13 @@ expected
 result
 .
 status
+and
+result
+.
+status
+not
+in
+known_intermittent
             
 if
 is_unexpected
@@ -4002,6 +4020,10 @@ message
 expected
 =
 expected
+                                    
+known_intermittent
+=
+known_intermittent
                                     
 stack
 =
@@ -4138,6 +4160,14 @@ expected
 (
 )
         
+known_intermittent
+=
+test
+.
+known_intermittent
+(
+)
+        
 status
 =
 status_subns
@@ -4216,6 +4246,11 @@ expected
 !
 =
 status
+and
+status
+not
+in
+known_intermittent
         
 if
 is_unexpected
@@ -4345,6 +4380,10 @@ message
 expected
 =
 expected
+                             
+known_intermittent
+=
+known_intermittent
                              
 extra
 =
