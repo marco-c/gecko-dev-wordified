@@ -423,13 +423,6 @@ false
 if
 (
 !
-isLoaded
-(
-source
-)
-|
-|
-!
 source
 .
 url
