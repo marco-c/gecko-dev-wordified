@@ -591,10 +591,6 @@ nsPlainTextSerializer
 (
 )
 :
-mFlags
-(
-0
-)
 mFloatingLines
 (
 -
@@ -640,31 +636,6 @@ mCiteQuoteLevel
 =
 0
 ;
-mStructs
-=
-true
-;
-/
-/
-will
-be
-read
-from
-prefs
-later
-mHeaderStrategy
-=
-1
-/
-*
-indent
-increasingly
-*
-/
-;
-/
-/
-ditto
 mHasWrittenCiteBlockquote
 =
 false
@@ -755,20 +726,6 @@ mPreformattedBlockBoundary
 =
 false
 ;
-mWithRubyAnnotation
-=
-false
-;
-/
-/
-will
-be
-read
-from
-pref
-and
-flag
-later
 /
 /
 initialize
@@ -1032,6 +989,8 @@ aNeedsPreformatScanning
 =
 true
 ;
+mSettings
+.
 mFlags
 =
 aFlags
@@ -1085,6 +1044,8 @@ character
 if
 (
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -1095,6 +1056,8 @@ OutputCRLineBreak
 &
 &
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -1123,6 +1086,8 @@ n
 else
 if
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -1151,6 +1116,8 @@ r
 else
 if
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -1208,6 +1175,8 @@ false
 ;
 if
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -1228,6 +1197,8 @@ we
 do
 formatted
 output
+mSettings
+.
 mStructs
 =
 Preferences
@@ -1236,9 +1207,13 @@ Preferences
 GetBool
 (
 PREF_STRUCTS
+mSettings
+.
 mStructs
 )
 ;
+mSettings
+.
 mHeaderStrategy
 =
 Preferences
@@ -1247,6 +1222,8 @@ Preferences
 GetInt
 (
 PREF_HEADER_STRATEGY
+mSettings
+.
 mHeaderStrategy
 )
 ;
@@ -1291,12 +1268,16 @@ this
 serializer
 currently
 .
+mSettings
+.
 mWithRubyAnnotation
 =
 gAlwaysIncludeRuby
 |
 |
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -1320,6 +1301,8 @@ do
 this
 or
 not
+mSettings
+.
 mFlags
 &
 =
@@ -1543,6 +1526,8 @@ aTag
 {
 if
 (
+mSettings
+.
 mWithRubyAnnotation
 )
 {
@@ -2563,6 +2548,8 @@ NS_OK
 }
 if
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -2615,6 +2602,8 @@ false
 }
 if
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -2874,6 +2863,8 @@ noscript
 &
 !
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -2907,6 +2898,8 @@ noframes
 &
 !
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -3769,6 +3762,8 @@ mOLStackIndex
 ;
 if
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -3886,6 +3881,8 @@ li
 &
 &
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -4350,6 +4347,8 @@ if
 (
 !
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -4586,6 +4585,8 @@ EnsureVerticalSpace
 ;
 if
 (
+mSettings
+.
 mHeaderStrategy
 =
 =
@@ -4726,6 +4727,8 @@ leadup
 else
 if
 (
+mSettings
+.
 mHeaderStrategy
 =
 =
@@ -4840,6 +4843,8 @@ nsGkAtoms
 sup
 &
 &
+mSettings
+.
 mStructs
 &
 &
@@ -4870,6 +4875,8 @@ nsGkAtoms
 sub
 &
 &
+mSettings
+.
 mStructs
 &
 &
@@ -4900,6 +4907,8 @@ nsGkAtoms
 code
 &
 &
+mSettings
+.
 mStructs
 &
 &
@@ -4941,6 +4950,8 @@ b
 )
 &
 &
+mSettings
+.
 mStructs
 &
 &
@@ -4982,6 +4993,8 @@ i
 )
 &
 &
+mSettings
+.
 mStructs
 &
 &
@@ -5012,6 +5025,8 @@ nsGkAtoms
 u
 &
 &
+mSettings
+.
 mStructs
 &
 &
@@ -5145,6 +5160,8 @@ NS_OK
 }
 if
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -5203,6 +5220,8 @@ true
 }
 if
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -5431,6 +5450,8 @@ output
 .
 if
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -5571,6 +5592,8 @@ dt
 &
 &
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -6001,6 +6024,8 @@ know
 ?
 if
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -6097,6 +6122,8 @@ if
 (
 !
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -6329,6 +6356,8 @@ h6
 {
 if
 (
+mSettings
+.
 mHeaderStrategy
 )
 {
@@ -6348,6 +6377,8 @@ kIndentSizeHeaders
 }
 if
 (
+mSettings
+.
 mHeaderStrategy
 =
 =
@@ -6492,6 +6523,8 @@ sub
 )
 &
 &
+mSettings
+.
 mStructs
 &
 &
@@ -6517,6 +6550,8 @@ nsGkAtoms
 code
 &
 &
+mSettings
+.
 mStructs
 &
 &
@@ -6558,6 +6593,8 @@ b
 )
 &
 &
+mSettings
+.
 mStructs
 &
 &
@@ -6599,6 +6636,8 @@ i
 )
 &
 &
+mSettings
+.
 mStructs
 &
 &
@@ -6629,6 +6668,8 @@ nsGkAtoms
 u
 &
 &
+mSettings
+.
 mStructs
 &
 &
@@ -6931,6 +6972,8 @@ us
 if
 (
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -7255,6 +7298,8 @@ hr
 &
 &
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -7811,6 +7856,8 @@ if
 (
 !
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -8071,6 +8118,8 @@ return
 }
 if
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -8920,6 +8969,8 @@ line
 ?
 if
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -9238,6 +9289,8 @@ if
 (
 !
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -9327,6 +9380,8 @@ aSoftlinebreak
 &
 &
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -9414,6 +9469,8 @@ space
 if
 (
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -10181,6 +10238,8 @@ bug
 )
 if
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -10884,6 +10943,8 @@ Truncate
 ;
 if
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -11409,6 +11470,8 @@ mPreFormattedMail
 &
 !
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
@@ -11493,6 +11556,8 @@ mPreFormattedMail
 |
 |
 (
+mSettings
+.
 mFlags
 &
 nsIDocumentEncoder
