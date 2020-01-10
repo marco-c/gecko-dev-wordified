@@ -160,6 +160,9 @@ IPC
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {
@@ -888,7 +891,7 @@ TrimBuffer
 )
 ;
 }
-nsresult
+void
 SetFromJSVal
 (
 JSContext
@@ -905,6 +908,9 @@ JS
 Value
 >
 aVal
+ErrorResult
+&
+aRv
 )
 ;
 nsresult

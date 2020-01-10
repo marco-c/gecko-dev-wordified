@@ -1537,8 +1537,6 @@ IDBKeyRange
 >
 keyRange
 ;
-aRv
-=
 IDBKeyRange
 :
 :
@@ -1550,6 +1548,7 @@ getter_AddRefs
 (
 keyRange
 )
+aRv
 )
 ;
 if
@@ -2037,8 +2036,6 @@ IDBKeyRange
 >
 keyRange
 ;
-aRv
-=
 IDBKeyRange
 :
 :
@@ -2050,6 +2047,7 @@ getter_AddRefs
 (
 keyRange
 )
+aRv
 )
 ;
 if
@@ -2549,8 +2547,6 @@ IDBKeyRange
 >
 keyRange
 ;
-aRv
-=
 IDBKeyRange
 :
 :
@@ -2562,6 +2558,7 @@ getter_AddRefs
 (
 keyRange
 )
+aRv
 )
 ;
 if
@@ -3158,8 +3155,6 @@ IDBKeyRange
 >
 keyRange
 ;
-aRv
-=
 IDBKeyRange
 :
 :
@@ -3171,6 +3166,7 @@ getter_AddRefs
 (
 keyRange
 )
+aRv
 )
 ;
 if

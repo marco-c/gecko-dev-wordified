@@ -333,7 +333,7 @@ isUndefined
 )
 .
 static
-nsresult
+void
 FromJSVal
 (
 JSContext
@@ -354,6 +354,9 @@ IDBKeyRange
 *
 *
 aKeyRange
+ErrorResult
+&
+aRv
 )
 ;
 static
