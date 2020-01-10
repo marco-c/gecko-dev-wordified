@@ -156,11 +156,6 @@ propdef
 -
 visibility
 "
-flags
-=
-"
-APPLIES_TO_CUE
-"
 )
 }
 /
@@ -355,11 +350,6 @@ direction
 needs_conversion
 =
 True
-flags
-=
-"
-APPLIES_TO_MARKER
-"
 servo_restyle_damage
 =
 "
