@@ -514,7 +514,6 @@ ErrorResult
 &
 aRv
 )
-const
 override
 ;
 virtual
@@ -528,7 +527,6 @@ ErrorResult
 &
 aRv
 )
-const
 override
 ;
 virtual
