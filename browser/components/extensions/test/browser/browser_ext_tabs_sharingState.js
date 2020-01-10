@@ -59,7 +59,7 @@ com
 ;
 /
 /
-setBrowserSharing
+updateBrowserSharing
 is
 called
 when
@@ -95,11 +95,14 @@ called
 .
 gBrowser
 .
-setBrowserSharing
+updateBrowserSharing
 (
 tab
 .
 linkedBrowser
+{
+webRTC
+:
 {
 sharing
 :
@@ -125,6 +128,7 @@ Ci
 nsIMediaManagerService
 .
 STATE_CAPTURE_ENABLED
+}
 }
 )
 ;
@@ -605,13 +609,11 @@ ready
 ;
 gBrowser
 .
-setBrowserSharing
+resetBrowserSharing
 (
 tab
 .
 linkedBrowser
-{
-}
 )
 ;
 await
