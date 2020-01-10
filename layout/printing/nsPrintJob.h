@@ -781,12 +781,6 @@ mIsDoingPrintPreview
 ;
 }
 bool
-IsFramesetDocument
-(
-)
-const
-;
-bool
 IsIFrameSelected
 (
 )
@@ -795,12 +789,6 @@ bool
 IsRangeSelection
 (
 )
-;
-bool
-IsFramesetFrameSelected
-(
-)
-const
 ;
 /
 /
