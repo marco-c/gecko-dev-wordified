@@ -18390,11 +18390,6 @@ DeserializeURI
 aURI
 )
 ;
-bool
-isChrome
-=
-false
-;
 /
 /
 If
@@ -18418,8 +18413,7 @@ if
 soundURI
 |
 |
-NS_FAILED
-(
+!
 soundURI
 -
 >
@@ -18428,14 +18422,7 @@ SchemeIs
 "
 chrome
 "
-&
-isChrome
 )
-)
-|
-|
-!
-isChrome
 )
 {
 /
