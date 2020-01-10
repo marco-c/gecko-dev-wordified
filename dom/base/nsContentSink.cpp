@@ -6815,7 +6815,15 @@ ScrollToRef
 (
 )
 {
+RefPtr
+<
+Document
+>
+document
+=
 mDocument
+;
+document
 -
 >
 ScrollToRef

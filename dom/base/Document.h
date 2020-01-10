@@ -17807,6 +17807,7 @@ nsIURI
 aDocumentURI
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ScrollToRef
 (
