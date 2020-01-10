@@ -32559,7 +32559,7 @@ calleeOffset
 =
 writer
 .
-guardSpecificObject
+guardSpecificFunction
 (
 calleeObjId
 calleeFunc
@@ -33598,7 +33598,7 @@ calleeOffset
 =
 writer
 .
-guardSpecificObject
+guardSpecificFunction
 (
 calleeObjId
 calleeFunc
@@ -35085,7 +35085,7 @@ calleeValId
 ;
 writer
 .
-guardSpecificObject
+guardSpecificFunction
 (
 calleeObjId
 calleeFunc
