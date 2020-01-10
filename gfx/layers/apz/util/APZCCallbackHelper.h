@@ -178,9 +178,6 @@ class
 nsIContent
 ;
 class
-nsIPresShell
-;
-class
 nsIScrollableFrame
 ;
 class
@@ -255,7 +252,7 @@ DisplayportSetListener
 nsIWidget
 *
 aWidget
-nsIPresShell
+PresShell
 *
 aPresShell
 const
@@ -298,7 +295,7 @@ mWidget
 ;
 RefPtr
 <
-nsIPresShell
+PresShell
 >
 mPresShell
 ;
@@ -632,7 +629,7 @@ static
 void
 InitializeRootDisplayport
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )
@@ -1386,9 +1383,9 @@ static
 void
 NotifyFlushComplete
 (
-nsIPresShell
+PresShell
 *
-aShell
+aPresShell
 )
 ;
 static
