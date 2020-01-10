@@ -3731,7 +3731,7 @@ x
 return
 dom
 .
-td
+th
 (
 {
 id
@@ -3761,6 +3761,11 @@ list
 {
 boxName
 }
+scope
+:
+"
+col
+"
 style
 :
 columnStyle
@@ -3957,9 +3962,6 @@ thead
 className
 :
 "
-devtools
--
-toolbar
 requests
 -
 list
