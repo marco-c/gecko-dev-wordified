@@ -5,8 +5,6 @@ jit
 -
 test
 |
-slow
-;
 skip
 -
 if
@@ -84,7 +82,7 @@ allocateSomeStuff
 (
 )
 ;
-gc
+minorgc
 (
 )
 ;
@@ -137,7 +135,7 @@ allocateSomeStuff
 (
 )
 ;
-gc
+minorgc
 (
 )
 ;
