@@ -2239,18 +2239,6 @@ topobjdir
 )
             
 '
-VPATH
-:
-=
-%
-s
-'
-%
-env
-.
-topsrcdir
-            
-'
 relativesrcdir
 :
 =
@@ -2398,7 +2386,7 @@ len
 (
 lines
 )
-11
+10
 )
         
 self
@@ -3104,6 +3092,10 @@ RCFILE
 RCFILE
 :
 =
+(
+srcdir
+)
+/
 foo
 .
 rc
@@ -3138,6 +3130,10 @@ RCINCLUDE
 RCINCLUDE
 :
 =
+(
+srcdir
+)
+/
 bar
 .
 rc
@@ -3349,6 +3345,10 @@ ASFILES
 ASFILES
 +
 =
+(
+srcdir
+)
+/
 bar
 .
 s
@@ -3358,6 +3358,10 @@ s
 ASFILES
 +
 =
+(
+srcdir
+)
+/
 foo
 .
 asm
@@ -3375,6 +3379,10 @@ CMMSRCS
 CMMSRCS
 +
 =
+(
+srcdir
+)
+/
 bar
 .
 mm
@@ -3384,6 +3392,10 @@ mm
 CMMSRCS
 +
 =
+(
+srcdir
+)
+/
 foo
 .
 mm
@@ -3401,6 +3413,10 @@ CSRCS
 CSRCS
 +
 =
+(
+srcdir
+)
+/
 bar
 .
 c
@@ -3410,6 +3426,10 @@ c
 CSRCS
 +
 =
+(
+srcdir
+)
+/
 foo
 .
 c
@@ -3427,6 +3447,10 @@ HOST_CPPSRCS
 HOST_CPPSRCS
 +
 =
+(
+srcdir
+)
+/
 bar
 .
 cpp
@@ -3436,6 +3460,10 @@ cpp
 HOST_CPPSRCS
 +
 =
+(
+srcdir
+)
+/
 foo
 .
 cpp
@@ -3453,6 +3481,10 @@ HOST_CSRCS
 HOST_CSRCS
 +
 =
+(
+srcdir
+)
+/
 bar
 .
 c
@@ -3462,6 +3494,10 @@ c
 HOST_CSRCS
 +
 =
+(
+srcdir
+)
+/
 foo
 .
 c
@@ -3479,6 +3515,10 @@ SSRCS
 SSRCS
 +
 =
+(
+srcdir
+)
+/
 baz
 .
 S
@@ -3488,6 +3528,10 @@ S
 SSRCS
 +
 =
+(
+srcdir
+)
+/
 foo
 .
 S

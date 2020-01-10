@@ -13144,7 +13144,7 @@ RCFILE
 '
 :
 (
-unicode
+Path
 unicode
                
 "
@@ -13210,7 +13210,7 @@ RCINCLUDE
 '
 :
 (
-unicode
+Path
 unicode
                   
 "
