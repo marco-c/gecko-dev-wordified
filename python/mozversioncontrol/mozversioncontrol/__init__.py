@@ -2654,6 +2654,12 @@ cwd
 self
 .
 path
+                                  
+env
+=
+self
+.
+_env
 )
         
 except
