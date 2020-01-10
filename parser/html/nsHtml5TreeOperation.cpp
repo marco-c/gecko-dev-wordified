@@ -312,13 +312,6 @@ h
 #
 include
 "
-nsIHTMLDocument
-.
-h
-"
-#
-include
-"
 nsIMutationObserver
 .
 h

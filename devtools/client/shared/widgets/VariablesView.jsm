@@ -6120,7 +6120,7 @@ view
 .
 *
 return
-nsIHTMLDocument
+HTMLDocument
 *
 /
 get
@@ -12371,7 +12371,7 @@ scope
 .
 *
 return
-nsIHTMLDocument
+HTMLDocument
 *
 /
 get

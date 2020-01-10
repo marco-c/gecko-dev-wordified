@@ -212,13 +212,6 @@ h
 #
 include
 "
-nsIHTMLDocument
-.
-h
-"
-#
-include
-"
 nsIStyleSheetLinkingElement
 .
 h

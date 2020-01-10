@@ -1041,17 +1041,6 @@ nsIFrame
 #
 include
 "
-nsIHTMLDocument
-.
-h
-"
-/
-/
-for
-nsIHTMLDocument
-#
-include
-"
 nsIInlineSpellChecker
 .
 h

@@ -147,13 +147,6 @@ nsIDocShell
 .
 h
 "
-#
-include
-"
-nsIHTMLDocument
-.
-h
-"
 nsHtml5OplessBuilder
 :
 :

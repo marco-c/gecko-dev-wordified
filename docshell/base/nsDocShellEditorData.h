@@ -341,7 +341,7 @@ Backup
 for
 the
 corresponding
-nsIHTMLDocument
+HTMLDocument
 '
 s
 editing

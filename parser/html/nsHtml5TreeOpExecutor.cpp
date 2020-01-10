@@ -308,13 +308,6 @@ h
 #
 include
 "
-nsIHTMLDocument
-.
-h
-"
-#
-include
-"
 nsINestedURI
 .
 h
