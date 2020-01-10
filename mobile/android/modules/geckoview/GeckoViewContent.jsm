@@ -959,9 +959,9 @@ ContentCrash
 }
 )
 ;
-}
 break
 ;
+}
 }
 }
 _findInPage
