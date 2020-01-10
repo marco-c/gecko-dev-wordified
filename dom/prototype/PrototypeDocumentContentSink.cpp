@@ -6976,7 +6976,7 @@ rv
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -6986,7 +6986,11 @@ i
 aPrototype
 -
 >
-mNumAttributes
+mAttributes
+.
+Length
+(
+)
 ;
 +
 +
