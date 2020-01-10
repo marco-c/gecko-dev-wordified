@@ -12079,6 +12079,12 @@ BindDefaultFBForRead
 /
 -
 -
+bool
+ShouldResistFingerprinting
+(
+)
+const
+;
 public
 :
 void
