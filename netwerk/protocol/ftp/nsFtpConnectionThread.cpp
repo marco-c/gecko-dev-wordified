@@ -12107,12 +12107,6 @@ IsClosed
 )
 &
 &
-status
-!
-=
-NS_BASE_STREAM_CLOSED
-&
-&
 NS_FAILED
 (
 status
