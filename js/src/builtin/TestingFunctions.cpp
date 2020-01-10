@@ -19657,7 +19657,7 @@ static
 void
 Finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject

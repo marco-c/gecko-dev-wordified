@@ -2646,7 +2646,7 @@ inlineDataPointer
 void
 releaseData
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -2924,7 +2924,7 @@ static
 void
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject

@@ -234,7 +234,7 @@ js
 *
 *
 A
-FreeOp
+JSFreeOp
 can
 do
 one
@@ -258,7 +258,7 @@ destructors
 .
 *
 *
-FreeOp
+JSFreeOp
 is
 passed
 to
@@ -273,8 +273,8 @@ so
 that
 we
 do
-not
 *
+not
 need
 to
 pass
@@ -684,7 +684,7 @@ be
 freed
 when
 the
-FreeOp
+JSFreeOp
 is
 destroyed
 .

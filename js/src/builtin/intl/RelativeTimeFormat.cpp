@@ -817,7 +817,7 @@ RelativeTimeFormatObject
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject

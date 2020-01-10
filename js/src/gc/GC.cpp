@@ -4232,7 +4232,7 @@ Arena
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 AllocKind
@@ -4714,7 +4714,7 @@ inline
 bool
 FinalizeTypedArenas
 (
-FreeOp
+JSFreeOp
 *
 fop
 Arena
@@ -4909,7 +4909,7 @@ static
 bool
 FinalizeArenas
 (
-FreeOp
+JSFreeOp
 *
 fop
 Arena
@@ -12386,7 +12386,7 @@ GCRuntime
 :
 callFinalizeCallbacks
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSFinalizeStatus
@@ -16391,7 +16391,7 @@ prepareForCompacting
 (
 )
 {
-FreeOp
+JSFreeOp
 *
 fop
 =
@@ -16538,7 +16538,7 @@ isCollecting
 )
 )
 ;
-FreeOp
+JSFreeOp
 *
 fop
 =
@@ -20043,7 +20043,7 @@ ArenaLists
 :
 queueForForegroundSweep
 (
-FreeOp
+JSFreeOp
 *
 fop
 const
@@ -20165,7 +20165,7 @@ ArenaLists
 :
 queueForBackgroundSweep
 (
-FreeOp
+JSFreeOp
 *
 fop
 const
@@ -20326,7 +20326,7 @@ ArenaLists
 :
 backgroundFinalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 Arena
@@ -23451,7 +23451,7 @@ isEmpty
 return
 ;
 }
-FreeOp
+JSFreeOp
 fop
 (
 nullptr
@@ -24486,7 +24486,7 @@ freeAll
 (
 )
 ;
-FreeOp
+JSFreeOp
 *
 fop
 =
@@ -24739,7 +24739,7 @@ Realm
 :
 destroy
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -24834,7 +24834,7 @@ Compartment
 :
 destroy
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -24921,7 +24921,7 @@ Zone
 :
 destroy
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -25097,7 +25097,7 @@ Zone
 :
 sweepCompartments
 (
-FreeOp
+JSFreeOp
 *
 fop
 bool
@@ -25311,7 +25311,7 @@ Compartment
 :
 sweepRealms
 (
-FreeOp
+JSFreeOp
 *
 fop
 bool
@@ -25606,7 +25606,7 @@ GCRuntime
 :
 sweepZones
 (
-FreeOp
+JSFreeOp
 *
 fop
 bool
@@ -35389,7 +35389,7 @@ GCRuntime
 :
 markGrayReferencesInCurrentGroup
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -35671,7 +35671,7 @@ GCRuntime
 :
 endMarkingSweepGroup
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -36804,7 +36804,7 @@ GCRuntime
 :
 sweepDebuggerOnMainThread
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -37033,7 +37033,7 @@ GCRuntime
 :
 sweepJitDataOnMainThread
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -37857,7 +37857,7 @@ GCRuntime
 :
 beginSweepingSweepGroup
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -38599,7 +38599,7 @@ GCRuntime
 :
 endSweepingSweepGroup
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -38626,7 +38626,7 @@ PhaseKind
 FINALIZE_END
 )
 ;
-FreeOp
+JSFreeOp
 fop
 (
 rt
@@ -38974,7 +38974,7 @@ ArenaLists
 :
 foregroundFinalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 AllocKind
@@ -39298,7 +39298,7 @@ static
 void
 SweepThing
 (
-FreeOp
+JSFreeOp
 *
 fop
 Shape
@@ -39331,7 +39331,7 @@ static
 void
 SweepThing
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSScript
@@ -39350,7 +39350,7 @@ static
 void
 SweepThing
 (
-FreeOp
+JSFreeOp
 *
 fop
 ObjectGroup
@@ -39374,7 +39374,7 @@ static
 bool
 SweepArenaList
 (
-FreeOp
+JSFreeOp
 *
 fop
 Arena
@@ -39491,7 +39491,7 @@ GCRuntime
 :
 sweepTypeInformation
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -39749,7 +39749,7 @@ GCRuntime
 :
 releaseSweptEmptyArenas
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -39949,7 +39949,7 @@ GCRuntime
 :
 sweepAtomsTable
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -40592,7 +40592,7 @@ GCRuntime
 :
 sweepWeakCaches
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -40712,7 +40712,7 @@ GCRuntime
 :
 finalizeAllocKind
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -40812,7 +40812,7 @@ GCRuntime
 :
 sweepShapeTree
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -41464,7 +41464,7 @@ GCRuntime
 *
 )
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -42199,7 +42199,7 @@ GCRuntime
 method
 )
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -42808,7 +42808,7 @@ PhaseKind
 SWEEP
 )
 ;
-FreeOp
+JSFreeOp
 fop
 (
 rt
@@ -43157,7 +43157,7 @@ PhaseKind
 SWEEP
 )
 ;
-FreeOp
+JSFreeOp
 fop
 (
 rt
@@ -46264,7 +46264,7 @@ DESTROY
 AutoSetThreadIsSweeping
 threadIsSweeping
 ;
-FreeOp
+JSFreeOp
 fop
 (
 rt
@@ -54134,7 +54134,7 @@ js
 :
 ReleaseAllJITCode
 (
-FreeOp
+JSFreeOp
 *
 fop
 )

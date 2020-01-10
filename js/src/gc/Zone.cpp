@@ -1224,7 +1224,7 @@ Zone
 :
 sweepBreakpoints
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -2482,7 +2482,7 @@ Zone
 :
 discardJitCode
 (
-FreeOp
+JSFreeOp
 *
 fop
 ShouldDiscardBaselineCode
@@ -3803,7 +3803,7 @@ realms
 0
 ]
 ;
-FreeOp
+JSFreeOp
 *
 fop
 =

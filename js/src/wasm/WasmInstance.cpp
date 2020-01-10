@@ -14625,7 +14625,7 @@ Instance
 :
 destroyBreakpointSite
 (
-FreeOp
+JSFreeOp
 *
 fop
 uint32_t

@@ -6416,7 +6416,7 @@ ArrayBufferObject
 :
 releaseData
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -9771,7 +9771,7 @@ ArrayBufferObject
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject

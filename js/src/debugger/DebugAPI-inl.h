@@ -1219,7 +1219,7 @@ DebugAPI
 :
 sweepBreakpoints
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSScript

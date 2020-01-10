@@ -637,10 +637,7 @@ trc
 void
 finalize
 (
-js
-:
-:
-FreeOp
+JSFreeOp
 *
 fop
 )

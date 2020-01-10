@@ -24400,7 +24400,7 @@ static
 void
 ReadableByteStreamControllerFinalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject

@@ -1958,7 +1958,7 @@ MapIteratorObject
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -4409,7 +4409,7 @@ MapObject
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -4474,7 +4474,7 @@ MapObject
 :
 sweepAfterMinorGC
 (
-FreeOp
+JSFreeOp
 *
 fop
 MapObject
@@ -7237,7 +7237,7 @@ SetIteratorObject
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -8744,7 +8744,7 @@ SetObject
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -8815,7 +8815,7 @@ SetObject
 :
 sweepAfterMinorGC
 (
-FreeOp
+JSFreeOp
 *
 fop
 SetObject

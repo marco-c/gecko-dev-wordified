@@ -581,7 +581,7 @@ static
 void
 destroyBreakpointSite
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSScript
@@ -596,7 +596,7 @@ static
 void
 clearBreakpointsIn
 (
-FreeOp
+JSFreeOp
 *
 fop
 JS
@@ -617,7 +617,7 @@ static
 void
 clearBreakpointsIn
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSScript
@@ -706,7 +706,7 @@ static
 void
 decrementStepperCount
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSScript
@@ -773,7 +773,7 @@ static
 void
 decrementGeneratorObserverCount
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSScript

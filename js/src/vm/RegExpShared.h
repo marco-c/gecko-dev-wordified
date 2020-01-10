@@ -1199,7 +1199,7 @@ discardJitCode
 void
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
