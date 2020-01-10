@@ -1332,7 +1332,6 @@ ids
 >
 {
 let
-mut
 ids
 :
 Vec
@@ -1524,7 +1523,6 @@ attrs
 >
 {
 let
-mut
 attrs
 :
 Vec
