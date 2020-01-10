@@ -150,6 +150,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs
+.
+h
+"
+#
+include
+"
 nsIInputStream
 .
 h
@@ -333,7 +342,7 @@ static_cast
 uint64_t
 >
 (
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemDecodeBytesAtATime

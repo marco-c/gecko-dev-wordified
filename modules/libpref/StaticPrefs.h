@@ -166,6 +166,15 @@ include
 <
 atomic
 >
+#
+include
+<
+cmath
+>
+/
+/
+for
+M_PI
 namespace
 mozilla
 {

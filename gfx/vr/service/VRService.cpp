@@ -380,7 +380,7 @@ NS_IsMainThread
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 VRServiceEnabled
@@ -464,7 +464,7 @@ NULL
 endif
 mVRProcessEnabled
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VRProcessEnabled

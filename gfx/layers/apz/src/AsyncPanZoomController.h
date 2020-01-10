@@ -8091,7 +8091,7 @@ only
 relevant
 when
 |
-gfxPrefs
+StaticPrefs
 :
 :
 APZFrameDelayEnabled
