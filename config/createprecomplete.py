@@ -77,8 +77,14 @@ the
 precomplete
 file
 .
+from
+__future__
+import
+unicode_literals
 import
 os
+import
+io
 def
 get_build_entries
 (
@@ -518,12 +524,22 @@ endings
     
 precomplete_file
 =
+io
+.
 open
 (
 precomplete_file_path
+mode
+=
 "
-wb
+wt
 "
+newline
+=
+'
+\
+n
+'
 )
     
 rel_file_path_list
@@ -542,7 +558,7 @@ rel_file_path_list
         
 precomplete_file
 .
-writelines
+write
 (
 "
 remove
@@ -568,7 +584,7 @@ rel_dir_path_list
         
 precomplete_file
 .
-writelines
+write
 (
 "
 rmdir
