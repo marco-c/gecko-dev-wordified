@@ -1018,6 +1018,9 @@ lazyPluralRulesData
 options
 0
 3
+"
+standard
+"
 )
 ;
 /
