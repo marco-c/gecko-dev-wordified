@@ -549,6 +549,14 @@ set
 )
 :
         
+optimize
+.
+registry
+=
+self
+.
+strategies
+        
 got_removed
 =
 optimize
