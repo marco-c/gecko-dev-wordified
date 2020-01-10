@@ -116,7 +116,6 @@ GeneratedSourceData
 Script
 SourceId
 SourceActor
-Source
 Worker
 Range
 }
@@ -1019,7 +1018,11 @@ any
 }
 :
 {
+(
 sourceId
+:
+any
+)
 }
 :
 {
@@ -2374,9 +2377,12 @@ async
 function
 getBreakpointPositions
 (
-source
+actors
 :
-Source
+Array
+<
+SourceActor
+>
 range
 :
 ?
@@ -2410,8 +2416,6 @@ thread
 actor
 }
 of
-source
-.
 actors
 )
 {
