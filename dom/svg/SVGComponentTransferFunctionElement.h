@@ -174,12 +174,12 @@ NS_SVG_FE_COMPONENT_TRANSFER_FUNCTION_ELEMENT_CID
 namespace
 mozilla
 {
-class
-DOMSVGAnimatedNumberList
-;
 namespace
 dom
 {
+class
+DOMSVGAnimatedNumberList
+;
 typedef
 SVGFEUnstyledElement
 SVGComponentTransferFunctionElementBase
