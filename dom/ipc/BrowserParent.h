@@ -3832,11 +3832,6 @@ bool
 aForDocumentNavigation
 )
 ;
-void
-SkipBrowsingContextDetach
-(
-)
-;
 protected
 :
 bool
