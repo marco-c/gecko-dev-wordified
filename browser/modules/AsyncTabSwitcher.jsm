@@ -3148,6 +3148,12 @@ minimizedOrFullyOccluded
 &
 !
 shouldBeBlank
+&
+&
+!
+this
+.
+loadTimer
 ;
 if
 (
