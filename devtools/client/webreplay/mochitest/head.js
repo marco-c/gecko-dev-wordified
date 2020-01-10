@@ -146,8 +146,6 @@ client
 /
 debugger
 /
-new
-/
 test
 /
 mochitest

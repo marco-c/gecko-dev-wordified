@@ -1296,8 +1296,6 @@ client
 /
 debugger
 /
-new
-/
 dist
 /
 vendors
@@ -1414,8 +1412,6 @@ devtools
 client
 /
 debugger
-/
-new
 /
 dist
 /
