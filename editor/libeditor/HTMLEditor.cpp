@@ -22324,9 +22324,9 @@ HTMLEditor
 :
 DeleteTextWithTransaction
 (
-CharacterData
+Text
 &
-aCharData
+aTextNode
 uint32_t
 aOffset
 uint32_t
@@ -22349,7 +22349,7 @@ if
 !
 IsModifiableNode
 (
-aCharData
+aTextNode
 )
 )
 {
@@ -22363,7 +22363,7 @@ EditorBase
 :
 DeleteTextWithTransaction
 (
-aCharData
+aTextNode
 aOffset
 aLength
 )

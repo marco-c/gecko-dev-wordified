@@ -4047,7 +4047,7 @@ in
 the
 range
 from
-aCharData
+aTextNode
 if
 *
 it
@@ -4071,9 +4071,9 @@ EditorBase
 *
 *
 param
-aCharData
+aTextNode
 The
-data
+text
 node
 which
 should
@@ -4089,7 +4089,7 @@ of
 removing
 text
 in
-aCharData
+aTextNode
 .
 *
 param
@@ -4108,7 +4108,7 @@ DeleteTextWithTransaction
 dom
 :
 :
-CharacterData
+Text
 &
 aTextNode
 uint32_t
