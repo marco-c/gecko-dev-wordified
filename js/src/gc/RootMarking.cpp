@@ -2785,6 +2785,9 @@ traceSelfHostingGlobal
 trc
 )
 ;
+#
+ifdef
+ENABLE_INTL_API
 /
 /
 Trace
@@ -2801,6 +2804,8 @@ traceSharedIntlData
 trc
 )
 ;
+#
+endif
 /
 /
 Trace

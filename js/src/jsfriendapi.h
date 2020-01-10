@@ -16807,6 +16807,9 @@ JSObject
 obj
 )
 ;
+#
+if
+ENABLE_INTL_API
 /
 /
 Create
@@ -17038,6 +17041,11 @@ JSObject
 intl
 )
 ;
+#
+endif
+/
+/
+ENABLE_INTL_API
 class
 MOZ_STACK_CLASS
 JS_FRIEND_API

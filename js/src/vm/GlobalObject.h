@@ -2899,6 +2899,9 @@ NativeObject
 )
 ;
 }
+#
+if
+ENABLE_INTL_API
 static
 JSObject
 *
@@ -2927,6 +2930,8 @@ initIntlObject
 )
 ;
 }
+#
+endif
 static
 JSObject
 *
@@ -3001,6 +3006,9 @@ getTypedObjectModule
 )
 const
 ;
+#
+if
+ENABLE_INTL_API
 static
 JSObject
 *
@@ -3247,6 +3255,11 @@ initIntlObject
 )
 ;
 }
+#
+endif
+/
+/
+ENABLE_INTL_API
 static
 bool
 ensureModulePrototypesCreated
@@ -4870,6 +4883,9 @@ GlobalObject
 global
 )
 ;
+#
+ifdef
+ENABLE_INTL_API
 /
 /
 Implemented
@@ -4920,6 +4936,8 @@ HandleObject
 intl
 )
 ;
+#
+endif
 /
 /
 Implemented
