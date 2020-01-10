@@ -210,7 +210,7 @@ skia
 /
 public
 /
-interfaces
+mojom
 /
 image_info
 .
@@ -226,7 +226,7 @@ skia
 /
 public
 /
-interfaces
+mojom
 /
 bitmap
 .
