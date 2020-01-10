@@ -5425,6 +5425,13 @@ UniformLocation
 )
 ;
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 Capabilities
@@ -6155,6 +6162,7 @@ derive
 (
 Clone
 Copy
+Debug
 )
 ]
 pub
@@ -6945,6 +6953,7 @@ derive
 (
 Clone
 Copy
+Debug
 )
 ]
 pub
