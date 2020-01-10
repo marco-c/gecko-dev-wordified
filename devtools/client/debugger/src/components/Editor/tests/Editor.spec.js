@@ -92,7 +92,6 @@ type
 {
 Source
 SourceWithContent
-SourceBase
 }
 from
 "
@@ -462,7 +461,7 @@ overrides
 const
 source
 :
-SourceBase
+Source
 =
 (
 {
@@ -565,9 +564,6 @@ undefined
 }
 return
 {
-.
-.
-.
 source
 content
 }
@@ -759,7 +755,7 @@ component
 setProps
 (
 {
-selectedSource
+selectedSourceWithContent
 :
 {
 source
@@ -890,7 +886,7 @@ setProps
 .
 .
 props
-selectedSource
+selectedSourceWithContent
 :
 createMockSourceWithContent
 (
@@ -1032,7 +1028,7 @@ setProps
 .
 .
 props
-selectedSource
+selectedSourceWithContent
 :
 createMockSourceWithContent
 (
@@ -1153,7 +1149,7 @@ setProps
 .
 .
 props
-selectedSource
+selectedSourceWithContent
 :
 createMockSourceWithContent
 (
@@ -1303,7 +1299,7 @@ setProps
 .
 .
 props
-selectedSource
+selectedSourceWithContent
 :
 createMockSourceWithContent
 (
@@ -1354,7 +1350,7 @@ setProps
 .
 .
 props
-selectedSource
+selectedSourceWithContent
 :
 createMockSourceWithContent
 (
@@ -1509,7 +1505,7 @@ mockEditor
 )
 ;
 const
-selectedSource
+selectedSourceWithContent
 =
 createMockSourceWithContent
 (
@@ -1537,7 +1533,7 @@ setProps
 .
 .
 props
-selectedSource
+selectedSourceWithContent
 }
 )
 ;
@@ -1560,7 +1556,7 @@ setProps
 .
 .
 props
-selectedSource
+selectedSourceWithContent
 symbols
 }
 )
@@ -1650,7 +1646,7 @@ mockEditor
 )
 ;
 const
-selectedSource
+selectedSourceWithContent
 =
 createMockSourceWithContent
 (
@@ -1678,7 +1674,7 @@ setProps
 .
 .
 props
-selectedSource
+selectedSourceWithContent
 }
 )
 ;
@@ -1706,7 +1702,7 @@ setProps
 .
 .
 props
-selectedSource
+selectedSourceWithContent
 symbols
 }
 )
@@ -1730,7 +1726,9 @@ doc
 =
 getDocument
 (
-selectedSource
+selectedSourceWithContent
+.
+source
 .
 id
 )
@@ -1782,7 +1780,7 @@ setProps
 .
 .
 props
-selectedSource
+selectedSourceWithContent
 symbols
 selectedLocation
 }
@@ -1895,7 +1893,7 @@ setProps
 .
 .
 props
-selectedSource
+selectedSourceWithContent
 :
 createMockSourceWithContent
 (
@@ -1946,7 +1944,7 @@ setProps
 .
 .
 props
-selectedSource
+selectedSourceWithContent
 :
 createMockSourceWithContent
 (

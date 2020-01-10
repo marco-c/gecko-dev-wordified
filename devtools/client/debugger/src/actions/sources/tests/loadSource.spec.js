@@ -91,7 +91,7 @@ head
 import
 {
 createSource
-mockCommandClient
+sourceThreadFront
 }
 from
 "
@@ -105,7 +105,9 @@ tests
 /
 helpers
 /
-mockCommandClient
+threadFront
+.
+js
 "
 ;
 import
@@ -178,7 +180,7 @@ store
 =
 createStore
 (
-mockCommandClient
+sourceThreadFront
 )
 ;
 const
@@ -452,7 +454,7 @@ createStore
 .
 .
 .
-mockCommandClient
+sourceThreadFront
 sourceContents
 :
 async
@@ -461,7 +463,7 @@ async
 =
 >
 fooGenContent
-getSourceActorBreakpointPositions
+getBreakpointPositions
 :
 async
 (
@@ -479,7 +481,7 @@ async
 ]
 }
 )
-getSourceActorBreakableLines
+getBreakableLines
 :
 async
 (
@@ -1034,7 +1036,7 @@ r
 ;
 }
 )
-getSourceActorBreakpointPositions
+getBreakpointPositions
 :
 async
 (
@@ -1045,7 +1047,7 @@ async
 {
 }
 )
-getSourceActorBreakableLines
+getBreakableLines
 :
 async
 (
@@ -1293,7 +1295,7 @@ r
 ;
 }
 )
-getSourceActorBreakpointPositions
+getBreakpointPositions
 :
 async
 (
@@ -1304,7 +1306,7 @@ async
 {
 }
 )
-getSourceActorBreakableLines
+getBreakableLines
 :
 async
 (
@@ -1519,7 +1521,7 @@ cx
 =
 createStore
 (
-mockCommandClient
+sourceThreadFront
 )
 ;
 const
@@ -1637,7 +1639,7 @@ store
 =
 createStore
 (
-mockCommandClient
+sourceThreadFront
 )
 ;
 const
@@ -1746,7 +1748,7 @@ cx
 =
 createStore
 (
-mockCommandClient
+sourceThreadFront
 )
 ;
 const

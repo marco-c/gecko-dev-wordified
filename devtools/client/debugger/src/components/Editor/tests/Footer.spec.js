@@ -212,12 +212,11 @@ fn
 endPanelCollapsed
 :
 false
-selectedSource
+selectedSourceWithContent
 :
 {
-.
-.
-.
+source
+:
 createSourceObject
 (
 "
@@ -284,7 +283,9 @@ setDocument
 (
 props
 .
-selectedSource
+selectedSourceWithContent
+.
+source
 .
 id
 doc

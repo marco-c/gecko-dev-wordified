@@ -89,7 +89,7 @@ head
 ;
 import
 {
-mockCommandClient
+simpleMockThreadFront
 }
 from
 "
@@ -103,7 +103,9 @@ tests
 /
 helpers
 /
-mockCommandClient
+threadFront
+.
+js
 "
 ;
 function
@@ -120,8 +122,8 @@ return
 .
 .
 .
-mockCommandClient
-getSourceActorBreakpointPositions
+simpleMockThreadFront
+getBreakpointPositions
 :
 async
 (
@@ -129,7 +131,7 @@ async
 =
 >
 positionsResponse
-getSourceActorBreakableLines
+getBreakableLines
 :
 async
 (

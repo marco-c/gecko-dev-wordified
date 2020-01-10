@@ -113,7 +113,9 @@ value
 >
 {
 const
+{
 source
+}
 =
 populateOriginalSource
 (

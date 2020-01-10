@@ -107,7 +107,9 @@ max
 len
 import
 {
-mockCommandClient
+sourceThreadFront
+as
+threadFront
 }
 from
 "
@@ -121,7 +123,9 @@ tests
 /
 helpers
 /
-mockCommandClient
+threadFront
+.
+js
 "
 ;
 describe
@@ -165,7 +169,7 @@ getState
 =
 createStore
 (
-mockCommandClient
+threadFront
 )
 ;
 await

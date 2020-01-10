@@ -132,11 +132,8 @@ source
 {
 const
 {
-content
-.
-.
-.
 source
+content
 }
 =
 makeMockSourceAndContent

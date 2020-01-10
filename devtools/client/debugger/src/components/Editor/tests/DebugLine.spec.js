@@ -271,9 +271,8 @@ source
 :
 (
 {
-.
-.
-.
+source
+:
 createSourceObject
 (
 "
@@ -366,6 +365,8 @@ clear
 setDocument
 (
 props
+.
+source
 .
 source
 .
@@ -464,9 +465,8 @@ render
 source
 :
 {
-.
-.
-.
+source
+:
 createSourceObject
 (
 "
@@ -624,9 +624,8 @@ render
 source
 :
 {
-.
-.
-.
+source
+:
 createSourceObject
 (
 "

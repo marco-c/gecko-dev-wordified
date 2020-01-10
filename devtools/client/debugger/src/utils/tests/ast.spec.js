@@ -130,7 +130,9 @@ token
 >
 {
 const
+{
 source
+}
 =
 populateSource
 (

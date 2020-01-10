@@ -1621,7 +1621,10 @@ JavaScript
 {
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -1640,8 +1643,6 @@ expect
 isJavaScript
 (
 source
-source
-.
 content
 )
 )
@@ -1654,7 +1655,10 @@ false
 }
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -1672,8 +1676,6 @@ expect
 isJavaScript
 (
 source
-source
-.
 content
 )
 )
@@ -1700,7 +1702,10 @@ JavaScript
 {
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -1716,8 +1721,6 @@ expect
 isJavaScript
 (
 source
-source
-.
 content
 )
 )
@@ -1730,7 +1733,10 @@ true
 }
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -1746,8 +1752,6 @@ expect
 isJavaScript
 (
 source
-source
-.
 content
 )
 )
@@ -1760,7 +1764,10 @@ true
 }
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -1778,8 +1785,6 @@ expect
 isJavaScript
 (
 source
-source
-.
 content
 )
 )
@@ -1792,7 +1797,10 @@ true
 }
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -1810,8 +1818,6 @@ expect
 isJavaScript
 (
 source
-source
-.
 content
 )
 )
@@ -1974,7 +1980,10 @@ flow
 >
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -1997,8 +2006,6 @@ expect
 getMode
 (
 source
-source
-.
 content
 )
 )
@@ -2035,7 +2042,10 @@ flow
 >
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -2060,8 +2070,6 @@ expect
 getMode
 (
 source
-source
-.
 content
 )
 )
@@ -2095,7 +2103,10 @@ html
 >
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -2114,8 +2125,6 @@ expect
 getMode
 (
 source
-source
-.
 content
 )
 )
@@ -2145,7 +2154,10 @@ elm
 >
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -2175,8 +2187,6 @@ expect
 getMode
 (
 source
-source
-.
 content
 )
 )
@@ -2212,7 +2222,10 @@ given
 >
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -2239,8 +2252,6 @@ expect
 getMode
 (
 source
-source
-.
 content
 )
 )
@@ -2280,7 +2291,10 @@ component
 >
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -2304,8 +2318,6 @@ expect
 getMode
 (
 source
-source
-.
 content
 {
 .
@@ -2351,7 +2363,10 @@ jsx
 >
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -2379,8 +2394,6 @@ expect
 getMode
 (
 source
-source
-.
 content
 )
 )
@@ -2422,7 +2435,10 @@ hx
 >
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -2449,8 +2465,6 @@ expect
 getMode
 (
 source
-source
-.
 content
 )
 )
@@ -2484,7 +2498,10 @@ typescript
 >
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -2510,8 +2527,6 @@ expect
 getMode
 (
 source
-source
-.
 content
 )
 )
@@ -2546,7 +2561,10 @@ jsx
 >
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -2575,8 +2593,6 @@ expect
 getMode
 (
 source
-source
-.
 content
 )
 .
@@ -2620,7 +2636,10 @@ conditionals
 >
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -2696,8 +2715,6 @@ expect
 getMode
 (
 source
-source
-.
 content
 )
 )
@@ -2727,7 +2744,10 @@ clojurescript
 >
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -2763,8 +2783,6 @@ expect
 getMode
 (
 source
-source
-.
 content
 )
 )
@@ -2794,7 +2812,10 @@ coffeescript
 >
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -2822,8 +2843,6 @@ expect
 getMode
 (
 source
-source
-.
 content
 )
 )
@@ -2853,7 +2872,10 @@ wasm
 >
 {
 const
+{
 source
+content
+}
 =
 makeMockWasmSourceWithContent
 (
@@ -2880,8 +2902,6 @@ expect
 getMode
 (
 source
-source
-.
 content
 .
 value
@@ -2913,7 +2933,10 @@ marko
 >
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -2955,8 +2978,6 @@ expect
 getMode
 (
 source
-source
-.
 content
 )
 )
@@ -2986,7 +3007,10 @@ es6
 >
 {
 const
+{
 source
+content
+}
 =
 makeMockSourceAndContent
 (
@@ -3028,8 +3052,6 @@ expect
 getMode
 (
 source
-source
-.
 content
 )
 )

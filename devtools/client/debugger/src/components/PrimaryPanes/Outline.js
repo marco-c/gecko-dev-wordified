@@ -1590,6 +1590,8 @@ getSymbols
 (
 state
 selectedSource
+.
+source
 )
 :
 null
@@ -1605,12 +1607,12 @@ state
 symbols
 selectedSource
 :
-(
 selectedSource
-:
-?
-Source
-)
+&
+&
+selectedSource
+.
+source
 selectedLocation
 :
 getSelectedLocation
