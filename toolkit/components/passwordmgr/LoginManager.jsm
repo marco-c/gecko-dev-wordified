@@ -1295,8 +1295,6 @@ this
 .
 getAllLogins
 (
-{
-}
 )
 ;
 let
@@ -2361,15 +2359,6 @@ UI
 .
 *
 *
-param
-count
--
-only
-needed
-for
-XPCOM
-.
-*
 return
 {
 nsILoginInfo
@@ -2391,7 +2380,6 @@ empty
 /
 getAllLogins
 (
-count
 )
 {
 log
@@ -2415,7 +2403,6 @@ _storage
 .
 getAllLogins
 (
-count
 )
 ;
 }

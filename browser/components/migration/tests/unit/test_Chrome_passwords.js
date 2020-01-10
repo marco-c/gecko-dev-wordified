@@ -1049,8 +1049,6 @@ logins
 .
 getAllLogins
 (
-{
-}
 )
 ;
 Assert
@@ -1096,8 +1094,6 @@ logins
 .
 getAllLogins
 (
-{
-}
 )
 ;
 Assert
@@ -1254,8 +1250,6 @@ logins
 .
 getAllLogins
 (
-{
-}
 )
 ;
 Assert
@@ -1354,8 +1348,6 @@ logins
 .
 getAllLogins
 (
-{
-}
 )
 ;
 Assert
@@ -1438,8 +1430,6 @@ logins
 .
 getAllLogins
 (
-{
-}
 )
 ;
 Assert

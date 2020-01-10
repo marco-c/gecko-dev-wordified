@@ -1526,8 +1526,6 @@ logins
 .
 getAllLogins
 (
-{
-}
 )
 ;
 for
@@ -2613,8 +2611,6 @@ logins
 .
 getAllLogins
 (
-{
-}
 )
 ;
 let
