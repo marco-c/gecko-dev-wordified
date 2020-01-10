@@ -1349,7 +1349,7 @@ never
 gets
 shutdown
 .
-MOZ_ALWAYS_TRUE
+MOZ_DIAGNOSTIC_ALWAYS_TRUE
 (
 SendFinish
 (
