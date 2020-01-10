@@ -7789,8 +7789,10 @@ onDownloadEnded
 "
 )
 ;
-break
-;
+/
+/
+fall
+through
 case
 AddonManager
 .
