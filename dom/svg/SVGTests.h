@@ -595,14 +595,6 @@ already_AddRefed
 <
 DOMSVGStringList
 >
-RequiredFeatures
-(
-)
-;
-already_AddRefed
-<
-DOMSVGStringList
->
 RequiredExtensions
 (
 )
@@ -672,7 +664,6 @@ private
 :
 enum
 {
-FEATURES
 EXTENSIONS
 LANGUAGE
 }
@@ -680,7 +671,7 @@ LANGUAGE
 SVGStringList
 mStringListAttributes
 [
-3
+2
 ]
 ;
 static
@@ -689,7 +680,7 @@ nsStaticAtom
 const
 sStringListNames
 [
-3
+2
 ]
 ;
 }
