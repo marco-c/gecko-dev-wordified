@@ -1756,13 +1756,12 @@ events
 .
 if
 (
-!
 action
 .
 equals
 (
 "
-passwordChange
+reconnect
 "
 )
 )
