@@ -163,7 +163,7 @@ defined
 in
 StaticPrefList
 .
-h
+yaml
 .
 *
 Those
@@ -11182,7 +11182,7 @@ sync
 with
 StaticPrefList
 .
-h
+yaml
 .
 The
 value

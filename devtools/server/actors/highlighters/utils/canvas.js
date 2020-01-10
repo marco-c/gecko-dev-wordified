@@ -257,11 +257,8 @@ bytes
 see
 /
 /
-gfx_max_alloc_size_do_not_use_directly
+gfx_max_alloc_size
 in
-:
-/
-/
 modules
 /
 libpref
@@ -270,7 +267,7 @@ init
 /
 StaticPrefList
 .
-h
+yaml
 .
 /
 /
