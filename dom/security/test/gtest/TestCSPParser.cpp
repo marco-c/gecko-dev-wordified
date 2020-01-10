@@ -239,7 +239,7 @@ set
 the
 selfURI
 in
-SetRequestContext
+SetRequestContextWithPrincipal
 *
 c
 )
@@ -685,10 +685,14 @@ rv
 csp
 -
 >
-SetRequestContext
+SetRequestContextWithPrincipal
 (
-nullptr
 selfURIPrincipal
+selfURI
+EmptyString
+(
+)
+0
 )
 ;
 NS_ENSURE_SUCCESS

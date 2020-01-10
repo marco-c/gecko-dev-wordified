@@ -808,12 +808,9 @@ let
 cspJSON
 }
 =
-Cu
-.
-getObjectPrincipal
-(
 win
-)
+.
+document
 ;
 return
 win

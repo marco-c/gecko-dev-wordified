@@ -252,10 +252,14 @@ ret
 csp
 -
 >
-SetRequestContext
+SetRequestContextWithPrincipal
 (
-nullptr
 selfURIPrincipal
+selfURI
+EmptyString
+(
+)
+0
 )
 ;
 if
