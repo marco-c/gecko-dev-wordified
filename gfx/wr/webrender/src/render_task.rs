@@ -5064,12 +5064,6 @@ PictureIndex
 content_origin
 :
 DeviceIntPoint
-children
-:
-Vec
-<
-RenderTaskId
->
 uv_rect_kind
 :
 UvRectKind
@@ -5165,6 +5159,13 @@ RenderTask
 {
 location
 children
+:
+Vec
+:
+:
+new
+(
+)
 kind
 :
 RenderTaskKind
