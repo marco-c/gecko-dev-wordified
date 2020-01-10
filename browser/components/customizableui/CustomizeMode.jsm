@@ -1386,6 +1386,13 @@ customizemode
 "
 )
 ;
+if
+(
+gTab
+.
+linkedPanel
+)
+{
 gTab
 .
 linkedBrowser
@@ -1394,6 +1401,7 @@ stop
 (
 )
 ;
+}
 let
 win
 =
