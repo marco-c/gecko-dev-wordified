@@ -354,6 +354,8 @@ Rollback
 JsepTransceiver
 &
 oldTransceiver
+bool
+rollbackLevel
 )
 {
 MOZ_ASSERT
@@ -412,6 +414,11 @@ oldTransceiver
 .
 mTransport
 ;
+if
+(
+rollbackLevel
+)
+{
 mLevel
 =
 oldTransceiver
@@ -424,6 +431,7 @@ oldTransceiver
 .
 mBundleLevel
 ;
+}
 mRecvTrack
 =
 oldTransceiver

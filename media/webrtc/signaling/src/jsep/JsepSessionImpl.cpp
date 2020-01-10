@@ -10267,6 +10267,7 @@ mOldTransceivers
 [
 i
 ]
+false
 )
 ;
 continue
@@ -10317,6 +10318,7 @@ Rollback
 (
 *
 temp
+false
 )
 ;
 }
@@ -10389,6 +10391,7 @@ mOldTransceivers
 [
 i
 ]
+true
 )
 ;
 continue
@@ -10486,6 +10489,7 @@ Rollback
 (
 *
 temp
+true
 )
 ;
 if
