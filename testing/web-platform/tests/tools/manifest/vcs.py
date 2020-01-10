@@ -677,6 +677,7 @@ split
 ]
 :
             
+data
 rel_path
 =
 result
@@ -689,14 +690,10 @@ t
 "
 1
 )
-[
--
-1
-]
             
 hash
 =
-result
+data
 .
 split
 (
