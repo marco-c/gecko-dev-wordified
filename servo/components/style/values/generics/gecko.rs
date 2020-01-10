@@ -74,9 +74,7 @@ be
 /
 /
 !
-un
--
-shipped
+unshipped
 at
 some
 point
@@ -121,7 +119,6 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
-ToResolvedValue
 ToShmem
 )
 ]

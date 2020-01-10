@@ -426,7 +426,6 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
-ToResolvedValue
 )
 ]
 pub

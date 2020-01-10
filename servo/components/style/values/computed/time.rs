@@ -113,7 +113,6 @@ Debug
 MallocSizeOf
 PartialEq
 PartialOrd
-ToResolvedValue
 )
 ]
 #

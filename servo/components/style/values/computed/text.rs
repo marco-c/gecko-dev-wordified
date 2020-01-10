@@ -349,7 +349,6 @@ MallocSizeOf
 PartialEq
 ToAnimatedValue
 ToAnimatedZero
-ToResolvedValue
 )
 ]
 pub
@@ -778,7 +777,6 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
-ToResolvedValue
 )
 ]
 /
@@ -1161,7 +1159,6 @@ Debug
 Default
 MallocSizeOf
 PartialEq
-ToResolvedValue
 )
 ]
 pub
@@ -1438,7 +1435,6 @@ Debug
 MallocSizeOf
 PartialEq
 ToCss
-ToResolvedValue
 )
 ]
 pub
@@ -1519,7 +1515,6 @@ Debug
 MallocSizeOf
 PartialEq
 ToCss
-ToResolvedValue
 )
 ]
 pub

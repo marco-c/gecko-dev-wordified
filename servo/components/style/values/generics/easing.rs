@@ -125,7 +125,6 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
-ToResolvedValue
 ToShmem
 )
 ]
@@ -361,7 +360,6 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
-ToResolvedValue
 ToShmem
 )
 ]
@@ -483,7 +481,6 @@ Parse
 PartialEq
 ToComputedValue
 ToCss
-ToResolvedValue
 ToShmem
 )
 ]
