@@ -43,9 +43,7 @@ picker
 works
 correctly
 const
-{
 Spectrum
-}
 =
 require
 (
