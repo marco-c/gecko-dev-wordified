@@ -3409,6 +3409,16 @@ jsm
 "
 Content
 :
+LoadURIResult
+"
+"
+Content
+:
+LocationChange
+"
+"
+Content
+:
 SecurityChange
 "
 /
