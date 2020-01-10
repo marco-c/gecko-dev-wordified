@@ -150,6 +150,11 @@ PropTypes
 string
 .
 isRequired
+ariaLabel
+:
+PropTypes
+.
+string
 tooltip
 :
 PropTypes
@@ -165,6 +170,7 @@ render
 const
 {
 label
+ariaLabel
 tooltip
 }
 =
@@ -193,6 +199,9 @@ aria
 label
 "
 :
+ariaLabel
+|
+|
 label
 }
 label
