@@ -269,6 +269,14 @@ destroy
 this
 )
 ;
+this
+.
+domains
+.
+clear
+(
+)
+;
 }
 /
 /
