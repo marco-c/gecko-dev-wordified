@@ -2400,6 +2400,9 @@ format
 compiler_dir
 )
 )
+compiler_libdir
+=
+None
 if
 os
 .
@@ -2497,13 +2500,8 @@ else
 lib
 '
     
-env
-.
-setdefault
-(
-'
-LD_LIBRARY_PATH
-'
+compiler_libdir
+=
 os
 .
 path
@@ -2512,7 +2510,6 @@ join
 (
 compiler_dir
 platlib
-)
 )
 else
 :
@@ -2572,6 +2569,7 @@ p
 in
 (
 bindir
+compiler_libdir
 env
 .
 get
