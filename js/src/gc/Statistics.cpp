@@ -7081,7 +7081,7 @@ if
 (
 gc
 .
-lastGCTime
+lastGCEndTime
 (
 )
 )
@@ -7092,7 +7092,7 @@ currentTime
 -
 gc
 .
-lastGCTime
+lastGCEndTime
 (
 )
 ;
