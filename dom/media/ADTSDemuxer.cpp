@@ -2146,6 +2146,16 @@ Zero
 if
 (
 !
+mSamplesPerSecond
+)
+{
+return
+false
+;
+}
+if
+(
+!
 mInfo
 )
 {
@@ -2408,9 +2418,6 @@ mSamplesPerSecond
 )
 ;
 return
-mSamplesPerSecond
-&
-&
 mChannels
 ;
 }
