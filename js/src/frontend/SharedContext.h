@@ -142,6 +142,15 @@ include
 "
 frontend
 /
+FunctionCreationData
+.
+h
+"
+#
+include
+"
+frontend
+/
 ParseNode
 .
 h
