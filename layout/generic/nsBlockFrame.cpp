@@ -12184,6 +12184,12 @@ IsEmpty
 )
 )
 {
+iter
+.
+Next
+(
+)
+;
 continue
 ;
 }
