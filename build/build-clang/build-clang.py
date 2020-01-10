@@ -1448,6 +1448,9 @@ copy_tree
 (
 libgcc_dir
 clang_lib_dir
+preserve_symlinks
+=
+True
 )
     
 libgcc_dir
@@ -1482,6 +1485,9 @@ copy_tree
 (
 libgcc_dir
 clang_lib_dir
+preserve_symlinks
+=
+True
 )
     
 libgcc_dir
@@ -1516,6 +1522,9 @@ copy_tree
 (
 libgcc_dir
 clang_lib_dir
+preserve_symlinks
+=
+True
 )
     
 include_dir
@@ -1550,6 +1559,9 @@ copy_tree
 (
 include_dir
 clang_include_dir
+preserve_symlinks
+=
+True
 )
 def
 install_import_library
