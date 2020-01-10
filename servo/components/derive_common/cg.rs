@@ -292,9 +292,11 @@ syn
 Generics
 trait_path
 :
+&
 Path
 trait_output
 :
+&
 Ident
 )
 {
@@ -804,6 +806,7 @@ trait_path
 Path
 trait_output
 :
+&
 Ident
 )
 -
