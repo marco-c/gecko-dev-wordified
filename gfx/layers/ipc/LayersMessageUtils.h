@@ -2551,7 +2551,7 @@ WriteParam
 aMsg
 aParam
 .
-mScrollSnapTypeX
+mScrollSnapStrictnessX
 )
 ;
 WriteParam
@@ -2559,7 +2559,7 @@ WriteParam
 aMsg
 aParam
 .
-mScrollSnapTypeY
+mScrollSnapStrictnessY
 )
 ;
 WriteParam
@@ -2661,7 +2661,7 @@ aIter
 aResult
 -
 >
-mScrollSnapTypeX
+mScrollSnapStrictnessX
 )
 &
 &
@@ -2673,7 +2673,7 @@ aIter
 aResult
 -
 >
-mScrollSnapTypeY
+mScrollSnapStrictnessY
 )
 &
 &
