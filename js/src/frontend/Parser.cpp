@@ -23394,7 +23394,7 @@ Comma
 TokenStream
 :
 :
-SlashIsRegExp
+SlashIsInvalid
 )
 )
 {
@@ -39360,6 +39360,10 @@ getToken
 (
 &
 tt
+TokenStream
+:
+:
+SlashIsInvalid
 )
 )
 {
@@ -56921,16 +56925,6 @@ ungetToken
 (
 )
 ;
-anyChars
-.
-addModifierException
-(
-TokenStream
-:
-:
-SlashIsRegExpOK
-)
-;
 *
 propType
 =
@@ -58515,7 +58509,7 @@ Comma
 TokenStream
 :
 :
-SlashIsRegExp
+SlashIsInvalid
 )
 )
 {
