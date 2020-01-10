@@ -4786,6 +4786,11 @@ BrowserParent
 aBrowserParent
 )
 ;
+void
+OnSubFrameCrashed
+(
+)
+;
 public
 :
 static
