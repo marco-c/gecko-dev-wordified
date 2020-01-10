@@ -6749,12 +6749,6 @@ isGeckoViewMode
 true
 )
 ;
-Telemetry
-.
-resetCurrentProduct
-(
-)
-;
 /
 /
 Try
@@ -7001,12 +6995,6 @@ telemetry
 .
 isGeckoViewMode
 "
-)
-;
-Telemetry
-.
-resetCurrentProduct
-(
 )
 ;
 }
