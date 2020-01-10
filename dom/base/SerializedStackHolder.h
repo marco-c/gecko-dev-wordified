@@ -268,11 +268,13 @@ holder
 with
 a
 main
+or
+worklet
 thread
 stack
 .
 void
-SerializeMainThreadStack
+SerializeMainThreadOrWorkletStack
 (
 JSContext
 *
