@@ -182,8 +182,10 @@ mm
 .
 docShell
 )
+{
 return
 ;
+}
 let
 data
 =
@@ -224,8 +226,10 @@ f
 function
 "
 )
+{
 continue
 ;
+}
 if
 (
 fixupInfo

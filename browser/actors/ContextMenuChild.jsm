@@ -1091,7 +1091,6 @@ spec
 let
 isURLEncoded
 =
-(
 node
 .
 form
@@ -1138,7 +1137,6 @@ enctype
 =
 "
 "
-)
 )
 ;
 let
@@ -1581,7 +1579,6 @@ toDataURL
 let
 url
 =
-(
 new
 URL
 (
@@ -1592,7 +1589,6 @@ ownerDocument
 location
 .
 href
-)
 )
 .
 pathname
@@ -1813,6 +1809,7 @@ xul
 "
 ;
 return
+(
 aNode
 .
 namespaceURI
@@ -1848,6 +1845,7 @@ link
 aNode
 .
 href
+)
 ;
 }
 /
@@ -2283,6 +2281,7 @@ we
 do
 .
 return
+(
 this
 .
 context
@@ -2338,6 +2337,7 @@ linkProtocol
 "
 snews
 "
+)
 )
 ;
 }
@@ -2745,6 +2745,7 @@ _isProprietaryDRM
 )
 {
 return
+(
 this
 .
 context
@@ -2781,6 +2782,7 @@ w3
 .
 clearkey
 "
+)
 ;
 }
 _isMediaURLReusable
@@ -2840,7 +2842,6 @@ false
 ;
 }
 return
-(
 node
 instanceof
 this
@@ -2848,7 +2849,6 @@ this
 contentWindow
 .
 HTMLTextAreaElement
-)
 ;
 }
 _isSpellCheckEnabled
@@ -3005,13 +3005,11 @@ true
 }
 if
 (
-(
 "
 complete
 "
 in
 aTarget
-)
 &
 &
 !
@@ -5446,7 +5444,6 @@ if
 request
 &
 &
-(
 request
 .
 imageStatus
@@ -5454,7 +5451,6 @@ imageStatus
 request
 .
 STATUS_SIZE_AVAILABLE
-)
 )
 {
 context
@@ -5469,7 +5465,6 @@ if
 request
 &
 &
-(
 request
 .
 imageStatus
@@ -5477,7 +5472,6 @@ imageStatus
 request
 .
 STATUS_LOAD_COMPLETE
-)
 &
 &
 !
@@ -6022,13 +6016,11 @@ context
 .
 onKeywordField
 =
-(
 editFlags
 &
 SpellCheckHelper
 .
 KEYWORD
-)
 ;
 }
 else
@@ -6527,7 +6519,6 @@ context
 .
 onMailtoLink
 =
-(
 context
 .
 linkProtocol
@@ -6536,13 +6527,11 @@ linkProtocol
 "
 mailto
 "
-)
 ;
 context
 .
 onMozExtLink
 =
-(
 context
 .
 linkProtocol
@@ -6553,7 +6542,6 @@ moz
 -
 extension
 "
-)
 ;
 context
 .

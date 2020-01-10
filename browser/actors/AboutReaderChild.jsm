@@ -376,6 +376,7 @@ isReaderableAboutReader
 )
 {
 return
+(
 this
 .
 isAboutReader
@@ -393,6 +394,7 @@ documentElement
 dataset
 .
 isError
+)
 ;
 }
 handleEvent

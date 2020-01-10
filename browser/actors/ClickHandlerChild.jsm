@@ -1134,6 +1134,7 @@ if
 (
 node
 )
+{
 return
 [
 node
@@ -1147,6 +1148,7 @@ ownerDocument
 nodePrincipal
 ]
 ;
+}
 /
 /
 If

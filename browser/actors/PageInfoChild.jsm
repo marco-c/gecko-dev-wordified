@@ -1295,7 +1295,6 @@ src
 strings
 .
 mediaImg
-(
 elem
 .
 hasAttribute
@@ -1303,7 +1302,6 @@ hasAttribute
 "
 alt
 "
-)
 )
 ?
 elem
@@ -1563,7 +1561,6 @@ src
 strings
 .
 mediaInput
-(
 elem
 .
 hasAttribute
@@ -1571,7 +1568,6 @@ hasAttribute
 "
 alt
 "
-)
 )
 ?
 elem
@@ -1976,6 +1972,7 @@ if
 (
 dataMimeType
 )
+{
 result
 .
 mimeType
@@ -1989,6 +1986,7 @@ toLowerCase
 (
 )
 ;
+}
 }
 result
 .

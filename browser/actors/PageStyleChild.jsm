@@ -508,14 +508,12 @@ docStyleSheet
 .
 disabled
 =
-(
 docStyleSheet
 .
 title
 !
 =
 title
-)
 ;
 }
 else
@@ -555,9 +553,7 @@ styleSheets
 .
 some
 (
-(
 styleSheet
-)
 =
 >
 styleSheet
@@ -596,8 +592,10 @@ currentStyleSheet
 .
 title
 )
+{
 continue
 ;
+}
 /
 /
 Skip
@@ -758,7 +756,6 @@ large
 let
 sentURI
 =
-(
 !
 URI
 |
@@ -771,7 +768,6 @@ scheme
 "
 data
 "
-)
 ?
 null
 :
