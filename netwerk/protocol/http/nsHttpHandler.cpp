@@ -5668,7 +5668,7 @@ nsHttpHandler
 :
 NotifyObservers
 (
-nsIHttpChannel
+nsIChannel
 *
 chan
 const

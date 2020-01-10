@@ -102,6 +102,7 @@ NS_IMPL_ISUPPORTS
 NullHttpChannel
 nsINullChannel
 nsIHttpChannel
+nsIIdentChannel
 nsITimedChannel
 )
 NullHttpChannel
