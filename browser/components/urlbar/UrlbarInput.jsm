@@ -766,12 +766,6 @@ false
 ;
 this
 .
-userInitiatedFocus
-=
-false
-;
-this
-.
 isPrivate
 =
 PrivateBrowsingUtils
