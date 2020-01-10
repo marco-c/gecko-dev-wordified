@@ -104,7 +104,13 @@ then
 if
 (
 !
+(
+'
 MojoInterfaceInterceptor
+'
+in
+self
+)
 )
 {
 /
