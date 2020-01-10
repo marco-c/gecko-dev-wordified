@@ -479,8 +479,6 @@ doc
 =
 window
 .
-parent
-.
 document
 ;
 }
