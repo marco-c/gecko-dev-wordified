@@ -955,11 +955,10 @@ const
 override
 ;
 virtual
-nsresult
+void
 SetFocus
 (
-bool
-aRaise
+Raise
 )
 override
 ;

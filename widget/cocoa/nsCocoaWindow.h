@@ -1522,13 +1522,10 @@ const
 override
 ;
 virtual
-nsresult
+void
 SetFocus
 (
-bool
-aState
-=
-false
+Raise
 )
 override
 ;
