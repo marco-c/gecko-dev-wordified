@@ -113,16 +113,10 @@ registerWalkerListeners
 function
 registerWalkerListeners
 (
-toolbox
+store
+walker
 )
 {
-const
-{
-walker
-}
-=
-toolbox
-;
 walker
 .
 on
@@ -136,7 +130,7 @@ mutations
 handleWalkerMutations
 (
 mutations
-toolbox
+store
 )
 )
 ;
@@ -145,7 +139,7 @@ function
 handleWalkerMutations
 (
 mutations
-toolbox
+store
 )
 {
 /
@@ -232,8 +226,6 @@ length
 0
 )
 {
-toolbox
-.
 store
 .
 dispatch

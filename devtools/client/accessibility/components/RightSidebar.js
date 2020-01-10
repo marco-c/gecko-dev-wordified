@@ -233,13 +233,6 @@ PropTypes
 object
 .
 isRequired
-getDOMWalker
-:
-PropTypes
-.
-func
-.
-isRequired
 }
 ;
 }
@@ -289,7 +282,6 @@ header
 const
 {
 accessibilityWalker
-getDOMWalker
 }
 =
 this
@@ -366,7 +358,6 @@ Accessible
 (
 {
 accessibilityWalker
-getDOMWalker
 labelledby
 :
 propertiesHeaderID

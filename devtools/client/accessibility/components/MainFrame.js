@@ -418,13 +418,6 @@ supports
 PropTypes
 .
 object
-getDOMWalker
-:
-PropTypes
-.
-func
-.
-isRequired
 }
 ;
 }
@@ -756,7 +749,6 @@ const
 {
 accessibility
 accessibilityWalker
-getDOMWalker
 fluentBundles
 enabled
 auditing
@@ -907,7 +899,6 @@ AccessibilityTree
 (
 {
 accessibilityWalker
-getDOMWalker
 }
 )
 )
@@ -917,7 +908,6 @@ RightSidebar
 (
 {
 accessibilityWalker
-getDOMWalker
 }
 )
 vert
