@@ -12379,9 +12379,6 @@ SetAgentStyleSheets
 agentSheets
 )
 ;
-presShell
--
->
 ApplicableStylesChanged
 (
 )
@@ -13389,9 +13386,6 @@ rv
 rv
 )
 ;
-presShell
--
->
 ApplicableStylesChanged
 (
 )

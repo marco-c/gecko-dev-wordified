@@ -603,11 +603,6 @@ ServoStyleSet
 )
 ;
 void
-ShellAttachedToDocument
-(
-)
-;
-void
 ShellDetachedFromDocument
 (
 )
