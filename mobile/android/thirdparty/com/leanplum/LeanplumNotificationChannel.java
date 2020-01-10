@@ -3699,6 +3699,7 @@ details
 .
 *
 /
+public
 static
 void
 configureChannels
