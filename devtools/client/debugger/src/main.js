@@ -149,7 +149,7 @@ bootstrap
 threadClient
 tabTarget
 debuggerClient
-sourceMaps
+workers
 panel
 }
 :
@@ -177,7 +177,7 @@ threadClient
 debuggerClient
 }
 }
-sourceMaps
+workers
 panel
 )
 destroy

@@ -151,6 +151,9 @@ SET_FOCUSED_SOURCE_ITEM
 "
 NODE_EXPAND
 "
+"
+IN_SCOPE_LINES
+"
 ]
 ;
 function

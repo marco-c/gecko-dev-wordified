@@ -141,20 +141,6 @@ source
 "
 ;
 import
-*
-as
-parser
-from
-"
-.
-.
-/
-workers
-/
-parser
-"
-;
-import
 type
 {
 Expression
@@ -232,6 +218,7 @@ async
 {
 dispatch
 getState
+evaluationsParser
 }
 :
 ThunkArgs
@@ -252,7 +239,7 @@ const
 expressionError
 =
 await
-parser
+evaluationsParser
 .
 hasSyntaxError
 (
@@ -465,6 +452,7 @@ async
 {
 dispatch
 getState
+parser
 }
 :
 ThunkArgs
@@ -962,6 +950,7 @@ dispatch
 getState
 client
 sourceMaps
+evaluationsParser
 }
 :
 ThunkArgs
@@ -1028,11 +1017,11 @@ be
 slow
 if
 the
-parser
+evaluationsParser
+/
+/
 worker
 is
-/
-/
 busy
 doing
 other
@@ -1130,7 +1119,7 @@ null
 ;
 }
 return
-parser
+evaluationsParser
 .
 mapExpression
 (
