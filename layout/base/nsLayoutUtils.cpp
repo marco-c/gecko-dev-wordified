@@ -43420,6 +43420,9 @@ ok
 .
 if
 (
+kid
+&
+&
 GetFirstLinePosition
 (
 aWM
