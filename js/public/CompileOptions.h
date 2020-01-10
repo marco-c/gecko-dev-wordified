@@ -915,6 +915,11 @@ forceAsync
 false
 ;
 bool
+discardSource
+=
+false
+;
+bool
 sourceIsLazy
 =
 false
