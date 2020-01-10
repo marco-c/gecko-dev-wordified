@@ -1774,7 +1774,7 @@ getChildScripts
 (
 )
 .
-foreach
+forEach
 (
 setEmptyInstrumentationId
 )
