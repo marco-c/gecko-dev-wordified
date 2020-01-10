@@ -34129,7 +34129,7 @@ things
 being
 marked
 *
-grey
+gray
 when
 they
 might

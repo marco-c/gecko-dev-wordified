@@ -2792,7 +2792,7 @@ t
 be
 anything
 marked
-grey
+gray
 unless
 we
 '
