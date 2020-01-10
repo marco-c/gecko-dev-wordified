@@ -851,11 +851,6 @@ color
 profile
 /
 /
-color
--
-rendering
-/
-/
 glyph
 -
 orientation
