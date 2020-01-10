@@ -14369,12 +14369,11 @@ texture_cache
 max_texture_layers
 (
 )
-&
 self
 .
 texture_cache
 .
-picture_tile_sizes
+picture_tile_size
 (
 )
 DeviceIntSize
