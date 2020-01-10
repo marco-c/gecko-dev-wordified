@@ -8070,7 +8070,11 @@ rv
 ;
 installDir
 =
-do_QueryInterface
+static_cast
+<
+nsIFile
+*
+>
 (
 macFile
 )
