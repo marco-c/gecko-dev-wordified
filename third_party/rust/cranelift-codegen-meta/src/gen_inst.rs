@@ -5443,6 +5443,7 @@ described
 by
 type_sets
 .
+pub
 fn
 gen_typesets_table
 (

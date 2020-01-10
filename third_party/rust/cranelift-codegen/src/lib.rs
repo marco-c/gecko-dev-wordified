@@ -421,6 +421,16 @@ use
 crate
 :
 :
+value_label
+:
+:
+ValueLabelsRanges
+;
+pub
+use
+crate
+:
+:
 verifier
 :
 :
@@ -582,6 +592,9 @@ topo_order
 ;
 mod
 unreachable_code
+;
+mod
+value_label
 ;
 pub
 use

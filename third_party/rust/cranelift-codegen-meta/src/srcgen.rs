@@ -517,7 +517,7 @@ indented
 block
 .
 fn
-_get_outdent
+get_outdent
 (
 &
 mut
@@ -529,7 +529,7 @@ String
 {
 self
 .
-indent_push
+indent_pop
 (
 )
 ;
@@ -544,7 +544,7 @@ get_indent
 ;
 self
 .
-indent_pop
+indent_push
 (
 )
 ;
@@ -656,7 +656,7 @@ level
 .
 pub
 fn
-_outdented_line
+outdented_line
 (
 &
 mut
@@ -678,10 +678,12 @@ format
 }
 {
 }
+\
+n
 "
 self
 .
-_get_outdent
+get_outdent
 (
 )
 s

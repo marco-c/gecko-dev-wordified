@@ -1241,9 +1241,6 @@ __init__
 (
 self
 name
-typevar
-=
-None
 )
 :
         
@@ -1252,7 +1249,6 @@ type
 :
 (
 str
-TypeVar
 )
 -
 >
@@ -1322,7 +1318,7 @@ self
 .
 typevar
 =
-typevar
+None
 #
 type
 :
@@ -1376,9 +1372,7 @@ self
 .
 original_typevar
 =
-self
-.
-typevar
+None
 #
 type
 :
