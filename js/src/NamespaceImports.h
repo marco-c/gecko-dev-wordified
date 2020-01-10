@@ -272,14 +272,6 @@ class
 UTF8CharsZ
 ;
 using
-AutoIdVector
-=
-AutoVector
-<
-jsid
->
-;
-using
 ValueVector
 =
 JS
@@ -532,12 +524,6 @@ JS
 :
 :
 Result
-;
-using
-JS
-:
-:
-AutoIdVector
 ;
 using
 JS
