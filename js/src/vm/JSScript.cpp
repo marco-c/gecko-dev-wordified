@@ -26982,6 +26982,16 @@ bce
 >
 firstLine
 ;
+script
+-
+>
+column_
+=
+bce
+-
+>
+firstColumn
+;
 /
 /
 Initialize
