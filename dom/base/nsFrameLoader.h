@@ -1884,7 +1884,7 @@ This
 will
 assert
 if
-mRemoteBrowser
+mBrowserParent
 is
 non
 -
@@ -2956,7 +2956,7 @@ RefPtr
 <
 TabParent
 >
-mRemoteBrowser
+mBrowserParent
 ;
 uint64_t
 mChildID
