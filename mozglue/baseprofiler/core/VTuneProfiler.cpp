@@ -527,7 +527,12 @@ str
 compare
 (
 "
-GeckoMain
+Main
+Thread
+(
+Base
+Profiler
+)
 "
 )
 )
