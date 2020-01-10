@@ -1064,13 +1064,6 @@ changed
 void
 InvalidateCaretFramesIfNeeded
 (
-nsTArray
-<
-nsIFrame
-*
->
-&
-aModifiedFrames
 )
 ;
 /
