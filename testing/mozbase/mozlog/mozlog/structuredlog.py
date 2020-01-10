@@ -229,6 +229,32 @@ g
 .
 debug
 info
+      
+known_intermittent
+-
+List
+of
+known
+intermittent
+statuses
+that
+should
+                           
+not
+fail
+a
+test
+.
+eg
+.
+[
+'
+FAIL
+'
+'
+TIMEOUT
+'
+]
   
 test_status
       
@@ -287,6 +313,32 @@ got
 the
 expected
 status
+      
+known_intermittent
+-
+List
+of
+known
+intermittent
+statuses
+that
+should
+                           
+not
+fail
+a
+test
+.
+eg
+.
+[
+'
+FAIL
+'
+'
+TIMEOUT
+'
+]
   
 process_output
       
@@ -2584,7 +2636,7 @@ List
 (
 SubStatus
 "
-expected_intermittent
+known_intermittent
 "
 default
 =
@@ -2909,7 +2961,7 @@ List
 (
 Status
 "
-expected_intermittent
+known_intermittent
 "
 default
 =
