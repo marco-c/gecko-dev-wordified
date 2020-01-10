@@ -10947,15 +10947,7 @@ freeGlobal
 freeSelf
 |
 |
-Function
-(
-'
-return
-this
-'
-)
-(
-)
+globalThis
 ;
 /
 *
