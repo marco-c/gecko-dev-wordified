@@ -3063,7 +3063,7 @@ YuvImage
 >
 (
 )
-28
+32
 "
 YuvImage
 size
