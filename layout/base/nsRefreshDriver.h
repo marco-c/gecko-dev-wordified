@@ -2587,7 +2587,7 @@ GetNextTickHint
 ;
 static
 void
-DispatchIdleRunnableAfterTick
+DispatchIdleRunnableAfterTickUnlessExists
 (
 nsIRunnable
 *
