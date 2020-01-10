@@ -6156,10 +6156,6 @@ gHttpHandler
 EnsureHSTSDataReadyNative
 (
 wrapper
-.
-forget
-(
-)
 )
 ;
 return
