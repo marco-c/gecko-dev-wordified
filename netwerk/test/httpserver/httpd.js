@@ -19262,15 +19262,7 @@ mozilla
 .
 org
 /
-uriloader
-/
-external
--
-helper
--
-app
--
-service
+mime
 ;
 1
 "
