@@ -391,6 +391,7 @@ Debug
 Eq
 PartialEq
 ToCss
+ToResolvedValue
 )
 ]
 pub

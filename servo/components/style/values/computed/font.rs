@@ -495,6 +495,7 @@ Debug
 MallocSizeOf
 PartialEq
 ToCss
+ToResolvedValue
 )
 ]
 #
@@ -642,6 +643,7 @@ MallocSizeOf
 PartialEq
 ToAnimatedZero
 ToCss
+ToResolvedValue
 )
 ]
 /
@@ -1228,6 +1230,7 @@ Clone
 Debug
 Eq
 PartialEq
+ToResolvedValue
 )
 ]
 #
@@ -1559,6 +1562,7 @@ Eq
 Hash
 MallocSizeOf
 PartialEq
+ToResolvedValue
 ToShmem
 )
 ]
@@ -1815,6 +1819,7 @@ Eq
 Hash
 MallocSizeOf
 PartialEq
+ToResolvedValue
 ToShmem
 )
 ]
@@ -1935,6 +1940,7 @@ Eq
 MallocSizeOf
 PartialEq
 ToCss
+ToResolvedValue
 )
 ]
 #
@@ -2064,6 +2070,7 @@ MallocSizeOf
 PartialEq
 Parse
 ToCss
+ToResolvedValue
 )
 ]
 #
@@ -2805,6 +2812,7 @@ Eq
 Hash
 MallocSizeOf
 PartialEq
+ToResolvedValue
 )
 ]
 /
@@ -3877,6 +3885,7 @@ Debug
 MallocSizeOf
 PartialEq
 ToCss
+ToResolvedValue
 )
 ]
 pub
@@ -4346,6 +4355,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+ToResolvedValue
 )
 ]
 #
@@ -5034,6 +5044,7 @@ Debug
 MallocSizeOf
 PartialEq
 ToCss
+ToResolvedValue
 )
 ]
 #
@@ -5698,6 +5709,7 @@ Debug
 MallocSizeOf
 PartialEq
 ToCss
+ToResolvedValue
 )
 ]
 #

@@ -491,6 +491,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -2274,6 +2275,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
@@ -2573,6 +2575,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -2628,6 +2631,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -2693,6 +2697,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
@@ -2968,6 +2973,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -3023,6 +3029,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -3077,6 +3084,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -3105,6 +3113,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -3312,6 +3321,7 @@ derive
 MallocSizeOf
 SpecifiedValueInfo
 ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
@@ -3916,25 +3926,12 @@ property
 .
 #
 [
-cfg_attr
-(
-feature
-=
-"
-gecko
-"
 derive
 (
 MallocSizeOf
-)
-)
-]
-#
-[
-derive
-(
 SpecifiedValueInfo
 ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
@@ -4468,6 +4465,7 @@ derive
 MallocSizeOf
 SpecifiedValueInfo
 ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
@@ -5259,6 +5257,7 @@ Hash
 MallocSizeOf
 PartialEq
 ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
@@ -6206,6 +6205,7 @@ PartialEq
 SpecifiedValueInfo
 ToCss
 ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
@@ -8750,6 +8750,7 @@ PartialEq
 SpecifiedValueInfo
 ToCss
 ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
@@ -9189,6 +9190,7 @@ PartialEq
 SpecifiedValueInfo
 ToCss
 ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
@@ -9244,6 +9246,7 @@ PartialEq
 SpecifiedValueInfo
 ToCss
 ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
