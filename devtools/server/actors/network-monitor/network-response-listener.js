@@ -1916,13 +1916,6 @@ httpActivity
 channel
 .
 securityInfo
-.
-QueryInterface
-(
-Ci
-.
-nsITransportSecurityInfo
-)
 ;
 const
 info

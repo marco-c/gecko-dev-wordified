@@ -4078,6 +4078,15 @@ weak
 "
 *
 /
+securityInfo
+.
+QueryInterface
+(
+Ci
+.
+nsITransportSecurityInfo
+)
+;
 const
 wpl
 =
