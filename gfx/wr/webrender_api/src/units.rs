@@ -206,12 +206,6 @@ euclid
 :
 HomogeneousVector
 ;
-use
-peek_poke
-:
-:
-PeekPoke
-;
 /
 /
 local
@@ -768,7 +762,6 @@ Ord
 PartialOrd
 Deserialize
 Serialize
-PeekPoke
 )
 ]
 pub
