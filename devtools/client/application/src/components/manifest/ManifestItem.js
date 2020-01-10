@@ -196,7 +196,9 @@ tr
 className
 :
 "
-manifest__row
+manifest
+-
+item
 "
 }
 th
@@ -205,9 +207,9 @@ th
 className
 :
 "
-manifest__col
+manifest
 -
-label
+item__label
 "
 scope
 :
@@ -223,9 +225,9 @@ td
 className
 :
 "
-manifest__col
+manifest
 -
-value
+item__value
 "
 }
 children

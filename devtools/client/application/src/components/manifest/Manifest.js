@@ -228,8 +228,7 @@ ManifestSection
 *
 *
 *
-Displays
-a
+A
 canonical
 manifest
 splitted
