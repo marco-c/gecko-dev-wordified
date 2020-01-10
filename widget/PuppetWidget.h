@@ -286,7 +286,7 @@ namespace
 dom
 {
 class
-TabChild
+BrowserChild
 ;
 }
 /
@@ -326,8 +326,8 @@ mozilla
 dom
 :
 :
-TabChild
-TabChild
+BrowserChild
+BrowserChild
 ;
 typedef
 mozilla
@@ -404,9 +404,9 @@ public
 explicit
 PuppetWidget
 (
-TabChild
+BrowserChild
 *
-aTabChild
+aBrowserChild
 )
 ;
 protected
@@ -590,7 +590,7 @@ the
 parent
 process
 via
-TabChild
+BrowserChild
 .
 virtual
 void
@@ -1372,15 +1372,15 @@ PaintNowIfNeeded
 )
 ;
 virtual
-TabChild
+BrowserChild
 *
-GetOwningTabChild
+GetOwningBrowserChild
 (
 )
 override
 {
 return
-mTabChild
+mBrowserChild
 ;
 }
 void
@@ -2053,7 +2053,7 @@ mWidget
 ;
 /
 /
-TabChild
+BrowserChild
 normally
 holds
 a
@@ -2079,7 +2079,7 @@ a
 reference
 back
 to
-TabChild
+BrowserChild
 (
 e
 .
@@ -2102,7 +2102,7 @@ a
 weak
 reference
 to
-TabChild
+BrowserChild
 here
 .
 Since
@@ -2113,7 +2113,7 @@ it
 s
 possible
 for
-TabChild
+BrowserChild
 to
 outlive
 the
@@ -2129,9 +2129,9 @@ in
 Destroy
 (
 )
-TabChild
+BrowserChild
 *
-mTabChild
+mBrowserChild
 ;
 /
 /

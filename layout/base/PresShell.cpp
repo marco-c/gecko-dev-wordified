@@ -242,7 +242,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -33766,11 +33766,11 @@ GetFrameElementInternal
 (
 )
 ;
-TabChild
+BrowserChild
 *
 tab
 =
-TabChild
+BrowserChild
 :
 :
 GetFrom
@@ -73466,11 +73466,11 @@ FontSizeInflationForceEnabled
 {
 if
 (
-TabChild
+BrowserChild
 *
 tab
 =
-TabChild
+BrowserChild
 :
 :
 GetFrom

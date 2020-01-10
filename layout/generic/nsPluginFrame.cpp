@@ -535,7 +535,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -4948,14 +4948,14 @@ GetTop
 dom
 :
 :
-TabChild
+BrowserChild
 *
 tc
 =
 dom
 :
 :
-TabChild
+BrowserChild
 :
 :
 GetFrom

@@ -123,7 +123,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -188,7 +188,7 @@ mozilla
 dom
 :
 :
-TabChild
+BrowserChild
 ;
 using
 mozilla
@@ -273,11 +273,11 @@ GetDocShell
 )
 )
 ;
-TabChild
+BrowserChild
 *
 child
 =
-TabChild
+BrowserChild
 :
 :
 GetFrom

@@ -165,7 +165,7 @@ namespace
 dom
 {
 class
-TabChild
+BrowserChild
 ;
 }
 namespace
@@ -992,14 +992,14 @@ aCall
 }
 static
 void
-SetOnTabChild
+SetOnBrowserChild
 (
 dom
 :
 :
-TabChild
+BrowserChild
 *
-aTabChild
+aBrowserChild
 )
 ;
 /

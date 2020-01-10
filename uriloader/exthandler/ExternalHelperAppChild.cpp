@@ -136,7 +136,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -773,9 +773,9 @@ window
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-TabChild
+BrowserChild
 *
-tabChild
+browserChild
 =
 mozilla
 :
@@ -783,7 +783,7 @@ mozilla
 dom
 :
 :
-TabChild
+BrowserChild
 :
 :
 GetFrom
@@ -793,7 +793,7 @@ window
 ;
 NS_ENSURE_TRUE
 (
-tabChild
+browserChild
 NS_ERROR_NOT_AVAILABLE
 )
 ;
@@ -818,7 +818,7 @@ DivertToParent
 (
 divertable
 request
-tabChild
+browserChild
 )
 ;
 }
@@ -854,7 +854,7 @@ entityID
 SendOnStartRequest
 (
 entityID
-tabChild
+browserChild
 )
 ;
 return
@@ -933,9 +933,9 @@ divertable
 nsIRequest
 *
 request
-TabChild
+BrowserChild
 *
-tabChild
+browserChild
 )
 {
 /
@@ -1012,7 +1012,7 @@ if
 SendDivertToParentUsing
 (
 diverter
-tabChild
+browserChild
 )
 )
 {

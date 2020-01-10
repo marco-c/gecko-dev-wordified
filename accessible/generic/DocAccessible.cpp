@@ -416,7 +416,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -9803,14 +9803,14 @@ RefPtr
 dom
 :
 :
-TabChild
+BrowserChild
 >
-tabChild
+browserChild
 =
 dom
 :
 :
-TabChild
+BrowserChild
 :
 :
 GetFrom
@@ -9839,7 +9839,7 @@ new
 DocAccessibleChild
 (
 this
-tabChild
+browserChild
 )
 ;
 SetIPCDoc
@@ -9898,7 +9898,7 @@ childID
 ;
 #
 endif
-tabChild
+browserChild
 -
 >
 SendPDocAccessibleConstructor
@@ -9918,7 +9918,7 @@ IsRoot
 )
 )
 {
-tabChild
+browserChild
 -
 >
 SetTopLevelDocAccessibleChild

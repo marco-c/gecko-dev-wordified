@@ -2933,7 +2933,7 @@ puppet
 widget
 and
 *
-tabChild
+browserChild
 don
 '
 t
@@ -2947,8 +2947,8 @@ the
 event
 target
 since
-its
 *
+its
 lifecycle
 is
 independent

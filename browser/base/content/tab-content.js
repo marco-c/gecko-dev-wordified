@@ -214,7 +214,7 @@ browsers
 ;
 /
 /
-TabChildGlobal
+BrowserChildGlobal
 var
 global
 =

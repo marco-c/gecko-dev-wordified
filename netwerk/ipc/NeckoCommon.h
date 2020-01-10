@@ -154,7 +154,7 @@ namespace
 dom
 {
 class
-TabChild
+BrowserChild
 ;
 }
 /
@@ -699,7 +699,7 @@ gSecurityDisabled
 }
 inline
 bool
-MissingRequiredTabChild
+MissingRequiredBrowserChild
 (
 mozilla
 :
@@ -707,9 +707,9 @@ mozilla
 dom
 :
 :
-TabChild
+BrowserChild
 *
-tabChild
+browserChild
 const
 char
 *
@@ -726,7 +726,7 @@ UsingNeckoIPCSecurity
 if
 (
 !
-tabChild
+browserChild
 )
 {
 printf_stderr

@@ -743,7 +743,7 @@ class
 ContentParent
 ;
 class
-TabChild
+BrowserChild
 ;
 class
 Selection
@@ -18822,9 +18822,9 @@ mozilla
 dom
 :
 :
-TabChild
+BrowserChild
 *
-aTabChild
+aBrowserChild
 )
 ;
 static
@@ -22161,7 +22161,7 @@ dom
 :
 ContentFrameMessageManager
 >
-TryGetTabChildGlobal
+TryGetBrowserChildGlobal
 (
 nsISupports
 *

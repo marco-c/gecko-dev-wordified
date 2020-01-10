@@ -144,7 +144,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -6952,7 +6952,7 @@ nsCOMPtr
 <
 nsIBrowserChild
 >
-tabChild
+browserChild
 =
 do_GetInterface
 (
@@ -6971,16 +6971,16 @@ GetDocShell
 ;
 if
 (
-tabChild
+browserChild
 )
 {
 static_cast
 <
-TabChild
+BrowserChild
 *
 >
 (
-tabChild
+browserChild
 .
 get
 (

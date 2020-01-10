@@ -125,7 +125,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -492,7 +492,7 @@ for
 print
 preview
 .
-TabChild
+BrowserChild
 *
 pBrowser
 =
@@ -507,7 +507,7 @@ parent
 /
 Get
 the
-TabChild
+BrowserChild
 for
 this
 nsIDOMWindow
@@ -569,7 +569,7 @@ tabchild
 docShell
 -
 >
-GetTabChild
+GetBrowserChild
 (
 )
 ;
@@ -582,7 +582,7 @@ pBrowser
 =
 static_cast
 <
-TabChild
+BrowserChild
 *
 >
 (
@@ -873,7 +873,7 @@ notifyOnOpen
 /
 Get
 the
-TabChild
+BrowserChild
 for
 this
 nsIDOMWindow
@@ -935,17 +935,17 @@ tabchild
 docShell
 -
 >
-GetTabChild
+GetBrowserChild
 (
 )
 ;
-TabChild
+BrowserChild
 *
 pBrowser
 =
 static_cast
 <
-TabChild
+BrowserChild
 *
 >
 (

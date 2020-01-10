@@ -325,7 +325,7 @@ NotifySlowScript
 (
 nsIBrowserChild
 *
-aTabChild
+aBrowserChild
 const
 char
 *

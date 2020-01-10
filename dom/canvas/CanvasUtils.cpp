@@ -153,7 +153,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -1205,11 +1205,11 @@ XRE_IsContentProcess
 )
 )
 {
-TabChild
+BrowserChild
 *
-tabChild
+browserChild
 =
-TabChild
+BrowserChild
 :
 :
 GetFrom
@@ -1219,10 +1219,10 @@ win
 ;
 if
 (
-tabChild
+browserChild
 )
 {
-tabChild
+browserChild
 -
 >
 SendShowCanvasPermissionPrompt

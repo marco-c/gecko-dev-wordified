@@ -18158,7 +18158,7 @@ mMessageManager
 nsContentUtils
 :
 :
-TryGetTabChildGlobal
+TryGetBrowserChildGlobal
 (
 frameElement
 )
@@ -18196,7 +18196,7 @@ mMessageManager
 nsContentUtils
 :
 :
-TryGetTabChildGlobal
+TryGetBrowserChildGlobal
 (
 frameElement
 )
@@ -18214,7 +18214,7 @@ mMessageManager
 nsContentUtils
 :
 :
-TryGetTabChildGlobal
+TryGetBrowserChildGlobal
 (
 mChromeEventHandler
 )
@@ -31028,7 +31028,7 @@ child
 docShell
 -
 >
-GetTabChild
+GetBrowserChild
 (
 )
 ;
@@ -42501,7 +42501,7 @@ nsPIWindowRoot
 aRoot
 nsIBrowserChild
 *
-aTabChild
+aBrowserChild
 const
 nsAString
 &
@@ -42521,9 +42521,9 @@ mRoot
 (
 aRoot
 )
-mTabChild
+mBrowserChild
 (
-aTabChild
+aBrowserChild
 )
 mAction
 (
@@ -42569,7 +42569,7 @@ Length
 )
 )
 {
-mTabChild
+mBrowserChild
 -
 >
 EnableDisableCommands
@@ -42596,7 +42596,7 @@ nsCOMPtr
 <
 nsIBrowserChild
 >
-mTabChild
+mBrowserChild
 ;
 nsString
 mAction
@@ -42726,7 +42726,7 @@ child
 docShell
 -
 >
-GetTabChild
+GetBrowserChild
 (
 )
 )

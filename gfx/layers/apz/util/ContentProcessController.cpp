@@ -137,7 +137,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -198,7 +198,7 @@ RefPtr
 dom
 :
 :
-TabChild
+BrowserChild
 >
 &
 aBrowser

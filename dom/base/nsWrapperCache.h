@@ -202,10 +202,10 @@ class
 ContentProcessMessageManager
 ;
 class
-InProcessTabChildMessageManager
+InProcessBrowserChildMessageManager
 ;
 class
-TabChildMessageManager
+BrowserChildMessageManager
 ;
 }
 /

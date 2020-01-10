@@ -8418,7 +8418,7 @@ ignored
 by
 /
 /
-TabChild
+BrowserChild
 since
 it
 want
@@ -8529,7 +8529,7 @@ may
 be
 ignored
 by
-TabChild
+BrowserChild
 due
 to
 performance

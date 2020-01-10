@@ -179,7 +179,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -4760,7 +4760,7 @@ mozilla
 dom
 :
 :
-TabChild
+BrowserChild
 :
 :
 GetFrom
@@ -6660,7 +6660,7 @@ nsCOMPtr
 <
 nsIBrowserChild
 >
-tabChild
+browserChild
 (
 do_GetInterface
 (
@@ -6690,11 +6690,11 @@ static_cast
 dom
 :
 :
-TabChild
+BrowserChild
 *
 >
 (
-tabChild
+browserChild
 .
 get
 (

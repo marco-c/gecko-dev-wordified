@@ -235,7 +235,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -430,7 +430,7 @@ webrtc
 PBrowserOrId
 browser
 =
-TabChild
+BrowserChild
 :
 :
 GetFrom

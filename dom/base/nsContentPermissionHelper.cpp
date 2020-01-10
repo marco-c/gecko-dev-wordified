@@ -239,7 +239,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -1979,11 +1979,11 @@ on
 main
 thread
 .
-TabChild
+BrowserChild
 *
 child
 =
-TabChild
+BrowserChild
 :
 :
 GetFrom

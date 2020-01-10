@@ -634,7 +634,7 @@ aOpenerBrowserParent
 the
 BrowserParent
 whose
-TabChild
+BrowserChild
 called
 *
 window

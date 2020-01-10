@@ -138,7 +138,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -177,7 +177,7 @@ NS_INLINE_DECL_REFCOUNTING
 BrowserBridgeChild
 )
 ;
-TabChild
+BrowserChild
 *
 Manager
 (
@@ -191,7 +191,7 @@ mIPCOpen
 return
 static_cast
 <
-TabChild
+BrowserChild
 *
 >
 (

@@ -148,7 +148,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -218,11 +218,11 @@ int16_t
 aMode
 )
 {
-TabChild
+BrowserChild
 *
-tabChild
+browserChild
 =
-TabChild
+BrowserChild
 :
 :
 GetFrom
@@ -233,7 +233,7 @@ aParent
 if
 (
 !
-tabChild
+browserChild
 )
 {
 return
@@ -258,7 +258,7 @@ NS_ADDREF_THIS
 (
 )
 ;
-tabChild
+browserChild
 -
 >
 SendPFilePickerConstructor

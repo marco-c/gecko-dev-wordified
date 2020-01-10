@@ -808,7 +808,7 @@ the
 case
 that
 a
-TabChild
+BrowserChild
 want
 to
 /

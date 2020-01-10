@@ -540,7 +540,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -11796,14 +11796,14 @@ parentTarget
 ;
 EventTarget
 *
-tabChildGlobal
+browserChildGlobal
 ;
 return
 root
 &
 &
 (
-tabChildGlobal
+browserChildGlobal
 =
 root
 -
@@ -11817,7 +11817,7 @@ GetParentTarget
 (
 manager
 =
-tabChildGlobal
+browserChildGlobal
 -
 >
 GetExistingListenerManager

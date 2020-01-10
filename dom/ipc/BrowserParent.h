@@ -4233,12 +4233,12 @@ wants
 into
 the
 new
-TabChild
+BrowserChild
 .
 When
+/
+/
 the
-/
-/
 parent
 receives
 the
@@ -4528,7 +4528,7 @@ CreateWindow
 response
 .
 Then
-TabChild
+BrowserChild
 loads
 them
 immediately
@@ -4545,7 +4545,7 @@ Cached
 cursor
 setting
 from
-TabChild
+BrowserChild
 .
 When
 the
@@ -4584,7 +4584,7 @@ cursor
 changes
 from
 the
-TabChild
+BrowserChild
 should
 change
 the
@@ -4886,7 +4886,7 @@ has
 reported
 that
 the
-TabChild
+BrowserChild
 has
 uploaded
 /
@@ -4931,7 +4931,7 @@ window
 hosted
 in
 the
-TabChild
+BrowserChild
 has
 added
 a
@@ -4975,10 +4975,10 @@ event
 due
 to
 the
-TabChild
+BrowserChild
+/
+/
 was
-/
-/
 not
 ready
 to
@@ -5002,7 +5002,7 @@ mouse
 event
 and
 the
-TabChild
+BrowserChild
 is
 ready
 .

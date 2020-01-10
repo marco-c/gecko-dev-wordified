@@ -6539,11 +6539,11 @@ Weak
 reference
 to
 our
-TabChild
+BrowserChild
 actor
 .
 nsWeakPtr
-mTabChild
+mBrowserChild
 ;
 /
 /

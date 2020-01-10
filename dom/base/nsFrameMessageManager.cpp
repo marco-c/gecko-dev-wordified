@@ -4770,7 +4770,7 @@ messageManager
 is
 wrapped
 in
-TabChildMessageManager
+BrowserChildMessageManager
 '
 s
 global

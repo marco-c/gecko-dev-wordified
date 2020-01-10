@@ -549,7 +549,7 @@ want
 to
 get
 the
-TabChildMessageManager
+BrowserChildMessageManager
 which
 is
 the

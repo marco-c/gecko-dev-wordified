@@ -9242,7 +9242,7 @@ mDocumentStoragePrincipal
 ;
 /
 /
-mTabChild
+mBrowserChild
 is
 only
 ever
@@ -9256,7 +9256,7 @@ nsCOMPtr
 <
 nsIBrowserChild
 >
-mTabChild
+mBrowserChild
 ;
 uint32_t
 mSuspendDepth

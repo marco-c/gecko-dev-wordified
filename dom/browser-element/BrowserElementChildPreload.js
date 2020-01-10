@@ -934,7 +934,7 @@ should
 run
 /
 /
-TabChild
+BrowserChild
 :
 :
 Init
@@ -1194,7 +1194,7 @@ when
 *
 -
 our
-TabChildGlobal
+BrowserChildGlobal
 starts
 to
 die
@@ -5000,7 +5000,7 @@ ignored
 the
 contextmenu
 event
-TabChild
+BrowserChild
 will
 fire
 a

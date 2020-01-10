@@ -176,7 +176,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -372,7 +372,7 @@ newID
 AsArray
 (
 )
-TabChild
+BrowserChild
 :
 :
 GetFrom
@@ -432,7 +432,7 @@ newID
 AsArray
 (
 )
-TabChild
+BrowserChild
 :
 :
 GetFrom

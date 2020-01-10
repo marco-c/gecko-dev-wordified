@@ -154,7 +154,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -930,7 +930,7 @@ context
 =
 static_cast
 <
-TabChild
+BrowserChild
 *
 >
 (
@@ -1290,7 +1290,7 @@ can
 /
 provide
 a
-TabChild
+BrowserChild
 equivalent
 .
 Don

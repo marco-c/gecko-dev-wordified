@@ -240,7 +240,7 @@ parent
 In
 particular
 the
-TabChild
+BrowserChild
 in
 which
 /

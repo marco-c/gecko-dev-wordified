@@ -143,7 +143,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -681,11 +681,11 @@ aWindow
 {
 if
 (
-TabChild
+BrowserChild
 *
-tabChild
+browserChild
 =
-TabChild
+BrowserChild
 :
 :
 GetFrom
@@ -695,7 +695,7 @@ aWindow
 )
 {
 return
-tabChild
+browserChild
 -
 >
 TabGroup
@@ -719,9 +719,9 @@ TabGroup
 :
 GetFromActor
 (
-TabChild
+BrowserChild
 *
-aTabChild
+aBrowserChild
 )
 {
 MOZ_RELEASE_ASSERT
@@ -767,7 +767,7 @@ nsIEventTarget
 >
 target
 =
-aTabChild
+aBrowserChild
 -
 >
 Manager
@@ -777,7 +777,7 @@ Manager
 >
 GetEventTargetFor
 (
-aTabChild
+aBrowserChild
 )
 ;
 if

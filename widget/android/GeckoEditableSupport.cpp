@@ -201,7 +201,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -8611,14 +8611,14 @@ void
 GeckoEditableSupport
 :
 :
-SetOnTabChild
+SetOnBrowserChild
 (
 dom
 :
 :
-TabChild
+BrowserChild
 *
-aTabChild
+aBrowserChild
 )
 {
 MOZ_ASSERT
@@ -8631,7 +8631,7 @@ XRE_IsParentProcess
 ;
 NS_ENSURE_TRUE_VOID
 (
-aTabChild
+aBrowserChild
 )
 ;
 const
@@ -8662,7 +8662,7 @@ PuppetWidget
 >
 widget
 (
-aTabChild
+aBrowserChild
 -
 >
 WebWidget
@@ -8723,7 +8723,7 @@ const
 uint64_t
 tabId
 =
-aTabChild
+aBrowserChild
 -
 >
 GetTabId
@@ -8893,7 +8893,7 @@ that
 corresponds
 to
 the
-TabChild
+BrowserChild
 .
 java
 :
@@ -9088,7 +9088,7 @@ that
 corresponds
 to
 the
-TabChild
+BrowserChild
 .
 java
 :

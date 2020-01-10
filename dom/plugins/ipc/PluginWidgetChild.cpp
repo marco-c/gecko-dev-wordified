@@ -74,7 +74,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -284,7 +284,7 @@ mozilla
 dom
 :
 :
-TabChild
+BrowserChild
 *
 >
 (

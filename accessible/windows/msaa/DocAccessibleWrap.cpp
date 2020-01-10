@@ -141,7 +141,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "

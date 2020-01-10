@@ -169,7 +169,7 @@ jsm
 ;
 /
 /
-TabChildGlobal
+BrowserChildGlobal
 var
 global
 =

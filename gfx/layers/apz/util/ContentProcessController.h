@@ -141,7 +141,7 @@ namespace
 dom
 {
 class
-TabChild
+BrowserChild
 ;
 }
 /
@@ -164,10 +164,10 @@ a
 GeckoContentController
 for
 a
-TabChild
+BrowserChild
 and
-is
 *
+is
 always
 remoted
 using
@@ -261,7 +261,7 @@ RefPtr
 dom
 :
 :
-TabChild
+BrowserChild
 >
 &
 aBrowser
@@ -459,7 +459,7 @@ RefPtr
 dom
 :
 :
-TabChild
+BrowserChild
 >
 mBrowser
 ;

@@ -1587,7 +1587,7 @@ as
 part
 of
 the
-TabChild
+BrowserChild
 so
 we
 have

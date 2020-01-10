@@ -179,7 +179,7 @@ mozbrowser
 *
 BrowserParent
 and
-TabChild
+BrowserChild
 both
 inherit
 from

@@ -227,7 +227,7 @@ nsBaseWidget
 /
 /
 or
-TabChild
+BrowserChild
 )
 into
 deeper

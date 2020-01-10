@@ -92,7 +92,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -190,9 +190,9 @@ PluginWidgetProxy
 dom
 :
 :
-TabChild
+BrowserChild
 *
-aTabChild
+aBrowserChild
 mozilla
 :
 :

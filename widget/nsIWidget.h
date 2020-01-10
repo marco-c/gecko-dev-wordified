@@ -378,7 +378,7 @@ namespace
 dom
 {
 class
-TabChild
+BrowserChild
 ;
 }
 /
@@ -1702,8 +1702,8 @@ mozilla
 dom
 :
 :
-TabChild
-TabChild
+BrowserChild
+BrowserChild
 ;
 public
 :
@@ -12233,9 +12233,9 @@ nsIWidget
 >
 CreatePuppetWidget
 (
-TabChild
+BrowserChild
 *
-aTabChild
+aBrowserChild
 )
 ;
 static
@@ -12309,9 +12309,9 @@ nsIWidget
 >
 CreatePluginProxyWidget
 (
-TabChild
+BrowserChild
 *
-aTabChild
+aBrowserChild
 mozilla
 :
 :
@@ -12735,7 +12735,7 @@ is
 owned
 by
 a
-TabChild
+BrowserChild
 return
 that
 .
@@ -12747,9 +12747,9 @@ null
 *
 /
 virtual
-TabChild
+BrowserChild
 *
-GetOwningTabChild
+GetOwningBrowserChild
 (
 )
 {

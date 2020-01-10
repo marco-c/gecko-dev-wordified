@@ -204,7 +204,7 @@ class
 Document
 ;
 class
-TabChild
+BrowserChild
 ;
 /
 /
@@ -405,7 +405,7 @@ class
 DocGroup
 ;
 class
-TabChild
+BrowserChild
 ;
 class
 TabGroup
@@ -500,7 +500,7 @@ GetChromeTabGroup
 Checks
 if
 the
-TabChild
+BrowserChild
 already
 has
 a
@@ -560,9 +560,9 @@ TabGroup
 *
 GetFromActor
 (
-TabChild
+BrowserChild
 *
-aTabChild
+aBrowserChild
 )
 ;
 static

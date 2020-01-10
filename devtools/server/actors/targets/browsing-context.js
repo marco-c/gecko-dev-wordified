@@ -4392,7 +4392,7 @@ processes
 involving
 /
 /
-TabChild
+BrowserChild
 this
 event
 is

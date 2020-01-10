@@ -429,7 +429,7 @@ aLoadGroup
 )
 ;
 void
-MaybeAddTabChild
+MaybeAddBrowserChild
 (
 nsILoadGroup
 *
@@ -486,7 +486,7 @@ already_AddRefed
 <
 nsIBrowserChild
 >
-GetAnyLiveTabChild
+GetAnyLiveBrowserChild
 (
 )
 ;
@@ -519,7 +519,7 @@ to
 keep
 /
 /
-TabChild
+BrowserChild
 actors
 alive
 for
@@ -539,7 +539,7 @@ nsTArray
 <
 nsWeakPtr
 >
-mTabChildList
+mBrowserChildList
 ;
 }
 ;

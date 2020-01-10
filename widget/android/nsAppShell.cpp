@@ -310,7 +310,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -4171,7 +4171,7 @@ the
 newly
 -
 created
-TabChild
+BrowserChild
 with
 a
 /
@@ -4238,12 +4238,12 @@ widget
 GeckoEditableSupport
 :
 :
-SetOnTabChild
+SetOnBrowserChild
 (
 domWidget
 -
 >
-GetOwningTabChild
+GetOwningBrowserChild
 (
 )
 )
@@ -4308,12 +4308,12 @@ widget
 GeckoEditableSupport
 :
 :
-SetOnTabChild
+SetOnBrowserChild
 (
 dom
 :
 :
-TabChild
+BrowserChild
 :
 :
 GetFrom

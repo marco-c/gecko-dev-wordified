@@ -8226,7 +8226,7 @@ this
 :
 /
 /
-inProcessTabChildGlobal
+inProcessBrowserChildGlobal
 ?
 ownedBy
 =
@@ -8271,7 +8271,7 @@ char
 ownedByPrefix
 =
 "
-inProcessTabChildGlobal
+inProcessBrowserChildGlobal
 ?
 ownedBy
 =

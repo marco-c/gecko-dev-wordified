@@ -7632,7 +7632,7 @@ LARGE_ALLOCATION_REMOTE_TYPE
 /
 Tell
 the
-TabChild
+BrowserChild
 object
 that
 it
@@ -7641,11 +7641,11 @@ created
 due
 to
 a
+/
+/
 Large
 -
 Allocation
-/
-/
 request
 .
 Unused
@@ -21378,7 +21378,7 @@ to
 notify
 parent
 that
-TabChild
+BrowserChild
 is
 created
 .
@@ -21387,9 +21387,9 @@ this
 case
 PBrowser
 is
+/
+/
 initiated
-/
-/
 from
 content
 so
@@ -21402,11 +21402,9 @@ as
 ready
 to
 handle
+/
+/
 input
-/
-/
-events
-.
 parent
 -
 >

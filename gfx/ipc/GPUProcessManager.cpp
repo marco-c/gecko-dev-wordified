@@ -3531,7 +3531,7 @@ ask
 each
 of
 its
-TabChildren
+BrowserChildren
 /
 /
 to
@@ -3578,7 +3578,7 @@ b
 [
 CONTENT
 ]
-TabChild
+BrowserChild
 :
 :
 ReinitRendering
@@ -3590,7 +3590,7 @@ c
 [
 CONTENT
 ]
-TabChild
+BrowserChild
 :
 :
 SendEnsureLayersConnected

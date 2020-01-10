@@ -1239,7 +1239,7 @@ process
 synchronously
 .
 Then
-TabChild
+BrowserChild
 dispatches
 /
 /

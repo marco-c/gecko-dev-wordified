@@ -347,7 +347,7 @@ class
 ContentParent
 ;
 class
-InProcessTabChildMessageManager
+InProcessBrowserChildMessageManager
 ;
 class
 MessageSender
@@ -672,9 +672,9 @@ mozilla
 dom
 :
 :
-InProcessTabChildMessageManager
+InProcessBrowserChildMessageManager
 *
-GetTabChildMessageManager
+GetBrowserChildMessageManager
 (
 )
 const
@@ -2216,7 +2216,7 @@ mozilla
 dom
 :
 :
-InProcessTabChildMessageManager
+InProcessBrowserChildMessageManager
 >
 mChildMessageManager
 ;

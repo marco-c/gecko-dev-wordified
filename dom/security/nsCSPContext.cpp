@@ -6773,7 +6773,7 @@ channel
 cannot
 query
 the
-iTabChild
+iBrowserChild
 )
 .
 rv

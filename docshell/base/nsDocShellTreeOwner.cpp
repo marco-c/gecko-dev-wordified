@@ -2107,7 +2107,7 @@ nsCOMPtr
 <
 nsIBrowserChild
 >
-tabChild
+browserChild
 =
 do_QueryInterface
 (
@@ -2116,7 +2116,7 @@ webBrowserChrome
 ;
 if
 (
-tabChild
+browserChild
 )
 {
 /
@@ -2210,7 +2210,7 @@ height
 )
 ;
 return
-tabChild
+browserChild
 -
 >
 RemoteSizeShellTo
@@ -4958,7 +4958,7 @@ nsCOMPtr
 <
 nsIBrowserChild
 >
-tabChild
+browserChild
 =
 do_QueryInterface
 (
@@ -4967,13 +4967,13 @@ webBrowserChrome
 ;
 if
 (
-tabChild
+browserChild
 )
 {
 nsresult
 rv
 =
-tabChild
+browserChild
 -
 >
 RemoteDropLinks

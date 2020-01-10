@@ -311,7 +311,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -4399,7 +4399,7 @@ in
 the
 remote
 process
-TabChild
+BrowserChild
 won
 '
 t
@@ -6829,7 +6829,7 @@ docShell
 docShell
 -
 >
-GetTabChild
+GetBrowserChild
 (
 )
 :
@@ -13647,11 +13647,11 @@ rootWindow
 return
 NS_ERROR_FAILURE
 ;
-TabChild
+BrowserChild
 *
-tabChild
+browserChild
 =
-TabChild
+BrowserChild
 :
 :
 GetFrom
@@ -13662,7 +13662,7 @@ rootWindow
 if
 (
 !
-tabChild
+browserChild
 )
 {
 nsIFocusManager
@@ -13717,7 +13717,7 @@ else
 if
 (
 !
-tabChild
+browserChild
 -
 >
 ParentIsActive

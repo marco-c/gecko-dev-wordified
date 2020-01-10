@@ -10244,7 +10244,7 @@ mLoadInfo
 mInterfaceRequestor
 -
 >
-MaybeAddTabChild
+MaybeAddBrowserChild
 (
 aBaseLoadGroup
 )
@@ -13958,7 +13958,7 @@ aLoadInfo
 mInterfaceRequestor
 -
 >
-MaybeAddTabChild
+MaybeAddBrowserChild
 (
 aLoadInfo
 .

@@ -70,7 +70,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -139,9 +139,9 @@ nsIWidget
 :
 CreatePluginProxyWidget
 (
-TabChild
+BrowserChild
 *
-aTabChild
+aBrowserChild
 mozilla
 :
 :
@@ -168,7 +168,7 @@ widget
 :
 PluginWidgetProxy
 (
-aTabChild
+aBrowserChild
 aActor
 )
 ;
@@ -247,9 +247,9 @@ PluginWidgetProxy
 dom
 :
 :
-TabChild
+BrowserChild
 *
-aTabChild
+aBrowserChild
 mozilla
 :
 :
@@ -263,7 +263,7 @@ aActor
 :
 PuppetWidget
 (
-aTabChild
+aBrowserChild
 )
 mActor
 (
@@ -679,7 +679,7 @@ mozilla
 dom
 :
 :
-TabChild
+BrowserChild
 *
 >
 (
@@ -852,7 +852,7 @@ mozilla
 dom
 :
 :
-TabChild
+BrowserChild
 *
 >
 (

@@ -179,7 +179,7 @@ class
 JSWindowActorMessageMeta
 ;
 class
-TabChild
+BrowserChild
 ;
 /
 *
@@ -458,9 +458,9 @@ process
 .
 already_AddRefed
 <
-TabChild
+BrowserChild
 >
-GetTabChild
+GetBrowserChild
 (
 )
 ;

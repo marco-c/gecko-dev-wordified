@@ -5250,12 +5250,12 @@ chrome
 event
 handler
 or
-TabChildMessageManager
+BrowserChildMessageManager
 for
 event
+/
+/
 target
-/
-/
 chain
 .
 target

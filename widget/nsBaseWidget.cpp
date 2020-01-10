@@ -7811,7 +7811,7 @@ e
 .
 g
 .
-TabChild
+BrowserChild
 :
 :
 RecvRealTouchEvent
@@ -10263,9 +10263,9 @@ shadow
 manager
 from
 the
-TabChild
 /
 /
+BrowserChild
 so
 we
 don
@@ -10281,6 +10281,8 @@ this
 doesn
 '
 t
+/
+/
 support
 e10s
 .

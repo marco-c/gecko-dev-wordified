@@ -315,7 +315,7 @@ Unload
 events
 on
 the
-TabChildGlobal
+BrowserChildGlobal
 .
 These
 come
