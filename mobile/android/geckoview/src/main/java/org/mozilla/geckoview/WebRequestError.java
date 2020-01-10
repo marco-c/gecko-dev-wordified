@@ -219,7 +219,11 @@ ERROR_CATEGORY_PROXY
 ERROR_CATEGORY_SAFEBROWSING
 }
 )
-public
+/
+*
+package
+*
+/
 interface
 ErrorCategory
 {
@@ -261,7 +265,11 @@ ERROR_UNSAFE_CONTENT_TYPE
 ERROR_CORRUPTED_CONTENT
 }
 )
-public
+/
+*
+package
+*
+/
 interface
 Error
 {

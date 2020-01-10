@@ -478,7 +478,11 @@ FETCH_FLAGS_ANONYMOUS
 FETCH_FLAGS_NO_REDIRECTS
 }
 )
-public
+/
+*
+package
+*
+/
 interface
 FetchFlags
 {
