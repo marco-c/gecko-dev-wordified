@@ -341,6 +341,7 @@ pub
 type
 TransferredCallback
 =
+dyn
 (
 Fn
 (
@@ -368,6 +369,7 @@ pub
 type
 ErrorCallback
 =
+dyn
 (
 Fn
 (
@@ -395,6 +397,7 @@ pub
 type
 ModificationCallback
 =
+dyn
 (
 Fn
 (
