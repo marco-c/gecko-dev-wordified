@@ -11054,11 +11054,13 @@ should
         
 #
 be
-installed
+fetched
 by
-tooltool
+run
+-
+task
 in
-abs_src_dir
+MOZ_FETCHES_DIR
 /
 rust
 -
@@ -11076,14 +11078,12 @@ path
 .
 join
 (
-self
+os
 .
-query_abs_dirs
-(
-)
+environ
 [
 '
-abs_src_dir
+MOZ_FETCHES_DIR
 '
 ]
                                  
