@@ -5918,8 +5918,6 @@ Remove
 correctly
 restores
 tags
-and
-annotations
 .
 observer
 .
