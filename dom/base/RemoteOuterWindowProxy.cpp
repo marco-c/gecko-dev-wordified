@@ -482,15 +482,6 @@ aContext
 JS
 :
 :
-Handle
-<
-JSObject
-*
->
-aTransplantTo
-JS
-:
-:
 MutableHandle
 <
 JSObject
@@ -525,7 +516,6 @@ GetProxyObject
 (
 aCx
 aContext
-aTransplantTo
 aRetVal
 )
 ;
@@ -535,6 +525,7 @@ return
 aRetVal
 ;
 }
+static
 BrowsingContext
 *
 GetBrowsingContext

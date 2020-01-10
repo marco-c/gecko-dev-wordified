@@ -4264,11 +4264,6 @@ cx
 js
 :
 :
-HandleObject
-origObj
-js
-:
-:
 MutableHandleObject
 obj
 )

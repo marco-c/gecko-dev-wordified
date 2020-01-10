@@ -453,11 +453,6 @@ DOMProxyHandler
 :
 family
 DOMProxyShadows
-&
-RemoteObjectProxyBase
-:
-:
-sCrossOriginProxyFamily
 )
 ;
 }
