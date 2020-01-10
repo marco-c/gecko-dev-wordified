@@ -535,6 +535,11 @@ JSMSG_REDECLARED_VAR
 "
 Redeclared_parameter
 "
+JSMSG_SET_NON_OBJECT_RECEIVER
+:
+"
+Cant_assign_to_property
+"
 }
 ;
 const
