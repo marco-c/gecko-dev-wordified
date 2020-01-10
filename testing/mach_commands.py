@@ -6936,6 +6936,19 @@ record
 )
 :
         
+if
+'
+platform
+'
+in
+record
+[
+'
+build
+'
+]
+:
+            
 platform
 =
 record
@@ -6950,7 +6963,16 @@ platform
 '
 ]
         
-type
+else
+:
+            
+platform
+=
+"
+-
+"
+        
+tp
 =
 record
 [
@@ -6963,6 +6985,26 @@ build
 type
 '
 ]
+        
+if
+type
+(
+tp
+)
+is
+list
+:
+            
+tp
+=
+"
+-
+"
+.
+join
+(
+tp
+)
         
 if
 '
@@ -6986,6 +7028,8 @@ and
 e10s
 '
 in
+str
+(
 record
 [
 '
@@ -6997,6 +7041,7 @@ run
 type
 '
 ]
+)
 :
             
 e10s
@@ -7028,7 +7073,7 @@ s
 %
 (
 platform
-type
+tp
 e10s
 )
     
@@ -7509,6 +7554,19 @@ get_platform
 (
 record
 )
+                
+if
+platform
+.
+startswith
+(
+"
+-
+"
+)
+:
+                    
+continue
                 
 runs
 =
@@ -8057,6 +8115,19 @@ get_platform
 (
 record
 )
+                
+if
+platform
+.
+startswith
+(
+"
+-
+"
+)
+:
+                    
+continue
                 
 print
 (
