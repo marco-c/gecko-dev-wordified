@@ -2837,13 +2837,6 @@ aContext
 {
 }
 virtual
-void
-DoCompositorCleanup
-(
-)
-{
-}
-virtual
 RefPtr
 <
 mozilla

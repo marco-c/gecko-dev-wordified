@@ -572,13 +572,6 @@ Destroy
 )
 {
 mWidget
--
->
-DoCompositorCleanup
-(
-)
-;
-mWidget
 =
 nullptr
 ;
