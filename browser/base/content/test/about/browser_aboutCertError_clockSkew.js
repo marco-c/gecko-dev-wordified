@@ -310,7 +310,7 @@ undefined
 dateStyle
 :
 "
-short
+long
 "
 }
 )
