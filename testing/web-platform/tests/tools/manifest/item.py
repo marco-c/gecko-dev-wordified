@@ -22,6 +22,11 @@ abc
 import
 ABCMeta
 abstractproperty
+from
+.
+utils
+import
+to_os_path
 MYPY
 =
 False
@@ -373,6 +378,13 @@ obj
 )
 :
         
+path
+=
+to_os_path
+(
+path
+)
+        
 return
 cls
 (
@@ -630,6 +642,13 @@ path
 obj
 )
 :
+        
+path
+=
+to_os_path
+(
+path
+)
         
 url
 extras
@@ -1200,6 +1219,13 @@ path
 obj
 )
 :
+        
+path
+=
+to_os_path
+(
+path
+)
         
 url
 references
