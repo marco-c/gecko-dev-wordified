@@ -6801,6 +6801,12 @@ StyleVerticalAlignKeyword
 :
 MozMiddleWithBaseline
 }
+/
+/
+Intentionally
+not
+bottom
+.
 {
 "
 bottom
@@ -6808,7 +6814,7 @@ bottom
 StyleVerticalAlignKeyword
 :
 :
-Bottom
+Baseline
 }
 {
 "
