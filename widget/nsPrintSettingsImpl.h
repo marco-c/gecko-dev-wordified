@@ -467,9 +467,6 @@ bool
 mPrintSilent
 ;
 bool
-mPrintPreview
-;
-bool
 mShrinkToFit
 ;
 bool
