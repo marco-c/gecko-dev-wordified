@@ -6733,7 +6733,7 @@ breakpoint
 is
 set
 on
-JSOP_DEBUGAFTERYIELD
+JSOP_AFTERYIELD
 or
 stepping
 is
@@ -7458,12 +7458,12 @@ if
 pc
 =
 =
-JSOP_DEBUGAFTERYIELD
+JSOP_AFTERYIELD
 )
 {
 /
 /
-JSOP_DEBUGAFTERYIELD
+JSOP_AFTERYIELD
 will
 set
 the

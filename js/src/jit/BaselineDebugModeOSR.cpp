@@ -2228,7 +2228,7 @@ K
 .
 From
 a
-JSOP_DEBUGAFTERYIELD
+JSOP_AFTERYIELD
 instruction
 .
 /
@@ -3582,7 +3582,7 @@ MOZ_ASSERT
 pc
 =
 =
-JSOP_DEBUGAFTERYIELD
+JSOP_AFTERYIELD
 )
 ;
 recompInfo
@@ -3598,7 +3598,7 @@ nativeCodeForPC
 script
 pc
 +
-JSOP_DEBUGAFTERYIELD_LENGTH
+JSOP_AFTERYIELD_LENGTH
 &
 recompInfo
 -

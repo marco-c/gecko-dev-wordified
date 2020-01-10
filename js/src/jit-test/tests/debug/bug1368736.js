@@ -32,7 +32,7 @@ a
 breakpoint
 at
 the
-JSOP_DEBUGAFTERYIELD
+JSOP_AFTERYIELD
 op
 .
 frame

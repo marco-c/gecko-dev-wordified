@@ -32102,7 +32102,7 @@ Handler
 >
 :
 :
-emit_JSOP_DEBUGAFTERYIELD
+emit_JSOP_AFTERYIELD
 (
 )
 {

@@ -16143,10 +16143,10 @@ Stack
 \
 MACRO
 (
-JSOP_DEBUGAFTERYIELD
+JSOP_AFTERYIELD
 208
 "
-debugafteryield
+afteryield
 "
 NULL
 1

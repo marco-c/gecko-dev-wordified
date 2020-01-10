@@ -7091,7 +7091,7 @@ calls
 it
 from
 *
-JSOP_DEBUGAFTERYIELD
+JSOP_AFTERYIELD
 just
 after
 the
