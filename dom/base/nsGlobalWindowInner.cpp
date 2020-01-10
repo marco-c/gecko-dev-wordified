@@ -25724,10 +25724,8 @@ editable
 )
 return
 ;
-nsCOMPtr
-<
-nsIPresShell
->
+PresShell
+*
 presShell
 =
 docShell
@@ -25746,8 +25744,10 @@ presShell
 !
 mDoc
 )
+{
 return
 ;
+}
 Element
 *
 rootElement

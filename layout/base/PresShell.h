@@ -2748,7 +2748,7 @@ UpdateImageLockingState
 ;
 already_AddRefed
 <
-nsIPresShell
+PresShell
 >
 GetParentPresShellForEventHandling
 (
@@ -7328,7 +7328,7 @@ GetFocusedDOMWindowInOurWindow
 }
 already_AddRefed
 <
-nsIPresShell
+PresShell
 >
 GetParentPresShellForEventHandling
 (

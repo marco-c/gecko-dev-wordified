@@ -166,6 +166,9 @@ h
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -619,7 +622,7 @@ LayoutViewportOffset
 )
 const
 ;
-nsIPresShell
+PresShell
 *
 GetPresShell
 (

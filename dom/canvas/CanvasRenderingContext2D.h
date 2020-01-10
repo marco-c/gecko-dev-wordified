@@ -2593,7 +2593,7 @@ doc
 shell
 *
 /
-nsIPresShell
+PresShell
 *
 GetPresShell
 (

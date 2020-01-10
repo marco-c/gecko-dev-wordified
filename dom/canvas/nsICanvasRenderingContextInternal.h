@@ -225,6 +225,9 @@ nsDisplayListBuilder
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 layers
 {
@@ -356,7 +359,10 @@ AddPostRefreshObserverIfNecessary
 ;
 }
 virtual
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 GetPresShell
 (

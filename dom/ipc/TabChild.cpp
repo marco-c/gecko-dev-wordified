@@ -15423,9 +15423,9 @@ yet
 .
 if
 (
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 presShell
 =
@@ -17424,9 +17424,9 @@ yet
 .
 if
 (
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 presShell
 =
@@ -18595,9 +18595,9 @@ yet
 .
 if
 (
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 presShell
 =
