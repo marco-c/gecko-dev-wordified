@@ -432,6 +432,14 @@ EnsureStatics
 ;
 static
 void
+SetLowMemoryState
+(
+bool
+aState
+)
+;
+static
+void
 GarbageCollectNow
 (
 JS

@@ -727,6 +727,13 @@ UpdateAllWorkerGCZeal
 #
 endif
 void
+SetLowMemoryStateAllWorkers
+(
+bool
+aState
+)
+;
+void
 GarbageCollectAllWorkers
 (
 bool
