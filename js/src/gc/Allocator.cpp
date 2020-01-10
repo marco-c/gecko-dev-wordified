@@ -2783,9 +2783,7 @@ zone
 )
 -
 >
-zoneSize
-.
-gcBytes
+totalBytes
 (
 )
 >
@@ -4444,7 +4442,6 @@ DontCheckThresholds
 maybeAllocTriggerZoneGC
 (
 zone
-lock
 )
 ;
 }
