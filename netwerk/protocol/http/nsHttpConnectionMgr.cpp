@@ -28543,7 +28543,16 @@ ci
 GetPrivate
 (
 )
+|
+|
+ci
+-
+>
+GetIsolated
+(
 )
+)
+{
 tmpFlags
 |
 =
@@ -28552,6 +28561,7 @@ nsISocketTransport
 :
 NO_PERMANENT_STORAGE
 ;
+}
 if
 (
 ci
