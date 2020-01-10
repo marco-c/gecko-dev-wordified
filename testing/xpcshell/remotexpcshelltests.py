@@ -92,6 +92,8 @@ from
 zipfile
 import
 ZipFile
+import
+mozcrash
 from
 mozdevice
 import
@@ -1461,16 +1463,20 @@ dumpDir
             
 crashed
 =
-xpcshell
+mozcrash
 .
-XPCShellTestThread
-.
-checkForCrashes
+log_crashes
 (
-                  
 self
+.
+log
+                                           
 dumpDir
+                                           
 symbols_path
+                                           
+test
+=
 test_name
 )
             
