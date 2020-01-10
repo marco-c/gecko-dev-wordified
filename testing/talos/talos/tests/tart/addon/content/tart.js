@@ -1896,12 +1896,6 @@ self
 USE_RECORDING_API
 )
 {
-var
-paints
-=
-{
-}
-;
 return
 window
 .
@@ -1910,7 +1904,6 @@ windowUtils
 stopFrameTimeRecording
 (
 recordingHandle
-paints
 )
 ;
 }
