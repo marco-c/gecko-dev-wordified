@@ -7782,7 +7782,10 @@ PresContext
 >
 LayoutPhaseCount
 (
-eLayoutPhase_DisplayListBuilding
+nsLayoutPhase
+:
+:
+DisplayListBuilding
 )
 =
 =
