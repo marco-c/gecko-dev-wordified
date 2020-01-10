@@ -2246,8 +2246,11 @@ gInited
 =
 false
 ;
+window
+.
+onload
+=
 function
-init
 (
 )
 {
@@ -2428,6 +2431,7 @@ click
 )
 ;
 }
+;
 function
 show
 (
