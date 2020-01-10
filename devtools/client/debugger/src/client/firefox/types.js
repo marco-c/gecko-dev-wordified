@@ -2047,6 +2047,13 @@ string
 =
 >
 void
+openInspector
+:
+(
+)
+=
+>
+void
 openElementInInspector
 :
 (
