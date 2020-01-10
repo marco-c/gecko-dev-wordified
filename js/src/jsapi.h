@@ -12638,12 +12638,11 @@ JS_PUBLIC_API
 void
 JS_SetAllNonReservedSlotsToUndefined
 (
-JSContext
-*
-cx
-JSObject
-*
-objArg
+JS
+:
+:
+HandleObject
+obj
 )
 ;
 extern
