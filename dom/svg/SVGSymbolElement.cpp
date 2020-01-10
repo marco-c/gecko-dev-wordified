@@ -374,15 +374,6 @@ aNodeInfo
 )
 {
 }
-SVGSymbolElement
-:
-:
-~
-SVGSymbolElement
-(
-)
-{
-}
 /
 /
 -

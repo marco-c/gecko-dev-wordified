@@ -529,6 +529,8 @@ aFromParser
 SVGSVGElement
 (
 )
+=
+default
 ;
 public
 :

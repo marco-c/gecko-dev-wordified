@@ -682,6 +682,8 @@ virtual
 SVGAElement
 (
 )
+=
+default
 ;
 virtual
 StringAttributesInfo

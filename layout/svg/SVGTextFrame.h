@@ -1210,8 +1210,9 @@ NS_STATE_SVG_POSITIONING_DIRTY
 SVGTextFrame
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_QUERYFRAME

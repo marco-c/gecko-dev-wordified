@@ -436,15 +436,6 @@ this
 )
 ;
 }
-SVGStyleElement
-:
-:
-~
-SVGStyleElement
-(
-)
-{
-}
 /
 /
 -

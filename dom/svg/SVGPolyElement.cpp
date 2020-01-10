@@ -266,15 +266,6 @@ aNodeInfo
 )
 {
 }
-SVGPolyElement
-:
-:
-~
-SVGPolyElement
-(
-)
-{
-}
 already_AddRefed
 <
 DOMSVGPointList

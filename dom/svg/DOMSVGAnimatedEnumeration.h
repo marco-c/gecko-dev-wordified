@@ -235,8 +235,8 @@ virtual
 DOMSVGAnimatedEnumeration
 (
 )
-{
-}
+=
+default
 ;
 RefPtr
 <

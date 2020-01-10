@@ -217,6 +217,8 @@ aNodeInfo
 SVGSymbolElement
 (
 )
+=
+default
 ;
 virtual
 JSObject

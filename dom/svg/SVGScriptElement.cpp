@@ -440,15 +440,6 @@ this
 )
 ;
 }
-SVGScriptElement
-:
-:
-~
-SVGScriptElement
-(
-)
-{
-}
 /
 /
 -

@@ -528,15 +528,6 @@ false
 )
 {
 }
-SVGViewportElement
-:
-:
-~
-SVGViewportElement
-(
-)
-{
-}
 /
 /
 -

@@ -244,6 +244,8 @@ aNodeInfo
 SVGStyleElement
 (
 )
+=
+default
 ;
 virtual
 JSObject

@@ -342,15 +342,6 @@ aNodeInfo
 )
 {
 }
-SVGGraphicsElement
-:
-:
-~
-SVGGraphicsElement
-(
-)
-{
-}
 bool
 SVGGraphicsElement
 :

@@ -235,6 +235,8 @@ aNodeInfo
 SVGTitleElement
 (
 )
+=
+default
 ;
 virtual
 JSObject

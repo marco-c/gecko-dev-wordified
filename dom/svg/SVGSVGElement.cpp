@@ -987,15 +987,6 @@ false
 )
 {
 }
-SVGSVGElement
-:
-:
-~
-SVGSVGElement
-(
-)
-{
-}
 /
 /
 -

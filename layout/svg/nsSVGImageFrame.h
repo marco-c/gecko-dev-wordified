@@ -305,8 +305,9 @@ private
 nsSVGImageListener
 (
 )
-{
-}
+=
+default
+;
 nsSVGImageFrame
 *
 mFrame

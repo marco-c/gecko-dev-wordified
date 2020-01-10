@@ -230,8 +230,9 @@ public
 SVGImageContext
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *

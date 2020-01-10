@@ -184,6 +184,8 @@ aNodeInfo
 SVGGraphicsElement
 (
 )
+=
+default
 ;
 public
 :

@@ -219,6 +219,8 @@ virtual
 SVGAnimationElement
 (
 )
+=
+default
 ;
 public
 :

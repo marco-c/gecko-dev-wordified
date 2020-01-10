@@ -237,6 +237,8 @@ aNodeInfo
 SVGSwitchElement
 (
 )
+=
+default
 ;
 virtual
 JSObject
