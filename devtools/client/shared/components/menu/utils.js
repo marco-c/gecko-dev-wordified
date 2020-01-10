@@ -490,9 +490,7 @@ popup
 (
 screenX
 screenY
-{
 doc
-}
 )
 ;
 }
