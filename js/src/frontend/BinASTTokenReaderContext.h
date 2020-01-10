@@ -3362,7 +3362,7 @@ HuffmanTableIndexedSymbolsStringEnum
 {
 HuffmanTableImpl
 <
-uint8_t
+BinASTVariant
 >
 impl
 ;
