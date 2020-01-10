@@ -102,6 +102,10 @@ nsResProtocolHandler_h___
 #
 include
 "
+mozilla
+/
+net
+/
 SubstitutingProtocolHandler
 .
 h
