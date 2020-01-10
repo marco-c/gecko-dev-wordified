@@ -178,17 +178,20 @@ device
 .
 shell_output
 .
-return_value
+side_effect
 =
+[
+'
+8
+.
+0
+.
+0
+'
 '
 geckoview
 '
-            
-device
-.
-version
-=
-8
+]
             
 device
 .
@@ -408,8 +411,7 @@ files
 /
 '
             
-f
-=
+with
 open
 (
 filepath
@@ -425,12 +427,11 @@ txt
 r
 '
 )
-            
-device
-.
-shell_output
-.
-return_value
+as
+f
+:
+                
+test_data
 =
 f
 .
@@ -440,15 +441,26 @@ read
             
 device
 .
-_verbose
+shell_output
+.
+side_effect
 =
-True
+[
+'
+8
+.
+0
+.
+0
+'
+test_data
+]
             
 device
 .
-version
+_verbose
 =
-8
+True
             
 #
 Create
@@ -661,24 +673,6 @@ as
 control_server
 :
             
-#
-We
-set
-the
-version
-to
-be
-less
-than
-Android
-8
-            
-device
-.
-version
-=
-7
-            
 device
 .
 _verbose
@@ -721,13 +715,34 @@ user
 kernel
 '
             
+#
+We
+set
+the
+version
+to
+be
+less
+than
+Android
+8
+            
 device
 .
 shell_output
 .
-return_value
+side_effect
 =
+[
+'
+7
+.
+0
+.
+0
+'
 shell_output
+]
             
 #
 Create

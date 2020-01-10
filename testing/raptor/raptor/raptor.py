@@ -2186,9 +2186,7 @@ response
 =
 =
 '
-webext_status
-/
-__raptor_shutdownBrowser
+webext_shutdownBrowser
 '
 :
                     
@@ -2523,9 +2521,7 @@ self
 control_server_wait_set
 (
 '
-webext_status
-/
-__raptor_shutdownBrowser
+webext_shutdownBrowser
 '
 )
     
