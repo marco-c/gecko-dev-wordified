@@ -298,7 +298,10 @@ mPresContext
 float
 mScriptSizeMultiplier
 ;
-uint8_t
+mozilla
+:
+:
+StyleTextTransform
 mTextTransform
 ;
 uint8_t
