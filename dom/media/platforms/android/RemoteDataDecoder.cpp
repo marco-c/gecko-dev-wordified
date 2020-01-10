@@ -2680,8 +2680,6 @@ aTime
 bool
 ShouldDiscardSample
 (
-int64_t
-aSession
 )
 const
 {
@@ -2794,12 +2792,6 @@ SHUTDOWN
 |
 !
 mFirstDemuxedSampleTime
-|
-|
-mSession
-!
-=
-aSession
 ;
 }
 /
@@ -2945,12 +2937,6 @@ if
 (
 ShouldDiscardSample
 (
-aSample
--
->
-Session
-(
-)
 )
 |
 |
@@ -3607,10 +3593,6 @@ mTaskQueue
 (
 aTaskQueue
 )
-mSession
-(
-0
-)
 mNumPendingInputs
 (
 0
@@ -3708,10 +3690,6 @@ State
 :
 DRAINED
 )
-;
-mSession
-+
-+
 ;
 mJavaDecoder
 -
@@ -3908,7 +3886,6 @@ self
 >
 mInputBufferInfo
 nullptr
-mSession
 )
 ;
 return
@@ -4632,7 +4609,6 @@ GetCryptoInfoFromSample
 (
 aSample
 )
-mSession
 )
 ?
 mDecodePromise
@@ -5156,10 +5132,6 @@ DRAINED
 ReturnDecodedData
 (
 )
-;
-mSession
-+
-+
 ;
 /
 /
