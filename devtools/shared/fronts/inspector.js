@@ -3225,6 +3225,13 @@ to
 be
 destroyed
 manually
+if
+(
+this
+.
+selection
+)
+{
 this
 .
 selection
@@ -3233,6 +3240,7 @@ destroy
 (
 )
 ;
+}
 /
 /
 Highlighter
