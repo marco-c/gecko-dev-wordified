@@ -365,6 +365,8 @@ BrowserTestUtils
 browserLoaded
 (
 browser
+false
+url
 )
 ;
 /
