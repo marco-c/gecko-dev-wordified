@@ -15205,7 +15205,10 @@ return
 false
 ;
 }
+CFTypeRefPtr
+<
 IOSurfaceRef
+>
 ioSurface
 =
 surf
@@ -15224,6 +15227,10 @@ void
 *
 )
 ioSurface
+.
+get
+(
+)
 ;
 #
 else

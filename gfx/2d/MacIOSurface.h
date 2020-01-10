@@ -168,6 +168,13 @@ Types
 .
 h
 "
+#
+include
+"
+CFTypeRefPtr
+.
+h
+"
 namespace
 mozilla
 {
@@ -400,7 +407,10 @@ UNKNOWN
 explicit
 MacIOSurface
 (
+CFTypeRefPtr
+<
 IOSurfaceRef
+>
 aIOSurfaceRef
 double
 aContentsScaleFactor
@@ -847,7 +857,10 @@ GetMaxHeight
 (
 )
 ;
+CFTypeRefPtr
+<
 IOSurfaceRef
+>
 GetIOSurfaceRef
 (
 )
@@ -858,8 +871,10 @@ mIOSurfaceRef
 }
 private
 :
-const
+CFTypeRefPtr
+<
 IOSurfaceRef
+>
 mIOSurfaceRef
 ;
 double
