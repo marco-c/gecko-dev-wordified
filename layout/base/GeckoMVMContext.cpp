@@ -700,13 +700,10 @@ mPresShell
 SetResolutionAndScaleTo
 (
 aResolution
-nsIPresShell
+ResolutionChangeOrigin
 :
 :
-ChangeOrigin
-:
-:
-eMainThread
+MainThread
 )
 ;
 }

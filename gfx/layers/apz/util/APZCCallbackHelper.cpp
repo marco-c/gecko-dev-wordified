@@ -2785,13 +2785,10 @@ presShell
 SetResolutionAndScaleTo
 (
 presShellResolution
-nsIPresShell
+ResolutionChangeOrigin
 :
 :
-ChangeOrigin
-:
-:
-eApz
+Apz
 )
 ;
 }

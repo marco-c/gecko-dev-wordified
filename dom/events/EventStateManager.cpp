@@ -37300,10 +37300,10 @@ presShell
 >
 GetScrollableFrameToScroll
 (
-nsIPresShell
+ScrollableDirection
 :
 :
-eEither
+Either
 )
 ;
 aEvent

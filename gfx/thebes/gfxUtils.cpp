@@ -9115,7 +9115,10 @@ aShell
 RenderDocument
 (
 r
-0
+RenderDocumentFlags
+:
+:
+None
 NS_RGB
 (
 255

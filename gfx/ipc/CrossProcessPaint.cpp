@@ -778,7 +778,10 @@ presShell
 RenderDocument
 (
 r
-0
+RenderDocumentFlags
+:
+:
+None
 aBackgroundColor
 thebes
 )
