@@ -516,6 +516,11 @@ async
 {
 }
 )
+onPauseChange
+(
+)
+{
+}
 }
 ;
 const

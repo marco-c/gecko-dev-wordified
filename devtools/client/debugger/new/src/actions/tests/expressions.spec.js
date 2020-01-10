@@ -304,6 +304,11 @@ to
 )
 ;
 }
+onPauseChange
+(
+)
+{
+}
 }
 ;
 describe
