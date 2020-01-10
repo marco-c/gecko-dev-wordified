@@ -4274,6 +4274,13 @@ GetDefaultStreamPrefs
 (
 )
 ;
+#
+if
+!
+defined
+(
+XP_WIN
+)
 if
 (
 mInputDevicePreference
@@ -4296,6 +4303,8 @@ CUBEB_STREAM_PREF_VOICE
 )
 ;
 }
+#
+endif
 uint32_t
 latency_frames
 =
