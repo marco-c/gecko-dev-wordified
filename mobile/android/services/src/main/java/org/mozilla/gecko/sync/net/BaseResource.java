@@ -1844,10 +1844,14 @@ SSLSocketFactory
 sslContext
 GlobalConstants
 .
-DEFAULT_PROTOCOLS
+getTlsProtocols
+(
+)
 GlobalConstants
 .
-DEFAULT_CIPHER_SUITES
+getTlsCipherSuites
+(
+)
 null
 )
 ;
