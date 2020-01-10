@@ -134,8 +134,6 @@ HttpTrafficAnalyzer
 inc
 "
 eInvalid
-=
-255
 }
 ;
 #
