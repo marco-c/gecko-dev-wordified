@@ -453,14 +453,14 @@ h
 #
 include
 "
-nsSVGLength2
+SVGAnimatedLength
 .
 h
 "
 #
 include
 "
-nsSVGNumber2
+SVGAnimatedNumber
 .
 h
 "
@@ -2220,7 +2220,7 @@ kNameSpaceID_None
 /
 Check
 for
-nsSVGLength2
+SVGAnimatedLength
 attribute
 LengthAttributesInfo
 lengthInfo
@@ -2779,7 +2779,7 @@ foundMatch
 /
 Check
 for
-nsSVGNumber2
+SVGAnimatedNumber
 attribute
 NumberAttributesInfo
 numberInfo
@@ -8652,7 +8652,7 @@ g
 .
 an
 extra
-nsSVGLength2
+SVGAnimatedLength
 and
 isn
 '
@@ -8660,9 +8660,9 @@ t
 necessary
 at
 the
+/
+/
 moment
-/
-/
 since
 no
 SVG
@@ -8675,9 +8675,9 @@ now
 we
 just
 pass
+/
+/
 the
-/
-/
 current
 value
 .
@@ -9370,7 +9370,7 @@ nsAtom
 *
 aName
 const
-nsSVGLength2
+SVGAnimatedLength
 &
 aLength
 )
@@ -9613,7 +9613,7 @@ SMIL
 ;
 }
 }
-nsSVGLength2
+SVGAnimatedLength
 *
 SVGElement
 :

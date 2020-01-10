@@ -137,7 +137,7 @@ h
 #
 include
 "
-nsSVGNumber2
+SVGAnimatedNumber
 .
 h
 "
@@ -460,7 +460,7 @@ point
 seed
 ?
 !
-nsSVGNumber2
+SVGAnimatedNumber
 mNumberAttributes
 [
 1

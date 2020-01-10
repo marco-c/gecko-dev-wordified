@@ -173,12 +173,12 @@ h
 class
 nsIFrame
 ;
-class
-nsSVGLength2
-;
 namespace
 mozilla
 {
+class
+SVGAnimatedLength
+;
 class
 SVGAnimatedPreserveAspectRatio
 ;
@@ -520,7 +520,7 @@ mContent
 ;
 }
 const
-nsSVGLength2
+SVGAnimatedLength
 *
 GetLengthValue
 (
@@ -532,7 +532,7 @@ aDefault
 )
 ;
 const
-nsSVGLength2
+SVGAnimatedLength
 *
 GetLengthValue
 (

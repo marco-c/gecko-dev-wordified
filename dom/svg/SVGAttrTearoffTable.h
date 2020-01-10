@@ -161,10 +161,10 @@ e
 .
 g
 .
-nsSVGLength2
+SVGAnimatedLength
 )
-with
 *
+with
 DOM
 tear
 -
@@ -183,8 +183,8 @@ allows
 us
 to
 always
-return
 *
+return
 the
 same
 object

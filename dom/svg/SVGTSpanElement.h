@@ -308,14 +308,14 @@ return
 mEnumAttributes
 ;
 }
-nsSVGLength2
+SVGAnimatedLength
 mLengthAttributes
 [
 1
 ]
 ;
 virtual
-nsSVGLength2
+SVGAnimatedLength
 *
 LengthAttributes
 (

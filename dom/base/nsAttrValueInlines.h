@@ -386,9 +386,9 @@ const
 mozilla
 :
 :
-SVGAnimatedPreserveAspectRatio
+SVGAnimatedLength
 *
-mSVGAnimatedPreserveAspectRatio
+mSVGLength
 ;
 const
 mozilla
@@ -407,9 +407,12 @@ SVGAnimatedOrient
 mSVGAnimatedOrient
 ;
 const
-nsSVGLength2
+mozilla
+:
+:
+SVGAnimatedPreserveAspectRatio
 *
-mSVGLength
+mSVGAnimatedPreserveAspectRatio
 ;
 const
 mozilla

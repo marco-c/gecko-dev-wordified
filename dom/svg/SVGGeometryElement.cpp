@@ -152,7 +152,7 @@ h
 #
 include
 "
-nsSVGLength2
+SVGAnimatedLength
 .
 h
 "
@@ -483,7 +483,7 @@ true
 /
 Check
 for
-nsSVGLength2
+SVGAnimatedLength
 attribute
 LengthAttributesInfo
 info
@@ -546,7 +546,7 @@ GeometryDependsOnCoordCtx
 /
 Check
 the
-nsSVGLength2
+SVGAnimatedLength
 attribute
 LengthAttributesInfo
 info

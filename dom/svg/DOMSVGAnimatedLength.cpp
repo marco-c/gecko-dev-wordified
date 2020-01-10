@@ -135,7 +135,7 @@ h
 #
 include
 "
-nsSVGLength2
+SVGAnimatedLength
 .
 h
 "
