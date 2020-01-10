@@ -369,7 +369,7 @@ mode
 :
 MODE
 .
-LONG
+TINY
 onDOMNodeClick
 :
 grip
