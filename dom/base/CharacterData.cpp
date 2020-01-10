@@ -1651,7 +1651,14 @@ TEXT_NODE
 &
 TextNodeWillChangeDirection
 (
+static_cast
+<
+nsTextNode
+*
+>
+(
 this
+)
 &
 oldDir
 aOffset
