@@ -1863,6 +1863,7 @@ typename
 ResolveValueType_
 >
 static
+MOZ_MUST_USE
 RefPtr
 <
 MozPromise
@@ -1959,6 +1960,7 @@ typename
 RejectValueType_
 >
 static
+MOZ_MUST_USE
 RefPtr
 <
 MozPromise
@@ -2055,6 +2057,7 @@ typename
 ResolveOrRejectValueType_
 >
 static
+MOZ_MUST_USE
 RefPtr
 <
 MozPromise
@@ -2388,6 +2391,7 @@ mOutstandingPromises
 public
 :
 static
+MOZ_MUST_USE
 RefPtr
 <
 AllPromiseType
@@ -6595,6 +6599,7 @@ counterpart
 GeckoResult
 .
 static
+MOZ_MUST_USE
 RefPtr
 <
 MozPromise
