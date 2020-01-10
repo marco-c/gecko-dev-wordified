@@ -16956,7 +16956,9 @@ isRelazifiableIgnoringJitCode
 &
 &
 !
-jitScript_
+hasJitScript
+(
+)
 ;
 }
 void
@@ -17668,6 +17670,7 @@ JitScript
 jitScript
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -17691,6 +17694,7 @@ JitScript
 maybeJitScript
 (
 )
+const
 {
 return
 hasJitScript
