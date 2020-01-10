@@ -479,7 +479,7 @@ type
 "
 GeckoView
 :
-ContentCrashReport
+ContentCrash
 "
 minidumpPath
 extrasPath

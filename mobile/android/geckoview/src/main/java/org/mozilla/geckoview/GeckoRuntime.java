@@ -1494,7 +1494,7 @@ if
 "
 GeckoView
 :
-ContentCrashReport
+ContentCrash
 "
 .
 equals
@@ -1845,7 +1845,7 @@ mEventListener
 "
 GeckoView
 :
-ContentCrashReport
+ContentCrash
 "
 )
 ;
