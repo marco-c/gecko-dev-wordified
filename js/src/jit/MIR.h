@@ -46513,7 +46513,7 @@ public
 MixPolicy
 <
 SingleObjectPolicy
-BoxPolicy
+NoFloatPolicy
 <
 1
 >

@@ -11653,7 +11653,7 @@ fpscratch
 ;
 masm
 .
-boxDouble
+storeDouble
 (
 fpscratch
 target
@@ -11695,7 +11695,7 @@ fpscratch
 ;
 masm
 .
-boxDouble
+storeDouble
 (
 fpscratch
 target

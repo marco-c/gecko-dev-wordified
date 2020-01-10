@@ -6463,17 +6463,6 @@ dest
 )
 ;
 void
-unboxDouble
-(
-const
-BaseIndex
-&
-src
-FloatRegister
-dest
-)
-;
-void
 unboxValue
 (
 const
