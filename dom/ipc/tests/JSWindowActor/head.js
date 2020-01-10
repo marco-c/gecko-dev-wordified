@@ -381,6 +381,8 @@ ready
 "
 )
 ;
+try
+{
 await
 Promise
 .
@@ -393,6 +395,9 @@ win
 )
 )
 ;
+}
+finally
+{
 /
 /
 Clean
@@ -431,6 +436,7 @@ test
 name
 )
 ;
+}
 }
 )
 ;
