@@ -18235,7 +18235,10 @@ addon
 .
 location
 .
-isBuiltin
+name
+=
+=
+KEY_APP_BUILTINS
 )
 {
 continue
