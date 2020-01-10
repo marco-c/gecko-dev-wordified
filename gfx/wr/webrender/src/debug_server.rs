@@ -91,6 +91,9 @@ print_tree
 PrintTreePrinter
 ;
 use
+renderer
+;
+use
 std
 :
 :
@@ -752,7 +755,7 @@ connections
 .
 pub
 struct
-DebugServer
+DebugServerImpl
 {
 join_handle
 :
@@ -790,7 +793,7 @@ Sender
 >
 }
 impl
-DebugServer
+DebugServerImpl
 {
 pub
 fn
@@ -805,7 +808,7 @@ ApiMsg
 )
 -
 >
-DebugServer
+DebugServerImpl
 {
 let
 (
@@ -967,7 +970,7 @@ use
 )
 )
 ;
-DebugServer
+DebugServerImpl
 {
 join_handle
 broadcaster
@@ -982,7 +985,15 @@ new
 )
 }
 }
-pub
+}
+impl
+renderer
+:
+:
+DebugServer
+for
+DebugServerImpl
+{
 fn
 send
 (
@@ -1225,7 +1236,7 @@ i
 impl
 Drop
 for
-DebugServer
+DebugServerImpl
 {
 fn
 drop
