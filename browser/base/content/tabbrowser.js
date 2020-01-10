@@ -8457,6 +8457,9 @@ var
 aOriginPrincipal
 ;
 var
+aOriginStoragePrincipal
+;
+var
 aOpener
 ;
 var
@@ -8617,6 +8620,12 @@ aOriginPrincipal
 params
 .
 originPrincipal
+;
+aOriginStoragePrincipal
+=
+params
+.
+originStoragePrincipal
 ;
 aOpener
 =
@@ -8790,6 +8799,9 @@ aUserContextId
 originPrincipal
 :
 aOriginPrincipal
+originStoragePrincipal
+:
+aOriginStoragePrincipal
 sameProcessAsFrameLoader
 :
 aSameProcessAsFrameLoader
@@ -13927,6 +13939,7 @@ noInitialLabel
 opener
 openerBrowser
 originPrincipal
+originStoragePrincipal
 ownerTab
 pinned
 postData
@@ -15702,6 +15715,9 @@ usingPreloadedContent
 originPrincipal
 &
 &
+originStoragePrincipal
+&
+&
 aURI
 )
 {
@@ -15762,6 +15778,7 @@ b
 createAboutBlankContentViewer
 (
 originPrincipal
+originStoragePrincipal
 )
 ;
 }
