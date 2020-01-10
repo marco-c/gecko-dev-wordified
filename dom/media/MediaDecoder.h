@@ -3200,6 +3200,7 @@ DiscardOngoingSeekIfExists
 (
 )
 ;
+virtual
 void
 CallSeek
 (
