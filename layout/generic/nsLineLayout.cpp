@@ -8088,9 +8088,6 @@ if
 LineIsEmpty
 (
 )
-|
-|
-placedFloat
 )
 {
 /
@@ -8138,6 +8135,15 @@ content
 .
 if
 (
+!
+aFrame
+-
+>
+IsPlaceholderFrame
+(
+)
+&
+&
 NotifyOptionalBreakPosition
 (
 aFrame
