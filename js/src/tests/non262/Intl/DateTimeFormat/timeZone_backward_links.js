@@ -34,7 +34,7 @@ EDIT
 tzdata
 version
 =
-2018i
+2019a
 const
 tzMapper
 =
@@ -707,6 +707,17 @@ Europe
 Dublin
 "
 "
+Etc
+/
+UCT
+"
+:
+"
+Etc
+/
+UTC
+"
+"
 GB
 "
 :
@@ -1014,7 +1025,7 @@ UCT
 "
 Etc
 /
-UCT
+UTC
 "
 "
 US
