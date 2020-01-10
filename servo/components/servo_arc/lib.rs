@@ -1764,7 +1764,7 @@ NS_LogCtor
 ptr
 as
 *
-const
+mut
 _
 b
 "
@@ -2822,7 +2822,7 @@ ptr
 )
 as
 *
-const
+mut
 _
 b
 "
@@ -3085,7 +3085,7 @@ NS_LogCtor
 aPtr
 :
 *
-const
+mut
 std
 :
 :
@@ -3121,7 +3121,7 @@ NS_LogDtor
 aPtr
 :
 *
-const
+mut
 std
 :
 :
@@ -6626,7 +6626,7 @@ NS_LogCtor
 ptr
 as
 *
-const
+mut
 _
 b
 "
