@@ -1366,7 +1366,7 @@ as
 f
 :
         
-expected_modules
+sections
 =
 json
 .
@@ -1374,11 +1374,27 @@ load
 (
 f
 )
+        
+expected_modules
+=
+sections
 [
 "
 dependencies
 "
 ]
+        
+expected_modules
+.
+update
+(
+sections
+[
+"
+devDependencies
+"
+]
+)
     
 #
 Also
