@@ -248,7 +248,7 @@ node
 let
 onNodeUnhighlight
 =
-toolbox
+inspectorFront
 .
 highlighter
 .
@@ -401,7 +401,7 @@ defaultView
 ;
 onNodeHighlight
 =
-toolbox
+inspectorFront
 .
 highlighter
 .
@@ -472,7 +472,7 @@ defaultView
 ;
 onNodeUnhighlight
 =
-toolbox
+inspectorFront
 .
 highlighter
 .

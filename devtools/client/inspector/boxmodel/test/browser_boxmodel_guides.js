@@ -218,7 +218,6 @@ TEST_URL
 ;
 const
 {
-toolbox
 inspector
 boxmodel
 }
@@ -248,7 +247,7 @@ the
 showBoxModel
 method
 .
-toolbox
+inspector
 .
 highlighter
 .

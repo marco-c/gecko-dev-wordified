@@ -4916,7 +4916,7 @@ testSpec
 constructor
 (
 client
-toolbox
+highlighter
 )
 {
 super
@@ -4926,9 +4926,9 @@ client
 ;
 this
 .
-toolbox
+highlighter
 =
-toolbox
+highlighter
 ;
 }
 /
@@ -5000,8 +5000,6 @@ actorID
 =
 this
 .
-toolbox
-.
 highlighter
 .
 actorID
@@ -5056,8 +5054,6 @@ highlighter
 |
 |
 this
-.
-toolbox
 .
 highlighter
 )
@@ -5151,8 +5147,6 @@ highlighter
 |
 this
 .
-toolbox
-.
 highlighter
 )
 .
@@ -5177,8 +5171,6 @@ highlighter
 |
 |
 this
-.
-toolbox
 .
 highlighter
 )
@@ -5499,7 +5491,6 @@ highlighter
 async
 getSimpleBorderRect
 (
-toolbox
 )
 {
 const
@@ -5512,7 +5503,6 @@ this
 .
 _getBoxModelStatus
 (
-toolbox
 )
 ;
 const
@@ -6717,8 +6707,6 @@ waitForHighlighterEvent
 (
 event
 this
-.
-toolbox
 .
 highlighter
 .

@@ -1130,7 +1130,7 @@ it
 const
 onNodeHighlight
 =
-toolbox
+inspector
 .
 highlighter
 .
@@ -1197,7 +1197,7 @@ node
 const
 onNodeUnhighlight
 =
-toolbox
+inspector
 .
 highlighter
 .
@@ -1393,7 +1393,7 @@ unhighlighted
 const
 onNodeHighlight
 =
-toolbox
+inspector
 .
 highlighter
 .
@@ -1409,7 +1409,7 @@ highlight
 const
 onNodeUnhighlight
 =
-toolbox
+inspector
 .
 highlighter
 .

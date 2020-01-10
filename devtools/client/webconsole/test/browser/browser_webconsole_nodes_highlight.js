@@ -496,7 +496,7 @@ node
 let
 onNodeUnhighlight
 =
-toolbox
+inspectorFront
 .
 highlighter
 .
@@ -567,7 +567,7 @@ node
 ;
 onNodeHighlight
 =
-toolbox
+inspectorFront
 .
 highlighter
 .
@@ -582,7 +582,7 @@ highlight
 ;
 onNodeUnhighlight
 =
-toolbox
+inspectorFront
 .
 highlighter
 .

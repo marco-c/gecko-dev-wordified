@@ -220,9 +220,7 @@ null
 ;
 inspector
 .
-toolbox
-.
-_highlighter
+highlighter
 .
 showBoxModel
 =
@@ -246,9 +244,7 @@ resolve
 ;
 inspector
 .
-toolbox
-.
-_highlighter
+highlighter
 .
 hideBoxModel
 =

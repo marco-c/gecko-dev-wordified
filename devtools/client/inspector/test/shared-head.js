@@ -1086,7 +1086,7 @@ mockHighlighter
 (
 data
 .
-toolbox
+inspector
 )
 ;
 return
