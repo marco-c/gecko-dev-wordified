@@ -1248,7 +1248,7 @@ cpp
 &
 radio
 .
-xml
+js
 )
 "
 RadioStateChange
