@@ -22655,6 +22655,17 @@ smallCapsFont
 this
 ;
 }
+bool
+isCJK
+=
+gfxTextRun
+:
+:
+IsCJKScript
+(
+aScript
+)
+;
 enum
 RunCaseAction
 {
@@ -23186,6 +23197,7 @@ aOffset
 runStart
 true
 aOrientation
+isCJK
 )
 ;
 if
@@ -23436,6 +23448,7 @@ aMatchType
 0
 true
 aOrientation
+isCJK
 )
 ;
 if
@@ -23576,6 +23589,7 @@ aOffset
 runStart
 true
 aOrientation
+isCJK
 )
 ;
 if
