@@ -1198,11 +1198,11 @@ non
 incrementally
 .
 void
-sweepAll
+traceWeak
 (
-JSRuntime
+JSTracer
 *
-rt
+trc
 )
 ;
 bool
@@ -1223,8 +1223,11 @@ we
 finished
 .
 bool
-sweepIncrementally
+traceWeakIncrementally
 (
+JSTracer
+*
+trc
 SweepIterator
 &
 atomsToSweep

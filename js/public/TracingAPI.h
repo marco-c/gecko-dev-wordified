@@ -1861,6 +1861,7 @@ GrayBuffering
 VerifyTraceProtoAndIface
 ClearEdges
 UnmarkGray
+Sweeping
 }
 ;
 virtual
