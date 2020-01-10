@@ -502,6 +502,12 @@ PRIVILEGEDABOUT_REMOTE_TYPE
 "
 privilegedabout
 "
+#
+define
+PRIVILEGEDMOZILLA_REMOTE_TYPE
+"
+privilegedmozilla
+"
 /
 /
 This
