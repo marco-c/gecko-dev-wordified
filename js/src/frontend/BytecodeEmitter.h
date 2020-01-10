@@ -947,6 +947,17 @@ innermostEmitterScope_
 /
 Script
 contains
+JSOP_CALLSITEOBJ
+.
+bool
+hasCallSiteObj
+=
+false
+;
+/
+/
+Script
+contains
 singleton
 initializer
 JSOP_OBJECT

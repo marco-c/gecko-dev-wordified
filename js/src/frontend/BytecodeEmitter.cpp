@@ -29197,6 +29197,10 @@ return
 false
 ;
 }
+hasCallSiteObj
+=
+true
+;
 return
 emitObjectPairOp
 (
