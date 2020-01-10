@@ -549,7 +549,7 @@ bce
 ;
 MOZ_MUST_USE
 bool
-emitIteratorCloseInInnermostScope
+emitIteratorCloseInInnermostScopeWithTryNote
 (
 BytecodeEmitter
 *
@@ -594,6 +594,9 @@ EmitterScope
 currentScope
 bool
 isTarget
+ptrdiff_t
+*
+tryNoteStart
 )
 ;
 }
