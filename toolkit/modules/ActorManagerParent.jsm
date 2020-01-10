@@ -1824,11 +1824,6 @@ PictureInPicture
 :
 Pause
 "
-"
-PictureInPicture
-:
-KeyToggle
-"
 ]
 }
 }
