@@ -561,8 +561,6 @@ KeyPath
 &
 aKeyPath
 bool
-aUnique
-bool
 aMultiEntry
 const
 nsCString
@@ -586,10 +584,10 @@ nsTArray
 <
 IndexUpdateInfo
 >
-&
+*
 aUpdateInfoArray
 ErrorResult
-&
+*
 aRv
 )
 ;
@@ -603,8 +601,6 @@ const
 KeyPath
 &
 aKeyPath
-bool
-aUnique
 bool
 aMultiEntry
 const
