@@ -588,6 +588,16 @@ CommitWaylandBuffer
 (
 )
 ;
+void
+CalcRectScale
+(
+LayoutDeviceIntRect
+&
+aRect
+int
+scale
+)
+;
 /
 /
 TODO
