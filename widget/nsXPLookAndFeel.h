@@ -804,10 +804,6 @@ COLOR_CACHE_SIZE
 ;
 static
 bool
-sUseNativeColors
-;
-static
-bool
 sFindbarModalHighlight
 ;
 static
