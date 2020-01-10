@@ -4213,13 +4213,13 @@ GCReason
 reason
 )
 ;
+static
 size_t
 roundSize
 (
 size_t
 size
 )
-const
 ;
 void
 growAllocableSpace
