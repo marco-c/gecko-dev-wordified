@@ -3719,9 +3719,6 @@ autocompletePopup
 property
 :
 declaration
-showSuggestCompletionOnEmpty
-:
-true
 }
 )
 ;

@@ -331,6 +331,7 @@ VK_BACK_SPACE
 }
 "
 "
+!
 OPEN
 !
 SELECTED
@@ -585,6 +586,7 @@ VK_BACK_SPACE
 }
 "
 "
+!
 OPEN
 !
 SELECTED
