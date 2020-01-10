@@ -792,6 +792,7 @@ PaintWindow
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 void
 WillPaintWindow
@@ -849,6 +850,7 @@ widgets
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 bool
 PaintWindow

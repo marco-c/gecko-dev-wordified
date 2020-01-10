@@ -2131,6 +2131,7 @@ geometry
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 ProcessPendingUpdates
 (
@@ -2151,6 +2152,7 @@ dirty
 region
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateWidgetGeometry
 (
@@ -2201,6 +2203,7 @@ FlushPendingInvalidates
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ProcessPendingUpdatesForView
 (
@@ -2231,6 +2234,7 @@ nsIWidget
 aWidgets
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ProcessPendingUpdatesPaint
 (
@@ -2329,6 +2333,7 @@ relative
 to
 aWidget
 .
+MOZ_CAN_RUN_SCRIPT
 void
 Refresh
 (
@@ -2539,6 +2544,7 @@ mRefreshDisableCount
 0
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 WillPaintWindow
 (
@@ -2547,6 +2553,7 @@ nsIWidget
 aWidget
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 PaintWindow
 (

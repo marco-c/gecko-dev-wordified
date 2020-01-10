@@ -10162,8 +10162,10 @@ it
 right
 away
 .
+RefPtr
+<
 nsViewManager
-*
+>
 viewManager
 =
 mDropdownFrame

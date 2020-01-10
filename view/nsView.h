@@ -2870,6 +2870,7 @@ aWidget
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 void
 WillPaintWindow
@@ -2880,6 +2881,7 @@ aWidget
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 bool
 PaintWindow
