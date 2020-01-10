@@ -269,7 +269,7 @@ include
 "
 mozilla
 /
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 .
 h
 "
@@ -7822,7 +7822,7 @@ NS_OK
 RemoteDecoderManagerChild
 :
 :
-InitForContent
+InitForRDDProcess
 (
 std
 :
@@ -9527,7 +9527,7 @@ PVRManagerChild
 aVRBridge
 Endpoint
 <
-PVideoDecoderManagerChild
+PRemoteDecoderManagerChild
 >
 &
 &
@@ -9783,10 +9783,10 @@ OtherPid
 )
 ;
 }
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 :
 :
-InitForContent
+InitForGPUProcess
 (
 std
 :
@@ -9922,7 +9922,7 @@ PVRManagerChild
 aVRBridge
 Endpoint
 <
-PVideoDecoderManagerChild
+PRemoteDecoderManagerChild
 >
 &
 &
@@ -10196,10 +10196,10 @@ ReinitRendering
 ;
 }
 }
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 :
 :
-InitForContent
+InitForGPUProcess
 (
 std
 :

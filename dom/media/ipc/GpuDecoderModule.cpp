@@ -160,7 +160,7 @@ h
 #
 include
 "
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 .
 h
 "
@@ -203,7 +203,7 @@ Startup
 if
 (
 !
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 :
 :
 GetManagerThread
@@ -394,7 +394,7 @@ result
 NS_OK
 )
 ;
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 :
 :
 GetManagerThread
@@ -507,13 +507,13 @@ new
 RemoteMediaDataDecoder
 (
 child
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 :
 :
 GetManagerThread
 (
 )
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 :
 :
 GetManagerAbstractThread

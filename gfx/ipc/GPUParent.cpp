@@ -216,7 +216,7 @@ include
 "
 mozilla
 /
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 .
 h
 "
@@ -225,7 +225,7 @@ include
 "
 mozilla
 /
-VideoDecoderManagerParent
+RemoteDecoderManagerParent
 .
 h
 "
@@ -2975,11 +2975,11 @@ IPCResult
 GPUParent
 :
 :
-RecvNewContentVideoDecoderManager
+RecvNewContentRemoteDecoderManager
 (
 Endpoint
 <
-PVideoDecoderManagerParent
+PRemoteDecoderManagerParent
 >
 &
 &
@@ -2989,7 +2989,7 @@ aEndpoint
 if
 (
 !
-VideoDecoderManagerParent
+RemoteDecoderManagerParent
 :
 :
 CreateForContent
@@ -3550,7 +3550,7 @@ mVsyncBridge
 nullptr
 ;
 }
-VideoDecoderManagerParent
+RemoteDecoderManagerParent
 :
 :
 ShutdownVideoBridge

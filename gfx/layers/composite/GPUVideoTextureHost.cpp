@@ -126,7 +126,7 @@ include
 "
 mozilla
 /
-VideoDecoderManagerParent
+RemoteDecoderManagerParent
 .
 h
 "

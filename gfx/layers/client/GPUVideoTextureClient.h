@@ -142,7 +142,7 @@ SourceSurface
 ;
 }
 class
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 ;
 namespace
 layers
@@ -157,7 +157,7 @@ public
 :
 GPUVideoTextureData
 (
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 *
 aManager
 const
@@ -265,7 +265,7 @@ protected
 :
 RefPtr
 <
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 >
 mManager
 ;

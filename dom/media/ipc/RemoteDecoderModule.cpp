@@ -601,7 +601,7 @@ if
 RemoteDecoderManagerChild
 :
 :
-GetSingleton
+GetRDDProcessSingleton
 (
 )
 )
@@ -612,7 +612,7 @@ needsLaunch
 RemoteDecoderManagerChild
 :
 :
-GetSingleton
+GetRDDProcessSingleton
 (
 )
 -
