@@ -13335,7 +13335,10 @@ GetColor
 LookAndFeel
 :
 :
-eColorID_TextSelectBackground
+ColorID
+:
+:
+TextSelectBackground
 NS_RGB
 (
 0
@@ -14472,7 +14475,10 @@ GetColor
 LookAndFeel
 :
 :
-eColorID_TextSelectForeground
+ColorID
+:
+:
+TextSelectForeground
 fgColor
 )
 ;

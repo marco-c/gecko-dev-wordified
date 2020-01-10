@@ -9568,7 +9568,10 @@ GetColor
 LookAndFeel
 :
 :
-eColorID_WidgetBackground
+ColorID
+:
+:
+WidgetBackground
 NS_RGB
 (
 200
@@ -9592,7 +9595,10 @@ GetColor
 LookAndFeel
 :
 :
-eColorID_WidgetForeground
+ColorID
+:
+:
+WidgetForeground
 NS_RGB
 (
 0
@@ -9616,7 +9622,10 @@ GetColor
 LookAndFeel
 :
 :
-eColorID_Widget3DHighlight
+ColorID
+:
+:
+Widget3DHighlight
 NS_RGB
 (
 255
@@ -9640,7 +9649,10 @@ GetColor
 LookAndFeel
 :
 :
-eColorID_Widget3DShadow
+ColorID
+:
+:
+Widget3DShadow
 NS_RGB
 (
 128

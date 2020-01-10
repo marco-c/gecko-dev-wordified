@@ -7986,7 +7986,10 @@ GetColor
 LookAndFeel
 :
 :
-eColorID_WindowBackground
+ColorID
+:
+:
+WindowBackground
 NS_RGBA
 (
 0
