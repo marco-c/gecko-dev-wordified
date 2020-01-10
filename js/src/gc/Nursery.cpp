@@ -444,7 +444,7 @@ ChunkSize
 )
 ;
 void
-poisonAfterSweep
+poisonAfterEvict
 (
 size_t
 extent
@@ -604,7 +604,7 @@ js
 NurseryChunk
 :
 :
-poisonAfterSweep
+poisonAfterEvict
 (
 size_t
 extent
@@ -7450,7 +7450,7 @@ chunk
 i
 )
 .
-poisonAfterSweep
+poisonAfterEvict
 (
 )
 ;
@@ -7469,7 +7469,7 @@ chunk
 currentChunk_
 )
 .
-poisonAfterSweep
+poisonAfterEvict
 (
 position
 (
