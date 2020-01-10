@@ -827,6 +827,8 @@ mainTarget
 .
 wsDebuggerURL
 }
+\
+n
 )
 ;
 }
