@@ -919,7 +919,7 @@ TraceWeakMapKeysValues
 )
 {
 }
-void
+bool
 onObjectEdge
 (
 JSObject
@@ -929,7 +929,7 @@ objp
 )
 override
 ;
-void
+bool
 onShapeEdge
 (
 Shape
@@ -939,7 +939,7 @@ shapep
 )
 override
 ;
-void
+bool
 onStringEdge
 (
 JSString
@@ -949,7 +949,7 @@ stringp
 )
 override
 ;
-void
+bool
 onScriptEdge
 (
 JSScript
@@ -959,7 +959,7 @@ scriptp
 )
 override
 ;
-void
+bool
 onLazyScriptEdge
 (
 LazyScript
@@ -969,7 +969,7 @@ lazyp
 )
 override
 ;
-void
+bool
 onBaseShapeEdge
 (
 BaseShape
@@ -979,17 +979,17 @@ basep
 )
 override
 ;
-void
+bool
 onScopeEdge
 (
 Scope
 *
 *
-basep
+scopep
 )
 override
 ;
-void
+bool
 onRegExpSharedEdge
 (
 RegExpShared
@@ -999,7 +999,7 @@ sharedp
 )
 override
 ;
-void
+bool
 onBigIntEdge
 (
 BigInt
@@ -1009,7 +1009,7 @@ bip
 )
 override
 ;
-void
+bool
 onChild
 (
 const
@@ -1036,6 +1036,9 @@ isForwarded
 (
 )
 )
+;
+return
+true
 ;
 }
 #
@@ -1064,7 +1067,7 @@ template
 typename
 T
 >
-void
+bool
 updateEdge
 (
 T

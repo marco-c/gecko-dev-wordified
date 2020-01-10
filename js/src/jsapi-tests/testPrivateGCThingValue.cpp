@@ -212,7 +212,7 @@ JS
 :
 CallbackTracer
 {
-void
+bool
 onChild
 (
 const
@@ -252,6 +252,9 @@ found
 true
 ;
 }
+return
+true
+;
 }
 public
 :

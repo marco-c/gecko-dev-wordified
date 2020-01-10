@@ -689,7 +689,7 @@ JS
 AutoDisableGenerationalGC
 noggc
 ;
-void
+bool
 onChild
 (
 const
@@ -860,7 +860,7 @@ node
 .
 *
 /
-void
+bool
 VerifyPreTracer
 :
 :
@@ -920,6 +920,7 @@ runtime
 )
 {
 return
+true
 ;
 }
 edgeptr
@@ -943,6 +944,7 @@ edgeptr
 term
 ;
 return
+true
 ;
 }
 VerifyNode
@@ -1011,6 +1013,9 @@ node
 count
 +
 +
+;
+return
+true
 ;
 }
 static
@@ -1842,7 +1847,7 @@ nullptr
 )
 {
 }
-void
+bool
 onChild
 (
 const
@@ -1938,7 +1943,7 @@ objects
 .
 *
 /
-void
+bool
 CheckEdgeTracer
 :
 :
@@ -1985,6 +1990,7 @@ runtime
 )
 {
 return
+true
 ;
 }
 /
@@ -2008,6 +2014,7 @@ MAX_VERIFIER_EDGES
 )
 {
 return
+true
 ;
 }
 for
@@ -2082,9 +2089,13 @@ thing
 nullptr
 ;
 return
+true
 ;
 }
 }
+return
+true
+;
 }
 void
 js
@@ -3108,7 +3119,7 @@ failures
 ;
 private
 :
-void
+bool
 onChild
 (
 const
@@ -3255,7 +3266,7 @@ false
 #
 endif
 }
-void
+bool
 HeapCheckTracerBase
 :
 :
@@ -3296,6 +3307,7 @@ cell
 )
 {
 return
+true
 ;
 }
 if
@@ -3314,6 +3326,7 @@ oom
 true
 ;
 return
+true
 ;
 }
 /
@@ -3344,6 +3357,7 @@ rt
 )
 {
 return
+true
 ;
 }
 /
@@ -3450,6 +3464,7 @@ usedByHelperThread
 )
 {
 return
+true
 ;
 }
 WorkItem
@@ -3478,6 +3493,9 @@ oom
 true
 ;
 }
+return
+true
+;
 }
 bool
 HeapCheckTracerBase

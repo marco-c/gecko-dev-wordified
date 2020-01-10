@@ -9121,7 +9121,7 @@ child_
 bool
 found_
 ;
-void
+bool
 onChild
 (
 const
@@ -9155,6 +9155,9 @@ found_
 true
 ;
 }
+return
+true
+;
 }
 public
 :

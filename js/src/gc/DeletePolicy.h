@@ -168,7 +168,7 @@ typename
 T
 >
 inline
-void
+bool
 clearEdge
 (
 T
@@ -177,7 +177,7 @@ T
 thingp
 )
 ;
-void
+bool
 onObjectEdge
 (
 JSObject
@@ -187,7 +187,7 @@ objp
 )
 override
 ;
-void
+bool
 onStringEdge
 (
 JSString
@@ -197,7 +197,7 @@ strp
 )
 override
 ;
-void
+bool
 onSymbolEdge
 (
 JS
@@ -210,7 +210,7 @@ symp
 )
 override
 ;
-void
+bool
 onBigIntEdge
 (
 JS
@@ -223,7 +223,7 @@ bip
 )
 override
 ;
-void
+bool
 onScriptEdge
 (
 JSScript
@@ -233,7 +233,7 @@ scriptp
 )
 override
 ;
-void
+bool
 onShapeEdge
 (
 js
@@ -246,7 +246,7 @@ shapep
 )
 override
 ;
-void
+bool
 onObjectGroupEdge
 (
 js
@@ -259,7 +259,7 @@ groupp
 )
 override
 ;
-void
+bool
 onBaseShapeEdge
 (
 js
@@ -272,7 +272,7 @@ basep
 )
 override
 ;
-void
+bool
 onJitCodeEdge
 (
 js
@@ -288,7 +288,7 @@ codep
 )
 override
 ;
-void
+bool
 onLazyScriptEdge
 (
 js
@@ -301,7 +301,7 @@ lazyp
 )
 override
 ;
-void
+bool
 onScopeEdge
 (
 js
@@ -314,7 +314,7 @@ scopep
 )
 override
 ;
-void
+bool
 onRegExpSharedEdge
 (
 js
@@ -327,7 +327,7 @@ sharedp
 )
 override
 ;
-void
+bool
 onChild
 (
 const

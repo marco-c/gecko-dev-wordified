@@ -1446,7 +1446,7 @@ names
 bool
 wantNames
 ;
-void
+bool
 onChild
 (
 const
@@ -1466,6 +1466,7 @@ okay
 )
 {
 return
+true
 ;
 }
 /
@@ -1518,6 +1519,7 @@ isPermanentAtom
 )
 {
 return
+true
 ;
 }
 if
@@ -1553,6 +1555,7 @@ isWellKnownSymbol
 )
 {
 return
+true
 ;
 }
 char16_t
@@ -1636,6 +1639,7 @@ okay
 false
 ;
 return
+true
 ;
 }
 size_t
@@ -1752,8 +1756,12 @@ okay
 false
 ;
 return
+true
 ;
 }
+return
+true
+;
 }
 public
 :

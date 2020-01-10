@@ -4800,7 +4800,7 @@ false
 )
 {
 }
-void
+bool
 onChild
 (
 const
@@ -4833,6 +4833,9 @@ TraceProtoAndIfaceCache
 was
 called
 .
+return
+true
+;
 }
 TracerKind
 getTracerKind
