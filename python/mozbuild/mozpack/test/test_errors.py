@@ -77,11 +77,9 @@ unittest
 import
 mozunit
 import
-sys
-from
-cStringIO
+six
 import
-StringIO
+sys
 class
 TestErrors
 (
@@ -100,7 +98,11 @@ errors
 .
 out
 =
-StringIO
+six
+.
+moves
+.
+cStringIO
 (
 )
         
