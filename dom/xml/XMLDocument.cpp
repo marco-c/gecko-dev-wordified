@@ -1200,7 +1200,7 @@ nsIHTMLDocument
 "
 )
 ;
-d
+htmlDoc
 -
 >
 SetCompatibilityMode

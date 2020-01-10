@@ -5010,7 +5010,7 @@ if
 htmlDoc
 &
 &
-doc
+htmlDoc
 -
 >
 IsWriting

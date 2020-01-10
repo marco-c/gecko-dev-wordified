@@ -3912,6 +3912,11 @@ WillBuildModelImpl
 (
 )
 ;
+if
+(
+mHTMLDocument
+)
+{
 nsCompatibility
 mode
 =
@@ -3945,7 +3950,7 @@ default
 break
 ;
 }
-mDocument
+mHTMLDocument
 -
 >
 SetCompatibilityMode
@@ -3953,6 +3958,7 @@ SetCompatibilityMode
 mode
 )
 ;
+}
 /
 /
 Notify
