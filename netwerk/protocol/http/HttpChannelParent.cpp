@@ -1202,6 +1202,11 @@ allowStaleCacheContent
 )
 a
 .
+preferCacheLoadOverBypass
+(
+)
+a
+.
 contentTypeHint
 (
 )
@@ -3098,6 +3103,10 @@ bool
 &
 aAllowStaleCacheContent
 const
+bool
+&
+aPreferCacheLoadOverBypass
+const
 nsCString
 &
 aContentTypeHint
@@ -4219,6 +4228,14 @@ cacheChannel
 SetAllowStaleCacheContent
 (
 aAllowStaleCacheContent
+)
+;
+cacheChannel
+-
+>
+SetPreferCacheLoadOverBypass
+(
+aPreferCacheLoadOverBypass
 )
 ;
 /

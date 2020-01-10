@@ -944,6 +944,10 @@ bool
 &
 aAllowStaleCacheContent
 const
+bool
+&
+aPreferCacheLoadOverBypass
+const
 nsCString
 &
 aContentTypeHint
