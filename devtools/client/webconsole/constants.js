@@ -429,10 +429,6 @@ enabled
 EDITOR
 :
 "
-devtools
-.
-webconsole
-.
 input
 .
 editor
