@@ -1618,7 +1618,7 @@ in
 the
 ping
 (
-spocs_fills
+spoc_fills
 etc
 .
 )
