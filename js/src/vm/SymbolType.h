@@ -385,8 +385,10 @@ js
 :
 HashNumber
 hash
-JSAtom
-*
+js
+:
+:
+HandleAtom
 description
 )
 ;
@@ -493,8 +495,10 @@ JSContext
 cx
 SymbolCode
 code
-JSString
-*
+js
+:
+:
+HandleString
 description
 )
 ;
