@@ -8285,7 +8285,7 @@ elements
 .
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 var
 R
 =
@@ -8510,7 +8510,7 @@ d
 .
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 R
 =
 ToString

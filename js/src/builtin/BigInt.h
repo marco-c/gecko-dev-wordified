@@ -286,7 +286,7 @@ vp
 ;
 #
 ifndef
-EXPOSE_INTL_API
+ENABLE_INTL_API
 static
 bool
 toLocaleString_impl

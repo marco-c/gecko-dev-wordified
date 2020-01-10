@@ -308,7 +308,7 @@ h
 #
 if
 !
-EXPOSE_INTL_API
+ENABLE_INTL_API
 #
 include
 "
@@ -6487,7 +6487,7 @@ true
 }
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 /
 /
 String
@@ -6755,7 +6755,7 @@ true
 endif
 /
 /
-EXPOSE_INTL_API
+ENABLE_INTL_API
 static
 inline
 bool
@@ -9090,7 +9090,7 @@ true
 }
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 /
 /
 String
@@ -9358,10 +9358,10 @@ true
 endif
 /
 /
-EXPOSE_INTL_API
+ENABLE_INTL_API
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 /
 /
 String
@@ -9619,10 +9619,10 @@ true
 endif
 /
 /
-EXPOSE_INTL_API
+ENABLE_INTL_API
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 /
 /
 ES2017
@@ -10442,7 +10442,7 @@ true
 endif
 /
 /
-EXPOSE_INTL_API
+ENABLE_INTL_API
 static
 bool
 str_charAt
@@ -21350,7 +21350,7 @@ str_trimEnd
 )
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 JS_SELF_HOSTED_FN
 (
 "
@@ -21428,7 +21428,7 @@ String_repeat
 )
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 JS_FN
 (
 "

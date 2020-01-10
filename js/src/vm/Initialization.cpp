@@ -1132,7 +1132,7 @@ Initialize
 ;
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 #
 if
 !
@@ -1236,7 +1236,7 @@ failed
 endif
 /
 /
-EXPOSE_INTL_API
+ENABLE_INTL_API
 RETURN_IF_FAIL
 (
 js
@@ -1664,7 +1664,7 @@ PRMJ_NowShutdown
 ;
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 u_cleanup
 (
 )
@@ -1673,7 +1673,7 @@ u_cleanup
 endif
 /
 /
-EXPOSE_INTL_API
+ENABLE_INTL_API
 #
 ifdef
 MOZ_VTUNE
@@ -1788,7 +1788,7 @@ JS_Init
 ;
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 UErrorCode
 status
 =

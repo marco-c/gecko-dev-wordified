@@ -279,7 +279,7 @@ rt
 #
 if
 !
-EXPOSE_INTL_API
+ENABLE_INTL_API
 extern
 void
 FinishRuntimeNumberState

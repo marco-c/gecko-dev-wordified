@@ -19860,7 +19860,7 @@ true
 #
 if
 !
-EXPOSE_INTL_API
+ENABLE_INTL_API
 static
 bool
 ToLocaleFormatHelper
@@ -20764,7 +20764,7 @@ endif
 /
 *
 !
-EXPOSE_INTL_API
+ENABLE_INTL_API
 *
 /
 /
@@ -21846,7 +21846,7 @@ date_toGMTString
 )
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 JS_SELF_HOSTED_FN
 (
 js_toLocaleString_str

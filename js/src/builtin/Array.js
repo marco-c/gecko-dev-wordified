@@ -6184,7 +6184,7 @@ else
 {
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 R
 =
 ToString
@@ -6324,7 +6324,7 @@ null
 {
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 R
 +
 =

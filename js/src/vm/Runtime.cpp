@@ -409,7 +409,7 @@ h
 "
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 #
 include
 "
@@ -911,7 +911,7 @@ nullptr
 #
 if
 !
-EXPOSE_INTL_API
+ENABLE_INTL_API
 thousandsSeparator
 (
 nullptr
@@ -1670,7 +1670,7 @@ this
 #
 if
 !
-EXPOSE_INTL_API
+ENABLE_INTL_API
 FinishRuntimeNumberState
 (
 this
@@ -3207,7 +3207,7 @@ locale
 .
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 const
 char
 *

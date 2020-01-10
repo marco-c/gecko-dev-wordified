@@ -605,7 +605,7 @@ api
 then
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 .
 In
 *

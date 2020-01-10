@@ -492,14 +492,14 @@ are
 only
 consulted
 when
-EXPOSE_INTL_API
+ENABLE_INTL_API
 is
 not
 set
 .
 )
 Since
-EXPOSE_INTL_API
+ENABLE_INTL_API
 /
 /
 is

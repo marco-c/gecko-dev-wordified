@@ -434,7 +434,7 @@ only
 works
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 ;
 if
 not
@@ -510,7 +510,7 @@ only
 works
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 ;
 if
 not
