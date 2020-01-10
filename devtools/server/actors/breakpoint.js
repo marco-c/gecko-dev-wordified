@@ -1542,6 +1542,14 @@ else
 value
 =
 [
+"
+[
+Logpoint
+threw
+]
+:
+"
++
 this
 .
 getThrownMessage
