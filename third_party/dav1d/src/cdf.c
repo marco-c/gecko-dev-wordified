@@ -6511,6 +6511,8 @@ default_kf_y_mode_cdf
 N_INTRA_PRED_MODES
 +
 1
++
+2
 ]
 =
 {

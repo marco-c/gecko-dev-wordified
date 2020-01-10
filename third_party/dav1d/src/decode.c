@@ -803,7 +803,7 @@ const
 int
 cl
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt16
 (
 &
 ts
@@ -850,7 +850,7 @@ have_fp
 {
 fp
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt4
 (
 &
 ts
@@ -952,7 +952,7 @@ have_fp
 {
 fp
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt4
 (
 &
 ts
@@ -1054,7 +1054,7 @@ have_fp
 {
 switch
 (
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt4
 (
 &
 t
@@ -3539,7 +3539,7 @@ pal_sz
 pl
 ]
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt8
 (
 &
 ts
@@ -5725,7 +5725,7 @@ const
 int
 color_idx
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt8
 (
 &
 ts
@@ -7712,7 +7712,7 @@ const
 unsigned
 diff
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt8
 (
 &
 ts
@@ -8370,7 +8370,7 @@ const
 unsigned
 diff
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt8
 (
 &
 ts
@@ -8853,7 +8853,7 @@ have_delta_q
 int
 delta_q
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt4
 (
 &
 ts
@@ -9084,7 +9084,7 @@ i
 int
 delta_lf
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt4
 (
 &
 ts
@@ -9776,7 +9776,7 @@ b
 >
 y_mode
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt16
 (
 &
 ts
@@ -9885,7 +9885,7 @@ const
 int
 angle
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt8
 (
 &
 ts
@@ -9993,7 +9993,7 @@ b
 >
 uv_mode
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt16
 (
 &
 ts
@@ -10077,7 +10077,7 @@ const
 int
 sign
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt8
 (
 &
 ts
@@ -10153,7 +10153,7 @@ cfl_alpha
 0
 ]
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt16
 (
 &
 ts
@@ -10242,7 +10242,7 @@ cfl_alpha
 1
 ]
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt16
 (
 &
 ts
@@ -10415,7 +10415,7 @@ const
 int
 angle
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt8
 (
 &
 ts
@@ -10824,7 +10824,7 @@ b
 >
 y_angle
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt4
 (
 &
 ts
@@ -11264,7 +11264,7 @@ tctx
 int
 depth
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt4
 (
 &
 ts
@@ -14859,7 +14859,7 @@ b
 >
 inter_mode
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt8
 (
 &
 ts
@@ -16003,7 +16003,7 @@ b
 >
 wedge_idx
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt16
 (
 &
 ts
@@ -17523,7 +17523,7 @@ b
 >
 interintra_mode
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt4
 (
 &
 ts
@@ -17595,7 +17595,7 @@ b
 >
 wedge_idx
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt16
 (
 &
 ts
@@ -17964,7 +17964,7 @@ motion_mode
 =
 allow_warp
 ?
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt4
 (
 &
 ts
@@ -18386,7 +18386,7 @@ filter
 0
 ]
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt4
 (
 &
 ts
@@ -18493,7 +18493,7 @@ filter
 1
 ]
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt4
 (
 &
 ts
@@ -20524,7 +20524,7 @@ N_PARTITIONS
 ;
 bp
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt16
 (
 &
 t
@@ -23930,7 +23930,7 @@ const
 int
 filter
 =
-dav1d_msac_decode_symbol_adapt
+dav1d_msac_decode_symbol_adapt4
 (
 &
 ts
@@ -27616,6 +27616,38 @@ mask
 )
 )
 ;
+/
+/
+over
+-
+allocate
+by
+3
+bytes
+since
+some
+of
+the
+SIMD
+implementations
+/
+/
+index
+this
+from
+the
+level
+type
+and
+can
+thus
+over
+-
+read
+by
+up
+to
+3
 f
 -
 >
@@ -27625,6 +27657,8 @@ level
 =
 malloc
 (
+3
++
 f
 -
 >
