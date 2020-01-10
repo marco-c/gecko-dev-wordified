@@ -6792,6 +6792,16 @@ if
 (
 this
 .
+megabar
+)
+{
+return
+;
+}
+if
+(
+this
+.
 _windowOuterWidth
 =
 =
