@@ -73,8 +73,6 @@ nsIAboutModule
 ]
 )
 newChannel
-:
-function
 (
 aURI
 aLoadInfo
@@ -126,8 +124,6 @@ chan
 ;
 }
 getURIFlags
-:
-function
 (
 aURI
 )
@@ -147,8 +143,6 @@ factory
 =
 {
 createInstance
-:
-function
 (
 aOuter
 aIID
@@ -173,8 +167,6 @@ aIID
 ;
 }
 lockFactory
-:
-function
 (
 aLock
 )

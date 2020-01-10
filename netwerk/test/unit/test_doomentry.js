@@ -67,8 +67,6 @@ url
 "
 {
 onCacheEntryDoomed
-:
-function
 (
 result
 )

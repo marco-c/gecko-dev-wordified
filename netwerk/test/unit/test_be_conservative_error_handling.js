@@ -203,8 +203,6 @@ test
 "
 {
 handleCert
-:
-function
 (
 c
 rv

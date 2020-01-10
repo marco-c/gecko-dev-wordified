@@ -144,16 +144,6 @@ js
 "
 )
 ;
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
 let
 max_age
 ;

@@ -725,8 +725,6 @@ finish_test
 (
 )
 ;
-return
-;
 }
 const
 garbage

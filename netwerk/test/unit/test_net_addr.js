@@ -261,8 +261,6 @@ prototype
 =
 {
 onSocketAccepted
-:
-function
 (
 socket
 trans
@@ -445,8 +443,6 @@ reset
 ;
 }
 onStopListening
-:
-function
 (
 socket
 )
@@ -469,8 +465,6 @@ properties
 *
 /
 reset
-:
-function
 (
 )
 {
@@ -566,8 +560,6 @@ case
 *
 /
 stop
-:
-function
 (
 )
 {

@@ -242,8 +242,6 @@ visitRequestHeaders
 (
 {
 visitHeader
-:
-function
 (
 aHeader
 aValue

@@ -240,16 +240,12 @@ prototype
 =
 {
 onStartRequest
-:
-function
 (
 request
 )
 {
 }
 onDataAvailable
-:
-function
 (
 request
 stream
@@ -257,8 +253,6 @@ stream
 {
 }
 onStopRequest
-:
-function
 (
 request
 status

@@ -216,16 +216,12 @@ observer
 =
 {
 onStartRequest
-:
-function
 (
 aRequest
 )
 {
 }
 onStopRequest
-:
-function
 (
 aRequest
 aStatusCode

@@ -1324,8 +1324,14 @@ win
 "
 )
 {
-return
-;
+/
+/
+failing
+eslint
+no
+-
+empty
+test
 }
 httpserv
 =

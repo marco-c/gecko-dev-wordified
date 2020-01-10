@@ -548,8 +548,6 @@ return
 ip
 ;
 }
-else
-{
 return
 buf
 .
@@ -560,7 +558,6 @@ join
 '
 )
 ;
-}
 }
 function
 buf2int
@@ -765,8 +762,6 @@ prototype
 =
 {
 onInputStreamReady
-:
-function
 (
 input
 )
@@ -961,8 +956,6 @@ input
 ;
 }
 onOutputStreamReady
-:
-function
 (
 output
 )
@@ -1028,8 +1021,6 @@ String
 ;
 }
 waitRead
-:
-function
 (
 input
 )
@@ -1046,8 +1037,6 @@ currentThread
 ;
 }
 waitWrite
-:
-function
 (
 output
 )
@@ -1064,8 +1053,6 @@ currentThread
 ;
 }
 write
-:
-function
 (
 buf
 )
@@ -1088,8 +1075,6 @@ client_out
 ;
 }
 checkSocksGreeting
-:
-function
 (
 )
 {
@@ -1212,8 +1197,6 @@ protocol
 }
 }
 checkSocks4Request
-:
-function
 (
 )
 {
@@ -1297,8 +1280,6 @@ checkSocks4Username
 ;
 }
 readString
-:
-function
 (
 )
 {
@@ -1368,8 +1349,6 @@ str
 ;
 }
 checkSocks4Username
-:
-function
 (
 )
 {
@@ -1467,8 +1446,6 @@ sendSocks4Response
 }
 }
 checkSocks4Hostname
-:
-function
 (
 )
 {
@@ -1504,8 +1481,6 @@ sendSocks4Response
 ;
 }
 sendSocks4Response
-:
-function
 (
 )
 {
@@ -1540,8 +1515,6 @@ sendPing
 ;
 }
 checkSocks5Greeting
-:
-function
 (
 )
 {
@@ -1642,8 +1615,6 @@ x00
 ;
 }
 checkSocks5Request
-:
-function
 (
 )
 {
@@ -1902,8 +1873,6 @@ sendSocks5Response
 ;
 }
 sendSocks5Response
-:
-function
 (
 )
 {
@@ -2045,8 +2014,6 @@ sendPing
 ;
 }
 sendPing
-:
-function
 (
 )
 {
@@ -2103,8 +2070,6 @@ client_in
 ;
 }
 checkPong
-:
-function
 (
 )
 {
@@ -2146,8 +2111,6 @@ client_in
 ;
 }
 close
-:
-function
 (
 )
 {
@@ -2266,8 +2229,6 @@ prototype
 =
 {
 addTestCase
-:
-function
 (
 test
 )
@@ -2299,8 +2260,6 @@ test
 ;
 }
 pickTest
-:
-function
 (
 id
 )
@@ -2361,8 +2320,6 @@ id
 ;
 }
 testCompleted
-:
-function
 (
 client
 )
@@ -2509,8 +2466,6 @@ do_test_finished
 }
 }
 runClientSubprocess
-:
-function
 (
 )
 {
@@ -2640,8 +2595,6 @@ argv
 ;
 }
 onSocketAccepted
-:
-function
 (
 socket
 trans
@@ -2704,16 +2657,12 @@ client
 ;
 }
 onStopListening
-:
-function
 (
 socket
 )
 {
 }
 close
-:
-function
 (
 )
 {

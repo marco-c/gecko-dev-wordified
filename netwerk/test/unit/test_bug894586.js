@@ -179,8 +179,6 @@ URI_SYNC_LOAD_IS_OK
 ;
 }
 newChannel
-:
-function
 (
 aURI
 aLoadInfo
@@ -197,8 +195,6 @@ this
 ;
 }
 allowPort
-:
-function
 (
 port
 scheme
@@ -313,8 +309,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 open
-:
-function
 (
 )
 {
@@ -392,8 +386,6 @@ open
 ;
 }
 asyncOpen
-:
-function
 (
 aListener
 aContext
@@ -500,8 +492,6 @@ NS_OK
 ;
 }
 cancel
-:
-function
 (
 status
 )
@@ -536,8 +526,6 @@ nsIFactory
 *
 /
 createInstance
-:
-function
 (
 aOuter
 aIID
@@ -574,8 +562,6 @@ aIID
 ;
 }
 lockFactory
-:
-function
 (
 )
 {

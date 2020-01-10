@@ -1041,8 +1041,6 @@ addObserver
 (
 {
 updateStateChanged
-:
-function
 (
 update
 state
@@ -1078,8 +1076,6 @@ customDir
 ;
 }
 applicationCacheAvailable
-:
-function
 (
 appCache
 )

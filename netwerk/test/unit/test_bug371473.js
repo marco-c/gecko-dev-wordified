@@ -268,8 +268,6 @@ catch
 e
 )
 {
-return
-;
 }
 }
 function

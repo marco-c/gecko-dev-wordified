@@ -300,8 +300,6 @@ nsIProgressEventSink
 ]
 )
 getInterface
-:
-function
 (
 iid
 )
@@ -316,8 +314,6 @@ iid
 ;
 }
 onProgress
-:
-function
 (
 request
 context
@@ -331,8 +327,6 @@ true
 ;
 }
 onStatus
-:
-function
 (
 request
 context
@@ -346,8 +340,6 @@ true
 ;
 }
 shouldPrepareForIntercept
-:
-function
 (
 )
 {
@@ -372,8 +364,6 @@ true
 ;
 }
 channelIntercepted
-:
-function
 (
 channel
 )
@@ -460,8 +450,6 @@ channel
 return
 {
 dispatch
-:
-function
 (
 )
 {

@@ -872,8 +872,6 @@ prototype
 =
 {
 onStartRequest
-:
-function
 (
 aRequest
 )
@@ -949,8 +947,6 @@ correct
 ;
 }
 onStopRequest
-:
-function
 (
 aRequest
 aStatusCode
@@ -1025,8 +1021,6 @@ resolve
 ;
 }
 onDataAvailable
-:
-function
 (
 aRequest
 aContext
@@ -1102,8 +1096,6 @@ prototype
 /
 nsIChildProcessChannelListener
 onChannelReady
-:
-function
 (
 aChildChannel
 aIdentifier
@@ -1147,8 +1139,6 @@ null
 /
 nsIFactory
 createInstance
-:
-function
 (
 aOuter
 aIID
@@ -1175,8 +1165,6 @@ aIID
 ;
 }
 lockFactory
-:
-function
 (
 )
 {

@@ -173,8 +173,6 @@ content
 false
 )
 ;
-return
-;
 }
 function
 contentHandler

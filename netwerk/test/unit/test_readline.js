@@ -431,7 +431,6 @@ line
 ;
 }
 else
-{
 if
 (
 !
@@ -455,7 +454,6 @@ line
 "
 )
 ;
-}
 if
 (
 line

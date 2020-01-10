@@ -729,8 +729,6 @@ addObserver
 (
 {
 observe
-:
-function
 (
 subject
 topic

@@ -260,8 +260,6 @@ nsIInterfaceRequestor
 ]
 )
 getInterface
-:
-function
 (
 aIID
 )
@@ -276,15 +274,11 @@ aIID
 ;
 }
 onProgress
-:
-function
 (
 )
 {
 }
 onStatus
-:
-function
 (
 )
 {
@@ -461,8 +455,6 @@ prototype
 =
 {
 onOpenWindow
-:
-function
 (
 aXULWindow
 )
@@ -548,8 +540,6 @@ true
 ;
 }
 onCloseWindow
-:
-function
 (
 aXULWindow
 )

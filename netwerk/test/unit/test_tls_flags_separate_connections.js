@@ -315,8 +315,6 @@ prototype
 =
 {
 onStartRequest
-:
-function
 (
 request
 )
@@ -460,8 +458,6 @@ hashKey
 }
 }
 onDataAvailable
-:
-function
 (
 request
 stream
@@ -477,8 +473,6 @@ cnt
 ;
 }
 onStopRequest
-:
-function
 (
 )
 {

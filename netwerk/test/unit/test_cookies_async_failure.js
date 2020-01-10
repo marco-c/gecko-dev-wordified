@@ -517,8 +517,6 @@ finish_test
 (
 )
 ;
-return
-;
 }
 function
 do_get_backup_file

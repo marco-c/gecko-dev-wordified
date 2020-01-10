@@ -700,8 +700,6 @@ cacheUpdateObserver
 =
 {
 observe
-:
-function
 (
 )
 {

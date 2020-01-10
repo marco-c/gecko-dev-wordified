@@ -139,8 +139,6 @@ _callback
 :
 null
 run
-:
-function
 (
 )
 {
@@ -179,8 +177,6 @@ this
 ;
 }
 writeData
-:
-function
 (
 status
 entry
@@ -279,8 +275,6 @@ this
 ;
 }
 appendData
-:
-function
 (
 status
 entry
@@ -361,8 +355,6 @@ this
 ;
 }
 checkData
-:
-function
 (
 status
 entry
