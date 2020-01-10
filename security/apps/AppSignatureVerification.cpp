@@ -8536,9 +8536,6 @@ task
 >
 Dispatch
 (
-"
-SignedJAR
-"
 )
 ;
 }
