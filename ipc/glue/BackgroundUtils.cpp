@@ -1320,6 +1320,11 @@ NS_IsMainThread
 ;
 MOZ_ASSERT
 (
+aCSP
+)
+;
+MOZ_ASSERT
+(
 aCSPInfo
 )
 ;
@@ -1334,7 +1339,7 @@ aCSPInfo
 )
 {
 return
-NS_OK
+NS_ERROR_FAILURE
 ;
 }
 uint32_t
