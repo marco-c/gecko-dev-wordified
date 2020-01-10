@@ -66,13 +66,6 @@ arrowScrollbox
 smoothScroll
 ;
 let
-tabs
-=
-gBrowser
-.
-tabs
-;
-let
 tabMinWidth
 =
 parseInt
@@ -254,6 +247,8 @@ firstScrollable
 )
 =
 >
+gBrowser
+.
 tabs
 [
 gBrowser
@@ -325,6 +320,8 @@ originalSmoothScroll
 ;
 while
 (
+gBrowser
+.
 tabs
 .
 length
@@ -354,6 +351,8 @@ gBrowser
 .
 pinTab
 (
+gBrowser
+.
 tabs
 [
 0
@@ -530,8 +529,12 @@ gBrowser
 .
 selectedTab
 =
+gBrowser
+.
 tabs
 [
+gBrowser
+.
 tabs
 .
 length
@@ -780,6 +783,8 @@ firstScrollableLeft
 ;
 while
 (
+gBrowser
+.
 tabs
 .
 length

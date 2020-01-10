@@ -2864,9 +2864,7 @@ i
 =
 tabbrowser
 .
-tabContainer
-.
-children
+tabs
 .
 length
 -
@@ -2887,9 +2885,7 @@ tab
 =
 tabbrowser
 .
-tabContainer
-.
-children
+tabs
 [
 i
 ]
