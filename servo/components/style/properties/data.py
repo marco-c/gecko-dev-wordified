@@ -2730,6 +2730,10 @@ MozScriptSizeMultiplier
 "
                 
 "
+TextDecorationSkipInk
+"
+                
+"
 NonNegativeNumber
 "
                 
