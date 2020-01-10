@@ -58,9 +58,15 @@ http
 :
 /
 /
-relengapi
+taskcluster
 /
 tooltool
+.
+mozilla
+-
+releng
+.
+net
 /
 '
 ]
@@ -74,9 +80,15 @@ http
 :
 /
 /
-relengapi
+taskcluster
 /
 tooltool
+.
+mozilla
+-
+releng
+.
+net
 /
 '
         

@@ -367,9 +367,15 @@ http
 :
 /
 /
-relengapi
+taskcluster
 /
 tooltool
+.
+mozilla
+-
+releng
+.
+net
 /
 '
 ]
