@@ -3690,6 +3690,14 @@ nullptr
 ;
 MOZ_MUST_USE
 bool
+emitDouble
+(
+double
+dval
+)
+;
+MOZ_MUST_USE
+bool
 emitNumberOp
 (
 double

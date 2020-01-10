@@ -4428,8 +4428,8 @@ Constants
 *
 Operands
 :
-uint32_t
-constIndex
+double
+literal
 *
 Stack
 :
@@ -4447,7 +4447,7 @@ JSOP_DOUBLE
 double
 "
 NULL
-5
+9
 0
 1
 JOF_DOUBLE
