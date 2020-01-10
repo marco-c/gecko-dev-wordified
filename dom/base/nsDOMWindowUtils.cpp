@@ -6476,6 +6476,8 @@ bool
 aIgnoreRootScrollFrame
 bool
 aFlushLayout
+bool
+aOnlyVisible
 nsINodeList
 *
 *
@@ -6540,6 +6542,7 @@ aBottomSize
 aLeftSize
 aIgnoreRootScrollFrame
 aFlushLayout
+aOnlyVisible
 nodes
 )
 ;
