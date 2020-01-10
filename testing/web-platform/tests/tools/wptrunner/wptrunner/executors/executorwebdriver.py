@@ -525,6 +525,16 @@ self
 )
 :
         
+self
+.
+webdriver
+.
+actions
+.
+release
+(
+)
+        
 handles
 =
 [
