@@ -690,6 +690,7 @@ const
 {
 cx
 breakpoint
+selectedSource
 breakpointActions
 }
 =
@@ -709,6 +710,15 @@ preventDefault
 (
 )
 ;
+const
+selectedLocation
+=
+getSelectedLocation
+(
+breakpoint
+selectedSource
+)
+;
 showMenu
 (
 event
@@ -716,6 +726,7 @@ breakpointItems
 (
 cx
 breakpoint
+selectedLocation
 breakpointActions
 )
 )
