@@ -7937,6 +7937,13 @@ panel
 "
 ]
 >
+.
+toolbarbutton
+-
+badge
+-
+stack
+>
 #
 downloads
 -
@@ -8003,6 +8010,13 @@ button
 [
 indicator
 ]
+>
+.
+toolbarbutton
+-
+badge
+-
+stack
 >
 #
 downloads
