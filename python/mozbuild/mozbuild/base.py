@@ -172,8 +172,6 @@ util
 import
 (
     
-ReadOnlyNamespace
-    
 memoize
     
 memoized_property
@@ -1229,13 +1227,14 @@ topobjdir
 raise
 BadEnvironmentException
 (
+                    
 '
 The
 object
 directory
 appears
 '
-                                              
+                    
 '
 to
 be
@@ -1253,7 +1252,7 @@ s
 This
 build
 '
-                                              
+                    
 '
 configuration
 is
@@ -1802,20 +1801,21 @@ _virtualenv_manager
 =
 VirtualenvManager
 (
+                
 self
 .
 topsrcdir
-                                                         
+                
 self
 .
 topobjdir
+                
 os
 .
 path
 .
 join
 (
-                                                             
 self
 .
 topobjdir
@@ -1826,10 +1826,11 @@ _virtualenvs
 init
 '
 )
-                                                         
+                
 sys
 .
 stdout
+                
 os
 .
 path
@@ -1842,13 +1843,13 @@ topsrcdir
 '
 build
 '
-                                                                                  
 '
 virtualenv_packages
 .
 txt
 '
 )
+                
 )
         
 return
@@ -4483,12 +4484,12 @@ notifier
 -
 failed
 '
+                     
 {
 '
 error
 '
 :
-                                                          
 e
 .
 message
@@ -6231,12 +6232,13 @@ MozbuildObject
 .
 from_environment
 (
+                
 cwd
 =
 context
 .
 cwd
-                                                    
+                
 detect_virtualenv_mozinfo
 =
 detect_virtualenv_mozinfo

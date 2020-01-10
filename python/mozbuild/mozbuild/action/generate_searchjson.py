@@ -173,9 +173,8 @@ key
 :
     
 if
-(
-not
 key
+not
 in
 searchinfo
 [
@@ -183,7 +182,6 @@ searchinfo
 default
 "
 ]
-)
 :
         
 print
@@ -245,10 +243,10 @@ global
 one
 .
 if
-not
 "
 searchDefault
 "
+not
 in
 localeSearchInfo
 [
@@ -307,10 +305,12 @@ NOT
 required
 .
 if
-not
+(
+    
 "
 searchOrder
 "
+not
 in
 localeSearchInfo
 [
@@ -318,6 +318,7 @@ localeSearchInfo
 default
 "
 ]
+    
 and
 "
 searchOrder
@@ -329,6 +330,7 @@ searchinfo
 default
 "
 ]
+)
 :
     
 localeSearchInfo
@@ -553,6 +555,8 @@ visibleDefaultEngines
 i
 ]
 =
+\
+                        
 regionOverrides
 [
 region

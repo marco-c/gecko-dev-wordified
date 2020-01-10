@@ -121,10 +121,6 @@ os
 import
 sys
 from
-io
-import
-BytesIO
-from
 xpidl
 import
 jsonxpt

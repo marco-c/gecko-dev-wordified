@@ -73,8 +73,6 @@ time
 import
 types
 import
-warnings
-import
 mozpack
 .
 path
@@ -113,16 +111,7 @@ import
 (
     
 expand_variables
-    
-List
-    
-memoize
 )
-from
-.
-reader
-import
-SandboxValidationError
 #
 Define
 this
@@ -690,6 +679,9 @@ to
 somewhere
 other
 than
+'
+                
+'
 <
 (
 INTERMEDIATE_DIR
@@ -700,8 +692,10 @@ supported
 %
 s
 '
+                
 %
 output
+            
 )
         
 output
@@ -1837,6 +1831,8 @@ type
 static_library
 '
 and
+\
+                    
 spec
 .
 get
@@ -2315,6 +2311,8 @@ name
 NSS_ALLOW_SSLKEYLOGFILE
 '
 and
+\
+                            
 config
 .
 substs

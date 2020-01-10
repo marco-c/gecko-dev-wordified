@@ -1309,18 +1309,16 @@ guess_buildtype
 )
     
 if
+d
+.
+get
+(
 '
 buildapp
 '
-in
-d
-and
-d
-[
 '
-buildapp
 '
-]
+)
 =
 =
 '

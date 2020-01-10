@@ -289,9 +289,16 @@ n
 finally
 :
         
+del
 lock
-=
-None
+#
+Explicitly
+release
+the
+lock_file
+to
+free
+it
 def
 main
 (

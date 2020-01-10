@@ -82,8 +82,6 @@ BuildEnvironmentNotFoundException
 MozbuildObject
 )
 import
-mozfile
-import
 mozpack
 .
 path
@@ -1189,6 +1187,7 @@ self
 .
 log
 (
+                
 logging
 .
 INFO
@@ -1196,8 +1195,9 @@ INFO
 cargo_vendor
 '
 {
-                     
 }
+                
+(
 '
 cargo
 -
@@ -1211,6 +1211,9 @@ vendor
 23
 required
 ;
+'
+                 
+'
 force
 -
 reinstalling
@@ -1226,6 +1229,8 @@ minutes
 .
 .
 '
+)
+                
 )
             
 env
@@ -1837,6 +1842,8 @@ built
 in
 the
 final
+        
+#
 product
 but
 has
@@ -3230,6 +3237,8 @@ lock
 file
 with
 minimal
+        
+#
 changes
 .
 See
@@ -3311,6 +3320,7 @@ self
 .
 log
 (
+                
 logging
 .
 ERROR
@@ -3319,7 +3329,7 @@ license_check_failed
 '
 {
 }
-                     
+                
 '
 '
 '
@@ -3721,8 +3731,10 @@ publishing
 .
 format
 (
+                
 size
 =
 cumulative_added_size
 )
+            
 )

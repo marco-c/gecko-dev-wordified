@@ -9777,11 +9777,15 @@ SOURCES
 '
 :
 (
+        
 ContextDerivedTypedListWithItems
 (
+            
 Path
+            
 StrictOrderingOnAppendListWithFlagsFactory
 (
+                
 {
 '
 no_pgo
@@ -9794,10 +9798,13 @@ flags
 :
 List
 }
-)
-)
-list
                 
+)
+            
+)
+        
+list
+        
 "
 "
 "
@@ -9836,6 +9843,7 @@ C
 "
 "
 "
+        
 )
     
 '
@@ -9843,9 +9851,11 @@ FILES_PER_UNIFIED_FILE
 '
 :
 (
+        
 int
+        
 int
-                               
+        
 "
 "
 "
@@ -9866,6 +9876,7 @@ file
 "
 "
 "
+        
 )
     
 '
@@ -9873,9 +9884,11 @@ IS_RUST_LIBRARY
 '
 :
 (
+        
 bool
+        
 bool
-                        
+        
 "
 "
 "
@@ -9930,6 +9943,7 @@ directory
 "
 "
 "
+        
 )
     
 '
@@ -9937,9 +9951,11 @@ RUST_LIBRARY_FEATURES
 '
 :
 (
+        
 List
+        
 list
-                              
+        
 "
 "
 "
@@ -9974,6 +9990,7 @@ instead
 "
 "
 "
+        
 )
     
 '
@@ -9981,9 +9998,11 @@ RUST_LIBRARY_TARGET_DIR
 '
 :
 (
+        
 unicode
+        
 unicode
-                                
+        
 "
 "
 "
@@ -10049,6 +10068,7 @@ instead
 "
 "
 "
+        
 )
     
 '
@@ -10056,9 +10076,11 @@ HOST_RUST_LIBRARY_FEATURES
 '
 :
 (
+        
 List
+        
 list
-                                   
+        
 "
 "
 "
@@ -10094,6 +10116,7 @@ instead
 "
 "
 "
+        
 )
     
 '
@@ -10101,12 +10124,14 @@ RUST_TESTS
 '
 :
 (
+        
 TypedList
 (
 unicode
 )
+        
 list
-                   
+        
 "
 "
 "
@@ -10133,12 +10158,14 @@ RUST_TEST_FEATURES
 '
 :
 (
+        
 TypedList
 (
 unicode
 )
+        
 list
-                           
+        
 "
 "
 "
@@ -10153,6 +10180,7 @@ RUST_TESTS
 "
 "
 "
+        
 )
     
 '
@@ -10160,13 +10188,18 @@ UNIFIED_SOURCES
 '
 :
 (
+        
 ContextDerivedTypedList
 (
+            
 SourcePath
+            
 StrictOrderingOnAppendList
+            
 )
+        
 list
-                        
+        
 "
 "
 "
@@ -10226,6 +10259,7 @@ size
 "
 "
 "
+        
 )
     
 '
@@ -10233,9 +10267,11 @@ GENERATED_FILES
 '
 :
 (
+        
 GeneratedFilesList
+        
 list
-                        
+        
 "
 "
 "
@@ -10695,6 +10731,7 @@ force
 "
 "
 "
+        
 )
     
 '
@@ -10702,9 +10739,11 @@ DEFINES
 '
 :
 (
+        
 InitializedDefines
+        
 dict
-                
+        
 "
 "
 "
@@ -10907,6 +10946,7 @@ so
 "
 "
 "
+        
 )
     
 '
@@ -10914,9 +10954,11 @@ DELAYLOAD_DLLS
 '
 :
 (
+        
 List
+        
 list
-                       
+        
 "
 "
 "
@@ -10958,6 +11000,7 @@ MSVC
 "
 "
 "
+        
 )
     
 '
@@ -10965,12 +11008,14 @@ DIRS
 '
 :
 (
+        
 ContextDerivedTypedList
 (
 SourcePath
 )
+        
 list
-             
+        
 "
 "
 "
@@ -11082,6 +11127,7 @@ delimiters
 "
 "
 "
+        
 )
     
 '
@@ -11089,9 +11135,11 @@ HAS_MISC_RULE
 '
 :
 (
+        
 bool
+        
 bool
-                      
+        
 "
 "
 "
@@ -11208,6 +11256,7 @@ ways
 "
 "
 "
+        
 )
     
 '
@@ -13614,13 +13663,18 @@ CONFIGURE_SUBST_FILES
 '
 :
 (
+        
 ContextDerivedTypedList
 (
+            
 SourcePath
+            
 StrictOrderingOnAppendList
+            
 )
+        
 list
-                              
+        
 "
 "
 "
@@ -13705,6 +13759,7 @@ configure
 "
 "
 "
+        
 )
     
 '
@@ -13712,13 +13767,18 @@ CONFIGURE_DEFINE_FILES
 '
 :
 (
+        
 ContextDerivedTypedList
 (
+            
 SourcePath
+            
 StrictOrderingOnAppendList
+            
 )
+        
 list
-                               
+        
 "
 "
 "
@@ -13769,6 +13829,7 @@ AC_SUBST
 "
 "
 "
+        
 )
     
 '
@@ -15294,7 +15355,7 @@ TELEMETRY_TESTS_CLIENT_MANIFESTS
 (
 ManifestparserManifestList
 list
-        
+                                         
 "
 "
 "
@@ -19174,6 +19235,7 @@ EXTRA_PP_COMPONENTS
 '
 :
 (
+        
 lambda
 context
 :
@@ -19187,8 +19249,9 @@ FINAL_TARGET_PP_FILES
 components
 .
 _strings
+        
 list
-                            
+        
 "
 "
 "
@@ -19226,6 +19289,7 @@ distribution
 "
 "
 "
+        
 )
     
 '
@@ -19233,6 +19297,7 @@ JS_PREFERENCE_FILES
 '
 :
 (
+        
 lambda
 context
 :
@@ -19248,8 +19313,9 @@ defaults
 pref
 .
 _strings
+        
 list
-                            
+        
 "
 "
 "
@@ -19300,6 +19366,7 @@ JS_PREFERENCE_PP_FILES
 '
 :
 (
+        
 lambda
 context
 :
@@ -19315,8 +19382,9 @@ defaults
 pref
 .
 _strings
+        
 list
-                               
+        
 "
 "
 "
@@ -19329,6 +19397,7 @@ preprocessed
 "
 "
 "
+        
 )
     
 '
@@ -19496,6 +19565,7 @@ CONTENT_ACCESSIBLE_FILES
 '
 :
 (
+        
 lambda
 context
 :
@@ -19507,8 +19577,9 @@ FINAL_TARGET_FILES
 ]
 .
 contentaccessible
+        
 list
-                                 
+        
 "
 "
 "
@@ -19571,6 +19642,7 @@ to
 "
 "
 "
+        
 )
     
 '

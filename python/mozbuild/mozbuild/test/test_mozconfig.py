@@ -934,13 +934,6 @@ get_temp_dir
 (
 )
         
-dirs
-=
-[
-srcdir
-curdir
-]
-        
 loader
 =
 MozconfigLoader

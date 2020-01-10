@@ -64,8 +64,6 @@ the
 wpt
 manifest
 import
-os
-import
 sys
 import
 buildconfig

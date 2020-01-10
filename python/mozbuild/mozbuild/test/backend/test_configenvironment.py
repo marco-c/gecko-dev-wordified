@@ -56,18 +56,11 @@ MPL
 import
 os
 import
-posixpath
-from
-StringIO
-import
-StringIO
-import
 unittest
 from
 mozunit
 import
 main
-MockedOpen
 import
 mozbuild
 .
@@ -131,10 +124,10 @@ unit
 tests
         
 if
-not
 '
 top_srcdir
 '
+not
 in
 self
 .

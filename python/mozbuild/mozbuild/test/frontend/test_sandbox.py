@@ -58,10 +58,6 @@ __future__
 import
 unicode_literals
 import
-os
-import
-shutil
-import
 unittest
 from
 mozunit
@@ -122,10 +118,6 @@ test
 common
 import
 MockConfig
-from
-types
-import
-StringTypes
 import
 mozpack
 .

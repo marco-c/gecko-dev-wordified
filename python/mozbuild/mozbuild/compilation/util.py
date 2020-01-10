@@ -55,10 +55,6 @@ MPL
 .
 import
 os
-from
-mozbuild
-import
-shellutil
 def
 check_top_objdir
 (

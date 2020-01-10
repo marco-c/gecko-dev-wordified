@@ -42,21 +42,6 @@ os
 import
 mozunit
 from
-unittest
-import
-expectedFailure
-from
-mozpack
-.
-copier
-import
-(
-    
-FileCopier
-    
-FileRegistry
-)
-from
 mozpack
 .
 manifests
@@ -64,8 +49,6 @@ import
 (
     
 InstallManifest
-    
-UnreadableInstallManifest
 )
 from
 mozpack

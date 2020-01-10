@@ -71,10 +71,6 @@ subprocess
 import
 traceback
 from
-collections
-import
-defaultdict
-from
 mozpack
 import
 path

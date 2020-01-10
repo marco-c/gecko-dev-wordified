@@ -178,8 +178,6 @@ AttributeError
 )
 :
             
-value
-=
 test
 .
 missing
@@ -375,8 +373,6 @@ KeyError
 )
 :
             
-value
-=
 test
 [
 '

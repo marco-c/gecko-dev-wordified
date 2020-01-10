@@ -53,18 +53,12 @@ MPL
 0
 /
 .
-from
-collections
-import
-defaultdict
 import
 json
 import
 os
 import
 re
-import
-urlparse
 from
 mach
 .
@@ -881,6 +875,8 @@ an
 object
 storing
 mapping
+        
+#
 information
 for
 preprocessed
@@ -930,6 +926,8 @@ js
 {
 }
 ]
+        
+#
 .
 .
 .

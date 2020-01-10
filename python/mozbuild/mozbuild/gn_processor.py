@@ -603,6 +603,7 @@ indent
 .
 join
 (
+                    
 alphabetical_sorted
 (
 self
@@ -617,6 +618,7 @@ in
 value
 )
 )
+                
 )
             
 self
@@ -2319,9 +2321,9 @@ defines
 flags
 =
 [
-f
+_f
 for
-f
+_f
 in
 spec
 .
@@ -2334,7 +2336,7 @@ cflags
 ]
 )
 if
-f
+_f
 in
 mozilla_flags
 ]
@@ -3574,17 +3576,6 @@ write
 (
 generated_header
 )
-            
-all_attr_sets
-=
-[
-attrs
-for
-_
-attrs
-in
-configs
-]
             
 all_args
 =
