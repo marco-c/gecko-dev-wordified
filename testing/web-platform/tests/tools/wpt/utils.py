@@ -19,6 +19,7 @@ from
 typing
 import
 Any
+Callable
 except
 ImportError
 :
@@ -62,13 +63,14 @@ None
 #
 type
 :
-(
+Callable
+[
+[
 Kwargs
 str
-)
--
->
+]
 Any
+]
                     
 desc
 =
@@ -84,15 +86,28 @@ None
 #
 type
 :
-(
+Callable
+[
+[
 Kwargs
-)
--
->
-bool
+]
+Any
+]
                     
 )
 :
+        
+#
+type
+:
+(
+.
+.
+.
+)
+-
+>
+Any
         
 if
 desc
