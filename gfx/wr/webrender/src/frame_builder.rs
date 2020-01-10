@@ -3348,7 +3348,9 @@ transform_palette
 :
 transform_palette
 .
-transforms
+finish
+(
+)
 render_tasks
 deferred_resolves
 gpu_cache_frame_id
