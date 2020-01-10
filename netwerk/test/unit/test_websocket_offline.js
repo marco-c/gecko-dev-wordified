@@ -265,6 +265,10 @@ null
 /
 /
 aTriggeringPrincipal
+null
+/
+/
+aCookieSettings
 Ci
 .
 nsILoadInfo
