@@ -198,12 +198,6 @@ browser
 "
 UAWidgetSetupOrChange
 "
-true
-/
-*
-capture
-*
-/
 )
 ;
 await
