@@ -505,7 +505,13 @@ aForceNoReferrer
 nsDocShellLoadState
 *
 aLoadState
-mozIDOMWindowProxy
+mozilla
+:
+:
+dom
+:
+:
+BrowsingContext
 *
 *
 aResult
