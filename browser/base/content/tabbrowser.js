@@ -30316,13 +30316,16 @@ mBrowser
 }
 _callProgressListeners
 (
+.
+.
+.
+args
 )
 {
-Array
+args
 .
 unshift
 (
-arguments
 this
 .
 mBrowser
@@ -30336,7 +30339,7 @@ _callProgressListeners
 apply
 (
 gBrowser
-arguments
+args
 )
 ;
 }
