@@ -239,7 +239,7 @@ let
 lastSignonSortColumn
 =
 "
-hostname
+origin
 "
 ;
 let
@@ -999,7 +999,7 @@ icon
 +
 signon
 .
-hostname
+origin
 16
 )
 ;
@@ -1050,7 +1050,7 @@ httpRealm
 (
 signon
 .
-hostname
+origin
 +
 "
 (
@@ -1067,7 +1067,7 @@ httpRealm
 :
 signon
 .
-hostname
+origin
 ;
 case
 "
@@ -1528,7 +1528,7 @@ column
 {
 case
 "
-hostname
+origin
 "
 :
 let
@@ -3287,7 +3287,7 @@ column
 {
 case
 "
-hostname
+origin
 "
 :
 return
@@ -3737,7 +3737,7 @@ if
 (
 aSignon
 .
-hostname
+origin
 .
 toLowerCase
 (

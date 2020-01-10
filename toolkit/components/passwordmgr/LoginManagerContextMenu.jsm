@@ -654,7 +654,7 @@ URI
 object
 with
 the
-hostname
+origin
 of
 the
 logins
@@ -708,7 +708,7 @@ let
 searchParams
 =
 {
-hostname
+origin
 :
 documentURI
 .

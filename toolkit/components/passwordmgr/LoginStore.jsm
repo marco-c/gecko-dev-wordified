@@ -153,10 +153,6 @@ www
 example
 .
 com
-/
-submit
--
-url
 "
 *
 "

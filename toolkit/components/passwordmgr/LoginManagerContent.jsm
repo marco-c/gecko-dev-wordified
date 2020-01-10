@@ -7365,7 +7365,7 @@ return
 ;
 }
 let
-hostname
+origin
 =
 LoginHelper
 .
@@ -7379,7 +7379,7 @@ documentURI
 if
 (
 !
-hostname
+origin
 )
 {
 log
@@ -7392,7 +7392,7 @@ ignored
 -
 -
 invalid
-hostname
+origin
 )
 "
 )
@@ -7401,7 +7401,7 @@ return
 ;
 }
 let
-formSubmitURL
+formActionOrigin
 =
 LoginHelper
 .
@@ -7426,7 +7426,7 @@ LoginRecipesContent
 .
 getRecipes
 (
-hostname
+origin
 win
 )
 ;
@@ -8075,8 +8075,8 @@ PasswordManager
 onFormSubmit
 "
 {
-hostname
-formSubmitURL
+origin
+formActionOrigin
 autoFilledLoginGuid
 :
 autoFilledLogin
@@ -9260,7 +9260,7 @@ form
 s
 action
 and
-hostname
+origin
 .
 In
 the
@@ -9326,7 +9326,7 @@ isOriginMatching
 (
 l
 .
-formSubmitURL
+formActionOrigin
 formActionOrigin
 {
 schemeUpgrades
@@ -9352,7 +9352,7 @@ isOriginMatching
 (
 l
 .
-hostname
+origin
 loginOrigin
 {
 schemeUpgrades

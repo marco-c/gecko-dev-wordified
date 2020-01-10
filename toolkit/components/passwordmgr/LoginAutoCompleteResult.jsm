@@ -808,7 +808,7 @@ comment
 =
 login
 .
-hostname
+origin
 ;
 try
 {
@@ -823,7 +823,7 @@ newURI
 (
 login
 .
-hostname
+origin
 )
 ;
 /
@@ -843,7 +843,7 @@ displayHostPort
 |
 login
 .
-hostname
+origin
 ;
 }
 catch
@@ -857,7 +857,7 @@ Fallback
 to
 login
 .
-hostname
+origin
 set
 above
 .
