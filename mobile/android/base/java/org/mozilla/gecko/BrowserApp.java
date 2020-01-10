@@ -7601,10 +7601,6 @@ startingIntentAfterPip
 null
 )
 {
-getApplication
-(
-)
-.
 startActivity
 (
 startingIntentAfterPip
