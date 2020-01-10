@@ -1645,6 +1645,7 @@ exceptionMessage
 errorMessageName
 exceptionDocURL
 exception
+exceptionStack
 frame
 result
 helperResult
@@ -1822,6 +1823,9 @@ parameter
 ]
 errorMessageName
 exceptionDocURL
+stacktrace
+:
+exceptionStack
 frame
 timeStamp
 notes
