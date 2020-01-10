@@ -318,6 +318,7 @@ SMILValue
 &
 aVal
 )
+noexcept
 ;
 SMILValue
 &
@@ -329,6 +330,7 @@ SMILValue
 &
 aVal
 )
+noexcept
 ;
 /
 /
