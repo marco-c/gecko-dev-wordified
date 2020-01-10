@@ -4166,6 +4166,14 @@ event
 )
 {
 final
+HistoryDelegate
+historyDelegate
+=
+getHistoryDelegate
+(
+)
+;
+final
 GeckoBundle
 update
 =
@@ -4215,6 +4223,12 @@ state
 ;
 if
 (
+historyDelegate
+!
+=
+null
+&
+&
 update
 .
 getBundle
@@ -4228,9 +4242,7 @@ historychange
 null
 )
 {
-getHistoryDelegate
-(
-)
+historyDelegate
 .
 onHistoryStateChange
 (
@@ -10241,6 +10253,8 @@ by
 calling
 {
 link
+HistoryDelegate
+.
 HistoryList
 #
 getCurrentIndex
