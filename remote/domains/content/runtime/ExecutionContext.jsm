@@ -1752,14 +1752,6 @@ typedarray
 else
 if
 (
-cls
-=
-=
-"
-Object
-"
-&
-&
 Node
 .
 isInstance
