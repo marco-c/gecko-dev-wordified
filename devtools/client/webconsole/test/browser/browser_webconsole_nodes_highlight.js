@@ -222,14 +222,9 @@ TEST_URI
 const
 toolbox
 =
-gDevTools
-.
-getToolbox
-(
 hud
 .
-target
-)
+toolbox
 ;
 await
 registerTestActor
