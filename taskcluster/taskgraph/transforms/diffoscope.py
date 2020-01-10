@@ -1195,12 +1195,27 @@ dmg
 :
             
 taskdesc
+.
+setdefault
+(
+'
+fetches
+'
+{
+}
+)
+.
+setdefault
+(
+'
+toolchain
+'
 [
-'
-toolchains
-'
 ]
-=
+)
+.
+extend
+(
 [
                 
 '
@@ -1218,6 +1233,7 @@ libdmg
 '
             
 ]
+)
         
 yield
 taskdesc
