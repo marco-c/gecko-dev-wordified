@@ -2758,6 +2758,9 @@ p
 ProtocolDefn
 :
 OptionalProtocolSendSemanticsQual
+MaybeRefcounted
+\
+                      
 PROTOCOL
 ID
 '
@@ -2778,7 +2781,7 @@ protocol
 =
 p
 [
-5
+6
 ]
     
 protocol
@@ -2788,7 +2791,7 @@ loc
 locFromTok
 (
 p
-2
+3
 )
     
 protocol
@@ -2797,7 +2800,7 @@ name
 =
 p
 [
-3
+4
 ]
     
 protocol
@@ -2822,6 +2825,15 @@ p
 ]
 [
 1
+]
+    
+protocol
+.
+refcounted
+=
+p
+[
+2
 ]
     
 p

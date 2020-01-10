@@ -702,6 +702,16 @@ return
 False
     
 def
+isRefcounted
+(
+self
+)
+:
+        
+return
+False
+    
+def
 isUniquePtr
 (
 self
@@ -835,16 +845,6 @@ self
         
 return
 True
-    
-def
-isRefcounted
-(
-self
-)
-:
-        
-return
-False
     
 def
 name
@@ -1665,6 +1665,7 @@ self
 qname
 nested
 sendSemantics
+refcounted
 )
 :
         
@@ -1710,6 +1711,12 @@ self
 hasDelete
 =
 False
+        
+self
+.
+refcounted
+=
+refcounted
     
 def
 isProtocol
@@ -1717,8 +1724,21 @@ isProtocol
 self
 )
 :
+        
 return
 True
+    
+def
+isRefcounted
+(
+self
+)
+:
+        
+return
+self
+.
+refcounted
     
 def
 name
@@ -2050,8 +2070,25 @@ isActor
 self
 )
 :
+        
 return
 True
+    
+def
+isRefcounted
+(
+self
+)
+:
+        
+return
+self
+.
+protocol
+.
+isRefcounted
+(
+)
     
 def
 name
@@ -4622,6 +4659,9 @@ nested
 p
 .
 sendSemantics
+p
+.
+refcounted
 )
                 
 shortname
