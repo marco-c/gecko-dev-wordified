@@ -2661,7 +2661,7 @@ gc
 .
 heapSize
 .
-gcBytes
+bytes
 (
 )
 ;
@@ -2761,7 +2761,7 @@ gc
 .
 heapSize
 .
-gcBytes
+bytes
 (
 )
 )

@@ -1564,7 +1564,7 @@ HeapSize
 &
 heap
 const
-ZoneThreshold
+HeapThreshold
 &
 threshold
 JS
@@ -1619,7 +1619,7 @@ HeapSize
 &
 size
 const
-ZoneThreshold
+HeapThreshold
 &
 threshold
 )

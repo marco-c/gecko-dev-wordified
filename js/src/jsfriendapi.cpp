@@ -9467,9 +9467,9 @@ zone
 )
 -
 >
-zoneSize
+gcHeapSize
 .
-gcBytes
+bytes
 (
 )
 ;
