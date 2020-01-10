@@ -703,7 +703,7 @@ cookie
 .
 cookieBehavior
 "
-COOKIE_ACCEPT_ALL
+COOKIE_ACCEPT_NON_TRACKERS
 )
 ;
 /
