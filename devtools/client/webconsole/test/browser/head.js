@@ -7338,16 +7338,9 @@ inspector
 )
 ;
 const
-inspectorFront
-=
-inspector
-.
-inspectorFront
-;
-const
 onPickerStarted
 =
-inspectorFront
+toolbox
 .
 nodePicker
 .
@@ -7360,7 +7353,7 @@ started
 "
 )
 ;
-inspectorFront
+toolbox
 .
 nodePicker
 .
@@ -7393,7 +7386,7 @@ node
 const
 onPickerStopped
 =
-inspectorFront
+toolbox
 .
 nodePicker
 .

@@ -293,9 +293,7 @@ options
 )
 ;
 return
-inspector
-.
-inspectorFront
+toolbox
 .
 nodePicker
 .

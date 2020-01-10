@@ -1562,7 +1562,7 @@ opening
 eye
 -
 dropper
-inspectorFront
+toolbox
 .
 nodePicker
 .

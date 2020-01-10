@@ -651,9 +651,7 @@ mousemove
 )
 ;
 return
-inspector
-.
-inspectorFront
+toolbox
 .
 nodePicker
 .

@@ -135,7 +135,6 @@ function
 {
 const
 {
-inspector
 toolbox
 }
 =
@@ -146,16 +145,9 @@ TEST_URI
 )
 ;
 const
-{
-inspectorFront
-}
-=
-inspector
-;
-const
 pickerStopped
 =
-inspectorFront
+toolbox
 .
 nodePicker
 .

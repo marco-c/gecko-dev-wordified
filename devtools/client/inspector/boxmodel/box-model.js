@@ -1473,6 +1473,8 @@ false
 ;
 inspector
 .
+toolbox
+.
 nodePicker
 .
 off
@@ -2593,6 +2595,8 @@ node
 front
 inspector
 .
+toolbox
+.
 nodePicker
 .
 on
@@ -2660,6 +2664,8 @@ onMarkupViewNodeHover
 else
 {
 inspector
+.
+toolbox
 .
 nodePicker
 .
