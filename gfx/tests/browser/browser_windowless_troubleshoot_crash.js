@@ -281,9 +281,7 @@ Troubleshoot
 .
 snapshot
 (
-(
 data
-)
 =
 >
 {
