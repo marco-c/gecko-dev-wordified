@@ -322,6 +322,10 @@ extern
 crate
 audio_thread_priority
 ;
+extern
+crate
+mdns_service
+;
 use
 std
 :
