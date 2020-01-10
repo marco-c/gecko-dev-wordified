@@ -193,9 +193,9 @@ resource
 /
 specialpowers
 /
-specialpowersAPI
+SpecialPowersAPI
 .
-js
+jsm
 "
 "
 resource
