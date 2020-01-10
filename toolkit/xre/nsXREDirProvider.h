@@ -326,6 +326,14 @@ nsIFile
 aResult
 )
 ;
+nsresult
+GetLegacyInstallHash
+(
+nsAString
+&
+aPathHash
+)
+;
 /
 /
 We
