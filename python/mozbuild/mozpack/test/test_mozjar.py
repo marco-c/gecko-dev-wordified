@@ -102,10 +102,8 @@ import
 unittest
 import
 mozunit
-from
-cStringIO
 import
-StringIO
+six
 import
 mozpack
 .
@@ -2710,7 +2708,11 @@ self
         
 s
 =
-StringIO
+six
+.
+moves
+.
+cStringIO
 (
 '
 \
