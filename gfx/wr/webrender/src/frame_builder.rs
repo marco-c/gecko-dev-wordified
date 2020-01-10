@@ -911,6 +911,14 @@ pub
 clip_chain_stack
 :
 ClipChainStack
+pub
+render_tasks
+:
+&
+'
+a
+mut
+RenderTaskTree
 }
 pub
 struct
@@ -1205,10 +1213,6 @@ pic_index
 PictureIndex
 pub
 apply_local_clip_rect
-:
-bool
-pub
-allow_subpixel_aa
 :
 bool
 pub
@@ -2103,6 +2107,7 @@ ROOT_SPATIAL_NODE_INDEX
 screen_world_rect
 clip_scroll_tree
 global_device_pixel_scale
+true
 )
 ;
 surfaces
@@ -2316,6 +2321,7 @@ ClipChainStack
 new
 (
 )
+render_tasks
 }
 ;
 self
@@ -2467,7 +2473,6 @@ root_pic_index
 root_spatial_node_index
 root_spatial_node_index
 ROOT_SURFACE_INDEX
-true
 &
 mut
 frame_state
