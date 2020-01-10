@@ -272,6 +272,9 @@ BlockedScreenTooLarge
 BlockedScreenUnknown
 BlockedNoGfxInfo
 BlockedOverride
+BlockedReleaseChannelIntel
+BlockedReleaseChannelAMD
+BlockedReleaseChannelBattery
 /
 /
 This
