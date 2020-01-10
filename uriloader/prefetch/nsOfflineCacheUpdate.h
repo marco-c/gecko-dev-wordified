@@ -1559,6 +1559,9 @@ OfflineAppPinnedForURI
 nsIURI
 *
 aDocumentURI
+nsIPrefBranch
+*
+aPrefBranch
 bool
 *
 aPinned
