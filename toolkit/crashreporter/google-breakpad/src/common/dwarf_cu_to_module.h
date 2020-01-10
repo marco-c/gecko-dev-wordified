@@ -2147,6 +2147,9 @@ InlinedSubroutineHandler
 class
 NamedScopeHandler
 ;
+class
+LexicalBlockHandler
+;
 /
 /
 A
