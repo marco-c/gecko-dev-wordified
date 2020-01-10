@@ -3447,6 +3447,9 @@ default
         
 raise
 KeyError
+(
+key
+)
     
 def
 last
@@ -3546,6 +3549,9 @@ default
         
 raise
 KeyError
+(
+key
+)
     
 def
 get_list
