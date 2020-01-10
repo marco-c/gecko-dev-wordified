@@ -133,11 +133,9 @@ s
 \
                                  
 '
-%
-(
-context_nesting
-)
-s
+top
+-
+level
 /
 '
 +
@@ -226,11 +224,9 @@ source_protocol
 s
 context_nesting
 :
-%
-(
-context_nesting
-)
-s
+top
+-
+level
 redirection
 :
 %
