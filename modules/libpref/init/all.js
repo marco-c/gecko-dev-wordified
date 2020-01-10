@@ -56968,6 +56968,16 @@ showAutoCompleteFooter
 false
 )
 ;
+pref
+(
+"
+signon
+.
+showAutoCompleteOrigins
+"
+false
+)
+;
 /
 /
 Satchel
