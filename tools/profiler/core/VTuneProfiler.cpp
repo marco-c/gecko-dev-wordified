@@ -146,10 +146,6 @@ include
 <
 memory
 >
-using
-namespace
-std
-;
 VTuneProfiler
 *
 VTuneProfiler
@@ -297,6 +293,9 @@ TracingKind
 aKind
 )
 {
+std
+:
+:
 string
 str
 (
@@ -423,6 +422,9 @@ char
 aName
 )
 {
+std
+:
+:
 string
 str
 (

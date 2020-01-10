@@ -147,10 +147,6 @@ include
 <
 memory
 >
-using
-namespace
-std
-;
 namespace
 mozilla
 {
@@ -340,6 +336,9 @@ is
 needed
 /
 /
+std
+:
+:
 string
 str
 (
@@ -511,6 +510,9 @@ is
 needed
 /
 /
+std
+:
+:
 string
 str
 (
