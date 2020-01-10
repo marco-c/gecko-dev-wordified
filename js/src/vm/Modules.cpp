@@ -669,7 +669,7 @@ JSObject
 JS
 :
 :
-CompileModule
+CompileModuleDontInflate
 (
 JSContext
 *
