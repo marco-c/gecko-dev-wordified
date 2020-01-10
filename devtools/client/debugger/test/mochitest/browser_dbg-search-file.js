@@ -281,6 +281,15 @@ waitForSearchState
 dbg
 )
 ;
+await
+waitForDispatch
+(
+dbg
+"
+UPDATE_SEARCH_RESULTS
+"
+)
+;
 const
 state
 =
