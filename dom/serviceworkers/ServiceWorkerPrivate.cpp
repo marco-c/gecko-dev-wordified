@@ -6954,8 +6954,7 @@ channel
 "
 )
 ;
-ReferrerPolicy
-referrerPolicy
+mReferrerPolicy
 =
 ReferrerPolicy
 :
@@ -6986,7 +6985,7 @@ if
 referrerInfo
 )
 {
-referrerPolicy
+mReferrerPolicy
 =
 referrerInfo
 -

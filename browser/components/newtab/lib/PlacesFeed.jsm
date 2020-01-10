@@ -1680,9 +1680,9 @@ ReferrerInfo
 (
 Ci
 .
-nsIHttpChannel
+nsIReferrerInfo
 .
-REFERRER_POLICY_UNSAFE_URL
+UNSAFE_URL
 true
 Services
 .

@@ -676,10 +676,10 @@ nsICryptoHash
 :
 {
 }
-nsIHttpChannel
+nsIReferrerInfo
 :
 {
-REFERRER_POLICY_UNSAFE_URL
+UNSAFE_URL
 :
 5
 }

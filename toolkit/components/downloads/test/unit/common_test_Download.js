@@ -2472,9 +2472,9 @@ aRefererPolicy
 =
 Ci
 .
-nsIHttpChannel
+nsIReferrerInfo
 .
-REFERRER_POLICY_UNSET
+EMPTY
 )
 {
 return
@@ -2598,9 +2598,9 @@ createReferrerInfo
 TEST_REFERRER_URL
 Ci
 .
-nsIHttpChannel
+nsIReferrerInfo
 .
-REFERRER_POLICY_UNSAFE_URL
+UNSAFE_URL
 )
 }
 expectedZoneId
@@ -3279,9 +3279,9 @@ ReferrerInfo
 (
 Ci
 .
-nsIHttpChannel
+nsIReferrerInfo
 .
-REFERRER_POLICY_UNSAFE_URL
+UNSAFE_URL
 true
 NetUtil
 .

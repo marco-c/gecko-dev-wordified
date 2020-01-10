@@ -121,9 +121,9 @@ ReferrerInfo
 (
 Ci
 .
-nsIHttpChannel
+nsIReferrerInfo
 .
-REFERRER_POLICY_UNSET
+EMPTY
 true
 uri
 )
@@ -281,9 +281,9 @@ ReferrerInfo
 (
 Ci
 .
-nsIHttpChannel
+nsIReferrerInfo
 .
-REFERRER_POLICY_UNSET
+EMPTY
 true
 uri2
 )
