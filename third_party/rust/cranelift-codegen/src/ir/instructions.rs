@@ -263,12 +263,12 @@ cranelift
 codegen
 /
 meta
--
-python
 /
-gen_instr
+src
+/
+gen_inst
 .
-py
+rs
 .
 This
 file
@@ -3731,7 +3731,7 @@ operand
 is
 ctrlType
 .
-lane_type
+lane_of
 (
 )
 .
@@ -3907,7 +3907,7 @@ Bound
 (
 ctrl_type
 .
-lane_type
+lane_of
 (
 )
 )

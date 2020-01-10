@@ -333,12 +333,12 @@ cranelift
 codegen
 /
 meta
--
-python
 /
-gen_instr
+src
+/
+gen_inst
 .
-py
+rs
 .
 /
 /

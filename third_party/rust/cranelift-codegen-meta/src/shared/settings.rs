@@ -438,7 +438,7 @@ SIMD
 instructions
 .
 "
-true
+false
 )
 ;
 settings

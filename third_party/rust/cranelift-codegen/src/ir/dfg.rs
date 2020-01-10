@@ -244,11 +244,11 @@ the
 /
 /
 /
-FunctionLayout
+Layout
 data
 structure
 which
-form
+forms
 the
 other
 half

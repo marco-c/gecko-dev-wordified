@@ -19,6 +19,7 @@ Clone
 Copy
 Eq
 PartialEq
+Hash
 )
 ]
 pub
@@ -235,6 +236,7 @@ Clone
 Copy
 Eq
 PartialEq
+Hash
 )
 ]
 pub
@@ -430,6 +432,7 @@ Clone
 Copy
 Eq
 PartialEq
+Hash
 )
 ]
 pub

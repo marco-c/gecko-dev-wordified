@@ -2557,17 +2557,6 @@ typevar_args
 (
 )
 {
-assert
-!
-(
-vars_tv
-.
-contains
-(
-arg
-)
-)
-;
 let
 arg_free_tv
 =
