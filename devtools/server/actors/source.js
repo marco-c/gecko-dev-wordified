@@ -223,7 +223,7 @@ lazyRequireGetter
 (
 this
 "
-arrayBufferGrip
+ArrayBufferActor
 "
 "
 devtools
@@ -2350,14 +2350,15 @@ return
 {
 source
 :
-arrayBufferGrip
+new
+ArrayBufferActor
 (
-content
 this
 .
 threadActor
 .
-threadLifetimePool
+conn
+content
 )
 contentType
 }
