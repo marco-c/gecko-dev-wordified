@@ -394,6 +394,14 @@ reject
 ;
 }
 ;
+P
+.
+resolve
+=
+Promise
+.
+resolve
+;
 Promise
 .
 all

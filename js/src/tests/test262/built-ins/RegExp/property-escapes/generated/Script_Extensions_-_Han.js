@@ -87,7 +87,7 @@ tests
 Unicode
 v12
 .
-0
+1
 .
 0
 esid
@@ -135,6 +135,7 @@ loneCodePoints
 [
 0x003030
 0x0030FB
+0x0032FF
 ]
 ranges
 :
@@ -439,6 +440,10 @@ ranges
 ]
 [
 0x0032CC
+0x0032FE
+]
+[
+0x003300
 0x003357
 ]
 [

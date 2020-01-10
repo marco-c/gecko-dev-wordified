@@ -142,12 +142,6 @@ currencyDisplay
 minimumIntegerDigits
 "
 "
-minimumFractionDigits
-"
-"
-maximumFractionDigits
-"
-"
 minimumSignificantDigits
 "
 "
