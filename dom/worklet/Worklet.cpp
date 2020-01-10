@@ -230,6 +230,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs
+.
+h
+"
+#
+include
+"
 js
 /
 CompilationAndEvaluation

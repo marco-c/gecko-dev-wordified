@@ -183,17 +183,6 @@ mozilla
 /
 dom
 /
-DOMPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 Exceptions
 .
 h

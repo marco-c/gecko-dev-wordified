@@ -157,9 +157,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
+nsJSUtils
 .
 h
 "
@@ -423,10 +421,10 @@ AssertIsOnWorkletThread
 if
 (
 !
-StaticPrefs
+nsJSUtils
 :
 :
-browser_dom_window_dump_enabled
+DumpEnabled
 (
 )
 )

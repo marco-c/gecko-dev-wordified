@@ -241,17 +241,6 @@ mozilla
 /
 dom
 /
-DOMPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 MozQueryInterface
 .
 h
@@ -4829,7 +4818,7 @@ reportable
 {
 if
 (
-DOMPrefs
+nsJSUtils
 :
 :
 DumpEnabled

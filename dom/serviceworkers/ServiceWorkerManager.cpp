@@ -388,17 +388,6 @@ mozilla
 /
 dom
 /
-DOMPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 ErrorEvent
 .
 h
