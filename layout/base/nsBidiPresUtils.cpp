@@ -9412,7 +9412,6 @@ IsFirstOrLast
 nsIFrame
 *
 aFrame
-const
 nsContinuationStates
 *
 aContinuationStates
@@ -9566,7 +9565,7 @@ frameState
 aContinuationStates
 -
 >
-GetEntry
+Get
 (
 aFrame
 )
@@ -9681,7 +9680,7 @@ contState
 aContinuationStates
 -
 >
-GetEntry
+Get
 (
 frame
 )
@@ -9750,7 +9749,7 @@ contState
 aContinuationStates
 -
 >
-GetEntry
+Get
 (
 frame
 )
@@ -9826,7 +9825,7 @@ firstFrameState
 aContinuationStates
 -
 >
-GetEntry
+Get
 (
 frameState
 -
@@ -10358,7 +10357,6 @@ RepositionRubyFrame
 nsIFrame
 *
 aFrame
-const
 nsContinuationStates
 *
 aContinuationStates
@@ -10818,7 +10816,6 @@ bool
 aIsEvenLevel
 nscoord
 aStartOrEnd
-const
 nsContinuationStates
 *
 aContinuationStates
@@ -11725,7 +11722,7 @@ aContinuationStates
 aContinuationStates
 -
 >
-PutEntry
+Insert
 (
 aFrame
 )
