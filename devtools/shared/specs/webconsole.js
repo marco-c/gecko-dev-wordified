@@ -339,6 +339,17 @@ nullable
 string
 "
 )
+exceptionStack
+:
+Option
+(
+0
+"
+nullable
+:
+json
+"
+)
 frame
 :
 Option
