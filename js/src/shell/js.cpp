@@ -65410,12 +65410,13 @@ fields
 ;
 enableAwaitFix
 =
+!
 op
 .
 getBoolOption
 (
 "
-enable
+disable
 -
 experimental
 -
@@ -70770,7 +70771,7 @@ addBoolOption
 0
 '
 "
-enable
+disable
 -
 experimental
 -
@@ -70779,7 +70780,7 @@ await
 fix
 "
 "
-Enable
+Disable
 new
 faster
 await
