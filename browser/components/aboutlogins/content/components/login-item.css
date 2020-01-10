@@ -1021,6 +1021,14 @@ the
 row
 *
 /
+margin
+-
+inline
+-
+start
+:
+20px
+;
 }
 .
 copy
@@ -1382,10 +1390,9 @@ important
 margin
 -
 inline
--
-start
 :
-8px
+10px
+0
 !
 important
 ;
