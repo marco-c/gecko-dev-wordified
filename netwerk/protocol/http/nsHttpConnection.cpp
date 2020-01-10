@@ -12501,6 +12501,11 @@ Transaction
 )
 )
 {
+if
+(
+trans
+)
+{
 LOG
 (
 (
@@ -12512,11 +12517,6 @@ directly
 )
 )
 ;
-MOZ_ASSERT
-(
-trans
-)
-;
 trans
 -
 >
@@ -12525,6 +12525,7 @@ Close
 reason
 )
 ;
+}
 }
 else
 {
