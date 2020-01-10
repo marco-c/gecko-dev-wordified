@@ -663,15 +663,10 @@ SendReport
 (
 )
 {
-#
-ifdef
-MOZ_ENABLE_GCONF
 LoadProxyinfo
 (
 )
 ;
-#
-endif
 /
 /
 spawn
