@@ -4076,6 +4076,17 @@ LoginManagerParent
 "
 PasswordManager
 :
+onGeneratedPasswordFilled
+"
+:
+[
+"
+LoginManagerParent
+"
+]
+"
+PasswordManager
+:
 autoCompleteLogins
 "
 :
