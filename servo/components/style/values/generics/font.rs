@@ -1433,7 +1433,13 @@ value
 [
 css
 (
-skip
+keyword
+=
+"
+xxx
+-
+large
+"
 )
 ]
 XXXLarge
