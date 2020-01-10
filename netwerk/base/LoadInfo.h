@@ -1127,6 +1127,8 @@ const
 nsAString
 &
 aCspNonce
+bool
+aSkipContentSniffing
 uint32_t
 aRequestBlockingReason
 )
@@ -1603,6 +1605,9 @@ mDocumentHasLoaded
 ;
 nsString
 mCspNonce
+;
+bool
+mSkipContentSniffing
 ;
 /
 /
