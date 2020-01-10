@@ -399,11 +399,6 @@ LICM
 \
 _
 (
-Sincos
-)
-\
-_
-(
 RangeAnalysis
 )
 \
