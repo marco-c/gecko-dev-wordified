@@ -12445,7 +12445,7 @@ emplaceBack
 TableKind
 :
 :
-AsmJS
+TypedFunction
 Limits
 (
 mask
@@ -41349,12 +41349,6 @@ ValType
 :
 :
 AnyRef
-:
-case
-ValType
-:
-:
-FuncRef
 :
 {
 MOZ_CRASH

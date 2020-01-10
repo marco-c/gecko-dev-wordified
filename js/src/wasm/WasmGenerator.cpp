@@ -2355,7 +2355,7 @@ active
 TableKind
 :
 :
-FuncRef
+AnyFunction
 :
 env_
 -
@@ -2379,7 +2379,7 @@ case
 TableKind
 :
 :
-FuncRef
+AnyFunction
 :
 for
 (
@@ -2419,7 +2419,7 @@ case
 TableKind
 :
 :
-AsmJS
+TypedFunction
 :
 /
 /

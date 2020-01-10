@@ -9661,12 +9661,6 @@ case
 SymbolicAddress
 :
 :
-CallImport_FuncRef
-:
-case
-SymbolicAddress
-:
-:
 CallImport_AnyRef
 :
 case
