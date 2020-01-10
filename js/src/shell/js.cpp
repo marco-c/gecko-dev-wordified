@@ -12409,7 +12409,7 @@ global
 js
 :
 :
-UncheckedUnwrap
+CheckedUnwrapDynamic
 (
 &
 v
@@ -12417,6 +12417,14 @@ v
 toObject
 (
 )
+cx
+/
+*
+stopAtWindowProxy
+=
+*
+/
+false
 )
 ;
 if
@@ -49682,6 +49690,9 @@ RootedObject
 newGlobal
 (
 cx
+js
+:
+:
 CheckedUnwrapDynamic
 (
 &
@@ -49694,6 +49705,13 @@ toObject
 (
 )
 cx
+/
+*
+stopAtWindowProxy
+=
+*
+/
+false
 )
 )
 ;
