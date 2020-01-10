@@ -256,10 +256,12 @@ length
 <
 2
 )
+{
 return
 "
 "
 ;
+}
 /
 /
 parenthetical
@@ -343,10 +345,12 @@ desc
 -
 1
 )
+{
 return
 "
 "
 ;
+}
 return
 decodeURIComponent
 (
@@ -648,6 +652,7 @@ if
 (
 sd
 )
+{
 sd
 .
 textContent
@@ -656,6 +661,7 @@ getDescription
 (
 )
 ;
+}
 var
 ld
 =
@@ -1278,6 +1284,7 @@ display
 none
 "
 )
+{
 addAutofocus
 (
 "
@@ -1285,6 +1292,7 @@ errorTryAgain
 "
 )
 ;
+}
 }
 function
 showSecuritySection
@@ -1516,8 +1524,10 @@ if
 !
 result
 )
+{
 return
 ;
+}
 /
 /
 Remove
@@ -1698,8 +1708,10 @@ if
 !
 link
 )
+{
 return
 ;
+}
 var
 okHost
 =
@@ -1925,6 +1937,7 @@ okHost
 thisHost
 )
 )
+{
 link
 .
 href
@@ -1933,6 +1946,7 @@ proto
 +
 okHost
 ;
+}
 /
 *
 case
@@ -1980,6 +1994,7 @@ thisHost
 okHost
 )
 )
+{
 link
 .
 href
@@ -1988,6 +2003,7 @@ proto
 +
 okHost
 ;
+}
 }
 function
 endsWith

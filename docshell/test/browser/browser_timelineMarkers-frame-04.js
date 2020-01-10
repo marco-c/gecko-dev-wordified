@@ -352,9 +352,7 @@ marker
 "
 searchFor
 :
-(
 markers
-)
 =
 >
 {
@@ -366,7 +364,6 @@ some
 m
 =
 >
-(
 m
 .
 name
@@ -386,7 +383,6 @@ causeName
 promise
 callback
 "
-)
 )
 ;
 }
@@ -425,7 +421,6 @@ filter
 m
 =
 >
-(
 m
 .
 name
@@ -445,7 +440,6 @@ causeName
 promise
 callback
 "
-)
 )
 ;
 ok
@@ -545,12 +539,14 @@ self
 hosted
 "
 )
+{
 asyncFrame
 =
 asyncFrame
 .
 parent
 ;
+}
 is
 (
 asyncFrame
@@ -586,9 +582,7 @@ script
 "
 searchFor
 :
-(
 markers
-)
 =
 >
 {
@@ -600,7 +594,6 @@ some
 m
 =
 >
-(
 m
 .
 name
@@ -620,7 +613,6 @@ causeName
 promise
 callback
 "
-)
 )
 ;
 }
@@ -659,7 +651,6 @@ filter
 m
 =
 >
-(
 m
 .
 name
@@ -679,7 +670,6 @@ causeName
 promise
 callback
 "
-)
 )
 ;
 ok
@@ -779,12 +769,14 @@ self
 hosted
 "
 )
+{
 asyncFrame
 =
 asyncFrame
 .
 parent
 ;
+}
 is
 (
 asyncFrame

@@ -1293,8 +1293,10 @@ nsIDocShellTreeItem
 .
 typeContent
 )
+{
 continue
 ;
+}
 var
 webNav
 =
@@ -1339,6 +1341,7 @@ length
 >
 0
 )
+{
 callback
 (
 contentWindows
@@ -1348,6 +1351,7 @@ pop
 )
 )
 ;
+}
 }
 /
 *
@@ -1405,6 +1409,7 @@ name
 =
 name
 )
+{
 results
 .
 push
@@ -1412,6 +1417,7 @@ push
 win
 )
 ;
+}
 }
 )
 ;
@@ -1524,6 +1530,7 @@ finishedFrameCount
 >
 numFrames
 )
+{
 throw
 new
 Error
@@ -1537,6 +1544,7 @@ loaded
 "
 )
 ;
+}
 }
 var
 finishedWindows
@@ -1580,9 +1588,11 @@ arr
 i
 ]
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -1731,6 +1741,7 @@ i
 +
 +
 )
+{
 searchForFinishedFrames
 (
 win
@@ -1741,6 +1752,7 @@ i
 ]
 )
 ;
+}
 }
 function
 poll

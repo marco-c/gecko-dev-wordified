@@ -378,6 +378,7 @@ gBrowser
 let
 tab
 =
+(
 browser
 .
 selectedTab
@@ -388,6 +389,7 @@ addTab
 (
 browser
 url
+)
 )
 ;
 let

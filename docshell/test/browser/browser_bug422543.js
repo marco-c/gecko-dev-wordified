@@ -299,11 +299,9 @@ part
 ;
 ok
 (
-(
 await
 notifyReload
 (
-)
 )
 "
 reloading
@@ -616,9 +614,7 @@ getListenerStatus
 .
 then
 (
-(
 listenerStatuses
-)
 =
 >
 {

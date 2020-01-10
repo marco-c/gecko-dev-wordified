@@ -445,9 +445,7 @@ bug422543
 :
 setRetval
 "
-(
 msg
-)
 =
 >
 {

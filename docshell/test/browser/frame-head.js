@@ -565,9 +565,7 @@ searchFor
 if
 (
 typeof
-(
 searchFor
-)
 =
 =
 "

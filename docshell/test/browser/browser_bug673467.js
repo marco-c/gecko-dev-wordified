@@ -207,9 +207,7 @@ gBrowser
 doc
 {
 }
-(
 tab
-)
 =
 >
 {
@@ -311,8 +309,10 @@ iframe
 .
 src
 )
+{
 return
 ;
+}
 iframe
 .
 removeEventListener

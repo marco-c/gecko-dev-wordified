@@ -220,8 +220,10 @@ nsINavHistoryObserver
 .
 ATTRIBUTE_FAVICON
 )
+{
 return
 ;
+}
 if
 (
 aURI

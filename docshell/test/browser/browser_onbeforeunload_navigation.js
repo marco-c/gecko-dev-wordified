@@ -890,9 +890,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -1221,9 +1219,7 @@ response
 .
 then
 (
-(
 stayingOnPage
-)
 =
 >
 {
