@@ -814,6 +814,8 @@ nullptr
 )
 {
 }
+private
+:
 virtual
 ~
 nsXULPrototypeElement
@@ -825,6 +827,8 @@ Unlink
 )
 ;
 }
+public
+:
 virtual
 void
 ReleaseSubtree
@@ -1078,12 +1082,16 @@ uint32_t
 aLineNo
 )
 ;
+private
+:
 virtual
 ~
 nsXULPrototypeScript
 (
 )
 ;
+public
+:
 virtual
 nsresult
 Serialize
@@ -1371,6 +1379,8 @@ eType_Text
 )
 {
 }
+private
+:
 virtual
 ~
 nsXULPrototypeText
@@ -1378,6 +1388,8 @@ nsXULPrototypeText
 )
 {
 }
+public
+:
 virtual
 nsresult
 Serialize
@@ -1462,6 +1474,8 @@ eType_PI
 )
 {
 }
+private
+:
 virtual
 ~
 nsXULPrototypePI
@@ -1469,6 +1483,8 @@ nsXULPrototypePI
 )
 {
 }
+public
+:
 virtual
 nsresult
 Serialize
