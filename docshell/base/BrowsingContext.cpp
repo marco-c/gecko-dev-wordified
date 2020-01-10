@@ -2453,15 +2453,6 @@ Id
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
-mChildren
-.
-IsEmpty
-(
-)
-)
-;
 for
 (
 BrowsingContext
