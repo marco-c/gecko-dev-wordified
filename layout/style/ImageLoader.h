@@ -524,11 +524,6 @@ StyleLoadData
 &
 )
 ;
-void
-FlushUseCounters
-(
-)
-;
 private
 :
 /

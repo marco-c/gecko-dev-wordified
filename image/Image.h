@@ -1689,13 +1689,6 @@ const
 =
 0
 ;
-virtual
-void
-ReportUseCounters
-(
-)
-{
-}
 }
 ;
 class
