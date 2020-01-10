@@ -337,6 +337,17 @@ include
 "
 vm
 /
+JSScript
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 ObjectGroup
 -
 inl
