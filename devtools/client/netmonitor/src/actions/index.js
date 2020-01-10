@@ -147,6 +147,20 @@ ui
 "
 )
 ;
+const
+webSockets
+=
+require
+(
+"
+.
+/
+web
+-
+sockets
+"
+)
+;
 Object
 .
 assign
@@ -159,5 +173,6 @@ selection
 sort
 timingMarkers
 ui
+webSockets
 )
 ;
