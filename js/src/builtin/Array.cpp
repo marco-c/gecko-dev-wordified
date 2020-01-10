@@ -23902,6 +23902,9 @@ array_isArray
 0
 ArrayIsArray
 )
+#
+ifndef
+NIGHTLY_BUILD
 JS_SELF_HOSTED_FN
 (
 "
@@ -24111,6 +24114,8 @@ ArrayStaticSlice
 3
 0
 )
+#
+endif
 JS_SELF_HOSTED_FN
 (
 "
