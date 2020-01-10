@@ -1392,9 +1392,12 @@ minimum
 -
 scale
 =
+1
 maximum
 -
 scale
+=
+1
 '
 >
 "
@@ -1409,9 +1412,12 @@ minimum
 -
 scale
 =
+1
 maximum
 -
 scale
+=
+1
 "
 ;
 await
