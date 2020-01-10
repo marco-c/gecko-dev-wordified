@@ -972,17 +972,6 @@ updateLastAccessed
 ;
 }
 }
-get
-container
-(
-)
-{
-return
-gBrowser
-.
-tabContainer
-;
-}
 set
 _visuallySelected
 (
@@ -1989,7 +1978,7 @@ tabContainer
 =
 this
 .
-container
+parentNode
 ;
 if
 (
@@ -2793,7 +2782,7 @@ tabContainer
 =
 this
 .
-container
+parentNode
 ;
 if
 (
@@ -2935,7 +2924,7 @@ tabContainer
 =
 this
 .
-container
+parentNode
 ;
 let
 visibleTabs
@@ -3205,7 +3194,7 @@ tabContainer
 =
 this
 .
-container
+parentNode
 ;
 if
 (

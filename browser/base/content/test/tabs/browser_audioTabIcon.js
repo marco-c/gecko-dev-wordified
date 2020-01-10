@@ -1400,7 +1400,7 @@ tabContainer
 =
 tab
 .
-container
+parentNode
 ;
 let
 alltabsButton
