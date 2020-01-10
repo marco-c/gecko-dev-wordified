@@ -69,7 +69,7 @@ out
 .
 requestLongerTimeout
 (
-2
+4
 )
 ;
 const
