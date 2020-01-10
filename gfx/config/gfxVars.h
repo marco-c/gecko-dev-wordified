@@ -499,7 +499,7 @@ function
 is
 similar
 to
-gfxPrefs
+StaticPrefs
 except
 rather
 than

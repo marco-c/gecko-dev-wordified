@@ -103,13 +103,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 Layers
 .
 h

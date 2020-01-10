@@ -131,13 +131,6 @@ BrowserChild
 h
 "
 #
-include
-"
-gfxPrefs
-.
-h
-"
-#
 ifdef
 ACCESSIBILITY
 #

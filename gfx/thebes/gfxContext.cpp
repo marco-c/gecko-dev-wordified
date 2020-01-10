@@ -182,13 +182,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 GeckoProfiler
 .
 h

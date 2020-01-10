@@ -6713,7 +6713,7 @@ because
 the
 implementation
 needs
-gfxPrefs
+StaticPrefs
 .
 h
 /

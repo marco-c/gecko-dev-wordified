@@ -128,17 +128,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-/
-/
-for
-gfxPrefs
-#
-include
-"
 InputData
 .
 h

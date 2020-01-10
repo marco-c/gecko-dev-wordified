@@ -294,13 +294,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 gfxPlatform
 .
 h
@@ -4179,13 +4172,6 @@ Init
 )
 {
 InitGfxDriverInfoShutdownObserver
-(
-)
-;
-gfxPrefs
-:
-:
-GetSingleton
 (
 )
 ;

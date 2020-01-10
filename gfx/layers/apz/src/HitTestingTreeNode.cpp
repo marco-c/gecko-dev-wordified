@@ -77,13 +77,6 @@ AsyncPanZoomController
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 LayersLogging
 .
 h
