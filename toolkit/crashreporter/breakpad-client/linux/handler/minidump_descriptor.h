@@ -821,7 +821,6 @@ return
 microdump_extra_info_
 ;
 }
-;
 private
 :
 enum

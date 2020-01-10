@@ -9497,6 +9497,9 @@ name
 \
 :
 "
+esp
+"
+"
 memory
 "
 )
@@ -13021,6 +13024,9 @@ child_tidptr
 )
 )
 :
+"
+rsp
+"
 "
 memory
 "
