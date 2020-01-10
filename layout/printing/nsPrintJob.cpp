@@ -1122,9 +1122,6 @@ kRangeSpecifiedPageRange
 "
 kRangeSelection
 "
-"
-kRangeFocusFrame
-"
 }
 ;
 /
