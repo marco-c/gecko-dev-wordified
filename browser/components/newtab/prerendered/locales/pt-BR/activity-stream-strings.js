@@ -45,7 +45,7 @@ header_recommended_by
 :
 "
 Recomendado
-por
+pelo
 {
 provider
 }
