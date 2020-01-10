@@ -328,17 +328,17 @@ SCOPE_WHITELIST
 [
     
 #
-this
-is
+these
+are
 not
 actually
-secret
+secrets
 and
 just
 about
 everything
 needs
-it
+them
     
 re
 .
@@ -357,7 +357,11 @@ taskcluster
 /
 gecko
 /
+(
 hgfingerprint
+|
+hgmointernal
+)
 '
 )
     
