@@ -181,6 +181,14 @@ opt
 .
 *
 '
+    
+'
+android
+-
+hw
+.
+*
+'
 )
 FZF_NOT_FOUND
 =
