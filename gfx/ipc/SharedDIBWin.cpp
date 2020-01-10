@@ -673,7 +673,7 @@ mBitmapBits
 mShMem
 -
 >
-handle
+GetHandle
 (
 )
 kHeaderBytes
