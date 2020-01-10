@@ -4732,9 +4732,8 @@ cache
 fullPath
 ]
 =
+new
 FluentResource
-.
-fromString
 (
 data
 )
@@ -4781,9 +4780,8 @@ cache
 fullPath
 ]
 =
+new
 FluentResource
-.
-fromString
 (
 data
 )

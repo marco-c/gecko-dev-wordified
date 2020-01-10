@@ -551,7 +551,7 @@ mount
 LocalizationProvider
 (
 {
-messages
+bundles
 :
 [
 ]

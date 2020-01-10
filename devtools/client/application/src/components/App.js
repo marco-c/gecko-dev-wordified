@@ -233,7 +233,7 @@ return
 LocalizationProvider
 (
 {
-messages
+bundles
 :
 fluentBundles
 }

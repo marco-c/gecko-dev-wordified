@@ -730,7 +730,7 @@ store
 LocalizationProvider
 (
 {
-messages
+bundles
 :
 l10n
 .
