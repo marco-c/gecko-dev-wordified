@@ -1366,6 +1366,7 @@ status
 }
 if
 (
+(
 aType
 =
 =
@@ -1373,6 +1374,16 @@ imgINotificationObserver
 :
 :
 FRAME_COMPLETE
+|
+|
+aType
+=
+=
+imgINotificationObserver
+:
+:
+FRAME_UPDATE
+)
 &
 &
 mCurrentRequest
