@@ -1170,6 +1170,9 @@ static
 nsresult
 FinishCreate
 (
+JSContext
+*
+cx
 XPCWrappedNativeScope
 *
 Scope
@@ -1297,6 +1300,9 @@ XPCWrappedNative
 :
 WrapNewGlobal
 (
+JSContext
+*
+cx
 xpcObjectHelper
 &
 nativeHelper
@@ -1317,9 +1323,6 @@ XPCWrappedNative
 wrappedGlobal
 )
 {
-AutoJSContext
-cx
-;
 nsCOMPtr
 <
 nsISupports
@@ -1943,6 +1946,7 @@ wrapper
 >
 FinishInit
 (
+cx
 )
 ;
 MOZ_ASSERT
@@ -2062,6 +2066,7 @@ wrapper
 >
 FindTearOff
 (
+cx
 iface
 false
 &
@@ -2117,6 +2122,7 @@ rv
 =
 FinishCreate
 (
+cx
 scope
 iface
 nativeHelper
@@ -2147,6 +2153,9 @@ XPCWrappedNative
 :
 GetNewOrUsed
 (
+JSContext
+*
+cx
 xpcObjectHelper
 &
 helper
@@ -2166,9 +2175,6 @@ MOZ_ASSERT
 (
 Interface
 )
-;
-AutoJSContext
-cx
 ;
 nsWrapperCache
 *
@@ -2366,6 +2372,7 @@ wrapper
 >
 FindTearOff
 (
+cx
 Interface
 false
 &
@@ -2881,6 +2888,7 @@ globals
 return
 GetNewOrUsed
 (
+cx
 helper
 betterScope
 Interface
@@ -2984,11 +2992,13 @@ wrapper
 {
 if
 (
+!
 wrapper
 -
 >
 FindTearOff
 (
+cx
 Interface
 false
 &
@@ -3338,6 +3348,7 @@ wrapper
 >
 Init
 (
+cx
 scrWrapper
 )
 )
@@ -3354,6 +3365,7 @@ wrapper
 >
 FindTearOff
 (
+cx
 Interface
 false
 &
@@ -3382,6 +3394,7 @@ rv
 return
 FinishCreate
 (
+cx
 Scope
 Interface
 cache
@@ -3394,6 +3407,9 @@ static
 nsresult
 FinishCreate
 (
+JSContext
+*
+cx
 XPCWrappedNativeScope
 *
 Scope
@@ -3412,9 +3428,6 @@ XPCWrappedNative
 resultWrapper
 )
 {
-AutoJSContext
-cx
-;
 MOZ_ASSERT
 (
 inWrapper
@@ -4358,14 +4371,14 @@ XPCWrappedNative
 :
 Init
 (
+JSContext
+*
+cx
 nsIXPCScriptable
 *
 aScriptable
 )
 {
-AutoJSContext
-cx
-;
 /
 /
 Setup
@@ -4568,6 +4581,7 @@ this
 return
 FinishInit
 (
+cx
 )
 ;
 }
@@ -4577,11 +4591,11 @@ XPCWrappedNative
 :
 FinishInit
 (
+JSContext
+*
+cx
 )
 {
-AutoJSContext
-cx
-;
 /
 /
 This
@@ -6299,6 +6313,9 @@ XPCWrappedNative
 :
 FindTearOff
 (
+JSContext
+*
+cx
 XPCNativeInterface
 *
 aInterface
@@ -6321,9 +6338,6 @@ nullptr
 /
 )
 {
-AutoJSContext
-cx
-;
 nsresult
 rv
 =
@@ -6406,6 +6420,7 @@ ok
 =
 InitTearOffJSObject
 (
+cx
 to
 )
 ;
@@ -6567,6 +6582,7 @@ rv
 =
 InitTearOff
 (
+cx
 to
 aInterface
 needJSObject
@@ -6695,6 +6711,7 @@ iface
 ?
 FindTearOff
 (
+cx
 iface
 )
 :
@@ -6707,6 +6724,9 @@ XPCWrappedNative
 :
 InitTearOff
 (
+JSContext
+*
+cx
 XPCWrappedNativeTearOff
 *
 aTearOff
@@ -6717,9 +6737,6 @@ bool
 needJSObject
 )
 {
-AutoJSContext
-cx
-;
 /
 /
 Determine
@@ -7444,6 +7461,7 @@ needJSObject
 !
 InitTearOffJSObject
 (
+cx
 aTearOff
 )
 )
@@ -7462,14 +7480,14 @@ XPCWrappedNative
 :
 InitTearOffJSObject
 (
+JSContext
+*
+cx
 XPCWrappedNativeTearOff
 *
 to
 )
 {
-AutoJSContext
-cx
-;
 JSObject
 *
 obj

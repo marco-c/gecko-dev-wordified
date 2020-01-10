@@ -6552,6 +6552,7 @@ XPCWrappedNative
 :
 GetNewOrUsed
 (
+cx
 aHelper
 xpcscope
 iface

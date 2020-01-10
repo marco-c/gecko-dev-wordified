@@ -10246,6 +10246,9 @@ static
 nsresult
 WrapNewGlobal
 (
+JSContext
+*
+cx
 xpcObjectHelper
 &
 nativeHelper
@@ -10270,6 +10273,9 @@ static
 nsresult
 GetNewOrUsed
 (
+JSContext
+*
+cx
 xpcObjectHelper
 &
 helper
@@ -10376,6 +10382,9 @@ XPCWrappedNativeTearOff
 *
 FindTearOff
 (
+JSContext
+*
+cx
 XPCNativeInterface
 *
 aInterface
@@ -10786,6 +10795,9 @@ JS_BIT
 bool
 Init
 (
+JSContext
+*
+cx
 nsIXPCScriptable
 *
 scriptable
@@ -10794,6 +10806,9 @@ scriptable
 bool
 FinishInit
 (
+JSContext
+*
+cx
 )
 ;
 bool
@@ -10810,6 +10825,9 @@ aInterface
 nsresult
 InitTearOff
 (
+JSContext
+*
+cx
 XPCWrappedNativeTearOff
 *
 aTearOff
@@ -10823,6 +10841,9 @@ needJSObject
 bool
 InitTearOffJSObject
 (
+JSContext
+*
+cx
 XPCWrappedNativeTearOff
 *
 to
