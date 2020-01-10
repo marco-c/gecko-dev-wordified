@@ -247,8 +247,6 @@ example
 com
 /
 "
-"
-"
 )
 ;
 expect
@@ -459,8 +457,6 @@ example
 com
 /
 "
-"
-"
 )
 ;
 addToTree
@@ -476,8 +472,6 @@ example
 .
 com
 /
-"
-"
 "
 )
 ;
@@ -763,8 +757,6 @@ example
 com
 /
 "
-"
-"
 )
 ;
 addToTree
@@ -780,8 +772,6 @@ example
 .
 com
 /
-"
-"
 "
 )
 ;
@@ -1033,8 +1023,6 @@ example
 com
 /
 "
-"
-"
 )
 ;
 addToTree
@@ -1050,8 +1038,6 @@ example
 .
 com
 /
-"
-"
 "
 )
 ;

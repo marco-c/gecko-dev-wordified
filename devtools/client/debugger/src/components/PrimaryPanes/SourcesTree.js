@@ -600,11 +600,6 @@ debuggeeUrl
 nextProps
 .
 debuggeeUrl
-projectRoot
-:
-nextProps
-.
-projectRoot
 }
 )
 )
@@ -736,7 +731,6 @@ prevSources
 :
 sources
 debuggeeUrl
-projectRoot
 uncollapsedTree
 sourceTree
 }

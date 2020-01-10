@@ -517,8 +517,6 @@ example
 com
 /
 "
-"
-"
 )
 ;
 expect
@@ -764,8 +762,6 @@ example
 com
 /
 "
-"
-"
 )
 ;
 const
@@ -884,8 +880,6 @@ example
 .
 com
 /
-"
-"
 "
 )
 ;
@@ -1443,8 +1437,6 @@ example
 com
 /
 "
-"
-"
 )
 ;
 addToTree
@@ -1461,8 +1453,6 @@ example
 com
 /
 "
-"
-"
 )
 ;
 addToTree
@@ -1478,8 +1468,6 @@ example
 .
 com
 /
-"
-"
 "
 )
 ;
@@ -1610,8 +1598,6 @@ a
 index
 .
 html
-"
-"
 "
 )
 ;
@@ -1875,8 +1861,6 @@ unpkg
 com
 /
 "
-"
-"
 )
 )
 ;
@@ -2024,8 +2008,6 @@ unpkg
 .
 com
 /
-"
-"
 "
 )
 )
@@ -2206,8 +2188,6 @@ addToTree
 tree
 source
 domain
-"
-"
 )
 )
 ;
