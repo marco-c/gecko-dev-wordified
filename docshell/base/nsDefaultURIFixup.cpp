@@ -148,17 +148,12 @@ include
 algorithm
 >
 #
-ifdef
-MOZ_TOOLKIT_SEARCH
-#
 include
 "
 nsISearchService
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -3014,9 +3009,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_TOOLKIT_SEARCH
 /
 /
 Try
@@ -3312,8 +3304,6 @@ mPreferredURI
 }
 }
 }
-#
-endif
 /
 /
 out
