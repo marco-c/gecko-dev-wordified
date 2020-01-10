@@ -967,6 +967,9 @@ bool
 no_subpixel_aa
 :
 bool
+no_picture_caching
+:
+bool
 verbose
 :
 bool
@@ -1321,7 +1324,8 @@ clone
 chase_primitive
 enable_picture_caching
 :
-true
+!
+no_picture_caching
 testing
 :
 true
@@ -1561,7 +1565,15 @@ device_pixel_ratio
 dp_ratio
 page_zoom_factor
 :
-zoom_factor
+ZoomFactor
+:
+:
+new
+(
+0
+.
+0
+)
 root_pipeline_id
 :
 PipelineId
