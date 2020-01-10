@@ -39209,6 +39209,7 @@ EndRemoteDrawingInRegion
 DrawTarget
 *
 aDrawTarget
+const
 LayoutDeviceIntRegion
 &
 aInvalidRegion
