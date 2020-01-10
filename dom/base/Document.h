@@ -907,6 +907,9 @@ nsIXULWindow
 class
 nsXULPrototypeDocument
 ;
+class
+nsXULPrototypeElement
+;
 struct
 nsFont
 ;
@@ -32174,6 +32177,16 @@ return
 mPendingInitialTranslation
 ;
 }
+nsRefPtrHashtable
+<
+nsRefPtrHashKey
+<
+Element
+>
+nsXULPrototypeElement
+>
+mL10nProtoElements
+;
 void
 TraceProtos
 (
