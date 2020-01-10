@@ -267,6 +267,10 @@ name
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )
@@ -321,6 +325,10 @@ labelpc
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 code
 (
 top_

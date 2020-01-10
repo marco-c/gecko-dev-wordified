@@ -564,6 +564,10 @@ biasedTop_
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )
@@ -1127,6 +1131,10 @@ condOffset_
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )

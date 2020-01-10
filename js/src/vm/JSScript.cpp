@@ -29769,6 +29769,10 @@ codeLength
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 code
 (
 )
@@ -29872,6 +29876,10 @@ copy_n
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 code
 (
 )

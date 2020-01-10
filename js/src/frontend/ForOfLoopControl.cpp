@@ -869,6 +869,10 @@ start
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )
@@ -900,6 +904,10 @@ end
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )
@@ -1303,6 +1311,10 @@ tryNoteStart
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )
