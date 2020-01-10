@@ -978,6 +978,11 @@ Element
 aElement
 )
 ;
+void
+OnCreatePresShell
+(
+)
+;
 protected
 :
 void
