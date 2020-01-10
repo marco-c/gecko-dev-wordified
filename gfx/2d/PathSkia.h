@@ -312,12 +312,6 @@ aFillRule
 SkPath
 mPath
 ;
-Point
-mCurrentPoint
-;
-Point
-mFirstPoint
-;
 FillRule
 mFillRule
 ;
