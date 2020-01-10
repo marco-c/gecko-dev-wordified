@@ -85,11 +85,8 @@ name
 }
 /
 *
-This
-function
-should
-be
-called
+*
+Called
 to
 apply
 any
@@ -100,6 +97,7 @@ Fluent
 may
 have
 applied
+*
 to
 the
 element
@@ -219,6 +217,7 @@ attrValue
 }
 /
 *
+*
 Fluent
 doesn
 '
@@ -231,6 +230,7 @@ DOM
 yet
 so
 strings
+*
 need
 to
 get
