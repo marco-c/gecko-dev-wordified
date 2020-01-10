@@ -187,6 +187,9 @@ AutoLockGCBgAlloc
 class
 FreeOp
 ;
+class
+NurseryDecommitChunksTask
+;
 namespace
 gc
 {
@@ -3715,6 +3718,13 @@ private
 friend
 class
 ChunkPool
+;
+friend
+class
+js
+:
+:
+NurseryDecommitChunksTask
 ;
 Chunk
 *
