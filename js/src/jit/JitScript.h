@@ -1145,7 +1145,7 @@ isEmpty
 endif
 MOZ_MUST_USE
 bool
-initICEntries
+initICEntriesAndBytecodeTypeMap
 (
 JSContext
 *
