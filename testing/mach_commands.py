@@ -105,12 +105,6 @@ MachCommandConditions
 as
 conditions
 )
-from
-moztest
-.
-resolve
-import
-TEST_SUITES
 UNKNOWN_TEST
 =
 '
@@ -302,25 +296,11 @@ aliases
 are
 supported
 :
-%
-s
+{
+}
 '
 '
 '
-%
-'
-'
-.
-join
-(
-sorted
-(
-TEST_SUITES
-)
-)
-TEST_HELP
-=
-TEST_HELP
 .
 strip
 (
@@ -474,6 +454,13 @@ commandline
 import
 add_logging_group
     
+from
+moztest
+.
+resolve
+import
+TEST_SUITES
+    
 parser
 =
 argparse
@@ -497,9 +484,24 @@ nargs
 '
 +
 '
+                        
 help
 =
 TEST_HELP
+.
+format
+(
+'
+'
+.
+join
+(
+sorted
+(
+TEST_SUITES
+)
+)
+)
 )
     
 parser
@@ -1043,6 +1045,13 @@ kwargs
         
 import
 addtest
+        
+from
+moztest
+.
+resolve
+import
+TEST_SUITES
         
 if
 not
