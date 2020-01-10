@@ -505,6 +505,25 @@ send
 Atom
 (
 "
+mozfwcontainer
+"
+"
+moz
+-
+forward
+-
+container
+"
+)
+#
+Used
+by
+MailNews
+.
+    
+Atom
+(
+"
 mozgeneratedcontentbefore
 "
 "
@@ -563,6 +582,11 @@ moz
 signature
 "
 )
+#
+Used
+by
+MailNews
+.
     
 Atom
 (
