@@ -1700,6 +1700,7 @@ type
 type
 }
 ]
+span
 )
 .
 textContent
