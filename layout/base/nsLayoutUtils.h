@@ -19855,8 +19855,6 @@ SetZeroMarginDisplayPortOnAsyncScrollableAncestors
 nsIFrame
 *
 aFrame
-RepaintMode
-aRepaintMode
 )
 ;
 /

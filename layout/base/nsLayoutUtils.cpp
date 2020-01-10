@@ -22533,8 +22533,6 @@ SetZeroMarginDisplayPortOnAsyncScrollableAncestors
 nsIFrame
 *
 aFrame
-RepaintMode
-aRepaintMode
 )
 {
 nsIFrame
@@ -22670,7 +22668,10 @@ ScreenMargin
 (
 )
 0
-aRepaintMode
+RepaintMode
+:
+:
+Repaint
 )
 ;
 }
