@@ -1422,20 +1422,26 @@ each_sleep_secs
 =
 0
 .
-01
+5
         
-for
-_
-in
-xrange
+end_time
+=
+time
+.
+time
 (
-int
-(
+)
++
 total_sleep_secs
-/
-each_sleep_secs
+        
+while
+time
+.
+time
+(
 )
-)
+<
+end_time
 :
             
 failed
@@ -1550,6 +1556,15 @@ socket
 .
 socket
 (
+)
+                    
+s
+.
+settimeout
+(
+0
+.
+1
 )
                     
 try
