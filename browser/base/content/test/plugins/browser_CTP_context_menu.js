@@ -610,7 +610,6 @@ activated
 "
 plugin
 should
-not
 be
 activated
 "
