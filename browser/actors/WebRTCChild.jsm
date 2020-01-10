@@ -1725,6 +1725,10 @@ origin
 :
 aContentWindow
 .
+document
+.
+nodePrincipal
+.
 origin
 documentURI
 :
