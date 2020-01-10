@@ -120,9 +120,6 @@ mozilla_dom_XULPersist_h
 #
 define
 mozilla_dom_XULPersist_h
-class
-nsIXULStore
-;
 namespace
 mozilla
 {
@@ -210,12 +207,6 @@ Element
 &
 aElements
 )
-;
-nsCOMPtr
-<
-nsIXULStore
->
-mLocalStore
 ;
 /
 /
