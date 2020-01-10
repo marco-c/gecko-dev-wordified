@@ -7251,8 +7251,6 @@ MediaList
 aMediaList
 IsAlternate
 aIsAlternate
-IsExplicitlyEnabled
-aIsExplicitlyEnabled
 )
 {
 MOZ_ASSERT
@@ -7340,15 +7338,6 @@ IsAlternate
 :
 :
 No
-|
-|
-aIsExplicitlyEnabled
-=
-=
-IsExplicitlyEnabled
-:
-:
-Yes
 )
 ;
 return
@@ -12816,9 +12805,6 @@ aInfo
 mMedia
 nullptr
 isAlternate
-aInfo
-.
-mIsExplicitlyEnabled
 )
 ;
 InsertSheetInTree
@@ -13617,9 +13603,6 @@ aInfo
 mMedia
 nullptr
 isAlternate
-aInfo
-.
-mIsExplicitlyEnabled
 )
 ;
 InsertSheetInTree
@@ -14691,10 +14674,6 @@ IsAlternate
 :
 :
 No
-IsExplicitlyEnabled
-:
-:
-No
 )
 ;
 }
@@ -15341,10 +15320,6 @@ empty
 empty
 nullptr
 IsAlternate
-:
-:
-No
-IsExplicitlyEnabled
 :
 :
 No
