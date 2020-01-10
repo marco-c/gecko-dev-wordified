@@ -5357,6 +5357,12 @@ entry
 .
 group
 ;
+AutoMaybeLeaveAtomsZone
+leaveAtomsZone
+(
+cx
+)
+;
 AutoRealm
 ar
 (
@@ -5914,7 +5920,7 @@ MinorGC
 %
 %
 %
-5zu
+4u
 "
 JS
 :
@@ -5926,11 +5932,9 @@ reason
 promotionRate
 *
 100
-capacity
+maxChunkCount
 (
 )
-/
-1024
 )
 ;
 printProfileDurations
