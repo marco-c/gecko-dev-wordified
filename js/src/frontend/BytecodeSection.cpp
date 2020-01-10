@@ -218,7 +218,7 @@ js
 frontend
 ;
 void
-CGNumberList
+CGBigIntList
 :
 :
 finish
@@ -228,7 +228,7 @@ mozilla
 :
 Span
 <
-GCPtrValue
+GCPtrBigInt
 >
 array
 )
@@ -1239,7 +1239,7 @@ scopeList_
 (
 cx
 )
-numberList_
+bigIntList_
 (
 cx
 )
