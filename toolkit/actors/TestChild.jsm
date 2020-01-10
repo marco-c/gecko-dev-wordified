@@ -105,7 +105,7 @@ super
 )
 ;
 }
-recvAsyncMessage
+receiveMessage
 (
 aMessage
 )
