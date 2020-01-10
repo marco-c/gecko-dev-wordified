@@ -181,12 +181,6 @@ nsIDocShell
 mDocShell
 ;
 bool
-mVisualDebugging
-;
-bool
-mVisualEventDebugging
-;
-bool
 mPaintFlashing
 ;
 bool
