@@ -217,6 +217,16 @@ base
 :
 *
 ;
+mod
+cstr
+;
+pub
+use
+cstr
+:
+:
+*
+;
 /
 /
 Declarative

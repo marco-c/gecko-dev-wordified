@@ -1078,9 +1078,13 @@ ThreadPtrHolder
 :
 new
 (
+c_str
+!
+(
 "
 mozISyncedBookmarksMirrorLogger
 "
+)
 logger
 )
 ?
@@ -1122,9 +1126,13 @@ ThreadPtrHolder
 :
 new
 (
+c_str
+!
+(
 "
 mozISyncedBookmarksMirrorCallback
 "
+)
 callback
 )
 ?
