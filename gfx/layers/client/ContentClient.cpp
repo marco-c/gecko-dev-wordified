@@ -173,17 +173,6 @@ gfxEnv
 #
 include
 "
-gfxPrefs
-.
-h
-"
-/
-/
-for
-gfxPrefs
-#
-include
-"
 gfxPoint
 .
 h

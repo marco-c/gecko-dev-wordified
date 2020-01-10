@@ -211,17 +211,6 @@ gfxRect
 #
 include
 "
-gfxPrefs
-.
-h
-"
-/
-/
-for
-gfxPrefs
-#
-include
-"
 mozilla
 /
 Assertions

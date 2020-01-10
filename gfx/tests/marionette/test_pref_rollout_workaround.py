@@ -227,7 +227,7 @@ self
 #
 Override
 the
-gfxPref
+StaticPrefs
 so
 that
 WR

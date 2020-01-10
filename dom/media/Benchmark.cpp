@@ -157,13 +157,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 mozilla
 /
 AbstractThread
@@ -1088,13 +1081,6 @@ gfxVars
 :
 :
 Initialize
-(
-)
-;
-gfxPrefs
-:
-:
-GetSingleton
 (
 )
 ;

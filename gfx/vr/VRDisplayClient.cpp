@@ -138,13 +138,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 nsIGlobalObject
 .
 h

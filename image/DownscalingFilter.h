@@ -226,13 +226,6 @@ gfx
 h
 "
 #
-include
-"
-gfxPrefs
-.
-h
-"
-#
 ifdef
 MOZ_ENABLE_SKIA
 #

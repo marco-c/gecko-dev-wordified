@@ -117,13 +117,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

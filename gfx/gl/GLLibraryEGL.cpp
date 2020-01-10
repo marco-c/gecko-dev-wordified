@@ -254,13 +254,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 ScopedGLHelpers
 .
 h
@@ -529,13 +522,6 @@ tests
 .
 .
 .
-gfxPrefs
-:
-:
-GetSingleton
-(
-)
-;
 if
 (
 !
