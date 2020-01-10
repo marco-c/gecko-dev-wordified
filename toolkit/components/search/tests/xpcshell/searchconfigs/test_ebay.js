@@ -44,6 +44,13 @@ identifier
 "
 ebay
 "
+aliases
+:
+[
+"
+ebay
+"
+]
 default
 :
 {

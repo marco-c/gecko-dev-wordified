@@ -44,6 +44,16 @@ identifier
 "
 ddg
 "
+aliases
+:
+[
+"
+duckduckgo
+"
+"
+ddg
+"
+]
 default
 :
 {
