@@ -290,7 +290,7 @@ JSContext
 being
 used
 in
-nsXPCWrappedJS
+XPCWrappedJSClass
 :
 :
 CallMethod

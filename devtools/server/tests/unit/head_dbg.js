@@ -2193,7 +2193,7 @@ JSContext
 being
 used
 in
-nsXPCWrappedJS
+nsXPCWrappedJSClass
 :
 :
 CallMethod
@@ -2225,7 +2225,7 @@ machinery
 in
 /
 /
-nsXPCWrappedJS
+XPCWrappedJSClass
 these
 get
 reported
