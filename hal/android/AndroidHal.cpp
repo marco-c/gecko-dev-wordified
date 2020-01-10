@@ -640,6 +640,9 @@ pixelDepth
 int16_t
 angle
 ;
+hal
+:
+:
 ScreenOrientation
 orientation
 ;
@@ -703,6 +706,9 @@ orientation
 =
 static_cast
 <
+hal
+:
+:
 ScreenOrientation
 >
 (
@@ -749,6 +755,9 @@ bool
 LockScreenOrientation
 (
 const
+hal
+:
+:
 ScreenOrientation
 &
 aOrientation
@@ -766,6 +775,9 @@ portrait
 -
 primary
 .
+hal
+:
+:
 ScreenOrientation
 orientation
 =
