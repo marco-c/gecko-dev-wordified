@@ -652,16 +652,6 @@ index
 )
 const
 ;
-const
-void
-*
-getShortlivedAnyRefLocForCompiledCode
-(
-uint32_t
-index
-)
-const
-;
 void
 setAnyRef
 (
