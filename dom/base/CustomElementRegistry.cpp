@@ -435,6 +435,7 @@ this
 }
 private
 :
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 Invoke
@@ -6683,6 +6684,7 @@ forget
 }
 namespace
 {
+MOZ_CAN_RUN_SCRIPT
 static
 void
 DoUpgrade
@@ -7131,10 +7133,13 @@ step
 DoUpgrade
 (
 aElement
+MOZ_KnownLive
+(
 aDefinition
 -
 >
 mConstructor
+)
 aRv
 )
 ;
@@ -7915,7 +7920,10 @@ GetEntryGlobal
 InvokeReactions
 (
 elementQueue
+MOZ_KnownLive
+(
 global
+)
 )
 ;
 }
@@ -8691,7 +8699,10 @@ reaction
 >
 Invoke
 (
+MOZ_KnownLive
+(
 element
+)
 rv
 )
 ;

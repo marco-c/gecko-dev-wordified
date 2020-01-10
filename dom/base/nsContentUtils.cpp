@@ -58566,6 +58566,7 @@ typeAtom
 ;
 }
 }
+MOZ_CAN_RUN_SCRIPT
 static
 void
 DoCustomElementCreate
