@@ -4080,7 +4080,7 @@ nuked
 anyway
 .
 The
-wrap
+rewrap
 (
 )
 function
@@ -4145,7 +4145,7 @@ RemapWrapper
 /
 /
 If
-wrap
+rewrap
 (
 )
 reused
@@ -4275,7 +4275,7 @@ wrapper
 came
 out
 of
-wrap
+rewrap
 (
 )
 which
