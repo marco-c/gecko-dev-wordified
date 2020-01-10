@@ -2676,6 +2676,9 @@ private
 packet
 .
 private
+allowRepeating
+:
+false
 }
 )
 ;
