@@ -4503,8 +4503,6 @@ filter
 existingAttribute
 =
 >
-{
-return
 existingAttribute
 .
 name
@@ -4514,8 +4512,6 @@ name
 attribute
 .
 name
-;
-}
 )
 ;
 attributes
@@ -4544,6 +4540,9 @@ attributes
 attribute
 .
 name
+attribute
+.
+value
 )
 ;
 /
