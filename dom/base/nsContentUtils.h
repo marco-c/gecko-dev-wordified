@@ -23083,14 +23083,6 @@ static
 bool
 sAntiTrackingControlCenterUIEnabled
 ;
-static
-int32_t
-sPrivacyMaxInnerWidth
-;
-static
-int32_t
-sPrivacyMaxInnerHeight
-;
 class
 UserInteractionObserver
 ;
