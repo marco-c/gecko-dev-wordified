@@ -13883,7 +13883,7 @@ undef
 OGG_DEBUG
 #
 undef
-SEEK_DEBUG
+SEEK_LOG
 }
 /
 /
