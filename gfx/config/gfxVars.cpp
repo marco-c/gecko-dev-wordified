@@ -432,7 +432,7 @@ them
 from
 parent
 .
-InfallibleTArray
+nsTArray
 <
 GfxVarUpdate
 >
