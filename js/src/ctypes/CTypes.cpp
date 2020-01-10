@@ -469,8 +469,10 @@ inl
 h
 "
 using
-namespace
 std
+:
+:
+numeric_limits
 ;
 using
 mozilla
