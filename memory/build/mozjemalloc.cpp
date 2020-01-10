@@ -10473,12 +10473,6 @@ base_pages
 pminsize
 )
 ;
-#
-if
-defined
-(
-MALLOC_DECOMMIT
-)
 if
 (
 pminsize
@@ -10495,8 +10489,6 @@ pminsize
 )
 ;
 }
-#
-endif
 base_mapped
 +
 =
@@ -10661,9 +10653,6 @@ base_next_addr
 )
 )
 ;
-#
-ifdef
-MALLOC_DECOMMIT
 if
 (
 !
@@ -10686,8 +10675,6 @@ return
 nullptr
 ;
 }
-#
-endif
 base_committed
 +
 =
