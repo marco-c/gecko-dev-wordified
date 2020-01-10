@@ -55,6 +55,7 @@ MPL
 .
 import
 os
+import
 posixpath
 from
 StringIO
@@ -305,7 +306,7 @@ ConfigEnvironment
 '
 .
 '
-                  
+                                
 defines
 =
 {
@@ -324,7 +325,7 @@ baz
 qux
 42
 '
-                              
+                                         
 '
 abc
 '
@@ -344,7 +345,7 @@ extra
 foobar
 '
 }
-                  
+                                
 non_global_defines
 =
 [
@@ -355,7 +356,7 @@ extra
 ignore
 '
 ]
-                  
+                                
 substs
 =
 {
@@ -379,7 +380,7 @@ ABC
 '
 def
 '
-                             
+                                        
 '
 bar
 '
@@ -398,7 +399,7 @@ abc
 def
 "
 '
-                             
+                                        
 '
 qux
 '
@@ -443,6 +444,7 @@ substs
 ACDEFINES
 '
 ]
+                         
 "
 "
 "

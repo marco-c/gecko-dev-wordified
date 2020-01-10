@@ -1209,7 +1209,7 @@ write
 NONRECURSIVE_TARGETS_export_xpidl_DIRECTORY
 =
 '
-                
+                          
 '
 (
 DEPTH
@@ -1234,7 +1234,7 @@ NONRECURSIVE_TARGETS_export_xpidl_TARGETS
 +
 =
 '
-                
+                          
 '
 export
 \
@@ -2336,7 +2336,7 @@ self
 environment
 .
 topobjdir
-            
+                                                  
 '
 config
 '
@@ -2603,7 +2603,7 @@ objdir
 obj
 .
 config
-                    
+                                
 obj
 .
 topsrcdir
@@ -4241,15 +4241,15 @@ format
 stub
 =
 stub_file
-           
+                    
 output
 =
 first_output
-           
+                    
 dep_file
 =
 dep_file
-           
+                    
 inputs
 =
 '
@@ -4267,7 +4267,7 @@ inputs
 else
 '
 '
-           
+                    
 flags
 =
 '
@@ -4296,7 +4296,7 @@ flags
 else
 '
 '
-           
+                    
 backend
 =
 '
@@ -4311,7 +4311,7 @@ flags
 else
 '
 '
-           
+                    
 #
 Locale
 repacks
@@ -4323,7 +4323,7 @@ a
 single
 configured
 objdir
-           
+                    
 #
 so
 standard
@@ -4341,7 +4341,7 @@ is
 re
 -
 run
-           
+                    
 #
 with
 a
@@ -4355,7 +4355,7 @@ will
 reliably
 be
 set
-           
+                    
 #
 in
 this
@@ -4371,11 +4371,11 @@ in
 that
 case
 .
-           
+                    
 force
 =
 force
-           
+                    
 locale
 =
 '
@@ -4394,13 +4394,13 @@ localized
 else
 '
 '
-           
+                    
 script
 =
 obj
 .
 script
-           
+                    
 method
 =
 obj
@@ -5564,7 +5564,6 @@ in
 self
 .
 _idl_dirs
-\
                                         
 and
 tier
@@ -5713,7 +5712,7 @@ y
 x
 |
 y
-            
+                                  
 self
 .
 _compile_graph
@@ -6770,7 +6769,7 @@ add_statement
 \
 n
 '
-                
+                                   
 '
 #
 Make
@@ -6793,7 +6792,7 @@ foo
 \
 n
 '
-                
+                                   
 '
 #
 Help
@@ -7184,7 +7183,7 @@ DEBUG
 '
 substitute_makefile
 '
-                        
+                             
 {
 '
 path
@@ -7293,7 +7292,7 @@ DEBUG
 '
 stub_makefile
 '
-                        
+                             
 {
 '
 path
@@ -7432,7 +7431,7 @@ b
 '
 INSTALL_EXTENSION_ID
 '
-                            
+                              
 b
 '
 tools
@@ -7516,7 +7515,7 @@ mozpath
 relpath
 (
 objdir
-                            
+                                                                   
 self
 .
 environment
@@ -7595,7 +7594,7 @@ mozpath
 relpath
 (
 objdir
-                            
+                                                                   
 self
 .
 environment
@@ -8239,7 +8238,7 @@ add
 backend_file
 .
 relobjdir
-                
+                                
 dirs
 =
 relativize
@@ -8514,6 +8513,7 @@ backend_file
 .
 write
 (
+                
 '
 FINAL_TARGET
 =
@@ -8674,7 +8674,7 @@ join
 .
 deps
 '
-                
+                                                         
 '
 %
 s
@@ -9059,7 +9059,7 @@ topobjdir
 '
 config
 '
-            
+                                       
 '
 makefiles
 '
@@ -9087,7 +9087,7 @@ topsrcdir
 '
 config
 '
-            
+                                      
 '
 makefiles
 '
@@ -9880,7 +9880,7 @@ join
 obj
 .
 topsrcdir
-                
+                                                      
 source
 )
 )
@@ -10001,7 +10001,7 @@ _test_files
 add_pattern_link
 (
 base
-                    
+                                                                        
 pattern
 dest
 )
@@ -10068,7 +10068,7 @@ setdefault
 obj
 .
 flavor
-            
+                                            
 (
 obj
 .
@@ -10337,6 +10337,7 @@ s
 n
 '
 %
+                               
 (
 mozpath
 .
@@ -11072,7 +11073,7 @@ relpath
 obj
 .
 objdir
-            
+                                          
 self
 .
 environment
@@ -11645,7 +11646,7 @@ StaticLibrary
 )
 )
 or
-          
+            
 isinstance
 (
 obj
@@ -14084,7 +14085,7 @@ topobjdir
 '
 _build_manifests
 '
-            
+                               
 dest
 )
         
@@ -14401,7 +14402,6 @@ HAND
 n
 '
 )
-;
             
 pp
 .
@@ -14818,7 +14818,7 @@ DEFINES
 ACDEFINES
 )
 '
-                    
+                
 '
 <
 -
@@ -14851,7 +14851,7 @@ join
 (
 sorted_nonstatic_ipdl_basenames
 )
-                         
+                                                    
 '
 '
 .
@@ -14917,7 +14917,7 @@ dirname
 (
 p
 )
-            
+                                                                              
 for
 p
 in
@@ -14987,7 +14987,7 @@ topobjdir
 '
 dist
 '
-            
+                                   
 '
 include
 '
@@ -15319,7 +15319,7 @@ DEFINES
 ACDEFINES
 )
 '
-                    
+                
 '
 <
 -
@@ -15335,9 +15335,9 @@ self
 _add_unified_build_rules
 (
 mk
-            
+                                      
 unified_source_mapping
-            
+                                      
 unified_files_makefile_variable
 =
 '

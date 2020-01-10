@@ -439,7 +439,7 @@ path
 reader
 .
 config
-            
+                                             
 descend
 =
 False
@@ -762,7 +762,7 @@ error
 -
 basic
 '
-            
+                                                       
 '
 moz
 .
@@ -846,7 +846,7 @@ assertEqual
 e
 .
 actual_file
-            
+                         
 self
 .
 file_path
@@ -875,7 +875,7 @@ assertEqual
 e
 .
 main_file
-            
+                         
 self
 .
 file_path
@@ -1306,7 +1306,7 @@ to
 a
 special
 '
-            
+                      
 str
 (
 e
@@ -1331,7 +1331,7 @@ n
 n
 DIRS
 '
-            
+                      
 str
 (
 e
@@ -1361,7 +1361,7 @@ s
 '
 %
 text_type
-            
+                      
 str
 (
 e
@@ -1457,7 +1457,7 @@ illegal
 file
 access
 '
-            
+                      
 str
 (
 e
@@ -1600,7 +1600,7 @@ of
 the
 script
 '
-            
+                      
 str
 (
 e
@@ -2015,7 +2015,7 @@ context
 in
 contexts
 ]
-            
+                         
 [
 '
 '
@@ -2049,7 +2049,7 @@ context
 in
 contexts
 ]
-            
+                         
 [
 '
 foobar
@@ -2769,7 +2769,7 @@ a
 /
 file
 '
-            
+                                                          
 '
 d1
 /
@@ -2837,7 +2837,7 @@ file
 '
 ]
 ]
-            
+                         
 [
 '
 '
@@ -2889,7 +2889,7 @@ file
 '
 ]
 ]
-            
+                         
 [
 '
 '
@@ -2935,7 +2935,7 @@ file
 '
 ]
 ]
-            
+                         
 [
 '
 '
@@ -3439,6 +3439,7 @@ BUG_COMPONENT
 ]
 BugzillaComponent
 (
+            
 '
 default_product
 '
@@ -3537,7 +3538,7 @@ foo
 BUG_COMPONENT
 '
 ]
-            
+                         
 BugzillaComponent
 (
 '
@@ -3570,7 +3571,7 @@ in
 BUG_COMPONENT
 '
 ]
-            
+                         
 BugzillaComponent
 (
 '
@@ -3607,7 +3608,7 @@ in
 BUG_COMPONENT
 '
 ]
-            
+                         
 BugzillaComponent
 (
 '
@@ -3642,7 +3643,7 @@ bar
 BUG_COMPONENT
 '
 ]
-            
+                         
 BugzillaComponent
 (
 '
@@ -4633,6 +4634,7 @@ SCHEDULES
 ]
 .
 exclusive
+                         
 schedules
 .
 EXCLUSIVE_COMPONENTS

@@ -2930,7 +2930,7 @@ d
 .
 '
 %
-            
+                
 self
 .
 i
@@ -3185,7 +3185,7 @@ __setslice__
 (
 i
 j
-            
+                                                                         
 sequence
 )
     
@@ -3247,7 +3247,7 @@ StrictOrderingOnAppendList
 (
 ListMixin
 StrictOrderingOnAppendListMixin
-        
+                                 
 list
 )
 :
@@ -3651,7 +3651,7 @@ class
 StrictOrderingOnAppendListWithAction
 (
 StrictOrderingOnAppendListMixin
-    
+                                           
 ListMixin
 ListWithActionMixin
 list
@@ -6195,7 +6195,7 @@ errno
 .
 EACCES
 :
-            
+                
 #
 We
 didn
@@ -6212,7 +6212,7 @@ but
 it
 '
 s
-            
+                
 #
 gone
 now
@@ -6322,7 +6322,7 @@ for
 more
 than
 '
-                
+                            
 '
 {
 1
@@ -7288,7 +7288,7 @@ s
 %
 (
 fname
-                                    
+                                                             
 type
 (
 value
@@ -7486,7 +7486,7 @@ __setslice__
 (
 i
 j
-            
+                                                        
 sequence
 )
     
@@ -9774,7 +9774,7 @@ multiprocessing
 forking
 import
 main
-;
+            
 main
 (
 )

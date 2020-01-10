@@ -1116,6 +1116,7 @@ files
 walk
 (
 )
+                            
 for
 f
 in
@@ -2142,6 +2143,7 @@ mozpath
 .
 relpath
 (
+            
 f
 self
 .

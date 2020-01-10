@@ -132,7 +132,7 @@ category
 '
 devenv
 '
-        
+             
 description
 =
 '
@@ -156,7 +156,7 @@ what
 default
 =
 None
-        
+                     
 help
 =
 '
@@ -224,7 +224,7 @@ resolve_target_to_make
 self
 .
 topobjdir
-            
+                                                       
 path_arg
 .
 relpath

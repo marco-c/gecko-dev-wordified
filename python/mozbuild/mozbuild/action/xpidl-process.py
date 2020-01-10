@@ -677,7 +677,7 @@ cache
 -
 dir
 '
-        
+                        
 help
 =
 '
@@ -704,7 +704,7 @@ add_argument
 -
 depsdir
 '
-        
+                        
 help
 =
 '
@@ -730,7 +730,7 @@ bindings
 -
 conf
 '
-        
+                        
 help
 =
 '
@@ -798,7 +798,7 @@ add_argument
 '
 headerdir
 '
-        
+                        
 help
 =
 '
@@ -820,7 +820,7 @@ add_argument
 '
 xpcrsdir
 '
-        
+                        
 help
 =
 '
@@ -844,7 +844,7 @@ add_argument
 '
 xptdir
 '
-        
+                        
 help
 =
 '
@@ -866,7 +866,7 @@ add_argument
 '
 module
 '
-        
+                        
 help
 =
 '
@@ -896,7 +896,7 @@ nargs
 '
 +
 '
-        
+                        
 help
 =
 '
@@ -933,7 +933,7 @@ default
 =
 [
 ]
-        
+                        
 help
 =
 '
@@ -992,7 +992,7 @@ bindings_conf
 args
 .
 cache_dir
-        
+            
 args
 .
 headerdir
@@ -1008,7 +1008,7 @@ depsdir
 args
 .
 module
-        
+            
 args
 .
 idls

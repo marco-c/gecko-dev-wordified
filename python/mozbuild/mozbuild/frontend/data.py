@@ -4311,7 +4311,7 @@ basename
 real_name
 =
 None
-        
+                 
 link_into
 =
 None
@@ -4542,7 +4542,7 @@ context
 config
 .
 rust_lib_prefix
-                                     
+                                    
 basename
 .
 replace
@@ -4554,7 +4554,7 @@ replace
 _
 '
 )
-                                     
+                                    
 context
 .
 config
@@ -5839,7 +5839,7 @@ manifest
 flavor
 =
 None
-            
+                 
 install_prefix
 =
 None
@@ -5850,7 +5850,7 @@ sources
 =
 (
 )
-            
+                 
 dupe_manifest
 =
 False
@@ -7543,9 +7543,6 @@ id
 #
 c55
             
-'
-android_apks
-'
 #
 We
 need
@@ -7565,6 +7562,10 @@ consume
 .
             
 '
+android_apks
+'
+            
+'
 .
 profdata
 '
@@ -7581,6 +7582,7 @@ self
 required_for_compile
 =
 [
+            
 f
 for
 f

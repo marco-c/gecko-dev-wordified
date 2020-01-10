@@ -737,6 +737,7 @@ _args_for_dirs
 .
 setdefault
 (
+                
 '
 tree
 /
@@ -1014,6 +1015,7 @@ path
 .
 join
 (
+            
 self
 .
 _workspace_dir
@@ -1233,6 +1235,7 @@ workspace_lang_settings
 .
 replace
 (
+                
 "
 COMPILER_FLAGS
 "
@@ -1247,7 +1250,6 @@ self
 .
 _cppflags
 )
-;
             
 fh
 .
@@ -1271,6 +1273,7 @@ path
 .
 join
 (
+            
 workspace_settings_dir
 '
 org
@@ -1303,7 +1306,6 @@ write
 (
 STATIC_CORE_RESOURCES_PREFS
 )
-;
         
 core_runtime_prefs_path
 =
@@ -1313,6 +1315,7 @@ path
 .
 join
 (
+            
 workspace_settings_dir
 '
 org
@@ -1345,7 +1348,6 @@ write
 (
 STATIC_CORE_RUNTIME_PREFS
 )
-;
         
 ui_prefs_path
 =
@@ -1385,7 +1387,6 @@ write
 (
 STATIC_UI_PREFS
 )
-;
         
 cdt_ui_prefs_path
 =
@@ -1610,6 +1611,7 @@ replace
 "
 PREF_NAME
 "
+                                                      
 pref
 )
 .
@@ -1659,7 +1661,6 @@ write
 (
 cdt_ui_prefs
 )
-;
         
 cdt_core_prefs_path
 =
@@ -1764,7 +1765,6 @@ write
 (
 cdt_core_prefs
 )
-;
         
 editor_prefs_path
 =
@@ -1787,7 +1787,6 @@ editors
 prefs
 "
 )
-;
         
 with
 open
@@ -1807,7 +1806,6 @@ write
 (
 EDITOR_SETTINGS
 )
-;
         
 #
 Now
@@ -2102,7 +2100,6 @@ write
 (
 NOINDEX_TEMPLATE
 )
-;
     
 def
 _remove_noindex
@@ -2579,6 +2576,7 @@ path
 .
 join
 (
+            
 self
 .
 environment
@@ -3172,6 +3170,7 @@ LANGUAGE_SETTINGS_TEMPLATE_FOOTER
 .
 replace
 (
+            
 "
 COMPILER_FLAGS
 "
@@ -3375,7 +3374,6 @@ fh
 project
 =
 PROJECT_TEMPLATE
-;
         
 project
 =
@@ -3422,6 +3420,7 @@ path
 .
 join
 (
+            
 self
 .
 environment
@@ -3451,6 +3450,7 @@ path
 .
 join
 (
+            
 self
 .
 environment
@@ -3490,6 +3490,7 @@ cproject_header
 .
 replace
 (
+            
 '
 PROJECT_TOPSRCDIR
 '
@@ -3506,6 +3507,7 @@ cproject_header
 .
 replace
 (
+            
 '
 MACH_COMMAND
 '

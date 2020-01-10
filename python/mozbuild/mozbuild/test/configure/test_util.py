@@ -2980,7 +2980,7 @@ topsrcdir
 '
 build
 '
-                             
+                                          
 '
 moz
 .
@@ -3484,7 +3484,7 @@ topsrcdir
 '
 build
 '
-                             
+                                          
 '
 moz
 .

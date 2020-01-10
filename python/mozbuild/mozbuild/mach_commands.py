@@ -950,7 +950,7 @@ jobs
 type
 =
 int
-        
+                     
 help
 =
 '
@@ -985,7 +985,7 @@ directory
 default
 =
 None
-        
+                     
 help
 =
 '
@@ -1076,7 +1076,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -1134,7 +1134,7 @@ None
 jobs
 =
 0
-        
+              
 directory
 =
 None
@@ -1390,7 +1390,7 @@ category
 '
 build
 '
-        
+             
 description
 =
 '
@@ -1510,7 +1510,7 @@ post
 -
 build
 '
-        
+             
 description
 =
 '
@@ -1539,7 +1539,7 @@ default
 '
 localhost
 '
-        
+                     
 help
 =
 '
@@ -1567,7 +1567,7 @@ int
 default
 =
 0
-        
+                     
 help
 =
 '
@@ -1595,7 +1595,7 @@ default
 '
 firefox
 '
-        
+                     
 help
 =
 '
@@ -1620,7 +1620,7 @@ CommandArgument
 -
 url
 '
-        
+                     
 help
 =
 '
@@ -1726,7 +1726,7 @@ have
 performed
 a
 '
-                    
+                      
 '
 build
 and
@@ -1738,7 +1738,7 @@ psutil
 Python
 package
 '
-                    
+                      
 '
 likely
 failed
@@ -1870,7 +1870,7 @@ category
 '
 build
 '
-        
+             
 description
 =
 '
@@ -1902,7 +1902,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -1960,7 +1960,7 @@ sorted
 (
 backends
 )
-        
+                     
 help
 =
 '
@@ -1988,7 +1988,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -2016,7 +2016,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -2213,7 +2213,7 @@ args
 pass_thru
 =
 True
-            
+                                           
 ensure_exit_code
 =
 False
@@ -2324,7 +2324,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -2677,7 +2677,7 @@ category
 '
 devenv
 '
-        
+             
 description
 =
 '
@@ -2699,7 +2699,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -2787,7 +2787,7 @@ category
 '
 build
 '
-        
+             
 description
 =
 '
@@ -2821,7 +2821,7 @@ nargs
 '
 *
 '
-        
+                     
 help
 =
 '
@@ -2870,7 +2870,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -3236,7 +3236,7 @@ error
 :
 e
 }
-                            
+                                 
 "
 Could
 not
@@ -3251,7 +3251,7 @@ use
 If
 the
 "
-                            
+                                 
 "
 application
 is
@@ -3548,7 +3548,7 @@ post
 -
 build
 '
-        
+             
 description
 =
 '
@@ -3578,7 +3578,7 @@ FileType
 rb
 '
 )
-        
+                     
 help
 =
 '
@@ -3597,7 +3597,7 @@ of
 the
 last
 '
-             
+                     
 '
 mach
 command
@@ -4162,7 +4162,7 @@ post
 -
 build
 '
-        
+             
 description
 =
 '
@@ -4190,7 +4190,7 @@ directory
 default
 =
 None
-        
+                     
 help
 =
 '
@@ -4220,7 +4220,7 @@ nargs
 '
 ?
 '
-        
+                     
 help
 =
 '
@@ -4236,7 +4236,7 @@ show
 the
 most
 '
-            
+                     
 '
 recent
 report
@@ -4312,7 +4312,7 @@ type_counts
 iteritems
 (
 )
-            
+                               
 key
 =
 operator
@@ -4382,7 +4382,7 @@ post
 -
 build
 '
-        
+             
 description
 =
 '
@@ -4410,7 +4410,7 @@ directory
 default
 =
 None
-        
+                     
 help
 =
 '
@@ -4442,7 +4442,7 @@ nargs
 '
 +
 '
-        
+                     
 help
 =
 '
@@ -4468,7 +4468,7 @@ nargs
 '
 ?
 '
-        
+                     
 help
 =
 '
@@ -4484,7 +4484,7 @@ show
 the
 most
 '
-            
+                     
 '
 recent
 report
@@ -4712,7 +4712,7 @@ warning
 line
 '
 ]
-                    
+                                            
 warning
 [
 '
@@ -4761,7 +4761,7 @@ warning
 line
 '
 ]
-                    
+                                         
 warning
 [
 '
@@ -4859,7 +4859,7 @@ category
 '
 testing
 '
-        
+             
 description
 =
 '
@@ -4898,7 +4898,7 @@ metavar
 '
 gtest_filter
 '
-        
+                     
 help
 =
 "
@@ -4921,7 +4921,7 @@ positive
 patterns
 )
 "
-             
+                     
 "
 optionally
 followed
@@ -4978,7 +4978,7 @@ jobs
 type
 =
 int
-        
+                     
 help
 =
 '
@@ -5012,7 +5012,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -5048,7 +5048,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -5069,7 +5069,7 @@ CommandArgument
 -
 package
 '
-        
+                     
 default
 =
 '
@@ -5081,7 +5081,7 @@ geckoview
 .
 test
 '
-        
+                     
 help
 =
 '
@@ -5105,13 +5105,13 @@ CommandArgument
 -
 adbpath
 '
-        
+                     
 dest
 =
 '
 adb_path
 '
-        
+                     
 help
 =
 '
@@ -5134,13 +5134,13 @@ CommandArgument
 -
 deviceSerial
 '
-        
+                     
 dest
 =
 '
 device_serial
 '
-        
+                     
 help
 =
 "
@@ -5156,7 +5156,7 @@ remote
 device
 .
 "
-             
+                     
 "
 Required
 when
@@ -5171,7 +5171,7 @@ the
 host
 .
 "
-             
+                     
 "
 Use
 '
@@ -5193,13 +5193,13 @@ CommandArgument
 -
 remoteTestRoot
 '
-        
+                     
 dest
 =
 '
 remote_test_root
 '
-        
+                     
 help
 =
 '
@@ -5215,7 +5215,7 @@ as
 test
 root
 '
-             
+                     
 '
 (
 eg
@@ -5245,13 +5245,13 @@ CommandArgument
 -
 libxul
 '
-        
+                     
 dest
 =
 '
 libxul_path
 '
-        
+                     
 help
 =
 '
@@ -5293,7 +5293,7 @@ group
 '
 debugging
 '
-        
+                     
 help
 =
 '
@@ -5338,7 +5338,7 @@ group
 '
 debugging
 '
-        
+                     
 help
 =
 '
@@ -5371,13 +5371,13 @@ params
 type
 =
 str
-        
+                     
 group
 =
 '
 debugging
 '
-        
+                     
 help
 =
 '
@@ -5779,7 +5779,6 @@ gtest_death_test_style
 threadsafe
 '
 ]
-;
         
 if
 sys
@@ -5794,7 +5793,7 @@ win
 )
 and
 \
-            
+                
 '
 MOZ_LAUNCHER_PROCESS
 '
@@ -6211,18 +6210,19 @@ app_path
 unittest
 "
 ]
-                             
+                                               
 cwd
 =
 cwd
-                             
+                                               
 env
 =
 gtest_env
-                             
+                                               
 processOutputLine
 =
 [
+                                                   
 functools
 .
 partial
@@ -6231,7 +6231,7 @@ handle_line
 i
 )
 ]
-                             
+                                               
 universal_newlines
 =
 True
@@ -6881,7 +6881,7 @@ category
 '
 devenv
 '
-        
+             
 description
 =
 '
@@ -7304,7 +7304,7 @@ post
 -
 build
 '
-        
+             
 description
 =
 '
@@ -7339,7 +7339,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -7445,13 +7445,13 @@ post
 -
 build
 '
-        
+             
 conditional_name
 =
 '
 install
 '
-        
+             
 conditions
 =
 [
@@ -7459,7 +7459,7 @@ conditions
 .
 is_not_android
 ]
-        
+             
 description
 =
 '
@@ -7489,7 +7489,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -7685,7 +7685,7 @@ conditions
 .
 is_not_android
 ]
-        
+             
 description
 =
 '
@@ -7718,7 +7718,7 @@ nargs
 group
 =
 prog_group
-        
+                     
 help
 =
 '
@@ -7780,7 +7780,7 @@ store_true
 group
 =
 prog_group
-        
+                     
 help
 =
 '
@@ -7819,7 +7819,7 @@ store_true
 group
 =
 prog_group
-        
+                     
 help
 =
 '
@@ -7858,7 +7858,7 @@ store_true
 group
 =
 prog_group
-        
+                     
 help
 =
 '
@@ -7893,7 +7893,7 @@ store_true
 group
 =
 prog_group
-        
+                     
 help
 =
 '
@@ -7926,7 +7926,7 @@ store_true
 group
 =
 prog_group
-        
+                     
 help
 =
 '
@@ -7961,7 +7961,7 @@ default
 group
 =
 prog_group
-        
+                     
 help
 =
 '
@@ -8028,7 +8028,7 @@ store_true
 group
 =
 prog_group
-        
+                     
 help
 =
 '
@@ -8065,7 +8065,7 @@ store_true
 group
 =
 prog_group
-        
+                     
 help
 =
 "
@@ -8149,7 +8149,7 @@ group
 '
 debugging
 '
-        
+                     
 help
 =
 '
@@ -8194,7 +8194,7 @@ group
 '
 debugging
 '
-        
+                     
 help
 =
 '
@@ -8227,13 +8227,13 @@ params
 type
 =
 str
-        
+                     
 group
 =
 '
 debugging
 '
-        
+                     
 help
 =
 '
@@ -8268,7 +8268,7 @@ debugparams
 action
 =
 StoreDebugParamsAndWarnAction
-        
+                     
 default
 =
 None
@@ -8285,7 +8285,7 @@ group
 '
 debugging
 '
-        
+                     
 help
 =
 argparse
@@ -8317,7 +8317,7 @@ group
 '
 DMD
 '
-        
+                     
 help
 =
 '
@@ -8366,7 +8366,7 @@ group
 '
 DMD
 '
-         
+                     
 help
 =
 '
@@ -8409,7 +8409,7 @@ group
 '
 DMD
 '
-        
+                     
 help
 =
 '
@@ -8451,7 +8451,7 @@ group
 '
 DMD
 '
-        
+                     
 help
 =
 '
@@ -8473,13 +8473,13 @@ remote
 background
 noprofile
 disable_e10s
-        
+            
 enable_crash_reporter
 setpref
 temp_profile
 macos_open
 debug
-        
+            
 debugger
 debugger_args
 dmd
@@ -8529,7 +8529,7 @@ t
 built
 .
 "
-                
+                  
 "
 You
 can
@@ -8579,7 +8579,7 @@ in
 the
 debugger
 "
-                    
+                      
 "
 when
 using
@@ -8661,7 +8661,7 @@ binary
 path
 .
 "
-                    
+                      
 "
 The
 macOS
@@ -9542,7 +9542,7 @@ args
 ensure_exit_code
 =
 False
-            
+                                
 pass_thru
 =
 True
@@ -9589,7 +9589,7 @@ post
 -
 build
 '
-        
+             
 description
 =
 '
@@ -9653,7 +9653,7 @@ build
 -
 dev
 '
-        
+             
 description
 =
 '
@@ -9917,7 +9917,7 @@ parsefile
 (
 path
 )
-                    
+                              
 if
 is_statement_relevant
 (
@@ -10032,7 +10032,7 @@ build
 -
 dev
 '
-        
+             
 description
 =
 '
@@ -10060,7 +10060,7 @@ default
 '
 pretty
 '
-        
+                     
 choices
 =
 [
@@ -10074,7 +10074,7 @@ configure
 json
 '
 ]
-        
+                     
 help
 =
 '
@@ -10102,7 +10102,7 @@ o
 type
 =
 str
-        
+                     
 help
 =
 '
@@ -10131,7 +10131,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -10973,7 +10973,7 @@ TREE
 type
 =
 str
-                
+                            
 help
 =
 '
@@ -10998,7 +10998,7 @@ JOB
 choices
 =
 JOB_CHOICES
-                
+                            
 help
 =
 '
@@ -11024,7 +11024,7 @@ action
 '
 store_true
 '
-                
+                            
 help
 =
 '
@@ -11158,7 +11158,7 @@ post
 -
 build
 '
-        
+             
 description
 =
 '
@@ -11465,7 +11465,7 @@ artifact
 '
 install
 '
-        
+                        
 '
 Install
 a
@@ -11496,7 +11496,7 @@ nargs
 type
 =
 str
-        
+                     
 help
 =
 '
@@ -11513,7 +11513,7 @@ be
 omitted
 in
 '
-            
+                     
 '
 which
 case
@@ -11529,7 +11529,7 @@ hg
 revision
 ;
 '
-            
+                     
 '
 a
 remote
@@ -11541,7 +11541,7 @@ local
 file
 .
 '
-        
+                     
 default
 =
 None
@@ -11561,7 +11561,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -11578,7 +11578,7 @@ remote
 artifacts
 .
 '
-        
+                     
 default
 =
 False
@@ -11772,7 +11772,7 @@ clear
 -
 cache
 '
-        
+                        
 '
 Delete
 local
@@ -11858,7 +11858,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -11883,7 +11883,7 @@ metavar
 '
 DIR
 '
-        
+                     
 help
 =
 '
@@ -11911,7 +11911,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -11928,7 +11928,7 @@ remote
 artifacts
 .
 '
-        
+                     
 default
 =
 False
@@ -11953,7 +11953,7 @@ nargs
 '
 +
 '
-        
+                     
 help
 =
 '
@@ -11969,7 +11969,7 @@ s
 )
 ;
 '
-             
+                     
 '
 BUILD
 is
@@ -12003,7 +12003,7 @@ metavar
 '
 MANIFEST
 '
-        
+                     
 help
 =
 '
@@ -12029,7 +12029,7 @@ metavar
 '
 FILE
 '
-        
+                     
 help
 =
 '
@@ -12061,7 +12061,7 @@ metavar
 '
 URL
 '
-        
+                     
 help
 =
 '
@@ -12089,7 +12089,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -12115,7 +12115,7 @@ int
 default
 =
 4
-        
+                     
 help
 =
 '
@@ -12143,7 +12143,7 @@ metavar
 '
 FILE
 '
-        
+                     
 help
 =
 '
@@ -12168,7 +12168,7 @@ nargs
 '
 *
 '
-        
+                     
 help
 =
 '
@@ -12187,7 +12187,7 @@ task
 id
 in
 '
-             
+                     
 '
 addition
 to
@@ -12212,7 +12212,7 @@ False
 cache_dir
 =
 None
-                          
+                           
 skip_cache
 =
 False
@@ -12220,14 +12220,14 @@ from_build
 =
 (
 )
-                          
+                           
 tooltool_manifest
 =
 None
 authentication_file
 =
 None
-                          
+                           
 tooltool_url
 =
 None
@@ -12237,7 +12237,7 @@ False
 retry
 =
 None
-                          
+                           
 artifact_manifest
 =
 None
@@ -12885,7 +12885,7 @@ get_artifact_url
 (
 task_id
 artifact_name
-                    
+                                                
 use_proxy
 =
 not
@@ -15638,7 +15638,7 @@ format
 binary
 .
 "
-                            
+                     
 "
 Please
 update
@@ -15887,7 +15887,7 @@ analysis
 '
 {
 }
-                
+                     
 "
 There
 are
@@ -15905,7 +15905,7 @@ header
 '
 files
 "
-                
+                     
 "
 cannot
 be
@@ -15986,6 +15986,7 @@ monitor
 =
 StaticAnalysisMonitor
 (
+            
 self
 .
 topsrcdir
@@ -16035,6 +16036,7 @@ args
 ensure_exit_code
 =
 False
+                                  
 line_handler
 =
 output_manager
@@ -16454,6 +16456,7 @@ analysis
 '
 {
 }
+                     
 '
 Coverity
 based
@@ -16537,6 +16540,7 @@ analysis
 '
 {
 }
+                     
 '
 There
 are
@@ -16625,6 +16629,7 @@ analysis
 '
 {
 }
+                     
 '
 There
 are
@@ -16765,6 +16770,7 @@ analysis
 '
 {
 }
+                 
 '
 Running
 {
@@ -16822,6 +16828,7 @@ analysis
 '
 {
 }
+                     
 '
 Running
 {
@@ -16879,6 +16886,7 @@ analysis
 '
 {
 }
+                 
 '
 Running
 {
@@ -16936,6 +16944,7 @@ analysis
 '
 {
 }
+                     
 '
 Running
 {
@@ -17018,6 +17027,7 @@ analysis
 '
 {
 }
+                     
 '
 Running
 Coverity
@@ -17076,6 +17086,7 @@ analysis
 '
 {
 }
+                         
 '
 Running
 Coverity
@@ -17195,6 +17206,7 @@ analysis
 '
 {
 }
+                 
 '
 Running
 Coverity
@@ -17309,7 +17321,7 @@ file
 not
 found
 '
-                
+                     
 '
 using
 default
@@ -17372,7 +17384,7 @@ analysis
 '
 {
 }
-                
+                     
 '
 Coverity
 checker
@@ -17386,7 +17398,7 @@ reliability
 index
 .
 '
-                
+                     
 '
 For
 the
@@ -17454,7 +17466,7 @@ analysis
 '
 {
 }
-                
+                     
 '
 Coverity
 checker
@@ -17470,7 +17482,7 @@ reliability
 index
 set
 '
-                
+                     
 '
 field
 \
@@ -17486,7 +17498,7 @@ adding
 it
 .
 '
-                
+                     
 '
 For
 the
@@ -17613,6 +17625,7 @@ event_path
 =
 next
 (
+                    
 (
 event
 for
@@ -18056,6 +18069,7 @@ analysis
 '
 {
 }
+                 
 '
 Using
 symbol
@@ -18141,6 +18155,7 @@ analysis
 '
 {
 }
+                     
 '
 Ill
 formatted
@@ -18853,6 +18868,7 @@ analysis
 '
 {
 }
+                     
 '
 Missing
 Coverity
@@ -20712,7 +20728,7 @@ analysis
 '
 {
 }
-                    
+                     
 '
 Looks
 like
@@ -20729,7 +20745,7 @@ to
 use
 default
 '
-                    
+                     
 '
 values
 for
@@ -20814,7 +20830,7 @@ analysis
 '
 {
 }
-                    
+                     
 '
 Looks
 like
@@ -20831,7 +20847,7 @@ to
 use
 default
 '
-                    
+                     
 '
 values
 for
@@ -20931,6 +20947,7 @@ analysis
 '
 {
 }
+                     
 "
 Unable
 to
@@ -21278,7 +21295,7 @@ s
 %
 (
 header_filter
-                                              
+                                               
 if
 len
 (
@@ -22883,6 +22900,7 @@ checker_not_in_list
 checker_names
 and
 (
+                    
 item
 [
 '
@@ -23048,6 +23066,7 @@ analysis
 '
 {
 }
+                         
 "
 FAIL
 :
@@ -23191,6 +23210,7 @@ cpp
 .
 format
 (
+                            
 checker_name
 )
                     
@@ -23276,6 +23296,7 @@ json
 .
 format
 (
+                            
 checker_name
 )
                     
@@ -23594,6 +23615,7 @@ analysis
 '
 {
 }
+                 
 "
 RUNNING
 :
@@ -23629,6 +23651,7 @@ analysis
 '
 {
 }
+                     
 "
 ERROR
 :
@@ -23738,6 +23761,7 @@ mozpath
 .
 join
 (
+                
 self
 .
 _clang_tidy_base_path
@@ -23862,6 +23886,7 @@ analysis
 '
 {
 }
+                     
 '
 The
 following
@@ -23921,6 +23946,7 @@ t
 .
 format
 (
+                    
 failed_check
 baseline_issue
 )
@@ -26626,11 +26652,13 @@ full
 path
 list
             
+def
 path_maker
-=
-lambda
+(
 f_name
+)
 :
+return
 os
 .
 path
@@ -26944,7 +26972,7 @@ format
 binary
 .
 "
-                            
+                     
 "
 Please
 update
@@ -27979,7 +28007,7 @@ are
 unable
 to
 '
-                    
+                  
 '
 determine
 default
@@ -28209,7 +28237,7 @@ are
 unable
 to
 '
-                    
+                  
 '
 determine
 configuration
@@ -29097,14 +29125,14 @@ force
 skip_cache
 =
 skip_cache
-                                            
+                                         
 source
 =
 source
 verbose
 =
 verbose
-                                            
+                                         
 download_if_needed
 =
 download_if_needed
@@ -29262,21 +29290,21 @@ artifact_toolchain
 verbose
 =
 verbose
-                                                        
+                                                       
 skip_cache
 =
 skip_cache
-                                                        
+                                                       
 from_build
 =
 [
 job
 ]
-                                                        
+                                                       
 no_unpack
 =
 False
-                                                        
+                                                       
 retry
 =
 0
@@ -32161,7 +32189,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -32172,7 +32200,7 @@ in
 current
 checkout
 '
-        
+                     
 default
 =
 False
@@ -32202,7 +32230,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -32218,7 +32246,7 @@ to
 the
 repository
 '
-        
+                     
 default
 =
 False
@@ -32296,7 +32324,7 @@ r
 -
 revision
 '
-        
+                     
 help
 =
 '
@@ -32318,7 +32346,7 @@ CommandArgument
 -
 repo
 '
-        
+                     
 help
 =
 '
@@ -32352,7 +32380,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -32363,7 +32391,7 @@ in
 current
 checkout
 '
-        
+                     
 default
 =
 False
@@ -32440,7 +32468,7 @@ r
 -
 revision
 '
-        
+                     
 help
 =
 '
@@ -32462,7 +32490,7 @@ CommandArgument
 -
 repo
 '
-        
+                     
 help
 =
 '
@@ -32494,7 +32522,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -32505,7 +32533,7 @@ in
 current
 checkout
 '
-        
+                     
 default
 =
 False
@@ -32588,7 +32616,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -32603,7 +32631,7 @@ the
 source
 package
 '
-        
+                     
 default
 =
 False
@@ -32835,7 +32863,7 @@ category
 '
 testing
 '
-        
+             
 description
 =
 '
@@ -32871,7 +32899,7 @@ metavar
 '
 gtest_filter
 '
-        
+                     
 help
 =
 "
@@ -32894,7 +32922,7 @@ positive
 patterns
 )
 "
-             
+                     
 "
 optionally
 followed
@@ -32946,7 +32974,7 @@ group
 '
 debugging
 '
-        
+                     
 help
 =
 '
@@ -32991,7 +33019,7 @@ group
 '
 debugging
 '
-        
+                     
 help
 =
 '
@@ -33024,13 +33052,13 @@ params
 type
 =
 str
-        
+                     
 group
 =
 '
 debugging
 '
-        
+                     
 help
 =
 '
@@ -33434,7 +33462,7 @@ str
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -33460,7 +33488,7 @@ str
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -33615,7 +33643,7 @@ str
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -33644,7 +33672,7 @@ str
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -33671,7 +33699,7 @@ str
 required
 =
 False
-        
+                     
 help
 =
 '
@@ -33704,7 +33732,7 @@ str
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -33728,7 +33756,7 @@ str
 required
 =
 False
-        
+                     
 help
 =
 '
@@ -33756,7 +33784,7 @@ str
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -33788,7 +33816,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -33898,7 +33926,7 @@ str
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -33926,7 +33954,7 @@ str
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -33954,7 +33982,7 @@ str
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -33979,7 +34007,7 @@ str
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -34005,7 +34033,7 @@ str
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -34029,7 +34057,7 @@ str
 required
 =
 False
-        
+                     
 help
 =
 '
@@ -34053,7 +34081,7 @@ str
 required
 =
 False
-        
+                     
 help
 =
 '
@@ -34081,7 +34109,7 @@ str
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -34194,7 +34222,7 @@ str
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -34216,7 +34244,7 @@ str
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -34243,7 +34271,7 @@ str
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -34267,7 +34295,7 @@ default
 '
 lzma
 '
-        
+                     
 choices
 =
 (
@@ -34278,7 +34306,7 @@ lzma
 bz2
 '
 )
-        
+                     
 help
 =
 '
@@ -34300,7 +34328,7 @@ str
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -34381,7 +34409,7 @@ category
 '
 misc
 '
-        
+             
 description
 =
 '
@@ -34431,7 +34459,7 @@ analyze
 '
 files
 '
-        
+                
 description
 =
 '
@@ -34467,7 +34495,7 @@ to
 tup
 db
 '
-        
+                     
 default
 =
 None
@@ -34627,7 +34655,7 @@ analyze
 '
 all
 '
-        
+                
 description
 =
 '
@@ -34668,7 +34696,7 @@ int
 default
 =
 14
-        
+                     
 help
 =
 '
@@ -34696,7 +34724,7 @@ default
 '
 pretty
 '
-        
+                     
 choices
 =
 [
@@ -34713,7 +34741,7 @@ json
 html
 '
 ]
-        
+                     
 help
 =
 '
@@ -34742,7 +34770,7 @@ int
 default
 =
 None
-        
+                     
 help
 =
 '
@@ -34776,7 +34804,7 @@ cost_dict
 .
 gz
 '
-        
+                     
 default
 =
 None
@@ -35797,6 +35825,7 @@ mach
 '
 android
 '
+                 
 '
 archive
 -

@@ -1524,7 +1524,7 @@ self
 _context
 .
 source_stack
-                
+                                   
 sys
 .
 exc_info
@@ -1921,7 +1921,7 @@ decorator
 You
 must
 '
-                
+                            
 '
 use
 it
@@ -1972,7 +1972,7 @@ s
 %
 (
 name
-                
+                                                                       
 self
 .
 templates
@@ -3906,7 +3906,7 @@ trace
 sandbox_exec_error
 =
 None
-        
+                 
 sandbox_load_error
 =
 None
@@ -3916,7 +3916,7 @@ None
 other_error
 =
 None
-        
+                 
 sandbox_called_error
 =
 None
@@ -4072,7 +4072,7 @@ not
 None
 and
 \
-            
+                
 len
 (
 self
@@ -4499,7 +4499,7 @@ other
 self
 .
 other
-                
+                                                
 self
 .
 trace
@@ -6054,7 +6054,7 @@ s
 n
 '
 %
-                    
+                        
 textwrap
 .
 dedent
@@ -8491,7 +8491,7 @@ self
 .
 _execution_stack
 )
-                
+                                   
 sys
 .
 exc_info
@@ -8520,7 +8520,7 @@ self
 .
 _execution_stack
 )
-                
+                                   
 sys
 .
 exc_info
@@ -8549,7 +8549,7 @@ self
 .
 _execution_stack
 )
-                
+                                   
 sys
 .
 exc_info
@@ -8578,7 +8578,7 @@ self
 .
 _execution_stack
 )
-                
+                                   
 sys
 .
 exc_info
@@ -8607,7 +8607,7 @@ self
 .
 _execution_stack
 )
-                
+                                   
 sys
 .
 exc_info
@@ -9075,7 +9075,7 @@ Missing
 value
 for
 '
-                        
+                                                 
 '
 GYP_DIRS
 [
@@ -9203,7 +9203,7 @@ s
 '
 %
 source
-                        
+                                                 
 context
 )
                 
@@ -9574,7 +9574,7 @@ paths
 s
 '
 %
-                        
+                    
 child_path
 context
 )
@@ -11205,6 +11205,7 @@ replace
 _
 '
 )
+             
 for
 flavor
 in
