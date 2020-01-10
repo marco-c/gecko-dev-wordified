@@ -940,6 +940,15 @@ AtomicTypeChecker
 (
 basestring
 )
+        
+'
+products
+'
+:
+ListTypeChecker
+(
+basestring
+)
     
 }
     
@@ -981,15 +990,6 @@ extra_keys
 DictTypeChecker
 (
 basestring
-basestring
-)
-        
-'
-products
-'
-:
-ListTypeChecker
-(
 basestring
 )
         
@@ -1648,8 +1648,6 @@ get
 '
 products
 '
-[
-]
 )
         
 for
@@ -2230,11 +2228,6 @@ get
 '
 products
 '
-[
-"
-all
-"
-]
 )
     
 property

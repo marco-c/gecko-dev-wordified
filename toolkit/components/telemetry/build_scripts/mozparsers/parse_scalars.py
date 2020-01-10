@@ -971,6 +971,12 @@ record_in_processes
 '
 :
 list
+            
+'
+products
+'
+:
+list
         
 }
         
@@ -992,12 +998,6 @@ bool
             
 '
 operating_systems
-'
-:
-list
-            
-'
-products
 '
 :
 list
@@ -2776,11 +2776,6 @@ get
 '
 products
 '
-[
-"
-all
-"
-]
 )
     
 property
