@@ -81,6 +81,7 @@ FOCUSABLE_NO_SEMANTICS
 FOCUSABLE_POSITIVE_TABINDEX
 INTERACTIVE_NO_ACTION
 INTERACTIVE_NOT_FOCUSABLE
+MOUSE_INTERACTIVE_ONLY
 NO_FOCUS_VISIBLE
 }
 [
@@ -960,6 +961,13 @@ INTERACTIVE_NOT_FOCUSABLE
 :
 "
 Interactive_elements_must_be_focusable
+"
+[
+MOUSE_INTERACTIVE_ONLY
+]
+:
+"
+Clickable_elements_must_be_focusable_and_should_have_interactive_semantics
 "
 [
 NO_FOCUS_VISIBLE
