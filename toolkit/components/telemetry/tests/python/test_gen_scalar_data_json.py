@@ -148,6 +148,10 @@ TestCase
 )
 :
     
+maxDiff
+=
+None
+    
 def
 test_JSON_definitions_generation
 (
@@ -216,6 +220,12 @@ opt
 -
 in
     
+products
+:
+      
+-
+firefox
+    
 keyed
 :
 false
@@ -272,6 +282,20 @@ release_channel_collection
 opt
 -
 out
+    
+products
+:
+[
+"
+firefox
+"
+"
+fennec
+"
+"
+geckoview
+"
+]
     
 keyed
 :
@@ -343,6 +367,22 @@ stores
 main
 "
 ]
+                    
+"
+products
+"
+:
+[
+"
+firefox
+"
+"
+fennec
+"
+"
+geckoview
+"
+]
                 
 }
                 
@@ -396,6 +436,16 @@ stores
 [
 "
 main
+"
+]
+                    
+"
+products
+"
+:
+[
+"
+firefox
 "
 ]
                 
