@@ -2651,7 +2651,7 @@ state
 =
 SitePermissions
 .
-get
+getForPrincipal
 (
 null
 this
@@ -3130,7 +3130,7 @@ exploited
 .
 SitePermissions
 .
-set
+setForPrincipal
 (
 null
 this
