@@ -1890,6 +1890,36 @@ True
                     
 }
 )
+                    
+if
+kind
+=
+=
+'
+toolchain
+'
+and
+fetch_name
+.
+endswith
+(
+'
+-
+sccache
+'
+)
+:
+                        
+job
+[
+'
+needs
+-
+sccache
+'
+]
+=
+True
             
 else
 :
