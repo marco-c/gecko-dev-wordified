@@ -640,6 +640,17 @@ on
 Mesa
 .
 DriverMesaUnknown
+/
+/
+Wildcard
+for
+all
+non
+-
+Mesa
+drivers
+.
+DriverNonMesaAll
 DriverVendorMax
 }
 ;
