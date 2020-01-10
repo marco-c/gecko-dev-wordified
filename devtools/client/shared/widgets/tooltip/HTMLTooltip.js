@@ -329,7 +329,7 @@ normal
 arrow
 "
 :
-32
+30
 /
 /
 This
@@ -383,7 +383,7 @@ side
 doorhanger
 "
 :
-24
+21
 }
 ;
 const
@@ -513,7 +513,10 @@ normal
 arrow
 "
 :
-3
+-
+0
+.
+5
 "
 doorhanger
 "
@@ -968,6 +971,8 @@ top
 viewportRect
 .
 top
++
+1
 ;
 return
 {
