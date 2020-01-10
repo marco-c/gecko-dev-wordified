@@ -64,7 +64,7 @@ static
 void
 Array123
 (
-InfallibleTArray
+nsTArray
 <
 JSONVariant
 >
@@ -224,7 +224,7 @@ array
 ]
 /
 /
-InfallibleTArray
+nsTArray
 <
 JSONVariant
 >
@@ -284,7 +284,7 @@ AppendElement
 handle
 )
 ;
-InfallibleTArray
+nsTArray
 <
 JSONVariant
 >
@@ -302,7 +302,7 @@ AppendElement
 tmp
 )
 ;
-InfallibleTArray
+nsTArray
 <
 KeyValue
 >
@@ -417,7 +417,7 @@ handle
 )
 )
 ;
-InfallibleTArray
+nsTArray
 <
 JSONVariant
 >
