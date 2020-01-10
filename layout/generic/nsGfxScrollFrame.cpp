@@ -40377,7 +40377,7 @@ MOZ_ASSERT
 pc
 -
 >
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 "
