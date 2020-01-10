@@ -373,8 +373,9 @@ virtual
 GPUVideoImage
 (
 )
-{
-}
+=
+default
+;
 gfx
 :
 :

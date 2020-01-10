@@ -207,7 +207,6 @@ X11TextureSourceOGL
 (
 )
 ;
-virtual
 X11TextureSourceOGL
 *
 AsSourceOGL
@@ -219,7 +218,6 @@ return
 this
 ;
 }
-virtual
 bool
 IsValid
 (
@@ -236,7 +234,6 @@ gl
 ;
 }
 ;
-virtual
 void
 BindTexture
 (
@@ -250,7 +247,6 @@ aSamplingFilter
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -261,7 +257,6 @@ GetSize
 const
 override
 ;
-virtual
 GLenum
 GetTextureTarget
 (
@@ -273,7 +268,6 @@ return
 LOCAL_GL_TEXTURE_2D
 ;
 }
-virtual
 gfx
 :
 :
@@ -284,7 +278,6 @@ GetFormat
 const
 override
 ;
-virtual
 GLenum
 GetWrapMode
 (
@@ -296,14 +289,12 @@ return
 LOCAL_GL_CLAMP_TO_EDGE
 ;
 }
-virtual
 void
 DeallocateDeviceData
 (
 )
 override
 ;
-virtual
 void
 SetTextureSourceProvider
 (
@@ -313,7 +304,6 @@ aProvider
 )
 override
 ;
-virtual
 void
 Updated
 (

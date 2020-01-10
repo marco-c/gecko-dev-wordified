@@ -207,14 +207,12 @@ in
 gfxFont
 *
 /
-virtual
 uint32_t
 GetSpaceGlyph
 (
 )
 override
 ;
-virtual
 bool
 SetupCairoFont
 (
@@ -224,7 +222,6 @@ aDrawTarget
 )
 override
 ;
-virtual
 already_AddRefed
 <
 mozilla
@@ -254,7 +251,6 @@ for
 antialiasing
 *
 /
-virtual
 RunMetrics
 Measure
 (
@@ -355,7 +351,6 @@ to
 get
 glyphs
 .
-virtual
 bool
 ProvidesGetGlyph
 (
@@ -373,7 +368,6 @@ HasCmapTable
 )
 ;
 }
-virtual
 uint32_t
 GetGlyph
 (
@@ -384,7 +378,6 @@ aVarSelector
 )
 override
 ;
-virtual
 bool
 ProvidesGlyphWidths
 (
@@ -412,7 +405,6 @@ fixed
 -
 point
 value
-virtual
 int32_t
 GetGlyphWidth
 (
@@ -421,7 +413,6 @@ aGID
 )
 override
 ;
-virtual
 void
 AddSizeOfExcludingThis
 (
@@ -436,7 +427,6 @@ aSizes
 )
 const
 ;
-virtual
 void
 AddSizeOfIncludingThis
 (
@@ -451,7 +441,6 @@ aSizes
 )
 const
 ;
-virtual
 FontType
 GetType
 (
@@ -465,7 +454,6 @@ FONT_TYPE_GDI
 }
 protected
 :
-virtual
 const
 Metrics
 &

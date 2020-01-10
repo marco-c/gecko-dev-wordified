@@ -158,6 +158,7 @@ size
 >
 class
 StackArray
+final
 {
 public
 :

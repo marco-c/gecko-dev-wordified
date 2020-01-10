@@ -421,8 +421,9 @@ virtual
 ImageClient
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *
@@ -660,7 +661,6 @@ CompositableType
 aType
 )
 ;
-virtual
 bool
 UpdateImage
 (
@@ -682,14 +682,12 @@ aRenderRoot
 )
 override
 ;
-virtual
 void
 OnDetach
 (
 )
 override
 ;
-virtual
 bool
 AddTextureClient
 (
@@ -699,7 +697,6 @@ aTexture
 )
 override
 ;
-virtual
 TextureInfo
 GetTextureInfo
 (
@@ -707,7 +704,6 @@ GetTextureInfo
 const
 override
 ;
-virtual
 void
 FlushAllImages
 (
@@ -725,7 +721,6 @@ return
 this
 ;
 }
-virtual
 RefPtr
 <
 TextureClient
@@ -821,7 +816,6 @@ TextureFlags
 aFlags
 )
 ;
-virtual
 bool
 UpdateImage
 (
@@ -843,7 +837,6 @@ aRenderRoot
 )
 override
 ;
-virtual
 bool
 Connect
 (
@@ -857,7 +850,6 @@ return
 false
 ;
 }
-virtual
 TextureInfo
 GetTextureInfo
 (

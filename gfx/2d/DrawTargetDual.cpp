@@ -281,6 +281,7 @@ DrawTargets
 /
 class
 DualPattern
+final
 {
 public
 :

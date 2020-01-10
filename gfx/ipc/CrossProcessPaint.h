@@ -246,6 +246,7 @@ tree
 /
 class
 PaintFragment
+final
 {
 public
 :
@@ -503,6 +504,7 @@ tree
 /
 class
 CrossProcessPaint
+final
 {
 NS_INLINE_DECL_REFCOUNTING
 (

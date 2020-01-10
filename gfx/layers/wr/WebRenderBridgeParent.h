@@ -1763,6 +1763,8 @@ virtual
 WebRenderBridgeParent
 (
 )
+=
+default
 ;
 wr
 :

@@ -346,7 +346,6 @@ BasicColorLayer
 }
 public
 :
-virtual
 void
 SetVisibleRegion
 (
@@ -387,7 +386,6 @@ aRegion
 )
 ;
 }
-virtual
 void
 Paint
 (

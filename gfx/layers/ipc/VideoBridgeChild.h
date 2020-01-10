@@ -422,6 +422,7 @@ VideoBridgeChild
 (
 )
 ;
+virtual
 ~
 VideoBridgeChild
 (

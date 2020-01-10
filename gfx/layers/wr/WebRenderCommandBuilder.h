@@ -455,6 +455,7 @@ mSeenRenderRoot
 ;
 class
 WebRenderCommandBuilder
+final
 {
 typedef
 nsTHashtable

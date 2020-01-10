@@ -1400,7 +1400,6 @@ out_failureReason
 =
 0
 ;
-virtual
 void
 Destroy
 (
@@ -3366,7 +3365,6 @@ return
 nullptr
 ;
 }
-virtual
 Compositor
 *
 AsCompositor
@@ -3640,7 +3638,6 @@ SetInvalid
 (
 )
 ;
-virtual
 bool
 IsValid
 (
@@ -4351,8 +4348,9 @@ virtual
 AsyncReadbackBuffer
 (
 )
-{
-}
+=
+default
+;
 gfx
 :
 :

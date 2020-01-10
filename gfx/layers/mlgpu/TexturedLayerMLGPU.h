@@ -362,7 +362,6 @@ virtual
 TexturedLayerMLGPU
 (
 )
-override
 ;
 void
 AssignBigImage
@@ -589,11 +588,11 @@ this
 }
 protected
 :
+virtual
 ~
 TempImageLayerMLGPU
 (
 )
-override
 ;
 private
 :

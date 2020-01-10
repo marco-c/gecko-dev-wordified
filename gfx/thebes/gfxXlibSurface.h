@@ -483,7 +483,6 @@ gfxXlibSurface
 (
 )
 ;
-virtual
 already_AddRefed
 <
 gfxASurface
@@ -505,14 +504,12 @@ aSize
 )
 override
 ;
-virtual
 void
 Finish
 (
 )
 override
 ;
-virtual
 const
 mozilla
 :

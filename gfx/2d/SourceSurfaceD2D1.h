@@ -201,7 +201,6 @@ SourceSurfaceD2D1
 (
 )
 ;
-virtual
 SurfaceType
 GetType
 (
@@ -216,7 +215,6 @@ SurfaceType
 D2D1_1_IMAGE
 ;
 }
-virtual
 IntSize
 GetSize
 (
@@ -228,7 +226,6 @@ return
 mSize
 ;
 }
-virtual
 SurfaceFormat
 GetFormat
 (
@@ -240,7 +237,6 @@ return
 mFormat
 ;
 }
-virtual
 bool
 IsValid
 (
@@ -248,7 +244,6 @@ IsValid
 const
 override
 ;
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -489,7 +484,6 @@ DataSourceSurfaceD2D1
 (
 )
 ;
-virtual
 SurfaceType
 GetType
 (
@@ -504,7 +498,6 @@ SurfaceType
 DATA
 ;
 }
-virtual
 IntSize
 GetSize
 (
@@ -512,7 +505,6 @@ GetSize
 const
 override
 ;
-virtual
 SurfaceFormat
 GetFormat
 (
@@ -524,7 +516,6 @@ return
 mFormat
 ;
 }
-virtual
 bool
 IsValid
 (
@@ -538,7 +529,6 @@ return
 mBitmap
 ;
 }
-virtual
 uint8_t
 *
 GetData
@@ -546,14 +536,12 @@ GetData
 )
 override
 ;
-virtual
 int32_t
 Stride
 (
 )
 override
 ;
-virtual
 bool
 Map
 (
@@ -564,7 +552,6 @@ aMappedSurface
 )
 override
 ;
-virtual
 void
 Unmap
 (

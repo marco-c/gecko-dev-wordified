@@ -1158,9 +1158,9 @@ virtual
 gfxUnknownSurface
 (
 )
-{
-}
-virtual
+=
+default
+;
 const
 mozilla
 :

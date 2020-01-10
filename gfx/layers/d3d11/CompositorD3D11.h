@@ -219,12 +219,12 @@ CompositorWidget
 aWidget
 )
 ;
+virtual
 ~
 CompositorD3D11
 (
 )
 ;
-virtual
 CompositorD3D11
 *
 AsCompositorD3D11
@@ -236,7 +236,6 @@ return
 this
 ;
 }
-virtual
 bool
 Initialize
 (
@@ -247,14 +246,12 @@ out_failureReason
 )
 override
 ;
-virtual
 TextureFactoryIdentifier
 GetTextureFactoryIdentifier
 (
 )
 override
 ;
-virtual
 already_AddRefed
 <
 DataTextureSource
@@ -271,7 +268,6 @@ NO_FLAGS
 )
 override
 ;
-virtual
 bool
 CanUseCanvasLayerForSize
 (
@@ -292,7 +288,6 @@ GetMaxTextureSize
 const
 final
 ;
-virtual
 void
 MakeCurrent
 (
@@ -304,7 +299,6 @@ aFlags
 override
 {
 }
-virtual
 already_AddRefed
 <
 CompositingRenderTarget
@@ -323,7 +317,6 @@ aInit
 )
 override
 ;
-virtual
 already_AddRefed
 <
 CompositingRenderTarget
@@ -351,7 +344,6 @@ aSourcePoint
 )
 override
 ;
-virtual
 void
 SetRenderTarget
 (
@@ -361,7 +353,6 @@ aSurface
 )
 override
 ;
-virtual
 already_AddRefed
 <
 CompositingRenderTarget
@@ -379,7 +370,6 @@ mCurrentRT
 )
 ;
 }
-virtual
 already_AddRefed
 <
 CompositingRenderTarget
@@ -390,7 +380,6 @@ GetWindowRenderTarget
 const
 override
 ;
-virtual
 bool
 ReadbackRenderTarget
 (
@@ -403,7 +392,6 @@ aDest
 )
 override
 ;
-virtual
 already_AddRefed
 <
 AsyncReadbackBuffer
@@ -420,7 +408,6 @@ aSize
 )
 override
 ;
-virtual
 bool
 BlitRenderTarget
 (
@@ -444,7 +431,6 @@ aDestSize
 )
 override
 ;
-virtual
 void
 SetDestinationSurfaceSize
 (
@@ -489,7 +475,6 @@ screen
 .
 *
 /
-virtual
 void
 SetScreenRenderOffset
 (
@@ -539,7 +524,6 @@ s
 okay
 .
 }
-virtual
 void
 ClearRect
 (
@@ -553,7 +537,6 @@ aRect
 )
 override
 ;
-virtual
 void
 DrawQuad
 (
@@ -621,7 +604,6 @@ dimensions
 .
 *
 /
-virtual
 void
 BeginFrame
 (
@@ -686,14 +668,12 @@ screen
 .
 *
 /
-virtual
 void
 EndFrame
 (
 )
 override
 ;
-virtual
 void
 CancelFrame
 (
@@ -764,7 +744,6 @@ float
 aZFar
 )
 ;
-virtual
 bool
 SupportsPartialTextureUpdate
 (
@@ -775,7 +754,6 @@ return
 true
 ;
 }
-virtual
 bool
 SupportsLayerGeometry
 (
@@ -786,7 +764,6 @@ override
 #
 ifdef
 MOZ_DUMP_PAINTING
-virtual
 const
 char
 *
@@ -805,7 +782,6 @@ Direct3D
 }
 #
 endif
-virtual
 LayersBackend
 GetBackendType
 (
@@ -1034,7 +1010,6 @@ ID3D11ShaderResourceView
 aOutView
 )
 ;
-virtual
 void
 DrawTriangles
 (

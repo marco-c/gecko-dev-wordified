@@ -939,6 +939,7 @@ nullptr
 class
 MOZ_STACK_CLASS
 AutoLayerTransactionParentAsyncMessageSender
+final
 {
 public
 :

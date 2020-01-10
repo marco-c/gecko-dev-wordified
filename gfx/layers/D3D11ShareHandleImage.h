@@ -190,7 +190,6 @@ TextureClientRecycleAllocator
 {
 public
 :
-explicit
 D3D11RecycleAllocator
 (
 KnowsCompositor
@@ -233,7 +232,6 @@ aSize
 ;
 protected
 :
-virtual
 already_AddRefed
 <
 TextureClient
@@ -379,8 +377,9 @@ virtual
 D3D11ShareHandleImage
 (
 )
-{
-}
+=
+default
+;
 bool
 AllocateTexture
 (

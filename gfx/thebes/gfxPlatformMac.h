@@ -193,7 +193,6 @@ ContentUsesTiling
 const
 override
 ;
-virtual
 already_AddRefed
 <
 gfxASurface
@@ -235,7 +234,6 @@ aDevToCssSize
 )
 override
 ;
-virtual
 gfxPlatformFontList
 *
 CreatePlatformFontList
@@ -269,7 +267,6 @@ aFormatFlags
 )
 override
 ;
-virtual
 void
 GetCommonFallbackFonts
 (
@@ -331,7 +328,6 @@ gfxFontStyle
 aFontStyle
 )
 ;
-virtual
 bool
 SupportsApzWheelInput
 (
@@ -405,7 +401,6 @@ return
 true
 ;
 }
-virtual
 already_AddRefed
 <
 mozilla
@@ -462,7 +457,6 @@ override
 ;
 private
 :
-virtual
 void
 GetPlatformCMSOutputProfile
 (

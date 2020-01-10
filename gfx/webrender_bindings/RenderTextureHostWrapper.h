@@ -211,11 +211,11 @@ mInited
 }
 private
 :
+virtual
 ~
 RenderTextureHostWrapper
 (
 )
-override
 ;
 bool
 mInited

@@ -2417,7 +2417,6 @@ char
 aPrefix
 )
 ;
-virtual
 void
 Dump
 (
@@ -2448,7 +2447,6 @@ Compress
 )
 override
 ;
-virtual
 TextureInfo
 GetTextureInfo
 (

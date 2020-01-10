@@ -262,7 +262,6 @@ WebRenderTextureHost
 (
 )
 ;
-virtual
 void
 DeallocateDeviceData
 (
@@ -270,7 +269,6 @@ DeallocateDeviceData
 override
 {
 }
-virtual
 void
 SetTextureSourceProvider
 (
@@ -280,21 +278,18 @@ aProvider
 )
 override
 ;
-virtual
 bool
 Lock
 (
 )
 override
 ;
-virtual
 void
 Unlock
 (
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -364,7 +359,6 @@ GetReadFormat
 (
 )
 .
-virtual
 gfx
 :
 :
@@ -375,7 +369,6 @@ GetReadFormat
 const
 override
 ;
-virtual
 bool
 BindTextureSource
 (
@@ -385,7 +378,6 @@ aTexture
 )
 override
 ;
-virtual
 already_AddRefed
 <
 gfx
@@ -398,7 +390,6 @@ GetAsSurface
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -409,7 +400,6 @@ GetYUVColorSpace
 const
 override
 ;
-virtual
 gfx
 :
 :
@@ -423,7 +413,6 @@ override
 #
 ifdef
 MOZ_LAYERS_HAVE_LOG
-virtual
 const
 char
 *
@@ -440,7 +429,6 @@ WebRenderTextureHost
 }
 #
 endif
-virtual
 WebRenderTextureHost
 *
 AsWebRenderTextureHost
@@ -475,7 +463,6 @@ GetRGBStride
 (
 )
 ;
-virtual
 bool
 HasIntermediateBuffer
 (
@@ -483,7 +470,6 @@ HasIntermediateBuffer
 const
 override
 ;
-virtual
 uint32_t
 NumSubTextures
 (
@@ -491,7 +477,6 @@ NumSubTextures
 const
 override
 ;
-virtual
 void
 PushResourceUpdates
 (
@@ -523,7 +508,6 @@ aExtID
 )
 override
 ;
-virtual
 void
 PushDisplayItems
 (
@@ -565,7 +549,6 @@ aImageKeys
 )
 override
 ;
-virtual
 bool
 SupportsWrNativeTexture
 (

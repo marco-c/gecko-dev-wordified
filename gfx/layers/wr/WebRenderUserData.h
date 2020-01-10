@@ -715,7 +715,6 @@ WebRenderImageData
 (
 )
 ;
-virtual
 WebRenderImageData
 *
 AsImageData
@@ -727,7 +726,6 @@ return
 this
 ;
 }
-virtual
 UserDataType
 GetType
 (
@@ -1067,7 +1065,6 @@ WebRenderFallbackData
 (
 )
 ;
-virtual
 WebRenderFallbackData
 *
 AsFallbackData
@@ -1079,7 +1076,6 @@ return
 this
 ;
 }
-virtual
 UserDataType
 GetType
 (
@@ -1351,7 +1347,6 @@ WebRenderAnimationData
 (
 )
 ;
-virtual
 UserDataType
 GetType
 (
@@ -1419,7 +1414,6 @@ WebRenderCanvasData
 (
 )
 ;
-virtual
 WebRenderCanvasData
 *
 AsCanvasData
@@ -1431,7 +1425,6 @@ return
 this
 ;
 }
-virtual
 UserDataType
 GetType
 (
@@ -1509,7 +1502,6 @@ WebRenderRenderRootData
 (
 )
 ;
-virtual
 UserDataType
 GetType
 (

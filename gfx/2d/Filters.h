@@ -1196,8 +1196,9 @@ virtual
 FilterNode
 (
 )
-{
-}
+=
+default
+;
 virtual
 FilterBackend
 GetBackendType

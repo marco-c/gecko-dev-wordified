@@ -475,7 +475,6 @@ nsIWidget
 aWidget
 )
 ;
-virtual
 void
 Destroy
 (
@@ -492,7 +491,6 @@ ClientLayerManager
 ;
 public
 :
-virtual
 ShadowLayerForwarder
 *
 AsShadowForwarder
@@ -504,7 +502,6 @@ return
 mForwarder
 ;
 }
-virtual
 KnowsCompositor
 *
 AsKnowsCompositor
@@ -516,7 +513,6 @@ return
 mForwarder
 ;
 }
-virtual
 ClientLayerManager
 *
 AsClientLayerManager
@@ -534,7 +530,6 @@ GetTabGroup
 (
 )
 ;
-virtual
 int32_t
 GetMaxTextureSize
 (
@@ -542,7 +537,6 @@ GetMaxTextureSize
 const
 override
 ;
-virtual
 void
 SetDefaultTargetConfiguration
 (
@@ -552,7 +546,6 @@ ScreenRotation
 aRotation
 )
 ;
-virtual
 bool
 BeginTransactionWithTarget
 (
@@ -566,7 +559,6 @@ aURL
 )
 override
 ;
-virtual
 bool
 BeginTransaction
 (
@@ -577,7 +569,6 @@ aURL
 )
 override
 ;
-virtual
 bool
 EndEmptyTransaction
 (
@@ -588,7 +579,6 @@ END_DEFAULT
 )
 override
 ;
-virtual
 void
 EndTransaction
 (
@@ -604,7 +594,6 @@ END_DEFAULT
 )
 override
 ;
-virtual
 LayersBackend
 GetBackendType
 (
@@ -618,7 +607,6 @@ LayersBackend
 LAYERS_CLIENT
 ;
 }
-virtual
 LayersBackend
 GetCompositorBackendType
 (
@@ -636,7 +624,6 @@ GetCompositorBackendType
 )
 ;
 }
-virtual
 void
 GetBackendName
 (
@@ -646,7 +633,6 @@ name
 )
 override
 ;
-virtual
 const
 char
 *
@@ -662,7 +648,6 @@ Client
 "
 ;
 }
-virtual
 void
 SetRoot
 (
@@ -672,7 +657,6 @@ aLayer
 )
 override
 ;
-virtual
 void
 Mutated
 (
@@ -682,7 +666,6 @@ aLayer
 )
 override
 ;
-virtual
 void
 MutatedSimple
 (
@@ -692,7 +675,6 @@ aLayer
 )
 override
 ;
-virtual
 already_AddRefed
 <
 PaintedLayer
@@ -702,7 +684,6 @@ CreatePaintedLayer
 )
 override
 ;
-virtual
 already_AddRefed
 <
 PaintedLayer
@@ -714,7 +695,6 @@ aHint
 )
 override
 ;
-virtual
 already_AddRefed
 <
 ContainerLayer
@@ -724,7 +704,6 @@ CreateContainerLayer
 )
 override
 ;
-virtual
 already_AddRefed
 <
 ImageLayer
@@ -734,7 +713,6 @@ CreateImageLayer
 )
 override
 ;
-virtual
 already_AddRefed
 <
 CanvasLayer
@@ -744,7 +722,6 @@ CreateCanvasLayer
 )
 override
 ;
-virtual
 already_AddRefed
 <
 ReadbackLayer
@@ -754,7 +731,6 @@ CreateReadbackLayer
 )
 override
 ;
-virtual
 already_AddRefed
 <
 ColorLayer
@@ -764,7 +740,6 @@ CreateColorLayer
 )
 override
 ;
-virtual
 already_AddRefed
 <
 RefLayer
@@ -774,7 +749,6 @@ CreateRefLayer
 )
 override
 ;
-virtual
 void
 UpdateTextureFactoryIdentifier
 (
@@ -785,7 +759,6 @@ aNewIdentifier
 )
 override
 ;
-virtual
 TextureFactoryIdentifier
 GetTextureFactoryIdentifier
 (
@@ -803,21 +776,18 @@ GetTextureFactoryIdentifier
 )
 ;
 }
-virtual
 void
 FlushRendering
 (
 )
 override
 ;
-virtual
 void
 WaitOnTransactionProcessed
 (
 )
 override
 ;
-virtual
 void
 SendInvalidRegion
 (
@@ -828,7 +798,6 @@ aRegion
 )
 override
 ;
-virtual
 uint32_t
 StartFrameTimeRecording
 (
@@ -837,7 +806,6 @@ aBufferSize
 )
 override
 ;
-virtual
 void
 StopFrameTimeRecording
 (
@@ -852,7 +820,6 @@ aFrameIntervals
 )
 override
 ;
-virtual
 bool
 NeedsWidgetInvalidation
 (
@@ -887,14 +854,12 @@ HasShadowManager
 )
 ;
 }
-virtual
 bool
 IsCompositingCheap
 (
 )
 override
 ;
-virtual
 bool
 HasShadowManagerInternal
 (
@@ -908,14 +873,12 @@ HasShadowManager
 )
 ;
 }
-virtual
 void
 SetIsFirstPaint
 (
 )
 override
 ;
-virtual
 bool
 GetIsFirstPaint
 (
@@ -932,7 +895,6 @@ GetIsFirstPaint
 )
 ;
 }
-virtual
 void
 SetFocusTarget
 (
@@ -1024,7 +986,6 @@ we
 have
 one
 .
-virtual
 void
 ClearCachedResources
 (
@@ -1036,7 +997,6 @@ nullptr
 )
 override
 ;
-virtual
 void
 OnMemoryPressure
 (
@@ -1153,7 +1113,6 @@ GetRemoteRenderer
 (
 )
 ;
-virtual
 CompositorBridgeChild
 *
 GetCompositorBridgeChild
@@ -1214,7 +1173,6 @@ mPhase
 PHASE_NONE
 ;
 }
-virtual
 void
 SetNeedsComposite
 (
@@ -1228,7 +1186,6 @@ mNeedsComposite
 aNeedsComposite
 ;
 }
-virtual
 bool
 NeedsComposite
 (
@@ -1240,14 +1197,12 @@ return
 mNeedsComposite
 ;
 }
-virtual
 void
 ScheduleComposite
 (
 )
 override
 ;
-virtual
 void
 GetFrameUniformity
 (
@@ -1257,7 +1212,6 @@ aFrameUniformityData
 )
 override
 ;
-virtual
 void
 DidComposite
 (
@@ -1280,7 +1234,6 @@ aCompositeEnd
 )
 override
 ;
-virtual
 bool
 AreComponentAlphaLayersEnabled
 (
@@ -1596,7 +1549,6 @@ aData
 )
 const
 ;
-virtual
 void
 SetTransactionIdAllocator
 (
@@ -1606,7 +1558,6 @@ aAllocator
 )
 override
 ;
-virtual
 TransactionId
 GetLastTransactionId
 (
@@ -1634,7 +1585,6 @@ AsyncPanZoomEnabled
 const
 override
 ;
-virtual
 void
 SetLayersObserverEpoch
 (
@@ -1643,7 +1593,6 @@ aEpoch
 )
 override
 ;
-virtual
 void
 AddDidCompositeObserver
 (
@@ -1653,7 +1602,6 @@ aObserver
 )
 override
 ;
-virtual
 void
 RemoveDidCompositeObserver
 (
@@ -1663,7 +1611,6 @@ aObserver
 )
 override
 ;
-virtual
 already_AddRefed
 <
 PersistentBufferProvider

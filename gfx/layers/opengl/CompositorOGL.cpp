@@ -779,11 +779,11 @@ LOCAL_GL_PACK_ALIGNMENT
 }
 protected
 :
+virtual
 ~
 AsyncReadbackBufferOGL
 (
 )
-override
 ;
 private
 :

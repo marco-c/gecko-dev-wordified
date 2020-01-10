@@ -221,7 +221,6 @@ aSymmetric
 )
 ;
 }
-virtual
 SurfaceType
 GetType
 (
@@ -236,7 +235,6 @@ SurfaceType
 DATA
 ;
 }
-virtual
 uint8_t
 *
 GetData
@@ -253,7 +251,6 @@ GetData
 )
 ;
 }
-virtual
 int32_t
 Stride
 (
@@ -269,7 +266,6 @@ Stride
 )
 ;
 }
-virtual
 IntSize
 GetSize
 (
@@ -286,7 +282,6 @@ GetSize
 )
 ;
 }
-virtual
 SurfaceFormat
 GetFormat
 (
@@ -303,7 +298,6 @@ GetFormat
 )
 ;
 }
-virtual
 bool
 IsValid
 (

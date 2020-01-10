@@ -1085,8 +1085,9 @@ virtual
 ShutdownObserver
 (
 )
-{
-}
+=
+default
+;
 gfxFontInfoLoader
 *
 mLoader

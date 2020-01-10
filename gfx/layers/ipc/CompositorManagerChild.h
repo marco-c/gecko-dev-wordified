@@ -558,13 +558,14 @@ uint32_t
 aNamespace
 )
 ;
+virtual
 ~
 CompositorManagerChild
 (
 )
-override
-{
-}
+=
+default
+;
 void
 DeallocPCompositorManagerChild
 (

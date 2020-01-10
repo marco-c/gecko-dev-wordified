@@ -194,6 +194,7 @@ ImageComposite
 (
 )
 ;
+virtual
 ~
 ImageComposite
 (

@@ -258,11 +258,11 @@ aManager
 ;
 protected
 :
+virtual
 ~
 CanvasLayerMLGPU
 (
 )
-override
 ;
 public
 :

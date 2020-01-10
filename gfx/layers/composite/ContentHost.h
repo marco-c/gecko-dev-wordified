@@ -662,7 +662,6 @@ IntRect
 )
 ;
 }
-virtual
 ContentHost
 *
 AsContentHost
@@ -827,7 +826,6 @@ ContentHostBase
 (
 )
 ;
-virtual
 gfx
 :
 :
@@ -940,7 +938,6 @@ false
 )
 {
 }
-virtual
 void
 Composite
 (
@@ -998,7 +995,6 @@ Nothing
 )
 override
 ;
-virtual
 void
 SetTextureSourceProvider
 (
@@ -1008,7 +1004,6 @@ aProvider
 )
 override
 ;
-virtual
 already_AddRefed
 <
 gfx
@@ -1021,7 +1016,6 @@ GetAsSurface
 )
 override
 ;
-virtual
 void
 Dump
 (
@@ -1045,7 +1039,6 @@ false
 )
 override
 ;
-virtual
 void
 PrintInfo
 (
@@ -1062,7 +1055,6 @@ aPrefix
 )
 override
 ;
-virtual
 void
 UseTextureHost
 (
@@ -1076,7 +1068,6 @@ aTextures
 )
 override
 ;
-virtual
 void
 UseComponentAlphaTextures
 (
@@ -1089,7 +1080,6 @@ aTextureOnWhite
 )
 override
 ;
-virtual
 bool
 Lock
 (
@@ -1153,7 +1143,6 @@ return
 true
 ;
 }
-virtual
 void
 Unlock
 (
@@ -1229,7 +1218,6 @@ return
 this
 ;
 }
-virtual
 already_AddRefed
 <
 TexturedEffect
@@ -1339,9 +1327,9 @@ virtual
 ContentHostDoubleBuffered
 (
 )
-{
-}
-virtual
+=
+default
+;
 CompositableType
 GetType
 (
@@ -1441,9 +1429,9 @@ virtual
 ContentHostSingleBuffered
 (
 )
-{
-}
-virtual
+=
+default
+;
 CompositableType
 GetType
 (
@@ -1457,7 +1445,6 @@ CompositableType
 CONTENT_SINGLE
 ;
 }
-virtual
 bool
 UpdateThebes
 (

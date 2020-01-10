@@ -1177,6 +1177,7 @@ terminate
 class
 MOZ_STACK_CLASS
 AutoImageBridgeParentAsyncMessageSender
+final
 {
 public
 :

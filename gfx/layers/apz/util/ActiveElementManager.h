@@ -184,6 +184,7 @@ input
 /
 class
 ActiveElementManager
+final
 {
 ~
 ActiveElementManager

@@ -553,8 +553,9 @@ virtual
 VsyncSource
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

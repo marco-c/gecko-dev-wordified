@@ -497,6 +497,7 @@ data
 /
 class
 FPSCounter
+final
 {
 public
 :

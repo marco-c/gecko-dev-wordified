@@ -2488,6 +2488,7 @@ surface
 .
 class
 AutoClearDeviceOffset
+final
 {
 public
 :

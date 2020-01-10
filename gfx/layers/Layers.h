@@ -840,7 +840,6 @@ n
 e
 )
 \
-virtual
 const
 char
 *
@@ -855,7 +854,6 @@ n
 ;
 }
 \
-virtual
 LayerType
 GetType
 (
@@ -5087,8 +5085,9 @@ virtual
 LayerManager
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Print
@@ -14232,7 +14231,6 @@ SetEmpty
 )
 ;
 }
-virtual
 PaintedLayer
 *
 AsPaintedLayer
@@ -14251,7 +14249,6 @@ PaintedLayer
 "
 TYPE_PAINTED
 )
-virtual
 void
 ComputeEffectiveTransforms
 (
@@ -14732,7 +14729,6 @@ false
 )
 {
 }
-virtual
 void
 PrintInfo
 (
@@ -14749,7 +14745,6 @@ aPrefix
 )
 override
 ;
-virtual
 void
 DumpPacket
 (
@@ -15082,6 +15077,7 @@ Layer
 {
 public
 :
+virtual
 ~
 ContainerLayer
 (
@@ -15448,7 +15444,6 @@ Mutated
 )
 ;
 }
-virtual
 void
 FillSpecificAttributes
 (
@@ -15476,7 +15471,6 @@ SortMode
 aSortMode
 )
 ;
-virtual
 ContainerLayer
 *
 AsContainerLayer
@@ -15488,7 +15482,6 @@ return
 this
 ;
 }
-virtual
 const
 ContainerLayer
 *
@@ -15511,7 +15504,6 @@ be
 used
 anytime
 .
-virtual
 Layer
 *
 GetFirstChild
@@ -15524,7 +15516,6 @@ return
 mFirstChild
 ;
 }
-virtual
 Layer
 *
 GetLastChild
@@ -15633,7 +15624,6 @@ mUseIntermediateSurface
 .
 *
 /
-virtual
 void
 ComputeEffectiveTransforms
 (
@@ -16479,7 +16469,6 @@ Layer
 {
 public
 :
-virtual
 ColorLayer
 *
 AsColorLayer
@@ -16636,7 +16625,6 @@ ColorLayer
 "
 TYPE_COLOR
 )
-virtual
 void
 ComputeEffectiveTransforms
 (
@@ -16698,7 +16686,6 @@ mColor
 )
 {
 }
-virtual
 void
 PrintInfo
 (
@@ -16715,7 +16702,6 @@ aPrefix
 )
 override
 ;
-virtual
 void
 DumpPacket
 (
@@ -16862,7 +16848,6 @@ mBounds
 aBounds
 ;
 }
-virtual
 CanvasLayer
 *
 AsCanvasLayer
@@ -17144,7 +17129,6 @@ CanvasLayer
 "
 TYPE_CANVAS
 )
-virtual
 void
 ComputeEffectiveTransforms
 (
@@ -17271,7 +17255,6 @@ CanvasLayer
 (
 )
 ;
-virtual
 void
 PrintInfo
 (
@@ -17288,7 +17271,6 @@ aPrefix
 )
 override
 ;
-virtual
 void
 DumpPacket
 (
@@ -17449,7 +17431,6 @@ LayerManager
 ;
 private
 :
-virtual
 bool
 InsertAfter
 (
@@ -17475,7 +17456,6 @@ return
 false
 ;
 }
-virtual
 bool
 RemoveChild
 (
@@ -17498,7 +17478,6 @@ return
 false
 ;
 }
-virtual
 bool
 RepositionChild
 (
@@ -17922,7 +17901,6 @@ be
 used
 anytime
 .
-virtual
 RefLayer
 *
 AsRefLayer
@@ -17953,7 +17931,6 @@ PHASE
 ONLY
 *
 /
-virtual
 void
 FillSpecificAttributes
 (
@@ -18000,7 +17977,6 @@ NoOverride
 )
 {
 }
-virtual
 void
 PrintInfo
 (
@@ -18017,7 +17993,6 @@ aPrefix
 )
 override
 ;
-virtual
 void
 DumpPacket
 (

@@ -190,7 +190,6 @@ true
 }
 {
 }
-virtual
 FilterBackend
 GetBackendType
 (
@@ -290,7 +289,6 @@ aValue
 ;
 }
 }
-virtual
 void
 SetInput
 (
@@ -320,7 +318,6 @@ mInputs
 )
 ;
 }
-virtual
 void
 SetInput
 (
@@ -377,7 +374,6 @@ IntPoint
 Matrix
 >
 ;
-virtual
 void
 SetAttribute
 (
@@ -396,7 +392,6 @@ mAttributes
 )
 ;
 }
-virtual
 void
 SetAttribute
 (
@@ -415,7 +410,6 @@ mAttributes
 )
 ;
 }
-virtual
 void
 SetAttribute
 (
@@ -436,7 +430,6 @@ mAttributes
 )
 ;
 }
-virtual
 void
 SetAttribute
 (
@@ -457,7 +450,6 @@ mAttributes
 )
 ;
 }
-virtual
 void
 SetAttribute
 (
@@ -478,7 +470,6 @@ mAttributes
 )
 ;
 }
-virtual
 void
 SetAttribute
 (
@@ -499,7 +490,6 @@ mAttributes
 )
 ;
 }
-virtual
 void
 SetAttribute
 (
@@ -520,7 +510,6 @@ mAttributes
 )
 ;
 }
-virtual
 void
 SetAttribute
 (
@@ -541,7 +530,6 @@ mAttributes
 )
 ;
 }
-virtual
 void
 SetAttribute
 (
@@ -562,7 +550,6 @@ mAttributes
 )
 ;
 }
-virtual
 void
 SetAttribute
 (
@@ -583,7 +570,6 @@ mAttributes
 )
 ;
 }
-virtual
 void
 SetAttribute
 (
@@ -617,7 +603,6 @@ aSize
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -638,7 +623,6 @@ mAttributes
 )
 ;
 }
-virtual
 void
 SetAttribute
 (

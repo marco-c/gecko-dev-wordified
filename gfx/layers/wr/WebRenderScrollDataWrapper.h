@@ -438,6 +438,7 @@ API
 class
 MOZ_STACK_CLASS
 WebRenderScrollDataWrapper
+final
 {
 public
 :

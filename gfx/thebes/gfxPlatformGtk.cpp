@@ -3844,8 +3844,9 @@ virtual
 GLXDisplay
 (
 )
-{
-}
+=
+default
+;
 void
 RunVsync
 (

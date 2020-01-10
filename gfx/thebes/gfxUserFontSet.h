@@ -252,8 +252,9 @@ virtual
 gfxFontFaceBufferSource
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /
@@ -759,8 +760,9 @@ virtual
 gfxUserFontData
 (
 )
-{
-}
+=
+default
+;
 size_t
 SizeOfIncludingThis
 (
@@ -2158,8 +2160,9 @@ virtual
 Flusher
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

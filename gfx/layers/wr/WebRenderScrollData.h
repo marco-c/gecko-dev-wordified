@@ -332,6 +332,7 @@ WebRenderScrollData
 .
 class
 WebRenderLayerScrollData
+final
 {
 public
 :
@@ -1113,6 +1114,7 @@ side
 .
 class
 WebRenderScrollData
+final
 {
 public
 :
@@ -1126,11 +1128,6 @@ WebRenderScrollData
 WebRenderLayerManager
 *
 aManager
-)
-;
-~
-WebRenderScrollData
-(
 )
 ;
 WebRenderLayerManager

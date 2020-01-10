@@ -434,7 +434,6 @@ NewRenderer
 )
 ;
 }
-virtual
 void
 Run
 (
@@ -880,6 +879,7 @@ RemoveRenderer
 )
 ;
 }
+virtual
 ~
 RemoveRenderer
 (
@@ -891,7 +891,6 @@ RemoveRenderer
 )
 ;
 }
-virtual
 void
 Run
 (
@@ -2405,6 +2404,7 @@ Readback
 )
 ;
 }
+virtual
 ~
 Readback
 (
@@ -2416,7 +2416,6 @@ Readback
 )
 ;
 }
-virtual
 void
 Run
 (
@@ -2670,6 +2669,7 @@ PauseEvent
 )
 ;
 }
+virtual
 ~
 PauseEvent
 (
@@ -2681,7 +2681,6 @@ PauseEvent
 )
 ;
 }
-virtual
 void
 Run
 (
@@ -2839,6 +2838,7 @@ ResumeEvent
 )
 ;
 }
+virtual
 ~
 ResumeEvent
 (
@@ -2850,7 +2850,6 @@ ResumeEvent
 )
 ;
 }
-virtual
 void
 Run
 (
@@ -3078,6 +3077,7 @@ WaitFlushedEvent
 )
 ;
 }
+virtual
 ~
 WaitFlushedEvent
 (
@@ -3089,7 +3089,6 @@ WaitFlushedEvent
 )
 ;
 }
-virtual
 void
 Run
 (
@@ -3851,6 +3850,7 @@ FrameStartTime
 )
 ;
 }
+virtual
 ~
 FrameStartTime
 (
@@ -3862,7 +3862,6 @@ FrameStartTime
 )
 ;
 }
-virtual
 void
 Run
 (

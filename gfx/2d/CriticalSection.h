@@ -356,6 +356,7 @@ helper
 .
 struct
 CriticalSectionAutoEnter
+final
 {
 explicit
 CriticalSectionAutoEnter

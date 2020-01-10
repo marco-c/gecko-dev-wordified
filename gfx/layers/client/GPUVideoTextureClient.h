@@ -173,12 +173,12 @@ IntSize
 aSize
 )
 ;
+virtual
 ~
 GPUVideoTextureData
 (
 )
 ;
-virtual
 void
 FillInfo
 (
@@ -192,7 +192,6 @@ aInfo
 const
 override
 ;
-virtual
 bool
 Lock
 (
@@ -205,7 +204,6 @@ true
 ;
 }
 ;
-virtual
 void
 Unlock
 (
@@ -214,7 +212,6 @@ override
 {
 }
 ;
-virtual
 bool
 Serialize
 (
@@ -224,7 +221,6 @@ aOutDescriptor
 )
 override
 ;
-virtual
 void
 Deallocate
 (
@@ -234,7 +230,6 @@ aAllocator
 )
 override
 ;
-virtual
 void
 Forget
 (
@@ -255,7 +250,6 @@ GetAsSourceSurface
 (
 )
 ;
-virtual
 GPUVideoTextureData
 *
 AsGPUVideoTextureData

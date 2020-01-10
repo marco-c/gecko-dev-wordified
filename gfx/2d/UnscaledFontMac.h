@@ -215,6 +215,7 @@ mFont
 )
 ;
 }
+virtual
 ~
 UnscaledFontMac
 (

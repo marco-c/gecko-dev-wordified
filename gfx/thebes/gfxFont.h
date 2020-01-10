@@ -2673,7 +2673,6 @@ just
 delete
 it
 .
-virtual
 void
 NotifyExpiredLocked
 (
@@ -4240,8 +4239,9 @@ virtual
 gfxFontShaper
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Shape
@@ -4706,8 +4706,9 @@ virtual
 gfxShapedText
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *
@@ -8805,7 +8806,6 @@ p
 )
 ;
 }
-virtual
 const
 CompressedGlyph
 *
@@ -8823,7 +8823,6 @@ mCharGlyphsStorage
 ]
 ;
 }
-virtual
 CompressedGlyph
 *
 GetCharacterGlyphs

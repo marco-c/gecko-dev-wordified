@@ -586,6 +586,7 @@ alignment
 >
 struct
 AlignedArray
+final
 {
 typedef
 T

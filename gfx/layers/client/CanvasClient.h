@@ -433,8 +433,9 @@ virtual
 CanvasClient
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Clear
@@ -464,7 +465,6 @@ aRenderRoot
 =
 0
 ;
-virtual
 bool
 AddTextureClient
 (
@@ -595,7 +595,6 @@ mTextureFlags
 )
 ;
 }
-virtual
 void
 Clear
 (
@@ -611,7 +610,6 @@ mBufferProviderTexture
 nullptr
 ;
 }
-virtual
 void
 Update
 (
@@ -631,7 +629,6 @@ aRenderRoot
 )
 override
 ;
-virtual
 void
 UpdateFromTexture
 (
@@ -646,7 +643,6 @@ aRenderRoot
 )
 override
 ;
-virtual
 bool
 AddTextureClient
 (
@@ -666,7 +662,6 @@ aTexture
 )
 ;
 }
-virtual
 void
 OnDetach
 (
@@ -864,7 +859,6 @@ CanvasClientSharedSurface
 (
 )
 ;
-virtual
 TextureInfo
 GetTextureInfo
 (
@@ -882,7 +876,6 @@ IMAGE
 )
 ;
 }
-virtual
 void
 Clear
 (
@@ -894,7 +887,6 @@ ClearSurfaces
 )
 ;
 }
-virtual
 void
 Update
 (
@@ -927,7 +919,6 @@ Renderer
 aRenderer
 )
 ;
-virtual
 void
 UpdateAsync
 (
@@ -937,7 +928,6 @@ aRenderer
 )
 override
 ;
-virtual
 void
 Updated
 (
@@ -949,7 +939,6 @@ aRenderRoot
 )
 override
 ;
-virtual
 void
 OnDetach
 (
@@ -1039,7 +1028,6 @@ IMAGE
 )
 ;
 }
-virtual
 void
 Update
 (
@@ -1060,7 +1048,6 @@ aRenderRoot
 override
 {
 }
-virtual
 void
 UpdateAsync
 (

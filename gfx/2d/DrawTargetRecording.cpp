@@ -447,7 +447,6 @@ this
 )
 ;
 }
-virtual
 SurfaceType
 GetType
 (
@@ -462,7 +461,6 @@ SurfaceType
 RECORDING
 ;
 }
-virtual
 IntSize
 GetSize
 (
@@ -474,7 +472,6 @@ return
 mSize
 ;
 }
-virtual
 SurfaceFormat
 GetFormat
 (
@@ -486,7 +483,6 @@ return
 mFormat
 ;
 }
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -675,7 +671,6 @@ return
 nullptr
 ;
 }
-virtual
 SurfaceType
 GetType
 (
@@ -690,7 +685,6 @@ SurfaceType
 RECORDING
 ;
 }
-virtual
 IntSize
 GetSize
 (
@@ -702,7 +696,6 @@ return
 mSize
 ;
 }
-virtual
 int32_t
 Stride
 (
@@ -713,7 +706,6 @@ return
 mStride
 ;
 }
-virtual
 SurfaceFormat
 GetFormat
 (
@@ -725,7 +717,6 @@ return
 mFormat
 ;
 }
-virtual
 uint8_t
 *
 GetData
@@ -795,6 +786,7 @@ this
 )
 ;
 }
+virtual
 ~
 GradientStopsRecording
 (
@@ -823,7 +815,6 @@ this
 )
 ;
 }
-virtual
 BackendType
 GetBackendType
 (
@@ -887,6 +878,7 @@ this
 )
 ;
 }
+virtual
 ~
 FilterNodeRecording
 (
@@ -915,7 +907,6 @@ this
 )
 ;
 }
-virtual
 void
 SetInput
 (
@@ -950,7 +941,6 @@ aSurface
 )
 ;
 }
-virtual
 void
 SetInput
 (
@@ -995,7 +985,6 @@ type
 argtype
 )
 \
-virtual
 void
 SetAttribute
 (
@@ -1132,7 +1121,6 @@ COLOR
 #
 undef
 FORWARD_SET_ATTRIBUTE
-virtual
 void
 SetAttribute
 (
@@ -1162,7 +1150,6 @@ aSize
 )
 ;
 }
-virtual
 FilterBackend
 GetBackendType
 (

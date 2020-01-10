@@ -401,8 +401,9 @@ virtual
 LayersIPCChannel
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /

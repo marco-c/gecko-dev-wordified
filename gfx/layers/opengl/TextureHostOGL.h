@@ -1057,7 +1057,6 @@ TextureFlags
 DEFAULT
 )
 ;
-virtual
 const
 char
 *
@@ -1076,7 +1075,6 @@ TextureImageTextureSourceOGL
 /
 /
 DataTextureSource
-virtual
 bool
 Update
 (
@@ -1116,7 +1114,6 @@ gfxContentType
 aContentType
 )
 ;
-virtual
 TextureImageTextureSourceOGL
 *
 AsTextureImageTextureSource
@@ -1131,14 +1128,12 @@ this
 /
 /
 TextureSource
-virtual
 void
 DeallocateDeviceData
 (
 )
 override
 ;
-virtual
 TextureSourceOGL
 *
 AsSourceOGL
@@ -1150,7 +1145,6 @@ return
 this
 ;
 }
-virtual
 void
 BindTexture
 (
@@ -1164,7 +1158,6 @@ aSamplingFilter
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -1175,7 +1168,6 @@ GetSize
 const
 override
 ;
-virtual
 gfx
 :
 :
@@ -1186,7 +1178,6 @@ GetFormat
 const
 override
 ;
-virtual
 bool
 IsValid
 (
@@ -1200,7 +1191,6 @@ return
 mTexImage
 ;
 }
-virtual
 void
 SetTextureSourceProvider
 (
@@ -1210,7 +1200,6 @@ aProvider
 )
 override
 ;
-virtual
 GLenum
 GetWrapMode
 (
@@ -1230,7 +1219,6 @@ GetWrapMode
 /
 /
 BigImageIterator
-virtual
 BigImageIterator
 *
 AsBigImageIterator
@@ -1242,7 +1230,6 @@ return
 this
 ;
 }
-virtual
 void
 BeginBigImageIteration
 (
@@ -1261,7 +1248,6 @@ mIterating
 true
 ;
 }
-virtual
 void
 EndBigImageIteration
 (
@@ -1273,7 +1259,6 @@ mIterating
 false
 ;
 }
-virtual
 gfx
 :
 :
@@ -1283,7 +1268,6 @@ GetTileRect
 )
 override
 ;
-virtual
 size_t
 GetTileCount
 (
@@ -1299,7 +1283,6 @@ GetTileCount
 )
 ;
 }
-virtual
 bool
 NextTile
 (
@@ -1443,7 +1426,6 @@ GLTextureSource
 (
 )
 ;
-virtual
 const
 char
 *
@@ -1459,7 +1441,6 @@ GLTextureSource
 "
 ;
 }
-virtual
 GLTextureSource
 *
 AsGLTextureSource
@@ -1471,7 +1452,6 @@ return
 this
 ;
 }
-virtual
 TextureSourceOGL
 *
 AsSourceOGL
@@ -1483,7 +1463,6 @@ return
 this
 ;
 }
-virtual
 void
 BindTexture
 (
@@ -1497,7 +1476,6 @@ aSamplingFilter
 )
 override
 ;
-virtual
 bool
 IsValid
 (
@@ -1505,7 +1483,6 @@ IsValid
 const
 override
 ;
-virtual
 gfx
 :
 :
@@ -1520,7 +1497,6 @@ return
 mSize
 ;
 }
-virtual
 gfx
 :
 :
@@ -1535,7 +1511,6 @@ return
 mFormat
 ;
 }
-virtual
 GLenum
 GetTextureTarget
 (
@@ -1547,7 +1522,6 @@ return
 mTextureTarget
 ;
 }
-virtual
 GLenum
 GetWrapMode
 (
@@ -1559,14 +1533,12 @@ return
 LOCAL_GL_CLAMP_TO_EDGE
 ;
 }
-virtual
 void
 DeallocateDeviceData
 (
 )
 override
 ;
-virtual
 void
 SetTextureSourceProvider
 (
@@ -1630,7 +1602,6 @@ return
 mGL
 ;
 }
-virtual
 bool
 Update
 (
@@ -1807,7 +1778,6 @@ DirectMapTextureSource
 (
 )
 ;
-virtual
 bool
 Update
 (
@@ -1833,7 +1803,6 @@ nullptr
 )
 override
 ;
-virtual
 bool
 IsDirectMap
 (
@@ -1882,7 +1851,6 @@ done
 with
 it
 .
-virtual
 bool
 Sync
 (
@@ -1891,7 +1859,6 @@ aBlocking
 )
 override
 ;
-virtual
 void
 MaybeFenceTexture
 (
@@ -1969,7 +1936,6 @@ t
 own
 anything
 .
-virtual
 void
 DeallocateDeviceData
 (
@@ -1977,7 +1943,6 @@ DeallocateDeviceData
 override
 {
 }
-virtual
 void
 SetTextureSourceProvider
 (
@@ -1987,14 +1952,12 @@ aProvider
 )
 override
 ;
-virtual
 bool
 Lock
 (
 )
 override
 ;
-virtual
 void
 Unlock
 (
@@ -2002,7 +1965,6 @@ Unlock
 override
 {
 }
-virtual
 gfx
 :
 :
@@ -2013,7 +1975,6 @@ GetFormat
 const
 override
 ;
-virtual
 bool
 BindTextureSource
 (
@@ -2033,7 +1994,6 @@ return
 aTexture
 ;
 }
-virtual
 already_AddRefed
 <
 gfx
@@ -2070,7 +2030,6 @@ gl
 )
 const
 ;
-virtual
 gfx
 :
 :
@@ -2085,7 +2044,6 @@ return
 mSize
 ;
 }
-virtual
 const
 char
 *
@@ -2252,7 +2210,6 @@ bool
 aIgnoreTransform
 )
 ;
-virtual
 const
 char
 *
@@ -2268,7 +2225,6 @@ SurfaceTextureSource
 "
 ;
 }
-virtual
 TextureSourceOGL
 *
 AsSourceOGL
@@ -2280,7 +2236,6 @@ return
 this
 ;
 }
-virtual
 void
 BindTexture
 (
@@ -2294,7 +2249,6 @@ aSamplingFilter
 )
 override
 ;
-virtual
 bool
 IsValid
 (
@@ -2302,7 +2256,6 @@ IsValid
 const
 override
 ;
-virtual
 gfx
 :
 :
@@ -2317,7 +2270,6 @@ return
 mSize
 ;
 }
-virtual
 gfx
 :
 :
@@ -2332,7 +2284,6 @@ return
 mFormat
 ;
 }
-virtual
 gfx
 :
 :
@@ -2342,7 +2293,6 @@ GetTextureTransform
 )
 override
 ;
-virtual
 GLenum
 GetTextureTarget
 (
@@ -2354,7 +2304,6 @@ return
 mTextureTarget
 ;
 }
-virtual
 GLenum
 GetWrapMode
 (
@@ -2366,14 +2315,12 @@ return
 mWrapMode
 ;
 }
-virtual
 void
 DeallocateDeviceData
 (
 )
 override
 ;
-virtual
 void
 SetTextureSourceProvider
 (
@@ -2494,7 +2441,6 @@ SurfaceTextureHost
 (
 )
 ;
-virtual
 void
 PrepareTextureSource
 (
@@ -2504,14 +2450,12 @@ aTexture
 )
 override
 ;
-virtual
 void
 DeallocateDeviceData
 (
 )
 override
 ;
-virtual
 void
 SetTextureSourceProvider
 (
@@ -2521,14 +2465,12 @@ aProvider
 )
 override
 ;
-virtual
 bool
 Lock
 (
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -2539,14 +2481,12 @@ GetFormat
 const
 override
 ;
-virtual
 void
 NotifyNotUsed
 (
 )
 override
 ;
-virtual
 bool
 BindTextureSource
 (
@@ -2566,7 +2506,6 @@ return
 aTexture
 ;
 }
-virtual
 already_AddRefed
 <
 gfx
@@ -2603,7 +2542,6 @@ gl
 )
 const
 ;
-virtual
 gfx
 :
 :
@@ -2618,7 +2556,6 @@ return
 mSize
 ;
 }
-virtual
 const
 char
 *
@@ -2633,7 +2570,6 @@ SurfaceTextureHost
 "
 ;
 }
-virtual
 SurfaceTextureHost
 *
 AsSurfaceTextureHost
@@ -2645,7 +2581,6 @@ return
 this
 ;
 }
-virtual
 void
 CreateRenderTexture
 (
@@ -2659,7 +2594,6 @@ aExternalImageId
 )
 override
 ;
-virtual
 void
 PushResourceUpdates
 (
@@ -2691,7 +2625,6 @@ aExtID
 )
 override
 ;
-virtual
 void
 PushDisplayItems
 (
@@ -2900,7 +2833,6 @@ IntSize
 aSize
 )
 ;
-virtual
 const
 char
 *
@@ -2916,7 +2848,6 @@ EGLImageTextureSource
 "
 ;
 }
-virtual
 TextureSourceOGL
 *
 AsSourceOGL
@@ -2928,7 +2859,6 @@ return
 this
 ;
 }
-virtual
 void
 BindTexture
 (
@@ -2942,7 +2872,6 @@ aSamplingFilter
 )
 override
 ;
-virtual
 bool
 IsValid
 (
@@ -2950,7 +2879,6 @@ IsValid
 const
 override
 ;
-virtual
 gfx
 :
 :
@@ -2965,7 +2893,6 @@ return
 mSize
 ;
 }
-virtual
 gfx
 :
 :
@@ -2980,7 +2907,6 @@ return
 mFormat
 ;
 }
-virtual
 gfx
 :
 :
@@ -2990,7 +2916,6 @@ GetTextureTransform
 )
 override
 ;
-virtual
 GLenum
 GetTextureTarget
 (
@@ -3002,7 +2927,6 @@ return
 mTextureTarget
 ;
 }
-virtual
 GLenum
 GetWrapMode
 (
@@ -3023,7 +2947,6 @@ t
 own
 anything
 .
-virtual
 void
 DeallocateDeviceData
 (
@@ -3031,7 +2954,6 @@ DeallocateDeviceData
 override
 {
 }
-virtual
 void
 SetTextureSourceProvider
 (
@@ -3141,7 +3063,6 @@ t
 own
 anything
 .
-virtual
 void
 DeallocateDeviceData
 (
@@ -3158,21 +3079,18 @@ aProvider
 )
 override
 ;
-virtual
 bool
 Lock
 (
 )
 override
 ;
-virtual
 void
 Unlock
 (
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -3183,7 +3101,6 @@ GetFormat
 const
 override
 ;
-virtual
 bool
 BindTextureSource
 (
@@ -3203,7 +3120,6 @@ return
 aTexture
 ;
 }
-virtual
 already_AddRefed
 <
 gfx
@@ -3240,7 +3156,6 @@ gl
 )
 const
 ;
-virtual
 gfx
 :
 :
@@ -3255,7 +3170,6 @@ return
 mSize
 ;
 }
-virtual
 const
 char
 *
@@ -3270,7 +3184,6 @@ EGLImageTextureHost
 "
 ;
 }
-virtual
 void
 CreateRenderTexture
 (
@@ -3284,7 +3197,6 @@ aExternalImageId
 )
 override
 ;
-virtual
 void
 PushResourceUpdates
 (
@@ -3316,7 +3228,6 @@ aExtID
 )
 override
 ;
-virtual
 void
 PushDisplayItems
 (

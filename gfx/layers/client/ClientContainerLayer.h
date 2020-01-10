@@ -300,7 +300,6 @@ ClientContainerLayer
 }
 public
 :
-virtual
 void
 RenderLayer
 (
@@ -416,7 +415,6 @@ Mutated
 }
 }
 }
-virtual
 void
 SetVisibleRegion
 (
@@ -457,7 +455,6 @@ aRegion
 )
 ;
 }
-virtual
 bool
 InsertAfter
 (
@@ -566,7 +563,6 @@ return
 true
 ;
 }
-virtual
 bool
 RemoveChild
 (
@@ -675,7 +671,6 @@ return
 true
 ;
 }
-virtual
 bool
 RepositionChild
 (
@@ -784,7 +779,6 @@ return
 true
 ;
 }
-virtual
 Layer
 *
 AsLayer
@@ -796,7 +790,6 @@ return
 this
 ;
 }
-virtual
 ShadowableLayer
 *
 AsShadowableLayer
@@ -808,7 +801,6 @@ return
 this
 ;
 }
-virtual
 void
 ComputeEffectiveTransforms
 (
@@ -924,7 +916,6 @@ ClientRefLayer
 }
 public
 :
-virtual
 Layer
 *
 AsLayer
@@ -936,7 +927,6 @@ return
 this
 ;
 }
-virtual
 ShadowableLayer
 *
 AsShadowableLayer
@@ -948,7 +938,6 @@ return
 this
 ;
 }
-virtual
 void
 RenderLayer
 (
@@ -956,7 +945,6 @@ RenderLayer
 override
 {
 }
-virtual
 void
 ComputeEffectiveTransforms
 (

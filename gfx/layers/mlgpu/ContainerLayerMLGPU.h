@@ -165,11 +165,11 @@ LayerManagerMLGPU
 aManager
 )
 ;
+virtual
 ~
 ContainerLayerMLGPU
 (
 )
-override
 ;
 MOZ_LAYER_DECL_NAME
 (

@@ -513,12 +513,12 @@ Job
 {
 public
 :
+virtual
 ~
 DrawingJob
 (
 )
 ;
-virtual
 JobStatus
 Run
 (
@@ -635,6 +635,7 @@ DrawingJob
 .
 class
 DrawingJobBuilder
+final
 {
 public
 :

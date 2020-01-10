@@ -317,12 +317,12 @@ surf
 ;
 public
 :
+virtual
 ~
 SharedSurfaceTextureData
 (
 )
 ;
-virtual
 bool
 Lock
 (
@@ -334,7 +334,6 @@ return
 false
 ;
 }
-virtual
 void
 Unlock
 (
@@ -342,7 +341,6 @@ Unlock
 override
 {
 }
-virtual
 void
 FillInfo
 (
@@ -356,7 +354,6 @@ aInfo
 const
 override
 ;
-virtual
 bool
 Serialize
 (
@@ -366,7 +363,6 @@ aOutDescriptor
 )
 override
 ;
-virtual
 void
 Deallocate
 (

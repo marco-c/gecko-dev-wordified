@@ -337,6 +337,7 @@ EndFrame
 automatically
 class
 LayerScopeAutoFrame
+final
 {
 public
 :

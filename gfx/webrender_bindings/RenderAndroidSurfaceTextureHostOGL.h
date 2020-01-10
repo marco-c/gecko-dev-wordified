@@ -215,7 +215,6 @@ Unlock
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -228,7 +227,6 @@ aChannelIndex
 const
 override
 ;
-virtual
 GLuint
 GetGLHandle
 (

@@ -176,7 +176,6 @@ this
 )
 ;
 }
-virtual
 ShadowableLayer
 *
 AsShadowableLayer
@@ -188,7 +187,6 @@ return
 this
 ;
 }
-virtual
 Layer
 *
 AsLayer
@@ -200,7 +198,6 @@ return
 this
 ;
 }
-virtual
 void
 RenderLayer
 (

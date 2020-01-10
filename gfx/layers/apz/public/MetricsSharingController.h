@@ -242,8 +242,9 @@ virtual
 MetricsSharingController
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

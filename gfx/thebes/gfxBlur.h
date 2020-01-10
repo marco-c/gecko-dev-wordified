@@ -360,6 +360,7 @@ mask
 /
 class
 gfxAlphaBoxBlur
+final
 {
 typedef
 mozilla
@@ -396,6 +397,8 @@ public
 gfxAlphaBoxBlur
 (
 )
+=
+default
 ;
 ~
 gfxAlphaBoxBlur
@@ -1396,6 +1399,8 @@ surface
 uint8_t
 *
 mData
+=
+nullptr
 ;
 /
 *
@@ -1437,6 +1442,8 @@ blurs
 /
 bool
 mAccelerated
+=
+false
 ;
 }
 ;

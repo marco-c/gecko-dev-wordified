@@ -300,7 +300,6 @@ false
 )
 {
 }
-explicit
 CompositorOptions
 (
 bool

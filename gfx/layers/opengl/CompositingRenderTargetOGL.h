@@ -609,7 +609,6 @@ CompositingRenderTargetOGL
 (
 )
 ;
-virtual
 const
 char
 *
@@ -1028,7 +1027,6 @@ UNKNOWN
 #
 ifdef
 MOZ_DUMP_PAINTING
-virtual
 already_AddRefed
 <
 gfx

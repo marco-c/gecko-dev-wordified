@@ -187,6 +187,7 @@ GeckoContentController
 aController
 )
 ;
+virtual
 ~
 APZChild
 (

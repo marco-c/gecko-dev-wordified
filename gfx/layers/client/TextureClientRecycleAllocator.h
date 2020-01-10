@@ -199,8 +199,9 @@ virtual
 ITextureClientRecycleAllocator
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING

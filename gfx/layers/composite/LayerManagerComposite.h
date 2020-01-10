@@ -611,12 +611,12 @@ HostLayerManager
 (
 )
 ;
+virtual
 ~
 HostLayerManager
 (
 )
 ;
-virtual
 bool
 BeginTransactionWithTarget
 (
@@ -641,7 +641,6 @@ BeginTransactionWithDrawTarget
 )
 ;
 }
-virtual
 bool
 EndEmptyTransaction
 (
@@ -669,7 +668,6 @@ return
 false
 ;
 }
-virtual
 void
 EndTransaction
 (
@@ -699,7 +697,6 @@ aTimeStamp
 )
 ;
 }
-virtual
 int32_t
 GetMaxTextureSize
 (
@@ -721,7 +718,6 @@ LayerManagerComposite
 )
 ;
 }
-virtual
 void
 GetBackendName
 (
@@ -864,7 +860,6 @@ InvalidateAll
 =
 0
 ;
-virtual
 HostLayerManager
 *
 AsHostLayerManager
@@ -1640,12 +1635,12 @@ Compositor
 aCompositor
 )
 ;
+virtual
 ~
 LayerManagerComposite
 (
 )
 ;
-virtual
 void
 Destroy
 (
@@ -1750,7 +1745,6 @@ implementation
 .
 *
 /
-virtual
 LayerManagerComposite
 *
 AsLayerManagerComposite
@@ -1775,7 +1769,6 @@ aRect
 )
 override
 ;
-virtual
 bool
 BeginTransaction
 (
@@ -1849,7 +1842,6 @@ aTimeStamp
 )
 ;
 }
-virtual
 void
 SetRoot
 (
@@ -1887,7 +1879,6 @@ bug
 946926
 )
 .
-virtual
 bool
 CanUseCanvasLayerForSize
 (
@@ -1901,7 +1892,6 @@ aSize
 )
 override
 ;
-virtual
 void
 ClearCachedResources
 (
@@ -1913,7 +1903,6 @@ nullptr
 )
 override
 ;
-virtual
 already_AddRefed
 <
 PaintedLayer
@@ -1923,7 +1912,6 @@ CreatePaintedLayer
 )
 override
 ;
-virtual
 already_AddRefed
 <
 ContainerLayer
@@ -1933,7 +1921,6 @@ CreateContainerLayer
 )
 override
 ;
-virtual
 already_AddRefed
 <
 ImageLayer
@@ -1943,7 +1930,6 @@ CreateImageLayer
 )
 override
 ;
-virtual
 already_AddRefed
 <
 ColorLayer
@@ -1953,7 +1939,6 @@ CreateColorLayer
 )
 override
 ;
-virtual
 already_AddRefed
 <
 CanvasLayer
@@ -1963,7 +1948,6 @@ CreateCanvasLayer
 )
 override
 ;
-virtual
 already_AddRefed
 <
 RefLayer
@@ -1973,14 +1957,12 @@ CreateRefLayer
 )
 override
 ;
-virtual
 bool
 AreComponentAlphaLayersEnabled
 (
 )
 override
 ;
-virtual
 already_AddRefed
 <
 DrawTarget
@@ -1994,7 +1976,6 @@ aSize
 )
 override
 ;
-virtual
 const
 char
 *
@@ -2009,7 +1990,6 @@ return
 "
 ;
 }
-virtual
 bool
 IsCompositingToScreen
 (
@@ -2417,7 +2397,6 @@ override
 ;
 public
 :
-virtual
 TextureFactoryIdentifier
 GetTextureFactoryIdentifier
 (
@@ -2433,7 +2412,6 @@ GetTextureFactoryIdentifier
 )
 ;
 }
-virtual
 LayersBackend
 GetBackendType
 (
@@ -2456,7 +2434,6 @@ LayersBackend
 LAYERS_NONE
 ;
 }
-virtual
 void
 SetDiagnosticTypes
 (
@@ -2474,7 +2451,6 @@ aDiagnostics
 )
 ;
 }
-virtual
 void
 InvalidateAll
 (
@@ -3026,8 +3002,9 @@ virtual
 HostLayer
 (
 )
-{
-}
+=
+default
+;
 virtual
 LayerComposite
 *
@@ -3552,7 +3529,6 @@ LayerComposite
 (
 )
 ;
-virtual
 void
 SetLayerManager
 (
@@ -3562,7 +3538,6 @@ aManager
 )
 override
 ;
-virtual
 LayerComposite
 *
 GetFirstChildComposite
@@ -3712,7 +3687,6 @@ aGeometry
 =
 0
 ;
-virtual
 bool
 SetCompositableHost
 (

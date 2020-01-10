@@ -1084,6 +1084,7 @@ place
 class
 MOZ_STACK_CLASS
 LayerMetricsWrapper
+final
 {
 public
 :

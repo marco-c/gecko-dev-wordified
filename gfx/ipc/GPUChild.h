@@ -220,6 +220,7 @@ GPUProcessHost
 aHost
 )
 ;
+virtual
 ~
 GPUChild
 (

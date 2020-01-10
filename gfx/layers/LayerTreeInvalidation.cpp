@@ -1305,11 +1305,11 @@ LayerPropertiesBase
 )
 ;
 }
+virtual
 ~
 LayerPropertiesBase
 (
 )
-override
 {
 MOZ_COUNT_DTOR
 (

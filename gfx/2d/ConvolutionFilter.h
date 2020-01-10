@@ -140,6 +140,7 @@ gfx
 {
 class
 ConvolutionFilter
+final
 {
 public
 :

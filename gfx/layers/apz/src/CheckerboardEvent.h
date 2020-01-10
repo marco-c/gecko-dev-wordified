@@ -255,6 +255,7 @@ others
 /
 class
 CheckerboardEvent
+final
 {
 public
 :

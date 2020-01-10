@@ -180,11 +180,11 @@ LayersId
 aRootLayerTreeId
 )
 ;
+virtual
 ~
 RemoteCompositorSession
 (
 )
-override
 ;
 CompositorBridgeParent
 *

@@ -8650,7 +8650,6 @@ WebRenderUserData
 {
 public
 :
-explicit
 WebRenderGroupData
 (
 RenderRootStateManager
@@ -8667,7 +8666,6 @@ WebRenderGroupData
 (
 )
 ;
-virtual
 WebRenderGroupData
 *
 AsGroupData
@@ -8679,7 +8677,6 @@ return
 this
 ;
 }
-virtual
 UserDataType
 GetType
 (
@@ -17789,7 +17786,6 @@ reset
 )
 ;
 }
-virtual
 UserDataType
 GetType
 (

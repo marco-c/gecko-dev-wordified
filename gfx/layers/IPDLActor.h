@@ -309,7 +309,6 @@ IProtocol
 ActorDestroyReason
 Why
 ;
-virtual
 void
 ActorDestroy
 (

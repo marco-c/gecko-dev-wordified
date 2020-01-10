@@ -286,14 +286,6 @@ default
 nsFont
 :
 :
-nsFont
-(
-)
-{
-}
-nsFont
-:
-:
 ~
 nsFont
 (

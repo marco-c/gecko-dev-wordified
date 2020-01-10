@@ -196,12 +196,12 @@ SourceSurfaceSkia
 (
 )
 ;
+virtual
 ~
 SourceSurfaceSkia
 (
 )
 ;
-virtual
 SurfaceType
 GetType
 (
@@ -216,7 +216,6 @@ SurfaceType
 SKIA
 ;
 }
-virtual
 IntSize
 GetSize
 (
@@ -224,7 +223,6 @@ GetSize
 const
 override
 ;
-virtual
 SurfaceFormat
 GetFormat
 (
@@ -367,7 +365,6 @@ aOwner
 nullptr
 )
 ;
-virtual
 uint8_t
 *
 GetData
@@ -392,7 +389,6 @@ null
 .
 *
 /
-virtual
 bool
 Map
 (
@@ -403,14 +399,12 @@ aMappedSurface
 )
 override
 ;
-virtual
 void
 Unmap
 (
 )
 override
 ;
-virtual
 int32_t
 Stride
 (

@@ -286,11 +286,11 @@ TYPE_IMAGE
 )
 protected
 :
+virtual
 ~
 ImageLayerMLGPU
 (
 )
-override
 ;
 void
 PrintInfo

@@ -452,14 +452,6 @@ mReadbackTextureSize
 MLGPUScreenshotGrabber
 :
 :
-MLGPUScreenshotGrabber
-(
-)
-{
-}
-MLGPUScreenshotGrabber
-:
-:
 ~
 MLGPUScreenshotGrabber
 (

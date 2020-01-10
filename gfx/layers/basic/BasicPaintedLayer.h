@@ -305,7 +305,6 @@ ContentClient
 ContentType
 ContentType
 ;
-explicit
 BasicPaintedLayer
 (
 BasicLayerManager
@@ -361,7 +360,6 @@ BasicPaintedLayer
 }
 public
 :
-virtual
 void
 SetVisibleRegion
 (
@@ -402,7 +400,6 @@ aRegion
 )
 ;
 }
-virtual
 void
 InvalidateRegion
 (
@@ -446,7 +443,6 @@ UpdateValidRegionAfterInvalidRegionChanged
 )
 ;
 }
-virtual
 void
 PaintThebes
 (
@@ -467,7 +463,6 @@ aCallbackData
 )
 override
 ;
-virtual
 void
 Validate
 (
@@ -485,7 +480,6 @@ aReadback
 )
 override
 ;
-virtual
 void
 ClearCachedResources
 (
@@ -510,7 +504,6 @@ ClearValidRegion
 )
 ;
 }
-virtual
 void
 ComputeEffectiveTransforms
 (

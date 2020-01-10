@@ -375,12 +375,12 @@ NONE
 ;
 protected
 :
+virtual
 ~
 ClientTiledPaintedLayer
 (
 )
 ;
-virtual
 void
 PrintInfo
 (
@@ -411,7 +411,6 @@ ClientPaintedLayer
 in
 layer
 dumps
-virtual
 const
 char
 *
@@ -430,7 +429,6 @@ TiledPaintedLayer
 /
 /
 PaintedLayer
-virtual
 Layer
 *
 AsLayer
@@ -442,7 +440,6 @@ return
 this
 ;
 }
-virtual
 void
 InvalidateRegion
 (
@@ -512,7 +509,6 @@ GetRegion
 /
 Shadow
 methods
-virtual
 void
 FillSpecificAttributes
 (
@@ -522,7 +518,6 @@ aAttrs
 )
 override
 ;
-virtual
 ShadowableLayer
 *
 AsShadowableLayer
@@ -534,21 +529,18 @@ return
 this
 ;
 }
-virtual
 void
 RenderLayer
 (
 )
 override
 ;
-virtual
 void
 ClearCachedResources
 (
 )
 override
 ;
-virtual
 void
 HandleMemoryPressure
 (
@@ -626,7 +618,6 @@ bool
 aOutHasTransformAnimation
 )
 ;
-virtual
 bool
 IsOptimizedFor
 (

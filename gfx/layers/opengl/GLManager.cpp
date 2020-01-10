@@ -263,7 +263,6 @@ aCompositor
 )
 {
 }
-virtual
 GLContext
 *
 gl
@@ -281,7 +280,6 @@ gl
 )
 ;
 }
-virtual
 void
 ActivateProgram
 (
@@ -300,7 +298,6 @@ aProg
 )
 ;
 }
-virtual
 ShaderProgramOGL
 *
 GetProgram
@@ -334,7 +331,6 @@ config
 )
 ;
 }
-virtual
 const
 gfx
 :
@@ -356,7 +352,6 @@ GetProjMatrix
 )
 ;
 }
-virtual
 void
 BindAndDrawQuad
 (

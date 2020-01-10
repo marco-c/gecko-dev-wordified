@@ -460,8 +460,9 @@ virtual
 Translator
 (
 )
-{
-}
+=
+default
+;
 virtual
 DrawTarget
 *
@@ -1282,8 +1283,9 @@ virtual
 RecordedEvent
 (
 )
-{
-}
+=
+default
+;
 static
 std
 :

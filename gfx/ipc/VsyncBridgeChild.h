@@ -238,7 +238,6 @@ LayersId
 aLayersId
 )
 ;
-virtual
 void
 HandleFatalError
 (
@@ -264,6 +263,7 @@ uint64_t
 aProcessToken
 )
 ;
+virtual
 ~
 VsyncBridgeChild
 (

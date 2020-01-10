@@ -282,7 +282,6 @@ ClientColorLayer
 }
 public
 :
-virtual
 void
 SetVisibleRegion
 (
@@ -323,7 +322,6 @@ aRegion
 )
 ;
 }
-virtual
 void
 RenderLayer
 (
@@ -336,7 +334,6 @@ this
 )
 ;
 }
-virtual
 void
 FillSpecificAttributes
 (
@@ -359,7 +356,6 @@ GetBounds
 )
 ;
 }
-virtual
 Layer
 *
 AsLayer
@@ -371,7 +367,6 @@ return
 this
 ;
 }
-virtual
 ShadowableLayer
 *
 AsShadowableLayer

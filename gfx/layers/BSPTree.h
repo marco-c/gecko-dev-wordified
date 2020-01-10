@@ -647,6 +647,7 @@ html
 /
 class
 BSPTree
+final
 {
 public
 :

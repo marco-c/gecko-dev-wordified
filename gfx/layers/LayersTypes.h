@@ -2311,6 +2311,7 @@ use
 .
 class
 LayerHandle
+final
 {
 friend
 struct
@@ -2484,6 +2485,7 @@ use
 .
 class
 CompositableHandle
+final
 {
 friend
 struct

@@ -221,6 +221,7 @@ double
 aInitialVelocity
 )
 ;
+virtual
 ~
 AxisPhysicsModel
 (

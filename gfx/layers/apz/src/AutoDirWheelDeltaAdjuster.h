@@ -411,7 +411,6 @@ AutoDirWheelDeltaAdjuster
 .
 *
 /
-explicit
 APZAutoDirWheelDeltaAdjuster
 (
 double

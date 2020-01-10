@@ -322,7 +322,6 @@ TextureSourceBasic
 {
 public
 :
-virtual
 const
 char
 *
@@ -358,7 +357,6 @@ aSurface
 )
 {
 }
-virtual
 DataTextureSource
 *
 AsDataTextureSource
@@ -408,7 +406,6 @@ nullptr
 this
 ;
 }
-virtual
 TextureSourceBasic
 *
 AsSourceBasic
@@ -420,7 +417,6 @@ return
 this
 ;
 }
-virtual
 gfx
 :
 :
@@ -464,7 +460,6 @@ SurfaceFormat
 UNKNOWN
 ;
 }
-virtual
 IntSize
 GetSize
 (
@@ -492,7 +487,6 @@ IntSize
 )
 ;
 }
-virtual
 bool
 Update
 (
@@ -541,7 +535,6 @@ return
 true
 ;
 }
-virtual
 void
 DeallocateDeviceData
 (
@@ -612,7 +605,6 @@ TextureSourceBasic
 {
 public
 :
-virtual
 const
 char
 *
@@ -659,7 +651,6 @@ mFromYCBCR
 true
 ;
 }
-virtual
 DataTextureSource
 *
 AsDataTextureSource
@@ -671,7 +662,6 @@ return
 this
 ;
 }
-virtual
 TextureSourceBasic
 *
 AsSourceBasic
@@ -683,7 +673,6 @@ return
 this
 ;
 }
-virtual
 WrappingTextureSourceYCbCrBasic
 *
 AsWrappingTextureSourceYCbCrBasic
@@ -695,7 +684,6 @@ return
 this
 ;
 }
-virtual
 gfx
 :
 :
@@ -855,7 +843,6 @@ SurfaceFormat
 B8G8R8X8
 ;
 }
-virtual
 IntSize
 GetSize
 (
@@ -897,7 +884,6 @@ return
 false
 ;
 }
-virtual
 void
 DeallocateDeviceData
 (
@@ -918,7 +904,6 @@ SetUpdateSerial
 )
 ;
 }
-virtual
 void
 Unbind
 (

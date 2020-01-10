@@ -210,9 +210,9 @@ virtual
 DrawEventRecorderPrivate
 (
 )
-{
-}
-virtual
+=
+default
+;
 bool
 Finish
 (
@@ -815,6 +815,7 @@ char_type
 aFilename
 )
 ;
+virtual
 ~
 DrawEventRecorderFile
 (
@@ -1253,6 +1254,7 @@ mIndex
 ;
 protected
 :
+virtual
 ~
 DrawEventRecorderMemory
 (

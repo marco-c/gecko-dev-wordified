@@ -9546,8 +9546,9 @@ virtual
 DirectWriteFontInfo
 (
 )
-{
-}
+=
+default
+;
 /
 /
 loads
@@ -10706,8 +10707,9 @@ virtual
 BundledFontFileEnumerator
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 IDWriteFactory
@@ -10982,8 +10984,9 @@ virtual
 BundledFontLoader
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 IFACEMETHODIMP

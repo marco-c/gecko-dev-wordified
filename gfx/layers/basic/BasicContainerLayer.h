@@ -256,7 +256,6 @@ BasicContainerLayer
 ;
 public
 :
-virtual
 void
 SetVisibleRegion
 (
@@ -297,7 +296,6 @@ aRegion
 )
 ;
 }
-virtual
 bool
 InsertAfter
 (
@@ -351,7 +349,6 @@ aAfter
 )
 ;
 }
-virtual
 bool
 RemoveChild
 (
@@ -401,7 +398,6 @@ aChild
 )
 ;
 }
-virtual
 bool
 RepositionChild
 (
@@ -455,7 +451,6 @@ aAfter
 )
 ;
 }
-virtual
 void
 ComputeEffectiveTransforms
 (
@@ -634,7 +629,6 @@ mSupportsComponentAlphaChildren
 aSupports
 ;
 }
-virtual
 void
 Validate
 (
@@ -682,7 +676,6 @@ usage
 .
 *
 /
-virtual
 int32_t
 GetMaxLayerSize
 (

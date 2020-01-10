@@ -177,8 +177,9 @@ virtual
 SyncObjectHost
 (
 )
-{
-}
+=
+default
+;
 static
 already_AddRefed
 <
@@ -266,8 +267,9 @@ virtual
 SyncObjectClient
 (
 )
-{
-}
+=
+default
+;
 static
 already_AddRefed
 <

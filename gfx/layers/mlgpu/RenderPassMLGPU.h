@@ -245,8 +245,8 @@ uint32_t
 ;
 struct
 ItemInfo
+final
 {
-explicit
 ItemInfo
 (
 FrameBuilder
@@ -895,7 +895,6 @@ ExecuteRendering
 )
 override
 ;
-virtual
 Maybe
 <
 MLGBlendState
@@ -1317,6 +1316,7 @@ everything
 .
 class
 Txn
+final
 {
 public
 :
@@ -1611,6 +1611,7 @@ protected
 :
 struct
 Info
+final
 {
 Info
 (

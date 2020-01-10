@@ -711,7 +711,6 @@ AsyncParentMessageData
 aMessages
 )
 ;
-virtual
 PTextureChild
 *
 CreateTexture
@@ -1027,7 +1026,6 @@ IsSameProcess
 const
 override
 ;
-virtual
 bool
 IPCOpen
 (
@@ -1149,7 +1147,6 @@ uint64_t
 aFwdTransactionId
 )
 ;
-virtual
 void
 CancelWaitForRecycle
 (
@@ -1179,7 +1176,6 @@ ClearTexturePool
 (
 )
 ;
-virtual
 FixedSizeSmallShmemSectionAllocator
 *
 GetTileLockAllocator
@@ -1192,7 +1188,6 @@ HandleMemoryPressure
 (
 )
 ;
-virtual
 MessageLoop
 *
 GetMessageLoop
@@ -1205,7 +1200,6 @@ return
 mMessageLoop
 ;
 }
-virtual
 base
 :
 :
@@ -1222,7 +1216,6 @@ OtherPid
 )
 ;
 }
-virtual
 bool
 AllocUnsafeShmem
 (
@@ -1251,7 +1244,6 @@ aShmem
 )
 override
 ;
-virtual
 bool
 AllocShmem
 (
@@ -1280,7 +1272,6 @@ aShmem
 )
 override
 ;
-virtual
 bool
 DeallocShmem
 (
@@ -1767,7 +1758,6 @@ PLayerTransactionChild
 aChild
 )
 ;
-virtual
 void
 ActorDestroy
 (
@@ -1912,6 +1902,7 @@ hash
 table
 class
 SharedFrameMetricsData
+final
 {
 public
 :

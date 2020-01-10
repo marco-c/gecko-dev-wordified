@@ -524,7 +524,6 @@ nullptr
 )
 override
 ;
-virtual
 hb_blob_t
 *
 GetFontTable
@@ -534,7 +533,6 @@ aTableTag
 )
 override
 ;
-virtual
 nsresult
 CopyFontTable
 (
@@ -619,7 +617,6 @@ GetMMVar
 )
 override
 ;
-virtual
 void
 AddSizeOfExcludingThis
 (
@@ -635,7 +632,6 @@ aSizes
 const
 override
 ;
-virtual
 void
 AddSizeOfIncludingThis
 (
@@ -768,7 +764,6 @@ gfxFT2FontList
 (
 )
 ;
-virtual
 gfxFontEntry
 *
 LookupLocalFont
@@ -786,7 +781,6 @@ aStyleForEntry
 )
 override
 ;
-virtual
 gfxFontEntry
 *
 MakePlatformFont
@@ -844,7 +838,6 @@ PlatformFontList
 )
 ;
 }
-virtual
 void
 GetFontFamilyList
 (
@@ -892,7 +885,6 @@ StandardFile
 initialize
 font
 lists
-virtual
 nsresult
 InitFontListForPlatform
 (

@@ -713,7 +713,6 @@ ClearCachedResources
 )
 {
 }
-virtual
 CompositableHost
 *
 GetCompositableHost
@@ -885,11 +884,11 @@ LayerManagerMLGPU
 aManager
 )
 ;
+virtual
 ~
 RefLayerMLGPU
 (
 )
-override
 ;
 /
 /
@@ -985,11 +984,11 @@ LayerManagerMLGPU
 aManager
 )
 ;
+virtual
 ~
 ColorLayerMLGPU
 (
 )
-override
 ;
 /
 /

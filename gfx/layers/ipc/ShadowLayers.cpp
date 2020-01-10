@@ -1057,6 +1057,7 @@ Transaction
 ;
 struct
 AutoTxnEnd
+final
 {
 explicit
 AutoTxnEnd

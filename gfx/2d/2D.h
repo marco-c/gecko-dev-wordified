@@ -1151,8 +1151,9 @@ virtual
 GradientStops
 (
 )
-{
-}
+=
+default
+;
 virtual
 BackendType
 GetBackendType
@@ -1254,8 +1255,9 @@ virtual
 Pattern
 (
 )
-{
-}
+=
+default
+;
 virtual
 PatternType
 GetType
@@ -1270,8 +1272,9 @@ protected
 Pattern
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -1313,7 +1316,6 @@ aColor
 )
 {
 }
-virtual
 PatternType
 GetType
 (
@@ -1434,7 +1436,6 @@ aMatrix
 )
 {
 }
-virtual
 PatternType
 GetType
 (
@@ -1664,7 +1665,6 @@ aMatrix
 )
 {
 }
-virtual
 PatternType
 GetType
 (
@@ -1897,7 +1897,6 @@ aSamplingRect
 )
 {
 }
-virtual
 PatternType
 GetType
 (
@@ -2129,8 +2128,9 @@ virtual
 SourceSurface
 (
 )
-{
-}
+=
+default
+;
 virtual
 SurfaceType
 GetType
@@ -2767,7 +2767,6 @@ final
 {
 public
 :
-explicit
 ScopedMap
 (
 DataSourceSurface
@@ -3031,7 +3030,6 @@ mIsMapped
 ;
 }
 ;
-virtual
 SurfaceType
 GetType
 (
@@ -3408,7 +3406,6 @@ it
 .
 *
 /
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -3611,8 +3608,9 @@ virtual
 PathSink
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *
@@ -5739,8 +5737,9 @@ virtual
 NativeFontResource
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -5851,8 +5850,9 @@ virtual
 DrawTarget
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 IsValid
@@ -10070,7 +10070,6 @@ DrawTarget
 {
 public
 :
-virtual
 bool
 IsCaptureDT
 (
@@ -10141,8 +10140,9 @@ virtual
 DrawEventRecorder
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 struct

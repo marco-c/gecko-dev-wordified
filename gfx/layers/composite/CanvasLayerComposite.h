@@ -281,7 +281,6 @@ CanvasLayerComposite
 ;
 public
 :
-virtual
 bool
 SetCompositableHost
 (
@@ -291,7 +290,6 @@ aHost
 )
 override
 ;
-virtual
 void
 Disconnect
 (
@@ -303,7 +301,6 @@ Destroy
 )
 ;
 }
-virtual
 void
 SetLayerManager
 (
@@ -313,7 +310,6 @@ aManager
 )
 override
 ;
-virtual
 Layer
 *
 GetLayer
@@ -321,7 +317,6 @@ GetLayer
 )
 override
 ;
-virtual
 void
 RenderLayer
 (
@@ -345,14 +340,12 @@ aGeometry
 )
 override
 ;
-virtual
 void
 CleanupResources
 (
 )
 override
 ;
-virtual
 void
 GenEffectChain
 (
@@ -369,7 +362,6 @@ GetCompositableHost
 )
 override
 ;
-virtual
 HostLayer
 *
 AsHostLayer
@@ -381,7 +373,6 @@ return
 this
 ;
 }
-virtual
 const
 char
 *
@@ -419,7 +410,6 @@ return
 nullptr
 ;
 }
-virtual
 void
 PrintInfo
 (

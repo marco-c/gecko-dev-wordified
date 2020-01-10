@@ -208,7 +208,6 @@ Updated
 =
 0
 ;
-virtual
 const
 char
 *
@@ -253,7 +252,6 @@ SurfaceDescriptorX11
 aDescriptor
 )
 ;
-virtual
 void
 SetTextureSourceProvider
 (
@@ -263,14 +261,12 @@ aProvider
 )
 override
 ;
-virtual
 bool
 Lock
 (
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -281,7 +277,6 @@ GetFormat
 const
 override
 ;
-virtual
 gfx
 :
 :
@@ -292,7 +287,6 @@ GetSize
 const
 override
 ;
-virtual
 bool
 BindTextureSource
 (
@@ -312,7 +306,6 @@ return
 aTexture
 ;
 }
-virtual
 already_AddRefed
 <
 gfx
@@ -328,7 +321,6 @@ override
 #
 ifdef
 MOZ_LAYERS_HAVE_LOG
-virtual
 const
 char
 *
@@ -347,7 +339,6 @@ X11TextureHost
 endif
 protected
 :
-virtual
 void
 UpdatedInternal
 (

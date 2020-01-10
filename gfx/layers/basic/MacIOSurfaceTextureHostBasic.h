@@ -220,7 +220,6 @@ MacIOSurfaceTextureSourceBasic
 (
 )
 ;
-virtual
 const
 char
 *
@@ -236,7 +235,6 @@ MacIOSurfaceTextureSourceBasic
 "
 ;
 }
-virtual
 TextureSourceBasic
 *
 AsSourceBasic
@@ -248,7 +246,6 @@ return
 this
 ;
 }
-virtual
 gfx
 :
 :
@@ -259,7 +256,6 @@ GetSize
 const
 override
 ;
-virtual
 gfx
 :
 :
@@ -270,7 +266,6 @@ GetFormat
 const
 override
 ;
-virtual
 gfx
 :
 :
@@ -287,7 +282,6 @@ aTarget
 )
 override
 ;
-virtual
 void
 DeallocateDeviceData
 (
@@ -364,14 +358,12 @@ aProvider
 )
 override
 ;
-virtual
 bool
 Lock
 (
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -402,7 +394,6 @@ return
 aTexture
 ;
 }
-virtual
 already_AddRefed
 <
 gfx
@@ -429,7 +420,6 @@ for
 MOZ_DUMP_PAINTING
 )
 }
-virtual
 gfx
 :
 :
@@ -440,7 +430,6 @@ GetSize
 const
 override
 ;
-virtual
 MacIOSurface
 *
 GetMacIOSurface
@@ -455,7 +444,6 @@ mSurface
 #
 ifdef
 MOZ_LAYERS_HAVE_LOG
-virtual
 const
 char
 *

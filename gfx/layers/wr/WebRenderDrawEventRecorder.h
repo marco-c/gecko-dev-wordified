@@ -205,13 +205,14 @@ final
 ;
 private
 :
+virtual
 ~
 WebRenderDrawEventRecorder
 (
 )
-override
-{
-}
+=
+default
+;
 }
 ;
 class

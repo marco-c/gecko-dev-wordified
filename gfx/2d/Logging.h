@@ -1435,8 +1435,9 @@ virtual
 LogForwarder
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Log
@@ -1655,6 +1656,7 @@ BasicLogger
 >
 class
 Log
+final
 {
 public
 :
@@ -6065,6 +6067,7 @@ LOG_DEBUG
 >
 class
 TreeAutoIndent
+final
 {
 public
 :

@@ -575,7 +575,6 @@ NS_INLINE_DECL_REFCOUNTING
 (
 AsyncCompositionManager
 )
-explicit
 AsyncCompositionManager
 (
 CompositorBridgeParent

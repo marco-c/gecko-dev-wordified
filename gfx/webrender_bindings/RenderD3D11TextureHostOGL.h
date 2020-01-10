@@ -384,7 +384,6 @@ aRendering
 )
 override
 ;
-virtual
 void
 Unlock
 (

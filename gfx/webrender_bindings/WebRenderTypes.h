@@ -4971,6 +4971,7 @@ Vec
 <
 uint8_t
 >
+final
 {
 wr
 :

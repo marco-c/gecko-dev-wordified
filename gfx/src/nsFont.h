@@ -245,6 +245,7 @@ structure
 .
 struct
 nsFont
+final
 {
 typedef
 mozilla
@@ -859,6 +860,8 @@ uninitialized
 nsFont
 (
 )
+=
+default
 ;
 ~
 nsFont

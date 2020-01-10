@@ -314,6 +314,7 @@ notifications
 /
 class
 APZEventState
+final
 {
 typedef
 GeckoContentController

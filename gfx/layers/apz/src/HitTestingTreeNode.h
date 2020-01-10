@@ -1789,6 +1789,7 @@ freed
 class
 MOZ_RAII
 HitTestingTreeNodeAutoLock
+final
 {
 public
 :

@@ -234,8 +234,9 @@ virtual
 RecordedFrame
 (
 )
-{
-}
+=
+default
+;
 RecordedFrame
 (
 const

@@ -222,8 +222,9 @@ virtual
 DrawingCommand
 (
 )
-{
-}
+=
+default
+;
 virtual
 CommandType
 GetType

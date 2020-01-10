@@ -229,6 +229,7 @@ this
 }
 protected
 :
+virtual
 ~
 ColorLayerComposite
 (
@@ -250,7 +251,6 @@ public
 /
 LayerComposite
 Implementation
-virtual
 Layer
 *
 GetLayer
@@ -262,7 +262,6 @@ return
 this
 ;
 }
-virtual
 void
 SetLayerManager
 (
@@ -285,7 +284,6 @@ mManager
 aManager
 ;
 }
-virtual
 void
 Destroy
 (
@@ -297,7 +295,6 @@ mDestroyed
 true
 ;
 }
-virtual
 void
 RenderLayer
 (
@@ -321,7 +318,6 @@ aGeometry
 )
 override
 ;
-virtual
 void
 CleanupResources
 (
@@ -330,7 +326,6 @@ override
 {
 }
 ;
-virtual
 void
 GenEffectChain
 (
@@ -351,7 +346,6 @@ return
 nullptr
 ;
 }
-virtual
 HostLayer
 *
 AsHostLayer
@@ -363,7 +357,6 @@ return
 this
 ;
 }
-virtual
 const
 char
 *

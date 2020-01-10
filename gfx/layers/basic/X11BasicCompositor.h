@@ -202,7 +202,6 @@ X11DataTextureSourceBasic
 {
 }
 ;
-virtual
 const
 char
 *
@@ -218,7 +217,6 @@ X11DataTextureSourceBasic
 "
 ;
 }
-virtual
 bool
 Update
 (
@@ -244,7 +242,6 @@ nullptr
 )
 override
 ;
-virtual
 TextureSourceBasic
 *
 AsSourceBasic
@@ -252,7 +249,6 @@ AsSourceBasic
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -269,14 +265,12 @@ aTarget
 )
 override
 ;
-virtual
 void
 DeallocateDeviceData
 (
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -287,7 +281,6 @@ GetSize
 const
 override
 ;
-virtual
 gfx
 :
 :
@@ -357,7 +350,6 @@ aWidget
 )
 {
 }
-virtual
 already_AddRefed
 <
 DataTextureSource
@@ -374,7 +366,6 @@ NO_FLAGS
 )
 override
 ;
-virtual
 already_AddRefed
 <
 DataTextureSource
@@ -394,7 +385,6 @@ return
 nullptr
 ;
 }
-virtual
 void
 EndFrame
 (

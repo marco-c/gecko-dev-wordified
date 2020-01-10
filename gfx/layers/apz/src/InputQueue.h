@@ -1089,6 +1089,7 @@ queued
 .
 class
 AutoRunImmediateTimeout
+final
 {
 public
 :

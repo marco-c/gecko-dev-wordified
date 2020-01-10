@@ -1607,12 +1607,14 @@ aManager
 ;
 protected
 :
+virtual
 ~
 Observer
 (
 )
-{
-}
+=
+default
+;
 GPUProcessManager
 *
 mManager

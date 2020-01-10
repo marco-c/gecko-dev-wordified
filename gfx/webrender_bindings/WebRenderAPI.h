@@ -473,6 +473,7 @@ default
 ;
 class
 TransactionBuilder
+final
 {
 public
 :
@@ -1046,6 +1047,7 @@ mTxn
 ;
 class
 TransactionWrapper
+final
 {
 public
 :
@@ -1118,6 +1120,7 @@ mTxn
 ;
 class
 WebRenderAPI
+final
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
@@ -2128,10 +2131,10 @@ bit
 .
 class
 DisplayListBuilder
+final
 {
 public
 :
-explicit
 DisplayListBuilder
 (
 wr
@@ -3795,6 +3798,7 @@ DisplayListBuilder
 class
 MOZ_RAII
 FixedPosScrollTargetTracker
+final
 {
 public
 :
@@ -4112,6 +4116,7 @@ ClipChainId
 class
 MOZ_RAII
 SpaceAndClipChainHelper
+final
 {
 public
 :

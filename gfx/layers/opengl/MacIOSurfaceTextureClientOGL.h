@@ -192,7 +192,6 @@ MacIOSurfaceTextureData
 (
 )
 ;
-virtual
 void
 FillInfo
 (
@@ -206,7 +205,6 @@ aInfo
 const
 override
 ;
-virtual
 bool
 Lock
 (
@@ -214,14 +212,12 @@ OpenMode
 )
 override
 ;
-virtual
 void
 Unlock
 (
 )
 override
 ;
-virtual
 already_AddRefed
 <
 gfx
@@ -234,7 +230,6 @@ BorrowDrawTarget
 )
 override
 ;
-virtual
 bool
 Serialize
 (
@@ -244,7 +239,6 @@ aOutDescriptor
 )
 override
 ;
-virtual
 void
 Deallocate
 (
@@ -253,7 +247,6 @@ LayersIPCChannel
 )
 override
 ;
-virtual
 void
 Forget
 (
@@ -262,7 +255,6 @@ LayersIPCChannel
 )
 override
 ;
-virtual
 bool
 UpdateFromSurface
 (

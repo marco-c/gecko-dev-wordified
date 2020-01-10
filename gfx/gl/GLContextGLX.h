@@ -254,13 +254,12 @@ bool
 aWebRender
 )
 ;
+virtual
 ~
 GLContextGLX
 (
 )
-override
 ;
-virtual
 GLContextType
 GetContextType
 (
@@ -318,7 +317,6 @@ Init
 )
 override
 ;
-virtual
 bool
 MakeCurrentImpl
 (
@@ -326,7 +324,6 @@ MakeCurrentImpl
 const
 override
 ;
-virtual
 bool
 IsCurrentImpl
 (
@@ -344,7 +341,6 @@ GetSymbolLoader
 const
 override
 ;
-virtual
 bool
 IsDoubleBuffered
 (
@@ -352,14 +348,12 @@ IsDoubleBuffered
 const
 override
 ;
-virtual
 bool
 SwapBuffers
 (
 )
 override
 ;
-virtual
 void
 GetWSIInfo
 (

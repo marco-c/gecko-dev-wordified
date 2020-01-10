@@ -176,6 +176,7 @@ used
 .
 class
 BufferCache
+final
 {
 public
 :

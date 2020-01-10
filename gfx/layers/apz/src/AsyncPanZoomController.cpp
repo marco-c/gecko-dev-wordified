@@ -5404,6 +5404,7 @@ Now
 class
 MOZ_STACK_CLASS
 StateChangeNotificationBlocker
+final
 {
 public
 :
@@ -5579,6 +5580,7 @@ well
 class
 MOZ_RAII
 AutoApplyAsyncTestAttributes
+final
 {
 public
 :

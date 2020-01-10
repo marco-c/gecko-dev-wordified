@@ -224,8 +224,9 @@ virtual
 TextureSourceBasic
 (
 )
-{
-}
+=
+default
+;
 virtual
 gfx
 :

@@ -3493,8 +3493,9 @@ virtual
 OperationStringGenerator
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 OutputOp

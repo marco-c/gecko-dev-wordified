@@ -171,7 +171,6 @@ AsyncPanZoomAnimation
 {
 public
 :
-explicit
 OverscrollAnimation
 (
 AsyncPanZoomController
@@ -211,6 +210,7 @@ y
 )
 ;
 }
+virtual
 ~
 OverscrollAnimation
 (

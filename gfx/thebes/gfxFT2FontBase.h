@@ -211,14 +211,12 @@ cairo_text_extents_t
 aExtents
 )
 ;
-virtual
 uint32_t
 GetSpaceGlyph
 (
 )
 override
 ;
-virtual
 bool
 ProvidesGetGlyph
 (
@@ -241,7 +239,6 @@ variation_selector
 )
 override
 ;
-virtual
 bool
 ProvidesGlyphWidths
 (
@@ -253,7 +250,6 @@ return
 true
 ;
 }
-virtual
 int32_t
 GetGlyphWidth
 (
@@ -262,7 +258,6 @@ aGID
 )
 override
 ;
-virtual
 bool
 SetupCairoFont
 (
@@ -272,7 +267,6 @@ aDrawTarget
 )
 override
 ;
-virtual
 FontType
 GetType
 (
@@ -380,7 +374,6 @@ InitMetrics
 ;
 protected
 :
-virtual
 const
 Metrics
 &

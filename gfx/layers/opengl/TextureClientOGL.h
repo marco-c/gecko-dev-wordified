@@ -315,12 +315,12 @@ TextureFlags
 aFlags
 )
 ;
+virtual
 ~
 AndroidSurfaceTextureData
 (
 )
 ;
-virtual
 void
 FillInfo
 (
@@ -334,7 +334,6 @@ aInfo
 const
 override
 ;
-virtual
 bool
 Serialize
 (
@@ -349,7 +348,6 @@ override
 Useless
 functions
 .
-virtual
 bool
 Lock
 (
@@ -361,7 +359,6 @@ return
 true
 ;
 }
-virtual
 void
 Unlock
 (
@@ -378,7 +375,6 @@ always
 owned
 externally
 .
-virtual
 void
 Deallocate
 (
@@ -451,7 +447,6 @@ SurfaceFormat
 aFormat
 )
 ;
-virtual
 void
 FillInfo
 (
@@ -465,7 +460,6 @@ aInfo
 const
 override
 ;
-virtual
 bool
 Serialize
 (
@@ -475,7 +469,6 @@ aOutDescriptor
 )
 override
 ;
-virtual
 bool
 Lock
 (
@@ -483,14 +476,12 @@ OpenMode
 )
 override
 ;
-virtual
 void
 Unlock
 (
 )
 override
 ;
-virtual
 void
 Forget
 (
@@ -499,7 +490,6 @@ LayersIPCChannel
 )
 override
 ;
-virtual
 void
 Deallocate
 (
@@ -509,7 +499,6 @@ LayersIPCChannel
 override
 {
 }
-virtual
 already_AddRefed
 <
 gfx
@@ -522,7 +511,6 @@ BorrowDrawTarget
 )
 override
 ;
-virtual
 void
 OnForwardedToHost
 (

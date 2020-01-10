@@ -1809,6 +1809,7 @@ forget
 }
 class
 AutoCheckLockD3D11Texture
+final
 {
 public
 :

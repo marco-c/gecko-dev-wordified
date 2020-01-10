@@ -210,7 +210,6 @@ GetFontEntry
 (
 )
 ;
-virtual
 already_AddRefed
 <
 mozilla
@@ -229,7 +228,6 @@ aTarget
 )
 override
 ;
-virtual
 void
 AddSizeOfExcludingThis
 (
@@ -245,7 +243,6 @@ aSizes
 const
 override
 ;
-virtual
 void
 AddSizeOfIncludingThis
 (

@@ -185,11 +185,11 @@ LayerManagerMLGPU
 aManager
 )
 ;
+virtual
 ~
 PaintedLayerMLGPU
 (
 )
-override
 ;
 /
 /
@@ -216,7 +216,6 @@ return
 this
 ;
 }
-virtual
 Layer
 *
 GetLayer

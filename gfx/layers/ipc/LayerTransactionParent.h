@@ -300,6 +300,7 @@ aVsyncRate
 ;
 protected
 :
+virtual
 ~
 LayerTransactionParent
 (

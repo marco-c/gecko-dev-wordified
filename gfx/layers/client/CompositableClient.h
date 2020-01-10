@@ -1276,7 +1276,6 @@ scope
 struct
 AutoRemoveTexture
 {
-explicit
 AutoRemoveTexture
 (
 CompositableClient

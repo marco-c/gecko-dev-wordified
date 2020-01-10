@@ -309,8 +309,9 @@ virtual
 StrokeOptionsCommand
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 StrokeOptions
@@ -5001,7 +5002,6 @@ mTransform
 )
 ;
 }
-virtual
 void
 ExecuteOnDT
 (
@@ -5159,7 +5159,6 @@ mPermitSubpixelAA
 )
 ;
 }
-virtual
 void
 ExecuteOnDT
 (
@@ -5246,12 +5245,12 @@ DrawingCommand
 {
 public
 :
-explicit
 FlushCommand
 (
 )
-{
-}
+=
+default
+;
 CommandType
 GetType
 (

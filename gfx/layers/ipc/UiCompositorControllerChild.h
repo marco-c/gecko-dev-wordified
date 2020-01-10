@@ -410,7 +410,6 @@ aReason
 )
 override
 ;
-virtual
 void
 HandleFatalError
 (
@@ -489,6 +488,7 @@ uint64_t
 aProcessToken
 )
 ;
+virtual
 ~
 UiCompositorControllerChild
 (

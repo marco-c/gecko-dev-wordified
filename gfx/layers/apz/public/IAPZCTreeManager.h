@@ -1017,8 +1017,9 @@ virtual
 IAPZCTreeManager
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

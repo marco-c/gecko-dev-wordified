@@ -1162,8 +1162,9 @@ public
 PolygonTyped
 (
 )
-{
-}
+=
+default
+;
 explicit
 PolygonTyped
 (

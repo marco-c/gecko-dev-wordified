@@ -393,7 +393,6 @@ TextureFactoryIdentifier
 aTextureFactoryIdentifier
 )
 ;
-virtual
 void
 Destroy
 (
@@ -417,7 +416,6 @@ WebRenderLayerManager
 ;
 public
 :
-virtual
 KnowsCompositor
 *
 AsKnowsCompositor
@@ -436,7 +434,6 @@ return
 this
 ;
 }
-virtual
 CompositorBridgeChild
 *
 GetCompositorBridgeChild
@@ -459,7 +456,6 @@ size
 via
 tiling
 .
-virtual
 int32_t
 GetMaxTextureSize
 (
@@ -471,7 +467,6 @@ return
 INT32_MAX
 ;
 }
-virtual
 bool
 BeginTransactionWithTarget
 (
@@ -485,7 +480,6 @@ aURL
 )
 override
 ;
-virtual
 bool
 BeginTransaction
 (
@@ -496,7 +490,6 @@ aURL
 )
 override
 ;
-virtual
 bool
 EndEmptyTransaction
 (
@@ -531,7 +524,6 @@ aBackground
 nullptr
 )
 ;
-virtual
 void
 EndTransaction
 (
@@ -547,7 +539,6 @@ END_DEFAULT
 )
 override
 ;
-virtual
 LayersBackend
 GetBackendType
 (
@@ -561,7 +552,6 @@ LayersBackend
 LAYERS_WR
 ;
 }
-virtual
 void
 GetBackendName
 (
@@ -581,7 +571,6 @@ WebRender
 )
 ;
 }
-virtual
 const
 char
 *
@@ -597,7 +586,6 @@ WebRender
 "
 ;
 }
-virtual
 void
 SetRoot
 (
@@ -672,7 +660,6 @@ return
 nullptr
 ;
 }
-virtual
 bool
 NeedsWidgetInvalidation
 (
@@ -683,7 +670,6 @@ return
 false
 ;
 }
-virtual
 void
 SetLayersObserverEpoch
 (
@@ -692,7 +678,6 @@ aEpoch
 )
 override
 ;
-virtual
 void
 DidComposite
 (
@@ -715,7 +700,6 @@ aCompositeEnd
 )
 override
 ;
-virtual
 void
 ClearCachedResources
 (
@@ -727,7 +711,6 @@ nullptr
 )
 override
 ;
-virtual
 void
 UpdateTextureFactoryIdentifier
 (
@@ -738,14 +721,12 @@ aNewIdentifier
 )
 override
 ;
-virtual
 TextureFactoryIdentifier
 GetTextureFactoryIdentifier
 (
 )
 override
 ;
-virtual
 void
 SetTransactionIdAllocator
 (
@@ -755,14 +736,12 @@ aAllocator
 )
 override
 ;
-virtual
 TransactionId
 GetLastTransactionId
 (
 )
 override
 ;
-virtual
 void
 AddDidCompositeObserver
 (
@@ -772,7 +751,6 @@ aObserver
 )
 override
 ;
-virtual
 void
 RemoveDidCompositeObserver
 (
@@ -782,21 +760,18 @@ aObserver
 )
 override
 ;
-virtual
 void
 FlushRendering
 (
 )
 override
 ;
-virtual
 void
 WaitOnTransactionProcessed
 (
 )
 override
 ;
-virtual
 void
 SendInvalidRegion
 (
@@ -807,14 +782,12 @@ aRegion
 )
 override
 ;
-virtual
 void
 ScheduleComposite
 (
 )
 override
 ;
-virtual
 void
 SetNeedsComposite
 (
@@ -828,7 +801,6 @@ mNeedsComposite
 aNeedsComposite
 ;
 }
-virtual
 bool
 NeedsComposite
 (
@@ -840,7 +812,6 @@ return
 mNeedsComposite
 ;
 }
-virtual
 void
 SetIsFirstPaint
 (
@@ -852,7 +823,6 @@ mIsFirstPaint
 true
 ;
 }
-virtual
 bool
 GetIsFirstPaint
 (
@@ -864,7 +834,6 @@ return
 mIsFirstPaint
 ;
 }
-virtual
 void
 SetFocusTarget
 (
@@ -875,7 +844,6 @@ aFocusTarget
 )
 override
 ;
-virtual
 already_AddRefed
 <
 PersistentBufferProvider

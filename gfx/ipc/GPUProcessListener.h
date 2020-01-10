@@ -136,8 +136,9 @@ virtual
 GPUProcessListener
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Called
