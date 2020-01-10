@@ -1338,7 +1338,7 @@ THRESHOLD_LOW_PLAYBACKRATE_AUDIO
 =
 0
 .
-5
+25
 ;
 static
 double
