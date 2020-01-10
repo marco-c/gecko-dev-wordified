@@ -249,8 +249,8 @@ MOZ_SANDBOX
 bool
 SetMacSandboxInfo
 (
-MacSandboxPluginType
-aPluginType
+bool
+aAllowWindowServer
 )
 ;
 #
