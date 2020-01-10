@@ -211,6 +211,7 @@ shadow
 )
 filter
 .
+pub
 type
 AnimatedSimpleShadow
 =
