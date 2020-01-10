@@ -331,6 +331,9 @@ pathfinder
 )
 ]
 use
+crate
+:
+:
 glyph_rasterizer
 :
 :
