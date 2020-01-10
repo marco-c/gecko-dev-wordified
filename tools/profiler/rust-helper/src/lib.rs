@@ -68,6 +68,10 @@ extern
 crate
 thin_vec
 ;
+extern
+crate
+uuid
+;
 #
 [
 cfg
