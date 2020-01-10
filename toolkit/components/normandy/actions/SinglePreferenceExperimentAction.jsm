@@ -222,7 +222,7 @@ newArguments
 /
 /
 The
-multiple
+multi
 -
 preference
 -
@@ -340,7 +340,7 @@ multiprefSchema
 ActionSchemas
 [
 "
-multiple
+multi
 -
 preference
 -
