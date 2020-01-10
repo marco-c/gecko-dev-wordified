@@ -163,7 +163,7 @@ Connection
 *
 *
 param
-WebSocketDebuggerTransport
+WebSocketTransport
 transport
 *
 param

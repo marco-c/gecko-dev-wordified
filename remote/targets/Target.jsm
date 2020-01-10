@@ -96,7 +96,7 @@ jsm
 ;
 const
 {
-WebSocketDebuggerTransport
+WebSocketTransport
 }
 =
 ChromeUtils
@@ -267,7 +267,7 @@ const
 transport
 =
 new
-WebSocketDebuggerTransport
+WebSocketTransport
 (
 so
 )
