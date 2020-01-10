@@ -308,10 +308,17 @@ run
 '
 ]
     
-additional_prefix
+command_prefix
 =
-[
-]
+'
+cd
+GECKO_PATH
+&
+&
+.
+/
+mach
+'
     
 if
 job
@@ -331,11 +338,13 @@ endswith
 )
 :
         
-additional_prefix
+command_prefix
 =
-[
-            
 '
+cd
+GECKO_PATH
+&
+&
 LC_ALL
 =
 en_US
@@ -343,9 +352,6 @@ en_US
 UTF
 -
 8
-'
-            
-'
 LANG
 =
 en_US
@@ -353,36 +359,10 @@ en_US
 UTF
 -
 8
-'
-        
-]
-    
-command_prefix
-=
-'
-'
-.
-join
-(
-[
-'
-cd
-GECKO_PATH
-'
-]
-+
-additional_prefix
-+
-[
-'
-&
-&
 .
 /
 mach
 '
-]
-)
     
 mach
 =
