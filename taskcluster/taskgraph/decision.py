@@ -650,6 +650,15 @@ pgo
 )
 :
 bool
+    
+Optional
+(
+'
+browsertime
+'
+)
+:
+bool
 }
 )
 try_task_config_schema_v2
