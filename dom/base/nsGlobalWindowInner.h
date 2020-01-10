@@ -2726,6 +2726,9 @@ KillScriptGlobal
 SlowScriptResponse
 ShowSlowScriptDialog
 (
+JSContext
+*
+aCx
 const
 nsString
 &
