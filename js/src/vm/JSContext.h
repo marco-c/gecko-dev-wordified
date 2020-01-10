@@ -8832,6 +8832,9 @@ isHelperThreadContext
 (
 )
 \
+js
+:
+:
 CurrentThreadCanAccessRuntime
 (
 cx

@@ -193,6 +193,9 @@ cx
 {
 if
 (
+js
+:
+:
 OffThreadParsingMustWaitForGC
 (
 cx
