@@ -271,15 +271,19 @@ self
         
 self
 .
-assertEqual
+assertTrue
 (
-"
-google
-"
 self
 .
 get_default_search_engine
 (
+)
+.
+startswith
+(
+"
+google
+"
 )
 )
         
@@ -317,14 +321,18 @@ True
         
 self
 .
-assertEqual
+assertTrue
 (
-"
-google
-"
 self
 .
 get_default_search_engine
 (
+)
+.
+startswith
+(
+"
+google
+"
 )
 )
