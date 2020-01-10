@@ -164,6 +164,9 @@ nsISVGPoint
 namespace
 dom
 {
+struct
+DOMPointInit
+;
 class
 SVGIRect
 ;
@@ -305,9 +308,10 @@ MOZ_CAN_RUN_SCRIPT
 int32_t
 GetCharNumAtPosition
 (
-nsISVGPoint
+const
+DOMPointInit
 &
-point
+aPoint
 )
 ;
 protected

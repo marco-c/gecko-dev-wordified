@@ -1239,7 +1239,8 @@ SVGTextContentElement
 :
 GetCharNumAtPosition
 (
-nsISVGPoint
+const
+DOMPointInit
 &
 aPoint
 )
@@ -1261,7 +1262,6 @@ textFrame
 GetCharNumAtPosition
 (
 this
-&
 aPoint
 )
 :
