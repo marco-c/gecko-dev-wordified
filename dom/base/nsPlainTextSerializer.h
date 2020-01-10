@@ -535,6 +535,7 @@ nsString
 &
 aValueRet
 )
+const
 ;
 void
 AddToLine
@@ -627,16 +628,19 @@ bool
 IsInOL
 (
 )
+const
 ;
 bool
 IsCurrentNodeConverted
 (
 )
+const
 ;
 bool
 MustSuppressLeaf
 (
 )
+const
 ;
 /
 *

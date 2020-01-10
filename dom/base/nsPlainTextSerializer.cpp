@@ -4893,6 +4893,7 @@ formatted
 Push
 on
 stack
+const
 bool
 currentNodeIsConverted
 =
@@ -6736,6 +6737,7 @@ Pop
 the
 currentConverted
 stack
+const
 bool
 currentNodeIsConverted
 =
@@ -7166,6 +7168,7 @@ nsPlainTextSerializer
 MustSuppressLeaf
 (
 )
+const
 {
 if
 (
@@ -12154,6 +12157,7 @@ nsString
 &
 aValueRet
 )
+const
 {
 if
 (
@@ -12220,6 +12224,7 @@ nsPlainTextSerializer
 IsCurrentNodeConverted
 (
 )
+const
 {
 nsAutoString
 value
@@ -12560,6 +12565,7 @@ nsPlainTextSerializer
 IsInOL
 (
 )
+const
 {
 int32_t
 i
