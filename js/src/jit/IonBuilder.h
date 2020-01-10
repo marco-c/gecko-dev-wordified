@@ -312,6 +312,8 @@ LinkedListElement
 <
 IonBuilder
 >
+public
+RunnableTask
 {
 public
 :
@@ -465,6 +467,12 @@ MOZ_FORMAT_PRINTF
 3
 4
 )
+;
+void
+runTask
+(
+)
+override
 ;
 private
 :
