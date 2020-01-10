@@ -1095,14 +1095,6 @@ level
 ]
         
 '
-MOZ_AUTOMATION
-'
-:
-'
-1
-'
-        
-'
 MOZ_FETCHES_DIR
 '
 :
@@ -1719,14 +1711,6 @@ params
 level
 '
 ]
-        
-'
-MOZ_AUTOMATION
-'
-:
-'
-1
-'
     
 }
 )

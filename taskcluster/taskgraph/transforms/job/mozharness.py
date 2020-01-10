@@ -1448,14 +1448,6 @@ level
 ]
         
 '
-MOZ_AUTOMATION
-'
-:
-'
-1
-'
-        
-'
 PYTHONUNBUFFERED
 '
 :
@@ -2273,14 +2265,6 @@ params
 level
 '
 ]
-        
-'
-MOZ_AUTOMATION
-'
-:
-'
-1
-'
         
 '
 MH_BRANCH

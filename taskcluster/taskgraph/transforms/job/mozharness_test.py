@@ -968,14 +968,6 @@ lower
 )
         
 '
-MOZ_AUTOMATION
-'
-:
-'
-1
-'
-        
-'
 WORKING_DIR
 '
 :
@@ -2723,17 +2715,6 @@ env
 {
 }
 )
-    
-env
-[
-'
-MOZ_AUTOMATION
-'
-]
-=
-'
-1
-'
     
 env
 [
@@ -4506,14 +4487,6 @@ bin
 /
 node
 "
-        
-'
-MOZ_AUTOMATION
-'
-:
-'
-1
-'
         
 '
 WORKING_DIR
