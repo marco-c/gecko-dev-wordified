@@ -171,6 +171,12 @@ nsControllerCommandTable
 aCommandTable
 )
 ;
+static
+void
+Shutdown
+(
+)
+;
 }
 ;
 }
