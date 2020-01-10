@@ -71,6 +71,12 @@ resume
 when
 we
 return
+/
+*
+global
+yield
+*
+/
 function
 testBFCache
 (

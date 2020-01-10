@@ -437,6 +437,9 @@ length
 )
 {
 throw
+new
+Error
+(
 "
 Didn
 '
@@ -447,6 +450,7 @@ number
 of
 bytes
 "
+)
 ;
 }
 return
@@ -525,6 +529,9 @@ i
 )
 {
 throw
+new
+Error
+(
 "
 arrays
 differ
@@ -533,6 +540,7 @@ index
 "
 +
 i
+)
 ;
 }
 }
@@ -584,6 +592,9 @@ aActualError
 )
 {
 throw
+new
+Error
+(
 "
 Didn
 '
@@ -599,6 +610,7 @@ aExpectedError
 "
 )
 "
+)
 ;
 }
 if
@@ -613,6 +625,9 @@ aActualError
 )
 {
 throw
+new
+Error
+(
 "
 Threw
 (
@@ -627,6 +642,7 @@ not
 "
 +
 aExpectedError
+)
 ;
 }
 /
@@ -671,6 +687,9 @@ aActualError
 )
 {
 throw
+new
+Error
+(
 "
 Threw
 unexpected
@@ -679,6 +698,7 @@ error
 "
 +
 aActualError
+)
 ;
 }
 }
@@ -764,6 +784,9 @@ imgTools
 )
 {
 throw
+new
+Error
+(
 "
 Couldn
 '
@@ -772,6 +795,7 @@ get
 imgITools
 service
 "
+)
 ;
 }
 /
@@ -4791,7 +4815,6 @@ testData
 i
 ]
 ;
-var
 imgFile
 =
 do_get_file
@@ -4801,7 +4824,6 @@ dict
 refImage
 )
 ;
-var
 istream
 =
 getFileInputStream
@@ -4833,7 +4855,6 @@ getFileInputStream
 imgFile
 )
 ;
-var
 buffer
 =
 NetUtil
@@ -4848,7 +4869,6 @@ available
 )
 )
 ;
-var
 container
 =
 imgTools
@@ -5477,6 +5497,9 @@ e
 )
 {
 throw
+new
+Error
+(
 "
 FAILED
 in
@@ -5498,6 +5521,7 @@ testdesc
 "
 +
 e
+)
 ;
 }
 }
