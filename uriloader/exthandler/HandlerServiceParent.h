@@ -163,6 +163,7 @@ HandlerServiceParent
 NS_INLINE_DECL_REFCOUNTING
 (
 HandlerServiceParent
+final
 )
 private
 :
