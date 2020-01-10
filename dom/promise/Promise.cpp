@@ -2275,7 +2275,7 @@ func
 JS
 :
 :
-ExposeObjectToActiveJS
+AssertObjectIsNotGray
 (
 aHolder
 )
