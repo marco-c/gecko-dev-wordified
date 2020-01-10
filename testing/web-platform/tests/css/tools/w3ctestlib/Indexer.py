@@ -1132,8 +1132,7 @@ template
 data
 )
     
-f
-=
+with
 open
 (
 outfile
@@ -1141,7 +1140,10 @@ outfile
 w
 '
 )
-    
+as
+f
+:
+      
 f
 .
 write
@@ -1156,12 +1158,6 @@ utf
 8
 '
 )
-)
-    
-f
-.
-close
-(
 )
   
 def
