@@ -2502,6 +2502,7 @@ absent
 For
 example
 :
+:
         
 {
 {
@@ -2574,6 +2575,7 @@ sha512
 .
 For
 example
+:
 :
         
 {
@@ -2686,8 +2688,8 @@ name
 which
 must
 start
-with
     
+with
 the
 character
 using
@@ -2700,7 +2702,9 @@ e
 .
 g
 .
-    
+:
+:
+      
 {
 {
 id
@@ -2730,7 +2734,9 @@ e
 .
 g
 .
-    
+:
+:
+      
 {
 {
 id
