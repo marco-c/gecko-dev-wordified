@@ -3654,7 +3654,6 @@ nsTextFragment
 *
 data
 =
-&
 insertionPoint
 .
 GetContainerAsText
@@ -3662,7 +3661,7 @@ GetContainerAsText
 )
 -
 >
-TextFragment
+GetText
 (
 )
 ;
