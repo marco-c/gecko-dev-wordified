@@ -112,8 +112,6 @@ devtools
 client
 /
 responsive
-.
-html
 /
 test
 /
@@ -177,8 +175,6 @@ devtools
 client
 /
 responsive
-.
-html
 /
 manager
 "
