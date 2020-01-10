@@ -619,19 +619,6 @@ EnsurePerformanceStorage
 (
 )
 ;
-if
-(
-mozilla
-:
-:
-StaticPrefs
-:
-:
-dom_performance_enable_scheduler_timing
-(
-)
-)
-{
 aWorkerPrivate
 -
 >
@@ -639,7 +626,6 @@ EnsurePerformanceCounter
 (
 )
 ;
-}
 JS
 :
 :
