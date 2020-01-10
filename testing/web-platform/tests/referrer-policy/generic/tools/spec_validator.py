@@ -539,9 +539,12 @@ specification
 referrer_policy_schema
 "
 "
-test_expansion_schema
+delivery_key
 "
         
+"
+test_expansion_schema
+"
 "
 excluded_tests
 "
