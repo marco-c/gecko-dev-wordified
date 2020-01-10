@@ -385,9 +385,6 @@ tpscrolltest
 '
 fnbpaint
 '
-'
-pdfpaint
-'
 ]
     
 CLI_options
