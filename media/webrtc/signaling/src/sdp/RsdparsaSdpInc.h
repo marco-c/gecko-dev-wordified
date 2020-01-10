@@ -260,9 +260,6 @@ kRustTcpDtlsRtpSavpf
 kRustDtlsSctp
 kRustUdpDtlsSctp
 kRustTcpDtlsSctp
-kRustRtpAvp
-kRustRtpAvpf
-kRustRtpSavp
 }
 ;
 enum
