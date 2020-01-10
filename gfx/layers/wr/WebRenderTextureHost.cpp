@@ -1289,7 +1289,6 @@ WebRenderTextureHost
 NumSubTextures
 (
 )
-const
 {
 MOZ_ASSERT
 (

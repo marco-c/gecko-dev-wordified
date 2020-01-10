@@ -4210,7 +4210,6 @@ uint32_t
 NumSubTextures
 (
 )
-const
 {
 return
 1
@@ -4873,7 +4872,6 @@ uint32_t
 NumSubTextures
 (
 )
-const
 override
 ;
 void
