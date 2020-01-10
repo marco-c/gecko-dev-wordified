@@ -81,14 +81,13 @@ resolve
 {
 threadClient
 .
-addListener
+on
 (
 "
 paused
 "
 function
 (
-event
 packet
 )
 {

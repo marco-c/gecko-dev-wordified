@@ -93,7 +93,7 @@ Debugger
 statement
 threadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
@@ -101,7 +101,6 @@ paused
 async
 function
 (
-event
 packet
 )
 {
@@ -158,7 +157,7 @@ location
 ;
 threadClient
 .
-addListener
+on
 (
 "
 paused
@@ -166,7 +165,6 @@ paused
 function
 onPaused
 (
-event
 packet
 )
 {
@@ -287,7 +285,7 @@ timesBreakpointHit
 {
 threadClient
 .
-removeListener
+off
 (
 "
 paused

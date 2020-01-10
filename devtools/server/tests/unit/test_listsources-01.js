@@ -197,14 +197,13 @@ test_simple_listsources
 {
 gThreadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
 "
 function
 (
-event
 packet
 )
 {

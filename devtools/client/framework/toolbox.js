@@ -3414,7 +3414,6 @@ _onPausedState
 :
 function
 (
-_
 packet
 )
 {
@@ -3556,7 +3555,7 @@ this
 .
 threadClient
 .
-addListener
+on
 (
 "
 paused
@@ -3570,7 +3569,7 @@ this
 .
 threadClient
 .
-addListener
+on
 (
 "
 resumed
@@ -3591,7 +3590,7 @@ this
 .
 threadClient
 .
-removeListener
+off
 (
 "
 paused
@@ -3605,7 +3604,7 @@ this
 .
 threadClient
 .
-removeListener
+off
 (
 "
 resumed

@@ -1894,7 +1894,7 @@ Promise
 <
 *
 >
-addListener
+on
 :
 (
 string

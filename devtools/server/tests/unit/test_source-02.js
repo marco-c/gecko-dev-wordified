@@ -285,14 +285,13 @@ LONG_STRING_LENGTH
 ;
 gThreadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
 "
 function
 (
-event
 packet
 )
 {

@@ -187,14 +187,13 @@ test_pause_frame
 {
 gThreadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
 "
 function
 (
-event
 packet
 )
 {

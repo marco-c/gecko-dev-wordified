@@ -84,7 +84,7 @@ resolve
 {
 threadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
@@ -92,7 +92,6 @@ paused
 async
 function
 (
-event
 packet
 )
 {
@@ -149,14 +148,13 @@ debuggee
 .
 threadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
 "
 function
 (
-event
 packet
 )
 {

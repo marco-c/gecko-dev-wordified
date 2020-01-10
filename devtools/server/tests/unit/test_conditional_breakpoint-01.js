@@ -165,7 +165,7 @@ false
 ;
 gThreadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
@@ -173,7 +173,6 @@ paused
 async
 function
 (
-event
 packet
 )
 {
@@ -227,14 +226,13 @@ a
 ;
 gThreadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
 "
 function
 (
-event
 packet
 )
 {

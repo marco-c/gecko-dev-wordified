@@ -439,9 +439,6 @@ clientEvents
 paused
 (
 threadClient
-"
-paused
-"
 pausedPacket
 )
 ;

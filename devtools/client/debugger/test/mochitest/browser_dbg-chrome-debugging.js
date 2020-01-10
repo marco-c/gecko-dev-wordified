@@ -218,7 +218,6 @@ transport
 function
 onNewSource
 (
-event
 packet
 )
 {
@@ -260,7 +259,7 @@ url
 ;
 gThreadClient
 .
-removeListener
+off
 (
 "
 newSource
@@ -432,7 +431,7 @@ and
 global
 gThreadClient
 .
-addListener
+on
 (
 "
 newSource

@@ -2688,7 +2688,7 @@ this
 .
 threadClient
 .
-addListener
+on
 (
 "
 newSource
@@ -2720,7 +2720,6 @@ thread
 actor
 _onNewSource
 (
-type
 packet
 )
 {
@@ -2976,7 +2975,7 @@ this
 .
 threadClient
 .
-removeListener
+off
 (
 "
 newSource

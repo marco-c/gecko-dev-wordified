@@ -165,14 +165,13 @@ add_pause_listener
 {
 gThreadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
 "
 function
 (
-event
 packet
 )
 {

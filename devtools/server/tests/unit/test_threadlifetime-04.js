@@ -203,14 +203,13 @@ test_thread_lifetime
 {
 gThreadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
 "
 function
 (
-event
 packet
 )
 {

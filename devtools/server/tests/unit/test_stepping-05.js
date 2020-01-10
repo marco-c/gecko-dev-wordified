@@ -363,13 +363,12 @@ stepIn
 ;
 threadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
 "
 (
-event
 packet
 )
 =

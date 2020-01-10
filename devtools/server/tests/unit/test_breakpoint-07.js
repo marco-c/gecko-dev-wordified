@@ -96,7 +96,7 @@ resolve
 {
 threadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
@@ -104,7 +104,6 @@ paused
 async
 function
 (
-event
 packet
 )
 {
@@ -201,14 +200,13 @@ line
 ;
 threadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
 "
 function
 (
-event
 packet
 )
 {
