@@ -186,6 +186,7 @@ value
 "
 )
 ;
+await
 executeAndWaitForMessage
 (
 hud
@@ -225,6 +226,7 @@ value
 "
 )
 ;
+await
 executeAndWaitForMessage
 (
 hud
@@ -319,6 +321,7 @@ value
 "
 )
 ;
+await
 executeAndWaitForMessage
 (
 hud
@@ -398,6 +401,7 @@ paused
 "
 )
 ;
+await
 executeAndWaitForMessage
 (
 hud
@@ -484,6 +488,7 @@ frame
 "
 )
 ;
+await
 executeAndWaitForMessage
 (
 hud
@@ -519,6 +524,7 @@ firstCall
 "
 )
 ;
+await
 executeAndWaitForMessage
 (
 hud
