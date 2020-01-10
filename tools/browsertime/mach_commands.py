@@ -1168,6 +1168,18 @@ import
 setup_helper
         
 if
+not
+os
+.
+environ
+.
+get
+(
+'
+MOZ_AUTOMATION
+'
+)
+and
 host_platform
 (
 )
