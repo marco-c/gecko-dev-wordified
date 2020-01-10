@@ -313,6 +313,16 @@ EventUtils
 synthesizeKey
 (
 "
+KEY_ArrowRight
+"
+)
+;
+await
+EventUtils
+.
+synthesizeKey
+(
+"
 KEY_Backspace
 "
 )
