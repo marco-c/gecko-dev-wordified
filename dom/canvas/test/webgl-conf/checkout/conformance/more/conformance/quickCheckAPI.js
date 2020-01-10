@@ -2849,6 +2849,12 @@ video
 ;
 img
 .
+muted
+=
+true
+;
+img
+.
 width
 =
 w

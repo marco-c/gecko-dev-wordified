@@ -307,7 +307,7 @@ false
 {
 wtu
 .
-dispatchTask
+dispatchPromise
 (
 doNextTest
 )

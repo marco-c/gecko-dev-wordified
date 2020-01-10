@@ -3279,7 +3279,7 @@ drawElements
 (
 -
 1
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -3323,7 +3323,7 @@ drawElements
 gl
 .
 POINTS
-1
+0
 -
 1
 vertices
@@ -3345,7 +3345,7 @@ drawElements
 gl
 .
 POINTS
-1
+0
 gl
 .
 FLOAT
@@ -3456,7 +3456,7 @@ drawElements
 gl
 .
 POINTS
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -3673,7 +3673,7 @@ drawElements
 gl
 .
 POINTS
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -3715,7 +3715,7 @@ drawElements
 gl
 .
 POINTS
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -3882,7 +3882,7 @@ drawElements
 gl
 .
 POINTS
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -4078,7 +4078,7 @@ drawElements
 (
 -
 1
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -4122,7 +4122,7 @@ drawElements
 gl
 .
 TRIANGLES
-1
+0
 -
 1
 vertices
@@ -4144,7 +4144,7 @@ drawElements
 gl
 .
 TRIANGLES
-1
+0
 gl
 .
 FLOAT
@@ -4255,7 +4255,7 @@ drawElements
 gl
 .
 TRIANGLES
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -4472,7 +4472,7 @@ drawElements
 gl
 .
 TRIANGLES
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -4514,7 +4514,7 @@ drawElements
 gl
 .
 TRIANGLES
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -5551,7 +5551,7 @@ drawElementsInstanced
 (
 -
 1
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -5596,7 +5596,7 @@ drawElementsInstanced
 gl
 .
 POINTS
-1
+0
 -
 1
 vertices
@@ -5619,7 +5619,7 @@ drawElementsInstanced
 gl
 .
 POINTS
-1
+0
 gl
 .
 FLOAT
@@ -5667,7 +5667,7 @@ gl
 .
 UNSIGNED_BYTE
 vertices
-1
+0
 )
 ;
 this
@@ -5686,7 +5686,7 @@ drawElementsInstanced
 gl
 .
 POINTS
-11
+0
 gl
 .
 UNSIGNED_BYTE
@@ -5759,7 +5759,7 @@ drawElementsInstanced
 gl
 .
 POINTS
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -5977,7 +5977,7 @@ drawElementsInstanced
 gl
 .
 POINTS
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -6020,7 +6020,7 @@ drawElementsInstanced
 gl
 .
 POINTS
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -6207,7 +6207,7 @@ drawElementsInstanced
 gl
 .
 POINTS
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -6423,7 +6423,7 @@ drawElementsInstanced
 (
 -
 1
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -6468,7 +6468,7 @@ drawElementsInstanced
 gl
 .
 TRIANGLES
-1
+0
 -
 1
 vertices
@@ -6491,7 +6491,7 @@ drawElementsInstanced
 gl
 .
 TRIANGLES
-1
+0
 gl
 .
 FLOAT
@@ -6539,7 +6539,7 @@ gl
 .
 UNSIGNED_BYTE
 vertices
-1
+0
 )
 ;
 this
@@ -6558,7 +6558,7 @@ drawElementsInstanced
 gl
 .
 TRIANGLES
-11
+0
 gl
 .
 UNSIGNED_BYTE
@@ -6631,7 +6631,7 @@ drawElementsInstanced
 gl
 .
 TRIANGLES
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -6849,7 +6849,7 @@ drawElementsInstanced
 gl
 .
 TRIANGLES
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -6892,7 +6892,7 @@ drawElementsInstanced
 gl
 .
 TRIANGLES
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -7130,7 +7130,7 @@ drawRangeElements
 1
 0
 1
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -7176,7 +7176,7 @@ gl
 POINTS
 0
 1
-1
+0
 -
 1
 vertices
@@ -7200,7 +7200,7 @@ gl
 POINTS
 0
 1
-1
+0
 gl
 .
 FLOAT
@@ -7283,7 +7283,7 @@ gl
 POINTS
 1
 0
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -7356,7 +7356,7 @@ gl
 POINTS
 0
 1
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -7575,7 +7575,7 @@ gl
 POINTS
 0
 1
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -7619,7 +7619,7 @@ gl
 POINTS
 0
 1
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -7803,7 +7803,7 @@ gl
 POINTS
 0
 1
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -8003,7 +8003,7 @@ drawRangeElements
 1
 0
 1
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -8049,7 +8049,7 @@ gl
 TRIANGLES
 0
 1
-1
+0
 -
 1
 vertices
@@ -8073,7 +8073,7 @@ gl
 TRIANGLES
 0
 1
-1
+0
 gl
 .
 FLOAT
@@ -8156,7 +8156,7 @@ gl
 TRIANGLES
 1
 0
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -8229,7 +8229,7 @@ gl
 TRIANGLES
 0
 1
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -8448,7 +8448,7 @@ gl
 TRIANGLES
 0
 1
-1
+0
 gl
 .
 UNSIGNED_BYTE
@@ -8492,7 +8492,7 @@ gl
 TRIANGLES
 0
 1
-1
+0
 gl
 .
 UNSIGNED_BYTE

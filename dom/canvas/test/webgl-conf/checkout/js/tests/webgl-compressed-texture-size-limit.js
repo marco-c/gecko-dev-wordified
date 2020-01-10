@@ -1053,7 +1053,7 @@ return
 }
 wtu
 .
-dispatchTask
+dispatchPromise
 (
 runNextTest
 )
