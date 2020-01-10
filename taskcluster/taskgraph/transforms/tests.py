@@ -1499,9 +1499,6 @@ projects
 :
 [
 '
-try
-'
-'
 ash
 '
 ]
