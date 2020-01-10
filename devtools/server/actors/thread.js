@@ -6693,6 +6693,17 @@ this
 )
 ;
 }
+else
+{
+this
+.
+dbg
+.
+onExceptionUnwind
+=
+undefined
+;
+}
 }
 /
 *
