@@ -75,10 +75,10 @@ create_parser
 (
 [
 "
-fennec
-"
-"
 firefox
+"
+"
+firefox_android
 "
 "
 chrome
@@ -241,7 +241,7 @@ product
 =
 =
 "
-fennec
+firefox_android
 "
 :
             
