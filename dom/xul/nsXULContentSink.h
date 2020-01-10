@@ -673,7 +673,7 @@ return
 mDepth
 ;
 }
-nsresult
+void
 Push
 (
 nsXULPrototypeNode
