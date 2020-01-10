@@ -770,6 +770,14 @@ ReleaseIOThreadObjects
 =
 0
 ;
+virtual
+void
+OnStorageInitFailed
+(
+)
+{
+}
+;
 /
 /
 Methods
