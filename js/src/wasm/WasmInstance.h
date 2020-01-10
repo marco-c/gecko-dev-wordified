@@ -1283,9 +1283,6 @@ occurs
 void
 onMovingGrowMemory
 (
-uint8_t
-*
-prevMemoryBase
 )
 ;
 void

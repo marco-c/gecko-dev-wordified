@@ -14052,9 +14052,6 @@ Instance
 :
 onMovingGrowMemory
 (
-uint8_t
-*
-prevMemoryBase
 )
 {
 MOZ_ASSERT
