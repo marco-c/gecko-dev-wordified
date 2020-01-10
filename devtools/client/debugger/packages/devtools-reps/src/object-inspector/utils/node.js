@@ -2031,9 +2031,6 @@ properties
 function
 makeNodesForProxyProperties
 (
-loadedProps
-:
-GripProperties
 item
 :
 Node
@@ -2050,7 +2047,10 @@ proxyHandler
 proxyTarget
 }
 =
-loadedProps
+getValue
+(
+item
+)
 ;
 return
 [
@@ -4367,9 +4367,6 @@ nodeIsProxy
 (
 item
 )
-&
-&
-hasLoadedProps
 )
 {
 return
@@ -4377,7 +4374,6 @@ addToCache
 (
 makeNodesForProxyProperties
 (
-loadedProps
 item
 )
 )
