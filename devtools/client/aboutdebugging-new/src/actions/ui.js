@@ -70,6 +70,7 @@ ADB_ADDON_UNINSTALL_START
 ADB_ADDON_UNINSTALL_SUCCESS
 ADB_ADDON_UNINSTALL_FAILURE
 ADB_ADDON_STATUS_UPDATED
+ADB_READY_UPDATED
 DEBUG_TARGET_COLLAPSIBILITY_UPDATED
 HIDE_PROFILER_DIALOG
 NETWORK_LOCATIONS_UPDATED
@@ -640,6 +641,21 @@ adbAddonStatus
 ;
 }
 function
+updateAdbReady
+(
+isAdbReady
+)
+{
+return
+{
+type
+:
+ADB_READY_UPDATED
+isAdbReady
+}
+;
+}
+function
 updateNetworkLocations
 (
 locations
@@ -908,6 +924,7 @@ selectPage
 showProfilerDialog
 uninstallAdbAddon
 updateAdbAddonStatus
+updateAdbReady
 updateDebugTargetCollapsibility
 updateNetworkLocations
 }

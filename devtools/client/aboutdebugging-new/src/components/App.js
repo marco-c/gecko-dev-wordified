@@ -421,6 +421,13 @@ PropTypes
 func
 .
 isRequired
+isAdbReady
+:
+PropTypes
+.
+bool
+.
+isRequired
 isScanningUsb
 :
 PropTypes
@@ -1249,6 +1256,7 @@ const
 {
 adbAddonStatus
 dispatch
+isAdbReady
 isScanningUsb
 networkRuntimes
 selectedPage
@@ -1286,6 +1294,7 @@ className
 app__sidebar
 "
 dispatch
+isAdbReady
 isScanningUsb
 networkRuntimes
 selectedPage
@@ -1331,6 +1340,13 @@ state
 ui
 .
 adbAddonStatus
+isAdbReady
+:
+state
+.
+ui
+.
+isAdbReady
 isScanningUsb
 :
 state
