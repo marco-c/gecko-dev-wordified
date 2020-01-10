@@ -5901,6 +5901,12 @@ InternalResponse
 (
 responseStatus
 statusText
+mRequest
+-
+>
+GetCredentialsMode
+(
+)
 )
 ;
 UniquePtr
@@ -6134,6 +6140,12 @@ NS_LITERAL_CSTRING
 "
 OK
 "
+)
+mRequest
+-
+>
+GetCredentialsMode
+(
 )
 )
 ;
