@@ -234,6 +234,8 @@ feature
 builtin
 |
 attribute
+|
+warning
 )
 )
 \
