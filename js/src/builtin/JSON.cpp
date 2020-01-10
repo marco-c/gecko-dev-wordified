@@ -1552,7 +1552,7 @@ gap
 HandleObject
 replacer
 const
-AutoIdVector
+RootedIdVector
 &
 propertyList
 bool
@@ -1630,7 +1630,7 @@ ObjectVector
 stack
 ;
 const
-AutoIdVector
+RootedIdVector
 &
 propertyList
 ;
@@ -2945,12 +2945,12 @@ Steps
 /
 Maybe
 <
-AutoIdVector
+RootedIdVector
 >
 ids
 ;
 const
-AutoIdVector
+RootedIdVector
 *
 props
 ;
@@ -3136,7 +3136,7 @@ references
 *
 /
 const
-AutoIdVector
+RootedIdVector
 &
 propertyList
 =
@@ -5009,7 +5009,7 @@ Step
 .
 *
 /
-AutoIdVector
+RootedIdVector
 propertyList
 (
 cx
@@ -6344,7 +6344,7 @@ i
 .
 *
 /
-AutoIdVector
+RootedIdVector
 keys
 (
 cx

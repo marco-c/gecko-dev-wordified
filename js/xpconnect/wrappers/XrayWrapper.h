@@ -1151,8 +1151,7 @@ flags
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 ;
@@ -1432,8 +1431,7 @@ flags
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 ;
@@ -2164,8 +2162,7 @@ flags
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 {
@@ -2697,8 +2694,7 @@ wrapper
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -2757,8 +2753,7 @@ wrapper
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -3146,8 +3141,7 @@ wrapper
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -3244,8 +3238,7 @@ flags
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const

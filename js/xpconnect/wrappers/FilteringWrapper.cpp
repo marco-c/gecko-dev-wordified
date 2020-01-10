@@ -339,8 +339,7 @@ cx
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 {
@@ -360,7 +359,7 @@ in
 the
 list
 .
-AutoIdVector
+RootedIdVector
 thenProp
 (
 cx
@@ -533,8 +532,7 @@ JSContext
 cx
 HandleObject
 wrapper
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 {
@@ -958,8 +956,7 @@ JSContext
 cx
 HandleObject
 wrapper
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -1020,8 +1017,7 @@ JSContext
 cx
 HandleObject
 wrapper
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -1085,8 +1081,7 @@ wrapper
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const

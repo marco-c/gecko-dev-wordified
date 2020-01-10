@@ -21643,7 +21643,7 @@ HandleObject
 clone
 )
 {
-AutoIdVector
+RootedIdVector
 ids
 (
 cx

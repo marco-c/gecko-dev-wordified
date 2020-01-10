@@ -5985,7 +5985,7 @@ toObject
 )
 )
 ;
-AutoIdVector
+RootedIdVector
 keys
 (
 cx

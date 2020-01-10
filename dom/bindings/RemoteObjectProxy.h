@@ -319,8 +319,10 @@ aProxy
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleVector
+<
+jsid
+>
 aProps
 )
 const
@@ -699,8 +701,10 @@ aProxy
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleVector
+<
+jsid
+>
 aProps
 )
 const

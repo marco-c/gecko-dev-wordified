@@ -4762,8 +4762,7 @@ cx
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 ;

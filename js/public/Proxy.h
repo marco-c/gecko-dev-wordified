@@ -155,12 +155,6 @@ using
 JS
 :
 :
-AutoIdVector
-;
-using
-JS
-:
-:
 CallArgs
 ;
 using
@@ -198,6 +192,12 @@ JS
 :
 :
 MutableHandle
+;
+using
+JS
+:
+:
+MutableHandleIdVector
 ;
 using
 JS
@@ -2244,8 +2244,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -2763,8 +2762,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -2795,8 +2793,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const

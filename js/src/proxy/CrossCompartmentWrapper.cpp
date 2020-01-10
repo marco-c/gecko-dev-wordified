@@ -300,9 +300,7 @@ MarkAtoms
 JSContext
 *
 cx
-const
-AutoIdVector
-&
+HandleIdVector
 ids
 )
 {
@@ -483,8 +481,7 @@ JSContext
 cx
 HandleObject
 wrapper
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -1343,8 +1340,7 @@ JSContext
 cx
 HandleObject
 wrapper
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -1382,8 +1378,7 @@ JSContext
 cx
 HandleObject
 wrapper
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const

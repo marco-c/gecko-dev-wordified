@@ -293,8 +293,7 @@ proxy
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 ;
@@ -502,8 +501,7 @@ proxy
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 ;
@@ -878,8 +876,7 @@ flags
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 ;

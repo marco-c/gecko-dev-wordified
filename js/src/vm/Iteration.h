@@ -932,9 +932,7 @@ JSObject
 *
 >
 objBeingIterated
-const
-AutoIdVector
-&
+HandleIdVector
 props
 uint32_t
 numGuards
@@ -2354,8 +2352,7 @@ JSContext
 cx
 HandleObject
 obj
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 ;

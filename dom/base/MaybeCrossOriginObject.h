@@ -2956,8 +2956,10 @@ proxy
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleVector
+<
+jsid
+>
 props
 )
 const

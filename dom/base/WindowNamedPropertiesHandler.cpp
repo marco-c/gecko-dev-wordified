@@ -1375,8 +1375,10 @@ flags
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleVector
+<
+jsid
+>
 aProps
 )
 const
@@ -1759,7 +1761,10 @@ names
 JS
 :
 :
-AutoIdVector
+RootedVector
+<
+jsid
+>
 docProps
 (
 aCx
@@ -1774,6 +1779,7 @@ aCx
 aProxy
 names
 false
+&
 docProps
 )
 )

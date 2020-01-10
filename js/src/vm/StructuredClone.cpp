@@ -3298,7 +3298,7 @@ Property
 IDs
 as
 value
-AutoIdVector
+RootedIdVector
 objectEntries
 ;
 /
@@ -8206,8 +8206,7 @@ JSContext
 cx
 HandleObject
 obj
-AutoIdVector
-&
+MutableHandleIdVector
 entries
 size_t
 *
@@ -8562,6 +8561,7 @@ context
 (
 )
 obj
+&
 objectEntries
 &
 count
@@ -8606,7 +8606,7 @@ in
 forward
 order
 .
-AutoIdVector
+RootedIdVector
 properties
 (
 context

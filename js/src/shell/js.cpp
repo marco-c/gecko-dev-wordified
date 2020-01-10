@@ -22361,8 +22361,7 @@ obj
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 properties
 bool
 enumerableOnly
@@ -58590,7 +58589,7 @@ bool
 brief
 )
 {
-AutoIdVector
+RootedIdVector
 idv
 (
 cx
@@ -60360,8 +60359,7 @@ obj
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 properties
 bool
 enumerableOnly

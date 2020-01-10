@@ -779,8 +779,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 {
@@ -1006,15 +1005,13 @@ AppendUnique
 JSContext
 *
 cx
-AutoIdVector
-&
+MutableHandleIdVector
 base
-AutoIdVector
-&
+HandleIdVector
 others
 )
 {
-AutoIdVector
+RootedIdVector
 uniqueOthers
 (
 cx
@@ -2856,8 +2853,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 {
@@ -2948,8 +2944,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 {
@@ -3054,7 +3049,7 @@ proxy
 proto
 )
 ;
-AutoIdVector
+RootedIdVector
 protoProps
 (
 cx

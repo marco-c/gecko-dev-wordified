@@ -5997,7 +5997,7 @@ cx
 )
 ;
 {
-AutoIdVector
+RootedIdVector
 props
 (
 cx

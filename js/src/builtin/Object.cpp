@@ -1758,7 +1758,7 @@ return
 nullptr
 ;
 }
-AutoIdVector
+RootedIdVector
 idv
 (
 cx
@@ -5547,7 +5547,7 @@ b
 .
 ii
 .
-AutoIdVector
+RootedIdVector
 keys
 (
 cx
@@ -6496,7 +6496,7 @@ false
 Step
 3
 .
-AutoIdVector
+RootedIdVector
 keys
 (
 cx
@@ -6562,7 +6562,7 @@ cx
 )
 )
 ;
-AutoIdVector
+RootedIdVector
 descriptorKeys
 (
 cx
@@ -9994,7 +9994,7 @@ TypedArrayObject
 Step
 2
 .
-AutoIdVector
+RootedIdVector
 ids
 (
 cx
@@ -11085,7 +11085,7 @@ Steps
 -
 4
 .
-AutoIdVector
+RootedIdVector
 keys
 (
 cx

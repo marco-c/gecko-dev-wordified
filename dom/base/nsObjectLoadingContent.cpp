@@ -22738,8 +22738,10 @@ aCx
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleVector
+<
+jsid
+>
 /
 *
 unused

@@ -1691,8 +1691,10 @@ proxy
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleVector
+<
+jsid
+>
 props
 )
 const
@@ -1784,8 +1786,10 @@ proxy
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleVector
+<
+jsid
+>
 props
 )
 const

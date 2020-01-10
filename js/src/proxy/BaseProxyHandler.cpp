@@ -1445,8 +1445,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -1677,8 +1676,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -1721,7 +1719,6 @@ GetPropertyKeys
 cx
 proxy
 0
-&
 props
 )
 ;

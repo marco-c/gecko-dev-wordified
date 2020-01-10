@@ -1315,8 +1315,10 @@ proxy
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleVector
+<
+jsid
+>
 properties
 )
 const
@@ -9646,8 +9648,10 @@ proxy
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleVector
+<
+jsid
+>
 properties
 )
 const

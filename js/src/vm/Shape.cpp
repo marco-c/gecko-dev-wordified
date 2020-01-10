@@ -5668,7 +5668,7 @@ order
 js
 :
 :
-AutoIdVector
+RootedIdVector
 ids
 (
 cx

@@ -34140,7 +34140,7 @@ lexicalEnvironment
 )
 )
 ;
-AutoIdVector
+RootedIdVector
 props
 (
 cx

@@ -4573,7 +4573,7 @@ objId
 )
 )
 ;
-AutoIdVector
+RootedIdVector
 props
 (
 cx

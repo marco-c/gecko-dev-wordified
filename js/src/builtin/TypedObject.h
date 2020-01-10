@@ -3180,8 +3180,7 @@ bool
 opaque
 bool
 allowConstruct
-AutoIdVector
-&
+HandleIdVector
 ids
 HandleValueVector
 fieldTypeObjs
@@ -3961,8 +3960,7 @@ JSContext
 cx
 HandleObject
 obj
-AutoIdVector
-&
+MutableHandleIdVector
 properties
 bool
 enumerableOnly

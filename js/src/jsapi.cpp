@@ -6094,8 +6094,7 @@ GlobalObject
 *
 >
 global
-AutoIdVector
-&
+MutableHandleIdVector
 properties
 const
 JSStdName
@@ -6300,8 +6299,7 @@ obj
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 properties
 bool
 enumerableOnly
@@ -6458,8 +6456,7 @@ obj
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 properties
 bool
 enumerableOnly
@@ -6491,8 +6488,7 @@ obj
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 properties
 bool
 enumerableOnly
@@ -15268,7 +15264,7 @@ empty
 )
 )
 ;
-AutoIdVector
+RootedIdVector
 ids
 (
 cx

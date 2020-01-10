@@ -355,8 +355,10 @@ aProxy
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleVector
+<
+jsid
+>
 aProps
 )
 const
@@ -458,7 +460,6 @@ JSITER_OWNONLY
 JSITER_HIDDEN
 |
 JSITER_SYMBOLS
-&
 aProps
 )
 )
@@ -1465,8 +1466,10 @@ aProxy
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleVector
+<
+jsid
+>
 aProps
 )
 const

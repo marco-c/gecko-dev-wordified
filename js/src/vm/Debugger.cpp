@@ -61464,7 +61464,7 @@ must
 be
 thrown
 .
-AutoIdVector
+RootedIdVector
 keys
 (
 cx
@@ -71500,7 +71500,7 @@ return
 false
 ;
 }
-AutoIdVector
+RootedIdVector
 ids
 (
 cx
@@ -76575,7 +76575,7 @@ referent
 )
 )
 ;
-AutoIdVector
+RootedIdVector
 ids
 (
 cx
@@ -76706,7 +76706,7 @@ referent
 )
 )
 ;
-AutoIdVector
+RootedIdVector
 ids
 (
 cx
@@ -82624,7 +82624,7 @@ referent
 )
 )
 ;
-AutoIdVector
+RootedIdVector
 ids
 (
 cx

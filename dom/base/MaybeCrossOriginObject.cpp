@@ -3635,8 +3635,10 @@ proxy
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleVector
+<
+jsid
+>
 props
 )
 const
@@ -3760,7 +3762,6 @@ GetPropertyKeys
 cx
 self
 0
-&
 props
 )
 ;

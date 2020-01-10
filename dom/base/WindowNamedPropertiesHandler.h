@@ -274,8 +274,10 @@ flags
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleVector
+<
+jsid
+>
 aProps
 )
 const

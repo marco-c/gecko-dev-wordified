@@ -496,8 +496,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -539,7 +538,6 @@ JSITER_OWNONLY
 JSITER_HIDDEN
 |
 JSITER_SYMBOLS
-&
 props
 )
 ;
@@ -611,8 +609,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -1433,8 +1430,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -1472,7 +1468,6 @@ GetPropertyKeys
 cx
 target
 JSITER_OWNONLY
-&
 props
 )
 ;

@@ -3444,8 +3444,7 @@ proxy
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -3470,8 +3469,7 @@ proxy
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -5565,8 +5563,7 @@ JSObject
 *
 >
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -5604,8 +5601,7 @@ proxy
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const

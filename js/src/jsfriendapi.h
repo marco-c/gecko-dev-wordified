@@ -6347,8 +6347,7 @@ flags
 JS
 :
 :
-AutoIdVector
-*
+MutableHandleIdVector
 props
 )
 ;
@@ -6362,14 +6361,12 @@ cx
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 base
 JS
 :
 :
-AutoIdVector
-&
+HandleIdVector
 others
 )
 ;

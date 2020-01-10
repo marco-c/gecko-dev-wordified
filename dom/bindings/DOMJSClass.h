@@ -679,8 +679,10 @@ obj
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleVector
+<
+jsid
+>
 props
 )
 ;
