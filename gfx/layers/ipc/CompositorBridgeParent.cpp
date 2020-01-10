@@ -5333,6 +5333,7 @@ mApzUpdater
 >
 UpdateHitTestingTree
 (
+mRootLayerTreeID
 mLayerManager
 -
 >
@@ -7949,6 +7950,7 @@ mApzUpdater
 >
 UpdateHitTestingTree
 (
+mRootLayerTreeID
 root
 aInfo
 .
