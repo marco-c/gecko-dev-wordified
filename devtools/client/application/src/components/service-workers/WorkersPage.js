@@ -287,14 +287,14 @@ section
 {
 className
 :
-workers
+app
 -
 page
 {
 isWorkerListEmpty
 ?
 "
-workers
+app
 -
 page
 -
