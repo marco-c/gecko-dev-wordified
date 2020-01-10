@@ -1791,6 +1791,7 @@ gSearchPane
 .
 onInputBlur
 (
+aEvent
 )
 ;
 }
