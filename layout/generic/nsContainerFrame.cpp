@@ -13602,7 +13602,11 @@ non
 overflow
 -
 container
-continuations
+next
+-
+in
+-
+flows
 of
 aOverflowCont
 /
@@ -13628,7 +13632,9 @@ that
 the
 next
 -
-continuations
+in
+-
+flows
 /
 /
 of
@@ -13647,7 +13653,7 @@ f
 aOverflowCont
 -
 >
-GetNextContinuation
+GetNextInFlow
 (
 )
 ;
