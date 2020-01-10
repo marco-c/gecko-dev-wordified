@@ -13021,6 +13021,7 @@ DEFINED_ON
 (
 arm
 arm64
+mips_shared
 x86_shared
 )
 ;
@@ -13045,6 +13046,7 @@ DEFINED_ON
 (
 arm
 arm64
+mips_shared
 x86_shared
 )
 ;
