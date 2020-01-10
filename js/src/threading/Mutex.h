@@ -436,12 +436,6 @@ Init
 (
 )
 ;
-static
-void
-ShutDown
-(
-)
-;
 #
 else
 static
@@ -453,13 +447,6 @@ Init
 return
 true
 ;
-}
-static
-void
-ShutDown
-(
-)
-{
 }
 #
 endif
