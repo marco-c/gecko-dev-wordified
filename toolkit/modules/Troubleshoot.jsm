@@ -3359,6 +3359,9 @@ TargetFrameRate
 "
 targetFrameRate
 "
+windowProtocol
+:
+null
 }
 ;
 for

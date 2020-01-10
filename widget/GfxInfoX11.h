@@ -203,6 +203,15 @@ aCleartypeParams
 override
 ;
 NS_IMETHOD
+GetWindowProtocol
+(
+nsAString
+&
+aWindowProtocol
+)
+override
+;
+NS_IMETHOD
 GetAdapterDescription
 (
 nsAString
@@ -512,6 +521,9 @@ mIsMesa
 ;
 bool
 mIsAccelerated
+;
+bool
+mIsWayland
 ;
 void
 AddCrashReportAnnotations

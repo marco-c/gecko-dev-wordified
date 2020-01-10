@@ -229,6 +229,15 @@ aCleartypeParams
 override
 ;
 NS_IMETHOD
+GetWindowProtocol
+(
+nsAString
+&
+aWindowProtocol
+)
+override
+;
+NS_IMETHOD
 GetAdapterDescription
 (
 nsAString
