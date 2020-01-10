@@ -729,6 +729,14 @@ uint32_t
 new_limit
 )
 ;
+bool
+ShouldLog
+(
+int
+level
+)
+const
+;
 void
 Log
 (
