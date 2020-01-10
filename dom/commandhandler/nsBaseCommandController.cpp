@@ -890,13 +890,11 @@ nsBaseCommandController
 :
 GetSupportedCommands
 (
-uint32_t
-*
-aCount
-char
-*
-*
-*
+nsTArray
+<
+nsCString
+>
+&
 aCommands
 )
 {
@@ -911,7 +909,6 @@ mCommandTable
 >
 GetSupportedCommands
 (
-aCount
 aCommands
 )
 ;

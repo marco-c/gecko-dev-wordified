@@ -389,8 +389,6 @@ cmd
 }
 getSupportedCommands
 (
-aCount
-aCommands
 )
 {
 throw
