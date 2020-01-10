@@ -2046,7 +2046,7 @@ lastSweepGroupIndex
 )
 {
 return
-gcLastSweepGroupIndex
+gcSweepGroupIndex
 ;
 }
 #
@@ -4293,7 +4293,7 @@ MainThreadData
 <
 unsigned
 >
-gcLastSweepGroupIndex
+gcSweepGroupIndex
 ;
 #
 endif
