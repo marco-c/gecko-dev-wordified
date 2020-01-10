@@ -1017,6 +1017,66 @@ ReleaseAcquire
 .
 /
 /
+Pref
+with
+a
+Skip
+or
+Once
+policy
+can
+be
+non
+-
+atomic
+as
+they
+are
+only
+ever
+/
+/
+written
+to
+once
+during
+the
+parent
+process
+startup
+.
+/
+/
+Pref
+with
+a
+Live
+policy
+must
+be
+made
+Atomic
+if
+ever
+accessed
+outside
+the
+/
+/
+main
+thread
+;
+assertions
+are
+in
+place
+to
+prevent
+incorrect
+usage
+.
+/
+/
 /
 /
 -
@@ -16320,7 +16380,7 @@ process
 enabled
 "
 GPUProcessEnabled
-RelaxedAtomicBool
+bool
 false
 )
 /
@@ -16806,7 +16866,7 @@ apz
 fling_curve_function_x1
 "
 APZCurveFunctionX1
-AtomicFloat
+float
 0
 .
 0f
@@ -16820,7 +16880,7 @@ apz
 fling_curve_function_x2
 "
 APZCurveFunctionX2
-AtomicFloat
+float
 1
 .
 0f
@@ -16834,7 +16894,7 @@ apz
 fling_curve_function_y1
 "
 APZCurveFunctionY1
-AtomicFloat
+float
 0
 .
 0f
@@ -16848,7 +16908,7 @@ apz
 fling_curve_function_y2
 "
 APZCurveFunctionY2
-AtomicFloat
+float
 1
 .
 0f
@@ -16949,7 +17009,7 @@ keyboard
 enabled
 "
 APZKeyboardEnabled
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -17004,7 +17064,7 @@ apz
 max_velocity_queue_size
 "
 APZMaxVelocityQueueSize
-RelaxedAtomicUint32
+uint32_t
 5
 )
 VARCACHE_PREF
@@ -17224,7 +17284,7 @@ pinch_lock
 buffer_max_age
 "
 APZPinchLockBufferMaxAge
-RelaxedAtomicInt32
+int32_t
 50
 )
 VARCACHE_PREF
@@ -17586,7 +17646,7 @@ vr
 enabled
 "
 VREnabled
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -17634,7 +17694,7 @@ external
 enabled
 "
 VRExternalEnabled
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -17702,7 +17762,7 @@ oculus
 enabled
 "
 VROculusEnabled
-RelaxedAtomicBool
+bool
 true
 )
 VARCACHE_PREF
@@ -17772,7 +17832,7 @@ openvr
 enabled
 "
 VROpenVREnabled
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -17788,7 +17848,7 @@ openvr
 action_input
 "
 VROpenVRActionInputEnabled
-RelaxedAtomicBool
+bool
 true
 )
 VARCACHE_PREF
@@ -17804,7 +17864,7 @@ osvr
 enabled
 "
 VROSVREnabled
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -17952,7 +18012,7 @@ process
 enabled
 "
 VRProcessEnabled
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -17968,7 +18028,7 @@ process
 startup_timeout_ms
 "
 VRProcessTimeoutMs
-RelaxedAtomicInt32
+int32_t
 5000
 )
 VARCACHE_PREF
@@ -17984,7 +18044,7 @@ service
 enabled
 "
 VRServiceEnabled
-RelaxedAtomicBool
+bool
 true
 )
 VARCACHE_PREF
@@ -18374,7 +18434,7 @@ rgb16
 force
 "
 AndroidRGB16Force
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -18388,7 +18448,7 @@ apitrace
 enabled
 "
 UseApitrace
-RelaxedAtomicBool
+bool
 false
 )
 #
@@ -18426,7 +18486,7 @@ blocklist
 all
 "
 BlocklistAll
-RelaxedAtomicInt32
+int32_t
 0
 )
 #
@@ -18442,7 +18502,7 @@ blocklist
 all
 "
 BlocklistAll
-RelaxedAtomicInt32
+int32_t
 0
 )
 #
@@ -18735,7 +18795,7 @@ cache
 size
 "
 SkiaContentFontCacheSize
-RelaxedAtomicInt32
+int32_t
 5
 )
 VARCACHE_PREF
@@ -18751,7 +18811,7 @@ reset
 limit
 "
 DeviceResetLimitCount
-RelaxedAtomicInt32
+int32_t
 10
 )
 VARCACHE_PREF
@@ -18769,7 +18829,7 @@ threshold
 ms
 "
 DeviceResetThresholdMilliseconds
-RelaxedAtomicInt32
+int32_t
 -
 1
 )
@@ -18784,7 +18844,7 @@ direct2d
 disabled
 "
 Direct2DDisabled
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -18800,7 +18860,7 @@ force
 enabled
 "
 Direct2DForceEnabled
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -18893,7 +18953,7 @@ debug
 layer
 "
 Direct3D11EnableDebugLayer
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -18911,7 +18971,7 @@ on
 error
 "
 Direct3D11BreakOnError
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -18931,7 +18991,7 @@ create
 device
 "
 Direct3D11SleepOnCreateDevice
-RelaxedAtomicInt32
+int32_t
 0
 )
 VARCACHE_PREF
@@ -19009,7 +19069,7 @@ for
 scroll
 "
 HidePluginsForScroll
-RelaxedAtomicBool
+bool
 true
 )
 VARCACHE_PREF
@@ -19027,7 +19087,7 @@ list
 shared
 "
 SharedFontList
-RelaxedAtomicBool
+bool
 false
 )
 #
@@ -19133,7 +19193,7 @@ crash
 length
 "
 GfxLoggingCrashLength
-RelaxedAtomicUint32
+uint32_t
 16
 )
 VARCACHE_PREF
@@ -19188,7 +19248,7 @@ usage
 enabled
 "
 GfxLoggingTextureUsageEnabled
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -19208,7 +19268,7 @@ usage
 enabled
 "
 GfxLoggingPeakTextureUsageEnabled
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -19226,7 +19286,7 @@ frames
 enabled
 "
 LoggingSlowFramesEnabled
-RelaxedAtomicBool
+bool
 false
 )
 /
@@ -19254,7 +19314,7 @@ alloc
 size
 "
 MaxAllocSizeDoNotUseDirectly
-RelaxedAtomicInt32
+int32_t
 (
 int32_t
 )
@@ -19285,7 +19345,7 @@ texture
 size
 "
 MaxTextureSizeDoNotUseDirectly
-RelaxedAtomicInt32
+int32_t
 (
 int32_t
 )
@@ -19366,7 +19426,7 @@ disable
 aa
 "
 DisableAllTextAA
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -19440,7 +19500,7 @@ iosurface
 textures
 "
 UseIOSurfaceTextures
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -19458,7 +19518,7 @@ on
 present
 "
 UseMutexOnPresent
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -19474,7 +19534,7 @@ surfacetexture
 textures
 "
 UseSurfaceTextureTextures
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -19492,7 +19552,7 @@ direct
 mapping
 "
 AllowTextureDirectMapping
-RelaxedAtomicBool
+bool
 true
 )
 VARCACHE_PREF
@@ -19528,7 +19588,7 @@ unobserve
 count
 "
 CompositorUnobserveCount
-RelaxedAtomicInt32
+int32_t
 10
 )
 VARCACHE_PREF
@@ -19542,7 +19602,7 @@ webrender
 all
 "
 WebRenderAll
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -19558,7 +19618,7 @@ all
 qualified
 "
 WebRenderAllQualified
-RelaxedAtomicBool
+bool
 true
 )
 VARCACHE_PREF
@@ -19676,7 +19736,7 @@ webrender
 enabled
 "
 WebRenderEnabledDoNotUseDirectly
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -19692,7 +19752,7 @@ force
 disabled
 "
 WebRenderForceDisabled
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -19784,7 +19844,7 @@ render
 roots
 "
 WebRenderSplitRenderRoots
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -19828,7 +19888,7 @@ driver
 bugs
 "
 WorkAroundDriverBugs
-RelaxedAtomicBool
+bool
 true
 )
 VARCACHE_PREF
@@ -20069,7 +20129,7 @@ cache
 size
 "
 ImageCacheSize
-RelaxedAtomicInt32
+int32_t
 5
 *
 1024
@@ -20087,7 +20147,7 @@ cache
 timeweight
 "
 ImageCacheTimeWeight
-RelaxedAtomicInt32
+int32_t
 500
 )
 VARCACHE_PREF
@@ -20167,7 +20227,7 @@ mem
 decode_bytes_at_a_time
 "
 ImageMemDecodeBytesAtATime
-RelaxedAtomicUint32
+uint32_t
 200000
 )
 VARCACHE_PREF
@@ -20197,7 +20257,7 @@ animated
 discardable
 "
 ImageMemAnimatedDiscardable
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -20259,7 +20319,7 @@ surfacecache
 discard_factor
 "
 ImageMemSurfaceCacheDiscardFactor
-RelaxedAtomicUint32
+uint32_t
 1
 )
 VARCACHE_PREF
@@ -20275,7 +20335,7 @@ surfacecache
 max_size_kb
 "
 ImageMemSurfaceCacheMaxSizeKB
-RelaxedAtomicUint32
+uint32_t
 100
 *
 1024
@@ -20293,7 +20353,7 @@ surfacecache
 min_expiration_ms
 "
 ImageMemSurfaceCacheMinExpirationMS
-RelaxedAtomicUint32
+uint32_t
 60
 *
 1000
@@ -20311,7 +20371,7 @@ surfacecache
 size_factor
 "
 ImageMemSurfaceCacheSizeFactor
-RelaxedAtomicUint32
+uint32_t
 64
 )
 VARCACHE_PREF
@@ -20342,7 +20402,7 @@ multithreaded_decoding
 limit
 "
 ImageMTDecodingLimit
-RelaxedAtomicInt32
+int32_t
 -
 1
 )
@@ -20357,7 +20417,7 @@ multithreaded_decoding
 idle_timeout
 "
 ImageMTDecodingIdleTimeout
-RelaxedAtomicInt32
+int32_t
 -
 1
 )
@@ -20386,7 +20446,7 @@ acceleration
 disabled
 "
 LayersAccelerationDisabledDoNotUseDirectly
-RelaxedAtomicBool
+bool
 false
 )
 /
@@ -20475,7 +20535,7 @@ force
 enabled
 "
 LayersAccelerationForceEnabledDoNotUseDirectly
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -20511,7 +20571,7 @@ gfx
 enabled
 "
 LayersAMDSwitchableGfxEnabled
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -20529,7 +20589,7 @@ zoom
 enabled
 "
 AsyncPanZoomEnabledDoNotUseDirectly
-RelaxedAtomicBool
+bool
 true
 )
 VARCACHE_PREF
@@ -20557,7 +20617,7 @@ bufferrotation
 enabled
 "
 BufferRotationEnabled
-RelaxedAtomicBool
+bool
 true
 )
 VARCACHE_PREF
@@ -20608,7 +20668,7 @@ componentalpha
 enabled
 "
 ComponentAlphaEnabled
-RelaxedAtomicBool
+bool
 false
 )
 #
@@ -20643,7 +20703,7 @@ componentalpha
 enabled
 "
 ComponentAlphaEnabled
-RelaxedAtomicBool
+bool
 true
 )
 #
@@ -20661,7 +20721,7 @@ force
 warp
 "
 LayersD3D11ForceWARP
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -20907,7 +20967,7 @@ enable
 tiles
 "
 LayersTilesEnabled
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -20927,7 +20987,7 @@ skia
 pomtp
 "
 LayersTilesEnabledIfSkiaPOMTP
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -20957,7 +21017,7 @@ shmem
 tiles
 "
 ForceShmemTiles
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -20975,7 +21035,7 @@ allow
 software
 "
 GPUProcessAllowSoftware
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -20993,7 +21053,7 @@ force
 enabled
 "
 GPUProcessForceEnabled
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -21009,7 +21069,7 @@ process
 ipc_reply_timeout_ms
 "
 GPUProcessIPCReplyTimeoutMs
-RelaxedAtomicInt32
+int32_t
 10000
 )
 VARCACHE_PREF
@@ -21080,7 +21140,7 @@ process
 startup_timeout_ms
 "
 GPUProcessTimeoutMs
-RelaxedAtomicInt32
+int32_t
 5000
 )
 VARCACHE_PREF
@@ -21161,7 +21221,7 @@ mlgpu
 enabled
 "
 AdvancedLayersEnabledDoNotUseDirectly
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -21179,7 +21239,7 @@ buffer
 cache
 "
 AdvancedLayersEnableBufferCache
-RelaxedAtomicBool
+bool
 true
 )
 VARCACHE_PREF
@@ -21197,7 +21257,7 @@ buffer
 sharing
 "
 AdvancedLayersEnableBufferSharing
-RelaxedAtomicBool
+bool
 true
 )
 VARCACHE_PREF
@@ -21215,7 +21275,7 @@ clear
 view
 "
 AdvancedLayersEnableClearView
-RelaxedAtomicBool
+bool
 true
 )
 VARCACHE_PREF
@@ -21233,7 +21293,7 @@ cpu
 occlusion
 "
 AdvancedLayersEnableCPUOcclusion
-RelaxedAtomicBool
+bool
 true
 )
 VARCACHE_PREF
@@ -21251,7 +21311,7 @@ depth
 buffer
 "
 AdvancedLayersEnableDepthBuffer
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -21285,7 +21345,7 @@ on
 windows7
 "
 AdvancedLayersEnableOnWindows7
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -21303,7 +21363,7 @@ container
 resizing
 "
 AdvancedLayersEnableContainerResizing
-RelaxedAtomicBool
+bool
 true
 )
 VARCACHE_PREF
@@ -21319,7 +21379,7 @@ force
 disabled
 "
 LayersOffMainThreadCompositionForceDisabled
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -21352,7 +21412,7 @@ capture
 limit
 "
 LayersOMTPCaptureLimit
-RelaxedAtomicUint32
+uint32_t
 25
 *
 1024
@@ -21388,7 +21448,7 @@ paint
 workers
 "
 LayersOMTPPaintWorkers
-RelaxedAtomicInt32
+int32_t
 1
 )
 VARCACHE_PREF
@@ -21443,7 +21503,7 @@ prefer
 opengl
 "
 LayersPreferOpenGL
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -21573,7 +21633,7 @@ tile
 width
 "
 LayersTileWidth
-RelaxedAtomicInt32
+int32_t
 256
 )
 VARCACHE_PREF
@@ -21587,7 +21647,7 @@ tile
 height
 "
 LayersTileHeight
-RelaxedAtomicInt32
+int32_t
 256
 )
 VARCACHE_PREF
@@ -21605,7 +21665,7 @@ pool
 size
 "
 LayersTileInitialPoolSize
-RelaxedAtomicUint32
+uint32_t
 (
 uint32_t
 )
@@ -21626,7 +21686,7 @@ unused
 size
 "
 LayersTilePoolUnusedSize
-RelaxedAtomicUint32
+uint32_t
 (
 uint32_t
 )
@@ -21647,7 +21707,7 @@ shrink
 timeout
 "
 LayersTilePoolShrinkTimeout
-RelaxedAtomicUint32
+uint32_t
 (
 uint32_t
 )
@@ -21668,7 +21728,7 @@ clear
 timeout
 "
 LayersTilePoolClearTimeout
-RelaxedAtomicUint32
+uint32_t
 (
 uint32_t
 )
@@ -21685,7 +21745,7 @@ tiles
 adjust
 "
 LayersTilesAdjust
-RelaxedAtomicBool
+bool
 true
 )
 VARCACHE_PREF
@@ -21719,7 +21779,7 @@ edge
 padding
 "
 TileEdgePaddingEnabled
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -21787,7 +21847,7 @@ uniformity
 info
 "
 UniformityInfo
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -21805,7 +21865,7 @@ offscreen
 surfaces
 "
 UseImageOffscreenSurfaces
-RelaxedAtomicBool
+bool
 true
 )
 VARCACHE_PREF
@@ -22376,7 +22436,7 @@ layout
 paint_rects_separately
 "
 LayoutPaintRectsSeparately
-RelaxedAtomicBool
+bool
 true
 )
 /
@@ -22478,7 +22538,7 @@ force
 enabled
 "
 HardwareVideoDecodingForceEnabled
-RelaxedAtomicBool
+bool
 false
 )
 #
@@ -22573,7 +22633,7 @@ sync
 texture
 "
 PDMWMFUseSyncTexture
-RelaxedAtomicBool
+bool
 true
 )
 VARCACHE_PREF
@@ -22703,7 +22763,7 @@ vp9
 enabled
 "
 MediaWmfVp9Enabled
-RelaxedAtomicBool
+bool
 true
 )
 #
@@ -22899,7 +22959,7 @@ slider
 snapMultiplier
 "
 SliderSnapMultiplier
-RelaxedAtomicInt32
+int32_t
 0
 )
 VARCACHE_PREF
@@ -23330,7 +23390,7 @@ layers
 readback
 "
 WebGLForceLayersReadback
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF

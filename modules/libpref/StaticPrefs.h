@@ -765,7 +765,7 @@ id
 )
 {
 \
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 UpdatePolicy
 :
@@ -840,7 +840,7 @@ aValue
 )
 {
 \
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 IsAtomic
 <
