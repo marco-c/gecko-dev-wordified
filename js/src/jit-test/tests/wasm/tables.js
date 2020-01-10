@@ -107,7 +107,6 @@ segment
 requires
 a
 table
-section
 /
 )
 ;
@@ -4101,7 +4100,7 @@ Min
 /
 Elements
 section
-0x07
+0x08
 /
 /
 Section
@@ -4164,6 +4163,13 @@ expr
 :
 end
 0x00
+/
+/
+Extern
+kind
+:
+Function
+0x00
 ]
 )
 ;
@@ -4221,7 +4227,7 @@ Module
 (
 makeIt
 (
-0x03
+0x08
 0x00
 )
 )
@@ -4231,9 +4237,9 @@ CompileError
 /
 invalid
 elem
-initializer
--
-kind
+segment
+flags
+field
 /
 )
 ;

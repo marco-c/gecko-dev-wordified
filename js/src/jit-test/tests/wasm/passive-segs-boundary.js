@@ -2685,7 +2685,6 @@ segment
 requires
 a
 table
-section
 /
 /
 *
