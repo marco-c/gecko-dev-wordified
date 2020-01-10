@@ -1209,7 +1209,7 @@ mCachedMinISize
 =
 NS_INTRINSIC_ISIZE_UNKNOWN
 ;
-mPrefWidth
+mCachedPrefISize
 =
 NS_INTRINSIC_ISIZE_UNKNOWN
 ;
@@ -3263,7 +3263,7 @@ filename
 .
 if
 (
-mPrefWidth
+mCachedPrefISize
 =
 =
 NS_INTRINSIC_ISIZE_UNKNOWN
