@@ -13722,7 +13722,7 @@ aInitialPriority
 )
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 failed
