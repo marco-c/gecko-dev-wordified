@@ -964,7 +964,7 @@ height
 return
 aResult
 .
-ParseSpecialIntValue
+ParseHTMLDimension
 (
 aValue
 )

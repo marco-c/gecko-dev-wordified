@@ -278,7 +278,7 @@ width
 return
 aResult
 .
-ParseSpecialIntValue
+ParseHTMLDimension
 (
 aValue
 )
