@@ -798,11 +798,6 @@ gBrowser
 chromeWin
 .
 gBrowserInit
-&
-&
-chromeWin
-.
-gBrowserInit
 .
 isAdoptingTab
 (
