@@ -2430,7 +2430,7 @@ syn
 .
 15
 .
-24
+30
 "
 )
 ]
@@ -2492,8 +2492,8 @@ clippy
 allow
 (
 block_in_if_condition_stmt
+cognitive_complexity
 const_static_lifetime
-cyclomatic_complexity
 deprecated_cfg_attr
 doc_markdown
 eval_order_dependence
@@ -6138,6 +6138,9 @@ the
 parsing
 "
 and
+/
+/
+/
 "
 full
 "

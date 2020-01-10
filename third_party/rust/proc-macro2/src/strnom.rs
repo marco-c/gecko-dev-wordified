@@ -40,7 +40,7 @@ unicode_xid
 UnicodeXID
 ;
 use
-stable
+fallback
 :
 :
 LexError
@@ -74,7 +74,7 @@ str
 [
 cfg
 (
-procmacro2_semver_exempt
+span_locations
 )
 ]
 pub
@@ -99,7 +99,7 @@ cfg
 (
 not
 (
-procmacro2_semver_exempt
+span_locations
 )
 )
 ]
@@ -140,7 +140,7 @@ amt
 [
 cfg
 (
-procmacro2_semver_exempt
+span_locations
 )
 ]
 pub
