@@ -207,7 +207,6 @@ h
 "
 /
 /
-For
 xpc
 :
 :
@@ -221,6 +220,16 @@ CompilationAndEvaluation
 .
 h
 "
+/
+/
+JS
+:
+:
+Compile
+{
+ForNonSyntacticScope
+}
+DontInflate
 #
 include
 "
@@ -1143,7 +1152,7 @@ return
 JS
 :
 :
-Compile
+CompileDontInflate
 (
 cx
 options
@@ -1155,7 +1164,7 @@ return
 JS
 :
 :
-CompileForNonSyntacticScope
+CompileForNonSyntacticScopeDontInflate
 (
 cx
 options
