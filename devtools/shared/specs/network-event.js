@@ -746,6 +746,15 @@ Option
 string
 "
 )
+isRacing
+:
+Option
+(
+1
+"
+boolean
+"
+)
 }
 "
 network

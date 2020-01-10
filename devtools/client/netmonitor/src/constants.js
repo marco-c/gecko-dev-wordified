@@ -726,6 +726,9 @@ statusText
 httpVersion
 "
 "
+isRacing
+"
+"
 securityState
 "
 "
@@ -814,9 +817,6 @@ isThirdPartyTrackingResource
 "
 "
 referrerPolicy
-"
-"
-blockedReason
 "
 ]
 ;
