@@ -68,6 +68,7 @@ AUDITING
 FILTER_TOGGLE
 FILTERS
 RESET
+SELECT
 }
 =
 require
@@ -213,6 +214,9 @@ auditing
 null
 }
 ;
+case
+SELECT
+:
 case
 RESET
 :
