@@ -339,6 +339,13 @@ fetch
 server
 }
 /
+{
+credentials
+:
+"
+omit
+"
+}
 )
 )
 .
@@ -1414,6 +1421,11 @@ fetch
 remoteFilePath
 {
 headers
+credentials
+:
+"
+omit
+"
 }
 )
 .
