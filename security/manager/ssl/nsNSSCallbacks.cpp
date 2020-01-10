@@ -7430,6 +7430,17 @@ treatUnsafeNegotiationAsBroken
 (
 )
 ;
+bool
+deprecatedTlsVer
+=
+(
+channelInfo
+.
+protocolVersion
+<
+SSL_LIBRARY_VERSION_TLS_1_2
+)
+;
 RememberCertErrorsTable
 :
 :
@@ -7448,6 +7459,9 @@ state
 if
 (
 renegotiationUnsafe
+|
+|
+deprecatedTlsVer
 )
 {
 state
