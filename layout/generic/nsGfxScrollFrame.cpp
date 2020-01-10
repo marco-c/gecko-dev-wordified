@@ -26430,6 +26430,16 @@ IsEmpty
 )
 )
 {
+nsDisplayListBuilder
+:
+:
+AutoBuildingDisplayList
+buildingDisplayList
+(
+aBuilder
+viewportFrame
+)
+;
 /
 /
 Wrap
