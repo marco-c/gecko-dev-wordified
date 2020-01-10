@@ -29759,7 +29759,6 @@ support
 sync
 -
 log
-telemetry
 welcomeback
 "
 )
