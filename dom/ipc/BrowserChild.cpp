@@ -4267,6 +4267,10 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIWebProgressListener
 )
+NS_INTERFACE_MAP_ENTRY
+(
+nsIWebProgressListener2
+)
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
