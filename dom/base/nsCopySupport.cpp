@@ -1250,6 +1250,8 @@ used
 .
 bool
 mUnicodeEncodingIsTextHTML
+=
+false
 ;
 /
 /
