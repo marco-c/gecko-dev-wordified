@@ -9371,7 +9371,6 @@ GetExternalContentPolicyType
 ;
 if
 (
-(
 policyType
 =
 =
@@ -9388,15 +9387,6 @@ nsIContentPolicy
 :
 :
 TYPE_SUBDOCUMENT
-)
-&
-&
-gHttpHandler
--
->
-IsDocumentNosniffEnabled
-(
-)
 )
 {
 /
