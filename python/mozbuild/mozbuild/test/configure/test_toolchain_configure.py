@@ -955,8 +955,6 @@ target
 =
 x86_64
 -
-apple
--
 darwin11
 .
 2
@@ -992,8 +990,6 @@ None
 target
 =
 i686
--
-apple
 -
 darwin11
 .
@@ -10267,8 +10263,6 @@ target
 =
 i686
 -
-apple
--
 darwin11
 .
 2
@@ -10300,8 +10294,6 @@ flags
 target
 =
 i686
--
-apple
 -
 darwin11
 .
