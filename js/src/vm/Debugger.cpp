@@ -55882,7 +55882,7 @@ if
 JSScript
 :
 :
-tryLoadSource
+loadSource
 (
 cx_
 ss
