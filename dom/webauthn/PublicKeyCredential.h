@@ -324,6 +324,13 @@ bool
 aResult
 )
 ;
+void
+SetClientExtensionResultHmacSecret
+(
+bool
+aHmacCreateSecret
+)
+;
 private
 :
 CryptoBuffer

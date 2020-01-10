@@ -1500,6 +1500,12 @@ aResult
 CryptoBuffer
 emptyBuffer
 ;
+nsTArray
+<
+WebAuthnExtensionResult
+>
+extensions
+;
 WebAuthnMakeCredentialResult
 result
 (
@@ -1513,6 +1519,7 @@ aResult
 .
 mKeyHandle
 emptyBuffer
+extensions
 )
 ;
 self
