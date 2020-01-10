@@ -3033,11 +3033,11 @@ derive
 Clone
 Debug
 Eq
+MallocSizeOf
 PartialEq
 ToComputedValue
 ToCss
 ToShmem
-MallocSizeOf
 )
 ]
 pub
@@ -3451,8 +3451,8 @@ derive
 (
 Clone
 Debug
-ToShmem
 ToCss
+ToShmem
 )
 ]
 pub
@@ -3530,8 +3530,8 @@ derive
 (
 Clone
 Debug
-ToShmem
 ToCss
+ToShmem
 )
 ]
 #
@@ -4172,8 +4172,8 @@ derive
 Clone
 Debug
 Eq
-PartialEq
 MallocSizeOf
+PartialEq
 ToComputedValue
 ToCss
 ToShmem
