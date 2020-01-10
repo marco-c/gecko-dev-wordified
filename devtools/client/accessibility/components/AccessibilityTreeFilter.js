@@ -271,7 +271,7 @@ auditing
 :
 PropTypes
 .
-string
+array
 .
 isRequired
 filters
@@ -652,10 +652,11 @@ filterKey
 busy
 :
 auditing
-=
-=
-=
+.
+includes
+(
 filterKey
+)
 }
 )
 )
