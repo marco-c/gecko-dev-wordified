@@ -14578,7 +14578,7 @@ bool
 ScriptSource
 :
 :
-initializeWithCompressedSource
+initializeWithUnretrievableCompressedSource
 (
 JSContext
 *
@@ -17381,7 +17381,7 @@ if
 ss
 -
 >
-initializeWithCompressedSource
+initializeWithUnretrievableCompressedSource
 <
 Unit
 >

@@ -6684,12 +6684,13 @@ fresh
 ScriptSource
 as
 containing
+unretrievable
 compressed
+/
+/
 source
 of
 the
-/
-/
 indicated
 original
 encoding
@@ -6701,7 +6702,7 @@ Unit
 >
 MOZ_MUST_USE
 bool
-initializeWithCompressedSource
+initializeWithUnretrievableCompressedSource
 (
 JSContext
 *
