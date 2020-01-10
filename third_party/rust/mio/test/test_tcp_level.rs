@@ -236,12 +236,9 @@ Token
 )
 )
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 poll
 .
@@ -530,12 +527,9 @@ Token
 )
 )
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 poll
 .

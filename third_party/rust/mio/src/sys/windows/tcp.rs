@@ -2850,12 +2850,9 @@ into
 if
 bufs
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 return
 Ok
