@@ -900,6 +900,10 @@ const
 NetAddr
 &
 oldPeerAddr
+const
+ResourceTimingStruct
+&
+aTiming
 )
 override
 ;
@@ -3043,6 +3047,10 @@ const
 uint64_t
 &
 channelId
+const
+ResourceTimingStruct
+&
+timing
 )
 ;
 bool
