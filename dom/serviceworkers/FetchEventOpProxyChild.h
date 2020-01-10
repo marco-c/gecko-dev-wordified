@@ -130,6 +130,13 @@ h
 #
 include
 "
+ServiceWorkerOp
+.
+h
+"
+#
+include
+"
 ServiceWorkerOpPromise
 .
 h
@@ -251,6 +258,12 @@ MozPromiseRequestHolder
 FetchEventRespondWithPromise
 >
 mRespondWithPromiseRequestHolder
+;
+RefPtr
+<
+FetchEventOp
+>
+mOp
 ;
 /
 /
