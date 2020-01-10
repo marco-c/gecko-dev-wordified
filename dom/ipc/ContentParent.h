@@ -5897,6 +5897,10 @@ bool
 &
 aIsFromPrivateWindow
 const
+uint64_t
+&
+aInnerWindowId
+const
 bool
 &
 aIsFromChromeContext
