@@ -317,6 +317,10 @@ extern
 crate
 arrayvec
 ;
+extern
+crate
+audio_thread_priority
+;
 use
 std
 :
