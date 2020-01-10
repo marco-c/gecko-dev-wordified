@@ -8470,16 +8470,6 @@ shadow
 .
 card
 :
-not
-(
-.
-card
--
-no
--
-hover
-)
-:
 hover
 {
 box
