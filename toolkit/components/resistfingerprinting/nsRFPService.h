@@ -357,9 +357,9 @@ define
 SPOOFED_UA_OS
 "
 Android
-6
+8
 .
-0
+1
 ;
 Mobile
 "
@@ -372,9 +372,9 @@ SPOOFED_APPVERSION
 0
 (
 Android
-6
+8
 .
-0
+1
 )
 "
 #

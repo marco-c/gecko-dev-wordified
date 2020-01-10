@@ -143,9 +143,9 @@ android
 0
 (
 Android
-6
+8
 .
-0
+1
 )
 "
 other
@@ -284,9 +284,9 @@ android
 :
 "
 Android
-6
+8
 .
-0
+1
 ;
 Mobile
 "
@@ -335,9 +335,9 @@ android
 :
 "
 Android
-6
+8
 .
-0
+1
 ;
 Mobile
 "
