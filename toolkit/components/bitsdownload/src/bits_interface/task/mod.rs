@@ -121,6 +121,7 @@ ChangeMonitorIntervalTask
 CompleteTask
 Priority
 ResumeTask
+SetNoProgressTimeoutTask
 SetPriorityTask
 SuspendTask
 }
