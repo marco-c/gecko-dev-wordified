@@ -456,7 +456,6 @@ decl_pal_pred_fn
 dav1d_pal_pred_ssse3
 )
 ;
-COLD
 void
 bitfn
 (

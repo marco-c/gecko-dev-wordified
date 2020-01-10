@@ -280,15 +280,6 @@ h
 #
 include
 "
-common
-/
-attributes
-.
-h
-"
-#
-include
-"
 src
 /
 thread
@@ -296,7 +287,6 @@ thread
 h
 "
 static
-COLD
 unsigned
 __stdcall
 thread_entrypoint
@@ -334,7 +324,6 @@ return
 0
 ;
 }
-COLD
 int
 dav1d_pthread_create
 (
@@ -417,7 +406,6 @@ thread
 h
 ;
 }
-COLD
 int
 dav1d_pthread_join
 (
@@ -469,7 +457,6 @@ h
 )
 ;
 }
-COLD
 int
 dav1d_pthread_once
 (
