@@ -968,6 +968,10 @@ oneshot
 )
 )
 .
+ok
+(
+)
+.
 expect
 (
 "

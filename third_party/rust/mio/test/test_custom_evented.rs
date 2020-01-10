@@ -1518,6 +1518,10 @@ push
 Entry
 {
 registration
+:
+registration
+set_readiness
+:
 set_readiness
 num
 :
@@ -2403,6 +2407,7 @@ usize
 50_000
 ;
 let
+mut
 poll
 =
 Poll
@@ -2571,6 +2576,7 @@ registration
 register
 (
 &
+mut
 poll
 Token
 (
@@ -2648,6 +2654,7 @@ registration
 register
 (
 &
+mut
 poll
 Token
 (
