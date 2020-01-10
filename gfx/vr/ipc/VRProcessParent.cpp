@@ -188,6 +188,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -561,7 +570,7 @@ mVRChild
 int32_t
 timeoutMs
 =
-gfxPrefs
+StaticPrefs
 :
 :
 VRProcessTimeoutMs

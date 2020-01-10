@@ -200,14 +200,16 @@ include
 "
 mozilla
 /
-Unused
+StaticPrefs
 .
 h
 "
 #
 include
 "
-gfxPrefs
+mozilla
+/
+Unused
 .
 h
 "
@@ -549,7 +551,7 @@ enabled
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 VRProcessEnabled
@@ -682,7 +684,7 @@ XRE_IsParentProcess
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 VREnabled
@@ -991,7 +993,7 @@ XRE_IsGPUProcess
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 VRProcessEnabled
@@ -2854,7 +2856,7 @@ XRE_IsGPUProcess
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 VRProcessEnabled

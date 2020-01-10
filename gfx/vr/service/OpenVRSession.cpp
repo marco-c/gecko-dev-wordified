@@ -154,7 +154,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -1523,7 +1525,7 @@ aSystemState
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 VREnabled
@@ -1532,7 +1534,7 @@ VREnabled
 |
 |
 !
-gfxPrefs
+StaticPrefs
 :
 :
 VROpenVREnabled
@@ -1827,7 +1829,7 @@ false
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VROpenVRActionInputEnabled
@@ -1934,7 +1936,7 @@ paths
 .
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VRProcessEnabled
@@ -5211,7 +5213,7 @@ recorded
 .
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VRProcessEnabled
@@ -13913,7 +13915,7 @@ aSystemState
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VROpenVRActionInputEnabled
@@ -15300,7 +15302,7 @@ aClosure
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VROpenVRActionInputEnabled

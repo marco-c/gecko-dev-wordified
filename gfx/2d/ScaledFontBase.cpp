@@ -124,7 +124,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -259,7 +261,7 @@ GetDefaultAAMode
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 DisableAllTextAA

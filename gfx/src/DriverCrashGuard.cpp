@@ -131,13 +131,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 gfxConfig
 .
 h
@@ -190,6 +183,15 @@ include
 mozilla
 /
 Preferences
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -2642,7 +2644,7 @@ XP_WIN
 bool
 d2dEnabled
 =
-gfxPrefs
+StaticPrefs
 :
 :
 Direct2DForceEnabled
@@ -2652,7 +2654,7 @@ Direct2DForceEnabled
 |
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 Direct2DDisabled

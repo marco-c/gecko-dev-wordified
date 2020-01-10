@@ -4037,7 +4037,7 @@ aFormat
 *
 Wrapper
 around
-gfxPrefs
+StaticPrefs
 :
 :
 PerfWarnings
@@ -4052,7 +4052,7 @@ function
 to
 avoid
 including
-gfxPrefs
+StaticPrefs
 .
 h
 from

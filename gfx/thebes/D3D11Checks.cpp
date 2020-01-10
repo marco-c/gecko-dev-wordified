@@ -121,13 +121,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 gfxWindowsPlatform
 .
 h
@@ -865,7 +858,7 @@ true
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 Direct2DForceEnabled
@@ -1266,7 +1259,7 @@ false
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 Direct2DForceEnabled
@@ -1363,7 +1356,7 @@ IsEmpty
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 LayersAMDSwitchableGfxEnabled

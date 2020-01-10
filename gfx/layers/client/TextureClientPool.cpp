@@ -164,7 +164,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -1028,7 +1030,7 @@ newClient
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 ForceShmemTiles

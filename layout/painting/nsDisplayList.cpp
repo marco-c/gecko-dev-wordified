@@ -43701,7 +43701,7 @@ Default
 ;
 MOZ_ASSERT
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderSplitRenderRoots

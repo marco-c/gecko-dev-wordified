@@ -262,13 +262,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 gfxConfig
 .
 h
@@ -315,6 +308,15 @@ include
 mozilla
 /
 EnumeratedArray
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -706,7 +708,7 @@ false
 {
 mUseMutexOnPresent
 =
-gfxPrefs
+StaticPrefs
 :
 :
 UseMutexOnPresent
@@ -6402,7 +6404,7 @@ COMPONENT_ALPHA
 {
 MOZ_ASSERT
 (
-gfxPrefs
+StaticPrefs
 :
 :
 ComponentAlphaEnabled

@@ -40673,7 +40673,7 @@ aTransform
 &
 &
 !
-gfxPrefs
+StaticPrefs
 :
 :
 LayersTilesEnabled
@@ -46801,7 +46801,7 @@ aClip
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutPaintRectsSeparately

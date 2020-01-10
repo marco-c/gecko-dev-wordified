@@ -142,13 +142,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 gfxEnv
 .
 h
@@ -187,6 +180,15 @@ include
 mozilla
 /
 Range
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -1967,7 +1969,7 @@ IsRootWebRenderBridgeParent
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -5850,7 +5852,7 @@ rect
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -10625,7 +10627,7 @@ IsRootWebRenderBridgeParent
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -11192,7 +11194,7 @@ IsRootWebRenderBridgeParent
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -11467,7 +11469,7 @@ kHighestRenderRoot
 |
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderSplitRenderRoots

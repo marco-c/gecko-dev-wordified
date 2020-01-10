@@ -195,6 +195,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ChaosMode
 .
 h
@@ -454,13 +463,6 @@ h
 include
 "
 Image
-.
-h
-"
-#
-include
-"
-gfxPrefs
 .
 h
 "
@@ -8436,7 +8438,7 @@ GlobalInit
 {
 sCacheTimeWeight
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ImageCacheTimeWeight
@@ -8450,7 +8452,7 @@ ImageCacheTimeWeight
 int32_t
 cachesize
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ImageCacheSize

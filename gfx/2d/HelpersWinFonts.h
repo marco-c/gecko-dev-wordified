@@ -117,7 +117,9 @@ MPL
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -157,7 +159,7 @@ SUBPIXEL
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 DisableAllTextAA

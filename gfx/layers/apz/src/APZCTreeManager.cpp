@@ -4542,7 +4542,7 @@ AssertOnUpdaterThread
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 APZKeyboardEnabled
@@ -11468,7 +11468,7 @@ enabled
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 APZKeyboardEnabled

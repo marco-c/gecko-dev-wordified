@@ -700,7 +700,7 @@ MAX_TAP_TIME
 and
 /
 /
-gfxPrefs
+StaticPrefs
 :
 :
 UiClickHoldContextMenusDelay
@@ -762,15 +762,15 @@ a
 long
 tap
 if
-gfxPrefs
+StaticPrefs
 :
 :
 UiClickHoldContextMenusDelay
 (
 )
+/
+/
 happens
-/
-/
 first
 .
 /

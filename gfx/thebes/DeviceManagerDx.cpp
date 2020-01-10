@@ -121,13 +121,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 gfxWindowsPlatform
 .
 h
@@ -1186,7 +1179,7 @@ if
 int32_t
 sleepSec
 =
-gfxPrefs
+StaticPrefs
 :
 :
 Direct3D11SleepOnCreateDevice
@@ -2769,7 +2762,7 @@ d3d11
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersD3D11ForceWARP
@@ -3176,7 +3169,7 @@ aOutDevice
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 Direct3D11EnableDebugLayer
@@ -3184,7 +3177,7 @@ Direct3D11EnableDebugLayer
 )
 |
 |
-gfxPrefs
+StaticPrefs
 :
 :
 Direct3D11BreakOnError
@@ -3239,7 +3232,7 @@ false
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 Direct3D11BreakOnError
@@ -3431,7 +3424,7 @@ D3D11
 -
 WARP
 "
-gfxPrefs
+StaticPrefs
 :
 :
 LayersD3D11ForceWARP

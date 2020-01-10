@@ -128,7 +128,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -1589,7 +1591,7 @@ GetGPUChild
 int32_t
 timeout
 =
-gfxPrefs
+StaticPrefs
 :
 :
 GPUProcessIPCReplyTimeoutMs

@@ -118,6 +118,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs
+.
+h
+"
+#
+include
+"
 imgIContainer
 .
 h
@@ -133,13 +142,6 @@ h
 include
 "
 RasterImage
-.
-h
-"
-#
-include
-"
-gfxPrefs
 .
 h
 "
@@ -872,7 +874,7 @@ mHasRequestedDecode
 {
 MOZ_ASSERT
 (
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemAnimatedDiscardable
@@ -3152,7 +3154,7 @@ currentFrame
 {
 MOZ_ASSERT
 (
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemAnimatedDiscardable
@@ -3670,7 +3672,7 @@ mCompositedFrameInvalid
 {
 MOZ_ASSERT
 (
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemAnimatedDiscardable
