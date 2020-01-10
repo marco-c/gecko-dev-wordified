@@ -344,7 +344,6 @@ gCertDB
 exportPKCS12File
 (
 output
-1
 [
 cert
 ]

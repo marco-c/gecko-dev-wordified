@@ -646,7 +646,6 @@ gCertDB
 exportPKCS12File
 (
 output
-1
 [
 cert
 ]
@@ -806,7 +805,6 @@ gCertDB
 exportPKCS12File
 (
 output
-1
 [
 cert
 ]
