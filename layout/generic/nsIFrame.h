@@ -3577,6 +3577,7 @@ sharing
 -
 group
 enum
+class
 BaselineSharingGroup
 {
 /
