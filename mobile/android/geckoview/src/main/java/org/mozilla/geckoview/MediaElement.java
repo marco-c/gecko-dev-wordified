@@ -1027,6 +1027,7 @@ URI
 /
 public
 final
+Nullable
 String
 currentSource
 ;
@@ -3360,6 +3361,7 @@ session
 }
 final
 protected
+NonNull
 GeckoSession
 mSession
 ;
@@ -3369,6 +3371,7 @@ long
 mVideoId
 ;
 protected
+Nullable
 MediaElement
 .
 Delegate

@@ -7399,6 +7399,7 @@ callback
 }
 }
 protected
+Nullable
 Window
 mWindow
 ;
@@ -15828,6 +15829,7 @@ certificate
 /
 public
 final
+Nullable
 String
 origin
 ;
@@ -15847,6 +15849,7 @@ certificate
 /
 public
 final
+NonNull
 String
 host
 ;
@@ -15869,6 +15872,7 @@ subject
 /
 public
 final
+NonNull
 String
 organization
 ;
@@ -15891,6 +15895,7 @@ location
 /
 public
 final
+NonNull
 String
 subjectName
 ;
@@ -15911,6 +15916,7 @@ authority
 /
 public
 final
+NonNull
 String
 issuerCommonName
 ;
@@ -15933,6 +15939,7 @@ authority
 /
 public
 final
+NonNull
 String
 issuerOrganization
 ;
@@ -18243,6 +18250,7 @@ text
 /
 public
 final
+NonNull
 String
 text
 ;
@@ -18280,6 +18288,7 @@ coordinates
 /
 public
 final
+Nullable
 RectF
 clientRect
 ;
@@ -21119,6 +21128,7 @@ unknown
 *
 /
 public
+Nullable
 String
 uri
 ;
@@ -21164,6 +21174,7 @@ only
 *
 /
 public
+Nullable
 String
 username
 ;
@@ -21181,6 +21192,7 @@ password
 *
 /
 public
+Nullable
 String
 password
 ;
@@ -21545,6 +21557,7 @@ menus
 /
 public
 final
+Nullable
 String
 icon
 ;
@@ -21566,6 +21579,7 @@ group
 /
 public
 final
+NonNull
 String
 id
 ;
@@ -21593,6 +21607,7 @@ group
 /
 public
 final
+Nullable
 Choice
 [
 ]
@@ -21617,6 +21632,7 @@ group
 /
 public
 final
+NonNull
 String
 label
 ;
@@ -24736,6 +24752,7 @@ identifier
 /
 public
 final
+NonNull
 String
 id
 ;
@@ -24759,6 +24776,7 @@ identifier
 /
 public
 final
+NonNull
 String
 rawId
 ;
@@ -24801,6 +24819,7 @@ empty
 /
 public
 final
+Nullable
 String
 name
 ;
