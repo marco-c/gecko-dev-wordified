@@ -11300,9 +11300,14 @@ declarations
 .
 .
 NS_DECL_ISUPPORTS
-nsresult
+static
+void
 DebugDump
 (
+const
+nsXPTInterfaceInfo
+*
+aInfo
 int16_t
 depth
 )
