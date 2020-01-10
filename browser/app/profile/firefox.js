@@ -18976,6 +18976,15 @@ behaviour
 BEHAVIOR_REJECT_TRACKER
 /
 /
+"
+cookieBehavior5
+"
+:
+cookie
+behaviour
+BEHAVIOR_REJECT_TRACKER_AND_PARTITION_FOREIGN
+/
+/
 One
 value
 from
