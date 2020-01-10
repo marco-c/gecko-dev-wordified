@@ -1824,6 +1824,11 @@ PictureInPicture
 :
 Pause
 "
+"
+PictureInPicture
+:
+KeyToggle
+"
 ]
 }
 }
