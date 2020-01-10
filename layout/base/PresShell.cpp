@@ -27597,9 +27597,6 @@ PresShell
 :
 DocumentStatesChanged
 (
-Document
-*
-aDocument
 EventStates
 aStateMask
 )
@@ -27616,14 +27613,7 @@ DocumentStatesChanged
 ;
 MOZ_ASSERT
 (
-aDocument
-=
-=
 mDocument
-"
-Unexpected
-aDocument
-"
 )
 ;
 MOZ_ASSERT
