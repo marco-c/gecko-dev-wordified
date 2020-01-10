@@ -967,6 +967,17 @@ else
 false
 #
 endif
+MOZ_NEW_NOTIFICATION_STORE
+:
+#
+ifdef
+MOZ_NEW_NOTIFICATION_STORE
+true
+#
+else
+false
+#
+endif
 }
 )
 ;
