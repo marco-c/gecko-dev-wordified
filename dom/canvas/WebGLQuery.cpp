@@ -635,7 +635,7 @@ canBeAvailable
 mCanBeAvailable
 |
 |
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLImmediateQueries

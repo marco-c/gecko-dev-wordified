@@ -565,7 +565,7 @@ test
 int32_t
 threshold
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ImageCacheFactor2ThresholdSurfaces

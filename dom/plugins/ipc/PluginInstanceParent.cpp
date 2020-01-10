@@ -1743,7 +1743,7 @@ AllowDirectBitmapSurfaceDrawing
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 PluginAsyncDrawingEnabled
@@ -1779,7 +1779,7 @@ AllowDirectDXGISurfaceDrawing
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 PluginAsyncDrawingEnabled

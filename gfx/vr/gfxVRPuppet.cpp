@@ -178,6 +178,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 DataSurfaceHelpers
@@ -2017,7 +2026,7 @@ vm
 ;
 switch
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VRPuppetSubmitFrame
@@ -3462,7 +3471,7 @@ vm
 ;
 switch
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VRPuppetSubmitFrame
@@ -4484,7 +4493,7 @@ VREnabled
 |
 |
 !
-gfxPrefs
+StaticPrefs
 :
 :
 VRPuppetEnabled

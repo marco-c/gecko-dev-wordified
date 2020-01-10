@@ -153,13 +153,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences
@@ -172,6 +165,15 @@ include
 mozilla
 /
 PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -2863,7 +2865,7 @@ true
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -4088,7 +4090,7 @@ IsForEventDelivery
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutUseContainersForRootFrames

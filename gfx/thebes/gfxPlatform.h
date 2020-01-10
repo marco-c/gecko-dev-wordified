@@ -1120,6 +1120,12 @@ IsHeadless
 (
 )
 ;
+static
+bool
+UseWebRender
+(
+)
+;
 /
 *
 *

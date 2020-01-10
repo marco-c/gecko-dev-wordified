@@ -310,7 +310,7 @@ thread
 .
 mNotDeferEndRemoteDrawing
 =
-gfxPrefs
+StaticPrefs
 :
 :
 LayersCompositionFrameRate

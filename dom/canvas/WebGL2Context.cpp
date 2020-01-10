@@ -103,7 +103,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -264,7 +266,7 @@ IsSupported
 )
 {
 return
-gfxPrefs
+StaticPrefs
 :
 :
 WebGL2Enabled

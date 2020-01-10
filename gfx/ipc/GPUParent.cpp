@@ -1998,7 +1998,7 @@ else
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 Direct3D11UseDoubleBuffering

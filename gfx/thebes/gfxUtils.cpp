@@ -10397,7 +10397,7 @@ DumpDisplayList
 )
 {
 return
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutDumpDisplayList
@@ -10406,7 +10406,7 @@ LayoutDumpDisplayList
 |
 |
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutDumpDisplayListParent
@@ -10421,7 +10421,7 @@ XRE_IsParentProcess
 |
 |
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutDumpDisplayListContent

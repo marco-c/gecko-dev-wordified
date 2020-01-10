@@ -7959,7 +7959,7 @@ FEATURE_FAILURE_BUG_1351349
 ;
 #
 else
-gfxPrefs
+StaticPrefs
 :
 :
 SetCompositorClearState

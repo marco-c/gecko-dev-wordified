@@ -498,7 +498,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -3517,7 +3519,7 @@ pld
 \
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersDumpDecision
@@ -19199,7 +19201,7 @@ break
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutSmallerPaintedLayers
@@ -28103,7 +28105,7 @@ topLeft
 int32_t
 maxLayers
 =
-gfxPrefs
+StaticPrefs
 :
 :
 MaxActiveLayers
@@ -32317,7 +32319,7 @@ TYPE_RESOLUTION
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -38857,7 +38859,7 @@ Finish
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -38879,7 +38881,7 @@ in
 the
 /
 /
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -41375,7 +41377,7 @@ if
 aContainerItem
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -47803,7 +47805,7 @@ mYScale
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 GfxLoggingPaintedPixelCountEnabled
@@ -47946,7 +47948,7 @@ mYScale
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 GfxLoggingPaintedPixelCountEnabled

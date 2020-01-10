@@ -1767,7 +1767,7 @@ D3D11_HW_ANGLE
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLANGLETryD3D11
@@ -1796,7 +1796,7 @@ FAILURE_ID_ANGLE_PREF
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLANGLEForceD3D11
@@ -4211,7 +4211,7 @@ ANGLE
 support
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLANGLEForceWARP
