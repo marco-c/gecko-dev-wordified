@@ -306,7 +306,7 @@ underline
 .
 preview
 -
-selection
+token
 :
 hover
 {
@@ -318,7 +318,7 @@ default
 .
 preview
 -
-selection
+token
 .
 debug
 -
@@ -326,7 +326,7 @@ expression
 .
 preview
 -
-selection
+token
 {
 background
 -
@@ -351,7 +351,7 @@ dark
 .
 preview
 -
-selection
+token
 .
 theme
 -
@@ -363,7 +363,7 @@ expression
 .
 preview
 -
-selection
+token
 {
 background
 -
@@ -386,7 +386,7 @@ mozilla
 .
 preview
 -
-selection
+token
 .
 theme
 -
@@ -404,7 +404,7 @@ expression
 .
 preview
 -
-selection
+token
 {
 color
 :
