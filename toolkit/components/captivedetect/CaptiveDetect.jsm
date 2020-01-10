@@ -580,6 +580,11 @@ if
 xhr
 .
 channel
+&
+&
+xhr
+.
+channel
 .
 status
 =
