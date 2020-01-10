@@ -2504,13 +2504,6 @@ Shape
 shape
 )
 ;
-bool
-matchDefiniteProperties
-(
-HandleObject
-obj
-)
-;
 void
 markPropertyNonData
 (
