@@ -1912,7 +1912,7 @@ case
 "
 engine
 -
-current
+default
 "
 :
 /
@@ -1948,7 +1948,7 @@ Windows
 when
 engine
 -
-current
+default
 is
 /
 /
@@ -1997,19 +1997,6 @@ buildDefaultEngineDropDown
 (
 )
 ;
-break
-;
-case
-"
-engine
--
-default
-"
-:
-/
-/
-Not
-relevant
 break
 ;
 }
