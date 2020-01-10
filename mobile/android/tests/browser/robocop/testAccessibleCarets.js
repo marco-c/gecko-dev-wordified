@@ -2523,9 +2523,6 @@ clipboard
 hasDataMatchingFlavors
 (
 flavors
-flavors
-.
-length
 Ci
 .
 nsIClipboard

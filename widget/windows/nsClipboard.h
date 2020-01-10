@@ -181,12 +181,12 @@ NS_IMETHOD
 HasDataMatchingFlavors
 (
 const
-char
-*
-*
+nsTArray
+<
+nsCString
+>
+&
 aFlavorList
-uint32_t
-aLength
 int32_t
 aWhichClipboard
 bool

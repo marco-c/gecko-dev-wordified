@@ -378,7 +378,6 @@ text
 unicode
 "
 ]
-1
 Ci
 .
 nsIClipboard
