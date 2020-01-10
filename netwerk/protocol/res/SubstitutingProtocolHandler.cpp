@@ -1413,7 +1413,7 @@ SubstitutingProtocolHandler
 :
 CollectSubstitutions
 (
-InfallibleTArray
+nsTArray
 <
 SubstitutionMapping
 >

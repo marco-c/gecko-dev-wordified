@@ -518,7 +518,7 @@ SocketProcessParent
 :
 RecvAccumulateChildHistograms
 (
-InfallibleTArray
+nsTArray
 <
 HistogramAccumulation
 >
@@ -560,7 +560,7 @@ SocketProcessParent
 :
 RecvAccumulateChildKeyedHistograms
 (
-InfallibleTArray
+nsTArray
 <
 KeyedHistogramAccumulation
 >
@@ -602,7 +602,7 @@ SocketProcessParent
 :
 RecvUpdateChildScalars
 (
-InfallibleTArray
+nsTArray
 <
 ScalarAction
 >
@@ -644,7 +644,7 @@ SocketProcessParent
 :
 RecvUpdateChildKeyedScalars
 (
-InfallibleTArray
+nsTArray
 <
 KeyedScalarAction
 >
