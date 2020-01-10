@@ -22580,10 +22580,8 @@ com
 /
 Check
 bundled
-JAR
-and
-XPI
-files
+omni
+JARs
 for
 corruption
 .
