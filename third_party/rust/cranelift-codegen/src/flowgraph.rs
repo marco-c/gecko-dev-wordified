@@ -263,6 +263,7 @@ instruction
 [
 derive
 (
+Debug
 PartialEq
 Eq
 )

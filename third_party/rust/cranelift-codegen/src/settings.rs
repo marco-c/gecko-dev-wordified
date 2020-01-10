@@ -2959,6 +2959,16 @@ default
 \
 n
 \
+libcall_call_conv
+=
+\
+"
+isa_default
+\
+"
+\
+n
+\
 baldrdash_prologue_words
 =
 0

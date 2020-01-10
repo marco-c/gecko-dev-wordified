@@ -10,6 +10,10 @@ translation
 mod
 dummy
 ;
+#
+[
+macro_use
+]
 mod
 spec
 ;
