@@ -62,6 +62,7 @@ MPL
 /
 flow
 import
+SourceMaps
 {
 generatedToOriginalId
 }
@@ -271,7 +272,8 @@ prettyPrintSource
 (
 sourceMaps
 :
-any
+typeof
+SourceMaps
 prettySource
 :
 Source

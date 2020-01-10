@@ -72,6 +72,7 @@ camelcase
 import
 type
 {
+OriginalFrame
 SourceLocation
 SourceId
 }
@@ -905,15 +906,7 @@ SourceLocation
 :
 Array
 <
-{
-displayName
-:
-string
-location
-?
-:
-SourceLocation
-}
+OriginalFrame
 >
 {
 const

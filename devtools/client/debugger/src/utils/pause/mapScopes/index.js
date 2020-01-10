@@ -62,6 +62,18 @@ MPL
 /
 flow
 import
+typeof
+SourceMaps
+from
+"
+devtools
+-
+source
+-
+map
+"
+;
+import
 {
 getScopes
 type
@@ -814,7 +826,7 @@ source
 Source
 sourceMaps
 :
-any
+SourceMaps
 )
 {
 const
