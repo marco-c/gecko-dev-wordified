@@ -61372,7 +61372,7 @@ htmlaboutaddons
 .
 enabled
 "
-false
+true
 )
 ;
 /

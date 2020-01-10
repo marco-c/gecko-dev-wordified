@@ -641,7 +641,7 @@ discover
 .
 enabled
 "
-false
+true
 )
 ;
 /
