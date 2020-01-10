@@ -98959,6 +98959,14 @@ racy
 *
 _retval
 =
+QuotaClient
+:
+:
+IsShuttingDownOnNonBackgroundThread
+(
+)
+|
+|
 !
 OperationMayProceed
 (
