@@ -2498,9 +2498,9 @@ int16_t
 aRegion
 bool
 aIsSynchronous
-int16_t
+WhereToScroll
 aVPercent
-int16_t
+WhereToScroll
 aHPercent
 mozilla
 :

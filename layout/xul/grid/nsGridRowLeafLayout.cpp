@@ -1795,10 +1795,10 @@ PresShell
 FrameNeedsReflow
 (
 aBox
-nsIPresShell
+IntrinsicDirty
 :
 :
-eTreeChange
+TreeChange
 NS_FRAME_IS_DIRTY
 )
 ;

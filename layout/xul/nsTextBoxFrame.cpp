@@ -525,10 +525,10 @@ PresShell
 FrameNeedsReflow
 (
 this
-nsIPresShell
+IntrinsicDirty
 :
 :
-eStyleChange
+StyleChange
 NS_FRAME_IS_DIRTY
 )
 ;
@@ -1029,10 +1029,10 @@ PresShell
 FrameNeedsReflow
 (
 this
-nsIPresShell
+IntrinsicDirty
 :
 :
-eStyleChange
+StyleChange
 NS_FRAME_IS_DIRTY
 )
 ;

@@ -3772,10 +3772,10 @@ combo
 -
 >
 mDropdownFrame
-nsIPresShell
+IntrinsicDirty
 :
 :
-eResize
+Resize
 NS_FRAME_IS_DIRTY
 )
 ;
@@ -7341,10 +7341,10 @@ PresShell
 FrameNeedsReflow
 (
 mDisplayFrame
-nsIPresShell
+IntrinsicDirty
 :
 :
-eStyleChange
+StyleChange
 NS_FRAME_IS_DIRTY
 )
 ;

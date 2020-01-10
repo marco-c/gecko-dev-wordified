@@ -50622,10 +50622,10 @@ presShell
 FrameNeedsReflow
 (
 pif
-nsIPresShell
+IntrinsicDirty
 :
 :
-eTreeChange
+TreeChange
 NS_FRAME_IS_DIRTY
 )
 ;
@@ -52342,10 +52342,10 @@ presShell
 FrameNeedsReflow
 (
 gridFrame
-nsIPresShell
+IntrinsicDirty
 :
 :
-eResize
+Resize
 NS_FRAME_IS_DIRTY
 )
 ;

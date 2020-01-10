@@ -17009,10 +17009,10 @@ PresShell
 FrameNeedsReflow
 (
 this
-nsIPresShell
+IntrinsicDirty
 :
 :
-eResize
+Resize
 NS_FRAME_IS_DIRTY
 )
 ;

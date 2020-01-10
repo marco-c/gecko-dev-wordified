@@ -5317,10 +5317,10 @@ PresShell
 FrameNeedsReflow
 (
 aChildBox
-nsIPresShell
+IntrinsicDirty
 :
 :
-eStyleChange
+StyleChange
 NS_FRAME_IS_DIRTY
 )
 ;

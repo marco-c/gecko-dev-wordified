@@ -8905,14 +8905,11 @@ nsIPresShell
 :
 ScrollAxis
 (
-nsIPresShell
+kScrollToCenter
+WhenToScroll
 :
 :
-SCROLL_CENTER
-nsIPresShell
-:
-:
-SCROLL_IF_NOT_FULLY_VISIBLE
+IfNotFullyVisible
 )
 ;
 }

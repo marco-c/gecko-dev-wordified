@@ -485,10 +485,10 @@ PresShell
 FrameNeedsReflow
 (
 aDelegatingFrame
-nsIPresShell
+IntrinsicDirty
 :
 :
-eResize
+Resize
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
@@ -602,10 +602,10 @@ PresShell
 FrameNeedsReflow
 (
 aDelegatingFrame
-nsIPresShell
+IntrinsicDirty
 :
 :
-eResize
+Resize
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;

@@ -1687,10 +1687,10 @@ PresShell
 FrameNeedsReflow
 (
 this
-nsIPresShell
+IntrinsicDirty
 :
 :
-eTreeChange
+TreeChange
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
@@ -1818,10 +1818,10 @@ PresShell
 FrameNeedsReflow
 (
 this
-nsIPresShell
+IntrinsicDirty
 :
 :
-eTreeChange
+TreeChange
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;

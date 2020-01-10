@@ -8977,10 +8977,10 @@ presShell
 FrameNeedsReflow
 (
 popupFrame
-nsIPresShell
+IntrinsicDirty
 :
 :
-eTreeChange
+TreeChange
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
@@ -9601,10 +9601,10 @@ presShell
 FrameNeedsReflow
 (
 popupFrame
-nsIPresShell
+IntrinsicDirty
 :
 :
-eTreeChange
+TreeChange
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;

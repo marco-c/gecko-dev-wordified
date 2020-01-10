@@ -19747,10 +19747,10 @@ repainted
 .
 ScheduleReflowSVGNonDisplayText
 (
-nsIPresShell
+IntrinsicDirty
 :
 :
-eStyleChange
+StyleChange
 )
 ;
 }
@@ -19963,9 +19963,6 @@ SVGTextFrame
 :
 ScheduleReflowSVGNonDisplayText
 (
-nsIPresShell
-:
-:
 IntrinsicDirty
 aReason
 )
@@ -34195,10 +34192,10 @@ NS_FRAME_IS_NONDISPLAY
 {
 ScheduleReflowSVGNonDisplayText
 (
-nsIPresShell
+IntrinsicDirty
 :
 :
-eStyleChange
+StyleChange
 )
 ;
 }

@@ -1438,10 +1438,10 @@ presShell
 FrameNeedsReflow
 (
 childFrame
-nsIPresShell
+IntrinsicDirty
 :
 :
-eResize
+Resize
 NS_FRAME_IS_DIRTY
 )
 ;

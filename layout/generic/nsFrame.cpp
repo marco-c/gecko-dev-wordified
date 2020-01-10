@@ -4142,10 +4142,10 @@ svgTextFrame
 >
 ScheduleReflowSVGNonDisplayText
 (
-nsIPresShell
+IntrinsicDirty
 :
 :
-eStyleChange
+StyleChange
 )
 ;
 }
