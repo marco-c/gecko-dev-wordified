@@ -2360,6 +2360,28 @@ isExposedInWindow
 (
 )
             
+elif
+key
+=
+=
+'
+isSerializable
+'
+:
+                
+getter
+=
+lambda
+x
+:
+x
+.
+interface
+.
+isSerializable
+(
+)
+            
 else
 :
                 
