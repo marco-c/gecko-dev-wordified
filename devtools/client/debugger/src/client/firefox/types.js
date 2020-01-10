@@ -919,7 +919,7 @@ fetchEventListeners
 =
 >
 void
-updateWorkers
+updateThreads
 :
 (
 )

@@ -525,7 +525,7 @@ workerListChanged
 {
 actions
 .
-updateWorkers
+updateThreads
 (
 )
 ;

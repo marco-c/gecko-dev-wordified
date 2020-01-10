@@ -2495,7 +2495,7 @@ debugger
 .
 async
 function
-getWorkers
+getThreads
 (
 dbg
 )
@@ -2505,7 +2505,7 @@ dbg
 .
 actions
 .
-updateWorkers
+updateThreads
 (
 )
 ;
@@ -2514,7 +2514,7 @@ dbg
 .
 selectors
 .
-getWorkers
+getThreads
 (
 )
 ;

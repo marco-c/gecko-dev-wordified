@@ -322,7 +322,7 @@ const
 workers
 =
 await
-getWorkers
+getThreads
 (
 dbg
 )
