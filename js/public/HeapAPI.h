@@ -1153,7 +1153,7 @@ shadow
 :
 Zone
 *
-asShadowZone
+from
 (
 JS
 :
@@ -4061,7 +4061,7 @@ shadow
 Zone
 :
 :
-asShadowZone
+from
 (
 zone
 )
@@ -4344,7 +4344,7 @@ shadow
 Zone
 :
 :
-asShadowZone
+from
 (
 detail
 :

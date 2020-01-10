@@ -1355,7 +1355,7 @@ shadow
 Zone
 :
 :
-asShadowZone
+from
 (
 zone
 (
@@ -1387,7 +1387,7 @@ shadow
 Zone
 :
 :
-asShadowZone
+from
 (
 zoneFromAnyThread
 (
@@ -2106,7 +2106,7 @@ shadow
 Zone
 :
 :
-asShadowZone
+from
 (
 zone
 )
