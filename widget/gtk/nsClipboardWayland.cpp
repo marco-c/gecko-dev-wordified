@@ -3520,11 +3520,6 @@ g_hash_table_destroy
 mActiveOffers
 )
 ;
-WaylandDisplayRelease
-(
-mDisplay
-)
-;
 }
 GdkAtom
 *
