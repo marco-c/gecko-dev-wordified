@@ -842,9 +842,8 @@ download
 dir
 "
 tmpDir
-Ci
 .
-nsIFile
+path
 ]
 ]
 }
