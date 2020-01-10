@@ -1052,12 +1052,6 @@ PrincipalHandle
 >
 mPrincipalHandle
 ;
-nsCOMPtr
-<
-nsIPrincipal
->
-mPrincipal
-;
 bool
 mPlaying
 =
