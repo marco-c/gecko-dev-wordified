@@ -131,6 +131,10 @@ GLOBAL_EXCLUDES
 [
     
 '
+node_modules
+'
+    
+'
 tools
 /
 lint
