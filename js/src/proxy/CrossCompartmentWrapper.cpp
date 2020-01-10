@@ -3868,7 +3868,7 @@ should
 return
 wobj
 .
-WrapperMap
+ObjectWrapperMap
 :
 :
 Ptr
@@ -4454,7 +4454,7 @@ next
 {
 if
 (
-WrapperMap
+ObjectWrapperMap
 :
 :
 Ptr
@@ -4616,7 +4616,7 @@ evictedNursery
 c
 -
 >
-hasNurseryAllocatedWrapperEntries
+hasNurseryAllocatedObjectWrapperEntries
 (
 targetFilter
 )

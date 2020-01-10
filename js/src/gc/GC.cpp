@@ -26915,7 +26915,7 @@ JSObject
 {
 if
 (
-WrapperMap
+ObjectWrapperMap
 :
 :
 Ptr

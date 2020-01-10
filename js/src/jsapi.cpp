@@ -4478,7 +4478,7 @@ origobj
 else
 if
 (
-WrapperMap
+ObjectWrapperMap
 :
 :
 Ptr

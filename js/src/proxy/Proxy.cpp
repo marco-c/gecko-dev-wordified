@@ -4675,7 +4675,7 @@ map
 .
 *
 /
-WrapperMap
+ObjectWrapperMap
 :
 :
 Ptr

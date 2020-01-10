@@ -5660,7 +5660,7 @@ correct
 .
 if
 (
-WrapperMap
+ObjectWrapperMap
 :
 :
 Ptr

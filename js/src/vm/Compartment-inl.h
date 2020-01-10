@@ -676,7 +676,7 @@ if
 js
 :
 :
-WrapperMap
+ObjectWrapperMap
 :
 :
 Ptr
