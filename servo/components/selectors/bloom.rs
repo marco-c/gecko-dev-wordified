@@ -709,7 +709,6 @@ N
 derive
 (
 Clone
-Default
 )
 ]
 pub
@@ -762,12 +761,17 @@ new
 >
 Self
 {
+CountingBloomFilter
+{
+storage
+:
 Default
 :
 :
 default
 (
 )
+}
 }
 #
 [
