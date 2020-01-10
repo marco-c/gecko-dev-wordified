@@ -468,7 +468,7 @@ agent
 -
 input
 "
-class
+className
 :
 "
 text
