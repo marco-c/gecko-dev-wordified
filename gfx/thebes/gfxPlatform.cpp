@@ -17755,9 +17755,6 @@ IntSize
 aScreenSize
 bool
 aHasBattery
-nsCString
-&
-aOutFailureId
 )
 {
 FeatureState
@@ -17844,6 +17841,9 @@ GetGfxInfo
 (
 )
 ;
+nsCString
+failureId
+;
 int32_t
 status
 ;
@@ -17860,7 +17860,7 @@ nsIGfxInfo
 :
 :
 FEATURE_WEBRENDER
-aOutFailureId
+failureId
 &
 status
 )
@@ -17916,7 +17916,7 @@ No
 qualified
 hardware
 "
-aOutFailureId
+failureId
 )
 ;
 return
@@ -18558,9 +18558,6 @@ SetSuccessful
 return
 ;
 }
-nsCString
-failureId
-;
 FeatureState
 &
 featureWebRenderQualified
@@ -18573,7 +18570,6 @@ GetScreenSize
 HasBattery
 (
 )
-failureId
 )
 ;
 FeatureState
