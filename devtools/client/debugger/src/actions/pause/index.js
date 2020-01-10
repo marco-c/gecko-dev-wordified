@@ -165,17 +165,6 @@ mapFrames
 ;
 export
 {
-setPopupObjectProperties
-}
-from
-"
-.
-/
-setPopupObjectProperties
-"
-;
-export
-{
 pauseOnExceptions
 }
 from

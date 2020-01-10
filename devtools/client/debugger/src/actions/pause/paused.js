@@ -231,7 +231,6 @@ const
 thread
 frames
 why
-loadedObjects
 }
 =
 pauseInfo
@@ -272,13 +271,6 @@ topFrame
 id
 :
 undefined
-loadedObjects
-:
-loadedObjects
-|
-|
-[
-]
 }
 )
 ;
