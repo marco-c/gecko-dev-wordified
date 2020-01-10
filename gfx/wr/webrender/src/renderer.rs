@@ -6175,7 +6175,7 @@ saved_index
 =
 self
 .
-prev_pass_color
+prev_pass_alpha
 .
 as_ref
 (
