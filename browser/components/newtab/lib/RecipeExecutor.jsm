@@ -1543,6 +1543,8 @@ return
 null
 ;
 }
+if
+(
 /
 /
 eslint
@@ -1553,8 +1555,6 @@ next
 -
 line
 eqeqeq
-if
-(
 (
 (
 config
