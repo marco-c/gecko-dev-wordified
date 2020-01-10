@@ -4916,7 +4916,7 @@ return
 JSAtomState
 :
 :
-fractionalSecondDigits
+fractionalSecond
 ;
 #
 else
