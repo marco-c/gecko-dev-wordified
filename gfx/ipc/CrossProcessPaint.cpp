@@ -1274,9 +1274,10 @@ if
 aRect
 )
 {
-*
 rect
 =
+Some
+(
 IntRect
 :
 :
@@ -1317,6 +1318,7 @@ aRect
 >
 Height
 (
+)
 )
 )
 ;
