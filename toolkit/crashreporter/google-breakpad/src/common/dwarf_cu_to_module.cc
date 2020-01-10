@@ -3729,6 +3729,15 @@ range
 ranges
 )
 {
+if
+(
+range
+.
+size
+>
+0
+)
+{
 FilePrivate
 :
 :
@@ -3756,6 +3765,7 @@ push_back
 inline_range
 )
 ;
+}
 }
 return
 ignore_children
