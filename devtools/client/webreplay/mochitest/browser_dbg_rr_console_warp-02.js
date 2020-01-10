@@ -168,7 +168,6 @@ number
 ;
 ok
 (
-!
 message
 .
 classList
@@ -186,7 +185,6 @@ paused
 before
 message
 is
-not
 shown
 "
 )
