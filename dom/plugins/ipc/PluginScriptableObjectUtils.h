@@ -986,7 +986,7 @@ ProtectedVariantArray
 (
 )
 {
-InfallibleTArray
+nsTArray
 <
 Variant
 >
@@ -1034,7 +1034,7 @@ index
 }
 operator
 const
-InfallibleTArray
+nsTArray
 <
 Variant
 >
@@ -1059,7 +1059,7 @@ mOk
 }
 private
 :
-InfallibleTArray
+nsTArray
 <
 Variant
 >
@@ -1118,7 +1118,7 @@ Variant
 >
 mArray
 ;
-InfallibleTArray
+nsTArray
 <
 Variant
 >

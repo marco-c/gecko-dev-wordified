@@ -859,14 +859,14 @@ nsCString
 &
 aMimeType
 const
-InfallibleTArray
+nsTArray
 <
 nsCString
 >
 &
 aNames
 const
-InfallibleTArray
+nsTArray
 <
 nsCString
 >
@@ -14202,7 +14202,7 @@ notifyData
 return
 ;
 }
-InfallibleTArray
+nsTArray
 <
 PStreamNotifyChild
 *
@@ -23485,7 +23485,7 @@ HANDLE
 ;
 #
 endif
-InfallibleTArray
+nsTArray
 <
 PBrowserStreamChild
 *
