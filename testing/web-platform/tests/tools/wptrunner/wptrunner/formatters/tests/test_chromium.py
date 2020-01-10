@@ -270,7 +270,7 @@ output_obj
     
 assert
 "
-path_delimeter
+path_delimiter
 "
 in
 output_obj
