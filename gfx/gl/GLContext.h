@@ -345,17 +345,6 @@ GeckoProfiler
 h
 "
 namespace
-android
-{
-class
-GraphicBuffer
-;
-}
-/
-/
-namespace
-android
-namespace
 mozilla
 {
 namespace

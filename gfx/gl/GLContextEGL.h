@@ -134,6 +134,9 @@ GLLibraryEGL
 .
 h
 "
+class
+gfxASurface
+;
 namespace
 mozilla
 {

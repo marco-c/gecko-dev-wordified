@@ -253,13 +253,6 @@ h
 #
 include
 "
-nsITimer
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h
@@ -271,6 +264,10 @@ nsIWidgetListener
 .
 h
 "
+/
+/
+for
+nsSizeMode
 #
 include
 "
@@ -403,6 +400,9 @@ nsIDocShell
 ;
 class
 nsITheme
+;
+class
+nsITimer
 ;
 class
 nsIContent
