@@ -1934,7 +1934,10 @@ unlock
 mMutex
 )
 ;
+DebugOnly
+<
 bool
+>
 ok
 =
 JS
@@ -1957,7 +1960,7 @@ mState
 to
 eChecking
 .
-MOZ_DIAGNOSTIC_ASSERT_IF
+MOZ_ASSERT_IF
 (
 ok
 mState
