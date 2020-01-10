@@ -571,6 +571,11 @@ selected
 scrollIntoView
 (
 selected
+{
+center
+:
+true
+}
 )
 ;
 }
