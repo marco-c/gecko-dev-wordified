@@ -853,7 +853,7 @@ contents
 *
 *
 param
-aAction
+aDirectionAndAmount
 Direction
 of
 the
@@ -879,7 +879,7 @@ nsIEditor
 :
 :
 EDirection
-aAction
+aDirectionAndAmount
 nsIEditor
 :
 :
