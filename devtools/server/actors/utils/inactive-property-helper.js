@@ -3208,6 +3208,9 @@ select
 svg
 "
 "
+textarea
+"
+"
 video
 "
 ]
