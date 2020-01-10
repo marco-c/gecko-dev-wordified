@@ -10665,12 +10665,22 @@ LOG
 critical
 (
 "
-abort
-:
-no
-tests
-found
+this
+test
+is
+not
+targeted
+for
+{
+}
 "
+.
+format
+(
+args
+.
+app
+)
 )
         
 sys
