@@ -1786,7 +1786,8 @@ install
 #
 Determine
 if
-Firefox
+test
+app
 is
 installed
 on
@@ -1814,7 +1815,9 @@ launch
 an
 emulator
 install
-Firefox
+the
+test
+app
 and
 proceed
 with
@@ -1841,7 +1844,8 @@ testing
 is
 requested
 but
-Firefox
+test
+app
 installation
 has
         
@@ -1852,7 +1856,9 @@ forgotten
         
 #
 If
-Firefox
+a
+test
+app
 is
 installed
 there
@@ -1963,14 +1969,18 @@ Re
 install
 '
         
-if
-not
+installed
+=
 device
 .
 is_app_installed
 (
 app
 )
+        
+if
+not
+installed
 :
             
 _log_info
@@ -2059,6 +2069,17 @@ response
 '
 '
 :
+                
+if
+installed
+:
+                    
+device
+.
+uninstall_app
+(
+app
+)
                 
 _log_info
 (
@@ -2159,6 +2180,17 @@ response
 '
 '
 :
+                
+if
+installed
+:
+                    
+device
+.
+uninstall_app
+(
+app
+)
                 
 _log_info
 (
@@ -2271,6 +2303,17 @@ response
 '
 :
                 
+if
+installed
+:
+                    
+device
+.
+uninstall_app
+(
+app
+)
+                
 _log_info
 (
 "
@@ -2324,24 +2367,16 @@ build_obj
 _mach_context
 )
         
-else
+elif
+not
+installed
 :
             
-if
-not
-device
-.
-is_app_installed
-(
-app
-)
-:
-                
 response
 =
 raw_input
 (
-                    
+                
 "
 It
 looks
@@ -2357,7 +2392,7 @@ device
 \
 n
 "
-                    
+                
 "
 but
 I
@@ -2373,7 +2408,7 @@ it
 \
 n
 "
-                    
+                
 "
 Install
 it
