@@ -1107,6 +1107,13 @@ if
 mExternalShmem
 )
 {
+mExternalShmem
+-
+>
+Clear
+(
+)
+;
 return
 ;
 }
