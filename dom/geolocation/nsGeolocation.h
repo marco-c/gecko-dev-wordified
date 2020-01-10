@@ -1057,14 +1057,6 @@ nsGeolocationRequest
 request
 )
 ;
-bool
-RegisterRequestWithPromptImpl
-(
-nsGeolocationRequest
-*
-aRequest
-)
-;
 /
 /
 Check
