@@ -408,6 +408,8 @@ explicit
 WindowsDllDetourPatcher
 (
 Args
+&
+&
 .
 .
 .

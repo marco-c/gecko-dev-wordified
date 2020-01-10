@@ -203,6 +203,8 @@ explicit
 WindowsDllNopSpacePatcher
 (
 Args
+&
+&
 .
 .
 .

@@ -167,6 +167,8 @@ explicit
 WindowsDllPatcherBase
 (
 Args
+&
+&
 .
 .
 .
