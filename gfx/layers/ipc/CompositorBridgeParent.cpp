@@ -5127,13 +5127,13 @@ void
 CompositorBridgeParent
 :
 :
-RegisterPayload
+RegisterPayloads
 (
 LayerTransactionParent
 *
 aLayerTree
 const
-InfallibleTArray
+nsTArray
 <
 CompositionPayload
 >
@@ -5168,7 +5168,7 @@ return
 mLayerManager
 -
 >
-RegisterPayload
+RegisterPayloads
 (
 aPayload
 )
@@ -8042,7 +8042,7 @@ fwdTime
 (
 )
 ;
-RegisterPayload
+RegisterPayloads
 (
 aLayerTree
 aInfo

@@ -1188,13 +1188,13 @@ aPaintTime
 override
 ;
 void
-RegisterPayload
+RegisterPayloads
 (
 LayerTransactionParent
 *
 aLayerTree
 const
-InfallibleTArray
+nsTArray
 <
 CompositionPayload
 >

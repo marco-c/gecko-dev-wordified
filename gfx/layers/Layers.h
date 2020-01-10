@@ -5002,10 +5002,10 @@ Length
 ;
 }
 void
-RegisterPayload
+RegisterPayloads
 (
 const
-InfallibleTArray
+nsTArray
 <
 CompositionPayload
 >
@@ -5309,7 +5309,7 @@ out
 of
 control
 .
-InfallibleTArray
+nsTArray
 <
 CompositionPayload
 >
