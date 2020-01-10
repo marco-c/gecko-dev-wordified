@@ -9673,6 +9673,9 @@ handle
 &
 mut
 TextureCacheHandle
+uv_rect_kind
+:
+UvRectKind
 gpu_cache
 :
 &
@@ -9865,6 +9868,9 @@ texture
 array
 layer
 .
+let
+entry
+=
 self
 .
 entries
@@ -9886,6 +9892,14 @@ valid
 now
 "
 )
+;
+entry
+.
+uv_rect_kind
+=
+uv_rect_kind
+;
+entry
 .
 update_gpu_cache
 (
