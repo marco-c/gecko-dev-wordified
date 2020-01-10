@@ -9949,7 +9949,7 @@ public
 :
 PreciseGCRunnable
 (
-ScheduledGCCallback
+nsIScheduledGCCallback
 *
 aCallback
 bool
@@ -10020,9 +10020,9 @@ NS_OK
 }
 private
 :
-RefPtr
+nsCOMPtr
 <
-ScheduledGCCallback
+nsIScheduledGCCallback
 >
 mCallback
 ;
@@ -10037,7 +10037,7 @@ nsXPCComponents_Utils
 :
 SchedulePreciseGC
 (
-ScheduledGCCallback
+nsIScheduledGCCallback
 *
 aCallback
 )
@@ -10068,7 +10068,7 @@ nsXPCComponents_Utils
 :
 SchedulePreciseShrinkingGC
 (
-ScheduledGCCallback
+nsIScheduledGCCallback
 *
 aCallback
 )
