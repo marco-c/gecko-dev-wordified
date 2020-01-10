@@ -282,7 +282,11 @@ name
 "
    
 {
-id
+base_id
+}
+   
+{
+full_id
 }
   
 {
@@ -316,7 +320,11 @@ name
 "
    
 {
-id
+base_id
+}
+   
+{
+full_id
 }
   
 {
@@ -343,7 +351,7 @@ ValueError
 msg
 )
 def
-pref_id
+pref_ids
 (
 pref
 )
@@ -405,9 +413,12 @@ name
 )
         
 return
+(
 None
+None
+)
     
-id
+base_id
 =
 pref
 [
@@ -436,6 +447,31 @@ _
 '
 )
     
+full_id
+=
+base_id
+    
+if
+pref
+[
+'
+mirror
+'
+]
+=
+=
+'
+once
+'
+:
+        
+full_id
++
+=
+'
+_AtStartup
+'
+    
 if
 pref
 .
@@ -447,7 +483,7 @@ do_not_use_directly
 )
 :
         
-id
+full_id
 +
 =
 '
@@ -455,7 +491,10 @@ _DoNotUseDirectly
 '
     
 return
-id
+(
+base_id
+full_id
+)
 def
 generate_header
 (
@@ -1034,6 +1073,13 @@ C
 code
 .
         
+ids
+=
+pref_ids
+(
+pref
+)
+        
 lines
 .
 append
@@ -1050,12 +1096,19 @@ name
 =
 name
             
-id
+base_id
 =
-pref_id
-(
-pref
-)
+ids
+[
+0
+]
+            
+full_id
+=
+ids
+[
+1
+]
             
 typ
 =

@@ -4444,7 +4444,7 @@ GetSingleton
 StaticPrefs
 :
 :
-media_wmf_use_sync_texture
+media_wmf_use_sync_texture_AtStartup
 (
 )
 &
@@ -4563,7 +4563,7 @@ if
 StaticPrefs
 :
 :
-media_wmf_use_sync_texture
+media_wmf_use_sync_texture_AtStartup
 (
 )
 )

@@ -616,7 +616,7 @@ if
 StaticPrefs
 :
 :
-gfx_android_rgb16_force
+gfx_android_rgb16_force_AtStartup
 (
 )
 )

@@ -8441,7 +8441,7 @@ sCacheTimeWeight
 StaticPrefs
 :
 :
-image_cache_timeweight
+image_cache_timeweight_AtStartup
 (
 )
 /
@@ -8455,7 +8455,7 @@ cachesize
 StaticPrefs
 :
 :
-image_cache_size
+image_cache_size_AtStartup
 (
 )
 ;

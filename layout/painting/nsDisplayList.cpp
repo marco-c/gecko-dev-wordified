@@ -45296,7 +45296,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-gfx_webrender_split_render_roots
+gfx_webrender_split_render_roots_AtStartup
 (
 )
 )

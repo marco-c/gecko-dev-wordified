@@ -2148,7 +2148,7 @@ prefLimit
 StaticPrefs
 :
 :
-image_multithreaded_decoding_limit
+image_multithreaded_decoding_limit_AtStartup
 (
 )
 ;
@@ -2348,7 +2348,7 @@ prefIdleTimeout
 StaticPrefs
 :
 :
-image_multithreaded_decoding_idle_timeout
+image_multithreaded_decoding_idle_timeout_AtStartup
 (
 )
 ;

@@ -2647,7 +2647,7 @@ d2dEnabled
 StaticPrefs
 :
 :
-gfx_direct2d_force_enabled
+gfx_direct2d_force_enabled_AtStartup
 (
 )
 |
@@ -2657,7 +2657,7 @@ gfx_direct2d_force_enabled
 StaticPrefs
 :
 :
-gfx_direct2d_disabled
+gfx_direct2d_disabled_AtStartup
 (
 )
 &

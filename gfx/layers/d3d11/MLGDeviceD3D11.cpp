@@ -2161,7 +2161,7 @@ if
 StaticPrefs
 :
 :
-layers_mlgpu_enable_depth_buffer
+layers_mlgpu_enable_depth_buffer_AtStartup
 (
 )
 )

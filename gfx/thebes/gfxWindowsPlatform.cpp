@@ -8021,7 +8021,7 @@ if
 StaticPrefs
 :
 :
-layers_d3d11_force_warp
+layers_d3d11_force_warp_AtStartup
 (
 )
 )
@@ -8119,7 +8119,7 @@ SetDefaultFromPref
 StaticPrefs
 :
 :
-GetPrefName_layers_mlgpu_enabled_DoNotUseDirectly
+GetPrefName_layers_mlgpu_enabled
 (
 )
 true
@@ -8131,7 +8131,7 @@ aIsEnablePref
 StaticPrefs
 :
 :
-GetPrefDefault_layers_mlgpu_enabled_DoNotUseDirectly
+GetPrefDefault_layers_mlgpu_enabled
 (
 )
 )
@@ -8182,7 +8182,7 @@ if
 StaticPrefs
 :
 :
-layers_mlgpu_enable_on_windows7
+layers_mlgpu_enable_on_windows7_AtStartup
 (
 )
 )
@@ -9252,7 +9252,7 @@ IsEnabled
 StaticPrefs
 :
 :
-gfx_direct2d_force_enabled
+gfx_direct2d_force_enabled_AtStartup
 (
 )
 )
@@ -9780,7 +9780,7 @@ if
 StaticPrefs
 :
 :
-layers_gpu_process_allow_software
+layers_gpu_process_allow_software_AtStartup
 (
 )
 )
@@ -11757,7 +11757,7 @@ OPENGL_COMPOSITING
 StaticPrefs
 :
 :
-layers_prefer_opengl
+layers_prefer_opengl_AtStartup
 (
 )
 )

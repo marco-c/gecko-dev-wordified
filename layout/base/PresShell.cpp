@@ -39996,7 +39996,7 @@ if
 StaticPrefs
 :
 :
-apz_keyboard_enabled
+apz_keyboard_enabled_AtStartup
 (
 )
 )

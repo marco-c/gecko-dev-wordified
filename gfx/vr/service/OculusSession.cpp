@@ -1239,7 +1239,7 @@ dom_vr_enabled
 StaticPrefs
 :
 :
-dom_vr_oculus_enabled
+dom_vr_oculus_enabled_AtStartup
 (
 )
 )

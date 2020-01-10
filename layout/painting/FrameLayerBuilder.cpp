@@ -41171,7 +41171,7 @@ aTransform
 StaticPrefs
 :
 :
-layers_enable_tiles
+layers_enable_tiles_AtStartup
 (
 )
 )
@@ -47308,7 +47308,7 @@ if
 StaticPrefs
 :
 :
-layout_paint_rects_separately
+layout_paint_rects_separately_AtStartup
 (
 )
 |

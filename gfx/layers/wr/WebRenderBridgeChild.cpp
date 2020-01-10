@@ -526,7 +526,7 @@ XRE_IsParentProcess
 StaticPrefs
 :
 :
-gfx_webrender_split_render_roots
+gfx_webrender_split_render_roots_AtStartup
 (
 )
 )
@@ -767,7 +767,7 @@ XRE_IsParentProcess
 StaticPrefs
 :
 :
-gfx_webrender_split_render_roots
+gfx_webrender_split_render_roots_AtStartup
 (
 )
 )
@@ -996,7 +996,7 @@ XRE_IsParentProcess
 StaticPrefs
 :
 :
-gfx_webrender_split_render_roots
+gfx_webrender_split_render_roots_AtStartup
 (
 )
 )
@@ -1172,7 +1172,7 @@ Default
 StaticPrefs
 :
 :
-gfx_webrender_split_render_roots
+gfx_webrender_split_render_roots_AtStartup
 (
 )
 )

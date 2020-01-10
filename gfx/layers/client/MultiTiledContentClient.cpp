@@ -1768,7 +1768,7 @@ if
 StaticPrefs
 :
 :
-layers_tiles_edge_padding
+layers_tiles_edge_padding_AtStartup
 (
 )
 &

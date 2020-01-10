@@ -1182,7 +1182,7 @@ sleepSec
 StaticPrefs
 :
 :
-gfx_direct3d11_sleep_on_create_device
+gfx_direct3d11_sleep_on_create_device_AtStartup
 (
 )
 )
@@ -2925,7 +2925,7 @@ if
 StaticPrefs
 :
 :
-layers_d3d11_force_warp
+layers_d3d11_force_warp_AtStartup
 (
 )
 )
@@ -3332,7 +3332,7 @@ if
 StaticPrefs
 :
 :
-gfx_direct3d11_enable_debug_layer
+gfx_direct3d11_enable_debug_layer_AtStartup
 (
 )
 |
@@ -3340,7 +3340,7 @@ gfx_direct3d11_enable_debug_layer
 StaticPrefs
 :
 :
-gfx_direct3d11_break_on_error
+gfx_direct3d11_break_on_error_AtStartup
 (
 )
 )
@@ -3395,7 +3395,7 @@ if
 StaticPrefs
 :
 :
-gfx_direct3d11_break_on_error
+gfx_direct3d11_break_on_error_AtStartup
 (
 )
 )
@@ -3587,7 +3587,7 @@ WARP
 StaticPrefs
 :
 :
-layers_d3d11_force_warp
+layers_d3d11_force_warp_AtStartup
 (
 )
 )

@@ -2478,7 +2478,7 @@ timeLimit
 StaticPrefs
 :
 :
-gfx_device_reset_threshold_ms
+gfx_device_reset_threshold_ms_AtStartup
 (
 )
 ;
@@ -2488,7 +2488,7 @@ countLimit
 StaticPrefs
 :
 :
-gfx_device_reset_limit
+gfx_device_reset_limit_AtStartup
 (
 )
 ;

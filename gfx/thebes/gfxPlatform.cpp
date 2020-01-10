@@ -3973,7 +3973,7 @@ cacheSize
 StaticPrefs
 :
 :
-gfx_content_skia_font_cache_size
+gfx_content_skia_font_cache_size_AtStartup
 (
 )
 *
@@ -6155,13 +6155,13 @@ d
 StaticPrefs
 :
 :
-gfx_direct2d_disabled
+gfx_direct2d_disabled_AtStartup
 (
 )
 StaticPrefs
 :
 :
-gfx_direct2d_force_enabled
+gfx_direct2d_force_enabled_AtStartup
 (
 )
 )
@@ -6189,25 +6189,25 @@ d
 StaticPrefs
 :
 :
-layers_amd_switchable_gfx_enabled
+layers_amd_switchable_gfx_enabled_AtStartup
 (
 )
 StaticPrefs
 :
 :
-layers_acceleration_disabled_DoNotUseDirectly
+layers_acceleration_disabled_AtStartup_DoNotUseDirectly
 (
 )
 StaticPrefs
 :
 :
-layers_acceleration_force_enabled_DoNotUseDirectly
+layers_acceleration_force_enabled_AtStartup_DoNotUseDirectly
 (
 )
 StaticPrefs
 :
 :
-layers_d3d11_force_warp
+layers_d3d11_force_warp_AtStartup
 (
 )
 )
@@ -6322,7 +6322,7 @@ d
 StaticPrefs
 :
 :
-gfx_android_rgb16_force
+gfx_android_rgb16_force_AtStartup
 (
 )
 0
@@ -6336,7 +6336,7 @@ supported
 StaticPrefs
 :
 :
-layers_force_shmem_tiles
+layers_force_shmem_tiles_AtStartup
 (
 )
 )
@@ -7565,7 +7565,7 @@ kMinSizePref
 StaticPrefs
 :
 :
-gfx_max_texture_size_DoNotUseDirectly
+gfx_max_texture_size_AtStartup_DoNotUseDirectly
 (
 )
 )
@@ -7623,7 +7623,7 @@ kMinAllocPref
 StaticPrefs
 :
 :
-gfx_max_alloc_size_DoNotUseDirectly
+gfx_max_alloc_size_AtStartup_DoNotUseDirectly
 (
 )
 )
@@ -7665,7 +7665,7 @@ SetCircularBufferSize
 StaticPrefs
 :
 :
-gfx_logging_crash_length
+gfx_logging_crash_length_AtStartup
 (
 )
 )
@@ -10383,7 +10383,7 @@ w
 StaticPrefs
 :
 :
-layers_tile_width
+layers_tile_width_AtStartup
 (
 )
 ;
@@ -10393,7 +10393,7 @@ h
 StaticPrefs
 :
 :
-layers_tile_height
+layers_tile_height_AtStartup
 (
 )
 ;
@@ -10402,7 +10402,7 @@ if
 StaticPrefs
 :
 :
-layers_tiles_adjust
+layers_tiles_adjust_AtStartup
 (
 )
 )
@@ -15569,7 +15569,7 @@ FEATURE_STATUS_OK
 StaticPrefs
 :
 :
-media_hardware_video_decoding_force_enabled
+media_hardware_video_decoding_force_enabled_AtStartup
 (
 )
 )
@@ -15682,7 +15682,7 @@ if
 StaticPrefs
 :
 :
-layers_gpu_process_enabled
+layers_gpu_process_enabled_AtStartup
 (
 )
 &
@@ -15691,7 +15691,7 @@ layers_gpu_process_enabled
 StaticPrefs
 :
 :
-layers_gpu_process_force_enabled
+layers_gpu_process_force_enabled_AtStartup
 (
 )
 )
@@ -15806,7 +15806,7 @@ if
 StaticPrefs
 :
 :
-layers_gpu_process_force_enabled
+layers_gpu_process_force_enabled_AtStartup
 (
 )
 )
@@ -16008,7 +16008,7 @@ if
 StaticPrefs
 :
 :
-layers_acceleration_disabled_DoNotUseDirectly
+layers_acceleration_disabled_AtStartup_DoNotUseDirectly
 (
 )
 )
@@ -16112,7 +16112,7 @@ if
 StaticPrefs
 :
 :
-layers_acceleration_force_enabled_DoNotUseDirectly
+layers_acceleration_force_enabled_AtStartup_DoNotUseDirectly
 (
 )
 )
@@ -16259,7 +16259,7 @@ return
 StaticPrefs
 :
 :
-gfx_webrender_all
+gfx_webrender_all_AtStartup
 (
 )
 |
@@ -16267,7 +16267,7 @@ gfx_webrender_all
 StaticPrefs
 :
 :
-gfx_webrender_enabled_DoNotUseDirectly
+gfx_webrender_enabled_AtStartup_DoNotUseDirectly
 (
 )
 ;
@@ -19211,7 +19211,7 @@ if
 StaticPrefs
 :
 :
-gfx_webrender_force_disabled
+gfx_webrender_force_disabled_AtStartup
 (
 )
 |
@@ -19761,7 +19761,7 @@ GPU_PROCESS
 StaticPrefs
 :
 :
-layers_gpu_process_allow_software
+layers_gpu_process_allow_software_AtStartup
 (
 )
 )
@@ -20378,7 +20378,7 @@ sBufferRotationCheckPref
 StaticPrefs
 :
 :
-layers_bufferrotation_enabled
+layers_bufferrotation_enabled_AtStartup
 (
 )
 ;
@@ -20466,7 +20466,7 @@ BrowserTabsRemoteAutostart
 StaticPrefs
 :
 :
-layers_offmainthreadcomposition_force_disabled
+layers_offmainthreadcomposition_force_disabled_AtStartup
 (
 )
 ;
@@ -20495,7 +20495,7 @@ result
 StaticPrefs
 :
 :
-layers_acceleration_force_enabled_DoNotUseDirectly
+layers_acceleration_force_enabled_AtStartup_DoNotUseDirectly
 (
 )
 ;
@@ -20593,7 +20593,7 @@ UseOMTP
 StaticPrefs
 :
 :
-layers_omtp_paint_workers
+layers_omtp_paint_workers_AtStartup
 (
 )
 =
@@ -20605,7 +20605,7 @@ layers_omtp_paint_workers
 StaticPrefs
 :
 :
-layers_omtp_paint_workers
+layers_omtp_paint_workers_AtStartup
 (
 )
 >
@@ -20616,7 +20616,7 @@ return
 StaticPrefs
 :
 :
-layers_enable_tiles
+layers_enable_tiles_AtStartup
 (
 )
 |
@@ -20625,7 +20625,7 @@ layers_enable_tiles
 StaticPrefs
 :
 :
-layers_enable_tiles_if_skia_pomtp
+layers_enable_tiles_if_skia_pomtp_AtStartup
 (
 )
 &
@@ -20707,7 +20707,7 @@ UseOMTP
 StaticPrefs
 :
 :
-layers_omtp_paint_workers
+layers_omtp_paint_workers_AtStartup
 (
 )
 =
@@ -20719,7 +20719,7 @@ layers_omtp_paint_workers
 StaticPrefs
 :
 :
-layers_omtp_paint_workers
+layers_omtp_paint_workers_AtStartup
 (
 )
 >
@@ -20730,7 +20730,7 @@ return
 StaticPrefs
 :
 :
-layers_enable_tiles
+layers_enable_tiles_AtStartup
 (
 )
 |
@@ -20739,7 +20739,7 @@ layers_enable_tiles
 StaticPrefs
 :
 :
-layers_enable_tiles_if_skia_pomtp
+layers_enable_tiles_if_skia_pomtp_AtStartup
 (
 )
 &
@@ -21550,7 +21550,7 @@ if
 StaticPrefs
 :
 :
-layers_enable_tiles
+layers_enable_tiles_AtStartup
 (
 )
 )
@@ -22190,7 +22190,7 @@ if
 StaticPrefs
 :
 :
-gfx_logging_slow_frames_enabled
+gfx_logging_slow_frames_enabled_AtStartup
 (
 )
 )
@@ -22402,7 +22402,7 @@ return
 StaticPrefs
 :
 :
-layers_async_pan_zoom_enabled_DoNotUseDirectly
+layers_async_pan_zoom_enabled_AtStartup_DoNotUseDirectly
 (
 )
 ;
@@ -23154,7 +23154,7 @@ return
 StaticPrefs
 :
 :
-apz_keyboard_enabled
+apz_keyboard_enabled_AtStartup
 (
 )
 ;
@@ -23366,7 +23366,7 @@ if
 StaticPrefs
 :
 :
-layers_acceleration_force_enabled_DoNotUseDirectly
+layers_acceleration_force_enabled_AtStartup_DoNotUseDirectly
 (
 )
 )

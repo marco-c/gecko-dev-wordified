@@ -28047,6 +28047,7 @@ my
 pref
 "
 my_pref
+my_pref
 int32_t
 99
 )
@@ -28168,7 +28169,8 @@ VARCACHE_PREF
 (
 policy
 name
-id
+base_id
+full_id
 cpp_type
 value
 )
@@ -28195,7 +28197,7 @@ value
 StaticPrefs
 :
 :
-id
+full_id
 (
 )
 \
@@ -33754,6 +33756,7 @@ my
 pref
 "
 my_pref
+my_pref
 int32_t
 99
 )
@@ -33795,7 +33798,8 @@ VARCACHE_PREF
 (
 policy
 name
-id
+base_id
+full_id
 cpp_type
 default_value
 )
@@ -33804,7 +33808,7 @@ cpp_type
 sVarCache_
 #
 #
-id
+full_id
 (
 default_value
 )
@@ -33872,6 +33876,7 @@ my
 .
 pref
 "
+my_pref
 my_pref
 int32_t
 99
@@ -34060,7 +34065,8 @@ VARCACHE_PREF
 (
 policy
 name
-id
+base_id
+full_id
 cpp_type
 value
 )
@@ -34080,7 +34086,7 @@ name
 sVarCache_
 #
 #
-id
+full_id
 value
 aIsStartup
 isParent
@@ -34128,6 +34134,7 @@ my
 .
 pref
 "
+my_pref
 my_pref
 int32_t
 99
@@ -34294,7 +34301,8 @@ VARCACHE_PREF
 (
 policy
 name
-id
+base_id
+full_id
 cpp_type
 value
 )
@@ -34323,7 +34331,7 @@ gOnceStaticPrefsAntiFootgun
 sVarCache_
 #
 #
-id
+full_id
 =
 PreferencesInternalMethods
 :
@@ -34364,7 +34372,7 @@ cpp_type
 >
 staticPrefValue
 =
-id
+full_id
 (
 )
 ;
@@ -34384,7 +34392,7 @@ GetPref
 GetPrefName_
 #
 #
-id
+base_id
 (
 )
 \
@@ -34400,7 +34408,6 @@ value
 \
 MOZ_ASSERT
 (
-\
 staticPrefValue
 =
 =
@@ -34411,6 +34418,7 @@ Preference
 '
 "
 name
+\
 "
 '
 got
@@ -34421,17 +34429,21 @@ StaticPrefs
 :
 "
 #
-id
+full_id
 \
 "
-got
+was
 initialized
 .
 Consider
 using
-a
-Live
-StaticPrefs
+an
+always
+mirror
+kind
+"
+\
+"
 instead
 "
 )
@@ -34460,7 +34472,7 @@ AntiFootgunCallback
 GetPrefName_
 #
 #
-id
+base_id
 (
 )
 \
@@ -34484,7 +34496,8 @@ VARCACHE_PREF
 (
 policy
 name
-id
+base_id
+full_id
 cpp_type
 value
 )
@@ -34507,7 +34520,7 @@ Once
 sVarCache_
 #
 #
-id
+full_id
 =
 PreferencesInternalMethods
 :
@@ -34979,6 +34992,7 @@ my
 pref
 "
 my_pref
+my_pref
 int32_t
 99
 )
@@ -35117,7 +35131,8 @@ VARCACHE_PREF
 (
 policy
 name
-id
+base_id
+full_id
 cpp_type
 value
 )
@@ -35153,7 +35168,7 @@ cpp_type
 sVarCache_
 #
 #
-id
+full_id
 )
 )
 ;
@@ -35224,6 +35239,7 @@ my
 .
 pref
 "
+my_pref
 my_pref
 int32_t
 99
@@ -35364,7 +35380,8 @@ VARCACHE_PREF
 (
 policy
 name
-id
+base_id
+full_id
 cpp_type
 value
 )
@@ -35448,7 +35465,7 @@ StaticPrefs
 sVarCache_
 #
 #
-id
+full_id
 =
 val
 ;

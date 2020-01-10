@@ -3410,7 +3410,7 @@ if
 StaticPrefs
 :
 :
-dom_vr_process_enabled
+dom_vr_process_enabled_AtStartup
 (
 )
 )

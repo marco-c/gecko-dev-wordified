@@ -3628,7 +3628,7 @@ if
 StaticPrefs
 :
 :
-image_animated_decode_on_demand_recycle
+image_animated_decode_on_demand_recycle_AtStartup
 (
 )
 )
@@ -3706,7 +3706,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-image_animated_decode_on_demand_recycle
+image_animated_decode_on_demand_recycle_AtStartup
 (
 )
 )
@@ -4314,7 +4314,7 @@ if
 StaticPrefs
 :
 :
-image_animated_decode_on_demand_recycle
+image_animated_decode_on_demand_recycle_AtStartup
 (
 )
 )

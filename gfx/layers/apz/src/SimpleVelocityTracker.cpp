@@ -808,7 +808,7 @@ Length
 StaticPrefs
 :
 :
-apz_max_velocity_queue_size
+apz_max_velocity_queue_size_AtStartup
 (
 )
 )

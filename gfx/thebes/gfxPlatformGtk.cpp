@@ -1932,7 +1932,7 @@ CAIRO
 StaticPrefs
 :
 :
-layers_use_image_offscreen_surfaces
+layers_use_image_offscreen_surfaces_AtStartup
 (
 )
 ;

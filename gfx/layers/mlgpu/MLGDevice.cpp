@@ -666,7 +666,7 @@ if
 StaticPrefs
 :
 :
-layers_mlgpu_enable_buffer_sharing
+layers_mlgpu_enable_buffer_sharing_AtStartup
 (
 )
 )
@@ -771,7 +771,7 @@ if
 StaticPrefs
 :
 :
-layers_mlgpu_enable_clear_view
+layers_mlgpu_enable_clear_view_AtStartup
 (
 )
 )
@@ -954,7 +954,7 @@ if
 StaticPrefs
 :
 :
-layers_mlgpu_enable_buffer_cache
+layers_mlgpu_enable_buffer_cache_AtStartup
 (
 )
 )

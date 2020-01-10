@@ -539,7 +539,7 @@ if
 StaticPrefs
 :
 :
-gfx_apitrace_enabled
+gfx_apitrace_enabled_AtStartup
 (
 )
 )

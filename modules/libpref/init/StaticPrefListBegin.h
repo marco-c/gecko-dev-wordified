@@ -199,6 +199,7 @@ my
 pref
 "
 my_pref
+my_pref
 int32_t
 99
 )
@@ -347,7 +348,8 @@ VARCACHE_PREF
 (
 policy
 name
-id
+base_id
+full_id
 cpp_type
 default_value
 )
@@ -357,7 +359,7 @@ cpp_type
 sVarCache_
 #
 #
-id
+full_id
 ;
 \
 inline
@@ -365,7 +367,7 @@ StripAtomic
 <
 cpp_type
 >
-id
+full_id
 (
 )
 {
@@ -428,7 +430,7 @@ return
 sVarCache_
 #
 #
-id
+full_id
 ;
 \
 }
@@ -442,7 +444,7 @@ return
 sVarCache_
 #
 #
-id
+full_id
 ;
 \
 }
@@ -454,7 +456,7 @@ char
 GetPrefName_
 #
 #
-id
+base_id
 (
 )
 {
@@ -471,11 +473,13 @@ cpp_type
 GetPrefDefault_
 #
 #
-id
+base_id
 (
 )
 {
+\
 return
 default_value
 ;
+\
 }
