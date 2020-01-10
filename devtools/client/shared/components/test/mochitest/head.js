@@ -2553,8 +2553,11 @@ name
 ;
 if
 (
-!
 snapshot
+=
+=
+=
+undefined
 )
 {
 is
