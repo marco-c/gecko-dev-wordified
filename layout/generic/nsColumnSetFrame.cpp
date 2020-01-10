@@ -8038,7 +8038,7 @@ so
 the
 /
 /
-mColMaxBSize
+mMaxBSize
 is
 feasible
 .
