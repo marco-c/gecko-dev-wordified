@@ -557,6 +557,7 @@ mode
 )
 ;
 }
+WrapForJNI
 public
 void
 dispose
