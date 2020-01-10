@@ -19790,12 +19790,6 @@ true
 if
 defined
 (
-NIGHTLY_BUILD
-)
-&
-&
-defined
-(
 XP_WIN
 )
 /
