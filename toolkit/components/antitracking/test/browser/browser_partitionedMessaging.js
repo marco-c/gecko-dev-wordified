@@ -12,7 +12,7 @@ js
 /
 PartitionedStorageHelper
 .
-runTest
+runTestInNormalAndPrivateMode
 (
 "
 BroadcastChannel
