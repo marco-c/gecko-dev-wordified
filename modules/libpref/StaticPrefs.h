@@ -202,7 +202,7 @@ include
 "
 mozilla
 /
-StaticPrefList
+StaticPrefListAll
 .
 h
 "
