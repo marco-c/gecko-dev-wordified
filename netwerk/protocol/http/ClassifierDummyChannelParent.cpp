@@ -203,6 +203,9 @@ aURI
 nsIURI
 *
 aTopWindowURI
+nsIPrincipal
+*
+aContentBlockingAllowListPrincipal
 nsresult
 aTopWindowURIResult
 nsILoadInfo
@@ -264,6 +267,7 @@ ClassifierDummyChannel
 (
 aURI
 aTopWindowURI
+aContentBlockingAllowListPrincipal
 aTopWindowURIResult
 aLoadInfo
 )

@@ -5670,6 +5670,9 @@ aURI
 nsIURI
 *
 aTopWindowURI
+nsIPrincipal
+*
+aContentBlockingAllowListPrincipal
 const
 nsresult
 &
@@ -5727,6 +5730,9 @@ aURI
 nsIURI
 *
 aTopWindowURI
+nsIPrincipal
+*
+aContentBlockingAllowListPrincipal
 const
 nsresult
 &
@@ -5816,6 +5822,7 @@ Init
 (
 aURI
 aTopWindowURI
+aContentBlockingAllowListPrincipal
 aTopWindowURIResult
 loadInfo
 )

@@ -155,6 +155,9 @@ CLASSIFIER_DUMMY_CHANNEL_IID
 class
 nsIChannel
 ;
+class
+nsIPrincipal
+;
 namespace
 mozilla
 {
@@ -468,6 +471,9 @@ aURI
 nsIURI
 *
 aTopWindowURI
+nsIPrincipal
+*
+aContentBlockingAllowListPrincipal
 nsresult
 aTopWindowURIResult
 nsILoadInfo
@@ -511,6 +517,12 @@ nsCOMPtr
 nsIURI
 >
 mTopWindowURI
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mContentBlockingAllowListPrincipal
 ;
 nsresult
 mTopWindowURIResult
