@@ -190,6 +190,10 @@ require
 "
 .
 /
+service
+-
+workers
+/
 WorkerList
 "
 )
@@ -204,6 +208,10 @@ require
 (
 "
 .
+/
+service
+-
+workers
 /
 WorkerListEmpty
 "
