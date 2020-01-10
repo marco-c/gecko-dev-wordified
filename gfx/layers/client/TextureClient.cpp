@@ -4845,7 +4845,7 @@ UnlockActor
 }
 static
 void
-CancelTextureClientRecycle
+CancelTextureClientNotifyNotUsed
 (
 uint64_t
 aTextureId
@@ -4903,7 +4903,7 @@ msgLoop
 aAllocator
 -
 >
-CancelWaitForRecycle
+CancelWaitForNotifyNotUsed
 (
 aTextureId
 )
@@ -4919,9 +4919,9 @@ PostTask
 NewRunnableFunction
 (
 "
-CancelTextureClientRecycleRunnable
+CancelTextureClientNotifyNotUsedRunnable
 "
-CancelTextureClientRecycle
+CancelTextureClientNotifyNotUsed
 aTextureId
 aAllocator
 )
@@ -4933,7 +4933,7 @@ void
 TextureClient
 :
 :
-CancelWaitForRecycle
+CancelWaitForNotifyNotUsed
 (
 )
 {
@@ -4949,7 +4949,7 @@ TextureFlags
 RECYCLE
 )
 {
-CancelTextureClientRecycle
+CancelTextureClientNotifyNotUsed
 (
 mSerial
 GetAllocator

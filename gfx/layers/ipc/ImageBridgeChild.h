@@ -1831,7 +1831,7 @@ aFwdTransactionId
 )
 ;
 void
-CancelWaitForRecycle
+CancelWaitForNotifyNotUsed
 (
 uint64_t
 aTextureId
@@ -2370,7 +2370,7 @@ RefPtr
 TextureClient
 >
 >
-mTexturesWaitingRecycled
+mTexturesWaitingNotifyNotUsed
 ;
 /
 *

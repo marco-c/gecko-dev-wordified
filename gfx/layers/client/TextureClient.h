@@ -3870,7 +3870,7 @@ aOutDesc
 )
 ;
 void
-CancelWaitForRecycle
+CancelWaitForNotifyNotUsed
 (
 )
 ;
