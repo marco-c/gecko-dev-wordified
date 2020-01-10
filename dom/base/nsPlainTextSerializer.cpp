@@ -1658,6 +1658,7 @@ nsAtom
 *
 aTag
 )
+const
 {
 if
 (
