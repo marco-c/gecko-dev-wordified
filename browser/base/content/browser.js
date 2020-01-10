@@ -10494,12 +10494,6 @@ LightweightThemeConsumer
 document
 )
 ;
-CompactTheme
-.
-init
-(
-)
-;
 if
 (
 AppConstants
@@ -14953,12 +14947,6 @@ uninit
 )
 ;
 ToolbarIconColor
-.
-uninit
-(
-)
-;
-CompactTheme
 .
 uninit
 (
