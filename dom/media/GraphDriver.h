@@ -2284,9 +2284,12 @@ mFlags
 }
 ;
 enum
+class
 AsyncCubebOperation
 {
 INIT
+START
+STOP
 SHUTDOWN
 }
 ;
