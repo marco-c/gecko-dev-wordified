@@ -769,12 +769,6 @@ nsIUrlClassifierCacheInfo
 aCache
 )
 ;
-bool
-OnUpdateThread
-(
-)
-const
-;
 private
 :
 ~
