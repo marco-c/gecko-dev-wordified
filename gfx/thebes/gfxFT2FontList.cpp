@@ -10468,11 +10468,8 @@ gfxFontStyle
 aStyle
 )
 {
-gfxFontFamily
-*
+FontFamily
 ff
-=
-nullptr
 ;
 #
 if
@@ -10494,8 +10491,11 @@ Roboto
 ;
 if
 (
-!
 ff
+.
+IsNull
+(
+)
 )
 {
 ff
@@ -10532,10 +10532,7 @@ this
 *
 /
 return
-FontFamily
-(
 ff
-)
 ;
 }
 gfxFontEntry

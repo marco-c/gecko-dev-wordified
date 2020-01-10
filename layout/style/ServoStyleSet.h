@@ -2844,6 +2844,10 @@ friend
 class
 AutoPrepareTraversal
 ;
+friend
+class
+PostTraversalTask
+;
 bool
 ShouldTraverseInParallel
 (
