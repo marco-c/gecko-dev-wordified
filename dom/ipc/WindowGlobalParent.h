@@ -143,6 +143,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+TabParent
+.
+h
+"
+#
+include
+"
 nsRefPtrHashtable
 .
 h
@@ -184,9 +195,6 @@ WindowGlobalChild
 ;
 class
 JSWindowActorParent
-;
-class
-TabParent
 ;
 /
 *
