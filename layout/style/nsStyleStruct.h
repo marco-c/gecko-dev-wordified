@@ -11625,6 +11625,12 @@ mOffsetDistance
 mozilla
 :
 :
+StyleOffsetRotate
+mOffsetRotate
+;
+mozilla
+:
+:
 StyleTransformOrigin
 mTransformOrigin
 ;

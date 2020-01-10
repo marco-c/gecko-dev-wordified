@@ -2672,6 +2672,10 @@ NonNegativeNumber
 "
                 
 "
+OffsetRotate
+"
+                
+"
 Opacity
 "
                 
