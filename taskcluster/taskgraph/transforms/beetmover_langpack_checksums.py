@@ -1014,14 +1014,6 @@ if
 should_use_artifact_map
 (
 platform
-config
-.
-params
-[
-'
-project
-'
-]
 )
 :
             

@@ -917,14 +917,6 @@ if
 should_use_artifact_map
 (
 platform
-config
-.
-params
-[
-'
-project
-'
-]
 )
 :
             
@@ -1006,14 +998,6 @@ if
 should_use_artifact_map
 (
 platform
-config
-.
-params
-[
-'
-project
-'
-]
 )
 :
             
@@ -1773,14 +1757,6 @@ if
 should_use_artifact_map
 (
 backup_platform
-config
-.
-params
-[
-'
-project
-'
-]
 )
 :
         
