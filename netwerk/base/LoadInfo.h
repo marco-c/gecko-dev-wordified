@@ -250,6 +250,9 @@ net
 class
 LoadInfoArgs
 ;
+class
+LoadInfo
+;
 }
 /
 /
@@ -282,9 +285,6 @@ LoadInfoArgsToLoadInfo
 const
 Maybe
 <
-mozilla
-:
-:
 net
 :
 :
@@ -295,7 +295,10 @@ aLoadInfoArgs
 nsINode
 *
 aLoadingContext
-nsILoadInfo
+net
+:
+:
+LoadInfo
 *
 *
 outLoadInfo
@@ -1196,7 +1199,10 @@ aLoadInfoArgs
 nsINode
 *
 aLoadingContext
-nsILoadInfo
+net
+:
+:
+LoadInfo
 *
 *
 outLoadInfo
