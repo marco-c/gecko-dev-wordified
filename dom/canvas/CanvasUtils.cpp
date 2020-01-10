@@ -1899,11 +1899,8 @@ GetIncumbentGlobal
 ;
 if
 (
-NS_WARN_IF
-(
 !
 incumbentSettingsObject
-)
 )
 {
 return
