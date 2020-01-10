@@ -145,6 +145,7 @@ import
 {
 getFilename
 isPretty
+getFileURL
 }
 from
 "
@@ -804,6 +805,15 @@ onClick
 =
 {
 onClick
+}
+title
+=
+{
+getFileURL
+(
+source
+false
+)
 }
 >
 <
