@@ -1875,6 +1875,14 @@ aMaybeFastTxn
 )
 ;
 }
+wrTexture
+-
+>
+MaybeNofityForUse
+(
+aMaybeFastTxn
+)
+;
 if
 (
 useWrTextureWrapper
