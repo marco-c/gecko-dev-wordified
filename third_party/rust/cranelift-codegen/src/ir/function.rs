@@ -815,6 +815,14 @@ clear
 ;
 self
 .
+jt_offsets
+.
+clear
+(
+)
+;
+self
+.
 srclocs
 .
 clear

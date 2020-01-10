@@ -4332,6 +4332,12 @@ UnaryImm
 .
 }
 |
+UnaryImm128
+{
+.
+.
+}
+|
 UnaryIeee32
 {
 .
