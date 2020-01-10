@@ -1054,8 +1054,7 @@ a
 relocation
 referencing
 a
-jump
-table
+constant
 .
 fn
 reloc_constant
@@ -1399,8 +1398,13 @@ ebbs
 {
 divert
 .
-clear
+at_ebb
 (
+&
+func
+.
+entry_diversions
+ebb
 )
 ;
 debug_assert_eq
@@ -1452,9 +1456,10 @@ begin_jumptables
 ;
 /
 /
-output
+Output
 jump
 tables
+.
 for
 (
 jt
@@ -1525,8 +1530,9 @@ begin_rodata
 ;
 /
 /
-output
+Output
 constants
+.
 for
 (
 _

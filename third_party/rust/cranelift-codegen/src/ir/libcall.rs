@@ -196,6 +196,7 @@ Clone
 Debug
 PartialEq
 Eq
+Hash
 )
 ]
 #

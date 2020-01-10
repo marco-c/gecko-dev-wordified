@@ -8668,6 +8668,9 @@ line
 ;
 }
 pub
+(
+crate
+)
 fn
 generate
 (

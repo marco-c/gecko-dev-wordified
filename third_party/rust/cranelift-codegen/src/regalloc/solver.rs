@@ -7469,8 +7469,6 @@ value
 )
 ;
 }
-else
-{
 return
 Err
 (
@@ -7483,7 +7481,6 @@ rc
 )
 )
 ;
-}
 }
 }
 ;
@@ -7593,9 +7590,6 @@ can_add_var
 &
 mut
 self
-_value
-:
-Value
 constraint
 :
 RegClass
@@ -8028,9 +8022,7 @@ moves
 .
 Deferring
 these
-let
-'
-s
+lets
 /
 /
 us
