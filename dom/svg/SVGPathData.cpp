@@ -1168,6 +1168,9 @@ NaNs
 if
 (
 !
+std
+:
+:
 isfinite
 (
 state
