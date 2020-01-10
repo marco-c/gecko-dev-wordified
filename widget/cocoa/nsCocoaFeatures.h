@@ -234,6 +234,12 @@ OnMojaveOrLater
 ;
 static
 bool
+OnCatalinaOrLater
+(
+)
+;
+static
+bool
 IsAtLeastVersion
 (
 int32_t
