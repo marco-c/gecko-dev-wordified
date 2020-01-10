@@ -1830,6 +1830,12 @@ mPath
 =
 nullptr
 ;
+mPathVertices
+.
+Clear
+(
+)
+;
 }
 }
 /
