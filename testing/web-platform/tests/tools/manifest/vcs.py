@@ -628,6 +628,8 @@ root
         
 if
 git
+.
+git
 is
 not
 None
