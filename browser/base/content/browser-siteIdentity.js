@@ -399,6 +399,8 @@ addons
 |
 cache
 |
+certificate
+|
 config
 |
 crashes
