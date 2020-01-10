@@ -117,9 +117,7 @@ call
 >
 {
 const
-{
 source
-}
 =
 populateSource
 (
@@ -186,9 +184,7 @@ expression
 >
 {
 const
-{
 source
-}
 =
 populateSource
 (
@@ -257,9 +253,7 @@ call
 >
 {
 const
-{
 source
-}
 =
 populateSource
 (
@@ -317,9 +311,7 @@ expression
 >
 {
 const
-{
 source
-}
 =
 populateSource
 (
@@ -390,9 +382,7 @@ call
 >
 {
 const
-{
 source
-}
 =
 populateSource
 (
@@ -458,9 +448,7 @@ call
 >
 {
 const
-{
 source
-}
 =
 populateSource
 (

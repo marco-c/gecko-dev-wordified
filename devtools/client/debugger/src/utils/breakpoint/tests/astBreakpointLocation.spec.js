@@ -146,9 +146,7 @@ original
 )
 {
 const
-{
 source
-}
 =
 original
 ?

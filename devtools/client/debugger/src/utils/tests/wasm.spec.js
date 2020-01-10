@@ -325,10 +325,7 @@ registered
 >
 {
 const
-{
 source
-content
-}
 =
 makeMockWasmSourceWithContent
 (
@@ -340,6 +337,8 @@ renderWasmText
 source
 .
 id
+source
+.
 content
 .
 value
@@ -413,10 +412,7 @@ wasm
 >
 {
 const
-{
 source
-content
-}
 =
 makeMockWasmSourceWithContent
 (
@@ -431,6 +427,8 @@ renderWasmText
 source
 .
 id
+source
+.
 content
 .
 value
@@ -525,10 +523,7 @@ offset
 >
 {
 const
-{
 source
-content
-}
 =
 makeMockWasmSourceWithContent
 (
@@ -540,6 +535,8 @@ renderWasmText
 source
 .
 id
+source
+.
 content
 .
 value
@@ -601,10 +598,7 @@ line
 >
 {
 const
-{
 source
-content
-}
 =
 makeMockWasmSourceWithContent
 (
@@ -616,6 +610,8 @@ renderWasmText
 source
 .
 id
+source
+.
 content
 .
 value

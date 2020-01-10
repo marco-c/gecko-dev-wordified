@@ -764,7 +764,7 @@ viewport
 :
 ?
 Range
-selectedSourceWithContent
+selectedSource
 :
 ?
 SourceWithContent
@@ -777,7 +777,7 @@ positions
 |
 |
 !
-selectedSourceWithContent
+selectedSource
 )
 {
 return
@@ -785,18 +785,6 @@ return
 ]
 ;
 }
-const
-{
-source
-:
-selectedSource
-content
-:
-selectedContent
-}
-=
-selectedSourceWithContent
-;
 /
 /
 We
@@ -891,7 +879,9 @@ filterInLine
 (
 positions
 selectedSource
-selectedContent
+selectedSource
+.
+content
 )
 ;
 positions
