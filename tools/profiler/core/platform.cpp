@@ -14135,7 +14135,7 @@ StringProperty
 "
 updateChannel
 "
-NS_STRINGIFY
+MOZ_STRINGIFY
 (
 MOZ_UPDATE_CHANNEL
 )
