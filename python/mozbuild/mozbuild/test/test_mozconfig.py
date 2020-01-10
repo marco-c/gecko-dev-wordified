@@ -3877,17 +3877,8 @@ name
             
 self
 .
-assertTrue
+assertIn
 (
-e
-.
-exception
-.
-message
-.
-startswith
-(
-                
 '
 Evaluation
 of
@@ -3898,7 +3889,12 @@ with
 an
 error
 '
-)
+                          
+e
+.
+exception
+.
+message
 )
             
 self
