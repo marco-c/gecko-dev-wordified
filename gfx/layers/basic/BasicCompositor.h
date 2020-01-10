@@ -435,9 +435,9 @@ LayoutDeviceIntRect
 &
 aRect
 const
-LayoutDeviceIntRect
+LayoutDeviceIntRegion
 &
-aClearRect
+aClearRegion
 BufferMode
 aBufferMode
 )
