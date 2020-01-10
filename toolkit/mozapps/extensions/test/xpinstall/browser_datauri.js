@@ -374,13 +374,9 @@ installed
 "
 )
 ;
-Services
-.
-perms
+PermissionTestUtils
 .
 remove
-(
-makeURI
 (
 "
 http
@@ -391,7 +387,6 @@ example
 .
 com
 "
-)
 "
 install
 "

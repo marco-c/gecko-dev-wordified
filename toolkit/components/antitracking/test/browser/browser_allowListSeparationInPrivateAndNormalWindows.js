@@ -190,9 +190,7 @@ net
 "
 )
 ;
-Services
-.
-perms
+PermissionTestUtils
 .
 add
 (
