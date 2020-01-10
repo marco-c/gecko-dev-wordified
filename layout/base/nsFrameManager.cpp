@@ -1219,9 +1219,6 @@ GetUncomposedDoc
 :
 nullptr
 ;
-nsresult
-rv
-=
 statefulFrame
 -
 >
@@ -1234,12 +1231,6 @@ stateKey
 ;
 if
 (
-NS_FAILED
-(
-rv
-)
-|
-|
 stateKey
 .
 IsEmpty
@@ -1656,9 +1647,6 @@ GetUncomposedDoc
 (
 )
 ;
-nsresult
-rv
-=
 statefulFrame
 -
 >
@@ -1671,12 +1659,6 @@ stateKey
 ;
 if
 (
-NS_FAILED
-(
-rv
-)
-|
-|
 stateKey
 .
 IsEmpty
@@ -1720,6 +1702,7 @@ return
 /
 Restore
 it
+nsresult
 rv
 =
 statefulFrame

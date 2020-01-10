@@ -236,7 +236,8 @@ for
 this
 stateful
 frame
-NS_IMETHOD
+virtual
+void
 GenerateStateKey
 (
 nsIContent
@@ -256,7 +257,6 @@ nsACString
 aKey
 )
 {
-return
 nsContentUtils
 :
 :
