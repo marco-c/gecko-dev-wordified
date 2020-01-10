@@ -16699,7 +16699,7 @@ security
 .
 identitypopup
 .
-recordEventElemetry
+recordEventTelemetry
 "
 true
 )
