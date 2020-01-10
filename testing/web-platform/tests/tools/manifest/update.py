@@ -121,6 +121,8 @@ type
 Manifest
            
 manifest_path
+=
+None
 #
 type
 :
