@@ -11231,7 +11231,7 @@ mitm
 .
 auto_enable_enterprise_roots
 "
-false
+true
 )
 ;
 /
