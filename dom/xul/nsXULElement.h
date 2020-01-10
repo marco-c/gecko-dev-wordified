@@ -1933,7 +1933,7 @@ bool
 aIsTrustedEvent
 )
 ;
-nsIContent
+Element
 *
 GetBindingParent
 (
@@ -2075,7 +2075,7 @@ does
 void
 SetXULBindingParent
 (
-nsIContent
+Element
 *
 aBindingParent
 )
@@ -3406,9 +3406,9 @@ us
 .
 *
 /
-nsCOMPtr
+RefPtr
 <
-nsIContent
+Element
 >
 mBindingParent
 ;
