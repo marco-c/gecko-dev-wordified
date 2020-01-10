@@ -865,7 +865,7 @@ enabled
 SET_DEFAULT
 (
 baselineInterpreter
-false
+true
 )
 ;
 /
@@ -1043,7 +1043,7 @@ match
 SET_DEFAULT
 (
 baselineWarmUpThreshold
-10
+50
 )
 ;
 /

@@ -14364,7 +14364,7 @@ options
 .
 blinterp
 "
-false
+true
 )
 ;
 /
@@ -14424,7 +14424,7 @@ baselinejit
 .
 threshold
 "
-10
+50
 )
 ;
 pref

@@ -71909,6 +71909,9 @@ blinterp
 Enable
 Baseline
 Interpreter
+(
+default
+)
 "
 )
 |
@@ -71931,9 +71934,6 @@ blinterp
 Disable
 Baseline
 Interpreter
-(
-default
-)
 "
 )
 |
