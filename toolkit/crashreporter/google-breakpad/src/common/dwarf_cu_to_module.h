@@ -2142,6 +2142,9 @@ class
 FuncHandler
 ;
 class
+InlinedSubroutineHandler
+;
+class
 NamedScopeHandler
 ;
 /
