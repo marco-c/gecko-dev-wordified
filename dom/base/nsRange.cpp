@@ -17261,8 +17261,9 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 bool
-rtl
+topLeftToBottomRight
 =
+!
 f
 -
 >
@@ -17275,7 +17276,7 @@ eInflated
 )
 -
 >
-IsRightToLeft
+IsInlineReversed
 (
 )
 ;
@@ -17309,7 +17310,8 @@ f
 aStartOffset
 &
 r
-rtl
+!
+topLeftToBottomRight
 aClampToEdge
 )
 ;
@@ -17341,8 +17343,7 @@ f
 aEndOffset
 &
 r
-!
-rtl
+topLeftToBottomRight
 aClampToEdge
 )
 ;
