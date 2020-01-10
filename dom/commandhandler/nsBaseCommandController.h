@@ -219,12 +219,6 @@ aControllerCommandTable
 .
 *
 /
-nsBaseCommandController
-(
-)
-=
-delete
-;
 explicit
 nsBaseCommandController
 (
