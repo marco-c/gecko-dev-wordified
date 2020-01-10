@@ -32308,7 +32308,7 @@ typename
 T
 >
 static
-nsresult
+void
 AddVarCacheNoAssignment
 (
 T
@@ -32360,9 +32360,6 @@ data
 aPref
 )
 ;
-return
-NS_OK
-;
 }
 template
 <
@@ -32370,7 +32367,7 @@ typename
 T
 >
 static
-nsresult
+void
 AddVarCache
 (
 T
@@ -32406,7 +32403,6 @@ get
 aDefault
 )
 ;
-return
 AddVarCacheNoAssignment
 (
 aCache
@@ -32420,7 +32416,7 @@ aDefault
 static
 *
 /
-nsresult
+void
 Preferences
 :
 :
@@ -32446,7 +32442,6 @@ aPref
 aCache
 )
 ;
-return
 AddVarCache
 (
 aCache
@@ -32465,7 +32460,7 @@ Order
 static
 *
 /
-nsresult
+void
 Preferences
 :
 :
@@ -32495,7 +32490,6 @@ aPref
 aCache
 )
 ;
-return
 AddVarCache
 (
 aCache
@@ -32509,7 +32503,7 @@ aDefault
 static
 *
 /
-nsresult
+void
 Preferences
 :
 :
@@ -32535,7 +32529,6 @@ aPref
 aCache
 )
 ;
-return
 AddVarCache
 (
 aCache
@@ -32554,7 +32547,7 @@ Order
 static
 *
 /
-nsresult
+void
 Preferences
 :
 :
@@ -32584,7 +32577,6 @@ aPref
 aCache
 )
 ;
-return
 AddVarCache
 (
 aCache
@@ -32598,7 +32590,7 @@ aDefault
 static
 *
 /
-nsresult
+void
 Preferences
 :
 :
@@ -32624,7 +32616,6 @@ aPref
 aCache
 )
 ;
-return
 AddVarCache
 (
 aCache
@@ -32643,7 +32634,7 @@ Order
 static
 *
 /
-nsresult
+void
 Preferences
 :
 :
@@ -32673,7 +32664,6 @@ aPref
 aCache
 )
 ;
-return
 AddVarCache
 (
 aCache
@@ -32721,7 +32711,7 @@ therefore
 implemented
 .
 template
-nsresult
+void
 Preferences
 :
 :
@@ -32740,7 +32730,7 @@ bool
 )
 ;
 template
-nsresult
+void
 Preferences
 :
 :
@@ -32759,7 +32749,7 @@ bool
 )
 ;
 template
-nsresult
+void
 Preferences
 :
 :
@@ -32778,7 +32768,7 @@ bool
 )
 ;
 template
-nsresult
+void
 Preferences
 :
 :
@@ -32797,7 +32787,7 @@ int32_t
 )
 ;
 template
-nsresult
+void
 Preferences
 :
 :
@@ -32816,7 +32806,7 @@ uint32_t
 )
 ;
 template
-nsresult
+void
 Preferences
 :
 :
@@ -32835,7 +32825,7 @@ uint32_t
 )
 ;
 template
-nsresult
+void
 Preferences
 :
 :
@@ -32858,7 +32848,7 @@ uint32_t
 static
 *
 /
-nsresult
+void
 Preferences
 :
 :
@@ -32884,7 +32874,6 @@ aPref
 aCache
 )
 ;
-return
 AddVarCache
 (
 aCache
@@ -32898,7 +32887,7 @@ aDefault
 static
 *
 /
-nsresult
+void
 Preferences
 :
 :
@@ -32930,7 +32919,6 @@ aPref
 aCache
 )
 ;
-return
 AddVarCache
 (
 aCache
