@@ -56,6 +56,8 @@ MPL
 .
 *
 /
+export
+default
 class
 LoginListItem
 extends
