@@ -4977,14 +4977,10 @@ document_id
 .
 unwrap_or_else
 (
-|
-|
 PerDocumentData
 :
 :
 new
-(
-)
 )
 ;
 }
