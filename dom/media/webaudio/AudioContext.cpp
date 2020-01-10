@@ -5541,14 +5541,8 @@ s
 Add
 the
 streams
-for
-the
+of
 AudioParam
-that
-have
-an
-AudioNode
-input
 .
 const
 nsTArray
@@ -5564,7 +5558,7 @@ audioParams
 node
 -
 >
-OutputParams
+GetAudioParams
 (
 )
 ;

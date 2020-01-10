@@ -751,12 +751,10 @@ ChannelInterpretation
 :
 Speakers
 )
+{
+CreateAudioParam
+(
 mGain
-(
-new
-AudioParam
-(
-this
 GainNodeEngine
 :
 :
@@ -768,8 +766,7 @@ gain
 .
 0f
 )
-)
-{
+;
 GainNodeEngine
 *
 engine
