@@ -6613,7 +6613,7 @@ DocGroup
 >
 docGroup
 =
-mDocument
+d
 -
 >
 GetDocGroup
@@ -7071,6 +7071,9 @@ docShell
 ;
 if
 (
+docGroup
+&
+&
 dShell
 -
 >
