@@ -36338,12 +36338,11 @@ itervar
 errfn
 p
 .
-bareType
-(
-side
-)
+ipdltype
 .
 name
+(
+)
                                         
 sentinelKey
 =
@@ -36796,12 +36795,11 @@ s
 %
 p
 .
-bareType
-(
-side
-)
+ipdltype
 .
 name
+(
+)
                                                 
 sentinelKey
 =
@@ -37312,12 +37310,11 @@ s
 %
 p
 .
-bareType
-(
-side
-)
+ipdltype
 .
 name
+(
+)
                                                 
 sentinelKey
 =
@@ -37554,12 +37551,11 @@ s
 %
 r
 .
-bareType
-(
-side
-)
+ipdltype
 .
 name
+(
+)
                                         
 sentinelKey
 =
