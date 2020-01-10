@@ -20939,6 +20939,12 @@ rhs
 .
 hasIntroductionInfo
 ;
+isProbablySystemCode
+=
+rhs
+.
+isProbablySystemCode
+;
 hideScriptFromDebugger
 =
 rhs
@@ -21596,7 +21602,7 @@ extraWarnings
 cx
 )
 ;
-discardSource
+isProbablySystemCode
 =
 cx
 -
@@ -21606,11 +21612,7 @@ realm
 )
 -
 >
-behaviors
-(
-)
-.
-discardSource
+isProbablySystemCode
 (
 )
 ;

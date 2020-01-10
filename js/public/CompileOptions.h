@@ -925,6 +925,11 @@ allowHTMLComments
 true
 ;
 bool
+isProbablySystemCode
+=
+false
+;
+bool
 hideScriptFromDebugger
 =
 false
@@ -1509,11 +1514,6 @@ bool
 allowSyntaxParser
 =
 true
-;
-bool
-discardSource
-=
-false
 ;
 private
 :
