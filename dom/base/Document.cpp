@@ -22776,7 +22776,7 @@ nsINode
 >
 node
 =
-PresShell
+nsIPresShell
 :
 :
 GetCapturingContent

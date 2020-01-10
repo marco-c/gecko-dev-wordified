@@ -402,6 +402,10 @@ DropMouseGrabbing
 {
 if
 (
+PresShell
+*
+presShell
+=
 mViewManager
 -
 >
@@ -410,9 +414,9 @@ GetPresShell
 )
 )
 {
-PresShell
-:
-:
+presShell
+-
+>
 ClearMouseCaptureOnView
 (
 this

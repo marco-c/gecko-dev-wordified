@@ -10041,10 +10041,10 @@ These
 two
 calls
 to
-PresShell
+nsIPresShell
 :
 :
-SetCapturingContent
+SetCapturingContext
 (
 )
 (

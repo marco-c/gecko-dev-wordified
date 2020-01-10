@@ -6334,7 +6334,7 @@ nsIContent
 *
 capturingContent
 =
-PresShell
+nsIPresShell
 :
 :
 GetCapturingContent
@@ -11771,7 +11771,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-PresShell
+nsIPresShell
 :
 :
 GetCapturingContent
@@ -13100,9 +13100,15 @@ GetSize
 (
 )
 )
+nsIPresShell
+:
+:
 ScrollAxis
 (
 )
+nsIPresShell
+:
+:
 ScrollAxis
 (
 )

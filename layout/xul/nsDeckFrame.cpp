@@ -502,10 +502,7 @@ nsIFrame
 aBox
 )
 {
-mozilla
-:
-:
-PresShell
+nsIPresShell
 :
 :
 ClearMouseCapture
