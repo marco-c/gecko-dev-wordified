@@ -28267,7 +28267,7 @@ an
 int32
 value
 <
-RESUME_INDEX_CLOSING
+RESUME_INDEX_RUNNING
 /
 /
 the
@@ -28322,7 +28322,7 @@ Imm32
 AbstractGeneratorObject
 :
 :
-RESUME_INDEX_CLOSING
+RESUME_INDEX_RUNNING
 )
 &
 returnFalse

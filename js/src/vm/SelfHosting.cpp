@@ -6757,14 +6757,6 @@ genObj
 isRunning
 (
 )
-|
-|
-genObj
--
->
-isClosing
-(
-)
 )
 ;
 return
