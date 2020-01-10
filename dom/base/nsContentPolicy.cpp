@@ -688,6 +688,12 @@ requestingLocation
 {
 nsCOMPtr
 <
+mozilla
+:
+:
+dom
+:
+:
 Document
 >
 doc
