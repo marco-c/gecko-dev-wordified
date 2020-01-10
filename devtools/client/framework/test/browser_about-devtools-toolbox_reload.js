@@ -130,6 +130,8 @@ this
 firefox
 "
 debuggerClient
+{
+}
 )
 ;
 registerCleanupFunction
