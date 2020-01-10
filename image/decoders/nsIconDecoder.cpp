@@ -497,6 +497,7 @@ aAnimParams
 Nothing
 (
 )
+mTransform
 SurfacePipeFlags
 (
 )

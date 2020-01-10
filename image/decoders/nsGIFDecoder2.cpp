@@ -1590,6 +1590,7 @@ OutputSize
 aFrameRect
 format
 animParams
+mTransform
 pipeFlags
 )
 ;
