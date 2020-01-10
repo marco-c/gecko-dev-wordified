@@ -85,10 +85,10 @@ MPL
 0
 /
 .
+from
+__future__
 import
-gdb
-import
-itertools
+absolute_import
 from
 gdbpp
 import
