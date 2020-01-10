@@ -3,7 +3,7 @@
 Copyright
 2016
 -
-2017
+2018
 INRIA
 and
 Microsoft

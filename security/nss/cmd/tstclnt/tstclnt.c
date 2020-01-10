@@ -6391,6 +6391,8 @@ rv
 ;
 PRErrorCode
 error
+=
+0
 ;
 if
 (

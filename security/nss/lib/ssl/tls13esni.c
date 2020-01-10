@@ -3063,6 +3063,8 @@ rv
 TLS13KeyShareEntry
 *
 share
+=
+NULL
 ;
 const
 sslNamedGroupDef

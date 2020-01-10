@@ -2844,6 +2844,8 @@ PR_FALSE
 ;
 PRBool
 isPost
+=
+PR_FALSE
 ;
 postData
 .
