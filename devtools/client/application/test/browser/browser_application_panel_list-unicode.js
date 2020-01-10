@@ -139,12 +139,6 @@ panelWin
 .
 document
 ;
-/
-/
-select
-service
-worker
-view
 selectPage
 (
 panel

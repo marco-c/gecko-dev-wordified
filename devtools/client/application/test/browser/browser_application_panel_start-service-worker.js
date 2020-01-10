@@ -188,12 +188,6 @@ panelWin
 .
 document
 ;
-/
-/
-select
-service
-worker
-view
 selectPage
 (
 panel
@@ -522,12 +516,6 @@ panelWin
 .
 document
 ;
-/
-/
-select
-service
-worker
-view
 selectPage
 (
 panel

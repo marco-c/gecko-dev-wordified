@@ -367,6 +367,11 @@ className
 app
 -
 page
+js
+-
+manifest
+-
+page
 {
 !
 manifest
