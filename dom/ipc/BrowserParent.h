@@ -2688,6 +2688,10 @@ const
 uint32_t
 &
 aChromeFlags
+const
+TabId
+&
+aTabId
 )
 ;
 bool
@@ -2726,6 +2730,10 @@ const
 uint32_t
 &
 aChromeFlags
+const
+TabId
+&
+aTabId
 )
 override
 ;

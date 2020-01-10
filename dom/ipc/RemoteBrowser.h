@@ -395,6 +395,15 @@ AsBrowserBridgeHost
 0
 ;
 virtual
+TabId
+GetTabId
+(
+)
+const
+=
+0
+;
+virtual
 LayersId
 GetLayersId
 (

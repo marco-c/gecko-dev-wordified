@@ -7539,6 +7539,10 @@ const
 uint32_t
 &
 aChromeFlags
+const
+TabId
+&
+aTabId
 )
 {
 nsresult
@@ -7566,6 +7570,7 @@ Cast
 aBrowsingContext
 )
 aChromeFlags
+aTabId
 )
 ;
 if
@@ -7617,6 +7622,10 @@ const
 uint32_t
 &
 aChromeFlags
+const
+TabId
+&
+aTabId
 )
 {
 /

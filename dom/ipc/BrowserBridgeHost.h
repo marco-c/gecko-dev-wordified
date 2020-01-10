@@ -283,6 +283,13 @@ return
 this
 ;
 }
+TabId
+GetTabId
+(
+)
+const
+override
+;
 LayersId
 GetLayersId
 (
