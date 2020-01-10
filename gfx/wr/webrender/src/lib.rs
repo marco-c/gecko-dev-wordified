@@ -1247,6 +1247,10 @@ extern
 crate
 sha2
 ;
+#
+[
+macro_use
+]
 extern
 crate
 smallvec
