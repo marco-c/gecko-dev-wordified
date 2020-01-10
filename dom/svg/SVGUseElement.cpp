@@ -1868,7 +1868,7 @@ nsINode
 *
 parent
 =
-GetParentOrHostNode
+GetParentOrShadowHostNode
 (
 )
 ;
@@ -1879,7 +1879,7 @@ parent
 parent
 -
 >
-GetParentOrHostNode
+GetParentOrShadowHostNode
 (
 )
 )
