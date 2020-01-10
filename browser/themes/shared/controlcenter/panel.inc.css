@@ -6962,7 +6962,7 @@ margin
 ;
 }
 .
-protection
+protections
 -
 popup
 -
@@ -6970,6 +6970,15 @@ footer
 -
 icon
 {
+-
+moz
+-
+context
+-
+properties
+:
+fill
+;
 width
 :
 16px
