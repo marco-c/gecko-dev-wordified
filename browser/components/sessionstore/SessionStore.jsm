@@ -16956,6 +16956,8 @@ tabId
 ;
 return
 remoteTab
+.
+contentProcessId
 ;
 }
 /
