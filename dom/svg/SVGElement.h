@@ -266,12 +266,6 @@ gfxMatrix
 .
 h
 "
-class
-nsSVGLength2
-;
-class
-nsSVGNumber2
-;
 nsresult
 NS_NewSVGElement
 (
@@ -322,7 +316,13 @@ class
 SVGAnimatedIntegerPair
 ;
 class
+SVGAnimatedLength
+;
+class
 SVGAnimatedLengthList
+;
+class
+SVGAnimatedNumber
 ;
 class
 SVGAnimatedNumberList
@@ -1121,7 +1121,7 @@ nsAtom
 *
 aName
 const
-nsSVGLength2
+SVGAnimatedLength
 &
 aLength
 )
@@ -1523,7 +1523,7 @@ DO_ALLOCATE
 0x1
 }
 ;
-nsSVGLength2
+SVGAnimatedLength
 *
 GetAnimatedLength
 (
@@ -2230,7 +2230,7 @@ mCtxType
 struct
 LengthAttributesInfo
 {
-nsSVGLength2
+SVGAnimatedLength
 *
 const
 mLengths
@@ -2247,7 +2247,7 @@ mLengthCount
 ;
 LengthAttributesInfo
 (
-nsSVGLength2
+SVGAnimatedLength
 *
 aLengths
 LengthInfo
@@ -2301,7 +2301,7 @@ mPercentagesAllowed
 struct
 NumberAttributesInfo
 {
-nsSVGNumber2
+SVGAnimatedNumber
 *
 const
 mNumbers
@@ -2318,7 +2318,7 @@ mNumberCount
 ;
 NumberAttributesInfo
 (
-nsSVGNumber2
+SVGAnimatedNumber
 *
 aNumbers
 NumberInfo

@@ -466,7 +466,7 @@ enum
 SCALE
 }
 ;
-nsSVGNumber2
+SVGAnimatedNumber
 mNumberAttributes
 [
 1

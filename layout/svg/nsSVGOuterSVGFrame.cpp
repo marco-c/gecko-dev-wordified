@@ -1435,7 +1435,7 @@ GetWritingMode
 )
 ;
 const
-nsSVGLength2
+SVGAnimatedLength
 &
 isize
 =
@@ -1765,7 +1765,7 @@ GetContent
 )
 ;
 const
-nsSVGLength2
+SVGAnimatedLength
 &
 width
 =
@@ -1781,7 +1781,7 @@ ATTR_WIDTH
 ]
 ;
 const
-nsSVGLength2
+SVGAnimatedLength
 &
 height
 =
@@ -2021,7 +2021,7 @@ GetContent
 )
 ;
 const
-nsSVGLength2
+SVGAnimatedLength
 &
 width
 =
@@ -2037,7 +2037,7 @@ ATTR_WIDTH
 ]
 ;
 const
-nsSVGLength2
+SVGAnimatedLength
 &
 height
 =
@@ -2649,7 +2649,7 @@ GetContent
 )
 ;
 const
-nsSVGLength2
+SVGAnimatedLength
 &
 width
 =
@@ -2741,7 +2741,7 @@ aWM
 ;
 }
 const
-nsSVGLength2
+SVGAnimatedLength
 &
 height
 =
@@ -7309,7 +7309,7 @@ VerticalScrollbarNotNeeded
 const
 {
 const
-nsSVGLength2
+SVGAnimatedLength
 &
 height
 =

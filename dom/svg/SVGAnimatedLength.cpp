@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-nsSVGLength2
+SVGAnimatedLength
 .
 h
 "
@@ -216,14 +216,13 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
 ;
+namespace
+mozilla
+{
 static
 const
 nsStaticAtom
@@ -287,7 +286,7 @@ pc
 static
 SVGAttrTearoffTable
 <
-nsSVGLength2
+SVGAnimatedLength
 DOMSVGAnimatedLength
 >
 sSVGAnimatedLengthTearoffTable
@@ -1026,7 +1025,7 @@ length
 ;
 }
 float
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 GetPixelsPerUnit
@@ -1051,7 +1050,7 @@ aUnitType
 ;
 }
 float
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 GetPixelsPerUnit
@@ -1077,7 +1076,7 @@ aUnitType
 ;
 }
 float
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 GetPixelsPerUnit
@@ -1175,7 +1174,7 @@ DPI
 0f
 ;
 float
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 GetPixelsPerUnit
@@ -1331,7 +1330,7 @@ return
 }
 }
 void
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 SetBaseValueInSpecifiedUnits
@@ -1424,7 +1423,7 @@ emptyOrOldValue
 }
 }
 nsresult
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 ConvertToSpecifiedUnits
@@ -1634,7 +1633,7 @@ NS_OK
 ;
 }
 nsresult
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 NewValueSpecifiedUnits
@@ -1753,7 +1752,7 @@ already_AddRefed
 <
 DOMSVGLength
 >
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 ToDOMBaseVal
@@ -1779,7 +1778,7 @@ already_AddRefed
 <
 DOMSVGLength
 >
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 ToDOMAnimVal
@@ -1807,7 +1806,7 @@ Implementation
 *
 /
 nsresult
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 SetBaseValueString
@@ -1947,7 +1946,7 @@ NS_OK
 ;
 }
 void
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 GetBaseValueString
@@ -1967,7 +1966,7 @@ mSpecifiedUnitType
 ;
 }
 void
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 GetAnimValueString
@@ -1987,7 +1986,7 @@ mSpecifiedUnitType
 ;
 }
 nsresult
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 SetBaseValue
@@ -2056,7 +2055,7 @@ NS_OK
 ;
 }
 void
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 SetAnimValueInSpecifiedUnits
@@ -2100,7 +2099,7 @@ mAttrEnum
 ;
 }
 nsresult
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 SetAnimValue
@@ -2149,7 +2148,7 @@ already_AddRefed
 <
 DOMSVGAnimatedLength
 >
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 ToDOMAnimatedLength
@@ -2224,7 +2223,7 @@ UniquePtr
 <
 SMILAttr
 >
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 ToSMILAttr
@@ -2246,7 +2245,7 @@ aSVGElement
 ;
 }
 nsresult
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 SMILLength
@@ -2364,7 +2363,7 @@ NS_OK
 ;
 }
 SMILValue
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 SMILLength
@@ -2405,7 +2404,7 @@ val
 ;
 }
 void
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 SMILLength
@@ -2454,7 +2453,7 @@ mAttrEnum
 }
 }
 nsresult
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 SMILLength
@@ -2528,3 +2527,8 @@ return
 NS_OK
 ;
 }
+}
+/
+/
+namespace
+mozilla

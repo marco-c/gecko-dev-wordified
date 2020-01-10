@@ -330,7 +330,7 @@ non
 list
 SVGLength
 see
-nsSVGLength2
+SVGAnimatedLength
 .
 h
 .
@@ -574,7 +574,7 @@ to
 the
 corresponding
 *
-nsSVGLength2
+SVGAnimatedLength
 object
 .
 *
@@ -728,7 +728,7 @@ object
 returned
 by
 *
-nsSVGLength2
+SVGAnimatedLength
 :
 :
 ToDOMBaseVal
@@ -738,7 +738,7 @@ ToDOMAnimVal
 /
 DOMSVGLength
 (
-nsSVGLength2
+SVGAnimatedLength
 *
 aVal
 dom
@@ -837,7 +837,7 @@ DOMSVGLength
 >
 GetTearOff
 (
-nsSVGLength2
+SVGAnimatedLength
 *
 aVal
 dom
@@ -1714,8 +1714,8 @@ when
 we
 have
 an
-nsSVGLength2
-nsSVGLength2
+SVGAnimatedLength
+SVGAnimatedLength
 *
 mVal
 ;

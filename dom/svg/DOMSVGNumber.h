@@ -262,7 +262,7 @@ non
 list
 SVGNumber
 see
-nsSVGNumber2
+SVGAnimatedNumber
 .
 h
 .

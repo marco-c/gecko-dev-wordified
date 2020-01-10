@@ -152,6 +152,13 @@ h
 #
 include
 "
+SVGAnimatedLength
+.
+h
+"
+#
+include
+"
 SVGAnimatedLengthList
 .
 h
@@ -167,13 +174,6 @@ h
 include
 "
 SVGLength
-.
-h
-"
-#
-include
-"
-nsSVGLength2
 .
 h
 "
@@ -228,7 +228,7 @@ dom
 static
 SVGAttrTearoffTable
 <
-nsSVGLength2
+SVGAnimatedLength
 DOMSVGLength
 >
 sBaseSVGLengthTearOffTable
@@ -798,7 +798,7 @@ DOMSVGLength
 :
 DOMSVGLength
 (
-nsSVGLength2
+SVGAnimatedLength
 *
 aVal
 SVGElement
@@ -1018,7 +1018,7 @@ DOMSVGLength
 :
 GetTearOff
 (
-nsSVGLength2
+SVGAnimatedLength
 *
 aVal
 SVGElement

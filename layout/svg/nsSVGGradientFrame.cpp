@@ -3234,7 +3234,7 @@ GetLinearGradientWithLength
 )
 ;
 const
-nsSVGLength2
+SVGAnimatedLength
 &
 length
 =
@@ -3383,7 +3383,7 @@ GetContent
 )
 ;
 const
-nsSVGLength2
+SVGAnimatedLength
 &
 length
 =
@@ -4085,7 +4085,7 @@ aElement
 )
 {
 const
-nsSVGLength2
+SVGAnimatedLength
 &
 length
 =
@@ -4233,7 +4233,7 @@ GetContent
 )
 ;
 const
-nsSVGLength2
+SVGAnimatedLength
 &
 length
 =

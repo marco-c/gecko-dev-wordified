@@ -2938,7 +2938,7 @@ value
 to
 100
 %
-nsSVGLength2
+SVGAnimatedLength
 length
 ;
 length
