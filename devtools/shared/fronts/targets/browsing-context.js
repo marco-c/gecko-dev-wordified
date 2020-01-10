@@ -722,16 +722,6 @@ threadActor
 ;
 this
 .
-targetForm
-.
-contextActor
-=
-this
-.
-_threadActor
-;
-this
-.
 configureOptions
 .
 javascriptEnabled

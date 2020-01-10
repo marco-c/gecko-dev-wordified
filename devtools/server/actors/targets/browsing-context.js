@@ -2436,11 +2436,6 @@ return
 this
 .
 docShell
-&
-&
-this
-.
-docShell
 .
 domWindow
 ;
@@ -8278,6 +8273,12 @@ paused
 "
 )
 {
+this
+.
+conn
+.
+send
+(
 threadActor
 .
 unsafeSynchronize
@@ -8288,8 +8289,9 @@ resolve
 (
 threadActor
 .
-doResume
+onResume
 (
+)
 )
 )
 )

@@ -408,17 +408,6 @@ js
 "
 )
 ;
-const
-onRemoved
-=
-waitForDispatch
-(
-dbg
-"
-REMOVE_BREAKPOINT
-"
-)
-;
 await
 removeBreakpoint
 (
@@ -428,9 +417,6 @@ workerSource
 id
 11
 )
-;
-await
-onRemoved
 ;
 /
 /

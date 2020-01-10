@@ -1615,17 +1615,6 @@ Fx66
 nativeLogpoints
 :
 true
-/
-/
-support
-older
-browsers
-for
-Fx69
-+
-hasThreadFront
-:
-true
 }
 /
 *

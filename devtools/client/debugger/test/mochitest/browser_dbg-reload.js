@@ -167,12 +167,6 @@ sjs_code_reload
 )
 ;
 await
-waitForRequestsToSettle
-(
-dbg
-)
-;
-await
 reload
 (
 dbg
@@ -264,12 +258,6 @@ location
 .
 line
 6
-)
-;
-await
-waitForRequestsToSettle
-(
-dbg
 )
 ;
 }
