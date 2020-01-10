@@ -158,6 +158,9 @@ class
 nsIChannel
 ;
 class
+nsICookieSettings
+;
+class
 nsIHttpChannel
 ;
 class
@@ -543,6 +546,9 @@ IsFirstPartyStorageAccessGrantedFor
 nsIPrincipal
 *
 aPrincipal
+nsICookieSettings
+*
+aCookieSettings
 )
 ;
 enum
