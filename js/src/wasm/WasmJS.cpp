@@ -1583,8 +1583,13 @@ v
 )
 ;
 }
-static
 bool
+js
+:
+:
+wasm
+:
+:
 GetImports
 (
 JSContext
