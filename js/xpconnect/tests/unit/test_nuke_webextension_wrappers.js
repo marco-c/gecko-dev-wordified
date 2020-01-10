@@ -168,6 +168,7 @@ docShell
 createAboutBlankContentViewer
 (
 principal
+principal
 )
 ;
 return

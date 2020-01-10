@@ -6894,6 +6894,7 @@ docShell
 createAboutBlankContentViewer
 (
 null
+null
 )
 ;
 sidebar

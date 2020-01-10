@@ -676,6 +676,7 @@ docShell
 createAboutBlankContentViewer
 (
 systemPrincipal
+systemPrincipal
 )
 ;
 docShell

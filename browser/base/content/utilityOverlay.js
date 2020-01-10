@@ -3892,6 +3892,7 @@ targetBrowser
 createAboutBlankContentViewer
 (
 aPrincipal
+aStoragePrincipal
 )
 ;
 }

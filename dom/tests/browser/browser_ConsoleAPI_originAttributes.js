@@ -520,6 +520,7 @@ docShell
 createAboutBlankContentViewer
 (
 principal
+principal
 )
 ;
 info

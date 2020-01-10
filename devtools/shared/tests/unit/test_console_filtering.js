@@ -441,6 +441,7 @@ docShell
 createAboutBlankContentViewer
 (
 principal
+principal
 )
 ;
 const

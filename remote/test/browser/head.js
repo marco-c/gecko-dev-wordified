@@ -337,6 +337,7 @@ webNavigation
 createAboutBlankContentViewer
 (
 system
+system
 )
 ;
 registerCleanupFunction
