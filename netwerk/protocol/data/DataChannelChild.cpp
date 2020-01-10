@@ -355,6 +355,15 @@ AddRef
 (
 )
 ;
+/
+/
+Released
+in
+NeckoChild
+:
+:
+DeallocPDataChannelChild
+.
 mIPCOpen
 =
 true
@@ -378,10 +387,6 @@ mIPCOpen
 mIPCOpen
 =
 false
-;
-Release
-(
-)
 ;
 }
 }
