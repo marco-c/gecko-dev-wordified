@@ -289,9 +289,9 @@ aRefPtr
 BackendType
 aType
 const
-IntSize
+IntRect
 &
-aSize
+aRect
 SurfaceFormat
 aFormat
 bool
@@ -317,9 +317,9 @@ mBackendType
 (
 aType
 )
-mSize
+mRect
 (
-aSize
+aRect
 )
 mFormat
 (
@@ -396,8 +396,8 @@ mRefPtr
 BackendType
 mBackendType
 ;
-IntSize
-mSize
+IntRect
+mRect
 ;
 SurfaceFormat
 mFormat
@@ -8263,7 +8263,11 @@ aTranslator
 CreateDrawTarget
 (
 mRefPtr
-mSize
+mRect
+.
+Size
+(
+)
 mFormat
 )
 ;
@@ -8383,7 +8387,7 @@ mBackendType
 WriteElement
 (
 aStream
-mSize
+mRect
 )
 ;
 WriteElement
@@ -8418,7 +8422,11 @@ GetSize
 )
 =
 =
-mSize
+mRect
+.
+Size
+(
+)
 )
 ;
 RefPtr
@@ -8456,7 +8464,7 @@ y
 ;
 y
 <
-mSize
+mRect
 .
 height
 ;
@@ -8492,7 +8500,7 @@ BytesPerPixel
 mFormat
 )
 *
-mSize
+mRect
 .
 width
 )
@@ -8539,7 +8547,7 @@ mBackendType
 ReadElement
 (
 aStream
-mSize
+mRect
 )
 ;
 ReadElement
@@ -8570,7 +8578,11 @@ Factory
 :
 CreateDataSourceSurface
 (
-mSize
+mRect
+.
+Size
+(
+)
 mFormat
 )
 ;
@@ -8622,7 +8634,7 @@ y
 ;
 y
 <
-mSize
+mRect
 .
 height
 ;
@@ -8657,7 +8669,7 @@ BytesPerPixel
 mFormat
 )
 *
-mSize
+mRect
 .
 width
 )
@@ -8718,7 +8730,7 @@ Size
 "
 <
 <
-mSize
+mRect
 .
 width
 <
@@ -8728,7 +8740,7 @@ x
 "
 <
 <
-mSize
+mRect
 .
 height
 <

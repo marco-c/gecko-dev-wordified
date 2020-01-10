@@ -1721,7 +1721,7 @@ GetBackendType
 mFinalDT
 -
 >
-GetSize
+GetRect
 (
 )
 mFinalDT
