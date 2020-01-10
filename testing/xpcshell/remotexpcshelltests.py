@@ -3515,7 +3515,7 @@ GenerateOCSPResponse
 "
                     
 "
-SymantecSanctionsServer
+SanctionsTestServer
 "
 ]
         

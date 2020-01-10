@@ -772,7 +772,7 @@ bin
 '
 bin
 /
-SymantecSanctionsServer
+SanctionsTestServer
 '
 (
 '
@@ -4815,7 +4815,7 @@ bin
 '
 bin
 /
-SymantecSanctionsServer
+SanctionsTestServer
 .
 exe
 '
