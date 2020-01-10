@@ -211,6 +211,7 @@ type
 {
 SearchModifiers
 Source
+SourceContent
 SourceLocation
 }
 from
@@ -356,12 +357,16 @@ shouldShowPrettyPrint
 source
 :
 Source
+content
+:
+SourceContent
 )
 {
 return
 shouldPrettyPrint
 (
 source
+content
 )
 ;
 }

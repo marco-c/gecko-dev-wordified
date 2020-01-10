@@ -559,8 +559,7 @@ html
 let
 dbgValue
 =
-await
-findSource
+findSourceContent
 (
 dbg
 "
@@ -580,7 +579,7 @@ text
 {
 dbgValue
 .
-text
+value
 }
 )
 ;
@@ -588,7 +587,7 @@ ok
 (
 dbgValue
 .
-text
+value
 .
 includes
 (
@@ -709,8 +708,7 @@ html
 ;
 dbgValue
 =
-await
-findSource
+findSourceContent
 (
 dbg
 "
@@ -730,7 +728,7 @@ text
 {
 dbgValue
 .
-text
+value
 }
 )
 ;
@@ -738,7 +736,7 @@ ok
 (
 dbgValue
 .
-text
+value
 .
 includes
 (
@@ -830,8 +828,7 @@ html
 ;
 dbgValue
 =
-await
-findSource
+findSourceContent
 (
 dbg
 "
@@ -851,7 +848,7 @@ text
 {
 dbgValue
 .
-text
+value
 }
 )
 ;
@@ -859,7 +856,7 @@ ok
 (
 dbgValue
 .
-text
+value
 .
 includes
 (
@@ -1020,8 +1017,7 @@ html
 ;
 dbgValue
 =
-await
-findSource
+findSourceContent
 (
 dbg
 "
@@ -1041,7 +1037,7 @@ text
 {
 dbgValue
 .
-text
+value
 }
 )
 ;
@@ -1049,7 +1045,7 @@ ok
 (
 dbgValue
 .
-text
+value
 .
 includes
 (
@@ -1141,8 +1137,7 @@ html
 ;
 dbgValue
 =
-await
-findSource
+findSourceContent
 (
 dbg
 "
@@ -1162,7 +1157,7 @@ text
 {
 dbgValue
 .
-text
+value
 }
 )
 ;
@@ -1170,7 +1165,7 @@ ok
 (
 dbgValue
 .
-text
+value
 .
 includes
 (

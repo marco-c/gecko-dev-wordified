@@ -90,6 +90,7 @@ index
 import
 {
 makeMockSource
+makeMockSourceAndContent
 }
 from
 "
@@ -130,9 +131,12 @@ source
 >
 {
 const
+{
 source
+content
+}
 =
-makeMockSource
+makeMockSourceAndContent
 (
 "
 http
@@ -171,6 +175,7 @@ expect
 shouldShowPrettyPrint
 (
 source
+content
 )
 )
 .

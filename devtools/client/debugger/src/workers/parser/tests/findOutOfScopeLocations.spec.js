@@ -184,7 +184,9 @@ blocks
 >
 {
 const
+{
 source
+}
 =
 populateSource
 (
@@ -241,7 +243,9 @@ blocks
 >
 {
 const
+{
 source
+}
 =
 populateSource
 (
@@ -300,7 +304,9 @@ declaration
 >
 {
 const
+{
 source
+}
 =
 populateSource
 (
@@ -359,7 +365,9 @@ scope
 >
 {
 const
+{
 source
+}
 =
 populateSource
 (
@@ -440,7 +448,9 @@ locations
 >
 {
 const
+{
 source
+}
 =
 populateSource
 (
