@@ -989,11 +989,7 @@ userContextId
 viewport
 .
 userContextId
-viewportId
-:
 viewport
-.
-id
 onBrowserMounted
 onChangeViewportOrientation
 onContentResize
