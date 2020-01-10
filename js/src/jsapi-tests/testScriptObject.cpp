@@ -142,12 +142,14 @@ JS
 :
 Compile
 {
-DontInflate
+{
 Utf8
 {
-FileDontInflate
+File
 Path
 }
+}
+DontInflate
 }
 #
 include
@@ -960,7 +962,7 @@ cx
 JS
 :
 :
-CompileUtf8Path
+CompileUtf8PathDontInflate
 (
 cx
 options
@@ -1053,7 +1055,7 @@ cx
 JS
 :
 :
-CompileUtf8Path
+CompileUtf8PathDontInflate
 (
 cx
 options

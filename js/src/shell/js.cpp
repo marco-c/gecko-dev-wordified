@@ -21042,7 +21042,7 @@ script
 JS
 :
 :
-CompileUtf8Path
+CompileUtf8PathDontInflate
 (
 cx
 options
