@@ -734,7 +734,7 @@ getStr
 "
 gotoLineModal
 .
-key2
+key3
 "
 )
 (
@@ -886,7 +886,7 @@ getStr
 "
 gotoLineModal
 .
-key2
+key3
 "
 )
 this
