@@ -1677,15 +1677,6 @@ emitted
 .
 JumpTarget
 lastTarget_
-=
-{
-BytecodeOffset
-:
-:
-invalidOffset
-(
-)
-}
 ;
 /
 /

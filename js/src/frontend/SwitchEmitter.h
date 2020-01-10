@@ -1974,15 +1974,6 @@ body
 .
 JumpTarget
 defaultJumpTargetOffset_
-=
-{
-BytecodeOffset
-:
-:
-invalidOffset
-(
-)
-}
 ;
 /
 /
