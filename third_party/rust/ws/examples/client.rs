@@ -1,7 +1,3 @@
-extern
-crate
-env_logger
-;
 /
 /
 /
@@ -46,6 +42,10 @@ extern
 crate
 ws
 ;
+extern
+crate
+env_logger
+;
 use
 ws
 :
@@ -68,6 +68,10 @@ env_logger
 :
 :
 init
+(
+)
+.
+unwrap
 (
 )
 ;
@@ -123,6 +127,12 @@ WebSocket
 is
 open
 if
+let
+Err
+(
+_
+)
+=
 out
 .
 send
@@ -131,10 +141,6 @@ send
 Hello
 WebSocket
 "
-)
-.
-is_err
-(
 )
 {
 println

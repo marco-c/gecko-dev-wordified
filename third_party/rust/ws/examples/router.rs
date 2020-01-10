@@ -1,7 +1,3 @@
-extern
-crate
-env_logger
-;
 /
 /
 /
@@ -25,6 +21,10 @@ handlers
 extern
 crate
 ws
+;
+extern
+crate
+env_logger
 ;
 /
 /
@@ -166,7 +166,6 @@ one
 "
 =
 >
-{
 self
 .
 inner
@@ -204,7 +203,6 @@ five
 ]
 }
 )
-}
 /
 /
 Route
@@ -220,7 +218,6 @@ two
 "
 =
 >
-{
 self
 .
 inner
@@ -253,7 +250,6 @@ vec
 ]
 }
 )
-}
 /
 /
 Use
@@ -269,7 +265,6 @@ closure
 "
 =
 >
-{
 self
 .
 inner
@@ -326,7 +321,6 @@ Implemented
 )
 }
 )
-}
 /
 /
 Use
@@ -603,6 +597,9 @@ let
 mut
 res
 =
+try
+!
+(
 ws
 :
 :
@@ -613,7 +610,7 @@ from_request
 (
 req
 )
-?
+)
 ;
 res
 .
@@ -800,11 +797,17 @@ Result
 for
 msg
 in
-&
 self
 .
 data
+.
+iter
+(
+)
 {
+try
+!
+(
 self
 .
 ws
@@ -814,7 +817,7 @@ send
 *
 msg
 )
-?
+)
 }
 Ok
 (
@@ -899,6 +902,10 @@ env_logger
 :
 :
 init
+(
+)
+.
+unwrap
 (
 )
 ;
