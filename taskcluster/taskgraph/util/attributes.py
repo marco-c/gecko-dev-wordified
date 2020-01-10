@@ -184,6 +184,16 @@ _OPTIONAL_ATTRIBUTES
 (
     
 '
+accepted
+-
+mar
+-
+channel
+-
+ids
+'
+    
+'
 artifact_map
 '
     
@@ -200,6 +210,14 @@ locale
 '
     
 '
+mar
+-
+channel
+-
+id
+'
+    
+'
 nightly
 '
     
@@ -208,7 +226,7 @@ required_signoffs
 '
     
 '
-signed
+shippable
 '
     
 '
@@ -217,6 +235,10 @@ shipping_phase
     
 '
 shipping_product
+'
+    
+'
+signed
 '
     
 '
@@ -229,10 +251,6 @@ installer
 update
 -
 channel
-'
-    
-'
-shippable
 '
 )
 def

@@ -11420,6 +11420,30 @@ building
 '
 )
     
+CommandArgument
+(
+'
+-
+-
+mar
+-
+channel
+-
+id
+'
+type
+=
+str
+                     
+help
+=
+'
+Mar
+channel
+id
+'
+)
+    
 def
 repackage_mar
 (
@@ -11429,6 +11453,7 @@ mar
 output
 format
 arch
+mar_channel_id
 )
 :
         
@@ -11443,16 +11468,27 @@ repackage_mar
         
 repackage_mar
 (
+            
 self
 .
 topsrcdir
+            
 input
+            
 mar
+            
 output
+            
 format
+            
 arch
 =
 arch
+            
+mar_channel_id
+=
+mar_channel_id
+        
 )
 CommandProvider
 class
