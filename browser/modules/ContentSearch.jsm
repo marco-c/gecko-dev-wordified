@@ -1317,6 +1317,10 @@ complete
 break
 ;
 }
+/
+/
+fall
+through
 case
 "
 nsPref

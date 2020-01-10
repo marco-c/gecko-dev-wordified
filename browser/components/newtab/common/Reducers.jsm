@@ -3406,10 +3406,9 @@ DISCOVERY_STREAM_CONFIG_CHANGE
 :
 /
 /
-The
-reason
-this
-is
+Fall
+through
+to
 a
 separate
 action
