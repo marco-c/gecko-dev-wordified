@@ -6912,7 +6912,7 @@ bi
 BigInt
 :
 :
-offsetOfLengthSignAndReservedBits
+offsetOfDigitLength
 (
 )
 )

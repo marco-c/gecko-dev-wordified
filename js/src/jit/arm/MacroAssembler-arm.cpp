@@ -24046,7 +24046,7 @@ Imm32
 BigInt
 :
 :
-offsetOfLengthSignAndReservedBits
+offsetOfDigitLength
 (
 )
 )
