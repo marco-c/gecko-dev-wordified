@@ -5898,7 +5898,7 @@ event
 .
 target
 .
-lastChild
+menupopup
 ;
 if
 (
@@ -6127,7 +6127,7 @@ event
 .
 target
 .
-lastChild
+menupopup
 ;
 if
 (
@@ -6388,12 +6388,12 @@ node
 &
 node
 .
-lastChild
+menupopup
 &
 &
 node
 .
-lastChild
+menupopup
 .
 hasAttribute
 (
