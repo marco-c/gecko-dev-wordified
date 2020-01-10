@@ -838,6 +838,8 @@ display
 :
 "
 inline
+-
+block
 "
 "
 explicit
