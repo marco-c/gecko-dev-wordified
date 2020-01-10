@@ -6251,6 +6251,17 @@ get
 )
 )
 ;
+mCachedAnonymousContentStyles
+.
+Clear
+(
+)
+;
+PodArrayZero
+(
+mCachedAnonymousContentStyleIndexes
+)
+;
 }
 void
 ServoStyleSet
