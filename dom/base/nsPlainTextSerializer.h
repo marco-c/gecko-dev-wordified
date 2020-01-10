@@ -570,6 +570,15 @@ false
 )
 ;
 void
+MaybeReplaceNbspsForOutput
+(
+nsString
+&
+aString
+)
+const
+;
+void
 Output
 (
 nsString
