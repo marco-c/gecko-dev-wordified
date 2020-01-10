@@ -345,8 +345,6 @@ chosen_binary
 :
 None
 fallback_binary
-:
-fallback_binary
 version_cache
 :
 BTreeMap

@@ -3253,13 +3253,7 @@ Timeouts
 TimeoutsResponse
 {
 script
-:
-script
 page_load
-:
-page_load
-implicit
-:
 implicit
 }
 )
@@ -5959,13 +5953,7 @@ MarionetteCommand
 MarionetteCommand
 {
 id
-:
-id
 name
-:
-name
-params
-:
 params
 }
 }
