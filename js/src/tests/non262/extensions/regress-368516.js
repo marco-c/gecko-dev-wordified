@@ -372,10 +372,6 @@ bomchars
 [
 '
 \
-uFFFE
-'
-'
-\
 uFEFF
 '
 ]
