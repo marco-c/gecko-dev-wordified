@@ -883,7 +883,7 @@ RaptorResultsHandler
         
 self
 .
-create_browser_profile
+build_browser_profile
 (
 )
         
@@ -1710,7 +1710,7 @@ browsers
 )
     
 def
-create_browser_profile
+build_browser_profile
 (
 self
 )
@@ -1729,8 +1729,12 @@ profile_class
         
 #
 Merge
-in
-base
+extra
+profile
+data
+from
+testing
+/
 profiles
         
 with
@@ -1774,7 +1778,7 @@ raptor
 ]
         
 for
-name
+profile
 in
 base_profiles
 :
@@ -1790,7 +1794,7 @@ join
 self
 .
 profile_data_dir
-name
+profile
 )
             
 self
@@ -4300,7 +4304,7 @@ time
                 
 self
 .
-create_browser_profile
+build_browser_profile
 (
 )
                 
@@ -9534,7 +9538,7 @@ time
                 
 self
 .
-create_browser_profile
+build_browser_profile
 (
 )
                 
