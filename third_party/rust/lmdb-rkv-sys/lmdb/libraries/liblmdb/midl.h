@@ -371,6 +371,9 @@ size
 *
 /
 #
+ifndef
+MDB_IDL_LOGN
+#
 define
 MDB_IDL_LOGN
 16
@@ -388,6 +391,8 @@ is
 17
 *
 /
+#
+endif
 #
 define
 MDB_IDL_DB_SIZE
