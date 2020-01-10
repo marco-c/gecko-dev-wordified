@@ -2563,10 +2563,6 @@ do
 return
 ;
 }
-mState
-=
-eClosed
-;
 if
 (
 !
@@ -2708,6 +2704,10 @@ return
 AssertIsOnOwningThread
 (
 )
+;
+mState
+=
+eClosed
 ;
 if
 (
