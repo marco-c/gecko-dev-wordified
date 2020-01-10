@@ -290,9 +290,10 @@ provider
 var
 pref
 =
+await
 SpecialPowers
 .
-getCharPref
+getParentCharPref
 (
 PREFS
 .
@@ -332,9 +333,10 @@ from
 completions
 pref
 =
+await
 SpecialPowers
 .
-getCharPref
+getParentCharPref
 (
 PREFS
 .
