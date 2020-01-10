@@ -944,9 +944,6 @@ const
 nsAString
 &
 aHref
-nsINode
-*
-aSource
 uint32_t
 aLinkTypes
 const

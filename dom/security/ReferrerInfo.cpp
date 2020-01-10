@@ -5247,6 +5247,10 @@ if
 (
 !
 element
+|
+|
+!
+element
 -
 >
 IsAnyOfHTMLElements
@@ -5338,6 +5342,10 @@ area
 >
 if
 (
+!
+element
+|
+|
 !
 element
 -
