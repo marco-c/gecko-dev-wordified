@@ -656,14 +656,14 @@ session
 width
 "
 :
-500
+750
 .
 5
 "
 height
 "
 :
-420
+700
 }
 )
     
@@ -683,7 +683,7 @@ width
 ]
 =
 =
-500
+750
     
 assert
 value
@@ -694,7 +694,7 @@ height
 ]
 =
 =
-420
+700
     
 response
 =
@@ -706,12 +706,12 @@ session
 width
 "
 :
-500
+750
 "
 height
 "
 :
-450
+700
 .
 5
 }
@@ -733,7 +733,7 @@ width
 ]
 =
 =
-500
+750
     
 assert
 value
@@ -744,7 +744,7 @@ height
 ]
 =
 =
-450
+700
 def
 test_x_y_floats
 (
@@ -1218,12 +1218,12 @@ session
 width
 "
 :
-450
+750
 "
 height
 "
 :
-450
+700
 }
 )
     
@@ -1243,7 +1243,7 @@ width
 ]
 =
 =
-450
+750
     
 assert
 value
@@ -1254,7 +1254,7 @@ height
 ]
 =
 =
-450
+700
     
 assert
 not
@@ -1305,12 +1305,12 @@ session
 width
 "
 :
-400
+750
 "
 height
 "
 :
-400
+700
 }
 )
     
@@ -1330,7 +1330,7 @@ width
 ]
 =
 =
-400
+750
     
 assert
 value
@@ -1341,7 +1341,7 @@ height
 ]
 =
 =
-400
+700
 def
 test_height_width
 (
