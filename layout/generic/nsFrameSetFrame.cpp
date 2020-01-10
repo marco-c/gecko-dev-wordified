@@ -8309,7 +8309,7 @@ drag
 state
 if
 (
-nsIPresShell
+PresShell
 :
 :
 GetCapturingContent

@@ -11678,7 +11678,7 @@ drag
 .
 if
 (
-nsIPresShell
+PresShell
 :
 :
 IsMouseCapturePreventingDrag
@@ -20064,7 +20064,7 @@ HasBeenPostedToRemoteProcess
 &
 &
 !
-nsIPresShell
+PresShell
 :
 :
 GetCapturingContent
@@ -41640,7 +41640,7 @@ mMessage
 eMouseDown
 )
 {
-nsIPresShell
+PresShell
 :
 :
 AllowMouseCapture

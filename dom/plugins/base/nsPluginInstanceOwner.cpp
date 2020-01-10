@@ -10669,7 +10669,7 @@ event
 .
 if
 (
-nsIPresShell
+PresShell
 :
 :
 GetCapturingContent
