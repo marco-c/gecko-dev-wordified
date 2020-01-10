@@ -201,6 +201,8 @@ os
 import
 random
 import
+six
+import
 sys
 import
 tarfile
@@ -218,10 +220,6 @@ from
 io
 import
 BytesIO
-from
-StringIO
-import
-StringIO
 class
 TestWithTmpDir
 (
@@ -7523,6 +7521,8 @@ errors
 .
 out
 =
+six
+.
 StringIO
 (
 )

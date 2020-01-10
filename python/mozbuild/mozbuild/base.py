@@ -108,10 +108,6 @@ Python
 import
 which
 from
-StringIO
-import
-StringIO
-from
 mach
 .
 mixin
@@ -1924,6 +1920,8 @@ argument
         
 out
 =
+six
+.
 StringIO
 (
 )
