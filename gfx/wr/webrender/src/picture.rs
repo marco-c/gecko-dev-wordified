@@ -4810,10 +4810,6 @@ pictures
 [
 PicturePrimitive
 ]
-clip_scroll_tree
-:
-&
-ClipScrollTree
 )
 -
 >
@@ -4871,7 +4867,6 @@ WorldRect
 zero
 (
 )
-clip_scroll_tree
 )
 tiles_to_draw
 :
@@ -5706,9 +5701,6 @@ ROOT_SPATIAL_NODE_INDEX
 frame_context
 .
 screen_world_rect
-frame_context
-.
-clip_scroll_tree
 )
 ;
 let
@@ -12667,7 +12659,6 @@ new
 (
 surface_spatial_node_index
 pic_bounds
-clip_scroll_tree
 )
 ;
 SurfaceInfo
@@ -16470,9 +16461,6 @@ new
 (
 surface_spatial_node_index
 pic_bounds
-frame_context
-.
-clip_scroll_tree
 )
 ;
 let
@@ -21758,7 +21746,6 @@ WorldRect
 zero
 (
 )
-clip_scroll_tree
 )
 ;
 for

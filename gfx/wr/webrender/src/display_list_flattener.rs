@@ -3455,10 +3455,6 @@ self
 prim_store
 .
 pictures
-&
-self
-.
-clip_scroll_tree
 )
 ;
 let
