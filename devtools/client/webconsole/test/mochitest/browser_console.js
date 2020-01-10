@@ -261,7 +261,7 @@ waitForBrowserConsole
 let
 hud
 =
-HUDService
+BrowserConsoleManager
 .
 getBrowserConsole
 (

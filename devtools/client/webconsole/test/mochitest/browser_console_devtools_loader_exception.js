@@ -159,7 +159,7 @@ const
 bcHud
 =
 await
-HUDService
+BrowserConsoleManager
 .
 toggleBrowserConsole
 (

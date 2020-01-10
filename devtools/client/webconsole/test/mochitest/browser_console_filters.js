@@ -240,7 +240,7 @@ closed
 hud
 =
 await
-HUDService
+BrowserConsoleManager
 .
 toggleBrowserConsole
 (

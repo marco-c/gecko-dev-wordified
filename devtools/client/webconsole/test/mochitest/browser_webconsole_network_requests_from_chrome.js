@@ -224,7 +224,7 @@ of
 the
 HUD
 Service
-HUDService
+BrowserConsoleManager
 ;
 await
 sendRequestFromChrome

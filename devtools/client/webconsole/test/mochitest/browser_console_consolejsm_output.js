@@ -178,7 +178,7 @@ const
 hud
 =
 await
-HUDService
+BrowserConsoleManager
 .
 toggleBrowserConsole
 (
@@ -433,7 +433,7 @@ true
 )
 ;
 await
-HUDService
+BrowserConsoleManager
 .
 toggleBrowserConsole
 (
@@ -522,7 +522,7 @@ const
 hud
 =
 await
-HUDService
+BrowserConsoleManager
 .
 toggleBrowserConsole
 (
@@ -643,7 +643,7 @@ true
 )
 ;
 await
-HUDService
+BrowserConsoleManager
 .
 toggleBrowserConsole
 (

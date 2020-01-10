@@ -149,7 +149,7 @@ const
 hud
 =
 await
-HUDService
+BrowserConsoleManager
 .
 openBrowserConsoleOrFocus
 (

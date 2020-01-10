@@ -417,7 +417,7 @@ this
 ;
 var
 {
-HUDService
+BrowserConsoleManager
 }
 =
 require
@@ -429,7 +429,11 @@ client
 /
 webconsole
 /
-hudservice
+browser
+-
+console
+-
+manager
 "
 )
 ;
@@ -624,7 +628,7 @@ pref
 const
 browserConsole
 =
-HUDService
+BrowserConsoleManager
 .
 getBrowserConsole
 (
@@ -645,7 +649,7 @@ true
 )
 ;
 await
-HUDService
+BrowserConsoleManager
 .
 toggleBrowserConsole
 (
@@ -6104,7 +6108,7 @@ nsISupportsString
 const
 hud
 =
-HUDService
+BrowserConsoleManager
 .
 getBrowserConsole
 (

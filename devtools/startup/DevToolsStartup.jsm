@@ -5591,7 +5591,7 @@ CommandLine
 ;
 const
 {
-HUDService
+BrowserConsoleManager
 }
 =
 require
@@ -5603,11 +5603,15 @@ client
 /
 webconsole
 /
-hudservice
+browser
+-
+console
+-
+manager
 "
 )
 ;
-HUDService
+BrowserConsoleManager
 .
 toggleBrowserConsole
 (

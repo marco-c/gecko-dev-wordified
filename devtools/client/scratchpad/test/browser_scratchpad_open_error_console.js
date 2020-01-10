@@ -47,7 +47,7 @@ zero
 /
 const
 {
-HUDService
+BrowserConsoleManager
 }
 =
 require
@@ -59,7 +59,11 @@ client
 /
 webconsole
 /
-hudservice
+browser
+-
+console
+-
+manager
 "
 )
 ;
@@ -179,7 +183,7 @@ nsISupportsString
 const
 hud
 =
-HUDService
+BrowserConsoleManager
 .
 getBrowserConsole
 (
@@ -212,7 +216,7 @@ correct
 "
 )
 ;
-HUDService
+BrowserConsoleManager
 .
 toggleBrowserConsole
 (
@@ -236,7 +240,7 @@ created
 const
 hud
 =
-HUDService
+BrowserConsoleManager
 .
 getBrowserConsole
 (

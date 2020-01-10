@@ -304,7 +304,7 @@ true
 browserConsole
 =
 await
-HUDService
+BrowserConsoleManager
 .
 toggleBrowserConsole
 (
@@ -384,7 +384,7 @@ browserTab
 )
 ;
 await
-HUDService
+BrowserConsoleManager
 .
 toggleBrowserConsole
 (
@@ -409,7 +409,7 @@ false
 browserConsole
 =
 await
-HUDService
+BrowserConsoleManager
 .
 toggleBrowserConsole
 (
@@ -473,7 +473,7 @@ browserTab
 )
 ;
 await
-HUDService
+BrowserConsoleManager
 .
 toggleBrowserConsole
 (

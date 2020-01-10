@@ -158,7 +158,7 @@ null
 )
 ;
 await
-HUDService
+BrowserConsoleManager
 .
 openBrowserConsoleOrFocus
 (
@@ -166,7 +166,7 @@ openBrowserConsoleOrFocus
 ;
 hud
 =
-HUDService
+BrowserConsoleManager
 .
 getBrowserConsole
 (
@@ -254,7 +254,7 @@ focus
 )
 ;
 await
-HUDService
+BrowserConsoleManager
 .
 openBrowserConsoleOrFocus
 (
@@ -296,7 +296,7 @@ focus
 )
 ;
 await
-HUDService
+BrowserConsoleManager
 .
 toggleBrowserConsole
 (
@@ -304,7 +304,7 @@ toggleBrowserConsole
 ;
 hud
 =
-HUDService
+BrowserConsoleManager
 .
 getBrowserConsole
 (
