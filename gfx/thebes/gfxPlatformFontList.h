@@ -1342,7 +1342,6 @@ ClearLangGroupPrefFonts
 (
 )
 ;
-virtual
 void
 GetFontFamilyList
 (
