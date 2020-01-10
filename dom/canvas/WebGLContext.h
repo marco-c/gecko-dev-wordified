@@ -5716,7 +5716,7 @@ BufferDataImpl
 (
 GLenum
 target
-uint64_t
+size_t
 dataLen
 const
 uint8_t
@@ -5794,7 +5794,7 @@ GLenum
 target
 WebGLsizeiptr
 dstByteOffset
-uint64_t
+size_t
 srcDataLen
 const
 uint8_t
