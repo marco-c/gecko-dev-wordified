@@ -65262,10 +65262,15 @@ ifndef
 ENABLE_WASM_BULKMEM_OPS
 if
 (
-!
 env_
 .
 sharedMemoryEnabled
+=
+=
+Shareable
+:
+:
+False
 )
 {
 return
