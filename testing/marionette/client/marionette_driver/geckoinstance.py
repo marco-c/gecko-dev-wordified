@@ -421,6 +421,22 @@ max_script_run_time
 0
         
 #
+DOM
+Push
+        
+"
+dom
+.
+push
+.
+connection
+.
+enabled
+"
+:
+False
+        
+#
 Only
 load
 extensions
@@ -916,6 +932,22 @@ server
 )
 s
 "
+        
+#
+Privacy
+and
+Tracking
+Protection
+        
+"
+privacy
+.
+trackingprotection
+.
+enabled
+"
+:
+False
         
 #
 Don
