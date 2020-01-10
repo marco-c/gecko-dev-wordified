@@ -1132,21 +1132,7 @@ devices
 .
 android_device
 import
-grant_runtime_permissions
 get_adb_path
-        
-grant_runtime_permissions
-(
-self
-args
-.
-app
-device_serial
-=
-args
-.
-deviceSerial
-)
         
 if
 not
