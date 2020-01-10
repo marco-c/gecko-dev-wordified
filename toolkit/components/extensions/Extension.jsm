@@ -1259,6 +1259,9 @@ normandyAddonStudy
 "
 networkStatus
 "
+"
+memory
+"
 ]
 )
 ;

@@ -3582,6 +3582,9 @@ identity
 idle
 "
 "
+memory
+"
+"
 menus
 "
 "
