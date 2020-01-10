@@ -2863,9 +2863,6 @@ mach
 vcs
 -
 setup
--
--
-git
 )
 .
         
