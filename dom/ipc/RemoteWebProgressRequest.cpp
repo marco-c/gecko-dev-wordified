@@ -90,10 +90,6 @@ aURI
 nsIURI
 *
 aOriginalURI
-const
-nsACString
-&
-aMatchedList
 )
 {
 mURI
@@ -103,10 +99,6 @@ aURI
 mOriginalURI
 =
 aOriginalURI
-;
-mMatchedList
-=
-aMatchedList
 ;
 return
 NS_OK
