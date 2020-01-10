@@ -228,9 +228,6 @@ dom
 Element
 *
 aOriginalElement
-nsAString
-&
-aStr
 )
 override
 ;
@@ -255,9 +252,6 @@ dom
 Element
 *
 aOriginalElement
-nsAString
-&
-aStr
 )
 override
 ;
@@ -273,9 +267,6 @@ dom
 Document
 *
 aDocument
-nsAString
-&
-aStr
 )
 override
 ;
