@@ -117,8 +117,6 @@ MPL
 #
 include
 "
-mozilla
-/
 ShortcutKeys
 .
 h
@@ -126,10 +124,9 @@ h
 #
 include
 "
-.
-.
+mozilla
 /
-nsXBLPrototypeHandler
+KeyEventHandler
 .
 h
 "
@@ -287,7 +284,7 @@ NS_OK
 static
 *
 /
-nsXBLPrototypeHandler
+KeyEventHandler
 *
 ShortcutKeys
 :
@@ -491,7 +488,7 @@ return
 nullptr
 ;
 }
-nsXBLPrototypeHandler
+KeyEventHandler
 *
 ShortcutKeys
 :
@@ -506,7 +503,7 @@ ShortcutKeyData
 *
 keyData
 ;
-nsXBLPrototypeHandler
+KeyEventHandler
 *
 *
 cache
@@ -626,7 +623,7 @@ return
 cache
 ;
 }
-nsXBLPrototypeHandler
+KeyEventHandler
 *
 lastHandler
 =
@@ -640,12 +637,12 @@ keyData
 event
 )
 {
-nsXBLPrototypeHandler
+KeyEventHandler
 *
 handler
 =
 new
-nsXBLPrototypeHandler
+KeyEventHandler
 (
 keyData
 )
