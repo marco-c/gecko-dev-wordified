@@ -17342,6 +17342,8 @@ isAccessor
 ;
 if
 (
+u
+.
 value
 .
 type
@@ -17357,11 +17359,15 @@ cx
 Atomize
 (
 cx
+u
+.
 value
 .
 string
 strlen
 (
+u
+.
 value
 .
 string
@@ -17391,6 +17397,8 @@ else
 {
 MOZ_ASSERT
 (
+u
+.
 value
 .
 type
@@ -17403,6 +17411,8 @@ vp
 .
 setInt32
 (
+u
+.
 value
 .
 int32
@@ -17745,6 +17755,8 @@ id
 ps
 -
 >
+u
+.
 accessors
 .
 getter
@@ -17755,6 +17767,8 @@ funname
 ps
 -
 >
+u
+.
 accessors
 .
 setter
@@ -17787,6 +17801,8 @@ id
 ps
 -
 >
+u
+.
 accessors
 .
 getter
@@ -17795,6 +17811,8 @@ native
 ps
 -
 >
+u
+.
 accessors
 .
 setter
