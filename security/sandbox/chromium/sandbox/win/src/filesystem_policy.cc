@@ -1599,6 +1599,11 @@ ULONG_PTR
 io_information
 )
 {
+*
+handle
+=
+nullptr
+;
 /
 /
 The
@@ -1751,6 +1756,11 @@ ULONG_PTR
 io_information
 )
 {
+*
+handle
+=
+nullptr
+;
 /
 /
 The
@@ -1784,7 +1794,7 @@ nt_status
 STATUS_ACCESS_DENIED
 ;
 return
-true
+false
 ;
 }
 /
@@ -1947,7 +1957,7 @@ nt_status
 STATUS_ACCESS_DENIED
 ;
 return
-true
+false
 ;
 }
 NtQueryAttributesFileFunction
@@ -2081,7 +2091,7 @@ nt_status
 STATUS_ACCESS_DENIED
 ;
 return
-true
+false
 ;
 }
 NtQueryFullAttributesFileFunction
@@ -2215,7 +2225,7 @@ nt_status
 STATUS_ACCESS_DENIED
 ;
 return
-true
+false
 ;
 }
 NtSetInformationFileFunction
@@ -2267,7 +2277,7 @@ nt_status
 STATUS_ACCESS_DENIED
 ;
 return
-true
+false
 ;
 }
 base

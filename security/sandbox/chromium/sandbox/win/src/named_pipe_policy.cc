@@ -353,6 +353,11 @@ HANDLE
 pipe
 )
 {
+*
+pipe
+=
+INVALID_HANDLE_VALUE
+;
 /
 /
 The
