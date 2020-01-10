@@ -219,7 +219,7 @@ nbytes
 use
 )
 ;
-freeLater
+queueForFreeLater
 (
 p
 )
@@ -231,7 +231,7 @@ void
 FreeOp
 :
 :
-freeLater
+queueForFreeLater
 (
 void
 *
