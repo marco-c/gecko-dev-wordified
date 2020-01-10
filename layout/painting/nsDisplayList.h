@@ -10341,6 +10341,16 @@ UpdateShouldBuildAsyncZoomContainer
 (
 )
 ;
+void
+UpdateShouldBuildBackdropRootContainer
+(
+)
+;
+bool
+ShouldRebuildDisplayListDueToPrefChange
+(
+)
+;
 /
 *
 *
@@ -11813,6 +11823,9 @@ mIsInActiveDocShell
 ;
 bool
 mBuildAsyncZoomContainer
+;
+bool
+mBuildBackdropRootContainer
 ;
 nsRect
 mHitTestArea
