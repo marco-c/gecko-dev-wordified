@@ -5782,16 +5782,10 @@ nsIntRegion
 &
 aInvalidRegion
 const
-gfx
-:
-:
 IntRect
 *
 aClipRectIn
 const
-gfx
-:
-:
 IntRect
 &
 aRenderBounds
@@ -5802,9 +5796,6 @@ aOpaqueRegion
 NativeLayer
 *
 aNativeLayer
-gfx
-:
-:
 IntRect
 *
 aClipRectOut
@@ -5814,9 +5805,6 @@ aClipRectOut
 nullptr
 *
 /
-gfx
-:
-:
 IntRect
 *
 aRenderBoundsOut
