@@ -357,13 +357,6 @@ Float32Array
 )
 )
 ;
-if
-(
-window
-.
-SharedArrayBuffer
-)
-{
 /
 /
 Throws
@@ -401,7 +394,6 @@ SharedArrayBuffer
 )
 )
 ;
-}
 sensor
 .
 start
