@@ -485,7 +485,7 @@ workspace
 env
 [
 '
-GECKO_DIR
+GECKO_PATH
 '
 ]
 =
