@@ -76,7 +76,6 @@ async
 {
 threadClient
 debuggee
-client
 }
 )
 =
@@ -108,7 +107,7 @@ evaluateTestCode
 (
 debuggee
 )
-client
+threadClient
 )
 ;
 dumpn
@@ -129,7 +128,6 @@ step1
 await
 stepOver
 (
-client
 threadClient
 )
 ;
@@ -200,7 +198,6 @@ step2
 await
 stepOver
 (
-client
 threadClient
 )
 ;

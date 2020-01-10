@@ -198,7 +198,7 @@ test_black_box
 (
 )
 {
-gClient
+gThreadClient
 .
 addOneTimeListener
 (
@@ -560,7 +560,7 @@ unBlackBox
 sourceFront
 )
 ;
-gClient
+gThreadClient
 .
 addOneTimeListener
 (

@@ -214,7 +214,7 @@ await
 executeOnNextTickAndWaitForPause
 (
 evalCode
-gClient
+gThreadClient
 )
 ;
 const
@@ -260,7 +260,6 @@ packet
 await
 resumeAndWaitForPause
 (
-gClient
 gThreadClient
 )
 ;

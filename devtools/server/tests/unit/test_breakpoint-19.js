@@ -162,7 +162,6 @@ async
 {
 threadClient
 debuggee
-client
 }
 )
 =
@@ -192,7 +191,7 @@ setUpCode
 (
 debuggee
 )
-client
+threadClient
 )
 ;
 await
@@ -210,7 +209,7 @@ executeOnNextTickAndWaitForPause
 debuggee
 .
 test
-client
+threadClient
 )
 ;
 equal

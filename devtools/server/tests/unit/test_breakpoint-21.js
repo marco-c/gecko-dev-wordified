@@ -78,7 +78,6 @@ async
 {
 threadClient
 debuggee
-client
 }
 )
 =
@@ -126,7 +125,7 @@ debuggee
 )
 ;
 }
-client
+threadClient
 )
 ;
 const
@@ -180,7 +179,7 @@ packet
 await
 waitForPause
 (
-client
+threadClient
 )
 ;
 Assert

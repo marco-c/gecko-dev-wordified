@@ -170,6 +170,8 @@ attachDebugger
 (
 tab
 )
+;
+const
 client
 =
 toolbox

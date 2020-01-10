@@ -75,7 +75,6 @@ async
 (
 {
 threadClient
-client
 debuggee
 }
 )
@@ -93,7 +92,7 @@ evaluateTestCode
 (
 debuggee
 )
-client
+threadClient
 )
 ;
 threadClient
@@ -116,7 +115,7 @@ paused
 await
 waitForPause
 (
-client
+threadClient
 )
 ;
 Assert

@@ -154,7 +154,7 @@ evalCode
 (
 debuggee
 )
-client
+threadClient
 )
 ;
 const

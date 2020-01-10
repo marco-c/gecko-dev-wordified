@@ -91,7 +91,7 @@ resolve
 /
 Debugger
 statement
-client
+threadClient
 .
 addOneTimeListener
 (

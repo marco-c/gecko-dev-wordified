@@ -4534,8 +4534,8 @@ Function
 action
 *
 param
-DebuggerClient
-client
+ThreadClient
+threadClient
 *
 returns
 Promise
@@ -4545,7 +4545,7 @@ function
 executeOnNextTickAndWaitForPause
 (
 action
-client
+threadClient
 )
 {
 const
@@ -4553,7 +4553,7 @@ paused
 =
 waitForPause
 (
-client
+threadClient
 )
 ;
 executeSoon
@@ -4684,7 +4684,6 @@ Promise
 function
 resumeAndWaitForPause
 (
-client
 threadClient
 )
 {
@@ -4693,7 +4692,7 @@ paused
 =
 waitForPause
 (
-client
+threadClient
 )
 ;
 return
@@ -4739,10 +4738,6 @@ taken
 *
 *
 param
-DebuggerClient
-client
-*
-param
 ThreadClient
 threadClient
 *
@@ -4753,7 +4748,6 @@ Promise
 function
 stepIn
 (
-client
 threadClient
 )
 {
@@ -4771,7 +4765,7 @@ paused
 =
 waitForPause
 (
-client
+threadClient
 )
 ;
 return
@@ -4818,10 +4812,6 @@ taken
 *
 *
 param
-DebuggerClient
-client
-*
-param
 ThreadClient
 threadClient
 *
@@ -4832,7 +4822,6 @@ Promise
 function
 stepOver
 (
-client
 threadClient
 )
 {
@@ -4860,7 +4849,7 @@ then
 >
 waitForPause
 (
-client
+threadClient
 )
 )
 ;
@@ -4906,7 +4895,6 @@ Promise
 function
 stepOut
 (
-client
 threadClient
 )
 {
@@ -4934,7 +4922,7 @@ then
 >
 waitForPause
 (
-client
+threadClient
 )
 )
 ;
