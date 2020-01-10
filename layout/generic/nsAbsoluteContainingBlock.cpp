@@ -1888,8 +1888,8 @@ eSideLeft
 IsAuto
 (
 )
-|
-|
+&
+&
 pos
 -
 >
