@@ -6863,15 +6863,6 @@ EditorDOMPoint
 aNewFirstChildOfRightNode
 )
 ;
-Element
-*
-GetTopEnclosingMailCite
-(
-nsINode
-&
-aNode
-)
-;
 /
 *
 *
