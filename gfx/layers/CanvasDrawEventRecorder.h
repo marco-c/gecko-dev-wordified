@@ -569,6 +569,17 @@ mGood
 ;
 }
 void
+SetIsBad
+(
+)
+final
+{
+mGood
+=
+false
+;
+}
+void
 write
 (
 const
