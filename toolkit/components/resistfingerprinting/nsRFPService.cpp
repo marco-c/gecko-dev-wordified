@@ -4157,6 +4157,9 @@ long
 midpoint
 =
 0
+;
+long
+long
 clampedAndJittered
 =
 clamped
@@ -4757,7 +4760,7 @@ boundedDroppedRatio
 min
 (
 kVideoDroppedRatio
-100u
+100U
 )
 ;
 return
@@ -4896,7 +4899,7 @@ boundedDroppedRatio
 min
 (
 kVideoDroppedRatio
-100u
+100U
 )
 ;
 return
