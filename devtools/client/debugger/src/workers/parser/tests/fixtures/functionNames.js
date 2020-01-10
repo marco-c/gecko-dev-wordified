@@ -166,7 +166,7 @@ function
 {
 }
 function
-fn
+f2
 (
 {
 foo
@@ -184,7 +184,7 @@ function
 {
 }
 function
-fn
+f3
 (
 {
 bar
