@@ -3602,15 +3602,17 @@ TransactionBuilder
 UpdateExternalImage
 ;
 auto
-bufferType
+imageType
 =
 wr
 :
 :
-WrExternalImageBufferType
+ExternalImageType
 :
 :
-ExternalBuffer
+Buffer
+(
+)
 ;
 if
 (
@@ -3681,7 +3683,7 @@ aImageKeys
 ]
 descriptor
 aExtID
-bufferType
+imageType
 0
 )
 ;
@@ -3779,7 +3781,7 @@ aImageKeys
 ]
 yDescriptor
 aExtID
-bufferType
+imageType
 0
 )
 ;
@@ -3796,7 +3798,7 @@ aImageKeys
 ]
 cbcrDescriptor
 aExtID
-bufferType
+imageType
 1
 )
 ;
@@ -3813,7 +3815,7 @@ aImageKeys
 ]
 cbcrDescriptor
 aExtID
-bufferType
+imageType
 2
 )
 ;

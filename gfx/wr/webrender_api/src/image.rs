@@ -460,6 +460,13 @@ terms
 .
 #
 [
+repr
+(
+u8
+)
+]
+#
+[
 derive
 (
 Copy

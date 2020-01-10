@@ -3656,8 +3656,8 @@ aExtID
 wr
 :
 :
-WrExternalImageBufferType
-aBufferType
+ExternalImageType
+aImageType
 uint8_t
 aChannelIndex
 )
@@ -3669,7 +3669,8 @@ key
 &
 aDescriptor
 aExtID
-aBufferType
+&
+aImageType
 aChannelIndex
 )
 ;
@@ -3703,10 +3704,12 @@ aHandle
 wr
 :
 :
-WrExternalImageBufferType
+ExternalImageType
 :
 :
-ExternalBuffer
+Buffer
+(
+)
 channelIndex
 )
 ;
@@ -3808,8 +3811,8 @@ aExtID
 wr
 :
 :
-WrExternalImageBufferType
-aBufferType
+ExternalImageType
+aImageType
 uint8_t
 aChannelIndex
 )
@@ -3821,7 +3824,8 @@ aKey
 &
 aDescriptor
 aExtID
-aBufferType
+&
+aImageType
 aChannelIndex
 )
 ;
@@ -3843,8 +3847,8 @@ aExtID
 wr
 :
 :
-WrExternalImageBufferType
-aBufferType
+ExternalImageType
+aImageType
 const
 wr
 :
@@ -3863,7 +3867,8 @@ aKey
 &
 aDescriptor
 aExtID
-aBufferType
+&
+aImageType
 aChannelIndex
 aDirtyRect
 )
