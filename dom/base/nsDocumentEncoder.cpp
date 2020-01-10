@@ -7947,7 +7947,7 @@ mDocument
 selection
 -
 >
-AddRangeInternal
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 myRange

@@ -3939,7 +3939,7 @@ nsHTMLCopyEncoder
 ;
 MOZ_CAN_RUN_SCRIPT
 void
-AddRangeInternal
+AddRangeAndSelectFramesAndNotifyListeners
 (
 nsRange
 &

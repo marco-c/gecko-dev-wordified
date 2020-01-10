@@ -13115,7 +13115,7 @@ GetDocument
 )
 ;
 return
-AddRangeInternal
+AddRangeAndSelectFramesAndNotifyListeners
 (
 aRange
 document
@@ -13127,7 +13127,7 @@ void
 Selection
 :
 :
-AddRangeInternal
+AddRangeAndSelectFramesAndNotifyListeners
 (
 nsRange
 &
