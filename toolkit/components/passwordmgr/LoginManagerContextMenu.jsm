@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -167,6 +167,7 @@ jsm
 /
 *
 *
+*
 Password
 manager
 object
@@ -178,7 +179,8 @@ menu
 .
 *
 /
-var
+this
+.
 LoginManagerContextMenu
 =
 {

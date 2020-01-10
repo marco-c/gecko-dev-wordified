@@ -3112,7 +3112,7 @@ end
 of
 LoginManager
 implementation
-var
+const
 EXPORTED_SYMBOLS
 =
 [

@@ -95,7 +95,7 @@ use
 strict
 "
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -200,7 +200,8 @@ LoginFormFactory
 }
 )
 ;
-var
+this
+.
 LoginFormFactory
 =
 {

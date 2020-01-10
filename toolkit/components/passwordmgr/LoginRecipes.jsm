@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -1392,7 +1392,8 @@ hostRecipes
 }
 }
 ;
-var
+this
+.
 LoginRecipesContent
 =
 {

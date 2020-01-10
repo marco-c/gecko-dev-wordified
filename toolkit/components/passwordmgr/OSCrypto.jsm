@@ -122,7 +122,7 @@ jsm
 "
 )
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -131,7 +131,8 @@ OSCrypto
 "
 ]
 ;
-var
+this
+.
 OSCrypto
 =
 {

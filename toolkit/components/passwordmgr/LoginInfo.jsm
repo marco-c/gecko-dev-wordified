@@ -489,7 +489,7 @@ end
 of
 nsLoginInfo
 implementation
-var
+const
 EXPORTED_SYMBOLS
 =
 [

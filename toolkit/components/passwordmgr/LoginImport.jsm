@@ -134,7 +134,7 @@ use
 strict
 "
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -274,7 +274,8 @@ database
 .
 *
 /
-var
+this
+.
 LoginImport
 =
 function

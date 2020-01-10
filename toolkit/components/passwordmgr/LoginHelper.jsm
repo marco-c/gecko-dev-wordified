@@ -106,7 +106,7 @@ use
 strict
 "
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -181,7 +181,8 @@ components
 .
 *
 /
-var
+this
+.
 LoginHelper
 =
 {

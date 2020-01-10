@@ -20,7 +20,7 @@ strict
 /
 /
 Globals
-var
+const
 {
 XPCOMUtils
 }
@@ -44,7 +44,7 @@ jsm
 "
 )
 ;
-var
+const
 {
 Services
 }
@@ -68,7 +68,7 @@ jsm
 "
 )
 ;
-var
+const
 {
 LoginRecipesContent
 LoginRecipesParent
@@ -93,7 +93,7 @@ jsm
 "
 )
 ;
-var
+const
 {
 LoginHelper
 }
@@ -117,7 +117,7 @@ jsm
 "
 )
 ;
-var
+const
 {
 FileTestUtils
 }
@@ -141,7 +141,7 @@ jsm
 "
 )
 ;
-var
+const
 {
 LoginTestUtils
 }
@@ -165,7 +165,7 @@ jsm
 "
 )
 ;
-var
+const
 {
 MockDocument
 }

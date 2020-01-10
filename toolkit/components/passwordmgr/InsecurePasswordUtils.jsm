@@ -82,7 +82,7 @@ use
 ownerGlobal
 *
 /
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -267,7 +267,8 @@ security
 *
 *
 /
-var
+this
+.
 InsecurePasswordUtils
 =
 {

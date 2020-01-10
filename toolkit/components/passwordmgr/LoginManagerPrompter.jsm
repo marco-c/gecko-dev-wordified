@@ -162,6 +162,9 @@ block
 scoped
 -
 var
+no
+-
+var
 *
 /
 ChromeUtils
@@ -10752,7 +10755,7 @@ logger
 }
 )
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [

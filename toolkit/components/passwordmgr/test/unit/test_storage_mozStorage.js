@@ -22,6 +22,16 @@ usage
 .
 *
 /
+/
+*
+eslint
+-
+disable
+no
+-
+var
+*
+/
 const
 ENCTYPE_BASE64
 =

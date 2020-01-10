@@ -290,7 +290,7 @@ includeOtherSubdomainsInLookup
 false
 )
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -299,7 +299,8 @@ LoginManagerParent
 "
 ]
 ;
-var
+this
+.
 LoginManagerParent
 =
 {
@@ -1643,7 +1644,7 @@ support
 structured
 cloning
 .
-var
+let
 jsLogins
 =
 LoginHelper
@@ -2086,7 +2087,7 @@ support
 structured
 cloning
 .
-var
+let
 jsLogins
 =
 LoginHelper
@@ -2308,7 +2309,7 @@ getPrompter
 (
 )
 {
-var
+let
 prompterSvc
 =
 Cc
@@ -2554,7 +2555,7 @@ hostname
 return
 ;
 }
-var
+let
 formLogin
 =
 Cc
@@ -2827,7 +2828,7 @@ length
 1
 )
 {
-var
+let
 oldLogin
 =
 logins
@@ -2980,7 +2981,7 @@ formLogin
 return
 ;
 }
-var
+let
 existingLogin
 =
 null
@@ -3069,7 +3070,7 @@ formLogin
 username
 )
 {
-var
+let
 restoreMe
 =
 formLogin
