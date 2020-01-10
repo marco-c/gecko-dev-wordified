@@ -6425,7 +6425,6 @@ Input
 bytes
 bufferInfo
 nullptr
-0
 )
 ;
 return
