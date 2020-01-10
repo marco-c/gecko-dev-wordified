@@ -253,6 +253,10 @@ null
 executionPoint
 :
 undefined
+cssSelectors
+:
+"
+"
 userProvidedStyles
 :
 null
