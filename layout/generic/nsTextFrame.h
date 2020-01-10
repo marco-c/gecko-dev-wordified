@@ -2864,6 +2864,9 @@ textPaintStyle
 =
 nullptr
 ;
+Range
+glyphRange
+;
 explicit
 PaintTextSelectionParams
 (
@@ -3005,6 +3008,9 @@ nscolor
 decorationOverrideColor
 =
 nullptr
+;
+Range
+glyphRange
 ;
 explicit
 DrawTextParams
