@@ -889,7 +889,7 @@ promiseShutdownManager
 Test
 that
 a
-block
+blocking
 listener
 that
 uses
