@@ -1153,7 +1153,6 @@ tabs
 ;
 ok
 (
-(
 await
 checkObjectValue
 (
@@ -1165,7 +1164,6 @@ tabs
 ]
 .
 linkedBrowser
-)
 )
 "
 same
@@ -1284,7 +1282,6 @@ tabs
 ;
 ok
 (
-(
 await
 checkObjectValue
 (
@@ -1296,7 +1293,6 @@ tabs
 ]
 .
 linkedBrowser
-)
 )
 "
 same

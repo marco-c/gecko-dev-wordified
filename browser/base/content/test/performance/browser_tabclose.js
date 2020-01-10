@@ -301,7 +301,6 @@ r
 =
 >
 !
-(
 /
 /
 We
@@ -315,6 +314,7 @@ the
 tab
 strip
 .
+(
 r
 .
 y1
@@ -355,7 +355,6 @@ tabStripRect
 right
 &
 &
-(
 /
 /
 The
@@ -415,6 +414,7 @@ starts
 its
 animation
 .
+(
 (
 r
 .

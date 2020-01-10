@@ -1130,6 +1130,7 @@ if
 (
 val
 )
+{
 this
 .
 setAttribute
@@ -1142,7 +1143,9 @@ true
 "
 )
 ;
+}
 else
+{
 this
 .
 removeAttribute
@@ -1152,6 +1155,7 @@ selected
 "
 )
 ;
+}
 /
 /
 If
@@ -1502,9 +1506,11 @@ busy
 "
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 this
@@ -1516,9 +1522,11 @@ customizemode
 "
 )
 )
+{
 return
 false
 ;
+}
 let
 browser
 =
@@ -1538,9 +1546,11 @@ currentURI
 spec
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -1549,9 +1559,11 @@ checkEmptyPageOrigin
 browser
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 browser
@@ -1563,9 +1575,11 @@ browser
 .
 canGoBack
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -1648,6 +1662,8 @@ this
 overlayIcon
 ;
 return
+(
+(
 soundPlayingIcon
 &
 &
@@ -1659,6 +1675,7 @@ matches
 :
 hover
 "
+)
 )
 |
 |
@@ -1678,6 +1695,7 @@ hover
 &
 &
 iconVisible
+)
 )
 ;
 }
@@ -1841,7 +1859,6 @@ selected
 ?
 Infinity
 :
-(
 aDate
 |
 |
@@ -1849,7 +1866,6 @@ Date
 .
 now
 (
-)
 )
 ;
 }

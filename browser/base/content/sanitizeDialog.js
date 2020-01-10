@@ -718,8 +718,10 @@ this
 .
 _inited
 )
+{
 return
 ;
+}
 var
 warningBox
 =
@@ -1715,9 +1717,11 @@ pref
 .
 value
 )
+{
 return
 true
 ;
+}
 }
 return
 false

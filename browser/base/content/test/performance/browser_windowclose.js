@@ -389,7 +389,6 @@ r
 =
 >
 !
-(
 /
 /
 The
@@ -463,7 +462,6 @@ y2
 dropmarkerRect
 .
 bottom
-)
 )
 )
 }

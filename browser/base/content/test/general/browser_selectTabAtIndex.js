@@ -116,6 +116,7 @@ n
 +
 +
 )
+{
 BrowserTestUtils
 .
 addTab
@@ -123,6 +124,7 @@ addTab
 gBrowser
 )
 ;
+}
 }
 function
 testKey
@@ -481,6 +483,7 @@ n
 -
 -
 )
+{
 gBrowser
 .
 removeTab
@@ -495,6 +498,7 @@ true
 }
 )
 ;
+}
 is
 (
 gBrowser

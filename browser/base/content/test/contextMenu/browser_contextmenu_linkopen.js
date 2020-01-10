@@ -145,9 +145,7 @@ false
 closeMethod
 =
 async
-(
 tab
-)
 =
 >
 BrowserTestUtils
@@ -218,9 +216,7 @@ win
 closeMethod
 =
 async
-(
 win
-)
 =
 >
 BrowserTestUtils
@@ -295,9 +291,7 @@ win
 closeMethod
 =
 async
-(
 win
-)
 =
 >
 BrowserTestUtils

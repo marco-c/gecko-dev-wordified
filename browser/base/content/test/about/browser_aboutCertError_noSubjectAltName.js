@@ -269,9 +269,7 @@ innerHTML
 const
 checkCorrectMessages
 =
-(
 message
-)
 =
 >
 {

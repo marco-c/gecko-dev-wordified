@@ -1497,9 +1497,11 @@ has
 c
 )
 )
+{
 return
 true
 ;
+}
 whitelist
 [
 scriptType

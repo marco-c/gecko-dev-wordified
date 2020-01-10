@@ -940,7 +940,7 @@ double
 -
 quote
 "
-"
+'
 Double
 -
 quoted
@@ -954,13 +954,11 @@ u201cfoo
 u201d
 instead
 of
-\
 "
 foo
-\
 "
 .
-"
+'
 )
 ;
 testForError

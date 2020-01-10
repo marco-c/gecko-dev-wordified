@@ -200,6 +200,7 @@ removeCurrentTab
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -209,6 +210,7 @@ BrowserTestUtils
 addTab
 (
 gBrowser
+)
 )
 ;
 /
@@ -502,10 +504,12 @@ if
 !
 aFinalURL
 )
+{
 aFinalURL
 =
 aURL
 ;
+}
 info
 (
 "

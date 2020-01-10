@@ -182,11 +182,9 @@ Assert
 .
 deepEqual
 (
-(
 await
 getMediaCaptureState
 (
-)
 )
 {
 audio
@@ -504,9 +502,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

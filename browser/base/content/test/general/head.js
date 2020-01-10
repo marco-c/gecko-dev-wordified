@@ -379,10 +379,12 @@ if
 !
 aBrowserWin
 )
+{
 aBrowserWin
 =
 window
 ;
+}
 aBrowserWin
 .
 gCustomizeMode
@@ -649,9 +651,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -773,9 +773,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -878,12 +876,14 @@ name
 =
 pluginName
 )
+{
 return
 tags
 [
 i
 ]
 ;
+}
 }
 ok
 (
@@ -1000,9 +1000,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 aPrefs
 }
@@ -1122,6 +1120,7 @@ if
 !
 _originalTestBlocklistURL
 )
+{
 _originalTestBlocklistURL
 =
 Services
@@ -1139,6 +1138,7 @@ url
 "
 )
 ;
+}
 Services
 .
 prefs
@@ -1495,6 +1495,7 @@ if
 !
 tab
 )
+{
 throw
 new
 Error
@@ -1508,6 +1509,7 @@ given
 "
 )
 ;
+}
 if
 (
 gBrowser
@@ -1517,6 +1519,7 @@ selectedTab
 =
 tab
 )
+{
 return
 Promise
 .
@@ -1524,6 +1527,7 @@ resolve
 (
 )
 ;
+}
 return
 Promise
 .
@@ -1584,6 +1588,7 @@ if
 (
 selected
 )
+{
 return
 this
 .
@@ -1591,6 +1596,7 @@ waitForLocationChange
 (
 )
 ;
+}
 return
 Promise
 .
@@ -1704,10 +1710,12 @@ if
 (
 didZoom
 )
+{
 resolve
 (
 )
 ;
+}
 }
 true
 )
@@ -1732,10 +1740,12 @@ if
 (
 didLoad
 )
+{
 resolve
 (
 )
 ;
+}
 }
 )
 ;
@@ -1899,10 +1909,12 @@ if
 (
 didZoom
 )
+{
 resolve
 (
 )
 ;
+}
 }
 )
 ;
@@ -1915,12 +1927,14 @@ this
 .
 BACK
 )
+{
 gBrowser
 .
 goBack
 (
 )
 ;
+}
 else
 if
 (
@@ -1931,12 +1945,14 @@ this
 .
 FORWARD
 )
+{
 gBrowser
 .
 goForward
 (
 )
 ;
+}
 this
 .
 waitForLocationChange
@@ -1957,10 +1973,12 @@ if
 (
 didPs
 )
+{
 resolve
 (
 )
 ;
+}
 }
 )
 ;
@@ -2186,6 +2204,7 @@ if
 (
 url
 )
+{
 BrowserTestUtils
 .
 loadURI
@@ -2196,6 +2215,7 @@ linkedBrowser
 url
 )
 ;
+}
 return
 loaded
 ;
@@ -2319,9 +2339,11 @@ display
 none
 "
 )
+{
 return
 true
 ;
+}
 if
 (
 style
@@ -2333,9 +2355,11 @@ visibility
 visible
 "
 )
+{
 return
 true
 ;
+}
 if
 (
 style
@@ -2350,6 +2374,7 @@ moz
 popup
 "
 )
+{
 return
 [
 "
@@ -2367,6 +2392,7 @@ element
 state
 )
 ;
+}
 /
 /
 Hiding
@@ -2389,6 +2415,7 @@ element
 .
 ownerDocument
 )
+{
 return
 is_hidden
 (
@@ -2397,6 +2424,7 @@ element
 parentNode
 )
 ;
+}
 return
 false
 ;

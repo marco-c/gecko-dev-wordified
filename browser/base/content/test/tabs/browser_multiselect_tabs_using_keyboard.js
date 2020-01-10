@@ -939,6 +939,7 @@ waitForCondition
 >
 {
 return
+(
 tab4
 .
 previousElementSibling
@@ -953,6 +954,7 @@ nextElementSibling
 =
 =
 tab3
+)
 ;
 }
 "

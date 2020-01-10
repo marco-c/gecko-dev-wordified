@@ -283,6 +283,7 @@ aElem
 )
 {
 return
+(
 aElem
 .
 tagName
@@ -306,6 +307,7 @@ role
 "
 button
 "
+)
 ;
 }
 /
@@ -346,9 +348,7 @@ _toolbarKeyNavWalker
 let
 filter
 =
-(
 aNode
-)
 =
 >
 {

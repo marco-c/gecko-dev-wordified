@@ -66,9 +66,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -632,6 +630,7 @@ if
 (
 pinTab
 )
+{
 gBrowser
 .
 pinTab
@@ -639,6 +638,7 @@ pinTab
 appTab
 )
 ;
+}
 gBrowser
 .
 selectedTab

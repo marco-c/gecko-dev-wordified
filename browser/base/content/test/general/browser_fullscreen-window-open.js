@@ -39,7 +39,6 @@ block_toplevel_data_uri_navigations
 const
 isOSX
 =
-(
 Services
 .
 appinfo
@@ -51,7 +50,6 @@ OS
 "
 Darwin
 "
-)
 ;
 const
 TEST_FILE

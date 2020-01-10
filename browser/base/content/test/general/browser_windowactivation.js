@@ -229,11 +229,13 @@ Promise
 resolve
 =
 >
+(
 testFinished
 .
 resolve
 =
 resolve
+)
 )
 ;
 /

@@ -281,6 +281,7 @@ if
 (
 element
 )
+{
 element
 .
 setAttribute
@@ -293,6 +294,7 @@ true
 "
 )
 ;
+}
 }
 /
 /
@@ -337,6 +339,7 @@ if
 (
 element
 )
+{
 element
 .
 removeAttribute
@@ -346,6 +349,7 @@ hidden
 "
 )
 ;
+}
 }
 /
 /
@@ -438,6 +442,7 @@ if
 (
 element
 )
+{
 element
 .
 setAttribute
@@ -450,6 +455,7 @@ true
 "
 )
 ;
+}
 }
 /
 /

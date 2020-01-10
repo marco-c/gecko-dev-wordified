@@ -248,6 +248,7 @@ this
 fxaStrings
 ;
 return
+(
 this
 .
 fxaStrings
@@ -271,6 +272,7 @@ accounts
 .
 properties
 "
+)
 )
 ;
 }
@@ -316,6 +318,7 @@ make
 it
 work
 return
+(
 this
 .
 syncStrings
@@ -339,6 +342,7 @@ sync
 .
 properties
 "
+)
 )
 ;
 }
@@ -405,6 +409,7 @@ sendTabConfiguredAndLoading
 )
 {
 return
+(
 UIState
 .
 get
@@ -434,6 +439,7 @@ Service
 clientsEngine
 .
 hasSyncedThisSession
+)
 )
 ;
 }
@@ -599,6 +605,7 @@ prop
 ]
 ;
 return
+(
 this
 [
 prop
@@ -616,6 +623,7 @@ fxa
 "
 +
 suffix
+)
 )
 ;
 }
@@ -2770,16 +2778,12 @@ let
 extraOptions
 =
 {
-"
 fxa_status
-"
 :
 state
 .
 status
-"
 fxa_avatar
-"
 :
 hasAvatar
 ?
@@ -3371,14 +3375,12 @@ boxId
 .
 hidden
 =
-(
 status
 !
 =
 state
 .
 status
-)
 ;
 }
 }
@@ -4501,7 +4503,6 @@ createDeviceNodeFn
 )
 ;
 }
-else
 /
 *
 status
@@ -4509,6 +4510,7 @@ is
 STATUS_NOT_CONFIGURED
 *
 /
+else
 {
 this
 .
@@ -4627,9 +4629,7 @@ title
 const
 onSendAllCommand
 =
-(
 event
-)
 =
 >
 {
@@ -4660,9 +4660,7 @@ title
 const
 onTargetDeviceCommand
 =
-(
 event
-)
 =
 >
 {
@@ -6265,9 +6263,7 @@ syncElements
 .
 forEach
 (
-(
 el
-)
 =
 >
 {
@@ -6335,8 +6331,10 @@ if
 !
 gBrowser
 )
+{
 return
 ;
+}
 let
 label
 =
@@ -6391,9 +6389,7 @@ syncElements
 .
 forEach
 (
-(
 el
-)
 =
 >
 {
@@ -7297,6 +7293,7 @@ this
 relativeTimeFormat
 ;
 return
+(
 this
 .
 relativeTimeFormat
@@ -7316,6 +7313,7 @@ style
 long
 "
 }
+)
 )
 ;
 }

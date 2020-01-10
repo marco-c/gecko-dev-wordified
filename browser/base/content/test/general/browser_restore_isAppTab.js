@@ -325,8 +325,10 @@ browser
 .
 isRemoteBrowser
 )
+{
 return
 ;
+}
 /
 /
 Make

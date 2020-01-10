@@ -576,11 +576,13 @@ checkboxChecked
 )
 =
 >
+(
 this
 .
 mainActionChecked
 =
 checkboxChecked
+)
 ;
 this
 .
@@ -770,11 +772,13 @@ checkboxChecked
 )
 =
 >
+(
 this
 .
 secondaryActionChecked
 =
 checkboxChecked
+)
 }
 ]
 ;

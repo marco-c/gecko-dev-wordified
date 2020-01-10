@@ -346,7 +346,6 @@ r
 =
 >
 !
-(
 /
 /
 We
@@ -361,6 +360,7 @@ the
 active
 state
 .
+(
 r
 .
 y1
@@ -399,6 +399,7 @@ x2
 menuButtonRect
 .
 right
+)
 /
 /
 XXX
@@ -427,7 +428,6 @@ expect
 many
 changes
 .
-)
 )
 exceptions
 :

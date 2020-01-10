@@ -1012,6 +1012,7 @@ if
 (
 notification
 )
+{
 box
 .
 removeNotification
@@ -1019,6 +1020,7 @@ removeNotification
 notification
 )
 ;
+}
 }
 )
 ;
@@ -2022,15 +2024,13 @@ ReportId
 if
 (
 !
-(
 /
 ^
 \
 w
 +
 /
-mi
-)
+im
 .
 test
 (
@@ -2622,6 +2622,8 @@ params
 =
 new
 URLSearchParams
+(
+)
 ;
 params
 .

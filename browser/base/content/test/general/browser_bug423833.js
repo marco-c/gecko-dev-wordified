@@ -217,6 +217,7 @@ location
 =
 invalidPage
 )
+{
 /
 /
 The
@@ -229,6 +230,7 @@ loaded
 yet
 return
 ;
+}
 gBrowser
 .
 selectedBrowser
@@ -335,6 +337,7 @@ href
 =
 testPage
 )
+{
 /
 /
 This
@@ -349,6 +352,7 @@ page
 loading
 return
 ;
+}
 /
 /
 We
@@ -454,6 +458,7 @@ location
 =
 invalidPage
 )
+{
 /
 /
 The
@@ -466,6 +471,7 @@ loaded
 yet
 return
 ;
+}
 gBrowser
 .
 removeEventListener
@@ -632,6 +638,7 @@ about
 blank
 "
 )
+{
 /
 /
 Wait
@@ -639,6 +646,7 @@ another
 cycle
 return
 ;
+}
 clearInterval
 (
 intervalID
@@ -788,10 +796,12 @@ aTopic
 domwindowopened
 "
 )
+{
 test3window
 =
 aSubject
 ;
+}
 Services
 .
 ww

@@ -50,9 +50,7 @@ gBrowser
 .
 selectedBrowser
 false
-(
 url
-)
 =
 >
 url

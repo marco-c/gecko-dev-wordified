@@ -303,6 +303,7 @@ u
 )
 ;
 return
+(
 this
 .
 pageData
@@ -349,6 +350,7 @@ URLMatch
 "
 "
 }
+)
 ;
 }
 init
@@ -361,9 +363,7 @@ MESSAGES
 .
 forEach
 (
-(
 msg
-)
 =
 >
 RPMAddMessageListener
@@ -537,9 +537,7 @@ CLICK_TARGETS
 .
 forEach
 (
-(
 targetID
-)
 =
 >
 {

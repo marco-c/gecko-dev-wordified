@@ -394,12 +394,14 @@ pass
 =
 undefined
 )
+{
 testCase
 .
 pass
 =
 true
 ;
+}
 testCase
 .
 title
@@ -616,7 +618,6 @@ testCase
 .
 count
 ?
-(
 browser
 .
 engines
@@ -642,9 +643,7 @@ length
 testCase
 .
 count
-)
 :
-(
 browser
 .
 engines
@@ -658,7 +657,6 @@ title
 testCase
 .
 title
-)
 ;
 ok
 (

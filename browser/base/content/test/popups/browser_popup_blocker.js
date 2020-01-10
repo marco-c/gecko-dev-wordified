@@ -440,6 +440,7 @@ waitForCondition
 )
 =
 >
+(
 notification
 =
 gBrowser
@@ -455,6 +456,7 @@ popup
 -
 blocked
 "
+)
 )
 )
 ;

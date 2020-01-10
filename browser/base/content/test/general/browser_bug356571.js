@@ -127,11 +127,13 @@ aOuter
 =
 null
 )
+{
 throw
 Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;
+}
 return
 promptService
 .
@@ -305,8 +307,10 @@ kURIs
 .
 length
 )
+{
 return
 ;
+}
 /
 /
 Check
@@ -531,6 +535,7 @@ i
 -
 -
 )
+{
 gBrowser
 .
 removeTab
@@ -543,6 +548,7 @@ i
 ]
 )
 ;
+}
 finish
 (
 )

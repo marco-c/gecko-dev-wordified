@@ -106,6 +106,7 @@ true
 let
 tab
 =
+(
 win
 .
 gBrowser
@@ -124,6 +125,7 @@ about
 :
 addons
 "
+)
 )
 ;
 await

@@ -396,6 +396,7 @@ has
 browser
 )
 )
+{
 this
 .
 _delayedCapture
@@ -403,6 +404,7 @@ _delayedCapture
 browser
 )
 ;
+}
 break
 ;
 case
@@ -602,6 +604,7 @@ nsIWebProgressListener
 .
 STATE_IS_NETWORK
 )
+{
 this
 .
 _delayedCapture
@@ -609,6 +612,7 @@ _delayedCapture
 aBrowser
 )
 ;
+}
 }
 async
 _capture
@@ -654,8 +658,10 @@ currentURI
 spec
 )
 )
+{
 return
 ;
+}
 this
 .
 _shouldCapture
@@ -1220,6 +1226,7 @@ if
 (
 link
 )
+{
 urls
 .
 push
@@ -1229,6 +1236,7 @@ link
 url
 )
 ;
+}
 return
 urls
 ;

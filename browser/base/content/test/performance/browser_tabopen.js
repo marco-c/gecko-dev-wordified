@@ -385,7 +385,6 @@ r
 =
 >
 !
-(
 /
 /
 We
@@ -399,6 +398,7 @@ the
 tab
 strip
 .
+(
 r
 .
 y1
@@ -439,7 +439,6 @@ tabStripRect
 right
 &
 &
-(
 /
 /
 The
@@ -477,6 +476,7 @@ but
 is
 wider
 .
+(
 (
 inRange
 (

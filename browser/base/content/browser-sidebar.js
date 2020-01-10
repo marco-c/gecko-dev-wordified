@@ -94,6 +94,7 @@ _sidebars
 ;
 }
 return
+(
 this
 .
 _sidebars
@@ -297,6 +298,7 @@ sidebar
 ]
 ]
 )
+)
 ;
 }
 /
@@ -339,12 +341,15 @@ this
 .
 _browser
 )
+{
 return
 this
 .
 _browser
 ;
+}
 return
+(
 this
 .
 _browser
@@ -356,6 +361,7 @@ getElementById
 "
 sidebar
 "
+)
 )
 ;
 }
@@ -447,12 +453,15 @@ this
 .
 __title
 )
+{
 return
 this
 .
 __title
 ;
+}
 return
+(
 this
 .
 __title
@@ -466,6 +475,7 @@ sidebar
 -
 title
 "
+)
 )
 ;
 }
@@ -1888,6 +1898,7 @@ w2
 )
 {
 return
+(
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -1902,6 +1913,7 @@ PrivateBrowsingUtils
 isWindowPrivate
 (
 w2
+)
 )
 ;
 }

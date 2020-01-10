@@ -203,11 +203,7 @@ EventStore
 prototype
 =
 {
-"
 push
-"
-:
-function
 (
 event
 )
@@ -529,7 +525,6 @@ target
 )
 {
 return
-(
 String
 (
 target
@@ -542,7 +537,6 @@ includes
 "
 1
 "
-)
 )
 ?
 "
@@ -591,6 +585,7 @@ Ci
 .
 nsIDOMWindow
 )
+{
 id
 =
 getWindowDocId
@@ -605,6 +600,7 @@ originalTarget
 window
 "
 ;
+}
 else
 if
 (
@@ -621,6 +617,7 @@ target
 .
 DOCUMENT_NODE
 )
+{
 id
 =
 getWindowDocId
@@ -635,7 +632,9 @@ originalTarget
 document
 "
 ;
+}
 else
+{
 id
 =
 event
@@ -644,6 +643,7 @@ originalTarget
 .
 id
 ;
+}
 sendSyncMessage
 (
 "
@@ -1016,7 +1016,6 @@ type
 let
 browser
 =
-(
 elementid
 .
 includes
@@ -1024,7 +1023,6 @@ includes
 "
 1
 "
-)
 )
 ?
 browser1
@@ -3205,6 +3203,7 @@ target
 instanceof
 Window
 )
+{
 id
 =
 getWindowDocId
@@ -3219,6 +3218,7 @@ originalTarget
 window
 "
 ;
+}
 else
 if
 (
@@ -3228,6 +3228,7 @@ target
 instanceof
 Document
 )
+{
 id
 =
 getWindowDocId
@@ -3242,6 +3243,7 @@ originalTarget
 document
 "
 ;
+}
 else
 if
 (
@@ -3268,12 +3270,14 @@ localName
 input
 "
 )
+{
 id
 =
 "
 urlbar
 "
 ;
+}
 else
 if
 (
@@ -3288,16 +3292,15 @@ localName
 browser
 "
 )
+{
 id
 =
-(
 event
 .
 originalTarget
 =
 =
 browser1
-)
 ?
 "
 browser1
@@ -3307,6 +3310,7 @@ browser1
 browser2
 "
 ;
+}
 else
 if
 (
@@ -3321,16 +3325,15 @@ localName
 tab
 "
 )
+{
 id
 =
-(
 event
 .
 originalTarget
 =
 =
 tab1
-)
 ?
 "
 tab1
@@ -3340,7 +3343,9 @@ tab1
 tab2
 "
 ;
+}
 else
+{
 id
 =
 event
@@ -3349,6 +3354,7 @@ originalTarget
 .
 id
 ;
+}
 actualEvents
 .
 push
@@ -3440,7 +3446,6 @@ tab2
 ;
 }
 return
-(
 element
 .
 localName
@@ -3449,7 +3454,6 @@ localName
 "
 input
 "
-)
 ?
 "
 urlbar
@@ -3470,8 +3474,10 @@ if
 !
 currentPromiseResolver
 )
+{
 return
 ;
+}
 let
 winIds
 =
@@ -3513,8 +3519,10 @@ winId
 .
 length
 )
+{
 return
 ;
+}
 }
 for
 (
@@ -3650,7 +3658,6 @@ window
 {
 matchWindow
 =
-(
 _expectedWindow
 =
 =
@@ -3665,7 +3672,6 @@ contentWindow
 browser2
 .
 contentWindow
-)
 ;
 }
 var
@@ -4081,7 +4087,6 @@ browserid
 var
 newElementIsFocused
 =
-(
 expectedElement
 &
 &
@@ -4093,7 +4098,6 @@ startsWith
 "
 html
 "
-)
 )
 ;
 if
@@ -4171,6 +4175,7 @@ _lastfocus
 =
 _expectedElement
 )
+{
 expectedEvents
 .
 push
@@ -4183,6 +4188,7 @@ blur
 _lastfocus
 )
 ;
+}
 if
 (
 _lastfocuswindow

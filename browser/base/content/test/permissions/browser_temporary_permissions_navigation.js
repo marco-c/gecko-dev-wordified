@@ -945,6 +945,7 @@ browser
 )
 =
 >
+(
 content
 .
 document
@@ -961,6 +962,7 @@ example
 org
 /
 "
+)
 )
 ;
 await
@@ -1040,6 +1042,7 @@ browser
 )
 =
 >
+(
 content
 .
 document
@@ -1056,6 +1059,7 @@ example
 com
 /
 "
+)
 )
 ;
 await

@@ -228,6 +228,7 @@ menubar
 .
 children
 )
+{
 childNode
 .
 setAttribute
@@ -238,6 +239,7 @@ disabled
 true
 )
 ;
+}
 let
 cmd
 =
@@ -381,6 +383,7 @@ menubar
 .
 children
 )
+{
 childNode
 .
 setAttribute
@@ -391,6 +394,7 @@ disabled
 false
 )
 ;
+}
 let
 cmd
 =
@@ -444,6 +448,7 @@ this
 _node
 ;
 return
+(
 this
 .
 _node
@@ -457,6 +462,7 @@ toolbar
 -
 menubar
 "
+)
 )
 ;
 }
@@ -926,12 +932,14 @@ _contextMenuListener
 .
 active
 )
+{
 this
 .
 _setInactiveAsync
 (
 )
 ;
+}
 break
 ;
 }

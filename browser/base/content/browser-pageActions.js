@@ -89,6 +89,7 @@ this
 mainButtonNode
 ;
 return
+(
 this
 .
 mainButtonNode
@@ -100,6 +101,7 @@ getElementById
 "
 pageActionButton
 "
+)
 )
 ;
 }
@@ -131,6 +133,7 @@ this
 panelNode
 ;
 return
+(
 this
 .
 panelNode
@@ -142,6 +145,7 @@ getElementById
 "
 pageActionPanel
 "
+)
 )
 ;
 }
@@ -175,6 +179,7 @@ this
 multiViewNode
 ;
 return
+(
 this
 .
 multiViewNode
@@ -186,6 +191,7 @@ getElementById
 "
 pageActionPanelMultiView
 "
+)
 )
 ;
 }
@@ -220,6 +226,7 @@ this
 mainViewNode
 ;
 return
+(
 this
 .
 mainViewNode
@@ -231,6 +238,7 @@ getElementById
 "
 pageActionPanelMainView
 "
+)
 )
 ;
 }
@@ -264,6 +272,7 @@ this
 mainViewBodyNode
 ;
 return
+(
 this
 .
 mainViewBodyNode
@@ -282,6 +291,7 @@ subview
 -
 body
 "
+)
 )
 ;
 }
@@ -7085,6 +7095,7 @@ properties
 "
 ;
 return
+(
 this
 .
 strings
@@ -7096,6 +7107,7 @@ strings
 createBundle
 (
 uri
+)
 )
 ;
 }

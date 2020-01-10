@@ -220,9 +220,7 @@ withNewTab
 (
 uri
 async
-(
 browser
-)
 =
 >
 {
@@ -1186,9 +1184,7 @@ com
 /
 "
 async
-(
 browser
-)
 =
 >
 {

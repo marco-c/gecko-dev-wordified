@@ -226,9 +226,11 @@ y2
 100
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 Services
@@ -274,9 +276,11 @@ h
 33
 )
 )
+{
 return
 true
 ;
+}
 return
 false
 ;
@@ -671,12 +675,14 @@ getBoundingClientRect
 ;
 return
 (
+(
 !
 AppConstants
 .
 DEBUG
 |
 |
+(
 AppConstants
 .
 platform
@@ -690,6 +696,7 @@ linux
 AppConstants
 .
 ASAN
+)
 )
 &
 &
@@ -731,6 +738,7 @@ y2
 inputFieldRect
 .
 bottom
+)
 ;
 }
 }

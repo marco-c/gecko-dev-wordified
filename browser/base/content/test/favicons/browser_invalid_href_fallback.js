@@ -95,9 +95,7 @@ blank
 "
 }
 async
-(
 browser
-)
 =
 >
 {

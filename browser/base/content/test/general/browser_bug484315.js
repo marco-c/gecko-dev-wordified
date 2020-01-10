@@ -103,12 +103,14 @@ win
 .
 closed
 )
+{
 win
 .
 close
 (
 )
 ;
+}
 if
 (
 Services
@@ -126,6 +128,7 @@ closeWindowWithLastTab
 "
 )
 )
+{
 Services
 .
 prefs
@@ -141,6 +144,7 @@ closeWindowWithLastTab
 "
 )
 ;
+}
 return
 ;
 }

@@ -482,7 +482,6 @@ id
 let
 expectedVisibility
 =
-(
 testcase
 .
 getAttribute
@@ -496,7 +495,6 @@ shouldshow
 "
 true
 "
-)
 ;
 Assert
 .

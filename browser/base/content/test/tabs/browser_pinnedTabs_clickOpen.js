@@ -158,7 +158,7 @@ test_pinned_content_click
 let
 testUri
 =
-"
+'
 data
 :
 text
@@ -174,7 +174,6 @@ utf
 a
 href
 =
-\
 "
 http
 :
@@ -186,21 +185,16 @@ test
 :
 8888
 /
-\
 "
 target
 =
-\
 "
 _blank
-\
 "
 id
 =
-\
 "
 link
-\
 "
 >
 link
@@ -208,7 +202,7 @@ link
 /
 a
 >
-"
+'
 ;
 let
 tabs

@@ -2273,6 +2273,7 @@ if
 (
 notification
 )
+{
 PopupNotifications
 .
 remove
@@ -2280,6 +2281,7 @@ remove
 notification
 )
 ;
+}
 }
 contextMenuCommand
 (

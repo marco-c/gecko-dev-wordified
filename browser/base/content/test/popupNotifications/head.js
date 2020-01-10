@@ -1027,6 +1027,7 @@ entries
 options
 )
 )
+{
 this
 .
 options
@@ -1036,6 +1037,7 @@ name
 =
 value
 ;
+}
 }
 ;
 function
@@ -1200,8 +1202,10 @@ if
 !
 notification
 )
+{
 return
 ;
+}
 let
 icon
 =
@@ -1788,8 +1792,10 @@ condition
 )
 )
 )
+{
 return
 ;
+}
 PopupNotifications
 .
 panel

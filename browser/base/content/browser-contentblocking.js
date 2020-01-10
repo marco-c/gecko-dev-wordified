@@ -118,6 +118,7 @@ this
 subViewBlocked
 ;
 return
+(
 this
 .
 subViewBlocked
@@ -135,6 +136,7 @@ blocked
 .
 label
 "
+)
 )
 ;
 }
@@ -184,6 +186,7 @@ this
 categoryItem
 ;
 return
+(
 this
 .
 categoryItem
@@ -206,6 +209,7 @@ category
 fingerprinters
 "
 )
+)
 ;
 }
 get
@@ -219,6 +223,7 @@ this
 categoryLabel
 ;
 return
+(
 this
 .
 categoryLabel
@@ -243,6 +248,7 @@ state
 label
 "
 )
+)
 ;
 }
 get
@@ -256,6 +262,7 @@ this
 subViewList
 ;
 return
+(
 this
 .
 subViewList
@@ -273,6 +280,7 @@ fingerprintersView
 -
 list
 "
+)
 )
 ;
 }
@@ -356,6 +364,7 @@ state
 {
 return
 (
+(
 state
 &
 Ci
@@ -367,6 +376,7 @@ STATE_BLOCKED_FINGERPRINTING_CONTENT
 !
 =
 0
+)
 ;
 }
 isAllowing
@@ -375,6 +385,7 @@ state
 )
 {
 return
+(
 this
 .
 enabled
@@ -392,6 +403,7 @@ STATE_LOADED_FINGERPRINTING_CONTENT
 !
 =
 0
+)
 ;
 }
 isDetected
@@ -864,6 +876,7 @@ this
 subViewBlocked
 ;
 return
+(
 this
 .
 subViewBlocked
@@ -881,6 +894,7 @@ blocked
 .
 label
 "
+)
 )
 ;
 }
@@ -930,6 +944,7 @@ this
 categoryItem
 ;
 return
+(
 this
 .
 categoryItem
@@ -952,6 +967,7 @@ category
 cryptominers
 "
 )
+)
 ;
 }
 get
@@ -965,6 +981,7 @@ this
 categoryLabel
 ;
 return
+(
 this
 .
 categoryLabel
@@ -989,6 +1006,7 @@ state
 label
 "
 )
+)
 ;
 }
 get
@@ -1002,6 +1020,7 @@ this
 subViewList
 ;
 return
+(
 this
 .
 subViewList
@@ -1019,6 +1038,7 @@ cryptominersView
 -
 list
 "
+)
 )
 ;
 }
@@ -1102,6 +1122,7 @@ state
 {
 return
 (
+(
 state
 &
 Ci
@@ -1113,6 +1134,7 @@ STATE_BLOCKED_CRYPTOMINING_CONTENT
 !
 =
 0
+)
 ;
 }
 isAllowing
@@ -1121,6 +1143,7 @@ state
 )
 {
 return
+(
 this
 .
 enabled
@@ -1138,6 +1161,7 @@ STATE_LOADED_CRYPTOMINING_CONTENT
 !
 =
 0
+)
 ;
 }
 isDetected
@@ -1636,6 +1660,7 @@ this
 categoryItem
 ;
 return
+(
 this
 .
 categoryItem
@@ -1660,6 +1685,7 @@ tracking
 protection
 "
 )
+)
 ;
 }
 get
@@ -1673,6 +1699,7 @@ this
 categoryLabel
 ;
 return
+(
 this
 .
 categoryLabel
@@ -1699,6 +1726,7 @@ state
 label
 "
 )
+)
 ;
 }
 get
@@ -1712,6 +1740,7 @@ this
 subViewList
 ;
 return
+(
 this
 .
 subViewList
@@ -1730,6 +1759,7 @@ trackersView
 list
 "
 )
+)
 ;
 }
 get
@@ -1743,6 +1773,7 @@ this
 strictInfo
 ;
 return
+(
 this
 .
 strictInfo
@@ -1763,6 +1794,7 @@ strict
 info
 "
 )
+)
 ;
 }
 strings
@@ -1779,6 +1811,7 @@ this
 subViewBlocked
 ;
 return
+(
 this
 .
 subViewBlocked
@@ -1796,6 +1829,7 @@ blocked
 .
 label
 "
+)
 )
 ;
 }
@@ -1909,6 +1943,7 @@ enabled
 )
 {
 return
+(
 this
 .
 enabledGlobally
@@ -1925,6 +1960,7 @@ PrivateBrowsingUtils
 isWindowPrivate
 (
 window
+)
 )
 )
 ;
@@ -2050,6 +2086,7 @@ state
 {
 return
 (
+(
 state
 &
 Ci
@@ -2061,6 +2098,7 @@ STATE_BLOCKED_TRACKING_CONTENT
 !
 =
 0
+)
 ;
 }
 isAllowing
@@ -2069,6 +2107,7 @@ state
 )
 {
 return
+(
 (
 state
 &
@@ -2081,6 +2120,7 @@ STATE_LOADED_TRACKING_CONTENT
 !
 =
 0
+)
 ;
 }
 isDetected
@@ -3160,6 +3200,7 @@ this
 categoryItem
 ;
 return
+(
 this
 .
 categoryItem
@@ -3182,6 +3223,7 @@ category
 cookies
 "
 )
+)
 ;
 }
 get
@@ -3195,6 +3237,7 @@ this
 categoryLabel
 ;
 return
+(
 this
 .
 categoryLabel
@@ -3219,6 +3262,7 @@ state
 label
 "
 )
+)
 ;
 }
 get
@@ -3232,6 +3276,7 @@ this
 subViewList
 ;
 return
+(
 this
 .
 subViewList
@@ -3250,6 +3295,7 @@ cookiesView
 list
 "
 )
+)
 ;
 }
 strings
@@ -3266,6 +3312,7 @@ this
 subViewAllowed
 ;
 return
+(
 this
 .
 subViewAllowed
@@ -3284,6 +3331,7 @@ allowed
 label
 "
 )
+)
 ;
 }
 get
@@ -3297,6 +3345,7 @@ this
 subViewBlocked
 ;
 return
+(
 this
 .
 subViewBlocked
@@ -3314,6 +3363,7 @@ blocked
 .
 label
 "
+)
 )
 ;
 }
@@ -3697,6 +3747,7 @@ state
 {
 return
 (
+(
 state
 &
 Ci
@@ -3750,6 +3801,7 @@ STATE_COOKIES_BLOCKED_FOREIGN
 !
 =
 0
+)
 ;
 }
 isDetected
@@ -4137,6 +4189,7 @@ cookies
 "
 .
 return
+(
 Services
 .
 perms
@@ -4155,6 +4208,7 @@ Services
 perms
 .
 UNKNOWN_ACTION
+)
 ;
 }
 _clearException
@@ -5403,6 +5457,7 @@ this
 content
 ;
 return
+(
 this
 .
 content
@@ -5423,6 +5478,7 @@ blocking
 content
 "
 )
+)
 ;
 }
 get
@@ -5436,6 +5492,7 @@ this
 icon
 ;
 return
+(
 this
 .
 icon
@@ -5452,6 +5509,7 @@ protection
 icon
 "
 )
+)
 ;
 }
 get
@@ -5465,6 +5523,7 @@ this
 iconBox
 ;
 return
+(
 this
 .
 iconBox
@@ -5483,6 +5542,7 @@ icon
 box
 "
 )
+)
 ;
 }
 get
@@ -5496,6 +5556,7 @@ this
 animatedIcon
 ;
 return
+(
 this
 .
 animatedIcon
@@ -5516,6 +5577,7 @@ animatable
 image
 "
 )
+)
 ;
 }
 get
@@ -5529,6 +5591,7 @@ this
 identityPopupMultiView
 ;
 return
+(
 this
 .
 identityPopupMultiView
@@ -5545,6 +5608,7 @@ popup
 multiView
 "
 )
+)
 ;
 }
 get
@@ -5558,6 +5622,7 @@ this
 reportBreakageButton
 ;
 return
+(
 this
 .
 reportBreakageButton
@@ -5580,6 +5645,7 @@ report
 breakage
 "
 )
+)
 ;
 }
 get
@@ -5593,6 +5659,7 @@ this
 reportBreakageURL
 ;
 return
+(
 this
 .
 reportBreakageURL
@@ -5613,6 +5680,7 @@ collection
 url
 "
 )
+)
 ;
 }
 get
@@ -5626,6 +5694,7 @@ this
 reportBreakageLearnMore
 ;
 return
+(
 this
 .
 reportBreakageLearnMore
@@ -5646,6 +5715,7 @@ learn
 more
 "
 )
+)
 ;
 }
 get
@@ -5659,6 +5729,7 @@ this
 appMenuLabel
 ;
 return
+(
 this
 .
 appMenuLabel
@@ -5675,6 +5746,7 @@ tp
 label
 "
 )
+)
 ;
 }
 get
@@ -5688,6 +5760,7 @@ this
 identityPopup
 ;
 return
+(
 this
 .
 identityPopup
@@ -5702,6 +5775,7 @@ identity
 popup
 "
 )
+)
 ;
 }
 get
@@ -5715,6 +5789,7 @@ this
 protectionsPopup
 ;
 return
+(
 this
 .
 protectionsPopup
@@ -5728,6 +5803,7 @@ protections
 -
 popup
 "
+)
 )
 ;
 }
@@ -5745,6 +5821,7 @@ this
 appMenuTitle
 ;
 return
+(
 this
 .
 appMenuTitle
@@ -5758,6 +5835,7 @@ contentBlocking
 .
 title
 "
+)
 )
 ;
 }
@@ -5784,6 +5862,7 @@ win
 )
 {
 return
+(
 this
 .
 appMenuTooltip
@@ -5798,9 +5877,11 @@ contentBlocking
 tooltipWin
 "
 )
+)
 ;
 }
 return
+(
 this
 .
 appMenuTooltip
@@ -5815,6 +5896,7 @@ contentBlocking
 tooltipOther
 "
 )
+)
 ;
 }
 get
@@ -5828,6 +5910,7 @@ this
 activeTooltipText
 ;
 return
+(
 this
 .
 activeTooltipText
@@ -5844,6 +5927,7 @@ icon
 activeTooltip
 "
 )
+)
 ;
 }
 get
@@ -5857,6 +5941,7 @@ this
 disabledTooltipText
 ;
 return
+(
 this
 .
 disabledTooltipText
@@ -5872,6 +5957,7 @@ icon
 .
 disabledTooltip
 "
+)
 )
 ;
 }
@@ -6566,11 +6652,9 @@ category
 )
 {
 case
-(
 "
 standard
 "
-)
 :
 label
 =
@@ -6590,11 +6674,9 @@ standard
 break
 ;
 case
-(
 "
 strict
 "
-)
 :
 label
 =
@@ -6614,11 +6696,9 @@ strict
 break
 ;
 case
-(
 "
 custom
 "
-)
 :
 label
 =
@@ -8348,7 +8428,6 @@ delayFulfilled
 =
 delayLength
 <
-(
 Date
 .
 now
@@ -8358,7 +8437,6 @@ now
 1000
 -
 installStamp
-)
 ;
 if
 (

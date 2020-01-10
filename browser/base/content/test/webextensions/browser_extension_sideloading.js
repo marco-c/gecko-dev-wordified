@@ -2271,9 +2271,7 @@ expectedExtra
 const
 createBaseEventAddon
 =
-(
 n
-)
 =
 >
 (

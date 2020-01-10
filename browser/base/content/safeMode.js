@@ -273,8 +273,10 @@ retVals
 .
 reset
 )
+{
 return
 ;
+}
 resetProfile
 (
 )

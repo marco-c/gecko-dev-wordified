@@ -197,6 +197,7 @@ function
 let
 extraTab
 =
+(
 gBrowser
 .
 selectedTab
@@ -206,6 +207,7 @@ BrowserTestUtils
 addTab
 (
 gBrowser
+)
 )
 ;
 let

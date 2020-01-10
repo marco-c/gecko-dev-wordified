@@ -3166,12 +3166,14 @@ x2
 <
 x
 )
+{
 rect
 .
 x2
 =
 x
 ;
+}
 else
 if
 (
@@ -3181,12 +3183,14 @@ x1
 >
 x
 )
+{
 rect
 .
 x1
 =
 x
 ;
+}
 if
 (
 rect
@@ -3195,12 +3199,14 @@ y2
 <
 y
 )
+{
 rect
 .
 y2
 =
 y
 ;
+}
 }
 function
 isInRect
@@ -3211,6 +3217,7 @@ rect
 )
 {
 return
+(
 (
 rect
 .
@@ -3249,6 +3256,7 @@ rect
 x2
 +
 1
+)
 ;
 }
 if
@@ -3377,11 +3385,9 @@ M
 .
 floor
 (
-(
 i
 /
 4
-)
 /
 frame
 .
@@ -3472,6 +3478,7 @@ if
 !
 found
 )
+{
 rects
 .
 unshift
@@ -3492,6 +3499,7 @@ y
 }
 )
 ;
+}
 different
 .
 push
@@ -3561,6 +3569,7 @@ r2
 )
 {
 return
+(
 r1
 .
 y2
@@ -3601,6 +3610,7 @@ x1
 1
 -
 kMaxEmptyPixels
+)
 ;
 }
 ;
@@ -4248,7 +4258,6 @@ for
 let
 e
 of
-(
 expectations
 .
 exceptions
@@ -4256,7 +4265,6 @@ exceptions
 |
 [
 ]
-)
 )
 {
 if
@@ -4313,8 +4321,10 @@ rects
 .
 length
 )
+{
 continue
 ;
+}
 /
 /
 Before
@@ -4998,9 +5008,7 @@ popup
 .
 invalidate
 =
-(
 reason
-)
 =
 >
 {
@@ -5156,9 +5164,7 @@ popup
 .
 onQueryResults
 =
-(
 context
-)
 =
 >
 {
@@ -5178,9 +5184,7 @@ popup
 .
 onQueryFinished
 =
-(
 context
-)
 =
 >
 {
@@ -5519,7 +5523,6 @@ r
 =
 >
 !
-(
 /
 /
 We
@@ -5535,6 +5538,7 @@ textbox
 to
 change
 .
+(
 (
 r
 .
@@ -5653,6 +5657,7 @@ dropmarkerRect
 .
 bottom
 )
+)
 /
 /
 XXX
@@ -5681,7 +5686,6 @@ expect
 many
 changes
 .
-)
 )
 }
 ;

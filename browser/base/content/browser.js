@@ -3340,6 +3340,7 @@ shouldSuppress
 >
 {
 return
+(
 window
 .
 windowState
@@ -3369,6 +3370,7 @@ valid
 gURLBar
 .
 focused
+)
 )
 ;
 }
@@ -3449,9 +3451,11 @@ platform
 win
 "
 )
+{
 return
 null
 ;
+}
 const
 WINTASKBAR_CONTRACTID
 =
@@ -4685,6 +4689,7 @@ if
 (
 backDisabled
 )
+{
 backCommand
 .
 removeAttribute
@@ -4694,7 +4699,9 @@ disabled
 "
 )
 ;
+}
 else
+{
 backCommand
 .
 setAttribute
@@ -4705,6 +4712,7 @@ disabled
 true
 )
 ;
+}
 }
 if
 (
@@ -4720,6 +4728,7 @@ if
 (
 forwardDisabled
 )
+{
 forwardCommand
 .
 removeAttribute
@@ -4729,7 +4738,9 @@ disabled
 "
 )
 ;
+}
 else
+{
 forwardCommand
 .
 setAttribute
@@ -4740,6 +4751,7 @@ disabled
 true
 )
 ;
+}
 }
 }
 /
@@ -4974,8 +4986,10 @@ currentTarget
 .
 disabled
 )
+{
 return
 ;
+}
 /
 /
 Prevent
@@ -5029,9 +5043,7 @@ aEvent
 currentTarget
 setTimeout
 (
-(
 b
-)
 =
 >
 this
@@ -5262,6 +5274,7 @@ buttonRect
 .
 bottom
 )
+{
 this
 .
 _openMenu
@@ -5271,7 +5284,9 @@ aEvent
 currentTarget
 )
 ;
+}
 else
+{
 this
 .
 _cancelHold
@@ -5281,6 +5296,7 @@ aEvent
 currentTarget
 )
 ;
+}
 }
 _mouseupHandler
 (
@@ -5611,8 +5627,10 @@ session
 history
 "
 )
+{
 return
 ;
+}
 var
 backCommand
 =
@@ -6365,8 +6383,10 @@ gBrowser
 .
 selectedBrowser
 )
+{
 return
 ;
+}
 gIdentityHandler
 .
 refreshIdentityBlock
@@ -6866,6 +6886,7 @@ if
 !
 shouldBlock
 )
+{
 this
 .
 showAllBlockedPopups
@@ -6875,6 +6896,7 @@ gBrowser
 selectedBrowser
 )
 ;
+}
 gBrowser
 .
 getNotificationBox
@@ -7228,6 +7250,7 @@ isWindowPrivate
 window
 )
 )
+{
 blockedPopupAllowSite
 .
 setAttribute
@@ -7240,7 +7263,9 @@ true
 "
 )
 ;
+}
 else
+{
 blockedPopupAllowSite
 .
 removeAttribute
@@ -7250,6 +7275,7 @@ disabled
 "
 )
 ;
+}
 let
 blockedPopupDontShowMessage
 =
@@ -7422,8 +7448,10 @@ blockedPopup
 .
 popupWindowURIspec
 )
+{
 continue
 ;
+}
 var
 popupURIspec
 =
@@ -7557,8 +7585,10 @@ uri
 .
 spec
 )
+{
 continue
 ;
+}
 /
 /
 Because
@@ -7748,6 +7778,7 @@ if
 (
 foundUsablePopupURI
 )
+{
 blockedPopupsSeparator
 .
 removeAttribute
@@ -7757,6 +7788,7 @@ hidden
 "
 )
 ;
+}
 }
 null
 )
@@ -7893,6 +7925,7 @@ i
 .
 popupWindowURIspec
 )
+{
 aBrowser
 .
 unblockPopup
@@ -7900,6 +7933,7 @@ unblockPopup
 i
 )
 ;
+}
 }
 }
 null
@@ -8009,11 +8043,10 @@ fixupInfo
 let
 deserializeURI
 =
-(
 spec
-)
 =
 >
+(
 spec
 ?
 makeURI
@@ -8022,6 +8055,7 @@ spec
 )
 :
 null
+)
 ;
 /
 /
@@ -8620,8 +8654,10 @@ test
 asciiHost
 )
 )
+{
 return
 ;
+}
 let
 onLookupCompleteListener
 =
@@ -8656,8 +8692,10 @@ status
 !
 browserRef
 )
+{
 return
 ;
+}
 let
 currentURI
 =
@@ -8745,8 +8783,10 @@ fixup
 "
 )
 )
+{
 return
 ;
+}
 let
 message
 =
@@ -10669,6 +10709,7 @@ screen
 .
 availWidth
 *
+0
 .
 9
 TARGET_WIDTH
@@ -10685,6 +10726,7 @@ screen
 .
 availHeight
 *
+0
 .
 9
 TARGET_HEIGHT
@@ -12802,10 +12844,12 @@ click_hold_context_menus
 false
 )
 )
+{
 SetClickAndHoldHandlers
 (
 )
 ;
+}
 PlacesToolbarHelper
 .
 init
@@ -12955,12 +12999,14 @@ AppConstants
 .
 MOZ_DATA_REPORTING
 )
+{
 gDataNotificationInfoBar
 .
 init
 (
 )
 ;
+}
 if
 (
 !
@@ -12968,12 +13014,14 @@ AppConstants
 .
 MOZILLA_OFFICIAL
 )
+{
 DevelopmentHelpers
 .
 init
 (
 )
 ;
+}
 gExtensionsNotifications
 .
 init
@@ -13661,6 +13709,7 @@ if
 (
 shouldRemoveFocusedAttribute
 )
+{
 gURLBar
 .
 removeAttribute
@@ -13670,6 +13719,7 @@ focused
 "
 )
 ;
+}
 }
 )
 ;
@@ -13999,7 +14049,6 @@ nsIContentSecurityPolicy
 let
 userContextId
 =
-(
 window
 .
 arguments
@@ -14022,7 +14071,6 @@ Ci
 nsIScriptSecurityManager
 .
 DEFAULT_USER_CONTEXT_ID
-)
 ;
 loadURI
 (
@@ -14841,10 +14889,12 @@ this
 uriToLoadPromise
 ;
 return
+(
 this
 .
 uriToLoadPromise
 =
+(
 function
 (
 )
@@ -15131,7 +15181,9 @@ uri
 )
 ;
 }
+)
 (
+)
 )
 ;
 }
@@ -15282,8 +15334,10 @@ this
 .
 _loadHandled
 )
+{
 return
 ;
+}
 /
 /
 First
@@ -15966,10 +16020,12 @@ disabled
 true
 "
 )
+{
 BrowserStop
 (
 )
 ;
+}
 break
 ;
 case
@@ -16176,9 +16232,11 @@ if
 !
 index
 )
+{
 return
 false
 ;
+}
 let
 where
 =
@@ -16581,11 +16639,14 @@ where
 current
 "
 )
+{
 BrowserReload
 (
 )
 ;
+}
 else
+{
 duplicateTabIn
 (
 gBrowser
@@ -16594,6 +16655,7 @@ selectedTab
 where
 )
 ;
+}
 }
 function
 BrowserReload
@@ -16708,6 +16770,7 @@ button
 =
 2
 )
+{
 /
 /
 right
@@ -16718,6 +16781,7 @@ do
 nothing
 return
 ;
+}
 var
 homePage
 =
@@ -16780,12 +16844,14 @@ selectedTab
 .
 pinned
 )
+{
 where
 =
 "
 tab
 "
 ;
+}
 /
 /
 openTrustedLinkIn
@@ -17973,12 +18039,14 @@ exists
 (
 )
 )
+{
 this
 .
 _lastDir
 =
 null
 ;
+}
 }
 catch
 (
@@ -18014,8 +18082,10 @@ isDirectory
 (
 )
 )
+{
 return
 ;
+}
 }
 catch
 (
@@ -18061,6 +18131,7 @@ isWindowPrivate
 window
 )
 )
+{
 Services
 .
 prefs
@@ -18082,6 +18153,7 @@ this
 _lastDir
 )
 ;
+}
 }
 reset
 (
@@ -18458,12 +18530,14 @@ WindowIsClosing
 (
 )
 )
+{
 window
 .
 close
 (
 )
 ;
+}
 /
 /
 WindowIsClosing
@@ -18654,6 +18728,7 @@ supportsSelectionClipboard
 (
 )
 )
+{
 Services
 .
 clipboard
@@ -18668,7 +18743,9 @@ clipboard
 kSelectionClipboard
 )
 ;
+}
 else
+{
 Services
 .
 clipboard
@@ -18683,6 +18760,7 @@ clipboard
 kGlobalClipboard
 )
 ;
+}
 var
 data
 =
@@ -20302,6 +20380,7 @@ moz
 action
 "
 )
+{
 throw
 new
 Error
@@ -20319,6 +20398,7 @@ URI
 "
 )
 ;
+}
 var
 value
 =
@@ -20746,7 +20826,7 @@ s
 \
 s
 /
-ig
+gi
 encodeURIComponent
 )
 ;
@@ -21171,10 +21251,12 @@ nextElementSibling
 =
 searchbar
 )
+{
 ibefore
 =
 searchbar
 ;
+}
 else
 if
 (
@@ -21185,10 +21267,12 @@ nextElementSibling
 =
 urlbar
 )
+{
 ibefore
 =
 urlbar
 ;
+}
 }
 if
 (
@@ -21490,8 +21574,10 @@ if
 !
 gURLBar
 )
+{
 return
 ;
+}
 let
 oldPageProxyState
 =
@@ -21810,11 +21896,13 @@ paste
 "
 )
 )
+{
 middleMousePaste
 (
 aEvent
 )
 ;
+}
 }
 /
 /
@@ -23800,9 +23888,11 @@ isWindowPrivate
 window
 )
 )
+{
 return
 url
 ;
+}
 url
 =
 HomePage
@@ -24345,9 +24435,11 @@ if
 !
 securityInfoAsString
 )
+{
 return
 null
 ;
+}
 let
 securityInfo
 =
@@ -24524,6 +24616,7 @@ n
 )
 ;
 return
+(
 "
 -
 -
@@ -24567,6 +24660,7 @@ r
 \
 n
 "
+)
 ;
 }
 var
@@ -25039,19 +25133,23 @@ if
 (
 gInPrintPreviewMode
 )
+{
 this
 .
 _hideChrome
 (
 )
 ;
+}
 else
+{
 this
 .
 _showChrome
 (
 )
 ;
+}
 TabsInTitlebar
 .
 allowedBy
@@ -25119,12 +25217,14 @@ if
 (
 gFindBarInitialized
 )
+{
 gFindBar
 .
 close
 (
 )
 ;
+}
 gBrowser
 .
 getNotificationBox
@@ -26583,8 +26683,10 @@ if
 !
 tab
 )
+{
 return
 ;
+}
 BrowserSearch
 .
 addEngine
@@ -28021,8 +28123,10 @@ engine
 title
 )
 )
+{
 return
 ;
+}
 }
 var
 hidden
@@ -28096,10 +28200,12 @@ engine
 title
 )
 )
+{
 hidden
 =
 true
 ;
+}
 var
 engines
 =
@@ -28177,12 +28283,14 @@ gBrowser
 .
 selectedBrowser
 )
+{
 this
 .
 updateOpenSearchBadge
 (
 )
 ;
+}
 }
 }
 /
@@ -28248,8 +28356,10 @@ if
 !
 searchBar
 )
+{
 return
 ;
+}
 var
 engines
 =
@@ -28270,6 +28380,7 @@ length
 >
 0
 )
+{
 searchBar
 .
 setAttribute
@@ -28282,7 +28393,9 @@ true
 "
 )
 ;
+}
 else
+{
 searchBar
 .
 removeAttribute
@@ -28292,6 +28405,7 @@ addengines
 "
 )
 ;
+}
 }
 /
 *
@@ -28705,12 +28819,14 @@ window
 .
 fullScreen
 )
+{
 FullScreen
 .
 showNavToolbox
 (
 )
 ;
+}
 searchBar
 .
 select
@@ -29653,6 +29769,7 @@ checked
 "
 )
 )
+{
 XULBrowserWindow
 .
 setOverLink
@@ -29669,6 +29786,7 @@ uri
 )
 )
 ;
+}
 }
 )
 ;
@@ -29750,6 +29868,7 @@ index
 "
 )
 )
+{
 aParent
 .
 removeChild
@@ -29760,6 +29879,7 @@ i
 ]
 )
 ;
+}
 }
 const
 MAX_HISTORY_MENU_ITEMS
@@ -30420,9 +30540,11 @@ if
 !
 sessionHistory
 )
+{
 return
 false
 ;
+}
 /
 /
 don
@@ -30446,9 +30568,11 @@ length
 =
 1
 )
+{
 return
 false
 ;
+}
 updateSessionHistory
 (
 sessionHistory
@@ -30524,17 +30648,20 @@ if
 (
 topWindow
 )
+{
 topWindow
 .
 focus
 (
 )
 ;
+}
 else
 if
 (
 features
 )
+{
 window
 .
 open
@@ -30546,7 +30673,9 @@ _blank
 features
 )
 ;
+}
 else
+{
 window
 .
 open
@@ -30566,6 +30695,7 @@ toolbar
 "
 )
 ;
+}
 }
 /
 *
@@ -31024,7 +31154,6 @@ if
 window
 &
 &
-(
 wintype
 =
 =
@@ -31033,7 +31162,6 @@ navigator
 :
 browser
 "
-)
 &
 &
 window
@@ -31483,8 +31611,10 @@ platform
 macosx
 "
 )
+{
 return
 ;
+}
 let
 editMenuPopupState
 =
@@ -32698,6 +32828,7 @@ this
 stopCommand
 ;
 return
+(
 this
 .
 stopCommand
@@ -32712,6 +32843,7 @@ Browser
 Stop
 "
 )
+)
 ;
 }
 get
@@ -32725,6 +32857,7 @@ this
 reloadCommand
 ;
 return
+(
 this
 .
 reloadCommand
@@ -32739,6 +32872,7 @@ Browser
 Reload
 "
 )
+)
 ;
 }
 get
@@ -32752,6 +32886,7 @@ this
 _elementsForTextBasedTypes
 ;
 return
+(
 this
 .
 _elementsForTextBasedTypes
@@ -32778,6 +32913,7 @@ selection
 "
 )
 ]
+)
 ;
 }
 get
@@ -32791,6 +32927,7 @@ this
 _elementsForFind
 ;
 return
+(
 this
 .
 _elementsForFind
@@ -32821,6 +32958,7 @@ cmd_findPrevious
 "
 )
 ]
+)
 ;
 }
 get
@@ -32834,6 +32972,7 @@ this
 _elementsForViewSource
 ;
 return
+(
 this
 .
 _elementsForViewSource
@@ -32860,6 +32999,7 @@ PageSource
 "
 )
 ]
+)
 ;
 }
 forceInitialBrowserNonRemote
@@ -33226,9 +33366,11 @@ if
 !
 gMultiProcessBrowser
 )
+{
 return
 true
 ;
+}
 let
 browser
 =
@@ -33291,9 +33433,11 @@ getTabBrowser
 =
 gBrowser
 )
+{
 return
 true
 ;
+}
 if
 (
 !
@@ -33684,12 +33828,14 @@ aWebProgress
 .
 isTopLevel
 )
+{
 gBrowser
 .
 userTypedValue
 =
 null
 ;
+}
 canViewSource
 =
 location
@@ -34374,6 +34520,7 @@ if
 !
 gMultiProcessBrowser
 )
+{
 /
 /
 Bug
@@ -34390,6 +34537,7 @@ restoreRotationState
 (
 )
 ;
+}
 /
 /
 See
@@ -34420,6 +34568,7 @@ if
 (
 aRequest
 )
+{
 setTimeout
 (
 function
@@ -34436,13 +34585,16 @@ asyncUpdateUI
 0
 )
 ;
+}
 else
+{
 this
 .
 asyncUpdateUI
 (
 )
 ;
+}
 if
 (
 AppConstants
@@ -34975,9 +35127,7 @@ spec
 if
 (
 typeof
-(
 aIsSimulated
-)
 !
 =
 "
@@ -34986,9 +35136,7 @@ boolean
 &
 &
 typeof
-(
 aIsSimulated
-)
 !
 =
 "
@@ -35336,6 +35484,7 @@ FullZoom
 .
 updateBackgroundTabs
 )
+{
 FullZoom
 .
 onLocationChange
@@ -35346,6 +35495,7 @@ currentURI
 true
 )
 ;
+}
 CombinedStopReload
 .
 onTabSwitch
@@ -35460,8 +35610,10 @@ if
 (
 loadingDone
 )
+{
 return
 ;
+}
 this
 .
 onStatusChange
@@ -35936,6 +36088,7 @@ this
 DELAY_SHOW
 ;
 return
+(
 this
 .
 DELAY_SHOW
@@ -35953,6 +36106,7 @@ overlink
 -
 delay
 "
+)
 )
 ;
 }
@@ -35998,13 +36152,16 @@ XULBrowserWindow
 .
 hideOverLinkImmediately
 )
+{
 this
 .
 _hide
 (
 )
 ;
+}
 else
+{
 this
 .
 _timer
@@ -36024,6 +36181,7 @@ this
 DELAY_HIDE
 )
 ;
+}
 return
 ;
 }
@@ -36217,18 +36375,22 @@ this
 .
 _initialized
 )
+{
 return
 true
 ;
+}
 if
 (
 this
 .
 _destroyed
 )
+{
 return
 false
 ;
+}
 let
 reload
 =
@@ -36308,9 +36470,11 @@ stop
 !
 reload
 )
+{
 return
 false
 ;
+}
 this
 .
 _initialized
@@ -36335,6 +36499,7 @@ disabled
 true
 "
 )
+{
 reload
 .
 setAttribute
@@ -36347,6 +36512,7 @@ true
 "
 )
 ;
+}
 stop
 .
 addEventListener
@@ -36521,8 +36687,10 @@ this
 .
 _initialized
 )
+{
 return
 ;
+}
 Services
 .
 prefs
@@ -36796,8 +36964,10 @@ this
 .
 _destroyed
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -37356,8 +37526,10 @@ this
 .
 _timer
 )
+{
 return
 ;
+}
 /
 /
 Temporarily
@@ -37505,6 +37677,7 @@ from
 occuring
 .
 return
+(
 this
 .
 timeWhenSwitchedToStop
@@ -37523,6 +37696,7 @@ this
 timeWhenSwitchedToStop
 >
 150
+)
 ;
 }
 _shouldSwitch
@@ -38151,6 +38325,7 @@ if
 (
 recordLoadTelemetry
 )
+{
 TelemetryStopwatch
 .
 cancel
@@ -38160,10 +38335,12 @@ aBrowser
 )
 ;
 }
+}
 if
 (
 recordLoadTelemetry
 )
+{
 TelemetryStopwatch
 .
 start
@@ -38172,6 +38349,7 @@ histogram
 aBrowser
 )
 ;
+}
 Services
 .
 telemetry
@@ -38224,6 +38402,7 @@ if
 (
 recordLoadTelemetry
 )
+{
 TelemetryStopwatch
 .
 finish
@@ -38232,6 +38411,7 @@ histogram
 aBrowser
 )
 ;
+}
 }
 }
 else
@@ -38277,6 +38457,7 @@ if
 (
 recordLoadTelemetry
 )
+{
 TelemetryStopwatch
 .
 cancel
@@ -38285,6 +38466,7 @@ histogram
 aBrowser
 )
 ;
+}
 }
 }
 }
@@ -38397,8 +38579,10 @@ aWebProgress
 .
 isTopLevel
 )
+{
 return
 ;
+}
 /
 /
 Only
@@ -38447,6 +38631,7 @@ PopupNotifications
 .
 get
 )
+{
 PopupNotifications
 .
 locationChange
@@ -38454,6 +38639,7 @@ locationChange
 aBrowser
 )
 ;
+}
 let
 tab
 =
@@ -38884,12 +39070,14 @@ loadInBackground
 aIsExternal
 )
 )
+{
 win
 .
 focus
 (
 )
 ;
+}
 return
 browser
 ;
@@ -39204,6 +39392,7 @@ external
 "
 )
 )
+{
 aWhere
 =
 Services
@@ -39225,7 +39414,9 @@ external
 "
 )
 ;
+}
 else
+{
 aWhere
 =
 Services
@@ -39243,6 +39434,7 @@ open_newwindow
 "
 )
 ;
+}
 }
 let
 referrerInfo
@@ -39280,14 +39472,12 @@ referrerInfo
 new
 ReferrerInfo
 (
-(
 aOpener
 &
 &
 aOpener
 .
 document
-)
 ?
 aOpener
 .
@@ -39615,7 +39805,6 @@ DEFAULT_USER_CONTEXT_ID
 let
 openerWindow
 =
-(
 aFlags
 &
 Ci
@@ -39623,7 +39812,6 @@ Ci
 nsIBrowserDOMWindow
 .
 OPEN_NO_OPENER
-)
 ?
 null
 :
@@ -39655,12 +39843,14 @@ if
 (
 browser
 )
+{
 newWindow
 =
 browser
 .
 contentWindow
 ;
+}
 break
 ;
 default
@@ -39740,12 +39930,14 @@ loadDivertedInBackground
 "
 )
 )
+{
 window
 .
 focus
 (
 )
 ;
+}
 }
 return
 newWindow
@@ -39886,7 +40078,6 @@ aParams
 openerOriginAttributes
 &
 &
-(
 "
 userContextId
 "
@@ -39894,7 +40085,6 @@ in
 aParams
 .
 openerOriginAttributes
-)
 ?
 aParams
 .
@@ -40010,8 +40200,10 @@ aEvent
 .
 currentTarget
 )
+{
 return
 ;
+}
 /
 /
 Empty
@@ -40061,6 +40253,7 @@ toolbarId
 "
 )
 )
+{
 popup
 .
 removeChild
@@ -40068,6 +40261,7 @@ removeChild
 deadItem
 )
 ;
+}
 }
 var
 firstMenuItem
@@ -40261,6 +40455,7 @@ context
 menu
 "
 )
+{
 menuItem
 .
 setAttribute
@@ -40278,6 +40473,7 @@ key
 )
 )
 ;
+}
 popup
 .
 insertBefore
@@ -40500,8 +40696,10 @@ localName
 toolbar
 "
 )
+{
 break
 ;
+}
 toolbarItem
 =
 parent
@@ -41194,7 +41392,6 @@ label
 let
 prefix
 =
-(
 control
 .
 getAttribute
@@ -41208,7 +41405,6 @@ checked
 "
 true
 "
-)
 ?
 "
 "
@@ -42927,6 +43123,7 @@ if
 (
 node
 )
+{
 return
 [
 node
@@ -42935,6 +43132,7 @@ href
 node
 ]
 ;
+}
 /
 /
 If
@@ -43192,8 +43390,10 @@ button
 =
 0
 )
+{
 return
 ;
+}
 let
 [
 href
@@ -43477,8 +43677,10 @@ data
 "
 )
 )
+{
 return
 ;
+}
 try
 {
 urlSecurityCheck
@@ -43605,6 +43807,7 @@ isWindowPrivate
 window
 )
 )
+{
 PlacesUIUtils
 .
 markPageAsFollowedLink
@@ -43612,6 +43815,7 @@ markPageAsFollowedLink
 href
 )
 ;
+}
 }
 catch
 (
@@ -43669,6 +43873,7 @@ button
 =
 2
 )
+{
 /
 /
 right
@@ -43676,6 +43881,7 @@ click
 return
 false
 ;
+}
 var
 where
 =
@@ -43693,9 +43899,11 @@ where
 current
 "
 )
+{
 return
 false
 ;
+}
 var
 doc
 =
@@ -44067,8 +44275,10 @@ if
 !
 clipboard
 )
+{
 return
 ;
+}
 /
 /
 Strip
@@ -44502,11 +44712,13 @@ event
 .
 shiftKey
 )
+{
 inBackground
 =
 !
 inBackground
 ;
+}
 }
 (
 async
@@ -45439,12 +45651,14 @@ addon
 id
 &
 &
+(
 await
 AddonManager
 .
 getAddonByID
 (
 id
+)
 )
 ;
 for
@@ -45526,12 +45740,14 @@ addon
 id
 &
 &
+(
 await
 AddonManager
 .
 getAddonByID
 (
 id
+)
 )
 ;
 if
@@ -45678,12 +45894,14 @@ addon
 id
 &
 &
+(
 await
 AddonManager
 .
 getAddonByID
 (
 id
+)
 )
 ;
 if
@@ -46064,9 +46282,7 @@ PageStyle
 :
 StyleSheets
 "
-(
 msg
-)
 =
 >
 {
@@ -46335,6 +46551,7 @@ sep
 .
 nextElementSibling
 )
+{
 menuPopup
 .
 removeChild
@@ -46344,6 +46561,7 @@ sep
 nextElementSibling
 )
 ;
+}
 let
 styleSheets
 =
@@ -46389,10 +46607,12 @@ currentStyleSheet
 .
 disabled
 )
+{
 altStyleSelected
 =
 true
 ;
+}
 haveAltSheets
 =
 true
@@ -46410,6 +46630,7 @@ title
 in
 currentStyleSheets
 )
+{
 lastWithSameTitle
 =
 currentStyleSheets
@@ -46419,6 +46640,7 @@ currentStyleSheet
 title
 ]
 ;
+}
 if
 (
 !
@@ -46762,6 +46984,7 @@ this
 .
 _uiElement
 )
+{
 this
 .
 _uiElement
@@ -46775,6 +46998,7 @@ cmd_toggleOfflineStatus
 "
 )
 ;
+}
 Services
 .
 obs
@@ -46914,8 +47138,10 @@ status
 changed
 "
 )
+{
 return
 ;
+}
 /
 /
 This
@@ -47022,9 +47248,11 @@ cancelGoOffline
 .
 data
 )
+{
 return
 false
 ;
+}
 }
 catch
 (
@@ -47064,6 +47292,7 @@ if
 (
 offlineLocked
 )
+{
 this
 .
 _uiElement
@@ -47078,6 +47307,7 @@ true
 "
 )
 ;
+}
 this
 .
 _uiElement
@@ -47108,8 +47338,10 @@ if
 !
 browser
 )
+{
 return
 ;
+}
 let
 mainAction
 =
@@ -49827,9 +50059,11 @@ false
 warnAboutClosingWindow
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 In
@@ -50063,6 +50297,7 @@ toolbar
 .
 visible
 )
+{
 return
 gBrowser
 .
@@ -50076,6 +50311,7 @@ closingTabsEnum
 ALL
 )
 ;
+}
 /
 /
 Figure
@@ -50142,10 +50378,12 @@ isWindowPrivate
 win
 )
 )
+{
 otherPBWindowExists
 =
 true
 ;
+}
 /
 /
 If
@@ -50228,8 +50466,10 @@ isPBWindow
 |
 otherPBWindowExists
 )
+{
 break
 ;
+}
 }
 }
 if
@@ -50296,9 +50536,11 @@ exitingCanceled
 .
 data
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -50306,6 +50548,7 @@ otherWindowExists
 )
 {
 return
+(
 isPBWindow
 |
 |
@@ -50319,6 +50562,7 @@ gBrowser
 closingTabsEnum
 .
 ALL
+)
 )
 ;
 }
@@ -50376,9 +50620,11 @@ closingCanceled
 .
 data
 )
+{
 return
 false
 ;
+}
 os
 .
 notifyObservers
@@ -50438,6 +50684,7 @@ multiple
 tabs
 .
 return
+(
 AppConstants
 .
 platform
@@ -50462,6 +50709,7 @@ gBrowser
 closingTabsEnum
 .
 ALL
+)
 )
 )
 ;
@@ -50657,6 +50905,7 @@ if
 (
 extProtocolSvc
 )
+{
 extProtocolSvc
 .
 loadURI
@@ -50664,6 +50913,7 @@ loadURI
 aURL
 )
 ;
+}
 }
 }
 ;
@@ -50862,7 +51112,6 @@ above
 let
 whereToOpen
 =
-(
 window
 .
 gBrowser
@@ -50873,7 +51122,6 @@ gBrowser
 selectedTab
 .
 isEmpty
-)
 ?
 "
 current
@@ -51079,12 +51327,14 @@ selectedTab
 .
 isEmpty
 )
+{
 blankTabToRemove
 =
 gBrowser
 .
 selectedTab
 ;
+}
 var
 tab
 =
@@ -51124,6 +51374,7 @@ if
 (
 blankTabToRemove
 )
+{
 gBrowser
 .
 removeTab
@@ -51131,6 +51382,7 @@ removeTab
 blankTabToRemove
 )
 ;
+}
 }
 return
 tab
@@ -51199,6 +51451,7 @@ aIndex
 0
 )
 )
+{
 window
 =
 SessionStore
@@ -51211,6 +51464,7 @@ aIndex
 0
 )
 ;
+}
 return
 window
 ;
@@ -51821,9 +52075,7 @@ messageManager
 let
 onMessage
 =
-(
 message
-)
 =
 >
 {
@@ -53723,12 +53975,10 @@ split
 .
 concat
 (
-(
 fragment
 !
 =
 undefined
-)
 ?
 "
 #
@@ -54053,6 +54303,7 @@ Ci
 nsIURI
 )
 )
+{
 aURI
 =
 Services
@@ -54064,6 +54315,7 @@ newURI
 aURI
 )
 ;
+}
 /
 /
 Prioritise
@@ -54080,9 +54332,11 @@ switchIfURIInWindow
 window
 )
 )
+{
 return
 true
 ;
+}
 for
 (
 let
@@ -54129,8 +54383,10 @@ browserWin
 =
 window
 )
+{
 continue
 ;
+}
 if
 (
 switchIfURIInWindow
@@ -54138,9 +54394,11 @@ switchIfURIInWindow
 browserWin
 )
 )
+{
 return
 true
 ;
+}
 }
 /
 /
@@ -54167,6 +54425,7 @@ selectedTab
 .
 isEmpty
 )
+{
 openTrustedLinkIn
 (
 aURI
@@ -54178,7 +54437,9 @@ current
 aOpenParams
 )
 ;
+}
 else
+{
 openTrustedLinkIn
 (
 aURI
@@ -54190,6 +54451,7 @@ tab
 aOpenParams
 )
 ;
+}
 }
 return
 false
@@ -54540,8 +54802,10 @@ cancelQuit
 .
 data
 )
+{
 return
 ;
+}
 Services
 .
 startup
@@ -55266,19 +55530,13 @@ ToolbarIconColor
 _windowState
 :
 {
-"
 active
-"
 :
 false
-"
 fullscreen
-"
 :
 false
-"
 tabsintitlebar
-"
 :
 false
 }
@@ -55625,8 +55883,10 @@ this
 .
 _initialized
 )
+{
 return
 ;
+}
 function
 parseRGB
 (
@@ -55710,7 +55970,6 @@ _windowState
 .
 active
 =
-(
 reason
 =
 =
@@ -55718,7 +55977,6 @@ reason
 "
 activate
 "
-)
 ;
 break
 ;
@@ -55836,6 +56094,7 @@ platform
 macosx
 "
 )
+{
 toolbarSelector
 +
 =
@@ -55851,6 +56110,7 @@ menubar
 )
 "
 ;
+}
 /
 /
 The
@@ -56055,6 +56315,7 @@ luminance
 =
 110
 )
+{
 toolbar
 .
 removeAttribute
@@ -56064,7 +56325,9 @@ brighttext
 "
 )
 ;
+}
 else
+{
 toolbar
 .
 setAttribute
@@ -56077,6 +56340,7 @@ true
 "
 )
 ;
+}
 }
 }
 }
@@ -57929,6 +58193,7 @@ this
 _panel
 ;
 return
+(
 this
 .
 _panel
@@ -57943,6 +58208,7 @@ confirmation
 hint
 "
 )
+)
 ;
 }
 get
@@ -57956,6 +58222,7 @@ this
 _animationBox
 ;
 return
+(
 this
 .
 _animationBox
@@ -57976,6 +58243,7 @@ animation
 container
 "
 )
+)
 ;
 }
 get
@@ -57989,6 +58257,7 @@ this
 _message
 ;
 return
+(
 this
 .
 _message
@@ -58005,6 +58274,7 @@ hint
 message
 "
 )
+)
 ;
 }
 get
@@ -58018,6 +58288,7 @@ this
 _description
 ;
 return
+(
 this
 .
 _description
@@ -58033,6 +58304,7 @@ hint
 -
 description
 "
+)
 )
 ;
 }

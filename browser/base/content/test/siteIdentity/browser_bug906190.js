@@ -304,9 +304,7 @@ spawn
 browser
 childTabSpec
 async
-(
 childTabSpecContent
-)
 =
 >
 {
@@ -679,9 +677,7 @@ firstBrowserLoaded
 (
 window
 true
-(
 browser
-)
 =
 >
 {
@@ -732,9 +728,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

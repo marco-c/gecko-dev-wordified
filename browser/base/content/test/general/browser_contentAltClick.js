@@ -626,9 +626,7 @@ finishedAllDownloads
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -813,9 +811,7 @@ finishedAllDownloads
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -1005,9 +1001,7 @@ finishedAllDownloads
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

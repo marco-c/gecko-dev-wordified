@@ -131,9 +131,7 @@ about
 blank
 "
 async
-(
 browser
-)
 =
 >
 {

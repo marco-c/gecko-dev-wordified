@@ -2354,6 +2354,7 @@ shiftKey
 )
 |
 |
+(
 this
 .
 selectedButtonIndex
@@ -2370,6 +2371,7 @@ length
 event
 .
 shiftKey
+)
 )
 {
 return
@@ -3669,7 +3671,6 @@ style
 .
 maxWidth
 =
-(
 window
 .
 innerWidth
@@ -3677,7 +3678,6 @@ innerWidth
 left
 -
 40
-)
 +
 "
 px
@@ -4840,9 +4840,7 @@ data
 if
 (
 typeof
-(
 data
-)
 =
 =
 "

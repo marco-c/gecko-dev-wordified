@@ -166,6 +166,7 @@ l
 .
 type
 )
+{
 link
 .
 type
@@ -174,12 +175,14 @@ l
 .
 type
 ;
+}
 if
 (
 l
 .
 size
 )
+{
 link
 .
 setAttribute
@@ -200,6 +203,7 @@ size
 }
 )
 ;
+}
 head
 .
 appendChild

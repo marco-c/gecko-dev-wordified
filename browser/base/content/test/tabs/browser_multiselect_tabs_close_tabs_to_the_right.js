@@ -367,6 +367,7 @@ tab2
 tab3
 ]
 )
+{
 BrowserTestUtils
 .
 removeTab
@@ -374,6 +375,7 @@ removeTab
 tab
 )
 ;
+}
 }
 )
 ;
@@ -808,6 +810,7 @@ tab1
 tab2
 ]
 )
+{
 BrowserTestUtils
 .
 removeTab
@@ -815,6 +818,7 @@ removeTab
 tab
 )
 ;
+}
 }
 )
 ;

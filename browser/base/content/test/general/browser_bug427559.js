@@ -178,12 +178,10 @@ linkedBrowser
 ;
 is
 (
-(
 await
 getFocusedLocalName
 (
 browser
-)
 )
 "
 button
@@ -239,12 +237,10 @@ gone
 .
 is
 (
-(
 await
 getFocusedLocalName
 (
 browser
-)
 )
 "
 body

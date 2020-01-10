@@ -136,13 +136,12 @@ panel
 "
 transitionend
 "
-(
 e
-)
 =
 >
 {
 return
+(
 e
 .
 propertyName
@@ -169,6 +168,7 @@ opacity
 "
 1
 "
+)
 ;
 }
 )

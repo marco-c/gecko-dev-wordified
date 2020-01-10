@@ -339,9 +339,7 @@ reject
 let
 login
 =
-(
 accountData
-)
 =
 >
 {
@@ -758,9 +756,7 @@ reject
 let
 logout
 =
-(
 uid
-)
 =
 >
 {
@@ -876,9 +872,7 @@ reject
 let
 logout
 =
-(
 uid
-)
 =
 >
 {

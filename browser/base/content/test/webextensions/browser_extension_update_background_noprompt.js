@@ -437,9 +437,11 @@ popupshown
 )
 =
 >
+(
 sawPopup
 =
 true
+)
 {
 once
 :

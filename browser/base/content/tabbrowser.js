@@ -1131,13 +1131,11 @@ name
 )
 {
 return
-(
 name
 in
 gBrowser
 .
 tabs
-)
 ;
 }
 return
@@ -1278,6 +1276,7 @@ this
 tabContainer
 ;
 return
+(
 this
 .
 tabContainer
@@ -1291,6 +1290,7 @@ tabbrowser
 -
 tabs
 "
+)
 )
 ;
 }
@@ -1335,6 +1335,7 @@ this
 tabbox
 ;
 return
+(
 this
 .
 tabbox
@@ -1348,6 +1349,7 @@ tabbrowser
 -
 tabbox
 "
+)
 )
 ;
 }
@@ -1362,6 +1364,7 @@ this
 tabpanels
 ;
 return
+(
 this
 .
 tabpanels
@@ -1375,6 +1378,7 @@ tabbrowser
 -
 tabpanels
 "
+)
 )
 ;
 }
@@ -1529,8 +1533,10 @@ i
 .
 pinned
 )
+{
 break
 ;
+}
 }
 return
 i
@@ -3496,14 +3502,17 @@ aTab
 .
 pinned
 )
+{
 return
 ;
+}
 if
 (
 aTab
 .
 hidden
 )
+{
 this
 .
 showTab
@@ -3511,6 +3520,7 @@ showTab
 aTab
 )
 ;
+}
 this
 .
 moveTabTo
@@ -3559,8 +3569,10 @@ aTab
 .
 pinned
 )
+{
 return
 ;
+}
 this
 .
 moveTabTo
@@ -4144,14 +4156,12 @@ aBrowser
 let
 browser
 =
-(
 aBrowser
 |
 |
 this
 .
 selectedBrowser
-)
 ;
 if
 (
@@ -4289,10 +4299,12 @@ p
 args
 )
 )
+{
 rv
 =
 false
 ;
+}
 }
 catch
 (
@@ -4617,11 +4629,10 @@ null
 let
 makeString
 =
-(
 url
-)
 =
 >
+(
 url
 instanceof
 Ci
@@ -4633,6 +4644,7 @@ url
 spec
 :
 url
+)
 ;
 aIconURL
 =
@@ -5043,6 +5055,7 @@ if
 !
 docTitle
 )
+{
 docTitle
 =
 docElement
@@ -5054,6 +5067,7 @@ titledefault
 "
 )
 ;
+}
 var
 modifier
 =
@@ -5092,11 +5106,13 @@ if
 (
 modifier
 )
+{
 newTitle
 +
 =
 sep
 ;
+}
 }
 newTitle
 +
@@ -5199,6 +5215,7 @@ scheme
 about
 "
 )
+{
 newTitle
 =
 uri
@@ -5209,7 +5226,9 @@ sep
 +
 newTitle
 ;
+}
 else
+{
 newTitle
 =
 uri
@@ -5220,6 +5239,7 @@ sep
 +
 newTitle
 ;
+}
 }
 }
 catch
@@ -5366,12 +5386,14 @@ oldTab
 .
 selected
 )
+{
 oldTab
 .
 owner
 =
 null
 ;
+}
 let
 lastRelatedTab
 =
@@ -5396,12 +5418,14 @@ lastRelatedTab
 .
 selected
 )
+{
 lastRelatedTab
 .
 owner
 =
 null
 ;
+}
 }
 this
 .
@@ -5456,7 +5480,6 @@ newBrowser
 .
 docShellIsActive
 =
-(
 window
 .
 windowState
@@ -5471,7 +5494,6 @@ STATE_MINIMIZED
 window
 .
 isFullyOccluded
-)
 ;
 }
 this
@@ -5783,6 +5805,7 @@ oldFindBar
 .
 hidden
 )
+{
 this
 .
 _lastFindValue
@@ -5793,6 +5816,7 @@ _findField
 .
 value
 ;
+}
 this
 .
 updateTitlebar
@@ -6569,6 +6593,7 @@ if
 !
 aForceUpdate
 )
+{
 TelemetryStopwatch
 .
 finish
@@ -6578,6 +6603,7 @@ FX_TAB_SWITCH_UPDATE_MS
 "
 )
 ;
+}
 }
 _adjustFocusBeforeTabSwitch
 (
@@ -6613,14 +6639,12 @@ oldBrowser
 .
 _urlbarFocused
 =
-(
 gURLBar
 &
 &
 gURLBar
 .
 focused
-)
 ;
 if
 (
@@ -6646,7 +6670,6 @@ oldTab
 .
 _findBarFocused
 =
-(
 !
 findBar
 .
@@ -6668,7 +6691,6 @@ focused
 "
 true
 "
-)
 ;
 }
 let
@@ -6858,8 +6880,10 @@ activeElement
 =
 newTab
 )
+{
 return
 ;
+}
 let
 newBrowser
 =
@@ -7213,8 +7237,10 @@ document
 .
 documentElement
 )
+{
 return
 ;
+}
 /
 /
 We
@@ -7328,6 +7354,7 @@ simple
 "
 )
 )
+{
 focusFlags
 |
 =
@@ -7335,6 +7362,7 @@ fm
 .
 FLAG_SHOWRING
 ;
+}
 }
 fm
 .
@@ -7357,8 +7385,10 @@ aTab
 .
 closing
 )
+{
 return
 ;
+}
 let
 event
 =
@@ -7414,8 +7444,10 @@ if
 !
 tab
 )
+{
 return
 ;
+}
 if
 (
 aState
@@ -8633,12 +8665,10 @@ loadOneTab
 var
 bgLoad
 =
-(
 aLoadInBackground
 !
 =
 null
-)
 ?
 aLoadInBackground
 :
@@ -8757,12 +8787,14 @@ if
 !
 bgLoad
 )
+{
 this
 .
 selectedTab
 =
 tab
 ;
+}
 return
 tab
 ;
@@ -10815,12 +10847,14 @@ if
 (
 wasActive
 )
+{
 aBrowser
 .
 focus
 (
 )
 ;
+}
 /
 /
 If
@@ -11099,8 +11133,10 @@ getGlobalForObject
 (
 Services
 )
+)
 .
 Object
+(
 )
 ;
 const
@@ -12048,6 +12084,7 @@ _cachedCurrentURI
 ;
 }
 return
+(
 browser
 .
 _cachedCurrentURI
@@ -12059,6 +12096,7 @@ io
 newURI
 (
 url
+)
 )
 ;
 }
@@ -12498,12 +12536,14 @@ aTab
 )
 ;
 return
+(
 browser
 [
 name
 ]
 =
 value
+)
 ;
 }
 ;
@@ -14155,7 +14195,6 @@ let
 openerTab
 =
 (
-(
 openerBrowser
 &
 &
@@ -14175,7 +14214,6 @@ relatedToCurrent
 this
 .
 selectedTab
-)
 )
 ;
 var
@@ -14744,7 +14782,6 @@ openerTab
 let
 previousTab
 =
-(
 lastRelatedTab
 |
 |
@@ -14754,7 +14791,6 @@ openerTab
 this
 .
 selectedTab
-)
 ;
 if
 (
@@ -15645,14 +15681,12 @@ if
 aURIObject
 |
 |
-(
 doGetProtocolFlags
 (
 aURIObject
 )
 &
 URI_INHERITS_SECURITY_CONTEXT
-)
 )
 {
 b
@@ -16108,9 +16142,11 @@ tabsToClose
 =
 1
 )
+{
 return
 true
 ;
+}
 const
 pref
 =
@@ -16156,9 +16192,11 @@ if
 !
 shouldPrompt
 )
+{
 return
 true
 ;
+}
 const
 maxTabsUndo
 =
@@ -16327,7 +16365,6 @@ tabsToClose
 let
 flags
 =
-(
 ps
 .
 BUTTON_TITLE_IS_STRING
@@ -16335,9 +16372,7 @@ BUTTON_TITLE_IS_STRING
 ps
 .
 BUTTON_POS_0
-)
 +
-(
 ps
 .
 BUTTON_TITLE_CANCEL
@@ -16345,7 +16380,6 @@ BUTTON_TITLE_CANCEL
 ps
 .
 BUTTON_POS_1
-)
 ;
 let
 checkboxLabel
@@ -16411,12 +16445,10 @@ warnOnClose
 var
 reallyClose
 =
-(
 buttonPressed
 =
 =
 0
-)
 ;
 /
 /
@@ -16455,6 +16487,7 @@ warnOnClose
 .
 value
 )
+{
 Services
 .
 prefs
@@ -16465,6 +16498,7 @@ pref
 false
 )
 ;
+}
 return
 reallyClose
 ;
@@ -16886,10 +16920,12 @@ tab
 .
 selected
 )
+{
 lastToClose
 =
 tab
 ;
+}
 else
 if
 (
@@ -16900,6 +16936,7 @@ _hasBeforeUnload
 tab
 )
 )
+{
 tabsWithBeforeUnload
 .
 push
@@ -16907,7 +16944,9 @@ push
 tab
 )
 ;
+}
 else
+{
 this
 .
 removeTab
@@ -16916,6 +16955,7 @@ tab
 aParams
 )
 ;
+}
 }
 for
 (
@@ -17156,7 +17196,6 @@ return
 var
 isLastTab
 =
-(
 this
 .
 tabs
@@ -17171,7 +17210,6 @@ length
 =
 =
 1
-)
 ;
 let
 windowUtils
@@ -17301,6 +17339,7 @@ _fullyOpen
 &
 byMouse
 )
+{
 this
 .
 tabContainer
@@ -17311,7 +17350,9 @@ aTab
 tabWidth
 )
 ;
+}
 else
+{
 this
 .
 tabContainer
@@ -17320,6 +17361,7 @@ _unlockTabSizing
 (
 )
 ;
+}
 if
 (
 !
@@ -18418,16 +18460,19 @@ _hoveredTab
 =
 aTab
 )
+{
 aTab
 .
 _mouseleave
 (
 )
 ;
+}
 if
 (
 newTab
 )
+{
 this
 .
 addTrustedTab
@@ -18440,13 +18485,16 @@ true
 }
 )
 ;
+}
 else
+{
 TabBarVisibility
 .
 update
 (
 )
 ;
+}
 /
 /
 Splice
@@ -18852,6 +18900,7 @@ owner
 =
 aTab
 )
+{
 /
 /
 |
@@ -18878,6 +18927,7 @@ owner
 null
 ;
 }
+}
 return
 true
 ;
@@ -18898,8 +18948,10 @@ aTab
 .
 _endRemoveArgs
 )
+{
 return
 ;
+}
 var
 [
 aCloseWindow
@@ -19004,6 +19056,7 @@ _removingTabs
 .
 length
 )
+{
 this
 .
 _endRemoveTab
@@ -19016,6 +19069,7 @@ _removingTabs
 ]
 )
 ;
+}
 }
 else
 if
@@ -19030,10 +19084,12 @@ if
 (
 aNewTab
 )
+{
 focusAndSelectUrlBar
 (
 )
 ;
+}
 /
 /
 workaround
@@ -19254,6 +19310,7 @@ aTab
 .
 hidden
 )
+{
 this
 .
 tabContainer
@@ -19262,6 +19319,7 @@ _updateHiddenTabsStatus
 (
 )
 ;
+}
 /
 /
 .
@@ -19296,6 +19354,7 @@ i
 +
 +
 )
+{
 this
 .
 tabs
@@ -19307,6 +19366,7 @@ _tPos
 =
 i
 ;
+}
 if
 (
 !
@@ -19319,6 +19379,7 @@ if
 (
 wasPinned
 )
+{
 this
 .
 tabContainer
@@ -19327,6 +19388,7 @@ _positionPinnedTabs
 (
 )
 ;
+}
 /
 /
 update
@@ -19719,6 +19781,7 @@ if
 (
 aCloseWindow
 )
+{
 this
 .
 _windowIsClosing
@@ -19731,6 +19794,7 @@ window
 warnAboutClosingWindow
 )
 ;
+}
 }
 _findTabToBlurTo
 (
@@ -19871,6 +19935,7 @@ numTabs
 0
 |
 |
+(
 numTabs
 =
 =
@@ -19884,6 +19949,7 @@ remainingTabs
 =
 =
 aTab
+)
 )
 {
 remainingTabs
@@ -20756,6 +20822,7 @@ otherBrowser
 .
 mIconURL
 )
+{
 this
 .
 setIcon
@@ -20766,6 +20833,7 @@ otherBrowser
 mIconURL
 )
 ;
+}
 var
 isBusy
 =
@@ -20810,12 +20878,14 @@ aOurTab
 .
 selected
 )
+{
 this
 .
 _isBusy
 =
 true
 ;
+}
 }
 this
 .
@@ -20963,12 +21033,14 @@ if
 !
 wasHidden
 )
+{
 ourFindBar
 .
 onFindCommand
 (
 )
 ;
+}
 }
 )
 ;
@@ -21046,6 +21118,7 @@ aOurTab
 .
 selected
 )
+{
 this
 .
 updateCurrentBrowser
@@ -21053,6 +21126,7 @@ updateCurrentBrowser
 true
 )
 ;
+}
 if
 (
 modifiedAttrs
@@ -22087,6 +22161,7 @@ includes
 tab
 )
 )
+{
 this
 .
 hideTab
@@ -22094,7 +22169,9 @@ hideTab
 tab
 )
 ;
+}
 else
+{
 this
 .
 showTab
@@ -22102,6 +22179,7 @@ showTab
 tab
 )
 ;
+}
 }
 this
 .
@@ -22431,10 +22509,12 @@ aIndex
 <
 0
 )
+{
 aIndex
 =
 0
 ;
+}
 }
 else
 if
@@ -22549,9 +22629,11 @@ length
 =
 1
 )
+{
 return
 null
 ;
+}
 var
 options
 =
@@ -22570,6 +22652,7 @@ name
 in
 aOptions
 )
+{
 options
 +
 =
@@ -22587,6 +22670,7 @@ aOptions
 name
 ]
 ;
+}
 /
 /
 Play
@@ -23378,8 +23462,10 @@ oldPosition
 =
 aIndex
 )
+{
 return
 ;
+}
 /
 /
 Don
@@ -23398,6 +23484,7 @@ aTab
 .
 pinned
 )
+{
 aIndex
 =
 Math
@@ -23412,7 +23499,9 @@ _numPinnedTabs
 1
 )
 ;
+}
 else
+{
 aIndex
 =
 Math
@@ -23425,6 +23514,7 @@ this
 _numPinnedTabs
 )
 ;
+}
 if
 (
 oldPosition
@@ -23432,8 +23522,10 @@ oldPosition
 =
 aIndex
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -23453,7 +23545,6 @@ WeakMap
 let
 wasFocused
 =
-(
 document
 .
 activeElement
@@ -23462,7 +23553,6 @@ activeElement
 this
 .
 selectedTab
-)
 ;
 aIndex
 =
@@ -23517,6 +23607,7 @@ if
 (
 wasFocused
 )
+{
 this
 .
 selectedTab
@@ -23525,6 +23616,7 @@ focus
 (
 )
 ;
+}
 this
 .
 tabContainer
@@ -23540,6 +23632,7 @@ aTab
 .
 pinned
 )
+{
 this
 .
 tabContainer
@@ -23548,6 +23641,7 @@ _positionPinnedTabs
 (
 )
 ;
+}
 this
 .
 tabContainer
@@ -23625,6 +23719,7 @@ if
 (
 nextTab
 )
+{
 this
 .
 moveTabTo
@@ -23637,6 +23732,7 @@ nextTab
 _tPos
 )
 ;
+}
 else
 if
 (
@@ -23644,12 +23740,14 @@ this
 .
 arrowKeysShouldWrap
 )
+{
 this
 .
 moveTabToStart
 (
 )
 ;
+}
 }
 /
 *
@@ -24060,6 +24158,7 @@ if
 (
 previousTab
 )
+{
 this
 .
 moveTabTo
@@ -24072,6 +24171,7 @@ previousTab
 _tPos
 )
 ;
+}
 else
 if
 (
@@ -24079,12 +24179,14 @@ this
 .
 arrowKeysShouldWrap
 )
+{
 this
 .
 moveTabToEnd
 (
 )
 ;
+}
 }
 moveTabToStart
 (
@@ -24105,6 +24207,7 @@ tabPos
 >
 0
 )
+{
 this
 .
 moveTabTo
@@ -24115,6 +24218,7 @@ selectedTab
 0
 )
 ;
+}
 }
 moveTabToEnd
 (
@@ -24141,6 +24245,7 @@ length
 -
 1
 )
+{
 this
 .
 moveTabTo
@@ -24157,6 +24262,7 @@ length
 1
 )
 ;
+}
 }
 moveTabOver
 (
@@ -24758,6 +24864,7 @@ allTabsSelected
 )
 {
 return
+(
 this
 .
 visibleTabs
@@ -24780,6 +24887,7 @@ t
 t
 .
 multiselected
+)
 )
 ;
 }
@@ -25642,6 +25750,7 @@ and
 unmuted
 state
 .
+(
 tab
 .
 linkedBrowser
@@ -25656,14 +25765,17 @@ tabMuted
 tab
 .
 activeMediaBlocked
+)
 |
 |
+(
 tab
 .
 activeMediaBlocked
 &
 &
 tabMuted
+)
 )
 ;
 }
@@ -25906,6 +26018,7 @@ aBrowser
 }
 return
 (
+(
 aBrowser
 =
 =
@@ -25938,6 +26051,7 @@ _printPreviewBrowsers
 has
 (
 aBrowser
+)
 )
 ;
 }
@@ -27121,9 +27235,11 @@ pending
 "
 )
 )
+{
 return
 undefined
 ;
+}
 let
 titleChanged
 =
@@ -27155,6 +27271,7 @@ busy
 "
 )
 )
+{
 tab
 .
 setAttribute
@@ -27167,6 +27284,7 @@ true
 "
 )
 ;
+}
 break
 ;
 }
@@ -27207,9 +27325,11 @@ if
 !
 tab
 )
+{
 return
 undefined
 ;
+}
 this
 .
 _outerWindowIDBrowserMap
@@ -27776,13 +27896,11 @@ outerID
 -
 "
 +
-(
 +
 +
 this
 .
 _uniquePanelIDCounter
-)
 ;
 }
 destroy
@@ -28123,9 +28241,7 @@ addEventListener
 "
 DOMWindowClose
 "
-(
 event
-)
 =
 >
 {
@@ -28545,9 +28661,7 @@ addEventListener
 "
 DOMWillOpenModalDialog
 "
-(
 event
-)
 =
 >
 {
@@ -28558,8 +28672,10 @@ event
 .
 isTrusted
 )
+{
 return
 ;
+}
 let
 targetIsWindow
 =
@@ -28728,12 +28844,14 @@ focus
 .
 activeWindow
 )
+{
 window
 .
 focus
 (
 )
 ;
+}
 /
 /
 Don
@@ -28795,8 +28913,10 @@ tabForEvent
 .
 selected
 )
+{
 return
 ;
+}
 /
 /
 We
@@ -29124,9 +29244,7 @@ addEventListener
 "
 DOMTitleChanged
 "
-(
 event
-)
 =
 >
 {
@@ -29137,8 +29255,10 @@ event
 .
 isTrusted
 )
+{
 return
 ;
+}
 var
 contentWin
 =
@@ -29157,8 +29277,10 @@ contentWin
 .
 top
 )
+{
 return
 ;
+}
 let
 browser
 =
@@ -29193,8 +29315,10 @@ pending
 "
 )
 )
+{
 return
 ;
+}
 var
 titleChanged
 =
@@ -29226,6 +29350,7 @@ busy
 "
 )
 )
+{
 tab
 .
 setAttribute
@@ -29238,6 +29363,7 @@ true
 "
 )
 ;
+}
 }
 )
 ;
@@ -29252,9 +29378,7 @@ browser
 -
 crashed
 "
-(
 event
-)
 =
 >
 {
@@ -29443,9 +29567,7 @@ buildid
 -
 mismatch
 "
-(
 event
-)
 =
 >
 {
@@ -29456,8 +29578,10 @@ event
 .
 isTrusted
 )
+{
 return
 ;
+}
 let
 browser
 =
@@ -29494,9 +29618,7 @@ addEventListener
 "
 DOMAudioPlaybackStarted
 "
-(
 event
-)
 =
 >
 {
@@ -29666,9 +29788,7 @@ addEventListener
 "
 DOMAudioPlaybackStopped
 "
-(
 event
-)
 =
 >
 {
@@ -29835,9 +29955,7 @@ addEventListener
 "
 DOMAudioPlaybackBlockStarted
 "
-(
 event
-)
 =
 >
 {
@@ -29912,9 +30030,7 @@ addEventListener
 "
 DOMAudioPlaybackBlockStopped
 "
-(
 event
-)
 =
 >
 {
@@ -30013,9 +30129,7 @@ addEventListener
 "
 GloballyAutoplayBlocked
 "
-(
 event
-)
 =
 >
 {
@@ -30722,9 +30836,11 @@ this
 .
 mBlank
 )
+{
 return
 false
 ;
+}
 /
 /
 Don
@@ -30748,13 +30864,11 @@ resources
 .
 if
 (
-(
 aRequest
 instanceof
 Ci
 .
 nsIChannel
-)
 &
 &
 gBrowser
@@ -30917,8 +31031,10 @@ _shouldShowProgress
 aRequest
 )
 )
+{
 return
 ;
+}
 if
 (
 this
@@ -31030,8 +31146,10 @@ if
 !
 aRequest
 )
+{
 return
 ;
+}
 let
 location
 originalLocation
@@ -31165,6 +31283,7 @@ STATE_IS_NETWORK
 )
 |
 |
+(
 !
 ignoreBlank
 &
@@ -31172,6 +31291,7 @@ ignoreBlank
 this
 .
 mBlank
+)
 )
 {
 this
@@ -32222,6 +32342,7 @@ scheme
 keyword
 "
 )
+{
 this
 .
 mBrowser
@@ -32230,6 +32351,7 @@ userTypedValue
 =
 null
 ;
+}
 if
 (
 this
@@ -32238,12 +32360,14 @@ mTab
 .
 selected
 )
+{
 gBrowser
 .
 _isBusy
 =
 false
 ;
+}
 }
 if
 (
@@ -33395,8 +33519,10 @@ this
 .
 mBlank
 )
+{
 return
 ;
+}
 this
 .
 _callProgressListeners
@@ -33535,6 +33661,7 @@ this
 panel
 ;
 return
+(
 this
 .
 panel
@@ -33546,6 +33673,7 @@ getElementById
 "
 statuspanel
 "
+)
 )
 ;
 }
@@ -33846,7 +33974,6 @@ setAttribute
 "
 crop
 "
-(
 type
 =
 =
@@ -33857,7 +33984,6 @@ overLink
 &
 !
 textCropped
-)
 ?
 "
 center
@@ -33881,6 +34007,7 @@ this
 _labelElement
 ;
 return
+(
 this
 .
 _labelElement
@@ -33894,6 +34021,7 @@ statuspanel
 -
 label
 "
+)
 )
 ;
 }

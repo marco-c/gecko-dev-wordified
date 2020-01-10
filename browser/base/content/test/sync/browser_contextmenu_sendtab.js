@@ -1078,11 +1078,13 @@ forEach
 e
 =
 >
+(
 e
 .
 hidden
 =
 false
+)
 )
 ;
 }

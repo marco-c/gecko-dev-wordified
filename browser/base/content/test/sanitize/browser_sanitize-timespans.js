@@ -242,12 +242,14 @@ name
 =
 null
 )
+{
 obj
 .
 fieldname
 =
 name
 ;
+}
 let
 count
 ;
@@ -262,9 +264,11 @@ handleResult
 result
 =
 >
+(
 count
 =
 result
+)
 handleError
 (
 error
@@ -592,7 +596,6 @@ deleted
 ;
 ok
 (
-(
 await
 PlacesUtils
 .
@@ -610,7 +613,6 @@ http
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -626,7 +628,6 @@ exist
 )
 ;
 ok
-(
 (
 await
 PlacesUtils
@@ -645,7 +646,6 @@ http
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -662,7 +662,6 @@ exist
 ;
 ok
 (
-(
 await
 PlacesUtils
 .
@@ -680,7 +679,6 @@ http
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -696,7 +694,6 @@ exist
 )
 ;
 ok
-(
 (
 await
 PlacesUtils
@@ -715,7 +712,6 @@ http
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -731,7 +727,6 @@ exist
 )
 ;
 ok
-(
 (
 await
 PlacesUtils
@@ -750,7 +745,6 @@ http
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -766,7 +760,6 @@ exist
 )
 ;
 ok
-(
 (
 await
 PlacesUtils
@@ -784,7 +777,6 @@ http
 .
 com
 "
-)
 )
 "
 Pretend
@@ -809,7 +801,6 @@ minutesSinceMidnight
 {
 ok
 (
-(
 await
 PlacesUtils
 .
@@ -827,7 +818,6 @@ today
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -843,7 +833,6 @@ exist
 ;
 }
 ok
-(
 (
 await
 PlacesUtils
@@ -863,7 +852,6 @@ today
 .
 com
 "
-)
 )
 "
 Pretend
@@ -1041,6 +1029,7 @@ minutesSinceMidnight
 >
 10
 )
+{
 await
 countEntries
 (
@@ -1058,6 +1047,7 @@ exist
 checkOne
 )
 ;
+}
 await
 countEntries
 (
@@ -1105,7 +1095,6 @@ deleted
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -1117,7 +1106,6 @@ fakefile
 -
 hour
 "
-)
 )
 "
 <
@@ -1132,7 +1120,6 @@ present
 )
 ;
 ok
-(
 (
 await
 downloadExists
@@ -1150,7 +1137,6 @@ hour
 minutes
 "
 )
-)
 "
 1
 hour
@@ -1166,7 +1152,6 @@ present
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -1176,7 +1161,6 @@ fakefile
 -
 old
 "
-)
 )
 "
 Year
@@ -1191,7 +1175,6 @@ present
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -1203,7 +1186,6 @@ fakefile
 -
 hour
 "
-)
 )
 "
 <
@@ -1220,7 +1202,6 @@ present
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -1236,7 +1217,6 @@ hour
 -
 minutes
 "
-)
 )
 "
 2
@@ -1253,7 +1233,6 @@ present
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -1265,7 +1244,6 @@ fakefile
 -
 hour
 "
-)
 )
 "
 <
@@ -1282,7 +1260,6 @@ present
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -1298,7 +1275,6 @@ hour
 -
 minutes
 "
-)
 )
 "
 4
@@ -1319,8 +1295,8 @@ minutesSinceMidnight
 >
 10
 )
+{
 ok
-(
 (
 await
 downloadExists
@@ -1331,7 +1307,6 @@ fakefile
 -
 today
 "
-)
 )
 "
 '
@@ -1345,6 +1320,7 @@ present
 "
 )
 ;
+}
 downloadPromise
 =
 promiseDownloadRemoved
@@ -1432,7 +1408,6 @@ deleted
 ;
 ok
 (
-(
 await
 PlacesUtils
 .
@@ -1450,7 +1425,6 @@ http
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -1466,7 +1440,6 @@ exist
 )
 ;
 ok
-(
 (
 await
 PlacesUtils
@@ -1485,7 +1458,6 @@ http
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -1502,7 +1474,6 @@ exist
 ;
 ok
 (
-(
 await
 PlacesUtils
 .
@@ -1520,7 +1491,6 @@ http
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -1536,7 +1506,6 @@ exist
 )
 ;
 ok
-(
 (
 await
 PlacesUtils
@@ -1555,7 +1524,6 @@ http
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -1571,7 +1539,6 @@ exist
 )
 ;
 ok
-(
 (
 await
 PlacesUtils
@@ -1589,7 +1556,6 @@ http
 .
 com
 "
-)
 )
 "
 Pretend
@@ -1614,7 +1580,6 @@ hoursSinceMidnight
 {
 ok
 (
-(
 await
 PlacesUtils
 .
@@ -1632,7 +1597,6 @@ today
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -1648,7 +1612,6 @@ exist
 ;
 }
 ok
-(
 (
 await
 PlacesUtils
@@ -1668,7 +1631,6 @@ today
 .
 com
 "
-)
 )
 "
 Pretend
@@ -1793,6 +1755,7 @@ hoursSinceMidnight
 >
 1
 )
+{
 await
 countEntries
 (
@@ -1810,6 +1773,7 @@ exist
 checkOne
 )
 ;
+}
 await
 countEntries
 (
@@ -1858,7 +1822,6 @@ deleted
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -1875,7 +1838,6 @@ hour
 minutes
 "
 )
-)
 "
 1
 hour
@@ -1891,7 +1853,6 @@ present
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -1901,7 +1862,6 @@ fakefile
 -
 old
 "
-)
 )
 "
 Year
@@ -1916,7 +1876,6 @@ present
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -1928,7 +1887,6 @@ fakefile
 -
 hour
 "
-)
 )
 "
 <
@@ -1945,7 +1903,6 @@ present
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -1961,7 +1918,6 @@ hour
 -
 minutes
 "
-)
 )
 "
 2
@@ -1978,7 +1934,6 @@ present
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -1990,7 +1945,6 @@ fakefile
 -
 hour
 "
-)
 )
 "
 <
@@ -2007,7 +1961,6 @@ present
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -2023,7 +1976,6 @@ hour
 -
 minutes
 "
-)
 )
 "
 4
@@ -2044,8 +1996,8 @@ hoursSinceMidnight
 >
 1
 )
+{
 ok
-(
 (
 await
 downloadExists
@@ -2056,7 +2008,6 @@ fakefile
 -
 today
 "
-)
 )
 "
 '
@@ -2070,6 +2021,7 @@ present
 "
 )
 ;
+}
 downloadPromise
 =
 promiseDownloadRemoved
@@ -2161,7 +2113,6 @@ deleted
 ;
 ok
 (
-(
 await
 PlacesUtils
 .
@@ -2179,7 +2130,6 @@ http
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -2195,7 +2145,6 @@ exist
 )
 ;
 ok
-(
 (
 await
 PlacesUtils
@@ -2214,7 +2163,6 @@ http
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -2230,7 +2178,6 @@ exist
 )
 ;
 ok
-(
 (
 await
 PlacesUtils
@@ -2249,7 +2196,6 @@ http
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -2265,7 +2211,6 @@ exist
 )
 ;
 ok
-(
 (
 await
 PlacesUtils
@@ -2283,7 +2228,6 @@ http
 .
 com
 "
-)
 )
 "
 Pretend
@@ -2308,7 +2252,6 @@ minutesSinceMidnight
 {
 ok
 (
-(
 await
 PlacesUtils
 .
@@ -2326,7 +2269,6 @@ today
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -2342,7 +2284,6 @@ exist
 ;
 }
 ok
-(
 (
 await
 PlacesUtils
@@ -2362,7 +2303,6 @@ today
 .
 com
 "
-)
 )
 "
 Pretend
@@ -2470,6 +2410,7 @@ minutesSinceMidnight
 >
 70
 )
+{
 await
 countEntries
 (
@@ -2487,6 +2428,7 @@ exist
 checkOne
 )
 ;
+}
 await
 countEntries
 (
@@ -2541,7 +2483,6 @@ deleted
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -2551,7 +2492,6 @@ fakefile
 -
 old
 "
-)
 )
 "
 Year
@@ -2566,7 +2506,6 @@ present
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -2578,7 +2517,6 @@ fakefile
 -
 hour
 "
-)
 )
 "
 <
@@ -2595,7 +2533,6 @@ present
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -2611,7 +2548,6 @@ hour
 -
 minutes
 "
-)
 )
 "
 2
@@ -2628,7 +2564,6 @@ present
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -2640,7 +2575,6 @@ fakefile
 -
 hour
 "
-)
 )
 "
 <
@@ -2657,7 +2591,6 @@ present
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -2673,7 +2606,6 @@ hour
 -
 minutes
 "
-)
 )
 "
 4
@@ -2694,8 +2626,8 @@ minutesSinceMidnight
 >
 70
 )
+{
 ok
-(
 (
 await
 downloadExists
@@ -2706,7 +2638,6 @@ fakefile
 -
 today
 "
-)
 )
 "
 '
@@ -2720,6 +2651,7 @@ present
 "
 )
 ;
+}
 downloadPromise
 =
 promiseDownloadRemoved
@@ -2807,7 +2739,6 @@ deleted
 ;
 ok
 (
-(
 await
 PlacesUtils
 .
@@ -2825,7 +2756,6 @@ http
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -2841,7 +2771,6 @@ exist
 )
 ;
 ok
-(
 (
 await
 PlacesUtils
@@ -2860,7 +2789,6 @@ http
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -2876,7 +2804,6 @@ exist
 )
 ;
 ok
-(
 (
 await
 PlacesUtils
@@ -2894,7 +2821,6 @@ http
 .
 com
 "
-)
 )
 "
 Pretend
@@ -2919,7 +2845,6 @@ hoursSinceMidnight
 {
 ok
 (
-(
 await
 PlacesUtils
 .
@@ -2937,7 +2862,6 @@ today
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -2953,7 +2877,6 @@ exist
 ;
 }
 ok
-(
 (
 await
 PlacesUtils
@@ -2973,7 +2896,6 @@ today
 .
 com
 "
-)
 )
 "
 Pretend
@@ -3064,6 +2986,7 @@ hoursSinceMidnight
 >
 2
 )
+{
 await
 countEntries
 (
@@ -3081,6 +3004,7 @@ exist
 checkOne
 )
 ;
+}
 await
 countEntries
 (
@@ -3130,7 +3054,6 @@ deleted
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -3140,7 +3063,6 @@ fakefile
 -
 old
 "
-)
 )
 "
 Year
@@ -3154,7 +3076,6 @@ present
 )
 ;
 ok
-(
 (
 await
 downloadExists
@@ -3171,7 +3092,6 @@ hour
 -
 minutes
 "
-)
 )
 "
 2
@@ -3188,7 +3108,6 @@ present
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -3200,7 +3119,6 @@ fakefile
 -
 hour
 "
-)
 )
 "
 <
@@ -3217,7 +3135,6 @@ present
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -3233,7 +3150,6 @@ hour
 -
 minutes
 "
-)
 )
 "
 4
@@ -3254,8 +3170,8 @@ hoursSinceMidnight
 >
 2
 )
+{
 ok
-(
 (
 await
 downloadExists
@@ -3266,7 +3182,6 @@ fakefile
 -
 today
 "
-)
 )
 "
 '
@@ -3280,6 +3195,7 @@ present
 "
 )
 ;
+}
 downloadPromise
 =
 promiseDownloadRemoved
@@ -3371,7 +3287,6 @@ deleted
 ;
 ok
 (
-(
 await
 PlacesUtils
 .
@@ -3388,7 +3303,6 @@ http
 .
 com
 "
-)
 )
 "
 Pretend
@@ -3406,7 +3320,6 @@ exist
 ;
 ok
 (
-(
 await
 PlacesUtils
 .
@@ -3423,7 +3336,6 @@ http
 .
 com
 "
-)
 )
 "
 Pretend
@@ -3448,7 +3360,6 @@ minutesSinceMidnight
 {
 ok
 (
-(
 await
 PlacesUtils
 .
@@ -3466,7 +3377,6 @@ today
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -3482,7 +3392,6 @@ exist
 ;
 }
 ok
-(
 (
 await
 PlacesUtils
@@ -3502,7 +3411,6 @@ today
 .
 com
 "
-)
 )
 "
 Pretend
@@ -3576,6 +3484,7 @@ minutesSinceMidnight
 >
 130
 )
+{
 await
 countEntries
 (
@@ -3593,6 +3502,7 @@ exist
 checkOne
 )
 ;
+}
 await
 countEntries
 (
@@ -3647,7 +3557,6 @@ deleted
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -3659,7 +3568,6 @@ fakefile
 -
 hour
 "
-)
 )
 "
 <
@@ -3675,7 +3583,6 @@ present
 )
 ;
 ok
-(
 (
 await
 downloadExists
@@ -3693,7 +3600,6 @@ hour
 minutes
 "
 )
-)
 "
 4
 hour
@@ -3709,7 +3615,6 @@ present
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -3719,7 +3624,6 @@ fakefile
 -
 old
 "
-)
 )
 "
 Year
@@ -3738,8 +3642,8 @@ minutesSinceMidnight
 >
 130
 )
+{
 ok
-(
 (
 await
 downloadExists
@@ -3750,7 +3654,6 @@ fakefile
 -
 today
 "
-)
 )
 "
 '
@@ -3764,6 +3667,7 @@ present
 "
 )
 ;
+}
 downloadPromise
 =
 promiseDownloadRemoved
@@ -3851,7 +3755,6 @@ deleted
 ;
 ok
 (
-(
 await
 PlacesUtils
 .
@@ -3868,7 +3771,6 @@ http
 .
 com
 "
-)
 )
 "
 Pretend
@@ -3893,7 +3795,6 @@ hoursSinceMidnight
 {
 ok
 (
-(
 await
 PlacesUtils
 .
@@ -3911,7 +3812,6 @@ today
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -3927,7 +3827,6 @@ exist
 ;
 }
 ok
-(
 (
 await
 PlacesUtils
@@ -3947,7 +3846,6 @@ today
 .
 com
 "
-)
 )
 "
 Pretend
@@ -4004,6 +3902,7 @@ hoursSinceMidnight
 >
 4
 )
+{
 await
 countEntries
 (
@@ -4021,6 +3920,7 @@ exist
 checkOne
 )
 ;
+}
 await
 countEntries
 (
@@ -4070,7 +3970,6 @@ deleted
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -4087,7 +3986,6 @@ hour
 minutes
 "
 )
-)
 "
 4
 hour
@@ -4103,7 +4001,6 @@ present
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -4113,7 +4010,6 @@ fakefile
 -
 old
 "
-)
 )
 "
 Year
@@ -4132,8 +4028,8 @@ hoursSinceMidnight
 >
 4
 )
+{
 ok
-(
 (
 await
 downloadExists
@@ -4144,7 +4040,6 @@ fakefile
 -
 today
 "
-)
 )
 "
 '
@@ -4158,6 +4053,7 @@ present
 "
 )
 ;
+}
 downloadPromise
 =
 promiseDownloadRemoved
@@ -4256,7 +4152,6 @@ minutesSinceMidnight
 {
 ok
 (
-(
 await
 PlacesUtils
 .
@@ -4274,7 +4169,6 @@ today
 com
 "
 )
-)
 "
 Pretend
 visit
@@ -4290,7 +4184,6 @@ exist
 ;
 }
 ok
-(
 (
 await
 PlacesUtils
@@ -4310,7 +4203,6 @@ today
 .
 com
 "
-)
 )
 "
 Pretend
@@ -4350,6 +4242,7 @@ minutesSinceMidnight
 >
 250
 )
+{
 await
 countEntries
 (
@@ -4367,6 +4260,7 @@ exist
 checkOne
 )
 ;
+}
 await
 countEntries
 (
@@ -4420,7 +4314,6 @@ deleted
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -4430,7 +4323,6 @@ fakefile
 -
 old
 "
-)
 )
 "
 Year
@@ -4449,8 +4341,8 @@ minutesSinceMidnight
 >
 250
 )
+{
 ok
-(
 (
 await
 downloadExists
@@ -4461,7 +4353,6 @@ fakefile
 -
 today
 "
-)
 )
 "
 '
@@ -4475,6 +4366,7 @@ present
 "
 )
 ;
+}
 /
 /
 The
@@ -4746,7 +4638,6 @@ deleted
 }
 ok
 (
-(
 await
 PlacesUtils
 .
@@ -4765,7 +4656,6 @@ today
 .
 com
 "
-)
 )
 "
 Pretend
@@ -4801,7 +4691,6 @@ checkOne
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -4811,7 +4700,6 @@ fakefile
 -
 old
 "
-)
 )
 "
 Year
@@ -7159,7 +7047,6 @@ added
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -7169,7 +7056,6 @@ fakefile
 -
 old
 "
-)
 )
 "
 Pretend
@@ -7184,7 +7070,6 @@ exist
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -7196,7 +7081,6 @@ fakefile
 -
 minutes
 "
-)
 )
 "
 Pretend
@@ -7213,7 +7097,6 @@ exist
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -7225,7 +7108,6 @@ fakefile
 -
 hour
 "
-)
 )
 "
 Pretend
@@ -7242,7 +7124,6 @@ exist
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -7258,7 +7139,6 @@ hour
 -
 minutes
 "
-)
 )
 "
 Pretend
@@ -7279,7 +7159,6 @@ exist
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -7291,7 +7170,6 @@ fakefile
 -
 hour
 "
-)
 )
 "
 Pretend
@@ -7308,7 +7186,6 @@ exist
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -7324,7 +7201,6 @@ hour
 -
 minutes
 "
-)
 )
 "
 Pretend
@@ -7345,7 +7221,6 @@ exist
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -7357,7 +7232,6 @@ fakefile
 -
 hour
 "
-)
 )
 "
 Pretend
@@ -7374,7 +7248,6 @@ exist
 ;
 ok
 (
-(
 await
 downloadExists
 (
@@ -7390,7 +7263,6 @@ hour
 -
 minutes
 "
-)
 )
 "
 Pretend
@@ -7410,7 +7282,6 @@ exist
 )
 ;
 ok
-(
 (
 await
 downloadExists
@@ -7421,7 +7292,6 @@ fakefile
 -
 today
 "
-)
 )
 "
 Pretend

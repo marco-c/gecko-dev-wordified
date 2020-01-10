@@ -145,6 +145,7 @@ this
 _log
 ;
 return
+(
 this
 .
 _log
@@ -165,6 +166,7 @@ DataNotificationInfoBar
 :
 :
 "
+)
 )
 ;
 }

@@ -233,10 +233,12 @@ if
 !
 match
 )
+{
 return
 "
 "
 ;
+}
 url
 =
 decodeURIComponent
@@ -279,6 +281,7 @@ source
 "
 )
 )
+{
 url
 =
 url
@@ -288,6 +291,7 @@ slice
 12
 )
 ;
+}
 return
 url
 ;

@@ -2220,13 +2220,11 @@ filter
 item
 =
 >
-(
 "
 isFromDevTools
 "
 in
 item
-)
 =
 =
 isDevtools
@@ -3762,8 +3760,10 @@ url
 =
 from
 )
+{
 return
 ;
+}
 let
 ref
 ;
@@ -3794,8 +3794,10 @@ ref
 =
 null
 )
+{
 return
 ;
+}
 }
 else
 {
@@ -4109,8 +4111,10 @@ data
 "
 )
 )
+{
 continue
 ;
+}
 try
 {
 url
@@ -4796,6 +4800,7 @@ test
 path
 )
 )
+{
 path
 +
 =
@@ -4804,6 +4809,7 @@ path
 js
 "
 ;
+}
 addCodeReference
 (
 path
@@ -4916,6 +4922,7 @@ test
 url
 )
 )
+{
 url
 +
 =
@@ -4924,6 +4931,7 @@ url
 js
 "
 ;
+}
 if
 (
 url
@@ -5187,6 +5195,7 @@ test
 url
 )
 )
+{
 url
 +
 =
@@ -5195,6 +5204,7 @@ url
 js
 "
 ;
+}
 addCodeReference
 (
 url
@@ -5287,6 +5297,7 @@ res
 ]
 )
 )
+{
 return
 fileUri
 .
@@ -5313,6 +5324,7 @@ res
 "
 )
 ;
+}
 }
 /
 /
@@ -5362,6 +5374,7 @@ has
 baseUri
 )
 )
+{
 return
 gChromeMap
 .
@@ -5372,6 +5385,7 @@ baseUri
 +
 path
 ;
+}
 }
 }
 function
@@ -5630,8 +5644,10 @@ if
 !
 found
 )
+{
 continue
 ;
+}
 /
 /
 C
@@ -5852,6 +5868,7 @@ test
 string
 )
 )
+{
 gReferencesFromCode
 .
 set
@@ -5860,6 +5877,7 @@ string
 null
 )
 ;
+}
 }
 }
 function
@@ -5968,6 +5986,7 @@ platform
 macosx
 "
 )
+{
 libxulPath
 =
 OS
@@ -5984,6 +6003,7 @@ libDir
 +
 libxulPath
 ;
+}
 let
 libxul
 =
@@ -6521,6 +6541,7 @@ css
 "
 )
 )
+{
 allPromises
 .
 push
@@ -6531,6 +6552,7 @@ uri
 ]
 )
 ;
+}
 else
 if
 (
@@ -6549,6 +6571,7 @@ ext
 )
 )
 )
+{
 allPromises
 .
 push
@@ -6559,6 +6582,7 @@ uri
 ]
 )
 ;
+}
 }
 /
 /
@@ -6807,6 +6831,7 @@ hasDevtoolsPrefix
 uri
 )
 )
+{
 chromeFiles
 .
 push
@@ -6814,6 +6839,7 @@ push
 uri
 )
 ;
+}
 }
 if
 (
@@ -6912,9 +6938,11 @@ e
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 gReferencesFromCode
@@ -6943,9 +6971,11 @@ refs
 =
 null
 )
+{
 return
 false
 ;
+}
 for
 (
 let
@@ -7005,9 +7035,11 @@ resource
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -7059,9 +7091,11 @@ whitelist
 direct
 "
 )
+{
 return
 false
 ;
+}
 }
 }
 }
@@ -7141,6 +7175,7 @@ app
 "
 )
 )
+{
 rv
 =
 isUnreferenced
@@ -7167,6 +7202,7 @@ resource
 )
 )
 ;
+}
 if
 (
 rv
@@ -7207,6 +7243,7 @@ test
 f
 )
 )
+{
 rv
 =
 !
@@ -7229,6 +7266,7 @@ replace
 )
 )
 ;
+}
 if
 (
 !
@@ -7609,6 +7647,7 @@ if
 (
 refList
 )
+{
 msg
 +
 =
@@ -7619,6 +7658,7 @@ from
 +
 refList
 ;
+}
 ok
 (
 false
@@ -7644,6 +7684,7 @@ has
 file
 )
 )
+{
 info
 (
 "
@@ -7657,7 +7698,9 @@ entry
 file
 )
 ;
+}
 else
+{
 ok
 (
 false
@@ -7671,6 +7714,7 @@ entry
 file
 )
 ;
+}
 }
 for
 (
@@ -7703,8 +7747,10 @@ prefix
 )
 )
 )
+{
 continue
 ;
+}
 if
 (
 (
@@ -7783,7 +7829,6 @@ content
 ]
 +
 )
-\
 .
 xul
 "
@@ -7817,7 +7862,6 @@ skin
 ]
 +
 )
-\
 .
 css
 "
@@ -7839,8 +7883,10 @@ pathParts
 2
 ]
 )
+{
 continue
 ;
+}
 /
 /
 TODO
@@ -7894,6 +7940,7 @@ if
 (
 refList
 )
+{
 msg
 +
 =
@@ -7904,6 +7951,7 @@ from
 +
 refList
 ;
+}
 info
 (
 msg

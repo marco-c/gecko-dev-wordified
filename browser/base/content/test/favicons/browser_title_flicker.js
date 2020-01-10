@@ -52,9 +52,7 @@ resolve
 let
 listener
 =
-(
 event
-)
 =
 >
 {
@@ -252,9 +250,7 @@ blank
 "
 }
 async
-(
 browser
-)
 =
 >
 {
@@ -484,9 +480,7 @@ html
 "
 }
 async
-(
 browser
-)
 =
 >
 {
@@ -862,9 +856,7 @@ blank
 "
 }
 async
-(
 browser
-)
 =
 >
 {

@@ -2052,6 +2052,7 @@ dir
 in
 cmd
 )
+{
 cmd
 [
 dir
@@ -2066,6 +2067,7 @@ dir
 =
 0
 ;
+}
 let
 check
 =
@@ -2917,6 +2919,7 @@ dir
 in
 cmd
 )
+{
 test_removeCommand
 (
 cmd
@@ -2925,6 +2928,7 @@ dir
 ]
 )
 ;
+}
 }
 /
 /
@@ -4300,9 +4304,11 @@ transformValue
 none
 "
 )
+{
 return
 0
 ;
+}
 transformValue
 =
 transformValue
@@ -4364,7 +4370,6 @@ PI
 )
 ;
 return
-(
 rotation
 <
 0
@@ -4374,7 +4379,6 @@ rotation
 360
 :
 rotation
-)
 ;
 }
 function
@@ -4399,6 +4403,7 @@ aAmount
 >
 90
 )
+{
 /
 /
 Bound
@@ -4411,6 +4416,7 @@ aAmount
 90
 return
 ;
+}
 /
 /
 easier
@@ -4496,6 +4502,7 @@ MozRotateGestureStart
 0
 0
 aDirection
+0
 .
 001
 0
@@ -4553,6 +4560,7 @@ MozRotateGestureUpdate
 0
 0
 aDirection
+0
 .
 001
 0
@@ -4579,11 +4587,13 @@ stopExpectedRotation
 <
 0
 )
+{
 stopExpectedRotation
 +
 =
 360
 ;
+}
 is
 (
 stopExpectedRotation
@@ -4769,11 +4779,13 @@ finalExpectedRotation
 <
 0
 )
+{
 finalExpectedRotation
 +
 =
 360
 ;
+}
 }
 is
 (
@@ -5012,11 +5024,13 @@ rotation
 <
 0
 )
+{
 rotation
 +
 =
 360
 ;
+}
 return
 rotation
 ;
@@ -5231,6 +5245,7 @@ MozRotateGestureStart
 0
 0
 cl
+0
 .
 001
 0
@@ -5260,6 +5275,7 @@ MozRotateGestureUpdate
 0
 0
 cl
+0
 .
 001
 0

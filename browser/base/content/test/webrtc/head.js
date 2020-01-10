@@ -543,6 +543,7 @@ nsISystemStatusBar
 in
 Ci
 )
+{
 return
 Promise
 .
@@ -550,6 +551,7 @@ resolve
 (
 )
 ;
+}
 return
 promiseWindow
 (
@@ -716,32 +718,38 @@ expected
 .
 video
 )
+{
 expectVideo
 =
 true
 ;
+}
 if
 (
 expected
 .
 audio
 )
+{
 expectAudio
 =
 true
 ;
+}
 if
 (
 expected
 .
 screen
 )
+{
 expectScreen
 =
 expected
 .
 screen
 ;
+}
 }
 is
 (
@@ -1065,8 +1073,10 @@ readyState
 complete
 "
 )
+{
 return
 ;
+}
 document
 .
 removeEventListener
@@ -1110,7 +1120,6 @@ screen
 let
 expectedValue
 =
-(
 expected
 &
 &
@@ -1118,7 +1127,6 @@ expected
 [
 item
 ]
-)
 ?
 "
 true
@@ -1517,8 +1525,10 @@ data
 topic
 ]
 )
+{
 continue
 ;
+}
 is
 (
 data
@@ -1867,15 +1877,19 @@ data
 =
 aMessage
 )
+{
 resolve
 (
 )
 ;
+}
 else
+{
 reject
 (
 )
 ;
+}
 }
 )
 ;
@@ -1886,10 +1900,12 @@ if
 (
 aAction
 )
+{
 aAction
 (
 )
 ;
+}
 return
 promise
 ;
@@ -2006,10 +2022,12 @@ if
 (
 aAction
 )
+{
 aAction
 (
 )
 ;
+}
 }
 )
 ;
@@ -2481,6 +2499,7 @@ if
 !
 aShouldKeepSharing
 )
+{
 await
 expectObserverCalled
 (
@@ -2493,6 +2512,7 @@ ended
 "
 )
 ;
+}
 await
 expectNoObserverCalled
 (
@@ -2503,11 +2523,13 @@ if
 !
 aShouldKeepSharing
 )
+{
 await
 checkNotSharing
 (
 )
 ;
+}
 }
 function
 promiseRequestDevice
@@ -2566,6 +2588,7 @@ args
 .
 aFrameId
 )
+{
 global
 =
 global
@@ -2581,6 +2604,7 @@ aFrameId
 .
 contentWindow
 ;
+}
 global
 .
 requestDevice
@@ -2686,6 +2710,7 @@ if
 (
 contentFrameId
 )
+{
 global
 =
 global
@@ -2699,6 +2724,7 @@ contentFrameId
 .
 contentWindow
 ;
+}
 global
 .
 closeStream
@@ -2712,6 +2738,7 @@ if
 (
 promises
 )
+{
 await
 Promise
 .
@@ -2720,6 +2747,7 @@ all
 promises
 )
 ;
+}
 await
 assertWebRTCIndicatorStatus
 (
@@ -2838,6 +2866,7 @@ if
 (
 aAudio
 )
+{
 ok
 (
 !
@@ -2851,7 +2880,9 @@ visible
 "
 )
 ;
+}
 else
+{
 ok
 (
 micSelector
@@ -2864,6 +2895,7 @@ hidden
 "
 )
 ;
+}
 let
 cameraSelector
 =
@@ -2882,6 +2914,7 @@ if
 (
 aVideo
 )
+{
 ok
 (
 !
@@ -2895,7 +2928,9 @@ visible
 "
 )
 ;
+}
 else
+{
 ok
 (
 cameraSelector
@@ -2908,6 +2943,7 @@ hidden
 "
 )
 ;
+}
 let
 screenSelector
 =
@@ -2926,6 +2962,7 @@ if
 (
 aScreen
 )
+{
 ok
 (
 !
@@ -2939,7 +2976,9 @@ visible
 "
 )
 ;
+}
 else
+{
 ok
 (
 screenSelector
@@ -2952,6 +2991,7 @@ hidden
 "
 )
 ;
+}
 }
 /
 /
@@ -3089,6 +3129,7 @@ aExpected
 .
 screen
 )
+{
 is
 (
 sharing
@@ -3106,6 +3147,7 @@ block
 "
 )
 ;
+}
 else
 if
 (
@@ -3116,6 +3158,7 @@ video
 =
 STATE_CAPTURE_ENABLED
 )
+{
 is
 (
 sharing
@@ -3133,6 +3176,7 @@ block
 "
 )
 ;
+}
 else
 if
 (
@@ -3143,6 +3187,7 @@ audio
 =
 STATE_CAPTURE_ENABLED
 )
+{
 is
 (
 sharing
@@ -3160,6 +3205,7 @@ block
 "
 )
 ;
+}
 else
 if
 (
@@ -3167,6 +3213,7 @@ aExpected
 .
 video
 )
+{
 is
 (
 sharing
@@ -3184,6 +3231,7 @@ block
 "
 )
 ;
+}
 else
 if
 (
@@ -3191,6 +3239,7 @@ aExpected
 .
 audio
 )
+{
 is
 (
 sharing
@@ -3208,6 +3257,7 @@ block
 "
 )
 ;
+}
 let
 allStreamsPaused
 =
@@ -3321,11 +3371,13 @@ idToConvert
 camera
 "
 )
+{
 return
 "
 video
 "
 ;
+}
 if
 (
 idToConvert
@@ -3335,11 +3387,13 @@ idToConvert
 microphone
 "
 )
+{
 return
 "
 audio
 "
 ;
+}
 return
 idToConvert
 ;
@@ -3624,11 +3678,9 @@ Assert
 .
 deepEqual
 (
-(
 await
 getMediaCaptureState
 (
-)
 )
 {
 }
@@ -3972,9 +4024,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 prefs
 }

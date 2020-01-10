@@ -43,6 +43,7 @@ function
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -57,6 +58,7 @@ about
 :
 preferences
 "
+)
 )
 ;
 let
