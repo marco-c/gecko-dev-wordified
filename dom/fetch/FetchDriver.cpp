@@ -4254,7 +4254,10 @@ net
 ReferrerPolicy
 >
 (
-NS_GetDefaultReferrerPolicy
+ReferrerInfo
+:
+:
+GetDefaultReferrerPolicy
 (
 httpChan
 uri
