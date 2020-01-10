@@ -143,7 +143,7 @@ browser
 )
 {
 await
-openIdentityPopup
+openProtectionsPopup
 (
 )
 ;
@@ -334,7 +334,7 @@ document
 getElementById
 (
 "
-identity
+protections
 -
 popup
 -

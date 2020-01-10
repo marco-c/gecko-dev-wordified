@@ -1788,7 +1788,7 @@ page
 ;
 win
 .
-ContentBlocking
+gProtectionsHandler
 .
 disableForCurrentPage
 (
@@ -2754,7 +2754,7 @@ page
 ;
 win
 .
-ContentBlocking
+gProtectionsHandler
 .
 enableForCurrentPage
 (

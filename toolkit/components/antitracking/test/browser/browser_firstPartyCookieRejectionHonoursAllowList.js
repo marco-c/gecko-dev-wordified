@@ -155,7 +155,7 @@ page
 "
 )
 ;
-ContentBlocking
+gProtectionsHandler
 .
 disableForCurrentPage
 (
@@ -431,7 +431,7 @@ page
 "
 )
 ;
-ContentBlocking
+gProtectionsHandler
 .
 enableForCurrentPage
 (
