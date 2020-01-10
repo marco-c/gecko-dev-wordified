@@ -727,7 +727,10 @@ uint32_t
 &
 aPromiseId
 const
-nsCString
+cdm
+:
+:
+HdcpVersion
 &
 aMinHdcpVersion
 )
