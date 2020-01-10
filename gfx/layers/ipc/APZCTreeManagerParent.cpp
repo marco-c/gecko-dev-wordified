@@ -1038,6 +1038,11 @@ RunOnControllerThread
 UpdaterQueueSelector
 (
 mWrRootId
+.
+mLayersId
+aGuid
+.
+mRenderRoot
 )
 NewRunnableMethod
 <
@@ -1114,6 +1119,11 @@ RunOnControllerThread
 UpdaterQueueSelector
 (
 mWrRootId
+.
+mLayersId
+aGuid
+.
+mRenderRoot
 )
 NewRunnableMethod
 <
