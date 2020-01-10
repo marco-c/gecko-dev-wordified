@@ -6234,6 +6234,16 @@ manager
 return
 ;
 }
+mCompositor
+-
+>
+RequestRecordFrames
+(
+!
+!
+mCompositionRecorder
+)
+;
 ClearLayerFlags
 (
 mRoot
