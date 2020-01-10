@@ -12528,6 +12528,14 @@ aNewAddon
 .
 pendingUninstall
 ;
+aNewAddon
+.
+installTelemetryInfo
+=
+aOldAddon
+.
+installTelemetryInfo
+;
 return
 this
 .
@@ -16804,6 +16812,9 @@ releaseNotesURI
 "
 "
 targetApplications
+"
+"
+installTelemetryInfo
 "
 ]
 ;
