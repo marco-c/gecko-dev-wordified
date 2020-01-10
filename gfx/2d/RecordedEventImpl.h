@@ -10730,6 +10730,11 @@ storage
 -
 >
 mEnd
+storage
+-
+>
+mStops
+?
 mTranslator
 -
 >
@@ -10740,6 +10745,8 @@ storage
 >
 mStops
 )
+:
+nullptr
 storage
 -
 >
@@ -10798,6 +10805,11 @@ storage
 -
 >
 mRadius2
+storage
+-
+>
+mStops
+?
 mTranslator
 -
 >
@@ -10808,6 +10820,8 @@ storage
 >
 mStops
 )
+:
+nullptr
 storage
 -
 >
