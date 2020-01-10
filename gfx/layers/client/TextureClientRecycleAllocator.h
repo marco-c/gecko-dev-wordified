@@ -338,6 +338,7 @@ mAllocationFlags
 }
 ;
 class
+MOZ_RAII
 YCbCrTextureClientAllocationHelper
 :
 public

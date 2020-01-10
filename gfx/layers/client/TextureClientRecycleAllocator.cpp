@@ -281,6 +281,7 @@ mWillRecycle
 }
 ;
 class
+MOZ_RAII
 DefaultTextureClientAllocationHelper
 :
 public

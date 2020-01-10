@@ -1265,6 +1265,7 @@ mTexture
 ;
 }
 class
+MOZ_RAII
 D3D11TextureClientAllocationHelper
 :
 public
