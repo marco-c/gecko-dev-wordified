@@ -467,12 +467,12 @@ renderCell
 :
 PropTypes
 .
-object
+func
 renderLabelCell
 :
 PropTypes
 .
-object
+func
 columns
 :
 PropTypes
