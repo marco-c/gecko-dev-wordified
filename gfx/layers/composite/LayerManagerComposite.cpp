@@ -6825,12 +6825,6 @@ BeginFrame
 (
 aInvalidRegion
 rootLayerClip
-?
-&
-*
-rootLayerClip
-:
-nullptr
 mRenderBounds
 aOpaqueRegion
 mNativeLayerForEntireWindow
@@ -8139,7 +8133,9 @@ mCompositor
 BeginFrame
 (
 invalid
-nullptr
+Nothing
+(
+)
 bounds
 nsIntRegion
 (

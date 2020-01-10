@@ -5780,9 +5780,12 @@ nsIntRegion
 &
 aInvalidRegion
 const
+Maybe
+<
 IntRect
-*
-aClipRectIn
+>
+&
+aClipRect
 const
 IntRect
 &

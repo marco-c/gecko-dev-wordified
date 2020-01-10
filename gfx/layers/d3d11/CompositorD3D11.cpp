@@ -6653,9 +6653,12 @@ nsIntRegion
 &
 aInvalidRegion
 const
+Maybe
+<
 IntRect
-*
-aClipRectIn
+>
+&
+aClipRect
 const
 IntRect
 &
@@ -6995,7 +6998,7 @@ invalidRect
 ;
 if
 (
-aClipRectIn
+aClipRect
 )
 {
 clipRect
@@ -7004,7 +7007,7 @@ IntersectRect
 (
 clipRect
 *
-aClipRectIn
+aClipRect
 )
 ;
 }

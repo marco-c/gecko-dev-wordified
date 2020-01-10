@@ -2934,7 +2934,7 @@ sufficient
 .
 *
 *
-aClipRectIn
+aClipRect
 is
 the
 clip
@@ -3017,12 +3017,15 @@ nsIntRegion
 &
 aInvalidRegion
 const
+Maybe
+<
 gfx
 :
 :
 IntRect
-*
-aClipRectIn
+>
+&
+aClipRect
 const
 gfx
 :
