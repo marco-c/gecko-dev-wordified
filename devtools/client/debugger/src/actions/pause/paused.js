@@ -265,14 +265,6 @@ frames
 :
 null
 ;
-client
-.
-onPauseChange
-(
-thread
-true
-)
-;
 dispatch
 (
 {

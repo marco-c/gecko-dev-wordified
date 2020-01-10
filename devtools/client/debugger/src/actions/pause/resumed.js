@@ -218,14 +218,6 @@ getState
 thread
 )
 ;
-client
-.
-onPauseChange
-(
-thread
-false
-)
-;
 dispatch
 (
 {

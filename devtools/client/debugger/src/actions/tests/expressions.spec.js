@@ -304,11 +304,6 @@ to
 )
 ;
 }
-onPauseChange
-(
-)
-{
-}
 }
 ;
 describe
