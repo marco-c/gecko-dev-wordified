@@ -207,7 +207,7 @@ opt
 -
 xpcshell
 -
-1proc
+e10s
 -
 1
 "
