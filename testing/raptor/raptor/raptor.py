@@ -642,6 +642,12 @@ venv
         
 self
 .
+raptor_webext
+=
+None
+        
+self
+.
 control_server
 =
 None
@@ -2549,6 +2555,31 @@ with
 each
 subtest
 anyway
+        
+if
+not
+self
+.
+raptor_webext
+:
+            
+LOG
+.
+info
+(
+"
+raptor
+webext
+not
+installed
+-
+not
+attempting
+removal
+"
+)
+            
+return
         
 LOG
 .
