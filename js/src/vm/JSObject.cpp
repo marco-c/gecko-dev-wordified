@@ -354,6 +354,9 @@ PropertySpec
 .
 h
 "
+/
+/
+JSPropertySpec
 #
 include
 "
@@ -20085,9 +20088,10 @@ PropertySpecNameToId
 JSContext
 *
 cx
-const
-char
-*
+JSPropertySpec
+:
+:
+Name
 name
 MutableHandleId
 id
