@@ -438,6 +438,15 @@ kwargs
 )
 :
     
+package
+=
+kwargs
+[
+"
+package_name
+"
+]
+    
 rv
 =
 {
@@ -445,6 +454,19 @@ rv
 e10s
 "
 :
+True
+if
+package
+is
+not
+None
+and
+"
+geckoview
+"
+in
+package
+else
 False
           
 "
