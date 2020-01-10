@@ -70315,14 +70315,6 @@ aWindowSizes
 )
 ;
 }
-mStyleSet
--
->
-AddSizeOfIncludingThis
-(
-aWindowSizes
-)
-;
 aWindowSizes
 .
 mDOMOtherSize
