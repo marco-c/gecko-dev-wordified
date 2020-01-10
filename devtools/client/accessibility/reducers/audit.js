@@ -135,6 +135,13 @@ CONTRAST
 ]
 :
 false
+[
+FILTERS
+.
+TEXT_LABEL
+]
+:
+false
 }
 auditing
 :
@@ -176,6 +183,13 @@ true
 FILTERS
 .
 CONTRAST
+]
+:
+true
+[
+FILTERS
+.
+TEXT_LABEL
 ]
 :
 true
