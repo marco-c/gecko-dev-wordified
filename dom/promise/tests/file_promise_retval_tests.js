@@ -119,6 +119,13 @@ promises
 .
 *
 /
+/
+*
+global
+verifyPromiseGlobal
+expectedExceptionGlobal
+*
+/
 var
 label
 =

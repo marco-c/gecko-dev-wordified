@@ -19,6 +19,18 @@ sampleResult
 =
 1275
 ;
+/
+*
+eslint
+-
+disable
+no
+-
+throw
+-
+literal
+*
+/
 function
 checkSampleModule
 (
@@ -218,6 +230,7 @@ checkSampleModule
 (
 module
 )
+;
 checkSampleInstance
 (
 instance
@@ -294,6 +307,7 @@ checkSampleModule
 (
 module
 )
+;
 checkSampleInstance
 (
 instance
@@ -362,6 +376,7 @@ checkSampleModule
 (
 module
 )
+;
 checkSampleInstance
 (
 instance

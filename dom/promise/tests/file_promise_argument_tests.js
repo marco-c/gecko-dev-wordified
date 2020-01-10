@@ -149,6 +149,14 @@ promises
 .
 *
 /
+/
+*
+global
+verifyPromiseGlobal
+getPromise
+isXrayArgumentTest
+*
+/
 var
 label
 =
