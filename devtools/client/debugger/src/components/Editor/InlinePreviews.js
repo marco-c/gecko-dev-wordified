@@ -101,7 +101,7 @@ import
 {
 getSelectedFrame
 getCurrentThread
-getInlinePreview
+getInlinePreviews
 }
 from
 "
@@ -143,7 +143,7 @@ Frame
 selectedSource
 :
 Object
-preview
+previews
 :
 Object
 }
@@ -165,7 +165,7 @@ const
 editor
 selectedFrame
 selectedSource
-preview
+previews
 }
 =
 this
@@ -207,7 +207,7 @@ id
 |
 |
 !
-preview
+previews
 )
 {
 return
@@ -224,7 +224,7 @@ Object
 .
 keys
 (
-preview
+previews
 )
 .
 map
@@ -251,10 +251,10 @@ line
 10
 )
 }
-preview
+previews
 =
 {
-preview
+previews
 [
 line
 ]
@@ -310,9 +310,9 @@ return
 return
 {
 selectedFrame
-preview
+previews
 :
-getInlinePreview
+getInlinePreviews
 (
 state
 thread

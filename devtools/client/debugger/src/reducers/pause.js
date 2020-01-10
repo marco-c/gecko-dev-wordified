@@ -195,6 +195,7 @@ MappedLocation
 ThreadId
 Context
 ThreadContext
+Previews
 }
 from
 "
@@ -1689,7 +1690,7 @@ ADD_INLINE_PREVIEW
 const
 {
 frame
-previewData
+previews
 }
 =
 action
@@ -1720,7 +1721,7 @@ inlinePreview
 selectedFrameId
 ]
 :
-previewData
+previews
 }
 }
 )
@@ -2933,7 +2934,7 @@ mapScopes
 }
 export
 function
-getInlinePreview
+getInlinePreviews
 (
 state
 :
@@ -2945,6 +2946,8 @@ frameId
 :
 string
 )
+:
+Previews
 {
 return
 getThreadPauseState
@@ -2986,7 +2989,7 @@ string
 )
 {
 const
-previewData
+previews
 =
 getThreadPauseState
 (
@@ -3005,16 +3008,16 @@ frameId
 ]
 ;
 return
-previewData
+previews
 &
 &
-previewData
+previews
 [
 line
 ]
 &
 &
-previewData
+previews
 [
 line
 ]
