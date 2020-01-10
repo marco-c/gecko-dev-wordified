@@ -51752,6 +51752,11 @@ IsNSSErrorCode
 (
 nsprError
 )
+&
+&
+IsHTTPS
+(
+)
 )
 {
 gIOService
