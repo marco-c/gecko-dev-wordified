@@ -5064,7 +5064,7 @@ Nonzero
 )
 mPaintOrder
 (
-NS_STYLE_PAINT_ORDER_NORMAL
+0
 )
 mShapeRendering
 (

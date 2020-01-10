@@ -444,17 +444,6 @@ aResult
 ;
 static
 void
-AppendPaintOrderValue
-(
-uint8_t
-aValue
-nsAString
-&
-aResult
-)
-;
-static
-void
 AppendCSSNumber
 (
 float

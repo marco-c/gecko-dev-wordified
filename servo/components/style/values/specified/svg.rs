@@ -823,6 +823,7 @@ non
 -
 normal
 components
+pub
 const
 PAINT_ORDER_COUNT
 :
@@ -839,6 +840,7 @@ bits
 for
 each
 component
+pub
 const
 PAINT_ORDER_SHIFT
 :
@@ -854,6 +856,7 @@ with
 above
 bits
 set
+pub
 const
 PAINT_ORDER_MASK
 :
@@ -993,6 +996,13 @@ ToResolvedValue
 ToShmem
 )
 ]
+#
+[
+repr
+(
+transparent
+)
+]
 pub
 struct
 SVGPaintOrder
@@ -1063,8 +1073,6 @@ patterns
 .
 unsafe
 {
-:
-:
 std
 :
 :
