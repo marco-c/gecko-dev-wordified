@@ -24979,7 +24979,7 @@ enabled
 "
 media_devices_insecure_enabled
 bool
-true
+false
 )
 /
 /
