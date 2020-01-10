@@ -5698,7 +5698,7 @@ this
 querySelector
 (
 "
-.
+#
 tabs
 -
 newtab

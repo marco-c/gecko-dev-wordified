@@ -985,7 +985,7 @@ tabbrowser
 -
 arrowscrollbox
 >
-.
+#
 tabs
 -
 newtab
@@ -1008,7 +1008,7 @@ tabbrowser
 -
 arrowscrollbox
 >
-.
+#
 tabs
 -
 newtab
@@ -1024,16 +1024,6 @@ true
 "
 ]
 #
-tabbrowser
--
-tabs
->
-.
-tabbrowser
--
-arrowscrollbox
->
-.
 tabs
 -
 newtab
