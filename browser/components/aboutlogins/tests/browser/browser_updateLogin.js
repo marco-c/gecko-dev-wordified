@@ -376,6 +376,9 @@ login
 list
 -
 item
+[
+guid
+]
 "
 )
 )

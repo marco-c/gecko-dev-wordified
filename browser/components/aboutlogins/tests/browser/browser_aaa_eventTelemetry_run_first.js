@@ -383,6 +383,9 @@ login
 list
 -
 item
+[
+guid
+]
 "
 )
 ;
@@ -980,6 +983,9 @@ login
 list
 -
 item
+[
+guid
+]
 "
 )
 ;
