@@ -5011,6 +5011,12 @@ advance
 ;
 cache
 .
+prepared_for_frames
+=
+true
+;
+cache
+.
 begin_frame
 (
 now
