@@ -522,6 +522,8 @@ nullptr
 nullptr
 &
 kSctItem
+nullptr
+nullptr
 }
 ;
 /
@@ -1044,6 +1046,8 @@ nullptr
 &
 kOcspResponses
 nullptr
+nullptr
+nullptr
 }
 ;
 TEST_P
@@ -1546,6 +1550,8 @@ ssl_auth_null
 nullptr
 &
 hugeOcspResponses
+nullptr
+nullptr
 nullptr
 }
 ;

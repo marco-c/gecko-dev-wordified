@@ -3336,12 +3336,16 @@ ssl_CheckSignatureSchemeConsistency
 (
 ss
 sigScheme
+&
 ss
 -
 >
 sec
 .
 peerCert
+-
+>
+subjectPublicKeyInfo
 )
 ;
 if
