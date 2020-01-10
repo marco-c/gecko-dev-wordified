@@ -400,16 +400,6 @@ path
 EqualsLiteral
 (
 "
-license
-"
-)
-|
-|
-path
-.
-EqualsLiteral
-(
-"
 logo
 "
 )
