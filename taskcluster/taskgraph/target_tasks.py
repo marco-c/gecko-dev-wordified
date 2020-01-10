@@ -1578,13 +1578,6 @@ debug
 return
 False
         
-#
-no
-non
--
-e10s
-tests
-        
 if
 attr
 .
@@ -1595,6 +1588,13 @@ unittest_suite
 '
 )
 :
+            
+#
+no
+non
+-
+e10s
+tests
             
 if
 not
@@ -1608,6 +1608,38 @@ e10s
 )
 :
                 
+return
+False
+            
+#
+filter
+out
+by
+test
+platform
+            
+for
+p
+in
+(
+'
+-
+qr
+'
+)
+:
+                
+if
+p
+in
+attr
+[
+'
+test_platform
+'
+]
+:
+                    
 return
 False
         
