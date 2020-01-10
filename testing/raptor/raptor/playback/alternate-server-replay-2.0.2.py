@@ -561,10 +561,8 @@ as
 f
 :
                         
-_PROTO
-.
-update
-(
+p
+=
 json
 .
 loads
@@ -575,6 +573,26 @@ read
 (
 )
 )
+.
+get
+(
+'
+http_protocol
+'
+)
+                        
+if
+p
+is
+not
+None
+:
+                            
+_PROTO
+.
+update
+(
+p
 )
         
 self
