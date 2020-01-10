@@ -610,13 +610,8 @@ self
 .
 target_tasks
         
-def
-make_fake_strategies
-(
-)
-:
-            
-return
+fake_registry
+=
 {
 mode
 :
@@ -624,7 +619,7 @@ FakeOptimization
 (
 mode
 )
-                    
+                         
 for
 mode
 in
@@ -663,9 +658,9 @@ setattr
 (
 optimize_mod
 '
-_make_default_strategies
+registry
 '
-make_fake_strategies
+fake_registry
 )
         
 parameters
