@@ -2563,6 +2563,11 @@ Shutdown
 (
 )
 ;
+void
+QuitIME
+(
+)
+;
 #
 if
 defined
@@ -4174,6 +4179,9 @@ mUseAttachedEvents
 ;
 bool
 mIMEHasFocus
+;
+bool
+mIMEHasQuit
 ;
 bool
 mIsFullyOccluded
