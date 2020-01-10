@@ -9483,7 +9483,7 @@ nsAString
 &
 aType
 const
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
@@ -10270,7 +10270,7 @@ buffered_bytes_
 len
 ;
 {
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
@@ -10278,7 +10278,7 @@ uint8_t
 arr
 =
 new
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
@@ -10344,7 +10344,7 @@ NrTcpSocketIpc
 write_i
 nsAutoPtr
 <
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
@@ -10741,7 +10741,7 @@ write_i
 (
 nsAutoPtr
 <
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >

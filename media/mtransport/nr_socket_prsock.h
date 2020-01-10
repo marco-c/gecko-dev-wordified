@@ -2221,7 +2221,7 @@ write_i
 (
 nsAutoPtr
 <
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
