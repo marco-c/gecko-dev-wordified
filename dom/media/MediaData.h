@@ -2726,6 +2726,13 @@ ColorDepth
 ColorDepth
 ;
 typedef
+gfx
+:
+:
+YUVColorSpace
+YUVColorSpace
+;
+typedef
 layers
 :
 :

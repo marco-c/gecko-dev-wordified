@@ -1075,6 +1075,9 @@ YuvToRgbMatrix4x3RowMajor
 mozilla
 :
 :
+gfx
+:
+:
 YUVColorSpace
 aYUVColorSpace
 )
@@ -1088,6 +1091,9 @@ YuvToRgbMatrix3x3ColumnMajor
 mozilla
 :
 :
+gfx
+:
+:
 YUVColorSpace
 aYUVColorSpace
 )
@@ -1099,6 +1105,9 @@ float
 YuvToRgbMatrix4x4ColumnMajor
 (
 mozilla
+:
+:
+gfx
 :
 :
 YUVColorSpace

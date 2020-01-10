@@ -261,6 +261,9 @@ gfx
 :
 ColorDepth
 aColorDepth
+gfx
+:
+:
 YUVColorSpace
 aYUVColorSpace
 TextureFlags
@@ -399,6 +402,9 @@ const
 ;
 Maybe
 <
+gfx
+:
+:
 YUVColorSpace
 >
 GetYUVColorSpace

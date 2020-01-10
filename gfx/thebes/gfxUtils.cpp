@@ -8102,6 +8102,9 @@ gfxUtils
 :
 YuvToRgbMatrix4x3RowMajor
 (
+gfx
+:
+:
 YUVColorSpace
 aYUVColorSpace
 )
@@ -8208,6 +8211,9 @@ aYUVColorSpace
 )
 {
 case
+gfx
+:
+:
 YUVColorSpace
 :
 :
@@ -8217,6 +8223,9 @@ return
 rec601
 ;
 case
+gfx
+:
+:
 YUVColorSpace
 :
 :
@@ -8226,6 +8235,9 @@ return
 rec709
 ;
 case
+gfx
+:
+:
 YUVColorSpace
 :
 :
@@ -8269,6 +8281,9 @@ gfxUtils
 :
 YuvToRgbMatrix3x3ColumnMajor
 (
+gfx
+:
+:
 YUVColorSpace
 aYUVColorSpace
 )
@@ -8366,6 +8381,9 @@ aYUVColorSpace
 )
 {
 case
+gfx
+:
+:
 YUVColorSpace
 :
 :

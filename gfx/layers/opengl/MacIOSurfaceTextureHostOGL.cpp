@@ -1653,6 +1653,9 @@ wr
 :
 ToWrYuvColorSpace
 (
+gfx
+:
+:
 YUVColorSpace
 :
 :
@@ -1751,6 +1754,9 @@ wr
 :
 ToWrYuvColorSpace
 (
+gfx
+:
+:
 YUVColorSpace
 :
 :

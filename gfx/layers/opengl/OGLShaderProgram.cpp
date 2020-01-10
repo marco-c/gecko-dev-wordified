@@ -9671,6 +9671,9 @@ ShaderProgramOGL
 :
 SetYUVColorSpace
 (
+gfx
+:
+:
 YUVColorSpace
 aYUVColorSpace
 )

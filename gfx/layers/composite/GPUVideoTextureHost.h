@@ -255,6 +255,9 @@ MOZ_DUMP_PAINTING
 )
 }
 virtual
+gfx
+:
+:
 YUVColorSpace
 GetYUVColorSpace
 (

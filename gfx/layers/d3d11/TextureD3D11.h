@@ -782,6 +782,9 @@ gfx
 :
 ColorDepth
 aColorDepth
+gfx
+:
+:
 YUVColorSpace
 aYUVColorSpace
 )
@@ -826,6 +829,9 @@ gfx
 :
 ColorDepth
 aColorDepth
+gfx
+:
+:
 YUVColorSpace
 aYUVColorSpace
 )
@@ -1000,6 +1006,9 @@ return
 mColorDepth
 ;
 }
+gfx
+:
+:
 YUVColorSpace
 GetYUVColorSpace
 (
@@ -1075,6 +1084,9 @@ gfx
 ColorDepth
 mColorDepth
 ;
+gfx
+:
+:
 YUVColorSpace
 mYUVColorSpace
 ;
@@ -2199,6 +2211,9 @@ mColorDepth
 ;
 }
 virtual
+gfx
+:
+:
 YUVColorSpace
 GetYUVColorSpace
 (
@@ -2430,6 +2445,9 @@ gfx
 ColorDepth
 mColorDepth
 ;
+gfx
+:
+:
 YUVColorSpace
 mYUVColorSpace
 ;

@@ -641,6 +641,9 @@ mColorSpace
 /
 /
 CS_BT_601
+gfx
+:
+:
 YUVColorSpace
 ColorSpace
 (
@@ -662,6 +665,9 @@ case
 4
 :
 return
+gfx
+:
+:
 YUVColorSpace
 :
 :
@@ -671,6 +677,9 @@ case
 2
 :
 return
+gfx
+:
+:
 YUVColorSpace
 :
 :
@@ -680,6 +689,9 @@ case
 5
 :
 return
+gfx
+:
+:
 YUVColorSpace
 :
 :
@@ -688,6 +700,9 @@ BT2020
 default
 :
 return
+gfx
+:
+:
 YUVColorSpace
 :
 :

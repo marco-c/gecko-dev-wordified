@@ -1069,6 +1069,9 @@ EffectYCbCr
 TextureSource
 *
 aSource
+gfx
+:
+:
 YUVColorSpace
 aYUVColorSpace
 gfx
@@ -1118,6 +1121,9 @@ EffectYCbCr
 "
 ;
 }
+gfx
+:
+:
 YUVColorSpace
 mYUVColorSpace
 ;
@@ -1684,6 +1690,9 @@ GetYUVColorSpace
 )
 !
 =
+gfx
+:
+:
 YUVColorSpace
 :
 :

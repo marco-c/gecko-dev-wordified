@@ -6653,6 +6653,9 @@ yuvArgs
 .
 colorSpace
 =
+gfx
+:
+:
 YUVColorSpace
 :
 :

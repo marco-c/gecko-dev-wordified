@@ -2991,6 +2991,9 @@ GetFormat
 ;
 }
 virtual
+gfx
+:
+:
 YUVColorSpace
 GetYUVColorSpace
 (
@@ -2998,6 +3001,9 @@ GetYUVColorSpace
 const
 {
 return
+gfx
+:
+:
 YUVColorSpace
 :
 :
@@ -4750,6 +4756,9 @@ const
 override
 ;
 virtual
+gfx
+:
+:
 YUVColorSpace
 GetYUVColorSpace
 (

@@ -434,6 +434,9 @@ gfx
 ColorDepth
 mColorDepth
 ;
+gfx
+:
+:
 YUVColorSpace
 mColorSpace
 ;

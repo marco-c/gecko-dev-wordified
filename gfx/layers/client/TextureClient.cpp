@@ -7627,6 +7627,9 @@ gfx
 :
 ColorDepth
 aColorDepth
+gfx
+:
+:
 YUVColorSpace
 aYUVColorSpace
 TextureFlags

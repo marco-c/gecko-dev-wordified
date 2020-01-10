@@ -116,7 +116,11 @@ FilterMode
 #
 include
 "
-ImageTypes
+mozilla
+/
+gfx
+/
+Types
 .
 h
 "
@@ -161,6 +165,9 @@ src_stride_v
 uint32
 src_fourcc
 mozilla
+:
+:
+gfx
 :
 :
 YUVColorSpace

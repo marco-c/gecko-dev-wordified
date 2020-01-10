@@ -1980,6 +1980,9 @@ MLGBuffer
 >
 GetBufferForColorSpace
 (
+gfx
+:
+:
 YUVColorSpace
 aColorSpace
 )
@@ -2788,7 +2791,13 @@ mInitialized
 typedef
 EnumeratedArray
 <
+gfx
+:
+:
 YUVColorSpace
+gfx
+:
+:
 YUVColorSpace
 :
 :

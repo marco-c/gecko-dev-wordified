@@ -514,6 +514,9 @@ aProvider
 )
 {
 }
+gfx
+:
+:
 YUVColorSpace
 WebRenderTextureHost
 :
@@ -538,6 +541,9 @@ GetYUVColorSpace
 ;
 }
 return
+gfx
+:
+:
 YUVColorSpace
 :
 :

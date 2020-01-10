@@ -422,6 +422,9 @@ mDecodedImageSize
 uint32_t
 mVideoStride
 ;
+gfx
+:
+:
 YUVColorSpace
 mYUVColorSpace
 ;

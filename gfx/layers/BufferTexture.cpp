@@ -867,6 +867,9 @@ gfx
 :
 ColorDepth
 aColorDepth
+gfx
+:
+:
 YUVColorSpace
 aYUVColorSpace
 TextureFlags
@@ -1226,6 +1229,9 @@ mDescriptor
 }
 Maybe
 <
+gfx
+:
+:
 YUVColorSpace
 >
 BufferTextureData

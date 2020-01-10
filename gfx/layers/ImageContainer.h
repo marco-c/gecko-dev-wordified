@@ -4596,6 +4596,9 @@ mPicSize
 StereoMode
 mStereoMode
 ;
+gfx
+:
+:
 YUVColorSpace
 mYUVColorSpace
 ;
@@ -4699,6 +4702,9 @@ MONO
 )
 mYUVColorSpace
 (
+gfx
+:
+:
 YUVColorSpace
 :
 :
