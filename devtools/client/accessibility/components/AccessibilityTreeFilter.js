@@ -620,6 +620,15 @@ role
 "
 toolbar
 "
+className
+:
+"
+accessibility
+-
+tree
+-
+filters
+"
 }
 L10N
 .
