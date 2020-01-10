@@ -190,13 +190,6 @@ Subject
 :
 onStateChange
 (
-const
-gl
-:
-:
-Context
-*
-context
 SubjectMessage
 message
 )
@@ -232,7 +225,6 @@ getObserver
 >
 onSubjectStateChange
 (
-context
 binding
 -
 >
@@ -411,13 +403,6 @@ ObserverBinding
 :
 onStateChange
 (
-const
-gl
-:
-:
-Context
-*
-context
 SubjectMessage
 message
 )
@@ -430,7 +415,6 @@ getObserver
 >
 onSubjectStateChange
 (
-context
 getSubjectIndex
 (
 )

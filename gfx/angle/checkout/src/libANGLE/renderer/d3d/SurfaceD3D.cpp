@@ -585,6 +585,7 @@ mD3DTexture
 mFixedWidth
 &
 mFixedHeight
+nullptr
 &
 mColorFormat
 )
@@ -1849,7 +1850,7 @@ DisplayD3D
 context
 -
 >
-getCurrentDisplay
+getDisplay
 (
 )
 )
@@ -1903,7 +1904,7 @@ DisplayD3D
 context
 -
 >
-getCurrentDisplay
+getDisplay
 (
 )
 )

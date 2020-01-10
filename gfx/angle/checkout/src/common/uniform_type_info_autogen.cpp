@@ -20,7 +20,7 @@ py
 /
 /
 Copyright
-2018
+2019
 The
 ANGLE
 Project
@@ -137,6 +137,8 @@ InvalidEnum
 false
 false
 false
+"
+"
 }
 {
 GL_BOOL
@@ -170,6 +172,8 @@ GLint
 false
 false
 false
+"
+"
 }
 {
 GL_BOOL_VEC2
@@ -203,6 +207,8 @@ GLint
 false
 false
 false
+"
+"
 }
 {
 GL_BOOL_VEC3
@@ -236,6 +242,8 @@ GLint
 false
 false
 false
+"
+"
 }
 {
 GL_BOOL_VEC4
@@ -269,6 +277,8 @@ GLint
 false
 false
 false
+"
+"
 }
 {
 GL_FLOAT
@@ -302,6 +312,8 @@ GLfloat
 false
 false
 false
+"
+"
 }
 {
 GL_FLOAT_MAT2
@@ -335,6 +347,8 @@ GLfloat
 false
 true
 false
+"
+"
 }
 {
 GL_FLOAT_MAT2x3
@@ -368,6 +382,8 @@ GLfloat
 false
 true
 false
+"
+"
 }
 {
 GL_FLOAT_MAT2x4
@@ -401,6 +417,8 @@ GLfloat
 false
 true
 false
+"
+"
 }
 {
 GL_FLOAT_MAT3
@@ -434,6 +452,8 @@ GLfloat
 false
 true
 false
+"
+"
 }
 {
 GL_FLOAT_MAT3x2
@@ -467,6 +487,8 @@ GLfloat
 false
 true
 false
+"
+"
 }
 {
 GL_FLOAT_MAT3x4
@@ -500,6 +522,8 @@ GLfloat
 false
 true
 false
+"
+"
 }
 {
 GL_FLOAT_MAT4
@@ -533,6 +557,8 @@ GLfloat
 false
 true
 false
+"
+"
 }
 {
 GL_FLOAT_MAT4x2
@@ -566,6 +592,8 @@ GLfloat
 false
 true
 false
+"
+"
 }
 {
 GL_FLOAT_MAT4x3
@@ -599,6 +627,8 @@ GLfloat
 false
 true
 false
+"
+"
 }
 {
 GL_FLOAT_VEC2
@@ -632,6 +662,8 @@ GLfloat
 false
 false
 false
+"
+"
 }
 {
 GL_FLOAT_VEC3
@@ -665,6 +697,8 @@ GLfloat
 false
 false
 false
+"
+"
 }
 {
 GL_FLOAT_VEC4
@@ -698,6 +732,8 @@ GLfloat
 false
 false
 false
+"
+"
 }
 {
 GL_IMAGE_2D
@@ -731,6 +767,9 @@ GLint
 false
 false
 true
+"
+intBitsToFloat
+"
 }
 {
 GL_IMAGE_2D_ARRAY
@@ -764,6 +803,9 @@ GLint
 false
 false
 true
+"
+intBitsToFloat
+"
 }
 {
 GL_IMAGE_3D
@@ -797,6 +839,9 @@ GLint
 false
 false
 true
+"
+intBitsToFloat
+"
 }
 {
 GL_IMAGE_CUBE
@@ -830,6 +875,9 @@ GLint
 false
 false
 true
+"
+intBitsToFloat
+"
 }
 {
 GL_INT
@@ -863,6 +911,9 @@ GLint
 false
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_INT_IMAGE_2D
@@ -896,6 +947,9 @@ GLint
 false
 false
 true
+"
+intBitsToFloat
+"
 }
 {
 GL_INT_IMAGE_2D_ARRAY
@@ -929,6 +983,9 @@ GLint
 false
 false
 true
+"
+intBitsToFloat
+"
 }
 {
 GL_INT_IMAGE_3D
@@ -962,6 +1019,9 @@ GLint
 false
 false
 true
+"
+intBitsToFloat
+"
 }
 {
 GL_INT_IMAGE_CUBE
@@ -995,6 +1055,9 @@ GLint
 false
 false
 true
+"
+intBitsToFloat
+"
 }
 {
 GL_INT_SAMPLER_2D
@@ -1028,6 +1091,9 @@ GLint
 true
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_INT_SAMPLER_2D_ARRAY
@@ -1061,6 +1127,9 @@ GLint
 true
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_INT_SAMPLER_2D_MULTISAMPLE
@@ -1094,6 +1163,9 @@ GLint
 true
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_INT_SAMPLER_2D_MULTISAMPLE_ARRAY
@@ -1127,6 +1199,9 @@ GLint
 true
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_INT_SAMPLER_3D
@@ -1160,6 +1235,9 @@ GLint
 true
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_INT_SAMPLER_CUBE
@@ -1193,6 +1271,9 @@ GLint
 true
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_INT_VEC2
@@ -1226,6 +1307,9 @@ GLint
 false
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_INT_VEC3
@@ -1259,6 +1343,9 @@ GLint
 false
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_INT_VEC4
@@ -1292,6 +1379,9 @@ GLint
 false
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_SAMPLER_2D
@@ -1325,6 +1415,9 @@ GLint
 true
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_SAMPLER_2D_ARRAY
@@ -1358,6 +1451,9 @@ GLint
 true
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_SAMPLER_2D_ARRAY_SHADOW
@@ -1391,6 +1487,9 @@ GLint
 true
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_SAMPLER_2D_MULTISAMPLE
@@ -1424,6 +1523,9 @@ GLint
 true
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_SAMPLER_2D_MULTISAMPLE_ARRAY
@@ -1457,6 +1559,9 @@ GLint
 true
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_SAMPLER_2D_RECT_ANGLE
@@ -1490,6 +1595,9 @@ GLint
 true
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_SAMPLER_2D_SHADOW
@@ -1523,6 +1631,9 @@ GLint
 true
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_SAMPLER_3D
@@ -1556,6 +1667,9 @@ GLint
 true
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_SAMPLER_CUBE
@@ -1589,6 +1703,9 @@ GLint
 true
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_SAMPLER_CUBE_SHADOW
@@ -1622,6 +1739,9 @@ GLint
 true
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_SAMPLER_EXTERNAL_OES
@@ -1655,6 +1775,9 @@ GLint
 true
 false
 false
+"
+intBitsToFloat
+"
 }
 {
 GL_UNSIGNED_INT
@@ -1688,6 +1811,9 @@ GLuint
 false
 false
 false
+"
+uintBitsToFloat
+"
 }
 {
 GL_UNSIGNED_INT_ATOMIC_COUNTER
@@ -1721,6 +1847,9 @@ GLuint
 false
 false
 false
+"
+uintBitsToFloat
+"
 }
 {
 GL_UNSIGNED_INT_IMAGE_2D
@@ -1754,6 +1883,9 @@ GLuint
 false
 false
 true
+"
+uintBitsToFloat
+"
 }
 {
 GL_UNSIGNED_INT_IMAGE_2D_ARRAY
@@ -1787,6 +1919,9 @@ GLuint
 false
 false
 true
+"
+uintBitsToFloat
+"
 }
 {
 GL_UNSIGNED_INT_IMAGE_3D
@@ -1820,6 +1955,9 @@ GLuint
 false
 false
 true
+"
+uintBitsToFloat
+"
 }
 {
 GL_UNSIGNED_INT_IMAGE_CUBE
@@ -1853,6 +1991,9 @@ GLuint
 false
 false
 true
+"
+uintBitsToFloat
+"
 }
 {
 GL_UNSIGNED_INT_SAMPLER_2D
@@ -1886,6 +2027,9 @@ GLuint
 true
 false
 false
+"
+uintBitsToFloat
+"
 }
 {
 GL_UNSIGNED_INT_SAMPLER_2D_ARRAY
@@ -1919,6 +2063,9 @@ GLuint
 true
 false
 false
+"
+uintBitsToFloat
+"
 }
 {
 GL_UNSIGNED_INT_SAMPLER_2D_MULTISAMPLE
@@ -1952,6 +2099,9 @@ GLuint
 true
 false
 false
+"
+uintBitsToFloat
+"
 }
 {
 GL_UNSIGNED_INT_SAMPLER_2D_MULTISAMPLE_ARRAY
@@ -1985,6 +2135,9 @@ GLuint
 true
 false
 false
+"
+uintBitsToFloat
+"
 }
 {
 GL_UNSIGNED_INT_SAMPLER_3D
@@ -2018,6 +2171,9 @@ GLuint
 true
 false
 false
+"
+uintBitsToFloat
+"
 }
 {
 GL_UNSIGNED_INT_SAMPLER_CUBE
@@ -2051,6 +2207,9 @@ GLuint
 true
 false
 false
+"
+uintBitsToFloat
+"
 }
 {
 GL_UNSIGNED_INT_VEC2
@@ -2084,6 +2243,9 @@ GLuint
 false
 false
 false
+"
+uintBitsToFloat
+"
 }
 {
 GL_UNSIGNED_INT_VEC3
@@ -2117,6 +2279,9 @@ GLuint
 false
 false
 false
+"
+uintBitsToFloat
+"
 }
 {
 GL_UNSIGNED_INT_VEC4
@@ -2150,6 +2315,9 @@ GLuint
 false
 false
 false
+"
+uintBitsToFloat
+"
 }
 }
 }

@@ -126,7 +126,6 @@ outputComponentCount
 uint32_t
 alphaDefaultValueBits
 >
-inline
 void
 CopyNativeVertexData
 (
@@ -150,7 +149,6 @@ inputComponentCount
 size_t
 outputComponentCount
 >
-inline
 void
 Copy8SintTo16SintVertexData
 (
@@ -172,7 +170,6 @@ template
 size_t
 componentCount
 >
-inline
 void
 Copy8SnormTo16SnormVertexData
 (
@@ -196,7 +193,6 @@ inputComponentCount
 size_t
 outputComponentCount
 >
-inline
 void
 Copy32FixedTo32FVertexData
 (
@@ -224,7 +220,6 @@ outputComponentCount
 bool
 normalized
 >
-inline
 void
 CopyTo32FVertexData
 (
@@ -250,7 +245,6 @@ normalized
 bool
 toFloat
 >
-inline
 void
 CopyXYZ10W2ToXYZW32FVertexData
 (
@@ -278,6 +272,8 @@ include
 copyvertex
 .
 inc
+.
+h
 "
 #
 endif
