@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_tabs_BrowserParent_h
+mozilla_dom_BrowserParent_h
 #
 define
-mozilla_tabs_BrowserParent_h
+mozilla_dom_BrowserParent_h
 #
 include
 "
@@ -5228,4 +5228,4 @@ mozilla
 endif
 /
 /
-mozilla_tabs_BrowserParent_h
+mozilla_dom_BrowserParent_h
