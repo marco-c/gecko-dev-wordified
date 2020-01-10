@@ -179,10 +179,13 @@ namespace
 .
 #
 undef
-PREF
+NEVER_PREF
 #
 undef
-VARCACHE_PREF
+ALWAYS_PREF
+#
+undef
+ONCE_PREF
 }
 /
 /

@@ -527,7 +527,7 @@ good_output
 '
 '
 \
-PREF
+NEVER_PREF
 (
 "
 my
@@ -537,10 +537,8 @@ bool
 bool
 false
 )
-VARCACHE_PREF
+ONCE_PREF
 (
-  
-Once
   
 "
 my
@@ -556,10 +554,8 @@ int32_t
 -
 123
 )
-VARCACHE_PREF
+ALWAYS_PREF
 (
-  
-Always
   
 "
 my
@@ -574,10 +570,8 @@ my_uint
 uint32_t
 999
 )
-VARCACHE_PREF
+ONCE_PREF
 (
-  
-Once
   
 "
 my
@@ -594,7 +588,7 @@ float
 .
 0f
 )
-PREF
+NEVER_PREF
 (
 "
 my
@@ -610,7 +604,7 @@ foo
 bar
 "
 )
-PREF
+NEVER_PREF
 (
 "
 my
@@ -622,10 +616,8 @@ String
 foobar
 "
 )
-VARCACHE_PREF
+ALWAYS_PREF
 (
-  
-Always
   
 "
 my
@@ -642,10 +634,8 @@ my_atomic_bool
 RelaxedAtomicBool
 true
 )
-VARCACHE_PREF
+ALWAYS_PREF
 (
-  
-Always
   
 "
 my
@@ -666,10 +656,8 @@ ReleaseAcquireAtomicInt32
 *
 20
 )
-VARCACHE_PREF
+ONCE_PREF
 (
-  
-Once
   
 "
 my
@@ -686,7 +674,7 @@ my_atomic_uint_AtStartup
 SequentiallyConsistentAtomicUint32
 68
 )
-PREF
+NEVER_PREF
 (
 "
 my
