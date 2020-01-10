@@ -9626,6 +9626,17 @@ true
 ;
 }
 #
+else
+options
+.
+SetInitiallyPaused
+(
+CompositorInitiallyPaused
+(
+)
+)
+;
+#
 endif
 RefPtr
 <
