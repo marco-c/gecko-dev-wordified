@@ -2225,6 +2225,14 @@ PluralForm
 =
 PluralForm
 ;
+exports
+.
+get
+=
+PluralForm
+.
+get
+;
 /
 *
 eslint
