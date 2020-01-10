@@ -1633,14 +1633,14 @@ globals
 FrameGlobalResources
 )
 {
-assert
+debug_assert
 !
 (
 self
 .
 pending_retained_tiles
 .
-caches
+tiles
 .
 is_empty
 (
