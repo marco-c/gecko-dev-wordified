@@ -3409,14 +3409,6 @@ MOZ_RELEASE_ASSERT
 aStream
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
-!
-Ended
-(
-)
-)
-;
 return
 aStream
 -
