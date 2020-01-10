@@ -67,6 +67,12 @@ os
 .
 path
 .
+normpath
+(
+os
+.
+path
+.
 realpath
 (
 os
@@ -88,6 +94,7 @@ __file__
 .
 .
 '
+)
 )
 )
 #
