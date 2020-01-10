@@ -275,19 +275,12 @@ console
 owner
 .
 *
-param
-Boolean
-fissionSupport
-*
 /
 constructor
 (
 target
 iframeWindow
 chromeWindow
-fissionSupport
-=
-false
 )
 {
 super
@@ -296,7 +289,6 @@ null
 iframeWindow
 chromeWindow
 true
-fissionSupport
 )
 ;
 this

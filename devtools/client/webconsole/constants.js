@@ -542,6 +542,15 @@ features
 .
 editor
 "
+BROWSER_TOOLBOX_FISSION
+:
+"
+devtools
+.
+browsertoolbox
+.
+fission
+"
 }
 }
 }
