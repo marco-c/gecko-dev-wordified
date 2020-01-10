@@ -155,13 +155,6 @@ h
 "
 #
 include
-<
-ctype
-.
-h
->
-#
-include
 "
 jsnum
 .

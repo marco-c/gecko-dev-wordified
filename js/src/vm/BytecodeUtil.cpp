@@ -181,13 +181,6 @@ algorithm
 #
 include
 <
-ctype
-.
-h
->
-#
-include
-<
 inttypes
 .
 h
