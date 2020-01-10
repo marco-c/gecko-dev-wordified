@@ -182,8 +182,6 @@ h
 #
 include
 <
-drm
-/
 drm_fourcc
 .
 h
@@ -197,11 +195,15 @@ h
 >
 #
 include
-<
+"
+mozilla
+/
+widget
+/
 gbm
 .
 h
->
+"
 #
 include
 "
