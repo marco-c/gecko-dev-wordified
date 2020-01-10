@@ -8681,8 +8681,8 @@ having
 DOM
 focus
 if
-active
-item
+last
+focus
 was
 removed
 /
@@ -8698,7 +8698,7 @@ FocusMgr
 )
 -
 >
-IsActiveItem
+WasLastFocused
 (
 aAccessible
 )
