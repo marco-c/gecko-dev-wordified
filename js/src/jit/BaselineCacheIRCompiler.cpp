@@ -11719,7 +11719,7 @@ niScratch
 NativeIterator
 :
 :
-offsetOfFlags
+offsetOfFlagsAndCount
 (
 )
 )

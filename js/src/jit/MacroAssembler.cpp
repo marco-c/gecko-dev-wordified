@@ -23284,7 +23284,7 @@ ni
 NativeIterator
 :
 :
-offsetOfFlags
+offsetOfFlagsAndCount
 (
 )
 )
@@ -23678,7 +23678,7 @@ temp1
 NativeIterator
 :
 :
-offsetOfFlags
+offsetOfFlagsAndCount
 (
 )
 )
