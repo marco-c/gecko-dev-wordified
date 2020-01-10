@@ -123,11 +123,6 @@ threading_posix_PlatformData_h
 #
 include
 <
-new
->
-#
-include
-<
 pthread
 .
 h
