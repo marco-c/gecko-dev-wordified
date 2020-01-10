@@ -2138,6 +2138,12 @@ int32_t
 port
 bool
 pb
+bool
+isolated
+const
+nsACString
+&
+topWindowOrigin
 const
 OriginAttributes
 &
@@ -2154,6 +2160,8 @@ scheme
 host
 port
 pb
+isolated
+topWindowOrigin
 originAttributes
 )
 ;

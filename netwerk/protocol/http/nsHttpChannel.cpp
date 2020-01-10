@@ -15335,6 +15335,9 @@ GetTopWindowOrigin
 (
 )
 mPrivateBrowsing
+IsIsolated
+(
+)
 callbacks
 proxyInfo
 mCaps
@@ -42939,6 +42942,12 @@ scheme
 host
 port
 mPrivateBrowsing
+IsIsolated
+(
+)
+GetTopWindowOrigin
+(
+)
 originAttributes
 )
 )
