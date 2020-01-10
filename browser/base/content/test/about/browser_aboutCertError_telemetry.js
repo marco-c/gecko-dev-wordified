@@ -495,7 +495,7 @@ DATASET_PRERELEASE_CHANNELS
 true
 )
 .
-content
+parent
 ;
 if
 (
