@@ -516,6 +516,8 @@ this
 .
 inspector
 .
+inspector
+.
 resolveRelativeURL
 (
 link
@@ -1356,7 +1358,7 @@ _onCopyLink
 {
 this
 .
-copyAttributeLink
+_copyAttributeLink
 (
 this
 .
