@@ -540,9 +540,6 @@ nsIEffectiveTLDService
 mTLDService
 ;
 bool
-mThirdPartyNonsecureSession
-;
-bool
 mIPCOpen
 ;
 }
