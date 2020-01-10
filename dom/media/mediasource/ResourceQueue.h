@@ -452,6 +452,17 @@ aPath
 ;
 #
 endif
+const
+uint8_t
+*
+GetContiguousAccess
+(
+int64_t
+aOffset
+size_t
+aSize
+)
+;
 private
 :
 ResourceItem
