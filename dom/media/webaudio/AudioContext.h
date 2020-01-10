@@ -1861,13 +1861,6 @@ Unmute
 )
 const
 ;
-JSObject
-*
-GetGlobalJSObject
-(
-)
-const
-;
 void
 RegisterNode
 (
