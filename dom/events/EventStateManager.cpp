@@ -1638,14 +1638,6 @@ sESMInstanceCount
 =
 0
 ;
-uint64_t
-EventStateManager
-:
-:
-sUserInputCounter
-=
-0
-;
 int32_t
 EventStateManager
 :
@@ -26768,10 +26760,6 @@ aMessage
 +
 +
 sUserInputEventDepth
-;
-+
-+
-sUserInputCounter
 ;
 if
 (
