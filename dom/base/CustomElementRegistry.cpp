@@ -4247,7 +4247,11 @@ s
 has
 already
 been
-used
+defined
+as
+a
+custom
+element
 "
 NS_ConvertUTF16toUTF8
 (
