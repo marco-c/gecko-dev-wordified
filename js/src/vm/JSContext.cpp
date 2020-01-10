@@ -7438,6 +7438,10 @@ this
 runtime
 true
 )
+freeUnusedMemory
+(
+false
+)
 jitActivation
 (
 this
