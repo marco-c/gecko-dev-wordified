@@ -4358,11 +4358,6 @@ right
 /
 center
 /
-top
-/
-bottom
-.
-/
 /
 GetLogicalAlign
 converts
@@ -4498,12 +4493,6 @@ break
 ;
 case
 NS_STYLE_TEXT_ALIGN_START
-:
-case
-NS_STYLE_VERTICAL_ALIGN_TOP
-:
-case
-NS_STYLE_VERTICAL_ALIGN_BOTTOM
 :
 mLegendRect
 .
