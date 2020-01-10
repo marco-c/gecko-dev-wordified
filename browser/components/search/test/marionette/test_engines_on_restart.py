@@ -128,6 +128,16 @@ geoSpecificDefaults
 '
 :
 False
+            
+'
+browser
+.
+search
+.
+addonLoadTimeout
+'
+:
+0
         
 }
 )
