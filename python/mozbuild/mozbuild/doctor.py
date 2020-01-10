@@ -1650,9 +1650,6 @@ platform
 in
 [
 '
-darwin
-'
-'
 freebsd
 '
 '
