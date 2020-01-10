@@ -248,12 +248,6 @@ VRSubmitFrameResultInfo
 aResult
 )
 ;
-virtual
-void
-ZeroSensor
-(
-)
-;
 already_AddRefed
 <
 VRDisplayPresentation
