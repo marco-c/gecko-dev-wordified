@@ -532,7 +532,6 @@ client
 storage
 /
 test
-/
 "
 )
 [

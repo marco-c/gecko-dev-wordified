@@ -237,7 +237,6 @@ client
 storage
 /
 test
-/
 "
 )
 ]
