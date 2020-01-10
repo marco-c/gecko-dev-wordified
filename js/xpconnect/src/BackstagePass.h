@@ -207,7 +207,7 @@ GetEffectiveStoragePrincipal
 override
 {
 return
-nullptr
+mPrincipal
 ;
 }
 JSObject
