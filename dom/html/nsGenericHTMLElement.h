@@ -7038,11 +7038,10 @@ is
 stored
 in
 mStateKey
-on
-success
+.
 *
 /
-nsresult
+void
 GenerateStateKey
 (
 )
