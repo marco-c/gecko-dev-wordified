@@ -4983,13 +4983,7 @@ void
 setIsDebuggee
 (
 )
-{
-debugModeBits_
-|
-=
-IsDebuggee
 ;
-}
 void
 unsetIsDebuggee
 (
