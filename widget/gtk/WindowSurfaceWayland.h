@@ -128,10 +128,6 @@ HAVE_LIBDRM
 #
 include
 "
-mozilla
-/
-gfx
-/
 WaylandDMABufSurface
 .
 h
