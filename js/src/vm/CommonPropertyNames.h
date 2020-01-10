@@ -193,6 +193,15 @@ apply
 \
 MACRO
 (
+args
+args
+"
+args
+"
+)
+\
+MACRO
+(
 arguments
 arguments
 "
