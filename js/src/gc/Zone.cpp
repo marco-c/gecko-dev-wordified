@@ -1732,7 +1732,7 @@ properties
 script
 -
 >
-resetWarmUpCounter
+resetWarmUpCounterForGC
 (
 )
 ;

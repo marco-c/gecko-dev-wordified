@@ -13937,7 +13937,7 @@ CanLikelyAllocateMoreExecutableMemory
 script
 -
 >
-resetWarmUpCounter
+resetWarmUpCounterToDelayIonCompilation
 (
 )
 ;
@@ -15625,7 +15625,7 @@ stub
 script
 -
 >
-resetWarmUpCounter
+resetWarmUpCounterToDelayIonCompilation
 (
 )
 ;
@@ -16145,7 +16145,7 @@ no
 script
 -
 >
-resetWarmUpCounter
+resetWarmUpCounterToDelayIonCompilation
 (
 )
 ;
@@ -17721,7 +17721,7 @@ resetUses
 script
 -
 >
-resetWarmUpCounter
+resetWarmUpCounterToDelayIonCompilation
 (
 )
 ;

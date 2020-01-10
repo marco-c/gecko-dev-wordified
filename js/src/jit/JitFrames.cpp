@@ -1669,7 +1669,7 @@ script
 script
 -
 >
-resetWarmUpCounter
+resetWarmUpCounterToDelayIonCompilation
 (
 )
 ;
@@ -2707,7 +2707,7 @@ script
 script
 -
 >
-resetWarmUpCounter
+resetWarmUpCounterToDelayIonCompilation
 (
 )
 ;
