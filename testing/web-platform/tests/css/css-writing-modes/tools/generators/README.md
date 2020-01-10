@@ -33,14 +33,6 @@ to
 fit
 -
 001
-*
-text
--
-orientation
--
-script
--
-001
 #
 #
 Setup
