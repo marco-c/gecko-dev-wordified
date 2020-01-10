@@ -898,6 +898,17 @@ aOrigin
 const
 ;
 void
+Features
+(
+nsTArray
+<
+nsString
+>
+&
+aFeatures
+)
+;
+void
 AllowedFeatures
 (
 nsTArray
