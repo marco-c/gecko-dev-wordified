@@ -1839,7 +1839,6 @@ ErrorResult
 &
 aError
 )
-const
 ;
 void
 PostMessageMoz
