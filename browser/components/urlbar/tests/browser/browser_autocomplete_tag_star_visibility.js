@@ -632,16 +632,6 @@ results
 let
 expected_tags
 =
-UrlbarPrefs
-.
-get
-(
-"
-quantumbar
-"
-)
-&
-&
 !
 testcase
 .
