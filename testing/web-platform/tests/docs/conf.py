@@ -485,6 +485,14 @@ sphinxarg
 .
 ext
 '
+    
+'
+sphinx
+.
+ext
+.
+autodoc
+'
 ]
 #
 Add
