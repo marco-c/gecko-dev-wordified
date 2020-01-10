@@ -133,6 +133,8 @@ undefined
 {
 logValue
 :
+displayName
++
 "
 Logpoint
 Number
@@ -156,6 +158,8 @@ undefined
 {
 logValue
 :
+displayName
++
 "
 Logpoint
 Beginning
@@ -177,6 +181,8 @@ undefined
 {
 logValue
 :
+displayName
++
 "
 Logpoint
 Ending
@@ -218,6 +224,17 @@ hud
 Logpoint
 "
 11
+)
+;
+await
+waitForMessageCount
+(
+hud
+"
+updateNumber
+Logpoint
+"
+10
 )
 ;
 await
