@@ -646,6 +646,11 @@ referrerPolicy
 actor
 .
 referrerPolicy
+blockedReason
+:
+actor
+.
+blockedReason
 }
 ;
 this
