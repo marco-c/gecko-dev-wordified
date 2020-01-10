@@ -2258,7 +2258,7 @@ aWhy
 override
 ;
 void
-DeallocPImageBridgeChild
+ActorDealloc
 (
 )
 override

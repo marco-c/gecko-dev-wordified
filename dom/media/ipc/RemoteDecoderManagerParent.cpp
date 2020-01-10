@@ -947,7 +947,7 @@ void
 RemoteDecoderManagerParent
 :
 :
-DeallocPRemoteDecoderManagerParent
+ActorDealloc
 (
 )
 {

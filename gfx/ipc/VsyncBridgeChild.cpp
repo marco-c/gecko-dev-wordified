@@ -775,7 +775,7 @@ void
 VsyncBridgeChild
 :
 :
-DeallocPVsyncBridgeChild
+ActorDealloc
 (
 )
 {

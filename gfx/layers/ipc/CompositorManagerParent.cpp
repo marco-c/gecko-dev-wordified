@@ -1144,7 +1144,7 @@ void
 CompositorManagerParent
 :
 :
-DeallocPCompositorManagerParent
+ActorDealloc
 (
 )
 {

@@ -740,7 +740,7 @@ void
 RemoteDecoderManagerChild
 :
 :
-DeallocPRemoteDecoderManagerChild
+ActorDealloc
 (
 )
 {

@@ -313,7 +313,7 @@ ActorDestroyReason
 override
 ;
 void
-DeallocPVideoDecoderManagerParent
+ActorDealloc
 (
 )
 override

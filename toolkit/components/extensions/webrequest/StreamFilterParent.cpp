@@ -5418,7 +5418,7 @@ void
 StreamFilterParent
 :
 :
-DeallocPStreamFilterParent
+ActorDealloc
 (
 )
 {

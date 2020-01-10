@@ -1434,7 +1434,7 @@ void
 ProfilerParent
 :
 :
-DeallocPProfilerParent
+ActorDealloc
 (
 )
 {

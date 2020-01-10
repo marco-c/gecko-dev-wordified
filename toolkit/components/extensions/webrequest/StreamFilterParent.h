@@ -558,7 +558,7 @@ RecvDestroy
 ;
 virtual
 void
-DeallocPStreamFilterParent
+ActorDealloc
 (
 )
 override

@@ -1232,7 +1232,7 @@ void
 UiCompositorControllerParent
 :
 :
-DeallocPUiCompositorControllerParent
+ActorDealloc
 (
 )
 {

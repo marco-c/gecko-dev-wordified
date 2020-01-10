@@ -390,7 +390,7 @@ override
 ;
 virtual
 void
-DeallocPInProcessParent
+ActorDealloc
 (
 )
 override

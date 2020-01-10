@@ -232,7 +232,7 @@ ActorDestroyReason
 override
 ;
 void
-DeallocPRemoteDecoderManagerParent
+ActorDealloc
 (
 )
 override

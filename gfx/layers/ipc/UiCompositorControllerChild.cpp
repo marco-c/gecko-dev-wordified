@@ -1138,7 +1138,7 @@ void
 UiCompositorControllerChild
 :
 :
-DeallocPUiCompositorControllerChild
+ActorDealloc
 (
 )
 {

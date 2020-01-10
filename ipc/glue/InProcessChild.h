@@ -385,7 +385,7 @@ override
 ;
 virtual
 void
-DeallocPInProcessChild
+ActorDealloc
 (
 )
 override

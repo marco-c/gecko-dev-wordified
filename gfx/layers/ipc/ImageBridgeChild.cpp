@@ -1519,7 +1519,7 @@ void
 ImageBridgeChild
 :
 :
-DeallocPImageBridgeChild
+ActorDealloc
 (
 )
 {

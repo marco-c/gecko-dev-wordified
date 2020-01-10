@@ -487,7 +487,7 @@ void
 VideoBridgeChild
 :
 :
-DeallocPVideoBridgeChild
+ActorDealloc
 (
 )
 {

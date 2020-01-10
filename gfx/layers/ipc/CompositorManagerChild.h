@@ -583,7 +583,7 @@ CompositorManagerChild
 default
 ;
 void
-DeallocPCompositorManagerChild
+ActorDealloc
 (
 )
 override

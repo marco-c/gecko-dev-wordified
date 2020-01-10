@@ -233,7 +233,7 @@ aWhy
 override
 ;
 void
-DeallocPVideoBridgeChild
+ActorDealloc
 (
 )
 override

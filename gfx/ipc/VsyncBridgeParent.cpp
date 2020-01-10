@@ -504,7 +504,7 @@ void
 VsyncBridgeParent
 :
 :
-DeallocPVsyncBridgeParent
+ActorDealloc
 (
 )
 {

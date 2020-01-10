@@ -214,7 +214,7 @@ aWhy
 override
 ;
 void
-DeallocPVsyncBridgeParent
+ActorDealloc
 (
 )
 override
