@@ -586,6 +586,10 @@ final
 public
 nsDisplayItem
 {
+friend
+class
+nsDisplayItem
+;
 typedef
 mozilla
 :
@@ -681,13 +685,6 @@ nsSubDocumentFrame
 *
 aFrame
 )
-;
-bool
-HasDeletedFrame
-(
-)
-const
-override
 ;
 LayerState
 GetLayerState
