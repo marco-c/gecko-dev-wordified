@@ -453,11 +453,12 @@ exp
 >
 exp
 .
+preferences
+.
+hasOwnProperty
+(
 preferenceName
-=
-=
-=
-preferenceName
+)
 )
 ;
 if
