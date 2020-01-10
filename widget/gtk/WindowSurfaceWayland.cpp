@@ -3395,6 +3395,9 @@ GetSurfaceFormat
 )
 ;
 }
+#
+ifdef
+HAVE_LIBDRM
 WindowBackBufferDMABuf
 :
 :
@@ -3811,6 +3814,8 @@ Clear
 )
 ;
 }
+#
+endif
 static
 void
 frame_callback_handler
@@ -4089,6 +4094,9 @@ if
 mUseDMABufInitialized
 )
 {
+#
+ifdef
+HAVE_LIBDRM
 if
 (
 WaylandDMABufSurface
@@ -4127,6 +4135,8 @@ mUseDMABuf
 )
 ;
 }
+#
+endif
 mUseDMABufInitialized
 =
 true
@@ -4149,6 +4159,9 @@ int
 aHeight
 )
 {
+#
+ifdef
+HAVE_LIBDRM
 if
 (
 UseDMABufBackend
@@ -4273,6 +4286,8 @@ false
 ;
 }
 }
+#
+endif
 return
 new
 WindowBackBufferShm
