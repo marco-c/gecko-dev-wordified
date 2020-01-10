@@ -27043,12 +27043,12 @@ mButtons
 aNewEvent
 -
 >
-pressure
+mPressure
 =
 aMouseEvent
 -
 >
-pressure
+mPressure
 ;
 aNewEvent
 -

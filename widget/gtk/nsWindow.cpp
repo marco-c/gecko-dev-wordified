@@ -14842,7 +14842,7 @@ pressure
 ;
 event
 .
-pressure
+mPressure
 =
 mLastMotionPressure
 ;
@@ -15638,7 +15638,7 @@ aEvent
 ;
 contextMenuEvent
 .
-pressure
+mPressure
 =
 mLastMotionPressure
 ;
@@ -16035,7 +16035,7 @@ aEvent
 ;
 event
 .
-pressure
+mPressure
 =
 mLastMotionPressure
 ;
@@ -16285,7 +16285,7 @@ pressure
 ;
 event
 .
-pressure
+mPressure
 =
 pressure
 ?

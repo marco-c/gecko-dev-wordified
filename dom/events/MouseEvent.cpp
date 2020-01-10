@@ -979,7 +979,7 @@ AsMouseEventBase
 mouseEventBase
 -
 >
-pressure
+mPressure
 =
 aPressure
 ;
@@ -1717,7 +1717,7 @@ AsMouseEventBase
 )
 -
 >
-pressure
+mPressure
 ;
 }
 bool
