@@ -262,6 +262,12 @@ using
 namespace
 layers
 ;
+StaticMutex
+RemoteDecoderModule
+:
+:
+sLaunchMonitor
+;
 RemoteDecoderModule
 :
 :
@@ -445,6 +451,12 @@ XRE_IsContentProcess
 return
 ;
 }
+StaticMutexAutoLock
+mon
+(
+sLaunchMonitor
+)
+;
 /
 /
 We

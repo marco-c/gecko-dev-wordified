@@ -127,6 +127,15 @@ PlatformDecoderModule
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StaticMutex
+.
+h
+"
 namespace
 mozilla
 {
@@ -239,6 +248,10 @@ RefPtr
 nsIThread
 >
 mManagerThread
+;
+static
+StaticMutex
+sLaunchMonitor
 ;
 }
 ;
