@@ -166,10 +166,10 @@ inline
 /
 Replaces
 the
-result_index
-nth
+unique
 result
 of
+the
 instruction
 inst
 to
@@ -190,8 +190,25 @@ with
 a
 nop
 .
+Can
+be
+used
+only
+on
+instructions
+producing
+one
+unique
+/
+/
+/
+result
+otherwise
+will
+assert
+.
 fn
-replace_with_alias
+replace_single_result_with_alias
 (
 dfg
 :
@@ -201,9 +218,6 @@ DataFlowGraph
 inst
 :
 Inst
-result_index
-:
-usize
 value
 :
 Value
@@ -241,8 +255,9 @@ dfg
 .
 value_lists
 )
->
-result_index
+=
+=
+1
 )
 ;
 let
@@ -252,7 +267,7 @@ results
 .
 get
 (
-result_index
+0
 &
 dfg
 .
@@ -1464,7 +1479,7 @@ I32
 }
 else
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -1474,7 +1489,6 @@ func
 .
 dfg
 inst
-0
 n1
 )
 ;
@@ -1953,7 +1967,7 @@ tt
 }
 else
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -1963,7 +1977,6 @@ func
 .
 dfg
 inst
-0
 qf
 )
 ;
@@ -2101,7 +2114,7 @@ I64
 }
 else
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -2111,7 +2124,6 @@ func
 .
 dfg
 inst
-0
 n1
 )
 ;
@@ -2590,7 +2602,7 @@ tt
 }
 else
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -2600,7 +2612,6 @@ func
 .
 dfg
 inst
-0
 qf
 )
 ;
@@ -2761,7 +2772,7 @@ I32
 }
 else
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -2771,7 +2782,6 @@ func
 .
 dfg
 inst
-0
 n1
 )
 ;
@@ -3042,7 +3052,7 @@ t4
 }
 else
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -3052,7 +3062,6 @@ func
 .
 dfg
 inst
-0
 t4
 )
 ;
@@ -3317,7 +3326,7 @@ tt
 }
 else
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -3327,7 +3336,6 @@ func
 .
 dfg
 inst
-0
 qf
 )
 ;
@@ -3489,7 +3497,7 @@ I64
 }
 else
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -3499,7 +3507,6 @@ func
 .
 dfg
 inst
-0
 n1
 )
 ;
@@ -3768,7 +3775,7 @@ t4
 }
 else
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -3778,7 +3785,6 @@ func
 .
 dfg
 inst
-0
 t4
 )
 ;
@@ -4039,7 +4045,7 @@ tt
 }
 else
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -4049,7 +4055,6 @@ func
 .
 dfg
 inst
-0
 qf
 )
 ;
@@ -5473,7 +5478,7 @@ the
 original
 argument
 .
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -5483,7 +5488,6 @@ func
 .
 dfg
 inst
-0
 arg
 )
 ;

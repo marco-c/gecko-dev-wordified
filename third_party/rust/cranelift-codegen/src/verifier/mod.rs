@@ -4440,6 +4440,12 @@ CopySpecial
 .
 }
 |
+CopyToSsa
+{
+.
+.
+}
+|
 Trap
 {
 .
