@@ -7772,6 +7772,16 @@ pref
 "
 plugins
 .
+click_to_play
+"
+true
+)
+;
+pref
+(
+"
+plugins
+.
 testmode
 "
 false

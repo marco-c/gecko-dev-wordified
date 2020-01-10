@@ -320,6 +320,11 @@ install
 microphone
 "
 "
+plugin
+:
+flash
+"
+"
 popup
 "
 "
@@ -1258,6 +1263,11 @@ image
 "
 "
 cookie
+"
+"
+plugin
+:
+flash
 "
 "
 popup
