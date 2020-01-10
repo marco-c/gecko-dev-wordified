@@ -247,7 +247,7 @@ environ
 get
 (
 "
-TRAVIS_PULL_REQUEST
+GITHUB_PULL_REQUEST
 "
 "
 false
@@ -267,7 +267,7 @@ environ
 get
 (
 "
-TRAVIS_BRANCH
+GITHUB_BRANCH
 "
 )
 =
@@ -312,7 +312,7 @@ environ
 get
 (
 "
-TRAVIS_PULL_REQUEST
+GITHUB_PULL_REQUEST
 "
 "
 false
@@ -336,9 +336,9 @@ base
 branch
 is
 in
-TRAVIS_BRANCH
+GITHUB_BRANCH
         
-travis_branch
+base_branch
 =
 os
 .
@@ -347,14 +347,14 @@ environ
 get
 (
 "
-TRAVIS_BRANCH
+GITHUB_BRANCH
 "
 )
         
 assert
-travis_branch
+base_branch
 "
-TRAVIS_BRANCH
+GITHUB_BRANCH
 environment
 variable
 is
@@ -373,7 +373,7 @@ base
 "
 HEAD
 "
-travis_branch
+base_branch
 )
     
 else
