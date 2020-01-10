@@ -1233,10 +1233,10 @@ _WIN32_WINDOWS_MAXVER
 )
 if
 (
-StaticPrefs
+gfxVars
 :
 :
-gfx_direct3d11_use_double_buffering
+UseDoubleBufferingWithCompositor
 (
 )
 &
@@ -1248,11 +1248,6 @@ hr
 &
 &
 dxgiFactory2
-&
-&
-IsWindows10OrGreater
-(
-)
 )
 {
 /

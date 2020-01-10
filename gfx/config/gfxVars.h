@@ -460,6 +460,13 @@ RemoteCanvasEnabled
 bool
 false
 )
+\
+_
+(
+UseDoubleBufferingWithCompositor
+bool
+false
+)
 /
 *
 Add

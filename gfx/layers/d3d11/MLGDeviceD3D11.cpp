@@ -1481,10 +1481,10 @@ dxgiFactory2
 ;
 if
 (
-StaticPrefs
+gfxVars
 :
 :
-gfx_direct3d11_use_double_buffering
+UseDoubleBufferingWithCompositor
 (
 )
 &
@@ -1506,11 +1506,6 @@ StartAssignment
 &
 &
 dxgiFactory2
-&
-&
-IsWin10OrLater
-(
-)
 &
 &
 XRE_IsGPUProcess

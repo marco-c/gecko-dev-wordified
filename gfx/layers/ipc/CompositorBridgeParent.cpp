@@ -9756,15 +9756,10 @@ bug
 .
 if
 (
-StaticPrefs
+gfxVars
 :
 :
-gfx_direct3d11_use_double_buffering
-(
-)
-&
-&
-IsWin10OrLater
+UseDoubleBufferingWithCompositor
 (
 )
 &
