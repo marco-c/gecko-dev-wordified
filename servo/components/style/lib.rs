@@ -1170,6 +1170,16 @@ use
 style_traits
 :
 :
+arc_slice
+:
+:
+ArcSlice
+;
+pub
+use
+style_traits
+:
+:
 owned_slice
 :
 :
