@@ -8825,6 +8825,7 @@ XPConnect
 JavaScript
 "
 innerWindowID
+true
 )
 ;
 NS_ENSURE_SUCCESS
