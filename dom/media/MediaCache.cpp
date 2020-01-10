@@ -4262,6 +4262,17 @@ aMallocSizeOf
 )
 const
 {
+AutoLock
+lock
+(
+mMediaCache
+-
+>
+Monitor
+(
+)
+)
+;
 /
 /
 Looks
