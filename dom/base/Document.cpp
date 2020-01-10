@@ -96345,7 +96345,7 @@ IsOnContentBlockingAllowList
 parent
 -
 >
-GetDocumentURI
+GetContentBlockingAllowListPrincipal
 (
 )
 false

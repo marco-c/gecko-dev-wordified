@@ -1055,7 +1055,7 @@ whether
 a
 top
 window
-URI
+principal
 is
 on
 the
@@ -1068,9 +1068,9 @@ static
 nsresult
 IsOnContentBlockingAllowList
 (
-nsIURI
+nsIPrincipal
 *
-aTopWinURI
+aTopWinPrincipal
 bool
 aIsPrivateBrowsing
 bool
