@@ -9916,7 +9916,7 @@ nativeGlobal
 nativeGlobal
 -
 >
-GetGlobalJSObject
+HasJSGlobal
 (
 )
 )

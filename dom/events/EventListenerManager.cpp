@@ -4990,7 +4990,7 @@ NS_ENSURE_STATE
 global
 -
 >
-GetGlobalJSObject
+HasJSGlobal
 (
 )
 )

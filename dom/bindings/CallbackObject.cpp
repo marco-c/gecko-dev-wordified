@@ -1320,7 +1320,7 @@ if
 globalObject
 -
 >
-GetGlobalJSObject
+HasJSGlobal
 (
 )
 )
@@ -1471,7 +1471,7 @@ if
 incumbent
 -
 >
-GetGlobalJSObject
+HasJSGlobal
 (
 )
 )

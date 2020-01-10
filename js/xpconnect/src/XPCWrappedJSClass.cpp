@@ -2363,7 +2363,7 @@ NS_ENSURE_TRUE
 nativeGlobal
 -
 >
-GetGlobalJSObject
+HasJSGlobal
 (
 )
 NS_ERROR_FAILURE

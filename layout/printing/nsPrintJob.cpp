@@ -26968,14 +26968,13 @@ NS_WARNING_ASSERTION
 go
 -
 >
-GetGlobalJSObject
+HasJSGlobal
 (
 )
 "
-Can
-'
-t
-get
+Window
+has
+no
 global
 "
 )
@@ -27027,7 +27026,7 @@ if
 go
 -
 >
-GetGlobalJSObject
+HasJSGlobal
 (
 )
 )
@@ -27178,7 +27177,7 @@ go
 go
 -
 >
-GetGlobalJSObject
+HasJSGlobal
 (
 )
 )
