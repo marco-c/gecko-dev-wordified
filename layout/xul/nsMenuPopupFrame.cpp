@@ -3946,9 +3946,6 @@ mCurrentMenu
 )
 ;
 }
-#
-ifndef
-MOZ_WIDGET_GTK
 /
 /
 If
@@ -3979,6 +3976,14 @@ event
 .
 if
 (
+StaticPrefs
+:
+:
+xul_panel_animations_enabled
+(
+)
+&
+&
 mContent
 -
 >
@@ -4048,8 +4053,6 @@ false
 return
 ;
 }
-#
-endif
 /
 /
 If
