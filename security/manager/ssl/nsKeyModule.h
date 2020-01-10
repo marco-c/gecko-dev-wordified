@@ -192,6 +192,9 @@ nsKeyObject
 &
 )
 ;
+mozilla
+:
+:
 UniquePK11SymKey
 mSymKey
 ;

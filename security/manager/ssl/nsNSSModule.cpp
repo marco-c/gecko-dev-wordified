@@ -187,6 +187,15 @@ h
 #
 include
 "
+mozilla
+/
+SyncRunnable
+.
+h
+"
+#
+include
+"
 nsCURILoader
 .
 h

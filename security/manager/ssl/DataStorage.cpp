@@ -667,10 +667,16 @@ mThread
 ;
 }
 ;
+mozilla
+:
+:
 StaticMutex
 sDataStorageSharedThreadMutex
 ;
 static
+mozilla
+:
+:
 StaticAutoPtr
 <
 DataStorageSharedThread
@@ -698,6 +704,9 @@ XRE_IsParentProcess
 )
 )
 ;
+mozilla
+:
+:
 StaticMutexAutoLock
 lock
 (
@@ -806,6 +815,9 @@ XRE_IsParentProcess
 )
 )
 ;
+mozilla
+:
+:
 StaticMutexAutoLock
 lock
 (
@@ -948,6 +960,9 @@ nsresult
 rv
 ;
 {
+mozilla
+:
+:
 StaticMutexAutoUnlock
 unlock
 (
@@ -997,6 +1012,9 @@ XRE_IsParentProcess
 )
 )
 ;
+mozilla
+:
+:
 StaticMutexAutoLock
 lock
 (
@@ -1200,6 +1218,9 @@ NS_IMPL_ISUPPORTS
 DataStorage
 nsIObserver
 )
+mozilla
+:
+:
 StaticAutoPtr
 <
 DataStorage

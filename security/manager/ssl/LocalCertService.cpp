@@ -149,6 +149,13 @@ h
 #
 include
 "
+nsNSSCertificate
+.
+h
+"
+#
+include
+"
 nsProxyRelease
 .
 h

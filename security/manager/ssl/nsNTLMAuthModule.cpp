@@ -3887,6 +3887,9 @@ cryptography
 bool
 ntlmv2
 =
+mozilla
+:
+:
 StaticPrefs
 :
 :
