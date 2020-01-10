@@ -1379,6 +1379,15 @@ cpt
 =
 0
 ;
+const
+now
+=
+Date
+.
+now
+(
+)
+;
 /
 *
 *
@@ -1443,6 +1452,10 @@ CONTENT_BLOCKED_URL
 +
 +
 cpt
+}
+-
+{
+now
 }
 ;
 ContentTask
@@ -1521,6 +1534,10 @@ STORAGE_BLOCKED_URL
 +
 +
 cpt
+}
+-
+{
+now
 }
 ;
 ContentTask
