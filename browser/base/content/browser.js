@@ -34214,6 +34214,12 @@ onLocationChange
 (
 )
 ;
+gProtectionsHandler
+.
+onLocationChange
+(
+)
+;
 BrowserPageActions
 .
 onLocationChange
