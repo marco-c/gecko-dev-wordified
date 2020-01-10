@@ -670,7 +670,7 @@ struct
 RenderTaskAddress
 (
 pub
-u32
+u16
 )
 ;
 #
@@ -2725,6 +2725,8 @@ RenderTaskAddress
 id
 .
 index
+as
+u16
 )
 }
 pub

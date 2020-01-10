@@ -2809,7 +2809,7 @@ kind
 VertexAttributeKind
 :
 :
-I32
+U16
 }
 VertexAttribute
 {
@@ -2826,7 +2826,7 @@ kind
 VertexAttributeKind
 :
 :
-I32
+U16
 }
 VertexAttribute
 {
@@ -3433,7 +3433,7 @@ kind
 VertexAttributeKind
 :
 :
-I32
+U16
 }
 VertexAttribute
 {
@@ -3450,7 +3450,7 @@ kind
 VertexAttributeKind
 :
 :
-I32
+U16
 }
 ]
 }
@@ -16279,10 +16279,12 @@ RenderPassKind
 :
 :
 MainFramebuffer
-(
+{
 ref
-target
-)
+main_target
+.
+.
+}
 =
 >
 {
@@ -16295,7 +16297,7 @@ Self
 :
 debug_color_target
 (
-target
+main_target
 )
 )
 ;
@@ -28098,10 +28100,12 @@ RenderPassKind
 :
 :
 MainFramebuffer
-(
+{
 ref
-target
-)
+main_target
+.
+.
+}
 =
 >
 {
@@ -28301,7 +28305,7 @@ self
 draw_color_target
 (
 draw_target
-target
+main_target
 frame
 .
 content_origin
