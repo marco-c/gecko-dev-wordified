@@ -870,7 +870,7 @@ Services
 .
 profiler
 .
-ResumeSampling
+StopProfiler
 (
 )
 ;
