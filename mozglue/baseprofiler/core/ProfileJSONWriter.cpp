@@ -96,6 +96,16 @@ MPL
 #
 include
 "
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
+#
+include
+"
 BaseProfileJSONWriter
 .
 h
@@ -955,3 +965,8 @@ mDepth
 true
 ;
 }
+#
+endif
+/
+/
+MOZ_BASE_PROFILER

@@ -116,6 +116,16 @@ MPL
 /
 #
 include
+"
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
+#
+include
 <
 sys
 /
@@ -1401,3 +1411,8 @@ defined
 (
 GP_OS_android
 )
+#
+endif
+/
+/
+MOZ_BASE_PROFILER

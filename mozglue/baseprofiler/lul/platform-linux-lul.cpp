@@ -95,6 +95,16 @@ MPL
 /
 #
 include
+"
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
+#
+include
 <
 stdio
 .
@@ -746,3 +756,8 @@ str
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_BASE_PROFILER

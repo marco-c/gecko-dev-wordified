@@ -117,6 +117,16 @@ MPL
 #
 include
 "
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
+#
+include
+"
 ProfileBuffer
 .
 h
@@ -1349,3 +1359,8 @@ categoryPair
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_BASE_PROFILER

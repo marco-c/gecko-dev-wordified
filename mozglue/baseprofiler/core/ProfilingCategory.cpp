@@ -111,6 +111,16 @@ MPL
 #
 include
 "
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
+#
+include
+"
 vm
 /
 GeckoProfiler
@@ -3815,3 +3825,8 @@ categoryPairIndex
 /
 namespace
 JS
+#
+endif
+/
+/
+MOZ_BASE_PROFILER
