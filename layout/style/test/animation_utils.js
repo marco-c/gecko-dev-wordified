@@ -2713,8 +2713,6 @@ value
 )
 ;
 }
-else
-{
 return
 Promise
 .
@@ -2739,7 +2737,6 @@ err
 }
 )
 ;
-}
 }
 /
 /
@@ -4406,12 +4403,9 @@ matrixLike
 )
 ;
 }
-else
-{
 return
 null
 ;
-}
 }
 ;
 /
@@ -4737,12 +4731,9 @@ slice
 ]
 ;
 }
-else
-{
 return
 null
 ;
-}
 }
 /
 /
@@ -5064,8 +5055,6 @@ join
 )
 ;
 }
-else
-{
 return
 (
 "
@@ -5105,7 +5094,6 @@ join
 "
 )
 ;
-}
 }
 function
 is2d

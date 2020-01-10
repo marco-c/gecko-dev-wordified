@@ -25,6 +25,16 @@ level
 /
 /
 *
+eslint
+-
+disable
+dot
+-
+notation
+*
+/
+/
+*
 vim
 :
 set
