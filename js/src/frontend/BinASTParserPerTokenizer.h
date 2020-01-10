@@ -392,6 +392,14 @@ Tokenizer
 :
 Chars
 ;
+using
+Context
+=
+BinASTTokenReaderBase
+:
+:
+Context
+;
 public
 :
 /
