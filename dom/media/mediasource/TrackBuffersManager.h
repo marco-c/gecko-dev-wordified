@@ -1601,14 +1601,6 @@ MediaSpan
 aData
 )
 ;
-void
-AppendDataToCurrentInputBuffer
-(
-MediaByteBuffer
-*
-aData
-)
-;
 RefPtr
 <
 MediaByteBuffer
@@ -1660,9 +1652,9 @@ is
 /
 detected
 .
-RefPtr
+Maybe
 <
-MediaByteBuffer
+MediaSpan
 >
 mPendingInputBuffer
 ;
