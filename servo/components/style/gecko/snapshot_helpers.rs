@@ -834,6 +834,9 @@ class
 /
 /
 /
+or
+part
+name
 this
 item
 has
@@ -847,7 +850,7 @@ always
 ]
 pub
 fn
-each_class
+each_class_or_part
 <
 F
 >
