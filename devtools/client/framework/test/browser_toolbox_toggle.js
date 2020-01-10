@@ -253,7 +253,7 @@ content
 /
 browser
 .
-xul
+xhtml
 info
 (
 "

@@ -1112,7 +1112,7 @@ content
 /
 browser
 .
-xul
+xhtml
 "
 "
 javascript
@@ -1291,7 +1291,7 @@ content
 /
 browser
 .
-xul
+xhtml
 "
 "
 javascript

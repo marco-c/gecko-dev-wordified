@@ -285,7 +285,7 @@ content
 /
 browser
 .
-xul
+xhtml
 "
 }
 }

@@ -6899,7 +6899,7 @@ included
 from
 browser
 .
-xul
+xhtml
 gReferencesFromCode
 .
 set

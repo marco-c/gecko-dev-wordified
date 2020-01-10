@@ -1041,7 +1041,7 @@ style
 over
 browser
 .
-xul
+xhtml
 actually
 ends
 up
@@ -1098,7 +1098,7 @@ content
 /
 browser
 .
-xul
+xhtml
 chrome
 :
 /

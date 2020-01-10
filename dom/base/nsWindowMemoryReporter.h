@@ -793,7 +793,7 @@ such
 as
 browser
 .
-xul
+xhtml
 or
 hiddenWindow
 .

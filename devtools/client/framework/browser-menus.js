@@ -1604,7 +1604,7 @@ hardcoded
 into
 browser
 .
-xul
+xhtml
 .
 Instead
 /

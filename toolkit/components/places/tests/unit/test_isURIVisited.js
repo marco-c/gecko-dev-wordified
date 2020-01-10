@@ -180,7 +180,7 @@ content
 /
 browser
 .
-xul
+xhtml
 ?
 "
 :

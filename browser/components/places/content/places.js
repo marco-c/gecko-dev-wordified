@@ -1462,7 +1462,7 @@ keybindings
 from
 browser
 .
-xul
+xhtml
 let
 elements
 =

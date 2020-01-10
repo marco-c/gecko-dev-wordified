@@ -846,7 +846,7 @@ hud
 "
 browser
 .
-xul
+xhtml
 "
 )
 ;

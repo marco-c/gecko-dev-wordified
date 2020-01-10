@@ -1787,7 +1787,7 @@ extracted
 from
 browser
 .
-xul
+xhtml
 where
 it
 comes

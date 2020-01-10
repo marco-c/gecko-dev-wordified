@@ -903,7 +903,7 @@ items
 in
 browser
 .
-xul
+xhtml
 .
 This
 is

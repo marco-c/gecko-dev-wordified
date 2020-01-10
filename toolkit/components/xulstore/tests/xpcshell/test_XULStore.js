@@ -75,7 +75,7 @@ content
 /
 browser
 .
-xul
+xhtml
 "
 ;
 var
