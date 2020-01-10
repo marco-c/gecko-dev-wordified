@@ -9673,7 +9673,7 @@ nsPlainTextSerializer
 EndLine
 (
 bool
-aSoftlinebreak
+aSoftLineBreak
 bool
 aBreakBySpace
 )
@@ -9693,7 +9693,7 @@ Length
 ;
 if
 (
-aSoftlinebreak
+aSoftLineBreak
 &
 &
 0
@@ -9804,7 +9804,7 @@ OutputPreformatted
 &
 &
 (
-aSoftlinebreak
+aSoftLineBreak
 |
 |
 !
@@ -9837,7 +9837,7 @@ false
 }
 if
 (
-aSoftlinebreak
+aSoftLineBreak
 &
 &
 mSettings
@@ -9980,7 +9980,7 @@ char16_t
 }
 if
 (
-aSoftlinebreak
+aSoftLineBreak
 )
 {
 mEmptyLines
