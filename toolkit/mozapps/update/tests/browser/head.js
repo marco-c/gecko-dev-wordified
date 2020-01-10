@@ -972,7 +972,7 @@ time
 to
 wait
 with
-200
+300
 retries
 and
 the
@@ -984,7 +984,7 @@ is
 /
 /
 approximately
-20
+30
 seconds
 .
 let
@@ -995,7 +995,7 @@ interval
 let
 retries
 =
-200
+300
 ;
 let
 continueFile
