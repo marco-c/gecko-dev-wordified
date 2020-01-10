@@ -12389,7 +12389,10 @@ nsIPresShell
 ScrollAxis
 (
 )
-0
+nsIPresShell
+:
+:
+SCROLL_IGNORE_SCROLL_MARGIN_AND_PADDING
 )
 ;
 if
@@ -20296,7 +20299,10 @@ true
 uint32_t
 flags
 =
-0
+nsIPresShell
+:
+:
+SCROLL_IGNORE_SCROLL_MARGIN_AND_PADDING
 ;
 if
 (
