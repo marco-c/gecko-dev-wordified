@@ -48,17 +48,6 @@ array
 prototype
 .
 sort
-es5id
-:
-15
-.
-4
-.
-4
-.
-11_A2
-.
-2_T2
 description
 :
 Checking

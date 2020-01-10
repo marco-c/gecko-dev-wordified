@@ -110,15 +110,6 @@ Symbol
 .
 iterator
 ]
-es6id
-:
-22
-.
-1
-.
-3
-.
-30
 esid
 :
 sec

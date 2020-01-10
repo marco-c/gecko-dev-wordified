@@ -42,15 +42,6 @@ array
 prototype
 .
 join
-es6id
-:
-22
-.
-1
-.
-3
-.
-13
 description
 :
 >

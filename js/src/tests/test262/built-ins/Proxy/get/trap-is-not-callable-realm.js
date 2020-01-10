@@ -58,13 +58,6 @@ get
 p
 -
 receiver
-es6id
-:
-9
-.
-5
-.
-8
 description
 :
 >

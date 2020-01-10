@@ -44,15 +44,6 @@ array
 prototype
 .
 findindex
-es6id
-:
-22
-.
-1
-.
-3
-.
-9
 description
 :
 >

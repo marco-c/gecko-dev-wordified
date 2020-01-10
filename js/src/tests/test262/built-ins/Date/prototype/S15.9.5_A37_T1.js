@@ -58,13 +58,6 @@ date
 prototype
 -
 object
-es5id
-:
-15
-.
-9
-.
-5_A37_T1
 description
 :
 The

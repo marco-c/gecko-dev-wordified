@@ -61,15 +61,6 @@ date
 prototype
 .
 getutchours
-es5id
-:
-15
-.
-9
-.
-5
-.
-19_A3_T2
 description
 :
 Checking

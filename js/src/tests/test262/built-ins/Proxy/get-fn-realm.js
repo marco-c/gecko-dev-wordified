@@ -40,13 +40,6 @@ esid
 sec
 -
 getfunctionrealm
-es6id
-:
-7
-.
-3
-.
-22
 description
 :
 >

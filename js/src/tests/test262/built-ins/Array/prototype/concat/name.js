@@ -42,15 +42,6 @@ array
 prototype
 .
 concat
-es6id
-:
-22
-.
-1
-.
-3
-.
-1
 description
 :
 >

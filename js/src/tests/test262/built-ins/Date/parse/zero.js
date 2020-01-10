@@ -40,15 +40,6 @@ sec
 date
 .
 parse
-es6id
-:
-20
-.
-3
-.
-3
-.
-2
 description
 :
 >

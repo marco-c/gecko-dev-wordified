@@ -49,13 +49,6 @@ sec
 boolean
 .
 prototype
-es5id
-:
-15
-.
-6
-.
-3_A3
 description
 :
 Checking

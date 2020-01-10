@@ -44,15 +44,6 @@ date
 prototype
 .
 setminutes
-es6id
-:
-20
-.
-3
-.
-4
-.
-24
 description
 :
 >

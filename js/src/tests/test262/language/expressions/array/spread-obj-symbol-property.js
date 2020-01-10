@@ -64,15 +64,6 @@ runtime
 semantics
 -
 arrayaccumulation
-es6id
-:
-12
-.
-2
-.
-5
-.
-2
 features
 :
 [

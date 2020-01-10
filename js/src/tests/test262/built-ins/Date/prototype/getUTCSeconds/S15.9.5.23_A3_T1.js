@@ -60,15 +60,6 @@ date
 prototype
 .
 getutcseconds
-es5id
-:
-15
-.
-9
-.
-5
-.
-23_A3_T1
 description
 :
 Checking

@@ -46,15 +46,6 @@ constructor
 number
 -
 value
-es6id
-:
-20
-.
-1
-.
-1
-.
-1
 description
 :
 Default

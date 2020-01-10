@@ -80,15 +80,6 @@ runtime
 semantics
 -
 evaluation
-es6id
-:
-12
-.
-2
-.
-6
-.
-8
 flags
 :
 [

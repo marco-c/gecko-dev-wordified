@@ -42,15 +42,6 @@ array
 prototype
 .
 push
-es6id
-:
-22
-.
-1
-.
-3
-.
-17
 description
 :
 >

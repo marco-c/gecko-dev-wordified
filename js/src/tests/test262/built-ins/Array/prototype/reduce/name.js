@@ -42,15 +42,6 @@ array
 prototype
 .
 reduce
-es6id
-:
-22
-.
-1
-.
-3
-.
-18
 description
 :
 >

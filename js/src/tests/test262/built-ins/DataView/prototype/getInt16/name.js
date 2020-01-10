@@ -42,15 +42,6 @@ dataview
 prototype
 .
 getint16
-es6id
-:
-24
-.
-2
-.
-4
-.
-8
 description
 :
 >

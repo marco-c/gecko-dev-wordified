@@ -56,15 +56,6 @@ date
 prototype
 .
 tolocaledatestring
-es5id
-:
-15
-.
-9
-.
-5
-.
-6_A1_T1
 description
 :
 Checking

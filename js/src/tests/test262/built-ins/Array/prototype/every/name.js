@@ -42,15 +42,6 @@ array
 prototype
 .
 every
-es6id
-:
-22
-.
-1
-.
-3
-.
-5
 description
 :
 >

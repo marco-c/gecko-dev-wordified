@@ -52,15 +52,6 @@ sec
 promise
 .
 all
-es6id
-:
-25
-.
-4
-.
-4
-.
-1
 info
 :
 |

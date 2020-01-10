@@ -74,13 +74,6 @@ runtime
 semantics
 -
 evaluation
-es6id
-:
-14
-.
-4
-.
-14
 features
 :
 [

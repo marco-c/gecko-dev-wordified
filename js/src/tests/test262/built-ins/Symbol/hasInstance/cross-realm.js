@@ -42,15 +42,6 @@ sec
 symbol
 .
 hasinstance
-es6id
-:
-19
-.
-4
-.
-2
-.
-2
 description
 :
 Value

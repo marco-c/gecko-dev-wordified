@@ -44,15 +44,6 @@ symbol
 prototype
 .
 tostring
-es6id
-:
-19
-.
-4
-.
-3
-.
-2
 description
 :
 Property

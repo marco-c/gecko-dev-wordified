@@ -42,15 +42,6 @@ date
 prototype
 .
 setutcmonth
-es6id
-:
-20
-.
-3
-.
-4
-.
-33
 description
 :
 >

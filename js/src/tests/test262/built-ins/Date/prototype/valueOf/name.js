@@ -42,15 +42,6 @@ date
 prototype
 .
 valueof
-es6id
-:
-20
-.
-3
-.
-4
-.
-44
 description
 :
 >

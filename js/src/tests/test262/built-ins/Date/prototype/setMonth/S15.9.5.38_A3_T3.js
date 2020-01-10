@@ -60,15 +60,6 @@ date
 prototype
 .
 setmonth
-es5id
-:
-15
-.
-9
-.
-5
-.
-38_A3_T3
 description
 :
 Checking

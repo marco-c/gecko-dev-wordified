@@ -42,13 +42,6 @@ sec
 date
 -
 constructor
-es6id
-:
-20
-.
-3
-.
-2
 description
 :
 Constructor

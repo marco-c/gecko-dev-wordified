@@ -54,17 +54,6 @@ array
 prototype
 .
 join
-es5id
-:
-15
-.
-4
-.
-4
-.
-5_A1
-.
-2_T2
 description
 :
 Checking

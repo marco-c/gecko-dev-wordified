@@ -44,15 +44,6 @@ string
 prototype
 .
 charcodeat
-es6id
-:
-21
-.
-1
-.
-3
-.
-2
 description
 :
 Coercion

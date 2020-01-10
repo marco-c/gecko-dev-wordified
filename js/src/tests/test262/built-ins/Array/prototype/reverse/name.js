@@ -42,15 +42,6 @@ array
 prototype
 .
 reverse
-es6id
-:
-22
-.
-1
-.
-3
-.
-20
 description
 :
 >

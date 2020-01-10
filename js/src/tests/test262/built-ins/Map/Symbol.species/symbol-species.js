@@ -42,15 +42,6 @@ get
 map
 -
 species
-es6id
-:
-23
-.
-1
-.
-2
-.
-2
 author
 :
 Sam

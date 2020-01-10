@@ -42,15 +42,6 @@ sec
 generatorfunction
 .
 length
-es6id
-:
-25
-.
-2
-.
-2
-.
-1
 description
 :
 >

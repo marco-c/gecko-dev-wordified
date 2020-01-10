@@ -40,15 +40,6 @@ esid
 sec
 -
 generatorfunction
-es6id
-:
-25
-.
-2
-.
-1
-.
-1
 description
 :
 Default

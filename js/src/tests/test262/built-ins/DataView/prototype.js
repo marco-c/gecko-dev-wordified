@@ -42,15 +42,6 @@ sec
 dataview
 .
 prototype
-es6id
-:
-24
-.
-2
-.
-3
-.
-1
 description
 :
 >

@@ -54,15 +54,6 @@ array
 prototype
 .
 push
-es5id
-:
-15
-.
-4
-.
-4
-.
-7_A5_T1
 description
 :
 >

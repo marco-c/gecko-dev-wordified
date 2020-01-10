@@ -42,15 +42,6 @@ string
 prototype
 .
 tostring
-es6id
-:
-21
-.
-1
-.
-3
-.
-23
 description
 :
 >

@@ -42,15 +42,6 @@ date
 prototype
 .
 setutcfullyear
-es6id
-:
-20
-.
-3
-.
-4
-.
-29
 description
 :
 >

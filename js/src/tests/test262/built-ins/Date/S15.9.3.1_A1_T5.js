@@ -74,15 +74,6 @@ minutes
 seconds
 -
 ms
-es5id
-:
-15
-.
-9
-.
-3
-.
-1_A1_T5
 description
 :
 6

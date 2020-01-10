@@ -54,13 +54,6 @@ internal
 slots
 -
 isextensible
-es6id
-:
-9
-.
-5
-.
-3
 description
 :
 >

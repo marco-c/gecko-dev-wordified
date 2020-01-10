@@ -54,15 +54,6 @@ date
 prototype
 .
 toutcstring
-es5id
-:
-15
-.
-9
-.
-5
-.
-42_A2_T1
 description
 :
 The

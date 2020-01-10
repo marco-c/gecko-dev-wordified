@@ -62,15 +62,6 @@ array
 prototype
 .
 slice
-es5id
-:
-15
-.
-4
-.
-4
-.
-10_A2_T6
 description
 :
 If

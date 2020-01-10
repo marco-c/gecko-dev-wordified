@@ -52,15 +52,6 @@ construct
 argumentslist
 -
 newtarget
-es6id
-:
-9
-.
-4
-.
-1
-.
-2
 description
 :
 Default

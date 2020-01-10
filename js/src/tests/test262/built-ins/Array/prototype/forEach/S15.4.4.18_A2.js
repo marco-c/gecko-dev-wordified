@@ -51,15 +51,6 @@ array
 prototype
 .
 foreach
-es5id
-:
-15
-.
-4
-.
-4
-.
-18_A2
 description
 :
 Freezes

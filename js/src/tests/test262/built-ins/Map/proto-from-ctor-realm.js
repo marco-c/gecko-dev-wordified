@@ -42,15 +42,6 @@ sec
 map
 -
 iterable
-es6id
-:
-23
-.
-1
-.
-1
-.
-1
 description
 :
 Default

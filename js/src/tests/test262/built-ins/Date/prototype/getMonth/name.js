@@ -42,15 +42,6 @@ date
 prototype
 .
 getmonth
-es6id
-:
-20
-.
-3
-.
-4
-.
-8
 description
 :
 >

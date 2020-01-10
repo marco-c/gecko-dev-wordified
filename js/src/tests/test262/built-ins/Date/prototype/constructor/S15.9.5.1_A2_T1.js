@@ -54,15 +54,6 @@ date
 prototype
 .
 constructor
-es5id
-:
-15
-.
-9
-.
-5
-.
-1_A2_T1
 description
 :
 The

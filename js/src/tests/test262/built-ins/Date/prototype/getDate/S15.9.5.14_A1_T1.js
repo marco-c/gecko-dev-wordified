@@ -55,15 +55,6 @@ date
 prototype
 .
 getdate
-es5id
-:
-15
-.
-9
-.
-5
-.
-14_A1_T1
 description
 :
 Checking

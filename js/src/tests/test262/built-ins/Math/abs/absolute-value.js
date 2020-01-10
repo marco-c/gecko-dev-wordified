@@ -42,15 +42,6 @@ sec
 math
 .
 abs
-es6id
-:
-20
-.
-2
-.
-2
-.
-1
 description
 :
 >

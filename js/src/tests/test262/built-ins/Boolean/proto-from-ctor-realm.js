@@ -46,15 +46,6 @@ constructor
 boolean
 -
 value
-es6id
-:
-19
-.
-3
-.
-1
-.
-1
 description
 :
 Default

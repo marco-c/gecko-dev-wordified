@@ -86,15 +86,6 @@ dataview
 prototype
 .
 byteoffset
-es6id
-:
-24
-.
-2
-.
-4
-.
-3
 description
 :
 >

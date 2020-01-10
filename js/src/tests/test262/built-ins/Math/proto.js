@@ -35,11 +35,6 @@ file
 -
 -
 -
-es6id
-:
-20
-.
-2
 esid
 :
 sec

@@ -80,13 +80,6 @@ runtime
 semantics
 -
 classdefinitionevaluation
-es6id
-:
-14
-.
-5
-.
-14
 flags
 :
 [

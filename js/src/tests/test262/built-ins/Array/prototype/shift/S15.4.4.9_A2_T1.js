@@ -62,15 +62,6 @@ array
 prototype
 .
 shift
-es5id
-:
-15
-.
-4
-.
-4
-.
-9_A2_T1
 description
 :
 >

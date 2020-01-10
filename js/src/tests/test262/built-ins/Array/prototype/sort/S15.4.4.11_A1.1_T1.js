@@ -74,17 +74,6 @@ array
 prototype
 .
 sort
-es5id
-:
-15
-.
-4
-.
-4
-.
-11_A1
-.
-1_T1
 description
 :
 If

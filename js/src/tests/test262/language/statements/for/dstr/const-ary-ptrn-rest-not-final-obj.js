@@ -94,15 +94,6 @@ runtime
 semantics
 -
 labelledevaluation
-es6id
-:
-13
-.
-7
-.
-4
-.
-7
 features
 :
 [

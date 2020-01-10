@@ -42,15 +42,6 @@ sec
 symbol
 .
 isconcatspreadable
-es6id
-:
-19
-.
-4
-.
-2
-.
-3
 description
 :
 Value

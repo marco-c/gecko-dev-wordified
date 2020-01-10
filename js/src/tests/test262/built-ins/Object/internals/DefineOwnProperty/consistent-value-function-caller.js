@@ -48,15 +48,6 @@ essential
 internal
 -
 methods
-es6id
-:
-6
-.
-1
-.
-7
-.
-3
 description
 :
 >

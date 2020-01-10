@@ -55,15 +55,6 @@ date
 prototype
 .
 setmilliseconds
-es5id
-:
-15
-.
-9
-.
-5
-.
-28_A1_T1
 description
 :
 Checking

@@ -50,13 +50,6 @@ construct
 argumentslist
 -
 newtarget
-es6id
-:
-9
-.
-2
-.
-2
 description
 :
 Error

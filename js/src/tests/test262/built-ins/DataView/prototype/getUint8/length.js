@@ -42,15 +42,6 @@ dataview
 prototype
 .
 getuint8
-es6id
-:
-24
-.
-2
-.
-4
-.
-10
 description
 :
 >

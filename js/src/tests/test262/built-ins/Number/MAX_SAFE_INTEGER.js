@@ -50,15 +50,6 @@ sec
 number
 .
 max_safe_integer
-es6id
-:
-20
-.
-1
-.
-2
-.
-6
 info
 :
 |

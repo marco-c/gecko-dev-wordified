@@ -51,15 +51,6 @@ sec
 math
 .
 ln2
-es6id
-:
-20
-.
-2
-.
-1
-.
-3
 info
 :
 |

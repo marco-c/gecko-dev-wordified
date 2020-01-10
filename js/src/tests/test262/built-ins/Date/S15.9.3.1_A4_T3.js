@@ -140,15 +140,6 @@ minutes
 seconds
 -
 ms
-es5id
-:
-15
-.
-9
-.
-3
-.
-1_A4_T3
 description
 :
 4

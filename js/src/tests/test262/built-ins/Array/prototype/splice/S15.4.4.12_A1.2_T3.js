@@ -62,17 +62,6 @@ array
 prototype
 .
 splice
-es5id
-:
-15
-.
-4
-.
-4
-.
-12_A1
-.
-2_T3
 description
 :
 -

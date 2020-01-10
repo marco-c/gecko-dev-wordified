@@ -67,15 +67,6 @@ array
 prototype
 .
 reverse
-es5id
-:
-15
-.
-4
-.
-4
-.
-8_A1_T1
 description
 :
 Checking

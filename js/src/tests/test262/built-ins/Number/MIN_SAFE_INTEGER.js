@@ -50,15 +50,6 @@ sec
 number
 .
 min_safe_integer
-es6id
-:
-20
-.
-1
-.
-2
-.
-8
 info
 :
 |

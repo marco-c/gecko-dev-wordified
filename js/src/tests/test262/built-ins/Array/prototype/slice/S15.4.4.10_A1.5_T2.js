@@ -48,17 +48,6 @@ array
 prototype
 .
 slice
-es5id
-:
-15
-.
-4
-.
-4
-.
-10_A1
-.
-5_T2
 description
 :
 end

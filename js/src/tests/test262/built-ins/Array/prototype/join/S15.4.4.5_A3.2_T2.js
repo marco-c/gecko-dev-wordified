@@ -48,17 +48,6 @@ array
 prototype
 .
 join
-es5id
-:
-15
-.
-4
-.
-4
-.
-5_A3
-.
-2_T2
 description
 :
 If

@@ -59,15 +59,6 @@ array
 prototype
 .
 pop
-es5id
-:
-15
-.
-4
-.
-4
-.
-6_A4_T1
 description
 :
 >
