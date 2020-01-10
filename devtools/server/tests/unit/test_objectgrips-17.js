@@ -1970,10 +1970,8 @@ debuggeeHasXrays
 if
 (
 debuggeePrincipal
-=
-=
-=
-null
+.
+isNullPrincipal
 )
 {
 /
