@@ -1980,6 +1980,9 @@ locales
 upload_to_candidates
 '
 '
+repack_stub_installer
+'
+'
 platforms
 '
 )
@@ -2030,7 +2033,7 @@ split
 '
 =
 '
-2
+1
 )
             
 value
