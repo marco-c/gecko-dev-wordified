@@ -1,16 +1,3 @@
-/
-/
-dummy
-origin
-ORIGIN
-(
-"
-PAGELOAD
-"
-"
-PAGELOAD
-"
-)
 ORIGIN
 (
 "
