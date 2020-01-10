@@ -821,8 +821,6 @@ newChannel
 (
 {
 uri
-:
-uri
 loadUsingSystemPrincipal
 :
 true
@@ -991,8 +989,6 @@ NetUtil
 newChannel
 (
 {
-uri
-:
 uri
 loadUsingSystemPrincipal
 :
