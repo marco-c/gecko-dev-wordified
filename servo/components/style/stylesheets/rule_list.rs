@@ -941,6 +941,7 @@ loader
 Option
 <
 &
+dyn
 StylesheetLoader
 >
 )
@@ -992,6 +993,7 @@ loader
 Option
 <
 &
+dyn
 StylesheetLoader
 >
 )

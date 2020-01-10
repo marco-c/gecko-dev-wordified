@@ -981,6 +981,7 @@ pointers
 type
 VoidPtrToBoolFnMut
 =
+dyn
 FnMut
 (
 *

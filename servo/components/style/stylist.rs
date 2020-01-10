@@ -4406,6 +4406,7 @@ ComputedValues
 font_metrics
 :
 &
+dyn
 FontMetricsProvider
 )
 -
@@ -4534,6 +4535,7 @@ ComputedValues
 font_metrics
 :
 &
+dyn
 FontMetricsProvider
 rules
 :
@@ -5010,12 +5012,14 @@ bool
 font_metrics
 :
 &
+dyn
 FontMetricsProvider
 matching_fn
 :
 Option
 <
 &
+dyn
 Fn
 (
 &
@@ -5166,6 +5170,7 @@ ComputedValues
 font_metrics
 :
 &
+dyn
 FontMetricsProvider
 element
 :
@@ -5558,6 +5563,7 @@ ComputedValues
 font_metrics
 :
 &
+dyn
 FontMetricsProvider
 rule_cache
 :
@@ -5901,6 +5907,7 @@ matching_fn
 Option
 <
 &
+dyn
 Fn
 (
 &

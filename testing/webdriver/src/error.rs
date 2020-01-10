@@ -2109,6 +2109,7 @@ self
 Option
 <
 &
+dyn
 Error
 >
 {
@@ -2287,6 +2288,7 @@ From
 <
 Box
 <
+dyn
 Error
 >
 >
@@ -2300,6 +2302,7 @@ err
 :
 Box
 <
+dyn
 Error
 >
 )

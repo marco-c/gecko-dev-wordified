@@ -2748,6 +2748,7 @@ loader
 Option
 <
 &
+dyn
 StylesheetLoader
 >
 )

@@ -608,6 +608,7 @@ StrongRuleNode
 font_metrics_provider
 :
 &
+dyn
 FontMetricsProvider
 quirks_mode
 :
@@ -714,6 +715,7 @@ ComputedValues
 font_metrics_provider
 :
 &
+dyn
 FontMetricsProvider
 cascade_mode
 :
@@ -1215,6 +1217,7 @@ ComputedValues
 font_metrics_provider
 :
 &
+dyn
 FontMetricsProvider
 cascade_mode
 :

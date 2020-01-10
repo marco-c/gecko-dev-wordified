@@ -1760,6 +1760,7 @@ Interface
 >
 Box
 <
+dyn
 Error
 >
 >
@@ -2084,6 +2085,7 @@ Result
 RefcntKind
 Box
 <
+dyn
 Error
 >
 >
@@ -2304,6 +2306,7 @@ Interface
 >
 Box
 <
+dyn
 Error
 >
 >
@@ -2512,6 +2515,7 @@ Token
 >
 Box
 <
+dyn
 Error
 >
 >
@@ -2622,6 +2626,7 @@ Result
 DeriveInput
 Box
 <
+dyn
 Error
 >
 >
@@ -2942,6 +2947,7 @@ Result
 TokenStream2
 Box
 <
+dyn
 Error
 >
 >
@@ -3312,6 +3318,7 @@ Result
 TokenStream2
 Box
 <
+dyn
 Error
 >
 >
@@ -3548,6 +3555,7 @@ Result
 TokenStream2
 Box
 <
+dyn
 Error
 >
 >
@@ -3983,6 +3991,7 @@ TokenStream2
 )
 Box
 <
+dyn
 Error
 >
 >
@@ -4357,6 +4366,7 @@ Result
 TokenStream2
 Box
 <
+dyn
 Error
 >
 >

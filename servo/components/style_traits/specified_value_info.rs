@@ -268,6 +268,7 @@ a
 '
 a
 mut
+dyn
 FnMut
 (
 &

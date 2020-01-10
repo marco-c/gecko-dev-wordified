@@ -1454,6 +1454,7 @@ font_metrics_provider
 &
 '
 a
+dyn
 FontMetricsProvider
 /
 /

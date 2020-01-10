@@ -9201,6 +9201,7 @@ loader
 Option
 <
 &
+dyn
 StyleStylesheetLoader
 >
 =
@@ -9263,6 +9264,7 @@ r
 r
 as
 &
+dyn
 ParseErrorReporter
 )
 quirks_mode
@@ -12335,6 +12337,7 @@ loader
 loader
 as
 &
+dyn
 StyleStylesheetLoader
 )
 ;
@@ -21927,6 +21930,7 @@ matching_func
 Option
 <
 &
+dyn
 Fn
 (
 &
@@ -23265,6 +23269,7 @@ reporter
 Option
 <
 &
+dyn
 ParseErrorReporter
 >
 )
@@ -23457,6 +23462,7 @@ r
 r
 as
 &
+dyn
 ParseErrorReporter
 )
 )
@@ -24444,6 +24450,7 @@ r
 r
 as
 &
+dyn
 ParseErrorReporter
 )
 quirks_mode
@@ -25698,6 +25705,7 @@ r
 r
 as
 &
+dyn
 ParseErrorReporter
 )
 )
@@ -32200,6 +32208,7 @@ font_metrics_provider
 &
 '
 a
+dyn
 FontMetricsProvider
 style
 :
@@ -37665,6 +37674,7 @@ error_reporter
 Option
 <
 &
+dyn
 ParseErrorReporter
 >
 )
@@ -38126,6 +38136,7 @@ r
 r
 as
 &
+dyn
 ParseErrorReporter
 )
 )
