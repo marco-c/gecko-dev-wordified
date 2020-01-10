@@ -443,9 +443,7 @@ BLACK_BOXED_URL
 )
 ;
 const
-{
 pausedInSource
-}
 =
 await
 blackBox

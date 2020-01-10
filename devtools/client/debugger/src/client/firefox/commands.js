@@ -2505,9 +2505,7 @@ actor
 )
 ;
 const
-{
 positions
-}
 =
 await
 sourceClient
