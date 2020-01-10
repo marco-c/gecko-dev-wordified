@@ -1219,10 +1219,8 @@ return
 mPersistFlags
 ;
 }
-already_AddRefed
-<
 nsIURI
->
+*
 WebBrowserPersistLocalDocument
 :
 :

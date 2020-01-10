@@ -1024,10 +1024,8 @@ Assign
 /
 Replace
 .
-already_AddRefed
-<
 nsIURI
->
+*
 GetSourceBaseURL
 (
 )

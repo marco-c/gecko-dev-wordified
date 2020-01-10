@@ -6956,10 +6956,8 @@ aLoader
 nsIURI
 *
 aDocURI
-already_AddRefed
-<
 nsIURI
->
+*
 aBaseURI
 SVGElement
 *
@@ -7136,10 +7134,8 @@ aLoader
 nsIURI
 *
 aDocURI
-already_AddRefed
-<
 nsIURI
->
+*
 aBaseURI
 SVGElement
 *

@@ -4717,11 +4717,8 @@ false
 Overloaded
 from
 nsINode
-virtual
-already_AddRefed
-<
 nsIURI
->
+*
 GetBaseURI
 (
 bool

@@ -4720,10 +4720,8 @@ aRv
 )
 ;
 }
-already_AddRefed
-<
 nsIURI
->
+*
 Location
 :
 :

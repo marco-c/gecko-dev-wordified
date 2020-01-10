@@ -431,11 +431,8 @@ aResult
 const
 override
 ;
-virtual
-already_AddRefed
-<
 nsIURI
->
+*
 GetBaseURI
 (
 bool

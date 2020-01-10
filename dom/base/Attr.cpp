@@ -1224,10 +1224,8 @@ return
 NS_OK
 ;
 }
-already_AddRefed
-<
 nsIURI
->
+*
 Attr
 :
 :

@@ -19974,10 +19974,8 @@ aEnabled
 NS_OK
 ;
 }
-already_AddRefed
-<
 nsIURI
->
+*
 nsPluginInstanceOwner
 :
 :
