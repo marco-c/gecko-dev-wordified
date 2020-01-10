@@ -28084,7 +28084,7 @@ DiscardBaselineCode
 Zone
 :
 :
-DiscardJitScripts
+ReleaseTypes
 )
 ;
 }
