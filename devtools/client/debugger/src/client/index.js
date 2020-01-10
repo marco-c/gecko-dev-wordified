@@ -448,7 +448,9 @@ panel
 initialState
 )
 ;
-await
+const
+connected
+=
 client
 .
 onConnect
@@ -486,6 +488,9 @@ bootstrapApp
 (
 store
 )
+;
+await
+connected
 ;
 return
 {
