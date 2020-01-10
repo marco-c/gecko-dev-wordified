@@ -270,7 +270,7 @@ value
 ;
 MOZ_ASSERT
 (
-IsBaselineEnabled
+IsBaselineInterpreterOrJitEnabled
 (
 cx
 )
@@ -1299,6 +1299,16 @@ jitCodeRaw
 break
 ;
 }
+}
+/
+/
+Try
+to
+enter
+the
+Baseline
+Interpreter
+.
 if
 (
 JitOptions
@@ -1367,7 +1377,6 @@ jitCodeRaw
 ;
 break
 ;
-}
 }
 }
 return

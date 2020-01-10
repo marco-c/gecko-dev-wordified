@@ -13303,7 +13303,7 @@ if
 jit
 :
 :
-IsBaselineEnabled
+IsBaselineInterpreterOrJitEnabled
 (
 cx
 )
