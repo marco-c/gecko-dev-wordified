@@ -245,7 +245,7 @@ HandleLauncherError
 (
 aResult
 .
-unwrapErr
+inspectErr
 (
 )
 )

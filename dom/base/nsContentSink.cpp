@@ -4274,7 +4274,7 @@ if
 (
 loadResultOrErr
 .
-unwrap
+inspect
 (
 )
 .

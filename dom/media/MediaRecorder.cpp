@@ -2646,7 +2646,7 @@ isOk
 &
 mRunningState
 .
-unwrap
+inspect
 (
 )
 =
@@ -2709,7 +2709,7 @@ isOk
 (
 mRunningState
 .
-unwrap
+inspect
 (
 )
 =
@@ -2722,7 +2722,7 @@ Starting
 |
 mRunningState
 .
-unwrap
+inspect
 (
 )
 =
@@ -3805,7 +3805,7 @@ isOk
 |
 mRunningState
 .
-unwrap
+inspect
 (
 )
 !
@@ -4532,7 +4532,7 @@ isOk
 |
 mRunningState
 .
-unwrap
+inspect
 (
 )
 !
@@ -5554,7 +5554,7 @@ isOk
 &
 mRunningState
 .
-unwrap
+inspect
 (
 )
 =
@@ -5593,7 +5593,7 @@ isOk
 (
 mRunningState
 .
-unwrap
+inspect
 (
 )
 =
@@ -5606,7 +5606,7 @@ Idling
 |
 mRunningState
 .
-unwrap
+inspect
 (
 )
 =
@@ -6162,12 +6162,12 @@ SetMimeType
 mime
 )
 ;
-auto
+RunningState
 state
 =
 mRunningState
 .
-unwrap
+inspect
 (
 )
 ;
