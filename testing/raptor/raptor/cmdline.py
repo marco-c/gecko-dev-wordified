@@ -195,7 +195,7 @@ long_name
 :
 "
 Firefox
-Geckoview
+GeckoView
 on
 Android
 "
@@ -512,9 +512,9 @@ test
 help
 =
 "
-name
+Name
 of
-raptor
+Raptor
 test
 to
 run
@@ -607,7 +607,7 @@ app
 help
 =
 "
-name
+Name
 of
 the
 application
@@ -687,13 +687,13 @@ help
 "
 Name
 of
-android
+Android
 activity
 used
 to
 launch
 the
-android
+Android
 app
 .
 "
@@ -738,14 +738,14 @@ help
 "
 Name
 of
-android
+Android
 intent
 action
 used
 to
 launch
 the
-android
+Android
 app
 .
 "
@@ -786,7 +786,8 @@ from
 which
 to
 serve
-urls
+URLs
+;
 defaults
 to
 127
@@ -866,10 +867,20 @@ measure
 power
 usage
 .
-Currently
-supported
-for
-Geckoview
+Supported
+across
+GeckoView
+"
+            
+"
+Fenix
+Firefox
+(
+Fennec
+)
+and
+Reference
+Browsers
 .
 "
             
@@ -964,8 +975,7 @@ release
 build
 which
 requires
-work
-arounds
+workarounds
 "
             
 "
@@ -1085,7 +1095,9 @@ Profile
 the
 run
 and
-output
+out
+-
+put
 the
 results
 in
@@ -1610,10 +1622,10 @@ help
 =
 "
 Flag
-that
+which
 indicates
 if
-raptor
+Raptor
 is
 running
 locally
@@ -1645,6 +1657,7 @@ help
 =
 "
 Browser
+-
 build
 obj_path
 (
@@ -1799,7 +1812,7 @@ only
 supported
 when
 running
-raptor
+Raptor
 on
 Firefox
 !
@@ -1888,7 +1901,7 @@ only
 supported
 when
 running
-raptor
+Raptor
 on
 Firefox
 Android
@@ -2012,6 +2025,7 @@ error
 -
 activity
 command
+-
 line
 argument
 is
@@ -2094,6 +2108,7 @@ error
 -
 intent
 command
+-
 line
 argument
 is
@@ -2384,6 +2399,7 @@ none
 for
 that
 app
+;
 skip
 to
 next
@@ -2525,6 +2541,7 @@ None
 no
 test
 name
+;
 skip
 it
                     
