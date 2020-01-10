@@ -1774,15 +1774,18 @@ find_element
 (
 By
 .
-CSS_SELECTOR
+ANON_ATTRIBUTE
+{
 '
-.
-tab
--
+anonid
+'
+:
+'
 close
 -
 button
 '
+}
 )
     
 property
