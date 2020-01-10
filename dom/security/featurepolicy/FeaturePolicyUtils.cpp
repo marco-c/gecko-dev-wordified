@@ -973,7 +973,7 @@ cx
 return
 ;
 }
-nsAutoCString
+nsAutoString
 fileName
 ;
 Nullable
@@ -1075,10 +1075,7 @@ FeaturePolicyViolationReportBody
 (
 window
 aFeatureName
-NS_ConvertUTF8toUTF16
-(
 fileName
-)
 lineNumber
 columnNumber
 NS_LITERAL_STRING

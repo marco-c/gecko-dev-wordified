@@ -1488,7 +1488,7 @@ columnNumber
 =
 0
 ;
-nsAutoCString
+nsAutoString
 spec
 ;
 JSContext
@@ -1599,10 +1599,7 @@ observer
 subject
 *
 /
-NS_ConvertUTF8toUTF16
-(
 spec
-)
 /
 *
 source
