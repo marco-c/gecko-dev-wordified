@@ -2407,6 +2407,9 @@ sourceLine
 ev
 .
 altKey
+ev
+.
+shiftKey
 )
 ;
 }

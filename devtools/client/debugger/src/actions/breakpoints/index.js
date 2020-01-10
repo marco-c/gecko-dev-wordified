@@ -1222,7 +1222,11 @@ line
 number
 shouldLog
 :
-?
+boolean
+=
+false
+disabled
+:
 boolean
 =
 false
@@ -1324,6 +1328,7 @@ addBreakpoint
 cx
 breakpointLocation
 options
+disabled
 )
 )
 ;
