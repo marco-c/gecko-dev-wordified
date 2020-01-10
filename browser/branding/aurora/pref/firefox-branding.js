@@ -56,6 +56,16 @@ MPL
 .
 *
 /
+/
+/
+This
+file
+contains
+branding
+-
+specific
+prefs
+.
 pref
 (
 "
