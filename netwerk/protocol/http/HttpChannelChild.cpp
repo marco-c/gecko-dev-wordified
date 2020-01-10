@@ -2743,6 +2743,10 @@ const
 ResourceTimingStruct
 &
 aTiming
+const
+bool
+&
+aAllRedirectsSameOrigin
 )
 :
 NeckoTargetChannelEvent
@@ -2840,6 +2844,10 @@ mTiming
 (
 aTiming
 )
+mAllRedirectsSameOrigin
+(
+aAllRedirectsSameOrigin
+)
 {
 }
 void
@@ -2893,6 +2901,7 @@ mDeliveringAltData
 mApplyConversion
 mIsResolvedByTRR
 mTiming
+mAllRedirectsSameOrigin
 )
 ;
 }
@@ -2963,6 +2972,9 @@ mIsResolvedByTRR
 ;
 ResourceTimingStruct
 mTiming
+;
+bool
+mAllRedirectsSameOrigin
 ;
 }
 ;
@@ -3070,6 +3082,10 @@ const
 ResourceTimingStruct
 &
 aTiming
+const
+bool
+&
+aAllRedirectsSameOrigin
 )
 {
 AUTO_PROFILER_LABEL
@@ -3194,6 +3210,7 @@ deliveringAltData
 aApplyConversion
 aIsResolvedByTRR
 aTiming
+aAllRedirectsSameOrigin
 )
 )
 ;
@@ -3402,6 +3419,10 @@ const
 ResourceTimingStruct
 &
 aTiming
+const
+bool
+&
+aAllRedirectsSameOrigin
 )
 {
 LOG
@@ -3829,6 +3850,10 @@ false
 mTransactionTimings
 =
 aTiming
+;
+mAllRedirectsSameOrigin
+=
+aAllRedirectsSameOrigin
 ;
 DoOnStartRequest
 (

@@ -785,6 +785,10 @@ const
 ResourceTimingStruct
 &
 aTiming
+const
+bool
+&
+aAllRedirectsSameOrigin
 )
 override
 ;
@@ -2851,6 +2855,10 @@ const
 ResourceTimingStruct
 &
 aTiming
+const
+bool
+&
+aAllRedirectsSameOrigin
 )
 ;
 void
