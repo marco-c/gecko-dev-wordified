@@ -7463,6 +7463,9 @@ PlacesSearchAutocompleteProvider
 .
 currentEngine
 (
+this
+.
+_inPrivateWindow
 )
 ;
 if
@@ -11448,6 +11451,9 @@ PlacesSearchAutocompleteProvider
 .
 currentEngine
 (
+this
+.
+_inPrivateWindow
 )
 ;
 if
