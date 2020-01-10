@@ -146,6 +146,12 @@ geckoview_example
 activity
 =
 '
+org
+.
+mozilla
+.
+geckoview_example
+.
 GeckoViewActivity
 '
                      
@@ -221,6 +227,14 @@ browser
 activity
 =
 '
+org
+.
+mozilla
+.
+reference
+.
+browser
+.
 BrowserTestActivity
 '
                      
@@ -296,7 +310,15 @@ browser
 activity
 =
 '
-BrowserTestActivity
+org
+.
+mozilla
+.
+fenix
+.
+browser
+.
+BrowserPerformanceTestActivity
 '
                      
 intent
