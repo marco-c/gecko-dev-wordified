@@ -1886,6 +1886,7 @@ register
 this
 .
 window
+shortcuts
 )
 ;
 shortcuts
