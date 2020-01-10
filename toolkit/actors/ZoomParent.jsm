@@ -108,6 +108,8 @@ this
 .
 browsingContext
 .
+top
+.
 embedderElement
 ;
 if
