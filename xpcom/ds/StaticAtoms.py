@@ -3365,6 +3365,16 @@ del
 Atom
 (
 "
+deletion
+"
+"
+deletion
+"
+)
+    
+Atom
+(
+"
 deprecation
 "
 "
@@ -5789,6 +5799,16 @@ insertbefore
 "
 "
 insertbefore
+"
+)
+    
+Atom
+(
+"
+insertion
+"
+"
+insertion
 "
 )
     
