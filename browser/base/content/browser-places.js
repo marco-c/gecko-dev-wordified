@@ -3978,7 +3978,7 @@ this
 .
 undoTabMenu
 .
-firstChild
+menupopup
 ;
 /
 /
@@ -4171,7 +4171,7 @@ this
 .
 undoWindowMenu
 .
-firstChild
+menupopup
 ;
 /
 /
