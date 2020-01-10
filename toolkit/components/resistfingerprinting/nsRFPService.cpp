@@ -336,10 +336,6 @@ using
 namespace
 mozilla
 ;
-using
-namespace
-std
-;
 static
 mozilla
 :
@@ -589,6 +585,9 @@ IsResistFingerprintingEnabled
 )
 {
 return
+std
+:
+:
 max
 (
 100000
@@ -4745,6 +4744,9 @@ to
 uint32_t
 boundedDroppedRatio
 =
+std
+:
+:
 min
 (
 kVideoDroppedRatio
@@ -4884,6 +4886,9 @@ to
 uint32_t
 boundedDroppedRatio
 =
+std
+:
+:
 min
 (
 kVideoDroppedRatio
