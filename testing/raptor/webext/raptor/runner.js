@@ -880,7 +880,7 @@ if
 (
 settings
 .
-gecko_interval
+gecko_profile_interval
 !
 =
 =
@@ -891,14 +891,14 @@ geckoInterval
 =
 settings
 .
-gecko_interval
+gecko_profile_interval
 ;
 }
 if
 (
 settings
 .
-gecko_entries
+gecko_profile_entries
 !
 =
 =
@@ -909,7 +909,7 @@ geckoEntries
 =
 settings
 .
-gecko_entries
+gecko_profile_entries
 ;
 }
 if
@@ -2081,6 +2081,8 @@ Compositor
 "
 "
 WR
+"
+"
 Renderer
 "
 ]
