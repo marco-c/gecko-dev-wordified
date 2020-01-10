@@ -232,7 +232,7 @@ DashResult
 }
 ;
 use
-baldrdash
+bindings
 :
 :
 StaticEnvironment
