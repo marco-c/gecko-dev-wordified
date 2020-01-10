@@ -2552,10 +2552,7 @@ IStream
 Value
 *
 root
-std
-:
-:
-string
+String
 *
 errs
 )

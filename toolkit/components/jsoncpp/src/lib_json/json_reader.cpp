@@ -6656,6 +6656,12 @@ readValue
 (
 )
 ;
+nodes_
+.
+pop
+(
+)
+;
 Token
 token
 ;
