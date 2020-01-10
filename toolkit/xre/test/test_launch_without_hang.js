@@ -967,9 +967,6 @@ observer
 topic
 should
 be
-"
-+
-"
 process
 -
 finished
@@ -1226,9 +1223,6 @@ observer
 topic
 should
 be
-"
-+
-"
 process
 -
 finished

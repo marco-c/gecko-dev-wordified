@@ -2194,6 +2194,8 @@ content
 privileged
 windows
 .
+if
+(
 /
 /
 eslint
@@ -2208,8 +2210,6 @@ mozilla
 use
 -
 ownerGlobal
-if
-(
 !
 (
 field

@@ -906,7 +906,6 @@ toSource
 expectedError
 )
 }
-+
 got
 {
 errorMessage
@@ -999,7 +998,6 @@ toSource
 expectedError
 )
 }
-+
 got
 {
 errorMessage

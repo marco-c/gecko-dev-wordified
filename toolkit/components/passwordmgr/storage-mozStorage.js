@@ -7467,17 +7467,8 @@ query
 =
 "
 SELECT
-"
-+
-"
 id
-"
-+
-"
 hostname
-"
-+
-"
 FROM
 moz_disabledHosts
 "

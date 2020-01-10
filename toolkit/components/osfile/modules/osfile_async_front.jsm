@@ -10459,6 +10459,9 @@ first
 /
 called
 .
+const
+isContent
+=
 /
 /
 eslint
@@ -10473,9 +10476,6 @@ mozilla
 use
 -
 services
-const
-isContent
-=
 Cc
 [
 "

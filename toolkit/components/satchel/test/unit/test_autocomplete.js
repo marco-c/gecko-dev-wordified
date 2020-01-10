@@ -1836,9 +1836,6 @@ should
 be
 used
 with
-"
-+
-"
 previous
 results
 "

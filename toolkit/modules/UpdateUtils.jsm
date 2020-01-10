@@ -2572,9 +2572,6 @@ info
 memsize
 property
 .
-"
-+
-"
 Exception
 :
 "
@@ -3020,9 +3017,6 @@ getting
 processor
 architecture
 .
-"
-+
-"
 Exception
 :
 "

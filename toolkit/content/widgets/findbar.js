@@ -1693,6 +1693,13 @@ browserid
 )
 )
 {
+setTimeout
+(
+function
+(
+aSelf
+)
+{
 /
 /
 eslint
@@ -1707,13 +1714,6 @@ no
 self
 -
 assign
-setTimeout
-(
-function
-(
-aSelf
-)
-{
 aSelf
 .
 browser

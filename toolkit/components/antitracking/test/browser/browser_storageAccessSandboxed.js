@@ -1076,9 +1076,6 @@ sandboxed
 contexts
 get
 the
-"
-+
-"
 saved
 permission
 "

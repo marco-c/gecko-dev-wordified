@@ -4547,6 +4547,8 @@ click
 started
 outside
 the
+/
+/
 panel
 .
 }
@@ -5961,6 +5963,11 @@ openPopupAtScreen
 args
 )
 {
+/
+/
+prettier
+-
+ignore
 const
 parentContextMenuPopup
 =
@@ -7155,6 +7162,11 @@ InitBrowser
 browserOptions
 )
 ;
+/
+/
+prettier
+-
+ignore
 browser
 .
 loadURI
@@ -10438,6 +10450,8 @@ on
 when
 it
 gets
+/
+/
 installed
 .
 this
@@ -10537,6 +10551,11 @@ contribute
 "
 )
 ;
+/
+/
+prettier
+-
+ignore
 windowRoot
 .
 ownerGlobal

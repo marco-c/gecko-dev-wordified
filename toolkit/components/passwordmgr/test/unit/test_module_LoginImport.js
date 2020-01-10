@@ -617,9 +617,6 @@ moz_disabledHosts
 (
 hostname
 )
-"
-+
-"
 VALUES
 (
 ?

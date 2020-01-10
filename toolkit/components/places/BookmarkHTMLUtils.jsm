@@ -6096,9 +6096,6 @@ text
 /
 html
 ;
-'
-+
-'
 charset
 =
 UTF

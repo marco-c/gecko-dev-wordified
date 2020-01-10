@@ -3959,6 +3959,10 @@ testRunCanRunOnlyOnce
 loadRecipesStub
 )
 {
+loadRecipesStub
+.
+returns
+(
 /
 /
 eslint
@@ -3975,10 +3979,6 @@ no
 arbitrary
 -
 setTimeout
-loadRecipesStub
-.
-returns
-(
 new
 Promise
 (

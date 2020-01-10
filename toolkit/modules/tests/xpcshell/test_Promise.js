@@ -2599,9 +2599,6 @@ a
 promise
 eventually
 yielded
-"
-+
-"
 the
 correct
 result
@@ -2964,9 +2961,6 @@ error
 altered
 the
 reason
-"
-+
-"
 as
 expected
 "

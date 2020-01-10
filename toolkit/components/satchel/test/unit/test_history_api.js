@@ -238,9 +238,6 @@ SELECT
 timeDeleted
 FROM
 moz_deleted_formhistory
-"
-+
-"
 WHERE
 guid
 =
