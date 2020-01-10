@@ -1848,13 +1848,13 @@ const
 uint32_t
 &
 aAlreadyLoadedCount
-InfallibleTArray
+nsTArray
 <
 nsString
 >
 *
 aKeys
-InfallibleTArray
+nsTArray
 <
 nsString
 >

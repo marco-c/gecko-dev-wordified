@@ -1709,7 +1709,7 @@ StorageDBThread
 :
 GetOriginsHavingData
 (
-InfallibleTArray
+nsTArray
 <
 nsCString
 >

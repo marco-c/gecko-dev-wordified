@@ -2279,7 +2279,7 @@ data
 void
 GetOriginsHavingData
 (
-InfallibleTArray
+nsTArray
 <
 nsCString
 >
