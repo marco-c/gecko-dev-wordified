@@ -5770,10 +5770,7 @@ mDocument
 AccessibleOrTrueContainer
 (
 containerNode
-DocAccessible
-:
-:
-eNoContainerIfARIAHidden
+true
 )
 ;
 if
