@@ -205,14 +205,6 @@ CrossOriginPolicy
 )
 MOZ_BC_FIELD
 (
-InheritedCrossOriginPolicy
-nsILoadInfo
-:
-:
-CrossOriginPolicy
-)
-MOZ_BC_FIELD
-(
 OpenerPolicy
 nsILoadInfo
 :

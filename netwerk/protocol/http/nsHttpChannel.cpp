@@ -49699,7 +49699,7 @@ documentPolicy
 ctx
 -
 >
-GetInheritedCrossOriginPolicy
+GetCrossOriginPolicy
 (
 )
 ;
