@@ -521,7 +521,7 @@ class
 ClonedMessageData
 ;
 class
-TabChild
+BrowserChild
 ;
 class
 GetFilesHelperChild
@@ -674,7 +674,7 @@ sourceURL
 nsresult
 ProvideWindowCommon
 (
-TabChild
+BrowserChild
 *
 aTabOpener
 mozIDOMWindowProxy
@@ -3003,9 +3003,9 @@ aDictionaries
 PBrowserOrId
 GetBrowserOrId
 (
-TabChild
+BrowserChild
 *
-aTabChild
+aBrowserChild
 )
 ;
 POfflineCacheUpdateChild
@@ -3804,9 +3804,9 @@ nsIEventTarget
 >
 GetEventTargetFor
 (
-TabChild
+BrowserChild
 *
-aTabChild
+aBrowserChild
 )
 ;
 mozilla

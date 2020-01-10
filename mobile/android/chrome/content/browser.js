@@ -24583,7 +24583,7 @@ aURI
 aParams
 aWhere
 aFlags
-aNextTabParentId
+aNextRemoteTabId
 aName
 )
 {
@@ -24592,7 +24592,7 @@ aName
 We
 currently
 ignore
-aNextTabParentId
+aNextRemoteTabId
 on
 mobile
 .
@@ -24671,7 +24671,7 @@ aURI
 aParams
 aWhere
 aFlags
-aNextTabParentId
+aNextRemoteTabId
 aName
 )
 {
