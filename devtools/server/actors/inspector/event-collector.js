@@ -1114,19 +1114,6 @@ getDOMListeners
 node
 )
 {
-const
-els
-=
-isReplaying
-?
-ReplayInspector
-.
-els
-:
-Services
-.
-els
-;
 if
 (
 typeof
@@ -1159,6 +1146,8 @@ html
 const
 winListeners
 =
+Services
+.
 els
 .
 getListenerInfoFor
@@ -1175,6 +1164,8 @@ ownerGlobal
 const
 docElementListeners
 =
+Services
+.
 els
 .
 getListenerInfoFor
@@ -1189,6 +1180,8 @@ node
 const
 docListeners
 =
+Services
+.
 els
 .
 getListenerInfoFor
@@ -1220,6 +1213,8 @@ docListeners
 ;
 }
 return
+Services
+.
 els
 .
 getListenerInfoFor
