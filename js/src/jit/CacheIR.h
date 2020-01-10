@@ -12998,10 +12998,6 @@ idVal_
 HandleValue
 receiver_
 ;
-bool
-*
-isTemporarilyUnoptimizable_
-;
 GetPropertyResultFlags
 resultFlags_
 ;
@@ -13017,7 +13013,7 @@ NotePreliminary
 PreliminaryObjectAction
 preliminaryObjectAction_
 ;
-bool
+AttachDecision
 tryAttachNative
 (
 HandleObject
@@ -13028,7 +13024,7 @@ HandleId
 id
 )
 ;
-bool
+AttachDecision
 tryAttachUnboxed
 (
 HandleObject
@@ -13039,7 +13035,7 @@ HandleId
 id
 )
 ;
-bool
+AttachDecision
 tryAttachUnboxedExpando
 (
 HandleObject
@@ -13050,7 +13046,7 @@ HandleId
 id
 )
 ;
-bool
+AttachDecision
 tryAttachTypedObject
 (
 HandleObject
@@ -13061,7 +13057,7 @@ HandleId
 id
 )
 ;
-bool
+AttachDecision
 tryAttachObjectLength
 (
 HandleObject
@@ -13072,7 +13068,7 @@ HandleId
 id
 )
 ;
-bool
+AttachDecision
 tryAttachModuleNamespace
 (
 HandleObject
@@ -13083,7 +13079,7 @@ HandleId
 id
 )
 ;
-bool
+AttachDecision
 tryAttachWindowProxy
 (
 HandleObject
@@ -13094,7 +13090,7 @@ HandleId
 id
 )
 ;
-bool
+AttachDecision
 tryAttachCrossCompartmentWrapper
 (
 HandleObject
@@ -13105,7 +13101,7 @@ HandleId
 id
 )
 ;
-bool
+AttachDecision
 tryAttachXrayCrossCompartmentWrapper
 (
 HandleObject
@@ -13116,7 +13112,7 @@ HandleId
 id
 )
 ;
-bool
+AttachDecision
 tryAttachFunction
 (
 HandleObject
@@ -13127,7 +13123,7 @@ HandleId
 id
 )
 ;
-bool
+AttachDecision
 tryAttachGenericProxy
 (
 HandleObject
@@ -13140,7 +13136,7 @@ bool
 handleDOMProxies
 )
 ;
-bool
+AttachDecision
 tryAttachDOMProxyExpando
 (
 HandleObject
@@ -13151,7 +13147,7 @@ HandleId
 id
 )
 ;
-bool
+AttachDecision
 tryAttachDOMProxyShadowed
 (
 HandleObject
@@ -13162,7 +13158,7 @@ HandleId
 id
 )
 ;
-bool
+AttachDecision
 tryAttachDOMProxyUnshadowed
 (
 HandleObject
@@ -13173,7 +13169,7 @@ HandleId
 id
 )
 ;
-bool
+AttachDecision
 tryAttachProxy
 (
 HandleObject
@@ -13184,7 +13180,7 @@ HandleId
 id
 )
 ;
-bool
+AttachDecision
 tryAttachPrimitive
 (
 ValOperandId
@@ -13193,7 +13189,7 @@ HandleId
 id
 )
 ;
-bool
+AttachDecision
 tryAttachStringChar
 (
 ValOperandId
@@ -13202,7 +13198,7 @@ ValOperandId
 indexId
 )
 ;
-bool
+AttachDecision
 tryAttachStringLength
 (
 ValOperandId
@@ -13211,7 +13207,7 @@ HandleId
 id
 )
 ;
-bool
+AttachDecision
 tryAttachMagicArgumentsName
 (
 ValOperandId
@@ -13220,7 +13216,7 @@ HandleId
 id
 )
 ;
-bool
+AttachDecision
 tryAttachMagicArgument
 (
 ValOperandId
@@ -13229,7 +13225,7 @@ ValOperandId
 indexId
 )
 ;
-bool
+AttachDecision
 tryAttachArgumentsObjectArg
 (
 HandleObject
@@ -13240,7 +13236,7 @@ Int32OperandId
 indexId
 )
 ;
-bool
+AttachDecision
 tryAttachDenseElement
 (
 HandleObject
@@ -13253,7 +13249,7 @@ Int32OperandId
 indexId
 )
 ;
-bool
+AttachDecision
 tryAttachDenseElementHole
 (
 HandleObject
@@ -13266,7 +13262,7 @@ Int32OperandId
 indexId
 )
 ;
-bool
+AttachDecision
 tryAttachSparseElement
 (
 HandleObject
@@ -13279,7 +13275,7 @@ Int32OperandId
 indexId
 )
 ;
-bool
+AttachDecision
 tryAttachTypedElement
 (
 HandleObject
@@ -13292,7 +13288,7 @@ Int32OperandId
 indexId
 )
 ;
-bool
+AttachDecision
 tryAttachGenericElement
 (
 HandleObject
@@ -13305,7 +13301,7 @@ Int32OperandId
 indexId
 )
 ;
-bool
+AttachDecision
 tryAttachProxyElement
 (
 HandleObject
@@ -13509,16 +13505,13 @@ script
 jsbytecode
 *
 pc
-CacheKind
-cacheKind
 ICState
 :
 :
 Mode
 mode
-bool
-*
-isTemporarilyUnoptimizable
+CacheKind
+cacheKind
 HandleValue
 val
 HandleValue
@@ -13529,12 +13522,12 @@ GetPropertyResultFlags
 resultFlags
 )
 ;
-bool
+AttachDecision
 tryAttachStub
 (
 )
 ;
-bool
+AttachDecision
 tryAttachIdempotentStub
 (
 )
