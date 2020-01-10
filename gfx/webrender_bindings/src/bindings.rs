@@ -268,7 +268,6 @@ ExternalImageHandler
 ExternalImageSource
 PipelineInfo
 ProfilerHooks
-ReadPixelsFormat
 Renderer
 RendererOptions
 RendererStats
@@ -4074,16 +4073,10 @@ height
 into
 (
 )
-ReadPixelsFormat
-:
-:
-Standard
-(
 ImageFormat
 :
 :
 BGRA8
-)
 &
 mut
 slice
