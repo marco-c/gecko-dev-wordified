@@ -367,7 +367,7 @@ out_failureReason
 override
 ;
 void
-DetachWidget
+Destroy
 (
 )
 override
