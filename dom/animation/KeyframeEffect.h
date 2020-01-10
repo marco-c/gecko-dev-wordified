@@ -248,6 +248,15 @@ KeyframeEffectParams
 .
 h
 "
+#
+include
+"
+mozilla
+/
+PostRestyleMode
+.
+h
+"
 /
 /
 RawServoDeclarationBlock
@@ -1113,6 +1122,8 @@ NotifySpecifiedTimingUpdated
 void
 NotifyAnimationTimingUpdated
 (
+PostRestyleMode
+aPostRestyle
 )
 ;
 void

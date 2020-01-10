@@ -636,6 +636,8 @@ PauseFromStyle
 void
 CancelFromStyle
 (
+PostRestyleMode
+aPostRestyle
 )
 {
 /
@@ -782,6 +784,7 @@ Animation
 :
 Cancel
 (
+aPostRestyle
 )
 ;
 /

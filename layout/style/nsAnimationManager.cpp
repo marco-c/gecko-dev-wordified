@@ -4369,6 +4369,10 @@ newAnimIdx
 >
 CancelFromStyle
 (
+PostRestyleMode
+:
+:
+IfNeeded
 )
 ;
 }
