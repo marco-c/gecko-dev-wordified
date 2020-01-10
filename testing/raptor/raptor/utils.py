@@ -76,21 +76,22 @@ sys
 import
 time
 from
-mozlog
+logger
+.
+logger
 import
-get_proxy_logger
-get_default_logger
+RaptorLogger
 LOG
 =
-get_proxy_logger
+RaptorLogger
 (
 component
 =
-"
+'
 raptor
 -
 utils
-"
+'
 )
 here
 =
@@ -388,9 +389,9 @@ firefox
 .
 com
     
-LOG
+LOG_GECKO
 =
-get_default_logger
+RaptorLogger
 (
 component
 =
@@ -450,7 +451,7 @@ ffox_bin
 )
 :
         
-LOG
+LOG_GECKO
 .
 info
 (
@@ -502,7 +503,7 @@ profile_zip
 )
 :
         
-LOG
+LOG_GECKO
 .
 info
 (
@@ -516,6 +517,9 @@ were
 found
 so
 not
+"
+                       
+"
 launching
 profiler
 .
@@ -566,7 +570,7 @@ is
 None
 :
         
-LOG
+LOG_GECKO
 .
 info
 (
@@ -627,7 +631,7 @@ view_gp
 )
 :
         
-LOG
+LOG_GECKO
 .
 info
 (
@@ -672,7 +676,7 @@ p
 profile_zip
 ]
     
-LOG
+LOG_GECKO
 .
 info
 (
@@ -694,7 +698,7 @@ s
 profile_zip
 )
     
-LOG
+LOG_GECKO
 .
 info
 (
@@ -782,7 +786,7 @@ as
 e
 :
         
-LOG
+LOG_GECKO
 .
 info
 (
@@ -828,7 +832,7 @@ is
 None
 :
         
-LOG
+LOG_GECKO
 .
 info
 (
@@ -854,7 +858,7 @@ pid
 else
 :
         
-LOG
+LOG_GECKO
 .
 error
 (

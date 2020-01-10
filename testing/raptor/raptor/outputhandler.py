@@ -66,12 +66,14 @@ absolute_import
 import
 json
 from
-mozlog
+logger
+.
+logger
 import
-get_proxy_logger
+RaptorLogger
 LOG
 =
-get_proxy_logger
+RaptorLogger
 (
 component
 =

@@ -61,6 +61,24 @@ import
 os
 import
 re
+from
+logger
+.
+logger
+import
+RaptorLogger
+LOG
+=
+RaptorLogger
+(
+component
+=
+'
+raptor
+-
+power
+'
+)
 def
 init_android_power_test
 (
@@ -84,9 +102,7 @@ not
 upload_dir
 :
         
-raptor
-.
-log
+LOG
 .
 critical
 (
@@ -859,9 +875,7 @@ not
 upload_dir
 :
         
-raptor
-.
-log
+LOG
 .
 critical
 (
@@ -1764,9 +1778,7 @@ None
 else
 wifi
     
-raptor
-.
-log
+LOG
 .
 info
 (
@@ -1896,15 +1908,20 @@ screen
     
 }
     
-#
-Only
-submit
-proportional
-measurement
-on
-Android
-8
-+
+LOG
+.
+info
+(
+"
+submitting
+power
+data
+via
+control
+server
+directly
+"
+)
     
 if
 major_android_version
@@ -1932,23 +1949,6 @@ proportional
     
 raptor
 .
-log
-.
-info
-(
-"
-submitting
-power
-data
-via
-control
-server
-directly
-"
-)
-    
-raptor
-.
 control_server
 .
 submit_supporting_data
@@ -1962,9 +1962,7 @@ power
 bugreport
 zip
     
-raptor
-.
-log
+LOG
 .
 info
 (
