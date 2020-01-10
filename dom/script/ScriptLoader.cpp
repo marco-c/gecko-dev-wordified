@@ -8441,10 +8441,10 @@ if
 cic
 &
 &
-nsContentUtils
+StaticPrefs
 :
 :
-IsBytecodeCacheEnabled
+dom_script_loader_bytecode_cache_enabled
 (
 )
 &
