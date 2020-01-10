@@ -414,9 +414,7 @@ UCT
 normalized
 :
 "
-Etc
-/
-UCT
+UTC
 "
 }
 {
