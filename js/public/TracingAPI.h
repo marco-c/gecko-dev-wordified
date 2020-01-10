@@ -1811,7 +1811,7 @@ enum
 class
 TracerKind
 {
-Unspecified
+DoNotCare
 Moving
 GrayBuffering
 VerifyTraceProtoAndIface
@@ -1830,7 +1830,7 @@ return
 TracerKind
 :
 :
-Unspecified
+DoNotCare
 ;
 }
 #

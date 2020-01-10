@@ -1035,7 +1035,7 @@ a
 write
 barrier
 executes
-isMarkingTracer
+IsMarkingTracer
 is
 true
 but
