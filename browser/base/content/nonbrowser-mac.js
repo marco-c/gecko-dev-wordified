@@ -396,9 +396,9 @@ browser
 /
 content
 /
-hiddenWindow
+hiddenWindowMac
 .
-xul
+xhtml
 "
 )
 {
@@ -723,9 +723,9 @@ browser
 /
 content
 /
-hiddenWindow
+hiddenWindowMac
 .
-xul
+xhtml
 "
 )
 {
