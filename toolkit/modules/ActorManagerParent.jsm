@@ -1872,6 +1872,13 @@ mozSystemGroup
 :
 true
 }
+contextmenu
+:
+{
+capture
+:
+true
+}
 }
 }
 }
