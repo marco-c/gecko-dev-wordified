@@ -5686,6 +5686,13 @@ mHeight
 )
 aRegion
 mInputSubType
+gfx
+:
+:
+YUVColorSpace
+:
+:
+UNKNOWN
 )
 ;
 /

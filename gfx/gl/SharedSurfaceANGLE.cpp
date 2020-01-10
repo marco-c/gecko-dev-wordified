@@ -981,6 +981,13 @@ WindowsHandle
 mShareHandle
 format
 mSize
+gfx
+:
+:
+YUVColorSpace
+:
+:
+UNKNOWN
 )
 ;
 return
