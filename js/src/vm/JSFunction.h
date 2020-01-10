@@ -2588,6 +2588,11 @@ hasScript
 )
 |
 |
+isInterpretedLazy
+(
+)
+|
+|
 isNativeWithJitEntry
 (
 )

@@ -19474,6 +19474,15 @@ a
 scripted
 function
 .
+It
+is
+fine
+if
+it
+is
+still
+lazy
+.
 branchTestFunctionFlags
 (
 fun
@@ -19481,6 +19490,11 @@ JSFunction
 :
 :
 INTERPRETED
+|
+JSFunction
+:
+:
+INTERPRETED_LAZY
 Assembler
 :
 :
