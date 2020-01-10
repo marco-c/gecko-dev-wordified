@@ -1095,7 +1095,7 @@ defined
 /
 async
 function
-getRecordingPreferencesFromDebuggee
+getRecordingPreferences
 (
 preferenceFront
 defaultSettings
@@ -1289,7 +1289,7 @@ defined
 /
 async
 function
-setRecordingPreferencesOnDebuggee
+setRecordingPreferences
 (
 preferenceFront
 settings
@@ -1409,7 +1409,7 @@ exports
 =
 {
 receiveProfile
-getRecordingPreferencesFromDebuggee
-setRecordingPreferencesOnDebuggee
+getRecordingPreferences
+setRecordingPreferences
 }
 ;
