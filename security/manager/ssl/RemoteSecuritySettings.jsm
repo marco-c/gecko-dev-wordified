@@ -1974,9 +1974,6 @@ item
 .
 expires
 pins
-.
-length
-pins
 true
 )
 ;
