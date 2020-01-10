@@ -148,6 +148,13 @@ XMLHttpRequest
 #
 include
 "
+nsContentPolicyUtils
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -228,6 +235,10 @@ nsIURI
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_IMPL_ISUPPORTS
 (
 nsDataDocumentContentPolicy

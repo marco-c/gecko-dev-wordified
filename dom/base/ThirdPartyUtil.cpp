@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsGlobalWindowOuter
+.
+h
+"
+#
+include
+"
 nsNetCID
 .
 h
@@ -256,13 +263,6 @@ h
 include
 "
 nsGlobalWindowOuter
-.
-h
-"
-#
-include
-"
-nsPIDOMWindow
 .
 h
 "
