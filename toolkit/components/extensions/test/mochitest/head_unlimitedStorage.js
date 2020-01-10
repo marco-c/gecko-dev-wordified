@@ -196,9 +196,9 @@ testPermissionFromPrincipal
 (
 principal
 "
-WebExtensions
+persistent
 -
-unlimitedStorage
+storage
 "
 )
 }
