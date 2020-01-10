@@ -504,7 +504,7 @@ AnimationPerformanceWarning
 >
 mPerformanceWarning
 ;
-InfallibleTArray
+nsTArray
 <
 AnimationPropertySegment
 >
@@ -1685,7 +1685,7 @@ aFrame
 const
 ;
 const
-InfallibleTArray
+nsTArray
 <
 AnimationProperty
 >
