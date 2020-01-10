@@ -633,7 +633,7 @@ ctor
 )
 ThrowTypeError
 (
-JSMSG_NOT_NONNULL_OBJECT
+JSMSG_OBJECT_REQUIRED
 "
 object
 '

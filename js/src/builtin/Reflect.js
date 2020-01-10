@@ -268,7 +268,7 @@ argumentsList
 {
 ThrowTypeError
 (
-JSMSG_NOT_NONNULL_OBJECT_ARG
+JSMSG_OBJECT_REQUIRED_ARG
 "
 argumentsList
 "
@@ -427,7 +427,7 @@ argumentsList
 {
 ThrowTypeError
 (
-JSMSG_NOT_NONNULL_OBJECT_ARG
+JSMSG_OBJECT_REQUIRED_ARG
 "
 argumentsList
 "
@@ -783,7 +783,7 @@ target
 )
 ThrowTypeError
 (
-JSMSG_NOT_NONNULL_OBJECT
+JSMSG_OBJECT_REQUIRED
 DecompileArg
 (
 0
@@ -863,7 +863,7 @@ target
 {
 ThrowTypeError
 (
-JSMSG_NOT_NONNULL_OBJECT_ARG
+JSMSG_OBJECT_REQUIRED_ARG
 "
 target
 "
@@ -955,7 +955,7 @@ target
 {
 ThrowTypeError
 (
-JSMSG_NOT_NONNULL_OBJECT_ARG
+JSMSG_OBJECT_REQUIRED_ARG
 "
 target
 "

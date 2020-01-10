@@ -15179,7 +15179,7 @@ JS_ReportErrorNumberASCII
 cx
 GetErrorMessage
 nullptr
-JSMSG_NOT_NONNULL_OBJECT
+JSMSG_OBJECT_REQUIRED
 message
 )
 ;
@@ -22437,7 +22437,7 @@ JS_ReportErrorNumberASCII
 cx
 GetErrorMessage
 nullptr
-JSMSG_NOT_NONNULL_OBJECT
+JSMSG_OBJECT_REQUIRED
 msg
 )
 ;
@@ -30490,7 +30490,7 @@ JS_ReportErrorNumberASCII
 cx
 GetErrorMessage
 nullptr
-JSMSG_NOT_NONNULL_OBJECT
+JSMSG_OBJECT_REQUIRED
 "
 Receiver
 of

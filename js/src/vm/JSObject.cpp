@@ -827,7 +827,7 @@ v
 ReportNotObject
 (
 cx
-JSMSG_NOT_NONNULL_OBJECT
+JSMSG_OBJECT_REQUIRED
 value
 )
 ;
@@ -886,7 +886,7 @@ JS_ReportErrorNumberLatin1
 cx
 GetErrorMessage
 nullptr
-JSMSG_NOT_NONNULL_OBJECT_ARG
+JSMSG_OBJECT_REQUIRED_ARG
 nth
 fun
 chars
@@ -1937,7 +1937,7 @@ cx
 RequireObject
 (
 cx
-JSMSG_NOT_NONNULL_OBJECT_PROP_DESC
+JSMSG_OBJECT_REQUIRED_PROP_DESC
 descval
 )
 )
@@ -28576,7 +28576,7 @@ JS_ReportErrorNumberASCII
 cx
 GetErrorMessage
 nullptr
-JSMSG_NOT_NONNULL_OBJECT
+JSMSG_OBJECT_REQUIRED
 "
 object
 '

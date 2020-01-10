@@ -1217,7 +1217,7 @@ JS_ReportErrorNumberUTF8
 cx
 GetErrorMessage
 0
-JSMSG_NOT_NONNULL_OBJECT
+JSMSG_OBJECT_REQUIRED
 bytes
 .
 get
