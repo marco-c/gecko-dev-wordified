@@ -1195,7 +1195,7 @@ a
 rayon
 :
 :
-Scope
+ScopeFifo
 <
 '
 scope
@@ -2287,7 +2287,7 @@ a
 rayon
 :
 :
-Scope
+ScopeFifo
 <
 '
 scope
@@ -2576,7 +2576,7 @@ else
 {
 scope
 .
-spawn
+spawn_fifo
 (
 move
 |
@@ -2655,7 +2655,7 @@ clone
 ;
 scope
 .
-spawn
+spawn_fifo
 (
 move
 |

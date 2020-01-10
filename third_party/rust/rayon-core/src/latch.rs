@@ -22,8 +22,8 @@ sync
 :
 :
 {
-Mutex
 Condvar
+Mutex
 }
 ;
 use
@@ -381,6 +381,9 @@ for
 details
 .
 pub
+(
+super
+)
 trait
 Latch
 :
@@ -404,6 +407,9 @@ self
 ;
 }
 pub
+(
+super
+)
 trait
 LatchProbe
 {
@@ -473,6 +479,9 @@ is
 called
 .
 pub
+(
+super
+)
 struct
 SpinLatch
 {
@@ -488,6 +497,9 @@ SpinLatch
 inline
 ]
 pub
+(
+super
+)
 fn
 new
 (
@@ -598,6 +610,9 @@ becomes
 true
 .
 pub
+(
+super
+)
 struct
 LockLatch
 {
@@ -619,6 +634,9 @@ LockLatch
 inline
 ]
 pub
+(
+super
+)
 fn
 new
 (
@@ -658,6 +676,9 @@ is
 set
 .
 pub
+(
+super
+)
 fn
 wait
 (
@@ -889,6 +910,9 @@ Debug
 )
 ]
 pub
+(
+super
+)
 struct
 CountLatch
 {
@@ -904,6 +928,9 @@ CountLatch
 inline
 ]
 pub
+(
+super
+)
 fn
 new
 (
@@ -930,6 +957,9 @@ new
 inline
 ]
 pub
+(
+super
+)
 fn
 increment
 (
@@ -1108,6 +1138,9 @@ while
 waiting
 .
 pub
+(
+super
+)
 struct
 TickleLatch
 <
@@ -1148,6 +1181,9 @@ L
 inline
 ]
 pub
+(
+super
+)
 fn
 new
 (
@@ -1170,8 +1206,6 @@ TickleLatch
 inner
 :
 latch
-sleep
-:
 sleep
 }
 }

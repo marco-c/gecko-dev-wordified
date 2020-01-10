@@ -25,6 +25,9 @@ divisable
 inline
 ]
 pub
+(
+super
+)
 fn
 div_round_up
 (

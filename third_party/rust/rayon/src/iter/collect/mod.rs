@@ -3,10 +3,10 @@ super
 :
 :
 {
-ParallelIterator
 IndexedParallelIterator
 IntoParallelIterator
 ParallelExtend
+ParallelIterator
 }
 ;
 use
@@ -86,10 +86,6 @@ vector
 /
 This
 is
-not
-directly
-public
-but
 called
 by
 IndexedParallelIterator
@@ -98,6 +94,9 @@ IndexedParallelIterator
 collect_into_vec
 .
 pub
+(
+super
+)
 fn
 collect_into_vec
 <
@@ -405,10 +404,6 @@ vectors
 /
 This
 is
-not
-directly
-public
-but
 called
 by
 IndexedParallelIterator
@@ -417,6 +412,9 @@ IndexedParallelIterator
 unzip_into_vecs
 .
 pub
+(
+super
+)
 fn
 unzip_into_vecs
 <
@@ -636,10 +634,6 @@ new
 0
 )
 vec
-:
-vec
-len
-:
 len
 }
 }
@@ -667,6 +661,8 @@ self
 >
 CollectConsumer
 <
+'
+_
 T
 >
 {

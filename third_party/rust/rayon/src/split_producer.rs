@@ -34,8 +34,8 @@ plumbing
 :
 :
 {
-UnindexedProducer
 Folder
+UnindexedProducer
 }
 ;
 /
@@ -50,6 +50,9 @@ a
 predicate
 .
 pub
+(
+super
+)
 struct
 SplitProducer
 <
@@ -114,6 +117,9 @@ share
 SplitProducer
 .
 pub
+(
+super
+)
 trait
 Fissile
 <
@@ -261,6 +267,9 @@ P
 Send
 {
 pub
+(
+super
+)
 fn
 new
 (
@@ -288,10 +297,6 @@ length
 (
 )
 data
-:
-data
-separator
-:
 separator
 }
 }
@@ -318,6 +323,9 @@ empty
 item
 .
 pub
+(
+super
+)
 fn
 fold_with
 <

@@ -817,7 +817,7 @@ a
 Rayon
 structure
 (
-typicaly
+typically
 a
 Scope
 or

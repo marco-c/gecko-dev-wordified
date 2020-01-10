@@ -1,4 +1,10 @@
 use
+job
+:
+:
+StackJob
+;
+use
 latch
 :
 :
@@ -15,12 +21,6 @@ Event
 :
 :
 *
-;
-use
-job
-:
-:
-StackJob
 ;
 use
 registry
@@ -416,6 +416,8 @@ method
 :
 .
 .
+/
+rayon
 /
 slice
 /
@@ -1610,7 +1612,6 @@ break
 ;
 }
 }
-return
 (
 result_a
 job_b
@@ -1619,7 +1620,6 @@ into_result
 (
 )
 )
-;
 }
 )
 }

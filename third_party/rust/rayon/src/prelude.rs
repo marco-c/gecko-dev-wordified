@@ -57,6 +57,13 @@ use
 iter
 :
 :
+IndexedParallelIterator
+;
+pub
+use
+iter
+:
+:
 IntoParallelIterator
 ;
 pub
@@ -78,7 +85,7 @@ use
 iter
 :
 :
-IndexedParallelIterator
+ParallelBridge
 ;
 pub
 use

@@ -2747,7 +2747,7 @@ current_num_threads
 inline
 ]
 fn
-try
+try_split
 (
 &
 mut
@@ -3222,7 +3222,7 @@ splitter
 inline
 ]
 fn
-try
+try_split
 (
 &
 mut
@@ -3268,7 +3268,7 @@ self
 .
 inner
 .
-try
+try_split
 (
 stolen
 )
@@ -3465,10 +3465,6 @@ with_producer
 Callback
 {
 len
-:
-len
-consumer
-:
 consumer
 }
 )
@@ -3848,7 +3844,7 @@ else
 if
 splitter
 .
-try
+try_split
 (
 len
 migrated
@@ -4108,7 +4104,7 @@ else
 if
 splitter
 .
-try
+try_split
 (
 migrated
 )
@@ -4167,7 +4163,6 @@ join_context
 |
 context
 |
-{
 bridge
 (
 context
@@ -4179,11 +4174,9 @@ splitter
 left_producer
 left_consumer
 )
-}
 |
 context
 |
-{
 bridge
 (
 context
@@ -4195,7 +4188,6 @@ splitter
 right_producer
 right_consumer
 )
-}
 )
 ;
 reducer

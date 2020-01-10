@@ -79,13 +79,13 @@ use
 iter
 :
 :
+plumbing
+:
+:
 *
 ;
 use
 iter
-:
-:
-plumbing
 :
 :
 *
@@ -597,8 +597,6 @@ deterministic
 .
 impl
 <
-'
-a
 C
 T
 E
