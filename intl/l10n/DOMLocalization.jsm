@@ -5585,6 +5585,14 @@ null
 ;
 }
 }
+DOMLocalization
+.
+DOMOverlays
+=
+{
+translateElement
+}
+;
 /
 *
 *
