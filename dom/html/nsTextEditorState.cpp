@@ -15522,10 +15522,10 @@ mPlaceholderVisibility
 &
 &
 !
-nsContentUtils
+StaticPrefs
 :
 :
-ShowInputPlaceholderOnFocus
+dom_placeholder_show_on_focus
 (
 )
 )
