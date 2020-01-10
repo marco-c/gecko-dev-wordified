@@ -13433,7 +13433,6 @@ document
 .
 *
 /
-virtual
 nsISupports
 *
 GetContainer
