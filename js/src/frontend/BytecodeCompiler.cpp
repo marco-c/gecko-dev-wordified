@@ -2274,11 +2274,6 @@ canLazilyParse
 const
 {
 return
-options
-.
-canLazilyParse
-&
-&
 !
 options
 .
