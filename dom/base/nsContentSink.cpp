@@ -4526,6 +4526,13 @@ IsInline
 :
 :
 No
+Loader
+:
+:
+IsExplicitlyEnabled
+:
+:
+No
 }
 ;
 auto
