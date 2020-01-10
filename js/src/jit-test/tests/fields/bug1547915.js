@@ -41,6 +41,6 @@ eval
 (
 source
 )
-ReferenceError
+SyntaxError
 )
 ;
