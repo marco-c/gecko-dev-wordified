@@ -1204,14 +1204,11 @@ self
         
 ignore_keys
 =
-set
-(
-[
+{
 "
 type
 "
-]
-)
+}
         
 if
 set
@@ -4867,14 +4864,11 @@ None
         
 boolean_properties
 =
-set
-(
-[
+{
 "
 debug
 "
-]
-)
+}
     
 else
 :
@@ -4960,8 +4954,7 @@ ConditionError
     
 properties
 =
-set
-(
+{
 item
 [
 0
@@ -4974,7 +4967,7 @@ by_property
 iterkeys
 (
 )
-)
+}
     
 include_props
 =

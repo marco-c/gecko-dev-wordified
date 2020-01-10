@@ -2269,14 +2269,11 @@ self
         
 required_keys
 =
-set
-(
-[
+{
 "
 type
 "
-]
-)
+}
         
 if
 set

@@ -655,8 +655,7 @@ revish
     
 all_changed
 =
-set
-(
+{
 os
 .
 path
@@ -666,7 +665,6 @@ relpath
 item
 wpt_root
 )
-                      
 for
 item
 in
@@ -674,7 +672,7 @@ set
 (
 changed
 )
-)
+}
     
 return
 all_changed

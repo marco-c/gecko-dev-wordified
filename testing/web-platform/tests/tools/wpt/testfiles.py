@@ -1667,9 +1667,7 @@ None
         
 skip_dirs
 =
-set
-(
-[
+{
 "
 conformance
 -
@@ -1681,8 +1679,7 @@ docs
 "
 tools
 "
-]
-)
+}
     
 affected_testfiles
 =
@@ -1900,8 +1897,7 @@ support_files
     
 tests_changed
 =
-set
-(
+{
 item
 for
 item
@@ -1911,7 +1907,7 @@ if
 item
 in
 test_files
-)
+}
     
 nontest_changed_paths
 =
@@ -2665,17 +2661,14 @@ set
                         
 default
 =
-set
-(
-[
+{
 "
 resources
 /
 testharness
 *
 "
-]
-)
+}
                         
 help
 =
@@ -3134,9 +3127,7 @@ affected_testfiles
         
 changed
         
-set
-(
-[
+{
 "
 conformance
 -
@@ -3148,8 +3139,7 @@ docs
 "
 tools
 "
-]
-)
+}
         
 manifest_path
 =

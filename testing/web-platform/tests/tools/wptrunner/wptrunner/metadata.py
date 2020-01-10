@@ -4013,11 +4013,9 @@ run_info_intern
 .
 get
 (
-(
 packed
 &
 0x00FF
-)
 )
         
 return

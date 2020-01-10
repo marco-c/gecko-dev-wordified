@@ -2880,7 +2880,7 @@ Regexp
     
 pattern
 =
-b
+br
 "
 setTimeout
 \
@@ -2948,7 +2948,7 @@ Regexp
     
 pattern
 =
-b
+br
 "
 w3c
 \
@@ -2990,7 +2990,7 @@ Regexp
     
 pattern
 =
-b
+br
 "
 web
 \
@@ -3032,7 +3032,7 @@ Regexp
     
 pattern
 =
-b
+br
 "
 webidl2
 \
@@ -3067,7 +3067,7 @@ Regexp
     
 pattern
 =
-b
+br
 "
 console
 \
@@ -3139,7 +3139,7 @@ Regexp
     
 pattern
 =
-b
+br
 "
 generate_tests
 \
@@ -3199,7 +3199,7 @@ Regexp
     
 pattern
 =
-b
+br
 "
 print
 (
@@ -3248,7 +3248,7 @@ Regexp
     
 pattern
 =
-b
+br
 "
 eventSender
 |
@@ -5410,7 +5410,7 @@ re
 .
 compile
 (
-b
+br
 "
 /
 /
@@ -5427,7 +5427,7 @@ re
 .
 compile
 (
-b
+br
 "
 #
 \
