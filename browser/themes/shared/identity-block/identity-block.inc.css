@@ -2590,10 +2590,8 @@ visibility
 visible
 ;
 }
-#
-main
--
-window
+:
+root
 [
 remotecontrol
 ]
