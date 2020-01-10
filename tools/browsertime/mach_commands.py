@@ -267,6 +267,12 @@ mozbuild
 base
 import
 MachCommandBase
+from
+mozbuild
+.
+util
+import
+mkdir
 import
 mozpack
 .
@@ -1333,6 +1339,13 @@ getcwd
                 
 try
 :
+                    
+mkdir
+(
+self
+.
+state_path
+)
                     
 os
 .
