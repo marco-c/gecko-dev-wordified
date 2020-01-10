@@ -5387,6 +5387,8 @@ hostname
 )
 ;
 }
+isHttps
+=
 uri
 -
 >
@@ -5395,8 +5397,6 @@ SchemeIs
 "
 https
 "
-&
-isHttps
 )
 ;
 }
