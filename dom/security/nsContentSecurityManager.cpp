@@ -3540,8 +3540,6 @@ NS_LITERAL_CSTRING
 (
 "
 security
-.
-evalUsage
 "
 )
 true
