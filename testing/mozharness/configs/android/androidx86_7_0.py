@@ -4,6 +4,8 @@ configuration
 for
 Android
 x86
+/
+x86_64
 7
 .
 0
@@ -340,7 +342,7 @@ emulator
 bogomips_minimum
 "
 :
-4000
+3000
     
 #
 in
