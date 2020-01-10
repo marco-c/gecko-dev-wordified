@@ -17982,7 +17982,7 @@ InsertNodeWithTransaction
 (
 *
 cellChild
-EditorRawDOMPoint
+EditorDOMPoint
 (
 aTargetCell
 insertIndex

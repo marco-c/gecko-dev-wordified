@@ -4655,7 +4655,7 @@ SplitNodeDeepWithTransaction
 (
 *
 linkContent
-EditorRawDOMPoint
+EditorDOMPoint
 (
 selNode
 selOffset

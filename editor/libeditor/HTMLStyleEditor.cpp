@@ -2650,7 +2650,7 @@ of
 the
 range
 .
-EditorRawDOMPoint
+EditorDOMPoint
 atEnd
 (
 textNodeForTheRange
@@ -2720,7 +2720,7 @@ of
 the
 range
 .
-EditorRawDOMPoint
+EditorDOMPoint
 atStart
 (
 textNodeForTheRange
@@ -2894,7 +2894,7 @@ MoveNodeWithTransaction
 (
 *
 textNodeForTheRange
-EditorRawDOMPoint
+EditorDOMPoint
 (
 sibling
 0
@@ -3253,7 +3253,7 @@ rv
 MoveNodeWithTransaction
 (
 aNode
-EditorRawDOMPoint
+EditorDOMPoint
 (
 nextSibling
 0
@@ -4540,7 +4540,7 @@ SplitNodeDeepWithTransaction
 (
 *
 node
-EditorRawDOMPoint
+EditorDOMPoint
 (
 *
 aNode
@@ -5066,7 +5066,7 @@ MoveNodeWithTransaction
 (
 *
 savedBR
-EditorRawDOMPoint
+EditorDOMPoint
 (
 newSelParent
 0
@@ -10966,7 +10966,7 @@ of
 the
 range
 .
-EditorRawDOMPoint
+EditorDOMPoint
 atEnd
 (
 textNodeForTheRange
@@ -11036,7 +11036,7 @@ of
 the
 range
 .
-EditorRawDOMPoint
+EditorDOMPoint
 atStart
 (
 textNodeForTheRange
@@ -11251,7 +11251,7 @@ MoveNodeWithTransaction
 (
 *
 textNodeForTheRange
-EditorRawDOMPoint
+EditorDOMPoint
 (
 sibling
 0
@@ -12043,7 +12043,7 @@ MoveNodeWithTransaction
 (
 *
 aNode
-EditorRawDOMPoint
+EditorDOMPoint
 (
 sibling
 0

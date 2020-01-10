@@ -7112,13 +7112,6 @@ element
 .
 *
 /
-template
-<
-typename
-PT
-typename
-CT
->
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 SplitNodeResult
@@ -7128,11 +7121,7 @@ nsAtom
 &
 aTag
 const
-EditorDOMPointBase
-<
-PT
-CT
->
+EditorDOMPoint
 &
 aStartOfDeepestRightNode
 )

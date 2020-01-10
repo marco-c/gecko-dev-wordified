@@ -1937,7 +1937,7 @@ temporarily
 .
 *
 /
-EditorRawDOMPoint
+EditorDOMPoint
 SplitPoint
 (
 )
@@ -1951,7 +1951,7 @@ Failed
 )
 {
 return
-EditorRawDOMPoint
+EditorDOMPoint
 (
 )
 ;
@@ -1966,7 +1966,7 @@ IsSet
 )
 {
 return
-EditorRawDOMPoint
+EditorDOMPoint
 (
 mGivenSplitPoint
 )
@@ -1979,13 +1979,13 @@ mPreviousNode
 )
 {
 return
-EditorRawDOMPoint
+EditorDOMPoint
 (
 mNextNode
 )
 ;
 }
-EditorRawDOMPoint
+EditorDOMPoint
 point
 (
 mPreviousNode
