@@ -160,6 +160,9 @@ h
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 layout
 {
@@ -762,7 +765,10 @@ IGNORE_PAINT_SUPPRESSION
 0x1
 }
 ;
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 GetSubdocumentPresShellForPainting
 (

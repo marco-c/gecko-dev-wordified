@@ -212,15 +212,15 @@ h
 class
 nsIFrame
 ;
-class
-nsIPresShell
-;
 struct
 nsPoint
 ;
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -450,7 +450,7 @@ public
 explicit
 AccessibleCaret
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )
@@ -1419,7 +1419,7 @@ we
 outlive
 mPresShell
 .
-nsIPresShell
+PresShell
 *
 const
 MOZ_NON_OWNING_REF

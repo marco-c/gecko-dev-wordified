@@ -1706,7 +1706,7 @@ MOZ_ASSERT
 subDocFrame
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -5079,12 +5079,6 @@ subdocumentFrame
 ;
 presShell
 =
-static_cast
-<
-PresShell
-*
->
-(
 subdocumentFrame
 -
 >
@@ -5103,7 +5097,6 @@ nsSubDocumentFrame
 IGNORE_PAINT_SUPPRESSION
 :
 0
-)
 )
 ;
 return

@@ -426,6 +426,9 @@ nsRefreshDriver
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -2190,7 +2193,10 @@ aWindow
 void
 AdjustPopupsOnWindowChange
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 )

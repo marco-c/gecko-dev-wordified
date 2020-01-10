@@ -640,7 +640,7 @@ nsLineBox
 *
 NS_NewLineBox
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIFrame
@@ -667,7 +667,7 @@ nsLineBox
 *
 NS_NewLineBox
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsLineBox
@@ -1261,7 +1261,7 @@ new
 (
 size_t
 sz
-nsIPresShell
+PresShell
 *
 aPresShell
 )
@@ -1283,7 +1283,7 @@ nsLineBox
 :
 Destroy
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )

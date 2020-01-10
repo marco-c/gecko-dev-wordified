@@ -245,9 +245,6 @@ nsChangeHint
 uint32_t
 ;
 class
-nsIPresShell
-;
-class
 nsPresContext
 ;
 class

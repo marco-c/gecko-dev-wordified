@@ -167,9 +167,6 @@ Units
 h
 "
 class
-nsIPresShell
-;
-class
 nsViewportInfo
 ;
 namespace
@@ -382,7 +379,7 @@ for
 passing
 to
 *
-nsIPresShell
+PresShell
 :
 :
 SetResolutionAndScaleTo

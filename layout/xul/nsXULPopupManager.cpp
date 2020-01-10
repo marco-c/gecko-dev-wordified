@@ -3322,7 +3322,7 @@ nsXULPopupManager
 :
 AdjustPopupsOnWindowChange
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )
@@ -18406,7 +18406,7 @@ of
 the
 nsViewManager
 and
-nsIPresShell
+PresShell
 COM
 pointers
 is

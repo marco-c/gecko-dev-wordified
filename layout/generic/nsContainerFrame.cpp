@@ -1063,9 +1063,12 @@ GetNextContinuation
 ;
 }
 }
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
-shell
+presShell
 =
 PresShell
 (
@@ -1216,7 +1219,7 @@ parent
 lastParent
 )
 {
-shell
+presShell
 -
 >
 FrameNeedsReflow
@@ -1287,7 +1290,10 @@ aDestructRoot
 PostDestroyData
 &
 aPostDestroyData
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 FrameListPropertyDescriptor

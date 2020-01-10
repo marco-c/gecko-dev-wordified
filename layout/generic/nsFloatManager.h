@@ -207,9 +207,6 @@ nsTArray
 h
 "
 class
-nsIPresShell
-;
-class
 nsIFrame
 ;
 class
@@ -220,6 +217,9 @@ mozilla
 {
 struct
 ReflowInput
+;
+class
+PresShell
 ;
 class
 StyleBasicShape
@@ -748,7 +748,10 @@ public
 explicit
 nsFloatManager
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 mozilla

@@ -396,15 +396,15 @@ nsIWidget
 *
 GetWidget
 (
-nsIPresShell
+PresShell
 *
-aShell
+aPresShell
 )
 {
 if
 (
 !
-aShell
+aPresShell
 )
 {
 return
@@ -417,7 +417,7 @@ nsIFrame
 *
 rootFrame
 =
-aShell
+aPresShell
 -
 >
 GetRootFrame
@@ -697,7 +697,7 @@ ZoomConstraintsClient
 :
 Init
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 Document

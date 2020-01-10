@@ -506,6 +506,9 @@ mozilla
 class
 FrameLayerBuilder
 ;
+class
+PresShell
+;
 struct
 MotionPathData
 ;
@@ -5290,7 +5293,10 @@ aPaintedContents
 void
 IncrementPresShellPaintCount
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 )
@@ -11216,7 +11222,10 @@ aFrame
 struct
 PresShellState
 {
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 mPresShell
 ;

@@ -28151,7 +28151,10 @@ repaint
 bool
 DidPaintPresShell
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aShell
 )

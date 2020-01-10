@@ -668,7 +668,10 @@ nsIFrame
 *
 mFrame
 ;
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 mFramePresShell
 ;

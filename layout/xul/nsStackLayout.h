@@ -189,9 +189,6 @@ nsCoord
 .
 h
 "
-class
-nsIPresShell
-;
 nsresult
 NS_NewStackLayout
 (

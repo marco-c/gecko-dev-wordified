@@ -206,9 +206,6 @@ nsWeakReference
 h
 "
 class
-nsIPresShell
-;
-class
 nsITimer
 ;
 namespace
@@ -216,6 +213,9 @@ mozilla
 {
 class
 AccessibleCaretManager
+;
+class
+PresShell
 ;
 class
 WidgetKeyboardEvent
@@ -644,7 +644,7 @@ public
 explicit
 AccessibleCaretEventHub
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )
@@ -1004,7 +1004,7 @@ Terminate
 (
 )
 .
-nsIPresShell
+PresShell
 *
 MOZ_NON_OWNING_REF
 mPresShell

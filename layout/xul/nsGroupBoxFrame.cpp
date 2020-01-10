@@ -465,9 +465,9 @@ public
 :
 nsGroupBoxInnerFrame
 (
-nsIPresShell
+PresShell
 *
-aShell
+aPresShell
 ComputedStyle
 *
 aStyle
@@ -475,7 +475,7 @@ aStyle
 :
 nsBoxFrame
 (
-aShell
+aPresShell
 aContext
 )
 {

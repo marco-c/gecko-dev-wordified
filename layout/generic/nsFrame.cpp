@@ -5407,9 +5407,12 @@ PresContext
 (
 )
 ;
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
-shell
+presShell
 =
 presContext
 -
@@ -5821,7 +5824,7 @@ RemoveFrameFromApproximatelyVisibleList
 this
 )
 ;
-shell
+presShell
 -
 >
 NotifyDestroyingFrame
@@ -5836,7 +5839,7 @@ mState
 NS_FRAME_EXTERNAL_REFERENCE
 )
 {
-shell
+presShell
 -
 >
 ClearFrameRefs
@@ -6101,7 +6104,7 @@ nsIFrame
 *
 rootFrame
 =
-shell
+presShell
 -
 >
 GetRootFrame
@@ -6202,7 +6205,7 @@ presshell
 s
 recycler
 .
-shell
+presShell
 -
 >
 FreeFrame
@@ -28501,7 +28504,10 @@ const
 nsFrameSelection
 *
 aFrameSelection
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 WidgetMouseEvent

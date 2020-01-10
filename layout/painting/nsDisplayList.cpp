@@ -10313,7 +10313,7 @@ nsDisplayListBuilder
 :
 IncrementPresShellPaintCount
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )
@@ -10328,14 +10328,7 @@ mReferenceFrame
 >
 AddPaintedPresShell
 (
-static_cast
-<
-PresShell
-*
->
-(
 aPresShell
-)
 )
 ;
 aPresShell

@@ -98,12 +98,12 @@ nsCOMPtr
 .
 h
 "
-class
-nsIPresShell
-;
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -168,7 +168,7 @@ dom
 Document
 *
 aDocument
-nsIPresShell
+PresShell
 *
 aPresShell
 )
@@ -372,7 +372,7 @@ the
 presShell
 owns
 this
-nsIPresShell
+PresShell
 *
 MOZ_NON_OWNING_REF
 mPresShell

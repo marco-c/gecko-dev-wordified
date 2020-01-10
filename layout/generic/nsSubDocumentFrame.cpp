@@ -1321,7 +1321,10 @@ GetFrame
 nullptr
 ;
 }
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 nsSubDocumentFrame
 :
@@ -2413,9 +2416,12 @@ this
 return
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+mozilla
+:
+:
+PresShell
 >
 presShell
 =
@@ -5887,7 +5893,7 @@ aFrameElement
 nsFrameLoader
 *
 aFrameLoader
-nsIPresShell
+PresShell
 *
 aPresShell
 bool
@@ -6248,9 +6254,9 @@ nsFrameLoader
 >
 mFrameLoader
 ;
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 mPresShell
 ;

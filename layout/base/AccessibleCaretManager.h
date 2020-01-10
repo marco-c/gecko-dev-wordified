@@ -219,15 +219,15 @@ nsFrameSelection
 class
 nsIContent
 ;
-class
-nsIPresShell
-;
 struct
 nsPoint
 ;
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -441,7 +441,7 @@ public
 explicit
 AccessibleCaretManager
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )
@@ -2230,7 +2230,7 @@ IsDestroying
 is
 true
 .
-nsIPresShell
+PresShell
 *
 MOZ_NON_OWNING_REF
 mPresShell

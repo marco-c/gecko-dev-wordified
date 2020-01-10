@@ -1057,6 +1057,13 @@ typedef
 mozilla
 :
 :
+PresShell
+PresShell
+;
+typedef
+mozilla
+:
+:
 StyleGeometryBox
 StyleGeometryBox
 ;
@@ -1728,7 +1735,7 @@ SetDisplayPortMargins
 nsIContent
 *
 aContent
-nsIPresShell
+PresShell
 *
 aPresShell
 const
@@ -5314,9 +5321,6 @@ static
 void
 GetContainerAndOffsetAtEvent
 (
-mozilla
-:
-:
 PresShell
 *
 aPresShell
@@ -7694,7 +7698,7 @@ occured
 Only
 considered
 if
-nsIPresShell
+PresShell
 :
 :
 IgnoringViewportScrolling
@@ -18933,9 +18937,9 @@ static
 float
 GetCurrentAPZResolutionScale
 (
-nsIPresShell
+PresShell
 *
-aShell
+aPresShell
 )
 ;
 /
@@ -19338,7 +19342,7 @@ be
 queried
 independently
 via
-nsIPresShell
+PresShell
 :
 :
 GetVisualViewportOffset
@@ -19707,9 +19711,9 @@ static
 bool
 HasDocumentLevelListenersForApzAwareEvents
 (
-nsIPresShell
+PresShell
 *
-aShell
+aPresShell
 )
 ;
 /
@@ -19751,7 +19755,7 @@ static
 void
 SetVisualViewportSize
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 CSSSize
