@@ -42,7 +42,6 @@ topdir
 /
 objs
 /
-'
 )
 based
 on
@@ -56,7 +55,6 @@ topdir
 modules
 .
 cfg
-'
 .
 *
 *
@@ -67,12 +65,10 @@ docs
 INSTALL
 .
 ANY
-'
 and
 docs
 /
 CUSTOMIZE
-'
 how
 to
 compile

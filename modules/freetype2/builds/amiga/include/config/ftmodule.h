@@ -108,9 +108,12 @@ selection
 /
 *
 Copyright
+(
+C
+)
 2005
 -
-2018
+2019
 by
 *
 /

@@ -114,9 +114,12 @@ body
 /
 *
 Copyright
+(
+C
+)
 1996
 -
-2018
+2019
 by
 *
 /
@@ -1589,7 +1592,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_io
+io
 /
 *
 We
