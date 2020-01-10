@@ -1468,8 +1468,10 @@ RecvShutdownQuotaManager
 override
 ;
 virtual
+already_AddRefed
+<
 PFileSystemRequestParent
-*
+>
 AllocPFileSystemRequestParent
 (
 const
@@ -1495,15 +1497,6 @@ const
 FileSystemParams
 &
 params
-)
-override
-;
-virtual
-bool
-DeallocPFileSystemRequestParent
-(
-PFileSystemRequestParent
-*
 )
 override
 ;
