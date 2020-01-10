@@ -1455,12 +1455,27 @@ paths
 [
 ]
         
+added_tests
+=
+False
+        
 for
 path
 template
 in
 creator
 :
+            
+if
+not
+template
+:
+                
+continue
+            
+added_tests
+=
+True
             
 if
 (
@@ -1565,6 +1580,14 @@ print
 (
 template
 )
+        
+if
+not
+added_tests
+:
+            
+return
+1
         
 if
 test
