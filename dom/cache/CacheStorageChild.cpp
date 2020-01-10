@@ -211,9 +211,9 @@ CacheStorageChild
 CacheStorage
 *
 aListener
-CacheWorkerHolder
+CacheWorkerRef
 *
-aWorkerHolder
+aWorkerRef
 )
 :
 mListener
@@ -242,9 +242,9 @@ MOZ_DIAGNOSTIC_ASSERT
 mListener
 )
 ;
-SetWorkerHolder
+SetWorkerRef
 (
-aWorkerHolder
+aWorkerRef
 )
 ;
 }
@@ -333,7 +333,7 @@ SendPCacheOpConstructor
 new
 CacheOpChild
 (
-GetWorkerHolder
+GetWorkerRef
 (
 )
 aGlobal
@@ -521,7 +521,7 @@ or
 the
 /
 /
-CacheWorkerHolder
+CacheWorkerRef
 .
 /
 /
@@ -659,7 +659,7 @@ mListener
 )
 ;
 }
-RemoveWorkerHolder
+RemoveWorkerRef
 (
 )
 ;

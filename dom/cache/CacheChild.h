@@ -353,7 +353,7 @@ ActorChild
 methods
 /
 /
-WorkerHolder
+WorkerRef
 is
 trying
 to

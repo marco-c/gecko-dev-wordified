@@ -171,7 +171,7 @@ dom
 /
 cache
 /
-CacheWorkerHolder
+CacheWorkerRef
 .
 h
 "
@@ -414,7 +414,7 @@ is
 added
 to
 a
-CacheWorkerHolder
+CacheWorkerRef
 that
 has
 already
@@ -824,11 +824,11 @@ down
 .
 RefPtr
 <
-CacheWorkerHolder
+CacheWorkerRef
 >
 holder
 =
-GetWorkerHolder
+GetWorkerRef
 (
 )
 ;
@@ -1036,7 +1036,7 @@ CloseAllReadStreamsWithoutReporting
 (
 )
 ;
-RemoveWorkerHolder
+RemoveWorkerRef
 (
 )
 ;
