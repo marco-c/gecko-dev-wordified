@@ -13589,7 +13589,7 @@ const
 uint8_t
 *
 aData
-int32_t
+ptrdiff_t
 aStride
 const
 uint8_t
@@ -13603,7 +13603,7 @@ int32_t
 x
 int32_t
 y
-size_t
+ptrdiff_t
 bpp
 ptrdiff_t
 c
@@ -13652,7 +13652,7 @@ const
 uint8_t
 *
 aData
-int32_t
+ptrdiff_t
 aStride
 const
 uint8_t
@@ -13748,7 +13748,7 @@ const
 uint8_t
 *
 aData
-int32_t
+ptrdiff_t
 aStride
 const
 uint8_t
@@ -13762,7 +13762,7 @@ Float
 x
 Float
 y
-size_t
+ptrdiff_t
 bpp
 ptrdiff_t
 c
