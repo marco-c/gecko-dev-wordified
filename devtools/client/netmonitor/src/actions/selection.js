@@ -438,6 +438,9 @@ selectRequest
 newItem
 .
 id
+newItem
+.
+channelId
 )
 )
 ;
