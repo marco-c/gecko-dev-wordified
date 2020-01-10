@@ -189,6 +189,8 @@ CreateTrafficCategory
 bool
 aIsPrivateMode
 bool
+aIsSystemPrincipal
+bool
 aIsThirdParty
 ClassOfService
 aClassOfService
