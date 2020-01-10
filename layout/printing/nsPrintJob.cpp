@@ -4773,7 +4773,7 @@ nsresult
 nsPrintJob
 :
 :
-Cancelled
+Cancel
 (
 )
 {

@@ -1523,7 +1523,7 @@ CheckBeforeDestroy
 )
 ;
 nsresult
-Cancelled
+Cancel
 (
 )
 ;
