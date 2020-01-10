@@ -142,16 +142,6 @@ RecordedEvent
 aEvent
 )
 {
-WriteElement
-(
-mOutputStream
-aEvent
-.
-GetType
-(
-)
-)
-;
 aEvent
 .
 RecordToStream
