@@ -6632,6 +6632,15 @@ bool
 tryAnnexB
 )
 ;
+void
+setFunctionStartAtCurrentToken
+(
+FunctionBox
+*
+funbox
+)
+const
+;
 public
 :
 /
