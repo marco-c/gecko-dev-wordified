@@ -1317,6 +1317,7 @@ lower
 )
 =
 =
+b
 "
 content
 -
@@ -1338,6 +1339,7 @@ insert
 (
 0
 (
+b
 "
 Content
 -
@@ -1346,6 +1348,13 @@ Type
 guess_content_type
 (
 path
+)
+.
+encode
+(
+"
+ascii
+"
 )
 )
 )
@@ -1411,6 +1420,9 @@ with
 open
 (
 headers_path
+"
+rb
+"
 )
 as
 headers_file
@@ -1468,6 +1480,7 @@ line
 .
 split
 (
+b
 "
 :
 "
