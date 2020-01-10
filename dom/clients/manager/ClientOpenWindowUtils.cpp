@@ -1479,13 +1479,6 @@ aForceNoOpener
 false
 /
 *
-aForceNoReferrer
-=
-*
-/
-false
-/
-*
 aLoadInfp
 =
 *

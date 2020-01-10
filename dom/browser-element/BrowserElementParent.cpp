@@ -787,8 +787,6 @@ const
 nsAString
 &
 aName
-bool
-aForceNoReferrer
 const
 nsAString
 &
@@ -897,12 +895,6 @@ detail
 mFrameElement
 =
 aPopupFrameElement
-;
-detail
-.
-mForceNoReferrer
-=
-aForceNoReferrer
 ;
 nsIGlobalObject
 *
@@ -1150,10 +1142,10 @@ OpenWindowOOP
 (
 BrowserParent
 *
-aOpenerTabParent
+aOpenerBrowserParent
 BrowserParent
 *
-aPopupTabParent
+aPopupBrowserParent
 const
 nsAString
 &
@@ -1162,8 +1154,6 @@ const
 nsAString
 &
 aName
-bool
-aForceNoReferrer
 const
 nsAString
 &
@@ -1361,7 +1351,6 @@ openerFrameElement
 popupFrameElement
 aURL
 aName
-aForceNoReferrer
 aFeatures
 )
 ;
@@ -1719,7 +1708,6 @@ NS_ConvertUTF8toUTF16
 spec
 )
 aName
-false
 NS_ConvertUTF8toUTF16
 (
 aFeatures

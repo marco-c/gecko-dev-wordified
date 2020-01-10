@@ -2100,13 +2100,6 @@ aForceNoOpener
 false
 /
 *
-aForceNoReferrer
-=
-*
-/
-false
-/
-*
 aLoadState
 =
 *
@@ -2349,8 +2342,6 @@ bool
 aIsPopupSpam
 bool
 aForceNoOpener
-bool
-aForceNoReferrer
 nsDocShellLoadState
 *
 aLoadState
@@ -2464,7 +2455,6 @@ aNavigate
 argv
 aIsPopupSpam
 aForceNoOpener
-aForceNoReferrer
 aLoadState
 aResult
 )
@@ -3666,8 +3656,6 @@ bool
 aIsPopupSpam
 bool
 aForceNoOpener
-bool
-aForceNoReferrer
 nsDocShellLoadState
 *
 aLoadState
@@ -3677,12 +3665,6 @@ mozIDOMWindowProxy
 aResult
 )
 {
-MOZ_ASSERT_IF
-(
-aForceNoReferrer
-aForceNoOpener
-)
-;
 nsresult
 rv
 =
@@ -5003,7 +4985,6 @@ uriToLoad
 name
 features
 aForceNoOpener
-aForceNoReferrer
 aLoadState
 &
 windowIsNew
@@ -7212,12 +7193,6 @@ required
 ;
 #
 endif
-if
-(
-!
-aForceNoReferrer
-)
-{
 /
 *
 use
@@ -7347,7 +7322,6 @@ SetReferrerInfo
 referrerInfo
 )
 ;
-}
 }
 }
 /
