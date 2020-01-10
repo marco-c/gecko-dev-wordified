@@ -212,6 +212,16 @@ path
 )
 )
     
+#
+SameSite
+=
+None
+cookies
+must
+be
+Secure
+.
+    
 headers
 .
 append
@@ -236,6 +246,12 @@ path
 :
 "
 /
+"
+"
+Secure
+"
+:
+"
 "
 }
 )
