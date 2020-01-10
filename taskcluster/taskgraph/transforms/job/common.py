@@ -724,11 +724,15 @@ taskdesc
 worker
 '
 ]
-[
+.
+setdefault
+(
 '
 env
 '
-]
+{
+}
+)
 [
 '
 UPLOAD_DIR
