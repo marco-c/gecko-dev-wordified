@@ -24605,6 +24605,10 @@ not
 property
 .
 is_vector
+or
+property
+.
+simple_vector_bindings
 :
 /
 /

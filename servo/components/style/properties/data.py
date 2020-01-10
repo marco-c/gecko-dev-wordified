@@ -1511,6 +1511,10 @@ ignored_when_colors_disabled
 =
 False
                  
+simple_vector_bindings
+=
+False
+                 
 vector
 =
 False
@@ -1851,6 +1855,12 @@ self
 is_vector
 =
 vector
+        
+self
+.
+simple_vector_bindings
+=
+simple_vector_bindings
         
 #
 https
