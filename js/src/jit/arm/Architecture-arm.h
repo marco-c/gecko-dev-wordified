@@ -1209,10 +1209,6 @@ typedef
 uint16_t
 PackedRegisterMask
 ;
-typedef
-uint16_t
-PackedRegisterMask
-;
 class
 FloatRegisters
 {
