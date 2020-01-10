@@ -7413,11 +7413,6 @@ Element
 aListElement
 )
 ;
-void
-ClearCachedStyles
-(
-)
-;
 /
 *
 *
