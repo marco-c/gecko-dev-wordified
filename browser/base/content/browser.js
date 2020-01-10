@@ -2377,6 +2377,11 @@ UrlbarInput
 (
 {
 textbox
+eventTelemetryCategory
+:
+"
+urlbar
+"
 }
 )
 ;
