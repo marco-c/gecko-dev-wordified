@@ -202,6 +202,10 @@ implementation
 )
 :
 '
+sign
+-
+and
+-
 push
 -
 addons
@@ -345,6 +349,10 @@ jobs
 label
 =
 '
+sign
+-
+and
+-
 push
 -
 langpacks
