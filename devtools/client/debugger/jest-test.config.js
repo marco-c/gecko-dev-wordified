@@ -156,6 +156,10 @@ test
 mochitest
 "
 "
+<
+rootDir
+>
+/
 firefox
 /
 "
