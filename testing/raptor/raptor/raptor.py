@@ -151,7 +151,6 @@ get
 '
 SCRIPTSPATH
 '
-None
 )
 is
 not
@@ -1023,7 +1022,6 @@ get
 "
 preferences
 "
-None
 )
 is
 not
@@ -1078,7 +1076,6 @@ get
 '
 alert_on
 '
-None
 )
     
 def
@@ -3138,7 +3135,6 @@ get
 '
 playback
 '
-None
 )
 is
 not
@@ -3651,7 +3647,6 @@ get
 '
 playback
 '
-None
 )
 is
 not
@@ -4118,7 +4113,6 @@ get
 '
 playback
 '
-None
 )
 is
 not
@@ -6265,7 +6259,6 @@ get
 '
 playback
 '
-None
 )
 is
 not
@@ -6553,7 +6546,6 @@ get
 '
 playback
 '
-None
 )
 is
 not
@@ -6801,7 +6793,6 @@ get
 '
 playback
 '
-None
 )
 is
 not
@@ -6856,7 +6847,6 @@ get
 '
 playback
 '
-None
 )
 is
 not
