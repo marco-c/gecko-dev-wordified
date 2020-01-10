@@ -7279,6 +7279,7 @@ extension
 [
 DEFAULT_TAG
 ]
+true
 )
 ;
 }
@@ -8619,6 +8620,16 @@ reset
 gInitialized
 =
 false
+;
+this
+.
+_initObservers
+=
+PromiseUtils
+.
+defer
+(
+)
 ;
 this
 .
@@ -13588,6 +13599,12 @@ gInitialized
 &
 !
 isBuiltin
+&
+&
+!
+params
+.
+initEngine
 )
 {
 await
@@ -13927,6 +13944,7 @@ _installExtensionEngine
 (
 extension
 locales
+initEngine
 )
 {
 SearchUtils
@@ -13986,6 +14004,7 @@ _addEngineForManifest
 extension
 manifest
 locale
+initEngine
 )
 ;
 }
@@ -14051,6 +14070,9 @@ manifest
 locale
 =
 DEFAULT_TAG
+initEngine
+=
+false
 )
 {
 let
@@ -14430,6 +14452,7 @@ mozParams
 searchProvider
 .
 params
+initEngine
 }
 ;
 return
