@@ -1696,9 +1696,11 @@ mozilla
 :
 AddToHash
 (
-uintptr_t
-(
 aWindow
+-
+>
+WindowID
+(
 )
 mozilla
 :
@@ -1716,7 +1718,7 @@ window
 explicit
 ContentBlockingAllowListKey
 (
-nsIChannel
+nsIHttpChannel
 *
 aChannel
 )
@@ -1728,9 +1730,11 @@ mozilla
 :
 AddToHash
 (
-uintptr_t
-(
 aChannel
+-
+>
+ChannelId
+(
 )
 mozilla
 :
@@ -1833,7 +1837,7 @@ aResult
 }
 ContentBlockingAllowListEntry
 (
-nsIChannel
+nsIHttpChannel
 *
 aChannel
 bool
