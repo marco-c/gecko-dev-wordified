@@ -35968,9 +35968,9 @@ scratch
 if
 (
 !
-JitOptions
-.
-baselineInterpreter
+IsBaselineInterpreterEnabled
+(
+)
 )
 {
 /
@@ -36372,9 +36372,9 @@ offsetOfBaselineScript
 ;
 if
 (
-JitOptions
-.
-baselineInterpreter
+IsBaselineInterpreterEnabled
+(
+)
 )
 {
 Address

@@ -3630,9 +3630,9 @@ else
 {
 MOZ_ASSERT
 (
-JitOptions
-.
-baselineInterpreter
+IsBaselineInterpreterEnabled
+(
+)
 )
 ;
 resumePCinCurrentFrame_

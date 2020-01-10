@@ -36604,9 +36604,9 @@ js
 jit
 :
 :
-JitOptions
-.
-baselineInterpreter
+IsBaselineInterpreterEnabled
+(
+)
 )
 {
 jitCodeRaw_

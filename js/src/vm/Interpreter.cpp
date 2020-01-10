@@ -13331,9 +13331,9 @@ tryBaselineInterpreter
 jit
 :
 :
-JitOptions
-.
-baselineInterpreter
+IsBaselineInterpreterEnabled
+(
+)
 &
 &
 !

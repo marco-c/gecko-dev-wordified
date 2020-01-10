@@ -1100,9 +1100,9 @@ needed
 .
 if
 (
-JitOptions
-.
-baselineInterpreter
+IsBaselineInterpreterEnabled
+(
+)
 )
 {
 if
@@ -1311,9 +1311,9 @@ Interpreter
 .
 if
 (
-JitOptions
-.
-baselineInterpreter
+IsBaselineInterpreterEnabled
+(
+)
 )
 {
 jit
