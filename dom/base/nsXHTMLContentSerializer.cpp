@@ -1809,10 +1809,8 @@ leave
 them
 relative
 .
-nsCOMPtr
-<
 nsIURI
->
+*
 uri
 =
 aElement

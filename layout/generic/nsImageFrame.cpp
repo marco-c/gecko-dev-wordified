@@ -16345,11 +16345,11 @@ nsIURI
 aURI
 )
 {
-nsCOMPtr
-<
 nsIURI
->
+*
 baseURI
+=
+nullptr
 ;
 if
 (

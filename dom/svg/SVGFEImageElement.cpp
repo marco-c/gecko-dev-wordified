@@ -630,10 +630,8 @@ aNotify
 resolve
 href
 attribute
-nsCOMPtr
-<
 nsIURI
->
+*
 baseURI
 =
 GetBaseURI

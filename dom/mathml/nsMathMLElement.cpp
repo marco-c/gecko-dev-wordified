@@ -6909,16 +6909,6 @@ if
 hasHref
 )
 {
-nsCOMPtr
-<
-nsIURI
->
-baseURI
-=
-GetBaseURI
-(
-)
-;
 /
 /
 Get
@@ -6945,7 +6935,9 @@ hrefStr
 OwnerDoc
 (
 )
-baseURI
+GetBaseURI
+(
+)
 )
 ;
 /
