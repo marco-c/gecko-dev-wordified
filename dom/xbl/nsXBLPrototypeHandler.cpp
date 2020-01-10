@@ -2664,11 +2664,6 @@ WindowOrNull
 (
 globalObject
 )
--
->
-AsInner
-(
-)
 ;
 if
 (

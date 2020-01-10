@@ -28256,11 +28256,6 @@ FlushLayoutForTree
 (
 aWindow
 .
-AsInner
-(
-)
--
->
 GetOuterWindow
 (
 )

@@ -1233,11 +1233,6 @@ if
 win
 -
 >
-AsInner
-(
-)
--
->
 HasActiveDocument
 (
 )

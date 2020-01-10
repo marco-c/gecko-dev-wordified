@@ -436,11 +436,6 @@ GetInnerWindowWithId
 (
 aWindowId
 )
--
->
-AsInner
-(
-)
 ;
 TabId
 tabId

@@ -1837,11 +1837,6 @@ i
 ]
 -
 >
-AsInner
-(
-)
--
->
 IsCurrentInnerWindow
 (
 )
@@ -2901,11 +2896,6 @@ listeners
 [
 i
 ]
--
->
-AsInner
-(
-)
 -
 >
 IsCurrentInnerWindow

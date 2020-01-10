@@ -301,11 +301,6 @@ GetInnerWindowWithId
 (
 windowId
 )
--
->
-AsInner
-(
-)
 ;
 if
 (

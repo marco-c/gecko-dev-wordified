@@ -227,11 +227,6 @@ const
 {
 return
 mDOMWindow
--
->
-AsInner
-(
-)
 ;
 }
 JSObject

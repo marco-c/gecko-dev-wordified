@@ -2675,11 +2675,6 @@ aWindow
 mWindow
 =
 aWindow
--
->
-AsInner
-(
-)
 ;
 NS_ENSURE_STATE
 (

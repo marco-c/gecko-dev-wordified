@@ -303,11 +303,6 @@ currentAngle
 mWindow
 -
 >
-AsInner
-(
-)
--
->
 IsCurrentInnerWindow
 (
 )

@@ -3325,11 +3325,6 @@ win
 win
 -
 >
-AsInner
-(
-)
--
->
 WindowID
 (
 )
@@ -3397,11 +3392,6 @@ isChrome
 win
 ?
 win
--
->
-AsInner
-(
-)
 -
 >
 WindowID

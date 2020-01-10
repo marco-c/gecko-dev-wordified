@@ -14689,11 +14689,6 @@ true
 mInnerWindow
 =
 newInnerWindow
--
->
-AsInner
-(
-)
 ;
 MOZ_ASSERT
 (

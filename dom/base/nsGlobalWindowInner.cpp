@@ -11130,9 +11130,7 @@ mClientSource
 >
 WindowExecutionReady
 (
-AsInner
-(
-)
+this
 )
 ;
 NS_ENSURE_SUCCESS
