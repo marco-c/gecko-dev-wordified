@@ -182,7 +182,7 @@ resource
 /
 specialpowers
 /
-SpecialPowers
+SpecialPowersChild
 .
 jsm
 "
@@ -592,17 +592,6 @@ Set
 /
 Test
 related
-"
-resource
-:
-/
-/
-specialpowers
-/
-specialpowersFrameScript
-.
-js
-"
 "
 chrome
 :
