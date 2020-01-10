@@ -598,8 +598,6 @@ instructions
 /
 /
 -
-unimplemented
-:
 through
 table
 .
@@ -607,8 +605,6 @@ fill
 /
 /
 -
-unimplemented
-:
 through
 WebAssembly
 .
