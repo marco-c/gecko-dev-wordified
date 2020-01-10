@@ -2356,8 +2356,6 @@ static
 double
 EffectiveCores
 (
-SystemClass
-cls
 uint32_t
 cores
 )
@@ -2683,7 +2681,6 @@ effectiveCores
 =
 EffectiveCores
 (
-cls
 cores
 )
 ;
