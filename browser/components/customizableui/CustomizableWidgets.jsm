@@ -2631,6 +2631,19 @@ selectedBrowser
 .
 characterSet
 ;
+let
+{
+charsetAutodetected
+}
+=
+aDocument
+.
+defaultView
+.
+gBrowser
+.
+selectedBrowser
+;
 currentCharset
 =
 CharsetMenu
@@ -2638,6 +2651,7 @@ CharsetMenu
 foldCharset
 (
 currentCharset
+charsetAutodetected
 )
 ;
 let
