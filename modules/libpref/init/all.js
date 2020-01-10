@@ -30940,7 +30940,6 @@ about_uris_without_csp
 blank
 printpreview
 srcdoc
-about
 addons
 cache
 -
