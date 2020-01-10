@@ -310,13 +310,15 @@ version
 =
 '
 /
-usr
+tools
 /
-local
+python36
 /
 bin
 /
 python3
+.
+6
 '
     
 #
