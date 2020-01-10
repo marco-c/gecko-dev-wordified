@@ -371,6 +371,8 @@ branches
 isHighPopulation
 isEnrollmentPaused
 slug
+userFacingName
+userFacingDescription
 }
 =
 recipe
@@ -635,6 +637,8 @@ branch
 .
 preferences
 experimentType
+userFacingName
+userFacingDescription
 }
 )
 ;
@@ -936,7 +940,7 @@ name
 =
 experiment
 .
-action
+actionName
 )
 {
 /
