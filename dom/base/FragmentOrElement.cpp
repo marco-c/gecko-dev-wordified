@@ -7530,6 +7530,12 @@ GetParent
 )
 |
 |
+!
+IsInComposedDoc
+(
+)
+|
+|
 (
 (
 GetBindingParent
@@ -7636,9 +7642,8 @@ NODE_IS_ANONYMOUS_ROOT
 )
 "
 For
+connected
 nodes
-with
-parent
 flag
 and
 GetBindingParent
