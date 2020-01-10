@@ -806,6 +806,14 @@ jobtypes
 '
 )
             
+high_value_tasks
+=
+set
+(
+[
+]
+)
+            
 if
 type
 (
