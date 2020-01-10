@@ -10654,7 +10654,7 @@ cross
 compartment
 wrapper
 table
-entries
+entry
 .
 The
 owner
