@@ -3417,7 +3417,7 @@ parents_
 [
 initialParents
 ]
-0xFF
+JS_OOB_PARSE_NODE_PATTERN
 sizeof
 (
 parents_
