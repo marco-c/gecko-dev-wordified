@@ -3317,7 +3317,10 @@ type
 nsresult
 rv
 =
+MOZ_KnownLive
+(
 htmlEditor
+)
 -
 >
 RemoveListAsAction
