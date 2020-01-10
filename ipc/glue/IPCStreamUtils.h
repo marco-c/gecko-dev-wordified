@@ -1421,6 +1421,7 @@ struct
 IPDLParamTraits
 <
 nsIInputStream
+*
 >
 {
 static

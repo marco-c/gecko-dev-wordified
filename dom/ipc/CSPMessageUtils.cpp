@@ -146,6 +146,7 @@ void
 ParamTraits
 <
 nsIContentSecurityPolicy
+*
 >
 :
 :
@@ -224,6 +225,7 @@ bool
 ParamTraits
 <
 nsIContentSecurityPolicy
+*
 >
 :
 :

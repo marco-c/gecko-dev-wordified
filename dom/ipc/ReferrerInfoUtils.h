@@ -153,6 +153,7 @@ struct
 ParamTraits
 <
 nsIReferrerInfo
+*
 >
 {
 static

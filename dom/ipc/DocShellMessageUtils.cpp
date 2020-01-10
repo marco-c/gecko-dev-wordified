@@ -149,6 +149,7 @@ void
 IPDLParamTraits
 <
 nsDocShellLoadState
+*
 >
 :
 :
@@ -190,6 +191,7 @@ bool
 IPDLParamTraits
 <
 nsDocShellLoadState
+*
 >
 :
 :

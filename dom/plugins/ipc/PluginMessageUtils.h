@@ -2161,6 +2161,7 @@ struct
 ParamTraits
 <
 NPNSString
+*
 >
 {
 /

@@ -130,6 +130,7 @@ struct
 IPDLParamTraits
 <
 nsIAlertNotification
+*
 >
 {
 static

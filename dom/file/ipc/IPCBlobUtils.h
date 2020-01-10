@@ -2545,6 +2545,7 @@ dom
 :
 :
 BlobImpl
+*
 >
 {
 static

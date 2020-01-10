@@ -6039,6 +6039,7 @@ dom
 :
 :
 BrowsingContext
+*
 >
 :
 :
@@ -6164,6 +6165,7 @@ dom
 :
 :
 BrowsingContext
+*
 >
 :
 :

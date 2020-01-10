@@ -221,6 +221,7 @@ struct
 IPDLParamTraits
 <
 nsIURI
+*
 >
 {
 static

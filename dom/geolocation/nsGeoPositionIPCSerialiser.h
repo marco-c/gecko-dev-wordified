@@ -153,6 +153,7 @@ struct
 ParamTraits
 <
 nsIDOMGeoPositionCoords
+*
 >
 {
 /
@@ -563,6 +564,7 @@ struct
 ParamTraits
 <
 nsIDOMGeoPosition
+*
 >
 {
 /

@@ -157,6 +157,7 @@ void
 IPDLParamTraits
 <
 nsIPrincipal
+*
 >
 :
 :
@@ -234,6 +235,7 @@ bool
 IPDLParamTraits
 <
 nsIPrincipal
+*
 >
 :
 :

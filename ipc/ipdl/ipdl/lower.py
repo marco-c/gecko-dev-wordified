@@ -14702,11 +14702,8 @@ are
 selected
 ignoring
 constness
-references
-        
-#
 and
-pointers
+references
 .
         
 pt
@@ -14736,6 +14733,12 @@ inner
 fortype
 .
 inner
+                                    
+ptr
+=
+fortype
+.
+ptr
 )
                    
 struct
