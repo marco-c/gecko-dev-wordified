@@ -2232,10 +2232,10 @@ is_empty
 /
 Try
 to
-read
+write
 some
 bytes
-from
+to
 the
 socket
 let

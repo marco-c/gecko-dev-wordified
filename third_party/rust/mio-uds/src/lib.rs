@@ -51,6 +51,10 @@ uds
 ]
 extern
 crate
+iovec
+;
+extern
+crate
 libc
 ;
 extern

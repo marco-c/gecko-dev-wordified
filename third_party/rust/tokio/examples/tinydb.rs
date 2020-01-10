@@ -511,12 +511,11 @@ re
 /
 /
 /
-also
 going
 to
 use
 a
-RefCell
+Mutex
 for
 interior
 mutability

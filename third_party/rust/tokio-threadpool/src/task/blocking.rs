@@ -127,7 +127,7 @@ a
 hybrid
 counter
 and
-instrusive
+intrusive
 mpsc
 channel
 (

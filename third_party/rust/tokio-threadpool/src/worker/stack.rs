@@ -409,7 +409,7 @@ How
 many
 bits
 the
-treiber
+Treiber
 ABA
 guard
 is
@@ -1476,7 +1476,7 @@ ABA
 problem
 w
 /
-treiber
+Treiber
 stacks
 let
 aba_guard

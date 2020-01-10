@@ -949,7 +949,6 @@ poll
 ]
 results
 in
-in
 a
 single
 /
@@ -1245,6 +1244,9 @@ implements
 std
 :
 :
+io
+:
+:
 Read
 ]
 and
@@ -1252,6 +1254,9 @@ and
 or
 [
 std
+:
+:
+io
 :
 :
 Write
@@ -1262,10 +1267,10 @@ PollEvented
 ]
 is
 the
-most
 /
 /
 !
+most
 suited
 .
 /
@@ -1709,6 +1714,9 @@ html
 std
 :
 :
+io
+:
+:
 Read
 ]
 :
@@ -1738,6 +1746,9 @@ html
 !
 [
 std
+:
+:
+io
 :
 :
 Write

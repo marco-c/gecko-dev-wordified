@@ -69,8 +69,6 @@ Instant
 }
 pub
 use
-:
-:
 clock
 :
 :
