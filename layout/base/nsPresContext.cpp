@@ -8268,6 +8268,13 @@ RefreshSystemMetrics
 (
 )
 ;
+PreferenceSheet
+:
+:
+Refresh
+(
+)
+;
 /
 /
 Recursively
