@@ -324,6 +324,15 @@ ErrorResult
 aRv
 )
 ;
+nsIDocShell
+*
+GetDocShell
+(
+ErrorResult
+&
+aRv
+)
+;
 Nullable
 <
 WindowProxyHolder
