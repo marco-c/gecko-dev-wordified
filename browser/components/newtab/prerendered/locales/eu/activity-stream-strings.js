@@ -970,7 +970,7 @@ ezarpenak
 eskura
 zure
 gailu
-guztietatik
+guztietan
 .
 "
 "
