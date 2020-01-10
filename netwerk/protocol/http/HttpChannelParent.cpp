@@ -9131,6 +9131,11 @@ isFromCache
 =
 false
 ;
+bool
+isRacing
+=
+false
+;
 uint64_t
 cacheEntryId
 =
@@ -9175,6 +9180,15 @@ IsFromCache
 (
 &
 isFromCache
+)
+;
+httpChannelImpl
+-
+>
+IsRacing
+(
+&
+isRacing
 )
 ;
 httpChannelImpl
@@ -9739,6 +9753,7 @@ Headers
 )
 loadInfoForwarderArg
 isFromCache
+isRacing
 mCacheEntry
 ?
 true

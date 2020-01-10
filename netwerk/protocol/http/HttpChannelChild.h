@@ -772,6 +772,10 @@ isFromCache
 const
 bool
 &
+isRacing
+const
+bool
+&
 cacheEntryAvailable
 const
 uint64_t
@@ -2359,6 +2363,13 @@ SequentiallyConsistent
 >
 mIsFromCache
 ;
+Atomic
+<
+bool
+SequentiallyConsistent
+>
+mIsRacing
+;
 /
 /
 Set
@@ -2785,6 +2796,10 @@ const
 bool
 &
 isFromCache
+const
+bool
+&
+isRacing
 const
 bool
 &
