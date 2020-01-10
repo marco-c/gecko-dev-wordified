@@ -219,6 +219,9 @@ toolbox
 target
 .
 client
+workers
+:
+{
 sourceMaps
 :
 this
@@ -226,6 +229,14 @@ this
 toolbox
 .
 sourceMapService
+evaluationsParser
+:
+this
+.
+toolbox
+.
+parserService
+}
 panel
 :
 this
