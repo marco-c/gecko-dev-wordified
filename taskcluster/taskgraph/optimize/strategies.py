@@ -313,6 +313,14 @@ OptimizationStrategy
 )
 :
     
+push_interval
+=
+5
+    
+time_interval
+=
+60
+    
 def
 should_remove_task
 (
@@ -394,6 +402,14 @@ get
 pushdate
 '
 )
+                             
+self
+.
+time_interval
+                             
+self
+.
+push_interval
 )
 :
             
