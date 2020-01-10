@@ -180,22 +180,13 @@ use
 std
 :
 :
-u32
-;
-use
-std
-:
-:
 char
 ;
 use
 std
 :
 :
-ascii
-:
-:
-AsciiExt
+u32
 ;
 /
 /
@@ -694,7 +685,7 @@ b
 '
 .
 .
-.
+=
 b
 '
 9
@@ -716,7 +707,7 @@ A
 '
 .
 .
-.
+=
 b
 '
 Z
@@ -736,7 +727,7 @@ a
 '
 .
 .
-.
+=
 b
 '
 z
@@ -774,6 +765,7 @@ weight
 {
 return
 None
+;
 /
 /
 Overflow
@@ -820,6 +812,7 @@ digit
 t
 {
 break
+;
 }
 if
 weight
@@ -837,6 +830,7 @@ t
 {
 return
 None
+;
 /
 /
 Overflow
@@ -933,6 +927,7 @@ code_point
 {
 return
 None
+;
 /
 /
 Overflow
@@ -1370,6 +1365,7 @@ processed
 {
 return
 None
+;
 /
 /
 Overflow
@@ -1443,6 +1439,7 @@ delta
 {
 return
 None
+;
 /
 /
 Overflow
@@ -1515,6 +1512,7 @@ q
 t
 {
 break
+;
 }
 let
 value
@@ -1637,7 +1635,7 @@ value
 0
 .
 .
-.
+=
 25
 =
 >
@@ -1663,7 +1661,7 @@ z
 26
 .
 .
-.
+=
 35
 =
 >

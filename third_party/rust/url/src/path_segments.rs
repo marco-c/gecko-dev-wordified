@@ -98,8 +98,8 @@ parser
 :
 {
 self
-SchemeType
 to_u32
+SchemeType
 }
 ;
 use
@@ -537,13 +537,7 @@ len
 (
 )
 url
-:
-url
 old_after_path_position
-:
-old_after_path_position
-after_path
-:
 after_path
 }
 }
@@ -2258,6 +2252,7 @@ segment
 )
 {
 continue
+;
 }
 if
 parser

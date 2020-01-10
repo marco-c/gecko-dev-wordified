@@ -3120,6 +3120,7 @@ readwrite
 :
 :
 {
+Readable
 Reader
 Writer
 }
