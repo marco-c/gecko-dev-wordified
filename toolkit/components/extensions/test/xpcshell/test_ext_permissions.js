@@ -3590,6 +3590,9 @@ overrideContext
 mozillaAddons
 "
 "
+networkStatus
+"
+"
 normandyAddonStudy
 "
 "

@@ -1257,6 +1257,9 @@ urlbar
 "
 normandyAddonStudy
 "
+"
+networkStatus
+"
 ]
 )
 ;
