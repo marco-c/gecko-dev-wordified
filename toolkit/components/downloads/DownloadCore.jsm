@@ -2944,7 +2944,11 @@ catch
 block
 .
 throw
+new
+Error
+(
 undefined
+)
 ;
 }
 /

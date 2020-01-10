@@ -649,6 +649,8 @@ Assert
 equal
 (
 e
+.
+message
 "
 404
 -
