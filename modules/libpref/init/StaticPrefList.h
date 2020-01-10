@@ -8021,7 +8021,7 @@ insecure
 allow
 "
 MediaGmpInsecureAllow
-bool
+RelaxedAtomicBool
 false
 )
 #
