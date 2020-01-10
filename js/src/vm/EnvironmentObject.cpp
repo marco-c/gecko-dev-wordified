@@ -11258,6 +11258,9 @@ action
 SET
 )
 {
+jit
+:
+:
 JitScript
 :
 :
