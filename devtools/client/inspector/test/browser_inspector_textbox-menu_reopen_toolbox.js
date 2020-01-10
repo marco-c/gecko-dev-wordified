@@ -316,8 +316,15 @@ textboxContextMenu
 =
 toolbox
 .
-getTextBoxContextMenu
+doc
+.
+getElementById
 (
+"
+toolbox
+-
+menu
+"
 )
 ;
 info

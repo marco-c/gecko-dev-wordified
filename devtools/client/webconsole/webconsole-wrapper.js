@@ -1802,6 +1802,9 @@ popup
 (
 screenX
 screenY
+{
+doc
+:
 this
 .
 hud
@@ -1809,6 +1812,7 @@ hud
 chromeWindow
 .
 document
+}
 )
 ;
 return
@@ -1889,6 +1893,9 @@ popup
 (
 screenX
 screenY
+{
+doc
+:
 this
 .
 hud
@@ -1896,6 +1903,7 @@ hud
 chromeWindow
 .
 document
+}
 )
 ;
 return

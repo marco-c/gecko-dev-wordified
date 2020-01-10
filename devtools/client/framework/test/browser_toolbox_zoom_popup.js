@@ -617,6 +617,8 @@ await
 getButtonAndMenuInfo
 (
 toolbox
+.
+doc
 menu
 )
 ;
@@ -1044,18 +1046,10 @@ async
 function
 getButtonAndMenuInfo
 (
-toolbox
+doc
 menuButton
 )
 {
-const
-{
-doc
-topDoc
-}
-=
-toolbox
-;
 info
 (
 "
@@ -1171,7 +1165,7 @@ native
 const
 popupset
 =
-topDoc
+doc
 .
 querySelector
 (

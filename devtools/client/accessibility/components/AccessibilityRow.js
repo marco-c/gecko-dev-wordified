@@ -1278,8 +1278,6 @@ e
 .
 screenY
 gToolbox
-.
-doc
 )
 ;
 if
