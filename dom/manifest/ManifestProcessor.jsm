@@ -836,6 +836,14 @@ moz_validation
 =
 errors
 ;
+processedManifest
+.
+moz_manifest_url
+=
+manifestURL
+.
+href
+;
 }
 return
 processedManifest
