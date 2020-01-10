@@ -261,6 +261,14 @@ true
 )
 )
 ;
+gElements
+.
+loginFilter
+.
+focus
+(
+)
+;
 }
 {
 once
