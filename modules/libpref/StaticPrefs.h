@@ -157,6 +157,17 @@ h
 #
 include
 "
+mozilla
+/
+gfx
+/
+LoggingConstants
+.
+h
+"
+#
+include
+"
 MainThreadUtils
 .
 h
