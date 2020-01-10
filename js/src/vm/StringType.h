@@ -3177,7 +3177,7 @@ EXTERNAL_FLAGS
 /
 *
 Avoid
-lame
+silly
 compile
 errors
 in

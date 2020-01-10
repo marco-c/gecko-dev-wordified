@@ -1995,7 +1995,6 @@ insert
 .
 /
 /
-BULLSHIT
 ALERT
 :
 we

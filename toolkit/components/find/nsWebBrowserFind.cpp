@@ -1200,8 +1200,7 @@ point
 because
 nsISimpleEnumerator
 is
-totally
-lame
+bad
 and
 isn
 '

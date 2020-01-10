@@ -2136,7 +2136,7 @@ really
 should
 be
 less
-lame
+stupid
 about
 this
 global

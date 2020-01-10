@@ -6839,7 +6839,7 @@ Try
 to
 figure
 out
-WTF
+what
 is
 in
 the

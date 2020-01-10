@@ -1866,7 +1866,7 @@ we
 give
 a
 pretty
-lame
+bad
 error
 /
 /
