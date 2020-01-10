@@ -2548,7 +2548,7 @@ MediaKeys
 :
 CreateCDMProxy
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aMainThread
 )

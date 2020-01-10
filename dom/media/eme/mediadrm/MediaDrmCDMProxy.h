@@ -259,7 +259,7 @@ bool
 aDistinctiveIdentifierRequired
 bool
 aPersistentStateRequired
-nsIEventTarget
+nsISerialEventTarget
 *
 aMainThread
 )
