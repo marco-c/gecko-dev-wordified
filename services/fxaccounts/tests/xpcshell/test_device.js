@@ -733,6 +733,8 @@ true
 await
 fxAccounts
 .
+_internal
+.
 setSignedInUser
 (
 credentials
@@ -793,7 +795,7 @@ signOut
 (
 /
 *
-remoteOnly
+localOnly
 =
 *
 /

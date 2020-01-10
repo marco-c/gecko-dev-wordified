@@ -767,7 +767,7 @@ DEVICE_REGISTRATION_VERSION
 await
 fxa
 .
-internal
+_internal
 .
 setSignedInUser
 (
@@ -805,6 +805,24 @@ name
 ;
 return
 fxa
+;
+}
+function
+updateUserAccountData
+(
+fxa
+data
+)
+{
+return
+fxa
+.
+_internal
+.
+updateUserAccountData
+(
+data
+)
 ;
 }
 add_task
@@ -868,10 +886,9 @@ one
 )
 .
 await
-fxa
-.
 updateUserAccountData
 (
+fxa
 {
 uid
 :
@@ -928,7 +945,7 @@ client
 =
 fxa
 .
-internal
+_internal
 .
 fxAccountsClient
 ;
@@ -1264,7 +1281,7 @@ state
 =
 fxa
 .
-internal
+_internal
 .
 currentAccountState
 ;
@@ -1363,10 +1380,9 @@ deviceName
 )
 ;
 await
-fxa
-.
 updateUserAccountData
 (
+fxa
 {
 uid
 :
@@ -1438,7 +1454,7 @@ client
 =
 fxa
 .
-internal
+_internal
 .
 fxAccountsClient
 ;
@@ -1756,7 +1772,7 @@ state
 =
 fxa
 .
-internal
+_internal
 .
 currentAccountState
 ;
@@ -1853,10 +1869,9 @@ deviceName
 )
 ;
 await
-fxa
-.
 updateUserAccountData
 (
+fxa
 {
 uid
 :
@@ -1928,7 +1943,7 @@ client
 =
 fxa
 .
-internal
+_internal
 .
 fxAccountsClient
 ;
@@ -2270,7 +2285,7 @@ state
 =
 fxa
 .
-internal
+_internal
 .
 currentAccountState
 ;
@@ -2362,10 +2377,9 @@ deviceName
 )
 ;
 await
-fxa
-.
 updateUserAccountData
 (
+fxa
 {
 uid
 :
@@ -2441,7 +2455,7 @@ client
 =
 fxa
 .
-internal
+_internal
 .
 fxAccountsClient
 ;
@@ -2901,7 +2915,7 @@ state
 =
 fxa
 .
-internal
+_internal
 .
 currentAccountState
 ;
@@ -2982,10 +2996,9 @@ deviceName
 )
 ;
 await
-fxa
-.
 updateUserAccountData
 (
+fxa
 {
 uid
 :
@@ -3042,7 +3055,7 @@ client
 =
 fxa
 .
-internal
+_internal
 .
 fxAccountsClient
 ;
@@ -3234,7 +3247,7 @@ state
 =
 fxa
 .
-internal
+_internal
 .
 currentAccountState
 ;
@@ -3295,10 +3308,9 @@ credentials
 )
 ;
 await
-fxa
-.
 updateUserAccountData
 (
+fxa
 {
 uid
 :
@@ -3326,7 +3338,7 @@ args
 ;
 fxa
 .
-internal
+_internal
 .
 currentAccountState
 .
@@ -3354,7 +3366,7 @@ DEVICE_REGISTRATION_VERSION
 ;
 fxa
 .
-internal
+_internal
 .
 _registerOrUpdateDevice
 =
@@ -3395,8 +3407,6 @@ result
 =
 await
 fxa
-.
-internal
 .
 device
 .
@@ -3528,7 +3538,7 @@ args
 ;
 fxa
 .
-internal
+_internal
 .
 currentAccountState
 .
@@ -3565,7 +3575,7 @@ registeredCommandsKeys
 ;
 fxa
 .
-internal
+_internal
 .
 _registerOrUpdateDevice
 =
@@ -3606,8 +3616,6 @@ result
 =
 await
 fxa
-.
-internal
 .
 device
 .
@@ -3720,7 +3728,7 @@ count
 ;
 fxa
 .
-internal
+_internal
 .
 currentAccountState
 .
@@ -3758,7 +3766,7 @@ registeredCommandsKeys
 ;
 fxa
 .
-internal
+_internal
 .
 _registerOrUpdateDevice
 =
@@ -3790,8 +3798,6 @@ result
 =
 await
 fxa
-.
-internal
 .
 device
 .
@@ -3874,7 +3880,7 @@ args
 ;
 fxa
 .
-internal
+_internal
 .
 currentAccountState
 .
@@ -3903,7 +3909,7 @@ wibble
 ;
 fxa
 .
-internal
+_internal
 .
 _registerOrUpdateDevice
 =
@@ -3944,8 +3950,6 @@ result
 =
 await
 fxa
-.
-internal
 .
 device
 .
@@ -4054,10 +4058,9 @@ credentials
 )
 ;
 await
-fxa
-.
 updateUserAccountData
 (
+fxa
 {
 uid
 :
@@ -4118,7 +4121,7 @@ client
 =
 fxa
 .
-internal
+_internal
 .
 fxAccountsClient
 ;

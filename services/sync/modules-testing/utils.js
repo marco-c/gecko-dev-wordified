@@ -1220,7 +1220,7 @@ MockFxAccountsClient
 ;
 fxa
 .
-internal
+_internal
 .
 _fxAccountsClient
 =

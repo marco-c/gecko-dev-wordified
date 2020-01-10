@@ -265,7 +265,7 @@ checks
 here
 .
 let
-mockFxa
+mockFxaInternal
 =
 {
 getOAuthToken
@@ -316,9 +316,9 @@ http
 /
 v1
 "
-fxa
+fxai
 :
-mockFxa
+mockFxaInternal
 }
 ;
 /
@@ -1248,7 +1248,7 @@ http
 /
 v1
 "
-fxa
+fxai
 :
 mockFxaWithRemove
 }
@@ -1773,7 +1773,7 @@ http
 /
 v1
 "
-fxa
+fxai
 :
 mockFxaWithRemove
 }
@@ -2083,9 +2083,9 @@ domain
 .
 dummy
 "
-fxa
+fxai
 :
-mockFxa
+mockFxaInternal
 }
 )
 ;
@@ -2726,7 +2726,7 @@ expected
 /
 /
 add
-fxa
+fxai
 to
 options
 -
@@ -2748,9 +2748,9 @@ options
 {
 options
 .
-fxa
+fxai
 =
-mockFxa
+mockFxaInternal
 ;
 }
 try

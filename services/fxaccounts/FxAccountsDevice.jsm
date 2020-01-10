@@ -256,14 +256,14 @@ FxAccountsDevice
 {
 constructor
 (
-fxa
+fxai
 )
 {
 this
 .
-_fxa
+_fxai
 =
-fxa
+fxai
 ;
 }
 async
@@ -277,7 +277,7 @@ data
 await
 this
 .
-_fxa
+_fxai
 .
 currentAccountState
 .
@@ -322,7 +322,7 @@ if
 await
 this
 .
-_fxa
+_fxai
 .
 checkDeviceUpdateNeeded
 (
@@ -333,7 +333,7 @@ device
 return
 this
 .
-_fxa
+_fxai
 .
 _registerOrUpdateDevice
 (
@@ -1007,7 +1007,7 @@ background
 .
 this
 .
-_fxa
+_fxai
 .
 updateDeviceRegistration
 (

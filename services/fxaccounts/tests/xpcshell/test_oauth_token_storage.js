@@ -670,6 +670,8 @@ true
 await
 fxa
 .
+_internal
+.
 setSignedInUser
 (
 credentials
@@ -717,7 +719,7 @@ cas
 =
 fxa
 .
-internal
+_internal
 .
 currentAccountState
 ;

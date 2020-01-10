@@ -350,6 +350,9 @@ const
 fxAccounts
 =
 {
+keys
+:
+{
 getScopedKeys
 (
 scope
@@ -378,6 +381,7 @@ oct
 }
 }
 ;
+}
 }
 authorizeOAuthCode
 (
