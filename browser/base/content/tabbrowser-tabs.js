@@ -10803,6 +10803,10 @@ document
 break
 ;
 }
+/
+/
+fall
+through
 case
 "
 mousemove

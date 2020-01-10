@@ -20746,6 +20746,8 @@ ask
 "
 ;
 }
+break
+;
 case
 kActionUsePlugin
 :
@@ -20819,12 +20821,6 @@ preferredApp
 }
 /
 /
-Explicit
-fall
--
-through
-/
-/
 This
 should
 never
@@ -20849,6 +20845,12 @@ generic
 application
 icon
 .
+/
+/
+Explicit
+fall
+-
+through
 default
 :
 return

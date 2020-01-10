@@ -1032,6 +1032,10 @@ toggleMuteAudio
 break
 ;
 }
+/
+/
+fall
+through
 default
 :
 super

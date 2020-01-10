@@ -738,6 +738,10 @@ isRichIcon
 =
 true
 ;
+/
+/
+fall
+through
 case
 "
 icon

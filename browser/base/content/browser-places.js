@@ -987,8 +987,6 @@ shouldn
 '
 t
 be
-/
-/
 hidden
 automatically
 .
