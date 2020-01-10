@@ -985,7 +985,7 @@ from
 repository
 root
 so
-exlusions
+exclusions
 are
 joined
 to
