@@ -1328,6 +1328,7 @@ nsTextEditorState
 aReusedState
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 ~
 nsTextEditorState
 (
@@ -1341,6 +1342,7 @@ nsCycleCollectionTraversalCallback
 cb
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 Unlink
 (
@@ -3169,11 +3171,13 @@ bool
 aNotify
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DestroyEditor
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Clear
 (

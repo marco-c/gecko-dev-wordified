@@ -2983,7 +2983,15 @@ mEditorStatus
 eEditorCreationInProgress
 )
 {
+RefPtr
+<
+ComposerCommandsUpdater
+>
+updater
+=
 mComposerCommandsUpdater
+;
+updater
 -
 >
 NotifyDocumentCreated

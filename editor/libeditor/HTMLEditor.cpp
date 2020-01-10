@@ -1842,7 +1842,7 @@ call
 HTMLEditor
 :
 :
-RefereshEditingUI
+RefreshEditingUI
 (
 )
 .
@@ -1964,7 +1964,7 @@ nsresult
 >
 rv
 =
-RefereshEditingUI
+RefreshEditingUI
 (
 )
 ;
@@ -1975,7 +1975,7 @@ NS_SUCCEEDED
 rv
 )
 "
-RefereshEditingUI
+RefreshEditingUI
 (
 )
 failed
@@ -27396,11 +27396,14 @@ mCSSEditUtils
 >
 SetCSSEquivalentToHTMLStyle
 (
+MOZ_KnownLive
+(
 startNode
 -
 >
 AsElement
 (
+)
 )
 nullptr
 nsGkAtoms

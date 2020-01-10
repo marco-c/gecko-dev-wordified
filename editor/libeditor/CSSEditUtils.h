@@ -483,6 +483,7 @@ recorded
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetCSSProperty
 (
@@ -505,6 +506,7 @@ aSuppressTxn
 false
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetCSSPropertyPixels
 (
@@ -1510,6 +1512,7 @@ call
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 int32_t
 SetCSSEquivalentToHTMLStyle
 (

@@ -1347,6 +1347,7 @@ created
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 PostCreate
 (
@@ -1418,6 +1419,7 @@ so
 )
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 PreDestroy
@@ -8976,6 +8978,7 @@ nsIContent
 aRightNode
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DoTransactionInternal
 (
@@ -11253,6 +11256,7 @@ BeginUpdateViewBatch
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 EndUpdateViewBatch
 (
@@ -11320,6 +11324,7 @@ BeginTransactionInternal
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 EndTransactionInternal
 (
@@ -11747,6 +11752,7 @@ successfully
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 DoAfterDoTransaction
 (
@@ -11769,6 +11775,7 @@ successfully
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 DoAfterUndoTransaction
 (
@@ -11788,6 +11795,7 @@ successfully
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 DoAfterRedoTransaction
 (
@@ -11819,6 +11827,7 @@ eDocumentToBeDestroyed
 eDocumentStateChanged
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 NotifyDocumentListeners
 (
@@ -12829,6 +12838,7 @@ final
 {
 public
 :
+MOZ_CAN_RUN_SCRIPT
 explicit
 AutoTransactionBatch
 (
@@ -12846,21 +12856,23 @@ aEditorBase
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 mEditorBase
--
->
+.
 BeginTransactionInternal
 (
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 ~
 AutoTransactionBatch
 (
 )
 {
+MOZ_KnownLive
+(
 mEditorBase
--
->
+)
+.
 EndTransactionInternal
 (
 )
@@ -12868,10 +12880,8 @@ EndTransactionInternal
 }
 protected
 :
-OwningNonNull
-<
 EditorBase
->
+&
 mEditorBase
 ;
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
@@ -13455,6 +13465,7 @@ final
 {
 public
 :
+MOZ_CAN_RUN_SCRIPT
 explicit
 AutoUpdateViewBatch
 (
@@ -13478,12 +13489,16 @@ BeginUpdateViewBatch
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 ~
 AutoUpdateViewBatch
 (
 )
 {
+MOZ_KnownLive
+(
 mEditorBase
+)
 .
 EndUpdateViewBatch
 (
