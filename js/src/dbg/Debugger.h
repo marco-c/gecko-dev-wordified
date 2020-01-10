@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-vm_Debugger_h
+dbg_Debugger_h
 #
 define
-vm_Debugger_h
+dbg_Debugger_h
 #
 include
 "
@@ -15147,6 +15147,6 @@ JS
 endif
 /
 *
-vm_Debugger_h
+dbg_Debugger_h
 *
 /

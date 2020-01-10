@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-vm_DebuggerMemory_h
+dbg_DebuggerMemory_h
 #
 define
-vm_DebuggerMemory_h
+dbg_DebuggerMemory_h
 #
 include
 "
@@ -436,6 +436,6 @@ js
 endif
 /
 *
-vm_DebuggerMemory_h
+dbg_DebuggerMemory_h
 *
 /
