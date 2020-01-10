@@ -715,6 +715,10 @@ if
 (
 !
 aNewPosition
+|
+|
+!
+aFromUser
 )
 {
 return
