@@ -164,7 +164,9 @@ include
 "
 builtin
 /
-Stream
+streams
+/
+ReadableStream
 .
 h
 "
