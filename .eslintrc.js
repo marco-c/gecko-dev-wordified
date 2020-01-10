@@ -321,12 +321,6 @@ devtools
 *
 "
 "
-media
-/
-*
-*
-"
-"
 memory
 /
 *
