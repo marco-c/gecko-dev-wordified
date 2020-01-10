@@ -268,17 +268,6 @@ extern
 crate
 xulstore
 ;
-#
-[
-cfg
-(
-feature
-=
-"
-spidermonkey_rust
-"
-)
-]
 extern
 crate
 jsrust_shared

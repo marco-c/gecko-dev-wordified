@@ -124,6 +124,17 @@ License
 .
 *
 /
+#
+[
+cfg
+(
+feature
+=
+"
+baldrdash
+"
+)
+]
 extern
 crate
 baldrdash
