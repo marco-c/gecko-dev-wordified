@@ -4330,26 +4330,23 @@ fetches
 '
 )
 :
+{
+        
+basestring
+:
 optionally_keyed_by
 (
-        
 '
 test
 -
 platform
 '
-        
-{
-            
-basestring
-:
 [
 basestring
 ]
-        
-}
-    
 )
+    
+}
 }
 required
 =
@@ -7616,6 +7613,14 @@ virtualization
         
 '
 fetches
+.
+fetch
+'
+        
+'
+fetches
+.
+toolchain
 '
     
 ]
