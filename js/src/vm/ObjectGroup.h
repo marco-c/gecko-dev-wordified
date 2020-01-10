@@ -3744,6 +3744,13 @@ ObjectGroup
 struct
 AllocationSiteKey
 ;
+friend
+struct
+MovableCellHasher
+<
+AllocationSiteKey
+>
+;
 public
 :
 struct
