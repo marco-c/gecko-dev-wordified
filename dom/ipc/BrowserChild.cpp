@@ -12035,11 +12035,16 @@ const
 uint32_t
 &
 aFlushId
+const
+bool
+&
+aIsFinal
 )
 {
 UpdateSessionStore
 (
 aFlushId
+aIsFinal
 )
 ;
 return
@@ -22235,6 +22240,8 @@ UpdateSessionStore
 (
 uint32_t
 aFlushId
+bool
+aIsFinal
 )
 {
 if
@@ -22360,6 +22367,7 @@ privatedMode
 positions
 positionDescendants
 aFlushId
+aIsFinal
 )
 ;
 return

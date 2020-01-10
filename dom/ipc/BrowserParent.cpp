@@ -15250,6 +15250,10 @@ const
 uint32_t
 &
 aFlushId
+const
+bool
+&
+aIsFinal
 )
 {
 nsCOMPtr
@@ -15347,6 +15351,7 @@ UpdateSessionStore
 (
 mFrameElement
 aFlushId
+aIsFinal
 )
 ;
 return

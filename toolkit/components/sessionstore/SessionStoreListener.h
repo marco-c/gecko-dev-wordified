@@ -392,6 +392,10 @@ ForceFlushFromParent
 (
 uint32_t
 aFlushId
+bool
+aIsFinal
+=
+false
 )
 ;
 void
@@ -440,6 +444,10 @@ uint32_t
 aFlushId
 =
 0
+bool
+aIsFinal
+=
+false
 )
 ;
 virtual
