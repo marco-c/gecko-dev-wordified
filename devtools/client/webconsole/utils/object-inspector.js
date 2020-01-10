@@ -536,8 +536,6 @@ return
 {
 path
 :
-Symbol
-(
 (
 grip
 &
@@ -553,7 +551,6 @@ JSON
 stringify
 (
 grip
-)
 )
 contents
 :

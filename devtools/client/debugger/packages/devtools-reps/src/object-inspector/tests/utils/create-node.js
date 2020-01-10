@@ -459,10 +459,7 @@ toString
 toBe
 (
 "
-Symbol
-(
 name
-)
 "
 )
 ;
@@ -519,10 +516,7 @@ toString
 toBe
 (
 "
-Symbol
-(
 path
-)
 "
 )
 ;
@@ -598,12 +592,8 @@ toString
 toBe
 (
 "
-Symbol
-(
 root
-/
 path
-)
 "
 )
 ;
