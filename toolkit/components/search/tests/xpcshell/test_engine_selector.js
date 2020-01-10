@@ -117,7 +117,7 @@ us
 webExtensionLocale
 :
 "
-us
+USER_LOCALE
 "
 }
 ]
@@ -366,7 +366,9 @@ engines
 .
 webExtensionLocale
 "
-us
+en
+-
+US
 "
 "
 Subsequent
