@@ -4702,14 +4702,6 @@ entry
 }
 self
 .
-pending_updates
-.
-note_clear
-(
-)
-;
-self
-.
 per_doc_data
 =
 per_doc_data
