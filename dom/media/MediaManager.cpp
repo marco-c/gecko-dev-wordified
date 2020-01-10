@@ -7218,8 +7218,10 @@ firstFramePromise
 if
 (
 mAudioDevice
-&
-&
+)
+{
+if
+(
 mAudioDevice
 -
 >
@@ -7262,9 +7264,9 @@ the
 SourceMediaStream
 which
 acts
+/
+/
 as
-/
-/
 placeholders
 .
 We
@@ -7278,10 +7280,10 @@ streams
 internally
 in
 the
+/
+/
 MSG
 and
-/
-/
 mix
 them
 down
@@ -7382,11 +7384,6 @@ track
 }
 else
 {
-if
-(
-mAudioDevice
-)
-{
 nsString
 audioDeviceName
 ;
@@ -7479,6 +7476,7 @@ AddTrackInternal
 track
 )
 ;
+}
 }
 if
 (
@@ -7649,7 +7647,6 @@ default
 :
 break
 ;
-}
 }
 }
 if
