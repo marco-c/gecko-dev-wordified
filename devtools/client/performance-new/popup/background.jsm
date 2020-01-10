@@ -835,7 +835,7 @@ Services
 .
 profiler
 .
-getProfileDataAsArrayBuffer
+getProfileDataAsGzippedArrayBuffer
 (
 )
 .
