@@ -697,12 +697,10 @@ equal
 .
 .
 .
-(
 new
 Uint8Array
 (
 buffer
-)
 )
 ]
 .

@@ -654,6 +654,7 @@ Cr
 .
 NS_BASE_STREAM_WOULD_BLOCK
 )
+{
 do_throw
 (
 "
@@ -666,6 +667,7 @@ thrown
 e
 )
 ;
+}
 threw
 =
 true
@@ -919,6 +921,7 @@ Cr
 .
 NS_ERROR_FAILURE
 )
+{
 do_throw
 (
 "
@@ -931,6 +934,7 @@ thrown
 e
 )
 ;
+}
 threw
 =
 true
@@ -941,6 +945,7 @@ if
 !
 threw
 )
+{
 do_throw
 (
 "
@@ -961,6 +966,7 @@ data
 "
 )
 ;
+}
 }
 function
 BIS
