@@ -8134,6 +8134,7 @@ zone
 >
 sweepAfterMinorGC
 (
+trc
 )
 ;
 }
