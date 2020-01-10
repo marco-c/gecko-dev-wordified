@@ -950,6 +950,14 @@ content
 HTMLVideoElement
 &
 &
+!
+event
+.
+target
+.
+controls
+&
+&
 event
 .
 target
