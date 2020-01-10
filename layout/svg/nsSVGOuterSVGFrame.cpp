@@ -2147,7 +2147,7 @@ GetCurrentViewElement
 )
 ;
 const
-SVGViewBoxRect
+SVGViewBox
 *
 viewbox
 =
@@ -6229,7 +6229,7 @@ if
 content
 -
 >
-HasViewBoxRect
+HasViewBox
 (
 )
 )

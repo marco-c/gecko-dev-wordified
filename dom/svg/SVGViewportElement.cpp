@@ -1665,7 +1665,7 @@ Matrix
 /
 singular
 }
-SVGViewBoxRect
+SVGViewBox
 viewBox
 =
 GetViewBoxWithSynthesis
@@ -1838,7 +1838,7 @@ aCtxType
 )
 {
 const
-SVGViewBoxRect
+SVGViewBox
 *
 viewbox
 =
@@ -2611,7 +2611,7 @@ SVGAnimatedViewBox
 SVGViewportElement
 :
 :
-GetViewBox
+GetAnimatedViewBox
 (
 )
 {
@@ -2625,7 +2625,7 @@ SVGAnimatedPreserveAspectRatio
 SVGViewportElement
 :
 :
-GetPreserveAspectRatio
+GetAnimatedPreserveAspectRatio
 (
 )
 {
@@ -2646,7 +2646,7 @@ const
 MOZ_ASSERT
 (
 !
-HasViewBoxRect
+HasViewBox
 (
 )
 "
@@ -2754,7 +2754,7 @@ IsBeingUsedAsImage
 /
 implementation
 helpers
-SVGViewBoxRect
+SVGViewBox
 SVGViewportElement
 :
 :
@@ -2834,7 +2834,7 @@ svg
 .
 )
 return
-SVGViewBoxRect
+SVGViewBox
 (
 0
 0
@@ -2890,7 +2890,7 @@ viewport
 size
 .
 return
-SVGViewBoxRect
+SVGViewBox
 (
 0
 0

@@ -1370,7 +1370,7 @@ SVGAnimatedOrient
 SVGMarkerElement
 :
 :
-GetOrient
+GetAnimatedOrient
 (
 )
 {
@@ -1384,7 +1384,7 @@ SVGAnimatedViewBox
 SVGMarkerElement
 :
 :
-GetViewBox
+GetAnimatedViewBox
 (
 )
 {
@@ -1398,7 +1398,7 @@ SVGAnimatedPreserveAspectRatio
 SVGMarkerElement
 :
 :
-GetPreserveAspectRatio
+GetAnimatedPreserveAspectRatio
 (
 )
 {
@@ -1635,11 +1635,11 @@ y
 )
 ;
 }
-SVGViewBoxRect
+SVGViewBox
 SVGMarkerElement
 :
 :
-GetViewBoxRect
+GetViewBox
 (
 )
 {
@@ -1661,7 +1661,7 @@ GetAnimValue
 ;
 }
 return
-SVGViewBoxRect
+SVGViewBox
 (
 0
 0
@@ -1729,10 +1729,10 @@ GetAnimValue
 mCoordCtx
 )
 ;
-SVGViewBoxRect
+SVGViewBox
 viewbox
 =
-GetViewBoxRect
+GetViewBox
 (
 )
 ;

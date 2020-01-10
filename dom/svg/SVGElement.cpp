@@ -1275,7 +1275,7 @@ SVGAnimatedOrient
 *
 orient
 =
-GetOrient
+GetAnimatedOrient
 (
 )
 ;
@@ -1296,7 +1296,7 @@ SVGAnimatedViewBox
 *
 viewBox
 =
-GetViewBox
+GetAnimatedViewBox
 (
 )
 ;
@@ -1317,7 +1317,7 @@ SVGAnimatedPreserveAspectRatio
 *
 preserveAspectRatio
 =
-GetPreserveAspectRatio
+GetAnimatedPreserveAspectRatio
 (
 )
 ;
@@ -3643,7 +3643,7 @@ SVGAnimatedOrient
 *
 orient
 =
-GetOrient
+GetAnimatedOrient
 (
 )
 ;
@@ -3725,7 +3725,7 @@ SVGAnimatedViewBox
 *
 viewBox
 =
-GetViewBox
+GetAnimatedViewBox
 (
 )
 ;
@@ -3807,7 +3807,7 @@ SVGAnimatedPreserveAspectRatio
 *
 preserveAspectRatio
 =
-GetPreserveAspectRatio
+GetAnimatedPreserveAspectRatio
 (
 )
 ;
@@ -5034,7 +5034,7 @@ SVGAnimatedOrient
 *
 orient
 =
-GetOrient
+GetAnimatedOrient
 (
 )
 ;
@@ -5086,7 +5086,7 @@ SVGAnimatedViewBox
 *
 viewBox
 =
-GetViewBox
+GetAnimatedViewBox
 (
 )
 ;
@@ -5138,7 +5138,7 @@ SVGAnimatedPreserveAspectRatio
 *
 preserveAspectRatio
 =
-GetPreserveAspectRatio
+GetAnimatedPreserveAspectRatio
 (
 )
 ;
@@ -12376,7 +12376,7 @@ SVGAnimatedOrient
 SVGElement
 :
 :
-GetOrient
+GetAnimatedOrient
 (
 )
 {
@@ -12418,7 +12418,7 @@ SVGAnimatedOrient
 *
 orient
 =
-GetOrient
+GetAnimatedOrient
 (
 )
 ;
@@ -12503,7 +12503,7 @@ SVGAnimatedViewBox
 SVGElement
 :
 :
-GetViewBox
+GetAnimatedViewBox
 (
 )
 {
@@ -12545,7 +12545,7 @@ SVGAnimatedViewBox
 *
 viewBox
 =
-GetViewBox
+GetAnimatedViewBox
 (
 )
 ;
@@ -12630,7 +12630,7 @@ SVGAnimatedPreserveAspectRatio
 SVGElement
 :
 :
-GetPreserveAspectRatio
+GetAnimatedPreserveAspectRatio
 (
 )
 {
@@ -12672,7 +12672,7 @@ SVGAnimatedPreserveAspectRatio
 *
 preserveAspectRatio
 =
-GetPreserveAspectRatio
+GetAnimatedPreserveAspectRatio
 (
 )
 ;
@@ -14308,7 +14308,7 @@ SVGAnimatedOrient
 *
 orient
 =
-GetOrient
+GetAnimatedOrient
 (
 )
 ;
@@ -14345,7 +14345,7 @@ SVGAnimatedViewBox
 *
 viewBox
 =
-GetViewBox
+GetAnimatedViewBox
 (
 )
 ;
@@ -14382,7 +14382,7 @@ SVGAnimatedPreserveAspectRatio
 *
 preserveAspectRatio
 =
-GetPreserveAspectRatio
+GetAnimatedPreserveAspectRatio
 (
 )
 ;

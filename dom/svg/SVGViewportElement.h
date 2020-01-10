@@ -516,7 +516,7 @@ positive
 *
 /
 bool
-HasViewBoxRect
+HasViewBox
 (
 )
 const
@@ -586,7 +586,7 @@ call
 this
 method
 if
-HasViewBoxRect
+HasViewBox
 (
 )
 returns
@@ -607,7 +607,7 @@ HasViewBoxOrSyntheticViewBox
 const
 {
 return
-HasViewBoxRect
+HasViewBox
 (
 )
 |
@@ -817,7 +817,7 @@ PreserveAspectRatio
 virtual
 SVGAnimatedViewBox
 *
-GetViewBox
+GetAnimatedViewBox
 (
 )
 override
@@ -1060,7 +1060,7 @@ viewport
 .
 *
 /
-SVGViewBoxRect
+SVGViewBox
 GetViewBoxWithSynthesis
 (
 float
@@ -1147,7 +1147,7 @@ override
 virtual
 SVGAnimatedPreserveAspectRatio
 *
-GetPreserveAspectRatio
+GetAnimatedPreserveAspectRatio
 (
 )
 override

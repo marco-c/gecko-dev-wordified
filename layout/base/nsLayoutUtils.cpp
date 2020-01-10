@@ -66399,7 +66399,7 @@ svgElement
 svgElement
 -
 >
-HasViewBoxRect
+HasViewBox
 (
 )
 )
@@ -66471,14 +66471,14 @@ viewBox
 attribute
 .
 const
-SVGViewBoxRect
+SVGViewBox
 &
 value
 =
 svgElement
 -
 >
-GetViewBox
+GetAnimatedViewBox
 (
 )
 -

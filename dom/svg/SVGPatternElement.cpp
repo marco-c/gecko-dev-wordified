@@ -1381,7 +1381,7 @@ SVGAnimatedViewBox
 SVGPatternElement
 :
 :
-GetViewBox
+GetAnimatedViewBox
 (
 )
 {
@@ -1395,7 +1395,7 @@ SVGAnimatedPreserveAspectRatio
 SVGPatternElement
 :
 :
-GetPreserveAspectRatio
+GetAnimatedPreserveAspectRatio
 (
 )
 {

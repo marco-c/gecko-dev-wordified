@@ -3940,16 +3940,16 @@ images
 )
 ;
 bool
-hasViewBoxRect
+hasViewBox
 =
-HasViewBoxRect
+HasViewBox
 (
 )
 ;
 if
 (
 !
-hasViewBoxRect
+hasViewBox
 &
 &
 ShouldSynthesizeViewBox
@@ -4019,7 +4019,7 @@ true
 if
 (
 !
-hasViewBoxRect
+hasViewBox
 )
 {
 return
@@ -4083,7 +4083,7 @@ images
 if
 (
 !
-HasViewBoxRect
+HasViewBox
 (
 )
 &
@@ -4417,7 +4417,7 @@ equivalent
 to
 "
 !
-HasViewBoxRect
+HasViewBox
 (
 )
 &
@@ -4440,7 +4440,7 @@ viewElement
 that
 /
 /
-HasViewBoxRect
+HasViewBox
 (
 )
 would
