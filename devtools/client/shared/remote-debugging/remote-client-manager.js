@@ -183,6 +183,8 @@ devtools
 client
 /
 aboutdebugging
+-
+new
 /
 src
 /
@@ -206,6 +208,8 @@ devtools
 client
 /
 aboutdebugging
+-
+new
 /
 src
 /
@@ -232,6 +236,8 @@ from
 client
 /
 aboutdebugging
+-
+new
 /
 src
 /
