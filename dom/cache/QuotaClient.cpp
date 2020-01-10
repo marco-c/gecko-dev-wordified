@@ -2262,7 +2262,7 @@ rv
 REPORT_TELEMETRY_ERR_IN_INIT
 (
 aInitializing
-kExternalError
+kQuotaExternalError
 Cache_GetDirForOri
 )
 ;
@@ -2297,7 +2297,7 @@ rv
 REPORT_TELEMETRY_ERR_IN_INIT
 (
 aInitializing
-kExternalError
+kQuotaExternalError
 Cache_Append
 )
 ;
@@ -2410,7 +2410,7 @@ rv
 REPORT_TELEMETRY_ERR_IN_INIT
 (
 aInitializing
-kInternalError
+kQuotaInternalError
 Cache_GetPaddingSize
 )
 ;
@@ -2461,7 +2461,7 @@ rv
 REPORT_TELEMETRY_ERR_IN_INIT
 (
 aInitializing
-kExternalError
+kQuotaExternalError
 Cache_GetDirEntries
 )
 ;
@@ -2528,7 +2528,7 @@ rv
 REPORT_TELEMETRY_ERR_IN_INIT
 (
 aInitializing
-kExternalError
+kQuotaExternalError
 Cache_GetLeafName
 )
 ;
@@ -2564,7 +2564,7 @@ rv
 REPORT_TELEMETRY_ERR_IN_INIT
 (
 aInitializing
-kExternalError
+kQuotaExternalError
 Cache_IsDirectory
 )
 ;
@@ -2612,7 +2612,7 @@ rv
 REPORT_TELEMETRY_ERR_IN_INIT
 (
 aInitializing
-kExternalError
+kQuotaExternalError
 Cache_GetBodyUsage
 )
 ;
@@ -2771,7 +2771,7 @@ rv
 REPORT_TELEMETRY_ERR_IN_INIT
 (
 aInitializing
-kExternalError
+kQuotaExternalError
 Cache_GetFileSize
 )
 ;

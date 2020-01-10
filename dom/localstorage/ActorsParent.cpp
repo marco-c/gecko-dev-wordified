@@ -46880,7 +46880,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_GetDirForOrigin
 )
 ;
@@ -46919,7 +46919,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_Append
 )
 ;
@@ -46957,7 +46957,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_Exists
 )
 ;
@@ -46998,7 +46998,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_GetPath
 )
 ;
@@ -47036,7 +47036,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_GetUsageFile
 )
 ;
@@ -47088,7 +47088,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_IsDirectory
 )
 ;
@@ -47106,7 +47106,7 @@ isDirectory
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kInternalError
+kQuotaInternalError
 LS_UnexpectedDir
 )
 ;
@@ -47156,7 +47156,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_GetUsageForJFile
 )
 ;
@@ -47202,7 +47202,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_IsDirectory2
 )
 ;
@@ -47220,7 +47220,7 @@ isDirectory
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kInternalError
+kQuotaInternalError
 LS_UnexpectedDir2
 )
 ;
@@ -47256,7 +47256,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_Remove
 )
 ;
@@ -47292,7 +47292,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_Remove2
 )
 ;
@@ -47333,7 +47333,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_Clone
 )
 ;
@@ -47367,7 +47367,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_Append2
 )
 ;
@@ -47413,7 +47413,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_IsDirectory3
 )
 ;
@@ -47431,7 +47431,7 @@ isDirectory
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kInternalError
+kQuotaInternalError
 LS_UnexpectedDir3
 )
 ;
@@ -47499,7 +47499,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_CreateConnection
 )
 ;
@@ -47535,7 +47535,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_GetUsage
 )
 ;
@@ -47565,7 +47565,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_UpdateUsageFile
 )
 ;
@@ -47596,7 +47596,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_Remove3
 )
 ;
@@ -47667,7 +47667,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_Remove4
 )
 ;
@@ -47727,7 +47727,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_GetDirEntries
 )
 ;
@@ -47790,7 +47790,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_GetNextFile
 )
 ;
@@ -47833,7 +47833,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_GetLeafName
 )
 ;
@@ -47944,7 +47944,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 LS_IsDirectory4
 )
 ;

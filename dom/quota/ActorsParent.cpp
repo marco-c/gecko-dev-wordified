@@ -22111,7 +22111,7 @@ aTelemetry
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kInternalError
+kQuotaInternalError
 Rep_RestoreDirMeta
 )
 ;
@@ -22150,7 +22150,7 @@ aTelemetry
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 Rep_GetDirMeta
 )
 ;
@@ -22496,7 +22496,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 Rep_NewLocalFile
 )
 ;
@@ -22529,7 +22529,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 Rep_EnsureDirectory
 )
 ;
@@ -22569,7 +22569,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 Rep_GetDirEntries
 )
 ;
@@ -22685,7 +22685,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 Rep_IsDirectory
 )
 ;
@@ -22733,7 +22733,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 Rep_GetLeafName
 )
 ;
@@ -22773,7 +22773,7 @@ leafName
 ;
 REPORT_TELEMETRY_INIT_ERR
 (
-kInternalError
+kQuotaInternalError
 Rep_UnexpectedFile
 )
 ;
@@ -22918,7 +22918,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kInternalError
+kQuotaInternalError
 Rep_GetNextFile
 )
 ;
@@ -23109,7 +23109,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 Ori_GetDirEntries
 )
 ;
@@ -23191,7 +23191,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 Ori_IsDirectory
 )
 ;
@@ -23233,7 +23233,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 Ori_GetLeafName
 )
 ;
@@ -23302,7 +23302,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 Ori_Remove
 )
 ;
@@ -23345,7 +23345,7 @@ leafName
 ;
 REPORT_TELEMETRY_INIT_ERR
 (
-kInternalError
+kQuotaInternalError
 Ori_UnexpectedFile
 )
 ;
@@ -23414,7 +23414,7 @@ leafName
 ;
 REPORT_TELEMETRY_INIT_ERR
 (
-kInternalError
+kQuotaInternalError
 Ori_UnexpectedClient
 )
 ;
@@ -23734,7 +23734,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kInternalError
+kQuotaInternalError
 Ori_GetNextFile
 )
 ;

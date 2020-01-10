@@ -521,12 +521,12 @@ NIGHTLY_BUILD
 extern
 const
 nsLiteralCString
-kInternalError
+kQuotaInternalError
 ;
 extern
 const
 nsLiteralCString
-kExternalError
+kQuotaExternalError
 ;
 #
 else
@@ -546,10 +546,10 @@ telemetry
 .
 #
 define
-kInternalError
+kQuotaInternalError
 #
 define
-kExternalError
+kQuotaExternalError
 #
 endif
 class
