@@ -468,8 +468,9 @@ node
 .
 children
 .
-append
+insert
 (
+0
 item
 )
                 
@@ -1074,12 +1075,14 @@ expected
         
 changes
 .
-added
+modified
 .
 append
 (
+ExpectedModified
 (
 subtest
+ancestor_manifest
 new_manifest
 )
 )
