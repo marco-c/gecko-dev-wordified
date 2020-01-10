@@ -176,6 +176,17 @@ audit
 :
 {
 }
+supports
+.
+hydration
+?
+accessible
+.
+hydrate
+(
+)
+:
+null
 ]
 )
 .
