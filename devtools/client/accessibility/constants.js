@@ -285,6 +285,14 @@ AUDIT
 AUDIT
 "
 ;
+exports
+.
+AUDITING
+=
+"
+AUDITING
+"
+;
 /
 /
 List
