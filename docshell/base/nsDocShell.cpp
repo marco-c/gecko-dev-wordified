@@ -17698,14 +17698,7 @@ parentAsTreeItem
 FindItemWithName
 (
 aName
-static_cast
-<
-nsIDocShellTreeItem
-*
->
-(
 this
-)
 aOriginalRequestor
 /
 *
@@ -17800,7 +17793,7 @@ tabGroup
 FindItemWithName
 (
 aName
-aRequestor
+this
 aOriginalRequestor
 aResult
 )
