@@ -124,13 +124,6 @@ title
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "
@@ -239,12 +232,8 @@ window
 .
 onload
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -330,7 +319,7 @@ there
 s
 a
 column
-yield
+await
 checkFrameComponent
 (
 {
@@ -412,7 +401,7 @@ there
 s
 no
 column
-yield
+await
 checkFrameComponent
 (
 {
@@ -486,7 +475,7 @@ column
 =
 =
 0
-yield
+await
 checkFrameComponent
 (
 {
@@ -577,7 +566,7 @@ render
 line
 /
 columns
-yield
+await
 checkFrameComponent
 (
 {
@@ -624,7 +613,7 @@ hosted
 }
 )
 ;
-yield
+await
 checkFrameComponent
 (
 {
@@ -702,7 +691,7 @@ render
 line
 /
 columns
-yield
+await
 checkFrameComponent
 (
 {
@@ -742,7 +731,7 @@ unknown
 }
 )
 ;
-yield
+await
 checkFrameComponent
 (
 {
@@ -814,7 +803,7 @@ column
 info
 should
 render
-yield
+await
 checkFrameComponent
 (
 {
@@ -899,7 +888,7 @@ render
 line
 /
 column
-yield
+await
 checkFrameComponent
 (
 {
@@ -986,7 +975,7 @@ this
 is
 linkable
 .
-yield
+await
 checkFrameComponent
 (
 {
@@ -1053,7 +1042,7 @@ column
 can
 be
 strings
-yield
+await
 checkFrameComponent
 (
 {
@@ -1155,7 +1144,7 @@ are
 strings
 as
 well
-yield
+await
 checkFrameComponent
 (
 {
@@ -1231,7 +1220,7 @@ showFullSourceUrl
 option
 works
 correctly
-yield
+await
 checkFrameComponent
 (
 {
@@ -1311,7 +1300,7 @@ showFunctionName
 option
 works
 correctly
-yield
+await
 checkFrameComponent
 (
 {
@@ -1379,7 +1368,7 @@ js
 }
 )
 ;
-yield
+await
 checkFrameComponent
 (
 {
@@ -1465,7 +1454,7 @@ displayed
 unless
 explicitly
 enabled
-yield
+await
 checkFrameComponent
 (
 {
@@ -1531,7 +1520,7 @@ js
 }
 )
 ;
-yield
+await
 checkFrameComponent
 (
 {
@@ -1622,7 +1611,7 @@ when
 showEmptyPathAsHost
 is
 false
-yield
+await
 checkFrameComponent
 (
 {
@@ -1706,7 +1695,7 @@ when
 showEmptyPathAsHost
 is
 true
-yield
+await
 checkFrameComponent
 (
 {
@@ -1853,7 +1842,7 @@ callback
 }
 }
 ;
-yield
+await
 checkFrameComponent
 (
 {
@@ -1945,7 +1934,6 @@ js
 )
 ;
 function
-*
 checkFrameComponent
 (
 input
@@ -2070,7 +2058,6 @@ finish
 ;
 }
 }
-)
 ;
 <
 /
