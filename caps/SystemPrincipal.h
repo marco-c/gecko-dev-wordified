@@ -188,6 +188,13 @@ systemprincipal
 1
 "
 namespace
+Json
+{
+class
+Value
+;
+}
+namespace
 mozilla
 {
 class
