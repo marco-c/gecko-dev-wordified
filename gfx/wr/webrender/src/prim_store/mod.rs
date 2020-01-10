@@ -11757,10 +11757,6 @@ this
 tile
 cache
 .
-pic
-.
-local_clip_rect
-=
 tile_cache
 .
 post_update

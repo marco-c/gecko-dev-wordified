@@ -6114,7 +6114,7 @@ rect
 intersection
 (
 &
-picture
+tile_cache
 .
 local_clip_rect
 )
