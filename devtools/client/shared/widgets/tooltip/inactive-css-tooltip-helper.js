@@ -714,6 +714,7 @@ fixId
 msgId
 numFixProps
 property
+display
 }
 =
 data
@@ -835,6 +836,7 @@ stringify
 (
 {
 property
+display
 }
 )
 }
