@@ -5590,6 +5590,21 @@ clang
 cl
 "
     
+config_dir
+=
+os
+.
+path
+.
+dirname
+(
+args
+.
+config
+.
+name
+)
+    
 config
 =
 json
@@ -6440,7 +6455,15 @@ patches
         
 patch
 (
+os
+.
+path
+.
+join
+(
+config_dir
 p
+)
 source_dir
 )
     
