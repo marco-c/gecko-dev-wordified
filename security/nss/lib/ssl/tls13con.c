@@ -2655,6 +2655,7 @@ if
 (
 ssl_TicketTimeValid
 (
+ss
 session_ticket
 )
 )
@@ -15838,8 +15839,9 @@ hs
 .
 serverHelloTime
 =
-ssl_TimeUsec
+ssl_Time
 (
+ss
 )
 ;
 return
@@ -29328,8 +29330,9 @@ ticket
 .
 received_timestamp
 =
-ssl_TimeUsec
+ssl_Time
 (
+ss
 )
 ;
 rv

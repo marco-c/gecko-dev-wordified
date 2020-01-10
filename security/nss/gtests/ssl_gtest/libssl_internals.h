@@ -364,13 +364,6 @@ PRBool
 pending
 )
 ;
-void
-SSLInt_SetTicketLifetime
-(
-uint32_t
-lifetime
-)
-;
 SECStatus
 SSLInt_SetSocketMaxEarlyDataSize
 (
@@ -379,12 +372,6 @@ PRFileDesc
 fd
 uint32_t
 size
-)
-;
-void
-SSLInt_RolloverAntiReplay
-(
-void
 )
 ;
 #

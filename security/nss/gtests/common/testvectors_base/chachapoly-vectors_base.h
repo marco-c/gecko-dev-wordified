@@ -129,7 +129,7 @@ vector
 >
 typedef
 struct
-chacha_testvector_str
+chaChaTestVectorStr
 {
 uint32_t
 id
@@ -180,13 +180,13 @@ uint8_t
 CT
 ;
 bool
-invalid_tag
+invalidTag
 ;
 bool
-invalid_iv
+invalidIV
 ;
 }
-chacha_testvector
+chaChaTestVector
 ;
 /
 /
@@ -257,7 +257,7 @@ A
 5
 >
 const
-chacha_testvector
+chaChaTestVector
 kChaCha20Vectors
 [
 ]

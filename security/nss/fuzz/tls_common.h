@@ -69,6 +69,14 @@ prinit
 .
 h
 "
+void
+FixTime
+(
+PRFileDesc
+*
+fd
+)
+;
 PRStatus
 EnableAllProtocolVersions
 (

@@ -749,6 +749,11 @@ get
 )
 )
 ;
+FixTime
+(
+ssl_fd
+)
+;
 SetSocketOptions
 (
 ssl_fd
