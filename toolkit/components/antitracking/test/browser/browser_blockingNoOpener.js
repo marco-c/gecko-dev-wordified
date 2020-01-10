@@ -18,7 +18,7 @@ noopener
 ;
 AntiTracking
 .
-runTest
+runTestInNormalAndPrivateMode
 (
 "
 Blocking

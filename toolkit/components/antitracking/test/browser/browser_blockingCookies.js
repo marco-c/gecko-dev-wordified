@@ -12,7 +12,7 @@ js
 /
 AntiTracking
 .
-runTest
+runTestInNormalAndPrivateMode
 (
 "
 Set

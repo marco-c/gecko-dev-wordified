@@ -12,7 +12,7 @@ js
 /
 AntiTracking
 .
-runTest
+runTestInNormalAndPrivateMode
 (
 "
 BroadcastChannel
@@ -147,7 +147,7 @@ resolve
 ;
 AntiTracking
 .
-runTest
+runTestInNormalAndPrivateMode
 (
 "
 BroadcastChannel

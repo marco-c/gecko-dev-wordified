@@ -17,7 +17,7 @@ requestLongerTimeout
 ;
 AntiTracking
 .
-runTest
+runTestInNormalAndPrivateMode
 (
 "
 SharedWorkers
