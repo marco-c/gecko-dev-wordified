@@ -1315,7 +1315,7 @@ false
 AudioDeviceID
 aggregate_device_id
 =
-0
+kAudioObjectUnknown
 ;
 /
 /
@@ -1326,7 +1326,7 @@ id
 AudioObjectID
 plugin_id
 =
-0
+kAudioObjectUnknown
 ;
 /
 /
@@ -4526,7 +4526,7 @@ input_device
 .
 id
 :
-0
+kAudioObjectUnknown
 ;
 if
 (
@@ -4636,7 +4636,7 @@ r
 audiounit_set_device_info
 (
 stm
-0
+kAudioObjectUnknown
 io_side
 :
 :
@@ -4717,7 +4717,7 @@ DEV_INPUT
 input_device
 !
 =
-0
+kAudioObjectUnknown
 )
 {
 /
@@ -4753,7 +4753,7 @@ if
 audiounit_set_device_info
 (
 stm
-0
+kAudioObjectUnknown
 io_side
 :
 :
@@ -5435,7 +5435,7 @@ u
 mSelector
 =
 =
-kAudioHardwarePropertyDataSource
+kAudioDevicePropertyDataSource
 for
 id
 =
@@ -7270,7 +7270,7 @@ layout
 /
 When
 having
-on
+one
 or
 two
 channel
@@ -8734,7 +8734,7 @@ noErr
 LOG
 (
 "
-AudioHardwareGetPropertyInfo
+AudioObjectGetPropertyDataSize
 /
 kAudioHardwarePropertyPlugInForBundleID
 rv
@@ -8826,7 +8826,7 @@ noErr
 LOG
 (
 "
-AudioHardwareGetProperty
+AudioObjectGetPropertyData
 /
 kAudioHardwarePropertyPlugInForBundleID
 rv
@@ -9524,6 +9524,9 @@ aggregate_device_id
 assert
 (
 aggregate_device_id
+!
+=
+kAudioObjectUnknown
 )
 ;
 AudioObjectPropertyAddress
@@ -9651,6 +9654,9 @@ aggregate_device_id
 assert
 (
 aggregate_device_id
+!
+=
+kAudioObjectUnknown
 )
 ;
 AudioObjectPropertyAddress
@@ -10902,7 +10908,7 @@ aggregate_device_id
 *
 aggregate_device_id
 =
-0
+kAudioObjectUnknown
 ;
 return
 CUBEB_OK
@@ -14111,7 +14117,7 @@ stm
 >
 aggregate_device_id
 =
-0
+kAudioObjectUnknown
 ;
 LOG
 (
@@ -14336,7 +14342,7 @@ In
 this
 case
 *
-latecy
+latency
 is
 set
 to
@@ -14452,7 +14458,7 @@ latency_frames
 ;
 /
 /
-Ungly
+Ugly
 error
 check
 audiounit_set_global_latency
@@ -16012,6 +16018,9 @@ stm
 -
 >
 aggregate_device_id
+!
+=
+kAudioObjectUnknown
 )
 {
 audiounit_destroy_aggregate_device
@@ -16032,7 +16041,7 @@ stm
 >
 aggregate_device_id
 =
-0
+kAudioObjectUnknown
 ;
 }
 }
