@@ -7292,7 +7292,7 @@ aLayer
 )
 ;
 }
-nsDisplayItem
+nsDisplayWrapList
 *
 nsDisplayListBuilder
 :
@@ -7301,11 +7301,11 @@ MergeItems
 (
 nsTArray
 <
-nsDisplayItem
+nsDisplayWrapList
 *
 >
 &
-aMergedItems
+aItems
 )
 {
 /
@@ -7346,7 +7346,7 @@ frame
 and
 bounds
 .
-nsDisplayItem
+nsDisplayWrapList
 *
 merged
 =
@@ -7354,13 +7354,13 @@ nullptr
 ;
 for
 (
-nsDisplayItem
+nsDisplayWrapList
 *
 item
 :
 Reversed
 (
-aMergedItems
+aItems
 )
 )
 {
@@ -38016,7 +38016,7 @@ nsDisplayListBuilder
 *
 aBuilder
 const
-nsDisplayItem
+nsDisplayWrapList
 *
 aItem
 )
