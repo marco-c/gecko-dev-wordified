@@ -190,8 +190,7 @@ accumulate
 )
 /
 /
-if
-(
+return
 aAttribute
 =
 =
@@ -262,14 +261,6 @@ nsGkAtoms
 :
 :
 accumulate
-)
-{
-return
-true
-;
-}
-return
-false
 ;
 }
 bool
