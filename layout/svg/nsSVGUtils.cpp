@@ -3058,7 +3058,7 @@ GetType
 StyleShapeSourceType
 :
 :
-URL
+Image
 )
 ;
 switch
@@ -3077,7 +3077,7 @@ case
 StyleShapeSourceType
 :
 :
-URL
+Image
 :
 if
 (

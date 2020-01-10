@@ -7029,7 +7029,7 @@ GetType
 StyleShapeSourceType
 :
 :
-URL
+Image
 )
 {
 return
@@ -7041,7 +7041,7 @@ css
 :
 :
 URLValue
-&
+*
 url
 =
 svgStyleReset
@@ -7049,8 +7049,17 @@ svgStyleReset
 >
 mClipPath
 .
-URL
+ShapeImage
 (
+)
+.
+GetURLValue
+(
+)
+;
+MOZ_ASSERT
+(
+url
 )
 ;
 RefPtr
@@ -7062,7 +7071,6 @@ pathURI
 ResolveURLUsingLocalRef
 (
 aClippedFrame
-&
 url
 )
 ;

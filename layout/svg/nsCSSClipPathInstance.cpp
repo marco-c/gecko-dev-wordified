@@ -480,7 +480,7 @@ type
 StyleShapeSourceType
 :
 :
-URL
+Image
 )
 {
 return
