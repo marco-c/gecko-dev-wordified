@@ -3964,7 +3964,7 @@ Test
 s
 .
 Minidump
-anaylsed
+analysed
 :
 %
 s
