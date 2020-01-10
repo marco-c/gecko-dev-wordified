@@ -688,7 +688,7 @@ this
 .
 _extraActors
 .
-contextActor
+threadActor
 =
 this
 .

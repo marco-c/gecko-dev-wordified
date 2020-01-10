@@ -146,7 +146,7 @@ generateActorSpec
 typeName
 :
 "
-context
+thread
 "
 events
 :
