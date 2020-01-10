@@ -6683,7 +6683,7 @@ return
 reinterpret_cast
 <
 const
-InfallibleTArray
+nsTArray
 <
 E
 >
