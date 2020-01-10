@@ -1214,7 +1214,7 @@ defineLazyGetter
 (
 this
 "
-maybeYield
+yieldState
 "
 (
 )
@@ -1222,7 +1222,7 @@ maybeYield
 >
 Async
 .
-jankYielder
+yieldState
 (
 )
 )
@@ -1239,7 +1239,7 @@ Async
 yieldingIterator
 (
 collection
-maybeYield
+yieldState
 )
 ;
 }
