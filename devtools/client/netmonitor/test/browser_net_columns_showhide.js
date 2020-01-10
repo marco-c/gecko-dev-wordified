@@ -78,7 +78,6 @@ const
 {
 document
 store
-parent
 connector
 windowRequire
 }
@@ -278,7 +277,7 @@ testVisibleColumnContextMenuItem
 (
 column
 document
-parent
+monitor
 )
 ;
 testColumnsAlignment
@@ -292,7 +291,7 @@ testHiddenColumnContextMenuItem
 (
 column
 document
-parent
+monitor
 )
 ;
 }
@@ -303,7 +302,7 @@ testHiddenColumnContextMenuItem
 (
 column
 document
-parent
+monitor
 )
 ;
 testColumnsAlignment
@@ -317,7 +316,7 @@ testVisibleColumnContextMenuItem
 (
 column
 document
-parent
+monitor
 )
 ;
 }
@@ -355,7 +354,7 @@ testVisibleColumnContextMenuItem
 (
 column
 document
-parent
+monitor
 )
 ;
 /
@@ -384,7 +383,7 @@ testWhiteSpaceContextMenuItem
 (
 column
 document
-parent
+monitor
 )
 ;
 }
@@ -398,7 +397,7 @@ testWhiteSpaceContextMenuItem
 (
 column
 document
-parent
+monitor
 )
 {
 ok
@@ -496,7 +495,7 @@ toggleAndCheckColumnVisibility
 (
 column
 document
-parent
+monitor
 )
 ;
 }
@@ -506,7 +505,7 @@ testVisibleColumnContextMenuItem
 (
 column
 document
-parent
+monitor
 )
 {
 ok
@@ -601,13 +600,9 @@ waitForTick
 const
 menuItem
 =
-parent
-.
-document
-.
-querySelector
+getContextMenuItem
 (
-#
+monitor
 request
 -
 list
@@ -761,7 +756,7 @@ testHiddenColumnContextMenuItem
 (
 column
 document
-parent
+monitor
 )
 {
 ok
@@ -859,7 +854,7 @@ toggleAndCheckColumnVisibility
 (
 column
 document
-parent
+monitor
 )
 ;
 }
@@ -869,19 +864,15 @@ toggleAndCheckColumnVisibility
 (
 column
 document
-parent
+monitor
 )
 {
 const
 menuItem
 =
-parent
-.
-document
-.
-querySelector
+getContextMenuItem
 (
-#
+monitor
 request
 -
 list

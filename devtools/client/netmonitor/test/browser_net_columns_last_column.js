@@ -100,7 +100,6 @@ const
 {
 document
 store
-parent
 windowRequire
 }
 =
@@ -320,13 +319,9 @@ button
 const
 menuItem
 =
-parent
-.
-document
-.
-querySelector
+getContextMenuItem
 (
-#
+monitor
 request
 -
 list
