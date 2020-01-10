@@ -12339,7 +12339,7 @@ init
 (
 )
 ;
-ContentBlocking
+gProtectionsHandler
 .
 init
 (
@@ -15274,7 +15274,7 @@ uninit
 (
 )
 ;
-ContentBlocking
+gProtectionsHandler
 .
 uninit
 (
@@ -34719,7 +34719,7 @@ type
 )
 ;
 }
-ContentBlocking
+gProtectionsHandler
 .
 onContentBlockingEvent
 (
@@ -38258,12 +38258,6 @@ onLocationChange
 aLocationURI
 false
 aBrowser
-)
-;
-ContentBlocking
-.
-onLocationChange
-(
 )
 ;
 }
