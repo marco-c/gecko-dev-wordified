@@ -465,7 +465,6 @@ msg
 {
 type
 :
-(
 active
 ?
 "
@@ -479,7 +478,6 @@ LightweightTheme
 :
 Disable
 "
-)
 }
 ;
 if

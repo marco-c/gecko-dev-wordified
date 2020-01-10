@@ -598,6 +598,7 @@ moduleInfo
 .
 hide
 )
+{
 flags
 =
 Ci
@@ -606,6 +607,7 @@ nsIAboutModule
 .
 HIDE_FROM_ABOUTABOUT
 ;
+}
 return
 flags
 |

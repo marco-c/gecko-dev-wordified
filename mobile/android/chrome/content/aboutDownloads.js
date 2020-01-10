@@ -386,6 +386,7 @@ click
 event
 =
 >
+(
 event
 .
 download
@@ -393,6 +394,7 @@ download
 this
 .
 _targetDownload
+)
 true
 )
 ;
@@ -1835,6 +1837,7 @@ forEach
 name
 =
 >
+(
 this
 .
 _state
@@ -1848,6 +1851,7 @@ _download
 [
 name
 ]
+)
 this
 )
 ;

@@ -472,7 +472,6 @@ uri
 else
 if
 (
-(
 aStateFlags
 &
 Ci
@@ -480,7 +479,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_STOP
-)
 &
 &
 !

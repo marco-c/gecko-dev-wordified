@@ -169,9 +169,7 @@ browser
 .
 then
 (
-(
 data
-)
 =
 >
 callback
@@ -180,9 +178,7 @@ onSuccess
 (
 data
 )
-(
 error
-)
 =
 >
 callback

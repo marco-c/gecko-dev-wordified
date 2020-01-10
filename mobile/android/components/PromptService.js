@@ -900,13 +900,11 @@ addTextbox
 {
 value
 :
-(
 value
 !
 =
 =
 null
-)
 ?
 value
 :
@@ -939,13 +937,11 @@ addPassword
 {
 value
 :
-(
 value
 !
 =
 =
 null
-)
 ?
 value
 :
@@ -1211,6 +1207,7 @@ gPromptService
 .
 inContentProcess
 )
+{
 return
 gPromptService
 .
@@ -1238,6 +1235,7 @@ arguments
 )
 )
 ;
+}
 /
 /
 also
@@ -1264,6 +1262,7 @@ arguments
 object
 "
 )
+{
 return
 this
 .
@@ -1275,6 +1274,7 @@ this
 arguments
 )
 ;
+}
 return
 this
 .
@@ -1317,6 +1317,7 @@ arguments
 object
 "
 )
+{
 return
 this
 .
@@ -1328,6 +1329,7 @@ this
 arguments
 )
 ;
+}
 return
 this
 .
@@ -1370,6 +1372,7 @@ arguments
 object
 "
 )
+{
 return
 this
 .
@@ -1381,6 +1384,7 @@ this
 arguments
 )
 ;
+}
 return
 this
 .
@@ -1528,6 +1532,7 @@ button
 -
 1
 )
+{
 aCheckState
 .
 value
@@ -1536,6 +1541,7 @@ data
 .
 checkbox0
 ;
+}
 }
 confirm
 :
@@ -1577,14 +1583,12 @@ p
 )
 ;
 return
-(
 data
 .
 button
 =
 =
 0
-)
 ;
 }
 confirmCheck
@@ -1651,6 +1655,7 @@ button
 -
 1
 )
+{
 aCheckState
 .
 value
@@ -1659,6 +1664,7 @@ data
 .
 checkbox0
 ;
+}
 return
 ok
 ;
@@ -1887,6 +1893,7 @@ if
 (
 bTitle
 )
+{
 buttons
 .
 push
@@ -1894,6 +1901,7 @@ push
 bTitle
 )
 ;
+}
 aButtonFlags
 >
 >
@@ -1944,6 +1952,7 @@ button
 -
 1
 )
+{
 aCheckState
 .
 value
@@ -1952,6 +1961,7 @@ data
 .
 checkbox0
 ;
+}
 return
 data
 .
@@ -2045,6 +2055,7 @@ button
 -
 1
 )
+{
 aCheckState
 .
 value
@@ -2053,10 +2064,12 @@ data
 .
 checkbox0
 ;
+}
 if
 (
 ok
 )
+{
 aValue
 .
 value
@@ -2065,6 +2078,7 @@ data
 .
 textbox0
 ;
+}
 return
 ok
 ;
@@ -2156,6 +2170,7 @@ button
 -
 1
 )
+{
 aCheckState
 .
 value
@@ -2164,10 +2179,12 @@ data
 .
 checkbox0
 ;
+}
 if
 (
 ok
 )
+{
 aPassword
 .
 value
@@ -2176,6 +2193,7 @@ data
 .
 password0
 ;
+}
 return
 ok
 ;
@@ -2290,6 +2308,7 @@ button
 -
 1
 )
+{
 aCheckState
 .
 value
@@ -2298,6 +2317,7 @@ data
 .
 checkbox0
 ;
+}
 if
 (
 ok
@@ -2391,6 +2411,7 @@ if
 (
 ok
 )
+{
 aOutSelection
 .
 value
@@ -2399,6 +2420,7 @@ data
 .
 menulist0
 ;
+}
 return
 ok
 ;
@@ -2456,12 +2478,14 @@ if
 (
 defaultText
 )
+{
 result
 .
 value
 =
 defaultText
 ;
+}
 return
 this
 .
@@ -2641,6 +2665,7 @@ if
 (
 aUser
 )
+{
 ok
 =
 this
@@ -2655,6 +2680,7 @@ checkMsg
 check
 )
 ;
+}
 /
 /
 eslint
@@ -2666,6 +2692,7 @@ no
 -
 undef
 else
+{
 ok
 =
 this
@@ -2679,6 +2706,7 @@ checkMsg
 check
 )
 ;
+}
 /
 /
 eslint
@@ -2701,6 +2729,7 @@ check
 .
 value
 )
+{
 PromptUtils
 .
 savePassword
@@ -2711,6 +2740,7 @@ aUser
 aPass
 )
 ;
+}
 return
 ok
 ;
@@ -2831,6 +2861,7 @@ if
 (
 canSave
 )
+{
 [
 checkMsg
 check
@@ -2845,6 +2876,7 @@ username
 password
 )
 ;
+}
 if
 (
 username
@@ -2918,10 +2950,12 @@ proxy
 "
 )
 )
+{
 canAutologin
 =
 true
 ;
+}
 let
 ok
 =
@@ -2943,6 +2977,7 @@ nsIAuthInformation
 .
 ONLY_PASSWORD
 )
+{
 ok
 =
 this
@@ -2956,12 +2991,14 @@ checkMsg
 check
 )
 ;
+}
 else
 if
 (
 !
 ok
 )
+{
 ok
 =
 this
@@ -2976,6 +3013,7 @@ checkMsg
 check
 )
 ;
+}
 PromptUtils
 .
 setAuthInfo
@@ -3001,6 +3039,7 @@ check
 .
 value
 )
+{
 PromptUtils
 .
 savePassword
@@ -3012,6 +3051,7 @@ hostname
 httpRealm
 )
 ;
+}
 return
 ok
 ;
@@ -3035,8 +3075,10 @@ this
 .
 _asyncPromptInProgress
 )
+{
 return
 ;
+}
 /
 /
 Find
@@ -3062,15 +3104,19 @@ this
 .
 _asyncPrompts
 )
+{
 break
 ;
+}
 if
 (
 !
 hashKey
 )
+{
 return
 ;
+}
 /
 /
 If
@@ -3161,8 +3207,10 @@ pwmgr
 .
 uiBusy
 )
+{
 return
 ;
+}
 this
 .
 _asyncPromptInProgress
@@ -3277,6 +3325,7 @@ consumer
 .
 callback
 )
+{
 /
 /
 Not
@@ -3299,12 +3348,14 @@ the
 notification
 continue
 ;
+}
 try
 {
 if
 (
 ok
 )
+{
 consumer
 .
 callback
@@ -3319,7 +3370,9 @@ prompt
 authInfo
 )
 ;
+}
 else
+{
 consumer
 .
 callback
@@ -3332,6 +3385,7 @@ context
 true
 )
 ;
+}
 }
 catch
 (
@@ -3644,6 +3698,7 @@ aService
 passwdmgr
 "
 )
+{
 return
 this
 .
@@ -3659,6 +3714,7 @@ aKey
 )
 )
 ;
+}
 return
 this
 .
@@ -3805,10 +3861,12 @@ if
 !
 aLabel
 )
+{
 return
 "
 "
 ;
+}
 if
 (
 /
@@ -3965,6 +4023,7 @@ test
 aRealmString
 )
 )
+{
 return
 [
 null
@@ -3972,6 +4031,7 @@ null
 null
 ]
 ;
+}
 let
 uri
 =
@@ -4001,12 +4061,14 @@ pathQueryRef
 /
 "
 )
+{
 pathname
 =
 uri
 .
 pathQueryRef
 ;
+}
 let
 formattedHostname
 =
@@ -4060,12 +4122,12 @@ if
 (
 aSavePassword
 )
+{
 canSave
 =
 canSave
 &
 &
-(
 aSavePassword
 =
 =
@@ -4074,8 +4136,8 @@ Ci
 nsIAuthPrompt
 .
 SAVE_PASSWORD_PERMANENTLY
-)
 ;
+}
 return
 canSave
 ;
@@ -4208,6 +4270,7 @@ aUser
 .
 value
 )
+{
 selectedLogin
 =
 this
@@ -4223,6 +4286,7 @@ aUser
 value
 )
 ;
+}
 if
 (
 selectedLogin
@@ -4260,6 +4324,7 @@ aPass
 .
 value
 )
+{
 aPass
 .
 value
@@ -4268,6 +4333,7 @@ selectedLogin
 .
 password
 ;
+}
 }
 }
 return
@@ -4304,6 +4370,7 @@ i
 +
 +
 )
+{
 if
 (
 aLogins
@@ -4317,12 +4384,15 @@ aName
 =
 aValue
 )
+{
 return
 aLogins
 [
 i
 ]
 ;
+}
+}
 return
 null
 ;
@@ -4666,7 +4736,6 @@ aAuthInfo
 let
 isProxy
 =
-(
 aAuthInfo
 .
 flags
@@ -4676,12 +4745,10 @@ Ci
 nsIAuthInformation
 .
 AUTH_PROXY
-)
 ;
 let
 isPassOnly
 =
-(
 aAuthInfo
 .
 flags
@@ -4691,12 +4758,10 @@ Ci
 nsIAuthInformation
 .
 ONLY_PASSWORD
-)
 ;
 let
 isCrossOrig
 =
-(
 aAuthInfo
 .
 flags
@@ -4706,7 +4771,6 @@ Ci
 nsIAuthInformation
 .
 CROSS_ORIGIN_SUB_RESOURCE
-)
 ;
 let
 username
@@ -4757,11 +4821,13 @@ realm
 !
 isProxy
 )
+{
 realm
 =
 "
 "
 ;
+}
 /
 /
 Trim
@@ -5117,6 +5183,7 @@ Ci
 nsIProxiedChannel
 )
 )
+{
 throw
 new
 Error
@@ -5129,6 +5196,7 @@ nsIProxiedChannel
 "
 )
 ;
+}
 let
 info
 =
@@ -5141,6 +5209,7 @@ if
 !
 info
 )
+{
 throw
 new
 Error
@@ -5153,6 +5222,7 @@ nsIProxyInfo
 "
 )
 ;
+}
 /
 /
 Proxies
@@ -5256,10 +5326,12 @@ if
 !
 realm
 )
+{
 realm
 =
 hostname
 ;
+}
 return
 [
 hostname
@@ -5332,10 +5404,12 @@ if
 !
 realm
 )
+{
 realm
 =
 hostname
 ;
+}
 return
 [
 hostname
@@ -5393,6 +5467,7 @@ aAuthInfo
 .
 domain
 )
+{
 username
 .
 value
@@ -5410,7 +5485,9 @@ aAuthInfo
 .
 username
 ;
+}
 else
+{
 username
 .
 value
@@ -5419,6 +5496,7 @@ aAuthInfo
 .
 username
 ;
+}
 password
 .
 value
@@ -5621,8 +5699,10 @@ aDomWin
 .
 document
 )
+{
 return
 ;
+}
 let
 event
 =

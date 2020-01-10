@@ -1006,6 +1006,7 @@ topWindow
 )
 {
 return
+(
 Services
 .
 wm
@@ -1031,6 +1032,7 @@ navigator
 :
 geckoview
 "
+)
 )
 ;
 }
@@ -3810,6 +3812,7 @@ nativeTab
 )
 {
 return
+(
 this
 .
 extension
@@ -3825,6 +3828,7 @@ isBrowserPrivate
 nativeTab
 .
 browser
+)
 )
 ;
 }

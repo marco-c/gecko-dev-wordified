@@ -873,8 +873,10 @@ exists
 (
 )
 )
+{
 return
 ;
+}
 let
 searchPlugins
 =
@@ -902,8 +904,10 @@ exists
 (
 )
 )
+{
 return
 ;
+}
 let
 commonPlugins
 =
@@ -930,6 +934,7 @@ exists
 (
 )
 )
+{
 array
 .
 push
@@ -937,6 +942,7 @@ push
 commonPlugins
 )
 ;
+}
 let
 localePlugins
 =
@@ -964,8 +970,10 @@ exists
 (
 )
 )
+{
 return
 ;
+}
 let
 curLocale
 =
@@ -1099,6 +1107,7 @@ exists
 (
 )
 )
+{
 array
 .
 push
@@ -1106,6 +1115,7 @@ push
 defLocalePlugins
 )
 ;
+}
 }
 catch
 (
@@ -1128,9 +1138,11 @@ prop
 =
 NS_APP_DISTRIBUTION_SEARCH_DIR_LIST
 )
+{
 return
 null
 ;
+}
 let
 result
 =
@@ -1191,6 +1203,7 @@ onSuccess
 response
 =
 >
+(
 directories
 =
 response
@@ -1206,6 +1219,7 @@ FileUtils
 File
 (
 dir
+)
 )
 )
 }

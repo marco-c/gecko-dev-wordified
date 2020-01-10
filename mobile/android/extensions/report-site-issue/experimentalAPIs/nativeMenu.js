@@ -205,9 +205,7 @@ onClicked
 "
 register
 :
-(
 fire
-)
 =
 >
 {

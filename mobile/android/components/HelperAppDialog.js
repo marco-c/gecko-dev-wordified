@@ -842,6 +842,7 @@ nsIMIMEInfo
 normalizes
 .
 return
+(
 APK_MIME_TYPE
 =
 =
@@ -852,6 +853,7 @@ OMA_DOWNLOAD_DESCRIPTOR_MIME_TYPE
 =
 =
 mimeType
+)
 ;
 }
 /
@@ -1549,7 +1551,6 @@ aLauncher
 )
 &
 &
-(
 apps
 .
 length
@@ -1557,7 +1558,6 @@ length
 =
 =
 1
-)
 )
 {
 callback
@@ -1675,9 +1675,7 @@ newButtonOrder
 :
 0
 }
-(
 data
-)
 =
 >
 {
@@ -1928,32 +1926,24 @@ instance
 sendRequest
 (
 {
-"
 type
-"
 :
 "
 Download
 :
 AndroidDownloadManager
 "
-"
 uri
-"
 :
 aLauncher
 .
 source
 .
 spec
-"
 mimeType
-"
 :
 mimeType
-"
 filename
-"
 :
 aLauncher
 .
@@ -2015,6 +2005,7 @@ if
 !
 mime
 )
+{
 mime
 =
 ContentAreaUtils
@@ -2030,6 +2021,7 @@ source
 "
 "
 ;
+}
 return
 mime
 ;
@@ -2057,8 +2049,10 @@ if
 !
 mime
 )
+{
 return
 ;
+}
 try
 {
 return
@@ -2131,12 +2125,15 @@ if
 !
 mime
 )
+{
 return
 ;
+}
 if
 (
 app
 )
+{
 Services
 .
 prefs
@@ -2154,7 +2151,9 @@ app
 packageName
 )
 ;
+}
 else
+{
 Services
 .
 prefs
@@ -2169,6 +2168,7 @@ mime
 )
 )
 ;
+}
 }
 promptForSaveToFileAsync
 :
@@ -2346,9 +2346,11 @@ aLocalFile
 )
 )
 )
+{
 return
 null
 ;
+}
 /
 /
 Remove
@@ -2393,6 +2395,7 @@ aLeafName
 "
 "
 )
+{
 aLeafName
 =
 "
@@ -2412,6 +2415,7 @@ aFileExt
 "
 )
 ;
+}
 aLocalFile
 .
 append
@@ -2598,6 +2602,7 @@ Z
 i
 )
 )
+{
 aLocalFile
 .
 leafName
@@ -2639,7 +2644,9 @@ i
 "
 )
 ;
+}
 else
+{
 aLocalFile
 .
 leafName
@@ -2671,6 +2678,7 @@ replace
 "
 )
 ;
+}
 }
 else
 {
@@ -2781,9 +2789,11 @@ Cr
 .
 NS_ERROR_FILE_ACCESS_DENIED
 )
+{
 throw
 e
 ;
+}
 if
 (
 aLocalFile
@@ -2819,6 +2829,7 @@ exists
 (
 )
 )
+{
 aLocalFile
 .
 createUnique
@@ -2834,6 +2845,7 @@ NORMAL_FILE_TYPE
 }
 }
 }
+}
 isUsableDirectory
 :
 function
@@ -2843,6 +2855,7 @@ aDirectory
 )
 {
 return
+(
 aDirectory
 .
 exists
@@ -2861,6 +2874,7 @@ aDirectory
 .
 isWritable
 (
+)
 )
 ;
 }

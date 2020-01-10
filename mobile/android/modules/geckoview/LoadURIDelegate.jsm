@@ -576,6 +576,7 @@ aError
 )
 {
 return
+(
 aError
 =
 =
@@ -610,6 +611,7 @@ aError
 Cr
 .
 NS_ERROR_UNWANTED_URI
+)
 ;
 }
 }

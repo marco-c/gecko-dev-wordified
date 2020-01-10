@@ -542,7 +542,6 @@ svg
 let
 first
 =
-(
 this
 .
 updates
@@ -551,7 +550,6 @@ size
 =
 =
 0
-)
 ;
 this
 .

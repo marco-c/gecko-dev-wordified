@@ -1271,9 +1271,7 @@ false
 let
 respond
 =
-(
 data
-)
 =
 >
 {
@@ -1663,7 +1661,6 @@ shouldShowWarning
 prevAcctHash
 &
 &
-(
 prevAcctHash
 !
 =
@@ -1676,7 +1673,6 @@ sha256
 data
 .
 email
-)
 )
 ;
 if

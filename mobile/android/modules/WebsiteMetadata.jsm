@@ -977,9 +977,7 @@ descriptionRules
 processors
 :
 [
-(
 description
-)
 =
 >
 description
@@ -1396,9 +1394,7 @@ content
 processors
 :
 [
-(
 keywords
-)
 =
 >
 keywords
@@ -1411,9 +1407,7 @@ split
 .
 map
 (
-(
 keyword
-)
 =
 >
 keyword
@@ -4025,18 +4019,15 @@ rankerResult
 const
 array
 =
-(
 rankerResult
 =
 =
 =
 undefined
-)
 ?
 [
 ]
 :
-(
 Array
 .
 isArray
@@ -4049,7 +4040,6 @@ rankerResult
 [
 rankerResult
 ]
-)
 ;
 for
 (

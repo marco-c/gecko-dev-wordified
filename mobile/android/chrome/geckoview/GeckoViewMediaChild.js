@@ -244,9 +244,7 @@ this
 .
 _mediaEventCallback
 =
-(
 event
-)
 =
 >
 {
@@ -1430,10 +1428,8 @@ elementType
 "
 HTMLVideoElement
 "
-)
 |
 |
-(
 elementType
 =
 =
@@ -1450,6 +1446,7 @@ aElement
 )
 {
 return
+(
 aElement
 &
 &
@@ -1469,6 +1466,7 @@ aElement
 )
 .
 observing
+)
 ;
 }
 findElement
@@ -1568,6 +1566,7 @@ a
 source
 .
 return
+(
 aElement
 .
 error
@@ -1593,6 +1592,7 @@ this
 hasSources
 (
 aElement
+)
 )
 )
 ;
@@ -1758,7 +1758,6 @@ aOut
 .
 audioTrackCount
 =
-(
 aElement
 .
 mozHasAudio
@@ -1781,7 +1780,6 @@ aElement
 "
 HTMLAudioElement
 "
-)
 ?
 1
 :

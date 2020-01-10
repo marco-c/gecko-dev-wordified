@@ -457,8 +457,10 @@ PREF_ADDON_UPDATE_ENABLED
 true
 )
 )
+{
 return
 ;
+}
 /
 /
 If
@@ -478,8 +480,10 @@ if
 (
 gNeedsRestart
 )
+{
 return
 ;
+}
 AddonManagerPrivate
 .
 backgroundUpdateCheck

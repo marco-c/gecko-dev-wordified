@@ -92,8 +92,10 @@ notify
 "
 )
 )
+{
 return
 ;
+}
 let
 tab
 =
@@ -161,8 +163,10 @@ perms
 .
 UNKNOWN_ACTION
 )
+{
 return
 ;
+}
 try
 {
 if
@@ -275,6 +279,7 @@ if
 (
 aChecked
 )
+{
 OfflineApps
 .
 disallowSite
@@ -284,6 +289,7 @@ aContentWindow
 document
 )
 ;
+}
 }
 }
 {
@@ -506,8 +512,10 @@ aDocument
 .
 documentElement
 )
+{
 return
 ;
+}
 let
 manifest
 =
@@ -527,8 +535,10 @@ if
 !
 manifest
 )
+{
 return
 ;
+}
 let
 manifestURI
 =

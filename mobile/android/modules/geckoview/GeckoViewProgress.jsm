@@ -486,7 +486,6 @@ is
 enabled
 if
 (
-(
 aState
 &
 Ci
@@ -494,7 +493,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_LOADED_MIXED_ACTIVE_CONTENT
-)
 &
 &
 !
@@ -697,7 +695,6 @@ this
 IDENTITY_MODE_UNKNOWN
 |
 |
-(
 aState
 &
 Ci
@@ -705,10 +702,8 @@ Ci
 nsIWebProgressListener
 .
 STATE_IS_BROKEN
-)
 |
 |
-(
 aState
 &
 Ci
@@ -716,7 +711,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_IS_INSECURE
-)
 )
 {
 result

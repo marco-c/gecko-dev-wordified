@@ -166,9 +166,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

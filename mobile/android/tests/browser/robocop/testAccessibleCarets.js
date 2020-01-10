@@ -492,11 +492,9 @@ element
 )
 {
 return
-(
 isInputOrTextarea
 (
 element
-)
 )
 ?
 element
@@ -796,24 +794,20 @@ rect
 .
 left
 +
-(
 rect
 .
 width
 /
 2
-)
 rect
 .
 bottom
 -
-(
 rect
 .
 height
 /
 3
-)
 )
 ;
 return
@@ -983,7 +977,6 @@ y
 )
 ;
 await
-(
 new
 Promise
 (
@@ -998,7 +991,6 @@ setTimeout
 (
 resolve
 0
-)
 )
 )
 ;
@@ -2667,7 +2659,6 @@ UIhasActionByID
 cut_action
 "
 )
-(
 designMode
 =
 =
@@ -2675,7 +2666,6 @@ designMode
 "
 on
 "
-)
 "
 CUT
 action
@@ -2697,7 +2687,6 @@ UIhasActionByID
 paste_action
 "
 )
-(
 designMode
 =
 =
@@ -2705,7 +2694,6 @@ designMode
 "
 on
 "
-)
 "
 PASTE
 action
@@ -2770,7 +2758,6 @@ UIhasActionByID
 cut_action
 "
 )
-(
 designMode
 =
 =
@@ -2778,7 +2765,6 @@ designMode
 "
 on
 "
-)
 "
 CUT
 action
@@ -2800,7 +2786,6 @@ UIhasActionByID
 paste_action
 "
 )
-(
 designMode
 =
 =
@@ -2808,7 +2793,6 @@ designMode
 "
 on
 "
-)
 "
 PASTE
 action

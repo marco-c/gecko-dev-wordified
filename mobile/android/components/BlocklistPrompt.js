@@ -547,6 +547,7 @@ Ci
 .
 nsIPluginTag
 )
+{
 aAddons
 [
 i
@@ -558,7 +559,9 @@ disabled
 =
 true
 ;
+}
 else
+{
 aAddons
 [
 i
@@ -570,6 +573,7 @@ disable
 (
 )
 ;
+}
 }
 }
 classID

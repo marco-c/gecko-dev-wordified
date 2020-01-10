@@ -76,6 +76,7 @@ this
 _feedbackURL
 ;
 return
+(
 this
 .
 _feedbackURL
@@ -91,6 +92,7 @@ app
 .
 feedbackURL
 "
+)
 )
 ;
 }

@@ -571,9 +571,7 @@ addEventListener
 "
 keypress
 "
-(
 event
-)
 =
 >
 {

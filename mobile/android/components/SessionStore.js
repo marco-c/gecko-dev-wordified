@@ -574,14 +574,10 @@ Event
 (
 event
 {
-"
 bubbles
-"
 :
 true
-"
 cancelable
-"
 :
 false
 }
@@ -1218,9 +1214,7 @@ this
 .
 _forEachBrowserWindow
 (
-(
 window
-)
 =
 >
 {
@@ -2624,9 +2618,7 @@ this
 .
 _forEachBrowserWindow
 (
-(
 aWindow
-)
 =
 >
 {
@@ -4556,6 +4548,7 @@ i
 +
 +
 )
+{
 this
 .
 onTabAdd
@@ -4570,6 +4563,7 @@ browser
 true
 )
 ;
+}
 /
 /
 Notification
@@ -4866,6 +4860,7 @@ i
 +
 +
 )
+{
 this
 .
 onTabRemove
@@ -4880,6 +4875,7 @@ browser
 true
 )
 ;
+}
 delete
 aWindow
 .
@@ -5157,9 +5153,7 @@ this
 .
 _forEachBrowserWindow
 (
-(
 aWindow
-)
 =
 >
 {
@@ -8155,7 +8149,6 @@ Data
 "
 session
 :
-(
 privateData
 .
 windows
@@ -8177,7 +8170,6 @@ tabs
 length
 >
 0
-)
 ?
 JSON
 .
@@ -8357,9 +8349,7 @@ this
 .
 _forEachBrowserWindow
 (
-(
 aWindow
-)
 =
 >
 {
@@ -9668,7 +9658,6 @@ i
 let
 selected
 =
-(
 i
 =
 =
@@ -9679,7 +9668,6 @@ urls
 length
 -
 1
-)
 ;
 let
 params
@@ -9807,7 +9795,6 @@ index
 let
 selected
 =
-(
 i
 =
 =
@@ -9818,7 +9805,6 @@ tabs
 length
 -
 1
-)
 ;
 let
 delayLoad
@@ -11192,6 +11178,7 @@ throw
 new
 Error
 (
+(
 Components
 .
 returnCode
@@ -11199,6 +11186,7 @@ returnCode
 Cr
 .
 NS_ERROR_INVALID_ARG
+)
 )
 ;
 }
@@ -11233,6 +11221,7 @@ throw
 new
 Error
 (
+(
 Components
 .
 returnCode
@@ -11240,6 +11229,7 @@ returnCode
 Cr
 .
 NS_ERROR_INVALID_ARG
+)
 )
 ;
 }
@@ -11574,6 +11564,7 @@ throw
 new
 Error
 (
+(
 Components
 .
 returnCode
@@ -11581,6 +11572,7 @@ returnCode
 Cr
 .
 NS_ERROR_INVALID_ARG
+)
 )
 ;
 }

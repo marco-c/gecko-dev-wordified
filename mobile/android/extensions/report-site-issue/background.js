@@ -669,6 +669,7 @@ url
 )
 {
 return
+(
 url
 &
 &
@@ -711,6 +712,7 @@ startsWith
 "
 resource
 "
+)
 )
 )
 ;

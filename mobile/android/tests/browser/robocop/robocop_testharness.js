@@ -289,12 +289,10 @@ theURI
 spec
 +
 (
-(
 /
 \
 ?
 /
-)
 .
 test
 (
@@ -316,11 +314,9 @@ slug
 "
 )
 +
-(
 new
 Date
 (
-)
 )
 .
 getTime

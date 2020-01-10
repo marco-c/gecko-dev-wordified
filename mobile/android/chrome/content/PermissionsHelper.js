@@ -102,9 +102,7 @@ intent
 _permissionStrings
 :
 {
-"
 password
-"
 :
 {
 label
@@ -129,9 +127,7 @@ password
 dontSave
 "
 }
-"
 geolocation
-"
 :
 {
 label
@@ -156,9 +152,7 @@ geolocation
 dontAllow
 "
 }
-"
 popup
-"
 :
 {
 label
@@ -183,9 +177,7 @@ popup
 dontShow
 "
 }
-"
 indexedDB
-"
 :
 {
 label
@@ -268,9 +260,7 @@ desktopNotification2
 dontAllow
 "
 }
-"
 plugins
-"
 :
 {
 label
@@ -448,8 +438,10 @@ perms
 .
 UNKNOWN_ACTION
 )
+{
 continue
 ;
+}
 if
 (
 check
@@ -865,6 +857,7 @@ aURI
 displayPrePath
 )
 )
+{
 return
 Services
 .
@@ -872,6 +865,7 @@ perms
 .
 DENY_ACTION
 ;
+}
 /
 /
 Check
@@ -902,6 +896,7 @@ displayPrePath
 "
 )
 )
+{
 return
 Services
 .
@@ -909,6 +904,7 @@ perms
 .
 ALLOW_ACTION
 ;
+}
 return
 Services
 .
@@ -932,6 +928,7 @@ aType
 geolocation
 "
 )
+{
 return
 Services
 .
@@ -943,6 +940,7 @@ aPrincipal
 aType
 )
 ;
+}
 return
 Services
 .

@@ -662,6 +662,7 @@ target
 activeElement
 ;
 return
+(
 win
 &
 &
@@ -688,6 +689,7 @@ excludePassword
 *
 /
 true
+)
 )
 ;
 }

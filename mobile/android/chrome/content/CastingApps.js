@@ -1359,6 +1359,8 @@ _blocked
 =
 new
 WeakMap
+(
+)
 ;
 }
 this
@@ -1397,6 +1399,8 @@ _bound
 =
 new
 WeakMap
+(
+)
 ;
 }
 let
@@ -1701,9 +1705,7 @@ getVideo
 video
 0
 0
-(
 aBundle
-)
 =
 >
 {
@@ -1880,7 +1882,6 @@ instanceof
 Ci
 .
 nsIURL
-)
 &
 &
 aExtensions
@@ -1890,6 +1891,7 @@ includes
 aURI
 .
 fileExtension
+)
 )
 ;
 }
@@ -2968,9 +2970,7 @@ further
 var
 _getContentTypeForURIs
 =
-(
 aURIs
-)
 =
 >
 {
@@ -3004,9 +3004,7 @@ _getContentTypeForURI
 (
 sourceURI
 aElement
-(
 aType
-)
 =
 >
 {
@@ -3457,9 +3455,11 @@ length
 =
 0
 )
+{
 return
 false
 ;
+}
 return
 CastingApps
 .
@@ -4250,11 +4250,13 @@ if
 (
 aCallback
 )
+{
 aCallback
 (
 service
 )
 ;
+}
 }
 )
 ;
@@ -4369,6 +4371,7 @@ aService
 )
 {
 return
+(
 this
 .
 allowableExtension
@@ -4393,6 +4396,7 @@ aService
 .
 types
 )
+)
 ;
 }
 this
@@ -4413,8 +4417,10 @@ if
 !
 aService
 )
+{
 return
 ;
+}
 /
 /
 Make
@@ -4443,8 +4449,10 @@ if
 !
 app
 )
+{
 return
 ;
+}
 if
 (
 aVideo

@@ -198,6 +198,7 @@ if
 !
 aURI
 )
+{
 throw
 new
 Error
@@ -213,6 +214,7 @@ uri
 "
 )
 ;
+}
 if
 (
 aURI

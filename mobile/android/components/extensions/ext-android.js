@@ -378,9 +378,7 @@ global
 .
 openOptionsPage
 =
-(
 extension
-)
 =
 >
 {

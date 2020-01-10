@@ -237,6 +237,7 @@ c
 +
 "
 )
+{
 /
 /
 assuming
@@ -254,6 +255,7 @@ cleanedText
 =
 c
 ;
+}
 }
 anchorNode
 .
@@ -380,6 +382,7 @@ null
 ;
 while
 (
+(
 m
 =
 this
@@ -389,6 +392,7 @@ _phoneRegex
 exec
 (
 nodeText
+)
 )
 )
 {
@@ -418,13 +422,11 @@ length
 let
 textExistsBeforeNumber
 =
-(
 m
 .
 index
 >
 startIndex
-)
 ;
 let
 nodeToAdd
@@ -435,6 +437,7 @@ if
 (
 textExistsBeforeNumber
 )
+{
 nodeToAdd
 =
 aDoc
@@ -454,16 +457,20 @@ startIndex
 )
 )
 ;
+}
 else
+{
 nodeToAdd
 =
 anchorNode
 ;
+}
 if
 (
 !
 prevNode
 )
+{
 /
 /
 first
@@ -488,7 +495,9 @@ nodeToAdd
 aNodeToProcess
 )
 ;
+}
 else
+{
 parent
 .
 insertBefore
@@ -499,6 +508,7 @@ prevNode
 nextSibling
 )
 ;
+}
 /
 /
 inserts
@@ -508,6 +518,7 @@ if
 (
 textExistsBeforeNumber
 )
+{
 /
 /
 if
@@ -538,6 +549,7 @@ nodeToAdd
 nextSibling
 )
 ;
+}
 /
 /
 next
@@ -756,11 +768,13 @@ tagName
 TEXTAREA
 "
 )
+{
 return
 NodeFilter
 .
 FILTER_ACCEPT
 ;
+}
 return
 NodeFilter
 .

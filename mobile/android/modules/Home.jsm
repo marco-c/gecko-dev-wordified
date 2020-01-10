@@ -216,6 +216,7 @@ if
 !
 aURI
 )
+{
 throw
 new
 Error
@@ -231,6 +232,7 @@ uri
 "
 )
 ;
+}
 if
 (
 aURI
@@ -409,6 +411,7 @@ text
 =
 null
 )
+{
 this
 .
 text
@@ -417,6 +420,7 @@ options
 .
 text
 ;
+}
 if
 (
 "
@@ -433,6 +437,7 @@ icon
 =
 null
 )
+{
 this
 .
 iconURI
@@ -444,6 +449,7 @@ options
 icon
 )
 ;
+}
 if
 (
 "
@@ -464,6 +470,7 @@ onshown
 function
 "
 )
+{
 this
 .
 onshown
@@ -472,6 +479,7 @@ options
 .
 onshown
 ;
+}
 if
 (
 "
@@ -492,6 +500,7 @@ onclick
 function
 "
 )
+{
 this
 .
 onclick
@@ -500,6 +509,7 @@ options
 .
 onclick
 ;
+}
 if
 (
 "
@@ -520,6 +530,7 @@ ondismiss
 function
 "
 )
+{
 this
 .
 ondismiss
@@ -528,6 +539,7 @@ options
 .
 ondismiss
 ;
+}
 let
 weight
 =
@@ -894,12 +906,14 @@ message
 .
 onshown
 )
+{
 message
 .
 onshown
 (
 )
 ;
+}
 }
 ;
 let
@@ -924,12 +938,14 @@ message
 .
 onclick
 )
+{
 message
 .
 onclick
 (
 )
 ;
+}
 }
 ;
 let
@@ -954,12 +970,14 @@ message
 .
 ondismiss
 )
+{
 message
 .
 ondismiss
 (
 )
 ;
+}
 }
 ;
 return

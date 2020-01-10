@@ -491,11 +491,13 @@ then
 )
 =
 >
+(
 this
 .
 _viewAdded
 =
 true
+)
 Cu
 .
 reportError
@@ -956,9 +958,7 @@ getAll
 .
 then
 (
-(
 downloads
-)
 =
 >
 {
@@ -1109,9 +1109,7 @@ cookie
 .
 then
 (
-(
 download
-)
 =
 >
 {
@@ -1246,9 +1244,7 @@ cookie
 .
 then
 (
-(
 download
-)
 =
 >
 {
@@ -1387,6 +1383,7 @@ maxUrlLength
 1024
 ;
 return
+(
 download
 .
 target
@@ -1408,6 +1405,7 @@ maxUrlLength
 download
 .
 startTime
+)
 ;
 }
 function

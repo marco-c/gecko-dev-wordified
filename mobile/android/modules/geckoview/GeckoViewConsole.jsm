@@ -381,7 +381,6 @@ warn
 const
 flag
 =
-(
 aMessage
 .
 level
@@ -402,7 +401,6 @@ Ci
 nsIScriptError
 .
 warningFlag
-)
 ;
 const
 consoleMsg
@@ -878,6 +876,7 @@ constructor
 .
 name
 )
+{
 type
 =
 aResult
@@ -886,6 +885,7 @@ constructor
 .
 name
 ;
+}
 return
 type
 .
@@ -1024,6 +1024,7 @@ hookIndex
 -
 1
 )
+{
 aSourceURL
 =
 aSourceURL
@@ -1034,6 +1035,7 @@ substring
 hookIndex
 )
 ;
+}
 /
 /
 Remove
@@ -1059,6 +1061,7 @@ length
 /
 "
 )
+{
 aSourceURL
 =
 aSourceURL
@@ -1073,6 +1076,7 @@ length
 1
 )
 ;
+}
 /
 /
 Remove
@@ -1102,6 +1106,7 @@ slashIndex
 -
 1
 )
+{
 aSourceURL
 =
 aSourceURL
@@ -1113,6 +1118,7 @@ slashIndex
 1
 )
 ;
+}
 return
 aSourceURL
 ;

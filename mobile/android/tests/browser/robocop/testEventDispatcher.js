@@ -494,7 +494,6 @@ synchronous
 let
 sync
 =
-(
 type
 =
 =
@@ -504,7 +503,6 @@ Robocop
 :
 TestGeckoResponse
 "
-)
 ;
 let
 dispatching

@@ -729,8 +729,10 @@ content
 .
 document
 )
+{
 return
 ;
+}
 let
 docURI
 =

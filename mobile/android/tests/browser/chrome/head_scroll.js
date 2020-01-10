@@ -35,7 +35,6 @@ b
 )
 {
 return
-(
 Math
 .
 abs
@@ -48,7 +47,6 @@ b
 1e
 -
 6
-)
 ;
 }
 function

@@ -261,8 +261,10 @@ _isDisabledElement
 aTarget
 )
 )
+{
 return
 ;
+}
 this
 .
 _uiBusy
@@ -546,6 +548,7 @@ if
 (
 changed
 )
+{
 this
 .
 fireOnChange
@@ -553,6 +556,7 @@ fireOnChange
 aElement
 )
 ;
+}
 }
 )
 ;
@@ -582,9 +586,11 @@ win
 HTMLInputElement
 )
 )
+{
 return
 false
 ;
+}
 let
 type
 =
@@ -734,9 +740,11 @@ currentElement
 .
 disabled
 )
+{
 return
 true
 ;
+}
 currentElement
 =
 currentElement

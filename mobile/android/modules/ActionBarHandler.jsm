@@ -1428,7 +1428,6 @@ window
 if
 (
 (
-(
 ChromeUtils
 .
 getClassName
@@ -1441,7 +1440,6 @@ element
 "
 HTMLInputElement
 "
-)
 &
 &
 element
@@ -1453,7 +1451,6 @@ false
 )
 |
 |
-(
 ChromeUtils
 .
 getClassName
@@ -1466,7 +1463,6 @@ element
 "
 HTMLTextAreaElement
 "
-)
 |
 |
 element
@@ -2428,9 +2424,11 @@ in
 obj
 )
 )
+{
 return
 defaultValue
 ;
+}
 if
 (
 typeof
@@ -2444,6 +2442,7 @@ name
 function
 "
 )
+{
 return
 obj
 [
@@ -2453,6 +2452,7 @@ name
 element
 )
 ;
+}
 return
 obj
 [
@@ -2555,9 +2555,7 @@ open
 ActionBar
 .
 return
-(
 element
-)
 ?
 element
 .
@@ -2873,7 +2871,6 @@ text
 exists
 .
 return
-(
 ActionBarHandler
 .
 _getSelectedText
@@ -2883,7 +2880,6 @@ _getSelectedText
 length
 >
 0
-)
 ;
 }
 }
@@ -3065,7 +3061,6 @@ text
 exists
 .
 return
-(
 ActionBarHandler
 .
 _getSelectedText
@@ -3075,7 +3070,6 @@ _getSelectedText
 length
 >
 0
-)
 ;
 }
 }
@@ -3423,7 +3417,6 @@ win
 )
 {
 return
-(
 ActionBarHandler
 .
 _getSelectedPhoneNumber
@@ -3432,7 +3425,6 @@ _getSelectedPhoneNumber
 !
 =
 null
-)
 ;
 }
 }
@@ -3641,7 +3633,6 @@ text
 exists
 .
 return
-(
 ActionBarHandler
 .
 _getSelectedText
@@ -3651,7 +3642,6 @@ _getSelectedText
 length
 >
 0
-)
 ;
 }
 }
@@ -4006,14 +3996,12 @@ toUpperCase
 let
 canAddEngine
 =
-(
 method
 =
 =
 "
 GET
 "
-)
 |
 |
 (
@@ -4159,9 +4147,7 @@ SearchEngines
 addEngine
 (
 element
-(
 result
-)
 =
 >
 {
@@ -4261,7 +4247,6 @@ text
 exists
 .
 return
-(
 ActionBarHandler
 .
 _getSelectedText
@@ -4271,7 +4256,6 @@ _getSelectedText
 length
 >
 0
-)
 ;
 }
 }
@@ -4456,6 +4440,7 @@ this
 _idService
 ;
 return
+(
 this
 .
 _idService
@@ -4480,6 +4465,7 @@ getService
 Ci
 .
 nsIUUIDGenerator
+)
 )
 ;
 }
@@ -4514,6 +4500,7 @@ this
 .
 _targetElementRef
 )
+{
 return
 this
 .
@@ -4523,6 +4510,7 @@ get
 (
 )
 ;
+}
 return
 null
 ;
@@ -4578,6 +4566,7 @@ this
 .
 _contentWindowRef
 )
+{
 return
 this
 .
@@ -4587,6 +4576,7 @@ get
 (
 )
 ;
+}
 return
 null
 ;
@@ -4642,7 +4632,6 @@ this
 _selectionID
 &
 &
-(
 win
 .
 document
@@ -4654,7 +4643,6 @@ designMode
 "
 on
 "
-)
 ;
 }
 /
@@ -4870,6 +4858,7 @@ element
 )
 ;
 return
+(
 elementClass
 =
 =
@@ -4886,6 +4875,7 @@ elementClass
 "
 HTMLTextAreaElement
 "
+)
 ;
 }
 /
@@ -5057,13 +5047,11 @@ selectedText
 )
 {
 return
-(
 PHONE_REGEX
 .
 test
 (
 selectedText
-)
 )
 ;
 }
