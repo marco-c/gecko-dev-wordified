@@ -5004,7 +5004,7 @@ result_tx
 {
 self
 .
-before_frames
+prepare_for_frames
 (
 )
 ;
@@ -5387,7 +5387,7 @@ has_built_scene
 }
 self
 .
-after_frames
+bookkeep_after_frames
 (
 )
 ;
@@ -7316,7 +7316,7 @@ profile_counters
 true
 }
 fn
-before_frames
+prepare_for_frames
 (
 &
 mut
@@ -7327,7 +7327,7 @@ self
 .
 resource_cache
 .
-before_frames
+prepare_for_frames
 (
 SystemTime
 :
@@ -7341,13 +7341,13 @@ self
 .
 gpu_cache
 .
-before_frames
+prepare_for_frames
 (
 )
 ;
 }
 fn
-after_frames
+bookkeep_after_frames
 (
 &
 mut
@@ -7358,7 +7358,7 @@ self
 .
 resource_cache
 .
-after_frames
+bookkeep_after_frames
 (
 )
 ;
@@ -7366,7 +7366,7 @@ self
 .
 gpu_cache
 .
-after_frames
+bookkeep_after_frames
 (
 )
 ;
@@ -7833,7 +7833,7 @@ else
 {
 self
 .
-before_frames
+prepare_for_frames
 (
 )
 ;
@@ -7915,7 +7915,7 @@ false
 }
 self
 .
-after_frames
+bookkeep_after_frames
 (
 )
 ;
