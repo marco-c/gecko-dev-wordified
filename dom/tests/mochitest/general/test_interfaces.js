@@ -10771,9 +10771,6 @@ ResizeObserver
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
@@ -10800,9 +10797,6 @@ ResizeObserverEntry
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
@@ -10827,9 +10821,6 @@ name
 ResizeObserverSize
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
