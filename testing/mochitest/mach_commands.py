@@ -3232,14 +3232,15 @@ app
                 
 app
 =
-self
+"
+org
 .
-substs
-[
+mozilla
+.
+geckoview
+.
+test
 "
-ANDROID_PACKAGE_NAME
-"
-]
             
 device_serial
 =
@@ -4059,6 +4060,13 @@ not
 app
 :
             
+kwargs
+[
+'
+app
+'
+]
+=
 app
 =
 self
