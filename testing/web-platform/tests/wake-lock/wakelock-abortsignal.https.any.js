@@ -67,7 +67,7 @@ WakeLock
 request
 (
 '
-screen
+system
 '
 {
 signal
@@ -142,7 +142,7 @@ WakeLock
 request
 (
 '
-screen
+system
 '
 {
 signal
@@ -213,7 +213,7 @@ WakeLock
 request
 (
 '
-screen
+system
 '
 {
 signal
@@ -230,7 +230,7 @@ WakeLock
 request
 (
 '
-screen
+system
 '
 {
 signal
