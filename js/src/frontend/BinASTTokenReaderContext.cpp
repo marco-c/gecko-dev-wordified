@@ -8937,6 +8937,7 @@ MOZ_ASSERT
 (
 bitPrefix
 <
+=
 uint32_t
 (
 -
