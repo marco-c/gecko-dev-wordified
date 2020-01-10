@@ -182,7 +182,7 @@ s
 .
 %
 (
-source_scheme
+source_protocol
 )
 s
 .
@@ -221,7 +221,7 @@ source_scheme
 :
 %
 (
-source_scheme
+source_protocol
 )
 s
 context_nesting
