@@ -2132,7 +2132,7 @@ importing
 the
 project
 .
-Unfornutanely
+Unfortunately
 CDT
 doesn
 '
@@ -2185,6 +2185,8 @@ self
 .
 _workspace_lang_dir
 "
+Gecko
+.
 *
 .
 pdom
