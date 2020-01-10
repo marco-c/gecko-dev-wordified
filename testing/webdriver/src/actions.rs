@@ -585,6 +585,8 @@ value
 [
 derive
 (
+Clone
+Copy
 Debug
 PartialEq
 Serialize
