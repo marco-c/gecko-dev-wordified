@@ -930,8 +930,10 @@ final
 {
 const
 WebGLFramebuffer
-&
+*
 fb
+=
+nullptr
 ;
 uint32_t
 width
