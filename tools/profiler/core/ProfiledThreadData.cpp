@@ -260,6 +260,9 @@ double
 aSinceTime
 bool
 JSTracerEnabled
+ProfilerCodeAddressService
+*
+aService
 )
 {
 if
@@ -352,6 +355,12 @@ move
 jitFrameInfo
 )
 )
+;
+uniqueStacks
+.
+mCodeAddressService
+=
+aService
 ;
 aWriter
 .

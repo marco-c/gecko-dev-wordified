@@ -577,6 +577,9 @@ double
 aSinceTime
 bool
 aJSTracerEnabled
+ProfilerCodeAddressService
+*
+aService
 )
 ;
 void
