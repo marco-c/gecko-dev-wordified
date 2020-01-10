@@ -744,7 +744,7 @@ Value
 AllocKind
 kind
 =
-GetBackgroundAllocKind
+ForegroundToBackgroundAllocKind
 (
 GetGCObjectKind
 (

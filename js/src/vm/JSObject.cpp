@@ -5416,7 +5416,7 @@ initialShapeFlags
 {
 if
 (
-CanBeFinalizedInBackground
+CanChangeToBackgroundAllocKind
 (
 allocKind
 clasp
@@ -5425,7 +5425,7 @@ clasp
 {
 allocKind
 =
-GetBackgroundAllocKind
+ForegroundToBackgroundAllocKind
 (
 allocKind
 )
@@ -5733,7 +5733,7 @@ newKind
 }
 if
 (
-CanBeFinalizedInBackground
+CanChangeToBackgroundAllocKind
 (
 allocKind
 clasp
@@ -5742,7 +5742,7 @@ clasp
 {
 allocKind
 =
-GetBackgroundAllocKind
+ForegroundToBackgroundAllocKind
 (
 allocKind
 )
@@ -6214,7 +6214,7 @@ allocKind
 ;
 if
 (
-CanBeFinalizedInBackground
+CanChangeToBackgroundAllocKind
 (
 allocKind
 group
@@ -6228,7 +6228,7 @@ clasp
 {
 allocKind
 =
-GetBackgroundAllocKind
+ForegroundToBackgroundAllocKind
 (
 allocKind
 )
@@ -26596,7 +26596,7 @@ getDenseCapacity
 )
 ;
 return
-GetBackgroundAllocKind
+ForegroundToBackgroundAllocKind
 (
 GetGCArrayKind
 (
@@ -26743,7 +26743,7 @@ getClass
 ;
 }
 return
-GetBackgroundAllocKind
+ForegroundToBackgroundAllocKind
 (
 allocKind
 )
