@@ -66,6 +66,8 @@ MPL
 from
 __future__
 import
+absolute_import
+print_function
 with_statement
 import
 sys
@@ -2394,11 +2396,7 @@ args
 :
         
 print
->
->
-sys
-.
-stderr
+(
 "
 "
 "
@@ -2429,6 +2427,12 @@ argv
 [
 0
 ]
+file
+=
+sys
+.
+stderr
+)
         
 sys
 .
@@ -2445,11 +2449,7 @@ xre_path
 :
         
 print
->
->
-sys
-.
-stderr
+(
 "
 "
 "
@@ -2465,6 +2465,12 @@ required
 "
 "
 "
+file
+=
+sys
+.
+stderr
+)
         
 sys
 .
@@ -2487,11 +2493,7 @@ args
 :
         
 print
->
->
-sys
-.
-stderr
+(
 "
 Error
 :
@@ -2506,6 +2508,12 @@ test
 -
 manifest
 "
+file
+=
+sys
+.
+stderr
+)
         
 sys
 .

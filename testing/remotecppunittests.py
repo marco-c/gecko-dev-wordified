@@ -63,6 +63,11 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
+print_function
 import
 os
 import
@@ -410,11 +415,7 @@ so
 :
                         
 print
->
->
-sys
-.
-stderr
+(
 "
 Pushing
 %
@@ -426,6 +427,12 @@ s
 info
 .
 filename
+file
+=
+sys
+.
+stderr
+)
                         
 remote_file
 =
@@ -580,7 +587,7 @@ local_lib
 :
             
 for
-file
+path
 in
 os
 .
@@ -595,7 +602,7 @@ local_lib
 :
                 
 if
-file
+path
 .
 endswith
 (
@@ -607,20 +614,25 @@ so
 :
                     
 print
->
->
+(
+"
+Pushing
+{
+}
+.
+.
+"
+.
+format
+(
+path
+)
+file
+=
 sys
 .
 stderr
-"
-Pushing
-%
-s
-.
-.
-"
-%
-file
+)
                     
 remote_file
 =
@@ -631,7 +643,7 @@ join
 self
 .
 remote_bin_dir
-file
+path
 )
                     
 local_file
@@ -647,7 +659,7 @@ self
 options
 .
 local_lib
-file
+path
 )
                     
 self
@@ -726,7 +738,7 @@ local_arm_lib
 for
 root
 dirs
-files
+paths
 in
 os
 .
@@ -737,14 +749,13 @@ local_arm_lib
 :
                         
 for
-file
+path
 in
-files
+paths
 :
                             
 if
-(
-file
+path
 .
 endswith
 (
@@ -753,15 +764,10 @@ endswith
 so
 "
 )
-)
 :
                                 
 print
->
->
-sys
-.
-stderr
+(
 "
 Pushing
 %
@@ -769,8 +775,17 @@ s
 .
 .
 "
-%
+.
+format
+(
+path
+)
 file
+=
+sys
+.
+stderr
+)
                                 
 remote_file
 =
@@ -782,7 +797,7 @@ join
 self
 .
 remote_bin_dir
-file
+path
 )
                                 
 local_file
@@ -794,7 +809,7 @@ path
 join
 (
 root
-file
+path
 )
                                 
 self
@@ -2047,11 +2062,7 @@ args
 :
         
 print
->
->
-sys
-.
-stderr
+(
 "
 "
 "
@@ -2082,6 +2093,12 @@ argv
 [
 0
 ]
+file
+=
+sys
+.
+stderr
+)
         
 sys
 .
@@ -2112,11 +2129,7 @@ local_lib
 :
         
 print
->
->
-sys
-.
-stderr
+(
 "
 "
 "
@@ -2137,6 +2150,12 @@ found
 options
 .
 local_lib
+file
+=
+sys
+.
+stderr
+)
         
 sys
 .
@@ -2167,11 +2186,7 @@ local_apk
 :
         
 print
->
->
-sys
-.
-stderr
+(
 "
 "
 "
@@ -2192,6 +2207,12 @@ found
 options
 .
 local_apk
+file
+=
+sys
+.
+stderr
+)
         
 sys
 .
@@ -2208,11 +2229,7 @@ xre_path
 :
         
 print
->
->
-sys
-.
-stderr
+(
 "
 "
 "
@@ -2228,6 +2245,12 @@ required
 "
 "
 "
+file
+=
+sys
+.
+stderr
+)
         
 sys
 .
