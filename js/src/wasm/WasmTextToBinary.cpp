@@ -23257,6 +23257,7 @@ table
 .
 grow
 table
+initValue
 delta
 )
 /
@@ -23265,6 +23266,7 @@ delta
 table
 .
 grow
+initValue
 delta
 )
 AstRef
@@ -23287,7 +23289,7 @@ targetTable
 ;
 AstExpr
 *
-delta
+initValue
 =
 ParseExpr
 (
@@ -23298,7 +23300,7 @@ inParens
 if
 (
 !
-delta
+initValue
 )
 {
 return
@@ -23307,7 +23309,7 @@ nullptr
 }
 AstExpr
 *
-initValue
+delta
 =
 ParseExpr
 (
@@ -23318,7 +23320,7 @@ inParens
 if
 (
 !
-initValue
+delta
 )
 {
 return
@@ -23335,8 +23337,8 @@ lifo
 AstTableGrow
 (
 targetTable
-delta
 initValue
+delta
 )
 ;
 }
@@ -40133,7 +40135,7 @@ EncodeExpr
 e
 s
 .
-delta
+initValue
 (
 )
 )
@@ -40144,7 +40146,7 @@ EncodeExpr
 e
 s
 .
-initValue
+delta
 (
 )
 )

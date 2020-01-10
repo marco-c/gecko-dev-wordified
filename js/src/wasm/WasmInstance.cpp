@@ -6558,11 +6558,11 @@ tableGrow
 Instance
 *
 instance
-uint32_t
-delta
 void
 *
 initValue
+uint32_t
+delta
 uint32_t
 tableIndex
 )

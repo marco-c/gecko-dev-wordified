@@ -65980,9 +65980,9 @@ readTableGrow
 &
 tableIndex
 &
-delta
-&
 initValue
+&
+delta
 )
 )
 {
@@ -66003,12 +66003,12 @@ true
 /
 grow
 (
-delta
-:
-u32
 initValue
 :
 anyref
+delta
+:
+u32
 table
 :
 u32
