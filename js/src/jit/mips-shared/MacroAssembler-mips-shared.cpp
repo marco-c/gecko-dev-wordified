@@ -3352,7 +3352,7 @@ SizeHalfWord
 if
 (
 extension
-=
+!
 =
 ZeroExtend
 )
@@ -3421,7 +3421,7 @@ JS_CODEGEN_MIPS64
 if
 (
 extension
-=
+!
 =
 ZeroExtend
 )
