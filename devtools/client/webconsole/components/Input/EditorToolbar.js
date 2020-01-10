@@ -532,7 +532,6 @@ editor
 toolbar
 -
 closeButton
-checked
 "
 title
 :
