@@ -2687,7 +2687,7 @@ kind
 TableKind
 :
 :
-AnyFunction
+FuncRef
 |
 |
 table
