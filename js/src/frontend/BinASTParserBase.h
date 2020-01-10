@@ -239,12 +239,9 @@ BinASTParserBase
 JSContext
 *
 cx
-LifoAlloc
+ParseInfo
 &
-alloc
-UsedNameTracker
-&
-usedNames
+parseInfo
 HandleScriptSourceObject
 sourceObject
 )

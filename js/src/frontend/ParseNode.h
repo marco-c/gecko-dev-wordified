@@ -13283,6 +13283,10 @@ false
 class
 TraceListNode
 {
+friend
+class
+ParserSharedBase
+;
 protected
 :
 js

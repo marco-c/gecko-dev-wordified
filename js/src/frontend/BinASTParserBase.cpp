@@ -142,12 +142,9 @@ BinASTParserBase
 JSContext
 *
 cx
-LifoAlloc
+ParseInfo
 &
-alloc
-UsedNameTracker
-&
-usedNames
+parseInfo
 HandleScriptSourceObject
 sourceObject
 )
@@ -155,8 +152,7 @@ sourceObject
 ParserSharedBase
 (
 cx
-alloc
-usedNames
+parseInfo
 sourceObject
 ParserSharedBase
 :

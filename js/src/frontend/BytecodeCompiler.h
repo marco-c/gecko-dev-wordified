@@ -1011,9 +1011,6 @@ CompileGlobalBinASTScript
 JSContext
 *
 cx
-LifoAlloc
-&
-alloc
 const
 JS
 :
