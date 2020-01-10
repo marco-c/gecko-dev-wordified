@@ -389,6 +389,11 @@ IsCurrentGlobal
 (
 )
 ;
+bool
+IsProcessRoot
+(
+)
+;
 /
 /
 Get
