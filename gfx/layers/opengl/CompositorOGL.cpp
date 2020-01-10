@@ -3870,9 +3870,9 @@ size
 aRenderTarget
 -
 >
-mInitParams
-.
-mSize
+GetSize
+(
+)
 ;
 /
 /
@@ -3891,9 +3891,9 @@ phySize
 aRenderTarget
 -
 >
-mInitParams
-.
-mPhySize
+GetPhysicalSize
+(
+)
 ;
 /
 /
