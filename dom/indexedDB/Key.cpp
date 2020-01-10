@@ -537,7 +537,7 @@ terminator
 per
 basic
 -
-stategy
+strategy
 table
 )
 sorts
