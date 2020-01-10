@@ -5308,12 +5308,6 @@ null
 state
 )
 ;
-this
-.
-initialViewSelected
-=
-true
-;
 notifyInitialized
 (
 )
@@ -5801,6 +5795,12 @@ isRoot
 gHistory
 .
 canGoBack
+;
+this
+.
+initialViewSelected
+=
+true
 ;
 }
 /
