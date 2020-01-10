@@ -6284,6 +6284,7 @@ geometry
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 WillPaintWindow
 (
@@ -6333,6 +6334,7 @@ geometry
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 DidPaintWindow
 (
