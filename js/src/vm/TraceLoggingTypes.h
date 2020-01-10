@@ -132,6 +132,9 @@ AllocPolicy
 .
 h
 "
+class
+JSLinearString
+;
 /
 /
 Tree
