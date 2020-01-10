@@ -1033,6 +1033,11 @@ ValueType
 :
 Magic
 :
+return
+"
+magic
+"
+;
 case
 ValueType
 :
