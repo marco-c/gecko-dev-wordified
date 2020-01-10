@@ -733,6 +733,17 @@ MOZ_CRASHREPORTER_NO_REPORT
 env
 [
 '
+MOZ_DISABLE_NONLOCAL_CONNECTIONS
+'
+]
+=
+'
+1
+'
+            
+env
+[
+'
 XPCOM_DEBUG_BREAK
 '
 ]

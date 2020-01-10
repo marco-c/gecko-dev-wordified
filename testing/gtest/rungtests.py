@@ -758,6 +758,17 @@ MOZ_CRASHREPORTER
 env
 [
 "
+MOZ_DISABLE_NONLOCAL_CONNECTIONS
+"
+]
+=
+"
+1
+"
+        
+env
+[
+"
 MOZ_RUN_GTEST
 "
 ]
