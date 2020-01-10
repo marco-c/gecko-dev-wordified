@@ -7017,13 +7017,6 @@ defined
 (
 _ARM64_
 )
-&
-&
-!
-defined
-(
-__MINGW32__
-)
 pref
 (
 "
