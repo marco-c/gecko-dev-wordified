@@ -2654,12 +2654,9 @@ else
 #
 ifndef
 MOZ_WIDGET_UIKIT
-IOSurfacePtr
+IOSurfaceRef
 surface
 =
-(
-IOSurfacePtr
-)
 CVPixelBufferGetIOSurface
 (
 aImage

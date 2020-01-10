@@ -15205,15 +15205,13 @@ return
 false
 ;
 }
-const
-void
-*
+IOSurfaceRef
 ioSurface
 =
 surf
 -
 >
-GetIOSurfacePtr
+GetIOSurfaceRef
 (
 )
 ;
