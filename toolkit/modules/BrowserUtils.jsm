@@ -2183,6 +2183,13 @@ elt
 instanceof
 win
 .
+HTMLIFrameElement
+|
+|
+elt
+instanceof
+win
+.
 HTMLEmbedElement
 )
 return
