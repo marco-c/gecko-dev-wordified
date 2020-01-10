@@ -7301,8 +7301,6 @@ val
 )
 ;
 }
-static
-MOZ_MUST_USE
 bool
 TypeMonitorResult
 (
