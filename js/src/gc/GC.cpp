@@ -29888,7 +29888,7 @@ if
 !
 marker
 .
-isWeakMarkingTracer
+isWeakMarking
 (
 )
 )
@@ -30634,7 +30634,7 @@ collecting
 .
 *
 /
-WeakMapSet
+WeakMapColors
 markedWeakMaps
 ;
 /
