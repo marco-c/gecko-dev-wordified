@@ -10239,6 +10239,8 @@ nsPresContext
 *
 presContext
 =
+mTarget
+?
 nsContentUtils
 :
 :
@@ -10249,6 +10251,8 @@ mTarget
 >
 mElement
 )
+:
+nullptr
 ;
 if
 (
