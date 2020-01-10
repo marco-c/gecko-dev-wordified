@@ -1468,7 +1468,6 @@ type
 Source
 =
 {
-|
 +
 id
 :
@@ -1517,7 +1516,6 @@ boolean
 isWasm
 :
 boolean
-|
 }
 ;
 /

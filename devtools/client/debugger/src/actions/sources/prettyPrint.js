@@ -497,8 +497,6 @@ url
 ;
 const
 prettySource
-:
-Source
 =
 {
 id
