@@ -3293,7 +3293,7 @@ document
 createElement
 (
 "
-div
+span
 "
 {
 pseudo
@@ -3327,7 +3327,7 @@ document
 createElement
 (
 "
-div
+span
 "
 )
 ;
@@ -4830,13 +4830,6 @@ rgba
 .
 8
 )
-"
-"
-display
-"
-:
-"
-inline
 "
 }
 this
