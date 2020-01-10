@@ -28464,10 +28464,6 @@ i
 1
 )
 ;
-return
-;
-}
-}
 /
 /
 Decrease
@@ -28498,6 +28494,10 @@ _maybeStopActiveNotifications
 (
 )
 ;
+}
+return
+;
+}
 }
 }
 /
@@ -28599,6 +28599,12 @@ active
 notifications
 "
 )
+;
+this
+.
+_bitsActiveNotifications
+=
+true
 ;
 await
 this
@@ -28715,6 +28721,12 @@ active
 notifications
 "
 )
+;
+this
+.
+_bitsActiveNotifications
+=
+false
 ;
 await
 this
