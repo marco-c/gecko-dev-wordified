@@ -418,6 +418,8 @@ OriginAttributes
 aOriginAttributes
 int32_t
 aSameSite
+int32_t
+aRawSameSite
 )
 :
 mName
@@ -471,6 +473,10 @@ aOriginAttributes
 mSameSite
 (
 aSameSite
+)
+mRawSameSite
+(
+aRawSameSite
 )
 {
 }
@@ -555,6 +561,8 @@ OriginAttributes
 aOriginAttributes
 int32_t
 aSameSite
+int32_t
+aRawSameSite
 )
 ;
 size_t
@@ -793,6 +801,17 @@ return
 mSameSite
 ;
 }
+inline
+int32_t
+RawSameSite
+(
+)
+const
+{
+return
+mRawSameSite
+;
+}
 /
 /
 setters
@@ -1004,6 +1023,9 @@ mOriginAttributes
 ;
 int32_t
 mSameSite
+;
+int32_t
+mRawSameSite
 ;
 }
 ;

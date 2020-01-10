@@ -421,7 +421,7 @@ equal
 conn
 .
 schemaVersion
-9
+10
 )
 ;
 let
