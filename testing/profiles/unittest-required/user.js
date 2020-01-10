@@ -1554,7 +1554,7 @@ ipc
 .
 reportProcessHangs
 "
-false
+true
 )
 ;
 /
