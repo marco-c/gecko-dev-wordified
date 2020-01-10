@@ -4904,12 +4904,7 @@ popupFrame
 >
 InitializePopup
 (
-menuFrame
--
->
-GetAnchor
-(
-)
+aMenu
 nullptr
 position
 0
