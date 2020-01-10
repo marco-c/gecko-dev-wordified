@@ -155,7 +155,7 @@ include
 "
 gc
 /
-Zone
+ZoneAllocator
 .
 h
 "
@@ -168,17 +168,6 @@ HashTable
 .
 h
 "
-namespace
-JS
-{
-class
-Zone
-;
-}
-/
-/
-namespace
-JS
 namespace
 js
 {

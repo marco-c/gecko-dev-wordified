@@ -3035,6 +3035,9 @@ runtime
 JS
 :
 :
+shadow
+:
+:
 Zone
 :
 :
@@ -3168,6 +3171,9 @@ JSRuntime
 *
 runtime
 JS
+:
+:
+shadow
 :
 :
 Zone
