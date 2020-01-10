@@ -3114,7 +3114,7 @@ nullptr
 )
 MARKUPMAP
 (
-tfoot
+thead
 [
 ]
 (
