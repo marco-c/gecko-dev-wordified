@@ -855,6 +855,10 @@ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 for
 i
 in
+six
+.
+moves
+.
 xrange
 (
 131597
@@ -5249,7 +5253,7 @@ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 for
 i
 in
-xrange
+range
 (
 8
 )
