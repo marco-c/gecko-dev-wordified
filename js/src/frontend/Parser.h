@@ -2914,6 +2914,8 @@ Scope
 scope
 bool
 hasParameterExprs
+IsFieldInitializer
+isFieldInitializer
 )
 ;
 mozilla
@@ -3639,6 +3641,13 @@ bool
 isStandaloneFunction
 =
 false
+IsFieldInitializer
+isFieldInitializer
+=
+IsFieldInitializer
+:
+:
+No
 )
 ;
 inline
@@ -11355,6 +11364,8 @@ Scope
 scope
 bool
 hasParameterExprs
+IsFieldInitializer
+isFieldInitializer
 LifoAlloc
 &
 alloc
