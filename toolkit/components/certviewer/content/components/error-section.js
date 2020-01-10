@@ -56,7 +56,6 @@ MPL
 .
 *
 /
-export
 class
 ErrorSection
 extends

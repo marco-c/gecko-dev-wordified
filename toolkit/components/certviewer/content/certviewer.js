@@ -79,7 +79,15 @@ parse
 }
 from
 "
-.
+chrome
+:
+/
+/
+global
+/
+content
+/
+certviewer
 /
 certDecoder
 .
