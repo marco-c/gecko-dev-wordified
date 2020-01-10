@@ -305,9 +305,9 @@ isLargeText
 false
 score
 :
-"
-fail
-"
+SCORES
+.
+FAIL
 }
 [
 AUDIT_TYPE
@@ -416,9 +416,9 @@ isLargeText
 false
 score
 :
-"
-fail
-"
+SCORES
+.
+FAIL
 }
 [
 AUDIT_TYPE

@@ -649,7 +649,7 @@ guidelines
 FAIL
 :
 "
-fail
+FAIL
 "
 /
 /
