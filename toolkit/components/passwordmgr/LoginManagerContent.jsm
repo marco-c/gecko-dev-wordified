@@ -1931,6 +1931,13 @@ promise
 resolve
 (
 {
+generatedPassword
+:
+msg
+.
+data
+.
+generatedPassword
 logins
 :
 loginsFound
