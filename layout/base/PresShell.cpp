@@ -22384,7 +22384,7 @@ NS_OK
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 DoScrollContentIntoView
