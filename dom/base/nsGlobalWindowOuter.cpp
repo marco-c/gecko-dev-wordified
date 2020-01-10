@@ -31759,7 +31759,9 @@ script
 if
 (
 !
-mHadOriginalOpener
+HadOriginalOpener
+(
+)
 )
 {
 return
@@ -41525,7 +41527,9 @@ neterror
 &
 &
 !
-mHadOriginalOpener
+HadOriginalOpener
+(
+)
 &
 &
 !

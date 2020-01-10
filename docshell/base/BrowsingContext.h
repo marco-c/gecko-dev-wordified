@@ -1545,6 +1545,16 @@ HasOpener
 )
 const
 ;
+bool
+HadOriginalOpener
+(
+)
+const
+{
+return
+mHadOriginalOpener
+;
+}
 /
 *
 *
