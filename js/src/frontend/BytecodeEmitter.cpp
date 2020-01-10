@@ -14555,10 +14555,15 @@ off
 resumeIndex
 )
 ;
+ptrdiff_t
+unusedOffset
+;
 return
-emit1
+emitJumpTargetOp
 (
 JSOP_AFTERYIELD
+&
+unusedOffset
 )
 ;
 }

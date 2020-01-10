@@ -2322,6 +2322,9 @@ JSOP_LOOPHEAD
 case
 JSOP_LOOPENTRY
 :
+case
+JSOP_AFTERYIELD
+:
 return
 true
 ;
