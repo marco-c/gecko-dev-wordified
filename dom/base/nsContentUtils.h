@@ -21495,10 +21495,6 @@ static
 bool
 sIsHandlingKeyBoardEvent
 ;
-static
-bool
-sAllowXULXBL_for_file
-;
 #
 ifndef
 RELEASE_OR_BETA
