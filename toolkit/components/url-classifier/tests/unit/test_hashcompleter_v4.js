@@ -1204,8 +1204,6 @@ btoa
 sort
 (
 )
-1
-3
 )
 ;
 registerHandlerGethashV4
@@ -1806,8 +1804,6 @@ btoa
 "
 )
 ]
-1
-1
 )
 ;
 registerHandlerGethashV4
