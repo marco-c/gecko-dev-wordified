@@ -164,6 +164,10 @@ RemoteWorkerParent
 void
 Initialize
 (
+bool
+aAlreadyRegistered
+=
+false
 )
 ;
 void
