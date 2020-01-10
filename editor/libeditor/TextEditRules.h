@@ -606,13 +606,6 @@ virtual
 nsresult
 BeforeEdit
 (
-EditSubAction
-aEditSubAction
-nsIEditor
-:
-:
-EDirection
-aDirection
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -620,13 +613,6 @@ virtual
 nsresult
 AfterEdit
 (
-EditSubAction
-aEditSubAction
-nsIEditor
-:
-:
-EDirection
-aDirection
 )
 ;
 /

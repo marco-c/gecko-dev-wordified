@@ -1046,13 +1046,6 @@ TextEditRules
 :
 BeforeEdit
 (
-EditSubAction
-aEditSubAction
-nsIEditor
-:
-:
-EDirection
-aDirection
 )
 {
 MOZ_ASSERT
@@ -1104,13 +1097,6 @@ TextEditRules
 :
 AfterEdit
 (
-EditSubAction
-aEditSubAction
-nsIEditor
-:
-:
-EDirection
-aDirection
 )
 {
 if
@@ -1201,7 +1187,6 @@ TextEditorRef
 .
 HandleInlineSpellCheckAfterEdit
 (
-aEditSubAction
 )
 ;
 if
