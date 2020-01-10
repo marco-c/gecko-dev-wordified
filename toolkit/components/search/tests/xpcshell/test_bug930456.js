@@ -35,7 +35,14 @@ run_test
 {
 if
 (
-isChild
+XULRuntime
+.
+processType
+=
+=
+XULRuntime
+.
+PROCESS_TYPE_CONTENT
 )
 {
 Assert

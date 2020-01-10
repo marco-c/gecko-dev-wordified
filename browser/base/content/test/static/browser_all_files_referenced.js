@@ -473,7 +473,7 @@ Exclude
 all
 search
 -
-plugins
+extensions
 because
 they
 aren
@@ -489,7 +489,7 @@ resource
 /
 search
 -
-plugins
+extensions
 /
 "
 ]
