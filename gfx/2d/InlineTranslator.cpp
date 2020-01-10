@@ -491,6 +491,9 @@ RecordedEvent
 *
 recordedEvent
 )
+-
+>
+bool
 {
 /
 /
