@@ -3400,6 +3400,14 @@ is
 an
 Element
 node
+.
+Faster
+than
+using
+NodeType
+(
+)
+.
 *
 /
 bool

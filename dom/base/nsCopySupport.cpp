@@ -2145,7 +2145,7 @@ nsresult
 nsCopySupport
 :
 :
-HTMLCopy
+EncodeDocumentWithContextAndPutToClipboard
 (
 Selection
 *
@@ -5398,16 +5398,10 @@ IsSelectionInsideRuby
 sel
 )
 ;
-/
-/
-call
-the
-copy
-code
 nsresult
 rv
 =
-HTMLCopy
+EncodeDocumentWithContextAndPutToClipboard
 (
 sel
 doc
