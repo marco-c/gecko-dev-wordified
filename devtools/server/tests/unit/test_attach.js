@@ -33,7 +33,9 @@ strict
 "
 ;
 const
+{
 ThreadClient
+}
 =
 require
 (
