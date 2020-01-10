@@ -6153,7 +6153,7 @@ _protectionsPanelEnabled
 &
 event
 .
-metaKey
+altKey
 )
 {
 gProtectionsHandler
