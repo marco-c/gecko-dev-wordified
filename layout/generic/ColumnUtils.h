@@ -137,14 +137,7 @@ mozilla_ColumnUtils_h
 #
 include
 "
-nsCoord
-.
-h
-"
-#
-include
-"
-nsStyleConsts
+nsStyleCoord
 .
 h
 "

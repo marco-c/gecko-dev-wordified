@@ -225,6 +225,13 @@ h
 #
 include
 "
+nsStyleCoord
+.
+h
+"
+#
+include
+"
 nsStyleConsts
 .
 h
@@ -389,6 +396,9 @@ nsView
 ;
 class
 nsIFrame
+;
+class
+nsStyleCoord
 ;
 class
 nsPIDOMWindowOuter

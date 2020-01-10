@@ -137,6 +137,17 @@ h
 #
 include
 "
+nsStyleCoord
+.
+h
+"
+/
+/
+for
+nsStyleCoord
+#
+include
+"
 mozilla
 /
 dom

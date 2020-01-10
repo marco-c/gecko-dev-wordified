@@ -184,9 +184,7 @@ h
 #
 include
 "
-mozilla
-/
-ServoStyleConsts
+nsStyleCoord
 .
 h
 "
@@ -2341,8 +2339,8 @@ aValue
 *
 *
 Converts
-a
-LengthPercentage
+an
+nsStyleCoord
 into
 a
 userspace

@@ -106,6 +106,8 @@ grid
 :
 {
 GenericGridLine
+TrackBreadth
+as
 GenericTrackBreadth
 }
 ;
@@ -123,6 +125,8 @@ grid
 TrackList
 as
 GenericTrackList
+TrackSize
+as
 GenericTrackSize
 }
 ;

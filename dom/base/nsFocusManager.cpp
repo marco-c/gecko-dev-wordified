@@ -339,6 +339,13 @@ h
 #
 include
 "
+nsStyleCoord
+.
+h
+"
+#
+include
+"
 BrowserChild
 .
 h

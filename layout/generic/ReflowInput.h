@@ -143,7 +143,7 @@ h
 #
 include
 "
-nsStyleConsts
+nsStyleCoord
 .
 h
 "
@@ -2258,9 +2258,7 @@ nullptr
 *
 *
 Convert
-StyleSize
-or
-StyleMaxSize
+nsStyleCoord
 to
 nscoord
 when
@@ -2280,8 +2278,8 @@ enumerated
 values
 are
 for
-inline
 *
+inline
 size
 min
 -
@@ -2298,9 +2296,9 @@ size
 Does
 not
 handle
+*
 auto
 inline
-*
 sizes
 .
 *

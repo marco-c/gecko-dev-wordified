@@ -169,6 +169,9 @@ FlexBinding
 .
 h
 "
+class
+nsStyleCoord
+;
 namespace
 mozilla
 {

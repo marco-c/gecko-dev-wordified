@@ -432,6 +432,13 @@ h
 #
 include
 "
+nsStyleCoord
+.
+h
+"
+#
+include
+"
 nsStyleUtil
 .
 h
