@@ -37606,7 +37606,7 @@ nsGkAtoms
 onbeforeunload
 &
 &
-mBrowserChild
+mWindowGlobalChild
 &
 &
 (
@@ -37767,7 +37767,7 @@ nsGkAtoms
 onbeforeunload
 &
 &
-mBrowserChild
+mWindowGlobalChild
 &
 &
 (
