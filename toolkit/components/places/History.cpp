@@ -3910,7 +3910,7 @@ Length
 0
 )
 {
-InfallibleTArray
+nsTArray
 <
 URIParams
 >
@@ -5711,7 +5711,7 @@ Length
 >
 NOTIFY_VISITS_CHUNK_SIZE
 ;
-InfallibleTArray
+nsTArray
 <
 VisitData
 >
