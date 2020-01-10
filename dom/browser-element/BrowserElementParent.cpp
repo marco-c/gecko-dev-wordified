@@ -1799,7 +1799,7 @@ OPEN_WINDOW_IGNORED
 docshell
 -
 >
-GetBrowsingContext
+GetBrowsingContextXPCOM
 (
 aReturnBC
 )

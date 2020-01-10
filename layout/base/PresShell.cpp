@@ -7070,13 +7070,7 @@ BrowsingContext
 *
 bc
 =
-nsDocShell
-:
-:
-Cast
-(
 docShell
-)
 -
 >
 GetBrowsingContext
@@ -74290,13 +74284,7 @@ BrowsingContext
 *
 bc
 =
-nsDocShell
-:
-:
-Cast
-(
 docShell
-)
 -
 >
 GetBrowsingContext
