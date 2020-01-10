@@ -448,9 +448,9 @@ GetViewManager
 (
 )
 ;
-nsIPresShell
+PresShell
 *
-ps
+presShell
 =
 vm
 ?
@@ -464,9 +464,9 @@ GetPresShell
 nullptr
 ;
 return
-ps
+presShell
 ?
-ps
+presShell
 -
 >
 GetDocument

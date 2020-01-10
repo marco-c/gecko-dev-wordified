@@ -8922,7 +8922,7 @@ mWidgetListener
 {
 if
 (
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -12346,7 +12346,9 @@ mWidgetListener
 return
 ;
 }
-nsIPresShell
+if
+(
+PresShell
 *
 presShell
 =
@@ -12356,10 +12358,6 @@ mWidgetListener
 GetPresShell
 (
 )
-;
-if
-(
-presShell
 )
 {
 (

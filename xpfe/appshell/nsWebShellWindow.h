@@ -170,6 +170,9 @@ namespace
 mozilla
 {
 class
+PresShell
+;
+class
 WebShellWindowTimerCallback
 ;
 }
@@ -250,7 +253,10 @@ override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 GetPresShell
 (
@@ -505,7 +511,10 @@ return
 this
 ;
 }
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 GetPresShell
 (
