@@ -4959,7 +4959,7 @@ undefined
 )
 {
 const
-layoutSize
+innerSize
 =
 await
 spawnViewportTask
@@ -4977,16 +4977,12 @@ width
 :
 content
 .
-screen
-.
-width
+innerWidth
 height
 :
 content
 .
-screen
-.
-height
+innerHeight
 }
 ;
 }
@@ -5006,7 +5002,7 @@ undefined
 {
 is
 (
-layoutSize
+innerSize
 .
 width
 width
@@ -5016,7 +5012,7 @@ message
 should
 have
 expected
-layout
+inner
 width
 .
 "
@@ -5037,7 +5033,7 @@ undefined
 {
 is
 (
-layoutSize
+innerSize
 .
 height
 height
@@ -5047,7 +5043,7 @@ message
 should
 have
 expected
-layout
+inner
 height
 .
 "
