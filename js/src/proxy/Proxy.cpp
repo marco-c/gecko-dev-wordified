@@ -4714,11 +4714,7 @@ unsafeGet
 )
 =
 =
-ObjectValue
-(
-*
 proxy
-)
 )
 ;
 }

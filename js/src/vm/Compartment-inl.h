@@ -698,7 +698,6 @@ ifdef
 DEBUG
 cacheResult
 =
-&
 p
 -
 >
@@ -709,17 +708,14 @@ value
 get
 (
 )
-.
-toObject
-(
-)
 ;
 #
 else
 vp
 .
-set
+setObject
 (
+*
 p
 -
 >
