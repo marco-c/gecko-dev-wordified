@@ -9610,6 +9610,7 @@ EditorRawDOMPoint
 &
 aPoint
 )
+const
 {
 return
 GetPreviousNodeInternal
@@ -9630,6 +9631,7 @@ EditorRawDOMPoint
 &
 aPoint
 )
+const
 {
 return
 GetPreviousNodeInternal
@@ -9650,6 +9652,7 @@ EditorRawDOMPoint
 &
 aPoint
 )
+const
 {
 return
 GetPreviousNodeInternal
@@ -9670,6 +9673,7 @@ EditorRawDOMPoint
 &
 aPoint
 )
+const
 {
 return
 GetPreviousNodeInternal
@@ -9690,6 +9694,7 @@ EditorRawDOMPoint
 &
 aPoint
 )
+const
 {
 return
 GetPreviousNodeInternal
@@ -9710,6 +9715,7 @@ EditorRawDOMPoint
 &
 aPoint
 )
+const
 {
 return
 GetPreviousNodeInternal
@@ -9729,6 +9735,7 @@ nsINode
 &
 aNode
 )
+const
 {
 return
 GetPreviousNodeInternal
@@ -9748,6 +9755,7 @@ nsINode
 &
 aNode
 )
+const
 {
 return
 GetPreviousNodeInternal
@@ -9767,6 +9775,7 @@ nsINode
 &
 aNode
 )
+const
 {
 return
 GetPreviousNodeInternal
@@ -9786,6 +9795,7 @@ nsINode
 &
 aNode
 )
+const
 {
 return
 GetPreviousNodeInternal
@@ -9805,6 +9815,7 @@ nsINode
 &
 aNode
 )
+const
 {
 return
 GetPreviousNodeInternal
@@ -9824,6 +9835,7 @@ nsINode
 &
 aNode
 )
+const
 {
 return
 GetPreviousNodeInternal
@@ -10031,6 +10043,7 @@ CT
 &
 aPoint
 )
+const
 {
 return
 GetNextNodeInternal
@@ -10062,6 +10075,7 @@ CT
 &
 aPoint
 )
+const
 {
 return
 GetNextNodeInternal
@@ -10093,6 +10107,7 @@ CT
 &
 aPoint
 )
+const
 {
 return
 GetNextNodeInternal
@@ -10124,6 +10139,7 @@ CT
 &
 aPoint
 )
+const
 {
 return
 GetNextNodeInternal
@@ -10155,6 +10171,7 @@ CT
 &
 aPoint
 )
+const
 {
 return
 GetNextNodeInternal
@@ -10186,6 +10203,7 @@ CT
 &
 aPoint
 )
+const
 {
 return
 GetNextNodeInternal
@@ -10205,6 +10223,7 @@ nsINode
 &
 aNode
 )
+const
 {
 return
 GetNextNodeInternal
@@ -10224,6 +10243,7 @@ nsINode
 &
 aNode
 )
+const
 {
 return
 GetNextNodeInternal
@@ -10243,6 +10263,7 @@ nsINode
 &
 aNode
 )
+const
 {
 return
 GetNextNodeInternal
@@ -10262,6 +10283,7 @@ nsINode
 &
 aNode
 )
+const
 {
 return
 GetNextNodeInternal
@@ -10281,6 +10303,7 @@ nsINode
 &
 aNode
 )
+const
 {
 return
 GetNextNodeInternal
@@ -10300,6 +10323,7 @@ nsINode
 &
 aNode
 )
+const
 {
 return
 GetNextNodeInternal
@@ -12632,6 +12656,7 @@ aGoForward
 bool
 bNoBlockCrossing
 )
+const
 ;
 nsIContent
 *
@@ -12649,6 +12674,7 @@ aFindAnyDataNode
 bool
 bNoBlockCrossing
 )
+const
 ;
 /
 *
@@ -12768,6 +12794,7 @@ aFindAnyDataNode
 bool
 aNoBlockCrossing
 )
+const
 ;
 /
 *
@@ -12805,6 +12832,7 @@ aFindAnyDataNode
 bool
 aNoBlockCrossing
 )
+const
 ;
 /
 *
@@ -12924,6 +12952,7 @@ aFindAnyDataNode
 bool
 bNoBlockCrossing
 )
+const
 ;
 /
 *
@@ -12961,6 +12990,7 @@ aFindAnyDataNode
 bool
 aNoBlockCrossing
 )
+const
 ;
 virtual
 nsresult

@@ -561,6 +561,7 @@ HTMLEditor
 GetAbsolutelyPositionedSelectionContainer
 (
 )
+const
 {
 AutoEditActionDataSetter
 editActionData

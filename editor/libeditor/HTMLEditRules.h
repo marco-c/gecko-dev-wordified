@@ -4079,6 +4079,7 @@ Tables
 :
 yes
 )
+const
 ;
 /
 *
@@ -5893,6 +5894,7 @@ aOffset
 EditSubAction
 aEditSubAction
 )
+const
 ;
 /
 *
@@ -5930,6 +5932,7 @@ outArrayOfRanges
 EditSubAction
 aEditSubAction
 )
+const
 ;
 /
 *
@@ -5967,6 +5970,7 @@ aRange
 EditSubAction
 aEditSubAction
 )
+const
 ;
 /
 *
@@ -6065,6 +6069,7 @@ aEditSubAction
 TouchContent
 aTouchContent
 )
+const
 ;
 void
 GetChildNodesForOperation
@@ -6130,6 +6135,7 @@ outArrayOfNodes
 TouchContent
 aTouchContent
 )
+const
 ;
 /
 *
@@ -6174,6 +6180,7 @@ outArrayOfNodes
 TouchContent
 aTouchContent
 )
+const
 ;
 enum
 class
@@ -6202,6 +6209,7 @@ aEntireList
 TouchContent
 aTouchContent
 )
+const
 ;
 void
 GetDefinitionListItemTypes
@@ -6216,6 +6224,7 @@ bool
 *
 aDD
 )
+const
 ;
 MOZ_CAN_RUN_SCRIPT
 nsresult
@@ -6245,6 +6254,7 @@ nsINode
 &
 aNodeArray
 )
+const
 ;
 /
 *
@@ -6339,6 +6349,7 @@ RangeItem
 &
 aRangeItem
 )
+const
 ;
 /
 *
@@ -6454,6 +6465,7 @@ nsINode
 &
 aOutArrayOfNodes
 )
+const
 ;
 /
 *
@@ -6507,6 +6519,7 @@ nsINode
 &
 aNode
 )
+const
 ;
 /
 *
