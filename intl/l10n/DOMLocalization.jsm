@@ -5585,14 +5585,6 @@ null
 ;
 }
 }
-DOMLocalization
-.
-DOMOverlays
-=
-{
-translateElement
-}
-;
 /
 *
 *
