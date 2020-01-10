@@ -1177,6 +1177,7 @@ addon
 .
 uninstall
 (
+true
 )
 ;
 }
