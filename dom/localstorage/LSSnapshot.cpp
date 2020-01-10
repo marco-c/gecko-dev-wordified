@@ -426,7 +426,7 @@ i
 ]
 ;
 const
-nsString
+LSValue
 &
 value
 =
@@ -1246,7 +1246,10 @@ oldValue
 (
 )
 =
+LSValue
+(
 oldValue
+)
 ;
 setItemInfo
 .
@@ -1254,7 +1257,10 @@ value
 (
 )
 =
+LSValue
+(
 aValue
+)
 ;
 mWriteInfos
 .
@@ -1470,7 +1476,10 @@ oldValue
 (
 )
 =
+LSValue
+(
 oldValue
+)
 ;
 mWriteInfos
 .
@@ -2085,6 +2094,9 @@ true
 }
 else
 {
+LSValue
+value
+;
 nsTArray
 <
 LSItemInfo
@@ -2106,7 +2118,7 @@ nsString
 aKey
 )
 &
-result
+value
 &
 itemInfos
 )
@@ -2117,6 +2129,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
+result
+=
+value
+;
 if
 (
 result
@@ -2351,6 +2367,9 @@ IsVoid
 )
 )
 {
+LSValue
+value
+;
 nsTArray
 <
 LSItemInfo
@@ -2372,7 +2391,7 @@ nsString
 aKey
 )
 &
-result
+value
 &
 itemInfos
 )
@@ -2383,6 +2402,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
+result
+=
+value
+;
 MOZ_ASSERT
 (
 !
