@@ -210,7 +210,7 @@ h
 #
 include
 "
-nsIRemoteTab
+nsITabParent
 .
 h
 "
@@ -500,6 +500,8 @@ bool
 aIsPopupSpam
 bool
 aForceNoOpener
+bool
+aForceNoReferrer
 nsDocShellLoadState
 *
 aLoadState
@@ -695,14 +697,14 @@ nsIWebBrowserChrome
 aParentChrome
 uint32_t
 aChromeFlags
-nsIRemoteTab
+nsITabParent
 *
-aOpeningBrowserParent
+aOpeningTabParent
 mozIDOMWindowProxy
 *
 aOpener
 uint64_t
-aNextRemoteTabId
+aNextTabParentId
 nsIWebBrowserChrome
 *
 *
