@@ -271,7 +271,7 @@ typedef
 mozilla
 :
 :
-net
+dom
 :
 :
 ReferrerPolicy

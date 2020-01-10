@@ -183,17 +183,6 @@ nsHtml5DocumentBuilder
 .
 h
 "
-#
-include
-"
-mozilla
-/
-net
-/
-ReferrerPolicy
-.
-h
-"
 class
 nsHtml5Parser
 ;
@@ -245,7 +234,7 @@ typedef
 mozilla
 :
 :
-net
+dom
 :
 :
 ReferrerPolicy

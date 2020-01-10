@@ -188,17 +188,6 @@ XSLTProcessorBinding
 .
 h
 "
-#
-include
-"
-mozilla
-/
-net
-/
-ReferrerPolicy
-.
-h
-"
 class
 nsINode
 ;
@@ -914,7 +903,7 @@ aLoaderDocument
 mozilla
 :
 :
-net
+dom
 :
 :
 ReferrerPolicy

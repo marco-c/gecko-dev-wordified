@@ -673,10 +673,10 @@ _empty
 )
 mEnvironmentReferrerPolicy
 (
-net
+ReferrerPolicy
 :
 :
-RP_Unset
+_empty
 )
 mMode
 (
@@ -893,10 +893,10 @@ aReferrerPolicy
 )
 mEnvironmentReferrerPolicy
 (
-net
+ReferrerPolicy
 :
 :
-RP_Unset
+_empty
 )
 mMode
 (

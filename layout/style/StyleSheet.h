@@ -158,17 +158,6 @@ include
 "
 mozilla
 /
-net
-/
-ReferrerPolicy
-.
-h
-"
-#
-include
-"
-mozilla
-/
 CORSMode
 .
 h

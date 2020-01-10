@@ -256,6 +256,13 @@ h
 #
 include
 "
+nsIHttpChannel
+.
+h
+"
+#
+include
+"
 nsCookiePermission
 .
 h

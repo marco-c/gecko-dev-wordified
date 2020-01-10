@@ -188,11 +188,7 @@ h
 #
 include
 "
-mozilla
-/
-net
-/
-ReferrerPolicy
+ReferrerInfo
 .
 h
 "
@@ -1353,7 +1349,7 @@ virtual
 mozilla
 :
 :
-net
+dom
 :
 :
 ReferrerPolicy
@@ -1365,10 +1361,13 @@ return
 mozilla
 :
 :
-net
+dom
 :
 :
-RP_Unset
+ReferrerPolicy
+:
+:
+_empty
 ;
 }
 /

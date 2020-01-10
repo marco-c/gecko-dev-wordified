@@ -350,12 +350,6 @@ mozilla
 :
 CORSMode
 aCORSMode
-mozilla
-:
-:
-net
-:
-:
 ReferrerPolicy
 aReferrerPolicy
 nsIScriptElement

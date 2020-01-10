@@ -364,17 +364,6 @@ include
 "
 mozilla
 /
-net
-/
-ReferrerPolicy
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Logging
 .
 h
@@ -19044,7 +19033,7 @@ static
 mozilla
 :
 :
-net
+dom
 :
 :
 ReferrerPolicy
@@ -19124,7 +19113,7 @@ static
 mozilla
 :
 :
-net
+dom
 :
 :
 ReferrerPolicy

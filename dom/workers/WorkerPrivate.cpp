@@ -7313,9 +7313,6 @@ IsEmpty
 return
 ;
 }
-net
-:
-:
 ReferrerPolicy
 policy
 =
@@ -7332,10 +7329,10 @@ if
 policy
 =
 =
-net
+ReferrerPolicy
 :
 :
-RP_Unset
+_empty
 )
 {
 return

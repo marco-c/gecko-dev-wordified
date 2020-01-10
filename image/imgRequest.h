@@ -283,6 +283,16 @@ image
 ProgressTracker
 ProgressTracker
 ;
+typedef
+mozilla
+:
+:
+dom
+:
+:
+ReferrerPolicy
+ReferrerPolicy
+;
 public
 :
 imgRequest

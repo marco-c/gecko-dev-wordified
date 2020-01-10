@@ -280,7 +280,7 @@ virtual
 mozilla
 :
 :
-net
+dom
 :
 :
 ReferrerPolicy

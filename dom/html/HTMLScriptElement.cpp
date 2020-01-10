@@ -1421,7 +1421,7 @@ crossorigin
 mozilla
 :
 :
-net
+dom
 :
 :
 ReferrerPolicy

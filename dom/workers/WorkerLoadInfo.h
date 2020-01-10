@@ -165,17 +165,6 @@ h
 #
 include
 "
-mozilla
-/
-net
-/
-ReferrerPolicy
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h

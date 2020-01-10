@@ -196,6 +196,13 @@ nsCSSValue
 .
 h
 "
+#
+include
+"
+ReferrerInfo
+.
+h
+"
 using
 namespace
 mozilla

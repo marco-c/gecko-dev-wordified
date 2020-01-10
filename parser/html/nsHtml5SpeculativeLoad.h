@@ -93,11 +93,7 @@ h
 #
 include
 "
-mozilla
-/
-net
-/
-ReferrerPolicy
+ReferrerInfo
 .
 h
 "
@@ -1939,7 +1935,7 @@ nsIHttpChannel
 mozilla
 :
 :
-net
+dom
 :
 :
 ReferrerPolicy

@@ -10001,17 +10001,11 @@ FontSizeInflation
 (
 )
 ;
-net
-:
-:
 ReferrerPolicy
 GetReferrerPolicyAsEnum
 (
 )
 ;
-net
-:
-:
 ReferrerPolicy
 ReferrerPolicyFromAttr
 (

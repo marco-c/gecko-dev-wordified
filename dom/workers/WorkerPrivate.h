@@ -3486,7 +3486,7 @@ mLoadInfo
 mReferrerInfo
 ;
 }
-uint32_t
+ReferrerPolicy
 GetReferrerPolicy
 (
 )
@@ -3498,7 +3498,7 @@ mLoadInfo
 mReferrerInfo
 -
 >
-GetReferrerPolicy
+ReferrerPolicy
 (
 )
 ;

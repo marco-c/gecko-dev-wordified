@@ -254,6 +254,13 @@ h
 #
 include
 "
+nsIHttpChannel
+.
+h
+"
+#
+include
+"
 nsIIOService
 .
 h

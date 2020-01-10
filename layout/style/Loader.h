@@ -275,17 +275,6 @@ UniquePtr
 .
 h
 "
-#
-include
-"
-mozilla
-/
-net
-/
-ReferrerPolicy
-.
-h
-"
 class
 nsICSSLoaderObserver
 ;
@@ -599,7 +588,7 @@ typedef
 mozilla
 :
 :
-net
+dom
 :
 :
 ReferrerPolicy
