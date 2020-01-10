@@ -110,6 +110,10 @@ gBrowser
 TEST_LOGIN1
 .
 origin
++
+"
+/
+"
 )
 ;
 let
