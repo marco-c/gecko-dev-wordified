@@ -3361,6 +3361,7 @@ ComputedStyle
 explicit
 WritingMode
 (
+const
 ComputedStyle
 *
 aComputedStyle
