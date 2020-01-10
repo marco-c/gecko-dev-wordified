@@ -126,6 +126,15 @@ h
 #
 include
 "
+mozilla
+/
+WritingModes
+.
+h
+"
+#
+include
+"
 nsStyleStruct
 .
 h
@@ -134,7 +143,7 @@ h
 /
 for
 nsStyleDisplay
-and
+&
 nsStyleBackground
 :
 :
