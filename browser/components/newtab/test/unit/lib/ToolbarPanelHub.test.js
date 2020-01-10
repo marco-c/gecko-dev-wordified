@@ -3884,7 +3884,7 @@ fakeInsert
 ;
 assert
 .
-calledTwice
+calledThrice
 (
 fakeElementById
 .
@@ -3931,7 +3931,7 @@ callCount
 fakeElementById
 .
 toggleAttribute
-4
+6
 )
 ;
 }
