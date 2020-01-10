@@ -8013,9 +8013,8 @@ true
 ;
 TelemetryScheduler
 .
-reschedulePings
+rescheduleDailyPing
 (
-REASON_ENVIRONMENT_CHANGE
 payload
 )
 ;
