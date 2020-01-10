@@ -4281,6 +4281,7 @@ BlocksRingBuffer
 :
 :
 EntryReader
+&
 aReader
 )
 {
@@ -5884,6 +5885,7 @@ BlocksRingBuffer
 :
 :
 EntryReader
+&
 aReader
 )
 {
@@ -6237,6 +6239,7 @@ BlocksRingBuffer
 :
 :
 EntryReader
+&
 aReader
 )
 {
@@ -6660,6 +6663,7 @@ BlocksRingBuffer
 :
 :
 EntryReader
+&
 aReader
 )
 {
@@ -6786,6 +6790,7 @@ BlocksRingBuffer
 :
 :
 EntryReader
+&
 aReader
 )
 {
@@ -7423,6 +7428,7 @@ BlocksRingBuffer
 :
 :
 EntryReader
+&
 aReader
 )
 {
