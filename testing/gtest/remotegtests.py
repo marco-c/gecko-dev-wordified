@@ -136,6 +136,19 @@ Android
 "
     
 def
+__init__
+(
+self
+)
+:
+        
+self
+.
+device
+=
+None
+    
+def
 build_environment
 (
 self
@@ -1522,6 +1535,12 @@ self
 )
 :
         
+if
+self
+.
+device
+:
+            
 self
 .
 device
@@ -1532,7 +1551,7 @@ self
 .
 package
 )
-        
+            
 self
 .
 device
@@ -1549,7 +1568,7 @@ root
 =
 True
 )
-        
+            
 self
 .
 device
@@ -1569,7 +1588,7 @@ root
 =
 True
 )
-        
+            
 self
 .
 device
