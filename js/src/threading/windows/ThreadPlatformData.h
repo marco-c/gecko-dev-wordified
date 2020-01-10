@@ -163,10 +163,7 @@ namespace
 js
 {
 class
-Thread
-:
-:
-Id
+ThreadId
 :
 :
 PlatformData
@@ -176,10 +173,11 @@ class
 Thread
 ;
 friend
-Thread
-:
-:
-Id
+class
+ThreadId
+;
+friend
+ThreadId
 ThisThread
 :
 :
