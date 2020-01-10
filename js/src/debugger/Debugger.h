@@ -4322,7 +4322,7 @@ set
 typedef
 DebuggerWeakMap
 <
-JSObject
+AbstractGeneratorObject
 DebuggerFrame
 >
 GeneratorWeakMap
@@ -4402,7 +4402,7 @@ instances
 typedef
 DebuggerWeakMap
 <
-JSObject
+ScriptSourceObject
 DebuggerSource
 true
 >
