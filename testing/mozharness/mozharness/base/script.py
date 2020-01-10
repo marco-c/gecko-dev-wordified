@@ -249,6 +249,7 @@ DEBUG
 INFO
 ERROR
 FATAL
+WARNING
 class
 ContentLengthMismatch
 (
@@ -6670,6 +6671,26 @@ Error
 e
 :
             
+#
+ERROR
+level
+ends
+up
+reporting
+the
+failure
+to
+treeherder
+&
+            
+#
+pollutes
+the
+failure
+summary
+list
+.
+            
 self
 .
 log
@@ -6689,7 +6710,7 @@ e
                      
 level
 =
-error_level
+WARNING
 exit_code
 =
 exit_code
