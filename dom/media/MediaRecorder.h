@@ -1308,9 +1308,6 @@ mVideoBitsPerSecond
 uint32_t
 mBitsPerSecond
 ;
-TimeStamp
-mStartTime
-;
 /
 /
 DOMExceptions
