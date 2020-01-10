@@ -1243,6 +1243,9 @@ Set
 (
 [
 "
+activityLog
+"
+"
 mozillaAddons
 "
 "
