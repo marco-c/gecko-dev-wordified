@@ -1683,6 +1683,17 @@ return
 mIsObjectResizingEnabled
 ;
 }
+Element
+*
+GetResizerTarget
+(
+)
+const
+{
+return
+mResizedObject
+;
+}
 /
 *
 *
