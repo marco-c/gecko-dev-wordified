@@ -699,7 +699,6 @@ promptToSavePassword
 function
 (
 aLogin
-dismissed
 )
 {
 this
@@ -707,7 +706,6 @@ this
 _showSaveLoginNotification
 (
 aLogin
-dismissed
 )
 ;
 Services
@@ -801,21 +799,6 @@ a
 doorhanger
 action
 *
-param
-dismissed
-*
-A
-boolean
-indicating
-if
-a
-prompt
-is
-dismissed
-by
-default
-.
-*
 /
 _showLoginNotification
 :
@@ -825,9 +808,6 @@ aBody
 aButtons
 aUsername
 aPassword
-dismissed
-=
-false
 )
 {
 let
@@ -958,7 +938,6 @@ now
 actionText
 :
 actionText
-dismissed
 }
 ;
 let
@@ -1056,7 +1035,6 @@ _showSaveLoginNotification
 function
 (
 aLogin
-dismissed
 )
 {
 let
@@ -1280,7 +1258,6 @@ username
 aLogin
 .
 password
-dismissed
 )
 ;
 }
@@ -1324,7 +1301,6 @@ function
 (
 aOldLogin
 aNewLogin
-dismissed
 )
 {
 this
@@ -1407,7 +1383,6 @@ function
 (
 aOldLogin
 aNewPassword
-dismissed
 )
 {
 var
@@ -1576,7 +1551,6 @@ aOldLogin
 .
 username
 aNewPassword
-dismissed
 )
 ;
 }
