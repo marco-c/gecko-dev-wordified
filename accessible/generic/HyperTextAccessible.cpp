@@ -13143,7 +13143,7 @@ nsIFrame
 TextOffsetType
 :
 :
-OffsetsInContentText
+OffsetsInRenderedText
 nsIFrame
 :
 :
