@@ -2327,17 +2327,6 @@ correct
 color
 yet
 .
-if
-(
-!
-wrapper
--
->
-isMarkedGray
-(
-)
-)
-{
 JS
 :
 :
@@ -2346,7 +2335,6 @@ ExposeObjectToActiveJS
 target
 )
 ;
-}
 }
 return
 target
