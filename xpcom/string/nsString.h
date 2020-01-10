@@ -788,13 +788,6 @@ aString
 )
 {
 aOut
-<
-<
-'
-"
-'
-;
-aOut
 .
 write
 (
@@ -812,11 +805,6 @@ Length
 ;
 return
 aOut
-<
-<
-'
-"
-'
 ;
 }
 inline
