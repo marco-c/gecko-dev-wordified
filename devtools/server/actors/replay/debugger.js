@@ -1444,6 +1444,15 @@ hadRepaintFailure
 ;
 }
 }
+getDebuggees
+(
+)
+{
+return
+[
+]
+;
+}
 /
 /
 /
