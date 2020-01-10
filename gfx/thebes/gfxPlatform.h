@@ -4087,11 +4087,12 @@ function
 to
 avoid
 including
-StaticPrefs
+StaticPrefs_gfx
 .
 h
 from
 this
+*
 file
 .
 *

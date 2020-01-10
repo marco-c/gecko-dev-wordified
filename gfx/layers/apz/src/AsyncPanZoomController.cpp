@@ -1405,7 +1405,7 @@ provided
 in
 StaticPrefs
 .
-h
+yaml
 .
 *
 *
