@@ -1839,7 +1839,7 @@ MAR_CHANNEL_ID
 mar_data
 [
 "
-ACCEPTED_MAR_CHANNEL_IDS
+MAR_CHANNEL_ID
 "
 ]
     
@@ -1970,7 +1970,7 @@ dest_mar
 mar_data
 [
 "
-ACCEPTED_MAR_CHANNEL_IDS
+MAR_CHANNEL_ID
 "
 ]
 )
@@ -3060,34 +3060,17 @@ mar_data
 {
         
 "
-ACCEPTED_MAR_CHANNEL_IDS
+MAR_CHANNEL_ID
 "
 :
-get_option
-(
-            
-to_path
-filename
-=
-"
-update
--
-settings
+os
 .
-ini
+environ
+[
 "
-section
-=
+MAR_CHANNEL_ID
 "
-Settings
-"
-            
-option
-=
-"
-ACCEPTED_MAR_CHANNEL_IDS
-"
-)
+]
         
 "
 version
@@ -3312,38 +3295,6 @@ locale
     
 }
     
-#
-Override
-ACCEPTED_MAR_CHANNEL_IDS
-if
-needed
-    
-if
-"
-ACCEPTED_MAR_CHANNEL_IDS
-"
-in
-os
-.
-environ
-:
-        
-mar_data
-[
-"
-ACCEPTED_MAR_CHANNEL_IDS
-"
-]
-=
-os
-.
-environ
-[
-"
-ACCEPTED_MAR_CHANNEL_IDS
-"
-]
-    
 for
 filename
 in
@@ -3356,7 +3307,7 @@ filename
 mar_data
 [
 "
-ACCEPTED_MAR_CHANNEL_IDS
+MAR_CHANNEL_ID
 "
 ]
 )
