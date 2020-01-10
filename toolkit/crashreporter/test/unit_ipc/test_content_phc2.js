@@ -216,6 +216,17 @@ of
 decimal
 addresses
 .
+/
+/
+Sometimes
+on
+Mac
+they
+have
+a
+single
+entry
+.
 Assert
 .
 ok
@@ -227,7 +238,7 @@ ok
 d
 +
 )
-+
+*
 \
 d
 +
@@ -252,7 +263,7 @@ ok
 d
 +
 )
-+
+*
 \
 d
 +
