@@ -236,7 +236,7 @@ ini
 define
 THUMBS_DB_FILE_NAME
 "
-Thumbs
+thumbs
 .
 db
 "

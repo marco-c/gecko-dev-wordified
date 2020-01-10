@@ -46,7 +46,7 @@ files
 are
 in
 the
-white
+allow
 list
 of
 *
@@ -97,7 +97,7 @@ testSteps
 )
 {
 const
-whiteListFiles
+allowListFiles
 =
 [
 "
@@ -121,14 +121,19 @@ Thumbs
 .
 db
 "
+"
+thumbs
+.
+db
+"
 ]
 ;
 for
 (
 let
-whiteListFile
+allowListFile
 of
-whiteListFiles
+allowListFiles
 )
 {
 info
@@ -137,7 +142,7 @@ info
 Testing
 "
 +
-whiteListFile
+allowListFile
 +
 "
 in
@@ -212,7 +217,7 @@ getRelativeFile
 (
 dirPath
 +
-whiteListFile
+allowListFile
 )
 ;
 file
