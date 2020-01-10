@@ -3876,15 +3876,6 @@ run_local
 and
 (
 '
-speedometer
-'
-in
-self
-.
-suite
-or
-                                             
-'
 stylebench
 '
 in
