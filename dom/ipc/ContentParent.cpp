@@ -7455,11 +7455,6 @@ EnsureSubscribed
 constructorSender
 )
 ;
-if
-(
-constructorSender
-)
-{
 nsCOMPtr
 <
 nsIDocShellTreeOwner
@@ -7969,10 +7964,6 @@ browserHost
 forget
 (
 )
-;
-}
-return
-nullptr
 ;
 }
 void
