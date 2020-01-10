@@ -398,7 +398,7 @@ color
 )
 ;
 }
-componentWillUnMount
+componentWillUnmount
 (
 )
 {
