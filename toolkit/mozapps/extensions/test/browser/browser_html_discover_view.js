@@ -4674,7 +4674,7 @@ now
 }
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_NONE
 )

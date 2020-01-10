@@ -2282,7 +2282,7 @@ if
 sameSiteAttr
 =
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_STRICT
@@ -2329,7 +2329,7 @@ if
 sameSiteAttr
 =
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_LAX

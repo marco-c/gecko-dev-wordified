@@ -54,7 +54,7 @@ Index
 =
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_NONE
 "
@@ -67,7 +67,7 @@ Index
 =
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_LAX
 "
@@ -80,7 +80,7 @@ Index
 =
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_STRICT
 ]
@@ -3343,7 +3343,7 @@ QueryInterface
 (
 Ci
 .
-nsICookie2
+nsICookie
 )
 ;
 if
@@ -3511,7 +3511,7 @@ queryElementAt
 i
 Ci
 .
-nsICookie2
+nsICookie
 )
 ;
 if

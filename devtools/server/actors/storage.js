@@ -6402,7 +6402,7 @@ queryElementAt
 i
 Ci
 .
-nsICookie2
+nsICookie
 )
 ;
 cookies
@@ -6434,7 +6434,7 @@ QueryInterface
 (
 Ci
 .
-nsICookie2
+nsICookie
 )
 ;
 cookieHelpers

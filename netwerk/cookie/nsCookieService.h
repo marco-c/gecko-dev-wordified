@@ -2064,7 +2064,7 @@ false
 void
 NotifyPurged
 (
-nsICookie2
+nsICookie
 *
 aCookie
 )
@@ -2075,7 +2075,7 @@ nsIArray
 >
 CreatePurgeList
 (
-nsICookie2
+nsICookie
 *
 aCookie
 )
@@ -2087,7 +2087,7 @@ nsIArray
 *
 *
 aPurgeList
-nsICookie2
+nsICookie
 *
 aCookie
 )

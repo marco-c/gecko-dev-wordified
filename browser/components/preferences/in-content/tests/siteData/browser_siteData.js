@@ -1203,7 +1203,7 @@ now
 }
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_NONE
 )
@@ -1244,7 +1244,7 @@ now
 }
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_NONE
 )
@@ -1285,7 +1285,7 @@ now
 }
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_NONE
 )
@@ -1339,7 +1339,7 @@ privateBrowsingId
 }
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_NONE
 )
@@ -1435,7 +1435,7 @@ QueryInterface
 (
 Ci
 .
-nsICookie2
+nsICookie
 )
 ;
 let
@@ -1451,7 +1451,7 @@ QueryInterface
 (
 Ci
 .
-nsICookie2
+nsICookie
 )
 ;
 let

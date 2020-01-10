@@ -418,7 +418,7 @@ originAttributes
 }
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_NONE
 )
@@ -738,7 +738,7 @@ QueryInterface
 (
 Ci
 .
-nsICookie2
+nsICookie
 )
 ;
 /
@@ -800,7 +800,7 @@ QueryInterface
 (
 Ci
 .
-nsICookie2
+nsICookie
 )
 ;
 /
@@ -875,7 +875,7 @@ QueryInterface
 (
 Ci
 .
-nsICookie2
+nsICookie
 )
 ;
 if
@@ -944,7 +944,7 @@ queryElementAt
 i
 Ci
 .
-nsICookie2
+nsICookie
 )
 )
 ;
@@ -1105,7 +1105,7 @@ param
 cookie
 *
 The
-nsICookie2
+nsICookie
 object
 to
 add
@@ -1277,7 +1277,7 @@ param
 cookie
 *
 The
-nsICookie2
+nsICookie
 object
 to
 be
@@ -1404,7 +1404,7 @@ param
 cookie
 *
 The
-nsICookie2
+nsICookie
 object
 to
 compute

@@ -133,7 +133,7 @@ h
 #
 include
 "
-nsICookie2
+nsICookie
 .
 h
 "
@@ -9336,7 +9336,7 @@ attrs
 /
 /
 originAttributes
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_NONE
@@ -9423,7 +9423,7 @@ attrs
 /
 /
 originAttributes
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_NONE
@@ -9504,7 +9504,7 @@ attrs
 /
 /
 originAttributes
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_NONE
@@ -9550,7 +9550,7 @@ more
 ;
 nsCOMPtr
 <
-nsICookie2
+nsICookie
 >
 expiredCookie
 newDomainCookie
@@ -9619,7 +9619,7 @@ them
 later
 nsCOMPtr
 <
-nsICookie2
+nsICookie
 >
 cookie2
 (
@@ -10051,7 +10051,7 @@ attrs
 /
 /
 originAttributes
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_NONE
@@ -11240,7 +11240,7 @@ them
 later
 nsCOMPtr
 <
-nsICookie2
+nsICookie
 >
 cookie2
 (
@@ -11297,7 +11297,7 @@ EXPECT_TRUE
 sameSiteAttr
 =
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_NONE
@@ -11322,7 +11322,7 @@ EXPECT_TRUE
 sameSiteAttr
 =
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_NONE
@@ -11347,7 +11347,7 @@ EXPECT_TRUE
 sameSiteAttr
 =
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_NONE
@@ -11372,7 +11372,7 @@ EXPECT_TRUE
 sameSiteAttr
 =
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_NONE
@@ -11397,7 +11397,7 @@ EXPECT_TRUE
 sameSiteAttr
 =
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_STRICT
@@ -11422,7 +11422,7 @@ EXPECT_TRUE
 sameSiteAttr
 =
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_LAX
