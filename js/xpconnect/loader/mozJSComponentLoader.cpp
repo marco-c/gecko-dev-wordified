@@ -3495,14 +3495,6 @@ aCx
 global
 gGlobalFun
 )
-|
-|
-!
-JS_DefineProfilingFunctions
-(
-aCx
-global
-)
 )
 {
 return
