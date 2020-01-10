@@ -13442,9 +13442,11 @@ return
 NS_OK
 ;
 }
-nsIPresShell
-*
-shell
+RefPtr
+<
+PresShell
+>
+presShell
 =
 APZCCallbackHelper
 :
@@ -13457,7 +13459,7 @@ content
 if
 (
 !
-shell
+presShell
 )
 {
 return
@@ -13468,7 +13470,7 @@ nsIScrollableFrame
 *
 rootScrollFrame
 =
-shell
+presShell
 -
 >
 GetRootScrollFrameAsScrollable
@@ -13500,7 +13502,7 @@ nsIFrame
 *
 rootFrame
 =
-shell
+presShell
 -
 >
 GetRootFrame
@@ -13635,7 +13637,7 @@ Document
 *
 document
 =
-shell
+presShell
 -
 >
 GetDocument
@@ -13786,7 +13788,7 @@ the
 visual
 viewport
 .
-shell
+presShell
 -
 >
 ScrollContentIntoView
