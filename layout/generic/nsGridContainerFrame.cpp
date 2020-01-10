@@ -6624,7 +6624,7 @@ uint32_t
 InitRepeatTracks
 (
 const
-nsStyleCoord
+NonNegativeLengthPercentageOrNormal
 &
 aGridGap
 nscoord
@@ -6693,7 +6693,7 @@ uint32_t
 CalculateRepeatFillCount
 (
 const
-nsStyleCoord
+NonNegativeLengthPercentageOrNormal
 &
 aGridGap
 nscoord
@@ -7906,7 +7906,7 @@ TrackSizingFunctions
 &
 aFunctions
 const
-nsStyleCoord
+NonNegativeLengthPercentageOrNormal
 &
 aGridGap
 uint32_t
@@ -25344,7 +25344,7 @@ TrackSizingFunctions
 &
 aFunctions
 const
-nsStyleCoord
+NonNegativeLengthPercentageOrNormal
 &
 aGridGap
 uint32_t
@@ -44842,6 +44842,20 @@ stylePos
 -
 >
 mRowGap
+.
+IsLengthPercentage
+(
+)
+&
+&
+stylePos
+-
+>
+mRowGap
+.
+AsLengthPercentage
+(
+)
 .
 HasPercent
 (

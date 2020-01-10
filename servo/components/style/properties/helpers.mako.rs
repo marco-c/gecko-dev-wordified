@@ -854,7 +854,6 @@ values
 Auto
 Either
 None_
-Normal
 }
 ;
 {
@@ -2051,7 +2050,6 @@ values
 Auto
 Either
 None_
-Normal
 }
 ;
 #

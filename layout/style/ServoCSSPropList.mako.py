@@ -488,18 +488,6 @@ these
 .
     
 "
-row
--
-gap
-"
-    
-"
-column
--
-gap
-"
-    
-"
 grid
 -
 auto

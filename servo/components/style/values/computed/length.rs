@@ -146,12 +146,9 @@ length
 :
 :
 {
+GenericLengthPercentageOrNormal
 GenericLengthOrNumber
-MaxSize
-as
 GenericMaxSize
-Size
-as
 GenericSize
 }
 ;
@@ -211,8 +208,6 @@ values
 {
 specified
 CSSFloat
-Either
-Normal
 }
 ;
 use
@@ -5082,10 +5077,9 @@ pub
 type
 NonNegativeLengthPercentageOrNormal
 =
-Either
+GenericLengthPercentageOrNormal
 <
 NonNegativeLengthPercentage
-Normal
 >
 ;
 /

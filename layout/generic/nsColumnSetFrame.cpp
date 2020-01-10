@@ -1962,12 +1962,9 @@ if
 (
 columnGap
 .
-GetUnit
+IsNormal
 (
 )
-=
-=
-eStyleUnit_Normal
 )
 {
 return
