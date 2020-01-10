@@ -12278,6 +12278,7 @@ aIPCDefs
 for
 (
 auto
+&
 info
 :
 aDynamicScalarInfos
@@ -12543,6 +12544,7 @@ nsAtom
 for
 (
 auto
+&
 scalarInfo
 :
 scalarInfos
@@ -23798,6 +23800,7 @@ lock
 for
 (
 auto
+&
 def
 :
 aDefs
