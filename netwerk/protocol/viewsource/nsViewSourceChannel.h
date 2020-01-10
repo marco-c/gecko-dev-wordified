@@ -275,6 +275,9 @@ Init
 nsIURI
 *
 uri
+nsILoadInfo
+*
+aLoadInfo
 )
 ;
 MOZ_MUST_USE
