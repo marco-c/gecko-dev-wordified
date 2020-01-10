@@ -5506,7 +5506,7 @@ nsPresContext
 aPresContext
 ComputedStyle
 *
-aComputedStyle
+aStyle
 DrawTarget
 *
 aDrawTarget
@@ -5982,7 +5982,7 @@ i
 CalcColor
 (
 *
-aComputedStyle
+aStyle
 )
 ;
 }
@@ -6142,7 +6142,7 @@ nsStyleBorder
 aStyleBorder
 ComputedStyle
 *
-aComputedStyle
+aStyle
 PaintBorderFlags
 aFlags
 Sides
@@ -6215,7 +6215,7 @@ different
 Always
 use
 |
-aComputedStyle
+aStyle
 |
 !
 const
@@ -6223,7 +6223,7 @@ nsStyleDisplay
 *
 displayData
 =
-aComputedStyle
+aStyle
 -
 >
 StyleDisplay
@@ -6558,7 +6558,7 @@ br
 ConstructBorderRenderer
 (
 aPresContext
-aComputedStyle
+aStyle
 &
 aDrawTarget
 aForFrame
@@ -6656,7 +6656,7 @@ nsStyleBorder
 aStyleBorder
 ComputedStyle
 *
-aComputedStyle
+aStyle
 bool
 *
 aOutBorderIsEmpty
@@ -6693,7 +6693,7 @@ aForFrame
 aDirtyRect
 aBorderArea
 aStyleBorder
-aComputedStyle
+aStyle
 aOutBorderIsEmpty
 aSkipSides
 )
@@ -6731,7 +6731,7 @@ nsStyleBorder
 aStyleBorder
 ComputedStyle
 *
-aComputedStyle
+aStyle
 bool
 *
 aOutBorderIsEmpty
@@ -6744,7 +6744,7 @@ nsStyleDisplay
 *
 displayData
 =
-aComputedStyle
+aStyle
 -
 >
 StyleDisplay
@@ -6874,7 +6874,7 @@ br
 ConstructBorderRenderer
 (
 aPresContext
-aComputedStyle
+aStyle
 aDrawTarget
 aForFrame
 aDirtyRect
@@ -6991,7 +6991,7 @@ nsRect
 aBorderArea
 ComputedStyle
 *
-aComputedStyle
+aStyle
 )
 {
 nscoord
@@ -7015,7 +7015,7 @@ nsStyleOutline
 *
 ourOutline
 =
-aComputedStyle
+aStyle
 -
 >
 StyleOutline
@@ -7051,7 +7051,7 @@ if
 #
 ifdef
 MOZ_XUL
-aComputedStyle
+aStyle
 -
 >
 GetPseudoType
@@ -7520,7 +7520,7 @@ too
 nscolor
 outlineColor
 =
-aComputedStyle
+aStyle
 -
 >
 GetVisitedDependentColor
@@ -7696,7 +7696,7 @@ nsRect
 aBorderArea
 ComputedStyle
 *
-aComputedStyle
+aStyle
 )
 {
 Maybe
@@ -7713,7 +7713,7 @@ aRenderingContext
 aForFrame
 aDirtyRect
 aBorderArea
-aComputedStyle
+aStyle
 )
 ;
 if
@@ -16577,12 +16577,12 @@ nsIFrame
 aFrame
 ComputedStyle
 *
-aComputedStyle
+aStyle
 )
 {
 switch
 (
-aComputedStyle
+aStyle
 -
 >
 StyleDisplay
@@ -16683,7 +16683,7 @@ break
 ;
 }
 return
-aComputedStyle
+aStyle
 -
 >
 GetVisitedDependentColor
@@ -16707,7 +16707,7 @@ nsPresContext
 aPresContext
 ComputedStyle
 *
-aComputedStyle
+aStyle
 nsIFrame
 *
 aFrame
@@ -16732,7 +16732,7 @@ nsStyleVisibility
 *
 visibility
 =
-aComputedStyle
+aStyle
 -
 >
 StyleVisibility
@@ -16785,7 +16785,7 @@ nsStyleBackground
 *
 bg
 =
-aComputedStyle
+aStyle
 -
 >
 StyleBackground
@@ -16805,7 +16805,7 @@ bgColor
 GetBackgroundColor
 (
 aFrame
-aComputedStyle
+aStyle
 )
 ;
 if
@@ -16894,7 +16894,7 @@ bg
 >
 IsTransparent
 (
-aComputedStyle
+aStyle
 )
 )
 {

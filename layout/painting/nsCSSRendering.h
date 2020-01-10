@@ -1029,7 +1029,7 @@ mozilla
 :
 ComputedStyle
 *
-aComputedStyle
+aStyle
 mozilla
 :
 :
@@ -1060,7 +1060,7 @@ of
 getting
 it
 from
-aComputedStyle
+aStyle
 .
 aSkipSides
 says
@@ -1110,7 +1110,7 @@ mozilla
 :
 ComputedStyle
 *
-aComputedStyle
+aStyle
 mozilla
 :
 :
@@ -1156,7 +1156,7 @@ mozilla
 :
 ComputedStyle
 *
-aComputedStyle
+aStyle
 bool
 *
 aOutBorderIsEmpty
@@ -1204,7 +1204,7 @@ mozilla
 :
 ComputedStyle
 *
-aComputedStyle
+aStyle
 bool
 *
 aOutBorderIsEmpty
@@ -1252,7 +1252,7 @@ mozilla
 :
 ComputedStyle
 *
-aComputedStyle
+aStyle
 bool
 *
 aOutBorderIsEmpty
@@ -1296,7 +1296,7 @@ mozilla
 :
 ComputedStyle
 *
-aComputedStyle
+aStyle
 )
 ;
 static
@@ -1509,7 +1509,7 @@ mozilla
 :
 ComputedStyle
 *
-aComputedStyle
+aStyle
 )
 ;
 /
@@ -2275,7 +2275,7 @@ mozilla
 :
 ComputedStyle
 *
-aComputedStyle
+aStyle
 nsIFrame
 *
 aFrame
