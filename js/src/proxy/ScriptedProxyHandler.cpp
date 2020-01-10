@@ -4321,7 +4321,7 @@ RootedObject
 obj
 (
 cx
-NonNullObject
+RequireObject
 (
 cx
 JSMSG_NOT_NONNULL_OBJECT_RET_OWNKEYS
@@ -8368,7 +8368,7 @@ RootedObject
 target
 (
 cx
-NonNullObjectArg
+RequireObjectArg
 (
 cx
 "
@@ -8429,7 +8429,7 @@ RootedObject
 handler
 (
 cx
-NonNullObjectArg
+RequireObjectArg
 (
 cx
 "

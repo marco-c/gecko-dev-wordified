@@ -7682,7 +7682,7 @@ v
 inline
 JSObject
 *
-NonNullObject
+RequireObject
 (
 JSContext
 *
@@ -7795,7 +7795,7 @@ v
 inline
 JSObject
 *
-NonNullObject
+RequireObject
 (
 JSContext
 *
@@ -7854,7 +7854,7 @@ v
 inline
 JSObject
 *
-NonNullObject
+RequireObject
 (
 JSContext
 *
@@ -7948,7 +7948,7 @@ v
 inline
 JSObject
 *
-NonNullObjectArg
+RequireObjectArg
 (
 JSContext
 *
