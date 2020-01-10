@@ -1418,7 +1418,6 @@ aProtoID
 .
 *
 /
-static
 inline
 bool
 IsRemoteObjectProxy
@@ -1487,7 +1486,6 @@ to
 .
 *
 /
-static
 inline
 bool
 IsRemoteObjectProxy
