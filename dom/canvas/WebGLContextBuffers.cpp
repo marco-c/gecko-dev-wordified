@@ -1549,7 +1549,7 @@ BufferDataImpl
 (
 GLenum
 target
-size_t
+uint64_t
 dataLen
 const
 uint8_t
@@ -1711,11 +1711,14 @@ zeros
 BufferDataImpl
 (
 target
+uint64_t
+{
 checkedSize
 .
 value
 (
 )
+}
 (
 const
 uint8_t
@@ -1948,7 +1951,7 @@ GLenum
 target
 WebGLsizeiptr
 dstByteOffset
-size_t
+uint64_t
 dataLen
 const
 uint8_t
@@ -2003,7 +2006,7 @@ buffer
 BufferSubData
 (
 target
-size_t
+uint64_t
 (
 dstByteOffset
 )
