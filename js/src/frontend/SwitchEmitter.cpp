@@ -2504,6 +2504,10 @@ EndOffset
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 lastNonJumpTargetOffset
 (
 )
