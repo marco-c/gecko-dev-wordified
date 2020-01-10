@@ -882,7 +882,7 @@ test_expansion_schema
 expansion
 '
 '
-delivery_method
+delivery_type
 '
 '
 redirection
