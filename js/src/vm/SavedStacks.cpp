@@ -13380,11 +13380,6 @@ node
 descriptiveTypeName
 (
 )
-node
-.
-scriptFilename
-(
-)
 JS
 :
 :

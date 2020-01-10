@@ -198,10 +198,6 @@ descriptiveTypeName
 const
 char
 *
-scriptFilename
-const
-char
-*
 coarseType
 uint64_t
 size
@@ -220,10 +216,6 @@ className
 descriptiveTypeName
 (
 descriptiveTypeName
-)
-scriptFilename
-(
-scriptFilename
 )
 coarseType
 (
@@ -293,11 +285,6 @@ const
 char16_t
 *
 descriptiveTypeName
-;
-const
-char
-*
-scriptFilename
 ;
 /
 /
