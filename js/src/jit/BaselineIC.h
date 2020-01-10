@@ -3244,6 +3244,9 @@ pcOffset_
 ;
 #
 ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
+#
+ifdef
 JS_64BIT
 /
 /
@@ -3288,6 +3291,8 @@ traceMagic_
 =
 EXPECTED_TRACE_MAGIC
 ;
+#
+endif
 #
 endif
 public
