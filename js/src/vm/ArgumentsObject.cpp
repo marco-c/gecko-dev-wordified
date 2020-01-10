@@ -3544,6 +3544,9 @@ nargs
 )
 )
 {
+jit
+:
+:
 JitScript
 :
 :
@@ -4886,6 +4889,9 @@ nargs
 )
 )
 {
+jit
+:
+:
 JitScript
 :
 :

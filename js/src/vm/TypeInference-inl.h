@@ -4351,6 +4351,9 @@ static
 /
 inline
 void
+jit
+:
+:
 JitScript
 :
 :
@@ -4421,6 +4424,9 @@ static
 /
 inline
 void
+jit
+:
+:
 JitScript
 :
 :
@@ -4622,6 +4628,9 @@ static
 /
 inline
 void
+jit
+:
+:
 JitScript
 :
 :
@@ -4752,6 +4761,9 @@ static
 /
 inline
 void
+jit
+:
+:
 JitScript
 :
 :
@@ -4793,6 +4805,9 @@ static
 /
 inline
 void
+jit
+:
+:
 JitScript
 :
 :
@@ -4934,6 +4949,9 @@ static
 /
 inline
 void
+jit
+:
+:
 JitScript
 :
 :
@@ -9344,6 +9362,9 @@ endif
 {
 if
 (
+jit
+:
+:
 JitScript
 *
 jitScript

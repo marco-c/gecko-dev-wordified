@@ -1487,6 +1487,9 @@ next
 {
 if
 (
+jit
+:
+:
 JitScript
 *
 jitScript
@@ -1831,6 +1834,9 @@ maybeReleaseJitScript
 }
 if
 (
+jit
+:
+:
 JitScript
 *
 jitScript

@@ -7408,6 +7408,9 @@ return
 nullptr
 ;
 }
+jit
+:
+:
 JitScript
 :
 :
@@ -7890,6 +7893,9 @@ nonLazyScript
 (
 )
 ;
+jit
+:
+:
 JitScript
 :
 :

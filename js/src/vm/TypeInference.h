@@ -284,9 +284,6 @@ class
 TypeConstraint
 ;
 class
-JitScript
-;
-class
 TypeZone
 ;
 class
@@ -300,6 +297,9 @@ jit
 {
 struct
 IonScript
+;
+class
+JitScript
 ;
 class
 TempAllocator
@@ -588,6 +588,9 @@ Zone
 *
 zone_
 ;
+jit
+:
+:
 JitScript
 *
 jitScript_
@@ -614,6 +617,9 @@ AutoSweepJitScript
 (
 )
 ;
+jit
+:
+:
 JitScript
 *
 jitScript

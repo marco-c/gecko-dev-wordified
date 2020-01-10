@@ -454,6 +454,15 @@ mozilla
 :
 PodZero
 ;
+using
+js
+:
+:
+jit
+:
+:
+JitScript
+;
 #
 ifdef
 DEBUG

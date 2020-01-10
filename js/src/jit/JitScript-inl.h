@@ -164,6 +164,9 @@ h
 namespace
 js
 {
+namespace
+jit
+{
 inline
 StackTypeSet
 *
@@ -745,6 +748,11 @@ generation
 /
 /
 namespace
+jit
+}
+/
+/
+namespace
 js
 inline
 bool
@@ -757,6 +765,9 @@ JSContext
 *
 cx
 js
+:
+:
+jit
 :
 :
 AutoKeepJitScripts
