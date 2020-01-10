@@ -190,6 +190,7 @@ self
 >
 Box
 <
+dyn
 RenderNotifier
 >
 {

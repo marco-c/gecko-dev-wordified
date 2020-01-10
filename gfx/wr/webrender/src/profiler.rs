@@ -474,6 +474,7 @@ Option
 &
 '
 static
+dyn
 ProfilerHooks
 >
 =
@@ -532,6 +533,7 @@ Option
 &
 '
 static
+dyn
 ProfilerHooks
 >
 )
@@ -6489,6 +6491,7 @@ renderer_profile
 frame_time
 as
 &
+dyn
 ProfileCounter
 &
 renderer_profile
@@ -6594,6 +6597,7 @@ renderer_profile
 frame_time
 as
 &
+dyn
 ProfileCounter
 &
 renderer_profile
@@ -7007,6 +7011,7 @@ samplers
 Vec
 <
 &
+dyn
 ProfileCounter
 >
 =
@@ -7025,6 +7030,7 @@ sampler
 sampler
 as
 &
+dyn
 ProfileCounter
 }
 )

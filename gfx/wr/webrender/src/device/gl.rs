@@ -1173,6 +1173,7 @@ get_shader_version
 gl
 :
 &
+dyn
 gl
 :
 :
@@ -1894,6 +1895,7 @@ GLuint
 gl
 :
 &
+dyn
 gl
 :
 :
@@ -2126,6 +2128,7 @@ u32
 gl
 :
 &
+dyn
 gl
 :
 :
@@ -2237,6 +2240,7 @@ self
 gl
 :
 &
+dyn
 gl
 :
 :
@@ -2307,6 +2311,7 @@ self
 gl
 :
 &
+dyn
 gl
 :
 :
@@ -2339,6 +2344,7 @@ self
 gl
 :
 &
+dyn
 gl
 :
 :
@@ -2371,6 +2377,7 @@ self
 gl
 :
 &
+dyn
 gl
 :
 :
@@ -4820,6 +4827,7 @@ Option
 <
 Box
 <
+dyn
 ProgramCacheObserver
 >
 >
@@ -4837,6 +4845,7 @@ Option
 <
 Box
 <
+dyn
 ProgramCacheObserver
 >
 >
@@ -5597,6 +5606,7 @@ gl
 :
 Rc
 <
+dyn
 gl
 :
 :
@@ -5635,6 +5645,7 @@ Option
 <
 Rc
 <
+dyn
 gl
 :
 :
@@ -6953,6 +6964,7 @@ gl
 :
 Rc
 <
+dyn
 gl
 :
 :
@@ -8330,6 +8342,7 @@ self
 -
 >
 &
+dyn
 gl
 :
 :
@@ -8353,6 +8366,7 @@ self
 &
 Rc
 <
+dyn
 gl
 :
 :
@@ -8775,6 +8789,7 @@ compile_shader
 gl
 :
 &
+dyn
 gl
 :
 :
@@ -19515,6 +19530,7 @@ log_driver_messages
 gl
 :
 &
+dyn
 gl
 :
 :
@@ -20261,6 +20277,7 @@ gl
 &
 '
 a
+dyn
 gl
 :
 :

@@ -3946,6 +3946,7 @@ callback
 :
 &
 mut
+dyn
 FnMut
 (
 &

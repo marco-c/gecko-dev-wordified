@@ -178,6 +178,7 @@ self
 >
 Box
 <
+dyn
 RenderNotifier
 >
 {
@@ -566,6 +567,7 @@ self
 _gl
 :
 &
+dyn
 gl
 :
 :
@@ -578,6 +580,7 @@ Option
 <
 Box
 <
+dyn
 webrender
 :
 :
@@ -588,6 +591,7 @@ Option
 <
 Box
 <
+dyn
 webrender
 :
 :
@@ -610,6 +614,7 @@ self
 _gl
 :
 &
+dyn
 gl
 :
 :

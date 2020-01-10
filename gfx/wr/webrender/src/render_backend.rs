@@ -4323,6 +4323,7 @@ notifier
 :
 Box
 <
+dyn
 RenderNotifier
 >
 recorder
@@ -4331,6 +4332,7 @@ Option
 <
 Box
 <
+dyn
 ApiRecordingReceiver
 >
 >
@@ -4340,6 +4342,7 @@ Option
 <
 Box
 <
+dyn
 AsyncPropertySampler
 +
 Send
@@ -4414,6 +4417,7 @@ notifier
 :
 Box
 <
+dyn
 RenderNotifier
 >
 frame_config
@@ -4425,6 +4429,7 @@ Option
 <
 Box
 <
+dyn
 ApiRecordingReceiver
 >
 >
@@ -4434,6 +4439,7 @@ Option
 <
 Box
 <
+dyn
 AsyncPropertySampler
 +
 Send

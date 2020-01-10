@@ -479,6 +479,7 @@ Option
 (
 Box
 <
+dyn
 AsyncBlobImageRasterizer
 >
 AsyncBlobImageInfo
@@ -786,6 +787,7 @@ Option
 (
 Box
 <
+dyn
 AsyncBlobImageRasterizer
 >
 AsyncBlobImageInfo
@@ -1709,6 +1711,7 @@ Option
 <
 Box
 <
+dyn
 SceneBuilderHooks
 +
 Send
@@ -1746,6 +1749,7 @@ Option
 <
 Box
 <
+dyn
 SceneBuilderHooks
 +
 Send

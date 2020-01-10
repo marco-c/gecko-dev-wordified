@@ -626,6 +626,7 @@ self
 >
 Box
 <
+dyn
 RenderNotifier
 >
 {
@@ -1002,6 +1003,7 @@ Option
 <
 Box
 <
+dyn
 RenderNotifier
 >
 >
@@ -1070,6 +1072,7 @@ yaml_frames
 as
 Box
 <
+dyn
 webrender
 :
 :
@@ -1106,6 +1109,7 @@ json_frames
 as
 Box
 <
+dyn
 webrender
 :
 :
@@ -1142,6 +1146,7 @@ ron_frames
 as
 Box
 <
+dyn
 webrender
 :
 :
@@ -1185,6 +1190,7 @@ bin
 as
 Box
 <
+dyn
 webrender
 :
 :

@@ -918,6 +918,7 @@ self
 gl
 :
 &
+dyn
 gl
 :
 :
@@ -930,6 +931,7 @@ Option
 <
 Box
 <
+dyn
 webrender
 :
 :
@@ -940,6 +942,7 @@ Option
 <
 Box
 <
+dyn
 webrender
 :
 :

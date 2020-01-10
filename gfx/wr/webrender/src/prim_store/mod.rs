@@ -18757,6 +18757,7 @@ callback
 :
 &
 mut
+dyn
 FnMut
 (
 &

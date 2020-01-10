@@ -2437,6 +2437,7 @@ self
 >
 Box
 <
+dyn
 AsyncBlobImageRasterizer
 >
 ;
@@ -2479,6 +2480,7 @@ self
 services
 :
 &
+dyn
 BlobImageResources
 requests
 :

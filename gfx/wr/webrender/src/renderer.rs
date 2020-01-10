@@ -9347,6 +9347,7 @@ debug_server
 :
 Box
 <
+dyn
 DebugServer
 >
 pub
@@ -9612,6 +9613,7 @@ Option
 <
 Box
 <
+dyn
 ExternalImageHandler
 >
 >
@@ -9650,6 +9652,7 @@ Option
 <
 Box
 <
+dyn
 OutputImageHandler
 >
 >
@@ -10200,6 +10203,7 @@ gl
 :
 Rc
 <
+dyn
 gl
 :
 :
@@ -10209,6 +10213,7 @@ notifier
 :
 Box
 <
+dyn
 RenderNotifier
 >
 mut
@@ -15512,6 +15517,7 @@ handler
 :
 Box
 <
+dyn
 ExternalImageHandler
 >
 )
@@ -15548,6 +15554,7 @@ handler
 :
 Box
 <
+dyn
 OutputImageHandler
 >
 )
@@ -28819,6 +28826,7 @@ i32
 select_color
 :
 &
+dyn
 Fn
 (
 &
@@ -32516,6 +32524,7 @@ Option
 <
 Box
 <
+dyn
 BlobImageHandler
 >
 >
@@ -32526,6 +32535,7 @@ Option
 <
 Box
 <
+dyn
 ApiRecordingReceiver
 >
 >
@@ -32536,6 +32546,7 @@ Option
 <
 Box
 <
+dyn
 ThreadListener
 +
 Send
@@ -32585,6 +32596,7 @@ Option
 <
 Box
 <
+dyn
 SceneBuilderHooks
 +
 Send
@@ -32597,6 +32609,7 @@ Option
 <
 Box
 <
+dyn
 AsyncPropertySampler
 +
 Send
@@ -33177,6 +33190,7 @@ ApiMsg
 >
 Box
 <
+dyn
 DebugServer
 >
 {
@@ -33248,6 +33262,7 @@ ApiMsg
 >
 Box
 <
+dyn
 DebugServer
 >
 {

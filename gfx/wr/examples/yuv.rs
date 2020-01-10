@@ -153,6 +153,7 @@ u8
 gl
 :
 &
+dyn
 gl
 :
 :
@@ -325,6 +326,7 @@ new
 gl
 :
 &
+dyn
 gl
 :
 :
@@ -1073,6 +1075,7 @@ self
 gl
 :
 &
+dyn
 gl
 :
 :
@@ -1085,6 +1088,7 @@ Option
 <
 Box
 <
+dyn
 webrender
 :
 :
@@ -1095,6 +1099,7 @@ Option
 <
 Box
 <
+dyn
 webrender
 :
 :
@@ -1148,6 +1153,7 @@ self
 gl
 :
 &
+dyn
 gl
 :
 :
