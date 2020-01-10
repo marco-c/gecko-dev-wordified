@@ -888,6 +888,12 @@ methods_
 [
 ]
 ;
+class
+SetPrivateMatcher
+;
+struct
+GetStartLineMatcher
+;
 struct
 GetStartColumnMatcher
 ;
@@ -896,6 +902,9 @@ GetLineCountMatcher
 ;
 class
 GetSourceMatcher
+;
+class
+GetFormatMatcher
 ;
 template
 <
