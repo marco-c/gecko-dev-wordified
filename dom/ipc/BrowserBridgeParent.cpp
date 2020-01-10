@@ -497,8 +497,15 @@ tabId
 tabContext
 aBrowsingContext
 aChromeFlags
-this
 )
+)
+;
+browserParent
+-
+>
+SetBrowserBridgeParent
+(
+this
 )
 ;
 /

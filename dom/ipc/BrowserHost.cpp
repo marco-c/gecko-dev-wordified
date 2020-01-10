@@ -168,6 +168,14 @@ mRoot
 aParent
 )
 {
+mRoot
+-
+>
+SetBrowserHost
+(
+this
+)
+;
 }
 mozilla
 :
