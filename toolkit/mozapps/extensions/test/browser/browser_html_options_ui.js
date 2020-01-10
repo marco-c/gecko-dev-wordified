@@ -1410,6 +1410,13 @@ unload
 }
 )
 ;
+/
+/
+Regression
+test
+against
+bug
+1409697
 add_task
 (
 async
