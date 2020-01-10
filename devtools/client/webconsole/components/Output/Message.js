@@ -886,6 +886,12 @@ exceptionDocURL
 e
 )
 ;
+e
+.
+preventDefault
+(
+)
+;
 }
 toggleMessage
 (
@@ -2142,6 +2148,9 @@ more
 -
 link
 "
+href
+:
+exceptionDocURL
 title
 :
 exceptionDocURL
