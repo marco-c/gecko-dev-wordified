@@ -8695,7 +8695,6 @@ if
 !
 IsIonEnabled
 (
-cx
 )
 )
 {

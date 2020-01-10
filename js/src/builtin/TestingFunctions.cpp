@@ -17557,9 +17557,8 @@ if
 jit
 :
 :
-IsBaselineEnabled
+IsBaselineJitEnabled
 (
-cx
 )
 )
 {
@@ -17776,7 +17775,6 @@ jit
 :
 IsIonEnabled
 (
-cx
 )
 )
 {
@@ -36098,9 +36096,8 @@ if
 jit
 :
 :
-IsBaselineEnabled
+IsBaselineJitEnabled
 (
-cx
 )
 )
 {

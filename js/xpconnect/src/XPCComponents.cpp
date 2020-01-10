@@ -12098,12 +12098,6 @@ Strict_mode
 strictMode
 setStrictMode
 )
-GENERATE_JSCONTEXTOPTION_GETTER_SETTER
-(
-Ion
-ion
-setIon
-)
 #
 undef
 GENERATE_JSCONTEXTOPTION_GETTER_SETTER

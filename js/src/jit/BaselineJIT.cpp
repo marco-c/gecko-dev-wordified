@@ -711,7 +711,6 @@ MOZ_ASSERT
 (
 IsBaselineInterpreterOrJitEnabled
 (
-cx
 )
 )
 ;
@@ -1592,9 +1591,8 @@ canBaselineCompile
 ;
 MOZ_ASSERT
 (
-IsBaselineEnabled
+IsBaselineJitEnabled
 (
-cx
 )
 )
 ;
@@ -1787,9 +1785,8 @@ Method_Skipped
 if
 (
 !
-IsBaselineEnabled
+IsBaselineJitEnabled
 (
-cx
 )
 )
 {

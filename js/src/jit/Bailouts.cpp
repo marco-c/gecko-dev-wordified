@@ -419,9 +419,8 @@ snapshotOffset
 ;
 MOZ_ASSERT
 (
-IsBaselineEnabled
+IsBaselineJitEnabled
 (
-cx
 )
 )
 ;
@@ -1066,9 +1065,8 @@ frameSize
 ;
 MOZ_ASSERT
 (
-IsBaselineEnabled
+IsBaselineJitEnabled
 (
-cx
 )
 )
 ;

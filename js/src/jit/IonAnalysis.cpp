@@ -33256,7 +33256,6 @@ jit
 :
 IsIonEnabled
 (
-cx
 )
 |
 |
@@ -33264,9 +33263,8 @@ cx
 jit
 :
 :
-IsBaselineEnabled
+IsBaselineJitEnabled
 (
-cx
 )
 |
 |
@@ -35069,7 +35067,6 @@ jit
 :
 IsIonEnabled
 (
-cx
 )
 )
 {
