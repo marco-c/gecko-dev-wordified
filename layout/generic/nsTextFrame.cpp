@@ -4238,9 +4238,9 @@ MOZ_ASSERT
 aFrame
 )
 ;
-nsIPresShell
+PresShell
 *
-shell
+presShell
 =
 aFrame
 -
@@ -4449,7 +4449,7 @@ to
 do
 well
 .
-shell
+presShell
 -
 >
 FrameNeedsReflow

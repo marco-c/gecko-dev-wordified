@@ -50549,9 +50549,12 @@ list
 ;
 #
 endif
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
-shell
+presShell
 =
 PresShell
 (
@@ -50595,7 +50598,7 @@ NS_STATE_GRID_DID_PUSH_ITEMS
 )
 ;
 }
-shell
+presShell
 -
 >
 FrameNeedsReflow
@@ -52291,9 +52294,12 @@ weakFrameRef
 aFrame
 )
 ;
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
-shell
+presShell
 =
 gridFrame
 -
@@ -52310,7 +52316,7 @@ AddStateBits
 NS_STATE_GRID_GENERATE_COMPUTED_VALUES
 )
 ;
-shell
+presShell
 -
 >
 FrameNeedsReflow
@@ -52323,7 +52329,7 @@ eResize
 NS_FRAME_IS_DIRTY
 )
 ;
-shell
+presShell
 -
 >
 FlushPendingNotifications

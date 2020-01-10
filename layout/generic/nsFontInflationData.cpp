@@ -177,6 +177,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ReflowInput
 .
 h
@@ -1450,7 +1459,7 @@ all
 .
 js
 .
-nsIPresShell
+PresShell
 *
 presShell
 =

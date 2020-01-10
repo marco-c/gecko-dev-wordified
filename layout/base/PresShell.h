@@ -1014,6 +1014,13 @@ aFromScroll
 )
 override
 ;
+Document
+*
+GetPrimaryContentDocument
+(
+)
+override
+;
 /
 /
 nsIViewObserver
@@ -7426,13 +7433,6 @@ void
 *
 aPresShell
 )
-;
-Document
-*
-GetPrimaryContentDocument
-(
-)
-override
 ;
 void
 PausePainting

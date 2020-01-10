@@ -3901,7 +3901,7 @@ GetRootElement
 aContent
 )
 {
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -13317,9 +13317,9 @@ aFlags
 SCROLLABLE_ALWAYS_MATCH_ROOT
 )
 {
-nsIPresShell
+PresShell
 *
-ps
+presShell
 =
 f
 -
@@ -13330,7 +13330,7 @@ PresShell
 ;
 if
 (
-ps
+presShell
 -
 >
 GetRootScrollFrame
@@ -13341,7 +13341,7 @@ GetRootScrollFrame
 f
 &
 &
-ps
+presShell
 -
 >
 GetDocument
@@ -13349,7 +13349,7 @@ GetDocument
 )
 &
 &
-ps
+presShell
 -
 >
 GetDocument
@@ -14609,9 +14609,9 @@ rootAPD
 localAPD
 )
 ;
-nsIPresShell
+PresShell
 *
-shell
+presShell
 =
 aFrame
 -
@@ -14644,7 +14644,7 @@ RemoveResolution
 (
 GetCurrentAPZResolutionScale
 (
-shell
+presShell
 )
 )
 ;

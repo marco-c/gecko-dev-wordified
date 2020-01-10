@@ -3749,11 +3749,11 @@ SetSuppressScrollbarUpdate
 true
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
-shell
+presShell
 =
 mFrame
 -
@@ -3762,7 +3762,7 @@ PresShell
 (
 )
 ;
-shell
+presShell
 -
 >
 FrameNeedsReflow
@@ -3778,7 +3778,7 @@ eResize
 NS_FRAME_IS_DIRTY
 )
 ;
-shell
+presShell
 -
 >
 FlushPendingNotifications
@@ -9305,9 +9305,12 @@ mDisplayContent
 /
 Get
 PresShell
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
-shell
+presShell
 =
 PresShell
 (
@@ -9317,7 +9320,7 @@ ServoStyleSet
 *
 styleSet
 =
-shell
+presShell
 -
 >
 StyleSet
@@ -9387,7 +9390,7 @@ mDisplayFrame
 =
 new
 (
-shell
+presShell
 )
 nsComboboxDisplayFrame
 (
@@ -9424,7 +9427,7 @@ textFrame
 =
 NS_NewTextFrame
 (
-shell
+presShell
 textComputedStyle
 )
 ;

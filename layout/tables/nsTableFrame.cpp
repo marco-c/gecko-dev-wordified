@@ -5209,9 +5209,12 @@ _something_
 "
 )
 ;
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
-shell
+presShell
 =
 PresShell
 (
@@ -5298,7 +5301,7 @@ ComputedStyle
 >
 computedStyle
 =
-shell
+presShell
 -
 >
 StyleSet
@@ -5352,7 +5355,7 @@ colFrame
 =
 NS_NewTableColFrame
 (
-shell
+presShell
 computedStyle
 )
 ;
@@ -20021,9 +20024,12 @@ colgroup
 "
 )
 ;
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
-shell
+presShell
 =
 PresShell
 (
@@ -20154,7 +20160,7 @@ SetGeometryDirty
 (
 )
 ;
-shell
+presShell
 -
 >
 FrameNeedsReflow

@@ -189,6 +189,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoStyleSetInlines
 .
 h

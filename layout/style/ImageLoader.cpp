@@ -235,6 +235,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 WebRenderUserData
