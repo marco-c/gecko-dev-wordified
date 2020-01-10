@@ -350,7 +350,6 @@ TEST
 AFL
 moduleName
 )
-\
 {
 \
 MOZ_AFL_INTERFACE_COMMON

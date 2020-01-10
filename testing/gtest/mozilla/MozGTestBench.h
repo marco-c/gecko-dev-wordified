@@ -148,7 +148,6 @@ TEST
 suite
 test
 )
-\
 {
 mozilla
 :
