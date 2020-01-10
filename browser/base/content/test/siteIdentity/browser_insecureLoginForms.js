@@ -497,14 +497,14 @@ document
 getElementById
 (
 "
-connection
+identity
 -
 icon
 "
 )
 )
 "
-Connection
+Identity
 icon
 should
 be
@@ -513,7 +513,7 @@ visible
 )
 ;
 let
-connectionIconImage
+identityIconImage
 =
 gBrowser
 .
@@ -526,7 +526,7 @@ document
 getElementById
 (
 "
-connection
+identity
 -
 icon
 "
@@ -642,7 +642,7 @@ image
 ;
 is
 (
-connectionIconImage
+identityIconImage
 '
 url
 (
@@ -1467,14 +1467,14 @@ document
 getElementById
 (
 "
-connection
+identity
 -
 icon
 "
 )
 )
 "
-Connection
+Identity
 icon
 is
 visible
@@ -1495,7 +1495,7 @@ secure
 "
 .
 let
-connectionIconImage
+identityIconImage
 =
 gBrowser
 .
@@ -1508,7 +1508,7 @@ document
 getElementById
 (
 "
-connection
+identity
 -
 icon
 "
@@ -1624,7 +1624,7 @@ image
 ;
 is
 (
-connectionIconImage
+identityIconImage
 '
 url
 (
