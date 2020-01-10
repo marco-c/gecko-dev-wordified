@@ -395,9 +395,6 @@ aStatus
 bool
 &
 aTouchIsNew
-bool
-&
-aIsHandlingUserInput
 nsCOMPtr
 <
 nsIContent
