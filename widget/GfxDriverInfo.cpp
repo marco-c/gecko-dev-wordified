@@ -1657,6 +1657,12 @@ Graphics
 )
 *
 /
+/
+/
+clang
+-
+format
+off
 APPEND_DEVICE
 (
 0x0152
@@ -1721,6 +1727,12 @@ workstation
 )
 *
 /
+/
+/
+clang
+-
+format
+on
 break
 ;
 case
