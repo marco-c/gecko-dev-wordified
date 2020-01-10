@@ -1248,7 +1248,9 @@ boundProp
 ]
 expected
 .
-bounds
+getBounds
+(
+)
 [
 boundProp
 ]
