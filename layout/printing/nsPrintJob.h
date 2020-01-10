@@ -513,7 +513,7 @@ nsIDocumentViewerPrint
 aDocViewerPrint
 nsIDocShell
 *
-aContainer
+aDocShell
 mozilla
 :
 :
@@ -1524,7 +1524,7 @@ nsIDocumentViewerPrint
 mDocViewerPrint
 ;
 nsWeakPtr
-mContainer
+mDocShell
 ;
 WeakFrame
 mPageSeqFrame
