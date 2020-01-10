@@ -3460,7 +3460,7 @@ double
 aIntervalMilliseconds
 )
 :
-Sampler
+mSampler
 (
 aLock
 )
@@ -3957,9 +3957,8 @@ send
 any
 signals
 .
-Sampler
-:
-:
+mSampler
+.
 Disable
 (
 aLock
