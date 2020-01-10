@@ -5950,13 +5950,12 @@ trace
 it
 here
 .
-IonScript
-:
-:
-Trace
+ionScript
+-
+>
+trace
 (
 trc
-ionScript
 )
 ;
 }
