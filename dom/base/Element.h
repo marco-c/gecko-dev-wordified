@@ -207,13 +207,6 @@ h
 #
 include
 "
-nsILinkHandler
-.
-h
-"
-#
-include
-"
 nsINodeList
 .
 h

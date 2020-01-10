@@ -391,13 +391,6 @@ h
 #
 include
 "
-nsILinkHandler
-.
-h
-"
-#
-include
-"
 nsIScriptGlobalObject
 .
 h
