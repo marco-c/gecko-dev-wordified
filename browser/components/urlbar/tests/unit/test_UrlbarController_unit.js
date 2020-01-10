@@ -648,7 +648,7 @@ param
 ;
 controller
 .
-_notify
+notify
 (
 "
 onFake
@@ -782,7 +782,7 @@ errors
 .
 controller
 .
-_notify
+notify
 (
 "
 onNewFake
