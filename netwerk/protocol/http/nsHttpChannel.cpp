@@ -61890,11 +61890,6 @@ pushListener
 )
 )
 ;
-MOZ_ASSERT
-(
-pushListener
-)
-;
 if
 (
 !
@@ -61931,7 +61926,7 @@ this
 )
 ;
 return
-NS_ERROR_UNEXPECTED
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 nsCOMPtr
