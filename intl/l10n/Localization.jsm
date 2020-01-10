@@ -1508,7 +1508,7 @@ instances
 on
 this
 *
-DOMLocalization
+Localization
 .
 In
 case
@@ -1970,7 +1970,7 @@ A
 generalized
 version
 of
-DOMLocalization
+Localization
 .
 formatValue
 .
@@ -3725,7 +3725,7 @@ new
 *
 Localization
 from
-DOMLocalization
+Localization
 .
 *
 /
