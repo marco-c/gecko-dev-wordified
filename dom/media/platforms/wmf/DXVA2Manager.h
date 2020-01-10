@@ -404,6 +404,11 @@ ConfigureForSize
 IMFMediaType
 *
 aInputType
+gfx
+:
+:
+YUVColorSpace
+aColorSpace
 uint32_t
 aWidth
 uint32_t
