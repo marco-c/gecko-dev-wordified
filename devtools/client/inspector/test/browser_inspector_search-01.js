@@ -892,6 +892,8 @@ is
 !
 searchBox
 .
+parentNode
+.
 classList
 .
 contains

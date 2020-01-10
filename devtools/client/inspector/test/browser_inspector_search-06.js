@@ -648,14 +648,14 @@ inspector
 .
 searchBox
 .
+parentNode
+.
 classList
 .
 contains
 (
 "
 devtools
--
-style
 -
 searchbox
 -
