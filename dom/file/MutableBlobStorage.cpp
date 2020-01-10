@@ -151,8 +151,6 @@ mozilla
 /
 dom
 /
-ipc
-/
 TemporaryIPCBlobChild
 .
 h
