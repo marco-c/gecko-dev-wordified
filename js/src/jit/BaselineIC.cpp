@@ -24575,6 +24575,11 @@ handled
 &
 !
 deferred
+&
+&
+JitOptions
+.
+disableCacheIRCalls
 )
 {
 bool
@@ -25650,6 +25655,11 @@ if
 (
 !
 handled
+&
+&
+JitOptions
+.
+disableCacheIRCalls
 )
 {
 if
