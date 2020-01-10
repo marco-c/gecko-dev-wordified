@@ -453,6 +453,9 @@ Kind
 :
 uint8_t
 {
+kUnspecified
+=
+0
 kFontGroup
 =
 1
