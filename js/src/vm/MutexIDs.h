@@ -388,6 +388,12 @@ WasmSignalInstallState
 500
 )
 \
+_
+(
+MemoryTracker
+500
+)
+\
 \
 _
 (
