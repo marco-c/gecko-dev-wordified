@@ -9114,6 +9114,14 @@ return
 jitCodeRaw_
 ;
 }
+void
+traceChildren
+(
+JSTracer
+*
+trc
+)
+;
 /
 /
 JIT
