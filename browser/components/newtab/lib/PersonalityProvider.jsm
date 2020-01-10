@@ -2277,13 +2277,13 @@ IFNULL
 {
 requiredColumn
 }
-"
-"
+'
+'
 )
 <
 >
-"
-"
+'
+'
 ;
 }
 )

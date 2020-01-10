@@ -2144,8 +2144,8 @@ url
 IFNULL
 (
 title
-"
-"
+'
+'
 )
 AS
 title

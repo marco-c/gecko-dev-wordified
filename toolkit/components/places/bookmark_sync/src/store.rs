@@ -1538,8 +1538,8 @@ IFNULL
 b
 .
 title
-"
-"
+'
+'
 )
 AS
 title
@@ -2514,8 +2514,8 @@ IFNULL
 v
 .
 title
-"
-"
+'
+'
 )
 AS
 title
