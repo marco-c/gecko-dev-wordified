@@ -5493,7 +5493,7 @@ remote
 .
 separatePrivilegedMozillaWebContentProcess
 "
-true
+false
 )
 ;
 #
