@@ -461,6 +461,8 @@ rcpt
 ;
 SECStatus
 rv
+=
+SECFailure
 ;
 if
 (
@@ -786,6 +788,8 @@ status
 ;
 SECStatus
 rv
+=
+SECFailure
 ;
 progName
 =

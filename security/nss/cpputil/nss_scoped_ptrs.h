@@ -728,6 +728,16 @@ StackSECItem
 (
 )
 {
+Reset
+(
+)
+;
+}
+void
+Reset
+(
+)
+{
 SECITEM_FreeItem
 (
 this
