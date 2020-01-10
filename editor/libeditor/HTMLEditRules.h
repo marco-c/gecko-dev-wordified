@@ -1108,6 +1108,7 @@ nullptr
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillInsert
@@ -1271,6 +1272,7 @@ is
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillLoadHTML
@@ -1401,6 +1403,7 @@ errors
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 DeleteNodeIfCollapsedText
@@ -1632,6 +1635,7 @@ necessary
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 DidDeleteSelection
@@ -2516,6 +2520,7 @@ children
 *
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 DeleteElementsExceptTableRelatedElements
@@ -3125,6 +3130,7 @@ handled
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillRelativeChangeZIndex
@@ -5742,6 +5748,7 @@ aStartNode
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 MaybeDeleteTopMostEmptyAncestor
@@ -8210,6 +8217,7 @@ created
 ?
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 RemoveEmptyNodesInChangedRange

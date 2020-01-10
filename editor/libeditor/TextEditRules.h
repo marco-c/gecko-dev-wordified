@@ -1473,6 +1473,7 @@ nullptr
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillInsert
@@ -1710,6 +1711,7 @@ element
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 DidDeleteSelection

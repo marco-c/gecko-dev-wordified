@@ -1384,6 +1384,7 @@ a
 block
 node
 .
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 ScrubBlockBoundary
@@ -3072,6 +3073,7 @@ PT2
 typename
 CT2
 >
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteRange
 (
@@ -3906,6 +3908,7 @@ int32_t
 aOffset
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 Scrub
 (

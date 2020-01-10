@@ -835,6 +835,7 @@ aTransferable
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 DeleteNode
 (
@@ -1116,6 +1117,7 @@ something
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 InsertLineBreakAsAction
@@ -3112,6 +3114,7 @@ be
 inserted
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertTextWithQuotations
 (
@@ -3403,6 +3406,7 @@ empty
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 DeleteSelectionWithTransaction
@@ -3464,6 +3468,7 @@ tree
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteNodeWithTransaction
 (
@@ -10013,6 +10018,7 @@ first
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertBrElementAtSelectionWithTransaction
 (
@@ -10100,6 +10106,7 @@ text
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertTextWithQuotationsInternal
 (
@@ -12499,6 +12506,7 @@ remove
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteAllChildrenWithTransaction
 (
@@ -12583,6 +12591,7 @@ remove
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteTableElementAndChildrenWithTransaction
 (
@@ -13149,6 +13158,7 @@ for
 handling
 plaintext
 quotations
+MOZ_CAN_RUN_SCRIPT
 nsresult
 PasteAsPlaintextQuotation
 (
@@ -13233,6 +13243,7 @@ null
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertAsPlaintextQuotation
 (

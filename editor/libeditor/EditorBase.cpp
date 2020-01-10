@@ -16509,8 +16509,10 @@ isIMETransaction
 mComposition
 )
 {
+RefPtr
+<
 Text
-*
+>
 textNode
 =
 mComposition

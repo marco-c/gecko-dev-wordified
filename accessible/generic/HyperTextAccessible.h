@@ -2655,6 +2655,7 @@ int32_t
 aEndPos
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 CutText
 (
@@ -2664,6 +2665,7 @@ int32_t
 aEndPos
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 DeleteText
 (

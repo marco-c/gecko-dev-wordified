@@ -482,6 +482,7 @@ aDocumentIsEmpty
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 DeleteSelection
 (
@@ -555,6 +556,7 @@ aCount
 )
 final
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 Cut
 (
@@ -1214,6 +1216,7 @@ empty
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteSelectionAsAction
 (
@@ -1407,6 +1410,7 @@ something
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 InsertLineBreakAsAction
@@ -2166,6 +2170,7 @@ empty
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteSelectionAsSubAction
 (
@@ -2222,6 +2227,7 @@ empty
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 DeleteSelectionWithTransaction
@@ -2270,6 +2276,7 @@ set
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetTextAsSubAction
 (
@@ -2302,6 +2309,7 @@ replace
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ReplaceSelectionAsSubAction
 (
@@ -3285,6 +3293,7 @@ element
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Element
@@ -3370,6 +3379,7 @@ split
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteSelectionAndPrepareToCreateNode
 (
