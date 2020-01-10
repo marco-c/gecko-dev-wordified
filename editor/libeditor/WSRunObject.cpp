@@ -14648,12 +14648,8 @@ HTMLEditor
 :
 NodeIsBlockStatic
 (
+*
 aNode
--
->
-AsElement
-(
-)
 )
 ;
 }
