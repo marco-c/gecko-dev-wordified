@@ -14,6 +14,14 @@ Copyright
 (
 c
 )
+2018
+Cosmin
+Truta
+*
+Copyright
+(
+c
+)
 2017
 Glenn
 Randers
@@ -26,21 +34,6 @@ Vadim
 Barkov
 2017
 .
-*
-Last
-changed
-in
-libpng
-1
-.
-6
-.
-29
-[
-March
-16
-2017
-]
 *
 *
 This
@@ -1885,7 +1878,6 @@ png_const_bytep
 prev_row
 )
 {
-const
 png_byte
 bpp
 =
@@ -2215,7 +2207,6 @@ png_const_bytep
 prev_row
 )
 {
-const
 png_byte
 bpp
 =
@@ -2621,7 +2612,6 @@ png_const_bytep
 prev_row
 )
 {
-const
 png_byte
 bpp
 =
@@ -3178,7 +3168,6 @@ png_const_bytep
 prev_row
 )
 {
-const
 png_byte
 bpp
 =
@@ -4007,7 +3996,6 @@ png_const_bytep
 prev_row
 )
 {
-const
 png_byte
 bpp
 =
@@ -4742,7 +4730,6 @@ png_const_bytep
 prev_row
 )
 {
-const
 png_byte
 bpp
 =
