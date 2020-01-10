@@ -822,15 +822,6 @@ join
 root
 p
 )
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 )
         
 except
