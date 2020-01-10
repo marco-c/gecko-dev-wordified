@@ -79,35 +79,6 @@ ManifestError
 :
     
 pass
-def
-iterfilter
-(
-filters
-iter
-)
-:
-    
-for
-f
-in
-filters
-:
-        
-iter
-=
-f
-(
-iter
-)
-    
-for
-item
-in
-iter
-:
-        
-yield
-item
 item_classes
 =
 {
@@ -178,7 +149,6 @@ __init__
 self
 manifest
 type_cls
-meta_filters
 )
 :
         
@@ -319,15 +289,6 @@ data
 =
 {
 }
-        
-self
-.
-meta_filters
-=
-meta_filters
-or
-[
-]
     
 def
 __getitem__
@@ -751,11 +712,6 @@ key
 for
 test
 in
-iterfilter
-(
-self
-.
-meta_filters
 self
 .
 json_data
@@ -765,7 +721,6 @@ get
 path
 [
 ]
-)
 )
 :
                 
@@ -891,11 +846,6 @@ set
 for
 test
 in
-iterfilter
-(
-self
-.
-meta_filters
 self
 .
 json_data
@@ -905,7 +855,6 @@ get
 path
 [
 ]
-)
 )
 :
                     
@@ -1171,9 +1120,6 @@ __init__
 (
 self
 manifest
-meta_filters
-=
-None
 )
 :
         
@@ -1224,9 +1170,6 @@ TypeData
 (
 manifest
 value
-meta_filters
-=
-meta_filters
 )
         
 self
@@ -1346,9 +1289,6 @@ url_base
 "
 /
 "
-meta_filters
-=
-None
 )
 :
         
@@ -1372,7 +1312,6 @@ _data
 ManifestData
 (
 self
-meta_filters
 )
         
 self
@@ -2560,9 +2499,6 @@ obj
 types
 =
 None
-meta_filters
-=
-None
 )
 :
         
@@ -2605,9 +2541,6 @@ url_base
 /
 "
 )
-meta_filters
-=
-meta_filters
 )
         
 if
@@ -2717,9 +2650,6 @@ manifest
 types
 =
 None
-meta_filters
-=
-None
 )
 :
     
@@ -2747,7 +2677,6 @@ logger
 tests_root
 manifest
 types
-meta_filters
 )
 __load_cache
 =
@@ -2760,9 +2689,6 @@ logger
 tests_root
 manifest
 types
-=
-None
-meta_filters
 =
 None
 allow_cached
@@ -2899,10 +2825,6 @@ f
 types
 =
 types
-                                        
-meta_filters
-=
-meta_filters
 )
         
 except
@@ -2954,10 +2876,6 @@ manifest
 types
 =
 types
-                                
-meta_filters
-=
-meta_filters
 )
     
 if
@@ -3006,10 +2924,6 @@ types
 =
 None
                     
-meta_filters
-=
-None
-                    
 write_manifest
 =
 True
@@ -3051,10 +2965,6 @@ manifest_path
 types
 =
 types
-                             
-meta_filters
-=
-meta_filters
                              
 allow_cached
 =
@@ -3118,9 +3028,6 @@ Manifest
 (
 tests_root
 url_base
-meta_filters
-=
-meta_filters
 )
         
 update
