@@ -1904,6 +1904,13 @@ Initialize
 )
 ;
 }
+/
+/
+Instantiate
+and
+initialize
+the
+service
 RefPtr
 <
 NetworkConnectivityService
@@ -1914,13 +1921,6 @@ NetworkConnectivityService
 :
 :
 GetSingleton
-(
-)
-;
-ncs
--
->
-Init
 (
 )
 ;

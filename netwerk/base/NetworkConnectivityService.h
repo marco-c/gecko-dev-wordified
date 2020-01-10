@@ -116,11 +116,6 @@ NS_DECL_NSIOBSERVER
 NS_DECL_NSIDNSLISTENER
 NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSIREQUESTOBSERVER
-nsresult
-Init
-(
-)
-;
 static
 already_AddRefed
 <
@@ -145,6 +140,11 @@ NetworkConnectivityService
 )
 =
 default
+;
+nsresult
+Init
+(
+)
 ;
 /
 /
