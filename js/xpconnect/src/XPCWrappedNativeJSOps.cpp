@@ -963,9 +963,8 @@ rval
 .
 set
 (
-JS_GetNaNValue
+NaNValue
 (
-cx
 )
 )
 ;

@@ -439,12 +439,6 @@ using
 JS
 :
 :
-DoubleNaNValue
-;
-using
-JS
-:
-:
 RegExpFlag
 ;
 using

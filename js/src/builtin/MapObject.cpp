@@ -289,12 +289,6 @@ mozilla
 :
 NumberEqualsInt32
 ;
-using
-JS
-:
-:
-DoubleNaNValue
-;
 /
 *
 *
