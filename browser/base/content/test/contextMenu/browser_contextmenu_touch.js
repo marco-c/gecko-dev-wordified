@@ -634,14 +634,10 @@ urlbar
 let
 textBox
 =
-document
-.
-getAnonymousElementByAttribute
-(
 urlbar
-"
-anonid
-"
+.
+querySelector
+(
 "
 moz
 -
