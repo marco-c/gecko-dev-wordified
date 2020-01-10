@@ -291,6 +291,16 @@ former
 #
 include
 "
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
+#
+include
+"
 EHABIStackWalk
 .
 h
@@ -4710,3 +4720,8 @@ endif
 /
 namespace
 mozilla
+#
+endif
+/
+/
+MOZ_BASE_PROFILER
