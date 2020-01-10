@@ -2091,6 +2091,13 @@ NeedsToFlushStyle
 )
 const
 ;
+nsIFrame
+*
+GetOuterFrame
+(
+)
+const
+;
 static
 ComputedStyleMap
 *
