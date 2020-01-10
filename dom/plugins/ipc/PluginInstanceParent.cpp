@@ -5046,11 +5046,6 @@ sourceSurface
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 GetSourceSurfaceForSurface
 (
 nullptr
@@ -6073,11 +6068,6 @@ dt
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 CreateDrawTargetForSurface
 (
 mBackground

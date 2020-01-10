@@ -293,11 +293,6 @@ dt
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 CreateDrawTargetForSurface
 (
 mGfxSurface
@@ -393,11 +388,6 @@ dt
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 CreateDrawTargetForSurface
 (
 mGfxSurface

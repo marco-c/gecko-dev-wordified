@@ -3837,11 +3837,6 @@ tmpDT
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 CreateDrawTargetForSurface
 (
 refSurf

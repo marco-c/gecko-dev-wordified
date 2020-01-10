@@ -3635,11 +3635,6 @@ drawTarget
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 CreateDrawTargetForSurface
 (
 surf

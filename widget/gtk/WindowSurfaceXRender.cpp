@@ -311,11 +311,6 @@ return
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 CreateDrawTargetForSurface
 (
 mXlibSurface

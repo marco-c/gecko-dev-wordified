@@ -1617,11 +1617,6 @@ dt
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 CreateDrawTargetForSurface
 (
 imgSurface
@@ -1645,11 +1640,6 @@ source
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 GetSourceSurfaceForSurface
 (
 dt

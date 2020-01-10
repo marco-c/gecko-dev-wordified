@@ -682,11 +682,6 @@ return
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 CreateDrawTargetForSurface
 (
 mSurface
