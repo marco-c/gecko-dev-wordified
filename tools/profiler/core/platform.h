@@ -768,11 +768,11 @@ conveniently
 track
 various
 JS
-instrumentations
+features
 .
 enum
 class
-JSInstrumentationFlags
+JSSamplingFlags
 {
 StackSampling
 =
@@ -783,9 +783,6 @@ TrackOptimizations
 TraceLogging
 =
 0x4
-Allocations
-=
-0x8
 }
 ;
 /
