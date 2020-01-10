@@ -2011,10 +2011,6 @@ EndLoad
 (
 )
 {
-mSynchronousDOMContentLoaded
-=
-true
-;
 Document
 :
 :
