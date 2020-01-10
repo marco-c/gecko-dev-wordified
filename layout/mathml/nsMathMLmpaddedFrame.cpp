@@ -1491,6 +1491,13 @@ nsMathMLElement
 :
 :
 PARSE_ALLOW_NEGATIVE
+*
+mContent
+-
+>
+OwnerDoc
+(
+)
 )
 )
 {

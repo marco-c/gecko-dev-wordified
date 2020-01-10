@@ -364,6 +364,10 @@ nsCSSValue
 aCSSValue
 uint32_t
 aFlags
+const
+Document
+&
+aDocument
 )
 ;
 static

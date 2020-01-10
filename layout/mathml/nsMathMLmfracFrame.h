@@ -593,7 +593,6 @@ into
 a
 usable
 form
-static
 nscoord
 CalcLineThickness
 (
