@@ -749,7 +749,7 @@ GetD3D11TextureClient
 (
 KnowsCompositor
 *
-aForwarder
+aKnowsCompositor
 )
 {
 if
@@ -880,7 +880,7 @@ GetTextureClient
 (
 KnowsCompositor
 *
-aForwarder
+aKnowsCompositor
 )
 {
 if
@@ -920,7 +920,7 @@ device
 |
 |
 !
-aForwarder
+aKnowsCompositor
 -
 >
 SupportsD3D11
@@ -935,7 +935,7 @@ nullptr
 return
 GetD3D11TextureClient
 (
-aForwarder
+aKnowsCompositor
 )
 ;
 }

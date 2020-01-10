@@ -1237,7 +1237,7 @@ GetTextureClient
 (
 KnowsCompositor
 *
-aForwarder
+aKnowsCompositor
 )
 {
 MOZ_ASSERT
@@ -1255,7 +1255,7 @@ GetAllocator
 )
 =
 =
-aForwarder
+aKnowsCompositor
 -
 >
 GetTextureForwarder

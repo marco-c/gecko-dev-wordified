@@ -3011,7 +3011,7 @@ GetTextureClient
 (
 /
 *
-aForwarder
+aKnowsCompositor
 *
 /
 nullptr

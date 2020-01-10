@@ -2165,7 +2165,7 @@ GetTextureClient
 (
 /
 *
-aForwarder
+aKnowsCompositor
 *
 /
 nullptr

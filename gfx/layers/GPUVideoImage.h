@@ -486,13 +486,13 @@ GetTextureClient
 (
 KnowsCompositor
 *
-aForwarder
+aKnowsCompositor
 )
 override
 {
 MOZ_ASSERT
 (
-aForwarder
+aKnowsCompositor
 =
 =
 ImageBridgeChild

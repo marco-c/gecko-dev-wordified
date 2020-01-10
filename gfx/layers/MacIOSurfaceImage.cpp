@@ -204,7 +204,7 @@ GetTextureClient
 (
 KnowsCompositor
 *
-aForwarder
+aKnowsCompositor
 )
 {
 if
@@ -240,7 +240,7 @@ TextureFlags
 :
 :
 DEFAULT
-aForwarder
+aKnowsCompositor
 -
 >
 GetTextureForwarder

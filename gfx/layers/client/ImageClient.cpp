@@ -830,7 +830,7 @@ Image
 aImage
 KnowsCompositor
 *
-aForwarder
+aKnowsCompositor
 ImageContainer
 *
 aContainer
@@ -969,10 +969,10 @@ XRE_IsContentProcess
 )
 &
 &
-aForwarder
+aKnowsCompositor
 &
 &
-aForwarder
+aKnowsCompositor
 -
 >
 SupportsD3D11
@@ -980,7 +980,7 @@ SupportsD3D11
 )
 &
 &
-aForwarder
+aKnowsCompositor
 -
 >
 GetTextureForwarder
@@ -988,7 +988,7 @@ GetTextureForwarder
 )
 &
 &
-aForwarder
+aKnowsCompositor
 -
 >
 GetTextureForwarder
@@ -1038,7 +1038,7 @@ D3D11YCbCrImage
 :
 CreateAndCopyDataToDXGIYCbCrTextureData
 (
-aForwarder
+aKnowsCompositor
 aContainer
 *
 data
@@ -1067,7 +1067,7 @@ TextureClient
 :
 CreateForYCbCr
 (
-aForwarder
+aKnowsCompositor
 data
 -
 >
@@ -1238,7 +1238,7 @@ typedImage
 GetHasAlpha
 (
 )
-aForwarder
+aKnowsCompositor
 -
 >
 GetTextureForwarder
@@ -1283,7 +1283,7 @@ TextureClient
 :
 CreateForDrawing
 (
-aForwarder
+aKnowsCompositor
 surface
 -
 >
