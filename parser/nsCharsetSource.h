@@ -95,7 +95,6 @@ XHR
 kCharsetFromCache
 kCharsetFromParentFrame
 kCharsetFromAutoDetection
-kCharsetFromHintPrevDoc
 kCharsetFromMetaPrescan
 /
 /
