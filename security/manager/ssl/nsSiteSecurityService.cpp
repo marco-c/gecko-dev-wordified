@@ -10559,7 +10559,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-InfallibleTArray
+nsTArray
 <
 mozilla
 :
