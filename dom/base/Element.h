@@ -8563,6 +8563,7 @@ respected
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 DispatchClickEvent
@@ -8654,6 +8655,7 @@ nsIContent
 :
 DispatchEvent
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 DispatchEvent

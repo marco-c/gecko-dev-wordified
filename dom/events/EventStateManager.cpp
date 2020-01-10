@@ -32182,7 +32182,10 @@ HandleEventWithTarget
 &
 event
 targetFrame
+MOZ_KnownLive
+(
 target
+)
 &
 status
 )
