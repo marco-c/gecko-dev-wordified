@@ -1005,7 +1005,7 @@ testTracingIncomingCCWs
 )
 static
 size_t
-countWrappers
+countObjectWrappers
 (
 JS
 :
@@ -1028,7 +1028,7 @@ JS
 Compartment
 :
 :
-WrapperEnum
+ObjectWrapperEnum
 e
 (
 comp
@@ -1236,7 +1236,7 @@ CCW
 .
 CHECK
 (
-countWrappers
+countObjectWrappers
 (
 global1
 -
@@ -1266,7 +1266,7 @@ evictNursery
 ;
 CHECK
 (
-countWrappers
+countObjectWrappers
 (
 global1
 -
@@ -1475,7 +1475,7 @@ CCW
 .
 CHECK
 (
-countWrappers
+countObjectWrappers
 (
 global1
 -
@@ -1505,7 +1505,7 @@ evictNursery
 ;
 CHECK
 (
-countWrappers
+countObjectWrappers
 (
 global1
 -
@@ -1809,7 +1809,7 @@ CCW
 .
 CHECK
 (
-countWrappers
+countObjectWrappers
 (
 global1
 -
@@ -1839,7 +1839,7 @@ evictNursery
 ;
 CHECK
 (
-countWrappers
+countObjectWrappers
 (
 global1
 -
@@ -2100,7 +2100,7 @@ CCW
 .
 CHECK
 (
-countWrappers
+countObjectWrappers
 (
 global1
 -
@@ -2130,7 +2130,7 @@ evictNursery
 ;
 CHECK
 (
-countWrappers
+countObjectWrappers
 (
 global1
 -

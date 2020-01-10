@@ -547,7 +547,7 @@ e
 }
 for
 (
-NonStringWrapperEnum
+ObjectWrapperEnum
 e
 (
 this
@@ -3169,7 +3169,7 @@ isHeapCompacting
 ;
 for
 (
-NonStringWrapperEnum
+ObjectWrapperEnum
 e
 (
 this

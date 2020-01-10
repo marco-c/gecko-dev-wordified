@@ -3037,7 +3037,7 @@ conditionally
 /
 /
 initializing
-NonStringWrapperEnum
+ObjectWrapperEnum
 .
 mozilla
 :
@@ -3047,7 +3047,7 @@ Maybe
 Compartment
 :
 :
-NonStringWrapperEnum
+ObjectWrapperEnum
 >
 e
 ;
@@ -4655,7 +4655,7 @@ for
 Compartment
 :
 :
-NonStringWrapperEnum
+ObjectWrapperEnum
 e
 (
 c

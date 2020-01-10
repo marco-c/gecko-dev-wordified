@@ -3767,7 +3767,7 @@ for
 Compartment
 :
 :
-WrapperEnum
+ObjectWrapperEnum
 e
 (
 comp
