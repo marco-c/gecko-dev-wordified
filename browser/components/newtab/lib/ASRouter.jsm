@@ -752,7 +752,7 @@ EXPERIMENT_RATIOS
 [
 "
 "
-1
+0
 ]
 [
 "
@@ -764,7 +764,7 @@ interrupts
 "
 triplets
 "
-1
+3
 ]
 ]
 }
