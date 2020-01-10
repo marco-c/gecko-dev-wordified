@@ -38776,7 +38776,7 @@ setBoolean
 out
 )
 ;
-TryAttachStubOld
+TryAttachStub
 <
 CompareIRGenerator
 >
