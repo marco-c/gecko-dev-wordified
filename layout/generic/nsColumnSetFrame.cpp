@@ -6261,10 +6261,6 @@ break
 }
 else
 {
-+
-+
-columnCount
-;
 /
 /
 Make
@@ -6573,6 +6569,8 @@ columnCount
 aConfig
 .
 mBalanceColCount
+-
+1
 )
 {
 /
@@ -6782,6 +6780,10 @@ child
 GetNextSibling
 (
 )
+;
++
++
+columnCount
 ;
 if
 (
