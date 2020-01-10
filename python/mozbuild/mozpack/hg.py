@@ -296,6 +296,8 @@ mercurial
 ui
 as
 hgui
+import
+six
 from
 .
 files
@@ -420,10 +422,9 @@ if
 isinstance
 (
 repo
-(
-str
-unicode
-)
+six
+.
+string_types
 )
 :
             
@@ -629,7 +630,9 @@ if
 isinstance
 (
 path
-unicode
+six
+.
+text_type
 )
 :
             

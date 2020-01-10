@@ -296,13 +296,17 @@ if
 isinstance
 (
 src
-unicode
+six
+.
+text_type
 )
 and
 isinstance
 (
 dest
-unicode
+six
+.
+text_type
 )
 :
             
