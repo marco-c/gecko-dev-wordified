@@ -985,7 +985,7 @@ uint8_t
 *
 code
 uint32_t
-bufferSize
+totalSize
 uint32_t
 headerSize
 ExecutablePool

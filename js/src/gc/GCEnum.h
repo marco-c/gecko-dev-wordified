@@ -352,6 +352,12 @@ D
 GrayRootBufferingFailed
 10
 )
+\
+D
+(
+JitCodeBytesTrigger
+11
+)
 enum
 class
 AbortReason

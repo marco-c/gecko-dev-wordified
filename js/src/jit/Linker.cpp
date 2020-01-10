@@ -422,8 +422,6 @@ NoGC
 cx
 codeStart
 bytesNeeded
--
-headerSize
 headerSize
 pool
 kind
