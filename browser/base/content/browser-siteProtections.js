@@ -8264,8 +8264,6 @@ _protectionsPopupMainViewHeaderLabel
 .
 textContent
 =
-/
-/
 gNavigatorBundle
 .
 getFormattedString
@@ -8279,13 +8277,6 @@ header
 host
 ]
 )
-;
-Tracking
-Protections
-for
-{
-host
-}
 ;
 let
 currentlyEnabled
