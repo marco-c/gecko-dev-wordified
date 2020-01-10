@@ -1305,6 +1305,10 @@ privateBrowsingId
 userContextId
 :
 0
+geckoViewSessionContextId
+:
+"
+"
 }
 }
 }
@@ -1441,6 +1445,10 @@ privateBrowsingId
 userContextId
 :
 0
+geckoViewSessionContextId
+:
+"
+"
 }
 /
 /
