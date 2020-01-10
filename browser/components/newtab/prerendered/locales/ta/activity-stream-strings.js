@@ -127,6 +127,10 @@ prefs_highlights_options_pocket_label
 "
 :
 "
+Pages
+Saved
+to
+Pocket
 "
 "
 prefs_snippets_description
