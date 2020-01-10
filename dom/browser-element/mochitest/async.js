@@ -416,8 +416,6 @@ error
 =
 >
 {
-try
-{
 step
 (
 gen
@@ -428,16 +426,6 @@ error
 )
 )
 ;
-}
-catch
-(
-err
-)
-{
-throw
-err
-;
-}
 }
 )
 .
