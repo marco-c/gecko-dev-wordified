@@ -21242,9 +21242,3 @@ mozilla
 #
 undef
 NS_DispatchToMainThread
-#
-undef
-LOGV
-#
-undef
-LOG

@@ -8363,11 +8363,11 @@ return
 offset
 ;
 }
+#
+undef
+WEBM_DEBUG
 }
 /
 /
 namespace
 mozilla
-#
-undef
-WEBM_DEBUG
