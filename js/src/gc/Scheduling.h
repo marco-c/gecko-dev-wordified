@@ -5472,6 +5472,17 @@ policy
 )
 ;
 void
+movePolicy
+(
+ZoneAllocPolicy
+*
+dst
+ZoneAllocPolicy
+*
+src
+)
+;
+void
 incPolicyMemory
 (
 ZoneAllocPolicy
