@@ -26269,7 +26269,7 @@ eVisibleToHitTest
 CompositorHitTestFlags
 :
 :
-eDispatchToContent
+eInactiveScrollframe
 )
 ;
 /
