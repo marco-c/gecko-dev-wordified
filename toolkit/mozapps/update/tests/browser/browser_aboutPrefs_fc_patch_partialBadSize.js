@@ -132,8 +132,11 @@ gBadSizeResult
 ;
 }
 let
-updateParams
+params
 =
+{
+queryString
+:
 "
 &
 partialPatchOnly
@@ -144,12 +147,12 @@ invalidPartialSize
 =
 1
 "
+}
 ;
 await
 runAboutPrefsUpdateTest
 (
-updateParams
-false
+params
 [
 {
 panelId
