@@ -187,12 +187,6 @@ node
 *
 /
 /
-*
-global
-OS
-*
-/
-/
 /
 eslint
 -

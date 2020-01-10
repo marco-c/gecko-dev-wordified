@@ -116,12 +116,6 @@ none
 ]
 *
 /
-/
-*
-global
-sendAsyncMessage
-*
-/
 var
 {
 Services

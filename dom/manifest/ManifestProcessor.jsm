@@ -178,15 +178,6 @@ modes
 .
 *
 /
-/
-*
-globals
-Components
-ValueExtractor
-ImageObjectProcessor
-ConsoleAPI
-*
-/
 "
 use
 strict

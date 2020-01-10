@@ -53,14 +53,6 @@ zero
 /
 *
 /
-/
-*
-global
-Services
-do_register_cleanup
-do_test_pending
-*
-/
 "
 use
 strict

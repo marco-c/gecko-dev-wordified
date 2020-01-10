@@ -202,13 +202,6 @@ GeckoViewTelemetryController
 ]
 ;
 /
-*
-global
-debug
-warn
-*
-/
-/
 /
 Persistent
 data

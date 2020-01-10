@@ -216,14 +216,6 @@ AppInfo
 .
 jsm
 .
-/
-*
-global
-updateAppInfo
-:
-false
-*
-/
 updateAppInfo
 (
 )

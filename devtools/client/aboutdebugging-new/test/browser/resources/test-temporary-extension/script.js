@@ -35,12 +35,6 @@ env
 browser
 *
 /
-/
-*
-global
-browser
-*
-/
 "
 use
 strict

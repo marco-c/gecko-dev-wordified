@@ -45,13 +45,6 @@ zero
 /
 *
 /
-/
-*
-global
-getPropertyValue
-waitFor
-*
-/
 "
 use
 strict

@@ -189,17 +189,6 @@ exported
 ManifestObtainer
 *
 /
-/
-*
-globals
-Components
-Task
-PromiseMessage
-XPCOMUtils
-ManifestProcessor
-BrowserUtils
-*
-/
 "
 use
 strict

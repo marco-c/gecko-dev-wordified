@@ -11,13 +11,6 @@ tests
 *
 *
 /
-/
-*
-globals
-SpecialPowers
-ManifestProcessor
-*
-/
 "
 use
 strict

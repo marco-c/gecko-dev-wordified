@@ -170,13 +170,6 @@ verifyBundleSignedState
 "
 ]
 ;
-/
-*
-globals
-DownloadAddonInstall
-LocalAddonInstall
-*
-/
 const
 {
 Services

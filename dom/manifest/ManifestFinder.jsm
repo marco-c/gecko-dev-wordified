@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-Components
-Task
-PromiseMessage
-*
-/
 "
 use
 strict

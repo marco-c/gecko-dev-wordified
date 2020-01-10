@@ -1694,12 +1694,6 @@ _adjustAcItem
 (
 )
 {
-/
-*
-global
-Cu
-*
-/
 this
 .
 _adjustAutofillItemLayout

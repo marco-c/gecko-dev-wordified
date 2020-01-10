@@ -13,7 +13,6 @@ Cu
 BrowserTestUtils
 add_task
 gBrowser
-makeTestURL
 requestLongerTimeout
 *
 /

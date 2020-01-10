@@ -115,12 +115,6 @@ ExtensionContent
 "
 ]
 ;
-/
-*
-globals
-ExtensionContent
-*
-/
 const
 {
 Services

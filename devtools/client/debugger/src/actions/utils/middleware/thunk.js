@@ -61,12 +61,6 @@ MPL
 /
 /
 flow
-/
-*
-global
-window
-*
-/
 import
 type
 {

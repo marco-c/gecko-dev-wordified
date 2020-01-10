@@ -3473,12 +3473,6 @@ fakeNow
 (
 )
 ;
-/
-*
-global
-TelemetrySend
-*
-/
 registerCleanupFunction
 (
 (

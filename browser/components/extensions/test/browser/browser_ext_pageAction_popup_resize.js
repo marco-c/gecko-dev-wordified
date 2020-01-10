@@ -91,12 +91,6 @@ function
 (
 )
 {
-/
-*
-global
-browser
-*
-/
 browser
 .
 tabs

@@ -61,12 +61,6 @@ use
 strict
 "
 ;
-/
-*
-global
-XPCNativeWrapper
-*
-/
 const
 DevToolsUtils
 =

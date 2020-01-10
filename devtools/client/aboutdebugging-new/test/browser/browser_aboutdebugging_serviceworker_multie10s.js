@@ -27,12 +27,6 @@ zero
 /
 *
 /
-/
-*
-global
-sendAsyncMessage
-*
-/
 "
 use
 strict

@@ -4,12 +4,6 @@ strict
 "
 ;
 /
-*
-globals
-InspectorUtils
-*
-/
-/
 /
 Case
 1

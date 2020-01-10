@@ -59,12 +59,6 @@ MPL
 *
 /
 /
-*
-global
-window
-*
-/
-/
 /
 flow
 import

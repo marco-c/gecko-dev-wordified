@@ -98,12 +98,6 @@ jsm
 "
 )
 ;
-/
-*
-globals
-AddonManagerPrivate
-*
-/
 const
 {
 Services

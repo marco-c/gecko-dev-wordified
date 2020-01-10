@@ -74,12 +74,6 @@ errors
 .
 *
 /
-/
-*
-globals
-Components
-*
-/
 "
 use
 strict

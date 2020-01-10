@@ -100,12 +100,6 @@ Fluent
 conversion
 *
 /
-/
-*
-global
-content
-*
-/
 const
 {
 FormAutofillUtils

@@ -61,13 +61,6 @@ use
 strict
 "
 ;
-/
-*
-global
-Pipe
-ScriptableInputStream
-*
-/
 const
 CC
 =

@@ -116,12 +116,6 @@ jsm
 "
 )
 ;
-/
-*
-globals
-AddonManagerPrivate
-*
-/
 const
 {
 Services
@@ -170,12 +164,6 @@ jsm
 "
 )
 ;
-/
-*
-globals
-OS
-*
-/
 const
 {
 Log

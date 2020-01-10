@@ -270,12 +270,6 @@ XMLHttpRequest
 ]
 )
 ;
-/
-*
-globals
-GMPPrefs
-*
-/
 ChromeUtils
 .
 defineModuleGetter
@@ -299,12 +293,6 @@ jsm
 "
 )
 ;
-/
-*
-globals
-OS
-*
-/
 ChromeUtils
 .
 defineModuleGetter

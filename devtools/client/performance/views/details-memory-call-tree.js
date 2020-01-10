@@ -60,7 +60,6 @@ MPL
 *
 globals
 PerformanceController
-OverviewView
 *
 /
 "

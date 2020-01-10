@@ -164,12 +164,6 @@ exported
 EXPORTED_SYMBOLS
 *
 /
-/
-*
-globals
-Components
-*
-/
 "
 use
 strict

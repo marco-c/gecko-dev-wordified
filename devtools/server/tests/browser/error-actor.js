@@ -81,12 +81,6 @@ strict
 ;
 /
 *
-global
-DebuggerServer
-*
-/
-/
-*
 *
 *
 Test

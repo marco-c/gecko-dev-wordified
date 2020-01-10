@@ -417,13 +417,6 @@ uuid
 }
 /
 ;
-/
-*
-globals
-MatchPatternSet
-WebExtensionPolicy
-*
-/
 let
 policy
 =

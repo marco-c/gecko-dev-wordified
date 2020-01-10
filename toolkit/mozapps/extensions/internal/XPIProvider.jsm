@@ -172,12 +172,6 @@ XPIInternal
 "
 ]
 ;
-/
-*
-globals
-WebExtensionPolicy
-*
-/
 const
 {
 Services

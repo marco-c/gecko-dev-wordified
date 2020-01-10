@@ -64,12 +64,6 @@ strict
 "
 ;
 /
-*
-global
-global
-*
-/
-/
 /
 Configure
 enzyme

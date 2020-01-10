@@ -126,6 +126,8 @@ below
 *
 global
 gTestBrowser
+:
+true
 *
 /
 /

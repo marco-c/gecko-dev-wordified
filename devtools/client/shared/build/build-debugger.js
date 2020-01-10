@@ -58,14 +58,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-process
-__filename
-__dirname
-*
-/
 "
 use
 strict

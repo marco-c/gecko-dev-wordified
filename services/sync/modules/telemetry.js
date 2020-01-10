@@ -6139,12 +6139,6 @@ msg
 ;
 }
 }
-/
-*
-global
-SyncTelemetry
-*
-/
 var
 SyncTelemetry
 =

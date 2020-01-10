@@ -87,7 +87,6 @@ this
 globals
 withSidebarTree
 synthesizeClickOnSelectedTreeCell
-*
 promiseLibrary
 promiseLibraryClosed
 *

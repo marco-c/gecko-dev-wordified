@@ -136,13 +136,6 @@ ExtensionData
 /
 /
 *
-globals
-Extension
-ExtensionData
-*
-/
-/
-*
 *
 This
 file

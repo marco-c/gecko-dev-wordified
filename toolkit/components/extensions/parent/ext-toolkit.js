@@ -107,9 +107,6 @@ global
 getCookieStoreIdForTab
 :
 false
-getCookieStoreIdForOriginAttributes
-:
-false
 getCookieStoreIdForContainer
 :
 false

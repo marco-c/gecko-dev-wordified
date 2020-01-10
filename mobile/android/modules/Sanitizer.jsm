@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-LoadContextInfo
-FormHistory
-Accounts
-*
-/
 const
 {
 Services

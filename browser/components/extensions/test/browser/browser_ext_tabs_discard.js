@@ -47,7 +47,6 @@ tw
 *
 global
 gBrowser
-SessionStore
 *
 /
 "

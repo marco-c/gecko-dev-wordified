@@ -504,13 +504,9 @@ jsm
 /
 *
 globals
-*
 BOOTSTRAP_REASONS
-*
 DB_SCHEMA
-*
 XPIStates
-*
 migrateAddonLoader
 *
 /

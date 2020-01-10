@@ -57,12 +57,6 @@ helper_events_test_runner
 js
 *
 /
-/
-*
-global
-sendAsyncMessage
-*
-/
 "
 use
 strict

@@ -63,12 +63,6 @@ MPL
 flow
 /
 *
-global
-window
-*
-/
-/
-*
 *
 *
 Redux

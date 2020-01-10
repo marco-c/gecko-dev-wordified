@@ -56,12 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-Services
-*
-/
 "
 use
 strict

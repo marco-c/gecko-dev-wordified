@@ -221,12 +221,6 @@ test
 }
 ;
 }
-/
-*
-globals
-ExtensionAPI
-*
-/
 "
 child
 .

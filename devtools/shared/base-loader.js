@@ -58,12 +58,6 @@ MPL
 /
 /
 *
-global
-__URI__
-*
-/
-/
-*
 exported
 Loader
 resolveURI

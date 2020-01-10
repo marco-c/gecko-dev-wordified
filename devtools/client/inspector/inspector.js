@@ -102,13 +102,6 @@ MPL
 .
 *
 /
-/
-*
-global
-window
-BrowserLoader
-*
-/
 "
 use
 strict

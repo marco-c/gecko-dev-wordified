@@ -1053,7 +1053,7 @@ eslint
 enable
 no
 -
-unsed
+unused
 -
 vars
 *

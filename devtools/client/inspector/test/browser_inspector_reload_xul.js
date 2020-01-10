@@ -99,12 +99,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-getTestActorWithoutToolbox
-*
-/
 "
 use
 strict

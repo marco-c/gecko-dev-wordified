@@ -61,12 +61,6 @@ use
 strict
 "
 ;
-/
-*
-global
-L10N
-*
-/
 const
 {
 mount
