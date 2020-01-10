@@ -502,9 +502,7 @@ getTarget
 (
 this
 .
-docShell
-.
-browsingContext
+mm
 msg
 "
 plugin
@@ -530,9 +528,7 @@ getTarget
 (
 this
 .
-docShell
-.
-browsingContext
+mm
 msg
 "
 plugin
