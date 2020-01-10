@@ -500,8 +500,10 @@ protected
 bool
 mSocketProcessBridgeInited
 ;
+already_AddRefed
+<
 PHttpChannelParent
-*
+>
 AllocPHttpChannelParent
 (
 const
@@ -543,13 +545,6 @@ HttpChannelCreationArgs
 aOpenArgs
 )
 override
-;
-bool
-DeallocPHttpChannelParent
-(
-PHttpChannelParent
-*
-)
 ;
 PStunAddrsRequestParent
 *
