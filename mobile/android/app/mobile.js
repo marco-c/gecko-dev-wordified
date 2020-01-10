@@ -2445,6 +2445,15 @@ collections
 /
 mob
 /
+?
+page
+=
+1
+&
+collection_sort
+=
+-
+popularity
 "
 )
 ;
