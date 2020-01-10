@@ -982,7 +982,7 @@ GMP
 thread
 .
 void
-WriteExtraDataForMinidump
+AddCrashAnnotations
 (
 )
 ;

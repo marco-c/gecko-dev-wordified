@@ -2518,6 +2518,17 @@ GeckoProcessType
 aProcessType
 )
 )
+XRE_API
+(
+const
+char
+*
+XRE_ChildProcessTypeToAnnotation
+(
+GeckoProcessType
+aProcessType
+)
+)
 #
 if
 defined
