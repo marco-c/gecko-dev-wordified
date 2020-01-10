@@ -676,7 +676,7 @@ ICU
 #
 define
 U_ICU_VERSION_MINOR_NUM
-1
+2
 /
 *
 *
@@ -882,6 +882,7 @@ ICU
 /
 *
 *
+*
 Disable
 the
 version
@@ -902,6 +903,15 @@ U_DISABLE_VERSION_SUFFIX
 internal
 *
 /
+#
+ifndef
+U_DISABLE_VERSION_SUFFIX
+#
+define
+U_DISABLE_VERSION_SUFFIX
+0
+#
+endif
 #
 ifndef
 U_ICU_ENTRY_POINT_RENAME
@@ -992,7 +1002,9 @@ U_LIB_SUFFIX_C_NAME
 #
 endif
 #
-elif
+else
+#
+if
 !
 U_DISABLE_VERSION_SUFFIX
 #
@@ -1038,6 +1050,8 @@ U_ICU_ENTRY_POINT_RENAME
 x
 )
 x
+#
+endif
 #
 endif
 #
@@ -1096,7 +1110,7 @@ U_ICU_VERSION
 "
 64
 .
-1
+2
 "
 /
 *
@@ -1246,7 +1260,7 @@ U_ICU_DATA_VERSION
 "
 64
 .
-1
+2
 "
 #
 endif

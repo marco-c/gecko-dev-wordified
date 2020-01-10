@@ -4013,7 +4013,7 @@ internal
 define
 JP_ERA_2019_ROOT
 "
-Qqqq
+Reiwa
 "
 /
 *
@@ -4056,10 +4056,10 @@ JP_ERA_2019_JA
 "
 \
 \
-uFF31
+u4EE4
 \
 \
-uFF31
+u548C
 "
 /
 *
@@ -4100,7 +4100,7 @@ internal
 define
 JP_ERA_2019_NARROW
 "
-Q
+R
 "
 #
 endif

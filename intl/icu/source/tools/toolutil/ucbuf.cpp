@@ -1297,7 +1297,7 @@ UChar
 ;
 }
 #
-if
+ifdef
 UCBUF_DEBUG
 memset
 (
@@ -2083,7 +2083,7 @@ pTarget
 )
 ;
 #
-if
+ifdef
 UCBUF_DEBUG
 {
 int

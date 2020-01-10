@@ -222,6 +222,12 @@ h
 "
 #
 if
+defined
+(
+U_LOCAL_SERVICE_HOOK
+)
+&
+&
 U_LOCAL_SERVICE_HOOK
 /
 *
