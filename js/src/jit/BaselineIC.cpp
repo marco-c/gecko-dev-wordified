@@ -1240,7 +1240,7 @@ MOZ_ASSERT
 jit
 :
 :
-IsBaselineInterpreterOrJitEnabled
+IsBaselineInterpreterEnabled
 (
 )
 )
