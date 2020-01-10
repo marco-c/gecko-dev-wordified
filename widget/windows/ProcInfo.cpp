@@ -513,6 +513,12 @@ const
 ProcType
 &
 type
+ipc
+:
+:
+GeckoChildProcessHost
+*
+childProcess
 )
 {
 auto
