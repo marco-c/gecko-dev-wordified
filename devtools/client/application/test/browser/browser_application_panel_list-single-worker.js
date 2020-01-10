@@ -187,7 +187,7 @@ length
 0
 )
 ;
-const
+let
 workerContainer
 =
 getWorkerContainers
@@ -222,6 +222,18 @@ waitUntil
 )
 =
 >
+{
+workerContainer
+=
+getWorkerContainers
+(
+doc
+)
+[
+0
+]
+;
+return
 workerContainer
 .
 querySelector
@@ -235,6 +247,8 @@ unregister
 button
 "
 )
+;
+}
 )
 ;
 const
