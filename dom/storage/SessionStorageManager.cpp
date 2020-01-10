@@ -425,9 +425,6 @@ aWindow
 nsIPrincipal
 *
 aPrincipal
-nsIPrincipal
-*
-aStoragePrincipal
 const
 nsAString
 &
@@ -554,13 +551,6 @@ From
 aWindow
 )
 ;
-/
-/
-No
-StoragePrincipal
-for
-sessionStorage
-.
 RefPtr
 <
 SessionStorage
@@ -601,9 +591,6 @@ aWindow
 nsIPrincipal
 *
 aPrincipal
-nsIPrincipal
-*
-aStoragePrincipal
 bool
 aPrivate
 Storage

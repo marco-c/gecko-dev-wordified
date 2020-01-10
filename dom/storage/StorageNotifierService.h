@@ -213,7 +213,7 @@ const
 virtual
 nsIPrincipal
 *
-GetEffectiveStoragePrincipal
+GetPrincipal
 (
 )
 const

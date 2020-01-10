@@ -504,7 +504,7 @@ GetPrincipal
 observer
 -
 >
-GetEffectiveStoragePrincipal
+GetPrincipal
 (
 )
 )

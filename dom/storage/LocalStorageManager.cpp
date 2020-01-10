@@ -1142,9 +1142,6 @@ aWindow
 nsIPrincipal
 *
 aPrincipal
-nsIPrincipal
-*
-aStoragePrincipal
 const
 nsAString
 &
@@ -1540,7 +1537,6 @@ this
 cache
 aDocumentURI
 aPrincipal
-aStoragePrincipal
 aPrivate
 )
 ;
@@ -1580,7 +1576,6 @@ CreateMode
 CreateIfShouldPreload
 nullptr
 aPrincipal
-aPrincipal
 EmptyString
 (
 )
@@ -1601,9 +1596,6 @@ aWindow
 nsIPrincipal
 *
 aPrincipal
-nsIPrincipal
-*
-aStoragePrincipal
 const
 nsAString
 &
@@ -1625,7 +1617,6 @@ CreateMode
 CreateAlways
 aWindow
 aPrincipal
-aStoragePrincipal
 aDocumentURI
 aPrivate
 aRetval
@@ -1644,9 +1635,6 @@ aWindow
 nsIPrincipal
 *
 aPrincipal
-nsIPrincipal
-*
-aStoragePrincipal
 bool
 aPrivate
 Storage
@@ -1664,7 +1652,6 @@ CreateMode
 UseIfExistsNeverCreate
 aWindow
 aPrincipal
-aStoragePrincipal
 EmptyString
 (
 )
