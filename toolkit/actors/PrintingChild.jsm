@@ -2884,7 +2884,7 @@ initOrReusePrintPreviewViewer
 (
 )
 .
-printPreviewNavigate
+printPreviewScrollToPage
 (
 navType
 pageNum

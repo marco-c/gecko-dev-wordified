@@ -22050,7 +22050,7 @@ NS_IMETHODIMP
 nsDocumentViewer
 :
 :
-PrintPreviewNavigate
+PrintPreviewScrollToPage
 (
 int16_t
 aType
