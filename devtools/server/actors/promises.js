@@ -1226,7 +1226,7 @@ this
 .
 _navigationLifetimePool
 .
-cleanup
+destroy
 (
 )
 ;
