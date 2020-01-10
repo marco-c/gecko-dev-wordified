@@ -333,6 +333,13 @@ getAppBuildID
 yes
 "
 ]
+recordTelemetryEvent
+:
+[
+"
+yes
+"
+]
 }
 "
 about
