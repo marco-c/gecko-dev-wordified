@@ -68,10 +68,18 @@ mozboot
 .
 linux_common
 import
-NasmInstall
-NodeInstall
-StyloInstall
+(
+    
 ClangStaticAnalysisInstall
+    
+NasmInstall
+    
+NodeInstall
+    
+SccacheInstall
+    
+StyloInstall
+)
 try
 :
     
@@ -101,6 +109,7 @@ NodeInstall
 StyloInstall
 ClangStaticAnalysisInstall
                          
+SccacheInstall
 BaseBootstrapper
 )
 :

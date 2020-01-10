@@ -69,10 +69,18 @@ mozboot
 .
 linux_common
 import
-NasmInstall
-NodeInstall
-StyloInstall
+(
+    
 ClangStaticAnalysisInstall
+    
+NasmInstall
+    
+NodeInstall
+    
+SccacheInstall
+    
+StyloInstall
+)
 MERCURIAL_INSTALL_PROMPT
 =
 '
@@ -218,6 +226,7 @@ NodeInstall
 StyloInstall
 ClangStaticAnalysisInstall
                          
+SccacheInstall
 BaseBootstrapper
 )
 :
