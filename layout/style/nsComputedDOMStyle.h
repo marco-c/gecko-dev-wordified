@@ -2081,11 +2081,12 @@ not
 /
 /
 affect
-mElement
+our
+element
 )
 .
 bool
-NeedsToFlush
+NeedsToFlushStyle
 (
 )
 const

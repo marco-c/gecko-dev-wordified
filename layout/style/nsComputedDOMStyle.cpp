@@ -4682,7 +4682,7 @@ bool
 nsComputedDOMStyle
 :
 :
-NeedsToFlush
+NeedsToFlushStyle
 (
 )
 const
@@ -4933,7 +4933,7 @@ needsToFlush
 aNeedsLayoutFlush
 |
 |
-NeedsToFlush
+NeedsToFlushStyle
 (
 )
 ;
