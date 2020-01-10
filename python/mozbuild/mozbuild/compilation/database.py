@@ -93,15 +93,9 @@ GeneratedSources
     
 DirectoryTraversal
     
-Linkable
-    
-LocalInclude
-    
 PerSourceFlag
     
 VariablePassthru
-    
-SimpleProgram
 )
 from
 mozbuild

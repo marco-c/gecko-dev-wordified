@@ -647,8 +647,8 @@ required_keys
 :
             
 if
-not
 required_key
+not
 in
 D
 :

@@ -109,8 +109,6 @@ collections
 import
 (
     
-defaultdict
-    
 Iterable
     
 OrderedDict
@@ -4590,6 +4588,7 @@ intersection
 raise
 ValueError
 (
+                    
 '
 Cannot
 update
@@ -4606,8 +4605,9 @@ configure
 s
 '
 %
-                                 
+                    
 intersection
+                    
 )
             
 self

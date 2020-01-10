@@ -5223,8 +5223,6 @@ False
     
 except
 IOError
-as
-e
 :
         
 return
@@ -7559,6 +7557,7 @@ is_taskcluster_auth
 True
         
 except
+Exception
 :
             
 pass

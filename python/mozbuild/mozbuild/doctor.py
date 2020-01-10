@@ -465,11 +465,21 @@ system
         
 elif
 False
+and
+fixable
 :
 #
 elif
 fixable
 :
+#
+'
+and
+fixable
+'
+avoids
+flake8
+error
             
 print
 (

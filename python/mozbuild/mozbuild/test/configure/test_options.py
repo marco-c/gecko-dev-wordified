@@ -9688,8 +9688,9 @@ self
 .
 assertRaisesRegexp
 (
+            
 InvalidOptionError
-                                     
+            
 "
 -
 -
@@ -9710,6 +9711,7 @@ from
 :
 mozconfig
 "
+        
 )
 :
             
@@ -9744,8 +9746,9 @@ self
 .
 assertRaisesRegexp
 (
+            
 InvalidOptionError
-                                     
+            
 "
 BAZ
 =
@@ -9764,6 +9767,7 @@ from
 :
 implied
 "
+        
 )
 :
             

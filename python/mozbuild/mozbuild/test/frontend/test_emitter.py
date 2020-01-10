@@ -87,8 +87,6 @@ data
 import
 (
     
-ChromeManifestEntry
-    
 ComputedFlags
     
 ConfigFileSubstitution
@@ -104,8 +102,6 @@ FinalTargetPreprocessedFiles
 GeneratedFile
     
 GeneratedSources
-    
-HostDefines
     
 HostProgram
     
@@ -172,12 +168,6 @@ BuildReaderError
     
 SandboxValidationError
 )
-from
-mozpack
-.
-chrome
-import
-manifest
 from
 mozbuild
 .
@@ -4584,8 +4574,9 @@ self
 .
 assertRaisesRegexp
 (
+            
 SandboxValidationError
-                                     
+            
 '
 Objdir
 file
@@ -4597,11 +4588,10 @@ in
 LOCALIZED_GENERATED_FILES
 :
 '
+        
 )
 :
             
-objs
-=
 self
 .
 read_topsrcdir
@@ -4670,8 +4660,9 @@ self
 .
 assertRaisesRegexp
 (
+            
 SandboxValidationError
-                                     
+            
 '
 Outputs
 of
@@ -4683,11 +4674,10 @@ in
 FINAL_TARGET_FILES
 :
 '
+        
 )
 :
             
-objs
-=
 self
 .
 read_topsrcdir
@@ -6618,7 +6608,9 @@ self
 .
 assertRaisesRegexp
 (
+            
 SandboxValidationError
+            
 '
 bar
 .
@@ -6627,7 +6619,7 @@ appears
 multiple
 times
 '
-                                     
+            
 '
 in
 a
@@ -6646,6 +6638,7 @@ duplicate
 entry
 .
 '
+        
 )
 :
             
@@ -9188,8 +9181,6 @@ topobjdir
 )
 :
             
-objs
-=
 self
 .
 read_topsrcdir
@@ -9240,8 +9231,6 @@ topobjdir
 )
 :
             
-objs
-=
 self
 .
 read_topsrcdir
@@ -9308,8 +9297,6 @@ filename
 )
 :
             
-objs
-=
 self
 .
 read_topsrcdir
@@ -12329,8 +12316,9 @@ self
 .
 assertRaisesRegexp
 (
+            
 SandboxValidationError
-                                     
+            
 '
 Only
 source
@@ -12341,6 +12329,7 @@ in
 FINAL_TARGET_PP_FILES
 :
 '
+        
 )
 :
             
@@ -12567,8 +12556,9 @@ self
 .
 assertRaisesRegexp
 (
+            
 SandboxValidationError
-                                     
+            
 '
 LOCALIZED_FILES
 paths
@@ -12592,11 +12582,10 @@ foo
 .
 js
 '
+        
 )
 :
             
-objs
-=
 self
 .
 read_topsrcdir
@@ -14706,8 +14695,9 @@ self
 .
 assertRaisesRegexp
 (
+            
 SandboxValidationError
-                                     
+            
 '
 Objdir
 file
@@ -14719,6 +14709,7 @@ in
 GENERATED_FILES
 :
 '
+        
 )
 :
             

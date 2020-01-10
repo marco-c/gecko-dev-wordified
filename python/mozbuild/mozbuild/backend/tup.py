@@ -78,10 +78,6 @@ as
 mozpath
 from
 mozbuild
-import
-shellutil
-from
-mozbuild
 .
 analyze
 .
@@ -102,23 +98,6 @@ mozbuild
 base
 import
 MozbuildObject
-from
-mozbuild
-.
-backend
-.
-base
-import
-PartialBackend
-HybridBackend
-from
-mozbuild
-.
-backend
-.
-recursivemake
-import
-RecursiveMakeBackend
 from
 mozbuild
 .
@@ -228,8 +207,6 @@ import
 (
     
 FileAvoidWrite
-    
-expand_variables
 )
 from
 .
@@ -768,6 +745,7 @@ self
 .
 write
 (
+(
 '
 :
 %
@@ -794,6 +772,9 @@ cmd
 s
 |
 >
+'
+                    
+'
 %
 (
 outputs
@@ -807,6 +788,7 @@ s
 \
 n
 '
+)
 %
 {
             
@@ -1912,6 +1894,8 @@ self
 .
 _built_in_addons_file
 =
+\
+            
 '
 dist
 /
@@ -5042,6 +5026,7 @@ var
 gen_method
 in
 (
+                
 (
 backend_file
 .
@@ -5050,7 +5035,7 @@ self
 .
 _gen_shared_library
 )
-                                    
+                
 (
 backend_file
 .
@@ -5061,12 +5046,12 @@ backend_file
 static_lib
 .
 no_expand_lib
-                                     
+                 
 self
 .
 _gen_static_library
 )
-                                    
+                
 (
 backend_file
 .
@@ -5075,7 +5060,7 @@ self
 .
 _gen_programs
 )
-                                    
+                
 (
 backend_file
 .
@@ -5084,6 +5069,7 @@ self
 .
 _gen_host_programs
 )
+            
 )
 :
                 
@@ -5192,6 +5178,7 @@ acdefines_flags
 .
 join
 (
+                
 [
 '
 -
@@ -5210,7 +5197,7 @@ shell_quote
 value
 )
 )
-                                        
+                 
 for
 (
 name
@@ -6495,7 +6482,6 @@ cargo_library_flags
 ]
         
 if
-(
 not
 obj
 .
@@ -6510,7 +6496,6 @@ DEVELOPER_OPTIONS
 '
 )
 and
-            
 not
 obj
 .
@@ -6520,10 +6505,11 @@ substs
 .
 get
 (
+            
 '
 MOZ_DEBUG_RUST
 '
-)
+        
 )
 :
             
@@ -6539,27 +6525,6 @@ C
 lto
 '
 ]
-        
-rust_build_home
-=
-mozpath
-.
-join
-(
-self
-.
-environment
-.
-topobjdir
-                                       
-'
-toolkit
-/
-library
-/
-rust
-'
-)
         
 def
 display_name
@@ -7063,6 +7028,7 @@ program
 )
 in
 [
+                
 '
 build
 -
@@ -7077,6 +7043,7 @@ script
 -
 main
 '
+            
 ]
 :
                 
@@ -9130,6 +9097,7 @@ basepath
 raise
 Exception
 (
+                                    
 "
 Wildcards
 are
@@ -9141,7 +9109,7 @@ filename
 part
 of
 "
-                                                
+                                    
 "
 srcdir
 -
@@ -9396,21 +9364,6 @@ prefix
 )
 :
                                 
-install_dir
-=
-prefix
-[
-len
-(
-obj
-.
-srcdir
-)
-+
-1
-:
-]
-                                
 output
 =
 p
@@ -9513,6 +9466,7 @@ f
 target_basename
 p
 )
+                            
 for
 p
 in

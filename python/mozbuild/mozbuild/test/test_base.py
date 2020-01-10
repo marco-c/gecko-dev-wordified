@@ -104,8 +104,6 @@ MachCommandBase
     
 MozbuildObject
     
-ObjdirMismatchException
-    
 PathArgument
 )
 from

@@ -132,8 +132,6 @@ HostLibrary
     
 HostGeneratedSources
     
-HostRustLibrary
-    
 IPDLCollection
     
 LocalizedPreprocessedFiles
@@ -185,8 +183,6 @@ mozbuild
 util
 import
 (
-    
-group_unified_files
     
 mkdir
 )
@@ -1220,6 +1216,7 @@ self
 .
 _handle_generated_sources
 (
+                
 mozpath
 .
 join
@@ -1242,7 +1239,7 @@ h
 %
 stem
 )
-                                           
+                
 for
 stem
 in
@@ -2677,6 +2674,8 @@ MOZ_WINDOWS_WRAPPER_DISABLED_REASON
 \
 n
 '
+#
+noqa
                     
 '
 #

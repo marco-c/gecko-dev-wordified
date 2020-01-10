@@ -302,6 +302,7 @@ print
 sys
 .
 stderr
+(
 "
 TEST
 -
@@ -312,6 +313,9 @@ FAIL
 xpccheck
 |
 test
+"
+                                 
+"
 %
 s
 is
@@ -323,10 +327,12 @@ manifest
 s
 !
 "
+)
 %
 (
                 
 name
+                
 os
 .
 path
@@ -340,6 +346,7 @@ xpcshell
 ini
 '
 )
+            
 )
             
 sys
@@ -513,6 +520,7 @@ print
 sys
 .
 stderr
+(
 "
 TEST
 -
@@ -523,6 +531,9 @@ FAIL
 xpccheck
 |
 found
+"
+                                 
+"
 %
 s
 in
@@ -538,9 +549,10 @@ directory
 s
 '
 "
+                                 
+)
 %
 (
-                
 name
 directory
 )
@@ -601,13 +613,6 @@ exit
 (
 1
 )
-    
-topsrcdir
-=
-argv
-[
-0
-]
     
 for
 d

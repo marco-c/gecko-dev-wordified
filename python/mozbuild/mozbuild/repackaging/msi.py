@@ -537,17 +537,17 @@ manifest
 .
     
 if
-not
 '
 a
 '
+not
 in
 version
 and
-not
 '
 b
 '
+not
 in
 version
 :

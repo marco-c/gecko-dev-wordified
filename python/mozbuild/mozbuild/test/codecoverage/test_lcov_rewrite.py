@@ -56,8 +56,6 @@ MPL
 import
 os
 import
-subprocess
-import
 unittest
 import
 shutil
@@ -1973,6 +1971,7 @@ netError
 xhtml
 '
 :
+                    
 '
 chrome
 :
@@ -2432,32 +2431,6 @@ self
 )
 :
         
-app_name
-=
-buildconfig
-.
-substs
-.
-get
-(
-'
-MOZ_APP_NAME
-'
-)
-        
-omnijar_name
-=
-buildconfig
-.
-substs
-.
-get
-(
-'
-OMNIJAR_NAME
-'
-)
-        
 paths
 =
 [
@@ -2789,6 +2762,8 @@ osfile_async_worker
 .
 js
 '
+#
+noqa
              
 (
 '

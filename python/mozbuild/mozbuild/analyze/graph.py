@@ -754,8 +754,7 @@ unique
             
 if
 ret
-=
-=
+is
 None
 :
                 

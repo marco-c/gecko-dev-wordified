@@ -62,8 +62,6 @@ cPickle
 as
 pickle
 import
-json
-import
 os
 import
 unittest
@@ -3877,6 +3875,8 @@ stub
 env
 .
 topsrcdir
+#
+noqa
             
 '
 (
@@ -4044,6 +4044,8 @@ env
 .
 topsrcdir
 )
+#
+noqa
             
 '
 (
@@ -4297,6 +4299,8 @@ stub
 env
 .
 topsrcdir
+#
+noqa
             
 '
 (
@@ -4464,6 +4468,8 @@ env
 .
 topsrcdir
 )
+#
+noqa
             
 '
 (
@@ -4688,6 +4694,8 @@ FORCE
 env
 .
 topsrcdir
+#
+noqa
             
 '
 (
@@ -4759,6 +4767,8 @@ input
 env
 .
 topsrcdir
+#
+noqa
             
 '
 (
@@ -5020,6 +5030,8 @@ FORCE
 env
 .
 topsrcdir
+#
+noqa
             
 '
 (
@@ -5091,6 +5103,8 @@ input
 env
 .
 topsrcdir
+#
+noqa
             
 '
 (
@@ -5209,6 +5223,8 @@ FORCE
 env
 .
 topsrcdir
+#
+noqa
             
 '
 (
@@ -5280,6 +5296,8 @@ input
 env
 .
 topsrcdir
+#
+noqa
             
 '
 (
@@ -5538,6 +5556,8 @@ FORCE
 env
 .
 topsrcdir
+#
+noqa
             
 '
 (
@@ -5618,6 +5638,8 @@ input
 env
 .
 topsrcdir
+#
+noqa
             
 '
 (
@@ -5761,6 +5783,8 @@ FORCE
 env
 .
 topsrcdir
+#
+noqa
             
 '
 (
@@ -5844,6 +5868,8 @@ input
 env
 .
 topsrcdir
+#
+noqa
             
 '
 (
@@ -5972,6 +5998,8 @@ FORCE
 env
 .
 topsrcdir
+#
+noqa
             
 '
 (
@@ -6053,6 +6081,8 @@ input
 env
 .
 topsrcdir
+#
+noqa
             
 '
 (
@@ -8044,6 +8074,7 @@ IPDL_SOURCES
 are
 written
 to
+        
 ipdlsrcs
 .
 mk
@@ -8233,12 +8264,13 @@ ipdlh
 tuple
 (
 [
-                                                                                                                              
 topsrcdir
 ]
 *
 4
 )
+#
+noqa
             
 "
 CPPSRCS
@@ -8688,23 +8720,6 @@ readlines
 ]
 ]
         
-topobjdir
-=
-env
-.
-topobjdir
-.
-replace
-(
-'
-\
-\
-'
-'
-/
-'
-)
-        
 expected
 =
 [
@@ -8905,6 +8920,8 @@ a
 env
 .
 topobjdir
+#
+noqa
             
 '
 CARGO_FILE
@@ -9082,6 +9099,8 @@ a
 env
 .
 topobjdir
+#
+noqa
             
 '
 CARGO_FILE
@@ -9264,6 +9283,8 @@ a
 env
 .
 topobjdir
+#
+noqa
             
 '
 CARGO_FILE
@@ -9451,6 +9472,8 @@ a
 env
 .
 topobjdir
+#
+noqa
             
 '
 CARGO_FILE
@@ -9840,6 +9863,8 @@ DIST_SUBDIR
 %
 )
 "
+#
+noqa
         
 expected
 =

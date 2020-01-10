@@ -103,14 +103,6 @@ find_common_attrs
 from
 mozbuild
 .
-backend
-.
-recursivemake
-import
-RecursiveMakeBackend
-from
-mozbuild
-.
 frontend
 .
 data

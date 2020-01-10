@@ -59,8 +59,6 @@ import
 absolute_import
 print_function
 unicode_literals
-import
-sys
 from
 mozunit
 import
@@ -1354,8 +1352,6 @@ assertRaises
 (
 SystemExit
 )
-as
-e
 :
             
 check_nsis_version
@@ -1374,8 +1370,6 @@ assertRaises
 (
 SystemExit
 )
-as
-e
 :
             
 check_nsis_version

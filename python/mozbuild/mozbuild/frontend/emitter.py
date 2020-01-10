@@ -112,8 +112,6 @@ import
     
 BaseRustProgram
     
-BaseSources
-    
 ChromeManifestEntry
     
 ComputedFlags
@@ -256,8 +254,6 @@ ObjDirPath
 Path
     
 SubContext
-    
-TemplateContext
 )
 from
 mozbuild
@@ -3215,9 +3211,9 @@ static
 '
 %
 (
+                    
 variable
 path
-                                                        
 name
 candidates
 [
@@ -4349,9 +4345,9 @@ s
 '
 %
 (
+                        
 program
 kind
-                                                          
 self
 .
 _binaries
@@ -4733,9 +4729,9 @@ s
 '
 %
 (
+                            
 program
 kind
-                                                              
 self
 .
 _binaries
@@ -4850,12 +4846,10 @@ libname
 raise
 SandboxValidationError
 (
+                    
 '
 LIBRARY_NAME
 and
-'
-                                             
-'
 HOST_LIBRARY_NAME
 must
 have
@@ -6372,7 +6366,7 @@ SOURCES
 '
 :
                     
-flags
+context_flags
 =
 context_srcs
 [
@@ -6380,7 +6374,7 @@ f
 ]
                     
 if
-flags
+context_flags
 :
                         
 all_flags
@@ -6388,7 +6382,7 @@ all_flags
 full_path
 ]
 =
-flags
+context_flags
                     
 #
 Files
@@ -6417,7 +6411,7 @@ special
 .
                     
 if
-flags
+context_flags
 .
 pgo_generate_only
 :
@@ -6434,12 +6428,10 @@ Path
 raise
 SandboxValidationError
 (
+                                
 '
 pgo_generate_only
 file
-'
-                                                         
-'
 must
 not
 be
@@ -6452,6 +6444,7 @@ s
 '
 %
 f
+                                
 context
 )
                         
@@ -6498,7 +6491,7 @@ context
 )
                         
 if
-flags
+context_flags
 .
 no_pgo
 :
@@ -6506,12 +6499,10 @@ no_pgo
 raise
 SandboxValidationError
 (
+                                
 '
 pgo_generate_only
 files
-'
-                                                         
-'
 cannot
 be
 marked
@@ -8968,6 +8959,7 @@ in
 DEFINES
 '
 Defines
+                                                 
 (
 computed_flags
 computed_as_flags
@@ -8979,10 +8971,12 @@ computed_as_flags
 HOST_DEFINES
 '
 HostDefines
+                                                 
 (
 computed_host_flags
 )
 )
+                                                
 )
 :
             
@@ -9274,14 +9268,12 @@ full_path
 raise
 SandboxValidationError
 (
+                        
 '
 Path
 specified
 in
 LOCAL_INCLUDES
-'
-                                                 
-'
 does
 not
 exist
@@ -9296,9 +9288,9 @@ s
 )
 '
 %
+                        
 (
 local_include
-                                                                                          
 full_path
 )
 context
@@ -9353,6 +9345,7 @@ s
 local_include
 full_path
 )
+                                                 
 context
 )
             
@@ -9382,13 +9375,14 @@ topobjdir
 raise
 SandboxValidationError
 (
+                    
 '
 Path
 specified
 in
 LOCAL_INCLUDES
 '
-                                             
+                    
 '
 (
 %
@@ -9407,7 +9401,7 @@ s
 which
 is
 '
-                                             
+                    
 '
 not
 allowed
@@ -10220,31 +10214,35 @@ SandboxValidationError
 (
                                     
 (
+                                        
 '
 Outputs
 of
 LOCALIZED_GENERATED_FILES
 cannot
+'
+                                        
+'
 be
 used
 in
 %
 s
 :
-'
-+
-                                     
-'
 %
 s
 '
+                                    
 )
+                                    
 %
 (
 var
 f
 )
+                                    
 context
+                                
 )
             
 #
@@ -12229,12 +12227,13 @@ external_installs
 raise
 SandboxValidationError
 (
+                            
 '
 Error
 processing
 test
 '
-                                                     
+                            
 '
 manifest
 %
@@ -12248,7 +12247,7 @@ files
 not
 present
 '
-                                                     
+                            
 '
 in
 the
@@ -12597,12 +12596,13 @@ KeyError
 raise
 SandboxValidationError
 (
+                        
 '
 Error
 processing
 test
 '
-                                                 
+                        
 '
 manifest
 %
@@ -12616,7 +12616,7 @@ files
 not
 present
 '
-                                                 
+                        
 '
 elsewhere
 in
@@ -12646,12 +12646,13 @@ Exception
 raise
 SandboxValidationError
 (
+                
 '
 Error
 processing
 test
 '
-                                         
+                
 '
 manifest
 file
@@ -12664,7 +12665,7 @@ s
 %
 (
 path
-                                                                   
+                                          
 '
 \
 n
@@ -12685,7 +12686,7 @@ exc_info
 )
 )
 )
-                                         
+                
 context
 )
     
