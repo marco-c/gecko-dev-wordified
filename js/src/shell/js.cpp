@@ -10821,7 +10821,7 @@ compileOnly
 JS
 :
 :
-CompileUtf8Path
+CompileUtf8PathDontInflate
 (
 cx
 opts
@@ -10838,7 +10838,7 @@ nullptr
 JS
 :
 :
-EvaluateUtf8Path
+EvaluateUtf8PathDontInflate
 (
 cx
 opts
