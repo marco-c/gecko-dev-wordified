@@ -148,6 +148,17 @@ include
 "
 mozilla
 /
+dom
+/
+AudioContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SharedThreadPool
 .
 h
@@ -2288,8 +2299,7 @@ class
 AsyncCubebOperation
 {
 INIT
-START
-STOP
+REVIVE
 SHUTDOWN
 }
 ;
