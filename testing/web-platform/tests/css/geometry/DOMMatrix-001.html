@@ -938,6 +938,14 @@ elements
 }
 )
 ;
+{
+const
+epsilon
+=
+0
+.
+0000000005
+;
 [
 '
 scale
@@ -1041,7 +1049,7 @@ function
 (
 )
 {
-checkDOMMatrix
+checkMatrix
 (
 new
 self
@@ -1052,6 +1060,9 @@ constr
 string
 )
 scaleTranslate2D
+{
+epsilon
+}
 )
 ;
 }
@@ -1072,6 +1083,7 @@ string
 }
 )
 ;
+}
 [
 '
 translateX
