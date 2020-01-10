@@ -1410,6 +1410,14 @@ CKM_NSS
 +
 32
 )
+#
+define
+CKM_NSS_CHACHA20_CTR
+(
+CKM_NSS
++
+33
+)
 /
 *
 *

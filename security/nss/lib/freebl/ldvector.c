@@ -558,6 +558,17 @@ Version
 020
 *
 /
+ChaCha20_Xor
+/
+*
+End
+of
+version
+3
+.
+021
+*
+/
 }
 ;
 const
