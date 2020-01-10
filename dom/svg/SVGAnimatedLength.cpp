@@ -305,8 +305,7 @@ uint16_t
 unit
 )
 {
-if
-(
+return
 unit
 >
 SVGLength_Binding
@@ -322,12 +321,6 @@ SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PC
-)
-return
-true
-;
-return
-false
 ;
 }
 static

@@ -8226,8 +8226,7 @@ return
 false
 ;
 }
-if
-(
+return
 !
 style
 -
@@ -8242,14 +8241,6 @@ HasStroke
 (
 aFrame
 )
-)
-{
-return
-true
-;
-}
-return
-false
 ;
 }
 gfxMatrix

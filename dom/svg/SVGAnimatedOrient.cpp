@@ -539,8 +539,7 @@ uint16_t
 unit
 )
 {
-if
-(
+return
 unit
 >
 SVG_ANGLETYPE_UNKNOWN
@@ -550,12 +549,6 @@ unit
 <
 =
 SVG_ANGLETYPE_GRAD
-)
-return
-true
-;
-return
-false
 ;
 }
 static
