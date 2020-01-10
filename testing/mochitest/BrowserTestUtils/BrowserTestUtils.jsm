@@ -111,7 +111,6 @@ removeEventListener
 sendAsyncMessage
 addMessageListener
 removeMessageListener
-privateNoteIntentionalCrash
 ContentTaskUtils
 *
 /

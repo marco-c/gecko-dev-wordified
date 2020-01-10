@@ -62,12 +62,6 @@ strict
 "
 ;
 /
-*
-global
-gTelemetry
-*
-/
-/
 /
 React
 const
