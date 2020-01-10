@@ -344,24 +344,6 @@ opt
 '
     
 '
-android
--
-em
--
-4
-.
-3
--
-arm7
--
-api
--
-16
-/
-opt
-'
-    
-'
 linux64
 /
 opt
