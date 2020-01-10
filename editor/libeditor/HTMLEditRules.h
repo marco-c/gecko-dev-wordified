@@ -838,11 +838,6 @@ kStart
 kEnd
 }
 ;
-void
-InitFields
-(
-)
-;
 /
 *
 *
