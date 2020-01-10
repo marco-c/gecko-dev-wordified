@@ -161,8 +161,6 @@ getSymbols
 (
 source
 .
-source
-.
 id
 )
 ;
@@ -215,8 +213,6 @@ symbols
 =
 getSymbols
 (
-source
-.
 source
 .
 id
@@ -272,8 +268,6 @@ symbols
 =
 getSymbols
 (
-source
-.
 source
 .
 id
@@ -344,8 +338,6 @@ getSymbols
 (
 source
 .
-source
-.
 id
 )
 ;
@@ -400,8 +392,6 @@ getSymbols
 (
 source
 .
-source
-.
 id
 )
 ;
@@ -454,8 +444,6 @@ symbols
 =
 getSymbols
 (
-source
-.
 source
 .
 id
