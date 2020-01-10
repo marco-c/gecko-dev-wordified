@@ -2783,7 +2783,7 @@ set
 "
                 
 "
-server_replay
+server_replay_files
 =
 {
 }

@@ -518,7 +518,7 @@ add_option
 (
             
 "
-server_replay
+server_replay_files
 "
             
 typing
@@ -1059,7 +1059,7 @@ ctx
 .
 options
 .
-server_replay
+server_replay_files
 :
             
 self
@@ -1076,7 +1076,7 @@ ctx
 .
 options
 .
-server_replay
+server_replay_files
 )
     
 def
