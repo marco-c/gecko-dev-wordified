@@ -419,6 +419,7 @@ getRemoteTypeForURIObject
 (
 plainUri
 true
+false
 preferredRemoteType
 )
 ;
@@ -445,6 +446,7 @@ getRemoteTypeForURIObject
 (
 nestedUri
 true
+false
 preferredRemoteType
 )
 ;

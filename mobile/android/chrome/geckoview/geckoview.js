@@ -688,6 +688,12 @@ this
 settings
 .
 useMultiprocess
+/
+*
+useRemoteSubframes
+*
+/
+false
 currentType
 this
 .

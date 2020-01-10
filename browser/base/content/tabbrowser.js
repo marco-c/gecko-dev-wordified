@@ -1960,6 +1960,7 @@ getRemoteTypeForURI
 (
 uriToLoad
 gMultiProcessBrowser
+gFissionBrowser
 E10SUtils
 .
 DEFAULT_REMOTE_TYPE
@@ -11034,6 +11035,7 @@ getRemoteTypeForURI
 (
 aURL
 gMultiProcessBrowser
+gFissionBrowser
 oldRemoteType
 aBrowser
 .
@@ -12407,6 +12409,7 @@ getRemoteTypeForURI
 (
 url
 gMultiProcessBrowser
+gFissionBrowser
 undefined
 uri
 )
@@ -15186,6 +15189,7 @@ originalReferrer
 .
 spec
 gMultiProcessBrowser
+gFissionBrowser
 )
 ;
 }
@@ -15204,6 +15208,7 @@ getRemoteTypeForURI
 (
 aURI
 gMultiProcessBrowser
+gFissionBrowser
 preferredRemoteType
 )
 ;
