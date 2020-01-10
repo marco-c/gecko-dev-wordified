@@ -170,14 +170,10 @@ return
 setupStore
 (
 {
-preloadedState
-:
-{
 ui
 :
 {
 selectedPage
-}
 }
 }
 )

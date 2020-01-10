@@ -167,9 +167,6 @@ return
 setupStore
 (
 {
-preloadedState
-:
-{
 manifest
 :
 {
@@ -178,7 +175,6 @@ errorMessage
 :
 "
 "
-}
 }
 }
 )
