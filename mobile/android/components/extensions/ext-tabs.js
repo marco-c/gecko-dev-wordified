@@ -1975,6 +1975,17 @@ url
 )
 ;
 }
+let
+options
+=
+{
+triggeringPrincipal
+:
+context
+.
+principal
+}
+;
 nativeTab
 .
 browser
@@ -1982,6 +1993,7 @@ browser
 loadURI
 (
 url
+options
 )
 ;
 }
