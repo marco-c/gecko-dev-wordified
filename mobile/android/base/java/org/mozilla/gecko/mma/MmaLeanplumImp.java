@@ -1202,6 +1202,9 @@ getWelcomeImage
 case
 PRIVACY
 :
+case
+LAST_PRIVACY
+:
 return
 new
 PanelConfig
