@@ -8615,9 +8615,6 @@ _chromeWindow
 dialogTitle
 dialogText
 usernames
-.
-length
-usernames
 selectedIndex
 )
 ;

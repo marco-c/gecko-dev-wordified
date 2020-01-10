@@ -724,7 +724,6 @@ select
 (
 title
 text
-aCount
 aSelectList
 aOutSelection
 )
