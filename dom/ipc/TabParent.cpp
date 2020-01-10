@@ -2668,6 +2668,10 @@ mBrowserDOMWindow
 =
 nullptr
 ;
+mBrowserBridgeParent
+=
+nullptr
+;
 if
 (
 mIsDestroyed
