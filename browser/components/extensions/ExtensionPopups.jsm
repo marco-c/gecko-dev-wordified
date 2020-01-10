@@ -2942,6 +2942,11 @@ browser
 extension
 -
 panel
+panel
+-
+no
+-
+padding
 "
 )
 ;

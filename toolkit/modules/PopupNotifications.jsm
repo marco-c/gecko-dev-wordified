@@ -1499,6 +1499,13 @@ notification
 -
 panel
 "
+"
+panel
+-
+no
+-
+padding
+"
 )
 ;
 /
