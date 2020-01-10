@@ -146,10 +146,12 @@ providers
 '
 )
     
+classmethod
+    
 def
 get_mach
 (
-self
+cls
 provider_file
 =
 None
@@ -213,7 +215,7 @@ path
 .
 join
 (
-self
+cls
 .
 provider_dir
 provider_file
