@@ -138,7 +138,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -550,7 +552,7 @@ mNextSortIndex
 )
 mUseDepthBuffer
 (
-gfxPrefs
+StaticPrefs
 :
 :
 AdvancedLayersEnableDepthBuffer
@@ -1354,7 +1356,7 @@ translation
 |
 |
 !
-gfxPrefs
+StaticPrefs
 :
 :
 AdvancedLayersEnableCPUOcclusion

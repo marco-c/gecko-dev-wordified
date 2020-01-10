@@ -137,6 +137,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 LayerMetricsWrapper
@@ -1756,7 +1765,7 @@ resampling
 artifacts
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 TileEdgePaddingEnabled

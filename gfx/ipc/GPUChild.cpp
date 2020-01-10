@@ -161,6 +161,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -1135,7 +1144,7 @@ XRE_IsParentProcess
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VRProcessEnabled
@@ -1228,7 +1237,7 @@ XRE_IsParentProcess
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VRProcessEnabled

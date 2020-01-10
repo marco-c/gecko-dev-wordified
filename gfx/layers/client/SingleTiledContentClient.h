@@ -188,7 +188,7 @@ is
 controlled
 by
 *
-gfxPrefs
+StaticPrefs
 :
 :
 PerTileDrawing

@@ -291,7 +291,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -1468,7 +1470,7 @@ caps
 )
 mWorkAroundDriverBugs
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WorkAroundDriverBugs

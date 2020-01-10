@@ -157,14 +157,16 @@ h
 #
 include
 "
-gfxPrefs
+gfxWindowsPlatform
 .
 h
 "
 #
 include
 "
-gfxWindowsPlatform
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -1694,7 +1696,7 @@ ALLOC_DEFAULT
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 PDMWMFUseSyncTexture

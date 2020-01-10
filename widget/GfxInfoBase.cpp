@@ -232,6 +232,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D
@@ -4241,7 +4250,7 @@ aStatus
 int32_t
 blocklistAll
 =
-gfxPrefs
+StaticPrefs
 :
 :
 BlocklistAll

@@ -124,13 +124,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 GPUProcessHost
 .
 h
@@ -2471,7 +2464,7 @@ prefs
 int32_t
 timeLimit
 =
-gfxPrefs
+StaticPrefs
 :
 :
 DeviceResetThresholdMilliseconds
@@ -2481,7 +2474,7 @@ DeviceResetThresholdMilliseconds
 int32_t
 countLimit
 =
-gfxPrefs
+StaticPrefs
 :
 :
 DeviceResetLimitCount
