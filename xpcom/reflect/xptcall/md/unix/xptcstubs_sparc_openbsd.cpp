@@ -302,14 +302,6 @@ params
 "
 )
 ;
-if
-(
-!
-dispatchParams
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 uint32_t
 *
 ap

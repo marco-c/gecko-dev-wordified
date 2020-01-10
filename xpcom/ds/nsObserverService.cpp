@@ -1100,16 +1100,6 @@ nsObserverService
 (
 )
 ;
-if
-(
-!
-os
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-}
 /
 /
 The

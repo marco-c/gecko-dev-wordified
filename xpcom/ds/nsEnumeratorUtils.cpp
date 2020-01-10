@@ -1190,16 +1190,6 @@ aFirstEnumerator
 aSecondEnumerator
 )
 ;
-if
-(
-!
-enumer
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-}
 *
 aResult
 =
