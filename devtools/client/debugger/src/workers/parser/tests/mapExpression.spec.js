@@ -134,7 +134,7 @@ expression
 parser
 :
 "
-babylon
+babel
 "
 }
 )
@@ -149,7 +149,7 @@ newExpression
 parser
 :
 "
-babylon
+babel
 "
 }
 )

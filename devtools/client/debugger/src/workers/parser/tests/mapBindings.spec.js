@@ -125,7 +125,7 @@ false
 parser
 :
 "
-babylon
+babel
 "
 }
 )
