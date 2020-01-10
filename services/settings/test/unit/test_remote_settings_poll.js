@@ -3555,9 +3555,9 @@ Content
 Type
 "
 "
-application
+text
 /
-json
+html
 ;
 charset
 =
