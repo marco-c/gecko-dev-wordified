@@ -3404,8 +3404,9 @@ faster
 dynamic
 events
 .
-if
-(
+auto
+dynamicNonBuiltin
+=
 eventKey
 -
 >
@@ -3425,6 +3426,10 @@ id
 ]
 .
 builtin
+;
+if
+(
+dynamicNonBuiltin
 )
 {
 processType
@@ -3543,10 +3548,7 @@ method
 object
 )
 processType
-eventKey
--
->
-dynamic
+dynamicNonBuiltin
 )
 ;
 /
