@@ -128,13 +128,13 @@ root
         
 cfg
 .
-locales
-.
-append
+set_locales
 (
+[
 '
 de
 '
+]
 )
         
 cfg
@@ -540,13 +540,13 @@ l10n
         
 cfg
 .
-locales
-.
-append
+set_locales
 (
+[
 '
 de
 '
+]
 )
         
 cfg
@@ -861,13 +861,13 @@ l10n
         
 cfg
 .
-locales
-.
-append
+set_locales
 (
+[
 '
 de
 '
+]
 )
         
 cfg
@@ -1616,9 +1616,7 @@ None
         
 cfg
 .
-locales
-.
-extend
+set_locales
 (
 [
 '
@@ -2063,13 +2061,13 @@ l10n
         
 cfg
 .
-locales
-.
-append
+set_locales
 (
+[
 '
 de
 '
+]
 )
         
 cfg

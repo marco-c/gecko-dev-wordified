@@ -1335,6 +1335,21 @@ items
 )
 :
                 
+#
+Not
+all
+locales
+are
+on
+all
+projects
+                
+#
+default
+to
+empty
+summary
+                
 lst
 .
 append
@@ -1346,6 +1361,8 @@ summary
 get
 (
 loc
+{
+}
 )
 )
         
@@ -1394,6 +1411,8 @@ summary
 get
 (
 loc
+{
+}
 )
 )
         

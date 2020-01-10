@@ -126,6 +126,8 @@ compareProjects
             
 project_configs
             
+locales
+            
 l10n_base_dir
             
 stat_observer
@@ -147,10 +149,11 @@ quiet
 )
 :
     
-locales
+all_locales
 =
 set
 (
+locales
 )
     
 comparer
@@ -186,8 +189,6 @@ mode
 if
 None
 in
-project
-.
 locales
 :
             
@@ -223,13 +224,18 @@ filter
 )
 )
         
+if
+not
 locales
+:
+            
+all_locales
 .
 update
 (
 project
 .
-locales
+all_locales
 )
     
 for
@@ -237,7 +243,7 @@ locale
 in
 sorted
 (
-locales
+all_locales
 )
 :
         
