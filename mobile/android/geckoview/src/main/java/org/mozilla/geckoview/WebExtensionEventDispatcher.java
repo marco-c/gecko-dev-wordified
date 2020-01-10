@@ -968,8 +968,8 @@ callback
 final
 WebExtension
 .
-MessageDelegateInfo
-delegateInfo
+MessageDelegate
+delegate
 =
 sender
 .
@@ -984,7 +984,7 @@ nativeApp
 ;
 if
 (
-delegateInfo
+delegate
 =
 =
 null
@@ -1060,8 +1060,6 @@ null
 ;
 }
 return
-delegateInfo
-.
 delegate
 ;
 }
