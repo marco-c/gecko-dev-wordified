@@ -985,7 +985,7 @@ false
 bool
 fieldsEnabledOption
 =
-true
+false
 ;
 /
 *
