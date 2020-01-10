@@ -2747,6 +2747,8 @@ nsIURI
 *
 referrer
 uint32_t
+originalReferrerPolicy
+uint32_t
 referrerPolicy
 )
 {
@@ -2783,6 +2785,10 @@ referrer
 mReferrer
 =
 referrer
+;
+mOriginalReferrerPolicy
+=
+originalReferrerPolicy
 ;
 mReferrerPolicy
 =
@@ -4470,6 +4476,9 @@ mProxyResolveFlags
 ;
 uint32_t
 mContentDispositionHint
+;
+uint32_t
+mOriginalReferrerPolicy
 ;
 uint32_t
 mReferrerPolicy
