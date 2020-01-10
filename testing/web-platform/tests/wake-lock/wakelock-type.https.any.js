@@ -10,7 +10,7 @@ request
 (
 )
 with
-invaild
+invalid
 type
 promise_test
 (
