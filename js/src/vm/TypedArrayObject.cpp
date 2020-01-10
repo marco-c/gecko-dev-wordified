@@ -11089,7 +11089,7 @@ JS_ReportErrorNumberASCII
 cx
 GetErrorMessage
 nullptr
-JSMSG_BAD_ARRAY_LENGTH
+JSMSG_SOURCE_ARRAY_TOO_LONG
 )
 ;
 return
@@ -11364,7 +11364,7 @@ JS_ReportErrorNumberASCII
 cx
 GetErrorMessage
 nullptr
-JSMSG_BAD_ARRAY_LENGTH
+JSMSG_SOURCE_ARRAY_TOO_LONG
 )
 ;
 return
