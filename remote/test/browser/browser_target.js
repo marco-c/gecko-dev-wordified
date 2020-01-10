@@ -374,10 +374,12 @@ createTarget
 ok
 (
 true
-"
 Target
 created
-"
+:
+{
+targetId
+}
 )
 ;
 ok
