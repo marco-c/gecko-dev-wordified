@@ -557,17 +557,6 @@ webconsole
 .
 sidebarToggle
 "
-JSTERM_CODE_MIRROR
-:
-"
-devtools
-.
-webconsole
-.
-jsterm
-.
-codeMirror
-"
 AUTOCOMPLETE
 :
 "

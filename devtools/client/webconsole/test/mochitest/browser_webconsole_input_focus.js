@@ -432,13 +432,6 @@ hud
 jsterm
 .
 node
-|
-|
-hud
-.
-jsterm
-.
-inputNode
 ;
 return
 new
