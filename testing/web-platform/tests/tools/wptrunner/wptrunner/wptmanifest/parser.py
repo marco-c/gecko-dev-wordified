@@ -66,6 +66,7 @@ from
 node
 import
 (
+Node
 AtomNode
 BinaryExpressionNode
 BinaryOperatorNode
@@ -5214,6 +5215,13 @@ node
 )
 :
         
+assert
+isinstance
+(
+node
+Node
+)
+        
 self
 .
 node
@@ -5228,6 +5236,14 @@ self
 node
 =
 node
+        
+assert
+self
+.
+node
+is
+not
+None
         
 return
 node
@@ -5254,6 +5270,14 @@ self
 node
 .
 parent
+        
+assert
+self
+.
+node
+is
+not
+None
         
 return
 node
