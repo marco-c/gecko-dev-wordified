@@ -2460,9 +2460,6 @@ ID
 newSyncID
 }
 matches
-"
-+
-"
 existing
 "
 {
@@ -6003,9 +6000,6 @@ id
 not
 in
 strong
-"
-+
-"
 changeset
 "
 {

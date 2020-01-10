@@ -7998,9 +7998,6 @@ downloading
 metadata
 record
 .
-"
-+
-"
 Aborting
 sync
 .

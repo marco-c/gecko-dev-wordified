@@ -1017,9 +1017,6 @@ an
 array
 of
 2
-"
-+
-"
 keys
 .
 "
