@@ -428,6 +428,7 @@ nsINode
 &
 aNode
 )
+const
 {
 bool
 isEmptyTextNode
@@ -7027,6 +7028,7 @@ nsAString
 *
 outValue
 )
+const
 {
 MOZ_ASSERT
 (
@@ -7982,6 +7984,7 @@ bool
 *
 aAll
 )
+const
 {
 if
 (
