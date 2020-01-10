@@ -1246,6 +1246,12 @@ parser
 :
 Parse
 ;
+use
+crate
+:
+:
+Zero
+;
 /
 /
 NOTE
@@ -1416,7 +1422,7 @@ start
 .
 line_num
 .
-is_none
+is_zero
 (
 )
 &
@@ -1651,6 +1657,12 @@ parser
 :
 Parse
 ;
+use
+crate
+:
+:
+Zero
+;
 /
 /
 The
@@ -1741,7 +1753,7 @@ other
 .
 line_num
 .
-is_none
+is_zero
 (
 )
 &
