@@ -435,6 +435,7 @@ rolloutPrefsChanged
 :
 {
 }
+async
 init
 (
 )
@@ -453,6 +454,7 @@ paint
 on
 startup
 .
+await
 NormandyMigrations
 .
 applyAll

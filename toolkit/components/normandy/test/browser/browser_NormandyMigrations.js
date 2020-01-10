@@ -45,6 +45,7 @@ migrationsAppliedPref
 0
 )
 ;
+await
 NormandyMigrations
 .
 applyAll
@@ -173,6 +174,7 @@ migration
 "
 )
 ;
+await
 NormandyMigrations
 .
 applyOne
@@ -316,6 +318,7 @@ healthReportUploadEnabledPref
 true
 )
 ;
+await
 NormandyMigrations
 .
 applyOne
@@ -370,6 +373,7 @@ healthReportUploadEnabledPref
 false
 )
 ;
+await
 NormandyMigrations
 .
 applyOne
@@ -425,6 +429,7 @@ healthReportUploadEnabledPref
 true
 )
 ;
+await
 NormandyMigrations
 .
 applyOne
@@ -478,6 +483,7 @@ healthReportUploadEnabledPref
 false
 )
 ;
+await
 NormandyMigrations
 .
 applyOne
