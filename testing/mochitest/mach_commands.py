@@ -4151,9 +4151,6 @@ self
 .
 _mach_context
 tests
-'
-robocop
-'
 *
 *
 kwargs
