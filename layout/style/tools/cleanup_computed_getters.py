@@ -45,7 +45,7 @@ run
 after
 nsComputedDOMStyleGenerated
 .
-cpp
+inc
 is
 generated
 in
@@ -126,7 +126,7 @@ generated
 "
 nsComputedDOMStyleGenerated
 .
-cpp
+inc
 "
 RE_GENERATED
 =
