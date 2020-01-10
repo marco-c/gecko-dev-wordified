@@ -1061,6 +1061,11 @@ const
 uint32_t
 GetUpdateDelay
 (
+const
+bool
+aWithMultiplier
+=
+true
 )
 ;
 void
