@@ -392,7 +392,7 @@ WebConsole
 (
 this
 .
-target
+_toolbox
 webConsoleUIWindow
 chromeWindow
 )
