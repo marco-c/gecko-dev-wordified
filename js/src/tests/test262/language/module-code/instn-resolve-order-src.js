@@ -5,7 +5,7 @@ reftest
 |
 error
 :
-ReferenceError
+SyntaxError
 module
 /
 /
@@ -66,7 +66,7 @@ phase
 resolution
 type
 :
-ReferenceError
+SyntaxError
 flags
 :
 [

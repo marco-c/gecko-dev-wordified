@@ -5,7 +5,7 @@ reftest
 |
 error
 :
-ReferenceError
+SyntaxError
 /
 /
 Copyright
@@ -73,7 +73,7 @@ phase
 parse
 type
 :
-ReferenceError
+SyntaxError
 -
 -
 -
