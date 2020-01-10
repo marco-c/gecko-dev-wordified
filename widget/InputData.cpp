@@ -1598,7 +1598,7 @@ mButtons
 (
 aMouseEvent
 .
-buttons
+mButtons
 )
 mHandledByAPZ
 (
@@ -2098,7 +2098,7 @@ break
 }
 event
 .
-buttons
+mButtons
 =
 mButtons
 ;
@@ -2412,7 +2412,7 @@ LayoutDeviceIsScreenForUntransformedEvent
 ;
 wheelEvent
 .
-buttons
+mButtons
 =
 0
 ;
@@ -3447,7 +3447,7 @@ LayoutDeviceIsScreenForUntransformedEvent
 ;
 wheelEvent
 .
-buttons
+mButtons
 =
 0
 ;

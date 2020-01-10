@@ -6719,7 +6719,7 @@ AsMouseEventBase
 ;
 mouseEvent
 .
-buttons
+mButtons
 =
 0
 ;
@@ -6732,7 +6732,7 @@ GDK_BUTTON1_MASK
 {
 mouseEvent
 .
-buttons
+mButtons
 |
 =
 WidgetMouseEvent
@@ -6750,7 +6750,7 @@ GDK_BUTTON3_MASK
 {
 mouseEvent
 .
-buttons
+mButtons
 |
 =
 WidgetMouseEvent
@@ -6768,7 +6768,7 @@ GDK_BUTTON2_MASK
 {
 mouseEvent
 .
-buttons
+mButtons
 |
 =
 WidgetMouseEvent
@@ -6796,12 +6796,12 @@ p
 InitInputEvent
 aInputEvent
 has
-buttons
+mButtons
 "
 "
 aInputEvent
 .
-buttons
+mButtons
 =
 0x
 %
@@ -6840,12 +6840,12 @@ s
 keymapWrapper
 mouseEvent
 .
-buttons
+mButtons
 GetBoolName
 (
 mouseEvent
 .
-buttons
+mButtons
 &
 WidgetMouseEvent
 :
@@ -6856,7 +6856,7 @@ GetBoolName
 (
 mouseEvent
 .
-buttons
+mButtons
 &
 WidgetMouseEvent
 :
@@ -6867,7 +6867,7 @@ GetBoolName
 (
 mouseEvent
 .
-buttons
+mButtons
 &
 WidgetMouseEvent
 :
@@ -6878,7 +6878,7 @@ GetBoolName
 (
 mouseEvent
 .
-buttons
+mButtons
 &
 WidgetMouseEvent
 :
@@ -6889,7 +6889,7 @@ GetBoolName
 (
 mouseEvent
 .
-buttons
+mButtons
 &
 WidgetMouseEvent
 :

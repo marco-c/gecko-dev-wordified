@@ -2828,12 +2828,12 @@ button
 aPointerEvent
 -
 >
-buttons
+mButtons
 =
 aMouseEvent
 -
 >
-buttons
+mButtons
 ;
 aPointerEvent
 -
@@ -2843,7 +2843,7 @@ pressure
 aPointerEvent
 -
 >
-buttons
+mButtons
 ?
 aMouseEvent
 -
@@ -3077,7 +3077,7 @@ button
 aPointerEvent
 -
 >
-buttons
+mButtons
 =
 buttons
 ;
@@ -3275,7 +3275,7 @@ pointerMessage
 mouseEvent
 -
 >
-buttons
+mButtons
 ?
 ePointerMove
 :
@@ -3291,7 +3291,7 @@ pointerMessage
 mouseEvent
 -
 >
-buttons
+mButtons
 &
 ~
 nsContentUtils
