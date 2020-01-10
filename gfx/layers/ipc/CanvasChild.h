@@ -688,11 +688,6 @@ mTransactionsSinceGetDataSurface
 kCacheDataSurfaceThreshold
 ;
 bool
-mCanSend
-=
-false
-;
-bool
 mIsInTransaction
 =
 false
