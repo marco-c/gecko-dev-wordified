@@ -1645,17 +1645,6 @@ aValue
 )
 ;
 void
-SendThreeDPointParameterToStream
-(
-uint32_t
-aIndex
-const
-ThreeDPoint
-&
-aValue
-)
-;
-void
 SendChannelMixingParametersToStream
 (
 )

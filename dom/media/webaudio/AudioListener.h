@@ -416,17 +416,6 @@ AudioListener
 =
 default
 ;
-void
-SendThreeDPointParameterToStream
-(
-uint32_t
-aIndex
-const
-ThreeDPoint
-&
-aValue
-)
-;
 private
 :
 RefPtr
