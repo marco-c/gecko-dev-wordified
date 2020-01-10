@@ -2697,7 +2697,7 @@ const
 void
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 )

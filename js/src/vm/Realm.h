@@ -3296,10 +3296,7 @@ principals
 void
 destroy
 (
-js
-:
-:
-FreeOp
+JSFreeOp
 *
 fop
 )

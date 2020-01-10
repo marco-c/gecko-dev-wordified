@@ -2815,7 +2815,7 @@ BreakpointSite
 :
 inc
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -2845,7 +2845,7 @@ BreakpointSite
 :
 dec
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -3144,7 +3144,7 @@ Breakpoint
 :
 destroy
 (
-FreeOp
+JSFreeOp
 *
 fop
 MayDestroySite
@@ -3331,7 +3331,7 @@ JSBreakpointSite
 :
 recompile
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -3368,7 +3368,7 @@ JSBreakpointSite
 :
 destroyIfEmpty
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -3445,7 +3445,7 @@ WasmBreakpointSite
 :
 recompile
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -3478,7 +3478,7 @@ WasmBreakpointSite
 :
 destroyIfEmpty
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -4235,7 +4235,7 @@ static
 void
 GlobalDebuggerVectorHolder_finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -21548,7 +21548,7 @@ suppressProfilerSampling
 cx
 )
 ;
-FreeOp
+JSFreeOp
 *
 fop
 =
@@ -26751,7 +26751,7 @@ DebugAPI
 :
 sweepAll
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -26963,7 +26963,7 @@ Debugger
 :
 detachAllDebuggersFromGlobal
 (
-FreeOp
+JSFreeOp
 *
 fop
 GlobalObject
@@ -33465,7 +33465,7 @@ Debugger
 :
 removeDebuggeeGlobal
 (
-FreeOp
+JSFreeOp
 *
 fop
 GlobalObject
@@ -44701,7 +44701,7 @@ it
 up
 here
 .
-FreeOp
+JSFreeOp
 *
 fop
 =
@@ -44842,7 +44842,7 @@ DebuggerFrame
 frameobj
 )
 {
-FreeOp
+JSFreeOp
 *
 fop
 =

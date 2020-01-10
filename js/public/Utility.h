@@ -2816,7 +2816,7 @@ following
 operations
 on
 the
-FreeOp
+JSFreeOp
 provided
 to
 the

@@ -386,7 +386,7 @@ static
 void
 exn_finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -2153,7 +2153,7 @@ static
 void
 exn_finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject

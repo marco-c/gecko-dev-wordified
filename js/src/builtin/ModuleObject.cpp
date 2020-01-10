@@ -5298,10 +5298,7 @@ ModuleObject
 :
 finalize
 (
-js
-:
-:
-FreeOp
+JSFreeOp
 *
 fop
 JSObject

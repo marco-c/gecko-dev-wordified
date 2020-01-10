@@ -6063,7 +6063,7 @@ RegExpShared
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 )

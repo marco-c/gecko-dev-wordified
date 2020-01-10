@@ -438,10 +438,7 @@ Zone
 :
 sweepBreakpoints
 (
-js
-:
-:
-FreeOp
+JSFreeOp
 *
 )
 ;
@@ -1369,7 +1366,7 @@ offset
 void
 destroyBreakpointSite
 (
-FreeOp
+JSFreeOp
 *
 fop
 uint32_t

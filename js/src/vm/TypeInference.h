@@ -1536,7 +1536,7 @@ script
 void
 processPendingRecompiles
 (
-FreeOp
+JSFreeOp
 *
 fop
 RecompileInfoVector
