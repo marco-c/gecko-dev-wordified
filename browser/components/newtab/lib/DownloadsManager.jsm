@@ -376,8 +376,6 @@ source
 referrerInfo
 .
 originalReferrer
-.
-spec
 :
 null
 date_added

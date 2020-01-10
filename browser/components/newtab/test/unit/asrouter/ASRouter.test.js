@@ -1251,11 +1251,6 @@ dispatch
 Router
 .
 dispatch
-handleUserAction
-:
-Router
-.
-handleUserAction
 }
 )
 ;
@@ -6273,11 +6268,6 @@ triggerParam
 "
 bar
 "
-triggerContext
-:
-"
-context
-"
 }
 ;
 const
@@ -6403,11 +6393,6 @@ param
 trigger
 .
 triggerParam
-context
-:
-trigger
-.
-triggerContext
 }
 )
 ;
@@ -11109,9 +11094,6 @@ id
 firstRun
 "
 param
-:
-undefined
-context
 :
 undefined
 }
