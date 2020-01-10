@@ -2048,12 +2048,7 @@ AccelerateLayersByDefault
 )
 {
 return
-gfxPrefs
-:
-:
-WebRenderAll
-(
-)
+true
 ;
 }
 void
