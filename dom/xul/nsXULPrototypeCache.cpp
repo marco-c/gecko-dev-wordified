@@ -983,9 +983,11 @@ if
 (
 protoDoc
 )
+{
 return
 protoDoc
 ;
+}
 nsresult
 rv
 =
@@ -1043,9 +1045,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 nullptr
 ;
+}
 RefPtr
 <
 nsXULPrototypeDocument
