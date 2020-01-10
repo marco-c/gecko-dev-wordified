@@ -76,7 +76,7 @@ http
 /
 mozilla
 .
-og
+org
 /
 MPL
 /
