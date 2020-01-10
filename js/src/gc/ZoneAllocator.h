@@ -821,7 +821,7 @@ gcBytes
 )
 >
 =
-threshold
+gcMallocThreshold
 .
 gcTriggerBytes
 (
