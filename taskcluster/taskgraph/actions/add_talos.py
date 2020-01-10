@@ -84,6 +84,12 @@ util
 import
 create_tasks
 fetch_graph_and_labels
+from
+.
+.
+target_tasks
+import
+standard_filter
 logger
 =
 logging
@@ -291,6 +297,7 @@ tasks
 iteritems
 (
 )
+                  
 if
 '
 talos_try_name
@@ -299,6 +306,14 @@ in
 entry
 .
 attributes
+                  
+and
+standard_filter
+(
+entry
+parameters
+)
+                  
 ]
         
 create_tasks
