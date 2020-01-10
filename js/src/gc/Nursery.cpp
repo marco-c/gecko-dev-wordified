@@ -9703,7 +9703,7 @@ true
 }
 const
 size_t
-minNurseryBytes
+newMinNurseryBytes
 =
 roundSize
 (
@@ -9718,7 +9718,7 @@ gcMinNurseryBytes
 ;
 MOZ_ASSERT
 (
-minNurseryBytes
+newMinNurseryBytes
 >
 =
 ArenaSize
@@ -9726,7 +9726,7 @@ ArenaSize
 ;
 if
 (
-minNurseryBytes
+newMinNurseryBytes
 >
 capacity
 (
@@ -9749,7 +9749,7 @@ nursery
 .
 MOZ_ASSERT
 (
-minNurseryBytes
+newMinNurseryBytes
 <
 =
 roundSize
@@ -9766,7 +9766,7 @@ gcMaxNurseryBytes
 ;
 growAllocableSpace
 (
-minNurseryBytes
+newMinNurseryBytes
 )
 ;
 return
