@@ -621,6 +621,11 @@ BuildHashKey
 (
 )
 ;
+void
+RebuildHashKey
+(
+)
+;
 public
 :
 const
@@ -1294,7 +1299,7 @@ mIsolated
 =
 aIsolated
 ;
-BuildHashKey
+RebuildHashKey
 (
 )
 ;
