@@ -301,9 +301,7 @@ See
 the
 documentation
 in
-services
--
-sync
+all
 .
 js
 for
