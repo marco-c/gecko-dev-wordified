@@ -1566,7 +1566,7 @@ baseprofiler
 detail
 :
 :
-BPAutoLock
+BaseProfilerAutoLock
 lock
 (
 mMutex
@@ -1668,7 +1668,7 @@ baseprofiler
 detail
 :
 :
-BPAutoLock
+BaseProfilerAutoLock
 lock
 (
 mMutex
@@ -3312,7 +3312,7 @@ baseprofiler
 detail
 :
 :
-BPAutoLock
+BaseProfilerAutoLock
 lock
 (
 mMutex
@@ -3514,7 +3514,7 @@ baseprofiler
 detail
 :
 :
-BPAutoLock
+BaseProfilerAutoLock
 lock
 (
 mMutex
@@ -5336,7 +5336,7 @@ baseprofiler
 detail
 :
 :
-BPAutoLock
+BaseProfilerAutoLock
 lock
 (
 mMutex
@@ -5629,7 +5629,7 @@ baseprofiler
 detail
 :
 :
-BPAutoLock
+BaseProfilerAutoLock
 lock
 (
 mMutex
@@ -5689,7 +5689,7 @@ baseprofiler
 detail
 :
 :
-BPAutoLock
+BaseProfilerAutoLock
 lock
 (
 mMutex
@@ -6000,7 +6000,7 @@ baseprofiler
 detail
 :
 :
-BPAutoLock
+BaseProfilerAutoLock
 lock
 (
 mMutex
