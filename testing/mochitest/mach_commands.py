@@ -3253,6 +3253,18 @@ deviceSerial
 '
 )
             
+install
+=
+not
+kwargs
+.
+get
+(
+'
+no_install
+'
+)
+            
 #
 verify
 installation
@@ -3262,7 +3274,7 @@ verify_android_device
 self
 install
 =
-True
+install
 xre
 =
 False
@@ -3278,6 +3290,10 @@ device_serial
 device_serial
 )
             
+if
+install
+:
+                
 grant_runtime_permissions
 (
 self
