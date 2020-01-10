@@ -184,10 +184,6 @@ _OPTIONAL_ATTRIBUTES
 (
     
 '
-artifact_map
-'
-    
-'
 artifact_prefix
 '
     

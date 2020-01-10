@@ -88,14 +88,6 @@ taskgraph
 .
 util
 .
-attributes
-import
-copy_attributes_from_dependent_job
-from
-taskgraph
-.
-util
-.
 signed_artifacts
 import
 generate_specifications_of_artifacts_to_sign
@@ -460,26 +452,12 @@ build_platform
 '
 )
         
-job
-[
-'
-attributes
-'
-]
-=
-copy_attributes_from_dependent_job
-(
-dep_job
-)
-        
 artifacts_specifications
 =
 generate_specifications_of_artifacts_to_sign
 (
             
-config
-            
-job
+dep_job
             
 keep_locale_template
 =
