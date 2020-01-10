@@ -358,14 +358,6 @@ mIsActive
 mIsPaused
 ;
 }
-void
-AddBufferBindCounts
-(
-int8_t
-addVal
-)
-const
-;
 /
 /
 GL

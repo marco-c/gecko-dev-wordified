@@ -3695,7 +3695,7 @@ mDefaultVertexArray
 >
 mAttribs
 .
-SetLength
+resize
 (
 mGLMaxVertexAttribs
 )
