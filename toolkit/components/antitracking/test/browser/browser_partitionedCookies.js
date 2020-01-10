@@ -5,12 +5,12 @@ import
 globals
 -
 from
-storageprincipal_head
+partitionedstorage_head
 .
 js
 *
 /
-StoragePrincipalHelper
+PartitionedStorageHelper
 .
 runTest
 (
@@ -307,7 +307,7 @@ resolve
 }
 )
 ;
-StoragePrincipalHelper
+PartitionedStorageHelper
 .
 runTest
 (
