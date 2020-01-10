@@ -116,9 +116,11 @@ chrome
 :
 /
 /
-webcompat
+report
 -
-reporter
+site
+-
+issue
 /
 locale
 /
