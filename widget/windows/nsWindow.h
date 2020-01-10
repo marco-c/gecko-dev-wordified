@@ -3975,6 +3975,9 @@ effect
 when
 setting
 constraints
+int32_t
+mMaxTextureSize
+;
 /
 /
 Pointer
