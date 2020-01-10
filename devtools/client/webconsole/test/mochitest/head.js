@@ -299,8 +299,6 @@ from
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -334,8 +332,6 @@ devtools
 client
 /
 debugger
-/
-new
 /
 test
 /
@@ -376,8 +372,6 @@ from
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -409,8 +403,6 @@ devtools
 client
 /
 debugger
-/
-new
 /
 test
 /

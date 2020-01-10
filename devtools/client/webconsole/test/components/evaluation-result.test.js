@@ -243,6 +243,8 @@ component
 >
 {
 it
+.
+skip
 (
 "
 renders

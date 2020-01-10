@@ -250,8 +250,6 @@ client
 /
 debugger
 /
-new
-/
 images
 "
 ;
