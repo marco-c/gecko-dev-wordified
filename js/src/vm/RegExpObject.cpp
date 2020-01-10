@@ -9651,6 +9651,7 @@ JSContext
 cx
 HandleObject
 obj
+const
 char16_t
 *
 chars
