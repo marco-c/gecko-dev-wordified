@@ -2527,7 +2527,7 @@ isNative
 ;
 }
 bool
-hasJITCode
+hasJitScript
 (
 )
 const
@@ -2550,17 +2550,7 @@ nonLazyScript
 )
 -
 >
-hasBaselineScript
-(
-)
-|
-|
-nonLazyScript
-(
-)
--
->
-hasIonScript
+hasJitScript
 (
 )
 ;
