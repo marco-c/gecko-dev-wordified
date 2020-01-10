@@ -4115,7 +4115,6 @@ runnable
 if
 we
 are
->
 =
 N
 .
@@ -4139,10 +4138,9 @@ press
 workaround
 if
 (
-!
 Versions
 .
-preN
+N
 )
 {
 mCheckLongPress
@@ -4264,10 +4262,9 @@ run
 .
 if
 (
-!
 Versions
 .
-preN
+N
 &
 &
 keyCode
@@ -4351,10 +4348,9 @@ event
 {
 if
 (
-!
 Versions
 .
-preN
+N
 &
 &
 keyCode
@@ -24833,9 +24829,10 @@ problem
 .
 if
 (
+!
 Versions
 .
-preN
+N
 &
 &
 keyCode
