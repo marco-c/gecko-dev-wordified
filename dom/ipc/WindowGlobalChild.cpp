@@ -635,7 +635,7 @@ return
 a
 pre
 -
-closed
+destroyed
 /
 /
 WindowGlobalChild
@@ -646,7 +646,7 @@ if
 bc
 -
 >
-GetClosed
+IsDiscarded
 (
 )
 )

@@ -2428,7 +2428,7 @@ child
 docshell
 for
 a
-closed
+discarded
 browsing
 context
 .
@@ -2444,7 +2444,7 @@ parentContext
 parentContext
 -
 >
-GetClosed
+IsDiscarded
 (
 )
 )
