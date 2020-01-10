@@ -3259,6 +3259,11 @@ GetClientOffset
 (
 )
 ;
+void
+StopIMEStateManagement
+(
+)
+;
 /
 *
 *
