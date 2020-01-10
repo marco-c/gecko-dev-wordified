@@ -5,7 +5,7 @@ reftest
 |
 error
 :
-SyntaxError
+ReferenceError
 /
 /
 Copyright
@@ -58,6 +58,13 @@ semantics
 early
 -
 errors
+es6id
+:
+12
+.
+14
+.
+1
 description
 :
 Applied
@@ -80,7 +87,7 @@ It
 is
 an
 early
-Syntax
+Reference
 Error
 if
 LeftHandSideExpression
@@ -92,13 +99,11 @@ nor
 an
 ArrayLiteral
 and
-AssignmentTargetType
+IsValidSimpleAssignmentTarget
 of
 LeftHandSideExpression
 is
-invalid
-or
-strict
+false
 .
 12
 .
@@ -113,7 +118,6 @@ AssignmentExpression
 :
 YieldExpression
 ArrowFunction
-AsyncArrowFunction
 LeftHandSideExpression
 =
 AssignmentExpression
@@ -123,7 +127,7 @@ AssignmentExpression
 1
 .
 Return
-invalid
+false
 .
 features
 :
@@ -137,7 +141,7 @@ phase
 parse
 type
 :
-SyntaxError
+ReferenceError
 -
 -
 -

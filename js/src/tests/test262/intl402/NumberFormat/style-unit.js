@@ -205,7 +205,7 @@ unit
 "
 :
 "
-gigabit
+generic
 "
 }
 )

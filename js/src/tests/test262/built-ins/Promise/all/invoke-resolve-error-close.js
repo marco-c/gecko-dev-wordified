@@ -244,7 +244,7 @@ function
 {
 throw
 new
-Test262Error
+Error
 (
 )
 ;

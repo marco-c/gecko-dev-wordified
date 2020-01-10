@@ -5,7 +5,7 @@ reftest
 |
 error
 :
-SyntaxError
+ReferenceError
 /
 /
 Copyright
@@ -90,6 +90,11 @@ lead
 to
 syntax
 error
+ES6
+specifies
+this
+as
+ReferenceError
 es5id
 :
 7
@@ -121,7 +126,7 @@ phase
 parse
 type
 :
-SyntaxError
+ReferenceError
 -
 -
 -

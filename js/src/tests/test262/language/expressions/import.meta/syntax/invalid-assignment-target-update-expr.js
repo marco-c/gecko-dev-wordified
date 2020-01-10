@@ -5,7 +5,7 @@ reftest
 |
 error
 :
-SyntaxError
+ReferenceError
 module
 /
 /
@@ -105,7 +105,7 @@ It
 is
 an
 early
-Syntax
+Reference
 Error
 if
 AssignmentTargetType
@@ -113,8 +113,6 @@ of
 LeftHandSideExpression
 is
 invalid
-or
-strict
 .
 flags
 :
@@ -128,7 +126,7 @@ phase
 parse
 type
 :
-SyntaxError
+ReferenceError
 features
 :
 [

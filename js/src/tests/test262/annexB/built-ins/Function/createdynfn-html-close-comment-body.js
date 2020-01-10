@@ -160,8 +160,6 @@ fails
 Function
 (
 "
-\
-n
 -
 -
 >

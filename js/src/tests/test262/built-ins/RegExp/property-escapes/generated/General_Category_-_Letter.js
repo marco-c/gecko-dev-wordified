@@ -87,7 +87,7 @@ tests
 Unicode
 v12
 .
-1
+0
 .
 0
 esid
