@@ -19762,9 +19762,9 @@ void
 nsFrameLoader
 :
 :
-SetRemoteBrowser
+InitializeFromBrowserParent
 (
-nsIRemoteTab
+BrowserParent
 *
 aBrowserParent
 )
@@ -19781,13 +19781,7 @@ true
 ;
 mBrowserParent
 =
-BrowserParent
-:
-:
-GetFrom
-(
 aBrowserParent
-)
 ;
 mChildID
 =
