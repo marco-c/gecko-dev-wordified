@@ -235,7 +235,7 @@ tmpdir
 :
     
 return
-unicode
+str
 (
 tmpdir
 .
@@ -268,7 +268,7 @@ open
 (
 config_path
 '
-wb
+w
 '
 )
 as

@@ -67,7 +67,52 @@ import
 os
 import
 subprocess
-try
+#
+NOTE
+:
+This
+script
+is
+intended
+to
+be
+run
+with
+a
+vanilla
+Python
+install
+.
+We
+#
+have
+to
+rely
+on
+the
+standard
+library
+instead
+of
+Python
+2
++
+3
+helpers
+like
+#
+the
+six
+module
+.
+if
+sys
+.
+version_info
+<
+(
+3
+)
 :
     
 from
@@ -82,8 +127,11 @@ ConfigParserError
 RawConfigParser
     
 )
-except
-ImportError
+    
+input
+=
+raw_input
+else
 :
     
 from
@@ -349,6 +397,18 @@ mobile_android
 '
 )
 ]
+#
+TODO
+Legacy
+Python
+2
+.
+6
+code
+can
+be
+removed
+.
 #
 This
 is
@@ -1443,7 +1503,7 @@ open
 (
 path
 '
-wb
+w
 '
 )
 as
@@ -2021,7 +2081,7 @@ True
             
 dest
 =
-raw_input
+input
 (
 CLONE_VCS_PROMPT
 .
@@ -4817,6 +4877,10 @@ path
 env
 =
 env
+                                    
+universal_newlines
+=
+True
 )
                 
 if
