@@ -497,9 +497,26 @@ dependency
         
 attributes
 =
+copy_attributes_from_dependent_job
+(
 dep_job
-.
+)
+        
 attributes
+.
+update
+(
+job
+.
+get
+(
+'
+attributes
+'
+{
+}
+)
+)
         
 treeherder
 =
@@ -693,29 +710,6 @@ kind
 dep_job
 .
 label
-        
-attributes
-=
-copy_attributes_from_dependent_job
-(
-dep_job
-)
-        
-attributes
-.
-update
-(
-job
-.
-get
-(
-'
-attributes
-'
-{
-}
-)
-)
         
 if
 job
