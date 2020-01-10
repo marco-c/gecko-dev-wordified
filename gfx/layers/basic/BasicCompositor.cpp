@@ -262,6 +262,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs
+.
+h
+"
+#
+include
+"
 gfxPlatform
 .
 h

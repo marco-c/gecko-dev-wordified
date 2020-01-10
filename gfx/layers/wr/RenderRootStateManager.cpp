@@ -136,6 +136,17 @@ WebRenderBridgeChild
 .
 h
 "
+#
+include
+"
+mozilla
+/
+layers
+/
+WebRenderLayerManager
+.
+h
+"
 namespace
 mozilla
 {

@@ -321,6 +321,17 @@ mozilla
 /
 gfx
 /
+gfxVars
+.
+h
+"
+#
+include
+"
+mozilla
+/
+gfx
+/
 Point
 .
 h

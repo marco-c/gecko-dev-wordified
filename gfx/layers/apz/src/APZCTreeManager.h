@@ -263,6 +263,17 @@ mozilla
 /
 layers
 /
+LayerAttributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 LayersTypes
 .
 h

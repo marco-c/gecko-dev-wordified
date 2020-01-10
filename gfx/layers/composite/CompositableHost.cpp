@@ -188,6 +188,13 @@ etc
 #
 include
 "
+Layers
+.
+h
+"
+#
+include
+"
 TiledContentHost
 .
 h

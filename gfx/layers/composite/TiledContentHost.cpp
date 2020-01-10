@@ -260,6 +260,17 @@ mozilla
 /
 layers
 /
+PTextureParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 TextureHostOGL
 .
 h
