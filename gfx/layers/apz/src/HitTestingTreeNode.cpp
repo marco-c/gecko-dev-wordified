@@ -1922,7 +1922,7 @@ LayerToScreenMatrix4x4
 HitTestingTreeNode
 :
 :
-GetCSSTransformToRoot
+GetTransformToGecko
 (
 )
 const
@@ -1975,7 +1975,7 @@ ParentLayerToScreenMatrix4x4
 mParent
 -
 >
-GetCSSTransformToRoot
+GetTransformToGecko
 (
 )
 PixelCastJustification
