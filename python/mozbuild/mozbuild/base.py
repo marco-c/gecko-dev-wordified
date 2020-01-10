@@ -74,11 +74,11 @@ multiprocessing
 import
 os
 import
+six
+import
 subprocess
 import
 sys
-import
-types
 import
 errno
 try
@@ -2078,9 +2078,9 @@ not
 isinstance
 (
 a
-types
+six
 .
-StringTypes
+string_types
 )
 or
 a
