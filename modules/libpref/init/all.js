@@ -29744,9 +29744,6 @@ blank
 printpreview
 srcdoc
 addons
-cache
--
-entry
 config
 debugging
 devtools
