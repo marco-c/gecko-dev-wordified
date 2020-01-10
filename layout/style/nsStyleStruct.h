@@ -10621,6 +10621,12 @@ mOffsetRotate
 mozilla
 :
 :
+StylePositionOrAuto
+mOffsetAnchor
+;
+mozilla
+:
+:
 StyleTransformOrigin
 mTransformOrigin
 ;

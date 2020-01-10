@@ -871,6 +871,7 @@ position
 GridAutoFlow
 GridTemplateAreas
 Position
+PositionOrAuto
 }
 ;
 pub
