@@ -252,16 +252,6 @@ py
 '
     
 '
-gfx
-/
-thebes
-/
-mach_commands
-.
-py
-'
-    
-'
 layout
 /
 tools
@@ -647,6 +637,16 @@ py
 tools
 /
 tryselect
+/
+mach_commands
+.
+py
+'
+    
+'
+tools
+/
+vcs
 /
 mach_commands
 .
