@@ -184,7 +184,7 @@ defined
 MOZ_WIDGET_ANDROID
 )
 class
-nsIWidget
+nsBaseWidget
 ;
 namespace
 mozilla
@@ -507,6 +507,11 @@ return
 mUiCompositorControllerChild
 ;
 }
+void
+NotifyDisablingWebRender
+(
+)
+;
 #
 endif
 /
@@ -519,6 +524,9 @@ protected
 :
 CompositorSession
 (
+nsBaseWidget
+*
+aWidget
 CompositorWidgetDelegate
 *
 aDelegate
@@ -539,6 +547,10 @@ CompositorSession
 ;
 protected
 :
+nsBaseWidget
+*
+mWidget
+;
 CompositorWidgetDelegate
 *
 mCompositorWidgetDelegate

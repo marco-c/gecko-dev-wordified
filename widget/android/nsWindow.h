@@ -1243,6 +1243,11 @@ return
 nullptr
 ;
 }
+void
+NotifyDisablingWebRender
+(
+)
+;
 /
 /
 /
@@ -1968,6 +1973,9 @@ mIdleService
 ;
 bool
 mIsFullScreen
+;
+bool
+mIsDisablingWebRender
 ;
 bool
 UseExternalCompositingSurface

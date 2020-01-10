@@ -239,10 +239,6 @@ NotifySessionLost
 ;
 private
 :
-nsBaseWidget
-*
-mWidget
-;
 RefPtr
 <
 APZCTreeManagerChild
