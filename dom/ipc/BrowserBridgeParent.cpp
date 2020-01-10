@@ -756,6 +756,10 @@ Destroy
 (
 )
 ;
+mTabParent
+=
+nullptr
+;
 }
 }
 IPCResult
