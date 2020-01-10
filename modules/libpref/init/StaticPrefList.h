@@ -9145,7 +9145,14 @@ true
 elif
 defined
 (
-XP_UNIX
+XP_LINUX
+)
+&
+&
+!
+defined
+(
+ANDROID
 )
 #
 define
