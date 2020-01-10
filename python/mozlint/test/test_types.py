@@ -63,6 +63,12 @@ import
 mozunit
 import
 pytest
+import
+mozpack
+.
+path
+as
+mozpath
 from
 mozlint
 .
@@ -88,9 +94,7 @@ name
 :
         
 return
-os
-.
-path
+mozpath
 .
 join
 (
