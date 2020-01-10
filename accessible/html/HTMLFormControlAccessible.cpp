@@ -2269,7 +2269,7 @@ nsIContent
 *
 widgetElm
 =
-BindingParent
+BindingOrWidgetParent
 (
 )
 ;
@@ -2530,7 +2530,7 @@ nsIContent
 *
 widgetElm
 =
-BindingParent
+BindingOrWidgetParent
 (
 )
 ;
@@ -2778,7 +2778,7 @@ nsIContent
 *
 widgetElm
 =
-BindingParent
+BindingOrWidgetParent
 (
 )
 ;
@@ -3112,7 +3112,7 @@ autocomplete
 if
 (
 !
-BindingParent
+BindingOrWidgetParent
 (
 )
 &
