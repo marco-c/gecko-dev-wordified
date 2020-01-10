@@ -64,7 +64,7 @@ background
 color
 :
 #
-000f40
+20123a
 ;
 color
 :
@@ -264,6 +264,12 @@ right
 :
 30px
 ;
+padding
+-
+top
+:
+48px
+;
 }
 #
 bottomBox
@@ -273,7 +279,7 @@ background
 color
 :
 #
-000820
+1d1133
 ;
 padding
 :
