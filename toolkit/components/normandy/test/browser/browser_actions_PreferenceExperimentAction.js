@@ -1053,7 +1053,7 @@ recipe
 preferenceExperimentFactory
 (
 {
-slug
+name
 :
 "
 test
@@ -1143,7 +1143,7 @@ recipe
 preferenceExperimentFactory
 (
 {
-slug
+name
 :
 "
 test
@@ -1450,7 +1450,7 @@ recipe
 preferenceExperimentFactory
 (
 {
-slug
+name
 :
 "
 seen
@@ -1566,7 +1566,7 @@ recipe
 preferenceExperimentFactory
 (
 {
-slug
+name
 :
 "
 new
