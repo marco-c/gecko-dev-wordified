@@ -458,6 +458,12 @@ mPrincipalToInherit
 ;
 nsCOMPtr
 <
+nsIPrincipal
+>
+mStoragePrincipalToInherit
+;
+nsCOMPtr
+<
 nsIContentSecurityPolicy
 >
 mCsp

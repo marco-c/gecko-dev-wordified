@@ -3182,6 +3182,9 @@ aTriggeringPrincipal
 nsIPrincipal
 *
 aPrincipalToInherit
+nsIPrincipal
+*
+aStoragePrincipalToInherit
 nsIContentSecurityPolicy
 *
 aCsp
@@ -3801,6 +3804,9 @@ aTriggeringPrincipal
 nsIPrincipal
 *
 aPrincipalToInherit
+nsIPrincipal
+*
+aStoragePrincipalToInehrit
 uint32_t
 aLoadType
 nsIContentSecurityPolicy
