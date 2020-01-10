@@ -103,6 +103,11 @@ const
 PAGE_TYPES
 =
 {
+MANIFEST
+:
+"
+manifest
+"
 SERVICE_WORKERS
 :
 "
@@ -117,7 +122,7 @@ DEFAULT_PAGE
 =
 PAGE_TYPES
 .
-SERVICE_WORKERS
+MANIFEST
 ;
 /
 /
