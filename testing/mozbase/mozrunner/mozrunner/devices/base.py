@@ -601,6 +601,15 @@ recursive
 =
 True
 )
+            
+self
+.
+device
+.
+mkdir
+(
+remote_dump_dir
+)
         
 return
 local_dump_dir
