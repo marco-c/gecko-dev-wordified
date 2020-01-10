@@ -17223,7 +17223,7 @@ ContentParent
 :
 RecvGetGfxVars
 (
-InfallibleTArray
+nsTArray
 <
 GfxVarUpdate
 >
@@ -17700,7 +17700,7 @@ ContentParent
 :
 RecvReadFontList
 (
-InfallibleTArray
+nsTArray
 <
 FontListEntry
 >
@@ -18573,7 +18573,7 @@ const
 uint32_t
 &
 aIconSize
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
@@ -25245,7 +25245,7 @@ const
 ClonedMessageData
 &
 aData
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
@@ -25376,7 +25376,7 @@ const
 ClonedMessageData
 &
 aData
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
@@ -25503,7 +25503,7 @@ const
 nsString
 &
 aMsg
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
@@ -26839,7 +26839,7 @@ return
 NS_ERROR_DOM_DATA_CLONE_ERR
 ;
 }
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
@@ -28510,7 +28510,7 @@ checker
 "
 )
 ;
-InfallibleTArray
+nsTArray
 <
 nsString
 >
@@ -28558,7 +28558,7 @@ NotifyUpdatedFonts
 (
 )
 {
-InfallibleTArray
+nsTArray
 <
 SystemFontListEntry
 >
@@ -29631,7 +29631,7 @@ ContentParent
 AllocPContentPermissionRequestParent
 (
 const
-InfallibleTArray
+nsTArray
 <
 PermissionRequest
 >
@@ -33002,7 +33002,7 @@ const
 nsString
 &
 aMessageId
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
@@ -34858,7 +34858,7 @@ ContentParent
 :
 RecvAccumulateChildHistograms
 (
-InfallibleTArray
+nsTArray
 <
 HistogramAccumulation
 >
@@ -34897,7 +34897,7 @@ ContentParent
 :
 RecvAccumulateChildKeyedHistograms
 (
-InfallibleTArray
+nsTArray
 <
 KeyedHistogramAccumulation
 >
@@ -34936,7 +34936,7 @@ ContentParent
 :
 RecvUpdateChildScalars
 (
-InfallibleTArray
+nsTArray
 <
 ScalarAction
 >
@@ -34975,7 +34975,7 @@ ContentParent
 :
 RecvUpdateChildKeyedScalars
 (
-InfallibleTArray
+nsTArray
 <
 KeyedScalarAction
 >

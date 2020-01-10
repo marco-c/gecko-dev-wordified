@@ -2756,7 +2756,7 @@ PContentPermissionRequestParent
 AllocPContentPermissionRequestParent
 (
 const
-InfallibleTArray
+nsTArray
 <
 PermissionRequest
 >
@@ -5288,7 +5288,7 @@ ipc
 IPCResult
 RecvGetGfxVars
 (
-InfallibleTArray
+nsTArray
 <
 GfxVarUpdate
 >
@@ -5305,7 +5305,7 @@ ipc
 IPCResult
 RecvReadFontList
 (
-InfallibleTArray
+nsTArray
 <
 FontListEntry
 >
@@ -5495,7 +5495,7 @@ const
 uint32_t
 &
 aIconSize
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
@@ -5704,7 +5704,7 @@ const
 ClonedMessageData
 &
 aData
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
@@ -5743,7 +5743,7 @@ const
 ClonedMessageData
 &
 aData
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
@@ -5778,7 +5778,7 @@ const
 nsString
 &
 aMsg
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
@@ -6621,7 +6621,7 @@ const
 nsString
 &
 aMessageId
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
@@ -6751,7 +6751,7 @@ ipc
 IPCResult
 RecvAccumulateChildHistograms
 (
-InfallibleTArray
+nsTArray
 <
 HistogramAccumulation
 >
@@ -6769,7 +6769,7 @@ ipc
 IPCResult
 RecvAccumulateChildKeyedHistograms
 (
-InfallibleTArray
+nsTArray
 <
 KeyedHistogramAccumulation
 >
@@ -6787,7 +6787,7 @@ ipc
 IPCResult
 RecvUpdateChildScalars
 (
-InfallibleTArray
+nsTArray
 <
 ScalarAction
 >
@@ -6805,7 +6805,7 @@ ipc
 IPCResult
 RecvUpdateChildKeyedScalars
 (
-InfallibleTArray
+nsTArray
 <
 KeyedScalarAction
 >

@@ -1631,21 +1631,21 @@ ipc
 IPCResult
 RecvRegisterChrome
 (
-InfallibleTArray
+nsTArray
 <
 ChromePackage
 >
 &
 &
 packages
-InfallibleTArray
+nsTArray
 <
 SubstitutionMapping
 >
 &
 &
 resources
-InfallibleTArray
+nsTArray
 <
 OverrideMapping
 >
@@ -2001,7 +2001,7 @@ const
 nsString
 &
 aMsg
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
@@ -2140,7 +2140,7 @@ ipc
 IPCResult
 RecvUpdateDictionaryList
 (
-InfallibleTArray
+nsTArray
 <
 nsString
 >
@@ -2158,7 +2158,7 @@ ipc
 IPCResult
 RecvUpdateFontList
 (
-InfallibleTArray
+nsTArray
 <
 SystemFontListEntry
 >
@@ -2748,7 +2748,7 @@ const
 nsString
 &
 aMessageId
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
@@ -3064,7 +3064,7 @@ PContentChild
 void
 GetAvailableDictionaries
 (
-InfallibleTArray
+nsTArray
 <
 nsString
 >
@@ -3129,7 +3129,7 @@ PContentPermissionRequestChild
 AllocPContentPermissionRequestChild
 (
 const
-InfallibleTArray
+nsTArray
 <
 PermissionRequest
 >
@@ -3596,7 +3596,7 @@ during
 gfx
 initialization
 .
-InfallibleTArray
+nsTArray
 <
 mozilla
 :
@@ -4338,7 +4338,7 @@ aReply
 )
 override
 ;
-InfallibleTArray
+nsTArray
 <
 nsAutoPtr
 <
@@ -4362,7 +4362,7 @@ nsIObserver
 >
 mIdleObservers
 ;
-InfallibleTArray
+nsTArray
 <
 nsString
 >
@@ -4404,7 +4404,7 @@ MacOSX
 and
 Linux
 .
-InfallibleTArray
+nsTArray
 <
 mozilla
 :
