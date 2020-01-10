@@ -480,16 +480,6 @@ gc
 :
 ChunkSize
 .
-The
-special
-value
-0
-*
-will
-disable
-generational
-GC
-.
 *
 *
 Pref
