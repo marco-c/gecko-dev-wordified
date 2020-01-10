@@ -215,6 +215,7 @@ exists
 (
 )
 )
+{
 file
 .
 remove
@@ -222,6 +223,7 @@ remove
 false
 )
 ;
+}
 }
 await
 new
