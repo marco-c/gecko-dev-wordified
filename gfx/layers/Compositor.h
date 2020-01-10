@@ -3667,7 +3667,8 @@ Request
 the
 compositor
 to
-record
+allow
+recording
 its
 frames
 .
@@ -3689,7 +3690,7 @@ noop
 /
 virtual
 void
-RequestRecordFrames
+RequestAllowFrameRecording
 (
 bool
 aWillRecord

@@ -6237,7 +6237,7 @@ return
 mCompositor
 -
 >
-RequestRecordFrames
+RequestAllowFrameRecording
 (
 !
 !
