@@ -1,9 +1,17 @@
 import
 os
+from
+six
+.
+moves
 import
 cPickle
 as
 pickle
+#
+noqa
+:
+N813
 here
 =
 os

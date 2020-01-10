@@ -2,8 +2,14 @@ import
 base64
 import
 hashlib
+from
+six
+.
+moves
+.
+http_client
 import
-httplib
+HTTPConnection
 import
 io
 import
@@ -14,8 +20,18 @@ import
 traceback
 import
 socket
+from
+six
+.
+moves
+.
+urllib
+.
+parse
 import
-urlparse
+urljoin
+urlsplit
+urlunsplit
 from
 abc
 import
@@ -28,6 +44,7 @@ testrunner
 import
 Stop
 from
+.
 protocol
 import
 Protocol
@@ -284,8 +301,6 @@ url_parts
 =
 list
 (
-urlparse
-.
 urlsplit
 (
 url
@@ -309,8 +324,6 @@ url_parts
 "
     
 return
-urlparse
-.
 urlunsplit
 (
 url_parts
@@ -1389,8 +1402,6 @@ test
 :
         
 return
-urlparse
-.
 urljoin
 (
 self
@@ -3838,8 +3849,6 @@ kicking
         
 conn
 =
-httplib
-.
 HTTPConnection
 (
 self
