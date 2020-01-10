@@ -1277,6 +1277,8 @@ locales
 )
 {
 return
+!
+!
 locales
 .
 startsWith
@@ -1286,11 +1288,11 @@ find
 element
 =
 >
-element
+locale
 .
 startsWith
 (
-locale
+element
 )
 )
 ;
