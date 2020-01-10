@@ -3287,6 +3287,9 @@ GetBrowserBridgeParent
 &
 &
 mBrowsingContext
+&
+&
+mFrameElement
 )
 {
 mBrowsingContext
