@@ -537,19 +537,32 @@ generate_try_task_config
 (
 method
 labels
-templates
+try_config
 =
 None
 )
 :
     
-if
+try_task_config
+=
+try_config
+or
+{
+}
+    
 templates
-is
-not
-None
-:
-        
+=
+try_task_config
+.
+setdefault
+(
+'
+templates
+'
+{
+}
+)
+    
 templates
 .
 setdefault
@@ -573,7 +586,9 @@ method
 )
     
 try_task_config
-=
+.
+update
+(
 {
         
 '
@@ -592,19 +607,7 @@ labels
 )
     
 }
-    
-if
-templates
-:
-        
-try_task_config
-[
-'
-templates
-'
-]
-=
-templates
+)
     
 return
 try_task_config

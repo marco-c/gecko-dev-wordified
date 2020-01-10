@@ -2761,7 +2761,7 @@ OPT_TASK_PATTERNS
 def
 run
 (
-templates
+try_config
 =
 {
 }
@@ -3060,7 +3060,16 @@ test_files
 )
 }
     
+try_config
+.
+setdefault
+(
+'
 templates
+'
+{
+}
+)
 .
 setdefault
 (
@@ -3115,7 +3124,7 @@ generate_try_task_config
 coverage
 '
 tasks
-templates
+try_config
 )
                        
 push
