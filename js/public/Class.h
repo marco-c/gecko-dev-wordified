@@ -5903,7 +5903,7 @@ JSProto_LIMIT
 *
 2
 +
-38
+39
 ;
 #
 define
