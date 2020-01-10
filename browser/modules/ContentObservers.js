@@ -433,6 +433,7 @@ appinfo
 .
 PROCESS_TYPE_CONTENT
 )
+{
 Services
 .
 obs
@@ -449,6 +450,7 @@ shutdown
 "
 )
 ;
+}
 function
 processShutdown
 (

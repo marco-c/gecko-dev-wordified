@@ -506,6 +506,7 @@ isWindowPrivate
 window
 )
 )
+{
 PlacesUIUtils
 .
 markPageAsFollowedLink
@@ -515,6 +516,7 @@ json
 href
 )
 ;
+}
 }
 catch
 (
@@ -558,8 +560,10 @@ where
 current
 "
 )
+{
 return
 ;
+}
 /
 /
 Todo

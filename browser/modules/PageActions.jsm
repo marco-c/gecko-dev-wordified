@@ -5633,6 +5633,7 @@ parse_histograms
 .
 py
 return
+(
 this
 .
 _labelForHistogram
@@ -5670,6 +5671,7 @@ substr
 (
 0
 20
+)
 )
 ;
 }
@@ -6979,6 +6981,7 @@ browserWindow
 {
 return
 (
+(
 !
 this
 .
@@ -7000,6 +7003,7 @@ this
 canShowInWindow
 (
 browserWindow
+)
 )
 ;
 }
@@ -7085,7 +7089,6 @@ getDisabled
 (
 browserWindow
 )
-)
 &
 &
 this
@@ -7093,6 +7096,7 @@ this
 canShowInWindow
 (
 browserWindow
+)
 )
 ;
 }

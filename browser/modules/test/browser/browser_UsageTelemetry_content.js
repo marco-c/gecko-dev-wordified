@@ -272,9 +272,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

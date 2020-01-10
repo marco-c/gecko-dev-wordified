@@ -227,7 +227,6 @@ else
 let
 uri
 =
-(
 message
 .
 data
@@ -238,7 +237,6 @@ promptType
 "
 select
 "
-)
 ?
 SELECT_DIALOG
 :
@@ -362,6 +360,7 @@ if
 (
 newPrompt
 )
+{
 tabPrompt
 .
 removePrompt
@@ -369,11 +368,14 @@ removePrompt
 newPrompt
 )
 ;
+}
 else
+{
 needRemove
 =
 true
 ;
+}
 PromptUtils
 .
 fireDialogEvent

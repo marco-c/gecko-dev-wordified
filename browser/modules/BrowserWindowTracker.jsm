@@ -625,6 +625,7 @@ idx
 =
 0
 )
+{
 _trackedWindows
 .
 splice
@@ -633,6 +634,7 @@ idx
 1
 )
 ;
+}
 }
 /
 /
@@ -877,8 +879,10 @@ _trackedWindows
 0
 ]
 )
+{
 return
 ;
+}
 _untrackWindowOrder
 (
 window

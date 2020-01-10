@@ -324,9 +324,7 @@ clearScalars
 let
 checkCounts
 =
-(
 countsObject
-)
 =
 >
 {

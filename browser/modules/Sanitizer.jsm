@@ -728,7 +728,6 @@ macosx
 "
 ?
 null
-:
 /
 /
 make
@@ -740,6 +739,7 @@ modal
 window
 on
 Mac
+:
 parentWindow
 ;
 Services
@@ -1394,6 +1394,7 @@ ts
 =
 undefined
 )
+{
 ts
 =
 Services
@@ -1407,6 +1408,7 @@ Sanitizer
 PREF_TIMESPAN
 )
 ;
+}
 if
 (
 ts
@@ -1417,9 +1419,11 @@ Sanitizer
 .
 TIMESPAN_EVERYTHING
 )
+{
 return
 null
 ;
+}
 /
 /
 PRTime
@@ -1897,6 +1901,7 @@ if
 !
 itemsToClear
 )
+{
 itemsToClear
 =
 getItemsToClearFromPrefBranch
@@ -1906,6 +1911,7 @@ this
 PREF_CPD_BRANCH
 )
 ;
+}
 let
 promise
 =
@@ -2678,6 +2684,7 @@ searchBar
 .
 textbox
 )
+{
 searchBar
 .
 textbox
@@ -2686,6 +2693,7 @@ reset
 (
 )
 ;
+}
 let
 tabBrowser
 =
@@ -2784,6 +2792,7 @@ isFindBarInitialized
 tab
 )
 )
+{
 tabBrowser
 .
 getCachedFindBar
@@ -2795,6 +2804,7 @@ clear
 (
 )
 ;
+}
 }
 /
 /
@@ -3447,13 +3457,11 @@ now
 (
 )
 >
-(
 startDate
 +
 60
 *
 1000
-)
 )
 {
 this
@@ -3859,8 +3867,10 @@ subject
 =
 newWindow
 )
+{
 return
 ;
+}
 Services
 .
 obs
@@ -4178,6 +4188,7 @@ isArray
 aItemsToClear
 )
 )
+{
 throw
 new
 Error
@@ -4195,6 +4206,7 @@ clear
 "
 )
 ;
+}
 let
 itemsToClear
 =
@@ -4251,6 +4263,7 @@ progress
 .
 isShutdown
 )
+{
 addPendingSanitization
 (
 uid
@@ -4258,6 +4271,7 @@ itemsToClear
 options
 )
 ;
+}
 /
 /
 Store
@@ -4661,6 +4675,7 @@ then
 )
 =
 >
+(
 progress
 [
 name
@@ -4669,6 +4684,7 @@ name
 "
 cleared
 "
+)
 ex
 =
 >
@@ -4743,11 +4759,13 @@ progress
 .
 isShutdown
 )
+{
 removePendingSanitization
 (
 uid
 )
 ;
+}
 progress
 =
 {
@@ -6914,6 +6932,7 @@ pendingSanitizations
 .
 length
 )
+{
 Services
 .
 prefs
@@ -6925,6 +6944,7 @@ Sanitizer
 PREF_PENDING_SANITIZATIONS
 )
 ;
+}
 return
 pendingSanitizations
 ;

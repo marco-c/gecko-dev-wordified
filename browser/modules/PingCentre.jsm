@@ -1345,10 +1345,12 @@ data
 client_id
 |
 |
+(
 await
 this
 .
 telemetryClientId
+)
 ;
 let
 locale
@@ -1501,10 +1503,12 @@ data
 client_id
 |
 |
+(
 await
 this
 .
 telemetryClientId
+)
 ;
 let
 locale

@@ -658,7 +658,6 @@ iconInfo
 node
 .
 nodePrincipal
-(
 Ci
 .
 nsILoadInfo
@@ -676,7 +675,6 @@ Ci
 nsILoadInfo
 .
 SEC_DISALLOW_SCRIPT
-)
 Ci
 .
 nsIContentPolicy
@@ -2048,6 +2046,7 @@ width
 >
 0
 )
+{
 Services
 .
 telemetry
@@ -2064,6 +2063,7 @@ add
 width
 )
 ;
+}
 return
 width
 ;
@@ -3652,9 +3652,11 @@ if
 !
 iconUri
 )
+{
 return
 null
 ;
+}
 /
 /
 Extract

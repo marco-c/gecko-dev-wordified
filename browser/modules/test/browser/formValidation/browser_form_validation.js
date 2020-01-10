@@ -217,6 +217,7 @@ if
 (
 url
 )
+{
 BrowserTestUtils
 .
 loadURI
@@ -227,6 +228,7 @@ linkedBrowser
 url
 )
 ;
+}
 return
 loaded
 ;
@@ -470,6 +472,7 @@ getEmptyFrame
 )
 {
 return
+(
 "
 <
 iframe
@@ -548,6 +551,7 @@ html
 iframe
 >
 "
+)
 ;
 }
 async
@@ -756,7 +760,6 @@ msg
 {
 validMsg
 =
-(
 msg
 =
 =
@@ -772,7 +775,6 @@ i
 )
 .
 validationMessage
-)
 ;
 }
 Assert

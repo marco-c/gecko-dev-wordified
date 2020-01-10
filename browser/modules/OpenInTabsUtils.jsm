@@ -410,7 +410,6 @@ numTabsToOpen
 brandShortName
 ]
 )
-(
 Services
 .
 prompt
@@ -422,9 +421,7 @@ Services
 prompt
 .
 BUTTON_POS_0
-)
 +
-(
 Services
 .
 prompt
@@ -436,7 +433,6 @@ Services
 prompt
 .
 BUTTON_POS_1
-)
 this
 .
 getString
@@ -464,12 +460,10 @@ warnOnOpen
 let
 reallyOpen
 =
-(
 buttonPressed
 =
 =
 0
-)
 ;
 /
 /

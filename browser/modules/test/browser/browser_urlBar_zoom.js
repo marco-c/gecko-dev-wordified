@@ -295,7 +295,6 @@ is
 (
 buttonZoomLevel
 expectedZoomLevel
-(
 "
 Button
 label
@@ -318,7 +317,6 @@ zoom
 "
 %
 "
-)
 )
 ;
 let
@@ -422,9 +420,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -455,9 +451,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

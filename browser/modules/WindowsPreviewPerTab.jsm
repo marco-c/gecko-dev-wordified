@@ -923,8 +923,10 @@ isSuccessCode
 resultCode
 )
 )
+{
 return
 ;
+}
 const
 decodeCallback
 =
@@ -1089,6 +1091,7 @@ equals
 uri
 )
 )
+{
 _imageFromURI
 (
 defaultURI
@@ -1096,6 +1099,7 @@ privateMode
 callback
 )
 ;
+}
 }
 }
 )
@@ -1986,9 +1990,7 @@ this
 updateCanvasPreview
 (
 true
-(
 aPreviewCanvas
-)
 =
 >
 {
@@ -2315,9 +2317,7 @@ this
 updateCanvasPreview
 (
 false
-(
 aThumbnailCanvas
-)
 =
 >
 {
@@ -2501,6 +2501,7 @@ i
 +
 +
 )
+{
 this
 .
 tabbrowser
@@ -2518,6 +2519,7 @@ i
 this
 )
 ;
+}
 for
 (
 let
@@ -2537,6 +2539,7 @@ i
 +
 +
 )
+{
 this
 .
 win
@@ -2552,6 +2555,7 @@ i
 this
 )
 ;
+}
 this
 .
 tabbrowser
@@ -2596,6 +2600,7 @@ i
 +
 +
 )
+{
 this
 .
 newTab
@@ -2606,6 +2611,7 @@ i
 ]
 )
 ;
+}
 this
 .
 updateTabOrdering
@@ -2703,6 +2709,7 @@ i
 +
 +
 )
+{
 this
 .
 win
@@ -2718,6 +2725,7 @@ i
 this
 )
 ;
+}
 for
 (
 let
@@ -2737,6 +2745,7 @@ i
 +
 +
 )
+{
 this
 .
 tabbrowser
@@ -2754,6 +2763,7 @@ i
 this
 )
 ;
+}
 for
 (
 let
@@ -2771,6 +2781,7 @@ i
 +
 +
 )
+{
 this
 .
 removeTab
@@ -2781,6 +2792,7 @@ i
 ]
 )
 ;
+}
 let
 idx
 =
@@ -3536,8 +3548,10 @@ AeroPeek
 .
 _prefenabled
 )
+{
 return
 ;
+}
 this
 .
 onResize
@@ -4368,8 +4382,10 @@ in
 Cc
 )
 )
+{
 return
 ;
+}
 this
 .
 taskbar
@@ -4403,8 +4419,10 @@ this
 .
 available
 )
+{
 return
 ;
+}
 this
 .
 prefs
@@ -4459,6 +4477,7 @@ this
 .
 cacheTimer
 )
+{
 this
 .
 cacheTimer
@@ -4467,6 +4486,7 @@ cancel
 (
 )
 ;
+}
 }
 get
 enabled
@@ -4494,8 +4514,10 @@ _enabled
 =
 enable
 )
+{
 return
 ;
+}
 this
 .
 _enabled
@@ -4948,8 +4970,10 @@ this
 .
 _prefenabled
 )
+{
 return
 ;
+}
 win
 .
 gTaskbarTabGroup
@@ -4994,8 +5018,10 @@ this
 .
 _prefenabled
 )
+{
 return
 ;
+}
 win
 .
 gTaskbarTabGroup
@@ -5020,12 +5046,14 @@ length
 =
 0
 )
+{
 this
 .
 destroy
 (
 )
 ;
+}
 }
 resetCacheTimer
 (
@@ -5131,8 +5159,10 @@ aData
 =
 CACHE_EXPIRATION_TIME_PREF_NAME
 )
+{
 break
 ;
+}
 if
 (
 aData
@@ -5140,6 +5170,7 @@ aData
 =
 DISABLE_THRESHOLD_PREF_NAME
 )
+{
 this
 .
 maxpreviews
@@ -5153,6 +5184,7 @@ getIntPref
 DISABLE_THRESHOLD_PREF_NAME
 )
 ;
+}
 /
 /
 Might

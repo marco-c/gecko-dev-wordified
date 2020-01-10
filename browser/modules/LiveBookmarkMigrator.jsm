@@ -349,6 +349,7 @@ liveBookmark
 feedURI
 ;
 return
+(
 host
 .
 endsWith
@@ -374,6 +375,7 @@ mozilla
 .
 org
 "
+)
 )
 ;
 }

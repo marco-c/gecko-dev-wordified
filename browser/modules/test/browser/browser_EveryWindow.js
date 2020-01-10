@@ -143,9 +143,7 @@ aId
 }
 :
 init
-(
 win
-)
 =
 >
 {
@@ -251,9 +249,7 @@ EveryWindow
 registerCallback
 (
 id
-(
 win
-)
 =
 >
 {

@@ -699,14 +699,10 @@ loadExtension
 manifest
 :
 {
-"
 omnibox
-"
 :
 {
-"
 keyword
-"
 :
 "
 omniboxtest

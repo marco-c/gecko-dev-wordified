@@ -231,9 +231,7 @@ await
 new
 Promise
 (
-(
 c
-)
 =
 >
 setTimeout

@@ -99,6 +99,8 @@ prefVisibility
 =
 new
 Map
+(
+)
 ;
 /
 *
@@ -151,6 +153,7 @@ isSet
 prefName
 )
 )
+{
 prefVisibility
 .
 set
@@ -159,6 +162,7 @@ prefName
 true
 )
 ;
+}
 return
 !
 !
