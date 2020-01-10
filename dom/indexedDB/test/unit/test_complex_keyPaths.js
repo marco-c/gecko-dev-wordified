@@ -1302,6 +1302,8 @@ property
 test
 )
 ;
+ok
+(
 /
 /
 eslint
@@ -1316,8 +1318,6 @@ no
 self
 -
 compare
-ok
-(
 objectStore
 .
 keyPath
@@ -2138,6 +2138,8 @@ property
 test
 )
 ;
+ok
+(
 /
 /
 eslint
@@ -2152,8 +2154,6 @@ no
 self
 -
 compare
-ok
-(
 index
 .
 keyPath
