@@ -11716,6 +11716,9 @@ aDropEffect
 nsIPrincipal
 *
 aPrincipal
+nsIContentSecurityPolicy
+*
+aCsp
 )
 {
 WidgetDragEvent
@@ -11762,6 +11765,14 @@ dragSession
 SetTriggeringPrincipal
 (
 aPrincipal
+)
+;
+dragSession
+-
+>
+SetCsp
+(
+aCsp
 )
 ;
 RefPtr

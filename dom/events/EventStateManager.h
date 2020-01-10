@@ -6778,6 +6778,10 @@ nsIPrincipal
 *
 *
 aPrincipal
+nsIContentSecurityPolicy
+*
+*
+aCsp
 )
 ;
 /
@@ -6920,6 +6924,9 @@ aDragStartData
 nsIPrincipal
 *
 aPrincipal
+nsIContentSecurityPolicy
+*
+aCsp
 )
 ;
 bool
