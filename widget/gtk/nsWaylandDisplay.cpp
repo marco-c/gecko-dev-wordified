@@ -1771,6 +1771,10 @@ mRegistry
 (
 nullptr
 )
+mDmabuf
+(
+nullptr
+)
 mGbmDevice
 (
 nullptr
