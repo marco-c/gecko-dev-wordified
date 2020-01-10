@@ -618,12 +618,7 @@ aName
 )
 ;
 void
-DropChannel
-(
-)
-;
-void
-NotifyShutdown
+CancelChannelAndListener
 (
 )
 ;
