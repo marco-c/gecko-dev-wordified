@@ -1161,6 +1161,11 @@ MatchPatternSet
 filter
 .
 urls
+{
+restrictSchemes
+:
+false
+}
 )
 ;
 }
@@ -5404,6 +5409,11 @@ queryInfo
 .
 url
 )
+{
+restrictSchemes
+:
+false
+}
 )
 ;
 }

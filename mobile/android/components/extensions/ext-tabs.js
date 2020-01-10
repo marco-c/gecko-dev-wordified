@@ -2456,6 +2456,11 @@ queryInfo
 .
 url
 )
+{
+restrictSchemes
+:
+false
+}
 )
 ;
 }
