@@ -73,6 +73,15 @@ addSearchBar
 (
 )
 ;
+await
+Services
+.
+search
+.
+init
+(
+)
+;
 registerCleanupFunction
 (
 (
