@@ -3319,10 +3319,6 @@ aShowInfo
 void
 ContentReceivedInputBlock
 (
-const
-ScrollableLayerGuid
-&
-aGuid
 uint64_t
 aInputBlockId
 bool

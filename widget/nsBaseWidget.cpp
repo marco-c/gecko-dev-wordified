@@ -7207,10 +7207,6 @@ callback
 treeManager
 ]
 (
-const
-ScrollableLayerGuid
-&
-aGuid
 uint64_t
 aInputBlockId
 bool
@@ -8152,7 +8148,6 @@ ProcessWheelEvent
 (
 *
 wheelEvent
-aGuid
 aInputBlockId
 )
 ;
@@ -8215,7 +8210,6 @@ ProcessMouseEvent
 (
 *
 mouseEvent
-aGuid
 aInputBlockId
 )
 ;
