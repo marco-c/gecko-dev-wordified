@@ -8225,6 +8225,8 @@ ClassStatement
 classStmt
 HandlePropertyName
 className
+HasHeritage
+hasHeritage
 uint32_t
 classStartOffset
 uint32_t
@@ -8259,6 +8261,8 @@ HandleAtom
 className
 uint32_t
 classNameOffset
+HasHeritage
+hasHeritage
 )
 ;
 bool
