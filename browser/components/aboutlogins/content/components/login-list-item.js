@@ -322,12 +322,6 @@ login
 guid
 ;
 }
-listItem
-.
-_login
-=
-login
-;
 if
 (
 title
