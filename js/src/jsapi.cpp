@@ -8535,7 +8535,7 @@ externalFinalizer
 }
 static
 void
-SetNativeStackQuotaAndLimit
+SetNativeStackLimit
 (
 JSContext
 *
@@ -8549,16 +8549,6 @@ size_t
 stackSize
 )
 {
-cx
--
->
-nativeStackQuota
-[
-kind
-]
-=
-stackSize
-;
 #
 if
 JS_STACK_GROWTH_DIRECTION
@@ -8745,7 +8735,7 @@ trustedScriptStackSize
 )
 ;
 }
-SetNativeStackQuotaAndLimit
+SetNativeStackLimit
 (
 cx
 JS
@@ -8755,7 +8745,7 @@ StackForSystemCode
 systemCodeStackSize
 )
 ;
-SetNativeStackQuotaAndLimit
+SetNativeStackLimit
 (
 cx
 JS
@@ -8765,7 +8755,7 @@ StackForTrustedScript
 trustedScriptStackSize
 )
 ;
-SetNativeStackQuotaAndLimit
+SetNativeStackLimit
 (
 cx
 JS

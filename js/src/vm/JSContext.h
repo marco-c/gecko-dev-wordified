@@ -934,7 +934,7 @@ AutoSuppressNurseryCellAlloc
 js
 :
 :
-ThreadData
+ContextData
 <
 size_t
 >
@@ -943,7 +943,7 @@ nurserySuppressions_
 js
 :
 :
-ThreadData
+ContextData
 <
 JS
 :
@@ -966,7 +966,7 @@ zone
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -1045,7 +1045,7 @@ threads
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -1061,7 +1061,7 @@ atomsZoneFreeLists_
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -2892,7 +2892,7 @@ cpp
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -2925,7 +2925,7 @@ code
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -2967,7 +2967,7 @@ h
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -3135,36 +3135,6 @@ const
 uintptr_t
 nativeStackBase
 ;
-/
-*
-The
-native
-stack
-size
-limit
-that
-runtime
-should
-not
-exceed
-.
-*
-/
-js
-:
-:
-ThreadData
-<
-size_t
->
-nativeStackQuota
-[
-JS
-:
-:
-StackKindCount
-]
-;
 public
 :
 /
@@ -3186,7 +3156,7 @@ monitor
 js
 :
 :
-ThreadData
+ContextData
 <
 JS
 :
@@ -3256,7 +3226,7 @@ error
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -3272,7 +3242,7 @@ DEBUG
 js
 :
 :
-ThreadData
+ContextData
 <
 uint32_t
 >
@@ -3281,7 +3251,7 @@ inUnsafeCallWithABI
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -3297,7 +3267,7 @@ private
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -3366,7 +3336,7 @@ AutoFlushICache
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -3422,7 +3392,7 @@ cpp
 js
 :
 :
-ThreadData
+ContextData
 <
 DtoaState
 *
@@ -3516,7 +3486,7 @@ facilities
 js
 :
 :
-ThreadData
+ContextData
 <
 int32_t
 >
@@ -3538,7 +3508,7 @@ compiling
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -3585,7 +3555,7 @@ nursery
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -3628,7 +3598,7 @@ collector
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -3690,40 +3660,11 @@ sweeping
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
 gcSweeping
-;
-/
-/
-Whether
-this
-thread
-is
-performing
-work
-in
-the
-background
-for
-a
-runtime
-'
-s
-/
-/
-GCHelperState
-.
-js
-:
-:
-ThreadData
-<
-bool
->
-gcHelperStateThread
 ;
 /
 /
@@ -3742,7 +3683,7 @@ things
 js
 :
 :
-ThreadData
+ContextData
 <
 size_t
 >
@@ -3751,7 +3692,7 @@ isTouchingGrayThings
 js
 :
 :
-ThreadData
+ContextData
 <
 size_t
 >
@@ -3809,7 +3750,7 @@ creation
 js
 :
 :
-ThreadData
+ContextData
 <
 uintptr_t
 >
@@ -3922,7 +3863,7 @@ test
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -3971,7 +3912,7 @@ in
 js
 :
 :
-ThreadData
+ContextData
 <
 unsigned
 >
@@ -4034,7 +3975,7 @@ GC
 js
 :
 :
-ThreadData
+ContextData
 <
 int
 >
@@ -4056,7 +3997,7 @@ stack
 js
 :
 :
-ThreadData
+ContextData
 <
 unsigned
 >
@@ -4088,7 +4029,7 @@ counter
 js
 :
 :
-ThreadData
+ContextData
 <
 unsigned
 >
@@ -4173,7 +4114,7 @@ compilations
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -4358,7 +4299,7 @@ private
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -4408,7 +4349,7 @@ ref
 js
 :
 :
-ThreadData
+ContextData
 <
 uint32_t
 >
@@ -4428,7 +4369,7 @@ GetPcScript
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -4469,7 +4410,7 @@ definition
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -4488,7 +4429,7 @@ exception
 js
 :
 :
-ThreadData
+ContextData
 <
 JS
 :
@@ -4516,7 +4457,7 @@ exception
 js
 :
 :
-ThreadData
+ContextData
 <
 JS
 :
@@ -4663,7 +4604,7 @@ slowPathOnExceptionUnwind
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -4690,7 +4631,7 @@ mode
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -4720,7 +4661,7 @@ OSR
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -4738,7 +4679,7 @@ public
 js
 :
 :
-ThreadData
+ContextData
 <
 int32_t
 >
@@ -4757,7 +4698,7 @@ h
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -4773,7 +4714,7 @@ DEBUG
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -4802,7 +4743,7 @@ recursion
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -4825,7 +4766,7 @@ conversion
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -5026,7 +4967,7 @@ destruction
 js
 :
 :
-ThreadData
+ContextData
 <
 JS
 :
@@ -5109,7 +5050,7 @@ asyncStackForNewActivations
 js
 :
 :
-ThreadData
+ContextData
 <
 const
 char
@@ -5141,7 +5082,7 @@ callFunctionWithAsyncStack
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -5640,7 +5581,7 @@ private
 js
 :
 :
-ThreadData
+ContextData
 <
 InterruptCallbackVector
 >
@@ -5665,7 +5606,7 @@ ref
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -6134,7 +6075,7 @@ code
 js
 :
 :
-ThreadData
+ContextData
 <
 uint8_t
 *
@@ -6316,7 +6257,7 @@ callee
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -6447,7 +6388,7 @@ interrupts
 js
 :
 :
-ThreadData
+ContextData
 <
 uintptr_t
 >
@@ -6531,7 +6472,7 @@ below
 js
 :
 :
-ThreadData
+ContextData
 <
 JS
 :
@@ -6576,7 +6517,7 @@ borrows
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -6622,7 +6563,7 @@ expressions
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -6631,7 +6572,7 @@ canSkipEnqueuingJobs
 js
 :
 :
-ThreadData
+ContextData
 <
 JS
 :
@@ -6643,7 +6584,7 @@ promiseRejectionTrackerCallback
 js
 :
 :
-ThreadData
+ContextData
 <
 void
 *
