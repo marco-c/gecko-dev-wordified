@@ -141,6 +141,9 @@ nsWrapperCache
 .
 h
 "
+class
+nsAtom
+;
 namespace
 mozilla
 {
@@ -299,7 +302,10 @@ uint32_t
 aNumLeadingTracks
 nsTArray
 <
-nsCString
+RefPtr
+<
+nsAtom
+>
 >
 &
 aLineNames
