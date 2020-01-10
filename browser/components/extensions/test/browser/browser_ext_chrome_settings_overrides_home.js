@@ -2308,6 +2308,15 @@ popupHidden
 await
 prefPromise
 ;
+await
+BrowserTestUtils
+.
+waitForLocationChange
+(
+gBrowser
+defaultHomePage
+)
+;
 is
 (
 getHomePageURL
