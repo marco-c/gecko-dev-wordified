@@ -194,9 +194,6 @@ nsStringFwd
 .
 h
 "
-class
-nsCSSValue
-;
 struct
 nsCSSRect
 ;
