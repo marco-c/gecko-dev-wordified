@@ -2134,6 +2134,12 @@ State
 :
 :
 NotActive
+&
+&
+!
+isVerifyPreBarriersEnabled
+(
+)
 ;
 }
 bool
@@ -2968,8 +2974,6 @@ isVerifyPreBarriersEnabled
 const
 {
 return
-!
-!
 verifyPreData
 ;
 }
