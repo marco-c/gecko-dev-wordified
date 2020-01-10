@@ -1251,9 +1251,6 @@ telemetry
 "
 urlbar
 "
-"
-normandyAddonStudy
-"
 ]
 )
 ;
