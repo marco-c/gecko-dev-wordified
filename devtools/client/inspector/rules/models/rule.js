@@ -2003,7 +2003,7 @@ this
 .
 elementStyle
 .
-onRuleUpdated
+markOverriddenAll
 (
 )
 ;
@@ -2684,7 +2684,7 @@ this
 .
 elementStyle
 .
-onRuleUpdated
+markOverriddenAll
 (
 )
 ;
