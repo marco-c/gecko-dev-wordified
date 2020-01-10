@@ -21707,9 +21707,6 @@ updateExecutionObservabilityOfFrames
 (
 cx
 obs
-Debugger
-:
-:
 Observing
 )
 ;
