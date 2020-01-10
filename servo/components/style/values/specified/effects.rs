@@ -124,9 +124,9 @@ values
 computed
 :
 :
-ZeroToOneNumber
+NonNegativeNumber
 as
-ComputedZeroToOneNumber
+ComputedNonNegativeNumber
 ;
 use
 crate
@@ -138,9 +138,9 @@ values
 computed
 :
 :
-NonNegativeNumber
+ZeroToOneNumber
 as
-ComputedNonNegativeNumber
+ComputedZeroToOneNumber
 ;
 use
 crate
