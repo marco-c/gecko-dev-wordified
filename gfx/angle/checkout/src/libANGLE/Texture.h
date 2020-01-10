@@ -1796,10 +1796,10 @@ copySubImage
 Context
 *
 context
-TextureTarget
-target
-GLint
-level
+const
+ImageIndex
+&
+index
 const
 Offset
 &
