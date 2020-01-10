@@ -14634,7 +14634,7 @@ after
 ;
 StopAnimationsWithoutFrame
 (
-mAfterContents
+mMarkerContents
 PseudoStyleType
 :
 :
