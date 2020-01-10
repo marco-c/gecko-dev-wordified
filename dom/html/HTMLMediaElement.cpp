@@ -10930,16 +10930,6 @@ mPaused
 =
 true
 ;
-DispatchAsyncEvent
-(
-NS_LITERAL_STRING
-(
-"
-pause
-"
-)
-)
-;
 RejectPromises
 (
 TakePendingPlayPromises
