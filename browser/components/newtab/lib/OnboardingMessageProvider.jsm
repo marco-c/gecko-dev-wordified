@@ -779,6 +779,11 @@ template
 "
 extended_triplets
 "
+campaign
+:
+"
+firstrun_triplets
+"
 targeting
 :
 "
