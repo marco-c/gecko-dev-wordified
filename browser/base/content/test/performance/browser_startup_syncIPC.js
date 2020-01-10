@@ -711,7 +711,7 @@ Win7
 32
 maxCount
 :
-1
+2
 }
 {
 name
