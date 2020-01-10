@@ -964,6 +964,8 @@ while
 '
 -
 -
+disable
+-
 e10s
 '
 ]
@@ -974,7 +976,7 @@ action
 "
 :
 "
-store_true
+store_false
 "
             
 "
@@ -989,7 +991,7 @@ e10s
 default
 "
 :
-False
+True
             
 "
 help
@@ -998,9 +1000,12 @@ help
 "
 Run
 tests
-with
+without
 multiple
 processes
+(
+e10s
+)
 .
 "
 }

@@ -365,6 +365,8 @@ tested
 "
 -
 -
+disable
+-
 e10s
 "
 ]
@@ -383,21 +385,21 @@ action
 '
 :
 '
-store_true
+store_false
 '
         
 '
 default
 '
 :
-False
+True
         
 '
 help
 '
 :
 '
-Enable
+Disable
 multi
 -
 process

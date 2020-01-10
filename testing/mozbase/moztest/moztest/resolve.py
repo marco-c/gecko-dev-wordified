@@ -2376,8 +2376,6 @@ test
 verify
 -
 wpt
--
-e10s
 '
 ]
     
@@ -2474,8 +2472,6 @@ test
 verify
 -
 wpt
--
-e10s
 '
 ]
     
@@ -2565,8 +2561,6 @@ test
 verify
 -
 wpt
--
-e10s
 '
 ]
     
@@ -2656,8 +2650,6 @@ test
 verify
 -
 wpt
--
-e10s
 '
 ]
     

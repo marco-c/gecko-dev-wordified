@@ -292,6 +292,8 @@ run
 '
 -
 -
+disable
+-
 e10s
 '
 ]
@@ -302,7 +304,7 @@ action
 "
 :
 "
-store_true
+store_false
 "
             
 "
@@ -317,7 +319,7 @@ e10s
 default
 "
 :
-False
+True
             
 "
 help
@@ -325,7 +327,7 @@ help
 :
 "
 Run
-with
+without
 e10s
 enabled
 "
