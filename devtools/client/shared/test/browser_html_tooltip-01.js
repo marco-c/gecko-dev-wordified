@@ -257,16 +257,6 @@ runTests
 doc
 )
 {
-await
-addTab
-(
-"
-about
-:
-blank
-"
-)
-;
 const
 tooltip
 =
