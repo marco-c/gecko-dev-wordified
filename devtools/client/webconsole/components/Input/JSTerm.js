@@ -3071,6 +3071,13 @@ executeString
 =
 this
 .
+getSelectedText
+(
+)
+|
+|
+this
+.
 _getValue
 (
 )
