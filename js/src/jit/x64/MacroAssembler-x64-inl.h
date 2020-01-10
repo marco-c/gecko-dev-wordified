@@ -5867,7 +5867,7 @@ bind
 notInt32
 )
 ;
-loadDouble
+unboxDouble
 (
 src
 dest
@@ -5975,6 +5975,7 @@ failure
 )
 ;
 }
+{
 ScratchRegisterScope
 scratch
 (
@@ -5995,6 +5996,7 @@ scratch
 dest
 )
 ;
+}
 jump
 (
 &

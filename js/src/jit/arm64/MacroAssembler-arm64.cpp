@@ -7724,7 +7724,7 @@ MIRType
 Double
 )
 {
-storeDouble
+boxDouble
 (
 value
 .

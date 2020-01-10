@@ -10070,11 +10070,16 @@ dest
 )
 ;
 }
+template
+<
+typename
+T
+>
 void
 unboxDouble
 (
 const
-Address
+T
 &
 src
 FloatRegister
