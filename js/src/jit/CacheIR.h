@@ -14797,7 +14797,7 @@ IRGenerator
 HandleValue
 val_
 ;
-bool
+AttachDecision
 tryAttachNativeIterator
 (
 ObjOperandId
@@ -14826,7 +14826,7 @@ HandleValue
 value
 )
 ;
-bool
+AttachDecision
 tryAttachStub
 (
 )
