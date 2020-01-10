@@ -1657,11 +1657,6 @@ value
 !
 =
 1
-|
-|
-shareProxiesPref
-.
-locked
 ;
 var
 autologinProxyPref
@@ -1689,11 +1684,6 @@ value
 =
 =
 0
-|
-|
-autologinProxyPref
-.
-locked
 ;
 var
 noProxiesPref
@@ -1721,11 +1711,6 @@ value
 =
 =
 0
-|
-|
-noProxiesPref
-.
-locked
 ;
 var
 autoconfigURLPref
@@ -1753,11 +1738,6 @@ value
 !
 =
 2
-|
-|
-autoconfigURLPref
-.
-locked
 ;
 this
 .
