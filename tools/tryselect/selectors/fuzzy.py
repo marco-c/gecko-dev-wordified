@@ -933,6 +933,7 @@ preset
 templates
 =
 [
+        
 '
 artifact
 '
@@ -955,6 +956,12 @@ gecko
 -
 profile
 '
+'
+disable
+-
+pgo
+'
+    
 ]
 def
 run_cmd

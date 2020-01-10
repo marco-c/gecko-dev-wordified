@@ -649,7 +649,8 @@ params
 try_task_config
 '
 ]
-None
+{
+}
 )
     
 patch
@@ -894,7 +895,8 @@ params
 try_task_config
 '
 ]
-None
+{
+}
 )
     
 patch

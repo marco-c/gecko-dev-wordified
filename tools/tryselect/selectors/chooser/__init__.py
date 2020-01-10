@@ -155,6 +155,11 @@ gecko
 -
 profile
 '
+'
+disable
+-
+pgo
+'
 ]
 def
 run
