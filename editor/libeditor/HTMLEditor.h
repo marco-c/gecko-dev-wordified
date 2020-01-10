@@ -12607,6 +12607,7 @@ Element
 aTableElement
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetColSpan
 (
@@ -12617,6 +12618,7 @@ int32_t
 aColSpan
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetRowSpan
 (
@@ -12963,6 +12965,7 @@ Element
 aNewCell
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 CopyCellBackgroundColor
 (
@@ -12993,6 +12996,7 @@ columns
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 FixBadRowSpan
 (
@@ -13006,6 +13010,7 @@ int32_t
 aNewRowCount
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 FixBadColSpan
 (

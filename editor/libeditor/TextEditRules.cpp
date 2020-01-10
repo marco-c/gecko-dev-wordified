@@ -10966,8 +10966,11 @@ transaction
 nsresult
 rv
 =
+MOZ_KnownLive
+(
 TextEditorRef
 (
+)
 )
 .
 SetAttributeWithTransaction

@@ -3587,11 +3587,14 @@ it
 return
 SetAttributeWithTransaction
 (
+MOZ_KnownLive
+(
 *
 aNode
 .
 AsElement
 (
+)
 )
 *
 aAttribute
