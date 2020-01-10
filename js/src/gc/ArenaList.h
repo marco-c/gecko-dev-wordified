@@ -2287,7 +2287,7 @@ checkEmptyFreeLists
 )
 ;
 inline
-bool
+void
 checkEmptyArenaLists
 (
 )
@@ -2300,7 +2300,7 @@ AllocKind
 kind
 )
 ;
-bool
+void
 checkEmptyArenaList
 (
 AllocKind
