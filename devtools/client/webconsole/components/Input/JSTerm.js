@@ -10233,14 +10233,6 @@ destroy
 (
 )
 {
-this
-.
-webConsoleClient
-.
-clearNetworkRequests
-(
-)
-;
 if
 (
 this
