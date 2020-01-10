@@ -345,16 +345,6 @@ mochitest
 -
 plain
 -
-clipboard_summary
-"
-:
-_mochitest_summary
-    
-"
-mochitest
--
-plain
--
 gpu_summary
 "
 :
