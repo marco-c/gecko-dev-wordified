@@ -312,10 +312,6 @@ void
 UnregisterRemoteFrame
 (
 const
-ContentParentId
-&
-aChildCpId
-const
 TabId
 &
 aChildTabId
