@@ -414,6 +414,12 @@ PrincipalInfo
 >
 mPrincipalInfo
 ;
+nsAutoPtr
+<
+PrincipalInfo
+>
+mStoragePrincipalInfo
+;
 RefPtr
 <
 LSDatabase
@@ -582,6 +588,9 @@ aWindow
 nsIPrincipal
 *
 aPrincipal
+nsIPrincipal
+*
+aStoragePrincipal
 const
 nsAString
 &
@@ -1250,6 +1259,9 @@ aWindow
 nsIPrincipal
 *
 aPrincipal
+nsIPrincipal
+*
+aStoragePrincipal
 )
 ;
 ~

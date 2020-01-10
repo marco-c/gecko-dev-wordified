@@ -230,6 +230,9 @@ aDocumentURI
 nsIPrincipal
 *
 aPrincipal
+nsIPrincipal
+*
+aStoragePrincipal
 bool
 aIsPrivate
 )
