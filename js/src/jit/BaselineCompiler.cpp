@@ -3530,10 +3530,11 @@ pcOffset
 ;
 MOZ_ASSERT_IF
 (
+!
 entry
 -
 >
-isForOp
+isForPrologue
 (
 )
 BytecodeOpHasIC
@@ -3570,7 +3571,7 @@ kind
 entry
 -
 >
-isForOp
+isForPrologue
 (
 )
 ?
@@ -3580,7 +3581,7 @@ RetAddrEntry
 Kind
 :
 :
-IC
+PrologueIC
 :
 RetAddrEntry
 :
@@ -3588,7 +3589,7 @@ RetAddrEntry
 Kind
 :
 :
-NonOpIC
+IC
 ;
 if
 (
