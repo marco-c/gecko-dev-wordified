@@ -651,14 +651,11 @@ expectedSearches
 "
 foo
 "
-"
-foofoo
-"
 /
 /
 The
 extra
-spaces
+space
 is
 here
 due
@@ -666,6 +663,9 @@ to
 bug
 1550644
 .
+"
+foofoo
+"
 "
 foo
 bar
