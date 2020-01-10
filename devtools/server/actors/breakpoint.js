@@ -1223,11 +1223,6 @@ this
 threadActor
 .
 skipBreakpoints
-|
-|
-frame
-.
-onStep
 )
 {
 return
