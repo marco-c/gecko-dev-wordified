@@ -160,17 +160,6 @@ playback_version
 config
 [
 '
-playback_upstream_cert
-'
-]
-=
-'
-false
-'
-    
-config
-[
-'
 playback_binary_manifest
 '
 ]

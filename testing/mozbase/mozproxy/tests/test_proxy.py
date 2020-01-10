@@ -216,14 +216,6 @@ playback_pageset_manifest
 pageset_name
         
 "
-playback_upstream_cert
-"
-:
-'
-false
-'
-        
-"
 playback_version
 "
 :
@@ -519,14 +511,6 @@ playback_pageset_manifest
 "
 :
 pageset_name
-        
-"
-playback_upstream_cert
-"
-:
-'
-false
-'
         
 "
 playback_version
