@@ -27404,7 +27404,7 @@ debug
 .
 widget_update_flashing
 "
-WidgetUpdateFlashing
+nglayout_debug_widget_update_flashing
 RelaxedAtomicBool
 false
 )
@@ -28077,7 +28077,7 @@ as
 -
 paths
 "
-PrintFontVariationsAsPaths
+print_font_variations_as_paths
 RelaxedAtomicBool
 true
 )
@@ -28640,16 +28640,14 @@ PREF_VALUE
 #
 undef
 PREF_VALUE
-VARCACHE_PREF
+PREF
 (
-Live
 "
 privacy
 .
 resistFingerprinting
 "
-ResistFingerprinting
-RelaxedAtomicBool
+bool
 false
 )
 /
@@ -29376,7 +29374,7 @@ slider
 .
 snapMultiplier
 "
-SliderSnapMultiplier
+slider_snapMultiplier
 int32_t
 6
 )
@@ -29951,7 +29949,7 @@ async
 .
 enabled
 "
-TestEventsAsyncEnabled
+test_events_async_enabled
 RelaxedAtomicBool
 false
 )
@@ -29963,7 +29961,7 @@ test
 .
 mousescroll
 "
-MouseScrollTestingEnabled
+test_mousescroll
 RelaxedAtomicBool
 false
 )
@@ -30317,7 +30315,7 @@ scrollbox
 .
 horizontalScrollDistance
 "
-ToolkitHorizontalScrollDistance
+toolkit_scrollbox_horizontalScrollDistance
 RelaxedAtomicInt32
 5
 )
@@ -30331,7 +30329,7 @@ scrollbox
 .
 verticalScrollDistance
 "
-ToolkitVerticalScrollDistance
+toolkit_scrollbox_verticalScrollDistance
 RelaxedAtomicInt32
 3
 )
@@ -30555,7 +30553,7 @@ click_hold_context_menus
 .
 delay
 "
-UiClickHoldContextMenusDelay
+ui_click_hold_context_menus_delay
 RelaxedAtomicInt32
 500
 )
@@ -31692,7 +31690,7 @@ transforms
 .
 disabled
 "
-WindowTransformsDisabled
+widget_window_transforms_disabled
 RelaxedAtomicBool
 false
 )

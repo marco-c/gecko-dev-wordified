@@ -6629,7 +6629,7 @@ if
 StaticPrefs
 :
 :
-WidgetUpdateFlashing
+nglayout_debug_widget_update_flashing
 (
 )
 )

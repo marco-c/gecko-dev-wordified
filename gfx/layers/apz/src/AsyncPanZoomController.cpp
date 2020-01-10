@@ -8646,7 +8646,7 @@ snapMultiplier
 StaticPrefs
 :
 :
-SliderSnapMultiplier
+slider_snapMultiplier
 (
 )
 )
@@ -15331,7 +15331,7 @@ scrollDistance
 StaticPrefs
 :
 :
-ToolkitHorizontalScrollDistance
+toolkit_scrollbox_horizontalScrollDistance
 (
 )
 ;
@@ -15384,7 +15384,7 @@ scrollDistance
 StaticPrefs
 :
 :
-ToolkitVerticalScrollDistance
+toolkit_scrollbox_verticalScrollDistance
 (
 )
 ;
@@ -16907,7 +16907,7 @@ GetActiveWheelTransaction
 StaticPrefs
 :
 :
-MouseScrollTestingEnabled
+test_mousescroll
 (
 )
 )

@@ -7810,7 +7810,7 @@ HasVariationSettings
 StaticPrefs
 :
 :
-PrintFontVariationsAsPaths
+print_font_variations_as_paths
 (
 )
 )

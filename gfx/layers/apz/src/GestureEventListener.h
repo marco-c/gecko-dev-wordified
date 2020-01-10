@@ -703,7 +703,7 @@ and
 StaticPrefs
 :
 :
-UiClickHoldContextMenusDelay
+ui_click_hold_context_menus_delay
 (
 )
 .
@@ -765,7 +765,7 @@ if
 StaticPrefs
 :
 :
-UiClickHoldContextMenusDelay
+ui_click_hold_context_menus_delay
 (
 )
 /

@@ -2730,7 +2730,7 @@ if
 StaticPrefs
 :
 :
-MouseScrollTestingEnabled
+test_mousescroll
 (
 )
 )

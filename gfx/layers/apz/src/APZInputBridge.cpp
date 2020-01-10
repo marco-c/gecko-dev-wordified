@@ -290,7 +290,7 @@ eDragEnd
 StaticPrefs
 :
 :
-TestEventsAsyncEnabled
+test_events_async_enabled
 (
 )
 &
