@@ -17028,7 +17028,7 @@ nursery
 .
 min_kb
 "
-192
+256
 )
 ;
 pref
@@ -17062,7 +17062,7 @@ nursery
 .
 min_kb
 "
-192
+256
 )
 ;
 pref
