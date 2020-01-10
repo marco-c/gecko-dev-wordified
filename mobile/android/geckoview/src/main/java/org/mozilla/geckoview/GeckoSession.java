@@ -11438,6 +11438,14 @@ instance
 *
 throws
 JSONException
+if
+the
+value
+is
+not
+a
+valid
+json
 *
 /
 public
