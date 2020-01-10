@@ -4412,6 +4412,8 @@ esni
 ;
 bool
 esni
+=
+false
 ;
 rv
 =
