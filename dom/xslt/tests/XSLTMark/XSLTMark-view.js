@@ -373,11 +373,8 @@ line
 )
 ;
 test
-[
-"
+.
 title
-"
-]
 =
 res
 [
