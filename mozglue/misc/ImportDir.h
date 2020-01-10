@@ -119,15 +119,6 @@ include
 "
 mozilla
 /
-LauncherResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 NativeNt
 .
 h

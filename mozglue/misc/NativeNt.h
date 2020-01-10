@@ -176,7 +176,7 @@ include
 "
 mozilla
 /
-LauncherResult
+WinHeaderOnlyUtils
 .
 h
 "

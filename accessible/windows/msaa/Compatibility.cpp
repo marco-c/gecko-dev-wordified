@@ -301,7 +301,7 @@ long
 aVersion
 )
 {
-WindowsErrorResult
+LauncherResult
 <
 ModuleVersion
 >

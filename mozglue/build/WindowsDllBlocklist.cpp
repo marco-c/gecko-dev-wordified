@@ -3305,7 +3305,7 @@ true
 }
 else
 {
-WindowsErrorResult
+LauncherResult
 <
 ModuleVersion
 >

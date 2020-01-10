@@ -1386,7 +1386,7 @@ loaded
 continue
 ;
 }
-WindowsErrorResult
+LauncherResult
 <
 ModuleVersion
 >

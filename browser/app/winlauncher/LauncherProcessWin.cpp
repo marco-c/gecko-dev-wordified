@@ -180,15 +180,6 @@ include
 "
 mozilla
 /
-LauncherResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Maybe
 .
 h
