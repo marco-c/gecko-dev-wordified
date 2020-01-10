@@ -2760,8 +2760,10 @@ aInit
 )
 override
 ;
+already_AddRefed
+<
 PBrowserBridgeParent
-*
+>
 AllocPBrowserBridgeParent
 (
 const
@@ -2783,14 +2785,6 @@ const
 TabId
 &
 aTabId
-)
-;
-bool
-DeallocPBrowserBridgeParent
-(
-PBrowserBridgeParent
-*
-aActor
 )
 ;
 virtual
