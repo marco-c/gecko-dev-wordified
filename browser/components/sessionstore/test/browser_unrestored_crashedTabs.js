@@ -320,7 +320,7 @@ browser
 await
 BrowserTestUtils
 .
-crashFrame
+crashBrowser
 (
 browser
 )

@@ -103,7 +103,7 @@ permanentKey
 await
 BrowserTestUtils
 .
-crashFrame
+crashBrowser
 (
 browser
 )

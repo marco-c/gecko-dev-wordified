@@ -266,7 +266,7 @@ SSWindowStateReady
 await
 BrowserTestUtils
 .
-crashFrame
+crashBrowser
 (
 browser1
 )

@@ -228,7 +228,7 @@ browser
 await
 BrowserTestUtils
 .
-crashFrame
+crashBrowser
 (
 browser
 )
@@ -517,7 +517,7 @@ browser
 await
 BrowserTestUtils
 .
-crashFrame
+crashBrowser
 (
 browser
 )
@@ -800,7 +800,7 @@ browser
 await
 BrowserTestUtils
 .
-crashFrame
+crashBrowser
 (
 browser
 )
