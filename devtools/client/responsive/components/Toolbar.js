@@ -591,7 +591,6 @@ this
 props
 ;
 return
-(
 dom
 .
 header
@@ -849,7 +848,6 @@ checked
 )
 title
 :
-(
 touchSimulationEnabled
 ?
 getStr
@@ -868,7 +866,6 @@ responsive
 .
 enableTouch
 "
-)
 )
 onClick
 :
@@ -994,7 +991,6 @@ onClick
 :
 onExit
 }
-)
 )
 )
 )

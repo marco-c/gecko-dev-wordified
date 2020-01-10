@@ -715,7 +715,6 @@ false
 ;
 }
 return
-(
 dom
 .
 div
@@ -1149,7 +1148,6 @@ responsive
 .
 deviceAdderSave
 "
-)
 )
 )
 )

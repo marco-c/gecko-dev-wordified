@@ -487,7 +487,6 @@ render
 )
 {
 return
-(
 dom
 .
 button
@@ -513,7 +512,6 @@ this
 .
 onToggleSettingMenu
 }
-)
 )
 ;
 }

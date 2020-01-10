@@ -341,9 +341,7 @@ this
 .
 setState
 (
-(
 prevState
-)
 =
 >
 {
@@ -437,7 +435,6 @@ render
 )
 {
 return
-(
 dom
 .
 label
@@ -511,7 +508,6 @@ state
 .
 value
 }
-)
 )
 )
 ;

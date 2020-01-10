@@ -1314,7 +1314,6 @@ to
 proceed
 .
 return
-(
 dom
 .
 iframe
@@ -1386,7 +1385,6 @@ browser
 ;
 }
 }
-)
 )
 ;
 }

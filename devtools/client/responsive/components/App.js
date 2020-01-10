@@ -2179,7 +2179,6 @@ modalOpenedFromViewport
 ;
 }
 return
-(
 dom
 .
 div
@@ -2254,7 +2253,6 @@ onUpdateDeviceModal
 )
 :
 null
-)
 )
 ;
 }

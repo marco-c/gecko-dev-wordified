@@ -445,7 +445,6 @@ changeDevicePixelRatio
 ;
 }
 return
-(
 dom
 .
 button
@@ -506,7 +505,6 @@ selectedPixelRatio
 |
 |
 displayPixelRatio
-)
 )
 )
 )

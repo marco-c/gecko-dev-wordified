@@ -365,12 +365,14 @@ this
 const
 store
 =
+(
 this
 .
 store
 =
 Store
 (
+)
 )
 ;
 const

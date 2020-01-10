@@ -154,9 +154,7 @@ window
 const
 isStartupFinished
 =
-(
 window
-)
 =
 >
 window

@@ -398,6 +398,7 @@ value
 )
 {
 return
+(
 /
 ^
 \
@@ -422,6 +423,7 @@ value
 >
 =
 MIN_VIEWPORT_DIMENSION
+)
 ;
 }
 onInputBlur
