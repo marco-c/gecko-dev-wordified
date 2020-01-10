@@ -8189,7 +8189,7 @@ mozilla
 :
 :
 StyleLengthOrAuto
-mTextDecorationThickness
+mTextDecorationWidth
 ;
 }
 ;
@@ -15200,6 +15200,13 @@ mStrokeLinejoin
 NS_STYLE_STROKE_LINEJOIN_
 *
 uint8_t
+mDominantBaseline
+;
+/
+/
+NS_STYLE_DOMINANT_BASELINE_
+*
+uint8_t
 mTextAnchor
 ;
 /
@@ -15853,13 +15860,6 @@ mStopOpacity
 float
 mFloodOpacity
 ;
-uint8_t
-mDominantBaseline
-;
-/
-/
-NS_STYLE_DOMINANT_BASELINE_
-*
 uint8_t
 mVectorEffect
 ;
