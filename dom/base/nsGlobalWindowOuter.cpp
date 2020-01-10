@@ -36931,6 +36931,12 @@ PopupBlocker
 :
 TryUsePopupOpeningToken
 (
+mDoc
+-
+>
+NodePrincipal
+(
+)
 )
 )
 {

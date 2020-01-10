@@ -4147,6 +4147,14 @@ PopupBlocker
 :
 TryUsePopupOpeningToken
 (
+OwnerDoc
+(
+)
+-
+>
+NodePrincipal
+(
+)
 )
 ;
 }
