@@ -40,7 +40,6 @@ header_recommended_by
 {
 provider
 }
--
 "
 "
 context_menu_button_sr
@@ -570,8 +569,8 @@ topstories_empty_state
 {
 provider
 }
--
 .
+?
 .
 "
 "

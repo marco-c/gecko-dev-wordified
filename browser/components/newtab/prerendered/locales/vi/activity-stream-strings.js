@@ -262,9 +262,9 @@ confirm_history_delete_notice_p2
 "
 :
 "
-H
-nh
-ng
+Thao
+t
+c
 n
 y
 kh
@@ -273,6 +273,7 @@ th
 ho
 n
 t
+c
 c
 .
 "
