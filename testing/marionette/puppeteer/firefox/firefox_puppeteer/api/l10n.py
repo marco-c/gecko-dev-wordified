@@ -615,6 +615,13 @@ DOMParser
 )
 ;
                     
+parser
+.
+forceEnableDTD
+(
+)
+;
+                    
 var
 doc
 =

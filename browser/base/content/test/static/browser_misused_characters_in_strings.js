@@ -1654,6 +1654,12 @@ DOMParser
 (
 )
 ;
+domParser
+.
+forceEnableDTD
+(
+)
+;
 for
 (
 let

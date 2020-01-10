@@ -892,6 +892,12 @@ DOMParser
 (
 )
 ;
+parser
+.
+forceEnableDTD
+(
+)
+;
 let
 parserDoc
 =
