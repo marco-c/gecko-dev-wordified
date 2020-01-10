@@ -4307,8 +4307,6 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
-<
 mozilla
 :
 :
@@ -4316,7 +4314,7 @@ dom
 :
 :
 External
->
+*
 GetExternal
 (
 mozilla
@@ -6771,8 +6769,6 @@ nsAString
 aScope
 )
 ;
-already_AddRefed
-<
 mozilla
 :
 :
@@ -6780,7 +6776,7 @@ dom
 :
 :
 InstallTriggerImpl
->
+*
 GetInstallTrigger
 (
 )
