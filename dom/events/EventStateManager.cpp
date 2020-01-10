@@ -13321,8 +13321,10 @@ int32_t
 imageX
 imageY
 ;
+RefPtr
+<
 Element
-*
+>
 dragImage
 =
 aDataTransfer

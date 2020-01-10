@@ -173,6 +173,7 @@ nsDragService
 /
 /
 nsBaseDragService
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 InvokeDragSessionImpl
@@ -201,6 +202,7 @@ override
 /
 /
 nsIDragService
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 EndDragSession
 (

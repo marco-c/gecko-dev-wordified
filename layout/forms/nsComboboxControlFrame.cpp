@@ -759,6 +759,7 @@ nsComboButtonListener
 public
 :
 NS_DECL_ISUPPORTS
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 HandleEvent
 (
@@ -2478,12 +2479,20 @@ WidgetMouseEvent
 eReal
 )
 ;
+nsCOMPtr
+<
+nsIContent
+>
+content
+=
+mContent
+;
 presShell
 -
 >
 HandleDOMEventWithTarget
 (
-mContent
+content
 &
 event
 &
@@ -3627,6 +3636,7 @@ aFrame
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (

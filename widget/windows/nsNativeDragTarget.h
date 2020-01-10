@@ -370,6 +370,7 @@ object
 s
 window
 .
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 STDMETHODIMP
 DragOver
 (
@@ -420,6 +421,7 @@ a
 drop
 occurring
 .
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 STDMETHODIMP
 DragLeave
 (
@@ -484,6 +486,7 @@ return
 /
 E_FAIL
 .
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 STDMETHODIMP
 Drop
 (
@@ -512,6 +515,7 @@ any
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 DragCancel
 (

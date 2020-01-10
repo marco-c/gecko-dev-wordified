@@ -1851,6 +1851,7 @@ EnsureSizeAndPositionUpToDate
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 void
 EnterModalState
@@ -5515,6 +5516,7 @@ Outer
 windows
 only
 .
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool
 CanMoveResizeWindows
 (

@@ -23996,9 +23996,12 @@ NS_VK_SPACE
 {
 MaybeSubmitForm
 (
+MOZ_KnownLive
+(
 aVisitor
 .
 mPresContext
+)
 )
 ;
 break
@@ -24452,9 +24455,12 @@ rv
 =
 MaybeSubmitForm
 (
+MOZ_KnownLive
+(
 aVisitor
 .
 mPresContext
+)
 )
 ;
 NS_ENSURE_SUCCESS
