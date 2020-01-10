@@ -1786,6 +1786,13 @@ Certificates
 "
 CertificatesDescription
 "
+"
+SanitizeOnShutdown
+"
+:
+"
+SanitizeOnShutdown2
+"
 }
 ;
 for
