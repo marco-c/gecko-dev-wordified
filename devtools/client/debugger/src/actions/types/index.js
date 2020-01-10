@@ -201,6 +201,18 @@ SourceAction
 import
 type
 {
+SourceActorAction
+}
+from
+"
+.
+/
+SourceActorAction
+"
+;
+import
+type
+{
 UIAction
 }
 from
@@ -947,6 +959,8 @@ Action
 AddTabAction
 |
 UpdateTabAction
+|
+SourceActorAction
 |
 SourceAction
 |

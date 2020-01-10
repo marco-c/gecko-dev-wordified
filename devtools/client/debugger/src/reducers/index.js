@@ -84,6 +84,17 @@ expressions
 "
 ;
 import
+sourceActors
+from
+"
+.
+/
+source
+-
+actors
+"
+;
+import
 sources
 from
 "
@@ -240,6 +251,7 @@ export
 default
 {
 expressions
+sourceActors
 sources
 tabs
 breakpoints
