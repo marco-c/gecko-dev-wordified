@@ -43,6 +43,16 @@ OPTIONS
 "
 :
         
+if
+"
+origin
+"
+in
+request
+.
+headers
+:
+            
 response
 .
 headers
@@ -62,7 +72,7 @@ Credentials
 true
 "
 )
-        
+            
 response
 .
 headers
@@ -81,14 +91,21 @@ Origin
 request
 .
 headers
-.
-get
-(
+[
 "
 origin
 "
+]
 )
-)
+        
+else
+:
+            
+response
+.
+status
+=
+500
     
 else
 :
