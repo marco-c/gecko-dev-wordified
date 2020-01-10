@@ -27649,7 +27649,7 @@ if
 StaticPrefs
 :
 :
-GfxLoggingPaintedPixelCountEnabled
+gfx_logging_painted_pixel_count_enabled
 (
 )
 )
@@ -69120,7 +69120,7 @@ return
 StaticPrefs
 :
 :
-MetaViewportEnabled
+dom_meta_viewport_enabled
 (
 )
 ;
