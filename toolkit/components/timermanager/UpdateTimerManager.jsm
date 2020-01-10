@@ -488,10 +488,6 @@ minFirstInterval
 =
 500
 ;
-/
-/
-fall
-through
 case
 "
 profile

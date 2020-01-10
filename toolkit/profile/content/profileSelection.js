@@ -961,10 +961,6 @@ macosx
 break
 ;
 }
-/
-/
-fall
-through
 case
 KeyEvent
 .

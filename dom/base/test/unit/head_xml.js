@@ -646,10 +646,6 @@ dom2
 data
 )
 ;
-/
-/
-fall
-through
 case
 Node
 .

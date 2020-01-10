@@ -376,8 +376,6 @@ setExperimentInactive
 rolloutSlug
 )
 ;
-break
-;
 }
 case
 PreferenceRollouts

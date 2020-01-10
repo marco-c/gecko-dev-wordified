@@ -11280,8 +11280,6 @@ data
 trigger
 )
 ;
-break
-;
 case
 "
 BLOCK_MESSAGE_BY_ID
