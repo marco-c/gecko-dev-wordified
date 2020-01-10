@@ -10858,14 +10858,6 @@ _resetSearchState
 (
 )
 ;
-this
-.
-controller
-.
-viewContextChanged
-(
-)
-;
 }
 _on_keydown
 (
