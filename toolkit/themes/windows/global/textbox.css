@@ -771,11 +771,11 @@ skin
 /
 icons
 /
-Search
+searchfield
 -
-close
+cancel
 .
-png
+svg
 )
 ;
 -
@@ -788,8 +788,8 @@ region
 rect
 (
 0
-16px
-16px
+14px
+14px
 0
 )
 ;
