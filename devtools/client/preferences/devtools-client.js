@@ -3831,7 +3831,13 @@ Bug
 if
 defined
 (
-RELEASE_OR_BETA
+MOZ_DEV_EDITION
+)
+|
+|
+defined
+(
+NIGHTLY_BUILD
 )
 pref
 (
@@ -3844,7 +3850,7 @@ new
 -
 enabled
 "
-false
+true
 )
 ;
 #
@@ -3860,7 +3866,7 @@ new
 -
 enabled
 "
-true
+false
 )
 ;
 #
