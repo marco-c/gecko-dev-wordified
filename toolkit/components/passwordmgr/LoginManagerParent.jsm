@@ -4602,7 +4602,7 @@ formLogin
 true
 /
 /
-dimissed
+dismissed
 prompt
 autoSaveLogin
 /
@@ -4636,7 +4636,7 @@ formLogin
 true
 /
 /
-dimissed
+dismissed
 prompt
 autoSaveLogin
 /
