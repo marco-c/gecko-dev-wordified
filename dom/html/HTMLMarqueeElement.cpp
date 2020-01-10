@@ -713,7 +713,6 @@ kDefaultDirection
 }
 if
 (
-(
 aAttribute
 =
 =
@@ -721,10 +720,8 @@ nsGkAtoms
 :
 :
 hspace
-)
 |
 |
-(
 aAttribute
 =
 =
@@ -733,15 +730,13 @@ nsGkAtoms
 :
 vspace
 )
-)
 {
 return
 aResult
 .
-ParseIntWithBounds
+ParseHTMLDimension
 (
 aValue
-0
 )
 ;
 }
