@@ -341,8 +341,11 @@ warningGroupsById
 function
 isMessageInWarningGroup
 (
-state
 message
+visibleMessages
+=
+[
+]
 )
 {
 if
@@ -359,10 +362,7 @@ false
 ;
 }
 return
-getVisibleMessages
-(
-state
-)
+visibleMessages
 .
 includes
 (

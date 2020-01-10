@@ -3190,7 +3190,7 @@ grouping
 in
 the
 console
-false
+true
 by
 default
 pref
@@ -3202,7 +3202,7 @@ webconsole
 .
 groupWarningMessages
 "
-false
+true
 )
 ;
 /
