@@ -301,9 +301,11 @@ length
 =
 0
 )
+{
 return
 null
 ;
+}
 let
 certs
 =
@@ -358,8 +360,10 @@ length
 =
 0
 )
+{
 break
 ;
+}
 let
 certAttrs
 =
@@ -373,6 +377,7 @@ prefCertAttr
 of
 prefCertAttrs
 )
+{
 certAttrs
 [
 prefCertAttr
@@ -385,6 +390,7 @@ getCharPref
 prefCertAttr
 )
 ;
+}
 certs
 .
 push
@@ -557,8 +563,10 @@ length
 =
 0
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -758,8 +766,10 @@ if
 !
 error
 )
+{
 break
 ;
+}
 }
 if
 (
@@ -1143,7 +1153,8 @@ getEnumerator
 (
 )
 )
-;
+{
+}
 const
 certNotBuiltInErr
 =
@@ -1377,11 +1388,13 @@ nsIChannelEventSink
 REDIRECT_INTERNAL
 )
 )
+{
 checkCert
 (
 oldChannel
 )
 ;
+}
 callback
 .
 onRedirectVerifyCallback

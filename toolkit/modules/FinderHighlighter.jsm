@@ -189,6 +189,7 @@ debug
 "
 ;
 return
+(
 Services
 .
 prefs
@@ -206,6 +207,7 @@ prefs
 getBoolPref
 (
 kDebugPref
+)
 )
 ;
 }
@@ -401,6 +403,7 @@ split
 )
 ;
 return
+(
 parts
 .
 shift
@@ -437,6 +440,7 @@ join
 (
 "
 "
+)
 )
 ;
 }
@@ -902,9 +906,7 @@ const
 kModalOutlineAnim
 =
 {
-"
 keyframes
-"
 :
 [
 {
@@ -940,6 +942,7 @@ scaleY
 "
 offset
 :
+0
 .
 5
 easing
@@ -1072,9 +1075,11 @@ hasAttribute
 attrName
 )
 )
+{
 return
 undefined
 ;
+}
 return
 node
 .
@@ -1147,8 +1152,10 @@ hasAttribute
 attrName
 )
 )
+{
 return
 ;
+}
 node
 .
 removeAttribute
@@ -1336,11 +1343,13 @@ this
 .
 _iterator
 )
+{
 return
 this
 .
 _iterator
 ;
+}
 this
 .
 _iterator
@@ -1934,12 +1943,14 @@ this
 .
 _modal
 )
+{
 dict
 .
 visible
 =
 true
 ;
+}
 await
 this
 .
@@ -1956,6 +1967,7 @@ this
 .
 _found
 )
+{
 this
 .
 finder
@@ -1965,6 +1977,7 @@ _outlineLink
 drawOutline
 )
 ;
+}
 }
 else
 {
@@ -2111,6 +2124,7 @@ this
 .
 _modal
 )
+{
 this
 .
 hide
@@ -2127,6 +2141,7 @@ getFoundRange
 )
 )
 ;
+}
 this
 .
 clear
@@ -2486,8 +2501,10 @@ dict
 .
 visible
 )
+{
 return
 ;
+}
 dict
 .
 visible
@@ -2779,6 +2796,7 @@ keys
 (
 )
 )
+{
 this
 .
 _clearSelection
@@ -2794,6 +2812,7 @@ frame
 skipRange
 )
 ;
+}
 /
 /
 Next
@@ -3309,8 +3328,10 @@ dict
 lastIteratorParams
 )
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -3322,6 +3343,7 @@ visible
 !
 params
 )
+{
 params
 =
 {
@@ -3337,10 +3359,12 @@ data
 linksOnly
 }
 ;
+}
 if
 (
 params
 )
+{
 this
 .
 highlight
@@ -3357,6 +3381,7 @@ params
 drawOutline
 )
 ;
+}
 }
 return
 ;
@@ -3420,6 +3445,7 @@ dict
 .
 visible
 )
+{
 this
 .
 show
@@ -3427,7 +3453,9 @@ show
 window
 )
 ;
+}
 else
+{
 this
 .
 _maybeCreateModalHighlightNodes
@@ -3436,12 +3464,14 @@ window
 )
 ;
 }
+}
 if
 (
 this
 .
 _highlightAll
 )
+{
 this
 .
 highlight
@@ -3458,6 +3488,7 @@ data
 drawOutline
 )
 ;
+}
 }
 /
 *
@@ -3503,8 +3534,10 @@ window
 .
 top
 )
+{
 return
 ;
+}
 let
 dict
 =
@@ -3643,8 +3676,10 @@ window
 .
 top
 )
+{
 return
 ;
+}
 this
 .
 hide
@@ -3847,6 +3882,7 @@ this
 .
 _modal
 )
+{
 this
 .
 hide
@@ -3854,6 +3890,7 @@ hide
 window
 )
 ;
+}
 this
 .
 clear
@@ -3924,8 +3961,10 @@ if
 !
 controller
 )
+{
 return
 ;
+}
 let
 sel
 =
@@ -4651,6 +4690,7 @@ if
 !
 frame
 )
+{
 return
 {
 x
@@ -4661,6 +4701,7 @@ y
 0
 }
 ;
+}
 /
 /
 Getting
@@ -4715,6 +4756,7 @@ if
 !
 frameData
 )
+{
 dict
 .
 frames
@@ -4722,23 +4764,28 @@ frames
 set
 (
 window
+(
 frameData
 =
 {
 }
 )
+)
 ;
+}
 if
 (
 frameData
 .
 offset
 )
+{
 return
 frameData
 .
 offset
 ;
+}
 let
 style
 =
@@ -4829,6 +4876,7 @@ paddingTop
 ]
 ;
 return
+(
 frameData
 .
 offset
@@ -4857,6 +4905,7 @@ paddingOffset
 1
 ]
 }
+)
 ;
 }
 /
@@ -5130,12 +5179,14 @@ nodeType
 =
 1
 )
+{
 node
 =
 node
 .
 parentNode
 ;
+}
 let
 style
 =
@@ -5174,6 +5225,7 @@ style
 prop
 ]
 )
+{
 props
 [
 prop
@@ -5184,6 +5236,7 @@ style
 prop
 ]
 ;
+}
 }
 return
 props
@@ -5268,8 +5321,10 @@ idx
 -
 1
 )
+{
 continue
 ;
+}
 style
 .
 push
@@ -5420,6 +5475,7 @@ value
 of
 additionalStyle
 )
+{
 baseStyle
 .
 set
@@ -5428,6 +5484,7 @@ prop
 value
 )
 ;
+}
 }
 return
 [
@@ -5539,9 +5596,11 @@ cssColor
 .
 length
 )
+{
 return
 false
 ;
+}
 cssColor
 .
 shift
@@ -5550,7 +5609,6 @@ shift
 ;
 return
 !
-(
 new
 Color
 (
@@ -5558,7 +5616,6 @@ Color
 .
 .
 cssColor
-)
 )
 .
 useBrightText
@@ -5906,16 +5963,17 @@ fontStyle
 color
 )
 )
+{
 +
 +
 brightCount
 ;
 }
+}
 dict
 .
 brightText
 =
-(
 brightCount
 >
 =
@@ -5926,7 +5984,6 @@ ceil
 sampleSize
 /
 2
-)
 )
 ;
 }
@@ -6073,12 +6130,14 @@ nodeType
 =
 1
 )
+{
 node
 =
 node
 .
 parentNode
 ;
+}
 let
 document
 =
@@ -6142,6 +6201,7 @@ has
 window
 )
 )
+{
 dict
 .
 frames
@@ -6153,6 +6213,7 @@ window
 }
 )
 ;
+}
 return
 true
 ;
@@ -6389,6 +6450,7 @@ if
 !
 bounds
 )
+{
 bounds
 =
 frameData
@@ -6402,6 +6464,7 @@ _getRootBounds
 window
 )
 ;
+}
 }
 else
 {
@@ -6552,6 +6615,7 @@ intersects
 topBounds
 )
 )
+{
 rects
 .
 push
@@ -6559,6 +6623,7 @@ push
 rect
 )
 ;
+}
 }
 return
 {
@@ -6816,12 +6881,14 @@ rectList
 .
 length
 )
+{
 dict
 .
 detectedGeometryChange
 =
 true
 ;
+}
 if
 (
 checkIfDynamic
@@ -6834,6 +6901,7 @@ _isInDynamicContainer
 range
 )
 )
+{
 dict
 .
 dynamicRangesSet
@@ -6843,6 +6911,7 @@ add
 range
 )
 ;
+}
 return
 rectsAndTexts
 ;
@@ -6930,12 +6999,14 @@ values
 (
 )
 )
+{
 frameData
 .
 bounds
 =
 null
 ;
+}
 for
 (
 let
@@ -6945,6 +7016,7 @@ dict
 .
 dynamicRangesSet
 )
+{
 this
 .
 _updateRangeRects
@@ -6954,6 +7026,7 @@ false
 dict
 )
 ;
+}
 }
 /
 *
@@ -7033,8 +7106,10 @@ if
 !
 range
 )
+{
 return
 ;
+}
 let
 fontStyle
 =
@@ -7184,7 +7259,6 @@ nodes
 let
 rebuildOutline
 =
-(
 !
 outlineAnonNode
 |
@@ -7200,7 +7274,6 @@ rectCount
 !
 =
 1
-)
 ;
 dict
 .
@@ -7246,6 +7319,7 @@ if
 (
 rebuildOutline
 )
+{
 this
 .
 _removeRangeOutline
@@ -7253,6 +7327,7 @@ _removeRangeOutline
 window
 )
 ;
+}
 /
 /
 Abort
@@ -8222,8 +8297,10 @@ dict
 .
 animations
 )
+{
 return
 ;
+}
 for
 (
 let
@@ -8233,12 +8310,14 @@ dict
 .
 animations
 )
+{
 animation
 .
 finish
 (
 )
 ;
+}
 }
 /
 *
@@ -8285,8 +8364,10 @@ dict
 .
 modalHighlightOutline
 )
+{
 return
 ;
+}
 if
 (
 kDebug
@@ -8837,6 +8918,7 @@ width
 height
 }
 =
+(
 dict
 .
 lastWindowDimensions
@@ -8846,6 +8928,7 @@ this
 _getWindowDimensions
 (
 window
+)
 )
 ;
 if
@@ -8865,6 +8948,7 @@ dict
 .
 updateAllRanges
 )
+{
 this
 .
 _detectBrightText
@@ -8872,6 +8956,7 @@ _detectBrightText
 dict
 )
 ;
+}
 let
 maskStyle
 =
@@ -9039,6 +9124,7 @@ dict
 .
 updateAllRanges
 )
+{
 this
 .
 _updateDynamicRangesRects
@@ -9046,6 +9132,7 @@ _updateDynamicRangesRects
 dict
 )
 ;
+}
 let
 DOMRect
 =
@@ -9081,14 +9168,17 @@ range
 false
 )
 )
+{
 continue
 ;
+}
 if
 (
 dict
 .
 updateAllRanges
 )
+{
 rectsAndTexts
 =
 this
@@ -9098,6 +9188,7 @@ _updateRangeRects
 range
 )
 ;
+}
 /
 /
 If
@@ -9130,8 +9221,10 @@ dict
 .
 detectedGeometryChange
 )
+{
 return
 ;
+}
 for
 (
 let
@@ -9141,6 +9234,7 @@ rectsAndTexts
 .
 rectList
 )
+{
 allRects
 .
 push
@@ -9163,6 +9257,7 @@ height
 )
 )
 ;
+}
 }
 dict
 .
@@ -9271,8 +9366,10 @@ dict
 .
 modalHighlightAllMask
 )
+{
 return
 ;
+}
 /
 /
 If
@@ -9634,8 +9731,10 @@ this
 .
 _modal
 )
+{
 return
 ;
+}
 window
 =
 window
@@ -9687,14 +9786,12 @@ change
 .
 if
 (
-(
 dict
 .
 repaintSchedulerState
 =
 =
 kRepaintSchedulerPaused
-)
 |
 |
 (
@@ -9741,7 +9838,6 @@ let
 repaintDynamicRanges
 =
 (
-(
 scrollOnly
 |
 |
@@ -9754,7 +9850,6 @@ hasDynamicRanges
 &
 !
 pageIsTooBig
-)
 ;
 /
 /
@@ -9955,6 +10050,7 @@ dict
 .
 unconditionalRepaintRequested
 )
+{
 dict
 .
 unconditionalRepaintRequested
@@ -9965,6 +10061,7 @@ contentChanged
 |
 repaintDynamicRanges
 ;
+}
 /
 /
 Some
@@ -9990,20 +10087,24 @@ dict
 .
 updateAllRanges
 )
+{
 dict
 .
 updateAllRanges
 =
 updateAllRanges
 ;
+}
 if
 (
 dict
 .
 modalRepaintScheduler
 )
+{
 return
 ;
+}
 let
 timeoutMs
 =
@@ -10087,6 +10188,7 @@ width
 height
 }
 =
+(
 dict
 .
 lastWindowDimensions
@@ -10096,6 +10198,7 @@ this
 _getWindowDimensions
 (
 window
+)
 )
 ;
 pageContentChanged
@@ -10176,6 +10279,7 @@ pageContentChanged
 !
 pageIsTooBig
 )
+{
 this
 .
 iterator
@@ -10187,6 +10291,7 @@ this
 finder
 )
 ;
+}
 if
 (
 dict
@@ -10293,8 +10398,10 @@ dict
 .
 highlightListeners
 )
+{
 return
 ;
+}
 window
 =
 window
@@ -10362,11 +10469,13 @@ null
 )
 =
 >
+(
 dict
 .
 busySelecting
 =
 true
+)
 (
 )
 =
@@ -10578,8 +10687,10 @@ dict
 .
 highlightListeners
 )
+{
 return
 ;
+}
 let
 target
 =
@@ -11359,9 +11470,11 @@ selectionRange
 !
 findRange
 )
+{
 return
 false
 ;
+}
 /
 /
 The
@@ -11431,9 +11544,11 @@ selectionRange
 startOffset
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 findRange
@@ -11448,9 +11563,11 @@ selectionRange
 endOffset
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 selectionRange
@@ -11465,9 +11582,11 @@ findRange
 startOffset
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 selectionRange
@@ -11482,9 +11601,11 @@ findRange
 endOffset
 )
 )
+{
 return
 true
 ;
+}
 return
 false
 ;
@@ -12283,6 +12404,7 @@ shouldDelete
 i
 ]
 )
+{
 fSelection
 .
 removeRange
@@ -12295,6 +12417,7 @@ i
 )
 )
 ;
+}
 }
 /
 /

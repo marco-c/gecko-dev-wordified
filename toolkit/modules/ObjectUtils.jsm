@@ -688,9 +688,11 @@ getTime
 )
 )
 )
+{
 return
 true
 ;
+}
 return
 a
 .
@@ -780,6 +782,7 @@ bIsRegExp
 )
 {
 return
+(
 aIsRegExp
 &
 &
@@ -839,6 +842,7 @@ ignoreCase
 b
 .
 ignoreCase
+)
 ;
 /
 /
@@ -1265,9 +1269,11 @@ kb
 .
 length
 )
+{
 return
 false
 ;
+}
 /
 /
 The

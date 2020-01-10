@@ -267,12 +267,14 @@ charAt
 )
 |
 |
+(
 autostart
 &
 &
 FindBarContent
 .
 typeAheadLinksOnly
+)
 )
 {
 mode
@@ -618,6 +620,7 @@ findMode
 =
 FIND_NORMAL
 )
+{
 this
 .
 mm
@@ -631,6 +634,7 @@ Mouseup
 "
 )
 ;
+}
 }
 }
 XPCOMUtils

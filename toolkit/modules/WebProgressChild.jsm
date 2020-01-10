@@ -335,9 +335,11 @@ Ci
 nsIChannel
 )
 )
+{
 return
 null
 ;
+}
 return
 aRequest
 [

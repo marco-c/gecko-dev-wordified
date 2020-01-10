@@ -542,6 +542,7 @@ Cr
 .
 NS_BASE_STREAM_CLOSED
 )
+{
 resolve
 (
 aFile
@@ -551,12 +552,15 @@ close
 )
 )
 ;
+}
 else
+{
 readFailed
 (
 e
 )
 ;
+}
 }
 }
 input
@@ -891,6 +895,7 @@ realSize
 =
 0
 )
+{
 await
 file
 .
@@ -898,7 +903,9 @@ close
 (
 )
 ;
+}
 else
+{
 await
 saveStreamAsync
 (
@@ -912,6 +919,7 @@ entryName
 file
 )
 ;
+}
 }
 catch
 (
@@ -956,9 +964,7 @@ close
 .
 catch
 (
-(
 e
-)
 =
 >
 {
@@ -1229,8 +1235,10 @@ exists
 (
 )
 )
+{
 continue
 ;
+}
 zipReader
 .
 extract

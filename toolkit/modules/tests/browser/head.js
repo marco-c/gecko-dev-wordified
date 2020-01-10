@@ -651,6 +651,7 @@ rectCount
 =
 0
 )
+{
 Assert
 .
 ok
@@ -659,6 +660,7 @@ ok
 message
 )
 ;
+}
 Assert
 .
 greaterOrEqual
@@ -1156,6 +1158,7 @@ hasAttribute
 attrName
 )
 )
+{
 node
 .
 removeAttribute
@@ -1163,6 +1166,7 @@ removeAttribute
 attrName
 )
 ;
+}
 }
 catch
 (
@@ -1354,15 +1358,19 @@ outlineMask
 -
 1
 )
+{
 lastMaskNode
 =
 node
 ;
+}
 else
+{
 lastOutlineNode
 =
 node
 ;
+}
 }
 clearTimeout
 (
@@ -1411,12 +1419,14 @@ which
 insert
 "
 )
+{
 stubAnonymousContentNode
 (
 node
 res
 )
 ;
+}
 return
 res
 ;

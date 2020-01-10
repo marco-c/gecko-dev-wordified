@@ -186,11 +186,9 @@ ordering
 const
 TIME_NOW
 =
-(
 new
 Date
 (
-)
 )
 .
 getTime
@@ -241,7 +239,6 @@ return
 (
 TIME_NOW
 -
-(
 numDays
 *
 24
@@ -251,7 +248,6 @@ numDays
 60
 *
 1000
-)
 )
 *
 1000

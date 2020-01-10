@@ -482,9 +482,7 @@ destPath
 postMessage
 (
 {
-"
 result
-"
 :
 "
 success
@@ -502,16 +500,12 @@ e
 postMessage
 (
 {
-"
 result
-"
 :
 "
 fail
 "
-"
 exception
-"
 :
 e
 .

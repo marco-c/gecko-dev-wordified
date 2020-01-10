@@ -979,8 +979,10 @@ shouldFocusContent
 (
 )
 )
+{
 return
 ;
+}
 }
 catch
 (

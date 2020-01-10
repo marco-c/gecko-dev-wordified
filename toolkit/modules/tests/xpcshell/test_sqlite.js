@@ -698,7 +698,6 @@ Assert
 .
 ok
 (
-(
 await
 OS
 .
@@ -707,7 +706,6 @@ File
 exists
 (
 src
-)
 )
 "
 Database
@@ -912,9 +910,7 @@ Assert
 equal
 (
 typeof
-(
 db
-)
 "
 object
 "
@@ -1067,9 +1063,11 @@ integer
 "
 )
 )
+{
 throw
 ex
 ;
+}
 success
 =
 true

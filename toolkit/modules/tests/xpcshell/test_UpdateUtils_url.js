@@ -614,6 +614,7 @@ returned
 ;
 }
 return
+(
 winVer
 .
 wServicePackMajor
@@ -633,6 +634,7 @@ wServicePackMinor
 winVer
 .
 dwBuildNumber
+)
 ;
 }
 finally
@@ -2082,13 +2084,11 @@ WOW64_64
 osVersion
 +
 =
-(
 ubr
 !
 =
 =
 undefined
-)
 ?
 "
 .

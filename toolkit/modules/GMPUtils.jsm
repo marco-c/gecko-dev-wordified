@@ -401,6 +401,7 @@ and
 Linux
 .
 return
+(
 AppConstants
 .
 platform
@@ -429,6 +430,7 @@ platform
 "
 linux
 "
+)
 ;
 }
 return

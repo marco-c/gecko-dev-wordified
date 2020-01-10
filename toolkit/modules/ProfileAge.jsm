@@ -402,9 +402,7 @@ iterator
 forEach
 (
 async
-(
 entry
-)
 =
 >
 {

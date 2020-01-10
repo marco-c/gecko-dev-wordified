@@ -1108,8 +1108,10 @@ this
 .
 _scrollable
 )
+{
 return
 ;
+}
 let
 content
 =
@@ -1172,8 +1174,10 @@ content
 .
 performance
 )
+{
 return
 ;
+}
 let
 domUtils
 =
@@ -1655,6 +1659,7 @@ val
 >
 1
 )
+{
 return
 val
 *
@@ -1667,6 +1672,7 @@ val
 -
 1
 ;
+}
 if
 (
 val
@@ -1674,6 +1680,7 @@ val
 -
 1
 )
+{
 return
 val
 *
@@ -1687,6 +1694,7 @@ val
 +
 1
 ;
+}
 return
 0
 ;
@@ -1702,6 +1710,7 @@ num
 >
 0
 )
+{
 return
 Math
 .
@@ -1710,6 +1719,7 @@ floor
 num
 )
 ;
+}
 return
 Math
 .
@@ -1891,11 +1901,9 @@ this
 .
 _scrollErrorY
 =
-(
 desiredScrollY
 -
 actualScrollY
-)
 ;
 }
 if
@@ -1949,11 +1957,9 @@ this
 .
 _scrollErrorX
 =
-(
 desiredScrollX
 -
 actualScrollX
-)
 ;
 }
 this

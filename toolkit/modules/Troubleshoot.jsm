@@ -908,6 +908,7 @@ in
 PREFS_GETTERS
 )
 )
+{
 throw
 new
 Error
@@ -927,6 +928,7 @@ for
 name
 )
 ;
+}
 return
 PREFS_GETTERS
 [
@@ -991,6 +993,7 @@ name
 )
 )
 )
+{
 prefs
 [
 name
@@ -1001,6 +1004,7 @@ getPref
 name
 )
 ;
+}
 }
 )
 ;
@@ -1110,6 +1114,7 @@ numPending
 =
 0
 )
+{
 /
 /
 Ensure
@@ -1137,6 +1142,7 @@ snapshot
 )
 )
 ;
+}
 }
 for
 (
@@ -1413,6 +1419,7 @@ AppConstants
 .
 MOZ_UPDATER
 )
+{
 data
 .
 updateChannel
@@ -1442,6 +1449,7 @@ UpdateUtils
 .
 UpdateChannel
 ;
+}
 /
 /
 eslint
@@ -1908,6 +1916,7 @@ b
 .
 isActive
 )
+{
 return
 b
 .
@@ -1918,6 +1927,7 @@ isActive
 -
 1
 ;
+}
 /
 /
 In
@@ -1969,9 +1979,11 @@ lc
 =
 0
 )
+{
 return
 lc
 ;
+}
 if
 (
 a
@@ -1983,6 +1995,7 @@ b
 .
 version
 )
+{
 return
 a
 .
@@ -1997,6 +2010,7 @@ version
 -
 1
 ;
+}
 return
 0
 ;
@@ -2263,9 +2277,11 @@ lc
 =
 0
 )
+{
 return
 lc
 ;
+}
 if
 (
 a
@@ -2277,6 +2293,7 @@ b
 .
 version
 )
+{
 return
 a
 .
@@ -2291,6 +2308,7 @@ version
 -
 1
 ;
+}
 return
 0
 ;
@@ -3080,12 +3098,14 @@ windowLayerManagerType
 Basic
 "
 )
+{
 data
 .
 numAcceleratedWindows
 +
 +
 ;
+}
 }
 /
 /
@@ -3407,13 +3427,11 @@ e
 }
 if
 (
-(
 "
 direct2DEnabled
 "
 in
 data
-)
 &
 &
 !
@@ -3421,6 +3439,7 @@ data
 .
 direct2DEnabled
 )
+{
 data
 .
 direct2DEnabledMessage
@@ -3434,6 +3453,7 @@ nsIGfxInfo
 FEATURE_DIRECT2D
 )
 ;
+}
 let
 doc
 =
@@ -3878,12 +3898,14 @@ if
 (
 infoInfo
 )
+{
 data
 .
 info
 =
 infoInfo
 ;
+}
 let
 failureIndices
 =
@@ -4240,6 +4262,7 @@ hasMoreElements
 (
 )
 )
+{
 data
 .
 incrementalGCEnabled
@@ -4256,6 +4279,7 @@ isIncrementalGCEnabled
 (
 )
 ;
+}
 done
 (
 data
@@ -4724,7 +4748,6 @@ filter
 report
 =
 >
-(
 now
 -
 report
@@ -4734,7 +4757,6 @@ date
 Troubleshoot
 .
 kMaxCrashAge
-)
 )
 ;
 let
@@ -4747,12 +4769,10 @@ filter
 report
 =
 >
-(
 !
 report
 .
 pending
-)
 )
 ;
 let

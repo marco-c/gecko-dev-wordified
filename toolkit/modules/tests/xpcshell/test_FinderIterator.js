@@ -70,9 +70,11 @@ range
 of
 gFindResults
 )
+{
 yield
 range
 ;
+}
 }
 ;
 FinderIterator
@@ -204,6 +206,7 @@ i
 0
 ;
 )
+{
 gFindResults
 .
 push
@@ -215,6 +218,7 @@ findText
 )
 )
 ;
+}
 }
 add_task
 (

@@ -108,13 +108,11 @@ nsIHttpChannelInternal
 ;
 ok
 (
-(
 "
 beConservative
 "
 in
 sr_channel
-)
 "
 TLS
 setting
@@ -189,13 +187,11 @@ nsIHttpChannelInternal
 ;
 ok
 (
-(
 "
 beConservative
 "
 in
 xhr_channel
-)
 "
 TLS
 setting

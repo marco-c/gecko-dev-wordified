@@ -985,13 +985,11 @@ info
 isDir
 &
 &
-(
 info
 .
 unixMode
 &
 0o111
-)
 ;
 }
 catch

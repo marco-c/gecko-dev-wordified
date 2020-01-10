@@ -1439,7 +1439,6 @@ throws
 )
 =
 >
-(
 new
 CreditCard
 (
@@ -1450,7 +1449,6 @@ number
 1234
 "
 }
-)
 )
 .
 maskedNumber
@@ -1713,7 +1711,6 @@ throws
 )
 =
 >
-(
 new
 CreditCard
 (
@@ -1724,7 +1721,6 @@ number
 1234
 "
 }
-)
 )
 .
 longMaskedNumber
@@ -1833,11 +1829,9 @@ message
 let
 year
 =
-(
 new
 Date
 (
-)
 )
 .
 getFullYear
@@ -1847,11 +1841,9 @@ getFullYear
 let
 month
 =
-(
 new
 Date
 (
-)
 )
 .
 getMonth
@@ -1891,7 +1883,6 @@ testValid
 "
 0000000000000000
 "
-(
 month
 <
 11
@@ -1903,8 +1894,6 @@ month
 month
 %
 10
-)
-(
 month
 <
 11
@@ -1914,7 +1903,6 @@ year
 year
 +
 1
-)
 true
 "
 Valid
@@ -1960,7 +1948,6 @@ testValid
 "
 0000000000000000
 "
-(
 month
 >
 1
@@ -1970,8 +1957,6 @@ month
 1
 :
 12
-)
-(
 month
 >
 1
@@ -1981,7 +1966,6 @@ year
 year
 -
 1
-)
 false
 "
 Valid
@@ -2058,7 +2042,6 @@ Assert
 .
 equal
 (
-(
 new
 CreditCard
 (
@@ -2072,7 +2055,6 @@ number
 0000
 "
 }
-)
 )
 .
 number
@@ -2097,7 +2079,6 @@ normalized
 Assert
 .
 equal
-(
 (
 new
 CreditCard
@@ -2116,7 +2097,6 @@ t0000
 "
 }
 )
-)
 .
 number
 "
@@ -2141,7 +2121,6 @@ Assert
 .
 equal
 (
-(
 new
 CreditCard
 (
@@ -2158,7 +2137,6 @@ number
 0000
 "
 }
-)
 )
 .
 number
@@ -2184,7 +2162,6 @@ Assert
 .
 equal
 (
-(
 new
 CreditCard
 (
@@ -2200,7 +2177,6 @@ number
 0000
 "
 }
-)
 )
 .
 number
@@ -2228,7 +2204,6 @@ Assert
 .
 equal
 (
-(
 new
 CreditCard
 (
@@ -2239,7 +2214,6 @@ number
 0000000000000000
 "
 }
-)
 )
 .
 number

@@ -223,6 +223,7 @@ this
 .
 mRemote
 )
+{
 throw
 new
 Error
@@ -233,6 +234,7 @@ state
 "
 )
 ;
+}
 this
 .
 uninit
@@ -244,8 +246,10 @@ if
 !
 aSpellInfo
 )
+{
 return
 ;
+}
 this
 .
 mInlineSpellChecker
@@ -421,8 +425,10 @@ this
 .
 mInlineSpellChecker
 )
+{
 return
 ;
+}
 var
 selcon
 =
@@ -453,8 +459,10 @@ rangeCount
 =
 0
 )
+{
 return
 ;
+}
 /
 /
 easy
@@ -480,8 +488,10 @@ if
 !
 range
 )
+{
 return
 ;
+}
 /
 /
 not
@@ -580,6 +590,7 @@ this
 .
 mRemote
 )
+{
 return
 this
 .
@@ -587,6 +598,7 @@ mRemote
 .
 canSpellCheck
 ;
+}
 return
 this
 .
@@ -662,6 +674,7 @@ this
 .
 mRemote
 )
+{
 return
 this
 .
@@ -669,6 +682,7 @@ mRemote
 .
 enableRealTimeSpell
 ;
+}
 return
 (
 this
@@ -696,6 +710,7 @@ this
 .
 mRemote
 )
+{
 this
 .
 mRemote
@@ -705,6 +720,7 @@ setSpellcheckUserOverride
 isEnabled
 )
 ;
+}
 else
 if
 (
@@ -712,6 +728,7 @@ this
 .
 mInlineSpellChecker
 )
+{
 this
 .
 mEditor
@@ -721,6 +738,7 @@ setSpellcheckUserOverride
 isEnabled
 )
 ;
+}
 }
 /
 /
@@ -805,9 +823,11 @@ this
 mOverMisspelling
 )
 )
+{
 return
 0
 ;
+}
 /
 /
 nothing
@@ -847,9 +867,11 @@ this
 mMisspelling
 )
 )
+{
 return
 0
 ;
+}
 /
 /
 word
@@ -923,8 +945,10 @@ suggestion
 .
 length
 )
+{
 break
 ;
+}
 this
 .
 mSpellSuggestions
@@ -1191,17 +1215,13 @@ sortedList
 push
 (
 {
-"
 localeCode
-"
 :
 list
 [
 i
 ]
-"
 displayName
-"
 :
 names
 [
@@ -1214,7 +1234,6 @@ i
 let
 comparer
 =
-(
 new
 Services
 .
@@ -1222,7 +1241,6 @@ intl
 .
 Collator
 (
-)
 )
 .
 compare
@@ -1301,9 +1319,11 @@ this
 .
 enabled
 )
+{
 return
 0
 ;
+}
 var
 list
 ;
@@ -1650,6 +1670,7 @@ if
 (
 insertBefore
 )
+{
 menu
 .
 insertBefore
@@ -1658,7 +1679,9 @@ item
 insertBefore
 )
 ;
+}
 else
+{
 menu
 .
 appendChild
@@ -1666,6 +1689,7 @@ appendChild
 item
 )
 ;
+}
 }
 return
 list
@@ -1776,8 +1800,10 @@ this
 .
 mInlineSpellChecker
 )
+{
 return
 ;
+}
 var
 spellchecker
 =
@@ -1853,8 +1879,10 @@ this
 .
 mOverMisspelling
 )
+{
 return
 ;
+}
 if
 (
 index
@@ -1871,8 +1899,10 @@ mSpellSuggestions
 .
 length
 )
+{
 return
 ;
+}
 this
 .
 mInlineSpellChecker
@@ -1912,6 +1942,7 @@ this
 .
 mRemote
 )
+{
 this
 .
 mRemote
@@ -1920,7 +1951,9 @@ toggleEnabled
 (
 )
 ;
+}
 else
+{
 this
 .
 mEditor
@@ -1935,6 +1968,7 @@ mInlineSpellChecker
 enableRealTimeSpell
 )
 ;
+}
 }
 /
 /
@@ -1977,6 +2011,7 @@ length
 =
 MAX_UNDO_STACK_DEPTH
 )
+{
 this
 .
 mAddedWordStack
@@ -1985,6 +2020,7 @@ shift
 (
 )
 ;
+}
 this
 .
 mAddedWordStack
@@ -2002,6 +2038,7 @@ this
 .
 mRemote
 )
+{
 this
 .
 mRemote
@@ -2010,7 +2047,9 @@ addToDictionary
 (
 )
 ;
+}
 else
+{
 this
 .
 mInlineSpellChecker
@@ -2022,6 +2061,7 @@ this
 mMisspelling
 )
 ;
+}
 }
 /
 /
@@ -2069,6 +2109,7 @@ this
 .
 mRemote
 )
+{
 this
 .
 mRemote
@@ -2078,7 +2119,9 @@ undoAddToDictionary
 word
 )
 ;
+}
 else
+{
 this
 .
 mInlineSpellChecker
@@ -2088,6 +2131,7 @@ removeWordFromDictionary
 word
 )
 ;
+}
 }
 }
 canUndo
@@ -2106,7 +2150,6 @@ on
 the
 stack
 return
-(
 this
 .
 mAddedWordStack
@@ -2114,7 +2157,6 @@ mAddedWordStack
 length
 >
 0
-)
 ;
 }
 ignoreWord
@@ -2127,6 +2169,7 @@ this
 .
 mRemote
 )
+{
 this
 .
 mRemote
@@ -2135,7 +2178,9 @@ ignoreWord
 (
 )
 ;
+}
 else
+{
 this
 .
 mInlineSpellChecker
@@ -2147,6 +2192,7 @@ this
 mMisspelling
 )
 ;
+}
 }
 }
 ;
@@ -2378,9 +2424,11 @@ window
 HTMLInputElement
 )
 )
+{
 return
 false
 ;
+}
 var
 form
 =
@@ -2403,9 +2451,11 @@ type
 password
 "
 )
+{
 return
 false
 ;
+}
 var
 method
 =
@@ -2512,7 +2562,6 @@ method
 =
 "
 "
-)
 |
 |
 (
@@ -2526,10 +2575,8 @@ text
 /
 plain
 "
-)
 &
 &
-(
 form
 .
 enctype
@@ -2542,6 +2589,7 @@ form
 -
 data
 "
+)
 )
 ;
 }
@@ -2729,6 +2777,7 @@ element
 window
 )
 )
+{
 flags
 |
 =
@@ -2736,6 +2785,7 @@ this
 .
 KEYWORD
 ;
+}
 if
 (
 element
@@ -2906,6 +2956,7 @@ if
 (
 isSpellcheckable
 )
+{
 flags
 |
 =
@@ -2917,6 +2968,7 @@ this
 .
 SPELLCHECKABLE
 ;
+}
 }
 }
 return
@@ -3047,9 +3099,11 @@ spellInfo
 .
 spellSuggestions
 )
+{
 yield
 i
 ;
+}
 }
 )
 (

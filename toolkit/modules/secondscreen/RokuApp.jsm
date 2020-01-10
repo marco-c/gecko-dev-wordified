@@ -522,7 +522,6 @@ addEventListener
 "
 error
 "
-(
 function
 (
 )
@@ -545,7 +544,6 @@ unknown
 ;
 }
 }
-)
 )
 ;
 xhr
@@ -761,7 +759,6 @@ addEventListener
 "
 load
 "
-(
 function
 (
 )
@@ -785,7 +782,6 @@ status
 }
 }
 )
-)
 ;
 xhr
 .
@@ -794,7 +790,6 @@ addEventListener
 "
 error
 "
-(
 function
 (
 )
@@ -811,7 +806,6 @@ false
 ;
 }
 }
-)
 )
 ;
 xhr
@@ -905,7 +899,6 @@ addEventListener
 "
 load
 "
-(
 function
 (
 )
@@ -929,7 +922,6 @@ status
 }
 }
 )
-)
 ;
 xhr
 .
@@ -938,7 +930,6 @@ addEventListener
 "
 error
 "
-(
 function
 (
 )
@@ -955,7 +946,6 @@ false
 ;
 }
 }
-)
 )
 ;
 xhr
@@ -1420,6 +1410,7 @@ this
 .
 _listener
 )
+{
 this
 .
 _listener
@@ -1429,6 +1420,7 @@ onRemoteMediaStop
 this
 )
 ;
+}
 }
 _sendMsg
 :
@@ -1443,8 +1435,10 @@ if
 !
 data
 )
+{
 return
 ;
+}
 /
 /
 Add
@@ -1510,7 +1504,6 @@ active
 )
 {
 return
-(
 this
 .
 _socket
@@ -1522,7 +1515,6 @@ _socket
 .
 isAlive
 (
-)
 )
 ;
 }

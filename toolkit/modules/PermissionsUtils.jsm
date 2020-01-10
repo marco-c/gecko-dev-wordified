@@ -144,8 +144,10 @@ if
 !
 origins
 )
+{
 continue
 ;
+}
 origins
 =
 origins
@@ -569,6 +571,7 @@ endsWith
 "
 )
 )
+{
 aPrefBranch
 +
 =
@@ -576,6 +579,7 @@ aPrefBranch
 .
 "
 ;
+}
 /
 /
 Ensure
@@ -596,8 +600,10 @@ has
 aPrefBranch
 )
 )
+{
 return
 ;
+}
 importPrefBranch
 (
 aPrefBranch

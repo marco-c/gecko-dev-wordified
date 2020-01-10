@@ -806,6 +806,7 @@ rects2
 )
 {
 return
+(
 rects1
 .
 length
@@ -838,6 +839,7 @@ i
 )
 ;
 }
+)
 )
 ;
 }

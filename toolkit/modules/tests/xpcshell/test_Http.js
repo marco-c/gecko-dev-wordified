@@ -402,6 +402,7 @@ available
 >
 0
 )
+{
 Array
 .
 prototype
@@ -419,6 +420,7 @@ avail
 )
 )
 ;
+}
 Assert
 .
 equal

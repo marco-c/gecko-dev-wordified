@@ -575,11 +575,9 @@ _progressListeners
 {
 if
 (
-(
 mask
 &
 type
-)
 &
 &
 listener

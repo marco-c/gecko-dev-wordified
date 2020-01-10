@@ -1120,6 +1120,7 @@ getMonth
 1
 ;
 return
+(
 this
 .
 _expirationYear
@@ -1134,6 +1135,7 @@ _expirationMonth
 >
 =
 currentMonth
+)
 ;
 }
 get
@@ -1625,7 +1627,6 @@ monthIndex
 }
 if
 (
-(
 month
 <
 1
@@ -1634,7 +1635,6 @@ month
 month
 >
 12
-)
 |
 |
 (

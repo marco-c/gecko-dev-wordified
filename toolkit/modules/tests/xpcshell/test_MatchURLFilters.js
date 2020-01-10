@@ -3842,7 +3842,6 @@ urlMatches
 .
 *
 /
-\
 ?
 p
 "
@@ -4064,7 +4063,6 @@ originAndPathMatches
 .
 *
 /
-\
 ?
 p
 "

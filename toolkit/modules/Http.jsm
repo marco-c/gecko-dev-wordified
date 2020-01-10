@@ -564,6 +564,7 @@ aOptions
 .
 logger
 )
+{
 aOptions
 .
 logger
@@ -581,6 +582,7 @@ target
 responseText
 )
 ;
+}
 if
 (
 target
@@ -631,12 +633,14 @@ test
 errorText
 )
 )
+{
 errorText
 =
 target
 .
 statusText
 ;
+}
 throw
 new
 Error
@@ -659,6 +663,7 @@ aOptions
 .
 onLoad
 )
+{
 aOptions
 .
 onLoad
@@ -669,6 +674,7 @@ responseText
 this
 )
 ;
+}
 }
 catch
 (
@@ -681,6 +687,7 @@ aOptions
 .
 onError
 )
+{
 aOptions
 .
 onError
@@ -694,6 +701,7 @@ responseText
 this
 )
 ;
+}
 }
 }
 ;

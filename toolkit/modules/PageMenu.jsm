@@ -1155,9 +1155,11 @@ this
 PAGEMENU_ATTR
 )
 )
+{
 return
 aPopup
 ;
+}
 let
 element
 =

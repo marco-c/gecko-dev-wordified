@@ -538,12 +538,14 @@ if
 !
 followLinks
 )
+{
 dir
 .
 followLinks
 =
 false
 ;
+}
 return
 dir
 ;
@@ -924,6 +926,7 @@ modeFlags
 =
 undefined
 )
+{
 modeFlags
 =
 this
@@ -938,6 +941,7 @@ this
 .
 MODE_TRUNCATE
 ;
+}
 fos
 .
 init

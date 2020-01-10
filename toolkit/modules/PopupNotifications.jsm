@@ -291,6 +291,8 @@ gNotificationParents
 =
 new
 WeakMap
+(
+)
 ;
 function
 getAnchorFromBrowser
@@ -754,9 +756,11 @@ if
 !
 iconBox
 )
+{
 return
 anchorElement
 ;
+}
 if
 (
 !
@@ -767,6 +771,7 @@ this
 .
 anchorID
 )
+{
 anchorElement
 =
 iconBox
@@ -782,6 +787,7 @@ this
 anchorID
 )
 ;
+}
 /
 /
 Use
@@ -799,6 +805,7 @@ if
 !
 anchorElement
 )
+{
 anchorElement
 =
 iconBox
@@ -818,6 +825,7 @@ icon
 |
 iconBox
 ;
+}
 return
 anchorElement
 ;
@@ -1330,6 +1338,7 @@ if
 !
 tabbrowser
 )
+{
 throw
 new
 Error
@@ -1340,6 +1349,7 @@ tabbrowser
 "
 )
 ;
+}
 if
 (
 iconBox
@@ -1357,6 +1367,7 @@ iconBox
 XULElement
 "
 )
+{
 throw
 new
 Error
@@ -1367,6 +1378,7 @@ iconBox
 "
 )
 ;
+}
 if
 (
 ChromeUtils
@@ -1381,6 +1393,7 @@ panel
 XULPopupElement
 "
 )
+{
 throw
 new
 Error
@@ -1391,6 +1404,7 @@ panel
 "
 )
 ;
+}
 this
 .
 _shouldSuppress
@@ -3705,6 +3719,7 @@ a
 )
 {
 return
+(
 !
 a
 |
@@ -3712,11 +3727,9 @@ a
 !
 (
 typeof
-(
 a
 .
 callback
-)
 =
 =
 "
@@ -3735,6 +3748,7 @@ label
 a
 .
 accessKey
+)
 ;
 }
 if
@@ -3742,6 +3756,7 @@ if
 !
 browser
 )
+{
 throw
 new
 Error
@@ -3754,11 +3769,13 @@ browser
 "
 )
 ;
+}
 if
 (
 !
 id
 )
+{
 throw
 new
 Error
@@ -3771,6 +3788,7 @@ ID
 "
 )
 ;
+}
 if
 (
 mainAction
@@ -3781,6 +3799,7 @@ isInvalidAction
 mainAction
 )
 )
+{
 throw
 new
 Error
@@ -3793,6 +3812,7 @@ mainAction
 "
 )
 ;
+}
 if
 (
 secondaryActions
@@ -3805,6 +3825,7 @@ some
 isInvalidAction
 )
 )
+{
 throw
 new
 Error
@@ -3817,6 +3838,7 @@ secondaryActions
 "
 )
 ;
+}
 let
 notification
 =
@@ -3888,12 +3910,14 @@ options
 .
 dismissed
 )
+{
 notification
 .
 dismissed
 =
 true
 ;
+}
 let
 existingNotification
 =
@@ -3909,6 +3933,7 @@ if
 (
 existingNotification
 )
+{
 this
 .
 _remove
@@ -3916,6 +3941,7 @@ _remove
 existingNotification
 )
 ;
+}
 let
 notifications
 =
@@ -4225,6 +4251,7 @@ if
 !
 aBrowser
 )
+{
 throw
 new
 Error
@@ -4237,6 +4264,7 @@ browser
 "
 )
 ;
+}
 let
 notifications
 =
@@ -4311,6 +4339,7 @@ options
 .
 persistence
 )
+{
 notification
 .
 options
@@ -4319,6 +4348,7 @@ persistence
 -
 -
 ;
+}
 return
 true
 ;
@@ -4718,9 +4748,7 @@ notificationArray
 .
 forEach
 (
-(
 n
-)
 =
 >
 {
@@ -4830,6 +4858,7 @@ panel
 .
 children
 )
+{
 elt
 .
 notification
@@ -4846,6 +4875,7 @@ now
 (
 )
 ;
+}
 break
 ;
 }
@@ -5031,8 +5061,10 @@ if
 !
 notifications
 )
+{
 return
 ;
+}
 var
 index
 =
@@ -5051,8 +5083,10 @@ index
 -
 1
 )
+{
 return
 ;
+}
 if
 (
 this
@@ -5064,6 +5098,7 @@ notification
 browser
 )
 )
+{
 notification
 .
 anchorElement
@@ -5073,6 +5108,7 @@ removeAttribute
 ICON_ATTRIBUTE_SHOWING
 )
 ;
+}
 /
 /
 remove
@@ -5234,12 +5270,14 @@ if
 (
 browser
 )
+{
 browser
 .
 focus
 (
 )
 ;
+}
 }
 /
 *
@@ -5875,6 +5913,7 @@ if
 (
 popupnotification
 )
+{
 gNotificationParents
 .
 set
@@ -5885,7 +5924,9 @@ popupnotification
 parentNode
 )
 ;
+}
 else
+{
 popupnotification
 =
 doc
@@ -5897,6 +5938,7 @@ popupnotification
 "
 )
 ;
+}
 /
 /
 Create
@@ -5953,22 +5995,18 @@ end
 ;
 if
 (
-(
 "
 secondName
 "
 in
 desc
-)
 &
 &
-(
 "
 secondEnd
 "
 in
 desc
-)
 )
 {
 popupnotification
@@ -6328,6 +6366,7 @@ options
 .
 popupIconURL
 )
+{
 popupnotification
 .
 setAttribute
@@ -6342,6 +6381,7 @@ options
 popupIconURL
 )
 ;
+}
 if
 (
 n
@@ -6350,6 +6390,7 @@ options
 .
 learnMoreURL
 )
+{
 popupnotification
 .
 setAttribute
@@ -6364,7 +6405,9 @@ options
 learnMoreURL
 )
 ;
+}
 else
+{
 popupnotification
 .
 removeAttribute
@@ -6374,6 +6417,7 @@ learnmoreurl
 "
 )
 ;
+}
 if
 (
 n
@@ -6498,6 +6542,7 @@ options
 .
 hideClose
 )
+{
 popupnotification
 .
 setAttribute
@@ -6510,6 +6555,7 @@ true
 "
 )
 ;
+}
 popupnotification
 .
 notification
@@ -7111,12 +7157,14 @@ if
 (
 dismiss
 )
+{
 n
 .
 dismissed
 =
 true
 ;
+}
 return
 !
 dismiss
@@ -7131,8 +7179,10 @@ notificationsToShow
 .
 length
 )
+{
 return
 ;
+}
 let
 notificationIds
 =
@@ -7181,7 +7231,6 @@ getBoundingClientRect
 )
 ;
 return
-(
 anchorRect
 .
 width
@@ -7196,7 +7245,6 @@ height
 =
 =
 0
-)
 ;
 }
 /
@@ -7504,9 +7552,7 @@ CustomEvent
 PanelUpdated
 "
 {
-"
 detail
-"
 :
 notificationIds
 }
@@ -7960,9 +8006,7 @@ CustomEvent
 PanelUpdated
 "
 {
-"
 detail
-"
 :
 notificationIds
 }
@@ -8154,6 +8198,7 @@ anchors
 XULElement
 "
 )
+{
 anchors
 =
 new
@@ -8164,17 +8209,20 @@ anchors
 ]
 )
 ;
+}
 if
 (
 !
 notifications
 )
+{
 notifications
 =
 this
 .
 _currentNotifications
 ;
+}
 let
 haveNotifications
 =
@@ -8194,6 +8242,7 @@ size
 &
 haveNotifications
 )
+{
 anchors
 =
 this
@@ -8203,6 +8252,7 @@ _getAnchorsForNotifications
 notifications
 )
 ;
+}
 let
 useIconBox
 =
@@ -8241,8 +8291,10 @@ this
 .
 iconBox
 )
+{
 continue
 ;
+}
 useIconBox
 =
 false
@@ -8622,12 +8674,14 @@ if
 !
 dismissShowing
 )
+{
 this
 .
 _dismiss
 (
 )
 ;
+}
 /
 /
 Only
@@ -8687,6 +8741,7 @@ anchorElement
 of
 anchors
 )
+{
 anchorElement
 .
 removeAttribute
@@ -8694,6 +8749,7 @@ removeAttribute
 ICON_ATTRIBUTE_SHOWING
 )
 ;
+}
 }
 }
 /
@@ -9176,6 +9232,7 @@ notification
 .
 anchorElement
 )
+{
 anchors
 .
 add
@@ -9185,6 +9242,7 @@ notification
 anchorElement
 )
 ;
+}
 }
 if
 (
@@ -9196,6 +9254,7 @@ anchors
 .
 size
 )
+{
 anchors
 .
 add
@@ -9203,6 +9262,7 @@ add
 defaultAnchor
 )
 ;
+}
 return
 anchors
 ;
@@ -9432,8 +9492,10 @@ button
 =
 0
 )
+{
 return
 ;
+}
 if
 (
 type
@@ -9466,8 +9528,10 @@ event
 DOM_VK_RETURN
 )
 )
+{
 return
 ;
+}
 if
 (
 this
@@ -9479,8 +9543,10 @@ length
 =
 0
 )
+{
 return
 ;
+}
 event
 .
 stopPropagation
@@ -9522,12 +9588,14 @@ this
 .
 iconBox
 )
+{
 anchor
 =
 anchor
 .
 parentNode
 ;
+}
 if
 (
 !
@@ -9779,12 +9847,14 @@ anchorElement
 =
 anchor
 )
+{
 n
 .
 dismissed
 =
 false
 ;
+}
 }
 )
 ;
@@ -9887,6 +9957,7 @@ length
 >
 0
 )
+{
 Cu
 .
 reportError
@@ -9906,6 +9977,7 @@ notifications
 "
 )
 ;
+}
 return
 ;
 }
@@ -10079,6 +10151,7 @@ length
 >
 0
 )
+{
 this
 .
 _update
@@ -10086,6 +10159,7 @@ _update
 otherNotifications
 )
 ;
+}
 if
 (
 ourNotifications
@@ -10094,6 +10168,7 @@ length
 >
 0
 )
+{
 other
 .
 _update
@@ -10101,6 +10176,7 @@ _update
 ourNotifications
 )
 ;
+}
 }
 _fireCallback
 :
@@ -10125,6 +10201,7 @@ options
 .
 eventCallback
 )
+{
 return
 n
 .
@@ -10142,6 +10219,7 @@ event
 args
 )
 ;
+}
 }
 catch
 (
@@ -10348,8 +10426,10 @@ if
 !
 browser
 )
+{
 return
 ;
+}
 let
 notifications
 =
@@ -10415,8 +10495,10 @@ includes
 notificationObj
 )
 )
+{
 return
 ;
+}
 /
 /
 Record
@@ -10789,6 +10871,7 @@ if
 !
 notificationEl
 )
+{
 throw
 new
 Error
@@ -10807,6 +10890,7 @@ element
 "
 )
 ;
+}
 if
 (
 !
@@ -10814,6 +10898,7 @@ notificationEl
 .
 notification
 )
+{
 throw
 new
 Error
@@ -10831,6 +10916,7 @@ notification
 "
 )
 ;
+}
 let
 notification
 =
@@ -11229,6 +11315,7 @@ target
 .
 notification
 )
+{
 throw
 new
 Error
@@ -11245,6 +11332,7 @@ notification
 "
 )
 ;
+}
 let
 notificationEl
 =

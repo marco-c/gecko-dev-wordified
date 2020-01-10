@@ -851,9 +851,7 @@ this
 _deferred
 ;
 }
-(
 ex
-)
 =
 >
 {
@@ -1190,6 +1188,7 @@ aAddon
 )
 {
 return
+(
 this
 .
 _isAddonEnabled
@@ -1207,6 +1206,7 @@ GMPPrefs
 KEY_PLUGIN_AUTOUPDATE
 true
 aAddon
+)
 )
 ;
 }
@@ -2328,6 +2328,7 @@ toString
 )
 {
 return
+(
 this
 .
 id
@@ -2397,6 +2398,7 @@ size
 "
 )
 "
+)
 ;
 }
 /
@@ -2436,6 +2438,7 @@ isValid
 )
 {
 return
+(
 this
 .
 id
@@ -2461,6 +2464,7 @@ hashFunction
 this
 .
 hashValue
+)
 ;
 }
 get
@@ -2469,6 +2473,7 @@ isInstalled
 )
 {
 return
+(
 this
 .
 version
@@ -2493,6 +2498,7 @@ id
 this
 .
 version
+)
 ;
 }
 get
@@ -2567,6 +2573,7 @@ isUpdate
 )
 {
 return
+(
 this
 .
 version
@@ -2583,6 +2590,7 @@ false
 this
 .
 id
+)
 )
 ;
 }
@@ -3037,9 +3045,7 @@ gmpAddon
 .
 then
 (
-(
 zipPath
-)
 =
 >
 {

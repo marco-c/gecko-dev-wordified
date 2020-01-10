@@ -896,12 +896,10 @@ reason
 message
 |
 |
-(
 "
 "
 +
 reason
-)
 ;
 }
 catch

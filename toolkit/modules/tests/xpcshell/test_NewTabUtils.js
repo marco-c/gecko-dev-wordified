@@ -5107,13 +5107,11 @@ now
 (
 )
 -
-(
 70
 *
 60
 *
 1000
-)
 ;
 NewTabUtils
 .
@@ -5809,13 +5807,11 @@ now
 (
 )
 -
-(
 70
 *
 60
 *
 1000
-)
 ;
 NewTabUtils
 .
@@ -5982,13 +5978,11 @@ now
 (
 )
 -
-(
 70
 *
 60
 *
 1000
-)
 ;
 NewTabUtils
 .
@@ -6083,13 +6077,11 @@ now
 (
 )
 -
-(
 70
 *
 60
 *
 1000
-)
 ;
 NewTabUtils
 .
@@ -8544,9 +8536,7 @@ const
 linkToPin
 =
 {
-"
 url
-"
 :
 "
 https
@@ -8901,7 +8891,6 @@ Assert
 .
 strictEqual
 (
-(
 await
 PlacesUtils
 .
@@ -8910,7 +8899,6 @@ bookmarks
 fetch
 (
 bookmarkGuid
-)
 )
 null
 "
@@ -9442,6 +9430,7 @@ obs
 observerMethodName
 ]
 )
+{
 obs
 [
 observerMethodName
@@ -9455,6 +9444,7 @@ links
 args
 )
 ;
+}
 }
 }
 }

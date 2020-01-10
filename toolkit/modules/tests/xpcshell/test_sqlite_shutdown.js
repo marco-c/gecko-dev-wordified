@@ -584,9 +584,11 @@ then
 )
 =
 >
+(
 dbClosed
 =
 true
+)
 )
 ;
 /
