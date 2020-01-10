@@ -5038,19 +5038,6 @@ emphasis
 color
 "
 )
-        
-props
-.
-remove
-(
-"
-text
--
-underline
--
-offset
-"
-)
     
 props
 .
