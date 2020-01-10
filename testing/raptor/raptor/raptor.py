@@ -10115,6 +10115,13 @@ name
 )
     
 if
+not
+args
+.
+browsertime
+:
+        
+if
 args
 .
 app
@@ -10124,11 +10131,11 @@ app
 firefox
 "
 :
-        
+            
 raptor_class
 =
 RaptorDesktopFirefox
-    
+        
 elif
 args
 .
@@ -10136,17 +10143,41 @@ app
 in
 CHROMIUM_DISTROS
 :
-        
+            
 raptor_class
 =
 RaptorDesktopChrome
+        
+else
+:
+            
+raptor_class
+=
+RaptorAndroid
     
 else
 :
         
-raptor_class
-=
-RaptorAndroid
+LOG
+.
+critical
+(
+"
+Browsertime
+is
+not
+yet
+supported
+!
+"
+)
+        
+sys
+.
+exit
+(
+1
+)
     
 raptor
 =
