@@ -1317,13 +1317,10 @@ isViewingXmlSource
 )
 ;
 void
-setStateAndEndTagExpectation
+setState
 (
 int32_t
 specialTokenizerState
-nsAtom
-*
-endTagExpectation
 )
 ;
 void
