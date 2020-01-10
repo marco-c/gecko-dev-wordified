@@ -613,6 +613,12 @@ lang
 %
 LOCALE
 %
+&
+edition
+=
+%
+DISTRIBUTION
+%
 "
 )
 ;
