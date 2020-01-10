@@ -7894,7 +7894,7 @@ profiler_thread_is_being_profiled
 )
 )
 {
-profiler_add_marker
+PROFILER_ADD_MARKER_WITH_PAYLOAD
 (
 (
 priority
@@ -7913,17 +7913,8 @@ LongTask
 "
 LongIdleTask
 "
-JS
-:
-:
-ProfilingCategoryPair
-:
-:
 OTHER
-MakeUnique
-<
 LongTaskMarkerPayload
->
 (
 mCurrentEventStart
 now

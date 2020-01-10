@@ -1055,15 +1055,9 @@ char
 aMarker
 )
 {
-profiler_add_marker
+PROFILER_ADD_MARKER
 (
 aMarker
-JS
-:
-:
-ProfilingCategoryPair
-:
-:
 OTHER
 )
 ;
