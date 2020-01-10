@@ -88,6 +88,8 @@ tempfile
 import
 time
 import
+traceback
+import
 mozcrash
 import
 mozdevice
@@ -3111,6 +3113,12 @@ str
 (
 e
 )
+)
+        
+traceback
+.
+print_exc
+(
 )
         
 if
