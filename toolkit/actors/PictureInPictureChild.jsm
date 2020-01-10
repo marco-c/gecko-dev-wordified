@@ -3924,6 +3924,7 @@ clientY
 event
 ;
 return
+(
 clientX
 >
 =
@@ -3954,6 +3955,7 @@ clientY
 toggleRect
 .
 bottom
+)
 ;
 }
 /

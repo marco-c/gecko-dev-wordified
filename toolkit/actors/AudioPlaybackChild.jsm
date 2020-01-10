@@ -355,7 +355,6 @@ else
 name
 +
 =
-(
 data
 =
 =
@@ -363,7 +362,6 @@ data
 "
 active
 "
-)
 ?
 "
 Start

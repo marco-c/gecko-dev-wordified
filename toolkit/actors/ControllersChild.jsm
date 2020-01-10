@@ -152,6 +152,7 @@ message
 data
 )
 )
+{
 this
 .
 docShell
@@ -163,6 +164,7 @@ message
 data
 )
 ;
+}
 break
 ;
 case

@@ -857,8 +857,10 @@ property
 direction
 "
 )
+{
 continue
 ;
+}
 /
 /
 Handled
@@ -1228,13 +1230,11 @@ style
 .
 maxHeight
 =
-(
 itemHeight
 *
 MAX_ROWS
 +
 bpHeight
-)
 +
 "
 px
@@ -1424,6 +1424,7 @@ y
 )
 {
 return
+(
 x
 >
 =
@@ -1462,6 +1463,7 @@ top
 rect
 .
 height
+)
 ;
 }
 let
@@ -2345,7 +2347,6 @@ options
 let
 isOptGroup
 =
-(
 option
 .
 tagName
@@ -2354,7 +2355,6 @@ tagName
 "
 OPTGROUP
 "
-)
 ;
 let
 item
@@ -2414,7 +2414,6 @@ style
 .
 fontSize
 =
-(
 zoom
 *
 parseFloat
@@ -2428,7 +2427,6 @@ size
 "
 ]
 10
-)
 )
 +
 "
@@ -2629,8 +2627,10 @@ font
 size
 "
 )
+{
 continue
 ;
+}
 /
 /
 handled
@@ -2648,8 +2648,10 @@ selectStyle
 property
 ]
 )
+{
 continue
 ;
+}
 if
 (
 PROPERTIES_RESET_WHEN_ACTIVE
@@ -3384,9 +3386,7 @@ addEventListener
 "
 keydown
 "
-(
 event
-)
 =
 >
 {

@@ -855,6 +855,7 @@ focus
 let
 lockedDescendants
 =
+(
 this
 .
 _lockedDescendants
@@ -869,6 +870,7 @@ querySelectorAll
 :
 checked
 "
+)
 )
 ;
 for

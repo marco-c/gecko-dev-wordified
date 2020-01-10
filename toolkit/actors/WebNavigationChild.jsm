@@ -719,6 +719,7 @@ if
 (
 postData
 )
+{
 postData
 =
 E10SUtils
@@ -728,10 +729,12 @@ makeInputStream
 postData
 )
 ;
+}
 if
 (
 headers
 )
+{
 headers
 =
 E10SUtils
@@ -741,10 +744,12 @@ makeInputStream
 headers
 )
 ;
+}
 if
 (
 baseURI
 )
+{
 baseURI
 =
 Services
@@ -756,6 +761,7 @@ newURI
 baseURI
 )
 ;
+}
 this
 .
 _assert
