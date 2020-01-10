@@ -2667,6 +2667,16 @@ Init
 (
 )
 ;
+mozilla
+:
+:
+WebAuthnTokenManager
+:
+:
+Init
+(
+)
+;
 if
 (
 jni
