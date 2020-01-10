@@ -875,6 +875,9 @@ args
 0
 ]
 args
+namespace
+.
+print_command
 )
                 
 else
@@ -1009,6 +1012,9 @@ _handle_command_help
 parser
 command
 args
+namespace
+.
+print_command
 )
                         
 sys
@@ -1028,6 +1034,9 @@ _handle_command_help
 parser
 command
 args
+namespace
+.
+print_command
 )
                     
 sys
@@ -1136,6 +1145,44 @@ self
 _suggest_command
 (
 command
+)
+        
+#
+This
+is
+used
+by
+the
+mach
+driver
+to
+find
+the
+command
+name
+amidst
+        
+#
+global
+arguments
+.
+        
+if
+namespace
+.
+print_command
+:
+            
+print
+(
+command
+)
+            
+sys
+.
+exit
+(
+0
 )
         
 handler
@@ -2534,6 +2581,7 @@ self
 parser
 command
 args
+print_command
 )
 :
         
@@ -2562,6 +2610,22 @@ command
 '
 query
 '
+)
+        
+if
+print_command
+:
+            
+print
+(
+command
+)
+            
+sys
+.
+exit
+(
+0
 )
         
 if
