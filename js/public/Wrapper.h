@@ -3514,11 +3514,9 @@ RemapAllWrappersForObject
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 oldTarget
-JSObject
-*
+HandleObject
 newTarget
 )
 ;

@@ -5822,10 +5822,10 @@ asserts
 all
 this
 .
-JSObject
-*
+RootedObject
 newWaiver
-=
+(
+cx
 WrapperFactory
 :
 :
@@ -5841,6 +5841,7 @@ allowExisting
 /
 !
 crossCompartmentTransplant
+)
 )
 ;
 if
