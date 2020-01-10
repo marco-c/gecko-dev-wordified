@@ -1417,10 +1417,8 @@ shared_library
 )
 :
                     
-use_libs
-.
-append
-(
+l
+=
 targets
 [
 t
@@ -1430,6 +1428,19 @@ t
 target_name
 '
 ]
+                    
+if
+l
+not
+in
+use_libs
+:
+                        
+use_libs
+.
+append
+(
+l
 )
                 
 #
@@ -1567,6 +1578,13 @@ startswith
 )
 :
                 
+if
+l
+not
+in
+os_libs
+:
+                    
 os_libs
 .
 append
@@ -1586,16 +1604,27 @@ lib
 )
 :
                 
-os_libs
-.
-append
-(
+l
+=
 l
 [
 :
 -
 4
 ]
+                
+if
+l
+not
+in
+os_libs
+:
+                    
+os_libs
+.
+append
+(
+l
 )
             
 elif
@@ -1614,10 +1643,8 @@ moz
 build
 .
                 
-use_libs
-.
-append
-(
+l
+=
 os
 .
 path
@@ -1626,6 +1653,19 @@ basename
 (
 l
 )
+                
+if
+l
+not
+in
+use_libs
+:
+                    
+use_libs
+.
+append
+(
+l
 )
         
 if
