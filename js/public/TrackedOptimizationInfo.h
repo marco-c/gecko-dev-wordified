@@ -696,6 +696,11 @@ CantInlineNoBaseline
 \
 _
 (
+CantInlineNoJitScript
+)
+\
+_
+(
 CantInlineLazy
 )
 \
