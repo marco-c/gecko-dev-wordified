@@ -7552,12 +7552,12 @@ json
 if
 os
 .
-getenv
-(
+environ
+[
 '
 MOZ_UPLOAD_DIR
 '
-)
+]
 :
             
 #
