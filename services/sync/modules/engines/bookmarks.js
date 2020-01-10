@@ -8581,6 +8581,16 @@ extra
 )
 ;
 }
+recordStepTelemetry
+(
+)
+{
+}
+recordValidationTelemetry
+(
+)
+{
+}
 }
 )
 ;
