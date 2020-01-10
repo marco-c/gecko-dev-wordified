@@ -17,12 +17,6 @@ now
 .
     
 "
-download_nodejs
-"
-:
-False
-    
-"
 nodejs_path
 "
 :
