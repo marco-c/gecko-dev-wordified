@@ -58,7 +58,6 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 import
 errno
 import
@@ -69,8 +68,6 @@ import
 platform
 import
 shutil
-import
-six
 import
 stat
 import
@@ -98,14 +95,7 @@ mozbuild
 .
 util
 import
-(
-    
 FileAvoidWrite
-    
-ensure_bytes
-    
-ensure_unicode
-)
 from
 mozpack
 .
@@ -296,17 +286,13 @@ if
 isinstance
 (
 src
-six
-.
-text_type
+unicode
 )
 and
 isinstance
 (
 dest
-six
-.
-text_type
+unicode
 )
 :
             
@@ -469,10 +455,7 @@ self
 .
 path
 =
-ensure_unicode
-(
 path
-)
         
 self
 .
@@ -1153,9 +1136,7 @@ if
 isinstance
 (
 dest
-six
-.
-string_types
+basestring
 )
 :
             
@@ -1331,7 +1312,6 @@ dest
 .
 write
 (
-b
 '
 '
 )
@@ -1361,7 +1341,6 @@ open
         
 copy_content
 =
-b
 '
 '
         
@@ -1750,10 +1729,7 @@ self
 .
 path
 =
-ensure_unicode
-(
 path
-)
     
 property
     
@@ -2000,9 +1976,7 @@ not
 isinstance
 (
 dest
-six
-.
-string_types
+basestring
 )
 :
             
@@ -2031,9 +2005,7 @@ assert
 isinstance
 (
 dest
-six
-.
-string_types
+basestring
 )
         
 #
@@ -2301,9 +2273,7 @@ assert
 isinstance
 (
 dest
-six
-.
-string_types
+basestring
 )
         
 #
@@ -3052,9 +3022,7 @@ assert
 isinstance
 (
 dest
-six
-.
-string_types
+basestring
 )
         
 if
@@ -3468,9 +3436,7 @@ if
 isinstance
 (
 dest
-six
-.
-string_types
+basestring
 )
 :
             
@@ -3606,19 +3572,13 @@ self
 .
 path
 =
-ensure_unicode
-(
 path
-)
         
 self
 .
 depfile
 =
-ensure_unicode
-(
 depfile_path
-)
         
 self
 .
@@ -3773,9 +3733,7 @@ if
 isinstance
 (
 dest
-six
-.
-string_types
+basestring
 )
 :
             
@@ -4987,16 +4945,11 @@ manifest
 return
 BytesIO
 (
-            
-ensure_bytes
-(
-                
 '
 '
 .
 join
 (
-                    
 '
 %
 s
@@ -5012,7 +4965,7 @@ self
 .
 _base
 )
-                    
+                               
 for
 e
 in
@@ -5021,11 +4974,10 @@ chain
 self
 .
 _entries
+                                              
 self
 .
 _interfaces
-)
-                
 )
 )
 )
@@ -5206,7 +5158,6 @@ file
 return
 BytesIO
 (
-b
 '
 '
 .
@@ -5227,14 +5178,13 @@ open
 readlines
 (
 )
-                                
+                               
 if
 not
 l
 .
 startswith
 (
-b
 '
 #
 '
@@ -7874,11 +7824,10 @@ finder
 in
 sorted
 (
-six
+finders
 .
 iteritems
 (
-finders
 )
 )
 :

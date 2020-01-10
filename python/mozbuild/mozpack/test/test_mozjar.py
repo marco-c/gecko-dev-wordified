@@ -58,7 +58,6 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 from
 mozpack
 .
@@ -102,8 +101,10 @@ import
 unittest
 import
 mozunit
+from
+cStringIO
 import
-six
+StringIO
 import
 mozpack
 .
@@ -600,7 +601,6 @@ foo
 string
 '
 ]
-b
 '
 012345
 '
@@ -616,7 +616,6 @@ foo
 string2
 '
 ]
-b
 '
 67
 '
@@ -786,7 +785,6 @@ self
 .
 wrap
 (
-b
 '
 abc
 '
@@ -831,7 +829,6 @@ assertEqual
 deflater
 .
 compressed_data
-b
 '
 abc
 '
@@ -869,7 +866,6 @@ self
 .
 wrap
 (
-b
 '
 abc
 '
@@ -914,7 +910,6 @@ assertEqual
 deflater
 .
 compressed_data
-b
 '
 abc
 '
@@ -952,7 +947,6 @@ self
 .
 wrap
 (
-b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -1036,7 +1030,6 @@ self
 .
 wrap
 (
-b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -1105,7 +1098,6 @@ assertEqual
 deflater
 .
 compressed_data
-b
 '
 '
 )
@@ -1179,7 +1171,6 @@ add
 '
 foo
 '
-b
 '
 foo
 '
@@ -1196,7 +1187,6 @@ add
 '
 foo
 '
-b
 '
 bar
 '
@@ -1209,7 +1199,6 @@ add
 '
 bar
 '
-b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -1224,7 +1213,6 @@ baz
 /
 qux
 '
-b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -1241,7 +1229,6 @@ baz
 \
 backslash
 '
-b
 '
 aaaaaaaaaaaaaaa
 '
@@ -1272,7 +1259,6 @@ files
 ]
 .
 filename
-b
 '
 foo
 '
@@ -1302,7 +1288,6 @@ files
 read
 (
 )
-b
 '
 foo
 '
@@ -1318,7 +1303,6 @@ files
 ]
 .
 filename
-b
 '
 bar
 '
@@ -1348,7 +1332,6 @@ files
 read
 (
 )
-b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -1364,7 +1347,6 @@ files
 ]
 .
 filename
-b
 '
 baz
 /
@@ -1396,7 +1378,6 @@ files
 read
 (
 )
-b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -1424,7 +1405,6 @@ files
 ]
 .
 filename
-b
 '
 baz
 /
@@ -1456,7 +1436,6 @@ files
 ]
 .
 filename
-b
 '
 baz
 \
@@ -1503,7 +1482,6 @@ add
 '
 bar
 '
-b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -1516,7 +1494,6 @@ add
 '
 foo
 '
-b
 '
 foo
 '
@@ -1531,7 +1508,6 @@ baz
 /
 qux
 '
-b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -1567,7 +1543,6 @@ files
 ]
 .
 filename
-b
 '
 bar
 '
@@ -1597,7 +1572,6 @@ files
 read
 (
 )
-b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -1613,7 +1587,6 @@ files
 ]
 .
 filename
-b
 '
 foo
 '
@@ -1643,7 +1616,6 @@ files
 read
 (
 )
-b
 '
 foo
 '
@@ -1659,7 +1631,6 @@ files
 ]
 .
 filename
-b
 '
 baz
 /
@@ -1691,7 +1662,6 @@ files
 read
 (
 )
-b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -1701,7 +1671,6 @@ self
 .
 assertTrue
 (
-b
 '
 bar
 '
@@ -1713,7 +1682,6 @@ self
 .
 assertTrue
 (
-b
 '
 foo
 '
@@ -1725,7 +1693,6 @@ self
 .
 assertFalse
 (
-b
 '
 baz
 '
@@ -1737,7 +1704,6 @@ self
 .
 assertTrue
 (
-b
 '
 baz
 /
@@ -1753,7 +1719,6 @@ assertTrue
 (
 jar
 [
-b
 '
 bar
 '
@@ -1770,7 +1735,6 @@ assertTrue
 (
 jar
 [
-b
 '
 foo
 '
@@ -1787,7 +1751,6 @@ assertTrue
 (
 jar
 [
-b
 '
 baz
 /
@@ -1820,7 +1783,6 @@ self
 .
 assertTrue
 (
-b
 '
 bar
 '
@@ -1832,7 +1794,6 @@ self
 .
 assertTrue
 (
-b
 '
 foo
 '
@@ -1844,7 +1805,6 @@ self
 .
 assertFalse
 (
-b
 '
 baz
 '
@@ -1856,7 +1816,6 @@ self
 .
 assertTrue
 (
-b
 '
 baz
 /
@@ -1882,7 +1841,6 @@ assertEqual
 (
 jar
 [
-b
 '
 bar
 '
@@ -1903,7 +1861,6 @@ assertEqual
 (
 jar
 [
-b
 '
 bar
 '
@@ -1924,7 +1881,6 @@ assertEqual
 (
 jar
 [
-b
 '
 bar
 '
@@ -1959,7 +1915,6 @@ assertEqual
 (
 jar
 [
-b
 '
 foo
 '
@@ -1980,7 +1935,6 @@ assertEqual
 (
 jar
 [
-b
 '
 foo
 '
@@ -2001,7 +1955,6 @@ assertEqual
 (
 jar
 [
-b
 '
 foo
 '
@@ -2036,7 +1989,6 @@ assertEqual
 (
 jar
 [
-b
 '
 baz
 /
@@ -2059,7 +2011,6 @@ assertEqual
 (
 jar
 [
-b
 '
 baz
 /
@@ -2082,7 +2033,6 @@ assertEqual
 (
 jar
 [
-b
 '
 baz
 /
@@ -2134,7 +2084,6 @@ add
 '
 foo
 '
-b
 '
 foo
 '
@@ -2147,7 +2096,6 @@ add
 '
 bar
 '
-b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -2162,7 +2110,6 @@ baz
 /
 qux
 '
-b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -2236,7 +2183,6 @@ files
 ]
 .
 filename
-b
 '
 foo
 '
@@ -2266,7 +2212,6 @@ files
 read
 (
 )
-b
 '
 foo
 '
@@ -2282,7 +2227,6 @@ files
 ]
 .
 filename
-b
 '
 bar
 '
@@ -2312,7 +2256,6 @@ files
 read
 (
 )
-b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -2328,7 +2271,6 @@ files
 ]
 .
 filename
-b
 '
 baz
 /
@@ -2360,7 +2302,6 @@ files
 read
 (
 )
-b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -2450,7 +2391,6 @@ files
 ]
 .
 filename
-b
 '
 test_data
 '
@@ -2480,7 +2420,6 @@ files
 read
 (
 )
-b
 '
 test_data
 '
@@ -2525,7 +2464,6 @@ add
 '
 foo
 '
-b
 '
 foo
 '
@@ -2538,7 +2476,6 @@ add
 '
 bar
 '
-b
 '
 abcdefghijklmnopqrstuvwxyz
 '
@@ -2553,7 +2490,6 @@ baz
 /
 qux
 '
-b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -2596,7 +2532,6 @@ add
 '
 foo
 '
-b
 '
 foo
 '
@@ -2609,7 +2544,6 @@ add
 '
 bar
 '
-b
 '
 abcdefghijklmnopqrstuvwxyz
 '
@@ -2624,7 +2558,6 @@ baz
 /
 qux
 '
-b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -2662,7 +2595,6 @@ assertEqual
 jar
 .
 last_preloaded
-b
 '
 bar
 '
@@ -2688,7 +2620,6 @@ files
 ]
 .
 filename
-b
 '
 baz
 /
@@ -2706,7 +2637,6 @@ files
 ]
 .
 filename
-b
 '
 bar
 '
@@ -2722,7 +2652,6 @@ files
 ]
 .
 filename
-b
 '
 foo
 '
@@ -2745,11 +2674,7 @@ self
         
 s
 =
-six
-.
-moves
-.
-cStringIO
+StringIO
 (
 '
 \

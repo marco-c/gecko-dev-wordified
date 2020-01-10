@@ -58,7 +58,6 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 '
 '
 '
@@ -83,8 +82,6 @@ import
 json
 import
 os
-import
-six
 import
 mozpack
 .
@@ -1987,13 +1984,12 @@ for
 path
 log
 in
-six
-.
-iteritems
-(
 app_finder
 .
 jarlogs
+.
+iteritems
+(
 )
 :
         
@@ -2267,11 +2263,10 @@ for
 base
 path
 in
-six
+extra_l10n
 .
 iteritems
 (
-extra_l10n
 )
 :
             

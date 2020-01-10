@@ -58,11 +58,8 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 import
 unittest
-import
-six
 import
 mozunit
 from
@@ -135,7 +132,6 @@ foo
 =
 GeneratedFile
 (
-b
 '
 foo
 '
@@ -145,7 +141,6 @@ foobar
 =
 GeneratedFile
 (
-b
 '
 foobar
 '
@@ -155,7 +150,6 @@ qux
 =
 GeneratedFile
 (
-b
 '
 qux
 '
@@ -165,7 +159,6 @@ bar
 =
 GeneratedFile
 (
-b
 '
 bar
 '
@@ -175,7 +168,6 @@ baz
 =
 GeneratedFile
 (
-b
 '
 baz
 '
@@ -185,7 +177,6 @@ dict_aa
 =
 GeneratedFile
 (
-b
 '
 dict_aa
 '
@@ -195,7 +186,6 @@ dict_bb
 =
 GeneratedFile
 (
-b
 '
 dict_bb
 '
@@ -205,7 +195,6 @@ dict_cc
 =
 GeneratedFile
 (
-b
 '
 dict_cc
 '
@@ -215,7 +204,6 @@ barbaz
 =
 GeneratedFile
 (
-b
 '
 barbaz
 '
@@ -225,7 +213,6 @@ lst
 =
 GeneratedFile
 (
-b
 '
 foo
 \
@@ -547,7 +534,6 @@ foo_l10n
 =
 GeneratedFile
 (
-b
 '
 foo_l10n
 '
@@ -557,7 +543,6 @@ qux_l10n
 =
 GeneratedFile
 (
-b
 '
 qux_l10n
 '
@@ -567,7 +552,6 @@ baz_l10n
 =
 GeneratedFile
 (
-b
 '
 baz_l10n
 '
@@ -577,7 +561,6 @@ barbaz_l10n
 =
 GeneratedFile
 (
-b
 '
 barbaz_l10n
 '
@@ -587,7 +570,6 @@ lst_l10n
 =
 GeneratedFile
 (
-b
 '
 foo
 \
@@ -1277,11 +1259,10 @@ for
 p
 f
 in
-six
+repacked
 .
 iteritems
 (
-repacked
 )
 )
         

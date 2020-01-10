@@ -61,8 +61,6 @@ print_function
 import
 os
 import
-six
-import
 sys
 import
 json
@@ -74,6 +72,7 @@ OrderedDict
 from
 types
 import
+StringTypes
 ModuleType
 import
 mozpack
@@ -102,6 +101,26 @@ import
 quote
 as
 shell_quote
+if
+sys
+.
+version_info
+.
+major
+=
+=
+2
+:
+    
+text_type
+=
+unicode
+else
+:
+    
+text_type
+=
+str
 class
 BuildConfig
 (
@@ -1236,9 +1255,7 @@ if
 isinstance
 (
 obj
-six
-.
-string_types
+StringTypes
 )
 :
                 
@@ -1557,8 +1574,6 @@ not
 isinstance
 (
 v
-six
-.
 text_type
 )
 :
@@ -1615,9 +1630,7 @@ not
 isinstance
 (
 v
-six
-.
-string_types
+StringTypes
 )
 :
                 
@@ -1649,8 +1662,6 @@ not
 isinstance
 (
 v
-six
-.
 text_type
 )
 :

@@ -277,7 +277,6 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 import
 mercurial
 .
@@ -296,8 +295,6 @@ mercurial
 ui
 as
 hgui
-import
-six
 from
 .
 files
@@ -422,9 +419,10 @@ if
 isinstance
 (
 repo
-six
-.
-string_types
+(
+str
+unicode
+)
 )
 :
             
@@ -630,9 +628,7 @@ if
 isinstance
 (
 path
-six
-.
-text_type
+unicode
 )
 :
             

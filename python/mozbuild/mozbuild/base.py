@@ -74,11 +74,11 @@ multiprocessing
 import
 os
 import
-six
-import
 subprocess
 import
 sys
+import
+types
 import
 errno
 try
@@ -107,6 +107,10 @@ Python
     
 import
 which
+from
+StringIO
+import
+StringIO
 from
 mach
 .
@@ -1920,8 +1924,6 @@ argument
         
 out
 =
-six
-.
 StringIO
 (
 )
@@ -2076,9 +2078,9 @@ not
 isinstance
 (
 a
-six
+types
 .
-string_types
+StringTypes
 )
 or
 a

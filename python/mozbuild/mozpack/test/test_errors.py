@@ -58,7 +58,6 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 from
 mozpack
 .
@@ -77,9 +76,11 @@ unittest
 import
 mozunit
 import
-six
-import
 sys
+from
+cStringIO
+import
+StringIO
 class
 TestErrors
 (
@@ -98,11 +99,7 @@ errors
 .
 out
 =
-six
-.
-moves
-.
-cStringIO
+StringIO
 (
 )
         

@@ -62,9 +62,9 @@ unicode_literals
 import
 os
 import
-six
-import
 sys
+import
+types
 from
 collections
 import
@@ -94,9 +94,9 @@ all
 isinstance
 (
 o
-six
+types
 .
-string_types
+StringTypes
 )
 for
 o
@@ -755,9 +755,9 @@ elif
 isinstance
 (
 value
-six
+types
 .
-string_types
+StringTypes
 )
 :
             
@@ -1034,11 +1034,10 @@ for
 k
 v
 in
-six
+format_data
 .
 iteritems
 (
-format_data
 )
 :
             
@@ -1410,9 +1409,9 @@ not
 isinstance
 (
 name
-six
+types
 .
-string_types
+StringTypes
 )
 :
                 
@@ -1505,9 +1504,9 @@ not
 isinstance
 (
 env
-six
+types
 .
-string_types
+StringTypes
 )
 :
                 
@@ -1613,9 +1612,9 @@ not
 isinstance
 (
 default
-six
+types
 .
-string_types
+StringTypes
 )
 and
                 
@@ -1625,10 +1624,9 @@ isinstance
 default
 (
 bool
-type
-(
-None
-)
+types
+.
+NoneType
 )
 )
 and
@@ -2356,9 +2354,9 @@ not
 isinstance
 (
 option
-six
+types
 .
-string_types
+StringTypes
 )
 :
             
@@ -4402,11 +4400,10 @@ for
 arg
 pos
 in
-six
+d
 .
 itervalues
 (
-d
 )
 :
                 

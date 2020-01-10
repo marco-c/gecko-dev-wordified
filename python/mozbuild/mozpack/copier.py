@@ -58,11 +58,8 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 import
 os
-import
-six
 import
 stat
 import
@@ -1027,13 +1024,12 @@ registry
 '
         
 return
-six
-.
-iteritems
-(
 self
 .
 _files
+.
+iteritems
+(
 )
     
 def
@@ -2077,9 +2073,7 @@ assert
 isinstance
 (
 destination
-six
-.
-string_types
+basestring
 )
         
 assert
@@ -4302,9 +4296,7 @@ if
 isinstance
 (
 dest
-six
-.
-string_types
+basestring
 )
 :
             

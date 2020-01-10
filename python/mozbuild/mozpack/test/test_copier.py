@@ -58,7 +58,6 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 from
 mozpack
 .
@@ -103,8 +102,6 @@ import
 mozunit
 import
 os
-import
-six
 import
 stat
 from
@@ -246,7 +243,6 @@ foo
 '
 GeneratedFile
 (
-b
 '
 foo
 '
@@ -257,7 +253,6 @@ bar
 =
 GeneratedFile
 (
-b
 '
 bar
 '
@@ -327,7 +322,6 @@ foo
                           
 GeneratedFile
 (
-b
 '
 foo2
 '
@@ -367,7 +361,6 @@ bar
                           
 GeneratedFile
 (
-b
 '
 foobar
 '
@@ -394,7 +387,6 @@ baz
                           
 GeneratedFile
 (
-b
 '
 foobar
 '
@@ -620,7 +612,6 @@ qux
 '
 GeneratedFile
 (
-b
 '
 fooqux
 '
@@ -817,7 +808,6 @@ foo
 '
 GeneratedFile
 (
-b
 '
 foo
 '
@@ -842,7 +832,6 @@ bar
                           
 GeneratedFile
 (
-b
 '
 foobar
 '
@@ -878,7 +867,6 @@ baz
 '
 GeneratedFile
 (
-b
 '
 barbaz
 '
@@ -901,7 +889,6 @@ bar
                           
 GeneratedFile
 (
-b
 '
 bar
 '
@@ -935,7 +922,6 @@ zot
 '
 GeneratedFile
 (
-b
 '
 barzot
 '
@@ -958,7 +944,6 @@ bar
                           
 GeneratedFile
 (
-b
 '
 bar
 '
@@ -1008,7 +993,6 @@ bar
                           
 GeneratedFile
 (
-b
 '
 bar
 '
@@ -1055,7 +1039,6 @@ zot
 '
 GeneratedFile
 (
-b
 '
 barzot
 '
@@ -1141,11 +1124,10 @@ for
 path
 parts
 in
-six
+cases
 .
 iteritems
 (
-cases
 )
 :
             
@@ -1220,7 +1202,6 @@ foo
 '
 GeneratedFile
 (
-b
 '
 foo
 '
@@ -1256,7 +1237,6 @@ baz
 '
 GeneratedFile
 (
-b
 '
 barbaz
 '
@@ -1294,7 +1274,6 @@ zot
 '
 GeneratedFile
 (
-b
 '
 barzot
 '
@@ -1334,7 +1313,6 @@ zot
 '
 GeneratedFile
 (
-b
 '
 barzapzot
 '
@@ -1472,7 +1450,6 @@ z
 '
 GeneratedFile
 (
-b
 '
 xyz
 '
@@ -1575,7 +1552,6 @@ bar
 '
 GeneratedFile
 (
-b
 '
 foo
 /
@@ -1595,7 +1571,6 @@ qux
 '
 GeneratedFile
 (
-b
 '
 baz
 /
@@ -1789,7 +1764,6 @@ bar
 '
 GeneratedFile
 (
-b
 '
 foobar
 '
@@ -1807,7 +1781,6 @@ qux
 '
 GeneratedFile
 (
-b
 '
 fooqux
 '
@@ -1831,7 +1804,6 @@ file
 '
 GeneratedFile
 (
-b
 '
 fooz
 '
@@ -1847,7 +1819,6 @@ bar
 '
 GeneratedFile
 (
-b
 '
 bar
 '
@@ -1865,7 +1836,6 @@ foo
 '
 GeneratedFile
 (
-b
 '
 quxfoo
 '
@@ -1883,7 +1853,6 @@ bar
 '
 GeneratedFile
 (
-b
 '
 '
 )
@@ -2038,7 +2007,6 @@ test
 '
 GeneratedFile
 (
-b
 '
 test
 '
@@ -2214,7 +2182,6 @@ baz
 '
 GeneratedFile
 (
-b
 '
 foobarbaz
 '
@@ -2443,7 +2410,6 @@ baz
 '
 GeneratedFile
 (
-b
 '
 foobarbaz
 '
@@ -3100,7 +3066,6 @@ dummy
 '
 GeneratedFile
 (
-b
 '
 content
 '
@@ -3164,7 +3129,6 @@ foo
 '
 GeneratedFile
 (
-b
 '
 foo
 '
@@ -3367,7 +3331,6 @@ foo
 '
 GeneratedFile
 (
-b
 '
 foo
 '
@@ -3824,7 +3787,6 @@ baz
 '
 GeneratedFile
 (
-b
 '
 foobarbaz
 '
@@ -3844,7 +3806,6 @@ qux
 '
 GeneratedFile
 (
-b
 '
 foobarqux
 '
@@ -3864,7 +3825,6 @@ fuga
 '
 GeneratedFile
 (
-b
 '
 foohogefuga
 '
@@ -3884,7 +3844,6 @@ tata
 '
 GeneratedFile
 (
-b
 '
 footototata
 '
@@ -4099,7 +4058,6 @@ fuga
 '
 GeneratedFile
 (
-b
 '
 foohogefuga
 '
@@ -4418,7 +4376,6 @@ bar
 '
 GeneratedFile
 (
-b
 '
 foobar
 '
@@ -4436,7 +4393,6 @@ qux
 '
 GeneratedFile
 (
-b
 '
 fooqux
 '
@@ -4460,7 +4416,6 @@ file
 '
 GeneratedFile
 (
-b
 '
 fooz
 '
@@ -4476,7 +4431,6 @@ bar
 '
 GeneratedFile
 (
-b
 '
 bar
 '
@@ -4494,7 +4448,6 @@ foo
 '
 GeneratedFile
 (
-b
 '
 quxfoo
 '
@@ -4512,7 +4465,6 @@ bar
 '
 GeneratedFile
 (
-b
 '
 '
 )
@@ -4557,7 +4509,6 @@ test
 '
 GeneratedFile
 (
-b
 '
 test
 '
@@ -4597,7 +4548,6 @@ test
 '
 GeneratedFile
 (
-b
 '
 replaced
 -
@@ -4751,7 +4701,6 @@ bar
 '
 GeneratedFile
 (
-b
 '
 ffffff
 '
@@ -4769,7 +4718,6 @@ qux
 '
 GeneratedFile
 (
-b
 '
 ffffff
 '
