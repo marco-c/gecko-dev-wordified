@@ -8364,6 +8364,13 @@ passwordField
 .
 ownerGlobal
 ;
+this
+.
+_highlightFilledField
+(
+passwordField
+)
+;
 if
 (
 PrivateBrowsingUtils
