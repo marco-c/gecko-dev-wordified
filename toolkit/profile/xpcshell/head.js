@@ -9,6 +9,7 @@ the
 Public
 Domain
 .
+*
 http
 :
 /
