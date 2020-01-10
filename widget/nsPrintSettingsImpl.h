@@ -448,12 +448,6 @@ mPrintBGImages
 print
 background
 images
-int16_t
-mPrintFrameType
-;
-int16_t
-mHowToEnableFrameUI
-;
 bool
 mIsCancelled
 ;

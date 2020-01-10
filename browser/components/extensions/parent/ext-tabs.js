@@ -7789,16 +7789,6 @@ false
 ;
 printSettings
 .
-printFrameType
-=
-Ci
-.
-nsIPrintSettings
-.
-kFramesAsIs
-;
-printSettings
-.
 outputFormat
 =
 Ci

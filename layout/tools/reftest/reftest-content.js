@@ -1782,16 +1782,6 @@ path
 ;
 ps
 .
-printFrameType
-=
-Ci
-.
-nsIPrintSettings
-.
-kFramesAsIs
-;
-ps
-.
 outputFormat
 =
 Ci
