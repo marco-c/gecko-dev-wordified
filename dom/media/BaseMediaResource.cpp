@@ -734,11 +734,13 @@ SetLoadInBackground
 return
 ;
 }
+RefPtr
+<
 dom
 :
 :
 HTMLMediaElement
-*
+>
 element
 =
 owner
