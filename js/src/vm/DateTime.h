@@ -1218,10 +1218,10 @@ if
 guard
 -
 >
-localTZAStatus_
+timeZoneStatus_
 !
 =
-LocalTimeZoneAdjustmentStatus
+TimeZoneStatus
 :
 :
 Valid
@@ -1230,7 +1230,7 @@ Valid
 guard
 -
 >
-updateTimeZoneAdjustment
+updateTimeZone
 (
 )
 ;
@@ -1643,7 +1643,7 @@ ResyncICUDefaultTimeZone
 ;
 static
 void
-resetTimeZoneAdjustment
+resetTimeZone
 (
 ResetTimeZoneMode
 mode
@@ -1662,7 +1662,7 @@ lock
 guard
 -
 >
-internalResetTimeZoneAdjustment
+internalResetTimeZone
 (
 mode
 )
@@ -1752,7 +1752,7 @@ sanityCheck
 ;
 enum
 class
-LocalTimeZoneAdjustmentStatus
+TimeZoneStatus
 :
 uint8_t
 {
@@ -1761,8 +1761,8 @@ NeedsUpdate
 UpdateIfChanged
 }
 ;
-LocalTimeZoneAdjustmentStatus
-localTZAStatus_
+TimeZoneStatus
+timeZoneStatus_
 ;
 /
 *
@@ -2282,14 +2282,14 @@ RangeExpansionAmount
 SecondsPerDay
 ;
 void
-internalResetTimeZoneAdjustment
+internalResetTimeZone
 (
 ResetTimeZoneMode
 mode
 )
 ;
 void
-updateTimeZoneAdjustment
+updateTimeZone
 (
 )
 ;
