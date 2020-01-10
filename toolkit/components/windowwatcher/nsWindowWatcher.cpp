@@ -2139,6 +2139,11 @@ bc
 )
 )
 ;
+if
+(
+bc
+)
+{
 nsCOMPtr
 <
 mozIDOMWindowProxy
@@ -2160,6 +2165,7 @@ forget
 aResult
 )
 ;
+}
 return
 NS_OK
 ;
