@@ -2793,6 +2793,9 @@ VRManagerEventObserver
 >
 >
 listeners
+(
+mListeners
+)
 ;
 for
 (
