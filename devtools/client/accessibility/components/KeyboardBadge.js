@@ -185,12 +185,11 @@ rendering
 a
 badge
 for
-text
-alternative
+keyboard
 accessibliity
 check
-*
 failures
+*
 association
 with
 a
@@ -200,13 +199,12 @@ object
 in
 the
 accessibility
-*
 tree
 .
 *
 /
 class
-TextLabelBadge
+KeyboardBadge
 extends
 PureComponent
 {
@@ -282,7 +280,7 @@ accessibility
 .
 badge
 .
-textLabel
+keyboard
 "
 )
 tooltip
@@ -296,7 +294,7 @@ accessibility
 .
 badge
 .
-textLabel
+keyboard
 .
 tooltip
 "
@@ -310,5 +308,5 @@ module
 .
 exports
 =
-TextLabelBadge
+KeyboardBadge
 ;
