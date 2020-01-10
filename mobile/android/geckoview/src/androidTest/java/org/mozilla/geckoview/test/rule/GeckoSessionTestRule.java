@@ -7357,6 +7357,9 @@ session
 .
 setMessageDelegate
 (
+RuntimeCreator
+.
+TEST_SUPPORT_WEB_EXTENSION
 mMessageDelegate
 "
 browser
