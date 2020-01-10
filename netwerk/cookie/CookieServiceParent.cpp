@@ -1081,9 +1081,6 @@ mode
 .
 if
 (
-isForeign
-&
-&
 AntiTrackingCommon
 :
 :
