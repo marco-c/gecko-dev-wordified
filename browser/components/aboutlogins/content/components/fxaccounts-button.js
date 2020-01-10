@@ -474,6 +474,12 @@ state
 {
 this
 .
+hidden
+=
+false
+;
+this
+.
 _loggedIn
 =
 state
