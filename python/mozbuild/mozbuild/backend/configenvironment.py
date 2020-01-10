@@ -93,6 +93,8 @@ FileAvoidWrite
 memoized_property
     
 ReadOnlyDict
+    
+system_encoding
 )
 from
 mozbuild
@@ -1979,27 +1981,6 @@ value
 )
 :
         
-encoding
-=
-'
-mbcs
-'
-if
-sys
-.
-platform
-=
-=
-'
-win32
-'
-else
-'
-utf
--
-8
-'
-        
 filename
 =
 mozpath
@@ -2032,7 +2013,7 @@ indent
 4
 encoding
 =
-encoding
+system_encoding
 )
         
 return

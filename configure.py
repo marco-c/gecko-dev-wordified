@@ -170,6 +170,8 @@ import
 indented_repr
     
 encode
+    
+system_encoding
 )
 import
 mozpack
@@ -557,27 +559,6 @@ status
 '
 )
     
-encoding
-=
-'
-mbcs
-'
-if
-sys
-.
-platform
-=
-=
-'
-win32
-'
-else
-'
-utf
--
-8
-'
-    
 with
 codecs
 .
@@ -591,7 +572,7 @@ status
 '
 w
 '
-encoding
+system_encoding
 )
 as
 fh
@@ -669,7 +650,7 @@ PYTHON
 encoding
 '
 :
-encoding
+system_encoding
 }
 )
         
@@ -1146,7 +1127,7 @@ args
 encode
 (
 sanitized_config
-encoding
+system_encoding
 )
 )
     
