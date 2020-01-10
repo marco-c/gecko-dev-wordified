@@ -2242,7 +2242,7 @@ NS_IMETHODIMP
 ClassifierDummyChannel
 :
 :
-GetTrr
+GetIsTRRServiceChannel
 (
 bool
 *
@@ -2257,7 +2257,7 @@ NS_IMETHODIMP
 ClassifierDummyChannel
 :
 :
-SetTrr
+SetIsTRRServiceChannel
 (
 bool
 aTrr

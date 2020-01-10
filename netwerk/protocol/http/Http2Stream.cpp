@@ -3334,7 +3334,7 @@ ci
 ci
 -
 >
-GetTrrUsed
+GetIsTrrServiceChannel
 (
 )
 )
