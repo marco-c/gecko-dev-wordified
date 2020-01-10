@@ -1966,13 +1966,7 @@ getAvailableEventBreakpoints
 >
 Promise
 <
-{
-|
-value
-:
 EventListenerCategoryList
-|
-}
 >
 skipBreakpoints
 :

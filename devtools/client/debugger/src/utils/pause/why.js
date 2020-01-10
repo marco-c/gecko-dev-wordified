@@ -155,6 +155,13 @@ whyPaused
 .
 breakpointConditionThrown
 "
+eventBreakpoint
+:
+"
+whyPaused
+.
+eventBreakpoint
+"
 /
 /
 V8

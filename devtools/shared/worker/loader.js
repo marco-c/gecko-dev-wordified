@@ -65,6 +65,7 @@ strict
 *
 global
 worker
+DebuggerNotificationObserver
 *
 /
 /
@@ -3841,6 +3842,11 @@ ChromeUtils
 "
 :
 ChromeUtils
+"
+DebuggerNotificationObserver
+"
+:
+DebuggerNotificationObserver
 }
 paths
 :

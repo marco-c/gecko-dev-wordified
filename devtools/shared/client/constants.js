@@ -283,6 +283,11 @@ watchpoint
 "
 watchpoint
 "
+eventBreakpoint
+:
+"
+eventBreakpoint
+"
 exception
 :
 "
