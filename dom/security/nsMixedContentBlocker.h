@@ -467,6 +467,15 @@ aOriginAttributes
 ;
 static
 bool
+URISafeToBeLoadedInSecureContext
+(
+nsIURI
+*
+aURI
+)
+;
+static
+bool
 ShouldUpgradeMixedDisplayContent
 (
 )
