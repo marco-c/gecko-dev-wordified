@@ -1869,9 +1869,6 @@ db
 executeAsync
 (
 statements
-statements
-.
-length
 {
 handleError
 (

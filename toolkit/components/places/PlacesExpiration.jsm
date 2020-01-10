@@ -5877,9 +5877,6 @@ _db
 executeAsync
 (
 boundStatements
-boundStatements
-.
-length
 this
 )
 ;
