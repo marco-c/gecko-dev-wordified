@@ -2574,7 +2574,7 @@ disabled
 *
 return
 This
-GeckoRuntimeSettings
+Builder
 instance
 .
 *
