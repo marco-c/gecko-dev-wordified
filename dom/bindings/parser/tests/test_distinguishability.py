@@ -1331,6 +1331,9 @@ any
 USVString
 "
 "
+JSString
+"
+"
 ArrayBuffer
 "
 "
@@ -1548,6 +1551,9 @@ Enum2
 "
 "
 USVString
+"
+"
+JSString
 "
 ]
     
@@ -1790,6 +1796,12 @@ long
 >
 "
 ]
+#
+JSString
+not
+supported
+in
+records
     
 #
 Build
@@ -1944,6 +1956,14 @@ setDistinguishable
 (
 "
 USVString
+"
+nonStrings
+)
+    
+setDistinguishable
+(
+"
+JSString
 "
 nonStrings
 )
@@ -2165,6 +2185,13 @@ Dict
 "
 nonUserObjects
 )
+    
+#
+JSString
+not
+supported
+in
+records
     
 setDistinguishable
 (
