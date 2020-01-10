@@ -6070,6 +6070,17 @@ JSContext
 cx
 )
 ;
+extern
+Scope
+*
+GetEnvironmentScope
+(
+const
+JSObject
+&
+env
+)
+;
 /
 *
 Provides
