@@ -384,6 +384,11 @@ MOZ_ASSERT
 XRE_IsContentProcess
 (
 )
+|
+|
+XRE_IsSocketProcess
+(
+)
 )
 ;
 if
@@ -445,6 +450,11 @@ DNSPendingRequestsLock
 MOZ_ASSERT
 (
 XRE_IsContentProcess
+(
+)
+|
+|
+XRE_IsSocketProcess
 (
 )
 )
@@ -556,6 +566,13 @@ nsICancelable
 result
 )
 {
+if
+(
+XRE_IsContentProcess
+(
+)
+)
+{
 NS_ENSURE_TRUE
 (
 gNeckoChild
@@ -565,6 +582,7 @@ nullptr
 NS_ERROR_FAILURE
 )
 ;
+}
 if
 (
 mDisablePrefetch
