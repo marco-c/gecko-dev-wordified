@@ -4476,7 +4476,7 @@ GetLocalizedString
 nsContentUtils
 :
 :
-eFORMS_PROPERTIES
+eFORMS_PROPERTIES_MAYBESPOOF
 "
 DirectoryUpload
 "
@@ -4491,7 +4491,7 @@ GetLocalizedString
 nsContentUtils
 :
 :
-eFORMS_PROPERTIES
+eFORMS_PROPERTIES_MAYBESPOOF
 "
 DirectoryPickerOkButtonLabel
 "
@@ -4509,7 +4509,7 @@ GetLocalizedString
 nsContentUtils
 :
 :
-eFORMS_PROPERTIES
+eFORMS_PROPERTIES_MAYBESPOOF
 "
 FileUpload
 "
@@ -13772,7 +13772,7 @@ GetLocalizedString
 nsContentUtils
 :
 :
-eFORMS_PROPERTIES
+eFORMS_PROPERTIES_MAYBESPOOF
 "
 NoDirSelected
 "
@@ -13801,7 +13801,7 @@ GetLocalizedString
 nsContentUtils
 :
 :
-eFORMS_PROPERTIES
+eFORMS_PROPERTIES_MAYBESPOOF
 "
 NoFilesSelected
 "
@@ -13819,7 +13819,7 @@ GetLocalizedString
 nsContentUtils
 :
 :
-eFORMS_PROPERTIES
+eFORMS_PROPERTIES_MAYBESPOOF
 "
 NoFileSelected
 "
@@ -13859,7 +13859,7 @@ value
 nsContentUtils
 :
 :
-eFORMS_PROPERTIES
+eFORMS_PROPERTIES_MAYBESPOOF
 "
 XFilesSelected
 "
@@ -35929,7 +35929,7 @@ GetLocalizedString
 nsContentUtils
 :
 :
-eFORMS_PROPERTIES
+eFORMS_PROPERTIES_MAYBESPOOF
 "
 Submit
 "
