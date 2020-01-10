@@ -3826,6 +3826,10 @@ mFilterCalledBack
 =
 true
 ;
+mProxyInfo
+=
+aProxyInfo
+;
 if
 (
 mProcessingInLoop
@@ -3902,10 +3906,6 @@ return
 NS_OK
 ;
 }
-mProxyInfo
-=
-aProxyInfo
-;
 if
 (
 mNextFilterIndex
