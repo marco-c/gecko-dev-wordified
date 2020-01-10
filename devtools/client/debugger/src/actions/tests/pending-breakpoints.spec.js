@@ -225,6 +225,13 @@ jest
 fn
 (
 )
+features
+:
+{
+inlinePreview
+:
+true
+}
 }
 )
 )

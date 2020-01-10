@@ -254,6 +254,7 @@ getIsPaused
 getCurrentThread
 getThreadContext
 getSkipPausing
+getInlinePreview
 }
 from
 "
@@ -579,6 +580,9 @@ isPaused
 :
 boolean
 skipPausing
+:
+boolean
+inlinePreviewEnabled
 :
 boolean
 /
@@ -2982,6 +2986,7 @@ cx
 selectedSource
 conditionalPanelLocation
 isPaused
+inlinePreviewEnabled
 }
 =
 this
@@ -3153,9 +3158,7 @@ null
 isPaused
 &
 &
-features
-.
-inlinePreview
+inlinePreviewEnabled
 ?
 (
 <
@@ -3409,6 +3412,12 @@ state
 skipPausing
 :
 getSkipPausing
+(
+state
+)
+inlinePreviewEnabled
+:
+getInlinePreview
 (
 state
 )
