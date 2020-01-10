@@ -673,8 +673,12 @@ for
 use
 by
 the
-LocalizationSync
+Localization
 class
+when
+in
+sync
+state
 .
 *
 This

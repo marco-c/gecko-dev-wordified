@@ -349,6 +349,7 @@ menu
 ftl
 "
 ]
+false
 generateMessages
 )
 ;
@@ -853,6 +854,7 @@ menu
 ftl
 "
 ]
+false
 generateMessages
 )
 ;

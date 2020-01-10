@@ -397,6 +397,9 @@ mozILocalization
 >
 mLocalization
 ;
+bool
+mIsSync
+;
 }
 ;
 }

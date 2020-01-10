@@ -1623,6 +1623,11 @@ KeyframeEffect
 :
 false
 "
+Localization
+"
+:
+false
+"
 Location
 "
 :
