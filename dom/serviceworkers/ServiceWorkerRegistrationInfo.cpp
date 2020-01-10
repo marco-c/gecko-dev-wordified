@@ -3759,6 +3759,9 @@ ServiceWorkerRegistrationInfo
 :
 GetUpdateDelay
 (
+const
+bool
+aWithMultiplier
 )
 {
 uint32_t
@@ -3779,6 +3782,16 @@ update_delay
 1000
 )
 ;
+if
+(
+!
+aWithMultiplier
+)
+{
+return
+delay
+;
+}
 /
 /
 This
