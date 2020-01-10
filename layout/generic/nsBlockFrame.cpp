@@ -13419,7 +13419,9 @@ borderPadding
 finalSize
 aState
 .
-mConsumedBSize
+ConsumedBSize
+(
+)
 )
 ;
 /
@@ -56806,6 +56808,7 @@ to
 this
 frame
 .
+const
 nscoord
 computedBSizeLeftOver
 =
@@ -57188,19 +57191,6 @@ size
 than
 is
 available
-nscoord
-effectiveComputedBSize
-=
-GetEffectiveComputedBSize
-(
-aReflowInput
-aState
-.
-ConsumedBSize
-(
-)
-)
-;
 aFinalSize
 .
 BSize
@@ -57226,7 +57216,7 @@ BStart
 wm
 )
 +
-effectiveComputedBSize
+computedBSizeLeftOver
 )
 ;
 /
