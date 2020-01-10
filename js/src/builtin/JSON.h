@@ -142,9 +142,6 @@ h
 namespace
 js
 {
-struct
-Class
-;
 class
 GlobalObject
 ;

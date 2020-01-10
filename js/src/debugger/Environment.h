@@ -262,9 +262,6 @@ js
 class
 GlobalObject
 ;
-struct
-Class
-;
 enum
 class
 DebuggerEnvironmentType

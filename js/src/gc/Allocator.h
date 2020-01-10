@@ -147,9 +147,6 @@ JSFatInlineString
 namespace
 js
 {
-struct
-Class
-;
 /
 /
 Allocate

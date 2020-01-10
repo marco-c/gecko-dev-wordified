@@ -6973,6 +6973,9 @@ SimpleTypeDescr
 const
 {
 return
+js
+:
+:
 IsSimpleTypeDescrClass
 (
 getClass
@@ -7001,6 +7004,9 @@ ComplexTypeDescr
 const
 {
 return
+js
+:
+:
 IsComplexTypeDescrClass
 (
 getClass
@@ -7029,6 +7035,9 @@ TypeDescr
 const
 {
 return
+js
+:
+:
 IsTypeDescrClass
 (
 getClass
@@ -7057,6 +7066,9 @@ TypedObject
 const
 {
 return
+js
+:
+:
 IsTypedObjectClass
 (
 getClass

@@ -366,9 +366,6 @@ AutoSweepBase
 class
 AutoSweepObjectGroup
 ;
-struct
-Class
-;
 class
 CompilerConstraintList
 ;
