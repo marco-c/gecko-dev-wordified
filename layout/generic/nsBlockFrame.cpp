@@ -31475,9 +31475,14 @@ if
 (
 aState
 .
-mFlags
+mReflowInput
 .
-mHasUnconstrainedBSize
+AvailableBSize
+(
+)
+=
+=
+NS_UNCONSTRAINEDSIZE
 )
 {
 availBSize
