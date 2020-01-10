@@ -1096,7 +1096,7 @@ content
 if
 (
 !
-IsVisibleNode
+IsDisplayedNode
 (
 content
 )
