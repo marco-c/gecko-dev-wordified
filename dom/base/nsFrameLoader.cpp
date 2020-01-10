@@ -17972,10 +17972,10 @@ mOwnerContent
 ;
 mBrowserBridgeChild
 =
-BrowserBridgeChild
+ContentChild
 :
 :
-Create
+CreateBrowser
 (
 this
 context
