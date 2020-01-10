@@ -6004,8 +6004,8 @@ render_task
 :
 {
 RenderTaskCache
-RenderTaskTree
-RenderTaskTreeCounters
+RenderTaskGraph
+RenderTaskGraphCounters
 }
 ;
 use
@@ -6220,7 +6220,7 @@ let
 mut
 render_task_tree
 =
-RenderTaskTree
+RenderTaskGraph
 :
 :
 new
@@ -6230,7 +6230,7 @@ FrameId
 :
 INVALID
 &
-RenderTaskTreeCounters
+RenderTaskGraphCounters
 :
 :
 new
