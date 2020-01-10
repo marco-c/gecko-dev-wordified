@@ -17856,6 +17856,10 @@ listener
 =
 mListener
 ;
+mOnStartRequestCalled
+=
+true
+;
 listener
 -
 >
@@ -17864,11 +17868,11 @@ OnStartRequest
 this
 )
 ;
+}
 mOnStartRequestCalled
 =
 true
 ;
-}
 /
 /
 Make
@@ -17930,6 +17934,10 @@ listener
 =
 mListener
 ;
+mOnStopRequestCalled
+=
+true
+;
 listener
 -
 >
@@ -17939,11 +17947,11 @@ this
 mStatus
 )
 ;
+}
 mOnStopRequestCalled
 =
 true
 ;
-}
 /
 /
 notify
