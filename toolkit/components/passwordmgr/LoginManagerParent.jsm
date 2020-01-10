@@ -3530,6 +3530,10 @@ _onGeneratedPasswordFilled
 {
 browsingContextId
 formActionOrigin
+username
+=
+"
+"
 openerTopWindowID
 }
 )
@@ -3655,8 +3659,7 @@ init
 formOrigin
 formActionOrigin
 null
-"
-"
+username
 password
 )
 ;
@@ -3802,7 +3805,7 @@ their
 old
 password
 to
-succesffully
+successfully
 complete
 a
 password
