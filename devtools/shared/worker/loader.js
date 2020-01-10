@@ -3836,6 +3836,11 @@ xpcInspector
 "
 :
 xpcInspector
+"
+ChromeUtils
+"
+:
+ChromeUtils
 }
 paths
 :
