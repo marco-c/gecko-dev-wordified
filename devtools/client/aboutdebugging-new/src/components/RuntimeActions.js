@@ -438,7 +438,7 @@ runtime
 -
 profile
 -
-button
+button2
 "
 }
 dom
@@ -473,8 +473,15 @@ onProfilerButtonClick
 )
 }
 "
-Profile
-Runtime
+about
+-
+debugging
+-
+runtime
+-
+profile
+-
+button2
 "
 )
 )
