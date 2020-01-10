@@ -258,6 +258,7 @@ check
 :
 "
 disabled
+checked
 "
 "
 .
