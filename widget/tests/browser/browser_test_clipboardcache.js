@@ -761,9 +761,7 @@ spawn
 browser
 SHORT_STRING_NO_CACHE
 async
-(
 shortStr
-)
 =
 >
 {
@@ -797,9 +795,7 @@ spawn
 browser
 Ipsum
 async
-(
 largeString
-)
 =
 >
 {
@@ -1061,9 +1057,7 @@ spawn
 browser
 SHORT_STRING_NO_CACHE
 async
-(
 shortStr
-)
 =
 >
 {
