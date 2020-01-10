@@ -44833,8 +44833,6 @@ RegPtr
 valueAddr
 RegPtr
 value
-ValType
-valueType
 )
 {
 /
@@ -59813,11 +59811,6 @@ Nothing
 )
 valueAddr
 rv
-global
-.
-type
-(
-)
 )
 )
 {
@@ -68027,14 +68020,6 @@ rp
 )
 valueAddr
 rr
-structType
-.
-fields_
-[
-fieldIndex
-]
-.
-type
 )
 )
 {
