@@ -1638,6 +1638,7 @@ Nursery
 has
 been
 enabled
+.
 setCurrentChunk
 (
 0
@@ -4337,7 +4338,7 @@ only
 valid
 if
 the
-nursury
+nursery
 was
 at
 least
@@ -9580,6 +9581,7 @@ nursery
 size
 is
 changing
+.
 if
 (
 JS_HOWMANY
@@ -9602,6 +9604,7 @@ to
 shrink
 the
 nursery
+.
 static_assert
 (
 NurseryChunkUsableSize
@@ -9679,15 +9682,11 @@ nursery
 size
 is
 changing
-and
-we
-need
-to
+so
 grow
 the
-/
-/
 nursery
+.
 MOZ_ASSERT
 (
 minNurseryBytes
