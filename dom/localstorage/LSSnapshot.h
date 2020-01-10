@@ -146,7 +146,7 @@ class
 LSSnapshotInitInfo
 ;
 class
-LSWriteInfo
+LSWriteAndNotifyInfo
 ;
 class
 LSSnapshot
@@ -546,9 +546,9 @@ mValues
 ;
 nsTArray
 <
-LSWriteInfo
+LSWriteAndNotifyInfo
 >
-mWriteInfos
+mWriteAndNotifyInfos
 ;
 uint32_t
 mInitLength
