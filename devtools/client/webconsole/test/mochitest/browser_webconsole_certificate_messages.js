@@ -327,6 +327,8 @@ textContent
 =
 hud
 .
+ui
+.
 outputNode
 ;
 ok
@@ -411,6 +413,8 @@ onContentLog
 textContent
 =
 hud
+.
+ui
 .
 outputNode
 .
@@ -540,6 +544,8 @@ onContentLog
 textContent
 =
 hud
+.
+ui
 .
 outputNode
 .
