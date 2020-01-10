@@ -2333,9 +2333,6 @@ false
 XULCommandEvent
 :
 false
-XULDocument
-:
-false
 XULElement
 :
 false

@@ -266,13 +266,6 @@ h
 #
 include
 "
-XULDocument
-.
-h
-"
-#
-include
-"
 nsIDOMXULButtonElement
 .
 h

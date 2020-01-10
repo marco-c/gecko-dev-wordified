@@ -101,9 +101,6 @@ false
 XPCNativeWrapper
 :
 false
-XULDocument
-:
-false
 addLoadEvent
 :
 false

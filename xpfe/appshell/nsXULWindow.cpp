@@ -413,13 +413,6 @@ h
 #
 include
 "
-XULDocument
-.
-h
-"
-#
-include
-"
 nsXULTooltipListener
 .
 h

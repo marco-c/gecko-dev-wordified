@@ -451,10 +451,6 @@ Document
 /
 /
 ^
-XULDocument
-/
-/
-^
 XULElement
 /
 /

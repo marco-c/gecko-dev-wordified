@@ -11138,7 +11138,7 @@ codes
 for
 FindBroadcaster
 in
-XULDocument
+XULBroadcastManager
 .
 cpp
     

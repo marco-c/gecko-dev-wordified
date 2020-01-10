@@ -1400,13 +1400,6 @@ h
 #
 include
 "
-XULDocument
-.
-h
-"
-#
-include
-"
 nsIDOMXULCommandDispatcher
 .
 h
