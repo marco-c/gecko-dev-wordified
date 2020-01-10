@@ -4291,6 +4291,9 @@ endif
 /
 /
 MOZ_DEMANGLE_SYMBOLS
+namespace
+mozilla
+{
 void
 DemangleSymbol
 (
@@ -4387,6 +4390,11 @@ endif
 /
 MOZ_DEMANGLE_SYMBOLS
 }
+}
+/
+/
+namespace
+mozilla
 /
 /
 {
