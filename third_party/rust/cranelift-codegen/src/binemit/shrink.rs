@@ -143,6 +143,7 @@ Function
 isa
 :
 &
+dyn
 TargetIsa
 )
 {

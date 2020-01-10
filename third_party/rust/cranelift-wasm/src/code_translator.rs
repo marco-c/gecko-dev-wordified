@@ -324,10 +324,10 @@ translation_utils
 :
 :
 {
+blocktype_to_type
 f32_translation
 f64_translation
 num_return_values
-type_to_type
 }
 ;
 use
@@ -1854,7 +1854,7 @@ Ok
 ty_cre
 )
 =
-type_to_type
+blocktype_to_type
 (
 ty
 )
@@ -1915,7 +1915,7 @@ Ok
 ty_cre
 )
 =
-type_to_type
+blocktype_to_type
 (
 ty
 )
@@ -2111,7 +2111,7 @@ Ok
 ty_cre
 )
 =
-type_to_type
+blocktype_to_type
 (
 ty
 )

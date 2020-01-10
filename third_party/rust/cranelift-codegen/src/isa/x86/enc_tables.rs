@@ -738,6 +738,7 @@ ControlFlowGraph
 isa
 :
 &
+dyn
 isa
 :
 :
@@ -1720,6 +1721,7 @@ ControlFlowGraph
 isa
 :
 &
+dyn
 isa
 :
 :
@@ -2137,6 +2139,7 @@ ControlFlowGraph
 _isa
 :
 &
+dyn
 isa
 :
 :
@@ -3104,6 +3107,7 @@ ControlFlowGraph
 _isa
 :
 &
+dyn
 isa
 :
 :
@@ -3732,6 +3736,7 @@ ControlFlowGraph
 _isa
 :
 &
+dyn
 isa
 :
 :
@@ -4575,6 +4580,7 @@ ControlFlowGraph
 _isa
 :
 &
+dyn
 isa
 :
 :
@@ -5642,6 +5648,7 @@ ControlFlowGraph
 _isa
 :
 &
+dyn
 isa
 :
 :
@@ -6384,6 +6391,7 @@ ControlFlowGraph
 _isa
 :
 &
+dyn
 isa
 :
 :

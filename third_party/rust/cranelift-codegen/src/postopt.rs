@@ -344,6 +344,7 @@ Inst
 isa
 :
 &
+dyn
 TargetIsa
 )
 {
@@ -1117,6 +1118,7 @@ Inst
 isa
 :
 &
+dyn
 TargetIsa
 )
 {
@@ -2039,6 +2041,7 @@ Function
 isa
 :
 &
+dyn
 TargetIsa
 )
 {

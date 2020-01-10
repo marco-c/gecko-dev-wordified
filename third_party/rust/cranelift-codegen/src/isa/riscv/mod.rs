@@ -251,6 +251,7 @@ Builder
 >
 Box
 <
+dyn
 TargetIsa
 >
 {
@@ -681,6 +682,7 @@ sink
 :
 &
 mut
+dyn
 CodeSink
 )
 {
@@ -811,6 +813,7 @@ encstr
 isa
 :
 &
+dyn
 isa
 :
 :

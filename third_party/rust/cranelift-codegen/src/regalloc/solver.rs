@@ -3009,6 +3009,7 @@ let
 as_display
 :
 &
+dyn
 fmt
 :
 :
@@ -9131,6 +9132,7 @@ Option
 <
 Box
 <
+dyn
 TargetIsa
 >
 >

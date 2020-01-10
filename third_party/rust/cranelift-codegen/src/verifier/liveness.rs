@@ -253,6 +253,7 @@ verify_liveness
 isa
 :
 &
+dyn
 TargetIsa
 func
 :
@@ -335,6 +336,7 @@ isa
 &
 '
 a
+dyn
 TargetIsa
 func
 :

@@ -1152,6 +1152,7 @@ Option
 &
 '
 a
+dyn
 TargetIsa
 >
 >
@@ -1575,6 +1576,7 @@ Inst
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -1645,6 +1647,7 @@ Inst
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -1738,6 +1741,7 @@ Option
 &
 '
 a
+dyn
 TargetIsa
 >
 /
@@ -1815,6 +1819,7 @@ Option
 &
 '
 a
+dyn
 TargetIsa
 >
 >
@@ -1835,6 +1840,7 @@ Option
 &
 '
 a
+dyn
 TargetIsa
 >
 )

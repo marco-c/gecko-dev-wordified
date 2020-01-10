@@ -143,6 +143,7 @@ ControlFlowGraph
 _isa
 :
 &
+dyn
 TargetIsa
 )
 {

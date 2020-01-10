@@ -365,6 +365,7 @@ Function
 isa
 :
 &
+dyn
 TargetIsa
 )
 {
@@ -464,6 +465,7 @@ Signature
 isa
 :
 &
+dyn
 TargetIsa
 )
 {
@@ -516,6 +518,7 @@ bool
 isa
 :
 &
+dyn
 TargetIsa
 )
 {

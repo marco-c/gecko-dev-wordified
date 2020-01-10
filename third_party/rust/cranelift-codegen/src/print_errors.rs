@@ -172,6 +172,7 @@ isa
 Option
 <
 &
+dyn
 TargetIsa
 >
 func_w
@@ -180,6 +181,7 @@ Option
 <
 Box
 <
+dyn
 FuncWriter
 +
 '
@@ -319,6 +321,7 @@ a
 (
 Box
 <
+dyn
 FuncWriter
 +
 '
@@ -357,6 +360,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -367,6 +371,7 @@ isa
 Option
 <
 &
+dyn
 TargetIsa
 >
 ebb
@@ -411,6 +416,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -432,6 +438,7 @@ isa
 Option
 <
 &
+dyn
 TargetIsa
 >
 inst
@@ -477,6 +484,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -488,6 +496,7 @@ AnyEntity
 value
 :
 &
+dyn
 fmt
 :
 :
@@ -540,6 +549,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -550,6 +560,7 @@ isa
 Option
 <
 &
+dyn
 TargetIsa
 >
 cur_ebb
@@ -562,6 +573,7 @@ func_w
 :
 &
 mut
+dyn
 FuncWriter
 errors
 :
@@ -765,6 +777,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -786,6 +799,7 @@ isa
 Option
 <
 &
+dyn
 TargetIsa
 >
 cur_inst
@@ -798,6 +812,7 @@ func_w
 :
 &
 mut
+dyn
 FuncWriter
 errors
 :
@@ -987,6 +1002,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -998,6 +1014,7 @@ AnyEntity
 value
 :
 &
+dyn
 fmt
 :
 :
@@ -1006,6 +1023,7 @@ func_w
 :
 &
 mut
+dyn
 FuncWriter
 errors
 :
@@ -1189,6 +1207,7 @@ w
 :
 &
 mut
+dyn
 Write
 entity
 :
@@ -1315,6 +1334,7 @@ w
 :
 &
 mut
+dyn
 Write
 err
 :
@@ -1378,6 +1398,7 @@ isa
 Option
 <
 &
+dyn
 TargetIsa
 >
 err

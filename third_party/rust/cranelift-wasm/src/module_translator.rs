@@ -135,6 +135,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 <
 '

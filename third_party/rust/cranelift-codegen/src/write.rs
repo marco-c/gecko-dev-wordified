@@ -198,6 +198,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -208,6 +209,7 @@ isa
 Option
 <
 &
+dyn
 TargetIsa
 >
 ebb
@@ -244,6 +246,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -265,6 +268,7 @@ isa
 Option
 <
 &
+dyn
 TargetIsa
 >
 inst
@@ -306,6 +310,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -356,6 +361,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -699,6 +705,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -710,6 +717,7 @@ AnyEntity
 value
 :
 &
+dyn
 fmt
 :
 :
@@ -756,6 +764,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -767,6 +776,7 @@ AnyEntity
 value
 :
 &
+dyn
 fmt
 :
 :
@@ -827,6 +837,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -848,6 +859,7 @@ isa
 Option
 <
 &
+dyn
 TargetIsa
 >
 inst
@@ -884,6 +896,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -894,6 +907,7 @@ isa
 Option
 <
 &
+dyn
 TargetIsa
 >
 ebb
@@ -951,6 +965,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -1149,6 +1164,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -1373,6 +1389,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -1501,6 +1518,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -1642,6 +1660,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -1652,6 +1671,7 @@ isa
 Option
 <
 &
+dyn
 TargetIsa
 >
 ebb
@@ -1845,6 +1865,7 @@ w
 :
 &
 mut
+dyn
 Write
 loc
 :
@@ -1932,6 +1953,7 @@ w
 :
 &
 mut
+dyn
 Write
 val_ranges
 :
@@ -2184,6 +2206,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -2801,6 +2824,7 @@ w
 :
 &
 mut
+dyn
 Write
 aliases
 :
@@ -2909,6 +2933,7 @@ w
 :
 &
 mut
+dyn
 Write
 func
 :
@@ -2930,6 +2955,7 @@ isa
 Option
 <
 &
+dyn
 TargetIsa
 >
 inst
@@ -3422,6 +3448,7 @@ w
 :
 &
 mut
+dyn
 Write
 dfg
 :
@@ -3432,6 +3459,7 @@ isa
 Option
 <
 &
+dyn
 TargetIsa
 >
 inst
@@ -5089,6 +5117,7 @@ w
 :
 &
 mut
+dyn
 Write
 args
 :

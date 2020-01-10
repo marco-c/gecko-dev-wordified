@@ -771,6 +771,7 @@ self
 isa
 :
 &
+dyn
 TargetIsa
 func
 :

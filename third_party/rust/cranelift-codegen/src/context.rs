@@ -759,6 +759,7 @@ self
 isa
 :
 &
+dyn
 TargetIsa
 mem
 :
@@ -772,11 +773,13 @@ relocs
 :
 &
 mut
+dyn
 RelocSink
 traps
 :
 &
 mut
+dyn
 TrapSink
 )
 -
@@ -943,6 +946,7 @@ self
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -1321,6 +1325,7 @@ self
 isa
 :
 &
+dyn
 TargetIsa
 mem
 :
@@ -1331,11 +1336,13 @@ relocs
 :
 &
 mut
+dyn
 RelocSink
 traps
 :
 &
 mut
+dyn
 TrapSink
 )
 -
@@ -1601,6 +1608,7 @@ self
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -1683,6 +1691,7 @@ self
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -1814,6 +1823,7 @@ self
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -1873,6 +1883,7 @@ self
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -1921,6 +1932,7 @@ self
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -2021,6 +2033,7 @@ self
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -2270,6 +2283,7 @@ self
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -2398,6 +2412,7 @@ self
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -2455,6 +2470,7 @@ self
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -2518,6 +2534,7 @@ self
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -2596,6 +2613,7 @@ self
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -2661,6 +2679,7 @@ self
 isa
 :
 &
+dyn
 TargetIsa
 )
 -

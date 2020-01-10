@@ -31,17 +31,15 @@ module
 The
 code
 of
-theses
+these
 helper
-function
+functions
 is
 straightforward
 since
-it
-is
+they
 only
-about
-reading
+read
 metadata
 /
 /
@@ -54,7 +52,7 @@ globals
 etc
 .
 and
-storing
+store
 them
 for
 later
@@ -227,6 +225,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 )
 -
@@ -473,6 +472,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 <
 '
@@ -749,6 +749,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 )
 -
@@ -824,6 +825,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 )
 -
@@ -944,6 +946,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 )
 -
@@ -1034,6 +1037,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 )
 -
@@ -1286,6 +1290,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 <
 '
@@ -1485,6 +1490,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 )
 -
@@ -1545,6 +1551,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 )
 -
@@ -1816,6 +1823,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 <
 '
@@ -1917,6 +1925,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 <
 '

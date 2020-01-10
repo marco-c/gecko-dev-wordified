@@ -167,6 +167,7 @@ do_licm
 isa
 :
 &
+dyn
 TargetIsa
 func
 :
@@ -566,6 +567,7 @@ create_pre_header
 isa
 :
 &
+dyn
 TargetIsa
 header
 :

@@ -183,6 +183,7 @@ verify_locations
 isa
 :
 &
+dyn
 isa
 :
 :
@@ -275,6 +276,7 @@ isa
 &
 '
 a
+dyn
 isa
 :
 :

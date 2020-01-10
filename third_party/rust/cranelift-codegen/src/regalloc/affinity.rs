@@ -382,6 +382,7 @@ AbiParam
 isa
 :
 &
+dyn
 TargetIsa
 )
 -

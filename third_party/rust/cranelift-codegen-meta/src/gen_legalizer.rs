@@ -3101,6 +3101,7 @@ line
 isa
 :
 &
+dyn
 crate
 :
 :

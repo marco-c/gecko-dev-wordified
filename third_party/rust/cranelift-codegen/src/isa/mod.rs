@@ -1189,6 +1189,7 @@ Builder
 >
 Box
 <
+dyn
 TargetIsa
 >
 }
@@ -1239,6 +1240,7 @@ Flags
 >
 Box
 <
+dyn
 TargetIsa
 >
 {
@@ -1392,6 +1394,7 @@ flowgraph
 :
 ControlFlowGraph
 &
+dyn
 TargetIsa
 )
 -
@@ -3161,6 +3164,7 @@ sink
 :
 &
 mut
+dyn
 binemit
 :
 :

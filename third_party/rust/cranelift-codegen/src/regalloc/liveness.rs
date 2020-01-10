@@ -2601,6 +2601,7 @@ Value
 isa
 :
 &
+dyn
 TargetIsa
 func
 :
@@ -4206,6 +4207,7 @@ self
 isa
 :
 &
+dyn
 TargetIsa
 func
 :

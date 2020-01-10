@@ -565,6 +565,7 @@ self
 isa
 :
 &
+dyn
 TargetIsa
 )
 -

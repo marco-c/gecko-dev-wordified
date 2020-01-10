@@ -93,6 +93,7 @@ Function
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
