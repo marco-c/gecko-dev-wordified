@@ -3830,6 +3830,7 @@ api
 .
 shut_down
 (
+true
 )
 ;
 loop
