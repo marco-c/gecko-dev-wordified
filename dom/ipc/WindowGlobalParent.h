@@ -333,7 +333,10 @@ IsClosed
 )
 {
 return
-mIPCClosed
+!
+CanSend
+(
+)
 ;
 }
 /
@@ -1116,9 +1119,6 @@ mOuterWindowId
 ;
 bool
 mInProcess
-;
-bool
-mIPCClosed
 ;
 bool
 mIsInitialDocument

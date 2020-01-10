@@ -526,10 +526,11 @@ mCanSend
 mManager
 |
 |
+!
 mManager
 -
 >
-IsClosed
+CanSend
 (
 )
 )
