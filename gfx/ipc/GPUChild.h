@@ -366,7 +366,7 @@ ipc
 IPCResult
 RecvAccumulateChildHistograms
 (
-InfallibleTArray
+nsTArray
 <
 HistogramAccumulation
 >
@@ -384,7 +384,7 @@ ipc
 IPCResult
 RecvAccumulateChildKeyedHistograms
 (
-InfallibleTArray
+nsTArray
 <
 KeyedHistogramAccumulation
 >
@@ -402,7 +402,7 @@ ipc
 IPCResult
 RecvUpdateChildScalars
 (
-InfallibleTArray
+nsTArray
 <
 ScalarAction
 >
@@ -420,7 +420,7 @@ ipc
 IPCResult
 RecvUpdateChildKeyedScalars
 (
-InfallibleTArray
+nsTArray
 <
 KeyedScalarAction
 >

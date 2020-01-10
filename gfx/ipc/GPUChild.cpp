@@ -1193,7 +1193,7 @@ GPUChild
 :
 RecvAccumulateChildHistograms
 (
-InfallibleTArray
+nsTArray
 <
 HistogramAccumulation
 >
@@ -1235,7 +1235,7 @@ GPUChild
 :
 RecvAccumulateChildKeyedHistograms
 (
-InfallibleTArray
+nsTArray
 <
 KeyedHistogramAccumulation
 >
@@ -1277,7 +1277,7 @@ GPUChild
 :
 RecvUpdateChildScalars
 (
-InfallibleTArray
+nsTArray
 <
 ScalarAction
 >
@@ -1319,7 +1319,7 @@ GPUChild
 :
 RecvUpdateChildKeyedScalars
 (
-InfallibleTArray
+nsTArray
 <
 KeyedScalarAction
 >
