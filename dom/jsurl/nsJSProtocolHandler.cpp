@@ -1339,7 +1339,7 @@ our
 popup
 control
 state
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 aPopupState

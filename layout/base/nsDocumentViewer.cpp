@@ -7598,7 +7598,7 @@ we
 get
 here
 .
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 PopupBlocker
@@ -8907,7 +8907,7 @@ get
 /
 here
 .
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 PopupBlocker

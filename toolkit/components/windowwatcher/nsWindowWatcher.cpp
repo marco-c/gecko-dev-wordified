@@ -8311,7 +8311,7 @@ dialog
 is
 open
 .
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 PopupBlocker

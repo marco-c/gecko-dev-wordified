@@ -50998,7 +50998,7 @@ GetDocument
 )
 )
 ;
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 PopupBlocker

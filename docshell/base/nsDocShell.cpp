@@ -22905,7 +22905,7 @@ PopupBlocker
 openOverridden
 ;
 }
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 statePusher
 (
 popupState
@@ -78539,7 +78539,7 @@ Run
 )
 override
 {
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 mPopupState

@@ -18705,7 +18705,7 @@ dialog
 is
 open
 .
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 PopupBlocker
@@ -31383,7 +31383,7 @@ dialog
 is
 open
 .
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 PopupBlocker
@@ -31921,7 +31921,7 @@ dialog
 is
 open
 .
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 PopupBlocker
@@ -47612,7 +47612,7 @@ dialog
 is
 open
 .
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 PopupBlocker

@@ -35282,7 +35282,7 @@ dom
 disable_open_click_delay
 "
 .
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 timeout

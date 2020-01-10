@@ -2347,10 +2347,10 @@ dom
 /
 namespace
 mozilla
-nsAutoPopupStatePusherInternal
+AutoPopupStatePusherInternal
 :
 :
-nsAutoPopupStatePusherInternal
+AutoPopupStatePusherInternal
 (
 mozilla
 :
@@ -2399,11 +2399,11 @@ PopupStatePusherCreated
 )
 ;
 }
-nsAutoPopupStatePusherInternal
+AutoPopupStatePusherInternal
 :
 :
 ~
-nsAutoPopupStatePusherInternal
+AutoPopupStatePusherInternal
 (
 )
 {

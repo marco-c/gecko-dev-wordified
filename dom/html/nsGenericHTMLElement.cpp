@@ -15233,7 +15233,7 @@ to
 do
 so
 .
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 aIsTrustedEvent
