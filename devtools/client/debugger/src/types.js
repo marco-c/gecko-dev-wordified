@@ -1695,6 +1695,9 @@ string
 type
 :
 string
+scopeKind
+:
+string
 |
 }
 ;

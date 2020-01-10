@@ -408,6 +408,16 @@ obj
 type
 ;
 }
+form
+.
+scopeKind
+=
+this
+.
+obj
+.
+scopeKind
+;
 /
 /
 Does

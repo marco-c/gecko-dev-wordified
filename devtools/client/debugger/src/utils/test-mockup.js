@@ -490,6 +490,10 @@ function
 :
 null
 type
+scopeKind
+:
+"
+"
 }
 ;
 }
