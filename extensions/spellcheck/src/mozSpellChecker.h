@@ -365,7 +365,7 @@ nsTArray
 <
 nsString
 >
-*
+&
 aSuggestions
 )
 ;

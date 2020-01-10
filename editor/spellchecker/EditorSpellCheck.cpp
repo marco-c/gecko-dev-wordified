@@ -2397,7 +2397,6 @@ spellChecker
 NextMisspelledWord
 (
 aNextMisspelledWord
-&
 mSuggestedWordList
 )
 ;

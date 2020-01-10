@@ -679,8 +679,8 @@ text
 nsresult
 GetCurrentTextBlock
 (
-nsString
-*
+nsAString
+&
 aStr
 )
 ;
@@ -1309,8 +1309,8 @@ nsresult
 InsertText
 (
 const
-nsString
-*
+nsAString
+&
 aText
 )
 ;
@@ -1706,7 +1706,7 @@ aIteratorStatus
 nsRange
 *
 aIterRange
-nsString
+nsAString
 *
 aStr
 )
