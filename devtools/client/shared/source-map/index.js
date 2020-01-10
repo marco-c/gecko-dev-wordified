@@ -5828,6 +5828,7 @@ getOriginalLocations
 =
 async
 (
+sourceId
 locations
 options
 =
@@ -5843,6 +5844,7 @@ invoke
 "
 getOriginalLocations
 "
+sourceId
 locations
 options
 )
