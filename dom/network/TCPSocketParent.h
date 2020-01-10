@@ -227,6 +227,16 @@ ReleaseIPDLReference
 (
 )
 ;
+bool
+IPCOpen
+(
+)
+const
+{
+return
+mIPCOpen
+;
+}
 protected
 :
 TCPSocketParentBase
