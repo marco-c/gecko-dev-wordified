@@ -695,14 +695,6 @@ _openPanel
 (
 )
 ;
-this
-.
-input
-.
-focus
-(
-)
-;
 }
 /
 *
