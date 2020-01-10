@@ -618,6 +618,15 @@ aName
 )
 ;
 void
+DispatchTestEvent
+(
+const
+nsAString
+&
+aName
+)
+;
+void
 CancelChannelAndListener
 (
 )
