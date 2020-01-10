@@ -291,9 +291,9 @@ Version
 .
 4
 .
-0
+2
 -
-896d337
+87e72a0
 *
 /
 (
@@ -17247,6 +17247,7 @@ options
 const
 {
 expectedTimestamp
+headers
 }
 =
 options
@@ -17276,7 +17277,13 @@ client
 .
 getData
 (
+{
+.
+.
+.
 query
+headers
+}
 )
 ;
 return
