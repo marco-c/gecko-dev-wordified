@@ -620,7 +620,7 @@ aGivenProto
 )
 {
 return
-Policy_Binding
+FeaturePolicy_Binding
 :
 :
 Wrap

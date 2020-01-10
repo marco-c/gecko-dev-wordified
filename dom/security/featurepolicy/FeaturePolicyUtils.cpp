@@ -749,7 +749,7 @@ policy
 aDocument
 -
 >
-Policy
+FeaturePolicy
 (
 )
 ;
