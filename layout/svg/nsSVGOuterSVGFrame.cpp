@@ -5523,12 +5523,12 @@ TRANSFORM_CHANGED
 if
 (
 aAttribute
-=
+!
 =
 nsGkAtoms
 :
 :
-preserveAspectRatio
+transform
 )
 {
 static_cast
