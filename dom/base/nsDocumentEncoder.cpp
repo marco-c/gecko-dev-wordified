@@ -5306,14 +5306,6 @@ GetNextSibling
 )
 ;
 }
-NS_ENSURE_TRUE
-(
-!
-!
-childAsNode
-NS_ERROR_FAILURE
-)
-;
 MOZ_ASSERT
 (
 j
