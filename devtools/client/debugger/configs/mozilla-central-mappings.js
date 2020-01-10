@@ -398,6 +398,8 @@ modules
 src
 /
 menu
+/
+menu
 -
 item
 "
