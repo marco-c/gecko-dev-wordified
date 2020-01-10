@@ -385,8 +385,6 @@ buffer
 36
 ]
 ;
-/
-/
 uuid
 .
 to_hyphenated
@@ -468,8 +466,6 @@ buffer
 32
 ]
 ;
-/
-/
 uuid
 .
 to_simple
@@ -552,8 +548,6 @@ buffer
 9
 ]
 ;
-/
-/
 uuid
 .
 to_urn
