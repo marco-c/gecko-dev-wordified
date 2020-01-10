@@ -455,6 +455,10 @@ mozilla
 :
 gfx
 ;
+using
+namespace
+std
+;
 CompositorVsyncScheduler
 :
 :
