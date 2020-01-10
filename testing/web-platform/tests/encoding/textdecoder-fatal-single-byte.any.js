@@ -13,6 +13,13 @@ for
 single
 byte
 encodings
+/
+/
+META
+:
+timeout
+=
+long
 var
 singleByteEncodings
 =
