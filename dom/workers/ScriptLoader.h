@@ -175,6 +175,9 @@ WorkerLoadInfo
 class
 WorkerPrivate
 ;
+class
+SerializedStackHolder
+;
 enum
 WorkerScriptType
 {
@@ -256,6 +259,11 @@ LoadMainScript
 WorkerPrivate
 *
 aWorkerPrivate
+UniquePtr
+<
+SerializedStackHolder
+>
+aOriginStack
 const
 nsAString
 &
@@ -273,6 +281,11 @@ Load
 WorkerPrivate
 *
 aWorkerPrivate
+UniquePtr
+<
+SerializedStackHolder
+>
+aOriginStack
 const
 nsTArray
 <
