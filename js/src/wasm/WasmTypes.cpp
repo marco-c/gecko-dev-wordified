@@ -289,7 +289,8 @@ We
 have
 only
 tested
-WASM_HUGE_MEMORY
+huge
+memory
 on
 x64
 and
@@ -299,7 +300,7 @@ arm64
 if
 defined
 (
-WASM_HUGE_MEMORY
+WASM_SUPPORTS_HUGE_MEMORY
 )
 #
 if
