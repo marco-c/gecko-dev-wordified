@@ -2010,14 +2010,14 @@ NewRunnableMethod
 nsIThread
 :
 :
-Shutdown
+AsyncShutdown
 "
 mReaderThread
 &
 nsIThread
 :
 :
-Shutdown
+AsyncShutdown
 )
 )
 ;

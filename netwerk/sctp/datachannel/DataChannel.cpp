@@ -2013,7 +2013,7 @@ mInternalIOThread
 nsIThread
 :
 :
-Shutdown
+AsyncShutdown
 )
 ;
 Dispatch

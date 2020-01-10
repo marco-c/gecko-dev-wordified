@@ -12155,14 +12155,14 @@ NewRunnableMethod
 nsIThread
 :
 :
-Shutdown
+AsyncShutdown
 "
 ioThread
 &
 nsIThread
 :
 :
-Shutdown
+AsyncShutdown
 )
 )
 )

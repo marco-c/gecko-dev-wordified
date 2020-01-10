@@ -693,7 +693,7 @@ aThisThread
 nsIThread
 :
 :
-Shutdown
+AsyncShutdown
 )
 )
 ;

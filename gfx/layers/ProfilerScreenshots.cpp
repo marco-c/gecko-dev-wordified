@@ -292,7 +292,7 @@ mThread
 nsIThread
 :
 :
-Shutdown
+AsyncShutdown
 )
 )
 ;
