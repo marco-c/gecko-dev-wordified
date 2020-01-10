@@ -1515,11 +1515,11 @@ loadingPrincipal
 ;
 info
 .
-mStorageAllowed
+mStorageAccess
 =
 aData
 .
-isStorageAccessAllowed
+storageAccess
 (
 )
 ;
