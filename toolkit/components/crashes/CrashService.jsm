@@ -529,7 +529,7 @@ delete
 process
 )
 ;
-resolve
+reject
 (
 )
 ;
