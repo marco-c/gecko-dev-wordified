@@ -776,7 +776,7 @@ the
 wrapper
 for
 our
-declaraton
+declaration
 .
 /
 /
