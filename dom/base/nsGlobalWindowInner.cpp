@@ -3786,11 +3786,6 @@ outer
 outer
 -
 >
-AsOuter
-(
-)
--
->
 IsBackground
 (
 )
@@ -5173,11 +5168,6 @@ aOuterWindow
 nsPIDOMWindowInner
 (
 aOuterWindow
--
->
-AsOuter
-(
-)
 )
 mozilla
 :
@@ -11304,11 +11294,6 @@ topWin
 frameElement
 =
 topWin
--
->
-AsOuter
-(
-)
 -
 >
 GetFrameElementInternal

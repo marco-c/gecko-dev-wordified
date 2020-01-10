@@ -14230,11 +14230,9 @@ webBrowserPrint
 =
 do_GetInterface
 (
-outerWindow
--
->
-AsOuter
+ToSupports
 (
+outerWindow
 )
 )
 ;

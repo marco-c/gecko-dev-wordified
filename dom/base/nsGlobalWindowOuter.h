@@ -7540,11 +7540,6 @@ nsGlobalWindowInner
 :
 Cast
 (
-AsOuter
-(
-)
--
->
 EnsureInnerWindow
 (
 )
@@ -7573,11 +7568,6 @@ parentWindow
 =
 =
 this
--
->
-AsOuter
-(
-)
 ;
 }
 inline
