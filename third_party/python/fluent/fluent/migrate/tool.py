@@ -343,7 +343,6 @@ __doc__
         
 #
 Annotate
-legacy
 localization
 files
 used
@@ -363,31 +362,12 @@ translations
         
 files
 =
-(
-            
-path
-for
-path
-in
 ctx
 .
 localization_resources
 .
 keys
 (
-)
-            
-if
-not
-path
-.
-endswith
-(
-'
-.
-ftl
-'
-)
 )
         
 blame
@@ -822,6 +802,12 @@ migrator
 run
 (
 migration
+)
+    
+migrator
+.
+close
+(
 )
 def
 cli
