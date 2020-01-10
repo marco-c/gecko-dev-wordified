@@ -28750,7 +28750,7 @@ tableKind
 TableKind
 :
 :
-AnyFunction
+FuncRef
 ;
 return
 true
@@ -43129,7 +43129,7 @@ case
 TableKind
 :
 :
-AnyFunction
+FuncRef
 :
 if
 (
@@ -43143,7 +43143,7 @@ uint32_t
 TypeCode
 :
 :
-AnyFunc
+FuncRef
 )
 )
 )
@@ -45263,7 +45263,7 @@ uint8_t
 TypeCode
 :
 :
-AnyFunc
+FuncRef
 )
 )
 )

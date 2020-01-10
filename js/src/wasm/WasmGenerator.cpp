@@ -2355,7 +2355,7 @@ active
 TableKind
 :
 :
-AnyFunction
+FuncRef
 :
 env_
 -
@@ -2379,7 +2379,7 @@ case
 TableKind
 :
 :
-AnyFunction
+FuncRef
 :
 for
 (

@@ -12604,7 +12604,7 @@ tableKind
 TableKind
 :
 :
-AnyFunction
+FuncRef
 ;
 #
 ifdef
@@ -13099,7 +13099,7 @@ case
 TableKind
 :
 :
-AnyFunction
+FuncRef
 :
 {
 const
@@ -13109,7 +13109,7 @@ elem
 =
 table
 .
-getAnyFunc
+getFuncRef
 (
 index
 )
@@ -13462,7 +13462,7 @@ limit
 table
 -
 >
-setAnyFunc
+setFuncRef
 (
 index
 +
@@ -13690,7 +13690,7 @@ case
 TableKind
 :
 :
-AnyFunction
+FuncRef
 :
 {
 RootedFunction
@@ -14122,7 +14122,7 @@ case
 TableKind
 :
 :
-AnyFunction
+FuncRef
 :
 {
 RootedFunction
@@ -14170,7 +14170,7 @@ table
 (
 )
 .
-getAnyFunc
+getFuncRef
 (
 index
 )
