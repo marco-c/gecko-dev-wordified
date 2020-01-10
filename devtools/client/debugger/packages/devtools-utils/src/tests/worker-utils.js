@@ -718,15 +718,11 @@ results
 {
 error
 :
-true
-message
-:
 "
+Error
+:
 failed
 "
-metadata
-:
-undefined
 }
 ]
 }

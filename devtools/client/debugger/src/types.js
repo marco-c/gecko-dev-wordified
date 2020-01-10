@@ -1004,7 +1004,6 @@ type
 OriginalFrame
 =
 {
-|
 displayName
 :
 string
@@ -1016,7 +1015,9 @@ location
 ?
 :
 SourceLocation
-|
+thread
+:
+string
 }
 ;
 /
@@ -1492,6 +1493,11 @@ id
 SourceId
 +
 url
+:
+string
++
+sourceMapURL
+?
 :
 string
 +

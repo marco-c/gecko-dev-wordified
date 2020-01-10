@@ -132,6 +132,7 @@ type
 {
 PartialPosition
 Frame
+Source
 }
 from
 "
@@ -255,6 +256,9 @@ async
 function
 loadRangeMetadata
 (
+source
+:
+Source
 frame
 :
 Frame
@@ -295,6 +299,9 @@ frame
 location
 .
 sourceId
+source
+.
+url
 )
 ;
 const
