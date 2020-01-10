@@ -994,7 +994,15 @@ nullptr
 principal
 aKey
 aOldValue
+.
+AsString
+(
+)
 aNewValue
+.
+AsString
+(
+)
 /
 *
 aStorageType

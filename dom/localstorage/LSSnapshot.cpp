@@ -477,6 +477,10 @@ key
 (
 )
 value
+.
+AsString
+(
+)
 )
 ;
 }
@@ -2132,6 +2136,10 @@ NS_ERROR_FAILURE
 result
 =
 value
+.
+AsString
+(
+)
 ;
 if
 (
@@ -2235,6 +2243,10 @@ key
 itemInfo
 .
 value
+(
+)
+.
+AsString
 (
 )
 )
@@ -2405,6 +2417,10 @@ NS_ERROR_FAILURE
 result
 =
 value
+.
+AsString
+(
+)
 ;
 MOZ_ASSERT
 (
@@ -2498,6 +2514,10 @@ key
 itemInfo
 .
 value
+(
+)
+.
+AsString
 (
 )
 )

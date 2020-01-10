@@ -2018,8 +2018,6 @@ mozIStorageConnection
 aConnection
 )
 ;
-/
-*
 nsresult
 UpgradeLocalStorageArchiveFrom1To2
 (
@@ -2031,8 +2029,6 @@ mozIStorageConnection
 aConnection
 )
 ;
-*
-/
 nsresult
 InitializeRepository
 (
