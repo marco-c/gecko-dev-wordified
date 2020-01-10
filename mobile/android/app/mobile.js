@@ -2245,7 +2245,7 @@ org
 LOCALE
 %
 /
-firefox
+android
 /
 collections
 /
