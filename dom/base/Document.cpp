@@ -20847,10 +20847,10 @@ aCx
 )
 |
 |
-nsContentUtils
+StaticPrefs
 :
 :
-AnimationsAPICoreEnabled
+dom_animations_api_core_enabled
 (
 )
 ;
@@ -20885,10 +20885,10 @@ CallerType
 System
 |
 |
-nsContentUtils
+StaticPrefs
 :
 :
-AnimationsAPICoreEnabled
+dom_animations_api_core_enabled
 (
 )
 ;
