@@ -23,11 +23,11 @@ parse
             
 [
 Constructor
-NoInterfaceObject
+Global
 ]
             
 interface
-TestConstructorNoInterfaceObject
+TestConstructorGlobal
 {
             
 }
@@ -90,12 +90,12 @@ parse
 "
             
 [
-NoInterfaceObject
+Global
 Constructor
 ]
             
 interface
-TestConstructorNoInterfaceObject
+TestConstructorGlobal
 {
             
 }
@@ -142,6 +142,13 @@ reset
 (
 )
     
+threw
+=
+False
+    
+try
+:
+        
 parser
 .
 parse
@@ -149,31 +156,53 @@ parse
 "
 "
 "
-        
+            
 [
-NoInterfaceObject
+Global
 NamedConstructor
 =
 FooBar
 ]
-        
+            
 interface
-TestNamedConstructorNoInterfaceObject
+TestNamedConstructorGlobal
 {
-        
+            
 }
 ;
-    
+        
 "
 "
 "
 )
+        
+results
+=
+parser
+.
+finish
+(
+)
     
-#
-Test
-HTMLConstructor
-and
-NoInterfaceObject
+except
+:
+        
+threw
+=
+True
+    
+harness
+.
+ok
+(
+threw
+"
+Should
+have
+thrown
+.
+"
+)
     
 parser
 =
@@ -199,12 +228,82 @@ parse
 "
             
 [
-NoInterfaceObject
+NamedConstructor
+=
+FooBar
+Global
+]
+            
+interface
+TestNamedConstructorGlobal
+{
+            
+}
+;
+        
+"
+"
+"
+)
+        
+results
+=
+parser
+.
+finish
+(
+)
+    
+except
+:
+        
+threw
+=
+True
+    
+harness
+.
+ok
+(
+threw
+"
+Should
+have
+thrown
+.
+"
+)
+    
+parser
+=
+parser
+.
+reset
+(
+)
+    
+threw
+=
+False
+    
+try
+:
+        
+parser
+.
+parse
+(
+"
+"
+"
+            
+[
+Global
 HTMLConstructor
 ]
             
 interface
-TestHTMLConstructorNoInterfaceObject
+TestHTMLConstructorGlobal
 {
             
 }
@@ -268,11 +367,11 @@ parse
             
 [
 HTMLConstructor
-NoInterfaceObject
+Global
 ]
             
 interface
-TestHTMLConstructorNoInterfaceObject
+TestHTMLConstructorGlobal
 {
             
 }
