@@ -162,11 +162,10 @@ site
 +
 "
 /
-firefox_learnmore
 ?
 src
 =
-ff_library
+ff_ext
 "
 ;
 }
