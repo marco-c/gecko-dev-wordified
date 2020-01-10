@@ -69,6 +69,8 @@ from
 __future__
 import
 absolute_import
+print_function
+unicode_literals
 import
 requests
 import
@@ -264,6 +266,7 @@ keys
     
 return
 {
+        
 '
 pushdate
 '
@@ -277,11 +280,27 @@ pushid
 date
 '
 ]
+        
 '
 pushid
 '
 :
 pushid
+        
+'
+user
+'
+:
+pushes
+[
+pushid
+]
+[
+'
+user
+'
+]
+    
 }
 def
 get_hg_revision_branch
