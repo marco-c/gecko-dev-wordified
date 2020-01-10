@@ -4206,6 +4206,7 @@ rv
 =
 ConvertSupportsTojsvals
 (
+cx
 aArgs
 global
 &
@@ -4316,6 +4317,9 @@ nsJSContext
 :
 ConvertSupportsTojsvals
 (
+JSContext
+*
+aCx
 nsISupports
 *
 aArgs
@@ -4484,9 +4488,6 @@ NS_ENSURE_TRUE
 xpc
 NS_ERROR_UNEXPECTED
 )
-;
-AutoJSContext
-cx
 ;
 if
 (
@@ -4726,7 +4727,7 @@ xpc
 >
 VariantToJS
 (
-cx
+aCx
 aScope
 variant
 thisVal
@@ -4776,6 +4777,7 @@ rv
 =
 AddSupportsPrimitiveTojsvals
 (
+aCx
 arg
 thisVal
 .
@@ -4871,7 +4873,7 @@ endif
 JSAutoRealm
 ar
 (
-cx
+aCx
 aScope
 )
 ;
@@ -4882,7 +4884,7 @@ nsContentUtils
 :
 WrapNative
 (
-cx
+aCx
 arg
 thisVal
 )
@@ -4916,7 +4918,7 @@ xpc
 >
 VariantToJS
 (
-cx
+aCx
 aScope
 variant
 aArgsOut
@@ -4969,6 +4971,9 @@ nsJSContext
 :
 AddSupportsPrimitiveTojsvals
 (
+JSContext
+*
+aCx
 nsISupports
 *
 aArg
@@ -5008,9 +5013,6 @@ argPrimitive
 )
 return
 NS_ERROR_NO_INTERFACE
-;
-AutoJSContext
-cx
 ;
 uint16_t
 type
@@ -5073,7 +5075,7 @@ str
 :
 JS_NewStringCopyN
 (
-cx
+aCx
 data
 .
 get
@@ -5171,7 +5173,7 @@ str
 :
 JS_NewUCStringCopyN
 (
-cx
+aCx
 data
 .
 get
@@ -5438,7 +5440,7 @@ str
 :
 JS_NewStringCopyN
 (
-cx
+aCx
 &
 data
 1
@@ -5743,7 +5745,7 @@ JSObject
 >
 scope
 (
-cx
+aCx
 GetWindowProxy
 (
 )
@@ -5761,13 +5763,13 @@ Value
 >
 v
 (
-cx
+aCx
 )
 ;
 JSAutoRealm
 ar
 (
-cx
+aCx
 scope
 )
 ;
@@ -5779,7 +5781,7 @@ nsContentUtils
 :
 WrapNative
 (
-cx
+aCx
 data
 iid
 &
