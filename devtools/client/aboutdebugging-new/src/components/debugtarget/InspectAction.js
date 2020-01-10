@@ -224,6 +224,11 @@ PropTypes
 func
 .
 isRequired
+disabled
+:
+PropTypes
+.
+bool
 target
 :
 Types
@@ -231,11 +236,11 @@ Types
 debugTarget
 .
 isRequired
-disabled
+title
 :
-PropTypes
+Types
 .
-bool
+string
 }
 ;
 }
@@ -276,6 +281,7 @@ render
 const
 {
 disabled
+title
 }
 =
 this
@@ -334,6 +340,7 @@ inspect
 button
 "
 disabled
+title
 }
 "
 Inspect
