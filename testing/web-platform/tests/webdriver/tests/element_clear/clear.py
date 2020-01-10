@@ -1968,9 +1968,6 @@ innerHTML
 =
 =
 "
-<
-br
->
 "
     
 assert_element_has_focus
