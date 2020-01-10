@@ -11733,7 +11733,11 @@ position
 =
 Array
 .
+prototype
+.
 indexOf
+.
+call
 (
 targetParent
 .

@@ -3366,10 +3366,11 @@ been
 /
 specified
 .
-Array
-.
-forEach
+for
 (
+let
+splitter
+of
 this
 .
 getElementsByTagName
@@ -3378,9 +3379,6 @@ getElementsByTagName
 splitter
 "
 )
-function
-(
-splitter
 )
 {
 if
@@ -3408,8 +3406,6 @@ farthest
 )
 ;
 }
-)
-;
 }
 }
 customElements

@@ -493,10 +493,9 @@ formatStringFromName
 stringName
 Array
 .
-slice
+from
 (
 arguments
-0
 )
 arguments
 .

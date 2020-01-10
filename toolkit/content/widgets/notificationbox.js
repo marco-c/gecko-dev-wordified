@@ -411,7 +411,11 @@ notification
 return
 Array
 .
+prototype
+.
 filter
+.
+call
 (
 notifications
 n

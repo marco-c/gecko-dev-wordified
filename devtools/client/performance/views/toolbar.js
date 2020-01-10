@@ -1130,7 +1130,7 @@ hiddenMarkers
 =
 Array
 .
-map
+from
 (
 checkedMenuItems
 e

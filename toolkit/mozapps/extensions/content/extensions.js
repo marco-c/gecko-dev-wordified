@@ -10536,12 +10536,11 @@ elements
 =
 Array
 .
-slice
+from
 (
 aList
 .
 childNodes
-0
 )
 ;
 sortElements

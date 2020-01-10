@@ -3311,7 +3311,11 @@ index
 =
 Array
 .
+prototype
+.
 indexOf
+.
+call
 (
 tabpanels
 .

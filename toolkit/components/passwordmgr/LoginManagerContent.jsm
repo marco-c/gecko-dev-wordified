@@ -3876,7 +3876,11 @@ isSecureContext
 |
 Array
 .
+prototype
+.
 some
+.
+call
 (
 thisWindow
 .

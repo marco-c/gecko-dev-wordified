@@ -26516,7 +26516,7 @@ initialTabs
 =
 Array
 .
-slice
+from
 (
 tabbrowser
 .
@@ -29237,7 +29237,11 @@ otherTab
 of
 Array
 .
+prototype
+.
 slice
+.
+call
 (
 tabbrowser
 .

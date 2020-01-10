@@ -250,12 +250,11 @@ resolve
 (
 Array
 .
-slice
+from
 (
 this
 .
 _downloads
-0
 )
 )
 ;

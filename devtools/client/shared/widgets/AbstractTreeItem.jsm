@@ -2942,7 +2942,11 @@ indexOfSelf
 =
 Array
 .
+prototype
+.
 indexOf
+.
+call
 (
 childNodes
 this

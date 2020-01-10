@@ -392,11 +392,10 @@ temp
 [
 ]
 ;
-Array
+object
 .
 forEach
 (
-object
 function
 (
 value
