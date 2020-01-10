@@ -812,9 +812,7 @@ show
 .
 catch
 (
-(
 msg
-)
 =
 >
 {

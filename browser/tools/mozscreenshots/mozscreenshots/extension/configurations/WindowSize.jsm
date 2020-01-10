@@ -447,6 +447,7 @@ waitForCondition
 >
 {
 return
+(
 wantsFS
 =
 =
@@ -461,6 +462,7 @@ hasAttribute
 "
 inFullscreen
 "
+)
 )
 ;
 }

@@ -1058,6 +1058,7 @@ getSpec
 )
 {
 return
+(
 tab
 .
 linkedBrowser
@@ -1077,6 +1078,7 @@ linkedBrowser
 documentURI
 .
 spec
+)
 ;
 }
 function
@@ -1325,6 +1327,7 @@ length
 >
 1
 )
+{
 gBrowser
 .
 removeTab
@@ -1339,6 +1342,7 @@ false
 }
 )
 ;
+}
 gBrowser
 .
 selectedBrowser
@@ -1367,6 +1371,7 @@ selectedTab
 .
 pinned
 )
+{
 gBrowser
 .
 unpinTab
@@ -1376,6 +1381,7 @@ gBrowser
 selectedTab
 )
 ;
+}
 let
 newTabButton
 =
@@ -1448,6 +1454,7 @@ tab
 .
 nextElementSibling
 )
+{
 tab
 .
 nextElementSibling
@@ -1463,12 +1470,14 @@ hover
 null
 )
 ;
+}
 if
 (
 tab
 .
 previousElementSibling
 )
+{
 tab
 .
 previousElementSibling
@@ -1484,4 +1493,5 @@ hover
 null
 )
 ;
+}
 }
