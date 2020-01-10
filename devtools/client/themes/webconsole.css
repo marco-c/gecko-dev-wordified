@@ -77,7 +77,12 @@ line
 -
 height
 :
-14px
+calc
+(
+14
+/
+11
+)
 ;
 -
 -
