@@ -421,20 +421,7 @@ unknown
 webrender
 '
 :
-bool
-(
-os
-.
-environ
-.
-get
-(
-"
-MOZ_WEBRENDER
-"
 False
-)
-)
         
 '
 automation

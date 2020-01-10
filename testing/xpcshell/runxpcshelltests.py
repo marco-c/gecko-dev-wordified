@@ -10336,6 +10336,19 @@ parent_intercept
 False
 )
         
+self
+.
+mozInfo
+[
+'
+webrender
+'
+]
+=
+self
+.
+enable_webrender
+        
 mozinfo
 .
 update
