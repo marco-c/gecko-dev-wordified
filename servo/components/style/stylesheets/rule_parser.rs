@@ -250,7 +250,6 @@ stylesheets
 :
 :
 {
-CorsMode
 DocumentRule
 FontFeatureValuesRule
 KeyframesRule
@@ -1583,10 +1582,6 @@ url_string
 self
 .
 context
-CorsMode
-:
-:
-None
 )
 ;
 let

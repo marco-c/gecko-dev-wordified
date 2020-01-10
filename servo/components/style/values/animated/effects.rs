@@ -246,7 +246,7 @@ gecko
 ]
 pub
 type
-AnimatedFilter
+Filter
 =
 GenericFilter
 <
@@ -284,7 +284,7 @@ gecko
 ]
 pub
 type
-AnimatedFilter
+Filter
 =
 GenericFilter
 <

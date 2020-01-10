@@ -305,6 +305,9 @@ nsROCSSPrimitiveValue
 class
 nsStyleCoord
 ;
+struct
+nsStyleFilter
+;
 class
 nsStyleGradient
 ;
@@ -1808,7 +1811,10 @@ const
 mozilla
 :
 :
-StyleComputedUrl
+css
+:
+:
+URLValue
 *
 aURL
 nsROCSSPrimitiveValue

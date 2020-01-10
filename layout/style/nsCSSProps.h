@@ -2051,6 +2051,13 @@ kShapeRadiusKTable
 static
 const
 KTableEntry
+kFilterFunctionKTable
+[
+]
+;
+static
+const
+KTableEntry
 kBoxShadowTypeKTable
 [
 ]

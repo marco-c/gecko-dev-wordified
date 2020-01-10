@@ -7283,7 +7283,7 @@ gfxFontFaceSrc
 eSourceType_URL
 ;
 const
-StyleCssUrl
+URLValue
 *
 url
 =
@@ -7319,9 +7319,8 @@ uri
 :
 nullptr
 ;
-const
 URLExtraData
-&
+*
 extraData
 =
 url
@@ -7337,7 +7336,8 @@ face
 mReferrer
 =
 extraData
-.
+-
+>
 GetReferrer
 (
 )
@@ -7348,7 +7348,8 @@ face
 mReferrerPolicy
 =
 extraData
-.
+-
+>
 GetReferrerPolicy
 (
 )
@@ -7362,7 +7363,8 @@ new
 gfxFontSrcPrincipal
 (
 extraData
-.
+-
+>
 Principal
 (
 )

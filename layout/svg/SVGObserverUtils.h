@@ -363,9 +363,8 @@ URLAndReferrerInfo
 nsIURI
 *
 aURI
-const
 URLExtraData
-&
+*
 aExtraData
 )
 :
@@ -376,7 +375,8 @@ aURI
 mReferrer
 (
 aExtraData
-.
+-
+>
 GetReferrer
 (
 )
@@ -384,7 +384,8 @@ GetReferrer
 mReferrerPolicy
 (
 aExtraData
-.
+-
+>
 GetReferrerPolicy
 (
 )
@@ -2029,7 +2030,7 @@ process
 the
 list
 of
-StyleFilter
+nsStyleFilter
 *
 objects
 separately
@@ -2066,11 +2067,11 @@ aContext
 Element
 *
 aCanvasElement
-Span
+nsTArray
 <
-const
-StyleFilter
+nsStyleFilter
 >
+&
 aFilters
 )
 ;
@@ -2870,7 +2871,7 @@ nsIFrame
 *
 aFrame
 const
-StyleFilter
+nsStyleFilter
 &
 aFilter
 )
