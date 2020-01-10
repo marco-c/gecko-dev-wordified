@@ -365,6 +365,7 @@ uint16_t
 Vive
 WMR
 Knuckles
+Cosmos
 NumOpenVRControllerTypes
 }
 ;
