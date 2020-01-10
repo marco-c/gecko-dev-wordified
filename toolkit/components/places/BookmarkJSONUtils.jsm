@@ -367,9 +367,10 @@ nsIStringInputStream
 ;
 stringStream
 .
-data
-=
+setUTF8Data
+(
 aString
+)
 ;
 cryptoHash
 .
