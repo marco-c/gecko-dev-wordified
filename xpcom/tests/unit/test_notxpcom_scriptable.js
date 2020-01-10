@@ -132,7 +132,7 @@ ok
 (
 Ci
 .
-ScriptableWithNotXPCOM
+nsIScriptableWithNotXPCOM
 )
 ;
 let
@@ -153,13 +153,13 @@ generateQI
 [
 Ci
 .
-ScriptableOK
+nsIScriptableOK
 Ci
 .
-ScriptableWithNotXPCOM
+nsIScriptableWithNotXPCOM
 Ci
 .
-ScriptableWithNotXPCOMBase
+nsIScriptableWithNotXPCOMBase
 ]
 )
 method1
@@ -299,7 +299,7 @@ QueryInterface
 (
 Ci
 .
-ScriptableOK
+nsIScriptableOK
 )
 ;
 xpcomObject
@@ -321,7 +321,7 @@ QueryInterface
 (
 Ci
 .
-ScriptableWithNotXPCOM
+nsIScriptableWithNotXPCOM
 )
 ;
 ok
@@ -332,7 +332,7 @@ Should
 not
 have
 implemented
-ScriptableWithNotXPCOM
+nsIScriptableWithNotXPCOM
 "
 )
 ;
@@ -350,7 +350,7 @@ Should
 not
 have
 implemented
-ScriptableWithNotXPCOM
+nsIScriptableWithNotXPCOM
 .
 Correctly
 threw
@@ -378,7 +378,7 @@ QueryInterface
 (
 Ci
 .
-ScriptableWithNotXPCOMBase
+nsIScriptableWithNotXPCOMBase
 )
 ;
 ok
@@ -389,7 +389,7 @@ Should
 not
 have
 implemented
-ScriptableWithNotXPCOMBase
+nsIScriptableWithNotXPCOMBase
 "
 )
 ;
@@ -407,7 +407,7 @@ Should
 not
 have
 implemented
-ScriptableWithNotXPCOMBase
+nsIScriptableWithNotXPCOMBase
 .
 Correctly
 threw
