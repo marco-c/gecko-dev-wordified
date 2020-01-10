@@ -1793,6 +1793,12 @@ ScreenIntCoord
 aBottom
 )
 ;
+ScreenMargin
+GetFixedLayerMargins
+(
+)
+const
+;
 private
 :
 /
