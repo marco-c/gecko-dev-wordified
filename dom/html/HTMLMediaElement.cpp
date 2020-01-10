@@ -16480,7 +16480,7 @@ StopSuspendingAfterFirstFrame
 ;
 if
 (
-mSrcStream
+mSrcAttrStream
 )
 {
 /
