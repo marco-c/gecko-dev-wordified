@@ -1496,6 +1496,13 @@ void
 aRawPtr
 )
 {
+NS_SetCurrentThreadName
+(
+"
+AudioASCReleaser
+"
+)
+;
 static_cast
 <
 IAudioSessionControl
