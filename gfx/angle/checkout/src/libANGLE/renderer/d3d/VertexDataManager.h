@@ -137,6 +137,10 @@ struct
 VertexAttribCurrentValueData
 ;
 }
+/
+/
+namespace
+gl
 namespace
 rx
 {
@@ -288,7 +292,10 @@ VertexBinding
 *
 binding
 ;
-GLenum
+gl
+:
+:
+VertexAttribType
 currentValueType
 ;
 unsigned

@@ -91,7 +91,7 @@ include
 "
 common
 /
-mathutil
+debug
 .
 h
 "
@@ -100,7 +100,7 @@ include
 "
 common
 /
-debug
+mathutil
 .
 h
 "
@@ -168,7 +168,10 @@ delete
 mPath
 ;
 }
-Error
+angle
+:
+:
+Result
 Path
 :
 :
@@ -210,9 +213,13 @@ mHasData
 true
 ;
 return
-NoError
-(
-)
+angle
+:
+:
+Result
+:
+:
+Continue
 ;
 }
 void
@@ -359,4 +366,5 @@ value
 }
 /
 /
+namespace
 gl

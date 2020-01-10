@@ -124,9 +124,6 @@ NonCopyable
 public
 :
 POOL_ALLOCATOR_NEW_DELETE
-(
-)
-;
 TDeclarator
 (
 const

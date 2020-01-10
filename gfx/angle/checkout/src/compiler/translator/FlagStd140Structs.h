@@ -124,6 +124,10 @@ node
 )
 ;
 }
+/
+/
+namespace
+sh
 #
 endif
 /

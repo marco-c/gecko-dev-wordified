@@ -109,6 +109,10 @@ struct
 Offset
 ;
 }
+/
+/
+namespace
+gl
 namespace
 rx
 {
@@ -779,6 +783,10 @@ mSavedDepthStencil
 }
 ;
 }
+/
+/
+namespace
+rx
 #
 endif
 /

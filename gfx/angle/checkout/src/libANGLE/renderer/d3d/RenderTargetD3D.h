@@ -92,7 +92,7 @@ include
 "
 libANGLE
 /
-angletypes
+FramebufferAttachment
 .
 h
 "
@@ -101,7 +101,7 @@ include
 "
 libANGLE
 /
-FramebufferAttachment
+angletypes
 .
 h
 "
@@ -245,6 +245,10 @@ mCurrentSerial
 }
 ;
 }
+/
+/
+namespace
+rx
 #
 endif
 /

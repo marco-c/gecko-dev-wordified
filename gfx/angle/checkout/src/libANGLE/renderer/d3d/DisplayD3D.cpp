@@ -1135,6 +1135,9 @@ createEGLDevice
 )
 ;
 }
+rx
+:
+:
 ContextImpl
 *
 DisplayD3D
@@ -1146,9 +1149,15 @@ const
 gl
 :
 :
-ContextState
+State
 &
 state
+gl
+:
+:
+ErrorSet
+*
+errorSet
 const
 egl
 :
@@ -1187,6 +1196,7 @@ mRenderer
 createContext
 (
 state
+errorSet
 )
 ;
 }
@@ -1989,7 +1999,7 @@ void
 DisplayD3D
 :
 :
-handleError
+handleResult
 (
 HRESULT
 hr

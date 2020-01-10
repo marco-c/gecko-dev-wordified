@@ -563,7 +563,6 @@ mSymbolTable
 /
 /
 namespace
-anonymous
 void
 EmulateGLFragColorBroadcast
 (

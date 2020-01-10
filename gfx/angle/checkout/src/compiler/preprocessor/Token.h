@@ -449,6 +449,16 @@ Token
 token
 )
 ;
+constexpr
+char
+kDefined
+[
+]
+=
+"
+defined
+"
+;
 }
 /
 /

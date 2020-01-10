@@ -442,14 +442,7 @@ mContext
 >
 handleError
 (
-gl
-:
-:
-OutOfMemory
-(
-)
-<
-<
+GL_OUT_OF_MEMORY
 "
 Context
 has
@@ -457,6 +450,9 @@ been
 lost
 .
 "
+__FILE__
+ANGLE_FUNCTION
+__LINE__
 )
 ;
 return

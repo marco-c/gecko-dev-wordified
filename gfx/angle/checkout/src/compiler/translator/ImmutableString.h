@@ -166,6 +166,9 @@ len
 ;
 }
 }
+/
+/
+namespace
 class
 ImmutableString
 {

@@ -156,6 +156,10 @@ mVertexExecutable
 }
 ;
 }
+/
+/
+namespace
+rx
 #
 endif
 /

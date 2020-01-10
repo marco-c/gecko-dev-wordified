@@ -112,6 +112,10 @@ class
 DeviceImpl
 ;
 }
+/
+/
+namespace
+rx
 namespace
 egl
 {
@@ -141,11 +145,11 @@ DeviceImpl
 impl
 )
 ;
-virtual
 ~
 Device
 (
 )
+override
 ;
 void
 setLabel
@@ -180,7 +184,6 @@ return
 mOwningDisplay
 ;
 }
-;
 EGLint
 getType
 (
@@ -288,6 +291,10 @@ mDeviceExtensionString
 }
 ;
 }
+/
+/
+namespace
+egl
 #
 endif
 /

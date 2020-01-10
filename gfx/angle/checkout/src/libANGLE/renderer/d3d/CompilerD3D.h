@@ -119,15 +119,6 @@ CompilerD3D
 override
 {
 }
-gl
-:
-:
-Error
-release
-(
-)
-override
-;
 ShShaderOutput
 getTranslatorOutputType
 (
@@ -143,6 +134,10 @@ mTranslatorOutputType
 }
 ;
 }
+/
+/
+namespace
+rx
 #
 endif
 /

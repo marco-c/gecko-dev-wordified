@@ -709,3 +709,7 @@ mDeviceExtensionString
 ;
 }
 }
+/
+/
+namespace
+egl

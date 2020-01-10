@@ -1984,6 +1984,9 @@ mNestedDiscont
 }
 ;
 }
+/
+/
+namespace
 bool
 ASTMetadataHLSL
 :

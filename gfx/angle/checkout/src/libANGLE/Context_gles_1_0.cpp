@@ -196,7 +196,7 @@ GLfloat
 ref
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -221,7 +221,7 @@ GLfixed
 ref
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -283,7 +283,7 @@ GLenum
 texture
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -318,7 +318,7 @@ GLfloat
 eqn
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -385,7 +385,7 @@ equation
 )
 }
 ;
-mGLState
+mState
 .
 gles1
 (
@@ -416,7 +416,7 @@ GLfloat
 alpha
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -449,7 +449,7 @@ GLubyte
 alpha
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -506,7 +506,7 @@ GLfixed
 alpha
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -543,7 +543,7 @@ colorPointer
 (
 GLint
 size
-GLenum
+VertexAttribType
 type
 GLsizei
 stride
@@ -597,7 +597,7 @@ ClientVertexArrayType
 clientState
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -635,7 +635,7 @@ ClientVertexArrayType
 clientState
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -678,7 +678,7 @@ param
 SetFogParameters
 (
 &
-mGLState
+mState
 .
 gles1
 (
@@ -706,7 +706,7 @@ params
 SetFogParameters
 (
 &
-mGLState
+mState
 .
 gles1
 (
@@ -885,7 +885,7 @@ GLfloat
 f
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -931,7 +931,7 @@ GLfixed
 f
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -988,7 +988,7 @@ GLfloat
 equation
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -1025,7 +1025,7 @@ equationf
 {
 }
 ;
-mGLState
+mState
 .
 gles1
 (
@@ -1106,7 +1106,7 @@ params
 GetLightParameters
 (
 &
-mGLState
+mState
 .
 gles1
 (
@@ -1198,7 +1198,7 @@ params
 GetMaterialParameters
 (
 &
-mGLState
+mState
 .
 gles1
 (
@@ -1289,13 +1289,13 @@ params
 {
 GetTextureEnv
 (
-mGLState
+mState
 .
 getActiveSampler
 (
 )
 &
-mGLState
+mState
 .
 gles1
 (
@@ -1329,13 +1329,13 @@ paramsf
 ;
 GetTextureEnv
 (
-mGLState
+mState
 .
 getActiveSampler
 (
 )
 &
-mGLState
+mState
 .
 gles1
 (
@@ -1376,13 +1376,13 @@ paramsf
 ;
 GetTextureEnv
 (
-mGLState
+mState
 .
 getActiveSampler
 (
 )
 &
-mGLState
+mState
 .
 gles1
 (
@@ -1435,7 +1435,7 @@ param
 SetLightModelParameters
 (
 &
-mGLState
+mState
 .
 gles1
 (
@@ -1463,7 +1463,7 @@ params
 SetLightModelParameters
 (
 &
-mGLState
+mState
 .
 gles1
 (
@@ -1573,7 +1573,7 @@ param
 SetLightParameters
 (
 &
-mGLState
+mState
 .
 gles1
 (
@@ -1604,7 +1604,7 @@ params
 SetLightParameters
 (
 &
-mGLState
+mState
 .
 gles1
 (
@@ -1727,7 +1727,7 @@ loadIdentity
 (
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -1756,7 +1756,7 @@ GLfloat
 m
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -1786,7 +1786,7 @@ GLfixed
 m
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -1811,7 +1811,7 @@ LogicalOperation
 opcodePacked
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -1840,7 +1840,7 @@ param
 SetMaterialParameters
 (
 &
-mGLState
+mState
 .
 gles1
 (
@@ -1871,7 +1871,7 @@ params
 SetMaterialParameters
 (
 &
-mGLState
+mState
 .
 gles1
 (
@@ -1981,7 +1981,7 @@ MatrixType
 mode
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -2005,7 +2005,7 @@ GLfloat
 m
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -2035,7 +2035,7 @@ GLfixed
 m
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -2093,7 +2093,7 @@ getCaps
 maxMultitextureUnits
 )
 ;
-mGLState
+mState
 .
 gles1
 (
@@ -2154,7 +2154,7 @@ getCaps
 maxMultitextureUnits
 )
 ;
-mGLState
+mState
 .
 gles1
 (
@@ -2198,7 +2198,7 @@ GLfloat
 nz
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -2228,7 +2228,7 @@ GLfixed
 nz
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -2259,7 +2259,7 @@ Context
 :
 normalPointer
 (
-GLenum
+VertexAttribType
 type
 GLsizei
 stride
@@ -2306,7 +2306,7 @@ GLfloat
 zFar
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -2352,7 +2352,7 @@ GLfixed
 f
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -2411,7 +2411,7 @@ param
 SetPointParameter
 (
 &
-mGLState
+mState
 .
 gles1
 (
@@ -2439,7 +2439,7 @@ params
 SetPointParameter
 (
 &
-mGLState
+mState
 .
 gles1
 (
@@ -2472,7 +2472,7 @@ param
 SetPointParameter
 (
 &
-mGLState
+mState
 .
 gles1
 (
@@ -2543,7 +2543,7 @@ i
 SetPointParameter
 (
 &
-mGLState
+mState
 .
 gles1
 (
@@ -2566,7 +2566,7 @@ size
 SetPointSize
 (
 &
-mGLState
+mState
 .
 gles1
 (
@@ -2588,7 +2588,7 @@ size
 SetPointSize
 (
 &
-mGLState
+mState
 .
 gles1
 (
@@ -2625,7 +2625,7 @@ popMatrix
 (
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -2644,7 +2644,7 @@ pushMatrix
 (
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -2671,7 +2671,7 @@ float
 z
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -2717,7 +2717,7 @@ GLfixed
 z
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -2790,7 +2790,7 @@ float
 z
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -2833,7 +2833,7 @@ GLfixed
 z
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -2881,7 +2881,7 @@ ShadingModel
 model
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -2901,7 +2901,7 @@ texCoordPointer
 (
 GLint
 size
-GLenum
+VertexAttribType
 type
 GLsizei
 stride
@@ -2944,13 +2944,13 @@ param
 {
 SetTextureEnv
 (
-mGLState
+mState
 .
 getActiveSampler
 (
 )
 &
-mGLState
+mState
 .
 gles1
 (
@@ -2980,13 +2980,13 @@ params
 {
 SetTextureEnv
 (
-mGLState
+mState
 .
 getActiveSampler
 (
 )
 &
-mGLState
+mState
 .
 gles1
 (
@@ -3030,13 +3030,13 @@ paramsf
 ;
 SetTextureEnv
 (
-mGLState
+mState
 .
 getActiveSampler
 (
 )
 &
-mGLState
+mState
 .
 gles1
 (
@@ -3081,13 +3081,13 @@ paramsf
 ;
 SetTextureEnv
 (
-mGLState
+mState
 .
 getActiveSampler
 (
 )
 &
-mGLState
+mState
 .
 gles1
 (
@@ -3131,13 +3131,13 @@ paramsf
 ;
 SetTextureEnv
 (
-mGLState
+mState
 .
 getActiveSampler
 (
 )
 &
-mGLState
+mState
 .
 gles1
 (
@@ -3182,13 +3182,13 @@ paramsf
 ;
 SetTextureEnv
 (
-mGLState
+mState
 .
 getActiveSampler
 (
 )
 &
-mGLState
+mState
 .
 gles1
 (
@@ -3253,7 +3253,7 @@ float
 z
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -3296,7 +3296,7 @@ GLfixed
 z
 )
 {
-mGLState
+mState
 .
 gles1
 (
@@ -3342,7 +3342,7 @@ vertexPointer
 (
 GLint
 size
-GLenum
+VertexAttribType
 type
 GLsizei
 stride
@@ -3397,7 +3397,7 @@ drawTexture
 (
 this
 &
-mGLState
+mState
 x
 y
 z
@@ -3425,7 +3425,7 @@ drawTexture
 (
 this
 &
-mGLState
+mState
 coords
 [
 0
@@ -3474,7 +3474,7 @@ drawTexture
 (
 this
 &
-mGLState
+mState
 static_cast
 <
 GLfloat
@@ -3532,7 +3532,7 @@ drawTexture
 (
 this
 &
-mGLState
+mState
 static_cast
 <
 GLfloat
@@ -3611,7 +3611,7 @@ drawTexture
 (
 this
 &
-mGLState
+mState
 static_cast
 <
 GLfloat
@@ -3669,7 +3669,7 @@ drawTexture
 (
 this
 &
-mGLState
+mState
 static_cast
 <
 GLfloat
@@ -3748,7 +3748,7 @@ drawTexture
 (
 this
 &
-mGLState
+mState
 FixedToFloat
 (
 x
@@ -3791,7 +3791,7 @@ drawTexture
 (
 this
 &
-mGLState
+mState
 FixedToFloat
 (
 coords
@@ -3916,7 +3916,7 @@ Context
 :
 pointSizePointer
 (
-GLenum
+VertexAttribType
 type
 GLsizei
 stride
@@ -4169,7 +4169,7 @@ GLES1Renderer
 VertexArrayIndex
 (
 type
-mGLState
+mState
 .
 gles1
 (

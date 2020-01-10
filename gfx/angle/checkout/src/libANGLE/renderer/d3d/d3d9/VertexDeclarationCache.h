@@ -99,6 +99,10 @@ class
 Program
 ;
 }
+/
+/
+namespace
+gl
 namespace
 rx
 {
@@ -237,6 +241,10 @@ NUM_VERTEX_DECL_CACHE_ENTRIES
 }
 ;
 }
+/
+/
+namespace
+rx
 #
 endif
 /

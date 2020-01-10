@@ -383,8 +383,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -459,8 +457,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 void
@@ -539,7 +535,10 @@ gl
 VertexBinding
 &
 binding
-GLenum
+gl
+:
+:
+VertexAttribType
 currentValueType
 GLint
 start
@@ -644,16 +643,16 @@ inputStride
 start
 ;
 }
-gl
+angle
 :
 :
-VertexFormatType
-vertexFormatType
+FormatID
+vertexFormatID
 =
 gl
 :
 :
-GetVertexFormatType
+GetVertexFormatID
 (
 attrib
 currentValueType
@@ -685,7 +684,7 @@ d3d11
 :
 GetVertexFormatInfo
 (
-vertexFormatType
+vertexFormatID
 featureLevel
 )
 ;
@@ -717,8 +716,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 unsigned
@@ -780,8 +777,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -861,8 +856,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 const

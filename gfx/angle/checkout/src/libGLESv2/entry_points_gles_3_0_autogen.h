@@ -26,7 +26,7 @@ xml
 /
 /
 Copyright
-2018
+2019
 The
 ANGLE
 Project

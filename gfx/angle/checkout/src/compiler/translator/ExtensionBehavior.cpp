@@ -104,6 +104,11 @@ ARB_texture_rectangle
 \
 OP
 (
+ANGLE_texture_multisample
+)
+\
+OP
+(
 ARM_shader_framebuffer_fetch
 )
 \
@@ -175,6 +180,11 @@ OES_texture_storage_multisample_2d_array
 OP
 (
 OVR_multiview
+)
+\
+OP
+(
+ANGLE_multi_draw
 )
 namespace
 sh

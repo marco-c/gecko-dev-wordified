@@ -548,7 +548,6 @@ sequence
 /
 /
 namespace
-anonymous
 void
 UseInterfaceBlockFields
 (

@@ -170,6 +170,10 @@ shaderVersion
 )
 ;
 }
+/
+/
+namespace
+sh
 #
 endif
 /

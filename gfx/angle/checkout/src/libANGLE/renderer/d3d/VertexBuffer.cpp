@@ -509,7 +509,7 @@ spaceRequired
 16u
 )
 ;
-ANGLE_CHECK_HR_ALLOC
+ANGLE_CHECK_GL_ALLOC
 (
 GetImplAs
 <
@@ -537,8 +537,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -792,8 +790,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -826,7 +822,10 @@ gl
 VertexBinding
 &
 binding
-GLenum
+gl
+:
+:
+VertexAttribType
 currentValueType
 GLint
 start
@@ -888,7 +887,7 @@ checkedPosition
 =
 spaceRequired
 ;
-ANGLE_CHECK_HR_ALLOC
+ANGLE_CHECK_GL_ALLOC
 (
 GetImplAs
 <
@@ -960,8 +959,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -1054,7 +1051,7 @@ Protect
 against
 integer
 overflow
-ANGLE_CHECK_HR_ALLOC
+ANGLE_CHECK_GL_ALLOC
 (
 GetImplAs
 <
@@ -1086,8 +1083,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 /
@@ -1106,7 +1101,13 @@ AttributeSignature
 :
 type
 (
-GL_NONE
+gl
+:
+:
+VertexAttribType
+:
+:
+InvalidEnum
 )
 size
 (
@@ -1508,7 +1509,13 @@ storeVertexAttributes
 context
 attrib
 binding
-GL_NONE
+gl
+:
+:
+VertexAttribType
+:
+:
+InvalidEnum
 start
 count
 instances
@@ -1540,8 +1547,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 }

@@ -664,8 +664,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 /
@@ -754,8 +752,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 /
@@ -1047,8 +1043,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 /
@@ -1448,6 +1442,7 @@ Pitch
 sourceD3DFormatInfo
 .
 pixelBytes
+0
 sourceD3DFormatInfo
 .
 info
@@ -1462,6 +1457,7 @@ Pitch
 destD3DFormatInfo
 .
 pixelBytes
+0
 destD3DFormatInfo
 .
 info
@@ -1494,6 +1490,7 @@ width
 sourceRect
 .
 height
+1
 unpackFlipY
 unpackPremultiplyAlpha
 unpackUnmultiplyAlpha
@@ -1521,8 +1518,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 bool
@@ -1766,8 +1761,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 IDirect3DTexture9
@@ -2066,8 +2059,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -2152,8 +2143,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 void
@@ -2265,10 +2254,10 @@ hasn
 '
 t
 been
+/
+/
 created
 yet
-/
-/
 if
 initialization
 is
@@ -2338,8 +2327,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -2609,8 +2596,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -3055,8 +3040,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 /
@@ -3075,13 +3058,13 @@ with
 pixels
 stored
 as
+/
+/
 format
 /
 type
 at
 input
-/
-/
 into
 the
 target
@@ -3191,7 +3174,7 @@ inputRowPitch
 =
 0
 ;
-ANGLE_CHECK_HR_MATH
+ANGLE_CHECK_GL_MATH
 (
 context9
 formatInfo
@@ -3363,8 +3346,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -3459,7 +3440,7 @@ inputRowPitch
 =
 0
 ;
-ANGLE_CHECK_HR_MATH
+ANGLE_CHECK_GL_MATH
 (
 context9
 formatInfo
@@ -3482,7 +3463,7 @@ inputDepthPitch
 =
 0
 ;
-ANGLE_CHECK_HR_MATH
+ANGLE_CHECK_GL_MATH
 (
 context9
 formatInfo
@@ -3667,8 +3648,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 /
@@ -3689,6 +3668,8 @@ texture
 formats
 and
 incomplete
+/
+/
 textures
 angle
 :
@@ -4015,8 +3996,6 @@ Result
 :
 :
 Stop
-(
-)
 )
 {
 renderTargetData
@@ -5229,8 +5208,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -5379,9 +5356,8 @@ renderTarget
 =
 nullptr
 ;
-ANGLE_TRY_HANDLE
+ANGLE_TRY
 (
-context
 srcAttachment
 -
 >

@@ -299,8 +299,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 ShaderObject
@@ -398,8 +396,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 void
@@ -569,6 +565,10 @@ IDirect3DPixelShader9
 PixelShaderCache
 ;
 }
+/
+/
+namespace
+rx
 #
 endif
 /

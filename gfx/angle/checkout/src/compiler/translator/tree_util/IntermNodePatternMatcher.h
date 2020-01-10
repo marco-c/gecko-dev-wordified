@@ -118,6 +118,15 @@ public
 :
 static
 bool
+IsDynamicIndexingOfNonSSBOVectorOrMatrix
+(
+TIntermBinary
+*
+node
+)
+;
+static
+bool
 IsDynamicIndexingOfVectorOrMatrix
 (
 TIntermBinary

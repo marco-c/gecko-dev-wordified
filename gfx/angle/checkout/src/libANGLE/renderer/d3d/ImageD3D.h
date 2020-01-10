@@ -146,6 +146,10 @@ struct
 PixelUnpackState
 ;
 }
+/
+/
+namespace
+gl
 namespace
 rx
 {
@@ -179,7 +183,6 @@ ImageD3D
 )
 {
 }
-;
 GLsizei
 getWidth
 (
@@ -584,6 +587,10 @@ mDirty
 }
 ;
 }
+/
+/
+namespace
+rx
 #
 endif
 /

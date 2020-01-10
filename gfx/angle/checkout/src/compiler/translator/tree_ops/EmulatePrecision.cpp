@@ -3385,7 +3385,6 @@ getType
 /
 /
 namespace
-anonymous
 EmulatePrecision
 :
 :

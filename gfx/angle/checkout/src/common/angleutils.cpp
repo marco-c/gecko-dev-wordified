@@ -130,6 +130,10 @@ max
 )
 ;
 }
+/
+/
+namespace
+angle
 std
 :
 :

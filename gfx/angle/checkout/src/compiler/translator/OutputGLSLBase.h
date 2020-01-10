@@ -247,6 +247,7 @@ TType
 type
 )
 ;
+virtual
 void
 writeVariableType
 (

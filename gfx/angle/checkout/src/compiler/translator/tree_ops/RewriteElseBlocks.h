@@ -98,6 +98,10 @@ symbolTable
 )
 ;
 }
+/
+/
+namespace
+sh
 #
 endif
 /

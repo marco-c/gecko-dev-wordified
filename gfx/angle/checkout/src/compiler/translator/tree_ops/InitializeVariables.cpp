@@ -1736,7 +1736,6 @@ mHighPrecisionSupported
 /
 /
 namespace
-anonymous
 TIntermSequence
 *
 CreateInitCode

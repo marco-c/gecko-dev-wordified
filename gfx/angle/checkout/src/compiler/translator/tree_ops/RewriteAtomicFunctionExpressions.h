@@ -255,6 +255,8 @@ root
 TSymbolTable
 *
 symbolTable
+int
+shaderVersion
 )
 ;
 }

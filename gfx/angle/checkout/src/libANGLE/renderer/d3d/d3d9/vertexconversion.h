@@ -85,7 +85,7 @@ LIBANGLE_RENDERER_D3D_D3D9_VERTEXCONVERSION_H_
 #
 include
 <
-limits
+cstddef
 >
 #
 include
@@ -95,7 +95,7 @@ cstdint
 #
 include
 <
-cstddef
+limits
 >
 namespace
 rx
@@ -360,6 +360,8 @@ here
 stores
 it
 to
+/
+/
 memory
 with
 static
@@ -852,6 +854,8 @@ out
 )
 :
 convert
+/
+/
 an
 array
 of
@@ -1168,6 +1172,10 @@ defaultvalue
 }
 ;
 }
+/
+/
+namespace
+rx
 #
 endif
 /

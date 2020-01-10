@@ -140,6 +140,13 @@ ANGLE_PLATFORM_POSIX
 #
 include
 <
+errno
+.
+h
+>
+#
+include
+<
 pthread
 .
 h
@@ -148,13 +155,6 @@ h
 include
 <
 semaphore
-.
-h
->
-#
-include
-<
-errno
 .
 h
 >

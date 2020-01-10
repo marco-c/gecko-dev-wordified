@@ -90,9 +90,6 @@ TSymbolUniqueId
 public
 :
 POOL_ALLOCATOR_NEW_DELETE
-(
-)
-;
 explicit
 TSymbolUniqueId
 (

@@ -144,6 +144,10 @@ class
 Texture
 ;
 }
+/
+/
+namespace
+gl
 namespace
 egl
 {
@@ -184,6 +188,7 @@ attribs
 Stream
 (
 )
+override
 ;
 void
 setLabel

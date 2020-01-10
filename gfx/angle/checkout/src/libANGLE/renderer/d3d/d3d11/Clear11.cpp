@@ -1594,8 +1594,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 if
@@ -1738,8 +1736,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 switch
@@ -1872,8 +1868,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 Clear11
@@ -1956,8 +1950,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 TRACE_EVENT0
@@ -2450,8 +2442,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 bool
@@ -2514,8 +2504,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 /
@@ -2630,8 +2618,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -2676,8 +2662,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 /
@@ -2940,8 +2924,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -3534,8 +3516,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 if
@@ -3653,8 +3633,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 needScissoredClear
@@ -4009,9 +3987,8 @@ renderTarget
 =
 nullptr
 ;
-ANGLE_TRY_HANDLE
+ANGLE_TRY
 (
-context
 attachment
 .
 getRenderTarget
@@ -4824,9 +4801,8 @@ depthStencilAttachment
 nullptr
 )
 ;
-ANGLE_TRY_HANDLE
+ANGLE_TRY
 (
-context
 depthStencilAttachment
 -
 >
@@ -5025,8 +5001,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 /
@@ -6317,8 +6291,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 }

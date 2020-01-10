@@ -330,6 +330,10 @@ mAttributes
 }
 ;
 }
+/
+/
+namespace
+egl
 #
 endif
 /

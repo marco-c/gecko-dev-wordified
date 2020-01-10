@@ -334,6 +334,10 @@ mDepthStencilRenderTarget
 }
 ;
 }
+/
+/
+namespace
+rx
 #
 endif
 /

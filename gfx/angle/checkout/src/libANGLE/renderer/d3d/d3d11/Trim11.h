@@ -75,7 +75,7 @@ include
 "
 libANGLE
 /
-angletypes
+Error
 .
 h
 "
@@ -84,7 +84,7 @@ include
 "
 libANGLE
 /
-Error
+angletypes
 .
 h
 "
@@ -167,6 +167,10 @@ unregisterForRendererTrimRequest
 }
 ;
 }
+/
+/
+namespace
+rx
 #
 endif
 /

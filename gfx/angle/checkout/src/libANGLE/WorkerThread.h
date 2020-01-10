@@ -423,6 +423,14 @@ maxThreads
 =
 0
 ;
+virtual
+bool
+isAsync
+(
+)
+=
+0
+;
 }
 ;
 }

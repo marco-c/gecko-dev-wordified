@@ -164,6 +164,10 @@ symbolTable
 )
 ;
 }
+/
+/
+namespace
+sh
 #
 endif
 /

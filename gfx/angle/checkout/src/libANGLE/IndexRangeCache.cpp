@@ -120,7 +120,7 @@ IndexRangeCache
 :
 addRange
 (
-GLenum
+DrawElementsType
 type
 size_t
 offset
@@ -154,7 +154,7 @@ IndexRangeCache
 :
 findRange
 (
-GLenum
+DrawElementsType
 type
 size_t
 offset
@@ -300,7 +300,7 @@ first
 offset
 +
 (
-GetTypeInfo
+GetDrawElementsTypeSize
 (
 i
 -
@@ -309,8 +309,6 @@ first
 .
 type
 )
-.
-bytes
 *
 i
 -
@@ -381,7 +379,10 @@ IndexRangeCache
 :
 IndexRangeKey
 (
-GL_NONE
+DrawElementsType
+:
+:
+InvalidEnum
 0
 0
 false
@@ -396,7 +397,7 @@ IndexRangeKey
 :
 IndexRangeKey
 (
-GLenum
+DrawElementsType
 type_
 size_t
 offset_
@@ -514,3 +515,7 @@ false
 ;
 }
 }
+/
+/
+namespace
+gl

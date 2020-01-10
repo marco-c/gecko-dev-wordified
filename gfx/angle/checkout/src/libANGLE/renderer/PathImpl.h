@@ -116,10 +116,10 @@ PathImpl
 {
 }
 virtual
-gl
+angle
 :
 :
-Error
+Result
 setCommands
 (
 GLsizei

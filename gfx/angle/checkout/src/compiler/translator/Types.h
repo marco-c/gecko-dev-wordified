@@ -152,9 +152,6 @@ NonCopyable
 public
 :
 POOL_ALLOCATOR_NEW_DELETE
-(
-)
-;
 TField
 (
 TType
@@ -465,9 +462,6 @@ TType
 public
 :
 POOL_ALLOCATOR_NEW_DELETE
-(
-)
-;
 TType
 (
 )

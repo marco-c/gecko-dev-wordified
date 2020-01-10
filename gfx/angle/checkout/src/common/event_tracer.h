@@ -124,6 +124,10 @@ flags
 )
 ;
 }
+/
+/
+namespace
+angle
 #
 endif
 /

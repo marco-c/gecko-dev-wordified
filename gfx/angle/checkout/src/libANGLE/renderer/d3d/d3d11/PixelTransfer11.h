@@ -149,6 +149,10 @@ struct
 PixelUnpackState
 ;
 }
+/
+/
+namespace
+gl
 namespace
 rx
 {

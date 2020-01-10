@@ -186,8 +186,6 @@ macroSet
 diag
 directiveHandler
 settings
-.
-maxMacroExpansionDepth
 )
 macroExpander
 (
@@ -197,8 +195,7 @@ directiveParser
 macroSet
 diag
 settings
-.
-maxMacroExpansionDepth
+false
 )
 {
 }

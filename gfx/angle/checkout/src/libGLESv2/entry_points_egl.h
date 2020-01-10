@@ -78,8 +78,10 @@ export
 .
 h
 >
-namespace
-egl
+extern
+"
+C
+"
 {
 /
 /
@@ -90,7 +92,7 @@ EGL
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-ChooseConfig
+EGL_ChooseConfig
 (
 EGLDisplay
 dpy
@@ -111,7 +113,7 @@ num_config
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-CopyBuffers
+EGL_CopyBuffers
 (
 EGLDisplay
 dpy
@@ -124,7 +126,7 @@ target
 ANGLE_EXPORT
 EGLContext
 EGLAPIENTRY
-CreateContext
+EGL_CreateContext
 (
 EGLDisplay
 dpy
@@ -141,7 +143,7 @@ attrib_list
 ANGLE_EXPORT
 EGLSurface
 EGLAPIENTRY
-CreatePbufferSurface
+EGL_CreatePbufferSurface
 (
 EGLDisplay
 dpy
@@ -156,7 +158,7 @@ attrib_list
 ANGLE_EXPORT
 EGLSurface
 EGLAPIENTRY
-CreatePixmapSurface
+EGL_CreatePixmapSurface
 (
 EGLDisplay
 dpy
@@ -173,7 +175,7 @@ attrib_list
 ANGLE_EXPORT
 EGLSurface
 EGLAPIENTRY
-CreateWindowSurface
+EGL_CreateWindowSurface
 (
 EGLDisplay
 dpy
@@ -190,7 +192,7 @@ attrib_list
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-DestroyContext
+EGL_DestroyContext
 (
 EGLDisplay
 dpy
@@ -201,7 +203,7 @@ ctx
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-DestroySurface
+EGL_DestroySurface
 (
 EGLDisplay
 dpy
@@ -212,7 +214,7 @@ surface
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-GetConfigAttrib
+EGL_GetConfigAttrib
 (
 EGLDisplay
 dpy
@@ -228,7 +230,7 @@ value
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-GetConfigs
+EGL_GetConfigs
 (
 EGLDisplay
 dpy
@@ -245,7 +247,7 @@ num_config
 ANGLE_EXPORT
 EGLDisplay
 EGLAPIENTRY
-GetCurrentDisplay
+EGL_GetCurrentDisplay
 (
 void
 )
@@ -253,7 +255,7 @@ void
 ANGLE_EXPORT
 EGLSurface
 EGLAPIENTRY
-GetCurrentSurface
+EGL_GetCurrentSurface
 (
 EGLint
 readdraw
@@ -262,7 +264,7 @@ readdraw
 ANGLE_EXPORT
 EGLDisplay
 EGLAPIENTRY
-GetDisplay
+EGL_GetDisplay
 (
 EGLNativeDisplayType
 display_id
@@ -271,7 +273,7 @@ display_id
 ANGLE_EXPORT
 EGLint
 EGLAPIENTRY
-GetError
+EGL_GetError
 (
 void
 )
@@ -279,7 +281,7 @@ void
 ANGLE_EXPORT
 __eglMustCastToProperFunctionPointerType
 EGLAPIENTRY
-GetProcAddress
+EGL_GetProcAddress
 (
 const
 char
@@ -290,7 +292,7 @@ procname
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-Initialize
+EGL_Initialize
 (
 EGLDisplay
 dpy
@@ -305,7 +307,7 @@ minor
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-MakeCurrent
+EGL_MakeCurrent
 (
 EGLDisplay
 dpy
@@ -320,7 +322,7 @@ ctx
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-QueryContext
+EGL_QueryContext
 (
 EGLDisplay
 dpy
@@ -338,7 +340,7 @@ const
 char
 *
 EGLAPIENTRY
-QueryString
+EGL_QueryString
 (
 EGLDisplay
 dpy
@@ -349,7 +351,7 @@ name
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-QuerySurface
+EGL_QuerySurface
 (
 EGLDisplay
 dpy
@@ -365,7 +367,7 @@ value
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-SwapBuffers
+EGL_SwapBuffers
 (
 EGLDisplay
 dpy
@@ -376,7 +378,7 @@ surface
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-Terminate
+EGL_Terminate
 (
 EGLDisplay
 dpy
@@ -385,7 +387,7 @@ dpy
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-WaitGL
+EGL_WaitGL
 (
 void
 )
@@ -393,7 +395,7 @@ void
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-WaitNative
+EGL_WaitNative
 (
 EGLint
 engine
@@ -408,7 +410,7 @@ EGL
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-BindTexImage
+EGL_BindTexImage
 (
 EGLDisplay
 dpy
@@ -421,7 +423,7 @@ buffer
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-ReleaseTexImage
+EGL_ReleaseTexImage
 (
 EGLDisplay
 dpy
@@ -434,7 +436,7 @@ buffer
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-SurfaceAttrib
+EGL_SurfaceAttrib
 (
 EGLDisplay
 dpy
@@ -449,7 +451,7 @@ value
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-SwapInterval
+EGL_SwapInterval
 (
 EGLDisplay
 dpy
@@ -466,7 +468,7 @@ EGL
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-BindAPI
+EGL_BindAPI
 (
 EGLenum
 api
@@ -475,7 +477,7 @@ api
 ANGLE_EXPORT
 EGLenum
 EGLAPIENTRY
-QueryAPI
+EGL_QueryAPI
 (
 void
 )
@@ -483,7 +485,7 @@ void
 ANGLE_EXPORT
 EGLSurface
 EGLAPIENTRY
-CreatePbufferFromClientBuffer
+EGL_CreatePbufferFromClientBuffer
 (
 EGLDisplay
 dpy
@@ -502,7 +504,7 @@ attrib_list
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-ReleaseThread
+EGL_ReleaseThread
 (
 void
 )
@@ -510,7 +512,7 @@ void
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-WaitClient
+EGL_WaitClient
 (
 void
 )
@@ -524,7 +526,7 @@ EGL
 ANGLE_EXPORT
 EGLContext
 EGLAPIENTRY
-GetCurrentContext
+EGL_GetCurrentContext
 (
 void
 )
@@ -538,7 +540,7 @@ EGL
 ANGLE_EXPORT
 EGLSync
 EGLAPIENTRY
-CreateSync
+EGL_CreateSync
 (
 EGLDisplay
 dpy
@@ -553,7 +555,7 @@ attrib_list
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-DestroySync
+EGL_DestroySync
 (
 EGLDisplay
 dpy
@@ -564,7 +566,7 @@ sync
 ANGLE_EXPORT
 EGLint
 EGLAPIENTRY
-ClientWaitSync
+EGL_ClientWaitSync
 (
 EGLDisplay
 dpy
@@ -579,7 +581,7 @@ timeout
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-GetSyncAttrib
+EGL_GetSyncAttrib
 (
 EGLDisplay
 dpy
@@ -595,7 +597,7 @@ value
 ANGLE_EXPORT
 EGLImage
 EGLAPIENTRY
-CreateImage
+EGL_CreateImage
 (
 EGLDisplay
 dpy
@@ -614,7 +616,7 @@ attrib_list
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-DestroyImage
+EGL_DestroyImage
 (
 EGLDisplay
 dpy
@@ -625,7 +627,7 @@ image
 ANGLE_EXPORT
 EGLDisplay
 EGLAPIENTRY
-GetPlatformDisplay
+EGL_GetPlatformDisplay
 (
 EGLenum
 platform
@@ -641,7 +643,7 @@ attrib_list
 ANGLE_EXPORT
 EGLSurface
 EGLAPIENTRY
-CreatePlatformWindowSurface
+EGL_CreatePlatformWindowSurface
 (
 EGLDisplay
 dpy
@@ -659,7 +661,7 @@ attrib_list
 ANGLE_EXPORT
 EGLSurface
 EGLAPIENTRY
-CreatePlatformPixmapSurface
+EGL_CreatePlatformPixmapSurface
 (
 EGLDisplay
 dpy
@@ -677,7 +679,7 @@ attrib_list
 ANGLE_EXPORT
 EGLBoolean
 EGLAPIENTRY
-WaitSync
+EGL_WaitSync
 (
 EGLDisplay
 dpy
@@ -688,6 +690,12 @@ flags
 )
 ;
 }
+/
+/
+extern
+"
+C
+"
 #
 endif
 /

@@ -268,6 +268,10 @@ output
 )
 ;
 }
+/
+/
+namespace
+rx
 #
 include
 "

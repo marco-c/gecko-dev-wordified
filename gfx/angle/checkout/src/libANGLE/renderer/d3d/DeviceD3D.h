@@ -178,6 +178,10 @@ mIsInitialized
 }
 ;
 }
+/
+/
+namespace
+rx
 #
 endif
 /

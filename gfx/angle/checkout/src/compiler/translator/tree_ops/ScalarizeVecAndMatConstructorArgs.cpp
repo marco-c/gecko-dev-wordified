@@ -1288,7 +1288,6 @@ variable
 /
 /
 namespace
-anonymous
 void
 ScalarizeVecAndMatConstructorArgs
 (
