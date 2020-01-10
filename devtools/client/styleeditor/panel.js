@@ -377,6 +377,9 @@ StyleEditorUI
 (
 this
 .
+_toolbox
+this
+.
 _debuggee
 this
 .
