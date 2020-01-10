@@ -499,8 +499,6 @@ self
 .
 current_origin
 edge_flags
-:
-edge_flags
 }
 ;
 self

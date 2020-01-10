@@ -5748,8 +5748,6 @@ Brush
 batch_kind
 )
 textures
-:
-textures
 }
 ;
 let
@@ -9434,8 +9432,6 @@ prim_info
 .
 combined_local_clip_rect
 snap_offsets
-:
-snap_offsets
 specific_prim_address
 :
 prim_cache_address
@@ -9783,8 +9779,6 @@ local_clip_rect
 prim_info
 .
 combined_local_clip_rect
-snap_offsets
-:
 snap_offsets
 specific_prim_address
 :
@@ -10259,8 +10253,6 @@ local_clip_rect
 prim_info
 .
 combined_local_clip_rect
-snap_offsets
-:
 snap_offsets
 specific_prim_address
 :
@@ -10783,8 +10775,6 @@ local_clip_rect
 prim_info
 .
 combined_local_clip_rect
-snap_offsets
-:
 snap_offsets
 specific_prim_address
 :
@@ -11488,8 +11478,6 @@ Brush
 (
 batch_kind
 )
-textures
-:
 textures
 }
 ;
@@ -12726,8 +12714,6 @@ key
 =
 BatchKey
 {
-blend_mode
-:
 blend_mode
 kind
 :

@@ -2772,8 +2772,6 @@ into
 (
 )
 brush_segments
-:
-brush_segments
 stops
 stops_handle
 :

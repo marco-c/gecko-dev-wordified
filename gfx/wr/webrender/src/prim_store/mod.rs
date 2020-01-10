@@ -17849,8 +17849,6 @@ request_render_task
 RenderTaskCacheKey
 {
 size
-:
-size
 kind
 :
 RenderTaskCacheKeyKind
@@ -18880,8 +18878,6 @@ rect
 =
 LayoutRect
 {
-origin
-:
 origin
 size
 :

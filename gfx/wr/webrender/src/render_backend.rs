@@ -1582,8 +1582,6 @@ now
 (
 )
 document_id
-:
-document_id
 }
 }
 /
@@ -11735,8 +11733,6 @@ doc
 =
 Document
 {
-id
-:
 id
 scene
 :

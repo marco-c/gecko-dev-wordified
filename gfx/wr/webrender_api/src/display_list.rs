@@ -9272,8 +9272,6 @@ common
 *
 common
 bounds
-:
-bounds
 color
 font_key
 glyph_options
