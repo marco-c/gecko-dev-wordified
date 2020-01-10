@@ -6104,7 +6104,7 @@ return
 JS
 :
 :
-Evaluate
+EvaluateDontInflate
 (
 cx
 options
