@@ -907,7 +907,9 @@ optionally_keyed_by
 platform
 '
 '
-project
+release
+-
+level
 '
 text_type
 )

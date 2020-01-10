@@ -610,17 +610,18 @@ build_platform
 )
                 
 '
-project
+release
+-
+level
 '
 :
 config
 .
 params
-[
-'
-project
-'
-]
+.
+release_level
+(
+)
             
 }
         
