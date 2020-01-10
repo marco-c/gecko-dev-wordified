@@ -278,7 +278,7 @@ StackBaseShape
 StackBaseShape
 (
 const
-Class
+JSClass
 *
 clasp
 uint32_t

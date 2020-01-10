@@ -2891,7 +2891,7 @@ Address
 flags
 (
 scratch
-Class
+JSClass
 :
 :
 offsetOfFlags
@@ -3082,10 +3082,7 @@ cond
 Register
 obj
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 Register
@@ -3175,10 +3172,7 @@ cond
 Register
 obj
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 Register
@@ -4002,7 +3996,7 @@ Zero
 Address
 (
 clasp
-Class
+JSClass
 :
 :
 offsetOfFlags

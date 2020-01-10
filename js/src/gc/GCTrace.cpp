@@ -849,7 +849,7 @@ GCTrace
 maybeTraceClass
 (
 const
-Class
+JSClass
 *
 clasp
 )

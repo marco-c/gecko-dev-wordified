@@ -626,7 +626,7 @@ object
 *
 /
 const
-Class
+JSClass
 *
 clasp
 ;
@@ -923,7 +923,7 @@ bool
 lookupProto
 (
 const
-Class
+JSClass
 *
 clasp
 JSObject
@@ -944,7 +944,7 @@ bool
 lookupGlobal
 (
 const
-Class
+JSClass
 *
 clasp
 js
@@ -1072,7 +1072,7 @@ fillProto
 EntryIndex
 entry
 const
-Class
+JSClass
 *
 clasp
 js
@@ -1097,7 +1097,7 @@ fillGlobal
 EntryIndex
 entry
 const
-Class
+JSClass
 *
 clasp
 js
@@ -1201,7 +1201,7 @@ EntryIndex
 makeIndex
 (
 const
-Class
+JSClass
 *
 clasp
 gc
@@ -1253,7 +1253,7 @@ bool
 lookup
 (
 const
-Class
+JSClass
 *
 clasp
 gc
@@ -1341,7 +1341,7 @@ fill
 EntryIndex
 entry_
 const
-Class
+JSClass
 *
 clasp
 gc

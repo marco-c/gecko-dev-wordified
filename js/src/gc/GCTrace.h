@@ -294,12 +294,12 @@ nullptr
 HashSet
 <
 const
-Class
+JSClass
 *
 DefaultHasher
 <
 const
-Class
+JSClass
 *
 >
 SystemAllocPolicy
@@ -325,7 +325,7 @@ void
 maybeTraceClass
 (
 const
-Class
+JSClass
 *
 clasp
 )

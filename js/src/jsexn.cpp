@@ -444,7 +444,7 @@ JSProto_Error
 \
 }
 const
-Class
+JSClass
 ErrorObject
 :
 :
@@ -951,7 +951,7 @@ trace
 }
 ;
 const
-Class
+JSClass
 ErrorObject
 :
 :

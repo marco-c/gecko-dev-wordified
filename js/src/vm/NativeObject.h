@@ -7617,7 +7617,7 @@ nfixed
 uint32_t
 span
 const
-Class
+JSClass
 *
 clasp
 )
@@ -10002,10 +10002,7 @@ public
 :
 static
 const
-js
-:
-:
-Class
+JSClass
 class_
 ;
 /

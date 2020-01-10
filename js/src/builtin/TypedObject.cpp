@@ -353,7 +353,7 @@ namespace
 js
 ;
 const
-Class
+JSClass
 js
 :
 :
@@ -1450,7 +1450,7 @@ mutated
 *
 /
 const
-Class
+JSClass
 js
 :
 :
@@ -1650,7 +1650,7 @@ call
 }
 ;
 const
-Class
+JSClass
 js
 :
 :
@@ -2656,7 +2656,7 @@ call
 }
 ;
 const
-Class
+JSClass
 js
 :
 :
@@ -3681,7 +3681,7 @@ construct
 }
 ;
 const
-Class
+JSClass
 ArrayTypeDescr
 :
 :
@@ -5187,7 +5187,7 @@ construct
 }
 ;
 const
-Class
+JSClass
 StructTypeDescr
 :
 :
@@ -10534,7 +10534,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 HandleTypeDescr
@@ -10997,10 +10997,7 @@ size
 )
 ;
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 =
@@ -14151,7 +14148,7 @@ descr
 )
 ;
 const
-Class
+JSClass
 *
 clasp
 =
@@ -14960,7 +14957,7 @@ objectMovedOp
 ;
 \
 const
-Class
+JSClass
 Name
 :
 :
@@ -14970,7 +14967,7 @@ class_
 \
 #
 Name
-Class
+JSClass
 :
 :
 NON_NATIVE
@@ -15452,10 +15449,7 @@ heap
 )
 ;
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 =

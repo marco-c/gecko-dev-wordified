@@ -3859,7 +3859,7 @@ nullptr
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =
@@ -5629,7 +5629,7 @@ extra
 properties
 .
 const
-Class
+JSClass
 *
 clasp
 =
@@ -7114,7 +7114,7 @@ trace
 }
 ;
 const
-Class
+JSClass
 PropertyIteratorObject
 :
 :
@@ -7136,7 +7136,7 @@ classOps_
 ;
 static
 const
-Class
+JSClass
 ArrayIteratorPrototypeClass
 =
 {
@@ -7156,7 +7156,7 @@ ArrayIteratorSlotCount
 }
 ;
 const
-Class
+JSClass
 ArrayIteratorObject
 :
 :
@@ -7252,7 +7252,7 @@ JS_FS_END
 ;
 static
 const
-Class
+JSClass
 StringIteratorPrototypeClass
 =
 {
@@ -7271,7 +7271,7 @@ StringIteratorSlotCount
 }
 ;
 const
-Class
+JSClass
 StringIteratorObject
 :
 :
@@ -7367,7 +7367,7 @@ newKind
 }
 static
 const
-Class
+JSClass
 RegExpStringIteratorPrototypeClass
 =
 {
@@ -7653,7 +7653,7 @@ slot
 )
 ;
 const
-Class
+JSClass
 RegExpStringIteratorObject
 :
 :
@@ -9525,7 +9525,7 @@ false
 ;
 }
 const
-Class
+JSClass
 *
 cls
 =
@@ -9666,7 +9666,7 @@ false
 ;
 }
 const
-Class
+JSClass
 *
 cls
 =
@@ -9807,7 +9807,7 @@ false
 ;
 }
 const
-Class
+JSClass
 *
 cls
 =

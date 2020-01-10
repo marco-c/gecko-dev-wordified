@@ -509,7 +509,7 @@ static
 *
 /
 const
-Class
+JSClass
 DebuggerMemory
 :
 :

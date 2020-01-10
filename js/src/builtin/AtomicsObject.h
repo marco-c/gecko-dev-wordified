@@ -202,7 +202,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 static

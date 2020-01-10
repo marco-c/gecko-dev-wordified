@@ -260,7 +260,7 @@ namespace
 js
 ;
 const
-Class
+JSClass
 LocaleObject
 :
 :

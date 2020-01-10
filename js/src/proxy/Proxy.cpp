@@ -5224,7 +5224,7 @@ fun_toString
 }
 ;
 const
-Class
+JSClass
 js
 :
 :

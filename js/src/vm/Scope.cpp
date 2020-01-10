@@ -560,7 +560,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 cls
 uint32_t
@@ -758,7 +758,7 @@ BindingIter
 &
 bi
 const
-Class
+JSClass
 *
 cls
 uint32_t
@@ -1146,7 +1146,7 @@ Data
 >
 data
 const
-Class
+JSClass
 *
 cls
 uint32_t
@@ -3870,7 +3870,7 @@ cx
 )
 {
 const
-Class
+JSClass
 *
 cls
 =
@@ -4729,7 +4729,7 @@ hasParameterExprs
 )
 {
 const
-Class
+JSClass
 *
 cls
 =
@@ -5746,7 +5746,7 @@ cx
 )
 {
 const
-Class
+JSClass
 *
 cls
 =
@@ -7309,7 +7309,7 @@ cx
 )
 {
 const
-Class
+JSClass
 *
 cls
 =
@@ -7914,7 +7914,7 @@ cx
 )
 {
 const
-Class
+JSClass
 *
 cls
 =
@@ -8436,7 +8436,7 @@ cx
 )
 {
 const
-Class
+JSClass
 *
 cls
 =
@@ -8758,7 +8758,7 @@ cx
 )
 {
 const
-Class
+JSClass
 *
 cls
 =

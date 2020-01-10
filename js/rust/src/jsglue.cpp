@@ -3481,10 +3481,7 @@ options
 ;
 }
 const
-js
-:
-:
-Class
+JSClass
 WindowProxyClass
 =
 PROXY_CLASS_DEF
@@ -3506,10 +3503,7 @@ flags
 *
 /
 const
-js
-:
-:
-Class
+JSClass
 *
 GetWindowProxyClass
 (

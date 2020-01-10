@@ -139,12 +139,12 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 static
 const
-Class
+JSClass
 protoClass_
 ;
 private

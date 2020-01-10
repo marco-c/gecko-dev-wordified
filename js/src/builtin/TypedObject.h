@@ -397,10 +397,7 @@ has
 its
 *
 own
-js
-:
-:
-Class
+JSClass
 and
 when
 that
@@ -1178,7 +1175,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 }
@@ -1674,10 +1671,7 @@ constructors
 share
 a
 common
-js
-:
-:
-Class
+JSClass
 and
 JSFunctionSpec
 .
@@ -1768,7 +1762,7 @@ type
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -2390,10 +2384,7 @@ constructors
 share
 a
 common
-js
-:
-:
-Class
+JSClass
 and
 /
 /
@@ -2472,7 +2463,7 @@ true
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -2712,7 +2703,7 @@ bool
 IsTypedObjectClass
 (
 const
-Class
+JSClass
 *
 clasp
 )
@@ -3010,7 +3001,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -3509,7 +3500,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 /
@@ -3768,7 +3759,7 @@ SlotCount
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 }
@@ -4647,7 +4638,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 HandleTypeDescr
@@ -4929,7 +4920,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 }
@@ -4969,7 +4960,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 }
@@ -5249,7 +5240,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 uint8_t
@@ -5296,7 +5287,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 }
@@ -6661,7 +6652,7 @@ bool
 IsTypedObjectClass
 (
 const
-Class
+JSClass
 *
 class_
 )
@@ -6712,7 +6703,7 @@ bool
 IsOpaqueTypedObjectClass
 (
 const
-Class
+JSClass
 *
 class_
 )
@@ -6743,7 +6734,7 @@ bool
 IsOutlineTypedObjectClass
 (
 const
-Class
+JSClass
 *
 class_
 )
@@ -6774,7 +6765,7 @@ bool
 IsInlineTypedObjectClass
 (
 const
-Class
+JSClass
 *
 class_
 )
@@ -6802,7 +6793,7 @@ class_
 }
 inline
 const
-Class
+JSClass
 *
 GetOutlineTypedObjectClass
 (
@@ -6831,7 +6822,7 @@ bool
 IsSimpleTypeDescrClass
 (
 const
-Class
+JSClass
 *
 clasp
 )
@@ -6862,7 +6853,7 @@ bool
 IsComplexTypeDescrClass
 (
 const
-Class
+JSClass
 *
 clasp
 )
@@ -6893,7 +6884,7 @@ bool
 IsTypeDescrClass
 (
 const
-Class
+JSClass
 *
 clasp
 )

@@ -136,7 +136,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 size_t

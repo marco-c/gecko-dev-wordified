@@ -1459,7 +1459,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 )
@@ -1475,7 +1475,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 JSPrincipals
@@ -1675,10 +1675,7 @@ GlobalObject
 >
 global
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 )
@@ -1717,10 +1714,7 @@ JSContext
 *
 cx
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 HandleObject
@@ -5391,7 +5385,7 @@ SlotIndexSlot
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static

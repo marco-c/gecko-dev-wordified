@@ -25403,7 +25403,7 @@ array_proto_finish
 }
 ;
 const
-Class
+JSClass
 ArrayObject
 :
 :

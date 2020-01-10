@@ -4342,7 +4342,7 @@ i
 )
 {
 const
-Class
+JSClass
 *
 clasp
 =
@@ -8635,7 +8635,7 @@ namespace
 *
 /
 const
-Class
+JSClass
 *
 TypeSet
 :
@@ -14939,7 +14939,7 @@ DontConvertToDoubles
 ;
 }
 const
-Class
+JSClass
 *
 TemporaryTypeSet
 :
@@ -14963,7 +14963,7 @@ nullptr
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =
@@ -14993,7 +14993,7 @@ i
 )
 {
 const
-Class
+JSClass
 *
 nclasp
 =
@@ -15156,7 +15156,7 @@ i
 )
 {
 const
-Class
+JSClass
 *
 clasp
 =
@@ -15443,7 +15443,7 @@ func
 )
 (
 const
-Class
+JSClass
 *
 clasp
 )
@@ -15512,7 +15512,7 @@ i
 )
 {
 const
-Class
+JSClass
 *
 clasp
 =
@@ -15637,7 +15637,7 @@ sharedness
 )
 {
 const
-Class
+JSClass
 *
 clasp
 =
@@ -15745,7 +15745,7 @@ i
 )
 {
 const
-Class
+JSClass
 *
 clasp
 =
@@ -15911,7 +15911,7 @@ i
 )
 {
 const
-Class
+JSClass
 *
 clasp
 =
@@ -16072,7 +16072,7 @@ for
 that
 .
 const
-Class
+JSClass
 *
 clasp
 =
@@ -16452,7 +16452,7 @@ js
 ClassCanHaveExtraProperties
 (
 const
-Class
+JSClass
 *
 clasp
 )

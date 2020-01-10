@@ -2667,10 +2667,7 @@ public
 :
 static
 const
-js
-:
-:
-Class
+JSClass
 class_
 ;
 static
@@ -2967,10 +2964,7 @@ trace
 }
 ;
 const
-js
-:
-:
-Class
+JSClass
 FileObject
 :
 :

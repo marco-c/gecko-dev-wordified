@@ -11130,7 +11130,7 @@ check
 )
 {
 const
-Class
+JSClass
 *
 clasp
 =

@@ -1195,7 +1195,7 @@ promise
 ;
 }
 const
-Class
+JSClass
 AsyncFunctionGeneratorObject
 :
 :

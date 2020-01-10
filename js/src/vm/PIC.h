@@ -1223,7 +1223,7 @@ chain
 .
 static
 const
-Class
+JSClass
 class_
 ;
 static

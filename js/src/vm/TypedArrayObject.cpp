@@ -2367,7 +2367,7 @@ nullptr
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =
@@ -2498,7 +2498,7 @@ fun
 static
 inline
 const
-Class
+JSClass
 *
 instanceClass
 (
@@ -12241,7 +12241,7 @@ static
 *
 /
 const
-Class
+JSClass
 TypedArrayObject
 :
 :
@@ -13570,7 +13570,7 @@ IMPL_TYPED_ARRAY_CLASS_SPEC
 }
 ;
 const
-Class
+JSClass
 TypedArrayObject
 :
 :
@@ -13849,7 +13849,7 @@ ES6
 changes
 .
 const
-Class
+JSClass
 TypedArrayObject
 :
 :
@@ -15457,7 +15457,7 @@ nullptr
 }
 \
 const
-Class
+JSClass
 *
 clasp
 =
@@ -15538,10 +15538,7 @@ nullptr
 \
 \
 const
-js
-:
-:
-Class
+JSClass
 *
 const
 js

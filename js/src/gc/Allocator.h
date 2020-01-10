@@ -306,7 +306,7 @@ gc
 InitialHeap
 heap
 const
-Class
+JSClass
 *
 clasp
 )

@@ -825,7 +825,7 @@ static
 *
 /
 const
-Class
+JSClass
 ImportEntryObject
 :
 :
@@ -1296,7 +1296,7 @@ static
 *
 /
 const
-Class
+JSClass
 ExportEntryObject
 :
 :
@@ -1844,7 +1844,7 @@ static
 *
 /
 const
-Class
+JSClass
 RequestedModuleObject
 :
 :
@@ -5007,7 +5007,7 @@ static
 *
 /
 const
-Class
+JSClass
 ModuleObject
 :
 :

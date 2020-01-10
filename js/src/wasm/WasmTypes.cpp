@@ -766,7 +766,7 @@ RESERVED_SLOTS
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -797,7 +797,7 @@ VALUE_SLOT
 }
 ;
 const
-Class
+JSClass
 WasmValueBox
 :
 :

@@ -2889,10 +2889,7 @@ js
 WriteOnceData
 <
 const
-js
-:
-:
-Class
+JSClass
 *
 >
 windowProxyClass_
@@ -2900,10 +2897,7 @@ windowProxyClass_
 public
 :
 const
-js
-:
-:
-Class
+JSClass
 *
 maybeWindowProxyClass
 (
@@ -2918,10 +2912,7 @@ void
 setWindowProxyClass
 (
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 )

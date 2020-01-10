@@ -1025,10 +1025,7 @@ bool
 CanNurseryAllocateFinalizedClass
 (
 const
-js
-:
-:
-Class
+JSClass
 *
 const
 clasp
@@ -1520,10 +1517,7 @@ size
 size_t
 numDynamic
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 )

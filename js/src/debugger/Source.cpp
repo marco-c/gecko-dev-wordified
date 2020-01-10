@@ -590,7 +590,7 @@ trace
 }
 ;
 const
-Class
+JSClass
 DebuggerSource
 :
 :

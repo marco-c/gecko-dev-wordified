@@ -772,7 +772,7 @@ trace
 }
 ;
 const
-Class
+JSClass
 DebuggerScript
 :
 :

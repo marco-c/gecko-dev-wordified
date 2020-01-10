@@ -2174,7 +2174,7 @@ objectMoved
 }
 ;
 const
-Class
+JSClass
 ArrayBufferObject
 :
 :
@@ -2206,7 +2206,7 @@ ArrayBufferObjectClassExtension
 }
 ;
 const
-Class
+JSClass
 ArrayBufferObject
 :
 :

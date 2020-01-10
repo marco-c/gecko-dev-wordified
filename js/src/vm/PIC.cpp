@@ -2074,7 +2074,7 @@ ForOfPIC_traceObject
 }
 ;
 const
-Class
+JSClass
 ForOfPIC
 :
 :

@@ -441,7 +441,7 @@ reason
 ;
 }
 const
-Class
+JSClass
 AsyncFromSyncIteratorObject
 :
 :
@@ -1106,7 +1106,7 @@ rval
 ;
 }
 const
-Class
+JSClass
 AsyncGeneratorObject
 :
 :
@@ -1799,7 +1799,7 @@ AsyncGeneratorRequest
 ;
 }
 const
-Class
+JSClass
 AsyncGeneratorRequest
 :
 :

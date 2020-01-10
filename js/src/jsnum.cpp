@@ -4116,7 +4116,7 @@ JS_FS_END
 }
 ;
 const
-Class
+JSClass
 NumberObject
 :
 :

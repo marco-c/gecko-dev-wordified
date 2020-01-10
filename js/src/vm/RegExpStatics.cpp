@@ -175,10 +175,7 @@ leak
 we
 create
 a
-js
-:
-:
-Class
+JSClass
 to
 wrap
 the
@@ -203,10 +200,7 @@ instance
 of
 *
 that
-js
-:
-:
-Class
+JSClass
 in
 a
 global
@@ -393,7 +387,7 @@ resc_trace
 }
 ;
 const
-Class
+JSClass
 RegExpStaticsObject
 :
 :

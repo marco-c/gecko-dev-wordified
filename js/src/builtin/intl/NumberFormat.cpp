@@ -518,7 +518,7 @@ finalize
 }
 ;
 const
-Class
+JSClass
 NumberFormatObject
 :
 :

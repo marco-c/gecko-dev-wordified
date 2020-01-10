@@ -4339,7 +4339,7 @@ finalize
 }
 ;
 const
-Class
+JSClass
 WasmModuleObject
 :
 :
@@ -7491,7 +7491,7 @@ trace
 }
 ;
 const
-Class
+JSClass
 WasmInstanceObject
 :
 :
@@ -10251,7 +10251,7 @@ finalize
 }
 ;
 const
-Class
+JSClass
 WasmMemoryObject
 :
 :
@@ -12319,7 +12319,7 @@ trace
 }
 ;
 const
-Class
+JSClass
 WasmTableObject
 :
 :
@@ -14602,7 +14602,7 @@ trace
 }
 ;
 const
-Class
+JSClass
 WasmGlobalObject
 :
 :
@@ -21296,7 +21296,7 @@ RESERVED_SLOTS
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -21556,7 +21556,7 @@ finalize
 }
 ;
 const
-Class
+JSClass
 ResolveResponseClosure
 :
 :
@@ -22531,7 +22531,7 @@ JS_FS_END
 }
 ;
 const
-Class
+JSClass
 js
 :
 :

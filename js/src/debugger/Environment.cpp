@@ -645,7 +645,7 @@ trace
 }
 ;
 const
-Class
+JSClass
 DebuggerEnvironment
 :
 :

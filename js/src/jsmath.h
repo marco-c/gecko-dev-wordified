@@ -164,7 +164,7 @@ functions
 /
 extern
 const
-Class
+JSClass
 MathClass
 ;
 extern

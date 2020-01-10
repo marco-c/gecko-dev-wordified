@@ -729,12 +729,12 @@ value
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
 const
-Class
+JSClass
 protoClass_
 ;
 enum
@@ -1394,7 +1394,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 enum
@@ -1660,12 +1660,12 @@ value
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
 const
-Class
+JSClass
 protoClass_
 ;
 enum
@@ -2216,7 +2216,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 enum

@@ -275,10 +275,7 @@ h
 extern
 JS_FRIEND_DATA
 const
-js
-:
-:
-Class
+JSClass
 *
 const
 FunctionClassPtr

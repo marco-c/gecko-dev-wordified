@@ -622,7 +622,7 @@ rval
 ;
 }
 const
-Class
+JSClass
 js
 :
 :

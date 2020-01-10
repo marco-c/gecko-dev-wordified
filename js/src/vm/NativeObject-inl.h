@@ -3228,10 +3228,7 @@ heap
 )
 ;
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 =
@@ -4216,7 +4213,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 Handle
@@ -4256,7 +4253,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 Handle
@@ -4292,7 +4289,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 HandleObject
@@ -4329,7 +4326,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 HandleObject
@@ -4362,7 +4359,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 HandleObject
@@ -4401,7 +4398,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 HandleObject

@@ -130,7 +130,7 @@ namespace
 js
 ;
 const
-Class
+JSClass
 ListObject
 :
 :

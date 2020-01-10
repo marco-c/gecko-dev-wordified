@@ -14323,7 +14323,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 TaggedProto
@@ -14527,7 +14527,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 TaggedProto
@@ -14572,7 +14572,7 @@ proto
 )
 {
 const
-Class
+JSClass
 *
 clasp
 =

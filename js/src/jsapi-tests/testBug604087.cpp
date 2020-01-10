@@ -154,10 +154,7 @@ ProxyObject
 h
 "
 const
-js
-:
-:
-Class
+JSClass
 OuterWrapperClass
 =
 PROXY_CLASS_DEF

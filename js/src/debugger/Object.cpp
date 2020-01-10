@@ -956,7 +956,7 @@ trace
 }
 ;
 const
-Class
+JSClass
 DebuggerObject
 :
 :

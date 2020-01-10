@@ -2155,10 +2155,7 @@ GetWindowProxyClass
 >
 *
 const
-js
-:
-:
-Class
+JSClass
 ;
 pub
 fn

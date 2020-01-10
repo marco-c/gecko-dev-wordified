@@ -1126,7 +1126,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 ArrayBufferObject
@@ -1307,7 +1307,7 @@ chunk
 }
 ;
 const
-Class
+JSClass
 ByteStreamChunk
 :
 :
@@ -1357,7 +1357,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 ArrayBufferObject
@@ -1706,7 +1706,7 @@ descriptor
 }
 ;
 const
-Class
+JSClass
 PullIntoDescriptor
 :
 :
@@ -1744,7 +1744,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 Value
@@ -1844,7 +1844,7 @@ entry
 }
 ;
 const
-Class
+JSClass
 QueueEntry
 :
 :
@@ -2150,7 +2150,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 bool
@@ -2656,7 +2656,7 @@ state
 }
 ;
 const
-Class
+JSClass
 TeeState
 :
 :
@@ -2737,7 +2737,7 @@ specFlags
 \
 \
 const
-Class
+JSClass
 cls
 :
 :
@@ -2775,7 +2775,7 @@ classSpec_
 \
 \
 const
-Class
+JSClass
 cls
 :
 :
@@ -13350,7 +13350,7 @@ JS_PS_END
 }
 ;
 const
-Class
+JSClass
 ReadableStreamReader
 :
 :

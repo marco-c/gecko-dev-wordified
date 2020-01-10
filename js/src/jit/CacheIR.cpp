@@ -10827,7 +10827,7 @@ TypedThingLayout
 GetTypedThingLayout
 (
 const
-Class
+JSClass
 *
 clasp
 )
@@ -23226,7 +23226,7 @@ false
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =
@@ -34806,7 +34806,7 @@ zones
 .
 static
 const
-Class
+JSClass
 shapeContainerClass
 =
 {

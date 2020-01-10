@@ -2300,7 +2300,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 /
@@ -2428,7 +2428,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 }
@@ -2456,7 +2456,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 }
@@ -2484,7 +2484,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 }

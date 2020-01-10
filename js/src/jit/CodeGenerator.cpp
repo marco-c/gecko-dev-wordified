@@ -93543,10 +93543,7 @@ Address
 output
 offsetof
 (
-js
-:
-:
-Class
+JSClass
 cOps
 )
 )
@@ -93594,10 +93591,7 @@ Address
 output
 offsetof
 (
-js
-:
-:
-Class
+JSClass
 cOps
 )
 )
@@ -94954,7 +94948,7 @@ class
 )
 ;
 const
-Class
+JSClass
 *
 firstTypedArrayClass
 =
@@ -95002,7 +94996,7 @@ class
 )
 ;
 const
-Class
+JSClass
 *
 lastTypedArrayClass
 =

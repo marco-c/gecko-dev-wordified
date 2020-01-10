@@ -259,11 +259,6 @@ js
 class
 TempAllocPolicy
 ;
-using
-Class
-=
-JSClass
-;
 }
 ;
 /

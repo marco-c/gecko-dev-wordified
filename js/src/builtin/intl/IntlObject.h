@@ -149,7 +149,7 @@ GlobalObject
 ;
 extern
 const
-Class
+JSClass
 IntlClass
 ;
 /

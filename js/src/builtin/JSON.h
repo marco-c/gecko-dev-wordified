@@ -150,7 +150,7 @@ StringBuffer
 ;
 extern
 const
-Class
+JSClass
 JSONClass
 ;
 extern

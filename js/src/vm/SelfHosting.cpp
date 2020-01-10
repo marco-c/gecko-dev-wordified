@@ -18474,7 +18474,7 @@ JS_GlobalObjectTraceHook
 ;
 static
 const
-Class
+JSClass
 shgClass
 =
 {

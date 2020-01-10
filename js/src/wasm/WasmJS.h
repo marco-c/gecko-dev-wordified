@@ -840,7 +840,7 @@ object
 .
 extern
 const
-Class
+JSClass
 WebAssemblyClass
 ;
 JSObject
@@ -984,7 +984,7 @@ RESERVED_SLOTS
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -1357,7 +1357,7 @@ RESERVED_SLOTS
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -1785,7 +1785,7 @@ RESERVED_SLOTS
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -2202,7 +2202,7 @@ RESERVED_SLOTS
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -2663,7 +2663,7 @@ RESERVED_SLOTS
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static

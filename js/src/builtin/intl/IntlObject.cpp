@@ -3108,7 +3108,7 @@ true
 ;
 }
 const
-Class
+JSClass
 js
 :
 :

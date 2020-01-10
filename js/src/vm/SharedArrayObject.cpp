@@ -2298,7 +2298,7 @@ sharedarray_proto_properties
 }
 ;
 const
-Class
+JSClass
 SharedArrayBufferObject
 :
 :
@@ -2332,7 +2332,7 @@ JS_NULL_CLASS_EXT
 }
 ;
 const
-Class
+JSClass
 SharedArrayBufferObject
 :
 :

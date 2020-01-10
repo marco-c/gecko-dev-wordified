@@ -419,12 +419,12 @@ PRIVATE_SLOT
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
 const
-Class
+JSClass
 protoClass_
 ;
 /

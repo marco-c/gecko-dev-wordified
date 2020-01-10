@@ -1668,7 +1668,7 @@ trace
 }
 ;
 const
-Class
+JSClass
 DebuggerFrame
 :
 :
@@ -1717,7 +1717,7 @@ JSSLOT_DEBUGARGUMENTS_COUNT
 }
 ;
 const
-Class
+JSClass
 DebuggerArguments
 :
 :

@@ -1185,7 +1185,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 JSObject
@@ -1323,7 +1323,7 @@ remainingCount
 }
 ;
 const
-Class
+JSClass
 PromiseAllDataHolder
 :
 :
@@ -1632,7 +1632,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -2518,7 +2518,7 @@ maybeNow
 }
 ;
 const
-Class
+JSClass
 PromiseDebugInfo
 :
 :
@@ -3573,7 +3573,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 JSObject
@@ -4155,7 +4155,7 @@ obj
 }
 ;
 const
-Class
+JSClass
 PromiseReactionRecord
 :
 :
@@ -38374,7 +38374,7 @@ promise_properties
 }
 ;
 const
-Class
+JSClass
 PromiseObject
 :
 :
@@ -38401,7 +38401,7 @@ PromiseObjectClassSpec
 }
 ;
 const
-Class
+JSClass
 PromiseObject
 :
 :

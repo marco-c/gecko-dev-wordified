@@ -61548,7 +61548,7 @@ SingleObjectPolicy
 Data
 {
 const
-Class
+JSClass
 *
 class_
 ;
@@ -61558,7 +61558,7 @@ MDefinition
 *
 object
 const
-Class
+JSClass
 *
 clasp
 )
@@ -61645,7 +61645,7 @@ object
 )
 )
 const
-Class
+JSClass
 *
 getClass
 (
@@ -61743,7 +61743,7 @@ SingleObjectPolicy
 Data
 {
 const
-Class
+JSClass
 *
 class_
 ;
@@ -61753,7 +61753,7 @@ MDefinition
 *
 object
 const
-Class
+JSClass
 *
 clasp
 )
@@ -61842,7 +61842,7 @@ object
 )
 )
 const
-Class
+JSClass
 *
 getClass
 (

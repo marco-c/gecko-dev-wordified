@@ -2559,10 +2559,7 @@ size
 size_t
 nDynamicSlots
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 )

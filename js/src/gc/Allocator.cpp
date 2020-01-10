@@ -299,7 +299,7 @@ nDynamicSlots
 InitialHeap
 heap
 const
-Class
+JSClass
 *
 clasp
 )
@@ -678,7 +678,7 @@ gc
 InitialHeap
 heap
 const
-Class
+JSClass
 *
 clasp
 )
@@ -710,7 +710,7 @@ gc
 InitialHeap
 heap
 const
-Class
+JSClass
 *
 clasp
 )
@@ -772,7 +772,7 @@ thingSize
 size_t
 nDynamicSlots
 const
-Class
+JSClass
 *
 clasp
 )

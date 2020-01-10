@@ -205,7 +205,7 @@ VALUES_PER_HEADER
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 bool

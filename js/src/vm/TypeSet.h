@@ -1706,7 +1706,7 @@ singletonNoBarrier
 )
 ;
 const
-Class
+JSClass
 *
 clasp
 (
@@ -3075,7 +3075,7 @@ set
 /
 inline
 const
-Class
+JSClass
 *
 getObjectClass
 (
@@ -4934,7 +4934,7 @@ nullptr
 *
 /
 const
-Class
+JSClass
 *
 getKnownClass
 (
@@ -5121,7 +5121,7 @@ func
 )
 (
 const
-Class
+JSClass
 *
 clasp
 )

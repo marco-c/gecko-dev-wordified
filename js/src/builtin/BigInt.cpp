@@ -1418,7 +1418,7 @@ bug
 1277801
 .
 const
-Class
+JSClass
 BigIntObject
 :
 :
@@ -1446,7 +1446,7 @@ classSpec_
 }
 ;
 const
-Class
+JSClass
 BigIntObject
 :
 :

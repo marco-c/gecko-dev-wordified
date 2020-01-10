@@ -2941,7 +2941,7 @@ str_mayResolve
 }
 ;
 const
-Class
+JSClass
 StringObject
 :
 :

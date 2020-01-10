@@ -656,7 +656,7 @@ group
 *
 /
 const
-Class
+JSClass
 *
 clasp_
 ;
@@ -1262,7 +1262,7 @@ MacroAssembler
 public
 :
 const
-Class
+JSClass
 *
 clasp
 (
@@ -2120,7 +2120,7 @@ inline
 ObjectGroup
 (
 const
-Class
+JSClass
 *
 clasp
 TaggedProto
@@ -2892,7 +2892,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 TaggedProto
@@ -2916,7 +2916,7 @@ ObjectGroup
 *
 oldGroup
 const
-Class
+JSClass
 *
 clasp
 TaggedProto
@@ -2934,10 +2934,7 @@ ObjectGroupRealm
 &
 realm
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 JS
@@ -2958,7 +2955,7 @@ JSObject
 *
 proto
 const
-Class
+JSClass
 *
 clasp
 ObjectGroup
@@ -3478,7 +3475,7 @@ ObjectGroup
 lookup
 (
 const
-Class
+JSClass
 *
 clasp
 TaggedProto
@@ -3822,7 +3819,7 @@ void
 removeDefaultNewGroup
 (
 const
-Class
+JSClass
 *
 clasp
 TaggedProto
@@ -3836,7 +3833,7 @@ void
 replaceDefaultNewGroup
 (
 const
-Class
+JSClass
 *
 clasp
 TaggedProto
@@ -3864,7 +3861,7 @@ Realm
 *
 realm
 const
-Class
+JSClass
 *
 clasp
 Handle

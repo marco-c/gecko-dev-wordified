@@ -1687,7 +1687,7 @@ JSAtomState
 &
 names
 const
-Class
+JSClass
 *
 clasp
 jsid

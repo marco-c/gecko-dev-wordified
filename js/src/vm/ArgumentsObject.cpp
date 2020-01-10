@@ -1453,7 +1453,7 @@ mapped
 )
 {
 const
-Class
+JSClass
 *
 clasp
 =
@@ -6599,7 +6599,7 @@ obj_defineProperty
 }
 ;
 const
-Class
+JSClass
 MappedArgumentsObject
 :
 :
@@ -6760,7 +6760,7 @@ objectMovedOp
 }
 ;
 const
-Class
+JSClass
 UnmappedArgumentsObject
 :
 :
