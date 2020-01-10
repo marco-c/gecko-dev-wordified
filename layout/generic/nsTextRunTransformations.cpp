@@ -2540,6 +2540,16 @@ in
 nsTextFrame
 .
 cpp
+and
+MaskString
+(
+)
+in
+/
+/
+ContentEventHandler
+.
+cpp
 .
 if
 (
