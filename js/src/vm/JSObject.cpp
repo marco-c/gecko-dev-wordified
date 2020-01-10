@@ -27360,15 +27360,6 @@ objects
 bug
 1133593
 )
-/
-/
-nor
-unboxed
-objects
-(
-bug
-1133592
-)
 .
 MOZ_ASSERT
 (
