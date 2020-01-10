@@ -1391,12 +1391,6 @@ Metadata
 SeenSet
 *
 seenMetadata
-ShareableBytes
-:
-:
-SeenSet
-*
-seenBytes
 Code
 :
 :
