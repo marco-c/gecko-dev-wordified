@@ -609,7 +609,7 @@ if
 StaticPrefs
 :
 :
-ImageMemDebugReporting
+image_mem_debug_reporting
 (
 )
 )
@@ -925,7 +925,7 @@ if
 StaticPrefs
 :
 :
-ImageMemDebugReporting
+image_mem_debug_reporting
 (
 )
 )

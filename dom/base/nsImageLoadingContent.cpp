@@ -3231,7 +3231,7 @@ FromMilliseconds
 StaticPrefs
 :
 :
-ImageInferSrcAnimationThresholdMS
+image_infer_src_animation_threshold_ms
 (
 )
 )

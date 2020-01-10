@@ -877,7 +877,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-ImageMemAnimatedDiscardable
+image_mem_animated_discardable
 (
 )
 )
@@ -1162,7 +1162,7 @@ if
 StaticPrefs
 :
 :
-ImageAnimatedResumeFromLastDisplayed
+image_animated_resume_from_last_displayed
 (
 )
 |
@@ -3157,7 +3157,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-ImageMemAnimatedDiscardable
+image_mem_animated_discardable
 (
 )
 )
@@ -3675,7 +3675,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-ImageMemAnimatedDiscardable
+image_mem_animated_discardable
 (
 )
 )

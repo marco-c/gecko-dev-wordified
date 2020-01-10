@@ -2874,7 +2874,7 @@ if
 StaticPrefs
 :
 :
-ImageLayoutNetworkPriority
+image_layout_network_priority
 (
 )
 )

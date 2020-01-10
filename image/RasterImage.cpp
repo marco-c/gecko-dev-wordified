@@ -2697,7 +2697,7 @@ eAnimated
 StaticPrefs
 :
 :
-ImageMemAnimatedDiscardable
+image_mem_animated_discardable
 (
 )
 |
@@ -3146,7 +3146,7 @@ if
 StaticPrefs
 :
 :
-ImageMemAnimatedDiscardable
+image_mem_animated_discardable
 (
 )
 )
@@ -3488,7 +3488,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-ImageMemAnimatedDiscardable
+image_mem_animated_discardable
 (
 )
 )
@@ -5190,7 +5190,7 @@ if
 StaticPrefs
 :
 :
-ImageMemAnimatedDiscardable
+image_mem_animated_discardable
 (
 )
 )
@@ -7185,7 +7185,7 @@ mAnimationState
 StaticPrefs
 :
 :
-ImageMemAnimatedDiscardable
+image_mem_animated_discardable
 (
 )
 "
@@ -7301,7 +7301,7 @@ mAnimationState
 StaticPrefs
 :
 :
-ImageMemAnimatedDiscardable
+image_mem_animated_discardable
 (
 )
 )
@@ -8883,7 +8883,7 @@ HaveSkia
 StaticPrefs
 :
 :
-ImageDownscaleDuringDecodeEnabled
+image_downscale_during_decode_enabled
 (
 )
 |

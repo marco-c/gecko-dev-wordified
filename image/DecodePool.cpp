@@ -2132,7 +2132,7 @@ prefLimit
 StaticPrefs
 :
 :
-ImageMTDecodingLimit
+image_multithreaded_decoding_limit
 (
 )
 ;
@@ -2332,7 +2332,7 @@ prefIdleTimeout
 StaticPrefs
 :
 :
-ImageMTDecodingIdleTimeout
+image_multithreaded_decoding_idle_timeout
 (
 )
 ;
