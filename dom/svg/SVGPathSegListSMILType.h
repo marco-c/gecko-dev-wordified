@@ -419,8 +419,9 @@ constexpr
 SVGPathSegListSMILType
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

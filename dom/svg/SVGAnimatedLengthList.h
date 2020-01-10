@@ -327,8 +327,9 @@ public
 SVGAnimatedLengthList
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *

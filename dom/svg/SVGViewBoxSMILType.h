@@ -319,8 +319,9 @@ constexpr
 SVGViewBoxSMILType
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

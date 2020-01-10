@@ -605,8 +605,9 @@ private
 SVGPathSegUtils
 (
 )
-{
-}
+=
+default
+;
 /
 /
 private

@@ -407,8 +407,9 @@ constexpr
 SVGPointListSMILType
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

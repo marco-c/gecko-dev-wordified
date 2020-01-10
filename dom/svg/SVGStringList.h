@@ -194,8 +194,9 @@ false
 SVGStringList
 (
 )
-{
-}
+=
+default
+;
 void
 SetIsCommaSeparated
 (

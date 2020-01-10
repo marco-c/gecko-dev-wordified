@@ -407,8 +407,9 @@ constexpr
 SVGNumberListSMILType
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

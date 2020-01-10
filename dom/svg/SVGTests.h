@@ -665,8 +665,9 @@ virtual
 SVGTests
 (
 )
-{
-}
+=
+default
+;
 private
 :
 enum

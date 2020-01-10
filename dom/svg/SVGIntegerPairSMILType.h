@@ -331,8 +331,9 @@ constexpr
 SVGIntegerPairSMILType
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

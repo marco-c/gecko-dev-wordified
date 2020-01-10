@@ -227,8 +227,9 @@ virtual
 SVGComponentTransferFunctionElement
 (
 )
-{
-}
+=
+default
+;
 public
 :
 typedef

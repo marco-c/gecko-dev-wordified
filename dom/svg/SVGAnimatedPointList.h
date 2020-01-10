@@ -372,8 +372,9 @@ public
 SVGAnimatedPointList
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *

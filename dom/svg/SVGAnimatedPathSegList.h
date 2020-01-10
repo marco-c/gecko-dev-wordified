@@ -382,8 +382,9 @@ public
 SVGAnimatedPathSegList
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *

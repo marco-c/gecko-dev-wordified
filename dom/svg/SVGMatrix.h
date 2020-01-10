@@ -614,8 +614,9 @@ mx
 SVGMatrix
 (
 )
-{
-}
+=
+default
+;
 explicit
 SVGMatrix
 (
@@ -991,8 +992,9 @@ private
 SVGMatrix
 (
 )
-{
-}
+=
+default
+;
 void
 SetMatrix
 (

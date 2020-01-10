@@ -490,8 +490,9 @@ constexpr
 SVGOrientSMILType
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

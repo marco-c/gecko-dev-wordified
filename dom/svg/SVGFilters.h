@@ -379,8 +379,9 @@ virtual
 SVGFE
 (
 )
-{
-}
+=
+default
+;
 public
 :
 typedef
@@ -1217,8 +1218,9 @@ virtual
 SVGFELightingElement
 (
 )
-{
-}
+=
+default
+;
 public
 :
 /
