@@ -302,6 +302,9 @@ expected
 {
 if
 (
+epsilon
+&
+&
 typeof
 expected
 [
