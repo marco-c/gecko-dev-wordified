@@ -1425,6 +1425,7 @@ script_timeout
         
 except
 JavascriptException
+as
 e
 :
             

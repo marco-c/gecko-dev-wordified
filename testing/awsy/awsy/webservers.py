@@ -233,6 +233,7 @@ except
 socket
 .
 error
+as
 error
 :
                 
@@ -256,31 +257,39 @@ errno
 :
                         
 print
+(
 "
 port
-%
-d
+{
+}
 is
 in
 use
 .
 "
-%
+)
+.
+format
+(
 port
+)
                     
 else
 :
                         
 print
+(
 "
 port
-%
-d
+{
+}
 error
-%
-s
+{
+}
 "
-%
+)
+.
+format
 (
 port
 error
@@ -295,15 +304,18 @@ str
 :
                     
 print
+(
 "
 port
-%
-d
+{
+}
 error
-%
-s
+{
+}
 "
-%
+)
+.
+format
 (
 port
 error
@@ -319,19 +331,23 @@ pop
             
 except
 Exception
+as
 error
 :
                 
 print
+(
 "
 port
-%
-d
+{
+}
 error
-%
-s
+{
+}
 "
-%
+)
+.
+format
 (
 port
 error

@@ -775,6 +775,7 @@ else
 :
                 
 print
+(
 "
 found
 files
@@ -783,11 +784,15 @@ couldn
 '
 t
 find
-%
-s
+{
+}
 "
-%
+)
+.
+format
+(
 name
+)
 def
 create_suite
 (
@@ -1520,6 +1525,7 @@ environ
 :
         
 print
+(
 "
 Code
 coverage
@@ -1534,6 +1540,7 @@ be
 gathered
 .
 "
+)
         
 return
 {
@@ -1638,6 +1645,7 @@ args
 :
         
 print
+(
 "
 Usage
 :
@@ -1646,6 +1654,7 @@ process_perf_data
 py
 data_path
 "
+)
         
 sys
 .
@@ -1679,18 +1688,23 @@ data_path
 )
     
 print
+(
 "
 PERFHERDER_DATA
 :
-%
-s
+{
+}
 "
-%
+)
+.
+format
+(
 json
 .
 dumps
 (
 perf_blob
+)
 )
     
 sys

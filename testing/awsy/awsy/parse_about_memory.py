@@ -1154,21 +1154,24 @@ sorted
 (
 totals
 .
-iteritems
+items
 (
 )
 key
 =
 lambda
-(
-k
-v
-)
+item
 :
 (
 -
-v
-k
+item
+[
+1
+]
+item
+[
+0
+]
 )
 )
     
@@ -1186,6 +1189,7 @@ v
 :
             
 print
+(
 "
 {
 0
@@ -1198,10 +1202,13 @@ format
 (
 k
 )
+)
     
 print
+(
 "
 "
+)
     
 bytes_per_mebibyte
 =
@@ -1233,6 +1240,7 @@ mebi
 :
                 
 print
+(
 "
 {
 0
@@ -1249,11 +1257,13 @@ v
 /
 bytes_per_mebibyte
 )
+)
             
 else
 :
                 
 print
+(
 "
 {
 0
@@ -1265,13 +1275,18 @@ format
 (
 v
 )
+)
             
 print
+(
 "
 \
 t
 "
+)
     
 print
+(
 "
 "
+)
