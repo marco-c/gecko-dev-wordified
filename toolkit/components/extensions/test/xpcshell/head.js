@@ -316,6 +316,17 @@ jsm
 }
 )
 ;
+PromiseTestUtils
+.
+whitelistRejectionsGlobally
+(
+/
+Message
+manager
+disconnected
+/
+)
+;
 /
 /
 These

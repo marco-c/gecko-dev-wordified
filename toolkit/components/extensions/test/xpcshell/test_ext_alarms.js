@@ -62,17 +62,6 @@ use
 strict
 "
 ;
-PromiseTestUtils
-.
-whitelistRejectionsGlobally
-(
-/
-Message
-manager
-disconnected
-/
-)
-;
 add_task
 (
 async

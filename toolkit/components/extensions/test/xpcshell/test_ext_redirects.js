@@ -41,17 +41,6 @@ jsm
 "
 )
 ;
-PromiseTestUtils
-.
-whitelistRejectionsGlobally
-(
-/
-Message
-manager
-disconnected
-/
-)
-;
 const
 server
 =

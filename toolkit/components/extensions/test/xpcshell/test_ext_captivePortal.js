@@ -35,17 +35,6 @@ information
 .
 *
 /
-PromiseTestUtils
-.
-whitelistRejectionsGlobally
-(
-/
-Message
-manager
-disconnected
-/
-)
-;
 const
 PREF_CAPTIVE_ENABLED
 =
