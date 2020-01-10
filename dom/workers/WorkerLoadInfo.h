@@ -728,11 +728,11 @@ mLoadFlags
 uint64_t
 mWindowID
 ;
-net
-:
-:
-ReferrerPolicy
-mReferrerPolicy
+nsCOMPtr
+<
+nsIReferrerInfo
+>
+mReferrerInfo
 ;
 bool
 mFromWindow
