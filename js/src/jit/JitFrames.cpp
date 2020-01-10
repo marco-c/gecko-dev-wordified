@@ -2748,7 +2748,7 @@ baselineFrame
 )
 -
 >
-setInterpreterPC
+setInterpreterFields
 (
 *
 pc
@@ -2876,7 +2876,7 @@ baselineFrame
 )
 -
 >
-setInterpreterPC
+setInterpreterFields
 (
 *
 pc
