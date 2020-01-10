@@ -19093,7 +19093,7 @@ context
 .
 config
 .
-substs_unicode
+substs
 .
 get
 (
