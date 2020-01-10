@@ -2233,12 +2233,6 @@ defined
 (
 XP_WIN
 )
-|
-|
-defined
-(
-MOZ_WIDGET_COCOA
-)
 extern
 const
 mozilla
@@ -2822,12 +2816,6 @@ if
 defined
 (
 XP_WIN
-)
-|
-|
-defined
-(
-MOZ_WIDGET_COCOA
 )
 RegisterModule
 (
