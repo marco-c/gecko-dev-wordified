@@ -8544,6 +8544,13 @@ IsIPAddrLocal
 &
 mNetAddr
 )
+|
+|
+IsIPAddrShared
+(
+&
+mNetAddr
+)
 )
 )
 {
