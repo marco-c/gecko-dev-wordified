@@ -1248,6 +1248,10 @@ type
 "
 object
 "
+properties
+:
+{
+}
 }
 graphics
 :
