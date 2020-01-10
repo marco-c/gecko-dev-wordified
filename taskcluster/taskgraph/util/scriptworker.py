@@ -3678,10 +3678,12 @@ attributes
 artifact_map
 '
         
+job
+[
 '
-artifact
-map
+label
 '
+]
         
 *
 *
@@ -3831,9 +3833,12 @@ map_config
 '
 s3_bucket_paths
 '
+job
+[
 '
-s3_bucket_paths
+label
 '
+]
 platform
 =
 platform
@@ -4149,15 +4154,22 @@ checksums_path
                 
 resolve_keyed_by
 (
+                    
 file_config
 field
-field
+job
+[
+"
+label
+"
+]
 locale
 =
 locale
 platform
 =
 platform
+                
 )
             
 #
@@ -4491,7 +4503,12 @@ resolve_keyed_by
 (
 platforms
 key
-key
+job
+[
+'
+label
+'
+]
 platform
 =
 platform
