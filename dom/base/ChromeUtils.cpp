@@ -5054,7 +5054,7 @@ mozilla
 dom
 :
 :
-ProcType
+WebIDLProcType
 :
 :
 Browser
@@ -5272,7 +5272,7 @@ mType
 =
 static_cast
 <
-ProcType
+WebIDLProcType
 >
 (
 info
