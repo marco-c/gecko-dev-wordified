@@ -4002,6 +4002,7 @@ uint32_t
 &
 aSaneLength
 gfxUserFontType
+&
 aFontType
 )
 ;
