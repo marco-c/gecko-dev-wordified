@@ -1470,6 +1470,8 @@ process
 Channel
 *
 mChannel
+=
+nullptr
 ;
 /
 /
@@ -1499,6 +1501,8 @@ recording
 .
 bool
 mRecording
+=
+false
 ;
 /
 /
@@ -1511,6 +1515,8 @@ paused
 .
 bool
 mPaused
+=
+false
 ;
 /
 /
@@ -1533,9 +1539,13 @@ crashing
 .
 bool
 mHasBegunFatalError
+=
+false
 ;
 bool
 mHasFatalError
+=
+false
 ;
 void
 OnIncomingMessage
@@ -1632,6 +1642,15 @@ IsPaused
 {
 return
 mPaused
+;
+}
+bool
+HasCrashed
+(
+)
+{
+return
+mHasFatalError
 ;
 }
 /
