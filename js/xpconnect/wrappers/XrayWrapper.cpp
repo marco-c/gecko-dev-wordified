@@ -264,6 +264,17 @@ mozilla
 /
 dom
 /
+WindowProxyHolder
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 XrayExpandoClass
 .
 h
