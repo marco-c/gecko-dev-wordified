@@ -109,7 +109,7 @@ BreakpointOptions
 FrameId
 ActorId
 Script
-Source
+QueuedSourceData
 Pause
 PendingLocation
 Frame
@@ -892,10 +892,10 @@ ResumedPacket
 =
 >
 void
-newSources
+newQueuedSources
 :
 (
-Source
+QueuedSourceData
 [
 ]
 )

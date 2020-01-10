@@ -73,7 +73,7 @@ lodash
 import
 type
 {
-Source
+QueuedSourceData
 }
 from
 "
@@ -84,7 +84,7 @@ types
 "
 ;
 let
-newSources
+newQueuedSources
 ;
 let
 queuedSources
@@ -111,7 +111,7 @@ queuedSources
 currentWork
 =
 await
-newSources
+newQueuedSources
 (
 sources
 )
@@ -139,11 +139,11 @@ Object
 =
 >
 {
-newSources
+newQueuedSources
 =
 actions
 .
-newSources
+newQueuedSources
 ;
 queuedSources
 =
@@ -156,7 +156,7 @@ queue
 (
 source
 :
-Source
+QueuedSourceData
 )
 =
 >
@@ -178,7 +178,7 @@ queueSources
 (
 sources
 :
-Source
+QueuedSourceData
 [
 ]
 )
