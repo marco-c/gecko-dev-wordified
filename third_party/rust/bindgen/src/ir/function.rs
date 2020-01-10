@@ -1430,8 +1430,6 @@ See
 rust
 -
 lang
--
-nursery
 /
 rust
 -
@@ -1442,8 +1440,6 @@ and
 rust
 -
 lang
--
-nursery
 /
 rust
 -
@@ -3436,8 +3432,6 @@ com
 rust
 -
 lang
--
-nursery
 /
 rust
 -

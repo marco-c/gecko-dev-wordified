@@ -422,8 +422,6 @@ com
 rust
 -
 lang
--
-nursery
 /
 rust
 -

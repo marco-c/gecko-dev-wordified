@@ -7712,8 +7712,6 @@ com
 rust
 -
 lang
--
-nursery
 /
 rust
 -
@@ -10137,8 +10135,6 @@ com
 rust
 -
 lang
--
-nursery
 /
 rust
 -
