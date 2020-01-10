@@ -213,7 +213,6 @@ label
 {
 variable
 }
-:
 <
 /
 span
