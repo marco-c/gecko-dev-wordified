@@ -6974,6 +6974,9 @@ origin
 }
 openProtections
 (
+relatedToCurrent
+=
+false
 )
 {
 switchToTabHavingURI
@@ -6988,6 +6991,7 @@ true
 replaceQueryString
 :
 true
+relatedToCurrent
 triggeringPrincipal
 :
 Services
@@ -9179,11 +9183,6 @@ cnt
 ]
 )
 ;
-Trackers
-blocked
-this
-week
-:
 {
 trackerCount
 .
@@ -9191,6 +9190,7 @@ toLocaleString
 (
 )
 }
+Blocked
 ;
 }
 /
