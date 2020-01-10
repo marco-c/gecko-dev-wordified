@@ -12121,6 +12121,11 @@ name
 .
 mName
 )
+name
+.
+IsQuoted
+(
+)
 fonts
 )
 ;
@@ -12281,6 +12286,8 @@ const
 nsACString
 &
 aName
+bool
+aQuotedName
 nsTArray
 <
 FamilyAndGeneric
@@ -12437,6 +12444,16 @@ FindAndAddFamilies
 aName
 &
 aFamilyList
+aQuotedName
+?
+gfxPlatformFontList
+:
+:
+FindFamiliesFlags
+:
+:
+eQuotedFamilyName
+:
 gfxPlatformFontList
 :
 :

@@ -8732,6 +8732,8 @@ const
 nsACString
 &
 aName
+bool
+aQuotedName
 nsTArray
 <
 FamilyAndGeneric

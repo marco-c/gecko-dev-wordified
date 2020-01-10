@@ -11496,6 +11496,19 @@ get
 nullptr
 )
 ;
+if
+(
+!
+(
+aFlags
+&
+FindFamiliesFlags
+:
+:
+eQuotedFamilyName
+)
+)
+{
 /
 /
 deprecated
@@ -11652,6 +11665,7 @@ true
 return
 false
 ;
+}
 }
 /
 /
