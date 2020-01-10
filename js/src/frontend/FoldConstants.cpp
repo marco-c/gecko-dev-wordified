@@ -2534,6 +2534,12 @@ case
 ParseNodeKind
 :
 :
+InitExpr
+:
+case
+ParseNodeKind
+:
+:
 AssignExpr
 :
 case

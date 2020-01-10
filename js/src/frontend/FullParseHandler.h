@@ -5028,6 +5028,7 @@ rhs
 {
 if
 (
+(
 kind
 =
 =
@@ -5035,6 +5036,16 @@ ParseNodeKind
 :
 :
 AssignExpr
+|
+|
+kind
+=
+=
+ParseNodeKind
+:
+:
+InitExpr
+)
 &
 &
 lhs
@@ -5085,6 +5096,7 @@ node
 {
 if
 (
+(
 node
 -
 >
@@ -5094,6 +5106,7 @@ ParseNodeKind
 :
 :
 AssignExpr
+)
 )
 &
 &
