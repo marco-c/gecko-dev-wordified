@@ -476,6 +476,14 @@ focus
 )
 ;
 await
+synthesizeMouseOver
+(
+gURLBar
+.
+inputField
+)
+;
+await
 synthesizeMouseOut
 (
 gURLBar
