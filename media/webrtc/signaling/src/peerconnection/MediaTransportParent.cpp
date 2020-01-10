@@ -1061,6 +1061,15 @@ bool
 &
 defaultRouteOnly
 const
+std
+:
+:
+string
+&
+remoteIp
+uint16_t
+remotePort
+const
 net
 :
 :
@@ -1078,6 +1087,8 @@ mHandler
 StartIceGathering
 (
 defaultRouteOnly
+remoteIp
+remotePort
 stunAddrs
 )
 ;
