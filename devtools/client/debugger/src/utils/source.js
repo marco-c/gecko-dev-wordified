@@ -2255,6 +2255,9 @@ ends
 with
 .
 marko
+or
+.
+es6
 we
 set
 the
@@ -2268,7 +2271,9 @@ syntax
 highlighting
 works
 for
-marko
+these
+file
+extensions
 too
 if
 (
@@ -2283,6 +2288,10 @@ match
 \
 .
 marko
+|
+\
+.
+es6
 /
 i
 )
