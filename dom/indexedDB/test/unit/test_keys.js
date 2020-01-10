@@ -230,6 +230,16 @@ store
 Test
 simple
 inserts
+/
+/
+Note
+:
+the
+keys
+must
+be
+in
+order
 var
 keys
 =
