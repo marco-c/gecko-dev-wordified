@@ -223,7 +223,7 @@ SQLITE_DEFAULT_FILE_PERMISSIONS
 in
 /
 /
-db
+third_party
 /
 sqlite3
 /

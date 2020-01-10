@@ -428,7 +428,7 @@ SQLITE_DEFAULT_PAGE_SIZE
 in
 /
 /
-db
+third_party
 /
 sqlite3
 /
