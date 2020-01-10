@@ -1964,9 +1964,9 @@ ReallyStartLoading
 *
 /
 void
-SetRemoteBrowser
+InitializeFromBrowserParent
 (
-nsIRemoteTab
+BrowserParent
 *
 aBrowserParent
 )
