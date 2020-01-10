@@ -8006,6 +8006,8 @@ break
 ;
 default
 :
+try
+{
 target
 .
 sendAsyncMessage
@@ -8023,6 +8025,13 @@ message
 }
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 break
 ;
 }
@@ -8237,8 +8246,6 @@ e
 }
 else
 {
-try
-{
 this
 .
 routeMessageToTarget
@@ -8249,13 +8256,6 @@ trigger
 force
 )
 ;
-}
-catch
-(
-e
-)
-{
-}
 }
 }
 async
