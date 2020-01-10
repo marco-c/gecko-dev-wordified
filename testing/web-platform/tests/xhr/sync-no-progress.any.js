@@ -1,10 +1,3 @@
-/
-/
-META
-:
-timeout
-=
-long
 test
 (
 t

@@ -769,11 +769,6 @@ poster
 "
 url
 "
-playsInline
-:
-"
-boolean
-"
 }
 audio
 :

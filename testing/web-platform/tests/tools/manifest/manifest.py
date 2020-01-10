@@ -1,8 +1,6 @@
 import
 itertools
 import
-json
-import
 os
 from
 collections
@@ -52,14 +50,25 @@ try
 import
 ujson
 as
-fast_json
+json
+    
+JSON_LIBRARY
+=
+'
+ujson
+'
 except
 ImportError
 :
     
-fast_json
-=
+import
 json
+    
+JSON_LIBRARY
+=
+'
+json
+'
 CURRENT_VERSION
 =
 5
@@ -1784,43 +1793,11 @@ reftest_changes
 =
 False
         
-#
-Create
-local
-variable
-references
-to
-these
-dicts
-so
-we
-avoid
-the
-        
-#
-attribute
-access
-in
-the
-hot
-loop
-below
-        
-path_hash
-=
-self
-.
-_path_hash
-        
-data
+prev_files
 =
 self
 .
 _data
-        
-prev_files
-=
-data
 .
 paths
 (
@@ -1863,12 +1840,16 @@ rel_path
 assert
 rel_path
 in
-path_hash
+self
+.
+_path_hash
                 
 old_hash
 old_type
 =
-path_hash
+self
+.
+_path_hash
 [
 rel_path
 ]
@@ -1881,7 +1862,9 @@ reftest_types
                     
 manifest_items
 =
-data
+self
+.
+_data
 [
 old_type
 ]
@@ -1930,7 +1913,9 @@ is_new
 rel_path
 not
 in
-path_hash
+self
+.
+_path_hash
                 
 hash_changed
 =
@@ -1944,7 +1929,9 @@ is_new
 old_hash
 old_type
 =
-path_hash
+self
+.
+_path_hash
 [
 rel_path
 ]
@@ -1977,7 +1964,9 @@ old_type
 :
                             
 del
-data
+self
+.
+_data
 [
 old_type
 ]
@@ -2010,7 +1999,9 @@ reftest_types
                             
 manifest_items
 =
-data
+self
+.
+_data
 [
 old_type
 ]
@@ -2066,7 +2057,9 @@ or
 hash_changed
 :
                     
-data
+self
+.
+_data
 [
 new_type
 ]
@@ -2085,7 +2078,9 @@ or
 hash_changed
 :
                     
-path_hash
+self
+.
+_path_hash
 [
 rel_path
 ]
@@ -2122,13 +2117,17 @@ deleted
 if
 rel_path
 in
-path_hash
+self
+.
+_path_hash
 :
                     
 _
 old_type
 =
-path_hash
+self
+.
+_path_hash
 [
 rel_path
 ]
@@ -2144,7 +2143,9 @@ reftest_changes
 True
                     
 del
-path_hash
+self
+.
+_path_hash
 [
 rel_path
 ]
@@ -2153,7 +2154,9 @@ try
 :
                         
 del
-data
+self
+.
+_data
 [
 old_type
 ]
@@ -2175,7 +2178,9 @@ test_data
 in
 itervalues
 (
-data
+self
+.
+_data
 )
 :
                         
@@ -2206,7 +2211,9 @@ _compute_reftests
 reftest_nodes
 )
             
-data
+self
+.
+_data
 [
 "
 reftest
@@ -2217,7 +2224,9 @@ data
 =
 reftests
             
-data
+self
+.
+_data
 [
 "
 reftest_node
@@ -2228,7 +2237,9 @@ data
 =
 reftest_nodes
             
-path_hash
+self
+.
+_path_hash
 .
 update
 (
@@ -2727,9 +2738,6 @@ None
 meta_filters
 =
 None
-allow_cached
-=
-True
 )
 :
     
@@ -2765,8 +2773,6 @@ name
 )
     
 if
-allow_cached
-and
 manifest_path
 in
 __load_cache
@@ -2851,7 +2857,7 @@ from_json
 (
 tests_root
                                         
-fast_json
+json
 .
 load
 (
@@ -2906,7 +2912,7 @@ from_json
 (
 tests_root
                                 
-fast_json
+json
 .
 load
 (
@@ -2922,10 +2928,6 @@ meta_filters
 meta_filters
 )
     
-if
-allow_cached
-:
-        
 __load_cache
 [
 manifest_path
@@ -2975,10 +2977,6 @@ None
 write_manifest
 =
 True
-                    
-allow_cached
-=
-True
 )
 :
     
@@ -3017,10 +3015,6 @@ types
 meta_filters
 =
 meta_filters
-                             
-allow_cached
-=
-allow_cached
 )
         
 except
@@ -3187,6 +3181,46 @@ as
 f
 :
         
+if
+JSON_LIBRARY
+=
+=
+'
+ujson
+'
+:
+            
+#
+ujson
+does
+not
+support
+the
+separators
+flag
+.
+            
+json
+.
+dump
+(
+manifest
+.
+to_json
+(
+)
+f
+sort_keys
+=
+True
+indent
+=
+1
+)
+        
+else
+:
+            
 #
 Use
 '
@@ -3201,7 +3235,7 @@ separator
 to
 prevent
 trailing
-        
+            
 #
 spaces
 :
@@ -3226,7 +3260,7 @@ html
 json
 .
 dump
-        
+            
 json
 .
 dump
@@ -3237,7 +3271,7 @@ to_json
 (
 )
 f
-                  
+                      
 sort_keys
 =
 True

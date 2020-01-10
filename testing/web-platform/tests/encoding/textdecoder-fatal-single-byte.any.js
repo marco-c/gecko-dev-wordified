@@ -2,13 +2,6 @@
 /
 META
 :
-timeout
-=
-long
-/
-/
-META
-:
 title
 =
 Encoding
@@ -20,13 +13,6 @@ for
 single
 byte
 encodings
-/
-/
-META
-:
-timeout
-=
-long
 var
 singleByteEncodings
 =
