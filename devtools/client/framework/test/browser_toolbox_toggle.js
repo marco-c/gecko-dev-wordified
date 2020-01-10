@@ -732,9 +732,7 @@ toolboxWindow
 =
 toolbox
 .
-win
-.
-top
+topWindow
 ;
 const
 onToolboxWindowFocus

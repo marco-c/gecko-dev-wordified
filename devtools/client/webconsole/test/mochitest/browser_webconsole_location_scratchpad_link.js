@@ -437,9 +437,7 @@ ww
 activeWindow
 toolbox
 .
-win
-.
-parent
+topWindow
 "
 Scratchpad
 '
