@@ -258,6 +258,13 @@ mtr_report_link
 "
 )
 ;
+RPMSendAsyncMessage
+(
+"
+ClearMonitorCache
+"
+)
+;
 }
 )
 ;
