@@ -2079,7 +2079,7 @@ Non
 polymorphic
 or
 derived
-form
+from
 ctrl_typevar
 is
 OK

@@ -751,6 +751,15 @@ info
 cmp_inst
 )
 ;
+pos
+.
+use_srcloc
+(
+info
+.
+cmp_inst
+)
+;
 match
 info
 .

@@ -14,13 +14,12 @@ use
 crate
 :
 :
-cdsl
+shared
 :
 :
-settings
-:
-:
-SettingGroup
+Definitions
+as
+SharedDefinitions
 ;
 use
 std
@@ -404,10 +403,11 @@ Vec
 <
 Isa
 >
-shared_settings
+shared_defs
 :
 &
-SettingGroup
+mut
+SharedDefinitions
 )
 -
 >
@@ -441,7 +441,7 @@ riscv
 :
 define
 (
-shared_settings
+shared_defs
 )
 Isa
 :
@@ -454,7 +454,7 @@ x86
 :
 define
 (
-shared_settings
+shared_defs
 )
 Isa
 :
@@ -467,7 +467,7 @@ arm32
 :
 define
 (
-shared_settings
+shared_defs
 )
 Isa
 :
@@ -480,7 +480,7 @@ arm64
 :
 define
 (
-shared_settings
+shared_defs
 )
 }
 )

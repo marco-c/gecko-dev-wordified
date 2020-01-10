@@ -3394,6 +3394,15 @@ opidx
 )
 )
 ;
+self
+.
+cur
+.
+use_srcloc
+(
+inst
+)
+;
 for
 i
 in

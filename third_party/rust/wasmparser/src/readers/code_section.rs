@@ -450,11 +450,8 @@ pos
 )
 }
 pub
-(
-crate
-)
 fn
-get_range
+range
 (
 &
 self

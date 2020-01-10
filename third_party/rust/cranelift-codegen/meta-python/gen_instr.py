@@ -3358,7 +3358,7 @@ the
 size
     
 #
-if
+of
 the
 whole
 type
@@ -4554,7 +4554,8 @@ idx
 )
 where
 idx
-isan
+is
+an
 index
 into
 type_sets

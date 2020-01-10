@@ -160,9 +160,7 @@ field
 &
 '
 a
-[
-u8
-]
+str
 pub
 kind
 :

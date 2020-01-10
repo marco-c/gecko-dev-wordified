@@ -1612,7 +1612,7 @@ shift_by
 test
 ]
 fn
-test_magicU32
+test_magic_u32
 (
 )
 {
@@ -1952,7 +1952,7 @@ false
 test
 ]
 fn
-test_magicU64
+test_magic_u64
 (
 )
 {
@@ -2337,7 +2337,7 @@ false
 test
 ]
 fn
-test_magicS32
+test_magic_s32
 (
 )
 {
@@ -2772,7 +2772,7 @@ i32
 test
 ]
 fn
-test_magicS64
+test_magic_s64
 (
 )
 {

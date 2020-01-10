@@ -149,7 +149,7 @@ reference
 to
 a
 function
-sugnature
+signature
 declared
 in
 the
