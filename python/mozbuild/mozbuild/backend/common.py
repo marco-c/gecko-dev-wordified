@@ -3220,10 +3220,6 @@ update
 AB_CD
 =
 ab_cd
-            
-BUILD_FASTER
-=
-1
         
 )
         
