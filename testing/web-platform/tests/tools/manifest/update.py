@@ -78,7 +78,7 @@ None
            
 working_copy
 =
-False
+True
            
 cache_root
 =
@@ -229,15 +229,6 @@ kwargs
 cache_root
 "
 ]
-                             
-working_copy
-=
-kwargs
-[
-"
-work
-"
-]
 )
 def
 abs_path
@@ -368,41 +359,6 @@ of
 the
 manifest
 .
-"
-)
-    
-parser
-.
-add_argument
-(
-        
-"
--
--
-work
-"
-action
-=
-"
-store_true
-"
-default
-=
-False
-        
-help
-=
-"
-Build
-from
-the
-working
-tree
-rather
-than
-the
-latest
-commit
 "
 )
     
