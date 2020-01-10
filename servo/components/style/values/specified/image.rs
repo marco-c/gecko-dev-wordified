@@ -145,6 +145,15 @@ Parse
 ParserContext
 }
 ;
+use
+crate
+:
+:
+stylesheets
+:
+:
+CorsMode
+;
 #
 [
 cfg
@@ -8197,6 +8206,10 @@ to_owned
 (
 )
 context
+CorsMode
+:
+:
+None
 )
 ;
 i

@@ -30346,6 +30346,15 @@ use
 style
 :
 :
+stylesheets
+:
+:
+CorsMode
+;
+use
+style
+:
+:
 values
 :
 :
@@ -30458,6 +30467,10 @@ into
 )
 &
 context
+CorsMode
+:
+:
+None
 )
 ;
 let
