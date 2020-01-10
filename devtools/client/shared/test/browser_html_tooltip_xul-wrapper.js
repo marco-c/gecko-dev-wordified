@@ -178,7 +178,7 @@ resized
 const
 TOOLTIP_HEIGHT
 =
-160
+200
 ;
 const
 TOOLTIP_WIDTH
