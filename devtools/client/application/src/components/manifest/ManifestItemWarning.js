@@ -181,12 +181,8 @@ tr
 className
 :
 "
-manifest
--
-view__row
-manifest
--
-view__row
+manifest__row
+manifest__row
 -
 error
 "
@@ -197,9 +193,7 @@ th
 className
 :
 "
-manifest
--
-view__col
+manifest__col
 -
 label
 "
@@ -244,9 +238,7 @@ td
 className
 :
 "
-manifest
--
-view__col
+manifest__col
 -
 value
 "

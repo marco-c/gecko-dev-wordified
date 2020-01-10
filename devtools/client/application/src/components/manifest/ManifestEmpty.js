@@ -161,7 +161,7 @@ target
 *
 /
 class
-ManifestViewEmpty
+ManifestEmpty
 extends
 PureComponent
 {
@@ -177,8 +177,6 @@ className
 :
 "
 manifest
--
-view
 -
 empty
 "
@@ -239,5 +237,5 @@ module
 .
 exports
 =
-ManifestViewEmpty
+ManifestEmpty
 ;
