@@ -2884,6 +2884,10 @@ enable
 )
 ;
 struct
+alignas
+(
+uintptr_t
+)
 BaselineBailoutInfo
 {
 /
