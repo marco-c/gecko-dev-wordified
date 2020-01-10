@@ -16288,7 +16288,7 @@ bool
 ScriptSource
 :
 :
-initializeUncompressedSource
+initializeUnretrievableUncompressedSource
 (
 JSContext
 *
@@ -16467,7 +16467,7 @@ if
 scriptSource_
 -
 >
-initializeUncompressedSource
+initializeUnretrievableUncompressedSource
 (
 xdr_
 -

@@ -6460,6 +6460,7 @@ fresh
 ScriptSource
 |
 with
+unretrievable
 uncompressed
 source
 .
@@ -6470,7 +6471,7 @@ Unit
 >
 MOZ_MUST_USE
 bool
-initializeUncompressedSource
+initializeUnretrievableUncompressedSource
 (
 JSContext
 *
