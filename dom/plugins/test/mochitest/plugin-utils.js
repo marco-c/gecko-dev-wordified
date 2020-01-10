@@ -294,17 +294,14 @@ SimpleTest
 .
 registerCleanupFunction
 (
-async
 function
 (
 )
 {
-return
 SpecialPowers
 .
 setTestPluginEnabledState
 (
-await
 oldEnabledState
 pluginName
 )

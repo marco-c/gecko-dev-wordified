@@ -319,7 +319,6 @@ SimpleTest
 .
 waitForFocus
 (
-async
 function
 (
 )
@@ -531,10 +530,9 @@ de_DE
 ;
 is
 (
-await
 script
 .
-sendQuery
+sendSyncMessage
 (
 "
 de_DE
@@ -542,6 +540,12 @@ de_DE
 exists
 "
 )
+[
+0
+]
+[
+0
+]
 true
 "
 true
@@ -926,7 +930,7 @@ again
 .
 script
 .
-sendAsyncMessage
+sendSyncMessage
 (
 "
 destroy
