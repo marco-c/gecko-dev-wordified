@@ -656,9 +656,6 @@ basic_shape
 :
 ClippingShape
 "
-boxed
-=
-True
 flags
 =
 "

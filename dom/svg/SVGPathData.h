@@ -1360,7 +1360,7 @@ to
 build
 the
 path
-by
+from
 an
 array
 of
@@ -1403,12 +1403,11 @@ Path
 >
 BuildPath
 (
-const
-nsTArray
+Span
 <
+const
 StylePathCommand
 >
-&
 aPath
 PathBuilder
 *
