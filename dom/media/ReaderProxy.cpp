@@ -383,10 +383,6 @@ AdjustForStartTime
 StartTime
 (
 )
-.
-ToMicroseconds
-(
-)
 )
 )
 {
@@ -587,14 +583,10 @@ StartTime
 :
 aTimeThreshold
 ;
-int64_t
+auto
 startTime
 =
 StartTime
-(
-)
-.
-ToMicroseconds
 (
 )
 ;
