@@ -5875,13 +5875,6 @@ baseline
 script
 -
 >
-baselineScript
-(
-)
-;
-script
--
->
 jitScript
 (
 )
