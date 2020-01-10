@@ -420,6 +420,11 @@ pausedOne
 =
 false
 ;
+let
+onResumed
+=
+null
+;
 threadClient
 .
 once
@@ -436,6 +441,8 @@ pausedOne
 =
 true
 ;
+onResumed
+=
 resume
 (
 threadClient
@@ -466,6 +473,9 @@ js
 "
 1
 )
+;
+await
+onResumed
 ;
 Assert
 .
@@ -516,6 +526,8 @@ pausedTwo
 =
 true
 ;
+onResumed
+=
 resume
 (
 threadClient
@@ -546,6 +558,9 @@ js
 "
 1
 )
+;
+await
+onResumed
 ;
 Assert
 .
