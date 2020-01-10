@@ -7740,7 +7740,7 @@ MediaDeviceInfo
 "
 insecureContext
 :
-false
+true
 }
 /
 /
@@ -7766,7 +7766,7 @@ MediaDevices
 "
 insecureContext
 :
-false
+true
 }
 /
 /
