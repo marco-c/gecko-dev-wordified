@@ -62,6 +62,8 @@ unicode_literals
 import
 os
 import
+six
+import
 sys
 import
 types
@@ -1034,10 +1036,11 @@ for
 k
 v
 in
-format_data
+six
 .
 iteritems
 (
+format_data
 )
 :
             

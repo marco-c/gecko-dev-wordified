@@ -84,6 +84,8 @@ json
 import
 os
 import
+six
+import
 mozpack
 .
 path
@@ -1985,12 +1987,13 @@ for
 path
 log
 in
-app_finder
-.
-jarlogs
+six
 .
 iteritems
 (
+app_finder
+.
+jarlogs
 )
 :
         
@@ -2264,10 +2267,11 @@ for
 base
 path
 in
-extra_l10n
+six
 .
 iteritems
 (
+extra_l10n
 )
 :
             

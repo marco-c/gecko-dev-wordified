@@ -61,6 +61,8 @@ print_function
 unicode_literals
 import
 re
+import
+six
 from
 distutils
 .
@@ -2120,10 +2122,11 @@ for
 name
 value
 in
-filter
+six
 .
 iteritems
 (
+filter
 )
 :
             

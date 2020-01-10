@@ -69,6 +69,8 @@ import
 re
 import
 os
+import
+six
 from
 mozpack
 .
@@ -2806,16 +2808,18 @@ sorted
 (
             
 m
+            
 for
 m
 includer
 in
-self
-.
-_included_manifests
+six
 .
 iteritems
 (
+self
+.
+_included_manifests
 )
             
 if

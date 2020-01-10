@@ -97,6 +97,8 @@ os
 import
 re
 import
+six
+import
 stat
 import
 sys
@@ -486,10 +488,11 @@ for
 k
 v
 in
-kwargs
+six
 .
 iteritems
 (
+kwargs
 )
 :
             
@@ -3950,10 +3953,11 @@ for
 k
 v
 in
-kwargs
+six
 .
 iteritems
 (
+kwargs
 )
 :
                 
@@ -9157,10 +9161,11 @@ for
 k
 v
 in
-obj
+six
 .
 iteritems
 (
+obj
 )
         
 }
