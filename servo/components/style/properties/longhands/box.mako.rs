@@ -4728,6 +4728,11 @@ animation_value_type
 "
 Integer
 "
+products
+=
+"
+gecko
+"
 spec
 =
 "
