@@ -6782,7 +6782,7 @@ ToUnknownRegion
 endif
 }
 IntRect
-actualBounds
+bounds
 ;
 Maybe
 <
@@ -6829,7 +6829,7 @@ mRenderBounds
 aOpaqueRegion
 mNativeLayerForEntireWindow
 &
-actualBounds
+bounds
 )
 ;
 IntRect
@@ -6839,7 +6839,7 @@ rootLayerClip
 .
 valueOr
 (
-actualBounds
+bounds
 )
 ;
 #
@@ -6877,7 +6877,7 @@ offset
 endif
 if
 (
-actualBounds
+bounds
 .
 IsEmpty
 (
@@ -7189,7 +7189,7 @@ LayoutDeviceIntRect
 :
 FromUnknownRect
 (
-actualBounds
+bounds
 )
 )
 ;
@@ -7358,7 +7358,7 @@ MOZ_WIDGET_ANDROID
 Debugging
 RenderDebugOverlay
 (
-actualBounds
+bounds
 )
 ;
 {
