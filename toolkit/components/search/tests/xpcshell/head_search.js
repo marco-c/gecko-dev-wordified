@@ -2838,7 +2838,7 @@ folder
 *
 details
 :
-Array
+Object
 containing
 the
 parameters

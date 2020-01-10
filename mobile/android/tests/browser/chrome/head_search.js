@@ -126,7 +126,7 @@ loaded
 *
 details
 :
-Array
+Object
 containing
 the
 parameters
