@@ -385,6 +385,14 @@ principal
 (
 )
 )
+mDocumentURI
+(
+aInit
+.
+documentURI
+(
+)
+)
 mInnerWindowId
 (
 aInit
