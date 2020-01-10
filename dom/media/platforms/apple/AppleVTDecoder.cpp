@@ -130,6 +130,15 @@ h
 >
 #
 include
+<
+IOSurface
+/
+IOSurface
+.
+h
+>
+#
+include
 "
 AppleDecoderModule
 .
@@ -3601,10 +3610,7 @@ IOSurfaceKeys
 ]
 =
 {
-MacIOSurfaceLib
-:
-:
-kPropIsGlobal
+kIOSurfaceIsGlobal
 }
 ;
 const
