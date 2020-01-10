@@ -779,6 +779,9 @@ false
 isUnknown
 :
 false
+isUnplugged
+:
+false
 name
 :
 l10n
@@ -1716,6 +1719,9 @@ false
 isUnknown
 :
 false
+isUnplugged
+:
+false
 name
 :
 location
@@ -1822,6 +1828,11 @@ isUnknown
 adbRuntime
 .
 isUnknown
+isUnplugged
+:
+adbRuntime
+.
+isUnplugged
 name
 :
 adbRuntime

@@ -836,6 +836,11 @@ isUnknown
 runtime
 .
 isUnknown
+isUnplugged
+:
+runtime
+.
+isUnplugged
 name
 runtimeId
 :
