@@ -4302,7 +4302,7 @@ GlobalDebuggerVector
 }
 static
 const
-ClassOps
+JSClassOps
 GlobalDebuggerVectorHolder_classOps
 =
 {
@@ -27420,7 +27420,7 @@ true
 ;
 }
 const
-ClassOps
+JSClassOps
 Debugger
 :
 :

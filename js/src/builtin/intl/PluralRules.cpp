@@ -316,7 +316,7 @@ intl
 IcuLocale
 ;
 const
-ClassOps
+JSClassOps
 PluralRulesObject
 :
 :

@@ -4289,7 +4289,7 @@ class
 and
 methods
 const
-ClassOps
+JSClassOps
 WasmModuleObject
 :
 :
@@ -7419,7 +7419,7 @@ class
 and
 methods
 const
-ClassOps
+JSClassOps
 WasmInstanceObject
 :
 :
@@ -10201,7 +10201,7 @@ class
 and
 methods
 const
-ClassOps
+JSClassOps
 WasmMemoryObject
 :
 :
@@ -12247,7 +12247,7 @@ class
 and
 methods
 const
-ClassOps
+JSClassOps
 WasmTableObject
 :
 :
@@ -14530,7 +14530,7 @@ class
 and
 methods
 const
-ClassOps
+JSClassOps
 WasmGlobalObject
 :
 :
@@ -21237,7 +21237,7 @@ IMPORT_OBJ_SLOT
 ;
 static
 const
-ClassOps
+JSClassOps
 classOps_
 ;
 static
@@ -21506,7 +21506,7 @@ toObjectOrNull
 }
 ;
 const
-ClassOps
+JSClassOps
 ResolveResponseClosure
 :
 :

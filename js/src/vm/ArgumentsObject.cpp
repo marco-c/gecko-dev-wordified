@@ -6493,7 +6493,7 @@ object
 *
 /
 const
-ClassOps
+JSClassOps
 MappedArgumentsObject
 :
 :
@@ -6674,7 +6674,7 @@ functionality
 *
 /
 const
-ClassOps
+JSClassOps
 UnmappedArgumentsObject
 :
 :

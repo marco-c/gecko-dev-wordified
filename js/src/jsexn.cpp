@@ -883,7 +883,7 @@ JSProto_Error
 }
 static
 const
-ClassOps
+JSClassOps
 ErrorObjectClassOps
 =
 {

@@ -1258,10 +1258,7 @@ newDelegate
 {
 static
 const
-js
-:
-:
-ClassOps
+JSClassOps
 delegateClassOps
 =
 {

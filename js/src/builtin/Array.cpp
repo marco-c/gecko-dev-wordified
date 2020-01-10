@@ -25310,7 +25310,7 @@ JSPROP_READONLY
 }
 static
 const
-ClassOps
+JSClassOps
 ArrayObjectClassOps
 =
 {

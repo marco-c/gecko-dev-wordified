@@ -2777,7 +2777,7 @@ nullptr
 }
 ;
 const
-ClassOps
+JSClassOps
 ModuleEnvironmentObject
 :
 :

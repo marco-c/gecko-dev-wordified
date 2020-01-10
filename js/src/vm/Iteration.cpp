@@ -7048,7 +7048,7 @@ NativeIterator
 }
 }
 const
-ClassOps
+JSClassOps
 PropertyIteratorObject
 :
 :

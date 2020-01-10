@@ -2114,7 +2114,7 @@ obj
 }
 static
 const
-ClassOps
+JSClassOps
 SharedArrayBufferObjectClassOps
 =
 {

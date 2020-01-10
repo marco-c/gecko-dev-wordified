@@ -345,7 +345,7 @@ intl
 StringsAreEqual
 ;
 const
-ClassOps
+JSClassOps
 CollatorObject
 :
 :

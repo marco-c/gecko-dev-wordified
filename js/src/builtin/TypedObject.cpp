@@ -1599,7 +1599,7 @@ is
 /
 static
 const
-ClassOps
+JSClassOps
 ScalarTypeDescrClassOps
 =
 {
@@ -2605,7 +2605,7 @@ is
 /
 static
 const
-ClassOps
+JSClassOps
 ReferenceTypeDescrClassOps
 =
 {
@@ -3618,7 +3618,7 @@ SingletonObject
 }
 static
 const
-ClassOps
+JSClassOps
 ArrayTypeDescrClassOps
 =
 {
@@ -5126,7 +5126,7 @@ class
 /
 static
 const
-ClassOps
+JSClassOps
 StructTypeDescrClassOps
 =
 {
@@ -14858,7 +14858,7 @@ Moved
 \
 static
 const
-ClassOps
+JSClassOps
 Name
 #
 #

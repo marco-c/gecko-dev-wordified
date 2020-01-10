@@ -916,7 +916,7 @@ MODULE_SLOT
 ;
 static
 const
-ClassOps
+JSClassOps
 classOps_
 ;
 static
@@ -1198,7 +1198,7 @@ CELL_SLOT
 ;
 static
 const
-ClassOps
+JSClassOps
 classOps_
 ;
 static
@@ -1574,7 +1574,7 @@ GLOBALS_SLOT
 ;
 static
 const
-ClassOps
+JSClassOps
 classOps_
 ;
 static
@@ -2071,7 +2071,7 @@ OBSERVERS_SLOT
 ;
 static
 const
-ClassOps
+JSClassOps
 classOps_
 ;
 static
@@ -2511,7 +2511,7 @@ TABLE_SLOT
 ;
 static
 const
-ClassOps
+JSClassOps
 classOps_
 ;
 bool

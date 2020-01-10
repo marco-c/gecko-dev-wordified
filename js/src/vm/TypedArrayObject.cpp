@@ -13350,7 +13350,7 @@ boilerplate
 /
 static
 const
-ClassOps
+JSClassOps
 TypedArrayClassOps
 =
 {

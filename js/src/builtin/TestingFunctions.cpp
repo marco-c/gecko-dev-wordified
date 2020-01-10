@@ -19683,7 +19683,7 @@ discard
 ;
 static
 const
-ClassOps
+JSClassOps
 CloneBufferObjectClassOps
 =
 {

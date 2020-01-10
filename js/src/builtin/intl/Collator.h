@@ -333,7 +333,7 @@ private
 :
 static
 const
-ClassOps
+JSClassOps
 classOps_
 ;
 static

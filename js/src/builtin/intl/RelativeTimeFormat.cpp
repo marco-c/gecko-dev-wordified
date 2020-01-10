@@ -326,7 +326,7 @@ RelativeTimeFormat
 *
 /
 const
-ClassOps
+JSClassOps
 RelativeTimeFormatObject
 :
 :

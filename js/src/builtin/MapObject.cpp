@@ -1142,7 +1142,7 @@ namespace
 /
 static
 const
-ClassOps
+JSClassOps
 MapIteratorObjectClassOps
 =
 {
@@ -2792,7 +2792,7 @@ Map
 *
 /
 const
-ClassOps
+JSClassOps
 MapObject
 :
 :
@@ -6487,7 +6487,7 @@ SetIterator
 /
 static
 const
-ClassOps
+JSClassOps
 SetIteratorObjectClassOps
 =
 {
@@ -7925,7 +7925,7 @@ Set
 *
 /
 const
-ClassOps
+JSClassOps
 SetObject
 :
 :

@@ -1083,7 +1083,7 @@ shared
 }
 static
 const
-ClassOps
+JSClassOps
 RegExpObjectClassOps
 =
 {

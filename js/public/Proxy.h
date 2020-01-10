@@ -646,7 +646,7 @@ and
 *
 properties
 .
-ClassOps
+JSClassOps
 and
 ObjectOps
 may
@@ -697,7 +697,7 @@ standard
 internal
 methods
 .
-ClassOps
+JSClassOps
 and
 ObjectOps
 for
@@ -726,7 +726,7 @@ TypedObjects
 These
 rely
 on
-ClassOps
+JSClassOps
 *
 and
 ObjectOps
@@ -741,7 +741,7 @@ Native
 objects
 with
 custom
-ClassOps
+JSClassOps
 /
 ObjectOps
 are
@@ -5033,10 +5033,7 @@ endif
 extern
 JS_FRIEND_DATA
 const
-js
-:
-:
-ClassOps
+JSClassOps
 ProxyClassOps
 ;
 extern

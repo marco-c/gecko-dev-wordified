@@ -10857,7 +10857,7 @@ trc
 }
 static
 const
-ClassOps
+JSClassOps
 ScriptSourceObjectClassOps
 =
 {

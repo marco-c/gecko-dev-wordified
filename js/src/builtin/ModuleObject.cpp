@@ -4930,7 +4930,7 @@ static
 *
 /
 const
-ClassOps
+JSClassOps
 ModuleObject
 :
 :

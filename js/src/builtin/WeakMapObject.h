@@ -229,7 +229,7 @@ protected
 :
 static
 const
-ClassOps
+JSClassOps
 classOps_
 ;
 }

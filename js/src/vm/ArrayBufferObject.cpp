@@ -1966,7 +1966,7 @@ base
 /
 static
 const
-ClassOps
+JSClassOps
 ArrayBufferObjectClassOps
 =
 {

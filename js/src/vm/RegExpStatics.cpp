@@ -330,7 +330,7 @@ trc
 }
 static
 const
-ClassOps
+JSClassOps
 RegExpStaticsObjectClassOps
 =
 {

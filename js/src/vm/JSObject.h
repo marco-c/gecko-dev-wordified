@@ -8427,10 +8427,7 @@ needs
 a
 custom
 *
-js
-:
-:
-ClassOps
+JSClassOps
 :
 :
 trace
@@ -8471,10 +8468,7 @@ MyObject
 >
 as
 your
-js
-:
-:
-ClassOps
+JSClassOps
 :
 :
 trace

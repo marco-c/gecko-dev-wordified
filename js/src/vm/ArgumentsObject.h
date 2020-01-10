@@ -2896,7 +2896,7 @@ ArgumentsObject
 {
 static
 const
-ClassOps
+JSClassOps
 classOps_
 ;
 static
@@ -3059,7 +3059,7 @@ ArgumentsObject
 {
 static
 const
-ClassOps
+JSClassOps
 classOps_
 ;
 static
