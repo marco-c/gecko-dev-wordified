@@ -270,9 +270,9 @@ querySelector
 .
 js
 -
-start
--
 link
+-
+start
 :
 not
 (
@@ -312,9 +312,9 @@ querySelector
 .
 js
 -
-start
--
 link
+-
+start
 "
 )
 ;
@@ -553,9 +553,9 @@ querySelector
 .
 js
 -
-start
--
 link
+-
+start
 "
 )
 )
@@ -570,9 +570,9 @@ querySelector
 .
 js
 -
-start
--
 link
+-
+start
 .
 disabled
 -

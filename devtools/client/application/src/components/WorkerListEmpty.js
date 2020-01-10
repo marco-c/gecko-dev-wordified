@@ -127,7 +127,6 @@ const
 {
 a
 article
-h1
 li
 p
 ul
@@ -393,7 +392,7 @@ openDocumentation
 }
 )
 }
-h1
+p
 (
 {
 className

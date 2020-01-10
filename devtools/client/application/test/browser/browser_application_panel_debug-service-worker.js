@@ -285,9 +285,9 @@ querySelector
 .
 js
 -
-debug
--
 link
+-
+debug
 :
 not
 (
@@ -348,9 +348,9 @@ querySelector
 .
 js
 -
-debug
--
 link
+-
+debug
 "
 )
 ;
