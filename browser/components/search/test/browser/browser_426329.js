@@ -320,7 +320,7 @@ richlistbox
 return
 Array
 .
-map
+from
 (
 searchBar
 .

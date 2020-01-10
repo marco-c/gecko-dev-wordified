@@ -390,7 +390,11 @@ gArgs
 =
 Array
 .
+prototype
+.
 slice
+.
+call
 (
 arguments
 1

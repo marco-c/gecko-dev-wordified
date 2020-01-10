@@ -7902,7 +7902,7 @@ got
 +
 Array
 .
-slice
+from
 (
 px
 )
@@ -7917,7 +7917,7 @@ Ref
 +
 Array
 .
-slice
+from
 (
 h
 .
@@ -8048,7 +8048,7 @@ playing
 +
 Array
 .
-slice
+from
 (
 px
 )
@@ -8061,7 +8061,7 @@ vs
 +
 Array
 .
-slice
+from
 (
 startPixel
 .
@@ -8194,7 +8194,7 @@ paused
 +
 Array
 .
-slice
+from
 (
 px
 )
@@ -8207,7 +8207,7 @@ vs
 +
 Array
 .
-slice
+from
 (
 startPixel
 .

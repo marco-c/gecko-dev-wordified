@@ -687,7 +687,7 @@ showOnlyTheseTabs
 (
 Array
 .
-slice
+from
 (
 gBrowser
 .

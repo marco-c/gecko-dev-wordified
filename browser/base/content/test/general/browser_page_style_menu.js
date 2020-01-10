@@ -232,7 +232,11 @@ contentValidLinks
 ;
 Array
 .
+prototype
+.
 forEach
+.
+call
 (
 content
 .

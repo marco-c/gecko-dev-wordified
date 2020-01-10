@@ -1826,7 +1826,7 @@ push
 (
 Array
 .
-slice
+from
 (
 arguments
 )

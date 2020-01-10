@@ -247,7 +247,7 @@ set
 :
 Array
 .
-slice
+from
 (
 arguments
 )

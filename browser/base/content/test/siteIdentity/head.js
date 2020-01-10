@@ -2208,7 +2208,11 @@ is
 (
 Array
 .
+prototype
+.
 filter
+.
+call
 (
 doc
 .

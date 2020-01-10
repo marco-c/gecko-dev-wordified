@@ -50,8 +50,8 @@ rerendering
 .
 *
 /
+async
 function
-*
 spawnTest
 (
 )
@@ -62,7 +62,7 @@ target
 panel
 }
 =
-yield
+await
 initPerformance
 (
 SIMPLE_URL
@@ -90,7 +90,7 @@ MAX_MARKERS_SELECT
 =
 20
 ;
-yield
+await
 startRecording
 (
 panel
@@ -131,7 +131,7 @@ updated
 ok
 (
 (
-yield
+await
 waitUntil
 (
 (
@@ -160,7 +160,7 @@ times
 ok
 (
 (
-yield
+await
 waitUntil
 (
 (
@@ -192,7 +192,7 @@ available
 "
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -308,7 +308,7 @@ end
 }
 )
 ;
-yield
+await
 rerendered
 ;
 ok
@@ -437,7 +437,11 @@ is
 (
 Array
 .
+prototype
+.
 indexOf
+.
+call
 (
 (
 "
@@ -537,7 +541,7 @@ WaterfallView
 detailsSplitter
 )
 ;
-yield
+await
 rerendered
 ;
 let
@@ -591,7 +595,11 @@ is
 (
 Array
 .
+prototype
+.
 indexOf
+.
+call
 (
 (
 "
@@ -655,7 +663,7 @@ visible
 "
 )
 ;
-yield
+await
 teardown
 (
 panel

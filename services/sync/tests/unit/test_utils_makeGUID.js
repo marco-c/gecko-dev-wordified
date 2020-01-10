@@ -146,7 +146,11 @@ ok
 (
 Array
 .
+prototype
+.
 every
+.
+call
 (
 newGuid
 function

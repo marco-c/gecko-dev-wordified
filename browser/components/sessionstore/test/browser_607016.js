@@ -1052,7 +1052,7 @@ all
 (
 Array
 .
-map
+from
 (
 gBrowser
 .

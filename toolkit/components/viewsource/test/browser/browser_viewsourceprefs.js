@@ -1169,7 +1169,11 @@ span
 return
 Array
 .
+prototype
+.
 some
+.
+call
 (
 spans
 (

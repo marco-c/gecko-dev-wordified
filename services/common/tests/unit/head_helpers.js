@@ -485,7 +485,7 @@ print
 (
 Array
 .
-slice
+from
 (
 arguments
 )

@@ -196,7 +196,11 @@ a
 =
 Array
 .
+prototype
+.
 slice
+.
+call
 (
 arguments
 )
