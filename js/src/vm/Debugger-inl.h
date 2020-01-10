@@ -493,6 +493,7 @@ script
 static
 *
 /
+inline
 js
 :
 :
@@ -568,6 +569,7 @@ frame
 static
 *
 /
+inline
 js
 :
 :
@@ -643,6 +645,7 @@ frame
 static
 *
 /
+inline
 js
 :
 :
@@ -698,6 +701,7 @@ frame
 static
 *
 /
+inline
 js
 :
 :
@@ -753,6 +757,7 @@ frame
 static
 *
 /
+inline
 void
 js
 :
@@ -801,6 +806,7 @@ wasmInstance
 static
 *
 /
+inline
 void
 js
 :
@@ -856,6 +862,7 @@ promise
 static
 *
 /
+inline
 void
 js
 :

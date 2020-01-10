@@ -12680,7 +12680,6 @@ fop
 =
 0
 ;
-inline
 bool
 isEnabled
 (
@@ -12723,7 +12722,6 @@ Breakpoint
 bp
 )
 ;
-inline
 Type
 type
 (
