@@ -354,6 +354,13 @@ PropTypes
 func
 .
 isRequired
+resendNetworkRequest
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 )
 timestampsVisible

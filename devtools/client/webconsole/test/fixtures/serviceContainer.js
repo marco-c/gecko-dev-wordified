@@ -115,6 +115,14 @@ openNetworkPanel
 >
 {
 }
+resendNetworkRequest
+:
+(
+)
+=
+>
+{
+}
 sourceMapService
 :
 {
