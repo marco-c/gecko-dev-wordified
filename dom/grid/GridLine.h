@@ -199,6 +199,18 @@ GetNames
 (
 nsTArray
 <
+nsCString
+>
+&
+aNames
+)
+const
+;
+void
+GetNames
+(
+nsTArray
+<
 nsString
 >
 &
@@ -272,7 +284,7 @@ SetLineValues
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aNames
@@ -294,7 +306,7 @@ SetLineNames
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aNames
@@ -310,7 +322,7 @@ mParent
 ;
 nsTArray
 <
-nsString
+nsCString
 >
 mNames
 ;

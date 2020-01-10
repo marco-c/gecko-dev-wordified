@@ -123,6 +123,13 @@ mozilla_dom_GridLines_h
 #
 include
 "
+nsCoord
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -137,6 +144,12 @@ h
 namespace
 mozilla
 {
+struct
+ComputedGridTrackInfo
+;
+struct
+ComputedGridLineInfo
+;
 namespace
 dom
 {
@@ -145,6 +158,9 @@ GridDimension
 ;
 class
 GridLine
+;
+class
+GridArea
 ;
 class
 GridLines
@@ -283,7 +299,7 @@ uint32_t
 aNumLeadingTracks
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aLineNames
