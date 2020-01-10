@@ -14491,7 +14491,7 @@ inputSource
 sourceMouseEvent
 -
 >
-inputSource
+mInputSource
 ;
 }
 else
@@ -14542,7 +14542,7 @@ pointerId
 ;
 event
 .
-inputSource
+mInputSource
 =
 inputSource
 ;

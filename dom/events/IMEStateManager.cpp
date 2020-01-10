@@ -5339,7 +5339,7 @@ cause
 aMouseEvent
 -
 >
-inputSource
+mInputSource
 =
 =
 MouseEvent_Binding

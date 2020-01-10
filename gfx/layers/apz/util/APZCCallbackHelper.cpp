@@ -4343,7 +4343,7 @@ eLeftButton
 ;
 event
 .
-inputSource
+mInputSource
 =
 dom
 :

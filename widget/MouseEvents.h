@@ -803,7 +803,7 @@ MouseEvent_Binding
 :
 MOZ_SOURCE_MOUSE
 .
-inputSource
+mInputSource
 (
 /
 *
@@ -878,7 +878,7 @@ MouseEvent_Binding
 :
 MOZ_SOURCE_MOUSE
 .
-inputSource
+mInputSource
 (
 /
 *
@@ -1132,7 +1132,7 @@ a
 in
 MouseEvent
 uint16_t
-inputSource
+mInputSource
 ;
 /
 /
@@ -1265,11 +1265,11 @@ aEvent
 .
 mHitCluster
 ;
-inputSource
+mInputSource
 =
 aEvent
 .
-inputSource
+mInputSource
 ;
 }
 /

@@ -987,7 +987,7 @@ WriteParam
 aMsg
 aParam
 .
-inputSource
+mInputSource
 )
 ;
 }
@@ -1082,7 +1082,7 @@ aIter
 aResult
 -
 >
-inputSource
+mInputSource
 )
 ;
 }

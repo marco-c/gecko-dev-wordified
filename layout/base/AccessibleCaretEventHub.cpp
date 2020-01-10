@@ -2948,7 +2948,7 @@ SetLastInputSource
 aEvent
 -
 >
-inputSource
+mInputSource
 )
 ;
 }

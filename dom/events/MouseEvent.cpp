@@ -287,7 +287,7 @@ LayoutDeviceIntPoint
 mouseEvent
 -
 >
-inputSource
+mInputSource
 =
 MouseEvent_Binding
 :
@@ -986,7 +986,7 @@ aPressure
 mouseEventBase
 -
 >
-inputSource
+mInputSource
 =
 aInputSource
 ;
@@ -1759,7 +1759,7 @@ AsMouseEventBase
 )
 -
 >
-inputSource
+mInputSource
 ;
 }
 }
