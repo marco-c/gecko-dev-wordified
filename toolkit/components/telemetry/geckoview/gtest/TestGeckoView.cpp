@@ -4047,6 +4047,8 @@ true
 )
 ;
 }
+/
+*
 TEST_F
 (
 TelemetryGeckoViewFixture
@@ -4320,3 +4322,5 @@ scalarsSnapshot
 )
 ;
 }
+*
+/
