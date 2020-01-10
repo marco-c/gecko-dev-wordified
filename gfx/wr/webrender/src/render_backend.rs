@@ -436,7 +436,7 @@ crate
 render_task
 :
 :
-RenderTaskGraphCounters
+RenderTaskTreeCounters
 ;
 use
 crate
@@ -2521,7 +2521,7 @@ size
 of
 render
 task
-graph
+tree
 to
 pre
 -
@@ -2539,7 +2539,7 @@ frame
 .
 render_task_counters
 :
-RenderTaskGraphCounters
+RenderTaskTreeCounters
 }
 impl
 Document
@@ -2687,7 +2687,7 @@ new
 )
 render_task_counters
 :
-RenderTaskGraphCounters
+RenderTaskTreeCounters
 :
 :
 new
@@ -11755,7 +11755,7 @@ new
 )
 render_task_counters
 :
-RenderTaskGraphCounters
+RenderTaskTreeCounters
 :
 :
 new

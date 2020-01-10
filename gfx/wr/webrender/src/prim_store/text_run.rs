@@ -182,7 +182,7 @@ render_task
 :
 :
 {
-RenderTaskGraph
+RenderTaskTree
 }
 ;
 use
@@ -1866,7 +1866,7 @@ render_tasks
 :
 &
 mut
-RenderTaskGraph
+RenderTaskTree
 scratch
 :
 &
