@@ -283,6 +283,60 @@ pword
 )
 )
 ;
+add_task
+(
+async
+function
+setup
+(
+)
+{
+/
+/
+Get
+a
+profile
+so
+we
+have
+storage
+access
+and
+insert
+the
+logins
+to
+get
+unique
+GUIDs
+.
+do_get_profile
+(
+)
+;
+matchingLogins
+=
+await
+Services
+.
+logins
+.
+addLogins
+(
+matchingLogins
+)
+;
+}
+)
+;
+add_task
+(
+async
+function
+test_all_patterns
+(
+)
+{
 let
 meta
 =
@@ -382,6 +436,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -389,6 +446,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -408,6 +466,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -415,6 +476,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -434,6 +496,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -441,6 +506,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -460,6 +526,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -467,6 +536,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -486,6 +556,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -493,6 +566,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -662,6 +736,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -669,6 +746,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -688,6 +766,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -695,6 +776,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -714,6 +796,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -721,6 +806,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -740,6 +826,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -747,6 +836,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -766,6 +856,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -773,6 +866,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -831,6 +925,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -838,6 +935,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -857,6 +955,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -864,6 +965,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -883,6 +985,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -890,6 +995,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -909,6 +1015,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -916,6 +1025,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -935,6 +1045,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -942,6 +1055,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1034,6 +1148,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1041,6 +1158,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1060,6 +1178,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1067,6 +1188,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1086,6 +1208,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1093,6 +1218,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1112,6 +1238,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1119,6 +1248,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1138,6 +1268,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1145,6 +1278,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1202,6 +1336,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1209,6 +1346,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1228,6 +1366,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1235,6 +1376,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1254,6 +1396,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1261,6 +1406,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1280,6 +1426,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1287,6 +1436,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1306,6 +1456,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1313,6 +1466,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1370,6 +1524,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1377,6 +1534,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1396,6 +1554,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1403,6 +1564,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1422,6 +1584,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1429,6 +1594,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1448,6 +1614,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1455,6 +1624,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1474,6 +1644,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1481,6 +1654,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1539,6 +1713,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1546,6 +1723,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1565,6 +1743,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1572,6 +1753,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1591,6 +1773,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1598,6 +1783,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1617,6 +1803,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1624,6 +1813,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1643,6 +1833,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1650,6 +1843,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1708,6 +1902,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1715,6 +1912,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1734,6 +1932,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1741,6 +1942,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1760,6 +1962,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1767,6 +1972,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1786,6 +1992,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1793,6 +2002,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1812,6 +2022,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1819,6 +2032,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1876,6 +2090,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1883,6 +2100,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1902,6 +2120,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1909,6 +2130,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1928,6 +2150,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1935,6 +2160,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1954,6 +2180,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1961,6 +2190,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -1980,6 +2210,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -1987,6 +2220,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2078,6 +2312,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2085,6 +2322,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2104,6 +2342,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2111,6 +2352,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2130,6 +2372,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2137,6 +2382,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2156,6 +2402,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2163,6 +2412,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2182,6 +2432,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2189,6 +2442,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2247,6 +2501,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2254,6 +2511,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2273,6 +2531,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2280,6 +2541,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2299,6 +2561,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2306,6 +2571,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2325,6 +2591,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2332,6 +2601,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2351,6 +2621,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2358,6 +2631,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2450,6 +2724,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2457,6 +2734,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2476,6 +2754,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2483,6 +2764,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2502,6 +2784,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2509,6 +2794,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2528,6 +2814,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2535,6 +2824,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2554,6 +2844,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2561,6 +2854,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2618,6 +2912,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2625,6 +2922,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2644,6 +2942,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2651,6 +2952,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2670,6 +2972,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2677,6 +2982,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2696,6 +3002,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2703,6 +3012,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2722,6 +3032,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2729,6 +3042,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2879,6 +3193,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2886,6 +3203,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2905,6 +3223,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2912,6 +3233,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2931,6 +3253,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2938,6 +3263,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2957,6 +3283,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2964,6 +3293,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -2983,6 +3313,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -2990,6 +3323,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -3048,6 +3382,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -3055,6 +3392,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -3074,6 +3412,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -3081,6 +3422,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -3100,6 +3442,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -3107,6 +3452,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -3126,6 +3472,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -3133,6 +3482,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -3152,6 +3502,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -3159,6 +3512,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -3217,6 +3571,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -3224,6 +3581,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -3243,6 +3601,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -3250,6 +3611,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -3269,6 +3631,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -3276,6 +3641,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -3295,6 +3661,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -3302,6 +3671,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -3321,6 +3691,9 @@ loginWithOrigin
 "
 comment
 :
+{
+comment
+:
 "
 mochi
 .
@@ -3328,6 +3701,7 @@ test
 :
 8888
 "
+}
 }
 {
 value
@@ -3528,14 +3902,6 @@ items
 }
 ]
 ;
-add_task
-(
-async
-function
-test_all_patterns
-(
-)
-{
 LoginHelper
 .
 createLogger
@@ -3729,14 +4095,65 @@ index
 }
 )
 ;
-equal
-(
+let
+actualComment
+=
 actual
 .
 getCommentAt
 (
 index
 )
+;
+if
+(
+typeof
+(
+item
+.
+comment
+)
+=
+=
+"
+object
+"
+)
+{
+let
+parsedComment
+=
+JSON
+.
+parse
+(
+actualComment
+)
+;
+equal
+(
+parsedComment
+.
+comment
+item
+.
+comment
+.
+comment
+Comment
+.
+comment
+{
+index
+}
+)
+;
+}
+else
+{
+equal
+(
+actualComment
 item
 .
 comment
@@ -3746,6 +4163,7 @@ index
 }
 )
 ;
+}
 }
 )
 ;
