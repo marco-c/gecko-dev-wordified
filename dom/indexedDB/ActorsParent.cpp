@@ -576,7 +576,7 @@ mozilla
 /
 dom
 /
-IPCBlobUtils
+IPCBlobInputStreamParent
 .
 h
 "
@@ -587,9 +587,7 @@ mozilla
 /
 dom
 /
-ipc
-/
-IPCBlobInputStreamParent
+IPCBlobUtils
 .
 h
 "
