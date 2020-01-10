@@ -2403,13 +2403,9 @@ nsResProtocolHandler
 GetSubstitutionInternal
 if
 (
-host
-.
-EqualsLiteral
+MustResolveJAR
 (
-"
-android
-"
+host
 )
 )
 {
