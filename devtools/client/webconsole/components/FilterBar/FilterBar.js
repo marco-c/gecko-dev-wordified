@@ -1892,9 +1892,13 @@ renderFiltersConfigBar
 (
 )
 !
+(
 hidePersistLogsCheckbox
 &
 &
+hideShowContentMessagesCheckbox
+)
+?
 dom
 .
 div
@@ -1909,6 +1913,8 @@ separator
 "
 }
 )
+:
+null
 !
 hidePersistLogsCheckbox
 &
