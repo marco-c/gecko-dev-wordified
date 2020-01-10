@@ -1727,6 +1727,17 @@ uint32_t
 aEvent
 )
 ;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvNavigationFinished
+(
+)
+;
 bool
 GetWebProgressListener
 (
