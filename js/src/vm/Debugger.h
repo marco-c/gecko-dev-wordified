@@ -12863,7 +12863,13 @@ result
 ;
 static
 MOZ_MUST_USE
-bool
+mozilla
+:
+:
+Maybe
+<
+Completion
+>
 call
 (
 JSContext
@@ -12878,8 +12884,6 @@ Handle
 ValueVector
 >
 args
-MutableHandleValue
-result
 )
 ;
 static
