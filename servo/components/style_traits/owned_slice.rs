@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+#
+!
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 !
