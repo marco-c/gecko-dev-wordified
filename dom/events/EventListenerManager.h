@@ -3452,6 +3452,16 @@ Document
 aDoc
 )
 ;
+void
+MaybeMarkPassive
+(
+EventMessage
+aMessage
+EventListenerFlags
+&
+aFlags
+)
+;
 nsAutoTObserverArray
 <
 Listener
