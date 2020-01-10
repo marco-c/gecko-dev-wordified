@@ -21618,6 +21618,14 @@ mWillChange
 aNewData
 .
 mWillChange
+|
+|
+mOverflowAnchor
+!
+=
+aNewData
+.
+mOverflowAnchor
 )
 )
 {
