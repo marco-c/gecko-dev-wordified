@@ -1774,10 +1774,6 @@ iface
 attributes
 .
 builtinclass
-or
-iface
-.
-implicit_builtinclass
 )
             
 (
