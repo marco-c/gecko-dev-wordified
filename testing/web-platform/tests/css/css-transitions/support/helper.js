@@ -1545,6 +1545,9 @@ remove
 )
 ;
 }
+return
+extraStyle
+;
 }
 ;
 /
