@@ -4699,6 +4699,7 @@ Debug
 Deserialize
 Eq
 Hash
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -4780,8 +4781,11 @@ derive
 (
 Clone
 Debug
-PartialEq
 Deserialize
+Eq
+Hash
+MallocSizeOf
+PartialEq
 Serialize
 )
 ]
@@ -4867,8 +4871,11 @@ derive
 (
 Clone
 Debug
-PartialEq
 Deserialize
+Eq
+Hash
+MallocSizeOf
+PartialEq
 Serialize
 )
 ]
@@ -4909,8 +4916,11 @@ derive
 (
 Clone
 Debug
-PartialEq
 Deserialize
+Eq
+Hash
+MallocSizeOf
+PartialEq
 Serialize
 )
 ]
