@@ -979,8 +979,6 @@ err
 )
 ;
 }
-default
-:
 break
 ;
 }
