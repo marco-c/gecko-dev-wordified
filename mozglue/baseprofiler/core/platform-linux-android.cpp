@@ -691,7 +691,14 @@ gettid
 if
 defined
 (
-__GLIBC__
+__linux__
+)
+|
+|
+!
+defined
+(
+__BIONIC__
 )
 return
 static_cast
