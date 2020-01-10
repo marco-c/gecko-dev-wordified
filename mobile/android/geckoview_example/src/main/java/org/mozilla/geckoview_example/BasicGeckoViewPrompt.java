@@ -4898,6 +4898,8 @@ String
 [
 ]
 mimeTypes
+int
+capture
 FileCallback
 callback
 )
