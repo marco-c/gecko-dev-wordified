@@ -215,7 +215,7 @@ panel
 querySelector
 (
 "
-#
+.
 urlbarView
 -
 results

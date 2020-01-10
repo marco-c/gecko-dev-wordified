@@ -4704,10 +4704,8 @@ autocomplete
 inc
 .
 css
-#
-urlbar
--
-results
+.
+urlbarView
 {
 font
 -
