@@ -1517,6 +1517,12 @@ WorkerRunnable
 >
 mPendingFunctionalEvents
 ;
+RefPtr
+<
+Inner
+>
+mInner
+;
 /
 /
 Used
