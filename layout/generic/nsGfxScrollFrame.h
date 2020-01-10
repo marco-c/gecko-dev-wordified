@@ -2900,6 +2900,12 @@ UsesContainerScrolling
 )
 const
 ;
+bool
+UsesOverlayScrollbars
+(
+)
+const
+;
 /
 /
 In
