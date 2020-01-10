@@ -328,6 +328,9 @@ uint32_t
 delta
 )
 ;
+#
+ifndef
+WASM_HUGE_MEMORY
 /
 /
 Extend
@@ -414,6 +417,8 @@ size_t
 newMappedSize
 )
 ;
+#
+endif
 /
 /
 Remove
@@ -1023,6 +1028,12 @@ this
 )
 ;
 }
+uint32_t
+wasmBoundsCheckLimit
+(
+)
+const
+;
 inline
 bool
 isPreparedForAsmJS
@@ -2874,6 +2885,9 @@ JSContext
 cx
 )
 ;
+#
+ifndef
+WASM_HUGE_MEMORY
 static
 MOZ_MUST_USE
 bool
@@ -2897,6 +2911,14 @@ JSContext
 *
 cx
 )
+;
+#
+endif
+uint32_t
+wasmBoundsCheckLimit
+(
+)
+const
 ;
 static
 void
