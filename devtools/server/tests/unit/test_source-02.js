@@ -387,14 +387,6 @@ column
 {
 line
 :
-2
-column
-:
-8
-}
-{
-line
-:
 3
 column
 :
@@ -463,7 +455,6 @@ response
 :
 [
 2
-8
 ]
 3
 :
