@@ -566,7 +566,10 @@ is
 going
 away
 .
-MediaTransportChild
+dom
+:
+:
+PMediaTransportChild
 *
 mChild
 =
