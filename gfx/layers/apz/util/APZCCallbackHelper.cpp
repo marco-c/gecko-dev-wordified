@@ -5247,9 +5247,13 @@ mRenderRoot
 gfxUtils
 :
 :
-RecursivelyGetRenderRootForElement
+RecursivelyGetRenderRootForFrame
 (
-dpElement
+target
+?
+target
+:
+aRootFrame
 )
 ;
 }
