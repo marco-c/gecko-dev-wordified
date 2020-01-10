@@ -3464,6 +3464,7 @@ it
 ;
 }
 auto
+&
 record
 =
 entry
