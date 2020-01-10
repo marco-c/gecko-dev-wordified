@@ -363,8 +363,9 @@ URLAndReferrerInfo
 nsIURI
 *
 aURI
+const
 URLExtraData
-*
+&
 aExtraData
 )
 :
@@ -375,8 +376,7 @@ aURI
 mReferrer
 (
 aExtraData
--
->
+.
 GetReferrer
 (
 )
@@ -384,8 +384,7 @@ GetReferrer
 mReferrerPolicy
 (
 aExtraData
--
->
+.
 GetReferrerPolicy
 (
 )
