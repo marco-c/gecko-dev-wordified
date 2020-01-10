@@ -411,7 +411,9 @@ onReorder
 waitForEvent
 (
 EVENT_REORDER
-id2
+"
+container2_child
+"
 )
 ;
 /

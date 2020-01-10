@@ -52784,6 +52784,14 @@ ifdef
 ACCESSIBILITY
 if
 (
+aFlags
+!
+=
+REMOVE_FOR_RECONSTRUCTION
+)
+{
+if
+(
 nsAccessibilityService
 *
 accService
@@ -52805,6 +52813,7 @@ mPresShell
 aChild
 )
 ;
+}
 }
 #
 endif
