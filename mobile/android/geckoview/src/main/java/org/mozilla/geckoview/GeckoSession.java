@@ -3688,7 +3688,7 @@ callback
 {
 Log
 .
-i
+d
 (
 LOGTAG
 "
@@ -4494,7 +4494,7 @@ callback
 {
 Log
 .
-i
+d
 (
 LOGTAG
 "
