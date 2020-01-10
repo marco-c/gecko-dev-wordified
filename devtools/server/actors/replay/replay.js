@@ -1966,6 +1966,15 @@ create
 ;
 subject
 .
+QueryInterface
+(
+Ci
+.
+nsIDocShell
+)
+;
+subject
+.
 watchedByDevtools
 =
 true
