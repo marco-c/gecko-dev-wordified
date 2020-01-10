@@ -834,9 +834,7 @@ frameType
 aFrame
 -
 >
-GetFrameType
-(
-)
+mFrameType
 ;
 const
 bool
@@ -934,9 +932,7 @@ timeCode
 aFrame
 -
 >
-GetTimeStamp
-(
-)
+mTime
 /
 (
 (
@@ -1143,9 +1139,7 @@ mClusterTimecode
 aFrame
 -
 >
-GetTimeStamp
-(
-)
+mTime
 /
 PR_USEC_PER_MSEC
 ;
@@ -1172,9 +1166,7 @@ timeCode
 aFrame
 -
 >
-GetTimeStamp
-(
-)
+mTime
 /
 (
 (

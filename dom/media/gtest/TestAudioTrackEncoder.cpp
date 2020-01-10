@@ -1562,9 +1562,7 @@ totalDuration
 frame
 -
 >
-GetDuration
-(
-)
+mDuration
 ;
 }
 /
