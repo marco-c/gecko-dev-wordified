@@ -315,8 +315,9 @@ nsContentSecurityManager
 :
 AssertEvalNotUsingSystemPrincipal
 (
-aSubjectPrincipal
 cx
+aSubjectPrincipal
+aExpression
 )
 ;
 #
