@@ -1208,14 +1208,9 @@ start
 (
 address
 handler
-&
 extension_routes
 (
 )
-[
-.
-.
-]
 )
 ?
 ;
