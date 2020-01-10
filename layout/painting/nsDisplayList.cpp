@@ -8468,6 +8468,10 @@ mMode
 (
 aMode
 )
+mTableBackgroundSet
+(
+nullptr
+)
 mCurrentScrollParentId
 (
 ScrollableLayerGuid

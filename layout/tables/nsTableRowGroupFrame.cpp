@@ -1632,10 +1632,9 @@ aFrame
 nsDisplayListBuilder
 *
 aBuilder
-const
-nsDisplayListSet
-&
-aLists
+nsDisplayList
+*
+aList
 const
 nsTArray
 <
@@ -1871,11 +1870,7 @@ AppendBackgroundItemsToTop
 aBuilder
 aFrame
 cellRect
-aLists
-.
-BorderBackground
-(
-)
+aList
 false
 nullptr
 aFrame
