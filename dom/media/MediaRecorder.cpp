@@ -2958,6 +2958,14 @@ NS_IsMainThread
 )
 )
 ;
+aRecorder
+-
+>
+GetMimeType
+(
+mMimeType
+)
+;
 mMaxMemory
 =
 Preferences
@@ -5898,11 +5906,7 @@ MediaEncoder
 CreateEncoder
 (
 mEncoderThread
-NS_LITERAL_STRING
-(
-"
-"
-)
+mMimeType
 audioBitrate
 videoBitrate
 aTrackTypes
