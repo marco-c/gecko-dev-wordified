@@ -108,7 +108,11 @@ WorkersListener
 require
 (
 "
-.
+devtools
+/
+client
+/
+shared
 /
 workers
 -
