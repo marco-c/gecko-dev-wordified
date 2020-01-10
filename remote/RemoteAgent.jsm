@@ -905,7 +905,8 @@ try
 {
 /
 /
-Disconnect
+Destroy
+all
 the
 targets
 first
@@ -918,7 +919,7 @@ all
 pending
 /
 /
-connection
+connections
 first
 .
 Otherwise
@@ -936,7 +937,7 @@ this
 .
 targets
 .
-clear
+destructor
 (
 )
 ;
