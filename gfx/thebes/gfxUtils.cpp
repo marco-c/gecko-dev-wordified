@@ -10402,7 +10402,7 @@ return
 StaticPrefs
 :
 :
-LayoutDumpDisplayList
+layout_display_list_dump
 (
 )
 |
@@ -10411,7 +10411,7 @@ LayoutDumpDisplayList
 StaticPrefs
 :
 :
-LayoutDumpDisplayListParent
+layout_display_list_dump_parent
 (
 )
 &
@@ -10426,7 +10426,7 @@ XRE_IsParentProcess
 StaticPrefs
 :
 :
-LayoutDumpDisplayListContent
+layout_display_list_dump_content
 (
 )
 &

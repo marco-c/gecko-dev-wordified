@@ -6725,7 +6725,7 @@ nsDependentCString
 StaticPrefs
 :
 :
-GetLayoutFrameRatePrefName
+Getlayout_frame_ratePrefName
 (
 )
 )
@@ -20214,7 +20214,7 @@ return
 StaticPrefs
 :
 :
-LayoutFrameRate
+layout_frame_rate
 (
 )
 =
@@ -20239,7 +20239,7 @@ return
 StaticPrefs
 :
 :
-LayoutFrameRate
+layout_frame_rate
 (
 )
 >
@@ -20273,7 +20273,7 @@ preferenceRate
 StaticPrefs
 :
 :
-LayoutFrameRate
+layout_frame_rate
 (
 )
 ;

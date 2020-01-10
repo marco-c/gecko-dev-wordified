@@ -10541,7 +10541,7 @@ document
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 ;
@@ -17977,7 +17977,7 @@ if
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 )
@@ -19226,7 +19226,7 @@ resolutionUniform
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 ?
@@ -19474,7 +19474,7 @@ if
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 )
@@ -23853,7 +23853,7 @@ if
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 )
@@ -41738,13 +41738,13 @@ nsIntSize
 StaticPrefs
 :
 :
-LayoutMinActiveLayerSize
+layout_min_active_layer_size
 (
 )
 StaticPrefs
 :
 :
-LayoutMinActiveLayerSize
+layout_min_active_layer_size
 (
 )
 )
@@ -47098,7 +47098,7 @@ rootLayerResolution
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 ?
@@ -47145,7 +47145,7 @@ if
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 )
@@ -52436,7 +52436,7 @@ UseWebRender
 StaticPrefs
 :
 :
-LayoutFlattenTransform
+layout_display_list_flatten_transform
 (
 )
 )
@@ -55095,7 +55095,7 @@ viewportRatioX
 StaticPrefs
 :
 :
-AnimationPrerenderViewportRatioLimitX
+layout_animation_prerender_viewport_ratio_limit_x
 (
 )
 ;
@@ -55105,7 +55105,7 @@ viewportRatioY
 StaticPrefs
 :
 :
-AnimationPrerenderViewportRatioLimitY
+layout_animation_prerender_viewport_ratio_limit_y
 (
 )
 ;
@@ -55115,7 +55115,7 @@ absoluteLimitX
 StaticPrefs
 :
 :
-AnimationPrerenderAbsoluteLimitX
+layout_animation_prerender_absolute_limit_x
 (
 )
 ;
@@ -55125,7 +55125,7 @@ absoluteLimitY
 StaticPrefs
 :
 :
-AnimationPrerenderAbsoluteLimitY
+layout_animation_prerender_absolute_limit_y
 (
 )
 ;
@@ -55369,7 +55369,7 @@ if
 StaticPrefs
 :
 :
-PartiallyPrerenderAnimatedContent
+layout_animation_prerender_partial
 (
 )
 )
@@ -66788,7 +66788,7 @@ if
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 )

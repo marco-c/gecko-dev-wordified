@@ -296,15 +296,6 @@ include
 "
 mozilla
 /
-RangeUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Sprintf
 .
 h
@@ -22123,7 +22114,7 @@ if
 StaticPrefs
 :
 :
-ScrollBehaviorEnabled
+layout_css_scroll_behavior_enabled
 (
 )
 &
@@ -30573,7 +30564,7 @@ after
 nsresult
 rv
 =
-RangeUtils
+nsRange
 :
 :
 CompareNodeToRange
@@ -33972,7 +33963,7 @@ AddForSubDocument
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 )

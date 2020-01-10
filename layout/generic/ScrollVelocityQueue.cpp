@@ -168,7 +168,7 @@ flingSensitivity
 StaticPrefs
 :
 :
-ScrollSnapPredictionSensitivity
+layout_css_scroll_snap_prediction_sensitivity
 (
 )
 ;
@@ -178,7 +178,7 @@ maxVelocity
 StaticPrefs
 :
 :
-ScrollSnapPredictionMaxVelocity
+layout_css_scroll_snap_prediction_max_velocity
 (
 )
 ;

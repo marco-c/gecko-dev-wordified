@@ -655,7 +655,7 @@ mVerifyOrder
 StaticPrefs
 :
 :
-LayoutVerifyRetainDisplayListOrder
+layout_display_list_retain_verify_order
 (
 )
 ;

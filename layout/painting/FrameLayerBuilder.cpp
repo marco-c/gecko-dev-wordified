@@ -19546,7 +19546,7 @@ if
 StaticPrefs
 :
 :
-LayoutSmallerPaintedLayers
+layout_smaller_painted_layers
 (
 )
 )
@@ -33018,7 +33018,7 @@ TYPE_RESOLUTION
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 )
@@ -39357,7 +39357,7 @@ if
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 )
@@ -39379,7 +39379,7 @@ the
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 case
@@ -41875,7 +41875,7 @@ aContainerItem
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 )
@@ -47308,7 +47308,7 @@ if
 StaticPrefs
 :
 :
-LayoutPaintRectsSeparately
+layout_paint_rects_separately
 (
 )
 |

@@ -2355,7 +2355,7 @@ proximityThreshold
 StaticPrefs
 :
 :
-ScrollSnapProximityThreshold
+layout_css_scroll_snap_proximity_threshold
 (
 )
 ;

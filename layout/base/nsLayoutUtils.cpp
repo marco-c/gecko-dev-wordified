@@ -3840,7 +3840,7 @@ return
 StaticPrefs
 :
 :
-LayoutRetainDisplayList
+layout_display_list_retain
 (
 )
 ;
@@ -3857,7 +3857,7 @@ return
 StaticPrefs
 :
 :
-LayoutRetainDisplayList
+layout_display_list_retain
 (
 )
 ;
@@ -3873,7 +3873,7 @@ return
 StaticPrefs
 :
 :
-LayoutRetainDisplayListChrome
+layout_display_list_retain_chrome
 (
 )
 ;
@@ -8836,7 +8836,7 @@ if
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 )
@@ -26698,7 +26698,7 @@ if
 StaticPrefs
 :
 :
-LayoutVerifyRetainDisplayList
+layout_display_list_retain_verify
 (
 )
 )
@@ -26839,7 +26839,7 @@ if
 StaticPrefs
 :
 :
-LayoutDisplayListBuildTwice
+layout_display_list_build_twice
 (
 )
 )
@@ -64481,7 +64481,7 @@ addMetrics
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 |
@@ -64555,7 +64555,7 @@ frame
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 &

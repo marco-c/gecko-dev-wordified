@@ -2922,7 +2922,7 @@ if
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 |
@@ -3952,7 +3952,7 @@ IsForEventDelivery
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 &
