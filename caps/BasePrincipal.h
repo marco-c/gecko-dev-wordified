@@ -900,17 +900,6 @@ already_AddRefed
 <
 BasePrincipal
 >
-CloneForcingFirstPartyDomain
-(
-nsIURI
-*
-aURI
-)
-;
-already_AddRefed
-<
-BasePrincipal
->
 CloneForcingOriginAttributes
 (
 const
