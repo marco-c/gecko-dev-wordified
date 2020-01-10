@@ -4716,7 +4716,7 @@ sCSMLog
 LogLevel
 :
 :
-Debug
+Verbose
 (
 "
 doContentSecurityCheck
@@ -4733,7 +4733,7 @@ sCSMLog
 LogLevel
 :
 :
-Debug
+Verbose
 (
 "
 channelURI
@@ -4791,7 +4791,7 @@ sCSMLog
 LogLevel
 :
 :
-Debug
+Verbose
 (
 "
 HTTP
@@ -4883,7 +4883,7 @@ sCSMLog
 LogLevel
 :
 :
-Debug
+Verbose
 (
 "
 RedirectChain
@@ -4944,7 +4944,7 @@ sCSMLog
 LogLevel
 :
 :
-Debug
+Verbose
 (
 "
 internalContentPolicyType
@@ -4969,7 +4969,7 @@ sCSMLog
 LogLevel
 :
 :
-Debug
+Verbose
 (
 "
 externalContentPolicyType
@@ -4994,7 +4994,7 @@ sCSMLog
 LogLevel
 :
 :
-Debug
+Verbose
 (
 "
 upgradeInsecureRequests
@@ -5027,7 +5027,7 @@ sCSMLog
 LogLevel
 :
 :
-Debug
+Verbose
 (
 "
 initalSecurityChecksDone
@@ -5175,7 +5175,7 @@ sCSMLog
 LogLevel
 :
 :
-Debug
+Verbose
 (
 "
 securityFlags
@@ -5200,7 +5200,7 @@ sCSMLog
 LogLevel
 :
 :
-Debug
+Verbose
 (
 "
 }
@@ -5933,7 +5933,7 @@ sCSMLog
 LogLevel
 :
 :
-Debug
+Verbose
 )
 )
 )
