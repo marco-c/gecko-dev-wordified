@@ -2159,6 +2159,7 @@ objects
 are
 tenured
 .
+MOZ_MUST_USE
 bool
 registerMallocedBuffer
 (
