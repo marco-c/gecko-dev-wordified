@@ -408,7 +408,7 @@ resolve
 ;
 AntiTracking
 .
-runTest
+runTestInNormalAndPrivateMode
 (
 "
 IndexedDB
