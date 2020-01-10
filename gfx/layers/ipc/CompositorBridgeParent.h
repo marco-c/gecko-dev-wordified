@@ -2600,16 +2600,6 @@ const
 override
 ;
 void
-NotifyWebRenderError
-(
-wr
-:
-:
-WebRenderError
-aError
-)
-;
-void
 NotifyWebRenderContextPurge
 (
 )

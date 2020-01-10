@@ -400,6 +400,17 @@ CompositorBridgeOptions
 aOpt
 )
 ;
+static
+void
+NotifyWebRenderError
+(
+wr
+:
+:
+WebRenderError
+aError
+)
+;
 private
 :
 static
