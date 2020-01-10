@@ -4707,12 +4707,6 @@ IsChrome
 )
 const
 ;
-bool
-IsChromeOriginImage
-(
-)
-const
-;
 /
 /
 Public
@@ -6181,11 +6175,6 @@ uint16_t
 aNewMode
 uint16_t
 aOldMode
-)
-;
-void
-GetDocumentColorPreferences
-(
 )
 ;
 void
