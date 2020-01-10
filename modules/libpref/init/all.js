@@ -29777,9 +29777,6 @@ sync
 -
 log
 telemetry
-url
--
-classifier
 welcomeback
 "
 )
