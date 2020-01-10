@@ -9602,13 +9602,6 @@ kObservedPrefs
 this
 )
 ;
-OriginAttributes
-:
-:
-InitPrefs
-(
-)
-;
 return
 NS_OK
 ;
