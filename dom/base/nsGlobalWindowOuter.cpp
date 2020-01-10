@@ -41866,6 +41866,16 @@ mIsClosed
 =
 true
 ;
+GetBrowsingContext
+(
+)
+-
+>
+SetClosed
+(
+true
+)
+;
 /
 /
 If
