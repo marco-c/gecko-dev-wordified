@@ -1523,7 +1523,7 @@ MainThread
 +
 actor
 :
-string
+ThreadId
 +
 url
 :
@@ -1542,7 +1542,7 @@ Worker
 +
 actor
 :
-string
+ThreadId
 +
 url
 :
