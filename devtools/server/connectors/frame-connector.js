@@ -153,10 +153,6 @@ emitter
 "
 )
 ;
-const
-FrameConnector
-=
-{
 /
 *
 *
@@ -265,7 +261,8 @@ established
 .
 *
 /
-startServer
+function
+connectToFrame
 (
 connection
 frame
@@ -1317,11 +1314,6 @@ actor
 ;
 }
 )
-.
-bind
-(
-this
-)
 ;
 /
 /
@@ -2016,11 +2008,9 @@ addonId
 )
 ;
 }
-}
-;
 exports
 .
-FrameConnector
+connectToFrame
 =
-FrameConnector
+connectToFrame
 ;

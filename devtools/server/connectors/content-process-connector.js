@@ -154,10 +154,6 @@ emitter
 "
 )
 ;
-const
-ContentProcessConnector
-=
-{
 /
 *
 *
@@ -196,7 +192,8 @@ connection
 .
 *
 /
-startServer
+function
+connectToContentProcess
 (
 connection
 mm
@@ -687,11 +684,9 @@ onClose
 )
 ;
 }
-}
-;
 exports
 .
-ContentProcessConnector
+connectToContentProcess
 =
-ContentProcessConnector
+connectToContentProcess
 ;

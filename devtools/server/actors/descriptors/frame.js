@@ -104,7 +104,7 @@ lazyRequireGetter
 (
 this
 "
-FrameConnector
+connectToFrame
 "
 "
 devtools
@@ -233,9 +233,7 @@ _connectMessageManager
 )
 {
 return
-FrameConnector
-.
-startServer
+connectToFrame
 (
 this
 .

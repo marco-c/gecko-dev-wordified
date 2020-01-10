@@ -97,10 +97,6 @@ transport
 true
 )
 ;
-const
-WorkerConnector
-=
-{
 /
 *
 *
@@ -127,7 +123,8 @@ connection
 .
 *
 /
-startServer
+function
+connectToWorker
 (
 connection
 dbg
@@ -994,11 +991,9 @@ listener
 )
 ;
 }
-}
-;
 exports
 .
-WorkerConnector
+connectToWorker
 =
-WorkerConnector
+connectToWorker
 ;
