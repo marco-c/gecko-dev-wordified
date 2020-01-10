@@ -655,6 +655,15 @@ Create
 (
 this
 opener
+?
+opener
+-
+>
+GetDOMWindow
+(
+)
+:
+nullptr
 false
 )
 ;
