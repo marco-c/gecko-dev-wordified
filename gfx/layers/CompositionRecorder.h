@@ -341,9 +341,8 @@ called
 /
 class
 CompositionRecorder
-final
 {
-NS_INLINE_DECL_REFCOUNTING
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 CompositionRecorder
 )
@@ -367,6 +366,7 @@ frame
 .
 *
 /
+virtual
 void
 RecordFrame
 (
@@ -393,6 +393,7 @@ images
 .
 *
 /
+virtual
 void
 WriteCollectedFrames
 (
@@ -400,10 +401,13 @@ WriteCollectedFrames
 ;
 protected
 :
+virtual
 ~
 CompositionRecorder
 (
 )
+=
+default
 ;
 private
 :
