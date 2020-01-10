@@ -200,7 +200,7 @@ aWord
 bool
 *
 aIsMisspelled
-InfallibleTArray
+nsTArray
 <
 nsString
 >
