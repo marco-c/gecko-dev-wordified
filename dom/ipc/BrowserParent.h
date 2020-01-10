@@ -4015,7 +4015,7 @@ RecvShowCanvasPermissionPrompt
 const
 nsCString
 &
-aOrigin
+aFirstPartyURI
 const
 bool
 &

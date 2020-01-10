@@ -336,13 +336,13 @@ callback
 )
 {
 let
-principal
+uri
 =
 BrowserApp
 .
 selectedBrowser
 .
-contentPrincipal
+currentURI
 ;
 let
 check
@@ -420,7 +420,7 @@ this
 .
 getPermission
 (
-principal
+uri
 type
 )
 ;
@@ -797,7 +797,7 @@ getPermission
 function
 getPermission
 (
-aPrincipal
+aURI
 aType
 )
 {
@@ -922,7 +922,7 @@ UNKNOWN_ACTION
 Geolocation
 consumers
 use
-testExactPermissionForPrincipal
+testExactPermission
 if
 (
 aType
@@ -937,9 +937,9 @@ Services
 .
 perms
 .
-testExactPermissionForPrincipal
+testExactPermission
 (
-aPrincipal
+aURI
 aType
 )
 ;
@@ -948,9 +948,9 @@ Services
 .
 perms
 .
-testPermissionForPrincipal
+testPermission
 (
-aPrincipal
+aURI
 aType
 )
 ;
@@ -1009,7 +1009,7 @@ clearPermission
 function
 clearPermission
 (
-aPrincipal
+aURI
 aType
 aContext
 )
@@ -1127,9 +1127,9 @@ Services
 .
 perms
 .
-removeFromPrincipal
+remove
 (
-aPrincipal
+aURI
 aType
 )
 ;
