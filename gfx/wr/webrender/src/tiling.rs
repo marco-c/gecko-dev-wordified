@@ -8175,7 +8175,7 @@ is_empty
 &
 self
 .
-filter_datas
+filter_primitives
 .
 is_empty
 (
