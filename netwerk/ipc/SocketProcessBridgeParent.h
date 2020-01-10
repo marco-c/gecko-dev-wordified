@@ -231,6 +231,16 @@ DeferredDestroy
 (
 )
 ;
+bool
+Closed
+(
+)
+const
+{
+return
+mClosed
+;
+}
 private
 :
 ~
@@ -240,6 +250,9 @@ SocketProcessBridgeParent
 ;
 ProcessId
 mId
+;
+bool
+mClosed
 ;
 }
 ;
