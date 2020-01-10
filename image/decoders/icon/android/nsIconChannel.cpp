@@ -284,7 +284,7 @@ data
 from
 remote
 process
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
