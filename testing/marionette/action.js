@@ -8089,11 +8089,11 @@ Services
 appinfo
 .
 OS
-=
+!
 =
 =
 "
-Darwin
+WINNT
 "
 )
 {
@@ -8181,11 +8181,11 @@ Services
 appinfo
 .
 OS
-=
+!
 =
 =
 "
-Darwin
+WINNT
 "
 )
 )
