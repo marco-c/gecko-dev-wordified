@@ -16984,9 +16984,9 @@ CloneLoadInfoForRedirect
 (
 nsIURI
 *
-newURI
+aNewURI
 uint32_t
-redirectFlags
+aRedirectFlags
 )
 {
 /
@@ -17271,7 +17271,7 @@ attrs
 SetFirstPartyDomain
 (
 true
-newURI
+aNewURI
 )
 ;
 newLoadInfo
@@ -17341,7 +17341,7 @@ bool
 isInternalRedirect
 =
 (
-redirectFlags
+aRedirectFlags
 &
 (
 nsIChannelEventSink
