@@ -5562,7 +5562,7 @@ tabs
 .
 unloadOnLowMemory
 "
-true
+false
 )
 ;
 pref
