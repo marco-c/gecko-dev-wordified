@@ -8641,6 +8641,9 @@ XPCWrappedNativeProto
 *
 GetNewOrUsed
 (
+JSContext
+*
+cx
 XPCWrappedNativeScope
 *
 scope
@@ -8946,6 +8949,9 @@ Set
 bool
 Init
 (
+JSContext
+*
+cx
 nsIXPCScriptable
 *
 scriptable
