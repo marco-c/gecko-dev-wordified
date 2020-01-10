@@ -9757,7 +9757,7 @@ index
 ]
 -
 >
-Kill
+Cancel
 (
 )
 )
