@@ -2373,14 +2373,6 @@ sameSiteAttr
 if
 (
 aIsSameSiteForeign
-&
-&
-nsCookieService
-:
-:
-IsSameSiteEnabled
-(
-)
 )
 {
 /
