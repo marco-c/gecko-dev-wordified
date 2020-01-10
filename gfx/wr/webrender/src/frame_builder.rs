@@ -970,7 +970,10 @@ tile_cache
 :
 Option
 <
+Box
+<
 TileCache
+>
 >
 pub
 retained_tiles

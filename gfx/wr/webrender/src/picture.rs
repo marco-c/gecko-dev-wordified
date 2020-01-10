@@ -15213,7 +15213,10 @@ tile_cache
 :
 Option
 <
+Box
+<
 TileCache
+>
 >
 /
 /
@@ -15970,7 +15973,10 @@ tile_cache
 :
 Option
 <
+Box
+<
 TileCache
+>
 >
 options
 :
