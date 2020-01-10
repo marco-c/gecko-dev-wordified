@@ -58555,7 +58555,7 @@ GetPerformanceNowUnclamped
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 DidDoReflow
