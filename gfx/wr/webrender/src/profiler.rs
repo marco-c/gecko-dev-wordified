@@ -99,6 +99,7 @@ Point2D
 Rect
 Size2D
 vec2
+default
 }
 ;
 use
@@ -3692,6 +3693,9 @@ DebugRenderer
 )
 -
 >
+default
+:
+:
 Rect
 <
 f32
@@ -4439,6 +4443,9 @@ DebugRenderer
 )
 -
 >
+default
+:
+:
 Rect
 <
 f32
@@ -5622,6 +5629,9 @@ DebugRenderer
 )
 -
 >
+default
+:
+:
 Rect
 <
 f32

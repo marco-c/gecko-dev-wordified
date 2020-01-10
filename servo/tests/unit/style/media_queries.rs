@@ -60,13 +60,13 @@ use
 euclid
 :
 :
-TypedScale
+Scale
 ;
 use
 euclid
 :
 :
-TypedSize2D
+Size2D
 ;
 use
 servo_arc
@@ -292,7 +292,7 @@ MediaType
 screen
 (
 )
-TypedSize2D
+Size2D
 :
 :
 new
@@ -304,7 +304,7 @@ new
 .
 0
 )
-TypedScale
+Scale
 :
 :
 new
@@ -4064,7 +4064,7 @@ MediaType
 screen
 (
 )
-TypedSize2D
+Size2D
 :
 :
 new
@@ -4076,7 +4076,7 @@ new
 .
 0
 )
-TypedScale
+Scale
 :
 :
 new
@@ -4274,7 +4274,7 @@ MediaType
 screen
 (
 )
-TypedSize2D
+Size2D
 :
 :
 new
@@ -4286,7 +4286,7 @@ new
 .
 0
 )
-TypedScale
+Scale
 :
 :
 new
@@ -5001,7 +5001,7 @@ MediaType
 screen
 (
 )
-TypedSize2D
+Size2D
 :
 :
 new
@@ -5013,7 +5013,7 @@ new
 .
 0
 )
-TypedScale
+Scale
 :
 :
 new

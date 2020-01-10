@@ -1271,6 +1271,7 @@ rectangle
 .
 contains
 (
+*
 point
 )
 HitTestRegion
@@ -1292,6 +1293,7 @@ rectangle
 .
 contains
 (
+*
 point
 )
 HitTestRegion
@@ -2040,7 +2042,6 @@ inverted
 .
 transform_point2d
 (
-&
 point
 )
 )
@@ -2250,7 +2251,6 @@ inverted
 .
 transform_point2d
 (
-&
 point
 )
 )
@@ -2316,7 +2316,6 @@ rect
 .
 contains
 (
-&
 point_in_layer
 )
 {
@@ -2331,7 +2330,6 @@ clip_rect
 .
 contains
 (
-&
 point_in_layer
 )
 {
@@ -2618,7 +2616,6 @@ inverted
 .
 transform_point2d
 (
-&
 point
 )
 )
@@ -2684,7 +2681,6 @@ rect
 .
 contains
 (
-&
 point_in_layer
 )
 {
@@ -2699,7 +2695,6 @@ clip_rect
 .
 contains
 (
-&
 point_in_layer
 )
 {
@@ -2921,7 +2916,6 @@ inverted
 .
 transform_point2d
 (
-&
 point
 )
 )
@@ -3301,7 +3295,6 @@ point
 let
 point
 =
-&
 LayoutPoint
 :
 :

@@ -714,7 +714,8 @@ euclid
 {
 rect
 Transform3D
-TypedScale
+Scale
+default
 }
 ;
 use
@@ -20022,7 +20023,7 @@ to_i32
 let
 device_to_framebuffer
 =
-TypedScale
+Scale
 :
 :
 new
@@ -20513,7 +20514,6 @@ target_rect
 .
 translate
 (
-&
 -
 content_origin
 .
@@ -20548,6 +20548,9 @@ TextureSource
 projection
 :
 &
+default
+:
+:
 Transform3D
 <
 f32
@@ -20647,6 +20650,9 @@ SvgFilterInstance
 projection
 :
 &
+default
+:
+:
 Transform3D
 <
 f32
@@ -20740,6 +20746,9 @@ DeviceIntPoint
 projection
 :
 &
+default
+:
+:
 Transform3D
 <
 f32
@@ -20942,6 +20951,9 @@ FramebufferKind
 projection
 :
 &
+default
+:
+:
 Transform3D
 <
 f32
@@ -22229,6 +22241,9 @@ RenderTaskGraph
 projection
 :
 &
+default
+:
+:
 Transform3D
 <
 f32
@@ -23130,7 +23145,6 @@ src_rect
 .
 translate
 (
-&
 -
 content_origin
 .
@@ -23200,6 +23214,9 @@ ClipBatchList
 projection
 :
 &
+default
+:
+:
 Transform3D
 <
 f32
@@ -23597,6 +23614,9 @@ AlphaRenderTarget
 projection
 :
 &
+default
+:
+:
 Transform3D
 <
 f32
@@ -26802,7 +26822,7 @@ ORTHO_FAR_PLANE
 let
 fb_scale
 =
-TypedScale
+Scale
 :
 :
 <
@@ -27644,6 +27664,9 @@ DeviceIntRect
 projection
 :
 &
+default
+:
+:
 Transform3D
 <
 f32
@@ -27752,6 +27775,9 @@ DeviceIntRect
 projection
 :
 &
+default
+:
+:
 Transform3D
 <
 f32
@@ -28544,7 +28570,6 @@ FramebufferIntSize
 :
 from_untyped
 (
-&
 source_rect
 .
 size
@@ -30228,7 +30253,6 @@ FramebufferIntSize
 :
 from_untyped
 (
-&
 texture
 .
 get_dimensions
@@ -34231,7 +34255,6 @@ FramebufferIntSize
 :
 from_untyped
 (
-&
 rect_size
 .
 to_untyped

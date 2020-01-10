@@ -92,7 +92,7 @@ use
 euclid
 :
 :
-TypedTransform3D
+Transform3D
 ;
 use
 crate
@@ -1010,7 +1010,7 @@ ScaleOffset
 )
 Transform
 (
-TypedTransform3D
+Transform3D
 <
 f32
 Src
@@ -1037,7 +1037,7 @@ self
 )
 -
 >
-TypedTransform3D
+Transform3D
 <
 f32
 Src
@@ -1053,7 +1053,7 @@ CoordinateSpaceMapping
 Local
 =
 >
-TypedTransform3D
+Transform3D
 :
 :
 identity
@@ -1909,7 +1909,7 @@ transform
 =
 transform
 .
-post_mul
+post_transform
 (
 &
 coord_system
@@ -1922,7 +1922,7 @@ transform
 =
 transform
 .
-post_mul
+post_transform
 (
 &
 parent
@@ -2071,7 +2071,7 @@ to_transform
 (
 )
 .
-post_mul
+post_transform
 (
 &
 system
@@ -4450,7 +4450,6 @@ m
 .
 transform_point2d
 (
-&
 p
 )
 .

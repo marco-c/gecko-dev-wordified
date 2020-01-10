@@ -722,6 +722,7 @@ rect
 .
 translate
 (
+*
 box_offset
 )
 .
@@ -1182,7 +1183,6 @@ dest_rect
 .
 translate
 (
-&
 LayoutVector2D
 :
 :

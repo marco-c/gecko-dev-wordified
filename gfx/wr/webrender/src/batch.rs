@@ -6711,7 +6711,7 @@ i32
 RasterizationSpace
 :
 :
-Local
+Screen
 as
 i32
 get_shader_opacity
@@ -7265,7 +7265,6 @@ local_rect
 .
 translate
 (
-&
 shadow
 .
 offset
@@ -10820,7 +10819,6 @@ local_rect
 .
 translate
 (
-&
 -
 prim_rect
 .
@@ -14512,7 +14510,6 @@ normalized_sub_rect
 .
 translate
 (
-&
 mask_origin
 )
 ;

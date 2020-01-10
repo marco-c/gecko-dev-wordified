@@ -31264,7 +31264,7 @@ mFill
 wr
 :
 :
-ToSideOffsets2D_i32
+ToDeviceIntSideOffsets
 (
 slice
 [
@@ -31286,7 +31286,7 @@ slice
 wr
 :
 :
-ToSideOffsets2D_f32
+ToLayoutSideOffsets
 (
 outset
 [
@@ -31526,7 +31526,7 @@ mFill
 wr
 :
 :
-ToSideOffsets2D_i32
+ToDeviceIntSideOffsets
 (
 slice
 [
@@ -31564,7 +31564,7 @@ extendMode
 wr
 :
 :
-ToSideOffsets2D_f32
+ToLayoutSideOffsets
 (
 outset
 [
@@ -31643,7 +31643,7 @@ extendMode
 wr
 :
 :
-ToSideOffsets2D_f32
+ToLayoutSideOffsets
 (
 outset
 [

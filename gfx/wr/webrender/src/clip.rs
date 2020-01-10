@@ -6705,7 +6705,6 @@ rect
 .
 translate
 (
-&
 self
 .
 offset
@@ -6815,6 +6814,7 @@ rect
 .
 translate
 (
+*
 reference_frame_relative_offset
 )
 ;
@@ -6827,6 +6827,7 @@ rect
 .
 translate
 (
+*
 reference_frame_relative_offset
 )
 image_mask
@@ -6879,6 +6880,7 @@ local_clip
 .
 translate
 (
+*
 reference_frame_relative_offset
 )
 image_mask
@@ -9605,6 +9607,7 @@ rect
 .
 contains
 (
+*
 point
 )
 {
@@ -9912,7 +9915,6 @@ transform
 .
 transform_point2d
 (
-&
 rect
 .
 origin
@@ -9922,7 +9924,6 @@ transform
 .
 transform_point2d
 (
-&
 rect
 .
 top_right
@@ -9934,7 +9935,6 @@ transform
 .
 transform_point2d
 (
-&
 rect
 .
 bottom_left
@@ -9946,7 +9946,6 @@ transform
 .
 transform_point2d
 (
-&
 rect
 .
 bottom_right

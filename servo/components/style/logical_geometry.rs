@@ -88,11 +88,14 @@ use
 euclid
 :
 :
+default
+:
+:
 {
 Point2D
 Rect
-SideOffsets2D
 Size2D
+SideOffsets2D
 }
 ;
 use

@@ -102,6 +102,9 @@ use
 euclid
 :
 :
+default
+:
+:
 Transform3D
 ;
 use
@@ -6239,7 +6242,6 @@ FramebufferIntSize
 :
 from_untyped
 (
-&
 size
 .
 to_untyped
@@ -6426,7 +6428,6 @@ DeviceIntSize
 :
 from_untyped
 (
-&
 total_size
 .
 to_untyped
@@ -6461,7 +6462,6 @@ DeviceIntSize
 :
 from_untyped
 (
-&
 size
 .
 to_untyped
@@ -6701,7 +6701,6 @@ scissor_rect
 .
 translate
 (
-&
 -
 content_origin
 .
@@ -6778,7 +6777,6 @@ FramebufferIntSize
 :
 from_untyped
 (
-&
 dimensions
 .
 to_untyped
@@ -10028,7 +10026,6 @@ FramebufferIntSize
 :
 from_untyped
 (
-&
 dimensions
 .
 to_untyped
@@ -12862,7 +12859,6 @@ FramebufferIntSize
 :
 from_untyped
 (
-&
 src
 .
 get_dimensions

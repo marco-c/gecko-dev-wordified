@@ -2635,6 +2635,9 @@ if
 aDirtyRect
 )
 {
+gfx
+:
+:
 Rect
 dirty
 (

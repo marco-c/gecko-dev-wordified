@@ -333,13 +333,16 @@ use
 euclid
 :
 :
+default
+:
+:
 Size2D
 ;
 use
 euclid
 :
 :
-TypedScale
+Scale
 ;
 use
 fxhash
@@ -1410,7 +1413,7 @@ self
 )
 -
 >
-TypedScale
+Scale
 <
 f32
 CSSPixel

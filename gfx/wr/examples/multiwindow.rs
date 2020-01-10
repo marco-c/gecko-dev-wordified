@@ -1167,7 +1167,7 @@ to_f32
 euclid
 :
 :
-TypedScale
+Scale
 :
 :
 new

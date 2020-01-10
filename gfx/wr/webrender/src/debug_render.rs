@@ -122,6 +122,7 @@ Point2D
 Rect
 Size2D
 Transform3D
+default
 }
 ;
 use
@@ -940,6 +941,9 @@ DeviceRect
 )
 -
 >
+default
+:
+:
 Rect
 <
 f32

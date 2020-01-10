@@ -4451,7 +4451,6 @@ bounds
 .
 translate
 (
-&
 current_offset
 )
 ;
@@ -5629,7 +5628,6 @@ clip_rect
 .
 translate
 (
-&
 current_offset
 )
 ;
@@ -5640,7 +5638,6 @@ bounds
 .
 translate
 (
-&
 current_offset
 )
 ;
@@ -13554,7 +13551,6 @@ rect
 .
 translate
 (
-&
 pending_shadow
 .
 shadow
@@ -13572,7 +13568,6 @@ clip_rect
 .
 translate
 (
-&
 pending_shadow
 .
 shadow

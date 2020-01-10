@@ -193,8 +193,8 @@ euclid
 :
 {
 Size2D
-TypedScale
-TypedSize2D
+Scale
+Size2D
 }
 ;
 use
@@ -311,7 +311,7 @@ pixels
 .
 viewport_size
 :
-TypedSize2D
+Size2D
 <
 f32
 CSSPixel
@@ -333,7 +333,7 @@ pixels
 .
 device_pixel_ratio
 :
-TypedScale
+Scale
 <
 f32
 CSSPixel
@@ -557,14 +557,14 @@ media_type
 MediaType
 viewport_size
 :
-TypedSize2D
+Size2D
 <
 f32
 CSSPixel
 >
 device_pixel_ratio
 :
-TypedScale
+Scale
 <
 f32
 CSSPixel
@@ -1200,7 +1200,7 @@ self
 )
 -
 >
-TypedScale
+Scale
 <
 f32
 CSSPixel

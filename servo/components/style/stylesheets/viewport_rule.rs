@@ -335,7 +335,7 @@ use
 euclid
 :
 :
-TypedSize2D
+Size2D
 ;
 use
 selectors
@@ -6064,7 +6064,7 @@ ViewportConstraints
 {
 size
 :
-TypedSize2D
+Size2D
 :
 :
 new

@@ -104,7 +104,7 @@ use
 euclid
 :
 :
-TypedScale
+Scale
 ;
 use
 webrender
@@ -446,7 +446,7 @@ to_f32
 (
 )
 /
-TypedScale
+Scale
 :
 :
 new

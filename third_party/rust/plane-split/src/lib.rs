@@ -120,9 +120,9 @@ euclid
 :
 :
 {
-TypedPoint3D
-TypedScale
-TypedVector3D
+Point3D
+Scale
+Vector3D
 }
 ;
 use
@@ -260,7 +260,7 @@ U
 (
 vec
 :
-TypedVector3D
+Vector3D
 <
 T
 U
@@ -366,7 +366,7 @@ line
 pub
 origin
 :
-TypedPoint3D
+Point3D
 <
 T
 U
@@ -383,7 +383,7 @@ line
 pub
 dir
 :
-TypedVector3D
+Vector3D
 <
 T
 U
@@ -591,7 +591,7 @@ ops
 :
 Range
 <
-TypedPoint3D
+Point3D
 <
 T
 U
@@ -892,7 +892,7 @@ plane
 pub
 normal
 :
-TypedVector3D
+Vector3D
 <
 T
 U
@@ -1099,7 +1099,7 @@ from_unnormalized
 (
 normal
 :
-TypedVector3D
+Vector3D
 <
 T
 U
@@ -1196,7 +1196,7 @@ normal
 :
 normal
 *
-TypedScale
+Scale
 :
 :
 new
@@ -1319,7 +1319,7 @@ self
 point
 :
 &
-TypedPoint3D
+Point3D
 <
 T
 U
@@ -1566,7 +1566,7 @@ points
 :
 &
 [
-TypedPoint3D
+Point3D
 <
 T
 U
@@ -1820,7 +1820,7 @@ divisor
 let
 origin
 =
-TypedPoint3D
+Point3D
 :
 :
 origin
@@ -2026,7 +2026,7 @@ mut
 self
 view
 :
-TypedVector3D
+Vector3D
 <
 T
 U
@@ -2072,7 +2072,7 @@ U
 ]
 view
 :
-TypedVector3D
+Vector3D
 <
 T
 U
@@ -2227,7 +2227,7 @@ Polygon
 points
 :
 [
-TypedPoint3D
+Point3D
 :
 :
 new
@@ -2242,7 +2242,7 @@ f32
 .
 0
 )
-TypedPoint3D
+Point3D
 :
 :
 new
@@ -2255,7 +2255,7 @@ f32
 .
 0
 )
-TypedPoint3D
+Point3D
 :
 :
 new
@@ -2266,7 +2266,7 @@ as
 f32
 len
 )
-TypedPoint3D
+Point3D
 :
 :
 new
@@ -2286,7 +2286,7 @@ Plane
 {
 normal
 :
-TypedVector3D
+Vector3D
 :
 :
 new
@@ -2338,7 +2338,7 @@ Polygon
 points
 :
 [
-TypedPoint3D
+Point3D
 :
 :
 new
@@ -2353,7 +2353,7 @@ f32
 .
 0
 )
-TypedPoint3D
+Point3D
 :
 :
 new
@@ -2366,7 +2366,7 @@ len
 .
 0
 )
-TypedPoint3D
+Point3D
 :
 :
 new
@@ -2377,7 +2377,7 @@ f32
 len
 len
 )
-TypedPoint3D
+Point3D
 :
 :
 new
@@ -2397,7 +2397,7 @@ Plane
 {
 normal
 :
-TypedVector3D
+Vector3D
 :
 :
 new
@@ -2449,7 +2449,7 @@ Polygon
 points
 :
 [
-TypedPoint3D
+Point3D
 :
 :
 new
@@ -2464,7 +2464,7 @@ i
 as
 f32
 )
-TypedPoint3D
+Point3D
 :
 :
 new
@@ -2477,7 +2477,7 @@ i
 as
 f32
 )
-TypedPoint3D
+Point3D
 :
 :
 new
@@ -2488,7 +2488,7 @@ i
 as
 f32
 )
-TypedPoint3D
+Point3D
 :
 :
 new
@@ -2508,7 +2508,7 @@ Plane
 {
 normal
 :
-TypedVector3D
+Vector3D
 :
 :
 new

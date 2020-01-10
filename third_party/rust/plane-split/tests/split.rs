@@ -39,8 +39,8 @@ euclid
 :
 {
 Angle
-TypedTransform3D
-TypedRect
+Transform3D
+Rect
 rect
 vec3
 }
@@ -168,7 +168,7 @@ f32
 let
 transform0
 :
-TypedTransform3D
+Transform3D
 <
 f32
 (
@@ -177,7 +177,7 @@ f32
 )
 >
 =
-TypedTransform3D
+Transform3D
 :
 :
 create_rotation
@@ -204,7 +204,7 @@ FRAC_PI_4
 let
 transform1
 :
-TypedTransform3D
+Transform3D
 <
 f32
 (
@@ -213,7 +213,7 @@ f32
 )
 >
 =
-TypedTransform3D
+Transform3D
 :
 :
 create_rotation
@@ -241,7 +241,7 @@ radians
 let
 transform2
 :
-TypedTransform3D
+Transform3D
 <
 f32
 (
@@ -250,7 +250,7 @@ f32
 )
 >
 =
-TypedTransform3D
+Transform3D
 :
 :
 create_rotation
@@ -276,7 +276,7 @@ FRAC_PI_4
 let
 rect
 :
-TypedRect
+Rect
 <
 f32
 (
@@ -518,7 +518,7 @@ collect
 let
 rect
 :
-TypedRect
+Rect
 <
 f32
 (
@@ -567,7 +567,7 @@ anchor
 let
 transform
 :
-TypedTransform3D
+Transform3D
 <
 f32
 (
@@ -576,7 +576,7 @@ f32
 )
 >
 =
-TypedTransform3D
+Transform3D
 :
 :
 create_translation
@@ -745,7 +745,7 @@ f32
 let
 rect0
 :
-TypedRect
+Rect
 <
 f32
 (
@@ -789,7 +789,7 @@ poly1
 let
 transform0
 :
-TypedTransform3D
+Transform3D
 <
 f32
 (
@@ -798,7 +798,7 @@ f32
 )
 >
 =
-TypedTransform3D
+Transform3D
 :
 :
 create_rotation
@@ -828,7 +828,7 @@ FRAC_PI_4
 let
 transform1
 :
-TypedTransform3D
+Transform3D
 <
 f32
 (
@@ -837,7 +837,7 @@ f32
 )
 >
 =
-TypedTransform3D
+Transform3D
 :
 :
 create_translation
@@ -861,7 +861,7 @@ from_transformed_rect
 rect0
 transform1
 .
-pre_mul
+pre_transform
 (
 &
 transform0
@@ -1032,7 +1032,7 @@ test_cut
 let
 rect
 :
-TypedRect
+Rect
 <
 f32
 (

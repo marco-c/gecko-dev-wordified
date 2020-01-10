@@ -87,9 +87,10 @@ use
 euclid
 :
 :
-{
+default
+:
+:
 Transform3D
-}
 ;
 use
 crate

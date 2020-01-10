@@ -62,7 +62,7 @@ euclid
 :
 {
 Angle
-TypedSize2D
+Size2D
 }
 ;
 use
@@ -1406,13 +1406,13 @@ theta
 ;
 pre_transform
 .
-pre_mul
+pre_transform
 (
 &
 transform
 )
 .
-pre_mul
+pre_transform
 (
 &
 post_transform
@@ -1487,13 +1487,13 @@ perspective
 ;
 pre_transform
 .
-pre_mul
+pre_transform
 (
 &
 transform
 )
 .
-pre_mul
+pre_transform
 (
 &
 post_transform
@@ -3430,7 +3430,7 @@ transform
 =
 transform
 .
-post_mul
+post_transform
 (
 &
 mx
@@ -3491,7 +3491,7 @@ transform
 >
 u
 .
-pre_mul
+pre_transform
 (
 transform
 )
@@ -3962,7 +3962,7 @@ as_size
 .
 unwrap_or
 (
-TypedSize2D
+Size2D
 :
 :
 zero

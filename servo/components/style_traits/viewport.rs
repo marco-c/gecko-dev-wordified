@@ -88,7 +88,7 @@ use
 euclid
 :
 :
-TypedSize2D
+Size2D
 ;
 use
 std
@@ -270,7 +270,7 @@ desc
 pub
 size
 :
-TypedSize2D
+Size2D
 <
 f32
 CSSPixel
