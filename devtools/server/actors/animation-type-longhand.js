@@ -833,17 +833,6 @@ scroll
 snap
 -
 type
--
-x
-"
-"
-scroll
--
-snap
--
-type
--
-y
 "
 "
 shape

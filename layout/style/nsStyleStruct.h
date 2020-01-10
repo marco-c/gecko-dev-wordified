@@ -12673,14 +12673,8 @@ mScrollSnapAlign
 mozilla
 :
 :
-StyleScrollSnapStrictness
-mScrollSnapTypeX
-;
-mozilla
-:
-:
-StyleScrollSnapStrictness
-mScrollSnapTypeY
+StyleScrollSnapType
+mScrollSnapType
 ;
 nsStyleCoord
 mScrollSnapPointsX
