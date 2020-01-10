@@ -244,7 +244,7 @@ Status
 "
 |
 status
-start_button
+start_link
 |
 *
 +
@@ -537,6 +537,8 @@ auto
 1fr
 ;
 grid
+-
+column
 -
 gap
 :
