@@ -209,7 +209,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 -
 inl
 .
@@ -731,7 +731,7 @@ wasmInstances
 is
 unlocked
 .
-Debugger
+DebugAPI
 :
 :
 onNewWasmInstance

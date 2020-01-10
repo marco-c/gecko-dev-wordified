@@ -177,15 +177,6 @@ h
 #
 include
 "
-debugger
-/
-Debugger
-.
-h
-"
-#
-include
-"
 gc
 /
 Heap
@@ -293,7 +284,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 -
 inl
 .
@@ -13468,7 +13459,7 @@ if
 informDebugger
 )
 {
-Debugger
+DebugAPI
 :
 :
 onNewPromise
@@ -14765,7 +14756,7 @@ about
 this
 Promise
 .
-Debugger
+DebugAPI
 :
 :
 onNewPromise
@@ -33573,7 +33564,7 @@ promise
 )
 ;
 }
-Debugger
+DebugAPI
 :
 :
 onPromiseSettled

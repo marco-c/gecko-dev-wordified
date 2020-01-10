@@ -349,6 +349,17 @@ h
 #
 include
 "
+debugger
+/
+DebugAPI
+-
+inl
+.
+h
+"
+#
+include
+"
 vm
 /
 GeckoProfiler
@@ -13238,7 +13249,7 @@ SavedStacksMetadataBuilder
 if
 (
 !
-Debugger
+DebugAPI
 :
 :
 onLogAllocationSite

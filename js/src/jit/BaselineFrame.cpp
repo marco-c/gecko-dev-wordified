@@ -124,7 +124,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 .
 h
 "
@@ -1174,7 +1174,7 @@ BaselineFrame
 if
 (
 !
-Debugger
+DebugAPI
 :
 :
 handleBaselineOsr

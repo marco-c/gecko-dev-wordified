@@ -156,15 +156,6 @@ h
 #
 include
 "
-debugger
-/
-Debugger
-.
-h
-"
-#
-include
-"
 gc
 /
 FreeOp
@@ -527,7 +518,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 -
 inl
 .

@@ -194,7 +194,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 .
 h
 "
@@ -267,6 +267,15 @@ include
 vm
 /
 EnvironmentObject
+.
+h
+"
+#
+include
+"
+vm
+/
+GeneratorObject
 .
 h
 "
@@ -7695,6 +7704,11 @@ script
 )
 ;
 }
+if
+(
+function_
+)
+{
 TraceEdge
 (
 trc
@@ -7705,6 +7719,7 @@ function
 "
 )
 ;
+}
 if
 (
 enclosingLazyScriptOrScope_
@@ -7880,6 +7895,14 @@ not
 traced
 here
 .
+if
+(
+thing
+-
+>
+function_
+)
+{
 traverseEdge
 (
 thing
@@ -7896,6 +7919,7 @@ function_
 )
 )
 ;
+}
 if
 (
 thing

@@ -119,7 +119,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 .
 h
 "
@@ -350,16 +350,13 @@ JSContext
 *
 cx
 const
-Debugger
+DebugAPI
 :
 :
 ExecutionObservableSet
 &
 obs
-Debugger
-:
-:
-IsObserving
+bool
 observing
 )
 ;

@@ -1951,7 +1951,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 .
 h
 "
@@ -19415,7 +19415,7 @@ PhaseKind
 MARK_ROOTS
 )
 ;
-Debugger
+DebugAPI
 :
 :
 traceAllForMovingGC
@@ -19424,7 +19424,7 @@ traceAllForMovingGC
 trc
 )
 ;
-Debugger
+DebugAPI
 :
 :
 traceIncomingCrossCompartmentEdges
@@ -19488,7 +19488,7 @@ up
 weak
 pointers
 .
-Debugger
+DebugAPI
 :
 :
 sweepAll
@@ -30555,7 +30555,7 @@ marker
 markedAny
 |
 =
-Debugger
+DebugAPI
 :
 :
 markIteratively
@@ -33177,7 +33177,7 @@ edges
 are
 added
 by
-Debugger
+DebugAPI
 :
 :
 findSweepGroupEdges
@@ -33763,7 +33763,7 @@ false
 ;
 }
 return
-Debugger
+DebugAPI
 :
 :
 findSweepGroupEdges
@@ -37382,7 +37382,7 @@ before
 weakmap
 sweeping
 .
-Debugger
+DebugAPI
 :
 :
 sweepAll

@@ -129,7 +129,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 .
 h
 "
@@ -15689,7 +15689,7 @@ setIsDebuggee
 )
 ;
 return
-Debugger
+DebugAPI
 :
 :
 handleIonBailout

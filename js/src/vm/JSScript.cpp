@@ -572,6 +572,17 @@ h
 #
 include
 "
+debugger
+/
+DebugAPI
+-
+inl
+.
+h
+"
+#
+include
+"
 gc
 /
 Marking
@@ -7734,7 +7745,7 @@ isHelperThreadContext
 )
 )
 {
-Debugger
+DebugAPI
 :
 :
 onNewScript
