@@ -3074,6 +3074,26 @@ level
 )
 :
         
+if
+sys
+.
+version_info
+[
+0
+]
+>
+=
+3
+and
+level
+<
+0
+:
+            
+level
+=
+0
+        
 #
 name
 might
