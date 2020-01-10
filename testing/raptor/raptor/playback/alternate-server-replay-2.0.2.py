@@ -159,9 +159,21 @@ get
 self
 .
 server_sni
-b
-"
-"
+)
+    
+if
+proto
+is
+None
+:
+        
+return
+self
+.
+server_conn
+.
+get_alpn_proto_negotiated
+(
 )
     
 if
