@@ -179,6 +179,13 @@ nsICommandLine
 .
 h
 "
+#
+include
+"
+nsIURI
+.
+h
+"
 nsLayoutDebugCLH
 :
 :
