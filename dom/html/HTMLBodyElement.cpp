@@ -518,10 +518,9 @@ rightmargin
 return
 aResult
 .
-ParseIntWithBounds
+ParseNonNegativeIntValue
 (
 aValue
-0
 )
 ;
 }
