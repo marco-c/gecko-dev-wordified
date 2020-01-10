@@ -3,6 +3,10 @@ __future__
 import
 absolute_import
 unicode_literals
+from
+six
+import
+reraise
 import
 os
 import
@@ -1061,10 +1065,12 @@ thread
 .
 exc
         
-raise
+reraise
+(
 exc
 value
 tb
+)
     
 assert
 not
