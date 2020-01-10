@@ -521,6 +521,7 @@ issue
 A8
 A16
 R8G8
+R16G16
 /
 /
 These
