@@ -23403,7 +23403,13 @@ numBytecodeTypeSets_
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 typesetCount
+(
+)
 ;
 /
 /
