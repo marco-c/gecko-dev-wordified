@@ -519,6 +519,10 @@ ScreenOrientation
 (
 )
 {
+UnlockDeviceOrientation
+(
+)
+;
 hal
 :
 :
