@@ -3184,7 +3184,7 @@ dom
 enable_performance
 "
 dom_enable_performance
-bool
+RelaxedAtomicBool
 true
 )
 /
