@@ -5287,10 +5287,7 @@ rv
 int
 tid
 =
-Thread
-:
-:
-GetCurrentId
+profiler_current_thread_id
 (
 )
 ;

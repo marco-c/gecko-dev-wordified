@@ -1257,7 +1257,7 @@ it
 pid_t
 pid
 =
-getpid
+profiler_current_process_id
 (
 )
 ;
