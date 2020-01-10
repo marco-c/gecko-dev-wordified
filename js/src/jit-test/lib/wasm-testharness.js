@@ -310,6 +310,11 @@ assertEq
 (
 x
 true
+errMsg
+|
+|
+'
+'
 )
 ;
 }
@@ -327,6 +332,11 @@ assertEq
 (
 x
 false
+errMsg
+|
+|
+'
+'
 )
 ;
 }
