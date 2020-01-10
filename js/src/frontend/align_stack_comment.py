@@ -551,15 +551,23 @@ exit
 1
 )
     
+for
 path
-=
+in
 sys
 .
 argv
 [
 1
+:
 ]
-    
+:
+        
+print
+(
+path
+)
+        
 align_stack_comment
 (
 path
