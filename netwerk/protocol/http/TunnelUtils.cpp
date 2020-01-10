@@ -5683,6 +5683,16 @@ NS_ERROR_PROXY_AUTHENTICATION_FAILED
 break
 ;
 case
+429
+:
+CreateShimError
+(
+NS_ERROR_TOO_MANY_REQUESTS
+)
+;
+break
+;
+case
 502
 :
 CreateShimError
