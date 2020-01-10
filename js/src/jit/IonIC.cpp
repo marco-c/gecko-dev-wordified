@@ -3485,7 +3485,7 @@ ionScript
 (
 )
 ;
-TryAttachIonStubOld
+TryAttachIonStub
 <
 InstanceOfIRGenerator
 IonInstanceOfIC

@@ -36579,7 +36579,7 @@ prototype
 )
 )
 ;
-TryAttachStubOld
+TryAttachStub
 <
 InstanceOfIRGenerator
 >

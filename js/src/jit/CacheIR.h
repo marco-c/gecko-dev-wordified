@@ -14720,7 +14720,7 @@ HandleValue
 HandleObject
 )
 ;
-bool
+AttachDecision
 tryAttachStub
 (
 )
