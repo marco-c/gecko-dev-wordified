@@ -19314,7 +19314,7 @@ root
 if
 self
 .
-is_file
+exists
 (
 path
 timeout
@@ -19340,7 +19340,7 @@ s
 failed
 to
 remove
-file
+path
 .
 '
 %
