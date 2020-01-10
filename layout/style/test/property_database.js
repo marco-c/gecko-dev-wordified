@@ -42761,6 +42761,10 @@ table
 caption
 "
 "
+block
+ruby
+"
+"
 ruby
 "
 "
