@@ -2379,13 +2379,6 @@ Lookup
 lookup
 )
 ;
-void
-setSamplingProbability
-(
-double
-probability
-)
-;
 /
 /
 Cache
