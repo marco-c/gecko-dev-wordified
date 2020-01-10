@@ -9981,6 +9981,10 @@ DestroyCompositor
 (
 )
 ;
+lm
+=
+nullptr
+;
 }
 }
 /
