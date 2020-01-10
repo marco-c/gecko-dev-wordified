@@ -868,16 +868,17 @@ options
 passthrough
     
 print
+(
 "
 Generating
 {
-0
 }
 "
 .
 format
 (
 destfile
+)
 )
     
 destio
@@ -949,7 +950,7 @@ None
 :
         
 raise
-StandardError
+Exception
 (
 "
 no
