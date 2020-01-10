@@ -321,12 +321,6 @@ devtools
 *
 "
 "
-storage
-/
-*
-*
-"
-"
 taskcluster
 /
 *

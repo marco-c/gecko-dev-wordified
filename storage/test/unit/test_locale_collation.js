@@ -627,6 +627,7 @@ i
 +
 +
 )
+{
 Assert
 .
 equal
@@ -641,6 +642,7 @@ i
 ]
 )
 ;
+}
 }
 /
 *
@@ -768,6 +770,7 @@ executeStep
 (
 )
 )
+{
 results
 .
 push
@@ -779,6 +782,7 @@ row
 t
 )
 ;
+}
 stmt
 .
 finalize

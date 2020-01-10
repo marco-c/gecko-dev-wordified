@@ -177,8 +177,10 @@ name
 QueryInterface
 "
 )
+{
 continue
 ;
+}
 Assert
 .
 equal

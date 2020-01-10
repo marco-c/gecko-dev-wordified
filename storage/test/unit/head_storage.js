@@ -289,6 +289,7 @@ exists
 (
 )
 )
+{
 try
 {
 dbFile
@@ -311,6 +312,7 @@ windows
 box
 *
 /
+}
 }
 }
 function
@@ -966,6 +968,7 @@ if
 !
 exceptionCaught
 )
+{
 do_throw
 (
 aFunction
@@ -983,6 +986,7 @@ not
 "
 )
 ;
+}
 }
 /
 *
@@ -1108,6 +1112,7 @@ length
 =
 nCols
 )
+{
 do_throw
 (
 "
@@ -1140,6 +1145,7 @@ length
 "
 )
 ;
+}
 for
 (
 let
