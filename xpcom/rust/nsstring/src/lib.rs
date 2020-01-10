@@ -7613,7 +7613,7 @@ String
 {
 s
 .
-to_vec
+into_vec
 (
 )
 .
