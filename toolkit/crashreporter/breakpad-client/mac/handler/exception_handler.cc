@@ -3824,14 +3824,16 @@ modify
 exception
 ports
 when
+recording
+or
 replaying
 to
 avoid
+/
+/
 interfering
 with
 the
-/
-/
 record
 /
 replay
@@ -3849,7 +3851,7 @@ mozilla
 recordreplay
 :
 :
-IsReplaying
+IsRecordingOrReplaying
 (
 )
 )
