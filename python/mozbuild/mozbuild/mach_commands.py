@@ -5281,6 +5281,43 @@ so
 '
 )
     
+CommandArgument
+(
+'
+-
+-
+enable
+-
+webrender
+'
+action
+=
+'
+store_true
+'
+                     
+default
+=
+False
+dest
+=
+'
+enable_webrender
+'
+                     
+help
+=
+'
+Enable
+the
+WebRender
+compositor
+in
+Gecko
+.
+'
+)
+    
 CommandArgumentGroup
 (
 '
@@ -5435,6 +5472,7 @@ device_serial
 remote_test_root
 libxul_path
               
+enable_webrender
 debug
 debugger
 debugger_args
@@ -5741,6 +5779,8 @@ device_serial
                                       
 remote_test_root
 libxul_path
+                                      
+enable_webrender
 )
         
 if
@@ -6077,6 +6117,52 @@ True
 "
         
 if
+enable_webrender
+:
+            
+gtest_env
+[
+b
+"
+MOZ_WEBRENDER
+"
+]
+=
+b
+"
+1
+"
+            
+gtest_env
+[
+b
+"
+MOZ_ACCELERATED
+"
+]
+=
+b
+"
+1
+"
+        
+else
+:
+            
+gtest_env
+[
+b
+"
+MOZ_WEBRENDER
+"
+]
+=
+b
+"
+0
+"
+        
+if
 jobs
 =
 =
@@ -6338,6 +6424,8 @@ adb_path
 device_serial
 remote_test_root
 libxul_path
+                      
+enable_webrender
 )
 :
         
@@ -6591,6 +6679,7 @@ device_serial
 remote_test_root
 libxul_path
 None
+enable_webrender
 )
         
 tester
