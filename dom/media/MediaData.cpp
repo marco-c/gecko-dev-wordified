@@ -517,6 +517,13 @@ AdjustForStartTime
 (
 aStartTime
 )
+&
+&
+mOriginalTime
+.
+IsValid
+(
+)
 ;
 }
 bool
