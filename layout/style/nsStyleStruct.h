@@ -8545,12 +8545,6 @@ mozilla
 StyleLengthOrAuto
 mTextUnderlineOffset
 ;
-mozilla
-:
-:
-StyleTextDecorationSkipInk
-mTextDecorationSkipInk
-;
 nscoord
 mWebkitTextStrokeWidth
 ;

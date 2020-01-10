@@ -886,15 +886,6 @@ text
 -
 decoration
 -
-skip
--
-ink
-"
-"
-text
--
-decoration
--
 style
 "
 "

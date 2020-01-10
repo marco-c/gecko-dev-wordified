@@ -976,10 +976,7 @@ self
 text
 :
 :
-{
 TextTransform
-TextDecorationSkipInk
-}
 ;
 pub
 use
