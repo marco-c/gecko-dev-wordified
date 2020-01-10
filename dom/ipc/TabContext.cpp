@@ -181,15 +181,6 @@ nsServiceManagerUtils
 .
 h
 "
-#
-define
-NO_APP_ID
-(
-nsIScriptSecurityManager
-:
-:
-NO_APP_ID
-)
 using
 namespace
 mozilla
