@@ -37401,7 +37401,7 @@ defaultLineThickness
 aParams
 .
 offset
-+
+-
 =
 aOffset
 .
@@ -37446,7 +37446,7 @@ defaultLineThickness
 aParams
 .
 offset
--
++
 =
 aOffset
 .
@@ -37467,6 +37467,7 @@ aParams
 .
 offset
 =
+-
 aOffset
 .
 AsLength
@@ -37752,6 +37753,11 @@ verticalRun
 underlineOffset
 +
 =
+underlineSize
+;
+underlineOffset
+-
+=
 textUnderlineOffset
 .
 AsLength
@@ -37761,14 +37767,13 @@ AsLength
 ToAppUnits
 (
 )
-+
-underlineSize
 ;
 }
 else
 {
 underlineOffset
 =
+-
 textUnderlineOffset
 .
 AsLength
