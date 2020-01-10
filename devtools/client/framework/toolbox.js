@@ -4804,7 +4804,7 @@ addEventProperty
 (
 this
 .
-win
+topWindow
 "
 open
 "
@@ -4829,7 +4829,7 @@ addEventProperty
 (
 this
 .
-win
+topWindow
 "
 open
 "
@@ -8155,9 +8155,7 @@ browserWin
 =
 this
 .
-win
-.
-top
+topWindow
 ;
 this
 .
@@ -16340,7 +16338,7 @@ addEventProperties
 (
 this
 .
-win
+topWindow
 "
 open
 "
