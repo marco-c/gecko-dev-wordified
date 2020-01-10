@@ -5171,6 +5171,8 @@ nsBulletFrame
 :
 Ordinal
 (
+bool
+aDebugFromA11y
 )
 const
 {
@@ -5219,6 +5221,10 @@ item
 ;
 MOZ_ASSERT
 (
+aDebugFromA11y
+|
+|
+(
 list
 &
 &
@@ -5228,6 +5234,7 @@ list
 >
 IsDirty
 (
+)
 )
 )
 ;
@@ -8260,6 +8267,9 @@ aWritingMode
 )
 ;
 }
+#
+ifdef
+ACCESSIBILITY
 void
 nsBulletFrame
 :
@@ -8305,6 +8315,7 @@ GetSpokenCounterText
 (
 Ordinal
 (
+true
 )
 GetWritingMode
 (
@@ -8371,6 +8382,8 @@ suffix
 ;
 }
 }
+#
+endif
 void
 nsBulletFrame
 :

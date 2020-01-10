@@ -1867,6 +1867,9 @@ MarkerIsEmpty
 )
 const
 ;
+#
+ifdef
+ACCESSIBILITY
 /
 *
 *
@@ -1878,6 +1881,8 @@ the
 marker
 text
 equivalent
+without
+flushing
 .
 *
 /
@@ -1890,6 +1895,8 @@ aText
 )
 const
 ;
+#
+endif
 /
 *
 *
