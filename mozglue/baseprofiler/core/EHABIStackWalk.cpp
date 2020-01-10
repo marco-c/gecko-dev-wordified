@@ -489,6 +489,9 @@ endif
 namespace
 mozilla
 {
+namespace
+baseprofiler
+{
 struct
 PRel31
 {
@@ -1120,9 +1123,6 @@ EHTable
 mTables
 ;
 static
-mozilla
-:
-:
 Atomic
 <
 const
@@ -4271,9 +4271,6 @@ endTable
 #
 endif
 }
-mozilla
-:
-:
 Atomic
 <
 const
@@ -4715,6 +4712,11 @@ unwinding
 #
 endif
 }
+}
+/
+/
+namespace
+baseprofiler
 }
 /
 /

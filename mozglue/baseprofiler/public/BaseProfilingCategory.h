@@ -155,6 +155,12 @@ include
 <
 cstdint
 >
+namespace
+mozilla
+{
+namespace
+baseprofiler
+{
 /
 /
 clang
@@ -692,9 +698,6 @@ Other
 )
 \
 END_CATEGORY
-namespace
-JS
-{
 /
 /
 An
@@ -890,7 +893,7 @@ MFBT_API
 const
 ProfilingCategoryPairInfo
 &
-GetBaseProfilingCategoryPairInfo
+GetProfilingCategoryPairInfo
 (
 ProfilingCategoryPair
 aCategoryPair
@@ -900,7 +903,12 @@ aCategoryPair
 /
 /
 namespace
-JS
+baseprofiler
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /
