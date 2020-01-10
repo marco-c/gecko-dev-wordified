@@ -492,14 +492,6 @@ insensitive
 ?
 *
 /
-/
-*
-eslint
--
-disable
-complexity
-*
-/
 function
 naturalSort
 (
@@ -1084,11 +1076,3 @@ return
 null
 ;
 }
-/
-*
-eslint
--
-enable
-complexity
-*
-/
