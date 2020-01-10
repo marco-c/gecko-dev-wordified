@@ -10780,13 +10780,17 @@ async
 function
 evaluateInTopFrame
 (
-target
+dbg
 text
 )
 {
 const
 threadFront
 =
+dbg
+.
+toolbox
+.
 target
 .
 threadFront
@@ -10795,6 +10799,10 @@ const
 consoleFront
 =
 await
+dbg
+.
+toolbox
+.
 target
 .
 getFront
@@ -10914,7 +10922,7 @@ async
 function
 checkEvaluateInTopFrame
 (
-target
+dbg
 text
 expected
 )
@@ -10925,7 +10933,7 @@ rval
 await
 evaluateInTopFrame
 (
-target
+dbg
 text
 )
 ;
