@@ -2882,6 +2882,8 @@ emitHandleCodeCoverageAtPrologue
 void
 emitInitFrameFields
 (
+Register
+nonFunctionEnv
 )
 ;
 void
@@ -2892,13 +2894,6 @@ emitIsDebuggeeCheck
 void
 emitInitializeLocals
 (
-)
-;
-void
-emitPreInitEnvironmentChain
-(
-Register
-nonFunctionEnv
 )
 ;
 void
