@@ -860,6 +860,11 @@ CONTENT_BLOCKING_GROUP
 "
 contentBlockingWarningGroup
 "
+TRACKING_PROTECTION_GROUP
+:
+"
+trackingProtectionWarningGroup
+"
 CORS_GROUP
 :
 "
