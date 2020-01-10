@@ -1229,8 +1229,17 @@ mode
 '
 r
 '
+buffering
+=
+None
 )
 :
+        
+#
+buffering
+is
+ignored
+.
         
 absname
 =
