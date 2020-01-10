@@ -502,7 +502,6 @@ legitimate
 /
 address
 .
-return
 ptr
 as
 *
@@ -513,7 +512,6 @@ usize
 <
 =
 256
-;
 }
 /
 /
