@@ -2069,6 +2069,7 @@ bug
 ?
 *
 /
+static
 inline
 already_AddRefed
 <
