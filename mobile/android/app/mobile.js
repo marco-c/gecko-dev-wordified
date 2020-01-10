@@ -2685,16 +2685,6 @@ pref
 "
 dom
 .
-disable_window_print
-"
-true
-)
-;
-pref
-(
-"
-dom
-.
 disable_window_find
 "
 true
