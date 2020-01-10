@@ -461,11 +461,6 @@ testOpenInDebugger
 hud
 toolbox
 "
-[
-Logpoint
-threw
-]
-:
 undefinedVariable
 is
 not
@@ -649,11 +644,6 @@ testOpenInDebugger
 hud
 toolbox
 "
-[
-Logpoint
-threw
-]
-:
 undefinedVariable
 is
 not
