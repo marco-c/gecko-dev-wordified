@@ -17778,12 +17778,6 @@ handler_
 newExprStatement
 (
 expression
-tokenizer_
--
->
-offset
-(
-)
 )
 )
 ;
