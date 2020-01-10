@@ -41670,7 +41670,7 @@ op_
 #
 endif
 }
-bool
+AttachDecision
 NewObjectIRGenerator
 :
 :
@@ -41710,7 +41710,10 @@ NotAttached
 )
 ;
 return
-false
+AttachDecision
+:
+:
+NoAction
 ;
 }
 /
@@ -41770,7 +41773,10 @@ NotAttached
 )
 ;
 return
-false
+AttachDecision
+:
+:
+NoAction
 ;
 }
 /
@@ -41806,7 +41812,10 @@ NotAttached
 )
 ;
 return
-false
+AttachDecision
+:
+:
+NoAction
 ;
 }
 writer
@@ -41848,7 +41857,10 @@ NewObjectWithTemplate
 )
 ;
 return
-true
+AttachDecision
+:
+:
+Attach
 ;
 }
 #
