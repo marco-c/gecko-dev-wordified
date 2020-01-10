@@ -2842,9 +2842,6 @@ ss
 "
 %
 kind
-boxed
-=
-True
 animation_value_type
 =
 "
