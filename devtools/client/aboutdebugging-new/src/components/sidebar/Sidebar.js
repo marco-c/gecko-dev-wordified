@@ -831,11 +831,11 @@ runtime
 .
 isConnectionNotResponding
 isSelected
-isUnknown
+isUnavailable
 :
 runtime
 .
-isUnknown
+isUnavailable
 isUnplugged
 :
 runtime

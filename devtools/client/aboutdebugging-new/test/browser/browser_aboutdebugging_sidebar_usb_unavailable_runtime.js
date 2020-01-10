@@ -65,7 +65,7 @@ RUNTIME_ID
 /
 Test
 that
-unknown
+unavailable
 runtimes
 :
 /
@@ -276,7 +276,7 @@ ok
 !
 hasLink
 "
-Unknown
+Unavailable
 runtime
 is
 not

@@ -715,7 +715,9 @@ server
 /
 unavailable
 on
-unknown
+unavailable
+/
+unplugged
 runtimes
 connectionParameters
 :
@@ -890,7 +892,7 @@ bool
 isRequired
 /
 /
-unknown
+unavailable
 runtimes
 are
 placeholders
@@ -902,9 +904,9 @@ runtime
 has
 not
 been
+/
+/
 started
-/
-/
 yet
 .
 For
@@ -917,9 +919,11 @@ without
 a
 compatible
 runtime
+/
+/
 running
 .
-isUnknown
+isUnavailable
 :
 PropTypes
 .

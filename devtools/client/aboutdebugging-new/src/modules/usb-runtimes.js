@@ -147,7 +147,7 @@ socketPath
 ;
 this
 .
-isUnknown
+isUnavailable
 =
 false
 ;
@@ -191,7 +191,7 @@ connection
 *
 /
 class
-UnknownUsbRuntime
+UnavailableUsbRuntime
 {
 constructor
 (
@@ -208,7 +208,7 @@ id
 +
 "
 |
-unknown
+unavailable
 "
 ;
 this
@@ -232,7 +232,7 @@ this
 shortName
 =
 "
-Unknown
+Unavailable
 runtime
 "
 ;
@@ -244,7 +244,7 @@ null
 ;
 this
 .
-isUnknown
+isUnavailable
 =
 true
 ;
@@ -337,7 +337,7 @@ null
 ;
 this
 .
-isUnknown
+isUnavailable
 =
 true
 ;
@@ -491,7 +491,7 @@ deviceId
 )
 ;
 const
-unknownRuntimes
+unavailableRuntimes
 =
 adb
 .
@@ -521,7 +521,7 @@ d
 =
 >
 new
-UnknownUsbRuntime
+UnavailableUsbRuntime
 (
 d
 )
@@ -535,8 +535,7 @@ devices
 to
 the
 map
-of
-known
+detected
 devices
 .
 const
@@ -546,7 +545,7 @@ runtimes
 .
 concat
 (
-unknownRuntimes
+unavailableRuntimes
 )
 ;
 for
@@ -599,7 +598,7 @@ deviceId
 )
 ;
 const
-knownDevices
+detectedDevices
 =
 [
 .
@@ -615,7 +614,7 @@ keys
 const
 unpluggedDevices
 =
-knownDevices
+detectedDevices
 .
 filter
 (
