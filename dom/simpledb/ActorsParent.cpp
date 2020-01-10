@@ -2379,6 +2379,8 @@ aCanceled
 UsageInfo
 *
 aUsageInfo
+bool
+aForGetUsage
 )
 override
 ;
@@ -8591,6 +8593,8 @@ aCanceled
 UsageInfo
 *
 aUsageInfo
+bool
+aForGetUsage
 )
 {
 AssertIsOnIOThread
