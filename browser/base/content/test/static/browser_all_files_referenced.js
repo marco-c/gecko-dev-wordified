@@ -3259,9 +3259,11 @@ chrome
 :
 /
 /
-webcompat
+report
 -
-reporter
+site
+-
+issue
 /
 locale
 /
@@ -3277,9 +3279,11 @@ chrome
 :
 /
 /
-webcompat
+report
 -
-reporter
+site
+-
+issue
 /
 locale
 /
