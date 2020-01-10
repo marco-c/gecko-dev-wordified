@@ -1204,7 +1204,6 @@ checkCertButton
 disabled
 =
 !
-(
 document
 .
 getElementById
@@ -1215,7 +1214,6 @@ locationTextBox
 )
 .
 value
-)
 ;
 if
 (

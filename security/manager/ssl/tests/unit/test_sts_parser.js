@@ -427,7 +427,7 @@ false
 ;
 testSuccess
 (
-"
+'
 \
 tmax
 -
@@ -437,14 +437,12 @@ t
 =
 \
 t
-\
 "
 100
-\
 "
 \
 t
-"
+'
 100
 false
 )

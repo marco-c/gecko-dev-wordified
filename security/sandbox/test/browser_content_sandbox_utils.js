@@ -168,7 +168,6 @@ appinfo
 version
 ;
 return
-(
 version
 .
 endsWith
@@ -176,7 +175,6 @@ endsWith
 "
 a1
 "
-)
 )
 ;
 }
@@ -340,9 +338,7 @@ exist
 )
 ;
 return
-(
 homeFile
-)
 ;
 }
 /
@@ -497,9 +493,7 @@ exist
 )
 ;
 return
-(
 tempFile
-)
 ;
 }
 function
@@ -530,9 +524,7 @@ nsIFile
 )
 ;
 return
-(
 profileDir
-)
 ;
 }
 function
@@ -563,9 +555,7 @@ nsIFile
 )
 ;
 return
-(
 homeDir
-)
 ;
 }
 function
@@ -653,9 +643,7 @@ name
 )
 ;
 return
-(
 entry
-)
 ;
 }
 function
@@ -714,9 +702,7 @@ directory
 )
 ;
 return
-(
 dir
-)
 ;
 }
 function
@@ -776,8 +762,6 @@ path
 )
 ;
 return
-(
 file
-)
 ;
 }

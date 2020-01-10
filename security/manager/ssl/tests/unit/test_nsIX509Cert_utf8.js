@@ -342,7 +342,7 @@ equal
 cert
 .
 subjectName
-"
+'
 serialNumber
 =
 ICA
@@ -375,14 +375,12 @@ centrum
 cz
 L
 =
-\
 "
 Pacov
 N
 dra
 n
 769
-\
 "
 ST
 =
@@ -397,7 +395,7 @@ ek
 C
 =
 CZ
-"
+'
 "
 Actual
 and
@@ -489,7 +487,7 @@ equal
 cert
 .
 issuerName
-"
+'
 OU
 =
 Akreditovan
@@ -511,7 +509,6 @@ s
 .
 L
 =
-\
 "
 Podvinn
 ml
@@ -523,7 +520,6 @@ n
 00
 Praha
 9
-\
 "
 C
 =
@@ -545,7 +541,7 @@ poskytovatele
 )
 -
 PSEUDONYM
-"
+'
 "
 Actual
 and

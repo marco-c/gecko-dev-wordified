@@ -159,12 +159,14 @@ label
 ok
 (
 !
+(
 await
 keystore
 .
 asyncSecretAvailable
 (
 label
+)
 )
 label
 +
@@ -506,6 +508,7 @@ nsIOSKeyStore
 ok
 (
 !
+(
 await
 keystore
 .
@@ -515,6 +518,7 @@ LABELS
 [
 0
 ]
+)
 )
 "
 The
@@ -1891,6 +1895,7 @@ expected
 ok
 (
 !
+(
 await
 keystore
 .
@@ -1900,6 +1905,7 @@ LABELS
 [
 0
 ]
+)
 )
 "
 we
@@ -2723,6 +2729,7 @@ expected
 ok
 (
 !
+(
 await
 keystore
 .
@@ -2732,6 +2739,7 @@ LABELS
 [
 0
 ]
+)
 )
 "
 we
@@ -2819,6 +2827,7 @@ expected
 ok
 (
 !
+(
 await
 keystore
 .
@@ -2828,6 +2837,7 @@ LABELS
 [
 0
 ]
+)
 )
 "
 we
@@ -2915,6 +2925,7 @@ expected
 ok
 (
 !
+(
 await
 keystore
 .
@@ -2924,6 +2935,7 @@ LABELS
 [
 0
 ]
+)
 )
 "
 we

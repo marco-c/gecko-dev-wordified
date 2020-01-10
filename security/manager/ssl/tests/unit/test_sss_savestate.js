@@ -1039,11 +1039,9 @@ age
 =
 "
 +
-(
 i
 *
 1000
-)
 ;
 /
 /
@@ -1053,7 +1051,6 @@ includeSubdomains
 let
 includeSubdomains
 =
-(
 i
 %
 2
@@ -1068,7 +1065,6 @@ includeSubdomains
 :
 "
 "
-)
 ;
 let
 secInfo
