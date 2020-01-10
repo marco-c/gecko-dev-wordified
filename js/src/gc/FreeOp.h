@@ -700,7 +700,7 @@ called
 on
 the
 default
-FreeOps
+JSFreeOps
 returned
 by
 /
@@ -792,7 +792,7 @@ range
 {
 /
 /
-FreeOps
+JSFreeOps
 other
 than
 the
@@ -1366,19 +1366,6 @@ p
 ;
 }
 ;
-namespace
-js
-{
-using
-FreeOp
-=
-JSFreeOp
-;
-}
-/
-/
-namespace
-js
 #
 endif
 /

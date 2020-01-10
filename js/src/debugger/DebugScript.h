@@ -170,9 +170,6 @@ BreakpointSite
 class
 Debugger
 ;
-class
-FreeOp
-;
 /
 /
 DebugScript
