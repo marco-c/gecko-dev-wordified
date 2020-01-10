@@ -654,6 +654,13 @@ GetRemoteOuterWindowProxy
 (
 aCx
 bc
+/
+*
+aTransplantTo
+=
+*
+/
+nullptr
 &
 windowProxy
 )

@@ -482,6 +482,15 @@ aContext
 JS
 :
 :
+Handle
+<
+JSObject
+*
+>
+aTransplantTo
+JS
+:
+:
 MutableHandle
 <
 JSObject
@@ -516,6 +525,7 @@ GetProxyObject
 (
 aCx
 aContext
+aTransplantTo
 aRetVal
 )
 ;

@@ -4593,6 +4593,13 @@ GetProxyObject
 aCx
 &
 mLocation
+/
+*
+aTransplantTo
+=
+*
+/
+nullptr
 aLocation
 )
 ;
