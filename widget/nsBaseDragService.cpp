@@ -4265,6 +4265,13 @@ aScreenDragRect
 )
 ;
 }
+mDragStartData
+=
+nullptr
+;
+return
+NS_OK
+;
 }
 /
 /
