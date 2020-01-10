@@ -242,6 +242,12 @@ logcat_file
 =
 None
         
+self
+.
+use_gles3
+=
+False
+        
 super
 (
 AndroidMixin
@@ -1269,6 +1275,12 @@ s
 sdk_path
 )
         
+if
+self
+.
+use_gles3
+:
+            
 #
 enable
 EGL
@@ -1279,7 +1291,7 @@ in
 advancedFeatures
 .
 ini
-        
+            
 AF_FILE
 =
 os
@@ -1295,7 +1307,7 @@ advancedFeatures
 ini
 "
 )
-        
+            
 with
 open
 (
@@ -1307,7 +1319,7 @@ w
 as
 f
 :
-            
+                
 f
 .
 write
@@ -1320,7 +1332,7 @@ on
 n
 "
 )
-        
+            
 self
 .
 info
