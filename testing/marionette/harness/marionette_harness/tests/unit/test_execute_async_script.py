@@ -1272,14 +1272,18 @@ length
                 
 setTimeout
 (
-"
+function
+(
+)
+{
 callback
 (
 foo
 (
 )
 )
-"
+;
+}
 50
 )
 ;
