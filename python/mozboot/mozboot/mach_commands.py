@@ -60,6 +60,8 @@ absolute_import
 print_function
 unicode_literals
 import
+errno
+import
 sys
 from
 mach
@@ -513,9 +515,6 @@ date
 "
         
 import
-which
-        
-import
 mozboot
 .
 bootstrap
@@ -524,6 +523,11 @@ bootstrap
         
 import
 mozversioncontrol
+        
+from
+mozfile
+import
+which
         
 repo
 =
@@ -538,7 +542,7 @@ _context
 topdir
 )
         
-vcs
+tool
 =
 '
 hg
@@ -555,7 +559,7 @@ git
 '
 :
             
-vcs
+tool
 =
 '
 git
@@ -576,11 +580,9 @@ which
 will
 be
 found
+by
         
 #
-by
-which
-.
 which
 .
 We
@@ -593,15 +595,13 @@ executable
 to
 the
 function
-        
-#
 because
 we
+        
+#
 spawn
 a
 process
-        
-#
 from
 it
 .
@@ -621,30 +621,46 @@ msys
 )
 :
             
-vcs
-=
-which
-.
-which
-(
-vcs
+tool
 +
+=
 '
 .
 exe
 '
-)
         
-else
-:
-            
 vcs
 =
 which
-.
-which
 (
+tool
+)
+        
+if
+not
 vcs
+:
+            
+raise
+OSError
+(
+errno
+.
+ENOENT
+"
+Could
+not
+find
+{
+}
+on
+PATH
+"
+.
+format
+(
+tool
+)
 )
         
 if

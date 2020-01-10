@@ -63,15 +63,11 @@ os
 import
 signal
 import
-which
-import
 re
 #
-Py3
-/
-Py2
-compatibility
-.
+py2
+-
+compat
 try
 :
     
@@ -88,6 +84,10 @@ ImportError
 JSONDecodeError
 =
 ValueError
+from
+mozfile
+import
+which
 from
 mozlint
 import
@@ -625,27 +625,13 @@ binary
 return
 binary
     
-try
-:
-        
 return
-which
-.
 which
 (
 '
 codespell
 '
 )
-    
-except
-which
-.
-WhichError
-:
-        
-return
-None
 def
 lint
 (

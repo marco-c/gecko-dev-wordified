@@ -1208,6 +1208,20 @@ some
 guidance
 .
             
+try
+:
+                
+from
+shutil
+import
+which
+            
+except
+ImportError
+:
+                
+from
+shutil_which
 import
 which
             
@@ -1225,37 +1239,29 @@ mogrify
 '
 )
             
-try
-:
-                
 for
 im_program
 in
 im_programs
 :
-                    
-which
-.
+                
+prog
+=
 which
 (
 im_program
 )
-            
-except
-which
-.
-WhichError
-as
-e
-:
                 
+if
+not
+prog
+:
+                    
 print
 (
 '
 Error
 :
-{
-}
 On
 Linux
 ImageMagick
@@ -1266,7 +1272,7 @@ the
 PATH
 .
 '
-                      
+                          
 '
 Install
 ImageMagick
@@ -1281,7 +1287,7 @@ PATH
 )
 .
 '
-                      
+                          
 '
 On
 Ubuntu
@@ -1296,7 +1302,7 @@ install
 imagemagick
 .
 '
-                      
+                          
 '
 On
 Fedora
@@ -1307,7 +1313,7 @@ install
 imagemagick
 .
 '
-                      
+                          
 '
 On
 CentOS
@@ -1318,14 +1324,8 @@ install
 imagemagick
 .
 '
-                      
-.
-format
-(
-e
 )
-)
-                
+                    
 return
 1
         
