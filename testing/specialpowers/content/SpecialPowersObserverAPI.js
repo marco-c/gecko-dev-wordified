@@ -1997,7 +1997,7 @@ next
 -
 line
 complexity
-_receiveMessage
+_receiveMessageAPI
 (
 aMessage
 )
