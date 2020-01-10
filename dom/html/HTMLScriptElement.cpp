@@ -402,7 +402,7 @@ rv
 ;
 if
 (
-GetComposedDoc
+IsInComposedDoc
 (
 )
 )
