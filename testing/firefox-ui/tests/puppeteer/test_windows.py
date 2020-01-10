@@ -184,17 +184,12 @@ self
 .
 marionette
 .
-execute_script
+open
 (
+type
+=
 "
-"
-"
-OpenBrowserWindow
-(
-)
-;
-"
-"
+window
 "
 )
         
@@ -1004,17 +999,12 @@ window
 .
 marionette
 .
-execute_script
+open
 (
+type
+=
 "
-"
-"
-OpenBrowserWindow
-(
-)
-;
-"
-"
+window
 "
 )
         
@@ -1029,20 +1019,8 @@ window
 .
 marionette
 .
-execute_script
-(
-"
-"
-"
-window
-.
 close
 (
-)
-;
-"
-"
-"
 )
         
 win2
