@@ -283,8 +283,6 @@ thenable
 =
 {
 then
-:
-function
 (
 f
 )

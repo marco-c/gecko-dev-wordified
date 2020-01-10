@@ -182,6 +182,7 @@ expectedExceptionGlobal
 (
 global
 )
+;
 is
 (
 SpecialPowers
