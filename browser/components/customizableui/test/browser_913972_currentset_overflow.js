@@ -186,6 +186,8 @@ outerHeight
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -200,6 +202,13 @@ hasAttribute
 overflowing
 "
 )
+"
+Navbar
+has
+a
+overflowing
+attribute
+"
 )
 ;
 ok
@@ -267,6 +276,8 @@ outerHeight
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -282,6 +293,15 @@ hasAttribute
 overflowing
 "
 )
+"
+Navbar
+does
+not
+have
+an
+overflowing
+attribute
+"
 )
 ;
 ok
