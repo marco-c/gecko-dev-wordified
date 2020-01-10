@@ -74,9 +74,9 @@ os
 .
 getenv
 (
-'
+"
 MOZ_UPLOAD_DIR
-'
+"
 )
     
 if
@@ -90,6 +90,7 @@ log
 .
 critical
 (
+            
 "
 %
 power
@@ -104,10 +105,11 @@ raptor
 .
 config
 [
-'
+"
 app
-'
+"
 ]
+        
 )
         
 return
@@ -116,10 +118,14 @@ return
 Set
 the
 screen
+-
 off
 timeout
 to
+two
+(
 2
+)
 hours
 since
 the
@@ -183,6 +189,7 @@ get
 system
 screen_off_timeout
 "
+    
 )
 .
 strip
@@ -248,22 +255,22 @@ path
 join
 (
 upload_dir
-'
+"
 battery
 -
 before
 .
 txt
-'
+"
 )
     
 with
 open
 (
 filepath
-'
+"
 w
-'
+"
 )
 as
 output
@@ -575,9 +582,11 @@ screen
 and
 proportional
 values
+are
+available
 from
-the
 #
+the
 Uid
 line
 for
@@ -650,7 +659,7 @@ and
 Wifi
 lines
 which
-may
+might
 include
 contributions
 from
@@ -660,9 +669,11 @@ or
 #
 other
 apps
+;
 however
 it
 should
+still
 be
 useful
 for
@@ -680,6 +691,7 @@ the
 energy
 values
 from
+the
 Uid
 line
 for
@@ -697,8 +709,9 @@ If
 for
 any
 reason
-that
-the
+either
+/
+both
 screen
 or
 wifi
@@ -728,7 +741,6 @@ energy
 value
 is
 available
-then
 it
 will
 be
@@ -759,9 +771,9 @@ os
 .
 getenv
 (
-'
+"
 MOZ_UPLOAD_DIR
-'
+"
 )
     
 if
@@ -775,6 +787,7 @@ log
 .
 critical
 (
+            
 "
 %
 power
@@ -788,16 +801,14 @@ set
 "
 %
 test_name
+        
 )
         
 return
     
 #
 Restore
-the
-screen
-off
-timeout
+screen_off_timeout
 .
     
 raptor
@@ -819,6 +830,7 @@ s
 raptor
 .
 screen_off_timeout
+    
 )
     
 filepath
@@ -830,22 +842,22 @@ path
 join
 (
 upload_dir
-'
+"
 battery
 -
 after
 .
 txt
-'
+"
 )
     
 with
 open
 (
 filepath
-'
+"
 w
-'
+"
 )
 as
 output
@@ -893,20 +905,20 @@ path
 join
 (
 upload_dir
-'
+"
 batterystats
 .
 csv
-'
+"
 )
     
 with
 open
 (
 filepath
-'
+"
 w
-'
+"
 )
 as
 output
@@ -941,20 +953,20 @@ path
 join
 (
 upload_dir
-'
+"
 batterystats
 .
 txt
-'
+"
 )
     
 with
 open
 (
 filepath
-'
+"
 w
-'
+"
 )
 as
 output
@@ -1047,9 +1059,9 @@ raptor
 .
 config
 [
-'
+"
 binary
-'
+"
 ]
 )
     
@@ -1060,7 +1072,7 @@ re
 compile
 (
 r
-'
+"
 \
 s
 +
@@ -1074,7 +1086,7 @@ mAh
 [
 )
 ]
-'
+"
 )
     
 re_proportional
@@ -1084,7 +1096,7 @@ re
 compile
 (
 r
-'
+"
 proportional
 =
 (
@@ -1095,7 +1107,7 @@ d
 ]
 +
 )
-'
+"
 )
     
 re_screen
@@ -1105,7 +1117,7 @@ re
 compile
 (
 r
-'
+"
 screen
 =
 (
@@ -1116,7 +1128,7 @@ d
 ]
 +
 )
-'
+"
 )
     
 re_full_screen
@@ -1126,7 +1138,7 @@ re
 compile
 (
 r
-'
+"
 \
 s
 +
@@ -1143,7 +1155,7 @@ d
 ]
 +
 )
-'
+"
 )
     
 re_full_wifi
@@ -1153,7 +1165,7 @@ re
 compile
 (
 r
-'
+"
 \
 s
 +
@@ -1170,7 +1182,7 @@ d
 ]
 +
 )
-'
+"
 )
     
 re_power
@@ -1183,10 +1195,10 @@ batterystats
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
     
 for
@@ -1207,7 +1219,7 @@ proc
 line
 containing
 the
-uid
+Uid
 and
 app
 name
@@ -1251,7 +1263,7 @@ compile
 (
                     
 r
-'
+"
 \
 s
 +
@@ -1297,10 +1309,10 @@ d
 [
 )
 ]
-'
+"
                     
 r
-'
+"
 Including
 smearing
 :
@@ -1314,9 +1326,10 @@ d
 )
 )
 ?
-'
+"
 %
 uid
+                
 )
                 
 continue
@@ -1605,7 +1618,8 @@ log
 .
 info
 (
-'
+        
+"
 power
 data
 for
@@ -1629,9 +1643,9 @@ proportional
 :
 %
 s
-'
+"
+        
 %
-                    
 (
 uid
 cpu
@@ -1639,6 +1653,7 @@ wifi
 screen
 proportional
 )
+    
 )
     
 #
@@ -1649,10 +1664,10 @@ directly
 to
 the
 control
+-
 server
 results
 handler
-;
     
 #
 so
@@ -1661,7 +1676,9 @@ can
 be
 formatted
 and
-output
+out
+-
+put
 for
 perfherder
 ingestion
@@ -1669,70 +1686,73 @@ ingestion
 power_data
 =
 {
-'
+        
+"
 type
-'
+"
 :
-'
+"
 power
-'
-                  
-'
+"
+        
+"
 test
-'
+"
 :
 test_name
-                  
-'
+        
+"
 unit
-'
+"
 :
-'
+"
 mAh
-'
-                  
-'
+"
+        
+"
 values
-'
+"
 :
 {
-                      
-'
+            
+"
 cpu
-'
+"
 :
 float
 (
 cpu
 )
-                      
-'
+            
+"
 wifi
-'
+"
 :
 float
 (
 wifi
 )
-                      
-'
+            
+"
 screen
-'
+"
 :
 float
 (
 screen
 )
-                      
-'
+            
+"
 proportional
-'
+"
 :
 float
 (
 proportional
 )
+        
 }
+    
 }
     
 raptor
