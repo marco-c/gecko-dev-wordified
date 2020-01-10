@@ -2161,7 +2161,7 @@ LOGICAL_SIDES
 LOGICAL_SIZES
 +
 LOGICAL_CORNERS
-                
+                      
 if
 s
 in
