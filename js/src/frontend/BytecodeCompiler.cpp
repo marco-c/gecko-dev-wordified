@@ -4813,7 +4813,7 @@ Unit
 static
 ModuleObject
 *
-CreateModule
+InternalParseModule
 (
 JSContext
 *
@@ -4961,7 +4961,7 @@ ModuleObject
 frontend
 :
 :
-CompileModule
+ParseModule
 (
 JSContext
 *
@@ -4983,7 +4983,7 @@ sourceObjectOut
 )
 {
 return
-CreateModule
+InternalParseModule
 (
 cx
 optionsInput
@@ -5052,7 +5052,7 @@ RootedModuleObject
 module
 (
 cx
-CompileModule
+ParseModule
 (
 cx
 options

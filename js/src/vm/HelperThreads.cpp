@@ -4002,7 +4002,7 @@ module
 frontend
 :
 :
-CompileModule
+ParseModule
 (
 cx
 options
