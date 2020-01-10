@@ -13524,6 +13524,7 @@ location
 )
             
 elif
+(
 identifier
 =
 =
@@ -13531,12 +13532,22 @@ identifier
 Pref
 "
 or
+                  
+identifier
+=
+=
+"
+HeaderFile
+"
+or
+                  
 identifier
 =
 =
 "
 Func
 "
+)
 :
                 
 #
