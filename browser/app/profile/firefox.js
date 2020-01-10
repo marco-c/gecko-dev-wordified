@@ -25278,6 +25278,10 @@ WebSocket
 monitoring
 in
 Nightly
+and
+DevEdition
+/
+Beta
 builds
 .
 #
@@ -25285,6 +25289,12 @@ if
 defined
 (
 NIGHTLY_BUILD
+)
+|
+|
+defined
+(
+MOZ_DEV_EDITION
 )
 pref
 (
