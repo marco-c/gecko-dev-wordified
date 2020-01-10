@@ -314,7 +314,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_UNSET
+SAMESITE_NONE
 )
 ;
 check_cookie_exists
