@@ -28,12 +28,7 @@ MATTR_CACHE
 :
 vm_machine_attribute_t
 =
-(
 1
-<
-<
-0
-)
 ;
 pub
 const

@@ -28,12 +28,7 @@ VM_SYNC_ASYNCHRONOUS
 :
 vm_sync_t
 =
-(
 1
-<
-<
-0
-)
 ;
 pub
 const

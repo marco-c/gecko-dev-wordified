@@ -36,12 +36,7 @@ VM_PROT_READ
 :
 vm_prot_t
 =
-(
 1
-<
-<
-0
-)
 ;
 pub
 const
