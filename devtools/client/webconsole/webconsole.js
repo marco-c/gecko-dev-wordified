@@ -1914,6 +1914,8 @@ client
 /
 debugger
 /
+new
+/
 src
 /
 workers
@@ -1940,6 +1942,8 @@ devtools
 client
 /
 debugger
+/
+new
 /
 dist
 /

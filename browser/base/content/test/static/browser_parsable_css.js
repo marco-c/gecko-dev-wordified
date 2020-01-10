@@ -177,6 +177,9 @@ client
 debugger
 \
 /
+new
+\
+/
 dist
 \
 /
@@ -200,6 +203,9 @@ client
 \
 /
 debugger
+\
+/
+new
 \
 /
 src

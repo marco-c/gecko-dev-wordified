@@ -116,6 +116,8 @@ client
 /
 debugger
 /
+new
+/
 index
 .
 html
