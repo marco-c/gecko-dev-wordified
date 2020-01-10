@@ -667,6 +667,9 @@ mXHRParamsAllowed
 bool
 mPrincipalIsSystem
 ;
+bool
+mWatchedByDevtools
+;
 nsContentUtils
 :
 :
