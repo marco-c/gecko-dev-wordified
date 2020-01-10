@@ -35994,7 +35994,7 @@ Rooted
 JSScript
 *
 >
-script
+innerScript
 (
 cx
 JSScript
@@ -36027,7 +36027,7 @@ toStringEnd
 if
 (
 !
-script
+innerScript
 )
 {
 return
@@ -36097,7 +36097,7 @@ bce2
 this
 parser
 funbox
-script
+innerScript
 /
 *
 lazyScript
@@ -36182,7 +36182,7 @@ isLikelyConstructorWrapper
 )
 )
 {
-script
+innerScript
 -
 >
 setLikelyConstructorWrapper
