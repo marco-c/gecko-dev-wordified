@@ -7931,6 +7931,9 @@ runTask
 (
 )
 {
+AutoSetHelperThreadContext
+needsContext
+;
 ExecuteCompileTaskFromHelperThread
 (
 this
