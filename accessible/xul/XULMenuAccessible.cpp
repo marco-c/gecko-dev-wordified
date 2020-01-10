@@ -440,11 +440,6 @@ aContent
 aDoc
 )
 {
-mStateFlags
-|
-=
-eNoXBLKids
-;
 }
 uint64_t
 XULMenuitemAccessible
@@ -2896,11 +2891,6 @@ mGenericTypes
 eSelect
 ;
 }
-mStateFlags
-|
-=
-eNoXBLKids
-;
 }
 uint64_t
 XULMenupopupAccessible
