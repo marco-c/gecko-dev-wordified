@@ -2106,6 +2106,9 @@ serviceContainer
 sourceMapService
 :
 undefined
+messageSource
+:
+source
 }
 )
 :
