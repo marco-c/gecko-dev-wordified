@@ -2104,7 +2104,7 @@ true
 endif
 #
 ifdef
-XP_WIN
+MOZ_BITS_DOWNLOAD
 /
 /
 If
