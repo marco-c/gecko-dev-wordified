@@ -8725,6 +8725,12 @@ forceLexicalInitializationByName
 NotAllowed
 }
 ;
+ReplayDebugger
+.
+Object
+=
+ReplayDebuggerObject
+;
 /
 /
 /
