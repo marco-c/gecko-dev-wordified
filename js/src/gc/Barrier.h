@@ -6814,6 +6814,7 @@ typename
 T
 >
 class
+MOZ_HEAP_CLASS
 ImmutableTenuredPtr
 {
 T
