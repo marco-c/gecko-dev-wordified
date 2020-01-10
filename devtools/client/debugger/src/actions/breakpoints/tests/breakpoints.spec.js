@@ -89,7 +89,7 @@ head
 ;
 import
 {
-simpleMockThreadFront
+mockCommandClient
 }
 from
 "
@@ -103,9 +103,7 @@ tests
 /
 helpers
 /
-threadFront
-.
-js
+mockCommandClient
 "
 ;
 function
@@ -122,7 +120,7 @@ return
 .
 .
 .
-simpleMockThreadFront
+mockCommandClient
 getBreakpointPositions
 :
 async

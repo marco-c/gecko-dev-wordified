@@ -93,9 +93,7 @@ selectors
 ;
 import
 {
-sourceThreadFront
-as
-threadFront
+mockCommandClient
 }
 from
 "
@@ -103,9 +101,7 @@ from
 /
 helpers
 /
-threadFront
-.
-js
+mockCommandClient
 "
 ;
 describe
@@ -141,7 +137,7 @@ cx
 =
 createStore
 (
-threadFront
+mockCommandClient
 )
 ;
 const
@@ -255,7 +251,7 @@ cx
 =
 createStore
 (
-threadFront
+mockCommandClient
 )
 ;
 const
@@ -424,7 +420,7 @@ cx
 =
 createStore
 (
-threadFront
+mockCommandClient
 )
 ;
 const
@@ -538,7 +534,7 @@ cx
 =
 createStore
 (
-threadFront
+mockCommandClient
 )
 ;
 await
@@ -708,7 +704,7 @@ cx
 =
 createStore
 (
-threadFront
+mockCommandClient
 )
 ;
 await
@@ -954,7 +950,7 @@ cx
 =
 createStore
 (
-threadFront
+mockCommandClient
 )
 ;
 await
@@ -1198,7 +1194,7 @@ cx
 =
 createStore
 (
-threadFront
+mockCommandClient
 )
 ;
 await

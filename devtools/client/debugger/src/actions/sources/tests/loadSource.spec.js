@@ -91,7 +91,7 @@ head
 import
 {
 createSource
-sourceThreadFront
+mockCommandClient
 }
 from
 "
@@ -105,9 +105,7 @@ tests
 /
 helpers
 /
-threadFront
-.
-js
+mockCommandClient
 "
 ;
 import
@@ -180,7 +178,7 @@ store
 =
 createStore
 (
-sourceThreadFront
+mockCommandClient
 )
 ;
 const
@@ -454,7 +452,7 @@ createStore
 .
 .
 .
-sourceThreadFront
+mockCommandClient
 sourceContents
 :
 async
@@ -1521,7 +1519,7 @@ cx
 =
 createStore
 (
-sourceThreadFront
+mockCommandClient
 )
 ;
 const
@@ -1639,7 +1637,7 @@ store
 =
 createStore
 (
-sourceThreadFront
+mockCommandClient
 )
 ;
 const
@@ -1748,7 +1746,7 @@ cx
 =
 createStore
 (
-sourceThreadFront
+mockCommandClient
 )
 ;
 const
