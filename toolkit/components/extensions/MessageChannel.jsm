@@ -2574,9 +2574,9 @@ messageName
 handler
 )
 {
-Cu
-.
-reportError
+throw
+new
+Error
 (
 Attempting
 to
