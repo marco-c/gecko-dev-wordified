@@ -359,6 +359,11 @@ js
 ;
 const
 {
+selectors
+:
+{
+getBreakpointCount
+}
 getState
 }
 =
@@ -548,10 +553,6 @@ js
 ;
 is
 (
-dbg
-.
-selectors
-.
 getBreakpointCount
 (
 getState

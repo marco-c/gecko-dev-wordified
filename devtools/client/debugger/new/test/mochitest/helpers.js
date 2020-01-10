@@ -8724,6 +8724,22 @@ lineHeightOffset
 =
 3
 ;
+/
+/
+Click
+in
+the
+center
+of
+the
+line
+/
+breakpoint
+const
+leftOffset
+=
+10
+;
 const
 tokenEl
 =
@@ -8736,6 +8752,8 @@ document
 elementFromPoint
 (
 left
+-
+leftOffset
 top
 +
 lineHeightOffset
@@ -10560,4 +10578,5 @@ length
 ;
 }
 )
+;
 }
