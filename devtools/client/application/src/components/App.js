@@ -159,7 +159,7 @@ LocalizationProvider
 )
 ;
 const
-WorkersPage
+PageContainer
 =
 createFactory
 (
@@ -168,11 +168,9 @@ require
 "
 .
 /
-service
--
-workers
+layout
 /
-WorkersPage
+PageContainer
 "
 )
 )
@@ -244,7 +242,7 @@ className
 :
 application
 }
-WorkersPage
+PageContainer
 (
 {
 }
