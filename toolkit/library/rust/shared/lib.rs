@@ -72,17 +72,6 @@ alloc_error_hook
 )
 )
 ]
-#
-[
-cfg
-(
-feature
-=
-"
-servo
-"
-)
-]
 extern
 crate
 geckoservo
