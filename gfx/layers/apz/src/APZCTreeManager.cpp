@@ -7078,6 +7078,11 @@ GetVisibleRegion
 )
 aLayer
 .
+GetRemoteDocumentRect
+(
+)
+aLayer
+.
 GetTransformTyped
 (
 )
@@ -8353,6 +8358,11 @@ GetVisibleRegion
 )
 aLayer
 .
+GetRemoteDocumentRect
+(
+)
+aLayer
+.
 GetTransformTyped
 (
 )
@@ -9315,6 +9325,11 @@ aLayer
 aLayer
 .
 GetVisibleRegion
+(
+)
+aLayer
+.
+GetRemoteDocumentRect
 (
 )
 aLayer
