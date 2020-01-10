@@ -664,6 +664,16 @@ GlSpew
 ;
 /
 /
+DECL_GFX_ENV
+(
+"
+MOZ_GPU_SWITCHING_SPEW
+"
+GpuSwitchingSpew
+)
+;
+/
+/
 Do
 extra
 work
