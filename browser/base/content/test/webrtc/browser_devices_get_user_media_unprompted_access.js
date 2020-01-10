@@ -482,7 +482,7 @@ deny
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -495,7 +495,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -508,7 +508,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -625,7 +625,7 @@ checkNotSharing
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -638,7 +638,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -651,7 +651,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -894,7 +894,7 @@ deny
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -907,7 +907,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -920,7 +920,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -1011,7 +1011,7 @@ deny
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -1024,7 +1024,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -1037,7 +1037,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -1162,7 +1162,7 @@ deny
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -1175,7 +1175,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -1188,7 +1188,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -1551,7 +1551,7 @@ deny
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -1564,7 +1564,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -1577,7 +1577,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -1668,7 +1668,7 @@ deny
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -1681,7 +1681,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -1694,7 +1694,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "

@@ -915,7 +915,7 @@ scope
 =
 SitePermissions
 .
-get
+getForPrincipal
 (
 null
 "
@@ -986,7 +986,7 @@ scope
 =
 SitePermissions
 .
-get
+getForPrincipal
 (
 null
 "
@@ -1122,11 +1122,11 @@ checkNotSharing
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 browser
 .
-currentURI
+contentPrincipal
 "
 camera
 "
@@ -1135,11 +1135,11 @@ browser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 browser
 .
-currentURI
+contentPrincipal
 "
 microphone
 "
@@ -1431,7 +1431,7 @@ checkNotSharing
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -1444,7 +1444,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -1457,7 +1457,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -1738,7 +1738,7 @@ checkNotSharing
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -1751,7 +1751,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -1764,7 +1764,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -2640,7 +2640,7 @@ selectedBrowser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -2651,7 +2651,7 @@ browser
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
