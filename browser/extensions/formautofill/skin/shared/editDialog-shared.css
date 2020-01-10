@@ -308,9 +308,10 @@ position
 :
 absolute
 ;
-color
+opacity
 :
-GrayText
+.
+5
 ;
 pointer
 -
@@ -452,6 +453,10 @@ item
 -
 selected
 )
+;
+opacity
+:
+1
 ;
 }
 /
