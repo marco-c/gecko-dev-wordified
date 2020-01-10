@@ -60517,6 +60517,11 @@ report
 reportWarnings
 )
 ;
+JS_ClearPendingException
+(
+cx
+)
+;
 if
 (
 !
