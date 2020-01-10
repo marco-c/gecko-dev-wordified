@@ -16398,7 +16398,7 @@ width
 &
 mIntrinsicSize
 .
-width
+height
 )
 {
 aSize
