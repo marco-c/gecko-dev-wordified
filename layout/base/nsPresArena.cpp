@@ -940,6 +940,12 @@ AddSizeOfExcludingThis
 nsWindowSizes
 &
 aSizes
+size_t
+nsWindowSizes
+:
+:
+*
+aArenaSize
 )
 const
 {
@@ -1330,7 +1336,8 @@ totalSize
 }
 aSizes
 .
-mLayoutPresShellSize
+*
+aArenaSize
 +
 =
 mallocSize

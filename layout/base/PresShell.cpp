@@ -72851,6 +72851,11 @@ mFrameArena
 AddSizeOfExcludingThis
 (
 aSizes
+&
+nsWindowSizes
+:
+:
+mLayoutPresShellSize
 )
 ;
 aSizes
