@@ -463,11 +463,11 @@ index
 )
 :
                 
-assert
+if
 other
 .
 data
-!
+=
 =
 self
 .
@@ -477,6 +477,27 @@ i
 ]
 .
 data
+:
+                    
+raise
+ValueError
+(
+"
+Duplicate
+key
+%
+s
+"
+%
+self
+.
+children
+[
+i
+]
+.
+data
+)
             
 self
 .
