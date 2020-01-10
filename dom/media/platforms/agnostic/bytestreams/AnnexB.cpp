@@ -248,6 +248,9 @@ uint8_t
 tmp
 ;
 ByteWriter
+<
+BigEndian
+>
 writer
 (
 tmp
@@ -1888,6 +1891,9 @@ nsresult
 ParseNALUnits
 (
 ByteWriter
+<
+BigEndian
+>
 &
 aBw
 BufferReader
@@ -2124,6 +2130,9 @@ uint8_t
 nalu
 ;
 ByteWriter
+<
+BigEndian
+>
 writer
 (
 nalu
@@ -2400,6 +2409,9 @@ uint8_t
 dest
 ;
 ByteWriter
+<
+BigEndian
+>
 writer
 (
 dest

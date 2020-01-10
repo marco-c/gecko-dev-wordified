@@ -6170,6 +6170,9 @@ uint8_t
 sps
 ;
 ByteWriter
+<
+BigEndian
+>
 spsw
 (
 sps
@@ -6191,6 +6194,9 @@ uint8_t
 pps
 ;
 ByteWriter
+<
+BigEndian
+>
 ppsw
 (
 pps
