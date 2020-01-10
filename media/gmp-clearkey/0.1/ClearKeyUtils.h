@@ -425,7 +425,7 @@ ClearKeyUtils
 public
 :
 static
-void
+bool
 DecryptAES
 (
 const

@@ -1569,6 +1569,9 @@ size
 0
 )
 ;
+if
+(
+!
 ClearKeyUtils
 :
 :
@@ -1578,7 +1581,15 @@ mKey
 tmp
 iv
 )
+)
+{
+return
+Status
+:
+:
+kDecryptError
 ;
+}
 if
 (
 aMetadata
