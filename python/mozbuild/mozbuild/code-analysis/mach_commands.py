@@ -3683,6 +3683,26 @@ checkerName
 ]
                     
 '
+build_error
+'
+:
+issue
+[
+'
+checkerName
+'
+]
+.
+startswith
+(
+'
+RW
+.
+CLANG
+'
+)
+                    
+'
 message
 '
 :
