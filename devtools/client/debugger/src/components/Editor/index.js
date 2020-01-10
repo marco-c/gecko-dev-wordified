@@ -270,6 +270,7 @@ getSymbols
 getIsPaused
 getCurrentThread
 getThreadContext
+getSkipPausing
 }
 from
 "
@@ -574,6 +575,9 @@ symbols
 :
 SymbolDeclarations
 isPaused
+:
+boolean
+skipPausing
 :
 boolean
 /
@@ -3253,6 +3257,7 @@ render
 const
 {
 selectedSource
+skipPausing
 }
 =
 this
@@ -3282,6 +3287,13 @@ selectedSource
 selectedSource
 .
 isBlackBoxed
+"
+skip
+-
+pausing
+"
+:
+skipPausing
 }
 )
 }
@@ -3421,6 +3433,12 @@ getCurrentThread
 (
 state
 )
+)
+skipPausing
+:
+getSkipPausing
+(
+state
 )
 }
 ;
