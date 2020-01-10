@@ -690,7 +690,7 @@ instead
 .
 nsCOMPtr
 <
-nsIIPCBlobInputStream
+mozIIPCBlobInputStream
 >
 ipcBlobInputStream
 =
