@@ -2020,10 +2020,6 @@ filter_data_iter
 [
 TempFilterData
 ]
-display_list
-:
-&
-BuiltDisplayList
 )
 {
 enum_node
@@ -3388,10 +3384,6 @@ ItemRange
 <
 GradientStop
 >
-display_list
-:
-&
-BuiltDisplayList
 )
 {
 point_node
@@ -5888,10 +5880,6 @@ ItemRange
 <
 ComplexClipRegion
 >
-list
-:
-&
-BuiltDisplayList
 )
 -
 >
@@ -7921,7 +7909,6 @@ base
 gradient_stops
 (
 )
-display_list
 )
 ;
 }
@@ -8683,7 +8670,6 @@ base
 gradient_stops
 (
 )
-display_list
 )
 ;
 }
@@ -8896,7 +8882,6 @@ base
 filter_datas
 (
 )
-display_list
 )
 ;
 let
@@ -9097,7 +9082,6 @@ base
 complex_clip
 (
 )
-display_list
 )
 {
 yaml_node
@@ -9400,7 +9384,6 @@ base
 complex_clip
 (
 )
-display_list
 )
 {
 yaml_node
