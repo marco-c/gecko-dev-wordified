@@ -1306,6 +1306,7 @@ return
 NS_OK
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Notify
 (
@@ -1424,7 +1425,15 @@ mismatch
 "
 )
 ;
+RefPtr
+<
+Selection
+>
+selection
+=
 mSelection
+;
+selection
 -
 >
 DoAutoScroll
@@ -19930,8 +19939,10 @@ return
 NS_OK
 ;
 }
+RefPtr
+<
 PresShell
-*
+>
 presShell
 =
 mFrameSelection

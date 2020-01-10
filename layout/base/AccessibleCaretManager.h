@@ -1439,6 +1439,7 @@ the
 scroll
 port
 .
+MOZ_CAN_RUN_SCRIPT
 void
 StartSelectionAutoScrollTimer
 (

@@ -1111,6 +1111,7 @@ GetCurrentMenuItem
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 SetCurrentMenuItem
 (
@@ -1649,6 +1650,7 @@ the
 popup
 as
 needed
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 LayoutPopup
 (
@@ -2374,6 +2376,7 @@ aResult
 }
 #
 endif
+MOZ_CAN_RUN_SCRIPT
 void
 EnsureMenuItemIsVisible
 (

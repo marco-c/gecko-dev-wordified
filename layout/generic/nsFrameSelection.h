@@ -2479,11 +2479,7 @@ interval
 .
 *
 /
-/
-*
-unsafe
-*
-/
+MOZ_CAN_RUN_SCRIPT
 nsresult
 StartAutoScrollTimer
 (
