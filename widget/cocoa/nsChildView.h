@@ -4432,8 +4432,8 @@ mPluginFocused
 /
 Used
 in
+BasicCompositor
 OMTC
-BasicLayers
 mode
 .
 Presents
