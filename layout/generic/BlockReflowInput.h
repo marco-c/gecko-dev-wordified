@@ -1549,7 +1549,7 @@ Caller
 must
 have
 called
-GetAvailableSpace
+GetFloatAvailableSpace
 for
 the
 correct
@@ -1594,7 +1594,7 @@ Caller
 must
 have
 called
-GetAvailableSpace
+GetFloatAvailableSpace
 for
 the
 current

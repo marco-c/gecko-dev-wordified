@@ -2706,7 +2706,7 @@ must
 already
 have
 *
-GetAvailableSpace
+GetFloatAvailableSpace
 called
 on
 it

@@ -1675,7 +1675,9 @@ frame
 at
 the
 current
-Y
+block
+-
+direction
 coordinate
 .
 This
@@ -1684,7 +1686,7 @@ assumes
 that
 /
 /
-GetAvailableSpace
+GetFloatAvailableSpace
 has
 already
 been
