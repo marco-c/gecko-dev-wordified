@@ -1875,7 +1875,7 @@ skipJump
 )
 .
 {
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &
@@ -5298,7 +5298,7 @@ inserted
 Label
 bailout
 ;
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &

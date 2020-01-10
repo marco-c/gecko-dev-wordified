@@ -3246,7 +3246,7 @@ ARM
 /
 this
 requires
-AutoForbidPools
+AutoForbidPoolsAndNops
 to
 prevent
 a
@@ -3678,7 +3678,7 @@ defined
 (
 JS_CODEGEN_ARM
 )
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &
@@ -4200,7 +4200,7 @@ defined
 (
 JS_CODEGEN_ARM
 )
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &
@@ -5474,7 +5474,7 @@ defined
 (
 JS_CODEGEN_ARM
 )
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &
@@ -5554,7 +5554,7 @@ defined
 (
 JS_CODEGEN_ARM64
 )
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &

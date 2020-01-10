@@ -88423,7 +88423,7 @@ takes
 one
 word
 .
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &

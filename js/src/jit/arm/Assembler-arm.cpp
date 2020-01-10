@@ -5433,6 +5433,12 @@ CodeLabel
 label
 )
 {
+m_buffer
+.
+assertNoPoolAndNoNops
+(
+)
+;
 BufferOffset
 off
 =

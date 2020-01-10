@@ -32218,7 +32218,7 @@ ma_mov
 (
 )
 .
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &
