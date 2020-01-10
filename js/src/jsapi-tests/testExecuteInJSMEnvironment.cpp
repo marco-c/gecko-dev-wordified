@@ -100,7 +100,7 @@ h
 JS
 :
 :
-CompileForNonSyntacticScope
+CompileForNonSyntacticScopeDontInflate
 #
 include
 "
@@ -369,7 +369,7 @@ cx
 JS
 :
 :
-CompileForNonSyntacticScope
+CompileForNonSyntacticScopeDontInflate
 (
 cx
 options
@@ -957,7 +957,7 @@ cx
 JS
 :
 :
-CompileForNonSyntacticScope
+CompileForNonSyntacticScopeDontInflate
 (
 cx
 options
