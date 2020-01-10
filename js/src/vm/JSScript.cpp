@@ -22666,6 +22666,12 @@ mutedErrors
 (
 )
 ;
+startLine_
+=
+options
+.
+lineno
+;
 introductionType_
 =
 options
