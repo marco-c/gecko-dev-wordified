@@ -452,6 +452,17 @@ contentblocking
 .
 report
 .
+monitor
+.
+sign_in_url
+"
+"
+browser
+.
+contentblocking
+.
+report
+.
 manage_devices
 .
 url
