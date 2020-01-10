@@ -182,7 +182,6 @@ MESSAGE_OPEN
 MESSAGE_CLOSE
 MESSAGE_TYPE
 MESSAGE_UPDATE_PAYLOAD
-MESSAGE_TABLE_RECEIVE
 PAUSED_EXCECUTION_POINT
 PRIVATE_MESSAGES_CLEAR
 }
@@ -572,7 +571,7 @@ err
 ;
 }
 function
-messageTableDataGet
+messageGetTableData
 (
 id
 client
@@ -705,7 +704,7 @@ sliceResponse
 ;
 dispatch
 (
-messageTableDataReceive
+messageUpdatePayload
 (
 id
 ownProperties
@@ -718,23 +717,6 @@ ownProperties
 }
 )
 ;
-}
-;
-}
-function
-messageTableDataReceive
-(
-id
-data
-)
-{
-return
-{
-type
-:
-MESSAGE_TABLE_RECEIVE
-id
-data
 }
 ;
 }
@@ -866,7 +848,7 @@ messagesClearLogpoint
 messageOpen
 messageClose
 messageGetMatchingElements
-messageTableDataGet
+messageGetTableData
 messageUpdatePayload
 networkMessageUpdate
 networkUpdateRequest
@@ -878,7 +860,6 @@ test
 purpose
 only
 .
-messageTableDataReceive
 setPauseExecutionPoint
 }
 ;
