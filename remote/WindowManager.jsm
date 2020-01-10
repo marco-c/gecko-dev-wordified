@@ -893,6 +893,9 @@ TabManager
 {
 addTab
 (
+{
+userContextId
+}
 )
 {
 const
@@ -940,6 +943,7 @@ scriptSecurityManager
 getSystemPrincipal
 (
 )
+userContextId
 }
 )
 ;
