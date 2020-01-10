@@ -140,7 +140,6 @@ AnimatedRGBA
 flags
 =
 "
-APPLIES_TO_CUE
 APPLIES_TO_FIRST_LETTER
 APPLIES_TO_FIRST_LINE
 APPLIES_TO_PLACEHOLDER
@@ -204,7 +203,6 @@ LineHeight
 flags
 =
 "
-APPLIES_TO_CUE
 APPLIES_TO_FIRST_LETTER
 APPLIES_TO_FIRST_LINE
 \
@@ -1348,7 +1346,6 @@ important
 flags
 =
 "
-APPLIES_TO_CUE
 APPLIES_TO_PLACEHOLDER
 "
 spec
@@ -1577,7 +1574,6 @@ True
 flags
 =
 "
-APPLIES_TO_CUE
 APPLIES_TO_FIRST_LETTER
 APPLIES_TO_FIRST_LINE
 APPLIES_TO_PLACEHOLDER
@@ -2401,11 +2397,6 @@ position
 -
 property
 "
-flags
-=
-"
-APPLIES_TO_CUE
-"
 )
 }
 /
@@ -2489,11 +2480,6 @@ text
 combine
 -
 upright
-"
-flags
-=
-"
-APPLIES_TO_CUE
 "
 )
 }

@@ -189,11 +189,6 @@ outline
 -
 color
 "
-flags
-=
-"
-APPLIES_TO_CUE
-"
 )
 }
 {
@@ -261,11 +256,6 @@ propdef
 outline
 -
 style
-"
-flags
-=
-"
-APPLIES_TO_CUE
 "
 )
 }
@@ -354,11 +344,6 @@ propdef
 outline
 -
 width
-"
-flags
-=
-"
-APPLIES_TO_CUE
 "
 )
 }
