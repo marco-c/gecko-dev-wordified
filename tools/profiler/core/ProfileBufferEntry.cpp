@@ -1141,7 +1141,10 @@ LambdaT
 std
 :
 :
-move
+forward
+<
+LambdaT
+>
 (
 aLambda
 )
