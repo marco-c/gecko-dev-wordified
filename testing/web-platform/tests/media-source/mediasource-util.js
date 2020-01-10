@@ -2366,6 +2366,14 @@ test
 PASS
 )
 {
+test
+.
+step
+(
+function
+(
+)
+{
 assert_false
 (
 test
@@ -2382,6 +2390,9 @@ event
 expectations
 .
 "
+)
+;
+}
 )
 ;
 }
