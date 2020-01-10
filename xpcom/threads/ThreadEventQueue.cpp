@@ -1840,9 +1840,6 @@ class
 ThreadEventQueue
 <
 PrioritizedEventQueue
-<
-EventQueue
->
 >
 ;
 }

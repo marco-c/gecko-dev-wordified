@@ -1341,11 +1341,7 @@ CreateMainThread
 ThreadEventQueue
 <
 PrioritizedEventQueue
-<
-EventQueue
 >
->
-EventQueue
 >
 (
 idlePeriod
