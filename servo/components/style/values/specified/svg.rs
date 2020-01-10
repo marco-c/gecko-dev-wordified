@@ -1432,10 +1432,14 @@ PAINT_ORDER_COUNT
 for
 paint
 in
-0
+1
 .
 .
+(
 PAINT_ORDER_COUNT
++
+1
+)
 {
 /
 /
