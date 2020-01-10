@@ -417,6 +417,10 @@ mContentLength
 -
 1
 )
+mCacheControlPublic
+(
+false
+)
 mCacheControlPrivate
 (
 false
@@ -531,6 +535,11 @@ ContentCharset
 nsACString
 &
 aContentCharset
+)
+;
+bool
+Public
+(
 )
 ;
 bool
@@ -1390,6 +1399,9 @@ mContentType
 ;
 nsCString
 mContentCharset
+;
+bool
+mCacheControlPublic
 ;
 bool
 mCacheControlPrivate
