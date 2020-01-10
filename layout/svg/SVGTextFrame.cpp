@@ -24614,11 +24614,9 @@ UpdateGlyphPositioning
 float
 cssPxPerDevPx
 =
-PresContext
-(
-)
--
->
+nsPresContext
+:
+:
 AppUnitsToFloatCSSPixels
 (
 PresContext

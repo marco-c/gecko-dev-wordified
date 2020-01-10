@@ -824,9 +824,9 @@ aFrame
 >
 GetProperty
 (
-aFrame
--
->
+nsIFrame
+:
+:
 PreTransformOverflowAreasProperty
 (
 )

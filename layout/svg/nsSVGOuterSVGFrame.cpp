@@ -6925,11 +6925,9 @@ devPxPerCSSPx
 .
 0f
 /
-PresContext
-(
-)
--
->
+nsPresContext
+:
+:
 AppUnitsToFloatCSSPixels
 (
 PresContext
