@@ -4816,6 +4816,11 @@ dispatch
 this
 .
 dispatch
+handleUserAction
+:
+this
+.
+handleUserAction
 }
 )
 ;
@@ -9071,6 +9076,7 @@ handleMessageRequest
 {
 triggerId
 triggerParam
+triggerContext
 template
 provider
 returnAll
@@ -9179,6 +9185,9 @@ triggerId
 param
 :
 triggerParam
+context
+:
+triggerContext
 }
 )
 ;
@@ -9199,6 +9208,9 @@ triggerId
 param
 :
 triggerParam
+context
+:
+triggerContext
 }
 )
 ;
@@ -11452,6 +11464,11 @@ triggerParam
 trigger
 .
 param
+triggerContext
+:
+trigger
+.
+context
 }
 )
 ;
