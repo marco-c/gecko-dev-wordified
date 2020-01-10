@@ -1662,10 +1662,7 @@ delete
 thread
 ;
 }
-DebugOnly
-<
 nsresult
->
 rv
 =
 GetShutdownBarrier
