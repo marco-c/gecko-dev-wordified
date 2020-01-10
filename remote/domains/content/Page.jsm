@@ -665,6 +665,7 @@ loadEventFired
 "
 {
 timestamp
+frameId
 }
 )
 ;
@@ -689,6 +690,8 @@ navigatedWithinDocument
 "
 {
 timestamp
+frameId
+url
 }
 )
 ;
@@ -703,6 +706,7 @@ frameStoppedLoading
 "
 {
 timestamp
+frameId
 }
 )
 ;
