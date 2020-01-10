@@ -1114,12 +1114,6 @@ using
 mozilla
 :
 :
-Unused
-;
-using
-mozilla
-:
-:
 LazyLogModule
 ;
 using
@@ -1127,6 +1121,12 @@ mozilla
 :
 :
 StaticAutoPtr
+;
+using
+mozilla
+:
+:
+Unused
 ;
 LazyLogModule
 gBrowserFocusLog

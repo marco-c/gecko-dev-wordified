@@ -870,6 +870,7 @@ than
 create
 a
 new
+*
 one
 .
 *
