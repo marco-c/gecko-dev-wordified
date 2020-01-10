@@ -6411,7 +6411,12 @@ const
 kMainThreadName
 =
 "
-GeckoMain
+Main
+Thread
+(
+Base
+Profiler
+)
 "
 ;
 /
