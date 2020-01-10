@@ -70,6 +70,8 @@ os
 import
 re
 import
+six
+import
 sys
 import
 types
@@ -4899,10 +4901,11 @@ for
 k
 v
 in
-kwargs
+six
 .
 iteritems
 (
+kwargs
 )
                   
 if
@@ -5749,10 +5752,11 @@ for
 k
 v
 in
-self
+six
 .
 iteritems
 (
+self
 )
 if
 k
@@ -5965,7 +5969,7 @@ v
 in
 kwargs
 .
-iteritems
+items
 (
 )
 }
@@ -8443,16 +8447,18 @@ SandboxedGlobal
 k
 v
 )
+            
 for
 k
 v
 in
-func
-.
-func_globals
+six
 .
 iteritems
 (
+func
+.
+func_globals
 )
             
 if

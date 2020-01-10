@@ -213,7 +213,7 @@ value
 in
 tokens
 .
-iteritems
+items
 (
 )
 )
