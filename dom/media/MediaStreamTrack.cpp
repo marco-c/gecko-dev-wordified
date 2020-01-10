@@ -117,7 +117,7 @@ h
 #
 include
 "
-MediaStreamGraph
+MediaStreamGraphImpl
 .
 h
 "

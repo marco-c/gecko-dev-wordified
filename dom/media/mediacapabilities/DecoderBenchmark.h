@@ -187,12 +187,6 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 DecoderBenchmark
 )
-DecoderBenchmark
-(
-)
-=
-default
-;
 public
 :
 void
