@@ -1443,6 +1443,7 @@ to
 be
 removed
 .
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 PrepareToJoinBlocks
@@ -1539,6 +1540,7 @@ to
 be
 removed
 .
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 PrepareToDeleteRange
@@ -1600,6 +1602,7 @@ to
 be
 removed
 .
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 PrepareToDeleteNode
@@ -1679,6 +1682,7 @@ end
 with
 nbsp
 .
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 PrepareToSplitAcrossBlocks
@@ -1893,6 +1897,7 @@ PT
 typename
 CT
 >
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 dom
@@ -2143,6 +2148,7 @@ its
 /
 significance
 .
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteWSBackward
 (
@@ -2192,6 +2198,7 @@ retain
 its
 significance
 .
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteWSForward
 (
@@ -2519,6 +2526,7 @@ and
 converts
 them
 .
+MOZ_CAN_RUN_SCRIPT
 nsresult
 AdjustWhitespace
 (
@@ -2955,6 +2963,7 @@ nsINode
 aBlockParent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 PrepareToDeleteRangePriv
 (
@@ -2963,6 +2972,7 @@ WSRunObject
 aEndObject
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 PrepareToSplitAcrossBlocksPriv
 (
@@ -3364,6 +3374,7 @@ them
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertNBSPAndRemoveFollowingASCIIWhitespaces
 (
@@ -3788,6 +3799,7 @@ aOffset
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 CheckTrailingNBSPOfRun
 (
@@ -3863,6 +3875,7 @@ PT
 typename
 CT
 >
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ReplacePreviousNBSPIfUnncessary
 (
@@ -3879,6 +3892,7 @@ CT
 aPoint
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 CheckLeadingNBSP
 (
