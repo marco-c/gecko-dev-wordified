@@ -2240,6 +2240,16 @@ GetSkipContentSniffing
 )
 )
 {
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
+mContentType
+=
+UNKNOWN_CONTENT_TYPE
+;
 return
 ;
 }
