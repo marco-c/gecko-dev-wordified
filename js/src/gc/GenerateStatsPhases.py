@@ -1343,6 +1343,17 @@ JoinParallelTasksPhaseKind
 PhaseKind
 (
 "
+DECOMMIT
+"
+"
+Decommit
+"
+72
+)
+    
+PhaseKind
+(
+"
 GC_END
 "
 "
