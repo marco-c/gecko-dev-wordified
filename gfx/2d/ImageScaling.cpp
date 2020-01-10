@@ -147,10 +147,6 @@ include
 <
 algorithm
 >
-using
-namespace
-std
-;
 namespace
 mozilla
 {
@@ -483,6 +479,9 @@ internalSurfSize
 .
 width
 =
+std
+:
+:
 max
 (
 scaleSize
@@ -499,6 +498,9 @@ internalSurfSize
 .
 height
 =
+std
+:
+:
 max
 (
 scaleSize

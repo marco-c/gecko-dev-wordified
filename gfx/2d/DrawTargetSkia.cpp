@@ -381,10 +381,6 @@ h
 "
 #
 endif
-using
-namespace
-std
-;
 namespace
 mozilla
 {

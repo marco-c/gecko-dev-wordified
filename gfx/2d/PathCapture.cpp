@@ -127,10 +127,6 @@ mozilla
 namespace
 gfx
 {
-using
-namespace
-std
-;
 void
 PathBuilderCapture
 :

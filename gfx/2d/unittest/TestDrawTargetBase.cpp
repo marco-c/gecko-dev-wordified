@@ -137,10 +137,6 @@ mozilla
 :
 gfx
 ;
-using
-namespace
-std
-;
 TestDrawTargetBase
 :
 :

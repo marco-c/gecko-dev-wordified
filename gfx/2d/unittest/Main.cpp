@@ -179,10 +179,6 @@ name
 ;
 }
 ;
-using
-namespace
-std
-;
 int
 main
 (
@@ -263,6 +259,9 @@ totalTests
 =
 0
 ;
+std
+:
+:
 stringstream
 message
 ;

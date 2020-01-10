@@ -221,10 +221,6 @@ Mutex
 .
 h
 "
-using
-namespace
-std
-;
 /
 /
 decltype
@@ -314,6 +310,9 @@ mPushedLayers
 )
 mSnapshotLock
 (
+std
+:
+:
 make_shared
 <
 Mutex
@@ -10612,6 +10611,9 @@ result
 .
 left
 =
+std
+:
+:
 max
 (
 aRect1
@@ -10626,6 +10628,9 @@ result
 .
 top
 =
+std
+:
+:
 max
 (
 aRect1
@@ -10640,6 +10645,9 @@ result
 .
 right
 =
+std
+:
+:
 min
 (
 aRect1
@@ -10654,6 +10662,9 @@ result
 .
 bottom
 =
+std
+:
+:
 min
 (
 aRect1
@@ -10668,6 +10679,9 @@ result
 .
 right
 =
+std
+:
+:
 max
 (
 result
@@ -10682,6 +10696,9 @@ result
 .
 bottom
 =
+std
+:
+:
 max
 (
 result

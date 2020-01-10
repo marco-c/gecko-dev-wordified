@@ -176,10 +176,6 @@ mozilla
 namespace
 gfx
 {
-using
-namespace
-std
-;
 /
 *
 static
@@ -262,6 +258,9 @@ aAction
 )
 ;
 }
+std
+:
+:
 string
 RecordedEvent
 :

@@ -148,10 +148,6 @@ mozilla
 namespace
 gfx
 {
-using
-namespace
-std
-;
 DrawEventRecorderPrivate
 :
 :
@@ -473,6 +469,9 @@ aFilename
 mOutputStream
 (
 aFilename
+std
+:
+:
 ofstream
 :
 :
@@ -558,6 +557,9 @@ mOutputStream
 open
 (
 aFilename
+std
+:
+:
 ofstream
 :
 :
