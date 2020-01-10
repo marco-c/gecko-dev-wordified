@@ -2527,10 +2527,6 @@ mFlags
 (
 0
 )
-mId
-(
-0
-)
 mIsRecvBinary
 (
 false
@@ -3083,9 +3079,6 @@ mOrdered
 ;
 uint32_t
 mFlags
-;
-uint32_t
-mId
 ;
 bool
 mIsRecvBinary
