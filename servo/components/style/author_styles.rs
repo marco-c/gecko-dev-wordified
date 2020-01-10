@@ -207,6 +207,13 @@ used
 for
 ShadowRoot
 .
+#
+[
+derive
+(
+MallocSizeOf
+)
+]
 pub
 struct
 AuthorStyles
