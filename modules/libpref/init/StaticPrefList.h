@@ -19275,7 +19275,7 @@ DOMMatrix
 enabled
 "
 layout_css_DOMMatrix_enabled
-bool
+RelaxedAtomicBool
 true
 )
 /
@@ -19299,7 +19299,7 @@ DOMQuad
 enabled
 "
 layout_css_DOMQuad_enabled
-bool
+RelaxedAtomicBool
 true
 )
 /
@@ -19323,7 +19323,7 @@ DOMPoint
 enabled
 "
 layout_css_DOMPoint_enabled
-bool
+RelaxedAtomicBool
 true
 )
 /
