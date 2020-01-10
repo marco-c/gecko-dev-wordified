@@ -10703,6 +10703,9 @@ ResizeObserver
 insecureContext
 :
 true
+nightly
+:
+true
 }
 /
 /
