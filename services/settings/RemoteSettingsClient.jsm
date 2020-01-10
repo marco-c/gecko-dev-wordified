@@ -3392,9 +3392,10 @@ nsIContentSignatureVerifier
 if
 (
 !
+await
 verifier
 .
-verifyContentSignature
+asyncVerifyContentSignature
 (
 serialized
 "

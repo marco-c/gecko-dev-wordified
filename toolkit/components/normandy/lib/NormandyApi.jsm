@@ -1042,9 +1042,10 @@ try
 {
 valid
 =
+await
 verifier
 .
-verifyContentSignature
+asyncVerifyContentSignature
 (
 serialized
 builtSignature
