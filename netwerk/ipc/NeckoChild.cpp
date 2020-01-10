@@ -765,9 +765,9 @@ NeckoChild
 AllocPWebrtcProxyChannelChild
 (
 const
-PBrowserOrId
+TabId
 &
-browser
+tabId
 )
 {
 /

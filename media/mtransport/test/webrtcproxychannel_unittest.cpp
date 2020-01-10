@@ -2119,7 +2119,6 @@ aCallback
 :
 WebrtcProxyChannel
 (
-nullptr
 aCallback
 )
 {

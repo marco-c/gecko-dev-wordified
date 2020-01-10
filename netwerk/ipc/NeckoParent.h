@@ -570,9 +570,9 @@ PWebrtcProxyChannelParent
 AllocPWebrtcProxyChannelParent
 (
 const
-PBrowserOrId
+TabId
 &
-aBrowser
+aTabId
 )
 ;
 bool
