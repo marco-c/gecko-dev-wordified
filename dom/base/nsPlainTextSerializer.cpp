@@ -10379,6 +10379,7 @@ bol
 int32_t
 newline
 ;
+const
 int32_t
 totLen
 =
@@ -10739,6 +10740,7 @@ bol
 totLen
 )
 {
+const
 bool
 outputQuotes
 =
@@ -11010,17 +11012,7 @@ mEmptyLines
 ;
 atFirstColumn
 =
-mAtFirstColumn
-&
-&
-(
-totLen
--
-bol
-)
-=
-=
-0
+false
 ;
 bol
 =
