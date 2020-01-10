@@ -23049,10 +23049,6 @@ sHandlingInputTimeout
 ;
 static
 bool
-sIsUpgradableDisplayContentPrefEnabled
-;
-static
-bool
 sIsFrameTimingPrefEnabled
 ;
 static
