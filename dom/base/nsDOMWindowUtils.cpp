@@ -4734,9 +4734,9 @@ if
 aToWindow
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 presShell
 ;

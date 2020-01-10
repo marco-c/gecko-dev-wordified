@@ -19402,7 +19402,7 @@ do_QueryReferent
 mContent
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -19484,7 +19484,7 @@ do_QueryReferent
 mContent
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =

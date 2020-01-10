@@ -31912,7 +31912,7 @@ nsEventStatus
 aStatus
 EventMessage
 aMessage
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIContent
@@ -32733,7 +32733,7 @@ EventStateManager
 :
 DispatchClickEvents
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 WidgetMouseEvent
@@ -32993,7 +32993,7 @@ EventStateManager
 :
 HandleMiddleClickPaste
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 WidgetMouseEvent
@@ -33241,14 +33241,7 @@ nsLayoutUtils
 :
 GetContainerAndOffsetAtEvent
 (
-static_cast
-<
-PresShell
-*
->
-(
 aPresShell
-)
 aMouseEvent
 getter_AddRefs
 (
@@ -33472,14 +33465,7 @@ FireClipboardEvent
 (
 ePaste
 clipboardType
-static_cast
-<
-PresShell
-*
->
-(
 aPresShell
-)
 selection
 )
 )

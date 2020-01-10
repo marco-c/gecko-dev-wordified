@@ -1690,7 +1690,7 @@ GetPresShell
 /
 If
 |
-nsIPresShell
+PresShell
 :
 :
 Destroy

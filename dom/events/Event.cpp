@@ -3656,9 +3656,9 @@ return
 aDefaultPoint
 ;
 }
-nsIPresShell
+PresShell
 *
-shell
+presShell
 =
 aPresContext
 -
@@ -3670,7 +3670,7 @@ GetPresShell
 if
 (
 !
-shell
+presShell
 )
 {
 return
@@ -3685,7 +3685,7 @@ nsIFrame
 *
 rootFrame
 =
-shell
+presShell
 -
 >
 GetRootFrame
