@@ -3444,6 +3444,9 @@ Destroy
 )
 ;
 }
+#
+ifdef
+NS_PRINTING
 if
 (
 mPrintJob
@@ -3461,6 +3464,8 @@ mPrintJob
 nullptr
 ;
 }
+#
+endif
 MOZ_RELEASE_ASSERT
 (
 mDestroyBlockedCount
