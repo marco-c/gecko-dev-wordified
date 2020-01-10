@@ -9190,6 +9190,8 @@ nsCOMPtr
 nsILoadInfo
 >
 info
+=
+nullptr
 ;
 if
 (
@@ -9224,15 +9226,13 @@ newURI
 )
 )
 ;
+info
+=
 aNewChannel
 -
 >
-GetLoadInfo
+LoadInfo
 (
-getter_AddRefs
-(
-info
-)
 )
 ;
 }
