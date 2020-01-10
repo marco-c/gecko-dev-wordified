@@ -1701,6 +1701,9 @@ Line
 >
 *
 lines
+FileMap
+*
+files
 )
 {
 DwarfLineToModule
@@ -1709,6 +1712,7 @@ handler
 module
 compilation_dir_
 lines
+files
 )
 ;
 dwarf2reader

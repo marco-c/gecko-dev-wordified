@@ -5884,6 +5884,12 @@ ReadSourceLines
 (
 uint64
 offset
+LineToModuleHandler
+:
+:
+FileMap
+*
+files
 )
 {
 const
@@ -6063,6 +6069,7 @@ file_context
 module_
 &
 lines_
+files
 )
 ;
 }
@@ -8366,6 +8373,12 @@ we
 have
 any
 .
+LineToModuleHandler
+:
+:
+FileMap
+files
+;
 if
 (
 has_source_line_info_
@@ -8373,6 +8386,8 @@ has_source_line_info_
 ReadSourceLines
 (
 source_line_offset_
+&
+files
 )
 ;
 vector
