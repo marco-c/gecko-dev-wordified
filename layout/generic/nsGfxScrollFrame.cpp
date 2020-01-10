@@ -10115,7 +10115,7 @@ AppUnitsPerDevPixel
 nsRect
 scrollRange
 =
-GetScrollRange
+GetLayoutScrollRange
 (
 )
 ;
@@ -10818,7 +10818,7 @@ aNewPos
 :
 aNewPos
 -
-GetScrollRange
+GetLayoutScrollRange
 (
 )
 .
@@ -28629,7 +28629,7 @@ nsRect
 ScrollFrameHelper
 :
 :
-GetScrollRange
+GetLayoutScrollRange
 (
 )
 const
