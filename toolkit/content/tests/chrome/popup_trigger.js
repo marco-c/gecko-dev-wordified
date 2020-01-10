@@ -467,6 +467,7 @@ window
 .
 opener
 )
+{
 is
 (
 window
@@ -488,6 +489,7 @@ popupNode
 "
 )
 ;
+}
 /
 /
 this
@@ -585,6 +587,7 @@ if
 (
 gIsMenu
 )
+{
 compareEdge
 (
 gTrigger
@@ -597,6 +600,7 @@ after_start
 testname
 )
 ;
+}
 }
 }
 {
@@ -1244,6 +1248,7 @@ Win
 =
 0
 )
+{
 synthesizeKey
 (
 "
@@ -1251,6 +1256,7 @@ KEY_ArrowDown
 "
 )
 ;
+}
 synthesizeKey
 (
 "
@@ -1274,6 +1280,7 @@ Win
 =
 0
 )
+{
 synthesizeKey
 (
 "
@@ -1281,6 +1288,7 @@ KEY_ArrowUp
 "
 )
 ;
+}
 }
 }
 {
@@ -5131,6 +5139,7 @@ if
 (
 gIsMenu
 )
+{
 compareEdge
 (
 gTrigger
@@ -5143,6 +5152,7 @@ after_start
 testname
 )
 ;
+}
 }
 }
 {
@@ -6168,6 +6178,7 @@ platformIsMac
 (
 )
 )
+{
 synthesizeKey
 (
 "
@@ -6180,7 +6191,9 @@ true
 }
 )
 ;
+}
 else
+{
 synthesizeKey
 (
 "
@@ -6192,6 +6205,7 @@ true
 }
 )
 ;
+}
 }
 result
 (

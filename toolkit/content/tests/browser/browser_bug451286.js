@@ -245,12 +245,14 @@ matchCase
 .
 checked
 )
+{
 matchCase
 .
 doCommand
 (
 )
 ;
+}
 /
 /
 Turn
@@ -776,9 +778,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

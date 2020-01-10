@@ -416,9 +416,11 @@ localName
 menupopup
 "
 )
+{
 return
 child
 ;
+}
 }
 return
 null
@@ -564,9 +566,11 @@ index
 =
 aItem
 )
+{
 return
 index
 ;
+}
 }
 }
 return
@@ -606,9 +610,11 @@ children
 .
 length
 )
+{
 return
 null
 ;
+}
 return
 menupopup
 .
@@ -937,9 +943,7 @@ addEventListener
 "
 popupshowing
 "
-(
 e
-)
 =
 >
 {
@@ -1592,6 +1596,7 @@ type
 )
 ;
 return
+(
 type
 =
 =
@@ -1619,6 +1624,7 @@ menuitem
 -
 iconic
 "
+)
 )
 ;
 }
@@ -2059,6 +2065,7 @@ needsEagerRender
 )
 {
 return
+(
 this
 .
 isMenubarChild
@@ -2073,6 +2080,7 @@ isMenulistChild
 this
 .
 isInHiddenMenupopup
+)
 ;
 }
 get

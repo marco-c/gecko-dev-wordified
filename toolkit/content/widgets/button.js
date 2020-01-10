@@ -163,9 +163,7 @@ addEventListener
 "
 click
 "
-(
 event
-)
 =
 >
 {
@@ -198,9 +196,7 @@ addEventListener
 "
 keypress
 "
-(
 event
-)
 =
 >
 {
@@ -251,9 +247,7 @@ addEventListener
 "
 keypress
 "
-(
 event
-)
 =
 >
 {
@@ -272,8 +266,10 @@ this
 .
 open
 )
+{
 return
 ;
+}
 }
 else
 {
@@ -493,8 +489,10 @@ event
 .
 metaKey
 )
+{
 return
 ;
+}
 /
 /
 No
@@ -619,13 +617,11 @@ frameCount
 var
 doc
 =
-(
 frameCount
 =
 =
 -
 1
-)
 ?
 window
 .
@@ -656,8 +652,10 @@ documentElement
 charPressedLower
 )
 )
+{
 return
 ;
+}
 }
 /
 /
@@ -777,7 +775,6 @@ disabled
 )
 {
 return
-(
 this
 .
 getAttribute
@@ -791,7 +788,6 @@ disabled
 "
 true
 "
-)
 ;
 }
 set
@@ -1004,6 +1000,7 @@ length
 +
 i
 )
+{
 sibs
 [
 i
@@ -1017,10 +1014,12 @@ checked
 )
 ;
 }
+}
 if
 (
 val
 )
+{
 this
 .
 setAttribute
@@ -1033,7 +1032,9 @@ true
 "
 )
 ;
+}
 else
+{
 this
 .
 removeAttribute
@@ -1043,6 +1044,7 @@ checked
 "
 )
 ;
+}
 return
 val
 ;
@@ -1212,11 +1214,13 @@ node
 .
 disabled
 )
+{
 return
 NodeFilter
 .
 FILTER_ACCEPT
 ;
+}
 return
 NodeFilter
 .
@@ -1722,7 +1726,6 @@ _hasConnected
 )
 {
 return
-(
 this
 .
 querySelector
@@ -1740,7 +1743,6 @@ box
 !
 =
 null
-)
 ;
 }
 connectedCallback
@@ -1793,9 +1795,7 @@ addEventListener
 "
 keypress
 "
-(
 event
-)
 =
 >
 {

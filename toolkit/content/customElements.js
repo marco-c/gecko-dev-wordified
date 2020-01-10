@@ -805,9 +805,7 @@ instrumentedClasses
 .
 has
 (
-(
 c
-)
 )
 )
 {
@@ -818,9 +816,7 @@ instrumentedClasses
 .
 add
 (
-(
 c
-)
 )
 ;
 let
@@ -1056,9 +1052,7 @@ Object
 .
 getOwnPropertyNames
 (
-(
 c
-)
 )
 )
 {
@@ -2905,6 +2899,7 @@ index
 >
 {
 return
+(
 preamble
 +
 <
@@ -2930,6 +2925,7 @@ _dtd
 index
 }
 ;
+)
 ;
 }
 "
@@ -3123,7 +3119,6 @@ Whitespace_in_the_DOM
 if
 (
 !
-(
 /
 [
 ^
@@ -3141,7 +3136,6 @@ test
 currentNode
 .
 textContent
-)
 )
 )
 {

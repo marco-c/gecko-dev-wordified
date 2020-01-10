@@ -899,12 +899,14 @@ focusedElement
 =
 input
 )
+{
 input
 .
 focus
 (
 )
 ;
+}
 this
 .
 _doPopupItemEnabling
@@ -1453,6 +1455,7 @@ if
 (
 enabled
 )
+{
 children
 [
 i
@@ -1465,7 +1468,9 @@ disabled
 "
 )
 ;
+}
 else
+{
 children
 [
 i
@@ -1481,6 +1486,7 @@ true
 "
 )
 ;
+}
 }
 }
 }
@@ -1517,9 +1523,11 @@ document
 XULDocument
 "
 )
+{
 return
 null
 ;
+}
 var
 textbox
 =
@@ -1545,9 +1553,11 @@ localName
 textbox
 "
 )
+{
 return
 null
 ;
+}
 try
 {
 ChromeUtils

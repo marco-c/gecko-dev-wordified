@@ -604,7 +604,6 @@ state
 .
 isOutOfRange
 =
-(
 this
 .
 state
@@ -621,7 +620,6 @@ state
 time
 >
 max
-)
 ;
 this
 .
@@ -1233,9 +1231,7 @@ DAY_PERIOD_IN_MS
 const
 formatter
 =
-(
 time
-)
 =
 >
 new
@@ -1350,9 +1346,7 @@ HOUR_IN_MS
 const
 formatter
 =
-(
 time
-)
 =
 >
 new
@@ -1431,9 +1425,7 @@ MINUTE_IN_MS
 const
 formatter
 =
-(
 time
-)
 =
 >
 new
@@ -1523,9 +1515,7 @@ SECOND_IN_MS
 const
 formatter
 =
-(
 time
-)
 =
 >
 new
@@ -1625,9 +1615,7 @@ minStep
 const
 formatter
 =
-(
 time
-)
 =
 >
 new

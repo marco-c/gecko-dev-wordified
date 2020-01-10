@@ -250,8 +250,10 @@ about
 blank
 "
 )
+{
 return
 ;
+}
 gBrowser
 .
 removeEventListener
@@ -338,8 +340,10 @@ framesLoaded
 <
 2
 )
+{
 return
 ;
+}
 gBrowser
 .
 removeEventListener
@@ -800,6 +804,7 @@ exists
 (
 )
 )
+{
 saveDir
 .
 create
@@ -812,6 +817,7 @@ DIRECTORY_TYPE
 0o755
 )
 ;
+}
 return
 saveDir
 ;

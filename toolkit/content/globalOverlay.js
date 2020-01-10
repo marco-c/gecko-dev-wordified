@@ -154,8 +154,10 @@ windowCount
 =
 2
 )
+{
 break
 ;
+}
 }
 /
 /
@@ -197,9 +199,11 @@ lastwindow
 "
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 windowCount
@@ -209,9 +213,7 @@ windowCount
 &
 &
 typeof
-(
 aPromptFunction
-)
 =
 =
 "
@@ -224,17 +226,17 @@ aPromptFunction
 (
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 if
 (
 typeof
-(
 aPromptFunction
-)
 =
 =
 "
@@ -340,9 +342,11 @@ cancelQuit
 .
 data
 )
+{
 return
 false
 ;
+}
 }
 catch
 (
@@ -366,9 +370,11 @@ canQuitApplication
 (
 )
 )
+{
 return
 false
 ;
+}
 Services
 .
 startup
@@ -426,6 +432,7 @@ if
 (
 controller
 )
+{
 enabled
 =
 controller
@@ -435,6 +442,7 @@ isCommandEnabled
 aCommand
 )
 ;
+}
 goSetCommandEnabled
 (
 aCommand
@@ -505,6 +513,7 @@ isCommandEnabled
 aCommand
 )
 )
+{
 controller
 .
 doCommand
@@ -512,6 +521,7 @@ doCommand
 aCommand
 )
 ;
+}
 }
 catch
 (
@@ -568,6 +578,7 @@ if
 (
 aEnabled
 )
+{
 node
 .
 removeAttribute
@@ -577,7 +588,9 @@ disabled
 "
 )
 ;
+}
 else
+{
 node
 .
 setAttribute
@@ -590,5 +603,6 @@ true
 "
 )
 ;
+}
 }
 }

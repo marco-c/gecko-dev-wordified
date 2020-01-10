@@ -479,6 +479,7 @@ prefHasUserValue
 kPrefName_AutoScroll
 )
 )
+{
 Services
 .
 prefs
@@ -488,6 +489,7 @@ clearUserPref
 kPrefName_AutoScroll
 )
 ;
+}
 /
 /
 wait

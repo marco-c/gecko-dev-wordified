@@ -242,6 +242,7 @@ this
 .
 editortype
 )
+{
 this
 .
 makeEditable
@@ -252,6 +253,7 @@ editortype
 true
 )
 ;
+}
 }
 get
 finder
@@ -273,9 +275,11 @@ this
 .
 docShell
 )
+{
 return
 null
 ;
+}
 let
 Finder
 =
@@ -351,9 +355,11 @@ in
 Cc
 )
 )
+{
 return
 null
 ;
+}
 if
 (
 !
@@ -361,9 +367,11 @@ this
 .
 docShell
 )
+{
 return
 null
 ;
+}
 this
 .
 _fastFind

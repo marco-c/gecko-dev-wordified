@@ -97,9 +97,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -186,9 +184,7 @@ url
 VIDEO_PAGE
 }
 async
-(
 browser
-)
 =
 >
 {

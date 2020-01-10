@@ -287,6 +287,7 @@ this
 stringBundle
 ;
 return
+(
 this
 .
 stringBundle
@@ -310,6 +311,7 @@ contentAreaCommands
 .
 properties
 "
+)
 )
 ;
 }
@@ -349,9 +351,7 @@ arg
 &
 (
 typeof
-(
 arg
-)
 =
 =
 "
@@ -360,9 +360,7 @@ object
 |
 |
 typeof
-(
 arg
-)
 =
 =
 "
@@ -1861,6 +1859,7 @@ if
 !
 aDocument
 )
+{
 throw
 new
 Error
@@ -1876,6 +1875,7 @@ saveDocument
 "
 )
 ;
+}
 let
 contentDisposition
 =
@@ -2159,6 +2159,7 @@ i
 QueryInterface
 "
 )
+{
 this
 [
 i
@@ -2169,6 +2170,7 @@ makeClosure
 i
 )
 ;
+}
 }
 }
 DownloadListener
@@ -2918,10 +2920,12 @@ aSkipPrompt
 =
 undefined
 )
+{
 aSkipPrompt
 =
 false
 ;
+}
 if
 (
 aCacheKey
@@ -2929,10 +2933,12 @@ aCacheKey
 =
 undefined
 )
+{
 aCacheKey
 =
 0
 ;
+}
 /
 /
 Note
@@ -3036,12 +3042,14 @@ if
 (
 aDocument
 )
+{
 charset
 =
 aDocument
 .
 characterSet
 ;
+}
 var
 fileInfo
 =
@@ -3126,8 +3134,10 @@ if
 !
 aDialogAccepted
 )
+{
 return
 ;
+}
 saveAsType
 =
 fpParams
@@ -3211,36 +3221,28 @@ aDocument
 &
 (
 (
-(
 saveMode
 &
 SAVEMODE_COMPLETE_DOM
-)
 &
 &
-(
 saveAsType
 =
 =
 kSaveAsType_Complete
 )
-)
 |
 |
-(
 (
 saveMode
 &
 SAVEMODE_COMPLETE_TEXT
-)
 &
 &
-(
 saveAsType
 =
 =
 kSaveAsType_Text
-)
 )
 )
 ;
@@ -3446,12 +3448,10 @@ aDocument
 null
 targetContentType
 :
-(
 saveAsType
 =
 =
 kSaveAsType_Text
-)
 ?
 "
 text
@@ -3794,6 +3794,7 @@ persistArgs
 .
 bypassCache
 )
+{
 persist
 .
 persistFlags
@@ -3804,7 +3805,9 @@ nsIWBP
 .
 PERSIST_FLAGS_BYPASS_CACHE
 ;
+}
 else
+{
 persist
 .
 persistFlags
@@ -3815,6 +3818,7 @@ nsIWBP
 .
 PERSIST_FLAGS_FROM_CACHE
 ;
+}
 /
 /
 Leave
@@ -4604,7 +4608,6 @@ fileName
 =
 getDefaultFileName
 (
-(
 aFI
 .
 suggestedFileName
@@ -4613,7 +4616,6 @@ suggestedFileName
 aFI
 .
 fileName
-)
 aFI
 .
 uri
@@ -4696,7 +4698,6 @@ aDocument
 aContentType
 &
 &
-(
 /
 ^
 http
@@ -4715,7 +4716,6 @@ i
 test
 (
 aURL
-)
 )
 )
 {
@@ -5029,10 +5029,12 @@ if
 !
 aSkipPrompt
 )
+{
 useDownloadDir
 =
 false
 ;
+}
 /
 /
 Default
@@ -5509,6 +5511,7 @@ saveMode
 =
 SAVEMODE_FILEONLY
 )
+{
 prefBranch
 .
 setIntPref
@@ -5521,6 +5524,7 @@ fp
 filterIndex
 )
 ;
+}
 /
 /
 Do
@@ -5806,6 +5810,7 @@ Z
 i
 )
 )
+{
 aLocalFile
 .
 leafName
@@ -5847,7 +5852,9 @@ i
 "
 )
 ;
+}
 else
+{
 aLocalFile
 .
 leafName
@@ -5879,6 +5886,7 @@ replace
 "
 )
 ;
+}
 }
 else
 {
@@ -6109,8 +6117,10 @@ if
 !
 accepted
 )
+{
 return
 ;
+}
 let
 file
 =
@@ -6590,6 +6600,7 @@ aSaveMode
 =
 SAVEMODE_FILEONLY
 )
+{
 throw
 new
 Error
@@ -6606,6 +6617,7 @@ aContentType
 '
 )
 ;
+}
 var
 mimeInfo
 =
@@ -6642,6 +6654,7 @@ if
 (
 extString
 )
+{
 extString
 +
 =
@@ -6649,6 +6662,7 @@ extString
 ;
 "
 ;
+}
 /
 /
 If
@@ -6679,6 +6693,7 @@ if
 (
 extString
 )
+{
 aFilePicker
 .
 appendFilter
@@ -6689,6 +6704,7 @@ description
 extString
 )
 ;
+}
 }
 }
 if
@@ -6758,6 +6774,7 @@ aSaveMode
 &
 SAVEMODE_COMPLETE_TEXT
 )
+{
 aFilePicker
 .
 appendFilters
@@ -6769,6 +6786,7 @@ nsIFilePicker
 filterText
 )
 ;
+}
 /
 /
 Always
@@ -7312,12 +7330,14 @@ if
 (
 fileName
 )
+{
 return
 validateFileName
 (
 fileName
 )
 ;
+}
 }
 let
 docTitle
@@ -7531,6 +7551,7 @@ if
 (
 docTitle
 )
+{
 /
 /
 4
@@ -7542,10 +7563,12 @@ title
 return
 docTitle
 ;
+}
 if
 (
 aDefaultFileName
 )
+{
 /
 /
 5
@@ -7564,6 +7587,7 @@ validateFileName
 aDefaultFileName
 )
 ;
+}
 /
 /
 6
@@ -7614,6 +7638,7 @@ length
 >
 1
 )
+{
 return
 validateFileName
 (
@@ -7623,6 +7648,7 @@ path
 ]
 )
 ;
+}
 try
 {
 if
@@ -7631,6 +7657,7 @@ aURI
 .
 host
 )
+{
 /
 /
 7
@@ -7647,6 +7674,7 @@ aURI
 host
 )
 ;
+}
 }
 catch
 (
@@ -7911,6 +7939,7 @@ _
 "
 )
 )
+{
 processed
 +
 =
@@ -7920,6 +7949,7 @@ processed
 +
 suffix
 ;
+}
 }
 }
 }
@@ -7939,9 +7969,11 @@ if
 !
 aDefaultExtension
 )
+{
 return
 aFile
 ;
+}
 if
 (
 AppConstants
@@ -8046,6 +8078,7 @@ i
 =
 aDefaultExtension
 )
+{
 return
 aFile
 +
@@ -8055,6 +8088,7 @@ aFile
 +
 aDefaultExtension
 ;
+}
 return
 aFile
 ;
@@ -8100,10 +8134,12 @@ scheme
 ftp
 "
 )
+{
 return
 "
 "
 ;
+}
 /
 /
 temporary
@@ -8238,9 +8274,11 @@ extensionExists
 ext
 )
 )
+{
 return
 ext
 ;
+}
 /
 /
 Well
@@ -8309,11 +8347,13 @@ if
 (
 mimeInfo
 )
+{
 return
 mimeInfo
 .
 primaryExtension
 ;
+}
 }
 catch
 (
@@ -8400,9 +8440,11 @@ isCrossProcessWrapper
 aDocument
 )
 )
+{
 return
 SAVEMODE_FILEONLY
 ;
+}
 /
 /
 Find
@@ -8495,11 +8537,13 @@ if
 (
 aDocument
 )
+{
 return
 aDocument
 .
 characterSet
 ;
+}
 if
 (
 document
@@ -8508,6 +8552,7 @@ commandDispatcher
 .
 focusedWindow
 )
+{
 return
 document
 .
@@ -8519,6 +8564,7 @@ document
 .
 characterSet
 ;
+}
 return
 window
 .
@@ -8877,9 +8923,11 @@ Ci
 nsIURIContentListener
 )
 )
+{
 return
 this
 ;
+}
 if
 (
 iid
@@ -8891,9 +8939,11 @@ Ci
 nsILoadGroup
 )
 )
+{
 return
 loadgroup
 ;
+}
 throw
 Cr
 .

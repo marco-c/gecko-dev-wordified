@@ -4434,10 +4434,8 @@ itemRect
 height
 >
 y
-)
 &
 &
-(
 itemRect
 .
 y
@@ -4728,6 +4726,7 @@ aItem
 )
 ;
 return
+(
 style
 .
 display
@@ -4756,6 +4755,7 @@ MozUserInput
 "
 none
 "
+)
 ;
 }
 _selectTimeoutHandler
@@ -5028,9 +5028,7 @@ addEventListener
 "
 mousedown
 "
-(
 event
-)
 =
 >
 {
@@ -5051,8 +5049,10 @@ control
 .
 disabled
 )
+{
 return
 ;
+}
 if
 (
 (
@@ -5153,9 +5153,7 @@ addEventListener
 "
 click
 "
-(
 event
-)
 =
 >
 {
@@ -5189,8 +5187,10 @@ control
 .
 disabled
 )
+{
 return
 ;
+}
 control
 .
 _userSelecting
@@ -5438,6 +5438,7 @@ val
 =
 null
 )
+{
 this
 .
 setAttribute
@@ -5448,7 +5449,7 @@ searchlabel
 val
 )
 ;
-else
+}
 /
 /
 fall
@@ -5461,6 +5462,8 @@ property
 default
 value
 )
+else
+{
 this
 .
 removeAttribute
@@ -5470,6 +5473,7 @@ searchlabel
 "
 )
 ;
+}
 return
 val
 ;
@@ -5563,6 +5567,7 @@ if
 (
 val
 )
+{
 this
 .
 setAttribute
@@ -5575,7 +5580,9 @@ true
 "
 )
 ;
+}
 else
+{
 this
 .
 removeAttribute
@@ -5585,6 +5592,7 @@ selected
 "
 )
 ;
+}
 return
 val
 ;
@@ -5645,9 +5653,11 @@ localName
 richlistbox
 "
 )
+{
 return
 parent
 ;
+}
 parent
 =
 parent
@@ -5669,6 +5679,7 @@ if
 (
 val
 )
+{
 this
 .
 setAttribute
@@ -5681,7 +5692,9 @@ true
 "
 )
 ;
+}
 else
+{
 this
 .
 removeAttribute
@@ -5691,6 +5704,7 @@ current
 "
 )
 ;
+}
 return
 val
 ;

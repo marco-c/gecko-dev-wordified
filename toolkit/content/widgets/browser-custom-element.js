@@ -457,9 +457,7 @@ addEventListener
 "
 keypress
 "
-(
 event
-)
 =
 >
 {
@@ -540,8 +538,10 @@ if
 !
 isEnabled
 )
+{
 return
 ;
+}
 /
 /
 Toggle
@@ -772,9 +772,7 @@ addEventListener
 "
 dragover
 "
-(
 event
-)
 =
 >
 {
@@ -948,8 +946,10 @@ this
 .
 isRemoteBrowser
 )
+{
 return
 ;
+}
 let
 linkHandler
 =
@@ -967,12 +967,14 @@ event
 false
 )
 )
+{
 event
 .
 preventDefault
 (
 )
 ;
+}
 }
 {
 mozSystemGroup
@@ -988,9 +990,7 @@ addEventListener
 "
 drop
 "
-(
 event
-)
 =
 >
 {
@@ -1143,9 +1143,7 @@ addEventListener
 "
 dragstart
 "
-(
 event
-)
 =
 >
 {
@@ -1904,9 +1902,11 @@ autoscroll
 false
 "
 )
+{
 return
 false
 ;
+}
 return
 this
 .
@@ -2091,6 +2091,7 @@ sameProcessAsFrameLoader
 )
 {
 return
+(
 this
 .
 _sameProcessAsFrameLoader
@@ -2102,6 +2103,7 @@ _sameProcessAsFrameLoader
 .
 get
 (
+)
 )
 ;
 }
@@ -2116,11 +2118,13 @@ this
 .
 _loadContext
 )
+{
 return
 this
 .
 _loadContext
 ;
+}
 let
 {
 frameLoader
@@ -2133,9 +2137,11 @@ if
 !
 frameLoader
 )
+{
 return
 null
 ;
+}
 this
 .
 _loadContext
@@ -2634,9 +2640,11 @@ Ci
 nsIImageDocument
 )
 )
+{
 return
 null
 ;
+}
 try
 {
 return
@@ -2678,7 +2686,6 @@ isRemoteBrowser
 )
 {
 return
-(
 this
 .
 getAttribute
@@ -2692,7 +2699,6 @@ remote
 "
 true
 "
-)
 ;
 }
 get
@@ -2864,6 +2870,7 @@ this
 .
 _webBrowserFind
 )
+{
 this
 .
 _webBrowserFind
@@ -2886,6 +2893,7 @@ Ci
 nsIWebBrowserFind
 )
 ;
+}
 return
 this
 .
@@ -2939,9 +2947,11 @@ this
 .
 messageManager
 )
+{
 return
 null
 ;
+}
 let
 jsm
 =
@@ -3005,9 +3015,11 @@ this
 .
 docShell
 )
+{
 return
 null
 ;
+}
 let
 Finder
 =
@@ -3083,9 +3095,11 @@ in
 Cc
 )
 )
+{
 return
 null
 ;
+}
 var
 tabBrowser
 =
@@ -3106,7 +3120,9 @@ fastFind
 in
 tabBrowser
 )
+{
 return
+(
 this
 .
 _fastFind
@@ -3114,7 +3130,9 @@ _fastFind
 tabBrowser
 .
 fastFind
+)
 ;
+}
 if
 (
 !
@@ -3122,9 +3140,11 @@ this
 .
 docShell
 )
+{
 return
 null
 ;
+}
 this
 .
 _fastFind
@@ -4172,9 +4192,11 @@ this
 .
 messageManager
 )
+{
 return
 null
 ;
+}
 let
 jsm
 =
@@ -4450,6 +4472,7 @@ webNavigation
 .
 canGoBack
 )
+{
 this
 .
 _wrapURIChangeCall
@@ -4465,6 +4488,7 @@ goBack
 )
 )
 ;
+}
 }
 goForward
 (
@@ -4483,6 +4507,7 @@ webNavigation
 .
 canGoForward
 )
+{
 this
 .
 _wrapURIChangeCall
@@ -4498,6 +4523,7 @@ goForward
 )
 )
 ;
+}
 }
 reload
 (
@@ -5002,8 +5028,10 @@ this
 .
 fastFind
 )
+{
 return
 ;
+}
 var
 tabBrowser
 =
@@ -5036,6 +5064,7 @@ selectedBrowser
 =
 this
 )
+{
 this
 .
 fastFind
@@ -5047,6 +5076,7 @@ this
 docShell
 )
 ;
+}
 }
 updateBlockedPopups
 (
@@ -5702,6 +5732,7 @@ didStartLoadSinceLastUserTyping
 )
 {
 return
+(
 !
 this
 .
@@ -5713,6 +5744,7 @@ this
 urlbarChangeTracker
 .
 _startedLoadSinceLastUserTyping
+)
 ;
 }
 construct
@@ -6857,8 +6889,10 @@ this
 .
 mInitialized
 )
+{
 return
 ;
+}
 this
 .
 mInitialized
@@ -9347,7 +9381,6 @@ _startY
 ;
 if
 (
-(
 x
 >
 this
@@ -9361,7 +9394,6 @@ x
 this
 .
 _AUTOSCROLL_SNAP
-)
 |
 |
 (
@@ -9380,12 +9412,14 @@ this
 _AUTOSCROLL_SNAP
 )
 )
+{
 this
 .
 _ignoreMouseEvents
 =
 false
 ;
+}
 break
 ;
 }
@@ -9866,6 +9900,7 @@ aOtherBrowser
 .
 isRemoteBrowser
 )
+{
 throw
 new
 Error
@@ -9885,6 +9920,7 @@ process
 "
 )
 ;
+}
 /
 /
 Give
@@ -10054,9 +10090,7 @@ CustomEvent
 SwapDocShells
 "
 {
-"
 detail
-"
 :
 aOtherBrowser
 }
@@ -10078,9 +10112,7 @@ CustomEvent
 SwapDocShells
 "
 {
-"
 detail
-"
 :
 this
 }
@@ -10286,6 +10318,7 @@ window
 .
 PopupNotifications
 )
+{
 PopupNotifications
 .
 _swapBrowserNotifications
@@ -10294,6 +10327,7 @@ aOtherBrowser
 this
 )
 ;
+}
 try
 {
 this
@@ -10478,6 +10512,7 @@ this
 .
 _remoteFinder
 )
+{
 this
 .
 _remoteFinder
@@ -10487,12 +10522,14 @@ swapBrowser
 this
 )
 ;
+}
 if
 (
 aOtherBrowser
 .
 _remoteFinder
 )
+{
 aOtherBrowser
 .
 _remoteFinder
@@ -10503,6 +10540,7 @@ aOtherBrowser
 )
 ;
 }
+}
 event
 =
 new
@@ -10512,9 +10550,7 @@ CustomEvent
 EndSwapDocShells
 "
 {
-"
 detail
-"
 :
 aOtherBrowser
 }
@@ -10536,9 +10572,7 @@ CustomEvent
 EndSwapDocShells
 "
 {
-"
 detail
-"
 :
 this
 }

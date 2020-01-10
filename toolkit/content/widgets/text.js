@@ -1373,6 +1373,7 @@ gInsertSeparator
 !
 endIsSpace
 )
+{
 this
 .
 accessKeyParens
@@ -1383,7 +1384,9 @@ textContent
 (
 "
 ;
+}
 else
+{
 this
 .
 accessKeyParens
@@ -1394,6 +1397,7 @@ textContent
 (
 "
 ;
+}
 this
 .
 accessKeySpan
@@ -1670,9 +1674,7 @@ addEventListener
 "
 click
 "
-(
 event
-)
 =
 >
 {
@@ -1713,9 +1715,7 @@ addEventListener
 "
 keypress
 "
-(
 event
-)
 =
 >
 {
@@ -1825,8 +1825,10 @@ aEvent
 .
 defaultPrevented
 )
+{
 return
 ;
+}
 var
 uri
 =
@@ -2204,8 +2206,10 @@ linkHandled
 .
 data
 )
+{
 return
 ;
+}
 /
 /
 otherwise
@@ -2242,12 +2246,14 @@ opener
 .
 closed
 )
+{
 win
 =
 win
 .
 opener
 ;
+}
 }
 win
 .

@@ -191,9 +191,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

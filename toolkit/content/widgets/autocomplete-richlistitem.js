@@ -190,9 +190,7 @@ addEventListener
 "
 mousedown
 "
-(
 event
-)
 =
 >
 {
@@ -266,9 +264,7 @@ addEventListener
 "
 mouseover
 "
-(
 event
-)
 =
 >
 {
@@ -1422,6 +1418,7 @@ aSearchTokens
 "
 "
 )
+{
 return
 [
 0
@@ -1430,6 +1427,7 @@ aText
 length
 ]
 ;
+}
 /
 /
 Find
@@ -1580,12 +1578,10 @@ b
 ]
 ;
 return
-(
 start
 =
 =
 0
-)
 ?
 a
 [
@@ -1806,6 +1802,7 @@ aText
 .
 length
 )
+{
 boundaries
 .
 push
@@ -1815,6 +1812,7 @@ aText
 length
 )
 ;
+}
 /
 /
 Skip
@@ -1895,6 +1893,7 @@ hasChildNodes
 (
 )
 )
+{
 aDescriptionElement
 .
 firstChild
@@ -1903,6 +1902,7 @@ remove
 (
 )
 ;
+}
 /
 /
 If
@@ -2908,8 +2908,10 @@ length
 =
 0
 )
+{
 continue
 ;
+}
 /
 /
 Determine
@@ -3181,6 +3183,7 @@ hasChildNodes
 (
 )
 )
+{
 aDescriptionElement
 .
 firstChild
@@ -3189,6 +3192,7 @@ remove
 (
 )
 ;
+}
 for
 (
 let
@@ -4743,6 +4747,7 @@ trimValue
 function
 "
 )
+{
 displayUrl
 =
 input
@@ -4752,6 +4757,7 @@ trimValue
 displayUrl
 )
 ;
+}
 displayUrl
 =
 this
@@ -4866,12 +4872,14 @@ uri
 .
 host
 )
+{
 title
 =
 uri
 .
 host
 ;
+}
 }
 catch
 (
@@ -4884,10 +4892,12 @@ if
 !
 title
 )
+{
 title
 =
 displayUrl
 ;
+}
 }
 this
 .
@@ -6254,9 +6264,11 @@ action
 "
 )
 )
+{
 return
 null
 ;
+}
 /
 /
 URL
@@ -6450,9 +6462,7 @@ addEventListener
 "
 click
 "
-(
 event
-)
 =
 >
 {

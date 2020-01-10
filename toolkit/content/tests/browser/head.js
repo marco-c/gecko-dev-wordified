@@ -59,9 +59,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -170,9 +168,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 aPrefs
 }
@@ -276,9 +272,7 @@ tab
 TabAttrModified
 "
 false
-(
 event
-)
 =
 >
 {
@@ -431,9 +425,7 @@ tab
 TabAttrModified
 "
 false
-(
 event
-)
 =
 >
 {
@@ -1552,9 +1544,7 @@ spawn
 browser
 args
 async
-(
 args
-)
 =
 >
 {
@@ -1614,9 +1604,7 @@ addEventListener
 "
 playing
 "
-(
 e
-)
 =
 >
 {
@@ -1645,9 +1633,7 @@ addEventListener
 "
 blocked
 "
-(
 e
-)
 =
 >
 {
@@ -1738,9 +1724,7 @@ addEventListener
 "
 loadedmetadata
 "
-(
 e
-)
 =
 >
 {
@@ -1936,9 +1920,7 @@ spawn
 browser
 args
 async
-(
 args
-)
 =
 >
 {

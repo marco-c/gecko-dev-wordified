@@ -1593,9 +1593,7 @@ new
 Promise
 (
 async
-(
 resolve
-)
 =
 >
 {
@@ -1639,12 +1637,14 @@ checked
 =
 highlightOn
 )
+{
 highlightElement
 .
 click
 (
 )
 ;
+}
 executeSoon
 (
 (
@@ -1768,6 +1768,7 @@ aData
 =
 null
 )
+{
 info
 (
 "
@@ -1781,6 +1782,7 @@ reached
 "
 )
 ;
+}
 clearTimeout
 (
 findTimeout
@@ -1861,9 +1863,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

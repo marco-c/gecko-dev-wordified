@@ -583,6 +583,7 @@ length
 -
 1
 )
+{
 runTest
 (
 index
@@ -590,13 +591,16 @@ index
 1
 )
 ;
+}
 else
+{
 SimpleTest
 .
 finish
 (
 )
 ;
+}
 }
 }
 var
@@ -684,9 +688,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

@@ -2703,9 +2703,7 @@ hidden
 {
 set
 :
-(
 v
-)
 =
 >
 {
@@ -2730,6 +2728,7 @@ get
 >
 {
 return
+(
 control
 .
 hasAttribute
@@ -2750,6 +2749,7 @@ contains
 fadeout
 "
 )
+)
 ;
 }
 }
@@ -2758,9 +2758,7 @@ hiddenByAdjustment
 {
 set
 :
-(
 v
-)
 =
 >
 {
@@ -5789,6 +5787,7 @@ the
 case
 .
 return
+(
 this
 .
 video
@@ -5818,6 +5817,7 @@ this
 .
 hasSources
 (
+)
 )
 )
 ;
@@ -6360,9 +6360,7 @@ this
 positionDurationBox
 .
 childNodes
-(
 n
-)
 =
 >
 !
@@ -6453,9 +6451,7 @@ position
 {
 set
 :
-(
 v
-)
 =
 >
 {
@@ -6481,9 +6477,7 @@ duration
 {
 set
 :
-(
 v
-)
 =
 >
 {
@@ -6521,12 +6515,10 @@ duration
 let
 isInfinite
 =
-(
 duration
 =
 =
 Infinity
-)
 ;
 this
 .
@@ -6591,12 +6583,10 @@ this
 .
 showHours
 =
-(
 duration
 >
 =
 3600000
-)
 ;
 /
 /
@@ -6827,6 +6817,7 @@ updateScrubberProgress
 const
 positionPercent
 =
+(
 this
 .
 scrubber
@@ -6838,6 +6829,7 @@ this
 scrubber
 .
 max
+)
 *
 100
 ;
@@ -8292,6 +8284,7 @@ opacity
 0
 offset
 :
+0
 .
 72
 }
@@ -9133,6 +9126,7 @@ isVideoWithoutAudioTrack
 )
 {
 return
+(
 this
 .
 video
@@ -9159,6 +9153,7 @@ this
 video
 .
 mozHasAudio
+)
 ;
 }
 toggleMute
@@ -9881,7 +9876,6 @@ animationScale
 let
 immediate
 =
-(
 animationMinSize
 >
 videoWidth
@@ -9889,14 +9883,11 @@ videoWidth
 |
 animationMinSize
 >
-(
 videoHeight
 -
 this
 .
 controlBarMinHeight
-)
-)
 ;
 this
 .
@@ -10421,12 +10412,12 @@ case
 "
 space
 "
-:
 /
 *
 Play
 *
 /
+:
 let
 target
 =
@@ -10468,13 +10459,13 @@ case
 "
 downArrow
 "
-:
 /
 *
 Volume
 decrease
 *
 /
+:
 oldval
 =
 this
@@ -10489,7 +10480,6 @@ video
 .
 volume
 =
-(
 oldval
 <
 0
@@ -10503,7 +10493,6 @@ oldval
 0
 .
 1
-)
 ;
 this
 .
@@ -10519,13 +10508,13 @@ case
 "
 upArrow
 "
-:
 /
 *
 Volume
 increase
 *
 /
+:
 oldval
 =
 this
@@ -10540,7 +10529,6 @@ video
 .
 volume
 =
-(
 oldval
 >
 0
@@ -10554,7 +10542,6 @@ oldval
 0
 .
 1
-)
 ;
 this
 .
@@ -10572,12 +10559,12 @@ accel
 -
 downArrow
 "
-:
 /
 *
 Mute
 *
 /
+:
 this
 .
 video
@@ -10594,12 +10581,12 @@ accel
 -
 upArrow
 "
-:
 /
 *
 Unmute
 *
 /
+:
 this
 .
 video
@@ -10629,7 +10616,6 @@ accel
 -
 leftArrow
 "
-:
 /
 *
 Seek
@@ -10638,6 +10624,7 @@ back
 %
 *
 /
+:
 oldval
 =
 this
@@ -10693,7 +10680,6 @@ video
 .
 currentTime
 =
-(
 newval
 >
 =
@@ -10702,7 +10688,6 @@ newval
 newval
 :
 0
-)
 ;
 break
 ;
@@ -10725,7 +10710,6 @@ accel
 -
 rightArrow
 "
-:
 /
 *
 Seek
@@ -10734,6 +10718,7 @@ forward
 %
 *
 /
+:
 oldval
 =
 this
@@ -10745,7 +10730,6 @@ currentTime
 var
 maxtime
 =
-(
 this
 .
 video
@@ -10758,7 +10742,6 @@ this
 maxCurrentTimeSeen
 /
 1000
-)
 ;
 if
 (
@@ -10794,7 +10777,6 @@ video
 .
 currentTime
 =
-(
 newval
 <
 =
@@ -10803,7 +10785,6 @@ maxtime
 newval
 :
 maxtime
-)
 ;
 break
 ;
@@ -10811,7 +10792,6 @@ case
 "
 home
 "
-:
 /
 *
 Seek
@@ -10819,6 +10799,7 @@ to
 beginning
 *
 /
+:
 this
 .
 video
@@ -10833,7 +10814,6 @@ case
 "
 end
 "
-:
 /
 *
 Seek
@@ -10841,6 +10821,7 @@ to
 end
 *
 /
+:
 if
 (
 this
@@ -10863,7 +10844,6 @@ video
 .
 currentTime
 =
-(
 this
 .
 video
@@ -10876,7 +10856,6 @@ this
 maxCurrentTimeSeen
 /
 1000
-)
 ;
 }
 break
@@ -11949,6 +11928,7 @@ isTopLevelSyntheticDocument
 )
 {
 return
+(
 this
 .
 document
@@ -11967,6 +11947,7 @@ this
 window
 .
 top
+)
 ;
 }
 controlBarMinHeight
@@ -13164,7 +13145,6 @@ clickToPlayScaledSize
 videoWidth
 |
 |
-(
 clickToPlayScaledSize
 +
 this
@@ -13177,7 +13157,6 @@ controlBarMinHeight
 videoHeight
 /
 2
-)
 )
 {
 this
@@ -14561,6 +14540,7 @@ visible
 )
 {
 return
+(
 !
 this
 .
@@ -14577,7 +14557,6 @@ fadeout
 &
 &
 !
-(
 this
 .
 Utils

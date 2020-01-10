@@ -203,12 +203,14 @@ isSuccessCode
 aStatus
 )
 )
+{
 this
 .
 _downloadIsSuccessful
 =
 false
 ;
+}
 /
 /
 If
@@ -218,7 +220,6 @@ is
 finished
 if
 (
-(
 aStateFlags
 &
 Ci
@@ -226,10 +227,8 @@ Ci
 nsIWebProgressListener
 .
 STATE_STOP
-)
 &
 &
-(
 aStateFlags
 &
 Ci
@@ -238,7 +237,7 @@ nsIWebProgressListener
 .
 STATE_IS_NETWORK
 )
-)
+{
 /
 /
 Continue
@@ -258,6 +257,7 @@ this
 _downloadIsSuccessful
 )
 ;
+}
 }
 onProgressChange
 (
@@ -304,12 +304,14 @@ isSuccessCode
 aStatus
 )
 )
+{
 this
 .
 _downloadIsSuccessful
 =
 false
 ;
+}
 }
 onSecurityChange
 (

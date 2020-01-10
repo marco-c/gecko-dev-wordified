@@ -390,9 +390,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -454,9 +452,7 @@ url
 PAGE
 }
 async
-(
 browser
-)
 =
 >
 {

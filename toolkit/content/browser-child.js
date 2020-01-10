@@ -210,8 +210,10 @@ defaultView
 =
 content
 )
+{
 return
 ;
+}
 sendAsyncMessage
 (
 "
@@ -269,8 +271,10 @@ req
 .
 image
 )
+{
 return
 ;
+}
 sendAsyncMessage
 (
 "
