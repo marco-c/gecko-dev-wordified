@@ -8393,6 +8393,7 @@ rv
 =
 SECSuccess
 )
+{
 SECU_PrintError
 (
 progName
@@ -8403,6 +8404,14 @@ SSL_CipherPrefSet
 "
 )
 ;
+error
+=
+1
+;
+goto
+done
+;
+}
 }
 else
 {
