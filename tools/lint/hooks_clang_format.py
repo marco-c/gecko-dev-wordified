@@ -652,6 +652,15 @@ staged
 "
 -
 -
+diff
+-
+filter
+=
+d
+"
+"
+-
+-
 name
 -
 only
