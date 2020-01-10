@@ -3118,9 +3118,6 @@ confirmCheck
 aTitle
 aText
 )
-=
-=
-0
 ;
 }
 confirmCheck
