@@ -5610,6 +5610,8 @@ force
 (
 this
 .
+view
+.
 isOpen
 |
 |
