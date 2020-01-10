@@ -277,11 +277,6 @@ return
 mRoot
 -
 >
-GetRenderFrame
-(
-)
--
->
 GetLayersId
 (
 )

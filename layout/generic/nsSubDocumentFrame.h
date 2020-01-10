@@ -163,13 +163,6 @@ mozilla
 class
 PresShell
 ;
-namespace
-layout
-{
-class
-RenderFrame
-;
-}
 }
 /
 /
