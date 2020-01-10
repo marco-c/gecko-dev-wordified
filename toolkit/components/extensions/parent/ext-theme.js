@@ -979,11 +979,6 @@ color
 {
 case
 "
-accentcolor
-"
-:
-case
-"
 frame
 "
 :
@@ -1008,11 +1003,6 @@ cssColor
 ;
 break
 ;
-case
-"
-textcolor
-"
-:
 case
 "
 tab_background_text
@@ -1449,11 +1439,6 @@ backgroundImages
 break
 ;
 }
-case
-"
-headerURL
-"
-:
 case
 "
 theme_frame
