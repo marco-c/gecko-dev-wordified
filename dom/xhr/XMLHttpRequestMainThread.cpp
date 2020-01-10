@@ -3731,9 +3731,10 @@ the
 given
 value
 .
-mResponseType
-=
+SetResponseTypeRaw
+(
 aResponseType
+)
 ;
 }
 void
