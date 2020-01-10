@@ -299,6 +299,11 @@ nsXBLPrototypeBinding
 aBinding
 )
 ;
+void
+FlushSkinStylesheets
+(
+)
+;
 bool
 IsChrome
 (

@@ -270,9 +270,6 @@ class
 Document
 ;
 class
-Element
-;
-class
 EventTarget
 ;
 }
@@ -386,6 +383,9 @@ nsXBLBinding
 *
 *
 aBinding
+bool
+*
+aResolveStyle
 )
 ;
 /
