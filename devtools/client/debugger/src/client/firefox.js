@@ -376,9 +376,6 @@ traits
 traits
 .
 canRewind
-tabTarget
-.
-isWebExtension
 )
 ;
 await

@@ -313,9 +313,6 @@ string
 canRewind
 :
 boolean
-isWebExtension
-:
-boolean
 )
 {
 return
@@ -361,7 +358,6 @@ name
 "
 }
 canRewind
-isWebExtension
 }
 :
 Action
