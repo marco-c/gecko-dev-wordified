@@ -303,12 +303,12 @@ help
 "
 :
 "
-Tries
-to
-enable
+Enable
 the
 WebRender
 compositor
+in
+Gecko
 .
 "
     
@@ -1256,6 +1256,32 @@ vv
 '
         
 ]
+        
+if
+self
+.
+config
+[
+'
+enable_webrender
+'
+]
+:
+            
+cmd
+.
+extend
+(
+[
+'
+-
+-
+enable
+-
+webrender
+'
+]
+)
         
 parser
 =
