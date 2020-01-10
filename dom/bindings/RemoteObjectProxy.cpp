@@ -1531,10 +1531,7 @@ void
 *
 aNative
 const
-js
-:
-:
-Class
+JSClass
 *
 aClasp
 JS

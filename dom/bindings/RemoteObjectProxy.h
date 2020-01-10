@@ -1051,10 +1051,7 @@ void
 *
 aNative
 const
-js
-:
-:
-Class
+JSClass
 *
 aClasp
 JS
@@ -1406,10 +1403,7 @@ aHolder
 }
 static
 const
-js
-:
-:
-Class
+JSClass
 sClass
 ;
 }

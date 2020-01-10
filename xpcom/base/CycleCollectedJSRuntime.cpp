@@ -4346,10 +4346,7 @@ obj
 )
 ;
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 =
@@ -4595,10 +4592,7 @@ CycleCollectedJSRuntime
 NoteGCThingXPCOMChildren
 (
 const
-js
-:
-:
-Class
+JSClass
 *
 aClasp
 JSObject

@@ -648,10 +648,7 @@ false
 )
 ;
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 =

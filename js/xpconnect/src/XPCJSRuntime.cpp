@@ -1620,10 +1620,7 @@ aGlobal
 DebugOnly
 <
 const
-js
-:
-:
-Class
+JSClass
 *
 >
 clasp
@@ -22357,10 +22354,7 @@ JSObject
 *
 obj
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 char
@@ -22466,10 +22460,7 @@ XPCJSRuntime
 NoteCustomGCThingXPCOMChildren
 (
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 JSObject

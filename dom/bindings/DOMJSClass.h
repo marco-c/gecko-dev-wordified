@@ -3441,10 +3441,7 @@ POD
 types
 .
 const
-js
-:
-:
-Class
+JSClass
 mBase
 ;
 /
@@ -3738,10 +3735,7 @@ to
 just
 inherit
 from
-js
-:
-:
-Class
+JSClass
 but
 that
 precludes
@@ -3784,10 +3778,7 @@ POD
 types
 .
 const
-js
-:
-:
-Class
+JSClass
 mBase
 ;
 /

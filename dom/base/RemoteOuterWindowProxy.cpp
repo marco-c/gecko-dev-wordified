@@ -447,10 +447,7 @@ template
 <
 >
 const
-js
-:
-:
-Class
+JSClass
 RemoteOuterWindowProxy
 :
 :

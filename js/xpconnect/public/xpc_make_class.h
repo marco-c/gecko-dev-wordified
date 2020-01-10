@@ -129,10 +129,7 @@ be
 used
 to
 create
-js
-:
-:
-Class
+JSClass
 instances
 for
 nsIXPCScriptable

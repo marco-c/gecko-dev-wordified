@@ -1314,10 +1314,7 @@ obj
 )
 {
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 =

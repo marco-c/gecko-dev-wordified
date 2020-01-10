@@ -710,10 +710,7 @@ JSObject
 *
 aObject
 const
-js
-:
-:
-Class
+JSClass
 *
 aClasp
 char
@@ -755,10 +752,7 @@ void
 NoteGCThingXPCOMChildren
 (
 const
-js
-:
-:
-Class
+JSClass
 *
 aClasp
 JSObject
@@ -775,10 +769,7 @@ bool
 NoteCustomGCThingXPCOMChildren
 (
 const
-js
-:
-:
-Class
+JSClass
 *
 aClasp
 JSObject
