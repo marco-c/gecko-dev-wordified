@@ -541,7 +541,7 @@ nsPresArena
 and
 /
 /
-nsIPresShell
+PresShell
 :
 :
 {

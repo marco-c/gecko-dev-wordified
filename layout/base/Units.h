@@ -3331,7 +3331,7 @@ resolution
 "
 (
 see
-nsIPresShell
+PresShell
 :
 :
 SetResolution

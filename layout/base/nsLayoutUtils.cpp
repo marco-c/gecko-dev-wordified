@@ -61973,7 +61973,7 @@ if
 const
 Maybe
 <
-nsIPresShell
+PresShell
 :
 :
 VisualScrollUpdate

@@ -22530,7 +22530,7 @@ d
 be
 bad
 !
-nsIPresShell
+PresShell
 :
 :
 AutoAssertNoFlush

@@ -5459,7 +5459,7 @@ be
 passed
 to
 *
-nsIPresShell
+PresShell
 :
 :
 FrameNeedsToContinueReflow

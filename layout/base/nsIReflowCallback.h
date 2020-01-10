@@ -194,7 +194,7 @@ shell
 *
 (
 using
-nsIPresShell
+PresShell
 :
 :
 CancelReflowCallback
