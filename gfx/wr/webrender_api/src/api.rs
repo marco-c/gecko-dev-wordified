@@ -4522,7 +4522,7 @@ a
 given
 amount
 of
-miliseconds
+milliseconds
 each
 time
 it
@@ -4553,7 +4553,7 @@ a
 given
 amount
 of
-miliseconds
+milliseconds
 /
 /
 /
@@ -6418,7 +6418,7 @@ panic
 !
 (
 "
-Webrender
+WebRender
 was
 shut
 down
@@ -6445,7 +6445,7 @@ response
 was
 dropped
 while
-Webrender
+WebRender
 was
 still
 alive

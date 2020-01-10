@@ -546,7 +546,7 @@ Array
 /
 /
 /
-Rectange
+Rectangle
 texture
 .
 This
