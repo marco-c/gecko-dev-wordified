@@ -129,6 +129,11 @@ child
 -
 observer
 "
+"
+audio
+-
+playback
+"
 ]
 }
 }
