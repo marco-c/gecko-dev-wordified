@@ -1673,11 +1673,6 @@ passed
 name
 diag
 stack
-&
-&
-stack
-.
-formattedStack
 )
 ;
 }
