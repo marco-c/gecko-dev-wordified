@@ -420,7 +420,6 @@ onQueryCancelled
 "
 )
 ;
-await
 controller
 .
 startQuery
