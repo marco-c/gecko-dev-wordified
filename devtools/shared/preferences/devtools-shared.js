@@ -357,6 +357,8 @@ true
 Limit
 for
 intercepted
+request
+and
 response
 bodies
 (
@@ -398,6 +400,18 @@ devtools
 netmonitor
 .
 responseBodyLimit
+"
+1048576
+)
+;
+pref
+(
+"
+devtools
+.
+netmonitor
+.
+requestBodyLimit
 "
 1048576
 )

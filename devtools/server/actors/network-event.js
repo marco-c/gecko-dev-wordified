@@ -1964,11 +1964,7 @@ dataSize
 =
 postData
 .
-text
-.
-str
-.
-length
+size
 ;
 postData
 .
