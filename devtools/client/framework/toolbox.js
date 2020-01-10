@@ -20862,10 +20862,7 @@ NodePicker
 (
 this
 .
-_highlighter
-this
-.
-_walker
+target
 this
 .
 selection
