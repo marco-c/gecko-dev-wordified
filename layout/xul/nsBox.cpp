@@ -1573,7 +1573,7 @@ return
 flex
 ;
 }
-uint32_t
+int32_t
 nsIFrame
 :
 :
@@ -1581,7 +1581,7 @@ GetXULOrdinal
 (
 )
 {
-uint32_t
+int32_t
 ordinal
 =
 StyleXUL

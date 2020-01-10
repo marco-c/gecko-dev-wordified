@@ -14066,7 +14066,7 @@ const
 float
 mBoxFlex
 ;
-uint32_t
+int32_t
 mBoxOrdinal
 ;
 mozilla

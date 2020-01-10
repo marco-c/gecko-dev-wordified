@@ -27494,7 +27494,7 @@ nsBox
 used
 in
 nsBoxFrame
-uint32_t
+int32_t
 GetXULOrdinal
 (
 )
