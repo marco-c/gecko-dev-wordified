@@ -1029,6 +1029,7 @@ func
 global_index
 environ
 )
+?
 {
 GlobalVariable
 :
@@ -1129,6 +1130,7 @@ func
 global_index
 environ
 )
+?
 {
 GlobalVariable
 :
@@ -1906,6 +1908,7 @@ cursor
 (
 )
 )
+?
 ;
 }
 Operator
@@ -3920,6 +3923,7 @@ func
 function_index
 environ
 )
+?
 ;
 let
 call
@@ -4076,6 +4080,7 @@ func
 index
 environ
 )
+?
 ;
 let
 table
@@ -4090,6 +4095,7 @@ func
 table_index
 environ
 )
+?
 ;
 let
 callee
@@ -4429,6 +4435,7 @@ func
 reserved
 environ
 )
+?
 ;
 let
 val
@@ -4493,6 +4500,7 @@ func
 reserved
 environ
 )
+?
 ;
 state
 .
@@ -4726,6 +4734,7 @@ builder
 state
 environ
 )
+?
 ;
 }
 Operator
@@ -4761,6 +4770,7 @@ builder
 state
 environ
 )
+?
 ;
 }
 Operator
@@ -4796,6 +4806,7 @@ builder
 state
 environ
 )
+?
 ;
 }
 Operator
@@ -4831,6 +4842,7 @@ builder
 state
 environ
 )
+?
 ;
 }
 Operator
@@ -4866,6 +4878,7 @@ builder
 state
 environ
 )
+?
 ;
 }
 Operator
@@ -4901,6 +4914,7 @@ builder
 state
 environ
 )
+?
 ;
 }
 Operator
@@ -4936,6 +4950,7 @@ builder
 state
 environ
 )
+?
 ;
 }
 Operator
@@ -4971,6 +4986,7 @@ builder
 state
 environ
 )
+?
 ;
 }
 Operator
@@ -5006,6 +5022,7 @@ builder
 state
 environ
 )
+?
 ;
 }
 Operator
@@ -5041,6 +5058,7 @@ builder
 state
 environ
 )
+?
 ;
 }
 Operator
@@ -5076,6 +5094,7 @@ builder
 state
 environ
 )
+?
 ;
 }
 Operator
@@ -5111,6 +5130,7 @@ builder
 state
 environ
 )
+?
 ;
 }
 Operator
@@ -5146,6 +5166,7 @@ builder
 state
 environ
 )
+?
 ;
 }
 Operator
@@ -5181,6 +5202,7 @@ builder
 state
 environ
 )
+?
 ;
 }
 /
@@ -5441,6 +5463,7 @@ builder
 state
 environ
 )
+?
 ;
 }
 Operator
@@ -5491,6 +5514,7 @@ builder
 state
 environ
 )
+?
 ;
 }
 Operator
@@ -5541,6 +5565,7 @@ builder
 state
 environ
 )
+?
 ;
 }
 Operator
@@ -5575,6 +5600,7 @@ builder
 state
 environ
 )
+?
 ;
 }
 /
@@ -11334,6 +11360,13 @@ environ
 mut
 FE
 )
+-
+>
+WasmResult
+<
+(
+)
+>
 {
 let
 addr32
@@ -11369,6 +11402,7 @@ func
 0
 environ
 )
+?
 ;
 let
 (
@@ -11485,6 +11519,11 @@ load
 )
 )
 ;
+Ok
+(
+(
+)
+)
 }
 /
 /
@@ -11530,6 +11569,13 @@ environ
 mut
 FE
 )
+-
+>
+WasmResult
+<
+(
+)
+>
 {
 let
 (
@@ -11582,6 +11628,7 @@ func
 0
 environ
 )
+?
 ;
 let
 (
@@ -11643,6 +11690,11 @@ val
 base
 )
 ;
+Ok
+(
+(
+)
+)
 }
 fn
 translate_icmp
