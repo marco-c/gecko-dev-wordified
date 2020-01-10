@@ -5906,6 +5906,14 @@ continue
 }
 self
 .
+documents
+.
+clear
+(
+)
+;
+self
+.
 notifier
 .
 shut_down
