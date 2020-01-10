@@ -2713,6 +2713,12 @@ whose
 directionality
 we
 use
+ScrollSnapInfo
+ComputeScrollSnapInfo
+(
+)
+const
+;
 public
 :
 bool
