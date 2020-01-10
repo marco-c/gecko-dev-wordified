@@ -468,13 +468,6 @@ gl
 GLFeature
 :
 :
-draw_range_elements
-gl
-:
-:
-GLFeature
-:
-:
 element_index_uint
 gl
 :
