@@ -115,6 +115,9 @@ GeckoProfiler
 h
 "
 #
+undef
+LOG
+#
 define
 LOG
 (
@@ -1427,6 +1430,3 @@ NS_OK
 /
 namespace
 mozilla
-#
-undef
-LOG

@@ -140,6 +140,9 @@ opus
 h
 >
 #
+undef
+LOG
+#
 define
 LOG
 (
@@ -3125,6 +3128,3 @@ NS_ERROR_FAILURE
 /
 namespace
 mozilla
-#
-undef
-LOG

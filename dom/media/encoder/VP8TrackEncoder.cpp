@@ -3547,6 +3547,3 @@ NS_OK
 /
 namespace
 mozilla
-#
-undef
-VP8LOG
