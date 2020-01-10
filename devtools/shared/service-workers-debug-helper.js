@@ -497,6 +497,19 @@ isNewSWImplementation
 multiE10s
 ;
 }
+function
+isParentInterceptEnabled
+(
+)
+{
+return
+swm
+.
+isParentInterceptEnabled
+(
+)
+;
+}
 module
 .
 exports
@@ -504,6 +517,7 @@ exports
 {
 addDebugServiceWorkersListener
 canDebugServiceWorkers
+isParentInterceptEnabled
 removeDebugServiceWorkersListener
 }
 ;

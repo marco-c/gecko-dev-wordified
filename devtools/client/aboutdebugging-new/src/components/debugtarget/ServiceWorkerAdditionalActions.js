@@ -490,6 +490,11 @@ pushServiceWorker
 target
 .
 id
+target
+.
+details
+.
+registrationFront
 )
 )
 ;
