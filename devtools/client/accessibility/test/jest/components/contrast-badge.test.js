@@ -305,6 +305,11 @@ value
 isLargeText
 :
 false
+score
+:
+"
+AA
+"
 }
 )
 )
@@ -372,6 +377,11 @@ max
 isLargeText
 :
 false
+score
+:
+"
+AA
+"
 }
 )
 )
@@ -435,6 +445,11 @@ value
 isLargeText
 :
 true
+score
+:
+"
+AA
+"
 }
 )
 )
@@ -501,6 +516,11 @@ value
 isLargeText
 :
 false
+score
+:
+"
+fail
+"
 }
 )
 )

@@ -315,6 +315,11 @@ isLargeText
 "
 :
 true
+score
+:
+"
+AAA
+"
 }
 }
 )

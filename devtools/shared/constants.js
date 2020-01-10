@@ -180,7 +180,7 @@ AA
 >
 AAA
 ;
-ColorContrastScores
+SCORES
 :
 {
 FAIL
