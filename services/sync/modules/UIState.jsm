@@ -1054,6 +1054,14 @@ profile
 .
 avatar
 ;
+state
+.
+avatarIsDefault
+=
+profile
+.
+avatarDefault
+;
 }
 async
 _getUserData
