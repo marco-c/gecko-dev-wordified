@@ -1654,8 +1654,6 @@ cert
 .
 getEmailAddresses
 (
-{
-}
 )
 ;
 if
