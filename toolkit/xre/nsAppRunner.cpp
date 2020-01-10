@@ -17417,6 +17417,15 @@ return
 1
 ;
 }
+#
+ifdef
+XP_MACOSX
+DisableAppNap
+(
+)
+;
+#
+endif
 if
 (
 PR_GetEnv
