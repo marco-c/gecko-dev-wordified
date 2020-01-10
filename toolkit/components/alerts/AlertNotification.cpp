@@ -1515,12 +1515,6 @@ LoadImageXPCOM
 mURI
 nullptr
 nullptr
-NS_LITERAL_STRING
-(
-"
-default
-"
-)
 mPrincipal
 nullptr
 this
