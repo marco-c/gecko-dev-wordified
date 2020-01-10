@@ -2779,9 +2779,11 @@ if
 !
 mRemainingLength
 )
+{
 return
 false
 ;
+}
 int32_t
 length
 ;

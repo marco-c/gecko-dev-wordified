@@ -944,8 +944,10 @@ Length
 =
 aOffset
 )
+{
 return
 ;
+}
 aArray
 -
 >
