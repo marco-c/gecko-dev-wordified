@@ -13887,10 +13887,10 @@ code
 is
 duplicated
 in
-XULDocument
+PrototypeDocumentContentSink
 :
 :
-StartDocumentLoad
+Init
 and
 /
 /

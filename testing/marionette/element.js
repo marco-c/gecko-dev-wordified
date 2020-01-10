@@ -2967,7 +2967,7 @@ var
 *
 param
 {
-XULDocument
+HTMLDocument
 }
 document
 *

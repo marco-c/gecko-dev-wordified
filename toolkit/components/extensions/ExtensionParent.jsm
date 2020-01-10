@@ -7445,7 +7445,7 @@ helper
 that
 create
 a
-XULDocument
+HTMLDocument
 in
 a
 windowless

@@ -3257,7 +3257,7 @@ document
 *
 param
 {
-XULDocument
+HTMLDocument
 }
 doc
 *

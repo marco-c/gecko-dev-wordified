@@ -2696,14 +2696,14 @@ by
 the
 implementation
 of
-XULDocument
+Document
 :
 :
 GetPopupRangeParent
 /
 /
 and
-XULDocument
+Document
 :
 :
 GetPopupRangeOffset

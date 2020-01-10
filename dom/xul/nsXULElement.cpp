@@ -13963,7 +13963,7 @@ script
 /
 Note
 that
-XULDocument
+PrototypeDocumentContentSink
 :
 :
 LoadScript

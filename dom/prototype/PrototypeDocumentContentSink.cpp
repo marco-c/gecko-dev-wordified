@@ -4670,7 +4670,7 @@ mSrcLoading
 /
 /
 Another
-XULDocument
+document
 load
 has
 started
@@ -5059,7 +5059,6 @@ aStatus
 If
 the
 including
-XUL
 document
 is
 a
@@ -5192,7 +5191,7 @@ mOffThreadCompileStringLength
 mOffThreadCompileStringBuf
 )
 "
-XULDocument
+PrototypeDocument
 can
 '
 t
@@ -5799,7 +5798,7 @@ released
 when
 its
 owning
-XULDocument
+document
 is
 unloaded
 .
@@ -5935,7 +5934,7 @@ script
 s
 list
 of
-XULDocuments
+documents
 who
 /
 /

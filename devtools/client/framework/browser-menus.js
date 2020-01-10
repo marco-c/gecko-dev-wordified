@@ -285,7 +285,7 @@ element
 *
 param
 {
-XULDocument
+HTMLDocument
 }
 doc
 *
@@ -501,7 +501,7 @@ entry
 *
 param
 {
-XULDocument
+HTMLDocument
 }
 doc
 *
@@ -889,7 +889,7 @@ DOM
 *
 param
 {
-XULDocument
+HTMLDocument
 }
 doc
 *
@@ -1072,7 +1072,7 @@ for
 *
 param
 {
-XULDocument
+HTMLDocument
 }
 doc
 *
@@ -1177,7 +1177,7 @@ window
 *
 param
 {
-XULDocument
+HTMLDocument
 }
 doc
 *
@@ -1333,7 +1333,7 @@ specific
 *
 param
 {
-XULDocument
+HTMLDocument
 }
 doc
 *
@@ -1672,7 +1672,7 @@ specific
 *
 param
 {
-XULDocument
+HTMLDocument
 }
 doc
 *
@@ -1750,7 +1750,7 @@ document
 *
 param
 {
-XULDocument
+HTMLDocument
 }
 doc
 *
@@ -1818,7 +1818,7 @@ document
 *
 param
 {
-XULDocument
+HTMLDocument
 }
 doc
 *

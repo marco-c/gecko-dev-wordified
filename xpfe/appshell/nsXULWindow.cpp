@@ -10822,7 +10822,7 @@ Match
 the
 behavior
 of
-XULDocument
+XULPersist
 and
 only
 persist

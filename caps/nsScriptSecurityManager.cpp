@@ -2305,10 +2305,10 @@ Document
 :
 Reset
 and
-XULDocument
+PrototypeDocumentContentSink
 :
 :
-StartDocumentLoad
+Init
 .
 nsCOMPtr
 <

@@ -352,7 +352,7 @@ group
 *
 param
 {
-XULDocument
+HTMLDocument
 }
 document
 *
@@ -436,7 +436,7 @@ group
 *
 param
 {
-XULDocument
+HTMLDocument
 }
 document
 *

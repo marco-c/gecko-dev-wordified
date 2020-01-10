@@ -229,7 +229,7 @@ built
 later
 in
 *
-XULDocument
+PrototypeDocumentContentSink
 :
 :
 ResumeWalk
@@ -485,7 +485,7 @@ notify
 (
 via
 *
-XULDocument
+PrototypeDocumentContentSink
 :
 :
 OnPrototypeLoadDone
@@ -493,12 +493,12 @@ OnPrototypeLoadDone
 )
 )
 and
+*
 sets
 aLoaded
 to
 false
 .
-*
 Otherwise
 sets
 aLoaded
@@ -549,12 +549,13 @@ performed
 by
 calling
 *
-XULDocument
+PrototypeDocumentContentSink
 :
 :
 OnPrototypeLoadDone
 on
 the
+*
 registered
 documents
 .
