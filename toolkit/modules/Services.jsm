@@ -1378,8 +1378,6 @@ mozilla
 .
 org
 /
-browser
-/
 enterprisepolicies
 ;
 1
@@ -1397,8 +1395,6 @@ policies
 mozilla
 .
 org
-/
-browser
 /
 enterprisepolicies
 ;
