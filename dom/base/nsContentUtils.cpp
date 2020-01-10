@@ -36077,7 +36077,7 @@ uri
 nsresult
 rv
 =
-NS_NewURIOnAnyThread
+NS_NewURI
 (
 getter_AddRefs
 (

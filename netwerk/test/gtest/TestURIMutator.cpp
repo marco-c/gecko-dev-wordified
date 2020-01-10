@@ -907,7 +907,7 @@ gTlsURLRecursionCount
 TEST
 (
 TestURIMutator
-NS_NewURIOnAnyThread
+OnAnyThread
 )
 {
 nsCOMPtr
@@ -963,7 +963,7 @@ NS_NewRunnableFunction
 "
 gtest
 -
-NS_NewURIOnAnyThread
+OnAnyThread
 "
 [
 ]
@@ -979,7 +979,7 @@ uri
 nsresult
 rv
 =
-NS_NewURIOnAnyThread
+NS_NewURI
 (
 getter_AddRefs
 (
@@ -1067,7 +1067,7 @@ uri
 nsresult
 rv
 =
-NS_NewURIOnAnyThread
+NS_NewURI
 (
 getter_AddRefs
 (
