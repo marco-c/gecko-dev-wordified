@@ -4564,7 +4564,7 @@ class
 MediaStreamTrackListener
 ;
 class
-VideoFrameListener
+FirstFrameListener
 ;
 class
 ShutdownObserver
@@ -8336,7 +8336,9 @@ a
 reference
 to
 the
-size
+first
+-
+frame
 -
 getting
 track
@@ -8349,9 +8351,9 @@ mSelectedVideoStreamTrack
 .
 RefPtr
 <
-VideoFrameListener
+FirstFrameListener
 >
-mVideoFrameListener
+mFirstFrameListener
 ;
 /
 /
