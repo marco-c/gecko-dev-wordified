@@ -726,6 +726,13 @@ projectDirectoryRoot
 "
 "
 ;
+prefs
+.
+expressions
+=
+[
+]
+;
 /
 /
 Ensures

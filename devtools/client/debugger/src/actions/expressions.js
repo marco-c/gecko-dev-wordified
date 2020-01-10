@@ -630,10 +630,6 @@ getState
 (
 )
 )
-.
-toJS
-(
-)
 ;
 const
 inputs

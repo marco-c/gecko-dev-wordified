@@ -2770,6 +2770,9 @@ foo
 expect
 (
 expression
+&
+&
+expression
 .
 value
 )

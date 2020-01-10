@@ -1465,11 +1465,9 @@ modifiers
 &
 &
 modifiers
-.
-get
-(
+[
 modVal
-)
+]
 }
 )
 ;

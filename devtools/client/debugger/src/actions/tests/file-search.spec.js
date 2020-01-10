@@ -348,12 +348,7 @@ expect
 (
 fileSearchModState
 .
-get
-(
-"
 caseSensitive
-"
-)
 )
 .
 toBe
@@ -387,12 +382,7 @@ expect
 (
 fileSearchModState
 .
-get
-(
-"
 caseSensitive
-"
-)
 )
 .
 toBe

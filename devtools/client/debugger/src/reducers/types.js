@@ -307,10 +307,7 @@ debuggee
 DebuggeeState
 fileSearch
 :
-Record
-<
 FileSearchState
->
 pause
 :
 PauseState
@@ -334,16 +331,10 @@ tabs
 TabList
 ui
 :
-Record
-<
 UIState
->
 quickOpen
 :
-Record
-<
 QuickOpenState
->
 }
 ;
 export
