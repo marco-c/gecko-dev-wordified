@@ -3919,6 +3919,12 @@ StartCancelingTimer
 (
 )
 ;
+nsAString
+&
+Id
+(
+)
+;
 private
 :
 WorkerPrivate
@@ -5367,6 +5373,9 @@ mozilla
 PerformanceCounter
 >
 mPerformanceCounter
+;
+nsString
+mID
 ;
 }
 ;
