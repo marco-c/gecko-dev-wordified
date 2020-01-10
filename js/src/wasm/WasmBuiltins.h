@@ -376,6 +376,11 @@ SASigElemDrop
 extern
 const
 SymbolicAddressSignature
+SASigTableFill
+;
+extern
+const
+SymbolicAddressSignature
 SASigTableGet
 ;
 extern
