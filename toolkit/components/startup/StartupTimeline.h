@@ -59,6 +59,12 @@ MPL
 #
 ifdef
 mozilla_StartupTimeline_Event
+/
+/
+clang
+-
+format
+off
 mozilla_StartupTimeline_Event
 (
 PROCESS_CREATION
@@ -221,6 +227,12 @@ PROFILE_BEFORE_CHANGE
 profileBeforeChange
 "
 )
+/
+/
+clang
+-
+format
+on
 #
 else
 #
