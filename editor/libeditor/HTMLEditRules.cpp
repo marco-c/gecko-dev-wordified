@@ -50765,7 +50765,11 @@ nsIContent
 >
 endInline
 =
-GetHighestInlineParent
+HTMLEditorRef
+(
+)
+.
+GetMostAncestorInlineElement
 (
 *
 aRangeItem
@@ -50792,7 +50796,7 @@ to
 call
 /
 /
-GetHighestInlineParent
+GetMostAncestorInlineElement
 (
 )
 isn
@@ -50927,7 +50931,11 @@ nsIContent
 >
 startInline
 =
-GetHighestInlineParent
+HTMLEditorRef
+(
+)
+.
+GetMostAncestorInlineElement
 (
 *
 aRangeItem
@@ -51503,10 +51511,10 @@ NS_OK
 }
 nsIContent
 *
-HTMLEditRules
+HTMLEditor
 :
 :
-GetHighestInlineParent
+GetMostAncestorInlineElement
 (
 nsINode
 &
@@ -51516,7 +51524,7 @@ const
 {
 MOZ_ASSERT
 (
-IsEditorDataAvailable
+IsEditActionDataAvailable
 (
 )
 )
@@ -51548,10 +51556,6 @@ Element
 *
 host
 =
-HTMLEditorRef
-(
-)
-.
 GetActiveEditingHost
 (
 )
