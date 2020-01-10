@@ -649,6 +649,16 @@ UI
 .
 EDITOR
 )
+timestampsVisible
+:
+getBoolPref
+(
+PREFS
+.
+UI
+.
+MESSAGE_TIMESTAMP
+)
 }
 )
 }
