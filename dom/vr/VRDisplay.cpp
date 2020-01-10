@@ -612,8 +612,8 @@ updatedDisplays
 if
 (
 vm
-&
-&
+)
+{
 vm
 -
 >
@@ -621,8 +621,7 @@ GetVRDisplays
 (
 updatedDisplays
 )
-)
-{
+;
 for
 (
 size_t
