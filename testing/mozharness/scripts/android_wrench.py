@@ -177,7 +177,7 @@ testbase
 import
 TestingMixin
 class
-AndroidEmulatorWrench
+AndroidWrench
 (
 TestingMixin
 BaseScript
@@ -198,7 +198,7 @@ False
         
 super
 (
-AndroidEmulatorWrench
+AndroidWrench
 self
 )
 .
@@ -310,7 +310,7 @@ parent_abs_dirs
 =
 super
 (
-AndroidEmulatorWrench
+AndroidWrench
 self
 )
 .
@@ -570,7 +570,7 @@ logcat_cmd
         
 super
 (
-AndroidEmulatorWrench
+AndroidWrench
 self
 )
 .
@@ -1921,7 +1921,7 @@ __main__
     
 test
 =
-AndroidEmulatorWrench
+AndroidWrench
 (
 )
     
