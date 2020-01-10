@@ -775,6 +775,16 @@ Unicode
 *
 characters
 .
+The
+character
+#
+is
+not
+decoded
+from
+escape
+sequences
+.
 *
 *
 If
@@ -973,7 +983,7 @@ hostname
 ;
 url
 =
-decodeURIComponent
+decodeURI
 (
 url
 )
