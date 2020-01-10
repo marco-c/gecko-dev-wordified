@@ -9184,7 +9184,7 @@ apz
 .
 allow_immediate_handoff
 "
-true
+false
 )
 ;
 pref
