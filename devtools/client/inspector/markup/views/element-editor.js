@@ -411,7 +411,7 @@ display
 .
 flex
 .
-tooltiptext
+tooltiptext2
 "
 )
 "
@@ -431,7 +431,7 @@ display
 .
 inlineFlex
 .
-tooltiptext
+tooltiptext2
 "
 )
 grid
@@ -447,7 +447,7 @@ display
 .
 grid
 .
-tooltiptext
+tooltiptext2
 "
 )
 "
@@ -467,7 +467,7 @@ display
 .
 inlineGrid
 .
-tooltiptext
+tooltiptext2
 "
 )
 subgrid
