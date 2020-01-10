@@ -8116,6 +8116,10 @@ lastUpdated
 loaded
 :
 true
+frequency_caps
+:
+[
+]
 }
 )
 ;

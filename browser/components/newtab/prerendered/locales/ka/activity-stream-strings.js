@@ -288,13 +288,6 @@ Firefox
 .
 "
 "
-prefs_content_discovery_header
-"
-:
-"
-Firefox
-"
-"
 prefs_content_discovery_description
 "
 :
@@ -302,12 +295,6 @@ prefs_content_discovery_description
 Firefox
 -
 .
-"
-"
-prefs_content_discovery_button
-"
-:
-"
 "
 "
 prefs_section_rows_option
