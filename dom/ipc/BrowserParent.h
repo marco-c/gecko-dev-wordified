@@ -1811,12 +1811,14 @@ nsTArray
 nsCString
 >
 &
+&
 aPositions
 const
 nsTArray
 <
 int32_t
 >
+&
 &
 aPositionDescendants
 const
