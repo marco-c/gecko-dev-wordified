@@ -231,11 +231,7 @@ sourceMaps
 getOriginalSourceText
 :
 async
-(
-{
 id
-}
-)
 =
 >
 (

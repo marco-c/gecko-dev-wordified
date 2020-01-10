@@ -408,6 +408,8 @@ sourceMaps
 getOriginalSourceText
 (
 source
+.
+id
 )
 ;
 if
