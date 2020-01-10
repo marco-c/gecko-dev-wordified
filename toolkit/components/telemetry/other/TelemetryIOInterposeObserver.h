@@ -657,7 +657,7 @@ mFileStats
 /
 Container
 for
-whitelisted
+allowed
 directories
 nsTArray
 <

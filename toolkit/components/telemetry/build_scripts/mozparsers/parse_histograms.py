@@ -613,17 +613,17 @@ current
     
 return
 ret_array
-whitelists
+allowlists
 =
 None
 def
-load_whitelist
+load_allowlist
 (
 )
 :
     
 global
-whitelists
+allowlists
     
 try
 :
@@ -664,7 +664,7 @@ while
 the
 histogram
 -
-whitelists
+allowlists
 file
 lives
 in
@@ -683,7 +683,7 @@ when
 looking
 for
 the
-whitelist
+allowlist
 .
         
 #
@@ -727,7 +727,7 @@ pardir
 )
 )
         
-whitelist_path
+allowlist_path
 =
 os
 .
@@ -739,7 +739,7 @@ telemetry_module_path
 '
 histogram
 -
-whitelists
+allowlists
 .
 json
 '
@@ -748,7 +748,7 @@ json
 with
 open
 (
-whitelist_path
+allowlist_path
 '
 r
 '
@@ -760,7 +760,7 @@ f
 try
 :
                 
-whitelists
+allowlists
 =
 json
 .
@@ -771,23 +771,23 @@ f
                 
 for
 name
-whitelist
+allowlist
 in
-whitelists
+allowlists
 .
 iteritems
 (
 )
 :
                     
-whitelists
+allowlists
 [
 name
 ]
 =
 set
 (
-whitelist
+allowlist
 )
             
 except
@@ -799,13 +799,13 @@ ParserError
 '
 Error
 parsing
-whitelist
+allowlist
 :
 %
 s
 '
 %
-whitelist_path
+allowlist_path
 )
 .
 handle_now
@@ -816,7 +816,7 @@ except
 IOError
 :
         
-whitelists
+allowlists
 =
 None
         
@@ -826,14 +826,14 @@ ParserError
 Unable
 to
 parse
-whitelist
+allowlist
 :
 %
 s
 .
 '
 %
-whitelist_path
+allowlist_path
 )
 .
 handle_now
@@ -2406,7 +2406,7 @@ definition
         
 self
 .
-check_whitelisted_kind
+check_allowlisted_kind
 (
 name
 definition
@@ -2414,7 +2414,7 @@ definition
         
 self
 .
-check_whitelistable_fields
+check_allowlistable_fields
 (
 name
 definition
@@ -2735,7 +2735,7 @@ are
 added
 to
 the
-whitelist
+allowlist
 .
         
 if
@@ -2748,7 +2748,7 @@ default
 and
 \
            
-whitelists
+allowlists
 is
 not
 None
@@ -2758,7 +2758,7 @@ and
 name
 not
 in
-whitelists
+allowlists
 [
 '
 expiry_default
@@ -3838,7 +3838,7 @@ invalid
 )
     
 def
-check_whitelisted_kind
+check_allowlisted_kind
 (
 self
 name
@@ -3869,7 +3869,7 @@ self
 .
 _strict_type_checks
 or
-whitelists
+allowlists
 is
 None
 :
@@ -3965,7 +3965,7 @@ and
 name
 not
 in
-whitelists
+allowlists
 [
 "
 kind
@@ -4082,12 +4082,12 @@ that
 old
 histograms
 are
-whitelisted
+allowlisted
 for
 .
     
 def
-check_whitelistable_fields
+check_allowlistable_fields
 (
 self
 name
@@ -4160,12 +4160,12 @@ don
 '
 t
 have
-whitelists
+allowlists
 available
 .
         
 if
-whitelists
+allowlists
 is
 None
 :
@@ -4194,7 +4194,7 @@ and
 name
 not
 in
-whitelists
+allowlists
 [
 field
 ]
@@ -4238,7 +4238,7 @@ definition
 and
 name
 in
-whitelists
+allowlists
 [
 field
 ]
@@ -4257,7 +4257,7 @@ be
 removed
 from
 the
-whitelist
+allowlist
 for
 "
 %
@@ -4270,7 +4270,7 @@ in
 '
 histogram
 -
-whitelists
+allowlists
 .
 json
 .
@@ -4995,7 +4995,7 @@ _n_buckets
 n_buckets
         
 if
-whitelists
+allowlists
 is
 not
 None
@@ -5022,7 +5022,7 @@ self
 _name
 not
 in
-whitelists
+allowlists
 [
 '
 n_buckets
@@ -6070,7 +6070,7 @@ if
 strict_type_checks
 :
         
-load_whitelist
+load_allowlist
 (
 )
     
@@ -6355,17 +6355,17 @@ also
 removed
 from
 the
-whitelists
+allowlists
 .
     
 if
-whitelists
+allowlists
 is
 not
 None
 :
         
-all_whitelist_entries
+all_allowlist_entries
 =
 itertools
 .
@@ -6373,7 +6373,7 @@ chain
 .
 from_iterable
 (
-whitelists
+allowlists
 .
 itervalues
 (
@@ -6384,7 +6384,7 @@ orphaned
 =
 set
 (
-all_whitelist_entries
+all_allowlist_entries
 )
 -
 set
@@ -6424,7 +6424,7 @@ from
 '
 histogram
 -
-whitelists
+allowlists
 .
 json
 :

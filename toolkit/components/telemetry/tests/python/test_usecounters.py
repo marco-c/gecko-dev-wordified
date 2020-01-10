@@ -223,7 +223,7 @@ SAMPLE_HISTOGRAM
         
 parse_histograms
 .
-load_whitelist
+load_allowlist
 (
 )
         
@@ -352,7 +352,7 @@ SAMPLE_HISTOGRAM
         
 parse_histograms
 .
-load_whitelist
+load_allowlist
 (
 )
         

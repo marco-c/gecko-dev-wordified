@@ -8246,8 +8246,8 @@ output
 }
 /
 /
-A
-whitelist
+An
+allowlist
 mechanism
 to
 prevent
@@ -8347,8 +8347,8 @@ _name
 }
 /
 /
-A
-whitelist
+An
+allowlist
 of
 database
 names
@@ -8528,8 +8528,8 @@ sqlite
 ;
 /
 /
-A
-whitelist
+An
+allowlist
 of
 database
 name
@@ -11383,8 +11383,7 @@ have
 to
 /
 /
-white
-list
+allow
 this
 write
 as
