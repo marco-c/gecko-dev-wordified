@@ -4629,6 +4629,9 @@ bool
 >
 mLayersConnected
 ;
+EffectsInfo
+mEffectsInfo
+;
 bool
 mDidFakeShow
 ;
