@@ -2739,6 +2739,14 @@ to
 our
 test
 URL
+/
+/
+"
+null
+"
+=
+active
+tab
 ext
 .
 tabs
@@ -2746,6 +2754,9 @@ tabs
 update
 (
 testTabID
+|
+|
+null
 {
 url
 :
