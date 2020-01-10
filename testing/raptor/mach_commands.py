@@ -362,6 +362,17 @@ power_test
 '
 ]
         
+self
+.
+cpu_test
+=
+kwargs
+[
+'
+cpu_test
+'
+]
+        
 if
 Conditions
 .
@@ -1199,6 +1210,14 @@ memory_test
 self
 .
 memory_test
+            
+'
+cpu_test
+'
+:
+self
+.
+cpu_test
             
 '
 is_release_build
