@@ -6207,7 +6207,7 @@ screen_size
 ImageFormat
 :
 :
-BGRA8
+RGBA8
 gpu_supports_fast_clears
 )
 alpha
