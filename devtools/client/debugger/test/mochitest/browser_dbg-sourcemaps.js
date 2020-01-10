@@ -102,9 +102,6 @@ ok
 (
 getBreakpoint
 (
-getState
-(
-)
 {
 sourceId
 :
@@ -292,9 +289,6 @@ state
 >
 getBreakpointCount
 (
-getState
-(
-)
 )
 =
 =
@@ -472,9 +466,6 @@ selectors
 .
 getBreakpointCount
 (
-getState
-(
-)
 )
 0
 "
@@ -555,9 +546,6 @@ is
 (
 getBreakpointCount
 (
-getState
-(
-)
 )
 1
 "

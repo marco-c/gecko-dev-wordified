@@ -406,7 +406,6 @@ selectors
 .
 getBreakpointsList
 (
-state
 )
 [
 index

@@ -8049,11 +8049,6 @@ selectors
 .
 getThreadContext
 (
-dbg
-.
-getState
-(
-)
 )
 frame
 )

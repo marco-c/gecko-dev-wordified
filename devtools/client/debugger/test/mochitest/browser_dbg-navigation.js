@@ -71,11 +71,6 @@ selectors
 .
 getSourceCount
 (
-dbg
-.
-getState
-(
-)
 )
 ;
 }
@@ -305,14 +300,8 @@ ok
 !
 getIsPaused
 (
-getState
-(
-)
 getCurrentThread
 (
-getState
-(
-)
 )
 )
 "
@@ -403,9 +392,6 @@ ok
 (
 getSelectedSource
 (
-getState
-(
-)
 )
 .
 url

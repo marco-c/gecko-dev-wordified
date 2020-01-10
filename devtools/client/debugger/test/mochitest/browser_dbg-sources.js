@@ -256,9 +256,6 @@ selectedSource
 =
 getSelectedSource
 (
-getState
-(
-)
 )
 .
 url

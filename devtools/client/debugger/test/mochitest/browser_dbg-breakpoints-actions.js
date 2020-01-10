@@ -178,7 +178,6 @@ selectors
 .
 getBreakpointCount
 (
-state
 )
 =
 =
@@ -409,7 +408,6 @@ selectors
 .
 getBreakpointsList
 (
-state
 )
 .
 every
@@ -499,7 +497,6 @@ selectors
 .
 getBreakpointsList
 (
-state
 )
 .
 every
@@ -572,7 +569,6 @@ selectors
 .
 getBreakpointsList
 (
-state
 )
 .
 every
@@ -662,7 +658,6 @@ selectors
 .
 getBreakpointsList
 (
-state
 )
 .
 length
@@ -678,7 +673,6 @@ selectors
 .
 getBreakpointsList
 (
-state
 )
 [
 0

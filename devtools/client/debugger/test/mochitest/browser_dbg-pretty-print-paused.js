@@ -109,11 +109,6 @@ selectors
 .
 getCurrentThread
 (
-dbg
-.
-getState
-(
-)
 )
 ;
 await
@@ -204,7 +199,6 @@ selectors
 .
 getSelectedFrame
 (
-state
 thread
 )
 .

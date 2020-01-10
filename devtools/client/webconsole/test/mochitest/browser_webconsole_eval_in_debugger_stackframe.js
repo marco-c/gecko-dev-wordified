@@ -395,11 +395,6 @@ selectors
 .
 getCallStackFrames
 (
-dbg
-.
-getState
-(
-)
 )
 ;
 info

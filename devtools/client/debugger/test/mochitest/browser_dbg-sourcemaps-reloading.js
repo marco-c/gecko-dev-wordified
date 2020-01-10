@@ -84,7 +84,6 @@ selectors
 .
 getBreakpointCount
 (
-state
 )
 =
 =
@@ -136,7 +135,6 @@ selectors
 getBreakpoint
 getBreakpointCount
 }
-getState
 }
 =
 dbg
@@ -299,9 +297,6 @@ is
 (
 getBreakpointCount
 (
-getState
-(
-)
 )
 2
 "
@@ -315,9 +310,6 @@ ok
 (
 getBreakpoint
 (
-getState
-(
-)
 {
 sourceId
 :
@@ -344,9 +336,6 @@ ok
 (
 getBreakpoint
 (
-getState
-(
-)
 {
 sourceId
 :

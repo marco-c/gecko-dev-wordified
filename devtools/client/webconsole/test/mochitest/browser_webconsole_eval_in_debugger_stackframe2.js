@@ -493,11 +493,6 @@ selectors
 .
 getThreadContext
 (
-dbg
-.
-getState
-(
-)
 )
 )
 ;

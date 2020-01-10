@@ -245,9 +245,6 @@ selectors
 .
 getBreakpointCount
 (
-getState
-(
-)
 )
 1
 "
@@ -301,9 +298,6 @@ selectors
 .
 getBreakpointCount
 (
-getState
-(
-)
 )
 0
 "

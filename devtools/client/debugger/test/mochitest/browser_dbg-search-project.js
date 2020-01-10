@@ -88,7 +88,6 @@ selectors
 .
 getActiveSearch
 (
-state
 )
 =
 =
@@ -127,7 +126,6 @@ selectors
 .
 getActiveSearch
 (
-state
 )
 )
 ;
@@ -156,11 +154,6 @@ selectors
 .
 getActiveSearch
 (
-dbg
-.
-getState
-(
-)
 )
 )
 ;
@@ -210,11 +203,6 @@ selectors
 .
 getTextSearchResults
 (
-dbg
-.
-getState
-(
-)
 )
 .
 map
@@ -355,11 +343,6 @@ selectors
 .
 getActiveSearch
 (
-dbg
-.
-getState
-(
-)
 )
 null
 )
@@ -373,11 +356,6 @@ selectors
 .
 getSelectedSource
 (
-dbg
-.
-getState
-(
-)
 )
 ;
 ok
