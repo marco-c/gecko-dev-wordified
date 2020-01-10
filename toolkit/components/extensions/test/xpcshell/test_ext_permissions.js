@@ -3604,6 +3604,9 @@ telemetry
 theme
 "
 "
+urlbar
+"
+"
 webRequest
 "
 "
