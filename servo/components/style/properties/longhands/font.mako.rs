@@ -1534,6 +1534,9 @@ variations
 .
 enabled
 "
+has_effect_on_gecko_scrollbars
+=
+False
 initial_value
 =
 "
@@ -1722,6 +1725,9 @@ variations
 .
 enabled
 "
+has_effect_on_gecko_scrollbars
+=
+False
 gecko_ffi_name
 =
 "
@@ -3807,6 +3813,9 @@ smoothing
 .
 enabled
 "
+has_effect_on_gecko_scrollbars
+=
+False
 products
 =
 "
