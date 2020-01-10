@@ -153,17 +153,6 @@ kScrollSeriesTimeoutMs
 #
 include
 "
-gfxPrefs
-.
-h
-"
-/
-/
-for
-gfxPrefs
-#
-include
-"
 mozilla
 /
 MouseEvents

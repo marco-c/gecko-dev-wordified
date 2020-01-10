@@ -192,13 +192,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 nsIXULRuntime
 .
 h
@@ -1029,13 +1022,6 @@ gfxVars
 :
 :
 Initialize
-(
-)
-;
-gfxPrefs
-:
-:
-GetSingleton
 (
 )
 ;

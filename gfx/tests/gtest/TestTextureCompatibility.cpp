@@ -274,6 +274,15 @@ mozilla
 layers
 :
 :
+ISurfaceAllocator
+;
+using
+mozilla
+:
+:
+layers
+:
+:
 LayersBackend
 ;
 using
