@@ -888,6 +888,10 @@ ScaledFontNotFound
 InvalidLayerType
 /
 /
+40
+PlayEventFailed
+/
+/
 End
 MustBeLessThanThis
 =
