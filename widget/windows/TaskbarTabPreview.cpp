@@ -514,8 +514,9 @@ CreateIcon
 (
 icon
 false
-0
-0
+LayoutDeviceIntPoint
+(
+)
 nsWindowGfx
 :
 :
