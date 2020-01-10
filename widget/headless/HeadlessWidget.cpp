@@ -2589,7 +2589,7 @@ eMouseUp
 {
 event
 .
-button
+mButton
 =
 WidgetMouseEvent
 :

@@ -2805,7 +2805,7 @@ aMessage
 aPointerEvent
 -
 >
-button
+mButton
 =
 aMouseEvent
 -
@@ -2823,7 +2823,7 @@ eNoButton
 aMouseEvent
 -
 >
-button
+mButton
 ;
 aPointerEvent
 -
@@ -3070,7 +3070,7 @@ mFlags
 aPointerEvent
 -
 >
-button
+mButton
 =
 button
 ;
@@ -3241,7 +3241,7 @@ button
 mouseEvent
 -
 >
-button
+mButton
 ;
 switch
 (

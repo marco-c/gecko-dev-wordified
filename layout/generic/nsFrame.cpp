@@ -28413,7 +28413,7 @@ AsMouseEvent
 )
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEvent
@@ -28687,7 +28687,7 @@ eMouseUp
 aMouseEvent
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEvent

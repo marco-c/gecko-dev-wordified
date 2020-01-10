@@ -448,7 +448,7 @@ aRelatedTarget
 mouseEventBase
 -
 >
-button
+mButton
 =
 aButton
 ;
@@ -1034,7 +1034,7 @@ AsMouseEventBase
 )
 -
 >
-button
+mButton
 ;
 default
 :
@@ -1045,7 +1045,7 @@ Tried
 to
 get
 mouse
-button
+mButton
 for
 non
 -

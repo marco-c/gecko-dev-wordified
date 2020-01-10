@@ -1280,7 +1280,7 @@ mTime
 ;
 event
 .
-button
+mButton
 =
 WidgetMouseEvent
 :
@@ -1634,7 +1634,7 @@ switch
 (
 aMouseEvent
 .
-button
+mButton
 )
 {
 case
@@ -2042,7 +2042,7 @@ LEFT_BUTTON
 :
 event
 .
-button
+mButton
 =
 WidgetMouseEventBase
 :
@@ -2059,7 +2059,7 @@ MIDDLE_BUTTON
 :
 event
 .
-button
+mButton
 =
 WidgetMouseEventBase
 :
@@ -2076,7 +2076,7 @@ RIGHT_BUTTON
 :
 event
 .
-button
+mButton
 =
 WidgetMouseEventBase
 :

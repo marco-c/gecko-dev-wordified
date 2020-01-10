@@ -14127,7 +14127,7 @@ AsMouseEvent
 )
 -
 >
-button
+mButton
 !
 =
 WidgetMouseEvent
@@ -31343,7 +31343,7 @@ MODIFIER_SHIFT
 }
 event
 .
-button
+mButton
 =
 aButton
 ;
@@ -31607,7 +31607,7 @@ eMouseDown
 ;
 event
 .
-button
+mButton
 =
 aButton
 ;
@@ -47404,7 +47404,7 @@ wheelEvent
 ;
 wheelEvent
 .
-button
+mButton
 =
 0
 ;
@@ -47585,7 +47585,7 @@ event
 ;
 event
 .
-button
+mButton
 =
 0
 ;

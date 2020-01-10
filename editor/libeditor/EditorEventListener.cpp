@@ -2942,7 +2942,7 @@ if
 widgetMouseEvent
 -
 >
-button
+mButton
 !
 =
 WidgetMouseEventBase
@@ -4398,7 +4398,7 @@ if
 aMouseClickEvent
 -
 >
-button
+mButton
 !
 =
 WidgetMouseEventBase

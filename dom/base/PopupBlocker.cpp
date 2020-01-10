@@ -1604,9 +1604,6 @@ IsTrusted
 )
 )
 {
-/
-/
-eLeftButton
 if
 (
 aEvent
@@ -1617,7 +1614,7 @@ AsMouseEvent
 )
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEvent
@@ -1931,7 +1928,7 @@ AsPointerEvent
 )
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEvent

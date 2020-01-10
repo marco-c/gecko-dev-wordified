@@ -3420,7 +3420,7 @@ switch
 mouseEvent
 -
 >
-button
+mButton
 )
 {
 case
@@ -3516,7 +3516,7 @@ switch
 mouseEvent
 -
 >
-button
+mButton
 )
 {
 case
@@ -19950,7 +19950,7 @@ if
 mouseEvent
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEvent
@@ -21228,7 +21228,7 @@ if
 mouseEvent
 -
 >
-button
+mButton
 !
 =
 WidgetMouseEvent
@@ -27023,12 +27023,12 @@ mModifiers
 aNewEvent
 -
 >
-button
+mButton
 =
 aMouseEvent
 -
 >
-button
+mButton
 ;
 aNewEvent
 -
@@ -31462,7 +31462,7 @@ switch
 aEvent
 -
 >
-button
+mButton
 )
 {
 case
@@ -32034,12 +32034,12 @@ aNoContentDispatch
 ;
 event
 .
-button
+mButton
 =
 aMouseUpEvent
 -
 >
-button
+mButton
 ;
 event
 .
@@ -32585,7 +32585,7 @@ if
 aMouseUpEvent
 -
 >
-button
+mButton
 !
 =
 WidgetMouseEventBase
@@ -32772,7 +32772,7 @@ notDispatchToContents
 aMouseUpEvent
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEvent
@@ -32784,7 +32784,7 @@ eMiddleButton
 aMouseUpEvent
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEvent
@@ -33015,7 +33015,7 @@ eMouseAuxClick
 aMouseEvent
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEventBase
@@ -35989,7 +35989,7 @@ AsMouseEvent
 )
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEvent
