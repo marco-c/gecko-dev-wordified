@@ -857,13 +857,7 @@ to_computed_value
 (
 context
 )
-.
-into
-(
 )
-)
-.
-0
 }
 LengthPercentage
 :

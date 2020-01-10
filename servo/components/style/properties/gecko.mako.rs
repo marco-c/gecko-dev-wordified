@@ -9386,7 +9386,7 @@ crate
 values
 :
 :
-generics
+specified
 :
 :
 font
@@ -9574,8 +9574,6 @@ info
 .
 offset
 .
-0
-.
 to_i32_au
 (
 )
@@ -9633,7 +9631,7 @@ crate
 values
 :
 :
-generics
+specified
 :
 :
 font

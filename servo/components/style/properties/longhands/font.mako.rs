@@ -3063,6 +3063,8 @@ FontSize
 {
 size
 :
+NonNegative
+(
 cx
 .
 maybe_zoom_text
@@ -3076,6 +3078,7 @@ size
 .
 into
 (
+)
 )
 )
 keyword_info

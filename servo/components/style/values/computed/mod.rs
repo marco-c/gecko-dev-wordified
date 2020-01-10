@@ -1997,11 +1997,11 @@ maybe_zoom_text
 self
 size
 :
-NonNegativeLength
+CSSPixelLength
 )
 -
 >
-NonNegativeLength
+CSSPixelLength
 {
 /
 /
@@ -2109,11 +2109,11 @@ maybe_zoom_text
 self
 size
 :
-NonNegativeLength
+CSSPixelLength
 )
 -
 >
-NonNegativeLength
+CSSPixelLength
 {
 size
 }
