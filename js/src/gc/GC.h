@@ -178,6 +178,9 @@ class
 FatInlineAtom
 ;
 class
+FreeOp
+;
+class
 NormalAtom
 ;
 class
@@ -323,7 +326,7 @@ extern
 void
 ReleaseAllJITCode
 (
-JSFreeOp
+FreeOp
 *
 op
 )

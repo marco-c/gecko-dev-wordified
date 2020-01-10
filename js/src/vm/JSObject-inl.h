@@ -421,7 +421,10 @@ JSObject
 :
 finalize
 (
-JSFreeOp
+js
+:
+:
+FreeOp
 *
 fop
 )

@@ -2052,7 +2052,7 @@ with
 a
 call
 to
-JSFreeOp
+FreeOp
 :
 :
 free_
@@ -2188,7 +2188,7 @@ with
 a
 call
 to
-JSFreeOp
+FreeOp
 :
 :
 free_

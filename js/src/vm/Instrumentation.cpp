@@ -278,7 +278,7 @@ RealmInstrumentation
 :
 holderFinalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject

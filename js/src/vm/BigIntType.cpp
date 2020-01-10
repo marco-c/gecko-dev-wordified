@@ -1403,7 +1403,10 @@ BigInt
 :
 finalize
 (
-JSFreeOp
+js
+:
+:
+FreeOp
 *
 fop
 )

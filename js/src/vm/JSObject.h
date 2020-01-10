@@ -3788,7 +3788,10 @@ MOZ_ALWAYS_INLINE
 void
 finalize
 (
-JSFreeOp
+js
+:
+:
+FreeOp
 *
 fop
 )

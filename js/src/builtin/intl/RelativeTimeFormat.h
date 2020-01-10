@@ -161,6 +161,9 @@ namespace
 js
 {
 class
+FreeOp
+;
+class
 RelativeTimeFormatObject
 :
 public
@@ -228,7 +231,7 @@ static
 void
 finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject

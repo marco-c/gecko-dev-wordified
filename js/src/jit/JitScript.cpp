@@ -1315,7 +1315,7 @@ JSScript
 :
 maybeReleaseJitScript
 (
-JSFreeOp
+FreeOp
 *
 fop
 )
@@ -1364,7 +1364,7 @@ JSScript
 :
 releaseJitScript
 (
-JSFreeOp
+FreeOp
 *
 fop
 )

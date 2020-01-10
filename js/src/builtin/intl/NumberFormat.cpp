@@ -1067,7 +1067,7 @@ NumberFormatObject
 :
 finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject

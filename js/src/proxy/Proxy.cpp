@@ -4866,7 +4866,7 @@ static
 void
 proxy_Finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject

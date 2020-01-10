@@ -2802,7 +2802,7 @@ SavedFrame
 :
 finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject

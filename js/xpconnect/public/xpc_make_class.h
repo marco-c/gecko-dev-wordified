@@ -332,7 +332,10 @@ resolvedp
 void
 XPC_WN_Helper_Finalize
 (
-JSFreeOp
+js
+:
+:
+FreeOp
 *
 fop
 JSObject
@@ -343,7 +346,10 @@ obj
 void
 XPC_WN_NoHelper_Finalize
 (
-JSFreeOp
+js
+:
+:
+FreeOp
 *
 fop
 JSObject

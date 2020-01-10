@@ -161,6 +161,9 @@ namespace
 js
 {
 class
+FreeOp
+;
+class
 GlobalObject
 ;
 /
@@ -274,7 +277,7 @@ static
 void
 finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject

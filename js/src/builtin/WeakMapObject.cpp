@@ -1344,7 +1344,7 @@ static
 void
 WeakCollection_finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject

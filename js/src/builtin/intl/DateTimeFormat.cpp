@@ -1108,7 +1108,7 @@ DateTimeFormatObject
 :
 finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject

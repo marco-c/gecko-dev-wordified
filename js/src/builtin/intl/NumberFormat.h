@@ -191,6 +191,9 @@ class
 ArrayObject
 ;
 class
+FreeOp
+;
+class
 NumberFormatObject
 :
 public
@@ -391,7 +394,7 @@ static
 void
 finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject

@@ -237,6 +237,9 @@ struct
 JSAtomState
 ;
 struct
+JSFreeOp
+;
+struct
 JSFunctionSpec
 ;
 namespace
@@ -244,6 +247,9 @@ js
 {
 struct
 Class
+;
+class
+FreeOp
 ;
 class
 Shape
@@ -4215,7 +4221,7 @@ void
 FinalizeOp
 )
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject
@@ -6095,7 +6101,7 @@ js
 :
 :
 ClassOps
-JSFreeOp
+FreeOp
 )
 ;
 const

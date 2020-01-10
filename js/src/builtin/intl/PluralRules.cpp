@@ -772,7 +772,7 @@ PluralRulesObject
 :
 finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject

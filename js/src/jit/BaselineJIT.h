@@ -1756,7 +1756,7 @@ static
 void
 Destroy
 (
-JSFreeOp
+FreeOp
 *
 fop
 BaselineScript
@@ -2572,7 +2572,7 @@ res
 void
 FinishDiscardBaselineScript
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSScript

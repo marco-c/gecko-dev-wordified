@@ -172,6 +172,9 @@ namespace
 js
 {
 class
+FreeOp
+;
+class
 PluralRulesObject
 :
 public
@@ -442,7 +445,7 @@ static
 void
 finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject

@@ -170,6 +170,9 @@ BreakpointSite
 class
 Debugger
 ;
+class
+FreeOp
+;
 /
 /
 DebugScript
@@ -578,7 +581,7 @@ static
 void
 destroyBreakpointSite
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSScript
@@ -593,7 +596,7 @@ static
 void
 clearBreakpointsIn
 (
-JSFreeOp
+FreeOp
 *
 fop
 JS
@@ -614,7 +617,7 @@ static
 void
 clearBreakpointsIn
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSScript
@@ -703,7 +706,7 @@ static
 void
 decrementStepperCount
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSScript
@@ -770,7 +773,7 @@ static
 void
 decrementGeneratorObserverCount
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSScript

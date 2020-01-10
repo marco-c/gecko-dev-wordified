@@ -3445,7 +3445,7 @@ icptr
 void
 destroy
 (
-JSFreeOp
+FreeOp
 *
 fop
 BaseShape
@@ -3456,7 +3456,7 @@ base
 void
 maybePurgeCache
 (
-JSFreeOp
+FreeOp
 *
 fop
 BaseShape
@@ -4379,7 +4379,7 @@ public
 void
 finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 )
@@ -4812,7 +4812,7 @@ nullptr
 void
 maybePurgeCache
 (
-JSFreeOp
+FreeOp
 *
 fop
 )
@@ -8833,7 +8833,7 @@ endif
 void
 sweep
 (
-JSFreeOp
+FreeOp
 *
 fop
 )
@@ -8841,7 +8841,7 @@ fop
 void
 finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 )
@@ -8849,7 +8849,7 @@ fop
 void
 removeChild
 (
-JSFreeOp
+FreeOp
 *
 fop
 Shape

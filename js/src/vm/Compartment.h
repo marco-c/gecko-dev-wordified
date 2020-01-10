@@ -2235,7 +2235,10 @@ invisibleToDebugger
 void
 destroy
 (
-JSFreeOp
+js
+:
+:
+FreeOp
 *
 fop
 )
@@ -2666,7 +2669,10 @@ trc
 void
 sweepRealms
 (
-JSFreeOp
+js
+:
+:
+FreeOp
 *
 fop
 bool

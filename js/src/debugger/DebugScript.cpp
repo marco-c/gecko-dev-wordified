@@ -252,7 +252,7 @@ h
 /
 /
 for
-JSFreeOp
+FreeOp
 #
 include
 "
@@ -417,7 +417,7 @@ h
 /
 /
 for
-JSFreeOp
+FreeOp
 :
 :
 free_
@@ -1075,7 +1075,7 @@ DebugScript
 :
 destroyBreakpointSite
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSScript
@@ -1206,7 +1206,7 @@ DebugScript
 :
 clearBreakpointsIn
 (
-JSFreeOp
+FreeOp
 *
 fop
 Realm
@@ -1297,7 +1297,7 @@ DebugScript
 :
 clearBreakpointsIn
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSScript
@@ -1618,7 +1618,7 @@ DebugScript
 :
 decrementStepperCount
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSScript
@@ -1869,7 +1869,7 @@ DebugScript
 :
 decrementGeneratorObserverCount
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSScript
@@ -1941,7 +1941,7 @@ DebugAPI
 :
 destroyDebugScript
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSScript
@@ -2163,7 +2163,7 @@ DebugAPI
 :
 sweepBreakpointsSlow
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSScript

@@ -2816,7 +2816,7 @@ following
 operations
 on
 the
-JSFreeOp
+FreeOp
 provided
 to
 the
@@ -2824,7 +2824,7 @@ finalizer
 :
 *
 *
-JSFreeOp
+FreeOp
 :
 :
 {

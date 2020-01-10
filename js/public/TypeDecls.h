@@ -236,9 +236,6 @@ class
 JSFunction
 ;
 class
-JSFreeOp
-;
-class
 JSObject
 ;
 struct
@@ -249,6 +246,9 @@ JSScript
 ;
 class
 JSString
+;
+struct
+JSFreeOp
 ;
 namespace
 js

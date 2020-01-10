@@ -1109,7 +1109,10 @@ isSystem
 void
 destroy
 (
-JSFreeOp
+js
+:
+:
+FreeOp
 *
 fop
 )
@@ -1404,7 +1407,10 @@ DiscardJitScripts
 void
 discardJitCode
 (
-JSFreeOp
+js
+:
+:
+FreeOp
 *
 fop
 ShouldDiscardBaselineCode
@@ -2108,7 +2114,10 @@ trc
 void
 sweepBreakpoints
 (
-JSFreeOp
+js
+:
+:
+FreeOp
 *
 fop
 )
@@ -2126,7 +2135,10 @@ sweepWeakMaps
 void
 sweepCompartments
 (
-JSFreeOp
+js
+:
+:
+FreeOp
 *
 fop
 bool

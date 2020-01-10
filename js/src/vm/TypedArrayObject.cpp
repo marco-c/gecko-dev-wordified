@@ -1092,7 +1092,7 @@ TypedArrayObject
 :
 finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject
