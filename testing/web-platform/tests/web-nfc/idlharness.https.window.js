@@ -89,6 +89,9 @@ html
 '
 dom
 '
+'
+WebIDL
+'
 ]
 idl_array
 =
