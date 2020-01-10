@@ -34,7 +34,7 @@ length
 arguments
 .
 const
-buffer
+ab
 =
 new
 ArrayBuffer

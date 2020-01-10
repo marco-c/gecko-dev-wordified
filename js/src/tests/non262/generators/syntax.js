@@ -353,6 +353,12 @@ foo
 }
 assertThrows
 (
+(
+)
+=
+>
+Function
+(
 "
 function
 *
@@ -367,6 +373,7 @@ n
 foo
 }
 "
+)
 SyntaxError
 )
 ;
@@ -395,6 +402,12 @@ LogicalORExpression
 .
 assertThrows
 (
+(
+)
+=
+>
+Function
+(
 "
 function
 *
@@ -409,6 +422,7 @@ yield
 yield
 }
 "
+)
 SyntaxError
 )
 ;
