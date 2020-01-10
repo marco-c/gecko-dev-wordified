@@ -831,6 +831,17 @@ gecko
 .
 util
 .
+PackageUtil
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
 ThreadUtils
 ;
 import
@@ -5116,7 +5127,7 @@ key
 {
 if
 (
-MmaDelegate
+PackageUtil
 .
 isDefaultBrowser
 (
