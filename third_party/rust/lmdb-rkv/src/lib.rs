@@ -78,7 +78,7 @@ rkv
 .
 11
 .
-2
+4
 "
 )
 ]
@@ -91,6 +91,10 @@ crate
 lmdb_rkv_sys
 as
 ffi
+;
+extern
+crate
+byteorder
 ;
 #
 [
@@ -160,8 +164,9 @@ environment
 :
 {
 Environment
-Stat
 EnvironmentBuilder
+Info
+Stat
 }
 ;
 pub
@@ -323,14 +328,7 @@ test
 mod
 test_utils
 {
-extern
-crate
-byteorder
-;
 use
-self
-:
-:
 byteorder
 :
 :
