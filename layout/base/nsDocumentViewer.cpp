@@ -447,7 +447,7 @@ h
 #
 include
 "
-nsIPageSequenceFrame
+nsPageSequenceFrame
 .
 h
 "
@@ -17279,7 +17279,7 @@ aFullZoom
 mOriginalPrintPreviewScale
 )
 ;
-nsIPageSequenceFrame
+nsPageSequenceFrame
 *
 pf
 =
@@ -22167,12 +22167,6 @@ return
 NS_OK
 ;
 }
-/
-/
-Finds
-the
-SimplePageSequencer
-frame
 /
 /
 in

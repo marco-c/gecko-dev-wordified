@@ -787,11 +787,11 @@ aStateFlags
 )
 ;
 class
-nsSimplePageSequenceFrame
+nsPageSequenceFrame
 ;
-nsSimplePageSequenceFrame
+nsPageSequenceFrame
 *
-NS_NewSimplePageSequenceFrame
+NS_NewPageSequenceFrame
 (
 mozilla
 :

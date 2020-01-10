@@ -650,7 +650,7 @@ NotLeaf
 )
 FRAME_ID
 (
-nsSimplePageSequenceFrame
+nsPageSequenceFrame
 Sequence
 NotLeaf
 )
@@ -1118,10 +1118,6 @@ nsIMenuFrame
 ABSTRACT_FRAME_ID
 (
 nsIObjectFrame
-)
-ABSTRACT_FRAME_ID
-(
-nsIPageSequenceFrame
 )
 ABSTRACT_FRAME_ID
 (

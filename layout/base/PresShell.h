@@ -573,7 +573,7 @@ class
 nsINode
 ;
 class
-nsIPageSequenceFrame
+nsPageSequenceFrame
 ;
 class
 nsIReflowCallback
@@ -2552,7 +2552,7 @@ view
 .
 *
 /
-nsIPageSequenceFrame
+nsPageSequenceFrame
 *
 GetPageSequenceFrame
 (

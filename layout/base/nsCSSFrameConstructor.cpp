@@ -830,7 +830,7 @@ h
 #
 include
 "
-nsSimplePageSequenceFrame
+nsPageSequenceFrame
 .
 h
 "
@@ -17878,7 +17878,7 @@ non
 -
 XUL
 ViewportFrame
-nsSimplePageSequenceFrame
+nsPageSequenceFrame
 nsPageFrame
 nsPageContentFrame
 [
@@ -17910,7 +17910,7 @@ non
 XUL
 ViewportFrame
 nsHTMLScrollFrame
-nsSimplePageSequenceFrame
+nsPageSequenceFrame
 nsPageFrame
 nsPageContentFrame
 [
@@ -18014,7 +18014,7 @@ nsRootBoxFrame
 mPageSequenceFrame
 is
 the
-nsSimplePageSequenceFrame
+nsPageSequenceFrame
 or
 null
 if
@@ -18273,15 +18273,13 @@ sequence
 frame
 rootFrame
 =
-NS_NewSimplePageSequenceFrame
+mPageSequenceFrame
+=
+NS_NewPageSequenceFrame
 (
 mPresShell
 viewportPseudoStyle
 )
-;
-mPageSequenceFrame
-=
-rootFrame
 ;
 rootPseudo
 =

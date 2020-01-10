@@ -200,7 +200,7 @@ h
 #
 include
 "
-nsSimplePageSequenceFrame
+nsPageSequenceFrame
 .
 h
 "
