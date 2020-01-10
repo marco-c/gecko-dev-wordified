@@ -3084,15 +3084,6 @@ mEnablePersistentHttpsCaching
 ;
 /
 /
-For
-broadcasting
-tracking
-preference
-bool
-mDoNotTrackEnabled
-;
-/
-/
 for
 broadcasting
 safe

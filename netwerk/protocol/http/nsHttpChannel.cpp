@@ -64366,10 +64366,10 @@ UseTrackingProtection
 )
 |
 |
-nsContentUtils
+StaticPrefs
 :
 :
-DoNotTrackEnabled
+privacy_donottrackheader_enabled
 (
 )
 )
