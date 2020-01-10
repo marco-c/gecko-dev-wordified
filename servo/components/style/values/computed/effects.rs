@@ -295,14 +295,11 @@ filter
 [
 cfg
 (
-not
-(
 feature
 =
 "
-gecko
+servo
 "
-)
 )
 ]
 pub
