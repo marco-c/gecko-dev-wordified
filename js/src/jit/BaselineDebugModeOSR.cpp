@@ -768,6 +768,7 @@ resumePCinCurrentFrame
 (
 )
 ;
+const
 RetAddrEntry
 &
 retAddrEntry
@@ -1973,6 +1974,7 @@ Baseline
 JIT
 code
 .
+const
 RetAddrEntry
 *
 retAddrEntry
