@@ -459,6 +459,16 @@ FontInstanceFlags
 ;
 options
 .
+flags
+|
+=
+wr
+:
+:
+FontInstanceFlags_EMBEDDED_BITMAPS
+;
+options
+.
 bg_color
 =
 wr
