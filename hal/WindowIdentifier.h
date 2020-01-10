@@ -499,7 +499,7 @@ array
 WindowIdentifier
 (
 const
-InfallibleTArray
+nsTArray
 <
 uint64_t
 >
@@ -528,7 +528,7 @@ contain
 *
 /
 typedef
-InfallibleTArray
+nsTArray
 <
 uint64_t
 >

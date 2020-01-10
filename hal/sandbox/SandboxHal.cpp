@@ -1037,7 +1037,7 @@ ipc
 IPCResult
 RecvVibrate
 (
-InfallibleTArray
+nsTArray
 <
 unsigned
 int
@@ -1045,7 +1045,7 @@ int
 &
 &
 pattern
-InfallibleTArray
+nsTArray
 <
 uint64_t
 >
@@ -1135,7 +1135,7 @@ ipc
 IPCResult
 RecvCancelVibrate
 (
-InfallibleTArray
+nsTArray
 <
 uint64_t
 >

@@ -194,7 +194,7 @@ WindowIdentifier
 WindowIdentifier
 (
 const
-InfallibleTArray
+nsTArray
 <
 uint64_t
 >
@@ -260,7 +260,7 @@ mIsEmpty
 {
 }
 const
-InfallibleTArray
+nsTArray
 <
 uint64_t
 >
