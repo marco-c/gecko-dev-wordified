@@ -2293,6 +2293,13 @@ addresses
 void
 AssignLinesToFunctions
 (
+const
+LineToModuleHandler
+:
+:
+FileMap
+&
+files
 )
 ;
 /
