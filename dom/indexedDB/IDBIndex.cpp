@@ -2983,7 +2983,7 @@ llu
 "
 IDBObjectStore
 .
-openKeyCursor
+openCursor
 (
 )
 "
