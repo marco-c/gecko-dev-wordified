@@ -7175,7 +7175,9 @@ if
 pixelFormat
 =
 =
-kCVPixelFormatType_422YpCbCr8
+'
+2vuy
+'
 )
 {
 fragBody

@@ -2814,13 +2814,6 @@ typedef
 gfx
 :
 :
-ColorRange
-ColorRange
-;
-typedef
-gfx
-:
-:
 YUVColorSpace
 YUVColorSpace
 ;
@@ -2931,7 +2924,7 @@ mYUVColorSpace
 YUVColorSpace
 :
 :
-UNKNOWN
+BT601
 ;
 ColorDepth
 mColorDepth
@@ -2940,14 +2933,6 @@ ColorDepth
 :
 :
 COLOR_8
-;
-ColorRange
-mColorRange
-=
-ColorRange
-:
-:
-LIMITED
 ;
 }
 ;

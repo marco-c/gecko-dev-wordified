@@ -2371,11 +2371,6 @@ gfx
 :
 YUVColorSpace
 aYUVColorSpace
-gfx
-:
-:
-ColorRange
-aColorRange
 TextureFlags
 aTextureFlags
 )

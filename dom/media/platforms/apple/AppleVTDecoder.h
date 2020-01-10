@@ -569,13 +569,6 @@ gfx
 YUVColorSpace
 mColorSpace
 ;
-const
-gfx
-:
-:
-ColorRange
-mColorRange
-;
 /
 /
 Method
