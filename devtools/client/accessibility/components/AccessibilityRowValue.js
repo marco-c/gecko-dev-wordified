@@ -255,6 +255,13 @@ PropTypes
 object
 .
 isRequired
+walker
+:
+PropTypes
+.
+object
+.
+isRequired
 }
 ;
 }
@@ -270,6 +277,7 @@ supports
 {
 audit
 }
+walker
 }
 =
 this
@@ -317,6 +325,9 @@ object
 }
 Badges
 (
+{
+walker
+}
 )
 )
 )
