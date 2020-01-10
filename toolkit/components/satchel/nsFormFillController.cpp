@@ -359,7 +359,7 @@ h
 #
 include
 "
-nsILoginManager
+nsILoginAutoCompleteSearch
 .
 h
 "
@@ -532,7 +532,7 @@ NS_IMPL_CYCLE_COLLECTION
 (
 nsFormFillController
 mController
-mLoginManager
+mLoginManagerAC
 mLoginReputationService
 mFocusedPopup
 mDocShells
@@ -1993,10 +1993,10 @@ aInput
 if
 (
 !
-mLoginManager
+mLoginManagerAC
 )
 {
-mLoginManager
+mLoginManagerAC
 =
 do_GetService
 (
@@ -2008,6 +2008,8 @@ org
 login
 -
 manager
+/
+autocompletesearch
 ;
 1
 "
@@ -4003,10 +4005,10 @@ disabled
 if
 (
 !
-mLoginManager
+mLoginManagerAC
 )
 {
-mLoginManager
+mLoginManagerAC
 =
 do_GetService
 (
@@ -4018,6 +4020,8 @@ org
 login
 -
 manager
+/
+autocompletesearch
 ;
 1
 "
@@ -4029,7 +4033,7 @@ if
 NS_WARN_IF
 (
 !
-mLoginManager
+mLoginManagerAC
 )
 )
 {
@@ -4068,10 +4072,10 @@ aListener
 ;
 rv
 =
-mLoginManager
+mLoginManagerAC
 -
 >
-AutoCompleteSearchAsync
+StartSearch
 (
 aSearchString
 aPreviousResult
@@ -4473,10 +4477,10 @@ nullptr
 else
 if
 (
-mLoginManager
+mLoginManagerAC
 )
 {
-mLoginManager
+mLoginManagerAC
 -
 >
 StopSearch
