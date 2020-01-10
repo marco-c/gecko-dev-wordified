@@ -628,7 +628,6 @@ data
 {
 subject
 =
-(
 typeof
 subject
 =
@@ -636,7 +635,6 @@ subject
 "
 undefined
 "
-)
 ?
 null
 :
@@ -648,7 +646,6 @@ subject
 ;
 data
 =
-(
 typeof
 data
 =
@@ -656,7 +653,6 @@ data
 "
 undefined
 "
-)
 ?
 null
 :
@@ -872,16 +868,13 @@ object
 "
 &
 &
-(
 "
 wrappedJSObject
 "
 in
 subject
-)
 &
 &
-(
 "
 observersModuleSubjectWrapper
 "
@@ -890,7 +883,7 @@ subject
 .
 wrappedJSObject
 )
-)
+{
 subject
 =
 subject
@@ -899,6 +892,7 @@ wrappedJSObject
 .
 object
 ;
+}
 if
 (
 typeof
@@ -918,6 +912,7 @@ this
 .
 thisObject
 )
+{
 this
 .
 callback
@@ -931,7 +926,9 @@ subject
 data
 )
 ;
+}
 else
+{
 this
 .
 callback
@@ -940,6 +937,7 @@ subject
 data
 )
 ;
+}
 }
 else
 {

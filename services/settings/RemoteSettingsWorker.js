@@ -338,7 +338,6 @@ i
 allRecords
 .
 length
-;
 /
 *
 no
@@ -346,6 +345,7 @@ increment
 !
 *
 /
+;
 )
 {
 const
@@ -799,9 +799,7 @@ self
 .
 onmessage
 =
-(
 event
-)
 =
 >
 {
@@ -832,9 +830,7 @@ args
 .
 then
 (
-(
 result
-)
 =
 >
 {

@@ -2240,9 +2240,7 @@ const
 traverse
 =
 async
-(
 node
-)
 =
 >
 {
@@ -2441,9 +2439,7 @@ yieldingForEach
 (
 records
 async
-(
 record
-)
 =
 >
 {
@@ -2942,9 +2938,7 @@ this
 .
 serverRecords
 async
-(
 record
-)
 =
 >
 {
@@ -4006,9 +4000,7 @@ this
 .
 folders
 async
-(
 folder
-)
 =
 >
 {
@@ -4667,6 +4659,7 @@ canValidate
 {
 return
 !
+(
 await
 PlacesSyncUtils
 .
@@ -4674,6 +4667,7 @@ bookmarks
 .
 havePendingChanges
 (
+)
 )
 ;
 }
@@ -5433,9 +5427,7 @@ treeNode
 .
 children
 async
-(
 child
-)
 =
 >
 {
@@ -7116,9 +7108,7 @@ result
 .
 records
 async
-(
 record
-)
 =
 >
 {

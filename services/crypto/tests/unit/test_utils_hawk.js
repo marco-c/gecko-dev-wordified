@@ -789,7 +789,6 @@ fields
 ]
 .
 length
-(
 '
 nonce
 =
@@ -798,7 +797,6 @@ nonce
 =
 "
 '
-)
 .
 length
 )
@@ -814,12 +812,10 @@ artifacts
 nonce
 .
 length
-(
 "
 12345678901
 =
 "
-)
 .
 length
 )
@@ -2057,17 +2053,16 @@ Ygvqdz
 "
 ext
 :
-"
+'
 backslash
 =
 \
 \
 quote
 =
-\
 "
 EOF
-"
+'
 }
 )
 ;
@@ -2125,7 +2120,6 @@ backslash
 \
 quote
 =
-\
 \
 \
 "

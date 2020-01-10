@@ -537,11 +537,9 @@ Assert
 equal
 (
 typeof
-(
 rec
 .
 payload
-)
 "
 object
 "
@@ -624,11 +622,9 @@ Assert
 equal
 (
 typeof
-(
 rec2
 .
 payload
-)
 "
 object
 "

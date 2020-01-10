@@ -1071,6 +1071,7 @@ val
 )
 {
 return
+(
 accountServer
 .
 asciiHost
@@ -1090,6 +1091,7 @@ endsWith
 "
 +
 val
+)
 )
 ;
 }
@@ -2072,6 +2074,7 @@ acctName
 )
 {
 return
+(
 !
 this
 .
@@ -2086,6 +2089,7 @@ this
 _promptForRelink
 (
 acctName
+)
 )
 ;
 }
@@ -2881,6 +2885,7 @@ service
 )
 ;
 return
+(
 !
 this
 .
@@ -2900,6 +2905,7 @@ sync
 |
 |
 isPairing
+)
 ;
 }
 /
@@ -3785,7 +3791,6 @@ prompt
 let
 buttonFlags
 =
-(
 ps
 .
 BUTTON_POS_0
@@ -3793,9 +3798,7 @@ BUTTON_POS_0
 ps
 .
 BUTTON_TITLE_IS_STRING
-)
 +
-(
 ps
 .
 BUTTON_POS_1
@@ -3803,7 +3806,6 @@ BUTTON_POS_1
 ps
 .
 BUTTON_TITLE_CANCEL
-)
 +
 ps
 .

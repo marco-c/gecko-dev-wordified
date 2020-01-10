@@ -209,10 +209,10 @@ Trace
 )
 ;
 }
-)
 .
 call
 (
 this
+)
 )
 ;

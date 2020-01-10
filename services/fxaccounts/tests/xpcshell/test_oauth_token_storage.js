@@ -371,12 +371,10 @@ resolve
 uid
 &
 &
-(
 !
 this
 .
 _deletedOnServer
-)
 )
 ;
 }
@@ -568,9 +566,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

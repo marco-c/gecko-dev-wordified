@@ -1135,6 +1135,7 @@ Assert
 ok
 (
 !
+(
 await
 OS
 .
@@ -1145,12 +1146,14 @@ exists
 localFilePath
 )
 )
+)
 ;
 Assert
 .
 ok
 (
 !
+(
 await
 OS
 .
@@ -1161,6 +1164,7 @@ exists
 downloader
 .
 baseFolder
+)
 )
 )
 ;

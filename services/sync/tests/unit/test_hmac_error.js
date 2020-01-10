@@ -1002,7 +1002,6 @@ if
 should401
 &
 &
-(
 request
 .
 method
@@ -1011,7 +1010,6 @@ method
 "
 DELETE
 "
-)
 )
 {
 on401
@@ -1025,14 +1023,12 @@ false
 let
 body
 =
-"
-\
+'
 "
 reassigned
 !
-\
 "
-"
+'
 ;
 response
 .

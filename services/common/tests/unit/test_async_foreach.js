@@ -447,9 +447,7 @@ makeArray
 DEFAULT_YIELD_EVERY
 )
 async
-(
 element
-)
 =
 >
 {

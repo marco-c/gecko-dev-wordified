@@ -314,9 +314,7 @@ adapter
 .
 execute
 (
-(
 transaction
-)
 =
 >
 transaction
@@ -431,9 +429,7 @@ adapter
 .
 execute
 (
-(
 transaction
-)
 =
 >
 transaction
@@ -477,9 +473,7 @@ adapter
 .
 execute
 (
-(
 transaction
-)
 =
 >
 transaction
@@ -733,9 +727,7 @@ adapter
 .
 execute
 (
-(
 transaction
-)
 =
 >
 transaction
@@ -751,9 +743,7 @@ adapter
 .
 execute
 (
-(
 transaction
-)
 =
 >
 transaction
@@ -888,9 +878,7 @@ adapter
 .
 execute
 (
-(
 transaction
-)
 =
 >
 transaction
@@ -992,9 +980,7 @@ adapter
 .
 execute
 (
-(
 transaction
-)
 =
 >
 {

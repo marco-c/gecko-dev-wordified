@@ -1015,6 +1015,7 @@ enabled
 )
 {
 return
+(
 !
 !
 syncUsername
@@ -1033,6 +1034,7 @@ fxaccounts
 .
 enabled
 "
+)
 )
 ;
 }

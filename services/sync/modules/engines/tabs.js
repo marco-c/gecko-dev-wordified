@@ -677,7 +677,6 @@ ID
 .
 if
 (
-(
 await
 this
 .
@@ -688,7 +687,6 @@ itemExists
 item
 .
 id
-)
 )
 )
 {
@@ -959,16 +957,12 @@ acceptable
 !
 filter
 ?
-(
 url
-)
 =
 >
 url
 :
-(
 url
-)
 =
 >
 url
@@ -1123,14 +1117,12 @@ here
 let
 candidates
 =
-(
 entries
 .
 length
 =
 =
 index
-)
 ?
 entries
 :
@@ -1149,9 +1141,7 @@ candidates
 .
 map
 (
-(
 entry
-)
 =
 >
 entry
@@ -2369,6 +2359,7 @@ random
 (
 )
 <
+0
 .
 1
 )
@@ -2425,7 +2416,6 @@ isTopLevel
 &
 &
 (
-(
 flags
 &
 Ci
@@ -2437,7 +2427,6 @@ LOCATION_CHANGE_SAME_DOCUMENT
 =
 =
 0
-)
 )
 {
 this

@@ -2750,9 +2750,11 @@ estimation
 const
 maxSerializedSize
 =
+(
 payloadSizeMaxBytes
 /
 4
+)
 *
 3
 -
@@ -2866,11 +2868,13 @@ Math
 .
 ceil
 (
+(
 records
 .
 length
 *
 maxSerializedSize
+)
 /
 size
 )
@@ -3497,6 +3501,7 @@ i
 )
 {
 return
+(
 pp
 .
 slice
@@ -3527,6 +3532,7 @@ slice
 (
 18
 23
+)
 )
 ;
 }
@@ -3576,6 +3582,7 @@ i
 )
 {
 return
+(
 pp
 .
 slice
@@ -3622,6 +3629,7 @@ slice
 (
 26
 31
+)
 )
 ;
 }

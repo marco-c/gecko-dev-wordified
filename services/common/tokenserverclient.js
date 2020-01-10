@@ -2687,11 +2687,9 @@ else
 if
 (
 typeof
-(
 result
 .
 urls
-)
 !
 =
 "

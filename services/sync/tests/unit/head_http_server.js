@@ -375,6 +375,7 @@ req
 )
 {
 return
+(
 req
 .
 hasHeader
@@ -399,6 +400,7 @@ startsWith
 "
 Hawk
 "
+)
 )
 ;
 }
@@ -1848,6 +1850,7 @@ modified
 )
 ;
 return
+(
 this
 .
 _wbos
@@ -1858,6 +1861,7 @@ id
 ]
 =
 wbo
+)
 ;
 }
 /
@@ -2279,6 +2283,7 @@ options
 )
 {
 return
+(
 wbo
 .
 payload
@@ -2291,7 +2296,6 @@ options
 ids
 |
 |
-(
 options
 .
 ids
@@ -2303,7 +2307,6 @@ wbo
 id
 )
 )
-)
 &
 &
 (
@@ -2313,7 +2316,6 @@ options
 newer
 |
 |
-(
 wbo
 .
 modified
@@ -2321,7 +2323,6 @@ modified
 options
 .
 newer
-)
 )
 &
 &
@@ -2332,7 +2333,6 @@ options
 older
 |
 |
-(
 wbo
 .
 modified
@@ -3824,14 +3824,12 @@ self
 .
 timestamp
 =
-(
 response
 .
 newModified
 >
 =
 0
-)
 ?
 response
 .
@@ -3923,7 +3921,6 @@ global
 "
 ]
 =
-(
 new
 ServerWBO
 (
@@ -3932,7 +3929,6 @@ global
 "
 {
 }
-)
 )
 .
 handler
@@ -4311,25 +4307,11 @@ length
 }
 return
 {
-"
 collections
-"
-:
-collections
-"
 handler
-"
 :
 info_collections
-"
 with_updated_collection
-"
-:
-with_updated_collection
-"
-update_collection
-"
-:
 update_collection
 }
 ;
@@ -7140,9 +7122,7 @@ components
 toplevelHandlers
 :
 {
-"
 storage
-"
 :
 function
 handleStorage
@@ -7243,9 +7223,7 @@ Allowed
 ]
 "
 {
-"
 Allow
-"
 :
 "
 DELETE
@@ -8445,9 +8423,7 @@ implemented
 ;
 }
 }
-"
 info
-"
 :
 function
 handleInfo

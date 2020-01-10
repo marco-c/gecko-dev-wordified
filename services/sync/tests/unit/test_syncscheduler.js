@@ -368,14 +368,12 @@ upd
 "
 crypto
 "
-(
 new
 ServerWBO
 (
 "
 keys
 "
-)
 )
 .
 handler
@@ -620,9 +618,7 @@ clientsEngine
 _removeRemoteClient
 =
 async
-(
 id
-)
 =
 >
 {
@@ -3314,7 +3310,6 @@ scheduler
 nextSync
 <
 =
-(
 Date
 .
 now
@@ -3322,7 +3317,6 @@ now
 )
 +
 maxInterval
-)
 )
 ;
 Assert
@@ -5973,7 +5967,6 @@ scheduler
 nextSync
 <
 =
-(
 Date
 .
 now
@@ -5981,7 +5974,6 @@ now
 )
 +
 maxInterval
-)
 )
 ;
 Assert
@@ -6404,7 +6396,6 @@ scheduler
 nextSync
 <
 =
-(
 Date
 .
 now
@@ -6414,7 +6405,6 @@ now
 scheduler
 .
 activeInterval
-)
 )
 ;
 Assert

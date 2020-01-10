@@ -215,9 +215,7 @@ set
 (
 extension
 {
-"
 a
-"
 :
 "
 b

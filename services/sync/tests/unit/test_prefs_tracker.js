@@ -322,13 +322,11 @@ IDs
 ;
 do_check_empty
 (
-(
 await
 engine
 .
 getChangedIDs
 (
-)
 )
 )
 ;

@@ -1198,6 +1198,7 @@ lastCheckTimePref
 )
 {
 return
+(
 this
 .
 _lastCheckTimePref
@@ -1220,6 +1221,7 @@ collectionName
 }
 .
 last_check
+)
 ;
 }
 httpClient
@@ -4120,6 +4122,7 @@ timestamp
 if
 (
 !
+(
 await
 this
 .
@@ -4138,6 +4141,7 @@ certChain
 this
 .
 signerName
+)
 )
 )
 {

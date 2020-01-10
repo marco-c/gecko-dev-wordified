@@ -2108,12 +2108,10 @@ break
 }
 if
 (
-(
 numClients
 <
 =
 1
-)
 &
 &
 !

@@ -753,6 +753,7 @@ json
 )
 {
 return
+(
 typeof
 json
 =
@@ -763,6 +764,7 @@ object
 &
 &
 json
+)
 |
 |
 {
@@ -2085,9 +2087,7 @@ yieldingForEach
 (
 records
 async
-(
 record
-)
 =
 >
 {
@@ -3706,9 +3706,7 @@ getAll
 .
 filter
 (
-(
 engine
-)
 =
 >
 engine
@@ -8062,9 +8060,7 @@ yieldingForEach
 (
 records
 async
-(
 record
-)
 =
 >
 {
@@ -8773,9 +8769,7 @@ yieldingForEach
 (
 records
 async
-(
 record
-)
 =
 >
 {
@@ -10368,7 +10362,6 @@ localAge
 =
 locallyModified
 ?
-(
 Date
 .
 now
@@ -10386,7 +10379,6 @@ getModifiedTimestamp
 item
 .
 id
-)
 )
 :
 null
@@ -13636,7 +13628,6 @@ noisily
 .
 return
 (
-(
 await
 this
 .
@@ -13649,7 +13640,6 @@ handleHMACEvent
 &
 &
 mayRetry
-)
 ?
 SyncEngine
 .

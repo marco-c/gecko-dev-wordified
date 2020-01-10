@@ -714,6 +714,7 @@ newOutputStream
 let
 ss
 =
+(
 this
 .
 _ss
@@ -736,6 +737,7 @@ createInstance
 Ci
 .
 nsIStorageStream
+)
 )
 ;
 ss
@@ -2030,6 +2032,7 @@ behaviour
 let
 fapp
 =
+(
 this
 .
 _fileAppender
@@ -2038,6 +2041,7 @@ new
 FlushableStorageAppender
 (
 formatter
+)
 )
 ;
 /
@@ -3045,9 +3049,7 @@ iterator
 forEach
 (
 async
-(
 entry
-)
 =
 >
 {

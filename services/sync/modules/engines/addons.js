@@ -3434,14 +3434,12 @@ id
 ;
 if
 (
-(
 await
 this
 .
 isAddonSyncable
 (
 addon
-)
 )
 )
 {
@@ -5545,6 +5543,7 @@ item
 )
 {
 return
+(
 !
 item
 .
@@ -5612,6 +5611,7 @@ item
 .
 original
 true
+)
 )
 ;
 }

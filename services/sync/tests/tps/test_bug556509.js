@@ -86,16 +86,12 @@ var
 phases
 =
 {
-"
 phase1
-"
 :
 "
 profile1
 "
-"
 phase2
-"
 :
 "
 profile2
@@ -118,9 +114,7 @@ var
 bookmarks_initial
 =
 {
-"
 menu
-"
 :
 [
 {

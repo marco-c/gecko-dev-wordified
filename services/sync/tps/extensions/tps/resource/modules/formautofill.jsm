@@ -255,11 +255,9 @@ props
 field
 ]
 =
-(
 field
 in
 props
-)
 ?
 props
 [
@@ -692,6 +690,7 @@ async
 entry
 =
 >
+(
 entry
 [
 "
@@ -716,6 +715,7 @@ number
 encrypted
 "
 ]
+)
 )
 )
 )

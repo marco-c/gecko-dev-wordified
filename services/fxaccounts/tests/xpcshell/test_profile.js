@@ -410,9 +410,7 @@ fxa
 .
 setProfileCache
 =
-(
 data
-)
 =
 >
 {

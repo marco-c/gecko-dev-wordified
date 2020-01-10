@@ -768,6 +768,7 @@ toString
 )
 {
 return
+(
 "
 {
 "
@@ -837,6 +838,7 @@ payload
 "
 }
 "
+)
 ;
 }
 }
@@ -1280,11 +1282,9 @@ if
 json_result
 &
 &
-(
 json_result
 instanceof
 Object
-)
 )
 {
 this
@@ -1423,6 +1423,7 @@ cleartextToString
 )
 ;
 return
+(
 "
 {
 "
@@ -1504,6 +1505,7 @@ undefined
 "
 }
 "
+)
 ;
 }
 /
@@ -1585,6 +1587,7 @@ val
 )
 ;
 return
+(
 this
 .
 cleartext
@@ -1592,6 +1595,7 @@ cleartext
 id
 =
 val
+)
 ;
 }
 }
@@ -1947,6 +1951,7 @@ spec
 url
 ;
 return
+(
 this
 .
 _records
@@ -1955,6 +1960,7 @@ spec
 ]
 =
 record
+)
 ;
 }
 contains
@@ -2382,12 +2388,10 @@ filter
 x
 =
 >
-(
 x
 !
 =
 last
-)
 &
 &
 (
@@ -2584,9 +2588,7 @@ wbo
 cleartext
 =
 {
-"
 default
-"
 :
 defaultBundle
 ?
@@ -2595,19 +2597,13 @@ defaultBundle
 keyPairB64
 :
 null
-"
 collections
-"
 :
 c
-"
 collection
-"
 :
 CRYPTO_COLLECTION
-"
 id
-"
 :
 KEYS_WBO
 }
@@ -3203,7 +3199,6 @@ is
 stale
 .
 return
-(
 info_collections
 [
 CRYPTO_COLLECTION
@@ -3212,7 +3207,6 @@ CRYPTO_COLLECTION
 this
 .
 lastModified
-)
 ;
 }
 /
@@ -3572,7 +3566,6 @@ keys
 let
 sameDefault
 =
-(
 this
 .
 _default
@@ -3585,7 +3578,6 @@ _default
 equals
 (
 newDefault
-)
 )
 ;
 let
@@ -4374,13 +4366,11 @@ mutate
 .
 setQuery
 (
-(
 args
 .
 length
 >
 0
-)
 ?
 "
 ?
@@ -6145,6 +6135,7 @@ issues
 )
 .
 return
+(
 this
 .
 curRecords
@@ -6166,6 +6157,7 @@ payloadSize
 this
 .
 maxBytes
+)
 ;
 }
 canNeverAdd

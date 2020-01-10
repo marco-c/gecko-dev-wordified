@@ -307,9 +307,7 @@ equal
 object
 "
 typeof
-(
 result
-)
 )
 ;
 do_check_attribute_count

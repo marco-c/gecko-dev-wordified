@@ -1625,9 +1625,7 @@ helpers
 .
 _promptForRelink
 =
-(
 acctName
-)
 =
 >
 {
@@ -3542,9 +3540,7 @@ helpers
 .
 isPrivateBrowsingMode
 =
-(
 sendingContext
-)
 =
 >
 {
@@ -3631,9 +3627,7 @@ helpers
 .
 isPrivateBrowsingMode
 =
-(
 sendingContext
-)
 =
 >
 {
@@ -3720,9 +3714,7 @@ helpers
 .
 isPrivateBrowsingMode
 =
-(
 sendingContext
-)
 =
 >
 {
@@ -3808,9 +3800,7 @@ helpers
 .
 isPrivateBrowsingMode
 =
-(
 sendingContext
-)
 =
 >
 {
@@ -3897,9 +3887,7 @@ helpers
 .
 isPrivateBrowsingMode
 =
-(
 sendingContext
-)
 =
 >
 {
@@ -3987,9 +3975,7 @@ helpers
 .
 isPrivateBrowsingMode
 =
-(
 sendingContext
-)
 =
 >
 {
@@ -4076,9 +4062,7 @@ helpers
 .
 isPrivateBrowsingMode
 =
-(
 sendingContext
-)
 =
 >
 {

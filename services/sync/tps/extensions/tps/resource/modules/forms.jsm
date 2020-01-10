@@ -886,7 +886,6 @@ this
 .
 usSinceEpoch
 +
-(
 hours
 *
 60
@@ -896,7 +895,6 @@ hours
 1000
 *
 1000
-)
 ;
 }
 /

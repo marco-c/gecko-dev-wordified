@@ -1902,14 +1902,12 @@ extra
 let
 ts
 =
-(
 extra
 &
 &
 extra
 .
 ts
-)
 ?
 extra
 .
@@ -1931,7 +1929,6 @@ now
 let
 nonce_bytes
 =
-(
 extra
 &
 &
@@ -1940,7 +1937,6 @@ extra
 nonce_bytes
 >
 0
-)
 ?
 extra
 .
@@ -1967,14 +1963,12 @@ want
 let
 nonce
 =
-(
 extra
 &
 &
 extra
 .
 nonce
-)
 ?
 extra
 .
@@ -2089,14 +2083,12 @@ scheme
 let
 ext
 =
-(
 extra
 &
 &
 extra
 .
 ext
-)
 ?
 extra
 .
@@ -2399,6 +2391,7 @@ header
 ;
 }
 return
+(
 header
 +
 =
@@ -2413,6 +2406,7 @@ ext
 '
 "
 '
+)
 ;
 }
 /
@@ -2462,12 +2456,10 @@ value
 substring
 (
 0
-(
 i
 >
 =
 0
-)
 ?
 i
 :
@@ -3330,7 +3322,6 @@ g
 let
 requestString
 =
-(
 "
 hawk
 .
@@ -3414,7 +3405,6 @@ hash
 \
 n
 "
-)
 ;
 if
 (
@@ -3570,7 +3560,6 @@ g
 let
 header
 =
-(
 '
 Hawk
 id
@@ -3619,7 +3608,6 @@ artifacts
 .
 hash
 ?
-(
 '
 hash
 =
@@ -3633,7 +3621,6 @@ hash
 '
 "
 '
-)
 :
 "
 "
@@ -3644,7 +3631,6 @@ artifacts
 .
 ext
 ?
-(
 '
 ext
 =
@@ -3661,7 +3647,6 @@ ext
 '
 "
 '
-)
 :
 "
 "
@@ -3680,7 +3665,6 @@ mac
 '
 "
 '
-)
 ;
 return
 {

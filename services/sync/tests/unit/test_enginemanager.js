@@ -212,7 +212,6 @@ Assert
 .
 equal
 (
-(
 await
 manager
 .
@@ -221,7 +220,6 @@ get
 "
 dummy
 "
-)
 )
 undefined
 )
@@ -320,7 +318,6 @@ Assert
 .
 equal
 (
-(
 await
 manager
 .
@@ -329,7 +326,6 @@ get
 "
 dummy
 "
-)
 )
 dummy
 )
@@ -737,7 +733,6 @@ Assert
 .
 equal
 (
-(
 await
 manager
 .
@@ -746,7 +741,6 @@ get
 "
 dummy
 "
-)
 )
 undefined
 )
@@ -864,7 +858,6 @@ Assert
 .
 equal
 (
-(
 await
 manager
 .
@@ -873,7 +866,6 @@ get
 "
 actual
 "
-)
 )
 undefined
 )

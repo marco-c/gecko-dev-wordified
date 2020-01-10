@@ -168,9 +168,7 @@ return
 serverForUsers
 (
 {
-"
 foo
-"
 :
 "
 password

@@ -320,10 +320,10 @@ bundle
 )
 {
 return
+(
 bundle
 &
 &
-(
 bundle
 .
 hmacKey
@@ -332,10 +332,8 @@ hmacKey
 this
 .
 hmacKey
-)
 &
 &
-(
 bundle
 .
 encryptionKey

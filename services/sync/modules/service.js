@@ -1014,10 +1014,8 @@ string
 got
 "
 +
-(
 typeof
 value
-)
 )
 ;
 }
@@ -1734,13 +1732,11 @@ record
 .
 if
 (
-(
 now
 -
 this
 .
 lastHMACEvent
-)
 <
 HMAC_EVENT_INTERVAL
 )
@@ -2778,6 +2774,7 @@ enabled
 )
 {
 return
+(
 this
 .
 status
@@ -2785,6 +2782,7 @@ status
 service
 =
 STATUS_DISABLED
+)
 ;
 }
 return
@@ -4437,11 +4435,9 @@ if
 infoCollections
 &
 &
-(
 CRYPTO_COLLECTION
 in
 infoCollections
-)
 )
 {
 try
@@ -5484,14 +5480,12 @@ correct
 .
 if
 (
-(
 await
 this
 .
 _remoteSetup
 (
 test
-)
 )
 )
 {
@@ -7379,7 +7373,6 @@ if
 infoResponse
 &
 &
-(
 infoResponse
 .
 obj
@@ -7390,7 +7383,6 @@ meta
 this
 .
 metaModified
-)
 &
 &
 (
@@ -7787,7 +7779,6 @@ meta
 let
 remoteVersion
 =
-(
 meta
 &
 &
@@ -7796,7 +7787,6 @@ meta
 payload
 .
 storageVersion
-)
 ?
 meta
 .
@@ -8485,6 +8475,7 @@ _shouldLogin
 )
 {
 return
+(
 this
 .
 enabled
@@ -8508,6 +8499,7 @@ Async
 .
 isAppReady
 (
+)
 )
 ;
 }
@@ -8664,7 +8656,6 @@ kSyncBackoffNotMet
 else
 if
 (
-(
 this
 .
 status
@@ -8673,7 +8664,6 @@ login
 =
 =
 MASTER_PASSWORD_LOCKED
-)
 &
 &
 Utils
@@ -10430,13 +10420,11 @@ engines
 {
 if
 (
-(
 await
 engine
 .
 canDecrypt
 (
-)
 )
 )
 {
