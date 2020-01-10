@@ -6027,6 +6027,7 @@ exclude
         
 all_checkers
 third_party_path
+generated_path
 =
 self
 .
@@ -6051,6 +6052,10 @@ all_checkers
 third_party_path
 =
 third_party_path
+            
+generated_path
+=
+generated_path
         
 )
         
@@ -6623,6 +6628,23 @@ third_party
 '
 ]
 )
+                
+generated_path
+=
+mozpath
+.
+join
+(
+self
+.
+topsrcdir
+config
+[
+'
+generated
+'
+]
+)
             
 except
 Exception
@@ -6669,13 +6691,15 @@ infer
 return
 checkers
 tp_path
+generated_path
     
 def
 _get_infer_args
 (
 self
 checks
-third_party_path
+*
+input_paths
 )
 :
         
@@ -6741,21 +6765,27 @@ append
 checker
 )
         
+for
+path
+in
+input_paths
+:
+            
 with
 open
 (
-third_party_path
+path
 )
 as
 f
 :
-            
+                
 for
 line
 in
 f
 :
-                
+                    
 excludes
 .
 append
@@ -6772,7 +6802,7 @@ in
 path
 '
 )
-                
+                    
 excludes
 .
 append
