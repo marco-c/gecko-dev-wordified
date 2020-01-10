@@ -4403,6 +4403,8 @@ aStatus
 )
 )
 {
+if
+(
 Document
 *
 doc
@@ -4413,10 +4415,6 @@ mLoader
 GetDocument
 (
 )
-;
-if
-(
-doc
 )
 {
 for
