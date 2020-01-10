@@ -11415,7 +11415,6 @@ RootedScriptSourceObject
 sourceObject
 (
 cx
-&
 lazy
 -
 >
