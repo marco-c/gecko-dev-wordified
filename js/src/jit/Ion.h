@@ -1419,17 +1419,6 @@ MallocSizeOf
 mallocSizeOf
 )
 ;
-void
-DestroyJitScripts
-(
-JSFreeOp
-*
-fop
-JSScript
-*
-script
-)
-;
 bool
 JitSupportsSimd
 (
