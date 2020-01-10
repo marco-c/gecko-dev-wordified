@@ -4377,6 +4377,8 @@ end
 #
 if
 JS_COLUMN_DIMENSION_IS_CODE_POINTS
+(
+)
 return
 unicode
 :
@@ -4398,6 +4400,11 @@ end
 ;
 #
 endif
+/
+/
+JS_COLUMN_DIMENSION_IS_CODE_POINTS
+(
+)
 }
 template
 <
