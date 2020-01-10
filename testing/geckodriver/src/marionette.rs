@@ -1370,7 +1370,7 @@ insert
 name
 )
 .
-clone
+to_string
 (
 )
 (
@@ -7828,8 +7828,6 @@ process
 disappears
 if
 let
-&
-mut
 Some
 (
 ref
@@ -7837,6 +7835,7 @@ mut
 runner
 )
 =
+*
 browser
 {
 let
