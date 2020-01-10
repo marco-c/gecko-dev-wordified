@@ -27732,7 +27732,7 @@ InvisibleKeysOk
 >
 :
 :
-findZoneEdges
+findSweepGroupEdges
 (
 )
 {
