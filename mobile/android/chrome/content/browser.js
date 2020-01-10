@@ -39557,6 +39557,8 @@ buildconfig
 |
 cache
 |
+compat
+|
 config
 |
 crashes
