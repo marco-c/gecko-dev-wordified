@@ -250,7 +250,6 @@ select
 import
 type
 {
-JsSource
 Source
 SourceContent
 SourceActor
@@ -499,7 +498,7 @@ url
 const
 prettySource
 :
-JsSource
+Source
 =
 {
 id

@@ -90,7 +90,6 @@ index
 import
 type
 {
-JsSource
 Source
 SourceWithContent
 }
@@ -462,7 +461,7 @@ overrides
 const
 source
 :
-JsSource
+Source
 =
 (
 {

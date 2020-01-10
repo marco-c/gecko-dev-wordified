@@ -121,8 +121,6 @@ Expression
 Frame
 FrameId
 Scope
-JsSource
-WasmSource
 Source
 SourceId
 SourceWithContentAndType
@@ -171,7 +169,7 @@ source
 "
 )
 :
-JsSource
+Source
 {
 return
 {
@@ -341,7 +339,7 @@ makeMockWasmSource
 (
 )
 :
-WasmSource
+Source
 {
 return
 {
