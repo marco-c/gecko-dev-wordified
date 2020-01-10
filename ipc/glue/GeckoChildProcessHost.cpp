@@ -6367,6 +6367,18 @@ fds_to_remap
 process
 )
 ;
+if
+(
+process
+=
+=
+0
+)
+{
+return
+false
+;
+}
 #
 else
 /
@@ -8544,7 +8556,7 @@ defined
 (
 OS_POSIX
 )
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 process
 )
