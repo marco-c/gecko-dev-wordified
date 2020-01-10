@@ -2888,6 +2888,9 @@ app
 in
 [
 "
+fennec
+"
+"
 geckoview
 "
 "
