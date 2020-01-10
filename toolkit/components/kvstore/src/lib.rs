@@ -72,6 +72,14 @@ extern
 crate
 failure
 ;
+#
+[
+macro_use
+]
+extern
+crate
+lazy_static
+;
 extern
 crate
 libc
@@ -114,6 +122,9 @@ xpcom
 ;
 mod
 error
+;
+mod
+manager
 ;
 mod
 owned_value

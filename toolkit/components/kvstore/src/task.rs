@@ -107,7 +107,6 @@ rkv
 :
 :
 {
-Manager
 OwnedValue
 Rkv
 SingleStore
@@ -169,6 +168,12 @@ KeyValueEnumerator
 ;
 use
 KeyValuePairResult
+;
+use
+manager
+:
+:
+Manager
 ;
 /
 /
