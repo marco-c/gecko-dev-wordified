@@ -195,6 +195,15 @@ h
 #
 include
 "
+ds
+/
+Bitmap
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmTypes
@@ -1004,6 +1013,9 @@ elemSegments
 ;
 MaybeSectionRange
 codeSection
+;
+SparseBitmap
+validForRefFunc
 ;
 /
 /
