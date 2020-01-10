@@ -330,9 +330,7 @@ getChromeWindow
 aWindow
 )
 {
-let
-chromeWin
-=
+return
 aWindow
 .
 docShell
@@ -340,16 +338,6 @@ docShell
 rootTreeItem
 .
 domWindow
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMChromeWindow
-)
-;
-return
-chromeWin
 ;
 }
 getChromeForRequest

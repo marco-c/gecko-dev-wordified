@@ -249,13 +249,6 @@ docShell
 rootTreeItem
 .
 domWindow
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMChromeWindow
-)
 ;
 }
 )
