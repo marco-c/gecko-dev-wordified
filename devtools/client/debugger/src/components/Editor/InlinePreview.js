@@ -155,16 +155,6 @@ info
 from
 parent
 comp
-console
-.
-log
-(
-show
-{
-variable
-}
-)
-;
 }
 render
 (
