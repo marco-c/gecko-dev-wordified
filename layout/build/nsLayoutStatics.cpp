@@ -880,7 +880,7 @@ mozilla
 /
 dom
 /
-WebIDLGlobalNameHash
+IPCBlobInputStreamStorage
 .
 h
 "
@@ -891,9 +891,7 @@ mozilla
 /
 dom
 /
-ipc
-/
-IPCBlobInputStreamStorage
+WebIDLGlobalNameHash
 .
 h
 "
