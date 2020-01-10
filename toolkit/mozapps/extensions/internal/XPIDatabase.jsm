@@ -8440,7 +8440,7 @@ if
 inputAddons
 .
 schemaVersion
-=
+<
 =
 27
 )
