@@ -6993,6 +6993,11 @@ aColorSpace
 wr
 :
 :
+WrColorRange
+aColorRange
+wr
+:
+:
 ImageRendering
 aRendering
 )
@@ -7013,6 +7018,7 @@ aImageChannel1
 aImageChannel2
 aColorDepth
 aColorSpace
+aColorRange
 aRendering
 )
 ;
@@ -7062,6 +7068,11 @@ aColorSpace
 wr
 :
 :
+WrColorRange
+aColorRange
+wr
+:
+:
 ImageRendering
 aRendering
 )
@@ -7081,6 +7092,7 @@ aImageChannel0
 aImageChannel1
 aColorDepth
 aColorSpace
+aColorRange
 aRendering
 )
 ;
@@ -7125,6 +7137,11 @@ aColorSpace
 wr
 :
 :
+WrColorRange
+aColorRange
+wr
+:
+:
 ImageRendering
 aRendering
 )
@@ -7143,6 +7160,7 @@ mCurrentSpaceAndClipChain
 aImageChannel0
 aColorDepth
 aColorSpace
+aColorRange
 aRendering
 )
 ;

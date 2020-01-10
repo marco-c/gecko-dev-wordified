@@ -72,6 +72,7 @@ ImageRendering
 PremultipliedColorF
 Shadow
 YuvColorSpace
+ColorRange
 YuvFormat
 }
 ;
@@ -2248,6 +2249,10 @@ color_space
 :
 YuvColorSpace
 pub
+color_range
+:
+ColorRange
+pub
 image_rendering
 :
 ImageRendering
@@ -2371,6 +2376,10 @@ color_space
 :
 YuvColorSpace
 pub
+color_range
+:
+ColorRange
+pub
 image_rendering
 :
 ImageRendering
@@ -2416,6 +2425,11 @@ color_space
 image
 .
 color_space
+color_range
+:
+image
+.
+color_range
 image_rendering
 :
 image

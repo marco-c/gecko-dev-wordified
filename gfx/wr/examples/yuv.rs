@@ -956,6 +956,10 @@ YuvColorSpace
 :
 :
 Rec601
+ColorRange
+:
+:
+Limited
 ImageRendering
 :
 :
@@ -1027,6 +1031,10 @@ YuvColorSpace
 :
 :
 Rec601
+ColorRange
+:
+:
+Limited
 ImageRendering
 :
 :
