@@ -1610,6 +1610,12 @@ heuristic
 true
 searchQuery
 :
+UrlbarTokenizer
+.
+RESTRICT
+.
+OPENPAGE
++
 "
 abc
 "
@@ -1753,6 +1759,12 @@ heuristic
 true
 searchQuery
 :
+UrlbarTokenizer
+.
+RESTRICT
+.
+OPENPAGE
++
 "
 mozilla
 "
