@@ -272,7 +272,6 @@ copy_mobile_shortcut
 (
 )
 {
-await
 SpecialPowers
 .
 pushPrefEnv

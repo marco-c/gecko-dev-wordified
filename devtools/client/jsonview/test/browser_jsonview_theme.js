@@ -65,9 +65,7 @@ started
 const
 oldPref
 =
-Services
-.
-prefs
+SpecialPowers
 .
 getCharPref
 (
@@ -78,9 +76,7 @@ theme
 "
 )
 ;
-Services
-.
-prefs
+SpecialPowers
 .
 setCharPref
 (
@@ -120,9 +116,7 @@ light
 "
 )
 ;
-Services
-.
-prefs
+SpecialPowers
 .
 setCharPref
 (
@@ -155,9 +149,7 @@ dark
 "
 )
 ;
-Services
-.
-prefs
+SpecialPowers
 .
 setCharPref
 (
@@ -190,9 +182,7 @@ light
 "
 )
 ;
-Services
-.
-prefs
+SpecialPowers
 .
 setCharPref
 (
