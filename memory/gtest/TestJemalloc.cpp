@@ -1823,6 +1823,10 @@ chunksize
 stats
 .
 large_max
+-
+stats
+.
+page_size
 ;
 for
 (
