@@ -1304,6 +1304,19 @@ prefsFile
 '
 )
         
+self
+.
+verboseIfFails
+=
+kwargs
+.
+get
+(
+'
+verboseIfFails
+'
+)
+        
 #
 only
 one
@@ -6179,6 +6192,23 @@ clean_temp_dirs
 path
 )
                     
+if
+self
+.
+verboseIfFails
+and
+not
+self
+.
+verbose
+:
+                        
+self
+.
+log_full_output
+(
+)
+                    
 return
                 
 self
@@ -10914,6 +10944,19 @@ verbose
         
 self
 .
+verboseIfFails
+=
+options
+.
+get
+(
+'
+verboseIfFails
+'
+)
+        
+self
+.
 keepGoing
 =
 options
@@ -11656,6 +11699,14 @@ prefsFile
 self
 .
 prefsFile
+            
+'
+verboseIfFails
+'
+:
+self
+.
+verboseIfFails
         
 }
         
