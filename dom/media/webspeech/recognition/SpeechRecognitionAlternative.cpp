@@ -193,8 +193,9 @@ SpeechRecognitionAlternative
 SpeechRecognitionAlternative
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 SpeechRecognitionAlternative

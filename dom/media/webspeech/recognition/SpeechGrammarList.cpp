@@ -206,8 +206,9 @@ SpeechGrammarList
 SpeechGrammarList
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 SpeechGrammarList

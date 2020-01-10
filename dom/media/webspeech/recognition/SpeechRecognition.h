@@ -1207,7 +1207,7 @@ GetName
 (
 SpeechEvent
 *
-aId
+aEvent
 )
 ;
 }

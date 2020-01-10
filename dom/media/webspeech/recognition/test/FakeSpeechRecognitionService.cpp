@@ -198,8 +198,9 @@ FakeSpeechRecognitionService
 FakeSpeechRecognitionService
 (
 )
-{
-}
+=
+default
+;
 FakeSpeechRecognitionService
 :
 :
@@ -207,8 +208,9 @@ FakeSpeechRecognitionService
 FakeSpeechRecognitionService
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 FakeSpeechRecognitionService
 :
