@@ -9112,7 +9112,10 @@ i
 if
 (
 !
-JS7_ISHEX
+mozilla
+:
+:
+IsAsciiHexDigit
 (
 unit
 )

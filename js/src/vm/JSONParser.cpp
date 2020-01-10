@@ -225,6 +225,12 @@ using
 mozilla
 :
 :
+IsAsciiHexDigit
+;
+using
+mozilla
+:
+:
 RangedPtr
 ;
 JSONParserBase
@@ -1304,7 +1310,7 @@ current
 |
 !
 (
-JS7_ISHEX
+IsAsciiHexDigit
 (
 current
 [
@@ -1313,7 +1319,7 @@ current
 )
 &
 &
-JS7_ISHEX
+IsAsciiHexDigit
 (
 current
 [
@@ -1322,7 +1328,7 @@ current
 )
 &
 &
-JS7_ISHEX
+IsAsciiHexDigit
 (
 current
 [
@@ -1331,7 +1337,7 @@ current
 )
 &
 &
-JS7_ISHEX
+IsAsciiHexDigit
 (
 current
 [
@@ -1369,7 +1375,7 @@ end
 |
 |
 !
-JS7_ISHEX
+IsAsciiHexDigit
 (
 current
 [
@@ -1398,7 +1404,7 @@ end
 |
 |
 !
-JS7_ISHEX
+IsAsciiHexDigit
 (
 current
 [
@@ -1425,7 +1431,7 @@ end
 |
 |
 !
-JS7_ISHEX
+IsAsciiHexDigit
 (
 current
 [
@@ -1452,7 +1458,7 @@ end
 |
 |
 !
-JS7_ISHEX
+IsAsciiHexDigit
 (
 current
 [

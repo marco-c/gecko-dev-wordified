@@ -432,6 +432,12 @@ using
 mozilla
 :
 :
+IsAsciiHexDigit
+;
+using
+mozilla
+:
+:
 IsTrailingUnit
 ;
 using
@@ -10120,7 +10126,7 @@ getCodeUnit
 ;
 if
 (
-JS7_ISHEX
+IsAsciiHexDigit
 (
 unit
 )
@@ -10325,7 +10331,7 @@ code
 ;
 while
 (
-JS7_ISHEX
+IsAsciiHexDigit
 (
 unit
 )
@@ -17267,7 +17273,7 @@ getCodeUnit
 if
 (
 !
-JS7_ISHEX
+IsAsciiHexDigit
 (
 unit
 )
@@ -17324,7 +17330,7 @@ addressOfNextCodeUnit
 ;
 while
 (
-JS7_ISHEX
+IsAsciiHexDigit
 (
 unit
 )
@@ -21023,7 +21029,7 @@ block
 if
 (
 !
-JS7_ISHEX
+IsAsciiHexDigit
 (
 u3
 )
@@ -21299,7 +21305,7 @@ v
 ;
 if
 (
-JS7_ISHEX
+IsAsciiHexDigit
 (
 c2
 )
