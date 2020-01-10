@@ -1239,6 +1239,16 @@ nsIChannel
 result
 )
 {
+if
+(
+!
+mEnabled
+)
+{
+return
+NS_ERROR_UNKNOWN_PROTOCOL
+;
+}
 NS_ENSURE_ARG_POINTER
 (
 uri
