@@ -37030,7 +37030,7 @@ StyleBorder
 )
 -
 >
-IsBorderImageLoaded
+IsBorderImageSizeAvailable
 (
 )
 &

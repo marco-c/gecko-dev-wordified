@@ -25928,7 +25928,7 @@ if
 (
 aStyleBorder
 .
-IsBorderImageLoaded
+IsBorderImageSizeAvailable
 (
 )
 )
