@@ -82,6 +82,11 @@ disable
 no
 -
 undef
+no
+-
+unused
+-
+vars
 *
 /
 "
@@ -166,6 +171,8 @@ number
 "
 )
 ;
+/
+/
 ok
 (
 message
@@ -215,6 +222,8 @@ number
 "
 )
 ;
+/
+/
 ok
 (
 message
