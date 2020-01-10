@@ -881,6 +881,11 @@ bool
 aIsUnderHiddenEmbedderElement
 )
 ;
+void
+ClearDisplayItems
+(
+)
+;
 protected
 :
 friend
@@ -966,11 +971,6 @@ reframed
 .
 void
 ShowViewer
-(
-)
-;
-void
-ClearDisplayItems
 (
 )
 ;
