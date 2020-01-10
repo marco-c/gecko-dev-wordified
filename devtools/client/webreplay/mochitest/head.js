@@ -146,8 +146,6 @@ client
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -1234,9 +1232,7 @@ const
 PromiseTestUtils
 }
 =
-ChromeUtils
-.
-import
+scopedCuImport
 (
 "
 resource
