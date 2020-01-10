@@ -8922,7 +8922,10 @@ will
 be
 needed
 .
-nsIContent
+dom
+:
+:
+Text
 *
 content
 =
@@ -8930,6 +8933,11 @@ frame
 -
 >
 GetContent
+(
+)
+-
+>
+AsText
 (
 )
 ;
@@ -8952,10 +8960,11 @@ nsTextFragment
 *
 txt
 =
+&
 content
 -
 >
-GetText
+TextFragment
 (
 )
 ;
