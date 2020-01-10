@@ -2601,6 +2601,14 @@ _threadActor
 ;
 this
 .
+threadFront
+.
+targetFront
+=
+this
+;
+this
+.
 manage
 (
 this
