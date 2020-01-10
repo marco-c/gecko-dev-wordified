@@ -1921,6 +1921,8 @@ template
 <
 class
 UnbarrieredKey
+class
+Wrapper
 bool
 InvisibleKeysOk
 =
@@ -1938,7 +1940,7 @@ UnbarrieredKey
 >
 HeapPtr
 <
-JSObject
+Wrapper
 *
 >
 >
@@ -1955,7 +1957,7 @@ Key
 typedef
 HeapPtr
 <
-JSObject
+Wrapper
 *
 >
 Value
@@ -4320,6 +4322,7 @@ DebuggerWeakMap
 <
 JSObject
 *
+DebuggerFrame
 >
 GeneratorWeakMap
 ;
@@ -4347,6 +4350,7 @@ DebuggerWeakMap
 <
 JSScript
 *
+DebuggerScript
 >
 ScriptWeakMap
 ;
@@ -4360,6 +4364,7 @@ DebuggerWeakMap
 <
 LazyScript
 *
+DebuggerScript
 >
 ;
 LazyScriptWeakMap
@@ -4400,6 +4405,7 @@ DebuggerWeakMap
 <
 JSObject
 *
+DebuggerSource
 true
 >
 SourceWeakMap
@@ -4426,6 +4432,7 @@ DebuggerWeakMap
 <
 JSObject
 *
+DebuggerObject
 >
 ObjectWeakMap
 ;
@@ -4445,7 +4452,16 @@ Debugger
 Environment
 instances
 .
-ObjectWeakMap
+typedef
+DebuggerWeakMap
+<
+JSObject
+*
+DebuggerEnvironment
+>
+EnvironmentWeakMap
+;
+EnvironmentWeakMap
 environments
 ;
 /
@@ -4468,10 +4484,11 @@ DebuggerWeakMap
 <
 WasmInstanceObject
 *
+DebuggerScript
 >
-WasmInstanceWeakMap
+WasmInstanceScriptWeakMap
 ;
-WasmInstanceWeakMap
+WasmInstanceScriptWeakMap
 wasmInstanceScripts
 ;
 /
@@ -4489,7 +4506,16 @@ Source
 /
 instances
 .
-WasmInstanceWeakMap
+typedef
+DebuggerWeakMap
+<
+WasmInstanceObject
+*
+DebuggerSource
+>
+WasmInstanceSourceWeakMap
+;
+WasmInstanceSourceWeakMap
 wasmInstanceSources
 ;
 /
