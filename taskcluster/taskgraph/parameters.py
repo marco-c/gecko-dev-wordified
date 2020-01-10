@@ -705,11 +705,7 @@ try_task_config
 '
 )
 :
-Any
-(
-None
 dict
-)
     
 Required
 (
