@@ -123,16 +123,6 @@ on
 all
 files
 .
-/
-*
-eslint
--
-disable
-max
--
-len
-*
-/
 "
 mozilla
 /

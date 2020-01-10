@@ -908,16 +908,6 @@ bind
 "
 ]
 "
-curly
-"
-:
-[
-2
-"
-all
-"
-]
-"
 default
 -
 case

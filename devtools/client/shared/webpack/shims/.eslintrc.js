@@ -44,16 +44,6 @@ rules
 :
 {
 /
-*
-eslint
--
-disable
-max
--
-len
-*
-/
-/
 /
 All
 code
