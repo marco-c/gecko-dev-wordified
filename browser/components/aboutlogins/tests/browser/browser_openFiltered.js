@@ -576,7 +576,7 @@ is
 hiddenLoginListItems
 .
 length
-1
+2
 "
 One
 login
@@ -590,7 +590,7 @@ is
 (
 hiddenLoginListItems
 [
-0
+1
 ]
 .
 dataset
