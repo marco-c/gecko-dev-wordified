@@ -198,9 +198,7 @@ querySelector
 (
 "
 .
-modal
--
-overlay
+modalOverlayOuter
 "
 )
 ;
@@ -849,9 +847,7 @@ querySelector
 (
 "
 .
-modal
--
-overlay
+modalOverlayOuter
 "
 )
 ;

@@ -159,7 +159,8 @@ Arvi
 in
 neuvo
 barcon
-privou
+priv
+u
 "
 "
 menu_action_dismiss
@@ -394,7 +395,7 @@ Pigi
 da
 Pocket
 che
-oua
+ua
 o
 l
 '

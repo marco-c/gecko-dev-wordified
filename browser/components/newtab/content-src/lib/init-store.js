@@ -78,9 +78,6 @@ EARLY_QUEUED_ACTIONS
 at
 .
 SAVE_SESSION_PERF_DATA
-at
-.
-PAGE_PRERENDERED
 ]
 ;
 /
@@ -834,7 +831,6 @@ function
 initStore
 (
 reducers
-initialState
 )
 {
 const
@@ -849,7 +845,6 @@ combineReducers
 reducers
 )
 )
-initialState
 global
 .
 RPMAddMessageListener

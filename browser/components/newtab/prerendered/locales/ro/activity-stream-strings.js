@@ -1079,7 +1079,8 @@ section_menu_action_privacy_notice
 "
 :
 "
-Politica
+Declara
+ie
 de
 confiden
 ialitate
@@ -1211,7 +1212,8 @@ firstrun_privacy_notice
 "
 :
 "
-Politica
+Declara
+ie
 de
 confiden
 ialitate

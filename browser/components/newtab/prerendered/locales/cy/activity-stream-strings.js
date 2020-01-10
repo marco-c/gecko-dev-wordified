@@ -1098,7 +1098,7 @@ firstrun_content
 "
 :
 "
-Cewch
+Cael
 eich
 nodau
 tudalen
@@ -1140,8 +1140,8 @@ firstrun_form_sub_header
 "
 :
 "
-i
-barhau
+ac
+ymlaen
 i
 Firefox
 Sync
