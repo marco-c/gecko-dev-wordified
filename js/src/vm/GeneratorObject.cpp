@@ -1054,7 +1054,7 @@ AbstractGeneratorObject
 genObj
 HandleValue
 arg
-uint32_t
+GeneratorResumeKind
 resumeKind
 )
 {
@@ -1063,10 +1063,10 @@ if
 resumeKind
 =
 =
-AbstractGeneratorObject
+GeneratorResumeKind
 :
 :
-THROW
+Throw
 )
 {
 cx
@@ -1085,10 +1085,10 @@ MOZ_ASSERT
 resumeKind
 =
 =
-AbstractGeneratorObject
+GeneratorResumeKind
 :
 :
-RETURN
+Return
 )
 ;
 MOZ_ASSERT_IF
