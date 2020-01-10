@@ -431,7 +431,7 @@ resolve
 ;
 AntiTracking
 .
-runTestInNormalAndPrivateMode
+runTest
 (
 "
 Cookies

@@ -12,7 +12,7 @@ js
 /
 PartitionedStorageHelper
 .
-runTestInNormalAndPrivateMode
+runTest
 (
 "
 SharedWorkers
@@ -368,7 +368,7 @@ resolve
 ;
 PartitionedStorageHelper
 .
-runPartitioningTestInNormalAndPrivateMode
+runPartitioningTest
 (
 "
 Partitioned

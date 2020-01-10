@@ -12,7 +12,7 @@ js
 /
 PartitionedStorageHelper
 .
-runTestInNormalAndPrivateMode
+runTest
 (
 "
 HTTP
@@ -309,7 +309,7 @@ resolve
 ;
 PartitionedStorageHelper
 .
-runTestInNormalAndPrivateMode
+runTest
 (
 "
 DOM
@@ -487,7 +487,7 @@ resolve
 ;
 PartitionedStorageHelper
 .
-runPartitioningTestInNormalAndPrivateMode
+runPartitioningTest
 (
 "
 Partitioned
@@ -578,7 +578,7 @@ resolve
 ;
 PartitionedStorageHelper
 .
-runPartitioningTestInNormalAndPrivateMode
+runPartitioningTest
 (
 "
 Partitioned

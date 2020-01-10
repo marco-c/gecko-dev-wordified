@@ -24,7 +24,7 @@ js
 /
 AntiTracking
 .
-runTestInNormalAndPrivateMode
+runTest
 (
 "
 localStorage
@@ -551,7 +551,7 @@ false
 ;
 PartitionedStorageHelper
 .
-runPartitioningTestInNormalAndPrivateMode
+runPartitioningTest
 (
 "
 Partitioned
