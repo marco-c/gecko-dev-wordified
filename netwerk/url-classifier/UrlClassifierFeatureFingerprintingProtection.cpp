@@ -864,7 +864,7 @@ Unused
 httpChannel
 -
 >
-CancelByChannelClassifier
+CancelByURLClassifier
 (
 NS_ERROR_FINGERPRINTING_URI
 )

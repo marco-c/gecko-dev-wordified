@@ -862,7 +862,7 @@ Unused
 httpChannel
 -
 >
-CancelByChannelClassifier
+CancelByURLClassifier
 (
 NS_ERROR_CRYPTOMINING_URI
 )

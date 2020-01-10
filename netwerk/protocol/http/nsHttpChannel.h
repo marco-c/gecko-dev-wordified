@@ -1064,7 +1064,7 @@ aTimeStamp
 override
 ;
 NS_IMETHOD
-CancelByChannelClassifier
+CancelByURLClassifier
 (
 nsresult
 aErrorCode
@@ -1853,7 +1853,7 @@ RequestIsConditional
 )
 ;
 void
-HandleContinueCancellingByChannelClassifier
+HandleContinueCancellingByURLClassifier
 (
 nsresult
 aErrorCode
@@ -1867,7 +1867,7 @@ status
 )
 ;
 void
-ContinueCancellingByChannelClassifier
+ContinueCancellingByURLClassifier
 (
 nsresult
 aErrorCode

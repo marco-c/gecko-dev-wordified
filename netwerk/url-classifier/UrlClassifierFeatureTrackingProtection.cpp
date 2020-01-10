@@ -862,7 +862,7 @@ Unused
 httpChannel
 -
 >
-CancelByChannelClassifier
+CancelByURLClassifier
 (
 NS_ERROR_TRACKING_URI
 )
