@@ -27366,7 +27366,7 @@ Maybe
 <
 ReflowInput
 >
-blockReflowInput
+childReflowInput
 ;
 Maybe
 <
@@ -27944,7 +27944,7 @@ availContentBSize
 }
 }
 }
-blockReflowInput
+childReflowInput
 .
 emplace
 (
@@ -28001,7 +28001,7 @@ again
 (
 and
 replace
-blockReflowInput
+childReflowInput
 )
 we
 '
@@ -28021,7 +28021,7 @@ the
 previous
 time
 .
-blockReflowInput
+childReflowInput
 -
 >
 mFlags
@@ -28184,7 +28184,7 @@ if
 mayNeedRetry
 )
 {
-blockReflowInput
+childReflowInput
 -
 >
 mDiscoveredClearance
@@ -28200,7 +28200,7 @@ if
 applyBStartMargin
 )
 {
-blockReflowInput
+childReflowInput
 -
 >
 mDiscoveredClearance
@@ -28239,7 +28239,7 @@ get
 (
 )
 *
-blockReflowInput
+childReflowInput
 frameReflowStatus
 aState
 )
@@ -28850,13 +28850,13 @@ clearance
 0
 ;
 }
-blockReflowInput
+childReflowInput
 .
 reset
 (
 )
 ;
-blockReflowInput
+childReflowInput
 .
 emplace
 (
@@ -28936,7 +28936,7 @@ frame
 ;
 if
 (
-blockReflowInput
+childReflowInput
 -
 >
 WillReflowAgainForClearance
@@ -29262,7 +29262,7 @@ brc
 PlaceBlock
 (
 *
-blockReflowInput
+childReflowInput
 forceFit
 aLine
 .
