@@ -699,6 +699,19 @@ nullptr
 #
 ifdef
 XP_WIN
+if
+(
+widget
+:
+:
+WinCompositorWindowThread
+:
+:
+Get
+(
+)
+)
+{
 widget
 :
 :
@@ -709,6 +722,7 @@ ShutDown
 (
 )
 ;
+}
 #
 endif
 }
