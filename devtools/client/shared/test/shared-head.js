@@ -322,6 +322,11 @@ tracker
 =
 allocationTracker
 (
+{
+watchAllGlobals
+:
+true
+}
 )
 ;
 registerCleanupFunction
