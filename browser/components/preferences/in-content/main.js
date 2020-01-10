@@ -10685,7 +10685,7 @@ id
 "
 update
 -
-pref
+setting
 -
 write
 -
@@ -10700,7 +10700,7 @@ id
 "
 update
 -
-pref
+setting
 -
 write
 -
