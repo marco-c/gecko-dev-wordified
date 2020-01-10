@@ -4607,7 +4607,7 @@ widgets
 /
 text
 .
-xml
+js
 (
 formatAccessKey
 )
