@@ -2783,7 +2783,7 @@ isBinAST
 )
 )
 ;
-fun
+funbox
 -
 >
 initLazyScript
