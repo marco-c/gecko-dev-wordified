@@ -629,11 +629,9 @@ cache_size
 "
 pref
 .
-size_t
+int32_t
 GetMaxBlocks
 (
-size_t
-aCacheSizeInKB
 )
 const
 override
