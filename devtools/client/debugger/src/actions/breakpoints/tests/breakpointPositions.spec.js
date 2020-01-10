@@ -103,7 +103,7 @@ tests
 /
 helpers
 /
-threadFront
+mockCommandClient
 "
 ;
 describe
