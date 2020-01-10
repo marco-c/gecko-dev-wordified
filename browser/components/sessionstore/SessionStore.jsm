@@ -7417,6 +7417,13 @@ browser
 crashed
 "
 :
+if
+(
+aEvent
+.
+isTopFrame
+)
+{
 this
 .
 onBrowserCrashed
@@ -7424,6 +7431,7 @@ onBrowserCrashed
 target
 )
 ;
+}
 break
 ;
 case
