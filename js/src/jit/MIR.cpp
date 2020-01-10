@@ -10114,6 +10114,15 @@ isSelfHostedBuiltin
 (
 )
 )
+isExtended_
+(
+fun
+-
+>
+isExtended
+(
+)
+)
 {
 }
 MCall
