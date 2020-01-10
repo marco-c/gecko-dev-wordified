@@ -1886,6 +1886,8 @@ is
 overridden
 by
 ObjectValueMap
+and
+DebuggerWeakMap
 .
 return
 true
