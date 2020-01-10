@@ -564,17 +564,6 @@ scopes
 =
 [
 signing_cert_scope
-add_scope_prefix
-(
-config
-'
-signing
-:
-format
-:
-gpg
-'
-)
 ]
         
 if
@@ -653,7 +642,7 @@ formats
 sha2signcode
 "
 "
-gpg
+autograph_gpg
 "
 ]
             
@@ -748,7 +737,7 @@ formats
 :
 [
 "
-gpg
+autograph_gpg
 "
 ]
             
@@ -828,7 +817,7 @@ formats
 :
 [
 "
-gpg
+autograph_gpg
 "
 ]
             
