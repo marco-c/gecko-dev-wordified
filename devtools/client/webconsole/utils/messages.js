@@ -1205,6 +1205,11 @@ logpointId
 message
 .
 logpointId
+chromeContext
+:
+message
+.
+chromeContext
 }
 )
 ;
@@ -1311,6 +1316,11 @@ private
 message
 .
 private
+chromeContext
+:
+message
+.
+chromeContext
 }
 )
 ;
@@ -1508,6 +1518,11 @@ executionPoint
 pageError
 .
 executionPoint
+chromeContext
+:
+pageError
+.
+chromeContext
 }
 )
 ;
@@ -1604,6 +1619,11 @@ securityState
 networkEvent
 .
 securityState
+chromeContext
+:
+networkEvent
+.
+chromeContext
 }
 )
 ;
