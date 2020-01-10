@@ -1064,6 +1064,13 @@ changed
 void
 InvalidateCaretFramesIfNeeded
 (
+nsTArray
+<
+nsIFrame
+*
+>
+&
+aModifiedFrames
 )
 ;
 /
@@ -1241,11 +1248,6 @@ aAGR
 PartialUpdateResult
 &
 aUpdated
-nsIFrame
-*
-aOuterFrame
-=
-nullptr
 uint32_t
 aCallerKey
 =
