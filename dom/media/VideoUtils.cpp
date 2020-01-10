@@ -478,6 +478,12 @@ aRate
 )
 {
 return
+aTime
+.
+IsValid
+(
+)
+?
 UsecsToFrames
 (
 aTime
@@ -487,6 +493,13 @@ ToMicroseconds
 )
 aRate
 )
+:
+CheckedInt64
+(
+INT64_MAX
+)
++
+1
 ;
 }
 nsresult
