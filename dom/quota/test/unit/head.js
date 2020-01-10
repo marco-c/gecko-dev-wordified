@@ -130,7 +130,6 @@ runTest
 )
 ;
 }
-;
 if
 (
 !
@@ -343,6 +342,7 @@ next
 ;
 }
 }
+;
 }
 function
 finishTest
@@ -365,6 +365,7 @@ do_test_finished
 ;
 }
 )
+;
 }
 function
 grabArgAndContinueHandler
@@ -1191,7 +1192,7 @@ bostream
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -1205,7 +1206,7 @@ output
 stream
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -1402,9 +1403,9 @@ relativePath
 .
 split
 (
-'
+"
 /
-'
+"
 )
 .
 forEach
@@ -1793,6 +1794,7 @@ resultCode
 ;
 }
 }
+;
 }
 )
 ;

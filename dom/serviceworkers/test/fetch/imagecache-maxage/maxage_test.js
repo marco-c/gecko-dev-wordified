@@ -157,9 +157,7 @@ image
 /
 png
 "
-"
 Date
-"
 :
 "
 Tue

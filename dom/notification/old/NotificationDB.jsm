@@ -352,6 +352,7 @@ if
 (
 DEBUG
 )
+{
 debug
 (
 "
@@ -362,6 +363,7 @@ Topic
 aTopic
 )
 ;
+}
 if
 (
 aTopic
@@ -474,6 +476,7 @@ if
 (
 DEBUG
 )
+{
 debug
 (
 "
@@ -495,6 +498,7 @@ deleting
 "
 )
 ;
+}
 delete
 notifications
 [

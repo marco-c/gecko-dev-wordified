@@ -63,9 +63,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -196,9 +194,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -288,6 +284,7 @@ in
 let
 pluginTab
 =
+(
 gBrowser
 .
 selectedTab
@@ -297,6 +294,7 @@ BrowserTestUtils
 addTab
 (
 gBrowser
+)
 )
 ;
 let

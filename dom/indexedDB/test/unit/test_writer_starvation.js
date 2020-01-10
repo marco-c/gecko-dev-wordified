@@ -667,11 +667,9 @@ while
 (
 callbackCount
 <
-(
 readerCount
 +
 writerCount
-)
 )
 {
 executeSoon

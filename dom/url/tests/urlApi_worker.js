@@ -176,11 +176,9 @@ try
 {
 if
 (
-(
 URL
 instanceof
 Object
-)
 )
 {
 status
@@ -1565,6 +1563,7 @@ href
 in
 test
 )
+{
 is
 (
 url
@@ -1578,6 +1577,7 @@ href
 "
 )
 ;
+}
 if
 (
 "
@@ -1586,6 +1586,7 @@ origin
 in
 test
 )
+{
 is
 (
 url
@@ -1599,6 +1600,7 @@ origin
 "
 )
 ;
+}
 if
 (
 "
@@ -1607,6 +1609,7 @@ protocol
 in
 test
 )
+{
 is
 (
 url
@@ -1620,6 +1623,7 @@ protocol
 "
 )
 ;
+}
 if
 (
 "
@@ -1628,6 +1632,7 @@ username
 in
 test
 )
+{
 is
 (
 url
@@ -1641,6 +1646,7 @@ username
 "
 )
 ;
+}
 if
 (
 "
@@ -1649,6 +1655,7 @@ password
 in
 test
 )
+{
 is
 (
 url
@@ -1662,6 +1669,7 @@ password
 "
 )
 ;
+}
 if
 (
 "
@@ -1670,6 +1678,7 @@ host
 in
 test
 )
+{
 is
 (
 url
@@ -1683,6 +1692,7 @@ host
 "
 )
 ;
+}
 if
 (
 "
@@ -1691,6 +1701,7 @@ hostname
 in
 test
 )
+{
 is
 (
 url
@@ -1704,6 +1715,7 @@ hostname
 "
 )
 ;
+}
 if
 (
 "
@@ -1712,6 +1724,7 @@ port
 in
 test
 )
+{
 is
 (
 url
@@ -1725,6 +1738,7 @@ port
 "
 )
 ;
+}
 if
 (
 "
@@ -1733,6 +1747,7 @@ pathname
 in
 test
 )
+{
 is
 (
 url
@@ -1746,6 +1761,7 @@ pathname
 "
 )
 ;
+}
 if
 (
 "
@@ -1754,6 +1770,7 @@ search
 in
 test
 )
+{
 is
 (
 url
@@ -1767,6 +1784,7 @@ search
 "
 )
 ;
+}
 if
 (
 "
@@ -1775,6 +1793,7 @@ hash
 in
 test
 )
+{
 is
 (
 url
@@ -1788,6 +1807,7 @@ hash
 "
 )
 ;
+}
 url
 =
 new
@@ -1830,6 +1850,7 @@ href
 in
 test
 )
+{
 url
 .
 href
@@ -1838,6 +1859,7 @@ test
 .
 href
 ;
+}
 if
 (
 "
@@ -1846,6 +1868,7 @@ protocol
 in
 test
 )
+{
 url
 .
 protocol
@@ -1854,6 +1877,7 @@ test
 .
 protocol
 ;
+}
 if
 (
 "
@@ -1867,6 +1891,7 @@ test
 .
 username
 )
+{
 url
 .
 username
@@ -1875,6 +1900,7 @@ test
 .
 username
 ;
+}
 if
 (
 "
@@ -1888,6 +1914,7 @@ test
 .
 password
 )
+{
 url
 .
 password
@@ -1896,6 +1923,7 @@ test
 .
 password
 ;
+}
 if
 (
 "
@@ -1904,6 +1932,7 @@ host
 in
 test
 )
+{
 url
 .
 host
@@ -1912,6 +1941,7 @@ test
 .
 host
 ;
+}
 if
 (
 "
@@ -1920,6 +1950,7 @@ hostname
 in
 test
 )
+{
 url
 .
 hostname
@@ -1928,6 +1959,7 @@ test
 .
 hostname
 ;
+}
 if
 (
 "
@@ -1936,6 +1968,7 @@ port
 in
 test
 )
+{
 url
 .
 port
@@ -1944,6 +1977,7 @@ test
 .
 port
 ;
+}
 if
 (
 "
@@ -1952,6 +1986,7 @@ pathname
 in
 test
 )
+{
 url
 .
 pathname
@@ -1960,6 +1995,7 @@ test
 .
 pathname
 ;
+}
 if
 (
 "
@@ -1968,6 +2004,7 @@ search
 in
 test
 )
+{
 url
 .
 search
@@ -1976,6 +2013,7 @@ test
 .
 search
 ;
+}
 if
 (
 "
@@ -1984,6 +2022,7 @@ hash
 in
 test
 )
+{
 url
 .
 hash
@@ -1992,6 +2031,7 @@ test
 .
 hash
 ;
+}
 if
 (
 "
@@ -2000,6 +2040,7 @@ href
 in
 test
 )
+{
 is
 (
 url
@@ -2013,6 +2054,7 @@ href
 "
 )
 ;
+}
 if
 (
 "
@@ -2021,6 +2063,7 @@ origin
 in
 test
 )
+{
 is
 (
 url
@@ -2034,6 +2077,7 @@ origin
 "
 )
 ;
+}
 if
 (
 "
@@ -2042,6 +2086,7 @@ protocol
 in
 test
 )
+{
 is
 (
 url
@@ -2055,6 +2100,7 @@ protocol
 "
 )
 ;
+}
 if
 (
 "
@@ -2063,6 +2109,7 @@ username
 in
 test
 )
+{
 is
 (
 url
@@ -2076,6 +2123,7 @@ username
 "
 )
 ;
+}
 if
 (
 "
@@ -2084,6 +2132,7 @@ password
 in
 test
 )
+{
 is
 (
 url
@@ -2097,6 +2146,7 @@ password
 "
 )
 ;
+}
 if
 (
 "
@@ -2105,6 +2155,7 @@ host
 in
 test
 )
+{
 is
 (
 url
@@ -2118,6 +2169,7 @@ host
 "
 )
 ;
+}
 if
 (
 "
@@ -2126,6 +2178,7 @@ hostname
 in
 test
 )
+{
 is
 (
 test
@@ -2139,6 +2192,7 @@ hostname
 "
 )
 ;
+}
 if
 (
 "
@@ -2147,6 +2201,7 @@ port
 in
 test
 )
+{
 is
 (
 test
@@ -2160,6 +2215,7 @@ port
 "
 )
 ;
+}
 if
 (
 "
@@ -2168,6 +2224,7 @@ pathname
 in
 test
 )
+{
 is
 (
 test
@@ -2181,6 +2238,7 @@ pathname
 "
 )
 ;
+}
 if
 (
 "
@@ -2189,6 +2247,7 @@ search
 in
 test
 )
+{
 is
 (
 test
@@ -2202,6 +2261,7 @@ search
 "
 )
 ;
+}
 if
 (
 "
@@ -2210,6 +2270,7 @@ hash
 in
 test
 )
+{
 is
 (
 test
@@ -2223,6 +2284,7 @@ hash
 "
 )
 ;
+}
 if
 (
 "
@@ -2231,6 +2293,7 @@ href
 in
 test
 )
+{
 is
 (
 test
@@ -2246,6 +2309,7 @@ works
 "
 )
 ;
+}
 }
 postMessage
 (

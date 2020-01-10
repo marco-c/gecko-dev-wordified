@@ -114,9 +114,9 @@ data
 =
 =
 =
-'
+"
 lastTest
-'
+"
 )
 {
 children
@@ -135,9 +135,9 @@ postMessage
 {
 type
 :
-'
+"
 lastTest
-'
+"
 }
 )
 ;
@@ -150,6 +150,7 @@ true
 ;
 }
 }
+;
 function
 setupChildren
 (
@@ -220,6 +221,7 @@ message
 )
 ;
 }
+;
 w
 .
 onmessage
@@ -239,9 +241,9 @@ type
 =
 =
 =
-'
+"
 ready
-'
+"
 )
 {
 info
@@ -284,9 +286,9 @@ type
 =
 =
 =
-'
+"
 finished
-'
+"
 )
 {
 finishedChildrenCount
@@ -310,9 +312,9 @@ postMessage
 {
 type
 :
-'
+"
 finished
-'
+"
 }
 )
 ;
@@ -338,9 +340,9 @@ type
 =
 =
 =
-'
+"
 ok
-'
+"
 )
 {
 /
@@ -360,6 +362,7 @@ data
 ;
 }
 }
+;
 }
 }
 setupChildren
@@ -373,9 +376,9 @@ postMessage
 {
 type
 :
-'
+"
 ready
-'
+"
 }
 )
 ;

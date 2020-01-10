@@ -251,6 +251,7 @@ false
 ;
 }
 return
+(
 e
 .
 constructor
@@ -273,6 +274,7 @@ constructor
 =
 =
 ReferenceError
+)
 ;
 }
 function

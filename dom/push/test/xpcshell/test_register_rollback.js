@@ -166,9 +166,11 @@ Promise
 resolve
 =
 >
+(
 unregisterDone
 =
 resolve
+)
 )
 ;
 PushServiceWebSocket

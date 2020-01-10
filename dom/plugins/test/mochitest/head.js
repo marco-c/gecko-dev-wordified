@@ -126,9 +126,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -282,7 +280,7 @@ windows
 "
 :
 return
-0x020A
+0x020a
 ;
 /
 /
@@ -805,12 +803,14 @@ name
 =
 pluginName
 )
+{
 return
 tags
 [
 i
 ]
 ;
+}
 }
 ok
 (

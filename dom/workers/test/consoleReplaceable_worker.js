@@ -42,10 +42,10 @@ postMessage
 {
 event
 :
-'
+"
 console
 exists
-'
+"
 status
 :
 !
@@ -75,6 +75,7 @@ logCalled
 true
 ;
 }
+;
 console
 .
 log
@@ -89,13 +90,13 @@ postMessage
 {
 event
 :
-'
+"
 console
 .
 log
 is
 replaceable
-'
+"
 status
 :
 logCalled
@@ -114,11 +115,11 @@ postMessage
 {
 event
 :
-'
+"
 console
 is
 replaceable
-'
+"
 status
 :
 console
@@ -133,3 +134,4 @@ true
 )
 ;
 }
+;

@@ -10,9 +10,9 @@ postMessage
 {
 type
 :
-'
+"
 ok
-'
+"
 test
 :
 test
@@ -36,9 +36,9 @@ postMessage
 {
 type
 :
-'
+"
 is
-'
+"
 test1
 :
 a
@@ -171,9 +171,7 @@ should
 be
 "
 {
-"
 structured
-"
 :
 "
 cloned
@@ -560,9 +558,9 @@ postMessage
 {
 type
 :
-'
+"
 finish
-'
+"
 }
 )
 ;
@@ -680,6 +678,7 @@ steps
 )
 ;
 }
+;
 }
 else
 {
@@ -705,9 +704,9 @@ postMessage
 {
 type
 :
-'
+"
 finish
-'
+"
 }
 )
 ;

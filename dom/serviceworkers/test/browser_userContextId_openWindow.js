@@ -96,6 +96,7 @@ const
 USER_CONTEXT_ID
 =
 3
+;
 let
 mockAlertsService
 =
@@ -341,9 +342,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -643,6 +642,7 @@ of
 the
 SW
 return
+(
 content
 .
 navigator
@@ -690,9 +690,9 @@ worker
 .
 addEventListener
 (
-'
+"
 statechange
-'
+"
 (
 )
 =
@@ -706,9 +706,9 @@ state
 =
 =
 =
-'
+"
 activated
-'
+"
 )
 {
 resolve
@@ -752,6 +752,7 @@ return
 uci
 ;
 }
+)
 )
 ;
 }

@@ -203,6 +203,7 @@ FFFF
 ]
 "
 ]
+;
 for
 (
 let

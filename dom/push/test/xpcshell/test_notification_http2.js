@@ -874,7 +874,6 @@ if
 message
 &
 &
-(
 data
 =
 =
@@ -892,7 +891,6 @@ page
 1
 "
 )
-)
 {
 equal
 (
@@ -952,7 +950,6 @@ if
 message
 &
 &
-(
 data
 =
 =
@@ -970,7 +967,6 @@ page
 2
 "
 )
-)
 {
 equal
 (
@@ -1030,7 +1026,6 @@ if
 message
 &
 &
-(
 data
 =
 =
@@ -1048,7 +1043,6 @@ page
 3
 "
 )
-)
 {
 equal
 (
@@ -1108,7 +1102,6 @@ if
 message
 &
 &
-(
 data
 =
 =
@@ -1125,7 +1118,6 @@ page
 /
 4
 "
-)
 )
 {
 equal

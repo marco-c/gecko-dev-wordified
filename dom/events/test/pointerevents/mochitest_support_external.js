@@ -131,9 +131,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -197,9 +195,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -513,7 +509,6 @@ eventObj
 .
 inputSource
 =
-(
 aParams
 &
 &
@@ -522,7 +517,6 @@ inputSource
 "
 in
 aParams
-)
 ?
 aParams
 .
@@ -540,7 +534,6 @@ eventObj
 .
 id
 =
-(
 eventObj
 .
 inputSource
@@ -550,7 +543,6 @@ inputSource
 MouseEvent
 .
 MOZ_SOURCE_MOUSE
-)
 ?
 MouseEventHelper
 .
@@ -644,7 +636,6 @@ aParams
 var
 hasButtonValue
 =
-(
 aParams
 .
 button
@@ -654,7 +645,6 @@ button
 MouseEventHelper
 .
 BUTTON_NONE
-)
 ;
 ok
 (
@@ -1094,6 +1084,7 @@ caught
 ;
 }
 }
+;
 /
 /
 Helper
@@ -1380,9 +1371,9 @@ href
 .
 lastIndexOf
 (
-'
+"
 /
-'
+"
 )
 +
 1
@@ -1464,20 +1455,20 @@ document
 .
 createElement
 (
-'
+"
 script
-'
+"
 )
 ;
 e
 .
 type
 =
-'
+"
 text
 /
 javascript
-'
+"
 ;
 e
 .
@@ -1495,9 +1486,9 @@ document
 .
 getElementsByTagName
 (
-'
+"
 head
-'
+"
 )
 [
 0

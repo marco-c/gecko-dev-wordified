@@ -276,8 +276,10 @@ detail
 "
 "
 )
+{
 return
 ;
+}
 numTitleChanges
 +
 +

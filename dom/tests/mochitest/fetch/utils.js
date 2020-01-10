@@ -91,6 +91,7 @@ result
 )
 ;
 }
+;
 fs
 .
 onerror
@@ -185,6 +186,7 @@ result
 )
 ;
 }
+;
 fs
 .
 onerror
@@ -266,9 +268,9 @@ worker
 .
 addEventListener
 (
-'
+"
 statechange
-'
+"
 function
 onStateChange
 (
@@ -289,9 +291,9 @@ worker
 .
 removeEventListener
 (
-'
+"
 statechange
-'
+"
 onStateChange
 )
 ;

@@ -290,8 +290,10 @@ p
 subject
 )
 )
+{
 return
 ;
+}
 /
 /
 If
@@ -462,6 +464,7 @@ openTab
 uri
 =
 >
+(
 gBrowser
 .
 selectedTab
@@ -472,6 +475,7 @@ addTab
 (
 gBrowser
 uri
+)
 )
 ;
 /

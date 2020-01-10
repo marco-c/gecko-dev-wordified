@@ -550,6 +550,7 @@ forEach
 name
 =
 >
+(
 error
 [
 name
@@ -559,6 +560,7 @@ aErrorClone
 [
 name
 ]
+)
 )
 ;
 return
@@ -621,7 +623,6 @@ xul
 "
 ;
 return
-(
 aBrowser
 .
 namespaceURI
@@ -640,7 +641,6 @@ localName
 "
 browser
 "
-)
 ;
 }
 /

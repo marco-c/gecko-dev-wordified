@@ -197,7 +197,7 @@ contentWin
 Blob
 (
 [
-'
+"
 onmessage
 =
 function
@@ -210,7 +210,7 @@ true
 )
 ;
 }
-'
+"
 ]
 )
 ;
@@ -323,6 +323,7 @@ finish
 )
 ;
 }
+;
 worker
 .
 onmessage
@@ -369,6 +370,7 @@ finish
 )
 ;
 }
+;
 worker
 .
 postMessage

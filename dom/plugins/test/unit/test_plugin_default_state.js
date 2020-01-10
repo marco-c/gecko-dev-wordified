@@ -57,7 +57,6 @@ STATE_DISABLED
 let
 nonDefaultState
 =
-(
 pluginDefaultState
 !
 =
@@ -78,7 +77,6 @@ Ci
 nsIPluginTag
 .
 STATE_CLICKTOPLAY
-)
 ;
 let
 testPlugin

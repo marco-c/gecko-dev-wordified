@@ -1,7 +1,7 @@
-'
+"
 use
 strict
-'
+"
 ;
 function
 scopedCuImport
@@ -448,9 +448,7 @@ filter
 call
 (
 messages
-(
 el
-)
 =
 >
 el

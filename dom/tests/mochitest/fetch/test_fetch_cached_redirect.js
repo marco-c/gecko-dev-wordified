@@ -35,7 +35,6 @@ let
 firstResponse
 =
 await
-(
 fetch
 (
 REDIRECTING_URL
@@ -46,7 +45,6 @@ redirect
 manual
 "
 }
-)
 )
 ;
 /
@@ -66,7 +64,6 @@ let
 secondResponse
 =
 await
-(
 fetch
 (
 REDIRECTING_URL
@@ -77,7 +74,6 @@ redirect
 error
 "
 }
-)
 )
 ;
 }
@@ -115,6 +111,7 @@ then
 (
 testCachedRedirectErrorMode
 )
+;
 /
 /
 Put

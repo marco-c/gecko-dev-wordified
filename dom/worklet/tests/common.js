@@ -65,9 +65,9 @@ document
 .
 createElement
 (
-'
+"
 iframe
-'
+"
 )
 ;
 iframe
@@ -152,3 +152,4 @@ runTestInIframe
 )
 ;
 }
+;

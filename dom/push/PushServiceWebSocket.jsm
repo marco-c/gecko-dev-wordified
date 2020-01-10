@@ -1575,9 +1575,7 @@ newID
 if
 (
 typeof
-(
 newID
-)
 !
 =
 =
@@ -6366,7 +6364,6 @@ false
 ;
 if
 (
-(
 message
 =
 =
@@ -6375,10 +6372,8 @@ message
 {
 }
 "
-)
 |
 |
-(
 reply
 .
 messageType
@@ -6386,10 +6381,8 @@ messageType
 =
 =
 undefined
-)
 |
 |
-(
 reply
 .
 messageType
@@ -6399,10 +6392,8 @@ messageType
 "
 ping
 "
-)
 |
 |
-(
 typeof
 reply
 .
@@ -6412,7 +6403,6 @@ messageType
 "
 string
 "
-)
 )
 {
 console

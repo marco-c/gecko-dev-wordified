@@ -288,6 +288,7 @@ if
 (
 DEBUG
 )
+{
 debug
 (
 "
@@ -298,6 +299,7 @@ Topic
 aTopic
 )
 ;
+}
 if
 (
 aTopic
@@ -797,6 +799,7 @@ if
 (
 DEBUG
 )
+{
 debug
 (
 "
@@ -810,6 +813,7 @@ message
 name
 )
 ;
+}
 break
 ;
 }

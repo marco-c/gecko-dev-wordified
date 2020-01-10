@@ -102,8 +102,10 @@ if
 -
 slaveLoadsPending
 )
+{
 break
 ;
+}
 /
 /
 Just
@@ -148,10 +150,12 @@ data
 perf
 "
 )
+{
 doStep
 (
 )
 ;
+}
 slave
 .
 postMessage

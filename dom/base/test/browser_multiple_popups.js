@@ -144,6 +144,7 @@ resolve
 ;
 }
 }
+;
 Services
 .
 ww
@@ -183,9 +184,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -226,6 +225,7 @@ browser_multiple_popups
 html
 "
 )
+;
 gBrowser
 .
 selectedTab
@@ -351,9 +351,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -437,6 +435,7 @@ browser_multiple_popups
 html
 "
 )
+;
 gBrowser
 .
 selectedTab
@@ -603,9 +602,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -689,6 +686,7 @@ browser_multiple_popups
 html
 "
 )
+;
 gBrowser
 .
 selectedTab
@@ -864,9 +862,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -907,6 +903,7 @@ browser_multiple_popups
 html
 "
 )
+;
 gBrowser
 .
 selectedTab
@@ -1106,9 +1103,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -1149,6 +1144,7 @@ browser_multiple_popups
 html
 "
 )
+;
 gBrowser
 .
 selectedTab
@@ -1350,9 +1346,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -1395,6 +1389,7 @@ html
 openPopups
 "
 )
+;
 gBrowser
 .
 selectedTab
@@ -1516,12 +1511,12 @@ p
 .
 setAttribute
 (
-'
+"
 id
-'
-'
+"
+"
 start
-'
+"
 )
 ;
 content
@@ -1613,9 +1608,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -1710,6 +1703,7 @@ html
 openPopups
 "
 )
+;
 gBrowser
 .
 selectedTab
@@ -1853,9 +1847,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -1896,6 +1888,7 @@ browser_multiple_popups
 html
 "
 )
+;
 gBrowser
 .
 selectedTab
@@ -2042,9 +2035,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -2085,6 +2076,7 @@ browser_multiple_popups
 html
 "
 )
+;
 gBrowser
 .
 selectedTab
@@ -2269,9 +2261,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -2312,6 +2302,7 @@ browser_multiple_popups
 html
 "
 )
+;
 gBrowser
 .
 selectedTab

@@ -275,6 +275,7 @@ close
 )
 ;
 }
+;
 ws1
 .
 onclose
@@ -293,6 +294,7 @@ maybeFinished
 )
 ;
 }
+;
 ws2
 .
 onopen
@@ -325,6 +327,7 @@ close
 )
 ;
 }
+;
 ws2
 .
 onclose
@@ -343,6 +346,7 @@ maybeFinished
 )
 ;
 }
+;
 }
 )
 ;
@@ -429,6 +433,7 @@ hasError
 true
 ;
 }
+;
 ws
 .
 onclose
@@ -483,6 +488,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -903,6 +909,7 @@ counter
 )
 ;
 }
+;
 ws
 .
 onmessage
@@ -978,6 +985,7 @@ counter
 ;
 }
 }
+;
 ws
 .
 onclose
@@ -997,6 +1005,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -1084,6 +1093,7 @@ open
 )
 ;
 }
+;
 ws
 .
 onmessage
@@ -1145,6 +1155,7 @@ close
 )
 ;
 }
+;
 ws
 .
 onclose
@@ -1178,6 +1189,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -1292,6 +1304,7 @@ close
 )
 ;
 }
+;
 ws
 .
 onclose
@@ -1385,6 +1398,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -1480,6 +1494,7 @@ _receivedErrorEvent
 true
 ;
 }
+;
 ws
 .
 onclose
@@ -1519,6 +1534,7 @@ resolve
 )
 ;
 }
+;
 ws
 .
 close
@@ -1613,6 +1629,7 @@ resolve
 )
 ;
 }
+;
 try
 {
 ws
@@ -1687,6 +1704,7 @@ close
 )
 ;
 }
+;
 }
 )
 ;
@@ -1803,6 +1821,7 @@ data
 )
 ;
 }
+;
 ws
 .
 onmessage
@@ -1905,6 +1924,7 @@ test
 )
 ;
 }
+;
 ws
 .
 onclose
@@ -1989,6 +2009,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -2125,6 +2146,7 @@ surrogate
 ;
 }
 }
+;
 ws
 .
 onmessage
@@ -2187,6 +2209,7 @@ ud800b
 )
 ;
 }
+;
 ws
 .
 onclose
@@ -2290,6 +2313,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -2411,6 +2435,7 @@ _timesCalledOnError
 +
 ;
 }
+;
 ws
 .
 onclose
@@ -2439,6 +2464,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -2546,6 +2572,7 @@ frame
 )
 ;
 }
+;
 ws
 .
 onclose
@@ -2680,6 +2707,7 @@ resolve
 )
 ;
 }
+;
 /
 /
 termination
@@ -2705,6 +2733,7 @@ function
 )
 {
 }
+;
 }
 )
 ;
@@ -2814,6 +2843,7 @@ close
 )
 ;
 }
+;
 ws
 .
 onmessage
@@ -2840,6 +2870,7 @@ close
 )
 ;
 }
+;
 ws
 .
 onerror
@@ -2849,6 +2880,7 @@ function
 )
 {
 }
+;
 ws
 .
 onclose
@@ -2862,6 +2894,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -3117,6 +3150,7 @@ forcegc
 )
 ;
 }
+;
 window
 .
 _test17
@@ -3261,6 +3295,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -3361,6 +3396,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -3465,6 +3501,7 @@ current_test
 )
 ;
 }
+;
 local_ws
 .
 onclose
@@ -3491,6 +3528,7 @@ resolve
 )
 ;
 }
+;
 local_ws
 =
 null
@@ -3506,6 +3544,7 @@ forcegc
 )
 ;
 }
+;
 window
 .
 _test20
@@ -3646,6 +3685,7 @@ forcegc
 )
 ;
 }
+;
 local_ws
 .
 onerror
@@ -3672,6 +3712,7 @@ current_test
 )
 ;
 }
+;
 local_ws
 .
 onmessage
@@ -3721,6 +3762,7 @@ forcegc
 )
 ;
 }
+;
 local_ws
 .
 onclose
@@ -3751,6 +3793,7 @@ resolve
 )
 ;
 }
+;
 local_ws
 =
 null
@@ -3766,6 +3809,7 @@ forcegc
 )
 ;
 }
+;
 window
 .
 _test21
@@ -3898,6 +3942,7 @@ resolve
 )
 ;
 }
+;
 SpecialPowers
 .
 clearUserPref
@@ -4048,6 +4093,7 @@ resolve
 )
 ;
 }
+;
 ws
 .
 onerror
@@ -4057,6 +4103,7 @@ function
 )
 {
 }
+;
 }
 )
 ;
@@ -4208,6 +4255,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -4535,6 +4583,7 @@ close
 )
 ;
 }
+;
 ws
 .
 onclose
@@ -4576,6 +4625,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -4678,6 +4728,7 @@ close
 )
 ;
 }
+;
 ws
 .
 onclose
@@ -4704,6 +4755,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -4812,6 +4864,7 @@ resolve
 )
 ;
 }
+;
 ws
 .
 onerror
@@ -4821,6 +4874,7 @@ function
 )
 {
 }
+;
 }
 )
 ;
@@ -4941,6 +4995,7 @@ close
 )
 ;
 }
+;
 ws
 .
 onclose
@@ -4982,6 +5037,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -5205,6 +5261,7 @@ but
 not
 reason
 }
+;
 ws
 .
 onclose
@@ -5277,6 +5334,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -5374,6 +5432,7 @@ close
 )
 ;
 }
+;
 ws
 .
 onclose
@@ -5445,6 +5504,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -5540,6 +5600,7 @@ code
 )
 ;
 }
+;
 ws
 .
 onclose
@@ -5631,6 +5692,7 @@ close
 )
 ;
 }
+;
 wsb
 .
 onclose
@@ -5701,7 +5763,9 @@ resolve
 )
 ;
 }
+;
 }
+;
 }
 )
 ;
@@ -5845,6 +5909,7 @@ close
 ;
 }
 }
+;
 ws
 .
 onclose
@@ -5882,6 +5947,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -6031,6 +6097,7 @@ close
 ;
 }
 }
+;
 ws
 .
 onclose
@@ -6184,6 +6251,7 @@ close
 ;
 }
 }
+;
 wsb
 .
 onclose
@@ -6275,6 +6343,7 @@ close
 )
 ;
 }
+;
 wsc
 .
 onclose
@@ -6324,8 +6393,11 @@ resolve
 )
 ;
 }
+;
 }
+;
 }
+;
 }
 )
 ;
@@ -6454,6 +6526,7 @@ close
 )
 ;
 }
+;
 ws
 .
 onclose
@@ -6478,6 +6551,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -6585,6 +6659,7 @@ close
 )
 ;
 }
+;
 ws
 .
 onclose
@@ -6623,6 +6698,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -6740,6 +6816,7 @@ close
 )
 ;
 }
+;
 ws
 .
 onclose
@@ -6779,6 +6856,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -6897,6 +6975,7 @@ close
 )
 ;
 }
+;
 ws
 .
 onclose
@@ -6984,6 +7063,7 @@ close
 )
 ;
 }
+;
 wsb
 .
 onclose
@@ -7118,6 +7198,7 @@ close
 )
 ;
 }
+;
 wsc
 .
 onclose
@@ -7180,6 +7261,7 @@ loadContext
 .
 usePrivateBrowsing
 )
+{
 flags
 |
 =
@@ -7189,6 +7271,7 @@ nsISocketProvider
 .
 NO_PERMANENT_STORAGE
 ;
+}
 SpecialPowers
 .
 cleanUpSTSData
@@ -7210,8 +7293,11 @@ resolve
 )
 ;
 }
+;
 }
+;
 }
+;
 }
 )
 ;
@@ -7376,6 +7462,7 @@ data
 )
 ;
 }
+;
 ws
 .
 onmessage
@@ -7430,6 +7517,7 @@ close
 ;
 }
 }
+;
 ws
 .
 onclose
@@ -7444,6 +7532,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -7641,6 +7730,7 @@ close
 )
 ;
 }
+;
 ws
 .
 onclose
@@ -7665,6 +7755,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -7834,6 +7925,7 @@ buf
 )
 ;
 }
+;
 ws
 .
 onmessage
@@ -7910,6 +8002,7 @@ close
 )
 ;
 }
+;
 ws
 .
 onclose
@@ -7947,6 +8040,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -8089,6 +8183,7 @@ blobFile
 )
 ;
 }
+;
 var
 test45blob
 ;
@@ -8129,6 +8224,7 @@ close
 )
 ;
 }
+;
 ws
 .
 onclose
@@ -8213,6 +8309,7 @@ result
 )
 ;
 }
+;
 reader
 .
 onerror
@@ -8243,6 +8340,7 @@ code
 )
 ;
 }
+;
 reader
 .
 onloadend
@@ -8257,6 +8355,7 @@ resolve
 )
 ;
 }
+;
 reader
 .
 readAsBinaryString
@@ -8265,6 +8364,7 @@ test45blob
 )
 ;
 }
+;
 }
 SpecialPowers
 .
@@ -8443,6 +8543,7 @@ ws
 close
 (
 )
+;
 is
 (
 ws
@@ -8465,6 +8566,7 @@ test
 )
 ;
 }
+;
 ws
 .
 onmessage
@@ -8492,6 +8594,7 @@ test
 )
 ;
 }
+;
 ws
 .
 onclose
@@ -8529,6 +8632,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -8666,6 +8770,7 @@ hasError
 true
 ;
 }
+;
 ws
 .
 onclose
@@ -8775,6 +8880,7 @@ resolve
 )
 ;
 }
+;
 /
 /
 Call
@@ -9009,6 +9115,7 @@ date
 )
 ;
 }
+;
 ws
 .
 onclose
@@ -9035,6 +9142,7 @@ resolve
 )
 ;
 }
+;
 SpecialPowers
 .
 clearUserPref
@@ -9140,7 +9248,9 @@ test
 49
 "
 )
+;
 }
+;
 ws
 .
 onerror
@@ -9153,7 +9263,9 @@ e
 gotError
 =
 1
+;
 }
+;
 ws
 .
 onclose
@@ -9183,6 +9295,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;

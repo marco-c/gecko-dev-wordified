@@ -1150,9 +1150,7 @@ OBSERVED_EVENTS
 .
 forEach
 (
-(
 aTopic
-)
 =
 >
 {
@@ -1336,9 +1334,7 @@ OBSERVED_EVENTS
 .
 forEach
 (
-(
 aTopic
-)
 =
 >
 {
@@ -1683,23 +1679,17 @@ forward
 this
 .
 _recvGoForward
-"
 reload
-"
 :
 this
 .
 _recvReload
-"
 stop
-"
 :
 this
 .
 _recvStop
-"
 zoom
-"
 :
 this
 .
@@ -1900,8 +1890,10 @@ docShell
 =
 subject
 )
+{
 return
 ;
+}
 switch
 (
 topic
@@ -1922,7 +1914,6 @@ activitydone
 {
 success
 :
-(
 data
 =
 =
@@ -1931,7 +1922,6 @@ activity
 -
 success
 "
-)
 }
 )
 ;
@@ -3378,9 +3368,7 @@ let
 handlers
 =
 {
-"
 icon
-"
 :
 this
 .
@@ -3424,9 +3412,7 @@ bind
 (
 this
 )
-"
 search
-"
 :
 this
 .
@@ -3634,9 +3620,7 @@ let
 handlers
 =
 {
-"
 viewmode
-"
 :
 this
 .
@@ -4002,7 +3986,6 @@ node
 =
 >
 (
-(
 ChromeUtils
 .
 getClassName
@@ -4056,7 +4039,6 @@ node
 "
 HTMLLinkElement
 "
-)
 ;
 /
 /
@@ -5629,9 +5611,7 @@ menuitem
 let
 doCommandIfEnabled
 =
-(
 command
-)
 =
 >
 {

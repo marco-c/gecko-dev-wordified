@@ -102,7 +102,7 @@ stream
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -116,7 +116,7 @@ input
 stream
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -221,10 +221,10 @@ href
 .
 startsWith
 (
-'
+"
 about
 :
-'
+"
 )
 )
 {

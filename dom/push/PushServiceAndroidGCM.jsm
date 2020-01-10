@@ -793,9 +793,7 @@ channelID
 "
 headers
 message
-(
 record
-)
 =
 >
 {

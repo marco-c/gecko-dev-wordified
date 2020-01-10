@@ -309,9 +309,7 @@ primitive
 const
 type
 =
-(
 isArray
-)
 ?
 "
 array

@@ -79,9 +79,7 @@ aBrowser
 .
 selectedBrowser
 aIsHidden
-(
 aExpectedResult
-)
 =
 >
 {
@@ -229,9 +227,7 @@ true
 capture
 *
 /
-(
 aEvent
-)
 =
 >
 {
@@ -256,6 +252,7 @@ visibilityState
 )
 ;
 return
+(
 content
 .
 document
@@ -276,6 +273,7 @@ visibilityState
 =
 =
 visibilityState
+)
 ;
 }
 )

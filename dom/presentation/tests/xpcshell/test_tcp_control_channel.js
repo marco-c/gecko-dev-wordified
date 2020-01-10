@@ -156,10 +156,12 @@ names
 .
 length
 )
+{
 run_next_test
 (
 )
 ;
+}
 }
 ;
 }
@@ -759,12 +761,10 @@ recvCandidate
 if
 (
 typeof
-(
 recvCandidate
 [
 key
 ]
-)
 !
 =
 =

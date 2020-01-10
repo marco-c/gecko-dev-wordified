@@ -32,9 +32,9 @@ postMessage
 {
 type
 :
-'
+"
 ok
-'
+"
 test
 :
 test
@@ -58,9 +58,9 @@ postMessage
 {
 type
 :
-'
+"
 is
-'
+"
 test1
 :
 a
@@ -176,6 +176,7 @@ done
 )
 ;
 }
+;
 }
 ]
 ;
@@ -212,9 +213,9 @@ postMessage
 {
 type
 :
-'
+"
 finish
-'
+"
 }
 )
 ;
@@ -332,6 +333,7 @@ steps
 )
 ;
 }
+;
 }
 else
 {
@@ -357,9 +359,9 @@ postMessage
 {
 type
 :
-'
+"
 finish
-'
+"
 }
 )
 ;

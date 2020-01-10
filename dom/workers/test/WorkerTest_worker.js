@@ -67,6 +67,7 @@ data
 )
 ;
 }
+;
 worker
 .
 postMessage
@@ -77,3 +78,4 @@ data
 )
 ;
 }
+;

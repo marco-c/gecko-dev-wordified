@@ -31,6 +31,7 @@ zero
 use
 strict
 "
+;
 /
 /
 This
@@ -296,11 +297,13 @@ Promise
 resolve
 =
 >
+(
 frame
 .
 onload
 =
 resolve
+)
 )
 ;
 }
@@ -444,9 +447,9 @@ doc
 .
 createElement
 (
-'
+"
 iframe
-'
+"
 )
 ;
 frame
@@ -471,11 +474,13 @@ Promise
 resolve
 =
 >
+(
 frame
 .
 onload
 =
 resolve
+)
 )
 ;
 return

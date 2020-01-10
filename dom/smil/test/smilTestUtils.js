@@ -261,7 +261,6 @@ aTargetTag
 )
 ;
 return
-(
 elemList
 .
 length
@@ -275,7 +274,6 @@ elemList
 [
 0
 ]
-)
 ;
 }
 /
@@ -926,8 +924,8 @@ px
 s
 *
 /
-'
-'
+"
+"
 )
 }
 ;
@@ -1500,6 +1498,7 @@ _dur
 ;
 }
 }
+;
 /
 *
 *
@@ -2712,6 +2711,7 @@ aBaseVal
 aTimeData
 aIsFreeze
 )
+;
 }
 seekAndTest
 :
@@ -2805,21 +2805,21 @@ values
 if
 (
 [
-'
+"
 stroke
 -
 width
-'
-'
+"
+"
 stroke
 -
 dasharray
-'
-'
+"
+"
 stroke
 -
 dashoffset
-'
+"
 ]
 .
 includes
@@ -3022,6 +3022,7 @@ this
 .
 from
 )
+;
 return
 animElem
 ;
@@ -3463,6 +3464,7 @@ seekList
 ;
 }
 }
+;
 extend
 (
 AnimTestcaseFrom
@@ -3767,11 +3769,13 @@ this
 .
 to
 )
+;
 return
 animElem
 ;
 }
 }
+;
 extend
 (
 AnimTestcaseFromTo
@@ -4137,6 +4141,7 @@ this
 .
 by
 )
+;
 return
 animElem
 ;
@@ -4206,6 +4211,7 @@ aIsFreeze
 ;
 }
 }
+;
 extend
 (
 AnimTestcaseFromBy
@@ -4619,6 +4625,7 @@ this
 .
 valuesString
 )
+;
 animElem
 .
 setAttribute

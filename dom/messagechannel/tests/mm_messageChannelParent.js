@@ -218,9 +218,7 @@ basic_test
 let
 finishPrepare
 =
-(
 msg
-)
 =
 >
 {
@@ -249,9 +247,7 @@ port
 .
 onmessage
 =
-(
 message
-)
 =
 >
 {
@@ -274,6 +270,7 @@ finish
 )
 ;
 }
+;
 port
 .
 postMessage
@@ -371,9 +368,7 @@ close_test
 let
 finishPrepare
 =
-(
 msg
-)
 =
 >
 {
@@ -402,9 +397,7 @@ port
 .
 onmessage
 =
-(
 message
-)
 =
 >
 {
@@ -424,6 +417,7 @@ finish
 )
 ;
 }
+;
 port
 .
 postMessage
@@ -452,6 +446,7 @@ finish
 )
 ;
 }
+;
 let
 channel
 =
@@ -522,9 +517,7 @@ empty_transferable
 let
 finishPrepare
 =
-(
 msg
-)
 =
 >
 {
@@ -611,9 +604,7 @@ not_transferable
 let
 finishPrepare
 =
-(
 msg
-)
 =
 >
 {
@@ -633,6 +624,7 @@ finish
 )
 ;
 }
+;
 mm
 .
 addMessageListener
@@ -706,9 +698,9 @@ document
 .
 getElementById
 (
-'
+"
 messagechannel_remote
-'
+"
 )
 ;
 mm
@@ -737,6 +729,7 @@ MessageManager
 .
 "
 )
+;
 mm
 .
 addMessageListener

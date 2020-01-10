@@ -274,12 +274,14 @@ Promise
 resolve
 =
 >
+(
 unregisterDone
 =
 after
 (
 2
 resolve
+)
 )
 )
 ;

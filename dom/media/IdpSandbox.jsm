@@ -608,16 +608,13 @@ uri
 host
 +
 (
-(
 uri
 .
 port
 >
 =
 0
-)
 ?
-(
 "
 :
 "
@@ -625,7 +622,6 @@ port
 uri
 .
 port
-)
 :
 "
 "
@@ -697,7 +693,6 @@ uri
 .
 hasRef
 ?
-(
 "
 #
 "
@@ -705,7 +700,6 @@ hasRef
 uri
 .
 ref
-)
 :
 "
 "

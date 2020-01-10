@@ -399,7 +399,6 @@ null
 ?
 null
 :
-(
 offsetParent
 ?
 offsetParent
@@ -407,7 +406,6 @@ offsetParent
 "
 body
 "
-)
 )
 ;
 var
@@ -526,6 +524,7 @@ element
 instanceof
 HTMLElement
 )
+{
 checkOffsetState
 (
 element
@@ -557,6 +556,7 @@ element
 id
 )
 ;
+}
 var
 scrollWidth
 scrollHeight
@@ -775,6 +775,7 @@ usesSVGLayout
 element
 )
 )
+{
 checkScrollState
 (
 element
@@ -787,7 +788,9 @@ element
 id
 )
 ;
+}
 else
+{
 checkScrollState
 (
 element
@@ -801,6 +804,7 @@ id
 )
 ;
 }
+}
 if
 (
 usesSVGLayout
@@ -808,6 +812,7 @@ usesSVGLayout
 element
 )
 )
+{
 checkClientState
 (
 element
@@ -820,7 +825,9 @@ element
 id
 )
 ;
+}
 else
+{
 checkClientState
 (
 element
@@ -833,6 +840,7 @@ element
 id
 )
 ;
+}
 var
 boundingrect
 =
@@ -1616,6 +1624,7 @@ val
 -
 10000
 )
+{
 is
 (
 element
@@ -1637,6 +1646,7 @@ type
 )
 ;
 }
+}
 function
 checkCoordFuzzy
 (
@@ -1655,6 +1665,7 @@ val
 -
 10000
 )
+{
 ok
 (
 Math
@@ -1684,6 +1695,7 @@ testname
 type
 )
 ;
+}
 }
 function
 checkCoords
@@ -1806,8 +1818,10 @@ usesSVGLayout
 element
 )
 )
+{
 return
 ;
+}
 if
 (
 element
@@ -1827,12 +1841,14 @@ parentNode
 .
 open
 )
+{
 /
 /
 closed
 popup
 return
 ;
+}
 if
 (
 element
@@ -1856,6 +1872,7 @@ id
 nonappended
 "
 )
+{
 /
 /
 hidden
@@ -1905,6 +1922,7 @@ height
 )
 ;
 }
+}
 function
 gcs
 (
@@ -1915,7 +1933,6 @@ prop
 var
 propVal
 =
-(
 usesSVGLayout
 (
 element
@@ -1937,7 +1954,6 @@ prop
 "
 height
 "
-)
 )
 ?
 element
@@ -1976,9 +1992,11 @@ id
 nonappended
 "
 )
+{
 return
 0
 ;
+}
 return
 parseFloat
 (

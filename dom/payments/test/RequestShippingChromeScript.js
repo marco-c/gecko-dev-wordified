@@ -500,7 +500,7 @@ e
 {
 emitTestFail
 (
-"
+'
 Fail
 to
 initialize
@@ -510,7 +510,6 @@ with
 {
 paymentToken
 :
-\
 "
 6880281f
 -
@@ -521,10 +520,9 @@ paymentToken
 916f
 -
 66575e2457c1
-\
 "
 }
-"
+'
 )
 ;
 }
@@ -694,11 +692,11 @@ null
 ;
 sendAsyncMessage
 (
-'
+"
 teardown
 -
 complete
-'
+"
 )
 ;
 }

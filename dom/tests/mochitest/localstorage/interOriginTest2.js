@@ -107,8 +107,10 @@ if
 -
 frameLoadsPending
 )
+{
 break
 ;
+}
 /
 /
 Just
@@ -136,6 +138,7 @@ if
 (
 callMasterFrame
 )
+{
 masterFrame
 .
 postMessage
@@ -146,7 +149,9 @@ step
 masterFrameOrigin
 )
 ;
+}
 else
+{
 slaveFrame
 .
 postMessage
@@ -157,6 +162,7 @@ step
 slaveFrameOrigin
 )
 ;
+}
 callMasterFrame
 =
 !
@@ -188,8 +194,10 @@ if
 (
 testDone
 )
+{
 break
 ;
+}
 testDone
 =
 true

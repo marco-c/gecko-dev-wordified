@@ -152,6 +152,7 @@ icon
 ;
 }
 return
+(
 '
 <
 link
@@ -197,6 +198,7 @@ png
 "
 >
 '
+)
 ;
 }
 function

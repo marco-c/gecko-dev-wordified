@@ -217,6 +217,7 @@ finish
 )
 ;
 }
+;
 worker
 .
 onerror
@@ -237,6 +238,7 @@ error
 )
 ;
 }
+;
 worker
 .
 postMessage

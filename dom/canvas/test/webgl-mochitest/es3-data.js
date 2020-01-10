@@ -199,6 +199,7 @@ Uint8Array
 ]
 )
 }
+;
 var
 img_4x4_signed_r11_eac
 =
@@ -292,6 +293,7 @@ Uint8Array
 ]
 )
 }
+;
 var
 img_4x4_rg11_eac
 =
@@ -393,6 +395,7 @@ Uint8Array
 ]
 )
 }
+;
 var
 img_4x4_signed_rg11_eac
 =
@@ -494,6 +497,7 @@ Uint8Array
 ]
 )
 }
+;
 var
 img_4x4_rgb_etc2
 =
@@ -587,6 +591,7 @@ Uint8Array
 ]
 )
 }
+;
 var
 img_4x4_rgb_punchthrough_etc2
 =
@@ -680,6 +685,7 @@ Uint8Array
 ]
 )
 }
+;
 var
 img_4x4_rgba_etc2
 =
@@ -781,6 +787,7 @@ Uint8Array
 ]
 )
 }
+;
 var
 img_8x8_r11_eac
 =
@@ -1090,6 +1097,7 @@ Uint8Array
 ]
 )
 }
+;
 var
 img_8x8_signed_r11_eac
 =
@@ -1399,6 +1407,7 @@ Uint8Array
 ]
 )
 }
+;
 var
 img_8x8_rg11_eac
 =
@@ -1740,6 +1749,7 @@ Uint8Array
 ]
 )
 }
+;
 var
 img_8x8_signed_rg11_eac
 =
@@ -2081,6 +2091,7 @@ Uint8Array
 ]
 )
 }
+;
 var
 img_8x8_rgb_etc2
 =
@@ -2390,6 +2401,7 @@ Uint8Array
 ]
 )
 }
+;
 var
 img_8x8_rgb_punchthrough_etc2
 =
@@ -2699,6 +2711,7 @@ Uint8Array
 ]
 )
 }
+;
 var
 img_8x8_rgba_etc2
 =
@@ -3040,6 +3053,7 @@ Uint8Array
 ]
 )
 }
+;
 /
 *
 This
@@ -7680,6 +7694,7 @@ Uint8Array
 ]
 )
 }
+;
 var
 img_32x32_signed_r11_eac
 =
@@ -12309,6 +12324,7 @@ Uint8Array
 ]
 )
 }
+;
 var
 img_32x32_rg11_eac
 =
@@ -17450,6 +17466,7 @@ Uint8Array
 ]
 )
 }
+;
 var
 img_32x32_signed_rg11_eac
 =
@@ -22591,6 +22608,7 @@ Uint8Array
 ]
 )
 }
+;
 var
 img_32x32_rgb_etc2
 =
@@ -27220,6 +27238,7 @@ Uint8Array
 ]
 )
 }
+;
 var
 img_32x32_rgb_punchthrough_etc2
 =
@@ -31849,6 +31868,7 @@ Uint8Array
 ]
 )
 }
+;
 var
 img_32x32_rgba_etc2
 =
@@ -36990,3 +37010,4 @@ Uint8Array
 ]
 )
 }
+;

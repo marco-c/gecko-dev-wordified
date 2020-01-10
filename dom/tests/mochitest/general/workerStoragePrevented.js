@@ -378,9 +378,9 @@ worker
 .
 addEventListener
 (
-'
+"
 message
-'
+"
 function
 (
 e

@@ -101,8 +101,10 @@ PopupNotifications
 .
 panel
 )
+{
 return
 ;
+}
 win
 .
 PopupNotifications

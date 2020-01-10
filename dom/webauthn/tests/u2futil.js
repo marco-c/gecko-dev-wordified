@@ -212,6 +212,7 @@ event
 .
 data
 )
+;
 }
 }
 function
@@ -226,6 +227,7 @@ log
 (
 msg
 )
+;
 let
 logBox
 =
@@ -366,26 +368,21 @@ let
 body
 =
 {
-"
 test
-"
 :
 this
 .
 location
 .
 pathname
-"
 status
-"
 :
 expression
-"
 msg
-"
 :
 message
 }
+;
 parent
 .
 postMessage
@@ -441,7 +438,6 @@ name
 )
 ;
 }
-;
 function
 local_expectThisManyTests
 (
@@ -486,6 +482,7 @@ _countCompletions
 +
 =
 1
+;
 if
 (
 _countCompletions
@@ -503,6 +500,7 @@ completed
 .
 "
 )
+;
 local_finished
 (
 )
@@ -542,9 +540,7 @@ parent
 postMessage
 (
 {
-"
 done
-"
 :
 true
 }
@@ -569,14 +565,12 @@ str
 )
 {
 return
-(
 new
 Uint8Array
 (
 str
 .
 length
-)
 )
 .
 map
@@ -641,6 +635,7 @@ x
 )
 {
 return
+(
 str
 +
 =
@@ -650,6 +645,8 @@ fromCharCode
 (
 x
 )
+)
+;
 }
 )
 ;
@@ -1895,6 +1892,7 @@ verify
 "
 ]
 )
+;
 }
 function
 deriveAppAndChallengeParam
@@ -2038,7 +2036,6 @@ length
 )
 {
 throw
-(
 "
 Coordinates
 must
@@ -2047,7 +2044,6 @@ be
 bytes
 long
 "
-)
 ;
 }
 let
@@ -2076,6 +2072,7 @@ i
 )
 =
 >
+(
 keyBytes
 [
 1
@@ -2084,6 +2081,7 @@ i
 ]
 =
 x
+)
 )
 ;
 yCoord
@@ -2096,6 +2094,7 @@ i
 )
 =
 >
+(
 keyBytes
 [
 33
@@ -2104,6 +2103,7 @@ i
 ]
 =
 x
+)
 )
 ;
 return
@@ -2148,6 +2148,7 @@ i
 )
 =
 >
+(
 signedData
 [
 0
@@ -2156,6 +2157,7 @@ i
 ]
 =
 x
+)
 )
 ;
 signedData
@@ -2186,6 +2188,7 @@ i
 )
 =
 >
+(
 signedData
 [
 33
@@ -2194,6 +2197,7 @@ i
 ]
 =
 x
+)
 )
 ;
 new
@@ -2210,6 +2214,7 @@ i
 )
 =
 >
+(
 signedData
 [
 37
@@ -2218,6 +2223,7 @@ i
 ]
 =
 x
+)
 )
 ;
 return
@@ -2273,6 +2279,7 @@ i
 )
 =
 >
+(
 signedData
 [
 1
@@ -2281,6 +2288,7 @@ i
 ]
 =
 x
+)
 )
 ;
 new
@@ -2297,6 +2305,7 @@ i
 )
 =
 >
+(
 signedData
 [
 33
@@ -2305,6 +2314,7 @@ i
 ]
 =
 x
+)
 )
 ;
 new
@@ -2321,6 +2331,7 @@ i
 )
 =
 >
+(
 signedData
 [
 65
@@ -2329,6 +2340,7 @@ i
 ]
 =
 x
+)
 )
 ;
 new
@@ -2345,6 +2357,7 @@ i
 )
 =
 >
+(
 signedData
 [
 65
@@ -2357,6 +2370,7 @@ i
 ]
 =
 x
+)
 )
 ;
 return
@@ -2424,6 +2438,7 @@ length
 -
 32
 )
+;
 }
 let
 ret

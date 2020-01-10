@@ -189,9 +189,7 @@ supportedProps
 if
 (
 typeof
-(
 prop
-)
 =
 =
 =

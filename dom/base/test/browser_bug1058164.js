@@ -66,9 +66,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -241,9 +239,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -345,9 +341,7 @@ resolve
 let
 eventListener
 =
-(
 type
-)
 =
 >
 {
@@ -367,9 +361,7 @@ checkSatisfied
 let
 checkFn
 =
-(
 e
-)
 =
 >
 e

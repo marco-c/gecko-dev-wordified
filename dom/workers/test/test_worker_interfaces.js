@@ -3397,9 +3397,7 @@ interfaces
 if
 (
 typeof
-(
 entry
-)
 =
 =
 =
@@ -3443,7 +3441,6 @@ name
 ;
 if
 (
-(
 entry
 .
 nightly
@@ -3452,7 +3449,6 @@ nightly
 =
 !
 isNightly
-)
 |
 |
 (
@@ -3475,7 +3471,6 @@ isAndroid
 )
 |
 |
-(
 entry
 .
 desktop
@@ -3484,7 +3479,6 @@ desktop
 =
 !
 isDesktop
-)
 |
 |
 (
@@ -3505,7 +3499,6 @@ nightlyAndroid
 )
 |
 |
-(
 entry
 .
 fennecOrDesktop
@@ -3519,10 +3512,8 @@ isAndroid
 !
 isFennec
 )
-)
 |
 |
-(
 entry
 .
 fennec
@@ -3531,10 +3522,8 @@ fennec
 =
 !
 isFennec
-)
 |
 |
-(
 entry
 .
 release
@@ -3543,7 +3532,6 @@ release
 =
 !
 isRelease
-)
 |
 |
 /

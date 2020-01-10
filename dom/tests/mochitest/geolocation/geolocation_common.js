@@ -122,9 +122,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -173,7 +171,8 @@ start
 +
 delay
 )
-;
+{
+}
 }
 function
 force_prompt
@@ -187,9 +186,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -391,9 +388,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -817,13 +812,11 @@ altitude
 )
 |
 |
-(
 altitudeAccuracy
 =
 =
 =
 null
-)
 "
 check
 altitudeAccuracy
@@ -898,9 +891,7 @@ x
 {
 return
 typeof
-(
 x
-)
 =
 =
 =

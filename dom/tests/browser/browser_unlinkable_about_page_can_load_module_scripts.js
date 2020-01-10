@@ -263,9 +263,7 @@ page
 "
 }
 async
-(
 browser
-)
 =
 >
 {
@@ -366,9 +364,7 @@ page
 "
 }
 async
-(
 browser
-)
 =
 >
 {

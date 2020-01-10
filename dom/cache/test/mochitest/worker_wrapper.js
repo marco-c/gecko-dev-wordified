@@ -733,9 +733,11 @@ Promise
 resolve
 =
 >
+(
 completeInstall
 =
 resolve
+)
 )
 )
 ;

@@ -220,6 +220,7 @@ aCharset
 =
 undefined
 )
+{
 aCharset
 =
 "
@@ -228,6 +229,7 @@ UTF
 8
 "
 ;
+}
 var
 file
 =

@@ -133,6 +133,7 @@ data
 )
 ;
 }
+;
 worker
 .
 postMessage
@@ -143,3 +144,4 @@ data
 )
 ;
 }
+;

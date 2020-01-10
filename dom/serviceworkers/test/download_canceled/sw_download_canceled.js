@@ -244,9 +244,7 @@ controller
 const
 closeStream
 =
-(
 why
-)
 =
 >
 {
@@ -1029,6 +1027,7 @@ download
 }
 }
 )
+;
 addEventListener
 (
 "

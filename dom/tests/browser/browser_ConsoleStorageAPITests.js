@@ -64,12 +64,14 @@ length
 >
 1
 )
+{
 gBrowser
 .
 removeCurrentTab
 (
 )
 ;
+}
 }
 add_task
 (

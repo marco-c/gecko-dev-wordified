@@ -1292,6 +1292,7 @@ null
 )
 =
 >
+(
 content
 .
 document
@@ -1303,6 +1304,7 @@ about
 :
 blank
 "
+)
 )
 ;
 await

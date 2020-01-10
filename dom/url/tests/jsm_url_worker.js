@@ -77,11 +77,9 @@ try
 {
 if
 (
-(
 URL
 instanceof
 Object
-)
 )
 {
 status

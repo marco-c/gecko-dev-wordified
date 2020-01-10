@@ -820,6 +820,7 @@ hasChildNodes
 (
 )
 )
+{
 node
 .
 removeChild
@@ -834,4 +835,5 @@ item
 )
 )
 ;
+}
 }

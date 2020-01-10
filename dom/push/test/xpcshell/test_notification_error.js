@@ -358,6 +358,7 @@ Promise
 resolve
 =
 >
+(
 ackDone
 =
 after
@@ -366,6 +367,7 @@ records
 .
 length
 resolve
+)
 )
 )
 ;

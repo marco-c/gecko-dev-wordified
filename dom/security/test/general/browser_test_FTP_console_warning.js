@@ -19,10 +19,10 @@ in
 the
 webconsole
 .
-'
+"
 use
 strict
-'
+"
 ;
 function
 scopedCuImport
@@ -403,7 +403,6 @@ message
 )
 ;
 }
-;
 var
 webconsole
 =
@@ -608,6 +607,7 @@ test
 8888
 "
 )
+;
 const
 kTestURI
 =

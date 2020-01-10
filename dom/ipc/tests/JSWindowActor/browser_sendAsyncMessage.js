@@ -151,9 +151,7 @@ actorChild
 .
 done
 =
-(
 data
-)
 =
 >
 resolve
@@ -339,9 +337,7 @@ actorChild
 .
 done
 =
-(
 data
-)
 =
 >
 resolve

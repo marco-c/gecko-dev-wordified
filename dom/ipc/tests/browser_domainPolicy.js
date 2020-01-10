@@ -504,6 +504,7 @@ i
 in
 result
 )
+{
 ok
 (
 result
@@ -520,6 +521,7 @@ i
 msg
 )
 ;
+}
 gBrowser
 .
 removeTab
@@ -550,9 +552,7 @@ domain
 domain
 ;
 return
-(
 aUtils
-)
 =
 >
 {
@@ -887,9 +887,7 @@ list
 list
 ;
 return
-(
 aUtils
-)
 =
 >
 {
@@ -1069,6 +1067,7 @@ length
 -
 1
 )
+{
 deferred
 .
 resolve
@@ -1076,7 +1075,9 @@ resolve
 results
 )
 ;
+}
 else
+{
 testListInternal
 (
 internalExpectEnabled
@@ -1103,6 +1104,7 @@ retArg
 }
 )
 ;
+}
 }
 )
 ;
@@ -1359,6 +1361,7 @@ e
 of
 exceptions
 )
+{
 set
 .
 add
@@ -1369,6 +1372,7 @@ e
 )
 )
 ;
+}
 for
 (
 let
@@ -1376,6 +1380,7 @@ e
 of
 superExceptions
 )
+{
 superSet
 .
 add
@@ -1386,6 +1391,7 @@ e
 )
 )
 ;
+}
 }
 info
 (

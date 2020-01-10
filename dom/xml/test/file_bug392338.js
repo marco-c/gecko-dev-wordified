@@ -40,7 +40,7 @@ if
 topic
 =
 =
-'
+"
 http
 -
 on
@@ -48,7 +48,7 @@ on
 modify
 -
 request
-'
+"
 )
 {
 var
@@ -129,13 +129,13 @@ e
 }
 sendAsyncMessage
 (
-'
+"
 modify
 -
 request
 -
 completed
-'
+"
 testOk
 )
 ;
@@ -146,7 +146,7 @@ obs
 removeObserver
 (
 modifyObserver
-'
+"
 http
 -
 on
@@ -154,7 +154,7 @@ on
 modify
 -
 request
-'
+"
 )
 ;
 }
@@ -168,7 +168,7 @@ obs
 addObserver
 (
 modifyObserver
-'
+"
 http
 -
 on
@@ -176,6 +176,6 @@ on
 modify
 -
 request
-'
+"
 )
 ;

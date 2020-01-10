@@ -82,6 +82,7 @@ example
 com
 "
 )
+;
 const
 kRedirectURI
 =
@@ -118,9 +119,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -221,9 +220,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -360,9 +357,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

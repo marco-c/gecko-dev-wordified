@@ -37,6 +37,7 @@ win
 )
 {
 return
+(
 win
 .
 innerWidth
@@ -59,6 +60,7 @@ win
 screen
 .
 height
+)
 ;
 }
 /
@@ -108,6 +110,7 @@ win
 )
 {
 return
+(
 win
 .
 innerWidth
@@ -130,6 +133,7 @@ win
 normalSize
 .
 h
+)
 ;
 }
 /
@@ -612,9 +616,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -683,6 +685,7 @@ listener
 ;
 }
 )
+;
 }
 /
 /
@@ -780,9 +783,9 @@ document
 readyState
 =
 =
-'
+"
 complete
-'
+"
 )
 {
 callback

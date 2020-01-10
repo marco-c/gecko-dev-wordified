@@ -161,11 +161,13 @@ testBinaryData
 .
 length
 -
+(
 testBinaryData
 .
 length
 %
 3
+)
 )
 ;
 let
@@ -182,11 +184,13 @@ length
 -
 2
 -
+(
 testBinaryData
 .
 length
 %
 3
+)
 )
 ;
 let
@@ -203,11 +207,13 @@ length
 -
 1
 -
+(
 testBinaryData
 .
 length
 %
 3
+)
 )
 ;
 /
@@ -1668,6 +1674,7 @@ readAsText
 )
 ;
 }
+;
 r
 .
 addEventListener
@@ -1683,6 +1690,7 @@ load
 onloadHasRun
 =
 true
+;
 }
 )
 ;
@@ -1701,6 +1709,7 @@ loadstart
 onloadStartHasRun
 =
 true
+;
 }
 )
 ;
@@ -1820,6 +1829,7 @@ function
 onloadHasRun
 =
 true
+;
 }
 )
 ;
@@ -1837,6 +1847,7 @@ function
 onloadStartHasRun
 =
 true
+;
 }
 )
 ;
@@ -1870,6 +1881,7 @@ readAsBinaryString
 )
 ;
 }
+;
 is
 (
 r
@@ -1978,6 +1990,7 @@ function
 onloadHasRun
 =
 true
+;
 }
 )
 ;
@@ -1995,6 +2008,7 @@ function
 onloadStartHasRun
 =
 true
+;
 }
 )
 ;
@@ -2025,6 +2039,7 @@ readAsArrayBuffer
 )
 ;
 }
+;
 is
 (
 r
@@ -2133,6 +2148,7 @@ charset
 )
 ;
 }
+;
 r
 .
 readAsText
@@ -2283,6 +2299,7 @@ readAsDataURL
 )
 ;
 }
+;
 r
 .
 readAsDataURL
@@ -2359,6 +2376,7 @@ once
 )
 ;
 }
+;
 let
 anotherListener
 =
@@ -2410,6 +2428,7 @@ twice
 )
 ;
 }
+;
 r1
 .
 readAsText
@@ -2505,6 +2524,7 @@ once
 )
 ;
 }
+;
 let
 anotherListener
 =
@@ -2556,6 +2576,7 @@ twice
 )
 ;
 }
+;
 r1
 .
 readAsBinaryString
@@ -2640,6 +2661,7 @@ once
 )
 ;
 }
+;
 let
 anotherListener
 =
@@ -2689,6 +2711,7 @@ twice
 )
 ;
 }
+;
 r1
 .
 readAsDataURL
@@ -2771,6 +2794,7 @@ once
 )
 ;
 }
+;
 let
 anotherListener
 =
@@ -2819,6 +2843,7 @@ twice
 )
 ;
 }
+;
 r1
 .
 readAsArrayBuffer
@@ -2923,6 +2948,7 @@ once2
 )
 ;
 }
+;
 let
 anotherListener
 =
@@ -2974,6 +3000,7 @@ twice2
 )
 ;
 }
+;
 r1
 .
 readAsBinaryString
@@ -3078,6 +3105,7 @@ numb
 )
 ;
 }
+;
 r
 .
 readAsDataURL
@@ -3232,6 +3260,7 @@ reads
 )
 ;
 }
+;
 r
 .
 onloadend
@@ -3335,6 +3364,7 @@ reads
 )
 ;
 }
+;
 r
 .
 onload
@@ -3356,6 +3386,7 @@ aborted
 reads
 "
 )
+;
 }
 ;
 r
@@ -3379,6 +3410,7 @@ aborted
 reads
 "
 )
+;
 }
 ;
 r
@@ -3402,6 +3434,7 @@ aborted
 reads
 "
 )
+;
 }
 ;
 let
@@ -3634,6 +3667,7 @@ reads
 )
 ;
 }
+;
 r
 .
 onload
@@ -3800,6 +3834,7 @@ reading
 )
 ;
 }
+;
 }
 )
 ;

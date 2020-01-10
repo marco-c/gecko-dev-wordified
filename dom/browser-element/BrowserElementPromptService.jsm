@@ -1302,7 +1302,6 @@ now
 .
 if
 (
-(
 authInfo
 .
 flags
@@ -1312,10 +1311,8 @@ Ci
 nsIAuthInformation
 .
 AUTH_PROXY
-)
 &
 &
-(
 authInfo
 .
 flags
@@ -1325,7 +1322,6 @@ Ci
 nsIAuthInformation
 .
 ONLY_PASSWORD
-)
 )
 {
 throw
@@ -1669,8 +1665,10 @@ if
 !
 hashKey
 )
+{
 return
 ;
+}
 let
 prompt
 =
@@ -2294,6 +2292,7 @@ Ci
 nsIProxiedChannel
 )
 )
+{
 throw
 new
 Error
@@ -2306,6 +2305,7 @@ nsIProxiedChannel
 "
 )
 ;
+}
 let
 info
 =
@@ -2318,6 +2318,7 @@ if
 !
 info
 )
+{
 throw
 new
 Error
@@ -2330,6 +2331,7 @@ nsIProxyInfo
 "
 )
 ;
+}
 /
 /
 Proxies
@@ -2433,10 +2435,12 @@ if
 !
 realm
 )
+{
 realm
 =
 hostname
 ;
+}
 return
 [
 hostname
@@ -2509,10 +2513,12 @@ if
 !
 realm
 )
+{
 realm
 =
 hostname
 ;
+}
 return
 [
 hostname
@@ -2748,9 +2754,11 @@ getBrowserElementParentForFrame
 frame
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -2874,6 +2882,7 @@ _mayUseNativePrompt
 (
 )
 )
+{
 return
 this
 .
@@ -2885,6 +2894,7 @@ win
 iid
 )
 ;
+}
 /
 /
 Not
@@ -2946,6 +2956,7 @@ if
 !
 win
 )
+{
 return
 this
 .
@@ -2958,6 +2969,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 iid

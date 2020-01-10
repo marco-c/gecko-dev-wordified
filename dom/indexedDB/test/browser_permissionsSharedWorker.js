@@ -72,7 +72,6 @@ success
 "
 isIDBDatabase
 :
-(
 event
 .
 target
@@ -80,7 +79,6 @@ target
 result
 instanceof
 IDBDatabase
-)
 }
 )
 ;

@@ -212,9 +212,9 @@ name
 =
 =
 =
-'
+"
 SecurityError
-'
+"
 )
 {
 postMessage
@@ -229,8 +229,7 @@ return
 }
 }
 throw
-(
-'
+"
 creating
 a
 chrome
@@ -243,8 +242,7 @@ should
 throw
 a
 SecurityError
-'
-)
+"
 ;
 }
 ;

@@ -795,6 +795,7 @@ name
 )
 {
 return
+(
 this
 .
 _store
@@ -826,6 +827,7 @@ data
 manifest
 .
 short_url
+)
 ;
 }
 get
@@ -845,6 +847,7 @@ installed
 )
 {
 return
+(
 this
 .
 _store
@@ -859,6 +862,7 @@ _store
 data
 .
 installed
+)
 |
 |
 false

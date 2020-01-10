@@ -872,7 +872,6 @@ TYPE_DATACHANNEL
 {
 isValid
 =
-(
 aSDP
 .
 dataChannelSDP
@@ -883,7 +882,6 @@ test
 -
 sdp
 "
-)
 ;
 }
 return
@@ -1503,13 +1501,11 @@ nsINetAddr
 )
 address
 :
-(
 tcpAddresses
 .
 length
 >
 0
-)
 ?
 tcpAddresses
 .
@@ -1596,7 +1592,6 @@ hasNavigator
 =
 window
 ?
-(
 typeof
 window
 .
@@ -1606,7 +1601,6 @@ navigator
 "
 undefined
 "
-)
 :
 false
 ;

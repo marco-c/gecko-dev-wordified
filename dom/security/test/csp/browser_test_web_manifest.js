@@ -1516,9 +1516,7 @@ tests
 .
 map
 (
-(
 test
-)
 =
 >
 {
@@ -1543,9 +1541,7 @@ BrowserTestUtils
 withNewTab
 (
 tabOptions
-(
 browser
-)
 =
 >
 testObtainingManifest
@@ -1788,7 +1784,6 @@ resolve
 )
 ;
 }
-;
 Services
 .
 obs

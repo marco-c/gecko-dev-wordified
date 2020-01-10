@@ -609,9 +609,11 @@ Promise
 resolve
 =
 >
+(
 unregisterDone
 =
 resolve
+)
 )
 ;
 PushService

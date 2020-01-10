@@ -422,12 +422,14 @@ Promise
 resolve
 =
 >
+(
 notificationDone
 =
 after
 (
 2
 resolve
+)
 )
 )
 ;

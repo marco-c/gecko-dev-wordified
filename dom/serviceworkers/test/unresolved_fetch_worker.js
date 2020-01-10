@@ -100,6 +100,7 @@ rej
 )
 ;
 }
+;
 onmessage
 =
 function
@@ -115,9 +116,9 @@ data
 =
 =
 =
-'
+"
 claim
-'
+"
 )
 {
 event
@@ -133,3 +134,4 @@ claim
 ;
 }
 }
+;

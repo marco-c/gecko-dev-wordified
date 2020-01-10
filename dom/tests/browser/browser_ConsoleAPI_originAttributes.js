@@ -262,9 +262,7 @@ getEvents
 .
 filter
 (
-(
 msg
-)
 =
 >
 {

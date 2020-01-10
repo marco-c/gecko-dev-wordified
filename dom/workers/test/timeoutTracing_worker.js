@@ -48,6 +48,7 @@ me
 "
 ;
 }
+;
 setInterval
 (
 function

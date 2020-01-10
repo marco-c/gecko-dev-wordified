@@ -717,9 +717,7 @@ getAvailability
 .
 then
 (
-(
 aAvailability
-)
 =
 >
 {
@@ -796,9 +794,7 @@ add
 .
 catch
 (
-(
 aError
-)
 =
 >
 {
@@ -857,9 +853,7 @@ start
 .
 then
 (
-(
 aConnection
-)
 =
 >
 {
@@ -961,9 +955,7 @@ aResolve
 .
 catch
 (
-(
 aError
-)
 =
 >
 {
@@ -1302,9 +1294,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

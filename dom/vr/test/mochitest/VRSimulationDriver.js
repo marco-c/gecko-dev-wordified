@@ -136,6 +136,7 @@ height
 )
 ;
 }
+;
 var
 SetEyeParameter
 =
@@ -166,6 +167,7 @@ leftDegree
 )
 ;
 }
+;
 var
 SetMountState
 =
@@ -182,6 +184,7 @@ isMounted
 )
 ;
 }
+;
 var
 UpdateVRDisplay
 =
@@ -196,6 +199,7 @@ update
 )
 ;
 }
+;
 var
 AttachVRController
 =
@@ -245,6 +249,7 @@ return
 promise
 ;
 }
+;
 var
 API
 =
@@ -279,7 +284,7 @@ return
 API
 ;
 }
-(
 )
+(
 )
 ;

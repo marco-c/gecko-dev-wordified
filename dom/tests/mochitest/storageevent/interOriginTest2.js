@@ -109,8 +109,10 @@ if
 -
 frameLoadsPending
 )
+{
 break
 ;
+}
 /
 /
 Just
@@ -138,6 +140,7 @@ if
 (
 callMasterFrame
 )
+{
 masterFrame
 .
 postMessage
@@ -150,11 +153,13 @@ step
 "
 )
 ;
+}
 else
 if
 (
 slaveFrame
 )
+{
 slaveFrame
 .
 postMessage
@@ -167,6 +172,7 @@ step
 "
 )
 ;
+}
 else
 if
 (
@@ -174,6 +180,7 @@ masterFrame
 .
 slaveFrame
 )
+{
 masterFrame
 .
 slaveFrame
@@ -188,6 +195,7 @@ step
 "
 )
 ;
+}
 callMasterFrame
 =
 !
@@ -219,8 +227,10 @@ if
 (
 testDone
 )
+{
 break
 ;
+}
 testDone
 =
 true
@@ -261,8 +271,10 @@ data
 undefined
 "
 )
+{
 break
 ;
+}
 /
 /
 XXXkhuey
@@ -296,6 +308,7 @@ match
 todoRegExp
 )
 )
+{
 SimpleTest
 .
 todo
@@ -306,7 +319,9 @@ event
 data
 )
 ;
+}
 else
+{
 SimpleTest
 .
 ok
@@ -325,6 +340,7 @@ event
 data
 )
 ;
+}
 break
 ;
 }

@@ -277,6 +277,7 @@ constructor
 =
 Array
 )
+{
 a
 =
 new
@@ -285,6 +286,7 @@ MatrixFromArray
 a
 )
 ;
+}
 if
 (
 b
@@ -295,6 +297,7 @@ constructor
 =
 Array
 )
+{
 b
 =
 new
@@ -303,6 +306,7 @@ MatrixFromArray
 b
 )
 ;
+}
 ok
 (
 a
@@ -404,6 +408,7 @@ constructor
 =
 Array
 )
+{
 a
 =
 new
@@ -412,6 +417,7 @@ MatrixFromArray
 a
 )
 ;
+}
 if
 (
 b
@@ -422,6 +428,7 @@ constructor
 =
 Array
 )
+{
 b
 =
 new
@@ -430,6 +437,7 @@ MatrixFromArray
 b
 )
 ;
+}
 const
 tolerance
 =
@@ -571,6 +579,7 @@ constructor
 =
 Array
 )
+{
 return
 "
 (
@@ -607,6 +616,7 @@ join
 )
 "
 ;
+}
 return
 "
 (

@@ -43,9 +43,11 @@ length
 =
 0
 )
+{
 return
 undefined
 ;
+}
 return
 lastObject
 ?
@@ -87,6 +89,7 @@ undefined
 =
 embed
 )
+{
 embed
 =
 getNode
@@ -101,6 +104,7 @@ object
 )
 )
 ;
+}
 /
 /
 In
@@ -153,8 +157,10 @@ content
 .
 length
 )
+{
 return
 ;
+}
 var
 filename
 =

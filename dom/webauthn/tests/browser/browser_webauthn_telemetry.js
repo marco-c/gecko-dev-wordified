@@ -692,9 +692,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -998,6 +996,7 @@ publicKeyHandle
 signedData
 signature
 )
+;
 ok
 (
 valid

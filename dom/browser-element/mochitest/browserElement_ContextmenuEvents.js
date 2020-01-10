@@ -2087,15 +2087,7 @@ sendAsyncMessage
 setsrc
 "
 {
-"
 selector
-"
-:
-selector
-"
-src
-"
-:
 src
 }
 )
@@ -2279,10 +2271,6 @@ sendAsyncMessage
 contextmenu
 "
 {
-"
-selector
-"
-:
 selector
 }
 )
@@ -3185,8 +3173,10 @@ ctx
 callback
 "
 )
+{
 return
 ;
+}
 /
 *
 Use

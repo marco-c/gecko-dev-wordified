@@ -639,7 +639,6 @@ present
 )
 func
 ?
-(
 "
 (
 "
@@ -656,7 +655,6 @@ toString
 )
 ;
 "
-)
 :
 "
 "
@@ -1312,12 +1310,14 @@ isXrayWrapper
 arg
 )
 )
+{
 arg
 =
 arg
 .
 wrappedJSObject
 ;
+}
 is
 (
 arg

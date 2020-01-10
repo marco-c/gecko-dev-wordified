@@ -422,6 +422,7 @@ window
 )
 ;
 }
+;
 }
 function
 doTest

@@ -687,6 +687,7 @@ if
 !
 plugin
 )
+{
 do_throw
 (
 "
@@ -697,6 +698,7 @@ found
 "
 )
 ;
+}
 /
 /
 The

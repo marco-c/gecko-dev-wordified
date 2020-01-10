@@ -589,9 +589,7 @@ return
 setupTest
 (
 {
-"
 WhatToVary
-"
 :
 "
 Custom
@@ -695,9 +693,7 @@ requestURL
 headers
 :
 {
-"
 Custom
-"
 :
 "
 foo
@@ -778,9 +774,7 @@ requestURL
 headers
 :
 {
-"
 Custom
-"
 :
 "
 foo
@@ -903,9 +897,7 @@ return
 setupTest
 (
 {
-"
 WhatToVary
-"
 :
 "
 Custom
@@ -1003,9 +995,7 @@ requestURL
 headers
 :
 {
-"
 Custom
-"
 :
 "
 foo
@@ -1085,9 +1075,7 @@ requestURL
 headers
 :
 {
-"
 Custom
-"
 :
 "
 foo
@@ -1244,9 +1232,7 @@ requestURL
 headers
 :
 {
-"
 WhatToVary
-"
 :
 "
 *
@@ -1275,9 +1261,7 @@ requestURL
 headers
 :
 {
-"
 WhatToVary
-"
 :
 "
 *
@@ -1309,9 +1293,7 @@ requestURL
 headers
 :
 {
-"
 WhatToVary
-"
 :
 "
 *
@@ -1362,9 +1344,7 @@ requestURL
 headers
 :
 {
-"
 WhatToVary
-"
 :
 "
 *
@@ -1396,9 +1376,7 @@ requestURL
 headers
 :
 {
-"
 WhatToVary
-"
 :
 "
 *
@@ -1433,9 +1411,7 @@ requestURL
 headers
 :
 {
-"
 WhatToVary
-"
 :
 "
 *
@@ -1489,9 +1465,7 @@ requestURL
 headers
 :
 {
-"
 WhatToVary
-"
 :
 "
 User
@@ -1523,9 +1497,7 @@ requestURL
 headers
 :
 {
-"
 WhatToVary
-"
 :
 "
 User
@@ -1560,9 +1532,7 @@ requestURL
 headers
 :
 {
-"
 WhatToVary
-"
 :
 "
 User
@@ -1626,16 +1596,12 @@ return
 setupTest
 (
 {
-"
 WhatToVary
-"
 :
 "
 Custom
 "
-"
 Custom
-"
 :
 "
 foo
@@ -1683,9 +1649,7 @@ requestURL
 headers
 :
 {
-"
 Custom
-"
 :
 "
 bar
@@ -1759,9 +1723,7 @@ requestURL
 headers
 :
 {
-"
 Custom
-"
 :
 "
 foo
@@ -1811,9 +1773,7 @@ return
 setupTest
 (
 {
-"
 WhatToVary
-"
 :
 "
 Foo
@@ -2041,9 +2001,7 @@ requestURL
 headers
 :
 {
-"
 Foo
-"
 :
 "
 foobar
@@ -2091,9 +2049,7 @@ return
 setupTest
 (
 {
-"
 WhatToVary
-"
 :
 "
 Custom
@@ -2827,9 +2783,7 @@ setupTestMultipleEntries
 (
 [
 {
-"
 WhatToVary
-"
 :
 "
 Accept
@@ -2849,9 +2803,7 @@ US
 "
 }
 {
-"
 WhatToVary
-"
 :
 "
 Accept

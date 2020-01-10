@@ -87,6 +87,7 @@ apply
 this
 arguments
 )
+;
 }
 element
 .
@@ -109,6 +110,7 @@ element
 .
 id
 )
+;
 }
 finally
 {
@@ -119,6 +121,7 @@ removeEventListener
 event
 unique_handler
 )
+;
 }
 }
 /
@@ -195,6 +198,7 @@ if
 (
 win
 )
+{
 wins
 [
 wins
@@ -204,6 +208,7 @@ length
 =
 win
 ;
+}
 return
 win
 ;
@@ -231,12 +236,14 @@ length
 <
 1
 )
+{
 n
 =
 wins
 .
 length
 ;
+}
 while
 (
 n

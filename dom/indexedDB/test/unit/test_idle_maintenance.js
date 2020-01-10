@@ -489,11 +489,9 @@ preventDefault
 if
 (
 !
-(
 -
 -
 dbCount
-)
 )
 {
 continueToNextStep
@@ -639,11 +637,9 @@ close
 if
 (
 !
-(
 -
 -
 dbCount
-)
 )
 {
 continueToNextStep
@@ -682,9 +678,7 @@ qms
 getUsageForPrincipal
 (
 principal
-(
 request
-)
 =
 >
 {
@@ -915,9 +909,7 @@ qms
 getUsageForPrincipal
 (
 principal
-(
 request
-)
 =
 >
 {

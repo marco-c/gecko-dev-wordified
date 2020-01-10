@@ -4,11 +4,11 @@ mySharedWorker
 new
 SharedWorker
 (
-'
+"
 file_spawn_shared_worker
 .
 js
-'
+"
 )
 ;
 mySharedWorker
@@ -58,6 +58,7 @@ close
 )
 ;
 }
+;
 mySharedWorker
 .
 onerror
@@ -109,6 +110,7 @@ close
 )
 ;
 }
+;
 mySharedWorker
 .
 port
@@ -123,9 +125,9 @@ port
 .
 postMessage
 (
-'
+"
 foo
-'
+"
 )
 ;
 /
@@ -222,6 +224,7 @@ href
 )
 ;
 }
+;
 myWorker
 .
 onerror
@@ -257,6 +260,7 @@ href
 )
 ;
 }
+;
 /
 /
 -
@@ -309,11 +313,11 @@ serviceWorker
 .
 register
 (
-'
+"
 file_spawn_service_worker
 .
 js
-'
+"
 )
 .
 then

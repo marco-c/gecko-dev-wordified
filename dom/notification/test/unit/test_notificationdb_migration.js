@@ -611,6 +611,7 @@ Assert
 ok
 (
 !
+(
 await
 OS
 .
@@ -619,6 +620,7 @@ File
 exists
 (
 OLD_STORE_PATH
+)
 )
 "
 old

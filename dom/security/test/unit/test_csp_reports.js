@@ -463,6 +463,7 @@ i
 in
 expectedJSON
 )
+{
 Assert
 .
 equal
@@ -484,6 +485,7 @@ i
 ]
 )
 ;
+}
 testsToFinish
 -
 -
@@ -502,6 +504,7 @@ testsToFinish
 <
 1
 )
+{
 httpServer
 .
 stop
@@ -509,11 +512,14 @@ stop
 do_test_finished
 )
 ;
+}
 else
+{
 do_test_finished
 (
 )
 ;
+}
 }
 ;
 }
@@ -1035,9 +1041,7 @@ true
 oReportViolation
 =
 {
-"
 value
-"
 :
 false
 }
@@ -1425,9 +1429,7 @@ true
 oReportViolation
 =
 {
-"
 value
-"
 :
 false
 }

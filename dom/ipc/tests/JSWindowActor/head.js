@@ -108,9 +108,7 @@ jsm
 events
 :
 {
-"
 mozshowdropdown
-"
 :
 {
 }

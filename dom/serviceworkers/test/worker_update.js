@@ -65,13 +65,13 @@ v
 instanceof
 ServiceWorkerRegistration
 ?
-'
+"
 FINISH
-'
+"
 :
-'
+"
 FAIL
-'
+"
 ;
 }
 )
@@ -84,9 +84,9 @@ ex
 )
 {
 return
-'
+"
 FAIL
-'
+"
 ;
 }
 )
@@ -179,3 +179,4 @@ result
 )
 ;
 }
+;

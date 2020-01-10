@@ -431,9 +431,11 @@ Promise
 resolve
 =
 >
+(
 unregisterDone
 =
 resolve
+)
 )
 ;
 let

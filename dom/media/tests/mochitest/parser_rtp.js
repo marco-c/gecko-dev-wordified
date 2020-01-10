@@ -102,9 +102,7 @@ DataView
 var
 ParseRtpPacket
 =
-(
 buffer
-)
 =
 >
 {
@@ -671,7 +669,7 @@ header
 version
 =
 (
-0xC0
+0xc0
 &
 byte
 )
@@ -696,6 +694,7 @@ byte
 >
 >
 5
+;
 /
 /
 Extension
@@ -706,7 +705,6 @@ header
 extensionsPresent
 =
 (
-(
 0x10
 &
 byte
@@ -714,7 +712,6 @@ byte
 >
 >
 4
-)
 =
 =
 1
@@ -729,11 +726,9 @@ header
 .
 csrcCount
 =
-(
-0xF
+0xf
 &
 byte
-)
 ;
 byte
 =
@@ -776,11 +771,9 @@ header
 .
 payloadType
 =
-(
-0x7F
+0x7f
 &
 byte
-)
 ;
 /
 /
@@ -1241,7 +1234,7 @@ if
 extensionId
 !
 =
-0xBEDE
+0xbede
 )
 {
 /
@@ -1424,7 +1417,7 @@ id
 (
 byte
 &
-0xF0
+0xf0
 )
 >
 >
@@ -1485,7 +1478,7 @@ len
 (
 byte
 &
-0x0F
+0x0f
 )
 +
 1
@@ -1525,3 +1518,4 @@ offset
 }
 ;
 }
+;

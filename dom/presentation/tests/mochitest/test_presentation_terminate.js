@@ -725,9 +725,7 @@ getAvailability
 .
 then
 (
-(
 aAvailability
-)
 =
 >
 {
@@ -804,9 +802,7 @@ add
 .
 catch
 (
-(
 aError
-)
 =
 >
 {
@@ -865,9 +861,7 @@ start
 .
 then
 (
-(
 aConnection
-)
 =
 >
 {
@@ -1024,9 +1018,7 @@ terminate
 .
 catch
 (
-(
 aError
-)
 =
 >
 {
@@ -1210,9 +1202,7 @@ all
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -1264,9 +1254,7 @@ resolve
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -1740,9 +1728,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

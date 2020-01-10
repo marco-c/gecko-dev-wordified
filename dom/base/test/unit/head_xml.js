@@ -174,9 +174,7 @@ file
 if
 (
 typeof
-(
 file
-)
 =
 =
 "
@@ -289,9 +287,7 @@ data
 if
 (
 typeof
-(
 data
-)
 =
 =
 "
@@ -389,9 +385,7 @@ obj
 if
 (
 typeof
-(
 obj
-)
 =
 =
 "

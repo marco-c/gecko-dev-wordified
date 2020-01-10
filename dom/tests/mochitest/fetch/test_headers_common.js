@@ -311,6 +311,7 @@ toLowerCase
 )
 msg
 )
+;
 ok
 (
 func
@@ -323,6 +324,7 @@ toUpperCase
 )
 msg
 )
+;
 }
 function
 checkGet
@@ -427,7 +429,6 @@ header
 var
 expected
 =
-(
 start
 ?
 start
@@ -442,7 +443,6 @@ bar
 "
 bar
 "
-)
 ;
 checkGet
 (
@@ -481,7 +481,6 @@ header
 ;
 expected
 =
-(
 start
 ?
 start
@@ -498,7 +497,6 @@ baz
 bar
 baz
 "
-)
 ;
 checkGet
 (
@@ -1102,23 +1100,17 @@ new
 Headers
 (
 {
-"
 zxy
-"
 :
 "
 987
 "
-"
 xwv
-"
 :
 "
 654
 "
-"
 uts
-"
 :
 "
 321
@@ -1540,6 +1532,7 @@ i
 }
 return
 result
+;
 }
 function
 TestHeadersIterator

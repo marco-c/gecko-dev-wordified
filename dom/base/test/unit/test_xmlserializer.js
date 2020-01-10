@@ -97,10 +97,12 @@ aFlags
 =
 undefined
 )
+{
 aFlags
 =
 0
 ;
+}
 if
 (
 aCharset
@@ -108,6 +110,7 @@ aCharset
 =
 undefined
 )
+{
 aCharset
 =
 "
@@ -116,6 +119,7 @@ UTF
 8
 "
 ;
+}
 var
 doc
 =
@@ -327,7 +331,7 @@ replace
 \
 r
 /
-mg
+gm
 "
 \
 r

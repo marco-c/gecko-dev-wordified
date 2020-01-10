@@ -117,12 +117,14 @@ Promise
 resolve
 =
 >
+(
 helloDone
 =
 after
 (
 2
 resolve
+)
 )
 )
 ;
