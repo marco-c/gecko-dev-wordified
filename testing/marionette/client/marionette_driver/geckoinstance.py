@@ -950,6 +950,23 @@ enabled
 False
         
 #
+Disable
+the
+GFX
+sanity
+window
+        
+"
+sanity
+-
+test
+.
+running
+"
+:
+True
+        
+#
 Don
 '
 t
