@@ -108,8 +108,6 @@ scriptworker
 import
 (
     
-add_scope_prefix
-    
 get_signing_cert_scope_per_platform
     
 get_worker_type_for_scope
@@ -1085,46 +1083,6 @@ scopes
 [
 signing_cert_scope
 ]
-+
-list
-(
-{
-            
-add_scope_prefix
-(
-config
-'
-signing
-:
-format
-:
-{
-}
-'
-.
-format
-(
-format
-)
-)
-            
-for
-artifact
-in
-upstream_artifacts
-            
-for
-format
-in
-artifact
-[
-'
-formats
-'
-]
-        
-}
-)
         
 task
 =
