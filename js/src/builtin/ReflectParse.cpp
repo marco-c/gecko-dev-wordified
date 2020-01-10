@@ -15172,7 +15172,7 @@ kid
 >
 as
 <
-AssignmentNode
+BinaryNode
 >
 (
 )
