@@ -14946,6 +14946,11 @@ root
 aItem
 -
 >
+AsPaintedDisplayItem
+(
+)
+-
+>
 BuildLayer
 (
 aDisplayListBuilder
@@ -15180,6 +15185,11 @@ Layer
 root
 =
 aItem
+-
+>
+AsPaintedDisplayItem
+(
+)
 -
 >
 BuildLayer
