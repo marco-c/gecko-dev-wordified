@@ -244,11 +244,6 @@ CompositorWidget
 &
 &
 aWidget
-gl
-:
-:
-GLLibraryEGL
-*
 )
 ;
 virtual
@@ -412,15 +407,6 @@ ID3D11Query
 GetD3D11Query
 (
 )
-;
-RefPtr
-<
-gl
-:
-:
-GLLibraryEGL
->
-mEgl
 ;
 EGLConfig
 mEGLConfig
