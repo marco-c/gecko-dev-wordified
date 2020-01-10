@@ -364,7 +364,7 @@ DOMSVGTransform
 const
 SVGTransform
 &
-aMatrix
+aTransform
 )
 ;
 /

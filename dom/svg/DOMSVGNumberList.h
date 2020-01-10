@@ -780,7 +780,7 @@ Initialize
 (
 DOMSVGNumber
 &
-newItem
+aItem
 ErrorResult
 &
 error
@@ -823,7 +823,7 @@ InsertItemBefore
 (
 DOMSVGNumber
 &
-newItem
+aItem
 uint32_t
 index
 ErrorResult
@@ -839,7 +839,7 @@ ReplaceItem
 (
 DOMSVGNumber
 &
-newItem
+aItem
 uint32_t
 index
 ErrorResult

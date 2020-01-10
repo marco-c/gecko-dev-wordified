@@ -1632,9 +1632,9 @@ SVGAnimatedLength
 NewValueSpecifiedUnits
 (
 uint16_t
-unitType
+aUnitType
 float
-valueInSpecifiedUnits
+aValueInSpecifiedUnits
 SVGElement
 *
 aSVGElement
@@ -1642,7 +1642,7 @@ aSVGElement
 {
 NS_ENSURE_FINITE
 (
-valueInSpecifiedUnits
+aValueInSpecifiedUnits
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
@@ -1651,7 +1651,7 @@ if
 !
 IsValidUnitType
 (
-unitType
+aUnitType
 )
 )
 return
@@ -1665,7 +1665,7 @@ mIsBaseSet
 mBaseVal
 =
 =
-valueInSpecifiedUnits
+aValueInSpecifiedUnits
 &
 &
 mSpecifiedUnitType
@@ -1673,7 +1673,7 @@ mSpecifiedUnitType
 =
 uint8_t
 (
-unitType
+aUnitType
 )
 )
 {
@@ -1694,7 +1694,7 @@ mAttrEnum
 ;
 mBaseVal
 =
-valueInSpecifiedUnits
+aValueInSpecifiedUnits
 ;
 mIsBaseSet
 =
@@ -1704,7 +1704,7 @@ mSpecifiedUnitType
 =
 uint8_t
 (
-unitType
+aUnitType
 )
 ;
 if

@@ -3210,7 +3210,7 @@ int32_t
 aNameSpaceID
 nsAtom
 *
-aAttribute
+aName
 bool
 aNotify
 )

@@ -555,7 +555,7 @@ SetReferrerPolicy
 const
 nsAString
 &
-aReferrerPolicy
+aPolicy
 mozilla
 :
 :
@@ -569,7 +569,7 @@ GetReferrerPolicy
 (
 nsAString
 &
-aReferrerPolicy
+aPolicy
 )
 ;
 nsDOMTokenList

@@ -337,7 +337,7 @@ gfxMatrix
 aTransform
 imgDrawingParams
 &
-aPackage
+aImgParams
 const
 nsIntRect
 *
@@ -727,6 +727,7 @@ nsSVGUtils
 GetTransformMatrixInUserSpace
 (
 kid
+this
 )
 *
 tm
@@ -1752,6 +1753,7 @@ nsSVGUtils
 GetTransformMatrixInUserSpace
 (
 kid
+this
 )
 *
 transform

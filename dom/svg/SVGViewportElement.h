@@ -399,7 +399,7 @@ float
 GetLength
 (
 uint8_t
-mCtxType
+aCtxType
 )
 ;
 /

@@ -1092,7 +1092,7 @@ ToSVGPathSegEncodedData
 (
 float
 *
-aData
+aRaw
 )
 ;
 /
@@ -2714,7 +2714,7 @@ void
 SetLargeArcFlag
 (
 bool
-aFlag
+aLargeArcFlag
 ErrorResult
 &
 rv
@@ -2729,7 +2729,7 @@ void
 SetSweepFlag
 (
 bool
-aFlag
+aSweepFlag
 ErrorResult
 &
 rv
@@ -2920,7 +2920,7 @@ void
 SetLargeArcFlag
 (
 bool
-aFlag
+aLargeArcFlag
 ErrorResult
 &
 rv
@@ -2935,7 +2935,7 @@ void
 SetSweepFlag
 (
 bool
-aFlag
+aSweepFlag
 ErrorResult
 &
 rv

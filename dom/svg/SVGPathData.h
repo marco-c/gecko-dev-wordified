@@ -1209,7 +1209,7 @@ uint32_t
 GetPathSegAtLength
 (
 float
-aLength
+aDistance
 )
 const
 ;
@@ -1279,7 +1279,7 @@ FallibleTArray
 double
 >
 *
-aArray
+aOutput
 )
 const
 ;
@@ -1343,7 +1343,7 @@ PathBuilder
 *
 aBuilder
 uint8_t
-aCapStyle
+aStrokeLineCap
 Float
 aStrokeWidth
 )
@@ -1414,7 +1414,7 @@ PathBuilder
 *
 aBuilder
 uint8_t
-aCapStyle
+aStrokeLineCap
 Float
 aStrokeWidth
 float

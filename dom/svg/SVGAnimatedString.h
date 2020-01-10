@@ -261,7 +261,7 @@ GetAnimValue
 (
 nsAString
 &
-aValue
+aResult
 const
 SVGElement
 *

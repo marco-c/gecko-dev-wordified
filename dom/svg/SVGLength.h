@@ -426,7 +426,7 @@ SetValueFromString
 const
 nsAString
 &
-aValue
+aString
 )
 ;
 /

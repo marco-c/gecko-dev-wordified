@@ -443,7 +443,7 @@ SetAnimValue
 const
 SVGNumberList
 &
-aValue
+aNewAnimValue
 dom
 :
 :

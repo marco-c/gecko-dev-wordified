@@ -1065,9 +1065,9 @@ SVGAnimatedOrient
 NewValueSpecifiedUnits
 (
 uint16_t
-unitType
+aUnitType
 float
-valueInSpecifiedUnits
+aValueInSpecifiedUnits
 SVGElement
 *
 aSVGElement
@@ -1075,7 +1075,7 @@ aSVGElement
 {
 NS_ENSURE_FINITE
 (
-valueInSpecifiedUnits
+aValueInSpecifiedUnits
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
@@ -1084,7 +1084,7 @@ if
 !
 IsValidAngleUnitType
 (
-unitType
+aUnitType
 )
 )
 return
@@ -1095,7 +1095,7 @@ if
 mBaseVal
 =
 =
-valueInSpecifiedUnits
+aValueInSpecifiedUnits
 &
 &
 mBaseValUnit
@@ -1103,7 +1103,7 @@ mBaseValUnit
 =
 uint8_t
 (
-unitType
+aUnitType
 )
 &
 &
@@ -1124,13 +1124,13 @@ aSVGElement
 ;
 mBaseVal
 =
-valueInSpecifiedUnits
+aValueInSpecifiedUnits
 ;
 mBaseValUnit
 =
 uint8_t
 (
-unitType
+aUnitType
 )
 ;
 mBaseType
