@@ -27911,7 +27911,6 @@ about_uris_without_csp
 blank
 printpreview
 srcdoc
-config
 downloads
 preferences
 sync
