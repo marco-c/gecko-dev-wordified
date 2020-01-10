@@ -29814,7 +29814,6 @@ debugging
 devtools
 downloads
 home
-networking
 newtab
 performance
 plugins
