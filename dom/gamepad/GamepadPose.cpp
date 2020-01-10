@@ -347,6 +347,7 @@ aRv
 SetFloat32Array
 (
 aJSContext
+this
 aRetval
 mPosition
 mPoseState
@@ -400,6 +401,7 @@ aRv
 SetFloat32Array
 (
 aJSContext
+this
 aRetval
 mLinearVelocity
 mPoseState
@@ -453,6 +455,7 @@ aRv
 SetFloat32Array
 (
 aJSContext
+this
 aRetval
 mLinearAcceleration
 mPoseState
@@ -506,6 +509,7 @@ aRv
 SetFloat32Array
 (
 aJSContext
+this
 aRetval
 mOrientation
 mPoseState
@@ -559,6 +563,7 @@ aRv
 SetFloat32Array
 (
 aJSContext
+this
 aRetval
 mAngularVelocity
 mPoseState
@@ -612,6 +617,7 @@ aRv
 SetFloat32Array
 (
 aJSContext
+this
 aRetval
 mAngularAcceleration
 mPoseState
