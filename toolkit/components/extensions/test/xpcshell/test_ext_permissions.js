@@ -3560,6 +3560,9 @@ activeTab
 alarms
 "
 "
+captivePortal
+"
+"
 contextMenus
 "
 "
