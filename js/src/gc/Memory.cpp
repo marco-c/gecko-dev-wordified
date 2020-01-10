@@ -5356,7 +5356,7 @@ madvise
 (
 region
 length
-MADV_FREE
+MADV_FREE_REUSABLE
 )
 =
 =
