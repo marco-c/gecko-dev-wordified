@@ -284,9 +284,14 @@ PrefObserver
 const
 toolbox
 =
+gDevTools
+.
+getToolbox
+(
 hud
 .
-toolbox
+target
+)
 ;
 const
 {

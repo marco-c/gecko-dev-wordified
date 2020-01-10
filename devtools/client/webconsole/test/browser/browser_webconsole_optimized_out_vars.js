@@ -120,9 +120,14 @@ openDebugger
 const
 toolbox
 =
+gDevTools
+.
+getToolbox
+(
 hud
 .
-toolbox
+target
+)
 ;
 const
 dbg

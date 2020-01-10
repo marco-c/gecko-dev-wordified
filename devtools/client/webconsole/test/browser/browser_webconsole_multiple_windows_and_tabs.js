@@ -341,7 +341,7 @@ browser
 =
 hud
 .
-currentTarget
+target
 .
 tab
 .

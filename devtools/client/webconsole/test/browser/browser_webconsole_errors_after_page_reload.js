@@ -149,7 +149,7 @@ onNavigate
 =
 hud
 .
-currentTarget
+target
 .
 once
 (
