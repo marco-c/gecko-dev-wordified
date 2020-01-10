@@ -656,6 +656,14 @@ JS
 AutoTraceLoggerLockGuard
 lockGuard
 ;
+JS
+:
+:
+SpewTraceLoggerThread
+(
+aCx
+)
+;
 uint32_t
 length
 =
