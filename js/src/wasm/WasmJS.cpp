@@ -9234,7 +9234,7 @@ AllocKind
 :
 FUNCTION_EXTENDED
 SingletonObject
-JSFunction
+FunctionFlags
 :
 :
 ASMJS_CTOR
@@ -9312,7 +9312,7 @@ AllocKind
 :
 FUNCTION_EXTENDED
 SingletonObject
-JSFunction
+FunctionFlags
 :
 :
 WASM
@@ -9836,7 +9836,7 @@ kind
 )
 =
 =
-JSFunction
+FunctionFlags
 :
 :
 Wasm
@@ -10000,7 +10000,7 @@ kind
 )
 =
 =
-JSFunction
+FunctionFlags
 :
 :
 Wasm
@@ -10014,7 +10014,7 @@ kind
 )
 =
 =
-JSFunction
+FunctionFlags
 :
 :
 AsmJS

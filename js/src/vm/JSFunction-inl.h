@@ -1068,7 +1068,7 @@ fun
 >
 setFlags
 (
-JSFunction
+FunctionFlags
 :
 :
 EXTENDED

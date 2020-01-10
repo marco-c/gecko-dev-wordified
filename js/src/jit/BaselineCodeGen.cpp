@@ -26525,7 +26525,7 @@ Assembler
 :
 :
 NotEqual
-JSFunction
+FunctionFlags
 :
 :
 FunctionKind
@@ -34045,7 +34045,7 @@ Zero
 scratch
 Imm32
 (
-JSFunction
+FunctionFlags
 :
 :
 CONSTRUCTOR

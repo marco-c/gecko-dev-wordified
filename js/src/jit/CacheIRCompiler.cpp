@@ -17420,12 +17420,12 @@ NonZero
 scratch
 Imm32
 (
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED_LAZY
 |
-JSFunction
+FunctionFlags
 :
 :
 RESOLVED_LENGTH
@@ -17452,7 +17452,7 @@ NonZero
 scratch
 Imm32
 (
-JSFunction
+FunctionFlags
 :
 :
 BOUND_FUN
@@ -17475,7 +17475,7 @@ NonZero
 scratch
 Imm32
 (
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED
@@ -20154,7 +20154,7 @@ masm
 branchTestFunctionFlags
 (
 funcReg
-JSFunction
+FunctionFlags
 :
 :
 CONSTRUCTOR
@@ -20230,7 +20230,7 @@ Assembler
 :
 :
 Equal
-JSFunction
+FunctionFlags
 :
 :
 ClassConstructor

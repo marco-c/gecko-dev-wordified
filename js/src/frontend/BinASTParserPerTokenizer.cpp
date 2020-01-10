@@ -1290,7 +1290,7 @@ kind
 )
 =
 =
-JSFunction
+FunctionFlags
 :
 :
 FunctionKind

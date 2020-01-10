@@ -19126,12 +19126,12 @@ lazy
 branchTestFunctionFlags
 (
 fun
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED
 |
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED_LAZY
@@ -19155,7 +19155,7 @@ set
 branchTestFunctionFlags
 (
 fun
-JSFunction
+FunctionFlags
 :
 :
 CONSTRUCTOR

@@ -3095,7 +3095,7 @@ NewFunctionWithProto
 cx
 AsyncGeneratorConstructor
 1
-JSFunction
+FunctionFlags
 :
 :
 NATIVE_CTOR

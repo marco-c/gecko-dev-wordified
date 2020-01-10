@@ -3418,7 +3418,7 @@ kind
 )
 =
 =
-JSFunction
+FunctionFlags
 :
 :
 FunctionKind

@@ -3725,7 +3725,7 @@ NewFunctionWithProto
 cx
 Error
 1
-JSFunction
+FunctionFlags
 :
 :
 NATIVE_CTOR

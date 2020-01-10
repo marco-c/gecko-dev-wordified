@@ -2055,7 +2055,7 @@ NewFunctionWithProto
 cx
 Generator
 1
-JSFunction
+FunctionFlags
 :
 :
 NATIVE_CTOR

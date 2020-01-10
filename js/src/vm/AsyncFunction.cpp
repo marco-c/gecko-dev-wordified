@@ -335,7 +335,7 @@ NewFunctionWithProto
 cx
 AsyncFunctionConstructor
 1
-JSFunction
+FunctionFlags
 :
 :
 NATIVE_CTOR
