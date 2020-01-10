@@ -2357,7 +2357,7 @@ static_assert
 eDone
 =
 =
-NS_MAJOR_FORGET_SKIPPABLE_CALLS
+kMajorForgetSkippableCalls
 "
 There
 must
