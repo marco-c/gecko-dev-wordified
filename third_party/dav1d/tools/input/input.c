@@ -665,8 +665,10 @@ name
 )
 ;
 return
--
+DAV1D_ERR
+(
 ENOPROTOOPT
+)
 ;
 }
 }
@@ -789,8 +791,10 @@ ext
 )
 ;
 return
--
+DAV1D_ERR
+(
 ENOPROTOOPT
+)
 ;
 }
 }
@@ -829,8 +833,10 @@ n
 )
 ;
 return
--
+DAV1D_ERR
+(
 ENOMEM
+)
 ;
 }
 memset

@@ -225,13 +225,13 @@ frame
 thread
 AV1_COMMON
 *
-av1_alloc_ref_mv_common
+dav1d_alloc_ref_mv_common
 (
 void
 )
 ;
 void
-av1_free_ref_mv_common
+dav1d_free_ref_mv_common
 (
 AV1_COMMON
 *
@@ -245,7 +245,7 @@ once
 per
 frame
 int
-av1_init_ref_mv_common
+dav1d_init_ref_mv_common
 (
 AV1_COMMON
 *
@@ -311,7 +311,7 @@ sbrow
 per
 tile
 void
-av1_init_ref_mv_tile_row
+dav1d_init_ref_mv_tile_row
 (
 AV1_COMMON
 *
@@ -333,7 +333,7 @@ for
 each
 block
 void
-av1_find_ref_mvs
+dav1d_find_ref_mvs
 (
 candidate_mv
 *
@@ -387,14 +387,14 @@ cm
 extern
 const
 uint8_t
-bs_to_sbtype
+dav1d_bs_to_sbtype
 [
 ]
 ;
 extern
 const
 uint8_t
-sbtype_to_bs
+dav1d_sbtype_to_bs
 [
 ]
 ;
@@ -497,7 +497,7 @@ mv
 .
 sb_type
 =
-bs_to_sbtype
+dav1d_bs_to_sbtype
 [
 bs
 ]
@@ -630,7 +630,7 @@ mv
 .
 sb_type
 =
-bs_to_sbtype
+dav1d_bs_to_sbtype
 [
 bs
 ]
@@ -778,7 +778,7 @@ mv2
 .
 sb_type
 =
-bs_to_sbtype
+dav1d_bs_to_sbtype
 [
 bs
 ]
@@ -949,7 +949,7 @@ x
 .
 sb_type
 =
-bs_to_sbtype
+dav1d_bs_to_sbtype
 [
 bs
 ]

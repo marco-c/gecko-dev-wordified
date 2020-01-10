@@ -2022,7 +2022,7 @@ rp
 )
 dav1d_block_dimensions
 [
-sbtype_to_bs
+dav1d_sbtype_to_bs
 [
 (
 rp
@@ -12410,7 +12410,7 @@ mvlist
 2
 ]
 ;
-av1_find_ref_mvs
+dav1d_find_ref_mvs
 (
 mvstack
 &
@@ -13926,7 +13926,7 @@ mvlist
 2
 ]
 ;
-av1_find_ref_mvs
+dav1d_find_ref_mvs
 (
 mvstack
 &
@@ -14776,7 +14776,7 @@ mvlist
 2
 ]
 ;
-av1_find_ref_mvs
+dav1d_find_ref_mvs
 (
 mvstack
 &
@@ -16571,7 +16571,7 @@ mvlist
 2
 ]
 ;
-av1_find_ref_mvs
+dav1d_find_ref_mvs
 (
 mvstack
 &
@@ -25004,7 +25004,7 @@ return
 1
 ;
 }
-av1_init_ref_mv_tile_row
+dav1d_init_ref_mv_tile_row
 (
 f
 -
@@ -26213,8 +26213,10 @@ c
 int
 retval
 =
--
+DAV1D_ERR
+(
 ENOMEM
+)
 ;
 if
 (
@@ -28631,7 +28633,7 @@ const
 int
 ret
 =
-av1_init_ref_mv_common
+dav1d_init_ref_mv_common
 (
 f
 -
@@ -28746,7 +28748,7 @@ frame_hdr
 >
 use_ref_frame_mvs
 )
-av1_init_ref_mv_tile_row
+dav1d_init_ref_mv_tile_row
 (
 f
 -
@@ -28767,8 +28769,10 @@ bh
 }
 retval
 =
--
+DAV1D_ERR
+(
 EINVAL
+)
 ;
 /
 /
@@ -32073,8 +32077,10 @@ hbd
 ;
 res
 =
--
+DAV1D_ERR
+(
 ENOPROTOOPT
+)
 ;
 goto
 error
@@ -32282,8 +32288,10 @@ data
 {
 res
 =
--
+DAV1D_ERR
+(
 EINVAL
+)
 ;
 goto
 error
@@ -32531,8 +32539,10 @@ j
 ;
 res
 =
--
+DAV1D_ERR
+(
 EINVAL
+)
 ;
 goto
 error
@@ -33807,8 +33817,10 @@ mvs_ref
 {
 res
 =
--
+DAV1D_ERR
+(
 ENOMEM
+)
 ;
 goto
 error
@@ -34465,8 +34477,10 @@ cur_segmap_ref
 {
 res
 =
--
+DAV1D_ERR
+(
 ENOMEM
+)
 ;
 goto
 error
@@ -34600,8 +34614,10 @@ cur_segmap_ref
 {
 res
 =
--
+DAV1D_ERR
+(
 ENOMEM
+)
 ;
 goto
 error

@@ -476,7 +476,7 @@ success
 .
 A
 negative
-errno
+DAV1D_ERR
 value
 on
 error
@@ -662,7 +662,7 @@ success
 .
 A
 negative
-errno
+DAV1D_ERR
 value
 on
 error

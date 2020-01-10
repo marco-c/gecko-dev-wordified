@@ -374,7 +374,7 @@ thread_task
 h
 "
 int
-default_picture_allocator
+dav1d_default_picture_alloc
 (
 Dav1dPicture
 *
@@ -382,6 +382,7 @@ const
 p
 void
 *
+const
 cookie
 )
 {
@@ -583,8 +584,10 @@ NULL
 )
 {
 return
--
+DAV1D_ERR
+(
 ENOMEM
+)
 ;
 }
 p
@@ -654,7 +657,7 @@ return
 ;
 }
 void
-default_picture_release
+dav1d_default_picture_release
 (
 Dav1dPicture
 *
@@ -662,6 +665,7 @@ const
 p
 void
 *
+const
 cookie
 )
 {
@@ -915,8 +919,10 @@ NULL
 )
 {
 return
--
+DAV1D_ERR
+(
 ENOMEM
+)
 ;
 }
 p
@@ -1104,8 +1110,10 @@ errno
 )
 ;
 return
--
+DAV1D_ERR
+(
 ENOMEM
+)
 ;
 }
 p

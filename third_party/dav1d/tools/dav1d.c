@@ -883,8 +883,10 @@ if
 res
 !
 =
--
+DAV1D_ERR
+(
 EAGAIN
+)
 )
 {
 fprintf
@@ -932,8 +934,10 @@ if
 res
 !
 =
--
+DAV1D_ERR
+(
 EAGAIN
+)
 )
 {
 fprintf
@@ -1134,8 +1138,10 @@ if
 res
 !
 =
--
+DAV1D_ERR
+(
 EAGAIN
+)
 )
 {
 fprintf
