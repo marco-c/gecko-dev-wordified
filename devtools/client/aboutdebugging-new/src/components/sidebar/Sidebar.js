@@ -513,6 +513,9 @@ level
 MESSAGE_LEVEL
 .
 INFO
+isCloseable
+:
+true
 }
 Localized
 (

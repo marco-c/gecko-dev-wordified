@@ -507,6 +507,9 @@ level
 MESSAGE_LEVEL
 .
 ERROR
+isCloseable
+:
+true
 }
 Localized
 (
