@@ -1204,7 +1204,10 @@ hasInlineElements
 )
 )
 {
-js_free
+fop
+-
+>
+free_
 (
 curObj
 -
