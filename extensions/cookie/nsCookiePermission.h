@@ -107,12 +107,6 @@ GetOrCreate
 (
 )
 ;
-static
-void
-Shutdown
-(
-)
-;
 bool
 Init
 (
