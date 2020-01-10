@@ -716,7 +716,7 @@ addonId
 extension
 .
 id
-extension
+policy
 :
 extension
 .
@@ -993,7 +993,7 @@ getSecurityInfo
 id
 :
 requestId
-extension
+policy
 :
 context
 .
