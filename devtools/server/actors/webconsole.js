@@ -1194,9 +1194,6 @@ true
 /
 44
 +
-fetchCacheDescriptor
-:
-true
 }
 ;
 if
