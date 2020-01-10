@@ -4979,10 +4979,8 @@ mode
 .
 *
 /
-#
-main
--
-window
+:
+root
 :
 not
 (
@@ -5031,10 +5029,8 @@ mode
 .
 *
 /
-#
-main
--
-window
+:
+root
 [
 privatebrowsingmode
 ]
