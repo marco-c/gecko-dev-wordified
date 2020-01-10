@@ -75,7 +75,6 @@ api
 {
 DocumentLayer
 FilterData
-FilterOp
 ImageFormat
 LineOrientation
 }
@@ -241,6 +240,7 @@ CacheTextureId
 FastHashMap
 SavedTargetIndex
 TextureSource
+Filter
 }
 ;
 #
@@ -7451,7 +7451,7 @@ filters
 :
 Vec
 <
-FilterOp
+Filter
 >
 pub
 filter_datas
@@ -7496,7 +7496,7 @@ filters
 :
 Vec
 <
-FilterOp
+Filter
 >
 filter_datas
 :

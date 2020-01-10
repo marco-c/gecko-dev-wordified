@@ -6282,10 +6282,8 @@ new
 .
 0
 )
-should_inflate
-:
-true
 }
+true
 )
 ;
 let
@@ -6728,10 +6726,8 @@ blur_radius
 color
 :
 shadow_color
-should_inflate
-:
-true
 }
+true
 )
 ;
 let
