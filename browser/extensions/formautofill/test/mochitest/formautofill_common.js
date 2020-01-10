@@ -1430,7 +1430,6 @@ function
 invokeAsyncChromeTask
 (
 message
-response
 payload
 =
 {
