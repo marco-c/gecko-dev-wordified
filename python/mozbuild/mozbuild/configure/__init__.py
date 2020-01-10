@@ -8497,7 +8497,7 @@ iteritems
 (
 func
 .
-func_globals
+__globals__
 )
             
 if
@@ -8730,7 +8730,7 @@ None
 if
 func
 .
-func_closure
+__closure__
 :
             
 def
@@ -8751,7 +8751,7 @@ content
 return
 f
 .
-func_closure
+__closure__
 [
 0
 ]
@@ -8772,7 +8772,7 @@ cell
 in
 func
 .
-func_closure
+__closure__
 )
         
 new_func
@@ -8791,7 +8791,7 @@ FunctionType
             
 func
 .
-func_code
+__code__
             
 glob
             
@@ -8801,7 +8801,7 @@ __name__
             
 func
 .
-func_defaults
+__defaults__
             
 closure
         
