@@ -358,8 +358,6 @@ logins
 .
 findLogins
 (
-{
-}
 site
 "
 "
@@ -385,8 +383,6 @@ logins
 .
 findLogins
 (
-{
-}
 site
 "
 "
@@ -521,8 +517,6 @@ logins
 .
 findLogins
 (
-{
-}
 site
 "
 "
@@ -547,8 +541,6 @@ logins
 .
 findLogins
 (
-{
-}
 site
 "
 "
@@ -607,8 +599,6 @@ logins
 .
 findLogins
 (
-{
-}
 site
 "
 "
@@ -634,8 +624,6 @@ logins
 .
 findLogins
 (
-{
-}
 site
 "
 "
@@ -770,8 +758,6 @@ logins
 .
 findLogins
 (
-{
-}
 site
 "
 "
@@ -796,8 +782,6 @@ logins
 .
 findLogins
 (
-{
-}
 site
 "
 "

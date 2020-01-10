@@ -1930,8 +1930,6 @@ this
 .
 findLogins
 (
-{
-}
 newLogin
 .
 hostname
@@ -3631,7 +3629,6 @@ null
 }
 findLogins
 (
-count
 hostname
 formSubmitURL
 httpRealm
@@ -3744,19 +3741,6 @@ logins
 "
 )
 ;
-count
-.
-value
-=
-logins
-.
-length
-;
-/
-/
-needed
-for
-XPCOM
 return
 logins
 ;

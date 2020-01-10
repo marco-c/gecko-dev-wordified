@@ -2757,8 +2757,6 @@ logins
 .
 findLogins
 (
-{
-}
 host
 "
 "

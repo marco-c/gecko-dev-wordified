@@ -1659,8 +1659,6 @@ logins
 .
 findLogins
 (
-{
-}
             
 "
 test

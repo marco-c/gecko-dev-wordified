@@ -2246,8 +2246,6 @@ logins
 .
 findLogins
 (
-{
-}
 this
 .
 _selectedLogin

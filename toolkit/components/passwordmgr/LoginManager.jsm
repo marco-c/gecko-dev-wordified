@@ -1905,8 +1905,6 @@ this
 .
 findLogins
 (
-{
-}
 login
 .
 hostname
@@ -2611,7 +2609,6 @@ criteria
 /
 findLogins
 (
-count
 origin
 formActionOrigin
 httpRealm
@@ -2649,7 +2646,6 @@ _storage
 .
 findLogins
 (
-count
 origin
 formActionOrigin
 httpRealm

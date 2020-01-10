@@ -728,8 +728,6 @@ logins
 .
 findLogins
 (
-{
-}
 this
 .
 props

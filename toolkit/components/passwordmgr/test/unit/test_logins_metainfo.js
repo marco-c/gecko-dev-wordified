@@ -220,8 +220,6 @@ logins
 .
 findLogins
 (
-{
-}
 aLoginInfo
 .
 hostname
