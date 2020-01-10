@@ -2147,9 +2147,12 @@ har
 defaultFileName
 "
 "
-Archive
+%
+hostname_Archive
+[
 %
 date
+]
 "
 )
 ;
