@@ -5298,6 +5298,9 @@ r1
 .
 IStart
 (
+mozilla
+:
+:
 WritingMode
 (
 )
@@ -5306,6 +5309,9 @@ r1
 .
 BStart
 (
+mozilla
+:
+:
 WritingMode
 (
 )
@@ -5314,6 +5320,9 @@ r1
 .
 ISize
 (
+mozilla
+:
+:
 WritingMode
 (
 )
@@ -5322,6 +5331,9 @@ r1
 .
 BSize
 (
+mozilla
+:
+:
 WritingMode
 (
 )
@@ -5424,6 +5436,9 @@ r4
 .
 IStart
 (
+mozilla
+:
+:
 WritingMode
 (
 )
@@ -5432,6 +5447,9 @@ r4
 .
 BStart
 (
+mozilla
+:
+:
 WritingMode
 (
 )
@@ -5440,6 +5458,9 @@ r4
 .
 ISize
 (
+mozilla
+:
+:
 WritingMode
 (
 )
@@ -5448,6 +5469,9 @@ r4
 .
 BSize
 (
+mozilla
+:
+:
 WritingMode
 (
 )
@@ -5568,6 +5592,9 @@ r7
 .
 IStart
 (
+mozilla
+:
+:
 WritingMode
 (
 )
@@ -5576,6 +5603,9 @@ r7
 .
 BStart
 (
+mozilla
+:
+:
 WritingMode
 (
 )
@@ -5584,6 +5614,9 @@ r7
 .
 ISize
 (
+mozilla
+:
+:
 WritingMode
 (
 )
@@ -5592,6 +5625,9 @@ r7
 .
 BSize
 (
+mozilla
+:
+:
 WritingMode
 (
 )
