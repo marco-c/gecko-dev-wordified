@@ -133,9 +133,7 @@ if
 (
 this
 .
-children
-.
-length
+shadowRoot
 )
 {
 this

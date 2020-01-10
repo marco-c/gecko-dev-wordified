@@ -128,9 +128,7 @@ if
 (
 this
 .
-children
-.
-length
+shadowRoot
 )
 {
 return
