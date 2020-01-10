@@ -1626,7 +1626,7 @@ switch
 manager
 -
 >
-GetProtocolTypeId
+GetProtocolId
 (
 )
 )

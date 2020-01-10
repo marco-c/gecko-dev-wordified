@@ -5168,7 +5168,7 @@ switch
 listener
 -
 >
-GetProtocolTypeId
+GetProtocolId
 (
 )
 )

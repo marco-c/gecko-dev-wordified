@@ -817,7 +817,7 @@ Manager
 )
 -
 >
-GetProtocolTypeId
+GetProtocolId
 (
 )
 =
@@ -929,7 +929,7 @@ Manager
 )
 -
 >
-GetProtocolTypeId
+GetProtocolId
 (
 )
 =
