@@ -1190,8 +1190,7 @@ firstrun_learn_more_link
 "
 :
 "
-Zjist
-te
+Zjistit
 v
 ce
 o
