@@ -264,14 +264,14 @@ screen
 orientation
 .
 angle
-270
+90
 "
 Orientation
 angle
 was
 updated
 to
-270
+90
 degrees
 .
 "
