@@ -325,6 +325,11 @@ RawServoStyleSet
 )
 SERVO_BOXED_TYPE
 (
+AnimationValueMap
+RawServoAnimationValueMap
+)
+SERVO_BOXED_TYPE
+(
 AuthorStyles
 RawServoAuthorStyles
 )
