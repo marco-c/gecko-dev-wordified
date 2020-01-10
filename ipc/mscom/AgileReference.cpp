@@ -654,6 +654,8 @@ IGlobalInterfaceTable
 :
 RevokeInterfaceFromGlobal
 failed
+"
+"
 with
 HRESULT
 "
