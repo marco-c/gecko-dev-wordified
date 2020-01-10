@@ -1650,14 +1650,6 @@ XDR_ENCODE
 script
 -
 >
-isRelazifiableIgnoringJitCode
-(
-)
-&
-&
-script
--
->
 maybeLazyScript
 (
 )
@@ -6514,7 +6506,7 @@ if
 script
 -
 >
-isRelazifiableIgnoringJitCode
+maybeLazyScript
 (
 )
 )
