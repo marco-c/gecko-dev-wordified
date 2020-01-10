@@ -198,13 +198,6 @@ one
 .
 *
 /
-#
-include
-<
-wchar
-.
-h
->
 namespace
 mozilla
 {
