@@ -148,6 +148,7 @@ history
 import
 {
 parserWorker
+evaluationsParser
 }
 from
 "
@@ -321,6 +322,7 @@ sourceMaps
 parser
 :
 parserWorker
+evaluationsParser
 }
 ;
 }
