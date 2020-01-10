@@ -5717,15 +5717,6 @@ dom
 MediaSourceEnum
 :
 :
-Application
-:
-case
-dom
-:
-:
-MediaSourceEnum
-:
-:
 Window
 :
 mode

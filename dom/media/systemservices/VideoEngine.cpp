@@ -1331,7 +1331,6 @@ break
 /
 /
 Window
-Application
 and
 Screen
 types
@@ -1347,15 +1346,6 @@ CaptureDeviceType
 :
 :
 Window
-:
-case
-webrtc
-:
-:
-CaptureDeviceType
-:
-:
-Application
 :
 case
 webrtc

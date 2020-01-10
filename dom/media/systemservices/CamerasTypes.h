@@ -143,7 +143,6 @@ InvalidEngine
 ScreenEngine
 BrowserEngine
 WinEngine
-AppEngine
 CameraEngine
 MaxEngine
 }

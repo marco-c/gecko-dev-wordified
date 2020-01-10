@@ -210,12 +210,6 @@ case
 MediaSourceEnum
 :
 :
-Application
-:
-case
-MediaSourceEnum
-:
-:
 Window
 :
 case
