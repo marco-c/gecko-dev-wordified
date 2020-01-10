@@ -7552,16 +7552,6 @@ mScrolledFrame
 IsBlockFrameOrSubclass
 (
 )
-|
-|
-StyleDisplay
-(
-)
--
->
-IsContainLayout
-(
-)
 )
 {
 return
