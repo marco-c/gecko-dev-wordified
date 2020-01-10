@@ -214,6 +214,13 @@ PropTypes
 func
 .
 isRequired
+onChangeViewportOrientation
+:
+PropTypes
+.
+func
+.
+isRequired
 onContentResize
 :
 PropTypes
@@ -855,6 +862,7 @@ screenshot
 swapAfterMount
 viewport
 onBrowserMounted
+onChangeViewportOrientation
 onContentResize
 onResizeViewport
 }
@@ -981,7 +989,13 @@ userContextId
 viewport
 .
 userContextId
+viewportId
+:
+viewport
+.
+id
 onBrowserMounted
+onChangeViewportOrientation
 onContentResize
 onResizeViewport
 }

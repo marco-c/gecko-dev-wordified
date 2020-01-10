@@ -346,6 +346,16 @@ CHANGE_PIXEL_RATIO
 "
 /
 /
+Change
+the
+viewport
+angle
+.
+"
+CHANGE_VIEWPORT_ANGLE
+"
+/
+/
 Edit
 a
 device
