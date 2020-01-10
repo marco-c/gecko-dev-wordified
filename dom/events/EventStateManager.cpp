@@ -26812,7 +26812,16 @@ CanTreatAsUserInput
 ;
 /
 /
+eBasicEventClass
+case
+eFormChange
+:
+/
+/
 eMouseEventClass
+case
+eMouseClick
+:
 case
 eMouseDown
 :
