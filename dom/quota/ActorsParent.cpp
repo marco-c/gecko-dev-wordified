@@ -1942,7 +1942,7 @@ const
 uint32_t
 kLocalStorageArchiveVersion
 =
-1
+2
 ;
 const
 char
@@ -3169,8 +3169,6 @@ return
 NS_OK
 ;
 }
-/
-*
 nsresult
 SaveLocalStorageArchiveVersion
 (
@@ -3297,8 +3295,6 @@ return
 NS_OK
 ;
 }
-*
-/
 /
 *
 *
@@ -28580,8 +28576,6 @@ return
 NS_OK
 ;
 }
-/
-*
 nsresult
 QuotaManager
 :
@@ -28624,8 +28618,6 @@ return
 NS_OK
 ;
 }
-*
-/
 #
 ifdef
 DEBUG
@@ -29818,7 +29810,7 @@ static_assert
 kLocalStorageArchiveVersion
 =
 =
-1
+2
 "
 Upgrade
 function
@@ -29859,8 +29851,6 @@ connection
 )
 ;
 }
-/
-*
 else
 if
 (
@@ -29878,8 +29868,6 @@ connection
 )
 ;
 }
-*
-/
 else
 {
 QM_WARNING
