@@ -498,7 +498,7 @@ rv
 .
 Create
 an
-L10nValue
+L10nMessage
 with
 a
 translation
@@ -506,7 +506,7 @@ for
 the
 element
 .
-L10nValue
+L10nMessage
 translation
 ;
 translation

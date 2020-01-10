@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_l10n_L10nOverlays_h__
+mozilla_dom_l10n_L10nOverlays_h
 #
 define
-mozilla_dom_l10n_L10nOverlays_h__
+mozilla_dom_l10n_L10nOverlays_h
 #
 include
 "
@@ -23,6 +23,17 @@ mozilla
 dom
 /
 L10nOverlaysBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+LocalizationBinding
 .
 h
 "
@@ -128,7 +139,7 @@ Element
 &
 aElement
 const
-L10nValue
+L10nMessage
 &
 aTranslation
 Nullable
@@ -150,7 +161,7 @@ Element
 &
 aElement
 const
-L10nValue
+L10nMessage
 &
 aTranslation
 nsTArray
