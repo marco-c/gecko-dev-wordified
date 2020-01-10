@@ -210,7 +210,7 @@ xr_session_promise_test
 name
 func
 fakeDeviceInit
-sessionOptions
+sessionMode
 properties
 )
 {
@@ -371,7 +371,7 @@ xr
 .
 requestSession
 (
-sessionOptions
+sessionMode
 )
 .
 then
@@ -456,7 +456,7 @@ JSON
 .
 stringify
 (
-sessionOptions
+sessionMode
 )
 +
 '
