@@ -444,7 +444,7 @@ annotations
 await
 BrowserTestUtils
 .
-crashBrowser
+crashFrame
 (
 browser
 )
