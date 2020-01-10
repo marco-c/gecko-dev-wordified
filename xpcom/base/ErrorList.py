@@ -10642,6 +10642,18 @@ FAILURE
 42
 )
     
+errors
+[
+"
+NS_ERROR_SOCIALTRACKING_URI
+"
+]
+=
+FAILURE
+(
+43
+)
+    
 #
 Used
 when

@@ -1016,6 +1016,7 @@ eTrackingProtection
 eTrackingAnnotations
 eFingerprinting
 eCryptomining
+eSocialTracking
 }
 ;
 /

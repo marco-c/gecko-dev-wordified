@@ -136,6 +136,11 @@ AntiTrackingCommon
 .
 h
 "
+#
+include
+<
+vector
+>
 class
 nsIChannel
 ;
