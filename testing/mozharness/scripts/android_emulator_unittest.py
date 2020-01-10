@@ -213,6 +213,9 @@ mochitest
 '
 reftest
 '
+'
+robocop
+'
 ]
 SUITE_NO_E10S
 =
