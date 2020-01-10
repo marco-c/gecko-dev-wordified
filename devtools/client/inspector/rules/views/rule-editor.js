@@ -2131,7 +2131,7 @@ ruleView
 .
 inspector
 .
-target
+currentTarget
 ;
 if
 (

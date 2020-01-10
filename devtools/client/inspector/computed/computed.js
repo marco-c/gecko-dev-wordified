@@ -8770,18 +8770,8 @@ parentStyleSheet
 isSystem
 )
 {
-const
-toolbox
-=
-gDevTools
-.
-getToolbox
-(
 inspector
 .
-target
-)
-;
 toolbox
 .
 viewSource
@@ -8813,7 +8803,7 @@ target
 =
 inspector
 .
-target
+currentTarget
 ;
 if
 (

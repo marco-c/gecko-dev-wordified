@@ -484,7 +484,7 @@ this
 .
 inspector
 .
-target
+currentTarget
 .
 on
 (
@@ -535,7 +535,7 @@ this
 .
 inspector
 .
-target
+currentTarget
 ;
 const
 front

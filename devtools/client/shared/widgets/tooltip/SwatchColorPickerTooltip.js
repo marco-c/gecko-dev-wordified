@@ -803,7 +803,7 @@ this
 .
 inspector
 .
-target
+currentTarget
 ;
 this
 .

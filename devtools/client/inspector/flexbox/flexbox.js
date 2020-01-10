@@ -395,7 +395,7 @@ this
 .
 inspector
 .
-target
+currentTarget
 .
 actorHasMethod
 (
@@ -1461,7 +1461,7 @@ this
 .
 inspector
 .
-target
+currentTarget
 .
 url
 ;
@@ -2405,7 +2405,7 @@ this
 .
 inspector
 .
-target
+currentTarget
 .
 url
 ;
