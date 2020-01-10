@@ -597,11 +597,6 @@ BrowsingContext
 public
 nsWrapperCache
 public
-SupportsWeakPtr
-<
-BrowsingContext
->
-public
 BrowsingContextBase
 {
 public
