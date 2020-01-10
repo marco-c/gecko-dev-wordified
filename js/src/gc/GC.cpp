@@ -3051,7 +3051,7 @@ threshold
 static
 constexpr
 float
-MinHighFrequencyHeapGrowthFactor
+MinHeapGrowthFactor
 =
 1
 .
@@ -3060,22 +3060,11 @@ MinHighFrequencyHeapGrowthFactor
 Min
 (
 HighFrequencyEagerAllocTriggerFactor
-MinAllocationThresholdFactor
-)
-;
-static
-constexpr
-float
-MinLowFrequencyHeapGrowthFactor
-=
-1
-.
-0f
-/
 Min
 (
 LowFrequencyEagerAllocTriggerFactor
 MinAllocationThresholdFactor
+)
 )
 ;
 /
@@ -10206,7 +10195,7 @@ if
 (
 newGrowth
 <
-MinHighFrequencyHeapGrowthFactor
+MinHeapGrowthFactor
 |
 |
 newGrowth
@@ -10243,7 +10232,7 @@ if
 (
 newGrowth
 <
-MinHighFrequencyHeapGrowthFactor
+MinHeapGrowthFactor
 |
 |
 newGrowth
@@ -10280,7 +10269,7 @@ if
 (
 newGrowth
 <
-MinLowFrequencyHeapGrowthFactor
+MinHeapGrowthFactor
 |
 |
 newGrowth
@@ -10719,7 +10708,7 @@ MOZ_ASSERT
 highFrequencyHeapGrowthMin_
 >
 =
-MinHighFrequencyHeapGrowthFactor
+MinHeapGrowthFactor
 )
 ;
 MOZ_ASSERT
@@ -10762,7 +10751,7 @@ MOZ_ASSERT
 highFrequencyHeapGrowthMin_
 >
 =
-MinHighFrequencyHeapGrowthFactor
+MinHeapGrowthFactor
 )
 ;
 MOZ_ASSERT
@@ -10793,7 +10782,7 @@ MOZ_ASSERT
 lowFrequencyHeapGrowth_
 >
 =
-MinLowFrequencyHeapGrowthFactor
+MinHeapGrowthFactor
 )
 ;
 }
