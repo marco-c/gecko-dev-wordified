@@ -348,6 +348,12 @@ Debug
 namespace
 mozilla
 {
+using
+media
+:
+:
+NewRunnableFrom
+;
 namespace
 camera
 {
@@ -874,9 +880,6 @@ nsIRunnable
 >
 ipc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -884,9 +887,6 @@ self
 ]
 (
 )
--
->
-nsresult
 {
 if
 (
@@ -1610,9 +1610,6 @@ Runnable
 >
 webrtc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -1620,9 +1617,6 @@ self
 ]
 (
 )
--
->
-nsresult
 {
 MonitorAutoLock
 lock
@@ -1825,9 +1819,6 @@ Runnable
 >
 threadShutdown
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -1835,9 +1826,6 @@ thread
 ]
 (
 )
--
->
-nsresult
 {
 if
 (
@@ -3214,9 +3202,6 @@ Runnable
 >
 webrtc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -3225,9 +3210,6 @@ aCapEngine
 ]
 (
 )
--
->
-nsresult
 {
 int
 num
@@ -3279,9 +3261,6 @@ nsIRunnable
 >
 ipc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -3290,9 +3269,6 @@ num
 ]
 (
 )
--
->
-nsresult
 {
 if
 (
@@ -3441,9 +3417,6 @@ Runnable
 >
 webrtc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -3452,9 +3425,6 @@ aCapEngine
 ]
 (
 )
--
->
-nsresult
 {
 bool
 result
@@ -3473,9 +3443,6 @@ nsIRunnable
 >
 ipc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -3484,9 +3451,6 @@ result
 ]
 (
 )
--
->
-nsresult
 {
 if
 (
@@ -3648,9 +3612,6 @@ Runnable
 >
 webrtc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -3660,9 +3621,6 @@ aCapEngine
 ]
 (
 )
--
->
-nsresult
 {
 int
 num
@@ -3719,9 +3677,6 @@ nsIRunnable
 >
 ipc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -3730,9 +3685,6 @@ num
 ]
 (
 )
--
->
-nsresult
 {
 if
 (
@@ -3909,9 +3861,6 @@ Runnable
 >
 webrtc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -3922,9 +3871,6 @@ num
 ]
 (
 )
--
->
-nsresult
 {
 webrtc
 :
@@ -4082,9 +4028,6 @@ nsIRunnable
 >
 ipc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -4094,9 +4037,6 @@ error
 ]
 (
 )
--
->
-nsresult
 {
 if
 (
@@ -4287,9 +4227,6 @@ Runnable
 >
 webrtc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -4299,9 +4236,6 @@ aListNumber
 ]
 (
 )
--
->
-nsresult
 {
 char
 deviceName
@@ -4418,9 +4352,6 @@ nsIRunnable
 >
 ipc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -4912,9 +4843,6 @@ Runnable
 >
 mainthread_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -4925,9 +4853,6 @@ aPrincipalInfo
 ]
 (
 )
--
->
-nsresult
 {
 /
 /
@@ -5109,9 +5034,6 @@ Runnable
 >
 webrtc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -5122,9 +5044,6 @@ unique_id
 ]
 (
 )
--
->
-nsresult
 {
 int
 numdev
@@ -5223,9 +5142,6 @@ nsIRunnable
 >
 ipc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -5235,9 +5151,6 @@ error
 ]
 (
 )
--
->
-nsresult
 {
 if
 (
@@ -5451,9 +5364,6 @@ Runnable
 >
 webrtc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -5463,9 +5373,6 @@ numdev
 ]
 (
 )
--
->
-nsresult
 {
 int
 error
@@ -5485,9 +5392,6 @@ nsIRunnable
 >
 ipc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -5497,9 +5401,6 @@ numdev
 ]
 (
 )
--
->
-nsresult
 {
 if
 (
@@ -5656,9 +5557,6 @@ Runnable
 >
 webrtc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -5669,9 +5567,6 @@ ipcCaps
 ]
 (
 )
--
->
-nsresult
 {
 LOG
 (
@@ -6355,9 +6250,6 @@ nsIRunnable
 >
 ipc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -6366,9 +6258,6 @@ error
 ]
 (
 )
--
->
-nsresult
 {
 if
 (
@@ -6483,9 +6372,6 @@ Runnable
 >
 webrtc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -6503,9 +6389,6 @@ aCapNum
 ]
 (
 )
--
->
-nsresult
 {
 if
 (
@@ -6568,9 +6451,6 @@ nsIRunnable
 >
 ipc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -6579,9 +6459,6 @@ result
 ]
 (
 )
--
->
-nsresult
 {
 if
 (
@@ -6918,9 +6795,6 @@ Runnable
 >
 webrtc_runnable
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -6930,9 +6804,6 @@ capnum
 ]
 (
 )
--
->
-nsresult
 {
 self
 -
@@ -7339,9 +7210,6 @@ Runnable
 >
 threadStart
 =
-media
-:
-:
 NewRunnableFrom
 (
 [
@@ -7349,9 +7217,6 @@ self
 ]
 (
 )
--
->
-nsresult
 {
 /
 /
