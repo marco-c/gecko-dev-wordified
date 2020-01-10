@@ -493,6 +493,11 @@ prototype
 constructor
 :
 TestTabList
+destroy
+(
+)
+{
+}
 getList
 :
 function
