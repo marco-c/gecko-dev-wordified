@@ -3199,7 +3199,7 @@ self
 .
 _set_log_level
 (
-True
+verbose
 )
         
 if
