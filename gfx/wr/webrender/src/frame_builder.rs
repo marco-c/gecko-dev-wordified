@@ -294,8 +294,8 @@ render_task
 RenderTask
 RenderTaskId
 RenderTaskLocation
-RenderTaskTree
-RenderTaskTreeCounters
+RenderTaskGraph
+RenderTaskGraphCounters
 }
 ;
 use
@@ -996,7 +996,7 @@ render_tasks
 '
 a
 mut
-RenderTaskTree
+RenderTaskGraph
 }
 pub
 struct
@@ -1073,7 +1073,7 @@ render_tasks
 '
 a
 mut
-RenderTaskTree
+RenderTaskGraph
 pub
 profile_counters
 :
@@ -2013,7 +2013,7 @@ render_tasks
 :
 &
 mut
-RenderTaskTree
+RenderTaskGraph
 profile_counters
 :
 &
@@ -2836,7 +2836,7 @@ render_task_counters
 :
 &
 mut
-RenderTaskTreeCounters
+RenderTaskGraphCounters
 debug_flags
 :
 DebugFlags
@@ -2940,7 +2940,7 @@ let
 mut
 render_tasks
 =
-RenderTaskTree
+RenderTaskGraph
 :
 :
 new
