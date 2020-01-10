@@ -100,17 +100,6 @@ include
 <
 memory
 >
-#
-include
-"
-absl
-/
-memory
-/
-memory
-.
-h
-"
 namespace
 webrtc
 {
@@ -164,7 +153,7 @@ options
 )
 {
 return
-absl
+std
 :
 :
 make_unique
