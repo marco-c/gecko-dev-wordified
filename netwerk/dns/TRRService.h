@@ -278,11 +278,7 @@ uint32_t
 GetRequestTimeout
 (
 )
-{
-return
-mTRRTimeout
 ;
-}
 LookupStatus
 CompleteLookup
 (
@@ -474,13 +470,6 @@ uint32_t
 Relaxed
 >
 mTRRBlacklistExpireTime
-;
-Atomic
-<
-uint32_t
-Relaxed
->
-mTRRTimeout
 ;
 Mutex
 mLock
