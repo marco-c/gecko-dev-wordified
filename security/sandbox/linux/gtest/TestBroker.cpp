@@ -727,7 +727,7 @@ rawFD
 =
 fd
 .
-TakePlatformHandle
+ClonePlatformHandle
 (
 )
 ;
