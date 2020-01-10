@@ -2433,9 +2433,6 @@ GetDocumentURI
 (
 )
 ;
-bool
-schemeIs
-;
 if
 (
 (
@@ -2460,9 +2457,6 @@ READYSTATE_UNINITIALIZED
 )
 |
 |
-(
-NS_SUCCEEDED
-(
 uri
 -
 >
@@ -2471,13 +2465,6 @@ SchemeIs
 "
 chrome
 "
-&
-schemeIs
-)
-)
-&
-&
-schemeIs
 )
 )
 {
