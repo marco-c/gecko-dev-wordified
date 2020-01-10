@@ -564,17 +564,6 @@ prioping
 .
 enabled
 "
-PrioPingFrequency
-:
-"
-toolkit
-.
-telemetry
-.
-prioping
-.
-frequency
-"
 PrioPingDataLimit
 :
 "
