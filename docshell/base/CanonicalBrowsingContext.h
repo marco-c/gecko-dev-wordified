@@ -299,12 +299,7 @@ SetOwnerProcessId
 uint64_t
 aProcessId
 )
-{
-mProcessId
-=
-aProcessId
 ;
-}
 void
 GetWindowGlobals
 (
