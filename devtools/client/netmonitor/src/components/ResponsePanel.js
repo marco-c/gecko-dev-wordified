@@ -678,6 +678,11 @@ attempted
 if
 (
 limit
+>
+0
+&
+&
+limit
 <
 =
 request
