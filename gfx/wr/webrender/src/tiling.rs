@@ -3427,6 +3427,9 @@ transforms
 pic_task
 .
 root_spatial_node_index
+pic_task
+.
+surface_spatial_node_index
 z_generator
 )
 ;
