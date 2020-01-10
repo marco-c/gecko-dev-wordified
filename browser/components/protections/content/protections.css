@@ -3258,6 +3258,12 @@ start
 :
 5px
 ;
+width
+:
+max
+-
+content
+;
 }
 .
 monitor
