@@ -911,6 +911,15 @@ adaptedProfile
 )
 )
 {
+info
+(
+triggerAutofillAndCheckProfile
+:
+{
+fieldName
+}
+)
+;
 const
 element
 =
@@ -932,7 +941,7 @@ activeElement
 element
 ?
 "
-DOMAutoComplete
+input
 "
 :
 "
