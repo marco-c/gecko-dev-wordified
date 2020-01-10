@@ -611,6 +611,8 @@ const
 nsACString
 &
 aExtensions
+uint64_t
+aHttpChannelId
 )
 :
 WebSocketBaseRunnable
@@ -629,6 +631,10 @@ aProtocols
 mExtensions
 (
 aExtensions
+)
+mHttpChannelId
+(
+aHttpChannelId
 )
 {
 }
@@ -659,6 +665,7 @@ mWebSocketSerialID
 mEffectiveURI
 mProtocols
 mExtensions
+mHttpChannelId
 )
 ;
 NS_WARNING_ASSERTION
@@ -685,6 +692,9 @@ mProtocols
 const
 nsCString
 mExtensions
+;
+uint64_t
+mHttpChannelId
 ;
 }
 ;
@@ -1207,6 +1217,8 @@ const
 nsACString
 &
 aExtensions
+uint64_t
+aHttpChannelId
 nsIEventTarget
 *
 aTarget
@@ -1250,6 +1262,7 @@ aInnerWindowID
 aEffectiveURI
 aProtocols
 aExtensions
+aHttpChannelId
 )
 ;
 DebugOnly

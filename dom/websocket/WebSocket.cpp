@@ -4004,6 +4004,12 @@ mWebSocket
 -
 >
 mEstablishedExtensions
+mChannel
+-
+>
+HttpChannelId
+(
+)
 )
 ;
 /

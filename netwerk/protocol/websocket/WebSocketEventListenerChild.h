@@ -224,6 +224,10 @@ const
 nsCString
 &
 aExtensions
+const
+uint64_t
+&
+aHttpChannelId
 )
 ;
 mozilla

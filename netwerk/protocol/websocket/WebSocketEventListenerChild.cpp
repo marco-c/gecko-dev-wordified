@@ -275,6 +275,10 @@ const
 nsCString
 &
 aExtensions
+const
+uint64_t
+&
+aHttpChannelId
 )
 {
 if
@@ -302,6 +306,7 @@ mInnerWindowID
 aEffectiveURI
 aProtocols
 aExtensions
+aHttpChannelId
 target
 )
 ;
