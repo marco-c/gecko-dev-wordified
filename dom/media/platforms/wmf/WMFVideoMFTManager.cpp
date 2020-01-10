@@ -4425,6 +4425,13 @@ YUVColorSpace
 :
 BT601
 )
+gfx
+:
+:
+ColorRange
+:
+:
+LIMITED
 mVideoInfo
 .
 ImageRect
@@ -7161,6 +7168,13 @@ YUVColorSpace
 :
 BT601
 )
+gfx
+:
+:
+ColorRange
+:
+:
+LIMITED
 mVideoInfo
 .
 ImageRect
