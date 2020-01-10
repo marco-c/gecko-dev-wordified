@@ -115,9 +115,6 @@ name
 number
 blobber
 )
-"
-+
-"
 VALUES
 (
 ?

@@ -122,9 +122,6 @@ PRIMARY
 KEY
 val
 NONE
-"
-+
-"
 alt_val
 NONE
 "
@@ -726,9 +723,6 @@ test
 val
 alt_val
 )
-"
-+
-"
 VALUES
 (
 :

@@ -3913,9 +3913,6 @@ test
 (
 id
 )
-"
-+
-"
 VALUES
 (
 ?
@@ -4049,9 +4046,6 @@ test
 (
 id
 )
-"
-+
-"
 VALUES
 (
 ?
@@ -4162,9 +4156,6 @@ test
 (
 id
 )
-"
-+
-"
 VALUES
 (
 :
@@ -4277,9 +4268,6 @@ test
 (
 id
 )
-"
-+
-"
 VALUES
 (
 :
@@ -4394,9 +4382,6 @@ test
 (
 blober
 )
-"
-+
-"
 VALUES
 (
 ?
@@ -4486,9 +4471,6 @@ test
 (
 blober
 )
-"
-+
-"
 VALUES
 (
 :
@@ -4565,9 +4547,6 @@ test
 (
 id
 )
-"
-+
-"
 VALUES
 (
 :
@@ -4676,9 +4655,6 @@ test
 (
 id
 )
-"
-+
-"
 VALUES
 (
 :
@@ -4810,9 +4786,6 @@ test
 (
 id
 )
-"
-+
-"
 VALUES
 (
 :
@@ -4930,9 +4903,6 @@ test
 (
 id
 )
-"
-+
-"
 VALUES
 (
 :
@@ -5042,9 +5012,6 @@ test
 (
 id
 )
-"
-+
-"
 VALUES
 (
 :
@@ -5065,9 +5032,6 @@ test
 (
 id
 )
-"
-+
-"
 VALUES
 (
 :
@@ -5185,9 +5149,6 @@ test
 (
 id
 )
-"
-+
-"
 VALUES
 (
 :
