@@ -1227,7 +1227,14 @@ process
 /
 Focus
 chrome
-gURLBar
+document
+.
+getElementById
+(
+"
+urlbar
+"
+)
 .
 focus
 (
