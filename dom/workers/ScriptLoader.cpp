@@ -1128,6 +1128,10 @@ aForceInherit
 bool
 isData
 =
+false
+;
+rv
+=
 uri
 -
 >
@@ -1136,6 +1140,14 @@ SchemeIs
 "
 data
 "
+&
+isData
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 bool

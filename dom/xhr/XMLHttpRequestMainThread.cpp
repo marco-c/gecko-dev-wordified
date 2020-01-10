@@ -6083,6 +6083,9 @@ nsIURI
 >
 uri
 ;
+bool
+isDataURI
+;
 if
 (
 NS_FAILED
@@ -6100,7 +6103,8 @@ uri
 )
 |
 |
-!
+NS_FAILED
+(
 uri
 -
 >
@@ -6109,7 +6113,14 @@ SchemeIs
 "
 data
 "
+&
+isDataURI
 )
+)
+|
+|
+!
+isDataURI
 )
 {
 int64_t
