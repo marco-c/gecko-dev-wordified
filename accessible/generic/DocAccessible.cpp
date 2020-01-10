@@ -3221,6 +3221,16 @@ Clear
 (
 )
 ;
+mAnchorJumpElm
+=
+nullptr
+;
+mInvalidationList
+.
+Clear
+(
+)
+;
 for
 (
 auto
