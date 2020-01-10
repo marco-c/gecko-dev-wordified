@@ -441,6 +441,12 @@ gfx
 YUVColorSpace
 mColorSpace
 ;
+gfx
+:
+:
+ColorRange
+mColorRange
+;
 RefPtr
 <
 TextureClient
