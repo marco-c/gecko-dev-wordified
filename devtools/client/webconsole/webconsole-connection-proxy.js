@@ -1379,8 +1379,14 @@ webConsoleUI
 )
 {
 return
+Promise
+.
+resolve
+(
+)
 ;
 }
+return
 this
 .
 webConsoleUI
