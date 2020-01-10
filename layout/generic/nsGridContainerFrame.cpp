@@ -659,6 +659,10 @@ kAuto
 ;
 }
 }
+/
+/
+namespace
+mozilla
 static
 void
 ReparentFrame
