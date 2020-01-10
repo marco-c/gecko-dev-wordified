@@ -625,14 +625,6 @@ dom
 BrowsingContext
 *
 aBrowsingContext
-bool
-aDisableHistory
-/
-*
-=
-false
-*
-/
 )
 {
 RefPtr
@@ -999,10 +991,6 @@ if
 XRE_IsParentProcess
 (
 )
-&
-&
-!
-aDisableHistory
 )
 {
 /
