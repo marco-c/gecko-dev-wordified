@@ -4954,6 +4954,14 @@ waitingOnStep
 =
 true
 ;
+thread
+.
+dbg
+.
+onEnterFrame
+=
+undefined
+;
 return
 undefined
 ;
