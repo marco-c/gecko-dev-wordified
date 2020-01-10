@@ -10497,12 +10497,6 @@ IsElementPreformatted
 &
 !
 mPreFormattedMail
-&
-&
-!
-MayWrap
-(
-)
 )
 |
 |
