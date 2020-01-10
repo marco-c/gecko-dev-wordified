@@ -12241,6 +12241,13 @@ prim_info
 combined_local_clip_rect
 transform_id
 snap_offsets
+:
+SnapOffsets
+:
+:
+empty
+(
+)
 specific_prim_address
 :
 prim_cache_address
