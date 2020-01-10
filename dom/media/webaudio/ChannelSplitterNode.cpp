@@ -223,10 +223,15 @@ port
 "
 )
 ;
+MOZ_ASSERT
+(
 aOutput
 .
-SetLength
+Length
 (
+)
+=
+=
 OutputCount
 (
 )
