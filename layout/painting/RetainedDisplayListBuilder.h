@@ -609,6 +609,7 @@ RebuildLimit
 FrameType
 Disabled
 Content
+VisibleRect
 }
 ;
 struct
@@ -826,6 +827,17 @@ Content
 return
 "
 Content
+"
+;
+case
+PartialUpdateFailReason
+:
+:
+VisibleRect
+:
+return
+"
+VisibleRect
 "
 ;
 default
@@ -1449,6 +1461,9 @@ mBuilder
 ;
 RetainedDisplayList
 mList
+;
+nsRect
+mPreviousVisibleRect
 ;
 WeakFrame
 mPreviousCaret
