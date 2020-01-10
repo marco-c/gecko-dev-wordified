@@ -149,6 +149,15 @@ h
 #
 include
 "
+jit
+/
+JitScript
+.
+h
+"
+#
+include
+"
 vm
 /
 EnvironmentObject
