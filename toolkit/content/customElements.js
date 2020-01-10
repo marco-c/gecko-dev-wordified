@@ -3941,7 +3941,7 @@ tabindex
 }
 }
 }
-Base
+MozXULElement
 .
 implementCustomInterface
 (
@@ -4221,6 +4221,12 @@ accesskey
 ;
 }
 }
+;
+MozElements
+.
+BaseTextMixin
+=
+BaseTextMixin
 ;
 MozElements
 .

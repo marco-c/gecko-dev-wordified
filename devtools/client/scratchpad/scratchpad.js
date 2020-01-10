@@ -8146,7 +8146,7 @@ recentFilesPopup
 =
 recentFilesMenu
 .
-firstChild
+menupopup
 ;
 const
 filePaths
@@ -8672,7 +8672,7 @@ if
 !
 menu
 .
-firstChild
+menupopup
 .
 hasChildNodes
 (
