@@ -744,6 +744,7 @@ worker
 has
 shutdown
 "
+async
 (
 )
 =
@@ -831,9 +832,9 @@ foo
 "
 )
 ;
-const
-resp
-=
+try
+{
+await
 task
 (
 "
@@ -841,13 +842,12 @@ bar
 "
 )
 ;
-resp
-.
+}
 catch
 (
 e
-=
->
+)
+{
 expect
 (
 e
@@ -864,8 +864,8 @@ shutdown
 !
 "
 )
-)
 ;
+}
 const
 listener
 =

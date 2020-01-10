@@ -113,7 +113,6 @@ describe
 "
 getOriginalLocation
 "
-async
 (
 )
 =
@@ -304,7 +303,6 @@ describe
 "
 getGeneratedLocation
 "
-async
 (
 )
 =
