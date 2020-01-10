@@ -1420,6 +1420,12 @@ Mutant
 PVOID
 ImageBaseAddress
 ;
+PVOID
+Ldr
+;
+PVOID
+ProcessParameters
+;
 }
 PEB
 *
