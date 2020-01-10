@@ -368,6 +368,13 @@ false
 \
 _
 (
+UseWebRenderFlipSequentialWin
+bool
+false
+)
+\
+_
+(
 UseWebRenderDCompWin
 bool
 false
@@ -375,7 +382,7 @@ false
 \
 _
 (
-UseWebRenderDCompWinTripleBuffering
+UseWebRenderTripleBufferingWin
 bool
 false
 )
