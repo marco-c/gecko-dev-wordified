@@ -13589,7 +13589,7 @@ env_
 HandlePropertyName
 name_
 ;
-bool
+AttachDecision
 tryAttachGlobalNameValue
 (
 ObjOperandId
@@ -13598,7 +13598,7 @@ HandleId
 id
 )
 ;
-bool
+AttachDecision
 tryAttachGlobalNameGetter
 (
 ObjOperandId
@@ -13607,7 +13607,7 @@ HandleId
 id
 )
 ;
-bool
+AttachDecision
 tryAttachEnvironmentName
 (
 ObjOperandId
@@ -13648,7 +13648,7 @@ HandlePropertyName
 name
 )
 ;
-bool
+AttachDecision
 tryAttachStub
 (
 )

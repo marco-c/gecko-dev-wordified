@@ -2980,7 +2980,7 @@ pc
 )
 )
 ;
-TryAttachIonStubOld
+TryAttachIonStub
 <
 GetNameIRGenerator
 IonGetNameIC
