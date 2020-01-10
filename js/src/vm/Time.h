@@ -146,6 +146,13 @@ stdint
 .
 h
 >
+#
+if
+!
+ENABLE_INTL_API
+|
+|
+MOZ_SYSTEM_ICU
 /
 *
 *
@@ -310,6 +317,8 @@ effect
 /
 }
 ;
+#
+endif
 /
 *
 Some
@@ -415,6 +424,13 @@ PRMJ_NowShutdown
 }
 #
 endif
+#
+if
+!
+ENABLE_INTL_API
+|
+|
+MOZ_SYSTEM_ICU
 /
 *
 Format
@@ -456,6 +472,8 @@ int
 offsetInSeconds
 )
 ;
+#
+endif
 /
 *
 *
