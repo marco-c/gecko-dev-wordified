@@ -36931,12 +36931,6 @@ PopupBlocker
 :
 TryUsePopupOpeningToken
 (
-mDoc
--
->
-NodePrincipal
-(
-)
 )
 )
 {
