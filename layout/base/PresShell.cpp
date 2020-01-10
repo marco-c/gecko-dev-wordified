@@ -39075,7 +39075,7 @@ mIsDestroying
 mPresContext
 -
 >
-IsRootContentDocument
+IsRootContentDocumentInProcess
 (
 )
 )
