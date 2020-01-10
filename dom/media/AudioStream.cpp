@@ -230,6 +230,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 AudioConverter
 .
 h

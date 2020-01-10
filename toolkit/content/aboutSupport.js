@@ -4333,7 +4333,7 @@ all
 .
 js
 /
-StaticPrefs
+gfxPrefs
 defaults
 .
 if

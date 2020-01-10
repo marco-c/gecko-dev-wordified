@@ -174,6 +174,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 gfxTextRun
 .
 h
@@ -1351,7 +1358,7 @@ RequiresAATLayout
 aVertical
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 CoreTextEnabled

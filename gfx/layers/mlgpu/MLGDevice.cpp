@@ -156,9 +156,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
+gfxPrefs
 .
 h
 "
@@ -663,7 +661,7 @@ paths
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 AdvancedLayersEnableBufferSharing
@@ -768,7 +766,7 @@ drivers
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 AdvancedLayersEnableClearView
@@ -951,7 +949,7 @@ buffer
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 AdvancedLayersEnableBufferCache

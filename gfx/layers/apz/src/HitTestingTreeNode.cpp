@@ -77,6 +77,13 @@ AsyncPanZoomController
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 LayersLogging
 .
 h
@@ -1571,7 +1578,7 @@ eRequiresTargetConfirmation
 else
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 TouchActionEnabled

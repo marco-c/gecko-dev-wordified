@@ -121,6 +121,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 gfxWindowsPlatform
 .
 h
@@ -131,15 +138,6 @@ include
 mozilla
 /
 RefPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StaticPrefs
 .
 h
 "
@@ -858,7 +856,7 @@ true
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 Direct2DForceEnabled
@@ -1259,7 +1257,7 @@ false
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 Direct2DForceEnabled
@@ -1356,7 +1354,7 @@ IsEmpty
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 LayersAMDSwitchableGfxEnabled
@@ -2771,7 +2769,7 @@ DXP010Blocked
 &
 &
 !
-StaticPrefs
+gfxPrefs
 :
 :
 PDMWMFForceAllowP010Format
@@ -2836,7 +2834,7 @@ DXP016Blocked
 &
 &
 !
-StaticPrefs
+gfxPrefs
 :
 :
 PDMWMFForceAllowP010Format

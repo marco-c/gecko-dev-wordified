@@ -117,6 +117,13 @@ MPL
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -2377,7 +2384,7 @@ aForTests
 bool
 isAPZAware
 =
-StaticPrefs
+gfxPrefs
 :
 :
 TestEventsAsyncEnabled

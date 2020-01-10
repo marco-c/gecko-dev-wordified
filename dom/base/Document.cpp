@@ -2202,6 +2202,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 nsISupportsPrimitives
 .
 h
@@ -42640,7 +42647,7 @@ IsAboutPage
 CSSCoord
 viewportWidth
 =
-StaticPrefs
+gfxPrefs
 :
 :
 DesktopViewportWidth
@@ -43542,7 +43549,7 @@ DisallowZoom
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 ForceUserScalable
@@ -44470,7 +44477,7 @@ bug
 .
 width
 =
-StaticPrefs
+gfxPrefs
 :
 :
 DesktopViewportWidth

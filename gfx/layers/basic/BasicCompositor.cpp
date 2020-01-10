@@ -292,6 +292,13 @@ ImageContainer
 .
 h
 "
+#
+include
+"
+gfxPrefs
+.
+h
+"
 namespace
 mozilla
 {
@@ -2108,7 +2115,7 @@ SupportsLayerGeometry
 const
 {
 return
-StaticPrefs
+gfxPrefs
 :
 :
 BasicLayerGeometry
@@ -6617,7 +6624,7 @@ PopClip
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 WidgetUpdateFlashing

@@ -702,6 +702,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 nsAbsoluteContainingBlock
 .
 h
@@ -7527,7 +7534,7 @@ ModifiedFramesCount
 (
 )
 >
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutRebuildFrameLimit
@@ -22562,7 +22569,7 @@ if
 hasOverrideDirtyRect
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutDisplayListShowArea

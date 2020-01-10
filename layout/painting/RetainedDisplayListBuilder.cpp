@@ -131,9 +131,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
+gfxPrefs
 .
 h
 "
@@ -9096,7 +9094,7 @@ Length
 (
 )
 >
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutRebuildFrameLimit

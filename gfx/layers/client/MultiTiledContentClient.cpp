@@ -137,15 +137,6 @@ include
 "
 mozilla
 /
-StaticPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
 layers
 /
 LayerMetricsWrapper
@@ -210,7 +201,7 @@ mLowPrecisionTiledBuffer
 .
 SetResolution
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LowPrecisionResolution
@@ -220,7 +211,7 @@ LowPrecisionResolution
 ;
 mHasLowPrecision
 =
-StaticPrefs
+gfxPrefs
 :
 :
 UseLowPrecisionBuffer
@@ -1765,7 +1756,7 @@ resampling
 artifacts
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 TileEdgePaddingEnabled

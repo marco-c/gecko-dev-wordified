@@ -577,6 +577,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 gfxTypes
 .
 h
@@ -984,15 +991,6 @@ include
 mozilla
 /
 Preferences
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StaticPrefs
 .
 h
 "
@@ -3817,7 +3815,7 @@ AreRetainedDisplayListsEnabled
 ifdef
 MOZ_WIDGET_ANDROID
 return
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutRetainDisplayList
@@ -3834,7 +3832,7 @@ XRE_IsContentProcess
 )
 {
 return
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutRetainDisplayList
@@ -3850,7 +3848,7 @@ XRE_IsE10sParentProcess
 )
 {
 return
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutRetainDisplayListChrome
@@ -5037,7 +5035,7 @@ some
 circumstances
 .
 return
-StaticPrefs
+gfxPrefs
 :
 :
 APZAllowZooming
@@ -5135,7 +5133,7 @@ aFallbackPrescontext
 MOZ_ASSERT
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 LayersTilesEnabled
@@ -6206,7 +6204,7 @@ ScreenSize
 else
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayersTilesEnabled
@@ -6405,7 +6403,7 @@ height
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayersTilesEnabled
@@ -7385,7 +7383,7 @@ false
 ;
 }
 return
-StaticPrefs
+gfxPrefs
 :
 :
 APZDisableForScrollLinkedEffects
@@ -7910,7 +7908,7 @@ aMultiplier
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 LayersTilesEnabled
@@ -8100,7 +8098,7 @@ ScrollPort
 float
 multiplier
 =
-StaticPrefs
+gfxPrefs
 :
 :
 UseLowPrecisionBuffer
@@ -8111,7 +8109,7 @@ UseLowPrecisionBuffer
 .
 0f
 /
-StaticPrefs
+gfxPrefs
 :
 :
 LowPrecisionResolution
@@ -8813,7 +8811,7 @@ hasDisplayPort
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -9350,7 +9348,7 @@ aResult
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 UseLowPrecisionBuffer
@@ -9408,7 +9406,7 @@ aResult
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 UseLowPrecisionBuffer
@@ -25565,7 +25563,7 @@ shouldAttemptPartialUpdate
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutVerifyRetainDisplayList
@@ -25644,7 +25642,7 @@ Failed
 &
 &
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutDisplayListBuildTwice
@@ -25665,7 +25663,7 @@ Failed
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayersDrawFPS
@@ -26065,7 +26063,7 @@ presShell
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayersDrawFPS
@@ -26863,7 +26861,7 @@ Check
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 GfxLoggingPaintedPixelCountEnabled
@@ -27298,7 +27296,7 @@ ifdef
 MOZ_DUMP_PAINTING
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 DumpClientLayers
@@ -59555,7 +59553,7 @@ IsAPZTestLoggingEnabled
 )
 {
 return
-StaticPrefs
+gfxPrefs
 :
 :
 APZTestLoggingEnabled
@@ -61560,7 +61558,7 @@ scrollId
 "
 displayport
 "
-StaticPrefs
+gfxPrefs
 :
 :
 UseLowPrecisionBuffer
@@ -63457,7 +63455,7 @@ metrics
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZPrintTree
@@ -63465,7 +63463,7 @@ APZPrintTree
 )
 |
 |
-StaticPrefs
+gfxPrefs
 :
 :
 APZTestLoggingEnabled
@@ -63907,7 +63905,7 @@ APZC
 bool
 addMetrics
 =
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -63981,7 +63979,7 @@ frame
 &
 &
 !
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -68548,10 +68546,10 @@ rely
 solely
 on
 the
-StaticPrefs
+gfxPrefs
 .
 return
-StaticPrefs
+gfxPrefs
 :
 :
 MetaViewportEnabled

@@ -142,6 +142,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 gfxEnv
 .
 h
@@ -180,15 +187,6 @@ include
 mozilla
 /
 Range
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StaticPrefs
 .
 h
 "
@@ -1969,7 +1967,7 @@ IsRootWebRenderBridgeParent
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -5852,7 +5850,7 @@ rect
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -10627,7 +10625,7 @@ IsRootWebRenderBridgeParent
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -11194,7 +11192,7 @@ IsRootWebRenderBridgeParent
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -11469,7 +11467,7 @@ kHighestRenderRoot
 |
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -13881,7 +13879,7 @@ ToMilliseconds
 (
 )
 >
-StaticPrefs
+gfxPrefs
 :
 :
 WebRenderLateSceneBuildThreshold

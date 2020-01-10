@@ -513,9 +513,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
+gfxPrefs
 .
 h
 "
@@ -7950,7 +7948,7 @@ FEATURE_FAILURE_BUG_1351349
 ;
 #
 else
-StaticPrefs
+gfxPrefs
 :
 :
 SetCompositorClearState
@@ -8016,7 +8014,7 @@ WARP
 .
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayersD3D11ForceWARP
@@ -8114,7 +8112,7 @@ al
 .
 SetDefaultFromPref
 (
-StaticPrefs
+gfxPrefs
 :
 :
 GetAdvancedLayersEnabledDoNotUseDirectlyPrefName
@@ -8126,7 +8124,7 @@ true
 aIsEnablePref
 *
 /
-StaticPrefs
+gfxPrefs
 :
 :
 GetAdvancedLayersEnabledDoNotUseDirectlyPrefDefault
@@ -8177,7 +8175,7 @@ IsWin8OrLater
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 AdvancedLayersEnableOnWindows7
@@ -9181,14 +9179,14 @@ d2d1
 .
 SetDefaultFromPref
 (
-StaticPrefs
+gfxPrefs
 :
 :
 GetDirect2DDisabledPrefName
 (
 )
 false
-StaticPrefs
+gfxPrefs
 :
 :
 GetDirect2DDisabledPrefDefault
@@ -9247,7 +9245,7 @@ IsEnabled
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 Direct2DForceEnabled
@@ -9775,7 +9773,7 @@ is
 allowed
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 GPUProcessAllowSoftware
@@ -11752,7 +11750,7 @@ OPENGL_COMPOSITING
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 LayersPreferOpenGL

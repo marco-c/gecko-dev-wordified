@@ -121,6 +121,13 @@ ScrollAnimationMSDPhysics
 .
 h
 "
+#
+include
+"
+gfxPrefs
+.
+h
+"
 using
 namespace
 mozilla
@@ -145,7 +152,7 @@ mModelX
 0
 0
 0
-StaticPrefs
+gfxPrefs
 :
 :
 SmoothScrollMSDPhysicsRegularSpringConstant
@@ -158,7 +165,7 @@ mModelY
 0
 0
 0
-StaticPrefs
+gfxPrefs
 :
 :
 SmoothScrollMSDPhysicsRegularSpringConstant
@@ -421,7 +428,7 @@ TimeDuration
 )
 ;
 return
-StaticPrefs
+gfxPrefs
 :
 :
 SmoothScrollMSDPhysicsMotionBeginSpringConstant
@@ -463,7 +470,7 @@ if
 deltaMS
 >
 =
-StaticPrefs
+gfxPrefs
 :
 :
 SmoothScrollMSDPhysicsContinuousMotionMaxDeltaMS
@@ -472,7 +479,7 @@ SmoothScrollMSDPhysicsContinuousMotionMaxDeltaMS
 )
 {
 return
-StaticPrefs
+gfxPrefs
 :
 :
 SmoothScrollMSDPhysicsMotionBeginSpringConstant
@@ -488,7 +495,7 @@ previousDelta
 deltaMS
 >
 =
-StaticPrefs
+gfxPrefs
 :
 :
 SmoothScrollMSDPhysicsSlowdownMinDeltaMS
@@ -505,7 +512,7 @@ ToMilliseconds
 (
 )
 *
-StaticPrefs
+gfxPrefs
 :
 :
 SmoothScrollMSDPhysicsSlowdownMinDeltaRatio
@@ -565,7 +572,7 @@ more
 quickly
 .
 return
-StaticPrefs
+gfxPrefs
 :
 :
 SmoothScrollMSDPhysicsSlowdownSpringConstant
@@ -574,7 +581,7 @@ SmoothScrollMSDPhysicsSlowdownSpringConstant
 ;
 }
 return
-StaticPrefs
+gfxPrefs
 :
 :
 SmoothScrollMSDPhysicsRegularSpringConstant

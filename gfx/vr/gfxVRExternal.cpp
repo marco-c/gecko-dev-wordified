@@ -138,9 +138,7 @@ h
 #
 include
 "
-mozilla
-/
-Preferences
+gfxPrefs
 .
 h
 "
@@ -149,7 +147,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+Preferences
 .
 h
 "
@@ -3329,7 +3327,7 @@ NULL
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 VRProcessEnabled
@@ -3794,7 +3792,7 @@ NS_IsMainThread
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 VREnabled
@@ -3810,7 +3808,7 @@ if
 (
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 VRExternalEnabled

@@ -162,16 +162,14 @@ include
 "
 mozilla
 /
-StaticPrefs
+TimeStamp
 .
 h
 "
 #
 include
 "
-mozilla
-/
-TimeStamp
+gfxPrefs
 .
 h
 "
@@ -2148,7 +2146,7 @@ false
 bool
 wantBenchmark
 =
-StaticPrefs
+gfxPrefs
 :
 :
 LayersBenchEnabled

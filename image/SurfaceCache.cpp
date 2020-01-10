@@ -208,15 +208,6 @@ include
 "
 mozilla
 /
-StaticPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPtr
 .
 h
@@ -248,6 +239,13 @@ h
 include
 "
 gfxPlatform
+.
+h
+"
+#
+include
+"
+gfxPrefs
 .
 h
 "
@@ -3226,7 +3224,7 @@ subset
 int32_t
 thresholdSurfaces
 =
-StaticPrefs
+gfxPrefs
 :
 :
 ImageCacheFactor2ThresholdSurfaces
@@ -7924,7 +7922,7 @@ aStaticOnly
 *
 /
 !
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMemAnimatedDiscardable
@@ -10229,7 +10227,7 @@ once
 /
 /
 See
-StaticPrefs
+gfxPrefs
 for
 the
 default
@@ -10260,7 +10258,7 @@ milliseconds
 uint32_t
 surfaceCacheExpirationTimeMS
 =
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMemSurfaceCacheMinExpirationMS
@@ -10341,7 +10339,7 @@ surfaceCacheDiscardFactor
 =
 max
 (
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMemSurfaceCacheDiscardFactor
@@ -10364,7 +10362,7 @@ kilobytes
 uint64_t
 surfaceCacheMaxSizeKB
 =
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMemSurfaceCacheMaxSizeKB
@@ -10493,7 +10491,7 @@ surfaceCacheSizeFactor
 =
 max
 (
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMemSurfaceCacheSizeFactor
@@ -11723,7 +11721,7 @@ maximum
 int32_t
 maxSizeKB
 =
-StaticPrefs
+gfxPrefs
 :
 :
 ImageCacheMaxRasterizedSVGThresholdKB

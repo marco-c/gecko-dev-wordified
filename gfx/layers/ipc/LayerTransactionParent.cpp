@@ -188,6 +188,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -372,15 +379,6 @@ for
 operator
 delete
 etc
-#
-include
-"
-mozilla
-/
-StaticPrefs
-.
-h
-"
 #
 include
 "
@@ -3236,7 +3234,7 @@ enabled
 bool
 drawFps
 =
-StaticPrefs
+gfxPrefs
 :
 :
 LayersDrawFPS
@@ -3251,7 +3249,7 @@ drawFps
 uint32_t
 visualWarningTrigger
 =
-StaticPrefs
+gfxPrefs
 :
 :
 LayerTransactionWarning
@@ -5153,7 +5151,7 @@ behaviour
 .
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutUseContainersForRootFrames

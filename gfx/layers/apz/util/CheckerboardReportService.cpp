@@ -124,6 +124,17 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+/
+/
+for
+gfxPrefs
+#
+include
+"
 jsapi
 .
 h
@@ -1420,7 +1431,7 @@ IsRecordingEnabled
 const
 {
 return
-StaticPrefs
+gfxPrefs
 :
 :
 APZRecordCheckerboarding
@@ -1438,7 +1449,7 @@ bool
 aEnabled
 )
 {
-StaticPrefs
+gfxPrefs
 :
 :
 SetAPZRecordCheckerboarding

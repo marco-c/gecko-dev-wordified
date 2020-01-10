@@ -220,6 +220,13 @@ h
 for
 gfxImageFormat
 gfxPlatform
+#
+include
+"
+gfxPrefs
+.
+h
+"
 /
 /
 #
@@ -3526,7 +3533,7 @@ startTime
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayersDrawFPS

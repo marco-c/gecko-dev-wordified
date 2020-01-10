@@ -159,6 +159,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 OverscrollHandoffState
 .
 h
@@ -174,15 +181,6 @@ h
 include
 "
 ViewConfiguration
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StaticPrefs
 .
 h
 "
@@ -420,7 +418,7 @@ aPLPPI
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZUseChromeFlingPhysics
@@ -486,7 +484,7 @@ aAxis
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZUseChromeFlingPhysics
@@ -531,7 +529,7 @@ InitializeGlobalState
 Not
 conditioned
 on
-StaticPrefs
+gfxPrefs
 :
 :
 APZUseChromeFlingPhysics
@@ -1315,7 +1313,7 @@ ToMilliseconds
 (
 )
 <
-StaticPrefs
+gfxPrefs
 :
 :
 APZFlingAccelInterval
@@ -1330,7 +1328,7 @@ Length
 )
 >
 =
-StaticPrefs
+gfxPrefs
 :
 :
 APZFlingAccelMinVelocity
@@ -1905,7 +1903,7 @@ Length
 ;
 /
 /
-StaticPrefs
+gfxPrefs
 :
 :
 APZFlingStoppedThreshold
@@ -1924,7 +1922,7 @@ shouldContinueFling
 (
 speed
 <
-StaticPrefs
+gfxPrefs
 :
 :
 APZFlingStoppedThreshold

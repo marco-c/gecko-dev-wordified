@@ -593,6 +593,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AutoRestore
@@ -30969,7 +30976,7 @@ enabled
 .
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 PointerEventsEnabled

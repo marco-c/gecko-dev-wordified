@@ -138,9 +138,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
+gfxPrefs
 .
 h
 "
@@ -193,7 +191,7 @@ maxMS
 =
 clamped
 (
-StaticPrefs
+gfxPrefs
 :
 :
 PageSmoothScrollMaxDurationMs
@@ -207,7 +205,7 @@ minMS
 =
 clamped
 (
-StaticPrefs
+gfxPrefs
 :
 :
 PageSmoothScrollMinDurationMs
@@ -229,7 +227,7 @@ maxMS
 =
 clamped
 (
-StaticPrefs
+gfxPrefs
 :
 :
 PixelSmoothScrollMaxDurationMs
@@ -243,7 +241,7 @@ minMS
 =
 clamped
 (
-StaticPrefs
+gfxPrefs
 :
 :
 PixelSmoothScrollMinDurationMs
@@ -265,7 +263,7 @@ maxMS
 =
 clamped
 (
-StaticPrefs
+gfxPrefs
 :
 :
 WheelSmoothScrollMaxDurationMs
@@ -279,7 +277,7 @@ minMS
 =
 clamped
 (
-StaticPrefs
+gfxPrefs
 :
 :
 WheelSmoothScrollMinDurationMs
@@ -316,7 +314,7 @@ intervalRatio
 (
 double
 )
-StaticPrefs
+gfxPrefs
 :
 :
 SmoothScrollDurationToIntervalRatio

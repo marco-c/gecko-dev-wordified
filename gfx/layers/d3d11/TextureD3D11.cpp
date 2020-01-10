@@ -166,9 +166,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
+gfxPrefs
 .
 h
 "
@@ -1629,7 +1627,7 @@ Get
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 Direct2DDestroyDTOnPaintThread

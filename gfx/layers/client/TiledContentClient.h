@@ -2085,7 +2085,7 @@ is
 controlled
 by
 *
-StaticPrefs
+gfxPrefs
 :
 :
 PerTileDrawing

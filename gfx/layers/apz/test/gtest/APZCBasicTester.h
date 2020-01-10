@@ -147,6 +147,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 layers
@@ -203,6 +210,13 @@ SetUp
 (
 )
 {
+gfxPrefs
+:
+:
+GetSingleton
+(
+)
+;
 APZThreadUtils
 :
 :

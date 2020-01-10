@@ -140,15 +140,6 @@ include
 "
 mozilla
 /
-StaticPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPtr
 .
 h
@@ -317,7 +308,7 @@ GetFlingFriction
 )
 {
 return
-StaticPrefs
+gfxPrefs
 :
 :
 APZChromeFlingPhysicsFriction
@@ -394,7 +385,7 @@ const
 float
 inflexion
 =
-StaticPrefs
+gfxPrefs
 :
 :
 APZChromeFlingPhysicsInflexion
@@ -465,7 +456,7 @@ GetThresholdForFlingEnd
 )
 {
 return
-StaticPrefs
+gfxPrefs
 :
 :
 APZChromeFlingPhysicsStopThreshold

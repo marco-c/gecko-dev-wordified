@@ -379,6 +379,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 gfxUserFontSet
 .
 h
@@ -22120,7 +22127,7 @@ autoBehaviorIsSmooth
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 ScrollBehaviorEnabled
@@ -33917,7 +33924,7 @@ AddForSubDocument
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -39969,7 +39976,7 @@ return
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZKeyboardEnabled

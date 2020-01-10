@@ -291,9 +291,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
+gfxPrefs
 .
 h
 "
@@ -1040,7 +1038,7 @@ useTLSIsCurrent
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 UseTLSIsCurrent
@@ -1054,7 +1052,7 @@ return
 useTLSIsCurrent
 ;
 return
-StaticPrefs
+gfxPrefs
 :
 :
 UseTLSIsCurrent
@@ -1464,7 +1462,7 @@ caps
 )
 mWorkAroundDriverBugs
 (
-StaticPrefs
+gfxPrefs
 :
 :
 WorkAroundDriverBugs
@@ -13674,7 +13672,7 @@ LOCAL_GL_RGB8
 uint32_t
 msaaLevel
 =
-StaticPrefs
+gfxPrefs
 :
 :
 MSAALevel

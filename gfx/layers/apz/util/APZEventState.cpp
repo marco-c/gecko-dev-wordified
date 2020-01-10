@@ -138,6 +138,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 LayersLogging
 .
 h
@@ -2495,7 +2502,7 @@ aApzResponse
 nsEventStatus_eConsumeDoDefault
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 PointerEventsEnabled

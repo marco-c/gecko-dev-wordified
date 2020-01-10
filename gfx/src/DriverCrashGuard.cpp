@@ -131,6 +131,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 gfxConfig
 .
 h
@@ -183,15 +190,6 @@ include
 mozilla
 /
 Preferences
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StaticPrefs
 .
 h
 "
@@ -2644,7 +2642,7 @@ XP_WIN
 bool
 d2dEnabled
 =
-StaticPrefs
+gfxPrefs
 :
 :
 Direct2DForceEnabled
@@ -2654,7 +2652,7 @@ Direct2DForceEnabled
 |
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 Direct2DDisabled
@@ -3244,7 +3242,7 @@ force
 -
 d3d11
 "
-StaticPrefs
+gfxPrefs
 :
 :
 WebGLANGLEForceD3D11
@@ -3272,7 +3270,7 @@ try
 -
 d3d11
 "
-StaticPrefs
+gfxPrefs
 :
 :
 WebGLANGLETryD3D11
@@ -3300,7 +3298,7 @@ force
 -
 warp
 "
-StaticPrefs
+gfxPrefs
 :
 :
 WebGLANGLEForceWARP

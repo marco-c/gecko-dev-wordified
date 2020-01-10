@@ -190,15 +190,6 @@ h
 #
 include
 "
-mozilla
-/
-Atomics
-.
-h
-"
-#
-include
-"
 Point
 .
 h
@@ -415,10 +406,7 @@ for
 details
 .
 static
-Atomic
-<
 int32_t
->
 sGfxLogLevel
 ;
 }
