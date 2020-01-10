@@ -2122,6 +2122,13 @@ version
 1
         
 '
+variables
+'
+:
+{
+}
+        
+'
 actions
 '
 :
