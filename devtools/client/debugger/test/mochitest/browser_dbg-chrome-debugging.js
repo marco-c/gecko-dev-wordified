@@ -129,13 +129,12 @@ customLoader
 new
 DevToolsLoader
 (
-)
-;
-customLoader
-.
+{
 invisibleToDebugger
-=
+:
 true
+}
+)
 ;
 var
 {

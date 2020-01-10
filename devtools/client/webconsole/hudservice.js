@@ -920,13 +920,12 @@ loader
 new
 DevToolsLoader
 (
-)
-;
-loader
-.
+{
 freshCompartment
-=
+:
 true
+}
+)
 ;
 const
 {

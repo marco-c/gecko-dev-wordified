@@ -184,8 +184,6 @@ loaders
 [
 loader
 .
-provider
-.
 loader
 ]
 ;

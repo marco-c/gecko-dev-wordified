@@ -251,13 +251,12 @@ customLoader
 new
 DevToolsLoader
 (
-)
-;
-customLoader
-.
+{
 invisibleToDebugger
-=
+:
 true
+}
+)
 ;
 const
 {

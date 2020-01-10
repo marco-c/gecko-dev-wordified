@@ -98,13 +98,12 @@ loader
 new
 DevToolsLoader
 (
-)
-;
-loader
-.
+{
 invisibleToDebugger
-=
+:
 true
+}
+)
 ;
 const
 {

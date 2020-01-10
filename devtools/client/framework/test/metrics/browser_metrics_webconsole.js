@@ -206,8 +206,6 @@ loaders
 [
 loader
 .
-provider
-.
 loader
 webconsoleLoader
 .

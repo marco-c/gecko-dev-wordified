@@ -255,13 +255,12 @@ gLoader
 new
 DevToolsLoader
 (
-)
-;
-gLoader
-.
+{
 invisibleToDebugger
-=
+:
 true
+}
+)
 ;
 const
 {
