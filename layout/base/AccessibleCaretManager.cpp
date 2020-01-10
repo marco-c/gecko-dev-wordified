@@ -4617,7 +4617,7 @@ focusableElement
 nsIFocusManager
 :
 :
-FLAG_BYMOUSE
+FLAG_BYLONGPRESS
 )
 ;
 }

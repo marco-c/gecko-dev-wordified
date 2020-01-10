@@ -653,6 +653,17 @@ return
 CAUSE_TOUCH
 "
 ;
+case
+InputContextAction
+:
+:
+CAUSE_LONGPRESS
+:
+return
+"
+CAUSE_LONGPRESS
+"
+;
 default
 :
 return
