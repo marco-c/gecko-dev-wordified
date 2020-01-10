@@ -5154,7 +5154,7 @@ const
 nsCString
 mScope
 ;
-nsCString
+nsString
 mSourceSpec
 ;
 uint32_t
@@ -5316,7 +5316,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-nsCString
+nsString
 spec
 ;
 uint32_t
@@ -5590,10 +5590,7 @@ ReportToAllClients
 (
 mScope
 message
-NS_ConvertUTF8toUTF16
-(
 mSourceSpec
-)
 EmptyString
 (
 )
