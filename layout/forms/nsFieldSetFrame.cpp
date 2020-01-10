@@ -1402,7 +1402,14 @@ LayoutDeviceRect
 :
 FromAppUnits
 (
-rect
+frame
+-
+>
+GetVisualOverflowRectRelativeToSelf
+(
+)
++
+offset
 appUnitsPerDevPixel
 )
 )
