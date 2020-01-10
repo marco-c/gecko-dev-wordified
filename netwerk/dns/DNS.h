@@ -1457,6 +1457,15 @@ addr
 )
 ;
 bool
+IsIPAddrV4
+(
+const
+NetAddr
+*
+addr
+)
+;
+bool
 IsIPAddrV4Mapped
 (
 const
