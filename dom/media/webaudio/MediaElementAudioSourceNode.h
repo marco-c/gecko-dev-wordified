@@ -267,6 +267,12 @@ aMallocSizeOf
 )
 ;
 }
+HTMLMediaElement
+*
+MediaElement
+(
+)
+;
 private
 :
 explicit
@@ -275,6 +281,9 @@ MediaElementAudioSourceNode
 AudioContext
 *
 aContext
+HTMLMediaElement
+*
+aElement
 )
 ;
 void
@@ -318,6 +327,12 @@ MozPromiseRequestHolder
 GenericNonExclusivePromise
 >
 mAllowedToPlayRequest
+;
+RefPtr
+<
+HTMLMediaElement
+>
+mElement
 ;
 }
 ;
