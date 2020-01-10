@@ -7554,6 +7554,9 @@ percent
 enum
 calc
 flex
+float
+mAspectRatio
+;
 uint8_t
 mGridAutoFlow
 ;
