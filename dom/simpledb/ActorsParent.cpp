@@ -8928,9 +8928,12 @@ aUsageInfo
 >
 AppendToDatabaseUsage
 (
+Some
+(
 uint64_t
 (
 fileSize
+)
 )
 )
 ;

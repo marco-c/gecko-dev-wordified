@@ -261,6 +261,12 @@ using
 mozilla
 :
 :
+Some
+;
+using
+mozilla
+:
+:
 Unused
 ;
 using
@@ -570,7 +576,10 @@ aUsageInfo
 >
 AppendToFileUsage
 (
+Some
+(
 fileSize
+)
 )
 ;
 }
@@ -2425,7 +2434,10 @@ aUsageInfo
 >
 AppendToFileUsage
 (
+Some
+(
 paddingSize
+)
 )
 ;
 nsCOMPtr
@@ -2792,7 +2804,10 @@ aUsageInfo
 >
 AppendToDatabaseUsage
 (
+Some
+(
 fileSize
+)
 )
 ;
 continue

@@ -47505,9 +47505,12 @@ aUsageInfo
 >
 AppendToDatabaseUsage
 (
+Some
+(
 uint64_t
 (
 usage
+)
 )
 )
 ;
@@ -47975,7 +47978,10 @@ aUsageInfo
 >
 AppendToDatabaseUsage
 (
+Some
+(
 usage
+)
 )
 ;
 }
