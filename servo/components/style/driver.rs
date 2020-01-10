@@ -1165,6 +1165,12 @@ scope
 scope
 |
 {
+profiler_label
+!
+(
+Style
+)
+;
 parallel
 :
 :

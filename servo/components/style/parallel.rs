@@ -2583,6 +2583,12 @@ move
 scope
 |
 {
+profiler_label
+!
+(
+Style
+)
+;
 let
 work
 =
@@ -2656,6 +2662,12 @@ move
 scope
 |
 {
+profiler_label
+!
+(
+Style
+)
+;
 let
 n
 =
