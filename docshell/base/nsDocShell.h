@@ -6825,13 +6825,6 @@ Embed
 nsIContentViewer
 *
 aContentViewer
-const
-char
-*
-aCommand
-nsISupports
-*
-aExtraInfo
 )
 ;
 nsPresContext
