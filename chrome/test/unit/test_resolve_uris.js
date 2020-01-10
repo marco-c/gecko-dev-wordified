@@ -258,7 +258,6 @@ mozilla
 use
 -
 services
-(
 appInfo
 .
 getService
@@ -276,7 +275,6 @@ Ci
 nsIXULRuntime
 .
 PROCESS_TYPE_DEFAULT
-)
 )
 {
 cr

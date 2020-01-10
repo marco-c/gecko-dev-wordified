@@ -315,12 +315,6 @@ files
 :
 [
 "
-chrome
-/
-*
-*
-"
-"
 config
 /
 *
