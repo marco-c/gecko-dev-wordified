@@ -65,8 +65,6 @@ import
 six
 import
 sys
-import
-types
 from
 collections
 import
@@ -1627,9 +1625,10 @@ isinstance
 default
 (
 bool
-types
-.
-NoneType
+type
+(
+None
+)
 )
 )
 and
