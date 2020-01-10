@@ -329,6 +329,9 @@ loginSuccessCount
 )
 {
 throw
+new
+Error
+(
 "
 We
 should
@@ -345,6 +348,7 @@ success
 '
 once
 "
+)
 ;
 }
 Assert

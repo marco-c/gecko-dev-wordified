@@ -151,6 +151,9 @@ PROCESS_TYPE_CONTENT
 )
 {
 throw
+new
+Error
+(
 "
 ServiceWorkerCleanUp
 .
@@ -164,6 +167,7 @@ the
 parent
 process
 "
+)
 ;
 }
 this

@@ -833,6 +833,9 @@ this
 PRIORITY_CRITICAL_HIGH
 )
 throw
+new
+Error
+(
 "
 Invalid
 notification
@@ -840,6 +843,7 @@ priority
 "
 +
 aPriority
+)
 ;
 /
 /

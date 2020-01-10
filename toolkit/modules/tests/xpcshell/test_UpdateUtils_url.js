@@ -598,6 +598,8 @@ NOTE
 above
 )
 throw
+new
+Error
 (
 "
 Failure
@@ -953,6 +955,8 @@ NOTE
 above
 )
 throw
+new
+Error
 (
 "
 Unknown

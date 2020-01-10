@@ -330,6 +330,9 @@ numButtons
 0
 )
 throw
+new
+Error
+(
 "
 A
 dialog
@@ -342,6 +345,7 @@ not
 haz
 .
 "
+)
 ;
 this
 .
@@ -631,11 +635,15 @@ promptType
 )
 ;
 throw
+new
+Error
+(
 "
 unknown
 dialog
 type
 "
+)
 ;
 }
 if

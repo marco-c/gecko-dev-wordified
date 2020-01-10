@@ -2623,6 +2623,9 @@ logger
 )
 {
 throw
+new
+Error
+(
 "
 Cannot
 change
@@ -2630,6 +2633,7 @@ the
 root
 logger
 "
+)
 ;
 }
 _updateParents

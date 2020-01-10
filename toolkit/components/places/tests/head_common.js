@@ -1138,6 +1138,9 @@ length
 )
 {
 throw
+new
+Error
+(
 "
 Didn
 '
@@ -1148,6 +1151,7 @@ number
 of
 bytes
 "
+)
 ;
 }
 return

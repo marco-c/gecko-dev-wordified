@@ -953,6 +953,9 @@ isEmpty
 )
 )
 throw
+new
+Error
+(
 "
 Empty
 rectangles
@@ -961,6 +964,7 @@ not
 have
 centers
 "
+)
 ;
 return
 new

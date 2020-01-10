@@ -1629,11 +1629,15 @@ action
 required
 there
 throw
+new
+Error
+(
 "
 unknown
 handler
 type
 "
+)
 ;
 }
 items

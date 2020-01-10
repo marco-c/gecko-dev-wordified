@@ -1620,6 +1620,9 @@ args
 enableDelay
 )
 throw
+new
+Error
+(
 "
 BUTTON_DELAY_ENABLE
 not
@@ -1631,6 +1634,7 @@ tab
 modal
 prompts
 "
+)
 ;
 /
 /

@@ -1499,6 +1499,9 @@ break
 default
 :
 throw
+new
+Error
+(
 "
 dismissPrompt
 action
@@ -1507,6 +1510,7 @@ unknown
 button
 .
 "
+)
 ;
 }
 }

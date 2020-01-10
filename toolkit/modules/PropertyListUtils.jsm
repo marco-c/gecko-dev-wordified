@@ -5093,6 +5093,9 @@ number
 )
 )
 throw
+new
+Error
+(
 "
 Could
 not
@@ -5100,6 +5103,7 @@ parse
 float
 value
 "
+)
 ;
 return
 number

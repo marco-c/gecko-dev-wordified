@@ -1972,6 +1972,9 @@ Fatal
 for
 registration
 throw
+new
+Error
+(
 "
 Registration
 requires
@@ -1983,6 +1986,7 @@ and
 a
 location
 "
+)
 ;
 }
 /
