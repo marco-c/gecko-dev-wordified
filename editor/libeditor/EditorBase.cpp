@@ -7376,7 +7376,7 @@ AsTextEditor
 )
 -
 >
-CanCut
+IsCutCommandEnabled
 (
 )
 ;
@@ -7428,7 +7428,7 @@ AsTextEditor
 )
 -
 >
-CanCopy
+IsCopyCommandEnabled
 (
 )
 ;
