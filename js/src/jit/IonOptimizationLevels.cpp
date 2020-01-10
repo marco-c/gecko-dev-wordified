@@ -524,7 +524,9 @@ length
 (
 )
 >
-MAX_MAIN_THREAD_SCRIPT_SIZE
+JitOptions
+.
+ionMaxScriptSizeMainThread
 )
 {
 warmUpThreshold
@@ -540,7 +542,9 @@ length
 /
 double
 (
-MAX_MAIN_THREAD_SCRIPT_SIZE
+JitOptions
+.
+ionMaxScriptSizeMainThread
 )
 )
 ;
@@ -557,7 +561,9 @@ if
 (
 numLocalsAndArgs
 >
-MAX_MAIN_THREAD_LOCALS_AND_ARGS
+JitOptions
+.
+ionMaxLocalsAndArgsMainThread
 )
 {
 warmUpThreshold
@@ -568,7 +574,9 @@ numLocalsAndArgs
 /
 double
 (
-MAX_MAIN_THREAD_LOCALS_AND_ARGS
+JitOptions
+.
+ionMaxLocalsAndArgsMainThread
 )
 )
 ;
