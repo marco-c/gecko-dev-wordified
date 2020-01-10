@@ -248,7 +248,7 @@ logInfo
 (
 "
 *
-host
+origin
 =
 "
 +
@@ -257,10 +257,10 @@ logins
 i
 ]
 .
-hostname
+origin
 +
 "
-submitURL
+formActionOrigin
 =
 "
 +
@@ -269,7 +269,7 @@ logins
 i
 ]
 .
-formSubmitURL
+formActionOrigin
 +
 "
 realm

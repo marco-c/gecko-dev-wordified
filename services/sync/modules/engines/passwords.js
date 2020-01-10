@@ -930,10 +930,10 @@ findLogins
 (
 login
 .
-hostname
+origin
 login
 .
-formSubmitURL
+formActionOrigin
 login
 .
 httpRealm
@@ -966,7 +966,7 @@ logins
 that
 match
 the
-hostname
+origin
 but
 ignore
 the
@@ -1577,7 +1577,7 @@ has
 (
 metaInfo
 .
-hostname
+origin
 )
 )
 {
@@ -1807,7 +1807,7 @@ hostname
 =
 login
 .
-hostname
+origin
 ;
 record
 .
@@ -1815,7 +1815,7 @@ formSubmitURL
 =
 login
 .
-formSubmitURL
+formActionOrigin
 ;
 record
 .
@@ -1968,7 +1968,7 @@ stringify
 (
 login
 .
-formSubmitURL
+formActionOrigin
 )
 )
 ;
@@ -2495,7 +2495,7 @@ has
 (
 login
 .
-hostname
+origin
 )
 )
 {
@@ -2648,7 +2648,7 @@ has
 (
 l
 .
-hostname
+origin
 )
 )
 ;
