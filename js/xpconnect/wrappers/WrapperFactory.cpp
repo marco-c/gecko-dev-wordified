@@ -1173,6 +1173,8 @@ cx
 HandleObject
 scope
 HandleObject
+origObj
+HandleObject
 objArg
 HandleObject
 objectPassedToWrap
