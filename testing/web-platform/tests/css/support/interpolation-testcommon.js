@@ -120,7 +120,8 @@ settings
 from
 )
 '
-Value
+From
+value
 "
 '
 +
@@ -154,7 +155,8 @@ settings
 to
 )
 '
-Value
+To
+value
 "
 '
 +
@@ -291,7 +293,8 @@ property
 expectation
 )
 '
-Value
+Expectation
+value
 "
 '
 +
