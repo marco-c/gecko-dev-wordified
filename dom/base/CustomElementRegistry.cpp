@@ -8999,11 +8999,7 @@ aNamespaceID
 )
 mConstructor
 (
-new
-CustomElementConstructor
-(
 aConstructor
-)
 )
 mObservedAttributes
 (
