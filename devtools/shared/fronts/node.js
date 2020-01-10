@@ -2166,6 +2166,17 @@ return
 true
 ;
 }
+get
+walkerFront
+(
+)
+{
+return
+this
+.
+parentFront
+;
+}
 getNodeValue
 (
 )
