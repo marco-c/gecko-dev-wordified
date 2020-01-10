@@ -1245,9 +1245,6 @@ mozillaAddons
 "
 geckoViewAddons
 "
-"
-telemetry
-"
 ]
 )
 ;
