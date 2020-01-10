@@ -930,7 +930,7 @@ page
 .
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZKeyboardPassiveListeners

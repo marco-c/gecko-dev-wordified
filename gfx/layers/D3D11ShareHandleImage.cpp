@@ -157,16 +157,14 @@ h
 #
 include
 "
-gfxWindowsPlatform
+gfxPrefs
 .
 h
 "
 #
 include
 "
-mozilla
-/
-StaticPrefs
+gfxWindowsPlatform
 .
 h
 "
@@ -1406,7 +1404,7 @@ aDevice
 )
 mCanUseNV12
 (
-StaticPrefs
+gfxPrefs
 :
 :
 PDMWMFUseNV12Format
@@ -1431,7 +1429,7 @@ CanUseNV12
 )
 mCanUseP010
 (
-StaticPrefs
+gfxPrefs
 :
 :
 PDMWMFUseNV12Format
@@ -1456,7 +1454,7 @@ CanUseP010
 )
 mCanUseP016
 (
-StaticPrefs
+gfxPrefs
 :
 :
 PDMWMFUseNV12Format
@@ -1696,7 +1694,7 @@ ALLOC_DEFAULT
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 PDMWMFUseSyncTexture

@@ -182,15 +182,6 @@ include
 "
 mozilla
 /
-StaticPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
 SystemGroup
 .
 h
@@ -433,6 +424,13 @@ h
 include
 "
 BufferTexture
+.
+h
+"
+#
+include
+"
+gfxPrefs
 .
 h
 "
@@ -6709,7 +6707,7 @@ if
 data
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 UseIOSurfaceTextures
@@ -6741,7 +6739,7 @@ if
 data
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 UseSurfaceTextureTextures
@@ -8320,7 +8318,7 @@ ifdef
 MOZ_DUMP_PAINTING
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayersDumpTexture

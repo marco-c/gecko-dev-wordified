@@ -271,9 +271,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
+gfxPrefs
 .
 h
 "
@@ -1463,7 +1461,7 @@ dxgiFactory2
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 Direct3D11UseDoubleBuffering
@@ -2145,7 +2143,7 @@ Default
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 AdvancedLayersEnableDepthBuffer

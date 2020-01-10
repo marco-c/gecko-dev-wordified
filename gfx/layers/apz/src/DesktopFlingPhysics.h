@@ -137,6 +137,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -219,7 +226,7 @@ aOutOffset
 float
 friction
 =
-StaticPrefs
+gfxPrefs
 :
 :
 APZFlingFriction
@@ -229,7 +236,7 @@ APZFlingFriction
 float
 threshold
 =
-StaticPrefs
+gfxPrefs
 :
 :
 APZFlingStoppedThreshold

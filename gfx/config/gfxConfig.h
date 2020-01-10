@@ -206,6 +206,7 @@ by
 all
 .
 js
+gfxPrefs
 or
 gfxPlatform
 .

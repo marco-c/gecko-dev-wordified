@@ -131,6 +131,13 @@ BrowserChild
 h
 "
 #
+include
+"
+gfxPrefs
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #
@@ -11266,7 +11273,7 @@ GetTopLevelDocument
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 TouchActionEnabled

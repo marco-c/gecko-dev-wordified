@@ -1120,12 +1120,6 @@ IsHeadless
 (
 )
 ;
-static
-bool
-UseWebRender
-(
-)
-;
 /
 *
 *
@@ -4037,7 +4031,7 @@ aFormat
 *
 Wrapper
 around
-StaticPrefs
+gfxPrefs
 :
 :
 PerfWarnings
@@ -4052,7 +4046,7 @@ function
 to
 avoid
 including
-StaticPrefs
+gfxPrefs
 .
 h
 from

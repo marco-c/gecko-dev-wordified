@@ -116,9 +116,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
+gfxPrefs
 .
 h
 "
@@ -490,7 +488,7 @@ bool
 useGl
 =
 !
-StaticPrefs
+gfxPrefs
 :
 :
 WebGLForceLayersReadback
@@ -534,7 +532,7 @@ bool
 useD3D
 =
 !
-StaticPrefs
+gfxPrefs
 :
 :
 WebGLForceLayersReadback
@@ -664,7 +662,7 @@ XRE_IsParentProcess
 &
 &
 !
-StaticPrefs
+gfxPrefs
 :
 :
 WebGLSurfaceTextureEnabled
@@ -887,7 +885,7 @@ if
 factory
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 WebGLDXGLEnabled

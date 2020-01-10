@@ -262,6 +262,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 gfxConfig
 .
 h
@@ -308,15 +315,6 @@ include
 mozilla
 /
 EnumeratedArray
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StaticPrefs
 .
 h
 "
@@ -708,7 +706,7 @@ false
 {
 mUseMutexOnPresent
 =
-StaticPrefs
+gfxPrefs
 :
 :
 UseMutexOnPresent
@@ -780,7 +778,7 @@ SupportsLayerGeometry
 const
 {
 return
-StaticPrefs
+gfxPrefs
 :
 :
 D3D11LayerGeometry
@@ -1233,7 +1231,7 @@ _WIN32_WINDOWS_MAXVER
 )
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 Direct3D11UseDoubleBuffering
@@ -1812,7 +1810,7 @@ aDevice
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 PartialPresent
@@ -1828,7 +1826,7 @@ true
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 PartialPresent
@@ -6404,7 +6402,7 @@ COMPONENT_ALPHA
 {
 MOZ_ASSERT
 (
-StaticPrefs
+gfxPrefs
 :
 :
 ComponentAlphaEnabled
@@ -7298,7 +7296,7 @@ return
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayersDrawFPS
@@ -7568,7 +7566,7 @@ Present
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 CompositorClearState

@@ -145,6 +145,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 GeckoProfiler
 .
 h
@@ -199,15 +206,6 @@ include
 mozilla
 /
 Preferences
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StaticPrefs
 .
 h
 "
@@ -381,7 +379,7 @@ PR_GetNumberOfProcessors
 int32_t
 workerCount
 =
-StaticPrefs
+gfxPrefs
 :
 :
 LayersOMTPPaintWorkers
@@ -1049,7 +1047,7 @@ aTask
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayersOMTPDumpCapture
@@ -1357,7 +1355,7 @@ Flush
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayersOMTPReleaseCaptureOnMainThread

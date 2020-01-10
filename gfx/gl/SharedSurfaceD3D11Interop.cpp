@@ -118,6 +118,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 GLContext
 .
 h
@@ -2515,7 +2522,7 @@ dxgiHandle
 )
 mNeedsFinish
 (
-StaticPrefs
+gfxPrefs
 :
 :
 WebGLDXGLNeedsFinish

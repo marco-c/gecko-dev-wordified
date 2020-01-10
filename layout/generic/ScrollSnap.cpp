@@ -131,6 +131,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Maybe
@@ -2352,7 +2359,7 @@ GetBestEdge
 nscoord
 proximityThreshold
 =
-StaticPrefs
+gfxPrefs
 :
 :
 ScrollSnapProximityThreshold

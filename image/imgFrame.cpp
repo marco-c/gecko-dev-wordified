@@ -163,6 +163,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 gfxUtils
 .
 h
@@ -660,7 +667,7 @@ if
 aIsAnimated
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMemAnimatedUseHeap
@@ -713,7 +720,7 @@ if
 (
 bufferSize
 <
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMemVolatileMinThresholdKB
@@ -767,7 +774,7 @@ GetUseWebRenderOrDefault
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMemShared

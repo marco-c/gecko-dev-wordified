@@ -325,6 +325,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 LayersLogging
 .
 h
@@ -1736,7 +1743,7 @@ AllowDirectBitmapSurfaceDrawing
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 PluginAsyncDrawingEnabled
@@ -1772,7 +1779,7 @@ AllowDirectDXGISurfaceDrawing
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 PluginAsyncDrawingEnabled

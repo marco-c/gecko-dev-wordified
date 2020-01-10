@@ -454,6 +454,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 gfxUtils
 .
 h
@@ -2758,7 +2765,7 @@ ifdef
 MOZ_DUMP_PAINTING
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayersDumpTexture

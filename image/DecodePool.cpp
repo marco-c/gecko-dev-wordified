@@ -137,15 +137,6 @@ include
 "
 mozilla
 /
-StaticPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TimeStamp
 .
 h
@@ -203,6 +194,13 @@ h
 include
 "
 nsIXULRuntime
+.
+h
+"
+#
+include
+"
+gfxPrefs
 .
 h
 "
@@ -2129,7 +2127,7 @@ want
 int32_t
 prefLimit
 =
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMTDecodingLimit
@@ -2329,7 +2327,7 @@ threads
 int32_t
 prefIdleTimeout
 =
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMTDecodingIdleTimeout

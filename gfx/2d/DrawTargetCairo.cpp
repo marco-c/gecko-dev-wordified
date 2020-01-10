@@ -193,9 +193,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
+gfxPrefs
 .
 h
 "
@@ -7807,7 +7805,7 @@ HasVariationSettings
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 PrintFontVariationsAsPaths

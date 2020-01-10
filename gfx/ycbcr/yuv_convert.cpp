@@ -220,9 +220,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
+gfxPrefs
 .
 h
 "
@@ -588,7 +586,7 @@ Bug
 bool
 use_deprecated
 =
-StaticPrefs
+gfxPrefs
 :
 :
 YCbCrAccurateConversion
@@ -1883,7 +1881,7 @@ filter
 bool
 use_deprecated
 =
-StaticPrefs
+gfxPrefs
 :
 :
 YCbCrAccurateConversion

@@ -128,6 +128,13 @@ APZTestCommon
 .
 h
 "
+#
+include
+"
+gfxPrefs
+.
+h
+"
 class
 APZCGestureDetectorTester
 :
@@ -2800,7 +2807,7 @@ status
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 TouchActionEnabled
@@ -3281,7 +3288,7 @@ status
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 TouchActionEnabled
@@ -5067,7 +5074,7 @@ touchBlockId
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 TouchActionEnabled

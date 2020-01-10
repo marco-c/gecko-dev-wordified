@@ -103,6 +103,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -303,7 +310,7 @@ thread
 .
 mNotDeferEndRemoteDrawing
 =
-StaticPrefs
+gfxPrefs
 :
 :
 LayersCompositionFrameRate

@@ -214,15 +214,6 @@ include
 "
 mozilla
 /
-StaticPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
 widget
 /
 CompositorWidget
@@ -344,6 +335,13 @@ h
 include
 "
 GLScreenBuffer
+.
+h
+"
+#
+include
+"
+gfxPrefs
 .
 h
 "
@@ -1114,7 +1112,7 @@ symbols_texturefrompixmap
 {
 mUseTextureFromPixmap
 =
-StaticPrefs
+gfxPrefs
 :
 :
 UseGLXTextureFromPixmap
@@ -3509,7 +3507,7 @@ bool
 isASAP
 =
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutFrameRate

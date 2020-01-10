@@ -265,6 +265,13 @@ gfxPlatform
 .
 h
 "
+#
+include
+"
+gfxPrefs
+.
+h
+"
 /
 *
 *

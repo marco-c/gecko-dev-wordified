@@ -131,6 +131,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 GeckoProfiler
 .
 h
@@ -1080,7 +1087,7 @@ mPaintSequenceNumber
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZTestLoggingEnabled
@@ -4468,7 +4475,7 @@ SynchronouslyRepaintOnResize
 )
 |
 |
-StaticPrefs
+gfxPrefs
 :
 :
 LayersForceSynchronousResize
@@ -4651,7 +4658,7 @@ EnsureDevicesInitialized
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 PersistentBufferProviderSharedEnabled

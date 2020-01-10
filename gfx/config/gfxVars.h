@@ -444,15 +444,6 @@ CLEARTYPE_QUALITY
 *
 /
 )
-\
-_
-(
-LayersWindowRecordingPath
-nsCString
-nsCString
-(
-)
-)
 /
 *
 Add
@@ -499,7 +490,7 @@ function
 is
 similar
 to
-StaticPrefs
+gfxPrefs
 except
 rather
 than

@@ -188,6 +188,13 @@ nsIAnonymousContentCreator
 .
 h
 "
+#
+include
+"
+gfxPrefs
+.
+h
+"
 class
 nsPresContext
 ;

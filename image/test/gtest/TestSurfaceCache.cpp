@@ -150,15 +150,6 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
-.
-h
-"
-#
-include
-"
 nsIInputStream
 .
 h
@@ -342,7 +333,7 @@ static_cast
 uint64_t
 >
 (
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMemDecodeBytesAtATime
@@ -574,7 +565,7 @@ test
 int32_t
 threshold
 =
-StaticPrefs
+gfxPrefs
 :
 :
 ImageCacheFactor2ThresholdSurfaces

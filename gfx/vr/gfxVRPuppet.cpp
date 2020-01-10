@@ -178,15 +178,6 @@ include
 "
 mozilla
 /
-StaticPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 DataSurfaceHelpers
@@ -208,6 +199,13 @@ h
 /
 for
 CompositorThreadHolder
+#
+include
+"
+gfxPrefs
+.
+h
+"
 #
 include
 "
@@ -2019,7 +2017,7 @@ vm
 ;
 switch
 (
-StaticPrefs
+gfxPrefs
 :
 :
 VRPuppetSubmitFrame
@@ -3464,7 +3462,7 @@ vm
 ;
 switch
 (
-StaticPrefs
+gfxPrefs
 :
 :
 VRPuppetSubmitFrame
@@ -4477,7 +4475,7 @@ Create
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 VREnabled
@@ -4486,7 +4484,7 @@ VREnabled
 |
 |
 !
-StaticPrefs
+gfxPrefs
 :
 :
 VRPuppetEnabled

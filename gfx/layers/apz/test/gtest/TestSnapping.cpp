@@ -131,6 +131,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 InputUtils
 .
 h
@@ -615,7 +622,7 @@ TimeDuration
 :
 FromMilliseconds
 (
-StaticPrefs
+gfxPrefs
 :
 :
 MouseWheelTransactionTimeoutMs

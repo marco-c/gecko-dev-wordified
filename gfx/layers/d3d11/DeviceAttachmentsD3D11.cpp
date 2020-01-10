@@ -126,15 +126,6 @@ include
 "
 mozilla
 /
-StaticPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Telemetry
 .
 h
@@ -154,6 +145,13 @@ h
 include
 "
 CompositorD3D11Shaders
+.
+h
+"
+#
+include
+"
+gfxPrefs
 .
 h
 "
@@ -1037,7 +1035,7 @@ false
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 ComponentAlphaEnabled
@@ -1517,7 +1515,7 @@ Mask
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 ComponentAlphaEnabled

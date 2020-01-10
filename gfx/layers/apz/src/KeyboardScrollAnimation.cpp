@@ -128,6 +128,13 @@ ScrollAnimationBezierPhysics
 .
 h
 "
+#
+include
+"
+gfxPrefs
+.
+h
+"
 namespace
 mozilla
 {
@@ -177,7 +184,7 @@ maxMS
 =
 clamped
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LineSmoothScrollMaxDurationMs
@@ -191,7 +198,7 @@ minMS
 =
 clamped
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LineSmoothScrollMinDurationMs
@@ -215,7 +222,7 @@ maxMS
 =
 clamped
 (
-StaticPrefs
+gfxPrefs
 :
 :
 PageSmoothScrollMaxDurationMs
@@ -229,7 +236,7 @@ minMS
 =
 clamped
 (
-StaticPrefs
+gfxPrefs
 :
 :
 PageSmoothScrollMinDurationMs
@@ -253,7 +260,7 @@ maxMS
 =
 clamped
 (
-StaticPrefs
+gfxPrefs
 :
 :
 OtherSmoothScrollMaxDurationMs
@@ -267,7 +274,7 @@ minMS
 =
 clamped
 (
-StaticPrefs
+gfxPrefs
 :
 :
 OtherSmoothScrollMinDurationMs
@@ -305,7 +312,7 @@ intervalRatio
 (
 double
 )
-StaticPrefs
+gfxPrefs
 :
 :
 SmoothScrollDurationToIntervalRatio
