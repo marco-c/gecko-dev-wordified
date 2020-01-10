@@ -777,17 +777,6 @@ querySelector
 (
 "
 a
-[
-action
-=
-'
-pb
--
-learn
--
-more
-'
-]
 "
 )
 "
