@@ -26915,7 +26915,7 @@ isFloatReg
 {
 masm
 .
-storeDouble
+boxDouble
 (
 ToFloatRegister
 (
@@ -74114,7 +74114,7 @@ input
 ;
 masm
 .
-storeDouble
+boxDouble
 (
 input
 Address
@@ -85758,7 +85758,7 @@ loadDoubles
 {
 masm
 .
-loadDouble
+unboxDouble
 (
 source
 output
