@@ -3424,6 +3424,8 @@ MessageTask
 >
 public
 nsIRunnablePriority
+public
+nsIRunnableIPCMessageType
 {
 public
 :
@@ -3461,6 +3463,7 @@ aPriority
 )
 override
 ;
+NS_DECL_NSIRUNNABLEIPCMESSAGETYPE
 void
 Post
 (
