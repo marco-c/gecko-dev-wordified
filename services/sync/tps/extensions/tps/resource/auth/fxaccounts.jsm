@@ -527,9 +527,7 @@ newtab
 =
 mainWindow
 .
-getBrowser
-(
-)
+gBrowser
 .
 addWebTab
 (
@@ -541,9 +539,7 @@ win
 =
 mainWindow
 .
-getBrowser
-(
-)
+gBrowser
 .
 getBrowserForTab
 (
@@ -589,9 +585,7 @@ shortWaitForVerification
 ;
 mainWindow
 .
-getBrowser
-(
-)
+gBrowser
 .
 removeTab
 (

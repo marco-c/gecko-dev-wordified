@@ -1904,9 +1904,7 @@ selectedBrowser
 =
 privateWindow
 .
-getBrowser
-(
-)
+gBrowser
 .
 selectedBrowser
 ;

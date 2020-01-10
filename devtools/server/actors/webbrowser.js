@@ -4785,9 +4785,9 @@ containers
 Those
 have
 '
-getBrowser
+gBrowser
 '
-methods
+members
 .
 *
 /

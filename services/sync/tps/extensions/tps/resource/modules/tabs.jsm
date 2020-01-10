@@ -447,9 +447,7 @@ browser
 =
 mainWindow
 .
-getBrowser
-(
-)
+gBrowser
 ;
 let
 newtab
