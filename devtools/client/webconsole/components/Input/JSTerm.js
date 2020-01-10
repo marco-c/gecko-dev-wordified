@@ -3693,9 +3693,9 @@ autocomplete
 |
 this
 .
-autocompletePopup
-.
-isOpen
+hasAutocompletionSuggestion
+(
+)
 )
 )
 {
