@@ -2425,7 +2425,7 @@ its
 zone
 when
 merging
-compartments
+realms
 .
 if
 (
@@ -6052,7 +6052,7 @@ void
 ModuleObject
 :
 :
-fixEnvironmentsAfterCompartmentMerge
+fixEnvironmentsAfterRealmMerge
 (
 )
 {
@@ -6065,7 +6065,7 @@ initialEnvironment
 (
 )
 .
-fixEnclosingEnvironmentAfterCompartmentMerge
+fixEnclosingEnvironmentAfterRealmMerge
 (
 script
 (

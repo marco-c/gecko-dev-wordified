@@ -1481,13 +1481,13 @@ is
 a
 bijection
 per
-compartment
+realm
 between
 the
-*
 non
 -
 syntactic
+*
 variables
 objects
 and
@@ -1495,7 +1495,6 @@ their
 non
 -
 syntactic
-*
 LexicalEnvironmentObjects
 .
 *
@@ -2933,7 +2932,7 @@ shapeOut
 )
 ;
 void
-fixEnclosingEnvironmentAfterCompartmentMerge
+fixEnclosingEnvironmentAfterRealmMerge
 (
 GlobalObject
 &

@@ -1406,7 +1406,7 @@ self
 #
 endif
 void
-fixEnvironmentsAfterCompartmentMerge
+fixEnvironmentsAfterRealmMerge
 (
 )
 ;

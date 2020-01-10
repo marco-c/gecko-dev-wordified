@@ -11583,7 +11583,7 @@ module
 module
 -
 >
-fixEnvironmentsAfterCompartmentMerge
+fixEnvironmentsAfterRealmMerge
 (
 )
 ;
