@@ -1522,6 +1522,16 @@ _showNotification
 (
 )
 {
+if
+(
+this
+.
+_captivePortalNotification
+)
+{
+return
+;
+}
 let
 buttons
 =
