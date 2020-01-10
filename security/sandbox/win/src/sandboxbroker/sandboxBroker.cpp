@@ -3654,6 +3654,13 @@ happened
 "
 )
 ;
+mPolicy
+-
+>
+SetLockdownDefaultDacl
+(
+)
+;
 sandbox
 :
 :
