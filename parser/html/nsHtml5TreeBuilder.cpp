@@ -4256,8 +4256,12 @@ currentPtr
 )
 )
 {
-pop
+popForeign
 (
+-
+1
+-
+1
 )
 ;
 }
