@@ -274,12 +274,20 @@ basestring
 or
 isinstance
 (
+            
 obj
 [
 field
 ]
 int
 )
+or
+obj
+[
+field
+]
+is
+None
 :
         
 assert_value_from
@@ -536,15 +544,12 @@ spec_json
 specification
 "
 "
-referrer_policy_schema
-"
-"
 delivery_key
 "
-        
 "
 test_expansion_schema
 "
+        
 "
 excluded_tests
 "
@@ -557,14 +562,6 @@ assert_non_empty_list
 spec_json
 "
 specification
-"
-)
-    
-assert_non_empty_list
-(
-spec_json
-"
-referrer_policy_schema
 "
 )
     
@@ -590,15 +587,6 @@ spec_json
 [
 '
 specification
-'
-]
-    
-referrer_policy_schema
-=
-spec_json
-[
-'
-referrer_policy_schema
 '
 ]
     
@@ -681,12 +669,9 @@ title
 description
 '
 '
-referrer_policy
-'
-            
-'
 specification_url
 '
+            
 '
 test_expansion
 '
@@ -724,15 +709,6 @@ spec
 '
 specification_url
 '
-)
-        
-assert_value_from
-(
-spec
-'
-referrer_policy
-'
-referrer_policy_schema
 )
         
 assert_non_empty_list
@@ -885,12 +861,15 @@ expansion
 delivery_type
 '
 '
+delivery_value
+'
+'
 redirection
 '
+        
 '
 origin
 '
-        
 '
 source_protocol
 '
@@ -900,6 +879,7 @@ target_protocol
 '
 subresource
 '
+        
 '
 expectation
 '
