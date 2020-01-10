@@ -253,9 +253,6 @@ JSScript
 class
 JSString
 ;
-class
-JSDependentString
-;
 namespace
 js
 {
