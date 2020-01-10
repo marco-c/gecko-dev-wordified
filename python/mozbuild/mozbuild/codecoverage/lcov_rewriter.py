@@ -54,6 +54,10 @@ MPL
 /
 .
 from
+__future__
+import
+absolute_import
+from
 argparse
 import
 ArgumentParser
@@ -95,6 +99,7 @@ path
 as
 mozpath
 from
+.
 manifest_handler
 import
 ChromeManifestHandler
