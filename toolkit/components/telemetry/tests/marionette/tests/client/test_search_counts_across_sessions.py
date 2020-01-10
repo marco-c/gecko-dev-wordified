@@ -123,6 +123,14 @@ script
 \
         
 let
+[
+resolve
+]
+=
+arguments
+;
+        
+let
 searchService
 =
 Components
@@ -159,9 +167,29 @@ nsISearchService
 return
 searchService
 .
+init
+(
+)
+.
+then
+(
+function
+(
+)
+{
+          
+resolve
+(
+searchService
+.
 defaultEngine
 .
 identifier
+)
+;
+        
+}
+)
 ;
         
 "
@@ -188,7 +216,7 @@ self
 .
 marionette
 .
-execute_script
+execute_async_script
 (
 textwrap
 .
