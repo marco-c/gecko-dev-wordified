@@ -368,7 +368,7 @@ wait_for_search_service_init
         
 self
 .
-search
+search_in_new_tab
 (
 "
 mozilla
