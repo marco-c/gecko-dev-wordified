@@ -344,6 +344,15 @@ item
 .
 info
 ;
+this
+.
+classList
+.
+add
+(
+labelText
+)
+;
 /
 /
 TODO
