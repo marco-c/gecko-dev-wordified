@@ -409,9 +409,6 @@ dumpConsoleAndQuit
 {
 var
 messages
-=
-{
-}
 ;
 try
 {
@@ -473,15 +470,14 @@ jsm
 "
 )
 ;
+messages
+=
 Services
 .
 console
 .
 getMessageArray
 (
-messages
-{
-}
 )
 ;
 }
@@ -500,6 +496,11 @@ n
 "
 )
 ;
+messages
+=
+[
+]
+;
 }
 for
 (
@@ -512,8 +513,6 @@ i
 <
 messages
 .
-value
-.
 length
 ;
 i
@@ -523,8 +522,6 @@ i
 dumpLog
 (
 messages
-.
-value
 [
 i
 ]
