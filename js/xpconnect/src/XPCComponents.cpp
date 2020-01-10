@@ -13103,7 +13103,12 @@ is
 always
 supported
 by
-nsXPCWrappedJSClass
+nsXPCWrappedJS
+:
+:
+DelegatedQueryInterface
+(
+)
 .
 /
 /
