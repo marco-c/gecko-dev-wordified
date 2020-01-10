@@ -3776,6 +3776,8 @@ suites
 mochitest
 -
 browser
+-
+chrome
 '
 }
         
@@ -3800,6 +3802,7 @@ mochitest
 a11y
 '
 '
+/
 browser
 '
 '
@@ -3916,6 +3919,8 @@ test_cases
 mochitest
 -
 browser
+-
+chrome
 '
 :
 [
@@ -3978,6 +3983,8 @@ chrome
 mochitest
 -
 devtools
+-
+chrome
 '
 :
 [
@@ -4126,6 +4133,10 @@ e10s
             
 '
 mochitest
+-
+browser
+-
+chrome
 -
 screenshots
 '

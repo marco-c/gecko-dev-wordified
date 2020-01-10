@@ -304,6 +304,8 @@ js
 ]
         
 '
+mochitest
+-
 plain
 '
 :

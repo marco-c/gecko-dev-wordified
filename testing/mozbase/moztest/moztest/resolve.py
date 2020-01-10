@@ -230,17 +230,6 @@ verify
 )
 '
 ]
-        
-'
-mozharness_name
-'
-:
-'
-mochitest
--
-'
-+
-name
     
 }
 TEST_SUITES
@@ -282,14 +271,6 @@ test_file
 :
 None
 }
-        
-'
-mozharness_name
-'
-:
-'
-cppunittest
-'
     
 }
     
@@ -379,14 +360,6 @@ verify
 )
 '
 ]
-        
-'
-mozharness_name
-'
-:
-'
-crashtest
-'
     
 }
     
@@ -728,14 +701,6 @@ verify
 )
 '
 ]
-        
-'
-mozharness_name
-'
-:
-'
-a11y
-'
     
 }
     
@@ -743,6 +708,8 @@ a11y
 mochitest
 -
 browser
+-
+chrome
 '
 :
 {
@@ -757,8 +724,6 @@ bc
 '
 '
 browser
--
-chrome
 '
 )
         
@@ -842,16 +807,6 @@ verify
 )
 '
 ]
-        
-'
-mozharness_name
-'
-:
-'
-browser
--
-chrome
-'
     
 }
     
@@ -859,6 +814,8 @@ chrome
 mochitest
 -
 browser
+-
+chrome
 -
 clipboard
 '
@@ -963,18 +920,99 @@ verify
 )
 '
 ]
+    
+}
+    
+'
+mochitest
+-
+browser
+-
+chrome
+-
+screenshots
+'
+:
+{
         
 '
-mozharness_name
+aliases
+'
+:
+(
+'
+ss
+'
+'
+screenshots
+-
+chrome
+'
+)
+        
+'
+mach_command
+'
+:
+'
+mochitest
+'
+        
+'
+kwargs
+'
+:
+{
+'
+flavor
 '
 :
 '
 browser
 -
 chrome
--
-clipboard
 '
+'
+subsuite
+'
+:
+'
+screenshots
+'
+'
+test_paths
+'
+:
+None
+}
+        
+'
+task_regex
+'
+:
+[
+'
+browser
+-
+screenshots
+(
+|
+.
+*
+(
+-
+1
+|
+[
+^
+0
+-
+9
+]
+)
+)
+'
+]
     
 }
     
@@ -1072,14 +1110,6 @@ verify
 )
 '
 ]
-        
-'
-mozharness_name
-'
-:
-'
-chrome
-'
     
 }
     
@@ -1189,16 +1219,6 @@ verify
 )
 '
 ]
-        
-'
-mozharness_name
-'
-:
-'
-chrome
--
-clipboard
-'
     
 }
     
@@ -1305,16 +1325,6 @@ verify
 )
 '
 ]
-        
-'
-mozharness_name
-'
-:
-'
-chrome
--
-gpu
-'
     
 }
     
@@ -1322,6 +1332,8 @@ gpu
 mochitest
 -
 devtools
+-
+chrome
 '
 :
 {
@@ -1336,8 +1348,6 @@ dt
 '
 '
 devtools
--
-chrome
 '
 )
         
@@ -1428,18 +1438,6 @@ verify
 )
 '
 ]
-        
-'
-mozharness_name
-'
-:
-'
-mochitest
--
-devtools
--
-chrome
-'
     
 }
     
@@ -1549,16 +1547,6 @@ verify
 )
 '
 ]
-        
-'
-mozharness_name
-'
-:
-'
-mochitest
--
-media
-'
     
 }
     
@@ -1692,14 +1680,6 @@ verify
 )
 '
 ]
-        
-'
-mozharness_name
-'
-:
-'
-plain
-'
     
 }
     
@@ -1802,16 +1782,6 @@ verify
 )
 '
 ]
-        
-'
-mozharness_name
-'
-:
-'
-plain
--
-clipboard
-'
     
 }
     
@@ -1911,117 +1881,6 @@ verify
 )
 '
 ]
-        
-'
-mozharness_name
-'
-:
-'
-plain
--
-gpu
-'
-    
-}
-    
-'
-mochitest
--
-screenshots
-'
-:
-{
-        
-'
-aliases
-'
-:
-(
-'
-ss
-'
-'
-screenshots
--
-chrome
-'
-)
-        
-'
-mach_command
-'
-:
-'
-mochitest
-'
-        
-'
-kwargs
-'
-:
-{
-'
-flavor
-'
-:
-'
-browser
--
-chrome
-'
-'
-subsuite
-'
-:
-'
-screenshots
-'
-'
-test_paths
-'
-:
-None
-}
-        
-'
-task_regex
-'
-:
-[
-'
-browser
--
-screenshots
-(
-|
-.
-*
-(
--
-1
-|
-[
-^
-0
--
-9
-]
-)
-)
-'
-]
-        
-'
-mozharness_name
-'
-:
-'
-browser
--
-chrome
--
-screenshots
-'
     
 }
     
@@ -2231,14 +2090,6 @@ gpu
 )
 '
 ]
-        
-'
-mozharness_name
-'
-:
-'
-reftest
-'
     
 }
     
@@ -2777,14 +2628,6 @@ verify
 )
 '
 ]
-        
-'
-mozharness_name
-'
-:
-'
-xpcshell
-'
     
 }
 }
@@ -2909,6 +2752,8 @@ chrome
 mochitest
 -
 browser
+-
+chrome
 '
     
 '
@@ -3046,6 +2891,8 @@ mochitest
 -
 browser
 -
+chrome
+-
 clipboard
 '
     
@@ -3064,6 +2911,8 @@ devtools
 mochitest
 -
 devtools
+-
+chrome
 '
     
 (
@@ -3081,6 +2930,8 @@ gpu
 mochitest
 -
 browser
+-
+chrome
 -
 gpu
 '
@@ -3098,6 +2949,10 @@ screenshots
 :
 '
 mochitest
+-
+browser
+-
+chrome
 -
 screenshots
 '
@@ -3466,6 +3321,7 @@ flavor
 )
         
 return
+suite_name
 TEST_SUITES
 .
 get
@@ -3498,6 +3354,7 @@ strict
 :
         
 return
+suite_name
 TEST_SUITES
 .
 get
@@ -3528,6 +3385,7 @@ TEST_SUITES
 :
         
 return
+suite_name
 {
 }
     
@@ -3568,6 +3426,7 @@ subsuite
 subsuite
     
 return
+suite_name
 suite
 def
 rewrite_test_base

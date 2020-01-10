@@ -1033,6 +1033,8 @@ all_mochitest_suites
 {
         
 "
+mochitest
+-
 plain
 "
 :
@@ -1040,6 +1042,8 @@ plain
 ]
         
 "
+mochitest
+-
 plain
 -
 gpu
@@ -1056,6 +1060,8 @@ gpu
 ]
         
 "
+mochitest
+-
 plain
 -
 clipboard
@@ -1072,6 +1078,8 @@ clipboard
 ]
         
 "
+mochitest
+-
 plain
 -
 chunked
@@ -1108,6 +1116,8 @@ media
 ]
         
 "
+mochitest
+-
 chrome
 "
 :
@@ -1122,6 +1132,8 @@ chrome
 ]
         
 "
+mochitest
+-
 chrome
 -
 gpu
@@ -1145,6 +1157,8 @@ gpu
 ]
         
 "
+mochitest
+-
 chrome
 -
 clipboard
@@ -1168,6 +1182,8 @@ clipboard
 ]
         
 "
+mochitest
+-
 chrome
 -
 chunked
@@ -1195,6 +1211,8 @@ dir
 ]
         
 "
+mochitest
+-
 browser
 -
 chrome
@@ -1211,6 +1229,8 @@ browser
 ]
         
 "
+mochitest
+-
 browser
 -
 chrome
@@ -1236,6 +1256,8 @@ clipboard
 ]
         
 "
+mochitest
+-
 browser
 -
 chrome
@@ -1263,6 +1285,8 @@ runtime
 ]
         
 "
+mochitest
+-
 browser
 -
 chrome
@@ -1288,6 +1312,8 @@ screenshots
 ]
         
 "
+mochitest
+-
 browser
 -
 chrome
@@ -1471,6 +1497,8 @@ mochitest
 -
 devtools
 -
+chrome
+-
 webreplay
 "
 :
@@ -1494,6 +1522,8 @@ webreplay
 ]
         
 "
+mochitest
+-
 a11y
 "
 :
