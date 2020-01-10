@@ -300,7 +300,7 @@ minimum
 maximum
 '
 :
-10
+25
                 
 '
 title
