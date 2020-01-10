@@ -5758,6 +5758,8 @@ GFX_USERFONT_OPENTYPE
 test
 for
 WOFF
+or
+WOFF2
 if
 (
 aFontDataLength
@@ -5816,15 +5818,6 @@ GFX_USERFONT_WOFF
 }
 if
 (
-Preferences
-:
-:
-GetBool
-(
-GFX_PREF_WOFF2_ENABLED
-)
-&
-&
 uint32_t
 (
 *
