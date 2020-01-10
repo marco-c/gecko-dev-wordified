@@ -2363,7 +2363,7 @@ hence
 /
 /
 the
-AutoForbidPools
+AutoForbidPoolsAndNops
 will
 ensure
 that
@@ -2389,7 +2389,7 @@ ptr
 )
 ;
 {
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 this
@@ -2782,7 +2782,7 @@ hence
 /
 /
 the
-AutoForbidPools
+AutoForbidPoolsAndNops
 will
 ensure
 that
@@ -2808,7 +2808,7 @@ ptr
 )
 ;
 {
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 this
@@ -5156,7 +5156,7 @@ AcquireX
 (
 )
 ;
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 this
@@ -5426,7 +5426,7 @@ CallSiteDesc
 desc
 )
 {
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 this
@@ -8080,7 +8080,7 @@ wasmTrapInstruction
 (
 )
 {
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 this
@@ -10991,7 +10991,7 @@ and
 the
 /
 /
-AutoForbidPools
+AutoForbidPoolsAndNops
 ensures
 that
 the
@@ -11043,7 +11043,7 @@ case
 :
 {
 {
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &
@@ -11125,7 +11125,7 @@ case
 :
 {
 {
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &
@@ -11207,7 +11207,7 @@ case
 :
 {
 {
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &
@@ -11296,7 +11296,7 @@ case
 :
 {
 {
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &

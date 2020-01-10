@@ -3473,7 +3473,7 @@ code
 )
 )
 ;
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &
@@ -4053,7 +4053,7 @@ code
 )
 )
 ;
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &
