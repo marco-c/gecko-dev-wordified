@@ -1376,7 +1376,7 @@ aID
 void
 SetCompositionRecorder
 (
-already_AddRefed
+UniquePtr
 <
 CompositionRecorder
 >
@@ -1385,7 +1385,13 @@ aRecorder
 {
 mCompositionRecorder
 =
+std
+:
+:
+move
+(
 aRecorder
+)
 ;
 }
 /
@@ -1497,7 +1503,7 @@ mLastPaintTime
 TimeStamp
 mRenderStartTime
 ;
-RefPtr
+UniquePtr
 <
 CompositionRecorder
 >

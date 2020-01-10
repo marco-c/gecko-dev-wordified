@@ -1942,15 +1942,13 @@ const
 void
 SetCompositionRecorder
 (
-RefPtr
+UniquePtr
 <
 layers
 :
 :
 WebRenderCompositionRecorder
 >
-&
-&
 aRecorder
 )
 ;

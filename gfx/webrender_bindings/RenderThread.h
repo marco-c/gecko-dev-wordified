@@ -1867,15 +1867,13 @@ wr
 :
 WindowId
 aWindowId
-RefPtr
+UniquePtr
 <
 layers
 :
 :
 WebRenderCompositionRecorder
 >
-&
-&
 aCompositionRecorder
 )
 ;
@@ -2015,7 +2013,7 @@ wr
 :
 :
 WindowId
-RefPtr
+UniquePtr
 <
 layers
 :
