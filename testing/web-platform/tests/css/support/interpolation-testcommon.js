@@ -3038,6 +3038,12 @@ test_no_interpolation
 =
 test_no_interpolation
 ;
+window
+.
+neutralKeyframe
+=
+neutralKeyframe
+;
 }
 )
 (
