@@ -2801,14 +2801,7 @@ the
 rest
     
 if
-isinstance
-(
 partner_subset
-(
-list
-tuple
-)
-)
 :
         
 #
