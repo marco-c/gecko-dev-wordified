@@ -7235,6 +7235,10 @@ Bug
 )
 *
 /
+height
+:
+1em
+;
 max
 -
 height
@@ -7299,8 +7303,10 @@ bug
 *
 /
 flex
+-
+grow
 :
-none
+1
 ;
 cursor
 :
@@ -7519,8 +7525,10 @@ bug
 *
 /
 flex
+-
+grow
 :
-none
+1
 ;
 cursor
 :
