@@ -229,7 +229,7 @@ expected
 audit
 :
 {
-contrastRatio
+CONTRAST
 :
 null
 }
@@ -288,7 +288,7 @@ audit
 :
 {
 "
-contrastRatio
+CONTRAST
 "
 :
 {
@@ -374,7 +374,7 @@ audit
 :
 {
 "
-contrastRatio
+CONTRAST
 "
 :
 {
