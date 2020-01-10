@@ -216,12 +216,6 @@ querySelector
 (
 "
 .
-login
--
-list
--
-item
--
 hostname
 "
 )
@@ -242,12 +236,6 @@ querySelector
 (
 "
 .
-login
--
-list
--
-item
--
 username
 "
 )
