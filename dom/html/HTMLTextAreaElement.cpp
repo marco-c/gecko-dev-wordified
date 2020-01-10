@@ -444,6 +444,7 @@ move
 (
 aNodeInfo
 )
+aFromParser
 NS_FORM_TEXTAREA
 )
 mValueChanged
