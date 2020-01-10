@@ -1637,9 +1637,8 @@ NeckoChild
 :
 AllocPUDPSocketChild
 (
-const
-Principal
-&
+nsIPrincipal
+*
 aPrincipal
 const
 nsCString

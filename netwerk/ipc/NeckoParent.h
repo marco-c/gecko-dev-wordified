@@ -770,9 +770,8 @@ PUDPSocketParent
 *
 AllocPUDPSocketParent
 (
-const
-Principal
-&
+nsIPrincipal
+*
 aPrincipal
 const
 nsCString
@@ -792,9 +791,8 @@ RecvPUDPSocketConstructor
 (
 PUDPSocketParent
 *
-const
-Principal
-&
+nsIPrincipal
+*
 aPrincipal
 const
 nsCString
@@ -876,9 +874,8 @@ const
 URIParams
 &
 aURI
-const
-Principal
-&
+nsIPrincipal
+*
 aPrincipal
 const
 bool

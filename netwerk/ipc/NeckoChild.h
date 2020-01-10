@@ -372,9 +372,8 @@ PUDPSocketChild
 *
 AllocPUDPSocketChild
 (
-const
-Principal
-&
+nsIPrincipal
+*
 aPrincipal
 const
 nsCString
