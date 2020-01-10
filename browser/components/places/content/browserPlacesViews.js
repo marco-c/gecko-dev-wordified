@@ -10239,7 +10239,7 @@ open
 {
 draggedElt
 .
-lastElementChild
+menupopup
 .
 hidePopup
 (
