@@ -11116,6 +11116,9 @@ nsGlobalWindowOuter
 :
 SetInitialPrincipalToSubject
 (
+nsIContentSecurityPolicy
+*
+aCSP
 )
 {
 /
@@ -11383,6 +11386,7 @@ GetDocShell
 CreateAboutBlankContentViewer
 (
 newWindowPrincipal
+aCSP
 )
 ;
 if

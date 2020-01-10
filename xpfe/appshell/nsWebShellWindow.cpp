@@ -1623,6 +1623,13 @@ mDocShell
 CreateAboutBlankContentViewer
 (
 principal
+/
+*
+aCsp
+=
+*
+/
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS

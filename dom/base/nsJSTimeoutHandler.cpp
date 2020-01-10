@@ -232,13 +232,6 @@ h
 #
 include
 "
-nsIContentSecurityPolicy
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

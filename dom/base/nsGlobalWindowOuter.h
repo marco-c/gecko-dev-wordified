@@ -1735,6 +1735,9 @@ virtual
 void
 SetInitialPrincipalToSubject
 (
+nsIContentSecurityPolicy
+*
+aCSP
 )
 override
 ;

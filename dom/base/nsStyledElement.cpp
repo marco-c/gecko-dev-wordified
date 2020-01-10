@@ -1261,16 +1261,8 @@ nsStyleUtil
 CSPAllowsInlineStyle
 (
 this
-NodePrincipal
-(
-)
-aMaybeScriptedPrincipal
 doc
--
->
-GetDocumentURI
-(
-)
+aMaybeScriptedPrincipal
 0
 0
 aValue

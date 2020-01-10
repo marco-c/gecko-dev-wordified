@@ -137,6 +137,9 @@ BasePrincipal
 h
 "
 class
+nsIContentSecurityPolicy
+;
+class
 ExpandedPrincipal
 :
 public
@@ -348,6 +351,14 @@ aExplicit
 false
 )
 ;
+void
+SetCsp
+(
+nsIContentSecurityPolicy
+*
+aCSP
+)
+;
 /
 /
 Returns
@@ -446,6 +457,12 @@ nsIPrincipal
 >
 >
 mPrincipals
+;
+nsCOMPtr
+<
+nsIContentSecurityPolicy
+>
+mCSP
 ;
 }
 ;
