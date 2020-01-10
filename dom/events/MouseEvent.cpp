@@ -1235,7 +1235,7 @@ aRegion
 mouseEventBase
 -
 >
-region
+mRegion
 ;
 }
 }

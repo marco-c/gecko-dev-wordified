@@ -1142,7 +1142,7 @@ the
 canvas
 HitRegion
 nsString
-region
+mRegion
 ;
 bool
 IsLeftButtonPressed
