@@ -21729,7 +21729,7 @@ directions
 aFrameAsScrollable
 -
 >
-GetAvailableScrollingDirections
+GetPerceivedScrollingDirections
 (
 )
 ;

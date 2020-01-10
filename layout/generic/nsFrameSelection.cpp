@@ -10185,7 +10185,7 @@ directions
 scrollableFrame
 -
 >
-GetAvailableScrollingDirections
+GetPerceivedScrollingDirections
 (
 )
 ;
