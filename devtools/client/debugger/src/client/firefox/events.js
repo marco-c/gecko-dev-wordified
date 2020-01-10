@@ -68,7 +68,7 @@ SourcePacket
 PausedPacket
 ThreadFront
 Actions
-TabTarget
+Target
 }
 from
 "
@@ -120,7 +120,7 @@ threadFront
 ThreadFront
 tabTarget
 :
-TabTarget
+Target
 actions
 :
 Actions
