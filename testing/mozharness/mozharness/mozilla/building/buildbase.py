@@ -11028,16 +11028,6 @@ value
 hits
             
 '
-extraOptions
-'
-:
-self
-.
-perfherder_resource_options
-(
-)
-            
-'
 subtests
 '
 :
@@ -11079,16 +11069,6 @@ stats
 cache_write_errors
 '
 ]
-            
-'
-extraOptions
-'
-:
-self
-.
-perfherder_resource_options
-(
-)
             
 '
 alertThreshold
@@ -11134,16 +11114,6 @@ stats
 requests_not_cacheable
 '
 ]
-            
-'
-extraOptions
-'
-:
-self
-.
-perfherder_resource_options
-(
-)
             
 '
 alertThreshold
