@@ -259,7 +259,13 @@ AllocPolicy
 :
 heap
 (
+std
+:
+:
+move
+(
 ap
+)
 )
 {
 }

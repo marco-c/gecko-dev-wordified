@@ -791,7 +791,13 @@ AllocPolicy
 :
 map
 (
+std
+:
+:
+move
+(
 a
+)
 )
 {
 }
@@ -818,7 +824,13 @@ length
 :
 map
 (
+std
+:
+:
+move
+(
 a
+)
 length
 )
 {

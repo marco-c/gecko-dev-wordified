@@ -388,7 +388,13 @@ AllocPolicy
 :
 vector
 (
+std
+:
+:
+move
+(
 alloc
+)
 )
 {
 }

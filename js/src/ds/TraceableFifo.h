@@ -391,7 +391,13 @@ AllocPolicy
 :
 Base
 (
+std
+:
+:
+move
+(
 alloc
+)
 )
 {
 }
