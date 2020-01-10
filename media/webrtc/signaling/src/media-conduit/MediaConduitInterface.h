@@ -2962,6 +2962,15 @@ framesDecoded
 =
 0
 ;
+virtual
+void
+RecordTelemetry
+(
+)
+const
+=
+0
+;
 protected
 :
 /
