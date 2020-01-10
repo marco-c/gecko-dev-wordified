@@ -648,7 +648,7 @@ kApplication
 {
 mSendOff
 .
-UpdateTrackIds
+UpdateStreamIds
 (
 std
 :
@@ -666,9 +666,6 @@ string
 stream_id
 "
 )
-"
-track_id
-"
 )
 ;
 }
@@ -724,7 +721,7 @@ kApplication
 {
 mSendAns
 .
-UpdateTrackIds
+UpdateStreamIds
 (
 std
 :
@@ -742,9 +739,6 @@ string
 stream_id
 "
 )
-"
-track_id
-"
 )
 ;
 }
@@ -1386,7 +1380,7 @@ if
 !
 send
 .
-GetTrackId
+GetStreamIds
 (
 )
 .
@@ -1423,7 +1417,7 @@ if
 !
 recv
 .
-GetTrackId
+GetStreamIds
 (
 )
 .
@@ -2868,7 +2862,7 @@ kSend
 ;
 videoTrack
 .
-UpdateTrackIds
+UpdateStreamIds
 (
 std
 :
@@ -2886,9 +2880,6 @@ string
 stream_id
 "
 )
-"
-track_id
-"
 )
 ;
 /
