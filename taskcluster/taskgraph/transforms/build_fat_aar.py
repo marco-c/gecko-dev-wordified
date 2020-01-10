@@ -324,16 +324,25 @@ prefix
 ]
             
 job
-[
+.
+setdefault
+(
 '
 fetches
 '
-]
-[
+{
+}
+)
+.
+setdefault
+(
 platform
-]
-=
 [
+]
+)
+.
+append
+(
 {
                 
 '
@@ -349,7 +358,7 @@ extract
 False
             
 }
-]
+)
             
 aar_file_name
 =
