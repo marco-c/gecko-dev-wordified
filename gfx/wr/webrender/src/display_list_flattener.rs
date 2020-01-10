@@ -8011,12 +8011,6 @@ info
 *
 info
 prim
-:
-prim
-.
-into
-(
-)
 }
 .
 into

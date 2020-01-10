@@ -9714,12 +9714,6 @@ Rect
 {
 rect
 color
-:
-color
-.
-into
-(
-)
 }
 )
 ;
@@ -9762,12 +9756,6 @@ Text
 {
 position
 color
-:
-color
-.
-into
-(
-)
 msg
 }
 )

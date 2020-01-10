@@ -22995,10 +22995,6 @@ fbo_id
 size
 :
 output_size
-.
-into
-(
-)
 }
 output_size
 .

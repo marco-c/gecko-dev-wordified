@@ -1971,10 +1971,6 @@ ItemRange
 bytes
 :
 skip
-.
-into
-(
-)
 _boo
 :
 PhantomData
