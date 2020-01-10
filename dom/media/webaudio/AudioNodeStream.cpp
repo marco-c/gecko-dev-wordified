@@ -331,17 +331,6 @@ ChannelInterpretation
 :
 Speakers
 ;
-/
-/
-AudioNodes
-are
-always
-producing
-data
-mHasCurrentData
-=
-true
-;
 mLastChunks
 .
 SetLength
