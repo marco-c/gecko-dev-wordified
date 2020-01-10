@@ -485,6 +485,12 @@ const
 *
 Gets
 the
+raw
+(
+non
+-
+anonymous
+)
 UUID
 of
 this
@@ -507,6 +513,7 @@ const
 *
 Gets
 the
+raw
 Group
 id
 of
@@ -664,6 +671,10 @@ const
 nsString
 &
 aDeviceId
+const
+nsString
+&
+aGroupId
 const
 mozilla
 :
@@ -985,6 +996,10 @@ nsString
 &
 aDeviceId
 const
+nsString
+&
+aGroupId
+const
 char
 *
 *
@@ -1268,6 +1283,10 @@ const
 nsString
 &
 aDeviceId
+const
+nsString
+&
+aGroupId
 )
 const
 =

@@ -902,6 +902,10 @@ nsString
 &
 aDeviceId
 const
+nsString
+&
+aGroupId
+const
 mozilla
 :
 :
@@ -982,6 +986,7 @@ Reconfigure
 aConstraints
 aPrefs
 aDeviceId
+aGroupId
 aOutBadConstraint
 )
 ;
@@ -1010,6 +1015,10 @@ const
 nsString
 &
 aDeviceId
+const
+nsString
+&
+aGroupId
 const
 char
 *

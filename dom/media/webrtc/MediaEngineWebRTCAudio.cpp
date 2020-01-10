@@ -715,6 +715,10 @@ const
 nsString
 &
 aDeviceId
+const
+nsString
+&
+aGroupId
 )
 const
 {
@@ -743,6 +747,7 @@ GetMinimumFitnessDistance
 *
 cs
 aDeviceId
+aGroupId
 )
 ;
 break
@@ -1155,11 +1160,11 @@ aPrefs
 const
 nsString
 &
-/
-*
 aDeviceId
-*
-/
+const
+nsString
+&
+aGroupId
 const
 char
 *
@@ -2326,6 +2331,10 @@ const
 nsString
 &
 aDeviceId
+const
+nsString
+&
+aGroupId
 const
 ipc
 :
@@ -7233,6 +7242,10 @@ nsString
 &
 aDeviceId
 const
+nsString
+&
+aGroupId
+const
 char
 *
 *
@@ -7262,6 +7275,10 @@ const
 nsString
 &
 aDeviceId
+const
+nsString
+&
+aGroupId
 )
 const
 {

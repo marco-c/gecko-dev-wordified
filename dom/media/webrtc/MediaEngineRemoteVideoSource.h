@@ -573,6 +573,10 @@ const
 nsString
 &
 aDeviceId
+const
+nsString
+&
+aGroupId
 webrtc
 :
 :
@@ -603,6 +607,10 @@ nsString
 &
 aDeviceId
 const
+nsString
+&
+aGroupId
+const
 DistanceCalculation
 aCalculate
 )
@@ -626,6 +634,10 @@ const
 nsString
 &
 aDeviceId
+const
+nsString
+&
+aGroupId
 )
 const
 ;
@@ -647,6 +659,10 @@ const
 nsString
 &
 aDeviceId
+const
+nsString
+&
+aGroupId
 )
 const
 ;
@@ -678,6 +694,10 @@ const
 nsString
 &
 aDeviceId
+const
+nsString
+&
+aGroupId
 )
 const
 override
@@ -748,6 +768,10 @@ nsString
 &
 aDeviceId
 const
+nsString
+&
+aGroupId
+const
 ipc
 :
 :
@@ -811,6 +835,10 @@ const
 nsString
 &
 aDeviceId
+const
+nsString
+&
+aGroupId
 const
 char
 *
@@ -1561,9 +1589,6 @@ mDeviceName
 ;
 nsCString
 mUniqueId
-;
-nsString
-mGroupId
 ;
 Maybe
 <
