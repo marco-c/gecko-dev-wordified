@@ -835,8 +835,11 @@ is
 closeButton
 .
 title
-Close
-Editor
+Switch
+back
+to
+inline
+mode
 (
 {
 closeKeyShortcut
