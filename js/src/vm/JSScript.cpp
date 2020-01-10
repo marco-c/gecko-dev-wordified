@@ -23227,7 +23227,13 @@ uint64_t
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 maxStackDepth
+(
+)
 )
 ;
 if

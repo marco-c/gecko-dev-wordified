@@ -330,7 +330,13 @@ slotFromTop
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 stackDepth
+(
+)
 -
 iterDepth_
 ;
@@ -489,7 +495,13 @@ unsigned
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 stackDepth
+(
+)
 -
 iterDepth_
 )
