@@ -1028,6 +1028,13 @@ time_shift
 )
 ;
 void
+ResetAntiReplay
+(
+PRTime
+window
+)
+;
+void
 RolloverAntiReplay
 (
 )
@@ -1106,6 +1113,9 @@ uint8_t
 >
 >
 session_ids_
+;
+ScopedSSLAntiReplayContext
+anti_replay_
 ;
 /
 /
