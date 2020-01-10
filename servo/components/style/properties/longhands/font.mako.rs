@@ -684,7 +684,7 @@ none
 animation_value_type
 =
 "
-ComputedValue
+FontSizeAdjust
 "
 spec
 =
