@@ -645,8 +645,6 @@ _handleReady
 (
 )
 ;
-return
-;
 }
 }
 _deliverSubscription
@@ -925,8 +923,6 @@ Register
 principal
 {
 scope
-:
-scope
 appServerKey
 :
 key
@@ -989,8 +985,6 @@ Unregister
 "
 principal
 {
-scope
-:
 scope
 }
 )
@@ -1057,8 +1051,6 @@ Registration
 principal
 {
 scope
-:
-scope
 }
 )
 .
@@ -1118,8 +1110,6 @@ Clear
 "
 null
 {
-domain
-:
 domain
 }
 )
@@ -1322,7 +1312,6 @@ reason
 return
 ;
 }
-return
 this
 .
 _handleRequest
@@ -1357,8 +1346,6 @@ requestID
 data
 .
 requestID
-result
-:
 result
 }
 )
@@ -2090,7 +2077,7 @@ callback
 )
 {
 let
-requestId
+requestID
 =
 this
 .
@@ -2112,14 +2099,10 @@ Register
 "
 {
 scope
-:
-scope
 appServerKey
 :
 key
 requestID
-:
-requestId
 }
 null
 principal
@@ -2134,7 +2117,7 @@ callback
 )
 {
 let
-requestId
+requestID
 =
 this
 .
@@ -2156,11 +2139,7 @@ Unregister
 "
 {
 scope
-:
-scope
 requestID
-:
-requestId
 }
 null
 principal
@@ -2175,7 +2154,7 @@ callback
 )
 {
 let
-requestId
+requestID
 =
 this
 .
@@ -2197,11 +2176,7 @@ Registration
 "
 {
 scope
-:
-scope
 requestID
-:
-requestId
 }
 null
 principal
@@ -2215,7 +2190,7 @@ callback
 )
 {
 let
-requestId
+requestID
 =
 this
 .
@@ -2237,11 +2212,7 @@ Clear
 "
 {
 domain
-:
-domain
 requestID
-:
-requestId
 }
 )
 ;
@@ -2313,10 +2284,6 @@ ReportError
 "
 {
 messageId
-:
-messageId
-reason
-:
 reason
 }
 )
@@ -3135,7 +3102,7 @@ PushServiceParent
 :
 PushServiceContent
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [

@@ -1,16 +1,5 @@
 /
 *
-jshint
-moz
-:
-true
-esnext
-:
-true
-*
-/
-/
-*
 This
 Source
 Code
@@ -120,19 +109,7 @@ jsm
 "
 )
 ;
-XPCOMUtils
-.
-defineLazyGlobalGetters
-(
-this
-[
-"
-indexedDB
-"
-]
-)
-;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -273,8 +250,6 @@ IndexedDBHelper
 .
 prototype
 toPushRecord
-:
-function
 (
 record
 )
@@ -286,6 +261,7 @@ record
 )
 {
 return
+null
 ;
 }
 return
@@ -299,8 +275,6 @@ record
 ;
 }
 isValidRecord
-:
-function
 (
 record
 )
@@ -354,8 +328,6 @@ string
 ;
 }
 upgradeSchema
-:
-function
 (
 aTransaction
 aDb
@@ -638,8 +610,6 @@ added
 *
 /
 put
-:
-function
 (
 aRecord
 )
@@ -798,8 +768,6 @@ deleted
 *
 /
 delete
-:
-function
 (
 aKeyID
 )
@@ -925,8 +893,6 @@ be
 deleted
 .
 clearIf
-:
-function
 (
 testFn
 )
@@ -1056,6 +1022,7 @@ e
 )
 ;
 }
+;
 }
 cursor
 .
@@ -1065,6 +1032,7 @@ continue
 ;
 }
 }
+;
 }
 resolve
 reject
@@ -1073,8 +1041,6 @@ reject
 ;
 }
 getByPushEndpoint
-:
-function
 (
 aPushEndpoint
 )
@@ -1191,8 +1157,6 @@ reject
 ;
 }
 getByKeyID
-:
-function
 (
 aKeyID
 )
@@ -1390,8 +1354,6 @@ processed
 *
 /
 forEachOrigin
-:
-function
 (
 origin
 originAttributes
@@ -1547,8 +1509,6 @@ scope
 originAttributes
 }
 getByIdentifiers
-:
-function
 (
 aPageRecord
 )
@@ -1714,8 +1674,6 @@ reject
 ;
 }
 _getAllByKey
-:
-function
 (
 aKeyName
 aKeyValue
@@ -1862,8 +1820,6 @@ a
 string
 !
 getAllByOriginAttributes
-:
-function
 (
 aOriginAttributes
 )
@@ -1906,8 +1862,6 @@ aOriginAttributes
 ;
 }
 getAllKeyIDs
-:
-function
 (
 )
 {
@@ -2000,8 +1954,6 @@ reject
 ;
 }
 _getAllByPushQuota
-:
-function
 (
 range
 )
@@ -2123,8 +2075,6 @@ reject
 ;
 }
 getAllUnexpired
-:
-function
 (
 )
 {
@@ -2154,8 +2104,6 @@ lowerBound
 ;
 }
 getAllExpired
-:
-function
 (
 )
 {
@@ -2263,8 +2211,6 @@ record
 *
 /
 update
-:
-function
 (
 aKeyID
 aUpdateFunc
@@ -2509,8 +2455,6 @@ reject
 ;
 }
 drop
-:
-function
 (
 )
 {

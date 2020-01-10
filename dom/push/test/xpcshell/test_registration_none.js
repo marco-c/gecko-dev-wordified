@@ -27,10 +27,10 @@ zero
 /
 *
 /
-'
+"
 use
 strict
-'
+"
 ;
 const
 {
@@ -43,7 +43,7 @@ serviceExports
 const
 userAgentID
 =
-'
+"
 a722e448
 -
 c481
@@ -53,7 +53,7 @@ c481
 aea0
 -
 fc411cb7c9ed
-'
+"
 ;
 function
 run_test
@@ -144,7 +144,7 @@ registration
 {
 scope
 :
-'
+"
 https
 :
 /
@@ -154,7 +154,7 @@ example
 net
 /
 1
-'
+"
 originAttributes
 :
 ChromeUtils
@@ -181,7 +181,7 @@ ok
 (
 !
 registration
-'
+"
 Should
 not
 open
@@ -189,7 +189,7 @@ a
 connection
 without
 registration
-'
+"
 )
 ;
 }

@@ -143,7 +143,7 @@ jsm
 "
 )
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -276,9 +276,9 @@ this
 .
 name
 =
-'
+"
 InvalidSourceInfo
-'
+"
 ;
 }
 }
@@ -1325,7 +1325,7 @@ broadcastId
 because
 module
 "
-moduleName
+moduleURI
 "
 missing
 attribute
@@ -1566,6 +1566,7 @@ _save
 ;
 }
 }
+;
 function
 initializeBroadcastService
 (
@@ -1640,7 +1641,6 @@ path
 )
 ;
 }
-;
 var
 pushBroadcastService
 =

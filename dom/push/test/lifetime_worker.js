@@ -8,6 +8,8 @@ from_scope
 var
 resolvePromiseCallback
 ;
+self
+.
 onfetch
 =
 function
@@ -58,6 +60,8 @@ event
 .
 waitUntil
 (
+self
+.
 clients
 .
 matchAll
@@ -238,6 +242,7 @@ resolvePromise
 ;
 }
 }
+;
 function
 resolvePromise
 (
@@ -286,6 +291,8 @@ resolvePromiseCallback
 null
 ;
 }
+self
+.
 onmessage
 =
 function
@@ -310,9 +317,9 @@ state
 =
 =
 =
-'
+"
 wait
-'
+"
 )
 {
 event
@@ -369,9 +376,9 @@ state
 =
 =
 =
-'
+"
 release
-'
+"
 )
 {
 resolvePromise
@@ -398,6 +405,9 @@ lastState
 )
 ;
 }
+;
+self
+.
 onpush
 =
 function
@@ -456,6 +466,8 @@ is
 "
 wait
 "
+self
+.
 clients
 .
 matchAll
@@ -512,8 +524,6 @@ type
 push
 "
 state
-:
-state
 }
 )
 ;
@@ -559,3 +569,4 @@ pushResolve
 )
 ;
 }
+;

@@ -27,10 +27,10 @@ zero
 /
 *
 /
-'
+"
 use
 strict
-'
+"
 ;
 const
 {
@@ -43,7 +43,7 @@ serviceExports
 const
 userAgentID
 =
-'
+"
 c293fdc5
 -
 a75e
@@ -53,7 +53,7 @@ a75e
 af88
 -
 a203991c0787
-'
+"
 ;
 function
 run_test
@@ -123,9 +123,9 @@ _generateID
 )
 =
 >
-'
+"
 1234
-'
+"
 ;
 PushService
 .
@@ -173,9 +173,9 @@ stringify
 {
 messageType
 :
-'
+"
 hello
-'
+"
 status
 :
 200
@@ -211,9 +211,9 @@ stringify
 {
 messageType
 :
-'
+"
 register
-'
+"
 status
 :
 200
@@ -225,7 +225,7 @@ uaid
 userAgentID
 pushEndpoint
 :
-'
+"
 https
 :
 /
@@ -239,7 +239,7 @@ update
 wrong
 -
 type
-'
+"
 }
 )
 )
@@ -253,6 +253,8 @@ type
 )
 ;
 await
+Assert
+.
 rejects
 (
 PushService
@@ -262,7 +264,7 @@ register
 {
 scope
 :
-'
+"
 https
 :
 /
@@ -272,7 +274,7 @@ example
 com
 /
 mistyped
-'
+"
 originAttributes
 :
 ChromeUtils
@@ -298,7 +300,7 @@ false
 Registration
 error
 /
-'
+"
 Expected
 error
 for
@@ -307,7 +309,7 @@ non
 string
 channel
 ID
-'
+"
 )
 ;
 await
@@ -317,11 +319,11 @@ equal
 (
 registers
 1
-'
+"
 Wrong
 register
 count
-'
+"
 )
 ;
 }

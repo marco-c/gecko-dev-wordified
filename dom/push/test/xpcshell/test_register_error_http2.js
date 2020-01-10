@@ -27,10 +27,10 @@ zero
 /
 *
 /
-'
+"
 use
 strict
-'
+"
 ;
 const
 {
@@ -40,9 +40,6 @@ PushServiceHttp2
 }
 =
 serviceExports
-;
-var
-prefs
 ;
 var
 serverURL
@@ -66,30 +63,6 @@ getTestServerPort
 ;
 do_get_profile
 (
-)
-;
-prefs
-=
-Cc
-[
-"
-mozilla
-.
-org
-/
-preferences
--
-service
-;
-1
-"
-]
-.
-getService
-(
-Ci
-.
-nsIPrefBranch
 )
 ;
 serverURL
@@ -186,6 +159,8 @@ db
 )
 ;
 await
+Assert
+.
 rejects
 (
 PushService
@@ -195,7 +170,7 @@ register
 {
 scope
 :
-'
+"
 https
 :
 /
@@ -209,7 +184,7 @@ page
 invalid
 -
 response
-'
+"
 originAttributes
 :
 ChromeUtils
@@ -235,7 +210,7 @@ false
 Registration
 error
 /
-'
+"
 Expected
 error
 for
@@ -246,7 +221,7 @@ to
 establish
 connecion
 .
-'
+"
 )
 ;
 let
@@ -316,6 +291,8 @@ server
 var
 oldPref
 =
+Services
+.
 prefs
 .
 getIntPref
@@ -333,6 +310,8 @@ limit
 "
 )
 ;
+Services
+.
 prefs
 .
 setIntPref
@@ -355,6 +334,8 @@ trustHttp2CA
 (
 )
 ;
+Services
+.
 prefs
 .
 setIntPref
@@ -442,6 +423,8 @@ db
 )
 ;
 await
+Assert
+.
 rejects
 (
 PushService
@@ -451,7 +434,7 @@ register
 {
 scope
 :
-'
+"
 https
 :
 /
@@ -465,7 +448,7 @@ page
 invalid
 -
 response
-'
+"
 originAttributes
 :
 ChromeUtils
@@ -491,7 +474,7 @@ false
 Registration
 error
 /
-'
+"
 Expected
 error
 for
@@ -500,7 +483,7 @@ missing
 location
 header
 .
-'
+"
 )
 ;
 let
@@ -522,7 +505,7 @@ length
 =
 =
 0
-'
+"
 Should
 not
 store
@@ -534,7 +517,7 @@ header
 is
 missing
 .
-'
+"
 )
 ;
 PushService
@@ -612,6 +595,8 @@ db
 )
 ;
 await
+Assert
+.
 rejects
 (
 PushService
@@ -621,7 +606,7 @@ register
 {
 scope
 :
-'
+"
 https
 :
 /
@@ -635,7 +620,7 @@ page
 invalid
 -
 response
-'
+"
 originAttributes
 :
 ChromeUtils
@@ -661,7 +646,7 @@ false
 Registration
 error
 /
-'
+"
 Expected
 error
 for
@@ -670,7 +655,7 @@ missing
 link
 header
 .
-'
+"
 )
 ;
 let
@@ -692,7 +677,7 @@ length
 =
 =
 0
-'
+"
 Should
 not
 store
@@ -704,7 +689,7 @@ header
 is
 missing
 .
-'
+"
 )
 ;
 PushService
@@ -782,6 +767,8 @@ db
 )
 ;
 await
+Assert
+.
 rejects
 (
 PushService
@@ -791,7 +778,7 @@ register
 {
 scope
 :
-'
+"
 https
 :
 /
@@ -805,7 +792,7 @@ page
 invalid
 -
 response
-'
+"
 originAttributes
 :
 ChromeUtils
@@ -831,7 +818,7 @@ false
 Registration
 error
 /
-'
+"
 Expected
 error
 for
@@ -840,7 +827,7 @@ missing
 push
 endpoint
 .
-'
+"
 )
 ;
 let
@@ -862,7 +849,7 @@ length
 =
 =
 0
-'
+"
 Should
 not
 store
@@ -874,7 +861,7 @@ endpoint
 is
 missing
 .
-'
+"
 )
 ;
 PushService
@@ -952,6 +939,8 @@ db
 )
 ;
 await
+Assert
+.
 rejects
 (
 PushService
@@ -961,7 +950,7 @@ register
 {
 scope
 :
-'
+"
 https
 :
 /
@@ -975,7 +964,7 @@ page
 invalid
 -
 response
-'
+"
 originAttributes
 :
 ChromeUtils
@@ -1001,14 +990,14 @@ false
 Registration
 error
 /
-'
+"
 Expected
 error
 for
 the
 bogus
 location
-'
+"
 )
 ;
 let
@@ -1030,7 +1019,7 @@ length
 =
 =
 0
-'
+"
 Should
 not
 store
@@ -1041,7 +1030,7 @@ header
 is
 bogus
 .
-'
+"
 )
 ;
 PushService
@@ -1119,6 +1108,8 @@ db
 )
 ;
 await
+Assert
+.
 rejects
 (
 PushService
@@ -1128,7 +1119,7 @@ register
 {
 scope
 :
-'
+"
 https
 :
 /
@@ -1142,7 +1133,7 @@ page
 invalid
 -
 response
-'
+"
 originAttributes
 :
 ChromeUtils
@@ -1168,7 +1159,7 @@ false
 Registration
 error
 /
-'
+"
 Expected
 error
 for
@@ -1177,7 +1168,7 @@ not
 responce
 code
 .
-'
+"
 )
 ;
 let
@@ -1199,7 +1190,7 @@ length
 =
 =
 0
-'
+"
 Should
 not
 store
@@ -1211,7 +1202,7 @@ is
 not
 201
 .
-'
+"
 )
 ;
 }

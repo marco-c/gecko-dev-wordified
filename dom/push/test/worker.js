@@ -82,6 +82,12 @@ from
 the
 worker
 .
+/
+*
+globals
+PushEvent
+*
+/
 this
 .
 onpush
@@ -323,9 +329,9 @@ if
 (
 !
 (
-'
+"
 data
-'
+"
 in
 event
 )
