@@ -1805,7 +1805,7 @@ FinishBailoutToBaseline
 (
 BaselineBailoutInfo
 *
-bailoutInfo
+bailoutInfoArg
 )
 ;
 void

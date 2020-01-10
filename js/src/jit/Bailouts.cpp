@@ -1762,7 +1762,13 @@ bailoutInfo
 >
 bailoutKind
 =
+mozilla
+:
+:
+Some
+(
 Bailout_IonExceptionDebugMode
+)
 ;
 }
 rfe
