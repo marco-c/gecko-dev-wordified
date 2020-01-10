@@ -1200,14 +1200,6 @@ dataProvider
 onFrameSent
 )
 ;
-this
-.
-webSocketFront
-.
-stopListening
-(
-)
-;
 }
 }
 if
