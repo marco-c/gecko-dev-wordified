@@ -348,6 +348,7 @@ nsIResumableChannel
 nsIFTPChannel
 nsIProxiedChannel
 nsIForcePendingChannel
+nsISupportsWeakReference
 nsIChannelWithDivertableParentListener
 )
 /

@@ -188,6 +188,13 @@ nsIResumableChannel
 .
 h
 "
+#
+include
+"
+nsWeakReference
+.
+h
+"
 class
 nsIURI
 ;
@@ -216,6 +223,8 @@ public
 nsIProxiedChannel
 public
 nsIForcePendingChannel
+public
+nsSupportsWeakReference
 public
 nsIChannelWithDivertableParentListener
 {
