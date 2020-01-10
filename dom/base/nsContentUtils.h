@@ -22689,10 +22689,6 @@ static
 int32_t
 sBytecodeCacheStrategy
 ;
-static
-bool
-sAntiTrackingControlCenterUIEnabled
-;
 class
 UserInteractionObserver
 ;
