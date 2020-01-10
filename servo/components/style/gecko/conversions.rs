@@ -3500,8 +3500,8 @@ basic_shape
 :
 :
 {
-Path
 GeometryBox
+Path
 ShapeBox
 ShapeSource
 }
