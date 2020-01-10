@@ -2524,7 +2524,8 @@ zip
 archives
 within
 the
-NS_GRE_DIR
+gre
+directory
 /
 /
 and
@@ -2547,7 +2548,9 @@ path
 /
 relative
 to
-NS_GRE_DIR
+the
+gre
+dir
 and
 for
 the
@@ -2729,13 +2732,8 @@ nsDirectoryService
 gService
 -
 >
-Get
+GetCurrentProcessDirectory
 (
-NS_GRE_DIR
-NS_GET_IID
-(
-nsIFile
-)
 getter_AddRefs
 (
 gre_dir
