@@ -33,7 +33,7 @@ v
 /
 /
 line
-2
+3
 function
 bar
 (
@@ -52,7 +52,7 @@ v
 /
 /
 line
-3
+6
 function
 baz
 (
@@ -72,7 +72,7 @@ v
 /
 /
 line
-4
+9
 print
 (
 "
@@ -194,7 +194,7 @@ test_Log_stackTrace
 .
 js
 :
-4
+9
 "
 )
 ;
@@ -211,7 +211,7 @@ test_Log_stackTrace
 .
 js
 :
-3
+6
 "
 )
 ;
@@ -228,7 +228,7 @@ test_Log_stackTrace
 .
 js
 :
-2
+3
 "
 )
 ;
