@@ -315,12 +315,6 @@ files
 :
 [
 "
-caps
-/
-*
-*
-"
-"
 chrome
 /
 *
