@@ -284,7 +284,6 @@ debug
 target
 -
 item__additional_actions
-toolbar
 "
 }
 additionalActionsComponent
