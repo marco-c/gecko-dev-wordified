@@ -761,7 +761,8 @@ aWidth
 *
 aHeight
 =
-0
+-
+1
 ;
 if
 (
