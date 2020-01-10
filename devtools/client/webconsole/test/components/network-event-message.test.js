@@ -349,8 +349,8 @@ client
 /
 webconsole
 /
-webconsole
--
+utils
+/
 l10n
 "
 )
