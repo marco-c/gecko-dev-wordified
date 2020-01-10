@@ -523,7 +523,7 @@ this
 ;
 }
 get
-target
+currentTarget
 (
 )
 {
