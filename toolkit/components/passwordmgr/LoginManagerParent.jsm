@@ -3986,7 +3986,7 @@ prompt
 shouldSaveLogin
 /
 /
-attention
+notifySaved
 )
 ;
 }
