@@ -2011,7 +2011,7 @@ error
 "
 /
 /
-Dissallow
+Disallow
 use
 of
 new
