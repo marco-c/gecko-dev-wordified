@@ -403,6 +403,12 @@ WindowsVersion
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+baseprofiler
+{
 int
 profiler_current_process_id
 (
@@ -2671,3 +2677,13 @@ defined
 (
 GP_PLAT_amd64_windows
 )
+}
+/
+/
+namespace
+baseprofiler
+}
+/
+/
+namespace
+mozilla
