@@ -312,7 +312,12 @@ PreloadChunkCount
 )
 {
 return
-sPreloadChunkCount
+StaticPrefs
+:
+:
+browser_cache_disk_preload_chunk_count
+(
+)
 ;
 }
 static
@@ -586,10 +591,6 @@ uint32_t
 Relaxed
 >
 sDiskCacheCapacity
-;
-static
-uint32_t
-sPreloadChunkCount
 ;
 static
 int32_t
