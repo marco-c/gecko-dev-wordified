@@ -336,6 +336,7 @@ render_task
 :
 {
 ClearMode
+RenderTargetKind
 RenderTask
 }
 ;
@@ -426,15 +427,6 @@ texture_cache
 :
 :
 TextureCacheHandle
-;
-use
-crate
-:
-:
-tiling
-:
-:
-RenderTargetKind
 ;
 use
 crate

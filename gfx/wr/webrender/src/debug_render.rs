@@ -135,6 +135,7 @@ internal_types
 {
 ORTHO_FAR_PLANE
 ORTHO_NEAR_PLANE
+Swizzle
 }
 ;
 use
@@ -2154,6 +2155,12 @@ Font
 self
 .
 font_texture
+Swizzle
+:
+:
+default
+(
+)
 )
 ;
 device
