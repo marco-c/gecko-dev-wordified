@@ -2227,7 +2227,6 @@ this
 ui
 )
 {
-await
 this
 .
 ui
