@@ -20544,11 +20544,8 @@ this
 .
 target
 .
-getFront
+getInspector
 (
-"
-inspector
-"
 )
 ;
 this

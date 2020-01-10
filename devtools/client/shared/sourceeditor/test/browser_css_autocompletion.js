@@ -863,11 +863,8 @@ inspector
 await
 target
 .
-getFront
+getInspector
 (
-"
-inspector
-"
 )
 ;
 const
