@@ -1950,6 +1950,16 @@ move
 (
 customSections
 )
+nullptr
+nullptr
+nullptr
+/
+*
+loggingDeserialized
+=
+*
+/
+true
 )
 ;
 }
