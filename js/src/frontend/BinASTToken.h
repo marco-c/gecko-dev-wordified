@@ -162,6 +162,13 @@ stddef
 .
 h
 >
+#
+include
+"
+jstypes
+.
+h
+"
 /
 *
 *
@@ -1434,6 +1441,8 @@ YieldStarExpression
 enum
 class
 BinASTKind
+:
+uint16_t
 {
 #
 define
@@ -2085,6 +2094,8 @@ value
 enum
 class
 BinASTField
+:
+uint16_t
 {
 #
 define
@@ -2635,6 +2646,8 @@ let
 enum
 class
 BinASTVariant
+:
+uint16_t
 {
 #
 define
