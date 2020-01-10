@@ -1613,9 +1613,8 @@ isSome
 )
 )
 {
-RejectTransaction
+ClearTransaction
 (
-NS_ERROR_ABORT
 )
 ;
 }
