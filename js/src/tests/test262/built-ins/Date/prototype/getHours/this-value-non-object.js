@@ -44,6 +44,15 @@ date
 prototype
 .
 gethours
+es6id
+:
+20
+.
+3
+.
+4
+.
+5
 description
 :
 Behavior

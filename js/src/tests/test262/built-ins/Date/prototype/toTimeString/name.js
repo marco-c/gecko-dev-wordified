@@ -42,6 +42,15 @@ date
 prototype
 .
 totimestring
+es6id
+:
+20
+.
+3
+.
+4
+.
+42
 description
 :
 >

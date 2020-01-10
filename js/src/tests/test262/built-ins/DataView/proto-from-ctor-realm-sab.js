@@ -86,6 +86,15 @@ buffer
 byteoffset
 -
 bytelength
+es6id
+:
+24
+.
+2
+.
+2
+.
+1
 description
 :
 Default

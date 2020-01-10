@@ -47,6 +47,17 @@ array
 prototype
 .
 slice
+es5id
+:
+15
+.
+4
+.
+4
+.
+10_A2
+.
+1_T3
 description
 :
 start

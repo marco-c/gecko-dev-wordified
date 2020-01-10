@@ -56,6 +56,13 @@ slots
 setprototypeof
 -
 v
+es6id
+:
+9
+.
+5
+.
+2
 description
 :
 >

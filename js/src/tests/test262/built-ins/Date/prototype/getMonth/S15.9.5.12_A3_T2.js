@@ -61,6 +61,15 @@ date
 prototype
 .
 getmonth
+es5id
+:
+15
+.
+9
+.
+5
+.
+12_A3_T2
 description
 :
 Checking

@@ -60,6 +60,15 @@ date
 prototype
 .
 gettimezoneoffset
+es5id
+:
+15
+.
+9
+.
+5
+.
+26_A3_T3
 description
 :
 Checking

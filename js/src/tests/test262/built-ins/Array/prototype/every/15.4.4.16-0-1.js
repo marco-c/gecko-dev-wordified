@@ -42,6 +42,15 @@ array
 prototype
 .
 every
+es5id
+:
+15
+.
+4
+.
+4
+.
+16
 description
 :
 Array

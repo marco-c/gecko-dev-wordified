@@ -54,6 +54,13 @@ internal
 slots
 -
 getprototypeof
+es6id
+:
+9
+.
+5
+.
+1
 description
 :
 >

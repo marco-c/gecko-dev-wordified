@@ -80,6 +80,15 @@ boolean
 prototype
 .
 valueof
+es5id
+:
+15
+.
+6
+.
+4
+.
+3_A2_T2
 description
 :
 transferring

@@ -40,6 +40,13 @@ sec
 json
 .
 parse
+es6id
+:
+24
+.
+3
+.
+1
 es5id
 :
 15

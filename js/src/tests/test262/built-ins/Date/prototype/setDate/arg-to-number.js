@@ -44,6 +44,15 @@ date
 prototype
 .
 setdate
+es6id
+:
+20
+.
+3
+.
+4
+.
+20
 description
 :
 Type

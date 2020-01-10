@@ -60,6 +60,15 @@ date
 prototype
 .
 tolocalestring
+es5id
+:
+15
+.
+9
+.
+5
+.
+5_A3_T3
 description
 :
 Checking

@@ -44,6 +44,15 @@ date
 constructor
 -
 date
+es6id
+:
+20
+.
+3
+.
+2
+.
+3
 description
 :
 Default

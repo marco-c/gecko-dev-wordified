@@ -93,6 +93,13 @@ runtime
 semantics
 -
 propertydefinitionevaluation
+es6id
+:
+14
+.
+4
+.
+13
 features
 :
 [

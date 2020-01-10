@@ -48,6 +48,13 @@ the
 generatorfunction
 -
 constructor
+es6id
+:
+25
+.
+2
+.
+2
 description
 :
 Function

@@ -42,6 +42,15 @@ sec
 symbol
 .
 toprimitive
+es6id
+:
+19
+.
+4
+.
+2
+.
+12
 description
 :
 Value

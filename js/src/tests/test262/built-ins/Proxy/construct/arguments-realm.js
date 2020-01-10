@@ -58,6 +58,13 @@ construct
 argumentslist
 -
 newtarget
+es6id
+:
+9
+.
+5
+.
+14
 description
 :
 >

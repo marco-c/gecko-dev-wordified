@@ -62,6 +62,15 @@ array
 prototype
 .
 join
+es5id
+:
+15
+.
+4
+.
+4
+.
+5_A2_T3
 description
 :
 If

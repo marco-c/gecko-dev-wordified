@@ -54,6 +54,15 @@ array
 prototype
 .
 slice
+es5id
+:
+15
+.
+4
+.
+4
+.
+10_A4_T1
 description
 :
 "

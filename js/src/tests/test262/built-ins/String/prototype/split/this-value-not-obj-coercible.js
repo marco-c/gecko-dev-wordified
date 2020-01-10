@@ -44,6 +44,15 @@ string
 prototype
 .
 split
+es6id
+:
+21
+.
+1
+.
+3
+.
+17
 description
 :
 The

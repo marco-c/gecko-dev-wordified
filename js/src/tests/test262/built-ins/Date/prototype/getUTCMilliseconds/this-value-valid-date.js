@@ -44,6 +44,15 @@ date
 prototype
 .
 getutcmmilliseconds
+es6id
+:
+20
+.
+3
+.
+4
+.
+16
 description
 :
 Return

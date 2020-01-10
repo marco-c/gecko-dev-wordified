@@ -50,6 +50,13 @@ call
 thisargument
 -
 argumentslist
+es6id
+:
+9
+.
+2
+.
+1
 description
 :
 Error

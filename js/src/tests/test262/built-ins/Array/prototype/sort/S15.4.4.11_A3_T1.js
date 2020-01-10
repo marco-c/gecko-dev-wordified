@@ -62,6 +62,15 @@ array
 prototype
 .
 sort
+es5id
+:
+15
+.
+4
+.
+4
+.
+11_A3_T1
 description
 :
 If

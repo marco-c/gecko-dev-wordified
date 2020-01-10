@@ -58,6 +58,13 @@ defineownproperty
 p
 -
 desc
+es6id
+:
+9
+.
+5
+.
+6
 description
 :
 >

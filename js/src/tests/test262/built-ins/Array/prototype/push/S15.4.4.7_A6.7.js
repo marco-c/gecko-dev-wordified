@@ -54,6 +54,17 @@ array
 prototype
 .
 push
+es5id
+:
+15
+.
+4
+.
+4
+.
+7_A6
+.
+7
 description
 :
 >

@@ -54,6 +54,15 @@ date
 prototype
 .
 getseconds
+es5id
+:
+15
+.
+9
+.
+5
+.
+22_A2_T1
 description
 :
 The

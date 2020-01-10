@@ -54,6 +54,15 @@ date
 prototype
 .
 tostring
+es5id
+:
+15
+.
+9
+.
+5
+.
+2_A2_T1
 description
 :
 The

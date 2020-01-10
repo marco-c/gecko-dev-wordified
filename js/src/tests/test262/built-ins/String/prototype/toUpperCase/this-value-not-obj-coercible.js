@@ -44,6 +44,15 @@ string
 prototype
 .
 touppercase
+es6id
+:
+21
+.
+1
+.
+3
+.
+24
 description
 :
 The

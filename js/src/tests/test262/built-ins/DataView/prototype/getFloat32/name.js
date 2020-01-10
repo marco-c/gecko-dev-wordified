@@ -42,6 +42,15 @@ dataview
 prototype
 .
 getfloat32
+es6id
+:
+24
+.
+2
+.
+4
+.
+5
 description
 :
 >

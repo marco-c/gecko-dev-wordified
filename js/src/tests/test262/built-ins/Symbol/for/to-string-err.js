@@ -42,6 +42,15 @@ sec
 symbol
 .
 for
+es6id
+:
+19
+.
+4
+.
+2
+.
+1
 description
 :
 Error

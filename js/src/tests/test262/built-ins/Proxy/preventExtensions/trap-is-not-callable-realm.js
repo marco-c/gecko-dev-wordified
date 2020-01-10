@@ -54,6 +54,13 @@ internal
 slots
 -
 preventextensions
+es6id
+:
+9
+.
+5
+.
+4
 description
 :
 >

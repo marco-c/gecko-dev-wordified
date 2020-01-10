@@ -42,6 +42,15 @@ boolean
 prototype
 .
 valueof
+es6id
+:
+19
+.
+3
+.
+3
+.
+3
 description
 :
 >

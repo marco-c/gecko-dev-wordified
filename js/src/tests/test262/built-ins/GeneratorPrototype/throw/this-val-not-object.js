@@ -44,6 +44,15 @@ generator
 prototype
 .
 throw
+es6id
+:
+25
+.
+3
+.
+1
+.
+4
 description
 :
 >

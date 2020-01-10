@@ -54,6 +54,15 @@ minutes
 seconds
 -
 ms
+es6id
+:
+20
+.
+3
+.
+2
+.
+1
 description
 :
 Default

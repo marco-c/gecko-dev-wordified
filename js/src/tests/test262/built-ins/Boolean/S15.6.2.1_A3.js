@@ -60,6 +60,15 @@ sec
 boolean
 -
 constructor
+es5id
+:
+15
+.
+6
+.
+2
+.
+1_A3
 description
 :
 Checking

@@ -44,6 +44,15 @@ string
 prototype
 .
 lastindexof
+es6id
+:
+21
+.
+1
+.
+3
+.
+9
 description
 :
 The

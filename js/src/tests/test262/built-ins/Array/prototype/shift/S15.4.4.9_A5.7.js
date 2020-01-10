@@ -54,6 +54,17 @@ array
 prototype
 .
 shift
+es5id
+:
+15
+.
+4
+.
+4
+.
+9_A5
+.
+7
 description
 :
 >

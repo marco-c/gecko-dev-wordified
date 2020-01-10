@@ -56,6 +56,13 @@ slots
 hasproperty
 -
 p
+es6id
+:
+9
+.
+5
+.
+7
 description
 :
 >

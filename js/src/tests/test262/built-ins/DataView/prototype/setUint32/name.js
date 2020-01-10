@@ -42,6 +42,15 @@ dataview
 prototype
 .
 setuint32
+es6id
+:
+24
+.
+2
+.
+4
+.
+20
 description
 :
 >

@@ -42,6 +42,15 @@ date
 prototype
 .
 getutcfullyear
+es6id
+:
+20
+.
+3
+.
+4
+.
+14
 description
 :
 >

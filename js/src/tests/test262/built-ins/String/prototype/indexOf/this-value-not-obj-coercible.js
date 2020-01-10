@@ -44,6 +44,15 @@ string
 prototype
 .
 indexof
+es6id
+:
+21
+.
+1
+.
+3
+.
+8
 description
 :
 The

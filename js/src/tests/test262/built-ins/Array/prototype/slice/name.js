@@ -42,6 +42,15 @@ array
 prototype
 .
 slice
+es6id
+:
+22
+.
+1
+.
+3
+.
+22
 description
 :
 >

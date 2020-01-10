@@ -44,6 +44,15 @@ generatorfunction
 prototype
 .
 constructor
+es6id
+:
+25
+.
+2
+.
+3
+.
+1
 description
 :
 >

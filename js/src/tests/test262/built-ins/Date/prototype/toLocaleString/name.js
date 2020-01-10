@@ -42,6 +42,15 @@ date
 prototype
 .
 tolocalestring
+es6id
+:
+20
+.
+3
+.
+4
+.
+39
 description
 :
 >

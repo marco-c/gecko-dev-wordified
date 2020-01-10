@@ -42,6 +42,15 @@ sec
 symbol
 .
 replace
+es6id
+:
+19
+.
+4
+.
+2
+.
+8
 description
 :
 Value

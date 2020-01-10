@@ -46,6 +46,15 @@ regexp
 prototype
 .
 ignorecase
+es6id
+:
+21
+.
+2
+.
+5
+.
+5
 description
 :
 A

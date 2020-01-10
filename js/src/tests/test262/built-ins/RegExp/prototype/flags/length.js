@@ -44,6 +44,15 @@ regexp
 prototype
 .
 flags
+es6id
+:
+21
+.
+2
+.
+5
+.
+3
 description
 :
 >

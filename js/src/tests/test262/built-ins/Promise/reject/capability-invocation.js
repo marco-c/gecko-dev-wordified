@@ -50,6 +50,15 @@ sec
 promise
 .
 reject
+es6id
+:
+25
+.
+4
+.
+4
+.
+4
 info
 :
 |

@@ -54,6 +54,15 @@ array
 prototype
 .
 join
+es5id
+:
+15
+.
+4
+.
+4
+.
+5_A5_T1
 description
 :
 >

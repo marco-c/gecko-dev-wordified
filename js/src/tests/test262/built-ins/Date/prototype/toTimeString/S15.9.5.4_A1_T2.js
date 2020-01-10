@@ -55,6 +55,15 @@ date
 prototype
 .
 totimestring
+es5id
+:
+15
+.
+9
+.
+5
+.
+4_A1_T2
 description
 :
 Checking

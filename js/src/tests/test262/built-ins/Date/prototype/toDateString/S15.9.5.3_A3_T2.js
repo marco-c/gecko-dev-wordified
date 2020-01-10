@@ -61,6 +61,15 @@ date
 prototype
 .
 todatestring
+es5id
+:
+15
+.
+9
+.
+5
+.
+3_A3_T2
 description
 :
 Checking

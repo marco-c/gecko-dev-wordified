@@ -42,6 +42,15 @@ array
 prototype
 .
 pop
+es6id
+:
+22
+.
+1
+.
+3
+.
+16
 description
 :
 >

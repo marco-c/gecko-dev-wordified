@@ -54,6 +54,15 @@ date
 prototype
 .
 tolocalestring
+es5id
+:
+15
+.
+9
+.
+5
+.
+5_A2_T1
 description
 :
 The

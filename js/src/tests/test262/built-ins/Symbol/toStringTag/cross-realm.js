@@ -42,6 +42,15 @@ sec
 symbol
 .
 tostringtag
+es6id
+:
+19
+.
+4
+.
+2
+.
+13
 description
 :
 Value

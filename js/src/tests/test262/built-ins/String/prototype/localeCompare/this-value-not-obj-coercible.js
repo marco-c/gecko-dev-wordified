@@ -44,6 +44,15 @@ string
 prototype
 .
 localecompare
+es6id
+:
+21
+.
+1
+.
+3
+.
+10
 description
 :
 The

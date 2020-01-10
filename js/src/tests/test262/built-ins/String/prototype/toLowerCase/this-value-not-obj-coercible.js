@@ -44,6 +44,15 @@ string
 prototype
 .
 tolowercase
+es6id
+:
+21
+.
+1
+.
+3
+.
+22
 description
 :
 The

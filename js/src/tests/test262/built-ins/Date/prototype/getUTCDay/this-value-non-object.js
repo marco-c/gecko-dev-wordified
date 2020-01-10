@@ -44,6 +44,15 @@ date
 prototype
 .
 getutcdaty
+es6id
+:
+20
+.
+3
+.
+4
+.
+13
 description
 :
 Behavior

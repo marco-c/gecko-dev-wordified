@@ -42,6 +42,15 @@ sec
 symbol
 .
 keyfor
+es6id
+:
+19
+.
+4
+.
+2
+.
+5
 description
 :
 >

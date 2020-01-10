@@ -58,6 +58,13 @@ call
 thisargument
 -
 argumentslist
+es6id
+:
+9
+.
+5
+.
+13
 description
 :
 >

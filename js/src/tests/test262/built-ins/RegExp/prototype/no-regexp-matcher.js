@@ -50,6 +50,13 @@ regexp
 prototype
 -
 object
+es6id
+:
+21
+.
+2
+.
+5
 description
 :
 >

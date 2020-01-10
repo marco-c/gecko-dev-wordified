@@ -45,6 +45,15 @@ number
 prototype
 .
 tofixed
+es6id
+:
+20
+.
+1
+.
+3
+.
+3
 description
 :
 >

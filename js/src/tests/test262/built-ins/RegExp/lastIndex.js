@@ -44,6 +44,15 @@ regexp
 pattern
 -
 flags
+es6id
+:
+21
+.
+2
+.
+3
+.
+1
 description
 :
 Initial

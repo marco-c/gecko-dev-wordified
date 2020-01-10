@@ -42,6 +42,15 @@ sec
 promise
 .
 prototype
+es6id
+:
+25
+.
+4
+.
+4
+.
+2
 description
 :
 Property

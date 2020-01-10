@@ -42,6 +42,15 @@ sec
 symbol
 .
 unscopables
+es6id
+:
+19
+.
+4
+.
+2
+.
+14
 description
 :
 Value

@@ -42,6 +42,15 @@ date
 prototype
 .
 getminutes
+es6id
+:
+20
+.
+3
+.
+4
+.
+7
 description
 :
 >

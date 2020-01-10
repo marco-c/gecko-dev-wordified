@@ -76,6 +76,15 @@ web
 compat
 -
 functiondeclarationinstantiation
+es6id
+:
+B
+.
+3
+.
+3
+.
+1
 flags
 :
 [

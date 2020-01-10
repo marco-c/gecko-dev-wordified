@@ -51,6 +51,15 @@ sec
 math
 .
 log2e
+es6id
+:
+20
+.
+2
+.
+1
+.
+5
 info
 :
 |

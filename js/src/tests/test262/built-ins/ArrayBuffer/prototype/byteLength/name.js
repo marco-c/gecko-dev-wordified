@@ -46,6 +46,15 @@ arraybuffer
 prototype
 .
 bytelength
+es6id
+:
+24
+.
+1
+.
+4
+.
+1
 description
 :
 >

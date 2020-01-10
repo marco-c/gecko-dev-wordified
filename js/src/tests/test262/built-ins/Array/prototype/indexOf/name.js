@@ -42,6 +42,15 @@ array
 prototype
 .
 indexof
+es6id
+:
+22
+.
+1
+.
+3
+.
+12
 description
 :
 >

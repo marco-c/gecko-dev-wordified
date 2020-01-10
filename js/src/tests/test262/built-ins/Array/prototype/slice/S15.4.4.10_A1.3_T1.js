@@ -66,6 +66,17 @@ array
 prototype
 .
 slice
+es5id
+:
+15
+.
+4
+.
+4
+.
+10_A1
+.
+3_T1
 description
 :
 length

@@ -69,6 +69,13 @@ runtime
 semantics
 -
 definemethod
+es6id
+:
+14
+.
+3
+.
+8
 features
 :
 [

@@ -44,6 +44,15 @@ regexp
 prototype
 -
 split
+es6id
+:
+21
+.
+2
+.
+5
+.
+11
 description
 :
 Default

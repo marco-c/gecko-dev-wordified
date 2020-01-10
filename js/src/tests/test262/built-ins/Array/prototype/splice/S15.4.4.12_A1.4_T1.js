@@ -68,6 +68,17 @@ array
 prototype
 .
 splice
+es5id
+:
+15
+.
+4
+.
+4
+.
+12_A1
+.
+4_T1
 description
 :
 length

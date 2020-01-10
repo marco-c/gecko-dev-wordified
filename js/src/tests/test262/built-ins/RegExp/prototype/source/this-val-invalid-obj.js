@@ -46,6 +46,15 @@ regexp
 prototype
 .
 source
+es6id
+:
+21
+.
+2
+.
+5
+.
+10
 description
 :
 A

@@ -50,6 +50,15 @@ array
 prototype
 .
 push
+es5id
+:
+15
+.
+4
+.
+4
+.
+7_A3
 description
 :
 If

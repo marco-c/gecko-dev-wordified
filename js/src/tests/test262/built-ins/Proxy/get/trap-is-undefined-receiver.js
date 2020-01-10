@@ -33,6 +33,13 @@ file
 -
 -
 -
+es6id
+:
+9
+.
+5
+.
+8
 esid
 :
 sec

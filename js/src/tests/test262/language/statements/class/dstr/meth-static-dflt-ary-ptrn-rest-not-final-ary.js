@@ -102,6 +102,13 @@ runtime
 semantics
 -
 bindingclassdeclarationevaluation
+es6id
+:
+14
+.
+5
+.
+15
 features
 :
 [

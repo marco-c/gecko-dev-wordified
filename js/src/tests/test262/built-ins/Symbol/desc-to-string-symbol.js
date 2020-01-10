@@ -42,6 +42,13 @@ sec
 symbol
 -
 constructor
+es6id
+:
+19
+.
+4
+.
+1
 description
 :
 The

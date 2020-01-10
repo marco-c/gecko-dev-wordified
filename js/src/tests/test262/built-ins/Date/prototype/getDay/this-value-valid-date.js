@@ -44,6 +44,15 @@ date
 prototype
 .
 getday
+es6id
+:
+20
+.
+3
+.
+4
+.
+3
 description
 :
 Return

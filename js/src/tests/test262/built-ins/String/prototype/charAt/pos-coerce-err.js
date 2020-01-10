@@ -44,6 +44,15 @@ string
 prototype
 .
 charat
+es6id
+:
+21
+.
+1
+.
+3
+.
+1
 description
 :
 Error

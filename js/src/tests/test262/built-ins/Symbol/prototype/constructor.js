@@ -44,6 +44,15 @@ symbol
 prototype
 .
 constructor
+es6id
+:
+19
+.
+4
+.
+3
+.
+1
 description
 :
 Property

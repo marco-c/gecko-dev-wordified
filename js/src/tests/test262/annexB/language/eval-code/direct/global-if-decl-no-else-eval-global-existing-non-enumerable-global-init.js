@@ -124,6 +124,13 @@ ifstatement
 statement
 -
 clauses
+es6id
+:
+B
+.
+3
+.
+4
 flags
 :
 [

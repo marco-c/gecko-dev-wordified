@@ -56,6 +56,13 @@ slots
 getownproperty
 -
 p
+es6id
+:
+9
+.
+5
+.
+5
 description
 :
 >

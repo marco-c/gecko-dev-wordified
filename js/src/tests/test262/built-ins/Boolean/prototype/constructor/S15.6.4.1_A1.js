@@ -57,6 +57,15 @@ sec
 boolean
 -
 constructor
+es5id
+:
+15
+.
+6
+.
+4
+.
+1_A1
 description
 :
 Compare

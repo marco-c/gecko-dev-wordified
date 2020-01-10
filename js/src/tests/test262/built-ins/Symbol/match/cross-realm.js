@@ -42,6 +42,15 @@ sec
 symbol
 .
 match
+es6id
+:
+19
+.
+4
+.
+2
+.
+6
 description
 :
 Value

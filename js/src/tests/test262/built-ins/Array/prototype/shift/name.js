@@ -42,6 +42,15 @@ array
 prototype
 .
 shift
+es6id
+:
+22
+.
+1
+.
+3
+.
+21
 description
 :
 >

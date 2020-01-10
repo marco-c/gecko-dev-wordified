@@ -42,6 +42,15 @@ string
 prototype
 .
 valueof
+es6id
+:
+21
+.
+1
+.
+3
+.
+26
 description
 :
 >

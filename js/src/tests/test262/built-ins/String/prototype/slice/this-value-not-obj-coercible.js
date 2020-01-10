@@ -44,6 +44,15 @@ string
 prototype
 .
 slice
+es6id
+:
+21
+.
+1
+.
+3
+.
+16
 description
 :
 The

@@ -42,6 +42,15 @@ date
 prototype
 .
 toisostring
+es6id
+:
+20
+.
+3
+.
+4
+.
+36
 description
 :
 >

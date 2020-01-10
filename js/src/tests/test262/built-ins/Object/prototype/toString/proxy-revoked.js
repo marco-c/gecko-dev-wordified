@@ -44,6 +44,15 @@ object
 prototype
 .
 tostring
+es6id
+:
+19
+.
+1
+.
+3
+.
+6
 description
 :
 Revoked

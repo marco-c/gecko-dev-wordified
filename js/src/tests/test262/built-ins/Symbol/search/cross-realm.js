@@ -42,6 +42,15 @@ sec
 symbol
 .
 search
+es6id
+:
+19
+.
+4
+.
+2
+.
+9
 description
 :
 Value

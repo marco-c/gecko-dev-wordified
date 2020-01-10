@@ -44,6 +44,15 @@ dataview
 prototype
 .
 setint16
+es6id
+:
+24
+.
+2
+.
+4
+.
+16
 description
 :
 Throws

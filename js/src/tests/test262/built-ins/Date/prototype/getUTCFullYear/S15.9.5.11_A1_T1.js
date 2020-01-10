@@ -55,6 +55,15 @@ date
 prototype
 .
 getutcfullyear
+es5id
+:
+15
+.
+9
+.
+5
+.
+11_A1_T1
 description
 :
 Checking

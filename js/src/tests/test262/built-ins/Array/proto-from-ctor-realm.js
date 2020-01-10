@@ -44,6 +44,15 @@ array
 constructor
 -
 array
+es6id
+:
+21
+.
+1
+.
+1
+.
+1
 description
 :
 Default

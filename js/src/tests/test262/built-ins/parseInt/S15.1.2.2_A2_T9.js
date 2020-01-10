@@ -37,6 +37,13 @@ Operator
 remove
 leading
 StrWhiteSpaceChar
+es6id
+:
+18
+.
+2
+.
+5
 esid
 :
 sec

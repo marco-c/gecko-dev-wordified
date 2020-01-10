@@ -44,6 +44,15 @@ date
 prototype
 .
 getutcseconds
+es6id
+:
+20
+.
+3
+.
+4
+.
+19
 description
 :
 >

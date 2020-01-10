@@ -50,6 +50,13 @@ generatorfunction
 prototype
 -
 object
+es6id
+:
+25
+.
+2
+.
+3
 description
 :
 Object

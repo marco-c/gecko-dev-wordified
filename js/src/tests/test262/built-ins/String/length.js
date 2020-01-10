@@ -48,6 +48,15 @@ string
 instances
 -
 length
+es6id
+:
+21
+.
+1
+.
+4
+.
+1
 description
 :
 The

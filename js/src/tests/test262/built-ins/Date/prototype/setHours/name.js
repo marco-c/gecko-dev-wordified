@@ -42,6 +42,15 @@ date
 prototype
 .
 sethours
+es6id
+:
+20
+.
+3
+.
+4
+.
+22
 description
 :
 >

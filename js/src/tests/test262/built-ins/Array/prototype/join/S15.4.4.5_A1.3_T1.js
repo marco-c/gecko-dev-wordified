@@ -53,6 +53,17 @@ array
 prototype
 .
 join
+es5id
+:
+15
+.
+4
+.
+4
+.
+5_A1
+.
+3_T1
 description
 :
 Checking

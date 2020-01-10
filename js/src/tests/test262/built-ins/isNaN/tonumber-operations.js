@@ -42,6 +42,13 @@ sec
 isnan
 -
 number
+es6id
+:
+18
+.
+2
+.
+3
 description
 :
 >

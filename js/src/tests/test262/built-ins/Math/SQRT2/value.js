@@ -51,6 +51,15 @@ sec
 math
 .
 sqrt2
+es6id
+:
+20
+.
+2
+.
+1
+.
+8
 info
 :
 |

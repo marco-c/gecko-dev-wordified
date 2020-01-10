@@ -44,6 +44,15 @@ string
 prototype
 .
 replace
+es6id
+:
+21
+.
+1
+.
+3
+.
+14
 description
 :
 The

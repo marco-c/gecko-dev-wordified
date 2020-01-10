@@ -52,6 +52,15 @@ sec
 promise
 .
 resolve
+es6id
+:
+25
+.
+4
+.
+4
+.
+5
 info
 :
 |

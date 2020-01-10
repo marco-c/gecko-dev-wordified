@@ -47,6 +47,15 @@ sec
 boolean
 .
 prototype
+es5id
+:
+15
+.
+6
+.
+3
+.
+1_A4
 description
 :
 Checking

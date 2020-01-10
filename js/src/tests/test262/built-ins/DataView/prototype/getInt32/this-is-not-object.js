@@ -44,6 +44,15 @@ dataview
 prototype
 .
 getint32
+es6id
+:
+24
+.
+2
+.
+4
+.
+9
 description
 :
 Throws
