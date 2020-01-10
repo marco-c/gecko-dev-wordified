@@ -345,9 +345,11 @@ we
 have
 it
 .
-gProtectionsHandler
+gIdentityHandler
 .
-showProtectionsPopup
+_trackingProtectionIconContainer
+.
+click
 (
 )
 ;
