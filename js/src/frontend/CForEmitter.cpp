@@ -564,10 +564,6 @@ biasedTop_
 bce_
 -
 >
-bytecodeSection
-(
-)
-.
 offset
 (
 )
@@ -1069,10 +1065,6 @@ if
 bce_
 -
 >
-bytecodeSection
-(
-)
-.
 currentLine
 (
 )
@@ -1104,10 +1096,6 @@ false
 bce_
 -
 >
-bytecodeSection
-(
-)
-.
 setCurrentLine
 (
 lineNum
@@ -1139,10 +1127,6 @@ condOffset_
 bce_
 -
 >
-bytecodeSection
-(
-)
-.
 offset
 (
 )
@@ -1475,13 +1459,7 @@ JSTRY_LOOP
 bce_
 -
 >
-bytecodeSection
-(
-)
-.
 stackDepth
-(
-)
 loopInfo_
 -
 >

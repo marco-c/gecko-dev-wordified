@@ -809,13 +809,7 @@ JSTRY_LOOP
 bce_
 -
 >
-bytecodeSection
-(
-)
-.
 stackDepth
-(
-)
 loopInfo_
 -
 >
