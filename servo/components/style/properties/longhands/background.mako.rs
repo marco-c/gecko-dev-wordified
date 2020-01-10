@@ -157,9 +157,7 @@ ignored_when_colors_disabled
 True
 allow_quirks
 =
-"
-Yes
-"
+True
 flags
 =
 "
