@@ -534,6 +534,11 @@ toBe
 devtools
 -
 searchbox
+has
+-
+clear
+-
+btn
 "
 )
 ;
@@ -573,7 +578,7 @@ toBe
 "
 devtools
 -
-filterinput
+plaininput
 text
 -
 filter
@@ -2617,7 +2622,7 @@ find
 .
 devtools
 -
-filterinput
+plaininput
 "
 )
 .

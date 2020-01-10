@@ -1521,14 +1521,9 @@ div
 className
 :
 "
-devtools
+searchbox
 -
-toolbar
-devtools
--
-input
--
-toolbar
+section
 "
 }
 SearchBox
