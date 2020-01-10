@@ -8732,7 +8732,7 @@ to
 its
 minimum
 size
-of
+if
 we
 ran
 out
@@ -8755,6 +8755,18 @@ gc
 IsOOMReason
 (
 reason
+)
+|
+|
+runtime
+(
+)
+-
+>
+gc
+.
+systemHasLowMemory
+(
 )
 )
 {
