@@ -90,11 +90,9 @@ require
 "
 devtools
 /
-client
+shared
 /
-inspector
-/
-rules
+css
 /
 constants
 "
