@@ -233,7 +233,7 @@ do_not_optimize
 existing_tasks
 =
 None
-strategies
+strategy_override
 =
 None
 )
@@ -293,12 +293,21 @@ process
     
 strategies
 =
-strategies
-or
 registry
 .
 copy
 (
+)
+    
+if
+strategy_override
+:
+        
+strategies
+.
+update
+(
+strategy_override
 )
     
 optimizations
