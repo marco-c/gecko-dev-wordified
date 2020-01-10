@@ -3288,16 +3288,7 @@ not
 (
 any
 (
-target_os
-=
-"
-linux
-"
-target_os
-=
-"
-macos
-"
+unix
 target_os
 =
 "
