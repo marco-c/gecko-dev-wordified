@@ -274,6 +274,7 @@ BlockedNoGfxInfo
 BlockedOverride
 BlockedReleaseChannelIntel
 BlockedReleaseChannelAMD
+BlockedReleaseChannelNvidia
 BlockedReleaseChannelBattery
 /
 /
