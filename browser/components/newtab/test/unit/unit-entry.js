@@ -1165,6 +1165,11 @@ setBoolPref
 )
 {
 }
+setCharPref
+(
+)
+{
+}
 setIntPref
 (
 )
