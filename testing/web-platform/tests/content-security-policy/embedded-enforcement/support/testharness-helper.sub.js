@@ -1080,7 +1080,7 @@ undefined
 ;
 }
 )
-500
+1
 )
 ;
 assert_throws
