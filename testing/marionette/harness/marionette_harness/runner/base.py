@@ -4508,20 +4508,6 @@ autostart
 '
 :
 True
-                
-'
-browser
-.
-tabs
-.
-remote
-.
-force
--
-enable
-'
-:
-True
             
 }
 )
