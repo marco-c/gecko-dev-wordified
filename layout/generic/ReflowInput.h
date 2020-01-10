@@ -2285,6 +2285,8 @@ const
 ReflowInput
 *
 mParentReflowInput
+=
+nullptr
 ;
 /
 /
@@ -2318,6 +2320,8 @@ mNew
 nsFloatManager
 *
 mFloatManager
+=
+nullptr
 ;
 /
 /
@@ -2337,6 +2341,8 @@ otherwise
 nsLineLayout
 *
 mLineLayout
+=
+nullptr
 ;
 /
 /
@@ -4454,6 +4460,8 @@ calculations
 nsIPercentBSizeObserver
 *
 mPercentBSizeObserver
+=
+nullptr
 ;
 /
 /
@@ -4511,6 +4519,8 @@ nsIFrame
 *
 *
 mDiscoveredClearance
+=
+nullptr
 ;
 ReflowInputFlags
 mFlags
