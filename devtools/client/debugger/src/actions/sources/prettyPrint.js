@@ -524,6 +524,9 @@ undefined
 isExtension
 :
 false
+extensionName
+:
+null
 }
 ;
 dispatch

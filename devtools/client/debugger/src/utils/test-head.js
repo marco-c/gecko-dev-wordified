@@ -836,6 +836,9 @@ isBlackBoxed
 props
 .
 isBlackBoxed
+extensionName
+:
+null
 }
 }
 ;
