@@ -2615,8 +2615,6 @@ APZCTreeManager
 :
 UpdateHitTestingTreeImpl
 (
-LayersId
-aRootLayerTreeId
 const
 ScrollNode
 &
@@ -2744,7 +2742,7 @@ aPaintSequenceNumber
 TreeBuildingState
 state
 (
-aRootLayerTreeId
+mRootLayersId
 aIsFirstPaint
 aOriginatingWrRootId
 testData
@@ -3082,7 +3080,7 @@ nullptr
 LayersId
 layersId
 =
-aRootLayerTreeId
+mRootLayersId
 ;
 wr
 :
@@ -4550,7 +4548,6 @@ Dump
 endif
 CollectTransformsForChromeMainThread
 (
-aRootLayerTreeId
 )
 ;
 }
@@ -4604,8 +4601,6 @@ APZCTreeManager
 :
 UpdateHitTestingTree
 (
-LayersId
-aRootLayerTreeId
 Layer
 *
 aRoot
@@ -4629,7 +4624,6 @@ aRoot
 ;
 UpdateHitTestingTreeImpl
 (
-aRootLayerTreeId
 root
 aIsFirstPaint
 WRRootId
@@ -4649,8 +4643,6 @@ APZCTreeManager
 :
 UpdateHitTestingTree
 (
-LayersId
-aRootLayerTreeId
 const
 WebRenderScrollDataWrapper
 &
@@ -4669,7 +4661,6 @@ AssertOnUpdaterThread
 ;
 UpdateHitTestingTreeImpl
 (
-aRootLayerTreeId
 aScrollWrapper
 aIsFirstPaint
 aOriginatingWrRootId
@@ -23859,8 +23850,6 @@ APZCTreeManager
 :
 CollectTransformsForChromeMainThread
 (
-LayersId
-aRootLayerTreeId
 )
 {
 RefPtr
@@ -23871,7 +23860,7 @@ controller
 =
 GetContentController
 (
-aRootLayerTreeId
+mRootLayersId
 )
 ;
 if
