@@ -398,8 +398,12 @@ to
 aEntry
 }
 ;
+explicit
 nsSHistory
 (
+nsDocShell
+*
+aRootDocShell
 )
 ;
 NS_DECL_ISUPPORTS
