@@ -2656,7 +2656,7 @@ StyleTable
 )
 -
 >
-mSpan
+mXSpan
 ;
 }
 void

@@ -974,16 +974,6 @@ use
 self
 :
 :
-table
-:
-:
-XSpan
-;
-pub
-use
-self
-:
-:
 text
 :
 :
@@ -1270,10 +1260,6 @@ svg
 pub
 mod
 svg_path
-;
-pub
-mod
-table
 ;
 pub
 mod

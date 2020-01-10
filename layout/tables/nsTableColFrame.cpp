@@ -809,7 +809,7 @@ StyleTable
 )
 -
 >
-mSpan
+mXSpan
 ;
 }
 #

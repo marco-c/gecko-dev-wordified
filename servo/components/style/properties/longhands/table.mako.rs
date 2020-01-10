@@ -166,16 +166,10 @@ x
 span
 "
 "
-XSpan
+Integer
 "
 "
-computed
-:
-:
-XSpan
-(
 1
-)
 "
 engines
 =
