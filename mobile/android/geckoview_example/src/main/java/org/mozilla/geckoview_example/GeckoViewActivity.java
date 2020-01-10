@@ -7927,12 +7927,7 @@ final
 NonNull
 RuntimeTelemetry
 .
-Metric
-<
-long
-[
-]
->
+Histogram
 histogram
 )
 {
