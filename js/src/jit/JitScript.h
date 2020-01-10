@@ -1727,6 +1727,15 @@ unsigned
 i
 )
 ;
+static
+size_t
+NumTypeSets
+(
+JSScript
+*
+script
+)
+;
 /
 *
 Get
