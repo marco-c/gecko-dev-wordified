@@ -9188,6 +9188,16 @@ stack
 ;
 if
 (
+mWorkerPrivate
+-
+>
+IsWatchedByDevtools
+(
+)
+)
+{
+if
+(
 JSContext
 *
 cx
@@ -9207,6 +9217,7 @@ GetCurrentStackForNetMonitor
 cx
 )
 ;
+}
 }
 RefPtr
 <
