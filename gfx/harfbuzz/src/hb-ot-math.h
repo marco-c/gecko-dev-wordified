@@ -707,7 +707,7 @@ the
 variant
 part
 *
-end_connection_length
+end_connector_length
 :
 The
 length

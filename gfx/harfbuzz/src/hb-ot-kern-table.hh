@@ -930,7 +930,7 @@ format0
 ;
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 case
 1
 :
@@ -990,7 +990,7 @@ format2
 ;
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 case
 3
 :
@@ -1764,7 +1764,7 @@ has_state_machine
 ;
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 case
 1
 :
@@ -1813,7 +1813,7 @@ has_cross_stream
 ;
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 case
 1
 :
@@ -1868,7 +1868,7 @@ right
 ;
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 case
 1
 :
@@ -1988,7 +1988,7 @@ ds
 ;
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 case
 1
 :
@@ -2086,7 +2086,7 @@ ot
 ;
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 KernAAT
 aat
 ;

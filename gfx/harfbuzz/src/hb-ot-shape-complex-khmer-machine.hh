@@ -1682,6 +1682,9 @@ syllable_serial
 4
 )
 |
+khmer_
+#
+#
 syllable_type
 ;
 \
@@ -1709,7 +1712,7 @@ syllable_serial
 HB_STMT_END
 static
 void
-find_syllables
+find_syllables_khmer
 (
 hb_buffer_t
 *
@@ -2574,6 +2577,9 @@ machine
 rl
 "
 }
+#
+undef
+found_syllable
 #
 endif
 /

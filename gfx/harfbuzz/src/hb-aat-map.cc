@@ -221,7 +221,7 @@ hh
 "
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 #
 include
 "

@@ -201,6 +201,9 @@ hb
 hh
 "
 #
+ifndef
+HB_NO_OT_SHAPE
+#
 include
 "
 hb
@@ -5032,3 +5035,5 @@ fallback_position
 /
 }
 ;
+#
+endif

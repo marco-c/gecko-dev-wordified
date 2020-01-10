@@ -1803,7 +1803,7 @@ in
 set
 that
 is
-slower
+lower
 than
 current
 value
@@ -2051,12 +2051,12 @@ set
 that
 *
 are
-greater
+less
 than
 current
 value
 of
-last
+first
 .
 *
 *

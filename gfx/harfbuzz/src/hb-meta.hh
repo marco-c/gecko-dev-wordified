@@ -686,6 +686,7 @@ template
 typename
 T
 >
+constexpr
 T
 *
 operator
@@ -1628,6 +1629,7 @@ typename
 T
 >
 static
+constexpr
 hb_remove_reference
 <
 T
@@ -1662,6 +1664,7 @@ typename
 T
 >
 static
+constexpr
 T
 &
 &
@@ -1690,6 +1693,7 @@ typename
 T
 >
 static
+constexpr
 T
 &
 &
@@ -1720,6 +1724,7 @@ template
 typename
 T
 >
+constexpr
 auto
 operator
 (
@@ -1746,6 +1751,7 @@ template
 typename
 T
 >
+constexpr
 auto
 operator
 (
@@ -1774,6 +1780,7 @@ template
 typename
 T
 >
+constexpr
 auto
 operator
 (
@@ -1800,6 +1807,7 @@ template
 typename
 T
 >
+constexpr
 auto
 operator
 (

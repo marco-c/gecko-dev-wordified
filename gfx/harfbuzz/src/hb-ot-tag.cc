@@ -218,6 +218,9 @@ hb
 .
 hh
 "
+#
+ifndef
+HB_NO_OT_TAG
 /
 *
 hb_script_t
@@ -3877,5 +3880,7 @@ return
 0
 ;
 }
+#
+endif
 #
 endif

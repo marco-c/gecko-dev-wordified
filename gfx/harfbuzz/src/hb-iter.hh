@@ -4055,6 +4055,8 @@ Iter
 typename
 AccuT
 =
+hb_decay
+<
 decltype
 (
 hb_declval
@@ -4076,6 +4078,7 @@ item_t
 )
 )
 )
+>
 >
 AccuT
 operator

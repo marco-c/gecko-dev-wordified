@@ -501,11 +501,9 @@ SUPER
 init
 (
 str
-*
 acc
 .
 globalSubrs
-*
 acc
 .
 privateDicts

@@ -1566,10 +1566,6 @@ delta
 if
 (
 glyphs
-.
-len
-(
-)
 )
 {
 format
@@ -8816,6 +8812,9 @@ methods
 recursing
 *
 /
+#
+ifndef
+HB_NO_OT_LAYOUT
 /
 *
 static
@@ -9062,6 +9061,8 @@ return
 ret
 ;
 }
+#
+endif
 }
 /
 *

@@ -216,6 +216,34 @@ Esfahbod
 include
 "
 hb
+.
+hh
+"
+#
+ifndef
+HB_NO_OT_SHAPE
+#
+ifdef
+HB_NO_OT_LAYOUT
+#
+error
+"
+Cannot
+compile
+'
+ot
+'
+shaper
+with
+HB_NO_OT_LAYOUT
+.
+"
+#
+endif
+#
+include
+"
+hb
 -
 shaper
 -
@@ -368,7 +396,7 @@ num_user_features
 ;
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 static
 inline
 bool
@@ -469,7 +497,7 @@ props
 )
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 apply_morx
 (
 _hb_apply_morx
@@ -553,7 +581,7 @@ key
 ;
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 if
 (
 apply_morx
@@ -774,7 +802,7 @@ kern_mask
 endif
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 plan
 .
 trak_mask
@@ -904,7 +932,7 @@ fallback
 /
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 plan
 .
 apply_morx
@@ -936,7 +964,7 @@ if
 ;
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 else
 if
 (
@@ -984,7 +1012,7 @@ true
 ;
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 else
 if
 (
@@ -1030,7 +1058,7 @@ applied
 /
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 if
 (
 hb_aat_layout_has_positioning
@@ -1175,7 +1203,7 @@ script_fallback_mark_positioning
 ;
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 /
 *
 Currently
@@ -1226,7 +1254,7 @@ init
 ;
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 aat_map
 .
 init
@@ -1344,7 +1372,7 @@ fini
 ;
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 aat_map
 .
 fini
@@ -1371,7 +1399,7 @@ const
 {
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 if
 (
 unlikely
@@ -1432,7 +1460,7 @@ buffer
 ;
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 else
 if
 (
@@ -1480,7 +1508,7 @@ buffer
 ;
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 if
 (
 this
@@ -2004,7 +2032,7 @@ HB_OT_MAP_MAX_VALUE
 ;
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 /
 *
 Tracking
@@ -2362,7 +2390,7 @@ value
 }
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 if
 (
 planner
@@ -2774,6 +2802,9 @@ i
 )
 ;
 }
+#
+ifndef
+HB_NO_EMOJI_SEQUENCES
 else
 if
 (
@@ -2846,6 +2877,8 @@ i
 ;
 }
 }
+#
+endif
 /
 *
 Or
@@ -4981,7 +5014,7 @@ font
 ;
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 if
 (
 c
@@ -5918,7 +5951,7 @@ buffer
 ;
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 if
 (
 c
@@ -6970,3 +7003,5 @@ shape_plan
 )
 ;
 }
+#
+endif

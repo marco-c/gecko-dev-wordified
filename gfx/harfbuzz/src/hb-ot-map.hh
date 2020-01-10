@@ -998,7 +998,6 @@ typename
 Proxy
 >
 HB_INTERNAL
-inline
 void
 apply
 (

@@ -212,6 +212,9 @@ header
 guards
 *
 /
+#
+ifndef
+HB_NO_SHAPER
 /
 *
 v
@@ -254,6 +257,9 @@ graphite2
 )
 #
 endif
+#
+ifndef
+HB_NO_OT_SHAPE
 HB_SHAPER_IMPLEMENT
 (
 ot
@@ -273,6 +279,8 @@ shaper
 .
 *
 /
+#
+endif
 #
 ifdef
 HAVE_UNISCRIBE
@@ -320,5 +328,7 @@ last
 .
 *
 /
+#
+endif
 #
 endif

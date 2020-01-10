@@ -196,6 +196,16 @@ Esfahbod
 include
 "
 hb
+.
+hh
+"
+#
+ifndef
+HB_NO_OT_SHAPE
+#
+include
+"
+hb
 -
 ot
 -
@@ -3019,3 +3029,5 @@ fallback_position
 /
 }
 ;
+#
+endif
