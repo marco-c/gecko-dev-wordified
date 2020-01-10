@@ -1108,7 +1108,7 @@ updateSearchStatus
 (
 SEARCH_STATUS
 .
-CANCELLED
+CANCELED
 )
 )
 ;
