@@ -443,9 +443,6 @@ runTask
 )
 override
 {
-AutoSetHelperThreadContext
-usesContext
-;
 CompileTier2
 (
 *
