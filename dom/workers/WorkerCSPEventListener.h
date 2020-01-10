@@ -123,13 +123,6 @@ mozilla_dom_WorkerCSPEventListener_h
 #
 include
 "
-WorkerCSPEventListener
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Mutex
