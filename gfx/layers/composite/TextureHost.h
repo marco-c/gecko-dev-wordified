@@ -4401,6 +4401,13 @@ return
 false
 ;
 }
+virtual
+bool
+NeedsYFlip
+(
+)
+const
+;
 protected
 :
 virtual
