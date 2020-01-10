@@ -13274,10 +13274,7 @@ nullptr
 }
 ;
 const
-js
-:
-:
-ClassOps
+JSClassOps
 sBoringInterfaceObjectClassClassOps
 =
 {

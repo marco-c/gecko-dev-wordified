@@ -2862,10 +2862,7 @@ XPCONNECT_GLOBAL_EXTRA_SLOT_OFFSET
 )
 static
 const
-js
-:
-:
-ClassOps
+JSClassOps
 SandboxClassOps
 =
 {
