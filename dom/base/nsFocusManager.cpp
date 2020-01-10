@@ -22621,6 +22621,10 @@ currentTopLevelScopeOwner
 ;
 if
 (
+!
+aForward
+|
+|
 oldTopLevelScopeOwner
 !
 =
