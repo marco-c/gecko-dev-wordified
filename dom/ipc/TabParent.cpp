@@ -2375,6 +2375,14 @@ mFrameElement
 OwnerDoc
 (
 )
+&
+&
+mFrameElement
+-
+>
+OwnerDoc
+(
+)
 -
 >
 GetWindow
