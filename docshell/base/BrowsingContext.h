@@ -2458,6 +2458,9 @@ GetOpener
 (
 )
 ;
+bool
+mCached
+;
 /
 /
 Include
@@ -2541,6 +2544,14 @@ Id
 )
 :
 0
+;
+init
+.
+mCached
+=
+IsCached
+(
+)
 ;
 #
 define
