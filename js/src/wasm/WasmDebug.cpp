@@ -404,9 +404,6 @@ DebugState
 :
 getLineOffsets
 (
-JSContext
-*
-cx
 size_t
 lineno
 Vector
@@ -463,9 +460,6 @@ DebugState
 :
 getAllColumnOffsets
 (
-JSContext
-*
-cx
 Vector
 <
 ExprLoc
@@ -1289,9 +1283,6 @@ DebugState
 :
 getBreakpointSite
 (
-JSContext
-*
-cx
 uint32_t
 offset
 )
