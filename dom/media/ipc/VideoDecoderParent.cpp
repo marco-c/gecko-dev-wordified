@@ -1063,6 +1063,17 @@ eos
 (
 )
 ;
+data
+-
+>
+mDiscardPadding
+=
+aData
+.
+discardPadding
+(
+)
+;
 DeallocShmem
 (
 aData
