@@ -7945,7 +7945,7 @@ root
 dsti
 -
 >
-GetRootTreeItem
+GetInProcessRootTreeItem
 (
 getter_AddRefs
 (
@@ -27386,7 +27386,7 @@ root
 ds
 -
 >
-GetRootTreeItem
+GetInProcessRootTreeItem
 (
 getter_AddRefs
 (

@@ -16809,7 +16809,7 @@ rootTreeItem
 treeItem
 -
 >
-GetRootTreeItem
+GetInProcessRootTreeItem
 (
 getter_AddRefs
 (

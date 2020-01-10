@@ -2319,7 +2319,7 @@ NS_IMETHODIMP
 nsWebBrowser
 :
 :
-GetRootTreeItem
+GetInProcessRootTreeItem
 (
 nsIDocShellTreeItem
 *

@@ -1032,7 +1032,7 @@ rv
 mDocShell
 -
 >
-GetRootTreeItem
+GetInProcessRootTreeItem
 (
 getter_AddRefs
 (

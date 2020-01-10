@@ -427,7 +427,7 @@ rootItem
 docShell
 -
 >
-GetRootTreeItem
+GetInProcessRootTreeItem
 (
 getter_AddRefs
 (
