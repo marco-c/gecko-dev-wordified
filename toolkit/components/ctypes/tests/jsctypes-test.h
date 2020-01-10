@@ -130,6 +130,15 @@ typedefs
 h
 "
 #
+include
+<
+sys
+/
+types
+.
+h
+>
+#
 define
 EXPORT_CDECL
 (
