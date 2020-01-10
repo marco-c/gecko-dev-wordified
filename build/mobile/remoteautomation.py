@@ -165,6 +165,16 @@ None
 )
 :
         
+super
+(
+RemoteAutomation
+self
+)
+.
+__init__
+(
+)
+        
 self
 .
 device
@@ -207,13 +217,6 @@ remoteautomation
 .
 py
 "
-        
-Automation
-.
-__init__
-(
-self
-)
     
 def
 runApp
