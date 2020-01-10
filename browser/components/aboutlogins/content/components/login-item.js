@@ -423,6 +423,8 @@ shadowRoot
 querySelector
 (
 "
+modal
+-
 input
 [
 name
@@ -434,8 +436,11 @@ username
 "
 )
 .
+setAttribute
+(
+"
 value
-=
+"
 this
 .
 _login
@@ -445,6 +450,7 @@ username
 |
 "
 "
+)
 ;
 this
 .
@@ -453,6 +459,8 @@ shadowRoot
 querySelector
 (
 "
+modal
+-
 input
 [
 name
@@ -464,8 +472,11 @@ password
 "
 )
 .
+setAttribute
+(
+"
 value
-=
+"
 this
 .
 _login
@@ -475,6 +486,7 @@ password
 |
 "
 "
+)
 ;
 }
 handleEvent
@@ -600,6 +612,8 @@ shadowRoot
 querySelector
 (
 "
+modal
+-
 input
 [
 name
@@ -646,6 +660,8 @@ shadowRoot
 querySelector
 (
 "
+modal
+-
 input
 [
 name
