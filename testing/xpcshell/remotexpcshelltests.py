@@ -3500,7 +3500,7 @@ pk12util
 "
                     
 "
-BadCertServer
+BadCertAndPinningServer
 "
                     
 "

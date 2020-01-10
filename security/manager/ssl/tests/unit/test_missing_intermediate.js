@@ -475,7 +475,7 @@ run_test
 add_tls_server_setup
 (
 "
-BadCertServer
+BadCertAndPinningServer
 "
 "
 bad_certs
@@ -523,7 +523,7 @@ SEC_ERROR_UNKNOWN_ISSUER
 /
 /
 Make
-BadCertServer
+BadCertAndPinningServer
 aware
 of
 the

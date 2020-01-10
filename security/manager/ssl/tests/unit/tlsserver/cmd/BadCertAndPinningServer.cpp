@@ -200,7 +200,7 @@ mozilla
 test
 ;
 struct
-BadCertHost
+BadCertAndPinningHost
 {
 const
 char
@@ -222,8 +222,8 @@ nickname
 pairs
 .
 const
-BadCertHost
-sBadCertHosts
+BadCertAndPinningHost
+sBadCertAndPinningHosts
 [
 ]
 =
@@ -1266,7 +1266,7 @@ aArg
 )
 {
 const
-BadCertHost
+BadCertAndPinningHost
 *
 host
 =
@@ -1274,7 +1274,7 @@ GetHostForSNI
 (
 aSrvNameArr
 aSrvNameArrSize
-sBadCertHosts
+sBadCertAndPinningHosts
 )
 ;
 if

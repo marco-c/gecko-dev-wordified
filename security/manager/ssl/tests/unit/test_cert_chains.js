@@ -1192,7 +1192,7 @@ was
 generated
 by
 running
-BadCertServer
+BadCertAndPinningServer
 locally
 on
 the
@@ -1525,7 +1525,7 @@ was
 generated
 by
 running
-BadCertServer
+BadCertAndPinningServer
 locally
 on
 the
@@ -2310,7 +2310,7 @@ do_get_profile
 add_tls_server_setup
 (
 "
-BadCertServer
+BadCertAndPinningServer
 "
 "
 bad_certs

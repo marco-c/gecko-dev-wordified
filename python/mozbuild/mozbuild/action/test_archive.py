@@ -189,7 +189,7 @@ TEST_HARNESS_BINS
 [
     
 '
-BadCertServer
+BadCertAndPinningServer
 '
     
 '

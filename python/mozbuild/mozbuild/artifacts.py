@@ -724,7 +724,7 @@ test_artifact_patterns
 '
 bin
 /
-BadCertServer
+BadCertAndPinningServer
 '
 (
 '
@@ -4761,7 +4761,7 @@ test_artifact_patterns
 '
 bin
 /
-BadCertServer
+BadCertAndPinningServer
 .
 exe
 '
