@@ -359,7 +359,6 @@ quantumbar
 await
 runUrlbarTest
 (
-false
 true
 EXPECTED_REFLOWS_FIRST_OPEN
 )
