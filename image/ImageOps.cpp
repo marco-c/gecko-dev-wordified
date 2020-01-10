@@ -714,6 +714,16 @@ return
 nullptr
 ;
 }
+inputStream
+=
+std
+:
+:
+move
+(
+bufStream
+)
+;
 }
 /
 /
