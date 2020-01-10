@@ -556,7 +556,7 @@ promise1
 =
 BrowserTestUtils
 .
-crashFrame
+crashBrowser
 (
 browser
 )

@@ -330,7 +330,7 @@ message
 await
 BrowserTestUtils
 .
-crashFrame
+crashBrowser
 (
 tab
 .
@@ -696,7 +696,7 @@ message
 await
 BrowserTestUtils
 .
-crashFrame
+crashBrowser
 (
 tab
 .
