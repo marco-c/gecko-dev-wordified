@@ -4090,7 +4090,7 @@ type
 )
 \
 template
-void
+bool
 TraceEdgeInternal
 <
 type
@@ -4923,7 +4923,7 @@ template
 typename
 T
 >
-void
+bool
 js
 :
 :
@@ -5045,7 +5045,6 @@ isMarkingTracer
 )
 )
 {
-return
 DoMarking
 (
 GCMarker
@@ -5059,6 +5058,9 @@ trc
 thingp
 )
 ;
+return
+true
+;
 }
 if
 (
@@ -5070,7 +5072,6 @@ isTenuringTracer
 )
 )
 {
-return
 static_cast
 <
 TenuringTracer
@@ -5086,6 +5087,9 @@ traverse
 thingp
 )
 ;
+return
+true
+;
 }
 MOZ_ASSERT
 (
@@ -5097,6 +5101,7 @@ isCallbackTracer
 )
 )
 ;
+return
 DoCallback
 (
 trc
