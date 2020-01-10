@@ -5745,6 +5745,7 @@ nsIntRect
 0
 0
 )
+nullptr
 )
 ;
 if

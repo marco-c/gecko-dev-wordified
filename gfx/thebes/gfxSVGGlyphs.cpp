@@ -1084,6 +1084,7 @@ IntRect
 1000
 1000
 )
+nullptr
 )
 ;
 if
