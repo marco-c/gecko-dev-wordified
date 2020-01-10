@@ -4313,6 +4313,10 @@ aReflowInput
 nsIFrame
 *
 aKidFrame
+const
+ReflowInput
+&
+aKidReflowInput
 nsPoint
 aKidPosition
 ReflowOutput

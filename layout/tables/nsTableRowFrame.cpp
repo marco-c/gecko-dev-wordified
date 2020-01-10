@@ -6366,7 +6366,12 @@ FinishReflowChild
 kidFrame
 aPresContext
 desiredSize
+kidReflowInput
+.
+ptrOr
+(
 nullptr
+)
 wm
 kidPosition
 containerSize

@@ -1824,6 +1824,10 @@ aReflowInput
 nsIFrame
 *
 aKidFrame
+const
+ReflowInput
+&
+aKidReflowInput
 WritingMode
 aWM
 const
@@ -1870,7 +1874,8 @@ FinishReflowChild
 aKidFrame
 aPresContext
 aDesiredSize
-nullptr
+&
+aKidReflowInput
 aWM
 aKidPosition
 aContainerSize
@@ -2775,6 +2780,7 @@ PlaceChild
 aPresContext
 aReflowInput
 kidFrame
+kidReflowInput
 wm
 kidPosition
 containerSize
