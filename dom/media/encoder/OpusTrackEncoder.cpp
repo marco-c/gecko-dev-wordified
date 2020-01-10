@@ -1590,7 +1590,13 @@ OpusTrackEncoder
 :
 GetEncodedTrack
 (
-EncodedFrameContainer
+nsTArray
+<
+RefPtr
+<
+EncodedFrame
+>
+>
 &
 aData
 )
@@ -3104,7 +3110,7 @@ mOutputTimeStamp
 ;
 aData
 .
-AppendEncodedFrame
+AppendElement
 (
 audiodata
 )
