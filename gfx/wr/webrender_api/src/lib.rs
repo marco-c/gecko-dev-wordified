@@ -192,10 +192,6 @@ extern
 crate
 app_units
 ;
-extern
-crate
-bincode
-;
 #
 [
 macro_use
