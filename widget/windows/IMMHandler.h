@@ -2660,13 +2660,13 @@ mDispatcher
 nsString
 mCompositionString
 ;
-InfallibleTArray
+nsTArray
 <
 uint32_t
 >
 mClauseArray
 ;
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >

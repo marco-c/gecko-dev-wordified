@@ -658,7 +658,7 @@ TInputBlobs
 )
 {
 const
-InfallibleTArray
+nsTArray
 <
 IPCBlob
 >
