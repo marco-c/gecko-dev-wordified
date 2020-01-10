@@ -167,6 +167,8 @@ executeSimpleSQL
 "
 DROP
 TABLE
+IF
+EXISTS
 moz_hosts
 "
 )
@@ -1431,7 +1433,7 @@ getInt64
 (
 0
 )
-1
+3
 )
 ;
 }
