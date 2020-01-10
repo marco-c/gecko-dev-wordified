@@ -2986,7 +2986,9 @@ StyleDisplay
 )
 -
 >
-mWillChangeBitField
+mWillChange
+.
+bits
 &
 StyleWillChangeBits_TRANSFORM
 )
@@ -3037,7 +3039,9 @@ StyleDisplay
 )
 -
 >
-mWillChangeBitField
+mWillChange
+.
+bits
 &
 StyleWillChangeBits_OPACITY
 )
