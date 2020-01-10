@@ -101,11 +101,6 @@ values
 :
 {
 "
-migrationExpired
-"
-:
-true
-"
 feeds
 .
 topsites
