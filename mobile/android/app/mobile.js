@@ -6524,8 +6524,6 @@ auto
 On
 mobile
 we
-'
-ll
 throttle
 the
 download
@@ -6536,6 +6534,14 @@ is
 hit
 /
 /
+if
+we
+'
+re
+using
+a
+cellular
+connection
 even
 if
 the
@@ -6543,6 +6549,8 @@ download
 is
 slow
 .
+/
+/
 This
 is
 to
@@ -6557,6 +6565,8 @@ pref
 media
 .
 throttle
+-
+cellular
 -
 regardless
 -
