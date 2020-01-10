@@ -177,7 +177,7 @@ serviceWorkers
 .
 idle_timeout
 "
-0
+60000
 ]
 [
 "
