@@ -15425,12 +15425,10 @@ toNumber
 NOT_OBJECT_KIND_DESCRIPTOR
 )
 {
-ReportNotObjectWithName
+ReportNotObject
 (
 cx
-"
-descriptor
-"
+JSMSG_NOT_NONNULL_OBJECT_PROP_DESC
 args
 [
 1
