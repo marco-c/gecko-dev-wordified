@@ -4,7 +4,7 @@ strict
 "
 ;
 const
-TEST_HOSTNAME
+TEST_ORIGIN
 =
 "
 https
@@ -41,7 +41,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -52,7 +52,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -82,7 +82,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -93,7 +93,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -332,7 +332,7 @@ test_autocomplete_footer_onclick
 let
 url
 =
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 BASIC_FORM_PAGE_PATH
 ;
@@ -577,7 +577,7 @@ test_autocomplete_footer_keydown
 let
 url
 =
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 BASIC_FORM_PAGE_PATH
 ;

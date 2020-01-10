@@ -644,7 +644,7 @@ loginText
 +
 =
 "
-host
+origin
 :
 "
 ;
@@ -653,14 +653,14 @@ loginText
 =
 login
 .
-hostname
+origin
 ;
 loginText
 +
 =
 "
 /
-formURL
+formActionOrigin
 :
 "
 ;
@@ -669,7 +669,7 @@ loginText
 =
 login
 .
-formSubmitURL
+formActionOrigin
 ;
 loginText
 +

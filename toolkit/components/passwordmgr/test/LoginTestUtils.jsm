@@ -263,7 +263,7 @@ removeAllLogins
 for
 (
 let
-hostname
+origin
 of
 Services
 .
@@ -280,7 +280,7 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname
+origin
 true
 )
 ;
@@ -1115,11 +1115,11 @@ found
 on
 the
 same
-host
+origin
 but
 with
 different
-hostnames
+origins
 in
 the
 /

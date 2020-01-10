@@ -50,7 +50,7 @@ empty
 string
 in
 the
-formSubmitURL
+formActionOrigin
 field
 .
 *
@@ -101,9 +101,9 @@ represented
 *
 by
 the
-hostname
+origin
 and
-formSubmitURL
+formActionOrigin
 properties
 of
 the
@@ -140,11 +140,11 @@ stored
 with
 both
 the
-hostname
+origin
 and
 the
 *
-formSubmitURL
+formActionOrigin
 (
 that
 will
@@ -152,7 +152,7 @@ be
 equal
 to
 the
-hostname
+origin
 when
 the
 form
@@ -238,11 +238,11 @@ has
 a
 *
 valid
-hostname
+origin
 but
 an
 empty
-formSubmitURL
+formActionOrigin
 .
 This
 means
@@ -368,7 +368,7 @@ login
 with
 an
 empty
-formSubmitURL
+formActionOrigin
 then
 it
 verifies
@@ -403,7 +403,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -416,7 +416,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -449,7 +449,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -503,7 +503,7 @@ TestData
 authLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -546,7 +546,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -592,14 +592,14 @@ that
 have
 an
 empty
-formSubmitURL
+formActionOrigin
 in
 the
 store
 even
 when
 a
-formSubmitURL
+formActionOrigin
 is
 *
 specified
@@ -618,7 +618,7 @@ test_search_all_wildcard
 Search
 a
 given
-formSubmitURL
+formActionOrigin
 on
 any
 host
@@ -629,7 +629,7 @@ matchData
 newPropertyBag
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -734,7 +734,7 @@ matchData
 setProperty
 (
 "
-hostname
+origin
 "
 "
 http
@@ -856,7 +856,7 @@ an
 empty
 string
 for
-formSubmitURL
+formActionOrigin
 in
 searchLogins
 *
@@ -867,7 +867,7 @@ that
 have
 an
 empty
-formSubmitURL
+formActionOrigin
 in
 the
 store
@@ -893,7 +893,7 @@ searchLogins
 newPropertyBag
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -909,7 +909,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -922,7 +922,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 "

@@ -127,7 +127,7 @@ test_storage_addLogin_nonascii
 )
 {
 let
-hostname
+origin
 =
 "
 http
@@ -175,10 +175,10 @@ TestData
 formLogin
 (
 {
-hostname
-formSubmitURL
+origin
+formActionOrigin
 :
-hostname
+origin
 username
 :
 String
@@ -431,7 +431,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 .
@@ -505,7 +505,7 @@ addLogin
 with
 parentheses
 in
-hostnames
+origins
 .
 *
 *
@@ -597,7 +597,7 @@ TestData
 authLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -618,7 +618,7 @@ TestData
 authLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -639,7 +639,7 @@ TestData
 authLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -662,7 +662,7 @@ TestData
 authLogin
 (
 {
-hostname
+origin
 :
 "
 http

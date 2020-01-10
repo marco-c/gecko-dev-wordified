@@ -1,6 +1,7 @@
 /
 *
 *
+*
 Test
 the
 password
@@ -30,14 +31,14 @@ strict
 /
 /
 The
-hostname
+origin
 for
 the
 test
 URIs
 .
 const
-TEST_HOSTNAME
+TEST_ORIGIN
 =
 "
 https
@@ -260,7 +261,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 MULTIPLE_FORMS_PAGE_PATH
 }
@@ -384,7 +385,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 MULTIPLE_FORMS_PAGE_PATH
 }
@@ -512,7 +513,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 "
 /
@@ -660,7 +661,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 "
 /
@@ -801,7 +802,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 MULTIPLE_FORMS_PAGE_PATH
 }
@@ -1308,7 +1309,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 MULTIPLE_FORMS_PAGE_PATH
 }
@@ -2033,7 +2034,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 MULTIPLE_FORMS_PAGE_PATH
 }
@@ -2937,7 +2938,7 @@ that
 matches
 the
 page
-hostname
+origin
 are
 available
 at
@@ -3006,8 +3007,8 @@ isOriginMatching
 (
 login
 .
-hostname
-TEST_HOSTNAME
+origin
+TEST_ORIGIN
 {
 schemeUpgrades
 :
@@ -3140,7 +3141,7 @@ Only
 unique
 login
 /
-hostname
+origin
 combinations
 should
 be
@@ -3245,7 +3246,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -3256,7 +3257,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -3301,7 +3302,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -3312,7 +3313,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -3342,7 +3343,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -3353,7 +3354,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -3383,7 +3384,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -3394,7 +3395,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -3424,7 +3425,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -3435,7 +3436,7 @@ example
 .
 org
 "
-formSubmitURL
+formActionOrigin
 :
 "
 http

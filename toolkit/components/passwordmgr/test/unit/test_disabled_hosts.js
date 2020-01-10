@@ -89,7 +89,7 @@ different
 hosts
 .
 let
-hostname1
+origin1
 =
 "
 http
@@ -104,7 +104,7 @@ com
 "
 ;
 let
-hostname2
+origin2
 =
 "
 http
@@ -119,7 +119,7 @@ com
 "
 ;
 let
-hostname3
+origin3
 =
 "
 https
@@ -139,7 +139,7 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname1
+origin1
 false
 )
 ;
@@ -149,7 +149,7 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname2
+origin2
 false
 )
 ;
@@ -159,7 +159,7 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname3
+origin3
 false
 )
 ;
@@ -175,9 +175,9 @@ getAllDisabledHosts
 (
 )
 [
-hostname1
-hostname2
-hostname3
+origin1
+origin2
+origin3
 ]
 )
 ;
@@ -201,7 +201,7 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname2
+origin2
 false
 )
 ;
@@ -217,9 +217,9 @@ getAllDisabledHosts
 (
 )
 [
-hostname1
-hostname2
-hostname3
+origin1
+origin2
+origin3
 ]
 )
 ;
@@ -238,7 +238,7 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname2
+origin2
 true
 )
 ;
@@ -254,8 +254,8 @@ getAllDisabledHosts
 (
 )
 [
-hostname1
-hostname3
+origin1
+origin3
 ]
 )
 ;
@@ -275,7 +275,7 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname1
+origin1
 true
 )
 ;
@@ -285,7 +285,7 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname3
+origin3
 true
 )
 ;
@@ -326,7 +326,7 @@ test_setLoginSavingEnabled_getLoginSavingEnabled
 )
 {
 let
-hostname1
+origin1
 =
 "
 http
@@ -341,7 +341,7 @@ com
 "
 ;
 let
-hostname2
+origin2
 =
 "
 https
@@ -375,7 +375,7 @@ logins
 .
 getLoginSavingEnabled
 (
-hostname1
+origin1
 )
 )
 ;
@@ -389,7 +389,7 @@ logins
 .
 getLoginSavingEnabled
 (
-hostname2
+origin2
 )
 )
 ;
@@ -406,7 +406,7 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname1
+origin1
 false
 )
 ;
@@ -416,7 +416,7 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname2
+origin2
 true
 )
 ;
@@ -431,7 +431,7 @@ logins
 .
 getLoginSavingEnabled
 (
-hostname1
+origin1
 )
 )
 ;
@@ -445,7 +445,7 @@ logins
 .
 getLoginSavingEnabled
 (
-hostname2
+origin2
 )
 )
 ;
@@ -461,7 +461,7 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname1
+origin1
 true
 )
 ;
@@ -471,7 +471,7 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname2
+origin2
 false
 )
 ;
@@ -485,7 +485,7 @@ logins
 .
 getLoginSavingEnabled
 (
-hostname1
+origin1
 )
 )
 ;
@@ -500,7 +500,7 @@ logins
 .
 getLoginSavingEnabled
 (
-hostname2
+origin2
 )
 )
 ;
@@ -515,7 +515,7 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname2
+origin2
 true
 )
 ;
@@ -534,7 +534,7 @@ NUL
 characters
 in
 the
-hostname
+origin
 .
 *
 /
@@ -546,7 +546,7 @@ test_setLoginSavingEnabled_invalid_characters
 )
 {
 let
-hostname
+origin
 =
 "
 http
@@ -576,12 +576,12 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname
+origin
 false
 )
 /
 Invalid
-hostname
+origin
 /
 )
 ;
@@ -642,7 +642,7 @@ test_rememberSignons
 )
 {
 let
-hostname1
+origin1
 =
 "
 http
@@ -655,7 +655,7 @@ com
 "
 ;
 let
-hostname2
+origin2
 =
 "
 http
@@ -711,7 +711,7 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname1
+origin1
 false
 )
 ;
@@ -726,7 +726,7 @@ logins
 .
 getLoginSavingEnabled
 (
-hostname1
+origin1
 )
 )
 ;
@@ -740,7 +740,7 @@ logins
 .
 getLoginSavingEnabled
 (
-hostname2
+origin2
 )
 )
 ;
@@ -807,7 +807,7 @@ logins
 .
 getLoginSavingEnabled
 (
-hostname1
+origin1
 )
 )
 ;
@@ -822,7 +822,7 @@ logins
 .
 getLoginSavingEnabled
 (
-hostname2
+origin2
 )
 )
 ;
@@ -849,7 +849,7 @@ getAllDisabledHosts
 (
 )
 [
-hostname1
+origin1
 ]
 )
 ;
@@ -870,7 +870,7 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname1
+origin1
 true
 )
 ;
@@ -880,7 +880,7 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname2
+origin2
 false
 )
 ;
@@ -904,7 +904,7 @@ logins
 .
 getLoginSavingEnabled
 (
-hostname1
+origin1
 )
 )
 ;
@@ -919,7 +919,7 @@ logins
 .
 getLoginSavingEnabled
 (
-hostname2
+origin2
 )
 )
 ;
@@ -947,7 +947,7 @@ getAllDisabledHosts
 (
 )
 [
-hostname2
+origin2
 ]
 )
 ;
@@ -994,7 +994,7 @@ logins
 .
 getLoginSavingEnabled
 (
-hostname1
+origin1
 )
 )
 ;
@@ -1009,7 +1009,7 @@ logins
 .
 getLoginSavingEnabled
 (
-hostname2
+origin2
 )
 )
 ;
@@ -1024,7 +1024,7 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname2
+origin2
 true
 )
 ;
@@ -1075,7 +1075,7 @@ test_storage_setLoginSavingEnabled_nonascii_IDN_is_supported
 )
 {
 let
-hostname
+origin
 =
 "
 http
@@ -1126,7 +1126,7 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname
+origin
 false
 )
 ;
@@ -1147,7 +1147,7 @@ logins
 .
 getLoginSavingEnabled
 (
-hostname
+origin
 )
 false
 )
@@ -1179,7 +1179,7 @@ getAllDisabledHosts
 (
 )
 [
-hostname
+origin
 ]
 )
 ;
@@ -1239,7 +1239,7 @@ logins
 .
 getLoginSavingEnabled
 (
-hostname
+origin
 )
 false
 )
@@ -1271,7 +1271,7 @@ getAllDisabledHosts
 (
 )
 [
-hostname
+origin
 ]
 )
 ;
@@ -1314,7 +1314,7 @@ test_storage_setLoginSavingEnabled_nonascii_IDN_not_supported
 )
 {
 let
-hostname
+origin
 =
 "
 http
@@ -1365,7 +1365,7 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname
+origin
 false
 )
 ;
@@ -1386,7 +1386,7 @@ logins
 .
 getLoginSavingEnabled
 (
-hostname
+origin
 )
 false
 )
@@ -1478,7 +1478,7 @@ logins
 .
 getLoginSavingEnabled
 (
-hostname
+origin
 )
 false
 )

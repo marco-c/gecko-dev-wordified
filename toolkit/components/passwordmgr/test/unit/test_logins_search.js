@@ -336,10 +336,10 @@ aQuery
 *
 The
 "
-hostname
+origin
 "
 "
-formSubmitURL
+formActionOrigin
 "
 and
 "
@@ -498,11 +498,11 @@ property
 entirely
 .
 let
-hostname
+origin
 =
 (
 "
-hostname
+origin
 "
 in
 aQuery
@@ -510,17 +510,17 @@ aQuery
 ?
 aQuery
 .
-hostname
+origin
 :
 "
 "
 ;
 let
-formSubmitURL
+formActionOrigin
 =
 (
 "
-formSubmitURL
+formActionOrigin
 "
 in
 aQuery
@@ -528,7 +528,7 @@ aQuery
 ?
 aQuery
 .
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -565,8 +565,8 @@ logins
 .
 findLogins
 (
-hostname
-formSubmitURL
+origin
+formActionOrigin
 httpRealm
 )
 ;
@@ -592,8 +592,8 @@ logins
 .
 countLogins
 (
-hostname
-formSubmitURL
+origin
+formActionOrigin
 httpRealm
 )
 ;
@@ -733,7 +733,7 @@ null
 checkAllSearches
 (
 {
-formSubmitURL
+formActionOrigin
 :
 null
 }
@@ -757,7 +757,7 @@ logins
 checkAllSearches
 (
 {
-hostname
+origin
 :
 "
 http
@@ -780,7 +780,7 @@ null
 checkAllSearches
 (
 {
-hostname
+origin
 :
 "
 http
@@ -793,7 +793,7 @@ example
 .
 org
 "
-formSubmitURL
+formActionOrigin
 :
 null
 }
@@ -811,12 +811,12 @@ are
 distinct
 in
 the
-hostname
+origin
 .
 checkAllSearches
 (
 {
-hostname
+origin
 :
 "
 http
@@ -836,7 +836,7 @@ com
 checkAllSearches
 (
 {
-hostname
+origin
 :
 "
 https
@@ -856,7 +856,7 @@ com
 checkAllSearches
 (
 {
-hostname
+origin
 :
 "
 https
@@ -874,7 +874,7 @@ com
 checkAllSearches
 (
 {
-hostname
+origin
 :
 "
 http
@@ -901,12 +901,12 @@ subdomain
 are
 distinct
 in
-formSubmitURL
+formActionOrigin
 .
 checkAllSearches
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -926,7 +926,7 @@ com
 checkAllSearches
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -946,7 +946,7 @@ com
 checkAllSearches
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -965,7 +965,7 @@ com
 /
 Find
 by
-formSubmitURL
+formActionOrigin
 on
 a
 single
@@ -974,7 +974,7 @@ host
 checkAllSearches
 (
 {
-hostname
+origin
 :
 "
 http
@@ -987,7 +987,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -1007,7 +1007,7 @@ com
 checkAllSearches
 (
 {
-hostname
+origin
 :
 "
 http
@@ -1020,7 +1020,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -1040,7 +1040,7 @@ com
 checkAllSearches
 (
 {
-hostname
+origin
 :
 "
 http
@@ -1053,7 +1053,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -1139,7 +1139,7 @@ host
 checkAllSearches
 (
 {
-hostname
+origin
 :
 "
 http
@@ -1164,7 +1164,7 @@ Realm
 checkAllSearches
 (
 {
-hostname
+origin
 :
 "
 http
@@ -1190,7 +1190,7 @@ Other
 checkAllSearches
 (
 {
-hostname
+origin
 :
 "
 ftp
@@ -1325,7 +1325,7 @@ host
 checkSearchLogins
 (
 {
-hostname
+origin
 :
 "
 http
@@ -1441,7 +1441,7 @@ test_search_all_full_case_sensitive
 checkAllSearches
 (
 {
-hostname
+origin
 :
 "
 http
@@ -1461,7 +1461,7 @@ com
 checkAllSearches
 (
 {
-hostname
+origin
 :
 "
 http
@@ -1482,7 +1482,7 @@ com
 checkAllSearches
 (
 {
-hostname
+origin
 :
 "
 example
@@ -1496,7 +1496,7 @@ com
 checkAllSearches
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -1516,7 +1516,7 @@ com
 checkAllSearches
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -1537,7 +1537,7 @@ com
 checkAllSearches
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -1552,7 +1552,7 @@ http
 checkAllSearches
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 example
@@ -1649,7 +1649,7 @@ test_search_all_empty
 checkAllSearches
 (
 {
-hostname
+origin
 :
 "
 http
@@ -1669,7 +1669,7 @@ com
 checkAllSearches
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -1696,7 +1696,7 @@ Realm
 checkSearchLogins
 (
 {
-hostname
+origin
 :
 "
 "

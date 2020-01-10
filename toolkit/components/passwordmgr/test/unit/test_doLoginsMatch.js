@@ -11,7 +11,7 @@ doLoginsMatch
 add_task
 (
 function
-test_formSubmitURL_ignoreSchemes
+test_formActionOrigin_ignoreSchemes
 (
 )
 {
@@ -32,7 +32,7 @@ TestData
 formLogin
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -56,7 +56,7 @@ TestData
 formLogin
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 javascript
@@ -73,7 +73,7 @@ TestData
 formLogin
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -86,10 +86,10 @@ notEqual
 (
 httpActionLogin
 .
-formSubmitURL
+formActionOrigin
 httpsActionLogin
 .
-formSubmitURL
+formActionOrigin
 "
 Ensure
 actions

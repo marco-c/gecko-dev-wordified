@@ -85,10 +85,10 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 URL
-formSubmitURL
+formActionOrigin
 :
 URL
 username
@@ -264,10 +264,10 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 URL
-formSubmitURL
+formActionOrigin
 :
 URL
 username
@@ -377,7 +377,7 @@ clearData
 function
 countLogins
 (
-host
+origin
 )
 {
 let
@@ -408,10 +408,10 @@ if
 (
 login
 .
-hostname
+origin
 =
 =
-host
+origin
 )
 {
 +

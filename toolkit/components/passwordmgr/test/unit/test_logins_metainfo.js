@@ -137,7 +137,7 @@ data
 that
 matches
 the
-hostname
+origin
 of
 *
 the
@@ -155,7 +155,7 @@ login
 for
 the
 *
-hostname
+origin
 the
 test
 fails
@@ -179,7 +179,7 @@ findLogins
 (
 aLoginInfo
 .
-hostname
+origin
 "
 "
 "
@@ -478,7 +478,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -885,7 +885,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http

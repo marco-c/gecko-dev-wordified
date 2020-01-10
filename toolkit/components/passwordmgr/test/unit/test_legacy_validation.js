@@ -177,7 +177,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 testValue
 }
@@ -217,7 +217,7 @@ TestData
 formLogin
 (
 {
-formSubmitURL
+formActionOrigin
 :
 testValue
 }
@@ -416,7 +416,7 @@ value
 of
 usernameField
 and
-formSubmitURL
+formActionOrigin
 .
 let
 loginInfo
@@ -468,7 +468,7 @@ TestData
 formLogin
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 .
@@ -517,7 +517,7 @@ value
 of
 the
 "
-hostname
+origin
 "
 property
 .
@@ -528,7 +528,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -565,7 +565,7 @@ loginInfo
 bad
 parens
 in
-hostname
+origin
 /
 )
 ;
@@ -594,7 +594,7 @@ test_setLoginSavingEnabled_invalid_characters_legacy
 for
 (
 let
-hostname
+origin
 of
 [
 "
@@ -643,12 +643,12 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname
+origin
 false
 )
 /
 Invalid
-hostname
+origin
 /
 )
 ;

@@ -328,7 +328,7 @@ is
 (
 login
 .
-hostname
+origin
 "
 http
 :
@@ -341,7 +341,7 @@ com
 "
 Check
 the
-hostname
+origin
 is
 unchanged
 "
@@ -661,7 +661,7 @@ is
 (
 login
 .
-hostname
+origin
 "
 https
 :
@@ -674,7 +674,7 @@ com
 "
 Check
 the
-hostname
+origin
 is
 upgraded
 "
@@ -684,7 +684,7 @@ is
 (
 login
 .
-formSubmitURL
+formActionOrigin
 "
 https
 :
@@ -697,7 +697,7 @@ com
 "
 Check
 the
-formSubmitURL
+formActionOrigin
 is
 upgraded
 "
@@ -1585,7 +1585,7 @@ LoginHelper
 searchLoginsWithObject
 (
 {
-hostname
+origin
 :
 "
 https
@@ -1668,7 +1668,7 @@ LoginHelper
 searchLoginsWithObject
 (
 {
-hostname
+origin
 :
 "
 http

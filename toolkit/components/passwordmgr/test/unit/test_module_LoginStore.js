@@ -188,10 +188,6 @@ www
 example
 .
 com
-/
-submit
--
-url
 "
 usernameField
 :
@@ -740,10 +736,6 @@ www
 example
 .
 com
-/
-submit
--
-url
 \
 "
 "
@@ -999,10 +991,6 @@ www
 example
 .
 com
-/
-submit
--
-url
 "
 usernameField
 :

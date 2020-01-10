@@ -473,13 +473,13 @@ values
 [
 aLoginInfo
 .
-hostname
+origin
 aLoginInfo
 .
 httpRealm
 aLoginInfo
 .
-formSubmitURL
+formActionOrigin
 aLoginInfo
 .
 usernameField
@@ -602,7 +602,7 @@ function
 promiseInsertDisabledHost
 (
 aConnection
-aHostname
+aOrigin
 )
 {
 return
@@ -626,7 +626,7 @@ VALUES
 )
 "
 [
-aHostname
+aOrigin
 ]
 )
 ;
@@ -1005,7 +1005,7 @@ hostname
 =
 loginInfo
 .
-hostname
+origin
 &
 &
 loginDataItem
@@ -1025,7 +1025,7 @@ formSubmitURL
 =
 loginInfo
 .
-formSubmitURL
+formActionOrigin
 &
 &
 loginDataItem

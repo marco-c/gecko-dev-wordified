@@ -198,7 +198,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -274,16 +274,16 @@ testLogin
 newPropertyBag
 (
 {
-hostname
+origin
 :
 aLoginInfo
 .
-hostname
-formSubmitURL
+origin
+formActionOrigin
 :
 aLoginInfo
 .
-formSubmitURL
+formActionOrigin
 httpRealm
 :
 aLoginInfo
@@ -655,7 +655,7 @@ combinations
 of
 httpRealm
 and
-formSubmitURL
+formActionOrigin
 .
 *
 *
@@ -701,7 +701,7 @@ an
 empty
 string
 in
-formSubmitURL
+formActionOrigin
 and
 a
 null
@@ -723,7 +723,7 @@ moment
 add_task
 (
 function
-test_invalid_httpRealm_formSubmitURL
+test_invalid_httpRealm_formActionOrigin
 (
 )
 {
@@ -734,7 +734,7 @@ httpRealm
 =
 =
 null
-formSubmitURL
+formActionOrigin
 =
 =
 =
@@ -746,7 +746,7 @@ TestData
 formLogin
 (
 {
-formSubmitURL
+formActionOrigin
 :
 null
 }
@@ -756,7 +756,7 @@ without
 a
 httpRealm
 or
-formSubmitURL
+formActionOrigin
 /
 )
 ;
@@ -768,7 +768,7 @@ httpRealm
 =
 "
 "
-formSubmitURL
+formActionOrigin
 =
 =
 =
@@ -791,7 +791,7 @@ without
 a
 httpRealm
 or
-formSubmitURL
+formActionOrigin
 /
 )
 ;
@@ -802,7 +802,7 @@ httpRealm
 =
 =
 null
-formSubmitURL
+formActionOrigin
 =
 =
 =
@@ -826,7 +826,7 @@ TestData
 formLogin
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -839,7 +839,7 @@ without
 a
 httpRealm
 or
-formSubmitURL
+formActionOrigin
 /
 )
 ;
@@ -851,7 +851,7 @@ httpRealm
 =
 "
 "
-formSubmitURL
+formActionOrigin
 =
 =
 =
@@ -864,7 +864,7 @@ TestData
 formLogin
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -879,7 +879,7 @@ both
 a
 httpRealm
 and
-formSubmitURL
+formActionOrigin
 /
 )
 ;
@@ -890,7 +890,7 @@ formSubmitURL
 httpRealm
 !
 !
-formSubmitURL
+formActionOrigin
 checkLoginInvalid
 (
 TestData
@@ -912,7 +912,7 @@ both
 a
 httpRealm
 and
-formSubmitURL
+formActionOrigin
 /
 )
 ;
@@ -926,7 +926,7 @@ httpRealm
 "
 !
 !
-formSubmitURL
+formActionOrigin
 checkLoginInvalid
 (
 TestData
@@ -945,7 +945,7 @@ both
 a
 httpRealm
 and
-formSubmitURL
+formActionOrigin
 /
 )
 ;
@@ -954,7 +954,7 @@ formSubmitURL
 !
 !
 httpRealm
-formSubmitURL
+formActionOrigin
 =
 =
 =
@@ -967,7 +967,7 @@ TestData
 authLogin
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -978,7 +978,7 @@ both
 a
 httpRealm
 and
-formSubmitURL
+formActionOrigin
 /
 )
 ;
@@ -1015,7 +1015,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 null
 }
@@ -1024,7 +1024,7 @@ null
 null
 or
 empty
-hostname
+origin
 /
 )
 ;
@@ -1035,7 +1035,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 "
@@ -1045,7 +1045,7 @@ hostname
 null
 or
 empty
-hostname
+origin
 /
 )
 ;
@@ -1141,7 +1141,7 @@ TestData
 authLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -1177,7 +1177,7 @@ TestData
 formLogin
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -1636,7 +1636,7 @@ a
 different
 type
 and
-hostname
+origin
 .
 Services
 .
@@ -1672,7 +1672,7 @@ the
 old
 type
 and
-hostname
+origin
 .
 Services
 .
@@ -1828,16 +1828,16 @@ differentLoginProperties
 newPropertyBag
 (
 {
-hostname
+origin
 :
 differentLoginInfo
 .
-hostname
-formSubmitURL
+origin
+formActionOrigin
 :
 differentLoginInfo
 .
-formSubmitURL
+formActionOrigin
 httpRealm
 :
 differentLoginInfo
@@ -2110,7 +2110,7 @@ a
 different
 type
 and
-hostname
+origin
 .
 Services
 .
@@ -2146,7 +2146,7 @@ the
 old
 type
 and
-hostname
+origin
 .
 Services
 .
@@ -2288,7 +2288,7 @@ keyset
 :
 [
 "
-hostname
+origin
 "
 "
 username
@@ -2303,7 +2303,7 @@ keyset
 :
 [
 "
-hostname
+origin
 "
 "
 username
@@ -2321,7 +2321,7 @@ keyset
 :
 [
 "
-hostname
+origin
 "
 "
 username
@@ -2330,7 +2330,7 @@ username
 password
 "
 "
-formSubmitURL
+formActionOrigin
 "
 ]
 results
@@ -2512,7 +2512,7 @@ TestData
 formLogin
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 http
