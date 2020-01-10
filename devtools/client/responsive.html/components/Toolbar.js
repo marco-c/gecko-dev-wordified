@@ -775,9 +775,6 @@ NetworkThrottlingMenu
 {
 networkThrottling
 onChangeNetworkThrottling
-useTopLevelWindow
-:
-true
 }
 )
 dom
