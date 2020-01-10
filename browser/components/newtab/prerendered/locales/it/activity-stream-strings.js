@@ -1032,9 +1032,8 @@ firstrun_learn_more_link
 "
 :
 "
-Scopri
-di
-pi
+Ulteriori
+informazioni
 sull
 account
 Firefox
@@ -1045,6 +1044,8 @@ firstrun_form_header
 :
 "
 Inserisci
+la
+tua
 email
 "
 "
