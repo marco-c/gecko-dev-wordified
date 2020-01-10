@@ -1163,7 +1163,7 @@ right
 now
 .
     
-allow_list
+allow_pattern_list
 =
 {
         
@@ -1251,6 +1251,56 @@ global
 buildconfig
 .
 html
+'
+        
+#
+Bug
+1556162
+:
+localized
+resources
+are
+not
+deterministic
+across
+        
+#
+per
+-
+architecture
+builds
+triggered
+from
+the
+same
+push
+.
+        
+'
+*
+*
+/
+*
+.
+ftl
+'
+        
+'
+*
+*
+/
+*
+.
+dtd
+'
+        
+'
+*
+*
+/
+*
+.
+properties
 '
     
 }
@@ -1383,9 +1433,20 @@ on
 continue
         
 if
+any
+(
+mozpath
+.
+match
+(
 p
+pat
+)
+for
+pat
 in
-allow_list
+allow_pattern_list
+)
 :
             
 print
