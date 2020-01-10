@@ -374,7 +374,7 @@ bool
 RunPuppet
 (
 const
-InfallibleTArray
+nsTArray
 <
 uint64_t
 >
