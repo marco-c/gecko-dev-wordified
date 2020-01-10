@@ -37,11 +37,12 @@ strict
 *
 *
 Test
-for
-working
+that
 WS
 connection
-made
+is
+established
+successfully
 and
 sent
 /
