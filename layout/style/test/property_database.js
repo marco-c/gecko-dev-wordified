@@ -58526,7 +58526,7 @@ dominantBaseline
 "
 inherited
 :
-false
+true
 type
 :
 CSS_TYPE_LONGHAND
