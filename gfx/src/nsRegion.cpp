@@ -144,10 +144,6 @@ ToString
 .
 h
 "
-using
-namespace
-std
-;
 void
 nsRegion
 :
