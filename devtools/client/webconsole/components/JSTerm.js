@@ -5854,12 +5854,6 @@ clearCompletion
 (
 )
 ;
-event
-.
-preventDefault
-(
-)
-;
 }
 /
 /
