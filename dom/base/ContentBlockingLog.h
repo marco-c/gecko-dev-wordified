@@ -177,6 +177,13 @@ h
 #
 include
 "
+nsIWebProgressListener
+.
+h
+"
+#
+include
+"
 nsReadableUtils
 .
 h

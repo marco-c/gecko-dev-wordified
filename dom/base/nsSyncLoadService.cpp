@@ -250,6 +250,13 @@ namespace
 mozilla
 ;
 using
+namespace
+mozilla
+:
+:
+dom
+;
+using
 mozilla
 :
 :
