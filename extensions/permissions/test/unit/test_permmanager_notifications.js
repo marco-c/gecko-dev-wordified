@@ -534,8 +534,6 @@ prototype
 =
 {
 observe
-:
-function
 (
 subject
 topic
@@ -632,7 +630,7 @@ added
 "
 )
 {
-var
+let
 perm
 =
 subject
@@ -826,7 +824,7 @@ deleted
 "
 )
 {
-var
+let
 perm
 =
 subject

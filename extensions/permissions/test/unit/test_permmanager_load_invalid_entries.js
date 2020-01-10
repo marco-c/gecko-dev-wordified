@@ -969,8 +969,6 @@ from
 -
 disk
 "
-"
-"
 )
 ;
 let

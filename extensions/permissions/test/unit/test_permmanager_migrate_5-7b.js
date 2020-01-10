@@ -402,19 +402,9 @@ host
 :
 origin
 type
-:
-type
-permission
-:
 permission
 expireType
-:
-expireType
 expireTime
-:
-expireTime
-modificationTime
-:
 modificationTime
 }
 ;
@@ -726,8 +716,6 @@ from
 -
 disk
 "
-"
-"
 )
 ;
 /
@@ -969,7 +957,6 @@ about
 are
 present
 {
-let
 db
 =
 Services
