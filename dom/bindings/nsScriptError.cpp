@@ -1101,6 +1101,7 @@ Window
 ID
 *
 /
+fromChromeContext
 )
 ;
 AssignSourceNameHelper
@@ -1147,6 +1148,8 @@ nsACString
 category
 uint64_t
 aInnerWindowID
+bool
+aFromChromeContext
 )
 {
 mMessage
@@ -1191,6 +1194,10 @@ mInnerWindowID
 =
 aInnerWindowID
 ;
+mIsFromChromeContext
+=
+aFromChromeContext
+;
 }
 NS_IMETHODIMP
 nsScriptErrorBase
@@ -1222,6 +1229,8 @@ nsACString
 category
 uint64_t
 aInnerWindowID
+bool
+aFromChromeContext
 )
 {
 InitializationHelper
@@ -1233,6 +1242,7 @@ columnNumber
 flags
 category
 aInnerWindowID
+aFromChromeContext
 )
 ;
 AssignSourceNameHelper
@@ -1288,6 +1298,8 @@ nsACString
 category
 uint64_t
 aInnerWindowID
+bool
+aFromChromeContext
 )
 {
 InitializationHelper
@@ -1299,6 +1311,7 @@ columnNumber
 flags
 category
 aInnerWindowID
+aFromChromeContext
 )
 ;
 mSourceName
@@ -1351,6 +1364,8 @@ nsACString
 category
 uint64_t
 aInnerWindowID
+bool
+aFromChromeContext
 )
 {
 InitializationHelper
@@ -1362,6 +1377,7 @@ columnNumber
 flags
 category
 aInnerWindowID
+aFromChromeContext
 )
 ;
 AssignSourceNameHelper

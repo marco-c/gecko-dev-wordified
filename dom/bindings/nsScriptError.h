@@ -331,6 +331,8 @@ nsACString
 category
 uint64_t
 aInnerWindowID
+bool
+aFromChromeContext
 )
 ;
 nsCOMArray

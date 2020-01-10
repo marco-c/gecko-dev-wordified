@@ -2619,6 +2619,9 @@ NS_FAILED
 scriptError
 -
 >
+nsIScriptError
+:
+:
 InitWithWindowID
 (
 aReport
