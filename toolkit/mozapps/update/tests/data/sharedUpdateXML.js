@@ -149,6 +149,15 @@ service
 "
 ;
 const
+STATE_PENDING_ELEVATE
+=
+"
+pending
+-
+elevate
+"
+;
+const
 STATE_APPLYING
 =
 "

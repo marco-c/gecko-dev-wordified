@@ -9,6 +9,7 @@ the
 Public
 Domain
 .
+*
 http
 :
 /
@@ -27,6 +28,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 ChromeUtils
 .
 import
