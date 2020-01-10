@@ -2226,12 +2226,11 @@ AppUnitsPerDevPixel
 float
 devPixelPerCSSPixel
 =
-1
-.
-0
-*
+float
+(
 AppUnitsPerCSSPixel
 (
+)
 )
 /
 appUnitsPerDevPixel
