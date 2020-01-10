@@ -1598,14 +1598,8 @@ contentDocument
 .
 documentElement
 .
-setAttribute
+setInContent
 (
-"
-subdialog
-"
-"
-true
-"
 )
 ;
 this
