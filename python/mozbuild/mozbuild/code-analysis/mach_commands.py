@@ -940,7 +940,7 @@ self
         
 #
 If
-not
+no
 arguments
 are
 provided
@@ -961,6 +961,30 @@ getcwd
 (
 )
 )
+        
+def
+populate_context
+(
+context
+key
+=
+None
+)
+:
+            
+context
+.
+topdir
+=
+self
+.
+topsrcdir
+        
+mach
+.
+populate_context_handler
+=
+populate_context
         
 mach
 .
