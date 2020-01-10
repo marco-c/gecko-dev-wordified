@@ -198,6 +198,15 @@ CompilationAndEvaluation
 .
 h
 "
+/
+/
+JS
+:
+:
+Compile
+{
+DontInflate
+}
 #
 include
 "
@@ -5675,7 +5684,7 @@ return
 JS
 :
 :
-Compile
+CompileDontInflate
 (
 cx
 options
