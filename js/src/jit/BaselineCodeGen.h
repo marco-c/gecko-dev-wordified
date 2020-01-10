@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jit_BaselineCompiler_h
+jit_BaselineCodeGen_h
 #
 define
-jit_BaselineCompiler_h
+jit_BaselineCodeGen_h
 #
 include
 "
@@ -4205,6 +4205,6 @@ js
 endif
 /
 *
-jit_BaselineCompiler_h
+jit_BaselineCodeGen_h
 *
 /
