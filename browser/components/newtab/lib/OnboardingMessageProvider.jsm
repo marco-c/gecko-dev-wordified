@@ -379,6 +379,15 @@ browser
 /
 branding
 /
+brandings
+.
+ftl
+"
+"
+browser
+/
+branding
+/
 sync
 -
 brand
