@@ -474,11 +474,12 @@ Telemetry
 :
 :
 SUBPROCESS_ABNORMAL_ABORT
-NS_LITERAL_CSTRING
+nsDependentCString
 (
-"
-sandboxbroker
-"
+XRE_ChildProcessTypeToString
+(
+GeckoProcessType_RemoteSandboxBroker
+)
 )
 1
 )

@@ -434,7 +434,7 @@ GECKO_PROCESS_TYPE
 (
 RemoteSandboxBroker
 "
-sandbox
+sandboxbroker
 "
 RemoteSandboxBroker
 PluginContainer
