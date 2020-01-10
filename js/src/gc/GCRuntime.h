@@ -5439,7 +5439,7 @@ slice
 .
 *
 /
-MainThreadData
+MainThreadOrGCTaskData
 <
 JSGCInvocationKind
 >
