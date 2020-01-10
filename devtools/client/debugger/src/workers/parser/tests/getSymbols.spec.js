@@ -94,8 +94,8 @@ formatSymbols
 ;
 import
 {
-getSource
-getOriginalSource
+populateSource
+populateOriginalSource
 }
 from
 "
@@ -138,13 +138,13 @@ source
 =
 original
 ?
-getOriginalSource
+populateOriginalSource
 (
 file
 type
 )
 :
-getSource
+populateSource
 (
 file
 type
@@ -155,6 +155,8 @@ expect
 formatSymbols
 (
 source
+.
+id
 )
 )
 .
