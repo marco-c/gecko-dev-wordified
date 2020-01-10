@@ -19080,11 +19080,6 @@ functionBox
 )
 -
 >
-function
-(
-)
--
->
 isNamedLambda
 (
 )

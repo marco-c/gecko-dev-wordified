@@ -10010,11 +10010,6 @@ if
 funbox
 -
 >
-function
-(
-)
--
->
 isNamedLambda
 (
 )
@@ -10211,11 +10206,6 @@ bindings
 if
 (
 funbox
--
->
-function
-(
-)
 -
 >
 isNamedLambda
@@ -28877,11 +28867,6 @@ funNode
 -
 >
 funbox
-(
-)
--
->
-function
 (
 )
 -

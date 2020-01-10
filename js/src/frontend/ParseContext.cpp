@@ -1038,11 +1038,6 @@ name
 funbox
 -
 >
-function
-(
-)
--
->
 explicitName
 (
 )
@@ -1631,11 +1626,6 @@ functionBox
 )
 -
 >
-function
-(
-)
--
->
 isNamedLambda
 (
 )
@@ -1934,11 +1924,6 @@ sc
 >
 cx_
 funbox
--
->
-function
-(
-)
 -
 >
 explicitName
