@@ -172,6 +172,8 @@ client
 /
 debugger
 /
+new
+/
 src
 /
 components
@@ -200,6 +202,8 @@ devtools
 client
 /
 debugger
+/
+new
 /
 src
 /

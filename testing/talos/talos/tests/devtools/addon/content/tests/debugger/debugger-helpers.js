@@ -116,6 +116,8 @@ found
 in
 debugger
 /
+new
+/
 test
 /
 mochi

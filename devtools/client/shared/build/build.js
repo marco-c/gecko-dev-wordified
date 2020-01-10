@@ -161,6 +161,8 @@ devtools
 client
 /
 debugger
+/
+new
 "
 )
 ?

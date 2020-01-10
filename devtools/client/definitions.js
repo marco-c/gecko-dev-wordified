@@ -190,6 +190,8 @@ client
 /
 debugger
 /
+new
+/
 panel
 "
 )
@@ -1296,6 +1298,8 @@ devtools
 content
 /
 debugger
+/
+new
 /
 index
 .
