@@ -346,6 +346,15 @@ CHANGE_PIXEL_RATIO
 "
 /
 /
+Edit
+a
+device
+.
+"
+EDIT_DEVICE
+"
+/
+/
 Indicates
 that
 the
