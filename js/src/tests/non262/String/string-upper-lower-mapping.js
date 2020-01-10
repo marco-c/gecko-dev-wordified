@@ -17,7 +17,7 @@ version
 :
 12
 .
-0
+1
 .
 0
 *
@@ -239267,6 +239267,14 @@ u32FF
 u32FF
 "
 ]
+/
+*
+SQUARE
+ERA
+NAME
+REIWA
+*
+/
 [
 "
 \
