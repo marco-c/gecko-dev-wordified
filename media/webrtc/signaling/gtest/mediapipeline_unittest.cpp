@@ -1058,6 +1058,8 @@ StartIceGathering
 (
 bool
 aDefaultRouteOnly
+bool
+aObfuscateAddresses
 /
 /
 TODO

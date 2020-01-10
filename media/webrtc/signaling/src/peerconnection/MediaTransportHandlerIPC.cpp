@@ -1484,6 +1484,8 @@ StartIceGathering
 (
 bool
 aDefaultRouteOnly
+bool
+aObfuscateHostAddresses
 /
 /
 TODO
@@ -1549,6 +1551,7 @@ mChild
 SendStartIceGathering
 (
 aDefaultRouteOnly
+aObfuscateHostAddresses
 aStunAddrs
 )
 ;

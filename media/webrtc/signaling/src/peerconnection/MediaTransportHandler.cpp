@@ -558,6 +558,8 @@ StartIceGathering
 (
 bool
 aDefaultRouteOnly
+bool
+aObfuscateHostAddresses
 /
 /
 This
@@ -4389,6 +4391,8 @@ StartIceGathering
 (
 bool
 aDefaultRouteOnly
+bool
+aObfuscateHostAddresses
 const
 nsTArray
 <
@@ -4552,6 +4556,7 @@ StartGathering
 (
 aDefaultRouteOnly
 mProxyOnly
+aObfuscateHostAddresses
 )
 ;
 return
