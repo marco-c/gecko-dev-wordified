@@ -312,7 +312,7 @@ Front
 for
 either
 an
-arrayBuffer
+ArrayBuffer
 or
 LongString
 *
