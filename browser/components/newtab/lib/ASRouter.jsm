@@ -805,7 +805,7 @@ triplets
 /
 Per
 bug
-1571817
+1574003
 for
 those
 who
@@ -818,7 +818,7 @@ extended
 /
 /
 triplets
-99
+95
 %
 users
 (
@@ -835,7 +835,7 @@ and
 /
 the
 rest
-1
+5
 %
 (
 holdback
@@ -852,13 +852,13 @@ EXPERIMENT_RATIOS_FOR_EXTENDED_TRIPLETS
 "
 control
 "
-99
+95
 ]
 [
 "
 holdback
 "
-1
+5
 ]
 ]
 EXTENDED_TRIPLETS_EXPERIMENT_PREF
