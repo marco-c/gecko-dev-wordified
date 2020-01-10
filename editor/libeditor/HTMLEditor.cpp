@@ -276,13 +276,6 @@ h
 #
 include
 "
-nsILinkHandler
-.
-h
-"
-#
-include
-"
 nsIInlineSpellChecker
 .
 h
