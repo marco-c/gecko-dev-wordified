@@ -14626,6 +14626,9 @@ WrSpaceAndClipChain
 shadow
 :
 Shadow
+should_inflate
+:
+bool
 )
 {
 debug_assert
@@ -14661,6 +14664,7 @@ shadow
 into
 (
 )
+should_inflate
 )
 ;
 }

@@ -7579,6 +7579,8 @@ wr
 Shadow
 &
 aShadow
+bool
+aShouldInflate
 )
 {
 /
@@ -7690,6 +7692,7 @@ aIsBackfaceVisible
 &
 mCurrentSpaceAndClipChain
 aShadow
+aShouldInflate
 )
 ;
 }
