@@ -141,7 +141,6 @@ resource
 :
 /
 /
-gre
 /
 modules
 /
@@ -158,7 +157,6 @@ resource
 :
 /
 /
-gre
 /
 modules
 /
@@ -2986,13 +2984,8 @@ hasChild
 Mozilla
 \
 \
+Firefox
 "
-+
-Services
-.
-appinfo
-.
-name
 )
 )
 {
