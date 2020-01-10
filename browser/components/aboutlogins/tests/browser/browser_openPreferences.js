@@ -169,6 +169,7 @@ button
 )
 ;
 return
+!
 menuButton
 .
 shadowRoot
@@ -181,19 +182,7 @@ menu
 "
 )
 .
-getAttribute
-(
-"
-aria
--
 hidden
-"
-)
-=
-=
-"
-false
-"
 ;
 }
 "
