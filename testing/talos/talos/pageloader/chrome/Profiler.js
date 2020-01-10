@@ -808,11 +808,7 @@ stackwalk
 threads
 "
 ]
-4
 profiler_threadsArray
-profiler_threadsArray
-.
-length
 )
 ;
 if

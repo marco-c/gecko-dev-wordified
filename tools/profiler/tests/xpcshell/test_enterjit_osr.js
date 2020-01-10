@@ -118,7 +118,6 @@ ms
 js
 "
 ]
-1
 )
 ;
 function

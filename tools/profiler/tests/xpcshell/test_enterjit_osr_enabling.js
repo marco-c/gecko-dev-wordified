@@ -57,7 +57,6 @@ StartProfiler
 js
 "
 ]
-1
 )
 ;
 let

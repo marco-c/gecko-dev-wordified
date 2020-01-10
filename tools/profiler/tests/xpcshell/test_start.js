@@ -96,7 +96,6 @@ StartProfiler
 100
 [
 ]
-0
 )
 ;
 Assert
