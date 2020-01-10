@@ -7652,6 +7652,9 @@ FinalizeCrashReport
 return
 ;
 }
+AnnotationTable
+annotations
+;
 uint32_t
 sequence
 =
@@ -7702,6 +7705,7 @@ getter_AddRefs
 (
 childDumpFile
 )
+annotations
 &
 childSequence
 )
@@ -7720,6 +7724,7 @@ mCrashReporter
 AdoptMinidump
 (
 childDumpFile
+annotations
 )
 )
 {
@@ -7767,6 +7772,7 @@ getter_AddRefs
 (
 childDumpFile
 )
+annotations
 &
 childSequence
 )
@@ -7785,6 +7791,7 @@ mCrashReporter
 AdoptMinidump
 (
 childDumpFile
+annotations
 )
 )
 {
