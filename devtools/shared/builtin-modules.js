@@ -241,6 +241,7 @@ one
 )
 const
 {
+BrowsingContext
 console
 DebuggerNotificationObserver
 DOMPoint
@@ -1817,6 +1818,7 @@ globals
 atob
 Blob
 btoa
+BrowsingContext
 console
 CSS
 /
