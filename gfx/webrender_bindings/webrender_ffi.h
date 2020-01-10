@@ -178,7 +178,7 @@ is_in_render_thread
 )
 ;
 bool
-is_glcontext_egl
+is_glcontext_gles
 (
 void
 *
