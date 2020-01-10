@@ -2260,8 +2260,8 @@ function
 (
 )
 {
-var
-iframe
+let
+newIframe
 =
 document
 .
@@ -2278,12 +2278,12 @@ body
 .
 appendChild
 (
-iframe
+newIframe
 )
 ;
 is
 (
-iframe
+newIframe
 .
 contentWindow
 .
@@ -2356,7 +2356,7 @@ bug
 .
 todo_is
 (
-iframe
+newIframe
 .
 contentWindow
 .
@@ -2395,7 +2395,7 @@ iframe
 ;
 todo_is
 (
-iframe
+newIframe
 .
 contentWindow
 .
@@ -2439,7 +2439,7 @@ body
 .
 removeChild
 (
-iframe
+newIframe
 )
 ;
 }

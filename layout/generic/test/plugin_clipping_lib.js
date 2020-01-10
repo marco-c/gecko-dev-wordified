@@ -955,7 +955,6 @@ clipRects
 checkClipRegion
 =
 function
-checkClipRegion
 (
 id
 rects
@@ -975,7 +974,6 @@ true
 checkClipRegionForFrame
 =
 function
-checkClipRegionForFrame
 (
 fid
 id
@@ -1021,7 +1019,6 @@ true
 checkClipRegionNoBounds
 =
 function
-checkClipRegionNoBounds
 (
 id
 rects

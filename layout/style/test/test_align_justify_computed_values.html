@@ -1659,7 +1659,7 @@ tests
 Block
 tests
 var
-elem
+element
 =
 document
 .
@@ -1678,7 +1678,7 @@ display
 )
 ;
 var
-abs
+absChild
 =
 document
 .
@@ -1693,7 +1693,7 @@ is
 (
 getComputedAlignItems
 (
-elem
+element
 )
 '
 normal
@@ -1735,7 +1735,7 @@ is
 (
 getComputedAlignSelf
 (
-abs
+absChild
 )
 '
 auto
@@ -1757,7 +1757,7 @@ child
 "
 )
 ;
-elem
+element
 .
 style
 .
@@ -1794,7 +1794,7 @@ is
 (
 getComputedAlignSelf
 (
-abs
+absChild
 )
 '
 auto
@@ -1818,7 +1818,7 @@ child
 "
 )
 ;
-elem
+element
 .
 style
 .
@@ -1832,7 +1832,7 @@ is
 (
 getComputedAlignItems
 (
-elem
+element
 )
 '
 end
@@ -1876,7 +1876,7 @@ is
 (
 getComputedAlignSelf
 (
-abs
+absChild
 )
 '
 auto
@@ -1900,7 +1900,7 @@ child
 "
 )
 ;
-elem
+element
 .
 style
 .
@@ -1914,7 +1914,7 @@ is
 (
 getComputedAlignItems
 (
-elem
+element
 )
 '
 end
@@ -1959,7 +1959,7 @@ is
 (
 getComputedAlignSelf
 (
-abs
+absChild
 )
 '
 auto
@@ -2619,14 +2619,12 @@ tests
 /
 Block
 tests
-var
-elem
+element
 =
 document
 .
 body
 ;
-var
 child
 =
 document
@@ -2638,8 +2636,7 @@ display
 "
 )
 ;
-var
-abs
+absChild
 =
 document
 .
@@ -2654,7 +2651,7 @@ is
 (
 getComputedJustifyItems
 (
-elem
+element
 )
 '
 normal
@@ -2697,7 +2694,7 @@ is
 (
 getComputedJustifySelf
 (
-abs
+absChild
 )
 '
 auto
@@ -2719,7 +2716,7 @@ child
 "
 )
 ;
-elem
+element
 .
 style
 .
@@ -2756,7 +2753,7 @@ is
 (
 getComputedJustifySelf
 (
-abs
+absChild
 )
 '
 auto
@@ -2780,7 +2777,7 @@ child
 "
 )
 ;
-elem
+element
 .
 style
 .
@@ -2794,7 +2791,7 @@ is
 (
 getComputedJustifyItems
 (
-elem
+element
 )
 '
 left
@@ -2841,7 +2838,7 @@ is
 (
 getComputedJustifySelf
 (
-abs
+absChild
 )
 '
 auto
@@ -2865,7 +2862,7 @@ child
 "
 )
 ;
-elem
+element
 .
 style
 .
@@ -2902,7 +2899,7 @@ is
 (
 getComputedJustifySelf
 (
-abs
+absChild
 )
 '
 auto
@@ -2926,7 +2923,7 @@ child
 "
 )
 ;
-elem
+element
 .
 style
 .
@@ -2960,7 +2957,7 @@ child
 "
 )
 ;
-elem
+element
 .
 style
 .
@@ -3046,7 +3043,7 @@ justifySelf
 "
 "
 ;
-abs
+absChild
 .
 style
 .
@@ -3060,7 +3057,7 @@ is
 (
 getComputedJustifySelf
 (
-abs
+absChild
 )
 '
 right
@@ -4225,14 +4222,12 @@ tests
 /
 Block
 tests
-var
-elem
+element
 =
 document
 .
 body
 ;
-var
 child
 =
 document
@@ -4244,8 +4239,7 @@ display
 "
 )
 ;
-var
-abs
+absChild
 =
 document
 .
@@ -4260,7 +4254,7 @@ is
 (
 getComputedAlignContent
 (
-elem
+element
 )
 '
 normal
@@ -4302,7 +4296,7 @@ is
 (
 getComputedAlignContent
 (
-abs
+absChild
 )
 '
 normal
@@ -4324,7 +4318,7 @@ child
 "
 )
 ;
-elem
+element
 .
 style
 .
@@ -4370,7 +4364,7 @@ is
 (
 getComputedAlignContent
 (
-abs
+absChild
 )
 '
 normal
@@ -4401,7 +4395,7 @@ child
 "
 )
 ;
-elem
+element
 .
 style
 .
@@ -4415,7 +4409,7 @@ is
 (
 getComputedAlignContent
 (
-elem
+element
 )
 '
 end
@@ -4439,7 +4433,7 @@ is
 (
 getComputedAlignContent
 (
-abs
+absChild
 )
 '
 normal
@@ -4470,7 +4464,7 @@ child
 "
 )
 ;
-elem
+element
 .
 style
 .
@@ -4484,7 +4478,7 @@ is
 (
 getComputedAlignContent
 (
-elem
+element
 )
 '
 end
@@ -4508,7 +4502,7 @@ is
 (
 getComputedAlignContent
 (
-abs
+absChild
 )
 '
 normal
@@ -4539,7 +4533,7 @@ child
 "
 )
 ;
-elem
+element
 .
 style
 .
@@ -5203,14 +5197,12 @@ tests
 /
 Block
 tests
-var
-elem
+element
 =
 document
 .
 body
 ;
-var
 child
 =
 document
@@ -5222,8 +5214,7 @@ display
 "
 )
 ;
-var
-abs
+absChild
 =
 document
 .
@@ -5238,7 +5229,7 @@ is
 (
 getComputedJustifyContent
 (
-elem
+element
 )
 '
 normal
@@ -5280,7 +5271,7 @@ is
 (
 getComputedJustifyContent
 (
-abs
+absChild
 )
 '
 normal
@@ -5302,7 +5293,7 @@ child
 "
 )
 ;
-elem
+element
 .
 style
 .
@@ -5348,7 +5339,7 @@ is
 (
 getComputedJustifyContent
 (
-abs
+absChild
 )
 '
 normal
@@ -5379,7 +5370,7 @@ child
 "
 )
 ;
-elem
+element
 .
 style
 .
@@ -5393,7 +5384,7 @@ is
 (
 getComputedJustifyContent
 (
-elem
+element
 )
 '
 left
@@ -5417,7 +5408,7 @@ is
 (
 getComputedJustifyContent
 (
-abs
+absChild
 )
 '
 normal
@@ -5448,7 +5439,7 @@ child
 "
 )
 ;
-elem
+element
 .
 style
 .
@@ -5462,7 +5453,7 @@ is
 (
 getComputedJustifyContent
 (
-elem
+element
 )
 '
 right
@@ -5486,7 +5477,7 @@ is
 (
 getComputedJustifyContent
 (
-abs
+absChild
 )
 '
 normal
@@ -5517,7 +5508,7 @@ child
 "
 )
 ;
-elem
+element
 .
 style
 .
@@ -5532,7 +5523,7 @@ is
 (
 getComputedJustifyContent
 (
-elem
+element
 )
 '
 safe
@@ -5560,7 +5551,7 @@ right
 "
 )
 ;
-elem
+element
 .
 style
 .
@@ -5686,7 +5677,7 @@ justifyContent
 "
 "
 ;
-abs
+absChild
 .
 style
 .
@@ -5700,7 +5691,7 @@ is
 (
 getComputedJustifyContent
 (
-abs
+absChild
 )
 '
 right
@@ -5725,7 +5716,7 @@ child
 "
 )
 ;
-abs
+absChild
 .
 style
 .
