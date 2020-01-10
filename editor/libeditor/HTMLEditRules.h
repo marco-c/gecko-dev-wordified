@@ -9100,6 +9100,9 @@ bool
 mDidRangedDelete
 ;
 bool
+mDidEmptyParentBlocksRemoved
+;
+bool
 mRestoreContentEditableCount
 ;
 RefPtr
