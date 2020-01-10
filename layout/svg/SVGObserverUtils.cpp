@@ -8842,7 +8842,7 @@ GetAndObservePaintServer
 (
 nsIFrame
 *
-aTargetFrame
+aPaintedFrame
 nsStyleSVGPaint
 nsStyleSVG
 :
@@ -8925,13 +8925,13 @@ SVGTextFrame
 .
 nsIFrame
 *
-frame
+paintedFrame
 =
-aTargetFrame
+aPaintedFrame
 ;
 if
 (
-frame
+paintedFrame
 -
 >
 GetContent
@@ -8944,9 +8944,9 @@ IsText
 )
 )
 {
-frame
+paintedFrame
 =
-frame
+paintedFrame
 -
 >
 GetParent
@@ -8957,7 +8957,7 @@ nsIFrame
 *
 grandparent
 =
-frame
+paintedFrame
 -
 >
 GetParent
@@ -8977,7 +8977,7 @@ IsSVGTextFrame
 )
 )
 {
-frame
+paintedFrame
 =
 grandparent
 ;
@@ -8988,7 +8988,7 @@ nsStyleSVG
 *
 svgStyle
 =
-frame
+paintedFrame
 -
 >
 StyleSVG
@@ -9025,7 +9025,7 @@ paintServerURL
 =
 ResolveURLUsingLocalRef
 (
-frame
+paintedFrame
 (
 svgStyle
 -
@@ -9090,7 +9090,7 @@ property
 GetPaintingProperty
 (
 paintServerURL
-frame
+paintedFrame
 propDesc
 )
 ;

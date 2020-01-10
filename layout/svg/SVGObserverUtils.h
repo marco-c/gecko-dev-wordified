@@ -1638,7 +1638,7 @@ GetAndObservePaintServer
 (
 nsIFrame
 *
-aTargetFrame
+aPaintedFrame
 nsStyleSVGPaint
 nsStyleSVG
 :
