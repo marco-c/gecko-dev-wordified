@@ -464,7 +464,6 @@ disconnect
 .
 *
 /
-async
 destroy
 (
 )
@@ -532,7 +531,6 @@ for
 details
 )
 .
-await
 this
 .
 api

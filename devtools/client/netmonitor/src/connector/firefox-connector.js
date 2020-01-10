@@ -706,7 +706,6 @@ displayCachedEvents
 ;
 }
 }
-async
 disconnect
 (
 )
@@ -727,7 +726,6 @@ batchReset
 )
 ;
 }
-await
 this
 .
 removeListeners
@@ -1106,7 +1104,6 @@ DocumentEvents
 )
 ;
 }
-async
 removeListeners
 (
 )

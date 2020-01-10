@@ -297,7 +297,6 @@ willNavigate
 )
 ;
 }
-async
 disconnect
 (
 )
