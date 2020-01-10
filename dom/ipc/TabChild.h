@@ -236,13 +236,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h
@@ -478,6 +471,9 @@ mozilla
 {
 class
 AbstractThread
+;
+class
+PresShell
 ;
 namespace
 layers
@@ -982,7 +978,7 @@ already_AddRefed
 <
 Document
 >
-GetDocument
+GetTopLevelDocument
 (
 )
 const
@@ -1007,11 +1003,9 @@ in
 this
 tab
 .
-already_AddRefed
-<
-nsIPresShell
->
-GetPresShell
+PresShell
+*
+GetTopLevelPresShell
 (
 )
 const
@@ -2812,7 +2806,7 @@ TabChild
 *
 GetFrom
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )

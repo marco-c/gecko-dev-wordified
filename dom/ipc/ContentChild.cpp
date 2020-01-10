@@ -19398,7 +19398,7 @@ aBrowser
 )
 -
 >
-GetDocument
+GetTopLevelDocument
 (
 )
 ;

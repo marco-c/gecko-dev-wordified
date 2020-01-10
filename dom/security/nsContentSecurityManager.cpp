@@ -875,7 +875,7 @@ get
 )
 -
 >
-GetDocument
+GetTopLevelDocument
 (
 )
 ;
