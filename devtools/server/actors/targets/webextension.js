@@ -681,8 +681,11 @@ injected
 by
 the
 *
-DebuggerServer
+frame
+-
+connector
 .
+js
 connectToFrame
 method
 .

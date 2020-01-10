@@ -445,8 +445,12 @@ are
 going
 to
 call
-DebuggerServer
+frame
+-
+connector
 .
+js
+'
 connectToFrame
 and
 talk

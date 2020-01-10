@@ -165,7 +165,7 @@ webextension
 ;
 const
 {
-DebuggerServer
+connectToFrame
 }
 =
 require
@@ -175,9 +175,11 @@ devtools
 /
 server
 /
-debugger
+connectors
+/
+frame
 -
-server
+connector
 "
 )
 ;
@@ -851,8 +853,6 @@ this
 _form
 =
 await
-DebuggerServer
-.
 connectToFrame
 (
 this

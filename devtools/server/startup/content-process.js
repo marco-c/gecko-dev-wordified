@@ -98,8 +98,14 @@ main
 process
 during
 *
-DebuggerServer
+content
+-
+process
+-
+connector
 .
+js
+'
 connectToContentProcess
 .
 *

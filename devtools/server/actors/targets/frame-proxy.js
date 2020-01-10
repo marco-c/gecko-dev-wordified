@@ -120,7 +120,7 @@ details
 /
 const
 {
-DebuggerServer
+connectToFrame
 }
 =
 require
@@ -130,9 +130,11 @@ devtools
 /
 server
 /
-debugger
+connectors
+/
+frame
 -
-server
+connector
 "
 )
 ;
@@ -450,8 +452,6 @@ _unzombifyIfNeeded
 const
 connect
 =
-DebuggerServer
-.
 connectToFrame
 (
 this

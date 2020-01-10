@@ -109,9 +109,13 @@ a
 specific
 worker
 during
-*
-DebuggerServer
+worker
+-
+connector
 .
+js
+'
+*
 connectToWorker
 which
 is
