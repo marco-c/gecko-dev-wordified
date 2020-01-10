@@ -14564,7 +14564,7 @@ return
 if
 (
 !
-HasSameRoot
+HasSameRootOrSameComposedDoc
 (
 *
 aPoint
@@ -16483,7 +16483,7 @@ return
 if
 (
 !
-HasSameRoot
+HasSameRootOrSameComposedDoc
 (
 aContainer
 )
@@ -18320,7 +18320,7 @@ return
 if
 (
 !
-HasSameRoot
+HasSameRootOrSameComposedDoc
 (
 aNode
 )
@@ -22356,7 +22356,7 @@ return
 if
 (
 !
-HasSameRoot
+HasSameRootOrSameComposedDoc
 (
 *
 aAnchorRef
@@ -22368,7 +22368,7 @@ Container
 |
 |
 !
-HasSameRoot
+HasSameRootOrSameComposedDoc
 (
 *
 aFocusRef
@@ -24032,8 +24032,9 @@ bool
 Selection
 :
 :
-HasSameRoot
+HasSameRootOrSameComposedDoc
 (
+const
 nsINode
 &
 aNode
