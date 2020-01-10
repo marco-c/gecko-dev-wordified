@@ -81,17 +81,6 @@ argv
 )
 ;
 BOOL
-GetUUIDTempFilePath
-(
-LPCWSTR
-basePath
-LPCWSTR
-prefix
-LPWSTR
-tmpPath
-)
-;
-BOOL
 WriteStatusFailure
 (
 LPCWSTR

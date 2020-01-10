@@ -464,7 +464,7 @@ wcsstr
 #
 include
 "
-win_dirent
+updateutils_win
 .
 h
 "
