@@ -5611,6 +5611,7 @@ nsINode
 *
 aNode
 )
+const
 override
 ;
 using
@@ -5673,6 +5674,7 @@ nsINode
 *
 aNode
 )
+const
 override
 ;
 /
@@ -5745,6 +5747,7 @@ Text
 &
 aText
 )
+const
 ;
 /
 *
@@ -6087,6 +6090,7 @@ parameter
 .
 *
 /
+static
 bool
 IsTextPropertySetByContent
 (

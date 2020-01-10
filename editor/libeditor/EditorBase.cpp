@@ -22450,6 +22450,7 @@ aCurrentNode
 bool
 bNoBlockCrossing
 )
+const
 {
 NS_ENSURE_TRUE
 (
@@ -22561,6 +22562,7 @@ aCurrentNode
 bool
 bNoBlockCrossing
 )
+const
 {
 NS_ENSURE_TRUE
 (
@@ -22669,6 +22671,7 @@ nsINode
 *
 aNode
 )
+const
 {
 /
 /
@@ -23114,6 +23117,7 @@ nsINode
 *
 aNode
 )
+const
 {
 return
 aNode

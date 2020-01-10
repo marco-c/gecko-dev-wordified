@@ -4853,6 +4853,7 @@ nsINode
 *
 aNode
 )
+const
 {
 return
 aNode
@@ -23687,6 +23688,7 @@ nsINode
 *
 aNode
 )
+const
 {
 MOZ_ASSERT
 (
@@ -26711,6 +26713,7 @@ Text
 &
 aText
 )
+const
 {
 nsISelectionController
 *

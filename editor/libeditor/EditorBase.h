@@ -9430,6 +9430,7 @@ nsINode
 *
 aNode
 )
+const
 ;
 /
 *
@@ -10223,6 +10224,7 @@ bNoBlockCrossing
 =
 false
 )
+const
 ;
 /
 *
@@ -10258,6 +10260,7 @@ bNoBlockCrossing
 =
 false
 )
+const
 ;
 /
 *
@@ -10417,6 +10420,7 @@ nsINode
 *
 aNode
 )
+const
 ;
 /
 *
@@ -10440,6 +10444,7 @@ nsINode
 *
 aNode
 )
+const
 {
 if
 (
