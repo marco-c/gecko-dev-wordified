@@ -1990,17 +1990,6 @@ _fetch_subst_locale
 =
 locale
         
-level
-=
-config
-.
-params
-[
-'
-level
-'
-]
-        
 build_platform
 =
 attributes
@@ -2509,23 +2498,10 @@ win
 worker_type
 =
 '
-aws
--
-provisioner
--
-v1
-/
-gecko
--
-%
-s
--
 b
 -
 win2012
 '
-%
-level
             
 run
 [
@@ -2575,23 +2551,10 @@ macosx
 worker_type
 =
 '
-aws
--
-provisioner
--
-v1
-/
-gecko
--
-%
-s
--
 b
 -
 linux
 '
-%
-level
             
 else
 :

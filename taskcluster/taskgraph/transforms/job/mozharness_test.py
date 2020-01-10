@@ -2315,14 +2315,6 @@ type
 startswith
 (
 '
-aws
--
-provisioner
--
-v1
-/
-gecko
--
 t
 -
 win10

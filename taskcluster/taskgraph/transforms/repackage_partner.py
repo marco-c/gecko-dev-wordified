@@ -911,17 +911,6 @@ repackage_type
 repackage
 '
         
-level
-=
-config
-.
-params
-[
-'
-level
-'
-]
-        
 repack_id
 =
 job
@@ -1239,23 +1228,10 @@ win
 worker_type
 =
 '
-aws
--
-provisioner
--
-v1
-/
-gecko
--
-%
-s
--
 b
 -
 win2012
 '
-%
-level
             
 run
 [
@@ -1289,23 +1265,10 @@ macosx
 worker_type
 =
 '
-aws
--
-provisioner
--
-v1
-/
-gecko
--
-%
-s
--
 b
 -
 linux
 '
-%
-level
             
 else
 :
