@@ -556,11 +556,6 @@ AllLogins
 "
 AboutLogins
 :
-UpdateBreaches
-"
-"
-AboutLogins
-:
 LoginAdded
 "
 "
