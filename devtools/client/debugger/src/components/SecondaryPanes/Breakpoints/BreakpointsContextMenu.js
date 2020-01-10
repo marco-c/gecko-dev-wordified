@@ -1377,7 +1377,7 @@ getStr
 "
 editor
 .
-addLogPoint
+editLogPoint
 .
 accesskey
 "
