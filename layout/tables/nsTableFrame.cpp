@@ -1502,7 +1502,10 @@ bool
 borderCollapse
 =
 (
-NS_STYLE_BORDER_COLLAPSE
+StyleBorderCollapse
+:
+:
+Collapse
 =
 =
 tableStyle

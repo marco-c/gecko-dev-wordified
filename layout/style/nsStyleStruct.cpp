@@ -10670,7 +10670,10 @@ mBorderSpacingRow
 )
 mBorderCollapse
 (
-NS_STYLE_BORDER_SEPARATE
+StyleBorderCollapse
+:
+:
+Separate
 )
 mCaptionSide
 (

@@ -15585,7 +15585,10 @@ mBorderSpacingCol
 nscoord
 mBorderSpacingRow
 ;
-uint8_t
+mozilla
+:
+:
+StyleBorderCollapse
 mBorderCollapse
 ;
 uint8_t
