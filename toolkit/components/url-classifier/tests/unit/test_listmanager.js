@@ -1214,7 +1214,6 @@ tableName
 "
 "
 ]
-1
 )
 ;
 gExpectedQueryV4
@@ -1315,7 +1314,6 @@ btoa
 NEW_CLIENT_STATE
 )
 ]
-1
 )
 ;
 gExpectedQueryV4
