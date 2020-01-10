@@ -758,6 +758,9 @@ mod
 render_backend
 ;
 mod
+render_target
+;
+mod
 render_task_graph
 ;
 mod
