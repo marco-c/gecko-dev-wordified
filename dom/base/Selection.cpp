@@ -1178,7 +1178,7 @@ aPresContext
 ;
 mContent
 =
-nsIPresShell
+PresShell
 :
 :
 GetCapturingContent

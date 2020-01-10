@@ -1947,7 +1947,7 @@ off
 mouse
 capture
 .
-nsIPresShell
+PresShell
 :
 :
 ClearMouseCapture
