@@ -10956,7 +10956,7 @@ mDisplay
 ;
 }
 bool
-IsOriginalDisplayInlineOutsideStyle
+IsOriginalDisplayInlineOutside
 (
 )
 const
@@ -11908,17 +11908,6 @@ const
 inline
 bool
 IsInlineOutside
-(
-const
-nsIFrame
-*
-aContextFrame
-)
-const
-;
-inline
-bool
-IsOriginalDisplayInlineOutside
 (
 const
 nsIFrame

@@ -11314,7 +11314,7 @@ if
 mStyleDisplay
 -
 >
-IsOriginalDisplayInlineOutsideStyle
+IsOriginalDisplayInlineOutside
 (
 )
 )
@@ -11843,7 +11843,7 @@ if
 mStyleDisplay
 -
 >
-IsOriginalDisplayInlineOutsideStyle
+IsOriginalDisplayInlineOutside
 (
 )
 |
