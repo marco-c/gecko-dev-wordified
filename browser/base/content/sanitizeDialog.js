@@ -1630,7 +1630,7 @@ setBoolPref
 (
 p
 .
-name
+id
 p
 .
 value

@@ -2228,7 +2228,7 @@ set
 (
 pref
 .
-name
+id
 pref
 .
 value
@@ -2285,7 +2285,7 @@ has
 (
 pref
 .
-name
+id
 )
 )
 {
@@ -2299,7 +2299,7 @@ get
 (
 pref
 .
-name
+id
 )
 ;
 }
