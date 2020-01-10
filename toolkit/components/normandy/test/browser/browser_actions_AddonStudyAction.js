@@ -263,6 +263,7 @@ is
 unchanged
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 AddonStudies
@@ -508,6 +509,7 @@ reported
 .
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 withSendEventStub
@@ -704,6 +706,7 @@ check
 fails
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 withSendEventStub
@@ -901,6 +904,7 @@ metadata
 mismatch
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 withSendEventStub
@@ -1127,6 +1131,7 @@ not
 enroll
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 withSendEventStub
@@ -1379,6 +1384,7 @@ successful
 enrollment
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 withSendEventStub
@@ -1832,6 +1838,7 @@ successful
 update
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 AddonStudies
@@ -2248,6 +2255,7 @@ not
 match
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 AddonStudies
@@ -2583,6 +2591,7 @@ not
 exist
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 AddonStudies
@@ -2939,6 +2948,7 @@ download
 fails
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 AddonStudies
@@ -3270,6 +3280,7 @@ check
 fails
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 AddonStudies
@@ -3614,6 +3625,7 @@ extension
 version
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 AddonStudies
@@ -3953,6 +3965,7 @@ with
 metadata
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 AddonStudies
@@ -4392,6 +4405,7 @@ t
 exist
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 AddonStudies
 .
@@ -4455,6 +4469,7 @@ experiment
 fails
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 AddonStudies
 .
@@ -4547,6 +4562,7 @@ com
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 AddonStudies
 .
@@ -4788,6 +4804,7 @@ still
 successful
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 AddonStudies
 .
@@ -4903,6 +4920,7 @@ opt
 out
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 withSendEventStub
@@ -5097,6 +5115,7 @@ paused
 recipes
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 withSendEventStub
@@ -5290,6 +5309,7 @@ paused
 recipes
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 AddonStudies
@@ -5652,6 +5672,7 @@ no
 hash
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 AddonStudies
@@ -6081,6 +6102,7 @@ already
 enrolled
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 AddonStudies
 .

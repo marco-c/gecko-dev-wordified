@@ -325,6 +325,7 @@ args
 }
 decorate_task
 (
+withStudiesEnabled
 withStub
 (
 PreferenceExperimentAction
