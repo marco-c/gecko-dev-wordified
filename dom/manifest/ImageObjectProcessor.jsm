@@ -1301,12 +1301,6 @@ from
 (
 sizes
 )
-.
-join
-(
-"
-"
-)
 :
 undefined
 ;

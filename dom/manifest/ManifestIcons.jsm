@@ -230,12 +230,6 @@ sizes
 ;
 sizes
 .
-split
-(
-"
-"
-)
-.
 forEach
 (
 size
