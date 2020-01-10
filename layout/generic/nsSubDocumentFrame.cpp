@@ -3679,8 +3679,8 @@ presShell
 >
 AddPrintPreviewBackgroundItem
 (
-*
 aBuilder
+&
 childItems
 frame
 bounds
@@ -3747,8 +3747,8 @@ presShell
 >
 AddCanvasBackgroundColorItem
 (
-*
 aBuilder
+&
 childItems
 frame
 bounds
@@ -4265,8 +4265,8 @@ presShell
 >
 AddCanvasBackgroundColorItem
 (
-*
 aBuilder
+&
 childItems
 this
 bounds

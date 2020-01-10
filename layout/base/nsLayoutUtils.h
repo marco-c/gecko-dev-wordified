@@ -7387,7 +7387,7 @@ nsIFrame
 *
 aFrame
 nsDisplayListBuilder
-&
+*
 aBuilder
 )
 ;
@@ -15920,10 +15920,10 @@ void
 AddExtraBackgroundItems
 (
 nsDisplayListBuilder
-&
+*
 aBuilder
 nsDisplayList
-&
+*
 aList
 nsIFrame
 *
@@ -19837,7 +19837,7 @@ bool
 MaybeCreateDisplayPort
 (
 nsDisplayListBuilder
-&
+*
 aBuilder
 nsIFrame
 *

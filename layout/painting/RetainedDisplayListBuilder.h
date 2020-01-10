@@ -1030,7 +1030,7 @@ nsIFrame
 *
 aFrame
 nsDisplayListBuilder
-&
+*
 aBuilder
 nsIFrame
 *
