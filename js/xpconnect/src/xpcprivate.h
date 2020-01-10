@@ -11457,6 +11457,7 @@ JSObject
 aJSObj
 )
 ;
+static
 nsresult
 CallMethod
 (

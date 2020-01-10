@@ -3987,11 +3987,9 @@ NS_ERROR_UNEXPECTED
 ;
 }
 return
-GetClass
-(
-)
--
->
+nsXPCWrappedJSClass
+:
+:
 CallMethod
 (
 this
