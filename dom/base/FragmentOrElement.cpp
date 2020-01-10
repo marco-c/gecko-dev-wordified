@@ -6694,12 +6694,8 @@ if
 targetInKnownToBeHandledScope
 &
 &
-nsContentUtils
-:
-:
-ContentIsShadowIncludingDescendantOf
+IsShadowIncludingInclusiveDescendantOf
 (
-this
 targetInKnownToBeHandledScope
 -
 >
