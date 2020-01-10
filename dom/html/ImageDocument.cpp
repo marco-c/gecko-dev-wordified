@@ -3900,8 +3900,10 @@ Add
 the
 image
 element
+RefPtr
+<
 Element
-*
+>
 body
 =
 GetBodyElement

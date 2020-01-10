@@ -1062,8 +1062,10 @@ then
 attach
 our
 plugin
+RefPtr
+<
 Element
-*
+>
 body
 =
 GetBodyElement
