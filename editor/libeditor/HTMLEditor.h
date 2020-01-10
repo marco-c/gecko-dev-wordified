@@ -5676,7 +5676,7 @@ bool
 *
 outIsEmptyBlock
 bool
-aMozBRDoesntCount
+aSingleBRDoesntCount
 =
 false
 bool
@@ -5699,7 +5699,7 @@ bool
 *
 outIsEmptyBlock
 bool
-aMozBRDoesntCount
+aSingleBRDoesntCount
 bool
 aListOrCellNotEmpty
 bool

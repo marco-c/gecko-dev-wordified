@@ -3869,18 +3869,8 @@ brElement
 brElement
 -
 >
-AttrValueIs
+IsPaddingForEmptyLastLine
 (
-kNameSpaceID_None
-nsGkAtoms
-:
-:
-type
-nsGkAtoms
-:
-:
-moz
-eIgnoreCase
 )
 &
 &
@@ -3895,7 +3885,7 @@ IsPaddingForEmptyEditor
 }
 static
 bool
-IsMozBR
+IsPaddingBR
 (
 nsIContent
 *
@@ -10532,7 +10522,7 @@ mRootContent
 )
 |
 |
-IsMozBR
+IsPaddingBR
 (
 node
 -
@@ -11275,7 +11265,7 @@ mRootContent
 )
 |
 |
-IsMozBR
+IsPaddingBR
 (
 node
 -
@@ -11667,7 +11657,7 @@ mRootContent
 )
 |
 |
-IsMozBR
+IsPaddingBR
 (
 aFrame
 -
@@ -13799,7 +13789,7 @@ mRootContent
 )
 |
 |
-IsMozBR
+IsPaddingBR
 (
 firstContent
 )
