@@ -81,8 +81,6 @@ profiler
 .
 GetFeatures
 (
-[
-]
 )
 ;
 Assert
