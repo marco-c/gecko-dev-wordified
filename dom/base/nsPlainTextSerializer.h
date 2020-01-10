@@ -613,6 +613,15 @@ noOfRows
 )
 ;
 void
+ConvertToLinesAndOutput
+(
+const
+nsAString
+&
+aString
+)
+;
+void
 Write
 (
 const
