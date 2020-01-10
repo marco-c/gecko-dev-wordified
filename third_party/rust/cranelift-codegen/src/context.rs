@@ -1824,6 +1824,11 @@ mut
 self
 .
 func
+&
+mut
+self
+.
+cfg
 )
 ;
 self
