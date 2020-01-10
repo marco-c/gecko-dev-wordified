@@ -20506,7 +20506,7 @@ PR_FALSE
 ;
 #
 ifndef
-NSS_TEST_BUILD
+NSS_STATIC_SOFTOKEN
 /
 *
 unload

@@ -1921,7 +1921,7 @@ hasRootCerts
 }
 #
 ifndef
-NSS_TEST_BUILD
+NSS_STATIC_SOFTOKEN
 static
 const
 char
@@ -2172,7 +2172,7 @@ NULL
 {
 #
 ifdef
-NSS_TEST_BUILD
+NSS_STATIC_SOFTOKEN
 entry
 =
 (
@@ -2301,7 +2301,7 @@ CK_C_GetFunctionList
 )
 #
 ifdef
-NSS_TEST_BUILD
+NSS_STATIC_SOFTOKEN
 NSC_ModuleDBFunc
 ;
 #
@@ -3461,7 +3461,7 @@ NULL
 {
 #
 ifndef
-NSS_TEST_BUILD
+NSS_STATIC_SOFTOKEN
 if
 (
 0
