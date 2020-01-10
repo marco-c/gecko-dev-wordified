@@ -264,6 +264,8 @@ kClassID
 {
 AddStateBits
 (
+NS_FRAME_SVG_LAYOUT
+|
 NS_FRAME_IS_NONDISPLAY
 )
 ;
