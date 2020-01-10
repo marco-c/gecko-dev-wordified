@@ -1268,6 +1268,15 @@ intermittent_logs
 '
 ]
         
+harness_errors
+=
+summary
+[
+'
+harness_errors
+'
+]
+        
 rv
 =
 [
@@ -1743,7 +1752,7 @@ status_str
         
 #
 Format
-status
+intermittents
         
 if
 intermittents
@@ -1933,8 +1942,12 @@ rstrip
 )
 )
         
-if
-not
+#
+Format
+status
+        
+testfailed
+=
 any
 (
 count
@@ -1961,6 +1974,13 @@ assert
 '
 )
 )
+        
+if
+not
+testfailed
+and
+not
+harness_errors
 :
             
 rv
@@ -1981,6 +2001,11 @@ OK
         
 else
 :
+            
+#
+Format
+test
+failures
             
 heading
 =
@@ -2160,6 +2185,33 @@ data
 .
 rstrip
 (
+)
+)
+            
+#
+Format
+harness
+errors
+            
+if
+harness_errors
+:
+                
+for
+data
+in
+harness_errors
+:
+                    
+rv
+.
+append
+(
+self
+.
+log
+(
+data
 )
 )
         
