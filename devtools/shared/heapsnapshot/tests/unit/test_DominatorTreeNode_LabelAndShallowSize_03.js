@@ -213,9 +213,7 @@ bytes
 strings
 :
 {
-"
 JSString
-"
 :
 {
 count

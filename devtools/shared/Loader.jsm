@@ -277,9 +277,7 @@ TOOLS
 REQUIRED
 BEFORE
 MODIFYING
-"
 devtools
-"
 :
 "
 resource
@@ -300,9 +298,7 @@ TOOLS
 REQUIRED
 BEFORE
 MODIFYING
-"
 acorn
-"
 :
 "
 resource

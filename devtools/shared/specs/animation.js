@@ -170,9 +170,7 @@ animationplayer
 events
 :
 {
-"
 changed
-"
 :
 {
 type
@@ -298,9 +296,7 @@ animations
 events
 :
 {
-"
 mutations
-"
 :
 {
 type

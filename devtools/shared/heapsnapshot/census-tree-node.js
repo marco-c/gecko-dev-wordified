@@ -2144,6 +2144,7 @@ node
 {
 return
 (
+(
 node
 .
 children
@@ -2177,6 +2178,7 @@ count
 =
 =
 0
+)
 ;
 }
 /
@@ -3172,6 +3174,7 @@ node2
 )
 {
 return
+(
 Math
 .
 abs
@@ -3245,6 +3248,7 @@ abs
 node1
 .
 count
+)
 )
 ;
 }
@@ -3319,6 +3323,7 @@ node2
 )
 {
 return
+(
 Math
 .
 abs
@@ -3392,6 +3397,7 @@ abs
 node1
 .
 totalCount
+)
 )
 ;
 }
@@ -4084,9 +4090,9 @@ pop
 )
 ;
 }
+)
 (
 tree
-)
 )
 ;
 /
@@ -4608,6 +4614,7 @@ name
 )
 {
 return
+(
 node
 .
 name
@@ -4653,6 +4660,7 @@ asyncCause
 includes
 (
 filterString
+)
 )
 ;
 }
@@ -5155,9 +5163,9 @@ i
 }
 }
 }
+)
 (
 result
-)
 )
 ;
 return

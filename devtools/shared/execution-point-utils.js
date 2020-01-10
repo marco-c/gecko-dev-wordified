@@ -1100,6 +1100,7 @@ posB
 )
 {
 return
+(
 posA
 .
 kind
@@ -1138,6 +1139,7 @@ frameIndex
 posB
 .
 frameIndex
+)
 ;
 }
 /

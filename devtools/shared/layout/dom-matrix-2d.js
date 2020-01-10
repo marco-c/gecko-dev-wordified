@@ -1111,9 +1111,7 @@ otherwise
 const
 isIdentity
 =
-(
 M
-)
 =
 >
 M

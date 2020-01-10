@@ -90,9 +90,7 @@ const
 REPORT1
 =
 {
-"
 Array
-"
 :
 {
 count
@@ -102,9 +100,7 @@ bytes
 :
 100
 }
-"
 Function
-"
 :
 {
 count
@@ -114,9 +110,7 @@ bytes
 :
 10
 }
-"
 other
-"
 :
 {
 count
@@ -132,9 +126,7 @@ const
 REPORT2
 =
 {
-"
 Object
-"
 :
 {
 count
@@ -144,9 +136,7 @@ bytes
 :
 100
 }
-"
 Function
-"
 :
 {
 count
@@ -156,9 +146,7 @@ bytes
 :
 20
 }
-"
 other
-"
 :
 {
 count
@@ -174,9 +162,7 @@ const
 EXPECTED
 =
 {
-"
 Array
-"
 :
 {
 count
@@ -188,9 +174,7 @@ bytes
 -
 100
 }
-"
 Function
-"
 :
 {
 count
@@ -200,9 +184,7 @@ bytes
 :
 10
 }
-"
 other
-"
 :
 {
 count
@@ -212,9 +194,7 @@ bytes
 :
 0
 }
-"
 Object
-"
 :
 {
 count

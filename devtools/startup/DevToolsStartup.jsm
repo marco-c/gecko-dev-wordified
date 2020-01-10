@@ -3037,9 +3037,7 @@ tooltiptext2
 "
 onViewShowing
 :
-(
 event
-)
 =
 >
 {
@@ -3274,9 +3272,7 @@ ownerDocument
 }
 onBeforeCreated
 :
-(
 doc
-)
 =
 >
 {

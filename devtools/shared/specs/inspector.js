@@ -517,9 +517,7 @@ media
 -
 queries
 .
-"
 resize
-"
 :
 {
 type

@@ -531,9 +531,7 @@ const
 options
 =
 {
-"
 set
-"
 :
 [
 [

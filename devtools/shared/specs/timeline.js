@@ -181,9 +181,7 @@ strings
 {
 write
 :
-(
 v
-)
 =
 >
 v
@@ -214,11 +212,10 @@ case
 .
 read
 :
-(
 v
-)
 =
 >
+(
 typeof
 v
 =
@@ -237,6 +234,7 @@ split
 )
 :
 v
+)
 }
 )
 ;
@@ -345,9 +343,7 @@ started
 .
 *
 /
-"
 markers
-"
 :
 {
 type
@@ -417,9 +413,7 @@ started
 .
 *
 /
-"
 memory
-"
 :
 {
 type
@@ -490,9 +484,7 @@ epoch
 .
 *
 /
-"
 ticks
-"
 :
 {
 type
@@ -567,9 +559,7 @@ started
 .
 *
 /
-"
 frames
-"
 :
 {
 type

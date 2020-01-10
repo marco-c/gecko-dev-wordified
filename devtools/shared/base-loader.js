@@ -4080,9 +4080,7 @@ options
 "
 :
 options
-"
 chrome
-"
 :
 {
 Cc

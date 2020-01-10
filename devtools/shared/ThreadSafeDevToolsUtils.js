@@ -2110,14 +2110,12 @@ null
 |
 |
 typeof
-(
 values
 [
 Symbol
 .
 iterator
 ]
-)
 !
 =
 "
@@ -2331,11 +2329,9 @@ value
 &
 &
 typeof
-(
 value
 .
 then
-)
 =
 =
 "

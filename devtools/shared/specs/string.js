@@ -464,9 +464,7 @@ supported
 if
 (
 typeof
-(
 value
-)
 =
 =
 =

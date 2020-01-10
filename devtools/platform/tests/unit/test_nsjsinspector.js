@@ -117,9 +117,7 @@ connections
 var
 requestor
 =
-(
 count
-)
 =
 >
 (

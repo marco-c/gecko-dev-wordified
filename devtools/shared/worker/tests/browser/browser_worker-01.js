@@ -310,12 +310,10 @@ x
 ;
 is
 (
-(
 await
 fn
 (
 5
-)
 )
 25
 workerify
@@ -419,14 +417,12 @@ correct
 ;
 is
 (
-(
 await
 workerFn
 (
 {
 buf
 }
-)
 )
 8
 "
@@ -457,7 +453,6 @@ transferred
 ;
 is
 (
-(
 await
 workerFn
 (
@@ -467,7 +462,6 @@ buf
 [
 buf
 ]
-)
 )
 8
 "

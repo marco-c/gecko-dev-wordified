@@ -262,6 +262,7 @@ uri
 )
 {
 return
+(
 nsIAboutModule
 .
 ALLOW_SCRIPT
@@ -273,6 +274,7 @@ ENABLE_INDEXED_DB
 nsIAboutModule
 .
 HIDE_FROM_ABOUTABOUT
+)
 ;
 }
 }

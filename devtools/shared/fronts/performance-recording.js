@@ -408,7 +408,6 @@ b
 )
 =
 >
-(
 a
 .
 start
@@ -416,7 +415,6 @@ start
 b
 .
 start
-)
 )
 ;
 this

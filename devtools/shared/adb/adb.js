@@ -1021,11 +1021,13 @@ socketPaths
 .
 .
 .
+(
 await
 device
 .
 getRuntimeSocketPaths
 (
+)
 )
 ]
 ;

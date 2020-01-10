@@ -345,6 +345,7 @@ choose
 var
 AuthenticationResult
 =
+(
 exports
 .
 AuthenticationResult
@@ -470,6 +471,7 @@ ALLOW_PERSIST
 :
 null
 }
+)
 )
 ;
 /
@@ -640,12 +642,14 @@ trusted
 var
 Prompt
 =
+(
 Authenticators
 .
 Prompt
 =
 {
 }
+)
 ;
 Prompt
 .
@@ -1608,12 +1612,14 @@ design
 var
 OOBCert
 =
+(
 Authenticators
 .
 OOBCert
 =
 {
 }
+)
 ;
 OOBCert
 .
@@ -2155,9 +2161,7 @@ hooks
 onPacket
 :
 async
-(
 packet
-)
 =
 >
 {

@@ -109,14 +109,10 @@ const
 REPORT
 =
 {
-"
 objects
-"
 :
 {
-"
 Function
-"
 :
 {
 bytes
@@ -126,9 +122,7 @@ count
 :
 1
 }
-"
 Array
-"
 :
 {
 bytes
@@ -139,9 +133,7 @@ count
 2
 }
 }
-"
 strings
-"
 :
 {
 bytes
@@ -151,9 +143,7 @@ count
 :
 1
 }
-"
 scripts
-"
 :
 {
 bytes
@@ -163,9 +153,7 @@ count
 :
 1
 }
-"
 other
-"
 :
 {
 "
@@ -199,9 +187,7 @@ count
 4
 }
 }
-"
 domNode
-"
 :
 {
 bytes

@@ -133,6 +133,7 @@ factory
 ;
 }
 }
+)
 (
 this
 function
@@ -853,6 +854,5 @@ createTask
 }
 ;
 }
-)
 )
 ;

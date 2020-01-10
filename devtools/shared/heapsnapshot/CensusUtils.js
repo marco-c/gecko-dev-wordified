@@ -2370,6 +2370,7 @@ bytes
 const
 basisTotalBytes
 =
+(
 exports
 .
 basisTotalBytes
@@ -2380,10 +2381,12 @@ Symbol
 basisTotalBytes
 "
 )
+)
 ;
 const
 basisTotalCount
 =
+(
 exports
 .
 basisTotalCount
@@ -2393,6 +2396,7 @@ Symbol
 "
 basisTotalCount
 "
+)
 )
 ;
 /

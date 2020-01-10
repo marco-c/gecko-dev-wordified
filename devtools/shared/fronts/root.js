@@ -1476,11 +1476,9 @@ filter
 if
 (
 typeof
-(
 filter
 .
 outerWindowID
-)
 =
 =
 "
@@ -1501,11 +1499,9 @@ else
 if
 (
 typeof
-(
 filter
 .
 tabId
-)
 =
 =
 "

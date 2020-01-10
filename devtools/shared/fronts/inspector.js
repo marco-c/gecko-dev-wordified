@@ -1406,6 +1406,7 @@ options
 const
 searchData
 =
+(
 this
 .
 searchData
@@ -1417,6 +1418,7 @@ searchData
 |
 {
 }
+)
 ;
 const
 result

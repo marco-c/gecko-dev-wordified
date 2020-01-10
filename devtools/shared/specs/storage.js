@@ -739,16 +739,12 @@ addDictType
 cacheobject
 "
 {
-"
 url
-"
 :
 "
 string
 "
-"
 status
-"
 :
 "
 string

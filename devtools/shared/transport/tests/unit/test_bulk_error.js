@@ -148,9 +148,7 @@ prototype
 requestTypes
 =
 {
-"
 jsonReply
-"
 :
 TestBulkActor
 .
@@ -359,9 +357,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

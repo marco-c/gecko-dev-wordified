@@ -775,9 +775,7 @@ Receiver
 new
 Promise
 (
-(
 receiverResolve
-)
 =
 >
 {
@@ -796,9 +794,7 @@ length
 length
 copyTo
 :
-(
 output
-)
 =
 >
 {
@@ -901,9 +897,7 @@ return
 new
 Promise
 (
-(
 senderResolve
-)
 =
 >
 {
@@ -941,12 +935,11 @@ executeSoon
 >
 {
 return
+(
 new
 Promise
 (
-(
 copyResolve
-)
 =
 >
 {
@@ -955,9 +948,7 @@ senderResolve
 {
 copyFrom
 :
-(
 input
-)
 =
 >
 {
@@ -1024,6 +1015,7 @@ close
 this
 .
 close
+)
 )
 ;
 }

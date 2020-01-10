@@ -1915,9 +1915,7 @@ task
 if
 (
 typeof
-(
 task
-)
 !
 =
 "
@@ -2040,9 +2038,7 @@ task
 &
 &
 typeof
-(
 task
-)
 =
 =
 "
@@ -2372,11 +2368,9 @@ this
 .
 _stack
 =
-(
 new
 Error
 (
-)
 )
 .
 stack
@@ -3110,11 +3104,9 @@ value
 &
 &
 typeof
-(
 value
 .
 then
-)
 =
 =
 "

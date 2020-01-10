@@ -457,6 +457,7 @@ Shift
 "
 ;
 return
+(
 modifier
 +
 keyShortcutsBundle
@@ -468,6 +469,7 @@ toggleToolbox
 .
 commandkey
 "
+)
 )
 ;
 }

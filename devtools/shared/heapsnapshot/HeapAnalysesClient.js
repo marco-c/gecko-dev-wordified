@@ -185,6 +185,7 @@ method
 const
 HeapAnalysesClient
 =
+(
 module
 .
 exports
@@ -222,6 +223,7 @@ wantVerbose
 )
 ;
 }
+)
 ;
 /
 *

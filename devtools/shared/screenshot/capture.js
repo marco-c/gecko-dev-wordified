@@ -978,6 +978,7 @@ split
 ]
 ;
 return
+(
 L10N
 .
 getFormatStr
@@ -993,5 +994,6 @@ timeString
 .
 png
 "
+)
 ;
 }

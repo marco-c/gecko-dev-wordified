@@ -626,14 +626,12 @@ getStartingBufferStatus
 const
 normalizedCurrent
 =
-(
 totalSize
 *
 (
 currentGeneration
 -
 origGeneration
-)
 )
 +
 currentPosition

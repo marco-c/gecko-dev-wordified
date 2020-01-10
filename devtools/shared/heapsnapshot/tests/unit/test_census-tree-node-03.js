@@ -91,9 +91,7 @@ const
 REPORT
 =
 {
-"
 Function
-"
 :
 {
 bytes
@@ -103,9 +101,7 @@ count
 :
 10
 }
-"
 Array
-"
 :
 {
 bytes
@@ -115,9 +111,7 @@ count
 :
 1
 }
-"
 other
-"
 :
 {
 "

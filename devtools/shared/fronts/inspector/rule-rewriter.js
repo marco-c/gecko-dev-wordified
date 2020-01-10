@@ -1909,9 +1909,7 @@ stack
 const
 popSomeParens
 =
-(
 closer
-)
 =
 >
 {
@@ -2560,6 +2558,8 @@ this
 declarations
 .
 length
+|
+|
 /
 /
 No
@@ -2570,9 +2570,6 @@ declarations
 in
 comments
 .
-|
-|
-(
 "
 commentOffsets
 "
@@ -2583,7 +2580,6 @@ declarations
 [
 index
 ]
-)
 )
 {
 return

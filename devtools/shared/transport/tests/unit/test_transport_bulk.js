@@ -164,9 +164,7 @@ clientDeferred
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -186,9 +184,7 @@ serverDeferred
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -762,9 +758,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

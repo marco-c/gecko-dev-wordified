@@ -532,6 +532,7 @@ transport
 )
 {
 return
+(
 JSONPacket
 .
 fromHeader
@@ -547,6 +548,7 @@ fromHeader
 (
 header
 transport
+)
 )
 ;
 }
@@ -1601,9 +1603,7 @@ _readyForWriting
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -1861,9 +1861,7 @@ pauseIncoming
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -1891,9 +1889,7 @@ this
 length
 copyTo
 :
-(
 output
-)
 =
 >
 {
@@ -2217,9 +2213,7 @@ pauseOutgoing
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -2232,9 +2226,7 @@ resolve
 {
 copyFrom
 :
-(
 input
-)
 =
 >
 {

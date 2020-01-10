@@ -369,9 +369,7 @@ positions
 .
 map
 (
-(
 position
-)
 =
 >
 {
@@ -432,9 +430,7 @@ _map
 .
 eachMapping
 (
-(
 entry
-)
 =
 >
 {

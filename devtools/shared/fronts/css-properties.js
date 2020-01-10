@@ -1244,6 +1244,7 @@ property
 {
 return
 (
+(
 this
 .
 properties
@@ -1266,6 +1267,7 @@ isInherited
 isCssVariable
 (
 property
+)
 )
 ;
 }
@@ -1331,6 +1333,7 @@ type
 ]
 ;
 return
+(
 this
 .
 properties
@@ -1367,6 +1370,7 @@ supports
 includes
 (
 id
+)
 )
 )
 ;
@@ -2161,11 +2165,9 @@ database
 if
 (
 typeof
-(
 db
 .
 from
-)
 =
 =
 "
