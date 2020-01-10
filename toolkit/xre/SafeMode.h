@@ -268,7 +268,7 @@ checkArgFlags
 CheckArgFlag
 :
 :
-CheckOSInt
+None
 ;
 if
 (
