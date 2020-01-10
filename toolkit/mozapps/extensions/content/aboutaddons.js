@@ -18673,8 +18673,11 @@ setSections
 {
 headingId
 :
+this
+.
+type
++
 "
-addons
 -
 enabled
 -
@@ -18708,8 +18711,11 @@ uninstall
 {
 headingId
 :
+this
+.
+type
++
 "
-addons
 -
 disabled
 -
