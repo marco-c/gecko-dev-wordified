@@ -126,7 +126,7 @@ String
 LOGTAG
 =
 "
-GeckoRemoteMediaDrmBridgeStub
+RemoteDrmBridgeStub
 "
 ;
 private

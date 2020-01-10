@@ -175,7 +175,7 @@ String
 LOGTAG
 =
 "
-GeckoHardwareCodecCapabilityUtils
+HardwareCodecCapability
 "
 ;
 /

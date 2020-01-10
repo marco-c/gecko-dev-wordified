@@ -2319,7 +2319,7 @@ mobile
 /
 android
 /
-app
+geckoview
 /
 reports
 /
@@ -2338,6 +2338,10 @@ format
 report
 )
 )
+#
+NOQA
+:
+E501
                      
 '
 rt

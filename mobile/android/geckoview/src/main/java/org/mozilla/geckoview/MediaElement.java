@@ -2864,6 +2864,7 @@ the
 current
 video
 state
+UiThread
 /
 *
 package
@@ -3046,6 +3047,7 @@ state
 ;
 }
 }
+UiThread
 /
 *
 package
@@ -3077,6 +3079,7 @@ readyState
 ;
 }
 }
+UiThread
 /
 *
 package
@@ -3112,6 +3115,7 @@ message
 ;
 }
 }
+UiThread
 /
 *
 package
@@ -3143,6 +3147,7 @@ currentTime
 ;
 }
 }
+UiThread
 /
 *
 package
@@ -3178,6 +3183,7 @@ muted
 ;
 }
 }
+UiThread
 /
 *
 package
@@ -3209,6 +3215,7 @@ rate
 ;
 }
 }
+UiThread
 /
 *
 package
@@ -3244,6 +3251,7 @@ message
 ;
 }
 }
+UiThread
 /
 *
 package
@@ -3275,6 +3283,7 @@ fullscreen
 ;
 }
 }
+UiThread
 /
 *
 package
