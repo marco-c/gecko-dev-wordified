@@ -4489,7 +4489,7 @@ GetStart
 )
 lib
 .
-GetNativeDebugPath
+GetDebugPath
 (
 )
 )
