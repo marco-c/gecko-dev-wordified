@@ -5340,6 +5340,11 @@ AutoLockGC
 lock
 )
 ;
+void
+decommitAllArenas
+(
+)
+;
 /
 /
 This
@@ -5399,11 +5404,6 @@ rt
 ;
 private
 :
-void
-decommitAllArenas
-(
-)
-;
 /
 *
 Search
