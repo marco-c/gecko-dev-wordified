@@ -995,6 +995,9 @@ pixman_fixed_t
 )
 (
 (
+uint32_t
+)
+(
 i
 )
 <
