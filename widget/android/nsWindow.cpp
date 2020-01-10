@@ -8953,6 +8953,13 @@ InitNatives
 (
 )
 {
+jni
+:
+:
+InitConversionStatics
+(
+)
+;
 nsWindow
 :
 :
