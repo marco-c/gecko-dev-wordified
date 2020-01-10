@@ -258,7 +258,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 await
@@ -347,7 +347,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 await
@@ -836,7 +836,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 await
@@ -910,7 +910,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 await

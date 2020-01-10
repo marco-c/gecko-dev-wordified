@@ -9339,7 +9339,7 @@ originAttributes
 nsICookie2
 :
 :
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 )
 )
@@ -9426,7 +9426,7 @@ originAttributes
 nsICookie2
 :
 :
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 )
 )
@@ -9507,7 +9507,7 @@ originAttributes
 nsICookie2
 :
 :
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 )
 )
@@ -10054,7 +10054,7 @@ originAttributes
 nsICookie2
 :
 :
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 )
 )
@@ -11300,7 +11300,7 @@ sameSiteAttr
 nsICookie2
 :
 :
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 }
@@ -11325,7 +11325,7 @@ sameSiteAttr
 nsICookie2
 :
 :
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 }
@@ -11350,7 +11350,7 @@ sameSiteAttr
 nsICookie2
 :
 :
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 }
@@ -11375,7 +11375,7 @@ sameSiteAttr
 nsICookie2
 :
 :
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 }

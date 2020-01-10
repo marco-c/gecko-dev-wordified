@@ -100,7 +100,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 Services
@@ -129,7 +129,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 Services
@@ -158,7 +158,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 Services
@@ -187,7 +187,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 Services
@@ -220,7 +220,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 await

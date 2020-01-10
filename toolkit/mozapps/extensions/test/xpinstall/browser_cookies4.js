@@ -185,7 +185,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 var
