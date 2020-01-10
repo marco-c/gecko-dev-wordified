@@ -9096,6 +9096,8 @@ if
 aReferrerInfo
 )
 {
+if
+(
 nsCOMPtr
 <
 nsIURI
@@ -9108,7 +9110,8 @@ aReferrerInfo
 GetComputedReferrer
 (
 )
-;
+)
+{
 *
 aOut
 =
@@ -9119,6 +9122,7 @@ GetSpecOrDefault
 (
 )
 ;
+}
 }
 }
 template
