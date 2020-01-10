@@ -3055,6 +3055,7 @@ preferences
 .
 *
 /
+async
 function
 clearDebuggerPreferences
 (
@@ -3246,6 +3247,21 @@ enabled
 "
 )
 ;
+await
+pushPref
+(
+"
+devtools
+.
+debugger
+.
+log
+-
+actions
+"
+true
+)
+;
 }
 /
 *
@@ -3286,6 +3302,7 @@ url
 sources
 )
 {
+await
 clearDebuggerPreferences
 (
 )
@@ -3343,6 +3360,7 @@ url
 pane
 )
 {
+await
 clearDebuggerPreferences
 (
 )
