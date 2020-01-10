@@ -174,6 +174,14 @@ path
 '
 rebuild
 '
+        
+'
+visual
+-
+metrics
+-
+jobs
+'
     
 ]
 def
