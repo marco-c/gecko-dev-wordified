@@ -216,6 +216,7 @@ libraryButton
 "
 start
 "
+0
 )
 ;
 ok
@@ -274,6 +275,7 @@ skippedItem
 "
 start
 "
+0
 )
 ;
 let
