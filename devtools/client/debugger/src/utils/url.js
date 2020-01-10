@@ -70,6 +70,17 @@ from
 lodash
 "
 ;
+import
+{
+URL
+}
+from
+"
+whatwg
+-
+url
+"
+;
 const
 defaultUrl
 =
