@@ -1309,8 +1309,6 @@ HTMLObjectElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -1411,7 +1409,6 @@ nsObjectLoadingContent
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;
@@ -1420,7 +1417,6 @@ nsGenericHTMLFormElement
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;

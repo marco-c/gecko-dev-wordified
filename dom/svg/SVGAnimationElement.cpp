@@ -1315,8 +1315,6 @@ SVGAnimationElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -1368,7 +1366,6 @@ SVGAnimationElementBase
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;

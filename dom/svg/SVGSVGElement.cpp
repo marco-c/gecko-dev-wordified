@@ -2995,8 +2995,6 @@ SVGSVGElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -3019,7 +3017,6 @@ SVGGraphicsElement
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;

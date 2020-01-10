@@ -279,8 +279,6 @@ XULTreeElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -361,7 +359,6 @@ nsXULElement
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;

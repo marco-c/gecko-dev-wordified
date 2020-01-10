@@ -408,8 +408,6 @@ HTMLLegendElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -418,7 +416,6 @@ nsGenericHTMLElement
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;

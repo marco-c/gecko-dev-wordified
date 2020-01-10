@@ -346,10 +346,6 @@ void
 UnbindFromTree
 (
 bool
-aDeep
-=
-true
-bool
 aNullParent
 =
 true
@@ -820,8 +816,6 @@ nsTextNode
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -835,7 +829,6 @@ CharacterData
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;
@@ -1447,8 +1440,6 @@ nsAttributeTextNode
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -1523,7 +1514,6 @@ nsTextNode
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;

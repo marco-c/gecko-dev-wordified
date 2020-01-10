@@ -3764,8 +3764,6 @@ HTMLImageElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -3826,7 +3824,6 @@ nsImageLoadingContent
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;
@@ -3835,7 +3832,6 @@ nsGenericHTMLElement
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;

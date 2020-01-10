@@ -255,8 +255,6 @@ nsXMLElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -363,7 +361,6 @@ Element
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;

@@ -9345,8 +9345,6 @@ nsImageLoadingContent
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {

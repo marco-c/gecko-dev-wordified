@@ -589,8 +589,6 @@ HTMLEmbedElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -694,7 +692,6 @@ nsObjectLoadingContent
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;
@@ -703,7 +700,6 @@ nsGenericHTMLElement
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;
