@@ -638,6 +638,13 @@ h
 #
 include
 "
+BaseProfiler
+.
+h
+"
+#
+include
+"
 nsDirectoryServiceDefs
 .
 h
