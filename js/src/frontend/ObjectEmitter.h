@@ -7285,12 +7285,6 @@ private
 :
 MOZ_MUST_USE
 bool
-emitSetEmptyClassConstructorNameForDefaultCtor
-(
-)
-;
-MOZ_MUST_USE
-bool
 initProtoAndCtor
 (
 )
