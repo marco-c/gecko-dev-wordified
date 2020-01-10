@@ -742,9 +742,6 @@ return
 false
 ;
 }
-#
-ifdef
-HAVE_GBM_MODIFIERS
 if
 (
 nsGbmLib
@@ -809,8 +806,6 @@ mGbmBufferObject
 ;
 }
 }
-#
-endif
 if
 (
 !
@@ -850,9 +845,6 @@ return
 false
 ;
 }
-#
-ifdef
-HAVE_GBM_MODIFIERS
 if
 (
 nsGbmLib
@@ -992,8 +984,6 @@ i
 }
 }
 else
-#
-endif
 {
 mBufferPlaneCount
 =
