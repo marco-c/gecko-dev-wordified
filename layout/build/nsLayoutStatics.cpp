@@ -1032,6 +1032,13 @@ ImageLoader
 .
 h
 "
+#
+include
+"
+gfxUserFontSet
+.
+h
+"
 using
 namespace
 mozilla
@@ -2528,6 +2535,13 @@ net
 :
 :
 UrlClassifierFeatureFactory
+:
+:
+Shutdown
+(
+)
+;
+gfxUserFontEntry
 :
 :
 Shutdown
