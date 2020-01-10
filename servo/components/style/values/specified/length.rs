@@ -184,8 +184,8 @@ length
 :
 :
 {
-GenericLengthPercentageOrNormal
 GenericLengthOrNumber
+GenericLengthPercentageOrNormal
 GenericMaxSize
 GenericSize
 }

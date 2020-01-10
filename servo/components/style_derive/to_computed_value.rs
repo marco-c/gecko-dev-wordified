@@ -559,13 +559,11 @@ bind_style
 |
 binding
 |
-{
 call_from
 (
 &
 binding
 )
-}
 )
 ;
 (
