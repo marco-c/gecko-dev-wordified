@@ -288,8 +288,6 @@ querySelector
 (
 "
 .
-report
--
 card
 .
 monitor
@@ -370,8 +368,6 @@ querySelector
 (
 "
 .
-report
--
 card
 .
 monitor
