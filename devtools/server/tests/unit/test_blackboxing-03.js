@@ -460,7 +460,7 @@ error
 )
 ;
 const
-sourceClient
+sourceFront
 =
 await
 getSource
@@ -472,7 +472,7 @@ BLACK_BOXED_URL
 await
 blackBox
 (
-sourceClient
+sourceFront
 )
 ;
 gThreadClient
@@ -557,7 +557,7 @@ resume
 await
 test_unblack_box_dbg_statement
 (
-sourceClient
+sourceFront
 )
 ;
 }
@@ -577,13 +577,13 @@ async
 function
 test_unblack_box_dbg_statement
 (
-sourceClient
+sourceFront
 )
 {
 await
 unBlackBox
 (
-sourceClient
+sourceFront
 )
 ;
 gClient

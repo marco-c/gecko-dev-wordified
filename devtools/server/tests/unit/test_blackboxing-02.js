@@ -449,7 +449,7 @@ error
 )
 ;
 const
-sourceClient
+sourceFront
 =
 gThreadClient
 .
@@ -477,7 +477,7 @@ BLACK_BOXED_URL
 await
 blackBox
 (
-sourceClient
+sourceFront
 )
 ;
 gClient
@@ -531,7 +531,7 @@ test_unblack_box_breakpoint
 bind
 (
 null
-sourceClient
+sourceFront
 )
 )
 ;
@@ -552,13 +552,13 @@ async
 function
 test_unblack_box_breakpoint
 (
-sourceClient
+sourceFront
 )
 {
 await
 unBlackBox
 (
-sourceClient
+sourceFront
 )
 ;
 gClient

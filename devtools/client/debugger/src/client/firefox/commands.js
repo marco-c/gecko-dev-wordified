@@ -943,7 +943,7 @@ thread
 )
 ;
 const
-sourceClient
+sourceFront
 =
 sourceThreadClient
 .
@@ -961,7 +961,7 @@ contentType
 }
 =
 await
-sourceClient
+sourceFront
 .
 source
 (
@@ -1997,7 +1997,7 @@ Promise
 >
 {
 const
-sourceClient
+sourceFront
 =
 threadClient
 .
@@ -2018,7 +2018,7 @@ isBlackBoxed
 )
 {
 await
-sourceClient
+sourceFront
 .
 unblackBox
 (
@@ -2029,7 +2029,7 @@ range
 else
 {
 await
-sourceClient
+sourceFront
 .
 blackBox
 (
@@ -2493,7 +2493,7 @@ thread
 )
 ;
 const
-sourceClient
+sourceFront
 =
 sourceThreadClient
 .
@@ -2508,7 +2508,7 @@ const
 positions
 =
 await
-sourceClient
+sourceFront
 .
 getBreakpointPositionsCompressed
 (

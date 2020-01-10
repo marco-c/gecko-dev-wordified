@@ -92,7 +92,7 @@ can
 create
 SourceActors
 and
-SourceClients
+SourceFronts
 properly
 /
 /
@@ -346,7 +346,7 @@ source
 )
 ;
 const
-sourceClient
+sourceFront
 =
 gThreadClient
 .
@@ -355,7 +355,7 @@ source
 source
 )
 ;
-sourceClient
+sourceFront
 .
 source
 (

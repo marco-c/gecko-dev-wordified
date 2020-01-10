@@ -162,7 +162,7 @@ ArrayBuffer
 *
 /
 class
-SourceClient
+SourceFront
 extends
 FrontClassWithSpec
 (
@@ -320,7 +320,7 @@ string
 grip
 for
 this
-SourceClient
+SourceFront
 '
 s
 source
@@ -563,12 +563,12 @@ newResponse
 }
 exports
 .
-SourceClient
+SourceFront
 =
-SourceClient
+SourceFront
 ;
 registerFront
 (
-SourceClient
+SourceFront
 )
 ;
