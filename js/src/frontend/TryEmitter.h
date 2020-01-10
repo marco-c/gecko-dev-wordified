@@ -1582,6 +1582,12 @@ emitFinallyEnd
 (
 )
 ;
+MOZ_MUST_USE
+bool
+instrumentEntryPoint
+(
+)
+;
 }
 ;
 }
