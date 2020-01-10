@@ -373,8 +373,6 @@ dom
 Document
 *
 aDoc
-bool
-aForPrintPreview
 nsPrintObject
 *
 aParent
@@ -502,9 +500,6 @@ not
 visible
 by
 CSS
-bool
-mPrintPreview
-;
 bool
 mDidCreateDocShell
 ;

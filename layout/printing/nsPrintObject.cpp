@@ -418,10 +418,6 @@ mInvisible
 (
 false
 )
-mPrintPreview
-(
-false
-)
 mDidCreateDocShell
 (
 false
@@ -853,10 +849,6 @@ SetDocument
 mDocument
 )
 ;
-mPrintPreview
-=
-aForPrintPreview
-;
 return
 NS_OK
 ;
@@ -873,8 +865,6 @@ aDocShell
 Document
 *
 aDoc
-bool
-aForPrintPreview
 nsPrintObject
 *
 aParent
@@ -901,10 +891,6 @@ aDocShell
 mDocument
 =
 aDoc
-;
-mPrintPreview
-=
-aForPrintPreview
 ;
 nsCOMPtr
 <

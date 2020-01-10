@@ -3263,10 +3263,6 @@ GetExtantDoc
 (
 )
 aPO
--
->
-mPrintPreview
-aPO
 .
 get
 (
