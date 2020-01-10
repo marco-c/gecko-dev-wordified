@@ -512,7 +512,7 @@ block
 untill
 all
 events
-has
+have
 been
 executed
 .
@@ -593,7 +593,7 @@ reference
 to
 SharedThreadPool
 which
-would
+will
 /
 /
 block
@@ -601,7 +601,7 @@ for
 ever
 if
 it
-was
+is
 not
 cleared
 .
