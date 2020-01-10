@@ -70,6 +70,11 @@ errors
 :
 *
 /
+requestLongerTimeout
+(
+2
+)
+;
 const
 kWhitelist
 =
