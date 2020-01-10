@@ -23023,10 +23023,6 @@ bool
 sAllowXULXBL_for_file
 ;
 static
-uint32_t
-sHandlingInputTimeout
-;
-static
 bool
 sSendPerformanceTimingNotifications
 ;
