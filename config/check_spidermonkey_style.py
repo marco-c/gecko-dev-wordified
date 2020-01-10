@@ -1109,16 +1109,6 @@ ICU
 '
 unicode
 /
-uformattedvalue
-.
-h
-'
-#
-ICU
-    
-'
-unicode
-/
 uloc
 .
 h
