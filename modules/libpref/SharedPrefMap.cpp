@@ -576,6 +576,9 @@ mIsLocked
 aFlags
 .
 mDefaultChanged
+aFlags
+.
+mIsSkippedByIteration
 }
 )
 ;
@@ -671,6 +674,9 @@ mIsLocked
 aFlags
 .
 mDefaultChanged
+aFlags
+.
+mIsSkippedByIteration
 }
 )
 ;
@@ -790,6 +796,9 @@ mIsLocked
 aFlags
 .
 mDefaultChanged
+aFlags
+.
+mIsSkippedByIteration
 }
 )
 ;
@@ -1296,6 +1305,10 @@ entry
 -
 >
 mDefaultChanged
+entry
+-
+>
+mIsSkippedByIteration
 }
 ;
 entryPtr
