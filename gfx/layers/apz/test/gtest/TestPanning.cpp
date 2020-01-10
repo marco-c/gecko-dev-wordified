@@ -514,7 +514,7 @@ Pan
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 false
 )
@@ -684,7 +684,7 @@ PanWithTouchActionAuto
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 true
 )
@@ -743,7 +743,7 @@ PanWithTouchActionNone
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 true
 )
@@ -782,7 +782,7 @@ PanWithTouchActionPanX
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 true
 )
@@ -830,7 +830,7 @@ PanWithTouchActionPanY
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 true
 )
@@ -878,7 +878,7 @@ PanWithPreventDefaultAndTouchAction
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 true
 )
@@ -896,7 +896,7 @@ PanWithPreventDefault
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 false
 )

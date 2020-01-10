@@ -39832,7 +39832,7 @@ if
 StaticPrefs
 :
 :
-MediaTestVideoSuspend
+media_test_video_suspend
 (
 )
 )

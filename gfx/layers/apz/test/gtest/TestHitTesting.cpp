@@ -4185,7 +4185,7 @@ TestRepaintFlushOnNewInputBlock
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 false
 )
@@ -5728,7 +5728,7 @@ if
 StaticPrefs
 :
 :
-TouchActionEnabled
+layout_css_touch_action_enabled
 (
 )
 )

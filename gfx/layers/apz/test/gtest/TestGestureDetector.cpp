@@ -268,7 +268,7 @@ Pan_After_Pinch
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 false
 )
@@ -993,7 +993,7 @@ Pan_With_Tap
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 false
 )
@@ -2803,7 +2803,7 @@ if
 StaticPrefs
 :
 :
-TouchActionEnabled
+layout_css_touch_action_enabled
 (
 )
 &
@@ -3284,7 +3284,7 @@ if
 StaticPrefs
 :
 :
-TouchActionEnabled
+layout_css_touch_action_enabled
 (
 )
 &
@@ -3720,7 +3720,7 @@ LongPress
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 false
 )
@@ -3748,7 +3748,7 @@ LongPressWithTouchAction
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 true
 )
@@ -3798,7 +3798,7 @@ LongPressPreventDefault
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 false
 )
@@ -3826,7 +3826,7 @@ LongPressPreventDefaultWithTouchAction
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 true
 )
@@ -5070,7 +5070,7 @@ if
 StaticPrefs
 :
 :
-TouchActionEnabled
+layout_css_touch_action_enabled
 (
 )
 &

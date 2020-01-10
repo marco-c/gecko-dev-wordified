@@ -1121,10 +1121,6 @@ kPointerLibraryName
 ;
 static
 bool
-sPointerEventEnabled
-;
-static
-bool
 sFirePointerEventsByWinPointerMessages
 ;
 /

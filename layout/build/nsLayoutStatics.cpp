@@ -1720,13 +1720,6 @@ InitStatics
 (
 )
 ;
-nsGenericHTMLFrameElement
-:
-:
-InitStatics
-(
-)
-;
 #
 ifdef
 MOZ_XUL
