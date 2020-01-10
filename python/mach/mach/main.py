@@ -88,10 +88,6 @@ import
 absolute_import
 print_function
 unicode_literals
-from
-collections
-import
-Iterable
 import
 argparse
 import
@@ -110,6 +106,14 @@ import
 traceback
 import
 uuid
+from
+collections
+import
+Iterable
+from
+six
+import
+string_types
 from
 .
 base
@@ -132,17 +136,17 @@ FailedCommandError
 )
 from
 .
+config
+import
+ConfigSettings
+from
+.
 decorators
 import
 (
     
 CommandProvider
 )
-from
-.
-config
-import
-ConfigSettings
 from
 .
 dispatcher
@@ -1712,7 +1716,6 @@ parent
 .
             
 if
-b
 '
 mach
 .
@@ -1731,7 +1734,6 @@ imp
 .
 new_module
 (
-b
 '
 mach
 .
@@ -1743,7 +1745,6 @@ sys
 .
 modules
 [
-b
 '
 mach
 .
@@ -1770,9 +1771,7 @@ uuid4
 (
 )
 .
-get_hex
-(
-)
+hex
         
 try
 :
@@ -4377,7 +4376,7 @@ if
 isinstance
 (
 paths
-basestring
+string_types
 )
 :
             
