@@ -1277,7 +1277,7 @@ aCallback
 ;
 friend
 class
-ProcessLauncher
+BaseProcessLauncher
 ;
 protected
 :
