@@ -5350,6 +5350,8 @@ nsACString
 aFeatures
 bool
 aForceNoOpener
+bool
+aForceNoReferrer
 nsDocShellLoadState
 *
 aLoadState
@@ -5619,6 +5621,7 @@ aURI
 aName
 aFeatures
 aForceNoOpener
+aForceNoReferrer
 aLoadState
 aWindowIsNew
 aReturn
@@ -15763,10 +15766,10 @@ view
 GetBounds
 (
 )
-PaintFlags
+nsIPresShell
 :
 :
-PaintLayers
+PAINT_LAYERS
 )
 ;
 }

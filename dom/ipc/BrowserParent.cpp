@@ -17638,6 +17638,8 @@ const
 nsString
 &
 aName
+bool
+aForceNoReferrer
 const
 nsString
 &
@@ -17688,6 +17690,7 @@ aOpener
 this
 aURL
 aName
+aForceNoReferrer
 aFeatures
 )
 ;
