@@ -1240,6 +1240,10 @@ mUpgradableToSecure
 (
 true
 )
+mHasSandboxedNavigations
+(
+false
+)
 mTlsFlags
 (
 0

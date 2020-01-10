@@ -18109,6 +18109,16 @@ navigationStartTimeStamp
 =
 navigationStartTimeStamp
 ;
+openArgs
+.
+hasSandboxedAuxiliaryNavigations
+(
+)
+=
+GetHasSandboxedAuxiliaryNavigations
+(
+)
+;
 /
 /
 This
