@@ -130,7 +130,7 @@ getBreakpointsList
 getBreakpointsDisabled
 getExpressions
 getIsWaitingOnBreak
-getMapScopes
+isMapScopesEnabled
 getSelectedFrame
 getShouldPauseOnExceptions
 getShouldPauseOnCaughtExceptions
@@ -456,7 +456,7 @@ boolean
 isWaitingOnBreak
 :
 boolean
-shouldMapScopes
+mapScopesEnabled
 :
 boolean
 shouldPauseOnExceptions
@@ -1096,7 +1096,7 @@ getScopesButtons
 const
 {
 selectedFrame
-shouldMapScopes
+mapScopesEnabled
 }
 =
 this
@@ -1105,12 +1105,6 @@ props
 ;
 if
 (
-!
-features
-.
-mapScopes
-|
-|
 !
 selectedFrame
 |
@@ -1191,7 +1185,7 @@ checkbox
 checked
 =
 {
-shouldMapScopes
+mapScopesEnabled
 ?
 "
 checked
@@ -2296,9 +2290,9 @@ getSelectedFrame
 state
 thread
 )
-shouldMapScopes
+mapScopesEnabled
 :
-getMapScopes
+isMapScopesEnabled
 (
 state
 )

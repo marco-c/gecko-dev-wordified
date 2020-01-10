@@ -2918,7 +2918,7 @@ skipPausing
 }
 export
 function
-getMapScopes
+isMapScopesEnabled
 (
 state
 :
