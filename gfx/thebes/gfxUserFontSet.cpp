@@ -9162,7 +9162,12 @@ before
 reporting
 them
 .
+bool
+isData
+;
 if
+(
+NS_SUCCEEDED
 (
 mURI
 -
@@ -9177,7 +9182,13 @@ SchemeIs
 "
 data
 "
+&
+isData
 )
+)
+&
+&
+isData
 &
 &
 spec
