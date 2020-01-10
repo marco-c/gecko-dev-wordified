@@ -1003,15 +1003,6 @@ mProfileDBFileSize
 PRTime
 mProfileDBModifiedTime
 ;
-bool
-mInstallDBExists
-;
-int64_t
-mInstallDBFileSize
-;
-PRTime
-mInstallDBModifiedTime
-;
 static
 nsToolkitProfileService
 *
