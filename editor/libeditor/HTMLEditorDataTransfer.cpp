@@ -774,8 +774,8 @@ treatAsOneTransaction
 this
 )
 ;
-AutoTopLevelEditSubActionNotifier
-maybeTopLevelEditSubAction
+AutoEditSubActionNotifier
+startToHandleEditSubAction
 (
 *
 this
@@ -1425,8 +1425,8 @@ treatAsOneTransaction
 this
 )
 ;
-AutoTopLevelEditSubActionNotifier
-maybeTopLevelEditSubAction
+AutoEditSubActionNotifier
+startToHandleEditSubAction
 (
 *
 this
@@ -11084,8 +11084,8 @@ treatAsOneTransaction
 this
 )
 ;
-AutoTopLevelEditSubActionNotifier
-maybeTopLevelEditSubAction
+AutoEditSubActionNotifier
+startToHandleEditSubAction
 (
 *
 this
@@ -12786,8 +12786,8 @@ aNodeInserted
 nullptr
 ;
 }
-AutoTopLevelEditSubActionNotifier
-maybeTopLevelEditSubAction
+AutoEditSubActionNotifier
+startToHandleEditSubAction
 (
 *
 this
@@ -14018,8 +14018,8 @@ IsPlaintextEditor
 )
 )
 ;
-AutoTopLevelEditSubActionNotifier
-maybeTopLevelEditSubAction
+AutoEditSubActionNotifier
+startToHandleEditSubAction
 (
 *
 this

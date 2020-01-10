@@ -1038,8 +1038,8 @@ treatAsOneTransaction
 this
 )
 ;
-AutoTopLevelEditSubActionNotifier
-maybeTopLevelEditSubAction
+AutoEditSubActionNotifier
+startToHandleEditSubAction
 (
 *
 this
@@ -8412,8 +8412,8 @@ treatAsOneTransaction
 this
 )
 ;
-AutoTopLevelEditSubActionNotifier
-maybeTopLevelEditSubAction
+AutoEditSubActionNotifier
+startToHandleEditSubAction
 (
 *
 this
@@ -8943,8 +8943,8 @@ treatAsOneTransaction
 this
 )
 ;
-AutoTopLevelEditSubActionNotifier
-maybeTopLevelEditSubAction
+AutoEditSubActionNotifier
+startToHandleEditSubAction
 (
 *
 this
@@ -10314,8 +10314,8 @@ treatAsOneTransaction
 this
 )
 ;
-AutoTopLevelEditSubActionNotifier
-maybeTopLevelEditSubAction
+AutoEditSubActionNotifier
+startToHandleEditSubAction
 (
 *
 this

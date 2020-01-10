@@ -8552,8 +8552,8 @@ Offset
 (
 )
 ;
-AutoTopLevelEditSubActionNotifier
-maybeTopLevelEditSubAction
+AutoEditSubActionNotifier
+startToHandleEditSubAction
 (
 *
 this
@@ -9059,8 +9059,8 @@ IsSetAndValid
 )
 )
 ;
-AutoTopLevelEditSubActionNotifier
-maybeTopLevelEditSubAction
+AutoEditSubActionNotifier
+startToHandleEditSubAction
 (
 *
 this
@@ -9828,8 +9828,8 @@ IsSetAndValid
 )
 )
 ;
-AutoTopLevelEditSubActionNotifier
-maybeTopLevelEditSubAction
+AutoEditSubActionNotifier
+startToHandleEditSubAction
 (
 *
 this
@@ -10256,8 +10256,8 @@ MOZ_ASSERT
 parent
 )
 ;
-AutoTopLevelEditSubActionNotifier
-maybeTopLevelEditSubAction
+AutoEditSubActionNotifier
+startToHandleEditSubAction
 (
 *
 this
@@ -10677,8 +10677,8 @@ IsEditActionDataAvailable
 )
 )
 ;
-AutoTopLevelEditSubActionNotifier
-maybeTopLevelEditSubAction
+AutoEditSubActionNotifier
+startToHandleEditSubAction
 (
 *
 this
@@ -17915,8 +17915,8 @@ Length
 (
 )
 ;
-AutoTopLevelEditSubActionNotifier
-maybeTopLevelEditSubAction
+AutoEditSubActionNotifier
+startToHandleEditSubAction
 (
 *
 this
@@ -18327,8 +18327,8 @@ return
 NS_ERROR_FAILURE
 ;
 }
-AutoTopLevelEditSubActionNotifier
-maybeTopLevelEditSubAction
+AutoEditSubActionNotifier
+startToHandleEditSubAction
 (
 *
 this
@@ -25102,8 +25102,8 @@ return
 NS_OK
 ;
 }
-AutoTopLevelEditSubActionNotifier
-maybeTopLevelEditSubAction
+AutoEditSubActionNotifier
+startToHandleEditSubAction
 (
 *
 this
