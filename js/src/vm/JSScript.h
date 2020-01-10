@@ -19067,8 +19067,12 @@ uint32_t
 newValue
 )
 ;
-bool
-ensureHasDebugScript
+js
+:
+:
+DebugScript
+*
+getOrCreateDebugScript
 (
 JSContext
 *
