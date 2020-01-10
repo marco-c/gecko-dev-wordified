@@ -1291,12 +1291,6 @@ InitializeUserPrefs
 (
 )
 ;
-static
-void
-RefreshStaticPrefsValues
-(
-)
-;
 /
 /
 Returns
