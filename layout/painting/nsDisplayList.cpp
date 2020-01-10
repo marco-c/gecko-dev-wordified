@@ -25096,10 +25096,6 @@ nsIFrame
 *
 aFrame
 const
-nsPoint
-&
-aToReferenceFrame
-const
 nsStyleImageLayers
 :
 :
@@ -25677,17 +25673,6 @@ borderStyle
 >
 HasBorder
 (
-)
-;
-nsPoint
-toRef
-=
-aBuilder
--
->
-ToReferenceFrame
-(
-aFrame
 )
 ;
 /
@@ -26424,7 +26409,6 @@ SetBackgroundClipRegion
 (
 clipState
 aFrame
-toRef
 layer
 bgRect
 willPaintBorder
