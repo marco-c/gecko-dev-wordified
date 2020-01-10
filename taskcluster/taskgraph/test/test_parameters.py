@@ -353,7 +353,8 @@ None
 try_task_config
 '
 :
-None
+{
+}
         
 '
 version
