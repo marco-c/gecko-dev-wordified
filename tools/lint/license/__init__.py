@@ -384,6 +384,25 @@ readlines
 nb_lines
 )
         
+#
+Empty
+files
+don
+'
+t
+need
+a
+license
+.
+        
+if
+not
+head
+:
+            
+return
+True
+        
 for
 l
 in
