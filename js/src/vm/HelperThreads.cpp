@@ -15324,6 +15324,12 @@ ContextOptions
 AutoEnterOOMUnsafeRegion
 oomUnsafe
 ;
+cx
+.
+setThread
+(
+)
+;
 if
 (
 !
