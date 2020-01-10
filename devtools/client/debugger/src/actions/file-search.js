@@ -473,6 +473,12 @@ string
 editor
 :
 Object
+focusFirstResult
+?
+:
+boolean
+=
+true
 )
 {
 return
@@ -660,6 +666,7 @@ ctx
 query
 true
 _modifiers
+focusFirstResult
 )
 ;
 if
