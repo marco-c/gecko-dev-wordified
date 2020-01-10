@@ -8698,6 +8698,12 @@ mozilla
 StyleColor
 mTextDecorationColor
 ;
+mozilla
+:
+:
+StyleLengthOrAuto
+mTextDecorationWidth
+;
 }
 ;
 struct
