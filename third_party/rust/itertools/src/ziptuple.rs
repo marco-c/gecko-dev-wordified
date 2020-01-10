@@ -30,6 +30,7 @@ information
 derive
 (
 Clone
+Debug
 )
 ]
 #

@@ -51,6 +51,7 @@ information
 derive
 (
 Clone
+Debug
 )
 ]
 #

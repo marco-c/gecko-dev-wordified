@@ -44,6 +44,13 @@ the
 Iterator
 trait
 .
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 RcIter

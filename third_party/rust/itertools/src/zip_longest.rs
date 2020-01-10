@@ -125,6 +125,7 @@ information
 derive
 (
 Clone
+Debug
 )
 ]
 #

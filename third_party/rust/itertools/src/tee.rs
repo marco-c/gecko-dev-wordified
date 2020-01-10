@@ -42,6 +42,13 @@ the
 two
 tee
 halves
+#
+[
+derive
+(
+Debug
+)
+]
 struct
 TeeBuffer
 <
@@ -138,6 +145,13 @@ nothing
 unless
 consumed
 "
+]
+#
+[
+derive
+(
+Debug
+)
 ]
 pub
 struct

@@ -650,8 +650,6 @@ z
 }
 )
 }
-/
-*
 #
 [
 bench
@@ -724,10 +722,10 @@ x
 y
 )
 in
-Zip
+itertools
 :
 :
-new
+multizip
 (
 (
 xs
@@ -755,8 +753,6 @@ y
 }
 )
 }
-*
-/
 #
 [
 bench

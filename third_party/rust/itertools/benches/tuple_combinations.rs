@@ -31,7 +31,7 @@ Itertools
 ;
 /
 /
-aproximate
+approximate
 100_000
 iterations
 for

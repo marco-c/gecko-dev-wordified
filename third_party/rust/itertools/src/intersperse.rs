@@ -116,6 +116,13 @@ unless
 consumed
 "
 ]
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 Intersperse

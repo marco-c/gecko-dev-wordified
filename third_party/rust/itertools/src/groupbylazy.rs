@@ -134,6 +134,13 @@ key
 function
 for
 IntoChunks
+#
+[
+derive
+(
+Debug
+)
+]
 struct
 ChunkIndex
 {

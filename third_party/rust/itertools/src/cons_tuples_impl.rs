@@ -417,6 +417,13 @@ unless
 consumed
 "
 ]
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 ConsTuples

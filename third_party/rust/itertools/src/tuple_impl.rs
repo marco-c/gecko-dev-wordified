@@ -76,6 +76,13 @@ method
 into_buffer
 )
 .
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 TupleBuffer
@@ -786,6 +793,13 @@ nothing
 unless
 consumed
 "
+]
+#
+[
+derive
+(
+Debug
+)
 ]
 pub
 struct

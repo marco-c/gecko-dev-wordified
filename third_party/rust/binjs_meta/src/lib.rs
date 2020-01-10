@@ -44,7 +44,7 @@ log
 ;
 extern
 crate
-webidl
+weedle
 ;
 /
 /

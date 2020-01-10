@@ -280,6 +280,7 @@ collect
 derive
 (
 Clone
+Debug
 )
 ]
 /
@@ -344,6 +345,13 @@ of
 a
 MultiProduct
 .
+#
+[
+derive
+(
+Debug
+)
+]
 enum
 MultiProductIterState
 {

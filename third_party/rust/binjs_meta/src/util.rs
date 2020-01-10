@@ -4,10 +4,6 @@
 Miscellaneous
 utilities
 .
-extern
-crate
-inflector
-;
 pub
 trait
 ToStr
@@ -2765,6 +2761,7 @@ rest
 continue
 '
 per_line
+;
 }
 (
 Some
@@ -2850,7 +2847,7 @@ rest
 pos
 ]
 .
-trim_right
+trim_end
 (
 )
 )
@@ -2865,7 +2862,6 @@ line
 _else
 =
 >
-{
 panic
 !
 (
@@ -2877,7 +2873,6 @@ panic
 "
 _else
 )
-}
 }
 }
 else
@@ -2914,6 +2909,7 @@ line
 continue
 '
 per_line
+;
 }
 }
 }
@@ -3200,7 +3196,6 @@ map
 |
 v
 |
-{
 match
 v
 {
@@ -3255,7 +3250,6 @@ len
 >
 *
 len
-}
 }
 )
 .
