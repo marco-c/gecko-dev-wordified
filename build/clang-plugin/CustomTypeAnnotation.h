@@ -391,5 +391,9 @@ extern
 CustomTypeAnnotation
 TemporaryClass
 ;
+extern
+CustomTypeAnnotation
+StaticLocalClass
+;
 #
 endif

@@ -280,3 +280,10 @@ TrivialCtorDtorChecker
 .
 h
 "
+#
+include
+"
+TrivialDtorChecker
+.
+h
+"

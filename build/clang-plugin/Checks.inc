@@ -384,3 +384,12 @@ constructor
 destructor
 "
 )
+CHECK
+(
+TrivialDtorChecker
+"
+trivial
+-
+destructor
+"
+)
