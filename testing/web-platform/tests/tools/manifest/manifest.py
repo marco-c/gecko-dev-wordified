@@ -1784,11 +1784,43 @@ reftest_changes
 =
 False
         
-prev_files
+#
+Create
+local
+variable
+references
+to
+these
+dicts
+so
+we
+avoid
+the
+        
+#
+attribute
+access
+in
+the
+hot
+loop
+below
+        
+path_hash
+=
+self
+.
+_path_hash
+        
+data
 =
 self
 .
 _data
+        
+prev_files
+=
+data
 .
 paths
 (
@@ -1831,16 +1863,12 @@ rel_path
 assert
 rel_path
 in
-self
-.
-_path_hash
+path_hash
                 
 old_hash
 old_type
 =
-self
-.
-_path_hash
+path_hash
 [
 rel_path
 ]
@@ -1853,9 +1881,7 @@ reftest_types
                     
 manifest_items
 =
-self
-.
-_data
+data
 [
 old_type
 ]
@@ -1904,9 +1930,7 @@ is_new
 rel_path
 not
 in
-self
-.
-_path_hash
+path_hash
                 
 hash_changed
 =
@@ -1920,9 +1944,7 @@ is_new
 old_hash
 old_type
 =
-self
-.
-_path_hash
+path_hash
 [
 rel_path
 ]
@@ -1955,9 +1977,7 @@ old_type
 :
                             
 del
-self
-.
-_data
+data
 [
 old_type
 ]
@@ -1990,9 +2010,7 @@ reftest_types
                             
 manifest_items
 =
-self
-.
-_data
+data
 [
 old_type
 ]
@@ -2048,9 +2066,7 @@ or
 hash_changed
 :
                     
-self
-.
-_data
+data
 [
 new_type
 ]
@@ -2069,9 +2085,7 @@ or
 hash_changed
 :
                     
-self
-.
-_path_hash
+path_hash
 [
 rel_path
 ]
@@ -2108,17 +2122,13 @@ deleted
 if
 rel_path
 in
-self
-.
-_path_hash
+path_hash
 :
                     
 _
 old_type
 =
-self
-.
-_path_hash
+path_hash
 [
 rel_path
 ]
@@ -2134,9 +2144,7 @@ reftest_changes
 True
                     
 del
-self
-.
-_path_hash
+path_hash
 [
 rel_path
 ]
@@ -2145,9 +2153,7 @@ try
 :
                         
 del
-self
-.
-_data
+data
 [
 old_type
 ]
@@ -2169,9 +2175,7 @@ test_data
 in
 itervalues
 (
-self
-.
-_data
+data
 )
 :
                         
@@ -2202,9 +2206,7 @@ _compute_reftests
 reftest_nodes
 )
             
-self
-.
-_data
+data
 [
 "
 reftest
@@ -2215,9 +2217,7 @@ data
 =
 reftests
             
-self
-.
-_data
+data
 [
 "
 reftest_node
@@ -2228,9 +2228,7 @@ data
 =
 reftest_nodes
             
-self
-.
-_path_hash
+path_hash
 .
 update
 (
