@@ -1388,7 +1388,12 @@ fop
 >
 delete_
 (
+obj
 map
+MemoryUse
+:
+:
+WeakMapObject
 )
 ;
 }
