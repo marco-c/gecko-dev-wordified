@@ -73,10 +73,7 @@ use
 api
 :
 :
-{
-LayoutPrimitiveInfo
 PipelineId
-}
 ;
 use
 api
@@ -120,7 +117,10 @@ use
 internal_types
 :
 :
+{
 FastHashMap
+LayoutPrimitiveInfo
+}
 ;
 use
 std

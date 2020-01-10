@@ -1094,14 +1094,12 @@ push_rect
 api
 :
 :
-PrimitiveInfo
+CommonItemProperties
 :
 :
 new
 (
 rect
-)
-&
 api
 :
 :
@@ -1121,6 +1119,7 @@ pipeline_id
 )
 clip_id
 }
+)
 self
 .
 color
