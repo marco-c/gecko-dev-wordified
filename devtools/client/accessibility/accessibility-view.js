@@ -466,6 +466,18 @@ serverside
 version
 .
 *
+param
+{
+Array
+}
+fluentBundles
+array
+of
+FluentBundles
+elements
+for
+localization
+*
 /
 async
 initialize
@@ -473,6 +485,7 @@ initialize
 accessibility
 walker
 supports
+fluentBundles
 )
 {
 /
@@ -544,6 +557,7 @@ MainFrame
 {
 accessibility
 walker
+fluentBundles
 }
 )
 ;
