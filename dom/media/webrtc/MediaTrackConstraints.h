@@ -1909,7 +1909,10 @@ uint32_t
 FitnessDistance
 (
 const
+Maybe
+<
 nsString
+>
 &
 aN
 const

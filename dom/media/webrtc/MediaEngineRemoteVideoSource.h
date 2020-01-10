@@ -1565,7 +1565,10 @@ mUniqueId
 nsString
 mGroupId
 ;
+Maybe
+<
 nsString
+>
 mFacingMode
 ;
 /
