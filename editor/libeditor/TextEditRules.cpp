@@ -9795,14 +9795,12 @@ CreateElementResult
 TextEditRules
 :
 :
-CreateBRInternal
+CreatePaddingBRElementForEmptyLastLine
 (
 const
 EditorDOMPoint
 &
 aPointToInsert
-bool
-aForPadding
 )
 {
 MOZ_ASSERT
@@ -9884,11 +9882,6 @@ NS_ERROR_FAILURE
 )
 ;
 }
-if
-(
-aForPadding
-)
-{
 brElement
 -
 >
@@ -9897,7 +9890,6 @@ SetFlags
 NS_PADDING_FOR_EMPTY_LAST_LINE
 )
 ;
-}
 return
 CreateElementResult
 (
