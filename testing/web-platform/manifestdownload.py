@@ -542,6 +542,48 @@ upload
 '
 )
     
+default
+=
+(
+"
+https
+:
+/
+/
+index
+.
+taskcluster
+.
+net
+/
+v1
+/
+task
+/
+gecko
+.
+v2
+.
+mozilla
+-
+central
+.
+"
+               
+"
+latest
+.
+source
+.
+manifest
+-
+upload
+"
++
+               
+artifact_path
+)
+    
 for
 revision
 in
@@ -628,6 +670,9 @@ RequestException
             
 if
 req
+is
+not
+None
 and
 req
 .
@@ -662,7 +707,7 @@ else
 :
                 
 return
-False
+default
         
 result
 =
@@ -733,7 +778,7 @@ RequestException
 :
             
 return
-False
+default
         
 if
 req
@@ -784,45 +829,7 @@ one
 )
     
 return
-(
-"
-https
-:
-/
-/
-index
-.
-taskcluster
-.
-net
-/
-v1
-/
-task
-/
-gecko
-.
-v2
-.
-mozilla
--
-central
-.
-"
-            
-"
-latest
-.
-source
-.
-manifest
--
-upload
-"
-+
-            
-artifact_path
-)
+default
 def
 download_manifest
 (
