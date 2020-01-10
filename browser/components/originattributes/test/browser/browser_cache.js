@@ -1409,6 +1409,16 @@ subtitles
 "
 )
 ;
+audioTrack
+.
+setAttribute
+(
+"
+default
+"
+true
+)
+;
 audio
 .
 appendChild
