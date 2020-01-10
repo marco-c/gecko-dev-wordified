@@ -818,6 +818,9 @@ isThirdPartyTrackingResource
 "
 referrerPolicy
 "
+"
+blockedReason
+"
 ]
 ;
 const
