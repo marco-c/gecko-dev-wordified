@@ -2743,14 +2743,6 @@ aDocCOMProxy
 )
 override
 ;
-bool
-DeallocPWindowGlobalParent
-(
-PWindowGlobalParent
-*
-aActor
-)
-;
 mozilla
 :
 :

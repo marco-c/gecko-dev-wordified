@@ -1399,6 +1399,11 @@ aActor
 )
 ;
 }
+NS_IMPL_ISUPPORTS
+(
+InProcessParent
+nsIObserver
+)
 }
 /
 /
