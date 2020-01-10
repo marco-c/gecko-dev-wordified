@@ -83142,7 +83142,7 @@ mSavedResolution
 ResolutionChangeOrigin
 :
 :
-MainThread
+MainThreadRestore
 )
 ;
 }
@@ -85997,7 +85997,7 @@ ComputeIntrinsicResolution
 ResolutionChangeOrigin
 :
 :
-MainThread
+MainThreadRestore
 )
 ;
 }
