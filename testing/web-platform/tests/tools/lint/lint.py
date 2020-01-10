@@ -3121,6 +3121,10 @@ LayoutTestsRegexp
             
 rules
 .
+MissingDepsRegexp
+            
+rules
+.
 SpecialPowersRegexp
 ]
 ]
