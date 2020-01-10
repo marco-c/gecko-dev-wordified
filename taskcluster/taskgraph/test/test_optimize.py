@@ -64,20 +64,17 @@ unittest
 from
 taskgraph
 import
-graph
 optimize
-from
-taskgraph
-.
-optimize
-import
-OptimizationStrategy
 from
 taskgraph
 .
 taskgraph
 import
 TaskGraph
+from
+taskgraph
+import
+graph
 from
 taskgraph
 .
@@ -97,6 +94,8 @@ slugid
 class
 Remove
 (
+optimize
+.
 OptimizationStrategy
 )
 :
@@ -116,6 +115,8 @@ True
 class
 Replace
 (
+optimize
+.
 OptimizationStrategy
 )
 :
@@ -149,6 +150,8 @@ strategies
 never
 '
 :
+optimize
+.
 OptimizationStrategy
 (
 )
@@ -548,14 +551,6 @@ set
 )
 )
 :
-        
-optimize
-.
-registry
-=
-self
-.
-strategies
         
 got_removed
 =
