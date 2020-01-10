@@ -555,7 +555,6 @@ confirm
 aWindow
 aUrl
 aInstalls
-aInstallCount
 )
 {
 aInstalls
