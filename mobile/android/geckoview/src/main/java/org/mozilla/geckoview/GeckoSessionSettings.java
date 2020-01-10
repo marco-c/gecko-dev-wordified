@@ -1296,7 +1296,6 @@ which
 has
 a
 *
-default
 width
 of
 980
@@ -1331,10 +1330,9 @@ viewport
 which
 has
 a
-default
 width
-*
 of
+*
 980
 CSS
 px
@@ -1356,7 +1354,6 @@ viewport
 tag
 specified
 or
-*
 not
 .
 *
