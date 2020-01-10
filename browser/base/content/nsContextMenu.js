@@ -6856,6 +6856,18 @@ gContextMenuContentData
 documentURIObject
 ;
 let
+formOrigin
+=
+LoginHelper
+.
+getLoginOrigin
+(
+documentURI
+.
+spec
+)
+;
+let
 fragment
 =
 LoginManagerContextMenu
@@ -6868,7 +6880,7 @@ targetIdentifier
 this
 .
 browser
-documentURI
+formOrigin
 )
 ;
 let
