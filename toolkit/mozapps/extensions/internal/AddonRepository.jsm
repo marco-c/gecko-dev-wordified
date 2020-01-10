@@ -4858,6 +4858,13 @@ await
 fetch
 (
 url
+{
+credentials
+:
+"
+omit
+"
+}
 )
 ;
 if
