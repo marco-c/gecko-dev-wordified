@@ -13427,7 +13427,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
