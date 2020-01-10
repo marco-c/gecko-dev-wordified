@@ -1722,7 +1722,7 @@ _refreshButton
 addEventListener
 (
 "
-command
+click
 "
 this
 .
@@ -1736,7 +1736,7 @@ _refreshButton
 setAttribute
 (
 "
-tooltiptext
+title
 "
 L10N
 .
@@ -1776,7 +1776,7 @@ _addButton
 addEventListener
 (
 "
-command
+click
 "
 this
 .
@@ -2312,7 +2312,7 @@ _refreshButton
 removeEventListener
 (
 "
-command
+click
 "
 this
 .
@@ -2326,7 +2326,7 @@ _addButton
 removeEventListener
 (
 "
-command
+click
 "
 this
 .
@@ -2695,7 +2695,7 @@ sidebarToggleBtn
 setAttribute
 (
 "
-tooltiptext
+title
 "
 title
 )
@@ -5024,7 +5024,7 @@ _addButton
 setAttribute
 (
 "
-tooltiptext
+title
 "
 L10N
 .
