@@ -1568,6 +1568,9 @@ aLoadGroup
 nsIPrincipal
 *
 aPrincipal
+nsIPrincipal
+*
+aStoragePrincipal
 )
 {
 mLoadFlags
@@ -1585,6 +1588,7 @@ ResetToURI
 aURI
 aLoadGroup
 aPrincipal
+aStoragePrincipal
 )
 ;
 mImages

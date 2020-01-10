@@ -995,6 +995,17 @@ CloneStrippingUserContextIdAndFirstPartyDomain
 (
 )
 ;
+already_AddRefed
+<
+BasePrincipal
+>
+CloneForcingFirstPartyDomain
+(
+nsIURI
+*
+aURI
+)
+;
 /
 /
 If
