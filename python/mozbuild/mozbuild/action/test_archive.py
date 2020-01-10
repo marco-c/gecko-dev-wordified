@@ -193,6 +193,10 @@ BadCertAndPinningServer
 '
     
 '
+DelegatedCredentialsServer
+'
+    
+'
 GenerateOCSPResponse
 '
     
