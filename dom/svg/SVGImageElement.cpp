@@ -2144,7 +2144,7 @@ for
 an
 image
 .
-MOZ_CRASH
+MOZ_ASSERT_UNREACHABLE
 (
 "
 There
