@@ -1273,10 +1273,7 @@ Foo
 self
 bar
 :
-libc
-:
-:
-int64_t
+i64
 baz
 :
 *
