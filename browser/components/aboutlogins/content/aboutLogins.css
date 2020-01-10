@@ -68,13 +68,7 @@ template
 -
 columns
 :
-minmax
-(
 320px
-max
--
-content
-)
 1fr
 ;
 grid
