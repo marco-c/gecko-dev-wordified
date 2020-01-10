@@ -31008,7 +31008,7 @@ ancestor
 ancestor
 -
 >
-GetParentOrHostNode
+GetParentOrShadowHostNode
 (
 )
 ;

@@ -1793,7 +1793,7 @@ nsINode
 nsINode
 :
 :
-GetParentOrHostNode
+GetParentOrShadowHostNode
 (
 )
 const

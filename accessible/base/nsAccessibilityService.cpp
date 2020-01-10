@@ -10180,7 +10180,7 @@ parentContent
 aContent
 -
 >
-GetParentOrHostNode
+GetParentOrShadowHostNode
 (
 )
 -
@@ -10229,7 +10229,7 @@ parentContent
 parentContent
 -
 >
-GetParentOrHostNode
+GetParentOrShadowHostNode
 (
 )
 -
