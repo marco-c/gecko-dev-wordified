@@ -1934,6 +1934,9 @@ unlock
 mMutex
 )
 ;
+bool
+ok
+=
 JS
 :
 :
@@ -1944,7 +1947,6 @@ stream
 size
 )
 ;
-}
 /
 /
 The
@@ -1955,14 +1957,16 @@ mState
 to
 eChecking
 .
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_ASSERT_IF
 (
+ok
 mState
 =
 =
 eChecking
 )
 ;
+}
 return
 NS_OK
 ;
