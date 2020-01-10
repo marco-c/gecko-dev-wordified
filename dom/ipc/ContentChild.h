@@ -1147,13 +1147,6 @@ FileDescriptor
 aBroker
 )
 ;
-bool
-DeallocPBrowserChild
-(
-PBrowserChild
-*
-)
-;
 PIPCBlobInputStreamChild
 *
 AllocPIPCBlobInputStreamChild
