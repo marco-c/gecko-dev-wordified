@@ -1410,6 +1410,9 @@ nsACString
 proxy
 :
 nsProxyUsage
+no_progress_timeout_secs
+:
+u32
 update_interval_ms
 :
 u32
@@ -1445,6 +1448,9 @@ nsACString
 proxy
 :
 nsProxyUsage
+no_progress_timeout_secs
+:
+u32
 update_interval_ms
 :
 u32
@@ -1623,6 +1629,7 @@ from
 save_rel_path
 )
 proxy
+no_progress_timeout_secs
 update_interval_ms
 RefPtr
 :

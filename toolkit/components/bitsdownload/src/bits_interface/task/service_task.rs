@@ -1126,6 +1126,9 @@ nsCString
 proxy
 :
 BitsProxyUsage
+no_progress_timeout_secs
+:
+u32
 update_interval_ms
 :
 u32
@@ -1215,6 +1218,9 @@ nsCString
 proxy
 :
 BitsProxyUsage
+no_progress_timeout_secs
+:
+u32
 update_interval_ms
 :
 u32
@@ -1267,6 +1273,7 @@ StartDownloadData
 download_url
 save_rel_path
 proxy
+no_progress_timeout_secs
 update_interval_ms
 }
 StartDownloadTask
@@ -1348,6 +1355,9 @@ path
 data
 .
 proxy
+data
+.
+no_progress_timeout_secs
 data
 .
 update_interval_ms

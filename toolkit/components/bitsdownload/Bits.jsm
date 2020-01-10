@@ -3942,6 +3942,7 @@ startDownload
 downloadURL
 saveRelPath
 proxy
+noProgressTimeoutSecs
 monitorIntervalMs
 observer
 context
@@ -3973,6 +3974,7 @@ startDownload
 downloadURL
 saveRelPath
 proxy
+noProgressTimeoutSecs
 monitorIntervalMs
 wrappedObserver
 context
