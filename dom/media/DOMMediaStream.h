@@ -1331,6 +1331,11 @@ MediaStreamTrack
 >
 public
 RelativeTimeline
+public
+SupportsWeakPtr
+<
+DOMMediaStream
+>
 {
 friend
 class
@@ -1404,6 +1409,10 @@ dom
 MediaTrackConstraints
 MediaTrackConstraints
 ;
+MOZ_DECLARE_WEAKREFERENCE_TYPENAME
+(
+DOMMediaStream
+)
 class
 TrackListener
 {
