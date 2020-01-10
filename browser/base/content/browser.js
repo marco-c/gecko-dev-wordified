@@ -55372,11 +55372,9 @@ true
 else
 if
 (
-SessionStartup
+SessionStore
 .
-isAutomaticRestoreEnabled
-(
-)
+willAutoRestore
 )
 {
 document
