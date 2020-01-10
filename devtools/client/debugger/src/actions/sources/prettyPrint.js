@@ -252,7 +252,6 @@ type
 {
 JsSource
 Source
-SourceActor
 Context
 }
 from
@@ -280,13 +279,7 @@ prettySource
 Source
 generatedSource
 :
-Source
-actors
-:
-Array
-<
-SourceActor
->
+any
 )
 {
 const
@@ -364,10 +357,10 @@ too
 for
 (
 const
-{
-actor
-}
+sourceActor
 of
+generatedSource
+.
 actors
 )
 {
@@ -376,6 +369,8 @@ sourceMaps
 .
 applySourceMap
 (
+sourceActor
+.
 actor
 url
 code
@@ -500,6 +495,10 @@ undefined
 isExtension
 :
 false
+actors
+:
+[
+]
 }
 ;
 dispatch
