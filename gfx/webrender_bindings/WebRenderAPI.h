@@ -2024,6 +2024,13 @@ MixBlendMode
 :
 :
 Normal
+/
+*
+is_backdrop_root
+=
+*
+/
+false
 }
 {
 }
