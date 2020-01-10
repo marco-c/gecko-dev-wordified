@@ -445,6 +445,7 @@ stylesheet_loader
 Option
 <
 &
+dyn
 StylesheetLoader
 >
 error_reporter
@@ -452,6 +453,7 @@ error_reporter
 Option
 <
 &
+dyn
 ParseErrorReporter
 >
 quirks_mode
@@ -562,6 +564,7 @@ stylesheet_loader
 Option
 <
 &
+dyn
 StylesheetLoader
 >
 error_reporter
@@ -569,6 +572,7 @@ error_reporter
 Option
 <
 &
+dyn
 ParseErrorReporter
 >
 )
