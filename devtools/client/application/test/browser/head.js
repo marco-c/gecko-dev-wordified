@@ -71,6 +71,9 @@ from
 .
 .
 /
+.
+.
+/
 shared
 /
 test

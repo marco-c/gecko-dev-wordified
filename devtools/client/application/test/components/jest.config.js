@@ -188,6 +188,9 @@ __dirname
 .
 .
 /
+.
+.
+/
 1
 }
 setupFiles

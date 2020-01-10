@@ -45,6 +45,9 @@ from
 .
 .
 /
+.
+.
+/
 debugger
 /
 test
@@ -97,6 +100,9 @@ import
 globals
 -
 from
+.
+.
+/
 .
 .
 /
@@ -158,6 +164,8 @@ TAB_URL
 URL_ROOT
 +
 "
+resources
+/
 service
 -
 workers

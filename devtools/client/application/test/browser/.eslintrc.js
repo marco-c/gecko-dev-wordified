@@ -94,6 +94,9 @@ extends
 .
 /
 .
+.
+/
+.
 eslintrc
 .
 mochitests
