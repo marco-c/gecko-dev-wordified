@@ -1743,7 +1743,7 @@ void
 CallChildFunc
 )
 (
-nsIContentViewer
+nsDocumentViewer
 *
 aViewer
 void
@@ -16796,7 +16796,18 @@ childCV
 aFunc
 )
 (
+static_cast
+<
+nsDocumentViewer
+*
+>
+(
 childCV
+.
+get
+(
+)
+)
 aClosure
 )
 ;
@@ -16809,7 +16820,7 @@ static
 void
 ChangeChildPaintingEnabled
 (
-nsIContentViewer
+nsDocumentViewer
 *
 aChild
 void
@@ -16864,7 +16875,7 @@ static
 void
 SetChildTextZoom
 (
-nsIContentViewer
+nsDocumentViewer
 *
 aChild
 void
@@ -16900,7 +16911,7 @@ static
 void
 SetChildFullZoom
 (
-nsIContentViewer
+nsDocumentViewer
 *
 aChild
 void
@@ -16936,7 +16947,7 @@ static
 void
 SetChildOverrideDPPX
 (
-nsIContentViewer
+nsDocumentViewer
 *
 aChild
 void
@@ -18144,7 +18155,7 @@ static
 void
 SetChildAuthorStyleDisabled
 (
-nsIContentViewer
+nsDocumentViewer
 *
 aChild
 void
@@ -18308,7 +18319,7 @@ static
 void
 ChildEmulateMedium
 (
-nsIContentViewer
+nsDocumentViewer
 *
 aChild
 void
@@ -18595,7 +18606,7 @@ static
 void
 SetChildForceCharacterSet
 (
-nsIContentViewer
+nsDocumentViewer
 *
 aChild
 void
@@ -18912,7 +18923,7 @@ static
 void
 SetChildHintCharacterSetSource
 (
-nsIContentViewer
+nsDocumentViewer
 *
 aChild
 void
@@ -18977,7 +18988,7 @@ static
 void
 SetChildHintCharacterSet
 (
-nsIContentViewer
+nsDocumentViewer
 *
 aChild
 void
@@ -19146,7 +19157,7 @@ static
 void
 AppendChildSubtree
 (
-nsIContentViewer
+nsDocumentViewer
 *
 aChild
 void
