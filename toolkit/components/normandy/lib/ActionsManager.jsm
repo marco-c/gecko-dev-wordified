@@ -1002,6 +1002,9 @@ for
 const
 action
 of
+new
+Set
+(
 Object
 .
 values
@@ -1009,6 +1012,7 @@ values
 this
 .
 localActions
+)
 )
 )
 {
