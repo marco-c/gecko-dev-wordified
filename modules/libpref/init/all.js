@@ -30950,7 +30950,6 @@ debugging
 devtools
 downloads
 home
-memory
 networking
 newtab
 performance
