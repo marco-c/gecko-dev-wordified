@@ -252,6 +252,16 @@ py
 '
     
 '
+gfx
+/
+thebes
+/
+mach_commands
+.
+py
+'
+    
+'
 layout
 /
 tools
