@@ -8549,7 +8549,6 @@ nursery
 .
 init
 (
-maxNurseryBytes
 lock
 )
 )
