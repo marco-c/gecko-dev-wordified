@@ -984,7 +984,7 @@ logSwitchTiming
 {
 max
 :
-25
+35
 }
 "
 network
