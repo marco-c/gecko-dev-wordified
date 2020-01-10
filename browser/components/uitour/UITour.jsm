@@ -713,7 +713,7 @@ appMenu
 -
 fxa
 -
-container
+status
 "
 )
 ;

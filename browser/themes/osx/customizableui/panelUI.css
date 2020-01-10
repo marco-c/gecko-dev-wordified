@@ -192,7 +192,7 @@ appMenu
 -
 fxa
 -
-container
+status
 [
 fxastatus
 =
@@ -200,13 +200,6 @@ fxastatus
 signedin
 "
 ]
->
-#
-appMenu
--
-fxa
--
-status
 >
 #
 appMenu
@@ -252,7 +245,7 @@ appMenu
 -
 fxa
 -
-container
+status
 [
 fxastatus
 =
@@ -260,13 +253,6 @@ fxastatus
 signedin
 "
 ]
->
-#
-appMenu
--
-fxa
--
-status
 >
 #
 appMenu
