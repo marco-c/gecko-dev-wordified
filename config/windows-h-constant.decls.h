@@ -349,6 +349,9 @@ auto
 MAXDWORD
 ;
 auto
+ERROR
+;
+auto
 DELETE
 ;
 auto
