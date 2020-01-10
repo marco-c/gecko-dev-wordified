@@ -5224,11 +5224,9 @@ PREF_ENABLED
 "
 privacy
 .
-trackingprotection
-.
 socialtracking
 .
-annotate
+block_cookies
 .
 enabled
 "
