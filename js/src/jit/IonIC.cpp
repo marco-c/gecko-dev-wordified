@@ -1678,7 +1678,7 @@ monitoredResult
 )
 )
 {
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
@@ -1881,7 +1881,7 @@ to
 cache
 entry
 .
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
@@ -3027,7 +3027,7 @@ No
 need
 to
 call
-TypeScript
+JitScript
 :
 :
 Monitor

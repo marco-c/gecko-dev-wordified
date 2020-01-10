@@ -3791,7 +3791,7 @@ ICScript
 is
 stored
 in
-TypeScript
+JitScript
 and
 allocated
 /

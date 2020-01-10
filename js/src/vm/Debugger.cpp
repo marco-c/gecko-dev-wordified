@@ -19637,7 +19637,7 @@ true
 static
 inline
 void
-MarkTypeScriptActiveIfObservable
+MarkJitScriptActiveIfObservable
 (
 JSScript
 *
@@ -19664,7 +19664,7 @@ script
 script
 -
 >
-types
+jitScript
 (
 )
 -
@@ -20106,7 +20106,7 @@ FrameType
 :
 BaselineJS
 :
-MarkTypeScriptActiveIfObservable
+MarkJitScriptActiveIfObservable
 (
 frame
 .
@@ -20124,7 +20124,7 @@ FrameType
 :
 IonJS
 :
-MarkTypeScriptActiveIfObservable
+MarkJitScriptActiveIfObservable
 (
 frame
 .
@@ -20155,7 +20155,7 @@ more
 inlineIter
 )
 {
-MarkTypeScriptActiveIfObservable
+MarkJitScriptActiveIfObservable
 (
 inlineIter
 .
@@ -20255,7 +20255,7 @@ i
 ]
 -
 >
-types
+jitScript
 (
 )
 -
@@ -20281,7 +20281,7 @@ i
 ]
 -
 >
-types
+jitScript
 (
 )
 -

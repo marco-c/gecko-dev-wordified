@@ -7496,7 +7496,7 @@ HandleValue
 val
 )
 {
-AutoSweepTypeScript
+AutoSweepJitScript
 sweep
 (
 script
@@ -7509,7 +7509,7 @@ types
 script
 -
 >
-types
+jitScript
 (
 )
 -
@@ -7521,7 +7521,7 @@ script
 pc
 )
 ;
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
@@ -9936,7 +9936,7 @@ monitorsThis
 )
 )
 {
-TypeScript
+JitScript
 :
 :
 MonitorThisType
@@ -9954,7 +9954,7 @@ UnknownType
 }
 else
 {
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
@@ -9975,18 +9975,18 @@ return
 true
 ;
 }
-TypeScript
+JitScript
 *
-typeScript
+jitScript
 =
 script
 -
 >
-types
+jitScript
 (
 )
 ;
-AutoSweepTypeScript
+AutoSweepJitScript
 sweep
 (
 script
@@ -10026,7 +10026,7 @@ code
 ;
 types
 =
-typeScript
+jitScript
 -
 >
 argTypes
@@ -10036,7 +10036,7 @@ script
 argument
 )
 ;
-TypeScript
+JitScript
 :
 :
 MonitorArgType
@@ -10074,7 +10074,7 @@ code
 ;
 types
 =
-typeScript
+jitScript
 -
 >
 thisTypes
@@ -10083,7 +10083,7 @@ sweep
 script
 )
 ;
-TypeScript
+JitScript
 :
 :
 MonitorThisType
@@ -10098,7 +10098,7 @@ else
 {
 types
 =
-typeScript
+jitScript
 -
 >
 bytecodeTypes
@@ -10108,7 +10108,7 @@ script
 pc
 )
 ;
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
@@ -18152,7 +18152,7 @@ constant
 /
 directly
 .
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType

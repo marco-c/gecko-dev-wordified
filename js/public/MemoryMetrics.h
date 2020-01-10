@@ -4389,7 +4389,7 @@ MACRO
 (
 Other
 MallocHeap
-typeInferenceTypeScripts
+jitScripts
 )
 \
 MACRO

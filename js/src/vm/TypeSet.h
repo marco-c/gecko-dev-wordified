@@ -1322,7 +1322,7 @@ StackTypeSet
 are
 associated
 with
-TypeScripts
+JitScripts
 for
 arguments
 and
@@ -4219,7 +4219,7 @@ owning
 /
 ObjectGroup
 or
-TypeScript
+JitScript
 .
 TypeConstraint
 *

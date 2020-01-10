@@ -1110,7 +1110,7 @@ if
 script
 -
 >
-types
+jitScript
 (
 )
 )

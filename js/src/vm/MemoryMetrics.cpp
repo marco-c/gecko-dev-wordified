@@ -3389,13 +3389,13 @@ mallocSizeOf_
 ;
 realmStats
 .
-typeInferenceTypeScripts
+jitScripts
 +
 =
 script
 -
 >
-sizeOfTypeScript
+sizeOfJitScript
 (
 rtStats
 -

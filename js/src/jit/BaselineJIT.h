@@ -4061,7 +4061,7 @@ exceptionInfo
 /
 /
 Mark
-TypeScripts
+JitScripts
 on
 the
 stack
@@ -4079,7 +4079,7 @@ during
 GC
 .
 void
-MarkActiveTypeScripts
+MarkActiveJitScripts
 (
 Zone
 *

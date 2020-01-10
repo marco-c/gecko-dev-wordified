@@ -11258,7 +11258,7 @@ action
 SET
 )
 {
-TypeScript
+JitScript
 :
 :
 MonitorArgType

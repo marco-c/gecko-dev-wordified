@@ -3544,7 +3544,7 @@ nargs
 )
 )
 {
-TypeScript
+JitScript
 :
 :
 MonitorArgType
@@ -4886,7 +4886,7 @@ nargs
 )
 )
 {
-TypeScript
+JitScript
 :
 :
 MonitorArgType

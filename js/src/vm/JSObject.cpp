@@ -7408,7 +7408,7 @@ return
 nullptr
 ;
 }
-TypeScript
+JitScript
 :
 :
 MonitorThisType
@@ -7890,7 +7890,7 @@ nonLazyScript
 (
 )
 ;
-TypeScript
+JitScript
 :
 :
 MonitorThisType

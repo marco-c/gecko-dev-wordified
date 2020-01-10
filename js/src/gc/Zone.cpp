@@ -1453,7 +1453,7 @@ DEBUG
 /
 Assert
 no
-TypeScripts
+JitScripts
 are
 marked
 as
@@ -1487,9 +1487,9 @@ next
 {
 if
 (
-TypeScript
+JitScript
 *
-types
+jitScript
 =
 script
 .
@@ -1498,7 +1498,7 @@ unbarrieredGet
 )
 -
 >
-types
+jitScript
 (
 )
 )
@@ -1506,7 +1506,7 @@ types
 MOZ_ASSERT
 (
 !
-types
+jitScript
 -
 >
 active
@@ -1521,7 +1521,7 @@ endif
 /
 /
 Mark
-TypeScripts
+JitScripts
 on
 the
 stack
@@ -1531,7 +1531,7 @@ active
 jit
 :
 :
-MarkActiveTypeScripts
+MarkActiveJitScripts
 (
 this
 )
@@ -1623,7 +1623,7 @@ if
 script
 -
 >
-types
+jitScript
 (
 )
 -
@@ -1788,7 +1788,7 @@ the
 script
 '
 s
-TypeScript
+JitScript
 .
 This
 should
@@ -1824,7 +1824,7 @@ releaseTypes
 script
 -
 >
-maybeReleaseTypes
+maybeReleaseJitScript
 (
 )
 ;
@@ -1862,7 +1862,7 @@ types
 /
 /
 because
-TypeScript
+JitScript
 contains
 the
 ICScript
@@ -1922,19 +1922,19 @@ flag
 .
 if
 (
-TypeScript
+JitScript
 *
-types
+jitScript
 =
 script
 -
 >
-types
+jitScript
 (
 )
 )
 {
-types
+jitScript
 -
 >
 resetActive

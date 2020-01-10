@@ -10979,7 +10979,7 @@ analyzed
 .
 *
 /
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
