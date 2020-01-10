@@ -287,6 +287,9 @@ nsPrefBranch
 namespace
 mozilla
 {
+struct
+RegisterCallbacksInternal
+;
 void
 UnloadPrefsModule
 (
@@ -4457,6 +4460,10 @@ InitInitialObjects
 bool
 aIsStartup
 )
+;
+friend
+struct
+RegisterCallbacksInternal
 ;
 static
 nsresult
