@@ -2447,7 +2447,13 @@ JSVAL_TYPE_OBJECT
 ;
 JS_STATIC_ASSERT
 (
-JSVAL_OBJECT_OR_NULL_BIT
+JS
+:
+:
+detail
+:
+:
+ValueObjectOrNullBit
 =
 =
 (
