@@ -142,6 +142,7 @@ JS
 :
 Compile
 {
+DontInflate
 Utf8
 {
 Path
@@ -424,7 +425,7 @@ cx
 JS
 :
 :
-Compile
+CompileDontInflate
 (
 cx
 options
@@ -514,7 +515,7 @@ cx
 JS
 :
 :
-Compile
+CompileDontInflate
 (
 cx
 options
@@ -603,7 +604,7 @@ cx
 JS
 :
 :
-Compile
+CompileDontInflate
 (
 cx
 options
@@ -1466,7 +1467,7 @@ cx
 JS
 :
 :
-Compile
+CompileDontInflate
 (
 cx
 options

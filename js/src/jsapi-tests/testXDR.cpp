@@ -182,6 +182,12 @@ CompilationAndEvaluation
 .
 h
 "
+/
+/
+JS
+:
+:
+CompileDontInflate
 #
 include
 "
@@ -567,7 +573,7 @@ cx
 JS
 :
 :
-Compile
+CompileDontInflate
 (
 cx
 options
@@ -757,7 +763,7 @@ cx
 JS
 :
 :
-Compile
+CompileDontInflate
 (
 cx
 options
@@ -1249,7 +1255,7 @@ cx
 JS
 :
 :
-Compile
+CompileDontInflate
 (
 cx
 options
@@ -1446,7 +1452,7 @@ script
 JS
 :
 :
-Compile
+CompileDontInflate
 (
 cx
 options

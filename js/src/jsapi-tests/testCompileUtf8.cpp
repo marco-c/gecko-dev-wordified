@@ -113,6 +113,12 @@ CompilationAndEvaluation
 .
 h
 "
+/
+/
+JS
+:
+:
+CompileDontInflate
 #
 include
 "

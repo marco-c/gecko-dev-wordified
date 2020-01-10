@@ -96,6 +96,7 @@ JS
 :
 Compile
 {
+DontInflate
 ForNonSyntacticScope
 }
 #
@@ -655,7 +656,7 @@ nonSyntactic
 ;
 script
 =
-Compile
+CompileDontInflate
 (
 cx
 options

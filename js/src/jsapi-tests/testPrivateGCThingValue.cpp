@@ -162,7 +162,7 @@ h
 JS
 :
 :
-Compile
+CompileDontInflate
 #
 include
 "
@@ -445,7 +445,7 @@ cx
 JS
 :
 :
-Compile
+CompileDontInflate
 (
 cx
 options
