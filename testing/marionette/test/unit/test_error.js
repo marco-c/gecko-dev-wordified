@@ -115,9 +115,7 @@ condition
 ok
 (
 !
-(
 condition
-)
 )
 ;
 }
@@ -1707,6 +1705,7 @@ getAttribute
 attr
 =
 >
+(
 attr
 in
 otherEl
@@ -1717,6 +1716,7 @@ attr
 ]
 :
 null
+)
 nodeType
 :
 1
@@ -1744,6 +1744,7 @@ getAttribute
 attr
 =
 >
+(
 attr
 in
 obscuredEl
@@ -1754,6 +1755,7 @@ attr
 ]
 :
 null
+)
 nodeType
 :
 1

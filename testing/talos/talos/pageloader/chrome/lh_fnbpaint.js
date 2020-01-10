@@ -115,9 +115,7 @@ PageLoader
 Error
 "
 {
-"
 msg
-"
 :
 gErr
 }
@@ -150,14 +148,10 @@ PageLoader
 LoadEvent
 "
 {
-"
 time
-"
 :
 x
-"
 name
-"
 :
 "
 fnbpaint
@@ -254,9 +248,7 @@ PageLoader
 Error
 "
 {
-"
 msg
-"
 :
 gErr
 }

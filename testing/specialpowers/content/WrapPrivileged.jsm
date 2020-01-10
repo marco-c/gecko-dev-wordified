@@ -289,6 +289,7 @@ x
 object
 "
 )
+{
 return
 x
 !
@@ -296,6 +297,7 @@ x
 =
 null
 ;
+}
 return
 typeof
 x
@@ -389,9 +391,11 @@ obj
 =
 obj
 )
+{
 return
 false
 ;
+}
 let
 arrayClasses
 =
@@ -925,6 +929,7 @@ map
 x
 =
 >
+(
 isObjectOrArray
 (
 x
@@ -938,6 +943,7 @@ x
 )
 :
 x
+)
 )
 ;
 return
@@ -972,9 +978,11 @@ isWrappable
 obj
 )
 )
+{
 return
 obj
 ;
+}
 /
 /
 No
@@ -988,6 +996,7 @@ isWrapper
 obj
 )
 )
+{
 throw
 new
 Error
@@ -1003,6 +1012,7 @@ object
 "
 )
 ;
+}
 let
 dummy
 ;
@@ -1017,6 +1027,7 @@ obj
 function
 "
 )
+{
 dummy
 =
 function
@@ -1025,7 +1036,9 @@ function
 {
 }
 ;
+}
 else
+{
 dummy
 =
 Object
@@ -1035,6 +1048,7 @@ create
 null
 )
 ;
+}
 return
 new
 Proxy
@@ -1125,9 +1139,11 @@ isWrappable
 x
 )
 )
+{
 return
 x
 ;
+}
 /
 /
 If
@@ -1151,6 +1167,7 @@ isWrapper
 x
 )
 )
+{
 throw
 new
 Error
@@ -1168,6 +1185,7 @@ object
 "
 )
 ;
+}
 var
 obj
 =
@@ -1472,9 +1490,11 @@ prop
 SpecialPowers_wrappedObject
 "
 )
+{
 return
 true
 ;
+}
 return
 Reflect
 .
@@ -1504,11 +1524,13 @@ prop
 SpecialPowers_wrappedObject
 "
 )
+{
 return
 this
 .
 wrappedObject
 ;
+}
 let
 obj
 =
@@ -1654,9 +1676,11 @@ prop
 SpecialPowers_wrappedObject
 "
 )
+{
 return
 false
 ;
+}
 let
 obj
 =
@@ -1698,9 +1722,11 @@ prop
 SpecialPowers_wrappedObject
 "
 )
+{
 return
 false
 ;
+}
 return
 Reflect
 .
@@ -1940,6 +1966,7 @@ key
 in
 desc
 )
+{
 desc
 [
 key
@@ -1953,6 +1980,7 @@ key
 ]
 )
 ;
+}
 }
 wrapIfExists
 (
@@ -2062,9 +2090,7 @@ thing
 let
 flt
 =
-(
 a
-)
 =
 >
 !
@@ -2257,6 +2283,7 @@ i
 function
 "
 )
+{
 wrapper
 [
 i
@@ -2270,7 +2297,9 @@ i
 ]
 )
 ;
+}
 else
+{
 wrapper
 [
 i
@@ -2281,6 +2310,7 @@ obj
 i
 ]
 ;
+}
 }
 return
 wrapper

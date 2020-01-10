@@ -210,9 +210,7 @@ mochitest
 load
 "
 {
-"
 detail
-"
 :
 [
 flavor

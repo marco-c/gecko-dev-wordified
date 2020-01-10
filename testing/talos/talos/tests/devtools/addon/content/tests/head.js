@@ -601,9 +601,7 @@ onToolboxCreated
 if
 (
 typeof
-(
 onLoad
-)
 =
 =
 "

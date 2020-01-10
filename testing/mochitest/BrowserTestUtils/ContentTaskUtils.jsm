@@ -226,9 +226,11 @@ display
 none
 "
 )
+{
 return
 true
 ;
+}
 if
 (
 style
@@ -240,9 +242,11 @@ visibility
 visible
 "
 )
+{
 return
 true
 ;
+}
 /
 /
 Hiding
@@ -265,6 +269,7 @@ element
 .
 ownerDocument
 )
+{
 return
 ContentTaskUtils
 .
@@ -275,6 +280,7 @@ element
 parentNode
 )
 ;
+}
 return
 false
 ;
@@ -343,9 +349,11 @@ display
 none
 "
 )
+{
 return
 false
 ;
+}
 if
 (
 style
@@ -357,9 +365,11 @@ visibility
 visible
 "
 )
+{
 return
 false
 ;
+}
 /
 /
 Hiding
@@ -382,6 +392,7 @@ element
 .
 ownerDocument
 )
+{
 return
 ContentTaskUtils
 .
@@ -392,6 +403,7 @@ element
 parentNode
 )
 ;
+}
 return
 true
 ;
@@ -1146,12 +1158,14 @@ _EventUtils
 let
 EventUtils
 =
+(
 content
 .
 _EventUtils
 =
 {
 }
+)
 ;
 EventUtils
 .

@@ -185,9 +185,7 @@ _dbg
 .
 onNewScript
 =
-(
 script
-)
 =
 >
 {
@@ -523,7 +521,6 @@ key
 ]
 |
 |
-(
 this
 .
 _allCoverage
@@ -541,7 +538,6 @@ scriptName
 [
 key
 ]
-)
 )
 {
 /
@@ -1179,12 +1175,10 @@ uncovered
 if
 (
 typeof
-(
 methods
 [
 scriptName
 ]
-)
 !
 =
 "

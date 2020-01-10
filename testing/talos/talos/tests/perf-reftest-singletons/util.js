@@ -172,6 +172,7 @@ rightSize
 >
 0
 )
+{
 ours
 .
 appendChild
@@ -184,6 +185,7 @@ options
 )
 )
 ;
+}
 }
 return
 ours

@@ -947,9 +947,11 @@ listener
 )
 =
 >
+(
 listenerCalled
 =
 true
+)
 ;
 eventTarget
 .
@@ -1766,9 +1768,7 @@ click
 objects
 :
 {
-"
 target
-"
 :
 win
 }

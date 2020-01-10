@@ -276,6 +276,7 @@ getAttribute
 attr
 =
 >
+(
 attr
 in
 el
@@ -286,6 +287,7 @@ attr
 ]
 :
 null
+)
 nodeType
 :
 1

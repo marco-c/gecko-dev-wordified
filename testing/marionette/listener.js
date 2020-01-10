@@ -2796,7 +2796,6 @@ loadEventExpected
 loadEventExpected
 &
 &
-(
 capabilities
 .
 get
@@ -2811,7 +2810,6 @@ pageLoadStrategy
 PageLoadStrategy
 .
 None
-)
 ;
 if
 (
@@ -5585,8 +5583,6 @@ t
 )
 {
 return
-(
-(
 t
 .
 target
@@ -5596,18 +5592,14 @@ ownerDocument
 =
 =
 doc
-)
 &
 &
-(
 type
 !
 =
 "
 touchcancel
 "
-)
-)
 ;
 }
 )
@@ -5638,7 +5630,6 @@ t
 {
 return
 (
-(
 t
 .
 target
@@ -5646,10 +5637,8 @@ target
 =
 =
 target
-)
 &
 &
-(
 (
 type
 !
@@ -5657,17 +5646,14 @@ type
 "
 touchcancel
 "
-)
 |
 |
-(
 type
 !
 =
 "
 touchend
 "
-)
 )
 )
 ;
@@ -8971,7 +8957,6 @@ undefined
 )
 &
 &
-(
 msg
 .
 json
@@ -8980,7 +8965,6 @@ element
 =
 =
 null
-)
 )
 {
 /
@@ -9716,9 +9700,7 @@ Marionette
 switchedToFrame
 "
 {
-"
 frameValue
-"
 :
 frameWebEl
 .

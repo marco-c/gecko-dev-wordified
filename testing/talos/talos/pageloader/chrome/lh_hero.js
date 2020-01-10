@@ -113,9 +113,7 @@ PageLoader
 LoadEvent
 "
 {
-"
 time
-"
 :
 Date
 .
@@ -129,9 +127,7 @@ eslint
 disable
 -
 line
-"
 name
-"
 :
 "
 tphero
@@ -216,9 +212,7 @@ PageLoader
 Error
 "
 {
-"
 msg
-"
 :
 err
 .
@@ -298,9 +292,7 @@ PageLoader
 Error
 "
 {
-"
 msg
-"
 :
 err
 }

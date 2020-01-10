@@ -1218,6 +1218,7 @@ info
 function
 "
 )
+{
 info
 (
 "
@@ -1244,6 +1245,7 @@ toString
 )
 )
 ;
+}
 }
 }
 ;
@@ -1405,6 +1407,7 @@ delay
 <
 0
 )
+{
 do_throw
 (
 "
@@ -1418,6 +1421,7 @@ nonnegative
 "
 )
 ;
+}
 if
 (
 typeof
@@ -1429,6 +1433,7 @@ func
 function
 "
 )
+{
 do_throw
 (
 "
@@ -1445,6 +1450,7 @@ function
 "
 )
 ;
+}
 this
 .
 _func
@@ -1730,8 +1736,10 @@ if
 (
 _quit
 )
+{
 return
 ;
+}
 _testLogger
 .
 info
@@ -1965,6 +1973,7 @@ this
 registrar
 ;
 return
+(
 this
 .
 registrar
@@ -1978,6 +1987,7 @@ QueryInterface
 Ci
 .
 nsIComponentRegistrar
+)
 )
 ;
 }
@@ -4444,9 +4454,11 @@ then
 )
 =
 >
+(
 complete
 =
 true
+)
 )
 ;
 _Services
@@ -4932,7 +4944,6 @@ aName
 let
 funcName
 =
-(
 aName
 ?
 aName
@@ -4940,7 +4951,6 @@ aName
 callback
 .
 name
-)
 ;
 do_test_pending
 (
@@ -5227,12 +5237,14 @@ Ci
 .
 nsIStackFrame
 )
+{
 filename
 =
 stack
 .
 filename
 ;
+}
 else
 if
 (
@@ -5240,12 +5252,14 @@ error
 .
 fileName
 )
+{
 filename
 =
 error
 .
 fileName
 ;
+}
 _testLogger
 .
 error
@@ -5485,7 +5499,6 @@ fileName
 message
 +
 =
-(
 "
 at
 "
@@ -5493,7 +5506,6 @@ at
 ex
 .
 fileName
-)
 ;
 if
 (
@@ -5505,7 +5517,6 @@ lineNumber
 message
 +
 =
-(
 "
 :
 "
@@ -5513,7 +5524,6 @@ message
 ex
 .
 lineNumber
-)
 ;
 }
 }
@@ -5915,6 +5925,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -5923,6 +5934,7 @@ stack
 .
 caller
 ;
+}
 var
 text
 =
@@ -5966,6 +5978,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -5974,6 +5987,7 @@ stack
 .
 caller
 ;
+}
 _do_check_eq
 (
 left
@@ -5995,6 +6009,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -6003,6 +6018,7 @@ stack
 .
 caller
 ;
+}
 todo_check_eq
 (
 condition
@@ -6023,6 +6039,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -6031,6 +6048,7 @@ stack
 .
 caller
 ;
+}
 todo_check_eq
 (
 condition
@@ -6157,7 +6175,6 @@ stack
 let
 msg
 =
-(
 "
 do_check_throws_nsIException
 :
@@ -6181,7 +6198,6 @@ results
 "
 +
 resultName
-)
 ;
 try
 {
@@ -6595,10 +6611,12 @@ _tests_pending
 =
 0
 )
+{
 _do_quit
 (
 )
 ;
+}
 }
 function
 do_get_file
@@ -6677,13 +6695,16 @@ i
 .
 "
 )
+{
 lf
 =
 lf
 .
 parent
 ;
+}
 else
+{
 lf
 .
 append
@@ -6694,6 +6715,7 @@ i
 ]
 )
 ;
+}
 }
 }
 if
@@ -8043,8 +8065,10 @@ alreadyRun
 undefined
 "
 )
+{
 return
 ;
+}
 do_load_child_test_harness
 .
 alreadyRun
@@ -8119,6 +8143,7 @@ _TEST_NAME
 "
 ;
 "
++
 /
 /
 We
@@ -8135,7 +8160,6 @@ working
 in
 the
 child
-+
 "
 const
 _JSDEBUGGER_PORT
@@ -8342,9 +8366,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -8567,9 +8589,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -9060,6 +9080,7 @@ skip
 )
 =
 >
+(
 properties
 .
 skip_if
@@ -9069,6 +9090,7 @@ skip_if
 =
 >
 true
+)
 ;
 func
 .
@@ -9078,9 +9100,11 @@ only
 )
 =
 >
+(
 _gRunOnlyThisTest
 =
 func
+)
 ;
 return
 func
@@ -9693,11 +9717,9 @@ if
 (
 (
 typeof
-(
 _properties
 .
 skip_if
-)
 =
 =
 "
@@ -9775,6 +9797,7 @@ _condition
 true
 "
 )
+{
 _condition
 =
 "
@@ -9783,6 +9806,7 @@ skipped
 .
 "
 ;
+}
 let
 _message
 =
@@ -10244,11 +10268,9 @@ JSON
 .
 parse
 (
-(
 new
 TextDecoder
 (
-)
 )
 .
 decode

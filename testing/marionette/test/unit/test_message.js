@@ -388,9 +388,11 @@ onerror
 )
 =
 >
+(
 onerrorOk
 =
 true
+)
 ;
 cmd
 .
@@ -400,9 +402,11 @@ onresult
 )
 =
 >
+(
 onresultOk
 =
 true
+)
 ;
 let
 errorResp
@@ -1017,9 +1021,11 @@ Response
 )
 =
 >
+(
 fired
 =
 true
+)
 )
 ;
 resp
@@ -1102,9 +1108,11 @@ Response
 )
 =
 >
+(
 fired
 =
 true
+)
 )
 ;
 resp

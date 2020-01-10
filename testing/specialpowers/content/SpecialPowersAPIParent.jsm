@@ -274,8 +274,10 @@ i
 "
 "
 )
+{
 continue
 ;
+}
 /
 /
 can
@@ -354,6 +356,7 @@ key
 &
 value
 )
+{
 data
 [
 key
@@ -390,6 +393,7 @@ g
 "
 )
 ;
+}
 }
 }
 return
@@ -670,23 +674,17 @@ PREF_STRING
 "
 CHAR
 "
-"
 number
-"
 :
 "
 INT
 "
-"
 boolean
-"
 :
 "
 BOOL
 "
-"
 string
-"
 :
 "
 CHAR
@@ -1031,13 +1029,11 @@ if
 extra
 &
 &
-(
 "
 additional_minidumps
 "
 in
 extra
-)
 )
 {
 let
@@ -3054,6 +3050,7 @@ prefName
 !
 prefType
 )
+{
 throw
 new
 SpecialPowersError
@@ -3068,6 +3065,7 @@ SPPrefService
 "
 )
 ;
+}
 /
 /
 return
@@ -3100,9 +3098,11 @@ prefs
 .
 PREF_INVALID
 )
+{
 return
 null
 ;
+}
 return
 this
 .
@@ -3146,6 +3146,7 @@ prefValue
 =
 undefined
 )
+{
 throw
 new
 SpecialPowersError
@@ -3160,6 +3161,7 @@ SPPrefService
 "
 )
 ;
+}
 return
 this
 .
@@ -3192,6 +3194,7 @@ if
 !
 prefName
 )
+{
 throw
 new
 SpecialPowersError
@@ -3206,6 +3209,7 @@ SPPrefService
 "
 )
 ;
+}
 prefs
 .
 clearUserPref
@@ -3402,9 +3406,7 @@ crashIds
 .
 map
 (
-(
 crashId
-)
 =
 >
 {
@@ -3965,6 +3967,7 @@ obj
 )
 {
 return
+(
 obj
 .
 id
@@ -3987,6 +3990,7 @@ listener
 =
 =
 listener
+)
 ;
 }
 )

@@ -452,13 +452,11 @@ case
 runTest
 "
 :
-(
 new
 win
 .
 Tart
 (
-)
 )
 .
 startTest

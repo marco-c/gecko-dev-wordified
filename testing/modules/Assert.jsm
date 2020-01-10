@@ -336,6 +336,7 @@ process
 var
 Assert
 =
+(
 this
 .
 Assert
@@ -350,6 +351,7 @@ if
 (
 reporterFunc
 )
+{
 this
 .
 setReporter
@@ -357,10 +359,12 @@ setReporter
 reporterFunc
 )
 ;
+}
 if
 (
 isDefault
 )
+{
 Assert
 .
 setReporter
@@ -369,6 +373,8 @@ reporterFunc
 )
 ;
 }
+}
+)
 ;
 /
 /
@@ -2977,7 +2983,6 @@ message
 }
 if
 (
-(
 actual
 &
 &
@@ -2986,7 +2991,6 @@ expectedException
 (
 actual
 expected
-)
 )
 )
 {

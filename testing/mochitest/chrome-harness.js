@@ -1293,9 +1293,7 @@ var
 baseURI
 =
 typeof
-(
 gTestPath
-)
 =
 =
 "
@@ -1679,10 +1677,12 @@ exists
 (
 )
 )
+{
 return
 {
 }
 ;
+}
 var
 fileInStream
 =

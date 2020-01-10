@@ -160,11 +160,9 @@ Assert
 ok
 (
 typeof
-(
 this
 .
 MODULE_IMPORTED
-)
 =
 =
 "
@@ -177,11 +175,9 @@ Assert
 ok
 (
 typeof
-(
 this
 .
 MODULE_URI
-)
 =
 =
 "

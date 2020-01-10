@@ -57,9 +57,7 @@ browser
 -
 crashed
 "
-(
 event
-)
 =
 >
 {

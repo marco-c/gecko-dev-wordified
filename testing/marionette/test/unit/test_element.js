@@ -640,6 +640,7 @@ const
 domFrame
 =
 new
+(
 class
 extends
 WindowProxy
@@ -654,6 +655,9 @@ domWin
 ;
 }
 }
+)
+(
+)
 ;
 add_test
 (

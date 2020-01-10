@@ -195,9 +195,7 @@ dampTest
 events
 :
 {
-"
 testEvent
-"
 :
 {
 arg

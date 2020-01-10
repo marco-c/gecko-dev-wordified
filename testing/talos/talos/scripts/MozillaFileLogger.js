@@ -44,9 +44,7 @@ sync
 if
 (
 typeof
-(
 data
-)
 =
 =
 =
@@ -607,6 +605,7 @@ MozFileLogger
 .
 _foStream
 )
+{
 MozFileLogger
 .
 _foStream
@@ -619,6 +618,7 @@ data
 length
 )
 ;
+}
 if
 (
 data
@@ -686,6 +686,7 @@ MozFileLogger
 .
 _foStream
 )
+{
 MozFileLogger
 .
 _foStream
@@ -698,6 +699,7 @@ msg
 length
 )
 ;
+}
 }
 catch
 (
@@ -749,6 +751,7 @@ MozFileLogger
 .
 _foStream
 )
+{
 MozFileLogger
 .
 _foStream
@@ -757,6 +760,7 @@ close
 (
 )
 ;
+}
 MozFileLogger
 .
 _foStream

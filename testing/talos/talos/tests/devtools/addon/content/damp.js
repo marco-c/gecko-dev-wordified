@@ -418,9 +418,7 @@ else
 if
 (
 typeof
-(
 wantLoad
-)
 =
 =
 "
@@ -1529,6 +1527,7 @@ bug
 let
 tab
 =
+(
 this
 .
 _win
@@ -1551,6 +1550,7 @@ skipAnimation
 :
 true
 }
+)
 )
 ;
 let
@@ -1694,9 +1694,7 @@ selectedBrowser
 if
 (
 typeof
-(
 onReload
-)
 =
 =
 "
@@ -2145,11 +2143,9 @@ promise
 &
 &
 typeof
-(
 promise
 .
 catch
-)
 =
 =
 "
@@ -2251,6 +2247,7 @@ MozillaFileLogger
 .
 log
 )
+{
 window
 .
 MozillaFileLogger
@@ -2260,6 +2257,7 @@ log
 str
 )
 ;
+}
 window
 .
 dump
@@ -2349,7 +2347,6 @@ a
 )
 {
 return
-(
 isNaN
 (
 a
@@ -2363,7 +2360,6 @@ a
 toFixed
 (
 1
-)
 )
 ;
 }
