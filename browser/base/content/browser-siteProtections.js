@@ -328,9 +328,9 @@ openPopup
 this
 .
 _protectionsPopup
-this
+gIdentityHandler
 .
-_protectionsIconBox
+_identityIcon
 {
 position
 :
