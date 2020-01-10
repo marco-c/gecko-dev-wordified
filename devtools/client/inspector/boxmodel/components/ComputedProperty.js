@@ -390,7 +390,6 @@ null
 ;
 }
 return
-(
 dom
 .
 div
@@ -493,7 +492,6 @@ onHideBoxModelHighlighter
 }
 )
 )
-)
 ;
 }
 render
@@ -511,7 +509,6 @@ this
 props
 ;
 return
-(
 dom
 .
 div
@@ -663,7 +660,6 @@ this
 .
 renderReferenceElementPreview
 (
-)
 )
 )
 )

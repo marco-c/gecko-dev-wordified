@@ -395,6 +395,7 @@ context
 const
 canvasWidth
 =
+(
 this
 .
 canvas
@@ -408,6 +409,7 @@ waterfallWidth
 REQUESTS_WATERFALL
 .
 LABEL_WIDTH
+)
 ;
 /
 /
@@ -422,6 +424,7 @@ axis
 const
 canvasHeight
 =
+(
 this
 .
 canvas
@@ -429,6 +432,7 @@ canvas
 height
 =
 1
+)
 ;
 /
 /

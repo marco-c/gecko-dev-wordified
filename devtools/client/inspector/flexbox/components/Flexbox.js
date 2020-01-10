@@ -520,7 +520,6 @@ actorID
 )
 {
 return
-(
 dom
 .
 div
@@ -547,7 +546,6 @@ noFlexboxeOnThisPage
 "
 )
 )
-)
 ;
 }
 const
@@ -558,7 +556,6 @@ flexItemShown
 flexContainer
 ;
 return
-(
 dom
 .
 div
@@ -605,7 +602,6 @@ renderFlexItemSizing
 )
 :
 null
-)
 )
 ;
 }

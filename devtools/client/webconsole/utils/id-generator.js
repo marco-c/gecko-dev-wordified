@@ -131,14 +131,12 @@ packet
 )
 {
 return
-(
 packet
 &
 &
 packet
 .
 actor
-)
 ?
 packet
 .

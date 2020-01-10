@@ -42,12 +42,11 @@ toggleFilter
 const
 header
 =
-"
+'
 <
 h1
 style
 =
-\
 "
 color
 :
@@ -61,9 +60,9 @@ rgba
 1
 )
 ;
-"
+'
 +
-"
+'
 background
 -
 color
@@ -76,7 +75,6 @@ rgba
 1
 )
 ;
-\
 "
 >
 header
@@ -84,7 +82,7 @@ header
 /
 h1
 >
-"
+'
 ;
 const
 TEST_URI

@@ -176,9 +176,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 openScratchpad
@@ -531,9 +529,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

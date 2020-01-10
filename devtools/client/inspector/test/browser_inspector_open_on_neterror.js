@@ -163,6 +163,7 @@ that
 const
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -180,6 +181,7 @@ text
 html
 empty
 "
+)
 )
 ;
 await

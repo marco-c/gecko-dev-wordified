@@ -358,7 +358,6 @@ onRuleViewChanged
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -369,7 +368,6 @@ null
 "
 filter
 "
-)
 )
 "
 blur

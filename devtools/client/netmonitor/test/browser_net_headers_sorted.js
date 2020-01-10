@@ -803,13 +803,11 @@ must
 be
 present
 return
-(
 rawArr
 .
 length
 >
 1
-)
 ;
 }
 )

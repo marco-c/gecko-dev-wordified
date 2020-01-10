@@ -684,11 +684,13 @@ in
 TEST_DATA
 *
 GRAPH_DAMPEN_VALUES
+(
 graph
 .
 height
 /
 60
+)
 *
 0
 .

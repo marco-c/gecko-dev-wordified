@@ -221,7 +221,6 @@ waitUntil
 )
 =
 >
-(
 document
 .
 visibilityState
@@ -230,7 +229,6 @@ visibilityState
 "
 hidden
 "
-)
 )
 ;
 /

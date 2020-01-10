@@ -464,6 +464,7 @@ outline
 )
 ;
 return
+(
 flexOutline
 &
 &
@@ -476,6 +477,7 @@ gridTemplateColumns
 =
 =
 expectedGridTemplate
+)
 ;
 }
 )

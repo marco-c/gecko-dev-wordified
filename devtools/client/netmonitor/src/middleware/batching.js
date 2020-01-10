@@ -482,9 +482,7 @@ this
 .
 runTask
 =
-(
 cancel
-)
 =
 >
 {

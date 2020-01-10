@@ -301,9 +301,7 @@ mount
 const
 openLink
 =
-(
 link
-)
 =
 >
 {
@@ -358,9 +356,7 @@ tab
 const
 openSplitConsole
 =
-(
 err
-)
 =
 >
 {
@@ -665,9 +661,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

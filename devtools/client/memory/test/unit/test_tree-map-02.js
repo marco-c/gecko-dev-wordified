@@ -91,9 +91,7 @@ args
 )
 measureText
 :
-(
 text
-)
 =
 >
 {

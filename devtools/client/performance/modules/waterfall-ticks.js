@@ -190,11 +190,13 @@ context
 const
 canvasWidth
 =
+(
 canvas
 .
 width
 =
 waterfallWidth
+)
 ;
 /
 /
@@ -209,11 +211,13 @@ axis
 const
 canvasHeight
 =
+(
 canvas
 .
 height
 =
 1
+)
 ;
 /
 /

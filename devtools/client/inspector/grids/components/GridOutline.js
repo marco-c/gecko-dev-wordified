@@ -513,7 +513,6 @@ prefs
 .
 showOutline
 =
-(
 cols
 .
 lines
@@ -522,10 +521,8 @@ length
 <
 =
 GRID_OUTLINE_MAX_COLUMNS_PREF
-)
 &
 &
-(
 rows
 .
 lines
@@ -534,7 +531,6 @@ length
 <
 =
 GRID_OUTLINE_MAX_ROWS_PREF
-)
 ;
 }
 return
@@ -917,7 +913,6 @@ find
 area
 =
 >
-(
 area
 .
 rowStart
@@ -931,7 +926,6 @@ area
 rowEnd
 >
 rowNumber
-)
 &
 &
 (
@@ -1067,7 +1061,6 @@ renderCannotShowOutlineText
 )
 {
 return
-(
 dom
 .
 div
@@ -1120,7 +1113,6 @@ layout
 .
 cannotShowGridOutline
 "
-)
 )
 )
 ;
@@ -1697,7 +1689,6 @@ height
 )
 {
 return
-(
 dom
 .
 rect
@@ -1795,7 +1786,6 @@ this
 onHighlightCell
 }
 )
-)
 ;
 }
 renderGridOutline
@@ -1811,7 +1801,6 @@ color
 grid
 ;
 return
-(
 dom
 .
 g
@@ -1848,7 +1837,6 @@ renderGrid
 grid
 )
 )
-)
 ;
 }
 renderGridOutlineBorder
@@ -1859,7 +1847,6 @@ color
 )
 {
 return
-(
 dom
 .
 rect
@@ -1892,7 +1879,6 @@ height
 :
 borderHeight
 }
-)
 )
 ;
 }

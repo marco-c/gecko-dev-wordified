@@ -469,9 +469,7 @@ node_modules
 alias
 :
 {
-"
 Services
-"
 :
 "
 devtools
@@ -482,9 +480,7 @@ src
 /
 Services
 "
-"
 react
-"
 :
 path
 .
@@ -981,9 +977,7 @@ to
 .
 .
 /
-"
 devtools
-"
 :
 path
 .
@@ -1020,9 +1014,7 @@ devtools
 /
 skin
 /
-(
 result
-)
 =
 >
 {
@@ -1076,9 +1068,7 @@ devtools
 /
 content
 /
-(
 result
-)
 =
 >
 {
@@ -1127,9 +1117,7 @@ resource
 /
 devtools
 /
-(
 result
-)
 =
 >
 {
@@ -1339,9 +1327,7 @@ rules
 .
 filter
 (
-(
 rule
-)
 =
 >
 !

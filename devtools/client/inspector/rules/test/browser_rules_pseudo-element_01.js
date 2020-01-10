@@ -625,7 +625,6 @@ array
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -641,7 +640,6 @@ background
 -
 color
 "
-)
 )
 "
 rgb
@@ -664,7 +662,6 @@ used
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -680,7 +677,6 @@ font
 -
 style
 "
-)
 )
 "
 italic
@@ -698,7 +694,6 @@ used
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -709,7 +704,6 @@ text
 -
 decoration
 "
-)
 )
 "
 none
@@ -734,7 +728,6 @@ firstProp
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -750,7 +743,6 @@ background
 -
 color
 "
-)
 )
 "
 rgb
@@ -774,7 +766,6 @@ used
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -785,7 +776,6 @@ background
 -
 color
 "
-)
 )
 "
 rgb
@@ -815,7 +805,6 @@ firstProp
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -831,7 +820,6 @@ background
 -
 color
 "
-)
 )
 "
 rgb
@@ -854,7 +842,6 @@ used
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -865,7 +852,6 @@ text
 -
 decoration
 "
-)
 )
 "
 none
@@ -923,7 +909,6 @@ onAdded
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -934,7 +919,6 @@ background
 -
 color
 "
-)
 )
 "
 rgb
@@ -957,7 +941,6 @@ used
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -973,7 +956,6 @@ background
 -
 color
 "
-)
 )
 "
 rgb

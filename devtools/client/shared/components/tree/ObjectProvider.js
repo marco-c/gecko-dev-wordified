@@ -217,9 +217,7 @@ return
 if
 (
 typeof
-(
 object
-)
 =
 =
 "
@@ -359,11 +357,9 @@ object
 )
 {
 return
-(
 object
 instanceof
 ObjectProperty
-)
 ?
 object
 .
@@ -380,11 +376,9 @@ object
 )
 {
 return
-(
 object
 instanceof
 ObjectProperty
-)
 ?
 object
 .
@@ -401,11 +395,9 @@ object
 )
 {
 return
-(
 object
 instanceof
 ObjectProperty
-)
 ?
 object
 .
@@ -422,11 +414,9 @@ object
 )
 {
 return
-(
 object
 instanceof
 ObjectProperty
-)
 ?
 typeof
 object

@@ -289,7 +289,6 @@ render
 )
 {
 return
-(
 Toolbar
 (
 {
@@ -320,7 +319,6 @@ jsonViewer
 .
 Copy
 "
-)
 )
 )
 )

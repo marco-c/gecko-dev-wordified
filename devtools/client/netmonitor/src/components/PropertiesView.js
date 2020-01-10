@@ -952,7 +952,6 @@ EDITOR_CONFIG_ID
 )
 {
 return
-(
 tr
 (
 {
@@ -977,7 +976,6 @@ colSpan
 2
 }
 responseTextComponent
-)
 )
 )
 ;
@@ -1012,7 +1010,6 @@ HTML_PREVIEW_ID
 )
 {
 return
-(
 tr
 (
 {
@@ -1039,7 +1036,6 @@ colSpan
 HTMLPreview
 (
 value
-)
 )
 )
 )
@@ -1142,9 +1138,7 @@ contextmenu
 if
 (
 typeof
-(
 object
-)
 =
 =
 =
@@ -1270,6 +1264,7 @@ this
 method
 if
 (
+(
 member
 .
 level
@@ -1288,6 +1283,7 @@ type
 "
 object
 "
+)
 |
 |
 (
@@ -1419,6 +1415,7 @@ object
 )
 {
 return
+(
 this
 .
 props
@@ -1438,9 +1435,7 @@ object
 .
 filter
 (
-(
 section
-)
 =
 >
 this
@@ -1455,6 +1450,7 @@ section
 length
 >
 0
+)
 ;
 }
 updateFilterText
@@ -1495,7 +1491,6 @@ this
 props
 ;
 return
-(
 div
 (
 {
@@ -1594,9 +1589,7 @@ decorator
 {
 getRowClass
 :
-(
 rowObject
-)
 =
 >
 this
@@ -1630,9 +1623,7 @@ AUTO_EXPAND_MAX_NODES
 )
 onFilter
 :
-(
 props
-)
 =
 >
 this
@@ -1665,7 +1656,6 @@ this
 .
 onContextMenuRow
 }
-)
 )
 )
 )

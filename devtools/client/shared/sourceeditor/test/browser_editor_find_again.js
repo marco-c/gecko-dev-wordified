@@ -335,17 +335,13 @@ focus
 const
 dispatchAndWaitForFocus
 =
-(
 target
-)
 =
 >
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

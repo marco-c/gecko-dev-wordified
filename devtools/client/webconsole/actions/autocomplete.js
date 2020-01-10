@@ -388,7 +388,6 @@ input
 let
 authorizedEvaluations
 =
-(
 Array
 .
 isArray
@@ -406,7 +405,6 @@ authorizedEvaluations
 length
 >
 0
-)
 ?
 state
 .

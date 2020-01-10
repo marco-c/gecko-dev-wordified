@@ -1060,9 +1060,11 @@ parentWidth
 const
 newWidthInPixels
 =
+(
 newPercent
 *
 parentWidth
+)
 /
 100
 ;
@@ -1154,9 +1156,11 @@ parentWidth
 const
 newWidthInPixels
 =
+(
 newPercent
 *
 parentWidth
+)
 /
 100
 ;

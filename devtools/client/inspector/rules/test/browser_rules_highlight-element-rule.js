@@ -296,6 +296,7 @@ getBoundingClientRect
 )
 ;
 return
+(
 top
 >
 =
@@ -322,5 +323,6 @@ right
 win
 .
 innerWidth
+)
 ;
 }

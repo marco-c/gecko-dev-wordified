@@ -1106,7 +1106,6 @@ MessageIcon
 level
 onRewindClick
 :
-(
 serviceContainer
 .
 canRewind
@@ -1115,7 +1114,6 @@ canRewind
 &
 &
 executionPoint
-)
 ?
 (
 )

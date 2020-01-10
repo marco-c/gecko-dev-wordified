@@ -954,11 +954,13 @@ attributes
 .
 .
 .
+(
 otherAttributes
 |
 |
 [
 ]
+)
 {
 name
 :

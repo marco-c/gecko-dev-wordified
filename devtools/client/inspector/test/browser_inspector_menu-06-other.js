@@ -383,7 +383,6 @@ inspector
 ;
 is
 (
-(
 await
 testActor
 .
@@ -393,7 +392,6 @@ getNumberOfElementMatches
 .
 duplicate
 "
-)
 )
 1
 "
@@ -496,7 +494,6 @@ updated
 ;
 is
 (
-(
 await
 testActor
 .
@@ -506,7 +503,6 @@ getNumberOfElementMatches
 .
 duplicate
 "
-)
 )
 2
 "
@@ -1019,7 +1015,6 @@ resolve
 ;
 ok
 (
-(
 await
 testActor
 .
@@ -1032,7 +1027,6 @@ document
 .
 documentElement
 "
-)
 )
 "
 Document

@@ -535,9 +535,9 @@ getDuration
 )
 *
 distance
+)
 /
 100
-)
 -
 this
 .
@@ -601,11 +601,9 @@ abs
 time
 )
 <
-(
 1
 /
 1000
-)
 )
 {
 time

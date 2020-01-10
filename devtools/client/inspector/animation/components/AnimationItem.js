@@ -335,6 +335,7 @@ nextState
 )
 {
 return
+(
 this
 .
 state
@@ -372,6 +373,7 @@ timeScale
 nextProps
 .
 timeScale
+)
 ;
 }
 isSelected
@@ -380,6 +382,7 @@ props
 )
 {
 return
+(
 props
 .
 selectedAnimation
@@ -398,6 +401,7 @@ props
 selectedAnimation
 .
 actorID
+)
 ;
 }
 render

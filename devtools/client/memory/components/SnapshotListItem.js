@@ -660,9 +660,7 @@ button
 {
 onClick
 :
-(
 event
-)
 =
 >
 {
@@ -701,7 +699,6 @@ delete
 )
 ;
 return
-(
 dom
 .
 li
@@ -752,7 +749,6 @@ info
 }
 details
 saveLink
-)
 )
 )
 ;

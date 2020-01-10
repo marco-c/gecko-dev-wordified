@@ -1592,7 +1592,6 @@ description
 disabled
 className
 :
-(
 "
 command
 -
@@ -1620,12 +1619,9 @@ checked
 "
 "
 )
-)
 onClick
 :
-(
 event
-)
 =
 >
 {
@@ -1668,9 +1664,7 @@ focusedButton
 "
 onKeyDown
 :
-(
 event
-)
 =
 >
 {
@@ -2977,7 +2971,6 @@ props
 .
 canRender
 ?
-(
 div
 (
 {
@@ -3003,7 +2996,6 @@ this
 .
 renderToolboxControls
 (
-)
 )
 )
 :

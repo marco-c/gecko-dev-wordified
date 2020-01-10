@@ -359,7 +359,6 @@ null
 ;
 }
 return
-(
 span
 (
 {
@@ -391,7 +390,6 @@ badges
 )
 }
 items
-)
 )
 ;
 }

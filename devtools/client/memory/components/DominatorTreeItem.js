@@ -301,6 +301,7 @@ nextState
 )
 {
 return
+(
 this
 .
 props
@@ -347,6 +348,7 @@ focused
 nextProps
 .
 focused
+)
 ;
 }
 render

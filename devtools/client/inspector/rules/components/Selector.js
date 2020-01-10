@@ -679,7 +679,6 @@ break
 ;
 }
 return
-(
 dom
 .
 span
@@ -693,7 +692,6 @@ className
 selectorSpanClass
 }
 value
-)
 )
 ;
 }
@@ -760,7 +758,6 @@ render
 )
 {
 return
-(
 dom
 .
 span
@@ -786,7 +783,6 @@ this
 .
 renderSelector
 (
-)
 )
 )
 ;

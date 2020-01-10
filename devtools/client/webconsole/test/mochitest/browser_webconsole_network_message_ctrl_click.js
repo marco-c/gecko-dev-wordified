@@ -384,9 +384,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

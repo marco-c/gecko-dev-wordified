@@ -321,7 +321,6 @@ svg
 }
 }
 return
-(
 channel
 =
 =
@@ -347,7 +346,6 @@ channel
 "
 aurora
 "
-)
 ?
 chrome
 :

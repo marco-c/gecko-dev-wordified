@@ -1389,9 +1389,7 @@ const
 commands
 =
 {
-"
 cmd_find
-"
 :
 (
 )
@@ -1406,9 +1404,7 @@ cmd_find
 )
 ;
 }
-"
 cmd_findAgain
-"
 :
 (
 )
@@ -1423,9 +1419,7 @@ cmd_findAgain
 )
 ;
 }
-"
 cmd_gotoLine
-"
 :
 (
 )
@@ -4161,6 +4155,7 @@ line
 )
 {
 return
+(
 aLoc
 .
 start
@@ -4179,6 +4174,7 @@ column
 >
 =
 columnNumber
+)
 ;
 }
 if
@@ -5813,9 +5809,7 @@ stack
 .
 then
 (
-(
 message
-)
 =
 >
 {
@@ -7892,11 +7886,9 @@ pathIndex
 =
 =
 =
-(
 filesCount
 -
 1
-)
 )
 {
 /

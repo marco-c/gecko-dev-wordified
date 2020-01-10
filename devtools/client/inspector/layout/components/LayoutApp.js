@@ -1207,7 +1207,6 @@ FLEXBOX_OPENED_PREF
 ;
 }
 return
-(
 dom
 .
 div
@@ -1231,7 +1230,6 @@ Accordion
 {
 items
 }
-)
 )
 )
 ;

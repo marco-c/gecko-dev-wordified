@@ -538,7 +538,7 @@ view
 {
 info
 (
-"
+'
 Press
 backspace
 and
@@ -546,12 +546,10 @@ set
 filter
 text
 to
-\
 "
 margin
-\
 "
-"
+'
 )
 ;
 const

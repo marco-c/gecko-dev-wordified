@@ -372,9 +372,7 @@ onScratchpadSelected
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

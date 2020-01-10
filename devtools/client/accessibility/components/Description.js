@@ -259,7 +259,6 @@ render
 )
 {
 return
-(
 div
 (
 {
@@ -323,7 +322,6 @@ description
 .
 oldVersion
 "
-)
 )
 )
 )
@@ -678,7 +676,6 @@ disabledTitle
 ;
 }
 return
-(
 div
 (
 {
@@ -855,7 +852,6 @@ L10N
 getStr
 (
 enableButtonStr
-)
 )
 )
 )

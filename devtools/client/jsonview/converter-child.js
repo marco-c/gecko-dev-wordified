@@ -199,11 +199,9 @@ jsm
 return
 !
 !
-(
 AppConstants
 .
 DEBUG_JS_MODULES
-)
 ;
 }
 )
@@ -1759,6 +1757,7 @@ jsonview
 "
 ;
 return
+(
 "
 <
 !
@@ -1775,14 +1774,10 @@ element
 html
 "
 {
-"
 platform
-"
 :
 os
-"
 class
-"
 :
 "
 theme
@@ -1801,9 +1796,7 @@ devtools
 theme
 "
 )
-"
 dir
-"
 :
 Services
 .
@@ -1899,9 +1892,7 @@ element
 div
 "
 {
-"
 id
-"
 :
 "
 content
@@ -1914,9 +1905,7 @@ element
 div
 "
 {
-"
 id
-"
 :
 "
 json
@@ -1965,6 +1954,7 @@ js
 )
 .
 outerHTML
+)
 ;
 }
 /

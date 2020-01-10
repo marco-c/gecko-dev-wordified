@@ -526,6 +526,7 @@ s
 {
 return
 (
+(
 insensitive
 &
 &
@@ -538,6 +539,7 @@ s
 .
 toLowerCase
 (
+)
 )
 |
 |
@@ -718,6 +720,7 @@ hre
 )
 |
 |
+(
 xD
 &
 &
@@ -734,6 +737,7 @@ Date
 parse
 (
 y
+)
 )
 |
 |
@@ -775,6 +779,8 @@ Priest
 )
 return
 (
+(
+(
 !
 s
 .
@@ -794,6 +800,7 @@ l
 parseFloat
 (
 s
+)
 )
 |
 |
@@ -815,6 +822,7 @@ sre
 |
 |
 0
+)
 ;
 }
 ;

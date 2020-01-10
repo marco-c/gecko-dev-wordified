@@ -427,13 +427,11 @@ Math
 .
 max
 (
-(
 this
 .
 _index
 +
 1
-)
 -
 this
 .
@@ -1008,7 +1006,6 @@ command
 )
 {
 return
-(
 command
 =
 =
@@ -1023,7 +1020,6 @@ command
 "
 cmd_redo
 "
-)
 ;
 }
 isCommandEnabled

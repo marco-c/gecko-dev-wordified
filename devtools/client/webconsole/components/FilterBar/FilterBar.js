@@ -2096,7 +2096,6 @@ renderFiltersConfigBar
 ;
 }
 return
-(
 dom
 .
 div
@@ -2136,7 +2135,6 @@ node
 }
 }
 children
-)
 )
 ;
 }

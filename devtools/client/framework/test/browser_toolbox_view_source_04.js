@@ -259,9 +259,7 @@ viewSource
 then
 (
 finish
-(
 aError
-)
 =
 >
 {

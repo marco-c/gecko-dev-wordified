@@ -111,9 +111,7 @@ prototype
 requestTypes
 =
 {
-"
 ping
-"
 :
 TestActor1
 .

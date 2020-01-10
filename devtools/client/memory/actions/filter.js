@@ -93,6 +93,7 @@ refresh
 const
 setFilterString
 =
+(
 exports
 .
 setFilterString
@@ -115,6 +116,7 @@ filterString
 }
 ;
 }
+)
 ;
 /
 /

@@ -252,7 +252,6 @@ this
 props
 ;
 return
-(
 dom
 .
 div
@@ -302,7 +301,6 @@ isDisabled
 >
 {
 return
-(
 dom
 .
 label
@@ -355,10 +353,8 @@ value
 )
 value
 )
-)
 ;
 }
-)
 )
 )
 ;

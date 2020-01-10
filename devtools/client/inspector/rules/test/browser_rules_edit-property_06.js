@@ -192,7 +192,6 @@ textProps
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -205,7 +204,6 @@ background
 -
 color
 "
-)
 )
 "
 rgb
@@ -268,7 +266,6 @@ set
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -281,7 +278,6 @@ background
 -
 color
 "
-)
 )
 "
 rgb
@@ -321,7 +317,6 @@ prop
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -334,7 +329,6 @@ background
 -
 color
 "
-)
 )
 "
 rgb
@@ -408,7 +402,6 @@ enabled
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -421,7 +414,6 @@ background
 -
 color
 "
-)
 )
 "
 rgb

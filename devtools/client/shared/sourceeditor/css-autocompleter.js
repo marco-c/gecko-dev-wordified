@@ -587,9 +587,7 @@ const
 CSS_STATES
 =
 {
-"
 null
-"
 :
 "
 null
@@ -677,9 +675,7 @@ const
 SELECTOR_STATES
 =
 {
-"
 null
-"
 :
 "
 null
@@ -4804,7 +4800,6 @@ this
 .
 completing
 =
-(
 text
 .
 slice
@@ -4832,7 +4827,6 @@ replace
 /
 "
 "
-)
 )
 ;
 }

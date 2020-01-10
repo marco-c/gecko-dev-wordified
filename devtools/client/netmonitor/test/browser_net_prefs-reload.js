@@ -371,9 +371,7 @@ changes
 .
 modifyFrontend
 :
-(
 value
-)
 =
 >
 value

@@ -378,6 +378,7 @@ id
 const
 computeSnapshotData
 =
+(
 exports
 .
 computeSnapshotData
@@ -495,6 +496,7 @@ id
 }
 ;
 }
+)
 ;
 /
 *
@@ -643,6 +645,7 @@ null
 const
 takeSnapshot
 =
+(
 exports
 .
 takeSnapshot
@@ -792,6 +795,7 @@ id
 }
 ;
 }
+)
 ;
 /
 *
@@ -841,6 +845,7 @@ id
 const
 readSnapshot
 =
+(
 exports
 .
 readSnapshot
@@ -1010,6 +1015,7 @@ creationTime
 ;
 }
 }
+)
 )
 ;
 let
@@ -1622,6 +1628,7 @@ census
 const
 takeCensus
 =
+(
 exports
 .
 takeCensus
@@ -1631,9 +1638,7 @@ makeTakeCensusTask
 {
 getDisplay
 :
-(
 state
-)
 =
 >
 state
@@ -1641,9 +1646,7 @@ state
 censusDisplay
 getFilter
 :
-(
 state
-)
 =
 >
 state
@@ -1651,9 +1654,7 @@ state
 filter
 getCensus
 :
-(
 snapshot
-)
 =
 >
 snapshot
@@ -1711,6 +1712,7 @@ SAVED
 )
 }
 )
+)
 ;
 /
 *
@@ -1728,6 +1730,7 @@ treemap
 const
 takeTreeMap
 =
+(
 exports
 .
 takeTreeMap
@@ -1737,9 +1740,7 @@ makeTakeCensusTask
 {
 getDisplay
 :
-(
 state
-)
 =
 >
 state
@@ -1754,9 +1755,7 @@ getFilter
 null
 getCensus
 :
-(
 snapshot
-)
 =
 >
 snapshot
@@ -1813,6 +1812,7 @@ treeMapState
 SAVED
 )
 }
+)
 )
 ;
 /
@@ -1919,6 +1919,7 @@ viewState
 const
 getCurrentCensusTaker
 =
+(
 exports
 .
 getCurrentCensusTaker
@@ -1956,6 +1957,7 @@ defaultCensusTaker
 ;
 }
 }
+)
 ;
 /
 *
@@ -2055,6 +2057,7 @@ reportLeafIndex
 const
 fetchIndividuals
 =
+(
 exports
 .
 fetchIndividuals
@@ -2457,6 +2460,7 @@ dominatorTree
 }
 ;
 }
+)
 ;
 /
 *
@@ -3137,6 +3141,7 @@ DominatorTreeId
 const
 computeDominatorTree
 =
+(
 exports
 .
 computeDominatorTree
@@ -3296,6 +3301,7 @@ dominatorTreeId
 }
 }
 )
+)
 ;
 /
 *
@@ -3353,6 +3359,7 @@ DominatorTreeNode
 const
 fetchDominatorTree
 =
+(
 exports
 .
 fetchDominatorTree
@@ -3588,6 +3595,7 @@ root
 ;
 }
 }
+)
 )
 ;
 /
@@ -3994,6 +4002,7 @@ DominatorTreeNode
 const
 computeAndFetchDominatorTree
 =
+(
 exports
 .
 computeAndFetchDominatorTree
@@ -4087,6 +4096,7 @@ root
 ;
 }
 }
+)
 )
 ;
 /
@@ -4346,6 +4356,7 @@ js
 const
 selectSnapshot
 =
+(
 exports
 .
 selectSnapshot
@@ -4366,6 +4377,7 @@ id
 }
 ;
 }
+)
 ;
 /
 *

@@ -207,7 +207,6 @@ is
 (
 ~
 ~
-(
 document
 .
 querySelector
@@ -223,7 +222,6 @@ panel
 )
 .
 clientWidth
-)
 Prefs
 .
 networkDetailsWidth
@@ -364,7 +362,6 @@ is
 (
 ~
 ~
-(
 document
 .
 querySelector
@@ -380,7 +377,6 @@ panel
 )
 .
 clientWidth
-)
 Prefs
 .
 networkDetailsWidth

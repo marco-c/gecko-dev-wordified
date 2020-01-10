@@ -1211,6 +1211,7 @@ lastChildEl
 clientHeight
 ;
 return
+(
 scrollEl
 .
 scrollTop
@@ -1227,6 +1228,7 @@ scrollHeight
 lastNodeHeight
 /
 2
+)
 ;
 }
 /
@@ -1786,6 +1788,7 @@ requestHeaders
 requestHeaders
 |
 |
+(
 await
 this
 .
@@ -1800,12 +1803,14 @@ id
 requestHeaders
 "
 )
+)
 ;
 requestPostData
 =
 requestPostData
 |
 |
+(
 await
 this
 .
@@ -1819,6 +1824,7 @@ id
 "
 requestPostData
 "
+)
 )
 ;
 openRequestInTab
@@ -1998,7 +2004,6 @@ this
 props
 ;
 return
-(
 div
 (
 {
@@ -2177,9 +2182,7 @@ item
 )
 onMouseDown
 :
-(
 evt
-)
 =
 >
 this
@@ -2244,7 +2247,6 @@ group
 >
 )
 )
-)
 ;
 }
 }
@@ -2254,9 +2256,7 @@ exports
 =
 connect
 (
-(
 state
-)
 =
 >
 (
@@ -2340,9 +2340,7 @@ props
 {
 blockSelectedRequestURL
 :
-(
 clickedRequest
-)
 =
 >
 {
@@ -2362,9 +2360,7 @@ clickedRequest
 }
 cloneRequest
 :
-(
 id
-)
 =
 >
 dispatch
@@ -2410,9 +2406,7 @@ connector
 )
 openStatistics
 :
-(
 open
-)
 =
 >
 dispatch
@@ -2429,9 +2423,7 @@ open
 )
 unblockSelectedRequestURL
 :
-(
 clickedRequest
-)
 =
 >
 {
@@ -2471,9 +2463,7 @@ available
 /
 onCauseBadgeMouseDown
 :
-(
 cause
-)
 =
 >
 {
@@ -2511,9 +2501,7 @@ trace
 }
 selectRequest
 :
-(
 id
-)
 =
 >
 dispatch
@@ -2527,9 +2515,7 @@ id
 )
 onItemRightMouseButtonDown
 :
-(
 id
-)
 =
 >
 dispatch
@@ -2543,9 +2529,7 @@ id
 )
 onItemMouseDown
 :
-(
 id
-)
 =
 >
 dispatch
@@ -2586,9 +2570,7 @@ clicked
 /
 onSecurityIconMouseDown
 :
-(
 securityState
-)
 =
 >
 {
@@ -2622,9 +2604,7 @@ security
 }
 onSelectDelta
 :
-(
 delta
-)
 =
 >
 dispatch

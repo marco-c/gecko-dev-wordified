@@ -200,12 +200,14 @@ Actions
 const
 actions
 =
+(
 exports
 .
 actions
 =
 {
 }
+)
 ;
 /
 /
@@ -1918,6 +1920,7 @@ in
 const
 viewState
 =
+(
 exports
 .
 viewState
@@ -1927,6 +1930,7 @@ Object
 create
 (
 null
+)
 )
 ;
 viewState
@@ -2061,6 +2065,7 @@ States
 const
 snapshotState
 =
+(
 exports
 .
 snapshotState
@@ -2070,6 +2075,7 @@ Object
 create
 (
 null
+)
 )
 ;
 /
@@ -2236,6 +2242,7 @@ ERROR
 const
 censusState
 =
+(
 exports
 .
 censusState
@@ -2245,6 +2252,7 @@ Object
 create
 (
 null
+)
 )
 ;
 censusState
@@ -2314,6 +2322,7 @@ ERROR
 const
 treeMapState
 =
+(
 exports
 .
 treeMapState
@@ -2323,6 +2332,7 @@ Object
 create
 (
 null
+)
 )
 ;
 treeMapState
@@ -2469,6 +2479,7 @@ ERROR
 const
 diffingState
 =
+(
 exports
 .
 diffingState
@@ -2478,6 +2489,7 @@ Object
 create
 (
 null
+)
 )
 ;
 /
@@ -2686,6 +2698,7 @@ leave
 const
 dominatorTreeState
 =
+(
 exports
 .
 dominatorTreeState
@@ -2695,6 +2708,7 @@ Object
 create
 (
 null
+)
 )
 ;
 dominatorTreeState
@@ -2880,6 +2894,7 @@ leave
 const
 individualsState
 =
+(
 exports
 .
 individualsState
@@ -2889,6 +2904,7 @@ Object
 create
 (
 null
+)
 )
 ;
 individualsState

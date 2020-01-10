@@ -334,6 +334,7 @@ gBrowser
 const
 tab
 =
+(
 targetBrowser
 .
 selectedTab
@@ -344,6 +345,7 @@ addTab
 (
 targetBrowser
 url
+)
 )
 ;
 BrowserTestUtils

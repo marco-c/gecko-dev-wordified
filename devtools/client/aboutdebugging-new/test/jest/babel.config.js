@@ -37,9 +37,7 @@ module
 exports
 =
 {
-"
 plugins
-"
 :
 [
 "

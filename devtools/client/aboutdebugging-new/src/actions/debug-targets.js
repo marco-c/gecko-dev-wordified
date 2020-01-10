@@ -324,6 +324,7 @@ Release
 channel
 .
 return
+(
 type
 =
 =
@@ -344,6 +345,7 @@ client
 getActor
 (
 id
+)
 )
 ;
 }
@@ -738,18 +740,14 @@ recordTelemetryEvent
 inspect
 "
 {
-"
 target_type
-"
 :
 type
 .
 toUpperCase
 (
 )
-"
 runtime_type
-"
 :
 runtime
 .
@@ -1142,7 +1140,6 @@ tabs
 =
 isSupported
 ?
-(
 await
 clientWrapper
 .
@@ -1153,7 +1150,6 @@ favicons
 :
 true
 }
-)
 )
 :
 [

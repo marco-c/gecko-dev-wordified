@@ -295,9 +295,7 @@ is
 not
 necessary
 .
-"
 EventHandlerNonNull
-"
 :
 L10N
 .
@@ -366,9 +364,7 @@ handler
 "
 setTimeout
 "
-"
 FrameRequestCallback
-"
 :
 "
 requestAnimationFrame

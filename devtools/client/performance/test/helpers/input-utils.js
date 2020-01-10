@@ -62,9 +62,7 @@ exports
 .
 command
 =
-(
 node
-)
 =
 >
 {

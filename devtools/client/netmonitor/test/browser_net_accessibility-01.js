@@ -162,11 +162,9 @@ Performing
 check
 "
 +
-(
 count
 +
 +
-)
 +
 "
 .
@@ -201,9 +199,7 @@ requestItems
 .
 findIndex
 (
-(
 item
-)
 =
 >
 item

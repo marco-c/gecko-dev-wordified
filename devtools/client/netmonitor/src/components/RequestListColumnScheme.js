@@ -154,6 +154,7 @@ nextProps
 )
 {
 return
+(
 this
 .
 props
@@ -173,6 +174,7 @@ item
 urlDetails
 .
 scheme
+)
 ;
 }
 render
@@ -191,7 +193,6 @@ props
 item
 ;
 return
-(
 dom
 .
 td
@@ -220,7 +221,6 @@ scheme
 urlDetails
 .
 scheme
-)
 )
 ;
 }

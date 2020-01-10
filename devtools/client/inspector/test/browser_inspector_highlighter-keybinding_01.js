@@ -132,7 +132,6 @@ div1
 ;
 ok
 (
-(
 await
 testActor
 .
@@ -144,7 +143,6 @@ simple
 -
 div1
 "
-)
 )
 "
 The
@@ -195,7 +193,6 @@ options
 ;
 ok
 (
-(
 await
 testActor
 .
@@ -207,7 +204,6 @@ useless
 -
 para
 "
-)
 )
 "
 The
@@ -249,7 +245,6 @@ para
 ;
 ok
 (
-(
 await
 testActor
 .
@@ -261,7 +256,6 @@ useful
 -
 para
 "
-)
 )
 "
 The
@@ -295,7 +289,6 @@ options
 ;
 ok
 (
-(
 await
 testActor
 .
@@ -305,7 +298,6 @@ assertHighlightedNode
 #
 bold
 "
-)
 )
 "
 The
@@ -368,7 +360,6 @@ options
 ;
 ok
 (
-(
 await
 testActor
 .
@@ -380,7 +371,6 @@ simple
 -
 div1
 "
-)
 )
 "
 The

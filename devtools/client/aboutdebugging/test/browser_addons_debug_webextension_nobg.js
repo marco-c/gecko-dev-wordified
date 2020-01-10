@@ -544,9 +544,7 @@ destroy
 .
 catch
 (
-(
 error
-)
 =
 >
 {

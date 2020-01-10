@@ -342,7 +342,6 @@ checked
 ;
 }
 return
-(
 dom
 .
 div
@@ -446,7 +445,6 @@ position
 "
 }
 position
-)
 )
 )
 )

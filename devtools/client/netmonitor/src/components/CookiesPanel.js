@@ -695,7 +695,6 @@ requestCookies
 ;
 }
 return
-(
 div
 (
 {
@@ -719,7 +718,6 @@ sectionNames
 SECTION_NAMES
 openLink
 }
-)
 )
 )
 ;

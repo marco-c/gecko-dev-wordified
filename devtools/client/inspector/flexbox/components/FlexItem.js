@@ -284,7 +284,6 @@ nodeFront
 flexItem
 ;
 return
-(
 dom
 .
 button
@@ -381,7 +380,6 @@ translateNodeFrontToGrip
 nodeFront
 )
 }
-)
 )
 )
 ;

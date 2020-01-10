@@ -672,9 +672,7 @@ filters
 .
 forEach
 (
-(
 filter
-)
 =
 >
 {

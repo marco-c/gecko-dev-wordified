@@ -692,9 +692,7 @@ devtoolsTab
 .
 catch
 (
-(
 error
-)
 =
 >
 {

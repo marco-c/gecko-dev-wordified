@@ -693,6 +693,7 @@ node
 )
 {
 return
+(
 node
 .
 nodeType
@@ -721,6 +722,7 @@ exec
 node
 .
 nodeValue
+)
 )
 ;
 }

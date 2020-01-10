@@ -249,7 +249,6 @@ checked
 ;
 }
 return
-(
 div
 (
 {
@@ -386,7 +385,6 @@ onClick
 :
 onImportButtonClick
 }
-)
 )
 )
 )

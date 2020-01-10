@@ -474,7 +474,6 @@ render
 )
 {
 return
-(
 div
 (
 {
@@ -495,7 +494,6 @@ tab
 panel
 "
 }
-)
 )
 ;
 }

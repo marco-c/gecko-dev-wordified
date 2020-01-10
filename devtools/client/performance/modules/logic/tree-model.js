@@ -1059,11 +1059,13 @@ prevFrameKey
 let
 isLeaf
 =
+(
 mutableFrameKeyOptions
 .
 isLeaf
 =
 true
+)
 ;
 const
 skipRoot

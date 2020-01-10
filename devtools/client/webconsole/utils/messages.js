@@ -3922,6 +3922,7 @@ message
 )
 {
 return
+(
 message
 .
 type
@@ -3964,6 +3965,7 @@ type
 MESSAGE_TYPE
 .
 CSP_GROUP
+)
 ;
 }
 /
@@ -4008,6 +4010,7 @@ category
 message
 ;
 return
+(
 category
 =
 =
@@ -4038,6 +4041,7 @@ category
 "
 cookieBlockedForeign
 "
+)
 ;
 }
 /

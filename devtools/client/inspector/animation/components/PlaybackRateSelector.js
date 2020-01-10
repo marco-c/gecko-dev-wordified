@@ -168,10 +168,13 @@ const
 PLAYBACK_RATES
 =
 [
+0
 .
 1
+0
 .
 25
+0
 .
 5
 1

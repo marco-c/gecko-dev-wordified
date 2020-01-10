@@ -588,7 +588,6 @@ isTopLevelLoad
 )
 {
 return
-(
 request
 .
 loadFlags
@@ -598,7 +597,6 @@ Ci
 nsIChannel
 .
 LOAD_DOCUMENT_URI
-)
 ;
 }
 return

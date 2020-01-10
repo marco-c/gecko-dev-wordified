@@ -221,9 +221,7 @@ items
 .
 forEach
 (
-(
 item
-)
 =
 >
 {
@@ -281,9 +279,7 @@ subItems
 .
 forEach
 (
-(
 subItem
-)
 =
 >
 {

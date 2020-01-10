@@ -668,7 +668,6 @@ middleware
 const
 services
 =
-(
 options
 .
 services
@@ -676,7 +675,6 @@ services
 |
 {
 }
-)
 ;
 const
 middleware

@@ -99,6 +99,7 @@ properties
 const
 flexItemProperties
 =
+(
 exports
 .
 flexItemProperties
@@ -229,9 +230,7 @@ flex
 item
 element
 .
-"
 height
-"
 :
 PropTypes
 .
@@ -247,14 +246,13 @@ flex
 item
 element
 .
-"
 width
-"
 :
 PropTypes
 .
 string
 }
+)
 ;
 /
 *
@@ -271,6 +269,7 @@ data
 const
 flexItemSizing
 =
+(
 exports
 .
 flexItemSizing
@@ -434,6 +433,7 @@ PropTypes
 .
 number
 }
+)
 ;
 /
 *
@@ -449,6 +449,7 @@ data
 const
 flexItem
 =
+(
 exports
 .
 flexItem
@@ -535,6 +536,7 @@ shape
 flexItemProperties
 )
 }
+)
 ;
 /
 *
@@ -552,6 +554,7 @@ properties
 const
 flexContainerProperties
 =
+(
 exports
 .
 flexContainerProperties
@@ -653,6 +656,7 @@ PropTypes
 .
 string
 }
+)
 ;
 /
 *
@@ -668,6 +672,7 @@ data
 const
 flexContainer
 =
+(
 exports
 .
 flexContainer
@@ -817,6 +822,7 @@ shape
 flexContainerProperties
 )
 }
+)
 ;
 /
 *

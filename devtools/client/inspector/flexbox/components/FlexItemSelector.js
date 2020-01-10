@@ -408,7 +408,6 @@ this
 props
 ;
 return
-(
 dom
 .
 button
@@ -461,7 +460,6 @@ flexItem
 nodeFront
 )
 }
-)
 )
 )
 ;

@@ -221,9 +221,7 @@ TEST_TYPES
 .
 JEST
 }
-"
 accessibility
-"
 :
 {
 path
@@ -244,9 +242,7 @@ TEST_TYPES
 .
 JEST
 }
-"
 framework
-"
 :
 {
 path
@@ -267,9 +263,7 @@ TEST_TYPES
 .
 JEST
 }
-"
 netmonitor
-"
 :
 {
 path
@@ -286,9 +280,7 @@ TEST_TYPES
 .
 JEST
 }
-"
 webconsole
-"
 :
 {
 path

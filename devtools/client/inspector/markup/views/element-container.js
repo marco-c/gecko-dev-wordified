@@ -852,7 +852,6 @@ this
 .
 tooltipDataPromise
 =
-(
 async
 function
 (
@@ -942,7 +941,6 @@ size
 bind
 (
 this
-)
 )
 (
 )

@@ -243,9 +243,7 @@ subviews
 components
 :
 {
-"
 waterfall
-"
 :
 {
 id
@@ -1036,14 +1034,12 @@ false
 const
 prefSupported
 =
-(
 prefs
 &
 &
 prefs
 .
 length
-)
 ?
 prefs
 .

@@ -153,7 +153,6 @@ text
 "
 ;
 return
-(
 div
 (
 {
@@ -188,7 +187,6 @@ htmlBody
 "
 "
 }
-)
 )
 )
 ;

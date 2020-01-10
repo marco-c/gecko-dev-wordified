@@ -1880,7 +1880,6 @@ id
 const
 render
 =
-(
 col
 .
 id
@@ -1889,7 +1888,6 @@ id
 "
 default
 "
-)
 ?
 renderLabelCell
 :
@@ -1972,12 +1970,10 @@ Render
 tree
 row
 return
-(
 tr
 (
 props
 cells
-)
 )
 ;
 }

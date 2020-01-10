@@ -695,16 +695,12 @@ dom
 stop
 (
 {
-"
 stopColor
-"
 :
 segment
 .
 computedStyle
-"
 offset
-"
 :
 segment
 .

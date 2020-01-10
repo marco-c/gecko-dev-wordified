@@ -490,7 +490,6 @@ i
 ]
 ;
 return
-(
 li
 (
 {
@@ -633,7 +632,6 @@ componentProps
 )
 )
 )
-)
 ;
 }
 render
@@ -641,7 +639,6 @@ render
 )
 {
 return
-(
 ul
 (
 {
@@ -675,7 +672,6 @@ renderContainer
 (
 item
 i
-)
 )
 )
 )

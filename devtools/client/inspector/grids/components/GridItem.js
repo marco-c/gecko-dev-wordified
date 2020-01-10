@@ -764,7 +764,6 @@ id
 )
 ;
 return
-(
 dom
 .
 ul
@@ -839,7 +838,6 @@ setSelectedNode
 )
 ;
 }
-)
 )
 )
 ;

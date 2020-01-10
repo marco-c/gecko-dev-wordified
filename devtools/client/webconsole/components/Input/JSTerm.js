@@ -1522,9 +1522,7 @@ true
 extraKeys
 :
 {
-"
 Enter
-"
 :
 (
 )
@@ -1644,9 +1642,7 @@ Enter
 "
 :
 onCtrlCmdEnter
-"
 Tab
-"
 :
 (
 )
@@ -1811,9 +1807,7 @@ Pass
 "
 ;
 }
-"
 Up
-"
 :
 onArrowUp
 "
@@ -1823,9 +1817,7 @@ Up
 "
 :
 onArrowUp
-"
 Down
-"
 :
 onArrowDown
 "
@@ -1835,9 +1827,7 @@ Down
 "
 :
 onArrowDown
-"
 Left
-"
 :
 onArrowLeft
 "
@@ -1887,9 +1877,7 @@ isMacOS
 onArrowLeft
 :
 undefined
-"
 Right
-"
 :
 onArrowRight
 "
@@ -2097,9 +2085,7 @@ Pass
 "
 ;
 }
-"
 PageUp
-"
 :
 (
 )
@@ -2162,9 +2148,7 @@ return
 null
 ;
 }
-"
 PageDown
-"
 :
 (
 )
@@ -2228,9 +2212,7 @@ return
 null
 ;
 }
-"
 Home
-"
 :
 (
 )
@@ -2307,9 +2289,7 @@ Pass
 "
 ;
 }
-"
 End
-"
 :
 (
 )
@@ -2441,9 +2421,7 @@ Pass
 "
 ;
 }
-"
 Esc
-"
 :
 false
 "
@@ -4334,9 +4312,7 @@ recordTelemetryEvent
 execute_js
 "
 {
-"
 lines
-"
 :
 str
 .
@@ -4629,13 +4605,11 @@ scrollHeight
 const
 pxHeight
 =
-(
 scrollHeight
 +
 this
 .
 inputBorderSize
-)
 +
 "
 px
@@ -7090,6 +7064,7 @@ getCursor
 ;
 return
 (
+(
 line
 =
 =
@@ -7120,6 +7095,7 @@ ch
 inputValue
 .
 length
+)
 )
 ;
 }
@@ -7306,6 +7282,7 @@ getCursor
 ;
 return
 (
+(
 !
 multiline
 &
@@ -7349,6 +7326,7 @@ length
 inputValue
 .
 length
+)
 ;
 }
 const
@@ -8114,13 +8092,11 @@ length
 ;
 xOffset
 =
-(
 offset
 *
 this
 .
 _inputCharWidth
-)
 +
 this
 .
@@ -9212,7 +9188,6 @@ length
 const
 prefix
 =
-(
 "
 \
 n
@@ -9225,7 +9200,6 @@ lines
 length
 -
 1
-)
 )
 +
 lastLine
@@ -9414,6 +9388,7 @@ autocompletion
 text
 .
 return
+(
 this
 .
 getAutoCompletionText
@@ -9449,6 +9424,7 @@ selectedIndex
 >
 -
 1
+)
 )
 ;
 }
@@ -10258,7 +10234,6 @@ this
 props
 ;
 return
-(
 dom
 .
 div
@@ -10410,7 +10385,6 @@ onContextMenu
 }
 )
 )
-)
 ;
 }
 }
@@ -10434,9 +10408,7 @@ state
 )
 getValueFromHistory
 :
-(
 direction
-)
 =
 >
 getHistoryValue
@@ -10463,9 +10435,7 @@ return
 {
 appendToHistory
 :
-(
 expr
-)
 =
 >
 dispatch

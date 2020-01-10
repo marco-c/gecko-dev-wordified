@@ -756,9 +756,7 @@ socket
 .
 onclose
 =
-(
 e
-)
 =
 >
 {
@@ -787,9 +785,7 @@ socket
 .
 onerror
 =
-(
 e
-)
 =
 >
 {

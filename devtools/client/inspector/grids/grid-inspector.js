@@ -1583,6 +1583,7 @@ isPanelVisible
 )
 {
 return
+(
 this
 .
 inspector
@@ -1632,6 +1633,7 @@ getCurrentTabID
 "
 layoutview
 "
+)
 ;
 }
 /
@@ -1944,6 +1946,7 @@ protocol
 const
 customColors
 =
+(
 await
 asyncStorage
 .
@@ -1952,6 +1955,7 @@ getItem
 "
 gridInspectorHostColors
 "
+)
 )
 |
 |
@@ -2245,6 +2249,7 @@ if
 isSubgrid
 &
 &
+(
 await
 this
 .
@@ -2260,6 +2265,7 @@ domwalker
 "
 getParentGridNode
 "
+)
 )
 )
 {
@@ -3407,6 +3413,7 @@ protocol
 const
 customGridColors
 =
+(
 await
 asyncStorage
 .
@@ -3415,6 +3422,7 @@ getItem
 "
 gridInspectorHostColors
 "
+)
 )
 |
 |

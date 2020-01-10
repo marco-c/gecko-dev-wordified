@@ -1118,6 +1118,7 @@ lastTick
 const
 dataScaleX
 =
+(
 this
 .
 dataScaleX
@@ -1131,14 +1132,17 @@ this
 .
 dataOffsetX
 )
+)
 ;
 const
 dataScaleY
 =
+(
 this
 .
 dataScaleY
 =
+(
 height
 /
 this
@@ -1159,10 +1163,12 @@ minBarsWidth
 minBarsWidth
 }
 )
+)
 *
 this
 .
 dampenValuesFactor
+)
 ;
 /
 /
@@ -1616,6 +1622,7 @@ b
 )
 =
 >
+(
 a
 .
 start
@@ -1628,6 +1635,7 @@ start
 :
 -
 1
+)
 )
 ;
 /
@@ -2438,6 +2446,7 @@ function
 const
 legendNode
 =
+(
 this
 .
 _legendNode
@@ -2452,6 +2461,7 @@ HTML_NS
 "
 div
 "
+)
 )
 ;
 legendNode

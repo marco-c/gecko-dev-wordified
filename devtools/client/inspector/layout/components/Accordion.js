@@ -505,7 +505,6 @@ item
 header
 )
 )
-(
 created
 [
 i
@@ -516,7 +515,6 @@ opened
 [
 i
 ]
-)
 ?
 div
 (

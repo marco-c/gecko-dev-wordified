@@ -3888,6 +3888,7 @@ inspector
 selection
 ;
 return
+(
 container
 .
 node
@@ -3910,6 +3911,7 @@ selection
 isSlotted
 (
 )
+)
 ;
 }
 update
@@ -3921,9 +3923,7 @@ function
 const
 updateChildren
 =
-(
 node
-)
 =
 >
 {
@@ -9798,6 +9798,7 @@ oldContainer
 const
 onMutations
 =
+(
 this
 .
 _removedNodeObserver
@@ -10020,6 +10021,7 @@ reselectedonremoved
 }
 }
 }
+)
 ;
 /
 /
@@ -10981,21 +10983,15 @@ inspector
 "
 null
 {
-"
 made_changes
-"
 :
 commit
-"
 time_open
-"
 :
 end
 -
 start
-"
 session_id
-"
 :
 this
 .

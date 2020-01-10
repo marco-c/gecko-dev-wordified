@@ -346,7 +346,6 @@ length
 "
 ;
 return
-(
 dom
 .
 td
@@ -373,7 +372,6 @@ title
 responseCookiesLength
 }
 responseCookiesLength
-)
 )
 ;
 }

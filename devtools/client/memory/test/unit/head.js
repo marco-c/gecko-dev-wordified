@@ -687,6 +687,7 @@ state
 )
 ;
 return
+(
 snapshots
 .
 length
@@ -727,6 +728,7 @@ state
 =
 =
 state
+)
 )
 ;
 }
@@ -874,6 +876,7 @@ map
 x
 =
 >
+(
 getCensus
 (
 x
@@ -889,8 +892,10 @@ state
 null
 )
 )
+)
 ;
 return
+(
 snapshots
 .
 length
@@ -933,7 +938,6 @@ state
 "
 *
 "
-)
 |
 |
 (
@@ -958,8 +962,10 @@ state
 =
 state
 )
+)
 ;
 }
+)
 )
 ;
 }

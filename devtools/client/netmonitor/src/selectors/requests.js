@@ -383,6 +383,7 @@ true
 ;
 }
 return
+(
 filters
 .
 requestFilterTypes
@@ -403,6 +404,7 @@ filter
 ]
 (
 r
+)
 )
 ;
 }
@@ -458,6 +460,7 @@ filter
 >
 {
 return
+(
 filters
 .
 requestFilterTypes
@@ -478,6 +481,7 @@ filter
 ]
 (
 r
+)
 )
 ;
 }

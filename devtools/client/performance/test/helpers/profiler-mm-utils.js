@@ -169,9 +169,7 @@ exports
 .
 pmmLoadFrameScripts
 =
-(
 gBrowser
-)
 =
 >
 {
@@ -655,9 +653,7 @@ exports
 .
 pmmEvalInDebuggee
 =
-(
 script
-)
 =
 >
 {

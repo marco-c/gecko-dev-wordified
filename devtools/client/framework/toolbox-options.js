@@ -1226,9 +1226,7 @@ return
 const
 onCheckboxClick
 =
-(
 checkbox
-)
 =
 >
 {
@@ -1674,9 +1672,7 @@ checked
 const
 createToolCheckbox
 =
-(
 tool
-)
 =
 >
 {
@@ -3777,9 +3773,7 @@ const
 options
 =
 {
-"
 javascriptEnabled
-"
 :
 !
 checked

@@ -1885,9 +1885,9 @@ return
 undefined
 ;
 }
+)
 (
 root
-)
 )
 ;
 }

@@ -264,12 +264,10 @@ Policy
 :
 "
 true
-"
-\
+'
 "
 Referrer
 Policy
-\
 "
 header
 is
@@ -279,7 +277,7 @@ the
 header
 panel
 .
-"
+'
 )
 ;
 is

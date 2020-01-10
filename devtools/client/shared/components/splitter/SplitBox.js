@@ -714,6 +714,7 @@ nextState
 )
 {
 return
+(
 nextState
 .
 width
@@ -820,6 +821,7 @@ this
 props
 .
 maxSize
+)
 ;
 }
 componentDidUpdate
@@ -961,7 +963,6 @@ style
 .
 cursor
 =
-(
 this
 .
 state
@@ -979,7 +980,6 @@ ns
 -
 resize
 "
-)
 ;
 this
 .
@@ -1201,7 +1201,6 @@ size
 =
 endPanelControl
 ?
-(
 nodeBounds
 .
 left
@@ -1209,7 +1208,6 @@ left
 nodeBounds
 .
 width
-)
 -
 x
 :
@@ -1237,7 +1235,6 @@ size
 =
 endPanelControl
 ?
-(
 nodeBounds
 .
 top
@@ -1245,7 +1242,6 @@ top
 nodeBounds
 .
 height
-)
 -
 y
 :
@@ -1621,7 +1617,6 @@ px
 }
 ;
 return
-(
 dom
 .
 div
@@ -1773,7 +1768,6 @@ endPanel
 )
 :
 null
-)
 )
 ;
 }

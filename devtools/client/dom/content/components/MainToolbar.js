@@ -381,7 +381,6 @@ render
 )
 {
 return
-(
 dom
 .
 div
@@ -494,7 +493,6 @@ this
 .
 onRefresh
 }
-)
 )
 )
 ;

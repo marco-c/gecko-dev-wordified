@@ -255,6 +255,7 @@ are
 displayed
 .
 return
+(
 toolbox
 .
 panelDefinitions
@@ -278,6 +279,7 @@ tab
 )
 .
 length
+)
 ;
 }
 )

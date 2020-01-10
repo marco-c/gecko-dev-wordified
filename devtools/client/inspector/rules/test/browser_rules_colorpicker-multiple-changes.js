@@ -464,7 +464,6 @@ computed
 }
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -475,7 +474,6 @@ null
 "
 color
 "
-)
 )
 "
 rgb
@@ -735,7 +733,6 @@ ruleView
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -746,7 +743,6 @@ null
 "
 color
 "
-)
 )
 "
 rgb

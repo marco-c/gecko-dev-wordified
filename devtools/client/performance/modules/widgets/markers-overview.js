@@ -1002,6 +1002,7 @@ _pixelRatio
 const
 dataScale
 =
+(
 this
 .
 dataScaleX
@@ -1009,6 +1010,7 @@ dataScaleX
 canvasWidth
 /
 duration
+)
 ;
 /
 /

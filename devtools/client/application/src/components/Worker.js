@@ -1169,9 +1169,7 @@ dividing
 by
 1000
 .
-"
 date
-"
 :
 worker
 .

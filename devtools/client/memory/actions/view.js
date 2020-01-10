@@ -141,6 +141,7 @@ view
 const
 changeView
 =
+(
 exports
 .
 changeView
@@ -189,6 +190,7 @@ getState
 }
 ;
 }
+)
 ;
 /
 *
@@ -219,6 +221,7 @@ before
 const
 popView
 =
+(
 exports
 .
 popView
@@ -267,6 +270,7 @@ previous
 }
 ;
 }
+)
 ;
 /
 *
@@ -318,8 +322,8 @@ heapWorker
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -333,7 +337,7 @@ view
 )
 )
 ;
-yield
+await
 dispatch
 (
 refresh
@@ -395,8 +399,8 @@ heapWorker
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -409,7 +413,7 @@ popView
 )
 )
 ;
-yield
+await
 dispatch
 (
 refresh

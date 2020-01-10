@@ -88,9 +88,7 @@ const
 PREDEFINED
 =
 {
-"
 ease
-"
 :
 [
 0
@@ -104,9 +102,7 @@ ease
 25
 1
 ]
-"
 linear
-"
 :
 [
 0

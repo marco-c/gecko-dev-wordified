@@ -415,6 +415,7 @@ link
 )
 ;
 return
+(
 frames
 &
 &
@@ -453,6 +454,7 @@ includes
 "
 xhr_original
 "
+)
 )
 ;
 }

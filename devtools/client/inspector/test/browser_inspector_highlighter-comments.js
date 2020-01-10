@@ -651,6 +651,7 @@ nodeFront
 >
 {
 return
+(
 nodeFront
 .
 nodeType
@@ -679,6 +680,7 @@ text
 trim
 (
 )
+)
 ;
 }
 )
@@ -705,14 +707,12 @@ selector
 {
 ok
 (
-(
 await
 testActor
 .
 assertHighlightedNode
 (
 selector
-)
 )
 "
 Highlighter
@@ -739,7 +739,6 @@ childNodeIndex
 {
 ok
 (
-(
 await
 testActor
 .
@@ -747,7 +746,6 @@ assertHighlightedTextNode
 (
 parentSelector
 childNodeIndex
-)
 )
 "
 Highlighter

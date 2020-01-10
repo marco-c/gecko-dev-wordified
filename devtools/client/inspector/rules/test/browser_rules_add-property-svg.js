@@ -147,7 +147,6 @@ red
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -156,7 +155,6 @@ null
 "
 fill
 "
-)
 )
 "
 rgb

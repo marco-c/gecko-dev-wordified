@@ -350,12 +350,14 @@ roots
 {
 path
 :
+(
 objectValueGrip
 &
 &
 objectValueGrip
 .
 actor
+)
 |
 |
 JSON

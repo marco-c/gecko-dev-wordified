@@ -426,7 +426,6 @@ render
 )
 {
 return
-(
 Tabs
 (
 {
@@ -643,7 +642,6 @@ props
 .
 searchFilter
 }
-)
 )
 )
 )

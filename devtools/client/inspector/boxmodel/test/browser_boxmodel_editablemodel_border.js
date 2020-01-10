@@ -210,7 +210,6 @@ openLayoutView
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -227,7 +226,6 @@ top
 width
 "
 )
-)
 "
 "
 "
@@ -240,7 +238,6 @@ border
 )
 ;
 is
-(
 (
 await
 getStyle
@@ -257,7 +254,6 @@ top
 -
 style
 "
-)
 )
 "
 "
@@ -433,7 +429,6 @@ editor
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -450,7 +445,6 @@ top
 width
 "
 )
-)
 "
 1px
 "
@@ -464,7 +458,6 @@ border
 )
 ;
 is
-(
 (
 await
 getStyle
@@ -481,7 +474,6 @@ top
 -
 style
 "
-)
 )
 "
 solid
@@ -519,7 +511,6 @@ inspector
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -536,7 +527,6 @@ top
 width
 "
 )
-)
 "
 "
 "
@@ -550,7 +540,6 @@ padding
 )
 ;
 is
-(
 (
 await
 getStyle
@@ -567,7 +556,6 @@ top
 -
 style
 "
-)
 )
 "
 "

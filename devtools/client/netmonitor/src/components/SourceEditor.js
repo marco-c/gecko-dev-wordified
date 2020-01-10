@@ -392,6 +392,7 @@ nextProps
 )
 {
 return
+(
 nextProps
 .
 mode
@@ -416,6 +417,7 @@ this
 props
 .
 text
+)
 ;
 }
 componentDidUpdate
@@ -642,7 +644,6 @@ render
 )
 {
 return
-(
 div
 (
 {
@@ -664,7 +665,6 @@ devtools
 monospace
 "
 }
-)
 )
 ;
 }

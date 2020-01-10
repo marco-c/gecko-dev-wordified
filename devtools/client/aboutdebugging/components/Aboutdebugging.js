@@ -771,7 +771,6 @@ else
 {
 panel
 =
-(
 dom
 .
 div
@@ -832,7 +831,6 @@ doesNotExist
 [
 selectedPanelId
 ]
-)
 )
 )
 )

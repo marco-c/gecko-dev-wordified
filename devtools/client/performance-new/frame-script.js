@@ -661,16 +661,13 @@ object
 {
 if
 (
-(
 "
 then
 "
 in
 result
-)
 &
 &
-(
 typeof
 result
 .
@@ -681,7 +678,6 @@ then
 "
 function
 "
-)
 )
 {
 /

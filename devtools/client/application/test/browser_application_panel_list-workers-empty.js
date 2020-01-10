@@ -56,7 +56,6 @@ domain
 const
 EMPTY_URL
 =
-(
 URL_ROOT
 +
 "
@@ -68,7 +67,6 @@ empty
 .
 html
 "
-)
 ;
 add_task
 (

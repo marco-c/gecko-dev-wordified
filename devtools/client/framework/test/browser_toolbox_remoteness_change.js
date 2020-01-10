@@ -56,17 +56,15 @@ UTF
 +
 encodeURIComponent
 (
-"
+'
 <
 div
 id
 =
-\
 "
 remote
 -
 page
-\
 "
 >
 foo
@@ -74,7 +72,7 @@ foo
 /
 div
 >
-"
+'
 )
 ;
 add_task

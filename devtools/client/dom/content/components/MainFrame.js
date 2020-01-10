@@ -336,7 +336,6 @@ this
 props
 ;
 return
-(
 div
 (
 {
@@ -397,7 +396,6 @@ url
 )
 )
 )
-)
 ;
 }
 }
@@ -430,9 +428,7 @@ performance
 const
 mapStateToProps
 =
-(
 state
-)
 =
 >
 {

@@ -603,9 +603,7 @@ doOK
 ;
 }
 }
-(
 e
-)
 =
 >
 {
@@ -988,9 +986,7 @@ file
 const
 bail
 =
-(
 e
-)
 =
 >
 {
@@ -1205,9 +1201,7 @@ folder
 .
 then
 (
-(
 project
-)
 =
 >
 {

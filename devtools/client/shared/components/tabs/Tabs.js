@@ -1200,7 +1200,6 @@ panel
 array
 activeTab
 =
-(
 activeTab
 <
 panels
@@ -1212,7 +1211,6 @@ activeTab
 >
 =
 0
-)
 ?
 activeTab
 :
@@ -1798,11 +1796,10 @@ children
 .
 map
 (
-(
 tab
-)
 =
 >
+(
 typeof
 tab
 =
@@ -1818,12 +1815,11 @@ tab
 :
 tab
 )
+)
 .
 filter
 (
-(
 tab
-)
 =
 >
 tab
@@ -1971,7 +1967,6 @@ event
 handler
 .
 return
-(
 dom
 .
 li
@@ -2111,7 +2106,6 @@ badge
 null
 )
 )
-)
 ;
 }
 )
@@ -2149,7 +2143,6 @@ state
 .
 overflow
 ?
-(
 dom
 .
 button
@@ -2172,7 +2165,6 @@ props
 .
 onAllTabsMenuClick
 }
-)
 )
 :
 null
@@ -2211,7 +2203,6 @@ renderSidebarToggle
 null
 ;
 return
-(
 dom
 .
 nav
@@ -2247,7 +2238,6 @@ tablist
 tabs
 )
 allTabsMenu
-)
 )
 ;
 }
@@ -2321,11 +2311,10 @@ children
 .
 map
 (
-(
 tab
-)
 =
 >
+(
 typeof
 tab
 =
@@ -2341,12 +2330,11 @@ tab
 :
 tab
 )
+)
 .
 filter
 (
-(
 tab
-)
 =
 >
 tab
@@ -2570,7 +2558,6 @@ panel
 tab
 ;
 return
-(
 dom
 .
 div
@@ -2646,24 +2633,20 @@ tab
 +
 index
 }
-(
 selected
 |
 |
 isCreated
-)
 ?
 panel
 :
 null
-)
 )
 ;
 }
 )
 ;
 return
-(
 dom
 .
 div
@@ -2677,7 +2660,6 @@ panels
 }
 panels
 )
-)
 ;
 }
 render
@@ -2685,7 +2667,6 @@ render
 )
 {
 return
-(
 dom
 .
 div
@@ -2724,7 +2705,6 @@ this
 .
 renderPanels
 (
-)
 )
 )
 ;

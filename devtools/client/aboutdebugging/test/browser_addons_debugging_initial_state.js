@@ -204,9 +204,7 @@ const
 options
 =
 {
-"
 set
-"
 :
 [
 [

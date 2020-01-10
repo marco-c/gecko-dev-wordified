@@ -4117,7 +4117,6 @@ columns
 )
 ;
 return
-(
 dom
 .
 table
@@ -4294,7 +4293,6 @@ tabIndex
 1
 }
 rows
-)
 )
 )
 ;

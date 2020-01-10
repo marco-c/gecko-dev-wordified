@@ -364,7 +364,6 @@ stacktrace
 request
 ;
 return
-(
 div
 (
 {
@@ -406,7 +405,6 @@ column
 sourceMapService
 openLink
 }
-)
 )
 )
 ;

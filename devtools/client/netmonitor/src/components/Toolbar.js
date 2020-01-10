@@ -1070,6 +1070,7 @@ nextProps
 )
 {
 return
+(
 this
 .
 props
@@ -1149,6 +1150,8 @@ networkThrottling
 nextProps
 .
 networkThrottling
+|
+|
 /
 /
 Filtered
@@ -1160,8 +1163,6 @@ when
 searchbox
 is
 focused
-|
-|
 !
 !
 (
@@ -1179,6 +1180,7 @@ refs
 searchbox
 .
 focused
+)
 )
 ;
 }
@@ -1410,9 +1412,7 @@ filteredRequests
 .
 forEach
 (
-(
 request
-)
 =
 >
 {
@@ -1482,7 +1482,6 @@ clearRequests
 )
 {
 return
-(
 button
 (
 {
@@ -1512,7 +1511,6 @@ onClick
 :
 clearRequests
 }
-)
 )
 ;
 }
@@ -1600,7 +1598,6 @@ join
 )
 ;
 return
-(
 button
 (
 {
@@ -1614,7 +1611,6 @@ onClick
 :
 toggleRecording
 }
-)
 )
 ;
 }
@@ -1754,7 +1750,6 @@ togglePersistentLogs
 )
 {
 return
-(
 label
 (
 {
@@ -1810,7 +1805,6 @@ togglePersistentLogs
 )
 ENABLE_PERSISTENT_LOGS_LABEL
 )
-)
 ;
 }
 /
@@ -1831,7 +1825,6 @@ toggleBrowserCache
 )
 {
 return
-(
 label
 (
 {
@@ -1886,7 +1879,6 @@ toggleBrowserCache
 }
 )
 DISABLE_CACHE_LABEL
-)
 )
 ;
 }
@@ -2279,7 +2271,6 @@ setRequestFilterText
 )
 {
 return
-(
 SearchBox
 (
 {
@@ -2322,7 +2313,6 @@ learnMoreTitle
 :
 LEARN_MORE_TITLE
 }
-)
 )
 ;
 }
@@ -2370,7 +2360,6 @@ layout
 return
 singleRow
 ?
-(
 span
 (
 {
@@ -2476,9 +2465,7 @@ renderHarButton
 )
 )
 )
-)
 :
-(
 span
 (
 {
@@ -2588,7 +2575,6 @@ this
 renderFilterButtons
 (
 requestFilterTypes
-)
 )
 )
 )
@@ -2601,9 +2587,7 @@ exports
 =
 connect
 (
-(
 state
-)
 =
 >
 (
@@ -2654,9 +2638,7 @@ state
 networkThrottling
 }
 )
-(
 dispatch
-)
 =
 >
 (
@@ -2677,9 +2659,7 @@ clearRequests
 )
 disableBrowserCache
 :
-(
 disabled
-)
 =
 >
 dispatch
@@ -2711,9 +2691,7 @@ skipTelemetry
 )
 setRequestFilterText
 :
-(
 text
-)
 =
 >
 dispatch
@@ -2769,9 +2747,7 @@ togglePersistentLogs
 )
 toggleRequestFilterType
 :
-(
 type
-)
 =
 >
 dispatch

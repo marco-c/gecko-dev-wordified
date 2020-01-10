@@ -481,6 +481,7 @@ function
 )
 {
 return
+(
 this
 .
 map
@@ -524,6 +525,7 @@ replace
 +
 "
 "
+)
 ;
 }
 ;
@@ -1257,6 +1259,7 @@ handleColor
 "
 handleThickness
 :
+0
 .
 008
 bezierColor
@@ -1267,6 +1270,7 @@ bezierColor
 "
 bezierThickness
 :
+0
 .
 015
 drawHandles
@@ -1856,7 +1860,7 @@ coordinates
 [
 0
 .
-30
+3
 0
 ]
 )
@@ -5449,6 +5453,7 @@ left
 "
 opacity
 :
+0
 .
 5
 offset
@@ -5464,10 +5469,12 @@ left
 "
 opacity
 :
+0
 .
 5
 offset
 :
+0
 .
 19
 }
@@ -5483,6 +5490,7 @@ opacity
 1
 offset
 :
+0
 .
 2
 easing
@@ -5500,6 +5508,7 @@ opacity
 1
 offset
 :
+0
 .
 5
 }
@@ -5511,10 +5520,12 @@ left
 "
 opacity
 :
+0
 .
 5
 offset
 :
+0
 .
 51
 }
@@ -5526,10 +5537,12 @@ left
 "
 opacity
 :
+0
 .
 5
 offset
 :
+0
 .
 7
 }
@@ -5544,6 +5557,7 @@ opacity
 1
 offset
 :
+0
 .
 71
 easing
@@ -6173,7 +6187,6 @@ index
 prev
 &
 &
-(
 curr
 =
 =
@@ -6182,7 +6195,6 @@ c2
 [
 index
 ]
-)
 true
 )
 ;

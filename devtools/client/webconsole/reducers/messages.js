@@ -3079,12 +3079,10 @@ openState
 .
 messagesById
 =
-(
 new
 Map
 (
 messagesById
-)
 )
 .
 set
@@ -3383,12 +3381,10 @@ return
 state
 messagesPayloadById
 :
-(
 new
 Map
 (
 messagesPayloadById
-)
 )
 .
 set
@@ -6452,6 +6448,7 @@ messagesUI
 )
 {
 return
+(
 !
 message
 .
@@ -6481,6 +6478,7 @@ message
 groupId
 )
 messagesUI
+)
 )
 )
 ;
@@ -7013,7 +7011,6 @@ is
 on
 .
 return
-(
 message
 .
 source
@@ -7032,7 +7029,6 @@ css
 =
 =
 true
-)
 ;
 }
 /
@@ -7221,6 +7217,8 @@ message
 .
 parameters
 )
+|
+|
 /
 /
 Look
@@ -7230,8 +7228,6 @@ match
 in
 location
 .
-|
-|
 isTextInFrame
 (
 text
@@ -7240,6 +7236,8 @@ message
 .
 frame
 )
+|
+|
 /
 /
 Look
@@ -7250,8 +7248,6 @@ in
 net
 events
 .
-|
-|
 isTextInNetEvent
 (
 text
@@ -7260,6 +7256,8 @@ message
 .
 request
 )
+|
+|
 /
 /
 Look
@@ -7271,8 +7269,6 @@ stack
 -
 trace
 .
-|
-|
 isTextInStackTrace
 (
 text
@@ -7281,6 +7277,8 @@ message
 .
 stacktrace
 )
+|
+|
 /
 /
 Look
@@ -7290,8 +7288,6 @@ match
 in
 messageText
 .
-|
-|
 isTextInMessageText
 (
 text
@@ -7300,6 +7296,8 @@ message
 .
 messageText
 )
+|
+|
 /
 /
 Look
@@ -7309,8 +7307,6 @@ match
 in
 notes
 .
-|
-|
 isTextInNotes
 (
 text
@@ -7319,6 +7315,8 @@ message
 .
 notes
 )
+|
+|
 /
 /
 Look
@@ -7328,8 +7326,6 @@ match
 in
 prefix
 .
-|
-|
 isTextInPrefix
 (
 text
@@ -7503,12 +7499,10 @@ prop
 const
 str
 =
-(
 prop
 +
 "
 "
-)
 ;
 return
 regex

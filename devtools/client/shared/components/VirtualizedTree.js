@@ -2146,6 +2146,7 @@ this
 state
 ;
 return
+(
 scroll
 !
 =
@@ -2180,6 +2181,7 @@ mouseDown
 nextState
 .
 mouseDown
+)
 ;
 }
 componentDidUpdate
@@ -5496,6 +5498,7 @@ nextState
 )
 {
 return
+(
 this
 .
 props
@@ -5533,6 +5536,7 @@ expanded
 nextProps
 .
 expanded
+)
 ;
 }
 render

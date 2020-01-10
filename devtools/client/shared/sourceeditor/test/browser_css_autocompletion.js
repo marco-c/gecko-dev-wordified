@@ -1028,9 +1028,11 @@ style
 .
 width
 =
+(
 100
 *
 idx
+)
 /
 len
 +

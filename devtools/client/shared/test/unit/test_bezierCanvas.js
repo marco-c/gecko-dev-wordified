@@ -191,6 +191,7 @@ getCubicBezier
 (
 )
 [
+0
 .
 25
 0
@@ -456,6 +457,7 @@ getCubicBezier
 (
 )
 [
+0
 .
 25
 0
@@ -649,6 +651,7 @@ getCubicBezier
 (
 )
 [
+0
 .
 25
 0

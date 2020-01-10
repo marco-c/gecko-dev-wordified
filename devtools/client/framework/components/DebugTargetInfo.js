@@ -448,7 +448,6 @@ connectionType
 debugTargetData
 ;
 return
-(
 connectionType
 =
 =
@@ -456,7 +455,6 @@ connectionType
 CONNECTION_TYPES
 .
 THIS_FIREFOX
-)
 ?
 L10N
 .

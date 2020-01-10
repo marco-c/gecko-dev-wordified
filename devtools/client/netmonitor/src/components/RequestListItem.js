@@ -1462,6 +1462,7 @@ nextProps
 )
 {
 return
+(
 !
 propertiesEqual
 (
@@ -1499,6 +1500,7 @@ columns
 nextProps
 .
 columns
+)
 ;
 }
 componentDidUpdate
@@ -1636,7 +1638,6 @@ blocked
 )
 ;
 return
-(
 dom
 .
 tr
@@ -1821,7 +1822,6 @@ firstRequestStartedMillis
 item
 onWaterfallMouseDown
 }
-)
 )
 )
 ;

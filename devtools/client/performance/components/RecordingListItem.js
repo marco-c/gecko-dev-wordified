@@ -310,7 +310,6 @@ duration
 ;
 }
 return
-(
 li
 (
 {
@@ -395,7 +394,6 @@ recordingsList
 .
 saveLabel
 "
-)
 )
 )
 )

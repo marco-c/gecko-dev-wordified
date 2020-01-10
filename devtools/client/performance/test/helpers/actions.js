@@ -698,9 +698,7 @@ exports
 .
 waitForAllWidgetsRendered
 =
-(
 panel
-)
 =
 >
 {
@@ -930,9 +928,7 @@ exports
 .
 reload
 =
-(
 target
-)
 =
 >
 {

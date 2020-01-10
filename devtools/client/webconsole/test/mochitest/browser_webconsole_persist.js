@@ -200,9 +200,7 @@ gBrowser
 .
 selectedBrowser
 INITIAL_LOGS_NUMBER
-(
 count
-)
 =
 >
 {
@@ -383,9 +381,7 @@ gBrowser
 .
 selectedBrowser
 INITIAL_LOGS_NUMBER
-(
 count
-)
 =
 >
 {

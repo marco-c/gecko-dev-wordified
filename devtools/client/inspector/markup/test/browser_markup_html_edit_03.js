@@ -130,22 +130,20 @@ body
 >
 "
 +
-"
+'
 <
 div
 id
 =
-\
 "
 keyboard
-\
 "
 >
 <
 /
 div
 >
-"
+'
 +
 "
 <
@@ -452,7 +450,6 @@ visible
 ;
 is
 (
-(
 await
 testActor
 .
@@ -462,7 +459,6 @@ SELECTOR
 "
 outerHTML
 "
-)
 )
 OLD_HTML
 "
@@ -547,7 +543,6 @@ visible
 ;
 is
 (
-(
 await
 testActor
 .
@@ -557,7 +552,6 @@ SELECTOR
 "
 outerHTML
 "
-)
 )
 OLD_HTML
 "
@@ -643,7 +637,6 @@ visible
 ;
 is
 (
-(
 await
 testActor
 .
@@ -653,7 +646,6 @@ SELECTOR
 "
 outerHTML
 "
-)
 )
 OLD_HTML
 "
@@ -733,7 +725,6 @@ visible
 ;
 is
 (
-(
 await
 testActor
 .
@@ -743,7 +734,6 @@ SELECTOR
 "
 outerHTML
 "
-)
 )
 NEW_HTML
 "
@@ -966,15 +956,13 @@ outerHTML
 const
 headHTML
 =
-"
+'
 <
 head
 id
 =
-\
 "
 updated
-\
 "
 >
 <
@@ -986,9 +974,9 @@ Title
 /
 title
 >
-"
+'
 +
-"
+'
 <
 script
 >
@@ -996,10 +984,8 @@ window
 .
 foo
 =
-\
 "
 bar
-\
 "
 ;
 <
@@ -1010,7 +996,7 @@ script
 /
 head
 >
-"
+'
 ;
 const
 headFront
@@ -1072,7 +1058,6 @@ onUpdated
 ;
 is
 (
-(
 await
 testActor
 .
@@ -1083,7 +1068,6 @@ document
 .
 title
 "
-)
 )
 "
 New
@@ -1100,7 +1084,6 @@ added
 ;
 is
 (
-(
 await
 testActor
 .
@@ -1111,7 +1094,6 @@ window
 .
 foo
 "
-)
 )
 undefined
 "
@@ -1125,7 +1107,6 @@ executed
 ;
 is
 (
-(
 await
 testActor
 .
@@ -1137,7 +1118,6 @@ head
 "
 outerHTML
 "
-)
 )
 headHTML
 "
@@ -1153,7 +1133,6 @@ updated
 ;
 is
 (
-(
 await
 testActor
 .
@@ -1162,7 +1141,6 @@ getNumberOfElementMatches
 "
 body
 "
-)
 )
 1
 "
@@ -1207,28 +1185,24 @@ outerHMTL
 const
 docElementHTML
 =
-"
+'
 <
 html
 id
 =
-\
 "
 updated
-\
 "
 foo
 =
-\
 "
 bar
-\
 "
 >
 <
 head
 >
-"
+'
 +
 "
 <
@@ -1244,7 +1218,7 @@ title
 >
 "
 +
-"
+'
 <
 script
 >
@@ -1252,10 +1226,8 @@ window
 .
 foo
 =
-\
 "
 bar
-\
 "
 ;
 <
@@ -1269,7 +1241,7 @@ head
 <
 body
 >
-"
+'
 +
 "
 <
@@ -1335,7 +1307,6 @@ onReselected
 ;
 is
 (
-(
 await
 testActor
 .
@@ -1346,7 +1317,6 @@ document
 .
 title
 "
-)
 )
 "
 Updated
@@ -1365,7 +1335,6 @@ added
 ;
 is
 (
-(
 await
 testActor
 .
@@ -1376,7 +1345,6 @@ window
 .
 foo
 "
-)
 )
 undefined
 "
@@ -1390,7 +1358,6 @@ executed
 ;
 is
 (
-(
 await
 testActor
 .
@@ -1402,7 +1369,6 @@ html
 "
 id
 "
-)
 )
 "
 updated
@@ -1420,7 +1386,6 @@ updated
 ;
 is
 (
-(
 await
 testActor
 .
@@ -1432,7 +1397,6 @@ html
 "
 class
 "
-)
 )
 null
 "
@@ -1448,7 +1412,6 @@ updated
 ;
 is
 (
-(
 await
 testActor
 .
@@ -1460,7 +1423,6 @@ html
 "
 foo
 "
-)
 )
 "
 bar
@@ -1478,7 +1440,6 @@ updated
 ;
 is
 (
-(
 await
 testActor
 .
@@ -1490,7 +1451,6 @@ html
 "
 outerHTML
 "
-)
 )
 docElementHTML
 "
@@ -1506,7 +1466,6 @@ updated
 ;
 is
 (
-(
 await
 testActor
 .
@@ -1515,7 +1474,6 @@ getNumberOfElementMatches
 "
 head
 "
-)
 )
 1
 "
@@ -1533,7 +1491,6 @@ added
 ;
 is
 (
-(
 await
 testActor
 .
@@ -1542,7 +1499,6 @@ getNumberOfElementMatches
 "
 body
 "
-)
 )
 1
 "
@@ -1559,7 +1515,6 @@ added
 )
 ;
 is
-(
 (
 await
 testActor
@@ -1572,7 +1527,6 @@ body
 "
 textContent
 "
-)
 )
 "
 Hello
@@ -1618,28 +1572,24 @@ outerHMTL
 const
 docElementHTML
 =
-"
+'
 <
 html
 id
 =
-\
 "
 somethingelse
-\
 "
 class
 =
-\
 "
 updated
-\
 "
 >
 <
 head
 >
-"
+'
 +
 "
 <
@@ -1656,7 +1606,7 @@ title
 >
 "
 +
-"
+'
 <
 script
 >
@@ -1664,10 +1614,8 @@ window
 .
 foo
 =
-\
 "
 bar
-\
 "
 ;
 <
@@ -1681,7 +1629,7 @@ head
 <
 body
 >
-"
+'
 +
 "
 <
@@ -1747,7 +1695,6 @@ onReselected
 ;
 is
 (
-(
 await
 testActor
 .
@@ -1758,7 +1705,6 @@ document
 .
 title
 "
-)
 )
 "
 Updated
@@ -1778,7 +1724,6 @@ added
 ;
 is
 (
-(
 await
 testActor
 .
@@ -1789,7 +1734,6 @@ window
 .
 foo
 "
-)
 )
 undefined
 "
@@ -1803,7 +1747,6 @@ executed
 ;
 is
 (
-(
 await
 testActor
 .
@@ -1815,7 +1758,6 @@ html
 "
 id
 "
-)
 )
 "
 somethingelse
@@ -1833,7 +1775,6 @@ updated
 ;
 is
 (
-(
 await
 testActor
 .
@@ -1845,7 +1786,6 @@ html
 "
 class
 "
-)
 )
 "
 updated
@@ -1863,7 +1803,6 @@ updated
 ;
 is
 (
-(
 await
 testActor
 .
@@ -1875,7 +1814,6 @@ html
 "
 foo
 "
-)
 )
 null
 "
@@ -1891,7 +1829,6 @@ removed
 ;
 is
 (
-(
 await
 testActor
 .
@@ -1903,7 +1840,6 @@ html
 "
 outerHTML
 "
-)
 )
 docElementHTML
 "
@@ -1919,7 +1855,6 @@ updated
 ;
 is
 (
-(
 await
 testActor
 .
@@ -1928,7 +1863,6 @@ getNumberOfElementMatches
 "
 head
 "
-)
 )
 1
 "
@@ -1946,7 +1880,6 @@ added
 ;
 is
 (
-(
 await
 testActor
 .
@@ -1955,7 +1888,6 @@ getNumberOfElementMatches
 "
 body
 "
-)
 )
 1
 "
@@ -1972,7 +1904,6 @@ added
 )
 ;
 is
-(
 (
 await
 testActor
@@ -1985,7 +1916,6 @@ body
 "
 textContent
 "
-)
 )
 "
 Hello

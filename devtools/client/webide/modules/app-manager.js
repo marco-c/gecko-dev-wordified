@@ -318,6 +318,7 @@ properties
 var
 AppManager
 =
+(
 exports
 .
 AppManager
@@ -1534,6 +1535,7 @@ connected
 )
 {
 return
+(
 this
 .
 connection
@@ -1551,6 +1553,7 @@ Connection
 Status
 .
 CONNECTED
+)
 ;
 }
 get
@@ -1788,6 +1791,7 @@ return
 const
 tab
 =
+(
 this
 .
 selectedProject
@@ -1799,6 +1803,7 @@ this
 tabStore
 .
 selectedTab
+)
 ;
 const
 uri
@@ -3644,6 +3649,8 @@ via
 getProcess
 request
 return
+(
+(
 this
 .
 connection
@@ -3671,6 +3678,7 @@ mainRoot
 traits
 .
 allowChromeProcess
+)
 |
 |
 (
@@ -3684,6 +3692,7 @@ this
 _rootForm
 .
 consoleActor
+)
 )
 ;
 }
@@ -5355,6 +5364,7 @@ tmp
 ;
 }
 }
+)
 ;
 EventEmitter
 .

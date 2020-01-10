@@ -112,9 +112,7 @@ Loader
 paths
 :
 {
-"
 devtools
-"
 :
 "
 resource

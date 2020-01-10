@@ -451,7 +451,6 @@ editor
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -465,7 +464,6 @@ padding
 -
 bottom
 "
-)
 )
 "
 7px
@@ -497,7 +495,6 @@ defaultView
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -511,7 +508,6 @@ padding
 -
 bottom
 "
-)
 )
 "
 7px
@@ -767,7 +763,6 @@ editor
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -781,7 +776,6 @@ padding
 -
 left
 "
-)
 )
 "
 8px
@@ -819,7 +813,6 @@ inspector
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -833,7 +826,6 @@ padding
 -
 left
 "
-)
 )
 "
 5px
@@ -1058,7 +1050,6 @@ editor
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -1072,7 +1063,6 @@ padding
 -
 left
 "
-)
 )
 "
 "
@@ -1103,7 +1093,6 @@ defaultView
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -1117,7 +1106,6 @@ padding
 -
 left
 "
-)
 )
 "
 "
@@ -1368,7 +1356,6 @@ editor
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -1382,7 +1369,6 @@ padding
 -
 left
 "
-)
 )
 "
 "
@@ -1419,7 +1405,6 @@ inspector
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -1433,7 +1418,6 @@ padding
 -
 left
 "
-)
 )
 "
 5px

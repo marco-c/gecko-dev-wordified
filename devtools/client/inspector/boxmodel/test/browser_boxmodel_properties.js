@@ -597,6 +597,7 @@ propertyName
 )
 {
 return
+(
 .
 boxmodel
 -
@@ -625,5 +626,6 @@ computed
 property
 -
 value
+)
 ;
 }

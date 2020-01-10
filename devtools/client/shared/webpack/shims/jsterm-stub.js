@@ -266,9 +266,7 @@ inputNode
 .
 onkeypress
 =
-(
 e
-)
 =
 >
 {
@@ -518,9 +516,7 @@ actorID
 const
 onResult
 =
-(
 response
-)
 =
 >
 {

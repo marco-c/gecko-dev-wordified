@@ -142,7 +142,6 @@ title
 )
 {
 return
-(
 a
 (
 {
@@ -161,9 +160,7 @@ link
 title
 onClick
 :
-(
 e
-)
 =
 >
 onLearnMoreClick
@@ -172,7 +169,6 @@ e
 url
 )
 }
-)
 )
 ;
 }

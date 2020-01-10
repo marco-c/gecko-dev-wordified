@@ -259,9 +259,7 @@ serviceContainer
 .
 highlightDomElement
 ?
-(
 object
-)
 =
 >
 serviceContainer

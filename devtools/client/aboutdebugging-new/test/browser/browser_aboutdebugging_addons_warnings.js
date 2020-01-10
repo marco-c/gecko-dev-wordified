@@ -157,9 +157,7 @@ trigger
 a
 warning
 !
-"
 wrongProperty
-"
 :
 {
 }

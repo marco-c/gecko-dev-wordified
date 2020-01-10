@@ -192,6 +192,7 @@ options
 const
 changeRecordingState
 =
+(
 exports
 .
 changeRecordingState
@@ -222,6 +223,7 @@ options
 .
 didRecordingUnexpectedlyStopped
 }
+)
 )
 ;
 /

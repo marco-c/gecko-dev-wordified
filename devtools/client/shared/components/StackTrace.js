@@ -433,7 +433,6 @@ showFullSourceUrl
 true
 onClick
 :
-(
 /
 ^
 Scratchpad
@@ -447,7 +446,6 @@ d
 test
 (
 source
-)
 )
 ?
 onViewSourceInScratchpad

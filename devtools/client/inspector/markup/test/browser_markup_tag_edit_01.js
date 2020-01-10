@@ -157,7 +157,7 @@ changednode1
 {
 desc
 :
-"
+'
 Try
 changing
 an
@@ -166,14 +166,13 @@ to
 a
 quote
 (
-\
 "
 )
 -
 this
 should
 result
-"
+'
 +
 "
 in

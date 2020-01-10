@@ -1344,7 +1344,6 @@ target
 details
 "
 }
-(
 pushSubscription
 ?
 dom
@@ -1403,7 +1402,6 @@ endpoint
 )
 :
 null
-)
 dom
 .
 li

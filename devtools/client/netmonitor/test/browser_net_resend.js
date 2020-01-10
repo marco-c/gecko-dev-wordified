@@ -449,6 +449,7 @@ get
 )
 ;
 return
+(
 sentItem
 &
 &
@@ -473,6 +474,7 @@ requestHeaders
 origItem
 .
 requestPostData
+)
 ;
 }
 )

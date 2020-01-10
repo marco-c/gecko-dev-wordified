@@ -85,9 +85,7 @@ exports
 .
 isVisible
 =
-(
 element
-)
 =
 >
 {

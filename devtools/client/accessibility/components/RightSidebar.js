@@ -289,7 +289,6 @@ this
 props
 ;
 return
-(
 div
 (
 {
@@ -385,7 +384,6 @@ true
 }
 ]
 }
-)
 )
 )
 ;

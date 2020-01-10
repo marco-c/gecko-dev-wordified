@@ -1118,6 +1118,7 @@ focus
 const
 tab
 =
+(
 targetBrowser
 .
 selectedTab
@@ -1127,6 +1128,7 @@ targetBrowser
 addTab
 (
 aUrl
+)
 )
 ;
 const

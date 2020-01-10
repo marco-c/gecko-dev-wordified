@@ -488,6 +488,7 @@ document
 )
 {
 return
+(
 document
 .
 querySelector
@@ -513,6 +514,7 @@ addons
 .
 targets
 "
+)
 )
 ;
 }
@@ -571,6 +573,7 @@ document
 )
 {
 return
+(
 document
 .
 querySelector
@@ -600,6 +603,7 @@ addons
 .
 targets
 "
+)
 )
 ;
 }
@@ -818,6 +822,7 @@ document
 )
 {
 return
+(
 document
 .
 querySelector
@@ -847,6 +852,7 @@ workers
 .
 targets
 "
+)
 )
 ;
 }
@@ -1253,6 +1259,7 @@ document
 )
 {
 return
+(
 document
 .
 querySelector
@@ -1278,6 +1285,7 @@ tabs
 .
 targets
 "
+)
 )
 ;
 }
@@ -2475,9 +2483,7 @@ const
 options
 =
 {
-"
 set
-"
 :
 [
 /
@@ -2854,9 +2860,7 @@ const
 options
 =
 {
-"
 set
-"
 :
 [
 /

@@ -880,9 +880,7 @@ addEventListener
 "
 contextmenu
 "
-(
 event
-)
 =
 >
 {

@@ -1696,9 +1696,7 @@ PropertiesView
 object
 renderValue
 :
-(
 props
-)
 =
 >
 this

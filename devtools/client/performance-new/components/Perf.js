@@ -554,9 +554,7 @@ isLockedForPrivateBrowsing
 .
 then
 (
-(
 results
-)
 =
 >
 {

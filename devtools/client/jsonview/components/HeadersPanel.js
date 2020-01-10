@@ -325,7 +325,6 @@ props
 data
 ;
 return
-(
 div
 (
 {
@@ -368,7 +367,6 @@ data
 :
 data
 }
-)
 )
 )
 )

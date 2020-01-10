@@ -209,6 +209,7 @@ snapshot
 const
 selectSnapshotForDiffing
 =
+(
 exports
 .
 selectSnapshotForDiffing
@@ -249,6 +250,7 @@ snapshot
 }
 ;
 }
+)
 ;
 /
 *
@@ -288,6 +290,7 @@ second
 const
 takeCensusDiff
 =
+(
 exports
 .
 takeCensusDiff
@@ -655,6 +658,7 @@ display
 }
 ;
 }
+)
 ;
 /
 *
@@ -708,6 +712,7 @@ heapWorker
 const
 refreshDiffing
 =
+(
 exports
 .
 refreshDiffing
@@ -850,6 +855,7 @@ second
 }
 ;
 }
+)
 ;
 /
 *

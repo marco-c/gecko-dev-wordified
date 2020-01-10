@@ -646,9 +646,7 @@ test
 -
 utils
 "
-"
 Services
-"
 :
 "
 resource
@@ -678,9 +676,7 @@ map
 "
 :
 {
-"
 Services
-"
 :
 "
 ServicesMock

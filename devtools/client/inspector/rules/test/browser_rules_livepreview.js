@@ -500,7 +500,6 @@ changed
 already
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -509,7 +508,6 @@ null
 "
 display
 "
-)
 )
 data
 .

@@ -601,7 +601,6 @@ this
 state
 ;
 return
-(
 dom
 .
 div
@@ -925,7 +924,6 @@ onTogglePseudoClass
 )
 :
 null
-)
 )
 ;
 }

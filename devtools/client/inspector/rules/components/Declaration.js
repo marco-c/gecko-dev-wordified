@@ -504,6 +504,7 @@ props
 declaration
 ;
 return
+(
 computedProperties
 .
 some
@@ -539,6 +540,7 @@ c
 c
 .
 value
+)
 )
 ;
 }
@@ -628,7 +630,6 @@ null
 ;
 }
 return
-(
 dom
 .
 ul
@@ -672,7 +673,6 @@ isOverridden
 >
 {
 return
-(
 dom
 .
 li
@@ -782,10 +782,8 @@ value
 "
 )
 )
-)
 ;
 }
-)
 )
 )
 ;
@@ -810,7 +808,6 @@ null
 ;
 }
 return
-(
 dom
 .
 div
@@ -855,7 +852,6 @@ title
 "
 )
 }
-)
 )
 ;
 }
@@ -925,7 +921,6 @@ null
 ;
 }
 return
-(
 dom
 .
 ul
@@ -955,7 +950,6 @@ value
 >
 {
 return
-(
 dom
 .
 li
@@ -1057,10 +1051,8 @@ value
 "
 )
 )
-)
 ;
 }
-)
 )
 )
 ;
@@ -1096,7 +1088,6 @@ null
 ;
 }
 return
-(
 dom
 .
 div
@@ -1126,7 +1117,6 @@ title
 "
 )
 }
-)
 )
 ;
 }
@@ -1198,7 +1188,6 @@ changed
 ;
 }
 return
-(
 dom
 .
 li
@@ -1424,7 +1413,6 @@ this
 .
 renderShorthandOverriddenList
 (
-)
 )
 )
 ;

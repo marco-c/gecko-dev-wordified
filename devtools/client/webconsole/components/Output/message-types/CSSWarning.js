@@ -761,7 +761,6 @@ message
 const
 attachment
 =
-(
 open
 &
 &
@@ -770,7 +769,6 @@ payload
 =
 =
 undefined
-)
 &
 &
 dom

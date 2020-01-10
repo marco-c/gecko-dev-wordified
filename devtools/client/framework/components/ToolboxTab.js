@@ -454,9 +454,7 @@ tab_switch
 )
 onKeyDown
 :
-(
 evt
-)
 =
 >
 {

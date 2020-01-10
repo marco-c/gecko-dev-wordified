@@ -431,7 +431,6 @@ render
 )
 {
 return
-(
 Toolbar
 (
 {
@@ -581,7 +580,6 @@ props
 .
 actions
 }
-)
 )
 )
 ;

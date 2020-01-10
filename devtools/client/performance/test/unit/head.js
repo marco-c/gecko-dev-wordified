@@ -168,9 +168,7 @@ calls
 .
 find
 (
-(
 node
-)
 =
 >
 node

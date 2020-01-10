@@ -355,9 +355,7 @@ addEventListener
 "
 keydown
 "
-(
 aEvent
-)
 =
 >
 {
@@ -1313,9 +1311,7 @@ addEventListener
 "
 click
 "
-(
 aEvent
-)
 =
 >
 {

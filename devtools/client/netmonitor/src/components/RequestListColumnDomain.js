@@ -298,7 +298,6 @@ remotePort
 )
 ;
 return
-(
 td
 (
 {
@@ -327,7 +326,6 @@ isLocal
 }
 )
 host
-)
 )
 ;
 }

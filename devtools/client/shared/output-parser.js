@@ -2482,6 +2482,7 @@ function
 )
 {
 return
+(
 options
 .
 supportsColor
@@ -2502,6 +2503,7 @@ parenDepth
 &
 outerMostFunctionTakesColor
 )
+)
 ;
 }
 ;
@@ -2514,14 +2516,12 @@ angle
 )
 {
 return
-(
 new
 angleUtils
 .
 CssAngle
 (
 angle
-)
 )
 .
 valid
@@ -3746,7 +3746,6 @@ space
 .
 spaceNeeded
 =
-(
 token
 .
 tokenType
@@ -3833,11 +3832,9 @@ tokenType
 "
 dimension
 "
-)
 ;
 previousWasBang
 =
-(
 token
 .
 tokenType
@@ -3858,7 +3855,6 @@ text
 "
 !
 "
-)
 ;
 }
 let
@@ -4080,6 +4076,7 @@ options
 )
 {
 return
+(
 options
 .
 expectDisplay
@@ -4108,6 +4105,7 @@ inline
 -
 flex
 "
+)
 )
 ;
 }
@@ -4181,6 +4179,7 @@ options
 )
 {
 return
+(
 options
 .
 expectDisplay
@@ -4209,6 +4208,7 @@ inline
 -
 grid
 "
+)
 )
 ;
 }
@@ -5086,9 +5086,7 @@ data
 pair
 "
 :
-(
 isXCoord
-)
 ?
 "
 x
@@ -5424,9 +5422,7 @@ data
 pair
 "
 :
-(
 isXCoord
-)
 ?
 "
 x
@@ -5476,7 +5472,6 @@ isXCoord
 else
 if
 (
-(
 token
 .
 tokenType
@@ -5519,7 +5514,6 @@ tokenType
 "
 function
 "
-)
 )
 {
 if
@@ -5789,9 +5783,7 @@ data
 pair
 "
 :
-(
 isXCoord
-)
 ?
 "
 x
@@ -6302,7 +6294,6 @@ data
 pair
 "
 :
-(
 point
 =
 =
@@ -6310,7 +6301,6 @@ point
 "
 cx
 "
-)
 ?
 "
 x
@@ -6348,7 +6338,6 @@ endOffset
 ;
 point
 =
-(
 point
 =
 =
@@ -6356,7 +6345,6 @@ point
 "
 cx
 "
-)
 ?
 "
 cy
@@ -6506,7 +6494,6 @@ depth
 else
 if
 (
-(
 token
 .
 tokenType
@@ -6549,7 +6536,6 @@ tokenType
 "
 function
 "
-)
 )
 {
 if
@@ -6849,7 +6835,6 @@ data
 pair
 "
 :
-(
 point
 =
 =
@@ -6857,7 +6842,6 @@ point
 "
 cx
 "
-)
 ?
 "
 x
@@ -7307,7 +7291,6 @@ endOffset
 ;
 point
 =
-(
 point
 =
 =
@@ -7315,7 +7298,6 @@ point
 "
 rx
 "
-)
 ?
 "
 ry
@@ -7381,7 +7363,6 @@ data
 pair
 "
 :
-(
 point
 =
 =
@@ -7389,7 +7370,6 @@ point
 "
 cx
 "
-)
 ?
 "
 x
@@ -7427,7 +7407,6 @@ endOffset
 ;
 point
 =
-(
 point
 =
 =
@@ -7435,7 +7414,6 @@ point
 "
 cx
 "
-)
 ?
 "
 cy
@@ -7586,7 +7564,6 @@ depth
 else
 if
 (
-(
 token
 .
 tokenType
@@ -7629,7 +7606,6 @@ tokenType
 "
 function
 "
-)
 )
 {
 if
@@ -7987,7 +7963,6 @@ data
 pair
 "
 :
-(
 point
 =
 =
@@ -7995,7 +7970,6 @@ point
 "
 cx
 "
-)
 ?
 "
 x
@@ -8545,7 +8519,6 @@ depth
 else
 if
 (
-(
 token
 .
 tokenType
@@ -8588,7 +8561,6 @@ tokenType
 "
 function
 "
-)
 )
 {
 if
@@ -9044,7 +9016,6 @@ j
 const
 nodeIndex
 =
-(
 point
 =
 =
@@ -9061,7 +9032,6 @@ length
 =
 =
 3
-)
 ?
 1
 :
@@ -9562,6 +9532,7 @@ colorObj
 )
 {
 return
+(
 colorObj
 .
 valid
@@ -9583,6 +9554,7 @@ specialValue
 "
 transparent
 "
+)
 )
 ;
 }
@@ -10949,10 +10921,9 @@ spanContents
 =
 =
 =
+'
 "
-\
-"
-"
+'
 )
 {
 quoteChar

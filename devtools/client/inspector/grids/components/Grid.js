@@ -416,7 +416,6 @@ length
 )
 {
 return
-(
 dom
 .
 div
@@ -441,7 +440,6 @@ layout
 .
 noGridsOnThisPage
 "
-)
 )
 )
 ;
@@ -482,7 +480,6 @@ highlighted
 )
 ;
 return
-(
 dom
 .
 div
@@ -550,7 +547,6 @@ onShowGridOutlineHighlight
 )
 :
 null
-)
 )
 ;
 }

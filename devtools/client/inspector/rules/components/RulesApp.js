@@ -952,7 +952,6 @@ rule
 }
 }
 return
-(
 dom
 .
 div
@@ -1122,7 +1121,6 @@ rule
 .
 empty
 "
-)
 )
 )
 )

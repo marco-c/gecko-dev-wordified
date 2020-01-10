@@ -1255,11 +1255,9 @@ currentToolId
 ;
 while
 (
-(
 sumWidth
 +
 selectedToolWidth
-)
 >
 toolboxWidth
 &
@@ -1325,11 +1323,9 @@ overflow
 .
 if
 (
-(
 sumWidth
 +
 selectedToolWidth
-)
 <
 =
 toolboxWidth
@@ -1791,9 +1787,7 @@ tabs
 "
 onMouseDown
 :
-(
 e
-)
 =
 >
 this
@@ -1806,7 +1800,6 @@ e
 )
 }
 tabs
-(
 this
 .
 state
@@ -1816,7 +1809,6 @@ overflowedTabIds
 length
 >
 0
-)
 ?
 this
 .

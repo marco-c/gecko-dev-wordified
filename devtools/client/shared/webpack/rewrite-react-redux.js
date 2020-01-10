@@ -92,10 +92,9 @@ require
 REACT_PATH
 )
 "
-"
+'
 require
 (
-\
 "
 devtools
 /
@@ -106,10 +105,9 @@ shared
 vendor
 /
 react
-\
 "
 )
-"
+'
 )
 .
 replace
@@ -120,10 +118,9 @@ require
 REDUX_PATH
 )
 "
-"
+'
 require
 (
-\
 "
 devtools
 /
@@ -134,10 +131,9 @@ shared
 vendor
 /
 redux
-\
 "
 )
-"
+'
 )
 ;
 }

@@ -734,7 +734,6 @@ spectrum
 .
 contrastEnabled
 =
-(
 name
 =
 =
@@ -742,7 +741,6 @@ name
 "
 color
 "
-)
 &
 &
 this

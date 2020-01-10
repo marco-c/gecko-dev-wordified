@@ -522,9 +522,7 @@ platform
 .
 *
 /
-"
 UNKNOWN
-"
 :
 {
 group
@@ -554,9 +552,7 @@ Rendering
 pipeline
 *
 /
-"
 Styles
-"
 :
 {
 group
@@ -589,9 +585,7 @@ Formatters
 .
 StylesFields
 }
-"
 StylesApplyChanges
-"
 :
 {
 group
@@ -619,9 +613,7 @@ stylesApplyChanges
 "
 )
 }
-"
 Reflow
-"
 :
 {
 group
@@ -649,9 +641,7 @@ reflow
 "
 )
 }
-"
 Paint
-"
 :
 {
 group
@@ -679,9 +669,7 @@ paint
 "
 )
 }
-"
 Composite
-"
 :
 {
 group
@@ -709,9 +697,7 @@ composite
 "
 )
 }
-"
 CompositeForwardTransaction
-"
 :
 {
 group
@@ -747,9 +733,7 @@ Group
 JS
 *
 /
-"
 DOMEvent
-"
 :
 {
 group
@@ -834,9 +818,7 @@ label
 Load
 "
 }
-"
 Javascript
-"
 :
 {
 group
@@ -922,9 +904,7 @@ parseXML
 "
 )
 }
-"
 GarbageCollection
-"
 :
 {
 group
@@ -948,9 +928,7 @@ Formatters
 .
 GCFields
 }
-"
 MinorGC
-"
 :
 {
 group
@@ -1061,9 +1039,7 @@ Formatters
 .
 CycleCollectionFields
 }
-"
 Worker
-"
 :
 {
 group
@@ -1096,9 +1072,7 @@ Formatters
 .
 WorkerFields
 }
-"
 MessagePort
-"
 :
 {
 group
@@ -1140,9 +1114,7 @@ User
 Controlled
 *
 /
-"
 ConsoleTime
-"
 :
 {
 group
@@ -1189,9 +1161,7 @@ collapsible
 :
 false
 }
-"
 TimeStamp
-"
 :
 {
 group

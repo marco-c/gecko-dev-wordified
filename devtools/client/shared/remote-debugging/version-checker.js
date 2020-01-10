@@ -501,11 +501,9 @@ channels
 .
 minVersion
 :
-(
 localMajorVersion
 -
 2
-)
 +
 "
 .
@@ -564,11 +562,9 @@ all
 .
 maxVersion
 :
-(
 localMajorVersion
 +
 1
-)
 +
 "
 .

@@ -615,9 +615,7 @@ dataType
 {
 fetchObjectActorData
 =
-(
 cb
-)
 =
 >
 client
@@ -632,9 +630,7 @@ else
 {
 fetchObjectActorData
 =
-(
 cb
-)
 =
 >
 client

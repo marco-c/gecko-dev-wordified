@@ -122,9 +122,7 @@ HEADERS
 .
 filter
 (
-(
 header
-)
 =
 >
 header
@@ -172,9 +170,7 @@ HEADERS
 .
 filter
 (
-(
 header
-)
 =
 >
 header
@@ -222,9 +218,7 @@ HEADERS
 .
 filter
 (
-(
 header
-)
 =
 >
 header
@@ -239,9 +233,7 @@ noLocalization
 .
 map
 (
-(
 header
-)
 =
 >
 header

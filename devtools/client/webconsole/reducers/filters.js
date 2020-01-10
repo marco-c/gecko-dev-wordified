@@ -126,9 +126,7 @@ constants
 const
 FilterState
 =
-(
 overrides
-)
 =
 >
 Object

@@ -1234,7 +1234,6 @@ dominators
 ;
 }
 return
-(
 dom
 .
 div
@@ -1526,7 +1525,6 @@ recordAllocationStacks
 )
 viewSelect
 viewToolbarOptions
-)
 )
 ;
 }

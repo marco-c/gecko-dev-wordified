@@ -1165,14 +1165,12 @@ can
 be
 removed
 [
-(
 removedRequest
 &
 &
 removedRequest
 .
 isCustom
-)
 &
 &
 "

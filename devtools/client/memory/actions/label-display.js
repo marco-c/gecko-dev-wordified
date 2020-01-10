@@ -139,8 +139,8 @@ display
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -167,7 +167,7 @@ display
 )
 )
 ;
-yield
+await
 dispatch
 (
 refresh
@@ -206,6 +206,7 @@ display
 const
 setLabelDisplay
 =
+(
 exports
 .
 setLabelDisplay
@@ -248,9 +249,7 @@ an
 object
 with
 a
-\
 by
-\
 property
 attempted
 to
@@ -275,4 +274,5 @@ display
 }
 ;
 }
+)
 ;

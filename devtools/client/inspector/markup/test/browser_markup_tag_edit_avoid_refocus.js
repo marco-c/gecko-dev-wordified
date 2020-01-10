@@ -263,15 +263,13 @@ input
 .
 value
 =
-"
+'
 class
 =
-\
 "
 wxyz
-\
 "
-"
+'
 ;
 const
 onFocus

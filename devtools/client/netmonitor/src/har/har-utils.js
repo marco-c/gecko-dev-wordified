@@ -881,11 +881,9 @@ null
 temp
 "
 +
-(
 new
 Date
 (
-)
 )
 .
 getTime

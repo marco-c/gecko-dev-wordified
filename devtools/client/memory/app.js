@@ -1245,7 +1245,6 @@ id
 )
 ;
 return
-(
 dom
 .
 div
@@ -2155,7 +2154,6 @@ newSize
 sizes
 view
 }
-)
 )
 )
 )

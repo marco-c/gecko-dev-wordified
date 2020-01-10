@@ -365,6 +365,7 @@ light
 const
 getTheme
 =
+(
 exports
 .
 getTheme
@@ -385,6 +386,7 @@ THEME_PREF
 )
 ;
 }
+)
 ;
 /
 *
@@ -473,6 +475,7 @@ vars
 const
 getColor
 =
+(
 exports
 .
 getColor
@@ -644,6 +647,7 @@ match
 null
 ;
 }
+)
 ;
 /
 *
@@ -659,13 +663,12 @@ preference
 const
 setTheme
 =
+(
 exports
 .
 setTheme
 =
-(
 newTheme
-)
 =
 >
 {
@@ -680,6 +683,7 @@ newTheme
 )
 ;
 }
+)
 ;
 /
 *
@@ -697,6 +701,7 @@ changes
 const
 addThemeObserver
 =
+(
 exports
 .
 addThemeObserver
@@ -716,6 +721,7 @@ observer
 )
 ;
 }
+)
 ;
 /
 *
@@ -733,6 +739,7 @@ changes
 const
 removeThemeObserver
 =
+(
 exports
 .
 removeThemeObserver
@@ -752,6 +759,7 @@ observer
 )
 ;
 }
+)
 ;
 /
 *

@@ -1067,9 +1067,7 @@ options
 .
 then
 (
-(
 res
-)
 =
 >
 {
@@ -1321,14 +1319,12 @@ associated
 .
 disabled
 :
-(
 !
 actor
 &
 &
 !
 variableText
-)
 click
 :
 (
@@ -1375,9 +1371,7 @@ actor
 .
 then
 (
-(
 res
-)
 =
 >
 {

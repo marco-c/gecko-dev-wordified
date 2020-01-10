@@ -391,7 +391,6 @@ contents
 )
 ;
 return
-(
 p
 (
 {
@@ -401,7 +400,6 @@ className
 .
 .
 contents
-)
 )
 ;
 }

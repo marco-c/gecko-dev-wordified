@@ -419,9 +419,7 @@ on
 paused
 "
 async
-(
 packet
-)
 =
 >
 {

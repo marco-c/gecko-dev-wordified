@@ -216,7 +216,6 @@ this
 props
 ;
 return
-(
 dom
 .
 ul
@@ -275,7 +274,6 @@ item
 )
 ;
 }
-)
 )
 )
 ;

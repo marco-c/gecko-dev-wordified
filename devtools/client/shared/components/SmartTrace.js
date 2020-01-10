@@ -942,7 +942,6 @@ const
 stacktrace
 =
 (
-(
 state
 &
 &
@@ -957,7 +956,6 @@ this
 props
 .
 stacktrace
-)
 ;
 const
 frame

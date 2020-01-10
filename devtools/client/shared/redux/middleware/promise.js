@@ -138,6 +138,7 @@ true
 const
 PROMISE
 =
+(
 exports
 .
 PROMISE
@@ -147,6 +148,7 @@ dispatch
 /
 promise
 "
+)
 ;
 function
 promiseMiddleware

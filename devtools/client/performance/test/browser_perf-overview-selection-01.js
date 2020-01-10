@@ -519,11 +519,13 @@ graph
 {
 x
 :
+(
 3
 *
 graph
 .
 width
+)
 /
 4
 }

@@ -373,7 +373,6 @@ throbber
 ;
 }
 return
-(
 button
 (
 props
@@ -399,7 +398,6 @@ this
 props
 .
 children
-)
 )
 )
 ;

@@ -76,7 +76,6 @@ html
 const
 FileUtils
 =
-(
 ChromeUtils
 .
 import
@@ -96,7 +95,6 @@ jsm
 "
 {
 }
-)
 )
 .
 FileUtils

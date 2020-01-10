@@ -815,14 +815,17 @@ b
 &
 &
 (
+(
 isMacOS
 &
 &
 event
 .
 metaKey
+)
 |
 |
+(
 !
 isMacOS
 &
@@ -830,6 +833,7 @@ isMacOS
 event
 .
 ctrlKey
+)
 )
 )
 {
@@ -1288,9 +1292,7 @@ user
 const
 removeCallback
 =
-(
 eventType
-)
 =
 >
 {
@@ -1376,9 +1378,7 @@ pasting
 const
 pasteKeyUpHandler
 =
-(
 e
-)
 =
 >
 {
@@ -1602,7 +1602,6 @@ SideBar
 Object
 inspector
 return
-(
 div
 (
 {
@@ -1754,7 +1753,6 @@ codeMirrorEnabled
 :
 jstermCodeMirror
 }
-)
 )
 )
 ;

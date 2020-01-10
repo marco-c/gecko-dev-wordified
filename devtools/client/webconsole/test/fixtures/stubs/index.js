@@ -58,9 +58,7 @@ pageError
 .
 forEach
 (
-(
 filename
-)
 =
 >
 {

@@ -207,7 +207,6 @@ history
 .
 position
 <
-(
 state
 .
 history
@@ -217,7 +216,6 @@ entries
 length
 -
 1
-)
 )
 {
 return

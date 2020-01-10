@@ -550,9 +550,7 @@ loader
 add
 (
 requestId
-(
 resolve
-)
 =
 >
 {
@@ -943,9 +941,7 @@ requestId
 .
 then
 (
-(
 content
-)
 =
 >
 {
@@ -1000,9 +996,7 @@ loader
 add
 (
 requestId
-(
 resolve
-)
 =
 >
 {

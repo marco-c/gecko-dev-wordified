@@ -633,7 +633,6 @@ update
 const
 isScrollChanging
 =
-(
 Math
 .
 abs
@@ -648,12 +647,10 @@ zoom
 )
 >
 ZOOM_EPSILON
-)
 ;
 const
 isTranslateChanging
 =
-(
 Math
 .
 abs
@@ -684,7 +681,6 @@ translateY
 )
 >
 TRANSLATE_EPSILON
-)
 ;
 isLooping
 =

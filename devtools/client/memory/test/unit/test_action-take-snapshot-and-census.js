@@ -348,6 +348,7 @@ store
 >
 {
 return
+(
 snapshotI
 =
 =
@@ -364,6 +365,7 @@ censusI
 censusStates
 .
 length
+)
 ;
 }
 )

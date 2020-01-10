@@ -1198,6 +1198,7 @@ hasSelectedRow
 )
 {
 return
+(
 this
 .
 columns
@@ -1222,6 +1223,7 @@ uniqueId
 )
 .
 selectedRow
+)
 ;
 }
 /
@@ -9713,7 +9715,6 @@ b
 const
 val1
 =
-(
 a
 [
 this
@@ -9722,7 +9723,6 @@ id
 ]
 instanceof
 Node
-)
 ?
 a
 [
@@ -9743,7 +9743,6 @@ id
 const
 val2
 =
-(
 b
 [
 this
@@ -9752,7 +9751,6 @@ id
 ]
 instanceof
 Node
-)
 ?
 b
 [
@@ -9805,7 +9803,6 @@ b
 const
 val1
 =
-(
 a
 [
 this
@@ -9814,7 +9811,6 @@ id
 ]
 instanceof
 Node
-)
 ?
 a
 [
@@ -9835,7 +9831,6 @@ id
 const
 val2
 =
-(
 b
 [
 this
@@ -9844,7 +9839,6 @@ id
 ]
 instanceof
 Node
-)
 ?
 b
 [
@@ -10555,9 +10549,7 @@ addEventListener
 "
 contextmenu
 "
-(
 event
-)
 =
 >
 {
@@ -11456,7 +11448,6 @@ this
 isEditing
 &
 &
-(
 this
 .
 textbox
@@ -11468,7 +11459,6 @@ value
 this
 .
 currentValue
-)
 ;
 }
 get

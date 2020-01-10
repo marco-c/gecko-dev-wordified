@@ -389,7 +389,6 @@ this
 props
 ;
 return
-(
 div
 (
 {
@@ -429,7 +428,6 @@ connector
 }
 )
 )
-)
 ;
 }
 }
@@ -442,9 +440,7 @@ exports
 =
 connect
 (
-(
 state
-)
 =
 >
 (

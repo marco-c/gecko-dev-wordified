@@ -642,7 +642,6 @@ updated
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -655,7 +654,6 @@ background
 -
 image
 "
-)
 )
 "
 linear

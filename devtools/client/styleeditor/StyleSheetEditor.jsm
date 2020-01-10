@@ -1696,9 +1696,7 @@ path
 .
 then
 (
-(
 info
-)
 =
 >
 {
@@ -1809,9 +1807,7 @@ getText
 .
 then
 (
-(
 longStr
-)
 =
 >
 {
@@ -1827,9 +1823,7 @@ string
 .
 then
 (
-(
 source
-)
 =
 >
 {
@@ -1996,9 +1990,7 @@ _getSourceTextAndPrettify
 .
 then
 (
-(
 source
-)
 =
 >
 {
@@ -2475,9 +2467,7 @@ _getSourceTextAndPrettify
 .
 then
 (
-(
 newText
-)
 =
 >
 {
@@ -2960,6 +2950,7 @@ cssProperties
 const
 sourceEditor
 =
+(
 this
 .
 _sourceEditor
@@ -2968,6 +2959,7 @@ new
 Editor
 (
 config
+)
 )
 ;
 sourceEditor
@@ -4041,9 +4033,7 @@ callback
 const
 onFile
 =
-(
 returnFile
-)
 =
 >
 {
@@ -4152,9 +4142,7 @@ asyncCopy
 (
 istream
 ostream
-(
 status
-)
 =
 >
 {
@@ -4434,9 +4422,7 @@ linkedCSSFile
 .
 then
 (
-(
 info
-)
 =
 >
 {
@@ -4708,9 +4694,7 @@ linkedCSSFile
 .
 then
 (
-(
 array
-)
 =
 >
 {

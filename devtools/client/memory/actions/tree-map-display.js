@@ -140,8 +140,8 @@ display
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -155,7 +155,7 @@ display
 )
 )
 ;
-yield
+await
 dispatch
 (
 refresh
@@ -203,6 +203,7 @@ display
 const
 setTreeMap
 =
+(
 exports
 .
 setTreeMap
@@ -245,9 +246,7 @@ an
 object
 with
 a
-\
 by
-\
 property
 attempted
 to
@@ -272,4 +271,5 @@ display
 }
 ;
 }
+)
 ;

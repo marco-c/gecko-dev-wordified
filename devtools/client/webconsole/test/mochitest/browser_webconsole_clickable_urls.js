@@ -170,9 +170,7 @@ selectedBrowser
 firstURL
 secondURL
 ]
-(
 urls
-)
 =
 >
 {

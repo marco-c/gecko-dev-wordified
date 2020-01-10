@@ -117,8 +117,8 @@ display
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -132,7 +132,7 @@ display
 )
 )
 ;
-yield
+await
 dispatch
 (
 refresh
@@ -179,6 +179,7 @@ display
 const
 setCensusDisplay
 =
+(
 exports
 .
 setCensusDisplay
@@ -221,9 +222,7 @@ an
 object
 with
 a
-\
 by
-\
 property
 attempted
 to
@@ -248,4 +247,5 @@ display
 }
 ;
 }
+)
 ;

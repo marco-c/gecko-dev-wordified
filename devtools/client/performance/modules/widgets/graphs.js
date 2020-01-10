@@ -1416,9 +1416,7 @@ new
 Promise
 (
 async
-(
 resolve
-)
 =
 >
 {
@@ -1427,13 +1425,11 @@ for
 const
 graph
 of
-(
 await
 this
 .
 _getEnabled
 (
-)
 )
 )
 {
@@ -2243,13 +2239,11 @@ for
 const
 graph
 of
-(
 await
 this
 .
 _getEnabled
 (
-)
 )
 )
 {
@@ -2314,6 +2308,7 @@ _getFilter
 const
 graph
 =
+(
 this
 .
 _graphs
@@ -2328,6 +2323,7 @@ constructor
 (
 el
 filter
+)
 )
 ;
 graph

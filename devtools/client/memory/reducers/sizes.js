@@ -141,6 +141,7 @@ sizes
 {
 shortestPathsSize
 :
+0
 .
 5
 }

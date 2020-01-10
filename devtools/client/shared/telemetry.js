@@ -1469,6 +1469,7 @@ getCaller
 }
 }
 return
+(
 histogram
 |
 |
@@ -1482,6 +1483,7 @@ add
 {
 }
 }
+)
 ;
 }
 /
@@ -1587,6 +1589,7 @@ getCaller
 }
 }
 return
+(
 histogram
 |
 |
@@ -1600,6 +1603,7 @@ add
 {
 }
 }
+)
 ;
 }
 /
@@ -4592,21 +4596,15 @@ tool_timer
 id
 null
 {
-"
 time_open
-"
 :
 time
-"
 os
-"
 :
 this
 .
 osNameAndVersion
-"
 session_id
-"
 :
 sessionId
 }

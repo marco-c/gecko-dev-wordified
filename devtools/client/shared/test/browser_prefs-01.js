@@ -77,9 +77,7 @@ devtools
 debugger
 "
 {
-"
 foo
-"
 :
 [
 "

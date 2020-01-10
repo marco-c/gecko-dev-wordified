@@ -307,7 +307,6 @@ item
 const
 title
 =
-(
 remoteAddress
 ?
 (
@@ -322,7 +321,6 @@ remotePort
 :
 "
 "
-)
 ;
 /
 /
@@ -402,7 +400,6 @@ n
 DECODED_FILE_URL
 ;
 return
-(
 td
 (
 {
@@ -435,7 +432,6 @@ isLocal
 }
 )
 originalURL
-)
 )
 ;
 }

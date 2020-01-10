@@ -1647,6 +1647,7 @@ isPanelVisible
 )
 {
 return
+(
 this
 .
 inspector
@@ -1696,6 +1697,7 @@ getCurrentTabID
 "
 animationinspector
 "
+)
 ;
 }
 onAnimationStateChanged

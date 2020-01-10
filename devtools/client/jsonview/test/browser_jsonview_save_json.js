@@ -224,9 +224,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -234,9 +232,7 @@ MockFilePicker
 .
 showCallback
 =
-(
 fp
-)
 =
 >
 {
@@ -760,9 +756,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

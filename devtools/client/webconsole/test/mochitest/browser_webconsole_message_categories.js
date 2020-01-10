@@ -222,15 +222,13 @@ ImageMap
 "
 matchString
 :
-"
+'
 shape
 =
-\
 "
 rect
-\
 "
-"
+'
 }
 {
 /

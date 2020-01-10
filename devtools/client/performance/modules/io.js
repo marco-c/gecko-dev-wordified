@@ -550,9 +550,7 @@ NetUtil
 asyncFetch
 (
 channel
-(
 inputStream
-)
 =
 >
 {

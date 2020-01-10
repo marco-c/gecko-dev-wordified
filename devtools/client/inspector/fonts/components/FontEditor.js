@@ -945,6 +945,7 @@ value
 )
 {
 return
+(
 value
 !
 =
@@ -989,6 +990,7 @@ onPropertyChange
 value
 }
 )
+)
 ;
 }
 renderLineHeight
@@ -997,6 +999,7 @@ value
 )
 {
 return
+(
 value
 !
 =
@@ -1041,6 +1044,7 @@ onPropertyChange
 value
 }
 )
+)
 ;
 }
 renderLetterSpacing
@@ -1049,6 +1053,7 @@ value
 )
 {
 return
+(
 value
 !
 =
@@ -1093,6 +1098,7 @@ onPropertyChange
 value
 }
 )
+)
 ;
 }
 renderFontStyle
@@ -1101,6 +1107,7 @@ value
 )
 {
 return
+(
 value
 &
 &
@@ -1126,6 +1133,7 @@ disabled
 value
 }
 )
+)
 ;
 }
 renderFontWeight
@@ -1134,6 +1142,7 @@ value
 )
 {
 return
+(
 value
 !
 =
@@ -1162,6 +1171,7 @@ fontEditor
 disabled
 value
 }
+)
 )
 ;
 }
@@ -1391,9 +1401,7 @@ customInstance
 name
 onChange
 :
-(
 e
-)
 =
 >
 {

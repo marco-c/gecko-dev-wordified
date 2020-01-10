@@ -266,7 +266,6 @@ hover
 ;
 ok
 (
-(
 await
 testActor
 .
@@ -275,7 +274,6 @@ assertHighlightedNode
 "
 h1
 "
-)
 )
 "
 The

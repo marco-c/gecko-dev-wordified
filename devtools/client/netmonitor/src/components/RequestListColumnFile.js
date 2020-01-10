@@ -309,7 +309,6 @@ n
 DECODED_FILE_URL
 ;
 return
-(
 dom
 .
 td
@@ -334,7 +333,6 @@ title
 fileToolTip
 }
 requestedFile
-)
 )
 ;
 }

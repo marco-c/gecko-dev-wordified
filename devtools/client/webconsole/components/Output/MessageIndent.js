@@ -215,9 +215,7 @@ className
 style
 :
 {
-"
 width
-"
 :
 indent
 *

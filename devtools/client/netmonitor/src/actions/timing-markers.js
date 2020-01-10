@@ -81,9 +81,7 @@ exports
 .
 addTimingMarker
 =
-(
 marker
-)
 =
 >
 {

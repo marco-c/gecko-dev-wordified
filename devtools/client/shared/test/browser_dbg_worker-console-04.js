@@ -171,10 +171,12 @@ a
 worker
 debugger
 .
+(
 "
 use
 strict
 "
+)
 ;
 /
 /

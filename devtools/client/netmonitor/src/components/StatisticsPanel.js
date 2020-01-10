@@ -648,9 +648,7 @@ requests
 .
 forEach
 (
-(
 request
-)
 =
 >
 {
@@ -691,9 +689,7 @@ requests
 .
 forEach
 (
-(
 request
-)
 =
 >
 {
@@ -755,9 +751,7 @@ requests
 .
 every
 (
-(
 req
-)
 =
 >
 req
@@ -1175,9 +1169,7 @@ strings
 {
 size
 :
-(
 value
-)
 =
 >
 L10N
@@ -1198,9 +1190,7 @@ value
 )
 transferredSize
 :
-(
 value
-)
 =
 >
 L10N
@@ -1221,9 +1211,7 @@ value
 )
 time
 :
-(
 value
-)
 =
 >
 L10N
@@ -1244,9 +1232,7 @@ value
 )
 nonBlockingTime
 :
-(
 value
-)
 =
 >
 L10N
@@ -1271,9 +1257,7 @@ totals
 {
 cached
 :
-(
 total
-)
 =
 >
 L10N
@@ -1289,9 +1273,7 @@ total
 )
 count
 :
-(
 total
-)
 =
 >
 L10N
@@ -1307,9 +1289,7 @@ total
 )
 size
 :
-(
 total
-)
 =
 >
 L10N
@@ -1351,9 +1331,7 @@ total
 )
 time
 :
-(
 total
-)
 =
 >
 {
@@ -1402,9 +1380,7 @@ string
 }
 nonBlockingTime
 :
-(
 total
-)
 =
 >
 {
@@ -1564,9 +1540,7 @@ FILTER_TAGS
 .
 map
 (
-(
 type
-)
 =
 >
 (
@@ -2312,7 +2286,6 @@ splitter
 ;
 }
 return
-(
 div
 (
 {
@@ -2424,7 +2397,6 @@ chart
 )
 )
 )
-)
 ;
 }
 }
@@ -2434,9 +2406,7 @@ exports
 =
 connect
 (
-(
 state
-)
 =
 >
 (
@@ -2487,9 +2457,7 @@ false
 )
 enableRequestFilterTypeOnly
 :
-(
 label
-)
 =
 >
 dispatch

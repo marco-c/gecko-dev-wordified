@@ -4895,17 +4895,13 @@ width
 const
 canDoubleSidebarWidth
 =
-(
 sidebarWidth
 *
 2
-)
 <
-(
 toolboxWidth
 /
 2
-)
 ;
 /
 /
@@ -5028,9 +5024,11 @@ sidebarWidth
 *
 2
 :
+(
 toolboxWidth
 *
 2
+)
 /
 3
 }
@@ -8754,6 +8752,7 @@ iframe
 ]
 ;
 return
+(
 selection
 .
 isHTMLNode
@@ -8797,6 +8796,7 @@ nodeName
 .
 toLowerCase
 (
+)
 )
 )
 ;
@@ -9364,7 +9364,6 @@ self
 selection
 |
 |
-(
 this
 .
 node
@@ -9376,7 +9375,6 @@ self
 selection
 .
 nodeFront
-)
 )
 {
 self

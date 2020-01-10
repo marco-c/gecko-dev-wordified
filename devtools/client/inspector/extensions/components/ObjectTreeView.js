@@ -265,9 +265,7 @@ columns
 =
 [
 {
-"
 id
-"
 :
 "
 value

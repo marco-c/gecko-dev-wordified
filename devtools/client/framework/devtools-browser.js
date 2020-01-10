@@ -489,6 +489,7 @@ instance
 var
 gDevToolsBrowser
 =
+(
 exports
 .
 gDevToolsBrowser
@@ -4464,6 +4465,7 @@ gBrowser
 currentURI
 ;
 return
+(
 currentURI
 .
 scheme
@@ -4486,6 +4488,7 @@ devtools
 -
 toolbox
 "
+)
 ;
 }
 /
@@ -5107,6 +5110,7 @@ shuttingDown
 ;
 }
 }
+)
 ;
 /
 /

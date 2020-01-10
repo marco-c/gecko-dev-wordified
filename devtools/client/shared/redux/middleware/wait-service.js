@@ -234,6 +234,7 @@ predicate
 const
 NAME
 =
+(
 exports
 .
 NAME
@@ -243,6 +244,7 @@ service
 /
 waitUntil
 "
+)
 ;
 function
 waitUntilService

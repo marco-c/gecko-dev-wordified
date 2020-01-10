@@ -141,6 +141,7 @@ declaration
 const
 declaration
 =
+(
 exports
 .
 declaration
@@ -450,6 +451,7 @@ PropTypes
 .
 string
 }
+)
 ;
 /
 *
@@ -733,6 +735,7 @@ selector
 const
 selector
 =
+(
 exports
 .
 selector
@@ -816,6 +819,7 @@ PropTypes
 string
 )
 }
+)
 ;
 /
 *

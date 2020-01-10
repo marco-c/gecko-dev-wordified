@@ -424,7 +424,6 @@ collapsed
 ;
 }
 return
-(
 button
 (
 {
@@ -446,7 +445,6 @@ this
 .
 onClick
 }
-)
 )
 ;
 }

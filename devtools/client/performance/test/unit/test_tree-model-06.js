@@ -980,9 +980,7 @@ data
 .
 forEach
 (
-(
 frame
-)
 =
 >
 {

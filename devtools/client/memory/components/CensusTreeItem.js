@@ -328,6 +328,7 @@ nextState
 )
 {
 return
+(
 this
 .
 props
@@ -386,6 +387,7 @@ diffing
 nextProps
 .
 diffing
+)
 ;
 }
 toLabel

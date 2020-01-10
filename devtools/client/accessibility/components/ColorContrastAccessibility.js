@@ -284,7 +284,6 @@ join
 )
 ;
 return
-(
 span
 (
 {
@@ -336,7 +335,6 @@ value
 toFixed
 (
 2
-)
 )
 )
 ;
@@ -526,7 +524,6 @@ error
 )
 ;
 return
-(
 div
 (
 {
@@ -549,7 +546,6 @@ contrast
 .
 .
 children
-)
 )
 ;
 }
@@ -700,7 +696,6 @@ text
 ;
 }
 return
-(
 div
 (
 {
@@ -723,7 +718,6 @@ contrast
 .
 .
 children
-)
 )
 ;
 }
@@ -771,7 +765,6 @@ this
 props
 ;
 return
-(
 LearnMoreLink
 (
 {
@@ -809,7 +802,6 @@ annotation
 score
 }
 }
-)
 )
 ;
 }
@@ -859,7 +851,6 @@ this
 props
 ;
 return
-(
 div
 (
 {
@@ -917,7 +908,6 @@ ContrastAnnotation
 this
 .
 props
-)
 )
 )
 ;

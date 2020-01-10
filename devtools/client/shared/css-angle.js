@@ -1307,7 +1307,6 @@ in
 radian
 turnValue
 =
-(
 this
 .
 authoredAngleValue
@@ -1318,7 +1317,6 @@ Math
 PI
 /
 180
-)
 )
 /
 360
@@ -1617,7 +1615,6 @@ this
 .
 _angleUnitUppercase
 =
-(
 angle
 =
 =
@@ -1626,7 +1623,6 @@ angle
 .
 toUpperCase
 (
-)
 )
 ;
 this

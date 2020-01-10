@@ -459,7 +459,7 @@ view
 {
 info
 (
-"
+'
 Check
 that
 MDN
@@ -467,12 +467,10 @@ link
 is
 opened
 on
-\
 "
 F1
-\
 "
-"
+'
 )
 ;
 const

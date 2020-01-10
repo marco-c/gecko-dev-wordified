@@ -155,13 +155,11 @@ createFactory
 (
 require
 (
-(
 "
 .
 /
 FlexItem
 "
-)
 )
 )
 ;
@@ -257,7 +255,6 @@ this
 props
 ;
 return
-(
 dom
 .
 div
@@ -342,7 +339,6 @@ onShowBoxModelHighlighterForNode
 scrollToTop
 setSelectedNode
 }
-)
 )
 )
 )

@@ -347,7 +347,6 @@ this
 props
 ;
 return
-(
 dom
 .
 div
@@ -430,7 +429,6 @@ onShowBoxModelHighlighterForNode
 )
 :
 null
-)
 )
 ;
 }

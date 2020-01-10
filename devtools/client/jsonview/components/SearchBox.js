@@ -377,7 +377,6 @@ render
 )
 {
 return
-(
 input
 (
 {
@@ -409,7 +408,6 @@ this
 .
 onSearch
 }
-)
 )
 ;
 }

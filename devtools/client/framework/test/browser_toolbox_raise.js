@@ -128,9 +128,7 @@ TEST_URL
 then
 (
 async
-(
 tab
-)
 =
 >
 {

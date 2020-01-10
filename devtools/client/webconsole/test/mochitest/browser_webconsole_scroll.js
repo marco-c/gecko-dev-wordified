@@ -1454,6 +1454,7 @@ lastChild
 clientHeight
 ;
 return
+(
 container
 .
 scrollTop
@@ -1470,5 +1471,6 @@ scrollHeight
 lastNodeHeight
 /
 2
+)
 ;
 }

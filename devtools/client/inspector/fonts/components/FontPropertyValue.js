@@ -1227,7 +1227,6 @@ dot
 const
 regex
 =
-(
 this
 .
 props
@@ -1242,7 +1241,6 @@ props
 min
 <
 0
-)
 ?
 /
 ^
@@ -1421,9 +1419,7 @@ this
 .
 setState
 (
-(
 prevState
-)
 =
 >
 {
@@ -1507,9 +1503,7 @@ this
 .
 setState
 (
-(
 prevState
-)
 =
 >
 {
@@ -1586,9 +1580,7 @@ this
 .
 setState
 (
-(
 prevState
-)
 =
 >
 {
@@ -1705,9 +1697,7 @@ this
 .
 setState
 (
-(
 prevState
-)
 =
 >
 {
@@ -1871,9 +1861,7 @@ this
 .
 setState
 (
-(
 prevState
-)
 =
 >
 {

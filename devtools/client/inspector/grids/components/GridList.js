@@ -271,7 +271,6 @@ this
 props
 ;
 return
-(
 dom
 .
 div
@@ -370,7 +369,6 @@ onShowBoxModelHighlighterForNode
 onToggleGridHighlighter
 setSelectedNode
 }
-)
 )
 )
 )

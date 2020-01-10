@@ -2789,9 +2789,7 @@ children
 const
 makeParentMap
 =
-(
 items
-)
 =
 >
 {

@@ -97,6 +97,7 @@ axis
 const
 fontVariationAxis
 =
+(
 exports
 .
 fontVariationAxis
@@ -174,10 +175,12 @@ PropTypes
 .
 number
 }
+)
 ;
 const
 fontVariationInstanceValue
 =
+(
 exports
 .
 fontVariationInstanceValue
@@ -211,6 +214,7 @@ PropTypes
 .
 number
 }
+)
 ;
 /
 *
@@ -226,6 +230,7 @@ instance
 const
 fontVariationInstance
 =
+(
 exports
 .
 fontVariationInstance
@@ -272,6 +277,7 @@ fontVariationInstanceValue
 )
 )
 }
+)
 ;
 /
 *
@@ -286,6 +292,7 @@ font
 const
 font
 =
+(
 exports
 .
 font
@@ -421,6 +428,7 @@ fontVariationInstance
 )
 )
 }
+)
 ;
 exports
 .

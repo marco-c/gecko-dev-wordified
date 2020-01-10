@@ -492,9 +492,7 @@ body
 .
 then
 (
-(
 nodeActor
-)
 =
 >
 {
@@ -530,11 +528,9 @@ n
 if
 (
 !
-(
 nodeActor
 .
 inlineTextChild
-)
 )
 {
 throw
@@ -676,9 +672,7 @@ devtoolsTab
 .
 catch
 (
-(
 error
-)
 =
 >
 {

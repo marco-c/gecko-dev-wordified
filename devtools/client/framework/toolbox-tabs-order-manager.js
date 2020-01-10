@@ -379,6 +379,7 @@ tabElement
 )
 {
 return
+(
 !
 tabElement
 .
@@ -402,6 +403,7 @@ menu
 -
 button
 "
+)
 ;
 }
 isRTL

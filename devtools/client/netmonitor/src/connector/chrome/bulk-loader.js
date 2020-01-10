@@ -151,9 +151,7 @@ this
 const
 recursive
 =
-(
 resolve
-)
 =
 >
 {
@@ -286,9 +284,7 @@ None
 const
 getTimeoutMS
 =
-(
 priority
-)
 =
 >
 {
@@ -322,9 +318,7 @@ delay
 const
 getDelayStartMS
 =
-(
 priority
-)
 =
 >
 {

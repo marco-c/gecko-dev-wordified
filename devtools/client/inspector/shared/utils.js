@@ -617,9 +617,7 @@ cssProperties
 )
 {
 return
-(
 e
-)
 =
 >
 {

@@ -1923,9 +1923,7 @@ _getManifest
 .
 then
 (
-(
 manifest
-)
 =
 >
 {

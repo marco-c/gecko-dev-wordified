@@ -531,12 +531,10 @@ success
 {
 ok
 (
-(
 gFirstFileSaved
 &
 &
 success
-)
 "
 Both
 files

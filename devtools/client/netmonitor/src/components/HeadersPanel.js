@@ -1217,7 +1217,6 @@ value
 )
 {
 return
-(
 div
 (
 {
@@ -1290,7 +1289,6 @@ monospace
 "
 }
 value
-)
 )
 )
 )
@@ -1521,7 +1519,6 @@ length
 ;
 }
 return
-(
 tr
 (
 {
@@ -1573,7 +1570,6 @@ true
 )
 )
 )
-)
 ;
 }
 return
@@ -1609,7 +1605,6 @@ checked
 )
 {
 return
-(
 input
 (
 {
@@ -1630,7 +1625,6 @@ type
 checkbox
 "
 }
-)
 )
 ;
 }
@@ -1752,7 +1746,6 @@ break
 ;
 }
 return
-(
 label
 (
 {
@@ -1797,7 +1790,6 @@ input
 "
 }
 inputElement
-)
 )
 )
 ;
@@ -1910,7 +1902,6 @@ name
 )
 ;
 return
-(
 div
 (
 {
@@ -1989,7 +1980,6 @@ headerDocURL
 )
 :
 null
-)
 )
 ;
 }
@@ -2231,7 +2221,6 @@ length
 ;
 summaryStatus
 =
-(
 div
 (
 {
@@ -2352,7 +2341,6 @@ link
 }
 )
 )
-)
 ;
 }
 let
@@ -2372,7 +2360,6 @@ getTrackingProtectionURL
 ;
 trackingProtectionStatus
 =
-(
 div
 (
 {
@@ -2452,7 +2439,6 @@ link
 }
 )
 )
-)
 ;
 }
 const
@@ -2513,7 +2499,6 @@ null
 const
 summaryEditAndResendBtn
 =
-(
 div
 (
 {
@@ -2558,10 +2543,8 @@ cloneSelectedRequest
 EDIT_AND_RESEND
 )
 )
-)
 ;
 return
-(
 div
 (
 {
@@ -2617,7 +2600,6 @@ this
 renderValue
 openLink
 }
-)
 )
 )
 ;

@@ -260,12 +260,14 @@ sheet
 ;
 while
 (
+(
 sheet
 =
 sheetsIterator
 .
 iterateNext
 (
+)
 )
 )
 {

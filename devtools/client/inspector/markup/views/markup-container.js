@@ -2918,6 +2918,7 @@ toLowerCase
 )
 ;
 return
+(
 !
 this
 .
@@ -2993,6 +2994,7 @@ tagName
 =
 =
 null
+)
 ;
 }
 isSlotted

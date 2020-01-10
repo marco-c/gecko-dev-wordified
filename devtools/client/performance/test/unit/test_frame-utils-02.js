@@ -86,9 +86,7 @@ utils
 const
 isContent
 =
-(
 frame
-)
 =
 >
 {

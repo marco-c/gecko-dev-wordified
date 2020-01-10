@@ -543,6 +543,7 @@ filter
 event
 =
 >
+(
 event
 [
 1
@@ -567,6 +568,7 @@ event
 "
 enter
 "
+)
 |
 |
 event

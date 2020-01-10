@@ -915,9 +915,7 @@ open
 const
 assertVisibleMessageIds
 =
-(
 expanded
-)
 =
 >
 {

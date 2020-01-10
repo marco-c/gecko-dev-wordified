@@ -371,6 +371,7 @@ document
 )
 ;
 return
+(
 updatedSidebarItem
 &
 &
@@ -386,6 +387,7 @@ connect
 -
 button
 "
+)
 )
 ;
 }

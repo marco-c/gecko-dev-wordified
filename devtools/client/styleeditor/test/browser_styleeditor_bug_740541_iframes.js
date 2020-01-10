@@ -110,6 +110,7 @@ framedDocuments
 ]
 ;
 return
+(
 "
 data
 :
@@ -174,6 +175,7 @@ sheet
 )
 {
 return
+(
 '
 <
 link
@@ -200,6 +202,7 @@ sheet
 "
 >
 '
+)
 ;
 }
 )
@@ -269,6 +272,7 @@ join
 \
 n
 "
+)
 )
 )
 ;

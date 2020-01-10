@@ -426,9 +426,7 @@ connector
 sendHTTPRequest
 (
 data
-(
 response
-)
 =
 >
 {

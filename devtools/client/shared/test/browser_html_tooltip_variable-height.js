@@ -459,11 +459,9 @@ style
 .
 height
 =
-(
 2
 *
 CONTAINER_HEIGHT
-)
 +
 "
 px

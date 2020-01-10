@@ -355,7 +355,6 @@ inspector
 const
 offsetY
 =
-(
 parentContainer
 .
 tagLine
@@ -367,7 +366,6 @@ parentContainer
 tagLine
 .
 offsetHeight
-)
 -
 container
 .

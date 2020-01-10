@@ -1142,9 +1142,7 @@ tests
 .
 forEach
 (
-(
 test
-)
 =
 >
 {

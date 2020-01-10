@@ -351,7 +351,6 @@ render
 )
 {
 return
-(
 Toolbar
 (
 {
@@ -448,7 +447,6 @@ PrettyPrint
 )
 :
 null
-)
 )
 ;
 }

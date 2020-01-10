@@ -786,6 +786,7 @@ this
 state
 ;
 return
+(
 list
 .
 length
@@ -932,6 +933,7 @@ displayValue
 )
 ;
 }
+)
 )
 )
 )

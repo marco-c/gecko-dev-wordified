@@ -268,7 +268,6 @@ rgb
 blue
 is
 (
-(
 await
 getValue
 (
@@ -281,7 +280,6 @@ background
 -
 color
 "
-)
 )
 "
 rgb
@@ -337,7 +335,6 @@ rgb
 green
 is
 (
-(
 await
 getValue
 (
@@ -350,7 +347,6 @@ background
 -
 color
 "
-)
 )
 "
 rgb
@@ -416,7 +412,6 @@ blue
 ;
 is
 (
-(
 await
 getValue
 (
@@ -429,7 +424,6 @@ background
 -
 color
 "
-)
 )
 "
 rgb
@@ -515,7 +509,6 @@ secondProp
 ;
 is
 (
-(
 await
 getValue
 (
@@ -528,7 +521,6 @@ background
 -
 color
 "
-)
 )
 "
 rgb
@@ -576,7 +568,6 @@ firstProp
 ;
 is
 (
-(
 await
 getValue
 (
@@ -589,7 +580,6 @@ background
 -
 color
 "
-)
 )
 "
 rgba
@@ -639,7 +629,6 @@ secondProp
 ;
 is
 (
-(
 await
 getValue
 (
@@ -652,7 +641,6 @@ background
 -
 color
 "
-)
 )
 "
 rgb
@@ -707,7 +695,6 @@ firstProp
 ;
 is
 (
-(
 await
 getValue
 (
@@ -720,7 +707,6 @@ background
 -
 color
 "
-)
 )
 "
 rgb
@@ -822,7 +808,6 @@ purple
 ;
 is
 (
-(
 await
 getValue
 (
@@ -835,7 +820,6 @@ background
 -
 color
 "
-)
 )
 "
 rgb

@@ -437,6 +437,7 @@ md
 const
 censusDisplayModel
 =
+(
 exports
 .
 censusDisplay
@@ -484,6 +485,7 @@ isRequired
 }
 )
 }
+)
 )
 ;
 /
@@ -540,6 +542,7 @@ md
 const
 labelDisplayModel
 =
+(
 exports
 .
 labelDisplay
@@ -581,6 +584,7 @@ isRequired
 )
 }
 )
+)
 ;
 /
 *
@@ -621,6 +625,7 @@ md
 const
 treeMapDisplayModel
 =
+(
 exports
 .
 treeMapDisplay
@@ -669,6 +674,7 @@ isRequired
 )
 }
 )
+)
 ;
 /
 *
@@ -683,6 +689,7 @@ model
 const
 treeMapModel
 =
+(
 exports
 .
 treeMapModel
@@ -857,10 +864,12 @@ state
 )
 }
 )
+)
 ;
 const
 censusModel
 =
+(
 exports
 .
 censusModel
@@ -1238,6 +1247,7 @@ state
 )
 }
 )
+)
 ;
 /
 *
@@ -1252,6 +1262,7 @@ model
 const
 dominatorTreeModel
 =
+(
 exports
 .
 dominatorTreeModel
@@ -1763,6 +1774,7 @@ state
 )
 }
 )
+)
 ;
 /
 *
@@ -1804,6 +1816,7 @@ number
 const
 snapshotModel
 =
+(
 exports
 .
 snapshot
@@ -2136,10 +2149,12 @@ time
 )
 }
 )
+)
 ;
 const
 allocationsModel
 =
+(
 exports
 .
 allocations
@@ -2201,10 +2216,12 @@ bool
 isRequired
 }
 )
+)
 ;
 const
 diffingModel
 =
+(
 exports
 .
 diffingModel
@@ -2473,10 +2490,12 @@ state
 )
 }
 )
+)
 ;
 const
 previousViewModel
 =
+(
 exports
 .
 previousView
@@ -2627,6 +2646,7 @@ selected
 snapshotId
 }
 )
+)
 ;
 exports
 .
@@ -2723,6 +2743,7 @@ previousViewModel
 const
 individualsModel
 =
+(
 exports
 .
 individuals
@@ -3015,6 +3036,7 @@ break
 }
 )
 }
+)
 )
 ;
 exports

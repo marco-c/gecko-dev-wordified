@@ -770,7 +770,7 @@ back_space
 return
 )
 /
-ig
+gi
 .
 test
 (

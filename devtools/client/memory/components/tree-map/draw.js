@@ -544,6 +544,7 @@ Function
 const
 configureD3Treemap
 =
+(
 exports
 .
 configureD3Treemap
@@ -914,6 +915,7 @@ nodes
 }
 ;
 }
+)
 ;
 /
 *
@@ -1008,6 +1010,7 @@ name
 const
 drawTruncatedName
 =
+(
 exports
 .
 drawTruncatedName
@@ -1085,6 +1088,7 @@ y
 ;
 }
 }
+)
 ;
 /
 *
@@ -1168,6 +1172,7 @@ padding
 const
 drawText
 =
+(
 exports
 .
 drawText
@@ -1527,6 +1532,7 @@ y
 }
 }
 }
+)
 ;
 /
 *
@@ -1580,6 +1586,7 @@ padding
 const
 drawBox
 =
+(
 exports
 .
 drawBox
@@ -1774,6 +1781,7 @@ dy
 )
 ;
 }
+)
 ;
 /
 *
@@ -1813,6 +1821,7 @@ dragZoom
 const
 drawTreemap
 =
+(
 exports
 .
 drawTreemap
@@ -2015,6 +2024,7 @@ padding
 ;
 }
 }
+)
 ;
 /
 *

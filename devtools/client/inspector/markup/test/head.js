@@ -2281,16 +2281,14 @@ inspector
 {
 info
 (
-"
+'
 Entering
-\
 "
-"
+'
 +
 selector
 +
-"
-\
+'
 "
 into
 the
@@ -2299,7 +2297,7 @@ selector
 search
 input
 field
-"
+'
 )
 ;
 const
@@ -2593,6 +2591,7 @@ disabled
 ;
 }
 return
+(
 deleteMenuItem
 .
 disabled
@@ -2606,6 +2605,7 @@ disabled
 pasteHTMLMenuItem
 .
 disabled
+)
 ;
 }
 ;
@@ -2870,6 +2870,7 @@ enabled
 ;
 }
 return
+(
 !
 deleteMenuItem
 .
@@ -2886,6 +2887,7 @@ disabled
 pasteHTMLMenuItem
 .
 disabled
+)
 ;
 }
 ;

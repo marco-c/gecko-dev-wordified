@@ -462,9 +462,7 @@ trigger
 a
 warning
 !
-"
 wrongProperty
-"
 :
 {
 }

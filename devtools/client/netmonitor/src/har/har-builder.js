@@ -931,7 +931,6 @@ type
 ]
 ;
 return
-(
 typeof
 time
 !
@@ -939,13 +938,10 @@ time
 "
 undefined
 "
-)
 ?
-(
 sum
 +
 time
-)
 :
 sum
 ;
@@ -1956,9 +1952,7 @@ formDataSections
 .
 forEach
 (
-(
 section
-)
 =
 >
 {
@@ -2323,14 +2317,12 @@ response
 .
 bodySize
 =
-(
 response
 .
 status
 =
 =
 304
-)
 ?
 0
 :
@@ -2939,7 +2931,6 @@ sendingTime
 ;
 }
 return
-(
 file
 .
 sendingTime
@@ -2947,7 +2938,6 @@ sendingTime
 file
 .
 startTime
-)
 ?
 file
 .

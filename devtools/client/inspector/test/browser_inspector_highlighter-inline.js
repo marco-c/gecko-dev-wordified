@@ -609,7 +609,6 @@ point
 .
 x
 )
-(
 Math
 .
 round
@@ -620,7 +619,6 @@ point
 ]
 .
 x
-)
 )
 "
 x
@@ -659,7 +657,6 @@ point
 .
 y
 )
-(
 Math
 .
 round
@@ -670,7 +667,6 @@ point
 ]
 .
 y
-)
 )
 "
 y

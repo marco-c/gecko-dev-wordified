@@ -726,7 +726,6 @@ state
 activeTab
 |
 |
-(
 children
 !
 =
@@ -736,7 +735,6 @@ this
 props
 .
 children
-)
 )
 {
 this
@@ -772,9 +770,7 @@ children
 .
 filter
 (
-(
 panel
-)
 =
 >
 panel
@@ -1766,9 +1762,7 @@ tabs
 .
 forEach
 (
-(
 tab
-)
 =
 >
 {
@@ -2032,9 +2026,7 @@ tabs
 .
 map
 (
-(
 tab
-)
 =
 >
 this
@@ -2046,7 +2038,6 @@ tab
 )
 ;
 return
-(
 div
 (
 {
@@ -2103,7 +2094,6 @@ this
 onTabChanged
 }
 tabs
-)
 )
 )
 ;

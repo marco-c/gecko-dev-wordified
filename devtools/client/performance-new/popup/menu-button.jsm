@@ -743,9 +743,7 @@ tooltiptext
 "
 onViewShowing
 :
-(
 event
-)
 =
 >
 {
@@ -909,9 +907,7 @@ src
 }
 onBeforeCreated
 :
-(
 document
-)
 =
 >
 {
@@ -924,9 +920,7 @@ true
 }
 onCreated
 :
-(
 buttonElement
-)
 =
 >
 {

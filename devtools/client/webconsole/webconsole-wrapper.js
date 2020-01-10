@@ -601,9 +601,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -777,9 +775,7 @@ nodename
 }
 getLongString
 :
-(
 grip
-)
 =
 >
 {
@@ -882,10 +878,9 @@ null
 .
 .
 extra
-"
 session_id
-"
 :
+(
 this
 .
 toolbox
@@ -896,6 +891,7 @@ this
 toolbox
 .
 sessionId
+)
 |
 |
 -
@@ -906,9 +902,7 @@ sessionId
 }
 createObjectClient
 :
-(
 object
-)
 =
 >
 {
@@ -923,9 +917,7 @@ object
 }
 createLongStringClient
 :
-(
 object
-)
 =
 >
 {
@@ -940,9 +932,7 @@ object
 }
 releaseActor
 :
-(
 actor
-)
 =
 >
 {
@@ -1211,7 +1201,6 @@ getSelection
 (
 )
 :
-(
 inputNode
 &
 &
@@ -1224,7 +1213,6 @@ selectionStart
 inputNode
 .
 selectionEnd
-)
 ;
 }
 getInputValue
@@ -1246,9 +1234,7 @@ getInputValue
 }
 setInputValue
 :
-(
 value
-)
 =
 >
 {
@@ -1286,9 +1272,7 @@ focus
 }
 evaluateInput
 :
-(
 expression
-)
 =
 >
 {
@@ -1556,12 +1540,10 @@ captured
 const
 variableText
 =
-(
 messageVariable
 &
 &
 !
-(
 messageEl
 .
 classList
@@ -1572,11 +1554,9 @@ contains
 startGroup
 "
 )
-)
 &
 &
 !
-(
 messageEl
 .
 classList
@@ -1586,8 +1566,6 @@ contains
 "
 startGroupCollapsed
 "
-)
-)
 )
 ?
 messageVariable
@@ -1727,9 +1705,7 @@ openSidebar
 =
 sidebarTogglePref
 ?
-(
 messageId
-)
 =
 >
 {
@@ -1864,9 +1840,7 @@ serviceContainer
 .
 openEditContextMenu
 =
-(
 e
-)
 =
 >
 {
@@ -2054,9 +2028,7 @@ webconsole
 "
 null
 {
-"
 session_id
-"
 :
 this
 .
@@ -2127,9 +2099,7 @@ webconsole
 "
 null
 {
-"
 session_id
-"
 :
 this
 .
@@ -2184,9 +2154,7 @@ webconsole
 "
 null
 {
-"
 session_id
-"
 :
 this
 .
@@ -2200,9 +2168,7 @@ sessionId
 )
 openNetworkPanel
 :
-(
 requestId
-)
 =
 >
 {
@@ -2220,9 +2186,7 @@ netmonitor
 .
 then
 (
-(
 panel
-)
 =
 >
 {
@@ -2244,9 +2208,7 @@ requestId
 }
 resendNetworkRequest
 :
-(
 requestId
-)
 =
 >
 {
@@ -2261,9 +2223,7 @@ getNetMonitorAPI
 .
 then
 (
-(
 api
-)
 =
 >
 {
@@ -2301,9 +2261,7 @@ unhighlight
 openNodeInInspector
 :
 async
-(
 grip
-)
 =
 >
 {
@@ -2499,6 +2457,7 @@ console
 .
 sessionId
 :
+(
 this
 .
 toolbox
@@ -2509,6 +2468,7 @@ this
 toolbox
 .
 sessionId
+)
 |
 |
 -

@@ -614,9 +614,7 @@ title
 LEARN_MORE
 onClick
 :
-(
 e
-)
 =
 >
 {
@@ -952,9 +950,7 @@ column
 }
 getLongString
 :
-(
 grip
-)
 =
 >
 {
@@ -1097,9 +1093,7 @@ serviceContainer
 openLink
 selectTab
 :
-(
 tabId
-)
 =
 >
 {

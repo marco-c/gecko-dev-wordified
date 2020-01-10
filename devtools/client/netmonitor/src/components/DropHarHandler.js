@@ -565,7 +565,6 @@ render
 )
 {
 return
-(
 div
 (
 {
@@ -609,7 +608,6 @@ div
 {
 }
 DROP_HAR_FILES
-)
 )
 )
 )

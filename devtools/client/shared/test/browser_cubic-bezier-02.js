@@ -710,7 +710,6 @@ offsets
 .
 left
 +
-(
 offsets
 .
 width
@@ -718,7 +717,6 @@ width
 4
 .
 0
-)
 ;
 let
 y
@@ -727,7 +725,6 @@ offsets
 .
 graphTop
 +
-(
 offsets
 .
 graphHeight
@@ -735,7 +732,6 @@ graphHeight
 4
 .
 0
-)
 ;
 widget
 .
@@ -888,13 +884,11 @@ offsets
 .
 right
 -
-(
 offsets
 .
 width
 /
 4
-)
 ;
 y
 =
@@ -902,13 +896,11 @@ offsets
 .
 graphBottom
 -
-(
 offsets
 .
 graphHeight
 /
 4
-)
 ;
 widget
 .

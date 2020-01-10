@@ -279,9 +279,7 @@ this
 .
 setState
 (
-(
 prevState
-)
 =
 >
 {

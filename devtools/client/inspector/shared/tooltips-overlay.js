@@ -584,11 +584,9 @@ _instances
 if
 (
 typeof
-(
 tooltip
 .
 isEditing
-)
 =
 =
 "
@@ -1349,13 +1347,11 @@ family
 )
 |
 |
-(
 type
 =
 =
 =
 VIEW_NODE_FONT_TYPE
-)
 )
 {
 const

@@ -100,10 +100,9 @@ OS
 WINNT
 "
 ?
+'
 "
-\
-"
-"
+'
 :
 "
 '
@@ -896,14 +895,12 @@ is
 !
 copyUrlParamsNode
 true
-"
+'
 The
-\
 "
 Copy
 as
 cURL
-\
 "
 context
 menu
@@ -913,7 +910,7 @@ not
 be
 hidden
 .
-"
+'
 )
 ;
 await
@@ -1166,6 +1163,7 @@ and
 compressed
 )
 return
+(
 expectedResult
 .
 length
@@ -1189,6 +1187,7 @@ actual
 includes
 (
 param
+)
 )
 )
 ;

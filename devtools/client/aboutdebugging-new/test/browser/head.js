@@ -1753,9 +1753,7 @@ needed
 const
 sanitizeTitle
 =
-(
 x
-)
 =
 >
 {

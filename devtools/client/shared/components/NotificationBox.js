@@ -1212,7 +1212,6 @@ stopPropagation
 }
 ;
 return
-(
 button
 (
 {
@@ -1239,7 +1238,6 @@ props
 .
 label
 )
-)
 ;
 }
 /
@@ -1258,7 +1256,6 @@ notification
 )
 {
 return
-(
 div
 (
 {
@@ -1381,7 +1378,6 @@ this
 notification
 )
 }
-)
 )
 )
 )
