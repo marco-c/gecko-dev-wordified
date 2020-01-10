@@ -130,7 +130,7 @@ h
 #
 include
 "
-SVGEnum
+SVGAnimatedEnumeration
 .
 h
 "
@@ -307,7 +307,7 @@ const
 override
 ;
 virtual
-SVGString
+SVGAnimatedString
 &
 GetResultImageName
 (
@@ -406,7 +406,7 @@ enum
 TYPE
 }
 ;
-SVGEnum
+SVGAnimatedEnumeration
 mEnumAttributes
 [
 1
@@ -431,7 +431,7 @@ RESULT
 IN1
 }
 ;
-SVGString
+SVGAnimatedString
 mStringAttributes
 [
 2

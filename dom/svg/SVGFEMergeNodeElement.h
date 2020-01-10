@@ -277,7 +277,7 @@ const
 override
 ;
 const
-SVGString
+SVGAnimatedString
 *
 GetIn1
 (
@@ -316,7 +316,7 @@ enum
 IN1
 }
 ;
-SVGString
+SVGAnimatedString
 mStringAttributes
 [
 1

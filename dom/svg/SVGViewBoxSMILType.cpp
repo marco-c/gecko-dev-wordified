@@ -140,7 +140,7 @@ h
 #
 include
 "
-SVGViewBox
+SVGAnimatedViewBox
 .
 h
 "

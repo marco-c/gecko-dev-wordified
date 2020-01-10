@@ -123,7 +123,7 @@ mozilla_dom_DOMSVGAnimatedBoolean_h
 #
 include
 "
-SVGBoolean
+SVGAnimatedBoolean
 .
 h
 "
@@ -177,7 +177,7 @@ DOMSVGAnimatedBoolean
 )
 DOMSVGAnimatedBoolean
 (
-SVGBoolean
+SVGAnimatedBoolean
 *
 aVal
 SVGElement
@@ -290,7 +290,7 @@ DOMSVGAnimatedBoolean
 (
 )
 ;
-SVGBoolean
+SVGAnimatedBoolean
 *
 mVal
 ;

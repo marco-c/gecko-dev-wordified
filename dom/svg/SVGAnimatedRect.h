@@ -178,7 +178,7 @@ namespace
 mozilla
 {
 class
-SVGViewBox
+SVGAnimatedViewBox
 ;
 namespace
 dom
@@ -202,7 +202,7 @@ SVGAnimatedRect
 )
 SVGAnimatedRect
 (
-SVGViewBox
+SVGAnimatedViewBox
 *
 aVal
 SVGElement
@@ -265,7 +265,7 @@ SVGAnimatedRect
 (
 )
 ;
-SVGViewBox
+SVGAnimatedViewBox
 *
 mVal
 ;

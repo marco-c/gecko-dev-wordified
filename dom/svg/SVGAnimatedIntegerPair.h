@@ -189,7 +189,7 @@ SVGElement
 namespace
 dom
 class
-SVGIntegerPair
+SVGAnimatedIntegerPair
 {
 public
 :
@@ -532,7 +532,7 @@ DOMSVGAnimatedInteger
 {
 DOMAnimatedInteger
 (
-SVGIntegerPair
+SVGAnimatedIntegerPair
 *
 aVal
 PairIndex
@@ -568,7 +568,7 @@ DOMAnimatedInteger
 (
 )
 ;
-SVGIntegerPair
+SVGAnimatedIntegerPair
 *
 mVal
 ;
@@ -693,7 +693,7 @@ public
 :
 SMILIntegerPair
 (
-SVGIntegerPair
+SVGAnimatedIntegerPair
 *
 aVal
 SVGElement
@@ -746,7 +746,7 @@ die
 during
 that
 .
-SVGIntegerPair
+SVGAnimatedIntegerPair
 *
 mVal
 ;

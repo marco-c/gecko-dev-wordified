@@ -1365,7 +1365,7 @@ sEnumInfo
 )
 ;
 }
-SVGOrient
+SVGAnimatedOrient
 *
 SVGMarkerElement
 :
@@ -1379,7 +1379,7 @@ return
 mOrient
 ;
 }
-SVGViewBox
+SVGAnimatedViewBox
 *
 SVGMarkerElement
 :

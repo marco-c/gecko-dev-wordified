@@ -123,6 +123,13 @@ mozilla_dom_SVGViewElement_h
 #
 include
 "
+SVGAnimatedEnumeration
+.
+h
+"
+#
+include
+"
 SVGAnimatedPreserveAspectRatio
 .
 h
@@ -130,7 +137,7 @@ h
 #
 include
 "
-SVGEnum
+SVGAnimatedViewBox
 .
 h
 "
@@ -138,13 +145,6 @@ h
 include
 "
 SVGStringList
-.
-h
-"
-#
-include
-"
-SVGViewBox
 .
 h
 "
@@ -376,7 +376,7 @@ enum
 ZOOMANDPAN
 }
 ;
-SVGEnum
+SVGAnimatedEnumeration
 mEnumAttributes
 [
 1
@@ -396,7 +396,7 @@ sEnumInfo
 ]
 ;
 virtual
-SVGViewBox
+SVGAnimatedViewBox
 *
 GetViewBox
 (
@@ -411,7 +411,7 @@ GetPreserveAspectRatio
 )
 override
 ;
-SVGViewBox
+SVGAnimatedViewBox
 mViewBox
 ;
 SVGAnimatedPreserveAspectRatio

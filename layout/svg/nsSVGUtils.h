@@ -307,13 +307,13 @@ namespace
 mozilla
 {
 class
+SVGAnimatedEnumeration
+;
+class
 SVGContextPaint
 ;
 struct
 SVGContextPaintImpl
-;
-class
-SVGEnum
 ;
 class
 SVGGeometryFrame
@@ -2405,7 +2405,7 @@ aMatrix
 mozilla
 :
 :
-SVGEnum
+SVGAnimatedEnumeration
 *
 aUnits
 nsIFrame

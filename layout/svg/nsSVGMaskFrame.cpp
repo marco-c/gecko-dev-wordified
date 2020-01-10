@@ -1410,7 +1410,7 @@ GetContent
 )
 )
 ;
-SVGEnum
+SVGAnimatedEnumeration
 *
 maskContentUnits
 =

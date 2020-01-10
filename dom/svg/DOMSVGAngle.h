@@ -147,7 +147,7 @@ namespace
 mozilla
 {
 class
-SVGOrient
+SVGAnimatedOrient
 ;
 namespace
 dom
@@ -201,7 +201,7 @@ attribute
 /
 DOMSVGAngle
 (
-SVGOrient
+SVGAnimatedOrient
 *
 aVal
 SVGElement
@@ -381,7 +381,7 @@ DOMSVGAngle
 (
 )
 ;
-SVGOrient
+SVGAnimatedOrient
 *
 mVal
 ;
@@ -396,9 +396,9 @@ own
 the
 angle
 .
+/
+/
 Otherwise
-/
-/
 the
 element
 does

@@ -123,13 +123,6 @@ mozilla_dom_SVGFEOffsetElement_h
 #
 include
 "
-SVGFilters
-.
-h
-"
-#
-include
-"
 nsSVGNumber2
 .
 h
@@ -137,7 +130,14 @@ h
 #
 include
 "
-SVGString
+SVGAnimatedString
+.
+h
+"
+#
+include
+"
+SVGFilters
 .
 h
 "
@@ -304,7 +304,7 @@ const
 override
 ;
 virtual
-SVGString
+SVGAnimatedString
 &
 GetResultImageName
 (
@@ -416,7 +416,7 @@ RESULT
 IN1
 }
 ;
-SVGString
+SVGAnimatedString
 mStringAttributes
 [
 2

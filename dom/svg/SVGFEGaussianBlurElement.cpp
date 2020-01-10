@@ -448,7 +448,7 @@ STD_DEV
 .
 ToDOMAnimatedNumber
 (
-SVGNumberPair
+SVGAnimatedNumberPair
 :
 :
 eFirst
@@ -475,7 +475,7 @@ STD_DEV
 .
 ToDOMAnimatedNumber
 (
-SVGNumberPair
+SVGAnimatedNumberPair
 :
 :
 eSecond
@@ -556,7 +556,7 @@ mNumberPairAttributes
 [
 STD_DEV
 ]
-SVGNumberPair
+SVGAnimatedNumberPair
 :
 :
 eFirst
@@ -579,7 +579,7 @@ mNumberPairAttributes
 [
 STD_DEV
 ]
-SVGNumberPair
+SVGAnimatedNumberPair
 :
 :
 eSecond

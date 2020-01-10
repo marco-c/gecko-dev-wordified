@@ -191,7 +191,7 @@ h
 #
 include
 "
-SVGOrient
+SVGAnimatedOrient
 .
 h
 "
@@ -2773,7 +2773,7 @@ angleUnit
 if
 (
 !
-SVGOrient
+SVGAnimatedOrient
 :
 :
 GetValueFromString
@@ -2834,7 +2834,7 @@ SVG_ANGLETYPE_RAD
 mRotateAngle
 *
 =
-SVGOrient
+SVGAnimatedOrient
 :
 :
 GetDegreesPerUnit
@@ -2842,7 +2842,7 @@ GetDegreesPerUnit
 angleUnit
 )
 /
-SVGOrient
+SVGAnimatedOrient
 :
 :
 GetDegreesPerUnit

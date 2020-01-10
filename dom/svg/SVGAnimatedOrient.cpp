@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-SVGOrient
+SVGAnimatedOrient
 .
 h
 "
@@ -270,7 +270,7 @@ grad
 static
 SVGAttrTearoffTable
 <
-SVGOrient
+SVGAnimatedOrient
 DOMSVGAnimatedEnumeration
 >
 sSVGAnimatedEnumTearoffTable
@@ -278,7 +278,7 @@ sSVGAnimatedEnumTearoffTable
 static
 SVGAttrTearoffTable
 <
-SVGOrient
+SVGAnimatedOrient
 DOMSVGAnimatedAngle
 >
 sSVGAnimatedAngleTearoffTable
@@ -286,7 +286,7 @@ sSVGAnimatedAngleTearoffTable
 static
 SVGAttrTearoffTable
 <
-SVGOrient
+SVGAnimatedOrient
 DOMSVGAngle
 >
 sBaseSVGAngleTearoffTable
@@ -294,7 +294,7 @@ sBaseSVGAngleTearoffTable
 static
 SVGAttrTearoffTable
 <
-SVGOrient
+SVGAnimatedOrient
 DOMSVGAngle
 >
 sAnimSVGAngleTearoffTable
@@ -409,7 +409,7 @@ public
 explicit
 AutoChangeOrientNotifier
 (
-SVGOrient
+SVGAnimatedOrient
 *
 aOrient
 SVGElement
@@ -512,7 +512,7 @@ AnimationNeedsResample
 }
 private
 :
-SVGOrient
+SVGAnimatedOrient
 *
 const
 mOrient
@@ -738,7 +738,7 @@ static
 *
 /
 bool
-SVGOrient
+SVGAnimatedOrient
 :
 :
 GetValueFromString
@@ -870,7 +870,7 @@ static
 *
 /
 float
-SVGOrient
+SVGAnimatedOrient
 :
 :
 GetDegreesPerUnit
@@ -938,7 +938,7 @@ return
 }
 }
 void
-SVGOrient
+SVGAnimatedOrient
 :
 :
 SetBaseValueInSpecifiedUnits
@@ -999,7 +999,7 @@ mBaseType
 }
 }
 nsresult
-SVGOrient
+SVGAnimatedOrient
 :
 :
 ConvertToSpecifiedUnits
@@ -1066,7 +1066,7 @@ NS_OK
 ;
 }
 nsresult
-SVGOrient
+SVGAnimatedOrient
 :
 :
 NewValueSpecifiedUnits
@@ -1171,7 +1171,7 @@ already_AddRefed
 <
 DOMSVGAngle
 >
-SVGOrient
+SVGAnimatedOrient
 :
 :
 ToDOMBaseVal
@@ -1234,7 +1234,7 @@ already_AddRefed
 <
 DOMSVGAngle
 >
-SVGOrient
+SVGAnimatedOrient
 :
 :
 ToDOMAnimVal
@@ -1347,7 +1347,7 @@ Implementation
 *
 /
 nsresult
-SVGOrient
+SVGAnimatedOrient
 :
 :
 SetBaseValueString
@@ -1559,7 +1559,7 @@ NS_OK
 ;
 }
 void
-SVGOrient
+SVGAnimatedOrient
 :
 :
 GetBaseValueString
@@ -1617,7 +1617,7 @@ mBaseValUnit
 ;
 }
 void
-SVGOrient
+SVGAnimatedOrient
 :
 :
 GetBaseAngleValueString
@@ -1637,7 +1637,7 @@ mBaseValUnit
 ;
 }
 void
-SVGOrient
+SVGAnimatedOrient
 :
 :
 GetAnimAngleValueString
@@ -1657,7 +1657,7 @@ mAnimValUnit
 ;
 }
 void
-SVGOrient
+SVGAnimatedOrient
 :
 :
 SetBaseValue
@@ -1747,7 +1747,7 @@ mBaseType
 }
 }
 nsresult
-SVGOrient
+SVGAnimatedOrient
 :
 :
 SetBaseType
@@ -1839,7 +1839,7 @@ NS_ERROR_DOM_TYPE_ERR
 ;
 }
 void
-SVGOrient
+SVGAnimatedOrient
 :
 :
 SetAnimValue
@@ -1904,7 +1904,7 @@ DidAnimateOrient
 ;
 }
 void
-SVGOrient
+SVGAnimatedOrient
 :
 :
 SetAnimType
@@ -1959,7 +1959,7 @@ already_AddRefed
 <
 DOMSVGAnimatedAngle
 >
-SVGOrient
+SVGAnimatedOrient
 :
 :
 ToDOMAnimatedAngle
@@ -2018,7 +2018,7 @@ already_AddRefed
 <
 DOMSVGAnimatedEnumeration
 >
-SVGOrient
+SVGAnimatedOrient
 :
 :
 ToDOMAnimatedEnum
@@ -2089,7 +2089,7 @@ mVal
 )
 ;
 }
-SVGOrient
+SVGAnimatedOrient
 :
 :
 DOMAnimatedEnum
@@ -2122,7 +2122,7 @@ to
 Web
 content
 uint16_t
-SVGOrient
+SVGAnimatedOrient
 :
 :
 DOMAnimatedEnum
@@ -2158,7 +2158,7 @@ UniquePtr
 <
 SMILAttr
 >
-SVGOrient
+SVGAnimatedOrient
 :
 :
 ToSMILAttr
@@ -2252,7 +2252,7 @@ nullptr
 ;
 }
 nsresult
-SVGOrient
+SVGAnimatedOrient
 :
 :
 SMILOrient
@@ -2458,7 +2458,7 @@ NS_OK
 ;
 }
 SMILValue
-SVGOrient
+SVGAnimatedOrient
 :
 :
 SMILOrient
@@ -2527,7 +2527,7 @@ val
 ;
 }
 void
-SVGOrient
+SVGAnimatedOrient
 :
 :
 SMILOrient
@@ -2592,7 +2592,7 @@ DidAnimateOrient
 }
 }
 nsresult
-SVGOrient
+SVGAnimatedOrient
 :
 :
 SMILOrient

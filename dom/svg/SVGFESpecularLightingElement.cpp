@@ -391,7 +391,7 @@ KERNEL_UNIT_LENGTH
 .
 ToDOMAnimatedNumber
 (
-SVGNumberPair
+SVGAnimatedNumberPair
 :
 :
 eFirst
@@ -418,7 +418,7 @@ KERNEL_UNIT_LENGTH
 .
 ToDOMAnimatedNumber
 (
-SVGNumberPair
+SVGAnimatedNumberPair
 :
 :
 eSecond

@@ -2606,7 +2606,7 @@ GetAnimValInSpecifiedUnits
 )
 ;
 }
-SVGViewBox
+SVGAnimatedViewBox
 *
 SVGViewportElement
 :

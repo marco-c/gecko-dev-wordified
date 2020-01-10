@@ -4688,7 +4688,7 @@ nullptr
 ;
 }
 const
-SVGViewBox
+SVGAnimatedViewBox
 &
 SVGSVGElement
 :

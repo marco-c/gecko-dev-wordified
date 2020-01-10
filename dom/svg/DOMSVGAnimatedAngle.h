@@ -147,7 +147,7 @@ namespace
 mozilla
 {
 class
-SVGOrient
+SVGAnimatedOrient
 ;
 namespace
 dom
@@ -174,7 +174,7 @@ DOMSVGAnimatedAngle
 )
 DOMSVGAnimatedAngle
 (
-SVGOrient
+SVGAnimatedOrient
 *
 aVal
 SVGElement
@@ -248,7 +248,7 @@ DOMSVGAnimatedAngle
 (
 )
 ;
-SVGOrient
+SVGAnimatedOrient
 *
 mVal
 ;

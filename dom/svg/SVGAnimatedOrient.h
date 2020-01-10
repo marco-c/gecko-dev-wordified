@@ -137,7 +137,7 @@ h
 #
 include
 "
-SVGEnum
+SVGAnimatedEnumeration
 .
 h
 "
@@ -229,7 +229,7 @@ SVGElement
 namespace
 dom
 class
-SVGOrient
+SVGAnimatedOrient
 {
 friend
 class
@@ -652,7 +652,7 @@ the
 wrapped
 class
 is
-SVGOrient
+SVGAnimatedOrient
 .
 struct
 DOMAnimatedEnum
@@ -666,7 +666,7 @@ DOMSVGAnimatedEnumeration
 {
 DOMAnimatedEnum
 (
-SVGOrient
+SVGAnimatedOrient
 *
 aVal
 SVGElement
@@ -689,7 +689,7 @@ DOMAnimatedEnum
 (
 )
 ;
-SVGOrient
+SVGAnimatedOrient
 *
 mVal
 ;
@@ -827,7 +827,7 @@ public
 :
 SMILOrient
 (
-SVGOrient
+SVGAnimatedOrient
 *
 aOrient
 SVGElement
@@ -880,7 +880,7 @@ die
 during
 that
 .
-SVGOrient
+SVGAnimatedOrient
 *
 mOrient
 ;

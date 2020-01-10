@@ -8214,7 +8214,7 @@ const
 gfxMatrix
 &
 aMatrix
-SVGEnum
+SVGAnimatedEnumeration
 *
 aUnits
 nsIFrame

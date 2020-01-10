@@ -123,7 +123,7 @@ mozilla_dom_SVGFECompositeElement_h
 #
 include
 "
-SVGEnum
+SVGAnimatedEnumeration
 .
 h
 "
@@ -304,7 +304,7 @@ const
 override
 ;
 virtual
-SVGString
+SVGAnimatedString
 &
 GetResultImageName
 (
@@ -469,7 +469,7 @@ enum
 OPERATOR
 }
 ;
-SVGEnum
+SVGAnimatedEnumeration
 mEnumAttributes
 [
 1
@@ -495,7 +495,7 @@ IN1
 IN2
 }
 ;
-SVGString
+SVGAnimatedString
 mStringAttributes
 [
 3

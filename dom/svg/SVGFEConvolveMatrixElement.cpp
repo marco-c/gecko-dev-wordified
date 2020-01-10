@@ -658,7 +658,7 @@ ORDER
 .
 ToDOMAnimatedInteger
 (
-SVGIntegerPair
+SVGAnimatedIntegerPair
 :
 :
 eFirst
@@ -685,7 +685,7 @@ ORDER
 .
 ToDOMAnimatedInteger
 (
-SVGIntegerPair
+SVGAnimatedIntegerPair
 :
 :
 eSecond
@@ -877,7 +877,7 @@ KERNEL_UNIT_LENGTH
 .
 ToDOMAnimatedNumber
 (
-SVGNumberPair
+SVGAnimatedNumberPair
 :
 :
 eFirst
@@ -904,7 +904,7 @@ KERNEL_UNIT_LENGTH
 .
 ToDOMAnimatedNumber
 (
-SVGNumberPair
+SVGAnimatedNumberPair
 :
 :
 eSecond
@@ -1009,7 +1009,7 @@ ORDER
 .
 GetAnimValue
 (
-SVGIntegerPair
+SVGAnimatedIntegerPair
 :
 :
 eFirst
@@ -1025,7 +1025,7 @@ ORDER
 .
 GetAnimValue
 (
-SVGIntegerPair
+SVGAnimatedIntegerPair
 :
 :
 eSecond

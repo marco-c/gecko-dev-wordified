@@ -2818,7 +2818,7 @@ gfxMatrix
 )
 )
 ;
-SVGEnum
+SVGAnimatedEnumeration
 *
 clipPathUnits
 =

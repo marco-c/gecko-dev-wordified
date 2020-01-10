@@ -1310,7 +1310,7 @@ bool
 IncludeBBoxScale
 (
 const
-SVGViewBox
+SVGAnimatedViewBox
 &
 aViewBox
 uint32_t
@@ -1504,7 +1504,7 @@ gfxRect
 *
 aBBox
 const
-SVGViewBox
+SVGAnimatedViewBox
 &
 aViewBox
 uint16_t
@@ -1792,7 +1792,7 @@ FirstChild
 )
 ;
 const
-SVGViewBox
+SVGAnimatedViewBox
 &
 viewBox
 =
@@ -3160,7 +3160,7 @@ nsIContent
 aDefault
 )
 {
-SVGEnum
+SVGAnimatedEnumeration
 &
 thisEnum
 =
@@ -3521,7 +3521,7 @@ GetConsolidationMatrix
 ;
 }
 const
-SVGViewBox
+SVGAnimatedViewBox
 &
 nsSVGPatternFrame
 :
@@ -3534,7 +3534,7 @@ aDefault
 )
 {
 const
-SVGViewBox
+SVGAnimatedViewBox
 &
 thisViewBox
 =
@@ -4434,7 +4434,7 @@ nsSVGPatternFrame
 ConstructCTM
 (
 const
-SVGViewBox
+SVGAnimatedViewBox
 &
 aViewBox
 uint16_t

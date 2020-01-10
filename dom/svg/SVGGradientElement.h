@@ -130,7 +130,7 @@ h
 #
 include
 "
-SVGEnum
+SVGAnimatedEnumeration
 .
 h
 "
@@ -144,7 +144,7 @@ h
 #
 include
 "
-SVGString
+SVGAnimatedString
 .
 h
 "
@@ -457,7 +457,7 @@ GRADIENTUNITS
 SPREADMETHOD
 }
 ;
-SVGEnum
+SVGAnimatedEnumeration
 mEnumAttributes
 [
 2
@@ -482,7 +482,7 @@ HREF
 XLINK_HREF
 }
 ;
-SVGString
+SVGAnimatedString
 mStringAttributes
 [
 2

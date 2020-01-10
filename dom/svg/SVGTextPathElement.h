@@ -123,7 +123,7 @@ mozilla_dom_SVGTextPathElement_h
 #
 include
 "
-SVGEnum
+SVGAnimatedEnumeration
 .
 h
 "
@@ -144,7 +144,7 @@ h
 #
 include
 "
-SVGString
+SVGAnimatedString
 .
 h
 "
@@ -485,14 +485,14 @@ SPACING
 SIDE
 }
 ;
-SVGEnum
+SVGAnimatedEnumeration
 mEnumAttributes
 [
 4
 ]
 ;
 virtual
-SVGEnum
+SVGAnimatedEnumeration
 *
 EnumAttributes
 (
@@ -534,7 +534,7 @@ HREF
 XLINK_HREF
 }
 ;
-SVGString
+SVGAnimatedString
 mStringAttributes
 [
 2

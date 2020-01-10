@@ -1376,7 +1376,7 @@ sEnumInfo
 )
 ;
 }
-SVGViewBox
+SVGAnimatedViewBox
 *
 SVGPatternElement
 :
