@@ -150,7 +150,7 @@ h
 namespace
 soundtouch
 {
-EXPORT
+SOUNDTOUCH_API
 soundtouch
 :
 :
@@ -160,7 +160,7 @@ createSoundTouchObj
 (
 )
 ;
-EXPORT
+SOUNDTOUCH_API
 void
 destroySoundTouchObj
 (
