@@ -37595,10 +37595,10 @@ is
 set
 if
 (
-nsContentUtils
+StaticPrefs
 :
 :
-UseActivityCursor
+ui_use_activity_cursor
 (
 )
 )
@@ -37712,10 +37712,10 @@ is
 set
 if
 (
-nsContentUtils
+StaticPrefs
 :
 :
-UseActivityCursor
+ui_use_activity_cursor
 (
 )
 )
