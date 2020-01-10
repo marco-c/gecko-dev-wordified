@@ -31228,11 +31228,11 @@ IPC_OK
 )
 ;
 }
-nsCOMPtr
+RefPtr
 <
-mozIDOMWindowProxy
+BrowsingContext
 >
-win
+bc
 ;
 aResult
 =
@@ -31255,7 +31255,7 @@ aTriggeringPrincipal
 aCsp
 getter_AddRefs
 (
-win
+bc
 )
 )
 ;

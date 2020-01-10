@@ -24543,7 +24543,7 @@ browser
 &
 browser
 .
-contentWindow
+browsingContext
 ;
 }
 createContentWindow
@@ -24580,7 +24580,7 @@ browser
 &
 browser
 .
-contentWindow
+browsingContext
 ;
 }
 openURIInFrame

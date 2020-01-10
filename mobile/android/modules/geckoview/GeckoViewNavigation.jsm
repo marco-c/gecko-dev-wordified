@@ -2027,7 +2027,7 @@ null
 return
 browser
 .
-contentWindow
+browsingContext
 ;
 }
 /
@@ -2371,7 +2371,7 @@ browser
 &
 browser
 .
-contentWindow
+browsingContext
 ;
 }
 /

@@ -668,7 +668,7 @@ aLoadState
 bool
 *
 aWindowIsNew
-mozIDOMWindowProxy
+BrowsingContext
 *
 *
 aReturn
