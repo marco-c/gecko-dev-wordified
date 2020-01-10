@@ -2666,16 +2666,6 @@ aImageKeys
 )
 override
 ;
-bool
-SupportsWrNativeTexture
-(
-)
-override
-{
-return
-true
-;
-}
 protected
 :
 bool

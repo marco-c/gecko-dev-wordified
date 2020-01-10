@@ -566,12 +566,6 @@ aImageKeys
 override
 ;
 bool
-SupportsWrNativeTexture
-(
-)
-override
-;
-bool
 NeedsYFlip
 (
 )

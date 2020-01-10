@@ -202,9 +202,6 @@ RenderBufferTextureHost
 class
 RenderTextureHostOGL
 ;
-class
-RenderTextureHostWrapper
-;
 void
 ActivateBindAndTexParameteri
 (
@@ -278,17 +275,6 @@ ClearCachedResources
 (
 )
 {
-}
-virtual
-RenderTextureHostWrapper
-*
-AsRenderTextureHostWrapper
-(
-)
-{
-return
-nullptr
-;
 }
 virtual
 void
