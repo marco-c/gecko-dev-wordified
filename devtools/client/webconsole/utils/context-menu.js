@@ -1057,9 +1057,9 @@ actor
 ;
 webConsoleUI
 .
-jsterm
+webConsoleClient
 .
-requestEvaluation
+evaluateJSAsync
 (
 evalString
 options
