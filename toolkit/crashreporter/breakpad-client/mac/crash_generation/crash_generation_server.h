@@ -379,7 +379,7 @@ exception_type
 int32_t
 exception_code
 ;
-int64_t
+int32_t
 exception_subcode
 ;
 int32_t

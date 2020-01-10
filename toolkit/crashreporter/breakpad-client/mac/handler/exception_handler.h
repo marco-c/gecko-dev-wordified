@@ -821,7 +821,7 @@ int
 exception_type
 int
 exception_code
-int64_t
+int
 exception_subcode
 mach_port_t
 thread_name
@@ -1437,7 +1437,7 @@ int
 exception_type
 int
 exception_code
-int64_t
+int
 exception_subcode
 breakpad_ucontext_t
 *
