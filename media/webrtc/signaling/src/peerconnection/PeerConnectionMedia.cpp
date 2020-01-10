@@ -667,7 +667,7 @@ SignalIceConnectionStateChange
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 :
 :
 Failed
@@ -3820,7 +3820,7 @@ IceGatheringStateChange_s
 dom
 :
 :
-PCImplIceGatheringState
+RTCIceGatheringState
 aState
 )
 {
@@ -3903,7 +3903,7 @@ IceConnectionStateChange_s
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 aState
 )
 {
@@ -4111,7 +4111,7 @@ IceGatheringStateChange_m
 dom
 :
 :
-PCImplIceGatheringState
+RTCIceGatheringState
 aState
 )
 {
@@ -4135,7 +4135,7 @@ IceConnectionStateChange_m
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 aState
 )
 {

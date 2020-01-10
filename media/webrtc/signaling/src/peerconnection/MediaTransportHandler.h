@@ -116,7 +116,7 @@ mozilla
 /
 dom
 /
-PeerConnectionImplEnumsBinding
+RTCPeerConnectionBinding
 .
 h
 "
@@ -931,7 +931,7 @@ signal1
 dom
 :
 :
-PCImplIceGatheringState
+RTCIceGatheringState
 >
 SignalGatheringStateChange
 ;
@@ -943,7 +943,7 @@ signal1
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 >
 SignalConnectionStateChange
 ;
@@ -1073,7 +1073,7 @@ OnGatheringStateChange
 dom
 :
 :
-PCImplIceGatheringState
+RTCIceGatheringState
 aState
 )
 ;
@@ -1083,7 +1083,7 @@ OnConnectionStateChange
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 aState
 )
 ;

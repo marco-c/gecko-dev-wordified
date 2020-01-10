@@ -6028,7 +6028,7 @@ IceConnectionState
 )
 =
 =
-PCImplIceConnectionState
+RTCIceConnectionState
 :
 :
 New

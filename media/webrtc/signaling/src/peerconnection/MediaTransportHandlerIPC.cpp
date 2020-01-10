@@ -2361,7 +2361,7 @@ static_cast
 dom
 :
 :
-PCImplIceGatheringState
+RTCIceGatheringState
 >
 (
 state
@@ -2420,7 +2420,7 @@ static_cast
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 >
 (
 state

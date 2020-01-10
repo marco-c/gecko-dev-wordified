@@ -238,17 +238,6 @@ mozilla
 /
 dom
 /
-PeerConnectionImplEnumsBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 RTCPeerConnectionBinding
 .
 h
@@ -1178,7 +1167,7 @@ IceConnectionStateChange
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 state
 )
 ;
@@ -1188,7 +1177,7 @@ IceGatheringStateChange
 dom
 :
 :
-PCImplIceGatheringState
+RTCIceGatheringState
 state
 )
 ;
@@ -2272,7 +2261,7 @@ mozilla
 dom
 :
 :
-PCImplSignalingState
+RTCSignalingState
 *
 aState
 )
@@ -2283,7 +2272,7 @@ mozilla
 dom
 :
 :
-PCImplSignalingState
+RTCSignalingState
 SignalingState
 (
 )
@@ -2294,7 +2283,7 @@ mozilla
 dom
 :
 :
-PCImplSignalingState
+RTCSignalingState
 state
 ;
 SignalingState
@@ -2316,7 +2305,7 @@ mozilla
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 *
 aState
 )
@@ -2327,7 +2316,7 @@ mozilla
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 IceConnectionState
 (
 )
@@ -2338,7 +2327,7 @@ mozilla
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 state
 ;
 IceConnectionState
@@ -2360,7 +2349,7 @@ mozilla
 dom
 :
 :
-PCImplIceGatheringState
+RTCIceGatheringState
 *
 aState
 )
@@ -2371,7 +2360,7 @@ mozilla
 dom
 :
 :
-PCImplIceGatheringState
+RTCIceGatheringState
 IceGatheringState
 (
 )
@@ -2382,7 +2371,7 @@ mozilla
 dom
 :
 :
-PCImplIceGatheringState
+RTCIceGatheringState
 state
 ;
 IceGatheringState
@@ -2577,7 +2566,7 @@ mozilla
 dom
 :
 :
-PCImplSignalingState
+RTCSignalingState
 aSignalingState
 bool
 rollback
@@ -3263,7 +3252,7 @@ mozilla
 dom
 :
 :
-PCImplSignalingState
+RTCSignalingState
 mSignalingState
 ;
 /
@@ -3276,7 +3265,7 @@ mozilla
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 mIceConnectionState
 ;
 mozilla
@@ -3285,7 +3274,7 @@ mozilla
 dom
 :
 :
-PCImplIceGatheringState
+RTCIceGatheringState
 mIceGatheringState
 ;
 nsCOMPtr
