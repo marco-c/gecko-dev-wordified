@@ -48071,16 +48071,6 @@ DrawMode
 :
 GLYPH_STROKE
 ;
-if
-(
-StaticPrefs
-:
-:
-layout_css_paint_order_enabled
-(
-)
-)
-{
 /
 /
 Check
@@ -48197,7 +48187,6 @@ paintOrder
 =
 NS_STYLE_PAINT_ORDER_BITWIDTH
 ;
-}
 }
 }
 /
