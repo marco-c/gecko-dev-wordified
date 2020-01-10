@@ -209,17 +209,6 @@ mozilla
 /
 dom
 /
-FunctionBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 WebComponentsBinding
 .
 h
@@ -272,9 +261,6 @@ CustomElementReaction
 ;
 class
 DocGroup
-;
-class
-Function
 ;
 class
 Promise
@@ -950,7 +936,7 @@ nsAtom
 aLocalName
 int32_t
 aNamespaceID
-Function
+CustomElementConstructor
 *
 aConstructor
 nsTArray
@@ -3450,7 +3436,7 @@ const
 nsAString
 &
 aName
-Function
+CustomElementConstructor
 &
 aFunctionConstructor
 const
