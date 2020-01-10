@@ -343,7 +343,7 @@ returned
 sources
 .
 const
-sources
+sourceInfo
 =
 await
 clientCommands
@@ -381,9 +381,9 @@ canRewind
 await
 actions
 .
-newSources
+newGeneratedSources
 (
-sources
+sourceInfo
 )
 ;
 /

@@ -119,7 +119,7 @@ utils
 ;
 import
 {
-newSources
+newGeneratedSources
 }
 from
 "
@@ -535,7 +535,7 @@ fetchSources
 ;
 dispatch
 (
-newSources
+newGeneratedSources
 (
 sources
 )
