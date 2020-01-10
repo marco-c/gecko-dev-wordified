@@ -553,7 +553,7 @@ GradientItem
 generic
 :
 :
-GradientItem
+GenericGradientItem
 <
 Color
 LengthPercentage
