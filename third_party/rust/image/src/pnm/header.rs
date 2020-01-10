@@ -1521,7 +1521,6 @@ writer
 :
 &
 mut
-dyn
 io
 :
 :
