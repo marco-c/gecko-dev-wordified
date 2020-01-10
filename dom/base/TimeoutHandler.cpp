@@ -409,7 +409,7 @@ TimeoutHandler
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsITimeoutHandler
+nsISupports
 )
 NS_INTERFACE_MAP_END
 /

@@ -522,13 +522,6 @@ h
 #
 include
 "
-nsITimeoutHandler
-.
-h
-"
-#
-include
-"
 nsISlowScriptDebug
 .
 h

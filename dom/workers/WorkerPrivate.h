@@ -293,9 +293,6 @@ h
 class
 nsIThreadInternal
 ;
-class
-nsITimeoutHandler
-;
 namespace
 mozilla
 {
@@ -354,6 +351,9 @@ PerformanceStorage
 ;
 class
 RemoteWorkerChild
+;
+class
+TimeoutHandler
 ;
 class
 WorkerControlRunnable
@@ -1228,7 +1228,7 @@ SetTimeout
 JSContext
 *
 aCx
-nsITimeoutHandler
+TimeoutHandler
 *
 aHandler
 int32_t
