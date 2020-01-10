@@ -629,12 +629,11 @@ true
 )
 {
 return
-Object
-.
-assign
-(
-CONTAINER_PREF_INSTALL_DEFAULTS
 {
+.
+.
+.
+CONTAINER_PREF_INSTALL_DEFAULTS
 "
 privacy
 .
@@ -645,7 +644,6 @@ extension
 :
 value
 }
-)
 ;
 }
 let
