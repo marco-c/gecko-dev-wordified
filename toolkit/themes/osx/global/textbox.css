@@ -361,10 +361,12 @@ box
 /
 textbox
 [
-type
+is
 =
 "
 search
+-
+textbox
 "
 ]
 {
