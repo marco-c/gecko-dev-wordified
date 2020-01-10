@@ -3413,6 +3413,17 @@ illustration
 .
 svg
 "
+icon_class
+:
+"
+cfr
+-
+doorhanger
+-
+large
+-
+icon
+"
 buttons
 :
 {
