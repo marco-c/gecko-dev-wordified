@@ -646,6 +646,16 @@ UI
 .
 EDITOR
 )
+editorWidth
+:
+getIntPref
+(
+PREFS
+.
+UI
+.
+EDITOR_WIDTH
+)
 timestampsVisible
 :
 getBoolPref
