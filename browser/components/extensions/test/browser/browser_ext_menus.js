@@ -801,7 +801,7 @@ is
 popup
 submenu
 .
-firstElementChild
+menupopup
 "
 Correct
 submenu
@@ -2286,7 +2286,7 @@ is
 popup
 submenu
 .
-firstElementChild
+menupopup
 "
 Correct
 submenu
@@ -3508,7 +3508,7 @@ is
 (
 submenu
 .
-firstElementChild
+menupopup
 .
 children
 .

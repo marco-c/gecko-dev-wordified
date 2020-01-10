@@ -1924,7 +1924,7 @@ topLevels
 0
 ]
 .
-firstElementChild
+menupopup
 "
 Correct
 submenu
@@ -2718,7 +2718,7 @@ topLevels
 0
 ]
 .
-firstElementChild
+menupopup
 "
 Correct
 submenu
