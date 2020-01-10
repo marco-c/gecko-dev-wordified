@@ -92,7 +92,7 @@ modules
 /
 desktop_capture
 /
-x11
+linux
 /
 x_server_pixel_buffer
 .
@@ -132,7 +132,7 @@ modules
 /
 desktop_capture
 /
-x11
+linux
 /
 window_list_utils
 .
@@ -145,7 +145,7 @@ modules
 /
 desktop_capture
 /
-x11
+linux
 /
 x_error_trap
 .
