@@ -5371,6 +5371,11 @@ aScaledFonts
 )
 ;
 }
+IntPoint
+(
+0
+0
+)
 )
 ;
 RefPtr
@@ -17465,6 +17470,11 @@ aScaledFonts
 )
 ;
 }
+IntPoint
+(
+0
+0
+)
 )
 ;
 RefPtr
@@ -18937,6 +18947,11 @@ aScaledFonts
 )
 ;
 }
+IntPoint
+(
+0
+0
+)
 )
 ;
 RefPtr
