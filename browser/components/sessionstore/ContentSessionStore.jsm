@@ -1941,8 +1941,6 @@ oldIndex
 }
 OnHistoryGotoIndex
 (
-index
-gotoURI
 )
 {
 /
@@ -1971,7 +1969,6 @@ kLastIndex
 }
 OnHistoryPurge
 (
-numEntries
 )
 {
 this
@@ -1983,8 +1980,6 @@ collect
 }
 OnHistoryReload
 (
-reloadURI
-reloadFlags
 )
 {
 this
@@ -1999,7 +1994,6 @@ true
 }
 OnHistoryReplaceEntry
 (
-index
 )
 {
 this

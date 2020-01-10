@@ -411,15 +411,6 @@ uint32_t
 aReloadFlags
 )
 ;
-nsresult
-GetCurrentURI
-(
-nsIURI
-*
-*
-aResultURI
-)
-;
 /
 /
 One
