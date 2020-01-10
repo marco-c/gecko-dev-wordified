@@ -166,6 +166,15 @@ include
 "
 mozilla
 /
+RangeUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SelectionState
 .
 h
@@ -9938,7 +9947,7 @@ nodeAfter
 nsresult
 rv
 =
-nsRange
+RangeUtils
 :
 :
 CompareNodeToRange

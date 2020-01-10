@@ -241,6 +241,15 @@ include
 "
 mozilla
 /
+RangeUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TextComposition
 .
 h
@@ -44713,7 +44722,7 @@ if
 brBlock
 )
 {
-nsRange
+RangeUtils
 :
 :
 CompareNodeToRange
@@ -62700,7 +62709,7 @@ NS_ERROR_FAILURE
 Use
 ranges
 and
-nsRange
+RangeUtils
 :
 :
 CompareNodeToRange
@@ -62790,7 +62799,7 @@ nodeAfter
 ;
 rv
 =
-nsRange
+RangeUtils
 :
 :
 CompareNodeToRange
