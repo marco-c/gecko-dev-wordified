@@ -1225,6 +1225,9 @@ aObserver
 nsIPrincipal
 *
 aLoaderPrincipal
+nsIReferrerInfo
+*
+aReferrerInfo
 nsINode
 *
 aRequestingNode
@@ -1338,6 +1341,10 @@ mLoaderPrincipal
 (
 aLoaderPrincipal
 )
+mReferrerInfo
+(
+aReferrerInfo
+)
 mRequestingNode
 (
 aRequestingNode
@@ -1383,6 +1390,9 @@ aObserver
 nsIPrincipal
 *
 aLoaderPrincipal
+nsIReferrerInfo
+*
+aReferrerInfo
 nsINode
 *
 aRequestingNode
@@ -1483,6 +1493,10 @@ aObserver
 mLoaderPrincipal
 (
 aLoaderPrincipal
+)
+mReferrerInfo
+(
+aReferrerInfo
 )
 mRequestingNode
 (
@@ -1590,6 +1604,9 @@ aObserver
 nsIPrincipal
 *
 aLoaderPrincipal
+nsIReferrerInfo
+*
+aReferrerInfo
 nsINode
 *
 aRequestingNode
@@ -1686,6 +1703,10 @@ aObserver
 mLoaderPrincipal
 (
 aLoaderPrincipal
+)
+mReferrerInfo
+(
+aReferrerInfo
 )
 mRequestingNode
 (
