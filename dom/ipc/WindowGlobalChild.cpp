@@ -654,6 +654,10 @@ chan
 >
 GetCrossOriginOpenerPolicy
 (
+nsILoadInfo
+:
+:
+OPENER_POLICY_NULL
 &
 policy
 )
