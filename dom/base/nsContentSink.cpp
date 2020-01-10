@@ -4746,7 +4746,7 @@ preload
 nsAttrValue
 asAttr
 ;
-Link
+HTMLLinkElement
 :
 :
 ParseAsValue
@@ -4757,7 +4757,7 @@ asAttr
 ;
 policyType
 =
-Link
+HTMLLinkElement
 :
 :
 AsValueToContentPolicy
