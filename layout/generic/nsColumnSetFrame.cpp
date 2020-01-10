@@ -5468,8 +5468,10 @@ PresContext
 aReflowInput
 child
 availSize
-&
+Some
+(
 kidCBSize
+)
 )
 ;
 kidReflowInput

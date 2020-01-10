@@ -1847,11 +1847,6 @@ Init
 &
 aPresContext
 cbSize
-.
-ptrOr
-(
-nullptr
-)
 pCollapseBorder
 pCollapsePadding
 )
@@ -2011,7 +2006,9 @@ aPresContext
 aOuterRI
 aChildFrame
 availSize
-nullptr
+Nothing
+(
+)
 ReflowInput
 :
 :
@@ -5115,7 +5112,9 @@ aPresContext
 aOuterRI
 aChildFrame
 availSize
-nullptr
+Nothing
+(
+)
 ReflowInput
 :
 :

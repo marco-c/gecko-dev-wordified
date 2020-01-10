@@ -3722,7 +3722,9 @@ wm
 availISize
 NS_UNCONSTRAINEDSIZE
 )
-nullptr
+Nothing
+(
+)
 ReflowInput
 :
 :
@@ -3745,7 +3747,9 @@ kidReflowInput
 Init
 (
 presContext
-nullptr
+Nothing
+(
+)
 nullptr
 &
 physicalPadding

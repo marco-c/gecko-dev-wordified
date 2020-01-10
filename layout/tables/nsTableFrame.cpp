@@ -20913,7 +20913,9 @@ aReflowInput
 Init
 (
 presContext
-nullptr
+Nothing
+(
+)
 pCollapseBorder
 &
 padding
@@ -21877,7 +21879,9 @@ aReflowInput
 reflowInput
 aFrame
 availSize
-nullptr
+Nothing
+(
+)
 ReflowInput
 :
 :
@@ -22064,7 +22068,9 @@ aReflowInput
 reflowInput
 aTfoot
 kidAvailSize
-nullptr
+Nothing
+(
+)
 ReflowInput
 :
 :
@@ -23187,7 +23193,9 @@ aReflowInput
 reflowInput
 kidFrame
 kidAvailSize
-nullptr
+Nothing
+(
+)
 ReflowInput
 :
 :
