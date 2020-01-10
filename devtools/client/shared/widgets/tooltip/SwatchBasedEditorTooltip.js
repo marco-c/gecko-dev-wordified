@@ -385,7 +385,9 @@ this
 .
 tooltip
 .
-topWindow
+doc
+.
+defaultView
 }
 )
 ;
