@@ -19065,7 +19065,7 @@ u
 "
 browser
 .
-slowstartup
+slowStartup
 .
 "
 )
