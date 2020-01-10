@@ -5129,7 +5129,6 @@ is
 specified
 but
 neither
-of
 filled
 nor
 open
