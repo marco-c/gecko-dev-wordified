@@ -20,14 +20,6 @@ js
 "
 )
 ;
-postMessage
-(
-"
-importScripts
-allowed
-"
-)
-;
 }
 catch
 (
