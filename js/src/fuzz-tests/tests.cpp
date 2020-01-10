@@ -259,11 +259,6 @@ setStreamsEnabled
 true
 )
 .
-setBigIntEnabled
-(
-true
-)
-.
 setFieldsEnabled
 (
 false
