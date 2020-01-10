@@ -16164,7 +16164,7 @@ gInstallDirPath
 /
 /
 Use
-50
+300
 retries
 for
 staging
@@ -16174,9 +16174,9 @@ lessen
 the
 likelihood
 of
+/
+/
 tests
-/
-/
 intermittently
 failing
 on
@@ -16186,10 +16186,10 @@ due
 to
 launching
 the
+/
+/
 updater
 .
-/
-/
 The
 total
 time
@@ -16202,11 +16202,11 @@ interval
 of
 100
 ms
+/
+/
 is
-/
-/
 approximately
-5
+30
 seconds
 .
 The
@@ -16236,7 +16236,7 @@ const
 int
 max_retries
 =
-50
+300
 ;
 int
 retries
