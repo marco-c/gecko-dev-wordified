@@ -196,7 +196,7 @@ waitFor
 >
 hud
 .
-jsterm
+ui
 .
 outputNode
 .
