@@ -3570,12 +3570,17 @@ pid
 )
 override
 ;
-virtual
 void
 ActorDestroy
 (
 ActorDestroyReason
 why
+)
+override
+;
+void
+ActorDealloc
+(
 )
 override
 ;
@@ -7111,7 +7116,7 @@ private
 /
 Released
 in
-ActorDestroy
+ActorDealloc
 ;
 deliberately
 not
