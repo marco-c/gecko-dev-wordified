@@ -290,7 +290,7 @@ repack
 -
 macosx64
 -
-nightly
+shippable
 '
     
 '
@@ -302,7 +302,7 @@ repack
 -
 macosx64
 -
-nightly
+shippable
 '
 )
 def
