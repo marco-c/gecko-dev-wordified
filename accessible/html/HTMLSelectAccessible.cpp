@@ -2985,6 +2985,10 @@ Shutdown
 {
 MOZ_ASSERT
 (
+!
+mDoc
+|
+|
 mDoc
 -
 >
