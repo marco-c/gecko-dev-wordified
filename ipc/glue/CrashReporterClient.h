@@ -218,12 +218,10 @@ message
 /
 /
 async
-InitCrashReporter
+SetCrashReporterClient
 (
 Shmem
 shmem
-NativeThreadId
-threadId
 )
 ;
 /
