@@ -90,7 +90,7 @@ react
 import
 {
 getSelectedSource
-getEmptyLines
+getBreakableLines
 }
 from
 "
@@ -146,7 +146,7 @@ Source
 editor
 :
 Object
-emptyLines
+breakableLines
 :
 Set
 <
@@ -248,7 +248,7 @@ disableEmptyLines
 {
 const
 {
-emptyLines
+breakableLines
 selectedSource
 editor
 }
@@ -298,7 +298,7 @@ lineHandle
 ;
 if
 (
-emptyLines
+breakableLines
 .
 has
 (
@@ -310,7 +310,7 @@ editor
 .
 codeMirror
 .
-addLineClass
+removeLineClass
 (
 lineHandle
 "
@@ -330,7 +330,7 @@ editor
 .
 codeMirror
 .
-removeLineClass
+addLineClass
 (
 lineHandle
 "
@@ -393,12 +393,12 @@ selectedSource
 ;
 }
 const
-emptyLines
+breakableLines
 =
 new
 Set
 (
-getEmptyLines
+getBreakableLines
 (
 state
 selectedSource
@@ -414,7 +414,7 @@ id
 return
 {
 selectedSource
-emptyLines
+breakableLines
 }
 ;
 }
