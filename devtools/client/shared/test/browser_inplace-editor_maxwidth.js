@@ -784,7 +784,7 @@ parseFloat
 (
 style
 .
-lineHeight
+fontSize
 )
 )
 ;
