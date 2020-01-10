@@ -10295,19 +10295,6 @@ release_config
 version
 '
 ]
-        
-'
-product
-'
-:
-task
-[
-'
-shipping
--
-product
-'
-]
     
 }
 payload_builder
