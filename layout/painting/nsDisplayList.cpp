@@ -16084,7 +16084,7 @@ mallocSizeOf
 n
 +
 =
-mWindowOpaqueRegion
+mRetainedWindowOpaqueRegion
 .
 SizeOfExcludingThis
 (
@@ -16534,7 +16534,7 @@ RemoveModifiedFramesAndRects
 (
 )
 ;
-mWindowOpaqueRegion
+mRetainedWindowOpaqueRegion
 .
 RemoveModifiedFramesAndRects
 (
@@ -16571,7 +16571,7 @@ Clear
 (
 )
 ;
-mWindowOpaqueRegion
+mRetainedWindowOpaqueRegion
 .
 Clear
 (
