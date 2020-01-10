@@ -150,6 +150,10 @@ foo
 exe
 "
 )
+.
+lower
+(
+)
         
 assert
 which
@@ -176,6 +180,10 @@ foo
 .
 exe
 "
+)
+.
+lower
+(
 )
         
 assert
@@ -213,6 +221,10 @@ bindir
 "
 foo
 "
+)
+.
+lower
+(
 )
         
 assert
@@ -275,6 +287,10 @@ bindir
 bar
 "
 )
+.
+lower
+(
+)
         
 assert
 which
@@ -301,6 +317,10 @@ baz
 .
 exe
 "
+)
+.
+lower
+(
 )
     
 else
