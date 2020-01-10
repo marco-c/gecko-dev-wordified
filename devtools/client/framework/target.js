@@ -262,13 +262,6 @@ target
 ;
 target
 .
-attachTab
-(
-tab
-)
-;
-target
-.
 once
 (
 "
@@ -579,6 +572,10 @@ FrameTargetActor
 '
 s
 Front
+which
+is
+a
+BrowsingContextTargetFront
 return
 client
 .
