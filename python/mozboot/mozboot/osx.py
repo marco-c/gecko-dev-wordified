@@ -2796,10 +2796,6 @@ tar
 '
             
 '
-llvm
-'
-            
-'
 mercurial
 '
             
@@ -3443,22 +3439,6 @@ nasm
             
 '
 yasm
-'
-            
-'
-llvm
--
-7
-.
-0
-'
-            
-'
-clang
--
-7
-.
-0
 '
         
 ]
@@ -4124,45 +4104,6 @@ mozboot
 import
 stylo
         
-#
-We
-installed
-clang
-via
-homebrew
-earlier
-.
-However
-on
-Android
-we
-'
-re
-        
-#
-seeing
-many
-compiler
-errors
-so
-we
-use
-our
-own
-toolchain
-clang
-.
-        
-if
-'
-mobile_android
-'
-in
-self
-.
-application
-:
-            
 self
 .
 install_toolchain_artifact
