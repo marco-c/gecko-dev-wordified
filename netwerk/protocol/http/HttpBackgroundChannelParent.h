@@ -189,6 +189,7 @@ HttpBackgroundChannelParent
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 HttpBackgroundChannelParent
+final
 )
 /
 /
