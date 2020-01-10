@@ -1556,6 +1556,11 @@ encrypted
 =
 false
 ;
+uint64_t
+httpChannelId
+=
+0
+;
 if
 (
 mChannel
@@ -1644,6 +1649,15 @@ IsEncrypted
 (
 )
 ;
+httpChannelId
+=
+channel
+-
+>
+HttpChannelId
+(
+)
+;
 }
 if
 (
@@ -1658,6 +1672,7 @@ protocol
 extensions
 effectiveURL
 encrypted
+httpChannelId
 )
 )
 {

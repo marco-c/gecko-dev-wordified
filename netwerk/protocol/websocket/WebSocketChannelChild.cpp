@@ -951,6 +951,8 @@ nsString
 aEffectiveURL
 bool
 aEncrypted
+uint64_t
+aHttpChannelId
 )
 :
 mProtocol
@@ -968,6 +970,10 @@ aEffectiveURL
 mEncrypted
 (
 aEncrypted
+)
+mHttpChannelId
+(
+aHttpChannelId
 )
 {
 }
@@ -989,6 +995,7 @@ mProtocol
 mExtensions
 mEffectiveURL
 mEncrypted
+mHttpChannelId
 )
 ;
 }
@@ -1005,6 +1012,9 @@ mEffectiveURL
 ;
 bool
 mEncrypted
+;
+uint64_t
+mHttpChannelId
 ;
 }
 ;
@@ -1036,6 +1046,10 @@ const
 bool
 &
 aEncrypted
+const
+uint64_t
+&
+aHttpChannelId
 )
 {
 mEventQ
@@ -1054,6 +1068,7 @@ aProtocol
 aExtensions
 aEffectiveURL
 aEncrypted
+aHttpChannelId
 )
 mTargetThread
 )
@@ -1087,6 +1102,10 @@ const
 bool
 &
 aEncrypted
+const
+uint64_t
+&
+aHttpChannelId
 )
 {
 LOG
@@ -1124,6 +1143,10 @@ aEffectiveURL
 mEncrypted
 =
 aEncrypted
+;
+mHttpChannelId
+=
+aHttpChannelId
 ;
 if
 (

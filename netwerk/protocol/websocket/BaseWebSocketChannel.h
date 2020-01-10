@@ -462,6 +462,15 @@ aNegotiatedExtensions
 )
 override
 ;
+NS_IMETHOD
+GetHttpChannelId
+(
+uint64_t
+*
+aHttpChannelId
+)
+override
+;
 /
 /
 Off
@@ -636,6 +645,9 @@ milliseconds
 /
 uint32_t
 mSerial
+;
+uint64_t
+mHttpChannelId
 ;
 }
 ;

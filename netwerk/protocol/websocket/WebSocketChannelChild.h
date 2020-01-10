@@ -348,6 +348,10 @@ const
 bool
 &
 aSecure
+const
+uint64_t
+&
+aHttpChannelId
 )
 ;
 mozilla
@@ -448,6 +452,10 @@ const
 bool
 &
 aSecure
+const
+uint64_t
+&
+aHttpChannelId
 )
 ;
 void
