@@ -1732,15 +1732,6 @@ this
 viewSourceProgressListener
 ;
 let
-referrerPolicy
-=
-Ci
-.
-nsIHttpChannel
-.
-REFERRER_POLICY_NO_REFERRER
-;
-let
 ssm
 =
 Services
@@ -1772,7 +1763,6 @@ uri
 principal
 null
 null
-referrerPolicy
 null
 null
 file
