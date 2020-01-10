@@ -7442,7 +7442,7 @@ STARTUP_PREF_BLANK
 {
 HomePage
 .
-set
+safeSet
 (
 "
 about
