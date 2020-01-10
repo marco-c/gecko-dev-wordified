@@ -446,6 +446,10 @@ message
 '
 :
 typo
+.
+strip
+(
+)
 +
 "
 =
