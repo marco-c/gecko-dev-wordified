@@ -470,6 +470,13 @@ resolve
 )
 ;
 }
+setup
+(
+(
+)
+=
+>
+{
 window
 .
 reporting_observer_instance
@@ -530,6 +537,9 @@ window
 reporting_observer_callback
 =
 null
+;
+}
+)
 ;
 /
 /
