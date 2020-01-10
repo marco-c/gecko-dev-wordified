@@ -197,7 +197,6 @@ blank
 }
 function
 (
-browser
 )
 {
 /

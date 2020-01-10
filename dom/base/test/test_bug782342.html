@@ -236,13 +236,13 @@ blob
 function
 checkHeaders
 (
-xhr
+xhrInner
 )
 {
 var
 headers
 =
-xhr
+xhrInner
 .
 getAllResponseHeaders
 (
@@ -398,7 +398,7 @@ headers
 var
 ct
 =
-xhr
+xhrInner
 .
 getResponseHeader
 (
@@ -432,7 +432,7 @@ ct
 var
 cl
 =
-xhr
+xhrInner
 .
 getResponseHeader
 (

@@ -281,7 +281,7 @@ ignored
 /
 for
 (
-var
+let
 i
 =
 0
@@ -351,7 +351,7 @@ values
 .
 for
 (
-var
+let
 i
 =
 0
@@ -429,6 +429,7 @@ use
 .
 for
 (
+let
 i
 =
 0
@@ -567,7 +568,7 @@ undefined
 .
 for
 (
-var
+let
 i
 =
 0
@@ -649,6 +650,7 @@ color
 .
 for
 (
+let
 i
 =
 0
