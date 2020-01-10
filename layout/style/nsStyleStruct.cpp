@@ -10072,7 +10072,9 @@ else
 hint
 |
 =
-nsChangeHint_AllReflowHints
+nsChangeHint_NeedReflow
+|
+nsChangeHint_ReflowChangesSizeOrPosition
 ;
 }
 }
