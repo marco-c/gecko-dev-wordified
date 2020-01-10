@@ -1832,6 +1832,10 @@ permission
 but
 only
 type
+and
+principal
+.
+appId
 will
 be
 used
@@ -1872,6 +1876,13 @@ principal
 originAttributes
 :
 {
+appId
+:
+permission
+.
+principal
+.
+appId
 }
 }
 type

@@ -463,6 +463,13 @@ ChromeUtils
 originAttributesToSuffix
 (
 {
+appId
+:
+Ci
+.
+nsIScriptSecurityManager
+.
+NO_APP_ID
 inIsolatedMozBrowser
 :
 false

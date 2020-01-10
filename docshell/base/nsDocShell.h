@@ -1155,6 +1155,11 @@ are
 shared
 with
 nsIDocShell
+(
+appID
+etc
+.
+)
 and
 can
 '
