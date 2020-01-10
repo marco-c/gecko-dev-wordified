@@ -385,12 +385,12 @@ object
 :
 PropTypes
 .
-obSject
+object
 name
 :
 PropTypes
 .
-sring
+string
 type
 :
 PropTypes
