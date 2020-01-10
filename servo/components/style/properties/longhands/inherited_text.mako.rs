@@ -1301,6 +1301,9 @@ wrap
 pre
 -
 line
+break
+-
+spaces
 "
 extra_gecko_values
 =
@@ -1428,6 +1431,11 @@ SpecifiedValue
 :
 :
 PreLine
+|
+SpecifiedValue
+:
+:
+BreakSpaces
 =
 >
 true
@@ -1474,6 +1482,11 @@ SpecifiedValue
 :
 :
 PreLine
+|
+SpecifiedValue
+:
+:
+BreakSpaces
 =
 >
 true
@@ -1520,6 +1533,11 @@ SpecifiedValue
 :
 :
 PreWrap
+|
+SpecifiedValue
+:
+:
+BreakSpaces
 =
 >
 true
