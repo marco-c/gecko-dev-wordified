@@ -113,7 +113,7 @@ nsIObserver
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSINETWORKLINKSERVICE
 NS_DECL_NSIOBSERVER
 nsNetworkLinkService
@@ -213,6 +213,12 @@ info
 ;
 void
 calculateNetworkId
+(
+void
+)
+;
+void
+calculateNetworkIdInternal
 (
 void
 )
