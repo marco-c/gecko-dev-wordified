@@ -2057,7 +2057,6 @@ function
 (
 aEvent
 aDisallowInherit
-aCount
 )
 {
 if
@@ -2176,18 +2175,6 @@ ex
 ;
 }
 }
-if
-(
-aCount
-)
-aCount
-.
-value
-=
-links
-.
-length
-;
 return
 links
 ;
