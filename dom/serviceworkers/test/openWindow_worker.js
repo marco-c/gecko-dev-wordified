@@ -882,7 +882,6 @@ then
 (
 function
 (
-e
 )
 {
 client

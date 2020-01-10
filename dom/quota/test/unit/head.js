@@ -1759,12 +1759,12 @@ callback
 =
 function
 (
-request
+req
 )
 {
 if
 (
-request
+req
 .
 resultCode
 =
@@ -1776,7 +1776,7 @@ NS_OK
 {
 resolve
 (
-request
+req
 .
 result
 )
@@ -1786,7 +1786,7 @@ else
 {
 reject
 (
-request
+req
 .
 resultCode
 )

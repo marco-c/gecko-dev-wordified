@@ -63,12 +63,12 @@ onmessage
 =
 function
 (
-event
+msg
 )
 {
 postMessage
 (
-event
+msg
 .
 data
 )
@@ -80,7 +80,7 @@ onerror
 =
 function
 (
-event
+error
 )
 {
 postMessage

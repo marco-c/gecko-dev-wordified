@@ -92,7 +92,11 @@ pong
 let
 {
 port1
+:
+newPort1
 port2
+:
+newPort2
 }
 =
 new
@@ -100,7 +104,7 @@ MessageChannel
 (
 )
 ;
-port2
+newPort2
 .
 onmessage
 =
@@ -143,7 +147,7 @@ postMessage
 hello
 "
 [
-port1
+newPort1
 ]
 )
 ;

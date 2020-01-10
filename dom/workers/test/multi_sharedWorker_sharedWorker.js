@@ -104,7 +104,7 @@ registeredPorts
 length
 )
 {
-var
+let
 data
 =
 {
@@ -141,12 +141,12 @@ onmessage
 =
 function
 (
-event
+msg
 )
 {
 switch
 (
-event
+msg
 .
 data
 .
@@ -181,7 +181,7 @@ store
 :
 storedData
 =
-event
+msg
 .
 data
 .

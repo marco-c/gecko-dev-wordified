@@ -83,7 +83,7 @@ message
 ;
 }
 function
-finish
+cleanUp
 (
 )
 {
@@ -172,7 +172,7 @@ test
 undefined
 )
 {
-finish
+cleanUp
 (
 )
 ;
@@ -250,14 +250,14 @@ port
 onmessage
 =
 (
-msg
+message
 )
 =
 >
 {
 is
 (
-msg
+message
 .
 data
 "
@@ -403,7 +403,7 @@ port
 onmessage
 =
 (
-msg
+message
 )
 =
 >

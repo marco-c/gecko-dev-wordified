@@ -74,12 +74,12 @@ onmessage
 =
 function
 (
-event
+e
 )
 {
 if
 (
-event
+e
 .
 data
 !

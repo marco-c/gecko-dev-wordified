@@ -2042,12 +2042,12 @@ wrapCallback
 (
 function
 (
-request
+req
 )
 {
 if
 (
-request
+req
 .
 resultCode
 =
@@ -2063,7 +2063,7 @@ NS_OK
 let
 result
 =
-request
+req
 .
 result
 ;
@@ -2155,7 +2155,7 @@ else
 {
 reject
 (
-request
+req
 .
 resultCode
 )

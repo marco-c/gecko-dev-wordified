@@ -2372,7 +2372,7 @@ if
 seenIndex
 )
 {
-var
+let
 body
 =
 "
