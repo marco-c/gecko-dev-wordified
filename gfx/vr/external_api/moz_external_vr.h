@@ -306,6 +306,16 @@ defined
 (
 __ANDROID__
 )
+#
+include
+<
+cstdint
+>
+#
+include
+<
+type_traits
+>
 namespace
 mozilla
 {
