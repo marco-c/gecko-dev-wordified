@@ -413,6 +413,12 @@ parent
 >
 BindComplete
 (
+/
+*
+aIsRoot
+*
+/
+true
 )
 ;
 sInstance

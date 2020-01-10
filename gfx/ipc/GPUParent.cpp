@@ -2016,6 +2016,12 @@ move
 (
 aEndpoint
 )
+/
+*
+aIsRoot
+*
+/
+true
 )
 ;
 return
@@ -2783,6 +2789,12 @@ move
 (
 aEndpoint
 )
+/
+*
+aIsRoot
+*
+/
+false
 )
 ;
 return

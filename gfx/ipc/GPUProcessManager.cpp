@@ -5197,6 +5197,12 @@ move
 (
 parentPipe
 )
+/
+*
+aIsRoot
+*
+/
+false
 )
 )
 {

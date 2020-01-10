@@ -258,6 +258,8 @@ PCompositorManagerParent
 &
 &
 aEndpoint
+bool
+aIsRoot
 )
 ;
 static
@@ -372,6 +374,8 @@ ReportMemoryResolver
 void
 BindComplete
 (
+bool
+aIsRoot
 )
 ;
 void
@@ -466,6 +470,8 @@ PCompositorManagerParent
 &
 &
 aEndpoint
+bool
+aIsRoot
 )
 ;
 void
