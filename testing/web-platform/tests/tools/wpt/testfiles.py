@@ -10,6 +10,8 @@ import
 subprocess
 import
 sys
+import
+six
 from
 collections
 import
@@ -3393,16 +3395,18 @@ Any
 )
 -
 >
-str
+bytes
     
 revish
 =
 kwargs
-[
+.
+get
+(
 "
 revish
 "
-]
+)
     
 if
 revish
@@ -3424,11 +3428,34 @@ branch_point
 (
 )
     
+if
+isinstance
+(
+revish
+six
+.
+text_type
+)
+:
+        
+revish
+=
+revish
+.
+encode
+(
+"
+utf8
+"
+)
+    
 assert
 isinstance
 (
 revish
-str
+six
+.
+binary_type
 )
     
 return
