@@ -3693,9 +3693,9 @@ purposes
 void
 RunPendingSourceCompressions
 (
-JSContext
+JSRuntime
 *
-cx
+runtime
 )
 ;
 class
