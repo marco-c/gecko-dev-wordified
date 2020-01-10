@@ -46,6 +46,8 @@ json
 assert_equals
 (
 result
+.
+default
 value
 )
 ;
@@ -85,6 +87,8 @@ json
 assert_array_equals
 (
 result
+.
+default
 [
 "
 en
