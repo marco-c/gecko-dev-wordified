@@ -226,6 +226,14 @@ l10n
 .
 pseudo
 "
+#
+define
+INTL_UI_DIRECTION_PREF
+"
+intl
+.
+uidirection
+"
 static
 const
 char
@@ -236,6 +244,7 @@ kObservedPrefs
 =
 {
 L10N_PSEUDO_PREF
+INTL_UI_DIRECTION_PREF
 nullptr
 }
 ;
@@ -828,6 +837,14 @@ pref
 EqualsLiteral
 (
 L10N_PSEUDO_PREF
+)
+|
+|
+pref
+.
+EqualsLiteral
+(
+INTL_UI_DIRECTION_PREF
 )
 )
 {
