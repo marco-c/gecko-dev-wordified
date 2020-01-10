@@ -344,6 +344,7 @@ timeStamp
 timestampsVisible
 topLevelClasses
 type
+message
 }
 )
 ;
