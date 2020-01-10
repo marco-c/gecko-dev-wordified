@@ -3819,11 +3819,13 @@ draft
 0x00
 .
 .
-0x02
+0x03
 are
 wait
 /
 wake
+/
+fence
 ops
 /
 /
@@ -3840,7 +3842,7 @@ for
 let
 i
 =
-3
+0x4
 ;
 i
 <

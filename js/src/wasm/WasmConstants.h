@@ -1607,6 +1607,9 @@ I32Wait
 I64Wait
 =
 0x02
+Fence
+=
+0x03
 /
 /
 Load
