@@ -615,10 +615,6 @@ null
 isExtension
 :
 false
-actors
-:
-[
-]
 .
 .
 .
