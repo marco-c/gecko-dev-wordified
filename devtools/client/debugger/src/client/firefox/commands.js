@@ -64,7 +64,7 @@ flow
 import
 {
 prepareSourcePayload
-createTarget
+createThread
 }
 from
 "
@@ -2182,7 +2182,7 @@ actor
 }
 async
 function
-fetchWorkers
+fetchThreads
 (
 )
 :
@@ -2334,7 +2334,7 @@ map
 id
 =
 >
-createTarget
+createThread
 (
 id
 targets
@@ -2606,7 +2606,7 @@ getFrameScopes
 pauseOnExceptions
 fetchSources
 registerSourceActor
-fetchWorkers
+fetchThreads
 getMainThread
 sendPacket
 setSkipPausing
