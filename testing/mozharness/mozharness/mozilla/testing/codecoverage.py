@@ -1202,10 +1202,35 @@ grcov_bin
 )
 :
             
+raise
+Exception
+(
+'
+File
+not
+found
+:
+{
+}
+'
+.
+format
+(
+                
+os
+.
+path
+.
+join
+(
 self
 .
-fetch_content
-(
+grcov_dir
+self
+.
+grcov_bin
+)
+)
 )
         
 if

@@ -4167,22 +4167,6 @@ None
 )
 :
         
-if
-'
-MOZ_FETCHES
-'
-in
-os
-.
-environ
-:
-            
-self
-.
-fetch_content
-(
-)
-        
 return
 super
 (

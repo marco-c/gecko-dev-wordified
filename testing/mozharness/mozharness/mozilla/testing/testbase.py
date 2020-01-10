@@ -151,14 +151,6 @@ mozharness
 .
 mozilla
 .
-fetches
-import
-FetchesMixin
-from
-mozharness
-.
-mozilla
-.
 structuredlog
 import
 StructuredOutputParser
@@ -839,7 +831,6 @@ ResourceMonitoringMixin
 TooltoolMixin
 TryToolsMixin
 VerifyToolsMixin
-FetchesMixin
 )
 :
     
