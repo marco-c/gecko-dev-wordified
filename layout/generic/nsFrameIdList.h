@@ -231,7 +231,7 @@ NotLeaf
 FRAME_ID
 (
 nsDocElementBoxFrame
-Box
+DocElementBox
 NotLeaf
 )
 FRAME_ID
