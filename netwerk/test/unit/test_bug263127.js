@@ -73,6 +73,7 @@ if
 !
 file
 )
+{
 do_throw
 (
 "
@@ -81,6 +82,7 @@ failed
 "
 )
 ;
+}
 try
 {
 file
@@ -120,6 +122,7 @@ do_test_finished
 ;
 }
 }
+;
 function
 run_test
 (
@@ -241,6 +244,7 @@ exists
 (
 )
 )
+{
 targetFile
 .
 remove
@@ -248,6 +252,7 @@ remove
 false
 )
 ;
+}
 var
 downloader
 =

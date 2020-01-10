@@ -689,7 +689,7 @@ resProto
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -703,7 +703,7 @@ protocol
 name
 =
 resource
-'
+"
 ]
 .
 getService

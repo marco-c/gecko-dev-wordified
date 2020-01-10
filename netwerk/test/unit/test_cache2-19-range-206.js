@@ -114,7 +114,6 @@ to
 the
 output
 stream
-(
 new
 OpenCallback
 (
@@ -142,7 +141,6 @@ setValid
 )
 ;
 }
-)
 )
 .
 onCacheEntryAvailable

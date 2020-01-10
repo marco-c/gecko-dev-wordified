@@ -405,6 +405,7 @@ null
 ;
 }
 }
+;
 function
 getCookieCount
 (

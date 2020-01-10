@@ -222,6 +222,7 @@ kOfflineDevice
 true
 ]
 ]
+;
 var
 store_idx
 ;
@@ -603,6 +604,7 @@ check_entries
 )
 ;
 }
+;
 if
 (
 !

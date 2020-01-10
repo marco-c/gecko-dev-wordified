@@ -415,6 +415,7 @@ nextTest
 =
 undefined
 )
+{
 do_throw
 (
 "
@@ -429,6 +430,7 @@ undefined
 "
 )
 ;
+}
 if
 (
 this
@@ -443,6 +445,7 @@ nextTest
 =
 undefined
 )
+{
 do_throw
 (
 "
@@ -457,6 +460,7 @@ undefined
 "
 )
 ;
+}
 run_test_number
 (
 nextTest

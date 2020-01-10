@@ -194,9 +194,9 @@ sstream
 .
 data
 =
-'
+"
 x
-'
+"
 .
 repeat
 (

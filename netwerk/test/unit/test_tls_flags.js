@@ -712,9 +712,7 @@ callbacks
 .
 forEach
 (
-(
 callback
-)
 =
 >
 {
@@ -934,9 +932,7 @@ securityObservers
 .
 forEach
 (
-(
 observer
-)
 =
 >
 {
@@ -951,6 +947,7 @@ stop
 ;
 }
 }
+;
 tlsServer
 .
 asyncListen
@@ -970,6 +967,7 @@ example
 .
 com
 "
+;
 function
 storeCertOverride
 (

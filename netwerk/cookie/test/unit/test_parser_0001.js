@@ -93,6 +93,7 @@ inChildProcess
 (
 )
 )
+{
 Services
 .
 prefs
@@ -109,6 +110,7 @@ cookieBehavior
 0
 )
 ;
+}
 let
 cs
 =

@@ -196,11 +196,13 @@ if
 (
 outer
 )
+{
 throw
 Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;
+}
 return
 this
 .
@@ -269,9 +271,11 @@ Ci
 nsIChannelEventSink
 )
 )
+{
 return
 this
 ;
+}
 throw
 Cr
 .
@@ -381,6 +385,7 @@ request
 originalURI
 )
 )
+{
 do_throw
 (
 "
@@ -415,6 +420,7 @@ spec
 "
 )
 ;
+}
 if
 (
 request
@@ -783,6 +789,7 @@ URL
 redirect
 "
 )
+;
 }
 else
 {

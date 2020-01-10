@@ -803,9 +803,7 @@ Assert
 notEqual
 (
 typeof
-(
 outstream
-)
 undefined
 )
 ;
@@ -882,9 +880,7 @@ Assert
 notEqual
 (
 typeof
-(
 instream
-)
 undefined
 )
 ;
@@ -1244,9 +1240,7 @@ Assert
 notEqual
 (
 typeof
-(
 sts
-)
 undefined
 )
 ;
@@ -1269,9 +1263,7 @@ Assert
 notEqual
 (
 typeof
-(
 transport
-)
 undefined
 )
 ;
@@ -1359,9 +1351,7 @@ Assert
 notEqual
 (
 typeof
-(
 outStream
-)
 undefined
 )
 ;
@@ -1370,9 +1360,7 @@ Assert
 notEqual
 (
 typeof
-(
 inStream
-)
 undefined
 )
 ;
@@ -1392,9 +1380,7 @@ Assert
 notEqual
 (
 typeof
-(
 callback
-)
 undefined
 )
 ;
@@ -1799,9 +1785,7 @@ Assert
 notEqual
 (
 typeof
-(
 sts
-)
 undefined
 )
 ;
@@ -1836,9 +1820,7 @@ Assert
 notEqual
 (
 typeof
-(
 pps
-)
 undefined
 )
 ;
@@ -1868,9 +1850,7 @@ Assert
 notEqual
 (
 typeof
-(
 proxyInfo
-)
 undefined
 )
 ;
@@ -1895,9 +1875,7 @@ Assert
 notEqual
 (
 typeof
-(
 transport
-)
 undefined
 )
 ;
@@ -1985,9 +1963,7 @@ Assert
 notEqual
 (
 typeof
-(
 outStream
-)
 undefined
 )
 ;
@@ -1996,9 +1972,7 @@ Assert
 notEqual
 (
 typeof
-(
 inStream
-)
 undefined
 )
 ;
@@ -2018,9 +1992,7 @@ Assert
 notEqual
 (
 typeof
-(
 callback
-)
 undefined
 )
 ;

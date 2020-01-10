@@ -267,11 +267,9 @@ cacheFlush
 !
 !
 (
-(
 classCode
 &
 0x8000
-)
 )
 ;
 classCode

@@ -117,11 +117,13 @@ length
 =
 1024
 )
+{
 data
 +
 =
 data
 ;
+}
 return
 data
 ;
@@ -750,6 +752,7 @@ null
 )
 ;
 }
+;
 }
 function
 TestCacheEntrySize
@@ -809,6 +812,7 @@ length
 >
 10
 )
+{
 firstRequest
 =
 repeatToLargerThan1K
@@ -816,6 +820,7 @@ repeatToLargerThan1K
 firstRequest
 )
 ;
+}
 if
 (
 secondExpectedReply
@@ -824,6 +829,7 @@ length
 >
 10
 )
+{
 secondExpectedReply
 =
 repeatToLargerThan1K
@@ -831,6 +837,8 @@ repeatToLargerThan1K
 secondExpectedReply
 )
 ;
+}
+(
 this
 .
 start
@@ -870,6 +878,8 @@ this
 )
 ;
 }
+)
+(
 this
 .
 initialLoad
@@ -925,6 +935,8 @@ ctx
 )
 ;
 }
+)
+(
 this
 .
 testAndTriggerNext
@@ -950,6 +962,8 @@ nextTest
 )
 ;
 }
+)
+;
 }
 function
 run_test

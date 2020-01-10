@@ -714,6 +714,7 @@ this
 id
 =
 id
+;
 }
 HttpResponseListener
 .
@@ -946,9 +947,9 @@ server
 .
 registerPathHandler
 (
-'
+"
 /
-'
+"
 function
 (
 metadata

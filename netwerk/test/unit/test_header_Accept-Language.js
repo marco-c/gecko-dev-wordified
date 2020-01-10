@@ -663,14 +663,12 @@ decimalPlaces
 0
 -
 (
-(
 1
 /
 acceptedLanguagesLength
 )
 *
 i
-)
 )
 .
 toFixed

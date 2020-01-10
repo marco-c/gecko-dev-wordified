@@ -2307,9 +2307,7 @@ runRawTests
 (
 tests
 resolve
-(
 idx
-)
 =
 >
 dump

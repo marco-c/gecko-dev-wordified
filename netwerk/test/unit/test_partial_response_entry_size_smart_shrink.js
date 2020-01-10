@@ -189,11 +189,13 @@ i
 +
 i
 )
+{
 responseBody
 +
 =
 responseBody
 ;
+}
 function
 contentHandler
 (
@@ -399,11 +401,9 @@ toString
 /
 "
 +
-(
 responseBody
 .
 length
-)
 .
 toString
 (

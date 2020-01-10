@@ -330,11 +330,11 @@ obs
 addObserver
 (
 networkActivity
-'
+"
 network
 -
 activity
-'
+"
 )
 ;
 /

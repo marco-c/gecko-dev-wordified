@@ -361,6 +361,7 @@ svc
 )
 {
 return
+(
 "
 "
 +
@@ -403,6 +404,7 @@ serviceName
 svc
 .
 port
+)
 ;
 }
 function
@@ -671,10 +673,8 @@ port
 svc
 .
 port
-)
 &
 &
-(
 this
 .
 serviceName
@@ -683,10 +683,8 @@ serviceName
 svc
 .
 serviceName
-)
 &
 &
-(
 this
 .
 serviceType
@@ -718,7 +716,6 @@ return
 name
 =
 =
-(
 this
 .
 serviceType
@@ -730,7 +727,6 @@ serviceType
 this
 .
 domainName
-)
 ;
 }
 clearAdvertiseTimer
@@ -1518,9 +1514,7 @@ _getSockets
 .
 then
 (
-(
 sockets
-)
 =
 >
 {
@@ -2188,9 +2182,7 @@ _getSockets
 .
 then
 (
-(
 sockets
-)
 =
 >
 {
@@ -2484,7 +2476,6 @@ if
 (
 msSinceAdv
 >
-(
 DEFAULT_TTL
 *
 1000
@@ -2492,7 +2483,6 @@ DEFAULT_TTL
 0
 .
 9
-)
 )
 {
 bcastServices
@@ -2537,7 +2527,6 @@ expiry
 let
 nextAdvWait
 =
-(
 DEFAULT_TTL
 *
 1000
@@ -2545,7 +2534,6 @@ DEFAULT_TTL
 0
 .
 95
-)
 -
 msSinceAdv
 ;
@@ -2809,9 +2797,7 @@ _getQuerySocket
 .
 then
 (
-(
 querySocket
-)
 =
 >
 {
@@ -2970,9 +2956,7 @@ listeners
 .
 forEach
 (
-(
 listener
-)
 =
 >
 {
@@ -3056,9 +3040,7 @@ QD
 .
 forEach
 (
-(
 record
-)
 =
 >
 {
@@ -3601,9 +3583,7 @@ srvRecords
 .
 forEach
 (
-(
 record
-)
 =
 >
 {
@@ -3650,9 +3630,7 @@ txtRecords
 .
 forEach
 (
-(
 record
-)
 =
 >
 {
@@ -3690,9 +3668,7 @@ aRecords
 .
 forEach
 (
-(
 record
-)
 =
 >
 {
@@ -3725,9 +3701,7 @@ ptrRecords
 .
 forEach
 (
-(
 record
-)
 =
 >
 {
@@ -3886,11 +3860,9 @@ now
 (
 )
 +
-(
 ttl
 *
 1000
-)
 ;
 let
 key
@@ -4017,9 +3989,7 @@ listeners
 .
 forEach
 (
-(
 listener
-)
 =
 >
 {
@@ -4457,9 +4427,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -4509,9 +4477,7 @@ _addresses
 .
 forEach
 (
-(
 address
-)
 =
 >
 {
@@ -4578,8 +4544,10 @@ size
 =
 0
 )
+{
 return
 ;
+}
 /
 /
 Don
@@ -4604,8 +4572,10 @@ size
 >
 0
 )
+{
 return
 ;
+}
 /
 /
 Don
@@ -4644,8 +4614,10 @@ size
 >
 0
 )
+{
 return
 ;
+}
 this
 .
 _closeSockets
@@ -4975,13 +4947,12 @@ aAddressArray
 .
 filter
 (
-(
 address
-)
 =
 >
 {
 return
+(
 !
 address
 .
@@ -5031,6 +5002,7 @@ address
 .
 1
 "
+)
 ;
 /
 /
@@ -5114,9 +5086,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

@@ -598,6 +598,7 @@ false
 }
 }
 }
+;
 var
 listener
 =
@@ -644,13 +645,11 @@ if
 (
 current_test
 <
-(
 tests
 .
 length
 -
 1
-)
 )
 {
 current_test

@@ -344,6 +344,7 @@ longer
 accessible
 in
 private
+(
 domain
 =
 {
@@ -351,6 +352,8 @@ value
 :
 kEmpty
 }
+)
+(
 user
 =
 {
@@ -358,6 +361,8 @@ value
 :
 kEmpty
 }
+)
+(
 pass
 =
 {
@@ -365,6 +370,7 @@ value
 :
 kEmpty
 }
+)
 ;
 try
 {
@@ -488,6 +494,7 @@ the
 private
 browsing
 mode
+(
 domain
 =
 {
@@ -495,6 +502,8 @@ value
 :
 kEmpty
 }
+)
+(
 user
 =
 {
@@ -502,6 +511,8 @@ value
 :
 kEmpty
 }
+)
+(
 pass
 =
 {
@@ -509,6 +520,7 @@ value
 :
 kEmpty
 }
+)
 ;
 am
 .
@@ -575,6 +587,7 @@ the
 private
 browsing
 mode
+(
 domain
 =
 {
@@ -582,6 +595,8 @@ value
 :
 kEmpty
 }
+)
+(
 user
 =
 {
@@ -589,6 +604,8 @@ value
 :
 kEmpty
 }
+)
+(
 pass
 =
 {
@@ -596,6 +613,7 @@ value
 :
 kEmpty
 }
+)
 ;
 am
 .
@@ -708,6 +726,7 @@ in
 any
 privacy
 state
+(
 domain
 =
 {
@@ -715,6 +734,8 @@ value
 :
 kEmpty
 }
+)
+(
 user
 =
 {
@@ -722,6 +743,8 @@ value
 :
 kEmpty
 }
+)
+(
 pass
 =
 {
@@ -729,6 +752,7 @@ value
 :
 kEmpty
 }
+)
 ;
 try
 {

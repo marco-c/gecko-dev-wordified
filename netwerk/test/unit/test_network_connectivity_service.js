@@ -136,9 +136,9 @@ typeof
 matchFunc
 !
 =
-'
+"
 function
-'
+"
 |
 |
 matchFunc
@@ -443,7 +443,6 @@ ms
 const
 kDNSv6Domain
 =
-(
 mozinfo
 .
 os
@@ -452,7 +451,6 @@ os
 "
 linux
 "
-)
 ?
 "
 ip6

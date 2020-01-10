@@ -155,6 +155,7 @@ length
 >
 0
 )
+;
 }
 catch
 (
@@ -181,6 +182,7 @@ resources
 +
 e
 )
+;
 }
 }
 function
@@ -201,8 +203,11 @@ css
 "
 ]
 )
+{
 check_file
 (
 file
 )
+;
+}
 }

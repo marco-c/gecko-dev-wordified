@@ -86,6 +86,7 @@ alt
 -
 data
 "
+;
 function
 run_test
 (

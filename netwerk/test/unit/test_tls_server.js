@@ -869,7 +869,7 @@ e
 .
 result
 &
-0xFFFF
+0xffff
 )
 ;
 if
@@ -1114,7 +1114,7 @@ e
 .
 result
 &
-0xFFFF
+0xffff
 )
 ;
 if

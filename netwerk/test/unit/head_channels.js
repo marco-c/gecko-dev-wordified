@@ -168,6 +168,7 @@ length
 =
 0
 )
+{
 do_throw
 (
 "
@@ -181,13 +182,14 @@ stream
 )
 ;
 }
+}
 return
 data
 .
 join
 (
-'
-'
+"
+"
 )
 ;
 }
@@ -483,6 +485,7 @@ this
 .
 _got_onstartrequest
 )
+{
 do_throw
 (
 "
@@ -494,6 +497,7 @@ event
 "
 )
 ;
+}
 this
 .
 _got_onstartrequest
@@ -580,6 +584,7 @@ _isFromCache
 &
 thrown
 )
+{
 do_throw
 (
 "
@@ -590,6 +595,7 @@ CacheEntryId
 "
 )
 ;
+}
 else
 if
 (
@@ -602,6 +608,7 @@ _isFromCache
 !
 thrown
 )
+{
 do_throw
 (
 "
@@ -614,6 +621,7 @@ CacheEntryId
 "
 )
 ;
+}
 request
 .
 QueryInterface
@@ -654,6 +662,7 @@ CL_ALLOW_UNKNOWN_CL
 )
 )
 )
+{
 do_throw
 (
 "
@@ -665,6 +674,7 @@ contentLength
 )
 ;
 }
+}
 if
 (
 !
@@ -674,6 +684,7 @@ isPending
 (
 )
 )
+{
 do_throw
 (
 "
@@ -689,6 +700,7 @@ onStartRequest
 "
 )
 ;
+}
 if
 (
 this
@@ -713,6 +725,7 @@ CL_ALLOW_UNKNOWN_CL
 )
 )
 )
+{
 do_throw
 (
 "
@@ -726,15 +739,14 @@ onStartRequest
 "
 )
 ;
+}
 if
-(
 (
 this
 .
 _flags
 &
 CL_FROM_CACHE
-)
 )
 {
 request
@@ -775,13 +787,11 @@ CL_FROM_CACHE
 }
 if
 (
-(
 this
 .
 _flags
 &
 CL_NOT_FROM_CACHE
-)
 )
 {
 request
@@ -896,6 +906,7 @@ this
 .
 _got_onstartrequest
 )
+{
 do_throw
 (
 "
@@ -907,12 +918,14 @@ event
 "
 )
 ;
+}
 if
 (
 this
 .
 _got_onstoprequest
 )
+{
 do_throw
 (
 "
@@ -924,6 +937,7 @@ event
 "
 )
 ;
+}
 if
 (
 !
@@ -933,6 +947,7 @@ isPending
 (
 )
 )
+{
 do_throw
 (
 "
@@ -948,6 +963,7 @@ onDataAvailable
 "
 )
 ;
+}
 if
 (
 this
@@ -956,6 +972,7 @@ _flags
 &
 CL_EXPECT_FAILURE
 )
+{
 do_throw
 (
 "
@@ -968,6 +985,7 @@ failure
 "
 )
 ;
+}
 if
 (
 current
@@ -989,6 +1007,7 @@ _flags
 CL_EXPECT_3S_DELAY
 )
 )
+{
 do_throw
 (
 "
@@ -1001,6 +1020,7 @@ delay
 "
 )
 ;
+}
 else
 if
 (
@@ -1019,6 +1039,7 @@ _flags
 &
 CL_EXPECT_3S_DELAY
 )
+{
 do_throw
 (
 "
@@ -1030,6 +1051,7 @@ expected
 "
 )
 ;
+}
 else
 if
 (
@@ -1049,6 +1071,7 @@ _flags
 &
 CL_EXPECT_3S_DELAY
 )
+{
 this
 .
 _flags
@@ -1057,6 +1080,7 @@ _flags
 ~
 CL_EXPECT_3S_DELAY
 ;
+}
 /
 /
 No
@@ -1131,6 +1155,7 @@ this
 .
 _got_onstartrequest
 )
+{
 do_throw
 (
 "
@@ -1142,12 +1167,14 @@ event
 "
 )
 ;
+}
 if
 (
 this
 .
 _got_onstoprequest
 )
+{
 do_throw
 (
 "
@@ -1159,6 +1186,7 @@ event
 "
 )
 ;
+}
 this
 .
 _got_onstoprequest
@@ -1166,7 +1194,6 @@ _got_onstoprequest
 true
 ;
 if
-(
 (
 this
 .
@@ -1177,11 +1204,11 @@ CL_EXPECT_FAILURE
 |
 CL_EXPECT_LATE_FAILURE
 )
-)
 &
 &
 success
 )
+{
 do_throw
 (
 "
@@ -1208,6 +1235,7 @@ toString
 "
 )
 ;
+}
 else
 if
 (
@@ -1228,6 +1256,7 @@ CL_EXPECT_LATE_FAILURE
 !
 success
 )
+{
 do_throw
 (
 "
@@ -1246,6 +1275,7 @@ toString
 )
 )
 ;
+}
 if
 (
 status
@@ -1255,6 +1285,7 @@ request
 .
 status
 )
+{
 do_throw
 (
 "
@@ -1272,6 +1303,7 @@ onStopRequest
 "
 )
 ;
+}
 if
 (
 request
@@ -1280,6 +1312,7 @@ isPending
 (
 )
 )
+{
 do_throw
 (
 "
@@ -1294,6 +1327,7 @@ onStopRequest
 "
 )
 ;
+}
 if
 (
 !
@@ -1330,6 +1364,7 @@ _contentLen
 -
 1
 )
+{
 Assert
 .
 equal
@@ -1343,6 +1378,8 @@ this
 .
 _contentLen
 )
+;
+}
 }
 catch
 (
@@ -1463,9 +1500,11 @@ Ci
 nsIChannelEventSink
 )
 )
+{
 return
 this
 ;
+}
 throw
 Cr
 .
@@ -1488,11 +1527,13 @@ _flags
 &
 ES_ABORT_REDIRECT
 )
+{
 throw
 Cr
 .
 NS_BINDING_ABORTED
 ;
+}
 callback
 .
 onRedirectVerifyCallback

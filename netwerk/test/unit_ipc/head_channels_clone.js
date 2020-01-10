@@ -23,7 +23,7 @@ ChromeUtils
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -35,7 +35,7 @@ modules
 NetUtil
 .
 jsm
-'
+"
 )
 ;
 var
@@ -47,7 +47,7 @@ ChromeUtils
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -59,7 +59,7 @@ modules
 XPCOMUtils
 .
 jsm
-'
+"
 )
 ;
 load

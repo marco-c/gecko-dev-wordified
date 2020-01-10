@@ -61,7 +61,6 @@ it
 '
 s
 content
-(
 new
 OpenCallback
 (
@@ -118,7 +117,6 @@ finish_cache2_test
 )
 ;
 }
-)
 )
 .
 onCacheEntryAvailable

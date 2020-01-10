@@ -24,7 +24,6 @@ Arg
 )
 {
 }
-;
 Arg
 .
 prototype

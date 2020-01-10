@@ -710,6 +710,7 @@ n
 )
 {
 return
+(
 actual_cookies
 .
 findIndex
@@ -733,6 +734,7 @@ n
 =
 -
 1
+)
 ;
 }
 )
@@ -750,6 +752,7 @@ c
 )
 {
 return
+(
 names
 .
 findIndex
@@ -773,6 +776,7 @@ n
 =
 -
 1
+)
 ;
 }
 )
@@ -863,10 +867,12 @@ b
 .
 lastAccessed
 )
+{
 return
 -
 1
 ;
+}
 if
 (
 a
@@ -877,9 +883,11 @@ b
 .
 lastAccessed
 )
+{
 return
 1
 ;
+}
 return
 0
 ;

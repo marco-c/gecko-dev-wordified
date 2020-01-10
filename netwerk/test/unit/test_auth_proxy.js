@@ -645,12 +645,14 @@ if
 (
 allOverAndDead
 )
+{
 throw
 "
 already
 canceled
 "
 ;
+}
 var
 ret
 =
@@ -668,6 +670,7 @@ if
 !
 ret
 )
+{
 callback
 .
 onAuthCancelled
@@ -676,7 +679,9 @@ context
 true
 )
 ;
+}
 else
+{
 callback
 .
 onAuthAvailable
@@ -685,6 +690,7 @@ context
 authInfo
 )
 ;
+}
 allOverAndDead
 =
 true
@@ -716,6 +722,7 @@ if
 (
 allOverAndDead
 )
+{
 throw
 "
 can
@@ -726,6 +733,7 @@ already
 ran
 "
 ;
+}
 callback
 .
 onAuthAvailable
@@ -923,6 +931,7 @@ this
 .
 prompt2
 )
+{
 this
 .
 prompt2
@@ -938,6 +947,7 @@ this
 hostFlags
 )
 ;
+}
 return
 this
 .
@@ -1011,7 +1021,6 @@ status
 )
 &
 &
-(
 this
 .
 expectedCode
@@ -1019,7 +1028,7 @@ expectedCode
 =
 407
 )
-)
+{
 do_throw
 (
 "
@@ -1033,6 +1042,7 @@ code
 "
 )
 ;
+}
 if
 (
 !
@@ -1044,6 +1054,7 @@ Ci
 nsIHttpChannel
 )
 )
+{
 do_throw
 (
 "
@@ -1054,6 +1065,7 @@ channel
 "
 )
 ;
+}
 Assert
 .
 equal
@@ -1194,13 +1206,11 @@ if
 (
 current_test
 <
-(
 tests
 .
 length
 -
 1
-)
 )
 {
 /
@@ -1286,6 +1296,7 @@ if
 !
 url
 )
+{
 url
 =
 "
@@ -1297,6 +1308,7 @@ somesite
 /
 "
 ;
+}
 return
 NetUtil
 .

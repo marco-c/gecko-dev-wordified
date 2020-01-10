@@ -783,9 +783,7 @@ parts
 .
 forEach
 (
-(
 part
-)
 =
 >
 {

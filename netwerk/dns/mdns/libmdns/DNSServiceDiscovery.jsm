@@ -118,7 +118,6 @@ ChromeUtils
 .
 import
 (
-(
 AppConstants
 .
 platform
@@ -143,7 +142,6 @@ mdns
 .
 use_js_fallback
 "
-)
 )
 ?
 "
@@ -999,7 +997,6 @@ nsICancelable
 )
 cancel
 :
-(
 function
 (
 )
@@ -1036,7 +1033,6 @@ listener
 )
 ;
 }
-)
 .
 bind
 (
@@ -1102,7 +1098,6 @@ nsICancelable
 )
 cancel
 :
-(
 function
 (
 )
@@ -1139,7 +1134,6 @@ listener
 )
 ;
 }
-)
 .
 bind
 (

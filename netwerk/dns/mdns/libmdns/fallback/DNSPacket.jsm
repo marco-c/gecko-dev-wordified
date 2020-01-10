@@ -2137,9 +2137,7 @@ DNS_PACKET_SECTION_TYPES
 .
 forEach
 (
-(
 sectionType
-)
 =
 >
 {
@@ -2239,9 +2237,7 @@ DNS_PACKET_SECTION_TYPES
 .
 forEach
 (
-(
 sectionType
-)
 =
 >
 {
@@ -2271,9 +2267,7 @@ DNS_PACKET_SECTION_TYPES
 .
 forEach
 (
-(
 sectionType
-)
 =
 >
 {
@@ -2439,9 +2433,7 @@ sectionTypes
 .
 forEach
 (
-(
 sectionType
-)
 =
 >
 {
@@ -2556,9 +2548,7 @@ DNS_PACKET_SECTION_TYPES
 .
 forEach
 (
-(
 sectionType
-)
 =
 >
 {
@@ -2588,9 +2578,7 @@ DNS_PACKET_SECTION_TYPES
 .
 forEach
 (
-(
 sectionType
-)
 =
 >
 {
@@ -2603,9 +2591,7 @@ sectionType
 .
 forEach
 (
-(
 record
-)
 =
 >
 {
@@ -2668,9 +2654,7 @@ DNS_PACKET_SECTION_TYPES
 .
 forEach
 (
-(
 sectionType
-)
 =
 >
 {
@@ -2696,9 +2680,7 @@ records
 .
 forEach
 (
-(
 record
-)
 =
 >
 {

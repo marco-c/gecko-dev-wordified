@@ -270,11 +270,13 @@ result
 =
 err
 )
+{
 do_throw
 (
 msg
 )
 ;
+}
 return
 ;
 }
@@ -420,6 +422,7 @@ bodyOutputStream
 =
 output
 )
+{
 response
 .
 write
@@ -431,7 +434,9 @@ changed
 "
 )
 ;
+}
 else
+{
 response
 .
 write
@@ -444,6 +449,7 @@ passed
 "
 )
 ;
+}
 response
 .
 finish

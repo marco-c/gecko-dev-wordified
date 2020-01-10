@@ -364,7 +364,6 @@ null
 ;
 }
 }
-;
 class
 UnxpectedAuthPrompt2
 {
@@ -414,7 +413,6 @@ ERROR_UNEXPECTED
 ;
 }
 }
-;
 class
 AuthRequestor
 {
@@ -477,7 +475,6 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
-;
 function
 make_channel
 (

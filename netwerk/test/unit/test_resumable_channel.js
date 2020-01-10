@@ -265,6 +265,7 @@ this
 .
 prompt2
 )
+{
 this
 .
 prompt2
@@ -274,6 +275,7 @@ AuthPrompt2
 (
 )
 ;
+}
 return
 this
 .
@@ -2780,7 +2782,6 @@ s
 var
 from
 =
-(
 matches
 [
 1
@@ -2789,7 +2790,6 @@ matches
 =
 =
 undefined
-)
 ?
 0
 :
@@ -2801,7 +2801,6 @@ matches
 var
 to
 =
-(
 matches
 [
 2
@@ -2810,7 +2809,6 @@ matches
 =
 =
 undefined
-)
 ?
 rangeBody
 .
@@ -2992,6 +2990,7 @@ Type
 "
 )
 )
+{
 response
 .
 setHeader
@@ -3016,6 +3015,7 @@ Type
 false
 )
 ;
+}
 response
 .
 bodyOutputStream

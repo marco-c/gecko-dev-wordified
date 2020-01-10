@@ -206,9 +206,9 @@ server
 .
 registerPathHandler
 (
-'
+"
 /
-'
+"
 function
 (
 metadata

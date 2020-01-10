@@ -305,11 +305,11 @@ http2
 const
 proxy_auth
 =
-'
+"
 authorization
 -
 token
-'
+"
 ;
 let
 proxy_isolation
@@ -434,7 +434,6 @@ null
 ;
 }
 }
-;
 class
 UnxpectedAuthPrompt2
 {
@@ -484,7 +483,6 @@ ERROR_UNEXPECTED
 ;
 }
 }
-;
 class
 AuthRequestor
 {
@@ -547,7 +545,6 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
-;
 function
 make_channel
 (

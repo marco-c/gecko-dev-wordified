@@ -251,6 +251,7 @@ nsIRequestObserver
 ]
 )
 }
+;
 function
 make_channel
 (

@@ -201,6 +201,7 @@ var
 dbg
 =
 1
+;
 function
 run_test
 (

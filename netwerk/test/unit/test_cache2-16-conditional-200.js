@@ -163,7 +163,6 @@ OpenCallback
 directly
 for
 it
-(
 new
 OpenCallback
 (
@@ -179,7 +178,6 @@ function
 )
 {
 }
-)
 )
 .
 onCacheEntryAvailable

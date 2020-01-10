@@ -547,6 +547,7 @@ pref
 name
 )
 )
+{
 prefs
 .
 clearUserPref
@@ -556,6 +557,7 @@ pref
 name
 )
 ;
+}
 }
 }
 }

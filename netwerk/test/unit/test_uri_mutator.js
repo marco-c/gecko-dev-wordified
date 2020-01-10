@@ -94,7 +94,7 @@ standardMutator
 return
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -108,7 +108,7 @@ url
 mutator
 ;
 1
-'
+"
 ]
 .
 createInstance

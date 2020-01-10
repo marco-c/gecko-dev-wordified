@@ -260,9 +260,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -359,9 +357,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -559,9 +555,11 @@ remote
 true
 "
 )
+{
 return
 browser
 ;
+}
 await
 BrowserTestUtils
 .

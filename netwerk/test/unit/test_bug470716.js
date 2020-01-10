@@ -520,7 +520,6 @@ test_result
 test_source_closed
 =
 (
-(
 test_nr
 -
 1
@@ -531,11 +530,9 @@ test_nr
 !
 =
 0
-)
 ;
 test_sink_closed
 =
-(
 (
 test_nr
 -
@@ -546,7 +543,6 @@ test_nr
 !
 =
 0
-)
 ;
 startCopier
 (
@@ -644,7 +640,6 @@ test_result
 test_source_closed
 =
 (
-(
 test_nr
 -
 5
@@ -655,11 +650,9 @@ test_nr
 !
 =
 0
-)
 ;
 test_sink_closed
 =
-(
 (
 test_nr
 -
@@ -670,7 +663,6 @@ test_nr
 !
 =
 0
-)
 ;
 startCopier
 (
@@ -770,7 +762,6 @@ test_result
 test_source_closed
 =
 (
-(
 test_nr
 -
 9
@@ -781,11 +772,9 @@ test_nr
 !
 =
 0
-)
 ;
 test_sink_closed
 =
-(
 (
 test_nr
 -
@@ -796,7 +785,6 @@ test_nr
 !
 =
 0
-)
 ;
 startCopier
 (

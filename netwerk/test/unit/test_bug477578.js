@@ -178,6 +178,7 @@ Foo
 "
 ]
 ]
+;
 function
 run_test
 (

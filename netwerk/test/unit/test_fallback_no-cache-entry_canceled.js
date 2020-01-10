@@ -703,7 +703,6 @@ chan
 .
 loadFlags
 =
-(
 Ci
 .
 nsIRequest
@@ -721,7 +720,6 @@ Ci
 nsICachingChannel
 .
 LOAD_ONLY_FROM_CACHE
-)
 ;
 chan
 .
@@ -766,6 +764,7 @@ CL_EXPECT_FAILURE
 ;
 }
 }
+;
 var
 os
 =

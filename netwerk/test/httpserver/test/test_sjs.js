@@ -628,6 +628,7 @@ if
 !
 throwing
 )
+{
 Assert
 .
 equal
@@ -641,6 +642,7 @@ data
 )
 )
 ;
+}
 }
 test
 =

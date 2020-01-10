@@ -790,6 +790,7 @@ i
 +
 +
 )
+{
 Assert
 .
 equal
@@ -814,6 +815,7 @@ value
 i
 )
 ;
+}
 }
 /
 /
@@ -909,6 +911,7 @@ metadata
 .
 queryString
 )
+{
 body
 +
 =
@@ -920,6 +923,7 @@ metadata
 .
 queryString
 ;
+}
 body
 +
 =
@@ -1169,6 +1173,7 @@ i
 +
 +
 )
+{
 response
 .
 setHeader
@@ -1189,4 +1194,5 @@ i
 false
 )
 ;
+}
 }

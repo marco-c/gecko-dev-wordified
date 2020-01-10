@@ -87,9 +87,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

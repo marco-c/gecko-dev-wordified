@@ -233,12 +233,12 @@ port
 ;
 info
 (
-'
+"
 server
 :
 listening
 on
-'
+"
 +
 this
 .
@@ -268,13 +268,13 @@ trans
 {
 info
 (
-'
+"
 server
 :
 got
 client
 connection
-'
+"
 )
 ;
 /
@@ -474,6 +474,7 @@ this
 .
 input
 )
+{
 try
 {
 this
@@ -491,12 +492,14 @@ ignore
 )
 {
 }
+}
 if
 (
 this
 .
 output
 )
+{
 try
 {
 this
@@ -513,6 +516,7 @@ catch
 ignore
 )
 {
+}
 }
 this
 .
@@ -843,6 +847,7 @@ ouput
 :
 null
 }
+;
 serv
 .
 acceptCallback
@@ -1107,7 +1112,7 @@ createTransport
 (
 [
 ]
-'
+"
 127
 .
 0
@@ -1115,7 +1120,7 @@ createTransport
 0
 .
 1
-'
+"
 serv
 .
 port

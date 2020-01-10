@@ -714,6 +714,7 @@ if
 (
 case_8_range_request
 )
+{
 Assert
 .
 equal
@@ -724,6 +725,7 @@ Cr
 NS_ERROR_CORRUPTED_CONTENT
 )
 ;
+}
 this
 .
 continueFn
@@ -2977,6 +2979,7 @@ numTestsFinished
 =
 7
 )
+{
 httpserver
 .
 stop
@@ -2984,6 +2987,7 @@ stop
 do_test_finished
 )
 ;
+}
 }
 function
 run_test

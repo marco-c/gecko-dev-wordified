@@ -702,7 +702,6 @@ chan
 .
 loadFlags
 =
-(
 Ci
 .
 nsIRequest
@@ -720,7 +719,6 @@ Ci
 nsICachingChannel
 .
 LOAD_ONLY_FROM_CACHE
-)
 ;
 var
 chanac
@@ -753,6 +751,7 @@ finish_test
 ;
 }
 }
+;
 var
 os
 =

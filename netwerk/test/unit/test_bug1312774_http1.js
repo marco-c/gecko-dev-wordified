@@ -598,8 +598,8 @@ this
 id
 =
 id
-}
 ;
+}
 var
 testOrder
 =
@@ -751,9 +751,9 @@ server
 .
 registerPathHandler
 (
-'
+"
 /
-'
+"
 function
 (
 metadata

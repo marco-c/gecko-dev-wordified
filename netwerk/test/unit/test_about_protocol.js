@@ -152,11 +152,13 @@ if
 (
 aOuter
 )
+{
 throw
 Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;
+}
 return
 unsafeAboutModule
 .

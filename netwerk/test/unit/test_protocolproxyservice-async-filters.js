@@ -476,6 +476,7 @@ flags
 -
 1
 )
+{
 Assert
 .
 equal
@@ -486,6 +487,7 @@ flags
 flags
 )
 ;
+}
 if
 (
 timeout
@@ -494,6 +496,7 @@ timeout
 -
 1
 )
+{
 Assert
 .
 equal
@@ -504,10 +507,12 @@ failoverTimeout
 timeout
 )
 ;
+}
 if
 (
 hasNext
 )
+{
 Assert
 .
 notEqual
@@ -518,7 +523,9 @@ failoverProxy
 null
 )
 ;
+}
 else
+{
 Assert
 .
 equal
@@ -529,6 +536,7 @@ failoverProxy
 null
 )
 ;
+}
 }
 const
 SYNC
@@ -691,17 +699,21 @@ if
 (
 pi
 )
+{
 pi
 .
 failoverProxy
 =
 pi_tail
 ;
+}
 else
+{
 pi
 =
 pi_tail
 ;
+}
 if
 (
 this
@@ -725,6 +737,7 @@ onProxyFilterResult
 (
 pi
 )
+;
 }
 )
 ;
