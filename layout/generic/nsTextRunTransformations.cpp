@@ -1877,6 +1877,8 @@ nsString
 aConvertedString
 bool
 aAllUppercase
+bool
+aCaseTransformsOnly
 const
 nsAtom
 *
@@ -4111,6 +4113,12 @@ break
 case
 NS_STYLE_TEXT_TRANSFORM_FULL_WIDTH
 :
+if
+(
+!
+aCaseTransformsOnly
+)
+{
 ch
 =
 mozilla
@@ -4124,6 +4132,7 @@ GetFullWidth
 ch
 )
 ;
+}
 break
 ;
 case
@@ -4288,6 +4297,12 @@ clang
 -
 format
 on
+if
+(
+!
+aCaseTransformsOnly
+)
+{
 size_t
 index
 ;
@@ -4323,6 +4338,7 @@ kFullSizeKanas
 index
 ]
 ;
+}
 }
 break
 ;
@@ -4617,6 +4633,13 @@ aTextRun
 mString
 convertedString
 mAllUppercase
+/
+*
+aCaseTransformsOnly
+=
+*
+/
+false
 nullptr
 charsToMergeArray
 deletedCharsArray
