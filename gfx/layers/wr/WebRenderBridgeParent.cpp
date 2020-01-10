@@ -6023,7 +6023,6 @@ aTxn
 SetDocumentView
 (
 rect
-widgetSize
 )
 ;
 }

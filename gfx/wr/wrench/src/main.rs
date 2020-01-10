@@ -1109,7 +1109,7 @@ self
 )
 -
 >
-FramebufferIntSize
+DeviceIntSize
 {
 fn
 inner_size
@@ -1124,7 +1124,7 @@ Window
 )
 -
 >
-FramebufferIntSize
+DeviceIntSize
 {
 let
 size
@@ -1148,7 +1148,7 @@ get_hidpi_factor
 )
 )
 ;
-FramebufferIntSize
+DeviceIntSize
 :
 :
 new
@@ -1215,7 +1215,7 @@ _
 )
 =
 >
-FramebufferIntSize
+DeviceIntSize
 :
 :
 new
@@ -1303,7 +1303,7 @@ mut
 self
 size
 :
-FramebufferIntSize
+DeviceIntSize
 )
 {
 match
@@ -1590,7 +1590,7 @@ make_window
 (
 size
 :
-FramebufferIntSize
+DeviceIntSize
 dp_ratio
 :
 Option
@@ -2941,7 +2941,7 @@ s
 720p
 "
 {
-FramebufferIntSize
+DeviceIntSize
 :
 :
 new
@@ -2959,7 +2959,7 @@ s
 1080p
 "
 {
-FramebufferIntSize
+DeviceIntSize
 :
 :
 new
@@ -2977,7 +2977,7 @@ s
 4k
 "
 {
-FramebufferIntSize
+DeviceIntSize
 :
 :
 new
@@ -3078,7 +3078,7 @@ height
 "
 )
 ;
-FramebufferIntSize
+DeviceIntSize
 :
 :
 new
@@ -3091,7 +3091,7 @@ h
 .
 unwrap_or
 (
-FramebufferIntSize
+DeviceIntSize
 :
 :
 new
@@ -4031,7 +4031,7 @@ mut
 WindowWrapper
 size
 :
-FramebufferIntSize
+DeviceIntSize
 events_loop
 :
 &
@@ -4183,7 +4183,7 @@ wrench
 .
 renderer
 .
-framebuffer_size
+device_size
 (
 )
 {
@@ -5690,6 +5690,26 @@ Continue
 {
 }
 let
+fb_rect
+=
+FramebufferIntSize
+:
+:
+new
+(
+size
+.
+width
+size
+.
+height
+)
+.
+into
+(
+)
+;
+let
 pixels
 =
 wrench
@@ -5698,11 +5718,7 @@ renderer
 .
 read_pixels_rgba8
 (
-size
-.
-into
-(
-)
+fb_rect
 )
 ;
 save_flipped

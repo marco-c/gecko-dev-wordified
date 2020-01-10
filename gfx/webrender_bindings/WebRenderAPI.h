@@ -620,10 +620,6 @@ const
 LayoutDeviceIntRect
 &
 aDocRect
-const
-LayoutDeviceIntSize
-&
-aWidgetSize
 )
 ;
 void

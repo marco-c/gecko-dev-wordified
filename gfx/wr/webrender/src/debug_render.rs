@@ -1846,7 +1846,7 @@ viewport_size
 :
 Option
 <
-FramebufferIntSize
+DeviceIntSize
 >
 scale
 :

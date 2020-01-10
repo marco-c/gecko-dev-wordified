@@ -14383,7 +14383,7 @@ texture_cache
 picture_tile_size
 (
 )
-FramebufferIntSize
+DeviceIntSize
 :
 :
 zero

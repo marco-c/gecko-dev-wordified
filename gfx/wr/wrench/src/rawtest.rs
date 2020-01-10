@@ -7465,7 +7465,7 @@ new
 let
 window_size
 =
-FramebufferIntSize
+DeviceIntSize
 :
 :
 new

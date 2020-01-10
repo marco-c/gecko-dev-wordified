@@ -587,9 +587,9 @@ txn
 &
 mut
 Transaction
-_framebuffer_size
+_device_size
 :
-FramebufferIntSize
+DeviceIntSize
 pipeline_id
 :
 PipelineId

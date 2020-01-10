@@ -7448,9 +7448,9 @@ on
 screen
 .
 pub
-framebuffer_rect
+device_rect
 :
-FramebufferIntRect
+DeviceIntRect
 pub
 background_color
 :

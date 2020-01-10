@@ -1486,9 +1486,9 @@ set_document_view
 &
 mut
 self
-framebuffer_rect
+device_rect
 :
-FramebufferIntRect
+DeviceIntRect
 device_pixel_ratio
 :
 f32
@@ -1505,7 +1505,7 @@ SceneMsg
 :
 SetDocumentView
 {
-framebuffer_rect
+device_rect
 device_pixel_ratio
 }
 )
@@ -3680,9 +3680,9 @@ bool
 }
 SetDocumentView
 {
-framebuffer_rect
+device_rect
 :
-FramebufferIntRect
+DeviceIntRect
 device_pixel_ratio
 :
 f32
@@ -4636,7 +4636,7 @@ size
 AddDocument
 (
 DocumentId
-FramebufferIntSize
+DeviceIntSize
 DocumentLayer
 )
 /
@@ -7002,7 +7002,7 @@ add_document
 self
 initial_size
 :
-FramebufferIntSize
+DeviceIntSize
 layer
 :
 DocumentLayer
@@ -7037,7 +7037,7 @@ add_document_with_id
 self
 initial_size
 :
-FramebufferIntSize
+DeviceIntSize
 layer
 :
 DocumentLayer
@@ -8587,9 +8587,9 @@ self
 document_id
 :
 DocumentId
-framebuffer_rect
+device_rect
 :
-FramebufferIntRect
+DeviceIntRect
 device_pixel_ratio
 :
 f32
@@ -8605,7 +8605,7 @@ SceneMsg
 :
 SetDocumentView
 {
-framebuffer_rect
+device_rect
 device_pixel_ratio
 }
 )
