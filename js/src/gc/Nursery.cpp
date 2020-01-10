@@ -833,8 +833,12 @@ Using
 the
 chunk
 pointers
+to
+build
+the
+queue
 is
-infalliable
+infallible
 .
 Chunk
 *
@@ -2277,7 +2281,7 @@ It
 '
 d
 be
-simplier
+simpler
 to
 poison
 the
@@ -2297,7 +2301,7 @@ the
 nursery
 might
 be
-partily
+partially
 used
 .
 chunk
