@@ -8074,15 +8074,6 @@ nsAutoWindowStateHelper
 windowStateHelper
 (
 parentWindow
-?
-parentWindow
--
->
-GetOuterWindow
-(
-)
-:
-nullptr
 )
 ;
 if
