@@ -113,13 +113,13 @@ expressions
 import
 type
 {
-DebuggeeState
+ThreadsState
 }
 from
 "
 .
 /
-debuggee
+threads
 "
 ;
 import
@@ -302,9 +302,9 @@ ExpressionState
 eventListenerBreakpoints
 :
 EventListenersState
-debuggee
+threads
 :
-DebuggeeState
+ThreadsState
 fileSearch
 :
 FileSearchState

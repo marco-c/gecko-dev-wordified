@@ -118,8 +118,8 @@ GeneratedSourceData
 Script
 SourceId
 SourceActor
-Worker
 Range
+Thread
 }
 from
 "
@@ -2188,7 +2188,7 @@ fetchThreads
 :
 Promise
 <
-Worker
+Thread
 [
 ]
 >

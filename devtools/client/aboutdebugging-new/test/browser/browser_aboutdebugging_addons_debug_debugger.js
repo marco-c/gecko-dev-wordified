@@ -311,14 +311,14 @@ getState
 (
 )
 .
-debuggee
+threads
 .
 isWebExtension
 "
 isWebExtension
 flag
 in
-debuggee
+threads
 is
 true
 "

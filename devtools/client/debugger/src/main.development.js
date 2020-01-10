@@ -208,17 +208,6 @@ focus
 )
 ;
 }
-openWorkerToolbox
-:
-worker
-=
->
-alert
-(
-worker
-.
-url
-)
 openElementInInspector
 :
 grip

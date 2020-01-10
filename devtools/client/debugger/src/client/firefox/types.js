@@ -114,7 +114,6 @@ PendingLocation
 Frame
 SourceId
 QueuedSourceData
-Worker
 Range
 }
 from
@@ -2026,16 +2025,6 @@ openLink
 url
 :
 string
-)
-=
->
-void
-openWorkerToolbox
-:
-(
-worker
-:
-Worker
 )
 =
 >

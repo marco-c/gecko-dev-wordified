@@ -132,7 +132,7 @@ from
 /
 reducers
 /
-debuggee
+threads
 "
 ;
 export

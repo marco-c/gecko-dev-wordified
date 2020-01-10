@@ -160,6 +160,8 @@ type
 {
 Context
 Thread
+as
+ThreadType
 }
 from
 "
@@ -190,7 +192,7 @@ isPaused
 boolean
 thread
 :
-Thread
+ThreadType
 currentThread
 :
 string
@@ -198,7 +200,7 @@ string
 ;
 export
 class
-Worker
+Thread
 extends
 Component
 <
@@ -291,7 +293,7 @@ className
 classnames
 (
 "
-worker
+thread
 "
 {
 selected
@@ -456,6 +458,6 @@ selectThread
 }
 )
 (
-Worker
+Thread
 )
 ;

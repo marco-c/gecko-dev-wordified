@@ -8081,11 +8081,11 @@ threadsPaneItems
 :
 "
 .
-workers
+threads
 -
 pane
 .
-worker
+thread
 "
 threadsPaneItem
 :
@@ -8093,11 +8093,11 @@ i
 =
 >
 .
-workers
+threads
 -
 pane
 .
-worker
+thread
 :
 nth
 -
