@@ -1831,6 +1831,9 @@ mParams
 ;
 aDistance
 =
+std
+:
+:
 fabs
 (
 a
