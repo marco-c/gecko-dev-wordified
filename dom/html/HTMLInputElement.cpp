@@ -17348,6 +17348,10 @@ HTMLInputElement
 :
 Focus
 (
+const
+FocusOptions
+&
+aOptions
 ErrorResult
 &
 aError
@@ -17412,6 +17416,7 @@ textControl
 >
 Focus
 (
+aOptions
 aError
 )
 ;
@@ -17494,6 +17499,7 @@ nsGenericHTMLElement
 :
 Focus
 (
+aOptions
 aError
 )
 ;
@@ -24380,6 +24386,9 @@ if
 selectedRadioButton
 )
 {
+FocusOptions
+options
+;
 ErrorResult
 error
 ;
@@ -24388,6 +24397,7 @@ selectedRadioButton
 >
 Focus
 (
+options
 error
 )
 ;

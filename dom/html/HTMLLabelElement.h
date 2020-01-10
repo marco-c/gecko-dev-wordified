@@ -299,9 +299,10 @@ virtual
 void
 Focus
 (
-mozilla
-:
-:
+const
+FocusOptions
+&
+aOptions
 ErrorResult
 &
 aError
