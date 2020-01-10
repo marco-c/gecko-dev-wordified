@@ -82,9 +82,7 @@ from
 "
 devtools
 -
-shared
--
-utils
+modules
 "
 ;
 /
