@@ -1450,6 +1450,11 @@ separator
 SearchBox
 (
 {
+type
+:
+"
+filter
+"
 placeholder
 :
 l10n

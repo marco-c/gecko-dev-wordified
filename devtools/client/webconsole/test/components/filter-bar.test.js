@@ -573,7 +573,7 @@ toBe
 "
 devtools
 -
-searchinput
+filterinput
 "
 )
 ;
@@ -2544,7 +2544,7 @@ find
 .
 devtools
 -
-searchinput
+filterinput
 "
 )
 ;

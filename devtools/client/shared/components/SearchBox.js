@@ -1064,6 +1064,10 @@ this
 inputRef
 value
 type
+:
+"
+search
+"
 }
 )
 showLearnMoreLink
