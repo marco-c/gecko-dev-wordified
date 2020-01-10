@@ -1381,7 +1381,7 @@ styleeditor
 "
 ordinal
 :
-4
+5
 visibilityswitch
 :
 "
@@ -1541,7 +1541,7 @@ performance
 "
 ordinal
 :
-7
+6
 icon
 :
 "
@@ -1924,7 +1924,7 @@ memory
 "
 ordinal
 :
-8
+7
 icon
 :
 "
@@ -2071,7 +2071,7 @@ accesskey
 )
 ordinal
 :
-9
+4
 visibilityswitch
 :
 "
@@ -2242,7 +2242,7 @@ storage
 "
 ordinal
 :
-10
+8
 accesskey
 :
 l10n
@@ -2567,7 +2567,7 @@ accesskey
 )
 ordinal
 :
-13
+11
 visibilityswitch
 :
 "
@@ -2742,7 +2742,7 @@ accesskey
 )
 ordinal
 :
-14
+9
 modifiers
 :
 osString
@@ -2932,7 +2932,7 @@ application
 "
 ordinal
 :
-15
+10
 visibilityswitch
 :
 "
