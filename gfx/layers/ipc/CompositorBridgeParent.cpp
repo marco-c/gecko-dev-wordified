@@ -14060,6 +14060,12 @@ root
 if
 (
 state
+&
+&
+state
+-
+>
+mParent
 )
 {
 LayersId
