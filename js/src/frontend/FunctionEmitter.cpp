@@ -1368,7 +1368,13 @@ index
 bce_
 -
 >
+perScriptData
+(
+)
+.
 objectList
+(
+)
 .
 add
 (
