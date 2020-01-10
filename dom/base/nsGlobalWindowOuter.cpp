@@ -13355,6 +13355,9 @@ nsISupports
 aState
 bool
 aForceReuseInnerWindow
+WindowGlobalChild
+*
+aActor
 )
 {
 MOZ_ASSERT
@@ -14319,6 +14322,7 @@ Create
 (
 this
 thisChrome
+aActor
 )
 ;
 if

@@ -2468,6 +2468,12 @@ OriginAttributes
 (
 )
 browsingContext
+nullptr
+/
+*
+initialWindowChild
+*
+/
 true
 /
 *
