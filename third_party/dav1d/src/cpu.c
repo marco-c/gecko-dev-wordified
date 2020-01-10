@@ -273,6 +273,7 @@ flags_mask
 -
 1
 ;
+COLD
 unsigned
 dav1d_get_cpu_flags
 (
@@ -343,6 +344,7 @@ flags
 flags_mask
 ;
 }
+COLD
 void
 dav1d_set_cpu_flags_mask
 (

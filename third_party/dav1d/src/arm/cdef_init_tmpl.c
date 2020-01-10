@@ -240,15 +240,6 @@ DAMAGE
 #
 include
 "
-common
-/
-attributes
-.
-h
-"
-#
-include
-"
 src
 /
 cpu
@@ -569,6 +560,7 @@ DEFINE_FILTER
 )
 #
 endif
+COLD
 void
 bitfn
 (

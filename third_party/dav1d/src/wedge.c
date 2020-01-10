@@ -1446,6 +1446,7 @@ w
 }
 }
 static
+COLD
 void
 init_chroma
 (
@@ -1589,6 +1590,7 @@ w
 }
 }
 static
+COLD
 void
 fill2d_16x2
 (
@@ -2227,6 +2229,7 @@ h
 ;
 }
 }
+COLD
 void
 dav1d_init_wedge_masks
 (
@@ -2987,6 +2990,7 @@ set
 undef
 set1
 static
+COLD
 void
 build_nondc_ii_masks
 (
@@ -3145,6 +3149,7 @@ step
 }
 }
 }
+COLD
 void
 dav1d_init_interintra_masks
 (

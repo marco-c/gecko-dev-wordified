@@ -264,15 +264,6 @@ h
 #
 include
 "
-common
-/
-attributes
-.
-h
-"
-#
-include
-"
 src
 /
 tables
@@ -2304,6 +2295,7 @@ BITDEPTH
 =
 =
 8
+COLD
 void
 bitfn
 (
