@@ -4157,6 +4157,16 @@ channelInfo
 earlyDataAccepted
 )
 ;
+infoObject
+-
+>
+SetResumed
+(
+channelInfo
+.
+resumed
+)
+;
 SSLCipherSuiteInfo
 cipherInfo
 ;
