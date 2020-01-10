@@ -717,8 +717,6 @@ nsITransportEventSink
 eventsink
 uint64_t
 topLevelOuterContentWindowId
-HttpTrafficCategory
-trafficCategory
 nsIAsyncInputStream
 *
 *
@@ -3080,9 +3078,6 @@ RefPtr
 SpdyConnectTransaction
 >
 mH2WSTransaction
-;
-HttpTrafficCategory
-mTrafficCategory
 ;
 }
 ;

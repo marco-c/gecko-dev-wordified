@@ -2701,11 +2701,6 @@ nsresult
 rv
 )
 ;
-HttpTrafficCategory
-CreateTrafficCategory
-(
-)
-;
 /
 *
 *
