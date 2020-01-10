@@ -2902,7 +2902,7 @@ Kinto
 .
 syncStrategy
 .
-SERVER_WINS
+PULL_ONLY
 ;
 syncResult
 =
@@ -2931,7 +2931,7 @@ ok
 /
 /
 With
-SERVER_WINS
+PULL_ONLY
 there
 cannot
 be
@@ -2950,7 +2950,7 @@ new
 Error
 (
 "
-Synced
+Sync
 failed
 "
 )
