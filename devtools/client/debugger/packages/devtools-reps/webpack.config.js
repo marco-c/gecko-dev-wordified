@@ -39,6 +39,7 @@ can
 obtain
 one
 at
+<
 http
 :
 /
@@ -53,6 +54,7 @@ MPL
 .
 0
 /
+>
 .
 *
 /
@@ -127,7 +129,7 @@ src
 "
 )
 ;
-let
+const
 webpackConfig
 =
 {

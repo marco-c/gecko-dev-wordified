@@ -636,7 +636,7 @@ expect
 onDOMNodeMouseOver
 )
 .
-toBeCalledWith
+toHaveBeenCalledWith
 (
 object
 )

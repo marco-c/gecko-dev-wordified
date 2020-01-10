@@ -158,7 +158,7 @@ console
 log
 )
 .
-toBeCalledWith
+toHaveBeenCalledWith
 (
 testErrorText
 testErrorObject
@@ -278,7 +278,7 @@ expect
 testMethod
 )
 .
-toBeCalledWith
+toHaveBeenCalledWith
 (
 testArgs
 expect
@@ -553,7 +553,7 @@ expect
 setTimeout
 )
 .
-toBeCalledWith
+toHaveBeenCalledWith
 (
 expect
 .

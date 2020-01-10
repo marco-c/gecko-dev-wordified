@@ -39,6 +39,7 @@ can
 obtain
 one
 at
+<
 http
 :
 /
@@ -53,6 +54,7 @@ MPL
 .
 0
 /
+>
 .
 *
 /
@@ -105,7 +107,7 @@ config
 "
 )
 ;
-let
+const
 webpackConfig
 =
 require
@@ -120,7 +122,7 @@ config
 "
 )
 ;
-let
+const
 {
 app
 }

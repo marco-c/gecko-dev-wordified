@@ -214,7 +214,7 @@ expect
 handleCloseSpy
 )
 .
-toBeCalled
+toHaveBeenCalled
 (
 )
 ;

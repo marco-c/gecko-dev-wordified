@@ -32,13 +32,14 @@ not
 distributed
 with
 this
-file
 *
+file
 You
 can
 obtain
 one
 at
+<
 http
 :
 /
@@ -53,6 +54,7 @@ MPL
 .
 0
 /
+>
 .
 *
 /

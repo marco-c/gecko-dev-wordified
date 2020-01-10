@@ -397,7 +397,7 @@ expect
 handleClickSpy
 )
 .
-toBeCalledWith
+toHaveBeenCalledWith
 (
 position
 true

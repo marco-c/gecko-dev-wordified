@@ -206,7 +206,7 @@ expect
 handleClickSpy
 )
 .
-toBeCalled
+toHaveBeenCalled
 (
 )
 ;

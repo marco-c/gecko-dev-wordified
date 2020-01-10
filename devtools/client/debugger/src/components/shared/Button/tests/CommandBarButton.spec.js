@@ -315,7 +315,7 @@ expect
 onClickSpy
 )
 .
-toBeCalled
+toHaveBeenCalled
 (
 )
 ;

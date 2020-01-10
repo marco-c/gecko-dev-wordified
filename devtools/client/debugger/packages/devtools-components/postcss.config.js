@@ -39,6 +39,7 @@ can
 obtain
 one
 at
+<
 http
 :
 /
@@ -53,6 +54,7 @@ MPL
 .
 0
 /
+>
 .
 *
 /
@@ -121,13 +123,12 @@ arrow
 .
 svg
 "
+{
 MC_PATH
-+
-"
+}
 arrow
 .
 svg
-"
 )
 ;
 }
@@ -150,13 +151,12 @@ arrow
 .
 svg
 "
+{
 EXPRESS_PATH
-+
-"
+}
 arrow
 .
 svg
-"
 )
 ;
 }

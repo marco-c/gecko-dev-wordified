@@ -1251,7 +1251,9 @@ toBeTruthy
 }
 )
 ;
-xit
+it
+.
+skip
 (
 "
 has

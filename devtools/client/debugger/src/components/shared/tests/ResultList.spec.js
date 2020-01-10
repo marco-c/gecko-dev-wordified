@@ -218,7 +218,7 @@ expect
 selectItem
 )
 .
-toBeCalled
+toHaveBeenCalled
 (
 )
 ;
