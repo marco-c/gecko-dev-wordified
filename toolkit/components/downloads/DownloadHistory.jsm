@@ -4803,11 +4803,6 @@ slotsForUrl
 /
 /
 nsINavHistoryResultObserver
-nodeAnnotationChanged
-(
-)
-{
-}
 nodeIconChanged
 (
 )

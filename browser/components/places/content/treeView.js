@@ -6198,11 +6198,6 @@ aNewKeyword
 )
 {
 }
-nodeAnnotationChanged
-(
-)
-{
-}
 nodeDateAddedChanged
 :
 function

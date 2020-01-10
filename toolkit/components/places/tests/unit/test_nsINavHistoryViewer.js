@@ -137,11 +137,6 @@ removedNode
 node
 ;
 }
-nodeAnnotationChanged
-(
-)
-{
-}
 newTitle
 :
 "
