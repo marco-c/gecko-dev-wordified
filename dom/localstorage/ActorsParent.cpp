@@ -32532,7 +32532,7 @@ mUsage
 0
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 mPeakUsage
 >
