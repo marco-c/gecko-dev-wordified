@@ -3274,6 +3274,8 @@ cross
 -
 origin
 307
+/
+308
 POST
 redirects
 .
@@ -3327,6 +3329,12 @@ responseStatus
 =
 =
 307
+|
+|
+responseStatus
+=
+=
+308
 )
 {
 nsAutoCString
