@@ -222,9 +222,10 @@ expected
 ;
 dbg
 .
-enabled
-=
-false
+removeDebuggee
+(
+g
+)
 ;
 }
 /

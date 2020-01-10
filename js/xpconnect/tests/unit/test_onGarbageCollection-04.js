@@ -411,13 +411,9 @@ debuggeree
 .
 dbg
 .
-enabled
-=
-dbg
-.
-enabled
-=
-false
+removeAllDebuggees
+(
+)
 ;
 do_test_finished
 (
