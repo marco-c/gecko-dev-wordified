@@ -612,7 +612,7 @@ console
 .
 error
 (
-msg
+exception
 )
 ;
 }
