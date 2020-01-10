@@ -1819,13 +1819,11 @@ true
 ;
 }
 return
-DOMPrefs
+StaticPrefs
 :
 :
 gfx_offscreencanvas_enabled
 (
-aCx
-aObj
 )
 ;
 }
