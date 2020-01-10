@@ -10174,7 +10174,7 @@ zoomable
 if
 (
 !
-GetScrollRangeForClamping
+GetVisualScrollRange
 (
 )
 .
@@ -15704,7 +15704,7 @@ aScrollPosition
 nsRect
 scrollRange
 =
-GetScrollRangeForClamping
+GetVisualScrollRange
 (
 )
 ;
@@ -16096,7 +16096,7 @@ GetScrollPosition
 )
 mDestination
 currentVelocity
-GetScrollRangeForClamping
+GetVisualScrollRange
 (
 )
 now
@@ -16143,7 +16143,7 @@ mAsyncSmoothMSDScroll
 >
 SetRange
 (
-GetScrollRangeForClamping
+GetVisualScrollRange
 (
 )
 )
@@ -18899,7 +18899,7 @@ pt
 ClampAndAlignWithLayerPixels
 (
 aPt
-GetScrollRangeForClamping
+GetVisualScrollRange
 (
 )
 aRange
@@ -22386,7 +22386,7 @@ range
 nsRect
 scrollRange
 =
-GetScrollRangeForClamping
+GetVisualScrollRange
 (
 )
 ;
@@ -28708,7 +28708,7 @@ nsRect
 ScrollFrameHelper
 :
 :
-GetScrollRangeForClamping
+GetVisualScrollRange
 (
 )
 const
@@ -30255,7 +30255,7 @@ aMode
 nsRect
 scrollRange
 =
-GetScrollRangeForClamping
+GetVisualScrollRange
 (
 )
 ;
@@ -45935,7 +45935,7 @@ GetScrollSnapInfo
 (
 )
 aUnit
-GetScrollRangeForClamping
+GetVisualScrollRange
 (
 )
 aStartPos
@@ -46153,7 +46153,7 @@ GetScrollPosition
 nsRect
 rangeRect
 =
-GetScrollRangeForClamping
+GetVisualScrollRange
 (
 )
 ;
@@ -47278,7 +47278,7 @@ APZ
 .
 mDestination
 =
-GetScrollRangeForClamping
+GetVisualScrollRange
 (
 )
 .

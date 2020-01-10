@@ -1766,7 +1766,7 @@ eSmoothMsd
 protected
 :
 nsRect
-GetScrollRangeForClamping
+GetVisualScrollRange
 (
 )
 const
