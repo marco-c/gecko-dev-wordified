@@ -3786,8 +3786,15 @@ GetFontStyle
 )
 const
 {
-StyleComputedFontStyleDescriptor
+auto
 descriptor
+=
+StyleComputedFontStyleDescriptor
+:
+:
+Normal
+(
+)
 ;
 if
 (

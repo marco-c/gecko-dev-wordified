@@ -1535,8 +1535,15 @@ ErrorResult
 aRv
 )
 {
-StyleComputedFontStyleDescriptor
+auto
 style
+=
+StyleComputedFontStyleDescriptor
+:
+:
+Normal
+(
+)
 ;
 float
 stretch
