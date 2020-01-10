@@ -1651,8 +1651,9 @@ LifoAlloc
 &
 astLifo
 )
-throw
+noexcept
 (
+true
 )
 {
 return
@@ -1680,8 +1681,9 @@ LifoAlloc
 &
 astLifo
 )
-throw
+noexcept
 (
+true
 )
 {
 return

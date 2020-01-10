@@ -575,7 +575,10 @@ aSize
 uint32_t
 aAttrCount
 )
-CPP_THROW_NEW
+noexcept
+(
+true
+)
 {
 size_t
 size

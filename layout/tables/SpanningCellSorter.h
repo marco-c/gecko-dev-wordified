@@ -601,7 +601,10 @@ new
 size_t
 sz
 )
-CPP_THROW_NEW
+noexcept
+(
+true
+)
 {
 return
 nullptr

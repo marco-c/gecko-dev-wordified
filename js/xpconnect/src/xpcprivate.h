@@ -7626,7 +7626,10 @@ void
 *
 p
 )
-CPP_THROW_NEW
+noexcept
+(
+true
+)
 {
 return
 p
@@ -8554,7 +8557,10 @@ void
 *
 p
 )
-CPP_THROW_NEW
+noexcept
+(
+true
+)
 {
 return
 p

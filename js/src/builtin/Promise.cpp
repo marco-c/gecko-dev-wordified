@@ -26999,8 +26999,9 @@ else
 {
 /
 /
-throw
+noexcept
 (
+true
 )
 steps
 5

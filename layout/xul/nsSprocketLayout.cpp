@@ -9607,7 +9607,10 @@ nsBoxLayoutState
 &
 aState
 )
-CPP_THROW_NEW
+noexcept
+(
+true
+)
 {
 return
 mozilla
@@ -9651,7 +9654,10 @@ nsBoxLayoutState
 &
 aState
 )
-CPP_THROW_NEW
+noexcept
+(
+true
+)
 {
 return
 mozilla

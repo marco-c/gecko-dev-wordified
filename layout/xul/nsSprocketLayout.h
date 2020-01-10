@@ -198,7 +198,10 @@ nsBoxLayoutState
 &
 aState
 )
-CPP_THROW_NEW
+noexcept
+(
+true
+)
 ;
 void
 operator
@@ -246,7 +249,10 @@ nsBoxLayoutState
 &
 aState
 )
-CPP_THROW_NEW
+noexcept
+(
+true
+)
 ;
 void
 operator

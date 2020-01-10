@@ -1195,7 +1195,10 @@ new
 (
 size_t
 )
-CPP_THROW_NEW
+noexcept
+(
+true
+)
 ;
 friend
 class
@@ -1378,7 +1381,10 @@ new
 (
 size_t
 )
-CPP_THROW_NEW
+noexcept
+(
+true
+)
 ;
 T
 mLock
