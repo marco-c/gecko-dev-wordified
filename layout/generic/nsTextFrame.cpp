@@ -41064,7 +41064,7 @@ wrShadow
 .
 should_inflate
 =
-false
+true
 ;
 wrShadow
 .
