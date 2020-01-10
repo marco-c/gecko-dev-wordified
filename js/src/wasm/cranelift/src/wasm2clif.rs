@@ -270,9 +270,15 @@ WasmResult
 }
 ;
 use
+crate
+:
+:
 bindings
 ;
 use
+crate
+:
+:
 compile
 :
 :

@@ -228,9 +228,15 @@ WasmResult
 }
 ;
 use
+crate
+:
+:
 compile
 ;
 use
+crate
+:
+:
 utils
 :
 :
