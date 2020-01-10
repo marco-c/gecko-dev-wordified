@@ -3542,7 +3542,7 @@ created
 additional
 zones
 .
-schedulegc
+schedulezone
 (
 vals
 )

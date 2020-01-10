@@ -27,7 +27,7 @@ eager
 gc
 (
 )
-schedulegc
+schedulezone
 (
 this
 )

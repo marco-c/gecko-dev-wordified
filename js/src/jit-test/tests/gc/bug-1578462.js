@@ -10,13 +10,12 @@ skip
 if
 :
 !
-(
-'
-gcstate
-'
-in
-this
-)
+hasFunction
+[
+"
+gczeal
+"
+]
 /
 /
 Check
@@ -221,7 +220,7 @@ ends
 up
 black
 .
-schedulegc
+schedulezone
 (
 this
 )
@@ -344,7 +343,7 @@ during
 gray
 marking
 .
-schedulegc
+schedulezone
 (
 this
 )

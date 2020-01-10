@@ -42,12 +42,12 @@ atom
 "
 )
 ;
-schedulegc
+schedulezone
 (
 this
 )
 ;
-schedulegc
+schedulezone
 (
 '
 atoms

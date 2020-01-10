@@ -18,7 +18,7 @@ helperThreadCount
 0
 evalInWorker
 (
-schedulegc
+schedulezone
 (
 "
 s1

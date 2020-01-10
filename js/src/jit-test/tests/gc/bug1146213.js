@@ -42,7 +42,7 @@ majorGC
 }
 )
 ;
-schedulegc
+schedulezone
 (
 this
 )

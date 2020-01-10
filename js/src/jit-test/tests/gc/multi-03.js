@@ -34,12 +34,12 @@ newGlobal
 (
 )
 ;
-schedulegc
+schedulezone
 (
 g1
 )
 ;
-schedulegc
+schedulezone
 (
 g2
 )
@@ -60,7 +60,7 @@ t
 mark
 anything
 .
-schedulegc
+schedulezone
 (
 g1
 )

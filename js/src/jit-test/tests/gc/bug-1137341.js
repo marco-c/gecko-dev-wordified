@@ -25,7 +25,7 @@ gc
 (
 )
 ;
-schedulegc
+schedulezone
 (
 this
 )
