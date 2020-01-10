@@ -309,8 +309,11 @@ getLog
 (
 )
 ;
+window
+.
+onload
+=
 function
-onLoad
 (
 )
 {
@@ -485,6 +488,7 @@ error
 )
 ;
 }
+;
 function
 onClearLog
 (
