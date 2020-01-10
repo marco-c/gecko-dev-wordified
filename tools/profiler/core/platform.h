@@ -993,6 +993,10 @@ char
 aFeatures
 uint32_t
 aFeatureCount
+bool
+aIsStartup
+=
+false
 )
 ;
 void
