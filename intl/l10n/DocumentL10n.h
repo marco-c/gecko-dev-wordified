@@ -811,6 +811,17 @@ InitialDocumentTranslationCompleted
 (
 )
 ;
+Document
+*
+GetDocument
+(
+)
+{
+return
+mDocument
+;
+}
+;
 }
 ;
 }
