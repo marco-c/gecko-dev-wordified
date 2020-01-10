@@ -24332,12 +24332,6 @@ case
 MIRType
 :
 :
-SinCosDouble
-:
-case
-MIRType
-:
-:
 Int64
 :
 case
