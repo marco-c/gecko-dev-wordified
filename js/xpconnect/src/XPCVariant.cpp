@@ -2855,6 +2855,7 @@ XPCConvert
 :
 NativeData2JS
 (
+cx
 pJSVal
 (
 const
@@ -2908,6 +2909,7 @@ XPCConvert
 :
 NativeData2JS
 (
+cx
 pJSVal
 (
 const
@@ -2965,6 +2967,7 @@ XPCConvert
 :
 NativeData2JS
 (
+cx
 pJSVal
 (
 const
@@ -3017,6 +3020,7 @@ XPCConvert
 :
 NativeData2JS
 (
+cx
 pJSVal
 &
 astring
@@ -3064,6 +3068,7 @@ XPCConvert
 :
 NativeData2JS
 (
+cx
 pJSVal
 &
 cString
@@ -3111,6 +3116,7 @@ XPCConvert
 :
 NativeData2JS
 (
+cx
 pJSVal
 &
 utf8String
@@ -3162,6 +3168,7 @@ XPCConvert
 :
 NativeData2JS
 (
+cx
 pJSVal
 (
 const
@@ -3231,6 +3238,7 @@ XPCConvert
 :
 NativeData2JS
 (
+cx
 pJSVal
 (
 const
@@ -3295,6 +3303,7 @@ XPCConvert
 :
 NativeData2JS
 (
+cx
 pJSVal
 (
 const
@@ -3364,6 +3373,7 @@ XPCConvert
 :
 NativeData2JS
 (
+cx
 pJSVal
 (
 const
@@ -3459,6 +3469,7 @@ XPCConvert
 :
 NativeData2JS
 (
+cx
 pJSVal
 (
 const
@@ -4038,6 +4049,7 @@ XPCConvert
 :
 NativeData2JS
 (
+cx
 pJSVal
 (
 const

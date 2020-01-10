@@ -904,6 +904,9 @@ XPCConvert
 :
 NativeData2JS
 (
+JSContext
+*
+cx
 MutableHandleValue
 d
 const
@@ -933,9 +936,6 @@ bad
 param
 "
 )
-;
-AutoJSContext
-cx
 ;
 if
 (
@@ -9528,6 +9528,7 @@ if
 !
 NativeData2JS
 (
+cx
 &
 current
 type

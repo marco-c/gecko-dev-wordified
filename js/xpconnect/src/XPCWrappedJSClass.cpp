@@ -6863,6 +6863,7 @@ XPCConvert
 :
 NativeData2JS
 (
+cx
 &
 val
 pv
