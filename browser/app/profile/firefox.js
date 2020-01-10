@@ -12092,7 +12092,7 @@ mac
 .
 earlyinit
 "
-false
+true
 )
 ;
 /
