@@ -5078,7 +5078,7 @@ nsUpdateProcessor
 FixUpdateDirectoryPerms
 (
 bool
-aShouldUseService
+aUseServiceOnFailure
 )
 {
 #
@@ -5118,7 +5118,7 @@ char
 *
 aName
 bool
-aShouldUseService
+aUseServiceOnFailure
 const
 nsAutoString
 &
@@ -5129,9 +5129,9 @@ Runnable
 (
 aName
 )
-mShouldUseService
+mUseServiceOnFailure
 (
-aShouldUseService
+aUseServiceOnFailure
 )
 mState
 (
@@ -5453,7 +5453,7 @@ else
 if
 (
 !
-mShouldUseService
+mUseServiceOnFailure
 )
 {
 LOG
@@ -6167,7 +6167,7 @@ NS_ERROR_FAILURE
 private
 :
 bool
-mShouldUseService
+mUseServiceOnFailure
 ;
 unsigned
 int
@@ -6478,7 +6478,7 @@ FixUpdateDirectoryPermsRunnable
 "
 FixUpdateDirectoryPermsRunnable
 "
-aShouldUseService
+aUseServiceOnFailure
 installPath
 )
 ;
