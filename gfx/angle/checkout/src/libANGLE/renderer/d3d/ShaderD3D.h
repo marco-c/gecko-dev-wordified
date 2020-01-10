@@ -404,6 +404,16 @@ mUsesFragData
 ;
 }
 bool
+usesSecondaryColor
+(
+)
+const
+{
+return
+mUsesSecondaryColor
+;
+}
+bool
 usesFragCoord
 (
 )
@@ -499,6 +509,9 @@ mUsesFragColor
 ;
 bool
 mUsesFragData
+;
+bool
+mUsesSecondaryColor
 ;
 bool
 mUsesFragCoord

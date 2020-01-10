@@ -406,6 +406,19 @@ MaxDrawBuffers
 :
 1
 ;
+int
+maxDualSourceDrawBuffers
+=
+resources
+.
+EXT_blend_func_extended
+?
+resources
+.
+MaxDualSourceDrawBuffers
+:
+0
+;
 sh
 :
 :
@@ -1068,6 +1081,7 @@ getOutputType
 (
 )
 numRenderTargets
+maxDualSourceDrawBuffers
 getUniforms
 (
 )

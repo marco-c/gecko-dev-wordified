@@ -215,6 +215,8 @@ ShShaderOutput
 outputType
 int
 numRenderTargets
+int
+maxDualSourceDrawBuffers
 const
 std
 :
@@ -1209,8 +1211,14 @@ mutable
 bool
 mUseZeroArray
 ;
+bool
+mUsesSecondaryColor
+;
 int
 mNumRenderTargets
+;
+int
+mMaxDualSourceDrawBuffers
 ;
 int
 mUniqueIndex
