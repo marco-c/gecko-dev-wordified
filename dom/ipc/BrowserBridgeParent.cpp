@@ -241,10 +241,15 @@ BrowserBridgeParent
 (
 )
 :
+#
+ifdef
+ACCESSIBILITY
 mEmbedderAccessibleID
 (
 0
 )
+#
+endif
 mIPCOpen
 (
 false
