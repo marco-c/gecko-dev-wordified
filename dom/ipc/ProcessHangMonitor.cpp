@@ -941,6 +941,10 @@ nsCString
 >
 &
 aNavigationURI
+const
+int32_t
+&
+aEpoch
 )
 override
 ;
@@ -1149,6 +1153,9 @@ Maybe
 nsCString
 >
 mCancelContentJSNavigationURI
+;
+int32_t
+mCancelContentJSEpoch
 ;
 JSContext
 *
@@ -1746,6 +1753,8 @@ aNavigationIndex
 nsIURI
 *
 aNavigationURI
+int32_t
+aEpoch
 )
 ;
 void
@@ -1970,6 +1979,10 @@ mCancelContentJSNavigationIndex
 (
 0
 )
+mCancelContentJSEpoch
+(
+0
+)
 mShutdownDone
 (
 false
@@ -2088,6 +2101,9 @@ nsCString
 >
 cancelContentJSNavigationURI
 ;
+int32_t
+cancelContentJSEpoch
+;
 {
 MonitorAutoLock
 lock
@@ -2136,6 +2152,10 @@ move
 (
 mCancelContentJSNavigationURI
 )
+;
+cancelContentJSEpoch
+=
+mCancelContentJSEpoch
 ;
 mPaintWhileInterruptingJS
 =
@@ -2312,6 +2332,7 @@ CanCancelContentJS
 cancelContentJSNavigationType
 cancelContentJSNavigationIndex
 uri
+cancelContentJSEpoch
 &
 canCancel
 )
@@ -2822,6 +2843,10 @@ nsCString
 >
 &
 aNavigationURI
+const
+int32_t
+&
+aEpoch
 )
 {
 MOZ_RELEASE_ASSERT
@@ -2857,6 +2882,10 @@ aNavigationIndex
 mCancelContentJSNavigationURI
 =
 aNavigationURI
+;
+mCancelContentJSEpoch
+=
+aEpoch
 ;
 }
 JS_RequestInterruptCallback
@@ -3875,6 +3904,7 @@ NavigationType
 int32_t
 nsIURI
 *
+int32_t
 >
 (
 "
@@ -3897,6 +3927,9 @@ mIndex
 aCancelContentJSOptions
 .
 mUri
+aCancelContentJSOptions
+.
+mEpoch
 )
 )
 ;
@@ -3919,6 +3952,8 @@ aNavigationIndex
 nsIURI
 *
 aNavigationURI
+int32_t
+aEpoch
 )
 {
 MOZ_RELEASE_ASSERT
@@ -3987,6 +4022,7 @@ aTabId
 aNavigationType
 aNavigationIndex
 spec
+aEpoch
 )
 ;
 }
