@@ -3924,12 +3924,10 @@ signedState
 ;
 if
 (
-signedState
 !
-=
-AddonManager
+addon
 .
-SIGNEDSTATE_PRIVILEGED
+isPrivileged
 )
 {
 addon
