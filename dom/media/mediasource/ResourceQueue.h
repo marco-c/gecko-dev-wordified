@@ -256,12 +256,13 @@ timepoint
 struct
 ResourceItem
 {
-explicit
 ResourceItem
 (
 MediaByteBuffer
 *
 aData
+uint64_t
+aOffset
 )
 ;
 size_t
@@ -277,6 +278,9 @@ RefPtr
 MediaByteBuffer
 >
 mData
+;
+uint64_t
+mOffset
 ;
 }
 ;
@@ -524,6 +528,7 @@ uint32_t
 *
 aResourceOffset
 )
+const
 ;
 ResourceItem
 *
