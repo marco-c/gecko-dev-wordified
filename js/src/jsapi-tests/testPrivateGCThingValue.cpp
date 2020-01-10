@@ -204,6 +204,7 @@ h
 "
 class
 TestTracer
+final
 :
 public
 JS

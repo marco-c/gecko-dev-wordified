@@ -6875,6 +6875,7 @@ endif
 }
 struct
 DumpHeapTracer
+final
 :
 public
 JS

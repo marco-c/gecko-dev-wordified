@@ -131,6 +131,7 @@ gc
 {
 struct
 ClearEdgesTracer
+final
 :
 public
 JS

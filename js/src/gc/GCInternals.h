@@ -896,7 +896,9 @@ rt
 endif
 struct
 MovingTracer
+final
 :
+public
 JS
 :
 :

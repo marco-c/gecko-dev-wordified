@@ -24259,6 +24259,7 @@ ifdef
 DEBUG
 struct
 AssertNonGrayTracer
+final
 :
 public
 JS
@@ -24318,6 +24319,7 @@ isMarkedGray
 endif
 class
 UnmarkGrayTracer
+final
 :
 public
 JS

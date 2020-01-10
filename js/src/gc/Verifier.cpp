@@ -1789,6 +1789,7 @@ isMarkedAny
 }
 struct
 CheckEdgeTracer
+final
 :
 public
 JS

@@ -1408,6 +1408,7 @@ invoked
 .
 class
 EdgeVectorTracer
+final
 :
 public
 JS

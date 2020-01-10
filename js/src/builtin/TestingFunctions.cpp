@@ -8575,6 +8575,7 @@ true
 }
 class
 HasChildTracer
+final
 :
 public
 JS

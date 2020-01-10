@@ -3150,6 +3150,7 @@ ifdef
 DEBUG
 class
 AssertNoRootsTracer
+final
 :
 public
 JS
