@@ -2914,6 +2914,9 @@ aEvent
 mDeltaMode
 =
 =
+dom
+:
+:
 WheelEvent_Binding
 :
 :
@@ -5232,6 +5235,9 @@ an
 HTML
 document
 .
+dom
+:
+:
 Document
 *
 document

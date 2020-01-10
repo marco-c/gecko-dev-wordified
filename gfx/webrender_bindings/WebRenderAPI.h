@@ -250,6 +250,9 @@ nsDisplayItem
 class
 nsDisplayTransform
 ;
+#
+undef
+None
 namespace
 mozilla
 {
