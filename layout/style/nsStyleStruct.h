@@ -7601,7 +7601,7 @@ mTextDecorationColor
 mozilla
 :
 :
-StyleLengthOrAuto
+StyleTextDecorationLength
 mTextDecorationThickness
 ;
 }
@@ -7860,7 +7860,7 @@ mTextIndent
 mozilla
 :
 :
-StyleLengthOrAuto
+StyleTextDecorationLength
 mTextUnderlineOffset
 ;
 mozilla

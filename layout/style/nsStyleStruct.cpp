@@ -21788,7 +21788,7 @@ CurrentColor
 )
 mTextDecorationThickness
 (
-LengthOrAuto
+StyleTextDecorationLength
 :
 :
 Auto
@@ -22261,7 +22261,7 @@ Zero
 )
 mTextUnderlineOffset
 (
-LengthOrAuto
+StyleTextDecorationLength
 :
 :
 Auto

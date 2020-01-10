@@ -4752,7 +4752,7 @@ const
 mozilla
 :
 :
-LengthOrAuto
+StyleTextDecorationLength
 mTextUnderlineOffset
 ;
 /
@@ -4781,7 +4781,7 @@ const
 mozilla
 :
 :
-LengthOrAuto
+StyleTextDecorationLength
 mTextDecorationThickness
 ;
 nscolor
@@ -4803,14 +4803,14 @@ const
 mozilla
 :
 :
-LengthOrAuto
+StyleTextDecorationLength
 &
 aUnderline
 const
 mozilla
 :
 :
-LengthOrAuto
+StyleTextDecorationLength
 &
 aDecThickness
 const

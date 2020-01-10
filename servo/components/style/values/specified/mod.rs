@@ -1034,6 +1034,7 @@ text
 :
 :
 {
+TextDecorationLength
 TextDecorationSkipInk
 TextTransform
 }
