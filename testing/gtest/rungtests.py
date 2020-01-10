@@ -1755,7 +1755,6 @@ utility_path
     
 except
 Exception
-as
 e
 :
         
