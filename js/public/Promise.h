@@ -2301,6 +2301,8 @@ PromiseRejectionTrackerCallback
 JSContext
 *
 cx
+bool
+mutedErrors
 JS
 :
 :
