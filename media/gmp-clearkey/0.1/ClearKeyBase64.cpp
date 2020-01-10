@@ -140,8 +140,16 @@ include
 algorithm
 >
 using
-namespace
 std
+:
+:
+string
+;
+using
+std
+:
+:
+vector
 ;
 /
 *

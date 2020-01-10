@@ -193,10 +193,6 @@ using
 namespace
 cdm
 ;
-using
-namespace
-std
-;
 ClearKeySession
 :
 :
@@ -356,6 +352,9 @@ of
 the
 keyId
 .
+std
+:
+:
 vector
 <
 uint8_t
