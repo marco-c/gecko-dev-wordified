@@ -7,6 +7,10 @@ bin
 /
 env
 python3
+from
+__future__
+import
+print_function
 assert
 __name__
 =
@@ -574,9 +578,11 @@ kwargs
     
 print
 (
+(
 '
 '
 args
+)
 )
     
 sys
@@ -2289,6 +2295,7 @@ target_name
         
 print
 (
+(
 '
 '
 +
@@ -2299,6 +2306,7 @@ type
 '
 ]
 target_name
+)
 )
         
 assert
@@ -2385,9 +2393,11 @@ libraries
     
 print
 (
+(
 '
 '
 k
+)
 )
 if
 CHECK_ONLY
@@ -4542,6 +4552,7 @@ build
     
 print
 (
+(
 '
 '
 '
@@ -4553,6 +4564,7 @@ Writing
 mozbuild
 }
 '
+)
 )
     
 data

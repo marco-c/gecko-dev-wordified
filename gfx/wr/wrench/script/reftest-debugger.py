@@ -61,6 +61,10 @@ MPL
 0
 /
 .
+from
+__future__
+import
+print_function
 import
 subprocess
 with
