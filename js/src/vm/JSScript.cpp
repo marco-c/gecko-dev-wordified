@@ -21142,7 +21142,13 @@ ntrynotes
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 tryNoteList
+(
+)
 .
 length
 (
@@ -21284,7 +21290,13 @@ ntrynotes
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 tryNoteList
+(
+)
 .
 finish
 (

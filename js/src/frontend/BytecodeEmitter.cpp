@@ -798,6 +798,10 @@ notes_
 (
 cx
 )
+tryNoteList_
+(
+cx
+)
 {
 }
 BytecodeEmitter
@@ -893,10 +897,6 @@ numberList
 cx
 )
 scopeList
-(
-cx
-)
-tryNoteList
 (
 cx
 )
@@ -56942,7 +56942,13 @@ inPrologue
 )
 ;
 return
+bytecodeSection
+(
+)
+.
 tryNoteList
+(
+)
 .
 append
 (
