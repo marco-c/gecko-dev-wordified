@@ -3157,6 +3157,12 @@ true
 "
 )
 ;
+listItem
+.
+scrollIntoView
+(
+)
+;
 this
 .
 _list
