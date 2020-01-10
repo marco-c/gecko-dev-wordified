@@ -537,6 +537,12 @@ this
 instance
 .
 *
+return
+This
+Builder
+instance
+.
+*
 /
 public
 NonNull
