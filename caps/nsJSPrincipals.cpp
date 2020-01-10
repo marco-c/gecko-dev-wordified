@@ -1981,15 +1981,8 @@ Length
 )
 ;
 }
-/
-*
 static
-*
-/
 bool
-nsJSPrincipals
-:
-:
 WritePrincipalInfo
 (
 JSStructuredCloneWriter
@@ -2032,8 +2025,6 @@ SCTAG_DOM_NULL_PRINCIPAL
 )
 &
 &
-:
-:
 WritePrincipalInfo
 (
 aWriter
@@ -2215,8 +2206,6 @@ SCTAG_DOM_CONTENT_PRINCIPAL
 )
 &
 &
-:
-:
 WritePrincipalInfo
 (
 aWriter

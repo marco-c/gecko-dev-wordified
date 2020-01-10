@@ -3548,6 +3548,10 @@ cx
 mWorkletImpl
 -
 >
+LoadInfo
+(
+)
+.
 Principal
 (
 )
@@ -4836,6 +4840,10 @@ cx
 mWorkletImpl
 -
 >
+LoadInfo
+(
+)
+.
 Principal
 (
 )
@@ -8354,6 +8362,10 @@ Impl
 )
 -
 >
+LoadInfo
+(
+)
+.
 OriginAttributesRef
 (
 )

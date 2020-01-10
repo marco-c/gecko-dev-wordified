@@ -65,15 +65,6 @@ import
 .
 js
 "
-"
-test
--
-error
--
-worklet
-.
-js
-"
 ]
 "
 parserOptions
