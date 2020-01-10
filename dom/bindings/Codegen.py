@@ -8062,7 +8062,10 @@ declareIncludes
 def
 addHeadersForType
 (
-typeAndPossibleDictionary
+(
+t
+dictionary
+)
 )
 :
             
@@ -8097,11 +8100,6 @@ types
 "
 "
 "
-            
-t
-dictionary
-=
-typeAndPossibleDictionary
             
 #
 Dictionaries
@@ -63109,7 +63107,6 @@ resultTemplateValues
         
 except
 MethodNotNewObjectError
-as
 err
 :
             

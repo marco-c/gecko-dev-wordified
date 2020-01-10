@@ -1,7 +1,3 @@
-from
-__future__
-import
-print_function
 import
 math
 import
@@ -2662,13 +2658,11 @@ summary
 "
         
 print
-(
 "
 Bisection
 summary
 :
 "
-)
         
 for
 line
@@ -2679,6 +2673,4 @@ summary
 :
             
 print
-(
 line
-)
