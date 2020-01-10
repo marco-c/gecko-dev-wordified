@@ -2576,6 +2576,14 @@ getSelectedSource
 state
 )
 ;
+const
+displayedSources
+=
+getDisplayedSourcesList
+(
+state
+)
+;
 return
 {
 cx
@@ -2594,10 +2602,7 @@ sources
 :
 formatSources
 (
-getDisplayedSourcesList
-(
-state
-)
+displayedSources
 getTabs
 (
 state

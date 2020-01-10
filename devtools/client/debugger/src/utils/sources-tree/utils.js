@@ -173,7 +173,6 @@ item
 type
 =
 =
-=
 "
 directory
 "
