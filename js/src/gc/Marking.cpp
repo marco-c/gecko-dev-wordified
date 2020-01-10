@@ -5379,13 +5379,7 @@ gcWeakKeys
 .
 get
 (
-JS
-:
-:
-GCCellPtr
-(
 markedThing
-)
 )
 ;
 if
