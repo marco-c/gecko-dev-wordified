@@ -837,7 +837,7 @@ list
 of
 records
 whose
-attachmnet
+attachment
 was
 downloaded
 .
