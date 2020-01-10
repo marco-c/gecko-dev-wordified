@@ -1318,10 +1318,9 @@ const
 LayoutDeviceIntRect
 &
 aRect
-const
-LayoutDeviceIntRect
-&
-aClearRect
+bool
+*
+aOutIsCleared
 )
 ;
 /
