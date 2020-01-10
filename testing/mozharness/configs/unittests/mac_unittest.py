@@ -1154,6 +1154,13 @@ subsuite
 =
 gpu
 "
+"
+-
+-
+disable
+-
+e10s
+"
 ]
         
 "
@@ -1178,6 +1185,13 @@ chrome
 subsuite
 =
 clipboard
+"
+"
+-
+-
+disable
+-
+e10s
 "
 ]
         

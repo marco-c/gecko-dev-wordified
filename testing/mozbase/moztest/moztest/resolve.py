@@ -650,6 +650,11 @@ test_paths
 '
 :
 None
+'
+e10s
+'
+:
+False
 }
         
 '
@@ -1059,6 +1064,11 @@ test_paths
 '
 :
 None
+'
+e10s
+'
+:
+False
 }
         
 '
@@ -1168,6 +1178,11 @@ test_paths
 '
 :
 None
+'
+e10s
+'
+:
+False
 }
         
 '
@@ -1274,6 +1289,11 @@ test_paths
 '
 :
 None
+'
+e10s
+'
+:
+False
 }
         
 '
