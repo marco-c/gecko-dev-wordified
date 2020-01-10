@@ -1292,9 +1292,6 @@ if
 fileURI
 )
 {
-bool
-isFile
-;
 nsAutoCString
 spec
 ;
@@ -1308,8 +1305,6 @@ spec
 ;
 if
 (
-NS_SUCCEEDED
-(
 fileURI
 -
 >
@@ -1318,13 +1313,7 @@ SchemeIs
 "
 file
 "
-&
-isFile
 )
-)
-&
-&
-isFile
 )
 {
 GFile
