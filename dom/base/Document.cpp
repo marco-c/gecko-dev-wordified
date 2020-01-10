@@ -26931,6 +26931,8 @@ commandData
 mCommand
 *
 maybeHTMLEditor
+&
+aSubjectPrincipal
 )
 ;
 return
@@ -27047,6 +27049,8 @@ true
 )
 *
 maybeHTMLEditor
+&
+aSubjectPrincipal
 )
 ;
 return
@@ -27160,6 +27164,8 @@ mCommand
 adjustedValue
 *
 maybeHTMLEditor
+&
+aSubjectPrincipal
 )
 ;
 return
@@ -27243,6 +27249,8 @@ mCommand
 utf8Value
 *
 maybeHTMLEditor
+&
+aSubjectPrincipal
 )
 ;
 return

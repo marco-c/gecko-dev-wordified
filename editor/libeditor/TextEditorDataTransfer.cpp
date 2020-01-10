@@ -2459,6 +2459,9 @@ int32_t
 aClipboardType
 bool
 aDispatchPasteEvent
+nsIPrincipal
+*
+aPrincipal
 )
 {
 AutoEditActionDataSetter
@@ -2470,6 +2473,7 @@ EditAction
 :
 :
 ePaste
+aPrincipal
 )
 ;
 if
@@ -2795,15 +2799,18 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 TextEditor
 :
 :
-PasteTransferable
+PasteTransferableAsAction
 (
 nsITransferable
 *
 aTransferable
+nsIPrincipal
+*
+aPrincipal
 )
 {
 AutoEditActionDataSetter
@@ -2815,6 +2822,7 @@ EditAction
 :
 :
 ePaste
+aPrincipal
 )
 ;
 if
