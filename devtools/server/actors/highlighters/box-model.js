@@ -2238,15 +2238,6 @@ _trackMutations
 (
 )
 ;
-this
-.
-emit
-(
-"
-ready
-"
-)
-;
 return
 shown
 ;
