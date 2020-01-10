@@ -57,12 +57,6 @@ MPL
 *
 /
 use
-libc
-:
-:
-uint16_t
-;
-use
 nserror
 :
 :
@@ -429,7 +423,7 @@ _0
 ]
 UnsupportedVariant
 (
-uint16_t
+u16
 )
 }
 impl

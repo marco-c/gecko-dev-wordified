@@ -63,12 +63,6 @@ error
 KeyValueError
 ;
 use
-libc
-:
-:
-int32_t
-;
-use
 nsstring
 :
 :
@@ -364,7 +358,7 @@ let
 mut
 val
 :
-int32_t
+i32
 =
 0
 ;
