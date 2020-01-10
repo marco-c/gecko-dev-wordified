@@ -792,11 +792,11 @@ DIRECT2D1_1
 /
 /
 Create
-DXGITextureData
+D3D11TextureData
 .
 data
 =
-DXGITextureData
+D3D11TextureData
 :
 :
 Create

@@ -6499,7 +6499,7 @@ ALLOC_UPDATE_FROM_SURFACE
 {
 data
 =
-DXGITextureData
+D3D11TextureData
 :
 :
 Create
