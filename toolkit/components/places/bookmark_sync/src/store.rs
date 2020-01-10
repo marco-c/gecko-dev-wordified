@@ -2015,6 +2015,9 @@ guid
 >
 :
 rootGuid
+ORDER
+BY
+guid
 "
 )
 ?

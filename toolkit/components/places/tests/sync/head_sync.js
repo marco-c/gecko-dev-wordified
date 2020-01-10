@@ -1050,7 +1050,9 @@ promiseDBConnection
 for
 (
 let
+[
 chunk
+]
 of
 PlacesSyncUtils
 .
