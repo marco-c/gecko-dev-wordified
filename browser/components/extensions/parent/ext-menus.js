@@ -7277,7 +7277,6 @@ Map
 }
 onShutdown
 (
-reason
 )
 {
 let

@@ -895,7 +895,7 @@ window
 }
 onShutdown
 (
-reason
+isAppShutdown
 )
 {
 pageActionMap
@@ -969,12 +969,8 @@ back
 .
 if
 (
-reason
 !
-=
-"
-APP_SHUTDOWN
-"
+isAppShutdown
 &
 &
 this

@@ -597,7 +597,7 @@ build
 }
 onShutdown
 (
-reason
+isAppShutdown
 )
 {
 sidebarActionMap
@@ -640,13 +640,7 @@ sidebars
 .
 if
 (
-reason
-=
-=
-=
-"
-APP_SHUTDOWN
-"
+isAppShutdown
 )
 {
 return

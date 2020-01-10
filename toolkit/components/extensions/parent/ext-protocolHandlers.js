@@ -353,7 +353,7 @@ protoInfo
 }
 onShutdown
 (
-shutdownReason
+isAppShutdown
 )
 {
 let
@@ -372,13 +372,7 @@ extension
 ;
 if
 (
-shutdownReason
-=
-=
-=
-"
-APP_SHUTDOWN
-"
+isAppShutdown
 )
 {
 return

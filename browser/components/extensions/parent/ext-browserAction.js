@@ -731,7 +731,6 @@ tab
 }
 onShutdown
 (
-reason
 )
 {
 browserActionMap

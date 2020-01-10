@@ -1463,7 +1463,6 @@ pageAction
 }
 onShutdown
 (
-reason
 )
 {
 let
