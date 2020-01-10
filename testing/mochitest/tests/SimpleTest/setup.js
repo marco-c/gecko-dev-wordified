@@ -972,10 +972,10 @@ logFile
 )
 {
 var
-spl
+mfl
 =
 new
-SpecialPowersLogger
+MozillaFileLogger
 (
 params
 .
@@ -995,7 +995,7 @@ fileLevel
 +
 "
 "
-spl
+mfl
 .
 logCallback
 )
