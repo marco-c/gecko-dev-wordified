@@ -7596,7 +7596,7 @@ MAX_TILES_PER_REQUEST
 :
 i32
 =
-64
+512
 ;
 /
 /
