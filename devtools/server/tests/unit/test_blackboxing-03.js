@@ -274,6 +274,11 @@ no
 undef
 *
 /
+/
+/
+prettier
+-
+ignore
 Cu
 .
 evalInSandbox
@@ -324,6 +329,11 @@ BLACK_BOXED_URL
 1
 )
 ;
+/
+/
+prettier
+-
+ignore
 Cu
 .
 evalInSandbox
@@ -381,11 +391,11 @@ line
 line
 6
 }
-+
 /
 /
 line
 7
++
 "
 \
 n
