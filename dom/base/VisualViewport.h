@@ -239,12 +239,14 @@ PageTop
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 double
 Width
 (
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 double
 Height
 (
@@ -597,6 +599,7 @@ VisualViewport
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 CSSSize
 VisualViewportSize
 (
@@ -611,6 +614,13 @@ const
 ;
 CSSPoint
 LayoutViewportOffset
+(
+)
+const
+;
+Document
+*
+GetDocument
 (
 )
 const
