@@ -1622,8 +1622,6 @@ cert
 .
 getRawDER
 (
-{
-}
 )
 ;
 }
