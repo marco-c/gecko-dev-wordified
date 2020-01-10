@@ -1986,7 +1986,7 @@ globalObject
 js
 :
 :
-GetObjectCompartment
+GetNonCCWObjectRealm
 (
 wrapper
 )
@@ -1995,7 +1995,7 @@ wrapper
 js
 :
 :
-GetContextCompartment
+GetContextRealm
 (
 cx
 )
@@ -2007,7 +2007,7 @@ globalObject
 js
 :
 :
-GetObjectCompartment
+GetNonCCWObjectRealm
 (
 wrapper
 )
@@ -2016,12 +2016,12 @@ wrapper
 js
 :
 :
-GetObjectCompartment
+GetNonCCWObjectRealm
 (
 globalObject
 -
 >
-GetGlobalJSObject
+GetGlobalJSObjectPreserveColor
 (
 )
 )
@@ -2077,7 +2077,7 @@ MOZ_ASSERT
 js
 :
 :
-GetContextCompartment
+GetContextRealm
 (
 cx
 )
@@ -2086,7 +2086,7 @@ cx
 js
 :
 :
-GetObjectCompartment
+GetNonCCWObjectRealm
 (
 wrapper
 )
@@ -2095,7 +2095,7 @@ wrapper
 js
 :
 :
-GetContextCompartment
+GetContextRealm
 (
 cx
 )

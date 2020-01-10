@@ -845,7 +845,7 @@ JS_IsGlobalObject
 mGlobalObject
 -
 >
-GetGlobalJSObject
+GetGlobalJSObjectPreserveColor
 (
 )
 )
@@ -1912,7 +1912,7 @@ aGlobalObject
 aGlobalObject
 -
 >
-GetGlobalJSObject
+GetGlobalJSObjectPreserveColor
 (
 )
 =

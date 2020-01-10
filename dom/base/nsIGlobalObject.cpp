@@ -286,7 +286,7 @@ JSObject
 *
 global
 =
-GetGlobalJSObject
+GetGlobalJSObjectPreserveColor
 (
 )
 ;
