@@ -5149,6 +5149,15 @@ bool
 {
 self
 .
+selector_length
+(
+)
+>
+0
+&
+&
+self
+.
 all
 (
 |
