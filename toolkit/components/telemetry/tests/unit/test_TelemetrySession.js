@@ -727,7 +727,7 @@ topic
 )
 {
 let
-session
+scheduler
 =
 ChromeUtils
 .
@@ -742,7 +742,7 @@ gre
 /
 modules
 /
-TelemetrySession
+TelemetryScheduler
 .
 jsm
 "
@@ -750,7 +750,7 @@ null
 )
 ;
 return
-session
+scheduler
 .
 TelemetryScheduler
 .
