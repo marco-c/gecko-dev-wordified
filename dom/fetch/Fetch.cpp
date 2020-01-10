@@ -131,13 +131,6 @@ h
 #
 include
 "
-FetchStream
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -6917,7 +6910,7 @@ body
 aCx
 )
 ;
-FetchStream
+BodyStream
 :
 :
 Create
