@@ -5020,6 +5020,9 @@ endif
 bool
 mCoalesceMouseMoveEvents
 ;
+bool
+mShouldSendWebProgressEventsToParent
+;
 /
 /
 In
