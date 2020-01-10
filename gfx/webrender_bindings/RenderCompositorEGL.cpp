@@ -624,10 +624,10 @@ egl
 >
 fSwapInterval
 (
-gl
-:
-:
-EGL_DISPLAY
+egl
+-
+>
+Display
 (
 )
 0

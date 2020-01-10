@@ -932,7 +932,10 @@ egl
 >
 fBindTexImage
 (
-EGL_DISPLAY
+egl
+-
+>
+Display
 (
 )
 (
@@ -998,7 +1001,10 @@ egl
 >
 fReleaseTexImage
 (
-EGL_DISPLAY
+egl
+-
+>
+Display
 (
 )
 (
@@ -1061,7 +1067,10 @@ egl
 >
 fDestroySurface
 (
-EGL_DISPLAY
+egl
+-
+>
+Display
 (
 )
 mSurface
