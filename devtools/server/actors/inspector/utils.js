@@ -2230,8 +2230,6 @@ node
 while
 (
 current
-.
-ownerDocument
 )
 {
 const
