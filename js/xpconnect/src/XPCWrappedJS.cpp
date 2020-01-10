@@ -1834,10 +1834,10 @@ Unmark
 gray
 JSObject
 .
-mClass
--
->
-GetRuntime
+XPCJSRuntime
+:
+:
+Get
 (
 )
 -
