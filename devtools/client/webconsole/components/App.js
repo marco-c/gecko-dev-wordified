@@ -1945,6 +1945,7 @@ editorMode
 EditorToolbar
 (
 {
+dispatch
 editorMode
 webConsoleUI
 }
