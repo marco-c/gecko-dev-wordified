@@ -5311,7 +5311,7 @@ startp
 mozilla
 :
 :
-PrefetchMemory
+MaybePrefetchMemory
 (
 const_cast
 <
