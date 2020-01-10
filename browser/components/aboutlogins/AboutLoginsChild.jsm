@@ -674,6 +674,10 @@ let
 {
 method
 object
+extra
+=
+{
+}
 }
 =
 event
@@ -691,6 +695,8 @@ recordEvent
 TELEMETRY_EVENT_CATEGORY
 method
 object
+null
+extra
 )
 ;
 }
