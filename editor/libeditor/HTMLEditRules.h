@@ -3028,12 +3028,6 @@ nsINode
 aNode
 )
 ;
-nsAtom
-&
-DefaultParagraphSeparator
-(
-)
-;
 /
 *
 *
