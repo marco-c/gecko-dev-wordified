@@ -1665,6 +1665,10 @@ string
 type
 :
 number
++
+name
+:
+string
 }
 ;
 export
@@ -1684,6 +1688,10 @@ string
 type
 :
 number
++
+name
+:
+string
 }
 ;
 export

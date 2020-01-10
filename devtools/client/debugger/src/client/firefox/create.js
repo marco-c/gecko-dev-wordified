@@ -438,6 +438,10 @@ TYPE_DEDICATED
 type
 :
 0
+name
+:
+"
+"
 }
 ;
 }

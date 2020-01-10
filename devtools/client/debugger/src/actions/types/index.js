@@ -533,14 +533,7 @@ export
 type
 FocusItem
 =
-{
-thread
-:
-string
-item
-:
 TreeNode
-}
 ;
 export
 type
