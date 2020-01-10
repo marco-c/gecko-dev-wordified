@@ -13531,6 +13531,17 @@ abs_src_dir
 '
 ]
             
+sccache_base
+=
+os
+.
+environ
+[
+'
+MOZ_FETCHES_DIR
+'
+]
+            
 sccache
 =
 os
@@ -13539,7 +13550,7 @@ path
 .
 join
 (
-topsrcdir
+sccache_base
 '
 sccache
 '
