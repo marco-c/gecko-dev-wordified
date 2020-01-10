@@ -226,6 +226,17 @@ on
 the
 system
 .
+this
+.
+observe
+(
+null
+"
+alertfinished
+"
+id
+)
+;
 }
 }
 Notification
