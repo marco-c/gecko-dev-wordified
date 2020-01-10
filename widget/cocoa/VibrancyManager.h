@@ -495,8 +495,15 @@ device
 pixels
 .
 *
+return
+Whether
+the
+region
+changed
+.
+*
 /
-void
+bool
 UpdateVibrantRegion
 (
 VibrancyType
