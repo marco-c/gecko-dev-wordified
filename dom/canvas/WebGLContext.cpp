@@ -728,7 +728,7 @@ alpha
 StaticPrefs
 :
 :
-WebGLDefaultNoAlpha
+webgl_default_no_alpha
 (
 )
 ;
@@ -737,7 +737,7 @@ antialias
 StaticPrefs
 :
 :
-WebGLDefaultAntialias
+webgl_default_antialias
 (
 )
 ;
@@ -882,7 +882,7 @@ mMaxPerfWarnings
 StaticPrefs
 :
 :
-WebGLMaxPerfWarnings
+webgl_perf_max_warnings
 (
 )
 )
@@ -895,7 +895,7 @@ mMaxAcceptableFBStatusInvals
 StaticPrefs
 :
 :
-WebGLMaxAcceptableFBStatusInvals
+webgl_perf_max_acceptable_fb_status_invals
 (
 )
 )
@@ -928,7 +928,7 @@ mAllowFBInvalidation
 StaticPrefs
 :
 :
-WebGLFBInvalidation
+webgl_allow_fb_invalidation
 (
 )
 )
@@ -940,7 +940,7 @@ uint8_t
 StaticPrefs
 :
 :
-WebGLMsaaSamples
+webgl_msaa_samples
 (
 )
 )
@@ -1085,7 +1085,7 @@ mMaxWarnings
 StaticPrefs
 :
 :
-WebGLMaxWarningsPerContext
+webgl_max_warnings_per_context
 (
 )
 ;
@@ -2065,7 +2065,7 @@ antialias
 StaticPrefs
 :
 :
-WebGLForceMSAA
+webgl_msaa_force
 (
 )
 )
@@ -2762,7 +2762,7 @@ if
 StaticPrefs
 :
 :
-WebGL1AllowCoreProfile
+webgl_1_allow_core_profiles
 (
 )
 )
@@ -2913,7 +2913,7 @@ if
 StaticPrefs
 :
 :
-WebGLDefaultLowPower
+webgl_default_low_power
 (
 )
 )
@@ -3226,7 +3226,7 @@ if
 StaticPrefs
 :
 :
-WebGLDisableWGL
+webgl_disable_wgl
 (
 )
 )
@@ -3241,7 +3241,7 @@ if
 StaticPrefs
 :
 :
-WebGLDisableANGLE
+webgl_disable_angle
 (
 )
 |
@@ -4803,7 +4803,7 @@ disabled
 StaticPrefs
 :
 :
-WebGLDisabled
+webgl_disabled
 (
 )
 ;
@@ -4897,7 +4897,7 @@ if
 StaticPrefs
 :
 :
-WebGLDisableFailIfMajorPerformanceCaveat
+webgl_disable_fail_if_major_performance_caveat
 (
 )
 )
@@ -4992,7 +4992,7 @@ forceEnabled
 StaticPrefs
 :
 :
-WebGLForceEnabled
+webgl_force_enabled
 (
 )
 ;
@@ -5688,7 +5688,7 @@ maxWebGLContexts
 StaticPrefs
 :
 :
-WebGLMaxContexts
+webgl_max_contexts
 (
 )
 ;
@@ -5698,7 +5698,7 @@ maxWebGLContextsPerPrincipal
 StaticPrefs
 :
 :
-WebGLMaxContextsPerPrincipal
+webgl_max_contexts_per_principal
 (
 )
 ;
@@ -8003,7 +8003,7 @@ if
 StaticPrefs
 :
 :
-WebGLSpewFrameAllocs
+webgl_perf_spew_frame_allocs
 (
 )
 )

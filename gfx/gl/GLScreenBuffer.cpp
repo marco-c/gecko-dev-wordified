@@ -469,7 +469,7 @@ useGl
 StaticPrefs
 :
 :
-WebGLForceLayersReadback
+webgl_force_layers_readback
 (
 )
 &
@@ -513,7 +513,7 @@ useD3D
 StaticPrefs
 :
 :
-WebGLForceLayersReadback
+webgl_force_layers_readback
 (
 )
 &
@@ -643,7 +643,7 @@ XRE_IsParentProcess
 StaticPrefs
 :
 :
-WebGLSurfaceTextureEnabled
+webgl_enable_surface_texture
 (
 )
 )
@@ -866,7 +866,7 @@ factory
 StaticPrefs
 :
 :
-WebGLDXGLEnabled
+webgl_dxgl_enabled
 (
 )
 )

@@ -1695,7 +1695,7 @@ mDisableExtensions
 StaticPrefs
 :
 :
-WebGLDisableExtensions
+webgl_disable_extensions
 (
 )
 ;
@@ -1704,7 +1704,7 @@ mLoseContextOnMemoryPressure
 StaticPrefs
 :
 :
-WebGLLoseContextOnMemoryPressure
+webgl_lose_context_on_memory_pressure
 (
 )
 ;
@@ -1713,7 +1713,7 @@ mCanLoseContextInForeground
 StaticPrefs
 :
 :
-WebGLCanLoseContextInForeground
+webgl_can_lose_context_in_foreground
 (
 )
 ;
@@ -2715,7 +2715,7 @@ if
 StaticPrefs
 :
 :
-WebGLMinCapabilityMode
+webgl_min_capability_mode
 (
 )
 )
@@ -3841,7 +3841,7 @@ switch
 StaticPrefs
 :
 :
-WebGLForceIndexValidation
+webgl_force_index_validation
 (
 )
 )
@@ -3872,7 +3872,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-WebGLForceIndexValidation
+webgl_force_index_validation
 (
 )
 =

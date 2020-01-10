@@ -464,7 +464,7 @@ if
 StaticPrefs
 :
 :
-WebGLPrivilegedExtensionsEnabled
+webgl_enable_privileged_extensions
 (
 )
 )
