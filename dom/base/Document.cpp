@@ -74966,10 +74966,6 @@ mContentType
 =
 aType
 ;
-mContentTypeForWriteCalls
-=
-aType
-;
 }
 nsILoadContext
 *
