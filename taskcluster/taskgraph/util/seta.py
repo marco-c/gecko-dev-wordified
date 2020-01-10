@@ -1058,7 +1058,9 @@ opt
 '
 test
 -
-macosx64
+macosx1010
+-
+64
 -
 shippable
 /
@@ -1078,7 +1080,9 @@ opt
 '
 test
 -
-macosx64
+macosx1010
+-
+64
 -
 shippable
 -
