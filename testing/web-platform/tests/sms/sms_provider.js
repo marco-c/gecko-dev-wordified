@@ -296,7 +296,6 @@ this
 }
 receive
 (
-timeout
 )
 {
 let
@@ -333,7 +332,6 @@ call
 return
 call
 (
-timeout
 )
 ;
 }
@@ -341,7 +339,6 @@ timeout
 function
 receive
 (
-timeout
 callback
 )
 {
