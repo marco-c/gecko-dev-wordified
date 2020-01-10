@@ -10015,12 +10015,12 @@ fillLocalTimeSlots
 {
 const
 int32_t
-localTZA
+utcTZOffset
 =
 DateTimeInfo
 :
 :
-localTZA
+utcToLocalStandardOffsetSeconds
 (
 )
 ;
@@ -10051,7 +10051,7 @@ isUndefined
 &
 getReservedSlot
 (
-TZA_SLOT
+UTC_TIME_ZONE_OFFSET_SLOT
 )
 .
 toInt32
@@ -10059,7 +10059,7 @@ toInt32
 )
 =
 =
-localTZA
+utcTZOffset
 )
 {
 return
@@ -10081,10 +10081,10 @@ cache
 /
 setReservedSlot
 (
-TZA_SLOT
+UTC_TIME_ZONE_OFFSET_SLOT
 Int32Value
 (
-localTZA
+utcTZOffset
 )
 )
 ;
