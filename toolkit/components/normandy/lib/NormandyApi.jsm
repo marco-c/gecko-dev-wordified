@@ -368,11 +368,6 @@ href
 method
 body
 headers
-credentials
-:
-"
-omit
-"
 }
 )
 ;
