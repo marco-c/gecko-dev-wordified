@@ -98,7 +98,7 @@ jsm
 ;
 const
 {
-Session
+MainProcessSession
 }
 =
 ChromeUtils
@@ -116,7 +116,7 @@ content
 /
 sessions
 /
-Session
+MainProcessSession
 .
 jsm
 "
@@ -255,7 +255,7 @@ targets
 super
 (
 targets
-Session
+MainProcessSession
 )
 ;
 this
