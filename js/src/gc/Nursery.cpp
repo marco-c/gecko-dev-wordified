@@ -5224,6 +5224,17 @@ const
 {
 if
 (
+isEmpty
+(
+)
+)
+{
+return
+false
+;
+}
+if
+(
 minorGCRequested
 (
 )
