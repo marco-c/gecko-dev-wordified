@@ -816,6 +816,7 @@ elements
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 MakeSureElemStartsAndEndsOnCR
@@ -1682,6 +1683,7 @@ selection
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 InsertBRIfNeeded
@@ -1751,6 +1753,7 @@ children
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 InsertBRIfNeeded
@@ -1805,6 +1808,7 @@ children
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 InsertMozBRIfNeeded
@@ -1912,6 +1916,7 @@ false
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 InsertBRIfNeededInternal
@@ -3460,6 +3465,7 @@ it
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 DidMakeBasicBlock
@@ -5084,6 +5090,7 @@ element
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 SplitRangeOffFromNodeResult
 SplitRangeOffFromBlock
@@ -6396,6 +6403,7 @@ split
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 BustUpInlinesAtRangeEndpoints
@@ -7111,6 +7119,7 @@ PT
 typename
 CT
 >
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 SplitNodeResult
 MaybeSplitAncestorsForInsertWithTransaction
@@ -7766,6 +7775,7 @@ elements
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 InsertBRElementToEmptyListItemsAndTableCellsInChangedRange
@@ -7872,6 +7882,7 @@ caret
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 AdjustSelection
@@ -8631,6 +8642,7 @@ end
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 MakeSureElemStartsOrEndsOnCR

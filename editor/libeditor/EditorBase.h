@@ -6794,6 +6794,7 @@ PT
 typename
 CT
 >
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 nsIContent
@@ -8882,6 +8883,7 @@ PT
 typename
 CT
 >
+MOZ_CAN_RUN_SCRIPT
 SplitNodeResult
 SplitNodeDeepWithTransaction
 (
