@@ -86,9 +86,7 @@ stepOver
 stepOut
 resume
 rewind
-reverseStepIn
 reverseStepOver
-reverseStepOut
 }
 from
 "

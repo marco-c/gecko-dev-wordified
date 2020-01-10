@@ -234,14 +234,6 @@ rewind
 "
 reverseStepOver
 "
-|
-"
-reverseStepIn
-"
-|
-"
-reverseStepOut
-"
 ;
 /
 /
