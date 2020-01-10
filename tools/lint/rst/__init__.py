@@ -570,17 +570,6 @@ parse_with_split
 errors
 )
                 
-if
-int
-(
-level
-)
-<
-3
-:
-                    
-continue
-                
 res
 =
 {
@@ -617,7 +606,7 @@ level
 )
 >
 =
-3
+2
 else
 "
 warning
