@@ -1664,13 +1664,6 @@ Init
 (
 )
 ;
-nsSVGUtils
-:
-:
-Init
-(
-)
-;
 ProcessPriorityManager
 :
 :
