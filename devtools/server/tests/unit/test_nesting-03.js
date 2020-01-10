@@ -265,14 +265,16 @@ e
 {
 Assert
 .
-equal
+ok
 (
 e
 .
-error
+includes
+(
 "
 wrongOrder
 "
+)
 )
 ;
 }
@@ -297,8 +299,6 @@ ok
 (
 !
 e
-.
-error
 )
 ;
 }
