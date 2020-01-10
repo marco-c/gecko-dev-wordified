@@ -495,12 +495,7 @@ the
 next
 parent
 .
-IPCBlobInputStreamStorage
-:
-:
-Get
-(
-)
+storage
 -
 >
 StoreCallback
