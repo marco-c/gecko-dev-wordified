@@ -18599,6 +18599,8 @@ enabled
 true
 )
 ;
+#
+endif
 /
 /
 Enable
@@ -18606,12 +18608,12 @@ cryptomining
 blocking
 by
 default
+for
+all
+channels
 only
-in
-nightly
-and
-early
-beta
+on
+desktop
 .
 pref
 (
@@ -18627,8 +18629,6 @@ enabled
 true
 )
 ;
-#
-endif
 pref
 (
 "
