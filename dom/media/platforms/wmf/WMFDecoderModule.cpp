@@ -794,7 +794,7 @@ if
 testForVPx
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 MediaWmfVp9Enabled
