@@ -2690,7 +2690,7 @@ const
 {
 MOZ_ASSERT
 (
-~
+!
 IsAtEnd
 (
 )
