@@ -484,7 +484,7 @@ Register
 dest
 )
 {
-loadPtr
+load32
 (
 src
 dest
