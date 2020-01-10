@@ -1146,9 +1146,7 @@ result
 .
 type
 typeof
-(
 expression
-)
 {
 expression
 }

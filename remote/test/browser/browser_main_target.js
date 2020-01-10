@@ -148,9 +148,7 @@ await
 CDP
 (
 {
-"
 target
-"
 :
 targetURL
 }

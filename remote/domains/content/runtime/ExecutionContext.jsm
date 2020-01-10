@@ -1342,9 +1342,7 @@ obj
 if
 (
 typeof
-(
 obj
-)
 =
 =
 "
@@ -2166,12 +2164,14 @@ debuggerObj
 NaN
 )
 )
+{
 unserializableValue
 =
 "
 NaN
 "
 ;
+}
 else
 if
 (
@@ -2184,6 +2184,7 @@ debuggerObj
 0
 )
 )
+{
 unserializableValue
 =
 "
@@ -2191,6 +2192,7 @@ unserializableValue
 0
 "
 ;
+}
 else
 if
 (
@@ -2202,12 +2204,14 @@ debuggerObj
 Infinity
 )
 )
+{
 unserializableValue
 =
 "
 Infinity
 "
 ;
+}
 else
 if
 (
@@ -2220,6 +2224,7 @@ debuggerObj
 Infinity
 )
 )
+{
 unserializableValue
 =
 "
@@ -2227,6 +2232,7 @@ unserializableValue
 Infinity
 "
 ;
+}
 if
 (
 unserializableValue

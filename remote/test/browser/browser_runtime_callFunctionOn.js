@@ -945,7 +945,7 @@ values
 "
 42
 .
-00
+0
 true
 false
 null

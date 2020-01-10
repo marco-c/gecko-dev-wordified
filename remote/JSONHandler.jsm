@@ -255,9 +255,7 @@ getMainProcessTarget
 ;
 return
 {
-"
 Browser
-"
 :
 "
 Firefox
@@ -304,9 +302,7 @@ Version
 .
 0
 "
-"
 webSocketDebuggerUrl
-"
 :
 mainProcessTarget
 .

@@ -250,6 +250,7 @@ listener
 )
 {
 return
+(
 listener
 &
 &
@@ -269,5 +270,6 @@ onEvent
 "
 function
 "
+)
 ;
 }

@@ -90,9 +90,7 @@ await
 CDP
 (
 {
-"
 target
-"
 :
 webSocketDebuggerUrl
 }

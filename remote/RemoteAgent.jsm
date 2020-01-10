@@ -1404,6 +1404,7 @@ helpInfo
 )
 {
 return
+(
 "
 -
 -
@@ -1476,6 +1477,7 @@ localhost
 \
 n
 "
+)
 ;
 }
 /
