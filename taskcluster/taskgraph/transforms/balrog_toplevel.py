@@ -301,6 +301,21 @@ type
 '
 :
 blob_type
+                
+'
+build
+-
+id
+'
+:
+config
+.
+params
+[
+'
+moz_build_date
+'
+]
             
 }
             
