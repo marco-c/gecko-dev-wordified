@@ -3238,6 +3238,11 @@ driver
 "
 string
 "
+driverVendor
+:
+"
+string
+"
 driverVersion
 :
 "
@@ -4418,6 +4423,9 @@ gIsWindows
 |
 |
 gIsMac
+|
+|
+gIsLinux
 )
 {
 Assert
