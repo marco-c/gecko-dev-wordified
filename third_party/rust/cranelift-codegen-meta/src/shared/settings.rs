@@ -767,7 +767,7 @@ true
 ;
 settings
 .
-finish
+build
 (
 )
 }

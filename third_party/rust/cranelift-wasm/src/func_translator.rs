@@ -386,6 +386,8 @@ io
 /
 spec
 /
+core
+/
 binary
 /
 modules

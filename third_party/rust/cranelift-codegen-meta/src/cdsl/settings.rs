@@ -1861,7 +1861,7 @@ settings
 .
 pub
 fn
-finish
+build
 (
 self
 )

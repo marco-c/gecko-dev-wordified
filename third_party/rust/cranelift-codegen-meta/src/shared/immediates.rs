@@ -104,7 +104,7 @@ integer
 "
 )
 .
-finish
+build
 (
 )
 ;
@@ -179,7 +179,7 @@ integer
 "
 )
 .
-finish
+build
 (
 )
 ;
@@ -228,7 +228,7 @@ integer
 "
 )
 .
-finish
+build
 (
 )
 ;
@@ -304,7 +304,7 @@ offset
 "
 )
 .
-finish
+build
 (
 )
 ;
@@ -366,7 +366,7 @@ number
 "
 )
 .
-finish
+build
 (
 )
 ;
@@ -428,7 +428,7 @@ number
 "
 )
 .
-finish
+build
 (
 )
 ;
@@ -497,7 +497,7 @@ bool
 "
 )
 .
-finish
+build
 (
 )
 ;
@@ -720,7 +720,7 @@ IntCC
 "
 )
 .
-finish
+build
 (
 )
 ;
@@ -990,7 +990,7 @@ FloatCC
 "
 )
 .
-finish
+build
 (
 )
 ;
@@ -1061,7 +1061,7 @@ MemFlags
 "
 )
 .
-finish
+build
 (
 )
 ;
@@ -1119,7 +1119,7 @@ RegUnit
 "
 )
 .
-finish
+build
 (
 )
 ;
@@ -1267,7 +1267,7 @@ TrapCode
 "
 )
 .
-finish
+build
 (
 )
 ;

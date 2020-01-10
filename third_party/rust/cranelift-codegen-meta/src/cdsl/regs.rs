@@ -1430,7 +1430,7 @@ superclass
 .
 pub
 fn
-finish
+build
 (
 self
 )

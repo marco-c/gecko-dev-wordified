@@ -424,7 +424,10 @@ crate
 value_label
 :
 :
+{
 ValueLabelsRanges
+ValueLocRange
+}
 ;
 pub
 use

@@ -17,10 +17,10 @@ crate
 cdsl
 :
 :
-inst
+instructions
 :
 :
-InstructionGroup
+InstructionGroupBuilder
 ;
 use
 crate
@@ -104,7 +104,7 @@ arm64
 ;
 setting
 .
-finish
+build
 (
 )
 }
@@ -340,7 +340,7 @@ builder
 ;
 regs
 .
-finish
+build
 (
 )
 }
@@ -379,7 +379,7 @@ define_registers
 let
 inst_group
 =
-InstructionGroup
+InstructionGroupBuilder
 :
 :
 new
@@ -393,6 +393,14 @@ specific
 instruction
 set
 "
+&
+shared_defs
+.
+format_registry
+)
+.
+build
+(
 )
 ;
 let

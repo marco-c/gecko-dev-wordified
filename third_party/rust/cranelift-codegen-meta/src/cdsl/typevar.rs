@@ -449,7 +449,7 @@ bits
 bits
 )
 .
-finish
+build
 (
 )
 )
@@ -484,7 +484,7 @@ special_type
 ]
 )
 .
-finish
+build
 (
 )
 )
@@ -640,7 +640,7 @@ name
 doc
 builder
 .
-finish
+build
 (
 )
 )
@@ -6271,7 +6271,7 @@ self
 }
 pub
 fn
-finish
+build
 (
 self
 )
@@ -6476,7 +6476,7 @@ includes_scalars
 true
 )
 .
-finish
+build
 (
 )
 }
@@ -6907,7 +6907,7 @@ Interval
 All
 )
 .
-finish
+build
 (
 )
 ;
@@ -7006,7 +7006,7 @@ Interval
 All
 )
 .
-finish
+build
 (
 )
 ;
@@ -7106,7 +7106,7 @@ Interval
 All
 )
 .
-finish
+build
 (
 )
 ;
@@ -7216,7 +7216,7 @@ includes_scalars
 false
 )
 .
-finish
+build
 (
 )
 ;
@@ -7333,7 +7333,7 @@ includes_scalars
 true
 )
 .
-finish
+build
 (
 )
 ;
@@ -7438,7 +7438,7 @@ ints
 64
 )
 .
-finish
+build
 (
 )
 ;
@@ -7549,7 +7549,7 @@ ints
 MAX_BITS
 )
 .
-finish
+build
 (
 )
 ;
@@ -7582,7 +7582,7 @@ ints
 16
 )
 .
-finish
+build
 (
 )
 ;
@@ -7630,7 +7630,7 @@ floats
 32
 )
 .
-finish
+build
 (
 )
 ;
@@ -7665,7 +7665,7 @@ floats
 32
 )
 .
-finish
+build
 (
 )
 )
@@ -7697,7 +7697,7 @@ simd_lanes
 8
 )
 .
-finish
+build
 (
 )
 ;
@@ -7757,7 +7757,7 @@ floats
 32
 )
 .
-finish
+build
 (
 )
 ;
@@ -7780,7 +7780,7 @@ simd_lanes
 8
 )
 .
-finish
+build
 (
 )
 ;
@@ -7827,7 +7827,7 @@ new
 (
 )
 .
-finish
+build
 (
 )
 ;
@@ -7854,7 +7854,7 @@ simd_lanes
 32
 )
 .
-finish
+build
 (
 )
 .
@@ -7876,7 +7876,7 @@ simd_lanes
 16
 )
 .
-finish
+build
 (
 )
 )
@@ -7904,7 +7904,7 @@ simd_lanes
 32
 )
 .
-finish
+build
 (
 )
 .
@@ -7926,7 +7926,7 @@ simd_lanes
 64
 )
 .
-finish
+build
 (
 )
 )
@@ -7949,7 +7949,7 @@ simd_lanes
 256
 )
 .
-finish
+build
 (
 )
 .
@@ -7971,7 +7971,7 @@ simd_lanes
 256
 )
 .
-finish
+build
 (
 )
 )
@@ -7999,7 +7999,7 @@ ints
 32
 )
 .
-finish
+build
 (
 )
 .
@@ -8021,7 +8021,7 @@ ints
 16
 )
 .
-finish
+build
 (
 )
 )
@@ -8044,7 +8044,7 @@ floats
 32
 )
 .
-finish
+build
 (
 )
 .
@@ -8072,7 +8072,7 @@ floats
 64
 )
 .
-finish
+build
 (
 )
 .
@@ -8094,7 +8094,7 @@ floats
 32
 )
 .
-finish
+build
 (
 )
 )
@@ -8117,7 +8117,7 @@ bools
 8
 )
 .
-finish
+build
 (
 )
 .
@@ -8145,7 +8145,7 @@ bools
 32
 )
 .
-finish
+build
 (
 )
 .
@@ -8167,7 +8167,7 @@ bools
 16
 )
 .
-finish
+build
 (
 )
 )
@@ -8195,7 +8195,7 @@ ints
 32
 )
 .
-finish
+build
 (
 )
 .
@@ -8217,7 +8217,7 @@ ints
 64
 )
 .
-finish
+build
 (
 )
 )
@@ -8240,7 +8240,7 @@ ints
 64
 )
 .
-finish
+build
 (
 )
 .
@@ -8262,7 +8262,7 @@ ints
 64
 )
 .
-finish
+build
 (
 )
 )
@@ -8285,7 +8285,7 @@ floats
 32
 )
 .
-finish
+build
 (
 )
 .
@@ -8307,7 +8307,7 @@ floats
 64
 )
 .
-finish
+build
 (
 )
 )
@@ -8330,7 +8330,7 @@ floats
 64
 )
 .
-finish
+build
 (
 )
 .
@@ -8352,7 +8352,7 @@ floats
 64
 )
 .
-finish
+build
 (
 )
 )
@@ -8375,7 +8375,7 @@ bools
 16
 )
 .
-finish
+build
 (
 )
 .
@@ -8397,7 +8397,7 @@ bools
 32
 )
 .
-finish
+build
 (
 )
 )
@@ -8420,7 +8420,7 @@ bools
 64
 )
 .
-finish
+build
 (
 )
 .
@@ -8442,7 +8442,7 @@ bools
 64
 )
 .
-finish
+build
 (
 )
 )
@@ -8467,7 +8467,7 @@ new
 (
 )
 .
-finish
+build
 (
 )
 ;
@@ -8509,7 +8509,7 @@ floats
 32
 )
 .
-finish
+build
 (
 )
 .
@@ -8551,7 +8551,7 @@ floats
 32
 )
 .
-finish
+build
 (
 )
 )
@@ -8601,7 +8601,7 @@ bools
 64
 )
 .
-finish
+build
 (
 )
 .
@@ -8651,7 +8651,7 @@ Interval
 All
 )
 .
-finish
+build
 (
 )
 )
@@ -8687,7 +8687,7 @@ ints
 8
 )
 .
-finish
+build
 (
 )
 .
@@ -8739,7 +8739,7 @@ floats
 32
 )
 .
-finish
+build
 (
 )
 .
@@ -8781,7 +8781,7 @@ floats
 32
 )
 .
-finish
+build
 (
 )
 )
@@ -8817,7 +8817,7 @@ ints
 8
 )
 .
-finish
+build
 (
 )
 .
@@ -8861,7 +8861,7 @@ bools
 32
 )
 .
-finish
+build
 (
 )
 .
@@ -8895,7 +8895,7 @@ bools
 32
 )
 .
-finish
+build
 (
 )
 )
@@ -8939,7 +8939,7 @@ bools
 64
 )
 .
-finish
+build
 (
 )
 .
@@ -8983,7 +8983,7 @@ bools
 64
 )
 .
-finish
+build
 (
 )
 .
@@ -9017,7 +9017,7 @@ bools
 64
 )
 .
-finish
+build
 (
 )
 )
@@ -9061,7 +9061,7 @@ bools
 8
 )
 .
-finish
+build
 (
 )
 .
@@ -9113,7 +9113,7 @@ floats
 64
 )
 .
-finish
+build
 (
 )
 .
@@ -9155,7 +9155,7 @@ floats
 32
 )
 .
-finish
+build
 (
 )
 )
@@ -9197,7 +9197,7 @@ floats
 32
 )
 .
-finish
+build
 (
 )
 .
@@ -9242,7 +9242,7 @@ floats
 32
 )
 .
-finish
+build
 (
 )
 .
@@ -9289,7 +9289,7 @@ ints
 16
 )
 .
-finish
+build
 (
 )
 .
@@ -9333,7 +9333,7 @@ floats
 64
 )
 .
-finish
+build
 (
 )
 .
@@ -9377,7 +9377,7 @@ bools
 1
 )
 .
-finish
+build
 (
 )
 .
@@ -9429,7 +9429,7 @@ ints
 32
 )
 .
-finish
+build
 (
 )
 .
@@ -9497,7 +9497,7 @@ ints
 64
 )
 .
-finish
+build
 (
 )
 )
@@ -9576,7 +9576,7 @@ ints
 32
 )
 .
-finish
+build
 (
 )
 )

@@ -1818,6 +1818,7 @@ bool
 let
 name
 =
+&
 def
 .
 apply

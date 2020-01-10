@@ -29,7 +29,7 @@ crate
 cdsl
 :
 :
-inst
+instructions
 :
 :
 {
@@ -4590,6 +4590,7 @@ constant_hash
 :
 simple_hash
 (
+&
 inst
 .
 name
