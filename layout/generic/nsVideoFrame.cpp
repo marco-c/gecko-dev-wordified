@@ -2287,7 +2287,10 @@ x
 posterRenderRect
 .
 y
-0
+ReflowChildFlags
+:
+:
+Default
 childStatus
 )
 ;
@@ -2332,7 +2335,10 @@ x
 posterRenderRect
 .
 y
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 }
@@ -2427,7 +2433,10 @@ left
 borderPadding
 .
 top
-0
+ReflowChildFlags
+:
+:
+Default
 childStatus
 )
 ;
@@ -2577,7 +2586,10 @@ left
 borderPadding
 .
 top
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 if

@@ -3124,8 +3124,7 @@ move
 the
 views
 .
-virtual
-uint32_t
+ReflowChildFlags
 GetXULLayoutFlags
 (
 )

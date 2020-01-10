@@ -1342,7 +1342,10 @@ barDesiredSize
 reflowInput
 xoffset
 yoffset
-0
+ReflowChildFlags
+:
+:
+Default
 aStatus
 )
 ;
@@ -1355,7 +1358,10 @@ barDesiredSize
 reflowInput
 xoffset
 yoffset
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 }

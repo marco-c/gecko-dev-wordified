@@ -5858,7 +5858,10 @@ kidReflowInput
 wm
 origin
 containerSize
-0
+ReflowChildFlags
+:
+:
+Default
 aStatus
 )
 ;
@@ -6137,7 +6140,10 @@ kidReflowInput
 wm
 childOrigin
 containerSize
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 childContentBEnd
@@ -9708,7 +9714,10 @@ ReflowOverflowContainerChildren
 aPresContext
 aReflowInput
 ocBounds
-0
+ReflowChildFlags
+:
+:
+Default
 ocStatus
 )
 ;

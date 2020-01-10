@@ -5176,7 +5176,10 @@ overSize
 nullptr
 dxOver
 dy
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 }
@@ -5208,7 +5211,10 @@ baseSize
 nullptr
 dxBase
 dy
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 /
@@ -5252,7 +5258,10 @@ underSize
 nullptr
 dxUnder
 dy
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 }

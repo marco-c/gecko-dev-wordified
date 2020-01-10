@@ -1108,7 +1108,10 @@ wrapperReflowInput
 myWM
 wrapperOffset
 dummyContainerSize
-0
+ReflowChildFlags
+:
+:
+Default
 childStatus
 )
 ;
@@ -1365,7 +1368,10 @@ wrapperReflowInput
 myWM
 wrapperOffset
 borderBoxSize
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 if

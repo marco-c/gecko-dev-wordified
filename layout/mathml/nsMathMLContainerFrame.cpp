@@ -5942,7 +5942,10 @@ aDesiredSize
 aReflowInput
 0
 0
-NS_FRAME_NO_MOVE_FRAME
+ReflowChildFlags
+:
+:
+NoMoveFrame
 aStatus
 )
 ;
@@ -9033,7 +9036,10 @@ GetReflowOutput
 nullptr
 dx
 dy
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 +

@@ -1534,7 +1534,10 @@ contentsReflowInput
 wm
 childPos
 dummyContainerSize
-0
+ReflowChildFlags
+:
+:
+Default
 contentsReflowStatus
 )
 ;
@@ -2045,7 +2048,10 @@ contentsReflowInput
 wm
 childPos
 containerSize
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 /

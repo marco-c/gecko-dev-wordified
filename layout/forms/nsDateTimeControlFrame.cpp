@@ -922,7 +922,10 @@ childReflowOuput
 myWM
 childOffset
 dummyContainerSize
-0
+ReflowChildFlags
+:
+:
+Default
 childStatus
 )
 ;
@@ -1179,7 +1182,10 @@ childReflowOuput
 myWM
 childOffset
 borderBoxSize
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 if

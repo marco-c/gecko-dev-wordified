@@ -1303,7 +1303,7 @@ will
 do
 that
 .
-uint32_t
+ReflowChildFlags
 oldFlags
 =
 aState
@@ -1316,9 +1316,15 @@ aState
 .
 SetLayoutFlags
 (
-NS_FRAME_NO_SIZE_VIEW
+ReflowChildFlags
+:
+:
+NoSizeView
 |
-NS_FRAME_NO_VISIBILITY
+ReflowChildFlags
+:
+:
+NoVisibility
 )
 ;
 /

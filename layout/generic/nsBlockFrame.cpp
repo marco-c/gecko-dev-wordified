@@ -8707,7 +8707,10 @@ aPresContext
 *
 reflowInput
 ocBounds
-0
+ReflowChildFlags
+:
+:
+Default
 ocStatus
 )
 ;
@@ -49390,7 +49393,10 @@ metrics
 VisualOverflow
 (
 )
-NS_FRAME_NO_MOVE_VIEW
+ReflowChildFlags
+:
+:
+NoMoveView
 )
 ;
 }

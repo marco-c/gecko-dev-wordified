@@ -1874,7 +1874,10 @@ nullptr
 aWM
 aKidPosition
 aContainerSize
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 nsTableFrame
@@ -2746,7 +2749,10 @@ kidReflowInput
 wm
 kidPosition
 containerSize
-0
+ReflowChildFlags
+:
+:
+Default
 aStatus
 )
 ;
@@ -8253,7 +8259,10 @@ rowMetrics
 rowReflowInput
 0
 0
-NS_FRAME_NO_MOVE_FRAME
+ReflowChildFlags
+:
+:
+NoMoveFrame
 aStatus
 )
 ;

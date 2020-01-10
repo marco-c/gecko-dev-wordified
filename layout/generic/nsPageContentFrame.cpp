@@ -485,7 +485,10 @@ aDesiredSize
 kidReflowInput
 0
 0
-0
+ReflowChildFlags
+:
+:
+Default
 aStatus
 )
 ;
@@ -768,7 +771,10 @@ aDesiredSize
 kidReflowInput
 0
 0
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 NS_ASSERTION
