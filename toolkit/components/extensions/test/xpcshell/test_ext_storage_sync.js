@@ -3155,8 +3155,11 @@ when
 /
 Assert
 that
-the
-request
+a
+post
+in
+a
+batch
 was
 made
 with
@@ -3186,7 +3189,7 @@ another
 assertion
 .
 function
-assertAuthenticatedRequest
+assertAuthenticatedPost
 (
 post
 )
@@ -3261,7 +3264,7 @@ Match
 /
 Also
 calls
-assertAuthenticatedRequest
+assertAuthenticatedPost
 (
 post
 )
@@ -3272,7 +3275,7 @@ assertPostedNewRecord
 post
 )
 {
-assertAuthenticatedRequest
+assertAuthenticatedPost
 (
 post
 )
@@ -3343,7 +3346,7 @@ etag
 /
 Also
 calls
-assertAuthenticatedRequest
+assertAuthenticatedPost
 (
 post
 )
@@ -3355,7 +3358,7 @@ post
 since
 )
 {
-assertAuthenticatedRequest
+assertAuthenticatedPost
 (
 post
 )
