@@ -314,7 +314,6 @@ saveAddressesMessage
 [
 brandShortName
 ]
-1
 )
 anchor
 :
@@ -725,7 +724,6 @@ saveCreditCardMessage
 [
 brandShortName
 ]
-1
 )
 descriptionLabel
 :

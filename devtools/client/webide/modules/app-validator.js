@@ -541,7 +541,6 @@ invalidManifestURL
 [
 manifestURL
 ]
-1
 )
 ;
 return
@@ -598,7 +597,6 @@ invalidManifestJSON
 e
 manifestURL
 ]
-2
 )
 ;
 reject
@@ -642,7 +640,6 @@ req
 statusText
 manifestURL
 ]
-2
 )
 ;
 reject
@@ -682,7 +679,6 @@ noAccessManifestURL
 e
 manifestURL
 ]
-2
 )
 ;
 reject
@@ -1078,7 +1074,6 @@ e
 .
 message
 ]
-2
 )
 )
 ;
@@ -1112,7 +1107,6 @@ this
 .
 type
 ]
-1
 )
 )
 ;
@@ -1397,7 +1391,6 @@ manifest
 .
 launch_path
 ]
-1
 )
 )
 ;
@@ -1527,7 +1520,6 @@ origin
 +
 path
 ]
-1
 )
 )
 ;
@@ -1610,7 +1602,6 @@ accessFailedLaunchPath
 [
 indexURL
 ]
-1
 )
 )
 ;
@@ -1658,7 +1649,6 @@ req
 .
 status
 ]
-2
 )
 )
 ;
@@ -1694,7 +1684,6 @@ accessFailedLaunchPath
 [
 indexURL
 ]
-1
 )
 )
 ;
@@ -1735,7 +1724,6 @@ accessFailedLaunchPath
 [
 indexURL
 ]
-1
 )
 )
 ;
@@ -1809,7 +1797,6 @@ invalidAppType
 [
 appType
 ]
-1
 )
 )
 ;
@@ -1858,7 +1845,6 @@ invalidHostedPriviledges
 [
 appType
 ]
-1
 )
 )
 ;

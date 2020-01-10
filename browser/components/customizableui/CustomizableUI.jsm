@@ -11367,9 +11367,6 @@ formatStringFromName
 (
 name
 aFormatArgs
-aFormatArgs
-.
-length
 )
 |
 |

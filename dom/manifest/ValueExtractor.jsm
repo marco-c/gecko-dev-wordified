@@ -360,7 +360,6 @@ objectName
 property
 expectedType
 ]
-3
 )
 )
 ;
@@ -519,7 +518,6 @@ spec
 property
 value
 ]
-2
 )
 )
 ;
@@ -594,7 +592,6 @@ spec
 property
 value
 ]
-2
 )
 )
 ;

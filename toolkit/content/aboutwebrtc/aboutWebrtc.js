@@ -1228,7 +1228,6 @@ file
 .
 path
 ]
-1
 )
 ;
 this
@@ -1379,7 +1378,6 @@ debug_mode_on_state_msg
 [
 file
 ]
-1
 )
 ;
 }
@@ -1452,7 +1450,6 @@ debug_mode_off_state_msg
 [
 file
 ]
-1
 )
 ;
 }
@@ -1646,7 +1643,6 @@ aec_logging_off_state_msg
 [
 file
 ]
-1
 )
 ;
 }

@@ -497,9 +497,6 @@ from
 (
 arguments
 )
-arguments
-.
-length
 )
 ;
 }

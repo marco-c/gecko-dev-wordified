@@ -832,7 +832,6 @@ doesNotExist
 [
 selectedPanelId
 ]
-1
 )
 )
 )

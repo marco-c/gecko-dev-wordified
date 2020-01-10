@@ -343,11 +343,12 @@ nsIStringBundle
 bundle
 nsresult
 aStatus
-uint32_t
-argCount
-char16_t
-*
-*
+const
+nsTArray
+<
+nsString
+>
+&
 argArray
 nsAString
 &

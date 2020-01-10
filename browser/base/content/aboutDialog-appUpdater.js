@@ -1430,7 +1430,6 @@ label
 [
 updateVersion
 ]
-1
 )
 ;
 button

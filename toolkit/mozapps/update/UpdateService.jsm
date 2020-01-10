@@ -11597,7 +11597,6 @@ this
 .
 displayVersion
 ]
-2
 )
 ;
 }

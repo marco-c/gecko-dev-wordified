@@ -616,7 +616,6 @@ label
 [
 hostPort
 ]
-1
 )
 )
 ;
@@ -651,7 +650,6 @@ label
 [
 BRAND_NAME
 ]
-1
 )
 )
 ;
@@ -688,7 +686,6 @@ label
 [
 hostPort
 ]
-1
 )
 )
 ;

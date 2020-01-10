@@ -3750,7 +3750,6 @@ description
 [
 acctName
 ]
-1
 )
 ;
 let

@@ -376,9 +376,6 @@ formatStringFromName
 (
 msgId
 args
-args
-.
-length
 )
 }
 )

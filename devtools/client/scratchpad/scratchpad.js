@@ -6608,7 +6608,6 @@ failed
 [
 charset
 ]
-1
 )
 "
 file
@@ -6927,7 +6926,6 @@ join
 "
 )
 ]
-1
 )
 ;
 this
@@ -9951,7 +9949,6 @@ ch
 +
 1
 ]
-2
 )
 ;
 }
@@ -10200,7 +10197,6 @@ display
 true
 )
 ]
-3
 )
 ;
 let
@@ -10535,7 +10531,6 @@ msg
 [
 okstring
 ]
-1
 )
 ;
 this

@@ -890,7 +890,6 @@ wildcard
 b
 "
 ]
-1
 )
 bundle
 .
@@ -908,7 +907,6 @@ oneSite
 a
 "
 ]
-1
 )
 bundle
 .
@@ -926,7 +924,6 @@ oneSite
 c
 "
 ]
-1
 )
 ]
 }
@@ -1142,7 +1139,6 @@ wildcard
 1
 "
 ]
-1
 )
 bundle
 .
@@ -1160,7 +1156,6 @@ wildcard
 2
 "
 ]
-1
 )
 bundle
 .
@@ -1178,7 +1173,6 @@ wildcard
 3
 "
 ]
-1
 )
 bundle
 .
@@ -1196,7 +1190,6 @@ wildcard
 4
 "
 ]
-1
 )
 bundle
 .
@@ -1214,7 +1207,6 @@ oneSite
 a
 "
 ]
-1
 )
 bundle
 .
@@ -1232,7 +1224,6 @@ oneSite
 b
 "
 ]
-1
 )
 bundle
 .
@@ -1250,7 +1241,6 @@ oneSite
 c
 "
 ]
-1
 )
 PluralForm
 .
@@ -1551,7 +1541,6 @@ wildcard
 x
 "
 ]
-1
 )
 bundle
 .
@@ -1569,7 +1558,6 @@ wildcard
 tld
 "
 ]
-1
 )
 bundle
 .
@@ -1587,7 +1575,6 @@ oneSite
 x
 "
 ]
-1
 )
 /
 /
@@ -1613,7 +1600,6 @@ nativeMessaging
 [
 DUMMY_APP_NAME
 ]
-1
 )
 /
 /
@@ -1995,7 +1981,6 @@ oneSite
 a
 "
 ]
-1
 )
 ]
 "
@@ -2537,7 +2522,6 @@ wildcard
 c
 "
 ]
-1
 )
 bundle
 .
@@ -2553,7 +2537,6 @@ proxy
 [
 DUMMY_APP_NAME
 ]
-1
 )
 ]
 "
@@ -2681,7 +2664,6 @@ oneSite
 b
 "
 ]
-1
 )
 ]
 "

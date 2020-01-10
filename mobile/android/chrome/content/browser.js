@@ -10201,7 +10201,6 @@ message
 [
 title
 ]
-1
 )
 ;
 }
@@ -23181,7 +23180,6 @@ NativeWindow
 name
 script
 ]
-2
 )
 ;
 Cu
@@ -35686,7 +35684,6 @@ xpinstallDisabledMessage2
 brandShortName
 host
 ]
-2
 )
 ;
 buttons
@@ -35835,7 +35832,6 @@ xpinstallPromptWarning2
 brandShortName
 host
 ]
-2
 )
 ;
 }
@@ -35917,7 +35913,6 @@ xpinstallPromptWarningLocal
 brandShortName
 addon
 ]
-2
 )
 ;
 }
@@ -35950,7 +35945,6 @@ xpinstallPromptWarningDirect
 [
 brandShortName
 ]
-1
 )
 ;
 }
@@ -36099,7 +36093,6 @@ xpinstallPromptWarningDirect
 [
 brandShortName
 ]
-1
 )
 buttons
 :
@@ -38262,7 +38255,6 @@ ask
 [
 host
 ]
-1
 )
 ;
 responseTopic
@@ -40456,7 +40448,6 @@ iData
 .
 caOrg
 ]
-1
 )
 ;
 /
@@ -40569,7 +40560,6 @@ iData
 .
 country
 ]
-2
 )
 ;
 result
@@ -42177,7 +42167,6 @@ engine
 .
 title
 ]
-1
 )
 Snackbars
 .
@@ -42257,7 +42246,6 @@ engine
 .
 title
 ]
-1
 )
 Snackbars
 .
@@ -43184,7 +43172,6 @@ alertSearchEngineAddedToast
 [
 name
 ]
-1
 )
 Snackbars
 .
@@ -43977,7 +43964,6 @@ apps
 .
 name
 ]
-1
 )
 :
 Strings

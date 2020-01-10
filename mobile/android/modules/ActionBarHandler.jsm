@@ -3605,7 +3605,6 @@ defaultEngine
 .
 name
 ]
-1
 )
 icon
 :

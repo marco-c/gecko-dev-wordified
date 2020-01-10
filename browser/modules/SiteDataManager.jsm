@@ -2599,7 +2599,6 @@ clearSiteDataPromptText
 [
 brandName
 ]
-1
 )
 ;
 let

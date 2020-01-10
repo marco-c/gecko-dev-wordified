@@ -192,7 +192,6 @@ windowtitle
 [
 brandShortName
 ]
-1
 )
 ;
 for

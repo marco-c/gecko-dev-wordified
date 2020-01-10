@@ -2082,9 +2082,6 @@ formatStringFromName
 (
 key
 formatArgs
-formatArgs
-.
-length
 )
 ;
 return

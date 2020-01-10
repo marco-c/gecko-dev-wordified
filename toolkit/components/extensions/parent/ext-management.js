@@ -212,9 +212,6 @@ formatStringFromName
 (
 key
 args
-args
-.
-length
 )
 ;
 }

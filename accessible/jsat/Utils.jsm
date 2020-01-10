@@ -875,9 +875,6 @@ formatStringFromName
 (
 string
 args
-args
-.
-length
 )
 ;
 }

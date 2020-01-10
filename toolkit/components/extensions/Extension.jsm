@@ -8526,7 +8526,6 @@ itemKey
 [
 item
 ]
-1
 )
 )
 )
@@ -8715,7 +8714,6 @@ info
 .
 appName
 ]
-1
 )
 )
 ;
@@ -8880,7 +8878,6 @@ header
 >
 "
 ]
-1
 )
 ;
 result
@@ -9025,7 +9022,6 @@ sideloadHeader
 >
 "
 ]
-1
 )
 ;
 let
@@ -9170,7 +9166,6 @@ updateText
 >
 "
 ]
-1
 )
 ;
 result
@@ -9253,7 +9248,6 @@ optionalPermsHeader
 >
 "
 ]
-1
 )
 ;
 result

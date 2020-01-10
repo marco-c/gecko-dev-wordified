@@ -297,7 +297,6 @@ aURI
 .
 scheme
 ]
-1
 )
 bundle
 .
@@ -329,7 +328,6 @@ appinfo
 .
 name
 ]
-1
 )
 ]
 ;

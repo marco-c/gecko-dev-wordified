@@ -4882,7 +4882,6 @@ appinfo
 .
 name
 ]
-1
 )
 ;
           

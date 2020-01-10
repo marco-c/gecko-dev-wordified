@@ -3465,9 +3465,6 @@ formatStringFromName
 (
 aName
 aArgs
-aArgs
-.
-length
 )
 ;
 }

@@ -655,9 +655,6 @@ this
 .
 property
 params
-params
-.
-length
 )
 ;
 }

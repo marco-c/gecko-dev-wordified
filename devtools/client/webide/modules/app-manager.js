@@ -1253,9 +1253,6 @@ formatStringFromName
 (
 l10nProperty
 l10nArgs
-l10nArgs
-.
-length
 )
 ;
 }

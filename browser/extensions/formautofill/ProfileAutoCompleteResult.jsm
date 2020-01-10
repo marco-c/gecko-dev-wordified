@@ -2235,7 +2235,6 @@ insecureFieldWarningDescription
 [
 brandName
 ]
-1
 )
 ]
 ;

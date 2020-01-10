@@ -3140,7 +3140,6 @@ addon
 .
 name
 ]
-1
 )
 ;
 let

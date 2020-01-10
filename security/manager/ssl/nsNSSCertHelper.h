@@ -201,12 +201,12 @@ char
 *
 stringName
 const
-char16_t
-*
-*
+nsTArray
+<
+nsString
+>
+&
 params
-uint32_t
-numParams
 nsAString
 &
 result

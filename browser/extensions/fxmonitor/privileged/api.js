@@ -650,9 +650,6 @@ formatStringFromName
 (
 aKey
 args
-args
-.
-length
 )
 ;
 }

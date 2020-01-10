@@ -3223,14 +3223,6 @@ str
 .
 key
 ]
-data
-[
-str
-.
-key
-]
-.
-length
 )
 ;
 }

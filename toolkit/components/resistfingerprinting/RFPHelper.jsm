@@ -1723,7 +1723,6 @@ spoof_english
 [
 brandShortName
 ]
-1
 )
 ;
 let

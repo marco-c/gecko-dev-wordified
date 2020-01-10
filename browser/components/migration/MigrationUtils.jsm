@@ -3682,9 +3682,6 @@ formatStringFromName
 (
 aKey
 aReplacements
-aReplacements
-.
-length
 )
 ;
 }

@@ -1192,7 +1192,6 @@ key
 [
 param
 ]
-1
 )
 :
 gBrowserBundle

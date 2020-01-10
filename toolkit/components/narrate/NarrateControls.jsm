@@ -2194,7 +2194,6 @@ voice
 .
 lang
 ]
-2
 )
 ;
 default
@@ -2269,7 +2268,6 @@ voice
 .
 lang
 ]
-2
 )
 ;
 }

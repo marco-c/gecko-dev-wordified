@@ -388,7 +388,6 @@ connectionFailure
 [
 domain
 ]
-1
 )
 ;
 is
@@ -468,7 +467,6 @@ dnsNotFound2
 [
 domain
 ]
-1
 )
 ;
 is

@@ -338,9 +338,6 @@ formatStringFromName
 (
 aStringKey
 aStringsArray
-aStringsArray
-.
-length
 )
 ;
 }

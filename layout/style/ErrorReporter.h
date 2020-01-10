@@ -343,7 +343,10 @@ char
 *
 aMessage
 const
-nsAutoString
+nsTArray
+<
+nsString
+>
 &
 aParam
 )
