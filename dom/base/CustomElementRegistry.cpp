@@ -459,6 +459,7 @@ aRv
 )
 ;
 }
+const
 RefPtr
 <
 CustomElementDefinition
