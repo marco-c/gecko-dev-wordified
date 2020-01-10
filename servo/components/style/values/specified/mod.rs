@@ -1009,6 +1009,7 @@ text
 {
 InitialLetter
 LetterSpacing
+LineBreak
 LineHeight
 TextAlign
 }

@@ -576,6 +576,11 @@ justify
 self
 "
 "
+line
+-
+break
+"
+"
 list
 -
 style

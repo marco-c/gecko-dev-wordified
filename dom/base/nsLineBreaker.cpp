@@ -485,6 +485,15 @@ if
 (
 !
 mCurrentWordContainsComplexChar
+|
+|
+mWordBreak
+=
+=
+LineBreaker
+:
+:
+kWordBreak_Anywhere
 )
 {
 /
@@ -517,7 +526,7 @@ Elements
 (
 )
 mWordBreak
-=
+>
 =
 LineBreaker
 :
@@ -1636,7 +1645,7 @@ isBreakableSpace
 |
 (
 mWordBreak
-=
+>
 =
 LineBreaker
 :
@@ -2650,7 +2659,7 @@ isBreakableSpace
 |
 (
 mWordBreak
-=
+>
 =
 LineBreaker
 :
