@@ -29487,9 +29487,9 @@ then
 wrap
 it
 in
+/
+/
 a
-/
-/
 scroll
 frame
 .
@@ -29505,9 +29505,9 @@ that
 for
 paginated
 contexts
+/
+/
 for
-/
-/
 frames
 that
 are
@@ -29521,9 +29521,9 @@ t
 frames
 for
 native
+/
+/
 anonymous
-/
-/
 stuff
 .
 /
@@ -30234,9 +30234,9 @@ to
 be
 XUL
 becuase
+/
+/
 their
-/
-/
 parent
 reflows
 them
