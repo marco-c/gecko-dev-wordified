@@ -1090,10 +1090,10 @@ false
 )
 ;
 nsresult
-RemoveItem
+RemoveRangeInternal
 (
 nsRange
-*
+&
 aRange
 )
 ;
