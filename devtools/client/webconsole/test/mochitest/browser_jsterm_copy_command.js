@@ -361,9 +361,7 @@ performTests
 )
 {
 const
-{
-jsterm
-}
+hud
 =
 await
 openNewTabAndConsole
@@ -410,7 +408,7 @@ random
 await
 testCopy
 (
-jsterm
+hud
 random
 random
 .
@@ -422,7 +420,7 @@ toString
 await
 testCopy
 (
-jsterm
+hud
 JSON
 .
 stringify
@@ -435,7 +433,7 @@ string
 await
 testCopy
 (
-jsterm
+hud
 obj
 .
 toSource
@@ -487,7 +485,7 @@ outerHTML
 await
 testCopy
 (
-jsterm
+hud
 (
 "
 #
@@ -503,7 +501,7 @@ outerHTML
 function
 testCopy
 (
-jsterm
+hud
 stringToCopy
 expectedResult
 )
@@ -551,10 +549,9 @@ command
 "
 )
 ;
-jsterm
-.
 execute
 (
+hud
 command
 )
 ;

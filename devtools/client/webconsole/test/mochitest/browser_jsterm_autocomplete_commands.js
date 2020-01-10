@@ -287,6 +287,19 @@ value
 "
 )
 ;
+onAutocompleUpdated
+=
+jsterm
+.
+once
+(
+"
+autocomplete
+-
+updated
+"
+)
+;
 EventUtils
 .
 synthesizeKey
@@ -295,6 +308,9 @@ synthesizeKey
 KEY_Tab
 "
 )
+;
+await
+onAutocompleUpdated
 ;
 is
 (
@@ -341,6 +357,7 @@ completion
 "
 )
 ;
+await
 setInputValue
 (
 hud

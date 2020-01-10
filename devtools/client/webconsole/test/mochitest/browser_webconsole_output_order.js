@@ -210,12 +210,9 @@ text
 }
 )
 ;
-hud
-.
-jsterm
-.
 execute
 (
+hud
 "
 console
 .
