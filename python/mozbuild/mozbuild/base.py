@@ -79,6 +79,8 @@ import
 sys
 import
 types
+import
+errno
 try
 :
     
