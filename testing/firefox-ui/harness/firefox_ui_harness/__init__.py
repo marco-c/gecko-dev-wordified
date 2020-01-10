@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
 __version__
 =
 '
@@ -62,7 +66,11 @@ __version__
 .
 0
 '
+from
+.
 import
 cli_functional
+from
+.
 import
 cli_update
