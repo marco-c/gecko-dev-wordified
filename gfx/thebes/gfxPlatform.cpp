@@ -16760,6 +16760,8 @@ NIGHTLY_BUILD
 /
 /
 For
+AMD
+/
 Intel
 devices
 if
@@ -16772,9 +16774,9 @@ it
 if
 the
 screen
+/
+/
 is
-/
-/
 small
 enough
 .
@@ -16839,6 +16841,7 @@ aHasBattery
 ;
 if
 (
+(
 adapterVendorID
 =
 =
@@ -16846,6 +16849,16 @@ u
 "
 0x8086
 "
+|
+|
+adapterVendorID
+=
+=
+u
+"
+0x1002
+"
+)
 &
 &
 screenPixels
