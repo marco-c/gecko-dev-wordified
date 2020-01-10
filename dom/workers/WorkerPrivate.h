@@ -293,6 +293,9 @@ h
 class
 nsIThreadInternal
 ;
+class
+nsITimeoutHandler
+;
 namespace
 mozilla
 {
@@ -1225,7 +1228,7 @@ SetTimeout
 JSContext
 *
 aCx
-nsIScriptTimeoutHandler
+nsITimeoutHandler
 *
 aHandler
 int32_t
