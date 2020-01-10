@@ -870,6 +870,11 @@ togglePaneCollapse
 any
 )
 }
+position
+=
+"
+end
+"
 /
 >
 )
