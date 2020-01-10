@@ -894,6 +894,12 @@ openintab
 "
 false
 ]
+[
+"
+openViewOnFocus
+"
+false
+]
 /
 /
 Whether
