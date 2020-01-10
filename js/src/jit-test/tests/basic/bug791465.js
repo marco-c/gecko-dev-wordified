@@ -358,7 +358,7 @@ assignment_ops
 ]
 ;
 var
-invalid_strict_funs_referror
+invalid_strict_funs_syntax_error
 =
 assignment_ops
 .
@@ -407,13 +407,13 @@ can
 only
 test
 for
-ReferenceError
+SyntaxError
 for
 (
 var
 f
 of
-invalid_strict_funs_referror
+invalid_strict_funs_syntax_error
 )
 {
 assertThrowsInstanceOf
@@ -427,7 +427,7 @@ Function
 f
 )
 }
-ReferenceError
+SyntaxError
 )
 ;
 }
