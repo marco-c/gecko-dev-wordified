@@ -34386,7 +34386,7 @@ if
 mPresContext
 -
 >
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 &
