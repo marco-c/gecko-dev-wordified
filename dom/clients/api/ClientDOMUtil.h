@@ -160,17 +160,6 @@ mozilla
 /
 dom
 /
-WorkerHolderToken
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 WorkerPrivate
 .
 h
