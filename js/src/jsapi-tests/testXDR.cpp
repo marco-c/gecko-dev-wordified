@@ -474,6 +474,10 @@ RootedScript
 script
 (
 cx
+)
+;
+CHECK
+(
 JS
 :
 :
@@ -486,6 +490,8 @@ strlen
 (
 s
 )
+&
+script
 )
 )
 ;
@@ -636,6 +642,10 @@ RootedScript
 script
 (
 cx
+)
+;
+CHECK
+(
 JS
 :
 :
@@ -646,6 +656,8 @@ options
 "
 "
 0
+&
+script
 )
 )
 ;
@@ -1094,6 +1106,10 @@ RootedScript
 script
 (
 cx
+)
+;
+CHECK
+(
 JS
 :
 :
@@ -1108,6 +1124,8 @@ strlen
 *
 s
 )
+&
+script
 )
 )
 ;
@@ -1263,8 +1281,8 @@ __FILE__
 __LINE__
 )
 ;
-script
-=
+CHECK
+(
 JS
 :
 :
@@ -1275,6 +1293,9 @@ options
 "
 "
 0
+&
+script
+)
 )
 ;
 CHECK

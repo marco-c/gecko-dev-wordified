@@ -887,6 +887,11 @@ JSScript
 script
 (
 aCx
+)
+;
+if
+(
+!
 JS
 :
 :
@@ -895,13 +900,9 @@ Compile
 aCx
 mOptions
 srcBuf
-)
-)
-;
-if
-(
-!
+&
 script
+)
 )
 {
 return
