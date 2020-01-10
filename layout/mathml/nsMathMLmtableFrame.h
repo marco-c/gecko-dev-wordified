@@ -1269,7 +1269,10 @@ aModType
 override
 ;
 virtual
-uint8_t
+mozilla
+:
+:
+StyleVerticalAlignKeyword
 GetVerticalAlign
 (
 )

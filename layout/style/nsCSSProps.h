@@ -2281,13 +2281,6 @@ kTextOverflowKTable
 [
 ]
 ;
-static
-const
-KTableEntry
-kVerticalAlignKTable
-[
-]
-;
 }
 ;
 /
