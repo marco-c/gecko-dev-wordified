@@ -6590,12 +6590,6 @@ documentOnly
 true
 )
 ;
-const
-promises
-=
-[
-]
-;
 for
 (
 const
@@ -6630,10 +6624,6 @@ the
 existing
 errors
 .
-promises
-.
-push
-(
 getSheetText
 (
 sheet
@@ -6664,7 +6654,6 @@ false
 )
 ;
 }
-)
 )
 ;
 }
