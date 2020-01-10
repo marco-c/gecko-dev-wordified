@@ -7067,7 +7067,9 @@ retains
 focus
 gURLBar
 .
-closePopup
+view
+.
+close
 (
 )
 ;
