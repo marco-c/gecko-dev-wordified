@@ -90529,7 +90529,7 @@ ReportUseCounters
 static
 const
 bool
-sDebugUseCounters
+kDebugUseCounters
 =
 false
 ;
@@ -90630,7 +90630,7 @@ return
 }
 if
 (
-sDebugUseCounters
+kDebugUseCounters
 )
 {
 nsCString
@@ -91083,7 +91083,7 @@ value
 {
 if
 (
-sDebugUseCounters
+kDebugUseCounters
 )
 {
 const
@@ -91199,7 +91199,7 @@ value
 {
 if
 (
-sDebugUseCounters
+kDebugUseCounters
 )
 {
 const
