@@ -7597,6 +7597,17 @@ self
 .
 minidump_stackwalk_path
                 
+if
+self
+.
+config
+[
+'
+nodejs_path
+'
+]
+:
+                    
 env
 [
 '
