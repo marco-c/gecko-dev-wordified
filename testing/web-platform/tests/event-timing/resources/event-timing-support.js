@@ -112,7 +112,7 @@ clickHandler
 {
 mainThreadBusy
 (
-60
+120
 )
 ;
 if
@@ -274,12 +274,12 @@ event
 '
 )
 ;
-assert_greater_than
+assert_greater_than_equal
 (
 entry
 .
 duration
-50
+104
 "
 The
 entry
@@ -290,7 +290,11 @@ should
 be
 greater
 than
-50ms
+or
+equal
+to
+104
+ms
 .
 "
 )
