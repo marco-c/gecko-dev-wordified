@@ -1405,6 +1405,14 @@ getInputBuffer
 bufferId
 )
 ;
+if
+(
+buffer
+!
+=
+null
+)
+{
 mInputBuffers
 .
 put
@@ -1413,6 +1421,7 @@ bufferId
 buffer
 )
 ;
+}
 }
 buffer
 .
