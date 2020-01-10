@@ -1603,9 +1603,8 @@ nsCounterList
 *
 CounterListFor
 (
-const
-nsAString
-&
+nsAtom
+*
 aCounterName
 )
 ;
@@ -1994,7 +1993,10 @@ aType
 ;
 nsClassHashtable
 <
-nsStringHashKey
+nsRefPtrHashKey
+<
+nsAtom
+>
 nsCounterList
 >
 mNames
