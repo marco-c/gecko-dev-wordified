@@ -643,16 +643,6 @@ UI
 .
 EDITOR_WIDTH
 )
-showEditorOnboarding
-:
-getBoolPref
-(
-PREFS
-.
-UI
-.
-EDITOR_ONBOARDING
-)
 timestampsVisible
 :
 getBoolPref

@@ -35,7 +35,7 @@ that
 hitting
 Ctrl
 +
-B
+E
 does
 toggle
 the
