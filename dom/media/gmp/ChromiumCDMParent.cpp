@@ -497,10 +497,6 @@ mCDMCallback
 =
 aCDMCallback
 ;
-mMainThread
-=
-aMainThread
-;
 RefPtr
 <
 ChromiumCDMParent
