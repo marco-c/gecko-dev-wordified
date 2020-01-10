@@ -114,6 +114,9 @@ data
 do_get_file
 (
 "
+.
+.
+/
 data
 "
 )
@@ -498,6 +501,9 @@ copyBlocklistToProfile
 do_get_file
 (
 "
+.
+.
+/
 data
 /
 test_bug514327_3_empty

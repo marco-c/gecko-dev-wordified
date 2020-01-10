@@ -256,6 +256,9 @@ copyBlocklistToProfile
 do_get_file
 (
 "
+.
+.
+/
 data
 /
 pluginInfoURL_block
