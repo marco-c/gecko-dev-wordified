@@ -377,6 +377,10 @@ aData
 nsIPrincipal
 *
 aLoadingPrincipal
+const
+OriginAttributes
+&
+aStoragePrincipalAttrs
 )
 ;
 /
@@ -423,6 +427,10 @@ aName
 nsIPrincipal
 *
 aLoadingPrincipal
+const
+OriginAttributes
+&
+aStoragePrincipalAttrs
 )
 ;
 /
@@ -559,6 +567,10 @@ aData
 nsIPrincipal
 *
 aLoadingPrincipal
+const
+OriginAttributes
+&
+aStoragePrincipalAttrs
 )
 ;
 ~
@@ -580,6 +592,9 @@ mLoadingPrincipal
 ;
 nsCString
 mDomain
+;
+OriginAttributes
+mStoragePrincipalAttrs
 ;
 nsCOMPtr
 <
