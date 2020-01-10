@@ -415,7 +415,7 @@ const
 GMPVideoEncodedFrameData
 &
 aEncodedFrame
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
