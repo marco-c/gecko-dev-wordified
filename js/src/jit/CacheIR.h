@@ -15334,7 +15334,7 @@ HandleValue
 val
 )
 ;
-bool
+AttachDecision
 tryAttachStub
 (
 )
