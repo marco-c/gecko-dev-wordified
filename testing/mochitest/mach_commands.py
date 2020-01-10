@@ -1211,8 +1211,9 @@ options
 .
 app
 is
+not
 None
-or
+and
 '
 geckoview
 '
