@@ -127,27 +127,6 @@ BytesIO
 if
 sys
 .
-version_info
-[
-0
-]
-=
-=
-3
-:
-    
-str_type
-=
-str
-else
-:
-    
-str_type
-=
-basestring
-if
-sys
-.
 platform
 =
 =
@@ -378,7 +357,9 @@ hexdigest
 class
 EmptyValue
 (
-unicode
+six
+.
+text_type
 )
 :
     
@@ -1018,7 +999,9 @@ if
 isinstance
 (
 path
-str_type
+six
+.
+string_types
 )
 :
                 
@@ -1434,7 +1417,9 @@ if
 isinstance
 (
 buf
-unicode
+six
+.
+text_type
 )
 :
             
@@ -5783,7 +5768,9 @@ not
 isinstance
 (
 v
-str_type
+six
+.
+string_types
 )
 :
                 
@@ -8376,7 +8363,9 @@ pass
 class
 EnumString
 (
-unicode
+six
+.
+text_type
 )
 :
     
@@ -8652,7 +8641,9 @@ return
 "
     
 return
-unicode
+six
+.
+text_type
 (
 c
 .
@@ -8935,7 +8926,9 @@ elif
 isinstance
 (
 o
-unicode
+six
+.
+text_type
 )
 :
             
@@ -9185,7 +9178,9 @@ if
 isinstance
 (
 obj
-unicode
+six
+.
+text_type
 )
 :
         
@@ -9923,7 +9918,9 @@ if
 isinstance
 (
 value
-basestring
+six
+.
+text_type
 )
 :
         

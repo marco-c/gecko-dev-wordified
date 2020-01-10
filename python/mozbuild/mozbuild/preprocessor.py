@@ -192,6 +192,8 @@ import
 os
 import
 re
+import
+six
 from
 optparse
 import
@@ -6079,21 +6081,13 @@ processing
         
 isName
 =
-type
+isinstance
 (
 args
+six
+.
+string_types
 )
-=
-=
-str
-or
-type
-(
-args
-)
-=
-=
-unicode
         
 oldCheckLineNumbers
 =
