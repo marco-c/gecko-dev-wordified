@@ -6100,6 +6100,10 @@ alert_threshold
 5
 .
 0
+    
+subtest_alerts
+=
+True
 register_test
 (
 )
@@ -6201,6 +6205,10 @@ alert_threshold
 5
 .
 0
+    
+subtest_alerts
+=
+True
 register_test
 (
 )
