@@ -210,10 +210,16 @@ UrlbarTestUtils
 .
 promiseAutocompleteResultPopup
 (
+{
 window
-TEST_URL
 waitForFocus
+value
+:
+TEST_URL
+fireInputEvent
+:
 true
+}
 )
 ;
 /

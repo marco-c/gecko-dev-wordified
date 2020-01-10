@@ -1040,11 +1040,15 @@ UrlbarTestUtils
 .
 promiseAutocompleteResultPopup
 (
+{
 window
+waitForFocus
+value
+:
 "
 a
 "
-waitForFocus
+}
 )
 ;
 }

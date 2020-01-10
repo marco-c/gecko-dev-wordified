@@ -505,7 +505,7 @@ dontAnimate
 function
 promiseAutocompleteResultPopup
 (
-inputText
+value
 win
 =
 window
@@ -519,10 +519,14 @@ UrlbarTestUtils
 .
 promiseAutocompleteResultPopup
 (
+{
+window
+:
 win
-inputText
 waitForFocus
+value
 fireInputEvent
+}
 )
 ;
 }

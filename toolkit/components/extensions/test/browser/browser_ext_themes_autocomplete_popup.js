@@ -557,7 +557,11 @@ UrlbarTestUtils
 .
 promiseAutocompleteResultPopup
 (
+{
 window
+waitForFocus
+value
+:
 "
 example
 .
@@ -565,7 +569,7 @@ com
 /
 autocomplete
 "
-waitForFocus
+}
 )
 ;
 await
