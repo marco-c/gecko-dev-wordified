@@ -63,13 +63,6 @@ defines
 css
 "
 ;
-import
-"
-scrollbar
-.
-css
-"
-;
 namespace
 url
 (
@@ -239,6 +232,10 @@ pointer
 events
 :
 none
+;
+display
+:
+block
 ;
 }
 /
