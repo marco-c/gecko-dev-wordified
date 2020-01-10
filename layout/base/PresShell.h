@@ -7298,7 +7298,7 @@ aKeyPressEventModel
 dom
 :
 :
-HTMLDocument_Binding
+Document_Binding
 :
 :
 KEYPRESS_EVENT_MODEL_SPLIT

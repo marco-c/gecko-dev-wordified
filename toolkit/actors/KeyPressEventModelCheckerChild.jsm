@@ -239,7 +239,7 @@ MaybeDispatchCheckKeyPressEventModelEvent
 /
 /
 of
-nsHTMLDocument
+Document
 .
 handleEvent
 (
@@ -309,7 +309,7 @@ even
 if
 we
 set
-HTMLDocument
+Document
 .
 KEYPRESS_EVENT_MODEL_CONFLATED
 /
@@ -344,7 +344,7 @@ PresShell
 let
 model
 =
-HTMLDocument
+Document
 .
 KEYPRESS_EVENT_MODEL_DEFAULT
 ;
@@ -374,7 +374,7 @@ ownerGlobal
 {
 model
 =
-HTMLDocument
+Document
 .
 KEYPRESS_EVENT_MODEL_SPLIT
 ;

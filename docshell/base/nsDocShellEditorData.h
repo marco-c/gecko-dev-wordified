@@ -153,7 +153,11 @@ h
 #
 include
 "
-nsIHTMLDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -350,7 +354,13 @@ editor
 is
 detached
 .
-nsIHTMLDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 :
 :
 EditingState
