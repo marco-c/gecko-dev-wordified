@@ -9481,7 +9481,6 @@ message
 [
 productName
 ]
-1
 )
 ;
 }
@@ -9510,7 +9509,6 @@ message
 [
 productName
 ]
-1
 )
 ;
 }
@@ -9555,7 +9553,6 @@ label
 [
 productName
 ]
-1
 )
 accessKey
 :
@@ -16169,7 +16166,6 @@ text
 [
 applicationName
 ]
-1
 )
 ;
 var
@@ -16383,7 +16379,6 @@ body2
 [
 productName
 ]
-1
 )
 ;
 let
@@ -21040,7 +21035,6 @@ title
 [
 deviceName
 ]
-1
 )
 ;
 }
@@ -21184,7 +21178,6 @@ body
 [
 body
 ]
-1
 )
 ;
 }
@@ -21728,7 +21721,6 @@ noDeviceName
 [
 deviceName
 ]
-1
 )
 ;
 let
