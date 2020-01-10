@@ -889,6 +889,16 @@ com
 "
 )
 ;
+console
+.
+log
+(
+formatTree
+(
+tree
+)
+)
+;
 expect
 (
 formatTree

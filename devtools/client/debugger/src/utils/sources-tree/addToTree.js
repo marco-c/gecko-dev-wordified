@@ -887,9 +887,6 @@ debuggeeHost
 :
 ?
 string
-projectRoot
-:
-string
 )
 {
 const
