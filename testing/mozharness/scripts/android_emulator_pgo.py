@@ -1768,6 +1768,8 @@ output_directory
 '
 /
 sdcard
+/
+pgo_profile
 '
 )
         
@@ -1861,6 +1863,13 @@ emulator
 -
 5554
 '
+)
+        
+adbdevice
+.
+mkdir
+(
+outputdir
 )
         
 try
