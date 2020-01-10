@@ -427,6 +427,10 @@ type
 =
 {
 type
+.
+toLowerCase
+(
+)
 }
 &
 id
@@ -453,6 +457,10 @@ type
 =
 {
 type
+.
+toLowerCase
+(
+)
 }
 &
 id
@@ -485,10 +493,6 @@ target_type
 "
 :
 type
-.
-toUpperCase
-(
-)
 "
 runtime_type
 "
