@@ -1625,15 +1625,6 @@ EditSubAction
 :
 eDeleteSelectedContent
 :
-MOZ_ASSERT
-(
-!
-mIsHTMLEditRules
-)
-;
-return
-NS_OK
-;
 case
 EditSubAction
 :
