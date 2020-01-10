@@ -5239,12 +5239,6 @@ new_
 FunctionDeclarationVector
 >
 (
-cx
--
->
-zone
-(
-)
 )
 ;
 if
