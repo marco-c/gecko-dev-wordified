@@ -27927,11 +27927,6 @@ addcode
 ifdef
 OS_WIN
                 
-DowncastState
-(
-)
--
->
 GetIPCChannel
 (
 )

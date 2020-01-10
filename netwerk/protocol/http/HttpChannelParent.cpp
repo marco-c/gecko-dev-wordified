@@ -1850,11 +1850,9 @@ return
 ;
 }
 return
-Manager
-(
-)
--
->
+IProtocol
+:
+:
 OtherPid
 (
 )
