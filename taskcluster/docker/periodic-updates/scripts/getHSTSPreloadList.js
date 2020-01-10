@@ -875,7 +875,7 @@ n
 \
 n
 /
-mg
+gm
 "
 "
 )
@@ -1812,11 +1812,9 @@ expirationMillis
 =
 nowMillis
 +
-(
 MINIMUM_REQUIRED_MAX_AGE
 *
 1000
-)
 ;
 let
 expirationMicros
@@ -1826,6 +1824,7 @@ expirationMillis
 1000
 ;
 return
+(
 "
 const
 PRTime
@@ -1843,6 +1842,7 @@ expirationMicros
 \
 n
 "
+)
 ;
 }
 function
@@ -2160,6 +2160,7 @@ let
 progress
 =
 (
+(
 100
 *
 (
@@ -2168,6 +2169,7 @@ totalLength
 inHosts
 .
 length
+)
 )
 /
 totalLength
@@ -2461,9 +2463,7 @@ entryRegexes
 .
 find
 (
-(
 r
-)
 =
 >
 {
@@ -2497,7 +2497,6 @@ match
 ]
 ]
 =
-(
 match
 [
 2
@@ -2518,7 +2517,6 @@ match
 "
 true
 "
-)
 ;
 }
 }
@@ -3000,7 +2998,6 @@ statuses
 let
 includeSubdomains
 =
-(
 status
 .
 includeSubdomains
@@ -3008,7 +3005,6 @@ includeSubdomains
 1
 :
 0
-)
 ;
 writeTo
 (
@@ -3096,7 +3092,6 @@ status
 )
 {
 return
-(
 status
 .
 error
@@ -3115,7 +3110,6 @@ maxAge
 status
 .
 error
-)
 ;
 }
 async
