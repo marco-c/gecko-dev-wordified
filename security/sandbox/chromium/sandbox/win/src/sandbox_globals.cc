@@ -85,7 +85,7 @@ SANDBOX_INTERCEPT
 HANDLE
 g_shared_section
 =
-NULL
+nullptr
 ;
 /
 /

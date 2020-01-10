@@ -389,6 +389,12 @@ version
 ;
 private
 :
+~
+TargetServicesBase
+(
+)
+{
+}
 ProcessState
 process_state_
 ;

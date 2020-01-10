@@ -211,7 +211,7 @@ attrs
 .
 bInheritHandle
 =
-TRUE
+true
 ;
 base
 :
@@ -243,7 +243,7 @@ FILE_SHARE_DELETE
 attrs
 OPEN_EXISTING
 0
-NULL
+nullptr
 )
 )
 ;

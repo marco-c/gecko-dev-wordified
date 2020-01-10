@@ -365,7 +365,6 @@ interceptor_function
 0
 ;
 }
-;
 ULONG
 opcodes_1
 ;
@@ -423,7 +422,6 @@ pack
 pop
 )
 }
-;
 /
 /
 namespace

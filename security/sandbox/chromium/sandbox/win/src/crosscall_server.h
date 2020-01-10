@@ -876,7 +876,7 @@ IPC
 buffer
 .
 returns
-NULL
+nullptr
 is
 the
 IPCbuffer
@@ -937,7 +937,7 @@ parameter
 /
 /
 returns
-NULL
+nullptr
 if
 the
 parameter
@@ -1428,7 +1428,7 @@ dispatcher
 /
 /
 returns
-NULL
+nullptr
 it
 means
 that
@@ -1846,7 +1846,7 @@ IPC
 messages
 .
 Return
-NULL
+nullptr
 if
 your
 /

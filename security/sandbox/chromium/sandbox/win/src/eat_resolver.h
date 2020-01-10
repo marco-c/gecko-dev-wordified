@@ -118,7 +118,7 @@ EatResolverThunk
 :
 eat_entry_
 (
-NULL
+nullptr
 )
 {
 }

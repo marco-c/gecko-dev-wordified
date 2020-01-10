@@ -119,7 +119,7 @@ job
 Init
 (
 JOB_LOCKDOWN
-NULL
+nullptr
 )
 ;
 /
@@ -178,7 +178,7 @@ parameter
 job_name
 can
 be
-NULL
+nullptr
 if
 the
 job

@@ -125,6 +125,13 @@ h
 namespace
 sandbox
 {
+enum
+IsBroker
+{
+BROKER_FALSE
+BROKER_TRUE
+}
+;
 /
 /
 This

@@ -62,6 +62,15 @@ h
 #
 include
 "
+base
+/
+compiler_specific
+.
+h
+"
+#
+include
+"
 sandbox
 /
 win
@@ -995,7 +1004,7 @@ bytes
 We
 define
 a
-NULL
+nullptr
 string
 to
 /
@@ -1139,7 +1148,7 @@ call
 .
 static
 size_t
-__cdecl
+CDECL
 StringLength
 (
 const
@@ -1710,7 +1719,7 @@ bytes
 We
 define
 a
-NULL
+nullptr
 string
 to
 /
@@ -1831,9 +1840,7 @@ GetBuffer
 \
 if
 (
-NULL
-=
-=
+!
 raw_mem
 )
 \
@@ -1994,7 +2001,6 @@ define
 XCALL_GEN_FREE_CHANNEL
 (
 )
-\
 ipc_provider
 .
 FreeBuffer

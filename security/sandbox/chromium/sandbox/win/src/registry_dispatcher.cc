@@ -296,6 +296,9 @@ true
 ;
 }
 }
+/
+/
+namespace
 namespace
 sandbox
 {
@@ -551,7 +554,7 @@ GetCurrentProcess
 &
 root
 0
-FALSE
+false
 DUPLICATE_SAME_ACCESS
 )
 )
@@ -832,7 +835,7 @@ GetCurrentProcess
 &
 root
 0
-FALSE
+false
 DUPLICATE_SAME_ACCESS
 )
 )

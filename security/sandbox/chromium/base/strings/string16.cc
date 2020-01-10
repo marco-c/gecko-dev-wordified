@@ -132,7 +132,7 @@ base
 /
 strings
 /
-utf_string_conversions
+string_piece
 .
 h
 "
@@ -308,7 +308,7 @@ s
 ;
 }
 return
-0
+nullptr
 ;
 }
 char16
@@ -453,7 +453,10 @@ return
 out
 <
 <
-UTF16ToUTF8
+base
+:
+:
+StringPiece16
 (
 str
 )

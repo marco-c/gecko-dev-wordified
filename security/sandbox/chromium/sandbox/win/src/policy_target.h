@@ -42,6 +42,12 @@ LICENSE
 file
 .
 #
+ifndef
+SANDBOX_WIN_SRC_POLICY_TARGET_H_
+#
+define
+SANDBOX_WIN_SRC_POLICY_TARGET_H_
+#
 include
 "
 sandbox
@@ -67,12 +73,6 @@ sandbox_types
 .
 h
 "
-#
-ifndef
-SANDBOX_SRC_POLICY_TARGET_H__
-#
-define
-SANDBOX_SRC_POLICY_TARGET_H__
 namespace
 sandbox
 {
@@ -240,4 +240,4 @@ sandbox
 endif
 /
 /
-SANDBOX_SRC_POLICY_TARGET_H__
+SANDBOX_WIN_SRC_POLICY_TARGET_H_

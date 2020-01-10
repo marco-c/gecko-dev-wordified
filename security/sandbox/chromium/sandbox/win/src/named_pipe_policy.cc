@@ -211,7 +211,7 @@ target_process
 &
 new_pipe
 0
-FALSE
+false
 DUPLICATE_CLOSE_SOURCE
 |
 DUPLICATE_SAME_ACCESS
@@ -403,7 +403,7 @@ max_instances
 out_buffer_size
 in_buffer_size
 default_timeout
-NULL
+nullptr
 )
 ;
 if

@@ -41,18 +41,6 @@ file
 .
 #
 include
-<
-stdint
-.
-h
->
-#
-include
-<
-string
->
-#
-include
 "
 sandbox
 /
@@ -64,6 +52,18 @@ filesystem_policy
 .
 h
 "
+#
+include
+<
+stdint
+.
+h
+>
+#
+include
+<
+string
+>
 #
 include
 "
@@ -78,7 +78,7 @@ include
 "
 base
 /
-macros
+stl_util
 .
 h
 "
@@ -209,7 +209,7 @@ create_options
 PVOID
 ea_buffer
 ULONG
-ea_lenght
+ea_length
 HANDLE
 target_process
 )
@@ -217,7 +217,7 @@ target_process
 NtCreateFileFunction
 NtCreateFile
 =
-NULL
+nullptr
 ;
 ResolveNTFunctionPtr
 (
@@ -243,13 +243,13 @@ local_handle
 desired_access
 obj_attributes
 io_status_block
-NULL
+nullptr
 file_attributes
 share_access
 create_disposition
 create_options
 ea_buffer
-ea_lenght
+ea_length
 )
 ;
 if
@@ -323,7 +323,7 @@ local_handle
 target_process
 target_file_handle
 0
-FALSE
+false
 DUPLICATE_CLOSE_SOURCE
 |
 DUPLICATE_SAME_ACCESS
@@ -403,7 +403,7 @@ security_qos
 .
 EffectiveOnly
 =
-TRUE
+true
 ;
 return
 security_qos
@@ -1271,7 +1271,7 @@ FileName
 :
 :
 BROKER
-TRUE
+true
 AND
 )
 ;
@@ -1321,7 +1321,7 @@ FileName
 :
 :
 BROKER
-TRUE
+BROKER_TRUE
 AND
 )
 ;
@@ -1364,7 +1364,7 @@ FileName
 :
 :
 BROKER
-TRUE
+BROKER_TRUE
 AND
 )
 ;
@@ -1669,7 +1669,7 @@ InitObjectAttribs
 (
 file
 attributes
-NULL
+nullptr
 &
 obj_attributes
 &
@@ -1682,7 +1682,7 @@ file
 &
 security_qos
 :
-NULL
+nullptr
 )
 ;
 *
@@ -1700,7 +1700,7 @@ file_attributes
 share_access
 create_disposition
 create_options
-NULL
+nullptr
 0
 client_info
 .
@@ -1846,7 +1846,7 @@ InitObjectAttribs
 (
 file
 attributes
-NULL
+nullptr
 &
 obj_attributes
 &
@@ -1859,7 +1859,7 @@ file
 &
 security_qos
 :
-NULL
+nullptr
 )
 ;
 *
@@ -1877,7 +1877,7 @@ io_block
 share_access
 FILE_OPEN
 open_options
-NULL
+nullptr
 0
 client_info
 .
@@ -1963,7 +1963,7 @@ false
 NtQueryAttributesFileFunction
 NtQueryAttributesFile
 =
-NULL
+nullptr
 ;
 ResolveNTFunctionPtr
 (
@@ -1999,7 +1999,7 @@ InitObjectAttribs
 (
 file
 attributes
-NULL
+nullptr
 &
 obj_attributes
 &
@@ -2012,7 +2012,7 @@ file
 &
 security_qos
 :
-NULL
+nullptr
 )
 ;
 *
@@ -2097,7 +2097,7 @@ false
 NtQueryFullAttributesFileFunction
 NtQueryFullAttributesFile
 =
-NULL
+nullptr
 ;
 ResolveNTFunctionPtr
 (
@@ -2133,7 +2133,7 @@ InitObjectAttribs
 (
 file
 attributes
-NULL
+nullptr
 &
 obj_attributes
 &
@@ -2146,7 +2146,7 @@ file
 &
 security_qos
 :
-NULL
+nullptr
 )
 ;
 *
@@ -2231,7 +2231,7 @@ false
 NtSetInformationFileFunction
 NtSetInformationFile
 =
-NULL
+nullptr
 ;
 ResolveNTFunctionPtr
 (
@@ -2245,7 +2245,7 @@ NtSetInformationFile
 HANDLE
 local_handle
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2266,7 +2266,7 @@ GetCurrentProcess
 &
 local_handle
 0
-FALSE
+false
 DUPLICATE_SAME_ACCESS
 )
 )
@@ -2417,7 +2417,10 @@ const
 int
 kNTPrefixEscapedLen
 =
-arraysize
+base
+:
+:
+size
 (
 kNTPrefixEscaped
 )

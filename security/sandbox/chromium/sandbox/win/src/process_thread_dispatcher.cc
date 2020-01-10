@@ -700,7 +700,7 @@ wchar_t
 *
 file_part
 =
-NULL
+nullptr
 ;
 /
 /
@@ -754,14 +754,14 @@ result
 :
 SearchPath
 (
-NULL
+nullptr
 path
 -
 >
 c_str
 (
 )
-NULL
+nullptr
 MAX_PATH
 file_buffer
 &
@@ -804,7 +804,7 @@ path
 c_str
 (
 )
-NULL
+nullptr
 MAX_PATH
 file_buffer
 &
@@ -1770,7 +1770,7 @@ stack_size
 start_address
 parameter
 creation_flags
-NULL
+nullptr
 &
 handle
 )

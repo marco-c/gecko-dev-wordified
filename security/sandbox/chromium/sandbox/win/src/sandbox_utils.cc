@@ -167,7 +167,7 @@ obj_attr
 uni_name
 attributes
 root
-NULL
+nullptr
 )
 ;
 obj_attr

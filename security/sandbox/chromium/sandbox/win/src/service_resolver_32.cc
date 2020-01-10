@@ -988,7 +988,6 @@ pack
 pop
 )
 }
-;
 /
 /
 namespace
@@ -1147,9 +1146,6 @@ thunk_storage
 ;
 if
 (
-NULL
-!
-=
 storage_used
 )
 *
@@ -1294,9 +1290,6 @@ STATUS_OBJECT_NAME_COLLISION
 }
 if
 (
-NULL
-!
-=
 storage_used
 )
 *
@@ -1532,9 +1525,6 @@ false
 }
 if
 (
-NULL
-!
-=
 ntdll_base_
 )
 {
@@ -1865,9 +1855,6 @@ the
 child
 if
 (
-NULL
-!
-=
 ntdll_base_
 )
 {

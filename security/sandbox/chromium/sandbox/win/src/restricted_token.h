@@ -209,7 +209,7 @@ restricted_token
 .
 Init
 (
-NULL
+nullptr
 )
 ;
 /
@@ -362,15 +362,15 @@ effective_token
 If
 effective_token
 is
-NULL
+nullptr
 it
 initializes
 the
 RestrictedToken
 object
+/
+/
 with
-/
-/
 the
 effective
 token
@@ -573,7 +573,7 @@ an
 empty
 list
 or
-NULL
+nullptr
 for
 the
 exceptions
@@ -912,7 +912,7 @@ an
 empty
 list
 or
-NULL
+nullptr
 /
 /
 for

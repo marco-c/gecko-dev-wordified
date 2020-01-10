@@ -393,7 +393,7 @@ GetBase
 HANDLE
 handle
 =
-NULL
+nullptr
 ;
 /
 /
@@ -525,7 +525,7 @@ GetBase
 HANDLE
 handle
 =
-NULL
+nullptr
 ;
 /
 /

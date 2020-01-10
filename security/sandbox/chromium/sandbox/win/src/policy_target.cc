@@ -384,7 +384,7 @@ false
 }
 for
 (
-int
+size_t
 i
 =
 0
@@ -709,7 +709,7 @@ set
 to
 /
 /
-FALSE
+false
 if
 we
 are
@@ -725,7 +725,7 @@ set
 /
 /
 to
-TRUE
+true
 means
 that
 the
@@ -802,7 +802,7 @@ RevertedToSelf
 )
 open_as_self
 =
-FALSE
+false
 ;
 return
 orig_OpenThreadToken
@@ -860,7 +860,7 @@ RevertedToSelf
 )
 open_as_self
 =
-FALSE
+false
 ;
 return
 orig_OpenThreadTokenEx

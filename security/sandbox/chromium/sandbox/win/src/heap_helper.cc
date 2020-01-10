@@ -538,7 +538,7 @@ number_of_heaps
 GetProcessHeaps
 (
 0
-NULL
+nullptr
 )
 ;
 std
@@ -672,9 +672,6 @@ kHeapClass8
 {
 if
 (
-nullptr
-!
-=
 csr_port_heap
 )
 {

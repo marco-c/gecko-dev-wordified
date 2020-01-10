@@ -114,6 +114,7 @@ template
 typename
 T
 >
+constexpr
 bool
 CheckedAddImpl
 (
@@ -412,6 +413,7 @@ typename
 V
 >
 static
+constexpr
 bool
 Do
 (
@@ -604,6 +606,9 @@ false
 }
 Promotion
 presult
+=
+{
+}
 ;
 bool
 is_valid
@@ -698,6 +703,7 @@ template
 typename
 T
 >
+constexpr
 bool
 CheckedSubImpl
 (
@@ -987,6 +993,7 @@ typename
 V
 >
 static
+constexpr
 bool
 Do
 (
@@ -1179,6 +1186,9 @@ false
 }
 Promotion
 presult
+=
+{
+}
 ;
 bool
 is_valid
@@ -1273,6 +1283,7 @@ template
 typename
 T
 >
+constexpr
 bool
 CheckedMulImpl
 (
@@ -1611,6 +1622,7 @@ typename
 V
 >
 static
+constexpr
 bool
 Do
 (
@@ -1739,6 +1751,9 @@ false
 }
 Promotion
 presult
+=
+{
+}
 ;
 bool
 is_valid
@@ -1977,6 +1992,7 @@ typename
 V
 >
 static
+constexpr
 bool
 Do
 (
@@ -2289,6 +2305,7 @@ typename
 V
 >
 static
+constexpr
 bool
 Do
 (
@@ -2487,6 +2504,7 @@ typename
 V
 >
 static
+constexpr
 bool
 Do
 (
@@ -2956,6 +2974,7 @@ typename
 V
 >
 static
+constexpr
 bool
 Do
 (
@@ -3111,6 +3130,7 @@ typename
 V
 >
 static
+constexpr
 bool
 Do
 (
@@ -3266,6 +3286,7 @@ typename
 V
 >
 static
+constexpr
 bool
 Do
 (
@@ -3435,6 +3456,7 @@ typename
 V
 >
 static
+constexpr
 bool
 Do
 (
@@ -3617,6 +3639,7 @@ typename
 V
 >
 static
+constexpr
 bool
 Do
 (
@@ -3801,6 +3824,7 @@ V
 >
 \
 static
+constexpr
 bool
 Do
 (

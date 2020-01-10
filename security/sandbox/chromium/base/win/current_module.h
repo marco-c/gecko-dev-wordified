@@ -42,6 +42,13 @@ BASE_WIN_CURRENT_MODULE_H_
 #
 define
 BASE_WIN_CURRENT_MODULE_H_
+#
+include
+<
+windows
+.
+h
+>
 /
 /
 http

@@ -776,7 +776,6 @@ BPFTest
 BPFTestWithDelegateClass
 BasicBPFTesterDelegate
 )
-;
 /
 /
 This

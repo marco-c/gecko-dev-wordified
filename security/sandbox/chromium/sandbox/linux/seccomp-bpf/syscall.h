@@ -223,11 +223,11 @@ but
 /
 /
 confuses
-modern
 tools
-such
-as
-valgrind
+that
+behave
+like
+Valgrind
 because
 we
 are

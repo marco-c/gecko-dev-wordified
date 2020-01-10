@@ -111,8 +111,9 @@ constexpr
 AtomicSequenceNumber
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Returns

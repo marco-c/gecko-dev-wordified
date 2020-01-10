@@ -64,6 +64,15 @@ include
 "
 base
 /
+logging
+.
+h
+"
+#
+include
+"
+base
+/
 macros
 .
 h
@@ -160,7 +169,7 @@ parameter
 not
 equal
 to
-NULL
+nullptr
 ?
 /
 /
@@ -1622,7 +1631,7 @@ the
 actual
 address
 of
-an
+a
 string
 argument
 .
@@ -1772,7 +1781,6 @@ opcode_id_
 )
 ;
 }
-;
 /
 /
 Returns
@@ -2034,7 +2042,7 @@ RtlCompareUnicodeString
 windows
 API
 .
-EXACT_LENGHT
+EXACT_LENGTH
 =
 2
 /
@@ -2413,7 +2421,7 @@ functions
 below
 can
 return
-NULL
+nullptr
 on
 /
 /
@@ -2566,6 +2574,12 @@ memory_size
 )
 const
 {
+DCHECK_GE
+(
+memory_bottom_
+memory_top_
+)
+;
 return
 memory_bottom_
 -
@@ -3161,7 +3175,7 @@ wchar_t
 *
 str
 size_t
-lenght
+length
 )
 ;
 /

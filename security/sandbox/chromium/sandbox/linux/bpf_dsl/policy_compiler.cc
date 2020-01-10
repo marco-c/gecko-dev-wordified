@@ -101,7 +101,7 @@ include
 "
 base
 /
-macros
+stl_util
 .
 h
 "
@@ -3407,7 +3407,10 @@ i
 ;
 i
 <
-arraysize
+base
+:
+:
+size
 (
 kSyscallsRequiredForUnsafeTraps
 )

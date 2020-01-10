@@ -331,7 +331,7 @@ lockdown
 /
 /
 A
-NULL
+nullptr
 value
 for
 handle_name
@@ -341,10 +341,10 @@ handles
 of
 the
 specified
+/
+/
 type
 .
-/
-/
 An
 empty
 string

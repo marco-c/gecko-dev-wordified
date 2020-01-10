@@ -108,7 +108,6 @@ std
 string
 StringPrintf
 (
-_Printf_format_string_
 const
 char
 *
@@ -137,7 +136,6 @@ std
 wstring
 StringPrintf
 (
-_Printf_format_string_
 const
 wchar_t
 *
@@ -217,7 +215,6 @@ std
 string
 *
 dst
-_Printf_format_string_
 const
 char
 *
@@ -253,7 +250,6 @@ std
 wstring
 *
 dst
-_Printf_format_string_
 const
 wchar_t
 *
@@ -289,7 +285,6 @@ std
 string
 *
 dst
-_Printf_format_string_
 const
 char
 *
@@ -320,7 +315,6 @@ std
 wstring
 *
 dst
-_Printf_format_string_
 const
 wchar_t
 *

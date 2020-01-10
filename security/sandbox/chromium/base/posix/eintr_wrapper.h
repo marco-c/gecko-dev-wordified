@@ -193,13 +193,6 @@ defined
 (
 OS_POSIX
 )
-&
-&
-!
-defined
-(
-OS_FUCHSIA
-)
 #
 include
 <
@@ -397,9 +390,6 @@ else
 /
 !
 OS_POSIX
-|
-|
-OS_FUCHSIA
 #
 define
 HANDLE_EINTR
@@ -424,9 +414,6 @@ endif
 /
 !
 OS_POSIX
-|
-|
-OS_FUCHSIA
 #
 endif
 /

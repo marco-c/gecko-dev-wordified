@@ -177,7 +177,7 @@ Get
 (
 )
 info_class
-NULL
+nullptr
 0
 &
 size
@@ -372,7 +372,7 @@ GetCurrentProcess
 &
 temp_token
 0
-FALSE
+false
 DUPLICATE_SAME_ACCESS
 )
 )
@@ -492,7 +492,7 @@ SID_AND_ATTRIBUTES
 *
 deny_only_array
 =
-NULL
+nullptr
 ;
 if
 (
@@ -544,12 +544,6 @@ i
 .
 Sid
 =
-const_cast
-<
-SID
-*
->
-(
 sids_for_deny_only_
 [
 i
@@ -558,7 +552,6 @@ i
 GetPSID
 (
 )
-)
 ;
 }
 }
@@ -566,7 +559,7 @@ SID_AND_ATTRIBUTES
 *
 sids_to_restrict_array
 =
-NULL
+nullptr
 ;
 if
 (
@@ -614,12 +607,6 @@ i
 .
 Sid
 =
-const_cast
-<
-SID
-*
->
-(
 sids_to_restrict_
 [
 i
@@ -628,7 +615,6 @@ i
 GetPSID
 (
 )
-)
 ;
 }
 }
@@ -636,7 +622,7 @@ LUID_AND_ATTRIBUTES
 *
 privileges_to_disable_array
 =
-NULL
+nullptr
 ;
 if
 (
@@ -691,15 +677,15 @@ i
 ;
 }
 }
-BOOL
+bool
 result
 =
-TRUE
+true
 ;
 HANDLE
 new_token_handle
 =
-NULL
+nullptr
 ;
 /
 /
@@ -853,7 +839,7 @@ Get
 (
 )
 TOKEN_ALL_ACCESS
-NULL
+nullptr
 SecurityIdentification
 TokenPrimary
 &
@@ -1076,7 +1062,7 @@ GetCurrentProcess
 &
 token_handle
 TOKEN_ALL_ACCESS
-FALSE
+false
 /
 /
 Don
@@ -1236,7 +1222,7 @@ GetCurrentProcess
 &
 token_handle
 TOKEN_ALL_ACCESS
-FALSE
+false
 /
 /
 Don
@@ -1452,12 +1438,6 @@ if
 :
 EqualSid
 (
-const_cast
-<
-SID
-*
->
-(
 (
 *
 exceptions
@@ -1468,7 +1448,6 @@ j
 .
 GetPSID
 (
-)
 )
 token_groups
 -
@@ -1628,7 +1607,7 @@ get
 )
 )
 ;
-BOOL
+bool
 result
 =
 :
@@ -1840,7 +1819,7 @@ luid
 :
 LookupPrivilegeValue
 (
-NULL
+nullptr
 (
 *
 exceptions
@@ -1966,7 +1945,7 @@ if
 (
 LookupPrivilegeValue
 (
-NULL
+nullptr
 privilege
 &
 luid
@@ -2103,7 +2082,7 @@ SID
 *
 logon_sid
 =
-NULL
+nullptr
 ;
 for
 (
@@ -2249,7 +2228,7 @@ get
 )
 )
 ;
-BOOL
+bool
 result
 =
 :

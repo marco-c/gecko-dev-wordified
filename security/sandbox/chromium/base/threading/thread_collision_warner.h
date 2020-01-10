@@ -1026,8 +1026,9 @@ virtual
 AsserterBase
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 warn
@@ -1050,8 +1051,9 @@ DCheckAsserter
 (
 )
 override
-{
-}
+=
+default
+;
 void
 warn
 (
@@ -1192,8 +1194,9 @@ EnterSelf
 Check
 (
 )
-{
-}
+=
+default
+;
 private
 :
 ThreadCollisionWarner

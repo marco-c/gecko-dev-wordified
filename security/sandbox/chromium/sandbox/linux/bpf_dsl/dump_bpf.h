@@ -37,6 +37,12 @@ LICENSE
 file
 .
 #
+ifndef
+SANDBOX_LINUX_BPF_DSL_DUMP_BPF_H_
+#
+define
+SANDBOX_LINUX_BPF_DSL_DUMP_BPF_H_
+#
 include
 <
 string
@@ -154,3 +160,8 @@ bpf_dsl
 /
 namespace
 sandbox
+#
+endif
+/
+/
+SANDBOX_LINUX_BPF_DSL_DUMP_BPF_H_

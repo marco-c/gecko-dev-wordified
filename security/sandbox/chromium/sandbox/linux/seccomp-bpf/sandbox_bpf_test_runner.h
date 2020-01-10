@@ -317,8 +317,9 @@ coverage
 /
 under
 tools
-such
-as
+that
+behave
+like
 Valgrind
 .
 class

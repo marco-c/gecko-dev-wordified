@@ -149,9 +149,6 @@ GetBrokerServices
 /
 if
 (
-NULL
-!
-=
 broker_services
 )
 {
@@ -198,9 +195,6 @@ GetTargetServices
 /
 if
 (
-NULL
-!
-=
 target_services
 )
 {
@@ -334,7 +328,7 @@ Broker
 API
 interface
 returns
-NULL
+nullptr
 if
 this
 process
@@ -359,7 +353,7 @@ Target
 API
 interface
 returns
-NULL
+nullptr
 if
 this
 process

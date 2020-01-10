@@ -123,8 +123,9 @@ constexpr
 CheckedNumeric
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Copy
@@ -921,6 +922,7 @@ template
 typename
 Src
 >
+constexpr
 CheckedNumeric
 &
 operator
@@ -937,6 +939,7 @@ template
 typename
 Src
 >
+constexpr
 CheckedNumeric
 &
 operator
@@ -953,6 +956,7 @@ template
 typename
 Src
 >
+constexpr
 CheckedNumeric
 &
 operator
@@ -969,6 +973,7 @@ template
 typename
 Src
 >
+constexpr
 CheckedNumeric
 &
 operator
@@ -985,6 +990,7 @@ template
 typename
 Src
 >
+constexpr
 CheckedNumeric
 &
 operator
@@ -1001,6 +1007,7 @@ template
 typename
 Src
 >
+constexpr
 CheckedNumeric
 &
 operator
@@ -1018,6 +1025,7 @@ template
 typename
 Src
 >
+constexpr
 CheckedNumeric
 &
 operator
@@ -1035,6 +1043,7 @@ template
 typename
 Src
 >
+constexpr
 CheckedNumeric
 &
 operator
@@ -1051,6 +1060,7 @@ template
 typename
 Src
 >
+constexpr
 CheckedNumeric
 &
 operator
@@ -1067,6 +1077,7 @@ template
 typename
 Src
 >
+constexpr
 CheckedNumeric
 &
 operator
@@ -1699,6 +1710,7 @@ is_valid
 )
 ;
 }
+constexpr
 CheckedNumeric
 &
 operator
@@ -1718,6 +1730,7 @@ return
 this
 ;
 }
+constexpr
 CheckedNumeric
 operator
 +
@@ -1742,6 +1755,7 @@ return
 value
 ;
 }
+constexpr
 CheckedNumeric
 &
 operator
@@ -1761,6 +1775,7 @@ return
 this
 ;
 }
+constexpr
 CheckedNumeric
 operator
 -
@@ -1819,6 +1834,7 @@ typename
 R
 >
 static
+constexpr
 CheckedNumeric
 MathOp
 (
@@ -1935,6 +1951,7 @@ M
 typename
 R
 >
+constexpr
 CheckedNumeric
 &
 MathOp
@@ -2481,6 +2498,7 @@ L
 typename
 R
 >
+constexpr
 CheckedNumeric
 <
 typename
@@ -2570,6 +2588,7 @@ typename
 .
 Args
 >
+constexpr
 CheckedNumeric
 <
 typename

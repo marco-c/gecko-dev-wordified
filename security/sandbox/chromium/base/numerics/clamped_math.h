@@ -379,6 +379,7 @@ template
 typename
 Src
 >
+constexpr
 ClampedNumeric
 &
 operator
@@ -395,6 +396,7 @@ template
 typename
 Src
 >
+constexpr
 ClampedNumeric
 &
 operator
@@ -411,6 +413,7 @@ template
 typename
 Src
 >
+constexpr
 ClampedNumeric
 &
 operator
@@ -427,6 +430,7 @@ template
 typename
 Src
 >
+constexpr
 ClampedNumeric
 &
 operator
@@ -443,6 +447,7 @@ template
 typename
 Src
 >
+constexpr
 ClampedNumeric
 &
 operator
@@ -459,6 +464,7 @@ template
 typename
 Src
 >
+constexpr
 ClampedNumeric
 &
 operator
@@ -476,6 +482,7 @@ template
 typename
 Src
 >
+constexpr
 ClampedNumeric
 &
 operator
@@ -493,6 +500,7 @@ template
 typename
 Src
 >
+constexpr
 ClampedNumeric
 &
 operator
@@ -509,6 +517,7 @@ template
 typename
 Src
 >
+constexpr
 ClampedNumeric
 &
 operator
@@ -525,6 +534,7 @@ template
 typename
 Src
 >
+constexpr
 ClampedNumeric
 &
 operator
@@ -884,6 +894,7 @@ value_
 )
 ;
 }
+constexpr
 ClampedNumeric
 &
 operator
@@ -903,6 +914,7 @@ return
 this
 ;
 }
+constexpr
 ClampedNumeric
 operator
 +
@@ -927,6 +939,7 @@ return
 value
 ;
 }
+constexpr
 ClampedNumeric
 &
 operator
@@ -946,6 +959,7 @@ return
 this
 ;
 }
+constexpr
 ClampedNumeric
 operator
 -
@@ -1004,6 +1018,7 @@ typename
 R
 >
 static
+constexpr
 ClampedNumeric
 MathOp
 (
@@ -1087,6 +1102,7 @@ M
 typename
 R
 >
+constexpr
 ClampedNumeric
 &
 MathOp
@@ -1428,6 +1444,7 @@ L
 typename
 R
 >
+constexpr
 ClampedNumeric
 <
 typename
@@ -1517,6 +1534,7 @@ typename
 .
 Args
 >
+constexpr
 ClampedNumeric
 <
 typename
@@ -1683,7 +1701,6 @@ Clamped
 IsLess
 <
 )
-;
 BASE_NUMERIC_COMPARISON_OPERATORS
 (
 Clamped
@@ -1691,14 +1708,12 @@ IsLessOrEqual
 <
 =
 )
-;
 BASE_NUMERIC_COMPARISON_OPERATORS
 (
 Clamped
 IsGreater
 >
 )
-;
 BASE_NUMERIC_COMPARISON_OPERATORS
 (
 Clamped
@@ -1706,7 +1721,6 @@ IsGreaterOrEqual
 >
 =
 )
-;
 BASE_NUMERIC_COMPARISON_OPERATORS
 (
 Clamped
@@ -1714,7 +1728,6 @@ IsEqual
 =
 =
 )
-;
 BASE_NUMERIC_COMPARISON_OPERATORS
 (
 Clamped
@@ -1722,7 +1735,6 @@ IsNotEqual
 !
 =
 )
-;
 }
 /
 /

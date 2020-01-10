@@ -1022,7 +1022,6 @@ Arch
 #
 endif
 }
-;
 /
 /
 namespace
@@ -1157,9 +1156,6 @@ thunk_storage
 ;
 if
 (
-NULL
-!
-=
 storage_used
 )
 *
@@ -1279,9 +1275,6 @@ STATUS_OBJECT_NAME_COLLISION
 ;
 if
 (
-NULL
-!
-=
 storage_used
 )
 *
@@ -1428,7 +1421,7 @@ sizeof
 (
 local_service
 )
-NULL
+nullptr
 interceptor_
 )
 )
@@ -1498,9 +1491,6 @@ child
 .
 if
 (
-NULL
-!
-=
 ntdll_base_
 )
 {

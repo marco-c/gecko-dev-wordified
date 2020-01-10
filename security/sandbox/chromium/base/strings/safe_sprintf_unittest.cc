@@ -4971,7 +4971,7 @@ char
 *
 >
 (
-NULL
+nullptr
 )
 )
 +
