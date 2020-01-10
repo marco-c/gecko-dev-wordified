@@ -4369,6 +4369,12 @@ CancelSuspendTimer
 )
 ;
 bool
+IsInSeamlessLooping
+(
+)
+const
+;
+bool
 mCanPlayThrough
 =
 false
