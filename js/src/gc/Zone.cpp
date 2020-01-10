@@ -4139,7 +4139,7 @@ front
 (
 )
 .
-unbarrieredGet
+asPtrUnbarriered
 (
 )
 ;
@@ -4162,7 +4162,7 @@ front
 (
 )
 .
-unbarrieredGet
+asPtrUnbarriered
 (
 )
 =
