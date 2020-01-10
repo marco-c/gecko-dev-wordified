@@ -209,10 +209,6 @@ h
 JS
 :
 :
-CompileModule
-JS
-:
-:
 FinishDynamicModuleImport
 JS
 :
