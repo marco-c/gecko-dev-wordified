@@ -122,7 +122,7 @@ true
 await
 BrowserTestUtils
 .
-crashBrowser
+crashFrame
 (
 browser
 false
