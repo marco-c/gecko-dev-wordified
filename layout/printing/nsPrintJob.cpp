@@ -7973,6 +7973,9 @@ nsPrintJob
 :
 Print
 (
+Document
+*
+aSourceDoc
 nsIPrintSettings
 *
 aPrintSettings
@@ -8038,8 +8041,12 @@ mPrintObject
 -
 >
 mDocument
+.
+get
+(
+)
 :
-mOriginalDoc
+aSourceDoc
 ;
 return
 CommonPrint

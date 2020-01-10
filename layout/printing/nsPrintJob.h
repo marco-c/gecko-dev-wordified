@@ -624,6 +624,15 @@ calls
 nsresult
 Print
 (
+mozilla
+:
+:
+dom
+:
+:
+Document
+*
+aSourceDoc
 nsIPrintSettings
 *
 aPrintSettings
