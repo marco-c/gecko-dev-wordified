@@ -857,6 +857,12 @@ ClearNonInheritingComputedStyles
 (
 )
 ;
+mCachedAnonymousContentStyles
+.
+Clear
+(
+)
+;
 mStyleRuleMap
 =
 nullptr
