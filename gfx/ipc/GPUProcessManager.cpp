@@ -185,7 +185,7 @@ include
 "
 mozilla
 /
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 .
 h
 "
@@ -194,7 +194,7 @@ include
 "
 mozilla
 /
-VideoDecoderManagerParent
+RemoteDecoderManagerParent
 .
 h
 "
@@ -5188,7 +5188,7 @@ ipc
 :
 Endpoint
 <
-PVideoDecoderManagerChild
+PRemoteDecoderManagerChild
 >
 *
 aOutVideoManager
@@ -5250,7 +5250,7 @@ to
 be
 fallible
 .
-CreateContentVideoDecoderManager
+CreateContentRemoteDecoderManager
 (
 aOtherProcess
 aOutVideoManager
@@ -5875,7 +5875,7 @@ void
 GPUProcessManager
 :
 :
-CreateContentVideoDecoderManager
+CreateContentRemoteDecoderManager
 (
 base
 :
@@ -5887,7 +5887,7 @@ ipc
 :
 Endpoint
 <
-PVideoDecoderManagerChild
+PRemoteDecoderManagerChild
 >
 *
 aOutEndpoint
@@ -5922,7 +5922,7 @@ ipc
 :
 Endpoint
 <
-PVideoDecoderManagerParent
+PRemoteDecoderManagerParent
 >
 parentPipe
 ;
@@ -5931,14 +5931,14 @@ ipc
 :
 Endpoint
 <
-PVideoDecoderManagerChild
+PRemoteDecoderManagerChild
 >
 childPipe
 ;
 nsresult
 rv
 =
-PVideoDecoderManager
+PRemoteDecoderManager
 :
 :
 CreateEndpoints
@@ -5992,7 +5992,7 @@ return
 mGPUChild
 -
 >
-SendNewContentVideoDecoderManager
+SendNewContentRemoteDecoderManager
 (
 std
 :
