@@ -292,16 +292,6 @@ TextureFactoryIdentifier
 aIdentifier
 )
 ;
-IPCResult
-RecvOutput
-(
-const
-DecodedOutputIPDL
-&
-aDecodedData
-)
-override
-;
 void
 RecordShutdownTelemetry
 (
