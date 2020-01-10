@@ -314,8 +314,6 @@ browserLoaded
 tab1
 .
 linkedBrowser
-false
-PAGE
 )
 ;
 info
@@ -393,8 +391,6 @@ browserLoaded
 tab2
 .
 linkedBrowser
-false
-PAGE
 )
 ;
 info
@@ -790,8 +786,6 @@ browserLoaded
 tab4
 .
 linkedBrowser
-false
-PAGE
 )
 ;
 info
@@ -906,8 +900,6 @@ browserLoaded
 tab4
 .
 linkedBrowser
-false
-PAGE
 )
 ;
 info
