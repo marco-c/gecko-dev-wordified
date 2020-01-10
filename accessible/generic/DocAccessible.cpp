@@ -12955,7 +12955,7 @@ AccessibleOrTrueContainer
 node
 -
 >
-GetParentNode
+GetFlattenedTreeParentNode
 (
 )
 true
