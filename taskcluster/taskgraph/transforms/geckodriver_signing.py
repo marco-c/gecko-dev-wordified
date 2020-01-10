@@ -710,7 +710,7 @@ linux
 signing_format
 =
 '
-autograph_gpg
+gpg
 '
         
 extension

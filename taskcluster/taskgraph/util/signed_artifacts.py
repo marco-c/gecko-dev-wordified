@@ -199,7 +199,7 @@ formats
 :
 [
 '
-autograph_gpg
+gpg
 '
 ]
         
@@ -526,7 +526,7 @@ formats
 :
 [
 '
-autograph_gpg
+gpg
 '
 '
 widevine
@@ -796,7 +796,7 @@ input
     
 if
 '
-autograph_gpg
+gpg
 '
 in
 formats
