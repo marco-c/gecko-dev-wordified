@@ -3629,6 +3629,16 @@ this
 weakPlayerContent
 )
 {
+if
+(
+!
+this
+.
+weakPlayerContent
+.
+closed
+)
+{
 await
 new
 Promise
@@ -3657,6 +3667,7 @@ true
 }
 )
 ;
+}
 /
 /
 Nothing
