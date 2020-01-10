@@ -29770,7 +29770,6 @@ home
 newtab
 plugins
 preferences
-restartrequired
 serviceworkers
 sessionrestore
 support
