@@ -2051,14 +2051,6 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetColumnWidth
-(
-)
-;
-already_AddRefed
-<
-CSSValue
->
 DoGetColumnRuleWidth
 (
 )

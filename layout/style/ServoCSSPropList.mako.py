@@ -514,12 +514,6 @@ width
 "
     
 "
-column
--
-width
-"
-    
-"
 display
 "
     
