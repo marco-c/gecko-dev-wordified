@@ -803,7 +803,7 @@ topWin
 outerWin
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 ;
@@ -923,7 +923,7 @@ senderTop
 senderOuter
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 ;

@@ -13425,7 +13425,7 @@ tmpDoc
 tmpDoc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;

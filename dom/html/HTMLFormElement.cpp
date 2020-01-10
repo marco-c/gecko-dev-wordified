@@ -4431,7 +4431,7 @@ OwnerDoc
 )
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;

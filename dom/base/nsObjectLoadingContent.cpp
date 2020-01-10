@@ -19823,7 +19823,7 @@ topWindow
 window
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 ;

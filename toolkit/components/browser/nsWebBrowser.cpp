@@ -2277,7 +2277,7 @@ NS_IMETHODIMP
 nsWebBrowser
 :
 :
-GetParent
+GetInProcessParent
 (
 nsIDocShellTreeItem
 *
@@ -2298,7 +2298,7 @@ NS_IMETHODIMP
 nsWebBrowser
 :
 :
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 nsIDocShellTreeItem
 *
@@ -2352,7 +2352,7 @@ parent
 ;
 NS_ENSURE_SUCCESS
 (
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -2380,7 +2380,7 @@ aRootTreeItem
 )
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -2405,7 +2405,7 @@ NS_IMETHODIMP
 nsWebBrowser
 :
 :
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 nsIDocShellTreeItem
 *
@@ -2438,7 +2438,7 @@ parent
 ;
 NS_ENSURE_SUCCESS
 (
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -2466,7 +2466,7 @@ aRootTreeItem
 )
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -2883,7 +2883,7 @@ NS_IMETHODIMP
 nsWebBrowser
 :
 :
-GetChildCount
+GetInProcessChildCount
 (
 int32_t
 *
@@ -2938,7 +2938,7 @@ NS_IMETHODIMP
 nsWebBrowser
 :
 :
-GetChildAt
+GetInProcessChildAt
 (
 int32_t
 aIndex

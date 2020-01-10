@@ -360,7 +360,7 @@ rootTreeItem
 ds
 -
 >
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (

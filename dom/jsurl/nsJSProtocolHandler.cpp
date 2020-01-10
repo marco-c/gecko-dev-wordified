@@ -3625,7 +3625,7 @@ mDocumentOnloadBlockedOn
 mDocumentOnloadBlockedOn
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;

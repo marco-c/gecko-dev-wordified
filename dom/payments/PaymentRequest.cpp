@@ -7006,7 +7006,7 @@ parentDoc
 doc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -7038,7 +7038,7 @@ parentDoc
 parentDoc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;

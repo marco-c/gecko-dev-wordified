@@ -3955,7 +3955,7 @@ parent
 mDocument
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -4088,7 +4088,7 @@ parentItem
 ourItem
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (

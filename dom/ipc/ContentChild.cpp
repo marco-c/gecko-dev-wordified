@@ -6393,7 +6393,7 @@ aParent
 )
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 ;

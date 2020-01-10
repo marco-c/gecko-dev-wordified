@@ -1979,7 +1979,7 @@ windows
 virtual
 nsPIDOMWindowOuter
 *
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 =
@@ -1988,7 +1988,7 @@ GetScriptableTop
 virtual
 nsPIDOMWindowOuter
 *
-GetScriptableParent
+GetInProcessScriptableParent
 (
 )
 =
@@ -4542,9 +4542,9 @@ top
 property
 we
 run
-GetScriptableTop
-which
+GetInProcessScriptableTop
 *
+which
 will
 not
 cross
@@ -4585,7 +4585,7 @@ already_AddRefed
 <
 nsPIDOMWindowOuter
 >
-GetTop
+GetInProcessTop
 (
 )
 =
@@ -4600,7 +4600,7 @@ already_AddRefed
 <
 nsPIDOMWindowOuter
 >
-GetParent
+GetInProcessParent
 (
 )
 =
@@ -4609,7 +4609,7 @@ GetParent
 virtual
 nsPIDOMWindowOuter
 *
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 =
@@ -4618,7 +4618,7 @@ GetScriptableTop
 virtual
 nsPIDOMWindowOuter
 *
-GetScriptableParent
+GetInProcessScriptableParent
 (
 )
 =
@@ -4642,15 +4642,15 @@ GetTopWindowRoot
 Behaves
 identically
 to
-GetScriptableParent
+GetInProcessScriptableParent
 except
 that
 it
+*
 returns
 null
-*
 if
-GetScriptableParent
+GetInProcessScriptableParent
 would
 return
 this
@@ -4661,7 +4661,7 @@ window
 virtual
 nsPIDOMWindowOuter
 *
-GetScriptableParentOrNull
+GetInProcessScriptableParentOrNull
 (
 )
 =

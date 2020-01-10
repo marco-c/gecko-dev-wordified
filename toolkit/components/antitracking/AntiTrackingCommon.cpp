@@ -2247,7 +2247,7 @@ top
 aWindow
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;
@@ -3623,7 +3623,7 @@ pwin
 outer
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;
@@ -5137,7 +5137,7 @@ topOuterWindow
 outerParentWindow
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 ;
@@ -7119,7 +7119,7 @@ topOuterWindow
 outerWindow
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 ;

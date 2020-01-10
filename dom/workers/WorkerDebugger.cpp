@@ -2372,7 +2372,7 @@ top
 outer
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 ;

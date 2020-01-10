@@ -5131,7 +5131,7 @@ childCount
 aItem
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 childCount
@@ -5162,7 +5162,7 @@ item
 aItem
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs
@@ -5314,7 +5314,7 @@ parent
 aDocShell
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -5538,7 +5538,7 @@ childCount
 aParentItem
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 childCount
@@ -5569,7 +5569,7 @@ kid
 aParentItem
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs
@@ -9542,7 +9542,7 @@ otherRootTreeItem
 ourDocshell
 -
 >
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -9553,7 +9553,7 @@ ourRootTreeItem
 otherDocshell
 -
 >
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -9890,7 +9890,7 @@ otherParentItem
 ourDocshell
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -9901,7 +9901,7 @@ ourParentItem
 otherDocshell
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -10165,7 +10165,7 @@ ourParentDocument
 ourChildDocument
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -10178,7 +10178,7 @@ otherParentDocument
 otherChildDocument
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -11860,7 +11860,7 @@ GetDocShell
 )
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -14561,7 +14561,7 @@ parentCheck
 docShell
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -15660,7 +15660,7 @@ GetDocShell
 )
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -15739,7 +15739,7 @@ parentAsItem
 temp
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -15902,7 +15902,7 @@ GetDocShell
 )
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -16082,7 +16082,7 @@ parentAsItem
 temp
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -20053,7 +20053,7 @@ GetDocShell
 )
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (

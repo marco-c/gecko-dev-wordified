@@ -11676,7 +11676,7 @@ nsPIDOMWindowOuter
 *
 parentOuterWin
 =
-GetScriptableParent
+GetInProcessScriptableParent
 (
 )
 ;
@@ -11779,15 +11779,15 @@ we
 only
 use
 the
-GetScriptableParent
+GetInProcessScriptableParent
 call
 above
 to
 check
+/
+/
 that
 we
-/
-/
 have
 a
 same
@@ -11801,9 +11801,9 @@ the
 inner
 window
 via
+/
+/
 the
-/
-/
 document
 that
 we
@@ -11819,7 +11819,7 @@ creatorDoc
 aDocument
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -12840,7 +12840,7 @@ top
 aNewInner
 -
 >
-GetTopInternal
+GetInProcessTopInternal
 (
 )
 ;
@@ -17030,7 +17030,7 @@ nsPIDOMWindowOuter
 >
 parentWindow
 =
-GetScriptableParentOrNull
+GetInProcessScriptableParentOrNull
 (
 )
 ;
@@ -17065,7 +17065,7 @@ mTopLevelOuterContentWindow
 mIsChrome
 &
 &
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 =
@@ -17202,7 +17202,7 @@ nsPIDOMWindowOuter
 >
 parentWindow
 =
-GetParent
+GetInProcessParent
 (
 )
 ;
@@ -18383,7 +18383,7 @@ nsGlobalWindowOuter
 *
 topWin
 =
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;
@@ -18504,7 +18504,7 @@ nsGlobalWindowOuter
 *
 topWindowOuter
 =
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;
@@ -18577,7 +18577,7 @@ nsGlobalWindowOuter
 *
 topWindowOuter
 =
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;
@@ -19013,7 +19013,7 @@ nsGlobalWindowOuter
 *
 topWindowOuter
 =
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;
@@ -19088,7 +19088,7 @@ nsGlobalWindowOuter
 *
 topWindowOuter
 =
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;
@@ -19697,7 +19697,7 @@ objPrincipal
 =
 do_QueryInterface
 (
-GetParentInternal
+GetInProcessParentInternal
 (
 )
 )
@@ -19804,7 +19804,7 @@ objPrincipal
 =
 do_QueryInterface
 (
-GetParentInternal
+GetInProcessParentInternal
 (
 )
 )
@@ -20638,7 +20638,7 @@ nsPIDOMWindowOuter
 >
 topWindow
 =
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;
@@ -20695,7 +20695,7 @@ nsPIDOMWindowOuter
 >
 topWindow
 =
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;
@@ -20755,7 +20755,7 @@ nullptr
 *
 *
 *
-GetScriptableParent
+GetInProcessScriptableParent
 is
 called
 when
@@ -20771,7 +20771,7 @@ In
 contrast
 to
 GetRealParent
-GetScriptableParent
+GetInProcessScriptableParent
 respects
 <
 iframe
@@ -20811,7 +20811,7 @@ nsPIDOMWindowOuter
 nsGlobalWindowOuter
 :
 :
-GetScriptableParent
+GetInProcessScriptableParent
 (
 )
 {
@@ -20845,7 +20845,7 @@ nsPIDOMWindowOuter
 >
 parent
 =
-GetParent
+GetInProcessParent
 (
 )
 ;
@@ -20860,15 +20860,15 @@ parent
 Behavies
 identically
 to
-GetScriptableParent
+GetInProcessScriptableParent
 extept
 that
 it
 returns
-null
 *
+null
 if
-GetScriptableParent
+GetInProcessScriptableParent
 would
 return
 this
@@ -20881,7 +20881,7 @@ nsPIDOMWindowOuter
 nsGlobalWindowOuter
 :
 :
-GetScriptableParentOrNull
+GetInProcessScriptableParentOrNull
 (
 )
 {
@@ -20889,7 +20889,7 @@ nsPIDOMWindowOuter
 *
 parent
 =
-GetScriptableParent
+GetInProcessScriptableParent
 (
 )
 ;
@@ -20945,7 +20945,7 @@ nsPIDOMWindowOuter
 nsGlobalWindowOuter
 :
 :
-GetParent
+GetInProcessParent
 (
 )
 {
@@ -21100,7 +21100,7 @@ parent
 parent
 -
 >
-GetScriptableParent
+GetInProcessScriptableParent
 (
 )
 ;
@@ -21112,7 +21112,7 @@ parent
 parent
 -
 >
-GetParent
+GetInProcessParent
 (
 )
 ;
@@ -21490,7 +21490,7 @@ NS_OK
 *
 *
 *
-GetScriptableTop
+GetInProcessScriptableTop
 is
 called
 when
@@ -21506,13 +21506,13 @@ In
 contrast
 to
 GetRealTop
-GetScriptableTop
+GetInProcessScriptableTop
 respects
 <
 iframe
+*
 mozbrowser
 >
-*
 boundaries
 .
 If
@@ -21525,10 +21525,10 @@ by
 an
 <
 iframe
+*
 mozbrowser
 >
 while
-*
 walking
 up
 the
@@ -21541,6 +21541,7 @@ stop
 and
 return
 that
+*
 window
 .
 *
@@ -21550,7 +21551,7 @@ nsPIDOMWindowOuter
 nsGlobalWindowOuter
 :
 :
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 {
@@ -21605,7 +21606,7 @@ nsPIDOMWindowOuter
 nsGlobalWindowOuter
 :
 :
-GetTop
+GetInProcessTop
 (
 )
 {
@@ -21936,7 +21937,7 @@ nsPIDOMWindowOuter
 >
 domWindow
 (
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 )
@@ -22083,7 +22084,7 @@ visible
 mDocShell
 -
 >
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -30036,7 +30037,7 @@ MOZ_ASSERT
 this
 =
 =
-GetTopInternal
+GetInProcessTopInternal
 (
 )
 "
@@ -33043,7 +33044,7 @@ parentDsti
 mDocShell
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -37111,7 +37112,7 @@ nsPIDOMWindowOuter
 >
 parent
 =
-GetParent
+GetInProcessParent
 (
 )
 ;
@@ -37563,7 +37564,7 @@ nsPIDOMWindowOuter
 >
 window
 =
-GetTop
+GetInProcessTop
 (
 )
 ;
@@ -42202,17 +42203,17 @@ EnterModalState
 {
 /
 /
-GetScriptableTop
+GetInProcessScriptableTop
 not
-GetTop
+GetInProcessTop
 so
 that
 EnterModalState
+/
+/
 works
 properly
 with
-/
-/
 <
 iframe
 mozbrowser
@@ -42222,7 +42223,7 @@ nsGlobalWindowOuter
 *
 topWin
 =
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;
@@ -42656,7 +42657,7 @@ nsGlobalWindowOuter
 *
 topWin
 =
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;
@@ -42918,7 +42919,7 @@ nsGlobalWindowOuter
 *
 topWin
 =
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;
@@ -44481,7 +44482,7 @@ nsPIDOMWindowOuter
 >
 parent
 =
-GetParent
+GetInProcessParent
 (
 )
 ;
@@ -44582,7 +44583,7 @@ nsPIDOMWindowOuter
 >
 top
 =
-GetTop
+GetInProcessTop
 (
 )
 ;
@@ -44642,7 +44643,7 @@ top
 parent
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 ;
@@ -46965,7 +46966,7 @@ nsPIDOMWindowOuter
 nsGlobalWindowOuter
 :
 :
-GetParentInternal
+GetInProcessParentInternal
 (
 )
 {
@@ -46975,7 +46976,7 @@ nsPIDOMWindowOuter
 >
 parent
 =
-GetParent
+GetInProcessParent
 (
 )
 ;
@@ -49571,7 +49572,7 @@ parent
 mDoc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -51203,7 +51204,7 @@ nsPIDOMWindowOuter
 *
 parent
 =
-GetScriptableParentOrNull
+GetInProcessScriptableParentOrNull
 (
 )
 ;
@@ -51477,7 +51478,7 @@ nsPIDOMWindowOuter
 >
 parent
 =
-GetScriptableParentOrNull
+GetInProcessScriptableParentOrNull
 (
 )
 ;
@@ -51748,7 +51749,7 @@ topWindowOuter
 aWindow
 -
 >
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;

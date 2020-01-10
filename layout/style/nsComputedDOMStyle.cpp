@@ -4777,7 +4777,7 @@ parentDocument
 doc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;

@@ -1026,7 +1026,7 @@ parentTreeItem
 treeItem
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -1582,7 +1582,7 @@ parentDoc
 aDocumentNode
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;

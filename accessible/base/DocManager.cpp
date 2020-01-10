@@ -3323,7 +3323,7 @@ GetDocAccessible
 aDocument
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 )

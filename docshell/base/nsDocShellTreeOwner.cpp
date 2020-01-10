@@ -6810,7 +6810,7 @@ document
 document
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;

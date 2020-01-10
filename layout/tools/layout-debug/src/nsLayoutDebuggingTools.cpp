@@ -863,7 +863,7 @@ name
 aShellItem
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -914,7 +914,7 @@ aIndent
 aShellItem
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 n
@@ -944,7 +944,7 @@ child
 aShellItem
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs
@@ -1148,7 +1148,7 @@ n
 aDocShell
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 n
@@ -1178,7 +1178,7 @@ child
 aDocShell
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs
@@ -1345,7 +1345,7 @@ n
 aDocShell
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 n
@@ -1375,7 +1375,7 @@ child
 aDocShell
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs
@@ -1546,7 +1546,7 @@ n
 aDocShell
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 n
@@ -1576,7 +1576,7 @@ child
 aDocShell
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs

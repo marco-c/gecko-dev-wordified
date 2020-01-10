@@ -11389,7 +11389,7 @@ nsGlobalWindowOuter
 *
 topWin
 =
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;
@@ -11697,12 +11697,12 @@ DialogsAreBeingAbused
 {
 NS_ASSERTION
 (
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 &
 &
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 -
@@ -13201,7 +13201,7 @@ objPrincipal
 =
 do_QueryInterface
 (
-GetParentInternal
+GetInProcessParentInternal
 (
 )
 )
@@ -13308,7 +13308,7 @@ objPrincipal
 =
 do_QueryInterface
 (
-GetParentInternal
+GetInProcessParentInternal
 (
 )
 )
@@ -14357,7 +14357,7 @@ nsPIDOMWindowOuter
 *
 topOuter
 =
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;
@@ -15503,7 +15503,7 @@ topOutter
 window
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 )
@@ -16194,7 +16194,7 @@ nullptr
 *
 *
 *
-GetScriptableParent
+GetInProcessScriptableParent
 is
 called
 when
@@ -16210,7 +16210,7 @@ In
 contrast
 to
 GetRealParent
-GetScriptableParent
+GetInProcessScriptableParent
 respects
 <
 iframe
@@ -16250,13 +16250,13 @@ nsPIDOMWindowOuter
 nsGlobalWindowInner
 :
 :
-GetScriptableParent
+GetInProcessScriptableParent
 (
 )
 {
 FORWARD_TO_OUTER
 (
-GetScriptableParent
+GetInProcessScriptableParent
 (
 )
 nullptr
@@ -16267,7 +16267,7 @@ nullptr
 *
 *
 *
-GetScriptableTop
+GetInProcessScriptableTop
 is
 called
 when
@@ -16283,13 +16283,13 @@ In
 contrast
 to
 GetRealTop
-GetScriptableTop
+GetInProcessScriptableTop
 respects
 <
 iframe
+*
 mozbrowser
 >
-*
 boundaries
 .
 If
@@ -16302,10 +16302,10 @@ by
 an
 <
 iframe
+*
 mozbrowser
 >
 while
-*
 walking
 up
 the
@@ -16318,6 +16318,7 @@ stop
 and
 return
 that
+*
 window
 .
 *
@@ -16327,13 +16328,13 @@ nsPIDOMWindowOuter
 nsGlobalWindowInner
 :
 :
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 {
 FORWARD_TO_OUTER
 (
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 nullptr
@@ -33368,7 +33369,7 @@ childCount
 docShell
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 childCount
@@ -33435,7 +33436,7 @@ childShell
 docShell
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs
@@ -34348,7 +34349,7 @@ childCount
 docShell
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 childCount
@@ -34415,7 +34416,7 @@ childShell
 docShell
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs
@@ -34661,7 +34662,7 @@ nsPIDOMWindowOuter
 nsGlobalWindowInner
 :
 :
-GetParentInternal
+GetInProcessParentInternal
 (
 )
 {
@@ -34694,7 +34695,7 @@ return
 outer
 -
 >
-GetParentInternal
+GetInProcessParentInternal
 (
 )
 ;
@@ -34730,7 +34731,7 @@ nsPIDOMWindowOuter
 *
 topLevelOuterWindow
 =
-GetTopInternal
+GetInProcessTopInternal
 (
 )
 ;
@@ -34861,7 +34862,7 @@ nsPIDOMWindowOuter
 *
 outerWindow
 =
-GetParentInternal
+GetInProcessParentInternal
 (
 )
 ;

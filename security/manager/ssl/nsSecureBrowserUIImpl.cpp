@@ -730,7 +730,7 @@ Unused
 docShellTreeItem
 -
 >
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (

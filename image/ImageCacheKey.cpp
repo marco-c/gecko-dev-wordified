@@ -1394,7 +1394,7 @@ GetInnerWindow
 )
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;

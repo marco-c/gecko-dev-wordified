@@ -2517,7 +2517,7 @@ length
 aRootShell
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 length
@@ -2551,7 +2551,7 @@ rv
 aRootShell
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs
@@ -8721,7 +8721,7 @@ dsCount
 aParent
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 dsCount
@@ -8767,7 +8767,7 @@ treeItem
 aParent
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs

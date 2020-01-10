@@ -4939,7 +4939,7 @@ topWindow
 window
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 )

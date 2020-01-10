@@ -9044,7 +9044,7 @@ NS_SUCCEEDED
 treeItem
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (

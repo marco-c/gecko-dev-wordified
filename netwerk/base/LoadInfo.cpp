@@ -414,7 +414,7 @@ parent
 outer
 -
 >
-GetScriptableParentOrNull
+GetInProcessScriptableParentOrNull
 (
 )
 )
@@ -1187,7 +1187,7 @@ parent
 contextOuter
 -
 >
-GetScriptableParent
+GetInProcessScriptableParent
 (
 )
 ;
@@ -1518,7 +1518,7 @@ topOuter
 innerWindow
 -
 >
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;
@@ -2711,7 +2711,7 @@ parent
 aOuterWindow
 -
 >
-GetScriptableParent
+GetInProcessScriptableParent
 (
 )
 ;

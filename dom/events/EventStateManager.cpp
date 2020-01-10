@@ -3132,7 +3132,7 @@ doc
 doc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 :
@@ -7481,7 +7481,7 @@ childCount
 docShell
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 childCount
@@ -7523,7 +7523,7 @@ subShellItem
 docShell
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 counter
 getter_AddRefs
@@ -7763,7 +7763,7 @@ parentShellItem
 docShell
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -21789,7 +21789,7 @@ currentTop
 currentWindow
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 ;
@@ -21803,7 +21803,7 @@ GetWindow
 )
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 ;
@@ -28892,7 +28892,7 @@ parentDoc
 mDocument
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 )

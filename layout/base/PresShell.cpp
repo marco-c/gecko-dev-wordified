@@ -42311,7 +42311,7 @@ parentTreeItem
 treeItem
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -47516,7 +47516,7 @@ retargetEventDoc
 retargetEventDoc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -54042,7 +54042,7 @@ document
 document
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 )

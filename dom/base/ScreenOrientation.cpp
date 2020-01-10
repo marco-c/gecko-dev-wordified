@@ -1353,7 +1353,7 @@ childCount
 aDocShell
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 childCount
@@ -1388,7 +1388,7 @@ NS_SUCCEEDED
 aDocShell
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs
@@ -1672,7 +1672,7 @@ root
 docShell
 -
 >
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (

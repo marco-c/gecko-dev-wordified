@@ -1221,15 +1221,15 @@ do
 /
 We
 use
-GetScriptableParent
+GetInProcessScriptableParent
 rather
 than
 GetParent
 because
 we
+/
+/
 consider
-/
-/
 <
 iframe
 mozbrowser
@@ -1249,7 +1249,7 @@ parent
 current
 -
 >
-GetScriptableParent
+GetInProcessScriptableParent
 (
 )
 ;

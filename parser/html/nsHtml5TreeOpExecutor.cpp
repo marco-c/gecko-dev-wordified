@@ -4993,7 +4993,7 @@ parent
 mDocShell
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (

@@ -1218,7 +1218,7 @@ parent
 current
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 )

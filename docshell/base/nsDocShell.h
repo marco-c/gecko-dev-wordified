@@ -1990,7 +1990,7 @@ nsDocShell
 >
 parent
 =
-GetParentDocshell
+GetInProcessParentDocshell
 (
 )
 ;
@@ -6532,7 +6532,7 @@ already_AddRefed
 <
 nsDocShell
 >
-GetParentDocshell
+GetInProcessParentDocshell
 (
 )
 ;

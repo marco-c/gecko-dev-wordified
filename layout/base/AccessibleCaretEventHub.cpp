@@ -2532,7 +2532,7 @@ tmp
 curDocShell
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -2655,7 +2655,7 @@ tmp
 curDocShell
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (

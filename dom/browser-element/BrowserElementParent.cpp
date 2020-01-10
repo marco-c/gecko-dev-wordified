@@ -1551,7 +1551,7 @@ tried
 /
 /
 /
-GetScriptableTop
+GetInProcessScriptableTop
 gets
 us
 the
@@ -1566,10 +1566,10 @@ window
 we
 '
 ll
+/
+/
 use
 its
-/
-/
 frame
 element
 rather
@@ -1581,10 +1581,10 @@ frame
 element
 as
 our
+/
+/
 "
 opener
-/
-/
 frame
 element
 "
@@ -1604,7 +1604,7 @@ GetDOMWindow
 )
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;

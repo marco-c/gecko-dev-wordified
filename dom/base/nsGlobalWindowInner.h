@@ -2482,7 +2482,7 @@ aRv
 ;
 nsPIDOMWindowOuter
 *
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 override
@@ -2490,14 +2490,14 @@ override
 inline
 nsGlobalWindowOuter
 *
-GetTopInternal
+GetInProcessTopInternal
 (
 )
 ;
 inline
 nsGlobalWindowOuter
 *
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;
@@ -4116,7 +4116,7 @@ aError
 ;
 nsPIDOMWindowOuter
 *
-GetScriptableParent
+GetInProcessScriptableParent
 (
 )
 override
@@ -7431,7 +7431,7 @@ toplevel
 window
 nsPIDOMWindowOuter
 *
-GetParentInternal
+GetInProcessParentInternal
 (
 )
 ;
@@ -10329,7 +10329,7 @@ nsGlobalWindowOuter
 nsGlobalWindowInner
 :
 :
-GetTopInternal
+GetInProcessTopInternal
 (
 )
 {
@@ -10352,7 +10352,7 @@ outer
 outer
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 :
@@ -10383,7 +10383,7 @@ nsGlobalWindowOuter
 nsGlobalWindowInner
 :
 :
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 {
@@ -10391,7 +10391,7 @@ nsPIDOMWindowOuter
 *
 top
 =
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;
@@ -10494,7 +10494,7 @@ IsFrame
 )
 {
 return
-GetParentInternal
+GetInProcessParentInternal
 (
 )
 !

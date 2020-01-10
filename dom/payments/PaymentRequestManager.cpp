@@ -2989,7 +2989,7 @@ topOuterWindow
 outerWindow
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 )

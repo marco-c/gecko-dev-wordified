@@ -8230,7 +8230,7 @@ parentItem
 treeItem
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (

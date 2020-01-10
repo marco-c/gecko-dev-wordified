@@ -282,7 +282,7 @@ parent
 docShellAsItem
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (

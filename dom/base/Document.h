@@ -7969,7 +7969,7 @@ boundaries
 /
 Document
 *
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 const
@@ -23490,7 +23490,7 @@ StyleOrLayoutObservablyDependsOnParentDocumentLayout
 const
 {
 return
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 &
@@ -23500,7 +23500,7 @@ GetDocGroup
 )
 =
 =
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 -

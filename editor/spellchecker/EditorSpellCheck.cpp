@@ -3659,7 +3659,7 @@ parentDoc
 ownerDoc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;

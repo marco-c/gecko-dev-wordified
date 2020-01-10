@@ -1023,7 +1023,7 @@ parentDoc
 doc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
