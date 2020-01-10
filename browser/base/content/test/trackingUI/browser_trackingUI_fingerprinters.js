@@ -1,19 +1,5 @@
 /
 *
-eslint
--
-disable
-mozilla
-/
-no
--
-arbitrary
--
-setTimeout
-*
-/
-/
-*
 Any
 copyright
 is
@@ -309,7 +295,7 @@ false
 TRACKING_PAGE
 )
 ;
-ContentBlocking
+gProtectionsHandler
 .
 disableForCurrentPage
 (
@@ -322,9 +308,9 @@ loaded
 ok
 (
 !
-ContentBlocking
+gProtectionsHandler
 .
-content
+_protectionsPopup
 .
 hasAttribute
 (
@@ -352,7 +338,7 @@ BrowserTestUtils
 .
 is_hidden
 (
-ContentBlocking
+gProtectionsHandler
 .
 iconBox
 )
@@ -377,7 +363,7 @@ BrowserTestUtils
 .
 is_hidden
 (
-ContentBlocking
+gProtectionsHandler
 .
 iconBox
 )
@@ -431,9 +417,9 @@ promise
 ;
 ok
 (
-ContentBlocking
+gProtectionsHandler
 .
-content
+_protectionsPopup
 .
 hasAttribute
 (
@@ -454,7 +440,7 @@ BrowserTestUtils
 .
 is_visible
 (
-ContentBlocking
+gProtectionsHandler
 .
 iconBox
 )
@@ -468,7 +454,7 @@ visible
 ;
 is
 (
-ContentBlocking
+gProtectionsHandler
 .
 iconBox
 .
@@ -507,7 +493,7 @@ false
 TRACKING_PAGE
 )
 ;
-ContentBlocking
+gProtectionsHandler
 .
 enableForCurrentPage
 (
@@ -606,7 +592,7 @@ false
 TRACKING_PAGE
 )
 ;
-ContentBlocking
+gProtectionsHandler
 .
 disableForCurrentPage
 (
@@ -655,7 +641,7 @@ await
 promise
 ;
 await
-openIdentityPopup
+openProtectionsPopup
 (
 )
 ;
@@ -859,7 +845,7 @@ document
 getElementById
 (
 "
-identity
+protections
 -
 popup
 -
@@ -933,7 +919,7 @@ false
 TRACKING_PAGE
 )
 ;
-ContentBlocking
+gProtectionsHandler
 .
 enableForCurrentPage
 (
