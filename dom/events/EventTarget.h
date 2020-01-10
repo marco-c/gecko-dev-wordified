@@ -163,13 +163,6 @@ nsAtom
 .
 h
 "
-#
-include
-"
-WindowProxyHolder
-.
-h
-"
 class
 nsPIDOMWindowOuter
 ;
@@ -220,6 +213,9 @@ EventHandlerNonNull
 ;
 class
 GlobalObject
+;
+class
+WindowProxyHolder
 ;
 /
 /

@@ -174,6 +174,17 @@ mozilla
 /
 dom
 /
+WindowProxyHolder
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MessageManagerBinding
 .
 h
