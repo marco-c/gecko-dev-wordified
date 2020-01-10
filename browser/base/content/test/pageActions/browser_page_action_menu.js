@@ -4528,11 +4528,7 @@ getTabForBrowser
 (
 otherBrowser
 )
-{
-isLastMultiSelectChange
-:
-true
-}
+false
 )
 ;
 /
