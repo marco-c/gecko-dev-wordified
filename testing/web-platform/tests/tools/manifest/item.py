@@ -662,6 +662,11 @@ URLManifestItem
 )
 :
     
+__slots__
+=
+(
+)
+    
 item_type
 =
 "
@@ -1302,6 +1307,11 @@ RefTestBase
 )
 :
     
+__slots__
+=
+(
+)
+    
 item_type
 =
 "
@@ -1313,6 +1323,11 @@ RefTest
 RefTestBase
 )
 :
+    
+__slots__
+=
+(
+)
     
 item_type
 =
@@ -1326,6 +1341,11 @@ URLManifestItem
 )
 :
     
+__slots__
+=
+(
+)
+    
 item_type
 =
 "
@@ -1337,6 +1357,11 @@ ConformanceCheckerTest
 URLManifestItem
 )
 :
+    
+__slots__
+=
+(
+)
     
 item_type
 =
@@ -1350,6 +1375,11 @@ URLManifestItem
 )
 :
     
+__slots__
+=
+(
+)
+    
 item_type
 =
 "
@@ -1362,6 +1392,11 @@ URLManifestItem
 )
 :
     
+__slots__
+=
+(
+)
+    
 item_type
 =
 "
@@ -1373,6 +1408,11 @@ WebDriverSpecTest
 URLManifestItem
 )
 :
+    
+__slots__
+=
+(
+)
     
 item_type
 =
@@ -1452,6 +1492,11 @@ SupportFile
 ManifestItem
 )
 :
+    
+__slots__
+=
+(
+)
     
 item_type
 =
