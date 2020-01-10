@@ -132,6 +132,8 @@ junit
             
 '
 jittest
+-
+chunked
 '
             
 '
