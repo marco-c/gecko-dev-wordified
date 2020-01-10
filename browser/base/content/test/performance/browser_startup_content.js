@@ -202,6 +202,17 @@ resource
 :
 /
 /
+specialpowers
+/
+WrapPrivileged
+.
+jsm
+"
+"
+resource
+:
+/
+/
 gre
 /
 modules
