@@ -43048,7 +43048,15 @@ search
 addEngineWithDetails
 (
 name
-details
+{
+iconURL
+:
+data
+method
+template
+:
+formURL
+}
 )
 ;
 Snackbars
