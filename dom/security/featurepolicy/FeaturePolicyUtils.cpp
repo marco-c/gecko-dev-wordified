@@ -350,7 +350,7 @@ FeaturePolicyUtils
 FeaturePolicyValue
 :
 :
-eAll
+eSelf
 }
 {
 "
