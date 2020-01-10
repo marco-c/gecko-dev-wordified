@@ -2216,6 +2216,10 @@ nullptr
 LOG
 (
 (
+"
+%
+s
+"
 __FUNCTION__
 )
 )
@@ -2960,6 +2964,10 @@ true
 LOG
 (
 (
+"
+%
+s
+"
 __FUNCTION__
 )
 )
