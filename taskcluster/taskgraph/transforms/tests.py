@@ -9648,6 +9648,20 @@ group
 symbol
 )
             
+if
+get_mobile_project
+(
+test
+)
+not
+in
+[
+'
+fennec
+'
+]
+:
+                
 test
 [
 '
