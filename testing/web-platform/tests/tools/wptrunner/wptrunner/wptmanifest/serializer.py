@@ -648,12 +648,24 @@ node
 data
         
 if
+(
 "
 #
 "
 in
 data
 or
+            
+data
+.
+startswith
+(
+"
+if
+"
+)
+or
+            
 (
 isinstance
 (
@@ -663,7 +675,7 @@ parent
 ListNode
 )
 and
-                           
+             
 (
 "
 "
@@ -675,6 +687,7 @@ or
 "
 in
 data
+)
 )
 )
 :
