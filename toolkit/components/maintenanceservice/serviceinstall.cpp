@@ -1768,7 +1768,7 @@ nullptr
 SetPermissionsOf
 :
 :
-AllFilesAndDirs
+FilesAndDirsWithBadPerms
 updateDir
 )
 ;

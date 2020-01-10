@@ -137,6 +137,7 @@ SetPermissionsOf
 {
 BaseDirIfNotExists
 AllFilesAndDirs
+FilesAndDirsWithBadPerms
 }
 ;
 /
