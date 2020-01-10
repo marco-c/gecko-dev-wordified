@@ -2294,10 +2294,6 @@ API
 -
 controlled
 interval
-(
-in
-us
-)
 .
 *
 /
@@ -2413,6 +2409,9 @@ TimeDuration
 SystemAllocPolicy
 >
 sccTimes
+;
+TimeDuration
+timeSinceLastGC
 ;
 JS
 :
@@ -2535,6 +2534,10 @@ beginGC
 (
 JSGCInvocationKind
 kind
+const
+TimeStamp
+&
+currentTime
 )
 ;
 void
