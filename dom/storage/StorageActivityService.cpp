@@ -269,13 +269,13 @@ Kind
 BasePrincipal
 :
 :
-eCodebasePrincipal
+eContentPrincipal
 )
 {
 /
 /
 Only
-codebase
+content
 principals
 .
 return
@@ -770,7 +770,7 @@ Kind
 BasePrincipal
 :
 :
-eCodebasePrincipal
+eContentPrincipal
 )
 ;
 if
@@ -1377,7 +1377,7 @@ principal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 iter
 .

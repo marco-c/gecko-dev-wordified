@@ -1214,7 +1214,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 aLoadInfo

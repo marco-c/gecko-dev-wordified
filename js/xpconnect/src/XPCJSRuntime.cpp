@@ -3300,7 +3300,6 @@ real
 principal
 with
 a
-codebase
 URI
 .
 /

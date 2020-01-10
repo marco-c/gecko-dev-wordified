@@ -246,7 +246,7 @@ ok
 (
 triggeringPrincipal
 .
-isCodebasePrincipal
+isContentPrincipal
 "
 sanity
 check
@@ -255,7 +255,7 @@ ensure
 principal
 is
 a
-codebasePrincipal
+contentPrincipal
 "
 )
 ;

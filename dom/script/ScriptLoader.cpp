@@ -2621,7 +2621,7 @@ not
 dealing
 with
 a
-codebasePrincipal
+contentPrincipal
 it
 can
 not
@@ -2654,7 +2654,7 @@ TriggeringPrincipal
 )
 -
 >
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 (
 )
 )

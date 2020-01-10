@@ -705,7 +705,7 @@ origin
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 uri
 BasePrincipal

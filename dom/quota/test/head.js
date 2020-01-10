@@ -799,7 +799,7 @@ principal
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -900,7 +900,7 @@ principal
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {

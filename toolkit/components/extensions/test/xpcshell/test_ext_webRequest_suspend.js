@@ -1228,7 +1228,7 @@ loadingPrincipal
 :
 ssm
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 "
 http

@@ -9117,7 +9117,7 @@ principal
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -9202,7 +9202,7 @@ principal
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 attrs

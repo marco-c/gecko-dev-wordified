@@ -505,7 +505,7 @@ principal
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -578,7 +578,7 @@ principal
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -1076,7 +1076,7 @@ principal
 =
 secMan
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 "
 https

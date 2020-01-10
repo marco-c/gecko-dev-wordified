@@ -554,7 +554,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 TEST_ORIGIN
 {
@@ -568,7 +568,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 TEST_ORIGIN_HTTPS
 {
@@ -582,7 +582,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 TEST_ORIGIN_2
 {
@@ -596,7 +596,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 TEST_ORIGIN_3
 {
@@ -619,7 +619,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 TEST_ORIGIN
 attrs
@@ -632,7 +632,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 TEST_ORIGIN_3
 attrs
@@ -653,7 +653,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 TEST_ORIGIN
 attrs
@@ -678,7 +678,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 TEST_ORIGIN
 attrs
@@ -706,7 +706,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 TEST_ORIGIN
 attrs
@@ -2426,7 +2426,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 origin
 {

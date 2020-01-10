@@ -745,7 +745,7 @@ URI
 to
 be
 a
-codebase
+content
 principal
 for
 that

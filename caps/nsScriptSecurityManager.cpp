@@ -2412,7 +2412,7 @@ prin
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 uri
 attrs
@@ -7279,7 +7279,7 @@ NS_IMETHODIMP
 nsScriptSecurityManager
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 nsIURI
 *
@@ -7340,7 +7340,7 @@ prin
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 aURI
 attrs
@@ -7366,7 +7366,7 @@ NS_IMETHODIMP
 nsScriptSecurityManager
 :
 :
-CreateCodebasePrincipalFromOrigin
+CreateContentPrincipalFromOrigin
 (
 const
 nsACString
@@ -7424,7 +7424,7 @@ prin
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 aOrigin
 )
@@ -7652,7 +7652,7 @@ NS_IMETHODIMP
 nsScriptSecurityManager
 :
 :
-GetLoadContextCodebasePrincipal
+GetLoadContextContentPrincipal
 (
 nsIURI
 *
@@ -7691,7 +7691,7 @@ prin
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 aURI
 docShellAttrs
@@ -7717,7 +7717,7 @@ NS_IMETHODIMP
 nsScriptSecurityManager
 :
 :
-GetDocShellCodebasePrincipal
+GetDocShellContentPrincipal
 (
 nsIURI
 *
@@ -7740,7 +7740,7 @@ prin
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 aURI
 nsDocShell
@@ -7817,7 +7817,7 @@ if
 aPrincipal
 -
 >
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 (
 )
 )

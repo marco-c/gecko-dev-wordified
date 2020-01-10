@@ -2815,7 +2815,7 @@ principal
 &
 principal
 .
-isCodebasePrincipal
+isContentPrincipal
 )
 {
 let

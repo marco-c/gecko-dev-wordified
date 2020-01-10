@@ -36324,7 +36324,7 @@ the
 new
 tab
 For
-codebase
+content
 principals
 that
 are
@@ -36500,7 +36500,7 @@ if
 (
 triggeringPrincipal
 .
-isCodebasePrincipal
+isContentPrincipal
 )
 {
 triggeringPrincipal
@@ -36509,7 +36509,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 triggeringPrincipal
 .

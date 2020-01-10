@@ -2237,7 +2237,7 @@ source
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 makeURI
 (

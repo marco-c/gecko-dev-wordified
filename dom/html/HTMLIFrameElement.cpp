@@ -1459,7 +1459,7 @@ principal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 nodeURI
 BasePrincipal

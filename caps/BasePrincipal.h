@@ -192,11 +192,11 @@ BasePrincipal
 ;
 /
 /
-Codebase
+Content
 principals
 (
 and
-codebase
+content
 principals
 embedded
 within
@@ -432,7 +432,7 @@ PrincipalKind
 eNullPrincipal
 =
 0
-eCodebasePrincipal
+eContentPrincipal
 eExpandedPrincipal
 eSystemPrincipal
 eKindMax
@@ -630,7 +630,7 @@ aResult
 override
 ;
 NS_IMETHOD
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 (
 bool
 *
@@ -800,7 +800,7 @@ aPerm
 ;
 virtual
 bool
-IsCodebasePrincipal
+IsContentPrincipal
 (
 )
 const
@@ -860,7 +860,7 @@ already_AddRefed
 <
 BasePrincipal
 >
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 const
 nsACString
@@ -877,7 +877,7 @@ may
 not
 create
 a
-codebase
+content
 principal
 in
 case
@@ -913,7 +913,7 @@ already_AddRefed
 <
 BasePrincipal
 >
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 nsIURI
 *
@@ -1290,7 +1290,7 @@ and
 add
 -
 on
-codebase
+content
 principals
 regardless
 *
@@ -1613,7 +1613,7 @@ already_AddRefed
 <
 BasePrincipal
 >
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 nsIURI
 *
@@ -1739,7 +1739,7 @@ the
 two
 principals
 are
-codebase
+content
 principals
 their
 origin
@@ -1780,7 +1780,7 @@ Kind
 )
 =
 =
-eCodebasePrincipal
+eContentPrincipal
 |
 |
 Kind
@@ -2084,7 +2084,7 @@ Kind
 )
 =
 =
-eCodebasePrincipal
+eContentPrincipal
 &
 &
 !

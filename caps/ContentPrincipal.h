@@ -263,7 +263,7 @@ aSiteOrigin
 override
 ;
 bool
-IsCodebasePrincipal
+IsContentPrincipal
 (
 )
 const
@@ -284,7 +284,7 @@ Kind
 )
 {
 return
-eCodebasePrincipal
+eContentPrincipal
 ;
 }
 /
@@ -309,7 +309,7 @@ Init
 (
 nsIURI
 *
-aCodebase
+aURI
 const
 OriginAttributes
 &
@@ -382,7 +382,7 @@ nsCOMPtr
 <
 nsIURI
 >
-mCodebase
+mURI
 ;
 virtual
 nsresult
@@ -412,7 +412,7 @@ supports
 enum
 SerializableKeys
 {
-eCodebase
+eURI
 =
 0
 eDomain

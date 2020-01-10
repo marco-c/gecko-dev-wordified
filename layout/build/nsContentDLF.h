@@ -327,7 +327,7 @@ the
 about
 :
 blank
-codebase
+content
 principal
 .
 *

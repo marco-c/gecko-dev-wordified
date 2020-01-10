@@ -430,7 +430,7 @@ ok
 (
 principal
 .
-isCodebasePrincipal
+isContentPrincipal
 )
 ;
 var
@@ -688,7 +688,7 @@ ok
 (
 principal
 .
-isCodebasePrincipal
+isContentPrincipal
 )
 ;
 var

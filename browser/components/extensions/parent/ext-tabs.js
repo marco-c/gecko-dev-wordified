@@ -3823,7 +3823,7 @@ false
 Falling
 back
 to
-codebase
+content
 here
 as
 about
@@ -3840,7 +3840,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 Services
 .

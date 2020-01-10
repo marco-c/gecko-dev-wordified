@@ -2361,7 +2361,7 @@ that
 have
 non
 -
-codebase
+content
 principals
 /
 /
@@ -2391,7 +2391,7 @@ Principal
 )
 -
 >
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 (
 )
 )
@@ -5173,7 +5173,7 @@ Principal
 )
 -
 >
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 (
 )
 )

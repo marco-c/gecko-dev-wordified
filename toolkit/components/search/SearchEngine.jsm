@@ -14340,7 +14340,7 @@ nsILoadContext
 /
 Using
 the
-codebase
+content
 principal
 which
 is
@@ -14405,7 +14405,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 searchURI
 attrs

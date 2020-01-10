@@ -258,7 +258,7 @@ principal
 =
 ssm
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 DOMAIN_1
 )

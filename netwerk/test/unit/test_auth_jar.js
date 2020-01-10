@@ -97,7 +97,7 @@ app
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 createURI
 (
@@ -112,7 +112,7 @@ appbrowser
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 createURI
 (

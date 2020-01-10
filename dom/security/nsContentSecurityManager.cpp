@@ -367,7 +367,7 @@ the
 triggeringPrincipal
 is
 a
-codeBasePrincipal
+contentPrincipal
 or
 /
 /
@@ -436,7 +436,7 @@ load
 /
 using
 a
-codeBasePrincipal
+contentPrincipal
 but
 we
 want
@@ -7069,7 +7069,7 @@ MOZ_ASSERT
 aPrincipal
 -
 >
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 (
 )
 "

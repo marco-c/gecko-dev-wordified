@@ -695,7 +695,7 @@ GetChannelPrincipal
 and
 create
 a
-codebase
+content
 principal
 based
 /

@@ -1093,7 +1093,7 @@ if
 aPrincipal
 -
 >
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 (
 )
 )
@@ -10131,7 +10131,7 @@ if
 aPrincipal
 -
 >
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 (
 )
 )

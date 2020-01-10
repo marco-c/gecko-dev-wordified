@@ -2966,7 +2966,7 @@ scheme
 content
 -
 >
-mCodebase
+mURI
 -
 >
 GetScheme
@@ -3011,7 +3011,7 @@ filePath
 content
 -
 >
-mCodebase
+mURI
 -
 >
 GetFilePath

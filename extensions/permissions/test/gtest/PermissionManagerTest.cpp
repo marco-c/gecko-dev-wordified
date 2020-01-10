@@ -273,7 +273,7 @@ mozilla
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 uri
 OriginAttributes

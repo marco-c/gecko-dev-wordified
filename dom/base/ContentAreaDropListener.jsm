@@ -1501,7 +1501,7 @@ nsIScriptSecurityManager
 return
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 ioService
 .

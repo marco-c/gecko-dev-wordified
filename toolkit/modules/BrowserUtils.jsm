@@ -587,7 +587,7 @@ a
 principal
 with
 the
-codebase
+content
 of
 one
 and
@@ -641,7 +641,7 @@ principal
 The
 principal
 whose
-codebase
+content
 /
 null
 /
@@ -677,7 +677,7 @@ nsIPrincipal
 that
 matches
 the
-codebase
+content
 /
 null
 /
@@ -767,13 +767,13 @@ if
 (
 principal
 .
-isCodebasePrincipal
+isContentPrincipal
 )
 {
 return
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 principal
 .

@@ -727,7 +727,7 @@ aSpec1
 ssm
 -
 >
-CreateCodebasePrincipalFromOrigin
+CreateContentPrincipalFromOrigin
 (
 tmpString
 getter_AddRefs

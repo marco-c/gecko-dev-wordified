@@ -1939,11 +1939,12 @@ We
 use
 the
 original
-codebase
+content
+URI
 in
 case
 the
-codebase
+principal
 was
 changed
 /
@@ -1957,7 +1958,7 @@ that
 a
 non
 -
-codebase
+content
 principal
 (
 eg
@@ -1977,7 +1978,7 @@ nsCOMPtr
 <
 nsIURI
 >
-codebaseURI
+contentURI
 ;
 rv
 =
@@ -1993,13 +1994,13 @@ GetURI
 (
 getter_AddRefs
 (
-codebaseURI
+contentURI
 )
 )
 ;
 NS_ENSURE_TRUE
 (
-codebaseURI
+contentURI
 rv
 )
 ;
@@ -2033,7 +2034,7 @@ cookieServ
 >
 SetCookieString
 (
-codebaseURI
+contentURI
 nullptr
 NS_ConvertUTF16toUTF8
 (

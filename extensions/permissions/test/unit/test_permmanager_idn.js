@@ -76,7 +76,7 @@ aDomain
 return
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {

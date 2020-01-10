@@ -3275,7 +3275,7 @@ loaded
 *
 with
 a
-codebase
+content
 principal
 corresponding
 to
@@ -4752,7 +4752,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {

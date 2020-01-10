@@ -1948,7 +1948,7 @@ referrerPrincipal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 referrerUri
 attrs
@@ -2985,7 +2985,7 @@ referrerPrincipal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 referrerUri
 OriginAttributes

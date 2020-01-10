@@ -218,7 +218,7 @@ rv
 ssm
 -
 >
-CreateCodebasePrincipalFromOrigin
+CreateContentPrincipalFromOrigin
 (
 spec
 getter_AddRefs
@@ -322,7 +322,7 @@ rv
 ssm
 -
 >
-CreateCodebasePrincipalFromOrigin
+CreateContentPrincipalFromOrigin
 (
 spec2
 getter_AddRefs
@@ -733,7 +733,7 @@ Kind
 BasePrincipal
 :
 :
-eCodebasePrincipal
+eContentPrincipal
 )
 ;
 /
@@ -890,7 +890,7 @@ rv
 ssm
 -
 >
-CreateCodebasePrincipalFromOrigin
+CreateContentPrincipalFromOrigin
 (
 spec
 getter_AddRefs
@@ -922,7 +922,7 @@ Kind
 BasePrincipal
 :
 :
-eCodebasePrincipal
+eContentPrincipal
 )
 ;
 allowedDomains
@@ -957,7 +957,7 @@ rv
 ssm
 -
 >
-CreateCodebasePrincipalFromOrigin
+CreateContentPrincipalFromOrigin
 (
 spec2
 getter_AddRefs
@@ -989,7 +989,7 @@ Kind
 BasePrincipal
 :
 :
-eCodebasePrincipal
+eContentPrincipal
 )
 ;
 allowedDomains
@@ -1187,7 +1187,7 @@ rv
 ssm
 -
 >
-CreateCodebasePrincipalFromOrigin
+CreateContentPrincipalFromOrigin
 (
 specDev
 getter_AddRefs
@@ -1219,7 +1219,7 @@ Kind
 BasePrincipal
 :
 :
-eCodebasePrincipal
+eContentPrincipal
 )
 ;
 ASSERT_FALSE
@@ -1312,7 +1312,7 @@ rv
 ssm
 -
 >
-CreateCodebasePrincipalFromOrigin
+CreateContentPrincipalFromOrigin
 (
 spec
 getter_AddRefs
@@ -1344,7 +1344,7 @@ Kind
 BasePrincipal
 :
 :
-eCodebasePrincipal
+eContentPrincipal
 )
 ;
 allowedDomains
@@ -1379,7 +1379,7 @@ rv
 ssm
 -
 >
-CreateCodebasePrincipalFromOrigin
+CreateContentPrincipalFromOrigin
 (
 spec2
 getter_AddRefs
@@ -1411,7 +1411,7 @@ Kind
 BasePrincipal
 :
 :
-eCodebasePrincipal
+eContentPrincipal
 )
 ;
 allowedDomains
@@ -1651,7 +1651,7 @@ rv
 ssm
 -
 >
-CreateCodebasePrincipalFromOrigin
+CreateContentPrincipalFromOrigin
 (
 specDev
 getter_AddRefs
@@ -1683,7 +1683,7 @@ Kind
 BasePrincipal
 :
 :
-eCodebasePrincipal
+eContentPrincipal
 )
 ;
 ASSERT_FALSE

@@ -406,7 +406,7 @@ principal
 =
 gScriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -490,7 +490,7 @@ principal
 =
 gScriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {

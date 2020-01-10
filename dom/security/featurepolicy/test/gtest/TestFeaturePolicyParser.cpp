@@ -255,7 +255,7 @@ mozilla
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 URL_SELF
 )
@@ -322,7 +322,7 @@ mozilla
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 URL_SELF
 )
@@ -339,7 +339,7 @@ mozilla
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 URL_EXAMPLE_COM
 )
@@ -356,7 +356,7 @@ mozilla
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 URL_EXAMPLE_NET
 )

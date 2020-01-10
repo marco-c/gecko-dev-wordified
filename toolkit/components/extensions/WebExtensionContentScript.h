@@ -352,7 +352,7 @@ only
 be
 called
 for
-codebase
+content
 principals
 .
 const

@@ -553,7 +553,7 @@ principal
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {

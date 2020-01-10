@@ -1568,7 +1568,7 @@ aPrincipal
 )
 -
 >
-IsCodebasePrincipal
+IsContentPrincipal
 (
 )
 )
@@ -4770,7 +4770,7 @@ principal
 )
 -
 >
-IsCodebasePrincipal
+IsContentPrincipal
 (
 )
 )
@@ -6754,7 +6754,7 @@ principal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 scopeURI
 aOriginAttributes
@@ -8914,7 +8914,7 @@ aPrincipal
 )
 -
 >
-IsCodebasePrincipal
+IsContentPrincipal
 (
 )
 )
@@ -11384,7 +11384,7 @@ principal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 uri
 loadInfo
@@ -12916,7 +12916,7 @@ principal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 scopeURI
 aOriginAttributes

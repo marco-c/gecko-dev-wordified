@@ -4303,7 +4303,7 @@ extensionPrincipal
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 this
 .

@@ -273,7 +273,7 @@ artificialPrincipal
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 ios
 .

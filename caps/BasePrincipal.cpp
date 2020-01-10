@@ -488,7 +488,7 @@ nullprincipal
 /
 /
 /
-Codebase
+Content
 principal
 :
 /
@@ -855,7 +855,7 @@ principalKind
 BasePrincipal
 :
 :
-eCodebasePrincipal
+eContentPrincipal
 |
 |
 principalKind
@@ -1078,7 +1078,7 @@ an
 enum
 of
 :
-eCodebase
+eURI
 eDomain
 /
 /
@@ -1211,7 +1211,7 @@ to
 ContentPrincipal
 :
 :
-eCodebase
+eURI
 /
 /
 They
@@ -1988,7 +1988,7 @@ if
 principalKind
 =
 =
-eCodebasePrincipal
+eContentPrincipal
 )
 {
 nsTArray
@@ -2301,7 +2301,7 @@ Kind
 )
 =
 =
-eCodebasePrincipal
+eContentPrincipal
 mOriginSuffix
 )
 ;
@@ -2350,7 +2350,7 @@ do
 this
 check
 for
-codebase
+content
 principals
 .
 if
@@ -2360,7 +2360,7 @@ Kind
 )
 =
 =
-eCodebasePrincipal
+eContentPrincipal
 &
 &
 mOriginSuffix
@@ -2777,7 +2777,7 @@ NS_IMETHODIMP
 BasePrincipal
 :
 :
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 (
 bool
 *
@@ -2792,7 +2792,7 @@ Kind
 )
 =
 =
-eCodebasePrincipal
+eContentPrincipal
 ;
 return
 NS_OK
@@ -3171,7 +3171,7 @@ BasePrincipal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 nsIURI
 *
@@ -3249,7 +3249,7 @@ aAttrs
 ;
 }
 return
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 aURI
 aAttrs
@@ -3264,7 +3264,7 @@ BasePrincipal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 nsIURI
 *
@@ -3318,7 +3318,7 @@ shouldn
 t
 make
 a
-codebase
+content
 principal
 for
 it
@@ -3452,7 +3452,7 @@ BasePrincipal
 >
 principal
 =
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 origin
 attrs
@@ -3520,14 +3520,14 @@ forget
 /
 Mint
 a
-codebase
+content
 principal
 .
 RefPtr
 <
 ContentPrincipal
 >
-codebase
+principal
 =
 new
 ContentPrincipal
@@ -3536,7 +3536,7 @@ ContentPrincipal
 ;
 rv
 =
-codebase
+principal
 -
 >
 Init
@@ -3553,7 +3553,7 @@ nullptr
 )
 ;
 return
-codebase
+principal
 .
 forget
 (
@@ -3567,7 +3567,7 @@ BasePrincipal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 const
 nsACString
@@ -3589,7 +3589,7 @@ NS_LITERAL_CSTRING
 )
 )
 "
-CreateCodebasePrincipal
+CreateContentPrincipal
 does
 not
 support
@@ -3617,7 +3617,7 @@ NS_NULLPRINCIPAL_SCHEME
 )
 )
 "
-CreateCodebasePrincipal
+CreateContentPrincipal
 does
 not
 support
@@ -3675,7 +3675,7 @@ return
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 uri
 attrs
@@ -3702,7 +3702,7 @@ if
 NS_WARN_IF
 (
 !
-IsCodebasePrincipal
+IsContentPrincipal
 (
 )
 )
@@ -3743,7 +3743,7 @@ this
 )
 -
 >
-mCodebase
+mURI
 ;
 RefPtr
 <

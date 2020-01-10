@@ -632,7 +632,7 @@ contentId
 /
 fields
 const
-codebase
+content
 =
 0
 ;
@@ -726,7 +726,7 @@ contentId
 {
 "
 {
-codebase
+content
 }
 "
 :
@@ -776,7 +776,7 @@ contentId
 {
 "
 {
-codebase
+content
 }
 "
 :
@@ -829,7 +829,7 @@ contentId
 {
 "
 {
-codebase
+content
 }
 "
 :
@@ -882,7 +882,7 @@ contentId
 {
 "
 {
-codebase
+content
 }
 "
 :
@@ -947,7 +947,7 @@ contentId
 {
 "
 {
-codebase
+content
 }
 "
 :
@@ -1012,7 +1012,7 @@ contentId
 {
 "
 {
-codebase
+content
 }
 "
 :
@@ -1062,7 +1062,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 test

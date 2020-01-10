@@ -246,7 +246,7 @@ PRINCIPAL1
 =
 ssm
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 "
 http

@@ -5922,7 +5922,7 @@ _contentPrincipal
 =
 ssm
 .
-getLoadContextCodebasePrincipal
+getLoadContextContentPrincipal
 (
 aboutBlank
 this

@@ -958,7 +958,7 @@ principal
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 ios
 .

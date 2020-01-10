@@ -2681,7 +2681,7 @@ about
 page
 uses
 a
-CodeBasePrincipal
+ContentPrincipal
 with
 scheme
 about

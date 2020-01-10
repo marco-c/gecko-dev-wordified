@@ -253,7 +253,7 @@ already_AddRefed
 <
 nsIPrincipal
 >
-GetCodebasePrincipal
+GetContentPrincipal
 (
 const
 char
@@ -309,7 +309,7 @@ principal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 uri
 attrs
@@ -943,7 +943,7 @@ tests
 {
 principal
 =
-GetCodebasePrincipal
+GetContentPrincipal
 (
 test
 .
@@ -957,7 +957,7 @@ principal
 <
 <
 "
-GetCodebasePrincipal
+GetContentPrincipal
 (
 )
 should

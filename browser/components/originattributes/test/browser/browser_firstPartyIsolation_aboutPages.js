@@ -1374,7 +1374,7 @@ System
 Principal
 but
 with
-codebase
+content
 principal
 .
 /
@@ -1634,14 +1634,14 @@ document
 .
 nodePrincipal
 .
-isCodebasePrincipal
+isContentPrincipal
 "
 The
 principal
 should
 be
 a
-codebase
+content
 principal
 .
 "

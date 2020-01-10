@@ -258,7 +258,7 @@ TestDirectives
 TEST
 (
 SecureContext
-IsOriginPotentiallyTrustworthyWithCodeBasePrincipal
+IsOriginPotentiallyTrustworthyWithContentPrincipal
 )
 {
 /
@@ -568,7 +568,7 @@ GetScriptSecurityManager
 )
 -
 >
-CreateCodebasePrincipalFromOrigin
+CreateContentPrincipalFromOrigin
 (
 uri
 getter_AddRefs

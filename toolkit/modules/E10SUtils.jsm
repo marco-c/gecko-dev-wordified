@@ -705,7 +705,7 @@ targetPrincipal
 =
 sm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 aTargetUri
 {
@@ -2175,7 +2175,7 @@ a
 /
 non
 -
-codebase
+content
 principal
 .
 let
@@ -2186,7 +2186,7 @@ aCurrentPrincipal
 &
 aCurrentPrincipal
 .
-isCodebasePrincipal
+isContentPrincipal
 ?
 aCurrentPrincipal
 .

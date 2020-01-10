@@ -257,7 +257,8 @@ userContextId
 )
 and
 a
-codebase
+content
+principal
 equal
 to
 the

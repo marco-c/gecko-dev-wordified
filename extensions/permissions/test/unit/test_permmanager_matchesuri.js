@@ -345,7 +345,7 @@ principal
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {

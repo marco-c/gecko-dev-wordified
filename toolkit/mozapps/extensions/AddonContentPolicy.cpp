@@ -2348,7 +2348,7 @@ principal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 NS_ConvertUTF16toUTF8
 (

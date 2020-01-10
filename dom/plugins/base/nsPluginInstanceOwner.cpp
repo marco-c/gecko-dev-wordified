@@ -2458,7 +2458,7 @@ we
 are
 creating
 a
-codebasePrincipal
+contentPrincipal
 to
 make
 sure
@@ -2541,7 +2541,7 @@ triggeringPrincipal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 uri
 attrs
