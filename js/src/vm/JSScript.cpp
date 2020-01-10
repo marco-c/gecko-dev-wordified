@@ -10686,7 +10686,7 @@ static
 *
 /
 bool
-JSScript
+ScriptSource
 :
 :
 loadSource
