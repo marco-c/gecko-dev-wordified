@@ -1084,12 +1084,6 @@ level
 ]
         
 '
-MOZ_FETCHES_DIR
-'
-:
-workspace
-        
-'
 GECKO_PATH
 '
 :
