@@ -3529,8 +3529,11 @@ elem
 .
 wast
 :
-169
-assert_unlinkable
+170
+let
+19
+=
+instance
 (
 "
 \
@@ -3602,7 +3605,7 @@ elem
 .
 wast
 :
-177
+175
 assert_unlinkable
 (
 "
@@ -3741,7 +3744,7 @@ elem
 .
 wast
 :
-185
+183
 assert_unlinkable
 (
 "
@@ -3912,7 +3915,7 @@ elem
 .
 wast
 :
-194
+192
 assert_unlinkable
 (
 "
@@ -4053,7 +4056,7 @@ elem
 .
 wast
 :
-202
+200
 assert_unlinkable
 (
 "
@@ -4224,7 +4227,7 @@ elem
 .
 wast
 :
-211
+209
 assert_unlinkable
 (
 "
@@ -4363,7 +4366,7 @@ elem
 .
 wast
 :
-219
+217
 assert_unlinkable
 (
 "
@@ -4534,7 +4537,7 @@ elem
 .
 wast
 :
-228
+226
 assert_unlinkable
 (
 "
@@ -4673,7 +4676,7 @@ elem
 .
 wast
 :
-236
+234
 assert_unlinkable
 (
 "
@@ -4844,7 +4847,7 @@ elem
 .
 wast
 :
-247
+245
 assert_invalid
 (
 "
@@ -4963,7 +4966,7 @@ elem
 .
 wast
 :
-257
+255
 assert_invalid
 (
 "
@@ -5036,7 +5039,7 @@ elem
 .
 wast
 :
-265
+263
 assert_invalid
 (
 "
@@ -5111,7 +5114,7 @@ elem
 .
 wast
 :
-273
+271
 assert_invalid
 (
 "
@@ -5182,7 +5185,7 @@ elem
 .
 wast
 :
-281
+279
 assert_invalid
 (
 "
@@ -5257,7 +5260,7 @@ elem
 .
 wast
 :
-289
+287
 assert_invalid
 (
 "
@@ -5332,9 +5335,9 @@ elem
 .
 wast
 :
-305
+303
 let
-19
+20
 =
 instance
 (
@@ -5594,7 +5597,7 @@ elem
 .
 wast
 :
-316
+314
 assert_return
 (
 (
@@ -5603,7 +5606,7 @@ assert_return
 >
 call
 (
-19
+20
 "
 call
 -
@@ -5621,9 +5624,9 @@ elem
 .
 wast
 :
-318
+316
 let
-20
+21
 =
 instance
 (
@@ -5931,7 +5934,7 @@ elem
 .
 wast
 :
-329
+327
 assert_return
 (
 (
@@ -5940,7 +5943,7 @@ assert_return
 >
 call
 (
-20
+21
 "
 call
 -
@@ -5960,9 +5963,9 @@ elem
 .
 wast
 :
-333
+331
 let
-21
+22
 =
 instance
 (
@@ -6317,7 +6320,7 @@ x0b
 let
 module1
 =
-21
+22
 ;
 /
 /
@@ -6325,7 +6328,7 @@ elem
 .
 wast
 :
-351
+349
 register
 (
 "
@@ -6339,7 +6342,7 @@ elem
 .
 wast
 :
-353
+351
 assert_trap
 (
 (
@@ -6365,7 +6368,7 @@ elem
 .
 wast
 :
-354
+352
 assert_return
 (
 (
@@ -6392,7 +6395,7 @@ elem
 .
 wast
 :
-355
+353
 assert_return
 (
 (
@@ -6419,9 +6422,9 @@ elem
 .
 wast
 :
-357
+355
 let
-22
+23
 =
 instance
 (
@@ -6644,7 +6647,7 @@ x0b
 let
 module2
 =
-22
+23
 ;
 /
 /
@@ -6652,7 +6655,7 @@ elem
 .
 wast
 :
-366
+364
 assert_return
 (
 (
@@ -6679,7 +6682,7 @@ elem
 .
 wast
 :
-367
+365
 assert_return
 (
 (
@@ -6706,7 +6709,7 @@ elem
 .
 wast
 :
-368
+366
 assert_return
 (
 (
@@ -6733,9 +6736,9 @@ elem
 .
 wast
 :
-370
+368
 let
-23
+24
 =
 instance
 (
@@ -6958,7 +6961,7 @@ x0b
 let
 module3
 =
-23
+24
 ;
 /
 /
@@ -6966,7 +6969,7 @@ elem
 .
 wast
 :
-379
+377
 assert_return
 (
 (
@@ -6993,7 +6996,7 @@ elem
 .
 wast
 :
-380
+378
 assert_return
 (
 (
@@ -7020,7 +7023,7 @@ elem
 .
 wast
 :
-381
+379
 assert_return
 (
 (

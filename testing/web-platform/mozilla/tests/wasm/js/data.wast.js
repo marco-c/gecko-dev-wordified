@@ -3183,8 +3183,11 @@ data
 .
 wast
 :
-185
-assert_unlinkable
+186
+let
+26
+=
+instance
 (
 "
 \
@@ -3254,8 +3257,11 @@ data
 .
 wast
 :
-193
-assert_unlinkable
+191
+let
+27
+=
+instance
 (
 "
 \
@@ -3327,7 +3333,7 @@ data
 .
 wast
 :
-210
+205
 assert_unlinkable
 (
 "
@@ -3460,7 +3466,7 @@ data
 .
 wast
 :
-219
+214
 assert_unlinkable
 (
 "
@@ -3539,7 +3545,7 @@ data
 .
 wast
 :
-226
+221
 assert_unlinkable
 (
 "
@@ -3650,7 +3656,7 @@ data
 .
 wast
 :
-234
+229
 assert_unlinkable
 (
 "
@@ -3727,7 +3733,7 @@ data
 .
 wast
 :
-242
+237
 assert_unlinkable
 (
 "
@@ -3806,7 +3812,7 @@ data
 .
 wast
 :
-250
+245
 assert_unlinkable
 (
 "
@@ -3879,7 +3885,7 @@ data
 .
 wast
 :
-257
+252
 assert_unlinkable
 (
 "
@@ -3986,7 +3992,7 @@ data
 .
 wast
 :
-265
+260
 assert_unlinkable
 (
 "
@@ -4061,7 +4067,7 @@ data
 .
 wast
 :
-272
+267
 assert_unlinkable
 (
 "
@@ -4170,7 +4176,7 @@ data
 .
 wast
 :
-282
+277
 assert_invalid
 (
 "
@@ -4223,7 +4229,7 @@ data
 .
 wast
 :
-291
+286
 assert_invalid
 (
 "
@@ -4294,7 +4300,7 @@ data
 .
 wast
 :
-299
+294
 assert_invalid
 (
 "
@@ -4367,7 +4373,7 @@ data
 .
 wast
 :
-307
+302
 assert_invalid
 (
 "
@@ -4436,7 +4442,7 @@ data
 .
 wast
 :
-315
+310
 assert_invalid
 (
 "
@@ -4509,7 +4515,7 @@ data
 .
 wast
 :
-323
+318
 assert_invalid
 (
 "
