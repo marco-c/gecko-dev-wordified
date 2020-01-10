@@ -225,6 +225,9 @@ methods
 void
 NotifyEnded
 (
+MediaStreamGraph
+*
+aGraph
 )
 override
 {

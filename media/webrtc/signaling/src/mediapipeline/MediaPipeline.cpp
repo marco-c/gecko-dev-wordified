@@ -4631,6 +4631,9 @@ override
 void
 NotifyEnabledStateChanged
 (
+MediaStreamGraph
+*
+aGraph
 bool
 aEnabled
 )
@@ -6911,6 +6914,9 @@ PipelineListener
 :
 NotifyEnabledStateChanged
 (
+MediaStreamGraph
+*
+aGraph
 bool
 aEnabled
 )
