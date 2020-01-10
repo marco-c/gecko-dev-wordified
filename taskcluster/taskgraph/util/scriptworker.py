@@ -2753,20 +2753,32 @@ artifact
 map
 '
         
-project
-=
+*
+*
+{
+            
+'
+release
+-
+type
+'
+:
 config
 .
 params
 [
 '
-project
+release_type
 '
 ]
+            
+'
+platform
+'
+:
+platform
         
-platform
-=
-platform
+}
     
 )
     
@@ -3671,20 +3683,32 @@ artifact
 map
 '
         
-project
-=
+*
+*
+{
+            
+'
+release
+-
+type
+'
+:
 config
 .
 params
 [
 '
-project
+release_type
 '
 ]
+            
+'
+platform
+'
+:
+platform
         
-platform
-=
-platform
+}
     
 )
     
@@ -4819,20 +4843,32 @@ artifact
 map
 '
         
-project
-=
+*
+*
+{
+            
+'
+release
+-
+type
+'
+:
 config
 .
 params
 [
 '
-project
+release_type
 '
 ]
+            
+'
+platform
+'
+:
+platform
         
-platform
-=
-platform
+}
     
 )
     
