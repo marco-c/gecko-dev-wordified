@@ -53,13 +53,8 @@ client
 }
 =
 await
-setupForURL
+setup
 (
-toDataURL
-(
-"
-"
-)
 )
 ;
 const
