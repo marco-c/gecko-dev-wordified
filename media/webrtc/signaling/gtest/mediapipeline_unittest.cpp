@@ -346,6 +346,16 @@ new
 FakeMediaStreamTrackSource
 (
 )
+mozilla
+:
+:
+dom
+:
+:
+MediaStreamTrackState
+:
+:
+Ended
 )
 mMutex
 (

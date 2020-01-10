@@ -2446,6 +2446,13 @@ aTrackID
 MediaStreamTrackSource
 *
 aSource
+MediaStreamTrackState
+aReadyState
+=
+MediaStreamTrackState
+:
+:
+Live
 const
 MediaTrackConstraints
 &
@@ -3552,11 +3559,6 @@ the
 data
 producer
 .
-Valid
-until
-we
-end
-.
 /
 /
 Owned
@@ -3564,6 +3566,7 @@ by
 the
 producer
 .
+const
 RefPtr
 <
 MediaStream
