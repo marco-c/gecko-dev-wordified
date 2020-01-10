@@ -542,6 +542,10 @@ Chunk
 *
 popChunk
 (
+const
+AutoLockHelperThreadState
+&
+lock
 )
 ;
 }
