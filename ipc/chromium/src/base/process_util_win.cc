@@ -2057,6 +2057,8 @@ startup_info
 dwFlags
 =
 STARTF_USESHOWWINDOW
+|
+STARTF_FORCEOFFFEEDBACK
 ;
 startup_info
 .
