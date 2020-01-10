@@ -86,6 +86,7 @@ closest
 (
 "
 menu
+menuitem
 "
 )
 &
