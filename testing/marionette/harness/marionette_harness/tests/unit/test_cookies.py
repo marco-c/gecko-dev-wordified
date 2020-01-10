@@ -247,29 +247,6 @@ copy
 (
 )
         
-#
-for
-android
-the
-browser
-is
-running
-on
-a
-remote
-system
-;
-allow
-for
-        
-#
-differences
-between
-local
-and
-remote
-clocks
-        
 cookie
 [
 "
@@ -288,7 +265,13 @@ gmtime
 )
 )
 -
+(
 60
+*
+60
+*
+24
+)
         
 self
 .
