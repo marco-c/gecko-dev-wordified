@@ -187,13 +187,6 @@ nsIWebProgress
 .
 h
 "
-#
-include
-"
-nsNetUtil
-.
-h
-"
 using
 namespace
 mozilla
