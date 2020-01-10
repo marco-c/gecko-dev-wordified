@@ -112,9 +112,6 @@ messageId
 *
 /
 payload
-.
-length
-payload
 )
 ;
 let
@@ -238,8 +235,8 @@ systemPrincipal
 messageId
 *
 /
-0
-null
+[
+]
 )
 ;
 let
