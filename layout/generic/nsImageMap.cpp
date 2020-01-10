@@ -5103,7 +5103,7 @@ area
 )
 ;
 }
-nsIContent
+HTMLAreaElement
 *
 nsImageMap
 :
@@ -5160,7 +5160,7 @@ return
 nullptr
 ;
 }
-nsIContent
+HTMLAreaElement
 *
 nsImageMap
 :
