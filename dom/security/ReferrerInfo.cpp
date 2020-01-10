@@ -5270,6 +5270,10 @@ iframe
 nsGkAtoms
 :
 :
+link
+nsGkAtoms
+:
+:
 img
 )
 )

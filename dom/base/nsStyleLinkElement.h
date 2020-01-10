@@ -197,17 +197,6 @@ h
 #
 include
 "
-mozilla
-/
-net
-/
-ReferrerPolicy
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

@@ -3085,12 +3085,7 @@ Principal
 0
 data
 .
-GetReferrer
-(
-)
-data
-.
-GetReferrerPolicy
+ReferrerInfo
 (
 )
 nullptr
