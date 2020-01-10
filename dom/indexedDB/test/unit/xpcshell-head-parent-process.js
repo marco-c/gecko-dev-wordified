@@ -3540,9 +3540,15 @@ slightly
 adjusted
 )
 from
-specialpowersAPI
+testing
+/
+specialpowers
+/
+content
+/
+SpecialPowersAPI
 .
-js
+jsm
 exactGC
 (
 callback
@@ -3575,7 +3581,7 @@ if
 +
 count
 <
-2
+3
 )
 {
 doPreciseGCandCC
