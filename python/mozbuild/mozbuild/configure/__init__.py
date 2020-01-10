@@ -7899,7 +7899,7 @@ foo
 '
 None
 )
-          
+        
 are
 both
 equivalent
