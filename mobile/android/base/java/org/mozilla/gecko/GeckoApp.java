@@ -7365,7 +7365,7 @@ ourselves
 .
 mLayerView
 .
-setSaveFromParentEnabled
+setSaveEnabled
 (
 false
 )
