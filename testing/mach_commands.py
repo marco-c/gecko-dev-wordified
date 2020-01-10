@@ -1660,6 +1660,7 @@ plain
 return
 guessed_suite
 err
+CommandProvider
 class
 Test
 (
