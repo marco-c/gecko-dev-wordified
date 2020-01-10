@@ -5764,12 +5764,7 @@ SetIsInitialDocument
 bool
 aIsInitialDocument
 )
-{
-mIsInitialDocumentInWindow
-=
-aIsInitialDocument
 ;
-}
 void
 SetLoadedAsData
 (

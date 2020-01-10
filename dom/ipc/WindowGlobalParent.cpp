@@ -454,6 +454,10 @@ WGP
 :
 :
 Init
+mIsInitialDocument
+(
+false
+)
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
