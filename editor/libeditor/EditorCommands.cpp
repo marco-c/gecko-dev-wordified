@@ -343,7 +343,7 @@ mozilla
 mozilla
 :
 :
-EditorCommandBase
+EditorCommand
 *
 *
 *
@@ -423,17 +423,9 @@ EditorCommandBase
 *
 *
 /
-EditorCommandBase
-:
-:
-EditorCommandBase
-(
-)
-{
-}
 NS_IMPL_ISUPPORTS
 (
-EditorCommandBase
+EditorCommand
 nsIControllerCommand
 )
 /
