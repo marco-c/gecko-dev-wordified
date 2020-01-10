@@ -5791,6 +5791,9 @@ case
 AREA_OR_WBR
 :
 case
+KEYGEN
+:
+case
 BR
 :
 case
@@ -5801,9 +5804,6 @@ IMG
 :
 case
 INPUT
-:
-case
-KEYGEN
 :
 case
 HR
@@ -6858,6 +6858,9 @@ EMBED
 case
 AREA_OR_WBR
 :
+case
+KEYGEN
+:
 {
 reconstructTheActiveFormattingElements
 (
@@ -6949,9 +6952,6 @@ starttagloop
 }
 case
 IMG
-:
-case
-KEYGEN
 :
 case
 INPUT
@@ -8505,9 +8505,6 @@ INPUT
 :
 case
 TEXTAREA
-:
-case
-KEYGEN
 :
 {
 errStartTagWithSelectOpen
@@ -13093,6 +13090,9 @@ break
 case
 AREA_OR_WBR
 :
+case
+KEYGEN
+:
 #
 ifdef
 ENABLE_VOID_MENUITEM
@@ -13115,9 +13115,6 @@ IMAGE
 :
 case
 INPUT
-:
-case
-KEYGEN
 :
 case
 HR

@@ -770,8 +770,8 @@ kbd
 HTML_TAG
 (
 keygen
-Span
-Span
+Unknown
+Unknown
 )
 HTML_TAG
 (

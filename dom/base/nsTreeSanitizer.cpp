@@ -560,6 +560,10 @@ kbd
 nsGkAtoms
 :
 :
+keygen
+nsGkAtoms
+:
+:
 label
 nsGkAtoms
 :
@@ -6049,15 +6053,6 @@ nsGkAtoms
 :
 :
 input
-=
-=
-aLocal
-|
-|
-nsGkAtoms
-:
-:
-keygen
 =
 =
 aLocal

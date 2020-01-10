@@ -121,13 +121,6 @@ h
 #
 include
 "
-nsIGenKeypairInfoDlg
-.
-h
-"
-#
-include
-"
 nsIStringBundle
 .
 h
@@ -177,8 +170,6 @@ nsICertificateDialogs
 public
 nsIClientAuthDialogs
 public
-nsIGeneratingKeypairInfoDialogs
-public
 nsITokenDialogs
 public
 nsITokenPasswordDialogs
@@ -190,7 +181,6 @@ NS_DECL_NSITOKENPASSWORDDIALOGS
 NS_DECL_NSICERTIFICATEDIALOGS
 NS_DECL_NSICLIENTAUTHDIALOGS
 NS_DECL_NSITOKENDIALOGS
-NS_DECL_NSIGENERATINGKEYPAIRINFODIALOGS
 nsNSSDialogs
 (
 )

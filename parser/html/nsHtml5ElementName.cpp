@@ -5532,12 +5532,14 @@ nsGkAtoms
 :
 :
 keygen
-NS_NewHTMLSpanElement
+NS_NewHTMLElement
 NS_NewSVGUnknownElement
 nsHtml5TreeBuilder
 :
 :
 KEYGEN
+|
+SPECIAL
 )
 ;
 ELT_MAIN

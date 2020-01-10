@@ -9080,7 +9080,7 @@ keygen
 /
 CPPONLY
 :
-NS_NewHTMLSpanElement
+NS_NewHTMLElement
 /
 /
 CPPONLY
@@ -9089,6 +9089,8 @@ NS_NewSVGUnknownElement
 TreeBuilder
 .
 KEYGEN
+|
+SPECIAL
 )
 ;
 public
