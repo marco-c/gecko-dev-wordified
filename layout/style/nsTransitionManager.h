@@ -1224,7 +1224,6 @@ void
 CancelFromStyle
 (
 )
-override
 {
 /
 /
@@ -1300,7 +1299,7 @@ true
 Animation
 :
 :
-CancelFromStyle
+Cancel
 (
 )
 ;
@@ -1316,7 +1315,7 @@ this
 after
 *
 calling
-CancelFromStyle
+Cancel
 (
 )
 .
@@ -1325,7 +1324,7 @@ CancelFromStyle
 This
 is
 because
-CancelFromStyle
+Cancel
 (
 )
 will

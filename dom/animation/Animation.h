@@ -885,17 +885,6 @@ Cancel
 (
 )
 ;
-virtual
-void
-CancelFromStyle
-(
-)
-{
-CancelNoUpdate
-(
-)
-;
-}
 void
 Finish
 (

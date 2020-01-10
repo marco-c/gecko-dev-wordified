@@ -637,7 +637,6 @@ void
 CancelFromStyle
 (
 )
-override
 {
 /
 /
@@ -781,7 +780,7 @@ true
 Animation
 :
 :
-CancelFromStyle
+Cancel
 (
 )
 ;
@@ -796,13 +795,15 @@ this
 after
 *
 calling
-CancelFromStyle
+Cancel
 (
 )
 since
 /
 /
-CancelFromStyle
+Cancel
+(
+)
 might
 synchronously
 trigger
