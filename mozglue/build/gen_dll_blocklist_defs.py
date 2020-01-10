@@ -1354,8 +1354,16 @@ in
 defs
 :
             
-if
+name
+=
 e
+.
+get_name
+(
+)
+            
+if
+name
 not
 in
 seen
@@ -1365,7 +1373,7 @@ seen
 .
 add
 (
-e
+name
 )
             
 else
@@ -1383,11 +1391,7 @@ found
 s
 '
 %
-e
-.
-get_name
-(
-)
+name
 )
     
 staticmethod
