@@ -4099,6 +4099,16 @@ retain
 "
 )
 ;
+sandbox
+.
+usesOverlayScrollbars
+=
+g
+.
+windowUtils
+.
+usesOverlayScrollbars
+;
 /
 /
 Shortcuts
