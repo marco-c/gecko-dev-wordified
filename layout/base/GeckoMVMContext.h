@@ -313,6 +313,13 @@ AllowZoomingForDocument
 const
 override
 ;
+bool
+IsDocumentLoading
+(
+)
+const
+override
+;
 void
 SetResolutionAndScaleTo
 (

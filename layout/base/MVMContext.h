@@ -338,6 +338,15 @@ const
 0
 ;
 virtual
+bool
+IsDocumentLoading
+(
+)
+const
+=
+0
+;
+virtual
 void
 SetResolutionAndScaleTo
 (
