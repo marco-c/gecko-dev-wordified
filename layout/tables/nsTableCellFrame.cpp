@@ -2942,13 +2942,16 @@ bool
 hasBoxShadow
 =
 !
-!
 StyleEffects
 (
 )
 -
 >
 mBoxShadow
+.
+IsEmpty
+(
+)
 ;
 if
 (

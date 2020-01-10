@@ -10093,6 +10093,7 @@ table
 frames
 if
 (
+!
 aFrame
 -
 >
@@ -10102,6 +10103,10 @@ StyleEffects
 -
 >
 mBoxShadow
+.
+IsEmpty
+(
+)
 )
 {
 aLists
@@ -10687,6 +10692,7 @@ table
 frames
 if
 (
+!
 aFrame
 -
 >
@@ -10696,6 +10702,10 @@ StyleEffects
 -
 >
 mBoxShadow
+.
+IsEmpty
+(
+)
 )
 {
 aLists
