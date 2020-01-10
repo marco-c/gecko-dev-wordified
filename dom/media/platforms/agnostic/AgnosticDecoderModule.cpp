@@ -266,6 +266,12 @@ StaticPrefs
 MediaRddProcessEnabled
 (
 )
+|
+|
+!
+BrowserTabsRemoteAutostart
+(
+)
 )
 {
 supports
