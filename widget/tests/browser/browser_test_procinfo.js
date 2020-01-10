@@ -322,9 +322,10 @@ MAC
 {
 Assert
 .
-greater
+ok
 (
 cpuThreads
+>
 0
 "
 Got
@@ -340,9 +341,10 @@ threads
 }
 Assert
 .
-greater
+ok
 (
 cpuUser
+>
 0
 "
 Got

@@ -338,13 +338,14 @@ title
 ;
 Assert
 .
-greater
+ok
 (
 entry
 .
 visits
 .
 length
+>
 0
 "
 Should
