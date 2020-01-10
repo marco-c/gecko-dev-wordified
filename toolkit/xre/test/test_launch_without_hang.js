@@ -1675,12 +1675,10 @@ triesStarted
 ;
 if
 (
-(
 triesStarted
 <
 =
 TRY_COUNT
-)
 &
 &
 okToContinue
