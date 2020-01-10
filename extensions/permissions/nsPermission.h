@@ -254,9 +254,6 @@ no
 /
 /
 userContextId
-and
-no
-FirstPartyDomain
 )
 and
 a
@@ -265,8 +262,6 @@ equal
 to
 the
 origin
-/
-/
 of
 '
 aPrincipal
