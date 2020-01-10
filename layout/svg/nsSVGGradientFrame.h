@@ -267,7 +267,10 @@ const
 gfxMatrix
 &
 aContextMatrix
-nsStyleSVGPaint
+mozilla
+:
+:
+StyleSVGPaint
 nsStyleSVG
 :
 :

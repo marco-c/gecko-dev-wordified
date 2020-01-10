@@ -931,7 +931,6 @@ svg
 SVGLength
 SVGOpacity
 SVGPaint
-SVGPaintKind
 }
 ;
 pub

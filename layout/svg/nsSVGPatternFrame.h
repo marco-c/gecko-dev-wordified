@@ -272,7 +272,10 @@ const
 gfxMatrix
 &
 aContextMatrix
-nsStyleSVGPaint
+mozilla
+:
+:
+StyleSVGPaint
 nsStyleSVG
 :
 :
@@ -574,7 +577,10 @@ aContextMatrix
 nsIFrame
 *
 aSource
-nsStyleSVGPaint
+mozilla
+:
+:
+StyleSVGPaint
 nsStyleSVG
 :
 :

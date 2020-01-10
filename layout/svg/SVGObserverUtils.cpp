@@ -9076,7 +9076,10 @@ GetAndObservePaintServer
 nsIFrame
 *
 aPaintedFrame
-nsStyleSVGPaint
+mozilla
+:
+:
+StyleSVGPaint
 nsStyleSVG
 :
 :
@@ -9230,6 +9233,7 @@ StyleSVG
 ;
 if
 (
+!
 (
 svgStyle
 -
@@ -9238,12 +9242,11 @@ svgStyle
 aPaint
 )
 .
-Type
+kind
+.
+IsPaintServer
 (
 )
-!
-=
-eStyleSVGPaintType_Server
 )
 {
 return
@@ -9267,7 +9270,9 @@ svgStyle
 aPaint
 )
 .
-GetPaintServer
+kind
+.
+AsPaintServer
 (
 )
 )

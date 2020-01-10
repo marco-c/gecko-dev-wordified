@@ -1744,7 +1744,7 @@ const
 gfxMatrix
 &
 aContextMatrix
-nsStyleSVGPaint
+StyleSVGPaint
 nsStyleSVG
 :
 :

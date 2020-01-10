@@ -1639,7 +1639,10 @@ GetAndObservePaintServer
 nsIFrame
 *
 aPaintedFrame
-nsStyleSVGPaint
+mozilla
+:
+:
+StyleSVGPaint
 nsStyleSVG
 :
 :
