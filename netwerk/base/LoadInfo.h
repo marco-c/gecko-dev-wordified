@@ -1266,12 +1266,6 @@ isFromProcessingFrameAttributes
 bool
 mIsFromProcessingFrameAttributes
 ;
-nsILoadInfo
-:
-:
-CrossOriginOpenerPolicy
-mOpenerPolicy
-;
 }
 ;
 }

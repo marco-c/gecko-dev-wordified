@@ -203,6 +203,14 @@ nsILoadInfo
 :
 CrossOriginPolicy
 )
+MOZ_BC_FIELD
+(
+OpenerPolicy
+nsILoadInfo
+:
+:
+CrossOriginOpenerPolicy
+)
 /
 /
 The
