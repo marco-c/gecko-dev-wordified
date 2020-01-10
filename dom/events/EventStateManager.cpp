@@ -32016,6 +32016,13 @@ mFlags
 mOnlyChromeDispatch
 =
 aNoContentDispatch
+&
+&
+!
+aMouseUpEvent
+-
+>
+mUseLegacyNonPrimaryDispatch
 ;
 event
 .
@@ -32842,6 +32849,13 @@ necessary
 if
 (
 fireAuxClick
+&
+&
+*
+aStatus
+!
+=
+nsEventStatus_eConsumeNoDefault
 &
 &
 aClickTarget
