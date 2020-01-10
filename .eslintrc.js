@@ -321,12 +321,6 @@ devtools
 *
 "
 "
-nsprpub
-/
-*
-*
-"
-"
 other
 -
 licenses
