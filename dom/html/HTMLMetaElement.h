@@ -464,6 +464,14 @@ Document
 aDocument
 )
 ;
+void
+DiscardViewportContent
+(
+Document
+*
+aDocument
+)
+;
 }
 ;
 }
