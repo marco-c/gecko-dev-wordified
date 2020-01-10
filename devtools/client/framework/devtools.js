@@ -3575,7 +3575,9 @@ browserWin
 =
 toolbox
 .
-topWindow
+win
+.
+top
 ;
 this
 .
