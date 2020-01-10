@@ -64,6 +64,7 @@ flow
 import
 {
 hasInScopeLines
+hasSourceActor
 getSourceWithContent
 getVisibleSelectedFrame
 }
@@ -414,6 +415,18 @@ getState
 (
 )
 location
+)
+|
+|
+!
+hasSourceActor
+(
+getState
+(
+)
+location
+.
+sourceId
 )
 )
 {
