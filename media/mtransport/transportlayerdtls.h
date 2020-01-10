@@ -1024,9 +1024,6 @@ cert_ok_
 =
 false
 ;
-TimeStamp
-handshake_started_
-;
 }
 ;
 }

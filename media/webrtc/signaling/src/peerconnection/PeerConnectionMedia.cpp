@@ -1817,11 +1817,6 @@ aSession
 IsIceControlling
 (
 )
-aSession
-.
-IsOfferer
-(
-)
 attributes
 )
 )

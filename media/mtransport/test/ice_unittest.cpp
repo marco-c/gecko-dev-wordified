@@ -4941,7 +4941,6 @@ ice_ctx_
 >
 StartChecks
 (
-offerer_
 )
 ;
 ASSERT_TRUE
@@ -6240,7 +6239,6 @@ NrIceCtx
 :
 :
 StartChecks
-offerer_
 )
 NS_DISPATCH_SYNC
 )

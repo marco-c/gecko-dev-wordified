@@ -688,8 +688,6 @@ StartIceChecks
 (
 bool
 aIsControlling
-bool
-aIsOfferer
 const
 std
 :
@@ -4620,8 +4618,6 @@ StartIceChecks
 (
 bool
 aIsControlling
-bool
-aIsOfferer
 const
 std
 :
@@ -4756,7 +4752,6 @@ mIceCtx
 >
 StartChecks
 (
-aIsOfferer
 )
 ;
 if

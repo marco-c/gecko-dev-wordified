@@ -3618,10 +3618,6 @@ mStartTime
 bool
 mHaveConfiguredCodecs
 ;
-unsigned
-int
-mAddCandidateErrorCount
-;
 bool
 mTrickle
 ;

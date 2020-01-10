@@ -1769,8 +1769,6 @@ StartIceChecks
 (
 bool
 aIsControlling
-bool
-aIsOfferer
 const
 std
 :
@@ -1825,7 +1823,6 @@ mChild
 SendStartIceChecks
 (
 aIsControlling
-aIsOfferer
 aIceOptions
 )
 ;
