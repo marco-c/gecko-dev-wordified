@@ -443,9 +443,10 @@ SerializableKeys
 eSpecs
 =
 0
+eSuffix
 eMax
 =
-eSpecs
+eSuffix
 }
 ;
 /
