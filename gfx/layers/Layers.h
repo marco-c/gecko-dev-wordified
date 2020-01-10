@@ -5032,6 +5032,7 @@ Length
 )
 ;
 }
+virtual
 void
 PayloadPresented
 (
@@ -18149,6 +18150,18 @@ const
 gfxRect
 &
 aRect
+)
+;
+void
+RecordCompositionPayloadsPresented
+(
+const
+nsTArray
+<
+CompositionPayload
+>
+&
+aPayloads
 )
 ;
 }
