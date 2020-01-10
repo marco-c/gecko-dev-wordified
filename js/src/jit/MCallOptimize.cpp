@@ -28451,6 +28451,15 @@ wasm
 ValType
 :
 :
+FuncRef
+:
+case
+wasm
+:
+:
+ValType
+:
+:
 Ref
 :
 MOZ_CRASH
