@@ -1700,8 +1700,6 @@ logins
 .
 searchLogins
 (
-{
-}
 newPropertyBag
 (
 {
@@ -1759,8 +1757,6 @@ logins
 .
 searchLogins
 (
-{
-}
 newPropertyBag
 (
 {
@@ -1822,8 +1818,6 @@ logins
 .
 searchLogins
 (
-{
-}
 newPropertyBag
 (
 {

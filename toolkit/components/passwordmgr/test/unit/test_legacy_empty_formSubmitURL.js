@@ -698,8 +698,6 @@ logins
 .
 searchLogins
 (
-{
-}
 matchData
 )
 .
@@ -804,8 +802,6 @@ logins
 .
 searchLogins
 (
-{
-}
 matchData
 )
 .
@@ -937,8 +933,6 @@ logins
 .
 searchLogins
 (
-{
-}
 newPropertyBag
 (
 {

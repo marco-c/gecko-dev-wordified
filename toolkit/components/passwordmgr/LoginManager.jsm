@@ -2690,7 +2690,6 @@ decrypted
 /
 searchLogins
 (
-count
 matchData
 )
 {
@@ -2803,7 +2802,6 @@ _storage
 .
 searchLogins
 (
-count
 matchData
 )
 ;

@@ -1414,9 +1414,6 @@ Helper
 to
 avoid
 the
-count
-argument
-and
 property
 bags
 when
@@ -1478,8 +1475,6 @@ logins
 .
 searchLogins
 (
-{
-}
 this
 .
 newPropertyBag

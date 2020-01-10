@@ -1893,7 +1893,6 @@ decrypted
 /
 searchLogins
 (
-count
 matchData
 )
 {
@@ -2024,19 +2023,6 @@ _decryptLogins
 logins
 )
 ;
-count
-.
-value
-=
-logins
-.
-length
-;
-/
-/
-needed
-for
-XPCOM
 return
 logins
 ;
