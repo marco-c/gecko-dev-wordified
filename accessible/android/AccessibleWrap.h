@@ -161,6 +161,15 @@ AccessibleWrap
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+/
+/
+TODO
+:
+Mark
+this
+as
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 HandleAccEvent

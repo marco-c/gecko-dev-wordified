@@ -717,6 +717,7 @@ int32_t
 aMaxScrollY
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SendAccessibilityFocusedEvent
 (

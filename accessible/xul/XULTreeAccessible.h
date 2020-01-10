@@ -1063,6 +1063,7 @@ eAction_Expand
 /
 /
 Accessible
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 DispatchClickEvent

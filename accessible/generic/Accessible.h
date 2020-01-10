@@ -3167,6 +3167,7 @@ view
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 ScrollTo
@@ -7180,6 +7181,7 @@ event
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 DispatchClickEvent

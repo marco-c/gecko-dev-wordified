@@ -341,7 +341,7 @@ available
 values
 *
 /
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 static
 void
 DispatchClickEvent
@@ -463,6 +463,7 @@ the
 element
 *
 /
+MOZ_CAN_RUN_SCRIPT
 static
 void
 DispatchMouseEvent
@@ -589,6 +590,7 @@ the
 element
 *
 /
+MOZ_CAN_RUN_SCRIPT
 static
 void
 DispatchTouchEvent
@@ -1756,6 +1758,7 @@ view
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 static
 void
 ScrollTo
