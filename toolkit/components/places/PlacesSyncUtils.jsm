@@ -13078,8 +13078,6 @@ bookmarkItem
 .
 url
 )
-{
-}
 )
 ;
 let

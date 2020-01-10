@@ -3577,8 +3577,6 @@ tagging
 getTagsForURI
 (
 URI
-{
-}
 )
 ;
 tags
