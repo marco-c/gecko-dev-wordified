@@ -19189,18 +19189,6 @@ read
 (
 length
 )
-.
-decode
-(
-"
-UTF
--
-8
-"
-"
-replace
-"
-)
                 
 elif
 offset
@@ -19222,18 +19210,6 @@ tf2
 read
 (
 )
-.
-decode
-(
-"
-UTF
--
-8
-"
-"
-replace
-"
-)
                 
 else
 :
@@ -19243,18 +19219,6 @@ tf2
 .
 read
 (
-)
-.
-decode
-(
-"
-UTF
--
-8
-"
-"
-replace
-"
 )
     
 def
