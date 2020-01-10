@@ -1764,13 +1764,6 @@ scratch
 )
 ;
 void
-loadResumeIndexBytecodeOperand
-(
-Register
-dest
-)
-;
-void
 loadInt32LengthBytecodeOperand
 (
 Register
