@@ -4737,6 +4737,15 @@ GetCurrentVideoPrincipal
 )
 ;
 bool
+hadCrossOriginRedirects
+=
+aVideoEl
+.
+HadCrossOriginRedirects
+(
+)
+;
+bool
 CORSUsed
 =
 aVideoEl
@@ -4755,6 +4764,7 @@ CheckWriteOnlySecurity
 (
 CORSUsed
 principal
+hadCrossOriginRedirects
 )
 ;
 /
