@@ -3606,6 +3606,8 @@ IntSize
 aSize
 uint32_t
 aFlags
+uint32_t
+aWhichFrame
 )
 ;
 protected

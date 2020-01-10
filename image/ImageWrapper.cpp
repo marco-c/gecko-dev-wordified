@@ -1039,6 +1039,8 @@ StartDecoding
 (
 uint32_t
 aFlags
+uint32_t
+aWhichFrame
 )
 {
 return
@@ -1048,6 +1050,7 @@ mInnerImage
 StartDecoding
 (
 aFlags
+aWhichFrame
 )
 ;
 }
@@ -1059,6 +1062,8 @@ StartDecodingWithResult
 (
 uint32_t
 aFlags
+uint32_t
+aWhichFrame
 )
 {
 return
@@ -1068,6 +1073,7 @@ mInnerImage
 StartDecodingWithResult
 (
 aFlags
+aWhichFrame
 )
 ;
 }
@@ -1079,6 +1085,8 @@ RequestDecodeWithResult
 (
 uint32_t
 aFlags
+uint32_t
+aWhichFrame
 )
 {
 return
@@ -1088,6 +1096,7 @@ mInnerImage
 RequestDecodeWithResult
 (
 aFlags
+aWhichFrame
 )
 ;
 }
@@ -1103,6 +1112,8 @@ nsIntSize
 aSize
 uint32_t
 aFlags
+uint32_t
+aWhichFrame
 )
 {
 return
@@ -1113,6 +1124,7 @@ RequestDecodeForSize
 (
 aSize
 aFlags
+aWhichFrame
 )
 ;
 }
