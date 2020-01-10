@@ -261,6 +261,12 @@ TYPE_IS_CONTENTFUL
 <
 <
 1
+TYPE_IS_CONTAINER
+=
+1
+<
+<
+2
 }
 ;
 inline
