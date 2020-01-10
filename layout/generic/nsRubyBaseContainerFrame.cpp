@@ -5659,10 +5659,6 @@ ReparentFloats
 frame
 oldFloatCB
 false
-ReparentingDirection
-:
-:
-Backwards
 )
 ;
 }

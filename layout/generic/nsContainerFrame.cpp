@@ -11080,10 +11080,6 @@ FirstChild
 (
 )
 true
-ReparentingDirection
-:
-:
-Forwards
 )
 ;
 }
@@ -11947,8 +11943,6 @@ nsIFrame
 aFrame
 bool
 aReparentSiblings
-ReparentingDirection
-aDirection
 )
 {
 /
@@ -12094,7 +12088,6 @@ ReparentFloats
 aFrame
 frameBlock
 false
-aDirection
 )
 ;
 if
@@ -12212,7 +12205,6 @@ ReparentFloatsForInlineChild
 aOurLineContainer
 next
 aReparentSiblings
-aDirection
 )
 ;
 return
