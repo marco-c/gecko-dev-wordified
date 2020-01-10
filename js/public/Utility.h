@@ -2824,7 +2824,7 @@ finalizer
 :
 *
 *
-FreeOp
+JSFreeOp
 :
 :
 {

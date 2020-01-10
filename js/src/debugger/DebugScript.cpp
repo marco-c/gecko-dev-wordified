@@ -252,7 +252,7 @@ h
 /
 /
 for
-FreeOp
+JSFreeOp
 #
 include
 "
@@ -417,7 +417,7 @@ h
 /
 /
 for
-FreeOp
+JSFreeOp
 :
 :
 free_
