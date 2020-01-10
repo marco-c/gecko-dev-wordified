@@ -104,6 +104,10 @@ extern
 crate
 prefs_parser
 ;
+extern
+crate
+static_prefs
+;
 #
 [
 cfg
