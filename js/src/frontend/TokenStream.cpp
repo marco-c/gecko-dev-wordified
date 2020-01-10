@@ -12023,18 +12023,9 @@ token
 >
 modifier
 |
-and
-|
-token
--
->
-modifierException
-|
-are
+is
 set
 in
-/
-/
 |
 newToken
 (
@@ -12043,6 +12034,8 @@ newToken
 so
 that
 optimized
+/
+/
 non
 -
 debug
@@ -12053,8 +12046,6 @@ t
 do
 any
 work
-/
-/
 to
 pass
 a
@@ -12063,6 +12054,8 @@ modifier
 argument
 that
 will
+/
+/
 never
 be
 used
