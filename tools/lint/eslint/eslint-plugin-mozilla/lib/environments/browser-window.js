@@ -11,7 +11,7 @@ in
 the
 browser
 .
-xul
+xhtml
 window
 .
 *
@@ -340,7 +340,7 @@ loaded
 from
 browser
 .
-xul
+xhtml
 or
 global
 -
