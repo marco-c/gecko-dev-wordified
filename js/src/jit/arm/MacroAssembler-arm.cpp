@@ -41350,7 +41350,7 @@ offset
 wasm
 :
 :
-OffsetGuardLimit
+MaxOffsetGuardLimit
 )
 ;
 Scalar
@@ -41846,7 +41846,7 @@ offset
 wasm
 :
 :
-OffsetGuardLimit
+MaxOffsetGuardLimit
 )
 ;
 unsigned
@@ -42286,7 +42286,7 @@ offset
 wasm
 :
 :
-OffsetGuardLimit
+MaxOffsetGuardLimit
 )
 ;
 if
@@ -43072,7 +43072,7 @@ offset
 wasm
 :
 :
-OffsetGuardLimit
+MaxOffsetGuardLimit
 )
 ;
 unsigned
