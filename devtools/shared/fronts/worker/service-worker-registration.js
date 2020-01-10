@@ -138,6 +138,17 @@ fetch
 ;
 }
 get
+id
+(
+)
+{
+return
+this
+.
+url
+;
+}
+get
 lastUpdateTime
 (
 )
