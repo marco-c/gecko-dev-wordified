@@ -733,9 +733,7 @@ let
 TYPE_CHECK
 =
 {
-"
 array
-"
 :
 val
 =
@@ -746,9 +744,7 @@ isArray
 (
 val
 )
-"
 object
-"
 :
 val
 =
@@ -794,9 +790,11 @@ in
 aObj
 )
 )
+{
 return
 aDefault
 ;
+}
 let
 value
 =
@@ -831,6 +829,7 @@ if
 !
 matchesType
 )
+{
 throw
 Components
 .
@@ -855,6 +854,7 @@ aType
 )
 )
 ;
+}
 return
 value
 ;
@@ -885,6 +885,7 @@ value
 =
 undefined
 )
+{
 throw
 Components
 .
@@ -903,6 +904,7 @@ property
 .
 )
 ;
+}
 return
 value
 ;
@@ -922,6 +924,7 @@ object
 manifest
 )
 )
+{
 throw
 Components
 .
@@ -942,6 +945,7 @@ literal
 "
 )
 ;
+}
 /
 /
 The
@@ -2786,9 +2790,11 @@ type
 incompatible
 "
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -2800,10 +2806,12 @@ strictCompatibility
 !
 aIgnoreStrictCompat
 )
+{
 aIgnoreMaxVersion
 =
 false
 ;
+}
 let
 result
 =
@@ -2849,14 +2857,12 @@ minVersion
 >
 =
 0
-)
 &
 &
 (
 aIgnoreMaxVersion
 |
 |
-(
 Services
 .
 vc
@@ -2887,7 +2893,6 @@ TOOLKIT_ID
 {
 result
 =
-(
 Services
 .
 vc
@@ -2902,14 +2907,12 @@ minVersion
 >
 =
 0
-)
 &
 &
 (
 aIgnoreMaxVersion
 |
 |
-(
 Services
 .
 vc
@@ -2924,7 +2927,6 @@ maxVersion
 <
 =
 0
-)
 )
 ;
 }
@@ -3103,6 +3105,7 @@ if
 !
 aAppVersion
 )
+{
 aAppVersion
 =
 Services
@@ -3111,11 +3114,13 @@ appinfo
 .
 version
 ;
+}
 if
 (
 !
 aPlatformVersion
 )
+{
 aPlatformVersion
 =
 Services
@@ -3124,6 +3129,7 @@ appinfo
 .
 platformVersion
 ;
+}
 for
 (
 let
@@ -3189,9 +3195,11 @@ id
 =
 TOOLKIT_ID
 )
+{
 return
 update
 ;
+}
 }
 }
 else
@@ -3346,6 +3354,7 @@ if
 !
 aAppVersion
 )
+{
 aAppVersion
 =
 Services
@@ -3354,11 +3363,13 @@ appinfo
 .
 version
 ;
+}
 if
 (
 !
 aPlatformVersion
 )
+{
 aPlatformVersion
 =
 Services
@@ -3367,6 +3378,7 @@ appinfo
 .
 platformVersion
 ;
+}
 let
 newest
 =
@@ -3387,8 +3399,10 @@ update
 .
 updateURL
 )
+{
 continue
 ;
+}
 let
 state
 =
@@ -3413,8 +3427,10 @@ nsIBlocklistService
 .
 STATE_NOT_BLOCKED
 )
+{
 continue
 ;
+}
 if
 (
 (
@@ -3424,7 +3440,6 @@ newest
 null
 |
 |
-(
 Services
 .
 vc
@@ -3440,7 +3455,6 @@ version
 )
 <
 0
-)
 )
 &
 &

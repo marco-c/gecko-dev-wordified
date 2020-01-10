@@ -975,6 +975,7 @@ name
 FAIL
 "
 )
+{
 do_throw
 (
 aActualAddon
@@ -990,6 +991,7 @@ aActualAddon
 description
 )
 ;
+}
 if
 (
 aActualAddon
@@ -1001,6 +1003,7 @@ name
 PASS
 "
 )
+{
 do_throw
 (
 aActualAddon
@@ -1021,6 +1024,7 @@ aActualAddon
 name
 )
 ;
+}
 }
 )
 ;
@@ -1488,7 +1492,7 @@ test
 {
 searchTerms
 :
-"
+'
 odd
 =
 search
@@ -1496,10 +1500,9 @@ search
 with
 &
 weird
-\
 "
 characters
-"
+'
 preferenceValue
 :
 BASE_URL

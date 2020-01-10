@@ -118,6 +118,7 @@ this
 .
 isCancelled
 )
+{
 do_throw
 (
 "
@@ -126,6 +127,7 @@ cancelled
 "
 )
 ;
+}
 this
 .
 isCancelled
@@ -251,6 +253,7 @@ this
 .
 isCancelled
 )
+{
 do_throw
 (
 "
@@ -259,6 +262,7 @@ cancelled
 "
 )
 ;
+}
 this
 .
 isCancelled
@@ -347,6 +351,7 @@ this
 .
 isCancelled
 )
+{
 do_throw
 (
 "
@@ -355,6 +360,7 @@ cancelled
 "
 )
 ;
+}
 this
 .
 isCancelled

@@ -535,12 +535,14 @@ description
 =
 TEST_PLUGIN_DESCRIPTION
 )
+{
 gID
 =
 p
 .
 id
 ;
+}
 }
 )
 ;

@@ -31,7 +31,6 @@ zero
 const
 BIN_DIR
 =
-(
 AppConstants
 .
 platform
@@ -49,7 +48,6 @@ test_bug473417
 "
 test_bug473417
 "
-)
 ;
 const
 BIN_EXE

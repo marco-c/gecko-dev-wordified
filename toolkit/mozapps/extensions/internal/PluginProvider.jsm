@@ -360,12 +360,14 @@ this
 .
 plugins
 )
+{
 this
 .
 updatePluginList
 (
 )
 ;
+}
 break
 ;
 }
@@ -451,12 +453,14 @@ this
 .
 plugins
 )
+{
 this
 .
 buildPluginList
 (
 )
 ;
+}
 if
 (
 aId
@@ -465,6 +469,7 @@ this
 .
 plugins
 )
+{
 return
 this
 .
@@ -478,6 +483,7 @@ aId
 ]
 )
 ;
+}
 return
 null
 ;
@@ -551,12 +557,14 @@ this
 .
 plugins
 )
+{
 this
 .
 buildPluginList
 (
 )
 ;
+}
 return
 Promise
 .
@@ -722,6 +730,7 @@ in
 seenPlugins
 )
 )
+{
 seenPlugins
 [
 tag
@@ -732,6 +741,7 @@ name
 {
 }
 ;
+}
 if
 (
 !
@@ -1206,6 +1216,7 @@ plugin
 of
 lostPlugins
 )
+{
 AddonManagerPrivate
 .
 callAddonListeners
@@ -1217,6 +1228,7 @@ plugin
 false
 )
 ;
+}
 this
 .
 plugins
@@ -1238,6 +1250,7 @@ plugin
 of
 newPlugins
 )
+{
 AddonManagerPrivate
 .
 callAddonListeners
@@ -1248,6 +1261,7 @@ onInstalled
 plugin
 )
 ;
+}
 /
 /
 Signal
@@ -1298,6 +1312,7 @@ plugin
 of
 lostPlugins
 )
+{
 AddonManagerPrivate
 .
 callAddonListeners
@@ -1308,6 +1323,7 @@ onUninstalled
 plugin
 )
 ;
+}
 }
 }
 ;
@@ -1536,6 +1552,7 @@ test
 description
 )
 )
+{
 return
 /
 <
@@ -1572,6 +1589,7 @@ description
 1
 ]
 ;
+}
 return
 null
 ;
@@ -1658,9 +1676,11 @@ tag
 .
 disabled
 )
+{
 return
 true
 ;
+}
 if
 (
 tag
@@ -1744,9 +1764,11 @@ val
 =
 previousVal
 )
+{
 return
 val
 ;
+}
 let
 {
 tags
@@ -1773,6 +1795,7 @@ val
 =
 true
 )
+{
 tag
 .
 enabledState
@@ -1783,6 +1806,7 @@ nsIPluginTag
 .
 STATE_DISABLED
 ;
+}
 else
 if
 (
@@ -1792,6 +1816,7 @@ val
 =
 false
 )
+{
 tag
 .
 enabledState
@@ -1802,6 +1827,7 @@ nsIPluginTag
 .
 STATE_ENABLED
 ;
+}
 else
 if
 (
@@ -1812,6 +1838,7 @@ AddonManager
 .
 STATE_ASK_TO_ACTIVATE
 )
+{
 tag
 .
 enabledState
@@ -1822,6 +1849,7 @@ nsIPluginTag
 .
 STATE_CLICKTOPLAY
 ;
+}
 }
 /
 /
@@ -2123,6 +2151,7 @@ this
 .
 tags
 )
+{
 libs
 .
 push
@@ -2132,6 +2161,7 @@ tag
 filename
 )
 ;
+}
 return
 libs
 ;
@@ -2159,6 +2189,7 @@ this
 .
 tags
 )
+{
 paths
 .
 push
@@ -2168,6 +2199,7 @@ tag
 fullpath
 )
 ;
+}
 return
 paths
 ;
@@ -2397,11 +2429,13 @@ dir
 path
 )
 )
+{
 return
 AddonManager
 .
 SCOPE_APPLICATION
 ;
+}
 /
 /
 Plugins
@@ -2441,11 +2475,13 @@ dir
 path
 )
 )
+{
 return
 AddonManager
 .
 SCOPE_PROFILE
 ;
+}
 /
 /
 Plugins
@@ -2502,11 +2538,13 @@ dir
 path
 )
 )
+{
 return
 AddonManager
 .
 SCOPE_USER
 ;
+}
 }
 catch
 (
@@ -2530,9 +2568,11 @@ Cr
 .
 NS_ERROR_FAILURE
 )
+{
 throw
 e
 ;
+}
 /
 /
 Do
@@ -2633,6 +2673,7 @@ userDisabled
 =
 true
 )
+{
 permissions
 |
 =
@@ -2640,6 +2681,7 @@ AddonManager
 .
 PERM_CAN_DISABLE
 ;
+}
 if
 (
 this
@@ -2671,7 +2713,6 @@ blocklistState
 let
 isCTPBlocklisted
 =
-(
 blocklistState
 =
 =
@@ -2690,7 +2731,6 @@ Ci
 nsIBlocklistService
 .
 STATE_VULNERABLE_UPDATE_AVAILABLE
-)
 ;
 if
 (
@@ -2743,6 +2783,7 @@ optionsURL
 )
 {
 return
+(
 "
 chrome
 :
@@ -2767,6 +2808,7 @@ encodeURIComponent
 this
 .
 id
+)
 )
 ;
 }
@@ -2858,6 +2900,7 @@ onNoCompatibilityUpdateAvailable
 in
 aListener
 )
+{
 aListener
 .
 onNoCompatibilityUpdateAvailable
@@ -2865,6 +2908,7 @@ onNoCompatibilityUpdateAvailable
 this
 )
 ;
+}
 if
 (
 "
@@ -2873,6 +2917,7 @@ onNoUpdateAvailable
 in
 aListener
 )
+{
 aListener
 .
 onNoUpdateAvailable
@@ -2880,6 +2925,7 @@ onNoUpdateAvailable
 this
 )
 ;
+}
 if
 (
 "
@@ -2888,6 +2934,7 @@ onUpdateFinished
 in
 aListener
 )
+{
 aListener
 .
 onUpdateFinished
@@ -2895,6 +2942,7 @@ onUpdateFinished
 this
 )
 ;
+}
 }
 get
 isFlashPlugin

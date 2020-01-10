@@ -6865,7 +6865,6 @@ yesterday
 =
 now
 -
-(
 1000
 *
 60
@@ -6873,7 +6872,6 @@ now
 60
 *
 24
-)
 ;
 let
 applyToDir
@@ -7681,10 +7679,8 @@ waitForCondition
 )
 =
 >
-(
 areFilesStabilized
 (
-)
 )
 "
 Waiting
@@ -8646,7 +8642,7 @@ CSIDL_PROGRAM_FILES
 const
 CSIDL_PROGRAM_FILESX86
 =
-0x2A
+0x2a
 ;
 /
 /
@@ -9781,13 +9777,11 @@ MOZ_APP_BASENAME
 relPathUpdates
 +
 =
-(
 MOZ_APP_VENDOR
 ?
 MOZ_APP_VENDOR
 :
 MOZ_APP_BASENAME
-)
 ;
 }
 else
@@ -13194,12 +13188,10 @@ waitForCondition
 )
 =
 >
-(
 !
 isFileInUse
 (
 updater
-)
 )
 "
 Waiting
@@ -13914,7 +13906,7 @@ Assert
 notEqual
 (
 exitValue
-0xEE
+0xee
 "
 the
 maintenance
@@ -15105,7 +15097,6 @@ Windows
 let
 shouldSymlink
 =
-(
 pathParts
 [
 pathParts
@@ -15155,7 +15146,6 @@ length
 .
 dylib
 "
-)
 ;
 if
 (
@@ -16162,7 +16152,7 @@ Assert
 notEqual
 (
 exitValue
-0xEE
+0xee
 "
 the
 maintenance
@@ -17314,13 +17304,11 @@ waitForCondition
 )
 =
 >
-(
 !
 !
 gPIDPersistProcess
 .
 pid
-)
 "
 Waiting
 for
@@ -17651,12 +17639,10 @@ waitForCondition
 )
 =
 >
-(
 file
 .
 exists
 (
-)
 )
 "
 Waiting
@@ -17691,7 +17677,6 @@ waitForCondition
 )
 =
 >
-(
 readFile
 (
 file
@@ -17699,7 +17684,6 @@ file
 =
 =
 expectedContents
-)
 "
 Waiting
 for
@@ -17883,12 +17867,10 @@ waitForCondition
 )
 =
 >
-(
 file
 .
 exists
 (
-)
 )
 "
 Waiting
@@ -17923,7 +17905,6 @@ waitForCondition
 )
 =
 >
-(
 readFile
 (
 file
@@ -17931,7 +17912,6 @@ file
 =
 =
 expectedContents
-)
 "
 Waiting
 for
@@ -20215,7 +20195,6 @@ n
 ]
 *
 7
-\
 /
 7text1
 [
@@ -20238,7 +20217,6 @@ n
 ]
 *
 7
-\
 /
 7text0
 [
@@ -20301,7 +20279,7 @@ moving
 .
 *
 /
-mg
+gm
 "
 "
 )
@@ -20324,7 +20302,7 @@ file
 .
 *
 /
-mg
+gm
 "
 "
 )
@@ -20347,7 +20325,7 @@ directory
 .
 *
 /
-mg
+gm
 "
 "
 )
@@ -20368,7 +20346,7 @@ err
 -
 1
 /
-mg
+gm
 "
 "
 )
@@ -20386,7 +20364,7 @@ remove_recursive_on_reboot
 .
 *
 /
-mg
+gm
 "
 "
 )
@@ -23681,12 +23659,10 @@ waitForCondition
 )
 =
 >
-(
 file
 .
 exists
 (
-)
 )
 "
 Waiting
@@ -23723,7 +23699,6 @@ waitForCondition
 )
 =
 >
-(
 readFile
 (
 file
@@ -23731,7 +23706,6 @@ file
 =
 =
 expectedContents
-)
 "
 Waiting
 for
@@ -24878,9 +24852,7 @@ addDownloadListener
 {
 onStartRequest
 :
-(
 aRequest
-)
 =
 >
 {
@@ -27176,12 +27148,10 @@ waitForCondition
 )
 =
 >
-(
 file
 .
 exists
 (
-)
 )
 "
 Waiting
@@ -27207,14 +27177,12 @@ waitForCondition
 )
 =
 >
-(
 readStatusFile
 (
 )
 =
 =
 aExpectedStatus
-)
 "
 Waiting
 for
@@ -27306,12 +27274,10 @@ waitForCondition
 )
 =
 >
-(
 file
 .
 exists
 (
-)
 )
 "
 Waiting

@@ -326,7 +326,6 @@ aInitializedHidden
 var
 selected
 =
-(
 gCategoryUtilities
 .
 selectedCategory
@@ -335,7 +334,6 @@ selectedCategory
 "
 locale
 "
-)
 ;
 is
 (

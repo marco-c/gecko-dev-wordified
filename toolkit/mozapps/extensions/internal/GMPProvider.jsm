@@ -1352,6 +1352,7 @@ isActive
 )
 {
 return
+(
 !
 this
 .
@@ -1372,6 +1373,7 @@ isPluginHidden
 this
 .
 _plugin
+)
 )
 ;
 }
@@ -3673,6 +3675,7 @@ info
 ;
 }
 return
+(
 fileExists
 (
 this
@@ -3688,6 +3691,7 @@ this
 .
 gmpPath
 infoName
+)
 )
 ;
 }
@@ -4100,9 +4104,11 @@ name
 NS_ERROR_NOT_AVAILABLE
 "
 )
+{
 throw
 e
 ;
+}
 this
 .
 _log

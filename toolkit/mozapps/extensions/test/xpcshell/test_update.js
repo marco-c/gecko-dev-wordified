@@ -4296,7 +4296,6 @@ id
 ;
 ok
 (
-(
 id
 =
 =
@@ -4321,7 +4320,6 @@ mozilla
 .
 org
 "
-)
 "
 Saw
 unexpected
@@ -4757,9 +4755,7 @@ let
 validAddons
 =
 {
-"
 system
-"
 :
 [
 "

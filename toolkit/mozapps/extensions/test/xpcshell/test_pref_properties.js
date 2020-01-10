@@ -1301,6 +1301,7 @@ AddonManager
 .
 checkUpdateSecurityDefault
 )
+{
 Assert
 .
 ok
@@ -1320,7 +1321,9 @@ checkUpdateSecurity
 )
 )
 ;
+}
 else
+{
 Assert
 .
 ok
@@ -1340,6 +1343,7 @@ checkUpdateSecurity
 )
 )
 ;
+}
 gManagerEventsListener
 .
 expect
@@ -1376,6 +1380,7 @@ AddonManager
 .
 checkUpdateSecurityDefault
 )
+{
 Assert
 .
 ok
@@ -1395,7 +1400,9 @@ checkUpdateSecurity
 )
 )
 ;
+}
 else
+{
 Assert
 .
 ok
@@ -1415,6 +1422,7 @@ checkUpdateSecurity
 )
 )
 ;
+}
 gManagerEventsListener
 .
 expect
@@ -1454,6 +1462,7 @@ AddonManager
 .
 checkUpdateSecurityDefault
 )
+{
 Assert
 .
 ok
@@ -1472,7 +1481,9 @@ checkUpdateSecurity
 )
 )
 ;
+}
 else
+{
 Assert
 .
 ok
@@ -1492,6 +1503,7 @@ checkUpdateSecurity
 )
 )
 ;
+}
 gManagerEventsListener
 .
 expect
@@ -1528,6 +1540,7 @@ AddonManager
 .
 checkUpdateSecurityDefault
 )
+{
 Assert
 .
 ok
@@ -1546,7 +1559,9 @@ checkUpdateSecurity
 )
 )
 ;
+}
 else
+{
 Assert
 .
 ok
@@ -1566,6 +1581,7 @@ checkUpdateSecurity
 )
 )
 ;
+}
 gManagerEventsListener
 .
 shutdown

@@ -153,13 +153,11 @@ runUpdate
 (
 STATE_FAILED_LOADSOURCE_ERROR_WRONG_SIZE
 false
-(
 USE_EXECV
 ?
 0
 :
 1
-)
 true
 )
 ;

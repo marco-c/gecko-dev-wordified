@@ -152,6 +152,7 @@ of
 9999
 ]
 )
+{
 downloadTimes
 [
 time
@@ -167,6 +168,7 @@ time
 0
 ]
 ;
+}
 /
 /
 Pretend
@@ -228,6 +230,7 @@ entries
 downloadTimes
 )
 )
+{
 Assert
 .
 equal
@@ -245,4 +248,5 @@ lastSec
 text
 )
 ;
+}
 }

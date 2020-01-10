@@ -744,6 +744,7 @@ prefs
 .
 PREF_BOOL
 )
+{
 pref
 .
 value
@@ -759,6 +760,7 @@ pref
 name
 )
 ;
+}
 else
 if
 (
@@ -773,6 +775,7 @@ prefs
 .
 PREF_INT
 )
+{
 pref
 .
 value
@@ -788,6 +791,7 @@ pref
 name
 )
 ;
+}
 else
 if
 (
@@ -802,6 +806,7 @@ prefs
 .
 PREF_STRING
 )
+{
 pref
 .
 value
@@ -817,6 +822,7 @@ pref
 name
 )
 ;
+}
 }
 /
 /
@@ -922,6 +928,7 @@ if
 (
 found
 )
+{
 ok
 (
 false
@@ -939,6 +946,7 @@ open
 "
 )
 ;
+}
 }
 /
 /
@@ -1263,6 +1271,7 @@ type
 clear
 "
 )
+{
 Services
 .
 prefs
@@ -1274,6 +1283,7 @@ pref
 name
 )
 ;
+}
 else
 if
 (
@@ -1288,6 +1298,7 @@ prefs
 .
 PREF_BOOL
 )
+{
 Services
 .
 prefs
@@ -1302,6 +1313,7 @@ pref
 value
 )
 ;
+}
 else
 if
 (
@@ -1316,6 +1328,7 @@ prefs
 .
 PREF_INT
 )
+{
 Services
 .
 prefs
@@ -1330,6 +1343,7 @@ pref
 value
 )
 ;
+}
 else
 if
 (
@@ -1344,6 +1358,7 @@ prefs
 .
 PREF_STRING
 )
+{
 Services
 .
 prefs
@@ -1358,6 +1373,7 @@ pref
 value
 )
 ;
+}
 }
 /
 /
@@ -1428,8 +1444,10 @@ install
 instanceof
 MockInstall
 )
+{
 continue
 ;
+}
 ok
 (
 false
@@ -1656,6 +1674,7 @@ gTestsRun
 >
 0
 )
+{
 info
 (
 "
@@ -1683,6 +1702,7 @@ ms
 "
 )
 ;
+}
 if
 (
 gPendingTests
@@ -1720,6 +1740,7 @@ test
 .
 name
 )
+{
 info
 (
 "
@@ -1742,7 +1763,9 @@ name
 "
 )
 ;
+}
 else
+{
 info
 (
 "
@@ -1753,6 +1776,7 @@ test
 gTestsRun
 )
 ;
+}
 gTestStart
 =
 Date
@@ -2414,6 +2438,7 @@ node
 .
 value
 )
+{
 inlist
 .
 push
@@ -2423,6 +2448,7 @@ node
 value
 )
 ;
+}
 node
 =
 node
@@ -2448,6 +2474,7 @@ includes
 id
 )
 )
+{
 ok
 (
 false
@@ -2466,12 +2493,15 @@ list
 )
 ;
 }
+}
 if
 (
 aIgnoreExtras
 )
+{
 return
 ;
+}
 for
 (
 let
@@ -2490,6 +2520,7 @@ includes
 inlistItem
 )
 )
+{
 ok
 (
 false
@@ -2510,6 +2541,7 @@ list
 "
 )
 ;
+}
 }
 }
 function
@@ -2855,16 +2887,19 @@ if
 (
 aLoadCallback
 )
+{
 log_exceptions
 (
 aLoadCallback
 aManagerWindow
 )
 ;
+}
 if
 (
 aView
 )
+{
 aManagerWindow
 .
 loadView
@@ -2872,6 +2907,7 @@ loadView
 aView
 )
 ;
+}
 ok
 (
 aManagerWindow
@@ -3450,6 +3486,7 @@ length
 =
 0
 )
+{
 return
 bundle
 .
@@ -3458,6 +3495,7 @@ GetStringFromName
 aName
 )
 ;
+}
 return
 bundle
 .
@@ -3534,9 +3572,11 @@ display
 none
 "
 )
+{
 return
 true
 ;
+}
 if
 (
 style
@@ -3548,9 +3588,11 @@ visibility
 visible
 "
 )
+{
 return
 true
 ;
+}
 /
 /
 Hiding
@@ -3573,6 +3615,7 @@ aElement
 .
 ownerDocument
 )
+{
 return
 is_hidden
 (
@@ -3581,6 +3624,7 @@ aElement
 parentNode
 )
 ;
+}
 return
 false
 ;
@@ -3618,7 +3662,6 @@ aElement
 aMsg
 |
 |
-(
 aElement
 +
 "
@@ -3626,7 +3669,6 @@ should
 be
 visible
 "
-)
 )
 ;
 }
@@ -3662,7 +3704,6 @@ aElement
 aMsg
 |
 |
-(
 aElement
 +
 "
@@ -3670,7 +3711,6 @@ should
 be
 hidden
 "
-)
 )
 ;
 }
@@ -3938,7 +3978,6 @@ value
 )
 ;
 return
-(
 view
 .
 type
@@ -3947,7 +3986,6 @@ type
 "
 list
 "
-)
 ?
 view
 .
@@ -4033,12 +4071,14 @@ items
 .
 length
 )
+{
 return
 items
 [
 0
 ]
 ;
+}
 viewId
 =
 "
@@ -4072,17 +4112,20 @@ items
 .
 length
 )
+{
 return
 items
 [
 0
 ]
 ;
+}
 if
 (
 !
 aAllowMissing
 )
+{
 ok
 (
 false
@@ -4099,6 +4142,7 @@ type
 aCategoryType
 )
 ;
+}
 return
 null
 ;
@@ -4192,9 +4236,11 @@ disabled
 true
 "
 )
+{
 return
 false
 ;
+}
 return
 !
 is_hidden
@@ -4673,13 +4719,11 @@ this
 .
 useAsyncCallbacks
 =
-(
 aUseAsyncCallbacks
 =
 =
 =
 undefined
-)
 ?
 true
 :
@@ -4689,13 +4733,11 @@ this
 .
 types
 =
-(
 aTypes
 =
 =
 =
 undefined
-)
 ?
 [
 {
@@ -4743,12 +4785,14 @@ self
 .
 started
 )
+{
 self
 .
 unregister
 (
 )
 ;
+}
 }
 )
 ;
@@ -5018,8 +5062,10 @@ this
 .
 started
 )
+{
 return
 ;
+}
 let
 requiresRestart
 =
@@ -5167,8 +5213,10 @@ this
 .
 started
 )
+{
 return
 ;
+}
 AddonManagerPrivate
 .
 callAddonListeners
@@ -5254,8 +5302,10 @@ this
 .
 started
 )
+{
 return
 ;
+}
 aInstall
 .
 callListeners
@@ -5434,8 +5484,10 @@ prop
 id
 "
 )
+{
 continue
 ;
+}
 if
 (
 prop
@@ -5527,6 +5579,7 @@ addon
 .
 optionsURL
 )
+{
 addon
 .
 optionsType
@@ -5535,6 +5588,7 @@ AddonManager
 .
 OPTIONS_TYPE_DIALOG
 ;
+}
 /
 /
 Make
@@ -6101,9 +6155,11 @@ aAddon
 type
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -6189,9 +6245,11 @@ AddonManager
 .
 STATE_CANCELLED
 )
+{
 return
 false
 ;
+}
 if
 (
 aTypes
@@ -6214,9 +6272,11 @@ aInstall
 type
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -6757,16 +6817,13 @@ this
 .
 operationsRequiringRestart
 =
-(
 aOperationsRequiringRestart
 !
 =
 undefined
-)
 ?
 aOperationsRequiringRestart
 :
-(
 AddonManager
 .
 OP_NEEDS_RESTART_INSTALL
@@ -6782,7 +6839,6 @@ OP_NEEDS_RESTART_ENABLE
 AddonManager
 .
 OP_NEEDS_RESTART_DISABLE
-)
 ;
 }
 MockAddon
@@ -6807,9 +6863,11 @@ AddonManager
 .
 SIGNEDSTATE_NOT_REQUIRED
 )
+{
 return
 true
 ;
+}
 return
 this
 .
@@ -6826,6 +6884,7 @@ shouldBeActive
 )
 {
 return
+(
 !
 this
 .
@@ -6847,6 +6906,7 @@ pendingOperations
 AddonManager
 .
 PENDING_UNINSTALL
+)
 )
 ;
 }
@@ -6876,9 +6936,11 @@ this
 .
 _appDisabled
 )
+{
 return
 val
 ;
+}
 AddonManagerPrivate
 .
 callAddonListeners
@@ -6970,8 +7032,10 @@ this
 .
 _userDisabled
 )
+{
 return
 ;
+}
 var
 currentActive
 =
@@ -7085,6 +7149,7 @@ this
 .
 _userDisabled
 )
+{
 permissions
 &
 =
@@ -7093,6 +7158,7 @@ AddonManager
 .
 PERM_CAN_ENABLE
 ;
+}
 if
 (
 this
@@ -7104,6 +7170,7 @@ this
 .
 _userDisabled
 )
+{
 permissions
 &
 =
@@ -7112,6 +7179,7 @@ AddonManager
 .
 PERM_CAN_DISABLE
 ;
+}
 return
 permissions
 ;
@@ -7123,11 +7191,13 @@ val
 )
 {
 return
+(
 this
 .
 _permissions
 =
 val
+)
 ;
 }
 get
@@ -7263,7 +7333,6 @@ false
 {
 if
 (
-(
 this
 .
 operationsRequiringRestart
@@ -7271,7 +7340,6 @@ operationsRequiringRestart
 AddonManager
 .
 OP_NEED_RESTART_UNINSTALL
-)
 &
 &
 this
@@ -7282,6 +7350,7 @@ AddonManager
 .
 PENDING_UNINSTALL
 )
+{
 throw
 Components
 .
@@ -7298,6 +7367,7 @@ uninstall
 "
 )
 ;
+}
 var
 needsRestart
 =
@@ -7401,6 +7471,7 @@ AddonManager
 PENDING_UNINSTALL
 )
 )
+{
 throw
 Components
 .
@@ -7417,6 +7488,7 @@ uninstall
 "
 )
 ;
+}
 this
 .
 pendingOperations
@@ -7469,8 +7541,10 @@ currentActive
 =
 newActive
 )
+{
 return
 ;
+}
 if
 (
 newActive
@@ -7486,7 +7560,6 @@ this
 pendingOperations
 -
 =
-(
 newActive
 ?
 AddonManager
@@ -7496,7 +7569,6 @@ PENDING_DISABLE
 AddonManager
 .
 PENDING_ENABLE
-)
 ;
 AddonManagerPrivate
 .
@@ -8014,6 +8086,7 @@ addon
 .
 id
 )
+{
 this
 .
 addon
@@ -8026,6 +8099,7 @@ existingAddon
 .
 id
 ;
+}
 this
 .
 existingAddon
@@ -8114,7 +8188,6 @@ return
 let
 needsRestart
 =
-(
 this
 .
 operationsRequiringRestart
@@ -8122,7 +8195,6 @@ operationsRequiringRestart
 AddonManager
 .
 OP_NEEDS_RESTART_INSTALL
-)
 ;
 AddonManagerPrivate
 .
@@ -8332,6 +8404,7 @@ i
 aListener
 )
 )
+{
 this
 .
 listeners
@@ -8341,6 +8414,7 @@ push
 aListener
 )
 ;
+}
 }
 removeListener
 (
@@ -8390,6 +8464,7 @@ i
 aListener
 )
 )
+{
 this
 .
 testListeners
@@ -8399,6 +8474,7 @@ push
 aListener
 )
 ;
+}
 }
 removeTestListener
 (
@@ -8484,6 +8560,7 @@ aMethod
 in
 listener
 )
+{
 if
 (
 listener
@@ -8501,10 +8578,13 @@ addon
 =
 false
 )
+{
 result
 =
 false
 ;
+}
+}
 }
 catch
 (
@@ -8728,12 +8808,14 @@ Plug
 in
 "
 )
+{
 return
 tags
 [
 i
 ]
 ;
+}
 }
 ok
 (
@@ -9388,9 +9470,7 @@ addonsManager
 "
 method
 :
-(
 actual
-)
 =
 >
 filters
@@ -9576,6 +9656,7 @@ method
 >
 {
 return
+(
 category
 =
 =
@@ -9595,6 +9676,7 @@ method
 )
 :
 true
+)
 )
 ;
 }

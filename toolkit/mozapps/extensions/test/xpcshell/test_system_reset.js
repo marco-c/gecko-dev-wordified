@@ -816,9 +816,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 "
@@ -955,9 +953,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 "
@@ -1104,9 +1100,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 "
@@ -1245,9 +1239,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 "
@@ -1561,9 +1553,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 "
@@ -1704,9 +1694,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 "
@@ -1835,9 +1823,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 "
@@ -2002,9 +1988,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 "
@@ -2141,9 +2125,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 "
@@ -2327,9 +2309,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 "
@@ -2465,9 +2445,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 "
@@ -2719,9 +2697,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 "
@@ -2864,7 +2840,6 @@ id
 >
 {
 return
-(
 id
 =
 =
@@ -2877,7 +2852,6 @@ mozilla
 .
 org
 "
-)
 ?
 false
 :
@@ -2891,9 +2865,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 "
@@ -3307,9 +3279,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 "

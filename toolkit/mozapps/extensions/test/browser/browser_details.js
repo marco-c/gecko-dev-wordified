@@ -1049,6 +1049,7 @@ AddonManager
 .
 PERM_CAN_DISABLE
 |
+(
 AddonManager
 .
 PERM_CAN_UPGRADE
@@ -1057,6 +1058,7 @@ PERM_CAN_UPGRADE
 AddonManager
 .
 PERM_CAN_CHANGE_PRIVATEBROWSING_ACCESS
+)
 }
 ]
 )

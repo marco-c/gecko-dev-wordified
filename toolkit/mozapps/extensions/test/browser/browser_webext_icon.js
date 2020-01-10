@@ -133,9 +133,7 @@ canvas
 .
 toBlob
 (
-(
 blob
-)
 =
 >
 {
@@ -432,14 +430,10 @@ temporary
 manifest
 :
 {
-"
 applications
-"
 :
 {
-"
 gecko
-"
 :
 {
 id

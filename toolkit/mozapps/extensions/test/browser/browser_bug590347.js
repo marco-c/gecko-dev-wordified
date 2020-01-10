@@ -376,6 +376,7 @@ if
 (
 aManagerWindow
 )
+{
 return
 aManagerWindow
 .
@@ -390,6 +391,7 @@ warning
 "
 )
 ;
+}
 return
 undefined
 ;

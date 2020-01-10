@@ -662,6 +662,7 @@ hasHardBlocks
 &
 hasSoftBlocks
 )
+{
 document
 .
 getElementById
@@ -675,11 +676,13 @@ hidden
 =
 false
 ;
+}
 else
 if
 (
 hasHardBlocks
 )
+{
 document
 .
 getElementById
@@ -693,7 +696,9 @@ hidden
 =
 false
 ;
+}
 else
+{
 document
 .
 getElementById
@@ -707,6 +712,7 @@ hidden
 =
 false
 ;
+}
 var
 link
 =
@@ -846,6 +852,7 @@ i
 .
 blocked
 )
+{
 list
 [
 i
@@ -868,5 +875,6 @@ disableCheckbox
 .
 checked
 ;
+}
 }
 }

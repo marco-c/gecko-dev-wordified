@@ -192,9 +192,7 @@ let
 validAddons
 =
 {
-"
 system
-"
 :
 [
 "
@@ -320,9 +318,7 @@ not
 validAddons
 =
 {
-"
 system
-"
 :
 [
 "

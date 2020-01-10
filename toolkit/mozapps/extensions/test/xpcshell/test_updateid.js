@@ -444,7 +444,6 @@ install
 err
 =
 >
-(
 install
 .
 error
@@ -453,7 +452,6 @@ error
 AddonManager
 .
 ERROR_INCORRECT_ID
-)
 "
 Upgrade
 to

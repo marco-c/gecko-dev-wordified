@@ -180,6 +180,7 @@ target
 event
 ;
 return
+(
 target
 .
 currentURI
@@ -196,6 +197,7 @@ spec
 testPlugin
 .
 optionsURL
+)
 ;
 }
 )

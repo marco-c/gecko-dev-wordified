@@ -258,9 +258,7 @@ failed
 }
 onInstallEnded
 :
-(
 install
-)
 =
 >
 {
@@ -292,9 +290,7 @@ id
 }
 onInstallPostponed
 :
-(
 install
-)
 =
 >
 {
@@ -416,9 +412,7 @@ failed
 }
 onInstallEnded
 :
-(
 install
-)
 =
 >
 {
@@ -435,7 +429,6 @@ id
 ;
 if
 (
-(
 seenEnded
 .
 includes
@@ -449,7 +442,6 @@ seenEnded
 includes
 (
 addonID2
-)
 )
 &
 &
@@ -486,9 +478,7 @@ resolve
 }
 onInstallPostponed
 :
-(
 install
-)
 =
 >
 {
@@ -574,9 +564,7 @@ failed
 }
 onInstallEnded
 :
-(
 install
-)
 =
 >
 {
@@ -857,9 +845,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 IGNORE_ID
@@ -1550,9 +1536,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 COMPLETE_ID
@@ -2423,9 +2407,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 DEFER_ID
@@ -3337,9 +3319,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 DEFER2_ID

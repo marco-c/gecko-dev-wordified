@@ -249,12 +249,10 @@ result
 {
 next
 :
-(
 page
 =
 =
 MAX_ADDON
-)
 ?
 null
 :

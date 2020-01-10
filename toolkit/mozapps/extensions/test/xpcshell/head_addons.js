@@ -84,7 +84,6 @@ xpcshell
 ok
 (
 false
-(
 "
 head_addons
 .
@@ -108,7 +107,6 @@ manager
 component
 .
 "
-)
 )
 ;
 }
@@ -170,7 +168,6 @@ required
 const
 PREF_DISABLE_SECURITY
 =
-(
 "
 security
 .
@@ -180,7 +177,6 @@ turn_off_all_security_so_that_
 "
 viruses_can_take_over_this_computer
 "
-)
 ;
 /
 /
@@ -1021,11 +1017,13 @@ val
 )
 {
 return
+(
 AddonTestUtils
 .
 useRealCertChecks
 =
 val
+)
 ;
 }
 }
@@ -1056,11 +1054,13 @@ val
 )
 {
 return
+(
 AddonTestUtils
 .
 testUnpacked
 =
 val
+)
 ;
 }
 }
@@ -1825,6 +1825,7 @@ version
 =
 undefined
 )
+{
 equal
 (
 started
@@ -1840,6 +1841,7 @@ number
 "
 )
 ;
+}
 }
 checkNotStarted
 (
@@ -1913,6 +1915,7 @@ version
 =
 undefined
 )
+{
 equal
 (
 installed
@@ -1928,6 +1931,7 @@ number
 "
 )
 ;
+}
 return
 installed
 ;
@@ -1991,6 +1995,7 @@ default
 )
 ;
 return
+(
 channel
 !
 =
@@ -2021,6 +2026,7 @@ channel
 "
 esr
 "
+)
 ;
 }
 async
@@ -2772,12 +2778,14 @@ if
 !
 aAlgorithm
 )
+{
 aAlgorithm
 =
 "
 sha1
 "
 ;
+}
 let
 crypto
 =
@@ -3067,9 +3075,11 @@ if
 (
 TEST_UNPACKED
 )
+{
 return
 aId
 ;
+}
 return
 aId
 +
@@ -3294,6 +3304,7 @@ i
 +
 +
 )
+{
 do_check_addon
 (
 aActualAddons
@@ -3307,6 +3318,7 @@ i
 aProperties
 )
 ;
+}
 }
 /
 *
@@ -3595,6 +3607,7 @@ i
 +
 +
 )
+{
 do_check_author
 (
 actualValue
@@ -3607,6 +3620,7 @@ i
 ]
 )
 ;
+}
 break
 ;
 case
@@ -3643,6 +3657,7 @@ i
 +
 +
 )
+{
 do_check_screenshot
 (
 actualValue
@@ -3655,6 +3670,7 @@ i
 ]
 )
 ;
+}
 break
 ;
 case
@@ -3731,6 +3747,7 @@ i
 +
 +
 )
+{
 do_check_compatibilityoverride
 (
 actualValue
@@ -3743,6 +3760,7 @@ i
 ]
 )
 ;
+}
 break
 ;
 case
@@ -3768,6 +3786,7 @@ actualValue
 =
 expectedValue
 )
+{
 do_throw
 (
 "
@@ -3807,6 +3826,7 @@ expectedValue
 "
 )
 ;
+}
 }
 }
 )
@@ -5490,6 +5510,7 @@ AddonManager
 .
 STATE_DOWNLOAD_FAILED
 )
+{
 Assert
 .
 equal
@@ -5506,7 +5527,9 @@ error
 "
 )
 ;
+}
 else
+{
 Assert
 .
 notEqual
@@ -5522,6 +5545,7 @@ error
 "
 )
 ;
+}
 return
 result
 ;
@@ -6214,6 +6238,7 @@ exists
 (
 )
 )
+{
 dest
 .
 remove
@@ -6221,6 +6246,7 @@ remove
 false
 )
 ;
+}
 blocklistFile
 .
 copyTo

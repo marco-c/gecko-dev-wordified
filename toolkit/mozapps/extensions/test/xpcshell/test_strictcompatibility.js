@@ -1159,6 +1159,7 @@ if
 (
 gIsNightly
 )
+{
 Services
 .
 prefs
@@ -1175,7 +1176,9 @@ nightly
 false
 )
 ;
+}
 else
+{
 Services
 .
 prefs
@@ -1194,6 +1197,7 @@ checkCompatibility
 false
 )
 ;
+}
 await
 promiseRestartManager
 (
@@ -1240,6 +1244,7 @@ if
 !
 gIsNightly
 )
+{
 Services
 .
 prefs
@@ -1258,6 +1263,7 @@ checkCompatibility
 false
 )
 ;
+}
 await
 promiseRestartManager
 (
@@ -1308,6 +1314,7 @@ if
 (
 gIsNightly
 )
+{
 Services
 .
 prefs
@@ -1324,7 +1331,9 @@ nightly
 true
 )
 ;
+}
 else
+{
 Services
 .
 prefs
@@ -1343,6 +1352,7 @@ checkCompatibility
 true
 )
 ;
+}
 await
 promiseRestartManager
 (

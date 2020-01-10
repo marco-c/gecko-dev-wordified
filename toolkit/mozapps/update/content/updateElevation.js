@@ -190,6 +190,7 @@ if
 (
 strings
 )
+{
 return
 this
 .
@@ -201,6 +202,7 @@ key
 strings
 )
 ;
+}
 return
 this
 .
@@ -240,6 +242,7 @@ S
 "
 )
 )
+{
 label
 =
 label
@@ -255,6 +258,7 @@ this
 brandName
 )
 ;
+}
 button
 .
 label

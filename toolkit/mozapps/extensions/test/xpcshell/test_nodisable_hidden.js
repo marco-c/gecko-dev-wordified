@@ -512,9 +512,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 SYSTEM_ID

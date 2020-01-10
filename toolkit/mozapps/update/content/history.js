@@ -164,6 +164,7 @@ hasChildNodes
 (
 )
 )
+{
 this
 .
 _view
@@ -174,6 +175,7 @@ remove
 (
 )
 ;
+}
 for
 (
 var
@@ -211,8 +213,10 @@ update
 .
 name
 )
+{
 continue
 ;
+}
 /
 /
 Don
@@ -248,8 +252,10 @@ update
 .
 statusText
 )
+{
 continue
 ;
+}
 var
 element
 =

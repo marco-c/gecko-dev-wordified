@@ -410,14 +410,12 @@ payload
 ok
 (
 typeof
-(
 updatePing
 .
 payload
 [
 f
 ]
-)
 =
 =
 "

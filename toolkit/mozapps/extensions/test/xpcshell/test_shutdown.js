@@ -231,8 +231,10 @@ includes
 prop
 )
 )
+{
 continue
 ;
+}
 if
 (
 typeof
@@ -246,8 +248,10 @@ prop
 function
 "
 )
+{
 continue
 ;
+}
 let
 args
 =
@@ -445,6 +449,7 @@ Cr
 .
 NS_ERROR_NOT_INITIALIZED
 )
+{
 do_throw
 (
 prop
@@ -460,6 +465,7 @@ exception
 e
 )
 ;
+}
 }
 }
 for
@@ -479,8 +485,10 @@ includes
 prop
 )
 )
+{
 continue
 ;
+}
 if
 (
 typeof
@@ -494,8 +502,10 @@ prop
 function
 "
 )
+{
 continue
 ;
+}
 try
 {
 info
@@ -545,6 +555,7 @@ Cr
 .
 NS_ERROR_NOT_INITIALIZED
 )
+{
 do_throw
 (
 prop
@@ -560,6 +571,7 @@ exception
 e
 )
 ;
+}
 }
 }
 }

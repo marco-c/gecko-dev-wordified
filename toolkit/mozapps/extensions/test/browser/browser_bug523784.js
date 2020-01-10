@@ -189,8 +189,10 @@ aTopic
 domwindowopened
 "
 )
+{
 return
 ;
+}
 Services
 .
 ww
@@ -458,8 +460,10 @@ aTopic
 domwindowclosed
 "
 )
+{
 return
 ;
+}
 Services
 .
 ww
@@ -552,8 +556,10 @@ aTopic
 domwindowopened
 "
 )
+{
 return
 ;
+}
 Services
 .
 ww

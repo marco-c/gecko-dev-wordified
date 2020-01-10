@@ -265,8 +265,10 @@ on
 1
 "
 )
+{
 break
 ;
+}
 }
 var
 prefsBtn
@@ -348,8 +350,10 @@ on
 2
 "
 )
+{
 break
 ;
+}
 }
 prefsBtn
 =

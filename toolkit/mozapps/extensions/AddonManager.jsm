@@ -1575,9 +1575,11 @@ in
 aProvider
 )
 )
+{
 return
 aDefault
 ;
+}
 try
 {
 return
@@ -2032,8 +2034,10 @@ this
 .
 registered
 )
+{
 return
 ;
+}
 this
 .
 registered
@@ -2073,6 +2077,7 @@ browser
 .
 removeProgressListener
 )
+{
 this
 .
 browser
@@ -2082,6 +2087,7 @@ removeProgressListener
 this
 )
 ;
+}
 this
 .
 install
@@ -2150,8 +2156,10 @@ browser
 .
 messageManager
 )
+{
 return
 ;
+}
 /
 /
 The
@@ -2210,8 +2218,10 @@ browser
 contentPrincipal
 )
 )
+{
 return
 ;
+}
 /
 /
 The
@@ -2533,62 +2543,74 @@ if
 (
 aWidth
 )
+{
 this
 .
 width
 =
 aWidth
 ;
+}
 if
 (
 aHeight
 )
+{
 this
 .
 height
 =
 aHeight
 ;
+}
 if
 (
 aThumbnailURL
 )
+{
 this
 .
 thumbnailURL
 =
 aThumbnailURL
 ;
+}
 if
 (
 aThumbnailWidth
 )
+{
 this
 .
 thumbnailWidth
 =
 aThumbnailWidth
 ;
+}
 if
 (
 aThumbnailHeight
 )
+{
 this
 .
 thumbnailHeight
 =
 aThumbnailHeight
 ;
+}
 if
 (
 aCaption
 )
+{
 this
 .
 caption
 =
 aCaption
 ;
+}
 }
 AddonScreenshot
 .
@@ -3054,6 +3076,7 @@ if
 !
 aID
 )
+{
 throw
 Components
 .
@@ -3072,6 +3095,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 aViewType
@@ -3083,6 +3107,7 @@ aUIPriority
 =
 undefined
 )
+{
 throw
 Components
 .
@@ -3107,11 +3132,13 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 !
 aLocaleKey
 )
+{
 throw
 Components
 .
@@ -3131,6 +3158,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 this
 .
 id
@@ -3508,6 +3536,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -3524,6 +3553,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 logger
 .
 debug
@@ -3843,9 +3873,11 @@ provider
 =
 aName
 )
+{
 return
 provider
 ;
+}
 }
 return
 undefined
@@ -3879,8 +3911,10 @@ if
 (
 gStarted
 )
+{
 return
 ;
+}
 this
 .
 recordTimestamp
@@ -3922,6 +3956,7 @@ this
 .
 telemetryDetails
 )
+{
 delete
 this
 .
@@ -3930,6 +3965,7 @@ telemetryDetails
 provider
 ]
 ;
+}
 let
 appChanged
 =
@@ -4045,7 +4081,6 @@ prefs
 setIntPref
 (
 PREF_BLOCKLIST_PINGCOUNTVERSION
-(
 appChanged
 =
 =
@@ -4056,7 +4091,6 @@ undefined
 :
 -
 1
-)
 )
 ;
 }
@@ -4314,16 +4348,13 @@ scope
 ;
 if
 (
-(
 syms
 .
 length
 <
 1
-)
 |
 |
-(
 typeof
 scope
 [
@@ -4339,7 +4370,6 @@ startup
 "
 function
 "
-)
 )
 {
 logger
@@ -4441,21 +4471,19 @@ logger
 .
 error
 (
-"
+'
 Exception
 loading
 default
 provider
-\
 "
-"
+'
 +
 url
 +
+'
 "
-\
-"
-"
+'
 e
 )
 ;
@@ -4553,19 +4581,17 @@ provider
 +
 entry
 +
-"
+'
 from
 category
-\
 "
-"
+'
 +
 url
 +
+'
 "
-\
-"
-"
+'
 e
 )
 ;
@@ -4729,6 +4755,7 @@ this
 .
 startupChanges
 )
+{
 delete
 this
 .
@@ -4737,6 +4764,7 @@ startupChanges
 type
 ]
 ;
+}
 }
 /
 /
@@ -4948,6 +4976,7 @@ aProvider
 object
 "
 )
+{
 throw
 Components
 .
@@ -4964,6 +4993,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 aTypes
@@ -4977,6 +5007,7 @@ isArray
 aTypes
 )
 )
+{
 throw
 Components
 .
@@ -4996,6 +5027,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 this
 .
 pendingProviders
@@ -5099,6 +5131,7 @@ listener
 of
 typeListeners
 )
+{
 safeCall
 (
 (
@@ -5113,6 +5146,7 @@ type
 )
 )
 ;
+}
 }
 else
 {
@@ -5241,6 +5275,7 @@ aProvider
 object
 "
 )
+{
 throw
 Components
 .
@@ -5257,6 +5292,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 this
 .
 providers
@@ -5399,6 +5435,7 @@ listener
 of
 typeListeners
 )
+{
 safeCall
 (
 (
@@ -5413,6 +5450,7 @@ oldType
 )
 )
 ;
+}
 }
 }
 /
@@ -5864,6 +5902,7 @@ aMethod
 string
 "
 )
+{
 throw
 Components
 .
@@ -5884,6 +5923,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 let
 providers
 =
@@ -5912,6 +5952,7 @@ aMethod
 in
 provider
 )
+{
 provider
 [
 aMethod
@@ -5923,6 +5964,7 @@ provider
 aArgs
 )
 ;
+}
 }
 catch
 (
@@ -6414,6 +6456,7 @@ this
 .
 startupChanges
 )
+{
 delete
 this
 .
@@ -6422,6 +6465,7 @@ startupChanges
 type
 ]
 ;
+}
 gStarted
 =
 false
@@ -6640,12 +6684,14 @@ gCheckCompatibility
 =
 oldValue
 )
+{
 this
 .
 updateAddonAppDisabledStates
 (
 )
 ;
+}
 break
 ;
 }
@@ -6686,12 +6732,14 @@ gStrictCompatibility
 =
 oldValue
 )
+{
 this
 .
 updateAddonAppDisabledStates
 (
 )
 ;
+}
 break
 ;
 }
@@ -6732,12 +6780,14 @@ gCheckUpdateSecurity
 =
 oldValue
 )
+{
 this
 .
 updateAddonAppDisabledStates
 (
 )
 ;
+}
 break
 ;
 }
@@ -6910,6 +6960,7 @@ aAddon
 object
 "
 )
+{
 throw
 Components
 .
@@ -6928,6 +6979,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 !
@@ -6942,6 +6994,7 @@ aUri
 string
 "
 )
+{
 throw
 Components
 .
@@ -6962,6 +7015,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 aAppVersion
@@ -6975,6 +7029,7 @@ aAppVersion
 string
 "
 )
+{
 throw
 Components
 .
@@ -6994,6 +7049,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 var
 addonStatus
 =
@@ -7021,6 +7077,7 @@ aAddon
 .
 isCompatible
 )
+{
 addonStatus
 +
 =
@@ -7028,6 +7085,7 @@ addonStatus
 incompatible
 "
 ;
+}
 let
 {
 blocklistState
@@ -7046,6 +7104,7 @@ nsIBlocklistService
 .
 STATE_BLOCKED
 )
+{
 addonStatus
 +
 =
@@ -7053,6 +7112,7 @@ addonStatus
 blocklisted
 "
 ;
+}
 if
 (
 blocklistState
@@ -7064,6 +7124,7 @@ nsIBlocklistService
 .
 STATE_SOFTBLOCKED
 )
+{
 addonStatus
 +
 =
@@ -7071,6 +7132,7 @@ addonStatus
 softblocked
 "
 ;
+}
 let
 params
 =
@@ -7529,6 +7591,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -7545,6 +7608,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 let
 buPromise
 =
@@ -8137,6 +8201,7 @@ aType
 string
 "
 )
+{
 throw
 Components
 .
@@ -8157,6 +8222,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 !
@@ -8171,6 +8237,7 @@ aID
 string
 "
 )
+{
 throw
 Components
 .
@@ -8191,12 +8258,15 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 gStartupComplete
 )
+{
 return
 ;
+}
 logger
 .
 debug
@@ -8241,6 +8311,7 @@ this
 .
 startupChanges
 )
+{
 this
 .
 removeStartupChange
@@ -8249,6 +8320,7 @@ type
 aID
 )
 ;
+}
 if
 (
 !
@@ -8260,6 +8332,7 @@ this
 startupChanges
 )
 )
+{
 this
 .
 startupChanges
@@ -8270,6 +8343,7 @@ aType
 [
 ]
 ;
+}
 this
 .
 startupChanges
@@ -8339,6 +8413,7 @@ aType
 string
 "
 )
+{
 throw
 Components
 .
@@ -8359,6 +8434,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 !
@@ -8373,6 +8449,7 @@ aID
 string
 "
 )
+{
 throw
 Components
 .
@@ -8393,12 +8470,15 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 gStartupComplete
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -8410,8 +8490,10 @@ this
 startupChanges
 )
 )
+{
 return
 ;
+}
 this
 .
 startupChanges
@@ -8491,6 +8573,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -8507,6 +8590,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 if
 (
 !
@@ -8521,6 +8605,7 @@ aMethod
 string
 "
 )
+{
 throw
 Components
 .
@@ -8541,6 +8626,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 let
 managerListeners
 =
@@ -8568,6 +8654,7 @@ aMethod
 in
 listener
 )
+{
 listener
 [
 aMethod
@@ -8579,6 +8666,7 @@ listener
 aArgs
 )
 ;
+}
 }
 catch
 (
@@ -8683,6 +8771,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -8699,6 +8788,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 if
 (
 !
@@ -8713,6 +8803,7 @@ aMethod
 string
 "
 )
+{
 throw
 Components
 .
@@ -8733,6 +8824,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 aExtraListeners
@@ -8746,6 +8838,7 @@ isArray
 aExtraListeners
 )
 )
+{
 throw
 Components
 .
@@ -8765,6 +8858,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 let
 result
 =
@@ -8777,6 +8871,7 @@ if
 (
 aExtraListeners
 )
+{
 listeners
 =
 new
@@ -8797,7 +8892,9 @@ installListeners
 )
 )
 ;
+}
 else
+{
 listeners
 =
 new
@@ -8808,6 +8905,7 @@ this
 installListeners
 )
 ;
+}
 for
 (
 let
@@ -8842,10 +8940,12 @@ aArgs
 =
 false
 )
+{
 result
 =
 false
 ;
+}
 }
 }
 catch
@@ -8928,6 +9028,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -8944,6 +9045,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 if
 (
 !
@@ -8958,6 +9060,7 @@ aMethod
 string
 "
 )
+{
 throw
 Components
 .
@@ -8978,6 +9081,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 let
 addonListeners
 =
@@ -9005,6 +9109,7 @@ aMethod
 in
 listener
 )
+{
 listener
 [
 aMethod
@@ -9016,6 +9121,7 @@ listener
 aArgs
 )
 ;
+}
 }
 catch
 (
@@ -9150,6 +9256,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -9166,6 +9273,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 if
 (
 aID
@@ -9179,6 +9287,7 @@ aID
 string
 "
 )
+{
 throw
 Components
 .
@@ -9198,6 +9307,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 !
@@ -9212,6 +9322,7 @@ aType
 string
 "
 )
+{
 throw
 Components
 .
@@ -9232,6 +9343,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 /
 /
 Temporary
@@ -9477,6 +9589,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -9493,6 +9606,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 this
 .
 callProviders
@@ -9535,6 +9649,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -9551,6 +9666,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 return
 (
 async
@@ -9861,6 +9977,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -9877,6 +9994,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 if
 (
 !
@@ -9891,6 +10009,7 @@ aUrl
 string
 "
 )
+{
 throw
 Components
 .
@@ -9911,6 +10030,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 aOptions
@@ -9928,6 +10048,7 @@ hash
 string
 "
 )
+{
 throw
 Components
 .
@@ -9947,6 +10068,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 aOptions
@@ -9964,6 +10086,7 @@ name
 string
 "
 )
+{
 throw
 Components
 .
@@ -9983,6 +10106,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 aOptions
@@ -10002,6 +10126,7 @@ icons
 string
 "
 )
+{
 aOptions
 .
 icons
@@ -10016,6 +10141,7 @@ aOptions
 icons
 }
 ;
+}
 else
 if
 (
@@ -10029,6 +10155,7 @@ icons
 object
 "
 )
+{
 throw
 Components
 .
@@ -10051,6 +10178,7 @@ NS_ERROR_INVALID_ARG
 )
 ;
 }
+}
 else
 {
 aOptions
@@ -10078,6 +10206,7 @@ version
 string
 "
 )
+{
 throw
 Components
 .
@@ -10097,6 +10226,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 aOptions
@@ -10114,6 +10244,7 @@ aOptions
 browser
 )
 )
+{
 throw
 Components
 .
@@ -10135,6 +10266,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 for
 (
 let
@@ -10260,6 +10392,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -10276,6 +10409,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 if
 (
 !
@@ -10287,6 +10421,7 @@ Ci
 nsIFile
 )
 )
+{
 throw
 Components
 .
@@ -10304,6 +10439,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 aMimetype
@@ -10317,6 +10453,7 @@ aMimetype
 string
 "
 )
+{
 throw
 Components
 .
@@ -10336,6 +10473,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 return
 (
 async
@@ -10372,9 +10510,11 @@ if
 (
 install
 )
+{
 return
 install
 ;
+}
 }
 return
 null
@@ -10443,6 +10583,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -10459,6 +10600,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 if
 (
 aTypes
@@ -10472,6 +10614,7 @@ isArray
 aTypes
 )
 )
+{
 throw
 Components
 .
@@ -10491,6 +10634,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 return
 (
 async
@@ -10532,6 +10676,7 @@ if
 (
 providerInstalls
 )
+{
 installs
 .
 push
@@ -10542,6 +10687,7 @@ push
 providerInstalls
 )
 ;
+}
 }
 return
 installs
@@ -10573,6 +10719,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -10589,6 +10736,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 return
 this
 .
@@ -10643,6 +10791,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -10659,6 +10808,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 if
 (
 !
@@ -10673,6 +10823,7 @@ aMimetype
 string
 "
 )
+{
 throw
 Components
 .
@@ -10693,6 +10844,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 let
 providers
 =
@@ -10734,9 +10886,11 @@ isInstallEnabled
 "
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -10811,6 +10965,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -10827,6 +10982,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 if
 (
 !
@@ -10841,6 +10997,7 @@ aMimetype
 string
 "
 )
+{
 throw
 Components
 .
@@ -10861,6 +11018,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 !
@@ -10876,6 +11034,7 @@ Ci
 nsIPrincipal
 )
 )
+{
 throw
 Components
 .
@@ -10893,6 +11052,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 this
@@ -10957,9 +11117,11 @@ null
 aInstallingPrincipal
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -11536,7 +11698,6 @@ enable
 let
 needsRestart
 =
-(
 install
 .
 addon
@@ -11547,7 +11708,6 @@ pendingOperations
 AddonManager
 .
 PENDING_NONE
-)
 ;
 if
 (
@@ -11721,6 +11881,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -11737,6 +11898,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 if
 (
 !
@@ -11751,6 +11913,7 @@ aMimetype
 string
 "
 )
+{
 throw
 Components
 .
@@ -11771,6 +11934,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 aBrowser
@@ -11784,6 +11948,7 @@ isInstance
 aBrowser
 )
 )
+{
 throw
 Components
 .
@@ -11803,6 +11968,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 !
@@ -11818,6 +11984,7 @@ Ci
 nsIPrincipal
 )
 )
+{
 throw
 Components
 .
@@ -11835,6 +12002,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 /
 /
 When
@@ -11952,12 +12120,14 @@ nsIDocShellTreeItem
 .
 typeContent
 )
+{
 topBrowser
 =
 docShell
 .
 chromeEventHandler
 ;
+}
 try
 {
 if
@@ -12205,9 +12375,7 @@ aInstall
 let
 startInstall
 =
-(
 source
-)
 =
 >
 {
@@ -12544,6 +12712,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -12560,6 +12729,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 AddonManagerInternal
 .
 setupPromptHandler
@@ -12629,6 +12799,7 @@ aListener
 object
 "
 )
+{
 throw
 Components
 .
@@ -12647,6 +12818,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 this
 .
 installListeners
@@ -12700,6 +12872,7 @@ aListener
 object
 "
 )
+{
 throw
 Components
 .
@@ -12718,6 +12891,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 this
 .
 installListeners
@@ -12804,6 +12978,7 @@ aInstanceID
 symbol
 "
 )
+{
 throw
 Components
 .
@@ -12821,6 +12996,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 !
@@ -12835,6 +13011,7 @@ aCallback
 function
 "
 )
+{
 throw
 Components
 .
@@ -12852,6 +13029,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 let
 addonId
 =
@@ -12956,6 +13134,7 @@ aInstanceID
 symbol
 "
 )
+{
 throw
 Components
 .
@@ -12973,6 +13152,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 let
 addonId
 =
@@ -13145,6 +13325,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -13161,6 +13342,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 if
 (
 !
@@ -13172,6 +13354,7 @@ Ci
 nsIFile
 )
 )
+{
 throw
 Components
 .
@@ -13189,6 +13372,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 return
 AddonManagerInternal
 .
@@ -13277,6 +13461,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -13293,6 +13478,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 return
 AddonManagerInternal
 .
@@ -13425,6 +13611,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -13441,6 +13628,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 return
 AddonManagerInternal
 .
@@ -13469,6 +13657,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -13485,6 +13674,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 if
 (
 !
@@ -13499,6 +13689,7 @@ aInstanceID
 symbol
 "
 )
+{
 throw
 Components
 .
@@ -13518,6 +13709,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 return
 AddonManagerInternal
 .
@@ -14042,6 +14234,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -14058,6 +14251,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 if
 (
 !
@@ -14072,6 +14266,7 @@ aID
 string
 "
 )
+{
 throw
 Components
 .
@@ -14092,6 +14287,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 let
 promises
 =
@@ -14199,6 +14395,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -14215,6 +14412,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 if
 (
 !
@@ -14229,6 +14427,7 @@ aGUID
 string
 "
 )
+{
 throw
 Components
 .
@@ -14249,6 +14448,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 return
 (
 async
@@ -14284,9 +14484,11 @@ if
 (
 addon
 )
+{
 return
 addon
 ;
+}
 }
 return
 null
@@ -14360,6 +14562,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -14376,6 +14579,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 if
 (
 !
@@ -14386,6 +14590,7 @@ isArray
 aIDs
 )
 )
+{
 throw
 Components
 .
@@ -14403,6 +14608,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 let
 promises
 =
@@ -14474,6 +14680,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -14490,6 +14697,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 if
 (
 aTypes
@@ -14503,6 +14711,7 @@ isArray
 aTypes
 )
 )
+{
 throw
 Components
 .
@@ -14522,6 +14731,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 return
 (
 async
@@ -14563,6 +14773,7 @@ if
 (
 providerAddons
 )
+{
 addons
 .
 push
@@ -14573,6 +14784,7 @@ push
 providerAddons
 )
 ;
+}
 }
 return
 addons
@@ -14716,6 +14928,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -14732,6 +14945,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 if
 (
 aTypes
@@ -14745,6 +14959,7 @@ isArray
 aTypes
 )
 )
+{
 throw
 Components
 .
@@ -14764,6 +14979,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 let
 addons
 =
@@ -14906,6 +15122,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -14922,6 +15139,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 return
 this
 .
@@ -14980,6 +15198,7 @@ aListener
 object
 "
 )
+{
 throw
 Components
 .
@@ -14998,6 +15217,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 this
 .
 managerListeners
@@ -15054,6 +15274,7 @@ aListener
 object
 "
 )
+{
 throw
 Components
 .
@@ -15072,6 +15293,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 this
 .
 managerListeners
@@ -15132,6 +15354,7 @@ aListener
 object
 "
 )
+{
 throw
 Components
 .
@@ -15150,6 +15373,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 this
 .
 addonListeners
@@ -15206,6 +15430,7 @@ aListener
 object
 "
 )
+{
 throw
 Components
 .
@@ -15224,6 +15449,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 this
 .
 addonListeners
@@ -15283,6 +15509,7 @@ aListener
 object
 "
 )
+{
 throw
 Components
 .
@@ -15301,6 +15528,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 this
 .
 typeListeners
@@ -15354,6 +15582,7 @@ aListener
 object
 "
 )
+{
 throw
 Components
 .
@@ -15372,6 +15601,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 this
 .
 typeListeners
@@ -15458,9 +15688,11 @@ hasOwnProperty
 property
 )
 )
+{
 return
 undefined
 ;
+}
 return
 target
 [
@@ -15486,9 +15718,11 @@ hasOwnProperty
 property
 )
 )
+{
 return
 undefined
 ;
+}
 return
 {
 value
@@ -15607,6 +15841,7 @@ aValue
 =
 gAutoUpdateDefault
 )
+{
 Services
 .
 prefs
@@ -15617,6 +15852,7 @@ PREF_EM_AUTOUPDATE_DEFAULT
 aValue
 )
 ;
+}
 return
 aValue
 ;
@@ -15655,6 +15891,7 @@ if
 !
 aValue
 )
+{
 Services
 .
 prefs
@@ -15665,7 +15902,9 @@ PREF_EM_CHECK_COMPATIBILITY
 false
 )
 ;
+}
 else
+{
 Services
 .
 prefs
@@ -15675,6 +15914,7 @@ clearUserPref
 PREF_EM_CHECK_COMPATIBILITY
 )
 ;
+}
 }
 return
 aValue
@@ -15708,6 +15948,7 @@ aValue
 =
 gStrictCompatibility
 )
+{
 Services
 .
 prefs
@@ -15718,6 +15959,7 @@ PREF_EM_STRICT_COMPATIBILITY
 aValue
 )
 ;
+}
 return
 aValue
 ;
@@ -15767,6 +16009,7 @@ aValue
 =
 gCheckUpdateSecurityDefault
 )
+{
 Services
 .
 prefs
@@ -15777,7 +16020,9 @@ PREF_EM_CHECK_UPDATE_SECURITY
 aValue
 )
 ;
+}
 else
+{
 Services
 .
 prefs
@@ -15787,6 +16032,7 @@ clearUserPref
 PREF_EM_CHECK_UPDATE_SECURITY
 )
 ;
+}
 }
 return
 aValue
@@ -15820,6 +16066,7 @@ aValue
 =
 gUpdateEnabled
 )
+{
 Services
 .
 prefs
@@ -15830,6 +16077,7 @@ PREF_EM_UPDATE_ENABLED
 aValue
 )
 ;
+}
 return
 aValue
 ;
@@ -16304,7 +16552,6 @@ property
 ]
 ;
 return
-(
 typeof
 result
 =
@@ -16312,7 +16559,6 @@ result
 "
 function
 "
-)
 ?
 result
 .
@@ -17335,6 +17581,7 @@ if
 (
 value
 )
+{
 await
 addon
 .
@@ -17342,7 +17589,9 @@ enable
 (
 )
 ;
+}
 else
+{
 await
 addon
 .
@@ -17350,6 +17599,7 @@ disable
 (
 )
 ;
+}
 }
 async
 addonInstallDoInstall
@@ -18443,6 +18693,7 @@ if
 !
 gStarted
 )
+{
 throw
 Components
 .
@@ -18459,6 +18710,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 if
 (
 !
@@ -18473,6 +18725,7 @@ extensionId
 string
 "
 )
+{
 throw
 Components
 .
@@ -18490,6 +18743,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 return
 AddonManagerInternal
 .
@@ -20917,10 +21171,12 @@ AddonManagerInternal
 startupChanges
 )
 )
+{
 return
 [
 ]
 ;
+}
 return
 AddonManagerInternal
 .
@@ -21392,6 +21648,7 @@ aAddon
 object
 "
 )
+{
 throw
 Components
 .
@@ -21408,6 +21665,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 !
@@ -21419,9 +21677,11 @@ in
 aAddon
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 aAddon
@@ -21433,9 +21693,11 @@ AddonManager
 .
 AUTOUPDATE_ENABLE
 )
+{
 return
 true
 ;
+}
 if
 (
 aAddon
@@ -21447,9 +21709,11 @@ AddonManager
 .
 AUTOUPDATE_DISABLE
 )
+{
 return
 false
 ;
+}
 return
 this
 .
@@ -23141,9 +23405,7 @@ return
 switch
 (
 typeof
-(
 value
-)
 )
 {
 case

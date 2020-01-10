@@ -627,7 +627,6 @@ AppInfo
 const
 PREF_DISABLE_SECURITY
 =
-(
 "
 security
 .
@@ -637,7 +636,6 @@ turn_off_all_security_so_that_
 "
 viruses_can_take_over_this_computer
 "
-)
 ;
 const
 ArrayBufferInputStream
@@ -1307,6 +1305,7 @@ r
 )
 ;
 return
+(
 this
 .
 addons
@@ -1324,6 +1323,7 @@ Ci
 nsIBlocklistService
 .
 STATE_NOT_BLOCKED
+)
 ;
 }
 async
@@ -1729,6 +1729,7 @@ exists
 (
 )
 )
+{
 throw
 new
 Error
@@ -1750,6 +1751,7 @@ path
 }
 )
 ;
+}
 if
 (
 file
@@ -1758,6 +1760,7 @@ isDirectory
 (
 )
 )
+{
 return
 file
 .
@@ -1766,6 +1769,7 @@ equals
 path
 )
 ;
+}
 if
 (
 file
@@ -1774,6 +1778,7 @@ isFile
 (
 )
 )
+{
 return
 file
 .
@@ -1782,6 +1787,7 @@ equals
 xpiPath
 )
 ;
+}
 return
 false
 ;
@@ -2471,40 +2477,35 @@ xml
 var
 data
 =
-"
+'
 <
 ?
 xml
 version
 =
-\
 "
 1
 .
 0
-\
 "
 encoding
 =
-\
 "
 UTF
 -
 8
-\
 "
 ?
 >
 \
 n
-"
+'
 +
-"
+'
 <
 blocklist
 xmlns
 =
-\
 "
 http
 :
@@ -2521,12 +2522,11 @@ org
 addons
 -
 blocklist
-\
 "
 >
 \
 n
-"
+'
 +
 "
 <
@@ -2745,6 +2745,7 @@ entries
 .
 length
 )
+{
 throw
 new
 Error
@@ -2767,6 +2768,7 @@ join
 }
 )
 ;
+}
 try
 {
 appDirForAddons
@@ -3871,9 +3873,11 @@ error
 =
 undefined
 )
+{
 throw
 error
 ;
+}
 return
 result
 ;
@@ -3957,6 +3961,7 @@ exists
 (
 )
 )
+{
 return
 NetUtil
 .
@@ -3965,6 +3970,7 @@ newURI
 file
 )
 ;
+}
 throw
 new
 Error
@@ -4409,6 +4415,7 @@ isFile
 (
 )
 )
+{
 Services
 .
 obs
@@ -4430,6 +4437,7 @@ override
 "
 )
 ;
+}
 }
 }
 return
@@ -4477,8 +4485,10 @@ property
 in
 this
 )
+{
 continue
 ;
+}
 if
 (
 typeof
@@ -4494,6 +4504,7 @@ property
 function
 "
 )
+{
 this
 [
 property
@@ -4513,6 +4524,7 @@ this
 _genuine
 )
 ;
+}
 }
 }
 openSignedAppFileAsync
@@ -5103,16 +5115,12 @@ const
 blocklistMapping
 =
 {
-"
 extensions
-"
 :
 bsPass
 .
 ExtensionBlocklistRS
-"
 plugins
-"
 :
 bsPass
 .
@@ -5388,6 +5396,7 @@ this
 .
 addonIntegrationService
 )
+{
 throw
 new
 Error
@@ -5405,6 +5414,7 @@ started
 "
 )
 ;
+}
 if
 (
 newVersion
@@ -5749,9 +5759,11 @@ this
 .
 addonIntegrationService
 )
+{
 return
 false
 ;
+}
 if
 (
 this
@@ -6133,9 +6145,11 @@ if
 (
 shutdownError
 )
+{
 throw
 shutdownError
 ;
+}
 return
 true
 ;
@@ -6392,6 +6406,7 @@ dirname
 path
 )
 )
+{
 paths
 .
 push
@@ -6399,6 +6414,7 @@ push
 path
 )
 ;
+}
 return
 Promise
 .
@@ -6542,6 +6558,7 @@ zipFile
 string
 "
 )
+{
 zipFile
 =
 nsFile
@@ -6549,6 +6566,7 @@ nsFile
 zipFile
 )
 ;
+}
 var
 zipW
 =
@@ -6607,6 +6625,7 @@ data
 Object
 "
 )
+{
 data
 =
 JSON
@@ -6616,6 +6635,7 @@ stringify
 data
 )
 ;
+}
 if
 (
 !
@@ -6625,6 +6645,7 @@ instanceof
 ArrayBuffer
 )
 )
+{
 data
 =
 new
@@ -6644,6 +6665,7 @@ data
 .
 buffer
 ;
+}
 let
 stream
 =
@@ -6871,6 +6893,7 @@ data
 Object
 "
 )
+{
 data
 =
 JSON
@@ -6880,6 +6903,7 @@ stringify
 data
 )
 ;
+}
 if
 (
 typeof
@@ -6890,6 +6914,7 @@ data
 string
 "
 )
+{
 data
 =
 new
@@ -6907,6 +6932,7 @@ encode
 data
 )
 ;
+}
 await
 OS
 .
@@ -7730,6 +7756,7 @@ split
 "
 )
 )
+{
 target
 .
 append
@@ -7737,6 +7764,7 @@ append
 part
 )
 ;
+}
 if
 (
 !
@@ -7748,6 +7776,7 @@ exists
 (
 )
 )
+{
 target
 .
 parent
@@ -7764,6 +7793,7 @@ FileUtils
 PERMS_DIRECTORY
 )
 ;
+}
 try
 {
 zip
@@ -8015,6 +8045,7 @@ isFile
 (
 )
 )
+{
 Services
 .
 obs
@@ -8031,6 +8062,7 @@ entry
 "
 )
 ;
+}
 file
 .
 remove
@@ -8186,6 +8218,7 @@ if
 (
 unpacked
 )
+{
 dir
 .
 append
@@ -8193,7 +8226,9 @@ append
 id
 )
 ;
+}
 else
+{
 dir
 .
 append
@@ -8205,6 +8240,7 @@ id
 xpi
 )
 ;
+}
 return
 dir
 ;
@@ -8310,6 +8346,7 @@ iterDirectory
 ext
 )
 )
+{
 this
 .
 setExtensionModifiedTime
@@ -8318,6 +8355,7 @@ file
 time
 )
 ;
+}
 }
 }
 async
@@ -8393,8 +8431,10 @@ File
 .
 Error
 )
+{
 return
 ;
+}
 throw
 ex
 ;
@@ -8448,6 +8488,7 @@ prop
 =
 key
 )
+{
 return
 dir
 .
@@ -8455,6 +8496,7 @@ clone
 (
 )
 ;
+}
 return
 null
 ;
@@ -8975,6 +9017,7 @@ if
 !
 install
 )
+{
 throw
 new
 Error
@@ -8990,6 +9033,7 @@ path
 }
 )
 ;
+}
 if
 (
 install
@@ -9001,6 +9045,7 @@ AddonManager
 .
 STATE_DOWNLOADED
 )
+{
 throw
 new
 Error
@@ -9020,6 +9065,7 @@ path
 }
 )
 ;
+}
 if
 (
 ignoreIncompatible
@@ -9031,9 +9077,11 @@ addon
 .
 appDisabled
 )
+{
 return
 null
 ;
+}
 await
 install
 .
@@ -11161,9 +11209,7 @@ AMTelemetry
 .
 recordEvent
 =
-(
 event
-)
 =
 >
 {
@@ -11312,6 +11358,7 @@ val
 function
 "
 )
+{
 AddonTestUtils
 [
 key
@@ -11324,6 +11371,7 @@ bind
 AddonTestUtils
 )
 ;
+}
 }
 EventEmitter
 .

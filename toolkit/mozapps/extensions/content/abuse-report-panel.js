@@ -120,9 +120,7 @@ true
 const
 hideOnThemeType
 =
-(
 addonType
-)
 =
 >
 addonType
@@ -186,14 +184,13 @@ html
 const
 ABUSE_REASONS
 =
+(
 window
 .
 ABUSE_REPORT_REASONS
 =
 {
-"
 damage
-"
 :
 {
 isExampleHidden
@@ -203,9 +200,7 @@ isReasonHidden
 :
 hideOnThemeType
 }
-"
 spam
-"
 :
 {
 isExampleHidden
@@ -215,9 +210,7 @@ isReasonHidden
 :
 showOnAnyType
 }
-"
 settings
-"
 :
 {
 hasSuggestions
@@ -230,9 +223,7 @@ isReasonHidden
 :
 hideOnThemeType
 }
-"
 deceptive
-"
 :
 {
 isExampleHidden
@@ -242,9 +233,7 @@ isReasonHidden
 :
 showOnAnyType
 }
-"
 broken
-"
 :
 {
 hasAddonTypeL10nId
@@ -263,9 +252,7 @@ isReasonHidden
 :
 showOnAnyType
 }
-"
 policy
-"
 :
 {
 hasSuggestions
@@ -278,9 +265,7 @@ isReasonHidden
 :
 showOnAnyType
 }
-"
 unwanted
-"
 :
 {
 isExampleHidden
@@ -290,9 +275,7 @@ isReasonHidden
 :
 hideOnThemeType
 }
-"
 other
-"
 :
 {
 isExampleHidden
@@ -303,6 +286,7 @@ isReasonHidden
 showOnAnyType
 }
 }
+)
 ;
 function
 getReasonL10nId
@@ -829,9 +813,7 @@ attr
 )
 set
 :
-(
 value
-)
 =
 >
 {
@@ -3873,12 +3855,14 @@ addon
 this
 ;
 return
+(
 addon
 &
 &
 addon
 .
 homepageURL
+)
 |
 |
 this
@@ -3922,6 +3906,7 @@ ons
 )
 .
 return
+(
 this
 .
 addonCreator
@@ -3932,6 +3917,7 @@ this
 addonCreator
 .
 name
+)
 |
 |
 "
@@ -3944,6 +3930,7 @@ authorURL
 )
 {
 return
+(
 this
 .
 addonCreator
@@ -3954,6 +3941,7 @@ this
 addonCreator
 .
 url
+)
 |
 |
 "
@@ -3984,6 +3972,7 @@ supportURL
 )
 {
 return
+(
 this
 .
 addon
@@ -3994,6 +3983,7 @@ this
 addon
 .
 supportURL
+)
 |
 |
 this

@@ -1258,6 +1258,7 @@ element
 of
 elements
 )
+{
 list
 .
 appendChild
@@ -1265,6 +1266,7 @@ appendChild
 element
 )
 ;
+}
 }
 function
 check_order
@@ -1336,6 +1338,7 @@ org
 "
 )
 )
+{
 order
 .
 push
@@ -1350,6 +1353,7 @@ value
 )
 )
 ;
+}
 node
 =
 node

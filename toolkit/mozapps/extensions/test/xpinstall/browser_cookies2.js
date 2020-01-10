@@ -151,7 +151,6 @@ true
 false
 false
 true
-(
 Date
 .
 now
@@ -159,7 +158,6 @@ now
 )
 /
 1000
-)
 +
 60
 {

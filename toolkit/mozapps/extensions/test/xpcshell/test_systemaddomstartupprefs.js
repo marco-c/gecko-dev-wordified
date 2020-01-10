@@ -190,9 +190,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 id

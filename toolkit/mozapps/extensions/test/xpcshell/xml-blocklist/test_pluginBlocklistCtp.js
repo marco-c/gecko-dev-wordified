@@ -740,9 +740,11 @@ Plug
 in
 "
 )
+{
 return
 plugin
 ;
+}
 }
 Assert
 .

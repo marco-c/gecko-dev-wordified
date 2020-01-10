@@ -3381,11 +3381,9 @@ Math
 .
 max
 (
-(
 internalDownloadFinished
 -
 internalDownloadStart
-)
 1
 )
 )
@@ -3444,11 +3442,9 @@ Math
 .
 max
 (
-(
 bitsDownloadFinished
 -
 bitsDownloadStart
-)
 1
 )
 )
@@ -3507,11 +3503,9 @@ Math
 .
 max
 (
-(
 stageFinished
 -
 stageStart
-)
 1
 )
 )
@@ -3611,11 +3605,9 @@ Math
 .
 max
 (
-(
 applyFinished
 -
 applyStart
-)
 1
 )
 )

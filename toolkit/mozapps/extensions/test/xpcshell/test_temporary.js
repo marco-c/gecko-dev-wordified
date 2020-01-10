@@ -390,9 +390,7 @@ addInstallListener
 {
 onExternalInstall
 :
-(
 aInstall
-)
 =
 >
 {
@@ -445,9 +443,7 @@ addAddonListener
 {
 onInstalling
 :
-(
 aInstall
-)
 =
 >
 {
@@ -482,9 +478,7 @@ true
 }
 onInstalled
 :
-(
 aInstall
-)
 =
 >
 {
@@ -519,9 +513,7 @@ true
 }
 onInstallStarted
 :
-(
 aInstall
-)
 =
 >
 {
@@ -2095,9 +2087,7 @@ addInstallListener
 {
 onExternalInstall
 :
-(
 aInstall
-)
 =
 >
 {
@@ -2150,9 +2140,7 @@ addAddonListener
 {
 onInstalling
 :
-(
 aInstall
-)
 =
 >
 {
@@ -2171,6 +2159,7 @@ if
 !
 installingCalled
 )
+{
 Assert
 .
 equal
@@ -2185,6 +2174,7 @@ version
 "
 )
 ;
+}
 installingCalled
 =
 true
@@ -2192,9 +2182,7 @@ true
 }
 onInstalled
 :
-(
 aInstall
-)
 =
 >
 {
@@ -2213,6 +2201,7 @@ if
 !
 installedCalled
 )
+{
 Assert
 .
 equal
@@ -2227,6 +2216,7 @@ version
 "
 )
 ;
+}
 installedCalled
 =
 true
@@ -2234,9 +2224,7 @@ true
 }
 onInstallStarted
 :
-(
 aInstall
-)
 =
 >
 {
@@ -3657,9 +3645,7 @@ addInstallListener
 {
 onExternalInstall
 :
-(
 aInstall
-)
 =
 >
 {

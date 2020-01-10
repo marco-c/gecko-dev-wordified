@@ -230,10 +230,12 @@ if
 !
 gMultiProcessBrowser
 )
+{
 expectUncaughtException
 (
 )
 ;
+}
 let
 URI
 =

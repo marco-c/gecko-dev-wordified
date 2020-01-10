@@ -285,6 +285,7 @@ aIsEnabled
 |
 aIsRemote
 )
+{
 is_element_hidden
 (
 gManagerWindow
@@ -307,7 +308,9 @@ hidden
 "
 )
 ;
+}
 else
+{
 is_element_visible
 (
 gManagerWindow
@@ -330,6 +333,7 @@ visible
 "
 )
 ;
+}
 if
 (
 aIsTheme
@@ -341,6 +345,7 @@ aIsEnabled
 |
 aIsRemote
 )
+{
 is_element_hidden
 (
 gManagerWindow
@@ -363,7 +368,9 @@ hidden
 "
 )
 ;
+}
 else
+{
 is_element_visible
 (
 gManagerWindow
@@ -386,6 +393,7 @@ visible
 "
 )
 ;
+}
 if
 (
 !
@@ -400,6 +408,7 @@ aIsRemote
 |
 aIsSingleItemCase
 )
+{
 is_element_hidden
 (
 gManagerWindow
@@ -423,7 +432,9 @@ hidden
 "
 )
 ;
+}
 else
+{
 is_element_visible
 (
 gManagerWindow
@@ -447,6 +458,7 @@ visible
 "
 )
 ;
+}
 if
 (
 !
@@ -462,6 +474,7 @@ aIsRemote
 |
 aIsSingleItemCase
 )
+{
 is_element_hidden
 (
 gManagerWindow
@@ -486,7 +499,9 @@ hidden
 "
 )
 ;
+}
 else
+{
 is_element_visible
 (
 gManagerWindow
@@ -511,10 +526,12 @@ visible
 "
 )
 ;
+}
 if
 (
 aIsRemote
 )
+{
 is_element_visible
 (
 gManagerWindow
@@ -537,7 +554,9 @@ visible
 "
 )
 ;
+}
 else
+{
 is_element_hidden
 (
 gManagerWindow
@@ -560,10 +579,12 @@ hidden
 "
 )
 ;
+}
 if
 (
 aIsDetails
 )
+{
 is_element_hidden
 (
 gManagerWindow
@@ -591,7 +612,9 @@ view
 "
 )
 ;
+}
 else
+{
 is_element_visible
 (
 gManagerWindow
@@ -619,10 +642,12 @@ view
 "
 )
 ;
+}
 if
 (
 aIsSingleItemCase
 )
+{
 is_element_hidden
 (
 gManagerWindow
@@ -651,7 +676,9 @@ item
 "
 )
 ;
+}
 else
+{
 is_element_visible
 (
 gManagerWindow
@@ -679,6 +706,7 @@ items
 "
 )
 ;
+}
 }
 add_test
 (

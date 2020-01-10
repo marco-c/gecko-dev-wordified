@@ -3088,6 +3088,7 @@ expected
 =
 null
 )
+{
 Assert
 .
 equal
@@ -3096,7 +3097,9 @@ aAddon
 null
 )
 ;
+}
 else
+{
 check_results
 (
 [
@@ -3108,6 +3111,7 @@ expected
 true
 )
 ;
+}
 resolve
 (
 )

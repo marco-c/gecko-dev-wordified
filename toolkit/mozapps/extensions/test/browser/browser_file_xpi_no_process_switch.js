@@ -205,9 +205,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -275,9 +273,7 @@ browser
 expectedPid
 message
 }
-(
 arg
-)
 =
 >
 {

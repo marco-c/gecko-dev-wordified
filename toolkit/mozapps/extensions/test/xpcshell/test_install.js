@@ -1296,6 +1296,7 @@ difference
 >
 MAX_TIME_DIFFERENCE
 )
+{
 do_throw
 (
 "
@@ -1316,6 +1317,7 @@ ms
 "
 )
 ;
+}
 difference
 =
 a1
@@ -1339,6 +1341,7 @@ difference
 >
 MAX_TIME_DIFFERENCE
 )
+{
 do_throw
 (
 "
@@ -1359,6 +1362,7 @@ ms
 "
 )
 ;
+}
 equal
 (
 a1

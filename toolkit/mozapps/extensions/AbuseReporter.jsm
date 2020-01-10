@@ -769,9 +769,7 @@ addon
 const
 truncateString
 =
-(
 text
-)
 =
 >
 typeof

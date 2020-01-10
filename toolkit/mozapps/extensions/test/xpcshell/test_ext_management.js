@@ -308,9 +308,7 @@ com
 options_ui
 :
 {
-"
 page
-"
 :
 "
 get_self_options

@@ -1533,6 +1533,7 @@ if
 (
 callback
 )
+{
 executeSoon
 (
 (
@@ -1545,6 +1546,7 @@ count
 )
 )
 ;
+}
 }
 /
 /
@@ -1785,6 +1787,7 @@ this
 .
 installBlockedCallback
 )
+{
 ok
 (
 false
@@ -1799,6 +1802,7 @@ whitelist
 "
 )
 ;
+}
 this
 .
 pendingCount
@@ -1866,8 +1870,10 @@ this
 .
 leaveOpen
 )
+{
 return
 ;
+}
 }
 if
 (
@@ -2062,6 +2068,7 @@ this
 .
 installDisabledCallback
 )
+{
 this
 .
 installDisabledCallback
@@ -2069,6 +2076,7 @@ installDisabledCallback
 installInfo
 )
 ;
+}
 this
 .
 expectingCancelled
@@ -2099,8 +2107,10 @@ this
 .
 expectingCancelled
 )
+{
 return
 ;
+}
 ok
 (
 !
@@ -2125,6 +2135,7 @@ this
 .
 installCancelledCallback
 )
+{
 this
 .
 installCancelledCallback
@@ -2132,6 +2143,7 @@ installCancelledCallback
 installInfo
 )
 ;
+}
 this
 .
 endTest
@@ -2167,6 +2179,7 @@ this
 .
 installOriginBlockedCallback
 )
+{
 this
 .
 installOriginBlockedCallback
@@ -2174,6 +2187,7 @@ installOriginBlockedCallback
 installInfo
 )
 ;
+}
 this
 .
 endTest
@@ -2472,12 +2486,14 @@ pendingCount
 =
 0
 )
+{
 this
 .
 endTest
 (
 )
 ;
+}
 }
 ;
 mm
@@ -2511,6 +2527,7 @@ this
 .
 downloadStartedCallback
 )
+{
 this
 .
 downloadStartedCallback
@@ -2518,6 +2535,7 @@ downloadStartedCallback
 install
 )
 ;
+}
 }
 onDownloadProgress
 (
@@ -2530,6 +2548,7 @@ this
 .
 downloadProgressCallback
 )
+{
 this
 .
 downloadProgressCallback
@@ -2537,6 +2556,7 @@ downloadProgressCallback
 install
 )
 ;
+}
 }
 onDownloadEnded
 (
@@ -2549,6 +2569,7 @@ this
 .
 downloadEndedCallback
 )
+{
 this
 .
 downloadEndedCallback
@@ -2556,6 +2577,7 @@ downloadEndedCallback
 install
 )
 ;
+}
 }
 onDownloadCancelled
 (
@@ -2608,6 +2630,7 @@ this
 .
 downloadCancelledCallback
 )
+{
 this
 .
 downloadCancelledCallback
@@ -2615,6 +2638,7 @@ downloadCancelledCallback
 install
 )
 ;
+}
 this
 .
 checkTestEnded
@@ -2633,6 +2657,7 @@ this
 .
 downloadFailedCallback
 )
+{
 this
 .
 downloadFailedCallback
@@ -2640,6 +2665,7 @@ downloadFailedCallback
 install
 )
 ;
+}
 this
 .
 checkTestEnded
@@ -2658,6 +2684,7 @@ this
 .
 installStartedCallback
 )
+{
 this
 .
 installStartedCallback
@@ -2665,6 +2692,7 @@ installStartedCallback
 install
 )
 ;
+}
 }
 onInstallEnded
 (
@@ -2684,6 +2712,7 @@ this
 .
 installEndedCallback
 )
+{
 this
 .
 installEndedCallback
@@ -2692,6 +2721,7 @@ install
 addon
 )
 ;
+}
 this
 .
 checkTestEnded
@@ -2710,6 +2740,7 @@ this
 .
 installFailedCallback
 )
+{
 this
 .
 installFailedCallback
@@ -2717,6 +2748,7 @@ installFailedCallback
 install
 )
 ;
+}
 this
 .
 checkTestEnded
@@ -2920,12 +2952,14 @@ this
 .
 waitingForEvent
 )
+{
 this
 .
 endTest
 (
 )
 ;
+}
 }
 /
 /

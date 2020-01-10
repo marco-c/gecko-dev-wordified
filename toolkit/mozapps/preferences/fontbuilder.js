@@ -260,6 +260,7 @@ length
 >
 0
 )
+{
 defaultFont
 =
 this
@@ -274,6 +275,7 @@ aLanguage
 )
 ;
 }
+}
 if
 (
 !
@@ -281,6 +283,7 @@ this
 .
 _allFonts
 )
+{
 this
 .
 _allFonts
@@ -296,6 +299,7 @@ EnumerateAllFontsAsync
 }
 )
 ;
+}
 /
 /
 Build
@@ -814,9 +818,11 @@ fontItems
 .
 length
 )
+{
 return
 undefined
 ;
+}
 }
 /
 /
