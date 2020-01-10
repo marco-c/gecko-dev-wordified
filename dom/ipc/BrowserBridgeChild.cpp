@@ -1054,15 +1054,6 @@ if
 (
 !
 owner
-|
-|
-!
-owner
--
->
-OwnerDoc
-(
-)
 )
 {
 return
