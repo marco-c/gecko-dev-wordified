@@ -3222,6 +3222,14 @@ LayersObserverEpoch
 aEpoch
 )
 ;
+void
+CancelContentJSExecutionIfRunning
+(
+TabParent
+*
+aTabParent
+)
+;
 /
 /
 This
