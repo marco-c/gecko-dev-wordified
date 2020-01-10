@@ -390,7 +390,7 @@ subresource
 xhr
 '
 '
-IMAGE
+FETCH
 '
 )
   
@@ -403,7 +403,7 @@ subresource
 fetch
 '
 '
-IMAGE
+FETCH
 '
 )
 ]
