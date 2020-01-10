@@ -216,10 +216,9 @@ dependencies
 are
 constrained
 to
-{
-link
 LocationManagerImplementation
-}
+in
+AndroidSDKLocation
 .
 *
 *

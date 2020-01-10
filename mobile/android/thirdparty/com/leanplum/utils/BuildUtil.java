@@ -1,10 +1,3 @@
-package
-com
-.
-leanplum
-.
-utils
-;
 /
 *
 *
@@ -180,6 +173,13 @@ License
 .
 *
 /
+package
+com
+.
+leanplum
+.
+utils
+;
 import
 android
 .
