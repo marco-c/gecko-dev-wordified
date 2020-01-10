@@ -229,7 +229,7 @@ shared
 /
 specs
 /
-script
+thread
 "
 )
 ;
