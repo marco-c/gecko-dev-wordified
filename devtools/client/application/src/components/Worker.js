@@ -64,7 +64,7 @@ strict
 const
 {
 createFactory
-Component
+PureComponent
 }
 =
 require
@@ -316,7 +316,7 @@ etc
 class
 Worker
 extends
-Component
+PureComponent
 {
 static
 get

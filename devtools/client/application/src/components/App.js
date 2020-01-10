@@ -86,7 +86,7 @@ types
 const
 {
 createFactory
-Component
+PureComponent
 }
 =
 require
@@ -229,7 +229,7 @@ panel
 class
 App
 extends
-Component
+PureComponent
 {
 static
 get
