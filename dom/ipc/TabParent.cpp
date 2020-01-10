@@ -11211,7 +11211,7 @@ nsIWidget
 >
 widget
 =
-GetDocWidget
+GetWidget
 (
 )
 ;
