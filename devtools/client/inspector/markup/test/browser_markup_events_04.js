@@ -553,9 +553,7 @@ selector
 :
 "
 #
-math
--
-pow
+arraysort
 "
 expected
 :
@@ -588,7 +586,7 @@ handler
 :
 "
 function
-pow
+sort
 (
 )
 {
