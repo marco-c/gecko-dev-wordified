@@ -226,6 +226,7 @@ situations
 /
 class
 InProcessParent
+final
 :
 public
 nsIObserver
@@ -333,13 +334,6 @@ ActorDestroy
 (
 ActorDestroyReason
 aWhy
-)
-override
-;
-virtual
-void
-ActorDealloc
-(
 )
 override
 ;

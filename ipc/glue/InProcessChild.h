@@ -226,6 +226,7 @@ situations
 /
 class
 InProcessChild
+final
 :
 public
 PInProcessChild
@@ -243,6 +244,7 @@ PInProcessChild
 NS_INLINE_DECL_REFCOUNTING
 (
 InProcessChild
+final
 )
 /
 /
@@ -348,13 +350,6 @@ ActorDestroy
 (
 ActorDestroyReason
 aWhy
-)
-override
-;
-virtual
-void
-ActorDealloc
-(
 )
 override
 ;
