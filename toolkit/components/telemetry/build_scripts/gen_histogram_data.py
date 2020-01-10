@@ -1505,6 +1505,17 @@ static_asserts_for_exponential
     
 }
     
+target_os
+=
+buildconfig
+.
+substs
+[
+"
+OS_TARGET
+"
+]
+    
 for
 histogram
 in
@@ -1518,6 +1529,18 @@ histogram
 kind
 (
 )
+        
+if
+not
+histogram
+.
+record_on_os
+(
+target_os
+)
+:
+            
+continue
         
 if
 kind
