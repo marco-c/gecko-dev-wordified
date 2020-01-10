@@ -5172,6 +5172,10 @@ const
 return
 !
 !
+HTMLEditorRef
+(
+)
+.
 mPaddingBRElementForEmptyEditor
 ;
 }
@@ -10713,6 +10717,10 @@ AfterEditInner
 .
 if
 (
+HTMLEditorRef
+(
+)
+.
 mPaddingBRElementForEmptyEditor
 )
 {
@@ -10761,6 +10769,10 @@ std
 :
 move
 (
+HTMLEditorRef
+(
+)
+.
 mPaddingBRElementForEmptyEditor
 )
 )
@@ -15598,6 +15610,10 @@ operation
 .
 if
 (
+HTMLEditorRef
+(
+)
+.
 mPaddingBRElementForEmptyEditor
 )
 {
@@ -74343,6 +74359,10 @@ more
 .
 if
 (
+HTMLEditorRef
+(
+)
+.
 mPaddingBRElementForEmptyEditor
 )
 {
@@ -74391,6 +74411,10 @@ std
 :
 move
 (
+HTMLEditorRef
+(
+)
+.
 mPaddingBRElementForEmptyEditor
 )
 )

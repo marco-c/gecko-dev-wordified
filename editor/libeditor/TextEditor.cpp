@@ -8157,12 +8157,7 @@ true
 ;
 if
 (
-mRules
--
->
-HasPaddingBRElementForEmptyEditor
-(
-)
+mPaddingBRElementForEmptyEditor
 )
 {
 return
