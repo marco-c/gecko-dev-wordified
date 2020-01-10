@@ -1147,7 +1147,7 @@ GetContextInternal
 aWindow
 -
 >
-FastGetGlobalJSObject
+HasJSGlobal
 (
 )
 )
@@ -1259,7 +1259,7 @@ GetContextInternal
 aWindow
 -
 >
-FastGetGlobalJSObject
+HasJSGlobal
 (
 )
 )

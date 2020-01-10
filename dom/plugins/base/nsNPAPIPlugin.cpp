@@ -4913,7 +4913,7 @@ win
 win
 -
 >
-FastGetGlobalJSObject
+HasJSGlobal
 (
 )
 )
