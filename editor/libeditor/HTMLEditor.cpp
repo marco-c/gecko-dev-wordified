@@ -21371,6 +21371,13 @@ Element
 aElement
 )
 {
+MOZ_ASSERT
+(
+IsEditActionDataAvailable
+(
+)
+)
+;
 /
 /
 Prevent
