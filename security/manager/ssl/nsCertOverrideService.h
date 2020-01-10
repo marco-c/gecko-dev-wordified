@@ -753,6 +753,9 @@ nsCertOverrideService
 (
 )
 ;
+bool
+mDisableAllSecurityCheck
+;
 mozilla
 :
 :
