@@ -534,12 +534,7 @@ extract
 canvas
 data
 .
-bool
-isFileURL
-;
 if
-(
-NS_SUCCEEDED
 (
 docURI
 -
@@ -549,13 +544,7 @@ SchemeIs
 "
 file
 "
-&
-isFileURL
 )
-)
-&
-&
-isFileURL
 )
 {
 return
