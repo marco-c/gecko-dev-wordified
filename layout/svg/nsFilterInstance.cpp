@@ -4302,10 +4302,6 @@ StyleColor
 -
 >
 mColor
-.
-ToColor
-(
-)
 :
 NS_RGB
 (

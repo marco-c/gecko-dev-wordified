@@ -6499,10 +6499,6 @@ StyleColor
 -
 >
 mColor
-.
-ToColor
-(
-)
 )
 ;
 return
@@ -13700,10 +13696,6 @@ StyleColor
 -
 >
 mColor
-.
-ToColor
-(
-)
 )
 ;
 }

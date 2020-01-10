@@ -7844,10 +7844,6 @@ StyleColor
 -
 >
 mColor
-.
-ToColor
-(
-)
 )
 )
 ;

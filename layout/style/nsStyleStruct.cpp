@@ -10780,7 +10780,7 @@ nsStyleColor
 /
 /
 static
-StyleRGBA
+nscolor
 DefaultColor
 (
 const
@@ -10790,11 +10790,6 @@ aDocument
 )
 {
 return
-StyleRGBA
-:
-:
-FromColor
-(
 PreferenceSheet
 :
 :
@@ -10804,7 +10799,6 @@ aDocument
 )
 .
 mDefaultColor
-)
 ;
 }
 nsStyleColor

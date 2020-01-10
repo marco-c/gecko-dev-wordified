@@ -6143,10 +6143,6 @@ StyleColor
 -
 >
 mColor
-.
-ToColor
-(
-)
 ;
 }
 /
