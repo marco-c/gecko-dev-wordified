@@ -679,8 +679,6 @@ bool
 aIgnoreRootScrollFrame
 bool
 aFlushLayout
-bool
-aOnlyVisible
 nsTArray
 <
 RefPtr
