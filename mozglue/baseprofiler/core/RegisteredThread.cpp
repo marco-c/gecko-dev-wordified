@@ -117,6 +117,16 @@ MPL
 #
 include
 "
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
+#
+include
+"
 RegisteredThread
 .
 h
@@ -314,3 +324,8 @@ return
 n
 ;
 }
+#
+endif
+/
+/
+MOZ_BASE_PROFILER

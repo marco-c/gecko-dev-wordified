@@ -117,6 +117,16 @@ MPL
 #
 include
 "
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
+#
+include
+"
 LulDwarfSummariser
 .
 h
@@ -3785,3 +3795,8 @@ n
 /
 namespace
 lul
+#
+endif
+/
+/
+MOZ_BASE_PROFILER

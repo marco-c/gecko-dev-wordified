@@ -417,6 +417,16 @@ common
 unique_string
 .
 cc
+#
+include
+"
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
 /
 /
 There
@@ -970,3 +980,8 @@ second
 /
 namespace
 lul
+#
+endif
+/
+/
+MOZ_BASE_PROFILER

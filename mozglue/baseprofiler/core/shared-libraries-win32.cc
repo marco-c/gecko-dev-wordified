@@ -95,6 +95,16 @@ MPL
 /
 #
 include
+"
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
+#
+include
 <
 windows
 .
@@ -1452,3 +1462,8 @@ nothing
 *
 /
 }
+#
+endif
+/
+/
+MOZ_BASE_PROFILER

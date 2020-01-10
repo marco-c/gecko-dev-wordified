@@ -478,6 +478,16 @@ dwarf_cfi_to_module
 cc
 #
 include
+"
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
+#
+include
 <
 stdint
 .
@@ -17353,3 +17363,8 @@ buf
 /
 namespace
 lul
+#
+endif
+/
+/
+MOZ_BASE_PROFILER
