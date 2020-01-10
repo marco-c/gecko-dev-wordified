@@ -1397,11 +1397,15 @@ task
 )
 :
         
-platform
+attr
 =
 task
 .
 attributes
+        
+platform
+=
+attr
 .
 get
 (
@@ -1525,9 +1529,7 @@ l10n
 if
 k
 in
-task
-.
-attributes
+attr
 [
 '
 kind
@@ -1560,9 +1562,7 @@ linux64
 asan
 '
 and
-task
-.
-attributes
+attr
 [
 '
 build_type
@@ -1586,9 +1586,7 @@ e10s
 tests
         
 if
-task
-.
-attributes
+attr
 .
 get
 (
@@ -1600,9 +1598,7 @@ unittest_suite
             
 if
 not
-task
-.
-attributes
+attr
 .
 get
 (
@@ -1623,9 +1619,7 @@ upload
 symbols
         
 if
-task
-.
-attributes
+attr
 [
 '
 kind
