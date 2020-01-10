@@ -11141,6 +11141,15 @@ replace
 1
 "
 trackerCount
+.
+toLocaleString
+(
+Services
+.
+locale
+.
+appLocalesAsBCP47
+)
 )
 ;
 /
