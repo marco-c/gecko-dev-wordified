@@ -185,6 +185,17 @@ mozilla
 /
 dom
 /
+BrowserHost
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 BrowserParent
 .
 h
@@ -1124,7 +1135,7 @@ BrowserParent
 WindowGlobalParent
 :
 :
-GetRemoteTab
+GetBrowserParent
 (
 )
 {
@@ -1260,7 +1271,7 @@ BrowserParent
 >
 browserParent
 =
-GetRemoteTab
+GetBrowserParent
 (
 )
 ;
@@ -1509,7 +1520,7 @@ BrowserParent
 >
 browserParent
 =
-GetRemoteTab
+GetBrowserParent
 (
 )
 )
@@ -1825,7 +1836,7 @@ BrowserParent
 >
 browserParent
 =
-GetRemoteTab
+GetBrowserParent
 (
 )
 ;
