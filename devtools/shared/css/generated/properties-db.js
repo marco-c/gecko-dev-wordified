@@ -40176,6 +40176,13 @@ decoration
 -
 color
 "
+"
+text
+-
+decoration
+-
+thickness
+"
 ]
 "
 supports
@@ -40199,6 +40206,9 @@ COLOR
 moz
 -
 none
+"
+"
+auto
 "
 "
 blink
