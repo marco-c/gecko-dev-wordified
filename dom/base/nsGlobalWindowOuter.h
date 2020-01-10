@@ -1815,17 +1815,6 @@ nsISupports
 aState
 bool
 aForceReuseInnerWindow
-mozilla
-:
-:
-dom
-:
-:
-WindowGlobalChild
-*
-aActor
-=
-nullptr
 )
 override
 ;
