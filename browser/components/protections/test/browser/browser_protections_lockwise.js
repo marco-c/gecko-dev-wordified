@@ -298,6 +298,13 @@ gBrowser
 }
 )
 ;
+const
+{
+getLoginData
+}
+=
+AboutProtectionsHandler
+;
 info
 (
 "
@@ -1307,6 +1314,12 @@ removeLogin
 (
 TEST_LOGIN2
 )
+;
+AboutProtectionsHandler
+.
+getLoginData
+=
+getLoginData
 ;
 await
 BrowserTestUtils
