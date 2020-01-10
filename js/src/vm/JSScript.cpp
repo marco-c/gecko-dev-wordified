@@ -37495,7 +37495,7 @@ jit
 :
 JitOptions
 .
-baselineWarmUpThreshold
+baselineJitWarmUpThreshold
 )
 {
 incWarmUpResetCounter
@@ -37509,7 +37509,7 @@ jit
 :
 JitOptions
 .
-baselineWarmUpThreshold
+baselineJitWarmUpThreshold
 ;
 }
 }

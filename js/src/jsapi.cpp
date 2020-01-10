@@ -30955,7 +30955,7 @@ value
 =
 defaultValues
 .
-baselineWarmUpThreshold
+baselineJitWarmUpThreshold
 ;
 }
 jit
@@ -30963,7 +30963,7 @@ jit
 :
 JitOptions
 .
-baselineWarmUpThreshold
+baselineJitWarmUpThreshold
 =
 value
 ;
@@ -31888,7 +31888,7 @@ jit
 :
 JitOptions
 .
-baselineWarmUpThreshold
+baselineJitWarmUpThreshold
 ;
 break
 ;

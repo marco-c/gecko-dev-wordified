@@ -2138,7 +2138,7 @@ getWarmUpCount
 =
 JitOptions
 .
-baselineWarmUpThreshold
+baselineJitWarmUpThreshold
 )
 {
 return

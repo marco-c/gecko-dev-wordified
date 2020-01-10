@@ -66881,7 +66881,7 @@ jit
 :
 JitOptions
 .
-baselineWarmUpThreshold
+baselineJitWarmUpThreshold
 =
 warmUpThreshold
 ;

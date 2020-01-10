@@ -343,7 +343,7 @@ jit
 :
 JitOptions
 .
-baselineWarmUpThreshold
+baselineJitWarmUpThreshold
 ;
 RootedValue
 val
