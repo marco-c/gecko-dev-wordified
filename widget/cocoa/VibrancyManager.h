@@ -528,6 +528,12 @@ IsEmpty
 )
 ;
 }
+LayoutDeviceIntRegion
+GetUnionOfVibrantRegions
+(
+)
+const
+;
 /
 *
 *
