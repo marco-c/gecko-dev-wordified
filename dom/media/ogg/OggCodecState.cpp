@@ -12802,9 +12802,6 @@ return
 true
 ;
 }
-#
-undef
-LOG
 }
 /
 /

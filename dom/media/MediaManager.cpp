@@ -1173,6 +1173,14 @@ delete
 namespace
 mozilla
 {
+#
+ifdef
+LOG
+#
+undef
+LOG
+#
+endif
 LazyLogModule
 gMediaManagerLog
 (
@@ -30956,9 +30964,6 @@ return
 )
 ;
 }
-#
-undef
-LOG
 }
 /
 /
