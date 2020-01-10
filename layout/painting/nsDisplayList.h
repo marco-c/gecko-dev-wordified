@@ -35426,6 +35426,14 @@ override
 ;
 protected
 :
+void
+ExpandDisplayListBuilderRenderRootRect
+(
+nsDisplayListBuilder
+*
+aBuilder
+)
+;
 mozilla
 :
 :
