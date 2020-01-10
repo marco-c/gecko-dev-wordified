@@ -36739,7 +36739,7 @@ TypeOf
 "
 )
 ;
-TryAttachStubOld
+TryAttachStub
 <
 TypeOfIRGenerator
 >
