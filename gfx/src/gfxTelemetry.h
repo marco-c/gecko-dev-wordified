@@ -276,6 +276,7 @@ BlockedReleaseChannelIntel
 BlockedReleaseChannelAMD
 BlockedReleaseChannelNvidia
 BlockedReleaseChannelBattery
+BlockedReleaseChannelAndroid
 /
 /
 This
