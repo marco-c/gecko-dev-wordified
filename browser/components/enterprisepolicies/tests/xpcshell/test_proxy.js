@@ -146,7 +146,7 @@ value
 =
 >
 {
-is
+equal
 (
 value
 expectedValue
@@ -193,7 +193,7 @@ value
 =
 >
 {
-is
+equal
 (
 value
 autoconfigURL

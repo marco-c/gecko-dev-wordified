@@ -653,8 +653,6 @@ unflatten
 input
 )
 ;
-Assert
-.
 deepEqual
 (
 unflattened
@@ -733,7 +731,7 @@ unflatten
 input
 )
 ;
-is
+equal
 (
 unflattened
 .
@@ -791,8 +789,6 @@ Foo
 =
 30
 ;
-Assert
-.
 deepEqual
 (
 unflattened

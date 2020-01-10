@@ -88,7 +88,7 @@ locale
 .
 requestedLocales
 ;
-is
+equal
 (
 reqLocs
 [

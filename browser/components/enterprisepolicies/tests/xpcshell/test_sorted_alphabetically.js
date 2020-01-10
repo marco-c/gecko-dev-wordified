@@ -256,7 +256,7 @@ jsm
 "
 )
 ;
-is
+equal
 (
 Object
 .

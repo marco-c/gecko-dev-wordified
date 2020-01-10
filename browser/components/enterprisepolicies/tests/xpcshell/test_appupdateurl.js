@@ -70,7 +70,7 @@ com
 }
 )
 ;
-is
+equal
 (
 Services
 .
@@ -129,7 +129,7 @@ url
 undefined
 )
 ;
-is
+equal
 (
 "
 https
