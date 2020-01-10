@@ -15929,6 +15929,12 @@ uint16_t
 aStream
 )
 {
+if
+(
+!
+aExternalNegotiated
+)
+{
 /
 /
 aStream
@@ -15940,6 +15946,11 @@ have
 the
 protocol
 allocate
+aStream
+=
+INVALID_STREAM
+;
+}
 uint16_t
 prPolicy
 =
