@@ -837,9 +837,7 @@ path
 H
 "
 "
-\
 MAR_CHANNEL_ID
-\
 "
 "
 -

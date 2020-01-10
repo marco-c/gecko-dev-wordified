@@ -3860,6 +3860,7 @@ exists
 (
 )
 )
+{
 savePrefFile
 .
 remove
@@ -3867,6 +3868,7 @@ remove
 false
 )
 ;
+}
 savePrefFile
 .
 create
@@ -4505,9 +4507,11 @@ Ci
 nsISupports
 )
 )
+{
 return
 this
 ;
+}
 throw
 Cr
 .

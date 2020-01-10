@@ -179,9 +179,11 @@ diff
 =
 MAX_TIME_DIFF
 )
+{
 do_throw
 (
 diff
 )
 ;
+}
 }
