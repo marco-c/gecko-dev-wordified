@@ -140,6 +140,9 @@ namespace
 mozilla
 {
 class
+PresShell
+;
+class
 ServoStyleSet
 ;
 }
@@ -147,9 +150,6 @@ ServoStyleSet
 /
 namespace
 mozilla
-class
-nsIPresShell
-;
 class
 nsPresContext
 ;
@@ -403,7 +403,10 @@ aViewManager
 nsPresContext
 *
 aPresContext
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 )
@@ -514,7 +517,10 @@ nsPresContext
 *
 aPresContext
 \
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 )

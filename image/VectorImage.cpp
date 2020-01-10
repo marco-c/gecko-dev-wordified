@@ -1545,9 +1545,9 @@ doc
 '
 s
 presShell
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 presShell
 =
