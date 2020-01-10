@@ -339,6 +339,7 @@ subprocess
 .
 check_output
 (
+            
 [
 '
 emerge
@@ -349,6 +350,9 @@ emerge
 info
 '
 ]
+universal_newlines
+=
+True
 )
         
 match
@@ -808,6 +812,10 @@ stderr
 subprocess
 .
 STDOUT
+                                       
+universal_newlines
+=
+True
 )
         
 except
