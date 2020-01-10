@@ -1830,14 +1830,12 @@ getFullAccessibilityTree
 ;
 mTabSessionManager
 .
-setCurrentSession
+addSession
 (
 session
 )
 ;
-mGeckoView
-.
-setSession
+setGeckoViewSession
 (
 session
 )
@@ -1872,6 +1870,7 @@ setSession
 session
 )
 ;
+}
 loadFromIntent
 (
 getIntent
@@ -1879,7 +1878,6 @@ getIntent
 )
 )
 ;
-}
 }
 mToolbarView
 .
