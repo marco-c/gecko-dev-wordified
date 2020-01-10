@@ -1137,12 +1137,6 @@ server_host
 "
             
 "
-bind_address
-"
-:
-False
-            
-"
 supports_debugger
 "
 :
