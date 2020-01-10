@@ -2380,6 +2380,11 @@ PixelCastJustification
 :
 ContentProcessIsLayerInUiProcess
 )
+msg
+.
+GetRemoteDocumentRect
+(
+)
 )
 ;
 }
