@@ -3905,17 +3905,6 @@ isLambda
 )
 ;
 }
-MOZ_ASSERT
-(
-functionCreationData
-(
-)
-.
-isSome
-(
-)
-)
-;
 return
 functionCreationData
 (
