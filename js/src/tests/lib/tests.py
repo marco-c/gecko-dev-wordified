@@ -641,6 +641,27 @@ successfully
 "
 "
     
+#
+When
+updating
+this
+also
+update
+|
+buildBrowserEnv
+|
+in
+layout
+/
+tools
+/
+reftest
+/
+runreftest
+.
+py
+.
+    
 env
 =
 {
