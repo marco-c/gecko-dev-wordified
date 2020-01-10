@@ -136,6 +136,7 @@ mochitest
 utils
 .
 js
+async
 function
 setTestPluginEnabledState
 (
@@ -146,6 +147,7 @@ pluginName
 var
 oldEnabledState
 =
+await
 SpecialPowers
 .
 setTestPluginEnabledState
@@ -226,6 +228,7 @@ function
 (
 )
 {
+return
 SpecialPowers
 .
 setTestPluginEnabledState
