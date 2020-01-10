@@ -1111,6 +1111,13 @@ false
 )
 ;
 void
+RequestEpochUpdate
+(
+uint32_t
+aEpoch
+)
+;
+void
 Print
 (
 uint64_t

@@ -1827,6 +1827,10 @@ const
 bool
 &
 aIsFinal
+const
+uint32_t
+&
+aEpoch
 )
 ;
 mozilla
