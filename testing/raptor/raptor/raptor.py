@@ -6117,6 +6117,18 @@ self
 os_baseline_data
 =
 None
+        
+self
+.
+screen_off_timeout
+=
+0
+        
+self
+.
+screen_brightness
+=
+127
     
 def
 set_reverse_port
