@@ -2694,6 +2694,8 @@ Activate
 void
 Deactivate
 (
+bool
+aWindowLowering
 )
 ;
 bool
