@@ -287,7 +287,7 @@ envClient
 new
 EnvironmentClient
 (
-gThreadClient
+gClient
 environment
 )
 ;
@@ -326,7 +326,7 @@ parentClient
 new
 EnvironmentClient
 (
-gThreadClient
+gClient
 parent
 )
 ;
@@ -364,7 +364,7 @@ grandpaClient
 new
 EnvironmentClient
 (
-gThreadClient
+gClient
 grandpa
 )
 ;
