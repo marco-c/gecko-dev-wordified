@@ -226,7 +226,7 @@ InlineSpellChecker
 (
 event
 .
-target
+composedTarget
 .
 editor
 )
