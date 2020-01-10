@@ -575,7 +575,7 @@ popup
 -
 security
 -
-content
+connection
 "
 )
 [
@@ -623,7 +623,7 @@ popup
 -
 security
 -
-content
+connection
 "
 )
 [
@@ -1557,7 +1557,7 @@ popup
 -
 security
 -
-content
+connection
 "
 )
 [
@@ -1605,7 +1605,7 @@ popup
 -
 security
 -
-content
+connection
 "
 )
 [
@@ -1672,9 +1672,9 @@ browser
 /
 skin
 /
-controlcenter
-/
 connection
+-
+secure
 .
 svg
 "
@@ -1709,9 +1709,9 @@ browser
 /
 skin
 /
-controlcenter
-/
 connection
+-
+secure
 .
 svg
 "
