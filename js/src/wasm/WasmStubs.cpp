@@ -200,6 +200,15 @@ include
 "
 jit
 /
+JitScript
+.
+h
+"
+#
+include
+"
+jit
+/
 RegisterAllocator
 .
 h
