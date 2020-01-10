@@ -155,7 +155,7 @@ h
 JS
 :
 :
-Evaluate
+EvaluateDontInflate
 #
 include
 "
@@ -411,7 +411,7 @@ Borrowed
 JS
 :
 :
-Evaluate
+EvaluateDontInflate
 (
 cx
 opts
@@ -513,7 +513,7 @@ Borrowed
 JS
 :
 :
-Evaluate
+EvaluateDontInflate
 (
 cx
 opts
@@ -600,7 +600,7 @@ Borrowed
 JS
 :
 :
-Evaluate
+EvaluateDontInflate
 (
 cx
 opts

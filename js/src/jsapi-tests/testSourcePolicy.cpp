@@ -86,6 +86,10 @@ JS
 :
 :
 CompileFunction
+JS
+:
+:
+EvaluateDontInflate
 #
 include
 "
@@ -269,7 +273,10 @@ an
 rval
 for
 our
-Evaluate
+JS
+:
+:
+EvaluateDontInflate
 call
 opts
 .
@@ -292,7 +299,7 @@ CHECK
 JS
 :
 :
-Evaluate
+EvaluateDontInflate
 (
 cx
 opts

@@ -77,7 +77,7 @@ h
 JS
 :
 :
-Evaluate
+EvaluateDontInflate
 #
 include
 "
@@ -501,7 +501,7 @@ cx
 JS
 :
 :
-Evaluate
+EvaluateDontInflate
 (
 cx
 opts
