@@ -133,8 +133,6 @@ gTestRoot
 +
 "
 blockNoPlugins
-.
-xml
 "
 gTestBrowser
 )
@@ -320,8 +318,6 @@ gTestRoot
 +
 "
 blockNoPlugins
-.
-xml
 "
 gTestBrowser
 )
@@ -448,8 +444,6 @@ gTestRoot
 +
 "
 blockPluginHard
-.
-xml
 "
 gTestBrowser
 )
@@ -599,8 +593,6 @@ gTestRoot
 +
 "
 blockNoPlugins
-.
-xml
 "
 gTestBrowser
 )
@@ -815,8 +807,6 @@ gTestRoot
 +
 "
 blockPluginHard
-.
-xml
 "
 gTestBrowser
 )
@@ -908,8 +898,6 @@ gTestRoot
 +
 "
 blockNoPlugins
-.
-xml
 "
 gTestBrowser
 )

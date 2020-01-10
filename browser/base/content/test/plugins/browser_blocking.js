@@ -158,8 +158,6 @@ gTestRoot
 +
 "
 blockNoPlugins
-.
-xml
 "
 gTestBrowser
 )
@@ -313,8 +311,6 @@ gTestRoot
 +
 "
 blockPluginVulnerableUpdatable
-.
-xml
 "
 gTestBrowser
 )
@@ -885,8 +881,6 @@ gTestRoot
 +
 "
 blockPluginVulnerableNoUpdate
-.
-xml
 "
 gTestBrowser
 )
@@ -1725,8 +1719,6 @@ gTestRoot
 +
 "
 blockNoPlugins
-.
-xml
 "
 gTestBrowser
 )
@@ -1920,8 +1912,6 @@ gTestRoot
 +
 "
 blockPluginVulnerableUpdatable
-.
-xml
 "
 gTestBrowser
 )
@@ -2126,8 +2116,6 @@ gTestRoot
 +
 "
 blockNoPlugins
-.
-xml
 "
 gTestBrowser
 )
@@ -2356,8 +2344,6 @@ gTestRoot
 +
 "
 blockPluginInfoURL
-.
-xml
 "
 gTestBrowser
 )
