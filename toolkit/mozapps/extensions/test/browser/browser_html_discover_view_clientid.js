@@ -441,16 +441,6 @@ enabled
 "
 true
 ]
-[
-"
-extensions
-.
-htmlaboutaddons
-.
-enabled
-"
-true
-]
 /
 /
 Discovery
