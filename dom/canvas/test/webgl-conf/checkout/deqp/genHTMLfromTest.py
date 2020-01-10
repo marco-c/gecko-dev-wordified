@@ -24,6 +24,7 @@ TEST_LIST_FILE
 .
 txt
 '
+;
 TEMPLATE
 =
 '
@@ -31,6 +32,7 @@ template
 .
 html
 '
+;
 def
 genHTML
 (
@@ -59,6 +61,7 @@ test
 "
 template
 )
+;
 	
 filename
 =
@@ -68,15 +71,15 @@ test
 .
 html
 '
+;
 	
 print
-(
 "
 Generating
 "
 +
 filename
-)
+;
 	
 with
 open
@@ -101,9 +104,11 @@ write
 (
 contents
 )
+;
 	
 return
 filename
+;
 def
 process_test_files
 (
@@ -115,6 +120,7 @@ generated
 =
 [
 ]
+;
 	
 files
 =
@@ -128,6 +134,7 @@ getcwd
 (
 )
 )
+;
 	
 for
 file
@@ -157,6 +164,7 @@ test
 '
 file
 )
+;
 		
 if
 found
@@ -177,9 +185,11 @@ group
 )
 )
 )
+;
 	
 return
 generated
+;
 def
 readTemplate
 (
@@ -189,6 +199,7 @@ readTemplate
 contents
 =
 None
+;
 	
 with
 open
@@ -209,14 +220,17 @@ f
 read
 (
 )
+;
 	
 return
 contents
+;
 template
 =
 readTemplate
 (
 )
+;
 if
 (
 template
@@ -229,15 +243,15 @@ process_test_files
 (
 template
 )
+;
 	
 print
-(
 "
 Generating
 "
 +
 TEST_LIST_FILE
-)
+;
 	
 with
 open
@@ -268,11 +282,11 @@ item
 n
 '
 )
+;
 else
 :
 	
 print
-(
 "
 Couldn
 '
@@ -282,5 +296,6 @@ template
 file
 :
 "
++
 TEMPLATE
-)
+;
