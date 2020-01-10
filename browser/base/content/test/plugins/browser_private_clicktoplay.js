@@ -1015,7 +1015,7 @@ firstElementChild
 secondaryButton
 .
 hidden
-false
+true
 "
 Test
 2c
@@ -1026,6 +1026,7 @@ a
 private
 window
 should
+not
 have
 visible
 '
