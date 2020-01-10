@@ -27696,6 +27696,7 @@ continue
 }
 if
 (
+!
 SweepZonesInSameGroup
 (
 debuggerZone
