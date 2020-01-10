@@ -2175,6 +2175,13 @@ const
 uint8_t
 *
 aContentType
+const
+uint16_t
+*
+aBaseDomainAccessCount
+const
+uint32_t
+aTelemetryReportID
 )
 ;
 static

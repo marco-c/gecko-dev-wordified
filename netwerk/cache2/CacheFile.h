@@ -581,6 +581,13 @@ aContentType
 )
 ;
 nsresult
+AddBaseDomainAccess
+(
+uint32_t
+aSiteID
+)
+;
+nsresult
 GetOnStartTime
 (
 uint64_t
