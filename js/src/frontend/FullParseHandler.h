@@ -4597,6 +4597,17 @@ pos
 MOZ_ASSERT_IF
 (
 expr
+&
+&
+sourceKind
+(
+)
+=
+=
+SourceKind
+:
+:
+Text
 pos
 .
 encloses
