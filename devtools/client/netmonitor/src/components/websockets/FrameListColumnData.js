@@ -154,7 +154,7 @@ utils
 Renders
 the
 "
-Payload
+Data
 "
 column
 of
@@ -165,7 +165,7 @@ frame
 *
 /
 class
-FrameListColumnPayload
+FrameListColumnData
 extends
 Component
 {
@@ -369,5 +369,5 @@ module
 .
 exports
 =
-FrameListColumnPayload
+FrameListColumnData
 ;
