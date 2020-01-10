@@ -375,6 +375,9 @@ bool
 disableOptimizationLevels
 ;
 bool
+baselineInterpreter
+;
+bool
 forceInlineCaches
 ;
 bool
@@ -420,6 +423,9 @@ enableWasmFuncCallSpew
 ;
 #
 endif
+uint32_t
+baselineInterpreterWarmUpThreshold
+;
 uint32_t
 baselineWarmUpThreshold
 ;

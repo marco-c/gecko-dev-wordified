@@ -5724,9 +5724,8 @@ ensureExecutionObservabilityOfOsrFrame
 JSContext
 *
 cx
-InterpreterFrame
-*
-frame
+AbstractFramePtr
+osrSourceFrame
 )
 ;
 /
