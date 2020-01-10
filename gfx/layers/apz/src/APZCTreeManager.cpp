@@ -16870,10 +16870,6 @@ aEndPoint
 OverscrollHandoffState
 &
 aOverscrollHandoffState
-const
-TimeStamp
-&
-aTimeStamp
 )
 {
 const
@@ -17066,7 +17062,6 @@ AttemptScroll
 aStartPoint
 aEndPoint
 aOverscrollHandoffState
-aTimeStamp
 )
 )
 {
