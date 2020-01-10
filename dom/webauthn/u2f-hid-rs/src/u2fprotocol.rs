@@ -84,7 +84,7 @@ rand
 :
 {
 thread_rng
-RngCore
+Rng
 }
 ;
 use
@@ -2211,7 +2211,7 @@ rand
 :
 {
 thread_rng
-RngCore
+Rng
 }
 ;
 use

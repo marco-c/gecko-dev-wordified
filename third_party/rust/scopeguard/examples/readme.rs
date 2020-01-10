@@ -127,7 +127,7 @@ guard
 itself
 file
 .
-write_all
+write
 (
 b
 "
