@@ -1254,6 +1254,16 @@ verify
 headless
 "
 :
+kwargs
+.
+get
+(
+"
+headless
+"
+False
+)
+or
 "
 MOZ_HEADLESS
 "
