@@ -791,6 +791,10 @@ AllocPolicy
 :
 map
 (
+a
+)
+nurseryEntries
+(
 std
 :
 :
@@ -824,6 +828,11 @@ length
 :
 map
 (
+a
+length
+)
+nurseryEntries
+(
 std
 :
 :
@@ -831,7 +840,6 @@ move
 (
 a
 )
-length
 )
 {
 }
