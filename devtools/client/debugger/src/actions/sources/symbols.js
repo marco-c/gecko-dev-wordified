@@ -259,9 +259,6 @@ framework
 )
 ;
 }
-return
-symbols
-;
 }
 type
 Args
