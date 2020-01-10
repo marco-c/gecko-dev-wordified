@@ -1909,10 +1909,10 @@ ElfSection
 (
 )
 {
-delete
-[
-]
+free
+(
 data
+)
 ;
 }
 const
