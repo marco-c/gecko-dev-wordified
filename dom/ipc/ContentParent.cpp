@@ -12583,7 +12583,7 @@ repoDir
 ;
 rv
 =
-mozilla
+nsMacUtilsImpl
 :
 :
 GetRepoDir
@@ -12652,7 +12652,7 @@ objDir
 ;
 rv
 =
-mozilla
+nsMacUtilsImpl
 :
 :
 GetObjDir
