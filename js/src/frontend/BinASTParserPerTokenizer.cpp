@@ -2083,6 +2083,7 @@ funbox
 >
 initFromLazyFunction
 (
+fun
 )
 ;
 }

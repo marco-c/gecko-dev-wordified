@@ -1165,16 +1165,11 @@ FunctionBox
 :
 initFromLazyFunction
 (
-)
-{
 JSFunction
 *
 fun
-=
-function
-(
 )
-;
+{
 if
 (
 fun

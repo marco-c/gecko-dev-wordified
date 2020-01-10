@@ -2912,6 +2912,9 @@ extraVarScopeBindings_
 void
 initFromLazyFunction
 (
+JSFunction
+*
+fun
 )
 ;
 void
