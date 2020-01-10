@@ -394,6 +394,10 @@ LaunchPhase
 :
 Complete
 ;
+mPrefSerializer
+=
+nullptr
+;
 return
 false
 ;
