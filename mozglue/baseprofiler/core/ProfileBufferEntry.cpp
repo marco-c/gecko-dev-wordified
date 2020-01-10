@@ -2168,6 +2168,9 @@ COLUMN
 CATEGORY
 =
 6
+SUBCATEGORY
+=
+7
 }
 ;
 AutoArraySchemaWriter
@@ -2299,6 +2302,16 @@ info
 .
 mCategory
 )
+)
+;
+writer
+.
+IntElement
+(
+SUBCATEGORY
+info
+.
+mSubcategoryIndex
 )
 ;
 }
