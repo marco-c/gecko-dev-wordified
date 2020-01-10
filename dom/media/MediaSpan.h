@@ -724,6 +724,7 @@ Elements
 Length
 (
 )
+fallible
 )
 |
 |
@@ -735,6 +736,7 @@ AppendElements
 (
 *
 aBuffer
+fallible
 )
 )
 {
@@ -770,6 +772,7 @@ AppendElements
 (
 *
 aBuffer
+fallible
 )
 )
 {
