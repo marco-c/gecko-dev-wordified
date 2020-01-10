@@ -399,11 +399,8 @@ Shutdown
 )
 ;
 void
-MigrateTo
+Migrated
 (
-PBackgroundChild
-*
-aManager
 )
 ;
 private
@@ -411,14 +408,6 @@ private
 ~
 IPCBlobInputStreamChild
 (
-)
-;
-void
-MigratedFrom
-(
-IPCBlobInputStreamChild
-*
-aOldActor
 )
 ;
 /
