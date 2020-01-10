@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsIPresShellInlines_h
+mozilla_PresShellInlines_h
 #
 define
-nsIPresShellInlines_h
+mozilla_PresShellInlines_h
 #
 include
 "
@@ -151,8 +151,11 @@ Element
 .
 h
 "
+namespace
+mozilla
+{
 void
-nsIPresShell
+PresShell
 :
 :
 SetNeedLayoutFlush
@@ -165,9 +168,6 @@ true
 ;
 if
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -185,12 +185,9 @@ GetDisplayDocument
 {
 if
 (
-mozilla
-:
-:
 PresShell
 *
-shell
+presShell
 =
 doc
 -
@@ -200,7 +197,7 @@ GetPresShell
 )
 )
 {
-shell
+presShell
 -
 >
 mNeedLayoutFlush
@@ -229,7 +226,7 @@ profiler_get_backtrace
 endif
 }
 void
-nsIPresShell
+PresShell
 :
 :
 SetNeedStyleFlush
@@ -242,9 +239,6 @@ true
 ;
 if
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -262,9 +256,6 @@ GetDisplayDocument
 {
 if
 (
-mozilla
-:
-:
 PresShell
 *
 presShell
@@ -306,7 +297,7 @@ profiler_get_backtrace
 endif
 }
 void
-nsIPresShell
+PresShell
 :
 :
 EnsureStyleFlush
@@ -323,7 +314,7 @@ ObserveStyleFlushes
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 SetNeedThrottledAnimationFlush
@@ -336,9 +327,6 @@ true
 ;
 if
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -356,9 +344,6 @@ GetDisplayDocument
 {
 if
 (
-mozilla
-:
-:
 PresShell
 *
 presShell
@@ -381,12 +366,9 @@ true
 }
 }
 }
-mozilla
-:
-:
 ServoStyleSet
 *
-nsIPresShell
+PresShell
 :
 :
 StyleSet
@@ -403,9 +385,6 @@ StyleSetForPresShellOrMediaQueryEvaluation
 )
 ;
 }
-namespace
-mozilla
-{
 /
 *
 static
@@ -457,4 +436,4 @@ mozilla
 endif
 /
 /
-nsIPresShellInlines_h
+mozilla_PresShellInlines_h

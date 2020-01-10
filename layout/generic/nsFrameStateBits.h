@@ -1067,7 +1067,7 @@ frame
 to
 /
 /
-nsIPresShell
+PresShell
 :
 :
 FrameNeedsReflow
@@ -1353,7 +1353,7 @@ frame
 to
 /
 /
-nsIPresShell
+PresShell
 :
 :
 FrameNeedsReflow
