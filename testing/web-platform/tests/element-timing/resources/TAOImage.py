@@ -492,7 +492,7 @@ dirname
 __file__
 )
 "
-square20
+square100
 .
 png
 "
