@@ -160,11 +160,7 @@ obj
 js
 :
 :
-WeakRef
-<
-JSObject
-*
->
+WeakHeapPtrObject
 weak
 ;
 void

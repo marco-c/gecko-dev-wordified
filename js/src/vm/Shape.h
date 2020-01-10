@@ -5341,7 +5341,7 @@ StackBaseShape
 public
 DefaultHasher
 <
-ReadBarriered
+WeakHeapPtr
 <
 UnownedBaseShape
 *
@@ -5482,7 +5482,7 @@ explicit
 Lookup
 (
 const
-ReadBarriered
+WeakHeapPtr
 <
 UnownedBaseShape
 *
@@ -5567,7 +5567,7 @@ bool
 match
 (
 const
-ReadBarriered
+WeakHeapPtr
 <
 UnownedBaseShape
 *
@@ -5788,7 +5788,7 @@ JS
 :
 GCHashSet
 <
-ReadBarriered
+WeakHeapPtr
 <
 UnownedBaseShape
 *
@@ -9799,7 +9799,7 @@ properties
 .
 *
 /
-ReadBarriered
+WeakHeapPtr
 <
 Shape
 *
@@ -9837,7 +9837,7 @@ itself
 .
 *
 /
-ReadBarriered
+WeakHeapPtr
 <
 TaggedProto
 >

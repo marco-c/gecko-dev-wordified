@@ -18144,7 +18144,7 @@ missingEnvs
 put
 (
 key
-ReadBarriered
+WeakHeapPtr
 <
 DebugEnvironmentProxy
 *

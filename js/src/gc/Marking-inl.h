@@ -1071,7 +1071,7 @@ void
 CheckGCThingAfterMovingGC
 (
 const
-ReadBarriered
+WeakHeapPtr
 <
 T
 *

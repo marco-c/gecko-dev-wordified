@@ -1750,7 +1750,7 @@ WeakCache
 GCHashMap
 <
 uint32_t
-ReadBarriered
+WeakHeapPtr
 <
 WasmFunctionScope
 *
@@ -2145,10 +2145,10 @@ WeakCache
 <
 GCHashSet
 <
-ReadBarrieredWasmInstanceObject
+WeakHeapPtrWasmInstanceObject
 MovableCellHasher
 <
-ReadBarrieredWasmInstanceObject
+WeakHeapPtrWasmInstanceObject
 >
 SystemAllocPolicy
 >

@@ -379,7 +379,7 @@ Realm
 const
 realm_
 ;
-ReadBarrieredWasmInstanceObject
+WeakHeapPtrWasmInstanceObject
 object_
 ;
 void

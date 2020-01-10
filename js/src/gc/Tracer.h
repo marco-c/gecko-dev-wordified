@@ -1001,7 +1001,7 @@ TraceEdge
 JSTracer
 *
 trc
-WriteBarrieredBase
+WriteBarriered
 <
 T
 >
@@ -1047,7 +1047,7 @@ TraceEdge
 JSTracer
 *
 trc
-ReadBarriered
+WeakHeapPtr
 <
 T
 >
@@ -1114,7 +1114,7 @@ TraceNullableEdge
 JSTracer
 *
 trc
-WriteBarrieredBase
+WriteBarriered
 <
 T
 >
@@ -1166,7 +1166,7 @@ TraceNullableEdge
 JSTracer
 *
 trc
-ReadBarriered
+WeakHeapPtr
 <
 T
 >
@@ -1306,7 +1306,7 @@ TraceRoot
 JSTracer
 *
 trc
-ReadBarriered
+WeakHeapPtr
 <
 T
 >
@@ -1427,7 +1427,7 @@ TraceNullableRoot
 JSTracer
 *
 trc
-ReadBarriered
+WeakHeapPtr
 <
 T
 >
@@ -1599,7 +1599,7 @@ TraceWeakEdge
 JSTracer
 *
 trc
-WeakRef
+WeakHeapPtr
 <
 T
 >
@@ -1657,7 +1657,7 @@ JSTracer
 trc
 size_t
 len
-WriteBarrieredBase
+WriteBarriered
 <
 T
 >
@@ -1795,7 +1795,7 @@ trc
 JSObject
 *
 src
-WriteBarrieredBase
+WriteBarriered
 <
 Value
 >

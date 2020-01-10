@@ -2808,7 +2808,7 @@ ObjectGroupRealm
 :
 NewEntry
 {
-ReadBarrieredObjectGroup
+WeakHeapPtrObjectGroup
 group
 ;
 /
@@ -7852,10 +7852,10 @@ ObjectGroupRealm
 :
 PlainObjectEntry
 {
-ReadBarrieredObjectGroup
+WeakHeapPtrObjectGroup
 group
 ;
-ReadBarrieredShape
+WeakHeapPtrShape
 shape
 ;
 TypeSet
@@ -9630,7 +9630,7 @@ DefaultHasher
 AllocationSiteKey
 >
 {
-ReadBarrieredScript
+WeakHeapPtrScript
 script
 ;
 uint32_t
@@ -9643,7 +9643,7 @@ kind
 :
 8
 ;
-ReadBarrieredObject
+WeakHeapPtrObject
 proto
 ;
 static
@@ -10128,7 +10128,7 @@ js
 GCHashMap
 <
 AllocationSiteKey
-ReadBarrieredObjectGroup
+WeakHeapPtrObjectGroup
 AllocationSiteKey
 SystemAllocPolicy
 >
@@ -10143,7 +10143,7 @@ js
 GCHashMap
 <
 AllocationSiteKey
-ReadBarrieredObjectGroup
+WeakHeapPtrObjectGroup
 AllocationSiteKey
 SystemAllocPolicy
 >
@@ -12652,7 +12652,7 @@ JS
 :
 GCPolicy
 <
-ReadBarrieredObjectGroup
+WeakHeapPtrObjectGroup
 >
 :
 :

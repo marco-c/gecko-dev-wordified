@@ -19911,11 +19911,7 @@ pointers
 to
 it
 .
-WeakRef
-<
-JSScript
-*
->
+WeakHeapPtrScript
 script_
 ;
 /

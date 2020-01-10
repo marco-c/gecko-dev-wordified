@@ -2572,7 +2572,7 @@ stubsToBarrier
 )
 ;
 const
-ReadBarrieredJitCode
+WeakHeapPtrJitCode
 &
 jitCode
 =
@@ -3816,7 +3816,7 @@ sweep
 ;
 for
 (
-ReadBarrieredJitCode
+WeakHeapPtrJitCode
 &
 stub
 :

@@ -607,7 +607,7 @@ IsMarked
 JSRuntime
 *
 rt
-WriteBarrieredBase
+WriteBarriered
 <
 T
 >
@@ -695,7 +695,7 @@ IsMarkedBlack
 JSRuntime
 *
 rt
-WriteBarrieredBase
+WriteBarriered
 <
 T
 >
@@ -752,7 +752,7 @@ inline
 bool
 IsAboutToBeFinalized
 (
-WriteBarrieredBase
+WriteBarriered
 <
 T
 >
@@ -784,7 +784,7 @@ inline
 bool
 IsAboutToBeFinalized
 (
-ReadBarrieredBase
+ReadBarriered
 <
 T
 >
@@ -1167,7 +1167,7 @@ void
 CheckGCThingAfterMovingGC
 (
 const
-ReadBarriered
+WeakHeapPtr
 <
 T
 *

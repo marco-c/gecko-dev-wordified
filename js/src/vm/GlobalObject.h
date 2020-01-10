@@ -5011,7 +5011,7 @@ Vector
 js
 :
 :
-ReadBarriered
+WeakHeapPtr
 <
 js
 :

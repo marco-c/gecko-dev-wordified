@@ -12508,7 +12508,7 @@ mozilla
 :
 DebugOnly
 <
-ReadBarriered
+WeakHeapPtr
 <
 Debugger
 *

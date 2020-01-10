@@ -3338,7 +3338,7 @@ js
 GCRekeyableHashMap
 <
 ArrayObjectKey
-ReadBarrieredObjectGroup
+WeakHeapPtrObjectGroup
 ArrayObjectKey
 SystemAllocPolicy
 >
@@ -3734,7 +3734,7 @@ call
 site
 pc
 .
-ReadBarrieredObjectGroup
+WeakHeapPtrObjectGroup
 stringSplitStringGroup
 =
 {

@@ -6448,7 +6448,7 @@ typedef
 HashMap
 <
 MissingEnvironmentKey
-ReadBarrieredDebugEnvironmentProxy
+WeakHeapPtrDebugEnvironmentProxy
 MissingEnvironmentKey
 ZoneAllocPolicy
 >
@@ -6532,7 +6532,7 @@ environments
 typedef
 GCHashMap
 <
-ReadBarriered
+WeakHeapPtr
 <
 JSObject
 *
@@ -6540,7 +6540,7 @@ JSObject
 LiveEnvironmentVal
 MovableCellHasher
 <
-ReadBarriered
+WeakHeapPtr
 <
 JSObject
 *

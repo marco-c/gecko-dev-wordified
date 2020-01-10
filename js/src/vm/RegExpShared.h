@@ -569,7 +569,7 @@ RegExpZone
 struct
 RegExpCompilation
 {
-ReadBarriered
+WeakHeapPtr
 <
 jit
 :
@@ -1347,7 +1347,7 @@ MOZ_IMPLICIT
 Key
 (
 const
-ReadBarriered
+WeakHeapPtr
 <
 RegExpShared
 *
@@ -1510,7 +1510,7 @@ JS
 :
 GCHashSet
 <
-ReadBarriered
+WeakHeapPtr
 <
 RegExpShared
 *
@@ -1729,7 +1729,7 @@ faster
 .
 *
 /
-ReadBarriered
+WeakHeapPtr
 <
 ArrayObject
 *
@@ -1856,7 +1856,7 @@ data
 property
 *
 /
-ReadBarriered
+WeakHeapPtr
 <
 Shape
 *
@@ -1889,7 +1889,7 @@ RegExp
 prototype
 *
 /
-ReadBarriered
+WeakHeapPtr
 <
 Shape
 *

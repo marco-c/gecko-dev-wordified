@@ -154,7 +154,7 @@ T
 extractUnbarriered
 (
 const
-WriteBarrieredBase
+WriteBarriered
 <
 T
 >

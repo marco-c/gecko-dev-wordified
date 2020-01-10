@@ -624,10 +624,10 @@ WasmInstanceObject
 typedef
 HashSet
 <
-ReadBarrieredGlobalObject
+WeakHeapPtrGlobalObject
 MovableCellHasher
 <
-ReadBarrieredGlobalObject
+WeakHeapPtrGlobalObject
 >
 ZoneAllocPolicy
 >
@@ -2897,7 +2897,7 @@ so
 we
 can
 have
-ReadBarriered
+WeakHeapPtr
 <
 Debugger
 *
@@ -13788,7 +13788,7 @@ global
 )
 const
 {
-ReadBarriered
+WeakHeapPtr
 <
 GlobalObject
 *
