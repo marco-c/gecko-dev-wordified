@@ -1193,6 +1193,14 @@ const
 nsACString
 &
 password
+const
+nsACString
+&
+aProxyAuthorizationHeader
+const
+nsACString
+&
+aConnectionIsolationKey
 uint32_t
 flags
 uint32_t

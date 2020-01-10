@@ -6356,6 +6356,12 @@ NewProxyInfo
 type
 host
 port
+EmptyCString
+(
+)
+EmptyCString
+(
+)
 flags
 UINT32_MAX
 nullptr
