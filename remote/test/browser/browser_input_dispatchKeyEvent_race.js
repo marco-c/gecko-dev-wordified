@@ -254,7 +254,7 @@ different
 processes
 .
 const
-PAGE_URI
+PAGE_URL
 =
 "
 http
@@ -292,9 +292,9 @@ tab
 }
 =
 await
-setupTestForUri
+setupForURL
 (
-PAGE_URI
+PAGE_URL
 )
 ;
 is
