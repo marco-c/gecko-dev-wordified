@@ -376,15 +376,7 @@ getAttributes
 (
 item
 .
-querySelector
-(
-"
-.
-addon
--
-name
-"
-)
+addonNameEl
 )
 ;
 if
