@@ -239,13 +239,6 @@ _set_invalid_parameter_handler
 *
 /
 #
-include
-"
-prinit
-.
-h
-"
-#
 endif
 #
 ifdef
