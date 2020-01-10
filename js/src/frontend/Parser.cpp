@@ -41378,7 +41378,7 @@ dotFieldKeys
 DeclarationKind
 :
 :
-Var
+Let
 namePos
 )
 )
