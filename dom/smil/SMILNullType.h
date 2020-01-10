@@ -349,8 +349,9 @@ constexpr
 SMILNullType
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

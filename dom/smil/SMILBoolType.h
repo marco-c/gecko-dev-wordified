@@ -329,8 +329,9 @@ constexpr
 SMILBoolType
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

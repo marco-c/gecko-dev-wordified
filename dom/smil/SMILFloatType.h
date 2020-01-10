@@ -329,8 +329,9 @@ constexpr
 SMILFloatType
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

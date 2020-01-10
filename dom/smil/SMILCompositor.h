@@ -387,12 +387,6 @@ false
 )
 {
 }
-~
-SMILCompositor
-(
-)
-{
-}
 /
 /
 PLDHashEntryHdr
