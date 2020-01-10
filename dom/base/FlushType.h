@@ -192,8 +192,6 @@ FlushType
 uint8_t
 {
 None
-=
-0
 /
 *
 Actually
@@ -205,8 +203,6 @@ anything
 *
 /
 Event
-=
-1
 /
 *
 Flush
@@ -219,8 +215,6 @@ observers
 *
 /
 Content
-=
-2
 /
 *
 flush
@@ -231,8 +225,6 @@ construction
 *
 /
 ContentAndNotify
-=
-3
 /
 *
 As
@@ -251,8 +243,6 @@ notifications
 *
 /
 Style
-=
-4
 /
 *
 As
@@ -264,11 +254,17 @@ reresolution
 *
 /
 Frames
-=
-Style
+/
+*
+As
+above
+plus
+flush
+frame
+construction
+*
+/
 EnsurePresShellInitAndFrames
-=
-5
 /
 *
 As
@@ -283,8 +279,6 @@ alive
 *
 /
 InterruptibleLayout
-=
-6
 /
 *
 As
@@ -309,8 +303,6 @@ result
 *
 /
 Layout
-=
-7
 /
 *
 As
@@ -324,8 +316,6 @@ completion
 *
 /
 Display
-=
-8
 /
 *
 As
