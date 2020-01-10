@@ -294,6 +294,10 @@ initial
 other
 )
 {
+if
+(
+initial
+)
 assert_initial
 (
 property
