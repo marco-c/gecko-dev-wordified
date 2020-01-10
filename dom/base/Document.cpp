@@ -43647,13 +43647,6 @@ defined
 (
 DEBUG
 )
-&
-&
-!
-defined
-(
-ANDROID
-)
 /
 /
 only
