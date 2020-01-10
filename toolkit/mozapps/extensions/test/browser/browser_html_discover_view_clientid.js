@@ -430,6 +430,8 @@ extensions
 .
 htmlaboutaddons
 .
+discover
+.
 enabled
 "
 true
