@@ -215,7 +215,7 @@ JS_PUBLIC_API
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 .

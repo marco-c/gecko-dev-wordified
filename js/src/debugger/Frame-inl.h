@@ -110,14 +110,14 @@ MPL
 /
 #
 ifndef
-dbg_Frame_inl_h
+debugger_Frame_inl_h
 #
 define
-dbg_Frame_inl_h
+debugger_Frame_inl_h
 #
 include
 "
-dbg
+debugger
 /
 Frame
 .
@@ -206,6 +206,6 @@ toPrivate
 endif
 /
 *
-dbg_Frame_inl_h
+debugger_Frame_inl_h
 *
 /

@@ -110,14 +110,14 @@ MPL
 /
 #
 ifndef
-dbg_Environment_inl_h
+debugger_Environment_inl_h
 #
 define
-dbg_Environment_inl_h
+debugger_Environment_inl_h
 #
 include
 "
-dbg
+debugger
 /
 Environment
 .
@@ -126,7 +126,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 -
@@ -179,6 +179,6 @@ dbgobj
 endif
 /
 *
-dbg_Environment_inl_h
+debugger_Environment_inl_h
 *
 /

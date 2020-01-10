@@ -111,7 +111,7 @@ MPL
 #
 include
 "
-dbg
+debugger
 /
 Environment
 -
@@ -131,7 +131,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 .
@@ -140,7 +140,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Object
 .

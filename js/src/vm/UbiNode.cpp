@@ -161,7 +161,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 .
@@ -332,7 +332,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 -

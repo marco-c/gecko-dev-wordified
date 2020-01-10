@@ -158,7 +158,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 .

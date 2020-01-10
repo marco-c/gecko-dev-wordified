@@ -117,7 +117,7 @@ jit_BaselineDebugModeOSR_h
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 .

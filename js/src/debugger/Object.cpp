@@ -111,7 +111,7 @@ MPL
 #
 include
 "
-dbg
+debugger
 /
 Object
 -
@@ -122,7 +122,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 NoExecute
 .
@@ -131,7 +131,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Script
 .
@@ -167,7 +167,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 -

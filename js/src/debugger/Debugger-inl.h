@@ -110,14 +110,14 @@ MPL
 /
 #
 ifndef
-dbg_Debugger_inl_h
+debugger_Debugger_inl_h
 #
 define
-dbg_Debugger_inl_h
+debugger_Debugger_inl_h
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 .
@@ -908,6 +908,6 @@ promise
 endif
 /
 *
-dbg_Debugger_inl_h
+debugger_Debugger_inl_h
 *
 /

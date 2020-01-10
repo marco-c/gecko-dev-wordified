@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-dbg_Object_h
+debugger_Object_h
 #
 define
-dbg_Object_h
+debugger_Object_h
 #
 include
 "
@@ -169,7 +169,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 .
@@ -2015,6 +2015,6 @@ js
 endif
 /
 *
-dbg_Object_h
+debugger_Object_h
 *
 /

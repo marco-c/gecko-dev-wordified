@@ -110,14 +110,14 @@ MPL
 /
 #
 ifndef
-dbg_Object_inl_h
+debugger_Object_inl_h
 #
 define
-dbg_Object_inl_h
+debugger_Object_inl_h
 #
 include
 "
-dbg
+debugger
 /
 Object
 .
@@ -251,6 +251,6 @@ PromiseObject
 endif
 /
 *
-dbg_Object_inl_h
+debugger_Object_inl_h
 *
 /

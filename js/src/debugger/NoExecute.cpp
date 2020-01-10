@@ -111,7 +111,7 @@ MPL
 #
 include
 "
-dbg
+debugger
 /
 NoExecute
 .

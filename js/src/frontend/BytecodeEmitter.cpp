@@ -291,7 +291,7 @@ Min
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 .

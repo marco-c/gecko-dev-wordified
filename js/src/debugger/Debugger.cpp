@@ -111,7 +111,7 @@ MPL
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 -
@@ -186,7 +186,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 DebuggerMemory
 .
@@ -195,7 +195,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Environment
 .
@@ -204,7 +204,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Frame
 .
@@ -213,7 +213,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 NoExecute
 .
@@ -222,7 +222,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Object
 .
@@ -231,7 +231,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Script
 .
@@ -510,7 +510,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Frame
 -
@@ -521,7 +521,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Script
 -
