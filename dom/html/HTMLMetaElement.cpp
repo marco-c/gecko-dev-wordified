@@ -358,12 +358,8 @@ if
 headElt
 &
 &
-nsContentUtils
-:
-:
-ContentIsDescendantOf
+IsInclusiveDescendantOf
 (
-this
 headElt
 )
 )
@@ -702,12 +698,8 @@ if
 headElt
 &
 &
-nsContentUtils
-:
-:
-ContentIsDescendantOf
+IsInclusiveDescendantOf
 (
-this
 headElt
 )
 )

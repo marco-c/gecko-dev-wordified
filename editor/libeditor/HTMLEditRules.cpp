@@ -47996,12 +47996,11 @@ tree
 if
 (
 !
-nsContentUtils
-:
-:
-ContentIsDescendantOf
-(
 host
+-
+>
+IsInclusiveDescendantOf
+(
 block
 )
 )

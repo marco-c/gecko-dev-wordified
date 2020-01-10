@@ -885,12 +885,11 @@ aScrollbar
 |
 |
 !
-nsContentUtils
-:
-:
-ContentIsDescendantOf
-(
 aTarget
+-
+>
+IsInclusiveDescendantOf
+(
 aScrollbar
 )
 )

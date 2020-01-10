@@ -5442,12 +5442,11 @@ node
 if
 (
 !
-nsContentUtils
-:
-:
-ContentIsDescendantOf
-(
 node
+-
+>
+IsInclusiveDescendantOf
+(
 mRootNode
 )
 )

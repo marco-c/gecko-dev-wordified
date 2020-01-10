@@ -6429,12 +6429,11 @@ if
 node
 &
 &
-nsContentUtils
-:
-:
-ContentIsDescendantOf
-(
 node
+-
+>
+IsInclusiveDescendantOf
+(
 aContent
 )
 )

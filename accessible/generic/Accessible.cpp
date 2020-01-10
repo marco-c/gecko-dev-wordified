@@ -17613,12 +17613,11 @@ activeDescendantElm
 {
 if
 (
-nsContentUtils
-:
-:
-ContentIsDescendantOf
-(
 mContent
+-
+>
+IsInclusiveDescendantOf
+(
 activeDescendantElm
 )
 )

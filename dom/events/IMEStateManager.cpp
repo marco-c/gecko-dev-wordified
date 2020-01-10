@@ -2524,12 +2524,11 @@ sContent
 |
 |
 !
-nsContentUtils
-:
-:
-ContentIsDescendantOf
-(
 sContent
+-
+>
+IsInclusiveDescendantOf
+(
 aContent
 )
 )

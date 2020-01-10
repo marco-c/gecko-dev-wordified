@@ -5533,12 +5533,11 @@ GetContent
 ;
 if
 (
-nsContentUtils
-:
-:
-ContentIsDescendantOf
-(
 caretContent
+-
+>
+IsInclusiveDescendantOf
+(
 popupContent
 )
 )

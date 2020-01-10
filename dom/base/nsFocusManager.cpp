@@ -18574,7 +18574,7 @@ and
 the
 /
 /
-ContentIsDescendantOf
+IsInclusiveDescendantOf
 check
 will
 return
@@ -18606,12 +18606,11 @@ startContent
 )
 &
 &
-nsContentUtils
-:
-:
-ContentIsDescendantOf
-(
 startContent
+-
+>
+IsInclusiveDescendantOf
+(
 retargetElement
 )
 )

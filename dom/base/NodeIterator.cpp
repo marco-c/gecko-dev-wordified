@@ -407,12 +407,11 @@ removed
 if
 (
 !
-nsContentUtils
-:
-:
-ContentIsDescendantOf
-(
 mNode
+-
+>
+IsInclusiveDescendantOf
+(
 aChild
 )
 )

@@ -3420,12 +3420,11 @@ parent
 |
 |
 !
-nsContentUtils
-:
-:
-ContentIsDescendantOf
-(
 parent
+-
+>
+IsInclusiveDescendantOf
+(
 this
 )
 )
