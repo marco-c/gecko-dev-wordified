@@ -353,7 +353,7 @@ default
 Keep
 the
 last
-ParsedFrames
+TotalFrames
 and
 DroppedFrames
 from
@@ -409,7 +409,7 @@ last
 call
 .
 uint64_t
-mLastParsedFrames
+mLastTotalFrames
 =
 0
 ;
