@@ -6681,7 +6681,7 @@ if
 cbp
 )
 {
-InfallibleTArray
+nsTArray
 <
 wr
 :
