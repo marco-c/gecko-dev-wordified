@@ -96,11 +96,6 @@ evaluateJSAsync
 "
 boolean
 "
-selectedObjectActor
-:
-"
-boolean
-"
 }
 )
 ;

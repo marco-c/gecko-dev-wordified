@@ -1184,13 +1184,6 @@ this
 traits
 =
 {
-selectedObjectActor
-:
-true
-/
-/
-44
-+
 }
 ;
 if
