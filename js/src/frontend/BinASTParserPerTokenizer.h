@@ -2049,6 +2049,13 @@ usedNames_
 newDirectives
 /
 *
+treeHolder
+=
+*
+/
+nullptr
+/
+*
 isFull
 =
 *
