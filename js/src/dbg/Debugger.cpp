@@ -40342,7 +40342,10 @@ nullptr
 ;
 }
 class
-DebuggerScriptSetPrivateMatcher
+DebuggerScript
+:
+:
+SetPrivateMatcher
 {
 DebuggerScript
 *
@@ -40351,7 +40354,7 @@ obj_
 public
 :
 explicit
-DebuggerScriptSetPrivateMatcher
+SetPrivateMatcher
 (
 DebuggerScript
 *
@@ -40493,7 +40496,7 @@ debugger
 )
 )
 ;
-DebuggerScriptSetPrivateMatcher
+SetPrivateMatcher
 matcher
 (
 scriptobj
@@ -42817,7 +42820,10 @@ lazyScript
 ;
 }
 struct
-DebuggerScriptGetStartLineMatcher
+DebuggerScript
+:
+:
+GetStartLineMatcher
 {
 using
 ReturnType
@@ -42914,7 +42920,7 @@ obj
 referent
 )
 ;
-DebuggerScriptGetStartLineMatcher
+GetStartLineMatcher
 matcher
 ;
 args
@@ -42938,7 +42944,10 @@ true
 ;
 }
 struct
-DebuggerScriptGetLineCountMatcher
+DebuggerScript
+:
+:
+GetLineCountMatcher
 {
 JSContext
 *
@@ -42948,7 +42957,7 @@ double
 totalLines
 ;
 explicit
-DebuggerScriptGetLineCountMatcher
+GetLineCountMatcher
 (
 JSContext
 *
@@ -43136,7 +43145,7 @@ obj
 referent
 )
 ;
-DebuggerScriptGetLineCountMatcher
+GetLineCountMatcher
 matcher
 (
 cx
@@ -43175,7 +43184,10 @@ true
 ;
 }
 class
-DebuggerScriptGetSourceMatcher
+DebuggerScript
+:
+:
+GetSourceMatcher
 {
 JSContext
 *
@@ -43187,7 +43199,7 @@ dbg_
 ;
 public
 :
-DebuggerScriptGetSourceMatcher
+GetSourceMatcher
 (
 JSContext
 *
@@ -43405,7 +43417,7 @@ fromChildJSObject
 obj
 )
 ;
-DebuggerScriptGetSourceMatcher
+GetSourceMatcher
 matcher
 (
 cx
@@ -43742,7 +43754,10 @@ true
 ;
 }
 class
-DebuggerScriptGetFormatMatcher
+DebuggerScript
+:
+:
+GetFormatMatcher
 {
 const
 JSAtomState
@@ -43752,7 +43767,7 @@ names_
 public
 :
 explicit
-DebuggerScriptGetFormatMatcher
+GetFormatMatcher
 (
 const
 JSAtomState
@@ -43858,7 +43873,7 @@ obj
 referent
 )
 ;
-DebuggerScriptGetFormatMatcher
+GetFormatMatcher
 matcher
 (
 cx
@@ -44289,7 +44304,10 @@ bool
 OnlyOffsets
 >
 class
-DebuggerScriptGetPossibleBreakpointsMatcher
+DebuggerScript
+:
+:
+GetPossibleBreakpointsMatcher
 {
 JSContext
 *
@@ -44783,7 +44801,7 @@ true
 public
 :
 explicit
-DebuggerScriptGetPossibleBreakpointsMatcher
+GetPossibleBreakpointsMatcher
 (
 JSContext
 *
@@ -45914,7 +45932,7 @@ result
 cx
 )
 ;
-DebuggerScriptGetPossibleBreakpointsMatcher
+GetPossibleBreakpointsMatcher
 <
 false
 >
@@ -46053,7 +46071,7 @@ result
 cx
 )
 ;
-DebuggerScriptGetPossibleBreakpointsMatcher
+GetPossibleBreakpointsMatcher
 <
 true
 >
@@ -46153,7 +46171,10 @@ true
 ;
 }
 class
-DebuggerScriptGetOffsetMetadataMatcher
+DebuggerScript
+:
+:
+GetOffsetMetadataMatcher
 {
 JSContext
 *
@@ -46168,7 +46189,7 @@ result_
 public
 :
 explicit
-DebuggerScriptGetOffsetMetadataMatcher
+GetOffsetMetadataMatcher
 (
 JSContext
 *
@@ -46779,7 +46800,7 @@ result
 cx
 )
 ;
-DebuggerScriptGetOffsetMetadataMatcher
+GetOffsetMetadataMatcher
 matcher
 (
 cx
@@ -47969,7 +47990,10 @@ namespace
 *
 /
 class
-DebuggerScriptGetOffsetLocationMatcher
+DebuggerScript
+:
+:
+GetOffsetLocationMatcher
 {
 JSContext
 *
@@ -47984,7 +48008,7 @@ result_
 public
 :
 explicit
-DebuggerScriptGetOffsetLocationMatcher
+GetOffsetLocationMatcher
 (
 JSContext
 *
@@ -48827,7 +48851,7 @@ result
 cx
 )
 ;
-DebuggerScriptGetOffsetLocationMatcher
+GetOffsetLocationMatcher
 matcher
 (
 cx
@@ -48868,7 +48892,10 @@ true
 ;
 }
 class
-DebuggerScriptGetSuccessorOrPredecessorOffsetsMatcher
+DebuggerScript
+:
+:
+GetSuccessorOrPredecessorOffsetsMatcher
 {
 JSContext
 *
@@ -48885,7 +48912,7 @@ result_
 ;
 public
 :
-DebuggerScriptGetSuccessorOrPredecessorOffsetsMatcher
+GetSuccessorOrPredecessorOffsetsMatcher
 (
 JSContext
 *
@@ -49219,7 +49246,7 @@ result
 cx
 )
 ;
-DebuggerScriptGetSuccessorOrPredecessorOffsetsMatcher
+GetSuccessorOrPredecessorOffsetsMatcher
 matcher
 (
 cx
@@ -49789,7 +49816,10 @@ true
 ;
 }
 class
-DebuggerScriptGetAllColumnOffsetsMatcher
+DebuggerScript
+:
+:
+GetAllColumnOffsetsMatcher
 {
 JSContext
 *
@@ -49941,7 +49971,7 @@ entry
 public
 :
 explicit
-DebuggerScriptGetAllColumnOffsetsMatcher
+GetAllColumnOffsetsMatcher
 (
 JSContext
 *
@@ -50422,7 +50452,7 @@ result
 cx
 )
 ;
-DebuggerScriptGetAllColumnOffsetsMatcher
+GetAllColumnOffsetsMatcher
 matcher
 (
 cx
@@ -50462,7 +50492,10 @@ true
 ;
 }
 class
-DebuggerScriptGetLineOffsetsMatcher
+DebuggerScript
+:
+:
+GetLineOffsetsMatcher
 {
 JSContext
 *
@@ -50477,7 +50510,7 @@ result_
 public
 :
 explicit
-DebuggerScriptGetLineOffsetsMatcher
+GetLineOffsetsMatcher
 (
 JSContext
 *
@@ -51016,7 +51049,7 @@ result
 cx
 )
 ;
-DebuggerScriptGetLineOffsetsMatcher
+GetLineOffsetsMatcher
 matcher
 (
 cx
@@ -52837,7 +52870,10 @@ rval
 ;
 }
 struct
-DebuggerScriptSetBreakpointMatcher
+DebuggerScript
+:
+:
+SetBreakpointMatcher
 {
 JSContext
 *
@@ -52856,7 +52892,7 @@ handler_
 public
 :
 explicit
-DebuggerScriptSetBreakpointMatcher
+SetBreakpointMatcher
 (
 JSContext
 *
@@ -53476,7 +53512,7 @@ return
 false
 ;
 }
-DebuggerScriptSetBreakpointMatcher
+SetBreakpointMatcher
 matcher
 (
 cx
@@ -53809,7 +53845,10 @@ true
 ;
 }
 class
-DebuggerScriptClearBreakpointMatcher
+DebuggerScript
+:
+:
+ClearBreakpointMatcher
 {
 JSContext
 *
@@ -53825,7 +53864,7 @@ handler_
 ;
 public
 :
-DebuggerScriptClearBreakpointMatcher
+ClearBreakpointMatcher
 (
 JSContext
 *
@@ -54088,7 +54127,7 @@ return
 false
 ;
 }
-DebuggerScriptClearBreakpointMatcher
+ClearBreakpointMatcher
 matcher
 (
 cx
@@ -54171,7 +54210,7 @@ fromChildJSObject
 obj
 )
 ;
-DebuggerScriptClearBreakpointMatcher
+ClearBreakpointMatcher
 matcher
 (
 cx
@@ -54209,7 +54248,10 @@ true
 ;
 }
 class
-DebuggerScriptIsInCatchScopeMatcher
+DebuggerScript
+:
+:
+IsInCatchScopeMatcher
 {
 JSContext
 *
@@ -54224,7 +54266,7 @@ isInCatch_
 public
 :
 explicit
-DebuggerScriptIsInCatchScopeMatcher
+IsInCatchScopeMatcher
 (
 JSContext
 *
@@ -54485,7 +54527,7 @@ return
 false
 ;
 }
-DebuggerScriptIsInCatchScopeMatcher
+IsInCatchScopeMatcher
 matcher
 (
 cx
