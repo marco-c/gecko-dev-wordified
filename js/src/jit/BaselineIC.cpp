@@ -13349,7 +13349,7 @@ isBoolean
 )
 )
 ;
-TryAttachStubOld
+TryAttachStub
 <
 ToBoolIRGenerator
 >
