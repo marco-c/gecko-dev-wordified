@@ -171,7 +171,7 @@ colorAttachmentView
 =
 colorAttachment
 .
-createDefaultView
+createView
 (
 )
 ;
