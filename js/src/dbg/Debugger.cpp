@@ -59480,8 +59480,8 @@ DebuggerFrame
 initClass
 (
 cx
-debugCtor
 global
+debugCtor
 )
 ;
 if
@@ -59578,8 +59578,8 @@ DebuggerEnvironment
 initClass
 (
 cx
-debugCtor
 global
+debugCtor
 )
 ;
 if
