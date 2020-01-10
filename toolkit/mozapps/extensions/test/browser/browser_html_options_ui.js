@@ -2822,6 +2822,14 @@ version
 }
 )
 ;
+window
+.
+onload
+=
+(
+)
+=
+>
 browser
 .
 test
