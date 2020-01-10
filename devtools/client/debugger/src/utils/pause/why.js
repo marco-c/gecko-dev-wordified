@@ -162,6 +162,13 @@ whyPaused
 .
 eventBreakpoint
 "
+mutationBreakpoint
+:
+"
+whyPaused
+.
+mutationBreakpoint
+"
 /
 /
 V8
