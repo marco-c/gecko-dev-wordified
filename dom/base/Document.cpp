@@ -21569,7 +21569,7 @@ nsContentUtils
 StorageAccess
 :
 :
-ePartitionedOrDeny
+ePartitionTrackersOrDeny
 &
 &
 !
@@ -21898,7 +21898,7 @@ nsContentUtils
 StorageAccess
 :
 :
-ePartitionedOrDeny
+ePartitionTrackersOrDeny
 &
 &
 !
@@ -81342,7 +81342,7 @@ nsContentUtils
 StorageAccess
 :
 :
-ePartitionedOrDeny
+ePartitionTrackersOrDeny
 )
 {
 return
