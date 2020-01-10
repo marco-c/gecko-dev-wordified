@@ -155,7 +155,7 @@ prefsSchemaVersion
 .
 0
 .
-10
+9
 "
 ;
 const
@@ -1850,7 +1850,8 @@ listener
 -
 breakpoints
 "
-undefined
+[
+]
 ]
 }
 )
@@ -1897,12 +1898,6 @@ xhrBreakpoints
 =
 [
 ]
-;
-asyncStore
-.
-eventListenerBreakpoints
-=
-undefined
 ;
 prefs
 .
