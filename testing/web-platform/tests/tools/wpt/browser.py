@@ -5099,6 +5099,9 @@ chrome
 =
 Chrome
 (
+self
+.
+logger
 )
         
 return
