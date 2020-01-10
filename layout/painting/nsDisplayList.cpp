@@ -9002,6 +9002,10 @@ mCurrentAGR
 (
 mRootAGR
 )
+mBuildingExtraPagesForPageNum
+(
+0
+)
 mUsedAGRBudget
 (
 0
