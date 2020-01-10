@@ -2972,6 +2972,14 @@ subject
 =
 =
 doc
+&
+&
+doc
+-
+>
+IsTopLevelContentDocument
+(
+)
 )
 {
 RefPtr

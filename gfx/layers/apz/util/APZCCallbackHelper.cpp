@@ -3254,7 +3254,7 @@ pc
 pc
 -
 >
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 |
