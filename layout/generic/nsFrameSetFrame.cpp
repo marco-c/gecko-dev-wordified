@@ -2383,14 +2383,9 @@ ComputedStyle
 >
 kidStyle
 =
-presShell
--
->
-StyleSet
-(
-)
--
->
+ServoStyleSet
+:
+:
 ResolveServoStyle
 (
 *
