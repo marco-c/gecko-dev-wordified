@@ -3144,7 +3144,7 @@ result
 .
 payload
 .
-isKeywordOffer
+keywordOffer
 )
 {
 this
@@ -3430,7 +3430,7 @@ result
 .
 payload
 .
-isKeywordOffer
+keywordOffer
 )
 {
 /

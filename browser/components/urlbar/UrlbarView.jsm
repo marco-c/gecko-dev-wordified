@@ -3879,7 +3879,7 @@ result
 .
 payload
 .
-isKeywordOffer
+keywordOffer
 )
 {
 item
