@@ -78,7 +78,7 @@ localpaths
 #
 noqa
 :
-flake8
+F401
 from
 wptserve
 .
