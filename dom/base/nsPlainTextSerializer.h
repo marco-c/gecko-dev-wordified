@@ -548,6 +548,11 @@ int32_t
 aLength
 )
 ;
+void
+MaybeWrapAndOutputCompleteLines
+(
+)
+;
 /
 /
 param
