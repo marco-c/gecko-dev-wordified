@@ -2233,4 +2233,5 @@ c
 }
 /
 /
+namespace
 nss_test

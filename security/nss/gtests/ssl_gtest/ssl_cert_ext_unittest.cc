@@ -372,8 +372,9 @@ DataBuffer
 timestamps
 )
 {
-EXPECT_TRUE
+ASSERT_NE
 (
+nullptr
 auth_timestamps_
 )
 ;
@@ -384,8 +385,9 @@ timestamps
 auth_timestamps_
 )
 ;
-EXPECT_TRUE
+ASSERT_NE
 (
+nullptr
 handshake_timestamps_
 )
 ;

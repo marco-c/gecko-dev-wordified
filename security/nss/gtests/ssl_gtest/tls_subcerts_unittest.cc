@@ -1530,6 +1530,16 @@ now
 dc
 )
 ;
+ASSERT_TRUE
+(
+dc
+.
+data
+!
+=
+nullptr
+)
+;
 /
 /
 Flip
