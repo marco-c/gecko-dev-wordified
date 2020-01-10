@@ -547,14 +547,6 @@ keyup
 }
 )
 ;
-await
-UrlbarTestUtils
-.
-promisePopupClose
-(
-window
-)
-;
 }
 )
 ;

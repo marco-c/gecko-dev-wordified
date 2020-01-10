@@ -195,14 +195,6 @@ limited
 "
 )
 ;
-await
-UrlbarTestUtils
-.
-promisePopupClose
-(
-window
-)
-;
 }
 )
 ;

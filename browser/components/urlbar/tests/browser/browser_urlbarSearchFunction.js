@@ -157,14 +157,6 @@ handleRevert
 (
 )
 ;
-await
-UrlbarTestUtils
-.
-promisePopupClose
-(
-window
-)
-;
 }
 )
 ;

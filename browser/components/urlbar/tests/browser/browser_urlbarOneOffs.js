@@ -136,11 +136,6 @@ function
 )
 {
 await
-hidePopup
-(
-)
-;
-await
 PlacesUtils
 .
 history
