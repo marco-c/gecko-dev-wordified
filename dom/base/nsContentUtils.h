@@ -23158,10 +23158,6 @@ sAllowXULXBL_for_file
 ;
 static
 bool
-sTrustedFullscreenOnly
-;
-static
-bool
 sIsCutCopyAllowed
 ;
 static
