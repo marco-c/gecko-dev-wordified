@@ -2419,7 +2419,7 @@ case
 TableKind
 :
 :
-TypedFunction
+AsmJS
 :
 /
 /
