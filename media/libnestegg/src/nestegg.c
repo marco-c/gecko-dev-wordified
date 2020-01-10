@@ -1970,6 +1970,7 @@ struct
 mastering_metadata
 luminance_min
 )
+E_LAST
 }
 ;
 static
