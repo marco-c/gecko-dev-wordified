@@ -2816,17 +2816,6 @@ type
 )
 ;
 void
-unboxPrivate
-(
-const
-ValueOperand
-&
-src
-Register
-dest
-)
-;
-void
 notBoolean
 (
 const

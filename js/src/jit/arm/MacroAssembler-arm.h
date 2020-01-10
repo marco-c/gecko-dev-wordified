@@ -6486,17 +6486,6 @@ JSValueType
 type
 )
 ;
-void
-unboxPrivate
-(
-const
-ValueOperand
-&
-src
-Register
-dest
-)
-;
 /
 /
 See
