@@ -701,11 +701,20 @@ tests
 "
 -
 -
+channel
+"
+"
+dev
+"
+"
+-
+-
 yes
 "
 "
 chrome
 "
+                       
 "
 /
 dom
@@ -1371,8 +1380,17 @@ headless
 "
                        
 "
+-
+-
+channel
+"
+"
+dev
+"
+"
 chrome
 "
+                       
 "
 /
 non
@@ -1456,6 +1474,14 @@ fail
 on
 -
 unexpected
+"
+"
+-
+-
+channel
+"
+"
+dev
 "
                        
 "
@@ -1674,6 +1700,14 @@ headless
 "
                        
 "
+-
+-
+channel
+"
+"
+dev
+"
+"
 chrome
 "
 failing_test
@@ -1744,6 +1778,14 @@ fail
 on
 -
 unexpected
+"
+"
+-
+-
+channel
+"
+"
+dev
 "
                        
 "
@@ -1979,6 +2021,14 @@ headless
 "
                        
 "
+-
+-
+channel
+"
+"
+dev
+"
+"
 chrome
 "
 unstable_test
@@ -2058,6 +2108,14 @@ arg
 headless
 "
                        
+"
+-
+-
+channel
+"
+"
+dev
+"
 "
 chrome
 "
