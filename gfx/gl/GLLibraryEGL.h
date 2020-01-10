@@ -2712,6 +2712,14 @@ sEGLLibrary
 ;
 }
 ;
+bool
+DoesEGLContextSupportSharingWithEGLImage
+(
+GLContext
+*
+gl
+)
+;
 }
 /
 *
