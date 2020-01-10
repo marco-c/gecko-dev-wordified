@@ -633,6 +633,17 @@ extern
 crate
 smallvec
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 extern
 crate
 static_prefs
