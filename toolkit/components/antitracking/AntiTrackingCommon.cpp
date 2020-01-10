@@ -8143,7 +8143,7 @@ rv
 permManager
 -
 >
-TestPermissionFromPrincipal
+TestPermissionWithoutDefaultsFromPrincipal
 (
 parentPrincipal
 type
