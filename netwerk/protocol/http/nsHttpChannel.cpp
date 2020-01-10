@@ -49125,8 +49125,12 @@ nsILoadInfo
 :
 OPENER_POLICY_NULL
 ;
+Unused
+<
+<
 GetCrossOriginOpenerPolicy
 (
+documentPolicy
 &
 resultPolicy
 )
