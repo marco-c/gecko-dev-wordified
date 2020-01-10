@@ -588,12 +588,11 @@ results
 let
 popup
 =
-UrlbarTestUtils
+gURLBar
 .
-getPanel
-(
-window
-)
+view
+.
+panel
 ;
 let
 popupCS

@@ -158,12 +158,8 @@ gURLBar
 .
 view
 .
-panel
-.
-state
-"
-open
-"
+isOpen
+true
 "
 Should
 be
