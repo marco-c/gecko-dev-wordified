@@ -2212,9 +2212,6 @@ exist
 ;
 WorkerErrorReport
 report
-(
-nullptr
-)
 ;
 report
 .
