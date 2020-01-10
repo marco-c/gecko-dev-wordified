@@ -4952,6 +4952,15 @@ MemoryUse
 :
 :
 BreakpointSite
+|
+|
+use
+=
+=
+MemoryUse
+:
+:
+ForOfPICStub
 ;
 }
 void
