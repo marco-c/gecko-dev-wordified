@@ -87,9 +87,9 @@ NORMALISED_PATHS
 =
 {
     
-'
+"
 abc
-'
+"
 :
 os
 .
@@ -97,7 +97,7 @@ path
 .
 normpath
 (
-'
+"
 a
 /
 b
@@ -105,12 +105,12 @@ b
 c
 .
 txt
-'
+"
 )
     
-'
+"
 def
-'
+"
 :
 os
 .
@@ -118,7 +118,7 @@ path
 .
 normpath
 (
-'
+"
 d
 /
 e
@@ -126,12 +126,12 @@ e
 f
 .
 txt
-'
+"
 )
     
-'
+"
 cwd
-'
+"
 :
 mozpath
 .
@@ -148,22 +148,22 @@ EXPECTED
 =
 {
     
-'
+"
 compact
-'
+"
 :
 {
         
-'
+"
 kwargs
-'
+"
 :
 {
 }
         
-'
+"
 format
-'
+"
 :
 "
 "
@@ -264,29 +264,27 @@ strip
     
 }
     
-'
+"
 stylish
-'
+"
 :
 {
         
-'
+"
 kwargs
-'
+"
 :
 {
-            
-'
+"
 disable_colors
-'
+"
 :
 True
-        
 }
         
-'
+"
 format
-'
+"
 :
 "
 "
@@ -383,22 +381,22 @@ strip
     
 }
     
-'
+"
 treeherder
-'
+"
 :
 {
         
-'
+"
 kwargs
-'
+"
 :
 {
 }
         
-'
+"
 format
-'
+"
 :
 "
 "
@@ -513,22 +511,22 @@ strip
     
 }
     
-'
+"
 unix
-'
+"
 :
 {
         
-'
+"
 kwargs
-'
+"
 :
 {
 }
         
-'
+"
 format
-'
+"
 :
 "
 "
@@ -599,9 +597,11 @@ bar
 .
 format
 (
+            
 *
 *
 NORMALISED_PATHS
+        
 )
 .
 strip
@@ -610,22 +610,22 @@ strip
     
 }
     
-'
+"
 summary
-'
+"
 :
 {
         
-'
+"
 kwargs
-'
+"
 :
 {
 }
         
-'
+"
 format
-'
+"
 :
 "
 "
@@ -654,9 +654,11 @@ warning
 .
 format
 (
+            
 *
 *
 NORMALISED_PATHS
+        
 )
 .
 strip
@@ -673,9 +675,9 @@ result
 (
 scope
 =
-'
+"
 module
-'
+"
 )
 :
     
@@ -685,16 +687,14 @@ containers
         
 Issue
 (
-            
 linter
 =
-'
+"
 foo
-'
-            
+"
 path
 =
-'
+"
 a
 /
 b
@@ -702,8 +702,7 @@ b
 c
 .
 txt
-'
-            
+"
 message
 =
 "
@@ -711,11 +710,9 @@ oh
 no
 foo
 "
-            
 lineno
 =
 1
-        
 )
         
 Issue
@@ -723,13 +720,13 @@ Issue
             
 linter
 =
-'
+"
 bar
-'
+"
             
 path
 =
-'
+"
 d
 /
 e
@@ -737,7 +734,7 @@ e
 f
 .
 txt
-'
+"
             
 message
 =
@@ -757,9 +754,9 @@ instead
             
 level
 =
-'
+"
 warning
-'
+"
             
 lineno
 =
@@ -790,13 +787,13 @@ Issue
             
 linter
 =
-'
+"
 baz
-'
+"
             
 path
 =
-'
+"
 a
 /
 b
@@ -804,7 +801,7 @@ b
 c
 .
 txt
-'
+"
             
 message
 =
@@ -837,15 +834,15 @@ Issue
             
 linter
 =
-'
+"
 foo
 -
 diff
-'
+"
             
 path
 =
-'
+"
 a
 /
 b
@@ -853,7 +850,7 @@ b
 c
 .
 txt
-'
+"
             
 message
 =
@@ -879,7 +876,7 @@ baz
             
 diff
 =
-'
+"
 diff
 1
 \
@@ -890,7 +887,7 @@ hello
 n
 +
 hello2
-'
+"
         
 )
     
@@ -965,9 +962,9 @@ name
 *
 opts
 [
-'
+"
 kwargs
-'
+"
 ]
 )
     
@@ -989,28 +986,28 @@ result
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 =
 =
 opts
 [
-'
+"
 format
-'
+"
 ]
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 def
 test_json_formatter
@@ -1025,9 +1022,9 @@ formatters
 .
 get
 (
-'
+"
 json
-'
+"
 )
     
 formatted
@@ -1101,9 +1098,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

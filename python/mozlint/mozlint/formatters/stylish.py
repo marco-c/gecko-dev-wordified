@@ -99,8 +99,8 @@ default
     
 _indent_
 =
-'
-'
+"
+"
     
 #
 Colors
@@ -160,9 +160,9 @@ _colors
 =
 {
         
-'
+"
 grey
-'
+"
 :
 [
 247
@@ -170,42 +170,42 @@ grey
 7
 ]
         
-'
+"
 red
-'
+"
 :
 [
 1
 ]
         
-'
+"
 green
-'
+"
 :
 [
 2
 ]
         
-'
+"
 yellow
-'
+"
 :
 [
 3
 ]
         
-'
+"
 brightred
-'
+"
 :
 [
 9
 1
 ]
         
-'
+"
 brightyellow
-'
+"
 :
 [
 11
@@ -264,10 +264,12 @@ diff
 .
 lstrip
 (
-'
+        
+"
 \
 n
-'
+"
+    
 )
     
 fmt_summary
@@ -373,8 +375,8 @@ num
 )
         
 return
-'
-'
+"
+"
     
 def
 _reset_max
@@ -534,8 +536,8 @@ return
         
 new_diff
 =
-'
-'
+"
+"
         
 for
 line
@@ -544,10 +546,10 @@ diff
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
 :
             
@@ -556,9 +558,9 @@ line
 .
 startswith
 (
-'
+"
 +
-'
+"
 )
 :
                 
@@ -569,9 +571,9 @@ self
 .
 color
 (
-'
+"
 green
-'
+"
 )
             
 elif
@@ -579,9 +581,9 @@ line
 .
 startswith
 (
-'
+"
 -
-'
+"
 )
 :
                 
@@ -592,9 +594,9 @@ self
 .
 color
 (
-'
+"
 red
-'
+"
 )
             
 else
@@ -618,10 +620,10 @@ _indent_
 +
 line
 +
-'
+"
 \
 n
-'
+"
         
 return
 new_diff
@@ -725,9 +727,9 @@ err
 level
 =
 =
-'
+"
 error
-'
+"
 :
                     
 num_errors
@@ -748,6 +750,7 @@ err
 in
 sorted
 (
+                
 errors
 key
 =
@@ -770,6 +773,7 @@ or
 0
 )
 )
+            
 )
 :
                 
@@ -820,9 +824,9 @@ args
 =
 {
                     
-'
+"
 normal
-'
+"
 :
 self
 .
@@ -830,53 +834,55 @@ term
 .
 normal
                     
-'
+"
 c1
-'
+"
 :
 self
 .
 color
 (
-'
+"
 grey
-'
+"
 )
                     
-'
+"
 c2
-'
+"
 :
 self
 .
 color
 (
-'
+"
 red
-'
+"
 )
+                    
 if
 err
 .
 level
 =
 =
-'
+"
 error
-'
+"
+                    
 else
 self
 .
 color
 (
-'
+"
 yellow
-'
+"
 )
                     
-'
+"
 lineno
-'
+"
 :
 str
 (
@@ -892,15 +898,15 @@ self
 max_lineno
 )
                     
-'
+"
 column
-'
+"
 :
 col
                     
-'
+"
 level
-'
+"
 :
 err
 .
@@ -913,14 +919,14 @@ self
 max_level
 )
                     
-'
+"
 rule
-'
+"
 :
-'
+"
 {
 }
-'
+"
 .
 format
 (
@@ -933,12 +939,12 @@ err
 .
 rule
 else
-'
-'
+"
+"
                     
-'
+"
 linter
-'
+"
 :
 err
 .
@@ -948,9 +954,9 @@ lower
 (
 )
                     
-'
+"
 message
-'
+"
 :
 err
 .
@@ -963,9 +969,9 @@ self
 max_message
 )
                     
-'
+"
 diff
-'
+"
 :
 self
 .
@@ -1006,10 +1012,10 @@ rstrip
 .
 rstrip
 (
-'
+"
 \
 n
-'
+"
 )
 )
             
@@ -1017,8 +1023,8 @@ message
 .
 append
 (
-'
-'
+"
+"
 )
 #
 newline
@@ -1045,6 +1051,7 @@ message
 .
 append
 (
+                
 "
 {
 c
@@ -1063,23 +1070,23 @@ linter
 .
 format
 (
-                
+                    
 c
 =
 self
 .
 color
 (
-'
+"
 brightred
-'
+"
 )
-                
 name
 =
 fail
-            
+                
 )
+            
 )
         
 #
@@ -1091,50 +1098,53 @@ message
 .
 append
 (
+            
 self
 .
 fmt_summary
 .
 format
 (
-            
+                
 t
 =
 self
 .
 term
-            
+                
 c
 =
 self
 .
 color
 (
-'
+"
 brightred
-'
+"
 )
+                
 if
 num_errors
 or
 failed
+                
 else
 self
 .
 color
 (
-'
+"
 brightyellow
-'
+"
 )
-            
+                
 problem
 =
 pluralize
 (
-'
+"
 problem
-'
+"
 num_errors
 +
 num_warnings
@@ -1144,65 +1154,70 @@ len
 failed
 )
 )
-            
+                
 error
 =
 pluralize
 (
-'
+"
 error
-'
+"
 num_errors
 )
-            
+                
 warning
 =
 pluralize
 (
-'
+                    
+"
 warning
-'
+"
 num_warnings
 or
 result
 .
 total_suppressed_warnings
+                
 )
-            
+                
 failure
 =
-'
+"
 {
 }
-'
+"
 .
 format
 (
 pluralize
 (
-'
+"
 failure
-'
+"
 len
 (
 failed
 )
 )
 )
+                
 if
 failed
+                
 else
-'
-'
-        
+"
+"
+            
 )
+        
 )
         
 return
-'
+"
 \
 n
-'
+"
 .
 join
 (
