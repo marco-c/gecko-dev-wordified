@@ -867,6 +867,7 @@ object
 .
 *
 /
+async
 function
 getLongPressResult
 (
@@ -979,6 +980,26 @@ y
 1
 ]
 0
+)
+;
+await
+(
+new
+Promise
+(
+resolve
+=
+>
+browser
+.
+contentWindow
+.
+setTimeout
+(
+resolve
+0
+)
+)
 )
 ;
 return
@@ -1632,6 +1653,7 @@ expected
 let
 result
 =
+await
 getLongPressResult
 (
 browser
@@ -1675,6 +1697,7 @@ text
 ;
 result
 =
+await
 getLongPressResult
 (
 browser
@@ -1718,6 +1741,7 @@ text
 ;
 result
 =
+await
 getLongPressResult
 (
 browser
@@ -1761,6 +1785,7 @@ text
 ;
 result
 =
+await
 getLongPressResult
 (
 browser
@@ -1804,6 +1829,7 @@ text
 ;
 result
 =
+await
 getLongPressResult
 (
 browser
@@ -1878,6 +1904,7 @@ maximum
 ;
 result
 =
+await
 getLongPressResult
 (
 browser
@@ -1925,6 +1952,7 @@ text
 ;
 result
 =
+await
 getLongPressResult
 (
 browser
@@ -1969,6 +1997,7 @@ text
 ;
 result
 =
+await
 getLongPressResult
 (
 browser
@@ -2034,6 +2063,7 @@ expected
 .
 result
 =
+await
 getLongPressResult
 (
 browser
@@ -2076,6 +2106,7 @@ text
 ;
 result
 =
+await
 getLongPressResult
 (
 browser
@@ -2118,6 +2149,7 @@ text
 ;
 result
 =
+await
 getLongPressResult
 (
 browser
@@ -2160,6 +2192,7 @@ text
 ;
 result
 =
+await
 getLongPressResult
 (
 browser
@@ -2202,6 +2235,7 @@ text
 ;
 result
 =
+await
 getLongPressResult
 (
 browser
@@ -2532,6 +2566,11 @@ check
 UI
 expectations
 .
+for
+(
+let
+designMode
+of
 [
 "
 on
@@ -2540,12 +2579,7 @@ on
 off
 "
 ]
-.
-forEach
-(
-designMode
-=
->
+)
 {
 doc
 .
@@ -2586,6 +2620,7 @@ mode
 let
 result
 =
+await
 getLongPressResult
 (
 browser
@@ -2689,6 +2724,7 @@ state
 ;
 result
 =
+await
 getLongPressResult
 (
 browser
@@ -2790,8 +2826,6 @@ state
 )
 ;
 }
-)
-;
 /
 /
 Close
