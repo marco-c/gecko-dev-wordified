@@ -6820,7 +6820,7 @@ CrossOriginOpenerPolicyValidator
 }
 ;
 struct
-CrossOriginPolicyValidator
+CrossOriginEmbedderPolicyValidator
 {
 static
 bool
@@ -6829,7 +6829,7 @@ IsLegalValue
 nsILoadInfo
 :
 :
-CrossOriginPolicy
+CrossOriginEmbedderPolicy
 e
 )
 {
@@ -6840,7 +6840,7 @@ e
 nsILoadInfo
 :
 :
-CROSS_ORIGIN_POLICY_NULL
+EMBEDDER_POLICY_NULL
 |
 |
 e
@@ -6849,16 +6849,7 @@ e
 nsILoadInfo
 :
 :
-CROSS_ORIGIN_POLICY_ANONYMOUS
-|
-|
-e
-=
-=
-nsILoadInfo
-:
-:
-CROSS_ORIGIN_POLICY_USE_CREDENTIALS
+EMBEDDER_POLICY_REQUIRE_CORP
 ;
 }
 }
@@ -6872,7 +6863,7 @@ ParamTraits
 nsILoadInfo
 :
 :
-CrossOriginPolicy
+CrossOriginEmbedderPolicy
 >
 :
 EnumSerializer
@@ -6880,8 +6871,8 @@ EnumSerializer
 nsILoadInfo
 :
 :
-CrossOriginPolicy
-CrossOriginPolicyValidator
+CrossOriginEmbedderPolicy
+CrossOriginEmbedderPolicyValidator
 >
 {
 }
