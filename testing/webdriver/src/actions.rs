@@ -1423,6 +1423,12 @@ mod
 test
 {
 use
+super
+:
+:
+*
+;
+use
 crate
 :
 :
@@ -1433,12 +1439,6 @@ test
 check_deserialize
 check_serialize_deserialize
 }
-;
-use
-super
-:
-:
-*
 ;
 use
 serde_json
