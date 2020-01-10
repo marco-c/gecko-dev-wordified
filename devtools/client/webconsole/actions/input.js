@@ -254,6 +254,13 @@ expression
 =
 services
 .
+getInputSelection
+(
+)
+|
+|
+services
+.
 getInputValue
 (
 )
