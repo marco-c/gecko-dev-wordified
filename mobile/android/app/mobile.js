@@ -1954,7 +1954,7 @@ extensions
 .
 enabledScopes
 "
-1
+5
 )
 ;
 pref
