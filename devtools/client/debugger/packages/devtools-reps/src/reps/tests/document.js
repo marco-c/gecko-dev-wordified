@@ -427,7 +427,7 @@ content
 /
 browser
 .
-xul
+xhtml
 "
 )
 ;
