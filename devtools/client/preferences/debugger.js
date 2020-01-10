@@ -584,7 +584,7 @@ component
 -
 visible
 "
-true
+false
 )
 ;
 pref
@@ -598,7 +598,7 @@ workers
 -
 visible
 "
-true
+false
 )
 ;
 pref
@@ -626,7 +626,7 @@ expressions
 -
 visible
 "
-true
+false
 )
 ;
 pref
@@ -644,7 +644,7 @@ breakpoints
 -
 visible
 "
-true
+false
 )
 ;
 pref
@@ -660,7 +660,7 @@ breakpoints
 -
 visible
 "
-true
+false
 )
 ;
 pref
@@ -676,7 +676,7 @@ listeners
 -
 visible
 "
-true
+false
 )
 ;
 pref
