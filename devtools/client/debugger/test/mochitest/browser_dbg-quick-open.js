@@ -245,6 +245,7 @@ resultItems
 length
 ;
 }
+async
 function
 quickOpen
 (
@@ -280,6 +281,12 @@ type
 (
 dbg
 query
+)
+;
+await
+waitForTime
+(
+150
 )
 ;
 }
@@ -401,6 +408,7 @@ closing
 "
 )
 ;
+await
 quickOpen
 (
 dbg
@@ -435,6 +443,7 @@ search
 "
 )
 ;
+await
 quickOpen
 (
 dbg
@@ -493,6 +502,7 @@ switching
 "
 )
 ;
+await
 quickOpen
 (
 dbg
@@ -546,6 +556,7 @@ icons
 "
 )
 ;
+await
 quickOpen
 (
 dbg
@@ -589,6 +600,7 @@ selected
 "
 )
 ;
+await
 quickOpen
 (
 dbg
@@ -649,6 +661,7 @@ search
 "
 )
 ;
+await
 quickOpen
 (
 dbg
@@ -679,6 +692,7 @@ search
 "
 )
 ;
+await
 quickOpen
 (
 dbg
@@ -709,6 +723,12 @@ dbg
 "
 x
 "
+)
+;
+await
+waitForTime
+(
+150
 )
 ;
 is
@@ -766,6 +786,7 @@ dbg
 null
 )
 ;
+await
 quickOpen
 (
 dbg
@@ -805,6 +826,7 @@ gotoSource
 "
 )
 ;
+await
 quickOpen
 (
 dbg
