@@ -1417,7 +1417,7 @@ skip
 ;
 if
 (
-GetPrevInFlow
+GetPrevContinuation
 (
 )
 )
@@ -1585,7 +1585,7 @@ nsIFrame
 *
 nif
 =
-GetNextInFlow
+GetNextContinuation
 (
 )
 ;
