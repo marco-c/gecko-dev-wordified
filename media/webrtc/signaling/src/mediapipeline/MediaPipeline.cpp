@@ -9181,7 +9181,7 @@ with
 the
 /
 /
-WebrtcMediaDataDecoderCodec
+WebrtcMediaDataCodec
 decoder
 .
 const

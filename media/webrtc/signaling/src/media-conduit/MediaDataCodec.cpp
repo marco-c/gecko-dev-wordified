@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-MediaDataDecoderCodec
+MediaDataCodec
 .
 h
 "
@@ -103,7 +103,7 @@ static
 /
 WebrtcVideoEncoder
 *
-MediaDataDecoderCodec
+MediaDataCodec
 :
 :
 CreateEncoder
@@ -156,7 +156,7 @@ static
 /
 WebrtcVideoDecoder
 *
-MediaDataDecoderCodec
+MediaDataCodec
 :
 :
 CreateDecoder

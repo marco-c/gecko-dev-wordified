@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-MEDIA_DATA_DECODER_CODEC_H_
+MEDIA_DATA_CODEC_H_
 #
 define
-MEDIA_DATA_DECODER_CODEC_H_
+MEDIA_DATA_CODEC_H_
 #
 include
 "
@@ -88,7 +88,7 @@ class
 WebrtcVideoEncoder
 ;
 class
-MediaDataDecoderCodec
+MediaDataCodec
 {
 public
 :
@@ -175,4 +175,4 @@ mozilla
 endif
 /
 /
-MEDIA_DATA_DECODER_CODEC_H_
+MEDIA_DATA_CODEC_H_
