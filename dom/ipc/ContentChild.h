@@ -3066,6 +3066,10 @@ const
 bool
 &
 aIsForBrowser
+const
+bool
+&
+aIsTopLevel
 )
 ;
 FORWARD_SHMEM_ALLOCATOR_TO

@@ -6092,6 +6092,12 @@ tabGroup
 newTabContext
 browsingContext
 aChromeFlags
+/
+*
+aIsTopLevel
+*
+/
+true
 )
 ;
 if
@@ -11914,6 +11920,10 @@ const
 bool
 &
 aIsForBrowser
+const
+bool
+&
+aIsTopLevel
 )
 {
 MOZ_ASSERT
@@ -12127,6 +12137,7 @@ GetTabContext
 )
 aBrowsingContext
 aChromeFlags
+aIsTopLevel
 )
 ;
 /

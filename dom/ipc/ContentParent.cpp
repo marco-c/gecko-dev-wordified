@@ -7627,6 +7627,12 @@ constructorSender
 IsForBrowser
 (
 )
+/
+*
+aIsTopLevel
+*
+/
+true
 )
 ;
 if
