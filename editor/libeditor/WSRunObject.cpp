@@ -2772,11 +2772,17 @@ the
 original
 point
 .
+if
+(
+aPointAfterInsertedString
+)
+{
 *
 aPointAfterInsertedString
 =
 pointToInsert
 ;
+}
 return
 NS_OK
 ;
