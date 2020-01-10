@@ -2288,23 +2288,6 @@ cmake_args
             
 "
 -
-DCOMPILER_RT_DEFAULT_TARGET_TRIPLE
-=
-%
-s
-"
-%
-android_targets
-.
-keys
-(
-)
-[
-0
-]
-            
-"
--
 DLLVM_BUILTIN_TARGETS
 =
 %
@@ -2319,23 +2302,6 @@ join
 (
 android_targets
 )
-            
-"
--
-DLLVM_DEFAULT_TARGET_TRIPLE
-=
-%
-s
-"
-%
-android_targets
-.
-keys
-(
-)
-[
-0
-]
             
 "
 -
