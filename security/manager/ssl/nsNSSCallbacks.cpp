@@ -4280,15 +4280,6 @@ cipherInfo
 macAlgorithm
 )
 ;
-infoObject
--
->
-mIsDelegatedCredential
-=
-channelInfo
-.
-peerDelegCred
-;
 }
 }
 /
