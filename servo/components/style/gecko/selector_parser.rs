@@ -2118,6 +2118,11 @@ ClassName
 Atom
 ;
 type
+PartName
+=
+Atom
+;
+type
 LocalName
 =
 Atom
