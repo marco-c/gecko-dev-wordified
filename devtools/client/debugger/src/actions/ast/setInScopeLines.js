@@ -408,7 +408,7 @@ visibleFrame
 ;
 const
 {
-source
+content
 }
 =
 getSourceWithContent
@@ -433,7 +433,7 @@ location
 |
 |
 !
-source
+content
 )
 {
 return
