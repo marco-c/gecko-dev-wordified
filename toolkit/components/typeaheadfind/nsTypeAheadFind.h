@@ -399,12 +399,10 @@ nsRange
 aRange
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 FindItNow
 (
-nsIPresShell
-*
-aPresShell
 bool
 aIsLinksOnly
 bool

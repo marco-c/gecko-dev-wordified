@@ -4962,6 +4962,8 @@ depends
 on
 frame
 .
+if
+(
 RefPtr
 <
 PresShell
@@ -4971,10 +4973,6 @@ presShell
 GetPresShell
 (
 )
-;
-if
-(
-presShell
 )
 {
 presShell

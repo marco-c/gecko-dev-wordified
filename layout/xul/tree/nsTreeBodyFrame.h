@@ -2248,6 +2248,7 @@ and
 generate
 events
 .
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 CheckOverflow
 (

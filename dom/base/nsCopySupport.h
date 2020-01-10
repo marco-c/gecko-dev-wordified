@@ -146,14 +146,14 @@ class
 nsITransferable
 ;
 class
-nsIPresShell
-;
-class
 nsILoadContext
 ;
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -766,6 +766,7 @@ returned
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 bool
 FireClipboardEvent
@@ -777,7 +778,10 @@ EventMessage
 aEventMessage
 int32_t
 aClipboardType
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 mozilla

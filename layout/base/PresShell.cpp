@@ -3509,7 +3509,10 @@ by
 flushing
 later
 .
+MOZ_KnownLive
+(
 mPresShell
+)
 -
 >
 FlushPendingNotifications
@@ -44546,7 +44549,10 @@ FramesReflowedCount
 (
 )
 ;
+MOZ_KnownLive
+(
 mPresShell
+)
 -
 >
 FlushPendingNotifications

@@ -3402,6 +3402,8 @@ get
 /
 /
 nsITableCellLayout
+if
+(
 RefPtr
 <
 PresShell
@@ -3414,10 +3416,6 @@ mFrameSelection
 GetPresShell
 (
 )
-;
-if
-(
-presShell
 )
 {
 presShell

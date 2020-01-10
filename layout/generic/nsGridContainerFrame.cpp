@@ -52308,11 +52308,13 @@ weakFrameRef
 aFrame
 )
 ;
+RefPtr
+<
 mozilla
 :
 :
 PresShell
-*
+>
 presShell
 =
 gridFrame

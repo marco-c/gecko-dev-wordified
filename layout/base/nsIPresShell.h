@@ -3331,6 +3331,7 @@ to
 flush
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 FlushPendingNotifications
 (
@@ -3359,6 +3360,7 @@ aType
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 FlushPendingNotifications
 (
@@ -3402,6 +3404,7 @@ FlushPendingNotifications
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 DoFlushPendingNotifications
@@ -3415,7 +3418,7 @@ aType
 =
 0
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 DoFlushPendingNotifications

@@ -1427,6 +1427,7 @@ the
 content
 area
 .
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 ForceLayoutIfNecessary
 (

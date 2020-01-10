@@ -4522,6 +4522,7 @@ the
 given
 content
 node
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsMenuPopupFrame
 *
 GetPopupFrameForContent
@@ -4975,6 +4976,7 @@ cancelled
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 FirePopupHidingEvent
 (

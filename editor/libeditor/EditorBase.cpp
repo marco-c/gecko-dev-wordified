@@ -18134,6 +18134,8 @@ SuppressException
 /
 Handle
 selection
+if
+(
 RefPtr
 <
 PresShell
@@ -18143,10 +18145,6 @@ presShell
 GetPresShell
 (
 )
-;
-if
-(
-presShell
 )
 {
 presShell

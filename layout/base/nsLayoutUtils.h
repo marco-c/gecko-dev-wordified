@@ -424,6 +424,9 @@ mozilla
 class
 ComputedStyle
 ;
+class
+PresShell
+;
 enum
 class
 PseudoStyleType
@@ -5311,7 +5314,10 @@ static
 void
 GetContainerAndOffsetAtEvent
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 const

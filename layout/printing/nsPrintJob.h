@@ -783,6 +783,7 @@ bool
 aSetPixelScale
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 ReflowPrintObject
 (
@@ -1319,6 +1320,7 @@ bool
 aSetPixelScale
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 ReconstructAndReflow
 (

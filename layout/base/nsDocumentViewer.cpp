@@ -15539,6 +15539,14 @@ CopySelection
 (
 )
 {
+RefPtr
+<
+PresShell
+>
+presShell
+=
+mPresShell
+;
 nsCopySupport
 :
 :
@@ -15549,7 +15557,7 @@ nsIClipboard
 :
 :
 kGlobalClipboard
-mPresShell
+presShell
 nullptr
 )
 ;
