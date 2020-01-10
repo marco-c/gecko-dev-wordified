@@ -3109,6 +3109,22 @@ mozboot
 import
 android
         
+#
+Path
+to
+java
+from
+the
+homebrew
+/
+cask
+-
+versions
+/
+adoptopenjdk8
+cask
+.
+        
 android
 .
 suggest_mozconfig
@@ -3119,6 +3135,10 @@ macosx
 artifact_mode
 =
 artifact_mode
+                                  
+java_bin_path
+=
+JAVA_PATH
 )
     
 def
