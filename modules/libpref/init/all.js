@@ -30959,7 +30959,6 @@ networking
 newtab
 performance
 plugins
-policies
 profiles
 restartrequired
 serviceworkers
