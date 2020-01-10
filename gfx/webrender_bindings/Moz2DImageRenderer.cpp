@@ -3016,7 +3016,10 @@ rand
 )
 )
 /
+float
+(
 RAND_MAX
+)
 ;
 float
 g
@@ -3028,7 +3031,10 @@ rand
 )
 )
 /
+float
+(
 RAND_MAX
+)
 ;
 float
 b
@@ -3040,7 +3046,10 @@ rand
 )
 )
 /
+float
+(
 RAND_MAX
+)
 ;
 dt
 -
