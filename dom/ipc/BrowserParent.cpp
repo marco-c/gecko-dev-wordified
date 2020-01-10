@@ -6409,6 +6409,8 @@ BrowserParent
 :
 Deactivate
 (
+bool
+aWindowLowering
 )
 {
 LOGBROWSERFOCUS
@@ -6423,6 +6425,12 @@ this
 )
 )
 ;
+if
+(
+!
+aWindowLowering
+)
+{
 PopFocus
 (
 this
@@ -6432,9 +6440,12 @@ this
 /
 Intentionally
 outside
+the
+next
 "
 if
 "
+}
 if
 (
 !
