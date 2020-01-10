@@ -241,7 +241,7 @@ darker
 orange
 :
 #
-FFBD4F
+FFA436
 ;
 -
 -
@@ -2368,6 +2368,12 @@ gap
 a
 .
 hidden
+.
+lockwise
+-
+card
+.
+hidden
 #
 lockwise
 -
@@ -2660,6 +2666,12 @@ height
 18px
 ;
 }
+#
+lockwise
+-
+body
+-
+content
 .
 has
 -
