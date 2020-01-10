@@ -313,12 +313,16 @@ source
 const
 func
 =
+symbols
+?
 findFunctionByName
 (
 symbols
 name
 index
 )
+:
+null
 ;
 /
 /
@@ -334,9 +338,7 @@ not
 find
 a
 function
-is
-not
-found
+.
 let
 line
 =
