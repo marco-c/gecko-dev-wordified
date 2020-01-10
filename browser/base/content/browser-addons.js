@@ -3296,11 +3296,11 @@ callback
 {
 SitePermissions
 .
-set
+setForPrincipal
 (
 browser
 .
-currentURI
+contentPrincipal
 "
 install
 "
