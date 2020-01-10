@@ -6546,9 +6546,6 @@ windowUtils
 numberOfAssignedPaintedLayers
 (
 elements
-elements
-.
-length
 )
 ;
 if
@@ -6677,9 +6674,6 @@ windowUtils
 numberOfAssignedPaintedLayers
 (
 oneOfEach
-oneOfEach
-.
-length
 )
 ;
 if
