@@ -32,7 +32,9 @@ mozilla
 /
 dom
 /
-DocumentL10n
+l10n
+/
+DOMLocalization
 .
 h
 "
@@ -95,9 +97,9 @@ NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
 explicit
 Mutations
 (
-DocumentL10n
+DOMLocalization
 *
-aDocumentL10n
+aDOMLocalization
 )
 ;
 /
@@ -173,7 +175,7 @@ removing
 the
 reference
 to
-mDocumentL10n
+mDOMLocalization
 .
 *
 /
@@ -238,9 +240,9 @@ nsRefreshDriver
 >
 mRefreshDriver
 ;
-DocumentL10n
+DOMLocalization
 *
-mDocumentL10n
+mDOMLocalization
 ;
 /
 /
@@ -322,9 +324,9 @@ StopRefreshObserver
 MOZ_ASSERT
 (
 !
-mDocumentL10n
+mDOMLocalization
 "
-DocumentL10n
+DOMLocalization
 <
 -
 -
