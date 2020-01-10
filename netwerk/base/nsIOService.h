@@ -1344,6 +1344,9 @@ int32_t
 >
 mRestrictedPortList
 ;
+bool
+mNetworkNotifyChanged
+;
 static
 bool
 sIsDataURIUniqueOpaqueOrigin
