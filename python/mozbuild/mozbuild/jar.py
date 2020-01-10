@@ -136,6 +136,12 @@ buildlist
 import
 addEntriesToListFile
 from
+mozbuild
+.
+util
+import
+ensure_bytes
+from
 mozpack
 .
 files
@@ -4617,8 +4623,14 @@ rv
 =
 CreateHardLink
 (
+ensure_bytes
+(
 out
+)
+ensure_bytes
+(
 src
+)
 None
 )
                 

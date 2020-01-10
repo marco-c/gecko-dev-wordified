@@ -58,6 +58,7 @@ __future__
 import
 absolute_import
 print_function
+unicode_literals
 import
 mozunit
 import
@@ -399,6 +400,7 @@ baz
 :
 GeneratedFile
 (
+b
 '
 foobarbaz
 '
@@ -416,6 +418,7 @@ baz
 :
 GeneratedFile
 (
+b
 '
 foobaz
 '
@@ -433,6 +436,7 @@ qux
 :
 GeneratedFile
 (
+b
 '
 fooqux
 '
@@ -448,6 +452,7 @@ so
 :
 GeneratedFile
 (
+b
 '
 foo
 .
@@ -481,6 +486,7 @@ foo
 :
 GeneratedFile
 (
+b
 '
 foo
 '
@@ -498,6 +504,7 @@ foo
 :
 GeneratedFile
 (
+b
 '
 appfoo
 '
@@ -515,6 +522,7 @@ js
 :
 GeneratedFile
 (
+b
 '
 foo
 .
@@ -536,6 +544,7 @@ baz
 :
 GeneratedFile
 (
+b
 '
 foobarbaz
 '
@@ -579,6 +588,7 @@ baz
 :
 GeneratedFile
 (
+b
 '
 foobarbaz
 '
@@ -628,6 +638,7 @@ baz
 :
 GeneratedFile
 (
+b
 '
 foobarbaz
 '
@@ -2256,6 +2267,7 @@ file
 :
 GeneratedFile
 (
+b
 '
 extra
 file
@@ -3143,6 +3155,7 @@ path
 )
 GeneratedFile
 (
+b
 '
 '
 )

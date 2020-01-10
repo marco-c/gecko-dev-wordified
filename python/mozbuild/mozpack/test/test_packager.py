@@ -58,6 +58,7 @@ __future__
 import
 absolute_import
 print_function
+unicode_literals
 import
 unittest
 import
@@ -945,6 +946,7 @@ manifest
 '
 )
                                      
+b
 '
 resource
 bar
@@ -1006,6 +1008,7 @@ manifest
 '
 )
                                      
+b
 '
 resource
 baz
@@ -1066,6 +1069,7 @@ manifest
                          
 GeneratedFile
 (
+b
 '
 '
 .
@@ -1073,6 +1077,7 @@ join
 (
 [
                             
+b
 '
 resource
 qux
@@ -1082,6 +1087,7 @@ qux
 n
 '
                             
+b
 '
 binary
 -
@@ -1102,6 +1108,7 @@ bar_xpt
 =
 GeneratedFile
 (
+b
 '
 bar
 .
@@ -1113,6 +1120,7 @@ qux_xpt
 =
 GeneratedFile
 (
+b
 '
 qux
 .
@@ -1124,6 +1132,7 @@ foo_html
 =
 GeneratedFile
 (
+b
 '
 foo_html
 '
@@ -1133,6 +1142,7 @@ bar_html
 =
 GeneratedFile
 (
+b
 '
 bar_html
 '
@@ -1226,6 +1236,7 @@ manifest
 '
 )
                                      
+b
 '
 '
 .
@@ -1233,6 +1244,7 @@ join
 (
 [
                                          
+b
 '
 manifest
 foo
@@ -1244,6 +1256,7 @@ manifest
 n
 '
                                          
+b
 '
 manifest
 bar
@@ -1331,6 +1344,7 @@ manifest
 '
 )
                                      
+b
 '
 resource
 hoge
@@ -1369,6 +1383,7 @@ install_rdf
 =
 GeneratedFile
 (
+b
 '
 <
 RDF
@@ -1446,6 +1461,7 @@ manifest
                          
 GeneratedFile
 (
+b
 '
 binary
 -
@@ -1497,6 +1513,7 @@ manifest
 GeneratedFile
 (
                 
+b
 '
 manifest
 components
@@ -1524,6 +1541,7 @@ manifest
                          
 GeneratedFile
 (
+b
 '
 binary
 -
@@ -1552,6 +1570,7 @@ install_rdf_addon4
 GeneratedFile
 (
                 
+b
 '
 <
 RDF
@@ -1624,6 +1643,7 @@ install_rdf_addon5
 GeneratedFile
 (
                 
+b
 '
 <
 RDF
@@ -1696,6 +1716,7 @@ install_rdf_addon6
 GeneratedFile
 (
                 
+b
 '
 <
 RDF
@@ -1759,6 +1780,7 @@ install_rdf_addon7
 GeneratedFile
 (
                 
+b
 '
 <
 RDF
@@ -1822,6 +1844,7 @@ install_rdf_addon8
 GeneratedFile
 (
                 
+b
 '
 <
 RDF
@@ -1887,6 +1910,7 @@ install_rdf_addon9
 GeneratedFile
 (
                 
+b
 '
 <
 RDF
@@ -1952,6 +1976,7 @@ install_rdf_addon10
 GeneratedFile
 (
                 
+b
 '
 <
 RDF
@@ -2019,6 +2044,7 @@ install_rdf_addon11
 GeneratedFile
 (
                 
+b
 '
 <
 RDF
@@ -2074,6 +2100,7 @@ we_manifest
 GeneratedFile
 (
             
+b
 '
 {
 "
@@ -2271,6 +2298,7 @@ non_we_manifest
 =
 GeneratedFile
 (
+b
 '
 {
 "
@@ -3501,6 +3529,7 @@ manifest
 GeneratedFile
 (
             
+b
 '
 manifest
 foo
@@ -3512,6 +3541,7 @@ manifest
 n
 '
             
+b
 '
 manifest
 bar
@@ -3539,6 +3569,7 @@ manifest
 '
 GeneratedFile
 (
+b
 '
 resource
 bar
@@ -3560,6 +3591,7 @@ manifest
 '
 GeneratedFile
 (
+b
 '
 resource
 baz
@@ -3581,6 +3613,7 @@ rdf
 '
 GeneratedFile
 (
+b
 '
 '
 )
@@ -3696,6 +3729,7 @@ manifest
 GeneratedFile
 (
             
+b
 '
 manifest
 foo
@@ -3707,6 +3741,7 @@ manifest
 n
 '
             
+b
 '
 manifest
 bar
@@ -3734,6 +3769,7 @@ manifest
 '
 GeneratedFile
 (
+b
 '
 resource
 bar
@@ -3755,6 +3791,7 @@ manifest
 '
 GeneratedFile
 (
+b
 '
 resource
 baz
@@ -3776,6 +3813,7 @@ manifest
 '
 GeneratedFile
 (
+b
 '
 resource
 baz
@@ -3903,6 +3941,7 @@ manifest
 GeneratedFile
 (
             
+b
 '
 manifest
 foo
@@ -3930,6 +3969,7 @@ manifest
 '
 GeneratedFile
 (
+b
 '
 resource
 bar
@@ -3951,6 +3991,7 @@ manifest
 '
 GeneratedFile
 (
+b
 '
 resource
 baz
@@ -3973,6 +4014,7 @@ manifest
                      
 GeneratedFile
 (
+b
 '
 manifest
 baz
@@ -4013,6 +4055,7 @@ foobar
 =
 GeneratedFile
 (
+b
 '
 foobar
 '
@@ -4022,6 +4065,7 @@ foobaz
 =
 GeneratedFile
 (
+b
 '
 foobaz
 '
@@ -4031,6 +4075,7 @@ fooqux
 =
 GeneratedFile
 (
+b
 '
 fooqux
 '
@@ -4040,6 +4085,7 @@ foozot
 =
 GeneratedFile
 (
+b
 '
 foozot
 '
@@ -4103,6 +4149,7 @@ manifest
 :
 GeneratedFile
 (
+b
 '
 resource
 foo
@@ -4122,6 +4169,7 @@ manifest
             
 GeneratedFile
 (
+b
 '
 manifest
 foo
