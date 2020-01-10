@@ -185,6 +185,22 @@ target
 dmg
 '
         
+elif
+'
+win
+'
+in
+build_platform
+:
+            
+artifact
+=
+'
+target
+.
+zip
+'
+        
 else
 :
             
