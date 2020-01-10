@@ -726,6 +726,7 @@ if
 (
 gDumpToConsole
 )
+{
 dump
 (
 "
@@ -751,6 +752,7 @@ n
 "
 )
 ;
+}
 var
 div
 =
@@ -887,6 +889,7 @@ if
 (
 gDumpToConsole
 )
+{
 dump
 (
 "
@@ -906,6 +909,7 @@ n
 "
 )
 ;
+}
 var
 expr
 =
@@ -1085,11 +1089,14 @@ stack
 "
 )
 )
+{
 processMarkupRules
 (
 )
 ;
+}
 else
+{
 waitForEvent
 (
 EVENT_SHOW
@@ -1097,6 +1104,7 @@ elm
 processMarkupRules
 )
 ;
+}
 }
 /
 *
@@ -1434,12 +1442,14 @@ name
 "
 "
 )
+{
 name
 +
 =
 "
 "
 ;
+}
 name
 +
 =
@@ -1504,6 +1514,7 @@ name
 false
 "
 )
+{
 testAttrs
 (
 aElm
@@ -1521,7 +1532,9 @@ true
 true
 )
 ;
+}
 else
+{
 testAbsentAttrs
 (
 aElm
@@ -1538,6 +1551,7 @@ true
 }
 )
 ;
+}
 /
 /
 If
@@ -1759,11 +1773,13 @@ this
 .
 mAttrValue
 )
+{
 return
 NodeFilter
 .
 FILTER_ACCEPT
 ;
+}
 return
 NodeFilter
 .
@@ -1846,6 +1862,7 @@ if
 !
 labelElm
 )
+{
 labelElm
 =
 aElm
@@ -1863,6 +1880,7 @@ tagname
 0
 ]
 ;
+}
 }
 if
 (
@@ -2118,6 +2136,7 @@ aElm
 .
 firstChild
 )
+{
 aElm
 .
 firstChild
@@ -2126,6 +2145,7 @@ remove
 (
 )
 ;
+}
 }
 /
 *
@@ -2222,12 +2242,14 @@ if
 (
 rulesetId
 )
+{
 return
 getRuleElmsByRulesetId
 (
 rulesetId
 )
 ;
+}
 var
 ruleElms
 =
@@ -2257,6 +2279,7 @@ localName
 ruleset
 "
 )
+{
 ruleElms
 =
 ruleElms
@@ -2269,6 +2292,7 @@ child
 )
 )
 ;
+}
 if
 (
 child
@@ -2280,6 +2304,7 @@ localName
 rule
 "
 )
+{
 ruleElms
 .
 push
@@ -2287,6 +2312,7 @@ push
 child
 )
 ;
+}
 child
 =
 child
@@ -2403,6 +2429,7 @@ iterateNext
 )
 )
 )
+{
 found
 .
 push
@@ -2410,6 +2437,7 @@ push
 res
 )
 ;
+}
 return
 found
 ;
@@ -2424,9 +2452,7 @@ var
 ns
 =
 {
-"
 html
-"
 :
 "
 http

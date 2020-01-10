@@ -521,11 +521,9 @@ return
 var
 relatedIds
 =
-(
 aRelatedIdentifiers
 instanceof
 Array
-)
 ?
 aRelatedIdentifiers
 :
@@ -556,6 +554,7 @@ idx
 +
 +
 )
+{
 targets
 .
 push
@@ -569,6 +568,7 @@ idx
 )
 )
 ;
+}
 if
 (
 targets
@@ -580,8 +580,10 @@ relatedIds
 .
 length
 )
+{
 return
 ;
+}
 var
 actualTargets
 =
@@ -740,7 +742,8 @@ idx
 +
 +
 )
-;
+{
+}
 if
 (
 idx
@@ -750,6 +753,7 @@ targets
 .
 length
 )
+{
 ok
 (
 false
@@ -772,6 +776,7 @@ of
 relDescr
 )
 ;
+}
 }
 }
 /
@@ -929,11 +934,9 @@ return
 var
 relatedIds
 =
-(
 aUnrelatedIdentifiers
 instanceof
 Array
-)
 ?
 aUnrelatedIdentifiers
 :
@@ -964,6 +967,7 @@ idx
 +
 +
 )
+{
 targets
 .
 push
@@ -977,6 +981,7 @@ idx
 )
 )
 ;
+}
 if
 (
 targets
@@ -988,8 +993,10 @@ relatedIds
 .
 length
 )
+{
 return
 ;
+}
 var
 actualTargets
 =
@@ -1164,9 +1171,11 @@ if
 !
 acc
 )
+{
 return
 null
 ;
+}
 var
 relation
 =

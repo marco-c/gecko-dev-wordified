@@ -1217,10 +1217,12 @@ if
 !
 acc
 )
+{
 return
 -
 1
 ;
+}
 var
 role
 =
@@ -1307,8 +1309,10 @@ role
 -
 1
 )
+{
 return
 ;
+}
 if
 (
 role

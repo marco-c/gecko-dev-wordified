@@ -678,6 +678,7 @@ length
 >
 0
 )
+{
 this
 .
 searchResult
@@ -686,7 +687,9 @@ nsIAutoCompleteResult
 .
 RESULT_SUCCESS
 ;
+}
 else
+{
 this
 .
 searchResult
@@ -695,6 +698,7 @@ nsIAutoCompleteResult
 .
 NOMATCH
 ;
+}
 }
 AutoCompleteResult
 .

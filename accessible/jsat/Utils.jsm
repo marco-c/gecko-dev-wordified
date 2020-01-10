@@ -489,7 +489,6 @@ this
 .
 _ScriptName
 =
-(
 Services
 .
 appinfo
@@ -498,7 +497,6 @@ processType
 =
 =
 2
-)
 ?
 "
 AccessFuContent
@@ -1179,13 +1177,11 @@ aDocument
 let
 doc
 =
-(
 aDocument
 instanceof
 Ci
 .
 nsIAccessible
-)
 ?
 aDocument
 :
@@ -2035,6 +2031,7 @@ false
 ;
 }
 return
+(
 parent
 .
 role
@@ -2060,6 +2057,7 @@ indexInParent
 =
 =
 0
+)
 ;
 }
 getTextLeafForOffset
@@ -2468,12 +2466,10 @@ message
 =
 (
 typeof
-(
 args
 [
 0
 ]
-)
 =
 =
 =
@@ -2975,6 +2971,7 @@ null
 try
 {
 return
+(
 "
 [
 "
@@ -3001,6 +2998,7 @@ name
 "
 ]
 "
+)
 ;
 }
 catch

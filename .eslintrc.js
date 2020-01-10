@@ -315,12 +315,6 @@ files
 :
 [
 "
-accessible
-/
-*
-*
-"
-"
 browser
 /
 *
