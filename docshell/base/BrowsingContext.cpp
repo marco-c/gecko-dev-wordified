@@ -4358,6 +4358,15 @@ ErrorResult
 aError
 )
 {
+if
+(
+mClosed
+)
+{
+return
+nullptr
+;
+}
 /
 /
 We
