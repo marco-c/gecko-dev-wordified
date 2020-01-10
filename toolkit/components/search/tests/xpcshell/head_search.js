@@ -2936,15 +2936,6 @@ gRequests
 )
 ;
 }
-catch
-(
-ex
-)
-{
-throw
-ex
-;
-}
 finally
 {
 srv

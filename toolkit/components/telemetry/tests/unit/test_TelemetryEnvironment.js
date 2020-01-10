@@ -1152,8 +1152,6 @@ name
 ]
 ;
 }
-try
-{
 return
 this
 .
@@ -1164,16 +1162,6 @@ getProperty
 name
 )
 ;
-}
-catch
-(
-ex
-)
-{
-throw
-ex
-;
-}
 }
 getPropertyAsUint32
 (
