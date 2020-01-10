@@ -485,6 +485,7 @@ prefIsLocked
 prefName
 )
 )
+{
 prefBranch
 .
 unlockPref
@@ -492,6 +493,7 @@ unlockPref
 prefName
 )
 ;
+}
 defaultPref
 (
 prefName
@@ -836,6 +838,7 @@ if
 !
 gVersion
 )
+{
 gVersion
 =
 Ci
@@ -844,6 +847,7 @@ nsILDAPConnection
 .
 VERSION3
 ;
+}
 /
 /
 user
@@ -898,9 +902,11 @@ key
 =
 null
 )
+{
 return
 null
 ;
+}
 var
 search_key
 =
@@ -933,9 +939,11 @@ start_pos
 -
 1
 )
+{
 return
 null
 ;
+}
 start_pos
 +
 =
@@ -965,12 +973,14 @@ end_pos
 -
 1
 )
+{
 end_pos
 =
 str
 .
 length
 ;
+}
 return
 str
 .

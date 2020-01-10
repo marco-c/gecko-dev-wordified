@@ -1861,9 +1861,7 @@ expected
 .
 map
 (
-(
 it
-)
 =
 >
 0
@@ -2411,9 +2409,7 @@ created6
 .
 forEach
 (
-(
 it
-)
 =
 >
 {

@@ -314,7 +314,7 @@ try
 {
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -328,7 +328,7 @@ history
 service
 ;
 1
-'
+"
 ]
 .
 getService
@@ -1566,9 +1566,7 @@ expected
 .
 map
 (
-(
 it
-)
 =
 >
 0

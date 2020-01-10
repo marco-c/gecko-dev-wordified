@@ -2360,6 +2360,7 @@ do_check
 )
 ;
 }
+;
 do_check
 (
 )
@@ -2610,6 +2611,7 @@ found
 !
 "
 )
+;
 }
 return
 result

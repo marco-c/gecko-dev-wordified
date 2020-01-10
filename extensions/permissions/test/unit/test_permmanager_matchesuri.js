@@ -38,9 +38,7 @@ uris
 .
 forEach
 (
-(
 uri
-)
 =
 >
 {
@@ -123,9 +121,7 @@ uris
 .
 forEach
 (
-(
 uri
-)
 =
 >
 {
@@ -209,9 +205,7 @@ uris
 .
 forEach
 (
-(
 uri
-)
 =
 >
 {
