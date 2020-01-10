@@ -952,6 +952,17 @@ COLOR_16
 UNKNOWN
 }
 ;
+enum
+class
+ColorRange
+:
+uint8_t
+{
+LIMITED
+FULL
+UNKNOWN
+}
+;
 static
 inline
 SurfaceFormat
