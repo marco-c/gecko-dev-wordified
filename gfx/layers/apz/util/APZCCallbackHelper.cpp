@@ -5008,9 +5008,9 @@ nsIWidget
 *
 aWidget
 const
-ScrollableLayerGuid
+LayersId
 &
-aGuid
+aLayersId
 nsIFrame
 *
 aRootFrame
@@ -5029,9 +5029,7 @@ aTargets
 SLGuidAndRenderRoot
 guid
 (
-aGuid
-.
-mLayersId
+aLayersId
 0
 ScrollableLayerGuid
 :
@@ -5964,9 +5962,9 @@ WidgetGUIEvent
 &
 aEvent
 const
-ScrollableLayerGuid
+LayersId
 &
-aGuid
+aLayersId
 uint64_t
 aInputBlockId
 )
@@ -6173,7 +6171,7 @@ waitForRefresh
 PrepareForSetTargetAPZCNotification
 (
 aWidget
-aGuid
+aLayersId
 rootFrame
 touchEvent
 -
@@ -6211,7 +6209,7 @@ waitForRefresh
 PrepareForSetTargetAPZCNotification
 (
 aWidget
-aGuid
+aLayersId
 rootFrame
 wheelEvent
 -
@@ -6242,7 +6240,7 @@ waitForRefresh
 PrepareForSetTargetAPZCNotification
 (
 aWidget
-aGuid
+aLayersId
 rootFrame
 mouseEvent
 -
