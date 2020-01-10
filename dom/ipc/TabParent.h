@@ -1965,6 +1965,13 @@ aURI
 )
 ;
 void
+ResumeLoad
+(
+uint64_t
+aPendingSwitchID
+)
+;
+void
 InitRendering
 (
 )
