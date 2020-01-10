@@ -4480,6 +4480,12 @@ TransportLayer
 :
 :
 TS_OPEN
+&
+&
+aTransportId
+=
+=
+mTransportId
 )
 {
 CompleteConnect
