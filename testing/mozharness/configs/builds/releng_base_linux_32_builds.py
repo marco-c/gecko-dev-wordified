@@ -166,12 +166,6 @@ clobber
 '
 build
 '
-        
-'
-check
--
-test
-'
     
 ]
     
