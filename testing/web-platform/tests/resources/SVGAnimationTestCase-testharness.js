@@ -88,6 +88,7 @@ element
 red
 green
 blue
+message
 )
 {
 let
@@ -172,6 +173,7 @@ red
 2
 .
 0
+message
 )
 ;
 assert_approx_equals
@@ -187,6 +189,7 @@ green
 2
 .
 0
+message
 )
 ;
 assert_approx_equals
@@ -202,6 +205,7 @@ blue
 2
 .
 0
+message
 )
 ;
 }
