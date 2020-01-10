@@ -1252,9 +1252,12 @@ items
 0
 ]
 .
-menupopup
+childNodes
+[
+0
+]
 .
-children
+childNodes
 .
 length
 2

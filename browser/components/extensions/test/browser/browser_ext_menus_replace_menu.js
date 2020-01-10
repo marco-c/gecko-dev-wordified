@@ -1627,7 +1627,7 @@ is
 submenu
 topLevelExtensionMenuItem
 .
-menupopup
+firstElementChild
 "
 Correct
 submenu
