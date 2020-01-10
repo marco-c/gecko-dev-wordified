@@ -5163,10 +5163,6 @@ valueEnd
 +
 )
 ;
-input
-=
-valueEnd
-;
 if
 (
 !
