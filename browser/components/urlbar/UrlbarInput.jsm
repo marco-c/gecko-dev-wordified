@@ -5058,7 +5058,7 @@ this
 querySelector
 (
 "
-.
+#
 urlbar
 -
 go
