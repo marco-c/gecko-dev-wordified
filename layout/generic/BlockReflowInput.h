@@ -284,7 +284,7 @@ mFloatFragmentsInsideColumnEnabled
 (
 false
 )
-mCanHaveTextOverflow
+mCanHaveOverflowMarkers
 (
 false
 )
@@ -827,10 +827,17 @@ need
 text
 -
 overflow
+or
+-
+webkit
+-
+line
+-
+clamp
 processing
 .
 bool
-mCanHaveTextOverflow
+mCanHaveOverflowMarkers
 :
 1
 ;

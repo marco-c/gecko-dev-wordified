@@ -6842,7 +6842,7 @@ mBlockRI
 >
 mFlags
 .
-mCanHaveTextOverflow
+mCanHaveOverflowMarkers
 )
 {
 /

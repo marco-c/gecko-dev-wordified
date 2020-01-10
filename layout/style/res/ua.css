@@ -1636,6 +1636,15 @@ align
 :
 inherit
 ;
+-
+webkit
+-
+line
+-
+clamp
+:
+inherit
+;
 /
 *
 Grid

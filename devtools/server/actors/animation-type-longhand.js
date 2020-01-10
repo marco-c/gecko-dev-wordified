@@ -1764,6 +1764,14 @@ transform
 -
 origin
 "
+"
+-
+webkit
+-
+line
+-
+clamp
+"
 ]
 )
 ]

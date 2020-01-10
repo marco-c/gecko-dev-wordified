@@ -1660,6 +1660,12 @@ aFlags
 I_APPLY_AUTO_MIN_SIZE
 )
 ;
+mFlags
+.
+mApplyLineClamp
+=
+false
+;
 if
 (
 (
