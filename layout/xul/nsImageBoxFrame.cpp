@@ -254,6 +254,13 @@ h
 #
 include
 "
+nsILinkHandler
+.
+h
+"
+#
+include
+"
 nsIURL
 .
 h

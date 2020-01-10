@@ -138,6 +138,13 @@ h
 #
 include
 "
+nsILinkHandler
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
