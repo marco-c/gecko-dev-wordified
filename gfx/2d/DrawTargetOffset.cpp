@@ -1235,9 +1235,9 @@ MakeAndAddRef
 SourceSurfaceOffset
 >
 (
-DrawTarget
-:
-:
+mDrawTarget
+-
+>
 IntoLuminanceSource
 (
 aLuminanceType
