@@ -2109,6 +2109,17 @@ return
 true
 ;
 }
+void
+deleteConstructorScope
+(
+JSContext
+*
+cx
+ListNodeType
+memberList
+)
+{
+}
 UnaryNodeType
 newYieldExpression
 (
