@@ -7967,6 +7967,12 @@ uint32_t
 >
 AddPrefixHashes
 ;
+FallibleTArray
+<
+nsCString
+>
+AddCompletesHashes
+;
 rv
 =
 lookupCacheV2
@@ -7975,6 +7981,7 @@ lookupCacheV2
 GetPrefixes
 (
 AddPrefixHashes
+AddCompletesHashes
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7990,6 +7997,7 @@ store
 AugmentAdds
 (
 AddPrefixHashes
+AddCompletesHashes
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7999,6 +8007,12 @@ rv
 )
 ;
 AddPrefixHashes
+.
+Clear
+(
+)
+;
+AddCompletesHashes
 .
 Clear
 (
