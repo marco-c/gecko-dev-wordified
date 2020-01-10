@@ -225,9 +225,6 @@ the
 location
 of
 a
-"
-+
-"
 subdocument
 changes
 "

@@ -302,7 +302,6 @@ geom
 }
 )
 .
-+
 Retrying
 after
 a

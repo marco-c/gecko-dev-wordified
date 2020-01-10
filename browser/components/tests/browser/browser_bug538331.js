@@ -590,9 +590,6 @@ silent
 showURL
 extra
 '
-"
-+
-"
 for
 actions
 and

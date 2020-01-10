@@ -1587,9 +1587,6 @@ engine
 should
 not
 be
-"
-+
-"
 the
 current
 engine

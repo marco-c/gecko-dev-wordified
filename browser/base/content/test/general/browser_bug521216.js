@@ -190,6 +190,8 @@ order
 "
 )
 ;
+executeSoon
+(
 /
 /
 eslint
@@ -202,8 +204,6 @@ line
 no
 -
 shadow
-executeSoon
-(
 function
 (
 tab

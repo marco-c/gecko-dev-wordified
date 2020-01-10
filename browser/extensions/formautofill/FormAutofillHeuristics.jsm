@@ -3520,9 +3520,6 @@ ext
 b
 |
 extension
-"
-+
-"
 |
 ramal
 "

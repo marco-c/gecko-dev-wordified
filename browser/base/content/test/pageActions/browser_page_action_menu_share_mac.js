@@ -638,9 +638,6 @@ querySelector
 "
 #
 pageActionContextMenu
-"
-+
-"
 .
 pageActionContextMenuItem
 "
@@ -882,9 +879,6 @@ querySelector
 "
 #
 pageActionContextMenu
-"
-+
-"
 .
 pageActionContextMenuItem
 "

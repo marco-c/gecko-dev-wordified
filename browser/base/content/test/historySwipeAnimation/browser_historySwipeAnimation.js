@@ -219,9 +219,6 @@ History
 swipe
 animation
 support
-"
-+
-"
 was
 successfully
 uninitialized

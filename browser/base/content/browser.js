@@ -19056,9 +19056,6 @@ cannot
 accept
 a
 CPOW
-"
-+
-"
 as
 a
 document
@@ -20883,6 +20880,12 @@ bug
 bug
 909264
 )
+value
+=
+value
+.
+replace
+(
 /
 /
 eslint
@@ -20897,12 +20900,6 @@ no
 control
 -
 regex
-value
-=
-value
-.
-replace
-(
 /
 [
 \
