@@ -10577,6 +10577,10 @@ toStringStart
 funbox
 -
 >
+toStringEnd
+funbox
+-
+>
 startLine
 funbox
 -

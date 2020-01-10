@@ -2763,6 +2763,13 @@ innerFunctionsForLazy
 start
 end
 start
+end
+/
+*
+lineno
+=
+*
+/
 0
 start
 ParseGoal
