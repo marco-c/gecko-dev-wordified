@@ -8562,6 +8562,10 @@ PicturePrimitive
 new_image
 (
 leaf_composite_mode
+.
+clone
+(
+)
 leaf_context_3d
 stacking_context
 .
@@ -9075,6 +9079,10 @@ PictureCompositeMode
 Filter
 (
 filter
+.
+clone
+(
+)
 )
 }
 )
@@ -9102,6 +9110,10 @@ PicturePrimitive
 new_image
 (
 composite_mode
+.
+clone
+(
+)
 Picture3DContext
 :
 :
@@ -9452,6 +9464,10 @@ PicturePrimitive
 new_image
 (
 composite_mode
+.
+clone
+(
+)
 Picture3DContext
 :
 :
@@ -11309,6 +11325,10 @@ composite_mode_key
 Some
 (
 composite_mode
+.
+clone
+(
+)
 )
 .
 into

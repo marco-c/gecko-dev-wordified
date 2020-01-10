@@ -12810,7 +12810,6 @@ dead_code
 derive
 (
 Debug
-Copy
 Clone
 )
 ]
@@ -17558,6 +17557,7 @@ PictureCompositeMode
 :
 Filter
 (
+ref
 filter
 )
 )
@@ -17938,10 +17938,15 @@ else
 None
 }
 }
+ref
 mode
 =
 >
 mode
+.
+clone
+(
+)
 }
 ;
 if
@@ -20667,6 +20672,7 @@ PictureCompositeMode
 :
 Filter
 (
+ref
 filter
 )
 =
@@ -20682,6 +20688,7 @@ ColorMatrix
 m
 )
 =
+*
 filter
 {
 if

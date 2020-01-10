@@ -3802,7 +3802,6 @@ C
 derive
 (
 Clone
-Copy
 Debug
 PartialEq
 Deserialize
@@ -3916,6 +3915,7 @@ pub
 fn
 sanitize
 (
+&
 self
 )
 -
@@ -3980,8 +3980,10 @@ FilterOp
 :
 DropShadow
 (
+*
 offset
 radius
+*
 color
 )
 }
@@ -3989,6 +3991,10 @@ filter
 =
 >
 filter
+.
+clone
+(
+)
 }
 }
 }
