@@ -233,8 +233,33 @@ windows
 "
 :
         
+#
+Convert
+the
+path
+into
+the
+format
+eg
+.
+/
+c
+:
+/
+foo
+/
+bar
+        
 path
 =
+"
+/
+{
+}
+"
+.
+format
+(
 path
 .
 replace
@@ -247,6 +272,7 @@ replace
 /
 "
 )
+)
     
 url
 =
@@ -254,7 +280,6 @@ u
 "
 file
 :
-/
 /
 /
 {
