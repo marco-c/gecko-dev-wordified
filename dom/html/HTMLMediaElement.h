@@ -4539,6 +4539,16 @@ GetAllowedToPlayPromise
 (
 )
 ;
+bool
+GetShowPosterFlag
+(
+)
+const
+{
+return
+mShowPoster
+;
+}
 protected
 :
 virtual
