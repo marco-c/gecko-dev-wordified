@@ -122,6 +122,9 @@ ExtensionData
 "
 Langpack
 "
+"
+Management
+"
 ]
 ;
 /

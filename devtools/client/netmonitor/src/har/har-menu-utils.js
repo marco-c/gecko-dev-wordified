@@ -631,8 +631,6 @@ osfile
 .
 jsm
 "
-{
-}
 )
 ;
 OS

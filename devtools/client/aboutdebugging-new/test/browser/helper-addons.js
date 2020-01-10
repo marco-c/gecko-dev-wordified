@@ -385,7 +385,6 @@ Extension
 .
 jsm
 "
-null
 )
 ;
 info
@@ -556,8 +555,6 @@ ExtensionTestCommon
 .
 jsm
 "
-{
-}
 )
 ;
 const

@@ -177,7 +177,6 @@ Extension
 .
 jsm
 "
-null
 )
 ;
 const

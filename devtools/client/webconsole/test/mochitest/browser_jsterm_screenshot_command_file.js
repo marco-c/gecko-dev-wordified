@@ -74,7 +74,9 @@ html
 "
 ;
 const
+{
 FileUtils
+}
 =
 ChromeUtils
 .
@@ -93,11 +95,7 @@ FileUtils
 .
 jsm
 "
-{
-}
 )
-.
-FileUtils
 ;
 /
 /

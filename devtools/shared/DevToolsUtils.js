@@ -3014,15 +3014,11 @@ function
 const
 temp
 =
-{
-}
-;
 ChromeUtils
 .
 import
 (
 resource
-temp
 )
 ;
 return

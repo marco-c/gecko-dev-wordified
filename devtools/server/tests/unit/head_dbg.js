@@ -99,11 +99,8 @@ lazy
 getter
 .
 const
-_appInfo
+appInfo
 =
-{
-}
-;
 ChromeUtils
 .
 import
@@ -121,10 +118,9 @@ AppInfo
 .
 jsm
 "
-_appInfo
 )
 ;
-_appInfo
+appInfo
 .
 updateAppInfo
 (

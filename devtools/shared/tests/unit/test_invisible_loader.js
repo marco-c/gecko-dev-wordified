@@ -230,8 +230,6 @@ Promise
 .
 jsm
 "
-{
-}
 )
 .
 Promise

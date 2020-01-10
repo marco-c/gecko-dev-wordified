@@ -105,7 +105,6 @@ Extension
 .
 jsm
 "
-null
 )
 ;
 const

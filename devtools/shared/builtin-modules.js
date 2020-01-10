@@ -1024,7 +1024,7 @@ function
 (
 )
 {
-const
+let
 temp
 =
 {
@@ -1032,12 +1032,13 @@ temp
 ;
 try
 {
+temp
+=
 ChromeUtils
 .
 import
 (
 resource
-temp
 )
 ;
 if

@@ -151,7 +151,6 @@ Extension
 .
 jsm
 "
-null
 )
 ;
 return

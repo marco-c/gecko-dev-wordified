@@ -2812,8 +2812,6 @@ ChromeUtils
 import
 (
 uri
-{
-}
 )
 ;
 }

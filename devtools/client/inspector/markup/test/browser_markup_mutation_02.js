@@ -108,8 +108,6 @@ Timer
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils

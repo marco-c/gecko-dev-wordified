@@ -84,8 +84,6 @@ FileUtils
 .
 jsm
 "
-{
-}
 )
 ;
 /

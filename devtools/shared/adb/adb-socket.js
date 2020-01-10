@@ -62,6 +62,16 @@ strict
 "
 ;
 const
+ChromeUtils
+=
+require
+(
+"
+ChromeUtils
+"
+)
+;
+const
 {
 Cu
 }
@@ -106,7 +116,7 @@ Cu
 .
 getGlobalForObject
 (
-Cu
+ChromeUtils
 .
 import
 (
@@ -123,8 +133,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 )
 ;

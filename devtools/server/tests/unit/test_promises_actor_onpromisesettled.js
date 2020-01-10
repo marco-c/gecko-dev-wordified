@@ -59,6 +59,11 @@ use
 strict
 "
 ;
+const
+{
+PromiseTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -76,7 +81,6 @@ PromiseTestUtils
 .
 jsm
 "
-this
 )
 ;
 add_task

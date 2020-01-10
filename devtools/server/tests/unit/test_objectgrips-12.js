@@ -49,6 +49,11 @@ strict
 Test
 getDisplayString
 .
+const
+{
+PromiseTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -66,7 +71,6 @@ PromiseTestUtils
 .
 jsm
 "
-this
 )
 ;
 var

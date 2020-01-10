@@ -150,8 +150,6 @@ loader
 .
 js
 "
-{
-}
 )
 ;
 const
