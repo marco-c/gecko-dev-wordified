@@ -3938,14 +3938,11 @@ TableCell
 ;
 if
 (
-IsTableCell
-(
 cellFrame
 -
 >
-Type
+IsTableCellFrame
 (
-)
 )
 )
 {
