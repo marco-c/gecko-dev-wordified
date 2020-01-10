@@ -10126,11 +10126,14 @@ nsresult
 WorkerPrivate
 :
 :
-SetPrincipalOnMainThread
+SetPrincipalsOnMainThread
 (
 nsIPrincipal
 *
 aPrincipal
+nsIPrincipal
+*
+aStoragePrincipal
 nsILoadGroup
 *
 aLoadGroup
@@ -10139,9 +10142,10 @@ aLoadGroup
 return
 mLoadInfo
 .
-SetPrincipalOnMainThread
+SetPrincipalsOnMainThread
 (
 aPrincipal
+aStoragePrincipal
 aLoadGroup
 )
 ;
@@ -10150,7 +10154,7 @@ nsresult
 WorkerPrivate
 :
 :
-SetPrincipalFromChannel
+SetPrincipalsFromChannel
 (
 nsIChannel
 *
@@ -10160,7 +10164,7 @@ aChannel
 return
 mLoadInfo
 .
-SetPrincipalFromChannel
+SetPrincipalsFromChannel
 (
 aChannel
 )
@@ -13853,7 +13857,7 @@ rv
 =
 loadInfo
 .
-SetPrincipalFromChannel
+SetPrincipalsFromChannel
 (
 loadInfo
 .
