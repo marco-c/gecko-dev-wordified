@@ -5496,7 +5496,7 @@ if
 fun
 -
 >
-lazyScriptOrNull
+hasLazyScript
 (
 )
 )
