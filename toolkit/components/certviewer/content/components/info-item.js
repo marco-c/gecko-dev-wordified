@@ -206,6 +206,13 @@ l10n
 -
 id
 "
+"
+certificate
+-
+viewer
+-
+"
++
 labelText
 )
 ;
