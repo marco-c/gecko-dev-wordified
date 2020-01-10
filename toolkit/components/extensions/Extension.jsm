@@ -2313,7 +2313,7 @@ getStorage
 (
 null
 principal
-storagePrincipal
+principal
 )
 ;
 if
