@@ -421,6 +421,17 @@ if
 aFrame
 )
 {
+MOZ_ASSERT
+(
+!
+aFrame
+-
+>
+IsPlaceholderFrame
+(
+)
+)
+;
 if
 (
 MOZ_LIKELY
