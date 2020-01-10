@@ -1024,13 +1024,6 @@ let
 newWindow
 =
 aSubject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
-)
 ;
 newWindow
 .

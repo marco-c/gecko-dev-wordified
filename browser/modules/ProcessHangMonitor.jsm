@@ -1521,13 +1521,6 @@ let
 win
 =
 subject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
-)
 ;
 let
 listener
@@ -1579,13 +1572,6 @@ let
 win
 =
 subject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
-)
 ;
 this
 .

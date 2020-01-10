@@ -1611,15 +1611,6 @@ finished
 "
 )
 {
-subject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
-)
-;
 /
 /
 We

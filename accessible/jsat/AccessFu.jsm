@@ -1296,13 +1296,6 @@ let
 win
 =
 aSubject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
-)
 ;
 win
 .

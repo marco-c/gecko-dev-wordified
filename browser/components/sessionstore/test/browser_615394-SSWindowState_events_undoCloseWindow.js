@@ -389,13 +389,6 @@ domwindowopened
 newWindow
 =
 aSubject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
-)
 ;
 Services
 .

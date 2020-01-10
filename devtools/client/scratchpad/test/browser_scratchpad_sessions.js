@@ -255,13 +255,6 @@ const
 win
 =
 subject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
-)
 ;
 win
 .

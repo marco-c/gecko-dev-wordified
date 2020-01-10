@@ -204,7 +204,7 @@ let
 observer
 =
 (
-subject
+win
 topic
 data
 )
@@ -228,18 +228,6 @@ ww
 unregisterNotification
 (
 observer
-)
-;
-let
-win
-=
-subject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
 )
 ;
 win

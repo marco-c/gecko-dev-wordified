@@ -175,13 +175,6 @@ domwindowopened
 privateWindow
 =
 aSubject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
-)
 ;
 privateWindow
 .
