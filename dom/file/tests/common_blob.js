@@ -1573,7 +1573,7 @@ Slice
 of
 slice
 let
-slice
+sliceOfSlice
 =
 file
 .
@@ -1586,7 +1586,7 @@ slice
 return
 testBlob
 (
-slice
+sliceOfSlice
 .
 slice
 (
@@ -1627,7 +1627,7 @@ slice
 of
 slice
 let
-slice
+sliceOfSlice
 =
 file
 .
@@ -1658,7 +1658,7 @@ gc
 return
 testBlob
 (
-slice
+sliceOfSlice
 contents
 .
 slice
