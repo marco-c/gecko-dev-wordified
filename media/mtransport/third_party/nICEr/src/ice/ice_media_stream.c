@@ -858,6 +858,15 @@ nr_ice_component
 *
 comp
 ;
+assert
+(
+!
+stream
+-
+>
+obsolete
+)
+;
 comp
 =
 STAILQ_FIRST
