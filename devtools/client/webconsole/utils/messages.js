@@ -1981,11 +1981,13 @@ logPoint
 {
 frame
 .
-origin
+options
 =
-"
+{
 logPoint
-"
+:
+true
+}
 ;
 }
 return

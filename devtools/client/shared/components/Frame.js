@@ -1216,9 +1216,6 @@ comes
 from
 a
 logPoint
-or
-conditional
-breakpoint
 /
 /
 prefix
@@ -1230,7 +1227,7 @@ if
 (
 frame
 .
-origin
+options
 )
 {
 let
@@ -1240,13 +1237,9 @@ if
 (
 frame
 .
-origin
-=
-=
-=
-"
+options
+.
 logPoint
-"
 )
 {
 locationPrefix

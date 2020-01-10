@@ -381,7 +381,11 @@ sourceID
 *
 param
 {
+(
 string
+|
+object
+)
 }
 [
 reason
