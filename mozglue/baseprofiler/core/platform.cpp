@@ -14949,6 +14949,11 @@ continue
 ;
 }
 }
+AUTO_PROFILER_STATS
+(
+base_SamplerThread_Run_DoPeriodicSample
+)
+;
 now
 =
 TimeStamp
@@ -22154,6 +22159,11 @@ IsBeingProfiled
 return
 ;
 }
+AUTO_PROFILER_STATS
+(
+base_racy_profiler_add_marker
+)
+;
 TimeStamp
 origin
 =

@@ -609,6 +609,11 @@ DeleteExpiredStoredMarkers
 (
 )
 {
+AUTO_PROFILER_STATS
+(
+base_ProfileBuffer_DeleteExpiredStoredMarkers
+)
+;
 /
 /
 Delete
