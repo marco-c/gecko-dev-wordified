@@ -2190,10 +2190,9 @@ url
 ;
 Assert
 .
-ok
+greater
 (
 frecency
->
 0
 "
 Check

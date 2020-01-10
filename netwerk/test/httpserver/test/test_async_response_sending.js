@@ -6377,12 +6377,11 @@ join
 ;
 Assert
 .
-ok
+greater
 (
 increments
 .
 length
->
 0
 "
 bad

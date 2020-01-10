@@ -541,11 +541,9 @@ number
 ;
 Assert
 .
-ok
+greaterEqual
 (
 duration
->
-=
 0
 "
 Duration

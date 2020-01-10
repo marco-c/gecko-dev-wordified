@@ -147,10 +147,9 @@ window
 ;
 Assert
 .
-ok
+greater
 (
 resultCount
->
 0
 "
 At
