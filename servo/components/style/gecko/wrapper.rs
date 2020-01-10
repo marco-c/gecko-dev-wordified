@@ -11709,7 +11709,7 @@ arc
 Arc
 :
 :
-new
+new_leaked
 (
 global_style_data
 .
@@ -11785,7 +11785,7 @@ arc
 Arc
 :
 :
-new
+new_leaked
 (
 global_style_data
 .
@@ -11862,7 +11862,7 @@ arc
 Arc
 :
 :
-new
+new_leaked
 (
 global_style_data
 .
@@ -11931,7 +11931,7 @@ arc
 Arc
 :
 :
-new
+new_leaked
 (
 global_style_data
 .

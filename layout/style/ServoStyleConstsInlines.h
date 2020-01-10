@@ -803,6 +803,15 @@ std
 memory_order_acquire
 )
 ;
+MOZ_LOG_DTOR
+(
+this
+"
+ServoArc
+"
+8
+)
+;
 return
 true
 ;

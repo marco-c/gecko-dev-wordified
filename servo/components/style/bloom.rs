@@ -199,7 +199,7 @@ BloomFilter
 Arc
 :
 :
-new
+new_leaked
 (
 AtomicRefCell
 :
