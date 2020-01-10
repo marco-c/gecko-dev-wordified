@@ -1079,6 +1079,11 @@ mProxyOnly
 =
 false
 ;
+bool
+mObfuscateHostAddresses
+=
+false
+;
 /
 /
 mDNS
@@ -4374,6 +4379,10 @@ mProxyOnly
 true
 ;
 }
+mObfuscateHostAddresses
+=
+aObfuscateHostAddresses
+;
 /
 /
 Belt
@@ -5295,6 +5304,9 @@ rv
 {
 if
 (
+mObfuscateHostAddresses
+&
+&
 tokens
 .
 size
@@ -7213,6 +7225,8 @@ dom
 RTCStatsReportInternal
 *
 report
+bool
+obfuscateHostAddresses
 const
 std
 :
@@ -7407,6 +7421,9 @@ c_str
 else
 if
 (
+obfuscateHostAddresses
+&
+&
 candidate
 .
 type
@@ -8058,6 +8075,7 @@ Local_candidate
 transportId
 aNow
 aReport
+mObfuscateHostAddresses
 mSignaledAddresses
 )
 ;
@@ -8141,6 +8159,7 @@ Remote_candidate
 transportId
 aNow
 aReport
+mObfuscateHostAddresses
 mSignaledAddresses
 )
 ;
