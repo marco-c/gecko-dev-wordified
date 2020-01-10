@@ -11827,8 +11827,10 @@ getRematerializedFrame
 typedef
 GCVector
 <
+UniquePtr
+<
 RematerializedFrame
-*
+>
 >
 RematerializedFrameVector
 ;
