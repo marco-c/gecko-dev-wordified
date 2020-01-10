@@ -1848,6 +1848,9 @@ collectedTelemetryEvents
 :
 [
 ]
+testScope
+:
+null
 testUnpacked
 :
 false
