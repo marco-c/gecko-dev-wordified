@@ -509,6 +509,16 @@ AddCrashReportAnnotations
 (
 )
 ;
+int32_t
+WebRtcHwEncodeSupported
+(
+)
+;
+int32_t
+WebRtcHwDecodeSupported
+(
+)
+;
 bool
 mInitialized
 ;
