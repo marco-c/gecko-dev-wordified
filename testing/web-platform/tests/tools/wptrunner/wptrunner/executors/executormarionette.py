@@ -5121,11 +5121,7 @@ window
 .
 open
 (
-'
-about
-:
-blank
-'
+undefined
 '
 %
 s
