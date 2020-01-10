@@ -9041,12 +9041,6 @@ didJoin
 uint32_t
 mJoinOffset
 ;
-RefPtr
-<
-RangeItem
->
-mRangeItem
-;
 /
 /
 XXX
