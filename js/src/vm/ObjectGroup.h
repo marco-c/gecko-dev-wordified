@@ -1579,9 +1579,9 @@ void
 *
 addendum
 bool
-writeBarrier
+isSweeping
 =
-true
+false
 )
 ;
 AddendumKind
@@ -1642,7 +1642,7 @@ void
 detachNewScript
 (
 bool
-writeBarrier
+isSweeping
 ObjectGroup
 *
 replacement

@@ -3273,10 +3273,10 @@ sizeof
 char16_t
 )
 ;
-js
-:
-:
-RemoveCellMemory
+fop
+-
+>
+removeCellMemory
 (
 this
 nbytes
