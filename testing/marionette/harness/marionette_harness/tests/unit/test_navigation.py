@@ -2625,6 +2625,8 @@ By
 ID
 "
 urlbar
+-
+input
 "
 )
             
@@ -2795,6 +2797,8 @@ By
 ID
 "
 urlbar
+-
+input
 "
 )
             

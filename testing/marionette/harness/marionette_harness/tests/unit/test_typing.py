@@ -386,6 +386,8 @@ By
 ID
 "
 urlbar
+-
+input
 "
 )
         
@@ -423,7 +425,7 @@ assertEqual
 "
 url_bar
 .
-get_attribute
+get_property
 (
 "
 value
