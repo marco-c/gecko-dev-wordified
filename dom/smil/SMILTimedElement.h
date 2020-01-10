@@ -1167,7 +1167,7 @@ invalid
 *
 *
 param
-aSpec
+aCreator
 The
 SMILTimeValueSpec
 object
@@ -1211,7 +1211,7 @@ RemoveInstanceTimesForCreator
 const
 SMILTimeValueSpec
 *
-aSpec
+aCreator
 bool
 aIsBegin
 )
