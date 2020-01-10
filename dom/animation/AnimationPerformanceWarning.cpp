@@ -166,6 +166,19 @@ charParams
 N
 ]
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+mParams
+-
+>
+Length
+(
+)
+=
+=
+N
+)
+;
 for
 (
 size_t
@@ -299,7 +312,7 @@ NS_SUCCEEDED
 (
 ToLocalizedStringWithIntParams
 <
-7
+6
 >
 (
 "
@@ -347,7 +360,7 @@ NS_SUCCEEDED
 (
 ToLocalizedStringWithIntParams
 <
-3
+2
 >
 (
 "
