@@ -1928,7 +1928,7 @@ Latin1Char
 *
 >
 (
-JS_malloc
+JS_string_malloc
 (
 cx
 allocLen
@@ -2163,7 +2163,7 @@ char16_t
 *
 >
 (
-JS_malloc
+JS_string_malloc
 (
 cx
 allocLen
