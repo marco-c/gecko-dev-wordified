@@ -76,13 +76,13 @@ rmtree
 from
 mozbuild
 .
-artifacts
+artifact_cache
 import
 ArtifactCache
 from
 mozbuild
 import
-artifacts
+artifact_cache
 CONTENTS
 =
 {
@@ -342,7 +342,7 @@ self
 .
 min_cached_artifacts
 =
-artifacts
+artifact_cache
 .
 MIN_CACHED_ARTIFACTS
         
@@ -350,17 +350,17 @@ self
 .
 max_cached_artifacts_size
 =
-artifacts
+artifact_cache
 .
 MAX_CACHED_ARTIFACTS_SIZE
         
-artifacts
+artifact_cache
 .
 MIN_CACHED_ARTIFACTS
 =
 2
         
-artifacts
+artifact_cache
 .
 MAX_CACHED_ARTIFACTS_SIZE
 =
@@ -416,7 +416,7 @@ self
 tmpdir
 )
         
-artifacts
+artifact_cache
 .
 MIN_CACHED_ARTIFACTS
 =
@@ -424,7 +424,7 @@ self
 .
 min_cached_artifacts
         
-artifacts
+artifact_cache
 .
 MAX_CACHED_ARTIFACTS_SIZE
 =
