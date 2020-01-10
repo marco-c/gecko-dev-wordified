@@ -134,7 +134,6 @@ store
 ;
 const
 {
-devtoolsDocument
 devtoolsTab
 devtoolsWindow
 }
@@ -245,7 +244,9 @@ waitUntil
 )
 =
 >
-devtoolsDocument
+toolbox
+.
+topDoc
 .
 querySelector
 (
