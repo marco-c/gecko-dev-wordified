@@ -1037,6 +1037,12 @@ typedImage
 GetOriginPos
 (
 )
+typedImage
+-
+>
+GetHasAlpha
+(
+)
 aForwarder
 -
 >

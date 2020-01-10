@@ -306,6 +306,8 @@ gl
 :
 OriginPos
 aOriginPos
+bool
+aHasAlpha
 LayersIPCChannel
 *
 aAllocator
@@ -399,6 +401,8 @@ IntSize
 aSize
 bool
 aContinuous
+bool
+aHasAlpha
 )
 ;
 const
@@ -415,6 +419,10 @@ mSize
 const
 bool
 mContinuous
+;
+const
+bool
+mHasAlpha
 ;
 }
 ;
