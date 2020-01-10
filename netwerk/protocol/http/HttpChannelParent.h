@@ -734,14 +734,6 @@ CancelChildCrossProcessRedirect
 (
 )
 ;
-already_AddRefed
-<
-ParentChannelListener
->
-GetParentListener
-(
-)
-;
 protected
 :
 /
