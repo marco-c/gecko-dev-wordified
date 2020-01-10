@@ -5244,7 +5244,9 @@ MOZ_ASSERT
 previousValue
 -
 >
-mTransform
+Transform
+(
+)
 .
 mTransformInDevSpace
 .
@@ -5380,7 +5382,9 @@ previousValue
 previousValue
 -
 >
-mTransform
+Transform
+(
+)
 .
 mTransformInDevSpace
 :
