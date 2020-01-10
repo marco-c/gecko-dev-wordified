@@ -2861,7 +2861,7 @@ SetCapacity
 std
 :
 :
-min
+max
 (
 aOther
 .
