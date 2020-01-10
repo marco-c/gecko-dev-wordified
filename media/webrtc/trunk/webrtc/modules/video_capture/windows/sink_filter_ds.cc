@@ -139,7 +139,7 @@ include
 "
 rtc_base
 /
-string_utils
+stringutils
 .
 h
 "
@@ -1617,8 +1617,14 @@ type
 "
 <
 <
+static_cast
+<
+int32_t
+>
+(
 *
 it
+)
 ;
 /
 /
@@ -1688,8 +1694,14 @@ type
 "
 <
 <
+static_cast
+<
+int32_t
+>
+(
 *
 it
+)
 <
 <
 "
@@ -2515,7 +2527,7 @@ filter
 {
 capture_checker_
 .
-Detach
+DetachFromThread
 (
 )
 ;
@@ -2631,7 +2643,7 @@ false
 ;
 capture_checker_
 .
-Detach
+DetachFromThread
 (
 )
 ;
