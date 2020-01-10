@@ -389,6 +389,8 @@ If
 we
 have
 a
+system
+or
 null
 principal
 then
@@ -419,6 +421,12 @@ about
 pages
 .
 return
+(
+nodePrincipal
+.
+isSystemPrincipal
+|
+|
 nodePrincipal
 .
 isNullPrincipal
@@ -433,6 +441,7 @@ schemeIs
 "
 about
 "
+)
 )
 ;
 }
