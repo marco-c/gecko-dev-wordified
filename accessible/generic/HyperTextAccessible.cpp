@@ -9956,7 +9956,7 @@ caret
 mDoc
 -
 >
-PresShell
+PresShellPtr
 (
 )
 -

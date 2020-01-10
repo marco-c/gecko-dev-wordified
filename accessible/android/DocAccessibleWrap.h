@@ -116,6 +116,9 @@ h
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 a11y
 {
@@ -132,7 +135,7 @@ DocAccessibleWrap
 Document
 *
 aDocument
-nsIPresShell
+PresShell
 *
 aPresShell
 )

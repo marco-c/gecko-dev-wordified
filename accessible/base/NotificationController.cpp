@@ -164,6 +164,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -357,7 +366,7 @@ NotificationController
 DocAccessible
 *
 aDocument
-nsIPresShell
+PresShell
 *
 aPresShell
 )

@@ -218,6 +218,15 @@ h
 "
 #
 endif
+#
+include
+"
+mozilla
+/
+PresShell
+.
+h
+"
 namespace
 mozilla
 {
@@ -1616,9 +1625,9 @@ if
 acc
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 presShell
 =
@@ -1630,7 +1639,7 @@ Document
 )
 -
 >
-PresShell
+PresShellPtr
 (
 )
 ;

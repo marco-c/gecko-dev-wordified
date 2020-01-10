@@ -220,7 +220,7 @@ DocAccessible
 GetDocAccessible
 (
 const
-nsIPresShell
+PresShell
 *
 aPresShell
 )
@@ -230,9 +230,11 @@ if
 !
 aPresShell
 )
+{
 return
 nullptr
 ;
+}
 DocAccessible
 *
 doc
@@ -248,9 +250,11 @@ if
 (
 doc
 )
+{
 return
 doc
 ;
+}
 return
 GetDocAccessible
 (

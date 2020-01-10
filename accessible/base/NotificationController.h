@@ -156,6 +156,9 @@ endif
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 a11y
 {
@@ -520,7 +523,7 @@ NotificationController
 DocAccessible
 *
 aDocument
-nsIPresShell
+PresShell
 *
 aPresShell
 )
@@ -1836,7 +1839,7 @@ accessible
 .
 *
 /
-nsIPresShell
+PresShell
 *
 mPresShell
 ;

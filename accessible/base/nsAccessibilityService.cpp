@@ -3549,7 +3549,7 @@ nsAccessibilityService
 :
 DeckPanelSwitched
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIContent
@@ -3804,7 +3804,7 @@ nsAccessibilityService
 :
 ContentRangeInserted
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIContent
@@ -3951,7 +3951,7 @@ nsAccessibilityService
 :
 ContentRemoved
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIContent
@@ -4099,7 +4099,7 @@ nsAccessibilityService
 :
 UpdateText
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIContent
@@ -4135,7 +4135,7 @@ nsAccessibilityService
 :
 TreeViewChanged
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIContent
@@ -4209,7 +4209,7 @@ nsAccessibilityService
 :
 RangeValueChanged
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIContent
@@ -4269,7 +4269,7 @@ nsAccessibilityService
 :
 UpdateListBullet
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIContent
@@ -4467,7 +4467,7 @@ nsAccessibilityService
 :
 UpdateLabelValue
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIContent
@@ -4556,7 +4556,7 @@ nsAccessibilityService
 :
 PresShellActivated
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )
@@ -4623,7 +4623,7 @@ nsAccessibilityService
 :
 RecreateAccessible
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIContent

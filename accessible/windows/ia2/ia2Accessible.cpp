@@ -225,6 +225,15 @@ h
 #
 include
 "
+mozilla
+/
+PresShell
+.
+h
+"
+#
+include
+"
 nsIPersistentProperties2
 .
 h
@@ -1433,9 +1442,9 @@ IsProxy
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 presShell
 =
@@ -1447,7 +1456,7 @@ Document
 )
 -
 >
-PresShell
+PresShellPtr
 (
 )
 ;

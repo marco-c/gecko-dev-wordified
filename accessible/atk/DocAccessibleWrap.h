@@ -160,6 +160,9 @@ h
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 a11y
 {
@@ -179,7 +182,7 @@ dom
 Document
 *
 aDocument
-nsIPresShell
+PresShell
 *
 aPresShell
 )

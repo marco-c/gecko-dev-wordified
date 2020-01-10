@@ -122,12 +122,12 @@ WeakPtr
 .
 h
 "
-class
-nsIPresShell
-;
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -419,7 +419,7 @@ document
 void
 AddDocSelectionListener
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )
@@ -442,9 +442,9 @@ document
 void
 RemoveDocSelectionListener
 (
-nsIPresShell
+PresShell
 *
-aShell
+aPresShell
 )
 ;
 /
