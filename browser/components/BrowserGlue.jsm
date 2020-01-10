@@ -4114,7 +4114,7 @@ LoginManagerParent
 "
 PasswordManager
 :
-onGeneratedPasswordFilled
+onGeneratedPasswordFilledOrEdited
 "
 :
 [
