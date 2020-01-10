@@ -5390,9 +5390,7 @@ platforms
 is
 not
 None
-:
-                
-if
+and
 attr
 (
 '
@@ -5405,20 +5403,17 @@ self
 .
 platforms
 :
-                    
+                
 return
 False
             
-else
-:
-                
-if
+elif
 not
 check_run_on_projects
 (
 )
 :
-                    
+                
 run_by_default
 =
 False
