@@ -1556,7 +1556,7 @@ telemetry
 canRecordExtended
 ;
 let
-datacase
+channel
 =
 extendedEnabled
 ?
@@ -1602,7 +1602,7 @@ settings
 explanation
 "
 {
-datacase
+channel
 uploadcase
 }
 )
