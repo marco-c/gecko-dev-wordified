@@ -11028,7 +11028,7 @@ be
 provided
 "
 "
-TypeError
+InvalidParameterError
 "
 )
 ;
