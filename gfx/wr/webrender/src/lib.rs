@@ -1485,3 +1485,13 @@ api
 as
 webrender_api
 ;
+pub
+use
+webrender_build
+:
+:
+shader
+:
+:
+ProgramSourceDigest
+;
