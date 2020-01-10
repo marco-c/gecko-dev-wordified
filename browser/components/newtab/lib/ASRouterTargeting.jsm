@@ -615,14 +615,15 @@ onCheckComplete
 (
 request
 updates
-updateCount
 )
 {
 checker
 .
 _value
 =
-updateCount
+updates
+.
+length
 >
 0
 ;

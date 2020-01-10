@@ -403,9 +403,6 @@ selectUpdate
 aArgs
 .
 updates
-aArgs
-.
-updateCount
 )
 .
 QueryInterface
@@ -1535,7 +1532,9 @@ equal
 (
 aArgs
 .
-updateCount
+updates
+.
+length
 0
 "
 the
@@ -1813,9 +1812,6 @@ selectUpdate
 aArgs
 .
 updates
-aArgs
-.
-updateCount
 )
 ;
 Assert
@@ -1942,9 +1938,6 @@ selectUpdate
 aArgs
 .
 updates
-aArgs
-.
-updateCount
 )
 ;
 Assert

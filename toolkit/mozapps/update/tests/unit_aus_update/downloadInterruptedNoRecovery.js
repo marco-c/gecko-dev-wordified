@@ -181,9 +181,6 @@ waitForUpdateDownload
 aArgs
 .
 updates
-aArgs
-.
-updateCount
 Cr
 .
 NS_ERROR_NET_RESET

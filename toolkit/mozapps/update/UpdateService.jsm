@@ -16208,7 +16208,6 @@ AUS_onCheckComplete
 (
 request
 updates
-updateCount
 )
 {
 this
@@ -18606,9 +18605,6 @@ this
 selectUpdate
 (
 updates
-updates
-.
-length
 )
 ;
 if
@@ -24898,9 +24894,6 @@ event
 .
 target
 updates
-updates
-.
-length
 )
 ;
 }

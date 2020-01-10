@@ -1883,7 +1883,6 @@ onCheckComplete
 (
 aRequest
 aUpdates
-aUpdateCount
 )
 {
 gAppUpdater
@@ -1903,9 +1902,6 @@ aus
 selectUpdate
 (
 aUpdates
-aUpdates
-.
-length
 )
 ;
 if
