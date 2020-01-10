@@ -383,7 +383,11 @@ shmem
 (
 nullptr
 true
-false
+/
+*
+aRequiresMutex
+*
+/
 )
 ;
 if
