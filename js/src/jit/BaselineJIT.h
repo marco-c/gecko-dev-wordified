@@ -3526,9 +3526,9 @@ data
 void
 ToggleBaselineProfiling
 (
-JSRuntime
+JSContext
 *
-runtime
+cx
 bool
 enable
 )
