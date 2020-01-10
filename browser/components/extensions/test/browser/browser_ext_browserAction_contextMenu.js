@@ -544,14 +544,8 @@ Services
 .
 telemetry
 .
-snapshotEvents
+clearEvents
 (
-Ci
-.
-nsITelemetry
-.
-DATASET_RELEASE_CHANNEL_OPTIN
-true
 )
 ;
 }
