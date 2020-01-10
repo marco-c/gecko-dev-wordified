@@ -2722,6 +2722,12 @@ op
 compositable
 (
 )
+/
+*
+aAllowDisablingWebRender
+*
+/
+true
 )
 ;
 if

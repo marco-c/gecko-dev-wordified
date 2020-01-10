@@ -336,6 +336,10 @@ const
 CompositableHandle
 &
 aHandle
+bool
+aAllowDisablingWebRender
+=
+false
 )
 ;
 protected
