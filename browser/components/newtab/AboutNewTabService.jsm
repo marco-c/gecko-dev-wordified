@@ -316,11 +316,6 @@ id
 is
 it
 ja
-ja
--
-JP
--
-macos
 ka
 kab
 kk
