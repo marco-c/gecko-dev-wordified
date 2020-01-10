@@ -45310,8 +45310,9 @@ invocationKind
 =
 gckind
 .
-value
+valueOr
 (
+GC_NORMAL
 )
 ;
 initialReason
