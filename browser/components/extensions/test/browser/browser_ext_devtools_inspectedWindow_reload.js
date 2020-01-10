@@ -151,12 +151,6 @@ TEST_TARGET_URL
 BASE
 }
 /
-test
--
-oop
--
-extensions
-/
 file_inspectedwindow_reload_target
 .
 sjs
