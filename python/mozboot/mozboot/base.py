@@ -2063,6 +2063,10 @@ self
 state_dir
 checkout_root
 toolchain_job
+                                   
+no_unpack
+=
+False
 )
 :
         
@@ -2200,6 +2204,23 @@ from
 build
 '
 toolchain_job
+]
+        
+if
+no_unpack
+:
+            
+cmd
++
+=
+[
+'
+-
+-
+no
+-
+unpack
+'
 ]
         
 subprocess
