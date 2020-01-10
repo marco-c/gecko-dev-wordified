@@ -1923,6 +1923,7 @@ previously
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 ResizeReflowIgnoreOverride
