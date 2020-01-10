@@ -235,6 +235,16 @@ stop
 }
 Override
 public
+void
+setToken
+(
+String
+token
+)
+{
+}
+Override
+public
 boolean
 handleGcmMessage
 (
