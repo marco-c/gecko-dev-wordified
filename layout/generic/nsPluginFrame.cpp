@@ -5629,6 +5629,9 @@ aParameters
 override
 {
 return
+LayerState
+:
+:
 LAYER_ACTIVE
 ;
 }
@@ -7240,6 +7243,9 @@ if
 state
 =
 =
+LayerState
+:
+:
 LAYER_INACTIVE
 &
 &
@@ -7253,6 +7259,9 @@ ForceActiveLayers
 {
 state
 =
+LayerState
+:
+:
 LAYER_ACTIVE
 ;
 }
@@ -7269,6 +7278,9 @@ IsPaintingToWindow
 state
 =
 =
+LayerState
+:
+:
 LAYER_ACTIVE
 &
 &
@@ -8163,6 +8175,9 @@ if
 mInstanceOwner
 )
 return
+LayerState
+:
+:
 LAYER_NONE
 ;
 if
@@ -8176,6 +8191,9 @@ NeedsScrollImageLayer
 )
 {
 return
+LayerState
+:
+:
 LAYER_ACTIVE
 ;
 }
@@ -8191,10 +8209,16 @@ UseAsyncRendering
 )
 {
 return
+LayerState
+:
+:
 LAYER_NONE
 ;
 }
 return
+LayerState
+:
+:
 LAYER_ACTIVE_FORCE
 ;
 }

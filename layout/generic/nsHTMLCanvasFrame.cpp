@@ -1485,6 +1485,9 @@ aManager
 )
 )
 return
+LayerState
+:
+:
 LAYER_INACTIVE
 ;
 /
@@ -1518,9 +1521,15 @@ return
 mozilla
 :
 :
+LayerState
+:
+:
 LAYER_ACTIVE
 ;
 return
+LayerState
+:
+:
 LAYER_INACTIVE
 ;
 }

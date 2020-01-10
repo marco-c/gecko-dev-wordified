@@ -124,7 +124,10 @@ namespace
 mozilla
 {
 enum
+class
 LayerState
+:
+uint8_t
 {
 LAYER_NONE
 LAYER_INACTIVE
