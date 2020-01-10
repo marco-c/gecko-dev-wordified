@@ -3829,7 +3829,7 @@ mIsChildWindow
 :
 1
 ;
-bool
+int32_t
 mCachedHitTestResult
 ;
 /
