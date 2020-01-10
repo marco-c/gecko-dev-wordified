@@ -710,6 +710,7 @@ const
 {
 sourceId
 column
+line
 }
 =
 initialLocation
@@ -722,6 +723,7 @@ setBreakpointPositions
 {
 cx
 sourceId
+line
 }
 )
 )

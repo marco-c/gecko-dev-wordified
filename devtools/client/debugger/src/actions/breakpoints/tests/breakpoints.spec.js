@@ -131,6 +131,15 @@ async
 =
 >
 positionsResponse
+getBreakableLines
+:
+async
+(
+)
+=
+>
+[
+]
 }
 ;
 }

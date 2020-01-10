@@ -167,6 +167,15 @@ async
 {
 }
 )
+getBreakableLines
+:
+async
+(
+)
+=
+>
+[
+]
 detachWorkers
 :
 (

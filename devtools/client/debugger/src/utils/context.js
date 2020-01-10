@@ -443,6 +443,13 @@ NavigateContext
 ThreadContext
 ;
 export
+class
+ContextError
+extends
+Error
+{
+}
+export
 function
 validateNavigateContext
 (
@@ -476,7 +483,7 @@ navigateCounter
 {
 throw
 new
-Error
+ContextError
 (
 "
 Page
@@ -520,7 +527,7 @@ thread
 {
 throw
 new
-Error
+ContextError
 (
 "
 Current
@@ -545,7 +552,7 @@ pauseCounter
 {
 throw
 new
-Error
+ContextError
 (
 "
 Current

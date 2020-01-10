@@ -76,6 +76,15 @@ from
 "
 .
 /
+breakableLines
+"
+;
+export
+*
+from
+"
+.
+/
 loadSourceText
 "
 ;
