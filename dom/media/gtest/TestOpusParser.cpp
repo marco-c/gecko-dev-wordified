@@ -114,6 +114,10 @@ include
 <
 algorithm
 >
+using
+namespace
+mozilla
+;
 TEST
 (
 OpusParser
