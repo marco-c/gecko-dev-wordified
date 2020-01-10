@@ -1751,6 +1751,9 @@ startServers
 self
 options
 debuggerInfo
+public
+=
+None
 )
 :
         
@@ -1790,6 +1793,10 @@ self
 options
             
 debuggerInfo
+            
+public
+=
+True
 )
         
 restoreRemotePaths
