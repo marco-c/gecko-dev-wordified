@@ -1667,13 +1667,20 @@ distro
             
 elif
 distro
-=
-=
+in
+(
 '
 Gentoo
 Base
 System
 '
+'
+Funtoo
+Linux
+-
+baselayout
+'
+)
 :
                 
 cls
