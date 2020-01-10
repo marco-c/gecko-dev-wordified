@@ -7425,6 +7425,20 @@ create_browser_profile
 (
 )
                 
+if
+test
+.
+get
+(
+'
+playback
+'
+)
+is
+not
+None
+:
+                    
 #
 get
 cert
@@ -7439,7 +7453,7 @@ into
 new
 clean
 profile
-                
+                    
 #
 this
 saves
@@ -7456,7 +7470,7 @@ cert
 db
 etc
 .
-                
+                    
 self
 .
 log
@@ -7475,7 +7489,7 @@ browser
 profile
 "
 )
-                
+                    
 self
 .
 copy_cert_db
