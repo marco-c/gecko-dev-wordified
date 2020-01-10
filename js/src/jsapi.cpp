@@ -21418,12 +21418,6 @@ rhs
 .
 introductionOffset
 ;
-hasIntroductionInfo
-=
-rhs
-.
-hasIntroductionInfo
-;
 hideScriptFromDebugger
 =
 rhs
@@ -21437,7 +21431,6 @@ rhs
 fieldsEnabledOption
 ;
 }
-;
 void
 JS
 :
