@@ -8102,6 +8102,10 @@ mUpgradeInsecurePreloads
 (
 false
 )
+mDontWarnAboutMutationEventsAndAllowSlowDOMMutations
+(
+false
+)
 mCharacterSet
 (
 WINDOWS_1252_ENCODING
