@@ -372,6 +372,7 @@ except
 WebIDL
 .
 WebIDLError
+as
 e
 :
             
@@ -394,6 +395,7 @@ expected
         
 except
 Exception
+as
 e
 :
             
