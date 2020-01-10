@@ -1234,6 +1234,11 @@ id
 "
 inspectorMac
 "
+toolId
+:
+"
+inspector
+"
 shortcut
 :
 KeyShortcutsBundle
