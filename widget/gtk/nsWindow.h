@@ -2768,6 +2768,11 @@ bug
 guint32
 mLastScrollEventTime
 ;
+bool
+mPanInProgress
+=
+false
+;
 /
 /
 for
