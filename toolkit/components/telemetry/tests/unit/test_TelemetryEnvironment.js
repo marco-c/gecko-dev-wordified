@@ -1024,17 +1024,8 @@ PluginHost
 {
 getPluginTags
 (
-countRef
 )
 {
-countRef
-.
-value
-=
-gInstalledPlugins
-.
-length
-;
 return
 gInstalledPlugins
 .

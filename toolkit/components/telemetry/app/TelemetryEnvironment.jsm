@@ -5919,8 +5919,6 @@ nsIPluginHost
 .
 getPluginTags
 (
-{
-}
 )
 ;
 let
