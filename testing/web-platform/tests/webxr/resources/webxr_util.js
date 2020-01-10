@@ -978,7 +978,7 @@ ui
 /
 display
 /
-mojo
+mojom
 /
 display
 .
