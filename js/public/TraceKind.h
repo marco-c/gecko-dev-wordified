@@ -792,9 +792,9 @@ D
 \
 /
 *
-PrettyName
-TypeName
-IsCCTraceKind
+name
+type
+canBeGray
 *
 /
 \
