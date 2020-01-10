@@ -520,17 +520,6 @@ disabled
     
 (
 "
-object
-"
-[
-"
-typemustmatch
-"
-]
-)
-    
-(
-"
 ol
 "
 [
