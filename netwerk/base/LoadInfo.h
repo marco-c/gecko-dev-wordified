@@ -1074,6 +1074,8 @@ aIsThirdPartyRequest
 bool
 aIsDocshellReload
 bool
+aIsFormSubmission
+bool
 aSendCSPViolationEvents
 const
 OriginAttributes
@@ -1541,6 +1543,9 @@ mIsThirdPartyContext
 ;
 bool
 mIsDocshellReload
+;
+bool
+mIsFormSubmission
 ;
 bool
 mSendCSPViolationEvents

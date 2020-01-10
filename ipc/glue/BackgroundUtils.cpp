@@ -3332,6 +3332,12 @@ GetIsDocshellReload
 aLoadInfo
 -
 >
+GetIsFormSubmission
+(
+)
+aLoadInfo
+-
+>
 GetSendCSPViolationEvents
 (
 )
@@ -4318,6 +4324,11 @@ isInThirdPartyContext
 loadInfoArgs
 .
 isDocshellReload
+(
+)
+loadInfoArgs
+.
+isFormSubmission
 (
 )
 loadInfoArgs
