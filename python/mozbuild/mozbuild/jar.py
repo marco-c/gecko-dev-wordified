@@ -108,6 +108,8 @@ errno
 import
 re
 import
+six
+import
 logging
 from
 time
@@ -2687,10 +2689,11 @@ register
 addEntriesToListFile
 (
 manifestPath
-myregister
+six
 .
 iterkeys
 (
+myregister
 )
 )
     
