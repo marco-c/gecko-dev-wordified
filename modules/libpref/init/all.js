@@ -10045,7 +10045,6 @@ backends
 "
 direct2d
 skia
-cairo
 "
 )
 ;
@@ -10065,7 +10064,6 @@ direct2d1
 .
 1
 skia
-cairo
 "
 )
 ;
@@ -10085,7 +10083,6 @@ direct2d1
 .
 1
 skia
-cairo
 "
 )
 ;
