@@ -1067,7 +1067,7 @@ sandbox
 enabling
 .
 static
-bool
+void
 StaticFillMacSandboxInfo
 (
 MacSandboxInfo
@@ -1493,7 +1493,7 @@ configure
 the
 sandbox
 virtual
-bool
+void
 FillMacSandboxInfo
 (
 MacSandboxInfo
@@ -1531,7 +1531,7 @@ is
 up
 .
 virtual
-bool
+void
 AppendMacSandboxParams
 (
 StringVector

@@ -792,7 +792,7 @@ sandbox
 enabling
 .
 static
-bool
+void
 StaticFillMacSandboxInfo
 (
 MacSandboxInfo
@@ -963,7 +963,7 @@ process
 specific
 sandbox
 logging
-bool
+void
 FillMacSandboxInfo
 (
 MacSandboxInfo
