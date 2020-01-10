@@ -4090,9 +4090,6 @@ fop
 SliceBudget
 &
 budget
-Zone
-*
-zone
 )
 ;
 IncrementalProgress
@@ -4142,11 +4139,6 @@ fop
 SliceBudget
 &
 budget
-Zone
-*
-zone
-AllocKind
-kind
 )
 ;
 IncrementalProgress
@@ -4158,9 +4150,6 @@ fop
 SliceBudget
 &
 budget
-Zone
-*
-zone
 )
 ;
 void
@@ -5730,6 +5719,12 @@ Zone
 *
 >
 sweepZone
+;
+MainThreadOrGCTaskData
+<
+AllocKind
+>
+sweepAllocKind
 ;
 MainThreadData
 <
