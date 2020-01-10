@@ -1140,6 +1140,17 @@ IsFuzzingEnabled
 )
 ;
 }
+static
+bool
+IsCallerChromeOrElementTransformGettersEnabled
+(
+JSContext
+*
+aCx
+JSObject
+*
+)
+;
 /
 /
 The
