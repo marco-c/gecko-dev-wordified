@@ -1475,6 +1475,9 @@ Stringify
 nsAString
 &
 aResult
+ErrorResult
+&
+aRv
 )
 ;
 bool
