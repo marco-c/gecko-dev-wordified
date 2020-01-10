@@ -1610,6 +1610,14 @@ CK_KEY_TYPE
 keyType
 )
 ;
+CK_OBJECT_HANDLE
+PK11_DerivePubKeyFromPrivKey
+(
+SECKEYPrivateKey
+*
+privKey
+)
+;
 /
 *
 *

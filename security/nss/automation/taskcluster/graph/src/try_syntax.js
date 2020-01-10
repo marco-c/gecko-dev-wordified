@@ -625,6 +625,9 @@ scan
 build
 "
 "
+coverity
+"
+"
 hacl
 "
 "
