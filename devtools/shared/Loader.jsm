@@ -604,9 +604,6 @@ freshCompartment
 this
 .
 freshCompartment
-sharedGlobal
-:
-true
 sandboxName
 :
 "
