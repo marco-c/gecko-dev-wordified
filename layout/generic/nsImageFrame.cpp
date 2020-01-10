@@ -202,6 +202,15 @@ include
 "
 mozilla
 /
+HTMLEditor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D
