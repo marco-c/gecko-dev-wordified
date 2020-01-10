@@ -3877,9 +3877,7 @@ GetPaintRect
 (
 )
 flags
-IsSubpixelAADisabled
-(
-)
+mDisableSubpixelAA
 )
 ;
 nsDisplayBulletGeometry

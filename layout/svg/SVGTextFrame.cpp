@@ -18760,9 +18760,7 @@ aCtx
 GetDrawTarget
 (
 )
-IsSubpixelAADisabled
-(
-)
+mDisableSubpixelAA
 )
 ;
 uint32_t
