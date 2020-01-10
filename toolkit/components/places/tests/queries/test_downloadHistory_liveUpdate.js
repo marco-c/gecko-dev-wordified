@@ -211,7 +211,6 @@ TRANSITIONS
 .
 DOWNLOAD
 ]
-1
 )
 ;
 let
@@ -607,7 +606,6 @@ TRANSITIONS
 .
 DOWNLOAD
 ]
-1
 )
 ;
 let
