@@ -1054,10 +1054,6 @@ mozilla
 ipc
 ;
 using
-namespace
-std
-;
-using
 mozilla
 :
 :
