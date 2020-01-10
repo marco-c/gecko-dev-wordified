@@ -1146,6 +1146,9 @@ LoginHelper
 openPasswordManager
 (
 window
+{
+filterString
+:
 this
 .
 _getSecurityInfo
@@ -1153,6 +1156,12 @@ _getSecurityInfo
 )
 .
 hostName
+entryPoint
+:
+"
+pageinfo
+"
+}
 )
 ;
 }
