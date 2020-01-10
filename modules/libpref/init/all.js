@@ -29106,7 +29106,6 @@ debugging
 downloads
 home
 newtab
-plugins
 preferences
 sessionrestore
 sync
