@@ -1701,8 +1701,8 @@ TOO_MUCH_MALLOC
 when
 the
 total
-amount
 *
+amount
 of
 malloced
 memory
@@ -1715,6 +1715,7 @@ trigger
 limit
 for
 the
+*
 zone
 .
 *
