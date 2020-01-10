@@ -104,9 +104,7 @@ record
 scope
 )
 ;
-Services
-.
-perms
+PermissionTestUtils
 .
 add
 (
@@ -131,9 +129,7 @@ registerCleanupFunction
 =
 >
 {
-Services
-.
-perms
+PermissionTestUtils
 .
 remove
 (

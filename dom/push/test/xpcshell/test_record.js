@@ -505,9 +505,7 @@ props
 scope
 )
 ;
-Services
-.
-perms
+PermissionTestUtils
 .
 add
 (
@@ -550,9 +548,7 @@ permission
 }
 finally
 {
-Services
-.
-perms
+PermissionTestUtils
 .
 remove
 (
