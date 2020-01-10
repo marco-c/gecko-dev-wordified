@@ -10322,7 +10322,7 @@ class
 nsDisplayComboboxFocus
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -10336,7 +10336,7 @@ nsComboboxControlFrame
 aFrame
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame

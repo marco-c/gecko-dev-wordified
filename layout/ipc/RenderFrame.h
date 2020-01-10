@@ -584,7 +584,7 @@ nsDisplayRemote
 final
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 typedef
 mozilla

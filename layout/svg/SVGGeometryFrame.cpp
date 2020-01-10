@@ -610,7 +610,7 @@ nsDisplaySVGGeometry
 final
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 typedef
 mozilla
@@ -634,7 +634,7 @@ SVGGeometryFrame
 aFrame
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame
@@ -1089,7 +1089,7 @@ snap
 )
 ;
 }
-nsDisplayItem
+nsPaintedDisplayItem
 :
 :
 ComputeInvalidationRegion

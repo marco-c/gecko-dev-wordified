@@ -9329,7 +9329,7 @@ class
 nsDisplayFramesetBorder
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -9343,7 +9343,7 @@ nsHTMLFramesetBorderFrame
 aFrame
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame
@@ -10626,7 +10626,7 @@ class
 nsDisplayFramesetBlank
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -10640,7 +10640,7 @@ nsIFrame
 aFrame
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame

@@ -737,7 +737,7 @@ class
 nsDisplayListFocus
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -751,7 +751,7 @@ nsSelectsAreaFrame
 aFrame
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame

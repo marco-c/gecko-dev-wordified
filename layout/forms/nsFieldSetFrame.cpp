@@ -771,7 +771,7 @@ nsDisplayFieldSetBorder
 final
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -785,7 +785,7 @@ nsFieldSetFrame
 aFrame
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame

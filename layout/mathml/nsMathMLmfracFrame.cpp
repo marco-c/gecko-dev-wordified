@@ -3809,7 +3809,7 @@ class
 nsDisplayMathMLSlash
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -3831,7 +3831,7 @@ bool
 aRTL
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame

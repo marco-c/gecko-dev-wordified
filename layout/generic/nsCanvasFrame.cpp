@@ -2996,7 +2996,7 @@ class
 nsDisplayCanvasFocus
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -3010,7 +3010,7 @@ nsCanvasFrame
 aFrame
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame

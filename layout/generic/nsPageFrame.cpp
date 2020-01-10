@@ -3328,7 +3328,7 @@ nsDisplayHeaderFooter
 final
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -3342,7 +3342,7 @@ nsPageFrame
 aFrame
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame

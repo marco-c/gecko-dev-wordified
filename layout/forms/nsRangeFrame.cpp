@@ -1044,7 +1044,7 @@ nsDisplayRangeFocusRing
 final
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -1058,7 +1058,7 @@ nsIFrame
 aFrame
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame

@@ -458,7 +458,7 @@ class
 nsDisplayButtonBoxShadowOuter
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -472,7 +472,7 @@ nsIFrame
 aFrame
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame
@@ -1192,7 +1192,7 @@ nsDisplayButtonBorder
 final
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -1209,7 +1209,7 @@ nsButtonFrameRenderer
 aRenderer
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame
@@ -1831,7 +1831,7 @@ nsDisplayButtonForeground
 final
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -1848,7 +1848,7 @@ nsButtonFrameRenderer
 aRenderer
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame

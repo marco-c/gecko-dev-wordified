@@ -1958,7 +1958,7 @@ nsDisplayMathMLBar
 final
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -1978,7 +1978,7 @@ uint16_t
 aIndex
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame

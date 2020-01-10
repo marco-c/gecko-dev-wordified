@@ -4611,7 +4611,7 @@ nsDisplayNotation
 final
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -4633,7 +4633,7 @@ nsMencloseNotation
 aType
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame

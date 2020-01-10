@@ -18459,7 +18459,7 @@ nsDisplaySVGText
 final
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -18473,7 +18473,7 @@ SVGTextFrame
 aFrame
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame
