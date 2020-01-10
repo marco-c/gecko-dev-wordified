@@ -2065,6 +2065,12 @@ emitExtraBodyVarScope
 (
 )
 ;
+MOZ_MUST_USE
+bool
+emitInitializeInstanceFields
+(
+)
+;
 /
 /
 Async
