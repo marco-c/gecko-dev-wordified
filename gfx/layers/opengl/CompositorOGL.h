@@ -1845,6 +1845,11 @@ gfx
 Matrix4x4
 mProjMatrix
 ;
+bool
+mCanRenderToDefaultFramebuffer
+=
+true
+;
 #
 ifdef
 XP_DARWIN
