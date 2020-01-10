@@ -573,18 +573,17 @@ exit
     
 except
 Exception
+as
+e
 :
         
 logger
 .
 error
 (
-'
-Failure
-during
-harness
-execution
-'
+e
+.
+message
 exc_info
 =
 True
