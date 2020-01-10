@@ -245,6 +245,11 @@ PropTypes
 shape
 (
 {
+key
+:
+PropTypes
+.
+string
 component
 :
 PropTypes
