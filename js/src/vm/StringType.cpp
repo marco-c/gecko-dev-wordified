@@ -2347,6 +2347,8 @@ copyLatin1CharsZ
 JSContext
 *
 maybecx
+arena_id_t
+destArenaId
 )
 const
 {
@@ -2358,6 +2360,7 @@ Latin1Char
 (
 maybecx
 true
+destArenaId
 )
 ;
 }
@@ -2370,6 +2373,8 @@ copyTwoByteCharsZ
 JSContext
 *
 maybecx
+arena_id_t
+destArenaId
 )
 const
 {
@@ -2381,6 +2386,7 @@ char16_t
 (
 maybecx
 true
+destArenaId
 )
 ;
 }
@@ -2393,6 +2399,8 @@ copyLatin1Chars
 JSContext
 *
 maybecx
+arena_id_t
+destArenaId
 )
 const
 {
@@ -2404,6 +2412,7 @@ Latin1Char
 (
 maybecx
 false
+destArenaId
 )
 ;
 }
@@ -2416,6 +2425,8 @@ copyTwoByteChars
 JSContext
 *
 maybecx
+arena_id_t
+destArenaId
 )
 const
 {
@@ -2427,6 +2438,7 @@ char16_t
 (
 maybecx
 false
+destArenaId
 )
 ;
 }
@@ -2455,6 +2467,8 @@ JSContext
 maybecx
 bool
 nullTerminate
+arena_id_t
+destArenaId
 )
 const
 {
@@ -2540,6 +2554,7 @@ CharT
 n
 +
 1
+destArenaId
 )
 )
 ;
@@ -2550,11 +2565,12 @@ out
 .
 reset
 (
-js_pod_malloc
+js_pod_arena_malloc
 <
 CharT
 >
 (
+destArenaId
 n
 +
 1
@@ -13090,6 +13106,10 @@ cx
 utf8
 &
 length
+js
+:
+:
+MallocArena
 )
 .
 get
@@ -13148,6 +13168,10 @@ cx
 utf8
 &
 length
+js
+:
+:
+MallocArena
 )
 .
 get

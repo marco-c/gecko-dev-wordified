@@ -688,6 +688,10 @@ length
 )
 &
 length
+js
+:
+:
+MallocArena
 )
 .
 get
@@ -1282,6 +1286,10 @@ length
 )
 &
 length
+js
+:
+:
+MallocArena
 )
 .
 get
@@ -3674,6 +3682,10 @@ length
 )
 &
 length
+js
+:
+:
+MallocArena
 )
 .
 get

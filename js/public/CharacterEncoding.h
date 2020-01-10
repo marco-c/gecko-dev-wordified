@@ -1771,6 +1771,8 @@ utf8
 size_t
 *
 outlen
+arena_id_t
+destArenaId
 )
 ;
 /
@@ -1798,6 +1800,8 @@ wtf8
 size_t
 *
 outlen
+arena_id_t
+destArenaId
 )
 ;
 /
@@ -1826,6 +1830,8 @@ utf8
 size_t
 *
 outlen
+arena_id_t
+destArenaId
 )
 ;
 /
@@ -1882,6 +1888,8 @@ utf8
 size_t
 *
 outlen
+arena_id_t
+destArenaId
 )
 ;
 extern
@@ -1899,6 +1907,8 @@ utf8
 size_t
 *
 outlen
+arena_id_t
+destArenaId
 )
 ;
 /
@@ -2251,6 +2261,8 @@ utf8
 size_t
 *
 outlen
+arena_id_t
+destArenaId
 )
 ;
 /
@@ -2322,6 +2334,8 @@ utf8
 size_t
 *
 outlen
+arena_id_t
+destArenaId
 )
 ;
 /

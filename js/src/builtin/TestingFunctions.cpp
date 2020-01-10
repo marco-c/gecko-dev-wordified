@@ -15648,8 +15648,12 @@ unknown
 UniqueChars
 label
 =
-DuplicateString
+DuplicateStringToArena
 (
+js
+:
+:
+MallocArena
 cx
 frames
 [
@@ -22176,8 +22180,12 @@ node
 EdgeName
 edgeName
 =
-DuplicateString
+DuplicateStringToArena
 (
+js
+:
+:
+MallocArena
 cx
 edge
 .

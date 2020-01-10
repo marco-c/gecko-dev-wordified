@@ -14551,6 +14551,10 @@ len
 )
 &
 len
+js
+:
+:
+MallocArena
 )
 .
 get

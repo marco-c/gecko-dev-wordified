@@ -624,6 +624,10 @@ tcx
 *
 /
 nullptr
+js
+:
+:
+MallocArena
 )
 ;
 if
@@ -716,6 +720,10 @@ tcx
 *
 /
 nullptr
+js
+:
+:
+MallocArena
 )
 ;
 if
@@ -996,6 +1004,10 @@ tcx
 *
 /
 nullptr
+js
+:
+:
+MallocArena
 )
 ;
 if
