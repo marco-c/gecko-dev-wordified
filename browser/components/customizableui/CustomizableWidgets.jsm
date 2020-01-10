@@ -5335,13 +5335,6 @@ win
 openPreferences
 (
 undefined
-{
-origin
-:
-"
-preferencesButton
-"
-}
 )
 ;
 }

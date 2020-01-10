@@ -8636,13 +8636,6 @@ openPreferences
 "
 paneSearch
 "
-{
-origin
-:
-"
-contentSearch
-"
-}
 )
 ;
 /

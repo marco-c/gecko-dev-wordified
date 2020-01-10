@@ -8453,15 +8453,6 @@ action
 data
 .
 category
-{
-origin
-:
-action
-.
-data
-.
-origin
-}
 )
 ;
 break

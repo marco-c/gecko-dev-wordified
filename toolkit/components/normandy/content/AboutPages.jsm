@@ -1668,13 +1668,6 @@ privacy
 -
 reports
 "
-{
-origin
-:
-"
-aboutStudies
-"
-}
 )
 ;
 }

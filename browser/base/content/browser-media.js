@@ -1233,13 +1233,6 @@ general
 -
 drm
 "
-{
-origin
-:
-"
-browserMedia
-"
-}
 )
 ;
 }

@@ -1844,17 +1844,6 @@ privacy
 -
 permissions
 "
-{
-origin
-:
-"
-identityPopup
--
-permissions
--
-PreferencesButton
-"
-}
 )
 ;
 }

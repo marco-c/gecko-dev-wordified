@@ -2886,13 +2886,6 @@ openPreferences
 "
 paneSearch
 "
-{
-origin
-:
-"
-contentSearch
-"
-}
 )
 ;
 }

@@ -1012,13 +1012,6 @@ form
 -
 autofill
 "
-{
-origin
-:
-"
-autofillFooter
-"
-}
 )
 ;
 }

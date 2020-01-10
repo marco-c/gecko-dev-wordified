@@ -1450,13 +1450,6 @@ privacy
 -
 reports
 "
-{
-origin
-:
-"
-aboutTelemetry
-"
-}
 )
 ;
 }

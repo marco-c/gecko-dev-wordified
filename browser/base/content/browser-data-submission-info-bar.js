@@ -384,13 +384,6 @@ privacy
 -
 reports
 "
-{
-origin
-:
-"
-dataReporting
-"
-}
 )
 ;
 }
