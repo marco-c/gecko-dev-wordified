@@ -3999,9 +3999,6 @@ must
 be
 installed
 .
-bool
-dummy
-;
 nsXBLService
 *
 xblService
@@ -4050,8 +4047,6 @@ getter_AddRefs
 (
 binding
 )
-&
-dummy
 )
 ;
 if
