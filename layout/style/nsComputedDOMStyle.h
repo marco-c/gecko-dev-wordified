@@ -2478,6 +2478,8 @@ ifdef
 DEBUG
 bool
 mFlushedPendingReflows
+=
+false
 ;
 #
 endif
