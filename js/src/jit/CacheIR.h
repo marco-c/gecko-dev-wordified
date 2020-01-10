@@ -14462,7 +14462,7 @@ val_
 HandleValue
 idVal_
 ;
-bool
+AttachDecision
 tryAttachDense
 (
 HandleObject
@@ -14475,7 +14475,7 @@ Int32OperandId
 indexId
 )
 ;
-bool
+AttachDecision
 tryAttachDenseHole
 (
 HandleObject
@@ -14488,7 +14488,7 @@ Int32OperandId
 indexId
 )
 ;
-bool
+AttachDecision
 tryAttachTypedArray
 (
 HandleObject
@@ -14499,7 +14499,7 @@ Int32OperandId
 indexId
 )
 ;
-bool
+AttachDecision
 tryAttachSparse
 (
 HandleObject
@@ -14510,7 +14510,7 @@ Int32OperandId
 indexId
 )
 ;
-bool
+AttachDecision
 tryAttachNamedProp
 (
 HandleObject
@@ -14523,7 +14523,7 @@ ValOperandId
 keyId
 )
 ;
-bool
+AttachDecision
 tryAttachMegamorphic
 (
 ObjOperandId
@@ -14532,7 +14532,7 @@ ValOperandId
 keyId
 )
 ;
-bool
+AttachDecision
 tryAttachNative
 (
 JSObject
@@ -14551,7 +14551,7 @@ JSObject
 holder
 )
 ;
-bool
+AttachDecision
 tryAttachUnboxed
 (
 JSObject
@@ -14565,7 +14565,7 @@ ValOperandId
 keyId
 )
 ;
-bool
+AttachDecision
 tryAttachUnboxedExpando
 (
 JSObject
@@ -14579,7 +14579,7 @@ ValOperandId
 keyId
 )
 ;
-bool
+AttachDecision
 tryAttachTypedObject
 (
 JSObject
@@ -14593,7 +14593,7 @@ ValOperandId
 keyId
 )
 ;
-bool
+AttachDecision
 tryAttachSlotDoesNotExist
 (
 JSObject
@@ -14607,7 +14607,7 @@ ValOperandId
 keyId
 )
 ;
-bool
+AttachDecision
 tryAttachDoesNotExist
 (
 HandleObject
@@ -14620,7 +14620,7 @@ ValOperandId
 keyId
 )
 ;
-bool
+AttachDecision
 tryAttachProxyElement
 (
 HandleObject
@@ -14674,7 +14674,7 @@ HandleValue
 val
 )
 ;
-bool
+AttachDecision
 tryAttachStub
 (
 )

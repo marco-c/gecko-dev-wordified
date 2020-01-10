@@ -3323,7 +3323,7 @@ ionScript
 (
 )
 ;
-TryAttachIonStubOld
+TryAttachIonStub
 <
 HasPropIRGenerator
 IonHasOwnIC
@@ -3419,7 +3419,7 @@ obj
 )
 )
 ;
-TryAttachIonStubOld
+TryAttachIonStub
 <
 HasPropIRGenerator
 IonInIC
