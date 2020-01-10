@@ -384,8 +384,8 @@ html
 IsEmpty
 (
 )
-)
-{
+&
+&
 java
 :
 :
@@ -403,7 +403,8 @@ GetApplicationContext
 text
 html
 )
-;
+)
+{
 return
 NS_OK
 ;
@@ -416,8 +417,8 @@ text
 IsEmpty
 (
 )
-)
-{
+&
+&
 java
 :
 :
@@ -434,7 +435,8 @@ GetApplicationContext
 )
 text
 )
-;
+)
+{
 return
 NS_OK
 ;
