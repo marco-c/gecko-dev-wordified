@@ -4171,6 +4171,10 @@ cdir_size
 '
 ]
 =
+six
+.
+moves
+.
 reduce
 (
 lambda
@@ -4185,7 +4189,7 @@ y
 ]
 .
 size
-                                  
+                                            
 self
 .
 _contents

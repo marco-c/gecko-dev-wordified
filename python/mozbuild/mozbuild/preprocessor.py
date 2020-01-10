@@ -5531,6 +5531,10 @@ self
 .
 write
 (
+six
+.
+moves
+.
 reduce
 (
 lambda
