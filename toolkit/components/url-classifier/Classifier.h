@@ -1206,6 +1206,17 @@ ShouldAbort
 )
 const
 ;
+nsresult
+AddMozEntries
+(
+nsTArray
+<
+nsCString
+>
+&
+aTables
+)
+;
 /
 /
 Root

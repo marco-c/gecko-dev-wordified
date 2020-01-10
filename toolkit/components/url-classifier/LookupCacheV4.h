@@ -267,6 +267,13 @@ nsACString
 aChecksum
 )
 ;
+virtual
+nsresult
+LoadMozEntries
+(
+)
+override
+;
 static
 const
 int

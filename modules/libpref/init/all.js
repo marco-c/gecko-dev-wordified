@@ -62241,17 +62241,17 @@ goog
 unwanted
 -
 proto
-test
+moztest
 -
 harmful
 -
 simple
-test
+moztest
 -
 malware
 -
 simple
-test
+moztest
 -
 unwanted
 -
@@ -62299,7 +62299,7 @@ goog
 phish
 -
 proto
-test
+moztest
 -
 phish
 -
@@ -62322,7 +62322,7 @@ googpub
 phish
 -
 proto
-test
+moztest
 -
 phish
 -
@@ -62408,7 +62408,7 @@ urlclassifier
 trackingAnnotationTable
 "
 "
-test
+moztest
 -
 track
 -
@@ -62444,7 +62444,7 @@ urlclassifier
 trackingAnnotationWhitelistTable
 "
 "
-test
+moztest
 -
 trackwhite
 -
@@ -62465,7 +62465,7 @@ urlclassifier
 trackingTable
 "
 "
-test
+moztest
 -
 track
 -
@@ -62486,7 +62486,7 @@ urlclassifier
 trackingWhitelistTable
 "
 "
-test
+moztest
 -
 trackwhite
 -
@@ -64355,7 +64355,7 @@ urlclassifier
 blockedTable
 "
 "
-test
+moztest
 -
 block
 -

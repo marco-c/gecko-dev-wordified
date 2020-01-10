@@ -80,7 +80,7 @@ v2_file_extensions
 [
         
 '
-pset
+vlpset
 '
         
 '
@@ -324,6 +324,36 @@ split
 (
 '
 '
+)
+            
+#
+moztest
+-
+lists
+are
+not
+saved
+to
+disk
+            
+base_names
+=
+filter
+(
+lambda
+x
+:
+not
+x
+.
+startswith
+(
+'
+moztest
+-
+'
+)
+base_names
 )
             
 for
