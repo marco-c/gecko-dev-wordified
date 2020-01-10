@@ -4260,7 +4260,6 @@ kTrakTableUninitialized
 (
 hb_blob_t
 *
-const
 )
 (
 intptr_t
