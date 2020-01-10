@@ -9904,7 +9904,7 @@ a
 helper
 thread
 .
-AutoEnterIonCompilation
+AutoEnterIonBackend
 enter
 (
 mir

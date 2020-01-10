@@ -7526,16 +7526,6 @@ false
 #
 ifdef
 DEBUG
-ionCompiling
-(
-this
-false
-)
-ionCompilingSafeForMinorGC
-(
-this
-false
-)
 isTouchingGrayThings
 (
 this
