@@ -188,12 +188,12 @@ h
 /
 for
 Variant
-class
-nsIPresShell
-;
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 layers
 {
@@ -458,7 +458,7 @@ PresShell
 /
 FocusTarget
 (
-nsIPresShell
+PresShell
 *
 aRootPresShell
 uint64_t
