@@ -16372,7 +16372,7 @@ whatsNewPanel
 .
 enabled
 "
-false
+true
 )
 ;
 /
