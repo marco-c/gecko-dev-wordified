@@ -499,7 +499,7 @@ shouldShowInfoBar
 (
 aBrowser
 .
-currentURI
+contentPrincipal
 )
 )
 trUI
@@ -1509,7 +1509,7 @@ notif
 }
 shouldShowInfoBar
 (
-aURI
+aPrincipal
 )
 {
 /
@@ -1623,9 +1623,9 @@ if
 (
 perms
 .
-testExactPermission
+testExactPermissionFromPrincipal
 (
-aURI
+aPrincipal
 "
 translate
 "
