@@ -1043,7 +1043,7 @@ match
 SET_DEFAULT
 (
 baselineJitWarmUpThreshold
-50
+100
 )
 ;
 /
