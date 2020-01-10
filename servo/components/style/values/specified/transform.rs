@@ -434,13 +434,10 @@ generic
 :
 :
 Transform
-(
-Vec
 :
 :
-new
+none
 (
-)
 )
 )
 ;
@@ -2053,6 +2050,10 @@ clone
 }
 )
 ?
+.
+into
+(
+)
 )
 )
 }
