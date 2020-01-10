@@ -793,6 +793,15 @@ aPrincipal
 aType
 )
 {
+let
+aURI
+=
+BrowserApp
+.
+selectedBrowser
+.
+lastURI
+;
 /
 /
 Password
@@ -934,7 +943,7 @@ Services
 .
 perms
 .
-testExactPermissionForPrincipal
+testExactPermissionFromPrincipal
 (
 aPrincipal
 aType
@@ -946,7 +955,7 @@ Services
 .
 perms
 .
-testPermissionForPrincipal
+testPermissionFromPrincipal
 (
 aPrincipal
 aType
