@@ -226,7 +226,6 @@ nsPresContext
 aPresContext
 )
 ;
-virtual
 void
 Reflow
 (
@@ -249,7 +248,6 @@ override
 #
 ifdef
 DEBUG
-virtual
 void
 SetInitialChildList
 (
@@ -261,7 +259,6 @@ aChildList
 )
 override
 ;
-virtual
 void
 AppendFrames
 (
@@ -273,7 +270,6 @@ aFrameList
 )
 override
 ;
-virtual
 void
 InsertFrames
 (
@@ -288,7 +284,6 @@ aFrameList
 )
 override
 ;
-virtual
 void
 RemoveFrame
 (
@@ -302,7 +297,6 @@ override
 ;
 #
 endif
-virtual
 nscoord
 GetMinISize
 (
@@ -312,7 +306,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nscoord
 GetPrefISize
 (
@@ -356,7 +349,6 @@ padding
 .
 *
 /
-virtual
 nscoord
 GetAvailableContentBSize
 (
@@ -366,7 +358,6 @@ ReflowInput
 aReflowInput
 )
 ;
-virtual
 nsContainerFrame
 *
 GetContentInsertionFrame
@@ -410,7 +401,6 @@ GetContentInsertionFrame
 )
 ;
 }
-virtual
 bool
 IsFrameOfType
 (
@@ -438,7 +428,6 @@ eCanContainOverflowContainers
 )
 ;
 }
-virtual
 void
 BuildDisplayList
 (
@@ -528,7 +517,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
