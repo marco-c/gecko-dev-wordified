@@ -3147,6 +3147,13 @@ cx
 script
 parsing
 "
+JS
+:
+:
+ProfilingCategoryPair
+:
+:
+JS_Parsing
 )
 ;
 if
@@ -3211,6 +3218,13 @@ cx
 script
 emit
 "
+JS
+:
+:
+ProfilingCategoryPair
+:
+:
+JS_Parsing
 )
 ;
 if
