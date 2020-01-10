@@ -336,6 +336,12 @@ marionette_extra
 emulator
 "
     
+"
+bogomips_minimum
+"
+:
+4000
+    
 #
 in
 support
