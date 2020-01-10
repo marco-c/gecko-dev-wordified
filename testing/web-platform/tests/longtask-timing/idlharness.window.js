@@ -54,6 +54,11 @@ performance
 -
 timeline
 '
+'
+hr
+-
+time
+'
 ]
 (
 idl_array
