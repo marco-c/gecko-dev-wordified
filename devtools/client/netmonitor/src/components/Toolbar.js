@@ -2412,14 +2412,10 @@ id
 "
 netmonitor
 -
-toolbar
+main
 -
-container
+toolbar
 "
-}
-span
-(
-{
 className
 :
 "
@@ -2506,7 +2502,6 @@ this
 .
 renderHarButton
 (
-)
 )
 )
 )
