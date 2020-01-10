@@ -3430,6 +3430,7 @@ false
 #
 ifdef
 MOZ_PHC
+static
 void
 GetPHCAddrInfo
 (
