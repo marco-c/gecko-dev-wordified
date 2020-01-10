@@ -4398,7 +4398,7 @@ sent
 *
 /
 void
-CollectTransformsForChromeMainThread
+SendSubtreeTransformsToChromeMainThread
 (
 const
 AsyncPanZoomController
