@@ -2696,8 +2696,10 @@ brew
 tap
 '
 '
-caskroom
+homebrew
 /
+cask
+-
 versions
 '
 ]
@@ -3164,8 +3166,10 @@ to
 java
 from
 the
-caskroom
+homebrew
 /
+cask
+-
 versions
 /
 java8
