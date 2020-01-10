@@ -46923,8 +46923,6 @@ emitAtomicXchg64
 MemoryAccessDesc
 *
 access
-ValType
-type
 WantResult
 wantResult
 )
@@ -64745,7 +64743,6 @@ emitAtomicXchg64
 (
 &
 access
-type
 WantResult
 (
 false
@@ -64977,7 +64974,6 @@ emitAtomicXchg64
 (
 &
 access
-type
 WantResult
 (
 true
@@ -64997,8 +64993,6 @@ emitAtomicXchg64
 MemoryAccessDesc
 *
 access
-ValType
-type
 WantResult
 wantResult
 )
