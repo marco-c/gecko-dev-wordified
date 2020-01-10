@@ -466,8 +466,6 @@ isPrivate
 |
 isAnon
 |
-appId
-|
 inIsolatedMozBrowser
 >
 which
