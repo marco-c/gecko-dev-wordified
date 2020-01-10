@@ -3811,13 +3811,13 @@ pass_number
 +
 +
 ;
+#
+endif
 /
 *
 FALLTHROUGH
 *
 /
-#
-endif
 case
 output_pass
 :

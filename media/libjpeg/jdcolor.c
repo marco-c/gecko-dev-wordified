@@ -3751,7 +3751,7 @@ This
 array
 is
 *
-sufficent
+sufficient
 for
 dithering
 RGB888

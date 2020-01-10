@@ -50,6 +50,8 @@ C
 -
 2016
 2018
+-
+2019
 D
 .
 R
@@ -2694,6 +2696,19 @@ code
 \
 }
 #
+if
+SIZEOF_SIZE_T
+!
+=
+8
+&
+&
+!
+defined
+(
+_WIN64
+)
+#
 define
 CHECKBUF15
 (
@@ -2719,6 +2734,8 @@ EMIT_BYTE
 }
 \
 }
+#
+endif
 #
 define
 CHECKBUF31

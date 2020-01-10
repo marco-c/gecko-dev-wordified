@@ -1616,7 +1616,7 @@ MAX_Q_COMPS
 #
 of
 values
-alloced
+allocated
 to
 each
 component

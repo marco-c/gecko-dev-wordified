@@ -69,6 +69,15 @@ Matthieu
 Darbois
 .
 *
+Copyright
+(
+C
+)
+2019
+Google
+LLC
+.
+*
 *
 Based
 on
@@ -255,6 +264,14 @@ simd_huffman
 ;
 #
 if
+!
+defined
+(
+__ARM_NEON__
+)
+&
+&
+(
 defined
 (
 __linux__
@@ -270,6 +287,7 @@ ANDROID
 defined
 (
 __ANDROID__
+)
 )
 #
 define
@@ -646,6 +664,7 @@ __ARM_NEON__
 )
 &
 &
+(
 defined
 (
 __linux__
@@ -661,6 +680,7 @@ ANDROID
 defined
 (
 __ANDROID__
+)
 )
 int
 bufsize
