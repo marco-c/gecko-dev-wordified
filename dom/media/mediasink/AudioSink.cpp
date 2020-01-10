@@ -2720,14 +2720,6 @@ missingFrames
 isValid
 (
 )
-|
-|
-!
-sampleTime
-.
-isValid
-(
-)
 )
 {
 NS_WARNING
