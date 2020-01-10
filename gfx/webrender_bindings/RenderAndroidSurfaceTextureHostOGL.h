@@ -288,9 +288,6 @@ gfx
 IntSize
 mSize
 ;
-/
-/
-XXX
 const
 bool
 mContinuousUpdate
