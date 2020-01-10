@@ -158,6 +158,13 @@ gdkx
 h
 >
 #
+include
+<
+dlfcn
+.
+h
+>
+#
 ifdef
 MOZ_WIDGET_GTK
 #
