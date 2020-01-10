@@ -518,16 +518,6 @@ py
 '
 tools
 /
-browsertime
-/
-mach_commands
-.
-py
-'
-    
-'
-tools
-/
 compare
 -
 locales
