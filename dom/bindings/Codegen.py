@@ -22055,6 +22055,7 @@ propertyInfoCount
 1ull
 <
 <
+(
 CHAR_BIT
 *
 sizeof
@@ -22064,6 +22065,7 @@ name
 }
 .
 propertyInfoCount
+)
 )
                         
 "
