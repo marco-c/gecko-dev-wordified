@@ -2637,6 +2637,13 @@ request
 ;
 }
 ;
+/
+/
+YUV
+images
+never
+have
+transparency
 common
 .
 opacity
@@ -2644,7 +2651,7 @@ opacity
 PrimitiveOpacity
 :
 :
-translucent
+opaque
 (
 )
 ;
