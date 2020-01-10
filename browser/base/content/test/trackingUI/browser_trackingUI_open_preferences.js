@@ -565,13 +565,9 @@ document
 getElementById
 (
 "
-identity
+protections
 -
 popup
--
-content
--
-blocking
 -
 category
 -
@@ -606,7 +602,7 @@ document
 getElementById
 (
 "
-identity
+protections
 -
 popup
 -
@@ -655,7 +651,7 @@ document
 getElementById
 (
 "
-identity
+protections
 -
 popup
 -
@@ -784,13 +780,9 @@ document
 getElementById
 (
 "
-identity
+protections
 -
 popup
--
-content
--
-blocking
 -
 category
 -
@@ -823,7 +815,7 @@ document
 getElementById
 (
 "
-identity
+protections
 -
 popup
 -
@@ -872,7 +864,7 @@ document
 getElementById
 (
 "
-identity
+protections
 -
 popup
 -
