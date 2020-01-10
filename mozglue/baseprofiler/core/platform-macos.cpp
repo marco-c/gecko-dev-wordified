@@ -324,6 +324,12 @@ v8
 svn
 revision
 9837
+namespace
+mozilla
+{
+namespace
+baseprofiler
+{
 int
 profiler_current_process_id
 (
@@ -1770,3 +1776,13 @@ mLR
 }
 #
 endif
+}
+/
+/
+namespace
+baseprofiler
+}
+/
+/
+namespace
+mozilla

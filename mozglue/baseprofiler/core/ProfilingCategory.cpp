@@ -144,7 +144,10 @@ Assertions
 h
 "
 namespace
-JS
+mozilla
+{
+namespace
+baseprofiler
 {
 /
 /
@@ -346,7 +349,7 @@ on
 const
 ProfilingCategoryPairInfo
 &
-GetBaseProfilingCategoryPairInfo
+GetProfilingCategoryPairInfo
 (
 ProfilingCategoryPair
 aCategoryPair
@@ -419,7 +422,12 @@ categoryPairIndex
 /
 /
 namespace
-JS
+baseprofiler
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /

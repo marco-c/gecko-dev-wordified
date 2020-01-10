@@ -5566,6 +5566,12 @@ it
 pid_t
 pid
 =
+mozilla
+:
+:
+baseprofiler
+:
+:
 profiler_current_process_id
 (
 )
