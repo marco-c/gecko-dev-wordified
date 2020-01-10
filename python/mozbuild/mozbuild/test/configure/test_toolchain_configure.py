@@ -835,28 +835,42 @@ CLANGXX
 0
 '
 )
-CLANG_3_6
+CLANG_4_0
 =
 CLANG
 (
 '
-3
+4
 .
-6
+0
 .
 2
 '
 )
 +
 DEFAULT_C11
-CLANGXX_3_6
++
+{
+    
+'
+__has_attribute
+(
+diagnose_if
+)
+'
+:
+'
+1
+'
+}
+CLANGXX_4_0
 =
 CLANGXX
 (
 '
-3
+4
 .
-6
+0
 .
 2
 '
@@ -865,61 +879,22 @@ CLANGXX
 {
     
 '
--
-std
-=
-gnu
-+
-+
-11
-'
-:
-{
-        
-'
-__has_builtin
+__has_attribute
 (
-__builtin_bitreverse8
+diagnose_if
 )
 '
 :
 '
 1
 '
-    
-}
-    
-'
--
-std
-=
-gnu
-+
-+
-14
-'
-:
-{
-        
-'
-__has_builtin
-(
-__builtin_bitreverse8
-)
-'
-:
-'
-1
-'
-    
-}
 }
 DEFAULT_CLANG
 =
-CLANG_3_6
+CLANG_4_0
 DEFAULT_CLANGXX
 =
-CLANGXX_3_6
+CLANGXX_4_0
 def
 CLANG_PLATFORM
 (
@@ -2780,12 +2755,12 @@ bin
 /
 clang
 -
-3
+4
 .
-6
+0
 '
 :
-CLANG_3_6
+CLANG_4_0
 +
 CLANG_PLATFORM_X86_64_LINUX
         
@@ -2799,12 +2774,12 @@ clang
 +
 +
 -
-3
+4
 .
-6
+0
 '
 :
-CLANGXX_3_6
+CLANGXX_4_0
 +
 CLANG_PLATFORM_X86_64_LINUX
         
@@ -3147,52 +3122,20 @@ g
     
 CLANG_3_3_RESULT
 =
-CompilerResult
-(
-        
-flags
-=
-[
-]
-        
-version
-=
 '
-3
-.
-3
+Only
+clang
+/
+llvm
+4
 .
 0
-'
-        
-type
-=
-'
-clang
-'
-        
-compiler
-=
-'
-/
-usr
-/
-bin
-/
-clang
--
-3
+or
+newer
+is
+supported
 .
-3
 '
-        
-language
-=
-'
-C
-'
-    
-)
     
 CLANGXX_3_3_RESULT
 =
@@ -3201,9 +3144,9 @@ Only
 clang
 /
 llvm
-3
+4
 .
-9
+0
 or
 newer
 is
@@ -3211,7 +3154,7 @@ supported
 .
 '
     
-CLANG_3_6_RESULT
+CLANG_4_0_RESULT
 =
 CompilerResult
 (
@@ -3230,9 +3173,9 @@ gnu99
 version
 =
 '
-3
+4
 .
-6
+0
 .
 2
 '
@@ -3253,9 +3196,9 @@ bin
 /
 clang
 -
-3
+4
 .
-6
+0
 '
         
 language
@@ -3266,7 +3209,7 @@ C
     
 )
     
-CLANGXX_3_6_RESULT
+CLANGXX_4_0_RESULT
 =
 CompilerResult
 (
@@ -3288,9 +3231,9 @@ gnu
 version
 =
 '
-3
+4
 .
-6
+0
 .
 2
 '
@@ -3313,9 +3256,9 @@ clang
 +
 +
 -
-3
+4
 .
-6
+0
 '
         
 language
@@ -3330,7 +3273,7 @@ C
     
 DEFAULT_CLANG_RESULT
 =
-CLANG_3_6_RESULT
+CLANG_4_0_RESULT
 +
 {
 '
@@ -3349,7 +3292,7 @@ clang
     
 DEFAULT_CLANGXX_RESULT
 =
-CLANGXX_3_6_RESULT
+CLANGXX_4_0_RESULT
 +
 {
 '
@@ -4371,7 +4314,7 @@ c_compiler
 :
 self
 .
-CLANG_3_6_RESULT
+CLANG_4_0_RESULT
             
 '
 cxx_compiler
@@ -4379,7 +4322,7 @@ cxx_compiler
 :
 self
 .
-CLANGXX_3_6_RESULT
+CLANGXX_4_0_RESULT
         
 }
 environ
@@ -4393,9 +4336,9 @@ CC
 '
 clang
 -
-3
+4
 .
-6
+0
 '
         
 }
@@ -5786,12 +5729,12 @@ bin
 /
 clang
 -
-3
+4
 .
-6
+0
 '
 :
-CLANG_3_6
+CLANG_4_0
 +
 CLANG_PLATFORM_X86_64_OSX
         
@@ -5805,12 +5748,12 @@ clang
 +
 +
 -
-3
+4
 .
-6
+0
 '
 :
-CLANGXX_3_6
+CLANGXX_4_0
 +
 CLANG_PLATFORM_X86_64_OSX
         
@@ -6510,12 +6453,12 @@ bin
 /
 clang
 -
-3
+4
 .
-6
+0
 '
 :
-CLANG_3_6
+CLANG_4_0
 +
 CLANG_PLATFORM_X86_WIN
         
@@ -6529,12 +6472,12 @@ clang
 +
 +
 -
-3
+4
 .
-6
+0
 '
 :
-CLANGXX_3_6
+CLANGXX_4_0
 +
 CLANG_PLATFORM_X86_WIN
         
@@ -7572,12 +7515,12 @@ bin
 /
 clang
 -
-3
+4
 .
-6
+0
 '
 :
-CLANG_3_6
+CLANG_4_0
 +
 CLANG_PLATFORM_X86_64_WIN
         
@@ -7591,12 +7534,12 @@ clang
 +
 +
 -
-3
+4
 .
-6
+0
 '
 :
-CLANGXX_3_6
+CLANGXX_4_0
 +
 CLANG_PLATFORM_X86_64_WIN
         
