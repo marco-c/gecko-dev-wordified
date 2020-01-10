@@ -5790,10 +5790,10 @@ a
 primitive
 method
 .
-ExecutableAllocator
+jit
 :
 :
-cacheFlush
+FlushICache
 (
 code
 roundedCodeLength

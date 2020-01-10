@@ -270,6 +270,15 @@ h
 #
 include
 "
+jit
+/
+Simulator
+.
+h
+"
+#
+include
+"
 js
 /
 Printf

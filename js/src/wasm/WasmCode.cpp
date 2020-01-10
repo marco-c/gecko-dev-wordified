@@ -2347,10 +2347,10 @@ return
 false
 ;
 }
-ExecutableAllocator
+jit
 :
 :
-cacheFlush
+FlushICache
 (
 base
 (
@@ -4439,10 +4439,10 @@ label
 )
 ;
 }
-ExecutableAllocator
+jit
 :
 :
-cacheFlush
+FlushICache
 (
 codePtr
 codeLength

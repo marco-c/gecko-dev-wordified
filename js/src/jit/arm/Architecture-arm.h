@@ -5348,9 +5348,14 @@ endif
 }
 #
 endif
-bool
-ForceDoubleCacheFlush
+void
+FlushICache
 (
+void
+*
+code
+size_t
+size
 )
 ;
 /
