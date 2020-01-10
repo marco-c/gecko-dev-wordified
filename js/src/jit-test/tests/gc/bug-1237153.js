@@ -11,7 +11,7 @@ Error
 gcparam
 (
 "
-sliceTimeBudget
+sliceTimeBudgetMS
 "
 -
 1

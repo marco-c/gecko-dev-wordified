@@ -693,11 +693,11 @@ gc_incremental_slice_ms
 *
 Default
 :
-DefaultTimeBudget
+DefaultTimeBudgetMS
 .
 *
 /
-JSGC_SLICE_TIME_BUDGET
+JSGC_SLICE_TIME_BUDGET_MS
 =
 9
 /

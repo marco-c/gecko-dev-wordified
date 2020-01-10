@@ -2619,13 +2619,13 @@ majorGCNumber
 ;
 }
 int64_t
-defaultSliceBudget
+defaultSliceBudgetMS
 (
 )
 const
 {
 return
-defaultTimeBudget_
+defaultTimeBudgetMS_
 ;
 }
 bool
@@ -5899,7 +5899,7 @@ h
 .
 *
 *
-JSGC_SLICE_TIME_BUDGET
+JSGC_SLICE_TIME_BUDGET_MS
 *
 pref
 :
@@ -5916,7 +5916,7 @@ MainThreadData
 <
 int64_t
 >
-defaultTimeBudget_
+defaultTimeBudgetMS_
 ;
 /
 *

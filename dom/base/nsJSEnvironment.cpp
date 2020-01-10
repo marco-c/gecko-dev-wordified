@@ -14423,7 +14423,7 @@ pref
 ;
 SetGCParameter
 (
-JSGC_SLICE_TIME_BUDGET
+JSGC_SLICE_TIME_BUDGET_MS
 pref
 )
 ;
@@ -14432,7 +14432,7 @@ else
 {
 ResetGCParameter
 (
-JSGC_SLICE_TIME_BUDGET
+JSGC_SLICE_TIME_BUDGET_MS
 )
 ;
 }
