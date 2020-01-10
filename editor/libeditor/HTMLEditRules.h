@@ -1296,11 +1296,6 @@ PinSelectionToNewBlock
 (
 )
 ;
-void
-CheckInterlinePosition
-(
-)
-;
 /
 *
 *
