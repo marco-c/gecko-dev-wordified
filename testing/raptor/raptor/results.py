@@ -716,10 +716,25 @@ None
 )
 :
             
+#
+Add
+one
+for
+OS
+baseline
+and
+one
+for
+%
+change
+            
+#
+measurement
+            
 expected_perfherder
 +
 =
-1
+2
         
 if
 self
