@@ -179,7 +179,7 @@ ipc
 :
 :
 IPCResult
-RecvReplyGamepadPromise
+RecvReplyGamepadVibrateHaptic
 (
 const
 uint32_t

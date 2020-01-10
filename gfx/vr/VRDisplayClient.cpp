@@ -1110,8 +1110,6 @@ numAxes
 state
 .
 numHaptics
-0
-0
 )
 ;
 dom
