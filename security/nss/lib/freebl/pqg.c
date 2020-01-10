@@ -6964,6 +6964,8 @@ q_counter
 {
 HASH_HashType
 hashtype
+=
+HASH_AlgNULL
 ;
 SECItem
 firstseed
@@ -10278,6 +10280,8 @@ maxCount
 ;
 HASH_HashType
 hashtype
+=
+HASH_AlgNULL
 ;
 SECItem
 *
@@ -14426,9 +14430,13 @@ pseed_
 ;
 HASH_HashType
 hashtype
+=
+HASH_AlgNULL
 ;
 pqgGenType
 type
+=
+FIPS186_1_TYPE
 ;
 #
 define

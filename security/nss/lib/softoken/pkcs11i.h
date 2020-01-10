@@ -2599,7 +2599,7 @@ with
 #
 define
 SFTK_MAX_PIN
-255
+500
 /
 *
 minimum
