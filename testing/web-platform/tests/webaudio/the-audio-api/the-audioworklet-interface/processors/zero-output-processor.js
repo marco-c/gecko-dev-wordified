@@ -50,7 +50,7 @@ kRenderQuantumFrames
 128
 ;
 class
-ZeroOuttputProcessor
+ZeroOutputProcessor
 extends
 AudioWorkletProcessor
 {
@@ -246,6 +246,6 @@ output
 -
 processor
 '
-ZeroOuttputProcessor
+ZeroOutputProcessor
 )
 ;
