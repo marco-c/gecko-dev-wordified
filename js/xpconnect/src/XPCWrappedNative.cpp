@@ -8219,7 +8219,10 @@ __linux__
 __PPC64__
 &
 &
+defined
+(
 _LITTLE_ENDIAN
+)
 )
 /
 /
@@ -9265,7 +9268,10 @@ __linux__
 __PPC64__
 &
 &
+defined
+(
 _LITTLE_ENDIAN
+)
 )
 /
 /
