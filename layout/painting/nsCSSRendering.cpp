@@ -28765,9 +28765,10 @@ for
 the
 text
 intercepts
-nsTArray
+AutoTArray
 <
 SkScalar
+256
 >
 intercepts
 ;
