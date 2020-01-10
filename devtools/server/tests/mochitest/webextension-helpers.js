@@ -540,7 +540,7 @@ connect
 )
 ;
 const
-addonFront
+addonDescriptor
 =
 await
 client
@@ -560,9 +560,9 @@ const
 addonTarget
 =
 await
-addonFront
+addonDescriptor
 .
-connect
+getTarget
 (
 )
 ;
