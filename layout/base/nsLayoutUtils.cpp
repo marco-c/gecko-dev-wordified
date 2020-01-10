@@ -15526,10 +15526,7 @@ if
 (
 aSize
 >
-float
-(
 nscoord_MAX
-)
 )
 {
 float
@@ -15537,10 +15534,7 @@ excess
 =
 aSize
 -
-float
-(
 nscoord_MAX
-)
 ;
 excess
 /
