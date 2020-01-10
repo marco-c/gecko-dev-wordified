@@ -6798,6 +6798,11 @@ selectmenulist
 if
 (
 menulist
+&
+&
+menulist
+.
+open
 )
 {
 let
@@ -6810,9 +6815,9 @@ resource
 /
 gre
 /
-modules
+actors
 /
-SelectParentHelper
+SelectParent
 .
 jsm
 "
