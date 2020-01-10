@@ -5584,7 +5584,8 @@ ifdef
 NIGHTLY_BUILD
 /
 /
-allow_eval_with_system_principal
+allow_eval_
+*
 is
 enabled
 on
@@ -5604,6 +5605,16 @@ pref
 security
 .
 allow_eval_with_system_principal
+"
+false
+)
+;
+pref
+(
+"
+security
+.
+allow_eval_in_parent_process
 "
 false
 )
