@@ -2363,7 +2363,7 @@ GfxDriverInfo
 :
 GetDriverVendor
 (
-DriverVendorAll
+DriverNonMesaAll
 )
 GfxDriverInfo
 :
