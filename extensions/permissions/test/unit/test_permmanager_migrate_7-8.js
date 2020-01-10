@@ -789,10 +789,6 @@ foo
 .
 com
 ^
-appId
-=
-1000
-&
 inBrowser
 =
 1
@@ -1357,10 +1353,6 @@ foo
 .
 com
 ^
-appId
-=
-1000
-&
 inBrowser
 =
 1
