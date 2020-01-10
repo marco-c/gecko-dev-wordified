@@ -5,6 +5,11 @@ reftest
 |
 skip
 -
+if
+(
+release_or_beta
+)
+-
 -
 numeric
 -
@@ -13,7 +18,8 @@ separator
 literal
 is
 not
-supported
+released
+yet
 /
 /
 Copyright

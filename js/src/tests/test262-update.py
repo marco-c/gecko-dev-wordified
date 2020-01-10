@@ -206,14 +206,6 @@ escapes
 "
     
 "
-numeric
--
-separator
--
-literal
-"
-    
-"
 Intl
 .
 Locale
@@ -392,6 +384,16 @@ RELEASE_OR_BETA
 =
 set
 (
+[
+    
+"
+numeric
+-
+separator
+-
+literal
+"
+]
 )
 contextlib
 .
