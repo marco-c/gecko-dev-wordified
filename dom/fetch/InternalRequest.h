@@ -2337,6 +2337,8 @@ mIntegrity
 ;
 bool
 mMozErrors
+=
+false
 ;
 nsCString
 mFragment
