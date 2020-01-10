@@ -1101,12 +1101,8 @@ unsafeSet
 JS
 :
 :
-DoubleValue
+UndefinedValue
 (
-+
-0
-.
-0
 )
 )
 ;
