@@ -1870,7 +1870,7 @@ the
 popup
 to
 be
-hidden
+shown
 .
 *
 param

@@ -17763,6 +17763,7 @@ select
 function
 openLocation
 (
+event
 )
 {
 if
@@ -17802,6 +17803,9 @@ gURLBar
 .
 startQuery
 (
+{
+event
+}
 )
 ;
 }
