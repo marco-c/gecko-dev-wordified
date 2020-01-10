@@ -930,12 +930,6 @@ nsIPrincipal
 >
 mTriggeringPrincipal
 ;
-nsCOMPtr
-<
-nsIContentSecurityPolicy
->
-mCsp
-;
 /
 /
 the

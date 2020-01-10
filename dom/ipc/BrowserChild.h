@@ -1733,9 +1733,6 @@ aDropEffect
 nsIPrincipal
 *
 aPrincipal
-nsIContentSecurityPolicy
-*
-aCsp
 )
 ;
 mozilla

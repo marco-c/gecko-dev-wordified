@@ -8552,12 +8552,6 @@ nsIPrincipal
 >
 principal
 ;
-nsCOMPtr
-<
-nsIContentSecurityPolicy
->
-csp
-;
 if
 (
 dragSession
@@ -8587,17 +8581,6 @@ GetTriggeringPrincipal
 getter_AddRefs
 (
 principal
-)
-)
-;
-dragSession
--
->
-GetCsp
-(
-getter_AddRefs
-(
-csp
 )
 )
 ;
@@ -8651,7 +8634,6 @@ Principal
 (
 principal
 )
-csp
 )
 ;
 return
@@ -11891,12 +11873,6 @@ nsIPrincipal
 >
 principal
 ;
-nsCOMPtr
-<
-nsIContentSecurityPolicy
->
-csp
-;
 mCurrentTarget
 -
 >
@@ -12103,10 +12079,6 @@ targetContent
 getter_AddRefs
 (
 principal
-)
-getter_AddRefs
-(
-csp
 )
 )
 ;
@@ -12511,8 +12483,6 @@ to
 modify
 the
 DataTransfer
-/
-/
 object
 .
 if
@@ -12557,7 +12527,6 @@ targetContent
 selection
 remoteDragStartData
 principal
-csp
 )
 ;
 if
@@ -12652,10 +12621,6 @@ nsIPrincipal
 *
 *
 aPrincipal
-nsIContentSecurityPolicy
-*
-*
-aCsp
 )
 {
 *
@@ -12758,7 +12723,6 @@ AddInitialDnDDataTo
 (
 aDataTransfer
 aPrincipal
-aCsp
 )
 ;
 mGestureDownDragStartData
@@ -12875,7 +12839,6 @@ getter_AddRefs
 dragDataNode
 )
 aPrincipal
-aCsp
 )
 ;
 if
@@ -13325,9 +13288,6 @@ aDragStartData
 nsIPrincipal
 *
 aPrincipal
-nsIContentSecurityPolicy
-*
-aCsp
 )
 {
 nsCOMPtr
@@ -13928,7 +13888,6 @@ InvokeDragSessionWithSelection
 (
 aSelection
 aPrincipal
-aCsp
 transArray
 action
 event
@@ -13956,7 +13915,6 @@ InvokeDragSessionWithRemoteImage
 (
 dragTarget
 aPrincipal
-aCsp
 transArray
 action
 aDragStartData
@@ -13974,7 +13932,6 @@ InvokeDragSessionWithImage
 (
 dragTarget
 aPrincipal
-aCsp
 transArray
 action
 dragImage

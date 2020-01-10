@@ -164,9 +164,6 @@ aRect
 nsIPrincipal
 *
 aPrincipal
-nsIContentSecurityPolicy
-*
-aCsp
 )
 ;
 void
@@ -246,10 +243,6 @@ nsIPrincipal
 *
 *
 aPrincipal
-nsIContentSecurityPolicy
-*
-*
-aCsp
 )
 ;
 private
@@ -281,12 +274,6 @@ nsCOMPtr
 nsIPrincipal
 >
 mPrincipal
-;
-nsCOMPtr
-<
-nsIContentSecurityPolicy
->
-mCsp
 ;
 RefPtr
 <
