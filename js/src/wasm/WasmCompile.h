@@ -355,6 +355,9 @@ forceTiering
 bool
 gcEnabled
 ;
+bool
+hugeMemory
+;
 /
 /
 CompileArgs
@@ -493,6 +496,10 @@ forceTiering
 false
 )
 gcEnabled
+(
+false
+)
+hugeMemory
 (
 false
 )

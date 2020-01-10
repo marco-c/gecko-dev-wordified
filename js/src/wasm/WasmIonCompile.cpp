@@ -3512,15 +3512,11 @@ maybeLoadBoundsCheckLimit
 (
 )
 {
-#
-ifdef
-WASM_HUGE_MEMORY
 if
 (
-!
 env_
 .
-isAsmJS
+hugeMemoryEnabled
 (
 )
 )
@@ -3529,8 +3525,6 @@ return
 nullptr
 ;
 }
-#
-endif
 AliasSet
 aliases
 =
