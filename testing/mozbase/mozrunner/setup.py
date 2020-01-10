@@ -74,7 +74,7 @@ PACKAGE_VERSION
 .
 5
 .
-0
+1
 '
 desc
 =
@@ -162,7 +162,7 @@ mozprofile
 =
 2
 .
-1
+3
 '
     
 '
