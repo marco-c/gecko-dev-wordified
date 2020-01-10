@@ -11277,6 +11277,18 @@ kids
 nsresult
 rv
 ;
+{
+BindContext
+:
+:
+NestingLevel
+level
+(
+aContext
+*
+this
+)
+;
 for
 (
 nsIContent
@@ -11317,6 +11329,7 @@ rv
 rv
 )
 ;
+}
 }
 nsNodeUtils
 :
