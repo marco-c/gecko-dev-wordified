@@ -4932,6 +4932,15 @@ use
 MemoryUse
 :
 :
+Breakpoint
+|
+|
+use
+=
+=
+MemoryUse
+:
+:
 ForOfPICStub
 ;
 }
