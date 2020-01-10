@@ -2866,6 +2866,10 @@ ipc
 IPCResult
 RecvSkipBrowsingContextDetach
 (
+SkipBrowsingContextDetachResolver
+&
+&
+aResolve
 )
 ;
 /
