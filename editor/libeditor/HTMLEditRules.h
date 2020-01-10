@@ -633,6 +633,7 @@ bool
 DocumentIsEmpty
 (
 )
+const
 override
 ;
 /
@@ -1261,8 +1262,14 @@ source
 *
 This
 removes
-bogus
-node
+padding
+<
+br
+>
+element
+for
+empty
+editor
 if
 there
 is
