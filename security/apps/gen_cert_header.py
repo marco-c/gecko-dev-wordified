@@ -278,6 +278,10 @@ addonsPublicRoot
 '
     
 '
+addonsPublicIntermediate
+'
+    
+'
 addonsStageRoot
 '
     
