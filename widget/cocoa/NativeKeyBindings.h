@@ -154,7 +154,7 @@ nsPtrHashKey
 struct
 objc_selector
 >
-CommandInt
+Command
 >
 SelectorCommandHashtable
 ;
