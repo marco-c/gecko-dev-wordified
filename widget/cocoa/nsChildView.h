@@ -4131,9 +4131,6 @@ mShowsResizeIndicator
 LayoutDeviceIntRect
 mResizeIndicatorRect
 ;
-bool
-mHasRoundedBottomCorners
-;
 int
 mDevPixelCornerRadius
 ;
