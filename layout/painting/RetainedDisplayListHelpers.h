@@ -269,9 +269,11 @@ if
 !
 aKey
 )
+{
 return
 0
 ;
+}
 return
 mozilla
 :

@@ -8339,8 +8339,10 @@ IsThemed
 (
 )
 )
+{
 break
 ;
+}
 nsIFrame
 *
 parent
@@ -8358,8 +8360,10 @@ if
 !
 parent
 )
+{
 break
 ;
+}
 frame
 =
 parent
@@ -9337,9 +9341,11 @@ if
 !
 aRootElementFrame
 )
+{
 return
 true
 ;
+}
 const
 nsStyleBackground
 *
@@ -13811,9 +13817,11 @@ aBorder
 i
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -17523,12 +17531,14 @@ drawBackgroundImage
 !
 drawBackgroundColor
 )
+{
 return
 ImgDrawResult
 :
 :
 SUCCESS
 ;
+}
 /
 /
 The
@@ -22685,6 +22695,7 @@ aOneDevPixel
 =
 0
 )
+{
 /
 /
 We
@@ -22726,6 +22737,7 @@ get
 return
 aValue
 ;
+}
 nscoord
 halfPixel
 =

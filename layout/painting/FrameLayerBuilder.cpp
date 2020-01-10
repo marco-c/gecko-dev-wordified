@@ -14741,9 +14741,11 @@ mRetainingManager
 |
 mInvalidateAllLayers
 )
+{
 return
 nullptr
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -15173,9 +15175,11 @@ if
 !
 layer
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 Mark
@@ -15319,9 +15323,11 @@ if
 !
 layer
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 Mark
@@ -42091,9 +42097,11 @@ if
 !
 layer
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 layer

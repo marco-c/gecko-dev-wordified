@@ -8546,8 +8546,10 @@ ForceDescendIntoIfVisible
 (
 )
 )
+{
 return
 ;
+}
 f
 -
 >

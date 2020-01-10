@@ -1972,12 +1972,14 @@ if
 (
 aRootElementFrame
 )
+{
 return
 FindBackgroundStyleFrame
 (
 aRootElementFrame
 )
 ;
+}
 /
 /
 This
