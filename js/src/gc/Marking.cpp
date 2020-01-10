@@ -3745,8 +3745,7 @@ template
 typename
 T
 >
-T
-*
+bool
 DoCallback
 (
 JS
@@ -3770,7 +3769,7 @@ template
 typename
 T
 >
-T
+bool
 DoCallback
 (
 JS
