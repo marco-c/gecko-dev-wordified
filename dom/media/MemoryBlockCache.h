@@ -415,9 +415,10 @@ usable
 block
 cache
 .
-int32_t
+size_t
 GetMaxBlocks
 (
+size_t
 )
 const
 override
@@ -590,7 +591,7 @@ MemoryBlockCache
 expects
 .
 const
-int32_t
+size_t
 mMaxBlocks
 ;
 /
