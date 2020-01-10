@@ -311,16 +311,6 @@ this
 .
 props
 ;
-if
-(
-!
-stacktrace
-)
-{
-return
-null
-;
-}
 const
 frames
 =
