@@ -689,6 +689,11 @@ nsPIDOMWindowOuter
 aWindow
 )
 ;
+void
+MaybeDestroy
+(
+)
+;
 Iterator
 Iter
 (
