@@ -603,7 +603,9 @@ time
 aSamples
 -
 >
-mSamples
+GetSamples
+(
+)
 [
 0
 ]
@@ -729,7 +731,9 @@ if
 aSamples
 -
 >
-mSamples
+GetSamples
+(
+)
 .
 Length
 (
@@ -746,7 +750,9 @@ AppendElements
 aSamples
 -
 >
-mSamples
+GetSamples
+(
+)
 )
 ;
 binding

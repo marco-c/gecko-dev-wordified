@@ -3638,7 +3638,9 @@ if
 samples
 -
 >
-mSamples
+GetSamples
+(
+)
 .
 IsEmpty
 (
@@ -3666,7 +3668,9 @@ sample
 samples
 -
 >
-mSamples
+GetSamples
+(
+)
 )
 {
 /
@@ -3760,7 +3764,9 @@ isNothing
 samples
 -
 >
-mSamples
+GetSamples
+(
+)
 .
 LastElement
 (

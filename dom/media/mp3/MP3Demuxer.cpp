@@ -1861,7 +1861,9 @@ d
 frames
 -
 >
-mSamples
+GetSamples
+(
+)
 .
 Length
 (
@@ -1881,7 +1883,9 @@ if
 frames
 -
 >
-mSamples
+GetSamples
+(
+)
 .
 IsEmpty
 (

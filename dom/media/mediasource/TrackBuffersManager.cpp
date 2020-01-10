@@ -10717,7 +10717,9 @@ demuxed
 aSamples
 -
 >
-mSamples
+GetSamples
+(
+)
 .
 Length
 (
@@ -10741,7 +10743,9 @@ AppendElements
 aSamples
 -
 >
-mSamples
+GetSamples
+(
+)
 )
 ;
 MaybeDispatchEncryptedEvent
@@ -10749,7 +10753,9 @@ MaybeDispatchEncryptedEvent
 aSamples
 -
 >
-mSamples
+GetSamples
+(
+)
 )
 ;
 DoDemuxAudio
@@ -10862,7 +10868,9 @@ demuxed
 aSamples
 -
 >
-mSamples
+GetSamples
+(
+)
 .
 Length
 (
@@ -10886,7 +10894,9 @@ AppendElements
 aSamples
 -
 >
-mSamples
+GetSamples
+(
+)
 )
 ;
 CompleteCodedFrameProcessing
@@ -10898,7 +10908,9 @@ MaybeDispatchEncryptedEvent
 aSamples
 -
 >
-mSamples
+GetSamples
+(
+)
 )
 ;
 }
