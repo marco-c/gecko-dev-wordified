@@ -3820,6 +3820,16 @@ server
 "
 )
 ;
+if
+(
+msgType
+!
+=
+"
+screenshot
+"
+)
+{
 raptorLog
 (
 {
@@ -3827,6 +3837,7 @@ msgData
 }
 )
 ;
+}
 var
 data
 =
