@@ -86,7 +86,6 @@ push
 import
 check_working_directory
 push_to_try
-vcs
 here
 =
 os
@@ -218,11 +217,6 @@ generate_tasks
 (
 parameters
 full
-root
-=
-vcs
-.
-path
 )
     
 app

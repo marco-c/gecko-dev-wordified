@@ -105,7 +105,6 @@ push
 import
 check_working_directory
 push_to_try
-vcs
 terminal
 =
 Terminal
@@ -1770,11 +1769,6 @@ generate_tasks
 (
 parameters
 full
-root
-=
-vcs
-.
-path
 )
     
 all_tasks
