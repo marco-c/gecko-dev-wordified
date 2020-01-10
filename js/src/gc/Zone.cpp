@@ -4936,7 +4936,13 @@ where
 necessary
 .
 return
-false
+use
+=
+=
+MemoryUse
+:
+:
+RegExpSharedBytecode
 ;
 }
 void
