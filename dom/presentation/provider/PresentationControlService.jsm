@@ -1261,7 +1261,6 @@ createTransport
 ssl
 "
 ]
-1
 aDeviceInfo
 .
 address
@@ -1280,8 +1279,8 @@ sts
 .
 createTransport
 (
-null
-0
+[
+]
 aDeviceInfo
 .
 address

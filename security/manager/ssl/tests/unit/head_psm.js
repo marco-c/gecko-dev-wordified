@@ -3097,7 +3097,6 @@ createTransport
 ssl
 "
 ]
-1
 host
 REMOTE_PORT
 null

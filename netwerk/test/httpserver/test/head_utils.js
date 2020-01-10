@@ -2959,8 +2959,8 @@ sts
 .
 createTransport
 (
-null
-0
+[
+]
 rawTest
 .
 host

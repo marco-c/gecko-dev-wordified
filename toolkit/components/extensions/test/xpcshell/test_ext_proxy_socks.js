@@ -2237,8 +2237,8 @@ sts
 .
 createTransport
 (
-null
-0
+[
+]
 dest
 .
 host

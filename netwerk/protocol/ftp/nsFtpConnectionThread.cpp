@@ -8201,8 +8201,12 @@ sts
 >
 CreateTransport
 (
-nullptr
-0
+nsTArray
+<
+nsCString
+>
+(
+)
 host
 port
 mChannel

@@ -866,8 +866,12 @@ sts
 >
 CreateTransport
 (
-nullptr
-0
+nsTArray
+<
+nsCString
+>
+(
+)
 serverHost
 serverPort
 nullptr

@@ -1324,8 +1324,8 @@ sts
 .
 createTransport
 (
-null
-0
+[
+]
 host
 80
 null
@@ -1948,8 +1948,8 @@ sts
 .
 createTransport
 (
-null
-0
+[
+]
 "
 dummyHost
 "

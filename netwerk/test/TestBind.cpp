@@ -710,8 +710,12 @@ sts
 >
 CreateTransport
 (
-nullptr
-0
+nsTArray
+<
+nsCString
+>
+(
+)
 NS_LITERAL_CSTRING
 (
 "
