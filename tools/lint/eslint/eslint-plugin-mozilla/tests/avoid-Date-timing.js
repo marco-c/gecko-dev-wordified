@@ -526,9 +526,6 @@ Date
 now
 (
 )
-"
-+
-"
 for
 timing
 measurements
@@ -559,9 +556,6 @@ new
 Date
 (
 )
-"
-+
-"
 for
 timing
 measurements
