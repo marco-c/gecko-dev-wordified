@@ -939,8 +939,6 @@ null
 {
 mSession
 .
-mCompositor
-.
 setFixedBottomOffset
 (
 clippingHeight
