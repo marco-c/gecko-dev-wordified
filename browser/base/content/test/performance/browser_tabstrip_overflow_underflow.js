@@ -446,11 +446,6 @@ condition
 r
 =
 >
-AppConstants
-.
-DEBUG
-&
-&
 /
 /
 In
