@@ -420,6 +420,12 @@ kMaxSize
 ciphertext_len
 )
 ;
+ASSERT_LT
+(
+0U
+ciphertext_len
+)
+;
 uint8_t
 output
 [
@@ -1314,6 +1320,8 @@ AeadAes256Gcm
 SSLAeadContext
 *
 ctxInit
+=
+nullptr
 ;
 ASSERT_EQ
 (

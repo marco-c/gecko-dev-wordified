@@ -3367,7 +3367,7 @@ a
 uint32_t
 pattern
 bool
-enabled
+on
 =
 true
 )
@@ -3388,7 +3388,7 @@ counter_
 if
 (
 !
-enabled
+on
 )
 {
 Disable

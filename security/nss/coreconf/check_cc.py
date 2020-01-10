@@ -28,6 +28,15 @@ platform
 '
 win32
 '
+or
+len
+(
+sys
+.
+argv
+)
+<
+2
 :
         
 print
@@ -57,11 +66,14 @@ cc
 try
 :
             
-cc_is_clang
+cc_is_arg
 =
-'
-clang
-'
+sys
+.
+argv
+[
+1
+]
 in
 subprocess
 .
@@ -98,7 +110,7 @@ CC
 cc
 .
             
-cc_is_clang
+cc_is_arg
 =
 False
         
@@ -106,7 +118,7 @@ print
 (
 int
 (
-cc_is_clang
+cc_is_arg
 )
 )
 if

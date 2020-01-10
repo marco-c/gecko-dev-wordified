@@ -662,7 +662,7 @@ tls13_Read0RttData
 sslSocket
 *
 ss
-void
+PRUint8
 *
 buf
 PRInt32

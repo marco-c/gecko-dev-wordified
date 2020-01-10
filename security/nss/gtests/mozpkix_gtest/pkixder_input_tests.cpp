@@ -2176,6 +2176,12 @@ der
 =
 nullptr
 ;
+/
+/
+coverity
+[
+FORWARD_NULL
+]
 -
 -
 der
