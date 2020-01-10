@@ -958,6 +958,11 @@ WorkerTerminated
 )
 ;
 void
+ForgetActorAndTerminate
+(
+)
+;
+void
 Shutdown
 (
 )
