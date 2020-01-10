@@ -1497,7 +1497,13 @@ fail
 -
 errors
 '
+                             
 {
+'
+exitcode
+'
+:
+exitcode
 }
                              
 '
@@ -1521,6 +1527,10 @@ code
 '
 from
 Valgrind
+:
+{
+exitcode
+}
 '
 )
                 
