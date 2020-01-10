@@ -496,22 +496,6 @@ CONTEXT_CHROME
 )
 :
             
-self
-.
-marionette
-.
-execute_script
-(
-"
-gURLBar
-.
-select
-(
-)
-;
-"
-)
-            
 urlbar
 =
 self
@@ -525,8 +509,6 @@ By
 ID
 "
 urlbar
--
-input
 "
 )
             

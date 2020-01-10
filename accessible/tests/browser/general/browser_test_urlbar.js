@@ -196,8 +196,7 @@ be
 created
 for
 the
-results
-list
+richlistbox
 "
 )
 ;
