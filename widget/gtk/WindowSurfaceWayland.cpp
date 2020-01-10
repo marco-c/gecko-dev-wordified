@@ -1450,6 +1450,14 @@ wl_surface
 /
 #
 define
+EVENT_LOOP_DELAY
+(
+1000
+/
+240
+)
+#
+define
 BUFFER_BPP
 4
 gfx
