@@ -1375,8 +1375,6 @@ nsICookieSettings
 *
 aCookieSettings
 bool
-aThirdPartySession
-bool
 aThirdPartyNonsecureSession
 nsIURI
 *
@@ -2360,9 +2358,6 @@ RefPtr
 DBState
 >
 mPrivateDBState
-;
-bool
-mThirdPartySession
 ;
 bool
 mThirdPartyNonsecureSession
