@@ -229,7 +229,7 @@ PlatformEncoderModule
 {
 public
 :
-NS_INLINE_DECL_REFCOUNTING
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 PlatformEncoderModule
 )
