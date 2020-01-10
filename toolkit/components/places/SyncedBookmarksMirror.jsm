@@ -1192,7 +1192,7 @@ migrateMirrorSchema
 const
 MIRROR_SCHEMA_VERSION
 =
-4
+5
 ;
 const
 DEFAULT_MAX_FRECENCIES_TO_RECALCULATE
@@ -9692,7 +9692,7 @@ if
 (
 currentSchemaVersion
 <
-4
+5
 )
 {
 /
@@ -9711,7 +9711,7 @@ schema
 versions
 1
 -
-3
+4
 .
 throw
 new

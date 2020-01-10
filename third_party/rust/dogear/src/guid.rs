@@ -1402,7 +1402,6 @@ all
 &
 byte
 |
-{
 VALID_GUID_BYTES
 .
 get
@@ -1414,8 +1413,9 @@ into
 )
 )
 .
-map
+map_or
 (
+false
 |
 &
 b
@@ -1425,12 +1425,6 @@ b
 =
 1
 )
-.
-unwrap_or
-(
-false
-)
-}
 )
 }
 }
@@ -1981,6 +1975,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >
@@ -2031,6 +2029,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >
