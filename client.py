@@ -61,6 +61,11 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
+print_function
 LIBFFI_DIRS
 =
 (
@@ -165,12 +170,14 @@ kwargs
 :
     
 print
+(
 "
 Executing
 command
 :
 "
 cmd
+)
     
 check_call
 (
@@ -565,6 +572,7 @@ fullpath
 :
             
 print
+(
 "
 Removing
 '
@@ -574,6 +582,7 @@ s
 "
 %
 fullpath
+)
             
 shutil
 .
@@ -597,6 +606,7 @@ module
 )
         
 print
+(
 "
 CVS
 export
@@ -633,6 +643,7 @@ M
 S
 UTC
 "
+)
 )
         
 check_call_noisy
@@ -675,6 +686,7 @@ parent
 )
         
 print
+(
 "
 CVS
 export
@@ -711,6 +723,7 @@ M
 S
 UTC
 "
+)
 )
 def
 toggle_trailing_blank_line
@@ -769,16 +782,18 @@ lines
 :
       
 print
->
->
-sys
-.
-stderr
+(
 "
 unexpected
 short
 file
 "
+file
+=
+sys
+.
+stderr
+)
       
 return
   
@@ -871,16 +886,18 @@ lines
 :
       
 print
->
->
-sys
-.
-stderr
+(
 "
 unexpected
 short
 file
 "
+file
+=
+sys
+.
+stderr
+)
       
 return
 "
@@ -969,6 +986,7 @@ temporary_patch_dir
 :
     
 print
+(
 "
 please
 clean
@@ -978,6 +996,7 @@ directory
 "
 +
 temporary_patch_dir
+)
     
 sys
 .
@@ -1027,6 +1046,7 @@ the
 destination
   
 print
+(
 "
 reverting
 to
@@ -1044,6 +1064,7 @@ state
 "
 %
 depfile
+)
   
 check_call_noisy
 (
@@ -1066,6 +1087,7 @@ depfile
 )
   
 print
+(
 "
 old
 state
@@ -1081,6 +1103,7 @@ s
 (
 depfile
 old_state
+)
 )
   
 do_hg_replace
@@ -1102,6 +1125,7 @@ depfile
 )
   
 print
+(
 "
 new
 state
@@ -1118,6 +1142,7 @@ s
 depfile
 new_state
 )
+)
   
 if
 old_state
@@ -1127,6 +1152,7 @@ new_state
 :
     
 print
+(
 "
 toggling
 blank
@@ -1135,6 +1161,7 @@ in
 :
 "
 depfile
+)
     
 toggle_trailing_blank_line
 (
@@ -1152,17 +1179,24 @@ TAG
 INFO
 "
   
-print
->
->
-file
+with
+open
 (
 tag_file
-"
+'
 w
-"
+'
 )
+as
+f
+:
+    
+f
+.
+write
+(
 tag
+)
   
 #
 move
@@ -1244,6 +1278,7 @@ path
 :
     
 print
+(
 "
 =
 =
@@ -1286,8 +1321,10 @@ print
 =
 =
 "
+)
     
 print
+(
 "
 WARNING
 :
@@ -1298,8 +1335,10 @@ patch
 file
 exists
 "
+)
     
 print
+(
 "
 in
 directory
@@ -1307,8 +1346,10 @@ directory
 "
 +
 path
+)
     
 print
+(
 "
 You
 must
@@ -1319,8 +1360,10 @@ apply
 all
 patches
 "
+)
     
 print
+(
 "
 after
 this
@@ -1329,8 +1372,10 @@ has
 completed
 !
 "
+)
     
 print
+(
 "
 =
 =
@@ -1373,6 +1418,7 @@ print
 =
 =
 "
+)
     
 raw_input
 (
