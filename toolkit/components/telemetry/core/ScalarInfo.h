@@ -229,6 +229,7 @@ products
 bool
 builtin
 ;
+constexpr
 BaseScalarInfo
 (
 uint32_t
@@ -480,6 +481,7 @@ parameters
 we
 need
 .
+constexpr
 ScalarInfo
 (
 uint32_t
