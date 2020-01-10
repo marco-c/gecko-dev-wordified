@@ -10072,7 +10072,7 @@ referrer
 mDocument
 -
 >
-GetDocumentURI
+GetDocumentURIAsReferrer
 (
 )
 ;

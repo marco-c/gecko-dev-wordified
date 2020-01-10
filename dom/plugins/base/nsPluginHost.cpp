@@ -19088,7 +19088,7 @@ referer
 doc
 -
 >
-GetDocumentURI
+GetDocumentURIAsReferrer
 (
 )
 ;

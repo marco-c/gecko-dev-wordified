@@ -212,7 +212,7 @@ eSpeculativeLoadMetaReferrer
 aExecutor
 -
 >
-SetSpeculationReferrerPolicy
+UpdateReferrerInfoFromMeta
 (
 mReferrerPolicyOrIntegrity
 )
