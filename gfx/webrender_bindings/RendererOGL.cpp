@@ -248,7 +248,7 @@ wr
 :
 :
 WrExternalImage
-LockExternalImage
+wr_renderer_lock_external_image
 (
 void
 *
@@ -346,7 +346,7 @@ aRendering
 ;
 }
 void
-UnlockExternalImage
+wr_renderer_unlock_external_image
 (
 void
 *
@@ -567,8 +567,6 @@ wr
 WrExternalImageHandler
 {
 this
-LockExternalImage
-UnlockExternalImage
 }
 ;
 }
