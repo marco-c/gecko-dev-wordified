@@ -990,6 +990,9 @@ mUsed
 bool
 mDiscarded
 ;
+bool
+mOwnsItem
+;
 }
 ;
 bool
