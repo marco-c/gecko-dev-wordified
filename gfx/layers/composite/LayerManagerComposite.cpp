@@ -6824,7 +6824,7 @@ maybeBounds
 mCompositor
 -
 >
-BeginFrame
+BeginFrameForWindow
 (
 aInvalidRegion
 rootLayerClip
@@ -8108,7 +8108,7 @@ Unused
 mCompositor
 -
 >
-BeginFrame
+BeginFrameForWindow
 (
 invalid
 Nothing

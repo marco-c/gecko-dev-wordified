@@ -3007,7 +3007,7 @@ gfx
 :
 IntRect
 >
-BeginFrame
+BeginFrameForWindow
 (
 const
 nsIntRegion

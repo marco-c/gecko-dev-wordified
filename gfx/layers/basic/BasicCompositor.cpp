@@ -5733,7 +5733,7 @@ IntRect
 BasicCompositor
 :
 :
-BeginFrame
+BeginFrameForWindow
 (
 const
 nsIntRegion
