@@ -1027,7 +1027,7 @@ type
 {
 case
 "
-canplay
+UAWidgetSetupOrChange
 "
 :
 {
