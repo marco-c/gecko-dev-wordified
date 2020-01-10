@@ -9016,9 +9016,6 @@ bool
 mReturnInEmptyLIKillsList
 ;
 bool
-mDidExplicitlySetInterline
-;
-bool
 mDidRangedDelete
 ;
 bool
