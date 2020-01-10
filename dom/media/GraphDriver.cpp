@@ -4257,7 +4257,7 @@ CUBEB_STREAM_PREF_VOICE
 #
 endif
 uint32_t
-latency_frames
+latencyFrames
 =
 CubebUtils
 :
@@ -4306,7 +4306,7 @@ IsMacbookOrMacbookAir
 )
 )
 {
-latency_frames
+latencyFrames
 =
 std
 :
@@ -4317,7 +4317,7 @@ max
 uint32_t
 )
 512
-latency_frames
+latencyFrames
 )
 ;
 }
@@ -4405,14 +4405,14 @@ CUBEB_DEVICE_PREF_VOICE
 {
 if
 (
-latency_frames
+latencyFrames
 <
 mSampleRate
 /
 100
 )
 {
-latency_frames
+latencyFrames
 =
 mozilla
 :
@@ -4444,7 +4444,7 @@ frames
 %
 d
 "
-latency_frames
+latencyFrames
 )
 )
 ;
@@ -4481,7 +4481,7 @@ CubebUtils
 :
 :
 AudioDeviceID
-output_id
+outputId
 =
 GraphImpl
 (
@@ -4494,7 +4494,7 @@ CubebUtils
 :
 :
 AudioDeviceID
-input_id
+inputId
 =
 GraphImpl
 (
@@ -4545,7 +4545,7 @@ stream
 "
 AudioCallbackDriver
 "
-input_id
+inputId
 inputWanted
 ?
 &
@@ -4556,10 +4556,10 @@ forcedOutputDeviceId
 ?
 forcedOutputDeviceId
 :
-output_id
+outputId
 &
 output
-latency_frames
+latencyFrames
 DataCallback_s
 StateCallback_s
 this
@@ -7870,7 +7870,7 @@ AudioOutputLatency
 )
 {
 uint32_t
-latency_frames
+latencyFrames
 ;
 int
 rv
@@ -7879,7 +7879,7 @@ cubeb_stream_get_latency
 (
 mAudioStream
 &
-latency_frames
+latencyFrames
 )
 ;
 if
@@ -7916,7 +7916,7 @@ static_cast
 double
 >
 (
-latency_frames
+latencyFrames
 )
 /
 mSampleRate
