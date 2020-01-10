@@ -484,6 +484,9 @@ ChannelLayout
 ChannelMap
 mChannelMap
 ;
+bool
+mDefaultPlaybackDeviceMono
+;
 }
 ;
 }
