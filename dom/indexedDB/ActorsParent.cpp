@@ -49159,7 +49159,7 @@ MOZ_ASSERT
 mStorageConnection
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mUpdateRefcountFunction
 )
@@ -51911,6 +51911,9 @@ AssertIsOnConnectionThread
 (
 )
 ;
+#
+ifndef
+NIGHTLY_BUILD
 /
 /
 This
@@ -51967,6 +51970,8 @@ return
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
+#
+endif
 MOZ_ASSERT
 (
 !
@@ -89859,6 +89864,12 @@ persistenceType
 suffix
 group
 origin
+/
+*
+aCreateIfNotExists
+*
+/
+true
 getter_AddRefs
 (
 directory
@@ -103801,6 +103812,12 @@ persistenceType
 mSuffix
 mGroup
 mOrigin
+/
+*
+aCreateIfNotExists
+*
+/
+true
 getter_AddRefs
 (
 dbDirectory
