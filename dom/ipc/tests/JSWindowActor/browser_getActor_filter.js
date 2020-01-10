@@ -759,7 +759,7 @@ remoteTypes
 :
 [
 "
-privileged
+privilegedabout
 "
 ]
 url
