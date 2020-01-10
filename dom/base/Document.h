@@ -21247,7 +21247,16 @@ unused
 *
 /
 const
+mozilla
+:
+:
+dom
+:
+:
+Optional
+<
 nsAString
+>
 &
 /
 *
@@ -21292,8 +21301,6 @@ const
 nsAString
 &
 aFeatures
-bool
-aReplace
 mozilla
 :
 :
