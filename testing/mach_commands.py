@@ -9519,6 +9519,8 @@ eq
 :
 {
 "
+task
+.
 state
 "
 :
@@ -9622,7 +9624,10 @@ tasks_gt_pct
 ]
                     
 if
+float
+(
 tasks_gt_pct
+)
 /
 count
 >
