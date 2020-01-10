@@ -198,7 +198,7 @@ darker
 ;
 -
 -
-cookie
+crossSite
 -
 color
 :
@@ -207,7 +207,7 @@ color
 ;
 -
 -
-cookie
+crossSite
 -
 color
 -
@@ -355,7 +355,7 @@ body
 [
 focuseddatatype
 =
-cookie
+crossSite
 ]
 {
 -
@@ -368,7 +368,7 @@ var
 (
 -
 -
-cookie
+crossSite
 -
 color
 )
@@ -1080,7 +1080,7 @@ darker
 ;
 }
 .
-cookie
+crossSite
 -
 bar
 {
@@ -1092,7 +1092,7 @@ var
 (
 -
 -
-cookie
+crossSite
 -
 color
 )
@@ -1101,9 +1101,9 @@ color
 .
 hover
 -
-cookie
+crossSite
 .
-cookie
+crossSite
 -
 bar
 {
@@ -1115,7 +1115,7 @@ var
 (
 -
 -
-cookie
+crossSite
 -
 color
 -
@@ -1362,7 +1362,7 @@ data
 type
 =
 "
-cookie
+crossSite
 "
 ]
 {
@@ -1372,7 +1372,7 @@ var
 (
 -
 -
-cookie
+crossSite
 -
 color
 )
@@ -1464,7 +1464,7 @@ social
 .
 hover
 -
-cookie
+crossSite
 label
 [
 for
@@ -1472,7 +1472,7 @@ for
 "
 tab
 -
-cookie
+crossSite
 "
 ]
 .
@@ -1665,12 +1665,12 @@ social
 #
 tab
 -
-cookie
+crossSite
 :
 checked
 ~
 #
-cookie
+crossSite
 #
 tab
 -
