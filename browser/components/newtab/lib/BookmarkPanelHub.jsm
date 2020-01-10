@@ -550,9 +550,15 @@ this
 .
 _handleMessageRequest
 (
+{
+triggerId
+:
 this
 .
 _trigger
+.
+id
+}
 )
 ;
 return
