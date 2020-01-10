@@ -841,6 +841,17 @@ mMutex
 ;
 if
 (
+mShutdown
+)
+{
+killThread
+=
+true
+;
+}
+else
+if
+(
 mThreads
 .
 Count
