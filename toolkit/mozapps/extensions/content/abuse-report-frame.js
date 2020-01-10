@@ -1010,6 +1010,12 @@ abuseReport
 =
 >
 {
+this
+.
+hidden
+=
+false
+;
 abuseReport
 .
 addEventListener
@@ -1073,12 +1079,6 @@ setAbuseReport
 (
 report
 )
-;
-this
-.
-hidden
-=
-false
 ;
 /
 /
