@@ -838,7 +838,7 @@ functions
 are
 not
 constructible
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )

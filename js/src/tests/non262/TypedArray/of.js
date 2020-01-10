@@ -154,7 +154,7 @@ to
 other
 constructors
 .
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -171,7 +171,7 @@ Array
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )

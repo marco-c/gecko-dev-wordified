@@ -185,7 +185,7 @@ b
 "
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -206,7 +206,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -229,7 +229,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -254,7 +254,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -279,7 +279,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -304,7 +304,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -331,7 +331,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -358,7 +358,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -384,7 +384,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -412,7 +412,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -440,7 +440,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -463,7 +463,7 @@ a
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -487,7 +487,7 @@ b
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -510,7 +510,7 @@ a
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -632,7 +632,7 @@ b
 "
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -654,7 +654,7 @@ b
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -676,7 +676,7 @@ function
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -752,7 +752,7 @@ await
 "
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -773,7 +773,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -813,7 +813,7 @@ an
 /
 operand
 .
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -1029,7 +1029,7 @@ yield
 "
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -1055,7 +1055,7 @@ X
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -1083,7 +1083,7 @@ X
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -1109,7 +1109,7 @@ yield
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -1403,7 +1403,7 @@ async
 "
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )

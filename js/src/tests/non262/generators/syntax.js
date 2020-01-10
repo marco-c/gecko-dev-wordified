@@ -351,7 +351,7 @@ yield
 *
 foo
 }
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -400,7 +400,7 @@ not
 a
 LogicalORExpression
 .
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )

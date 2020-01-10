@@ -96,7 +96,7 @@ prefix
 "
 )
 {
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -119,7 +119,7 @@ argsbody
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -144,7 +144,7 @@ argsbody
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -168,7 +168,7 @@ argsbody
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -218,7 +218,7 @@ strict
 "
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -241,7 +241,7 @@ argsbody
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -265,7 +265,7 @@ argsbody
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -359,7 +359,7 @@ yield
 "
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -389,7 +389,7 @@ yield
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -512,7 +512,7 @@ yield
 "
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -742,7 +742,7 @@ yield
 "
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -776,7 +776,7 @@ yield
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )

@@ -63,7 +63,7 @@ byteOffset
 |
 argument
 .
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -85,7 +85,7 @@ BYTES_PER_ELEMENT
 RangeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -105,7 +105,7 @@ ab
 RangeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -123,7 +123,7 @@ ab
 RangeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -143,7 +143,7 @@ ab
 RangeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -178,7 +178,7 @@ byteOffset
 |
 argument
 .
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -200,7 +200,7 @@ BYTES_PER_ELEMENT
 RangeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -220,7 +220,7 @@ ab
 RangeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -238,7 +238,7 @@ ab
 RangeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -258,7 +258,7 @@ ab
 RangeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -293,7 +293,7 @@ length
 |
 argument
 .
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -314,7 +314,7 @@ ab
 RangeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -333,7 +333,7 @@ ab
 RangeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -367,7 +367,7 @@ length
 |
 argument
 .
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -388,7 +388,7 @@ ab
 RangeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -407,7 +407,7 @@ ab
 RangeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )

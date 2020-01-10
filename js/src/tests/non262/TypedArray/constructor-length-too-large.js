@@ -74,7 +74,7 @@ of
 typedArrayConstructors
 )
 {
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -88,7 +88,7 @@ INT32_MAX
 RangeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -183,7 +183,7 @@ BYTES_PER_ELEMENT
 {
 /
 /
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -221,7 +221,7 @@ of
 typedArrayConstructors
 )
 {
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -239,7 +239,7 @@ INT32_MAX
 RangeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )

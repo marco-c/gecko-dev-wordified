@@ -334,7 +334,7 @@ await
 "
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -375,7 +375,7 @@ function
 expression
 name
 .
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -412,7 +412,7 @@ function
 is
 not
 allowed
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -431,7 +431,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -456,7 +456,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -482,7 +482,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -525,7 +525,7 @@ a
 default
 expr
 .
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -552,7 +552,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -586,7 +586,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -622,7 +622,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -658,7 +658,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -696,7 +696,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -732,7 +732,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -784,7 +784,7 @@ an
 async
 function
 .
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -812,7 +812,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )

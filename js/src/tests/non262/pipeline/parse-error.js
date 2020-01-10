@@ -38,7 +38,7 @@ hasPipeline
 /
 Invalid
 Token
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -56,7 +56,7 @@ parseInt
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -75,7 +75,7 @@ parseInt
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -94,7 +94,7 @@ parseInt
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -116,7 +116,7 @@ SyntaxError
 /
 Invalid
 Syntax
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -133,7 +133,7 @@ Function
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )

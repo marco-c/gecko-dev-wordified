@@ -383,7 +383,7 @@ parse
 as
 exp
 operator
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
