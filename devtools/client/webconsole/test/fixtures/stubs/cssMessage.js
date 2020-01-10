@@ -471,11 +471,6 @@ private
 "
 :
 false
-"
-chromeContext
-"
-:
-false
 }
 )
 )
@@ -854,11 +849,6 @@ private
 "
 :
 false
-"
-chromeContext
-"
-:
-false
 }
 )
 )
@@ -1023,11 +1013,6 @@ notes
 "
 :
 null
-"
-chromeContext
-"
-:
-false
 }
 "
 type
@@ -1214,11 +1199,6 @@ notes
 "
 :
 null
-"
-chromeContext
-"
-:
-false
 }
 "
 type
