@@ -87,6 +87,9 @@ message
 mach_msg_type_number_t
 ;
 use
+crate
+:
+:
 mach_sys
 :
 :
