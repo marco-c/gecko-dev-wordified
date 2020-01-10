@@ -17150,13 +17150,6 @@ object
 .
 preview
 ;
-const
-mode
-=
-props
-.
-mode
-;
 let
 name
 ;
@@ -17245,6 +17238,8 @@ content
 ;
 if
 (
+props
+.
 mode
 =
 =
@@ -17289,6 +17284,8 @@ preview
 stack
 &
 &
+props
+.
 mode
 !
 =
@@ -17296,15 +17293,6 @@ mode
 MODE
 .
 TINY
-&
-&
-mode
-!
-=
-=
-MODE
-.
-SHORT
 )
 {
 const
