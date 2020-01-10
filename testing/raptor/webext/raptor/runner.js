@@ -3521,6 +3521,9 @@ postToControlServer
 (
 msgType
 msgData
+=
+"
+"
 )
 {
 /
@@ -3925,10 +3928,7 @@ shutdown
 postToControlServer
 (
 "
-status
-"
-"
-__raptor_shutdownBrowser
+shutdownBrowser
 "
 )
 ;
