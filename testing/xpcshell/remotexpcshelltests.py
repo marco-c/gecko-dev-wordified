@@ -1953,11 +1953,14 @@ android_version
 '
 ]
 =
+str
+(
 self
 .
 device
 .
 version
+)
         
 self
 .
