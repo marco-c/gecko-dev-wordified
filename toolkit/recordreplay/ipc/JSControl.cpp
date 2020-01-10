@@ -3735,8 +3735,14 @@ child
 >
 SendMessage
 (
+std
+:
+:
+move
+(
 *
 msg
+)
 )
 ;
 free
