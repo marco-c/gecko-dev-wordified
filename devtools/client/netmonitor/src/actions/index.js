@@ -161,6 +161,18 @@ sockets
 "
 )
 ;
+const
+search
+=
+require
+(
+"
+.
+/
+search
+"
+)
+;
 Object
 .
 assign
@@ -169,6 +181,7 @@ exports
 batching
 filters
 requests
+search
 selection
 sort
 timingMarkers
