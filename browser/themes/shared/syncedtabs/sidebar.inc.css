@@ -1309,7 +1309,7 @@ syncIllustrationIssue
 {
 height
 :
-91px
+174px
 ;
 margin
 :
@@ -1330,6 +1330,12 @@ repeat
 no
 -
 repeat
+;
+background
+-
+size
+:
+contain
 ;
 }
 .
