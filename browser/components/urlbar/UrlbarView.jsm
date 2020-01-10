@@ -1348,7 +1348,16 @@ updateInput
 false
 setAccessibleFocus
 :
-false
+this
+.
+controller
+.
+_userSelectionBehavior
+=
+=
+"
+arrow
+"
 }
 )
 ;
