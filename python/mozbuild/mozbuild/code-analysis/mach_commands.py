@@ -63,6 +63,8 @@ unicode_literals
 import
 argparse
 import
+hashlib
+import
 json
 import
 os
