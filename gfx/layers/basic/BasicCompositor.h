@@ -1257,12 +1257,6 @@ endif
 gfx
 :
 :
-IntRect
-mInvalidRect
-;
-gfx
-:
-:
 IntRegion
 mInvalidRegion
 ;
