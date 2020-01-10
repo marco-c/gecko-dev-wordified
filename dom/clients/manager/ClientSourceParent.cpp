@@ -1066,7 +1066,6 @@ instead
 .
 if
 (
-!
 ServiceWorkerParentInterceptEnabled
 (
 )
