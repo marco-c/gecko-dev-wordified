@@ -3307,7 +3307,7 @@ Style
 GetVisitedDependentColor
 (
 &
-nsStyleColor
+nsStyleText
 :
 :
 mColor
