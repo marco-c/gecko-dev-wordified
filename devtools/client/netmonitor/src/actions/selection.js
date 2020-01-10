@@ -116,7 +116,6 @@ function
 selectRequest
 (
 id
-httpChannelId
 )
 {
 return
@@ -125,7 +124,6 @@ type
 :
 SELECT_REQUEST
 id
-httpChannelId
 }
 ;
 }
