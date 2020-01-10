@@ -20841,7 +20841,6 @@ message
 ;
 }
 }
-pub
 fn
 gl_describe_format
 (
@@ -21318,7 +21317,6 @@ dim
 report
 }
 }
-pub
 struct
 FormatDesc
 {
@@ -21337,7 +21335,6 @@ within
 a
 texture
 .
-pub
 internal
 :
 gl
@@ -21361,7 +21358,6 @@ filling
 the
 texture
 .
-pub
 external
 :
 gl
@@ -21391,7 +21387,6 @@ external
 later
 on
 .
-pub
 read
 :
 gl
@@ -21405,7 +21400,6 @@ Associated
 pixel
 type
 .
-pub
 pixel_type
 :
 gl
