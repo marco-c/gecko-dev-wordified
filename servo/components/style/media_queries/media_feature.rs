@@ -369,8 +369,11 @@ bool
 /
 /
 /
-An
-integer
+A
+non
+-
+negative
+number
 ratio
 such
 as
@@ -383,7 +386,7 @@ pixel
 -
 ratio
 .
-IntRatio
+NumberRatio
 (
 MediaFeatureEvaluator
 <
