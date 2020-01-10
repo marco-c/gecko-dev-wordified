@@ -817,6 +817,12 @@ cell
 -
 value
 {
+overflow
+-
+wrap
+:
+anywhere
+;
 white
 -
 space
