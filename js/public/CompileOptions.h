@@ -978,6 +978,11 @@ hideScriptFromDebugger
 false
 ;
 bool
+bigIntEnabledOption
+=
+false
+;
+bool
 fieldsEnabledOption
 =
 true
