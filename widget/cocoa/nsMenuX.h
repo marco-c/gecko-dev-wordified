@@ -624,6 +624,11 @@ nsMenuItemIconX
 >
 mIcon
 ;
+/
+/
+[
+strong
+]
 GeckoNSMenu
 *
 mNativeMenu
