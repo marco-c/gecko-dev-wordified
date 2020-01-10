@@ -1188,10 +1188,10 @@ has
 TrimEnabled
 but
 also
+/
+/
 IncursSeekPenalty
 ;
-/
-/
 In
 this
 case

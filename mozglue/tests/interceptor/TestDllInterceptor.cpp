@@ -5880,6 +5880,12 @@ MAYBE_TEST_HOOK_PARAMS
 HasApiSetQueryApiSetPresence
 (
 )
+/
+/
+clang
+-
+format
+off
 Api
 -
 ms
@@ -5897,6 +5903,12 @@ l1
 0
 .
 dll
+/
+/
+clang
+-
+format
+on
 ApiSetQueryApiSetPresence
 Equals
 FALSE
