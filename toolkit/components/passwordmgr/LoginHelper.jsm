@@ -2887,6 +2887,10 @@ name
 /
 /
 nsILoginInfo
+(
+fall
+through
+)
 case
 "
 origin
@@ -2925,6 +2929,10 @@ passwordField
 /
 /
 nsILoginMetaInfo
+(
+fall
+through
+)
 case
 "
 guid

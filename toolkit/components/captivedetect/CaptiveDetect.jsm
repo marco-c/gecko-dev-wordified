@@ -1305,7 +1305,7 @@ LOGIN_OBSERVER_STATE_VERIFY_NEEDED
 /
 /
 Fall
-though
+through
 to
 start
 polling
