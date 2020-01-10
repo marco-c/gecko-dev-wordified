@@ -1512,6 +1512,10 @@ noteCount
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 notes
 (
 )
@@ -1546,6 +1550,10 @@ noteCountDelta
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 notes
 (
 )
