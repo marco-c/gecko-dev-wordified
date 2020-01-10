@@ -515,6 +515,11 @@ IsSnapEnvironment
 (
 )
 ;
+bool
+UseLegacyProfiles
+(
+)
+;
 nsresult
 CreateDefaultProfile
 (
