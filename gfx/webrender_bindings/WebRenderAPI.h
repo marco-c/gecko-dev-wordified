@@ -2413,6 +2413,15 @@ WrClipId
 >
 &
 aClips
+const
+wr
+:
+:
+WrClipChainId
+*
+aParent
+=
+nullptr
 )
 ;
 wr
