@@ -1415,7 +1415,7 @@ sw
 '
         
 '
-config
+replace
 '
 :
 {
@@ -1435,6 +1435,14 @@ mozilla
 central
 '
 ]
+        
+}
+        
+'
+merge
+'
+:
+{
             
 '
 tier
@@ -1507,7 +1515,7 @@ spi
 '
         
 '
-config
+merge
 '
 :
 {
@@ -9120,16 +9128,36 @@ group
 symbol
 )
             
+testv
+.
+update
+(
+variant
+.
+get
+(
+'
+replace
+'
+{
+}
+)
+)
+            
 yield
 merge
 (
 testv
 variant
-[
+.
+get
+(
 '
-config
+merge
 '
-]
+{
+}
+)
 )
 transforms
 .
