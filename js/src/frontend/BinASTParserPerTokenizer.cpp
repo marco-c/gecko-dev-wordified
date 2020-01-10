@@ -2446,6 +2446,11 @@ function
 funbox
 -
 >
+function
+(
+)
+-
+>
 setArgCount
 (
 params

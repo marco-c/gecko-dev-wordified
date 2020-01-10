@@ -1109,6 +1109,11 @@ asFunctionBox
 )
 -
 >
+function
+(
+)
+-
+>
 nargs
 (
 )
