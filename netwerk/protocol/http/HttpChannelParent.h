@@ -176,6 +176,13 @@ h
 #
 include
 "
+nsICrossProcessSwitchChannel
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
@@ -365,6 +372,8 @@ public
 nsIChannelEventSink
 public
 nsIRedirectResultListener
+public
+nsICrossProcessSwitchChannel
 {
 virtual
 ~
@@ -386,6 +395,7 @@ NS_DECL_NSIDEPRECATIONWARNER
 NS_DECL_NSIASYNCVERIFYREDIRECTREADYCALLBACK
 NS_DECL_NSICHANNELEVENTSINK
 NS_DECL_NSIREDIRECTRESULTLISTENER
+NS_DECL_NSICROSSPROCESSSWITCHCHANNEL
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
 HTTP_CHANNEL_PARENT_IID
@@ -730,16 +740,6 @@ ParentChannelListener
 >
 GetParentListener
 (
-)
-;
-nsresult
-TriggerCrossProcessRedirect
-(
-nsIChannel
-*
-oldChannel
-uint64_t
-aIdentifier
 )
 ;
 protected
