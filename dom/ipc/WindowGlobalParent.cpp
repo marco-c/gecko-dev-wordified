@@ -1836,7 +1836,7 @@ MOZ_RELEASE_ASSERT
 actor
 -
 >
-Manager
+GetManager
 (
 )
 "
