@@ -1948,6 +1948,13 @@ get
 (
 )
 i
+%
+TelemetryOrigin
+:
+:
+SizeOfPrioDatasPerMetric
+(
+)
 )
 ;
 ASSERT_TRUE
@@ -1991,6 +1998,11 @@ expected
 <
 <
 encoding
+<
+<
+"
+)
+"
 ;
 JS
 :
