@@ -12,7 +12,7 @@ js
 /
 requestLongerTimeout
 (
-2
+3
 )
 ;
 AntiTracking
