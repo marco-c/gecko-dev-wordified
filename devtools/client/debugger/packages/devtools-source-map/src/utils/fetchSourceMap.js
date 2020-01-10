@@ -126,9 +126,11 @@ convertToJSON
 require
 (
 "
-.
-/
-convertToJSON
+devtools
+-
+wasm
+-
+dwarf
 "
 )
 ;

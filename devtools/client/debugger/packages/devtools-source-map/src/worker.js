@@ -118,7 +118,7 @@ require
 /
 utils
 /
-wasmAsset
+assetRoot
 "
 )
 ;

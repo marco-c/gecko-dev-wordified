@@ -80,9 +80,6 @@ require
 .
 .
 /
-.
-.
-/
 assets
 "
 )
