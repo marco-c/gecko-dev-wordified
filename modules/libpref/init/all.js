@@ -2194,6 +2194,11 @@ hack
 use_legacy_keycode_and_charcode
 "
 "
+docs
+.
+google
+.
+com
 *
 .
 collabserv
