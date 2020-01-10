@@ -339,6 +339,15 @@ nsIURI
 aURL
 )
 ;
+static
+bool
+IsPotentiallyTrustworthyOrigin
+(
+nsIURI
+*
+aURI
+)
+;
 /
 *
 Static
