@@ -179,8 +179,6 @@ prototype
 =
 {
 getLogin
-:
-function
 (
 )
 {
@@ -232,8 +230,6 @@ status
 ;
 }
 checkLogin
-:
-function
 (
 result
 )
@@ -308,8 +304,6 @@ id
 ;
 }
 borkResult
-:
-function
 (
 result
 )
@@ -454,8 +448,6 @@ result
 ;
 }
 _selectUsername
-:
-function
 (
 usernameHint
 )
@@ -554,8 +546,6 @@ username
 ;
 }
 generateAssertion
-:
-function
 (
 payload
 origin
@@ -670,8 +660,6 @@ payload
 ;
 }
 validateAssertion
-:
-function
 (
 assertion
 origin

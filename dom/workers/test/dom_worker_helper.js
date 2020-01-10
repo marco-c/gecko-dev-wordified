@@ -241,8 +241,6 @@ addListener
 (
 {
 onRegister
-:
-function
 (
 dbg
 )
@@ -367,8 +365,6 @@ addListener
 (
 {
 onUnregister
-:
-function
 (
 dbg
 )
@@ -446,8 +442,6 @@ addListener
 (
 {
 onClose
-:
-function
 (
 )
 {
@@ -503,8 +497,6 @@ addListener
 (
 {
 onError
-:
-function
 (
 filename
 lineno
@@ -559,8 +551,6 @@ addListener
 (
 {
 onMessage
-:
-function
 (
 message1
 )

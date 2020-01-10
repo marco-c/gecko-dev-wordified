@@ -349,8 +349,6 @@ object
 *
 /
 startDrawing
-:
-function
 (
 f
 )
@@ -426,8 +424,6 @@ video
 *
 /
 requestFrame
-:
-function
 (
 video
 )
@@ -501,8 +497,6 @@ A
 *
 /
 getPixel
-:
-function
 (
 video
 offsetX
@@ -688,8 +682,6 @@ match
 *
 /
 isPixel
-:
-function
 (
 px
 refColor
@@ -799,8 +791,6 @@ cases
 *
 /
 isPixelNot
-:
-function
 (
 px
 refColor
@@ -853,8 +843,6 @@ channel
 *
 /
 isOpaquePixelNot
-:
-function
 (
 px
 refColor
@@ -913,10 +901,8 @@ resolves
 .
 *
 /
-waitForPixel
-:
 async
-function
+waitForPixel
 (
 video
 test
@@ -1092,10 +1078,8 @@ anything
 .
 *
 /
-pixelMustBecome
-:
 async
-function
+pixelMustBecome
 (
 video
 refColor
@@ -1341,10 +1325,8 @@ resolves
 .
 *
 /
-pixelMustNotBecome
-:
 async
-function
+pixelMustNotBecome
 (
 video
 refColor
@@ -1546,8 +1528,6 @@ body
 *
 /
 createAndAppendElement
-:
-function
 (
 type
 id

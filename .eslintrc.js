@@ -2268,15 +2268,6 @@ notation
 off
 "
 "
-object
--
-shorthand
-"
-:
-"
-off
-"
-"
 mozilla
 /
 avoid

@@ -177,8 +177,6 @@ notEmpty
 :
 ab
 ab
-:
-ab
 bc
 :
 [

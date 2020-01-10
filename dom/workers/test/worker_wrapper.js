@@ -386,8 +386,6 @@ type
 getPermissions
 "
 permissions
-:
-permissions
 }
 )
 ;

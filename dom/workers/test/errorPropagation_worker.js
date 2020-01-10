@@ -64,13 +64,7 @@ data
 :
 {
 message
-:
-message
 filename
-:
-filename
-lineno
-:
 lineno
 }
 }

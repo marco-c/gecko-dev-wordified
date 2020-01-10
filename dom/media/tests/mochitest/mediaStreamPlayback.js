@@ -248,8 +248,6 @@ run
 *
 /
 playMedia
-:
-function
 (
 isResume
 )
@@ -350,8 +348,6 @@ local
 *
 /
 stopTracksForStreamInMediaPlayback
-:
-function
 (
 )
 {
@@ -473,8 +469,6 @@ run
 *
 /
 playMediaWithoutStoppingTracks
-:
-function
 (
 isResume
 )
@@ -543,8 +537,6 @@ run
 *
 /
 startMedia
-:
-function
 (
 isResume
 )
@@ -661,8 +653,6 @@ playing
 *
 /
 verifyPlaying
-:
-function
 (
 )
 {
@@ -1052,8 +1042,6 @@ played
 *
 /
 detachFromMediaElement
-:
-function
 (
 )
 {

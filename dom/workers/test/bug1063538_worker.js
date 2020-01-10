@@ -94,8 +94,6 @@ type
 finish
 "
 progressFired
-:
-progressFired
 }
 )
 ;

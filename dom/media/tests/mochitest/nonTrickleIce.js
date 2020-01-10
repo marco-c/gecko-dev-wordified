@@ -106,8 +106,6 @@ desc
 .
 type
 sdp
-:
-sdp
 }
 )
 ;

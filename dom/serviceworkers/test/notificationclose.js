@@ -199,8 +199,6 @@ complex
 =
 5
 windowOpened
-:
-windowOpened
 }
 )
 ;

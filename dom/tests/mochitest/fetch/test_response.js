@@ -2229,8 +2229,6 @@ Blob
 )
 {
 status
-:
-status
 }
 )
 ;
@@ -2303,8 +2301,6 @@ Response
 (
 undefined
 {
-status
-:
 status
 }
 )

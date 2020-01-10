@@ -95,8 +95,6 @@ mCurrent
 :
 null
 browseForConfig
-:
-function
 (
 )
 {
@@ -247,8 +245,6 @@ true
 ;
 }
 parseConfig
-:
-function
 (
 )
 {
@@ -441,8 +437,6 @@ res
 }
 }
 onLoad
-:
-function
 (
 )
 {
@@ -519,8 +513,6 @@ true
 ;
 }
 progress
-:
-function
 (
 aTitle
 aTime
@@ -584,8 +576,6 @@ n
 ;
 }
 done
-:
-function
 (
 aTitle
 )
@@ -741,8 +731,6 @@ this
 ;
 }
 onStop
-:
-function
 (
 )
 {
@@ -779,8 +767,6 @@ stopped
 ;
 }
 displayTest
-:
-function
 (
 aTitle
 )
@@ -838,8 +824,6 @@ aTitle
 }
 }
 displayDetailTime
-:
-function
 (
 aTime
 )
@@ -869,8 +853,6 @@ t
 }
 }
 displayTotalTime
-:
-function
 (
 )
 {
@@ -1054,8 +1036,6 @@ n
 }
 }
 runBenchmark
-:
-function
 (
 )
 {

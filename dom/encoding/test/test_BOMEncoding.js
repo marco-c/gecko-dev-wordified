@@ -420,8 +420,6 @@ utf
 16be
 "
 data
-:
-data
 expected
 :
 expectedString
@@ -502,8 +500,6 @@ utf
 8
 "
 data
-:
-data
 expected
 :
 expectedString
@@ -571,8 +567,6 @@ utf
 8
 "
 data
-:
-data
 expected
 :
 expectedString
@@ -638,8 +632,6 @@ utf
 fatal
 :
 true
-data
-:
 data
 error
 :
@@ -723,8 +715,6 @@ utf
 8
 "
 data
-:
-data
 expected
 :
 expectedString
@@ -784,8 +774,6 @@ encoding
 :
 "
 "
-data
-:
 data
 error
 :
@@ -1205,8 +1193,6 @@ fatal
 :
 true
 data
-:
-data
 expected
 :
 "
@@ -1243,8 +1229,6 @@ utf
 -
 16be
 "
-data
-:
 data
 expected
 :
@@ -2145,8 +2129,6 @@ fatal
 :
 true
 data
-:
-data
 error
 :
 "
@@ -2183,8 +2165,6 @@ utf
 -
 8
 "
-data
-:
 data
 expected
 :
@@ -2549,8 +2529,6 @@ fatal
 :
 true
 data
-:
-data
 error
 :
 "
@@ -2582,8 +2560,6 @@ encoding
 "
 greek
 "
-data
-:
 data
 expected
 :

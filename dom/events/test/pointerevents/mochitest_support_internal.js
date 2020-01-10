@@ -269,8 +269,6 @@ type
 RESULT
 "
 message
-:
-message
 result
 :
 aTestObj

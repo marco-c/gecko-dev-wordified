@@ -900,8 +900,6 @@ ReadableStream
 (
 {
 start
-:
-function
 (
 controller
 )

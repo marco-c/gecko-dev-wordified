@@ -295,8 +295,6 @@ shippingOptionChanged
 :
 false
 showPayment
-:
-function
 (
 requestId
 )
@@ -311,16 +309,12 @@ shippingAddress
 ;
 }
 abortPayment
-:
-function
 (
 requestId
 )
 {
 }
 completePayment
-:
-function
 (
 requestId
 )
@@ -386,8 +380,6 @@ nsIPaymentActionResponse
 ;
 }
 updatePayment
-:
-function
 (
 requestId
 )
@@ -621,8 +613,6 @@ nsIPaymentActionResponse
 ;
 }
 closePayment
-:
-function
 (
 requestId
 )

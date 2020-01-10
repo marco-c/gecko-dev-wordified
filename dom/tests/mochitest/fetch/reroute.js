@@ -176,10 +176,6 @@ request
 .
 headers
 body
-:
-body
-mode
-:
 mode
 credentials
 :

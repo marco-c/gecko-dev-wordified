@@ -283,13 +283,7 @@ worker
 error
 "
 message
-:
-message
 filename
-:
-filename
-lineno
-:
 lineno
 }
 ;

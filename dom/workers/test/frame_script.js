@@ -89,8 +89,6 @@ tab
 *
 /
 createWorker
-:
-function
 (
 url
 )
@@ -156,8 +154,6 @@ tab
 *
 /
 terminateWorker
-:
-function
 (
 url
 )
@@ -229,8 +225,6 @@ tab
 *
 /
 postMessageToWorker
-:
-function
 (
 url
 message
@@ -326,8 +320,6 @@ tab
 *
 /
 disableCache
-:
-function
 (
 )
 {
@@ -412,10 +404,6 @@ jsonrpc
 "
 {
 id
-:
-id
-result
-:
 result
 }
 )
@@ -436,8 +424,6 @@ sendAsyncMessage
 jsonrpc
 "
 {
-id
-:
 id
 error
 :

@@ -815,8 +815,6 @@ verse
 [
 {
 toString
-:
-function
 (
 )
 {
@@ -834,8 +832,6 @@ foo
 [
 {
 valueOf
-:
-function
 (
 )
 {
@@ -856,8 +852,6 @@ Object
 [
 {
 valueOf
-:
-function
 (
 )
 {
@@ -878,8 +872,6 @@ quux
 [
 {
 valueOf
-:
-function
 (
 )
 {
@@ -890,8 +882,6 @@ foo
 ;
 }
 toString
-:
-function
 (
 )
 {
@@ -3989,8 +3979,6 @@ value
 :
 {
 toString
-:
-function
 (
 )
 {
@@ -4015,8 +4003,6 @@ value
 :
 {
 valueOf
-:
-function
 (
 )
 {
@@ -4044,8 +4030,6 @@ value
 :
 {
 valueOf
-:
-function
 (
 )
 {
@@ -4073,8 +4057,6 @@ value
 :
 {
 valueOf
-:
-function
 (
 )
 {
@@ -4085,8 +4067,6 @@ foo
 ;
 }
 toString
-:
-function
 (
 )
 {
@@ -4111,8 +4091,6 @@ value
 :
 {
 valueOf
-:
-function
 (
 )
 {

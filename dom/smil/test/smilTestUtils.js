@@ -214,8 +214,6 @@ in
 the
 document
 getSVGRoot
-:
-function
 (
 )
 {
@@ -244,8 +242,6 @@ the
 matching
 tag
 getFirstElemWithTag
-:
-function
 (
 aTargetTag
 )
@@ -283,8 +279,6 @@ wrapper
 for
 getComputedStyle
 getComputedStyleSimple
-:
-function
 (
 elem
 prop
@@ -305,8 +299,6 @@ prop
 ;
 }
 getAttributeValue
-:
-function
 (
 elem
 attr
@@ -449,8 +441,6 @@ overflow
 marker
 )
 getComputedStyleWrapper
-:
-function
 (
 elem
 propName
@@ -888,8 +878,6 @@ computedStyle
 ;
 }
 getMotionFakeAttributeName
-:
-function
 (
 )
 {
@@ -999,8 +987,6 @@ theta
 ]
 )
 generateCTM
-:
-function
 (
 aCtmSummary
 )
@@ -1117,8 +1103,6 @@ Helper
 for
 isCtmEqual
 isWithinDelta
-:
-function
 (
 aTestVal
 aExpectedVal
@@ -1189,8 +1173,6 @@ aExpectedVal
 ;
 }
 assertCTMEqual
-:
-function
 (
 aLeftCtm
 aRightCtm
@@ -1296,8 +1278,6 @@ todo
 }
 }
 assertCTMNotEqual
-:
-function
 (
 aLeftCtm
 aRightCtm
@@ -1439,8 +1419,6 @@ _dur
 :
 null
 getBeginTime
-:
-function
 (
 )
 {
@@ -1451,8 +1429,6 @@ _begin
 ;
 }
 getDur
-:
-function
 (
 )
 {
@@ -1463,8 +1439,6 @@ _dur
 ;
 }
 getEndTime
-:
-function
 (
 )
 {
@@ -1479,8 +1453,6 @@ _dur
 ;
 }
 getFractionalTime
-:
-function
 (
 aPortion
 )
@@ -1905,8 +1877,6 @@ null
 /
 Methods
 go
-:
-function
 (
 aTimingData
 )
@@ -2332,8 +2302,6 @@ remove
 *
 /
 runTest
-:
-function
 (
 aTargetElem
 aTargetAttr
@@ -2539,8 +2507,6 @@ this
 parent
 method
 setupAnimationElement
-:
-function
 (
 aAnimAttr
 aTimeData
@@ -2635,8 +2601,6 @@ animElement
 ;
 }
 buildSeekList
-:
-function
 (
 aAnimAttr
 aBaseVal
@@ -2714,8 +2678,6 @@ aIsFreeze
 ;
 }
 seekAndTest
-:
-function
 (
 aSeekList
 aTargetElem
@@ -2904,8 +2866,6 @@ overridden
 in
 subclasses
 buildSeekListStatic
-:
-function
 (
 aAnimAttr
 aBaseVal
@@ -2915,8 +2875,6 @@ aReasonStatic
 {
 }
 buildSeekListAnimated
-:
-function
 (
 aAnimAttr
 aBaseVal
@@ -2974,8 +2932,6 @@ null
 /
 Methods
 setupAnimationElement
-:
-function
 (
 aAnimAttr
 aTimeData
@@ -3028,8 +2984,6 @@ animElem
 ;
 }
 buildSeekListStatic
-:
-function
 (
 aAnimAttr
 aBaseVal
@@ -3181,8 +3135,6 @@ seekList
 ;
 }
 buildSeekListAnimated
-:
-function
 (
 aAnimAttr
 aBaseVal
@@ -3721,8 +3673,6 @@ null
 /
 Methods
 setupAnimationElement
-:
-function
 (
 aAnimAttr
 aTimeData
@@ -4093,8 +4043,6 @@ null
 /
 Methods
 setupAnimationElement
-:
-function
 (
 aAnimAttr
 aTimeData
@@ -4147,8 +4095,6 @@ animElem
 ;
 }
 buildSeekList
-:
-function
 (
 aAnimAttr
 aBaseVal
@@ -4577,8 +4523,6 @@ null
 /
 Methods
 setupAnimationElement
-:
-function
 (
 aAnimAttr
 aTimeData
@@ -4643,8 +4587,6 @@ animElem
 ;
 }
 buildSeekListAnimated
-:
-function
 (
 aAnimAttr
 aBaseVal
@@ -4924,8 +4866,6 @@ seekList
 ;
 }
 buildSeekListStatic
-:
-function
 (
 aAnimAttr
 aBaseVal
@@ -5615,8 +5555,6 @@ override
 -
 -
 setupAnimationElement
-:
-function
 (
 aAnimAttr
 aTimeData
@@ -5744,8 +5682,6 @@ animElement
 ;
 }
 createPath
-:
-function
 (
 aPathDescription
 )
@@ -5797,8 +5733,6 @@ path
 ;
 }
 createMpath
-:
-function
 (
 aAnimElement
 )
@@ -5889,8 +5823,6 @@ animatable
 attrs
 )
 buildSeekList
-:
-function
 (
 aAnimAttr
 aBaseVal
@@ -6232,8 +6164,6 @@ error
 .
 )
 seekAndTest
-:
-function
 (
 aSeekList
 aTargetElem
@@ -6336,8 +6266,6 @@ each
 test
 .
 runTest
-:
-function
 (
 aTargetElem
 aTargetAttr

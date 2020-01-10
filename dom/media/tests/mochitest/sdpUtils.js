@@ -106,8 +106,6 @@ multiple
 matches
 .
 findCodecId
-:
-function
 (
 sdp
 format
@@ -290,8 +288,6 @@ section
 separately
 .
 findExtmapIds
-:
-function
 (
 sdp
 )
@@ -403,8 +399,6 @@ sdpExtmapIds
 ;
 }
 findExtmapIdsUrnsDirections
-:
-function
 (
 sdp
 )
@@ -584,8 +578,6 @@ sdpExtmap
 ;
 }
 verify_unique_extmap_ids
-:
-function
 (
 sdp
 )
@@ -700,8 +692,6 @@ result
 ;
 }
 getMSections
-:
-function
 (
 sdp
 )
@@ -745,8 +735,6 @@ s
 ;
 }
 getAudioMSections
-:
-function
 (
 sdp
 )
@@ -778,8 +766,6 @@ audio
 ;
 }
 getVideoMSections
-:
-function
 (
 sdp
 )
@@ -811,8 +797,6 @@ video
 ;
 }
 checkSdpAfterEndOfTrickle
-:
-function
 (
 description
 testOptions
@@ -1233,8 +1217,6 @@ parsing
 issues
 .
 removeCodec
-:
-function
 (
 sdp
 codec
@@ -1441,8 +1423,6 @@ updated_sdp
 ;
 }
 removeAllButPayloadType
-:
-function
 (
 sdp
 pt
@@ -1521,8 +1501,6 @@ n
 ;
 }
 removeRtpMapForPayloadType
-:
-function
 (
 sdp
 pt
@@ -1565,8 +1543,6 @@ gi
 ;
 }
 removeRtcpMux
-:
-function
 (
 sdp
 )
@@ -1594,8 +1570,6 @@ g
 ;
 }
 removeSSRCs
-:
-function
 (
 sdp
 )
@@ -1623,8 +1597,6 @@ g
 ;
 }
 removeBundle
-:
-function
 (
 sdp
 )
@@ -1654,8 +1626,6 @@ g
 ;
 }
 reduceAudioMLineToPcmuPcma
-:
-function
 (
 sdp
 )
@@ -1700,8 +1670,6 @@ n
 ;
 }
 setAllMsectionsInactive
-:
-function
 (
 sdp
 )
@@ -1774,8 +1742,6 @@ inactive
 ;
 }
 removeAllRtpMaps
-:
-function
 (
 sdp
 )
@@ -1804,8 +1770,6 @@ g
 ;
 }
 reduceAudioMLineToDynamicPtAndOpus
-:
-function
 (
 sdp
 )
@@ -1850,8 +1814,6 @@ n
 ;
 }
 addTiasBps
-:
-function
 (
 sdp
 bps
@@ -1902,8 +1864,6 @@ n
 ;
 }
 removeSimulcastProperties
-:
-function
 (
 sdp
 )
@@ -1993,8 +1953,6 @@ g
 ;
 }
 transferSimulcastProperties
-:
-function
 (
 offer_sdp
 answer_sdp
@@ -2278,8 +2236,6 @@ new_answer_sdp
 ;
 }
 verifySdp
-:
-function
 (
 desc
 expectedType
@@ -3065,8 +3021,6 @@ examined
 *
 /
 countTracksInConstraint
-:
-function
 (
 type
 constraints

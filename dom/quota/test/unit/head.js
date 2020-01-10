@@ -1835,8 +1835,6 @@ SpecialPowers
 =
 {
 getBoolPref
-:
-function
 (
 prefName
 )
@@ -1855,8 +1853,6 @@ prefName
 ;
 }
 setBoolPref
-:
-function
 (
 prefName
 value
@@ -1876,8 +1872,6 @@ value
 ;
 }
 setIntPref
-:
-function
 (
 prefName
 value
@@ -1897,8 +1891,6 @@ value
 ;
 }
 clearUserPref
-:
-function
 (
 prefName
 )
@@ -1916,8 +1908,6 @@ prefName
 ;
 }
 _getPrefs
-:
-function
 (
 )
 {
@@ -1956,8 +1946,6 @@ null
 ;
 }
 _getQuotaManager
-:
-function
 (
 )
 {

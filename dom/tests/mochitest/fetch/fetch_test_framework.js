@@ -337,8 +337,6 @@ postMessage
 (
 {
 script
-:
-script
 }
 )
 ;
@@ -494,8 +492,6 @@ worker
 postMessage
 (
 {
-script
-:
 script
 }
 )
@@ -785,8 +781,6 @@ worker
 postMessage
 (
 {
-script
-:
 script
 }
 )

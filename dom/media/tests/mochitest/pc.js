@@ -5006,8 +5006,6 @@ channel
 *
 /
 close
-:
-function
 (
 )
 {
@@ -5064,8 +5062,6 @@ channel
 *
 /
 send
-:
-function
 (
 data
 )
@@ -5121,8 +5117,6 @@ representation
 *
 /
 toString
-:
-function
 (
 )
 {
@@ -5737,8 +5731,6 @@ senders
 *
 /
 getSenders
-:
-function
 (
 )
 {
@@ -5773,8 +5765,6 @@ receivers
 *
 /
 getReceivers
-:
-function
 (
 )
 {
@@ -5922,8 +5912,6 @@ iceConnectionState
 ;
 }
 setIdentityProvider
-:
-function
 (
 provider
 options
@@ -5963,8 +5951,6 @@ _
 ;
 }
 getMediaElementForTrack
-:
-function
 (
 track
 direction
@@ -5989,8 +5975,6 @@ prefix
 ;
 }
 createMediaElementForTrack
-:
-function
 (
 track
 direction
@@ -6015,8 +5999,6 @@ prefix
 ;
 }
 ensureMediaElement
-:
-function
 (
 track
 direction
@@ -6159,8 +6141,6 @@ play
 ;
 }
 addSendStream
-:
-function
 (
 stream
 )
@@ -6213,8 +6193,6 @@ stream
 ;
 }
 getStreamForSendTrack
-:
-function
 (
 track
 )
@@ -6241,8 +6219,6 @@ id
 ;
 }
 getStreamForRecvTrack
-:
-function
 (
 track
 )
@@ -6349,8 +6325,6 @@ side
 *
 /
 attachLocalTrack
-:
-function
 (
 track
 stream
@@ -6595,8 +6569,6 @@ handle
 *
 /
 attachLocalStream
-:
-function
 (
 stream
 useAddTransceiver
@@ -6962,8 +6934,6 @@ observedNegotiationNeeded
 ;
 }
 removeSender
-:
-function
 (
 index
 )
@@ -7025,8 +6995,6 @@ observedNegotiationNeeded
 ;
 }
 senderReplaceTrack
-:
-function
 (
 sender
 withTrack
@@ -7102,10 +7070,8 @@ withTrack
 )
 ;
 }
-getUserMedia
-:
 async
-function
+getUserMedia
 (
 constraints
 )
@@ -7252,8 +7218,6 @@ calls
 *
 /
 getAllUserMedia
-:
-function
 (
 constraintsList
 )
@@ -7327,10 +7291,8 @@ constraints
 )
 ;
 }
-getAllUserMediaAndAddStreams
-:
 async
-function
+getAllUserMediaAndAddStreams
 (
 constraintsList
 )
@@ -7377,10 +7339,8 @@ stream
 )
 ;
 }
-getAllUserMediaAndAddTransceivers
-:
 async
-function
+getAllUserMediaAndAddTransceivers
 (
 constraintsList
 )
@@ -7460,8 +7420,6 @@ arrives
 *
 /
 expectDataChannel
-:
-function
 (
 message
 )
@@ -7568,8 +7526,6 @@ channel
 *
 /
 createDataChannel
-:
-function
 (
 options
 )
@@ -7690,8 +7646,6 @@ case
 *
 /
 createOffer
-:
-function
 (
 )
 {
@@ -7770,8 +7724,6 @@ case
 *
 /
 createAnswer
-:
-function
 (
 )
 {
@@ -7854,8 +7806,6 @@ request
 *
 /
 setLocalDescription
-:
-function
 (
 desc
 )
@@ -7959,8 +7909,6 @@ error
 *
 /
 setLocalDescriptionAndFail
-:
-function
 (
 desc
 )
@@ -8047,8 +7995,6 @@ request
 *
 /
 setRemoteDescription
-:
-function
 (
 desc
 )
@@ -8192,8 +8138,6 @@ error
 *
 /
 setRemoteDescriptionAndFail
-:
-function
 (
 desc
 )
@@ -8277,8 +8221,6 @@ later
 *
 /
 logSignalingState
-:
-function
 (
 )
 {
@@ -8419,8 +8361,6 @@ newstate
 ;
 }
 isTrackOnPC
-:
-function
 (
 track
 )
@@ -8437,8 +8377,6 @@ track
 ;
 }
 allExpectedTracksAreObserved
-:
-function
 (
 expected
 observed
@@ -8465,8 +8403,6 @@ trackId
 ;
 }
 setupStreamEventHandlers
-:
-function
 (
 stream
 )
@@ -8854,8 +8790,6 @@ id
 ;
 }
 setupTrackEventHandler
-:
-function
 (
 )
 {
@@ -9214,8 +9148,6 @@ stored
 *
 /
 storeOrAddIceCandidate
-:
-function
 (
 candidate
 )
@@ -9444,8 +9376,6 @@ later
 *
 /
 logIceConnectionState
-:
-function
 (
 )
 {
@@ -9691,8 +9621,6 @@ checking
 *
 /
 expectIceChecking
-:
-function
 (
 )
 {
@@ -9761,8 +9689,6 @@ failure
 *
 /
 waitForIceConnected
-:
-function
 (
 )
 {
@@ -9803,8 +9729,6 @@ forwarded
 *
 /
 setupIceCandidateHandler
-:
-function
 (
 test
 candidateHandler
@@ -10067,8 +9991,6 @@ candidate
 ;
 }
 checkLocalMediaTracks
-:
-function
 (
 )
 {
@@ -10247,8 +10169,6 @@ expect
 *
 /
 checkMediaTracks
-:
-function
 (
 )
 {
@@ -10260,8 +10180,6 @@ checkLocalMediaTracks
 ;
 }
 checkLocalMsids
-:
-function
 (
 )
 {
@@ -10741,8 +10659,6 @@ flowing
 *
 /
 waitForMediaElementFlow
-:
-function
 (
 element
 )
@@ -11379,8 +11295,6 @@ ms
 ;
 }
 getExpectedActiveReceiveTracks
-:
-function
 (
 )
 {
@@ -11518,8 +11432,6 @@ t
 ;
 }
 getExpectedSendTracks
-:
-function
 (
 )
 {
@@ -11602,8 +11514,6 @@ tracks
 *
 /
 waitForMediaFlow
-:
-function
 (
 )
 {
@@ -12108,10 +12018,8 @@ from
 .
 *
 /
-checkReceivingToneFrom
-:
 async
-function
+checkReceivingToneFrom
 (
 audiocontext
 from
@@ -12765,8 +12673,6 @@ stats
 *
 /
 getStats
-:
-function
 (
 selector
 )
@@ -12852,8 +12758,6 @@ PeerConnectionWrapper
 *
 /
 checkStats
-:
-function
 (
 stats
 twoMachines
@@ -14135,8 +14039,6 @@ connection
 *
 /
 checkStatsIceConnectionType
-:
-function
 (
 stats
 expectedLocalCandidateType
@@ -14501,8 +14403,6 @@ PeerConnectionTest
 *
 /
 checkStatsIceConnections
-:
-function
 (
 stats
 testOptions
@@ -14794,8 +14694,6 @@ transports
 }
 }
 expectNegotiationNeeded
-:
-function
 (
 )
 {
@@ -14893,8 +14791,6 @@ found
 *
 /
 hasStat
-:
-function
 (
 stats
 props
@@ -14972,8 +14868,6 @@ connection
 *
 /
 close
-:
-function
 (
 )
 {
@@ -15037,8 +14931,6 @@ representation
 *
 /
 toString
-:
-function
 (
 )
 {

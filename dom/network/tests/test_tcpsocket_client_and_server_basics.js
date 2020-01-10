@@ -741,8 +741,6 @@ loop
 *
 /
 waitForEvent
-:
-function
 (
 )
 {
@@ -889,8 +887,6 @@ side
 *
 /
 waitForDataWithAtLeastLength
-:
-function
 (
 length
 )
@@ -994,8 +990,6 @@ length
 ;
 }
 waitForAnyDataAndClose
-:
-function
 (
 )
 {

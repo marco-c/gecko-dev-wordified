@@ -935,17 +935,9 @@ x
 return
 {
 DRIVER
-:
-DRIVER
 OS
-:
-OS
-dump
-:
 dump
 getDriver
-:
-function
 (
 )
 {
@@ -954,8 +946,6 @@ kDriver
 ;
 }
 getOS
-:
-function
 (
 )
 {
@@ -964,8 +954,6 @@ kOS
 ;
 }
 getOSVersion
-:
-function
 (
 )
 {

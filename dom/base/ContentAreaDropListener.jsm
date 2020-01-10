@@ -227,8 +227,6 @@ nsIDroppedLinkHandler
 ]
 )
 _addLink
-:
-function
 (
 links
 url
@@ -249,8 +247,6 @@ type
 ;
 }
 _addLinksFromItem
-:
-function
 (
 links
 dt
@@ -851,8 +847,6 @@ file
 }
 }
 _getDropLinks
-:
-function
 (
 dt
 )
@@ -896,8 +890,6 @@ links
 ;
 }
 _validateURI
-:
-function
 (
 dataTransfer
 uriString
@@ -1169,8 +1161,6 @@ spec
 ;
 }
 _getTriggeringPrincipalFromDataTransfer
-:
-function
 (
 aDataTransfer
 fallbackToSystemPrincipal
@@ -1520,8 +1510,6 @@ principalURISpec
 ;
 }
 getTriggeringPrincipal
-:
-function
 (
 aEvent
 )
@@ -1544,8 +1532,6 @@ true
 ;
 }
 getCSP
-:
-function
 (
 aEvent
 )
@@ -1704,8 +1690,6 @@ null
 ;
 }
 canDropLink
-:
-function
 (
 aEvent
 aAllowSameDocument
@@ -1978,8 +1962,6 @@ true
 ;
 }
 dropLink
-:
-function
 (
 aEvent
 aName
@@ -2056,8 +2038,6 @@ url
 ;
 }
 dropLinks
-:
-function
 (
 aEvent
 aDisallowInherit
@@ -2186,8 +2166,6 @@ links
 ;
 }
 validateURIsForDrop
-:
-function
 (
 aEvent
 aURIs
@@ -2233,8 +2211,6 @@ triggeringPrincipal
 }
 }
 queryLinks
-:
-function
 (
 aDataTransfer
 )
@@ -2249,8 +2225,6 @@ aDataTransfer
 ;
 }
 _eventTargetIsDisabled
-:
-function
 (
 aEvent
 )

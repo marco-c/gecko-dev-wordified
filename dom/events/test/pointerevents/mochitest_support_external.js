@@ -354,8 +354,6 @@ MOUSE_BUTTONS_5TH_BUTTON
 /
 Utils
 computeButtonsMaskFromButton
-:
-function
 (
 aButton
 )
@@ -454,8 +452,6 @@ mask
 ;
 }
 checkExitState
-:
-function
 (
 )
 {
@@ -1061,8 +1057,6 @@ false
 /
 Utils
 checkExitState
-:
-function
 (
 )
 {

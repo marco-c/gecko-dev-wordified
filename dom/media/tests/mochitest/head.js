@@ -886,8 +886,6 @@ data
 *
 /
 getByteFrequencyData
-:
-function
 (
 )
 {
@@ -934,8 +932,6 @@ tests
 *
 /
 enableDebugCanvas
-:
-function
 (
 )
 {
@@ -1156,8 +1152,6 @@ added
 *
 /
 disableDebugCanvas
-:
-function
 (
 )
 {
@@ -1234,8 +1228,6 @@ devices
 *
 /
 disconnect
-:
-function
 (
 )
 {
@@ -1385,10 +1377,8 @@ returned
 .
 *
 /
-waitForAnalysisSuccess
-:
 async
-function
+waitForAnalysisSuccess
 (
 analysisFunction
 cancel
@@ -1540,8 +1530,6 @@ array
 *
 /
 binIndexForFrequency
-:
-function
 (
 frequency
 )
@@ -1613,8 +1601,6 @@ bin
 *
 /
 frequencyForBinIndex
-:
-function
 (
 index
 )
@@ -6334,8 +6320,6 @@ case
 *
 /
 execute
-:
-function
 (
 )
 {
@@ -6523,8 +6507,6 @@ chain
 *
 /
 append
-:
-function
 (
 commands
 )
@@ -6581,8 +6563,6 @@ occurrence
 *
 /
 indexOf
-:
-function
 (
 functionOrName
 occurrence
@@ -6669,8 +6649,6 @@ true
 ;
 }
 mustHaveIndexOf
-:
-function
 (
 functionOrName
 occurrence
@@ -6730,8 +6708,6 @@ command
 *
 /
 insertAfter
-:
-function
 (
 functionOrName
 commands
@@ -6769,8 +6745,6 @@ command
 *
 /
 insertAfterEach
-:
-function
 (
 functionOrName
 commands
@@ -6803,8 +6777,6 @@ command
 *
 /
 insertBefore
-:
-function
 (
 functionOrName
 commands
@@ -6825,8 +6797,6 @@ occurrence
 ;
 }
 _insertHelper
-:
-function
 (
 functionOrName
 commands
@@ -6935,8 +6905,6 @@ removed
 *
 /
 remove
-:
-function
 (
 functionOrName
 occurrence
@@ -6979,8 +6947,6 @@ removed
 *
 /
 removeAfter
-:
-function
 (
 functionOrName
 occurrence
@@ -7024,8 +6990,6 @@ removed
 *
 /
 removeBefore
-:
-function
 (
 functionOrName
 occurrence
@@ -7065,8 +7029,6 @@ removed
 *
 /
 replace
-:
-function
 (
 functionOrName
 commands
@@ -7108,8 +7070,6 @@ removed
 *
 /
 replaceAfter
-:
-function
 (
 functionOrName
 commands
@@ -7157,8 +7117,6 @@ removed
 *
 /
 replaceBefore
-:
-function
 (
 functionOrName
 commands
@@ -7203,8 +7161,6 @@ regex
 *
 /
 filterOut
-:
-function
 (
 id_match
 )
@@ -7257,8 +7213,6 @@ prototype
 =
 {
 checkAudio
-:
-function
 (
 stream
 analyser
@@ -7306,8 +7260,6 @@ fun
 ;
 }
 checkAudioFlowing
-:
-function
 (
 stream
 )
@@ -7354,8 +7306,6 @@ freq
 ;
 }
 checkAudioNotFlowing
-:
-function
 (
 stream
 )

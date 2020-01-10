@@ -614,8 +614,6 @@ postMessage
 (
 {
 script
-:
-script
 }
 )
 ;

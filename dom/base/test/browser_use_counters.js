@@ -1155,8 +1155,6 @@ gBrowser
 selectedBrowser
 {
 file
-:
-file
 }
 function
 (
@@ -1494,8 +1492,6 @@ gBrowser
 .
 selectedBrowser
 {
-file
-:
 file
 }
 async

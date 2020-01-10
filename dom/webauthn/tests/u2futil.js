@@ -1347,13 +1347,7 @@ resolve
 (
 {
 rpIdHash
-:
-rpIdHash
 flags
-:
-flags
-counter
-:
 counter
 }
 )
@@ -1760,13 +1754,7 @@ resolve
 (
 {
 rpIdHash
-:
-rpIdHash
 flags
-:
-flags
-counter
-:
 counter
 attestationAuthData
 :
@@ -1974,8 +1962,6 @@ digests
 1
 ]
 )
-attestation
-:
 attestation
 }
 ;

@@ -120,8 +120,6 @@ fail
 "
 {
 message
-:
-message
 }
 )
 ;

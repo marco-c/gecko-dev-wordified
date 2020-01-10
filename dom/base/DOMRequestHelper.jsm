@@ -493,8 +493,6 @@ default
 *
 /
 addMessageListeners
-:
-function
 (
 aMessages
 )
@@ -737,8 +735,6 @@ removed
 *
 /
 removeMessageListeners
-:
-function
 (
 aMessages
 )
@@ -997,8 +993,6 @@ default
 *
 /
 initDOMRequestHelper
-:
-function
 (
 aWindow
 aMessages
@@ -1155,8 +1149,6 @@ true
 ;
 }
 destroyDOMRequestHelper
-:
-function
 (
 )
 {
@@ -1293,8 +1285,6 @@ null
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -1354,8 +1344,6 @@ destroyDOMRequestHelper
 ;
 }
 getRequestId
-:
-function
 (
 aRequest
 )
@@ -1403,8 +1391,6 @@ id
 ;
 }
 getPromiseResolverId
-:
-function
 (
 aPromiseResolver
 )
@@ -1437,8 +1423,6 @@ aPromiseResolver
 ;
 }
 getRequest
-:
-function
 (
 aId
 )
@@ -1469,8 +1453,6 @@ aId
 }
 }
 getPromiseResolver
-:
-function
 (
 aId
 )
@@ -1503,8 +1485,6 @@ aId
 ;
 }
 removeRequest
-:
-function
 (
 aId
 )
@@ -1535,8 +1515,6 @@ aId
 }
 }
 removePromiseResolver
-:
-function
 (
 aId
 )
@@ -1568,8 +1546,6 @@ aId
 ;
 }
 takeRequest
-:
-function
 (
 aId
 )
@@ -1618,8 +1594,6 @@ request
 ;
 }
 takePromiseResolver
-:
-function
 (
 aId
 )
@@ -1652,8 +1626,6 @@ aId
 ;
 }
 _getRandomId
-:
-function
 (
 )
 {
@@ -1690,8 +1662,6 @@ toString
 ;
 }
 createRequest
-:
-function
 (
 )
 {
@@ -1794,8 +1764,6 @@ DOMRequestIPCHelper
 *
 /
 createPromise
-:
-function
 (
 aPromiseInit
 )
@@ -1887,8 +1855,6 @@ resolverId
 *
 /
 createPromiseWithId
-:
-function
 (
 aCallback
 )
@@ -1932,8 +1898,6 @@ resolverId
 ;
 }
 forEachRequest
-:
-function
 (
 aCallback
 )
@@ -1991,8 +1955,6 @@ aKey
 ;
 }
 forEachPromiseResolver
-:
-function
 (
 aCallback
 )

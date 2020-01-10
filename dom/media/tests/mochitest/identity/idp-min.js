@@ -62,8 +62,6 @@ register
 (
 {
 generateAssertion
-:
-function
 (
 payload
 origin
@@ -122,8 +120,6 @@ bogus
 ;
 }
 validateAssertion
-:
-function
 (
 assertion
 origin

@@ -102,8 +102,6 @@ mockAlertsService
 =
 {
 showAlert
-:
-function
 (
 alert
 alertListener
@@ -198,8 +196,6 @@ cookie
 ;
 }
 showAlertNotification
-:
-function
 (
 imageUrl
 title
@@ -221,8 +217,6 @@ showAlert
 ;
 }
 QueryInterface
-:
-function
 (
 aIID
 )
@@ -260,8 +254,6 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 createInstance
-:
-function
 (
 aOuter
 aIID

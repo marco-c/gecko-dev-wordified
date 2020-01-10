@@ -928,8 +928,6 @@ type
 object
 "
 value
-:
-function
 (
 foo
 )
@@ -1268,8 +1266,6 @@ value
 :
 {
 foo
-:
-function
 (
 a
 )
@@ -1322,8 +1318,6 @@ object
 value
 :
 {
-xhr
-:
 xhr
 }
 exception
