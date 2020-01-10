@@ -3354,6 +3354,15 @@ invalidMessages
 [
 ]
 ;
+const
+context
+=
+this
+.
+_getMessagesContext
+(
+)
+;
 for
 (
 const
@@ -3388,6 +3397,7 @@ isMatch
 msg
 .
 targeting
+context
 )
 ;
 if
