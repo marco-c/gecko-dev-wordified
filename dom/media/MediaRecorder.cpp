@@ -4302,7 +4302,7 @@ trackTypes
 InitEncoder
 (
 trackTypes
-tracks
+mMediaStreamTracks
 [
 0
 ]
