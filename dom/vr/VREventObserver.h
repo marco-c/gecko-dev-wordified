@@ -251,6 +251,12 @@ aDisplayID
 override
 ;
 void
+NotifyEnumerationCompleted
+(
+)
+override
+;
+void
 DisconnectFromOwner
 (
 )
