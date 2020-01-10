@@ -1,3 +1,10 @@
+/
+/
+META
+:
+timeout
+=
+long
 async_test
 (
 t
