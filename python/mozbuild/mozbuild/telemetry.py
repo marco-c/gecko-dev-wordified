@@ -91,10 +91,6 @@ invocation
 '
 '
 '
-from
-datetime
-import
-datetime
 import
 json
 import
@@ -107,6 +103,14 @@ import
 pprint
 import
 sys
+from
+datetime
+import
+datetime
+from
+six
+import
+string_types
 from
 voluptuous
 import
@@ -173,7 +177,11 @@ client
 '
 )
 :
-basestring
+Any
+(
+*
+string_types
+)
     
 Required
 (
@@ -213,7 +221,11 @@ invoked
 '
 )
 :
-basestring
+Any
+(
+*
+string_types
+)
     
 Required
 (
@@ -237,6 +249,10 @@ If
 the
 commandline
 contains
+'
++
+        
+'
 absolute
 paths
 they
@@ -249,7 +265,11 @@ sanitized
 )
 :
 [
-basestring
+Any
+(
+*
+string_types
+)
 ]
     
 Required
@@ -289,13 +309,13 @@ encountered
 during
 the
 execution
-of
-the
-command
 '
 +
         
 '
+of
+the
+command
 this
 value
 contains
@@ -304,6 +324,10 @@ result
 of
 calling
 repr
+'
++
+        
+'
 on
 the
 exception
@@ -313,7 +337,11 @@ object
 )
 )
 :
-basestring
+Any
+(
+*
+string_types
+)
     
 Optional
 (
@@ -377,7 +405,11 @@ extension
 '
 )
 :
-basestring
+Any
+(
+*
+string_types
+)
                 
 Required
 (
@@ -728,7 +760,11 @@ CPUID
 '
 )
 :
-basestring
+Any
+(
+*
+string_types
+)
         
 Optional
 (
@@ -1039,7 +1075,7 @@ proc
 cpuinfo
 '
 '
-rb
+r
 '
 )
 as
@@ -1082,13 +1118,6 @@ brand
 .
 rstrip
 (
-)
-.
-decode
-(
-'
-ascii
-'
 )
     
 #
