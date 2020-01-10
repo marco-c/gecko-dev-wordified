@@ -317,6 +317,8 @@ WordBreak
 aWordBreak
 Strictness
 aLevel
+bool
+aIsChineseOrJapanese
 uint8_t
 *
 aBreakBefore
@@ -335,6 +337,8 @@ WordBreak
 aWordBreak
 Strictness
 aLevel
+bool
+aIsChineseOrJapanese
 uint8_t
 *
 aBreakBefore

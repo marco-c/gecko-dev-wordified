@@ -2033,6 +2033,9 @@ mCurrentWordContainsMixedLang
 bool
 mCurrentWordContainsComplexChar
 ;
+bool
+mScriptIsChineseOrJapanese
+;
 /
 /
 True
