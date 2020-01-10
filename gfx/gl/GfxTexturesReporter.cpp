@@ -199,6 +199,7 @@ sTileWasteAmount
 0
 )
 ;
+static
 std
 :
 :
