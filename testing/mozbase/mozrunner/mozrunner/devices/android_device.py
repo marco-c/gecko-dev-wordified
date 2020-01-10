@@ -3713,6 +3713,9 @@ process_iter
 )
 :
             
+try
+:
+                
 name
 =
 proc
@@ -3720,7 +3723,7 @@ proc
 name
 (
 )
-            
+                
 #
 On
 some
@@ -3733,7 +3736,7 @@ start
 an
 emulator
 with
-            
+                
 #
 process
 name
@@ -3745,7 +3748,7 @@ arm
 or
 similar
 .
-            
+                
 if
 name
 and
@@ -3758,9 +3761,34 @@ emulator
 '
 )
 :
-                
+                    
 return
 True
+            
+except
+Exception
+as
+e
+:
+                
+_log_debug
+(
+"
+failed
+to
+get
+process
+name
+:
+%
+s
+"
+%
+str
+(
+e
+)
+)
         
 return
 False
