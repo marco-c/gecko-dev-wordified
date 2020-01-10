@@ -135,10 +135,6 @@ https
 :
 /
 /
-extended
--
-validation
-.
 badssl
 .
 com
@@ -436,7 +432,7 @@ className
 =
 =
 '
-verifiedIdentity
+verifiedDomain
 '
 )
         
