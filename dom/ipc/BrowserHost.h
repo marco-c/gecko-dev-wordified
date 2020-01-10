@@ -551,14 +551,6 @@ aSize
 )
 override
 ;
-void
-UpdateEffects
-(
-EffectsInfo
-aInfo
-)
-override
-;
 private
 :
 virtual
@@ -612,9 +604,6 @@ RefPtr
 BrowserParent
 >
 mRoot
-;
-EffectsInfo
-mEffectsInfo
 ;
 }
 ;

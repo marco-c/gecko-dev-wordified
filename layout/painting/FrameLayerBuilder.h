@@ -515,7 +515,7 @@ true
 ;
 }
 void
-NotifyRemoved
+ClearAnimationCompositorState
 (
 )
 ;
