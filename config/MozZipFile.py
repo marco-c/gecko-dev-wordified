@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
 import
 os
 import
@@ -414,7 +418,7 @@ external_attr
 )
 <
 <
-16L
+16
         
 else
 :
