@@ -91,6 +91,7 @@ function
 {
 const
 {
+inspector
 toolbox
 testActor
 }
@@ -100,6 +101,13 @@ openInspectorForURL
 (
 TEST_URL
 )
+;
+const
+{
+inspectorFront
+}
+=
+inspector
 ;
 await
 startPicker
@@ -373,8 +381,6 @@ picker
 )
 ;
 await
-toolbox
-.
 inspectorFront
 .
 nodePicker
@@ -423,8 +429,6 @@ ready
 const
 onPickerNodeHovered
 =
-toolbox
-.
 inspectorFront
 .
 nodePicker
@@ -499,8 +503,6 @@ ready
 const
 onPickerNodeHovered
 =
-toolbox
-.
 inspectorFront
 .
 nodePicker
