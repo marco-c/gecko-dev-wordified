@@ -6405,7 +6405,7 @@ mStartTime
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 )
@@ -6445,7 +6445,7 @@ mStartTime
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 mDocShellId

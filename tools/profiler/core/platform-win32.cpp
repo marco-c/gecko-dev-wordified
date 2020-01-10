@@ -2026,7 +2026,7 @@ start
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 ;
@@ -2088,7 +2088,7 @@ while
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 <
