@@ -7435,14 +7435,6 @@ zone
 zone
 -
 >
-updateMallocCounter
-(
-nbytes
-)
-;
-zone
--
->
 addCellMemory
 (
 obj
