@@ -3804,7 +3804,7 @@ NS_OK
 ;
 }
 static
-nsIPresShell
+PresShell
 *
 GetPresShellForContent
 (
@@ -4017,7 +4017,7 @@ the
 source
 drag
 node
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -4034,6 +4034,7 @@ presShell
 &
 mImage
 )
+{
 presShell
 =
 GetPresShellForContent
@@ -4041,14 +4042,17 @@ GetPresShellForContent
 aDOMNode
 )
 ;
+}
 if
 (
 !
 presShell
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 *
 aPresContext
 =

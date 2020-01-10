@@ -1331,13 +1331,11 @@ void
 WindowSizeMoveDone
 (
 )
-override
 ;
 void
 SysColorChanged
 (
 )
-override
 {
 mPresContext
 -
@@ -1351,7 +1349,6 @@ void
 ThemeChanged
 (
 )
-override
 {
 mPresContext
 -
@@ -1365,7 +1362,6 @@ void
 BackingScaleFactorChanged
 (
 )
-override
 {
 mPresContext
 -

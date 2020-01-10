@@ -198,9 +198,6 @@ class
 nsIFrame
 ;
 class
-nsIPresShell
-;
-class
 nsPresContext
 ;
 namespace
@@ -836,15 +833,6 @@ menulist
 item
 bool
 IsRegularMenuItem
-(
-nsIFrame
-*
-aFrame
-)
-;
-nsIPresShell
-*
-GetPresShell
 (
 nsIFrame
 *
