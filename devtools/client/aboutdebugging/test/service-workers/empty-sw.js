@@ -1,7 +1,0 @@
-/
-/
-Empty
-just
-test
-registering
-.
