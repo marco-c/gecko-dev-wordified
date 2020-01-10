@@ -1601,6 +1601,9 @@ security_allow_eval_with_system_principal
 return
 ;
 }
+nsAutoCString
+fileName
+;
 JS
 :
 :
@@ -1621,7 +1624,7 @@ scriptFilename
 )
 {
 nsDependentCSubstring
-fileName
+fileName_
 (
 scriptFilename
 .
@@ -1640,7 +1643,7 @@ get
 ;
 ToLowerCase
 (
-fileName
+fileName_
 )
 ;
 /
@@ -1668,7 +1671,7 @@ cases
 int32_t
 fileNameIndex
 =
-fileName
+fileName_
 .
 FindChar
 (
@@ -1685,7 +1688,7 @@ fileNameIndex
 1
 )
 {
-fileName
+fileName_
 .
 SetLength
 (
@@ -1705,7 +1708,7 @@ evalWhitelist
 {
 if
 (
-fileName
+fileName_
 .
 Equals
 (
@@ -1717,10 +1720,13 @@ return
 ;
 }
 }
+fileName
+=
+fileName_
+;
 }
-MOZ_ASSERT
+MOZ_CRASH_UNSAFE_PRINTF
 (
-false
 "
 do
 not
@@ -1729,7 +1735,15 @@ eval
 with
 system
 privileges
+:
+%
+s
 "
+fileName
+.
+get
+(
+)
 )
 ;
 }
