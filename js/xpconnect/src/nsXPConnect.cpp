@@ -3919,6 +3919,9 @@ static
 nsresult
 NativeInterface2JSObject
 (
+JSContext
+*
+aCx
 HandleObject
 aScope
 nsISupports
@@ -3937,13 +3940,10 @@ MutableHandleValue
 aVal
 )
 {
-AutoJSContext
-cx
-;
 JSAutoRealm
 ar
 (
-cx
+aCx
 aScope
 )
 ;
@@ -3965,6 +3965,7 @@ XPCConvert
 :
 NativeInterface2JSObject
 (
+aCx
 aVal
 helper
 aIID
@@ -4086,6 +4087,7 @@ rv
 =
 NativeInterface2JSObject
 (
+aJSContext
 aScope
 aCOMObj
 nullptr
@@ -4200,6 +4202,7 @@ aScopeArg
 return
 NativeInterface2JSObject
 (
+aJSContext
 aScope
 aCOMObj
 aCache

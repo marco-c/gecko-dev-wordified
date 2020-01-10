@@ -6654,6 +6654,7 @@ XPCConvert
 :
 NativeInterface2JSObject
 (
+aCx
 aRetval
 aHelper
 aIID

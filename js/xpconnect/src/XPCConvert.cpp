@@ -2699,6 +2699,7 @@ iface
 return
 NativeInterface2JSObject
 (
+cx
 d
 helper
 iid
@@ -5925,6 +5926,9 @@ XPCConvert
 :
 NativeInterface2JSObject
 (
+JSContext
+*
+cx
 MutableHandleValue
 d
 xpcObjectHelper
@@ -6087,9 +6091,6 @@ enough
 for
 now
 .
-AutoJSContext
-cx
-;
 XPCWrappedNativeScope
 *
 xpcscope
