@@ -5847,6 +5847,9 @@ url
 NPError
 err
 ;
+if
+(
+!
 InstCast
 (
 aNPP
@@ -5869,7 +5872,12 @@ false
 &
 err
 )
+)
+{
+return
+NPERR_GENERIC_ERROR
 ;
+}
 if
 (
 NPERR_NO_ERROR
@@ -6397,6 +6405,9 @@ url
 NPError
 err
 ;
+if
+(
+!
 InstCast
 (
 aNPP
@@ -6421,7 +6432,12 @@ aIsFile
 &
 err
 )
+)
+{
+return
+NPERR_GENERIC_ERROR
 ;
+}
 if
 (
 NPERR_NO_ERROR
