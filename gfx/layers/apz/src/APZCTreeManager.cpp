@@ -2114,7 +2114,7 @@ ConditionOnPrefFunction
 StaticPrefs
 :
 :
-APZPrintTree
+apz_printtree
 )
 ;
 #
@@ -4578,7 +4578,7 @@ if
 StaticPrefs
 :
 :
-APZKeyboardEnabled
+apz_keyboard_enabled
 (
 )
 )
@@ -10058,7 +10058,7 @@ apzDragEnabled
 StaticPrefs
 :
 :
-APZDragEnabled
+apz_drag_enabled
 (
 )
 ;
@@ -11498,7 +11498,7 @@ if
 StaticPrefs
 :
 :
-APZKeyboardEnabled
+apz_keyboard_enabled
 (
 )
 |
@@ -11506,7 +11506,7 @@ APZKeyboardEnabled
 StaticPrefs
 :
 :
-AccessibilityBrowseWithCaret
+accessibility_browsewithcaret
 (
 )
 )
@@ -12808,7 +12808,7 @@ mInScrollbarTouchDrag
 StaticPrefs
 :
 :
-APZDragEnabled
+apz_drag_enabled
 (
 )
 &
@@ -12816,7 +12816,7 @@ APZDragEnabled
 StaticPrefs
 :
 :
-APZTouchDragEnabled
+apz_touch_drag_enabled
 (
 )
 &
@@ -14089,7 +14089,7 @@ if
 StaticPrefs
 :
 :
-APZDragInitiationEnabled
+apz_drag_initial_enabled
 (
 )
 &
@@ -17193,7 +17193,7 @@ mIsHandoff
 StaticPrefs
 :
 :
-APZAllowImmediateHandoff
+apz_allow_immediate_handoff
 (
 )
 &

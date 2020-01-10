@@ -1883,13 +1883,13 @@ LayerSize
 StaticPrefs
 :
 :
-APZDangerZoneX
+apz_danger_zone_x
 (
 )
 StaticPrefs
 :
 :
-APZDangerZoneY
+apz_danger_zone_y
 (
 )
 )

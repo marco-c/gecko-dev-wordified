@@ -423,7 +423,7 @@ if
 StaticPrefs
 :
 :
-APZUseChromeFlingPhysics
+apz_android_chrome_fling_physics_enabled
 (
 )
 )
@@ -489,7 +489,7 @@ if
 StaticPrefs
 :
 :
-APZUseChromeFlingPhysics
+apz_android_chrome_fling_physics_enabled
 (
 )
 )
@@ -531,17 +531,19 @@ InitializeGlobalState
 Not
 conditioned
 on
+/
+/
 StaticPrefs
 :
 :
-APZUseChromeFlingPhysics
+apz_android_chrome_fling_physics_enabled
 (
 )
 because
-/
-/
 the
 pref
+/
+/
 is
 live
 .
@@ -1318,7 +1320,7 @@ ToMilliseconds
 StaticPrefs
 :
 :
-APZFlingAccelInterval
+apz_fling_accel_interval_ms
 (
 )
 &
@@ -1333,7 +1335,7 @@ Length
 StaticPrefs
 :
 :
-APZFlingAccelMinVelocity
+apz_fling_accel_interval_ms
 (
 )
 )
@@ -1908,7 +1910,7 @@ Length
 StaticPrefs
 :
 :
-APZFlingStoppedThreshold
+apz_fling_stopped_threshold
 is
 only
 used
@@ -1927,7 +1929,7 @@ speed
 StaticPrefs
 :
 :
-APZFlingStoppedThreshold
+apz_fling_stopped_threshold
 (
 )
 )

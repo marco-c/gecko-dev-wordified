@@ -737,7 +737,7 @@ where
 StaticPrefs
 :
 :
-APZAllowImmediateHandoff
+apz_allow_immediate_handoff
 (
 )
 is

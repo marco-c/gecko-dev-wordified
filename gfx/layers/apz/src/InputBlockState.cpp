@@ -1076,7 +1076,7 @@ mScrolledApzc
 StaticPrefs
 :
 :
-APZAllowImmediateHandoff
+apz_allow_immediate_handoff
 (
 )
 ?
@@ -4871,14 +4871,14 @@ TouchActionAllowsPanningXY
 StaticPrefs
 :
 :
-APZAxisLockAngle
+apz_axis_lock_lock_angle
 (
 )
 :
 StaticPrefs
 :
 :
-APZAllowedDirectPanAngle
+apz_axis_lock_direct_pan_angle
 (
 )
 ;

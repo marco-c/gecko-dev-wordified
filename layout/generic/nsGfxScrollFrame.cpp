@@ -17218,7 +17218,7 @@ this
 StaticPrefs
 :
 :
-APZDisplayPortExpiryTime
+apz_displayport_expiry_ms
 (
 )
 nsITimer
@@ -17305,7 +17305,7 @@ if
 StaticPrefs
 :
 :
-APZDisplayPortExpiryTime
+apz_displayport_expiry_ms
 (
 )
 )
@@ -19773,7 +19773,7 @@ content
 StaticPrefs
 :
 :
-APZPaintSkipping
+apz_paint_skipping_enabled
 (
 )
 )
@@ -20136,7 +20136,7 @@ haveScrollLinkedEffects
 StaticPrefs
 :
 :
-APZDisableForScrollLinkedEffects
+apz_disable_for_scroll_linked_effects
 (
 )
 ;

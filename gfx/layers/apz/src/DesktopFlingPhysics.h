@@ -222,7 +222,7 @@ friction
 StaticPrefs
 :
 :
-APZFlingFriction
+apz_fling_friction
 (
 )
 ;
@@ -232,7 +232,7 @@ threshold
 StaticPrefs
 :
 :
-APZFlingStoppedThreshold
+apz_fling_stopped_threshold
 (
 )
 ;

@@ -1167,7 +1167,7 @@ panDistance
 StaticPrefs
 :
 :
-APZPinchLockScrollLockThreshold
+apz_pinch_lock_scroll_lock_threshold
 (
 )
 *
@@ -1256,7 +1256,7 @@ pinchDistance
 StaticPrefs
 :
 :
-APZPinchLockSpanBreakoutThreshold
+apz_pinch_lock_span_breakout_threshold
 (
 )
 *
@@ -1352,7 +1352,7 @@ pinchDistance
 StaticPrefs
 :
 :
-APZPinchLockSpanBreakoutThreshold
+apz_pinch_lock_span_breakout_threshold
 (
 )
 *
@@ -1782,7 +1782,7 @@ sent
 when
 /
 /
-APZAllowZooming
+apz_allow_zooming
 is
 false
 .
@@ -1894,7 +1894,7 @@ normally
 be
 sent
 when
-APZAllowZooming
+apz_allow_zooming
 is
 /
 /
@@ -3378,7 +3378,7 @@ originalMetrics
 /
 /
 When
-APZAllowZooming
+apz_allow_zooming
 is
 false
 the
@@ -3400,7 +3400,7 @@ MakeApzcUnzoomable
 /
 /
 With
-APZAllowZooming
+apz_allow_zooming
 false
 we
 expect
@@ -3676,7 +3676,7 @@ originalMetrics
 /
 /
 When
-APZAllowZooming
+apz_allow_zooming
 is
 false
 the
@@ -3698,7 +3698,7 @@ MakeApzcUnzoomable
 /
 /
 With
-APZAllowZooming
+apz_allow_zooming
 false
 we
 expect

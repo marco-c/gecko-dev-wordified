@@ -5060,7 +5060,7 @@ return
 StaticPrefs
 :
 :
-APZAllowZooming
+apz_allow_zooming
 (
 )
 |
@@ -7408,7 +7408,7 @@ return
 StaticPrefs
 :
 :
-APZDisableForScrollLinkedEffects
+apz_disable_for_scroll_linked_effects
 (
 )
 &
@@ -64031,7 +64031,7 @@ if
 StaticPrefs
 :
 :
-APZPrintTree
+apz_printtree
 (
 )
 |

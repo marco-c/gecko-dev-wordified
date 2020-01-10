@@ -2347,7 +2347,7 @@ horizon
 StaticPrefs
 :
 :
-APZVelocityRelevanceTime
+apz_velocity_relevance_time_ms
 (
 )
 ;

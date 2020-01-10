@@ -1423,7 +1423,7 @@ return
 StaticPrefs
 :
 :
-APZRecordCheckerboarding
+apz_record_checkerboarding
 (
 )
 ;

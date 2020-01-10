@@ -3840,7 +3840,7 @@ if
 StaticPrefs
 :
 :
-APZMinimap
+apz_minimap_enabled
 (
 )
 )

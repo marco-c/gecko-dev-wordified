@@ -891,7 +891,7 @@ if
 StaticPrefs
 :
 :
-APZTestFailsWithNativeInjection
+apz_test_fails_with_native_injection
 (
 )
 |

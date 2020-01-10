@@ -840,7 +840,7 @@ ToMilliseconds
 StaticPrefs
 :
 :
-APZFlingAccelInterval
+apz_fling_accel_interval_ms
 (
 )
 &
@@ -855,7 +855,7 @@ Length
 StaticPrefs
 :
 :
-APZFlingAccelMinVelocity
+apz_fling_accel_min_velocity
 (
 )
 )
@@ -1959,7 +1959,7 @@ aBase
 StaticPrefs
 :
 :
-APZFlingAccelBaseMultiplier
+apz_fling_accel_base_mult
 (
 )
 )
@@ -1970,7 +1970,7 @@ aSupplemental
 StaticPrefs
 :
 :
-APZFlingAccelSupplementalMultiplier
+apz_fling_accel_supplemental_mult
 (
 )
 )
