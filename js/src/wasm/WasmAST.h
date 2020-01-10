@@ -2529,12 +2529,7 @@ CallIndirect
 ComparisonOperator
 Const
 ConversionOperator
-#
-ifdef
-ENABLE_WASM_BULKMEM_OPS
 DataOrElemDrop
-#
-endif
 Drop
 ExtraConversionOperator
 First
@@ -2542,14 +2537,9 @@ GetGlobal
 GetLocal
 If
 Load
-#
-ifdef
-ENABLE_WASM_BULKMEM_OPS
 MemFill
 MemOrTableCopy
 MemOrTableInit
-#
-endif
 MemoryGrow
 MemorySize
 Nop
@@ -4754,9 +4744,6 @@ count_
 }
 }
 ;
-#
-ifdef
-ENABLE_WASM_BULKMEM_OPS
 class
 AstMemOrTableCopy
 :
@@ -5307,8 +5294,6 @@ len_
 }
 }
 ;
-#
-endif
 #
 ifdef
 ENABLE_WASM_REFTYPES
