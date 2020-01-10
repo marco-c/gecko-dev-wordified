@@ -418,7 +418,10 @@ BindAttribLocation
 GLuint
 prog
 const
-nsCString
+std
+:
+:
+string
 &
 userName
 GLuint

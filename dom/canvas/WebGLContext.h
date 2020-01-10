@@ -9155,9 +9155,6 @@ mutable
 GLenum
 mWebGLError
 ;
-bool
-mBypassShaderValidation
-;
 webgl
 :
 :
