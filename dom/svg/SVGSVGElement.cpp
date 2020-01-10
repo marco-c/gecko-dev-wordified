@@ -1584,14 +1584,11 @@ PR_MSEC_PER_SEC
 )
 ;
 }
-else
-{
 return
 0
 .
 f
 ;
-}
 }
 void
 SVGSVGElement
@@ -4719,7 +4716,6 @@ viewElement
 mViewBox
 ;
 }
-else
 if
 (
 mSVGView
