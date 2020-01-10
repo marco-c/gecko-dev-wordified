@@ -3170,9 +3170,6 @@ bindBlobByName
 blob
 "
 BLOB
-BLOB
-.
-length
 )
 ;
 execAsync
@@ -3781,9 +3778,6 @@ bindBlobByName
 blob
 "
 BLOB
-BLOB
-.
-length
 )
 ;
 array
@@ -4222,9 +4216,6 @@ bindBlobByName
 doesnotexist
 "
 BLOB
-BLOB
-.
-length
 )
 )
 ;

@@ -969,9 +969,6 @@ bindBlobByName
 blob
 "
 BLOB
-BLOB
-.
-length
 )
 ;
 params
