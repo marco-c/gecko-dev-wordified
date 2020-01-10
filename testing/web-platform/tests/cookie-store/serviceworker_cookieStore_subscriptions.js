@@ -125,7 +125,9 @@ url
 :
 '
 /
-scope
+cookie
+-
+store
 /
 path1
 '
