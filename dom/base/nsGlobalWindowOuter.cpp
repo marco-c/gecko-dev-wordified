@@ -41686,9 +41686,18 @@ mIsClosed
 =
 true
 ;
-GetBrowsingContext
+if
+(
+!
+mBrowsingContext
+-
+>
+IsDiscarded
 (
 )
+)
+{
+mBrowsingContext
 -
 >
 SetClosed
@@ -41696,6 +41705,7 @@ SetClosed
 true
 )
 ;
+}
 /
 /
 If
