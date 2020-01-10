@@ -432,9 +432,6 @@ crate
 :
 :
 build
-:
-:
-BuildInfo
 ;
 use
 crate
@@ -4486,7 +4483,12 @@ geckodriverVersion
 into
 (
 )
-BuildInfo
+build
+:
+:
+build_info
+(
+)
 .
 into
 (
