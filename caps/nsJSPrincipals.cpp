@@ -220,7 +220,7 @@ mozilla
 /
 dom
 /
-WorkletPrincipal
+WorkletPrincipals
 .
 h
 "
@@ -733,13 +733,10 @@ if
 debugToken
 =
 =
-mozilla
-:
-:
 dom
 :
 :
-WorkletPrincipal
+WorkletPrincipals
 :
 :
 kJSPrincipalsDebugToken
@@ -752,7 +749,6 @@ stderr
 Web
 Worklet
 principal
-singleton
 (
 %
 p
