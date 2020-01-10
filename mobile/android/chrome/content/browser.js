@@ -25361,7 +25361,9 @@ tabs
 .
 remote
 .
-autostart
+force
+-
+enable
 "
 false
 )
