@@ -489,6 +489,8 @@ aEndpoint
 void
 PostStartTranslationTask
 (
+uint32_t
+aDispatchFlags
 )
 ;
 void
