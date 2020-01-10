@@ -2,12 +2,7 @@ use
 libc
 :
 :
-{
 size_t
-uint8_t
-uint16_t
-uint32_t
-}
 ;
 use
 std
@@ -783,7 +778,7 @@ ret
 :
 *
 mut
-uint32_t
+u32
 )
 -
 >
@@ -884,7 +879,7 @@ ret
 :
 *
 mut
-uint16_t
+u16
 )
 -
 >
@@ -985,7 +980,7 @@ ret
 :
 *
 mut
-uint8_t
+u8
 )
 -
 >
