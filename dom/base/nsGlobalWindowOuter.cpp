@@ -16353,15 +16353,9 @@ CookieSettings
 )
 -
 >
-GetCookieBehavior
+GetRejectThirdPartyTrackers
 (
 )
-=
-=
-nsICookieService
-:
-:
-BEHAVIOR_REJECT_TRACKER
 &
 &
 nsContentUtils
