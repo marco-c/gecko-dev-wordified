@@ -679,12 +679,6 @@ aContext
 )
 override
 ;
-virtual
-void
-AppReady
-(
-)
-;
 /
 /
 if
