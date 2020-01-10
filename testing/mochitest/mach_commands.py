@@ -945,6 +945,19 @@ open
 false
 .
             
+flavor
+=
+getattr
+(
+options
+'
+flavor
+'
+'
+plain
+'
+)
+            
 if
 len
 (
@@ -960,8 +973,6 @@ keep_open
 is
 None
 and
-options
-.
 flavor
 =
 =
