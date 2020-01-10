@@ -1582,6 +1582,8 @@ _module
 _level
 )
 \
+MOZ_UNLIKELY
+(
 mozilla
 :
 :
@@ -1592,6 +1594,7 @@ log_test
 (
 _module
 _level
+)
 )
 #
 else
