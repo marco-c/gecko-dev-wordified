@@ -646,7 +646,7 @@ sDXVAEnabled
 StaticPrefs
 :
 :
-MediaGpuProcessDecoder
+media_gpu_process_decoder
 (
 )
 ;
@@ -790,7 +790,7 @@ testForVPx
 StaticPrefs
 :
 :
-MediaWmfVp9Enabled
+media_wmf_vp9_enabled
 (
 )
 )

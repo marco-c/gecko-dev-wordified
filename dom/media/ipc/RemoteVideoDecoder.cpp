@@ -2156,7 +2156,7 @@ if
 StaticPrefs
 :
 :
-MediaAv1UseDav1d
+media_av1_use_dav1d
 (
 )
 )

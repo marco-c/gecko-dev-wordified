@@ -254,7 +254,7 @@ if
 StaticPrefs
 :
 :
-MediaRddVorbisEnabled
+media_rdd_vorbis_enabled
 (
 )
 |
@@ -263,7 +263,7 @@ MediaRddVorbisEnabled
 StaticPrefs
 :
 :
-MediaRddProcessEnabled
+media_rdd_process_enabled
 (
 )
 |
@@ -334,7 +334,7 @@ if
 StaticPrefs
 :
 :
-MediaAv1Enabled
+media_av1_enabled
 (
 )
 &
@@ -343,7 +343,7 @@ MediaAv1Enabled
 StaticPrefs
 :
 :
-MediaRddProcessEnabled
+media_rdd_process_enabled
 (
 )
 )
@@ -473,7 +473,7 @@ mMimeType
 StaticPrefs
 :
 :
-MediaRddProcessEnabled
+media_rdd_process_enabled
 (
 )
 &
@@ -481,7 +481,7 @@ MediaRddProcessEnabled
 StaticPrefs
 :
 :
-MediaAv1Enabled
+media_av1_enabled
 (
 )
 )
@@ -491,7 +491,7 @@ if
 StaticPrefs
 :
 :
-MediaAv1UseDav1d
+media_av1_use_dav1d
 (
 )
 )

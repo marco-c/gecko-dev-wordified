@@ -1037,7 +1037,7 @@ false
 StaticPrefs
 :
 :
-MediaAutoplayUserGesturesNeeded
+media_autoplay_enabled_user_gestures_needed
 (
 )
 ;
@@ -1121,7 +1121,7 @@ if
 StaticPrefs
 :
 :
-MediaAutoplayUserGesturesNeeded
+media_autoplay_enabled_user_gestures_needed
 (
 )
 )

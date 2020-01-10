@@ -2546,7 +2546,7 @@ if
 StaticPrefs
 :
 :
-MediaEmeVideoBlank
+media_eme_video_blank
 (
 )
 )
@@ -2783,7 +2783,7 @@ if
 StaticPrefs
 :
 :
-MediaEmeAudioBlank
+media_eme_audio_blank
 (
 )
 )

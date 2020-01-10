@@ -7754,7 +7754,7 @@ return
 StaticPrefs
 :
 :
-MediaOpusEnabled
+media_opus_enabled
 (
 )
 ;
@@ -7771,7 +7771,7 @@ return
 StaticPrefs
 :
 :
-MediaOggEnabled
+media_ogg_enabled
 (
 )
 ;
@@ -7788,7 +7788,7 @@ return
 StaticPrefs
 :
 :
-MediaWaveEnabled
+media_wave_enabled
 (
 )
 ;
@@ -7805,7 +7805,7 @@ return
 StaticPrefs
 :
 :
-MediaWebMEnabled
+media_webm_enabled
 (
 )
 ;

@@ -718,7 +718,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-MediaEmeEnabled
+media_eme_enabled
 (
 )
 |
@@ -1575,7 +1575,7 @@ if
 StaticPrefs
 :
 :
-MediaClearkeyPersistentLicenseEnabled
+media_clearkey_persistent_license_enabled
 (
 )
 )

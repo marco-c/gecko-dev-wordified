@@ -672,7 +672,7 @@ mMinVideoQueueSize
 StaticPrefs
 :
 :
-MediaRuinAvSyncEnabled
+media_ruin_av_sync_enabled
 (
 )
 ?

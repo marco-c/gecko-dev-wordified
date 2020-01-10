@@ -671,7 +671,7 @@ if
 StaticPrefs
 :
 :
-MediaEmeEnabled
+media_eme_enabled
 (
 )
 &

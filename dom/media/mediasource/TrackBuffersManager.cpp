@@ -6641,7 +6641,7 @@ aResult
 StaticPrefs
 :
 :
-MediaPlaybackWarningsAsErrors
+media_playback_warnings_as_errors
 (
 )
 )
@@ -7311,7 +7311,7 @@ aResult
 StaticPrefs
 :
 :
-MediaPlaybackWarningsAsErrors
+media_playback_warnings_as_errors
 (
 )
 )

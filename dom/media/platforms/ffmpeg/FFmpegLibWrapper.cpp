@@ -328,7 +328,7 @@ version
 StaticPrefs
 :
 :
-MediaLibavcodecAllowObsolete
+media_libavcodec_allow_obsolete
 (
 )
 )

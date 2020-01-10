@@ -383,7 +383,7 @@ resampling
 StaticPrefs
 :
 :
-MediaResamplingEnabled
+media_resampling_enabled
 (
 )
 ;
@@ -1273,7 +1273,7 @@ or
 StaticPrefs
 :
 :
-MediaForcestereoEnabled
+media_forcestereo_enabled
 (
 )
 is

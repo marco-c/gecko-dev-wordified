@@ -23156,7 +23156,7 @@ if
 StaticPrefs
 :
 :
-MediaBlockEventEnabled
+media_autoplay_block_event_enabled
 (
 )
 )
@@ -25533,7 +25533,7 @@ this
 StaticPrefs
 :
 :
-MediaSuspendBkgndVideoDelayMs
+media_suspend_bkgnd_video_delay_ms
 (
 )
 nsITimer
@@ -26838,7 +26838,7 @@ suspendDelay_ms
 StaticPrefs
 :
 :
-MediaSuspendBkgndVideoDelayMs
+media_suspend_bkgnd_video_delay_ms
 (
 )
 ;

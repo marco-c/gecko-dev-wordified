@@ -352,7 +352,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-MediaWebspeechTextFakeRecognitionService
+media_webspeech_test_fake_recognition_service
 (
 )
 "

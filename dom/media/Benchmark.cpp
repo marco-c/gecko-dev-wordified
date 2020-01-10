@@ -508,7 +508,7 @@ return
 StaticPrefs
 :
 :
-MediaBenchmarkVp9Fps
+media_benchmark_vp9_fps
 (
 )
 ;
@@ -559,7 +559,7 @@ decodeFps
 StaticPrefs
 :
 :
-MediaBenchmarkVp9Fps
+media_benchmark_vp9_fps
 (
 )
 ;
@@ -569,7 +569,7 @@ hadRecentUpdate
 StaticPrefs
 :
 :
-MediaBenchmarkVp9Versioncheck
+media_benchmark_vp9_versioncheck
 (
 )
 ;
@@ -646,7 +646,7 @@ demuxer
 StaticPrefs
 :
 :
-MediaBenchmarkFrames
+media_benchmark_frames
 (
 )
 /
@@ -682,7 +682,7 @@ FromMilliseconds
 StaticPrefs
 :
 :
-MediaBenchmarkTimeout
+media_benchmark_timeout
 (
 )
 )
@@ -823,7 +823,7 @@ decodeFps
 StaticPrefs
 :
 :
-MediaBenchmarkVp9Threshold
+media_benchmark_vp9_threshold
 (
 )
 ;

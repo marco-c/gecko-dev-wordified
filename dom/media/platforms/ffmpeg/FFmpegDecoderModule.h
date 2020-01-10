@@ -343,7 +343,7 @@ LowLatency
 StaticPrefs
 :
 :
-MediaFfmpegLowLatencyEnabled
+media_ffmpeg_low_latency_enabled
 (
 )
 )

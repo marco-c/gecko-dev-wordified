@@ -1108,7 +1108,7 @@ if
 StaticPrefs
 :
 :
-MediaPlaybackWarningsAsErrors
+media_playback_warnings_as_errors
 (
 )
 )
@@ -1196,7 +1196,7 @@ if
 StaticPrefs
 :
 :
-MediaPlaybackWarningsAsErrors
+media_playback_warnings_as_errors
 (
 )
 )
@@ -1460,7 +1460,7 @@ if
 StaticPrefs
 :
 :
-MediaPlaybackWarningsAsErrors
+media_playback_warnings_as_errors
 (
 )
 )
@@ -1775,7 +1775,7 @@ if
 StaticPrefs
 :
 :
-MediaPlaybackWarningsAsErrors
+media_playback_warnings_as_errors
 (
 )
 )

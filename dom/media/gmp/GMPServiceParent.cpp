@@ -5030,7 +5030,7 @@ if
 StaticPrefs
 :
 :
-MediaGmpInsecureAllow
+media_gmp_insecure_allow
 (
 )
 )

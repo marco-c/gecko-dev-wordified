@@ -5560,7 +5560,7 @@ AUDIO_DATA
 StaticPrefs
 :
 :
-MediaAudioMaxDecodeError
+media_audio_max_decode_error
 (
 )
 )
@@ -5577,7 +5577,7 @@ VIDEO_DATA
 StaticPrefs
 :
 :
-MediaVideoMaxDecodeError
+media_video_max_decode_error
 (
 )
 )
@@ -7041,7 +7041,7 @@ aResult
 StaticPrefs
 :
 :
-MediaPlaybackWarningsAsErrors
+media_playback_warnings_as_errors
 (
 )
 )
@@ -8402,7 +8402,7 @@ if
 StaticPrefs
 :
 :
-MediaDecoderSkipToNextKeyFrameEnabled
+media_decoder_skip_to_next_key_frame_enabled
 (
 )
 )
@@ -12688,7 +12688,7 @@ recyclable
 StaticPrefs
 :
 :
-MediaDecoderRecycleEnabled
+media_decoder_recycle_enabled
 (
 )
 &

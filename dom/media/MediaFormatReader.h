@@ -2832,7 +2832,7 @@ mMaxConsecutiveError
 StaticPrefs
 :
 :
-MediaPlaybackWarningsAsErrors
+media_playback_warnings_as_errors
 (
 )
 ;

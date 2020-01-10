@@ -2860,7 +2860,7 @@ VendorId
 StaticPrefs
 :
 :
-PDMWMFSkipBlacklist
+media_wmf_skip_blacklist
 (
 )
 )
@@ -3421,7 +3421,7 @@ dxvaLimit
 StaticPrefs
 :
 :
-PDMWMFMaxDXVAVideos
+media_wmf_dxva_max_videos
 (
 )
 ;
@@ -4444,7 +4444,7 @@ GetSingleton
 StaticPrefs
 :
 :
-PDMWMFUseSyncTexture
+media_wmf_use_sync_texture
 (
 )
 &
@@ -4563,7 +4563,7 @@ if
 StaticPrefs
 :
 :
-PDMWMFUseSyncTexture
+media_wmf_use_sync_texture
 (
 )
 )
@@ -5520,7 +5520,7 @@ VendorId
 StaticPrefs
 :
 :
-PDMWMFSkipBlacklist
+media_wmf_skip_blacklist
 (
 )
 )
@@ -7909,7 +7909,7 @@ dxvaLimit
 StaticPrefs
 :
 :
-PDMWMFMaxDXVAVideos
+media_wmf_dxva_max_videos
 (
 )
 ;
@@ -8093,7 +8093,7 @@ return
 StaticPrefs
 :
 :
-PDMWMFAMDHighResEnabled
+media_wmf_amd_highres_enabled
 (
 )
 &

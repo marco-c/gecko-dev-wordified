@@ -152,7 +152,7 @@ if
 StaticPrefs
 :
 :
-MediaNavigatorHardwareVp8encodeAccelerationRemoteEnabled
+media_navigator_hardware_vp8_encode_acceleration_remote_enabled
 (
 )
 )

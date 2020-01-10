@@ -1296,7 +1296,7 @@ FromMilliseconds
 StaticPrefs
 :
 :
-MediaSuspendBkgndVideoDelayMs
+media_suspend_bkgnd_video_delay_ms
 (
 )
 )
@@ -4736,7 +4736,7 @@ timeout
 StaticPrefs
 :
 :
-MediaDormantOnPauseTimeoutMs
+media_dormant_on_pause_timeout_ms
 (
 )
 ;
@@ -14794,7 +14794,7 @@ mSeamlessLoopingAllowed
 StaticPrefs
 :
 :
-MediaSeamlessLooping
+media_seamless_looping
 (
 )
 &
@@ -19857,7 +19857,7 @@ if
 StaticPrefs
 :
 :
-MediaSuspendBkgndVideoEnabled
+media_suspend_bkgnd_video_enabled
 (
 )
 &

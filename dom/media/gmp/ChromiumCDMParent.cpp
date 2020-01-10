@@ -261,7 +261,7 @@ mVideoShmemLimit
 StaticPrefs
 :
 :
-MediaEmeChromiumApiVideoShmems
+media_eme_chromium_api_video_shmems
 (
 )
 )

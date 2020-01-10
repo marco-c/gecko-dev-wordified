@@ -685,7 +685,7 @@ mozilla
 StaticPrefs
 :
 :
-MediaCapabilitiesScreenEnabled
+media_media_capabilities_screen_enabled
 (
 )
 ;

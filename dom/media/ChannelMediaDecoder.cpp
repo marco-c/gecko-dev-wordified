@@ -2981,7 +2981,7 @@ int64_t
 StaticPrefs
 :
 :
-MediaMemoryCacheMaxSize
+media_memory_cache_max_size
 (
 )
 )
