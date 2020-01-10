@@ -291,11 +291,12 @@ hosts
 file
 "
 in
+str
+(
 excinfo
 .
 value
-.
-message
+)
 pytest
 .
 mark
