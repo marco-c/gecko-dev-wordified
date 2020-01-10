@@ -59551,7 +59551,7 @@ doc
 doc
 -
 >
-HasPrototypeDocument
+LoadedFromPrototype
 (
 )
 )

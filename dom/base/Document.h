@@ -12596,7 +12596,7 @@ nsXULPrototypeDocument
 *
 /
 bool
-HasPrototypeDocument
+LoadedFromPrototype
 (
 )
 const
