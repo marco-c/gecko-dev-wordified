@@ -725,7 +725,7 @@ privacy
 ;
 gProtectionsHandler
 .
-_protectionsPopupSettingsButton
+_protectionPopupSettingsButton
 .
 click
 (
@@ -814,7 +814,7 @@ button
 in
 the
 footer
-section
+seciton
 .
 *
 /
@@ -822,7 +822,7 @@ add_task
 (
 async
 function
-testShowFullReportButton
+testShowFullReportLink
 (
 )
 {
@@ -890,7 +890,7 @@ protections
 )
 ;
 let
-showFullReportButton
+showFullReportLink
 =
 document
 .
@@ -903,13 +903,15 @@ popup
 -
 show
 -
+full
+-
 report
 -
-button
+link
 "
 )
 ;
-showFullReportButton
+showFullReportLink
 .
 click
 (
