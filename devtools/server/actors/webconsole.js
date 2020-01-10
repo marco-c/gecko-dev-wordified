@@ -1184,9 +1184,6 @@ this
 traits
 =
 {
-transferredResponseSize
-:
-true
 selectedObjectActor
 :
 true
