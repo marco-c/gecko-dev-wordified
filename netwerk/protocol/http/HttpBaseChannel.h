@@ -1589,8 +1589,8 @@ NS_IMETHOD
 SetCookie
 (
 const
-char
-*
+nsACString
+&
 aCookieHeader
 )
 override
@@ -2954,9 +2954,9 @@ fired
 void
 NotifySetCookie
 (
-char
 const
-*
+nsACString
+&
 aCookie
 )
 ;

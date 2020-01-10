@@ -16284,10 +16284,6 @@ cookie
 SetCookie
 (
 cookie
-.
-get
-(
-)
 )
 ;
 }

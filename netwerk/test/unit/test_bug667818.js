@@ -162,7 +162,8 @@ getCookieString
 uri
 null
 )
-null
+"
+"
 )
 ;
 /

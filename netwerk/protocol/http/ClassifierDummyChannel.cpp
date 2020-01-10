@@ -1826,8 +1826,8 @@ ClassifierDummyChannel
 SetCookie
 (
 const
-char
-*
+nsACString
+&
 aCookieHeader
 )
 {
