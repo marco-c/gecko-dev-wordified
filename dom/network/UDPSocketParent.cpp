@@ -2158,7 +2158,7 @@ bool
 allowed
 ;
 const
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
@@ -2320,7 +2320,7 @@ UDPSocketParent
 Send
 (
 const
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
@@ -3190,7 +3190,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >

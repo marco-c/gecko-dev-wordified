@@ -2673,7 +2673,7 @@ nsAString
 &
 aType
 const
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >

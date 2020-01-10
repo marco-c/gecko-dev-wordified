@@ -811,7 +811,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
@@ -1288,7 +1288,7 @@ const
 UDPAddressInfo
 &
 aAddressInfo
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >

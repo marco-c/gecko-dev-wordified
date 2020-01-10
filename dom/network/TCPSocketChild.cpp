@@ -282,7 +282,7 @@ JSContext
 *
 cx
 const
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
@@ -1209,7 +1209,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >

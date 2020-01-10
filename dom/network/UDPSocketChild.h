@@ -545,7 +545,7 @@ const
 UDPAddressInfo
 &
 aAddressInfo
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >

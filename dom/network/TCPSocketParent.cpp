@@ -250,7 +250,7 @@ JSContext
 *
 aCx
 const
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
@@ -1327,7 +1327,7 @@ filtering
 )
 ;
 const
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
@@ -1743,7 +1743,7 @@ TCPReadyState
 aReadyState
 )
 {
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >

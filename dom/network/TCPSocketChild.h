@@ -178,7 +178,7 @@ JSContext
 *
 cx
 const
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
