@@ -689,10 +689,6 @@ endif
 #
 ifdef
 DEBUG
-mLockRulesSniffing
-(
-false
-)
 mDidExplicitlySetInterline
 (
 false
@@ -722,10 +718,6 @@ InitFields
 mTextEditor
 =
 nullptr
-;
-mLockRulesSniffing
-=
-false
 ;
 mDidExplicitlySetInterline
 =
@@ -1121,12 +1113,6 @@ EDirection
 aDirection
 )
 {
-MOZ_ASSERT
-(
-!
-mLockRulesSniffing
-)
-;
 if
 (
 NS_WARN_IF
@@ -1161,12 +1147,6 @@ endif
 #
 ifdef
 DEBUG
-AutoLockRulesSniffing
-lockIt
-(
-this
-)
-;
 AutoSafeEditorData
 setData
 (
