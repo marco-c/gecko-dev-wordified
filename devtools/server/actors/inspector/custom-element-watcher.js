@@ -829,6 +829,7 @@ nodeActor
 rawNode
 ;
 return
+(
 !
 Cu
 .
@@ -853,6 +854,7 @@ node
 ownerDocument
 .
 documentElement
+)
 ;
 }
 }

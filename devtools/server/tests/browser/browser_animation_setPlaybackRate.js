@@ -338,6 +338,7 @@ animations
 setPlaybackRates
 (
 players
+0
 .
 5
 )
@@ -379,6 +380,7 @@ is
 animPlayerState
 .
 playbackRate
+0
 .
 5
 "

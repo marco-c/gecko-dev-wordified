@@ -1973,7 +1973,6 @@ memoryStart
 const
 profilerStart
 =
-(
 async
 function
 (
@@ -2091,7 +2090,6 @@ startData
 bind
 (
 this
-)
 )
 (
 )

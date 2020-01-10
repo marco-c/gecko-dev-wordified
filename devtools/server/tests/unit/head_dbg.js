@@ -4160,12 +4160,10 @@ name
 =
 >
 typeof
-(
 target
 [
 name
 ]
-)
 =
 =
 =
@@ -5324,9 +5322,7 @@ sources
 .
 find
 (
-(
 s
-)
 =
 >
 s

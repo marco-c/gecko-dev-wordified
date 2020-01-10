@@ -384,16 +384,12 @@ count
 ;
 return
 {
-"
 from
-"
 :
 this
 .
 actorID
-"
 encoded
-"
 :
 parts
 .

@@ -760,6 +760,7 @@ function
 )
 {
 return
+(
 "
 [
 NodeActor
@@ -784,6 +785,7 @@ toString
 "
 ]
 "
+)
 ;
 }
 /
@@ -829,6 +831,7 @@ function
 )
 {
 return
+(
 this
 .
 rawNode
@@ -849,6 +852,7 @@ documentElement
 this
 .
 rawNode
+)
 ;
 }
 destroy

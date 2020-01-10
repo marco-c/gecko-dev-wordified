@@ -360,7 +360,6 @@ scope
 const
 newestWorker
 =
-(
 registration
 .
 activeWorker
@@ -374,7 +373,6 @@ waitingWorker
 registration
 .
 installingWorker
-)
 ;
 form
 .
@@ -703,9 +701,7 @@ _consoleActor
 }
 ;
 }
-(
 error
-)
 =
 >
 {

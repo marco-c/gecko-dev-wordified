@@ -222,10 +222,12 @@ systemPrincipal
 &
 &
 (
+(
 sameOrigin
 &
 &
 debuggeeHasXrays
+)
 |
 |
 globalHasXrays
@@ -1534,6 +1536,7 @@ if
 createdInDebuggee
 |
 |
+(
 !
 isProxy
 &
@@ -1543,6 +1546,7 @@ subsumes
 &
 !
 globalIsInvisible
+)
 )
 {
 /
@@ -1771,6 +1775,7 @@ if
 createdInDebuggee
 |
 |
+(
 !
 isProxy
 &
@@ -1780,6 +1785,7 @@ subsumes
 &
 !
 globalIsInvisible
+)
 )
 {
 /

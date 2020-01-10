@@ -284,9 +284,7 @@ once
 "
 paused
 "
-(
 packet
-)
 =
 >
 {
@@ -338,9 +336,7 @@ once
 "
 paused
 "
-(
 packet
-)
 =
 >
 {

@@ -1757,14 +1757,12 @@ target
 const
 win
 =
-(
 target
 &
 &
 target
 .
 ownerDocument
-)
 ?
 target
 .

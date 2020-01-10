@@ -858,9 +858,7 @@ push
 )
 =
 >
-(
 generator
-)
 (
 )
 .

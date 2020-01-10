@@ -151,7 +151,6 @@ this
 .
 short
 =
-(
 this
 .
 str
@@ -161,7 +160,6 @@ length
 DebuggerServer
 .
 LONG_STRING_LENGTH
-)
 ;
 }
 destroy

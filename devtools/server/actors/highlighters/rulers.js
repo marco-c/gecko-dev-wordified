@@ -515,9 +515,7 @@ path
 attributes
 :
 {
-"
 class
-"
 :
 "
 ruler
@@ -549,9 +547,7 @@ path
 attributes
 :
 {
-"
 class
-"
 :
 "
 ruler
@@ -592,9 +588,7 @@ axis
 axis
 -
 text
-"
 class
-"
 :
 (
 isHorizontal
@@ -666,7 +660,6 @@ continue
 }
 graduationLength
 =
-(
 i
 %
 2
@@ -674,7 +667,6 @@ i
 =
 =
 0
-)
 ?
 6
 :
@@ -868,9 +860,7 @@ window
 attributes
 :
 {
-"
 class
-"
 :
 "
 highlighter
@@ -894,16 +884,12 @@ container
 attributes
 :
 {
-"
 id
-"
 :
 "
 root
 "
-"
 class
-"
 :
 "
 root
@@ -936,9 +922,7 @@ id
 "
 elements
 "
-"
 class
-"
 :
 "
 elements
@@ -991,9 +975,7 @@ container
 attributes
 :
 {
-"
 class
-"
 :
 "
 viewport
@@ -1001,10 +983,8 @@ viewport
 infobar
 -
 container
-"
 "
 id
-"
 :
 "
 viewport
@@ -1013,9 +993,7 @@ infobar
 -
 container
 "
-"
 position
-"
 :
 "
 top

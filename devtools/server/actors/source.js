@@ -2338,6 +2338,7 @@ columnNumber
 }
 }
 return
+(
 positions
 /
 /
@@ -2386,6 +2387,7 @@ column
 lineDiff
 ;
 }
+)
 )
 ;
 }
@@ -3059,9 +3061,7 @@ line
 .
 filter
 (
-(
 script
-)
 =
 >
 !
@@ -3309,9 +3309,7 @@ column
 .
 filter
 (
-(
 script
-)
 =
 >
 !

@@ -2055,9 +2055,7 @@ getCacheEntry
 this
 .
 request
-(
 descriptor
-)
 =
 >
 {

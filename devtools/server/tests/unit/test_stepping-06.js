@@ -307,9 +307,7 @@ getFrameFinished
 packet
 )
 {
-"
 return
-"
 :
 2
 }
@@ -390,9 +388,7 @@ getFrameFinished
 packet
 )
 {
-"
 return
-"
 :
 2
 }

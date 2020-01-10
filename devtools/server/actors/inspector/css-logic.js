@@ -399,16 +399,12 @@ const
 COMPAREMODE
 =
 {
-"
 BOOLEAN
-"
 :
 "
 bool
 "
-"
 INTEGER
-"
 :
 "
 int
@@ -1063,7 +1059,6 @@ sheets
 const
 needFullUpdate
 =
-(
 oldValue
 =
 =
@@ -1078,7 +1073,6 @@ value
 FILTER
 .
 UA
-)
 ;
 if
 (
@@ -2955,9 +2949,7 @@ properties
 .
 filter
 (
-(
 property
-)
 =
 >
 {
@@ -3620,6 +3612,7 @@ media
 mediaText
 ;
 return
+(
 !
 mediaText
 |
@@ -3636,6 +3629,7 @@ mediaText
 )
 .
 matches
+)
 ;
 }
 }
@@ -5092,7 +5086,6 @@ this
 .
 _sheetAllowed
 =
-(
 filter
 =
 =
@@ -5100,7 +5093,6 @@ filter
 this
 .
 href
-)
 ;
 }
 return
@@ -8192,7 +8184,6 @@ this
 .
 important
 =
-(
 priority
 =
 =
@@ -8200,7 +8191,6 @@ priority
 "
 important
 "
-)
 ;
 }
 CssSelectorInfo

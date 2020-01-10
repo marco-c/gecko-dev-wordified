@@ -384,6 +384,7 @@ jsm
 const
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -394,6 +395,7 @@ addTab
 (
 gBrowser
 url
+)
 )
 ;
 await

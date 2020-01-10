@@ -1157,9 +1157,7 @@ ids
 .
 forEach
 (
-(
 id
-)
 =
 >
 {
@@ -1185,9 +1183,7 @@ CONSOLE_WORKER_IDS
 .
 forEach
 (
-(
 id
-)
 =
 >
 {
@@ -1243,9 +1239,7 @@ messages
 .
 filter
 (
-(
 m
-)
 =
 >
 !

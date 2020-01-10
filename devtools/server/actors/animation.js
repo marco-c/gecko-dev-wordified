@@ -1075,6 +1075,7 @@ player
 )
 {
 return
+(
 player
 instanceof
 this
@@ -1102,6 +1103,7 @@ this
 window
 .
 CSSTransition
+)
 )
 ;
 }
@@ -5321,6 +5323,7 @@ animation
 )
 {
 return
+(
 animation
 .
 startTime
@@ -5339,6 +5342,7 @@ currentTime
 animation
 .
 playbackRate
+)
 ;
 }
 /

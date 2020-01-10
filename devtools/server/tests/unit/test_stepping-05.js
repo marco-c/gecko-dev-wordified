@@ -338,9 +338,7 @@ once
 "
 paused
 "
-(
 packet
-)
 =
 >
 {

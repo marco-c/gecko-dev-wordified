@@ -875,14 +875,12 @@ test
 ;
 ok
 (
-(
 mutations
 .
 size
 !
 =
 size
-)
 message
 )
 ;

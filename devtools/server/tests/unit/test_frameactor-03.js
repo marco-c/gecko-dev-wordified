@@ -227,14 +227,10 @@ Assert
 equal
 (
 typeof
-(
 poppedFrames
-)
 typeof
-(
 [
 ]
-)
 )
 ;
 Assert

@@ -95,9 +95,7 @@ prototype
 requestTypes
 =
 {
-"
 ping
-"
 :
 PreInitTargetScopedActor
 .

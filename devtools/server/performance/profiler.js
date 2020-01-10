@@ -639,6 +639,7 @@ options
 const
 config
 =
+(
 this
 .
 _profilerStartOptions
@@ -685,6 +686,7 @@ DEFAULT_PROFILER_OPTIONS
 .
 threadFilters
 }
+)
 ;
 /
 /

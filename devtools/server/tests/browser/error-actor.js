@@ -167,9 +167,7 @@ prototype
 requestTypes
 =
 {
-"
 error
-"
 :
 ErrorActor
 .

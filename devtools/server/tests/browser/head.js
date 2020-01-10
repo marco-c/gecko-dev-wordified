@@ -479,6 +479,7 @@ url
 const
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -489,6 +490,7 @@ addTab
 (
 gBrowser
 url
+)
 )
 ;
 await
@@ -558,6 +560,7 @@ url
 const
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -568,6 +571,7 @@ addTab
 (
 gBrowser
 url
+)
 )
 ;
 await
@@ -1128,18 +1132,14 @@ off
 {
 if
 (
-(
 add
 in
 target
-)
 &
 &
-(
 remove
 in
 target
-)
 )
 {
 target

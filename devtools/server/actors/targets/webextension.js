@@ -2008,6 +2008,7 @@ level
 frame
 .
 return
+(
 windowDetails
 .
 addonID
@@ -2028,6 +2029,7 @@ sameTypeRootAddonID
 this
 .
 addonId
+)
 ;
 }
 )
@@ -2605,6 +2607,7 @@ ownerGlobal
 ;
 }
 return
+(
 global
 .
 document
@@ -2621,6 +2624,7 @@ global
 document
 .
 ownerGlobal
+)
 )
 ;
 }

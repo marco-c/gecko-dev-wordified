@@ -427,7 +427,6 @@ const
 inner
 =
 (
-(
 x
 -
 cx
@@ -435,7 +434,6 @@ cx
 *
 *
 2
-)
 /
 (
 rx
@@ -447,7 +445,6 @@ clickWidthX
 2
 +
 (
-(
 y
 -
 cy
@@ -455,7 +452,6 @@ cy
 *
 *
 2
-)
 /
 (
 ry
@@ -470,7 +466,6 @@ const
 outer
 =
 (
-(
 x
 -
 cx
@@ -478,7 +473,6 @@ cx
 *
 *
 2
-)
 /
 (
 rx
@@ -490,7 +484,6 @@ clickWidthX
 2
 +
 (
-(
 y
 -
 cy
@@ -498,7 +491,6 @@ cy
 *
 *
 2
-)
 /
 (
 ry
@@ -1172,6 +1164,7 @@ radiusY
 >
 {
 return
+(
 x
 >
 =
@@ -1202,6 +1195,7 @@ y
 pointY
 +
 radiusY
+)
 ;
 }
 ;
@@ -1360,7 +1354,6 @@ value
 1
 ]
 ?
-(
 +
 value
 [
@@ -1368,7 +1361,6 @@ value
 ]
 -
 exp
-)
 :
 -
 exp
@@ -1413,7 +1405,6 @@ value
 1
 ]
 ?
-(
 +
 value
 [
@@ -1421,7 +1412,6 @@ value
 ]
 +
 exp
-)
 :
 exp
 )

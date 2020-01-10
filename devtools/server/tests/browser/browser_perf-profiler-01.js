@@ -183,11 +183,9 @@ rec
 ;
 ok
 (
-(
 await
 pmmIsProfilerActive
 (
-)
 )
 "
 The
@@ -226,11 +224,9 @@ rec
 ;
 ok
 (
-(
 await
 pmmIsProfilerActive
 (
-)
 )
 "
 The

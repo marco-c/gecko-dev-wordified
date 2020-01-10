@@ -979,6 +979,7 @@ bp
 >
 {
 return
+(
 bp
 .
 generatedSourceActor
@@ -999,6 +1000,7 @@ generatedLine
 =
 =
 10
+)
 ;
 }
 )

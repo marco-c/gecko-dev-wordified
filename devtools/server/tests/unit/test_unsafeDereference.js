@@ -387,6 +387,7 @@ mainObj
 const
 contentObj
 =
+(
 chromeBox
 .
 contentObj
@@ -394,10 +395,12 @@ contentObj
 contentBox
 .
 contentObj
+)
 ;
 const
 chromeObj
 =
+(
 contentBox
 .
 chromeObj
@@ -405,6 +408,7 @@ chromeObj
 chromeBox
 .
 chromeObj
+)
 ;
 /
 /

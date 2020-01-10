@@ -353,6 +353,7 @@ contents
 const
 canvas
 =
+(
 window
 .
 middlemanCanvas
@@ -366,6 +367,7 @@ createElement
 "
 canvas
 "
+)
 )
 ;
 canvas

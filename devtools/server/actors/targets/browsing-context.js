@@ -4066,9 +4066,7 @@ getList
 .
 then
 (
-(
 actors
-)
 =
 >
 {
@@ -6607,7 +6605,6 @@ paintFlashing
 }
 if
 (
-(
 typeof
 options
 .
@@ -6618,10 +6615,8 @@ serviceWorkersTestingEnabled
 "
 undefined
 "
-)
 &
 &
-(
 options
 .
 serviceWorkersTestingEnabled
@@ -6632,7 +6627,6 @@ this
 .
 _getServiceWorkersTestingEnabled
 (
-)
 )
 )
 {

@@ -1596,6 +1596,7 @@ let
 scale
 =
 (
+(
 isBoldText
 ?
 BOLD_LARGE_TEXT_MIN_PIXELS
@@ -1604,6 +1605,7 @@ LARGE_TEXT_MIN_PIXELS
 )
 /
 size
+)
 *
 zoom
 ;

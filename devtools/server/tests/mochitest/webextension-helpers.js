@@ -296,9 +296,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -423,9 +421,7 @@ collected
 const
 listener
 =
-(
 data
-)
 =
 >
 {

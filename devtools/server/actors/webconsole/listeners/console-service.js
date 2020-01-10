@@ -784,9 +784,7 @@ errors
 .
 filter
 (
-(
 error
-)
 =
 >
 {
@@ -839,9 +837,7 @@ errors
 .
 filter
 (
-(
 error
-)
 =
 >
 {

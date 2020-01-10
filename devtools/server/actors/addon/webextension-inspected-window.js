@@ -1973,9 +1973,7 @@ dbgWindow
 .
 makeDebuggeeValue
 (
-(
 object
-)
 =
 >
 {
@@ -3622,7 +3620,6 @@ unsafeDereference
 throwErr
 &
 &
-(
 typeof
 throwErr
 =
@@ -3631,7 +3628,6 @@ throwErr
 "
 object
 "
-)
 &
 &
 throwErr

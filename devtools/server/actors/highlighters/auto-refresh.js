@@ -230,12 +230,11 @@ x
 )
 >
 =
+0
 .
 5
-)
 |
 |
-(
 Math
 .
 abs
@@ -250,12 +249,11 @@ y
 )
 >
 =
+0
 .
 5
-)
 |
 |
-(
 Math
 .
 abs
@@ -270,6 +268,7 @@ w
 )
 >
 =
+0
 .
 5
 )
@@ -1428,7 +1427,6 @@ win
 const
 haveChanged
 =
-(
 this
 .
 _winDimensions
@@ -1449,7 +1447,6 @@ height
 =
 =
 height
-)
 ;
 this
 .

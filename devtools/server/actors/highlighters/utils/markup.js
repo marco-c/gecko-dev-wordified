@@ -156,9 +156,7 @@ exports
 .
 getComputedStyle
 =
-(
 node
-)
 =
 >
 lazyContainer
@@ -174,9 +172,7 @@ exports
 .
 getBindingElementAndPseudo
 =
-(
 node
-)
 =
 >
 lazyContainer
@@ -2363,6 +2359,7 @@ property
 )
 {
 return
+(
 this
 .
 content
@@ -2376,6 +2373,7 @@ getComputedStylePropertyValue
 (
 id
 property
+)
 )
 ;
 }

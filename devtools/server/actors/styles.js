@@ -3867,6 +3867,7 @@ considered
 editable
 .
 return
+(
 props
 .
 has
@@ -3904,6 +3905,7 @@ has
 "
 bottom
 "
+)
 )
 ;
 }
@@ -7387,6 +7389,7 @@ canSetRuleText
 )
 {
 return
+(
 this
 .
 type
@@ -7515,6 +7518,7 @@ about
 :
 PreferenceStyleSheet
 "
+)
 )
 ;
 }
@@ -8200,7 +8204,6 @@ data
 .
 selector
 =
-(
 this
 .
 type
@@ -8210,7 +8213,6 @@ type
 CSSRule
 .
 KEYFRAME_RULE
-)
 ?
 this
 .
@@ -8409,7 +8411,6 @@ parentStyleSheet
 ;
 }
 throw
-(
 new
 Error
 (
@@ -8425,7 +8426,6 @@ an
 invalid
 stylesheet
 "
-)
 )
 ;
 }
@@ -9065,7 +9065,6 @@ use
 const
 cssText
 =
-(
 typeof
 form
 .
@@ -9076,7 +9075,6 @@ authoredText
 "
 string
 "
-)
 ?
 form
 .
@@ -10151,9 +10149,7 @@ getText
 .
 then
 (
-(
 longStr
-)
 =
 >
 {
@@ -11864,12 +11860,10 @@ flag
 .
 prevValue
 =
-(
 prevValue
 &
 &
 prevPriority
-)
 ?
 {
 prevValue
@@ -12715,9 +12709,7 @@ selectorPromise
 .
 then
 (
-(
 newCssRule
-)
 =
 >
 {
@@ -12788,9 +12780,7 @@ selectorPromise
 .
 then
 (
-(
 newCssRule
-)
 =
 >
 {
@@ -12874,9 +12864,7 @@ entries
 .
 some
 (
-(
 ruleProp
-)
 =
 >
 ruleProp

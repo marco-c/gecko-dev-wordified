@@ -391,9 +391,7 @@ otherwise
 const
 isTypeRegistered
 =
-(
 typeName
-)
 =
 >
 highlighterTypes
@@ -1604,6 +1602,7 @@ this
 _highlighterEnv
 ;
 return
+(
 window
 instanceof
 Ci
@@ -1615,6 +1614,7 @@ isWindowIncluded
 (
 window
 view
+)
 )
 ;
 }
@@ -2575,7 +2575,6 @@ findEventTarget
 event
 )
 :
-(
 event
 .
 originalTarget
@@ -2584,7 +2583,6 @@ originalTarget
 event
 .
 target
-)
 ;
 return
 this
@@ -4534,6 +4532,7 @@ webProgress
 )
 {
 return
+(
 this
 .
 docShell
@@ -4555,6 +4554,7 @@ getInterface
 Ci
 .
 nsIWebProgress
+)
 )
 ;
 }

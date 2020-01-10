@@ -757,13 +757,11 @@ this
 .
 _lastColumn
 =
-(
 lastColumn
 !
 =
 =
 undefined
-)
 ?
 lastColumn
 :
@@ -855,6 +853,7 @@ other
 )
 {
 return
+(
 this
 .
 sourceActor
@@ -908,6 +907,7 @@ column
 other
 .
 column
+)
 )
 ;
 }

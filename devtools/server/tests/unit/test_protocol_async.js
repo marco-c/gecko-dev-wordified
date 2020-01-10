@@ -345,13 +345,11 @@ check
 {
 if
 (
-(
 this
 .
 sequence
 -
 sequence
-)
 <
 toWait
 )

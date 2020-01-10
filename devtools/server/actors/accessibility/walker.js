@@ -1234,9 +1234,11 @@ Math
 .
 round
 (
+(
 completed
 /
 size
+)
 *
 100
 )
@@ -3275,13 +3277,11 @@ rawAccessible
 ;
 if
 (
-(
 rawAccessible
 instanceof
 Ci
 .
 nsIAccessibleDocument
-)
 &
 &
 !
@@ -4581,6 +4581,7 @@ view
 )
 {
 return
+(
 this
 .
 rootWin
@@ -4596,6 +4597,7 @@ this
 .
 rootWin
 view
+)
 )
 ;
 }

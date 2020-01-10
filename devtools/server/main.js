@@ -2594,9 +2594,7 @@ listener
 }
 onMessage
 :
-(
 message
-)
 =
 >
 {
@@ -2687,9 +2685,7 @@ const
 method
 =
 {
-"
 fetch
-"
 :
 DevToolsUtils
 .
@@ -2738,9 +2734,7 @@ params
 .
 then
 (
-(
 value
-)
 =
 >
 {
@@ -2774,9 +2768,7 @@ id
 )
 ;
 }
-(
 reason
-)
 =
 >
 {
@@ -2919,9 +2911,7 @@ closed
 }
 onMessage
 :
-(
 message
-)
 =
 >
 {
@@ -3226,9 +3216,7 @@ id
 }
 onPacket
 :
-(
 packet
-)
 =
 >
 {
@@ -3381,6 +3369,7 @@ isInChildProcess
 )
 {
 return
+(
 Services
 .
 appinfo
@@ -3393,6 +3382,7 @@ Ci
 nsIXULRuntime
 .
 PROCESS_TYPE_DEFAULT
+)
 ;
 }
 /
@@ -3555,9 +3545,7 @@ evaluated
 if
 (
 typeof
-(
 waitForEval
-)
 !
 =
 "
@@ -7523,9 +7511,7 @@ null
 if
 (
 typeof
-(
 actor
-)
 !
 =
 =
@@ -7856,9 +7842,7 @@ response
 .
 catch
 (
-(
 error
-)
 =
 >
 {

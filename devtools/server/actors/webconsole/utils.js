@@ -174,6 +174,7 @@ true
 const
 CONSOLE_WORKER_IDS
 =
+(
 exports
 .
 CONSOLE_WORKER_IDS
@@ -189,6 +190,7 @@ ServiceWorker
 Worker
 "
 ]
+)
 ;
 var
 WebConsoleUtils
@@ -1317,6 +1319,7 @@ idx
 ]
 ;
 return
+(
 filename
 =
 =
@@ -1335,6 +1338,7 @@ filename
 =
 =
 debuggerEvalFilename
+)
 )
 ;
 }

@@ -829,9 +829,7 @@ Protection
 "
 :
 TRACKING_PROTECTION_LEARN_MORE
-"
 MIMEMISMATCH
-"
 :
 MIME_TYPE_MISMATCH_LEARN_MORE
 "
@@ -840,9 +838,7 @@ map
 "
 :
 SOURCE_MAP_LEARN_MORE
-"
 TLS
-"
 :
 TLS_LEARN_MORE
 }
@@ -1056,9 +1052,7 @@ exports
 .
 GetURL
 =
-(
 error
-)
 =
 >
 {
