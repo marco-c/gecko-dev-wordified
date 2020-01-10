@@ -2239,7 +2239,7 @@ listAddons
 )
 ;
 const
-addonTargetFront
+webextensionFront
 =
 addons
 .
@@ -2258,7 +2258,7 @@ id
 )
 ;
 return
-addonTargetFront
+webextensionFront
 ;
 }
 /

@@ -314,7 +314,7 @@ RetVal
 "
 array
 :
-addonTarget
+webExtension
 "
 )
 }
