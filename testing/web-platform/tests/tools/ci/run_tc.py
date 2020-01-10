@@ -1589,7 +1589,20 @@ that
 unconditionally
 run
 on
-master
+pushes
+    
+#
+assuming
+a
+higher
+layer
+is
+filtering
+the
+required
+list
+of
+branches
     
 if
 (
@@ -1605,21 +1618,6 @@ GITHUB_PULL_REQUEST
 =
 "
 false
-"
-and
-        
-os
-.
-environ
-[
-"
-GITHUB_BRANCH
-"
-]
-=
-=
-"
-master
 "
 and
         
