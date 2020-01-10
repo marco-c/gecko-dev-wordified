@@ -420,7 +420,7 @@ assert
 returncode
 =
 =
-78
+0
 def
 assert_fail
 (
