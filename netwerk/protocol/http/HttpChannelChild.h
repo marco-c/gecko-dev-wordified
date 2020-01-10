@@ -3058,6 +3058,16 @@ DeleteSelf
 (
 )
 ;
+void
+DoNotifyListener
+(
+)
+;
+void
+ContinueDoNotifyListener
+(
+)
+;
 /
 /
 Create
@@ -3253,6 +3263,10 @@ NeckoTargetChannelEvent
 <
 HttpChannelChild
 >
+;
+friend
+class
+ContinueDoNotifyListenerEvent
 ;
 }
 ;
