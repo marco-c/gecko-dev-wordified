@@ -4235,7 +4235,7 @@ unsigned
 char
 phrase
 [
-500
+200
 ]
 ;
 PRFileDesc

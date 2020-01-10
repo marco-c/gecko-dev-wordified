@@ -600,7 +600,7 @@ blocksize
 ;
 #
 define
-native_aes_ecb_worker
+intel_aes_ecb_worker
 (
 encrypt
 keysize
@@ -663,7 +663,7 @@ intel_aes_decrypt_ecb_256
 )
 #
 define
-native_aes_cbc_worker
+intel_aes_cbc_worker
 (
 encrypt
 keysize
@@ -756,7 +756,7 @@ intel_aes_encrypt_ctr_256
 )
 #
 define
-native_aes_init
+intel_aes_init
 (
 encrypt
 keysize
