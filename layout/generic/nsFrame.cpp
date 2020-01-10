@@ -73643,7 +73643,7 @@ ClearSize
 create
 a
 reflow
-state
+input
 to
 tell
 our
@@ -73662,7 +73662,7 @@ a
 bogus
 parent
 reflow
-state
+input
 so
 that
 there
@@ -73675,7 +73675,7 @@ usable
 containing
 block
 reflow
-state
+input
 .
 nsMargin
 margin
@@ -74015,7 +74015,7 @@ a
 real
 parent
 reflow
-state
+input
 .
 /
 /
@@ -74066,7 +74066,7 @@ OK
 that
 this
 reflow
-state
+input
 has
 only
 one
@@ -84015,7 +84015,7 @@ of
 the
 parent
 reflow
-state
+input
 (
 usually
 just

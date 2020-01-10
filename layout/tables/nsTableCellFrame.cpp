@@ -858,7 +858,7 @@ Maybe
 the
 cell
 reflow
-state
+input
 ;
 we
 sure
@@ -5746,7 +5746,7 @@ propagate
 special
 bsize
 reflow
-state
+input
 to
 our
 kids

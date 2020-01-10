@@ -986,7 +986,7 @@ frames
 no
 block
 reflow
-state
+input
 is
 /
 /
@@ -1036,7 +1036,7 @@ is
 no
 block
 reflow
-state
+input
 "
 "
 available

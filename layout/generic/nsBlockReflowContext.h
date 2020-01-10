@@ -347,7 +347,7 @@ a
 block
 whose
 reflow
-state
+input
 is
 in
 aRI

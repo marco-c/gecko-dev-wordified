@@ -6670,7 +6670,7 @@ auto
 '
 the
 reflow
-state
+input
 /
 /
 code
@@ -6930,7 +6930,7 @@ First
 find
 the
 reflow
-state
+input
 for
 the
 outermost
@@ -7179,7 +7179,7 @@ We
 found
 a
 reflow
-state
+input
 for
 the
 outermost
@@ -8107,7 +8107,7 @@ in
 the
 block
 reflow
-state
+input
 so
 that
 we
@@ -24838,7 +24838,7 @@ fudge
 any
 incremental
 reflow
-state
+input
 .
 /
 /
@@ -26026,7 +26026,7 @@ construct
 the
 html
 reflow
-state
+input
 for
 the
 block

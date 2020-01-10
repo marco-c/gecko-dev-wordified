@@ -1933,7 +1933,7 @@ wrong
 construct
 a
 reflow
-state
+input
 to
 compute
 margin
@@ -1960,7 +1960,7 @@ init
 the
 child
 reflow
-state
+input
 /
 /
 XXX
@@ -1972,7 +1972,7 @@ t
 construct
 a
 reflow
-state
+input
 to
 do
 this
@@ -5087,7 +5087,7 @@ init
 the
 child
 reflow
-state
+input
 using
 passed
 -

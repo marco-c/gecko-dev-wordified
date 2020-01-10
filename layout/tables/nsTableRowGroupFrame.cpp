@@ -245,7 +245,7 @@ reflowInput
 /
 Our
 reflow
-state
+input
 nsTableFrame
 *
 tableFrame
@@ -1737,7 +1737,7 @@ and
 update
 our
 reflow
-state
+input
 .
 void
 nsTableRowGroupFrame

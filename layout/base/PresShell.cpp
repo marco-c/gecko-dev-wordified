@@ -59361,7 +59361,7 @@ directly
 to
 the
 reflow
-state
+input
 since
 a
 /
@@ -59560,7 +59560,7 @@ else
 /
 Initialize
 reflow
-state
+input
 with
 current
 used
@@ -59648,7 +59648,7 @@ nsMargin
 )
 "
 reflow
-state
+input
 should
 not
 set
@@ -59740,7 +59740,7 @@ wm
 )
 "
 reflow
-state
+input
 computed
 incorrect
 inline

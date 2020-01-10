@@ -10413,7 +10413,7 @@ aAxisTracker
 Create
 temporary
 reflow
-state
+input
 just
 for
 sizing
@@ -10445,7 +10445,7 @@ property
 (
 This
 reflow
-state
+input
 will
 _not_
 be
@@ -10796,7 +10796,7 @@ size
 from
 the
 reflow
-state
+input
 .
 This
 might
@@ -13517,7 +13517,7 @@ item
 '
 s
 reflow
-state
+input
 should
 have
 ptr
@@ -14027,7 +14027,7 @@ the
 "
 "
 reflow
-state
+input
 for
 horizontal
 flexbox
@@ -15423,7 +15423,7 @@ Set
 up
 a
 reflow
-state
+input
 for
 measuring
 the
@@ -27703,7 +27703,7 @@ to
 override
 the
 reflow
-state
+input
 '
 s
 computed
@@ -31568,7 +31568,7 @@ the
 /
 /
 reflow
-state
+input
 (
 specifically
 the
@@ -31975,7 +31975,7 @@ taken
 from
 the
 reflow
-state
+input
 (
 "
 tentative
@@ -32084,7 +32084,7 @@ from
 the
 *
 reflow
-state
+input
 .
 )
 *
@@ -32243,7 +32243,7 @@ Note
 that
 the
 reflow
-state
+input
 has
 already
 done
@@ -32753,7 +32753,7 @@ Note
 that
 the
 reflow
-state
+input
 has
 already
 done
@@ -33395,7 +33395,7 @@ use
 ISize
 from
 reflow
-state
+input
 /
 /
 and
@@ -35141,7 +35141,7 @@ via
 modifying
 its
 reflow
-state
+input
 directly
 /
 /
@@ -37912,7 +37912,7 @@ size
 in
 the
 reflow
-state
+input
 .
 (
 For
@@ -37939,7 +37939,7 @@ after
 *
 the
 reflow
-state
+input
 has
 /
 /
@@ -38045,7 +38045,7 @@ size
 by
 tweaking
 reflow
-state
+input
 :
 if
 (
@@ -41339,7 +41339,7 @@ true
 /
 Override
 reflow
-state
+input
 '
 s
 computed
@@ -41404,7 +41404,7 @@ currently
 in
 the
 reflow
-state
+input
 is
 based
 on

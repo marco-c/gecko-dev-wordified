@@ -1147,7 +1147,7 @@ construct
 an
 extra
 reflow
-state
+input
 here
 if
 /
@@ -1183,7 +1183,7 @@ support
 one
 extra
 reflow
-state
+input
 .
 const
 ReflowInput

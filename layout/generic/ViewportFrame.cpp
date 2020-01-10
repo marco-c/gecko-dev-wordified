@@ -2485,7 +2485,7 @@ copy
 of
 the
 reflow
-state
+input
 and
 change
 the

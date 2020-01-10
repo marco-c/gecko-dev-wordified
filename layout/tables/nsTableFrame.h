@@ -4232,7 +4232,7 @@ padding
 given
 its
 reflow
-state
+input
 .
 nscoord
 CalcBorderBoxBSize
@@ -4264,7 +4264,7 @@ the
 /
 current
 reflow
-state
+input
 the
 table
 attributes

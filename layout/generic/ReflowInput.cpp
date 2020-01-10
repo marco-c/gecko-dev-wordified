@@ -402,7 +402,7 @@ root
 b
 >
 reflow
-state
+input
 with
 a
 rendering
@@ -1243,7 +1243,7 @@ flags
 Initialize
 a
 reflow
-state
+input
 for
 a
 child
@@ -1262,7 +1262,7 @@ from
 the
 parent
 reflow
-state
+input
 ;
 the
 remaining
@@ -1474,7 +1474,7 @@ and
 the
 parent
 reflow
-state
+input
 /
 /
 had
@@ -2136,7 +2136,7 @@ BoxReflow
 creates
 a
 reflow
-state
+input
 for
 its
 parent
@@ -2167,7 +2167,7 @@ frame
 s
 own
 reflow
-state
+input
 .
 So
 given
@@ -2344,7 +2344,7 @@ BoxReflow
 creates
 a
 reflow
-state
+input
 for
 its
 parent
@@ -2375,7 +2375,7 @@ frame
 s
 own
 reflow
-state
+input
 .
 So
 given
@@ -3833,7 +3833,7 @@ the
 *
 given
 reflow
-state
+input
 using
 its
 block
@@ -4501,7 +4501,7 @@ where
 /
 /
 reflow
-state
+input
 construction
 is
 probably
@@ -4513,7 +4513,7 @@ a
 dummy
 parent
 reflow
-state
+input
 anyway
 )
 .
@@ -18075,7 +18075,7 @@ the
 containing
 block
 reflow
-state
+input
 const
 ReflowInput
 *
@@ -18514,7 +18514,7 @@ the
 containing
 block
 reflow
-state
+input
 NS_ASSERTION
 (
 nullptr
@@ -21467,7 +21467,7 @@ direction
 of
 this
 reflow
-state
+input
 .
 So
 in

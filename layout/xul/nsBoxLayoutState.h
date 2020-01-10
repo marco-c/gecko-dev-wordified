@@ -412,7 +412,7 @@ mState
 The
 HTML
 reflow
-state
+input
 that
 lives
 outside

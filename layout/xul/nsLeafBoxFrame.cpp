@@ -700,7 +700,7 @@ Reflow
 uses
 the
 reflow
-state
+input
 '
 s
 border
@@ -834,7 +834,7 @@ Reflow
 uses
 the
 reflow
-state
+input
 '
 s
 border
@@ -1588,7 +1588,7 @@ bottom
 /
 handle
 reflow
-state
+input
 min
 and
 max

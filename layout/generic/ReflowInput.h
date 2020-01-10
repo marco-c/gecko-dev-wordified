@@ -333,7 +333,7 @@ part
 of
 the
 reflow
-state
+input
 .
 *
 /
@@ -1404,7 +1404,7 @@ a
 fake
 "
 reflow
-state
+input
 made
 in
 order
@@ -2263,7 +2263,7 @@ SizeComputationInput
 /
 the
 reflow
-states
+inputs
 are
 linked
 together
@@ -2280,7 +2280,7 @@ parent
 '
 s
 reflow
-state
+input
 const
 ReflowInput
 *
@@ -2343,7 +2343,7 @@ mLineLayout
 The
 appropriate
 reflow
-state
+input
 for
 the
 containing
@@ -2360,7 +2360,7 @@ etc
 of
 this
 reflow
-state
+input
 '
 s
 frame
@@ -4502,7 +4502,7 @@ nested
 a
 given
 reflow
-state
+input
 /
 /
 is
@@ -4792,7 +4792,7 @@ Initialize
 a
 ROOT
 reflow
-state
+input
 .
 *
 *
@@ -4817,7 +4817,7 @@ frame
 for
 whose
 reflow
-state
+input
 is
 being
 constructed
@@ -4897,7 +4897,7 @@ aFlags
 Initialize
 a
 reflow
-state
+input
 for
 a
 child
@@ -4920,7 +4920,7 @@ parent
 '
 s
 reflow
-state
+input
 .
 The
 remainder
@@ -4970,7 +4970,7 @@ frame
 for
 whose
 reflow
-state
+input
 is
 being
 constructed
@@ -5091,7 +5091,7 @@ parent
 of
 this
 reflow
-state
+input
 is
 "
 fake
@@ -5124,7 +5124,7 @@ will
 initialize
 the
 reflow
-state
+input
 and
 /
 /
@@ -5429,7 +5429,7 @@ same
 as
 the
 reflow
-state
+input
 '
 s
 mode
@@ -5493,7 +5493,7 @@ t
 need
 a
 reflow
-state
+input
 .
 *
 *

@@ -5447,7 +5447,7 @@ a
 fake
 HTML
 reflow
-state
+input
 for
 /
 /
@@ -5520,7 +5520,7 @@ a
 bogus
 parent
 reflow
-state
+input
 so
 that
 there
@@ -5533,7 +5533,7 @@ usable
 containing
 block
 reflow
-state
+input
 .
 nsIFrame
 *

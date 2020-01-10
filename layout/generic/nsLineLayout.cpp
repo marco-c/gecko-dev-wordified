@@ -5926,7 +5926,7 @@ mICoord
 /
 Setup
 reflow
-state
+input
 for
 reflowing
 the
@@ -8595,7 +8595,7 @@ widths
 in
 the
 reflow
-state
+input
 )
 adjust
 available

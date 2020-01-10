@@ -683,7 +683,7 @@ TableReflowInput
 the
 real
 reflow
-state
+input
 const
 ReflowInput
 &
@@ -13561,7 +13561,7 @@ cell
 is
 the
 reflow
-state
+input
 '
 s
 mPercentBSizeObserver
@@ -15206,7 +15206,7 @@ flag
 on
 any
 reflow
-states
+inputs
 ?
 ReflowInput
 &
@@ -15933,7 +15933,7 @@ Construct
 a
 dummy
 reflow
-state
+input
 and
 reflow
 status
@@ -15950,7 +15950,7 @@ that
 the
 dummy
 reflow
-state
+input
 doesn
 '
 t
@@ -15963,7 +15963,7 @@ chain
 of
 parent
 reflow
-states
+inputs
 .
 It
 also
@@ -20713,7 +20713,7 @@ _do_
 have
 a
 reflow
-state
+input
 and
 then
 we
@@ -20974,7 +20974,7 @@ and
 update
 our
 reflow
-state
+input
 .
 The
 origin
@@ -24649,7 +24649,7 @@ about
 dimensions
 or
 reflow
-states
+inputs
 .
 ReflowInput
 kidReflowInput

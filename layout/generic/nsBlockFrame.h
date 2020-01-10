@@ -4710,7 +4710,7 @@ aState
 the
 current
 reflow
-state
+input
 *
 param
 aLine
@@ -5380,7 +5380,7 @@ aState
 the
 block
 reflow
-state
+input
 *
 param
 aLine

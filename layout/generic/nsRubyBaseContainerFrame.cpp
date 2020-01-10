@@ -2322,7 +2322,7 @@ We
 have
 a
 reflow
-state
+input
 and
 a
 line
@@ -2366,7 +2366,7 @@ of
 /
 the
 reflow
-states
+inputs
 and
 line
 layouts
@@ -2380,7 +2380,7 @@ pointers
 refer
 to
 reflow
-states
+inputs
 and
 line
 layouts

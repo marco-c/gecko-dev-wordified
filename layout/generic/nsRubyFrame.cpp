@@ -2570,7 +2570,7 @@ is
 initialized
 with
 reflow
-state
+input
 of
 this
 ruby
