@@ -1921,11 +1921,10 @@ settings
 if
 defined
 (
-MOZ_NEW_CERT_STORAGE
+RELEASE_OR_BETA
 )
-&
-&
-!
+|
+|
 defined
 (
 MOZ_WIDGET_ANDROID
@@ -1941,7 +1940,7 @@ intermediates
 .
 enabled
 "
-true
+false
 )
 ;
 #
@@ -1957,7 +1956,7 @@ intermediates
 .
 enabled
 "
-false
+true
 )
 ;
 #
