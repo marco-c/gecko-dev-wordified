@@ -487,10 +487,6 @@ h
 "
 #
 endif
-using
-namespace
-std
-;
 namespace
 mozilla
 {
@@ -505,6 +501,9 @@ CompositorBridgeParent
 .
 cpp
 typedef
+std
+:
+:
 map
 <
 LayersId
