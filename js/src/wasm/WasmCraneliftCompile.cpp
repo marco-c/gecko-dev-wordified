@@ -2687,7 +2687,7 @@ kind
 TableKind
 :
 :
-FuncRef
+AnyFunction
 |
 |
 table
@@ -2699,7 +2699,7 @@ kind
 TableKind
 :
 :
-AsmJS
+TypedFunction
 "
 cranelift
 doesn

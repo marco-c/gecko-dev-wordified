@@ -491,34 +491,6 @@ MIRType
 :
 :
 None
-#
-define
-_Infallible
-FailureMode
-:
-:
-Infallible
-#
-define
-_FailOnNegI32
-FailureMode
-:
-:
-FailOnNegI32
-#
-define
-_FailOnNullPtr
-FailureMode
-:
-:
-FailOnNullPtr
-#
-define
-_FailOnInvalidRef
-FailureMode
-:
-:
-FailOnInvalidRef
 namespace
 js
 {
@@ -535,7 +507,6 @@ SymbolicAddress
 :
 SinD
 _F64
-_Infallible
 1
 {
 _F64
@@ -553,7 +524,6 @@ SymbolicAddress
 :
 CosD
 _F64
-_Infallible
 1
 {
 _F64
@@ -571,7 +541,6 @@ SymbolicAddress
 :
 TanD
 _F64
-_Infallible
 1
 {
 _F64
@@ -589,7 +558,6 @@ SymbolicAddress
 :
 ASinD
 _F64
-_Infallible
 1
 {
 _F64
@@ -607,7 +575,6 @@ SymbolicAddress
 :
 ACosD
 _F64
-_Infallible
 1
 {
 _F64
@@ -625,7 +592,6 @@ SymbolicAddress
 :
 ATanD
 _F64
-_Infallible
 1
 {
 _F64
@@ -643,7 +609,6 @@ SymbolicAddress
 :
 CeilD
 _F64
-_Infallible
 1
 {
 _F64
@@ -661,7 +626,6 @@ SymbolicAddress
 :
 CeilF
 _F32
-_Infallible
 1
 {
 _F32
@@ -679,7 +643,6 @@ SymbolicAddress
 :
 FloorD
 _F64
-_Infallible
 1
 {
 _F64
@@ -697,7 +660,6 @@ SymbolicAddress
 :
 FloorF
 _F32
-_Infallible
 1
 {
 _F32
@@ -715,7 +677,6 @@ SymbolicAddress
 :
 TruncD
 _F64
-_Infallible
 1
 {
 _F64
@@ -733,7 +694,6 @@ SymbolicAddress
 :
 TruncF
 _F32
-_Infallible
 1
 {
 _F32
@@ -751,7 +711,6 @@ SymbolicAddress
 :
 NearbyIntD
 _F64
-_Infallible
 1
 {
 _F64
@@ -769,7 +728,6 @@ SymbolicAddress
 :
 NearbyIntF
 _F32
-_Infallible
 1
 {
 _F32
@@ -787,7 +745,6 @@ SymbolicAddress
 :
 ExpD
 _F64
-_Infallible
 1
 {
 _F64
@@ -805,7 +762,6 @@ SymbolicAddress
 :
 LogD
 _F64
-_Infallible
 1
 {
 _F64
@@ -823,7 +779,6 @@ SymbolicAddress
 :
 PowD
 _F64
-_Infallible
 2
 {
 _F64
@@ -842,7 +797,6 @@ SymbolicAddress
 :
 ATan2D
 _F64
-_Infallible
 2
 {
 _F64
@@ -861,7 +815,6 @@ SymbolicAddress
 :
 MemoryGrow
 _I32
-_Infallible
 2
 {
 _PTR
@@ -880,7 +833,6 @@ SymbolicAddress
 :
 MemorySize
 _I32
-_Infallible
 1
 {
 _PTR
@@ -898,7 +850,6 @@ SymbolicAddress
 :
 WaitI32
 _I32
-_FailOnNegI32
 4
 {
 _PTR
@@ -919,7 +870,6 @@ SymbolicAddress
 :
 WaitI64
 _I32
-_FailOnNegI32
 4
 {
 _PTR
@@ -940,7 +890,6 @@ SymbolicAddress
 :
 Wake
 _I32
-_FailOnNegI32
 3
 {
 _PTR
@@ -959,8 +908,7 @@ SymbolicAddress
 :
 :
 MemCopy
-_VOID
-_FailOnNegI32
+_I32
 4
 {
 _PTR
@@ -980,8 +928,7 @@ SymbolicAddress
 :
 :
 DataDrop
-_VOID
-_FailOnNegI32
+_I32
 2
 {
 _PTR
@@ -999,8 +946,7 @@ SymbolicAddress
 :
 :
 MemFill
-_VOID
-_FailOnNegI32
+_I32
 4
 {
 _PTR
@@ -1020,8 +966,7 @@ SymbolicAddress
 :
 :
 MemInit
-_VOID
-_FailOnNegI32
+_I32
 5
 {
 _PTR
@@ -1042,8 +987,7 @@ SymbolicAddress
 :
 :
 TableCopy
-_VOID
-_FailOnNegI32
+_I32
 6
 {
 _PTR
@@ -1065,8 +1009,7 @@ SymbolicAddress
 :
 :
 ElemDrop
-_VOID
-_FailOnNegI32
+_I32
 2
 {
 _PTR
@@ -1084,8 +1027,7 @@ SymbolicAddress
 :
 :
 TableFill
-_VOID
-_FailOnNegI32
+_I32
 5
 {
 _PTR
@@ -1106,8 +1048,7 @@ SymbolicAddress
 :
 :
 TableGet
-_RoN
-_FailOnInvalidRef
+_PTR
 3
 {
 _PTR
@@ -1127,7 +1068,6 @@ SymbolicAddress
 :
 TableGrow
 _I32
-_Infallible
 4
 {
 _PTR
@@ -1147,8 +1087,7 @@ SymbolicAddress
 :
 :
 TableInit
-_VOID
-_FailOnNegI32
+_I32
 6
 {
 _PTR
@@ -1170,8 +1109,7 @@ SymbolicAddress
 :
 :
 TableSet
-_VOID
-_FailOnNegI32
+_I32
 4
 {
 _PTR
@@ -1192,7 +1130,6 @@ SymbolicAddress
 :
 TableSize
 _I32
-_Infallible
 2
 {
 _PTR
@@ -1211,7 +1148,6 @@ SymbolicAddress
 :
 PostBarrier
 _VOID
-_Infallible
 2
 {
 _PTR
@@ -1230,7 +1166,6 @@ SymbolicAddress
 :
 PostBarrierFiltering
 _VOID
-_Infallible
 2
 {
 _PTR
@@ -1249,7 +1184,6 @@ SymbolicAddress
 :
 StructNew
 _RoN
-_FailOnNullPtr
 2
 {
 _PTR
@@ -1268,7 +1202,6 @@ SymbolicAddress
 :
 StructNarrow
 _RoN
-_Infallible
 4
 {
 _PTR
@@ -1313,15 +1246,6 @@ _VOID
 #
 undef
 _END
-#
-undef
-_Infallible
-#
-undef
-_FailOnNegI32
-#
-undef
-_FailOnNullPtr
 /
 /
 =
@@ -4751,28 +4675,6 @@ case
 SymbolicAddress
 :
 :
-CallImport_FuncRef
-:
-*
-abiType
-=
-Args_General4
-;
-return
-FuncCast
-(
-Instance
-:
-:
-callImport_funcref
-*
-abiType
-)
-;
-case
-SymbolicAddress
-:
-:
 CallImport_AnyRef
 :
 *
@@ -6345,12 +6247,6 @@ SymbolicAddress
 :
 :
 CallImport_F64
-:
-case
-SymbolicAddress
-:
-:
-CallImport_FuncRef
 :
 case
 SymbolicAddress
