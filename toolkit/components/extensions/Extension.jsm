@@ -1242,6 +1242,9 @@ Set
 "
 mozillaAddons
 "
+"
+geckoViewAddons
+"
 ]
 )
 ;
