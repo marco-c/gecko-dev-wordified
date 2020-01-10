@@ -83,7 +83,7 @@ client
 }
 =
 await
-setupTestForUri
+setupForURL
 (
 TEST_DOC
 )

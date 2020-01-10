@@ -53,7 +53,7 @@ client
 }
 =
 await
-setupTestForUri
+setupForURL
 (
 toDataURL
 (
