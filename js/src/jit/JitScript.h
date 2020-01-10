@@ -1830,12 +1830,16 @@ TemporaryTypeSet
 pBytecodeTypes
 )
 ;
+static
 void
-destroy
+Destroy
 (
 Zone
 *
 zone
+JitScript
+*
+script
 )
 ;
 static
