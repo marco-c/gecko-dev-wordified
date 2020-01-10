@@ -8608,6 +8608,14 @@ aURL
 var
 uri
 =
+aURL
+instanceof
+Ci
+.
+nsIURI
+?
+aURL
+:
 makeURI
 (
 aURL
