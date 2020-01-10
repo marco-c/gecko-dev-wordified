@@ -270,14 +270,6 @@ BinaryASTSupport
 :
 CharSlice
 ;
-using
-Context
-=
-BinASTTokenReaderBase
-:
-:
-Context
-;
 /
 /
 This
@@ -542,9 +534,6 @@ bool
 >
 readBool
 (
-const
-Context
-&
 )
 ;
 /
@@ -569,9 +558,6 @@ double
 >
 readDouble
 (
-const
-Context
-&
 )
 ;
 /
@@ -612,9 +598,6 @@ JSAtom
 >
 readMaybeAtom
 (
-const
-Context
-&
 )
 ;
 MOZ_MUST_USE
@@ -628,9 +611,6 @@ JSAtom
 >
 readAtom
 (
-const
-Context
-&
 )
 ;
 /
@@ -656,9 +636,6 @@ JSAtom
 >
 readMaybeIdentifierName
 (
-const
-Context
-&
 )
 ;
 MOZ_MUST_USE
@@ -672,9 +649,6 @@ JSAtom
 >
 readIdentifierName
 (
-const
-Context
-&
 )
 ;
 /
@@ -700,9 +674,6 @@ JSAtom
 >
 readPropertyKey
 (
-const
-Context
-&
 )
 ;
 /
@@ -745,9 +716,6 @@ readChars
 (
 Chars
 &
-const
-Context
-&
 )
 ;
 /
@@ -780,9 +748,6 @@ BinASTVariant
 >
 readMaybeVariant
 (
-const
-Context
-&
 )
 ;
 MOZ_MUST_USE
@@ -795,9 +760,6 @@ BinASTVariant
 >
 readVariant
 (
-const
-Context
-&
 )
 ;
 /
@@ -860,9 +822,6 @@ SkippableSubTree
 >
 readSkippableSubTree
 (
-const
-Context
-&
 )
 ;
 /
@@ -1058,9 +1017,6 @@ enterList
 uint32_t
 &
 length
-const
-Context
-&
 AutoList
 &
 guard
@@ -1221,9 +1177,6 @@ BinASTTokenReaderMultipart
 BinASTFields
 &
 fields
-const
-Context
-&
 AutoTaggedTuple
 &
 guard
@@ -1251,9 +1204,6 @@ uint32_t
 >
 readUnsignedLong
 (
-const
-Context
-&
 )
 {
 return
