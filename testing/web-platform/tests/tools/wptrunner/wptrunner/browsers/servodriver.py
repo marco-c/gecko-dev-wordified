@@ -367,7 +367,6 @@ update_properties
 :
     
 return
-{
 [
 "
 debug
