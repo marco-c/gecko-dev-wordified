@@ -7950,6 +7950,11 @@ target
 trigger
 .
 param
+&
+&
+trigger
+.
+param
 .
 host
 message
