@@ -365,6 +365,7 @@ PictureInPicture
 .
 unload
 (
+window
 )
 ;
 }
