@@ -284,7 +284,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 compatibility
 -
@@ -336,7 +336,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 compatibility
 -
@@ -397,7 +397,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 compatibility
 -
@@ -463,7 +463,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 compatibility
 -

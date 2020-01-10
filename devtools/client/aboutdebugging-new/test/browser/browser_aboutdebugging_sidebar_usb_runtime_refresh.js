@@ -234,7 +234,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 refresh
 -
@@ -294,7 +294,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 connect
 -

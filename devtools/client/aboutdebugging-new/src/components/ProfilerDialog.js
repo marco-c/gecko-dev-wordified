@@ -278,7 +278,7 @@ className
 profiler
 -
 dialog__mask
-js
+qa
 -
 profiler
 -
@@ -309,7 +309,7 @@ className
 profiler
 -
 dialog__inner
-js
+qa
 -
 profiler
 -
@@ -393,7 +393,7 @@ className
 ghost
 -
 button
-js
+qa
 -
 profiler
 -

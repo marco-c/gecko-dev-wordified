@@ -347,7 +347,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 worker
 -
@@ -369,7 +369,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 worker
 -
@@ -475,7 +475,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 worker
 -

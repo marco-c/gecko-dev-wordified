@@ -812,7 +812,7 @@ section__heading__toggle
 "
 +
 "
-js
+qa
 -
 connect
 -
@@ -1123,7 +1123,7 @@ aside
 className
 :
 "
-js
+qa
 -
 connect
 -
@@ -1260,7 +1260,7 @@ page
 connect
 -
 page
-js
+qa
 -
 connect
 -

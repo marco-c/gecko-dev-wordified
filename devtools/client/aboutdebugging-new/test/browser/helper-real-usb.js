@@ -291,7 +291,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 sidebar
 -

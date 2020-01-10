@@ -554,7 +554,7 @@ section
 className
 :
 "
-js
+qa
 -
 debug
 -
@@ -582,7 +582,7 @@ pane__title
 "
 +
 "
-js
+qa
 -
 debug
 -
@@ -720,7 +720,7 @@ debug
 target
 -
 pane__collapsable
-js
+qa
 -
 debug
 -

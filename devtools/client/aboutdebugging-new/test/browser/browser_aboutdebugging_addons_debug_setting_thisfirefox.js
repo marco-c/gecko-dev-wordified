@@ -383,7 +383,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 extension
 -
@@ -631,7 +631,7 @@ querySelectorAll
 (
 "
 .
-js
+qa
 -
 debug
 -

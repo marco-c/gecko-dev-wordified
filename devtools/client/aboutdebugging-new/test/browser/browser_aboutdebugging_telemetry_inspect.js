@@ -242,7 +242,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 debug
 -

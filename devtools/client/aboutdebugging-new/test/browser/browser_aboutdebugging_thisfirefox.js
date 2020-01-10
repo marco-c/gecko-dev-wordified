@@ -311,7 +311,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 sidebar
 -
@@ -369,7 +369,7 @@ querySelectorAll
 (
 "
 .
-js
+qa
 -
 debug
 -

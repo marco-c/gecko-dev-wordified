@@ -471,7 +471,7 @@ micro
 "
 +
 "
-js
+qa
 -
 temporary
 -
@@ -536,7 +536,7 @@ micro
 "
 +
 "
-js
+qa
 -
 temporary
 -

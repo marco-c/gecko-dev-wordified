@@ -300,7 +300,7 @@ className
 default
 -
 checkbox
-js
+qa
 -
 extension
 -

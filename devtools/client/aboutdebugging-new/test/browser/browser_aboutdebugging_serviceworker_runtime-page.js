@@ -285,7 +285,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 debug
 -
@@ -379,7 +379,7 @@ querySelectorAll
 (
 "
 .
-js
+qa
 -
 debug
 -
@@ -412,7 +412,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 debug
 -
@@ -509,7 +509,7 @@ querySelectorAll
 (
 "
 .
-js
+qa
 -
 debug
 -

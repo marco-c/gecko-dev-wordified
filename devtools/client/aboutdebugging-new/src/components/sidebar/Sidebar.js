@@ -549,7 +549,7 @@ span
 className
 :
 "
-js
+qa
 -
 sidebar
 -
@@ -599,7 +599,7 @@ className
 :
 "
 sidebar__label
-js
+qa
 -
 sidebar
 -

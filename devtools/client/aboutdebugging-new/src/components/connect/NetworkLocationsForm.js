@@ -648,7 +648,7 @@ className
 default
 -
 input
-js
+qa
 -
 network
 -
@@ -734,7 +734,7 @@ className
 primary
 -
 button
-js
+qa
 -
 network
 -

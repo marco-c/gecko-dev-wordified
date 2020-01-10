@@ -211,7 +211,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 debug
 -

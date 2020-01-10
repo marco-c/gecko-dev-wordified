@@ -315,7 +315,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 worker
 -

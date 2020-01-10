@@ -288,7 +288,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 push
 -

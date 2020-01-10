@@ -260,7 +260,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 unregister
 -

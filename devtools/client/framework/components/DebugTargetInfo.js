@@ -900,7 +900,7 @@ className
 iconized
 -
 label
-js
+qa
 -
 connection
 -
@@ -1190,7 +1190,7 @@ devtools
 ellipsis
 -
 text
-js
+qa
 -
 target
 -
@@ -1239,7 +1239,7 @@ debug
 target
 -
 info
-js
+qa
 -
 debug
 -
