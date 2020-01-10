@@ -1611,6 +1611,8 @@ EVENT
 copy
 eCopy
 EventNameType_HTMLXUL
+|
+EventNameType_SVGGraphic
 eClipboardEventClass
 )
 EVENT
@@ -1618,6 +1620,8 @@ EVENT
 cut
 eCut
 EventNameType_HTMLXUL
+|
+EventNameType_SVGGraphic
 eClipboardEventClass
 )
 EVENT
@@ -1625,6 +1629,8 @@ EVENT
 paste
 ePaste
 EventNameType_HTMLXUL
+|
+EventNameType_SVGGraphic
 eClipboardEventClass
 )
 /
