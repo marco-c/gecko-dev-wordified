@@ -393,7 +393,7 @@ Width
 const
 {
 return
-GetUnsignedIntAttr
+GetDimensionAttrAsUnsignedInt
 (
 nsGkAtoms
 :
@@ -432,7 +432,7 @@ Height
 const
 {
 return
-GetUnsignedIntAttr
+GetDimensionAttrAsUnsignedInt
 (
 nsGkAtoms
 :
