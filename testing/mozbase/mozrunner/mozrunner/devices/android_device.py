@@ -2979,6 +2979,9 @@ run_firefox_for_android
 (
 build_obj
 params
+*
+*
+kwargs
 )
 :
     
@@ -3096,9 +3099,27 @@ ANDROID_PACKAGE_NAME
 '
 ]
         
-url
+msg
 =
-None
+"
+URL
+specified
+as
+'
+{
+}
+'
+;
+dropping
+URL
+-
+like
+parameter
+'
+{
+}
+'
+"
         
 if
 params
@@ -3125,10 +3146,6 @@ scheme
 "
 :
                     
-url
-=
-p
-                    
 params
 .
 remove
@@ -3136,7 +3153,44 @@ remove
 p
 )
                     
-break
+if
+kwargs
+.
+get
+(
+'
+url
+'
+)
+:
+                        
+_log_warning
+(
+msg
+.
+format
+(
+kwargs
+[
+'
+url
+'
+]
+p
+)
+)
+                    
+else
+:
+                        
+kwargs
+[
+'
+url
+'
+]
+=
+p
         
 device
 .
@@ -3146,9 +3200,9 @@ app
 extra_args
 =
 params
-url
-=
-url
+*
+*
+kwargs
 )
     
 except
