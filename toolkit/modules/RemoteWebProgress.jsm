@@ -1229,6 +1229,16 @@ json
 .
 mayEnableCharacterEncodingMenu
 ;
+this
+.
+_browser
+.
+_charsetAutodetected
+=
+json
+.
+charsetAutodetected
+;
 }
 }
 switch
