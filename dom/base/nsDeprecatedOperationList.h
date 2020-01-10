@@ -330,3 +330,7 @@ DEPRECATED_OPERATION
 (
 MathML_DeprecatedMathSpaceValue
 )
+DEPRECATED_OPERATION
+(
+MathML_DeprecatedStyleAttribute
+)
