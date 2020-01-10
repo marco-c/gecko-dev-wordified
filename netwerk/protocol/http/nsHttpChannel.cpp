@@ -25245,6 +25245,11 @@ mIsIsolated
 }
 mIsIsolated
 =
+IsThirdPartyTrackingResource
+(
+)
+&
+&
 !
 AntiTrackingCommon
 :
@@ -25947,11 +25952,6 @@ TRR
 }
 if
 (
-IsThirdPartyTrackingResource
-(
-)
-&
-&
 IsIsolated
 (
 )
