@@ -31507,7 +31507,7 @@ process
 nsPoint
 layoutRestorePos
 =
-GetScrollRange
+GetLayoutScrollRange
 (
 )
 .
