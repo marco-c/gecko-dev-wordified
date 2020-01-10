@@ -24,6 +24,10 @@ mach
 python
 command
 .
+from
+__future__
+import
+absolute_import
 old
 =
 self
