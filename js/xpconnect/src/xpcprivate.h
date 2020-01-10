@@ -13065,16 +13065,6 @@ XPCConvert
 {
 public
 :
-static
-bool
-IsMethodReflectable
-(
-const
-nsXPTMethodInfo
-&
-info
-)
-;
 /
 *
 *

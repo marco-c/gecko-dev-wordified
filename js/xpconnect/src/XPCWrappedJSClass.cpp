@@ -957,11 +957,6 @@ i
 SetReflectable
 (
 i
-XPCConvert
-:
-:
-IsMethodReflectable
-(
 mInfo
 -
 >
@@ -969,6 +964,9 @@ Method
 (
 i
 )
+.
+IsReflectable
+(
 )
 )
 ;
