@@ -365,10 +365,8 @@ but
 the
 build
 is
-not
-release
-or
-beta
+a
+Nightly
 continue
 in
 order
@@ -378,10 +376,9 @@ more
 information
 *
 /
-!
 AppConstants
 .
-RELEASE_OR_BETA
+FENNEC_NIGHTLY
 )
 {
 currentNotification
