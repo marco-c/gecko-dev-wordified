@@ -481,13 +481,6 @@ dom
 span
 (
 {
-className
-:
-"
-cm
--
-variable
-"
 }
 "
 Assertion
