@@ -849,6 +849,9 @@ this
 )
 ;
 }
+/
+/
+static
 JSObject
 *
 nsXPCWrappedJSClass
@@ -2243,7 +2246,10 @@ namespace
 *
 *
 /
-NS_IMETHODIMP
+/
+/
+static
+nsresult
 nsXPCWrappedJSClass
 :
 :
@@ -3446,6 +3452,9 @@ return
 NS_NOINTERFACE
 ;
 }
+/
+/
+static
 JSObject
 *
 nsXPCWrappedJSClass
@@ -3517,6 +3526,9 @@ result
 )
 ;
 }
+/
+/
+static
 bool
 nsXPCWrappedJSClass
 :
@@ -3538,7 +3550,6 @@ uint32_t
 *
 result
 )
-const
 {
 if
 (
@@ -3724,6 +3735,9 @@ return
 true
 ;
 }
+/
+/
+static
 bool
 nsXPCWrappedJSClass
 :
@@ -3745,7 +3759,6 @@ nsID
 *
 result
 )
-const
 {
 result
 -
@@ -4002,6 +4015,9 @@ return
 true
 ;
 }
+/
+/
+static
 void
 nsXPCWrappedJSClass
 :
@@ -4020,7 +4036,6 @@ inOutOnly
 uint8_t
 count
 )
-const
 {
 /
 /
@@ -5425,7 +5440,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXPCWrappedJSClass
 :
 :
