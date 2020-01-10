@@ -131,9 +131,12 @@ querySelectorAll
 .
 forEach
 (
-console
-.
-log
+(
+)
+=
+>
+{
+}
 )
 document
 "
