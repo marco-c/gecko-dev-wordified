@@ -286,7 +286,7 @@ WriteParam
 aMsg
 aParam
 .
-mColorRange
+mFullRange
 )
 ;
 WriteParam
@@ -461,7 +461,7 @@ aIter
 aResult
 -
 >
-mColorRange
+mFullRange
 )
 &
 &

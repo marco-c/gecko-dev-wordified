@@ -431,12 +431,6 @@ YUVColorSpace
 >
 mColorSpace
 ;
-gfx
-:
-:
-ColorRange
-mColorRange
-;
 RefPtr
 <
 layers

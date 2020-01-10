@@ -485,16 +485,6 @@ GetYUVColorSpace
 const
 override
 ;
-gfx
-:
-:
-ColorRange
-GetColorRange
-(
-)
-const
-override
-;
 protected
 :
 GLTextureSource
