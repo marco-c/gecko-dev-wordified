@@ -869,6 +869,8 @@ aGenerateFlags
 nsISupports
 *
 aSessionState
+bool
+aProxyAuth
 )
 ;
 private
