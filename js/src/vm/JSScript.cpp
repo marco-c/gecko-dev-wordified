@@ -11739,7 +11739,7 @@ chunk
 )
 {
 const
-Compressed
+CompressedData
 <
 Unit
 >
@@ -12027,7 +12027,7 @@ empty
 return
 ;
 }
-Compressed
+CompressedData
 <
 Unit
 >
@@ -12038,7 +12038,7 @@ pendingCompressed_
 .
 ref
 <
-Compressed
+CompressedData
 <
 Unit
 >
@@ -12073,12 +12073,18 @@ data
 =
 SourceType
 (
+Compressed
+<
+Unit
+>
+(
 std
 :
 :
 move
 (
 pending
+)
 )
 )
 ;
@@ -14393,7 +14399,7 @@ pendingCompressed_
 .
 construct
 <
-Compressed
+CompressedData
 <
 Unit
 >
