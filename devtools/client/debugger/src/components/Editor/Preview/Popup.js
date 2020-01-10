@@ -268,7 +268,7 @@ types
 import
 type
 {
-PreviewValue
+Preview
 }
 from
 "
@@ -295,7 +295,7 @@ cx
 ThreadContext
 preview
 :
-PreviewValue
+Preview
 editor
 :
 any

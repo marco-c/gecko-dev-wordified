@@ -174,7 +174,7 @@ from
 /
 reducers
 /
-ast
+types
 "
 ;
 type
@@ -193,6 +193,7 @@ editorRef
 HTMLDivElement
 preview
 :
+?
 PreviewType
 clearPreview
 :
@@ -542,12 +543,6 @@ if
 preview
 &
 &
-!
-preview
-.
-updating
-&
-&
 preview
 .
 target
@@ -593,14 +588,6 @@ if
 prevProps
 .
 preview
-&
-&
-!
-prevProps
-.
-preview
-.
-updating
 &
 &
 prevProps
@@ -821,11 +808,6 @@ if
 (
 !
 preview
-|
-|
-preview
-.
-updating
 |
 |
 this
