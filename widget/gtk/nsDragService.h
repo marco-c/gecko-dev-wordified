@@ -352,6 +352,9 @@ aDOMNode
 nsIPrincipal
 *
 aPrincipal
+nsIContentSecurityPolicy
+*
+aCsp
 nsIArray
 *
 anArrayTransferables

@@ -161,6 +161,9 @@ aRect
 nsIPrincipal
 *
 aPrincipal
+nsIContentSecurityPolicy
+*
+aCsp
 )
 :
 mBrowserParent
@@ -179,6 +182,10 @@ mPrincipal
 (
 aPrincipal
 )
+mCsp
+(
+aCsp
+)
 {
 }
 void
@@ -194,6 +201,10 @@ nsIPrincipal
 *
 *
 aPrincipal
+nsIContentSecurityPolicy
+*
+*
+aCsp
 )
 {
 NS_IF_ADDREF
@@ -202,6 +213,14 @@ NS_IF_ADDREF
 aPrincipal
 =
 mPrincipal
+)
+;
+NS_IF_ADDREF
+(
+*
+aCsp
+=
+mCsp
 )
 ;
 for
