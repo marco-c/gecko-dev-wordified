@@ -1680,6 +1680,12 @@ mscom
 PreservedStreamPtr
 mParentProxyStream
 ;
+mscom
+:
+:
+PreservedStreamPtr
+mDocProxyStream
+;
 #
 endif
 /
