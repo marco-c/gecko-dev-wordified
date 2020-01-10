@@ -637,6 +637,16 @@ shipping
 )
 }
 }
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+complexity
 function
 checkComplexRequest
 (

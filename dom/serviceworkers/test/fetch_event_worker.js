@@ -3,6 +3,16 @@ seenIndex
 =
 false
 ;
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+complexity
 onfetch
 =
 function
