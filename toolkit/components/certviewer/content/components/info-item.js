@@ -56,6 +56,7 @@ MPL
 .
 *
 /
+export
 class
 InfoItem
 extends
