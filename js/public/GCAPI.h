@@ -1517,7 +1517,15 @@ SubChunkLimit
 *
 Pref
 :
-None
+javascript
+.
+options
+.
+mem
+.
+nursery
+.
+min_kb
 *
 /
 JSGC_MIN_NURSERY_BYTES
