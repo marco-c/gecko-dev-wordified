@@ -259,13 +259,6 @@ ProcessId
 aProcessId
 )
 ;
-RemoteWorkerServiceParent
-*
-SelectTargetActorForServiceWorker
-(
-)
-const
-;
 void
 LaunchInternal
 (
@@ -279,10 +272,6 @@ const
 RemoteWorkerData
 &
 aData
-bool
-aRemoteWorkerAlreadyRegistered
-=
-false
 )
 ;
 void

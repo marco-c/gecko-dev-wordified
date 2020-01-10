@@ -173,9 +173,6 @@ mozilla
 namespace
 dom
 {
-class
-IPCURLClassifierFeature
-;
 /
 /
 /
