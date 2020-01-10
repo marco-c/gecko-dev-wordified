@@ -252,7 +252,6 @@ re_trait
 RegularExpression
 Slot
 Locations
-as_slots
 }
 ;
 use
@@ -2785,7 +2784,7 @@ reduces
 constant
 overhead
 fn
-read_captures_at
+captures_read_at
 (
 &
 self
@@ -2816,7 +2815,7 @@ self
 .
 0
 .
-read_captures_at
+captures_read_at
 (
 locs
 text
@@ -4156,7 +4155,7 @@ overall
 match
 .
 fn
-read_captures_at
+captures_read_at
 (
 &
 self
@@ -4188,9 +4187,10 @@ usize
 let
 slots
 =
+locs
+.
 as_slots
 (
-locs
 )
 ;
 for
