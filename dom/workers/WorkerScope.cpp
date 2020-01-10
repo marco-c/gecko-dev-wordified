@@ -2393,7 +2393,7 @@ nsContentUtils
 StorageAccess
 :
 :
-ePartitionedOrDeny
+ePartitionTrackersOrDeny
 &
 &
 !

@@ -26705,11 +26705,11 @@ it
 This
 will
 return
-ePartitionedOrDeny
+ePartitionTrackersOrDeny
 with
+/
+/
 a
-/
-/
 reason
 of
 STATE_COOKIES_BLOCKED_TRACKER
@@ -27222,7 +27222,7 @@ nsContentUtils
 StorageAccess
 :
 :
-ePartitionedOrDeny
+ePartitionTrackersOrDeny
 )
 {
 if
@@ -27503,7 +27503,7 @@ nsContentUtils
 StorageAccess
 :
 :
-ePartitionedOrDeny
+ePartitionTrackersOrDeny
 )
 &
 &
@@ -27744,7 +27744,7 @@ nsContentUtils
 StorageAccess
 :
 :
-ePartitionedOrDeny
+ePartitionTrackersOrDeny
 &
 &
 !
@@ -27831,7 +27831,7 @@ nsContentUtils
 StorageAccess
 :
 :
-ePartitionedOrDeny
+ePartitionTrackersOrDeny
 )
 =
 =
