@@ -802,6 +802,7 @@ nsIIOService
 newChannel
 .
 *
+*
 param
 {
 string
@@ -822,6 +823,10 @@ nsIChannel
 .
 *
 returns
+{
+nsIChannel
+}
+*
 an
 nsIChannel
 object

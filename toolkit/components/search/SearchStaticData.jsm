@@ -1169,6 +1169,9 @@ domain
 *
 *
 param
+{
+string
+}
 aDomain
 *
 Lowercase
@@ -1216,9 +1219,12 @@ domains
 .
 *
 *
-return
+returns
+{
 Array
-containing
+}
+*
+Containing
 one
 entry
 for
@@ -1228,8 +1234,8 @@ host
 name
 or
 empty
-*
 array
+*
 if
 none
 is

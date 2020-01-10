@@ -3159,7 +3159,7 @@ param
 {
 object
 }
-rules
+rule
 *
 Rules
 to
