@@ -822,6 +822,15 @@ groupSymbol
 I
 '
     
+th_dict
+[
+'
+tier
+'
+]
+=
+3
+    
 logger
 .
 info
@@ -937,6 +946,15 @@ symbol
 ]
 +
 failure_group_suffix
+            
+th_dict
+[
+'
+tier
+'
+]
+=
+3
             
 suite
 =
