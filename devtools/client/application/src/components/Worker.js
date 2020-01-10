@@ -1411,6 +1411,15 @@ status
 span
 (
 {
+className
+:
+"
+js
+-
+worker
+-
+status
+"
 }
 )
 )
