@@ -393,9 +393,7 @@ mozilla
 /
 dom
 /
-l10n
-/
-DOMOverlays
+L10nOverlays
 .
 h
 "

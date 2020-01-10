@@ -226,8 +226,6 @@ mozilla
 /
 dom
 /
-l10n
-/
 DOMLocalization
 .
 h
@@ -237,9 +235,6 @@ mozilla
 {
 namespace
 dom
-{
-namespace
-l10n
 {
 enum
 class
@@ -326,9 +321,6 @@ DocumentL10n
 final
 :
 public
-l10n
-:
-:
 DOMLocalization
 {
 public
@@ -337,9 +329,6 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 DocumentL10n
-l10n
-:
-:
 DOMLocalization
 )
 public
@@ -453,11 +442,6 @@ OnCreatePresShell
 ;
 }
 ;
-}
-/
-/
-namespace
-l10n
 }
 /
 /
