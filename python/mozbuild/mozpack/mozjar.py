@@ -448,6 +448,7 @@ uint32
 '
 :
 (
+b
 '
 I
 '
@@ -458,6 +459,7 @@ uint16
 '
 :
 (
+b
 '
 H
 '
@@ -4769,7 +4771,14 @@ if
 isinstance
 (
 data
-basestring
+(
+six
+.
+binary_type
+six
+.
+string_types
+)
 )
 :
                 

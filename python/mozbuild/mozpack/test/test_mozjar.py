@@ -600,6 +600,7 @@ foo
 string
 '
 ]
+b
 '
 012345
 '
@@ -615,6 +616,7 @@ foo
 string2
 '
 ]
+b
 '
 67
 '
@@ -1103,6 +1105,7 @@ assertEqual
 deflater
 .
 compressed_data
+b
 '
 '
 )
@@ -1269,6 +1272,7 @@ files
 ]
 .
 filename
+b
 '
 foo
 '
@@ -1314,6 +1318,7 @@ files
 ]
 .
 filename
+b
 '
 bar
 '
@@ -1359,6 +1364,7 @@ files
 ]
 .
 filename
+b
 '
 baz
 /
@@ -1418,6 +1424,7 @@ files
 ]
 .
 filename
+b
 '
 baz
 /
@@ -1449,6 +1456,7 @@ files
 ]
 .
 filename
+b
 '
 baz
 \
@@ -1559,6 +1567,7 @@ files
 ]
 .
 filename
+b
 '
 bar
 '
@@ -1604,6 +1613,7 @@ files
 ]
 .
 filename
+b
 '
 foo
 '
@@ -1649,6 +1659,7 @@ files
 ]
 .
 filename
+b
 '
 baz
 /
@@ -1690,6 +1701,7 @@ self
 .
 assertTrue
 (
+b
 '
 bar
 '
@@ -1701,6 +1713,7 @@ self
 .
 assertTrue
 (
+b
 '
 foo
 '
@@ -1712,6 +1725,7 @@ self
 .
 assertFalse
 (
+b
 '
 baz
 '
@@ -1723,6 +1737,7 @@ self
 .
 assertTrue
 (
+b
 '
 baz
 /
@@ -1738,6 +1753,7 @@ assertTrue
 (
 jar
 [
+b
 '
 bar
 '
@@ -1754,6 +1770,7 @@ assertTrue
 (
 jar
 [
+b
 '
 foo
 '
@@ -1770,6 +1787,7 @@ assertTrue
 (
 jar
 [
+b
 '
 baz
 /
@@ -1802,6 +1820,7 @@ self
 .
 assertTrue
 (
+b
 '
 bar
 '
@@ -1813,6 +1832,7 @@ self
 .
 assertTrue
 (
+b
 '
 foo
 '
@@ -1824,6 +1844,7 @@ self
 .
 assertFalse
 (
+b
 '
 baz
 '
@@ -1835,6 +1856,7 @@ self
 .
 assertTrue
 (
+b
 '
 baz
 /
@@ -1860,6 +1882,7 @@ assertEqual
 (
 jar
 [
+b
 '
 bar
 '
@@ -1880,6 +1903,7 @@ assertEqual
 (
 jar
 [
+b
 '
 bar
 '
@@ -1900,6 +1924,7 @@ assertEqual
 (
 jar
 [
+b
 '
 bar
 '
@@ -1934,6 +1959,7 @@ assertEqual
 (
 jar
 [
+b
 '
 foo
 '
@@ -1954,6 +1980,7 @@ assertEqual
 (
 jar
 [
+b
 '
 foo
 '
@@ -1974,6 +2001,7 @@ assertEqual
 (
 jar
 [
+b
 '
 foo
 '
@@ -2008,6 +2036,7 @@ assertEqual
 (
 jar
 [
+b
 '
 baz
 /
@@ -2030,6 +2059,7 @@ assertEqual
 (
 jar
 [
+b
 '
 baz
 /
@@ -2052,6 +2082,7 @@ assertEqual
 (
 jar
 [
+b
 '
 baz
 /
@@ -2205,6 +2236,7 @@ files
 ]
 .
 filename
+b
 '
 foo
 '
@@ -2250,6 +2282,7 @@ files
 ]
 .
 filename
+b
 '
 bar
 '
@@ -2295,6 +2328,7 @@ files
 ]
 .
 filename
+b
 '
 baz
 /
@@ -2416,6 +2450,7 @@ files
 ]
 .
 filename
+b
 '
 test_data
 '
@@ -2605,7 +2640,6 @@ baz
 /
 qux
 '
-b
 '
 bar
 '
@@ -2654,6 +2688,7 @@ files
 ]
 .
 filename
+b
 '
 baz
 /
@@ -2671,6 +2706,7 @@ files
 ]
 .
 filename
+b
 '
 bar
 '
@@ -2686,6 +2722,7 @@ files
 ]
 .
 filename
+b
 '
 foo
 '
