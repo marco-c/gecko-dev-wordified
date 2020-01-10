@@ -2457,6 +2457,7 @@ addFrame
 (
 httpChannelId
 data
+true
 )
 ;
 }
