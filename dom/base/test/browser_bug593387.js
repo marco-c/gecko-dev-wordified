@@ -95,7 +95,7 @@ global
 /
 content
 /
-mozilla
+aboutProfiles
 .
 xhtml
 "
