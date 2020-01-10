@@ -529,6 +529,7 @@ copyStackTrace
 toggleFrameworkGrouping
 toggleBlackBox
 frameworkGroupingOn
+cx
 }
 =
 this
@@ -545,6 +546,7 @@ toggleFrameworkGrouping
 toggleBlackBox
 }
 event
+cx
 )
 ;
 }
