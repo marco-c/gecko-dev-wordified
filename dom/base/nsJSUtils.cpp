@@ -738,11 +738,6 @@ JSFunction
 fun
 (
 cx
-)
-;
-if
-(
-!
 JS
 :
 :
@@ -762,9 +757,13 @@ get
 aArgCount
 aArgArray
 source
-&
-fun
 )
+)
+;
+if
+(
+!
+fun
 )
 {
 return

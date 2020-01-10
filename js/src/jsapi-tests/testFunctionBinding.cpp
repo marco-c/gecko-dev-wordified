@@ -300,8 +300,8 @@ Borrowed
 )
 )
 ;
-CHECK
-(
+fun
+=
 JS
 :
 :
@@ -316,9 +316,6 @@ s1
 0
 nullptr
 srcBuf
-&
-fun
-)
 )
 ;
 CHECK
@@ -448,8 +445,8 @@ Borrowed
 )
 )
 ;
-CHECK
-(
+fun
+=
 JS
 :
 :
@@ -464,9 +461,6 @@ s2
 0
 nullptr
 srcBuf
-&
-fun
-)
 )
 ;
 CHECK
@@ -581,8 +575,8 @@ Borrowed
 )
 )
 ;
-CHECK
-(
+fun
+=
 JS
 :
 :
@@ -595,9 +589,6 @@ nullptr
 0
 nullptr
 srcBuf
-&
-fun
-)
 )
 ;
 CHECK

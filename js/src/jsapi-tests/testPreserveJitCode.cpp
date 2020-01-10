@@ -530,8 +530,8 @@ emptyScopeChain
 cx
 )
 ;
-CHECK
-(
+fun
+=
 JS
 :
 :
@@ -546,9 +546,11 @@ f
 0
 nullptr
 srcBuf
-&
-fun
 )
+;
+CHECK
+(
+fun
 )
 ;
 RootedValue
