@@ -503,7 +503,6 @@ color
 Color
 ColorOrAuto
 ColorPropertyValue
-RGBAColor
 }
 ;
 pub

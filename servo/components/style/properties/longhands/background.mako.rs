@@ -105,10 +105,10 @@ color
 Color
 "
 "
-computed_value
+computed
 :
 :
-T
+Color
 :
 :
 transparent

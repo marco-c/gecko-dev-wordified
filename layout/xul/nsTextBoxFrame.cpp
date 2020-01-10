@@ -1555,6 +1555,10 @@ StyleColor
 -
 >
 mColor
+.
+ToColor
+(
+)
 PaintTextShadowCallback
 (
 void
@@ -2878,6 +2882,10 @@ StyleColor
 -
 >
 mColor
+.
+ToColor
+(
+)
 ;
 ColorPattern
 color
