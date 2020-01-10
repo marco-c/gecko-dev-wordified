@@ -340,7 +340,7 @@ worker
 "
 :
 "
-window
+file
 "
 }
 /

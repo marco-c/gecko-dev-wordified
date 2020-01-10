@@ -2976,9 +2976,7 @@ string
 {
 return
 /
-\
-/
-?
+^
 (
 chrome
 |
