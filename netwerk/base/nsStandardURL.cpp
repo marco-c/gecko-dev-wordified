@@ -4455,12 +4455,15 @@ closeBracket
 return
 net_IsValidIPv6Addr
 (
+Substring
+(
 host
 +
 1
 length
 -
 2
+)
 )
 ;
 }

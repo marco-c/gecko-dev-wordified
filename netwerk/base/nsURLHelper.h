@@ -2059,11 +2059,9 @@ bool
 net_IsValidIPv6Addr
 (
 const
-char
-*
-addr
-int32_t
-addrLen
+nsACString
+&
+aAddr
 )
 ;
 /
