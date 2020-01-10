@@ -3747,6 +3747,9 @@ Compartment
 :
 fixupAfterMovingGC
 (
+JSTracer
+*
+trc
 )
 {
 MOZ_ASSERT
@@ -3788,6 +3791,7 @@ r
 >
 fixupAfterMovingGC
 (
+trc
 )
 ;
 }

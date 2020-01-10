@@ -4904,6 +4904,9 @@ trc
 void
 fixupAfterMovingGC
 (
+JSTracer
+*
+trc
 )
 ;
 MOZ_MUST_USE

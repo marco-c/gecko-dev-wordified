@@ -19093,6 +19093,8 @@ comp
 >
 fixupAfterMovingGC
 (
+&
+trc
 )
 ;
 }
