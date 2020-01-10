@@ -23269,6 +23269,15 @@ location
 let
 permanentOverride
 =
+!
+PrivateBrowsingUtils
+.
+isBrowserPrivate
+(
+browser
+)
+&
+&
 Services
 .
 prefs
