@@ -128,6 +128,17 @@ RemoteServiceWorkerRegistrationImpl
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+WorkerRef
+.
+h
+"
 namespace
 mozilla
 {
