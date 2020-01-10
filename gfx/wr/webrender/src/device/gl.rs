@@ -111,6 +111,9 @@ gleam
 gl
 ;
 use
+crate
+:
+:
 internal_types
 :
 :
@@ -127,6 +130,9 @@ log
 Level
 ;
 use
+crate
+:
+:
 profiler
 ;
 use

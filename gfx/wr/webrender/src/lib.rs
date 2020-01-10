@@ -838,6 +838,9 @@ rs
 }
 pub
 use
+crate
+:
+:
 record
 :
 :
@@ -863,6 +866,9 @@ macos
 ]
 pub
 use
+crate
+:
+:
 platform
 :
 :
@@ -1350,6 +1356,9 @@ hidden
 ]
 pub
 use
+crate
+:
+:
 device
 :
 :
@@ -1361,6 +1370,9 @@ VertexUsageHint
 ;
 pub
 use
+crate
+:
+:
 device
 :
 :
@@ -1372,6 +1384,9 @@ ProgramCacheObserver
 ;
 pub
 use
+crate
+:
+:
 device
 :
 :
@@ -1379,6 +1394,9 @@ Device
 ;
 pub
 use
+crate
+:
+:
 frame_builder
 :
 :
@@ -1386,6 +1404,9 @@ ChasePrimitive
 ;
 pub
 use
+crate
+:
+:
 profiler
 :
 :
@@ -1396,6 +1417,9 @@ set_profiler_hooks
 ;
 pub
 use
+crate
+:
+:
 renderer
 :
 :
@@ -1408,6 +1432,9 @@ DebugFlags
 ;
 pub
 use
+crate
+:
+:
 renderer
 :
 :
@@ -1420,6 +1447,9 @@ ExternalImageHandler
 ;
 pub
 use
+crate
+:
+:
 renderer
 :
 :
@@ -1433,6 +1463,9 @@ PipelineInfo
 ;
 pub
 use
+crate
+:
+:
 renderer
 :
 :
@@ -1446,6 +1479,9 @@ SceneBuilderHooks
 ;
 pub
 use
+crate
+:
+:
 renderer
 :
 :
@@ -1457,6 +1493,9 @@ MAX_VERTEX_TEXTURE_WIDTH
 ;
 pub
 use
+crate
+:
+:
 shade
 :
 :

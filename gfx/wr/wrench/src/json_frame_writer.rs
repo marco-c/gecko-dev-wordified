@@ -99,6 +99,9 @@ ColorType
 }
 ;
 use
+crate
+:
+:
 premultiply
 :
 :

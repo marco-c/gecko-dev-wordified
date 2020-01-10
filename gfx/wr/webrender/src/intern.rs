@@ -335,6 +335,9 @@ cache
 invalidation
 .
 use
+crate
+:
+:
 internal_types
 :
 :
@@ -347,6 +350,9 @@ malloc_size_of
 MallocSizeOf
 ;
 use
+crate
+:
+:
 profiler
 :
 :
@@ -405,6 +411,9 @@ Ordering
 }
 ;
 use
+crate
+:
+:
 util
 :
 :

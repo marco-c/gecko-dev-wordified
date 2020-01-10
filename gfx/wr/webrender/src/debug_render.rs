@@ -77,9 +77,15 @@ units
 *
 ;
 use
+crate
+:
+:
 debug_font_data
 ;
 use
+crate
+:
+:
 device
 :
 :
@@ -94,6 +100,9 @@ VAO
 }
 ;
 use
+crate
+:
+:
 device
 :
 :
@@ -116,6 +125,9 @@ Transform3D
 }
 ;
 use
+crate
+:
+:
 internal_types
 :
 :

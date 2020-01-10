@@ -1045,6 +1045,8 @@ pixel_format
 =
 unsafe
 {
+r
+#
 try
 !
 (
@@ -2034,6 +2036,8 @@ self
 .
 version
 {
+r
+#
 try
 !
 (

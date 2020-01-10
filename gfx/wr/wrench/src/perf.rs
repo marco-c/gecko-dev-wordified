@@ -57,9 +57,15 @@ MPL
 *
 /
 use
+crate
+:
+:
 NotifierEvent
 ;
 use
+crate
+:
+:
 WindowWrapper
 ;
 use
@@ -135,6 +141,9 @@ mpsc
 Receiver
 ;
 use
+crate
+:
+:
 wrench
 :
 :
@@ -144,6 +153,9 @@ WrenchThing
 }
 ;
 use
+crate
+:
+:
 yaml_frame_reader
 :
 :
