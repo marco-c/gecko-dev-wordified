@@ -19487,6 +19487,13 @@ mChildMessageManager
 NS_ERROR_UNEXPECTED
 )
 ;
+#
+if
+!
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 /
 /
 Set
@@ -19529,6 +19536,8 @@ rv
 )
 ;
 }
+#
+endif
 }
 return
 NS_OK
