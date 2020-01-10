@@ -3381,6 +3381,7 @@ nsIFrame
 :
 kNoReflowPrincipalList
 nullptr
+nullptr
 tail
 )
 ;
@@ -3417,6 +3418,7 @@ nsIFrame
 :
 kNoReflowPrincipalList
 parent
+nullptr
 temp
 )
 ;
@@ -4023,6 +4025,7 @@ nsIFrame
 :
 kNoReflowPrincipalList
 aFrame
+nullptr
 temp
 )
 ;

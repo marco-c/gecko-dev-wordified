@@ -1240,6 +1240,13 @@ aListID
 nsIFrame
 *
 aPrevFrame
+const
+nsLineList
+:
+:
+iterator
+*
+aPrevFrameLine
 nsFrameList
 &
 aFrameList
