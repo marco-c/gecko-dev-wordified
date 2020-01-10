@@ -10022,12 +10022,6 @@ RemoveModifiedWindowRegions
 (
 )
 ;
-mBuilder
-.
-ClearWindowOpaqueRegion
-(
-)
-;
 if
 (
 mBuilder
