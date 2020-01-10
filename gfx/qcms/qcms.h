@@ -743,10 +743,13 @@ stdio
 .
 h
 >
-typedef
-int
-qcms_bool
-;
+#
+include
+<
+stdbool
+.
+h
+>
 struct
 _qcms_transform
 ;
@@ -1038,7 +1041,7 @@ qcms_profile
 profile
 )
 ;
-qcms_bool
+bool
 qcms_profile_is_bogus
 (
 qcms_profile
