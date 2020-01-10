@@ -98,7 +98,7 @@ http
 /
 example
 .
-com
+org
 /
 "
 +
@@ -116,7 +116,7 @@ tracking
 .
 example
 .
-org
+com
 /
 "
 ;
