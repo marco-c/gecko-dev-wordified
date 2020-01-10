@@ -3548,10 +3548,19 @@ check_call
 self
 .
 _tool
+                                   
 '
-push
+-
+c
 '
+                                   
 '
+remote
+.
+try
+.
+url
+=
 hg
 :
 :
@@ -3565,6 +3574,14 @@ mozilla
 .
 org
 /
+try
+'
+                                   
+'
+push
+'
+                                   
+'
 try
 '
                                    
