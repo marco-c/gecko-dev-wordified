@@ -9,6 +9,7 @@ if
 (
 release_or_beta
 )
+async
 -
 -
 Promise

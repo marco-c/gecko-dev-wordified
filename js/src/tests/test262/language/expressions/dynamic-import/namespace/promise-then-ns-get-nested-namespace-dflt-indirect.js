@@ -5,6 +5,7 @@ reftest
 |
 skip
 module
+async
 -
 -
 export

@@ -1,3 +1,9 @@
+/
+/
+|
+reftest
+|
+async
 '
 use
 strict

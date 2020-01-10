@@ -4,6 +4,7 @@
 reftest
 |
 skip
+async
 -
 -
 FinalizationGroup
