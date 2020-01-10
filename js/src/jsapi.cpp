@@ -7509,7 +7509,7 @@ use
 zone
 -
 >
-maybeAllocTriggerZoneGC
+maybeMallocTriggerZoneGC
 (
 )
 ;
