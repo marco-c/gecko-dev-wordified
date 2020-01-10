@@ -142,13 +142,6 @@ lang
 .
 Thread
 ;
-import
-java
-.
-util
-.
-Set
-;
 public
 class
 GeckoJavaSampler
@@ -239,6 +232,7 @@ used
 public
 Sample
 (
+final
 StackTraceElement
 [
 ]
@@ -731,8 +725,10 @@ private
 Sample
 getSample
 (
+final
 int
 aThreadId
+final
 int
 aSampleId
 )
@@ -842,6 +838,7 @@ static
 String
 getThreadName
 (
+final
 int
 aThreadId
 )
@@ -878,8 +875,10 @@ static
 Sample
 getSample
 (
+final
 int
 aThreadId
+final
 int
 aSampleId
 )
@@ -901,8 +900,10 @@ static
 double
 getSampleTime
 (
+final
 int
 aThreadId
+final
 int
 aSampleId
 )
@@ -969,10 +970,13 @@ static
 String
 getFrameName
 (
+final
 int
 aThreadId
+final
 int
 aSampleId
+final
 int
 aFrameId
 )
@@ -1054,8 +1058,10 @@ static
 void
 start
 (
+final
 int
 aInterval
+final
 int
 aSamples
 )
