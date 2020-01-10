@@ -119,7 +119,7 @@ map
 import
 type
 {
-locationOptions
+LocationOptions
 }
 from
 "
@@ -437,7 +437,7 @@ location
 SourceLocation
 options
 :
-locationOptions
+LocationOptions
 =
 {
 }
@@ -461,6 +461,9 @@ getOriginalLocations
 =
 async
 (
+sourceId
+:
+SourceId
 locations
 :
 SourceLocation
@@ -468,7 +471,7 @@ SourceLocation
 ]
 options
 :
-locationOptions
+LocationOptions
 =
 {
 }
