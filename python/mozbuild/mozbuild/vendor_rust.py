@@ -1626,6 +1626,12 @@ zircon
 -
 sys
 '
+            
+'
+fuchsia
+-
+cprng
+'
         
 ]
     
@@ -1673,10 +1679,6 @@ Clause
 '
 :
 [
-            
-'
-sha1
-'
         
 ]
     
