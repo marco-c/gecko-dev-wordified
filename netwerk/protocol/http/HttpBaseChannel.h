@@ -1330,7 +1330,7 @@ dom
 :
 Promise
 *
-aTabParent
+aBrowserParent
 uint64_t
 aIdentifier
 )

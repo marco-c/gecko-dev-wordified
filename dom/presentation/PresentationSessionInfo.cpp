@@ -143,7 +143,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -7877,11 +7877,11 @@ return
 }
 RefPtr
 <
-TabParent
+BrowserParent
 >
-tabParent
+browserParent
 =
-TabParent
+BrowserParent
 :
 :
 GetFrom
@@ -7891,7 +7891,7 @@ frameLoader
 ;
 if
 (
-tabParent
+browserParent
 )
 {
 /
@@ -7923,7 +7923,7 @@ progress
 .
 mContentParent
 =
-tabParent
+browserParent
 -
 >
 Manager
@@ -7952,7 +7952,7 @@ get
 >
 SendNotifyPresentationReceiverLaunched
 (
-tabParent
+browserParent
 mSessionId
 )
 )

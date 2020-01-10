@@ -143,7 +143,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -774,7 +774,7 @@ TPBrowserParent
 {
 context
 =
-TabParent
+BrowserParent
 :
 :
 GetFrom
@@ -840,7 +840,7 @@ isMozBrowserElement
 /
 If
 the
-TabParent
+BrowserParent
 corresponds
 to
 a
@@ -849,9 +849,9 @@ element
 then
 it
 can
+/
+/
 only
-/
-/
 open
 other
 browser
@@ -862,9 +862,9 @@ reasons
 .
 We
 should
+/
+/
 have
-/
-/
 checked
 this
 before
@@ -873,10 +873,10 @@ the
 TabContext
 constructor
 so
+/
+/
 this
 is
-/
-/
 a
 fatal
 error

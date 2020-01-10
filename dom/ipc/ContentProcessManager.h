@@ -699,7 +699,7 @@ aTabId
 *
 Get
 all
-TabParents
+BrowserParents
 '
 Ids
 managed
@@ -714,7 +714,7 @@ Return
 empty
 array
 when
-TabParent
+BrowserParent
 couldn
 '
 t
@@ -728,7 +728,7 @@ nsTArray
 <
 TabId
 >
-GetTabParentsByProcessId
+GetBrowserParentsByProcessId
 (
 const
 ContentParentId
@@ -744,7 +744,7 @@ Get
 the
 number
 of
-TabParents
+BrowserParents
 managed
 by
 the
@@ -756,7 +756,7 @@ process
 Return
 0
 when
-TabParent
+BrowserParent
 couldn
 '
 t
@@ -768,7 +768,7 @@ aChildCpId
 *
 /
 uint32_t
-GetTabParentCountByProcessId
+GetBrowserParentCountByProcessId
 (
 const
 ContentParentId
@@ -782,7 +782,7 @@ aChildCpId
 *
 Get
 the
-TabParent
+BrowserParent
 by
 the
 given
@@ -796,7 +796,7 @@ id
 Return
 nullptr
 when
-TabParent
+BrowserParent
 couldn
 '
 t
@@ -814,7 +814,7 @@ or
 probably
 because
 the
-TabParent
+BrowserParent
 is
 not
 in
@@ -826,9 +826,9 @@ process
 /
 already_AddRefed
 <
-TabParent
+BrowserParent
 >
-GetTabParentByProcessAndTabId
+GetBrowserParentByProcessAndTabId
 (
 const
 ContentParentId
@@ -846,7 +846,7 @@ aChildTabId
 *
 Get
 the
-TabParent
+BrowserParent
 on
 top
 level
@@ -865,7 +865,7 @@ This
 function
 return
 the
-TabParent
+BrowserParent
 belong
 to
 the
@@ -876,7 +876,7 @@ called
 top
 -
 level
-TabParent
+BrowserParent
 here
 by
 given
@@ -910,7 +910,7 @@ the
 top
 -
 level
-TabParent
+BrowserParent
 isn
 '
 t
@@ -932,13 +932,13 @@ function
 *
 will
 call
-GetTabParentByProcessAndTabId
+GetBrowserParentByProcessAndTabId
 iteratively
 until
 the
 Tab
-returned
 *
+returned
 is
 belong
 to
@@ -950,9 +950,9 @@ process
 /
 already_AddRefed
 <
-TabParent
+BrowserParent
 >
-GetTopLevelTabParentByProcessAndTabId
+GetTopLevelBrowserParentByProcessAndTabId
 (
 const
 ContentParentId

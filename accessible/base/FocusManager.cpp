@@ -172,7 +172,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -1203,14 +1203,14 @@ focusedElm
 dom
 :
 :
-TabParent
+BrowserParent
 *
 tab
 =
 dom
 :
 :
-TabParent
+BrowserParent
 :
 :
 GetFrom

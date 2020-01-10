@@ -1912,14 +1912,14 @@ channelId
 dom
 :
 :
-TabParent
+BrowserParent
 *
-tabParent
+browserParent
 =
 dom
 :
 :
-TabParent
+BrowserParent
 :
 :
 GetFrom
@@ -1930,7 +1930,7 @@ tp
 auto
 result
 =
-tabParent
+browserParent
 -
 >
 Manager

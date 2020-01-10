@@ -5159,7 +5159,7 @@ NS_ERROR_FAILURE
 }
 /
 /
-TabParent
+BrowserParent
 doesn
 '
 t

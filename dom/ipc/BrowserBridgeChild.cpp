@@ -935,7 +935,7 @@ aCanRaise
 /
 Adapted
 from
-TabParent
+BrowserParent
 nsCOMPtr
 <
 nsIFocusManager
@@ -1058,7 +1058,7 @@ aForDocumentNavigation
 /
 Adapted
 from
-TabParent
+BrowserParent
 nsCOMPtr
 <
 nsIFocusManager

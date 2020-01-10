@@ -191,7 +191,7 @@ namespace
 dom
 {
 class
-TabParent
+BrowserParent
 ;
 }
 /
@@ -1606,9 +1606,9 @@ ContentCacheInParent
 dom
 :
 :
-TabParent
+BrowserParent
 &
-aTabParent
+aBrowserParent
 )
 ;
 /
@@ -1621,7 +1621,7 @@ AssignContent
 is
 called
 when
-TabParent
+BrowserParent
 receives
 ContentCache
 from
@@ -1644,7 +1644,7 @@ it
 s
 managed
 by
-TabParent
+BrowserParent
 itself
 .
 *
@@ -1973,7 +1973,7 @@ might
 cause
 destroying
 *
-TabParent
+BrowserParent
 or
 aWidget
 .
@@ -2241,7 +2241,7 @@ uint8_t
 {
 eToOldCompositionReceived
 eToCommittedCompositionReceived
-eReceivedAfterTabParentBlur
+eReceivedAfterBrowserParentBlur
 eReceivedButNoTextComposition
 eHandledAsynchronously
 eHandledSynchronously
@@ -2300,8 +2300,10 @@ is
 not
 handled
 because
-TabParent
+BrowserParent
 has
+"
+"
 already
 "
 "
@@ -2317,7 +2319,7 @@ case
 RequestIMEToCommitCompositionResult
 :
 :
-eReceivedAfterTabParentBlur
+eReceivedAfterBrowserParentBlur
 :
 return
 "
@@ -2332,7 +2334,7 @@ string
 "
 "
 because
-TabParent
+BrowserParent
 has
 already
 lost
@@ -2425,7 +2427,7 @@ endif
 MOZ_DIAGNOSTIC_ASSERT_ENABLED
 /
 /
-mTabParent
+mBrowserParent
 is
 owner
 of
@@ -2435,10 +2437,10 @@ instance
 dom
 :
 :
-TabParent
+BrowserParent
 &
 MOZ_NON_OWNING_REF
-mTabParent
+mBrowserParent
 ;
 /
 /

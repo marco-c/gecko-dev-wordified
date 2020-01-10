@@ -178,14 +178,14 @@ parent
 :
 (
 "
-TabParent
+BrowserParent
 "
 "
 mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "

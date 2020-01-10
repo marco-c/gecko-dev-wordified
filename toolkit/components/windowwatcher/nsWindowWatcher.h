@@ -697,7 +697,7 @@ uint32_t
 aChromeFlags
 nsIRemoteTab
 *
-aOpeningTabParent
+aOpeningBrowserParent
 mozIDOMWindowProxy
 *
 aOpener

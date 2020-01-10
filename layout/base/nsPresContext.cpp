@@ -551,7 +551,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -8204,15 +8204,15 @@ static
 bool
 NotifyThemeChanged
 (
-TabParent
+BrowserParent
 *
-aTabParent
+aBrowserParent
 void
 *
 aArg
 )
 {
-aTabParent
+aBrowserParent
 -
 >
 ThemeChanged
@@ -8981,7 +8981,7 @@ static
 void
 NotifyTabUIResolutionChanged
 (
-TabParent
+BrowserParent
 *
 aTab
 void
@@ -10039,7 +10039,7 @@ static
 bool
 NotifyTabSizeModeChanged
 (
-TabParent
+BrowserParent
 *
 aTab
 void

@@ -257,7 +257,7 @@ handled
 See
 also
 :
-TabParent
+BrowserParent
 :
 :
 StartPersistence

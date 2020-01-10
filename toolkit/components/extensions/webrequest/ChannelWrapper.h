@@ -783,7 +783,7 @@ WebExtensionPolicy
 aAddon
 nsIRemoteTab
 *
-aTabParent
+aBrowserParent
 )
 ;
 uint64_t
@@ -895,7 +895,7 @@ WebExtensionPolicy
 aAddon
 nsIRemoteTab
 *
-aTabParent
+aBrowserParent
 )
 ;
 already_AddRefed

@@ -135,7 +135,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -1605,12 +1605,12 @@ second
 }
 already_AddRefed
 <
-TabParent
+BrowserParent
 >
 ContentProcessManager
 :
 :
-GetTabParentByProcessAndTabId
+GetBrowserParentByProcessAndTabId
 (
 const
 ContentParentId
@@ -1709,11 +1709,11 @@ Next
 {
 RefPtr
 <
-TabParent
+BrowserParent
 >
 tab
 =
-TabParent
+BrowserParent
 :
 :
 GetFrom
@@ -1758,12 +1758,12 @@ nullptr
 }
 already_AddRefed
 <
-TabParent
+BrowserParent
 >
 ContentProcessManager
 :
 :
-GetTopLevelTabParentByProcessAndTabId
+GetTopLevelBrowserParentByProcessAndTabId
 (
 const
 ContentParentId
@@ -1820,7 +1820,7 @@ the
 ContentParentId
 and
 the
-TabParentId
+BrowserParentId
 on
 upper
 level
@@ -1917,7 +1917,7 @@ Get
 the
 top
 level
-TabParent
+BrowserParent
 by
 the
 current
@@ -1925,7 +1925,7 @@ ContentParentId
 and
 TabId
 return
-GetTabParentByProcessAndTabId
+GetBrowserParentByProcessAndTabId
 (
 currentCpId
 currentTabId
@@ -1939,7 +1939,7 @@ TabId
 ContentProcessManager
 :
 :
-GetTabParentsByProcessId
+GetBrowserParentsByProcessId
 (
 const
 ContentParentId
@@ -2047,7 +2047,7 @@ uint32_t
 ContentProcessManager
 :
 :
-GetTabParentCountByProcessId
+GetBrowserParentCountByProcessId
 (
 const
 ContentParentId

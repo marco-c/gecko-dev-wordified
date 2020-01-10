@@ -909,7 +909,7 @@ are
 transformed
 correctly
 for
-TabParent
+BrowserParent
 .
 static
 Maybe

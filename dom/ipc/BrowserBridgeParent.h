@@ -138,7 +138,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -194,14 +194,14 @@ uint32_t
 aChromeFlags
 )
 ;
-TabParent
+BrowserParent
 *
-GetTabParent
+GetBrowserParent
 (
 )
 {
 return
-mTabParent
+mBrowserParent
 ;
 }
 CanonicalBrowsingContext
@@ -211,7 +211,7 @@ GetBrowsingContext
 )
 {
 return
-mTabParent
+mBrowserParent
 -
 >
 GetBrowsingContext
@@ -226,7 +226,7 @@ our
 manager
 actor
 .
-TabParent
+BrowserParent
 *
 Manager
 (
@@ -240,7 +240,7 @@ mIPCOpen
 return
 static_cast
 <
-TabParent
+BrowserParent
 *
 >
 (
@@ -418,9 +418,9 @@ BrowserBridgeParent
 ;
 RefPtr
 <
-TabParent
+BrowserParent
 >
-mTabParent
+mBrowserParent
 ;
 bool
 mIPCOpen

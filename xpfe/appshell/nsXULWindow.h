@@ -991,13 +991,13 @@ nsCOMPtr
 <
 nsIRemoteTab
 >
-mPrimaryTabParent
+mPrimaryBrowserParent
 ;
 private
 :
 /
 /
-GetPrimaryTabParentSize
+GetPrimaryBrowserParentSize
 is
 called
 from
@@ -1009,9 +1009,9 @@ don
 '
 t
 have
+/
+/
 a
-/
-/
 good
 way
 to

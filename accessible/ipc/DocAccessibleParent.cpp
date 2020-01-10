@@ -136,7 +136,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -3392,7 +3392,7 @@ static_cast
 dom
 :
 :
-TabParent
+BrowserParent
 *
 >
 (
@@ -4073,7 +4073,7 @@ the
 bounds
 from
 the
-tabParent
+browserParent
 instead
 of
 poking
@@ -4202,7 +4202,7 @@ static_cast
 dom
 :
 :
-TabParent
+BrowserParent
 *
 >
 (
@@ -4462,7 +4462,7 @@ static_cast
 dom
 :
 :
-TabParent
+BrowserParent
 *
 >
 (

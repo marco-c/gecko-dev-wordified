@@ -177,7 +177,7 @@ mozbrowser
 .
 *
 *
-TabParent
+BrowserParent
 and
 TabChild
 both
@@ -188,8 +188,8 @@ and
 you
 can
 also
-have
 *
+have
 standalone
 TabContext
 objects

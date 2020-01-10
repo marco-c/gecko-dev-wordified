@@ -458,7 +458,7 @@ mozilla
 dom
 :
 :
-TabParent
+BrowserParent
 *
 aBrowser
 )
@@ -474,7 +474,7 @@ mozilla
 dom
 :
 :
-TabParent
+BrowserParent
 *
 aBrowser
 )
@@ -654,7 +654,7 @@ mParent
 /
 /
 The
-TabParents
+BrowserParents
 that
 are
 currently
@@ -664,6 +664,8 @@ this
 top
 -
 level
+/
+/
 window
 .
 typedef

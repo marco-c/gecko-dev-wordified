@@ -178,7 +178,7 @@ class
 ContentParent
 ;
 class
-TabParent
+BrowserParent
 ;
 }
 /
@@ -278,7 +278,7 @@ aParent
 dom
 :
 :
-TabParent
+BrowserParent
 *
 aTab
 bool

@@ -157,7 +157,7 @@ namespace
 dom
 {
 class
-TabParent
+BrowserParent
 ;
 }
 /
@@ -402,7 +402,7 @@ mozilla
 dom
 :
 :
-TabParent
+BrowserParent
 *
 aBrowser
 )
@@ -419,7 +419,7 @@ mozilla
 dom
 :
 :
-TabParent
+BrowserParent
 *
 aBrowser
 )
@@ -439,7 +439,7 @@ mozilla
 dom
 :
 :
-TabParent
+BrowserParent
 *
 aTab
 void

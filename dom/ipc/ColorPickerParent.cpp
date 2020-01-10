@@ -173,7 +173,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -331,7 +331,7 @@ Element
 *
 ownerElement
 =
-TabParent
+BrowserParent
 :
 :
 GetFrom

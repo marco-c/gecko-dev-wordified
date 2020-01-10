@@ -70,7 +70,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -359,12 +359,12 @@ mozilla
 dom
 :
 :
-TabParent
+BrowserParent
 *
 PluginWidgetParent
 :
 :
-GetTabParent
+GetBrowserParent
 (
 )
 {
@@ -377,7 +377,7 @@ mozilla
 dom
 :
 :
-TabParent
+BrowserParent
 *
 >
 (
@@ -585,7 +585,7 @@ nsIWidget
 >
 parentWidget
 =
-GetTabParent
+GetBrowserParent
 (
 )
 -
@@ -888,7 +888,7 @@ KillWidget
 /
 Called
 by
-TabParent
+BrowserParent
 '
 s
 Destroy

@@ -3602,7 +3602,7 @@ d
 [
 UI
 ]
-TabParent
+BrowserParent
 :
 :
 RecvEnsureLayersConnected

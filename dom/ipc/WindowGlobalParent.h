@@ -147,7 +147,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -431,7 +431,7 @@ process
 .
 already_AddRefed
 <
-TabParent
+BrowserParent
 >
 GetRemoteTab
 (
@@ -552,7 +552,7 @@ nsFrameLoader
 /
 holding
 the
-TabParent
+BrowserParent
 for
 remote
 tabs
@@ -561,9 +561,9 @@ the
 root
 content
 frameloader
+/
+/
 for
-/
-/
 non
 -
 remote

@@ -749,7 +749,7 @@ class
 Selection
 ;
 class
-TabParent
+BrowserParent
 ;
 }
 /
@@ -979,9 +979,9 @@ mozilla
 dom
 :
 :
-TabParent
+BrowserParent
 *
-aTabParent
+aBrowserParent
 void
 *
 aArg
@@ -18554,10 +18554,10 @@ rather
 than
 nsGlobalWindow
 because
-TabParent
+BrowserParent
 indirectly
-includes
 *
+includes
 Windows
 headers
 which

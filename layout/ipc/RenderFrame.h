@@ -193,7 +193,7 @@ namespace
 dom
 {
 class
-TabParent
+BrowserParent
 ;
 }
 /
@@ -235,7 +235,7 @@ directly
 owned
 by
 a
-TabParent
+BrowserParent
 and
 always
 lives
@@ -308,9 +308,9 @@ Initialize
 dom
 :
 :
-TabParent
+BrowserParent
 *
-aTabParent
+aBrowserParent
 )
 ;
 void
@@ -478,9 +478,9 @@ mCompositorOptions
 dom
 :
 :
-TabParent
+BrowserParent
 *
-mTabParent
+mBrowserParent
 ;
 RefPtr
 <

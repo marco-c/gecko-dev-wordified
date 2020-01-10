@@ -908,7 +908,7 @@ child
 process
 allows
 the
-TabParent
+BrowserParent
 event
 -
 capture

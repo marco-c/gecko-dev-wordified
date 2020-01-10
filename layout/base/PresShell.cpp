@@ -49411,7 +49411,7 @@ GetComposedDoc
 keyDownIsChrome
 &
 &
-TabParent
+BrowserParent
 :
 :
 GetFrom
@@ -53814,7 +53814,7 @@ eventTarget
 GetPresContext
 (
 )
-TabParent
+BrowserParent
 :
 :
 GetFocused

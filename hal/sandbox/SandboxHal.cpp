@@ -165,7 +165,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -1066,11 +1066,11 @@ permission
 .
 /
 /
-TabParent
+BrowserParent
 *
-tabParent
+browserParent
 =
-TabParent
+BrowserParent
 :
 :
 GetFrom
@@ -1090,7 +1090,7 @@ window
 =
 do_QueryInterface
 (
-tabParent
+browserParent
 -
 >
 GetBrowserDOMWindow
@@ -1147,11 +1147,11 @@ override
 {
 /
 /
-TabParent
+BrowserParent
 *
-tabParent
+browserParent
 =
-TabParent
+BrowserParent
 :
 :
 GetFrom
@@ -1169,7 +1169,7 @@ nsIDOMWindow
 >
 window
 =
-tabParent
+browserParent
 -
 >
 GetBrowserDOMWindow

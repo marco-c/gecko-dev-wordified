@@ -784,7 +784,7 @@ CreateRemoteFrameLoader
 (
 nsIRemoteTab
 *
-aTabParent
+aBrowserParent
 )
 {
 MOZ_ASSERT
@@ -807,7 +807,7 @@ mFrameLoader
 >
 SetRemoteBrowser
 (
-aTabParent
+aBrowserParent
 )
 ;
 if

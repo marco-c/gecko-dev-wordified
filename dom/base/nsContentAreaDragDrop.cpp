@@ -406,7 +406,7 @@ h
 #
 include
 "
-TabParent
+BrowserParent
 .
 h
 "
@@ -3409,13 +3409,13 @@ if
 fl
 )
 {
-TabParent
+BrowserParent
 *
 tp
 =
 static_cast
 <
-TabParent
+BrowserParent
 *
 >
 (
@@ -3437,7 +3437,7 @@ tp
 We
 have
 a
-TabParent
+BrowserParent
 so
 it
 may
@@ -3448,9 +3448,9 @@ dnd
 in
 case
 the
+/
+/
 child
-/
-/
 process
 started
 a

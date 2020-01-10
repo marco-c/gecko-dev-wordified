@@ -5433,7 +5433,7 @@ they
 are
 initialized
 by
-TabParent
+BrowserParent
 before
 content
 process

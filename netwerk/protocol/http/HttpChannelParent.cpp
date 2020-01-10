@@ -201,7 +201,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -717,14 +717,14 @@ PBrowserOrId
 TPBrowserParent
 )
 {
-mTabParent
+mBrowserParent
 =
 static_cast
 <
 dom
 :
 :
-TabParent
+BrowserParent
 *
 >
 (
@@ -2309,11 +2309,11 @@ nsIRemoteTab
 {
 if
 (
-mTabParent
+mBrowserParent
 )
 {
 return
-mTabParent
+mBrowserParent
 -
 >
 QueryInterface
@@ -2409,7 +2409,7 @@ NS_OK
 }
 if
 (
-mTabParent
+mBrowserParent
 &
 &
 aIID
@@ -2429,7 +2429,7 @@ Element
 >
 frameElement
 =
-mTabParent
+mBrowserParent
 -
 >
 GetOwnerElement

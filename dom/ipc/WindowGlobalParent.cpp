@@ -185,7 +185,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -980,7 +980,7 @@ frameElement
 =
 static_cast
 <
-TabParent
+BrowserParent
 *
 >
 (
@@ -1169,7 +1169,7 @@ otherSide
 }
 already_AddRefed
 <
-TabParent
+BrowserParent
 >
 WindowGlobalParent
 :
@@ -1197,7 +1197,7 @@ do_AddRef
 (
 static_cast
 <
-TabParent
+BrowserParent
 *
 >
 (
@@ -1306,9 +1306,9 @@ mIPCClosed
 {
 RefPtr
 <
-TabParent
+BrowserParent
 >
-tabParent
+browserParent
 =
 GetRemoteTab
 (
@@ -1317,11 +1317,11 @@ GetRemoteTab
 if
 (
 !
-tabParent
+browserParent
 |
 |
 !
-tabParent
+browserParent
 -
 >
 IsDestroyed
@@ -1571,9 +1571,9 @@ if
 (
 RefPtr
 <
-TabParent
+BrowserParent
 >
-tabParent
+browserParent
 =
 GetRemoteTab
 (
@@ -1582,7 +1582,7 @@ GetRemoteTab
 {
 remoteType
 =
-tabParent
+browserParent
 -
 >
 Manager
@@ -1996,7 +1996,7 @@ pull
 /
 our
 target
-TabParent
+BrowserParent
 off
 of
 it
@@ -2009,9 +2009,9 @@ an
 in
 -
 process
+/
+/
 frame
-/
-/
 so
 we
 can
@@ -2032,7 +2032,7 @@ MaybeResolve
 bridge
 -
 >
-GetTabParent
+GetBrowserParent
 (
 )
 )
@@ -2045,7 +2045,7 @@ promise
 >
 MaybeResolve
 (
-tabParent
+browserParent
 )
 ;
 }

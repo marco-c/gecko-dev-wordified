@@ -326,7 +326,7 @@ class
 ContentParent
 ;
 class
-TabParent
+BrowserParent
 ;
 }
 /

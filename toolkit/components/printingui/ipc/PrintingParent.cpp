@@ -132,7 +132,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -1672,11 +1672,11 @@ return
 nullptr
 ;
 }
-TabParent
+BrowserParent
 *
-tabParent
+browserParent
 =
-TabParent
+BrowserParent
 :
 :
 GetFrom
@@ -1687,7 +1687,7 @@ parent
 if
 (
 !
-tabParent
+browserParent
 )
 {
 return
@@ -1700,7 +1700,7 @@ Element
 >
 frameElement
 =
-tabParent
+browserParent
 -
 >
 GetOwnerElement

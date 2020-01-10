@@ -1176,10 +1176,10 @@ that
 we
 have
 told
-TabParent
+BrowserParent
+/
+/
 about
-/
-/
 (
 via
 ObserveLayerUpdate

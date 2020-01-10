@@ -2897,7 +2897,7 @@ reach
 /
 here
 because
-TabParent
+BrowserParent
 already
 lost
 the

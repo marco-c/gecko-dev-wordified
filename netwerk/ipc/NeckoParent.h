@@ -408,7 +408,7 @@ the
 request
 to
 the
-TabParent
+BrowserParent
 in
 the
 remote

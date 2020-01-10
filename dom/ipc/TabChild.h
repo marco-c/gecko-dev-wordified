@@ -3665,7 +3665,7 @@ the
 native
 window
 its
-TabParent
+BrowserParent
 is
 in
 .

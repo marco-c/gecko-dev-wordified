@@ -500,14 +500,14 @@ msgData
 ;
 RefPtr
 <
-TabParent
+BrowserParent
 >
-tabParent
+browserParent
 =
 mManager
 -
 >
-GetTabParent
+GetBrowserParent
 (
 )
 ;
@@ -515,7 +515,7 @@ ContentParent
 *
 cp
 =
-tabParent
+browserParent
 -
 >
 Manager

@@ -1225,7 +1225,7 @@ IME
 commits
 composition
 synchronously
-TabParent
+BrowserParent
 returns
 the
 commit
@@ -1257,7 +1257,7 @@ sent
 /
 /
 to
-TabParent
+BrowserParent
 .
 (
 If
@@ -1267,9 +1267,9 @@ composition
 asynchronously
 this
 message
+/
+/
 is
-/
-/
 not
 used
 .

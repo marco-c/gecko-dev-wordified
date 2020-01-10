@@ -769,7 +769,7 @@ bounce
 it
 to
 the
-TabParent
+BrowserParent
 via
 *
 the

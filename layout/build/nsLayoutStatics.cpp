@@ -975,7 +975,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -1918,7 +1918,7 @@ mozilla
 dom
 :
 :
-TabParent
+BrowserParent
 :
 :
 InitializeStatics
