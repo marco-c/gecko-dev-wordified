@@ -39759,12 +39759,6 @@ return
 Finished
 ;
 }
-SweepingTracer
-trc
-(
-rt
-)
-;
 if
 (
 !
@@ -39776,10 +39770,8 @@ atomsForSweeping
 )
 -
 >
-traceWeakIncrementally
+sweepIncrementally
 (
-&
-trc
 maybeAtoms
 .
 ref

@@ -1223,11 +1223,8 @@ we
 finished
 .
 bool
-traceWeakIncrementally
+sweepIncrementally
 (
-JSTracer
-*
-trc
 SweepIterator
 &
 atomsToSweep
