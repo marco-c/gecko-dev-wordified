@@ -202,7 +202,7 @@ GetPlatform
 void
 ReadSystemFontList
 (
-InfallibleTArray
+nsTArray
 <
 mozilla
 :

@@ -230,7 +230,7 @@ content
 void
 GetSystemFontList
 (
-InfallibleTArray
+nsTArray
 <
 FontListEntry
 >

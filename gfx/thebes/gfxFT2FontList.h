@@ -736,7 +736,7 @@ fontlist
 void
 AddFacesToFontList
 (
-InfallibleTArray
+nsTArray
 <
 FontListEntry
 >
@@ -812,7 +812,7 @@ WriteCache
 void
 GetSystemFontList
 (
-InfallibleTArray
+nsTArray
 <
 FontListEntry
 >

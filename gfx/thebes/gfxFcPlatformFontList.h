@@ -1513,7 +1513,7 @@ override
 void
 ReadSystemFontList
 (
-InfallibleTArray
+nsTArray
 <
 mozilla
 :

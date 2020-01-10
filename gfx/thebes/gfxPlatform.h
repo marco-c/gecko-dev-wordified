@@ -2016,7 +2016,7 @@ virtual
 void
 ReadSystemFontList
 (
-InfallibleTArray
+nsTArray
 <
 mozilla
 :

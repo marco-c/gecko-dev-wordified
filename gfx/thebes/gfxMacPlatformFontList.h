@@ -855,7 +855,7 @@ sizes
 void
 ReadSystemFontList
 (
-InfallibleTArray
+nsTArray
 <
 mozilla
 :

@@ -4498,7 +4498,7 @@ FT2FontFamily
 :
 AddFacesToFontList
 (
-InfallibleTArray
+nsTArray
 <
 FontListEntry
 >
@@ -8641,7 +8641,7 @@ give
 us
 the
 list
-InfallibleTArray
+nsTArray
 <
 FontListEntry
 >
@@ -10148,7 +10148,7 @@ gfxFT2FontList
 :
 GetSystemFontList
 (
-InfallibleTArray
+nsTArray
 <
 FontListEntry
 >

@@ -1570,7 +1570,7 @@ gfxPlatformGtk
 :
 ReadSystemFontList
 (
-InfallibleTArray
+nsTArray
 <
 SystemFontListEntry
 >
