@@ -306,6 +306,13 @@ RefPtr
 Blob
 >
 newBlob
+;
+if
+(
+blob
+)
+{
+newBlob
 =
 Blob
 :
@@ -321,6 +328,7 @@ Impl
 )
 )
 ;
+}
 RefPtr
 <
 BlobCallback
