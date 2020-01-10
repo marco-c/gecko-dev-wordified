@@ -226,7 +226,7 @@ field
 items
 )
 :
-   
+    
 assert
 obj
 [
@@ -235,7 +235,7 @@ field
 in
 items
 \
-        
+         
 '
 Field
 "
@@ -533,16 +533,16 @@ spec_json
     
 assert_contains_only_fields
 (
+        
 spec_json
+        
 [
 "
 specification
 "
-                                            
 "
 test_expansion_schema
 "
-                                            
 "
 excluded_tests
 "
@@ -650,25 +650,24 @@ assert_contains_only_fields
 (
 spec
 [
+            
 '
 name
 '
-                                           
 '
 title
 '
-                                           
 '
 description
 '
-                                           
 '
 specification_url
 '
-                                           
+            
 '
 test_expansion
 '
+        
 ]
 )
         
@@ -846,37 +845,33 @@ assert_contains_only_fields
 (
 test_expansion_schema
 [
+        
 '
 expansion
 '
-                                                        
 '
 source_scheme
 '
-                                                        
 '
 opt_in_method
 '
-                                                        
 '
 context_nesting
 '
-                                                        
+        
 '
 redirection
 '
-                                                        
 '
 subresource
 '
-                                                        
 '
 origin
 '
-                                                        
 '
 expectation
 '
+    
 ]
 )
     
@@ -934,11 +929,9 @@ artifact
             
 assert_valid_artifact
 (
-                
 excluded_test_expansion
-                
 artifact
-                
+                                  
 test_expansion_schema
 [
 artifact
@@ -1028,7 +1021,6 @@ spec_json
 load_spec_json
 (
 )
-;
     
 assert_valid_spec_json
 (
