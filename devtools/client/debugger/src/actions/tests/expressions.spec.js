@@ -1092,7 +1092,7 @@ dispatch
 (
 actions
 .
-newSource
+newGeneratedSource
 (
 makeSource
 (
@@ -1328,7 +1328,7 @@ dispatch
 (
 actions
 .
-newSource
+newGeneratedSource
 (
 makeSource
 (
@@ -1346,7 +1346,7 @@ dispatch
 (
 actions
 .
-newSource
+newGeneratedSource
 (
 makeSource
 (

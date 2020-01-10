@@ -106,7 +106,7 @@ Footer
 ;
 import
 {
-makeSource
+createSourceObject
 }
 from
 "
@@ -214,7 +214,7 @@ endPanelCollapsed
 false
 selectedSource
 :
-makeSource
+createSourceObject
 (
 "
 foo

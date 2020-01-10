@@ -528,7 +528,7 @@ dispatch
 (
 actions
 .
-newSource
+newGeneratedSource
 (
 makeSource
 (
