@@ -548,6 +548,12 @@ mWaylandFrameDelay
 endif
 protected
 :
+void
+InitPlatformGPUProcessPrefs
+(
+)
+override
+;
 bool
 CheckVariationFontSupport
 (

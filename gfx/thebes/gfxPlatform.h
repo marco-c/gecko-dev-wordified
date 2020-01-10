@@ -5226,6 +5226,13 @@ InitGPUProcessPrefs
 (
 )
 ;
+virtual
+void
+InitPlatformGPUProcessPrefs
+(
+)
+{
+}
 void
 InitOMTPConfig
 (
