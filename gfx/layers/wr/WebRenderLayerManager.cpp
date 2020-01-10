@@ -4674,16 +4674,6 @@ EnsureDevicesInitialized
 (
 )
 ;
-if
-(
-StaticPrefs
-:
-:
-PersistentBufferProviderSharedEnabled
-(
-)
-)
-{
 RefPtr
 <
 PersistentBufferProvider
@@ -4714,7 +4704,6 @@ forget
 (
 )
 ;
-}
 }
 return
 LayerManager

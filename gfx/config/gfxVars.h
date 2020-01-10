@@ -453,6 +453,14 @@ nsCString
 (
 )
 )
+\
+_
+(
+RemoteCanvasEnabled
+bool
+false
+)
+\
 /
 *
 Add

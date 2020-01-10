@@ -5479,14 +5479,6 @@ if
 IsCompositingCheap
 (
 )
-&
-&
-StaticPrefs
-:
-:
-PersistentBufferProviderSharedEnabled
-(
-)
 )
 {
 RefPtr
