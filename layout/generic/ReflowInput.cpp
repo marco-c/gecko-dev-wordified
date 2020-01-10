@@ -1568,6 +1568,12 @@ false
 ;
 mFlags
 .
+mColumnSetWrapperHasNoBSizeLeft
+=
+false
+;
+mFlags
+.
 mIsFlexContainerMeasuringBSize
 =
 false
