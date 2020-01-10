@@ -433,6 +433,7 @@ INSTANTIATE_ALL_VALID_TRACE_FUNCTIONS
 name
 type
 _
+_1
 )
 \
 template
