@@ -131,6 +131,13 @@ h
 #
 include
 "
+nsIBoxObject
+.
+h
+"
+#
+include
+"
 nsTreeColumns
 .
 h
