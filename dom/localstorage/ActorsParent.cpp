@@ -16302,7 +16302,7 @@ UsageHashtable
 )
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 gUsages
