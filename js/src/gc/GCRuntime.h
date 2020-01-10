@@ -2375,7 +2375,7 @@ true
 ;
 }
 void
-updateMallocCountersOnGCStart
+updateMemoryCountersOnGCStart
 (
 )
 ;
