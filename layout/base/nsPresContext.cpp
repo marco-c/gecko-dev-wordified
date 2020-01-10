@@ -5236,6 +5236,7 @@ nsPresContext
 GetRootWidget
 (
 )
+const
 {
 NS_ENSURE_TRUE
 (

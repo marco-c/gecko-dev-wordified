@@ -1210,7 +1210,7 @@ aFocus
 aFocus
 -
 >
-GetWidget
+GetTextInputHandlingWidget
 (
 )
 :
@@ -3101,7 +3101,7 @@ aPresContext
 aPresContext
 -
 >
-GetRootWidget
+GetTextInputHandlingWidget
 (
 )
 :
@@ -5213,7 +5213,7 @@ MOZ_ASSERT
 sPresContext
 -
 >
-GetRootWidget
+GetTextInputHandlingWidget
 (
 )
 |
@@ -5221,7 +5221,7 @@ GetRootWidget
 sPresContext
 -
 >
-GetRootWidget
+GetTextInputHandlingWidget
 (
 )
 =
@@ -6442,7 +6442,7 @@ MOZ_ASSERT
 sPresContext
 -
 >
-GetRootWidget
+GetTextInputHandlingWidget
 (
 )
 |
@@ -6450,7 +6450,7 @@ GetRootWidget
 sPresContext
 -
 >
-GetRootWidget
+GetTextInputHandlingWidget
 (
 )
 =
@@ -7912,7 +7912,7 @@ MOZ_ASSERT
 sPresContext
 -
 >
-GetRootWidget
+GetTextInputHandlingWidget
 (
 )
 |
@@ -7920,7 +7920,7 @@ GetRootWidget
 sPresContext
 -
 >
-GetRootWidget
+GetTextInputHandlingWidget
 (
 )
 =
@@ -11435,7 +11435,7 @@ browserParentWidget
 aBrowserParent
 -
 >
-GetWidget
+GetTextInputHandlingWidget
 (
 )
 ;
@@ -12181,7 +12181,7 @@ widget
 aPresContext
 -
 >
-GetRootWidget
+GetTextInputHandlingWidget
 (
 )
 ;
@@ -13016,7 +13016,7 @@ MOZ_ASSERT
 sPresContext
 -
 >
-GetRootWidget
+GetTextInputHandlingWidget
 (
 )
 =
