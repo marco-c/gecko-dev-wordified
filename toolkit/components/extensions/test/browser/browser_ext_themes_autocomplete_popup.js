@@ -1022,7 +1022,7 @@ equal
 (
 root
 .
-getAttribute
+hasAttribute
 (
 "
 lwt
@@ -1032,8 +1032,7 @@ popup
 brighttext
 "
 )
-"
-"
+false
 "
 brighttext
 should
@@ -1455,7 +1454,7 @@ equal
 (
 root
 .
-getAttribute
+hasAttribute
 (
 "
 lwt
@@ -1465,8 +1464,7 @@ popup
 darktext
 "
 )
-"
-"
+false
 "
 darktext
 should
@@ -1511,7 +1509,7 @@ equal
 (
 root
 .
-getAttribute
+hasAttribute
 (
 "
 lwt
@@ -1521,8 +1519,7 @@ popup
 brighttext
 "
 )
-"
-"
+false
 "
 brighttext
 should
@@ -1539,7 +1536,7 @@ equal
 (
 root
 .
-getAttribute
+hasAttribute
 (
 "
 lwt
@@ -1549,8 +1546,7 @@ popup
 darktext
 "
 )
-"
-"
+false
 "
 darktext
 should
