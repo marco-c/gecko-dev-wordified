@@ -300,14 +300,6 @@ aForm
 nsGenericHTMLElement
 *
 aOriginatingElement
-NotNull
-<
-const
-Encoding
-*
->
-&
-aEncoding
 HTMLFormSubmission
 *
 *
