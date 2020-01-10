@@ -1326,6 +1326,9 @@ initWithEnclosingParseContext
 ParseContext
 *
 enclosing
+JSFunction
+*
+fun
 FunctionSyntaxKind
 kind
 )
@@ -1360,14 +1363,6 @@ asFunctionBox
 -
 >
 useAsmOrInsideUseAsm
-(
-)
-;
-JSFunction
-*
-fun
-=
-function
 (
 )
 ;
@@ -1601,6 +1596,9 @@ initFieldInitializer
 ParseContext
 *
 enclosing
+JSFunction
+*
+fun
 HasHeritage
 hasHeritage
 )
@@ -1611,6 +1609,7 @@ this
 initWithEnclosingParseContext
 (
 enclosing
+fun
 FunctionSyntaxKind
 :
 :

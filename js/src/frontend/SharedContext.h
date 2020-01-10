@@ -2928,6 +2928,9 @@ initWithEnclosingParseContext
 ParseContext
 *
 enclosing
+JSFunction
+*
+fun
 FunctionSyntaxKind
 kind
 )
@@ -2938,6 +2941,9 @@ initFieldInitializer
 ParseContext
 *
 enclosing
+JSFunction
+*
+fun
 HasHeritage
 hasHeritage
 )

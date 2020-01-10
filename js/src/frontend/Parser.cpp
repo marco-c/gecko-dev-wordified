@@ -16202,6 +16202,7 @@ funbox
 initWithEnclosingParseContext
 (
 pc_
+fun
 kind
 )
 ;
@@ -16971,6 +16972,7 @@ funbox
 initWithEnclosingParseContext
 (
 outerpc
+fun
 kind
 )
 ;
@@ -41838,6 +41840,7 @@ funbox
 initWithEnclosingParseContext
 (
 pc_
+fun
 functionSyntaxKind
 )
 ;
@@ -42860,6 +42863,7 @@ funbox
 initFieldInitializer
 (
 pc_
+fun
 hasHeritage
 )
 ;
