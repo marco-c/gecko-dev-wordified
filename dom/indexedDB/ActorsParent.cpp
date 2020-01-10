@@ -89864,12 +89864,6 @@ persistenceType
 suffix
 group
 origin
-/
-*
-aCreateIfNotExists
-*
-/
-true
 getter_AddRefs
 (
 directory
@@ -103812,12 +103806,6 @@ persistenceType
 mSuffix
 mGroup
 mOrigin
-/
-*
-aCreateIfNotExists
-*
-/
-true
 getter_AddRefs
 (
 dbDirectory
