@@ -2965,7 +2965,7 @@ src
 Step
 7
 .
-StringBuffer
+JSStringBuilder
 sb
 (
 cx

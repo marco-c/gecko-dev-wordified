@@ -16190,7 +16190,7 @@ return
 desc
 ;
 }
-StringBuffer
+JSStringBuilder
 buf
 (
 cx

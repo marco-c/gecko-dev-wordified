@@ -14068,7 +14068,7 @@ hex
 dump
 )
 .
-StringBuffer
+JSStringBuilder
 result
 (
 cx

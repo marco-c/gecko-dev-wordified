@@ -45332,7 +45332,7 @@ get
 (
 )
 ;
-StringBuffer
+JSStringBuilder
 out
 (
 cx
@@ -45655,7 +45655,7 @@ get
 (
 )
 ;
-StringBuffer
+JSStringBuilder
 out
 (
 cx

@@ -9683,7 +9683,7 @@ return
 false
 ;
 }
-StringBuffer
+JSStringBuilder
 result
 (
 cx

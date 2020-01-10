@@ -76,7 +76,7 @@ override
 js
 :
 :
-StringBuffer
+JSStringBuilder
 buffer
 (
 cx
@@ -745,7 +745,7 @@ cx
 js
 :
 :
-StringBuffer
+JSStringBuilder
 buffer
 (
 cx
@@ -924,7 +924,7 @@ cx
 js
 :
 :
-StringBuffer
+JSStringBuilder
 buffer
 (
 cx

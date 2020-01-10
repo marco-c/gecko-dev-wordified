@@ -789,7 +789,7 @@ steps
 2
 -
 5
-StringBuffer
+JSStringBuilder
 sb
 (
 cx

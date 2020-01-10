@@ -2293,7 +2293,7 @@ false
 Step
 3
 .
-StringBuffer
+JSStringBuilder
 sb
 (
 cx
@@ -3279,7 +3279,7 @@ return
 false
 ;
 }
-StringBuffer
+JSStringBuilder
 sb
 (
 cx
@@ -17869,7 +17869,7 @@ this
 .
 *
 /
-StringBuffer
+JSStringBuilder
 newReplaceChars
 (
 cx
@@ -18597,7 +18597,7 @@ return
 nullptr
 ;
 }
-StringBuffer
+JSStringBuilder
 sb
 (
 cx
@@ -24308,7 +24308,7 @@ inline
 bool
 TransferBufferToString
 (
-StringBuffer
+JSStringBuilder
 &
 sb
 JSString
@@ -25007,7 +25007,7 @@ return
 true
 ;
 }
-StringBuffer
+JSStringBuilder
 sb
 (
 cx
@@ -25799,7 +25799,7 @@ return
 true
 ;
 }
-StringBuffer
+JSStringBuilder
 sb
 (
 cx
@@ -26173,7 +26173,7 @@ size_t
 length
 )
 {
-StringBuffer
+JSStringBuilder
 sb
 (
 cx

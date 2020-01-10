@@ -6867,7 +6867,7 @@ realm
 js
 :
 :
-StringBuffer
+JSStringBuilder
 sb
 (
 cx

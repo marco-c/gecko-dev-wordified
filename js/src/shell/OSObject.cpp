@@ -4278,7 +4278,7 @@ path
 is
 appended
 .
-StringBuffer
+JSStringBuilder
 buffer
 (
 cx
