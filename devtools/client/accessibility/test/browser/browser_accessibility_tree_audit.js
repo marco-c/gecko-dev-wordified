@@ -37,7 +37,7 @@ strict
 *
 global
 toggleRow
-toggleBadge
+toggleFilter
 *
 /
 const
@@ -353,7 +353,8 @@ desc
 Click
 on
 the
-badge
+contrast
+filter
 .
 "
 setup
@@ -368,10 +369,9 @@ doc
 >
 {
 await
-toggleBadge
+toggleFilter
 (
 doc
-2
 0
 )
 ;
@@ -441,7 +441,8 @@ desc
 Click
 on
 the
-badge
+contrast
+filter
 again
 .
 "
@@ -457,10 +458,9 @@ doc
 >
 {
 await
-toggleBadge
+toggleFilter
 (
 doc
-0
 0
 )
 ;
@@ -599,7 +599,9 @@ auditing
 is
 activated
 via
-badge
+toolbar
+*
+filter
 .
 *
 /
@@ -615,8 +617,7 @@ tree
 with
 contrast
 badge
-audit
-activation
+present
 .
 "
 )

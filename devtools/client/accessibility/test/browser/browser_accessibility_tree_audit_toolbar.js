@@ -37,7 +37,6 @@ strict
 *
 global
 toggleRow
-toggleBadge
 toggleFilter
 *
 /
@@ -387,10 +386,9 @@ doc
 >
 {
 await
-toggleBadge
+toggleFilter
 (
 doc
-0
 0
 )
 ;
