@@ -30429,6 +30429,8 @@ is
 the
 first
 attempt
+or
+renegotiation
 .
 *
 /
@@ -30438,6 +30440,12 @@ type
 =
 =
 client_hello_initial
+|
+|
+type
+=
+=
+client_hello_renegotiation
 )
 {
 rv

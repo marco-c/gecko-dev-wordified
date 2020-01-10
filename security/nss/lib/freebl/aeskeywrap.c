@@ -1723,8 +1723,11 @@ args
 /
 if
 (
-!
 inputLen
+<
+2
+*
+AES_KEY_WRAP_BLOCK_SIZE
 |
 |
 0
