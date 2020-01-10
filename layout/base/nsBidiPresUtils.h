@@ -191,9 +191,6 @@ nsBlockFrame
 class
 nsPresContext
 ;
-class
-nsBlockInFlowLineIterator
-;
 struct
 nsSize
 ;
@@ -2867,9 +2864,6 @@ static
 void
 TraverseFrames
 (
-nsBlockInFlowLineIterator
-*
-aLineIter
 nsIFrame
 *
 aCurrentFrame
