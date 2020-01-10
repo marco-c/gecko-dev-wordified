@@ -96,7 +96,7 @@ jsm
 ;
 const
 {
-WebSocketTransport
+WebSocketDebuggerTransport
 }
 =
 ChromeUtils
@@ -122,7 +122,7 @@ jsm
 ;
 const
 {
-WebSocketHandshake
+WebSocketServer
 }
 =
 ChromeUtils
@@ -140,7 +140,7 @@ content
 /
 server
 /
-WebSocketHandshake
+WebSocket
 .
 jsm
 "
@@ -255,7 +255,7 @@ const
 so
 =
 await
-WebSocketHandshake
+WebSocketServer
 .
 upgrade
 (
@@ -267,7 +267,7 @@ const
 transport
 =
 new
-WebSocketTransport
+WebSocketDebuggerTransport
 (
 so
 )

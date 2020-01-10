@@ -92,7 +92,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-WebSocketTransport
+WebSocketDebuggerTransport
 "
 ]
 ;
@@ -121,7 +121,7 @@ jsm
 )
 ;
 function
-WebSocketTransport
+WebSocketDebuggerTransport
 (
 socket
 )
@@ -152,7 +152,7 @@ socket
 socket
 ;
 }
-WebSocketTransport
+WebSocketDebuggerTransport
 .
 prototype
 =
