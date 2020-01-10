@@ -177,6 +177,17 @@ h
 #
 include
 "
+nsIWeakReferenceUtils
+.
+h
+"
+/
+/
+for
+nsWeakPtr
+#
+include
+"
 nsPIDOMWindow
 .
 h

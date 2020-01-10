@@ -843,6 +843,11 @@ aBlocked
 ;
 }
 }
+void
+ReportLog
+(
+)
+;
 nsAutoCString
 Stringify
 (

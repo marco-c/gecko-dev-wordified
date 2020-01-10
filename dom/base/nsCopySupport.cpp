@@ -318,6 +318,13 @@ nsISimpleEnumerator
 .
 h
 "
+#
+include
+"
+nsGenericHTMLElement
+.
+h
+"
 /
 /
 image
