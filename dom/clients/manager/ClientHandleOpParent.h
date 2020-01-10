@@ -138,6 +138,13 @@ PClientHandleOpParent
 .
 h
 "
+#
+include
+"
+ClientHandleParent
+.
+h
+"
 namespace
 mozilla
 {
@@ -159,6 +166,12 @@ MozPromiseRequestHolder
 ClientOpPromise
 >
 mPromiseRequestHolder
+;
+MozPromiseRequestHolder
+<
+SourcePromise
+>
+mSourcePromiseRequestHolder
 ;
 ClientSourceParent
 *
