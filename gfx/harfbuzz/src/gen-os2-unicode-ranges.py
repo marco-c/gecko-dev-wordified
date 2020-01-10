@@ -1,4 +1,12 @@
 #
+!
+/
+usr
+/
+bin
+/
+python
+#
 -
 *
 -
@@ -71,7 +79,7 @@ spec
 /
 os2
 #
-ulunicoderange1
+ur
 )
 .
 from

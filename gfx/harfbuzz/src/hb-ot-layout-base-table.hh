@@ -840,6 +840,7 @@ format
 struct
 FeatMinMaxRecord
 {
+HB_INTERNAL
 static
 int
 cmp
@@ -1533,6 +1534,7 @@ baseCoords
 struct
 BaseLangSysRecord
 {
+HB_INTERNAL
 static
 int
 cmp
@@ -1952,6 +1954,7 @@ BaseScriptList
 struct
 BaseScriptRecord
 {
+HB_INTERNAL
 static
 int
 cmp

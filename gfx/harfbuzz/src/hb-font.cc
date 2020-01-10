@@ -1599,6 +1599,9 @@ return
 ret
 ;
 }
+#
+ifndef
+HB_DISABLE_DEPRECATED
 static
 hb_position_t
 hb_font_get_glyph_h_kerning_nil
@@ -1737,6 +1740,8 @@ bottom_glyph
 )
 ;
 }
+#
+endif
 static
 hb_bool_t
 hb_font_get_glyph_extents_nil
@@ -3735,6 +3740,9 @@ y
 )
 ;
 }
+#
+ifndef
+HB_DISABLE_DEPRECATED
 /
 *
 *
@@ -3871,6 +3879,8 @@ bottom_glyph
 )
 ;
 }
+#
+endif
 /
 *
 *
@@ -4632,6 +4642,9 @@ y
 )
 ;
 }
+#
+ifndef
+HB_DISABLE_DEPRECATED
 /
 *
 *
@@ -4723,6 +4736,8 @@ y
 )
 ;
 }
+#
+endif
 /
 *
 *
@@ -5329,6 +5344,9 @@ _hb_font_create
 face
 )
 ;
+#
+ifndef
+HB_NO_OT_FONT
 /
 *
 Install
@@ -5347,6 +5365,8 @@ hb_ot_font_set_funcs
 font
 )
 ;
+#
+endif
 return
 font
 ;
@@ -7516,6 +7536,9 @@ font
 coords
 ;
 }
+#
+ifndef
+HB_DISABLE_DEPRECATED
 /
 *
 *
@@ -8004,3 +8027,5 @@ trampoline_destroy
 )
 ;
 }
+#
+endif

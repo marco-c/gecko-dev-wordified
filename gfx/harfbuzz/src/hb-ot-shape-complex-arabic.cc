@@ -2831,6 +2831,13 @@ hb_buffer_t
 buffer
 )
 {
+#
+ifdef
+HB_NO_OT_SHAPE_COMPLEX_ARABIC_FALLBACK
+return
+;
+#
+endif
 const
 arabic_shape_plan_t
 *

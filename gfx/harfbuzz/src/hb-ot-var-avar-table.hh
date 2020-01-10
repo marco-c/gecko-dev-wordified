@@ -785,11 +785,7 @@ unsigned
 int
 count
 =
-MIN
-<
-unsigned
-int
->
+hb_min
 (
 coords_length
 axisCount

@@ -1198,7 +1198,7 @@ unsigned
 int
 requested_ppem
 =
-MAX
+hb_max
 (
 font
 -
@@ -1538,7 +1538,7 @@ if
 strike_ppem
 )
 {
-double
+float
 scale
 =
 font
@@ -1552,7 +1552,7 @@ get_upem
 )
 /
 (
-double
+float
 )
 strike_ppem
 ;
@@ -1561,7 +1561,7 @@ extents
 >
 x_bearing
 =
-round
+roundf
 (
 extents
 -
@@ -1576,7 +1576,7 @@ extents
 >
 y_bearing
 =
-round
+roundf
 (
 extents
 -
@@ -1591,7 +1591,7 @@ extents
 >
 width
 =
-round
+roundf
 (
 extents
 -
@@ -1606,7 +1606,7 @@ extents
 >
 height
 =
-round
+roundf
 (
 extents
 -

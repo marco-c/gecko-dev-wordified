@@ -1077,7 +1077,7 @@ unsigned
 int
 len
 =
-MIN
+hb_min
 (
 feature_count
 -

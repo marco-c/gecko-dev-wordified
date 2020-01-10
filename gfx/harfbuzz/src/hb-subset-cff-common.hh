@@ -1103,13 +1103,10 @@ return_trace
 false
 )
 ;
+*
 p
--
->
-set
-(
+=
 OpCode_Private
-)
 ;
 return_trace
 (

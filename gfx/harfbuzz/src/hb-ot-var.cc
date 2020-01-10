@@ -446,6 +446,9 @@ get_axis_count
 )
 ;
 }
+#
+ifndef
+HB_DISABLE_DEPRECATED
 /
 *
 *
@@ -580,6 +583,8 @@ axis_info
 )
 ;
 }
+#
+endif
 /
 *
 *

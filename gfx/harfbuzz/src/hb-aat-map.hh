@@ -328,6 +328,7 @@ only
 .
 *
 /
+HB_INTERNAL
 static
 int
 cmp
@@ -467,7 +468,7 @@ face
 ;
 public
 :
-hb_vector_t
+hb_sorted_vector_t
 <
 feature_info_t
 >

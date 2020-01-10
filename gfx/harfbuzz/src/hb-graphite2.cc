@@ -976,6 +976,9 @@ HB_UNUSED
 )
 {
 }
+#
+ifndef
+HB_DISABLE_DEPRECATED
 /
 *
 *
@@ -1015,6 +1018,8 @@ return
 nullptr
 ;
 }
+#
+endif
 /
 *
 *
@@ -1565,6 +1570,7 @@ Type
 scratch
 ;
 \
+do
 {
 \
 unsigned
@@ -1611,6 +1617,10 @@ _consumed
 ;
 \
 }
+while
+(
+0
+)
 ALLOCATE_ARRAY
 (
 hb_graphite2_cluster_t

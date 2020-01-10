@@ -532,11 +532,8 @@ post_prime
 version
 .
 major
-.
-set
-(
+=
 3
-)
 ;
 /
 /
@@ -797,7 +794,7 @@ unsigned
 int
 len
 =
-MIN
+hb_min
 (
 buf_len
 -

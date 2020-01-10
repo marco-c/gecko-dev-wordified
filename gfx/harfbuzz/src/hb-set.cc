@@ -1431,6 +1431,9 @@ other
 )
 ;
 }
+#
+ifndef
+HB_DISABLE_DEPRECATED
 /
 *
 *
@@ -1476,6 +1479,8 @@ HB_UNUSED
 )
 {
 }
+#
+endif
 /
 *
 *

@@ -199,6 +199,13 @@ font
 HB_UNUSED
 )
 {
+#
+ifdef
+HB_NO_OT_SHAPE_COMPLEX_VOWEL_CONSTRAINTS
+return
+;
+#
+endif
 if
 (
 buffer

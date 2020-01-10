@@ -529,7 +529,6 @@ assert
 )
 ;
 }
-;
 info
 .
 khmer_category

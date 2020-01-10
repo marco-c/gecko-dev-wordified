@@ -247,6 +247,13 @@ int
 value
 )
 {
+#
+ifdef
+HB_NO_SHAPE_AAT
+return
+;
+#
+endif
 if
 (
 tag
@@ -365,6 +372,13 @@ hb_aat_map_t
 m
 )
 {
+#
+ifdef
+HB_NO_SHAPE_AAT
+return
+;
+#
+endif
 /
 *
 Sort

@@ -308,7 +308,7 @@ hb_ot_color_palette_flags_t
 *
 HB_OT_COLOR_PALETTE_FLAG_DEFAULT
 :
-default
+Default
 indicating
 that
 there
@@ -326,7 +326,7 @@ palette
 *
 HB_OT_COLOR_PALETTE_FLAG_USABLE_WITH_LIGHT_BACKGROUND
 :
-flag
+Flag
 indicating
 that
 the
@@ -352,7 +352,7 @@ white
 *
 HB_OT_COLOR_PALETTE_FLAG_USABLE_WITH_DARK_BACKGROUND
 :
-flag
+Flag
 indicating
 that
 the
@@ -539,7 +539,7 @@ start_offset
 unsigned
 int
 *
-count
+layer_count
 /
 *
 IN

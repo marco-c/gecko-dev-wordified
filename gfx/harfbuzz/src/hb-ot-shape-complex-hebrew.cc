@@ -480,6 +480,14 @@ b
 ab
 )
 ;
+#
+ifdef
+HB_NO_OT_SHAPE_COMPLEX_HEBREW_FALLBACK
+return
+found
+;
+#
+endif
 if
 (
 !
