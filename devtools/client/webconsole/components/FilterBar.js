@@ -367,13 +367,6 @@ PropTypes
 object
 .
 isRequired
-attachRefToWebConsoleUI
-:
-PropTypes
-.
-func
-.
-isRequired
 persistLogs
 :
 PropTypes

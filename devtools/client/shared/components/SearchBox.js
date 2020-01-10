@@ -288,8 +288,6 @@ type
 PropTypes
 .
 string
-.
-isRequired
 }
 ;
 }
