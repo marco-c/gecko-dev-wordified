@@ -282,7 +282,12 @@ kilobytes
 .
 {
 return
-sDiskFreeSpaceHardLimit
+StaticPrefs
+:
+:
+browser_cache_disk_free_space_hard_limit
+(
+)
 ;
 }
 static
@@ -581,10 +586,6 @@ uint32_t
 Relaxed
 >
 sDiskCacheCapacity
-;
-static
-uint32_t
-sDiskFreeSpaceHardLimit
 ;
 static
 uint32_t
