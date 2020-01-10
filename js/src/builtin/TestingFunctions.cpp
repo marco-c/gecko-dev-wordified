@@ -15065,7 +15065,7 @@ PromiseObject
 ;
 if
 (
-IsPromiseForAsync
+IsPromiseForAsyncFunctionOrGenerator
 (
 promise
 )
@@ -15077,6 +15077,8 @@ cx
 "
 async
 function
+/
+generator
 '
 s
 promise
@@ -15642,7 +15644,7 @@ false
 }
 if
 (
-IsPromiseForAsync
+IsPromiseForAsyncFunctionOrGenerator
 (
 promise
 )
@@ -15654,6 +15656,8 @@ cx
 "
 async
 function
+/
+generator
 '
 s
 promise
@@ -15885,7 +15889,7 @@ false
 }
 if
 (
-IsPromiseForAsync
+IsPromiseForAsyncFunctionOrGenerator
 (
 promise
 )
@@ -15897,6 +15901,8 @@ cx
 "
 async
 function
+/
+generator
 '
 s
 promise
