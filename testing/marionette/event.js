@@ -2629,6 +2629,9 @@ keyCode
 )
 {
 throw
+new
+Error
+(
 "
 Unknown
 key
@@ -2636,6 +2639,7 @@ key
 "
 +
 key
+)
 ;
 }
 keyName

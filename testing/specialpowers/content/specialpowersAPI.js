@@ -1206,6 +1206,9 @@ obj
 )
 )
 throw
+new
+Error
+(
 "
 Trying
 to
@@ -1215,6 +1218,7 @@ wrap
 object
 !
 "
+)
 ;
 let
 dummy
@@ -1365,6 +1369,9 @@ x
 )
 )
 throw
+new
+Error
+(
 "
 Trying
 to
@@ -1376,6 +1383,7 @@ wrapped
 object
 !
 "
+)
 ;
 var
 obj
@@ -1930,6 +1938,9 @@ descriptor
 )
 {
 throw
+new
+Error
+(
 "
 Can
 '
@@ -1941,6 +1952,7 @@ SpecialPowers
 wrapped
 object
 "
+)
 ;
 }
 getOwnPropertyDescriptor
@@ -2362,6 +2374,9 @@ target
 )
 {
 throw
+new
+Error
+(
 "
 Can
 '
@@ -2373,6 +2388,7 @@ SpecialPowers
 wrapped
 object
 "
+)
 ;
 }
 }
@@ -3036,6 +3052,9 @@ obj
 )
 )
 throw
+new
+Error
+(
 "
 You
 only
@@ -3048,6 +3067,7 @@ SpecialPowers
 wrapped
 objects
 "
+)
 ;
 obj
 =
@@ -4540,6 +4560,9 @@ hadError
 )
 {
 throw
+new
+Error
+(
 "
 SpecialPowers
 .
@@ -4552,6 +4575,7 @@ error
 message
 .
 errorMessage
+)
 ;
 }
 }
