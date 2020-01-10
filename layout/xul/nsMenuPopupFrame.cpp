@@ -5673,13 +5673,11 @@ activeESM
 )
 ;
 }
-nsIPresShell
+PresShell
 :
 :
-SetCapturingContent
+ReleaseCapturingContent
 (
-nullptr
-0
 )
 ;
 }

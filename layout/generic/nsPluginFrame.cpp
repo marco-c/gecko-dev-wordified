@@ -10105,7 +10105,7 @@ mMessage
 eMouseDown
 )
 {
-nsIPresShell
+PresShell
 :
 :
 SetCapturingContent
@@ -10113,7 +10113,10 @@ SetCapturingContent
 GetContent
 (
 )
-CAPTURE_IGNOREALLOWED
+CaptureFlags
+:
+:
+IgnoreAllowedState
 )
 ;
 }
@@ -10172,13 +10175,11 @@ mMessage
 eMouseUp
 )
 {
-nsIPresShell
+PresShell
 :
 :
-SetCapturingContent
+ReleaseCapturingContent
 (
-nullptr
-0
 )
 ;
 }

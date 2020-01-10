@@ -4540,13 +4540,11 @@ active
 window
 has
 changed
-nsIPresShell
+PresShell
 :
 :
-SetCapturingContent
+ReleaseCapturingContent
 (
-nullptr
-0
 )
 ;
 /

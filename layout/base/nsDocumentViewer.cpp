@@ -18852,13 +18852,10 @@ prefWidth
 aMaxHeight
 0
 0
-mozilla
-:
-:
 ResizeReflowOptions
 :
 :
-eBSizeLimit
+BSizeLimit
 )
 ;
 NS_ENSURE_SUCCESS

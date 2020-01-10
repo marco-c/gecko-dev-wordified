@@ -527,7 +527,7 @@ true
 start
 capture
 .
-nsIPresShell
+PresShell
 :
 :
 SetCapturingContent
@@ -535,7 +535,10 @@ SetCapturingContent
 GetContent
 (
 )
-CAPTURE_IGNOREALLOWED
+CaptureFlags
+:
+:
+IgnoreAllowedState
 )
 ;
 /
@@ -609,13 +612,11 @@ false
 /
 end
 capture
-nsIPresShell
+PresShell
 :
 :
-SetCapturingContent
+ReleaseCapturingContent
 (
-nullptr
-0
 )
 ;
 *

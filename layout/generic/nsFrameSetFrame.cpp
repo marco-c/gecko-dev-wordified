@@ -8194,7 +8194,7 @@ dragger
 ;
 #
 endif
-nsIPresShell
+PresShell
 :
 :
 SetCapturingContent
@@ -8202,7 +8202,10 @@ SetCapturingContent
 GetContent
 (
 )
-CAPTURE_IGNOREALLOWED
+CaptureFlags
+:
+:
+IgnoreAllowedState
 )
 ;
 mDragger
@@ -8823,13 +8826,11 @@ nsPresContext
 aPresContext
 )
 {
-nsIPresShell
+PresShell
 :
 :
-SetCapturingContent
+ReleaseCapturingContent
 (
-nullptr
-0
 )
 ;
 mDragger

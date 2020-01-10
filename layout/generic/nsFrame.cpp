@@ -30188,7 +30188,7 @@ do_QueryFrame
 scrollFrame
 )
 ;
-nsIPresShell
+PresShell
 :
 :
 SetCapturingContent
@@ -30199,7 +30199,10 @@ capturingFrame
 GetContent
 (
 )
-CAPTURE_IGNOREALLOWED
+CaptureFlags
+:
+:
+IgnoreAllowedState
 )
 ;
 }
@@ -32722,13 +32725,11 @@ mouse
 button
 is
 up
-nsIPresShell
+PresShell
 :
 :
-SetCapturingContent
+ReleaseCapturingContent
 (
-nullptr
-0
 )
 ;
 bool
