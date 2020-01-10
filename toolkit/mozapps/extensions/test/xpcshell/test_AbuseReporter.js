@@ -1488,7 +1488,7 @@ policy
 ]
 [
 "
-file_uri
+file_url
 "
 {
 source
@@ -1496,7 +1496,7 @@ source
 "
 file
 -
-uri
+url
 "
 }
 ]
@@ -1586,6 +1586,13 @@ sideload
 "
 {
 source
+:
+"
+app
+-
+profile
+"
+method
 :
 "
 sideload
