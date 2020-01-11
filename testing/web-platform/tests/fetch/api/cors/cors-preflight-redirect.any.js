@@ -186,6 +186,7 @@ function
 test
 )
 {
+return
 fetch
 (
 RESOURCES_DIR
