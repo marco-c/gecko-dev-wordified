@@ -1053,6 +1053,15 @@ UniquePtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+WrappingOperations
+.
+h
+"
 namespace
 mozilla
 {
@@ -14446,9 +14455,9 @@ aDoubleHash
 )
 {
 return
+WrappingSubtract
 (
 aHash1
--
 aDoubleHash
 .
 mHash2
