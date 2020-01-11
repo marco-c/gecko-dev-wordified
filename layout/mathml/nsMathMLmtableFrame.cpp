@@ -236,6 +236,15 @@ mozilla
 :
 image
 ;
+using
+mozilla
+:
+:
+dom
+:
+:
+Element
+;
 /
 /
 /

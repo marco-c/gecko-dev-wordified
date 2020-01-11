@@ -364,6 +364,9 @@ bool
 aNotify
 )
 {
+dom
+:
+:
 Element
 *
 element

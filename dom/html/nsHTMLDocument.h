@@ -415,7 +415,12 @@ override
 ;
 public
 :
-virtual
+mozilla
+:
+:
+dom
+:
+:
 Element
 *
 GetUnfocusedKeyEventTarget
@@ -836,6 +841,12 @@ static
 bool
 MatchFormControls
 (
+mozilla
+:
+:
+dom
+:
+:
 Element
 *
 aElement

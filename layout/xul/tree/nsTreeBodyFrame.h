@@ -1157,6 +1157,12 @@ mVScrollbar
 ;
 RefPtr
 <
+mozilla
+:
+:
+dom
+:
+:
 Element
 >
 mVScrollbarContent
@@ -1167,6 +1173,12 @@ mHScrollbar
 ;
 RefPtr
 <
+mozilla
+:
+:
+dom
+:
+:
 Element
 >
 mHScrollbarContent

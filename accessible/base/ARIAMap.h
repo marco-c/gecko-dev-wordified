@@ -2160,9 +2160,6 @@ element
 uint64_t
 UniversalStatesFor
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -2288,6 +2285,9 @@ aContent
 :
 mElement
 (
+dom
+:
+:
 Element
 :
 :

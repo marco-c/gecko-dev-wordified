@@ -1388,6 +1388,12 @@ dom
 Document
 *
 aDoc
+mozilla
+:
+:
+dom
+:
+:
 Element
 *
 aElement

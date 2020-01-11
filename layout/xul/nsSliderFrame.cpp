@@ -3940,6 +3940,9 @@ ifdef
 MOZ_WIDGET_GTK
 RefPtr
 <
+dom
+:
+:
 Element
 >
 thumb
@@ -5045,6 +5048,9 @@ static
 void
 UpdateAttribute
 (
+dom
+:
+:
 Element
 *
 aScrollbar
@@ -6894,6 +6900,9 @@ ifdef
 MOZ_WIDGET_GTK
 RefPtr
 <
+dom
+:
+:
 Element
 >
 thumb
@@ -7060,6 +7069,9 @@ thumbFrame
 {
 RefPtr
 <
+dom
+:
+:
 Element
 >
 thumb

@@ -891,6 +891,12 @@ using
 dom
 :
 :
+Element
+;
+using
+dom
+:
+:
 EventTarget
 ;
 using
@@ -13640,8 +13646,11 @@ can
 run
 script
 .
-nsCOMPtr
+RefPtr
 <
+dom
+:
+:
 Element
 >
 element

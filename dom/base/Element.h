@@ -165,13 +165,6 @@ h
 #
 include
 "
-DOMIntersectionObserver
-.
-h
-"
-#
-include
-"
 nsAttrValue
 .
 h

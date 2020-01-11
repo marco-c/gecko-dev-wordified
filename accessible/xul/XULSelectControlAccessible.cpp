@@ -653,6 +653,9 @@ index
 {
 RefPtr
 <
+dom
+:
+:
 Element
 >
 element
@@ -717,6 +720,9 @@ AsXULSelectControl
 ;
 RefPtr
 <
+dom
+:
+:
 Element
 >
 element
@@ -790,6 +796,9 @@ AsXULMultiSelectControl
 ;
 RefPtr
 <
+dom
+:
+:
 Element
 >
 element
@@ -1594,6 +1603,9 @@ nullptr
 ;
 RefPtr
 <
+dom
+:
+:
 Element
 >
 currentItemElm
@@ -1713,6 +1725,9 @@ return
 ;
 nsCOMPtr
 <
+dom
+:
+:
 Element
 >
 itemElm

@@ -1068,9 +1068,6 @@ mozIDOMWindowProxy
 aDOMWindow
 )
 ;
-mozilla
-:
-:
 dom
 :
 :

@@ -424,6 +424,9 @@ aPopupSet
 override
 ;
 virtual
+dom
+:
+:
 Element
 *
 GetDefaultTooltip
@@ -435,6 +438,9 @@ virtual
 void
 SetDefaultTooltip
 (
+dom
+:
+:
 Element
 *
 aTooltip
@@ -605,6 +611,9 @@ nsPopupSetFrame
 mPopupSetFrame
 ;
 protected
+:
+dom
+:
 :
 Element
 *
@@ -1409,6 +1418,9 @@ mPopupSetFrame
 aPopupSet
 ;
 }
+dom
+:
+:
 Element
 *
 nsRootBoxFrame
@@ -1428,6 +1440,9 @@ nsRootBoxFrame
 :
 SetDefaultTooltip
 (
+dom
+:
+:
 Element
 *
 aTooltip

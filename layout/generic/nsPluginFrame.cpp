@@ -9820,6 +9820,9 @@ fm
 {
 RefPtr
 <
+dom
+:
+:
 Element
 >
 elem
@@ -9875,6 +9878,9 @@ fm
 {
 RefPtr
 <
+dom
+:
+:
 Element
 >
 elem

@@ -537,6 +537,9 @@ Checkable
 checked
 ?
 static
+dom
+:
+:
 Element
 :
 :
@@ -1393,6 +1396,9 @@ KeyBinding
 (
 )
 ;
+dom
+:
+:
 Element
 *
 keyElm

@@ -218,6 +218,9 @@ dom
 class
 DOMStringList
 ;
+class
+Element
+;
 }
 namespace
 a11y
@@ -290,6 +293,12 @@ Accessible
 New_Accessible
 )
 (
+mozilla
+:
+:
+dom
+:
+:
 Element
 *
 aElement

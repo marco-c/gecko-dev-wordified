@@ -32218,12 +32218,6 @@ mXULPersist
 ;
 RefPtr
 <
-mozilla
-:
-:
-dom
-:
-:
 HTMLAllCollection
 >
 mAll

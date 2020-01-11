@@ -1447,6 +1447,9 @@ aContentPolicyType
 nsresult
 OnWalkAttribute
 (
+dom
+:
+:
 Element
 *
 aElement
@@ -2013,6 +2016,9 @@ static
 void
 ExtractAttribute
 (
+dom
+:
+:
 Element
 *
 aElement
@@ -2140,6 +2146,9 @@ ResourceReader
 :
 OnWalkAttribute
 (
+dom
+:
+:
 Element
 *
 aElement

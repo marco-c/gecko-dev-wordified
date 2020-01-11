@@ -544,6 +544,9 @@ return
 ;
 nsCOMPtr
 <
+dom
+:
+:
 Element
 >
 focusedOptionItem

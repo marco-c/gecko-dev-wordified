@@ -638,6 +638,9 @@ return
 ;
 nsCOMPtr
 <
+dom
+:
+:
 Element
 >
 containerElement
@@ -1183,6 +1186,9 @@ IsElement
 return
 false
 ;
+dom
+:
+:
 Element
 *
 element
@@ -1279,6 +1285,9 @@ nsGkAtoms
 _empty
 ;
 static
+dom
+:
+:
 Element
 :
 :
@@ -1381,6 +1390,9 @@ aria_current
 )
 {
 static
+dom
+:
+:
 Element
 :
 :

@@ -224,6 +224,15 @@ Element
 .
 h
 "
+using
+mozilla
+:
+:
+dom
+:
+:
+Element
+;
 const
 unsigned
 long

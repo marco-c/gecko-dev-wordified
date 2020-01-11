@@ -3147,6 +3147,9 @@ nullptr
 }
 RefPtr
 <
+dom
+:
+:
 Element
 >
 currentItemElm
@@ -3237,6 +3240,9 @@ return
 }
 nsCOMPtr
 <
+dom
+:
+:
 Element
 >
 itemElm

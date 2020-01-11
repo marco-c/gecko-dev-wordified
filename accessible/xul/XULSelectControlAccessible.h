@@ -291,6 +291,9 @@ protected
 :
 RefPtr
 <
+dom
+:
+:
 Element
 >
 mSelectControl

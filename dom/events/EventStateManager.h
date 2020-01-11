@@ -1534,6 +1534,9 @@ object
 void
 RecomputeMouseEnterStateForRemoteFrame
 (
+dom
+:
+:
 Element
 &
 aElement

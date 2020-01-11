@@ -205,6 +205,15 @@ mozilla
 dom
 :
 :
+Element
+;
+using
+mozilla
+:
+:
+dom
+:
+:
 HTMLInputElement
 ;
 /
