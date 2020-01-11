@@ -676,6 +676,11 @@ LoadObjectTruthyResult
 \
 _
 (
+LoadBigIntTruthyResult
+)
+\
+_
+(
 LoadNewObjectFromTemplateResult
 )
 \
