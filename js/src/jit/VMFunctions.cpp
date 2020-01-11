@@ -8536,8 +8536,6 @@ Recompile
 (
 cx
 script
-nullptr
-nullptr
 force
 )
 ;
