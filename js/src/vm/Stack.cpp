@@ -2181,7 +2181,6 @@ return
 ThrowUninitializedThis
 (
 cx
-this
 )
 ;
 }

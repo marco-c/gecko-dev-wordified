@@ -4363,8 +4363,6 @@ ThrowUninitializedThis
 JSContext
 *
 cx
-AbstractFramePtr
-frame
 )
 ;
 bool
