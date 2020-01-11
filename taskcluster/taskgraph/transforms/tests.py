@@ -11410,6 +11410,16 @@ screenshots
 '
 mochitest
 -
+browser
+-
+chrome
+-
+thunderbird
+'
+    
+'
+mochitest
+-
 chrome
 '
     
@@ -11479,6 +11489,10 @@ mochitest
 webgl2
 -
 ext
+'
+    
+'
+mozmill
 '
     
 '
