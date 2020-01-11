@@ -4363,9 +4363,6 @@ screen_world_rect
 task_info
 .
 device_pixel_scale
-task_info
-.
-snap_offsets
 target_rect
 .
 origin
