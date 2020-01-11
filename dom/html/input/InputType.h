@@ -981,7 +981,7 @@ set
 param
 aFlags
 See
-nsTextEditorState
+TextControlState
 :
 :
 SetValueFlags
