@@ -320,7 +320,7 @@ __VA_ARGS__
 \
 }
 void
-MediaControlKeysEventListener
+MediaControlKeysHandler
 :
 :
 OnKeyPressed
