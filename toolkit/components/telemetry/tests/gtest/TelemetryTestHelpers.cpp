@@ -2231,11 +2231,6 @@ Value
 aResult
 ProcessID
 aProcessType
-=
-ProcessID
-:
-:
-Parent
 )
 {
 nsCOMPtr
