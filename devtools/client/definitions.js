@@ -2966,7 +2966,12 @@ target
 return
 target
 .
-isLocalTab
+hasActor
+(
+"
+manifest
+"
+)
 ;
 }
 build
