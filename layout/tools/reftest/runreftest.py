@@ -227,7 +227,7 @@ use
 Marionette
     
 def
-reraise
+reraise_
 (
 *
 args
@@ -246,7 +246,7 @@ noqa
     
 Marionette
 =
-reraise
+reraise_
 from
 output
 import

@@ -204,10 +204,6 @@ inner
 pytest
 .
 fixture
-#
-noqa
-:
-F811
 def
 parser
 (
@@ -241,10 +237,6 @@ DesktopArgumentsParser
 pytest
 .
 fixture
-#
-noqa
-:
-F811
 def
 get_reftest
 (

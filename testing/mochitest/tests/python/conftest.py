@@ -192,10 +192,6 @@ scope
 function
 '
 )
-#
-noqa
-:
-F811
 def
 runtests
 (
@@ -657,10 +653,6 @@ inner
 pytest
 .
 fixture
-#
-noqa
-:
-F811
 def
 build_obj
 (
@@ -697,10 +689,6 @@ autouse
 =
 True
 )
-#
-noqa
-:
-F811
 def
 skip_using_mozinfo
 (

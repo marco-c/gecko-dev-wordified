@@ -9731,7 +9731,7 @@ reader
 )
     
 def
-test_xpidl_module_no_sources
+test_xpidl_module_missing_sources
 (
 self
 )
