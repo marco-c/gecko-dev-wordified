@@ -232,7 +232,7 @@ core
 /
 1
 .
-5
+6
 "
 )
 ]
@@ -1059,6 +1059,7 @@ Option
 <
 Box
 <
+dyn
 FnMut
 (
 usize
@@ -1266,10 +1267,12 @@ parallel
 type
 PanicHandler
 =
+dyn
 Fn
 (
 Box
 <
+dyn
 Any
 +
 Send
@@ -1333,6 +1336,7 @@ parallel
 type
 StartHandler
 =
+dyn
 Fn
 (
 usize
@@ -1395,6 +1399,7 @@ parallel
 type
 ExitHandler
 =
+dyn
 Fn
 (
 usize
@@ -3975,6 +3980,7 @@ Fn
 (
 Box
 <
+dyn
 Any
 +
 Send
@@ -4905,6 +4911,7 @@ Result
 ThreadPool
 Box
 <
+dyn
 Error
 +
 '
@@ -5061,6 +5068,7 @@ Fn
 (
 Box
 <
+dyn
 Any
 +
 Send
@@ -5501,6 +5509,7 @@ Result
 )
 Box
 <
+dyn
 Error
 >
 >

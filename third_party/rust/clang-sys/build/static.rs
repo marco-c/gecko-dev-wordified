@@ -308,6 +308,8 @@ config
 in
 use
 listed
+/
+/
 libraries
 may
 be
@@ -315,8 +317,6 @@ in
 one
 of
 two
-/
-/
 forms
 a
 full
@@ -324,6 +324,8 @@ path
 to
 the
 library
+/
+/
 or
 simply
 prefixed
@@ -824,10 +826,6 @@ prefix
 if
 mode
 .
-ok
-(
-)
-.
 map_or
 (
 false
@@ -897,7 +895,7 @@ unwrap
 (
 )
 .
-trim_right
+trim_end
 (
 )
 )

@@ -483,11 +483,6 @@ self
 n
 before_skip
 NoopConsumer
-:
-:
-new
-(
-)
 )
 ;
 self

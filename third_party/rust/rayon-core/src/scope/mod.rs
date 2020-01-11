@@ -438,6 +438,7 @@ AtomicPtr
 <
 Box
 <
+dyn
 Any
 +
 Send
@@ -543,6 +544,7 @@ PhantomData
 <
 Box
 <
+dyn
 FnOnce
 (
 &
@@ -5925,6 +5927,7 @@ err
 :
 Box
 <
+dyn
 Any
 +
 Send
@@ -6197,6 +6200,7 @@ Box
 <
 Box
 <
+dyn
 Any
 +
 Send

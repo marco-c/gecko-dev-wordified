@@ -3,18 +3,18 @@ std
 :
 :
 io
-:
-:
-prelude
-:
-:
-*
 ;
 use
 std
 :
 :
 io
+:
+:
+prelude
+:
+:
+*
 ;
 #
 [
@@ -250,7 +250,7 @@ default
 /
 e
 .
-write
+write_all
 (
 b
 "
@@ -716,9 +716,6 @@ Result
 W
 >
 {
-try
-!
-(
 self
 .
 inner
@@ -726,7 +723,7 @@ inner
 finish
 (
 )
-)
+?
 ;
 self
 .
@@ -1100,9 +1097,6 @@ Result
 W
 >
 {
-try
-!
-(
 self
 .
 inner
@@ -1110,7 +1104,7 @@ inner
 finish
 (
 )
-)
+?
 ;
 Ok
 (
@@ -1266,9 +1260,6 @@ Result
 W
 >
 {
-try
-!
-(
 self
 .
 inner
@@ -1276,7 +1267,7 @@ inner
 flush
 (
 )
-)
+?
 ;
 Ok
 (
@@ -1532,9 +1523,6 @@ io
 Error
 >
 {
-try_nb
-!
-(
 self
 .
 inner
@@ -1542,7 +1530,7 @@ inner
 finish
 (
 )
-)
+?
 ;
 self
 .
@@ -1827,7 +1815,7 @@ default
 #
 e
 .
-write
+write_all
 (
 b
 "
@@ -1970,7 +1958,7 @@ writer
 /
 deflater
 .
-write
+write_all
 (
 &
 bytes
@@ -2419,9 +2407,6 @@ Result
 W
 >
 {
-try
-!
-(
 self
 .
 inner
@@ -2429,7 +2414,7 @@ inner
 finish
 (
 )
-)
+?
 ;
 self
 .
@@ -2796,9 +2781,6 @@ Result
 W
 >
 {
-try
-!
-(
 self
 .
 inner
@@ -2806,7 +2788,7 @@ inner
 finish
 (
 )
-)
+?
 ;
 Ok
 (
@@ -3048,9 +3030,6 @@ io
 Error
 >
 {
-try_nb
-!
-(
 self
 .
 inner
@@ -3058,7 +3037,7 @@ inner
 finish
 (
 )
-)
+?
 ;
 self
 .

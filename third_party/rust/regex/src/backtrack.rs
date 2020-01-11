@@ -937,6 +937,9 @@ I
 start
 :
 usize
+end
+:
+usize
 )
 -
 >
@@ -999,6 +1002,7 @@ b
 exec_
 (
 start
+end
 )
 }
 /
@@ -1323,6 +1327,9 @@ mut
 at
 :
 InputAt
+end
+:
+usize
 )
 -
 >
@@ -1481,6 +1488,16 @@ true
 ;
 }
 if
+at
+.
+pos
+(
+)
+=
+=
+end
+|
+|
 at
 .
 is_end

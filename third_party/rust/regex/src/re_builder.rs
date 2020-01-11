@@ -1735,7 +1735,7 @@ the
 /
 /
 /
-lenth
+length
 of
 the
 pattern
@@ -2872,7 +2872,7 @@ threads
 /
 /
 /
-simulanteously
+simultaneously
 then
 each
 thread
@@ -3136,7 +3136,7 @@ the
 /
 /
 /
-lenth
+length
 of
 the
 pattern

@@ -196,6 +196,7 @@ err
 :
 Box
 <
+dyn
 Any
 +
 Send
@@ -646,6 +647,7 @@ e
 :
 Box
 <
+dyn
 Any
 +
 Send
