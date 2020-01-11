@@ -13907,12 +13907,11 @@ case
 .
 if
 (
-nsNodeUtils
-:
-:
+target
+-
+>
 IsTemplateElement
 (
-target
 )
 )
 {

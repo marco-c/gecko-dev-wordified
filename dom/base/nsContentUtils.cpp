@@ -53652,12 +53652,11 @@ if
 fragHost
 &
 &
-nsNodeUtils
-:
-:
+fragHost
+-
+>
 IsTemplateElement
 (
-fragHost
 )
 )
 {
@@ -60834,9 +60833,6 @@ static
 *
 /
 uint64_t
-nsContentUtils
-:
-:
 GenerateProcessSpecificId
 (
 uint64_t
