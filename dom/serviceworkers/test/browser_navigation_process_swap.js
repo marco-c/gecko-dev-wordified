@@ -719,6 +719,8 @@ isWebRemoteType
 tab
 .
 linkedBrowser
+.
+remoteType
 )
 {
 CROSS_ORIGIN_URL

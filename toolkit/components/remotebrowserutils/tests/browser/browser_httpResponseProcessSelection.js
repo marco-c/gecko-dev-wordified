@@ -922,6 +922,8 @@ E10SUtils
 isWebRemoteType
 (
 respExt
+.
+remoteType
 )
 "
 process
@@ -992,6 +994,8 @@ E10SUtils
 isWebRemoteType
 (
 respExt307
+.
+remoteType
 )
 "
 process
@@ -1107,6 +1111,8 @@ E10SUtils
 isWebRemoteType
 (
 resp
+.
+remoteType
 )
 "
 process
@@ -1180,6 +1186,8 @@ E10SUtils
 isWebRemoteType
 (
 resp307
+.
+remoteType
 )
 "
 process
@@ -1261,6 +1269,8 @@ E10SUtils
 isWebRemoteType
 (
 respExt
+.
+remoteType
 )
 "
 process
@@ -1334,6 +1344,8 @@ E10SUtils
 isWebRemoteType
 (
 respExt307
+.
+remoteType
 )
 "
 process

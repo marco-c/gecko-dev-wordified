@@ -1653,6 +1653,8 @@ E10SUtils
 isWebRemoteType
 (
 browser
+.
+remoteType
 )
 message
 )
@@ -1666,6 +1668,8 @@ isWebRemoteType
 browser
 .
 messageManager
+.
+remoteType
 )
 "
 Parent
