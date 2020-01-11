@@ -227,7 +227,11 @@ h
 #
 include
 "
-nsMathMLElement
+mozilla
+/
+dom
+/
+MathMLElement
 .
 h
 "

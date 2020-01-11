@@ -124,7 +124,11 @@ h
 #
 include
 "
-nsMathMLElement
+mozilla
+/
+dom
+/
+MathMLElement
 .
 h
 "
@@ -367,7 +371,10 @@ ParseNumericValue
 value
 &
 mWidth
-nsMathMLElement
+dom
+:
+:
+MathMLElement
 :
 :
 PARSE_ALLOW_NEGATIVE

@@ -131,7 +131,11 @@ h
 #
 include
 "
-nsMathMLElement
+mozilla
+/
+dom
+/
+MathMLElement
 .
 h
 "
@@ -182,7 +186,7 @@ NS_ADDREF
 aResult
 =
 new
-nsMathMLElement
+MathMLElement
 (
 aNodeInfo
 )

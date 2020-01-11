@@ -177,7 +177,11 @@ h
 #
 include
 "
-nsMathMLElement
+mozilla
+/
+dom
+/
+MathMLElement
 .
 h
 "
@@ -1544,7 +1548,10 @@ cssValue
 if
 (
 !
-nsMathMLElement
+dom
+:
+:
+MathMLElement
 :
 :
 ParseNumericValue
