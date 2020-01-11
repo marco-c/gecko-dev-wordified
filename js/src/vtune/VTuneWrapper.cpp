@@ -180,9 +180,6 @@ Shape
 .
 h
 "
-#
-ifdef
-MOZ_VTUNE
 namespace
 js
 {
@@ -1295,8 +1292,3 @@ vtune
 /
 namespace
 js
-#
-endif
-/
-/
-MOZ_VTUNE
