@@ -251,6 +251,17 @@ function
 response
 )
 {
+createImageBitmap
+(
+response
+)
+.
+then
+(
+bitmap
+=
+>
+{
 assert_throws
 (
 "
@@ -264,7 +275,7 @@ ctx
 .
 drawImage
 (
-response
+bitmap
 10
 10
 0
@@ -291,7 +302,7 @@ ctx
 .
 drawImage
 (
-response
+bitmap
 10
 10
 1
@@ -318,7 +329,7 @@ ctx
 .
 drawImage
 (
-response
+bitmap
 10
 10
 0
@@ -352,6 +363,10 @@ offscreenCanvas
 255
 "
 2
+)
+;
+}
+t_fail
 )
 ;
 }

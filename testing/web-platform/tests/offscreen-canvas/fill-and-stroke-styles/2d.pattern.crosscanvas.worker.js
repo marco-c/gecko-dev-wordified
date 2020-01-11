@@ -214,6 +214,17 @@ function
 response
 )
 {
+createImageBitmap
+(
+response
+)
+.
+then
+(
+bitmap
+=
+>
+{
 var
 offscreenCanvas2
 =
@@ -238,7 +249,7 @@ getContext
 .
 createPattern
 (
-response
+bitmap
 '
 no
 -
@@ -300,6 +311,10 @@ offscreenCanvas
 0
 255
 "
+)
+;
+}
+t_fail
 )
 ;
 }
