@@ -1091,8 +1091,8 @@ engineSelector
 .
 fetchEngineConfiguration
 (
-region
 locale
+region
 )
 ;
 for
