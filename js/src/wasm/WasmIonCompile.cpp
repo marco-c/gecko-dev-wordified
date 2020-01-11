@@ -10698,9 +10698,6 @@ FunctionCompiler
 f
 )
 {
-ResultType
-params
-;
 return
 f
 .
@@ -10710,8 +10707,6 @@ iter
 .
 readBlock
 (
-&
-params
 )
 &
 &
@@ -10731,9 +10726,6 @@ FunctionCompiler
 f
 )
 {
-ResultType
-params
-;
 if
 (
 !
@@ -10745,8 +10737,6 @@ iter
 .
 readLoop
 (
-&
-params
 )
 )
 {
@@ -10805,9 +10795,6 @@ FunctionCompiler
 f
 )
 {
-ResultType
-params
-;
 MDefinition
 *
 condition
@@ -10825,8 +10812,6 @@ iter
 .
 readIf
 (
-&
-params
 &
 condition
 )
@@ -10883,10 +10868,7 @@ f
 )
 {
 ResultType
-paramType
-;
-ResultType
-resultType
+thenType
 ;
 DefVector
 thenValues
@@ -10903,9 +10885,7 @@ iter
 readElse
 (
 &
-paramType
-&
-resultType
+thenType
 &
 thenValues
 )
