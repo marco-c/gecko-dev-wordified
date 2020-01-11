@@ -143,6 +143,10 @@ mHeight
 (
 0
 )
+mIsCapturedFrameInvalid
+(
+false
+)
 {
 }
 ImageBitmapRenderingContext
@@ -1070,6 +1074,10 @@ mImage
 =
 nullptr
 ;
+mIsCapturedFrameInvalid
+=
+false
+;
 return
 NS_OK
 ;
@@ -1285,6 +1293,10 @@ gfxRect
 aDirty
 )
 {
+mIsCapturedFrameInvalid
+=
+true
+;
 if
 (
 !
@@ -1353,6 +1365,10 @@ MarkContextCleanForFrameCapture
 (
 )
 {
+mIsCapturedFrameInvalid
+=
+false
+;
 }
 bool
 ImageBitmapRenderingContext
@@ -1363,7 +1379,8 @@ IsContextCleanForFrameCapture
 )
 {
 return
-true
+!
+mIsCapturedFrameInvalid
 ;
 }
 NS_IMPL_CYCLE_COLLECTING_ADDREF
