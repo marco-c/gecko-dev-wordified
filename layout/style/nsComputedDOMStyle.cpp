@@ -5114,15 +5114,9 @@ StyleDisplay
 )
 -
 >
-DisplayInside
+IsInlineFlow
 (
 )
-=
-=
-StyleDisplayInside
-:
-:
-Inline
 &
 &
 !

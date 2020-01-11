@@ -5800,6 +5800,7 @@ table
 itself
 .
 (
+!
 frame
 -
 >
@@ -5808,13 +5809,9 @@ StyleDisplay
 )
 -
 >
-mDisplay
-!
-=
-StyleDisplay
-:
-:
-Inline
+IsInlineFlow
+(
+)
 |
 |
 frame
