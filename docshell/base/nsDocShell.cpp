@@ -46126,12 +46126,6 @@ mContentViewer
 =
 nullptr
 ;
-if
-(
-!
-mSkipBrowsingContextDetachOnDestroy
-)
-{
 /
 /
 Move
@@ -46168,7 +46162,6 @@ CacheChildren
 (
 )
 ;
-}
 /
 /
 Now

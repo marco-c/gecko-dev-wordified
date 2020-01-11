@@ -500,10 +500,6 @@ friend
 class
 AutoResetInFrameSwap
 ;
-friend
-class
-nsFrameLoaderOwner
-;
 typedef
 mozilla
 :
