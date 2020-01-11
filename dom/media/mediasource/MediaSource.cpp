@@ -673,12 +673,6 @@ HardwareCodecCapabilityUtils
 :
 HasHWVP9
 (
-false
-/
-*
-aIsEncoder
-*
-/
 )
 ;
 #
