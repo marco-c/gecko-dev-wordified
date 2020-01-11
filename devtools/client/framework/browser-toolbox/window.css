@@ -92,8 +92,12 @@ iframe
 .
 *
 /
-#
+.
+devtools
+-
 toolbox
+-
+browsertoolbox
 -
 iframe
 {
@@ -105,10 +109,6 @@ width
 :
 100
 %
-;
-flex
-:
-1
 ;
 }
 /
