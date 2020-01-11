@@ -23523,6 +23523,16 @@ HasValidTransientUserGestureActivation
 (
 )
 ;
+/
+/
+Return
+true
+.
+bool
+ConsumeTransientUserGestureActivation
+(
+)
+;
 BrowsingContext
 *
 GetBrowsingContext
