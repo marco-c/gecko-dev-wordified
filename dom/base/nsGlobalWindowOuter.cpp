@@ -44536,7 +44536,7 @@ aActivate
 }
 }
 static
-CallState
+bool
 NotifyDocumentTree
 (
 Document
@@ -44563,10 +44563,7 @@ true
 )
 ;
 return
-CallState
-:
-:
-Continue
+true
 ;
 }
 void

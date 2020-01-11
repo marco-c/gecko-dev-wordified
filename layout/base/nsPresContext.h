@@ -6256,10 +6256,7 @@ the
 widget
 .
 static
-mozilla
-:
-:
-CallState
+bool
 UIResolutionChangedSubdocumentCallback
 (
 mozilla
@@ -6353,10 +6350,7 @@ aCharSet
 )
 ;
 static
-mozilla
-:
-:
-CallState
+bool
 NotifyDidPaintSubdocumentCallback
 (
 mozilla
@@ -6373,10 +6367,7 @@ aData
 )
 ;
 static
-mozilla
-:
-:
-CallState
+bool
 NotifyRevokingDidPaintSubdocumentCallback
 (
 mozilla

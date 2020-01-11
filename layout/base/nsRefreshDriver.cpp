@@ -11215,7 +11215,7 @@ nullptr
 }
 }
 static
-CallState
+bool
 ReduceAnimations
 (
 Document
@@ -11278,10 +11278,7 @@ nullptr
 )
 ;
 return
-CallState
-:
-:
-Continue
+true
 ;
 }
 void
