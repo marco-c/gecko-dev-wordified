@@ -486,6 +486,7 @@ isSourceMapped
 url
 line
 column
+sourceId
 )
 =
 >
@@ -498,6 +499,7 @@ isSourceMapped
 url
 line
 column
+sourceId
 index
 )
 ;
@@ -907,6 +909,7 @@ isSourceMapped
 filename
 lineNumber
 columnNumber
+sourceId
 index
 )
 {
@@ -986,6 +989,7 @@ frame
 filename
 lineNumber
 columnNumber
+sourceId
 }
 )
 .

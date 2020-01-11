@@ -2354,6 +2354,16 @@ original
 column
 number
 *
+param
+{
+number
+}
+sourceId
+*
+The
+original
+sourceId
+*
 /
 _updateLocation
 :
@@ -2363,6 +2373,7 @@ enabled
 url
 line
 column
+sourceId
 )
 {
 let
@@ -2448,6 +2459,7 @@ _currentLocation
 url
 line
 column
+sourceId
 }
 ;
 let
