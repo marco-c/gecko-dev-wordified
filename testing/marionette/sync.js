@@ -1511,6 +1511,9 @@ reject
 =
 >
 {
+let
+trace
+;
 /
 /
 Reject
@@ -1584,9 +1587,7 @@ after
 timeout
 }
 ms
-stack
-(
-)
+trace
 )
 ;
 resolve
@@ -1595,6 +1596,12 @@ resolve
 ;
 }
 }
+;
+trace
+=
+stack
+(
+)
 ;
 timer
 .
