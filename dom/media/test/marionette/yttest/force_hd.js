@@ -136,7 +136,6 @@ HD
 {
 return
 function
-youtubePlayerListener
 (
 e
 )
