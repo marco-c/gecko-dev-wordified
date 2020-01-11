@@ -326,7 +326,11 @@ PluginCrashed
 const
 nsAString
 &
-pluginDumpID
+aPluginDumpID
+const
+nsACString
+&
+aAdditionalMinidumps
 )
 ;
 nsresult

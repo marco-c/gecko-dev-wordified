@@ -907,11 +907,15 @@ PluginCrashed
 (
 nsNPAPIPlugin
 *
-plugin
+aPlugin
 const
 nsAString
 &
-pluginDumpID
+aPluginDumpID
+const
+nsACString
+&
+aAdditionalMinidumps
 )
 ;
 nsNPAPIPluginInstance

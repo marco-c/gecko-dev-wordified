@@ -899,7 +899,11 @@ PluginCrashed
 const
 nsAString
 &
-pluginDumpID
+aPluginDumpID
+const
+nsACString
+&
+aAdditionalMinidumps
 )
 {
 RefPtr
@@ -921,7 +925,8 @@ host
 PluginCrashed
 (
 this
-pluginDumpID
+aPluginDumpID
+aAdditionalMinidumps
 )
 ;
 }
