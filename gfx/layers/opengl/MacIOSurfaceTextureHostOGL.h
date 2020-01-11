@@ -431,6 +431,9 @@ wr
 ExternalImageId
 &
 aExtID
+const
+bool
+aPreferCompositorSurface
 )
 override
 ;

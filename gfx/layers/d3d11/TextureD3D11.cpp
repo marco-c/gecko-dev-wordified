@@ -5805,6 +5805,9 @@ wr
 ExternalImageId
 &
 aExtID
+const
+bool
+aPreferCompositorSurface
 )
 {
 if
@@ -5934,6 +5937,7 @@ mSize
 GetFormat
 (
 )
+aPreferCompositorSurface
 )
 ;
 auto
@@ -6073,6 +6077,7 @@ SurfaceFormat
 :
 :
 A16
+aPreferCompositorSurface
 )
 ;
 wr
@@ -6110,6 +6115,7 @@ SurfaceFormat
 :
 :
 R16G16
+aPreferCompositorSurface
 )
 ;
 auto
@@ -7503,6 +7509,9 @@ wr
 ExternalImageId
 &
 aExtID
+const
+bool
+aPreferCompositorSurface
 )
 {
 if
@@ -7709,6 +7718,7 @@ SurfaceFormat
 :
 :
 A8
+aPreferCompositorSurface
 )
 ;
 /
@@ -7730,6 +7740,7 @@ SurfaceFormat
 :
 :
 A8
+aPreferCompositorSurface
 )
 ;
 (

@@ -1735,6 +1735,12 @@ aMaybeFastTxn
 op
 keys
 externalImageKey
+/
+*
+aPreferCompositorSurface
+*
+/
+true
 )
 ;
 return

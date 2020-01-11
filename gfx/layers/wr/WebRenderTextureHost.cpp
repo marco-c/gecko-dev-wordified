@@ -1265,6 +1265,9 @@ wr
 ExternalImageId
 &
 aExtID
+const
+bool
+aPreferCompositorSurface
 )
 {
 MOZ_ASSERT
@@ -1289,6 +1292,7 @@ aResources
 aOp
 aImageKeys
 aExtID
+aPreferCompositorSurface
 )
 ;
 }

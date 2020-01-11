@@ -664,6 +664,9 @@ wr
 ExternalImageId
 &
 aExtID
+const
+bool
+aPreferCompositorSurface
 )
 {
 MOZ_ASSERT
@@ -824,6 +827,7 @@ GetSize
 (
 )
 formatTmp
+aPreferCompositorSurface
 )
 ;
 (

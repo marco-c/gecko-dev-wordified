@@ -4124,6 +4124,9 @@ wr
 ExternalImageId
 &
 aExtID
+const
+bool
+aPreferCompositorSurface
 )
 {
 auto
@@ -4278,6 +4281,7 @@ GetSize
 (
 )
 format
+aPreferCompositorSurface
 )
 ;
 (
@@ -5519,6 +5523,9 @@ wr
 ExternalImageId
 &
 aExtID
+const
+bool
+aPreferCompositorSurface
 )
 {
 auto
@@ -5669,6 +5676,7 @@ GetSize
 (
 )
 formatTmp
+aPreferCompositorSurface
 )
 ;
 (
