@@ -673,8 +673,7 @@ scope
 .
 Whenever
 a
-s
-.
+scope
 spawns
 a
 thread
@@ -883,7 +882,6 @@ thread
 /
 !
 }
-}
 )
 ;
 /
@@ -938,7 +936,6 @@ threads
 /
 /
 !
-ignore
 /
 /
 !
@@ -1029,7 +1026,6 @@ thread
 /
 /
 !
-}
 }
 )
 ;
@@ -3752,6 +3748,7 @@ closure
 :
 Box
 <
+dyn
 FnMut
 (
 )
@@ -3775,6 +3772,7 @@ closure
 :
 Box
 <
+dyn
 FnMut
 (
 )
