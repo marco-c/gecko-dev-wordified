@@ -81,14 +81,10 @@ exposed
 to
 unprivileged
 contexts
-without
-involving
-UniversalXPConnect
 .
 It
 is
 only
-*
 to
 be
 used

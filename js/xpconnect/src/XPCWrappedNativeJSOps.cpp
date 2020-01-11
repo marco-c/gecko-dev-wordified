@@ -1588,13 +1588,10 @@ to
 content
 except
 with
-enablePrivilege
-or
 a
 remote
 -
 XUL
-*
 domain
 .
 *

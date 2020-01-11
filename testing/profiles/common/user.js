@@ -758,11 +758,10 @@ false
 ;
 /
 /
-Make
-enablePrivilege
-continue
-to
-work
+Enable
+some
+dangerous
+features
 for
 test
 code

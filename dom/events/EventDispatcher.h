@@ -2169,11 +2169,13 @@ trusted
 flag
 is
 set
-based
-on
+if
 the
-UniversalXPConnect
-capability
+caller
+uses
+the
+system
+principal
 .
 *
 Otherwise
