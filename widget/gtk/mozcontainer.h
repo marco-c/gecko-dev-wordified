@@ -553,7 +553,7 @@ int
 frame_callback_handler_surface_id
 ;
 gboolean
-surface_position_update
+surface_position_needs_update
 ;
 gboolean
 surface_needs_clear
