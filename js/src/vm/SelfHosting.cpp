@@ -18179,12 +18179,12 @@ true
 )
 ;
 bool
-enableDeferredMode
+disableDeferredMode
 =
 getenv
 (
 "
-PARSER_DEFERRED_ALLOC
+DISABLE_PARSER_DEFERRED_ALLOC
 "
 )
 !
@@ -18199,7 +18199,8 @@ behaviors
 .
 setDeferredParserAlloc
 (
-enableDeferredMode
+!
+disableDeferredMode
 )
 ;
 Realm
