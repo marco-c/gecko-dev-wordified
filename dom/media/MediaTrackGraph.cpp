@@ -9600,15 +9600,6 @@ return
 false
 ;
 }
-CurrentDriver
-(
-)
--
->
-WaitForNextIteration
-(
-)
-;
 SwapMessageQueues
 (
 )
