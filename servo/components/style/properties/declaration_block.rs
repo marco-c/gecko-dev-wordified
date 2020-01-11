@@ -9247,6 +9247,8 @@ errors
 .
 drain
 (
+.
+.
 )
 {
 report_one_css_error

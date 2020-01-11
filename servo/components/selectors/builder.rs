@@ -1229,6 +1229,8 @@ combinators
 .
 drain
 (
+.
+.
 )
 .
 rev
@@ -1301,10 +1303,14 @@ Drain
 <
 '
 a
+[
 (
 Combinator
 usize
 )
+;
+16
+]
 >
 >
 }

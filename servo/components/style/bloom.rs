@@ -1794,6 +1794,8 @@ pushed_hashes
 .
 drain
 (
+.
+.
 )
 {
 self
@@ -1907,6 +1909,8 @@ parents_to_insert
 .
 drain
 (
+.
+.
 )
 .
 rev
@@ -2991,6 +2995,8 @@ parents_to_insert
 .
 drain
 (
+.
+.
 )
 .
 rev

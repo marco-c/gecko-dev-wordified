@@ -2892,6 +2892,8 @@ important_author
 .
 drain
 (
+.
+.
 )
 {
 current
@@ -2925,6 +2927,8 @@ important_user
 .
 drain
 (
+.
+.
 )
 {
 current
@@ -2952,6 +2956,8 @@ important_ua
 .
 drain
 (
+.
+.
 )
 {
 current
@@ -3051,6 +3057,8 @@ applicable_declarations
 .
 drain
 (
+.
+.
 )
 .
 map
@@ -4411,6 +4419,8 @@ children
 .
 drain
 (
+.
+.
 )
 .
 rev
@@ -4685,6 +4695,8 @@ children
 .
 drain
 (
+.
+.
 )
 .
 rev
