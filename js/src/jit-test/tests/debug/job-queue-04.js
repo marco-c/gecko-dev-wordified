@@ -247,10 +247,5 @@ function
 )
 ;
 }
-{
-expectExceptionOnFailure
-:
-false
-}
 )
 ;
