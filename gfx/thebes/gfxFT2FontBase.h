@@ -419,6 +419,9 @@ mFTLoadFlags
 bool
 mEmbolden
 ;
+gfxFloat
+mFTSize
+;
 /
 /
 For
