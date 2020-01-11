@@ -562,14 +562,6 @@ implementation
 *
 *
 /
-typedef
-Rooted
-<
-JSFlatString
-*
->
-RootedFlatString
-;
 static
 const
 JSClassOps
