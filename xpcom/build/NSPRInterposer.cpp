@@ -197,10 +197,6 @@ h
 endif
 namespace
 {
-using
-namespace
-mozilla
-;
 /
 *
 Original
@@ -384,6 +380,9 @@ the
 result
 to
 the
+mozilla
+:
+:
 IOInterposeObserver
 API
 .
@@ -393,6 +392,9 @@ class
 NSPRIOAutoObservation
 :
 public
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -403,6 +405,9 @@ public
 explicit
 NSPRIOAutoObservation
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -412,6 +417,9 @@ PRFileDesc
 *
 aFd
 )
+:
+mozilla
+:
 :
 IOInterposeObserver
 :
@@ -550,6 +558,9 @@ NULL
 NSPRIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -613,6 +624,9 @@ NULL
 NSPRIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -679,6 +693,9 @@ NULL
 NSPRIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -739,6 +756,9 @@ NULL
 NSPRIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -800,6 +820,9 @@ NULL
 NSPRIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -862,6 +885,9 @@ NULL
 NSPRIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :

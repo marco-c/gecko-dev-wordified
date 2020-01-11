@@ -325,10 +325,6 @@ not
 XP_WIN
 *
 /
-using
-namespace
-mozilla
-;
 namespace
 {
 struct
@@ -375,6 +371,9 @@ class
 DebugFilesAutoLock
 :
 public
+mozilla
+:
+:
 Scoped
 <
 DebugFilesAutoLockTraits
@@ -517,6 +516,9 @@ Lock
 DebugFilesAutoLock
 (
 )
+:
+mozilla
+:
 :
 Scoped
 <
@@ -1613,6 +1615,9 @@ int
 aFd
 )
 {
+mozilla
+:
+:
 Maybe
 <
 intptr_t
@@ -1729,6 +1734,9 @@ int
 aFd
 )
 {
+mozilla
+:
+:
 Maybe
 <
 intptr_t
@@ -1818,6 +1826,9 @@ C
 ifdef
 MOZ_REPLACE_MALLOC
 void
+mozilla
+:
+:
 DebugFdRegistry
 :
 :
@@ -1834,6 +1845,9 @@ aHandle
 ;
 }
 void
+mozilla
+:
+:
 DebugFdRegistry
 :
 :

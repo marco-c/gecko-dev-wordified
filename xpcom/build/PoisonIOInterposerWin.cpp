@@ -237,10 +237,6 @@ h
 "
 #
 endif
-using
-namespace
-mozilla
-;
 namespace
 {
 /
@@ -820,6 +816,9 @@ result
 *
 to
 the
+mozilla
+:
+:
 IOInterposeObserver
 API
 .
@@ -829,6 +828,9 @@ class
 WinIOAutoObservation
 :
 public
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -838,6 +840,9 @@ public
 :
 WinIOAutoObservation
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -851,6 +856,9 @@ LARGE_INTEGER
 aOffset
 )
 :
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -859,6 +867,9 @@ Observation
 aOp
 sReference
 !
+mozilla
+:
+:
 IsDebugFile
 (
 reinterpret_cast
@@ -901,6 +912,9 @@ QuadPart
 }
 WinIOAutoObservation
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -910,6 +924,9 @@ nsAString
 &
 aFilename
 )
+:
+mozilla
+:
 :
 IOInterposeObserver
 :
@@ -938,6 +955,9 @@ dosPath
 ;
 if
 (
+mozilla
+:
+:
 NtPathToDosPath
 (
 aFilename
@@ -992,6 +1012,11 @@ QuadPart
 Custom
 implementation
 of
+/
+/
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -1105,6 +1130,9 @@ if
 mFileHandle
 &
 &
+mozilla
+:
+:
 HandleToFilename
 (
 mFileHandle
@@ -1194,6 +1222,9 @@ to
 original
 functions
 static
+mozilla
+:
+:
 WindowsDllInterceptor
 :
 :
@@ -1204,6 +1235,9 @@ NtCreateFileFn
 gOriginalNtCreateFile
 ;
 static
+mozilla
+:
+:
 WindowsDllInterceptor
 :
 :
@@ -1214,6 +1248,9 @@ NtReadFileFn
 gOriginalNtReadFile
 ;
 static
+mozilla
+:
+:
 WindowsDllInterceptor
 :
 :
@@ -1224,6 +1261,9 @@ NtReadFileScatterFn
 gOriginalNtReadFileScatter
 ;
 static
+mozilla
+:
+:
 WindowsDllInterceptor
 :
 :
@@ -1234,6 +1274,9 @@ NtWriteFileFn
 gOriginalNtWriteFile
 ;
 static
+mozilla
+:
+:
 WindowsDllInterceptor
 :
 :
@@ -1244,6 +1287,9 @@ NtWriteFileGatherFn
 gOriginalNtWriteFileGather
 ;
 static
+mozilla
+:
+:
 WindowsDllInterceptor
 :
 :
@@ -1254,6 +1300,9 @@ NtFlushBuffersFileFn
 gOriginalNtFlushBuffersFile
 ;
 static
+mozilla
+:
+:
 WindowsDllInterceptor
 :
 :
@@ -1345,6 +1394,9 @@ len
 WinIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -1422,6 +1474,9 @@ IO
 WinIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -1499,6 +1554,9 @@ IO
 WinIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -1580,6 +1638,9 @@ IO
 WinIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -1662,6 +1723,9 @@ IO
 WinIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -1724,6 +1788,9 @@ IO
 WinIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -1825,6 +1892,9 @@ len
 WinIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -1939,6 +2009,9 @@ Windows
 DLL
 interceptor
 static
+mozilla
+:
+:
 WindowsDllInterceptor
 sNtDllInterceptor
 ;

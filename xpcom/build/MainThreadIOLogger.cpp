@@ -365,6 +365,9 @@ IOThreadFunc
 (
 )
 ;
+mozilla
+:
+:
 TimeStamp
 mLogStartTime
 ;
@@ -377,6 +380,9 @@ PRThread
 *
 mIOThread
 ;
+mozilla
+:
+:
 IOInterposer
 :
 :
@@ -398,6 +404,9 @@ mObservations
 }
 ;
 static
+mozilla
+:
+:
 StaticAutoPtr
 <
 MainThreadIOLoggerImpl
@@ -448,6 +457,9 @@ return
 Scope
 for
 lock
+mozilla
+:
+:
 IOInterposer
 :
 :
@@ -636,6 +648,9 @@ if
 fd
 )
 {
+mozilla
+:
+:
 IOInterposer
 :
 :
@@ -669,6 +684,9 @@ return
 }
 mLogStartTime
 =
+mozilla
+:
+:
 TimeStamp
 :
 :
@@ -682,6 +700,9 @@ Now
 Scope
 for
 lock
+mozilla
+:
+:
 IOInterposer
 :
 :
@@ -770,6 +791,9 @@ during
 I
 /
 O
+mozilla
+:
+:
 IOInterposer
 :
 :
@@ -842,6 +866,9 @@ STAGE
 n
 "
 (
+mozilla
+:
+:
 TimeStamp
 :
 :
@@ -1085,6 +1112,9 @@ IsMainThread
 return
 ;
 }
+mozilla
+:
+:
 IOInterposer
 :
 :
