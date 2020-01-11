@@ -1353,28 +1353,11 @@ is
 None
 :
         
-#
-This
-should
-only
-really
-happen
-during
-testing
-        
-tag_name
-=
-"
-merge_commit_
-%
-s
-"
-%
-head_rev
+return
+Status
+.
+FAIL
     
-else
-:
-        
 tag_name
 =
 "
