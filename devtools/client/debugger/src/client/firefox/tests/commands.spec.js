@@ -144,7 +144,7 @@ any
 supportsWasm
 :
 true
-tabTarget
+currentTarget
 :
 (
 null

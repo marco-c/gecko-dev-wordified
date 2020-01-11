@@ -186,7 +186,7 @@ Dependencies
 threadFront
 :
 ThreadFront
-tabTarget
+currentTarget
 :
 Target
 actions
@@ -280,7 +280,7 @@ Dependencies
 {
 const
 {
-tabTarget
+currentTarget
 threadFront
 debuggerClient
 }
@@ -305,7 +305,7 @@ addThreadEventListeners
 threadFront
 )
 ;
-tabTarget
+currentTarget
 .
 on
 (
@@ -348,7 +348,7 @@ windowlessServiceWorkers
 |
 attachAllTargets
 (
-tabTarget
+currentTarget
 )
 )
 {
