@@ -1007,6 +1007,7 @@ node
 region
 {
 ignoreZoom
+ignoreScroll
 }
 =
 {
@@ -1083,6 +1084,17 @@ scrollX
 scrollY
 }
 =
+ignoreScroll
+?
+{
+scrollX
+:
+0
+scrollY
+:
+0
+}
+:
 boundaryWindow
 ;
 const
