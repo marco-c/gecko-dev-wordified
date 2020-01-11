@@ -535,9 +535,30 @@ bug
 .
     
 if
+(
 a
 .
 explicit_can_run_script
+or
+        
+(
+a
+.
+explicit_getter_can_run_script
+and
+getter
+)
+or
+        
+(
+a
+.
+explicit_setter_can_run_script
+and
+not
+getter
+)
+)
 :
         
 ret
