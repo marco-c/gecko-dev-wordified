@@ -263,7 +263,7 @@ etc
 .
 *
 /
-nsresult
+void
 CommandStatusChanged
 (
 const
