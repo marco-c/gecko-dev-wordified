@@ -10418,7 +10418,7 @@ Ok
 BinASTTokenReaderContext
 :
 :
-enterTaggedTuple
+enterSum
 (
 BinASTKind
 &
@@ -10551,7 +10551,7 @@ Ok
 BinASTTokenReaderContext
 :
 :
-enterTaggedTuple
+enterSum
 (
 BinASTKind
 &
@@ -10694,7 +10694,7 @@ Ok
 BinASTTokenReaderContext
 :
 :
-enterTaggedTuple
+enterSum
 (
 BinASTKind
 &
@@ -10740,7 +10740,7 @@ Ok
 BinASTTokenReaderContext
 :
 :
-enterTaggedTuple
+enterSum
 (
 BinASTKind
 &
@@ -10794,7 +10794,7 @@ Ok
 BinASTTokenReaderContext
 :
 :
-enterTaggedTuple
+enterSum
 (
 BinASTKind
 &
@@ -14745,6 +14745,11 @@ value
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 cx
 -
@@ -14768,6 +14773,11 @@ emplaceBack
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 cx
 -
