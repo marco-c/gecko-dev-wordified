@@ -20053,7 +20053,7 @@ NS_ERROR_NOT_AVAILABLE
 }
 RefPtr
 <
-GenericPromise
+GenericNonExclusivePromise
 :
 :
 Private
@@ -21107,7 +21107,7 @@ false
 .
 RefPtr
 <
-GenericPromise
+GenericNonExclusivePromise
 :
 :
 Private
@@ -21239,7 +21239,7 @@ nsTArray
 <
 RefPtr
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 >
 promises
@@ -21258,7 +21258,7 @@ aPrincipal
 {
 RefPtr
 <
-GenericPromise
+GenericNonExclusivePromise
 :
 :
 Private
@@ -21340,7 +21340,7 @@ so
 promise
 =
 new
-GenericPromise
+GenericNonExclusivePromise
 :
 :
 Private
@@ -21355,7 +21355,7 @@ Put
 key
 RefPtr
 <
-GenericPromise
+GenericNonExclusivePromise
 :
 :
 Private
@@ -21464,7 +21464,7 @@ runnable
 =
 aRunnable
 ;
-GenericPromise
+GenericNonExclusivePromise
 :
 :
 All
