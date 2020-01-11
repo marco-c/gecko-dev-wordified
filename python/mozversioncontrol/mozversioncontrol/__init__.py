@@ -2752,12 +2752,14 @@ self
 tool_version
 >
 =
-b
+str
+(
 '
 3
 .
 9
 '
+)
 :
             
 args
