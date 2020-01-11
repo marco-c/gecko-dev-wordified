@@ -209,6 +209,7 @@ utils
 const
 {
 getDisplayedRequests
+getColumns
 getSelectedRequest
 getWaterfallScale
 }
@@ -2135,6 +2136,13 @@ status
 item
 .
 fromCache
+networkDetailsOpen
+:
+this
+.
+props
+.
+networkDetailsOpen
 connector
 columns
 item
@@ -2268,11 +2276,10 @@ state
 {
 columns
 :
+getColumns
+(
 state
-.
-ui
-.
-columns
+)
 networkDetailsOpen
 :
 state
