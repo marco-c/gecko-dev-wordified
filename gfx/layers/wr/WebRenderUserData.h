@@ -1483,14 +1483,6 @@ CreateCanvasRenderer
 (
 )
 ;
-void
-SetImageContainer
-(
-ImageContainer
-*
-aImageContainer
-)
-;
 ImageContainer
 *
 GetImageContainer

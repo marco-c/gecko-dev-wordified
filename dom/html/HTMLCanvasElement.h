@@ -2222,7 +2222,11 @@ CanvasContextType
 GetCurrentContextType
 (
 )
+{
+return
+mCurrentContextType
 ;
+}
 private
 :
 /
