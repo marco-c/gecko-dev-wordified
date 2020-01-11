@@ -337,9 +337,9 @@ RecvSocketProcessTelemetryPing
 (
 )
 ;
-PWebrtcProxyChannelChild
+PWebrtcTCPSocketChild
 *
-AllocPWebrtcProxyChannelChild
+AllocPWebrtcTCPSocketChild
 (
 const
 PBrowserOrId
@@ -348,9 +348,9 @@ browser
 )
 ;
 bool
-DeallocPWebrtcProxyChannelChild
+DeallocPWebrtcTCPSocketChild
 (
-PWebrtcProxyChannelChild
+PWebrtcTCPSocketChild
 *
 aActor
 )

@@ -163,7 +163,7 @@ h
 #
 include
 "
-WebrtcProxyChannelWrapper
+WebrtcTCPSocketWrapper
 .
 h
 "
@@ -378,7 +378,7 @@ mSProxy
 AssignChannel_DoNotUse
 (
 new
-WebrtcProxyChannelWrapper
+WebrtcTCPSocketWrapper
 (
 nullptr
 )

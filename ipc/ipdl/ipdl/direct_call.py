@@ -5504,7 +5504,7 @@ parent
     
 (
 "
-PWebrtcProxyChannel
+PWebrtcTCPSocket
 "
 "
 child
@@ -5513,7 +5513,7 @@ child
     
 (
 "
-PWebrtcProxyChannel
+PWebrtcTCPSocket
 "
 "
 parent

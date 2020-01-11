@@ -388,7 +388,7 @@ mozilla
 /
 net
 /
-WebrtcProxyChannelCallback
+WebrtcTCPSocketCallback
 .
 h
 "
@@ -444,7 +444,7 @@ namespace
 net
 {
 class
-WebrtcProxyChannelWrapper
+WebrtcTCPSocketWrapper
 ;
 }
 /
@@ -463,7 +463,7 @@ NrSocketProxy
 public
 NrSocketBase
 public
-WebrtcProxyChannelCallback
+WebrtcTCPSocketCallback
 {
 public
 :
@@ -622,7 +622,7 @@ true
 }
 /
 /
-WebrtcProxyChannelCallback
+WebrtcTCPSocketCallback
 void
 OnClose
 (
@@ -663,7 +663,7 @@ gtests
 void
 AssignChannel_DoNotUse
 (
-WebrtcProxyChannelWrapper
+WebrtcTCPSocketWrapper
 *
 aWrapper
 )
@@ -709,9 +709,9 @@ mConfig
 ;
 RefPtr
 <
-WebrtcProxyChannelWrapper
+WebrtcTCPSocketWrapper
 >
-mWebrtcProxyChannel
+mWebrtcTCPSocket
 ;
 }
 ;

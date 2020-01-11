@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-WebrtcProxyLog
+WebrtcTCPSocketLog
 .
 h
 "
@@ -128,7 +128,7 @@ namespace
 net
 {
 LazyLogModule
-webrtcProxyLog
+webrtcTCPSocketLog
 (
 "
 webrtcProxy
