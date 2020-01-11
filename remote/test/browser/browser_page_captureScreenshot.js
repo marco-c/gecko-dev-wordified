@@ -356,13 +356,6 @@ removeTab
 tab
 )
 ;
-await
-RemoteAgent
-.
-close
-(
-)
-;
 }
 )
 ;
@@ -525,13 +518,6 @@ BrowserTestUtils
 removeTab
 (
 tab
-)
-;
-await
-RemoteAgent
-.
-close
-(
 )
 ;
 }

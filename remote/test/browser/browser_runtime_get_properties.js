@@ -128,13 +128,6 @@ gBrowser
 selectedTab
 )
 ;
-await
-RemoteAgent
-.
-close
-(
-)
-;
 }
 )
 ;
