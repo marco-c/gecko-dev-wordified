@@ -1734,11 +1734,10 @@ RecvNotifyVisited
 (
 nsTArray
 <
-URIParams
+VisitedQueryResult
 >
 &
 &
-aURIs
 )
 ;
 /

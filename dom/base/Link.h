@@ -258,10 +258,10 @@ Link
 ;
 virtual
 void
-SetLinkState
+VisitedQueryFinished
 (
-nsLinkState
-aState
+bool
+aVisited
 )
 ;
 /
