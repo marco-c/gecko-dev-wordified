@@ -342,7 +342,7 @@ type
 )
 -
 >
-Hashable
+Text
         
 "
 "

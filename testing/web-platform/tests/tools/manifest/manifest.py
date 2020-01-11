@@ -1792,7 +1792,7 @@ type
 )
 -
 >
-Iterable
+Iterator
 [
 Tuple
 [
@@ -1830,7 +1830,7 @@ str
 )
 -
 >
-Iterable
+Iterator
 [
 Tuple
 [
@@ -1909,7 +1909,7 @@ Text
 )
 -
 >
-Iterable
+Iterator
 [
 ManifestItem
 ]
@@ -1969,7 +1969,7 @@ Text
 )
 -
 >
-Iterable
+Iterator
 [
 ManifestItem
 ]
