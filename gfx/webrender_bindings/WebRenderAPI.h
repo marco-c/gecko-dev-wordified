@@ -1506,6 +1506,15 @@ WebRenderCompositionRecorder
 aRecorder
 )
 ;
+typedef
+MozPromise
+<
+bool
+nsresult
+true
+>
+WriteCollectedFramesPromise
+;
 /
 *
 *
@@ -1540,7 +1549,10 @@ op
 .
 *
 /
-void
+RefPtr
+<
+WriteCollectedFramesPromise
+>
 WriteCollectedFrames
 (
 )
