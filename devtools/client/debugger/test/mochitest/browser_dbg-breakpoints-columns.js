@@ -241,6 +241,8 @@ columnBreakpoints
 "
 )
 ;
+debugger
+;
 shiftClickElement
 (
 dbg
@@ -258,6 +260,8 @@ dbg
 columnBreakpoints
 "
 )
+;
+debugger
 ;
 assertClass
 (
