@@ -981,14 +981,6 @@ err
 "
 cspBlocked
 "
-|
-|
-err
-=
-=
-"
-xfoBlocked
-"
 )
 {
 /
@@ -1001,8 +993,6 @@ again
 "
 button
 for
-XFO
-and
 CSP
 violations
 since
