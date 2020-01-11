@@ -5686,8 +5686,6 @@ obj
 BaselineFrame
 *
 frame
-uint32_t
-frameSize
 jsbytecode
 *
 pc

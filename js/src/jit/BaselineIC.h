@@ -11883,8 +11883,6 @@ cx
 BaselineFrame
 *
 frame
-uint32_t
-frameSize
 ICWarmUpCounter_Fallback
 *
 stub
