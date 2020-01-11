@@ -132,7 +132,7 @@ frame
 arguments
 ;
 const
-objClient
+objectFront
 =
 threadFront
 .
@@ -153,7 +153,7 @@ let
 response
 =
 await
-objClient
+objectFront
 .
 enumProperties
 (
@@ -178,7 +178,7 @@ enumSymbols
 response
 =
 await
-objClient
+objectFront
 .
 enumSymbols
 (
@@ -959,6 +959,10 @@ iteratorSymbol
 descriptor
 .
 value
+.
+getGrip
+(
+)
 .
 class
 "

@@ -178,7 +178,7 @@ objActor
 )
 ;
 const
-objClient
+objectFront
 =
 gThreadFront
 .
@@ -194,7 +194,7 @@ Assert
 .
 ok
 (
-objClient
+objectFront
 .
 valid
 )
@@ -304,7 +304,7 @@ Assert
 .
 ok
 (
-objClient
+objectFront
 .
 valid
 )
@@ -420,7 +420,7 @@ Assert
 ok
 (
 !
-objClient
+objectFront
 .
 valid
 )

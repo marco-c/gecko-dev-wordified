@@ -269,6 +269,10 @@ Object
 .
 value
 .
+getGrip
+(
+)
+.
 type
 "
 object
@@ -286,6 +290,10 @@ ownProperties
 Object
 .
 value
+.
+getGrip
+(
+)
 .
 class
 "
@@ -307,7 +315,7 @@ Object
 .
 value
 .
-actor
+actorID
 )
 ;
 await

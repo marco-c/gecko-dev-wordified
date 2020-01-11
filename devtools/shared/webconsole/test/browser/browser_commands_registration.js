@@ -568,6 +568,9 @@ bar
 result
 :
 {
+_grip
+:
+{
 class
 :
 "
@@ -583,6 +586,7 @@ items
 foo
 "
 ]
+}
 }
 }
 }
@@ -1185,6 +1189,9 @@ keys
 result
 :
 {
+_grip
+:
+{
 class
 :
 "
@@ -1197,6 +1204,7 @@ items
 :
 [
 ]
+}
 }
 }
 }

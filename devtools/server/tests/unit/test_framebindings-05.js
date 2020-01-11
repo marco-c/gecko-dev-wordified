@@ -195,6 +195,10 @@ cos
 .
 value
 .
+getGrip
+(
+)
+.
 type
 "
 object
@@ -212,6 +216,10 @@ ownProperties
 cos
 .
 value
+.
+getGrip
+(
+)
 .
 class
 "
@@ -233,7 +241,7 @@ cos
 .
 value
 .
-actor
+actorID
 )
 ;
 /
@@ -326,6 +334,10 @@ Object
 .
 value
 .
+getGrip
+(
+)
+.
 type
 "
 object
@@ -343,6 +355,10 @@ ownProperties
 Object
 .
 value
+.
+getGrip
+(
+)
 .
 class
 "
@@ -364,7 +380,7 @@ Object
 .
 value
 .
-actor
+actorID
 )
 ;
 await
