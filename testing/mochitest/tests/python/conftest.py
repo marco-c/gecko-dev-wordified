@@ -535,6 +535,16 @@ mochitest
 ini
 '
 )
+            
+'
+manifest_relpath
+'
+:
+'
+mochitest
+.
+ini
+'
         
 }
     
