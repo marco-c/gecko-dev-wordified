@@ -2311,6 +2311,13 @@ pc
 =
 =
 JSOP_INITELEM_INC
+|
+|
+*
+pc
+=
+=
+JSOP_INITELEM_ARRAY
 )
 {
 if
