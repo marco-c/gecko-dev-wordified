@@ -515,6 +515,9 @@ nsIAboutModule
 :
 ALLOW_SCRIPT
 }
+#
+ifndef
+MOZ_BUILD_APP_IS_BROWSER
 {
 "
 config
@@ -534,6 +537,8 @@ xul
 "
 0
 }
+#
+endif
 #
 ifdef
 MOZ_CRASHREPORTER
