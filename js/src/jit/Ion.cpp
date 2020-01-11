@@ -3855,11 +3855,14 @@ void
 JitRuntime
 :
 :
-SweepJitcodeGlobalTable
+TraceWeakJitcodeGlobalTable
 (
 JSRuntime
 *
 rt
+JSTracer
+*
+trc
 )
 {
 if
@@ -3898,9 +3901,10 @@ getJitcodeGlobalTable
 )
 -
 >
-sweep
+traceWeak
 (
 rt
+trc
 )
 ;
 }
