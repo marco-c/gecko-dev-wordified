@@ -164,6 +164,7 @@ aRv
 nsAutoString
 cutText
 ;
+const
 uint32_t
 length
 =
@@ -189,11 +190,13 @@ return
 nullptr
 ;
 }
+const
 uint32_t
 cutStartOffset
 =
 aOffset
 ;
+const
 uint32_t
 cutLength
 =
