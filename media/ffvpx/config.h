@@ -122,7 +122,7 @@ MOZ_FFVPX_CONFIG_H
 if
 defined
 (
-MOZ_FFVPX_FLACONLY
+MOZ_FFVPX_AUDIOONLY
 )
 #
 if
@@ -148,7 +148,7 @@ else
 #
 include
 "
-config_flac
+config_audio
 .
 h
 "
@@ -158,7 +158,7 @@ endif
 else
 /
 /
-MOZ_FFVPX_FLACONLY
+MOZ_FFVPX_AUDIOONLY
 #
 if
 defined
@@ -320,7 +320,7 @@ endif
 /
 /
 else
-MOZ_FFVPX_FLACONLY
+MOZ_FFVPX_AUDIOONLY
 #
 include
 "
