@@ -489,7 +489,7 @@ copyTo
 (
 dir
 "
-basic
+bug645970
 .
 xml
 "

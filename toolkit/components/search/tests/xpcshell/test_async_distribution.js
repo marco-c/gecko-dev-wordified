@@ -46,9 +46,12 @@ await
 useTestEngines
 (
 "
-simple
+data
+"
+"
+search
 -
-engines
+extensions
 "
 )
 ;
@@ -154,7 +157,7 @@ equal
 engines
 .
 length
-2
+1
 )
 ;
 let
@@ -167,7 +170,7 @@ search
 getEngineByName
 (
 "
-basic
+bug645970
 "
 )
 ;
