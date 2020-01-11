@@ -409,6 +409,16 @@ DelegatePolicy
 :
 eDelegateUseFeaturePolicy
 }
+{
+"
+xr
+"
+nullptr
+DelegatePolicy
+:
+:
+ePersistDeniedCrossOrigin
+}
 }
 ;
 NS_IMPL_CYCLE_COLLECTION

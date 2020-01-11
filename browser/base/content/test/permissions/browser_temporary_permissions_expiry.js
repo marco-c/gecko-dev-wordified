@@ -234,6 +234,9 @@ geo
 "
 camera
 "
+"
+xr
+"
 ]
 ;
 for
