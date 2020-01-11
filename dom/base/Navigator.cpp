@@ -9050,6 +9050,14 @@ pull
 118
 if
 (
+StaticPrefs
+:
+:
+dom_webshare_requireinteraction
+(
+)
+&
+&
 !
 UserActivation
 :
