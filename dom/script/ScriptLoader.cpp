@@ -15840,8 +15840,6 @@ rv
 )
 ;
 }
-return
-;
 }
 void
 ScriptLoader
