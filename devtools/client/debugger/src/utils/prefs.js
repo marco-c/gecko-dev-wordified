@@ -1169,7 +1169,7 @@ service
 enabled
 "
 ]
-chromeAndExtenstionsEnabled
+chromeAndExtensionsEnabled
 :
 [
 "

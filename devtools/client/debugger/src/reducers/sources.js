@@ -629,7 +629,7 @@ SourceLocation
 projectDirectoryRoot
 :
 string
-chromeAndExtenstionsEnabled
+chromeAndExtensionsEnabled
 :
 boolean
 focusedItem
@@ -693,11 +693,11 @@ projectDirectoryRoot
 prefs
 .
 projectDirectoryRoot
-chromeAndExtenstionsEnabled
+chromeAndExtensionsEnabled
 :
 prefs
 .
-chromeAndExtenstionsEnabled
+chromeAndExtensionsEnabled
 focusedItem
 :
 null
@@ -3956,7 +3956,7 @@ state
 .
 sources
 .
-chromeAndExtenstionsEnabled
+chromeAndExtensionsEnabled
 debuggeeIsWebExtension
 :
 state
