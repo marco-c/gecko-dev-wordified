@@ -2990,7 +2990,7 @@ wrap
 the
 *
 entire
-algoithm
+algorithm
 ID
 block
 .
@@ -3063,7 +3063,7 @@ in
 PKCS
 5v2
 this
-alogithm
+algorithm
 tag
 does
 not
@@ -3096,7 +3096,7 @@ PKCS
 mechanism
 .
 *
-gorithm
+algorithm
 is
 )
 .
