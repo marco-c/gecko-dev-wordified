@@ -11147,7 +11147,7 @@ nsContentUtils
 PrincipalHasPermission
 (
 nsIPrincipal
-*
+&
 aPrincipal
 const
 nsAtom
@@ -11166,8 +11166,7 @@ default
 if
 (
 aPrincipal
--
->
+.
 IsSystemPrincipal
 (
 )
@@ -11199,8 +11198,7 @@ Cast
 (
 aPrincipal
 )
--
->
+.
 AddonHasPermission
 (
 aPerm
@@ -11228,6 +11226,7 @@ aPerm
 return
 PrincipalHasPermission
 (
+*
 SubjectPrincipal
 (
 aCx
@@ -39632,7 +39631,7 @@ nsContentUtils
 IsCutCopyAllowed
 (
 nsIPrincipal
-*
+&
 aSubjectPrincipal
 )
 {

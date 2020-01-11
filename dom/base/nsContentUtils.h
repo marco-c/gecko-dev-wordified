@@ -3943,7 +3943,7 @@ bool
 PrincipalHasPermission
 (
 nsIPrincipal
-*
+&
 aPrincipal
 const
 nsAtom
@@ -15759,7 +15759,7 @@ bool
 IsCutCopyAllowed
 (
 nsIPrincipal
-*
+&
 aSubjectPrincipal
 )
 ;

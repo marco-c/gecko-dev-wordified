@@ -371,7 +371,6 @@ nsContentUtils
 :
 PrincipalHasPermission
 (
-&
 aSubjectPrincipal
 nsGkAtoms
 :
@@ -853,7 +852,6 @@ nsContentUtils
 :
 IsCutCopyAllowed
 (
-&
 aSubjectPrincipal
 )
 )

@@ -5649,6 +5649,7 @@ nsContentUtils
 :
 PrincipalHasPermission
 (
+*
 prin
 nsGkAtoms
 :
