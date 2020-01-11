@@ -3947,7 +3947,8 @@ TopLevelEditSubActionDataRef
 )
 .
 mCachedInlineStyles
-.
+-
+>
 Clear
 (
 )
@@ -8209,7 +8210,8 @@ TopLevelEditSubActionDataRef
 )
 .
 mCachedInlineStyles
-.
+-
+>
 Clear
 (
 )
@@ -55271,7 +55273,8 @@ TopLevelEditSubActionDataRef
 )
 .
 mCachedInlineStyles
-.
+-
+>
 Clear
 (
 )
@@ -63583,6 +63586,7 @@ rv
 GetInlineStyles
 (
 aNode
+*
 TopLevelEditSubActionDataRef
 (
 )
@@ -64073,9 +64077,12 @@ TopLevelEditSubActionDataRef
 )
 .
 mCachedInlineStyles
-[
+-
+>
+ElementAt
+(
 i
-]
+)
 ;
 if
 (
