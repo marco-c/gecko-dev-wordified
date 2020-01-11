@@ -416,7 +416,7 @@ formats
 =
 [
 '
-sha2signcode
+autograph_authenticode
 '
 ]
         

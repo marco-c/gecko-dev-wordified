@@ -750,7 +750,7 @@ win
 signing_format
 =
 '
-sha2signcode
+autograph_authenticode
 '
         
 extension
