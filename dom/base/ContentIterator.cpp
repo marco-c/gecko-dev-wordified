@@ -2044,7 +2044,7 @@ mPre
 RawRangeBoundary
 (
 mFirst
-0
+0u
 )
 aEnd
 )
@@ -3688,14 +3688,14 @@ RawRangeBoundary
 first
 (
 mFirst
-0
+0u
 )
 ;
 RawRangeBoundary
 last
 (
 mLast
-0
+0u
 )
 ;
 if

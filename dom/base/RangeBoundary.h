@@ -451,7 +451,7 @@ RangeBoundaryBase
 nsINode
 *
 aContainer
-int32_t
+uint32_t
 aOffset
 )
 :
@@ -498,17 +498,11 @@ if
 aOffset
 =
 =
-static_cast
-<
-int32_t
->
-(
 mParent
 -
 >
 GetChildCount
 (
-)
 )
 )
 {
@@ -526,8 +520,7 @@ else
 if
 (
 aOffset
-!
-=
+>
 0
 )
 {
