@@ -304,6 +304,8 @@ background
 const
 promise
 =
+needLock
+?
 wakeLockObserved
 (
 topic
@@ -319,6 +321,8 @@ locked
 tabState
 }
 )
+:
+null
 ;
 return
 {
