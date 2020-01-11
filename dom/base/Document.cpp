@@ -36095,6 +36095,9 @@ presShell
 =
 new
 PresShell
+(
+this
+)
 ;
 /
 /
@@ -36143,7 +36146,6 @@ presShell
 >
 Init
 (
-this
 aContext
 aViewManager
 )

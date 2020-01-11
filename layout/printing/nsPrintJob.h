@@ -621,6 +621,7 @@ calls
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 Print
 (
@@ -740,6 +741,7 @@ document
 !
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 PrintPreview
 (
@@ -1049,6 +1051,7 @@ CleanupOnFailure
 (
 )
 .
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 FinishPrintPreview
 (
@@ -1151,11 +1154,13 @@ nsPrintJob
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DocumentReadyForPrinting
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetupToPrintContent
 (
@@ -1425,6 +1430,7 @@ eDocTitleDefault
 aDefType
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 CommonPrint
 (
@@ -1447,6 +1453,7 @@ Document
 aSourceDoc
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DoCommonPrint
 (
@@ -1575,6 +1582,7 @@ example
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ResumePrintAfterResourcesLoaded
 (
@@ -1620,7 +1628,7 @@ bool
 aSetPixelScale
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ReconstructAndReflow
 (
@@ -1638,6 +1646,7 @@ bool
 aDocumentIsTopLevel
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InitPrintDocConstruction
 (
