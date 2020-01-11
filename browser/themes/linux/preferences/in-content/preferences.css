@@ -77,7 +77,10 @@ preferences
 inc
 .
 css
-body
+:
+root
+>
+*
 {
 font
 -
