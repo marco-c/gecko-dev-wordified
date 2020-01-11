@@ -771,6 +771,16 @@ aNewPosition
 ;
 }
 else
+if
+(
+aBoundaryType
+=
+=
+nsIAccessiblePivot
+:
+:
+NO_BOUNDARY
+)
 {
 RefPtr
 <
