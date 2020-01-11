@@ -104,14 +104,6 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-hud
-.
-ui
-.
-clearOutput
-(
-)
-;
 const
 messages
 =
