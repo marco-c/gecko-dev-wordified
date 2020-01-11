@@ -498,6 +498,10 @@ dom
 MediaStreamTrack
 *
 aSendTrack
+const
+PrincipalHandle
+&
+aPrincipalHandle
 RefPtr
 <
 TransceiverImpl
