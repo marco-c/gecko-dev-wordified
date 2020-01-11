@@ -3631,7 +3631,8 @@ EndCode
 CompileError
 /
 invalid
-inline
+.
+*
 block
 type
 /
