@@ -3409,29 +3409,6 @@ LDFLAGS
 '
 )
 )
-            
-(
-'
-COVERAGE_LDFLAGS
-'
-context
-.
-config
-.
-substs
-.
-get
-(
-'
-COVERAGE_LDFLAGS
-'
-)
-(
-'
-LDFLAGS
-'
-)
-)
         
 )
         
@@ -4313,7 +4290,7 @@ CXXFLAGS
             
 (
 '
-COVERAGE_CFLAGS
+COVERAGE
 '
 context
 .
@@ -4327,7 +4304,6 @@ get
 COVERAGE_CFLAGS
 '
 )
-             
 (
 '
 CXXFLAGS
