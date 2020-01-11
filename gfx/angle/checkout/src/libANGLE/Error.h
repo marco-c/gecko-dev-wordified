@@ -1108,7 +1108,7 @@ include
 "
 Error
 .
-inl
+inc
 "
 #
 endif

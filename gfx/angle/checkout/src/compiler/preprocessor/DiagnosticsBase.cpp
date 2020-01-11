@@ -625,7 +625,7 @@ directive
 "
 ;
 case
-PP_NON_PP_TOKEN_BEFORE_EXTENSION_ESSL3
+PP_NON_PP_TOKEN_BEFORE_EXTENSION_ESSL
 :
 return
 "
@@ -640,7 +640,7 @@ non
 preprocessor
 tokens
 in
-ESSL3
+ESSL
 "
 ;
 case
@@ -712,7 +712,7 @@ pragma
 "
 ;
 case
-PP_NON_PP_TOKEN_BEFORE_EXTENSION_ESSL1
+PP_NON_PP_TOKEN_BEFORE_EXTENSION_WEBGL
 :
 return
 "

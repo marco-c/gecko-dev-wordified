@@ -230,7 +230,7 @@ const
 ;
 Display
 *
-getCurrentDisplay
+getDisplay
 (
 )
 const

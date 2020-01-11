@@ -192,7 +192,7 @@ include
 "
 Version
 .
-inl
+inc
 "
 #
 endif

@@ -2323,6 +2323,16 @@ TDiagnostics
 diagnostics
 )
 ;
+static
+bool
+IsFloatDivision
+(
+TBasicType
+t1
+TBasicType
+t2
+)
+;
 protected
 :
 /

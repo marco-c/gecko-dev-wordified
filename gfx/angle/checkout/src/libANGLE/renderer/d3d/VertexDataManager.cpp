@@ -699,13 +699,12 @@ angle
 FormatID
 vertexFormatID
 =
-gl
-:
-:
-GetVertexFormatID
-(
 attrib
-)
+.
+format
+-
+>
+id
 ;
 /
 /
@@ -747,7 +746,10 @@ if
 (
 attrib
 .
-type
+format
+-
+>
+vertexAttribType
 !
 =
 gl
@@ -1307,6 +1309,8 @@ offset
 {
 data
 .
+Values
+.
 FloatValues
 [
 0
@@ -1326,6 +1330,8 @@ quiet_NaN
 )
 ;
 data
+.
+Values
 .
 FloatValues
 [
@@ -1347,6 +1353,8 @@ quiet_NaN
 ;
 data
 .
+Values
+.
 FloatValues
 [
 2
@@ -1366,6 +1374,8 @@ quiet_NaN
 )
 ;
 data
+.
+Values
 .
 FloatValues
 [
@@ -3866,6 +3876,8 @@ uint8_t
 >
 (
 currentValue
+.
+Values
 .
 FloatValues
 )
