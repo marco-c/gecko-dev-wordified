@@ -155,10 +155,7 @@ mozilla
 :
 UniquePtr
 <
-SdpParser
-:
-:
-Results
+Sdp
 >
 sdpPtr
 ;
