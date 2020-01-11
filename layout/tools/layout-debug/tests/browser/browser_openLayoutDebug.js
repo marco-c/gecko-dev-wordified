@@ -103,7 +103,7 @@ content
 /
 layoutdebug
 .
-xul
+xhtml
 "
 "
 Window

@@ -863,7 +863,7 @@ content
 /
 reftest
 .
-xul
+xhtml
 "
 "
 _blank
