@@ -285,7 +285,7 @@ frame
 >
 frame
 .
-actor
+actorID
 )
 ;
 expectPopped
