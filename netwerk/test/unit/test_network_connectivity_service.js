@@ -451,6 +451,16 @@ os
 "
 linux
 "
+|
+|
+mozinfo
+.
+os
+=
+=
+"
+android
+"
 ?
 "
 ip6
