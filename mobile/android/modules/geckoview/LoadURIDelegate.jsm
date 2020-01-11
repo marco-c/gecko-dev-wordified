@@ -290,6 +290,13 @@ triggerUri
 triggerUri
 .
 displaySpec
+hasUserGesture
+:
+aWindow
+.
+document
+.
+hasValidTransientUserGestureActivation
 }
 ;
 let
