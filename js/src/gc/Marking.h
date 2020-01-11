@@ -728,6 +728,7 @@ inline
 bool
 IsAboutToBeFinalized
 (
+const
 WriteBarriered
 <
 T
