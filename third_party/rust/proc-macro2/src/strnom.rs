@@ -21,15 +21,6 @@ nom
 )
 .
 use
-crate
-:
-:
-fallback
-:
-:
-LexError
-;
-use
 std
 :
 :
@@ -47,6 +38,12 @@ unicode_xid
 :
 :
 UnicodeXID
+;
+use
+fallback
+:
+:
+LexError
 ;
 #
 [
@@ -665,7 +662,7 @@ b
 0x09
 .
 .
-=
+.
 0x0d
 =
 >
