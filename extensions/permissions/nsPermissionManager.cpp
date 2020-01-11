@@ -16812,7 +16812,7 @@ mModificationTime
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPermissionManager
 :
 :
