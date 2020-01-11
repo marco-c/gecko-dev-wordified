@@ -1507,7 +1507,10 @@ devices
 .
 android_device
 import
+(
 verify_android_device
+InstallIntent
+)
         
 #
 verify
@@ -1520,7 +1523,9 @@ verify_android_device
 build_obj
 install
 =
-False
+InstallIntent
+.
+NO
 xre
 =
 True
@@ -1733,14 +1738,19 @@ devices
 .
 android_device
 import
+(
 verify_android_device
+InstallIntent
+)
         
 verify_android_device
 (
 build_obj
 install
 =
-False
+InstallIntent
+.
+NO
 xre
 =
 True
@@ -3029,7 +3039,10 @@ devices
 .
 android_device
 import
+(
 verify_android_device
+InstallIntent
+)
             
 app
 =
@@ -3072,7 +3085,10 @@ deviceSerial
             
 install
 =
-not
+InstallIntent
+.
+NO
+if
 kwargs
 .
 get
@@ -3081,6 +3097,10 @@ get
 no_install
 '
 )
+else
+InstallIntent
+.
+PROMPT
             
 #
 verify
@@ -3402,6 +3422,8 @@ import
 get_adb_path
                                                       
 verify_android_device
+                                                      
+InstallIntent
 )
         
 #
@@ -3433,10 +3455,19 @@ deviceSerial
 verify_android_device
 (
 self
+                              
 install
 =
-not
+InstallIntent
+.
+NO
+if
 no_install
+else
+InstallIntent
+.
+PROMPT
+                              
 xre
 =
 False

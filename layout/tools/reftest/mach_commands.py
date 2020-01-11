@@ -1962,11 +1962,17 @@ devices
 .
 android_device
 import
+(
 verify_android_device
+InstallIntent
+)
             
 install
 =
-not
+InstallIntent
+.
+NO
+if
 kwargs
 .
 get
@@ -1975,6 +1981,10 @@ get
 no_install
 '
 )
+else
+InstallIntent
+.
+PROMPT
             
 verify_android_device
 (

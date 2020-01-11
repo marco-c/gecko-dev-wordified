@@ -4313,6 +4313,15 @@ ignored
 "
 )
             
+from
+mozrunner
+.
+devices
+.
+android_device
+import
+InstallIntent
+            
 return
 self
 .
@@ -4330,8 +4339,16 @@ remote_test_root
 libxul_path
                                       
 enable_webrender
-not
+                                      
+InstallIntent
+.
+NO
+if
 no_install
+else
+InstallIntent
+.
+PROMPT
 )
         
 if
@@ -5880,7 +5897,10 @@ devices
 .
 android_device
 import
+(
 verify_android_device
+InstallIntent
+)
             
 ret
 =
@@ -5889,7 +5909,9 @@ verify_android_device
 self
 install
 =
-True
+InstallIntent
+.
+YES
 *
 *
 kwargs
@@ -7367,8 +7389,13 @@ devices
 .
 android_device
 import
+(
 verify_android_device
+                                                      
 _get_device
+                                                      
+InstallIntent
+)
         
 from
 six
@@ -7498,10 +7525,18 @@ self
 app
 =
 app
+                              
 install
 =
-not
+InstallIntent
+.
+NO
+if
 no_install
+else
+InstallIntent
+.
+PROMPT
 )
         
 device_serial

@@ -1688,7 +1688,10 @@ devices
 .
 android_device
 import
+(
 verify_android_device
+InstallIntent
+)
             
 from
 mozdevice
@@ -1696,15 +1699,12 @@ import
 ADBAndroid
 ADBHost
             
-if
-not
-verify_android_device
-(
-build_obj
-                                         
 install
 =
-not
+InstallIntent
+.
+NO
+if
 kwargs
 .
 pop
@@ -1714,6 +1714,19 @@ noinstall
 '
 False
 )
+else
+InstallIntent
+.
+PROMPT
+            
+if
+not
+verify_android_device
+(
+build_obj
+install
+=
+install
                                          
 app
 =
