@@ -85,9 +85,6 @@ __init__
 (
 self
 config
-android_device
-=
-None
 )
 :
         
@@ -96,12 +93,6 @@ self
 config
 =
 config
-        
-self
-.
-android_device
-=
-android_device
     
 abstractmethod
     
