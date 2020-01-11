@@ -2215,6 +2215,8 @@ const
 nsString
 &
 aHTMLInputInputmode
+bool
+aInPrivateBrowsing
 )
 ;
 /
