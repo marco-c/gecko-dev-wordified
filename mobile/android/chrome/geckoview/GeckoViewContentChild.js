@@ -227,7 +227,7 @@ FormLikeFactory
 .
 jsm
 "
-GeckoViewAutoFill
+GeckoViewAutofill
 :
 "
 resource
@@ -238,7 +238,7 @@ gre
 /
 modules
 /
-GeckoViewAutoFill
+GeckoViewAutofill
 .
 jsm
 "
@@ -557,7 +557,7 @@ _autoFill
 =
 >
 new
-GeckoViewAutoFill
+GeckoViewAutofill
 (
 this
 .

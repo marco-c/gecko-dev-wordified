@@ -1091,7 +1091,7 @@ defineModuleGetter
 (
 this
 "
-GeckoViewAutoFill
+GeckoViewAutofill
 "
 "
 resource
@@ -1102,7 +1102,7 @@ gre
 /
 modules
 /
-GeckoViewAutoFill
+GeckoViewAutofill
 .
 jsm
 "
@@ -25830,7 +25830,7 @@ _autoFill
 =
 >
 new
-GeckoViewAutoFill
+GeckoViewAutofill
 (
 WindowEventDispatcher
 )
