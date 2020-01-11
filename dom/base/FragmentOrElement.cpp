@@ -1115,7 +1115,7 @@ content
 content
 -
 >
-GetBindingParent
+GetChromeOnlyAccessSubtreeRootParent
 (
 )
 )
@@ -1152,11 +1152,8 @@ Then
 again
 so
 does
-/
-/
-GetChildAt_Deprecated
+GetFirstChild
 (
-0
 )
 -
 >
