@@ -844,6 +844,13 @@ bool
 aStartMacSandbox
 )
 {
+Unused
+<
+<
+SendInitComplete
+(
+)
+;
 for
 (
 const
@@ -1144,7 +1151,7 @@ IPCResult
 RDDParent
 :
 :
-RecvInitVideoBridge
+RecvCreateVideoBridgeToParentProcess
 (
 Endpoint
 <
@@ -1161,7 +1168,7 @@ if
 RemoteDecoderManagerParent
 :
 :
-CreateVideoBridgeToOtherProcess
+CreateVideoBridgeToParentProcess
 (
 std
 :
