@@ -40285,16 +40285,8 @@ callerInnerWindow
 callerInnerWindow
 -
 >
-CanShareMemory
+IsCrossOriginIsolated
 (
-GetDocGroup
-(
-)
--
->
-AgentClusterId
-(
-)
 )
 )
 {
