@@ -391,6 +391,8 @@ baselineFrame
 >
 numValueSlots
 (
+*
+baselineFrameSize_
 )
 ;
 }

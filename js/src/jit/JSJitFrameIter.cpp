@@ -1295,7 +1295,7 @@ baselineFrame
 )
 -
 >
-frameSize
+debugFrameSize
 (
 )
 =

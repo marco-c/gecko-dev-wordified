@@ -5051,6 +5051,7 @@ frame
 >
 numValueSlots
 (
+frameSize
 )
 ;
 /
@@ -5390,7 +5391,7 @@ MOZ_ASSERT
 frame
 -
 >
-frameSize
+debugFrameSize
 (
 )
 =
