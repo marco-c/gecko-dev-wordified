@@ -35949,10 +35949,7 @@ Document
 >
 doc
 =
-docShell
--
->
-GetDocument
+GetExtantDoc
 (
 )
 ;
