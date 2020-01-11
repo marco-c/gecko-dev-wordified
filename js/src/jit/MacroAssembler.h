@@ -22776,7 +22776,7 @@ void
 loadJitCodeRaw
 (
 Register
-callee
+func
 Register
 dest
 )
@@ -22785,7 +22785,16 @@ void
 loadJitCodeNoArgCheck
 (
 Register
-callee
+func
+Register
+dest
+)
+;
+void
+loadJitCodeMaybeNoArgCheck
+(
+Register
+func
 Register
 dest
 )
