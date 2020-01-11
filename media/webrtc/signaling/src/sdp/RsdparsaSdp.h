@@ -207,7 +207,7 @@ class
 RsdparsaSdpParser
 ;
 class
-SdpParser
+SdpErrorHolder
 ;
 class
 RsdparsaSdp
