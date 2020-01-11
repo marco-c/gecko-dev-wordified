@@ -59088,7 +59088,7 @@ isRootContentDocRootScrollFrame
 presContext
 -
 >
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 &
@@ -64008,7 +64008,7 @@ isRootScrollFrame
 presContext
 -
 >
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 ;
