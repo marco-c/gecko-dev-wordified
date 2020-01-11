@@ -80944,6 +80944,17 @@ name
 )
 )
     
+sourceDescription
+=
+"
+member
+of
+%
+s
+"
+%
+unionType
+    
 conversionInfo
 =
 getJSToNativeConversionInfo
@@ -80978,14 +80989,7 @@ None
         
 sourceDescription
 =
-"
-member
-of
-%
-s
-"
-%
-unionType
+sourceDescription
 )
     
 if
@@ -81216,8 +81220,9 @@ body
 =
 body
 +
-dedent
+fill
 (
+            
 "
 "
 "
@@ -81240,8 +81245,9 @@ ThrowErrorMessage
 cx
 MSG_PERMISSION_DENIED_TO_PASS_ARG
 "
-%
-s
+{
+sourceDescription
+}
 "
 )
 ;
@@ -81259,6 +81265,10 @@ true
 "
 "
 "
+            
+sourceDescription
+=
+sourceDescription
 )
         
 setter
