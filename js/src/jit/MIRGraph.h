@@ -2164,6 +2164,8 @@ setBackedgeWasm
 MBasicBlock
 *
 block
+size_t
+paramCount
 )
 ;
 /
