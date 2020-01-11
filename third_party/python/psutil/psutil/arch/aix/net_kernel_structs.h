@@ -182,6 +182,15 @@ h
 #
 include
 <
+sys
+/
+mbuf_macro
+.
+h
+>
+#
+include
+<
 netinet
 /
 ip_var
@@ -254,6 +263,11 @@ mbuf64
 mbuf
 #
 else
+/
+*
+__64BIT__
+*
+/
 struct
 file64
 {
@@ -742,3 +756,8 @@ m_hdr
 mh_len
 #
 endif
+/
+*
+__64BIT__
+*
+/

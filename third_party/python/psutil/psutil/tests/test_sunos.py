@@ -69,12 +69,6 @@ psutil
 .
 tests
 import
-run_test_module_by_name
-from
-psutil
-.
-tests
-import
 sh
 from
 psutil
@@ -333,7 +327,16 @@ __main__
 '
 :
     
-run_test_module_by_name
+from
+psutil
+.
+tests
+.
+runner
+import
+run
+    
+run
 (
 __file__
 )

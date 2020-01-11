@@ -315,6 +315,12 @@ import
 time
 import
 psutil
+from
+psutil
+.
+_compat
+import
+get_terminal_size
 if
 not
 hasattr
@@ -376,13 +382,40 @@ main
 )
 :
     
-total
+num_cpus
 =
 psutil
 .
 cpu_count
 (
 )
+    
+if
+num_cpus
+>
+8
+:
+        
+num_cpus
+=
+8
+#
+try
+to
+fit
+into
+screen
+        
+cpus_hidden
+=
+True
+    
+else
+:
+        
+cpus_hidden
+=
+False
     
 while
 True
@@ -411,7 +444,7 @@ i
 in
 range
 (
-total
+num_cpus
 )
 :
             
@@ -431,14 +464,35 @@ end
 "
 )
         
+if
+cpus_hidden
+:
+            
+print
+(
+"
+(
++
+hidden
+)
+"
+end
+=
+"
+"
+)
+        
 print
 (
 )
         
 for
-percent
+_
 in
-cpus_percent
+range
+(
+num_cpus
+)
 :
             
 print
@@ -449,7 +503,12 @@ print
 10s
 "
 %
-percent
+cpus_percent
+.
+pop
+(
+0
+)
 end
 =
 "
@@ -520,19 +579,9 @@ name
 ]
 )
         
-end_marker
+curr_line
 =
-[
-[
-]
-for
-x
-in
-range
-(
-total
-)
-]
+3
         
 while
 True
@@ -543,7 +592,7 @@ num
 in
 range
 (
-total
+num_cpus
 )
 :
                 
@@ -593,15 +642,21 @@ print
 (
 )
             
+curr_line
++
+=
+1
+            
 if
-procs
-.
-values
+curr_line
+>
+=
+get_terminal_size
 (
 )
-=
-=
-end_marker
+[
+1
+]
 :
                 
 break

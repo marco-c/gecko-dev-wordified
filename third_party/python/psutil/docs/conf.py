@@ -848,6 +848,11 @@ db
 .
 DS_Store
 '
+'
+DEVGUIDE
+.
+rst
+'
 ]
 #
 The

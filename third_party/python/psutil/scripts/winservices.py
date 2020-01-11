@@ -45,6 +45,7 @@ the
 LICENSE
 file
 .
+r
 "
 "
 "

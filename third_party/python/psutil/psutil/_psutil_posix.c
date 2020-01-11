@@ -2377,7 +2377,7 @@ PyExc_OSError
 net_if_stats
 (
 )
-OSX
+macOS
 /
 BSD
 implementation
@@ -3418,7 +3418,7 @@ endif
 net_if_stats
 (
 )
-OSX
+macOS
 /
 BSD
 implementation
@@ -3584,6 +3584,16 @@ m
 &
 _state
 )
+#
+endif
+#
+ifdef
+__cplusplus
+extern
+"
+C
+"
+{
 #
 endif
 #
@@ -3780,3 +3790,9 @@ module
 #
 endif
 }
+#
+ifdef
+__cplusplus
+}
+#
+endif

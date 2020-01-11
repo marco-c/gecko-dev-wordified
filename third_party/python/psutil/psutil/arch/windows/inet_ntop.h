@@ -42,6 +42,14 @@ file
 .
 *
 /
+/
+/
+because
+of
+WSAAddressToStringA
+#
+define
+_WINSOCK_DEPRECATED_NO_WARNINGS
 #
 include
 <
@@ -57,7 +65,9 @@ __in
 INT
 Family
 __in
-PVOID
+const
+VOID
+*
 pAddr
 __out_ecount
 (
