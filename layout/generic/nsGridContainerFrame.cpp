@@ -58589,6 +58589,10 @@ colLineNameMap
 GetResolvedLineNamesForComputedGridTrackInfo
 (
 )
+IsSubgrid
+(
+eLogicalAxisInline
+)
 )
 ;
 SetProperty
@@ -58902,6 +58906,10 @@ rowLineNameMap
 GetResolvedLineNamesForComputedGridTrackInfo
 (
 )
+IsSubgrid
+(
+eLogicalAxisBlock
+)
 )
 ;
 SetProperty
@@ -59113,6 +59121,10 @@ priorRowInfo
 >
 mResolvedLineNames
 )
+priorRowInfo
+-
+>
+mIsSubgrid
 )
 ;
 prevInFlow

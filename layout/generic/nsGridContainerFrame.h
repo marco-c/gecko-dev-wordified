@@ -333,6 +333,8 @@ StyleCustomIdent
 &
 &
 aResolvedLineNames
+bool
+aIsSubgrid
 )
 :
 mNumLeadingImplicitTracks
@@ -367,10 +369,6 @@ mRemovedRepeatTracks
 (
 aRemovedRepeatTracks
 )
-mRepeatFirstTrack
-(
-aRepeatFirstTrack
-)
 mResolvedLineNames
 (
 std
@@ -380,6 +378,14 @@ move
 (
 aResolvedLineNames
 )
+)
+mRepeatFirstTrack
+(
+aRepeatFirstTrack
+)
+mIsSubgrid
+(
+aIsSubgrid
 )
 {
 }
@@ -419,9 +425,6 @@ bool
 >
 mRemovedRepeatTracks
 ;
-uint32_t
-mRepeatFirstTrack
-;
 nsTArray
 <
 nsTArray
@@ -430,6 +433,12 @@ StyleCustomIdent
 >
 >
 mResolvedLineNames
+;
+uint32_t
+mRepeatFirstTrack
+;
+bool
+mIsSubgrid
 ;
 }
 ;
