@@ -49,6 +49,11 @@ idl_test
 (
 [
 '
+hr
+-
+time
+'
+'
 navigation
 -
 timing
@@ -66,9 +71,7 @@ performance
 timeline
 '
 '
-hr
--
-time
+html
 '
 '
 dom
