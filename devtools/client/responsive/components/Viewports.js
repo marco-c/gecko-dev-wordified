@@ -203,13 +203,6 @@ PropTypes
 func
 .
 isRequired
-onChangeViewportOrientation
-:
-PropTypes
-.
-func
-.
-isRequired
 onContentResize
 :
 PropTypes
@@ -278,7 +271,6 @@ const
 {
 leftAlignmentEnabled
 onBrowserMounted
-onChangeViewportOrientation
 onContentResize
 onRemoveDeviceAssociation
 doResizeViewport
@@ -492,7 +484,6 @@ viewport
 id
 leftAlignmentEnabled
 onBrowserMounted
-onChangeViewportOrientation
 onContentResize
 onRemoveDeviceAssociation
 doResizeViewport

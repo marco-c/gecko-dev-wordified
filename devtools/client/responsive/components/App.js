@@ -2215,7 +2215,6 @@ onChangeNetworkThrottling
 onChangePixelRatio
 onChangeTouchSimulation
 onChangeUserAgent
-onChangeViewportOrientation
 onContentResize
 onDeviceListUpdate
 onEditCustomDevice
@@ -2362,7 +2361,6 @@ Viewports
 screenshot
 viewports
 onBrowserMounted
-onChangeViewportOrientation
 onContentResize
 onRemoveDeviceAssociation
 doResizeViewport
