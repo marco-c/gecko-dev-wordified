@@ -6290,9 +6290,12 @@ a
 new
 process
 .
-MOZ_ASSERT_IF
+MOZ_DIAGNOSTIC_ASSERT
 (
+!
 windowIsNew
+|
+|
 newDocShell
 )
 ;
@@ -6321,9 +6324,12 @@ in
 -
 process
 .
-MOZ_ASSERT_IF
+MOZ_DIAGNOSTIC_ASSERT
 (
+!
 isNewToplevelWindow
+|
+|
 newDocShell
 )
 ;
