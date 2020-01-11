@@ -175,24 +175,6 @@ argument_group_names
 '
         
 #
-When
-conditions
-are
-met
-rename
-this
-command
-to
-the
-following
-name
-.
-        
-'
-conditional_name
-'
-        
-#
 Describes
 how
 dispatch
@@ -369,10 +351,6 @@ None
 parser
 =
 None
-                 
-conditional_name
-=
-None
 )
 :
         
@@ -428,12 +406,6 @@ argument_group_names
 =
 [
 ]
-        
-self
-.
-conditional_name
-=
-conditional_name
         
 self
 .
