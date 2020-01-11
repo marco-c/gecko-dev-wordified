@@ -288,6 +288,16 @@ BodyStream
 *
 mBodyStream
 ;
+#
+ifdef
+DEBUG
+bool
+mStreamCreated
+=
+false
+;
+#
+endif
 }
 ;
 class
