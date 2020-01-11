@@ -572,11 +572,6 @@ process
 env
 .
 NSS_HEAD_REVISION
-NSS_MAX_MP_PBE_ITERATION_COUNT
-:
-"
-100
-"
 }
 def
 .
