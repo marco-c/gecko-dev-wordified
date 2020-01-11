@@ -1460,7 +1460,7 @@ l10n
 "
 jsdebugger
 .
-commandkey
+commandkey2
 "
 )
 )
