@@ -1585,7 +1585,8 @@ frames
 /
 static
 inline
-ResumeMode
+MOZ_MUST_USE
+bool
 onEnterFrame
 (
 JSContext
@@ -1731,7 +1732,8 @@ visible
 /
 static
 inline
-ResumeMode
+MOZ_MUST_USE
+bool
 onResumeFrame
 (
 JSContext
@@ -2939,7 +2941,8 @@ script
 )
 ;
 static
-ResumeMode
+MOZ_MUST_USE
+bool
 slowPathOnEnterFrame
 (
 JSContext
@@ -2950,7 +2953,8 @@ frame
 )
 ;
 static
-ResumeMode
+MOZ_MUST_USE
+bool
 slowPathOnResumeFrame
 (
 JSContext
