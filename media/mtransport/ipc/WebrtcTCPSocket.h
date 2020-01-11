@@ -419,7 +419,7 @@ OpenWithHttpProxy
 (
 )
 ;
-nsresult
+void
 OpenWithoutHttpProxy
 (
 nsIProxyInfo
@@ -427,7 +427,7 @@ nsIProxyInfo
 aSocksProxyInfo
 )
 ;
-nsresult
+void
 FinishOpen
 (
 )
