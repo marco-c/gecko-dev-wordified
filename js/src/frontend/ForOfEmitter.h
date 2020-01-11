@@ -359,16 +359,6 @@ allowSelfHostedIter_
 IteratorKind
 iterKind_
 ;
-/
-/
-Jump
-from
-into
-JSOP_LOOPENTRY
-.
-JumpList
-initialJump_
-;
 mozilla
 :
 :

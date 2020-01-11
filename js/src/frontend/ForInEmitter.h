@@ -326,6 +326,8 @@ loop
 .
 int32_t
 loopDepth_
+=
+0
 ;
 #
 endif
