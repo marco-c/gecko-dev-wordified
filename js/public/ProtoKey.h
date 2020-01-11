@@ -518,7 +518,7 @@ Array
 REAL
 (
 Boolean
-InitBooleanClass
+InitViaClassSpec
 OCLASP
 (
 Boolean
