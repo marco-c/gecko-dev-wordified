@@ -885,7 +885,7 @@ bool
 RemoteDecoderManagerParent
 :
 :
-CreateVideoBridgeToParentProcess
+CreateVideoBridgeToOtherProcess
 (
 Endpoint
 <

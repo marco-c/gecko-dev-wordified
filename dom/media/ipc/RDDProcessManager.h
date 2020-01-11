@@ -502,6 +502,11 @@ mProcess
 }
 private
 :
+bool
+CreateVideoBridge
+(
+)
+;
 /
 /
 Called

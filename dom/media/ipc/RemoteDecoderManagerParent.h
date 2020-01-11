@@ -178,7 +178,7 @@ aEndpoint
 ;
 static
 bool
-CreateVideoBridgeToParentProcess
+CreateVideoBridgeToOtherProcess
 (
 Endpoint
 <
