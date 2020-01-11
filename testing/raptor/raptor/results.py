@@ -221,6 +221,18 @@ self
 supporting_data
 =
 None
+        
+self
+.
+browser_version
+=
+None
+        
+self
+.
+browser_name
+=
+None
     
 abstractmethod
     
@@ -236,6 +248,37 @@ raise
 NotImplementedError
 (
 )
+    
+def
+add_browser_meta
+(
+self
+browser_name
+browser_version
+)
+:
+        
+#
+sets
+the
+browser
+metadata
+for
+the
+perfherder
+data
+        
+self
+.
+browser_name
+=
+browser_name
+        
+self
+.
+browser_version
+=
+browser_version
     
 def
 add_image
@@ -1196,6 +1239,18 @@ test_config
 subtest_alert_on
 '
 ]
+)
+        
+output
+.
+set_browser_meta
+(
+self
+.
+browser_name
+self
+.
+browser_version
 )
         
 output
@@ -4136,6 +4191,18 @@ test_config
 subtest_alert_on
 '
 ]
+)
+        
+output
+.
+set_browser_meta
+(
+self
+.
+browser_name
+self
+.
+browser_version
 )
         
 output
