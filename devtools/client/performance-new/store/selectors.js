@@ -298,19 +298,6 @@ state
 .
 isPopup
 ;
-const
-getSymbolTableGetter
-=
-state
-=
->
-getInitializedValues
-(
-state
-)
-.
-getSymbolTableGetter
-;
 module
 .
 exports
@@ -331,6 +318,5 @@ getPerfFront
 getReceiveProfileFn
 getSetRecordingPreferencesFn
 getIsPopup
-getSymbolTableGetter
 }
 ;
