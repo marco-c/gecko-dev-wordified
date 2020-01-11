@@ -34276,7 +34276,7 @@ on
 popup
 windows
 the
-XULWindow
+AppWindow
 '
 s
 attributes
@@ -34594,7 +34594,7 @@ the
 difference
 .
 let
-xulWin
+appWin
 =
 aWindow
 .
@@ -34613,7 +34613,7 @@ getInterface
 (
 Ci
 .
-nsIXULWindow
+nsIAppWindow
 )
 ;
 let
@@ -34626,11 +34626,11 @@ aAttribute
 width
 "
 ?
-xulWin
+appWin
 .
 outerToInnerWidthDifferenceInCSSPixels
 :
-xulWin
+appWin
 .
 outerToInnerHeightDifferenceInCSSPixels
 ;
