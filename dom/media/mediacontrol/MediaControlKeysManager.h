@@ -163,10 +163,11 @@ MediaControlKeysManager
 =
 default
 ;
-void
-Init
+bool
+Open
 (
 )
+override
 ;
 void
 OnKeyPressed

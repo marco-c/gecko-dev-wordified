@@ -364,7 +364,7 @@ MediaControlKeysManager
 mMediaControlKeysManager
 -
 >
-Init
+Open
 (
 )
 ;
