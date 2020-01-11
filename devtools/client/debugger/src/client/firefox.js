@@ -270,7 +270,7 @@ prefs
 skipPausing
 logEventBreakpoints
 :
-features
+prefs
 .
 logEventBreakpoints
 }
