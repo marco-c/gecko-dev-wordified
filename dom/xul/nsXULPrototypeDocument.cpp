@@ -103,6 +103,13 @@ h
 #
 include
 "
+nsXULElement
+.
+h
+"
+#
+include
+"
 nsAString
 .
 h
