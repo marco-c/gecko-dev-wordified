@@ -876,15 +876,6 @@ servo
 -
 2020
 "
-servo_2020_pref
-=
-"
-layout
-.
-2020
-.
-unimplemented
-"
 sub_properties
 =
 "
@@ -1158,6 +1149,9 @@ gecko
 servo
 -
 2013
+servo
+-
+2020
 "
 sub_properties
 =
@@ -3071,6 +3065,9 @@ gecko
 servo
 -
 2013
+servo
+-
+2020
 "
 name
 =
@@ -3475,6 +3472,9 @@ gecko
 servo
 -
 2013
+servo
+-
+2020
 "
 sub_properties
 =
