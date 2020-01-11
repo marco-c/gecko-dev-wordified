@@ -6561,7 +6561,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -6579,6 +6579,9 @@ no_fold_add_zero
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -6887,7 +6890,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -6905,6 +6908,9 @@ no_fold_add_zero
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -8047,7 +8053,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -8065,6 +8071,9 @@ no_fold_zero_sub
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -8373,7 +8382,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -8391,6 +8400,9 @@ no_fold_zero_sub
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -8943,7 +8955,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -8961,6 +8973,9 @@ no_fold_sub_zero
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -9269,7 +9284,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -9287,6 +9302,9 @@ no_fold_sub_zero
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -10706,7 +10724,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -10724,6 +10742,9 @@ no_fold_mul_zero
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -11947,7 +11968,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -11965,6 +11986,9 @@ no_fold_mul_zero
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -12511,7 +12535,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -12529,6 +12553,9 @@ no_fold_mul_one
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -12835,7 +12862,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -12853,6 +12880,9 @@ no_fold_mul_one
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -13405,7 +13435,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -13424,6 +13454,9 @@ no_fold_zero_div
 .
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -13704,7 +13737,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -13724,6 +13757,9 @@ no_fold_zero_div
 .
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -14004,7 +14040,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -14022,6 +14058,9 @@ no_fold_zero_div
 NaN
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -14302,7 +14341,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -14320,6 +14359,9 @@ no_fold_zero_div
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -14628,7 +14670,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -14647,6 +14689,9 @@ no_fold_zero_div
 .
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -14955,7 +15000,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -14975,6 +15020,9 @@ no_fold_zero_div
 .
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -15283,7 +15331,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -15301,6 +15349,9 @@ no_fold_zero_div
 NaN
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -15609,7 +15660,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -15627,6 +15678,9 @@ no_fold_zero_div
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -16173,7 +16227,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -16191,6 +16245,9 @@ no_fold_div_one
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -16497,7 +16554,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -16515,6 +16572,9 @@ no_fold_div_one
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -17069,7 +17129,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -17087,6 +17147,9 @@ no_fold_div_neg1
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -17397,7 +17460,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -17415,6 +17478,9 @@ no_fold_div_neg1
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -17969,7 +18035,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -17987,6 +18053,9 @@ no_fold_neg0_sub
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -18297,7 +18366,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -18315,6 +18384,9 @@ no_fold_neg0_sub
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -18869,7 +18941,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -18887,6 +18959,9 @@ no_fold_neg1_mul
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -19197,7 +19272,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -19215,6 +19290,9 @@ no_fold_neg1_mul
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -21377,7 +21455,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -21395,6 +21473,9 @@ no_fold_sub_self
 Infinity
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -21677,7 +21758,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -21695,6 +21776,9 @@ no_fold_sub_self
 NaN
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -22005,7 +22089,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -22023,6 +22107,9 @@ no_fold_sub_self
 Infinity
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -22333,7 +22420,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -22351,6 +22438,9 @@ no_fold_sub_self
 NaN
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -22885,7 +22975,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -22903,6 +22993,9 @@ no_fold_div_self
 Infinity
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -23185,7 +23278,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -23203,6 +23296,9 @@ no_fold_div_self
 NaN
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -23485,7 +23581,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -23504,6 +23600,9 @@ no_fold_div_self
 .
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -23786,7 +23885,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -23806,6 +23905,9 @@ no_fold_div_self
 .
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -24116,7 +24218,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -24134,6 +24236,9 @@ no_fold_div_self
 Infinity
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -24444,7 +24549,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -24462,6 +24567,9 @@ no_fold_div_self
 NaN
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -24772,7 +24880,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -24791,6 +24899,9 @@ no_fold_div_self
 .
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -25101,7 +25212,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -25121,6 +25232,9 @@ no_fold_div_self
 .
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -52843,7 +52957,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -52862,6 +52976,9 @@ no_fold_div_0
 .
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -53138,7 +53255,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -53158,6 +53275,9 @@ no_fold_div_0
 .
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -53434,7 +53554,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -53452,6 +53572,9 @@ no_fold_div_0
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -53728,7 +53851,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -53746,6 +53869,9 @@ no_fold_div_0
 NaN
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -55244,7 +55370,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -55263,6 +55389,9 @@ no_fold_div_0
 .
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -55567,7 +55696,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -55587,6 +55716,9 @@ no_fold_div_0
 .
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -55891,7 +56023,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -55909,6 +56041,9 @@ no_fold_div_0
 NaN
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -56213,7 +56348,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -56231,6 +56366,9 @@ no_fold_div_0
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -57939,7 +58077,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -57958,6 +58096,9 @@ no_fold_div_neg0
 .
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -58240,7 +58381,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -58260,6 +58401,9 @@ no_fold_div_neg0
 .
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -58542,7 +58686,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -58560,6 +58704,9 @@ no_fold_div_neg0
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -58842,7 +58989,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -58860,6 +59007,9 @@ no_fold_div_neg0
 NaN
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -60388,7 +60538,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -60407,6 +60557,9 @@ no_fold_div_neg0
 .
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -60717,7 +60870,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -60737,6 +60890,9 @@ no_fold_div_neg0
 .
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -61047,7 +61203,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -61065,6 +61221,9 @@ no_fold_div_neg0
 NaN
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -61375,7 +61534,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -61393,6 +61552,9 @@ no_fold_div_neg0
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -91516,7 +91678,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -91532,6 +91694,9 @@ no_fold_promote_demote
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -152110,9 +152275,11 @@ f32
 no_fold_lt_select_to_abs
 "
 [
+-
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -153328,9 +153495,11 @@ f32
 no_fold_le_select_to_abs
 "
 [
+-
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -154246,6 +154415,7 @@ no_fold_gt_select_to_abs
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -154546,6 +154716,7 @@ f32
 no_fold_gt_select_to_abs
 "
 [
+-
 NaN
 ]
 )
@@ -155464,6 +155635,7 @@ no_fold_ge_select_to_abs
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -155764,6 +155936,7 @@ f32
 no_fold_ge_select_to_abs
 "
 [
+-
 NaN
 ]
 )
@@ -157014,9 +157187,11 @@ f64
 no_fold_lt_select_to_abs
 "
 [
+-
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -158296,9 +158471,11 @@ f64
 no_fold_le_select_to_abs
 "
 [
+-
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -159262,6 +159439,7 @@ no_fold_gt_select_to_abs
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -159578,6 +159756,7 @@ f64
 no_fold_gt_select_to_abs
 "
 [
+-
 NaN
 ]
 )
@@ -160544,6 +160723,7 @@ no_fold_ge_select_to_abs
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -160860,6 +161040,7 @@ f64
 no_fold_ge_select_to_abs
 "
 [
+-
 NaN
 ]
 )
@@ -163066,9 +163247,11 @@ f32
 no_fold_lt_if_to_abs
 "
 [
+-
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -164252,9 +164435,11 @@ f32
 no_fold_le_if_to_abs
 "
 [
+-
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -165146,6 +165331,7 @@ no_fold_gt_if_to_abs
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -165438,6 +165624,7 @@ f32
 no_fold_gt_if_to_abs
 "
 [
+-
 NaN
 ]
 )
@@ -166332,6 +166519,7 @@ no_fold_ge_if_to_abs
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -166624,6 +166812,7 @@ f32
 no_fold_ge_if_to_abs
 "
 [
+-
 NaN
 ]
 )
@@ -167842,9 +168031,11 @@ f64
 no_fold_lt_if_to_abs
 "
 [
+-
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -169092,9 +169283,11 @@ f64
 no_fold_le_if_to_abs
 "
 [
+-
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -170034,6 +170227,7 @@ no_fold_gt_if_to_abs
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -170342,6 +170536,7 @@ f64
 no_fold_gt_if_to_abs
 "
 [
+-
 NaN
 ]
 )
@@ -171284,6 +171479,7 @@ no_fold_ge_if_to_abs
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -171592,6 +171788,7 @@ f64
 no_fold_ge_if_to_abs
 "
 [
+-
 NaN
 ]
 )
@@ -212333,7 +212530,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -212351,6 +212548,9 @@ no_fold_add_neg
 Infinity
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -212631,7 +212831,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -212650,6 +212850,9 @@ no_fold_add_neg
 Infinity
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -213565,7 +213768,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -213583,6 +213786,9 @@ no_fold_add_neg
 Infinity
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -213891,7 +214097,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -213910,6 +214116,9 @@ no_fold_add_neg
 Infinity
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -232603,7 +232812,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -232631,6 +232840,9 @@ no_fold_mul_sqrts
 25
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -234213,7 +234425,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -234240,6 +234452,9 @@ no_fold_mul_sqrts
 0068299629382
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -236154,7 +236369,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -236180,6 +236395,9 @@ no_fold_div_sqrts
 18
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -237756,7 +237974,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -237785,6 +238003,9 @@ no_fold_div_sqrts
 57
 ]
 )
+nan
+:
+canonical
 )
 /
 /

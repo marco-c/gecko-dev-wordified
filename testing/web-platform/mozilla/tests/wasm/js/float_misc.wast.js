@@ -109746,7 +109746,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -109769,6 +109769,9 @@ sqrt
 290
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -113598,6 +113601,7 @@ f32
 abs
 "
 [
+-
 NaN
 ]
 )
@@ -114148,6 +114152,7 @@ f64
 abs
 "
 [
+-
 NaN
 ]
 )
@@ -114410,6 +114415,7 @@ neg
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -114666,6 +114672,7 @@ f32
 neg
 "
 [
+-
 NaN
 ]
 )
@@ -114944,6 +114951,7 @@ neg
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -115216,6 +115224,7 @@ f64
 neg
 "
 [
+-
 NaN
 ]
 )
@@ -115780,9 +115789,11 @@ copysign
 "
 [
 NaN
+-
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -116061,6 +116072,7 @@ f32
 copysign
 "
 [
+-
 NaN
 NaN
 ]
@@ -116343,10 +116355,13 @@ f32
 copysign
 "
 [
+-
 NaN
+-
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -116956,9 +116971,11 @@ copysign
 "
 [
 NaN
+-
 NaN
 ]
 )
+-
 NaN
 )
 /
@@ -117261,6 +117278,7 @@ f64
 copysign
 "
 [
+-
 NaN
 NaN
 ]
@@ -117567,10 +117585,13 @@ f64
 copysign
 "
 [
+-
 NaN
+-
 NaN
 ]
 )
+-
 NaN
 )
 /
