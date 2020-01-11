@@ -1988,6 +1988,24 @@ webgl2
 -
 deqp
 '
+                
+(
+'
+mochitest
+-
+plain
+'
+'
+webgpu
+'
+None
+)
+:
+'
+mochitest
+-
+webgpu
+'
             
 }
             

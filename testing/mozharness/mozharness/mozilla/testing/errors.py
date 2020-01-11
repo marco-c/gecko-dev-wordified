@@ -327,6 +327,14 @@ _mochitest_summary
 "
 mochitest
 -
+webgpu_summary
+"
+:
+_mochitest_summary
+    
+"
+mochitest
+-
 media_summary
 "
 :
