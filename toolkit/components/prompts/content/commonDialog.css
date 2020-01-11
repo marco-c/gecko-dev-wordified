@@ -56,6 +56,16 @@ MPL
 .
 *
 /
+:
+root
+{
+min
+-
+width
+:
+29em
+;
+}
 #
 dialogGrid
 {
