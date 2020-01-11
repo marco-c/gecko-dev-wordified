@@ -7673,10 +7673,6 @@ checkbox
 nsGkAtoms
 :
 :
-textbox
-nsGkAtoms
-:
-:
 tab
 nsGkAtoms
 :
