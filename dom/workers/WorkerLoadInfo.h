@@ -708,6 +708,9 @@ ServiceWorkerDescriptor
 >
 mParentController
 ;
+nsID
+mAgentClusterId
+;
 ChannelInfo
 mChannelInfo
 ;

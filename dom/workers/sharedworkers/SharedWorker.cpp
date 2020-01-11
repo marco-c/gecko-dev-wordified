@@ -1218,6 +1218,16 @@ ToIPC
 )
 ;
 }
+nsID
+agentClusterId
+=
+nsContentUtils
+:
+:
+GenerateUUID
+(
+)
+;
 RemoteWorkerData
 remoteWorkerData
 (
@@ -1248,6 +1258,7 @@ void_t
 OptionalServiceWorkerData
 *
 /
+agentClusterId
 )
 ;
 PSharedWorkerChild
