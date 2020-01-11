@@ -217,9 +217,6 @@ nsIAsyncInputStream
 class
 nsIThread
 ;
-class
-nsIX509CertList
-;
 namespace
 mozilla
 {
@@ -1345,9 +1342,15 @@ info
 .
 *
 /
-nsCOMArray
+nsTArray
 <
-nsIX509CertList
+nsTArray
+<
+nsTArray
+<
+uint8_t
+>
+>
 >
 mSignatureInfo
 ;
