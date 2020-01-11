@@ -1492,7 +1492,7 @@ ServiceWorkerOp
 ServiceWorkerOpRunnable
 :
 public
-WorkerDebuggeeRunnable
+WorkerRunnable
 {
 public
 :
@@ -1509,10 +1509,9 @@ WorkerPrivate
 aWorkerPrivate
 )
 :
-WorkerDebuggeeRunnable
+WorkerRunnable
 (
 aWorkerPrivate
-WorkerThreadModifyBusyCount
 )
 mOwner
 (

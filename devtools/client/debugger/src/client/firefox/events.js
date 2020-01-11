@@ -324,6 +324,9 @@ workerListChanged
 >
 threadListChanged
 (
+"
+worker
+"
 )
 )
 ;
@@ -342,6 +345,9 @@ processListChanged
 >
 threadListChanged
 (
+"
+contentProcess
+"
 )
 )
 ;
@@ -379,6 +385,9 @@ addListener
 >
 threadListChanged
 (
+"
+worker
+"
 )
 )
 ;
@@ -713,12 +722,14 @@ source
 function
 threadListChanged
 (
+type
 )
 {
 actions
 .
 updateThreads
 (
+type
 )
 ;
 }

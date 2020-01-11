@@ -1530,9 +1530,9 @@ _parameters
 .
 workerList
 .
-destroy
-(
-)
+onListChanged
+=
+null
 ;
 }
 if
