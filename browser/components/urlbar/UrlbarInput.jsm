@@ -3984,9 +3984,8 @@ RESULT_TYPE
 TIP
 :
 {
-let
-helpPicked
-=
+if
+(
 element
 .
 classList
@@ -4001,10 +4000,6 @@ tip
 help
 "
 )
-;
-if
-(
-helpPicked
 )
 {
 url
@@ -4095,9 +4090,6 @@ provider
 pickResult
 (
 result
-{
-helpPicked
-}
 )
 ;
 return

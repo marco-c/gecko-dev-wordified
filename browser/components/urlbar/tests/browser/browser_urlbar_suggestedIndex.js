@@ -851,7 +851,6 @@ context
 pickResult
 (
 result
-details
 )
 {
 }

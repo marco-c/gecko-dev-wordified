@@ -541,7 +541,6 @@ context
 pickResult
 (
 result
-details
 )
 {
 }

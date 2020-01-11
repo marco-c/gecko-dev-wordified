@@ -373,7 +373,6 @@ _resultsAdded
 pickResult
 (
 result
-details
 )
 {
 }

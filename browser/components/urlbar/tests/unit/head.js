@@ -941,7 +941,6 @@ _cancelCallback
 pickResult
 (
 result
-details
 )
 {
 }
