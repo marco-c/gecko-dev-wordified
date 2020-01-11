@@ -37182,6 +37182,7 @@ layer_id
 )
 rect_size
 format
+None
 data_ref
 )
 ;
@@ -38084,6 +38085,11 @@ def
 descriptor
 .
 format
+def
+.
+descriptor
+.
+stride
 &
 bytes
 )
