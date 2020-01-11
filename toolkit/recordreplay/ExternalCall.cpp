@@ -1566,7 +1566,7 @@ RecordReplayInvokeCall
 (
 redirection
 .
-mBaseFunction
+mOriginalFunction
 &
 arguments
 )
