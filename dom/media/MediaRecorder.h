@@ -879,9 +879,9 @@ thread
 nsresult
 CreateAndDispatchBlobEvent
 (
-Blob
+BlobImpl
 *
-aBlob
+aBlobImpl
 )
 ;
 /

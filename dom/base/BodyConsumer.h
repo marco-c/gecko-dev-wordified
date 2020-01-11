@@ -468,9 +468,9 @@ aWorkerRef
 void
 OnBlobResult
 (
-Blob
+BlobImpl
 *
-aBlob
+aBlobImpl
 ThreadSafeWorkerRef
 *
 aWorkerRef
