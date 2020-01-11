@@ -992,8 +992,9 @@ Recording
 (
 )
 ;
-ApplyInitialLibraryRedirections
+ApplyLibraryRedirections
 (
+nullptr
 )
 ;
 Thread
