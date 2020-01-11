@@ -224,19 +224,20 @@ flags
     
 flags
 =
-filter
-(
-lambda
-x
-:
-x
+[
+flag
+for
+flag
+in
+flags
+if
+flag
 !
 =
 '
 JOF_BYTE
 '
-flags
-)
+]
     
 if
 len
