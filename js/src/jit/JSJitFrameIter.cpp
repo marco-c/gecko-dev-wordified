@@ -2097,14 +2097,6 @@ numActualArgs
 )
 )
 ;
-BaselineFrame
-*
-frame
-=
-baselineFrame
-(
-)
-;
 for
 (
 unsigned
@@ -2114,10 +2106,7 @@ i
 ;
 i
 <
-frame
--
->
-numValueSlots
+baselineFrameNumValueSlots
 (
 )
 ;
@@ -2154,7 +2143,9 @@ Value
 *
 v
 =
-frame
+baselineFrame
+(
+)
 -
 >
 valueSlot
