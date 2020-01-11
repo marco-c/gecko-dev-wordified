@@ -3269,6 +3269,17 @@ reload
 }
 )
 ;
+this
+.
+messageSubscribers
+(
+"
+AboutLogins
+:
+MasterPasswordAuthRequired
+"
+)
+;
 }
 showPasswordSyncNotifications
 (

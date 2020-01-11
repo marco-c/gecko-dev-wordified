@@ -822,6 +822,11 @@ LoginRemoved
 "
 AboutLogins
 :
+MasterPasswordAuthRequired
+"
+"
+AboutLogins
+:
 MasterPasswordResponse
 "
 "
