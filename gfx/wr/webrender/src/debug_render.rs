@@ -1902,11 +1902,11 @@ set_blend_mode_premultiplied_alpha
 )
 ;
 let
-surface_is_y_flipped
+surface_origin_is_top_left
 =
 device
 .
-surface_is_y_flipped
+surface_origin_is_top_left
 (
 )
 ;
@@ -1917,7 +1917,7 @@ top
 )
 =
 if
-surface_is_y_flipped
+surface_origin_is_top_left
 {
 (
 0

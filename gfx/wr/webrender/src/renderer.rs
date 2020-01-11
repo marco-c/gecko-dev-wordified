@@ -11223,7 +11223,7 @@ take
 )
 options
 .
-surface_is_y_flipped
+surface_origin_is_top_left
 )
 ;
 let
@@ -25521,7 +25521,7 @@ self
 .
 device
 .
-surface_is_y_flipped
+surface_origin_is_top_left
 (
 )
 {
@@ -29473,13 +29473,13 @@ to_f32
 )
 ;
 let
-surface_is_y_flipped
+surface_origin_is_top_left
 =
 self
 .
 device
 .
-surface_is_y_flipped
+surface_origin_is_top_left
 (
 )
 ;
@@ -29490,7 +29490,7 @@ top
 )
 =
 if
-surface_is_y_flipped
+surface_origin_is_top_left
 {
 (
 offset
@@ -29575,7 +29575,7 @@ fb_scale
 ;
 if
 !
-surface_is_y_flipped
+surface_origin_is_top_left
 {
 fb_rect
 .
@@ -29616,7 +29616,7 @@ total_size
 device_size
 *
 fb_scale
-surface_is_y_flipped
+surface_origin_is_top_left
 }
 ;
 /
@@ -31763,7 +31763,7 @@ self
 .
 device
 .
-surface_is_y_flipped
+surface_origin_is_top_left
 (
 )
 )
@@ -32655,7 +32655,7 @@ if
 !
 device
 .
-surface_is_y_flipped
+surface_origin_is_top_left
 (
 )
 {
@@ -32680,7 +32680,7 @@ new_default
 device_size
 device
 .
-surface_is_y_flipped
+surface_origin_is_top_left
 (
 )
 )
@@ -32718,7 +32718,7 @@ new_default
 device_size
 device
 .
-surface_is_y_flipped
+surface_origin_is_top_left
 (
 )
 )
@@ -36345,7 +36345,7 @@ Option
 String
 >
 pub
-surface_is_y_flipped
+surface_origin_is_top_left
 :
 bool
 /
@@ -36640,7 +36640,7 @@ true
 dump_shader_source
 :
 None
-surface_is_y_flipped
+surface_origin_is_top_left
 :
 false
 compositor_config

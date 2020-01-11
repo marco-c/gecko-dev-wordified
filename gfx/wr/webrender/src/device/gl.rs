@@ -6178,7 +6178,7 @@ Option
 <
 String
 >
-surface_is_y_flipped
+surface_origin_is_top_left
 :
 bool
 }
@@ -6259,7 +6259,7 @@ target
 total_size
 :
 FramebufferIntSize
-surface_is_y_flipped
+surface_origin_is_top_left
 :
 bool
 }
@@ -6433,7 +6433,7 @@ new_default
 size
 :
 DeviceIntSize
-surface_is_y_flipped
+surface_origin_is_top_left
 :
 bool
 )
@@ -6469,7 +6469,7 @@ into
 (
 )
 total_size
-surface_is_y_flipped
+surface_origin_is_top_left
 }
 }
 /
@@ -6732,7 +6732,7 @@ Default
 {
 ref
 rect
-surface_is_y_flipped
+surface_origin_is_top_left
 .
 .
 }
@@ -6749,7 +6749,7 @@ flip
 here
 if
 !
-surface_is_y_flipped
+surface_origin_is_top_left
 {
 fb_rect
 .
@@ -7350,7 +7350,7 @@ Option
 <
 String
 >
-surface_is_y_flipped
+surface_origin_is_top_left
 :
 bool
 )
@@ -9289,7 +9289,7 @@ texture_storage_usage
 requires_null_terminated_shader_source
 optimal_pbo_stride
 dump_shader_source
-surface_is_y_flipped
+surface_origin_is_top_left
 }
 }
 pub
@@ -9464,7 +9464,7 @@ max_texture_size
 }
 pub
 fn
-surface_is_y_flipped
+surface_origin_is_top_left
 (
 &
 self
@@ -9475,7 +9475,7 @@ bool
 {
 self
 .
-surface_is_y_flipped
+surface_origin_is_top_left
 }
 /
 /

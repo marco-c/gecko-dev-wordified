@@ -1823,7 +1823,7 @@ level
 !
 device
 .
-surface_is_y_flipped
+surface_origin_is_top_left
 (
 )
 {
