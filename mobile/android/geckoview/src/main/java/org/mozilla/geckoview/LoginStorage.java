@@ -1932,7 +1932,7 @@ link
 GeckoSession
 .
 PromptDelegate
-.
+#
 onLoginStoragePrompt
 onLoginStoragePrompt
 }

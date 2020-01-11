@@ -28407,7 +28407,8 @@ one
 of
 {
 link
-#
+LoginStoragePrompt
+.
 Type
 }
 .
@@ -28454,7 +28455,8 @@ combination
 of
 {
 link
-#
+LoginStoragePrompt
+.
 Hint
 }
 .
