@@ -4668,6 +4668,8 @@ wr
 :
 DeviceIntSize
 aTileSize
+bool
+aIsOpaque
 )
 {
 mDCLayerTree
@@ -4677,6 +4679,7 @@ CreateSurface
 (
 aId
 aTileSize
+aIsOpaque
 )
 ;
 }
@@ -4714,8 +4717,6 @@ int
 aX
 int
 aY
-bool
-aIsOpaque
 )
 {
 mDCLayerTree
@@ -4726,7 +4727,6 @@ CreateTile
 aId
 aX
 aY
-aIsOpaque
 )
 ;
 }

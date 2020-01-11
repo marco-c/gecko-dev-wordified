@@ -596,6 +596,8 @@ wr
 :
 DeviceIntSize
 aTileSize
+bool
+aIsOpaque
 )
 {
 }
@@ -620,8 +622,6 @@ int32_t
 aX
 int32_t
 aY
-bool
-aIsOpaque
 )
 {
 }

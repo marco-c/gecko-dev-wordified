@@ -17602,6 +17602,7 @@ NativeSurfaceId
 :
 DEBUG_OVERLAY
 framebuffer_size
+false
 )
 ;
 compositor
@@ -17612,7 +17613,6 @@ NativeTileId
 :
 :
 DEBUG_OVERLAY
-false
 )
 ;
 self
@@ -30608,6 +30608,7 @@ CreateSurface
 {
 id
 tile_size
+is_opaque
 }
 =
 >
@@ -30643,6 +30644,7 @@ create_surface
 (
 id
 tile_size
+is_opaque
 )
 ;
 }
@@ -30696,7 +30698,6 @@ NativeSurfaceOperationDetails
 CreateTile
 {
 id
-is_opaque
 }
 =
 >
@@ -30706,7 +30707,6 @@ compositor
 create_tile
 (
 id
-is_opaque
 )
 ;
 }

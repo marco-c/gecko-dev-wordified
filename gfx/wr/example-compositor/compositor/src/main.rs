@@ -282,6 +282,9 @@ NativeSurfaceId
 tile_size
 :
 DeviceIntSize
+is_opaque
+:
+bool
 )
 {
 compositor
@@ -301,6 +304,7 @@ width
 tile_size
 .
 height
+is_opaque
 )
 ;
 }
@@ -344,9 +348,6 @@ webrender
 :
 :
 NativeTileId
-is_opaque
-:
-bool
 )
 {
 compositor
@@ -368,7 +369,6 @@ x
 id
 .
 y
-is_opaque
 )
 ;
 }
@@ -1217,9 +1217,7 @@ scroll_space_info
 .
 spatial_id
 root_pipeline_id
-0
-.
-0
+time
 time
 )
 ;

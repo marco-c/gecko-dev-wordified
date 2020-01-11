@@ -207,6 +207,9 @@ NativeSurfaceId
 tile_size
 :
 DeviceIntSize
+is_opaque
+:
+bool
 }
 DestroySurface
 {
@@ -219,9 +222,6 @@ CreateTile
 id
 :
 NativeTileId
-is_opaque
-:
-bool
 }
 DestroyTile
 {
@@ -3020,6 +3020,9 @@ NativeSurfaceId
 tile_size
 :
 DeviceIntSize
+is_opaque
+:
+bool
 )
 ;
 /
@@ -3141,9 +3144,6 @@ self
 id
 :
 NativeTileId
-is_opaque
-:
-bool
 )
 ;
 /
