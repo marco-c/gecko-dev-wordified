@@ -267,7 +267,7 @@ h
 "
 extern
 const
-int16_t
+uint16_t
 *
 const
 dav1d_scans

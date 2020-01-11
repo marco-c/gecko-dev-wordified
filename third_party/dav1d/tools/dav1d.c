@@ -267,13 +267,6 @@ h
 #
 include
 <
-assert
-.
-h
->
-#
-include
-<
 errno
 .
 h
@@ -913,6 +906,10 @@ fps
 [
 2
 ]
+timebase
+[
+2
+]
 ;
 uint64_t
 nspf
@@ -1010,6 +1007,7 @@ inputfile
 fps
 &
 total
+timebase
 )
 )
 <

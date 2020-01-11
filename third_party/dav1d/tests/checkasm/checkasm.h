@@ -460,6 +460,12 @@ checkasm_check_cdef
 decl_check_bitfns
 (
 void
+checkasm_check_filmgrain
+)
+;
+decl_check_bitfns
+(
+void
 checkasm_check_ipred
 )
 ;
@@ -2164,6 +2170,9 @@ bench_new
 .
 .
 )
+do
+{
+}
 while
 (
 0
