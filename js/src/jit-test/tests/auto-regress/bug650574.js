@@ -8,6 +8,17 @@ test
 error
 :
 InternalError
+;
+skip
+-
+if
+:
+!
+Error
+.
+prototype
+.
+toSource
 /
 /
 Binary

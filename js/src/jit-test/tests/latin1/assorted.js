@@ -106,6 +106,15 @@ u1200
 "
 )
 ;
+if
+(
+Object
+.
+prototype
+.
+toSource
+)
+{
 /
 /
 obj
@@ -353,6 +362,7 @@ prop
 "
 )
 ;
+}
 /
 /
 XDR
