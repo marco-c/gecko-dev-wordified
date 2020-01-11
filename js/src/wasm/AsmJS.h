@@ -241,7 +241,7 @@ JSFunction
 namespace
 JS
 {
-class
+union
 Value
 ;
 template
