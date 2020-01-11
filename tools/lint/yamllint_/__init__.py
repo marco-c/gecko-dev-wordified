@@ -166,7 +166,6 @@ re
 .
 compile
 (
-b
 '
 (
 .
