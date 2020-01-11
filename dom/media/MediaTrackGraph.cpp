@@ -917,7 +917,7 @@ const
 {
 MOZ_ASSERT
 (
-OnGraphThreadOrNotRunning
+OnGraphThread
 (
 )
 )
@@ -5288,7 +5288,7 @@ aListener
 {
 MOZ_ASSERT
 (
-OnGraphThreadOrNotRunning
+OnGraphThread
 (
 )
 )
