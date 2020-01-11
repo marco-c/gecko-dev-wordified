@@ -649,9 +649,6 @@ matches
 :
 [
 "
-ca
-"
-"
 en
 -
 CA
