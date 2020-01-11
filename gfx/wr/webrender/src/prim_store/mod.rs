@@ -195,7 +195,7 @@ use
 crate
 :
 :
-display_list_flattener
+scene_building
 :
 :
 {
@@ -10955,6 +10955,7 @@ pub
 fn
 destroy
 (
+&
 mut
 self
 retained_tiles
@@ -24022,7 +24023,7 @@ internable
 /
 /
 see
-DisplayListFlattener
+SceneBuilder
 :
 :
 add_primitive

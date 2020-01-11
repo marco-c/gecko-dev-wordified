@@ -99,10 +99,10 @@ use
 crate
 :
 :
-display_list_flattener
+scene_building
 :
 :
-DisplayListFlattener
+SceneBuilder
 ;
 use
 crate
@@ -546,7 +546,7 @@ impl
 '
 a
 >
-DisplayListFlattener
+SceneBuilder
 <
 '
 a
