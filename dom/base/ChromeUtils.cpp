@@ -4913,11 +4913,9 @@ GetRemoteType
 ;
 if
 (
-processType
-.
-EqualsLiteral
+IsWebRemoteType
 (
-DEFAULT_REMOTE_TYPE
+processType
 )
 )
 {
