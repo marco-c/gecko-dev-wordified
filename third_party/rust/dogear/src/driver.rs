@@ -525,6 +525,10 @@ items
 :
 usize
 pub
+deletions
+:
+usize
+pub
 problems
 :
 ProblemCounts
