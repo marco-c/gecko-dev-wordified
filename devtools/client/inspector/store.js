@@ -138,14 +138,14 @@ services
 services
 .
 createObjectFront
-createLongStringClient
+createLongStringFront
 :
 services
 &
 &
 services
 .
-createLongStringClient
+createLongStringFront
 releaseActor
 :
 services
