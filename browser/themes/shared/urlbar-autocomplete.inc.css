@@ -2028,7 +2028,7 @@ min
 -
 height
 :
-32px
+16px
 ;
 padding
 :
@@ -2077,7 +2077,15 @@ min
 -
 width
 :
-10em
+8
+.
+75em
+;
+text
+-
+align
+:
+center
 ;
 flex
 -
