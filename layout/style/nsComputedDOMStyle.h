@@ -1954,6 +1954,7 @@ element
 bool
 NeedsToFlushStyle
 (
+nsCSSPropertyID
 )
 const
 ;
