@@ -1971,7 +1971,7 @@ FuncArgTypesVector
 typedef
 Vector
 <
-ExprType
+ValTypeVector
 0
 SystemAllocPolicy
 >
