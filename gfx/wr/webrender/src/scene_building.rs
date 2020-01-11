@@ -2581,7 +2581,7 @@ device_pixel_scale
 ;
 builder
 .
-flatten_items
+build_items
 (
 &
 mut
@@ -5004,7 +5004,7 @@ true
 ;
 }
 fn
-flatten_items
+build_items
 (
 &
 mut
@@ -5082,7 +5082,7 @@ _
 }
 self
 .
-flatten_item
+build_item
 (
 item
 pipeline_id
@@ -5093,7 +5093,7 @@ apply_pipeline_clip
 /
 /
 If
-flatten_item
+build_item
 created
 a
 sub
@@ -5305,7 +5305,7 @@ println
 }
 }
 fn
-flatten_sticky_frame
+build_sticky_frame
 (
 &
 mut
@@ -5398,7 +5398,7 @@ index
 ;
 }
 fn
-flatten_scroll_frame
+build_scroll_frame
 (
 &
 mut
@@ -5565,7 +5565,7 @@ external_scroll_offset
 ;
 }
 fn
-flatten_reference_frame
+build_reference_frame
 (
 &
 mut
@@ -5647,7 +5647,7 @@ push_scope
 ;
 self
 .
-flatten_items
+build_items
 (
 traversal
 pipeline_id
@@ -5664,7 +5664,7 @@ pop_scope
 ;
 }
 fn
-flatten_stacking_context
+build_stacking_context
 (
 &
 mut
@@ -6015,7 +6015,7 @@ to_vector
 ;
 self
 .
-flatten_items
+build_items
 (
 traversal
 pipeline_id
@@ -6047,7 +6047,7 @@ pop_stacking_context
 ;
 }
 fn
-flatten_iframe
+build_iframe
 (
 &
 mut
@@ -6337,7 +6337,7 @@ push_scope
 ;
 self
 .
-flatten_items
+build_items
 (
 &
 mut
@@ -6728,7 +6728,7 @@ rect
 )
 }
 fn
-flatten_item
+build_item
 <
 '
 b
@@ -7602,7 +7602,7 @@ sub_iter
 ;
 self
 .
-flatten_stacking_context
+build_stacking_context
 (
 &
 mut
@@ -7680,7 +7680,7 @@ sub_iter
 ;
 self
 .
-flatten_reference_frame
+build_reference_frame
 (
 &
 mut
@@ -7732,7 +7732,7 @@ spatial_id
 ;
 self
 .
-flatten_iframe
+build_iframe
 (
 info
 space
@@ -8373,7 +8373,7 @@ spatial_id
 ;
 self
 .
-flatten_scroll_frame
+build_scroll_frame
 (
 &
 item
@@ -8409,7 +8409,7 @@ parent_spatial_id
 ;
 self
 .
-flatten_sticky_frame
+build_sticky_frame
 (
 info
 parent_space
