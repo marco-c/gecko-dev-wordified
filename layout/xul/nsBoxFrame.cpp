@@ -6088,10 +6088,6 @@ nsGkAtoms
 :
 :
 dialog
-nsGkAtoms
-:
-:
-wizard
 )
 &
 &
