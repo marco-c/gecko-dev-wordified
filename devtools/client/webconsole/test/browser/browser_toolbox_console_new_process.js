@@ -289,6 +289,11 @@ ToolboxTask
 await
 initBrowserToolboxTask
 (
+{
+enableContentMessages
+:
+true
+}
 )
 ;
 await
