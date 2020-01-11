@@ -2200,8 +2200,6 @@ this
 .
 window
 .
-top
-.
 close
 .
 bind
@@ -2209,8 +2207,6 @@ bind
 this
 .
 window
-.
-top
 )
 )
 ;
