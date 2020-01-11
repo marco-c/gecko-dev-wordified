@@ -1304,6 +1304,9 @@ __GNUC_MINOR__
 =
 4
 )
+|
+|
+__clang__
 return
 __builtin_popcount
 (
