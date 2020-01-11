@@ -6423,6 +6423,9 @@ count
 cache
 timings
 redirect
+.
+.
+.
 )
 \
 profiler_add_network_marker
@@ -6438,6 +6441,9 @@ count
 cache
 timings
 redirect
+#
+#
+__VA_ARGS__
 )
 void
 profiler_add_network_marker
@@ -6486,6 +6492,10 @@ nullptr
 nsIURI
 *
 aRedirectURI
+=
+nullptr
+UniqueProfilerBacktrace
+aSource
 =
 nullptr
 )

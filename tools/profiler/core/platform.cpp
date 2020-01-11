@@ -28373,6 +28373,8 @@ aTimings
 nsIURI
 *
 aRedirectURI
+UniqueProfilerBacktrace
+aSource
 )
 {
 if
@@ -28535,6 +28537,13 @@ redirect_spec
 .
 get
 (
+)
+std
+:
+:
+move
+(
+aSource
 )
 )
 )
