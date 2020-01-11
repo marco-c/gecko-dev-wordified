@@ -3704,9 +3704,6 @@ frozenset
 (
 [
 "
-stub
-"
-"
 manual
 "
 "

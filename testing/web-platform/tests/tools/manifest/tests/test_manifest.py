@@ -401,9 +401,6 @@ item
 ManualTest
 item
 .
-Stub
-item
-.
 WebDriverSpecTest
                     
 item
