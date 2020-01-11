@@ -755,6 +755,16 @@ false
 )
 const
 ;
+nsTArray
+<
+nsPIDOMWindowOuter
+*
+>
+GetTopLevelWindows
+(
+)
+const
+;
 const
 nsTArray
 <
