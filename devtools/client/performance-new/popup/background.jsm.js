@@ -1755,10 +1755,13 @@ duration
 0
 interval
 :
-1
+1000
 /
 /
-milliseconds
+1000
+s
+=
+1ms
 features
 :
 [
