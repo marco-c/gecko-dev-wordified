@@ -3065,7 +3065,7 @@ used
 /
 as
 unique
-identfiers
+identifiers
 for
 tile
 surfaces

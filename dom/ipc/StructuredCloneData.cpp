@@ -963,7 +963,7 @@ SupportsTransferring
 {
 aClonedData
 .
-identfiers
+identifiers
 (
 )
 .
@@ -1648,7 +1648,7 @@ identifiers
 =
 aClonedData
 .
-identfiers
+identifiers
 (
 )
 ;
