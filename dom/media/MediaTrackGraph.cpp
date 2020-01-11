@@ -2219,6 +2219,13 @@ AsAudioCallbackDriver
 &
 !
 switching
+&
+&
+AudioOutputChannelCount
+(
+)
+>
+0
 )
 {
 MonitorAutoLock
