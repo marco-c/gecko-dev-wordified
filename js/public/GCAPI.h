@@ -496,7 +496,7 @@ Default
 JS
 :
 :
-DefaultNurseryBytes
+DefaultNurseryMaxBytes
 *
 /
 JSGC_MAX_NURSERY_BYTES
