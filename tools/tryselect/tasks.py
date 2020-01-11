@@ -792,6 +792,21 @@ target_task_set
 '
 )
     
+generate
+(
+'
+target_task_graph
+'
+)
+#
+discard
+results
+we
+only
+need
+cache
+.
+    
 os
 .
 chdir
