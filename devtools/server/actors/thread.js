@@ -12216,6 +12216,12 @@ getSourceActor
 source
 )
 ;
+sourceActor
+.
+resetDebuggeeScripts
+(
+)
+;
 }
 else
 {
