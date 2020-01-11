@@ -12436,7 +12436,6 @@ postResizeEventIfNeeded
 [
 this
 initialized
-aOptions
 ]
 (
 )
@@ -12452,17 +12451,6 @@ mIsDestroying
 &
 !
 mResizeEventPending
-&
-&
-!
-(
-aOptions
-&
-ResizeReflowOptions
-:
-:
-SuppressResizeEvent
-)
 )
 {
 mResizeEventPending

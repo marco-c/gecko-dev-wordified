@@ -361,7 +361,6 @@ const
 CSSSize
 &
 aNewSize
-ResizeEventFlag
 )
 override
 ;
