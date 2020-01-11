@@ -254,6 +254,10 @@ move
 (
 parentPipe
 )
+VideoBridgeSource
+:
+:
+GpuProcess
 )
 )
 ;
