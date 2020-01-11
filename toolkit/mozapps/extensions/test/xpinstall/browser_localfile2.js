@@ -297,7 +297,9 @@ ContentTaskUtils
 .
 waitForEvent
 (
-this
+docShell
+.
+chromeEventHandler
 "
 load
 "
@@ -311,7 +313,9 @@ ContentTaskUtils
 .
 waitForEvent
 (
-this
+docShell
+.
+chromeEventHandler
 "
 InstallTriggered
 "

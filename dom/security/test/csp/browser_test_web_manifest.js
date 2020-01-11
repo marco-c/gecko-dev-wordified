@@ -1735,7 +1735,7 @@ resolve
 ;
 }
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (

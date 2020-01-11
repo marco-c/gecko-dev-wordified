@@ -301,14 +301,12 @@ let
 alreadyLoaded
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 aExpectedURL
-]
 url
 =
 >

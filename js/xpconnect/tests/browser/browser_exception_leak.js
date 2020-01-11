@@ -143,16 +143,14 @@ let
 stackTraceEmpty
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 {
 innerWindowId
 }
-]
 async
 function
 (

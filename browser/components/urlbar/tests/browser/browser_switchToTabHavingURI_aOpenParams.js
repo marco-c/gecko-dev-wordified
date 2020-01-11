@@ -129,7 +129,7 @@ true
 let
 hashChangePromise
 =
-SpecialPowers
+ContentTask
 .
 spawn
 (

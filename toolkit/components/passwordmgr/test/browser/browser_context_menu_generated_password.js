@@ -1557,13 +1557,12 @@ menu
 let
 passwordChangedPromise
 =
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+null
 async
 function
 (
