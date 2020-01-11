@@ -6458,8 +6458,6 @@ forget
 )
 )
 ;
-return
-;
 }
 void
 CustomElementRegistry
