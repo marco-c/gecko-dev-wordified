@@ -416,9 +416,6 @@ variant
 is
 a
 valid
-case
--
-normalized
 variant
 subtag
 .
