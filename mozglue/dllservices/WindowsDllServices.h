@@ -476,6 +476,13 @@ const
 wchar_t
 *
 aFilePath
+AuthenticodeFlags
+aFlags
+=
+AuthenticodeFlags
+:
+:
+Default
 )
 override
 #
@@ -492,6 +499,13 @@ const
 wchar_t
 *
 aFilePath
+AuthenticodeFlags
+aFlags
+=
+AuthenticodeFlags
+:
+:
+Default
 )
 final
 #
@@ -520,6 +534,7 @@ mAuthenticode
 GetBinaryOrgName
 (
 aFilePath
+aFlags
 )
 ;
 }
@@ -946,6 +961,13 @@ const
 wchar_t
 *
 aFilePath
+AuthenticodeFlags
+aFlags
+=
+AuthenticodeFlags
+:
+:
+Default
 )
 final
 {
@@ -990,6 +1012,7 @@ DllServicesBase
 GetBinaryOrgName
 (
 aFilePath
+aFlags
 )
 ;
 }
