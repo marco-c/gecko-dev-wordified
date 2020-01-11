@@ -2925,12 +2925,12 @@ content
 content
 -
 >
-GetBindingParent
+GetContainingShadow
 (
 )
 =
 =
-shadowHost
+this
 )
 {
 aVisitor

@@ -5841,7 +5841,7 @@ content
 content
 -
 >
-GetBindingParent
+GetClosestNativeAnonymousSubtreeRootParent
 (
 )
 =
