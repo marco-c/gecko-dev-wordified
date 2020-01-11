@@ -680,6 +680,18 @@ TRACKED_IMMERSIVE_DEVICE
 supportsImmersive
 :
 true
+supportedModes
+:
+[
+"
+inline
+"
+"
+immersive
+-
+vr
+"
+]
 views
 :
 VALID_VIEWS
@@ -698,6 +710,13 @@ VALID_NON_IMMERSIVE_DEVICE
 supportsImmersive
 :
 false
+supportedModes
+:
+[
+"
+inline
+"
+]
 views
 :
 NON_IMMERSIVE_VIEWS
@@ -758,3 +777,4 @@ profiles
 [
 ]
 }
+;
