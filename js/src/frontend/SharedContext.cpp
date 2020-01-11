@@ -1247,14 +1247,14 @@ JSFunction
 fun
 )
 {
-LazyScript
+BaseScript
 *
 lazy
 =
 fun
 -
 >
-lazyScript
+baseScript
 (
 )
 ;
