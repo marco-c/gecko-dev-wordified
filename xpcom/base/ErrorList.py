@@ -7283,26 +7283,6 @@ FAILURE
 )
     
 #
-XXX
-Should
-be
-JavaScript
-native
-error
-    
-errors
-[
-"
-NS_ERROR_TYPE_ERR
-"
-]
-=
-FAILURE
-(
-26
-)
-    
-#
 StringEncoding
 API
 errors
