@@ -4055,7 +4055,7 @@ anchorNode
 .
 ownerDocument
 .
-createXULElement
+createElement
 (
 "
 span
@@ -4069,7 +4069,7 @@ anchorNode
 .
 ownerDocument
 .
-createXULElement
+createElement
 (
 "
 span

@@ -163,6 +163,10 @@ animatable
 -
 box
 {
+display
+:
+block
+;
 position
 :
 absolute
@@ -575,10 +579,7 @@ box
 {
 display
 :
--
-moz
--
-box
+block
 ;
 }
 #
