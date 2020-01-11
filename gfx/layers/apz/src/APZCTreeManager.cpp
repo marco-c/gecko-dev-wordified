@@ -18405,6 +18405,7 @@ ViewID
 &
 aScrollId
 )
+const
 {
 MutexAutoLock
 lock
