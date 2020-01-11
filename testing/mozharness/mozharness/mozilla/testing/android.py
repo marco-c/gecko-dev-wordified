@@ -5325,6 +5325,16 @@ ps
 '
 )
 )
+        
+self
+.
+info
+(
+"
+verify_device
+complete
+"
+)
     
 PreScriptAction
 (
