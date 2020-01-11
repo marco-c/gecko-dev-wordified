@@ -426,6 +426,10 @@ of
 transportSecurityInfo
 .
 failedCertChain
+.
+getEnumerator
+(
+)
 )
 {
 asciiCertChain
