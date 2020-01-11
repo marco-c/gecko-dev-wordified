@@ -757,7 +757,6 @@ loadEventFired
 "
 {
 timestamp
-frameId
 }
 )
 ;
