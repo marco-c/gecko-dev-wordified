@@ -247,6 +247,7 @@ css
 )
 ;
 namespace
+xul
 url
 (
 "
@@ -336,6 +337,8 @@ menubar
 drag
 )
 {
+xul
+|
 toolbar
 [
 type
@@ -356,6 +359,9 @@ drag
 ;
 }
 }
+:
+root
+{
 /
 *
 :
@@ -371,9 +377,6 @@ Variables
 :
 *
 /
-:
-root
-{
 -
 -
 default
@@ -485,7 +488,6 @@ color
 :
 GrayText
 ;
-}
 /
 *
 :
@@ -493,8 +495,7 @@ GrayText
 :
 :
 :
-root
-elements
+Styles
 :
 :
 :
@@ -502,10 +503,6 @@ elements
 :
 *
 /
-window
-dialog
-wizard
-{
 -
 moz
 -
@@ -744,6 +741,8 @@ iframe
 :
 *
 /
+xul
+|
 iframe
 {
 border
@@ -816,6 +815,8 @@ width
 height
 *
 /
+xul
+|
 iframe
 {
 width
@@ -852,6 +853,8 @@ later
 .
 *
 /
+xul
+|
 sidebarheader
 {
 min
@@ -867,8 +870,12 @@ shadow
 none
 ;
 }
+xul
+|
 sidebarheader
 >
+xul
+|
 label
 {
 padding
@@ -880,6 +887,8 @@ start
 4px
 ;
 }
+xul
+|
 toolbar
 [
 mode
@@ -1205,6 +1214,8 @@ shadow
 black
 ;
 }
+xul
+|
 separator
 :
 not
@@ -1225,6 +1236,8 @@ height
 5em
 ;
 }
+xul
+|
 separator
 [
 orient
@@ -1241,6 +1254,8 @@ width
 5em
 ;
 }
+xul
+|
 separator
 .
 thin
@@ -1263,6 +1278,8 @@ height
 5em
 ;
 }
+xul
+|
 separator
 .
 thin
@@ -1281,6 +1298,8 @@ width
 5em
 ;
 }
+xul
+|
 separator
 .
 groove
@@ -1333,6 +1352,8 @@ bottom
 4em
 ;
 }
+xul
+|
 separator
 .
 groove
@@ -1381,7 +1402,11 @@ right
 4em
 ;
 }
+xul
+|
 description
+xul
+|
 label
 {
 cursor
@@ -1417,6 +1442,8 @@ end
 5px
 ;
 }
+xul
+|
 description
 {
 margin
@@ -1426,6 +1453,8 @@ bottom
 4px
 ;
 }
+xul
+|
 label
 [
 disabled
@@ -1550,10 +1579,16 @@ margin
 *
 /
 }
+xul
+|
 notification
 >
+xul
+|
 hbox
 >
+xul
+|
 button
 {
 margin
@@ -1569,6 +1604,8 @@ bottom
 0
 ;
 }
+xul
+|
 popupnotificationcontent
 {
 margin
