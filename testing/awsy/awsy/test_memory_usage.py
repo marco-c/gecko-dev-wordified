@@ -687,23 +687,6 @@ fission
 autostart
 '
 )
-or
-\
-                
-self
-.
-marionette
-.
-get_pref
-(
-'
-"
-fission
-.
-autostart
-"
-'
-)
 :
             
 self

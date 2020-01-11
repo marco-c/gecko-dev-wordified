@@ -1430,13 +1430,11 @@ options
 -
 setpref
 =
-"
 fission
 .
 autostart
 =
 true
-"
 '
                                   
 '
@@ -1444,7 +1442,6 @@ true
 -
 setpref
 =
-"
 dom
 .
 serviceWorkers
@@ -1452,7 +1449,6 @@ serviceWorkers
 parent_intercept
 =
 true
-"
 '
                                   
 '
@@ -1460,7 +1456,6 @@ true
 -
 setpref
 =
-"
 browser
 .
 tabs
@@ -1468,7 +1463,6 @@ tabs
 documentchannel
 =
 true
-"
 '
 ]
             
