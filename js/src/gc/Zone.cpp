@@ -6456,6 +6456,10 @@ clear
 (
 )
 ;
+clearKeptObjects
+(
+)
+;
 }
 void
 Zone
