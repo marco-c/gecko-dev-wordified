@@ -1076,8 +1076,11 @@ nullptr
 REAL
 (
 GeneratorFunction
-InitGeneratorFunction
-nullptr
+InitViaClassSpec
+CLASP
+(
+GeneratorFunction
+)
 )
 \
 REAL
