@@ -129,7 +129,7 @@ port
 =
 authority
 .
-port_part
+port
 (
 )
 .
@@ -265,7 +265,6 @@ map_err
 |
 _
 |
-{
 ErrorKind
 :
 :
@@ -274,7 +273,6 @@ InvalidPort
 into
 (
 )
-}
 )
 }
 /
@@ -360,7 +358,7 @@ port
 =
 authority
 .
-port_part
+port
 (
 )
 .
@@ -442,6 +440,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >
@@ -499,6 +501,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >
