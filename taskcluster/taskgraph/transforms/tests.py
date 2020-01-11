@@ -9311,24 +9311,9 @@ run
 tests
 on
 fuzzing
-or
-opt
-build
+builds
             
 if
-'
-opt
-'
-in
-test
-[
-'
-build
--
-platform
-'
-]
-or
 '
 fuzzing
 '
