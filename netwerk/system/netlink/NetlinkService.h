@@ -634,8 +634,13 @@ All
 neighbors
 key
 is
-an
+a
+string
+containing
+"
 address
+ifidx
+"
 nsClassHashtable
 <
 nsCStringHashKey
