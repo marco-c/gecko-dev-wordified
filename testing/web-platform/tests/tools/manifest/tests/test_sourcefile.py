@@ -4949,7 +4949,7 @@ html
 ]
 )
 def
-test_reftest_node
+test_reftest
 (
 ext
 )
@@ -5048,7 +5048,7 @@ s
 [
 (
 "
-reftest_node
+reftest
 "
 "
 /
