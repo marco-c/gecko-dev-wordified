@@ -225,6 +225,8 @@ const
 privateWindow
 =
 await
+BrowserTestUtils
+.
 openNewBrowserWindow
 (
 {
