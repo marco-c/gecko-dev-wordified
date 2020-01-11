@@ -1764,7 +1764,7 @@ if
 mRecorder
 -
 >
-HasStoredObject
+HasStoredUnscaledFont
 (
 unscaledFont
 )
@@ -1937,7 +1937,7 @@ UnscaledFont
 mRecorder
 -
 >
-AddStoredObject
+AddStoredUnscaledFont
 (
 unscaledFont
 )
