@@ -3698,6 +3698,8 @@ RefPtr
 SharedFTFace
 >
 aFace
+bool
+aApplySyntheticBold
 )
 {
 return
@@ -3716,6 +3718,7 @@ aFace
 )
 aUnscaledFont
 aSize
+aApplySyntheticBold
 )
 ;
 }

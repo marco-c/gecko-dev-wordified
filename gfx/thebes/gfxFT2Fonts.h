@@ -207,6 +207,10 @@ const
 gfxFontStyle
 *
 aFontStyle
+int
+aLoadFlags
+bool
+aEmbolden
 )
 ;
 virtual
@@ -237,6 +241,13 @@ DrawTarget
 *
 aTarget
 )
+override
+;
+bool
+ShouldHintMetrics
+(
+)
+const
 override
 ;
 void

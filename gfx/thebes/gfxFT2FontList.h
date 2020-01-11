@@ -439,6 +439,13 @@ gfx
 SharedFTFace
 >
 aFace
+int
+*
+aOutLoadFlags
+unsigned
+int
+*
+aOutSynthFlags
 )
 ;
 nsresult
