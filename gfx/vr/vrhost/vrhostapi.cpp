@@ -531,14 +531,15 @@ LPVOID
 lpParameter
 )
 {
-char
+wchar_t
 cmd
 [
 ]
 =
+L
 "
 %
-sfirefox
+Sfirefox
 .
 exe
 -
@@ -550,7 +551,7 @@ browser
 -
 profile
 %
-s
+S
 -
 -
 fxr
@@ -569,7 +570,7 @@ StartFirefoxParams
 lpParameter
 )
 ;
-char
+wchar_t
 cmdWithPath
 [
 MAX_PATH
@@ -584,7 +585,7 @@ MAX_PATH
 int
 err
 =
-sprintf_s
+swprintf_s
 (
 cmdWithPath
 ARRAYSIZE
