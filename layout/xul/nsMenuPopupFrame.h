@@ -1625,7 +1625,6 @@ GetShadowStyle
 (
 )
 ;
-virtual
 bool
 IsLeafDynamic
 (
@@ -1633,10 +1632,12 @@ IsLeafDynamic
 const
 override
 ;
-virtual
 void
-UpdateWidgetProperties
+DidSetComputedStyle
 (
+ComputedStyle
+*
+aOldStyle
 )
 override
 ;
