@@ -1978,6 +1978,12 @@ aIsFullscreen
 )
 final
 ;
+void
+ForceFullScreenInWidget
+(
+)
+final
+;
 bool
 SetWidgetFullscreen
 (
@@ -6829,6 +6835,11 @@ mFullscreen
 ;
 bool
 mFullscreenMode
+:
+1
+;
+bool
+mForceFullScreenInWidget
 :
 1
 ;

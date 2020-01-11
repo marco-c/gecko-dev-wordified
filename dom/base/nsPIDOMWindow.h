@@ -5416,6 +5416,14 @@ aIsFullscreen
 =
 0
 ;
+virtual
+void
+ForceFullScreenInWidget
+(
+)
+=
+0
+;
 /
 /
 XXX

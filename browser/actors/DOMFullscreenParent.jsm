@@ -541,6 +541,13 @@ its
 parent
 anymore
 .
+if
+(
+window
+.
+gXPInstallObserver
+)
+{
 window
 .
 gXPInstallObserver
@@ -550,6 +557,7 @@ removeAllNotifications
 browser
 )
 ;
+}
 TelemetryStopwatch
 .
 start
@@ -579,6 +587,7 @@ MozDOMFullscreen
 Exited
 "
 :
+{
 TelemetryStopwatch
 .
 start
@@ -621,6 +630,7 @@ window
 ;
 break
 ;
+}
 }
 }
 addListeners
