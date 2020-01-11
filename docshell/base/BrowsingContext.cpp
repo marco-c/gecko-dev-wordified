@@ -3325,6 +3325,8 @@ const
 nsAString
 &
 aName
+bool
+aUseEntryGlobalForAccessCheck
 )
 {
 RefPtr
@@ -3335,6 +3337,11 @@ requestingContext
 =
 this
 ;
+if
+(
+aUseEntryGlobalForAccessCheck
+)
+{
 if
 (
 nsCOMPtr
@@ -3370,6 +3377,7 @@ GetBrowsingContext
 (
 )
 ;
+}
 }
 }
 BrowsingContext

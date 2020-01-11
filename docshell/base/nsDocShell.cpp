@@ -51882,6 +51882,12 @@ aLoadState
 Target
 (
 )
+/
+*
+aUseEntryGlobalForAccessCheck
+*
+/
+false
 )
 )
 {
