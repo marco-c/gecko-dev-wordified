@@ -548,13 +548,6 @@ transparent
 }
 .
 urlbarView
-:
-not
-(
-[
-hidden
-]
-)
 {
 display
 :
