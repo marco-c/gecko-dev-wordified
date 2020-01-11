@@ -1379,6 +1379,7 @@ aState
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -12477,6 +12478,17 @@ GetDirection
 )
 )
 ;
+/
+/
+The
+instance
+may
+have
+already
+been
+deleted
+here
+.
 }
 else
 {

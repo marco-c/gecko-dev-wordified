@@ -710,6 +710,7 @@ aRepaint
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 SetFormProperty
@@ -755,6 +756,7 @@ GetTextEditor
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 SetSelectionRange
 (
@@ -1646,6 +1648,7 @@ private
 /
 helper
 methods
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetSelectionInternal
 (
@@ -1665,6 +1668,7 @@ aDirection
 eNone
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SelectAllOrCollapseToEndOfText
 (
@@ -1672,6 +1676,7 @@ bool
 aSelect
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetSelectionEndPoints
 (
