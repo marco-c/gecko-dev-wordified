@@ -2201,31 +2201,11 @@ recursive
 "
 "
     
-listdir
-=
-os
-.
-listdir
-    
 get_stat
 =
 os
 .
 stat
-    
-listdir
-=
-os
-.
-listdir
-    
-join
-=
-os
-.
-path
-.
-join
     
 is_dir
 =
@@ -2238,6 +2218,20 @@ is_link
 stat
 .
 S_ISLNK
+    
+join
+=
+os
+.
+path
+.
+join
+    
+listdir
+=
+os
+.
+listdir
     
 relpath
 =
