@@ -295,12 +295,15 @@ overrides
 ;
 }
 function
-createLocation
+createFrame
 (
 line
 )
 {
 return
+{
+location
+:
 {
 sourceId
 :
@@ -311,6 +314,7 @@ line
 column
 :
 2
+}
 }
 ;
 }
@@ -500,9 +504,9 @@ line
 2
 ;
 const
-location
+frame
 =
-createLocation
+createFrame
 (
 line
 )
@@ -516,7 +520,7 @@ setProps
 .
 .
 props
-location
+frame
 }
 )
 ;
@@ -691,9 +695,9 @@ setProps
 .
 .
 props
-location
+frame
 :
-createLocation
+createFrame
 (
 firstLine
 )
@@ -711,7 +715,7 @@ setProps
 props
 frame
 :
-createLocation
+createFrame
 (
 secondLine
 )
@@ -989,9 +993,9 @@ line
 2
 ;
 const
-location
+frame
 =
-createLocation
+createFrame
 (
 line
 )
@@ -1005,7 +1009,7 @@ setProps
 .
 .
 props
-location
+frame
 }
 )
 ;
