@@ -159,6 +159,13 @@ imgIRequest
 namespace
 mozilla
 {
+struct
+MediaFeatureChange
+;
+}
+namespace
+mozilla
+{
 namespace
 dom
 {
