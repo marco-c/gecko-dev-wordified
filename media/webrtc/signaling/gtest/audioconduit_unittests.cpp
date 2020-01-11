@@ -267,7 +267,7 @@ WebRtcCallWrapper
 aCall
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 aStsThread
 )
@@ -409,7 +409,7 @@ MockCall
 mCall
 )
 )
-GetCurrentThreadEventTarget
+GetCurrentThreadSerialEventTarget
 (
 )
 )

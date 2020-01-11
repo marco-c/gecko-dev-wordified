@@ -143,7 +143,7 @@ h
 #
 include
 "
-nsIEventTarget
+nsISerialEventTarget
 .
 h
 "
@@ -224,7 +224,7 @@ rv
 )
 ;
 }
-nsIEventTarget
+nsISerialEventTarget
 *
 sts_target
 (
@@ -238,7 +238,7 @@ private
 :
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 sts_target_
 ;

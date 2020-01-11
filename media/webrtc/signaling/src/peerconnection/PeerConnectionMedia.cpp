@@ -714,7 +714,7 @@ XRE_IsContentProcess
 {
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =

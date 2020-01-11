@@ -372,7 +372,7 @@ WebRtcCallWrapper
 aCall
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 aStsThread
 )
