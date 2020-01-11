@@ -6433,18 +6433,6 @@ spec
 )
 ;
 let
-formActionOrigin
-=
-LoginHelper
-.
-getLoginOrigin
-(
-loginFillInfo
-.
-formActionOrigin
-)
-;
-let
 fragment
 =
 nsContextMenu
@@ -6460,7 +6448,6 @@ this
 .
 browser
 formOrigin
-formActionOrigin
 )
 ;
 let
