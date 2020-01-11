@@ -126,6 +126,14 @@ rotate
 "
 offset
 "
+#
+"
+text
+-
+underline
+-
+position
+"
 COUNTED_UNKNOWN_PROPERTIES
 =
 [
@@ -355,14 +363,6 @@ character
     
 "
 page
-"
-    
-"
-text
--
-underline
--
-position
 "
     
 "
