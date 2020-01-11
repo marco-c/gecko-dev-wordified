@@ -5247,7 +5247,6 @@ u64
 derive
 (
 Debug
-Clone
 )
 ]
 pub
