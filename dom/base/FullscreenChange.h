@@ -460,6 +460,9 @@ FullscreenRequest
 >
 Create
 (
+dom
+:
+:
 Element
 *
 aElement
@@ -518,6 +521,9 @@ FullscreenRequest
 >
 CreateForRemote
 (
+dom
+:
+:
 Element
 *
 aElement
