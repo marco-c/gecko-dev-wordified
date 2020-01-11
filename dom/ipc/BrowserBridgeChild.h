@@ -174,6 +174,9 @@ BrowsingContext
 class
 ContentChild
 ;
+class
+BrowserBridgeHost
+;
 /
 *
 *
@@ -343,6 +346,14 @@ SetIsUnderHiddenEmbedderElement
 (
 bool
 aIsUnderHiddenEmbedderElement
+)
+;
+already_AddRefed
+<
+BrowserBridgeHost
+>
+FinishInit
+(
 )
 ;
 #
