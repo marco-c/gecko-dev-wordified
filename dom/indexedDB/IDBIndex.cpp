@@ -1784,10 +1784,8 @@ FromJSVal
 (
 aCx
 aKey
-getter_AddRefs
-(
+&
 keyRange
-)
 aRv
 )
 ;
@@ -2251,10 +2249,8 @@ FromJSVal
 (
 aCx
 aKey
-getter_AddRefs
-(
+&
 keyRange
-)
 aRv
 )
 ;
@@ -2727,10 +2723,8 @@ FromJSVal
 (
 aCx
 aRange
-getter_AddRefs
-(
+&
 keyRange
-)
 aRv
 )
 ;
@@ -3233,10 +3227,8 @@ FromJSVal
 (
 aCx
 aKey
-getter_AddRefs
-(
+&
 keyRange
-)
 aRv
 )
 ;
