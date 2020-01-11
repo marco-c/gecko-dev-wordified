@@ -3082,7 +3082,7 @@ aReferrerInfo
 ?
 aReferrerInfo
 .
-orginalReferrer
+originalReferrer
 :
 sourceURI
 ;
