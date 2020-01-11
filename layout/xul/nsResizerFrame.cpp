@@ -3615,10 +3615,9 @@ GetWritingMode
 ;
 if
 (
-!
 wm
 .
-IsPhysicalLTR
+IsPhysicalRTL
 (
 )
 )

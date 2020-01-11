@@ -6690,10 +6690,9 @@ input
 ;
 if
 (
-!
 aWM
 .
-IsPhysicalLTR
+IsPhysicalRTL
 (
 )
 )
@@ -7866,10 +7865,9 @@ cases
 ;
 if
 (
-!
 aWM
 .
-IsPhysicalLTR
+IsPhysicalRTL
 (
 )
 )
