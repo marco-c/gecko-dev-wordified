@@ -3342,7 +3342,6 @@ class
 IDLExternalInterface
 (
 IDLObjectWithIdentifier
-IDLExposureMixins
 )
 :
     
@@ -3386,14 +3385,6 @@ parentScope
 identifier
 )
         
-IDLExposureMixins
-.
-__init__
-(
-self
-location
-)
-        
 IDLObjectWithIdentifier
 .
 resolve
@@ -3409,14 +3400,6 @@ self
 scope
 )
 :
-        
-IDLExposureMixins
-.
-finish
-(
-self
-scope
-)
         
 pass
     
@@ -20998,25 +20981,36 @@ Let
 s
 say
 true
-though
-ideally
+so
 we
+don
 '
-d
-only
-do
-this
-when
+t
+have
+to
+implement
+exposure
+mixins
+on
             
 #
-exposureSet
-contains
-the
-primary
-global
-'
-s
-name
+external
+interfaces
+and
+sprinkle
+[
+Exposed
+=
+Window
+]
+on
+every
+single
+            
+#
+external
+interface
+declaration
 .
             
 return
