@@ -1697,6 +1697,11 @@ component
 :
 <
 Frames
+panel
+=
+"
+debugger
+"
 /
 >
 opened

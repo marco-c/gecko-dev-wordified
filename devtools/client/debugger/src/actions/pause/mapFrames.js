@@ -919,6 +919,9 @@ originalVariables
 originalFrame
 .
 variables
+asyncCause
+:
+null
 }
 )
 ;

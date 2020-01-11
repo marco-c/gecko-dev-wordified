@@ -1356,9 +1356,11 @@ this
 state
 .
 isSourceMapped
-selectable
+panel
 :
-true
+"
+webconsole
+"
 }
 )
 ;

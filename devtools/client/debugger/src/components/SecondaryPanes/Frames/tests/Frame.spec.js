@@ -186,6 +186,13 @@ jest
 fn
 (
 )
+selectLocation
+:
+jest
+.
+fn
+(
+)
 toggleBlackBox
 :
 jest
@@ -199,9 +206,11 @@ false
 frameworkGroupingOn
 :
 false
-selectable
+panel
 :
-true
+"
+webconsole
+"
 toggleFrameworkGrouping
 :
 null
