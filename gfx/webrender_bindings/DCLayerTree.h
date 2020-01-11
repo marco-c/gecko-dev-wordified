@@ -252,6 +252,12 @@ IDCompositionVisual
 >
 mRootVisual
 ;
+RefPtr
+<
+IDCompositionVisual
+>
+mDefaultSwapChainVisual
+;
 }
 ;
 }
