@@ -413,8 +413,6 @@ GetDocShell
 DocumentChannelChild
 (
 )
-=
-default
 ;
 LastVisitInfo
 mLastVisitInfo
