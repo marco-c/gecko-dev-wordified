@@ -677,6 +677,13 @@ constructor
 {
 this
 .
+messagePorts
+=
+[
+]
+;
+this
+.
 addMessageListener
 =
 sinon
