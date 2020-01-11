@@ -302,16 +302,6 @@ return
 mAudioFocusManager
 ;
 }
-MediaControlKeysManager
-&
-GetMediaControlKeysManager
-(
-)
-{
-return
-mMediaControlKeysManager
-;
-}
 void
 AddMediaController
 (
