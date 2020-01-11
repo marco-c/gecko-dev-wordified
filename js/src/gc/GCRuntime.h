@@ -2095,7 +2095,7 @@ const
 return
 sweepTask
 .
-isRunning
+wasStarted
 (
 )
 ;
