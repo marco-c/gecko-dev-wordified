@@ -5510,7 +5510,7 @@ slices
 .
 *
 /
-MainThreadData
+MainThreadOrGCTaskData
 <
 bool
 >
@@ -5648,7 +5648,7 @@ slice
 .
 *
 /
-MainThreadData
+MainThreadOrGCTaskData
 <
 State
 >

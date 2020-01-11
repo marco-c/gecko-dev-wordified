@@ -1097,7 +1097,7 @@ of
 the
 stack
 .
-MainThreadData
+MainThreadOrGCTaskData
 <
 size_t
 >
@@ -1113,7 +1113,7 @@ to
 grow
 to
 .
-MainThreadData
+MainThreadOrGCTaskData
 <
 size_t
 >
@@ -1131,7 +1131,7 @@ Unused
 beyond
 topIndex_
 .
-MainThreadData
+MainThreadOrGCTaskData
 <
 StackVector
 >
@@ -2466,7 +2466,7 @@ gray
 .
 *
 /
-MainThreadData
+MainThreadOrGCTaskData
 <
 size_t
 >
@@ -2486,7 +2486,7 @@ functions
 .
 *
 /
-MainThreadData
+MainThreadOrGCTaskData
 <
 gc
 :
@@ -2514,7 +2514,7 @@ on
 .
 *
 /
-MainThreadData
+MainThreadOrGCTaskData
 <
 js
 :
@@ -2633,7 +2633,7 @@ ordering
 .
 *
 /
-MainThreadData
+MainThreadOrGCTaskData
 <
 bool
 >
@@ -2701,7 +2701,7 @@ bugs
 .
 *
 /
-MainThreadData
+MainThreadOrGCTaskData
 <
 bool
 >
