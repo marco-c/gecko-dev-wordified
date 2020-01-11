@@ -179,6 +179,8 @@ TEST_LIB
 "
 :
 93
+:
+417
 "
 attributes
 :
@@ -211,6 +213,8 @@ TEST_LIB_BABEL
 "
 :
 26
+:
+34
 "
 attributes
 :
@@ -263,6 +267,8 @@ TEST_LIB
 "
 :
 93
+:
+417
 "
 attributes
 :
@@ -295,6 +301,8 @@ TEST_EXTERNAL_LISTENERS
 "
 :
 4
+:
+25
 "
 attributes
 :
@@ -347,6 +355,8 @@ TEST_LIB
 "
 :
 93
+:
+417
 "
 attributes
 :
@@ -379,6 +389,8 @@ TEST_EXTERNAL_LISTENERS
 "
 :
 4
+:
+25
 "
 attributes
 :
@@ -419,6 +431,8 @@ TEST_LIB_BABEL
 "
 :
 26
+:
+34
 "
 attributes
 :
@@ -471,6 +485,8 @@ TEST_EXTERNAL_LISTENERS
 "
 :
 8
+:
+34
 "
 attributes
 :
