@@ -288,7 +288,15 @@ openFullscreenWindow
 {
 win
 =
-open
+window
+.
+docShell
+.
+rootTreeItem
+.
+domWindow
+.
+openDialog
 (
 "
 bug665540_window
@@ -304,6 +312,7 @@ resizable
 yes
 chrome
 "
+window
 )
 ;
 win
