@@ -125,6 +125,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jsutil
 .
@@ -446,7 +451,10 @@ swap
 rear_
 )
 ;
-Reverse
+std
+:
+:
+reverse
 (
 front_
 .

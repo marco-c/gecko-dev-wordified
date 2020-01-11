@@ -176,6 +176,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 string
 .
 h
@@ -3430,7 +3435,10 @@ false
 ;
 }
 }
-Reverse
+std
+:
+:
+reverse
 (
 shapes
 .
@@ -10176,7 +10184,10 @@ false
 ;
 }
 }
-Reverse
+std
+:
+:
+reverse
 (
 shapes
 .
