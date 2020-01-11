@@ -3698,7 +3698,7 @@ menu
 -
 tools
 -
-sync
+fxa
 -
 sign
 -
@@ -3806,7 +3806,7 @@ menu
 -
 tools
 -
-sync
+fxa
 -
 sign
 -
@@ -3912,7 +3912,7 @@ menu
 -
 tools
 -
-sync
+fxa
 -
 re
 -
