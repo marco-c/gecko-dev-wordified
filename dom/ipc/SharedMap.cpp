@@ -193,6 +193,15 @@ include
 "
 mozilla
 /
+IOBuffers
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ScriptPreloader
 .
 h
