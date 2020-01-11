@@ -2247,10 +2247,10 @@ return
 all
 the
 physical
-    
-#
 property
 names
+    
+#
 corresponding
 to
 it
@@ -2260,13 +2260,20 @@ def
 all_physical_mapped_properties
 (
 self
+data
 )
 :
         
-assert
+if
+not
 self
 .
 logical
+:
+            
+return
+[
+]
         
 candidates
 =
@@ -2354,6 +2361,10 @@ LOGICAL_CORNERS
         
 return
 [
+data
+.
+longhands_by_name
+[
 to_phys
 (
 self
@@ -2362,6 +2373,7 @@ name
 logical_side
 physical_side
 )
+]
                 
 for
 physical_side
