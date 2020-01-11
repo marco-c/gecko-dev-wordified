@@ -73,6 +73,7 @@ h
 #
 if
 (
+(
 defined
 (
 __clang__
@@ -111,6 +112,22 @@ __GNUC_MINOR__
 >
 8
 )
+)
+)
+)
+&
+&
+\
+(
+defined
+(
+__ARM_NEON
+)
+|
+|
+defined
+(
+__ARM_NEON__
 )
 )
 )
@@ -210,6 +227,8 @@ PRUint8
 cx
 -
 >
+k
+.
 expandedKey
 ;
 if
@@ -703,6 +722,8 @@ PRUint8
 cx
 -
 >
+k
+.
 expandedKey
 ;
 if
@@ -1201,6 +1222,8 @@ PRUint8
 cx
 -
 >
+k
+.
 expandedKey
 ;
 if
@@ -1738,6 +1761,8 @@ PRUint8
 cx
 -
 >
+k
+.
 expandedKey
 ;
 if
@@ -2277,6 +2302,8 @@ PRUint8
 cx
 -
 >
+k
+.
 expandedKey
 ;
 if
@@ -2820,6 +2847,8 @@ PRUint8
 cx
 -
 >
+k
+.
 expandedKey
 ;
 if
@@ -3364,6 +3393,8 @@ PRUint8
 cx
 -
 >
+k
+.
 expandedKey
 ;
 if
@@ -3946,6 +3977,8 @@ PRUint8
 cx
 -
 >
+k
+.
 expandedKey
 ;
 if
@@ -4535,6 +4568,8 @@ PRUint8
 cx
 -
 >
+k
+.
 expandedKey
 ;
 if
@@ -5130,6 +5165,8 @@ PRUint8
 cx
 -
 >
+k
+.
 expandedKey
 ;
 if
@@ -5726,6 +5763,8 @@ PRUint8
 cx
 -
 >
+k
+.
 expandedKey
 ;
 if
@@ -6363,6 +6402,8 @@ PRUint8
 cx
 -
 >
+k
+.
 expandedKey
 ;
 if
