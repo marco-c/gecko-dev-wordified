@@ -1350,12 +1350,7 @@ cx
 AutoLockGC
 lock
 (
-cx
--
->
-runtime
-(
-)
+this
 )
 ;
 for
