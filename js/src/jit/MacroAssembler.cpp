@@ -14759,7 +14759,7 @@ to
 handle
 strings
 and
-objects
+undefined
 .
 switch
 (
@@ -14832,17 +14832,6 @@ isString
 )
 ;
 }
-maybeBranchTestType
-(
-MIRType
-:
-:
-Object
-maybeInput
-tag
-fail
-)
-;
 branchTestUndefined
 (
 Assembler
