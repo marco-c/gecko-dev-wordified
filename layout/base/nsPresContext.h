@@ -2083,6 +2083,16 @@ nsRect
 r
 )
 ;
+nsSize
+GetSizeForViewportUnits
+(
+)
+const
+{
+return
+mSizeForViewportUnits
+;
+}
 /
 *
 *
