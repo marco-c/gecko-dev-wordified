@@ -22543,7 +22543,10 @@ NS_STYLE_RUBY_POSITION_OVER
 )
 mTextSizeAdjust
 (
-NS_STYLE_TEXT_SIZE_ADJUST_AUTO
+StyleTextSizeAdjust
+:
+:
+Auto
 )
 mTextCombineUpright
 (

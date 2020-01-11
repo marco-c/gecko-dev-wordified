@@ -7815,13 +7815,12 @@ mRubyPosition
 /
 NS_STYLE_RUBY_POSITION_
 *
-uint8_t
+mozilla
+:
+:
+StyleTextSizeAdjust
 mTextSizeAdjust
 ;
-/
-/
-NS_STYLE_TEXT_SIZE_ADJUST_
-*
 uint8_t
 mTextCombineUpright
 ;
