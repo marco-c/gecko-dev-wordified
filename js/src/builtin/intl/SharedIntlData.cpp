@@ -3014,6 +3014,12 @@ case
 SupportedLocaleKind
 :
 :
+ListFormat
+:
+case
+SupportedLocaleKind
+:
+:
 NumberFormat
 :
 case

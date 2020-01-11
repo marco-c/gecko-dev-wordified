@@ -1488,6 +1488,7 @@ counterparts
 /
 /
 /
+UListFormatter
 UPluralRules
 and
 URelativeDateTimeFormatter
@@ -1662,6 +1663,7 @@ SupportedLocaleKind
 {
 Collator
 DateTimeFormat
+ListFormat
 NumberFormat
 PluralRules
 RelativeTimeFormat

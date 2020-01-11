@@ -206,6 +206,17 @@ builtin
 /
 intl
 /
+ListFormat
+.
+h
+"
+#
+include
+"
+builtin
+/
+intl
+/
 Locale
 .
 h
