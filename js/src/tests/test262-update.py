@@ -254,12 +254,6 @@ formatRange
 "
 Intl
 .
-ListFormat
-"
-    
-"
-Intl
-.
 Segmenter
 "
     
@@ -3282,7 +3276,11 @@ js
 Intl
 .
 Locale
-isn
+and
+Intl
+.
+ListFormat
+aren
 '
 t
 yet
