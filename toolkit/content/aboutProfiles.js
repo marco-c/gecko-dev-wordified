@@ -1278,6 +1278,9 @@ modal
 titlebar
 "
 ProfileService
+{
+CreateProfile
+}
 )
 ;
 }

@@ -1058,6 +1058,9 @@ modal
 titlebar
 "
 gProfileService
+{
+CreateProfile
+}
 )
 ;
 }
