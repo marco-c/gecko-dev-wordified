@@ -4656,14 +4656,6 @@ gFissionBrowser
 browser
 .
 remoteType
-browser
-.
-remoteType
-/
-*
-aPreferredRemoteType
-*
-/
 )
 )
 {
