@@ -4484,6 +4484,10 @@ const
 int32_t
 &
 aCy
+const
+double
+&
+aScale
 )
 ;
 mozilla
