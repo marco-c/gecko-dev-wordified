@@ -55,8 +55,20 @@ async
 >
 {
 let
+win
+=
+await
+BrowserTestUtils
+.
+openNewBrowserWindow
+(
+)
+;
+let
 button
 =
+win
+.
 document
 .
 getElementById
@@ -73,6 +85,8 @@ button
 let
 panel
 =
+win
+.
 document
 .
 querySelector
@@ -250,6 +264,8 @@ BrowserTestUtils
 .
 waitForEvent
 (
+win
+.
 document
 .
 getElementById
@@ -282,6 +298,8 @@ EventUtils
 .
 synthesizeMouseAtCenter
 (
+win
+.
 document
 .
 getElementById
@@ -296,6 +314,7 @@ button
 )
 {
 }
+win
 )
 ;
 await
@@ -381,6 +400,8 @@ BrowserTestUtils
 .
 waitForEvent
 (
+win
+.
 document
 .
 getElementById
@@ -400,6 +421,8 @@ EventUtils
 .
 synthesizeMouseAtCenter
 (
+win
+.
 document
 .
 getElementById
@@ -414,7 +437,7 @@ button
 )
 {
 }
-window
+win
 )
 ;
 await
@@ -436,7 +459,7 @@ panel
 firstElementChild
 {
 }
-window
+win
 )
 ;
 let
@@ -519,6 +542,14 @@ the
 list
 .
 "
+)
+;
+await
+BrowserTestUtils
+.
+closeWindow
+(
+win
 )
 ;
 }
