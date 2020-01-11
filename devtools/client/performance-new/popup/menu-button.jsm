@@ -1154,6 +1154,7 @@ ProfilerMenuButton
 {
 toggle
 initialize
+isEnabled
 }
 ;
 var
