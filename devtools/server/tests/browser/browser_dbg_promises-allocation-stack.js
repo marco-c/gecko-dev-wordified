@@ -345,6 +345,8 @@ ok
 (
 response
 .
+allocationStack
+.
 length
 "
 Got
@@ -361,6 +363,8 @@ const
 stack
 of
 response
+.
+allocationStack
 )
 {
 is

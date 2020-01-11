@@ -1360,7 +1360,7 @@ Proxy
 strictEqual
 (
 proxySlots
-null
+undefined
 "
 Slots
 can

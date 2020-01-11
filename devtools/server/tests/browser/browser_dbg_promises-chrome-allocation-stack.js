@@ -532,7 +532,7 @@ Client
 )
 ;
 const
-allocationStack
+response
 =
 await
 objectClient
@@ -543,6 +543,8 @@ getPromiseAllocationStack
 ;
 ok
 (
+response
+.
 allocationStack
 .
 length
@@ -584,6 +586,8 @@ i
 const
 stack
 =
+response
+.
 allocationStack
 [
 i
