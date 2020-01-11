@@ -9687,12 +9687,6 @@ case
 SymbolicAddress
 :
 :
-CallImport_NullRef
-:
-case
-SymbolicAddress
-:
-:
 CoerceInPlace_ToInt32
 :
 case
