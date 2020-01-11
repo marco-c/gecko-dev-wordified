@@ -901,7 +901,8 @@ browser
 pageshow
 "
 listener
-false
+{
+}
 event
 =
 >
@@ -922,7 +923,12 @@ example
 com
 /
 "
-false
+/
+*
+autoremove
+=
+*
+/
 false
 )
 ;

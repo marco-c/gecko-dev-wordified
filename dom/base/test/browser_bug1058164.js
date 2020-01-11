@@ -391,7 +391,12 @@ pagehide
 {
 }
 checkFn
-false
+/
+*
+autoremove
+=
+*
+/
 false
 )
 ;
@@ -418,7 +423,12 @@ pageshow
 {
 }
 checkFn
-false
+/
+*
+autoremove
+=
+*
+/
 false
 )
 ;

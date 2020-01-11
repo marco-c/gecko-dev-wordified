@@ -195,7 +195,11 @@ aCallback
 ;
 }
 }
+{
+capture
+:
 true
+}
 )
 ;
 }
