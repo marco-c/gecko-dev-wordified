@@ -6665,6 +6665,7 @@ deleteAll
 deleteDataFromOriginAttributesPattern
 (
 aPattern
+aCallback
 )
 {
 if
@@ -6720,8 +6721,13 @@ data
 patternString
 )
 ;
-let
-dummyCallback
+if
+(
+!
+aCallback
+)
+{
+aCallback
 =
 {
 onDataDeleted
@@ -6734,6 +6740,7 @@ onDataDeleted
 }
 }
 ;
+}
 return
 this
 .
@@ -6744,7 +6751,7 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-dummyCallback
+aCallback
 aCleaner
 =
 >
