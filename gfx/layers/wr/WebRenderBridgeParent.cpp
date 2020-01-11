@@ -17077,9 +17077,6 @@ IsRootWebRenderBridgeParent
 )
 )
 ;
-#
-ifdef
-MOZ_WIDGET_ANDROID
 if
 (
 !
@@ -17119,8 +17116,6 @@ return
 false
 ;
 }
-#
-endif
 mPaused
 =
 false
