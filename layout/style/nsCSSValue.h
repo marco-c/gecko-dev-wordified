@@ -749,11 +749,10 @@ typename
 T
 typename
 =
-typename
 std
 :
 :
-enable_if
+enable_if_t
 <
 std
 :
@@ -766,9 +765,6 @@ T
 :
 value
 >
-:
-:
-type
 >
 explicit
 nsCSSValue
@@ -1370,11 +1366,10 @@ typename
 T
 typename
 =
-typename
 std
 :
 :
-enable_if
+enable_if_t
 <
 std
 :
@@ -1387,9 +1382,6 @@ T
 :
 value
 >
-:
-:
-type
 >
 void
 SetEnumValue
