@@ -6691,13 +6691,6 @@ InitWebRenderConfig
 (
 )
 ;
-gPlatform
--
->
-InitWebGPUConfig
-(
-)
-;
 /
 /
 When
