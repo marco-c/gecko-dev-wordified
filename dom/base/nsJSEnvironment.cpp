@@ -11443,8 +11443,10 @@ ShouldTriggerCC
 (
 suspected
 )
-&
-&
+)
+{
+if
+(
 ShouldFireForgetSkippable
 (
 suspected
@@ -11468,6 +11470,7 @@ didDoWork
 =
 true
 ;
+}
 finished
 =
 true
@@ -11623,8 +11626,10 @@ ShouldTriggerCC
 (
 suspected
 )
-&
-&
+)
+{
+if
+(
 ShouldFireForgetSkippable
 (
 suspected
@@ -11648,6 +11653,7 @@ didDoWork
 =
 true
 ;
+}
 finished
 =
 true
