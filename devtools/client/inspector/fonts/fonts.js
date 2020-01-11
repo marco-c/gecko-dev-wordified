@@ -6363,7 +6363,7 @@ this
 .
 ruleViewTool
 .
-isSidebarActive
+isPanelVisible
 (
 )
 )
