@@ -354,8 +354,6 @@ content
 .
 value
 url
-:
-url
 }
 )
 ;

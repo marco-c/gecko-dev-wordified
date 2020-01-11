@@ -228,8 +228,6 @@ breakpoints
 {
 }
 xhrBreakpoints
-:
-xhrBreakpoints
 breakpointsDisabled
 :
 false

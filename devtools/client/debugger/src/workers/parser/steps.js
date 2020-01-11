@@ -363,8 +363,6 @@ loc
 .
 start
 sourceId
-:
-sourceId
 }
 ;
 }
