@@ -8277,7 +8277,7 @@ content
 /
 geckoview
 .
-xul
+xhtml
 "
 )
 ;
