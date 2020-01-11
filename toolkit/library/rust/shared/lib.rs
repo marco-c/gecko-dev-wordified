@@ -363,6 +363,14 @@ extern
 crate
 rlbox_lucet_sandbox
 ;
+extern
+crate
+unic_langid
+;
+extern
+crate
+unic_langid_ffi
+;
 use
 std
 :

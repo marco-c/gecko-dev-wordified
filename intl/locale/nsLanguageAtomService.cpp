@@ -1400,7 +1400,7 @@ size_t
 foundIndex
 ;
 const
-nsCString
+nsDependentCSubstring
 &
 script
 =
