@@ -2005,14 +2005,11 @@ Transform
 nullptr
 /
 *
-prim_flags
+is_backface_visible
 =
 *
 /
-wr
-:
-:
-PrimitiveFlags_IS_BACKFACE_VISIBLE
+true
 /
 *
 cache_tiles
