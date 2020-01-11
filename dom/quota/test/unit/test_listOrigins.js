@@ -361,7 +361,7 @@ resolve
 =
 >
 {
-listInitializedOrigins
+listOrigins
 (
 req
 =
