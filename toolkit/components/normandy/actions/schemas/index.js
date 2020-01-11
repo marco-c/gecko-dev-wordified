@@ -2052,6 +2052,9 @@ required
 preferenceType
 "
 "
+preferenceBranchType
+"
+"
 preferenceValue
 "
 ]
