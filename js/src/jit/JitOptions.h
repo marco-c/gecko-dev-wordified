@@ -441,10 +441,13 @@ uint32_t
 ionMaxLocalsAndArgsMainThread
 ;
 uint32_t
+wasmBatchBaselineThreshold
+;
+uint32_t
 wasmBatchIonThreshold
 ;
 uint32_t
-wasmBatchBaselineThreshold
+wasmBatchCraneliftThreshold
 ;
 mozilla
 :
