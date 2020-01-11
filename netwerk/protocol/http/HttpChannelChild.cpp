@@ -521,13 +521,6 @@ h
 #
 include
 "
-nsIDOMWindowUtils
-.
-h
-"
-#
-include
-"
 nsIEventTarget
 .
 h

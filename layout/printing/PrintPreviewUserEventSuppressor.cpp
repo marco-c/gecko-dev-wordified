@@ -159,13 +159,6 @@ Event
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h

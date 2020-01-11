@@ -208,13 +208,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
@@ -433,7 +426,7 @@ class
 nsBrowserStatusFilter
 ;
 class
-nsIDOMWindowUtils
+nsIDOMWindow
 ;
 class
 nsIHttpChannel

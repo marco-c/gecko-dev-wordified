@@ -198,13 +198,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

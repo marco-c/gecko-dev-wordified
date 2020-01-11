@@ -202,13 +202,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsXBLBinding
 .
 h

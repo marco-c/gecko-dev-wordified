@@ -289,13 +289,6 @@ h
 #
 include
 "
-nsIDOMWindowUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ClearOnShutdown

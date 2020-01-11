@@ -180,13 +180,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h

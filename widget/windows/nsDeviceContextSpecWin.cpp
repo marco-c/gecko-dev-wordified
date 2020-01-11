@@ -238,13 +238,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsWindowsHelpers
 .
 h

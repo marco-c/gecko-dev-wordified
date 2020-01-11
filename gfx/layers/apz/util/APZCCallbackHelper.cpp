@@ -281,13 +281,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIDOMWindowUtils
 .
 h

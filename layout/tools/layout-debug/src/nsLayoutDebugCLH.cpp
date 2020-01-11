@@ -161,13 +161,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsISupportsPrimitives
 .
 h

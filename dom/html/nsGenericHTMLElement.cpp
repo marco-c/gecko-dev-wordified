@@ -328,13 +328,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsMappedAttributes
 .
 h

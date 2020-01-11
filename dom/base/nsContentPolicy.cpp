@@ -198,13 +198,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIBrowserChild
 .
 h
@@ -282,6 +275,9 @@ TaskCategory
 .
 h
 "
+class
+nsIDOMWindow
+;
 using
 mozilla
 :

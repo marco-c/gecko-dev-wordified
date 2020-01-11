@@ -164,13 +164,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsPromiseFlatString
 .
 h

@@ -189,13 +189,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h

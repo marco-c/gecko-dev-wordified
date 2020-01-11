@@ -439,13 +439,6 @@ h
 #
 include
 "
-nsIDOMWindowUtils
-.
-h
-"
-#
-include
-"
 nsIException
 .
 h

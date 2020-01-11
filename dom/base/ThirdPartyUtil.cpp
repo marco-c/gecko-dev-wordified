@@ -173,13 +173,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsILoadContext
 .
 h

@@ -279,13 +279,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIDOMChromeWindow
 .
 h

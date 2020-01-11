@@ -175,13 +175,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIPrintingPromptService
 .
 h

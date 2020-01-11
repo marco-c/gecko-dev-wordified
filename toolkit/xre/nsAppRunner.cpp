@@ -572,13 +572,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ModuleUtils

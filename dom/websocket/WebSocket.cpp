@@ -351,13 +351,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

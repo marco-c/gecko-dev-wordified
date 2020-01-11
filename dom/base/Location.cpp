@@ -208,13 +208,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h

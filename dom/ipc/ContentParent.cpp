@@ -1479,13 +1479,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIExternalProtocolService
 .
 h

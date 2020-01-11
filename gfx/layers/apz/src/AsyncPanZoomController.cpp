@@ -1024,17 +1024,6 @@ NS_WARNING
 #
 include
 "
-nsIDOMWindowUtils
-.
-h
-"
-/
-/
-for
-nsIDOMWindowUtils
-#
-include
-"
 nsMathUtils
 .
 h

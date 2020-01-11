@@ -158,13 +158,6 @@ h
 #
 include
 "
-nsIDOMWindowUtils
-.
-h
-"
-#
-include
-"
 nsRefreshDriver
 .
 h

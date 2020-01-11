@@ -342,17 +342,6 @@ nsHTMLDocument
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-/
-/
-for
-nsIDOMWindow
-#
-include
-"
 nsIDocShell
 .
 h
