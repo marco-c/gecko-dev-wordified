@@ -12973,7 +12973,7 @@ mScriptLoader
 .
 mRv
 .
-ThrowWithCustomCleanup
+Throw
 (
 NS_ERROR_DOM_NETWORK_ERR
 )
@@ -12986,7 +12986,7 @@ mScriptLoader
 .
 mRv
 .
-ThrowWithCustomCleanup
+Throw
 (
 NS_ERROR_DOM_INVALID_STATE_ERR
 )
