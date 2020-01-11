@@ -3129,7 +3129,7 @@ obj
 .
 regexp
 .
-toSource
+toString
 (
 )
 "

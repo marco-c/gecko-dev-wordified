@@ -1803,7 +1803,7 @@ obj
 .
 regexp
 .
-toSource
+toString
 (
 )
 "
