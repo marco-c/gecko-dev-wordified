@@ -702,12 +702,6 @@ problems
 }
     
 "
-robocop_summary
-"
-:
-_mochitest_summary
-    
-"
 instrumentation_summary
 "
 :

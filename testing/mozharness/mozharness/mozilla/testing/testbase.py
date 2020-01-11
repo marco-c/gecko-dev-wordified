@@ -2516,14 +2516,6 @@ aliases
 {
             
 '
-robocop
-'
-:
-'
-mochitest
-'
-            
-'
 mochitest
 -
 chrome
