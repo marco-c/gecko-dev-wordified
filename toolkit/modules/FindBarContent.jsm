@@ -150,7 +150,7 @@ widgets
 /
 findbar
 .
-xml
+js
 *
 /
 const
