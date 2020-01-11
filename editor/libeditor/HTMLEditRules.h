@@ -420,14 +420,6 @@ AfterEdit
 )
 override
 ;
-virtual
-bool
-DocumentIsEmpty
-(
-)
-const
-override
-;
 /
 *
 *
