@@ -140,7 +140,7 @@ h
 #
 include
 "
-nsContentSecurityManager
+nsContentSecurityUtils
 .
 h
 "
@@ -242,7 +242,7 @@ js
 FilenameType
 ret
 =
-nsContentSecurityManager
+nsContentSecurityUtils
 :
 :
 FilenameToEvalType
@@ -310,7 +310,7 @@ js
 FilenameType
 ret
 =
-nsContentSecurityManager
+nsContentSecurityUtils
 :
 :
 FilenameToEvalType
@@ -434,7 +434,7 @@ js
 FilenameType
 ret
 =
-nsContentSecurityManager
+nsContentSecurityUtils
 :
 :
 FilenameToEvalType
@@ -555,7 +555,7 @@ js
 FilenameType
 ret
 =
-nsContentSecurityManager
+nsContentSecurityUtils
 :
 :
 FilenameToEvalType
@@ -675,7 +675,7 @@ js
 FilenameType
 ret
 =
-nsContentSecurityManager
+nsContentSecurityUtils
 :
 :
 FilenameToEvalType
@@ -756,7 +756,7 @@ js
 FilenameType
 ret
 =
-nsContentSecurityManager
+nsContentSecurityUtils
 :
 :
 FilenameToEvalType
@@ -810,7 +810,7 @@ js
 FilenameType
 ret
 =
-nsContentSecurityManager
+nsContentSecurityUtils
 :
 :
 FilenameToEvalType
@@ -867,7 +867,7 @@ js
 FilenameType
 ret
 =
-nsContentSecurityManager
+nsContentSecurityUtils
 :
 :
 FilenameToEvalType
@@ -934,7 +934,7 @@ js
 FilenameType
 ret
 =
-nsContentSecurityManager
+nsContentSecurityUtils
 :
 :
 FilenameToEvalType
@@ -988,7 +988,7 @@ content
 FilenameType
 ret
 =
-nsContentSecurityManager
+nsContentSecurityUtils
 :
 :
 FilenameToEvalType
@@ -1036,7 +1036,7 @@ content
 FilenameType
 ret
 =
-nsContentSecurityManager
+nsContentSecurityUtils
 :
 :
 FilenameToEvalType
@@ -1087,7 +1087,7 @@ js
 FilenameType
 ret
 =
-nsContentSecurityManager
+nsContentSecurityUtils
 :
 :
 FilenameToEvalType
@@ -1145,7 +1145,7 @@ debugger
 FilenameType
 ret
 =
-nsContentSecurityManager
+nsContentSecurityUtils
 :
 :
 FilenameToEvalType
@@ -1212,7 +1212,7 @@ content
 FilenameType
 ret
 =
-nsContentSecurityManager
+nsContentSecurityUtils
 :
 :
 FilenameToEvalType
@@ -1260,7 +1260,7 @@ content
 FilenameType
 ret
 =
-nsContentSecurityManager
+nsContentSecurityUtils
 :
 :
 FilenameToEvalType
@@ -1312,7 +1312,7 @@ thing
 FilenameType
 ret
 =
-nsContentSecurityManager
+nsContentSecurityUtils
 :
 :
 FilenameToEvalType
@@ -1369,7 +1369,7 @@ txt
 FilenameType
 ret
 =
-nsContentSecurityManager
+nsContentSecurityUtils
 :
 :
 FilenameToEvalType

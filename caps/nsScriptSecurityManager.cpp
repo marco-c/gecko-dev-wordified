@@ -293,7 +293,7 @@ h
 #
 include
 "
-nsContentSecurityManager
+nsContentSecurityUtils
 .
 h
 "
@@ -3069,7 +3069,7 @@ defined
 DEBUG
 )
 )
-nsContentSecurityManager
+nsContentSecurityUtils
 :
 :
 AssertEvalNotRestricted
