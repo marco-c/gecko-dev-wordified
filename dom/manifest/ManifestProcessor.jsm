@@ -1216,6 +1216,20 @@ start_url
 )
 ;
 const
+defaultScope
+=
+new
+URL
+(
+"
+.
+"
+startURL
+)
+.
+href
+;
+const
 value
 =
 extractor
@@ -1243,7 +1257,7 @@ value
 )
 {
 return
-undefined
+defaultScope
 ;
 }
 try
@@ -1285,7 +1299,7 @@ warn
 )
 ;
 return
-undefined
+defaultScope
 ;
 }
 if
@@ -1323,7 +1337,7 @@ warn
 )
 ;
 return
-undefined
+defaultScope
 ;
 }
 /
@@ -1395,7 +1409,7 @@ warn
 )
 ;
 return
-undefined
+defaultScope
 ;
 }
 return
