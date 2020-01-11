@@ -223,13 +223,13 @@ saveDeferredTask
 new
 DeferredTask
 (
+async
 function
-*
 (
 )
 {
 *
-yield
+await
 OS
 .
 File
@@ -338,7 +338,7 @@ now
 .
 *
 *
-yield
+await
 waitOneSecond
 (
 )
@@ -1016,9 +1016,6 @@ prototype
 *
 *
 Function
-or
-generator
-function
 to
 execute
 .
@@ -1125,7 +1122,6 @@ task
 is
 an
 asynchronous
-generator
 function
 .
 *
