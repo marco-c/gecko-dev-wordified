@@ -3085,7 +3085,7 @@ atom
 if
 (
 !
-TraceManuallyBarrieredWeakEdge
+TraceWeakEdge
 (
 trc
 &
