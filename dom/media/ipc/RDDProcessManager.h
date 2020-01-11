@@ -519,6 +519,11 @@ PRemoteDecoderManagerChild
 aOutRemoteDecoderManager
 )
 ;
+bool
+CreateVideoBridge
+(
+)
+;
 /
 /
 Called

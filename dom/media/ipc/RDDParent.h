@@ -268,7 +268,7 @@ ipc
 :
 :
 IPCResult
-RecvCreateVideoBridgeToParentProcess
+RecvInitVideoBridge
 (
 Endpoint
 <
