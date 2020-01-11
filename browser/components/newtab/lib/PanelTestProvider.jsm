@@ -937,7 +937,7 @@ cfr
 -
 doorhanger
 -
-extension
+feature
 -
 notification
 "
