@@ -6407,6 +6407,7 @@ GetEndTime
 (
 )
 <
+=
 currentTime
 ;
 )
