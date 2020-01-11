@@ -441,13 +441,6 @@ SendLoopParametersToStream
 ;
 }
 void
-SendDopplerShiftToStream
-(
-double
-aDopplerShift
-)
-;
-void
 NotifyMainThreadStreamFinished
 (
 )
@@ -624,7 +617,6 @@ LOOPSTART
 LOOPEND
 PLAYBACKRATE
 DETUNE
-DOPPLERSHIFT
 }
 ;
 void
