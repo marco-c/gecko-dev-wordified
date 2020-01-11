@@ -643,10 +643,8 @@ a
 /
 /
 class
-or
+/
 id
-change
-.
 #
 [
 inline
