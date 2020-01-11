@@ -648,6 +648,13 @@ path
 )
 ;
 }
+const
+nsCString
+&
+GetFilePath
+(
+)
+;
 inline
 int64_t
 Expiry
@@ -977,6 +984,9 @@ mozilla
 :
 OriginAttributes
 mOriginAttributes
+;
+nsCString
+mFilePathCache
 ;
 }
 ;

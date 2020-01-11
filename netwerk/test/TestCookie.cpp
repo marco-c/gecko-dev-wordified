@@ -3028,7 +3028,12 @@ cookie
 get
 (
 )
-MUST_BE_NULL
+MUST_EQUAL
+"
+test
+=
+path
+"
 )
 )
 ;
