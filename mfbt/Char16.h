@@ -369,6 +369,7 @@ differ
 ;
 public
 :
+constexpr
 MOZ_IMPLICIT
 char16ptr_t
 (
@@ -435,6 +436,7 @@ nullptr
 )
 {
 }
+constexpr
 operator
 const
 char16_t
@@ -492,6 +494,7 @@ mPtr
 )
 ;
 }
+constexpr
 operator
 const
 void
@@ -504,6 +507,7 @@ return
 mPtr
 ;
 }
+constexpr
 explicit
 operator
 bool
@@ -535,6 +539,7 @@ str
 .
 *
 /
+constexpr
 explicit
 operator
 char16_t
