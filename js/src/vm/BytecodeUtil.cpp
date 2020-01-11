@@ -4343,6 +4343,9 @@ case
 JSOP_OR
 :
 case
+JSOP_COALESCE
+:
+case
 JSOP_SETALIASEDVAR
 :
 case
