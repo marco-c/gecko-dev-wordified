@@ -19972,7 +19972,7 @@ table_copy
 wast
 :
 860
-assert_return
+assert_trap
 (
 (
 )
@@ -19988,7 +19988,6 @@ test
 0
 ]
 )
-0
 )
 ;
 /
@@ -19998,7 +19997,7 @@ table_copy
 wast
 :
 861
-assert_return
+assert_trap
 (
 (
 )
@@ -20014,7 +20013,6 @@ test
 1
 ]
 )
-1
 )
 ;
 /
@@ -20024,7 +20022,7 @@ table_copy
 wast
 :
 862
-assert_return
+assert_trap
 (
 (
 )
@@ -20040,7 +20038,6 @@ test
 2
 ]
 )
-2
 )
 ;
 /
@@ -20050,7 +20047,7 @@ table_copy
 wast
 :
 863
-assert_return
+assert_trap
 (
 (
 )
@@ -20066,7 +20063,6 @@ test
 3
 ]
 )
-3
 )
 ;
 /
@@ -20076,7 +20072,7 @@ table_copy
 wast
 :
 864
-assert_return
+assert_trap
 (
 (
 )
@@ -20092,7 +20088,6 @@ test
 4
 ]
 )
-4
 )
 ;
 /
@@ -20102,7 +20097,7 @@ table_copy
 wast
 :
 865
-assert_return
+assert_trap
 (
 (
 )
@@ -20118,7 +20113,6 @@ test
 5
 ]
 )
-5
 )
 ;
 /
@@ -20128,7 +20122,7 @@ table_copy
 wast
 :
 866
-assert_return
+assert_trap
 (
 (
 )
@@ -20144,7 +20138,6 @@ test
 6
 ]
 )
-6
 )
 ;
 /
@@ -20154,7 +20147,7 @@ table_copy
 wast
 :
 867
-assert_return
+assert_trap
 (
 (
 )
@@ -20170,7 +20163,6 @@ test
 7
 ]
 )
-7
 )
 ;
 /
@@ -21577,7 +21569,7 @@ table_copy
 wast
 :
 921
-assert_return
+assert_trap
 (
 (
 )
@@ -21593,7 +21585,6 @@ test
 0
 ]
 )
-0
 )
 ;
 /
@@ -21603,7 +21594,7 @@ table_copy
 wast
 :
 922
-assert_return
+assert_trap
 (
 (
 )
@@ -21619,7 +21610,6 @@ test
 1
 ]
 )
-1
 )
 ;
 /
@@ -21629,7 +21619,7 @@ table_copy
 wast
 :
 923
-assert_return
+assert_trap
 (
 (
 )
@@ -21645,7 +21635,6 @@ test
 2
 ]
 )
-2
 )
 ;
 /
@@ -21655,7 +21644,7 @@ table_copy
 wast
 :
 924
-assert_return
+assert_trap
 (
 (
 )
@@ -21671,7 +21660,6 @@ test
 3
 ]
 )
-3
 )
 ;
 /
@@ -21681,7 +21669,7 @@ table_copy
 wast
 :
 925
-assert_return
+assert_trap
 (
 (
 )
@@ -21697,7 +21685,6 @@ test
 4
 ]
 )
-4
 )
 ;
 /
@@ -21707,7 +21694,7 @@ table_copy
 wast
 :
 926
-assert_return
+assert_trap
 (
 (
 )
@@ -21723,7 +21710,6 @@ test
 5
 ]
 )
-5
 )
 ;
 /
@@ -21733,7 +21719,7 @@ table_copy
 wast
 :
 927
-assert_return
+assert_trap
 (
 (
 )
@@ -21749,7 +21735,6 @@ test
 6
 ]
 )
-6
 )
 ;
 /
@@ -21759,7 +21744,7 @@ table_copy
 wast
 :
 928
-assert_return
+assert_trap
 (
 (
 )
@@ -21775,7 +21760,6 @@ test
 7
 ]
 )
-7
 )
 ;
 /
@@ -21785,7 +21769,7 @@ table_copy
 wast
 :
 929
-assert_return
+assert_trap
 (
 (
 )
@@ -21801,7 +21785,6 @@ test
 8
 ]
 )
-8
 )
 ;
 /
@@ -25052,7 +25035,7 @@ table_copy
 wast
 :
 1054
-assert_return
+assert_trap
 (
 (
 )
@@ -25068,7 +25051,6 @@ test
 11
 ]
 )
-0
 )
 ;
 /
@@ -25078,7 +25060,7 @@ table_copy
 wast
 :
 1055
-assert_return
+assert_trap
 (
 (
 )
@@ -25094,7 +25076,6 @@ test
 12
 ]
 )
-1
 )
 ;
 /
@@ -25104,7 +25085,7 @@ table_copy
 wast
 :
 1056
-assert_return
+assert_trap
 (
 (
 )
@@ -25120,7 +25101,6 @@ test
 13
 ]
 )
-2
 )
 ;
 /
@@ -25130,7 +25110,7 @@ table_copy
 wast
 :
 1057
-assert_return
+assert_trap
 (
 (
 )
@@ -25146,7 +25126,6 @@ test
 14
 ]
 )
-3
 )
 ;
 /
@@ -25156,7 +25135,7 @@ table_copy
 wast
 :
 1058
-assert_return
+assert_trap
 (
 (
 )
@@ -25172,7 +25151,6 @@ test
 15
 ]
 )
-4
 )
 ;
 /
@@ -25182,7 +25160,7 @@ table_copy
 wast
 :
 1059
-assert_return
+assert_trap
 (
 (
 )
@@ -25198,7 +25176,6 @@ test
 16
 ]
 )
-5
 )
 ;
 /
@@ -25208,7 +25185,7 @@ table_copy
 wast
 :
 1060
-assert_return
+assert_trap
 (
 (
 )
@@ -25224,7 +25201,6 @@ test
 17
 ]
 )
-6
 )
 ;
 /
@@ -25234,7 +25210,7 @@ table_copy
 wast
 :
 1061
-assert_return
+assert_trap
 (
 (
 )
@@ -25250,7 +25226,6 @@ test
 18
 ]
 )
-7
 )
 ;
 /
@@ -28500,7 +28475,7 @@ table_copy
 wast
 :
 1186
-assert_return
+assert_trap
 (
 (
 )
@@ -28516,7 +28491,6 @@ test
 21
 ]
 )
-0
 )
 ;
 /
@@ -28526,7 +28500,7 @@ table_copy
 wast
 :
 1187
-assert_return
+assert_trap
 (
 (
 )
@@ -28542,7 +28516,6 @@ test
 22
 ]
 )
-1
 )
 ;
 /
@@ -28552,7 +28525,7 @@ table_copy
 wast
 :
 1188
-assert_return
+assert_trap
 (
 (
 )
@@ -28568,7 +28541,6 @@ test
 23
 ]
 )
-2
 )
 ;
 /
@@ -28594,7 +28566,7 @@ test
 24
 ]
 )
-3
+0
 )
 ;
 /
@@ -28620,7 +28592,7 @@ test
 25
 ]
 )
-4
+1
 )
 ;
 /
@@ -28646,7 +28618,7 @@ test
 26
 ]
 )
-5
+2
 )
 ;
 /
@@ -28672,7 +28644,7 @@ test
 27
 ]
 )
-6
+3
 )
 ;
 /
@@ -28698,7 +28670,7 @@ test
 28
 ]
 )
-7
+4
 )
 ;
 /
@@ -31200,7 +31172,7 @@ table_copy
 wast
 :
 1287
-assert_return
+assert_trap
 (
 (
 )
@@ -31216,7 +31188,6 @@ test
 0
 ]
 )
-0
 )
 ;
 /
@@ -31226,7 +31197,7 @@ table_copy
 wast
 :
 1288
-assert_return
+assert_trap
 (
 (
 )
@@ -31242,7 +31213,6 @@ test
 1
 ]
 )
-1
 )
 ;
 /
@@ -31252,7 +31222,7 @@ table_copy
 wast
 :
 1289
-assert_return
+assert_trap
 (
 (
 )
@@ -31268,7 +31238,6 @@ test
 2
 ]
 )
-2
 )
 ;
 /
@@ -31278,7 +31247,7 @@ table_copy
 wast
 :
 1290
-assert_return
+assert_trap
 (
 (
 )
@@ -31294,7 +31263,6 @@ test
 3
 ]
 )
-3
 )
 ;
 /
@@ -31304,7 +31272,7 @@ table_copy
 wast
 :
 1291
-assert_return
+assert_trap
 (
 (
 )
@@ -31320,7 +31288,6 @@ test
 4
 ]
 )
-4
 )
 ;
 /
@@ -31330,7 +31297,7 @@ table_copy
 wast
 :
 1292
-assert_return
+assert_trap
 (
 (
 )
@@ -31346,7 +31313,6 @@ test
 5
 ]
 )
-5
 )
 ;
 /
@@ -31356,7 +31322,7 @@ table_copy
 wast
 :
 1293
-assert_return
+assert_trap
 (
 (
 )
@@ -31372,7 +31338,6 @@ test
 6
 ]
 )
-6
 )
 ;
 /
@@ -31382,7 +31347,7 @@ table_copy
 wast
 :
 1294
-assert_return
+assert_trap
 (
 (
 )
@@ -31398,7 +31363,6 @@ test
 7
 ]
 )
-7
 )
 ;
 /
@@ -31408,7 +31372,7 @@ table_copy
 wast
 :
 1295
-assert_return
+assert_trap
 (
 (
 )
@@ -31424,7 +31388,6 @@ test
 8
 ]
 )
-8
 )
 ;
 /
@@ -31434,7 +31397,7 @@ table_copy
 wast
 :
 1296
-assert_return
+assert_trap
 (
 (
 )
@@ -31450,7 +31413,6 @@ test
 9
 ]
 )
-9
 )
 ;
 /
@@ -31460,7 +31422,7 @@ table_copy
 wast
 :
 1297
-assert_return
+assert_trap
 (
 (
 )
@@ -31476,7 +31438,6 @@ test
 10
 ]
 )
-10
 )
 ;
 /
@@ -31486,7 +31447,7 @@ table_copy
 wast
 :
 1298
-assert_return
+assert_trap
 (
 (
 )
@@ -31502,7 +31463,6 @@ test
 11
 ]
 )
-11
 )
 ;
 /
@@ -31512,7 +31472,7 @@ table_copy
 wast
 :
 1299
-assert_return
+assert_trap
 (
 (
 )
@@ -31528,7 +31488,6 @@ test
 12
 ]
 )
-12
 )
 ;
 /
@@ -31538,7 +31497,7 @@ table_copy
 wast
 :
 1300
-assert_return
+assert_trap
 (
 (
 )
@@ -31554,7 +31513,6 @@ test
 13
 ]
 )
-13
 )
 ;
 /
@@ -31564,7 +31522,7 @@ table_copy
 wast
 :
 1301
-assert_return
+assert_trap
 (
 (
 )
@@ -31580,7 +31538,6 @@ test
 14
 ]
 )
-14
 )
 ;
 /
@@ -31590,7 +31547,7 @@ table_copy
 wast
 :
 1302
-assert_return
+assert_trap
 (
 (
 )
@@ -31606,7 +31563,6 @@ test
 15
 ]
 )
-15
 )
 ;
 /
