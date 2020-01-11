@@ -1052,6 +1052,8 @@ ScrollableLayerGuid
 :
 ViewID
 aFixedPosTarget
+SideBits
+aFixedPosSides
 )
 ;
 ScrollableLayerGuid
@@ -1059,6 +1061,12 @@ ScrollableLayerGuid
 :
 ViewID
 GetFixedPosTarget
+(
+)
+const
+;
+SideBits
+GetFixedPosSides
 (
 )
 const
@@ -1439,6 +1447,9 @@ ScrollableLayerGuid
 :
 ViewID
 mFixedPosTarget
+;
+SideBits
+mFixedPosSides
 ;
 /
 *
