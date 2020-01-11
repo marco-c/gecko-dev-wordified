@@ -35628,14 +35628,6 @@ funbox
 -
 >
 toStringEnd
-funbox
--
->
-startLine
-funbox
--
->
-startColumn
 )
 )
 ;
