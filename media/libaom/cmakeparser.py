@@ -1159,13 +1159,10 @@ APPEND
 :
                     
 if
-not
-variables
-.
-has_key
-(
 variable
-)
+not
+in
+variables
 :
                         
 variables
@@ -1245,13 +1242,10 @@ CMake
 files
             
 if
-not
-variables
-.
-has_key
-(
 variable
-)
+not
+in
+variables
 :
                 
 variables
@@ -1332,13 +1326,10 @@ cache
 ]
                 
 if
-not
-variables
-.
-has_key
-(
 variable
-)
+not
+in
+variables
 :
                     
 variables

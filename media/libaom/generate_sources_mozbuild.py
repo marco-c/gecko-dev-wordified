@@ -659,7 +659,7 @@ sources
 mozbuild
 '
 '
-wb
+w
 '
 )
     
@@ -1171,6 +1171,13 @@ x
 exports
 )
             
+sources
+=
+list
+(
+sources
+)
+            
 for
 export
 in
@@ -1244,7 +1251,7 @@ prefix
 for
 i
 in
-xrange
+range
 (
 len
 (
