@@ -3849,6 +3849,7 @@ empty
 "
 )
 ;
+await
 SpecialPowers
 .
 spawn
