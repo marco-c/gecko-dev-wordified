@@ -3355,7 +3355,7 @@ NS_OK
 static
 *
 /
-nsresult
+void
 BlobURLProtocolHandler
 :
 :
@@ -3389,9 +3389,6 @@ aURI
 aBlobImpl
 aPrincipal
 )
-;
-return
-NS_OK
 ;
 }
 /
