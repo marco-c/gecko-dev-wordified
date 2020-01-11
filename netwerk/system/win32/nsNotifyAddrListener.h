@@ -425,7 +425,13 @@ when
 mCheckEvent
 means
 shutdown
+mozilla
+:
+:
+Atomic
+<
 bool
+>
 mShutdown
 ;
 /
