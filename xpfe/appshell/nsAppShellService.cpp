@@ -187,7 +187,7 @@ h
 #
 include
 "
-nsWebShellWindow
+nsXULWindow
 .
 h
 "
@@ -786,7 +786,7 @@ rv
 ;
 RefPtr
 <
-nsWebShellWindow
+nsXULWindow
 >
 newWindow
 ;
@@ -952,7 +952,7 @@ CREATE_TOP_LEVEL_WINDOW
 ;
 RefPtr
 <
-nsWebShellWindow
+nsXULWindow
 >
 newWindow
 ;
@@ -2931,7 +2931,7 @@ aOpeningTab
 mozIDOMWindowProxy
 *
 aOpenerWindow
-nsWebShellWindow
+nsXULWindow
 *
 *
 aResult
@@ -2969,12 +2969,12 @@ aParent
 ;
 RefPtr
 <
-nsWebShellWindow
+nsXULWindow
 >
 window
 =
 new
-nsWebShellWindow
+nsXULWindow
 (
 aChromeMask
 )
