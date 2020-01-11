@@ -5213,14 +5213,11 @@ if
 ccov
 '
 in
-(
 attr
 (
 '
 build_platform
 '
-)
-or
 [
 ]
 )
