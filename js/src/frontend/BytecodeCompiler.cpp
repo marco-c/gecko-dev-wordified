@@ -903,10 +903,6 @@ createSourceAndParser
 (
 allocScope
 info
-ParseGoal
-:
-:
-Script
 )
 &
 &
@@ -1011,8 +1007,6 @@ allocScope
 BytecodeCompiler
 &
 compiler
-ParseGoal
-goal
 const
 Maybe
 <
@@ -1921,10 +1915,6 @@ createSourceAndParser
 (
 allocScope
 info
-ParseGoal
-:
-:
-Script
 parameterListEnd
 )
 ;
@@ -2499,8 +2489,6 @@ allocScope
 BytecodeCompiler
 &
 info
-ParseGoal
-goal
 const
 Maybe
 <
@@ -2653,7 +2641,6 @@ nullptr
 info
 .
 sourceObject
-goal
 )
 ;
 if
@@ -2712,7 +2699,6 @@ nullptr
 info
 .
 sourceObject
-goal
 )
 ;
 parser
@@ -3520,10 +3506,6 @@ createSourceAndParser
 (
 allocScope
 info
-ParseGoal
-:
-:
-Module
 )
 |
 |
@@ -6244,12 +6226,6 @@ parseInfo
 nullptr
 lazy
 sourceObject
-lazy
--
->
-parseGoal
-(
-)
 )
 ;
 if

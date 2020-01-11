@@ -320,8 +320,6 @@ FunctionBox
 funbox
 HandleScriptSourceObject
 sourceObject
-ParseGoal
-parseGoal
 )
 ;
 }

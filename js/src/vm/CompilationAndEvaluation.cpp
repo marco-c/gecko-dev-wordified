@@ -1598,10 +1598,6 @@ parseInfo
 nullptr
 nullptr
 sourceObject
-ParseGoal
-:
-:
-Script
 )
 ;
 if

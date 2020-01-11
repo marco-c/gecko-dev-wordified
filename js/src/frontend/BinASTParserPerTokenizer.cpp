@@ -2664,10 +2664,6 @@ lineno
 /
 0
 start
-ParseGoal
-:
-:
-Script
 )
 )
 ;

@@ -32291,7 +32291,6 @@ parseInfo
 nullptr
 nullptr
 sourceObject
-goal
 )
 ;
 if
@@ -32719,13 +32718,6 @@ parseInfo
 nullptr
 nullptr
 sourceObject
-frontend
-:
-:
-ParseGoal
-:
-:
-Script
 )
 ;
 if

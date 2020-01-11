@@ -1976,13 +1976,6 @@ parseInfo
 nullptr
 nullptr
 sourceObject
-frontend
-:
-:
-ParseGoal
-:
-:
-Script
 )
 ;
 if
