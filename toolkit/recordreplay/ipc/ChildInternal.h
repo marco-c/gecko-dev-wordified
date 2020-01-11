@@ -348,6 +348,11 @@ GetId
 (
 )
 ;
+size_t
+GetForkId
+(
+)
+;
 /
 /
 Monitor

@@ -1436,10 +1436,6 @@ GetId
 )
 )
 ;
-BusyWait
-(
-)
-;
 /
 /
 Continue
