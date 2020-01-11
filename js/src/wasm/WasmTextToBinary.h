@@ -214,11 +214,10 @@ by
 a
 /
 /
-null
--
-terminated
 char16_t
 array
++
+length
 )
 into
 serialized
@@ -259,6 +258,8 @@ const
 char16_t
 *
 text
+size_t
+textLen
 uintptr_t
 stackLimit
 Bytes
