@@ -368,10 +368,6 @@ purpose
 undefined
 }
 ]
-mozparams
-:
-{
-}
 }
 ]
 }

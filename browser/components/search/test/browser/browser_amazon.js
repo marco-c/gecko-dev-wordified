@@ -418,10 +418,6 @@ purpose
 undefined
 }
 ]
-mozparams
-:
-{
-}
 }
 {
 type

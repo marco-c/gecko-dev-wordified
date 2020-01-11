@@ -662,10 +662,6 @@ newtab
 "
 }
 ]
-mozparams
-:
-{
-}
 }
 {
 type
