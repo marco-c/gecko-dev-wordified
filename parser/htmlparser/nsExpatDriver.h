@@ -716,6 +716,9 @@ PRUnichars
 uint32_t
 mExpatBuffered
 ;
+uint16_t
+mTagDepth
+;
 /
 /
 These
