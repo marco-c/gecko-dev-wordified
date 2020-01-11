@@ -5995,6 +5995,11 @@ setWasm
 useWasm
 )
 .
+setWasmForTrustedPrinciples
+(
+useWasm
+)
+.
 setWasmIon
 (
 useWasmIon
