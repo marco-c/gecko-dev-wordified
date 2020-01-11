@@ -111,10 +111,10 @@ MPL
 /
 #
 ifndef
-TOOLKIT_COMPONENTS_REMOTE_NSREMOTESERVER_H_
+__nsRemoteService_h__
 #
 define
-TOOLKIT_COMPONENTS_REMOTE_NSREMOTESERVER_H_
+__nsRemoteService_h__
 #
 include
 "
@@ -277,4 +277,4 @@ mProfile
 endif
 /
 /
-TOOLKIT_COMPONENTS_REMOTE_NSREMOTESERVER_H_
+__nsRemoteService_h__
