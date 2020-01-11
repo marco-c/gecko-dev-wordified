@@ -1090,13 +1090,6 @@ new
 RemoteMediaDataDecoder
 (
 child
-mManagerThread
-RemoteDecoderManagerChild
-:
-:
-GetManagerAbstractThread
-(
-)
 )
 ;
 return
@@ -1392,13 +1385,6 @@ new
 RemoteMediaDataDecoder
 (
 child
-mManagerThread
-RemoteDecoderManagerChild
-:
-:
-GetManagerAbstractThread
-(
-)
 )
 ;
 return
