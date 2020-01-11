@@ -1081,6 +1081,17 @@ TIMINGS
 "
 timings
 "
+SEARCH
+:
+"
+network
+-
+action
+-
+bar
+-
+search
+"
 BLOCKING
 :
 "
