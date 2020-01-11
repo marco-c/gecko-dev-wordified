@@ -495,6 +495,15 @@ GetURIMatcher
 (
 )
 ;
+bool
+RemoteTypePrefixMatches
+(
+const
+nsDependentSubstring
+&
+aRemoteType
+)
+;
 ~
 JSWindowActorProtocol
 (
