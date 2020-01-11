@@ -1,3 +1,7 @@
+from
+six
+import
+text_type
 def
 main
 (
@@ -186,7 +190,10 @@ set
 "
 vary
 "
+text_type
+(
 cookie_vary
+)
 )
   
 else
