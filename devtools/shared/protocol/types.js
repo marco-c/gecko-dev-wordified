@@ -69,7 +69,11 @@ Actor
 require
 (
 "
-.
+devtools
+/
+shared
+/
+protocol
 /
 Actor
 "

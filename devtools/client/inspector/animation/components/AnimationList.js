@@ -134,7 +134,15 @@ createFactory
 require
 (
 "
-.
+devtools
+/
+client
+/
+inspector
+/
+animation
+/
+components
 /
 AnimationItem
 "

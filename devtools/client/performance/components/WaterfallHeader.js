@@ -135,8 +135,11 @@ L10N
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+performance
 /
 modules
 /
@@ -152,8 +155,11 @@ TickUtils
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+performance
 /
 modules
 /

@@ -72,7 +72,15 @@ EXTENSION_SIDEBAR_REMOVE
 require
 (
 "
-.
+devtools
+/
+client
+/
+inspector
+/
+extensions
+/
+actions
 /
 index
 "

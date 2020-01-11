@@ -269,7 +269,11 @@ ANIMATION_TYPE_FOR_LONGHANDS
 require
 (
 "
-.
+devtools
+/
+server
+/
+actors
 /
 animation
 -

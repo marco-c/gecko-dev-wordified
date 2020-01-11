@@ -133,11 +133,13 @@ getFormattedProtocol
 require
 (
 "
-.
-.
+devtools
 /
-.
-.
+client
+/
+netmonitor
+/
+src
 /
 utils
 /

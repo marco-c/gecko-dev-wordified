@@ -133,11 +133,13 @@ ICON_LABEL_LEVEL
 require
 (
 "
-.
-.
+devtools
 /
-.
-.
+client
+/
+aboutdebugging
+/
+src
 /
 constants
 "

@@ -87,8 +87,13 @@ WS_RESET_COLUMNS
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+netmonitor
+/
+src
 /
 constants
 "

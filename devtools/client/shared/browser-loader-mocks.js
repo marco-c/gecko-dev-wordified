@@ -440,7 +440,11 @@ someMethod
 require
 (
 "
-.
+devtools
+/
+client
+/
+shared
 /
 my
 -

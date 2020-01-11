@@ -95,8 +95,11 @@ SELECT
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+accessibility
 /
 constants
 "

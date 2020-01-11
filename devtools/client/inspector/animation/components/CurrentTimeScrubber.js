@@ -168,7 +168,15 @@ createFactory
 require
 (
 "
-.
+devtools
+/
+client
+/
+inspector
+/
+animation
+/
+components
 /
 IndicationBar
 "

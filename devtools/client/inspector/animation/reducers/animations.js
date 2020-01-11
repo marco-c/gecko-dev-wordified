@@ -75,8 +75,13 @@ UPDATE_SIDEBAR_SIZE
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+inspector
+/
+animation
 /
 actions
 /

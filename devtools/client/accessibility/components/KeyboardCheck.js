@@ -158,8 +158,11 @@ A11Y_KEYBOARD_LINKS
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+accessibility
 /
 constants
 "

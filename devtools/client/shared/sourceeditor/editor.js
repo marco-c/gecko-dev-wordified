@@ -8921,7 +8921,13 @@ extend
 require
 (
 "
-.
+devtools
+/
+client
+/
+shared
+/
+sourceeditor
 /
 autocomplete
 "

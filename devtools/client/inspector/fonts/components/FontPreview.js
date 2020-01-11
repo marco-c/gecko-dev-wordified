@@ -131,8 +131,13 @@ Types
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+inspector
+/
+fonts
 /
 types
 "

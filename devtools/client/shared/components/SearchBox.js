@@ -185,7 +185,13 @@ createFactory
 require
 (
 "
-.
+devtools
+/
+client
+/
+shared
+/
+components
 /
 MdnLink
 "

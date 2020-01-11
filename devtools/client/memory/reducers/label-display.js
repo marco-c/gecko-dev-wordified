@@ -70,8 +70,11 @@ labelDisplays
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+memory
 /
 constants
 "

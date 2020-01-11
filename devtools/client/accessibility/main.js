@@ -137,7 +137,11 @@ content
 require
 (
 "
-.
+devtools
+/
+client
+/
+accessibility
 /
 accessibility
 -
