@@ -627,9 +627,9 @@ performance
 -
 new
 /
-popup
+aboutprofiling
 /
-popup
+index
 .
 xhtml
 "
