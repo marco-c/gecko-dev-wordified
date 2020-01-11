@@ -3358,6 +3358,8 @@ l10nID
 "
 protection
 -
+report
+-
 header
 -
 details
@@ -3461,6 +3463,8 @@ l10nID
 =
 "
 protection
+-
+report
 -
 header
 -
@@ -3566,6 +3570,8 @@ l10nID
 "
 protection
 -
+report
+-
 header
 -
 details
@@ -3576,7 +3582,7 @@ custom
 }
 "
 The
-strict
+custom
 string
 is
 showing
