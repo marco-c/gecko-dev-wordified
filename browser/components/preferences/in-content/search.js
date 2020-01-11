@@ -3546,8 +3546,11 @@ engine
 ;
 ExtensionSettingsStore
 .
-setByUser
+select
 (
+ExtensionSettingsStore
+.
+SETTING_USER_SET
 SEARCH_TYPE
 SEARCH_KEY
 )
