@@ -541,9 +541,6 @@ commonPermissions
 geo
 "
 "
-xr
-"
-"
 desktop
 -
 notification

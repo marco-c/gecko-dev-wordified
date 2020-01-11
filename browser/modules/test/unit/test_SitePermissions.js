@@ -179,9 +179,6 @@ storage
 -
 access
 "
-"
-xr
-"
 ]
 ;
 if
@@ -1000,9 +997,6 @@ screen
 "
 "
 geo
-"
-"
-xr
 "
 "
 persistent
