@@ -2672,10 +2672,6 @@ const
 bool
 &
 aStickDocument
-const
-CookieSettingsArgs
-&
-aCookieSettingsArgs
 )
 ;
 virtual
@@ -2707,10 +2703,6 @@ const
 bool
 &
 stickDocument
-const
-CookieSettingsArgs
-&
-aCookieSettingsArgs
 )
 override
 ;
