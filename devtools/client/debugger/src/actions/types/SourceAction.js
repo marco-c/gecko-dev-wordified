@@ -335,13 +335,9 @@ type
 CLOSE_TAB
 "
 +
-url
+source
 :
-string
-+
-tabs
-:
-any
+Source
 |
 }
 |
@@ -360,10 +356,6 @@ Array
 <
 Source
 >
-+
-tabs
-:
-any
 |
 }
 |

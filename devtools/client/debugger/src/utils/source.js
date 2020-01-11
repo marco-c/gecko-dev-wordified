@@ -253,6 +253,7 @@ import
 type
 {
 Symbols
+TabsSources
 }
 from
 "
@@ -1123,6 +1124,8 @@ sources
 Source
 [
 ]
+|
+TabsSources
 )
 {
 const
