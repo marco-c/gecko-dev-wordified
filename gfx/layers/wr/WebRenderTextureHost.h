@@ -581,17 +581,6 @@ NeedsYFlip
 const
 override
 ;
-void
-MaybeNofityForUse
-(
-wr
-:
-:
-TransactionBuilder
-&
-aTxn
-)
-;
 protected
 :
 void
