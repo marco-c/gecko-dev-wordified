@@ -175,7 +175,7 @@ namespace
 videocapturemodule
 {
 BOOL
-isCaptureDevice
+isVideoDevice
 (
 DEV_BROADCAST_HDR
 *
@@ -226,7 +226,7 @@ pDi
 dbcc_classguid
 =
 =
-KSCATEGORY_CAPTURE
+KSCATEGORY_VIDEO_CAMERA
 ;
 }
 LRESULT
@@ -325,7 +325,7 @@ if
 pParent
 &
 &
-isCaptureDevice
+isVideoDevice
 (
 (
 PDEV_BROADCAST_HDR
@@ -920,7 +920,7 @@ di
 .
 dbcc_classguid
 =
-KSCATEGORY_CAPTURE
+KSCATEGORY_VIDEO_CAMERA
 ;
 _hdevnotify
 =
