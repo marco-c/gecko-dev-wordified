@@ -2389,7 +2389,7 @@ if
 '
 sys
 .
-maxint
+maxsize
 )
             
 (
@@ -2398,7 +2398,7 @@ ifdef
 '
 sys
 .
-maxint
+maxsize
 )
             
 (
@@ -2407,7 +2407,7 @@ ifndef
 '
 sys
 .
-maxint
+maxsize
 )
             
 (
@@ -2444,7 +2444,7 @@ endif
 '
 sys
 .
-maxint
+maxsize
 )
             
 (
@@ -5649,20 +5649,6 @@ filter_
 f
 )
         
-filterNames
-=
-current
-.
-keys
-(
-)
-        
-filterNames
-.
-sort
-(
-)
-        
 self
 .
 filters
@@ -5678,7 +5664,14 @@ fn
 for
 fn
 in
-filterNames
+sorted
+(
+current
+.
+keys
+(
+)
+)
 ]
         
 return
@@ -5728,20 +5721,6 @@ current
 f
 ]
         
-filterNames
-=
-current
-.
-keys
-(
-)
-        
-filterNames
-.
-sort
-(
-)
-        
 self
 .
 filters
@@ -5757,7 +5736,14 @@ fn
 for
 fn
 in
-filterNames
+sorted
+(
+current
+.
+keys
+(
+)
+)
 ]
         
 return
