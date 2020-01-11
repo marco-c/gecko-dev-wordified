@@ -1041,6 +1041,7 @@ aDstFormat
 \
 FORMAT_CASE_ROW
 (
+\
 SurfaceFormat
 :
 :
@@ -1084,6 +1085,7 @@ aDstFormat
 \
 FORMAT_CASE_ROW
 (
+\
 SurfaceFormat
 :
 :
@@ -6271,6 +6273,7 @@ aDstFormat
 \
 FORMAT_CASE_ROW
 (
+\
 SurfaceFormat
 :
 :
