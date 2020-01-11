@@ -639,6 +639,9 @@ None
 detect_virtualenv_mozinfo
 =
 True
+*
+*
+kwargs
 )
 :
         
@@ -1285,6 +1288,9 @@ topobjdir
 mozconfig
 =
 mozconfig
+*
+*
+kwargs
 )
     
 def
