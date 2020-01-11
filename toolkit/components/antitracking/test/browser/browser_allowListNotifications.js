@@ -609,7 +609,7 @@ Ci
 .
 nsIWebProgressListener
 .
-STATE_LOADED_TRACKING_CONTENT
+STATE_LOADED_LEVEL_1_TRACKING_CONTENT
 "
 Correct
 blocking
