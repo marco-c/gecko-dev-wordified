@@ -145,6 +145,7 @@ inspect
 .
 stack
 (
+0
 )
 [
 3
