@@ -11429,16 +11429,6 @@ HasARMv7
 }
 static
 bool
-SupportsFastUnalignedAccesses
-(
-)
-{
-return
-false
-;
-}
-static
-bool
 SupportsSimd
 (
 )
