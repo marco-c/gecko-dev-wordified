@@ -9891,6 +9891,11 @@ if
 (
 !
 mProxy
+|
+|
+mStateData
+.
+mFlagSend
 )
 {
 aRv
