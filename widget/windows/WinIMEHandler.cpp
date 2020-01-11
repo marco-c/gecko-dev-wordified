@@ -4219,9 +4219,6 @@ InputScope
 >
 scopes
 ;
-#
-ifndef
-__MINGW32__
 if
 (
 aInPrivateBrowsing
@@ -4235,8 +4232,6 @@ IS_PRIVATE
 )
 ;
 }
-#
-endif
 /
 /
 http
