@@ -12782,6 +12782,9 @@ self
 .
 images
 surface_index
+surface
+.
+surface_spatial_node_index
 )
 {
 prim_instance
