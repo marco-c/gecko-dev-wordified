@@ -192,6 +192,15 @@ include
 "
 mozilla
 /
+UniquePtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Variant
 .
 h
@@ -9179,7 +9188,7 @@ Private
 >
 mProxyPromise
 ;
-nsAutoPtr
+UniquePtr
 <
 MethodCall
 <
