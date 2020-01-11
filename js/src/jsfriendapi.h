@@ -5309,10 +5309,10 @@ JSString
 *
 str
 const
-JSStringFinalizer
+JSExternalStringCallbacks
 *
 *
-fin
+callbacks
 const
 char16_t
 *
@@ -5378,12 +5378,12 @@ str
 )
 ;
 *
-fin
+callbacks
 =
 s
 -
 >
-externalFinalizer
+externalCallbacks
 ;
 *
 chars
