@@ -354,7 +354,7 @@ SensorPtr
 ;
 this
 .
-clientRequest
+clientReceiver
 =
 new
 bindings
@@ -563,7 +563,7 @@ err
 validate
 SensorInitParams
 .
-clientRequest
+clientReceiver
 err
 =
 messageValidator
@@ -787,7 +787,7 @@ SensorPtr
 ;
 val
 .
-clientRequest
+clientReceiver
 =
 decoder
 .
@@ -965,7 +965,7 @@ codec
 InterfaceRequest
 val
 .
-clientRequest
+clientReceiver
 )
 ;
 encoder

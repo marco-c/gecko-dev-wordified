@@ -1407,7 +1407,7 @@ SensorInitParams
 sensor
 :
 sensorPtr
-clientRequest
+clientReceiver
 :
 mojo
 .
