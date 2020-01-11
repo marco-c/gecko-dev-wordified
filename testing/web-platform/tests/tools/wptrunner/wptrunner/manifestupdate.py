@@ -3635,7 +3635,7 @@ update_properties
 =
 set
 (
-dependent_props
+item
 )
             
 for
