@@ -1258,9 +1258,9 @@ const
 ValueOperand
 output
 const
-TemporaryTypeSet
+MDefinition
 *
-typeset
+mir
 )
 ;
 void
@@ -1268,12 +1268,10 @@ emitAssertGCThingResult
 (
 Register
 input
-MIRType
-type
 const
-TemporaryTypeSet
+MDefinition
 *
-typeset
+mir
 )
 ;
 #
