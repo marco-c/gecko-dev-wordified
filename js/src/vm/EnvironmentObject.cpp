@@ -10774,11 +10774,6 @@ if
 script
 )
 {
-*
-accessResult
-=
-ACCESS_LOST
-;
 return
 true
 ;
