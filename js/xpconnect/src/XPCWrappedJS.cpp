@@ -3293,10 +3293,6 @@ if
 (
 !
 mGCIsRunning
-&
-&
-!
-mDoingFinalization
 )
 {
 JSContext
