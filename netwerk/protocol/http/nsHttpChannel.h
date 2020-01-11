@@ -3933,13 +3933,10 @@ know
 policy
 initiator
 .
-Maybe
-<
 nsILoadInfo
 :
 :
 CrossOriginOpenerPolicy
->
 mComputedCrossOriginOpenerPolicy
 ;
 bool
