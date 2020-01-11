@@ -7119,6 +7119,13 @@ config
 mSuspend
 )
 ;
+WindowAudioCaptureChanged
+(
+config
+.
+mCapturedAudio
+)
+;
 }
 void
 StopAudioChanelAgent
