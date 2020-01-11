@@ -276,10 +276,6 @@ WeakRef
 "
     
 "
-FinalizationGroup
-"
-    
-"
 optional
 -
 chaining
@@ -310,6 +306,22 @@ hasOwnProperty
 (
 '
 Atomics
+'
+)
+"
+    
+"
+FinalizationGroup
+"
+:
+"
+!
+this
+.
+hasOwnProperty
+(
+'
+FinalizationGroup
 '
 )
 "
