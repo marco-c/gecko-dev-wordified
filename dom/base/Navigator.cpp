@@ -9759,7 +9759,7 @@ recreated
 via
 /
 /
-NotifyVREventListenerAdded
+NotifyHasXRSession
 .
 nsGlobalWindowInner
 *
@@ -10057,7 +10057,7 @@ call
 nsGlobalWindow
 :
 :
-NotifyVREventListenerAdded
+NotifyHasXRSession
 here
 *
 as
@@ -10334,7 +10334,7 @@ mWindow
 win
 -
 >
-NotifyVREventListenerAdded
+NotifyHasXRSession
 (
 )
 ;

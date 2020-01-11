@@ -257,6 +257,12 @@ NotifyEnumerationCompleted
 override
 ;
 void
+NotifyDetectRuntimesCompleted
+(
+)
+override
+;
+void
 DisconnectFromOwner
 (
 )

@@ -375,6 +375,17 @@ ipc
 :
 :
 IPCResult
+RecvDetectRuntimes
+(
+)
+;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvRefreshDisplays
 (
 )
