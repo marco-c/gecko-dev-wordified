@@ -1779,7 +1779,7 @@ id
 param
 :
 {
-type
+host
 }
 }
 =
@@ -1801,7 +1801,7 @@ name
 ;
 is
 (
-type
+host
 "
 ContentBlockingMilestone
 "
