@@ -788,6 +788,13 @@ txt
 cmd_args
 =
 [
+which
+(
+'
+python
+'
+)
+                
 binary
                 
 '
