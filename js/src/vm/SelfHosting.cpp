@@ -17089,6 +17089,15 @@ intl_defaultCalendar
 JS_FN
 (
 "
+intl_supportedLocaleOrFallback
+"
+intl_supportedLocaleOrFallback
+1
+0
+)
+JS_FN
+(
+"
 intl_defaultTimeZone
 "
 intl_defaultTimeZone
