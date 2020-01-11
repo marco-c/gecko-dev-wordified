@@ -51328,8 +51328,11 @@ permanentPrivateBrowsing
 {
 docElement
 .
+setAttribute
+(
+"
 title
-=
+"
 docElement
 .
 getAttribute
@@ -51337,6 +51340,7 @@ getAttribute
 "
 title_privatebrowsing
 "
+)
 )
 ;
 docElement

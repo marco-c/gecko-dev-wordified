@@ -145,7 +145,14 @@ app_name
 =
 document
 .
+documentElement
+.
+getAttribute
+(
+"
 title
+"
+)
 ;
 const
 isOSX
