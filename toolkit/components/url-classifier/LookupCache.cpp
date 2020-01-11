@@ -4091,6 +4091,19 @@ domain
 blacklist
 entries
 )
+if
+(
+!
+paths
+.
+Contains
+(
+EmptyCString
+(
+)
+)
+)
+{
 paths
 .
 AppendElement
@@ -4100,6 +4113,7 @@ EmptyCString
 )
 )
 ;
+}
 for
 (
 uint32_t
