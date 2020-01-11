@@ -5,17 +5,21 @@ std
 io
 ;
 use
+crate
+:
+:
 fmt
 :
 :
 {
-WriteStyle
 Target
+WriteStyle
 }
 ;
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -30,6 +34,7 @@ glob
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -47,6 +52,7 @@ Target
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -66,6 +72,7 @@ BufferWriter
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -100,6 +107,7 @@ Stderr
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -134,6 +142,7 @@ Stdout
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -164,6 +173,7 @@ new
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -287,6 +297,7 @@ Buffer
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -311,6 +322,7 @@ clear
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -359,6 +371,7 @@ len
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -397,6 +410,7 @@ test
 pub
 (
 in
+crate
 :
 :
 fmt

@@ -33,14 +33,6 @@ installed
 .
 *
 /
-extern
-crate
-log
-;
-extern
-crate
-env_logger
-;
 fn
 record
 (
