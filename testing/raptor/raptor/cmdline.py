@@ -2371,10 +2371,14 @@ if
 geckoProfile
 specified
 but
-not
 running
 on
-Firefox
+Chrom
+[
+e
+|
+ium
+]
 not
 supported
     
@@ -2382,17 +2386,12 @@ if
 args
 .
 gecko_profile
-is
-True
 and
 args
 .
 app
-!
-=
-"
-firefox
-"
+in
+CHROMIUM_DISTROS
 :
         
 parser
@@ -2403,13 +2402,12 @@ error
 Gecko
 profiling
 is
-only
+not
 supported
-when
-running
-Raptor
 on
-Firefox
+Chrome
+/
+Chromium
 !
 "
 )

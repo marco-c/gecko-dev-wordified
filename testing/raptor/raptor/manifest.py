@@ -1977,6 +1977,7 @@ get
 '
 gecko_profile_entries
 '
+1000000
 )
 )
             
@@ -1993,6 +1994,7 @@ get
 '
 gecko_profile_interval
 '
+1
 )
 )
             
