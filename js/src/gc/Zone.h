@@ -1467,6 +1467,9 @@ size_t
 baselineStubsOptimized
 size_t
 *
+cachedCFG
+size_t
+*
 uniqueIdMap
 size_t
 *
