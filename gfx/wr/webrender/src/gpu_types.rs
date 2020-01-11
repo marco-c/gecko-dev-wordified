@@ -563,7 +563,7 @@ the
 corresponding
 defines
 in
-brush
+brush_multi
 .
 glsl
 .
