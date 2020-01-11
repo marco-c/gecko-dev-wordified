@@ -1490,6 +1490,9 @@ FuncPtrT
 aHookDest
 )
 {
+FuncPtrT
+origFunc
+;
 if
 (
 !
@@ -1513,7 +1516,7 @@ void
 >
 (
 &
-mOrigFunc
+origFunc
 )
 )
 )
@@ -1525,6 +1528,7 @@ false
 return
 CopyStubToChildProcess
 (
+origFunc
 aProcess
 )
 ;
@@ -1545,6 +1549,9 @@ FuncPtrT
 aHookDest
 )
 {
+FuncPtrT
+origFunc
+;
 if
 (
 !
@@ -1568,7 +1575,7 @@ void
 >
 (
 &
-mOrigFunc
+origFunc
 )
 )
 )
@@ -1580,6 +1587,7 @@ false
 return
 CopyStubToChildProcess
 (
+origFunc
 aProcess
 )
 ;
@@ -1721,6 +1729,8 @@ private
 bool
 CopyStubToChildProcess
 (
+FuncPtrT
+aStub
 HANDLE
 aProcess
 )
@@ -1729,8 +1739,6 @@ SIZE_T
 bytesWritten
 ;
 return
-!
-!
 :
 :
 WriteProcessMemory
@@ -1739,13 +1747,22 @@ aProcess
 &
 mOrigFunc
 &
-mOrigFunc
+aStub
 sizeof
 (
-mOrigFunc
+FuncPtrT
 )
 &
 bytesWritten
+)
+&
+&
+bytesWritten
+=
+=
+sizeof
+(
+FuncPtrT
 )
 ;
 }
