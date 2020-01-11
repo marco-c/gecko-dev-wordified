@@ -155,7 +155,7 @@ h
 #
 include
 "
-nsIRunnable
+nsIAsyncShutdown
 .
 h
 "
@@ -192,7 +192,7 @@ aLastModifiedTime
 0
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 nsCString
 mFullPath
 ;
@@ -318,6 +318,8 @@ final
 :
 public
 nsIRunnable
+public
+nsIAsyncShutdownBlocker
 {
 ~
 PluginFinder
@@ -335,8 +337,9 @@ bool
 aFlashOnly
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIRUNNABLE
+NS_DECL_NSIASYNCSHUTDOWNBLOCKER
 typedef
 std
 :
@@ -792,6 +795,12 @@ mPluginsChanged
 ;
 bool
 mFinishedFinding
+;
+bool
+mCalledOnMainthread
+;
+bool
+mShutdown
 ;
 }
 ;
