@@ -1433,6 +1433,7 @@ mHandlingState
 mValueTransferInProgress
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 TextEditor
 *
 GetTextEditor
