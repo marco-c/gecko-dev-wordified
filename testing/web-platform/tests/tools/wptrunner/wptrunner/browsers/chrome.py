@@ -274,12 +274,6 @@ capabilities
 {
         
 "
-acceptInsecureCerts
-"
-:
-True
-        
-"
 goog
 :
 chromeOptions
@@ -416,6 +410,32 @@ always
 passed
 .
     
+#
+ChromeDriver
+'
+s
+"
+acceptInsecureCerts
+"
+capability
+only
+controls
+the
+current
+    
+#
+browsing
+context
+whereas
+the
+CLI
+flag
+works
+for
+workers
+too
+.
+    
 chrome_options
 [
 "
@@ -424,6 +444,15 @@ args
 ]
 =
 [
+"
+-
+-
+ignore
+-
+certificate
+-
+errors
+"
 ]
     
 #
