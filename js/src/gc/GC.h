@@ -493,14 +493,11 @@ rt
 void
 *
 data
-void
-*
-thing
 JS
 :
 :
-TraceKind
-traceKind
+GCCellPtr
+cellptr
 size_t
 thingSize
 )
