@@ -1966,7 +1966,7 @@ this
 .
 _fxa
 .
-getSignedInUserProfile
+getSignedInUser
 (
 )
 ;

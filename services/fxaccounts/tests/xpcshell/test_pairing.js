@@ -402,7 +402,7 @@ mystate
 }
 ;
 }
-getSignedInUserProfile
+getSignedInUser
 (
 )
 {
