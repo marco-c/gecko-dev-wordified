@@ -14631,7 +14631,7 @@ frames
 does
 .
 return
-CallOnChildren
+CallOnInProcessChildren
 (
 &
 nsGlobalWindowInner
@@ -31487,7 +31487,7 @@ for
 each
 child
 .
-CallOnChildren
+CallOnInProcessChildren
 (
 &
 nsGlobalWindowInner
@@ -31820,7 +31820,7 @@ the
 correct
 mSuspendDepth
 .
-CallOnChildren
+CallOnInProcessChildren
 (
 &
 nsGlobalWindowInner
@@ -32153,7 +32153,7 @@ IsSuspended
 )
 )
 ;
-CallOnChildren
+CallOnInProcessChildren
 (
 &
 nsGlobalWindowInner
@@ -32312,7 +32312,7 @@ IsSuspended
 )
 )
 ;
-CallOnChildren
+CallOnInProcessChildren
 (
 &
 nsGlobalWindowInner
@@ -32815,7 +32815,7 @@ CallState
 nsGlobalWindowInner
 :
 :
-CallOnChildren
+CallOnInProcessChildren
 (
 Method
 aMethod
@@ -44077,7 +44077,7 @@ ClearActiveStoragePrincipal
 )
 ;
 }
-CallOnChildren
+CallOnInProcessChildren
 (
 &
 nsGlobalWindowInner
