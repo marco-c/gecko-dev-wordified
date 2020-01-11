@@ -3357,7 +3357,10 @@ the
 browser
 element
 like
-sidebarheader
+#
+sidebar
+-
+header
 .
 let
 offsetX
