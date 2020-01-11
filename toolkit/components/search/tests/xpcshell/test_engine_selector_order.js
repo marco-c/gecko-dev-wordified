@@ -894,9 +894,6 @@ en
 -
 US
 "
-"
-default
-"
 )
 ;
 let
