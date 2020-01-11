@@ -333,6 +333,15 @@ render
 (
 )
 {
+const
+{
+func
+}
+=
+this
+.
+props
+;
 return
 (
 <
@@ -350,10 +359,6 @@ this
 .
 renderFunctionName
 (
-this
-.
-props
-.
 func
 )
 }
@@ -375,10 +380,6 @@ this
 .
 renderParams
 (
-this
-.
-props
-.
 func
 )
 }

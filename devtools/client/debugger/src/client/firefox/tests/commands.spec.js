@@ -215,17 +215,6 @@ type
 :
 "
 "
-release
-:
-(
-)
-=
->
-Promise
-.
-resolve
-(
-)
 }
 ;
 }
