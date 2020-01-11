@@ -319,7 +319,7 @@ then
 >
 webConsoleUI
 .
-emitForTests
+emit
 (
 "
 fronts

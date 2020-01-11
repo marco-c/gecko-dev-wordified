@@ -503,7 +503,7 @@ PropTypes
 shape
 (
 {
-emitForTests
+emitEvent
 :
 PropTypes
 .
@@ -803,7 +803,7 @@ props
 ;
 serviceContainer
 .
-emitForTests
+emitEvent
 (
 "
 new
