@@ -1347,7 +1347,7 @@ case
 ColorID
 :
 :
-Field
+MozField
 :
 aColor
 =
@@ -1361,7 +1361,7 @@ case
 ColorID
 :
 :
-Fieldtext
+MozFieldtext
 :
 aColor
 =

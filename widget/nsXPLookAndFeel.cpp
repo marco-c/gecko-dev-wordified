@@ -4103,7 +4103,7 @@ case
 ColorID
 :
 :
-Field
+MozField
 :
 result
 =
@@ -4120,7 +4120,7 @@ case
 ColorID
 :
 :
-Fieldtext
+MozFieldtext
 :
 result
 =
@@ -5306,13 +5306,13 @@ case
 ColorID
 :
 :
-Field
+MozField
 :
 case
 ColorID
 :
 :
-Fieldtext
+MozFieldtext
 :
 aResult
 =
