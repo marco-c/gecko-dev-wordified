@@ -86,7 +86,7 @@ h
 #
 include
 "
-nsIPermissionManager
+nsPermissionManager
 .
 h
 "
@@ -254,9 +254,9 @@ bool
 aFromPrefs
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIPermissionManager
+nsPermissionManager
 >
 mPermissionManager
 ;
