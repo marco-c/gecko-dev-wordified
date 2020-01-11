@@ -1907,14 +1907,12 @@ errorCodeString
 const
 isTlsVersionError
 =
-(
 errorCode
 =
 =
 "
 SSL_ERROR_UNSUPPORTED_VERSION
 "
-)
 ;
 const
 tls10OverrideEnabled
