@@ -703,6 +703,11 @@ modal_variant_c
 ]
 [
 "
+modal_variant_f
+"
+]
+[
+"
 full_page_d
 "
 ]
