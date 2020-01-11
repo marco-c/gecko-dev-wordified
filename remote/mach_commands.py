@@ -1486,7 +1486,15 @@ jobs
 ]
 )
         
-if
+env
+[
+"
+HEADLESS
+"
+]
+=
+str
+(
 params
 .
 get
@@ -1494,19 +1502,9 @@ get
 "
 headless
 "
+False
 )
-:
-            
-env
-[
-"
-MOZ_HEADLESS
-"
-]
-=
-"
-1
-"
+)
         
 prefs
 =
@@ -1889,7 +1887,7 @@ binary
 None
 headless
 =
-True
+False
 extra_prefs
 =
 None
