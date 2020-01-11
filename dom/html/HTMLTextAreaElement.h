@@ -1771,9 +1771,15 @@ GetEditor
 (
 )
 {
+MOZ_ASSERT
+(
+mState
+)
+;
 return
 mState
-.
+-
+>
 GetTextEditor
 (
 )
@@ -1809,8 +1815,7 @@ virtual
 HTMLTextAreaElement
 (
 )
-{
-}
+;
 /
 /
 get
@@ -2063,6 +2068,7 @@ editor
 *
 /
 TextControlState
+*
 mState
 ;
 NS_IMETHOD
