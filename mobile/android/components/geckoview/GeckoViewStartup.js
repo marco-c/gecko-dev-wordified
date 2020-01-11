@@ -571,6 +571,13 @@ GeckoView
 :
 WebExtension
 :
+Get
+"
+"
+GeckoView
+:
+WebExtension
+:
 Disable
 "
 "
