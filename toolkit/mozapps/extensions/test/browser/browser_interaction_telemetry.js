@@ -3779,7 +3779,7 @@ category
 "
 addonsManager
 "
-methods
+method
 :
 /
 ^
