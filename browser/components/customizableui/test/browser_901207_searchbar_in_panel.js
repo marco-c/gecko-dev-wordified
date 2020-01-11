@@ -106,8 +106,6 @@ activeElement
 searchbar
 .
 textbox
-.
-inputField
 ;
 }
 )

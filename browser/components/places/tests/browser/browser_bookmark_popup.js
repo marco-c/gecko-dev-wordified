@@ -2697,7 +2697,7 @@ document
 getElementById
 (
 "
-PopupAutoComplete
+editBMPanel_tagsAutocomplete
 "
 )
 ;
@@ -2950,7 +2950,7 @@ document
 getElementById
 (
 "
-PopupAutoComplete
+editBMPanel_tagsAutocomplete
 "
 )
 ;

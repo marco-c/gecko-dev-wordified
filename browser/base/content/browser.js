@@ -28901,8 +28901,6 @@ activeElement
 aSearchBar
 .
 textbox
-.
-inputField
 )
 {
 /
