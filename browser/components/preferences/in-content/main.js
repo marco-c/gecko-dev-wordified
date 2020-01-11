@@ -16506,6 +16506,11 @@ handlerInfo
 description
 .
 id
+handlerInfo
+.
+description
+.
+args
 )
 ;
 }

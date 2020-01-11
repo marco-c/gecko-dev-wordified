@@ -403,6 +403,10 @@ setAttribute
 value
 "
 filename
+|
+|
+"
+"
 )
 ;
 document
