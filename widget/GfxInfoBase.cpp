@@ -9433,9 +9433,6 @@ gfxConfig
 :
 GetValue
 (
-gfx
-:
-:
 Feature
 :
 :
@@ -9465,9 +9462,6 @@ gfxConfig
 :
 GetValue
 (
-gfx
-:
-:
 Feature
 :
 :
@@ -9497,9 +9491,6 @@ gfxConfig
 :
 GetValue
 (
-gfx
-:
-:
 Feature
 :
 :
@@ -9542,9 +9533,6 @@ gfxConfig
 :
 GetValue
 (
-gfx
-:
-:
 Feature
 :
 :
@@ -10078,9 +10066,6 @@ gfxConfig
 :
 IsEnabled
 (
-gfx
-:
-:
 Feature
 :
 :
@@ -10109,9 +10094,6 @@ gfxConfig
 :
 IsEnabled
 (
-gfx
-:
-:
 Feature
 :
 :
@@ -10406,9 +10388,6 @@ gfxConfig
 :
 IsEnabled
 (
-gfx
-:
-:
 Feature
 :
 :
@@ -10421,9 +10400,6 @@ gfxConfig
 :
 UserForceEnable
 (
-gfx
-:
-:
 Feature
 :
 :
@@ -10458,9 +10434,6 @@ gfxConfig
 :
 UserDisable
 (
-gfx
-:
-:
 Feature
 :
 :
