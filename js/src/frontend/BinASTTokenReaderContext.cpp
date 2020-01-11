@@ -3797,8 +3797,6 @@ MOZ_TRY
 (
 table
 .
-impl
-.
 initWithSingleValue
 (
 cx_
@@ -4126,8 +4124,6 @@ MOZ_TRY
 (
 table
 .
-impl
-.
 init
 (
 cx_
@@ -4254,8 +4250,6 @@ disk
 MOZ_TRY
 (
 table
-.
-impl
 .
 addSymbol
 (
@@ -4706,8 +4700,6 @@ MOZ_TRY
 (
 table
 .
-impl
-.
 init
 (
 cx_
@@ -4835,8 +4827,6 @@ memory
 MOZ_TRY
 (
 table
-.
-impl
 .
 addSymbol
 (
@@ -5692,8 +5682,6 @@ auto
 iter
 :
 lengthTable
-.
-impl
 )
 {
 length
@@ -5951,8 +5939,6 @@ cx_
 MOZ_TRY
 (
 sum
-.
-impl
 .
 initWithSingleValue
 (
@@ -6691,8 +6677,6 @@ auto
 kind
 :
 tableRef
-.
-impl
 )
 {
 MOZ_TRY
@@ -6890,8 +6874,6 @@ auto
 kind
 :
 tableRef
-.
-impl
 )
 {
 MOZ_TRY
@@ -9364,8 +9346,6 @@ lookup
 =
 specialized
 .
-impl
-.
 lookup
 (
 bits
@@ -9444,8 +9424,6 @@ auto
 lookup
 =
 specialized
-.
-impl
 .
 lookup
 (
@@ -9721,8 +9699,6 @@ Table
 >
 (
 )
-.
-impl
 .
 lookup
 (
@@ -10373,8 +10349,6 @@ auto
 lookup
 =
 tableForLookup
-.
-impl
 .
 lookup
 (
@@ -12127,8 +12101,6 @@ MOZ_TRY
 (
 table
 .
-impl
-.
 initWithSingleValue
 (
 cx_
@@ -12344,8 +12316,6 @@ identity
 MOZ_TRY
 (
 table
-.
-impl
 .
 initWithSingleValue
 (
@@ -12574,8 +12544,6 @@ identity
 MOZ_TRY
 (
 table
-.
-impl
 .
 initWithSingleValue
 (
@@ -12809,8 +12777,6 @@ identity
 MOZ_TRY
 (
 table
-.
-impl
 .
 initWithSingleValue
 (
@@ -13154,8 +13120,6 @@ MOZ_TRY
 (
 table
 .
-impl
-.
 initWithSingleValue
 (
 cx_
@@ -13403,8 +13367,6 @@ identity
 MOZ_TRY
 (
 table
-.
-impl
 .
 initWithSingleValue
 (
@@ -13728,8 +13690,6 @@ index
 MOZ_TRY
 (
 table
-.
-impl
 .
 initWithSingleValue
 (
@@ -14114,8 +14074,6 @@ MOZ_TRY
 (
 table
 .
-impl
-.
 initWithSingleValue
 (
 cx_
@@ -14363,8 +14321,6 @@ MOZ_TRY
 (
 table
 .
-impl
-.
 initWithSingleValue
 (
 cx_
@@ -14600,8 +14556,6 @@ API
 MOZ_TRY
 (
 table
-.
-impl
 .
 initWithSingleValue
 (
