@@ -1670,8 +1670,6 @@ if
 (
 parseInfo
 .
-treeHolder
-.
 isDeferred
 (
 )
