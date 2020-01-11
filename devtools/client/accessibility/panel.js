@@ -1498,6 +1498,15 @@ true
 ;
 this
 .
+postContentMessage
+(
+"
+destroy
+"
+)
+;
+this
+.
 target
 .
 off
