@@ -1785,8 +1785,8 @@ DocumentChannelChild
 :
 RecvRedirectToRealChannel
 (
-const
 RedirectToRealChannelArgs
+&
 &
 aArgs
 RedirectToRealChannelResolver
@@ -2807,8 +2807,8 @@ DocumentChannelChild
 :
 RecvConfirmRedirect
 (
-const
 LoadInfoArgs
+&
 &
 aLoadInfo
 nsIURI
@@ -2969,7 +2969,13 @@ LoadInfoArgsToLoadInfo
 (
 Some
 (
+std
+:
+:
+move
+(
 aLoadInfo
+)
 )
 loadingDocument
 cspToInheritLoadingDocument

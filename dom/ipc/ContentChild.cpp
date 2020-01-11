@@ -23509,7 +23509,6 @@ ContentChild
 :
 RecvCrossProcessRedirect
 (
-const
 RedirectToRealChannelArgs
 &
 &
@@ -23875,11 +23874,17 @@ HttpBaseChannel
 ReplacementChannelConfig
 config
 (
+std
+:
+:
+move
+(
 *
 aArgs
 .
 init
 (
+)
 )
 )
 ;

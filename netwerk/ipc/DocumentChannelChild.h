@@ -287,8 +287,8 @@ ipc
 IPCResult
 RecvRedirectToRealChannel
 (
-const
 RedirectToRealChannelArgs
+&
 &
 aArgs
 RedirectToRealChannelResolver
@@ -327,8 +327,8 @@ ipc
 IPCResult
 RecvConfirmRedirect
 (
-const
 LoadInfoArgs
+&
 &
 aLoadInfo
 nsIURI
