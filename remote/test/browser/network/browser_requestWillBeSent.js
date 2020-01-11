@@ -61,7 +61,9 @@ test
 /
 browser
 /
-doc_network_requestWillBeSent
+network
+/
+doc_requestWillBeSent
 .
 html
 "
@@ -86,7 +88,9 @@ test
 /
 browser
 /
-file_network_requestWillBeSent
+network
+/
+file_requestWillBeSent
 .
 js
 "
