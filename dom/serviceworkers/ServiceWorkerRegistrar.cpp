@@ -157,13 +157,6 @@ h
 #
 include
 "
-mozIThirdPartyUtil
-.
-h
-"
-#
-include
-"
 nsIEventTarget
 .
 h

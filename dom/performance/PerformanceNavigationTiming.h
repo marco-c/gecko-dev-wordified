@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsIChannel
-.
-h
-"
-#
-include
-"
 nsITimedChannel
 .
 h

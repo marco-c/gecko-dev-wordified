@@ -180,13 +180,6 @@ h
 #
 include
 "
-nsIObserverService
-.
-h
-"
-#
-include
-"
 PowerManagerService
 .
 h

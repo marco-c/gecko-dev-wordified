@@ -133,13 +133,6 @@ h
 #
 include
 "
-nsIConsoleService
-.
-h
-"
-#
-include
-"
 nsIScriptError
 .
 h

@@ -181,13 +181,6 @@ Unused
 .
 h
 "
-#
-include
-"
-nsIScriptSecurityManager
-.
-h
-"
 namespace
 mozilla
 {

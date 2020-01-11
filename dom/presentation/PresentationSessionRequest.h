@@ -123,14 +123,14 @@ mozilla_dom_PresentationSessionRequest_h__
 #
 include
 "
-nsIPresentationSessionRequest
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsIPresentationSessionRequest
 .
 h
 "

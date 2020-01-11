@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsISimpleEnumerator
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

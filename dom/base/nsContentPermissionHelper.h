@@ -168,13 +168,6 @@ h
 #
 include
 "
-nsIDOMEventListener
-.
-h
-"
-#
-include
-"
 PermissionDelegateHandler
 .
 h

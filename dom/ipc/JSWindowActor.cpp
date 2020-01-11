@@ -183,13 +183,6 @@ xpcprivate
 .
 h
 "
-#
-include
-"
-nsIXPConnect
-.
-h
-"
 namespace
 mozilla
 {

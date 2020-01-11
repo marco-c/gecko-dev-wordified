@@ -486,6 +486,13 @@ h
 #
 include
 "
+nsIXPConnect
+.
+h
+"
+#
+include
+"
 nsQueryObject
 .
 h

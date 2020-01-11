@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsIUDPSocketChild
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -175,6 +168,9 @@ UDPSOCKETCHILD_CID
 }
 \
 }
+class
+nsIUDPSocketInternal
+;
 namespace
 mozilla
 {

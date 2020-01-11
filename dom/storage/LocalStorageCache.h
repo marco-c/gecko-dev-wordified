@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsITimer
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

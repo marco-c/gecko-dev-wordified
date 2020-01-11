@@ -146,13 +146,6 @@ h
 #
 include
 "
-nsIThread
-.
-h
-"
-#
-include
-"
 AudioConverter
 .
 h

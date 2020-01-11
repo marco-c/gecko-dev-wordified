@@ -153,13 +153,6 @@ h
 #
 include
 "
-nsIDocShell
-.
-h
-"
-#
-include
-"
 nsIScrollable
 .
 h

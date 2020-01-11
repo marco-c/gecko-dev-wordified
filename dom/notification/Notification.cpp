@@ -493,13 +493,6 @@ h
 #
 include
 "
-nsIScriptSecurityManager
-.
-h
-"
-#
-include
-"
 nsIServiceWorkerManager
 .
 h
@@ -515,13 +508,6 @@ h
 include
 "
 nsIUUIDGenerator
-.
-h
-"
-#
-include
-"
-nsIXPConnect
 .
 h
 "

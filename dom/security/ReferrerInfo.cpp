@@ -124,7 +124,7 @@ h
 #
 include
 "
-nsICookieService
+nsIEffectiveTLDService
 .
 h
 "

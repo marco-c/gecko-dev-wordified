@@ -156,13 +156,6 @@ h
 /
 for
 nsLinkState
-#
-include
-"
-nsIContentPolicy
-.
-h
-"
 namespace
 mozilla
 {

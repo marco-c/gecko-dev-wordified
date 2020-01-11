@@ -180,13 +180,6 @@ nsIPresentationService
 .
 h
 "
-#
-include
-"
-nsIPresentationSessionTransportBuilder
-.
-h
-"
 namespace
 mozilla
 {

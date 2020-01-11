@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsIScriptError
-.
-h
-"
-#
-include
-"
 AudioNodeTrack
 .
 h

@@ -179,13 +179,6 @@ h
 #
 include
 "
-nsIRequest
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h

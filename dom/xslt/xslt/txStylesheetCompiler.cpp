@@ -214,13 +214,6 @@ h
 #
 include
 "
-nsICategoryManager
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h

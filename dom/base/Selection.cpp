@@ -516,13 +516,6 @@ h
 #
 include
 "
-nsIClipboard
-.
-h
-"
-#
-include
-"
 nsIFrameInlines
 .
 h
@@ -531,13 +524,6 @@ h
 include
 "
 nsRefreshDriver
-.
-h
-"
-#
-include
-"
-nsIBidiKeyboard
 .
 h
 "

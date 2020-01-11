@@ -195,13 +195,6 @@ h
 #
 include
 "
-nsIScriptError
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h

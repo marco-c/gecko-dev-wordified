@@ -145,13 +145,6 @@ kMaximumMessageSize
 #
 include
 "
-nsIConsoleService
-.
-h
-"
-#
-include
-"
 nsIScriptError
 .
 h

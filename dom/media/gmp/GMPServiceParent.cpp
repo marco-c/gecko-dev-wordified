@@ -309,13 +309,6 @@ h
 #
 include
 "
-nsIConsoleService
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h
@@ -324,13 +317,6 @@ h
 include
 "
 nsIObserverService
-.
-h
-"
-#
-include
-"
-nsISimpleEnumerator
 .
 h
 "

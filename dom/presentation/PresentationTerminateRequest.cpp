@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsIPresentationControlChannel
-.
-h
-"
-#
-include
-"
 nsIPresentationDevice
 .
 h

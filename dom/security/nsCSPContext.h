@@ -168,13 +168,6 @@ h
 #
 include
 "
-nsIClassInfo
-.
-h
-"
-#
-include
-"
 nsIContentSecurityPolicy
 .
 h
@@ -183,13 +176,6 @@ h
 include
 "
 nsIInterfaceRequestor
-.
-h
-"
-#
-include
-"
-nsISerializable
 .
 h
 "

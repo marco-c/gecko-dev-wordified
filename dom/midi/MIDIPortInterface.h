@@ -121,13 +121,6 @@ mozilla_dom_MIDIPortInterface_h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

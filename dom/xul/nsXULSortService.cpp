@@ -132,13 +132,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

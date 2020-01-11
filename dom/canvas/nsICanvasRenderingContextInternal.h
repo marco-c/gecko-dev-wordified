@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsIDocShell
-.
-h
-"
-#
-include
-"
 nsRefreshDriver
 .
 h
@@ -221,6 +214,9 @@ NS_ICANVASRENDERINGCONTEXTINTERNAL_IID
 }
 class
 nsDisplayListBuilder
+;
+class
+nsIDocShell
 ;
 namespace
 mozilla

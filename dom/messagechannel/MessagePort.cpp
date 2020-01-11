@@ -383,13 +383,6 @@ h
 #
 include
 "
-nsISupportsPrimitives
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h

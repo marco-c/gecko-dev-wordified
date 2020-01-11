@@ -534,13 +534,6 @@ h
 #
 include
 "
-nsISimpleEnumerator
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

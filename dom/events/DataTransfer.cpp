@@ -222,6 +222,13 @@ h
 #
 include
 "
+nsIXPConnect
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

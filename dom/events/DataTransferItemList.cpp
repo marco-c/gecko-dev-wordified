@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsIClipboard
-.
-h
-"
-#
-include
-"
 nsIScriptObjectPrincipal
 .
 h
@@ -160,13 +153,6 @@ h
 include
 "
 nsIScriptContext
-.
-h
-"
-#
-include
-"
-nsISupportsPrimitives
 .
 h
 "

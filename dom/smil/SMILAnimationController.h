@@ -180,13 +180,6 @@ h
 #
 include
 "
-nsITimer
-.
-h
-"
-#
-include
-"
 nsTHashtable
 .
 h

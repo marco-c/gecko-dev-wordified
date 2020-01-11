@@ -131,13 +131,6 @@ h
 #
 include
 "
-mozIStorageBindingParamsArray
-.
-h
-"
-#
-include
-"
 mozIStorageBindingParams
 .
 h

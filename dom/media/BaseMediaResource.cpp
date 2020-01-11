@@ -236,13 +236,6 @@ h
 #
 include
 "
-nsISeekableStream
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

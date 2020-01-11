@@ -224,13 +224,6 @@ h
 #
 include
 "
-nsISimpleEnumerator
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
