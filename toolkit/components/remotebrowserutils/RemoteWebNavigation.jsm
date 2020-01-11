@@ -961,13 +961,12 @@ this
 .
 _browser
 .
-sendMessageToActor
+messageManager
+.
+sendAsyncMessage
 (
 aMessage
 aData
-"
-WebNavigation
-"
 )
 ;
 }
