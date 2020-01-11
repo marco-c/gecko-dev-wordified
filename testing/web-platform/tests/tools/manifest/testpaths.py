@@ -790,7 +790,7 @@ List
 Text
 ]
 ]
-Bool
+bool
 )
 -
 >
