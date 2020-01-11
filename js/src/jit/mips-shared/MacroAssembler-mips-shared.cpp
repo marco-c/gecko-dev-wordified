@@ -4843,7 +4843,7 @@ MacroAssemblerMIPSShared
 ma_cmp
 (
 Register
-scratch
+dest
 Register
 lhs
 Register
@@ -4882,7 +4882,7 @@ zero
 offs
 as_sltu
 (
-scratch
+dest
 rhs
 lhs
 )
@@ -4915,7 +4915,7 @@ zero
 offs
 as_sltu
 (
-scratch
+dest
 lhs
 rhs
 )
@@ -4948,7 +4948,7 @@ zero
 offs
 as_sltu
 (
-scratch
+dest
 lhs
 rhs
 )
@@ -4981,7 +4981,7 @@ zero
 offs
 as_sltu
 (
-scratch
+dest
 rhs
 lhs
 )
@@ -5014,7 +5014,7 @@ zero
 offs
 as_slt
 (
-scratch
+dest
 rhs
 lhs
 )
@@ -5047,7 +5047,7 @@ zero
 offs
 as_slt
 (
-scratch
+dest
 lhs
 rhs
 )
@@ -5080,7 +5080,7 @@ zero
 offs
 as_slt
 (
-scratch
+dest
 lhs
 rhs
 )
@@ -5113,7 +5113,7 @@ zero
 offs
 as_slt
 (
-scratch
+dest
 rhs
 lhs
 )
@@ -5147,7 +5147,7 @@ MacroAssemblerMIPSShared
 ma_cmp
 (
 Register
-scratch
+dest
 Register
 lhs
 Imm32
@@ -5156,6 +5156,30 @@ Condition
 c
 )
 {
+MOZ_ASSERT
+(
+dest
+!
+=
+ScratchRegister
+)
+;
+MOZ_ASSERT
+(
+lhs
+!
+=
+ScratchRegister
+)
+;
+ScratchRegisterScope
+scratch
+(
+asMasm
+(
+)
+)
+;
 switch
 (
 c
@@ -5212,7 +5236,7 @@ not
 overflow
 as_sltiu
 (
-scratch
+dest
 lhs
 imm
 .
@@ -5244,7 +5268,7 @@ imm
 ;
 as_sltu
 (
-scratch
+dest
 scratch
 lhs
 )
@@ -5283,7 +5307,7 @@ value
 {
 as_sltiu
 (
-scratch
+dest
 lhs
 imm
 .
@@ -5301,7 +5325,7 @@ imm
 ;
 as_sltu
 (
-scratch
+dest
 lhs
 scratch
 )
@@ -5355,7 +5379,7 @@ rhs
 .
 as_slti
 (
-scratch
+dest
 lhs
 imm
 .
@@ -5387,7 +5411,7 @@ imm
 ;
 as_slt
 (
-scratch
+dest
 scratch
 lhs
 )
@@ -5426,7 +5450,7 @@ value
 {
 as_slti
 (
-scratch
+dest
 lhs
 imm
 .
@@ -5444,7 +5468,7 @@ imm
 ;
 as_slt
 (
-scratch
+dest
 lhs
 scratch
 )
