@@ -5347,10 +5347,11 @@ JSProto_Int32Array
 )
 &
 &
-InitBareSymbolCtor
+InitBareBuiltinCtor
 (
 cx
 global
+JSProto_Symbol
 )
 &
 &
