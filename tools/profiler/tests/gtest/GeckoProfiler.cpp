@@ -827,6 +827,9 @@ features
 StrVec
 filters
 ;
+uint64_t
+activeBrowsingContextID
+;
 ASSERT_TRUE
 (
 !
@@ -871,6 +874,8 @@ interval
 features
 &
 filters
+&
+activeBrowsingContextID
 )
 ;
 ASSERT_TRUE
@@ -916,6 +921,14 @@ empty
 )
 )
 ;
+ASSERT_TRUE
+(
+activeBrowsingContextID
+=
+=
+0
+)
+;
 }
 static
 void
@@ -934,6 +947,8 @@ char
 aFilters
 size_t
 aFiltersLen
+uint64_t
+aActiveBrowsingContextID
 const
 Maybe
 <
@@ -965,6 +980,9 @@ features
 StrVec
 filters
 ;
+uint64_t
+activeBrowsingContextID
+;
 profiler_get_start_params
 (
 &
@@ -977,6 +995,8 @@ interval
 features
 &
 filters
+&
+activeBrowsingContextID
 )
 ;
 ASSERT_TRUE
@@ -1021,6 +1041,14 @@ length
 =
 =
 aFiltersLen
+)
+;
+ASSERT_TRUE
+(
+activeBrowsingContextID
+=
+=
+aActiveBrowsingContextID
 )
 ;
 for
@@ -1119,6 +1147,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+100
 Some
 (
 PROFILER_DEFAULT_DURATION
@@ -1170,6 +1199,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+100
 Some
 (
 PROFILER_DEFAULT_DURATION
@@ -1269,6 +1299,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+123
 Some
 (
 25
@@ -1342,6 +1373,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+123
 Some
 (
 25
@@ -1411,6 +1443,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 Nothing
 (
 )
@@ -1481,6 +1514,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 Nothing
 (
 )
@@ -1541,6 +1575,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 Some
 (
 15
@@ -1595,6 +1630,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 Some
 (
 15
@@ -1689,6 +1725,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 Some
 (
 0
@@ -1760,6 +1797,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 Nothing
 (
 )
@@ -1852,6 +1890,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 Some
 (
 PROFILER_DEFAULT_DURATION
@@ -1872,6 +1911,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 Some
 (
 PROFILER_DEFAULT_DURATION
@@ -1981,6 +2021,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 Some
 (
 PROFILER_DEFAULT_DURATION
@@ -2001,6 +2042,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 Some
 (
 PROFILER_DEFAULT_DURATION
@@ -2188,6 +2230,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 )
 ;
 ActiveParamsCheck
@@ -2204,6 +2247,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 )
 ;
 /
@@ -2390,6 +2434,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 )
 ;
 }
@@ -2442,6 +2487,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 )
 ;
 thread
@@ -2536,6 +2582,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 )
 ;
 thread
@@ -2602,6 +2649,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 )
 ;
 }
@@ -2696,6 +2744,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 )
 ;
 /
@@ -2847,6 +2896,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 )
 ;
 /
@@ -2937,6 +2987,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 )
 ;
 ASSERT_TRUE
@@ -3612,6 +3663,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 )
 ;
 profiler_tracing
@@ -9793,6 +9845,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 )
 ;
 EXPECT_TRUE
@@ -9937,6 +9990,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 Some
 (
 1
@@ -10204,6 +10258,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 )
 ;
 AUTO_PROFILER_COUNT_TOTAL
@@ -10516,6 +10571,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 )
 ;
 double
@@ -10618,6 +10674,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 )
 ;
 UniquePtr
@@ -10916,6 +10973,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 )
 ;
 w
@@ -11082,6 +11140,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 )
 ;
 /
@@ -11360,6 +11419,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 )
 ;
 ASSERT_TRUE
@@ -11475,6 +11535,7 @@ MOZ_ARRAY_LENGTH
 (
 manyThreadsFilter
 )
+0
 )
 ;
 profiler_start
@@ -11487,6 +11548,7 @@ MOZ_ARRAY_LENGTH
 (
 fewThreadsFilter
 )
+0
 )
 ;
 /
@@ -11514,6 +11576,7 @@ MOZ_ARRAY_LENGTH
 (
 fewThreadsFilter
 )
+0
 )
 ;
 profiler_stop
@@ -11808,6 +11871,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 )
 ;
 ASSERT_TRUE
@@ -12006,6 +12070,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 )
 ;
 {
@@ -12277,6 +12342,7 @@ MOZ_ARRAY_LENGTH
 (
 filters
 )
+0
 )
 ;
 {
