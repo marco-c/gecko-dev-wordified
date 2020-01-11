@@ -12974,6 +12974,13 @@ CallImport_AnyRef
 CoerceInPlace_ToInt32
 CoerceInPlace_ToNumber
 CoerceInPlace_JitEntry
+#
+ifdef
+ENABLE_WASM_BIGINT
+CoerceInPlace_ToBigInt
+AllocateBigInt
+#
+endif
 BoxValue_Anyref
 DivI64
 UDivI64
