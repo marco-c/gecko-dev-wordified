@@ -823,9 +823,11 @@ perfFront
 receiveProfile
 recordingPreferences
 supportedFeatures
-isPopup
+pageContext
 :
-false
+"
+devtools
+"
 /
 /
 Go
