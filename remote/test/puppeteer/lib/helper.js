@@ -1117,13 +1117,9 @@ handler
 ;
 listeners
 .
-splice
-(
-0
-listeners
-.
 length
-)
+=
+0
 ;
 }
 /
