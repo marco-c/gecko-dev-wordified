@@ -15625,10 +15625,9 @@ virtual
 void
 Trace
 (
-JSObject
+nsWrapperCache
 *
-*
-aObject
+aWrapperCache
 const
 char
 *
@@ -15642,8 +15641,12 @@ override
 {
 AppendJSObjectToPurpleBuffer
 (
-*
-aObject
+aWrapperCache
+-
+>
+GetWrapperPreserveColor
+(
+)
 )
 ;
 }

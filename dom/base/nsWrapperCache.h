@@ -1690,8 +1690,7 @@ aCallbacks
 .
 Trace
 (
-&
-mWrapper
+this
 "
 Preserved
 wrapper
@@ -2075,8 +2074,6 @@ void
 aScriptObjectHolder
 )
 ;
-protected
-:
 void
 TraceWrapper
 (
@@ -2107,6 +2104,8 @@ name
 ;
 }
 }
+protected
+:
 void
 PoisonWrapper
 (
