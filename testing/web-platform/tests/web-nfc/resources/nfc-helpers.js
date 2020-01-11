@@ -1093,12 +1093,12 @@ assert_equals
 (
 record
 .
-toText
+text
 (
 )
 expectedRecord
 .
-toText
+text
 (
 )
 )
@@ -1110,7 +1110,7 @@ Uint8Array
 (
 record
 .
-toArrayBuffer
+arrayBuffer
 (
 )
 )
@@ -1119,7 +1119,7 @@ Uint8Array
 (
 expectedRecord
 .
-toArrayBuffer
+arrayBuffer
 (
 )
 )
@@ -1134,7 +1134,7 @@ json
 =
 record
 .
-toJSON
+json
 (
 )
 ;
@@ -1154,7 +1154,7 @@ expectedJson
 =
 expectedRecord
 .
-toJSON
+json
 (
 )
 ;
