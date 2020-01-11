@@ -2798,6 +2798,12 @@ class
 ElementType
 size_t
 Extent
+/
+*
+=
+dynamic_extent
+*
+/
 >
 class
 Span
