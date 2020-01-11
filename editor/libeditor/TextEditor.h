@@ -179,9 +179,6 @@ namespace
 mozilla
 {
 class
-AutoEditInitRulesTrigger
-;
-class
 DeleteNodeTransaction
 ;
 class
@@ -4504,17 +4501,6 @@ OnEndHandlingTopLevelEditSubAction
 )
 override
 ;
-void
-BeginEditorInit
-(
-)
-;
-MOZ_CAN_RUN_SCRIPT
-nsresult
-EndEditorInit
-(
-)
-;
 /
 *
 *
@@ -4713,7 +4699,6 @@ ranges
 /
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
-virtual
 nsresult
 InitEditorContentAndSelection
 (
@@ -5804,9 +5789,6 @@ int32_t
 mMaxTextLength
 ;
 int32_t
-mInitTriggerCounter
-;
-int32_t
 mNewlineHandling
 ;
 int32_t
@@ -5890,10 +5872,6 @@ false
 .
 bool
 mIsMaskingPassword
-;
-friend
-class
-AutoEditInitRulesTrigger
 ;
 friend
 class

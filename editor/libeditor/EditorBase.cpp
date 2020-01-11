@@ -3554,6 +3554,10 @@ MaskAllCharacters
 )
 ;
 }
+mInitSucceeded
+=
+false
+;
 Selection
 *
 selection
