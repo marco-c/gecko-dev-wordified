@@ -2144,17 +2144,6 @@ SynchronouslyShutdown
 (
 )
 ;
-virtual
-void
-WindowOverlayChanged
-(
-)
-{
-mWindowOverlayChanged
-=
-true
-;
-}
 /
 *
 *
@@ -2888,9 +2877,6 @@ mIsFirstPaint
 ;
 FocusTarget
 mFocusTarget
-;
-bool
-mWindowOverlayChanged
 ;
 nsTArray
 <
