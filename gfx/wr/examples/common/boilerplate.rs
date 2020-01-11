@@ -1152,6 +1152,11 @@ scatter_gpu_cache_updates
 :
 false
 debug_flags
+/
+/
+allow_texture_swizzling
+:
+false
 .
 .
 options

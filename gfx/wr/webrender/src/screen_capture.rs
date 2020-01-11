@@ -1002,7 +1002,7 @@ round_up_to_multiple
 stride
 device
 .
-get_optimal_pbo_stride
+optimal_pbo_stride
 (
 )
 )
