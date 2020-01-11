@@ -1382,6 +1382,8 @@ aIsForeign
 bool
 aIsTrackingResource
 bool
+aIsSocialTrackingResource
+bool
 aIsFirstPartyStorageAccessGranted
 const
 nsACString
@@ -1434,6 +1436,8 @@ bool
 aIsForeign
 bool
 aIsTrackingResource
+bool
+aIsSocialTrackingResource
 bool
 aFirstPartyStorageAccessGranted
 uint32_t
@@ -1633,6 +1637,8 @@ aIsForeign
 bool
 aIsTrackingResource
 bool
+aIsSocialTrackingResource
+bool
 aFirstPartyStorageAccessGranted
 uint32_t
 aRejectedReason
@@ -1682,6 +1688,8 @@ bool
 aIsForeign
 bool
 aIsTrackingResource
+bool
+aIsSocialTrackingResource
 bool
 aFirstPartyStorageAccessGranted
 uint32_t

@@ -341,6 +341,13 @@ STATE_COOKIES_BLOCKED_TRACKER
 nsIWebProgressListener
 :
 :
+STATE_COOKIES_BLOCKED_SOCIALTRACKER
+/
+/
+*
+nsIWebProgressListener
+:
+:
 STATE_COOKIES_BLOCKED_ALL
 /
 /
@@ -1250,6 +1257,13 @@ nsIWebProgressListener
 :
 :
 STATE_COOKIES_BLOCKED_TRACKER
+/
+/
+*
+nsIWebProgressListener
+:
+:
+STATE_COOKIES_BLOCKED_SOCIALTRACKER
 /
 /
 *
