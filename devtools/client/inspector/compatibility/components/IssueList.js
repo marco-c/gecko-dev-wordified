@@ -206,6 +206,15 @@ dom
 ul
 (
 {
+className
+:
+"
+compatibility
+-
+issue
+-
+list
+"
 }
 issues
 .
