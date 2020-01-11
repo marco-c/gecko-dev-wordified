@@ -3132,6 +3132,13 @@ that
 "
 )
 ;
+RootedObject
+global
+(
+cx
+)
+;
+{
 SiteIdentifier
 site
 ;
@@ -3158,10 +3165,8 @@ rv
 nullptr
 )
 ;
-RootedObject
 global
-(
-cx
+=
 JS_NewGlobalObject
 (
 cx
@@ -3178,7 +3183,6 @@ JS
 :
 DontFireOnNewGlobalHook
 aOptions
-)
 )
 ;
 if
@@ -3288,9 +3292,9 @@ won
 '
 t
 call
-/
-/
 TraceProtoAndIfaceCache
+/
+/
 unless
 that
 flag
@@ -3410,6 +3414,7 @@ ProtoAndIfaceCache
 NonWindowLike
 )
 ;
+}
 }
 return
 global

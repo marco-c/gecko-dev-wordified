@@ -1728,6 +1728,7 @@ obj
 ccx
 )
 ;
+{
 nsCOMPtr
 <
 nsIXPConnectWrappedJS
@@ -1746,9 +1747,14 @@ GetIdentityObject
 ;
 if
 (
+!
 underware
 )
 {
+return
+nullptr
+;
+}
 RootedObject
 mainObj
 (

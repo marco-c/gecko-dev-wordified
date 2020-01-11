@@ -1944,10 +1944,6 @@ mIsMainThread
 =
 aIsMainThread
 ;
-mGlobalObject
-=
-aGlobalObject
-;
 if
 (
 aGlobal
@@ -1969,6 +1965,10 @@ emplace
 mCx
 aGlobal
 )
+;
+mGlobalObject
+=
+aGlobalObject
 ;
 ScriptSettingsStack
 :
