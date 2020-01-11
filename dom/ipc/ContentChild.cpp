@@ -1543,7 +1543,9 @@ h
 #
 include
 "
-nsLayoutStylesheetCache
+mozilla
+/
+GlobalStyleSheetCache
 .
 h
 "
@@ -8627,7 +8629,7 @@ address
 we
 want
 .
-nsLayoutStylesheetCache
+GlobalStyleSheetCache
 :
 :
 SetSharedMemory
@@ -9235,7 +9237,7 @@ userContentSheetURL
 )
 )
 ;
-nsLayoutStylesheetCache
+GlobalStyleSheetCache
 :
 :
 SetUserContentCSSURL

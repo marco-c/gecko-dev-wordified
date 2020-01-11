@@ -310,7 +310,9 @@ h
 #
 include
 "
-nsLayoutStylesheetCache
+mozilla
+/
+GlobalStyleSheetCache
 .
 h
 "
@@ -2263,7 +2265,7 @@ Shutdown
 (
 )
 ;
-nsLayoutStylesheetCache
+GlobalStyleSheetCache
 :
 :
 Shutdown

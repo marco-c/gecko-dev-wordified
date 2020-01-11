@@ -207,9 +207,6 @@ nsIReferrerInfo
 .
 h
 "
-class
-nsLayoutStylesheetCache
-;
 namespace
 mozilla
 {

@@ -667,7 +667,9 @@ h
 #
 include
 "
-nsLayoutStylesheetCache
+mozilla
+/
+GlobalStyleSheetCache
 .
 h
 "
@@ -3487,7 +3489,7 @@ pref
 style
 sheet
 .
-nsLayoutStylesheetCache
+GlobalStyleSheetCache
 :
 :
 InvalidatePreferenceSheets

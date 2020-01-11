@@ -123,7 +123,7 @@ agent
 style
 sheets
 that
-nsLayoutStylesheetCache
+GlobalStyleSheetCache
 manages
 *
 /

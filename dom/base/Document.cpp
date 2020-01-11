@@ -589,7 +589,9 @@ h
 #
 include
 "
-nsLayoutStylesheetCache
+mozilla
+/
+GlobalStyleSheetCache
 .
 h
 "
@@ -16082,9 +16084,10 @@ create
 the
 presshell
 auto
+*
 cache
 =
-nsLayoutStylesheetCache
+GlobalStyleSheetCache
 :
 :
 Singleton
@@ -16614,7 +16617,7 @@ auto
 *
 cache
 =
-nsLayoutStylesheetCache
+GlobalStyleSheetCache
 :
 :
 Singleton
@@ -16740,7 +16743,7 @@ auto
 *
 cache
 =
-nsLayoutStylesheetCache
+GlobalStyleSheetCache
 :
 :
 Singleton
@@ -17117,9 +17120,10 @@ return
 ;
 }
 auto
+*
 cache
 =
-nsLayoutStylesheetCache
+GlobalStyleSheetCache
 :
 :
 Singleton

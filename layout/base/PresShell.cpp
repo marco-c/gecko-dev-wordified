@@ -1432,7 +1432,9 @@ h
 #
 include
 "
-nsLayoutStylesheetCache
+mozilla
+/
+GlobalStyleSheetCache
 .
 h
 "
@@ -9559,9 +9561,10 @@ EnsureInitialized
 )
 ;
 auto
+*
 cache
 =
-nsLayoutStylesheetCache
+GlobalStyleSheetCache
 :
 :
 Singleton
