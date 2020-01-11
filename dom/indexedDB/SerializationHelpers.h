@@ -592,7 +592,10 @@ dom
 IDBCursor
 :
 :
-NEXT
+Direction
+:
+:
+Next
 mozilla
 :
 :
@@ -602,7 +605,10 @@ dom
 IDBCursor
 :
 :
-DIRECTION_INVALID
+Direction
+:
+:
+Invalid
 >
 {
 }

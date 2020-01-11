@@ -1258,7 +1258,10 @@ case
 IDBCursor
 :
 :
-NEXT
+Direction
+:
+:
+Next
 :
 AssignLiteral
 (
@@ -1277,7 +1280,10 @@ case
 IDBCursor
 :
 :
-NEXT_UNIQUE
+Direction
+:
+:
+NextUnique
 :
 AssignLiteral
 (
@@ -1296,7 +1302,10 @@ case
 IDBCursor
 :
 :
-PREV
+Direction
+:
+:
+Prev
 :
 AssignLiteral
 (
@@ -1315,7 +1324,10 @@ case
 IDBCursor
 :
 :
-PREV_UNIQUE
+Direction
+:
+:
+PrevUnique
 :
 AssignLiteral
 (
