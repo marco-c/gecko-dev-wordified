@@ -75948,9 +75948,6 @@ Remove
 ;
 }
 }
-#
-ifdef
-DEBUG
 metadata
 -
 >
@@ -75960,12 +75957,7 @@ MarkImmutable
 (
 )
 ;
-#
-endif
 }
-#
-ifdef
-DEBUG
 info
 -
 >
@@ -75978,8 +75970,6 @@ MarkImmutable
 (
 )
 ;
-#
-endif
 }
 else
 {
@@ -97742,9 +97732,6 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-#
-ifdef
-DEBUG
 aMaybeUniqueIndexTable
 .
 ref
@@ -97755,8 +97742,6 @@ MarkImmutable
 (
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -127470,9 +127455,6 @@ emplace
 )
 ;
 }
-#
-ifdef
-DEBUG
 if
 (
 mUniqueIndexTable
@@ -127493,8 +127475,6 @@ MarkImmutable
 )
 ;
 }
-#
-endif
 const
 nsTArray
 <

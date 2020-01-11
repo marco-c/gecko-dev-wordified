@@ -2322,9 +2322,6 @@ mTable
 )
 ;
 }
-#
-ifdef
-DEBUG
 /
 *
 *
@@ -2372,8 +2369,6 @@ MarkImmutable
 )
 ;
 }
-#
-endif
 protected
 :
 PLDHashTable
@@ -3598,17 +3593,12 @@ Base
 :
 ShallowSizeOfIncludingThis
 ;
-#
-ifdef
-DEBUG
 using
 Base
 :
 :
 MarkImmutable
 ;
-#
-endif
 /
 *
 Wrapper

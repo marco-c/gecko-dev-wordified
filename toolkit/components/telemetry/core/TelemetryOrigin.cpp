@@ -2927,9 +2927,6 @@ if
 it
 tries
 .
-#
-ifdef
-DEBUG
 gOriginToIndexMap
 -
 >
@@ -2944,11 +2941,6 @@ MarkImmutable
 (
 )
 ;
-#
-endif
-/
-/
-DEBUG
 gInitDone
 =
 true

@@ -987,17 +987,12 @@ mIndex
 index
 ;
 }
-#
-ifdef
-DEBUG
 mNameTable
 .
 MarkImmutable
 (
 )
 ;
-#
-endif
 }
 nsStaticCaseInsensitiveNameTable
 :

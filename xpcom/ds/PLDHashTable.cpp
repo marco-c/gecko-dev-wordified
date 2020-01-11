@@ -230,7 +230,7 @@ mozilla
 ;
 #
 ifdef
-DEBUG
+MOZ_HASH_TABLE_CHECKS_ENABLED
 class
 AutoReadOp
 {
@@ -1625,7 +1625,7 @@ mGeneration
 ;
 #
 ifdef
-DEBUG
+MOZ_HASH_TABLE_CHECKS_ENABLED
 mChecker
 =
 std
@@ -1678,7 +1678,7 @@ empty
 {
 #
 ifdef
-DEBUG
+MOZ_HASH_TABLE_CHECKS_ENABLED
 AutoDestructorOp
 op
 (
@@ -2119,7 +2119,7 @@ PLDHashTable
 {
 #
 ifdef
-DEBUG
+MOZ_HASH_TABLE_CHECKS_ENABLED
 AutoDestructorOp
 op
 (
@@ -3420,7 +3420,7 @@ const
 {
 #
 ifdef
-DEBUG
+MOZ_HASH_TABLE_CHECKS_ENABLED
 AutoReadOp
 op
 (
@@ -3513,7 +3513,7 @@ fallible_t
 {
 #
 ifdef
-DEBUG
+MOZ_HASH_TABLE_CHECKS_ENABLED
 AutoWriteOp
 op
 (
@@ -4116,7 +4116,7 @@ aKey
 {
 #
 ifdef
-DEBUG
+MOZ_HASH_TABLE_CHECKS_ENABLED
 AutoWriteOp
 op
 (
@@ -4200,7 +4200,7 @@ aEntry
 {
 #
 ifdef
-DEBUG
+MOZ_HASH_TABLE_CHECKS_ENABLED
 AutoWriteOp
 op
 (
@@ -4545,7 +4545,7 @@ const
 {
 #
 ifdef
-DEBUG
+MOZ_HASH_TABLE_CHECKS_ENABLED
 AutoReadOp
 op
 (
@@ -4765,7 +4765,7 @@ mEntrySize
 {
 #
 ifdef
-DEBUG
+MOZ_HASH_TABLE_CHECKS_ENABLED
 mTable
 -
 >
@@ -4974,7 +4974,7 @@ mEntrySize
 {
 #
 ifdef
-DEBUG
+MOZ_HASH_TABLE_CHECKS_ENABLED
 mTable
 -
 >
@@ -5061,7 +5061,7 @@ mHaveRemoved
 ;
 #
 ifdef
-DEBUG
+MOZ_HASH_TABLE_CHECKS_ENABLED
 mTable
 -
 >
@@ -5105,7 +5105,7 @@ ShrinkIfAppropriate
 }
 #
 ifdef
-DEBUG
+MOZ_HASH_TABLE_CHECKS_ENABLED
 mTable
 -
 >
@@ -5563,23 +5563,3 @@ mHaveRemoved
 true
 ;
 }
-#
-ifdef
-DEBUG
-void
-PLDHashTable
-:
-:
-MarkImmutable
-(
-)
-{
-mChecker
-.
-SetNonWritable
-(
-)
-;
-}
-#
-endif

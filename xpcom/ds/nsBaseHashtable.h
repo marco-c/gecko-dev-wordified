@@ -3354,9 +3354,6 @@ aOther
 )
 ;
 }
-#
-ifdef
-DEBUG
 using
 nsTHashtable
 <
@@ -3366,8 +3363,6 @@ EntryType
 :
 MarkImmutable
 ;
-#
-endif
 }
 ;
 /
