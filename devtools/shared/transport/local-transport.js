@@ -61,12 +61,6 @@ use
 strict
 "
 ;
-/
-*
-global
-uneval
-*
-/
 const
 {
 CC
@@ -418,7 +412,9 @@ sent
 from
 "
 +
-uneval
+JSON
+.
+stringify
 (
 packet
 .
@@ -448,7 +444,9 @@ sent
 to
 "
 +
-uneval
+JSON
+.
+stringify
 (
 packet
 .

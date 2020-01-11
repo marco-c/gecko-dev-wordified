@@ -180,10 +180,11 @@ data
 n
 "
 +
-out
+JSON
 .
-toSource
+stringify
 (
+out
 )
 +
 "
