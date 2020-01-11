@@ -6878,13 +6878,6 @@ id
 0
 )
 ;
-ipcDoc
--
->
-SendPDocAccessiblePlatformExtConstructor
-(
-)
-;
 }
 #
 endif
