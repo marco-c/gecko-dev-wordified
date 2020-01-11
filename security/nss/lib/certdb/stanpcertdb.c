@@ -2293,11 +2293,6 @@ derSubject
 data
 )
 ;
-if
-(
-PR_TRUE
-)
-{
 /
 *
 CERTCertificate
@@ -2373,7 +2368,6 @@ derSerial
 data
 )
 ;
-}
 if
 (
 nickname
