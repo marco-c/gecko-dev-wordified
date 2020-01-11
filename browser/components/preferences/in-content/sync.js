@@ -3603,9 +3603,15 @@ resendVerificationEmail
 .
 then
 (
+(
+)
+=
+>
 fxAccounts
 .
 getSignedInUser
+(
+)
 onError
 )
 .
