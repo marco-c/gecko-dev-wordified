@@ -1976,7 +1976,7 @@ GetContainerWeak
 )
 const
 ;
-nsIDocShell
+nsDocShell
 *
 GetDocShell
 (

@@ -198,13 +198,6 @@ h
 #
 include
 "
-nsIScrollable
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h
@@ -382,8 +375,6 @@ nsIDocShellTreeItem
 public
 nsIBaseWindow
 public
-nsIScrollable
-public
 nsIInterfaceRequestor
 public
 nsIWebBrowserPersist
@@ -518,7 +509,6 @@ nsIWebBrowser
 NS_DECL_NSIBASEWINDOW
 NS_DECL_NSIDOCSHELLTREEITEM
 NS_DECL_NSIINTERFACEREQUESTOR
-NS_DECL_NSISCROLLABLE
 NS_DECL_NSIWEBBROWSER
 NS_DECL_NSIWEBNAVIGATION
 NS_DECL_NSIWEBBROWSERPERSIST
@@ -710,12 +700,6 @@ nsCOMPtr
 nsIWebNavigation
 >
 mDocShellAsNav
-;
-nsCOMPtr
-<
-nsIScrollable
->
-mDocShellAsScrollable
 ;
 mozilla
 :
