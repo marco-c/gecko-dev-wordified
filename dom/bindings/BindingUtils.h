@@ -6302,7 +6302,10 @@ declared
 /
 /
 The
-IsBaseOf
+std
+:
+:
+is_base_of
 check
 will
 ensure
@@ -6316,9 +6319,9 @@ need
 it
 for
 any
+/
+/
 other
-/
-/
 reason
 (
 the

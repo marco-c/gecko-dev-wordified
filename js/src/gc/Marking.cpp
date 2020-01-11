@@ -522,12 +522,6 @@ using
 mozilla
 :
 :
-IsBaseOf
-;
-using
-mozilla
-:
-:
 IsSame
 ;
 using

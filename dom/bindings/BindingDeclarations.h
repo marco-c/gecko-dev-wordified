@@ -276,7 +276,10 @@ so
 we
 can
 use
-IsBaseOf
+std
+:
+:
+is_base_of
 to
 detect
 dictionary
@@ -570,7 +573,10 @@ so
 we
 can
 use
-IsBaseOf
+std
+:
+:
+is_base_of
 to
 detect
 /
@@ -611,7 +617,10 @@ so
 we
 can
 use
-IsBaseOf
+std
+:
+:
+is_base_of
 to
 detect
 owning
