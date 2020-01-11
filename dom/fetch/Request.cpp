@@ -1501,12 +1501,6 @@ CheckMayLoad
 uri
 /
 *
-report
-*
-/
-false
-/
-*
 allowIfInheritsPrincipal
 *
 /
@@ -2322,12 +2316,6 @@ principal
 CheckMayLoad
 (
 uri
-/
-*
-report
-*
-/
-false
 /
 *
 allowIfInheritsPrincipal

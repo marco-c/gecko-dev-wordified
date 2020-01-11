@@ -5468,7 +5468,7 @@ There
 is
 call
 to
-CheckMayLoad
+CheckMayLoadWithReporting
 (
 )
 on
@@ -6179,11 +6179,16 @@ NodePrincipal
 )
 -
 >
-CheckMayLoad
+CheckMayLoadWithReporting
 (
 manifestURI
-true
 false
+mDocument
+-
+>
+InnerWindowID
+(
+)
 )
 ;
 if
