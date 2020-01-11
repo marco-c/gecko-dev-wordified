@@ -1839,7 +1839,7 @@ the
 necessary
 /
 /
-JS_AFTERYIELD
+JSOP_AFTERYIELD
 instrumentation
 by
 calling
