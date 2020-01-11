@@ -316,6 +316,14 @@ extensions
 '
     
 '
+browser
+/
+components
+/
+uitour
+'
+    
+'
 testing
 /
 marionette
