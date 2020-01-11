@@ -593,7 +593,12 @@ params
 release_history
 '
 ]
-dep_th_platform
+attributes
+[
+"
+build_platform
+"
+]
                             
 build_locale
 )
