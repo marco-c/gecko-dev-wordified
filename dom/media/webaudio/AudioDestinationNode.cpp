@@ -1984,7 +1984,7 @@ NEED_MAIN_THREAD_CURRENT_TIME
 AudioNodeStream
 :
 :
-NEED_MAIN_THREAD_FINISHED
+NEED_MAIN_THREAD_ENDED
 |
 AudioNodeStream
 :
@@ -2536,7 +2536,7 @@ void
 AudioDestinationNode
 :
 :
-NotifyMainThreadStreamFinished
+NotifyMainThreadTrackEnded
 (
 )
 {
@@ -2552,7 +2552,7 @@ MOZ_ASSERT
 mStream
 -
 >
-IsFinished
+IsEnded
 (
 )
 )
@@ -3206,12 +3206,8 @@ ENABLED
 mStream
 -
 >
-SetTrackEnabled
+SetEnabled
 (
-AudioNodeStream
-:
-:
-AUDIO_TRACK
 disabledMode
 )
 ;

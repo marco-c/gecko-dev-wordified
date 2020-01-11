@@ -135,8 +135,6 @@ aWindow
 MediaStream
 *
 aInputStream
-TrackID
-aTrackID
 MediaStreamTrackSource
 *
 aSource
@@ -161,7 +159,6 @@ MediaStreamTrack
 (
 aWindow
 aInputStream
-aTrackID
 aSource
 aReadyState
 aConstraints

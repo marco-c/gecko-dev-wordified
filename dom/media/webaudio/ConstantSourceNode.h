@@ -267,7 +267,7 @@ rv
 override
 ;
 void
-NotifyMainThreadStreamFinished
+NotifyMainThreadTrackEnded
 (
 )
 override

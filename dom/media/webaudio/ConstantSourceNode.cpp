@@ -880,7 +880,7 @@ engine
 AudioNodeStream
 :
 :
-NEED_MAIN_THREAD_FINISHED
+NEED_MAIN_THREAD_ENDED
 aContext
 -
 >
@@ -1299,7 +1299,7 @@ void
 ConstantSourceNode
 :
 :
-NotifyMainThreadStreamFinished
+NotifyMainThreadTrackEnded
 (
 )
 {
@@ -1308,7 +1308,7 @@ MOZ_ASSERT
 mStream
 -
 >
-IsFinished
+IsEnded
 (
 )
 )

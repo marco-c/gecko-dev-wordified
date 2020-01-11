@@ -272,7 +272,7 @@ StreamTime
 mNextMainThreadCurrentTime
 ;
 bool
-mNextMainThreadFinished
+mNextMainThreadEnded
 ;
 }
 ;
@@ -1697,7 +1697,7 @@ have
 changed
 such
 as
-principalId
+principalHandle
 .
 *
 /
@@ -1714,8 +1714,6 @@ ProcessChunkMetadataForInterval
 MediaStream
 *
 aStream
-TrackID
-aTrackID
 C
 &
 aSegment

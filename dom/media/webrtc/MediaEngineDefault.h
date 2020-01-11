@@ -151,13 +151,6 @@ h
 #
 include
 "
-StreamTracks
-.
-h
-"
-#
-include
-"
 MediaEngineSource
 .
 h
@@ -272,8 +265,6 @@ SourceMediaStream
 >
 &
 aStream
-TrackID
-aTrackID
 const
 PrincipalHandle
 &
@@ -456,11 +447,6 @@ SourceMediaStream
 >
 mStream
 ;
-TrackID
-mTrackID
-=
-TRACK_NONE
-;
 PrincipalHandle
 mPrincipalHandle
 =
@@ -584,8 +570,6 @@ SourceMediaStream
 >
 &
 aStream
-TrackID
-aTrackID
 const
 PrincipalHandle
 &
@@ -702,11 +686,6 @@ RefPtr
 SourceMediaStream
 >
 mStream
-;
-TrackID
-mTrackID
-=
-TRACK_NONE
 ;
 PrincipalHandle
 mPrincipalHandle

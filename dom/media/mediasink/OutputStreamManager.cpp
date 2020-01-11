@@ -256,6 +256,10 @@ Graph
 >
 CreateTrackUnionStream
 (
+aSourceStream
+-
+>
+mType
 )
 )
 mPort
@@ -720,10 +724,6 @@ source
 -
 >
 mStream
-OutputStreamManager
-:
-:
-sTrackID
 source
 )
 ;
@@ -759,10 +759,6 @@ source
 -
 >
 mStream
-OutputStreamManager
-:
-:
-sTrackID
 source
 )
 ;
@@ -1614,6 +1610,7 @@ Graph
 >
 CreateSourceStream
 (
+aType
 )
 ;
 if
