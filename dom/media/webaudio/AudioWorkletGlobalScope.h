@@ -385,15 +385,6 @@ AudioWorkletImpl
 >
 mImpl
 ;
-uint64_t
-mCurrentFrame
-;
-double
-mCurrentTime
-;
-float
-mSampleRate
-;
 typedef
 nsRefPtrHashtable
 <

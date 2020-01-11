@@ -273,6 +273,7 @@ AudioNodeTrack
 DestinationTrack
 (
 )
+const
 {
 return
 mDestinationTrack
