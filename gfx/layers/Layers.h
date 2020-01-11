@@ -10151,7 +10151,7 @@ GetPropertyAnimationGroups
 ;
 }
 const
-TransformData
+CompositorAnimationData
 *
 GetTransformLikeMetaData
 (
