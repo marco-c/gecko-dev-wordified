@@ -1272,9 +1272,6 @@ dom
 GlobalObject
 &
 aGlobal
-ErrorResult
-&
-aRv
 )
 {
 RefPtr

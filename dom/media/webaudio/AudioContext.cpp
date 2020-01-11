@@ -2148,9 +2148,6 @@ AudioContext
 :
 CreateBufferSource
 (
-ErrorResult
-&
-aRv
 )
 {
 return
@@ -2165,7 +2162,6 @@ this
 AudioBufferSourceOptions
 (
 )
-aRv
 )
 ;
 }
@@ -2178,9 +2174,6 @@ AudioContext
 :
 CreateConstantSource
 (
-ErrorResult
-&
-aRv
 )
 {
 RefPtr

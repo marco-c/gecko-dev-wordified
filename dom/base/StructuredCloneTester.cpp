@@ -253,9 +253,6 @@ aSerializable
 const
 bool
 aDeserializable
-ErrorResult
-&
-aRv
 )
 {
 RefPtr

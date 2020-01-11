@@ -33433,9 +33433,6 @@ const
 GlobalObject
 &
 aGlobal
-ErrorResult
-&
-aRv
 )
 {
 RefPtr
@@ -33478,9 +33475,6 @@ aGlobal
 CanvasPath
 &
 aCanvasPath
-ErrorResult
-&
-aRv
 )
 {
 RefPtr
@@ -33564,9 +33558,6 @@ const
 nsAString
 &
 aPathString
-ErrorResult
-&
-aRv
 )
 {
 RefPtr
@@ -33596,7 +33587,6 @@ return
 Constructor
 (
 aGlobal
-aRv
 )
 ;
 }

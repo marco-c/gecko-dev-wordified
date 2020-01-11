@@ -172,9 +172,6 @@ const
 AudioBufferSourceOptions
 &
 aOptions
-ErrorResult
-&
-aRv
 )
 ;
 void
@@ -229,9 +226,6 @@ const
 AudioBufferSourceOptions
 &
 aOptions
-ErrorResult
-&
-aRv
 )
 {
 return
@@ -244,7 +238,6 @@ Context
 )
 aAudioContext
 aOptions
-aRv
 )
 ;
 }

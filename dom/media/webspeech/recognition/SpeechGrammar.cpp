@@ -198,9 +198,6 @@ const
 GlobalObject
 &
 aGlobal
-ErrorResult
-&
-aRv
 )
 {
 RefPtr

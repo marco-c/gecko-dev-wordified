@@ -187,9 +187,6 @@ const
 GlobalObject
 &
 aGlobal
-ErrorResult
-&
-aRv
 )
 ;
 JSObject

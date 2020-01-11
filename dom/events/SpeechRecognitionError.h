@@ -200,9 +200,6 @@ const
 SpeechRecognitionErrorInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 ;
 virtual

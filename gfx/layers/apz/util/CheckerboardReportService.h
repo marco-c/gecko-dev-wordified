@@ -712,9 +712,6 @@ dom
 GlobalObject
 &
 aGlobal
-ErrorResult
-&
-aRv
 )
 ;
 explicit

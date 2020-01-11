@@ -469,12 +469,6 @@ dom
 GlobalObject
 &
 aGlobal
-mozilla
-:
-:
-ErrorResult
-&
-aRv
 )
 ;
 void

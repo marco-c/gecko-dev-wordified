@@ -302,9 +302,6 @@ double
 aWidth
 double
 aHeight
-ErrorResult
-&
-aRv
 )
 {
 RefPtr
@@ -783,9 +780,6 @@ double
 aWidth
 double
 aHeight
-ErrorResult
-&
-aRv
 )
 {
 RefPtr

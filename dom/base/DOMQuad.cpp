@@ -632,9 +632,6 @@ const
 DOMPointInit
 &
 aP4
-ErrorResult
-&
-aRV
 )
 {
 RefPtr
@@ -746,9 +743,6 @@ const
 DOMRectReadOnly
 &
 aRect
-ErrorResult
-&
-aRV
 )
 {
 CSSPoint

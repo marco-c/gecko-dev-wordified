@@ -2094,9 +2094,6 @@ nsAString
 >
 &
 aName
-ErrorResult
-&
-aError
 )
 {
 nsresult

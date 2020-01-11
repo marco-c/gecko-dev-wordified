@@ -3894,9 +3894,6 @@ const
 AudioBufferSourceOptions
 &
 aOptions
-ErrorResult
-&
-aRv
 )
 {
 RefPtr

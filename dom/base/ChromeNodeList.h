@@ -174,9 +174,6 @@ const
 GlobalObject
 &
 aGlobal
-ErrorResult
-&
-aRv
 )
 ;
 virtual

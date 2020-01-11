@@ -1028,9 +1028,6 @@ const
 ConstantSourceOptions
 &
 aOptions
-ErrorResult
-&
-aRv
 )
 {
 RefPtr

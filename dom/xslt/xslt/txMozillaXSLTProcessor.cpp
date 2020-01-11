@@ -5509,12 +5509,6 @@ const
 GlobalObject
 &
 aGlobal
-mozilla
-:
-:
-ErrorResult
-&
-aRv
 )
 {
 RefPtr

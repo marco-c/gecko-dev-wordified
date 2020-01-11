@@ -1385,9 +1385,6 @@ AudioBufferSourceNode
 >
 CreateBufferSource
 (
-ErrorResult
-&
-aRv
 )
 ;
 already_AddRefed
@@ -1396,9 +1393,6 @@ ConstantSourceNode
 >
 CreateConstantSource
 (
-ErrorResult
-&
-aRv
 )
 ;
 already_AddRefed

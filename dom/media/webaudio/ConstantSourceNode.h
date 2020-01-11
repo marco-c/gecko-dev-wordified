@@ -214,9 +214,6 @@ const
 ConstantSourceOptions
 &
 aOptions
-ErrorResult
-&
-aRv
 )
 ;
 void

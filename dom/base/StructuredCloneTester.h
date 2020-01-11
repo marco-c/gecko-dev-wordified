@@ -204,9 +204,6 @@ aSerializable
 const
 bool
 aDeserializable
-ErrorResult
-&
-aRv
 )
 ;
 bool

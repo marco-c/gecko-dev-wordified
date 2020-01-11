@@ -249,9 +249,6 @@ double
 aZ
 double
 aW
-ErrorResult
-&
-aRV
 )
 {
 RefPtr
@@ -755,9 +752,6 @@ double
 aZ
 double
 aW
-ErrorResult
-&
-aRV
 )
 {
 RefPtr

@@ -194,9 +194,6 @@ const
 TouchInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 /

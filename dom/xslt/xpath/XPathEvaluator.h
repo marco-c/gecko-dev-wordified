@@ -285,9 +285,6 @@ const
 GlobalObject
 &
 aGlobal
-ErrorResult
-&
-rv
 )
 ;
 XPathExpression
