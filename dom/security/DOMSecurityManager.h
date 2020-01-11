@@ -135,6 +135,9 @@ nsIContentSecurityPolicy
 h
 "
 class
+nsIChannel
+;
+class
 DOMSecurityManager
 final
 :
@@ -173,7 +176,7 @@ enforces
 the
 frame
 -
-anecstor
+ancestor
 check
 which
 needs
@@ -234,8 +237,8 @@ frame
 ancestors
 is
 present
-nsresult
-EnforeXFrameOptionsCheck
+void
+EnforceXFrameOptionsCheck
 (
 nsIChannel
 *
