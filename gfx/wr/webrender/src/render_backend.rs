@@ -5530,6 +5530,13 @@ rasterized_blobs
 take
 (
 )
+&
+mut
+profile_counters
+.
+resources
+.
+texture_cache
 )
 ;
 if
