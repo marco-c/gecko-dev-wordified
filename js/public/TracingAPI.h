@@ -3274,11 +3274,6 @@ calling
 this
 method
 .
-template
-<
-typename
-T
->
 extern
 JS_PUBLIC_API
 void
@@ -3287,7 +3282,8 @@ UnsafeTraceManuallyBarrieredEdge
 JSTracer
 *
 trc
-T
+JSObject
+*
 *
 edgep
 const
