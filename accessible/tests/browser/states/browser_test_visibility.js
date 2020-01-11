@@ -216,13 +216,13 @@ view
 the
 item
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-{
-}
+[
+]
 (
 )
 =

@@ -144,12 +144,14 @@ id
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 id
+]
 contentId
 =
 >

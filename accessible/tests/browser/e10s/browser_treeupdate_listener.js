@@ -195,13 +195,13 @@ to
 parent
 .
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-{
-}
+[
+]
 (
 )
 =
