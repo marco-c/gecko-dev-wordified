@@ -2429,7 +2429,7 @@ event
 /
 [
 "
-trackingProtection
+contentBlocking
 "
 {
 _initialized
@@ -2737,7 +2737,7 @@ browser
 id
 :
 "
-trackingProtection
+contentBlocking
 "
 param
 :
@@ -2804,7 +2804,7 @@ selectedBrowser
 id
 :
 "
-trackingProtection
+contentBlocking
 "
 context
 :

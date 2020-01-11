@@ -3949,7 +3949,7 @@ trigger
 id
 :
 "
-trackingProtection
+contentBlocking
 "
 params
 :
@@ -4276,7 +4276,7 @@ trigger
 id
 :
 "
-trackingProtection
+contentBlocking
 "
 params
 :
@@ -4592,7 +4592,7 @@ trigger
 id
 :
 "
-trackingProtection
+contentBlocking
 "
 params
 :
@@ -4731,7 +4731,7 @@ Length
 of
 privacy
 .
-trackingprotection
+contentBlocking
 .
 cfr
 -
@@ -4746,7 +4746,7 @@ trigger
 id
 :
 "
-trackingProtection
+contentBlocking
 "
 params
 :

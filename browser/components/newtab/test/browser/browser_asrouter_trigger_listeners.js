@@ -1157,7 +1157,7 @@ add_task
 (
 async
 function
-check_trackingProtection_listener
+check_contentBlocking_listener
 (
 )
 {
@@ -1311,7 +1311,7 @@ is
 (
 id
 "
-trackingProtection
+contentBlocking
 "
 "
 should
@@ -1390,14 +1390,14 @@ pageLoad
 }
 ;
 const
-trackingProtectionListener
+contentBlockingListener
 =
 ASRouterTriggerListeners
 .
 get
 (
 "
-trackingProtection
+contentBlocking
 "
 )
 ;
@@ -1408,14 +1408,14 @@ initialized
 by
 the
 Router
-trackingProtectionListener
+contentBlockingListener
 .
 uninit
 (
 )
 ;
 await
-trackingProtectionListener
+contentBlockingListener
 .
 init
 (
@@ -1431,7 +1431,7 @@ withNewTab
 TEST_URL
 async
 function
-triggerTrackingProtection
+triggercontentBlocking
 (
 browser
 )
@@ -1509,7 +1509,7 @@ withNewTab
 TEST_URL
 async
 function
-triggerTrackingProtection
+triggercontentBlocking
 (
 browser
 )
@@ -1756,7 +1756,7 @@ notification
 /
 Uninitialise
 listener
-trackingProtectionListener
+contentBlockingListener
 .
 uninit
 (
@@ -1770,7 +1770,7 @@ withNewTab
 TEST_URL
 async
 function
-triggerTrackingProtectionAfterUninit
+triggercontentBlockingAfterUninit
 (
 browser
 )
@@ -1864,7 +1864,7 @@ add_task
 (
 async
 function
-check_trackingProtectionMilestone_listener
+check_contentBlockingMilestone_listener
 (
 )
 {
@@ -1928,7 +1928,7 @@ is
 (
 id
 "
-trackingProtection
+contentBlocking
 "
 "
 should
@@ -1962,14 +1962,14 @@ observerEvent
 }
 ;
 const
-trackingProtectionListener
+contentBlockingListener
 =
 ASRouterTriggerListeners
 .
 get
 (
 "
-trackingProtection
+contentBlocking
 "
 )
 ;
@@ -1980,7 +1980,7 @@ initialized
 by
 the
 Router
-trackingProtectionListener
+contentBlockingListener
 .
 uninit
 (
@@ -1990,7 +1990,7 @@ uninit
 /
 Initialise
 listener
-trackingProtectionListener
+contentBlockingListener
 .
 init
 (
@@ -2010,7 +2010,7 @@ withNewTab
 TEST_URL
 async
 function
-triggerTrackingProtection
+triggercontentBlocking
 (
 browser
 )
@@ -2067,7 +2067,7 @@ withNewTab
 TEST_URL
 async
 function
-triggerTrackingProtection
+triggercontentBlocking
 (
 browser
 )
@@ -2141,7 +2141,7 @@ notification
 /
 Uninitialise
 listener
-trackingProtectionListener
+contentBlockingListener
 .
 uninit
 (
@@ -2155,7 +2155,7 @@ withNewTab
 TEST_URL
 async
 function
-triggerTrackingProtectionAfterUninit
+triggercontentBlockingAfterUninit
 (
 browser
 )
