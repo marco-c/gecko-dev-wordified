@@ -253,8 +253,6 @@ originalWidth
 =
 win
 .
-top
-.
 outerWidth
 ;
 const
@@ -262,13 +260,9 @@ originalHeight
 =
 win
 .
-top
-.
 outerHeight
 ;
 win
-.
-top
 .
 resizeBy
 (
@@ -283,8 +277,6 @@ originalTop
 =
 win
 .
-top
-.
 screenTop
 ;
 const
@@ -292,13 +284,9 @@ originalLeft
 =
 win
 .
-top
-.
 screenLeft
 ;
 win
-.
-top
 .
 moveTo
 (
@@ -328,8 +316,6 @@ position
 ;
 win
 .
-top
-.
 resizeTo
 (
 originalWidth
@@ -337,8 +323,6 @@ originalHeight
 )
 ;
 win
-.
-top
 .
 moveTo
 (
