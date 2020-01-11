@@ -1023,6 +1023,10 @@ string
 index
 :
 number
+asyncCause
+?
+:
+string
 }
 ;
 export
