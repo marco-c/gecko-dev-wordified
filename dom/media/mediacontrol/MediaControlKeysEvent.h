@@ -300,6 +300,7 @@ GetListenersNum
 )
 const
 ;
+virtual
 void
 Close
 (
