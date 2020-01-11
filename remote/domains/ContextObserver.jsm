@@ -598,6 +598,9 @@ out
 /
 what
 ExecutionContext
+(
+s
+)
 to
 destroy
 .
@@ -640,6 +643,8 @@ context
 created
 "
 {
+windowId
+:
 id
 window
 }
@@ -712,6 +717,8 @@ context
 created
 "
 {
+windowId
+:
 id
 window
 }
@@ -759,6 +766,8 @@ context
 destroyed
 "
 {
+windowId
+:
 id
 }
 )
@@ -810,7 +819,7 @@ context
 destroyed
 "
 {
-id
+windowId
 :
 innerWindowID
 }
