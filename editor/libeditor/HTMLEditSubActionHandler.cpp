@@ -26724,7 +26724,7 @@ MarkAsHandled
 ;
 if
 (
-HasMutationEventListeners
+MaybeHasMutationEventListeners
 (
 )
 )
@@ -27200,7 +27200,7 @@ rv
 }
 if
 (
-HasMutationEventListeners
+MaybeHasMutationEventListeners
 (
 )
 )
