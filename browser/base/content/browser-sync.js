@@ -3319,7 +3319,7 @@ GetStringFromName
 "
 account
 .
-settings
+accountSettings
 "
 )
 ;
