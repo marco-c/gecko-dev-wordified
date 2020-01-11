@@ -238,6 +238,8 @@ MAXP_MAX_FUNCTION_DEFS
 =
 1
 ;
+/
+/
 const
 int32_t
 MAXP_MAX_INSTR_DEFS

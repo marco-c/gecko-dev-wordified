@@ -692,7 +692,13 @@ header
 data
 )
 {
-IntegerList
+std
+:
+:
+vector
+<
+int32_t
+>
 checksum_ranges
 ;
 checksum_ranges

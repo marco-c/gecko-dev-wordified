@@ -342,7 +342,7 @@ encoded
 8
 )
 {
-byte_t
+uint8_t
 b
 =
 (

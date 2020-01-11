@@ -222,7 +222,13 @@ end
 )
 ;
 }
-IntegerSet
+std
+:
+:
+set
+<
+int32_t
+>
 *
 TableSubsetterImpl
 :

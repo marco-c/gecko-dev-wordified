@@ -270,7 +270,13 @@ ReadableFontData
 :
 CreateReadableFontData
 (
-ByteVector
+std
+:
+:
+vector
+<
+uint8_t
+>
 *
 b
 )
@@ -356,7 +362,13 @@ ReadableFontData
 SetCheckSumRanges
 (
 const
-IntegerList
+std
+:
+:
+vector
+<
+int32_t
+>
 &
 ranges
 )
@@ -523,7 +535,7 @@ ReadBytes
 (
 int32_t
 index
-byte_t
+uint8_t
 *
 b
 int32_t
@@ -1208,7 +1220,7 @@ int32_t
 index
 )
 {
-int32_t
+int64_t
 high
 =
 ReadULong
@@ -1226,7 +1238,7 @@ kInvalidUnsigned
 return
 kInvalidLongDateTime
 ;
-int32_t
+int64_t
 low
 =
 ReadULong
@@ -1247,9 +1259,6 @@ return
 kInvalidLongDateTime
 ;
 return
-(
-int64_t
-)
 high
 <
 <

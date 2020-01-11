@@ -889,6 +889,11 @@ disable
 )
 #
 endif
+bool
+TestSmartPointer
+(
+)
+;
 namespace
 sfntly
 {
@@ -1203,6 +1208,14 @@ count
 of
 current
 object
+friend
+bool
+:
+:
+TestSmartPointer
+(
+)
+;
 #
 if
 defined

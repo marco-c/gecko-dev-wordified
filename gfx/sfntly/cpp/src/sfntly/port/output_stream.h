@@ -206,7 +206,13 @@ virtual
 void
 Write
 (
-ByteVector
+std
+:
+:
+vector
+<
+uint8_t
+>
 *
 buffer
 )
@@ -217,7 +223,7 @@ virtual
 void
 Write
 (
-byte_t
+uint8_t
 b
 )
 =
@@ -268,7 +274,13 @@ virtual
 void
 Write
 (
-ByteVector
+std
+:
+:
+vector
+<
+uint8_t
+>
 *
 buffer
 int32_t
@@ -296,7 +308,7 @@ virtual
 void
 Write
 (
-byte_t
+uint8_t
 *
 buffer
 int32_t

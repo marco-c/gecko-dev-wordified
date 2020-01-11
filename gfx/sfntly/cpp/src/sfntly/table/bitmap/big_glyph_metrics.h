@@ -273,7 +273,7 @@ Height
 void
 SetHeight
 (
-byte_t
+uint8_t
 height
 )
 ;
@@ -285,7 +285,7 @@ Width
 void
 SetWidth
 (
-byte_t
+uint8_t
 width
 )
 ;
@@ -297,7 +297,7 @@ HoriBearingX
 void
 SetHoriBearingX
 (
-byte_t
+uint8_t
 bearing
 )
 ;
@@ -309,7 +309,7 @@ HoriBearingY
 void
 SetHoriBearingY
 (
-byte_t
+uint8_t
 bearing
 )
 ;
@@ -321,7 +321,7 @@ HoriAdvance
 void
 SetHoriAdvance
 (
-byte_t
+uint8_t
 advance
 )
 ;
@@ -333,7 +333,7 @@ VertBearingX
 void
 SetVertBearingX
 (
-byte_t
+uint8_t
 bearing
 )
 ;
@@ -345,7 +345,7 @@ VertBearingY
 void
 SetVertBearingY
 (
-byte_t
+uint8_t
 bearing
 )
 ;
@@ -357,7 +357,7 @@ VertAdvance
 void
 SetVertAdvance
 (
-byte_t
+uint8_t
 advance
 )
 ;

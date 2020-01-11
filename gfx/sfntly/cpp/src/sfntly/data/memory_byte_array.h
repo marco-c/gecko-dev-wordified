@@ -218,7 +218,13 @@ constructor
 explicit
 MemoryByteArray
 (
-ByteVector
+std
+:
+:
+vector
+<
+uint8_t
+>
 *
 b
 )
@@ -322,7 +328,7 @@ buffer
 .
 MemoryByteArray
 (
-byte_t
+uint8_t
 *
 b
 int32_t
@@ -457,7 +463,7 @@ InternalPut
 (
 int32_t
 index
-byte_t
+uint8_t
 b
 )
 ;
@@ -467,7 +473,7 @@ InternalPut
 (
 int32_t
 index
-byte_t
+uint8_t
 *
 b
 int32_t
@@ -477,7 +483,7 @@ length
 )
 ;
 virtual
-byte_t
+uint8_t
 InternalGet
 (
 int32_t
@@ -490,7 +496,7 @@ InternalGet
 (
 int32_t
 index
-byte_t
+uint8_t
 *
 b
 int32_t
@@ -506,7 +512,7 @@ Close
 )
 ;
 virtual
-byte_t
+uint8_t
 *
 Begin
 (
@@ -533,7 +539,7 @@ memory
 outside
 constructor
 .
-byte_t
+uint8_t
 *
 b_
 ;

@@ -180,7 +180,7 @@ MemoryByteArray
 :
 MemoryByteArray
 (
-byte_t
+uint8_t
 *
 b
 int32_t
@@ -276,7 +276,7 @@ NULL
 b_
 =
 new
-byte_t
+uint8_t
 [
 Size
 (
@@ -302,7 +302,7 @@ InternalPut
 (
 int32_t
 index
-byte_t
+uint8_t
 b
 )
 {
@@ -326,7 +326,7 @@ InternalPut
 (
 int32_t
 index
-byte_t
+uint8_t
 *
 b
 int32_t
@@ -359,7 +359,7 @@ return
 length
 ;
 }
-byte_t
+uint8_t
 MemoryByteArray
 :
 :
@@ -388,7 +388,7 @@ InternalGet
 (
 int32_t
 index
-byte_t
+uint8_t
 *
 b
 int32_t
@@ -448,7 +448,7 @@ b_
 NULL
 ;
 }
-byte_t
+uint8_t
 *
 MemoryByteArray
 :

@@ -254,7 +254,12 @@ int32_t
 Length
 (
 )
+const
+{
+return
+filled_length_
 ;
+}
 /
 /
 Gets
@@ -301,7 +306,12 @@ int32_t
 Size
 (
 )
+const
+{
+return
+storage_length_
 ;
+}
 /
 /
 Determines
@@ -321,6 +331,7 @@ bool
 growable
 (
 )
+const
 {
 return
 growable_
@@ -458,7 +469,13 @@ Get
 (
 int32_t
 index
-ByteVector
+std
+:
+:
+vector
+<
+uint8_t
+>
 *
 b
 )
@@ -574,7 +591,7 @@ Get
 (
 int32_t
 index
-byte_t
+uint8_t
 *
 b
 int32_t
@@ -621,7 +638,7 @@ Put
 (
 int32_t
 index
-byte_t
+uint8_t
 b
 )
 ;
@@ -672,7 +689,13 @@ Put
 (
 int32_t
 index
-ByteVector
+std
+:
+:
+vector
+<
+uint8_t
+>
 *
 b
 )
@@ -806,7 +829,7 @@ Put
 (
 int32_t
 index
-byte_t
+uint8_t
 *
 b
 int32_t
@@ -1239,7 +1262,7 @@ InternalPut
 (
 int32_t
 index
-byte_t
+uint8_t
 b
 )
 =
@@ -1317,7 +1340,7 @@ InternalPut
 (
 int32_t
 index
-byte_t
+uint8_t
 *
 b
 int32_t
@@ -1357,7 +1380,7 @@ at
 the
 index
 virtual
-byte_t
+uint8_t
 InternalGet
 (
 int32_t
@@ -1440,7 +1463,7 @@ InternalGet
 (
 int32_t
 index
-byte_t
+uint8_t
 *
 b
 int32_t
@@ -1485,7 +1508,7 @@ of
 storage
 .
 virtual
-byte_t
+uint8_t
 *
 Begin
 (
