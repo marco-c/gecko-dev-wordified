@@ -484,6 +484,11 @@ getPrettySourceURL
 source
 .
 url
+|
+|
+source
+.
+id
 )
 ;
 const
