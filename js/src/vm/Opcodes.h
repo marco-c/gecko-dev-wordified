@@ -16458,9 +16458,12 @@ functions
 *
 Operands
 :
+GeneratorResumeKind
 resumeKind
 (
-GeneratorResumeKind
+encoded
+as
+uint8_t
 )
 *
 Stack
