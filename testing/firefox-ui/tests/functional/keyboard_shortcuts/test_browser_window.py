@@ -449,19 +449,6 @@ textbox
 input
 "
         
-#
-Anon
-locator
-has
-not
-been
-released
-yet
-(
-bug
-1080764
-)
-        
 def
 has_input_selected
 (
