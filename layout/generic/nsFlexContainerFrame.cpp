@@ -9392,7 +9392,10 @@ getNext
 {
 if
 (
-NS_STYLE_VISIBILITY_COLLAPSE
+StyleVisibility
+:
+:
+Collapse
 =
 =
 item
@@ -17376,7 +17379,10 @@ frame
 ;
 MOZ_ASSERT
 (
-NS_STYLE_VISIBILITY_COLLAPSE
+StyleVisibility
+:
+:
+Collapse
 =
 =
 mFrame
@@ -31864,7 +31870,10 @@ useMozBoxCollapseBehavior
 &
 &
 (
-NS_STYLE_VISIBILITY_COLLAPSE
+StyleVisibility
+:
+:
+Collapse
 =
 =
 childFrame
@@ -43797,7 +43806,10 @@ useMozBoxCollapseBehavior
 |
 |
 (
-NS_STYLE_VISIBILITY_COLLAPSE
+StyleVisibility
+:
+:
+Collapse
 !
 =
 childFrame

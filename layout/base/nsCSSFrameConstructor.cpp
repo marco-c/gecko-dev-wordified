@@ -26516,7 +26516,10 @@ StyleVisibility
 mVisible
 =
 =
-NS_STYLE_VISIBILITY_VISIBLE
+StyleVisibility
+:
+:
+Visible
 &
 &
 aParentFrame
