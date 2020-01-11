@@ -85,6 +85,8 @@ NodeInstall
 SccacheInstall
     
 StyloInstall
+    
+WasiSysrootInstall
 )
 #
 NOTE
@@ -149,6 +151,7 @@ SccacheInstall
 ClangStaticAnalysisInstall
         
 LucetcInstall
+WasiSysrootInstall
 BaseBootstrapper
 )
 :

@@ -85,18 +85,22 @@ NodeInstall
 SccacheInstall
     
 StyloInstall
+    
+WasiSysrootInstall
 )
 class
 CentOSFedoraBootstrapper
 (
+        
 NasmInstall
 NodeInstall
 StyloInstall
-                               
 SccacheInstall
+        
 ClangStaticAnalysisInstall
-                               
 LucetcInstall
+WasiSysrootInstall
+        
 BaseBootstrapper
 )
 :
