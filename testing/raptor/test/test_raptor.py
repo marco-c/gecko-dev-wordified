@@ -1330,17 +1330,6 @@ page_cycle_delay
 -
 browsertime
 .
-foreground_delay
-'
-'
-5000
-'
-        
-'
--
--
-browsertime
-.
 post_startup_delay
 '
 str
