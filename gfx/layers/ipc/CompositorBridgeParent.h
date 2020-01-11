@@ -2683,6 +2683,15 @@ return
 mCompositionManager
 ;
 }
+void
+SetFixedLayerMargins
+(
+ScreenIntCoord
+aTop
+ScreenIntCoord
+aBottom
+)
+;
 PTextureParent
 *
 AllocPTextureParent
