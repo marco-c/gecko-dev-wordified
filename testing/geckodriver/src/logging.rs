@@ -543,6 +543,9 @@ str
 geckodriver
 "
 "
+mozdevice
+"
+"
 mozprofile
 "
 "
