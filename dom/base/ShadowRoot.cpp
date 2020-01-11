@@ -3775,6 +3775,14 @@ Length
 =
 =
 1
+&
+&
+slot
+-
+>
+HasChildren
+(
+)
 )
 {
 InvalidateStyleAndLayoutOnSubtree
