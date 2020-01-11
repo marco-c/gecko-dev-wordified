@@ -2031,6 +2031,14 @@ set
 )
     
 if
+not
+event
+:
+        
+return
+jobs
+    
+if
 "
 commits
 "
@@ -2373,6 +2381,20 @@ required
 list
 of
 branches
+    
+if
+"
+GITHUB_PULL_REQUEST
+"
+not
+in
+os
+.
+environ
+:
+        
+return
+True
     
 if
 (
