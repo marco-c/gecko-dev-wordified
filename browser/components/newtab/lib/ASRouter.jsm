@@ -6777,6 +6777,10 @@ stream
 extended
 -
 triplets
+-
+v2
+-
+1581912
 ;
 TelemetryEnvironment
 .

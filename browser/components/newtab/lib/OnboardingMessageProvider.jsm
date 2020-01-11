@@ -857,7 +857,7 @@ frequency
 {
 lifetime
 :
-20
+5
 }
 utm_term
 :
