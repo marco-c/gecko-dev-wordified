@@ -1029,7 +1029,7 @@ outset
 animation_value_type
 =
 "
-discrete
+NonNegativeLengthOrNumberRect
 "
 boxed
 =
@@ -1210,7 +1210,7 @@ width
 animation_value_type
 =
 "
-discrete
+BorderImageWidth
 "
 boxed
 =
@@ -1293,7 +1293,7 @@ slice
 animation_value_type
 =
 "
-discrete
+BorderImageSlice
 "
 boxed
 =
