@@ -513,15 +513,6 @@ nsIWebProgressListener
 :
 :
 STATE_COOKIES_BLOCKED_TRACKER
-|
-|
-aType
-=
-=
-nsIWebProgressListener
-:
-:
-STATE_COOKIES_BLOCKED_SOCIALTRACKER
 ;
 MOZ_ASSERT_IF
 (
