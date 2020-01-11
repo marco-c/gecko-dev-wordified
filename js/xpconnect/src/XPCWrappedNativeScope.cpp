@@ -1364,14 +1364,6 @@ cx
 ;
 MOZ_ASSERT
 (
-!
-IsContentXBLScope
-(
-)
-)
-;
-MOZ_ASSERT
-(
 strcmp
 (
 js

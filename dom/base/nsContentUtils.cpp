@@ -12699,13 +12699,7 @@ true
 ;
 }
 return
-xpc
-:
-:
-IsContentXBLScope
-(
-realm
-)
+false
 ;
 }
 bool

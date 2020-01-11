@@ -7123,12 +7123,6 @@ c
 )
 |
 |
-IsContentXBLCompartment
-(
-c
-)
-|
-|
 !
 AllowContentXBLScope
 (
