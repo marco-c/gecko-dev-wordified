@@ -58,7 +58,7 @@ nsIPermissionManager
 )
 ;
 let
-enumerator
+perms
 =
 pm
 .
@@ -80,9 +80,9 @@ permissions
 let
 perm
 =
-enumerator
+perms
 .
-getNext
+shift
 (
 )
 ;
@@ -134,11 +134,9 @@ Assert
 ok
 (
 !
-enumerator
+perms
 .
-hasMoreElements
-(
-)
+length
 )
 ;
 }
