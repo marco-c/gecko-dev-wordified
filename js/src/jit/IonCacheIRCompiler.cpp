@@ -8680,16 +8680,13 @@ MIRType
 Object
 )
 {
-JSValueType
-valType
+MIRType
+type
 =
-ValueTypeFromMIRType
-(
 reg
 .
 type
 (
-)
 )
 ;
 if
@@ -8709,7 +8706,7 @@ TypeSet
 :
 PrimitiveType
 (
-valType
+type
 )
 )
 )
