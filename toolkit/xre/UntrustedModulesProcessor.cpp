@@ -514,7 +514,7 @@ Create
 if
 defined
 (
-NIGHTLY_BUILD
+EARLY_BETA_OR_EARLIER
 )
 if
 (
@@ -582,7 +582,7 @@ endif
 /
 defined
 (
-NIGHTLY_BUILD
+EARLY_BETA_OR_EARLIER
 )
 }
 NS_IMPL_ISUPPORTS
