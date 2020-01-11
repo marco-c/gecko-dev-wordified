@@ -125,7 +125,7 @@ GET
 url
 :
 "
-http
+ws
 :
 /
 /
@@ -209,7 +209,7 @@ GET
 url
 :
 "
-https
+wss
 :
 /
 /
