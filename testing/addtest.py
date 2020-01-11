@@ -5,6 +5,8 @@ absolute_import
 unicode_literals
 print_function
 import
+io
+import
 os
 import
 manifestparser
@@ -2511,12 +2513,20 @@ filename
 break
     
 with
+io
+.
 open
 (
 manifest_file
 "
 w
 "
+newline
+=
+'
+\
+n
+'
 )
 as
 f
