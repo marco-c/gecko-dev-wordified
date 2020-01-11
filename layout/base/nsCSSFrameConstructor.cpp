@@ -25994,7 +25994,8 @@ doesn
 t
 have
 any
-XBL
+Shadow
+DOM
 children
 {
 FlattenedChildIterator
@@ -26008,7 +26009,7 @@ NS_ASSERTION
 !
 iter
 .
-XBLInvolved
+ShadowDOMInvolved
 (
 )
 |
@@ -26026,7 +26027,8 @@ should
 not
 have
 any
-XBL
+Shadow
+DOM
 children
 "
 )
@@ -35908,7 +35910,7 @@ SetParentHasNoXBLChildren
 !
 iter
 .
-XBLInvolved
+ShadowDOMInvolved
 (
 )
 )
@@ -42524,7 +42526,7 @@ if
 (
 iter
 .
-XBLInvolved
+ShadowDOMInvolved
 (
 )
 |
@@ -46072,7 +46074,7 @@ haveNoXBLChildren
 !
 iter
 .
-XBLInvolved
+ShadowDOMInvolved
 (
 )
 |
@@ -49304,7 +49306,7 @@ haveNoXBLChildren
 !
 iter
 .
-XBLInvolved
+ShadowDOMInvolved
 (
 )
 |
@@ -67912,7 +67914,7 @@ aState
 child
 iter
 .
-XBLInvolved
+ShadowDOMInvolved
 (
 )
 insertion
@@ -67942,7 +67944,7 @@ SetParentHasNoXBLChildren
 !
 iter
 .
-XBLInvolved
+ShadowDOMInvolved
 (
 )
 )
@@ -78613,7 +78615,7 @@ aState
 content
 iter
 .
-XBLInvolved
+ShadowDOMInvolved
 (
 )
 InsertionPoint

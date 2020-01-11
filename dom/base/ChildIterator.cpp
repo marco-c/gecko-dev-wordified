@@ -623,7 +623,7 @@ mParent
 =
 shadow
 ;
-mXBLInvolved
+mShadowDOMInvolved
 =
 true
 ;
@@ -635,7 +635,7 @@ if
 mParentAsSlot
 )
 {
-mXBLInvolved
+mShadowDOMInvolved
 =
 true
 ;
