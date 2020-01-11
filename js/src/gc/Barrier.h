@@ -3610,6 +3610,11 @@ value
 ;
 public
 :
+using
+ElementType
+=
+T
+;
 /
 /
 Note
@@ -3756,11 +3761,6 @@ v
 }
 public
 :
-using
-ElementType
-=
-T
-;
 DECLARE_POINTER_CONSTREF_OPS
 (
 T
@@ -5589,8 +5589,6 @@ v
 )
 {
 }
-protected
-:
 void
 read
 (
