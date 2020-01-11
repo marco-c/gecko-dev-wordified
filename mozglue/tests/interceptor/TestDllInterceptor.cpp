@@ -5399,6 +5399,12 @@ CredHandle
 )
 )
 ;
+OBJECT_ATTRIBUTES
+attributes
+=
+{
+}
+;
 /
 /
 NB
@@ -5531,7 +5537,7 @@ NotEquals
 )
 &
 &
-TEST_HOOK
+TEST_HOOK_PARAMS
 (
 "
 ntdll
@@ -5541,6 +5547,9 @@ dll
 NtQueryFullAttributesFile
 NotEquals
 0
+&
+attributes
+nullptr
 )
 &
 &
