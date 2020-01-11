@@ -573,11 +573,11 @@ this
 ;
 this
 .
-emit
+emitForTests
 =
 this
 .
-emit
+emitForTests
 .
 bind
 (
@@ -631,7 +631,7 @@ getComponentProps
 const
 {
 addAnimationsCurrentTimeListener
-emit
+emitForTests
 :
 emitEventForTest
 getAnimatedPropertyMap
