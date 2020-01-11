@@ -507,6 +507,12 @@ nsIEventTarget
 >
 mSocketThread
 ;
+nsCOMPtr
+<
+nsICancelable
+>
+mProxyRequest
+;
 }
 ;
 }
