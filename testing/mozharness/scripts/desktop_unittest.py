@@ -5023,6 +5023,26 @@ tests
 "
 "
         
+dir
+=
+self
+.
+query_abs_dirs
+(
+)
+[
+'
+abs_blob_upload_dir
+'
+]
+        
+self
+.
+mkdir_p
+(
+dir
+)
+        
 if
 not
 self
@@ -6711,26 +6731,6 @@ try
             
 import
 psutil
-            
-dir
-=
-self
-.
-query_abs_dirs
-(
-)
-[
-'
-abs_blob_upload_dir
-'
-]
-            
-self
-.
-mkdir_p
-(
-dir
-)
             
 path
 =
