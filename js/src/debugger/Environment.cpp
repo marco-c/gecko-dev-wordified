@@ -3018,15 +3018,9 @@ callee
 )
 )
 {
-result
-.
-set
-(
+callee
+=
 nullptr
-)
-;
-return
-true
 ;
 }
 return
@@ -3035,7 +3029,7 @@ owner
 )
 -
 >
-wrapDebuggeeObject
+wrapNullableDebuggeeObject
 (
 cx
 callee
