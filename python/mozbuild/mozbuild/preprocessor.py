@@ -5769,8 +5769,7 @@ Filters
     
 #
 emptyLines
-    
-#
+:
 Strips
 blank
 lines
@@ -5806,13 +5805,13 @@ aLine
     
 #
 slashslash
-    
-#
+:
 Strips
 everything
 after
 /
 /
+.
     
 def
 filter_slashslash
@@ -5876,8 +5875,7 @@ aLine
     
 #
 spaces
-    
-#
+:
 Collapses
 sequences
 of
@@ -5886,6 +5884,7 @@ into
 a
 single
 space
+.
     
 def
 filter_spaces
@@ -5915,18 +5914,17 @@ strip
 )
     
 #
-substition
-    
-#
-helper
-to
-be
-used
-by
-both
-substition
-and
-attemptSubstitution
+substitution
+:
+variables
+wrapped
+in
+are
+replaced
+with
+their
+value
+.
     
 def
 filter_substitution
@@ -6010,6 +6008,31 @@ sub
 repl
 aLine
 )
+    
+#
+attemptSubstitution
+:
+variables
+wrapped
+in
+are
+replaced
+with
+their
+    
+#
+value
+or
+an
+empty
+string
+if
+the
+variable
+is
+not
+defined
+.
     
 def
 filter_attemptSubstitution
