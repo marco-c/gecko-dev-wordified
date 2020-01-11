@@ -34854,6 +34854,9 @@ Throws
 "
 NeedsSubjectPrincipal
 "
+"
+Pure
+"
 ]
         
 #
