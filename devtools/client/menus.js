@@ -837,7 +837,7 @@ isActiveForTab
 (
 target
 .
-tab
+localTab
 )
 &
 &
@@ -863,7 +863,7 @@ getResponsiveUIForTab
 (
 target
 .
-tab
+localTab
 )
 ;
 await

@@ -3452,7 +3452,7 @@ toolbox
 .
 target
 .
-tab
+localTab
 ;
 const
 url
@@ -3551,7 +3551,7 @@ toolbox
 .
 target
 .
-tab
+localTab
 ;
 await
 waitForAllNetworkUpdateEvents

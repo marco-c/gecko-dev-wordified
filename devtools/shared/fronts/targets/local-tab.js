@@ -273,7 +273,7 @@ true
 ;
 }
 get
-tab
+localTab
 (
 )
 {
@@ -293,7 +293,7 @@ Target
 {
 this
 .
-tab
+localTab
 }
 ;
 }
@@ -315,7 +315,7 @@ _setupTabListeners
 {
 this
 .
-tab
+localTab
 .
 addEventListener
 (
@@ -329,7 +329,7 @@ _handleTabEvent
 ;
 this
 .
-tab
+localTab
 .
 addEventListener
 (
@@ -358,7 +358,7 @@ _teardownTabListeners
 {
 this
 .
-tab
+localTab
 .
 removeEventListener
 (
@@ -372,7 +372,7 @@ _handleTabEvent
 ;
 this
 .
-tab
+localTab
 .
 removeEventListener
 (
@@ -655,7 +655,7 @@ if
 (
 this
 .
-tab
+localTab
 .
 isResponsiveDesignMode
 )
@@ -976,7 +976,7 @@ forTab
 (
 this
 .
-tab
+localTab
 targetSwitchingEnabled
 ?
 client

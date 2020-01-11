@@ -3856,7 +3856,7 @@ if
 (
 target
 .
-tab
+localTab
 =
 =
 tab
@@ -4480,12 +4480,12 @@ if
 (
 target
 .
-tab
+localTab
 &
 &
 target
 .
-tab
+localTab
 .
 ownerDocument
 .

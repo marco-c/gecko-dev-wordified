@@ -390,7 +390,7 @@ devToolsToolbox
 .
 target
 .
-tab
+localTab
 ;
 context
 .
@@ -537,7 +537,7 @@ parentWindow
 =
 target
 .
-tab
+localTab
 .
 linkedBrowser
 .
@@ -554,7 +554,7 @@ getTabForBrowser
 (
 target
 .
-tab
+localTab
 .
 linkedBrowser
 )
@@ -1616,7 +1616,7 @@ toolbox
 .
 target
 .
-tab
+localTab
 .
 ownerGlobal
 )
@@ -2016,7 +2016,7 @@ toolbox
 .
 target
 .
-tab
+localTab
 .
 ownerGlobal
 )
@@ -2536,7 +2536,7 @@ toolbox
 .
 target
 .
-tab
+localTab
 .
 ownerGlobal
 )

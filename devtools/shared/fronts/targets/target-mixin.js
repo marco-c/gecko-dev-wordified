@@ -1079,7 +1079,7 @@ following
 getters
 :
 isLocalTab
-tab
+localTab
 .
 .
 .
@@ -1087,8 +1087,8 @@ will
 be
 overriden
 for
-local
 *
+local
 tabs
 by
 some
@@ -1108,8 +1108,8 @@ tab
 .
 js
 .
-They
 *
+They
 are
 all
 specific
@@ -1127,8 +1127,8 @@ debugging
 a
 tab
 of
-the
 *
+the
 current
 Firefox
 instance
@@ -1145,7 +1145,7 @@ false
 ;
 }
 get
-tab
+localTab
 (
 )
 {

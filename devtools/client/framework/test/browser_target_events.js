@@ -80,7 +80,7 @@ is
 (
 target
 .
-tab
+localTab
 gBrowser
 .
 selectedTab

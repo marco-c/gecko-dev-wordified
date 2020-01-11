@@ -195,7 +195,7 @@ inspector
 .
 currentTarget
 .
-tab
+localTab
 tab
 "
 Valid

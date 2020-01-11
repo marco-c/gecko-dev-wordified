@@ -6639,7 +6639,7 @@ this
 .
 _target
 .
-tab
+localTab
 ;
 const
 win
@@ -6648,7 +6648,7 @@ this
 .
 _target
 .
-tab
+localTab
 .
 ownerDocument
 .

@@ -3811,7 +3811,7 @@ toolbox
 .
 target
 .
-tab
+localTab
 ;
 const
 browserWindow
@@ -3850,7 +3850,7 @@ toolbox
 .
 target
 .
-tab
+localTab
 )
 {
 return
@@ -3866,7 +3866,7 @@ toolbox
 .
 target
 .
-tab
+localTab
 )
 ;
 }
