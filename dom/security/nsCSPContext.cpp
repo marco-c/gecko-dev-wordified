@@ -824,9 +824,6 @@ aCSPEventListener
 nsIURI
 *
 aContentLocation
-nsIURI
-*
-aRequestOrigin
 nsISupports
 *
 aRequestContext

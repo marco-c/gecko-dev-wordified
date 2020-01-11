@@ -1273,7 +1273,6 @@ js
 null
 null
 null
-null
 true
 null
 )
@@ -1640,7 +1639,6 @@ base64data
 null
 null
 null
-null
 true
 null
 )
@@ -1743,7 +1741,6 @@ sll
 null
 null
 null
-null
 true
 null
 )
@@ -1834,7 +1831,6 @@ bar
 null
 null
 null
-null
 true
 null
 )
@@ -1921,7 +1917,6 @@ profile
 png
 "
 )
-null
 null
 null
 null
