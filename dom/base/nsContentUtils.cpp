@@ -24929,6 +24929,14 @@ mCancelable
 =
 false
 ;
+widgetEvent
+.
+mFlags
+.
+mComposed
+=
+true
+;
 /
 /
 Using
