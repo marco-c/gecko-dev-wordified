@@ -1251,13 +1251,14 @@ the
 configuration
         
 sections
+defaults
 =
 read_ini
 (
 fp
 =
 fp
-variables
+defaults
 =
 defaults
 strict
@@ -1265,7 +1266,7 @@ strict
 self
 .
 strict
-                            
+                                      
 handle_defaults
 =
 self
