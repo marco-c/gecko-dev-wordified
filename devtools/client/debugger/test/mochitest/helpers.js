@@ -11662,7 +11662,7 @@ response
 await
 consoleFront
 .
-evaluateJS
+evaluateJSAsync
 (
 text
 options
