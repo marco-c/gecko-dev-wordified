@@ -9796,6 +9796,9 @@ if
 browsingContext
 )
 {
+#
+ifndef
+FUZZING
 /
 /
 NOTE
@@ -9873,6 +9876,8 @@ BrowsingContext
 "
 )
 ;
+#
+endif
 *
 aResult
 =
