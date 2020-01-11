@@ -2587,7 +2587,7 @@ ipc
 :
 :
 IPCResult
-RecvSetStatusLink
+RecvSetLinkStatus
 (
 const
 nsString

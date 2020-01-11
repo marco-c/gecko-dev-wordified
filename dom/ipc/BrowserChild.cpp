@@ -4716,7 +4716,7 @@ NS_IMETHODIMP
 BrowserChild
 :
 :
-SetStatusLink
+SetLinkStatus
 (
 const
 nsAString
@@ -4746,7 +4746,7 @@ IPCOpen
 )
 )
 {
-SendSetStatusLink
+SendSetLinkStatus
 (
 nsString
 (

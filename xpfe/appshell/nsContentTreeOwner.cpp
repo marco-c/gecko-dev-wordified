@@ -3347,7 +3347,7 @@ NS_IMETHODIMP
 nsContentTreeOwner
 :
 :
-SetStatusLink
+SetLinkStatus
 (
 const
 nsAString

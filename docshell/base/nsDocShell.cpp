@@ -80203,7 +80203,7 @@ rv
 browserChrome
 -
 >
-SetStatusLink
+SetLinkStatus
 (
 uStr
 )
@@ -80247,7 +80247,7 @@ rv
 browserChrome
 -
 >
-SetStatusLink
+SetLinkStatus
 (
 EmptyString
 (

@@ -1565,7 +1565,7 @@ browserChrome
 browserChrome
 -
 >
-SetStatusLink
+SetLinkStatus
 (
 aStatusMsg
 )
