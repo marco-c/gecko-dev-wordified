@@ -1813,7 +1813,7 @@ param
 {
 RecordingStateFromPreferences
 }
-settings
+prefs
 *
 /
 async
@@ -1821,7 +1821,7 @@ function
 setRecordingPreferencesOnDebuggee
 (
 preferenceFront
-settings
+prefs
 )
 {
 const
@@ -1844,7 +1844,7 @@ preferenceFront
 setIntPref
 (
 ENTRIES_PREF
-settings
+prefs
 .
 entries
 )
@@ -1853,7 +1853,7 @@ preferenceFront
 setIntPref
 (
 INTERVAL_PREF
-settings
+prefs
 .
 interval
 )
@@ -1866,7 +1866,7 @@ JSON
 .
 stringify
 (
-settings
+prefs
 .
 features
 )
@@ -1880,7 +1880,7 @@ JSON
 .
 stringify
 (
-settings
+prefs
 .
 threads
 )
@@ -1896,7 +1896,7 @@ JSON
 .
 stringify
 (
-settings
+prefs
 .
 objdirs
 )
