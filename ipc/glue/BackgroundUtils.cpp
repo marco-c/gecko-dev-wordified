@@ -3247,6 +3247,12 @@ GetTainting
 aLoadInfo
 -
 >
+GetBlockAllMixedContent
+(
+)
+aLoadInfo
+-
+>
 GetUpgradeInsecureRequests
 (
 )
@@ -4383,6 +4389,11 @@ loadInfoArgs
 tainting
 (
 )
+)
+loadInfoArgs
+.
+blockAllMixedContent
+(
 )
 loadInfoArgs
 .

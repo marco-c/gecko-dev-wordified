@@ -1044,6 +1044,8 @@ aContentPolicyType
 LoadTainting
 aTainting
 bool
+aBlockAllMixedContent
+bool
 aUpgradeInsecureRequests
 bool
 aBrowserUpgradeInsecureRequests
@@ -1503,6 +1505,9 @@ mInternalContentPolicyType
 ;
 LoadTainting
 mTainting
+;
+bool
+mBlockAllMixedContent
 ;
 bool
 mUpgradeInsecureRequests
