@@ -6237,6 +6237,8 @@ NS_tchar
 tmpDeleteFile
 [
 MAXPATHLEN
++
+1
 ]
 ;
 GetUUIDTempFilePath
@@ -7096,6 +7098,8 @@ NS_tchar
 path
 [
 MAXPATHLEN
++
+1
 ]
 ;
 GetUUIDTempFilePath
