@@ -2906,6 +2906,34 @@ cov_path
 )
 :
             
+#
+Avoiding
+a
+bug
+in
+Coverity
+where
+snapshot
+is
+not
+identified
+            
+#
+as
+beeing
+built
+with
+the
+current
+analysis
+binary
+.
+            
+if
+not
+full_build
+:
+                
 return
 1
         
