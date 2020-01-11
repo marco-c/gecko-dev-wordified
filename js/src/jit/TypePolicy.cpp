@@ -3877,6 +3877,13 @@ New
 (
 alloc
 in
+MToString
+:
+:
+SideEffectHandling
+:
+:
+Bailout
 )
 ;
 ins
