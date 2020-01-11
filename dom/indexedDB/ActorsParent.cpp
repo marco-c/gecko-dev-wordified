@@ -32187,7 +32187,8 @@ forget
 )
 ;
 }
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 FileInfo
 >
@@ -69476,7 +69477,7 @@ mActorDestroyed
 )
 ;
 }
-already_AddRefed
+RefPtr
 <
 FileInfo
 >
@@ -69604,10 +69605,6 @@ nullptr
 }
 return
 fileInfo
-.
-forget
-(
-)
 ;
 }
 void
