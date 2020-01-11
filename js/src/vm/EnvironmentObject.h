@@ -1961,6 +1961,14 @@ clang
 -
 format
 on
+enum
+class
+IsSingletonEnv
+{
+Yes
+No
+}
+;
 class
 EnvironmentObject
 :
@@ -3460,6 +3468,8 @@ gc
 :
 InitialHeap
 heap
+IsSingletonEnv
+isSingleton
 )
 ;
 void

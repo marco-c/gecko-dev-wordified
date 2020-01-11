@@ -560,9 +560,11 @@ ScopeKind
 )
 ;
 }
-static
 Shape
 *
+js
+:
+:
 EmptyEnvironmentShape
 (
 JSContext
