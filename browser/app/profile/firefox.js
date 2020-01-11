@@ -26039,6 +26039,8 @@ the
 console
 in
 Nightly
+and
+DevEdition
 builds
 .
 #
@@ -26046,6 +26048,12 @@ if
 defined
 (
 NIGHTLY_BUILD
+)
+|
+|
+defined
+(
+MOZ_DEV_EDITION
 )
 pref
 (
