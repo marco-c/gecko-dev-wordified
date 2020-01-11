@@ -6409,6 +6409,7 @@ the
 destination
 type
 if
+constexpr
 (
 ArrayTypeIsFloatingPoint
 (
@@ -6426,13 +6427,14 @@ d
 }
 else
 if
+constexpr
 (
 ArrayTypeIsUnsigned
 (
 )
 )
 {
-MOZ_ASSERT
+static_assert
 (
 sizeof
 (
@@ -6462,6 +6464,7 @@ n
 }
 else
 if
+constexpr
 (
 ArrayTypeID
 (
@@ -6500,7 +6503,7 @@ d
 }
 else
 {
-MOZ_ASSERT
+static_assert
 (
 sizeof
 (
