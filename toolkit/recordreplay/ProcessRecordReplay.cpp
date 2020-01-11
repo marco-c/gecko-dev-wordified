@@ -2575,7 +2575,7 @@ MOZ_EXPORT
 void
 RecordReplayInterface_InternalHoldJSObject
 (
-JSObject
+void
 *
 aJSObj
 )
@@ -2618,7 +2618,14 @@ cx
 *
 root
 =
+static_cast
+<
+JSObject
+*
+>
+(
 aJSObj
+)
 ;
 }
 }
