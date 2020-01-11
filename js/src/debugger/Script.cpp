@@ -11941,7 +11941,7 @@ offsetToPC
 offset_
 )
 ;
-BreakpointSite
+JSBreakpointSite
 *
 site
 =
@@ -12555,7 +12555,7 @@ i
 +
 )
 {
-BreakpointSite
+JSBreakpointSite
 *
 site
 =

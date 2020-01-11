@@ -165,7 +165,7 @@ namespace
 js
 {
 class
-BreakpointSite
+JSBreakpointSite
 ;
 class
 Debugger
@@ -400,7 +400,7 @@ code
 )
 :
 the
-BreakpointSite
+JSBreakpointSite
 for
 the
 opcode
@@ -442,7 +442,7 @@ length
 .
 *
 /
-BreakpointSite
+JSBreakpointSite
 *
 breakpoints
 [
@@ -515,7 +515,7 @@ codeLength
 *
 sizeof
 (
-BreakpointSite
+JSBreakpointSite
 *
 )
 ;
@@ -546,7 +546,7 @@ script
 public
 :
 static
-BreakpointSite
+JSBreakpointSite
 *
 getBreakpointSite
 (
@@ -559,7 +559,7 @@ pc
 )
 ;
 static
-BreakpointSite
+JSBreakpointSite
 *
 getOrCreateBreakpointSite
 (
