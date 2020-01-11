@@ -502,6 +502,12 @@ Drained
 override
 ;
 void
+Errored
+(
+)
+override
+;
+void
 CheckIsAudible
 (
 const
