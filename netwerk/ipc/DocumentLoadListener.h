@@ -1512,6 +1512,14 @@ status
 ;
 }
 ;
+struct
+OnAfterLastPartParams
+{
+nsresult
+status
+;
+}
+;
 typedef
 mozilla
 :
@@ -1521,6 +1529,7 @@ Variant
 OnStartRequestParams
 OnDataAvailableParams
 OnStopRequestParams
+OnAfterLastPartParams
 >
 StreamListenerFunction
 ;

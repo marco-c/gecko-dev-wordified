@@ -242,6 +242,13 @@ nsIDeprecationWarner
 .
 h
 "
+#
+include
+"
+nsIMultiPartChannel
+.
+h
+"
 class
 nsICacheEntry
 ;
@@ -365,6 +372,8 @@ public
 nsIChannelEventSink
 public
 nsIRedirectResultListener
+public
+nsIMultiPartChannelListener
 {
 virtual
 ~
@@ -386,6 +395,7 @@ NS_DECL_NSIDEPRECATIONWARNER
 NS_DECL_NSIASYNCVERIFYREDIRECTREADYCALLBACK
 NS_DECL_NSICHANNELEVENTSINK
 NS_DECL_NSIREDIRECTRESULTLISTENER
+NS_DECL_NSIMULTIPARTCHANNELLISTENER
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
 HTTP_CHANNEL_PARENT_IID
