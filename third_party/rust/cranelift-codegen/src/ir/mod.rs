@@ -121,6 +121,7 @@ InsertBuilder
 InstBuilder
 InstBuilderBase
 InstInserterBase
+ReplaceBuilder
 }
 ;
 pub
@@ -724,7 +725,7 @@ transform
 .
 Starts
 (
-std
+alloc
 :
 :
 vec

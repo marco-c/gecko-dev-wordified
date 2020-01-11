@@ -89,6 +89,9 @@ RISCV
 encodings
 .
 pub
+(
+crate
+)
 struct
 RecipeGroup
 <

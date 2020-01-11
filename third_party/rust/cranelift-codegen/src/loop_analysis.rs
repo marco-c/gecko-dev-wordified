@@ -103,7 +103,7 @@ crate
 timing
 ;
 use
-std
+alloc
 :
 :
 vec
@@ -1778,7 +1778,7 @@ LoopAnalysis
 }
 ;
 use
-std
+alloc
 :
 :
 vec

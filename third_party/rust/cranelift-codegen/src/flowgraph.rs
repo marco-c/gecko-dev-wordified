@@ -1724,7 +1724,7 @@ InstBuilder
 }
 ;
 use
-std
+alloc
 :
 :
 vec

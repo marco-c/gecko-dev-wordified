@@ -4338,6 +4338,7 @@ let
 ireduce_ty
 =
 match
+(
 dest_ty
 .
 lane_bits
@@ -4345,8 +4346,12 @@ lane_bits
 )
 as
 i64
--
+)
+.
+wrapping_sub
+(
 imm_bits
+)
 {
 8
 =

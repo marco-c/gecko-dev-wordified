@@ -80,7 +80,10 @@ crate
 state
 :
 :
-TranslationState
+{
+FuncTranslationState
+ModuleTranslationState
+}
 ;
 use
 crate
@@ -2314,7 +2317,7 @@ FunctionBuilder
 _state
 :
 &
-TranslationState
+FuncTranslationState
 )
 -
 >
@@ -2376,7 +2379,7 @@ FunctionBuilder
 _state
 :
 &
-TranslationState
+FuncTranslationState
 )
 -
 >
@@ -3560,6 +3563,10 @@ define_function_body
 &
 mut
 self
+module_translation_state
+:
+&
+ModuleTranslationState
 body_bytes
 :
 &

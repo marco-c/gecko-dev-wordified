@@ -1899,7 +1899,7 @@ super
 *
 ;
 use
-std
+alloc
 :
 :
 string

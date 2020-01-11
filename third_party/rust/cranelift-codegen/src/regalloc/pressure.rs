@@ -476,7 +476,6 @@ registers
 RegClass
 RegClassMask
 RegInfo
-MAX_TRACKED_TOPRCS
 }
 ;
 use
@@ -511,6 +510,15 @@ iter
 :
 :
 ExactSizeIterator
+;
+use
+cranelift_codegen_shared
+:
+:
+constants
+:
+:
+MAX_TRACKED_TOP_RCS
 ;
 /
 /
@@ -554,6 +562,7 @@ TopRC
 {
 /
 /
+/
 Number
 of
 registers
@@ -572,6 +581,7 @@ transient_count
 u32
 /
 /
+/
 Max
 number
 of
@@ -586,6 +596,7 @@ limit
 u32
 /
 /
+/
 Register
 units
 per
@@ -594,6 +605,7 @@ register
 width
 :
 u8
+/
 /
 /
 The
@@ -607,6 +619,7 @@ RC
 first_toprc
 :
 u8
+/
 /
 /
 The
@@ -650,6 +663,7 @@ Pressure
 {
 /
 /
+/
 Bit
 mask
 of
@@ -671,6 +685,7 @@ classes
 .
 /
 /
+/
 Unaliased
 register
 classes
@@ -684,6 +699,7 @@ algorithm
 aliased
 :
 RegClassMask
+/
 /
 /
 Current
@@ -701,7 +717,7 @@ toprc
 [
 TopRC
 ;
-MAX_TRACKED_TOPRCS
+MAX_TRACKED_TOP_RCS
 ]
 }
 impl
@@ -913,7 +929,7 @@ min
 first
 +
 num
-MAX_TRACKED_TOPRCS
+MAX_TRACKED_TOP_RCS
 )
 ]
 {
@@ -2192,6 +2208,15 @@ regalloc
 RegisterSet
 ;
 use
+alloc
+:
+:
+boxed
+:
+:
+Box
+;
+use
 core
 :
 :
@@ -2208,15 +2233,6 @@ str
 :
 :
 FromStr
-;
-use
-std
-:
-:
-boxed
-:
-:
-Box
 ;
 use
 target_lexicon

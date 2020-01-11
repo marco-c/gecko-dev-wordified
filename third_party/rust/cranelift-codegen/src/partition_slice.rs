@@ -328,7 +328,7 @@ super
 partition_slice
 ;
 use
-std
+alloc
 :
 :
 vec

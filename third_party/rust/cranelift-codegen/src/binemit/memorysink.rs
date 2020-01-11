@@ -962,7 +962,7 @@ self
 offset
 +
 =
-std
+core
 :
 :
 mem
