@@ -20195,12 +20195,6 @@ aEnabled
 SetRenderLayersInternal
 (
 aEnabled
-false
-/
-*
-aForceRepaint
-*
-/
 )
 ;
 }
@@ -20212,8 +20206,6 @@ SetRenderLayersInternal
 (
 bool
 aEnabled
-bool
-aForceRepaint
 )
 {
 /
@@ -20249,7 +20241,6 @@ Unused
 SendRenderLayers
 (
 aEnabled
-aForceRepaint
 mLayerTreeEpoch
 )
 ;
@@ -20289,7 +20280,6 @@ Manager
 PaintTabWhileInterruptingJS
 (
 this
-aForceRepaint
 mLayerTreeEpoch
 )
 ;
@@ -20382,12 +20372,6 @@ true
 /
 *
 aEnabled
-*
-/
-true
-/
-*
-aForceRepaint
 *
 /
 )

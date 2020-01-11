@@ -4574,8 +4574,6 @@ SetRenderLayersInternal
 (
 bool
 aEnabled
-bool
-aForceRepaint
 )
 ;
 already_AddRefed

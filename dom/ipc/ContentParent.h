@@ -3244,8 +3244,6 @@ PaintTabWhileInterruptingJS
 BrowserParent
 *
 aBrowserParent
-bool
-aForceRepaint
 const
 layers
 :

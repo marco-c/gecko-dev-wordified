@@ -906,10 +906,6 @@ TabId
 &
 aTabId
 const
-bool
-&
-aForceRepaint
-const
 LayersObserverEpoch
 &
 aEpoch
@@ -1128,9 +1124,6 @@ mFinishedStartingDebugger
 ;
 bool
 mPaintWhileInterruptingJS
-;
-bool
-mPaintWhileInterruptingJSForce
 ;
 TabId
 mPaintWhileInterruptingJSTab
@@ -1547,8 +1540,6 @@ dom
 BrowserParent
 *
 aBrowserParent
-bool
-aForceRepaint
 const
 LayersObserverEpoch
 &
@@ -1739,8 +1730,6 @@ PaintWhileInterruptingJSOnThread
 (
 TabId
 aTabId
-bool
-aForceRepaint
 const
 LayersObserverEpoch
 &
@@ -1957,10 +1946,6 @@ mPaintWhileInterruptingJS
 (
 false
 )
-mPaintWhileInterruptingJSForce
-(
-false
-)
 mCancelContentJS
 (
 false
@@ -2174,9 +2159,6 @@ true
 bool
 paintWhileInterruptingJS
 ;
-bool
-paintWhileInterruptingJSForce
-;
 TabId
 paintWhileInterruptingJSTab
 ;
@@ -2193,10 +2175,6 @@ mMonitor
 paintWhileInterruptingJS
 =
 mPaintWhileInterruptingJS
-;
-paintWhileInterruptingJSForce
-=
-mPaintWhileInterruptingJSForce
 ;
 paintWhileInterruptingJSTab
 =
@@ -2250,7 +2228,6 @@ browserChild
 PaintWhileInterruptingJS
 (
 paintWhileInterruptingJSEpoch
-paintWhileInterruptingJSForce
 )
 ;
 }
@@ -3005,10 +2982,6 @@ TabId
 &
 aTabId
 const
-bool
-&
-aForceRepaint
-const
 LayersObserverEpoch
 &
 aEpoch
@@ -3035,10 +3008,6 @@ MaybeStartPaintWhileInterruptingJS
 mPaintWhileInterruptingJS
 =
 true
-;
-mPaintWhileInterruptingJSForce
-=
-aForceRepaint
 ;
 mPaintWhileInterruptingJSTab
 =
@@ -4010,8 +3979,6 @@ dom
 BrowserParent
 *
 aTab
-bool
-aForceRepaint
 const
 LayersObserverEpoch
 &
@@ -4050,7 +4017,6 @@ Dispatch
 NewNonOwningRunnableMethod
 <
 TabId
-bool
 LayersObserverEpoch
 >
 (
@@ -4067,7 +4033,6 @@ HangMonitorParent
 :
 PaintWhileInterruptingJSOnThread
 id
-aForceRepaint
 aEpoch
 )
 )
@@ -4082,8 +4047,6 @@ PaintWhileInterruptingJSOnThread
 (
 TabId
 aTabId
-bool
-aForceRepaint
 const
 LayersObserverEpoch
 &
@@ -4108,7 +4071,6 @@ Unused
 SendPaintWhileInterruptingJS
 (
 aTabId
-aForceRepaint
 aEpoch
 )
 ;
@@ -7232,8 +7194,6 @@ dom
 BrowserParent
 *
 aBrowserParent
-bool
-aForceRepaint
 const
 layers
 :
@@ -7268,7 +7228,6 @@ parent
 PaintWhileInterruptingJS
 (
 aBrowserParent
-aForceRepaint
 aEpoch
 )
 ;

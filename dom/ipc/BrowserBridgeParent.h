@@ -467,10 +467,6 @@ bool
 &
 aEnabled
 const
-bool
-&
-aForceRepaint
-const
 LayersObserverEpoch
 &
 aEpoch
