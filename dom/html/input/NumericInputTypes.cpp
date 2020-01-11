@@ -524,7 +524,7 @@ return
 nsContentUtils
 :
 :
-FormatMaybeLocalizedString
+FormatLocalizedString
 (
 aMessage
 nsContentUtils
@@ -534,12 +534,6 @@ eDOM_PROPERTIES
 "
 FormValidationNumberRangeOverflow
 "
-mInputElement
--
->
-OwnerDoc
-(
-)
 maxStr
 )
 ;
@@ -632,7 +626,7 @@ return
 nsContentUtils
 :
 :
-FormatMaybeLocalizedString
+FormatLocalizedString
 (
 aMessage
 nsContentUtils
@@ -642,12 +636,6 @@ eDOM_PROPERTIES
 "
 FormValidationNumberRangeUnderflow
 "
-mInputElement
--
->
-OwnerDoc
-(
-)
 minStr
 )
 ;
@@ -978,7 +966,7 @@ return
 nsContentUtils
 :
 :
-GetMaybeLocalizedString
+GetLocalizedString
 (
 nsContentUtils
 :
@@ -987,12 +975,6 @@ eDOM_PROPERTIES
 "
 FormValidationBadInputNumber
 "
-mInputElement
--
->
-OwnerDoc
-(
-)
 aMessage
 )
 ;
@@ -1012,7 +994,7 @@ return
 nsContentUtils
 :
 :
-GetMaybeLocalizedString
+GetLocalizedString
 (
 nsContentUtils
 :
@@ -1021,12 +1003,6 @@ eDOM_PROPERTIES
 "
 FormValidationBadInputNumber
 "
-mInputElement
--
->
-OwnerDoc
-(
-)
 aMessage
 )
 ;

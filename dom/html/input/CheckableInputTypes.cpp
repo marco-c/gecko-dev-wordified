@@ -201,7 +201,7 @@ return
 nsContentUtils
 :
 :
-GetMaybeLocalizedString
+GetLocalizedString
 (
 nsContentUtils
 :
@@ -210,12 +210,6 @@ eDOM_PROPERTIES
 "
 FormValidationCheckboxMissing
 "
-mInputElement
--
->
-OwnerDoc
-(
-)
 aMessage
 )
 ;
@@ -243,7 +237,7 @@ return
 nsContentUtils
 :
 :
-GetMaybeLocalizedString
+GetLocalizedString
 (
 nsContentUtils
 :
@@ -252,12 +246,6 @@ eDOM_PROPERTIES
 "
 FormValidationRadioMissing
 "
-mInputElement
--
->
-OwnerDoc
-(
-)
 aMessage
 )
 ;
