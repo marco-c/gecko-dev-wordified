@@ -402,6 +402,15 @@ uint64_t
 aNewSharedID
 )
 ;
+NS_IMETHODIMP
+GetBfcacheID
+(
+uint64_t
+*
+aBFCacheID
+)
+override
+;
 uint64_t
 GetSharedStateID
 (
