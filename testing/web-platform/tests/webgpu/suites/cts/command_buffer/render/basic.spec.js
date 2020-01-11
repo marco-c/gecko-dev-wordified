@@ -309,7 +309,6 @@ finish
 ]
 )
 ;
-await
 t
 .
 expectContents

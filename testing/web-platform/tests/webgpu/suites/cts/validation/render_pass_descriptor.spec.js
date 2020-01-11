@@ -262,7 +262,6 @@ endPass
 (
 )
 ;
-await
 this
 .
 expectValidationError
@@ -444,7 +443,7 @@ t
 const
 {
 colorAttachmentsCount
-success
+_success
 }
 =
 t
@@ -500,7 +499,7 @@ t
 .
 tryRenderPass
 (
-success
+_success
 {
 colorAttachments
 }
@@ -516,7 +515,7 @@ params
 colorAttachmentsCount
 :
 4
-success
+_success
 :
 true
 }
@@ -528,7 +527,7 @@ case
 colorAttachmentsCount
 :
 5
-success
+_success
 :
 false
 }
@@ -976,7 +975,7 @@ const
 {
 arrayLayerCount
 baseArrayLayer
-success
+_success
 }
 =
 t
@@ -1127,7 +1126,7 @@ t
 .
 tryRenderPass
 (
-success
+_success
 descriptor
 )
 ;
@@ -1180,7 +1179,7 @@ t
 .
 tryRenderPass
 (
-success
+_success
 descriptor
 )
 ;
@@ -1198,7 +1197,7 @@ arrayLayerCount
 baseArrayLayer
 :
 0
-success
+_success
 :
 false
 }
@@ -1223,7 +1222,7 @@ arrayLayerCount
 baseArrayLayer
 :
 0
-success
+_success
 :
 true
 }
@@ -1251,7 +1250,7 @@ arrayLayerCount
 baseArrayLayer
 :
 9
-success
+_success
 :
 true
 }
@@ -1299,7 +1298,7 @@ const
 {
 mipLevelCount
 baseMipLevel
-success
+_success
 }
 =
 t
@@ -1447,7 +1446,7 @@ t
 .
 tryRenderPass
 (
-success
+_success
 descriptor
 )
 ;
@@ -1499,7 +1498,7 @@ t
 .
 tryRenderPass
 (
-success
+_success
 descriptor
 )
 ;
@@ -1517,7 +1516,7 @@ mipLevelCount
 baseMipLevel
 :
 0
-success
+_success
 :
 false
 }
@@ -1541,7 +1540,7 @@ mipLevelCount
 baseMipLevel
 :
 0
-success
+_success
 :
 true
 }
@@ -1568,7 +1567,7 @@ mipLevelCount
 baseMipLevel
 :
 3
-success
+_success
 :
 true
 }
@@ -2297,7 +2296,6 @@ getColorAttachment
 multisampledColorTexture
 )
 ;
-await
 t
 .
 expectValidationError

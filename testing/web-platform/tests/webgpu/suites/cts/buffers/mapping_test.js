@@ -135,7 +135,6 @@ unmap
 (
 )
 ;
-return
 this
 .
 expectContents

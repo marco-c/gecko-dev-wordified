@@ -239,7 +239,6 @@ submit
 ]
 )
 ;
-await
 t
 .
 expectValidationError

@@ -606,7 +606,6 @@ endPass
 (
 )
 ;
-await
 t
 .
 expectValidationError
@@ -1020,7 +1019,6 @@ endPass
 )
 ;
 }
-await
 t
 .
 expectValidationError

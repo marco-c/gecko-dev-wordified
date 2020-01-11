@@ -398,7 +398,6 @@ layout
 bindGroupLayout
 }
 ;
-await
 t
 .
 expectValidationError
@@ -561,7 +560,6 @@ layout
 bindGroupLayout
 }
 ;
-await
 t
 .
 expectValidationError
@@ -851,7 +849,6 @@ shouldError
 false
 ;
 }
-await
 t
 .
 expectValidationError
@@ -895,7 +892,6 @@ params
 (
 pcombine
 (
-[
 poptions
 (
 '
@@ -968,7 +964,6 @@ texture
 '
 ]
 )
-]
 )
 )
 ;
@@ -1243,7 +1238,6 @@ usage
 =
 mismatchedTextureUsage
 ;
-await
 t
 .
 expectValidationError
@@ -1620,7 +1614,6 @@ format
 =
 mismatchedTextureFormat
 ;
-await
 t
 .
 expectValidationError
@@ -1855,7 +1848,6 @@ arrayLayerCount
 =
 2
 ;
-await
 t
 .
 expectValidationError
@@ -1930,7 +1922,7 @@ const
 {
 offset
 size
-success
+_success
 }
 =
 t
@@ -2019,7 +2011,7 @@ bindGroupLayout
 ;
 if
 (
-success
+_success
 )
 {
 /
@@ -2054,7 +2046,6 @@ in
 bind
 groups
 .
-await
 t
 .
 expectValidationError
@@ -2090,7 +2081,7 @@ offset
 size
 :
 512
-success
+_success
 :
 true
 }
@@ -2107,7 +2098,7 @@ offset
 size
 :
 256
-success
+_success
 :
 true
 }
@@ -2134,7 +2125,7 @@ offset
 size
 :
 256
-success
+_success
 :
 false
 }
@@ -2145,7 +2136,7 @@ offset
 size
 :
 undefined
-success
+_success
 :
 false
 }
@@ -2156,7 +2147,7 @@ offset
 size
 :
 256
-success
+_success
 :
 false
 }
@@ -2167,7 +2158,7 @@ offset
 size
 :
 256
-success
+_success
 :
 false
 }
@@ -2178,7 +2169,7 @@ offset
 size
 :
 256
-success
+_success
 :
 true
 }
@@ -2200,7 +2191,7 @@ offset
 size
 :
 256
-success
+_success
 :
 true
 }
@@ -2220,7 +2211,7 @@ offset
 size
 :
 0
-success
+_success
 :
 true
 }
@@ -2240,7 +2231,7 @@ offset
 size
 :
 1024
-success
+_success
 :
 true
 }
@@ -2258,7 +2249,7 @@ offset
 size
 :
 undefined
-success
+_success
 :
 true
 }
@@ -2278,7 +2269,7 @@ offset
 size
 :
 0
-success
+_success
 :
 false
 }
@@ -2296,7 +2287,7 @@ size
 256
 *
 5
-success
+_success
 :
 false
 }
@@ -2312,7 +2303,7 @@ offset
 size
 :
 1
-success
+_success
 :
 false
 }
@@ -2331,7 +2322,7 @@ size
 :
 -
 256
-success
+_success
 :
 false
 }

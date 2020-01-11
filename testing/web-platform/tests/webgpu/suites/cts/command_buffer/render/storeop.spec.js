@@ -966,11 +966,10 @@ t
 .
 params
 .
-expected
+_expected
 ]
 )
 ;
-await
 t
 .
 expectContents
@@ -991,7 +990,7 @@ storeOp
 '
 store
 '
-expected
+_expected
 :
 255
 }
@@ -1003,7 +1002,7 @@ storeOp
 '
 clear
 '
-expected
+_expected
 :
 0
 }
