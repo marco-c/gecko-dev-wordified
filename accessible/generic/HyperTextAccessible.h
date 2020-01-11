@@ -2626,6 +2626,7 @@ const
 /
 /
 EditableTextAccessible
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 ReplaceText
 (
@@ -2635,6 +2636,7 @@ nsAString
 aText
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 InsertText
 (
