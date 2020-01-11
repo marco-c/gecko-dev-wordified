@@ -5623,12 +5623,6 @@ aName
 ;
 }
 }
-aName
-.
-CompressWhitespace
-(
-)
-;
 }
 void
 Accessible
@@ -5942,6 +5936,12 @@ aName
 )
 ;
 }
+aName
+.
+CompressWhitespace
+(
+)
+;
 }
 nsresult
 Accessible
