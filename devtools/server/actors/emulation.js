@@ -2601,7 +2601,7 @@ this
 .
 docShell
 .
-document
+browsingContext
 .
 inRDMPane
 =
