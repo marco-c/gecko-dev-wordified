@@ -923,13 +923,6 @@ example
 com
 /
 "
-/
-*
-autoremove
-=
-*
-/
-false
 )
 ;
 }
