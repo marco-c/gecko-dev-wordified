@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_MediaKeySystemAccessManager_h
+DOM_MEDIA_MEDIAKEYSYSTEMACCESSMANAGER_H_
 #
 define
-mozilla_dom_MediaKeySystemAccessManager_h
+DOM_MEDIA_MEDIAKEYSYSTEMACCESSMANAGER_H_
 #
 include
 "
@@ -76,14 +76,14 @@ h
 #
 include
 "
-nsIObserver
+nsCycleCollectionParticipant
 .
 h
 "
 #
 include
 "
-nsCycleCollectionParticipant
+nsIObserver
 .
 h
 "
@@ -1077,3 +1077,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+DOM_MEDIA_MEDIAKEYSYSTEMACCESSMANAGER_H_
