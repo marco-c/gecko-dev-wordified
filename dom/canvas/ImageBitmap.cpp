@@ -6472,7 +6472,7 @@ aMainThreadEventTarget
 )
 mThread
 (
-GetCurrentVirtualThread
+PR_GetCurrentThread
 (
 )
 )
@@ -6495,7 +6495,7 @@ return
 mThread
 =
 =
-GetCurrentVirtualThread
+PR_GetCurrentThread
 (
 )
 ;

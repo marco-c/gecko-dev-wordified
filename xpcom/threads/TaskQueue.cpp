@@ -990,7 +990,7 @@ in
 mRunningThread
 =
 =
-GetCurrentPhysicalThread
+PR_GetCurrentThread
 (
 )
 ;
