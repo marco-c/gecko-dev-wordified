@@ -241,6 +241,7 @@ by
 BytecodeEmitter
 .
 Spread
+YieldStar
 }
 ;
 static
@@ -305,6 +306,15 @@ StatementKind
 :
 :
 Spread
+|
+|
+kind
+=
+=
+StatementKind
+:
+:
+YieldStar
 ;
 }
 static
