@@ -13560,7 +13560,10 @@ mozilla
 StyleWindowDragging
 mWindowDragging
 ;
-uint8_t
+mozilla
+:
+:
+StyleWindowShadow
 mWindowShadow
 ;
 float

@@ -24372,7 +24372,10 @@ Default
 )
 mWindowShadow
 (
-NS_STYLE_WINDOW_SHADOW_DEFAULT
+StyleWindowShadow
+:
+:
+Default
 )
 mWindowOpacity
 (
