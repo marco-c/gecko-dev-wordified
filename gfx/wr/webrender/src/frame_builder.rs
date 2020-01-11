@@ -3001,6 +3001,7 @@ clip_scroll_tree
 update_tree
 (
 pan
+global_device_pixel_scale
 scene_properties
 )
 ;

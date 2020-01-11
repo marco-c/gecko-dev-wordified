@@ -3734,6 +3734,7 @@ clip_scroll_tree
 update_tree
 (
 pan
+accumulated_scale_factor
 &
 self
 .
