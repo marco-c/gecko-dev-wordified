@@ -357,6 +357,9 @@ aTimestamp
 jitterAdjusted
 aHeader
 .
+timestamp
+aHeader
+.
 extension
 .
 hasAudioLevel
@@ -468,6 +471,9 @@ Insert
 (
 aTimestamp
 jitterAdjusted
+aHeader
+.
+timestamp
 hasLevel
 level
 )
@@ -573,6 +579,15 @@ entry
 -
 >
 jitterAdjustedTimestamp
+;
+domEntry
+.
+mRtpTimestamp
+=
+entry
+-
+>
+rtpTimestamp
 ;
 if
 (
@@ -1016,6 +1031,9 @@ const
 int64_t
 aTimestamp
 const
+uint32_t
+aRtpTimestamp
+const
 bool
 aHasAudioLevel
 const
@@ -1032,6 +1050,7 @@ aTimestamp
 Update
 (
 aTimestamp
+aRtpTimestamp
 aHasAudioLevel
 aAudioLevel
 )
