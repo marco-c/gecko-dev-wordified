@@ -464,6 +464,9 @@ assign
 objectInspectorProps
 {
 useQuotes
+transformEmptyString
+:
+true
 escapeWhitespace
 style
 :
