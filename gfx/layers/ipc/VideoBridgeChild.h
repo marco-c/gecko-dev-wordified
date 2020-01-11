@@ -134,6 +134,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+VideoBridgeUtils
+.
+h
+"
+#
+include
+"
 ISurfaceAllocator
 .
 h
