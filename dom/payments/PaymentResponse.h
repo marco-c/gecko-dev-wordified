@@ -753,7 +753,8 @@ aPayerPhone
 void
 RejectRetry
 (
-nsresult
+ErrorResult
+&
 aRejectReason
 )
 ;
@@ -773,7 +774,7 @@ PaymentValidationErrors
 aErrors
 )
 ;
-nsresult
+void
 ConvertPaymentMethodErrors
 (
 JSContext
@@ -783,9 +784,9 @@ const
 PaymentValidationErrors
 &
 aErrors
-nsAString
+ErrorResult
 &
-aErrorMsg
+aRv
 )
 const
 ;
