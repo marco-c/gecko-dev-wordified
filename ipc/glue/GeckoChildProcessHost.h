@@ -1870,6 +1870,14 @@ sMutex
 ;
 }
 ;
+nsCOMPtr
+<
+nsIEventTarget
+>
+GetIPCLauncher
+(
+)
+;
 }
 /
 *
