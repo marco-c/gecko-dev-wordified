@@ -25639,7 +25639,7 @@ intersection
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 bounds
 .
@@ -25685,12 +25685,12 @@ wr
 :
 :
 LayoutRect
-roundedRect
+r
 =
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 bounds
 )
@@ -25699,8 +25699,8 @@ aBuilder
 .
 PushRect
 (
-roundedRect
-roundedRect
+r
+r
 !
 BackfaceIsHidden
 (
@@ -26024,12 +26024,12 @@ wr
 :
 :
 LayoutRect
-roundedRect
+r
 =
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 layerRects
 )
@@ -26038,8 +26038,8 @@ aBuilder
 .
 PushRect
 (
-roundedRect
-roundedRect
+r
+r
 !
 BackfaceIsHidden
 (
@@ -34083,12 +34083,12 @@ wr
 :
 :
 LayoutRect
-roundedRect
+r
 =
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 bounds
 )
@@ -34097,8 +34097,8 @@ aBuilder
 .
 PushRect
 (
-roundedRect
-roundedRect
+r
+r
 !
 BackfaceIsHidden
 (
@@ -35250,7 +35250,7 @@ PushClearRect
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 bounds
 )
@@ -36425,7 +36425,7 @@ rect
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 devRect
 )
@@ -36856,7 +36856,7 @@ caret
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 devCaretRect
 )
@@ -36870,7 +36870,7 @@ hook
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 devHookRect
 )
@@ -38589,7 +38589,7 @@ deviceBoxRect
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 deviceBox
 )
@@ -38603,7 +38603,7 @@ deviceClipRect
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 clipRect
 )
@@ -39422,7 +39422,7 @@ deviceClipRect
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 clipRect
 )
@@ -50736,7 +50736,7 @@ DefineStickyFrame
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 bounds
 )
@@ -66255,7 +66255,7 @@ rect
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 LayoutDeviceRect
 :
@@ -66424,7 +66424,7 @@ rect
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 LayoutDeviceRect
 :
@@ -66670,7 +66670,7 @@ Nothing
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 aBounds
 )
@@ -69391,7 +69391,7 @@ Nothing
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 devPxRect
 )
