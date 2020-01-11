@@ -213,7 +213,7 @@ target
 await
 addonFront
 .
-connect
+getTarget
 (
 )
 ;

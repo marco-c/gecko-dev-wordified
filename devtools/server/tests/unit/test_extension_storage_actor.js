@@ -491,7 +491,7 @@ target
 await
 front
 .
-connect
+getTarget
 (
 )
 ;
