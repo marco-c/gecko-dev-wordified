@@ -72,11 +72,12 @@ pytest
 from
 tryselect
 .
-templates
+task_config
 import
-all_templates
+all_task_configs
 #
-templates
+task
+configs
 have
 a
 list
@@ -89,7 +90,7 @@ form
 input
 expected
 )
-TEMPLATE_TESTS
+TASK_CONFIG_TESTS
 =
 {
     
@@ -406,7 +407,7 @@ pytest
 .
 fixture
 def
-template_patch_resolver
+config_patch_resolver
 (
 patch_resolver
 )
@@ -448,10 +449,10 @@ paths
 return
 inner
 def
-test_templates
+test_task_configs
 (
-template_patch_resolver
-template
+config_patch_resolver
+task_config
 args
 expected
 )
@@ -463,16 +464,16 @@ ArgumentParser
 (
 )
     
-t
+cfg
 =
-all_templates
+all_task_configs
 [
-template
+task_config
 ]
 (
 )
     
-t
+cfg
 .
 add_arguments
 (
@@ -513,7 +514,7 @@ args
 )
             
 if
-template
+task_config
 =
 =
 '
@@ -521,7 +522,7 @@ path
 '
 :
                 
-template_patch_resolver
+config_patch_resolver
 (
 *
 *
@@ -531,7 +532,7 @@ args
 )
 )
             
-t
+cfg
 .
 try_config
 (
@@ -556,7 +557,7 @@ args
 )
         
 if
-template
+task_config
 =
 =
 '
@@ -564,7 +565,7 @@ path
 '
 :
             
-template_patch_resolver
+config_patch_resolver
 (
 *
 *
@@ -575,7 +576,7 @@ args
 )
         
 assert
-t
+cfg
 .
 try_config
 (

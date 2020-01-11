@@ -414,7 +414,7 @@ fixture
 in
 (
 '
-template
+task_config
 '
 '
 args
@@ -433,14 +433,14 @@ load_tests
 :
             
 for
-template
+task_config
 tests
 in
 metafunc
 .
 module
 .
-TEMPLATE_TESTS
+TASK_CONFIG_TESTS
 .
 items
 (
@@ -456,7 +456,7 @@ tests
                     
 yield
 (
-template
+task_config
 args
 expected
 )
@@ -512,7 +512,7 @@ metafunc
 parametrize
 (
 '
-template
+task_config
 args
 expected
 '

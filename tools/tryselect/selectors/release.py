@@ -417,7 +417,7 @@ push
 '
 ]
     
-templates
+task_configs
 =
 [
 '
