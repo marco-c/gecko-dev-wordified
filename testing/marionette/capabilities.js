@@ -2533,9 +2533,9 @@ webdriver
 "
 browserName
 "
-appinfo
-.
-name
+getWebDriverBrowserName
+(
+)
 ]
 [
 "
