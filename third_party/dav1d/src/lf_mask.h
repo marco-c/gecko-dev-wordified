@@ -488,10 +488,6 @@ const
 ptrdiff_t
 b4_stride
 const
-Dav1dFrameHeader
-*
-hdr
-const
 uint8_t
 (
 *
@@ -554,10 +550,6 @@ level_cache
 const
 ptrdiff_t
 b4_stride
-const
-Dav1dFrameHeader
-*
-hdr
 const
 uint8_t
 (
