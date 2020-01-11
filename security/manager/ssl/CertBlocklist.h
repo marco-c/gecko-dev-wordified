@@ -425,7 +425,7 @@ const
 char
 *
 aPref
-CertBlocklist
+void
 *
 aBlocklist
 )
