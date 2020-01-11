@@ -2181,7 +2181,7 @@ clearScriptCounts
 (
 )
 ;
-clearScriptNames
+clearScriptLCov
 (
 )
 ;
@@ -4317,7 +4317,7 @@ clearScriptCounts
 (
 )
 ;
-clearScriptNames
+clearScriptLCov
 (
 )
 ;
@@ -4450,7 +4450,7 @@ void
 Realm
 :
 :
-clearScriptNames
+clearScriptLCov
 (
 )
 {
@@ -4459,7 +4459,7 @@ zone
 )
 -
 >
-clearScriptNames
+clearScriptLCov
 (
 this
 )

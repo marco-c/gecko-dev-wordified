@@ -51151,7 +51151,7 @@ MOZ_ASSERT
 sourceZone
 -
 >
-scriptNameMap
+scriptLCovMap
 )
 ;
 MOZ_ASSERT

@@ -5272,19 +5272,19 @@ script
 }
 if
 (
-scriptNameMap
+scriptLCovMap
 )
 {
 for
 (
-ScriptNameMap
+ScriptLCovMap
 :
 :
 Enum
 e
 (
 *
-scriptNameMap
+scriptLCovMap
 )
 ;
 !
@@ -5624,7 +5624,7 @@ front
 }
 if
 (
-scriptNameMap
+scriptLCovMap
 )
 {
 for
@@ -5632,7 +5632,7 @@ for
 auto
 r
 =
-scriptNameMap
+scriptLCovMap
 -
 >
 all
@@ -5688,7 +5688,7 @@ script
 auto
 ptr
 =
-scriptNameMap
+scriptLCovMap
 -
 >
 lookup
@@ -6068,7 +6068,7 @@ void
 Zone
 :
 :
-clearScriptNames
+clearScriptLCov
 (
 Realm
 *
@@ -6078,7 +6078,7 @@ realm
 if
 (
 !
-scriptNameMap
+scriptLCovMap
 )
 {
 return
@@ -6089,7 +6089,7 @@ for
 auto
 i
 =
-scriptNameMap
+scriptLCovMap
 -
 >
 modIter
