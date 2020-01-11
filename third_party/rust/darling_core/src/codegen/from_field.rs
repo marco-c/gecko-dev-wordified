@@ -39,7 +39,7 @@ use
 util
 :
 :
-IdentList
+PathList
 ;
 /
 /
@@ -125,7 +125,7 @@ attr_names
 &
 '
 a
-IdentList
+PathList
 pub
 forward_attrs
 :
@@ -526,7 +526,7 @@ self
 -
 >
 &
-IdentList
+PathList
 {
 &
 self

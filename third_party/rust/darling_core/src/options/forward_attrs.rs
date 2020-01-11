@@ -8,7 +8,7 @@ use
 util
 :
 :
-IdentList
+PathList
 ;
 use
 {
@@ -48,7 +48,7 @@ ForwardAttrs
 All
 Only
 (
-IdentList
+PathList
 )
 }
 impl
@@ -155,7 +155,7 @@ ForwardAttrs
 :
 Only
 (
-IdentList
+PathList
 :
 :
 from_list
