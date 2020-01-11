@@ -1252,11 +1252,6 @@ bool
 aVisible
 )
 ;
-bool
-GetContentScrollbarVisibility
-(
-)
-;
 void
 PersistentAttributesDirty
 (
