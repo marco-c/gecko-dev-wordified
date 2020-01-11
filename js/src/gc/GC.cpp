@@ -6271,7 +6271,7 @@ nullptr
 )
 stats_
 (
-rt
+this
 )
 marker
 (
@@ -54547,7 +54547,6 @@ stats
 .
 renderNurseryJson
 (
-rt
 )
 ;
 }
