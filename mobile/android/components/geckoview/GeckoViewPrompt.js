@@ -6601,6 +6601,15 @@ save
 "
 )
 ;
+GeckoViewLoginStorage
+.
+onLoginSave
+(
+result
+.
+login
+)
+;
 }
 )
 ;
