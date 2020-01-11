@@ -2741,8 +2741,8 @@ numAddressBits
 #
 endif
 #
-ifndef
-XP_WIN
+ifdef
+RLIMIT_AS
 rlimit
 as_limit
 ;
