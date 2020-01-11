@@ -226,11 +226,6 @@ IntlGuardToDateTimeFormat
 \
 _
 (
-IntlGuardToLocale
-)
-\
-_
-(
 IntlGuardToNumberFormat
 )
 \
