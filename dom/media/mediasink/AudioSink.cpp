@@ -129,6 +129,13 @@ h
 #
 include
 "
+AudioDeviceInfo
+.
+h
+"
+#
+include
+"
 MediaQueue
 .
 h
@@ -324,6 +331,9 @@ const
 AudioInfo
 &
 aInfo
+AudioDeviceInfo
+*
+aAudioDevice
 )
 :
 mStartTime
@@ -333,6 +343,10 @@ aStartTime
 mInfo
 (
 aInfo
+)
+mAudioDevice
+(
+aAudioDevice
 )
 mPlaying
 (
@@ -1290,9 +1304,7 @@ Init
 mOutputChannels
 channelMap
 mOutputRate
-aParams
-.
-mSink
+mAudioDevice
 )
 ;
 if
