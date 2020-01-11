@@ -259,8 +259,8 @@ this
 .
 _serverTimings
 =
-{
-}
+[
+]
 ;
 this
 .
