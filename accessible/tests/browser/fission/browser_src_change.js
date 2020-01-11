@@ -117,7 +117,7 @@ async
 function
 (
 browser
-fissionDocAcc
+iframeDocAcc
 contentDocAcc
 )
 {
@@ -130,7 +130,7 @@ the
 IFRAME
 and
 the
-fission
+IFRAME
 document
 are
 accessible
@@ -145,7 +145,7 @@ iframeAcc
 findAccessibleChildByID
 (
 contentDocAcc
-FISSION_IFRAME_ID
+DEFAULT_IFRAME_ID
 )
 ;
 ok
@@ -166,10 +166,10 @@ ok
 (
 isAccessible
 (
-fissionDocAcc
+iframeDocAcc
 )
 "
-fission
+IFRAME
 document
 should
 be
@@ -201,7 +201,7 @@ onDocLoad
 waitForEvent
 (
 EVENT_DOCUMENT_LOAD_COMPLETE
-DEFAULT_FISSION_DOC_BODY_ID
+DEFAULT_IFRAME_DOC_BODY_ID
 )
 ;
 await
@@ -211,7 +211,7 @@ spawn
 (
 browser
 [
-FISSION_IFRAME_ID
+DEFAULT_IFRAME_ID
 CURRENT_CONTENT_DIR
 ]
 (
@@ -275,7 +275,7 @@ browser
 )
 ;
 const
-newFissionDocAcc
+newiframeDocAcc
 =
 (
 await
@@ -302,11 +302,11 @@ ok
 (
 isAccessible
 (
-newFissionDocAcc
+newiframeDocAcc
 )
 "
 new
-fission
+IFRAME
 document
 should
 be
@@ -316,8 +316,8 @@ accessible
 ;
 isnot
 (
-fissionDocAcc
-newFissionDocAcc
+iframeDocAcc
+newiframeDocAcc
 "
 A
 new
@@ -326,7 +326,7 @@ is
 created
 for
 a
-fission
+IFRAME
 document
 .
 "
@@ -337,7 +337,7 @@ is
 iframeAcc
 .
 firstChild
-newFissionDocAcc
+newiframeDocAcc
 "
 An
 IFRAME
@@ -347,7 +347,7 @@ new
 accessible
 for
 a
-fission
+IFRAME
 document
 as
 a
@@ -358,7 +358,7 @@ child
 ;
 is
 (
-newFissionDocAcc
+newiframeDocAcc
 .
 parent
 iframeAcc
@@ -368,7 +368,7 @@ new
 accessible
 for
 a
-fission
+IFRAME
 document
 has
 an

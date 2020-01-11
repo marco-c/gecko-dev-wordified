@@ -129,7 +129,7 @@ async
 function
 (
 browser
-fissionDocAcc
+iframeDocAcc
 contentDocAcc
 )
 {
@@ -138,7 +138,7 @@ textbox
 =
 findAccessibleChildByID
 (
-fissionDocAcc
+iframeDocAcc
 "
 textbox
 "
