@@ -619,7 +619,7 @@ addLazyGetter
 (
 this
 "
-LoginManagerContent
+LoginManagerChild
 "
 {
 module
@@ -633,7 +633,7 @@ gre
 /
 modules
 /
-LoginManagerContent
+LoginManagerChild
 .
 jsm
 "
@@ -1423,7 +1423,7 @@ return
 }
 this
 .
-LoginManagerContent
+LoginManagerChild
 .
 forWindow
 (
@@ -1462,7 +1462,7 @@ return
 }
 this
 .
-LoginManagerContent
+LoginManagerChild
 .
 forWindow
 (
@@ -1502,7 +1502,7 @@ return
 }
 this
 .
-LoginManagerContent
+LoginManagerChild
 .
 forWindow
 (
@@ -1566,7 +1566,7 @@ HTMLDocument
 {
 this
 .
-LoginManagerContent
+LoginManagerChild
 .
 forWindow
 (

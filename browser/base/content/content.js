@@ -202,7 +202,7 @@ LoginFormFactory
 .
 jsm
 "
-LoginManagerContent
+LoginManagerChild
 :
 "
 resource
@@ -213,7 +213,7 @@ gre
 /
 modules
 /
-LoginManagerContent
+LoginManagerChild
 .
 jsm
 "
@@ -279,7 +279,7 @@ object
 for
 remote
 targets
-LoginManagerContent
+LoginManagerChild
 .
 receiveMessage
 (
@@ -308,7 +308,7 @@ forward
 message
 to
 LMC
-LoginManagerContent
+LoginManagerChild
 .
 receiveMessage
 (
@@ -417,7 +417,7 @@ return
 }
 this
 .
-LoginManagerContent
+LoginManagerChild
 .
 forWindow
 (
@@ -455,7 +455,7 @@ return
 }
 this
 .
-LoginManagerContent
+LoginManagerChild
 .
 forWindow
 (
@@ -512,7 +512,7 @@ return
 }
 this
 .
-LoginManagerContent
+LoginManagerChild
 .
 forWindow
 (

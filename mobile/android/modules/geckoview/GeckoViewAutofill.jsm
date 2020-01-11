@@ -177,7 +177,7 @@ FormLikeFactory
 .
 jsm
 "
-LoginManagerContent
+LoginManagerChild
 :
 "
 resource
@@ -188,7 +188,7 @@ gre
 /
 modules
 /
-LoginManagerContent
+LoginManagerChild
 .
 jsm
 "
@@ -948,7 +948,7 @@ better
 form
 data
 via
-LoginManagerContent
+LoginManagerChild
 .
 let
 passwordField
@@ -1002,7 +1002,7 @@ const
 usernameField
 ]
 =
-LoginManagerContent
+LoginManagerChild
 .
 forWindow
 (

@@ -4,7 +4,7 @@
 *
 Test
 for
-LoginManagerContent
+LoginManagerChild
 .
 _getPasswordFields
 using
@@ -63,7 +63,7 @@ gre
 /
 modules
 /
-LoginManagerContent
+LoginManagerChild
 .
 jsm
 "
@@ -72,7 +72,7 @@ null
 ;
 const
 {
-LoginManagerContent
+LoginManagerChild
 }
 =
 LMCBackstagePass
@@ -1516,7 +1516,7 @@ let
 pwFields
 =
 new
-LoginManagerContent
+LoginManagerChild
 (
 )
 .
@@ -2009,7 +2009,7 @@ let
 pwFields
 =
 new
-LoginManagerContent
+LoginManagerChild
 (
 )
 .

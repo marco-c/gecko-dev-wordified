@@ -233,7 +233,7 @@ defineModuleGetter
 (
 this
 "
-LoginManagerContent
+LoginManagerChild
 "
 "
 resource
@@ -244,7 +244,7 @@ gre
 /
 modules
 /
-LoginManagerContent
+LoginManagerChild
 .
 jsm
 "
@@ -2373,7 +2373,7 @@ field
 warning
 would
 require
-LoginManagerContent
+LoginManagerChild
 being
 loaded
 and
@@ -2829,7 +2829,7 @@ null
 let
 loginManager
 =
-LoginManagerContent
+LoginManagerChild
 .
 forWindow
 (

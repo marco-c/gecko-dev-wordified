@@ -248,7 +248,7 @@ InlineSpellChecker
 .
 jsm
 "
-LoginManagerContent
+LoginManagerChild
 :
 "
 resource
@@ -259,7 +259,7 @@ gre
 /
 modules
 /
-LoginManagerContent
+LoginManagerChild
 .
 jsm
 "
@@ -3422,7 +3422,7 @@ defaultView
 let
 loginFillInfo
 =
-LoginManagerContent
+LoginManagerChild
 .
 forWindow
 (

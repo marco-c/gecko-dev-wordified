@@ -637,7 +637,7 @@ components
 /
 passwordmgr
 /
-LoginManagerContent
+LoginManagerChild
 .
 jsm
 .

@@ -1320,7 +1320,7 @@ the
 child
 process
 (
-LoginManagerContent
+LoginManagerChild
 )
 .
 *
@@ -1479,7 +1479,7 @@ the
 child
 process
 (
-LoginManagerContent
+LoginManagerChild
 )
 .
 *
@@ -2139,7 +2139,7 @@ empty
 array
 to
 make
-LoginManagerContent
+LoginManagerChild
 clear
 the
 /
