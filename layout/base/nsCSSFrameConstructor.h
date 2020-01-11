@@ -5429,6 +5429,9 @@ sPseudoParentData
 eParentTypeCount
 ]
 ;
+#
+ifdef
+MOZ_XBL
 /
 /
 The
@@ -5535,6 +5538,8 @@ uint32_t
 aFlags
 )
 ;
+#
+endif
 const
 FrameConstructionData
 *

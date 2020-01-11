@@ -1085,6 +1085,9 @@ override
 }
 #
 endif
+#
+ifdef
+MOZ_XBL
 nsXBLBinding
 *
 DoGetXBLBinding
@@ -1097,6 +1100,8 @@ return
 nullptr
 ;
 }
+#
+endif
 bool
 IsNodeOfType
 (

@@ -185,12 +185,17 @@ nsWindowSizes
 h
 "
 #
+ifdef
+MOZ_XBL
+#
 include
 "
 nsXBLPrototypeBinding
 .
 h
 "
+#
+endif
 #
 include
 "

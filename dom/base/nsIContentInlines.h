@@ -139,12 +139,17 @@ Document
 h
 "
 #
+ifdef
+MOZ_XBL
+#
 include
 "
 nsBindingManager
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -881,6 +886,9 @@ GetHost
 ;
 }
 }
+#
+ifdef
+MOZ_XBL
 if
 (
 content
@@ -975,6 +983,8 @@ nullptr
 ;
 }
 }
+#
+endif
 MOZ_ASSERT
 (
 !

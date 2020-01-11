@@ -590,8 +590,17 @@ return
 ;
 }
 #
-ifdef
+if
+defined
+(
 DEBUG
+)
+&
+&
+defined
+(
+MOZ_XBL
+)
 static
 bool
 IsXBLInvolved
@@ -883,6 +892,9 @@ cmp
 !
 =
 0
+#
+ifdef
+MOZ_XBL
 |
 |
 IsXBLInvolved
@@ -890,6 +902,8 @@ IsXBLInvolved
 content1
 content2
 )
+#
+endif
 "
 same
 content

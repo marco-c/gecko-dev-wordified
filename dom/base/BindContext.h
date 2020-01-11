@@ -133,12 +133,17 @@ mozilla_dom_BindContext_h__
 define
 mozilla_dom_BindContext_h__
 #
+ifdef
+MOZ_XBL
+#
 include
 "
 nsXBLBinding
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -743,6 +748,9 @@ subtree
 )
 ;
 }
+#
+ifdef
+MOZ_XBL
 /
 /
 This
@@ -815,6 +823,8 @@ aParentElement
 )
 {
 }
+#
+endif
 bool
 CollectingDisplayedNodeDataDuringLoad
 (

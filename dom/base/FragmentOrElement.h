@@ -234,12 +234,17 @@ nsDataHashtable
 h
 "
 #
+ifdef
+MOZ_XBL
+#
 include
 "
 nsXBLBinding
 .
 h
 "
+#
+endif
 class
 ContentUnbinder
 ;
@@ -579,6 +584,9 @@ ThreadSafeTextIsOnlyWhitespace
 const
 override
 ;
+#
+ifdef
+MOZ_XBL
 virtual
 nsXBLBinding
 *
@@ -588,6 +596,8 @@ DoGetXBLBinding
 const
 override
 ;
+#
+endif
 virtual
 bool
 IsLink
@@ -1064,6 +1074,9 @@ ShadowRoot
 >
 mShadowRoot
 ;
+#
+ifdef
+MOZ_XBL
 /
 *
 *
@@ -1083,6 +1096,8 @@ nsXBLBinding
 >
 mXBLBinding
 ;
+#
+endif
 /
 *
 *

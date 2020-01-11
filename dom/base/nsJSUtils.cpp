@@ -327,12 +327,17 @@ nsGlobalWindow
 h
 "
 #
+ifdef
+MOZ_XBL
+#
 include
 "
 nsXBLPrototypeBinding
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -3706,6 +3711,9 @@ return
 true
 ;
 }
+#
+ifdef
+MOZ_XBL
 /
 *
 static
@@ -3806,6 +3814,8 @@ return
 true
 ;
 }
+#
+endif
 /
 *
 static

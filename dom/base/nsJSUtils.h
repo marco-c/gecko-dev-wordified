@@ -1625,6 +1625,9 @@ JSObject
 aScopeChain
 )
 ;
+#
+ifdef
+MOZ_XBL
 /
 /
 Returns
@@ -1706,6 +1709,8 @@ JSObject
 aScopeChain
 )
 ;
+#
+endif
 static
 void
 ResetTimeZone

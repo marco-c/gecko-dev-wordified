@@ -1377,6 +1377,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+MOZ_XBL
 nsXBLDocumentInfo
 *
 nsXULPrototypeCache
@@ -1450,6 +1453,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 void
 nsXULPrototypeCache
 :
@@ -1491,12 +1496,17 @@ Clear
 (
 )
 ;
+#
+ifdef
+MOZ_XBL
 mXBLDocTable
 .
 Clear
 (
 )
 ;
+#
+endif
 }
 bool
 nsXULPrototypeCache
@@ -3114,6 +3124,9 @@ uint32_t
 aGeneration
 )
 {
+#
+ifdef
+MOZ_XBL
 for
 (
 auto
@@ -3152,6 +3165,8 @@ aGeneration
 )
 ;
 }
+#
+endif
 for
 (
 auto
@@ -3329,6 +3344,9 @@ aData
 )
 ;
 }
+#
+ifdef
+MOZ_XBL
 static
 void
 AppendURIForMemoryReport
@@ -3414,6 +3432,8 @@ aOutput
 spec
 ;
 }
+#
+endif
 /
 *
 static
@@ -3538,6 +3558,9 @@ content
 inside
 mScriptTable
 ?
+#
+ifdef
+MOZ_XBL
 other
 +
 =
@@ -3641,6 +3664,8 @@ document
 )
 ;
 }
+#
+endif
 other
 +
 =

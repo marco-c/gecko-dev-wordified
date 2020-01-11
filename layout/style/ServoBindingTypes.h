@@ -1231,9 +1231,14 @@ nsINode
 class
 nsPresContext
 ;
+#
+ifdef
+MOZ_XBL
 class
 nsXBLBinding
 ;
+#
+endif
 struct
 nsFontFaceRuleContainer
 ;
