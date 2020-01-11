@@ -399,6 +399,17 @@ nsSynthVoiceRegistry
 h
 "
 #
+include
+"
+mozilla
+/
+dom
+/
+OnlineSpeechRecognitionService
+.
+h
+"
+#
 endif
 #
 include
