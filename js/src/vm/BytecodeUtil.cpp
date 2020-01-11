@@ -551,6 +551,7 @@ define
 MAKE_CODESPEC
 (
 op
+val
 name
 token
 length
@@ -612,6 +613,7 @@ define
 TOKEN
 (
 op
+val
 name
 token
 .
@@ -670,6 +672,7 @@ define
 OPNAME
 (
 op
+val
 name
 .
 .
