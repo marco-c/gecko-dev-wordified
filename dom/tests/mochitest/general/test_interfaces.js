@@ -15363,9 +15363,6 @@ name
 "
 VRDisplay
 "
-insecureContext
-:
-true
 releaseNonWindowsAndMac
 :
 false
@@ -15392,9 +15389,6 @@ name
 "
 VRDisplayCapabilities
 "
-insecureContext
-:
-true
 releaseNonWindowsAndMac
 :
 false
@@ -15421,9 +15415,6 @@ name
 "
 VRDisplayEvent
 "
-insecureContext
-:
-true
 releaseNonWindowsAndMac
 :
 false
@@ -15450,9 +15441,6 @@ name
 "
 VREyeParameters
 "
-insecureContext
-:
-true
 releaseNonWindowsAndMac
 :
 false
@@ -15479,9 +15467,6 @@ name
 "
 VRFieldOfView
 "
-insecureContext
-:
-true
 releaseNonWindowsAndMac
 :
 false
@@ -15508,9 +15493,6 @@ name
 "
 VRFrameData
 "
-insecureContext
-:
-true
 releaseNonWindowsAndMac
 :
 false
@@ -15537,9 +15519,6 @@ name
 "
 VRPose
 "
-insecureContext
-:
-true
 releaseNonWindowsAndMac
 :
 false
@@ -15566,9 +15545,6 @@ name
 "
 VRStageParameters
 "
-insecureContext
-:
-true
 releaseNonWindowsAndMac
 :
 false
