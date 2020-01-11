@@ -555,9 +555,6 @@ await
 expectEvents
 (
 {
-ignorePlugins
-:
-true
 addonEvents
 :
 {
@@ -620,9 +617,6 @@ await
 expectEvents
 (
 {
-ignorePlugins
-:
-true
 installEvents
 :
 [
@@ -811,9 +805,6 @@ await
 expectEvents
 (
 {
-ignorePlugins
-:
-true
 installEvents
 :
 [
@@ -941,9 +932,6 @@ await
 expectEvents
 (
 {
-ignorePlugins
-:
-true
 addonEvents
 :
 {
@@ -2087,9 +2075,6 @@ await
 expectEvents
 (
 {
-ignorePlugins
-:
-true
 addonEvents
 :
 {
