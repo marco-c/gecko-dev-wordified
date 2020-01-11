@@ -483,15 +483,6 @@ servo
 -
 2020
 "
-servo_2020_pref
-=
-"
-layout
-.
-2020
-.
-unimplemented
-"
 initial_specified_value
 =
 "

@@ -219,15 +219,6 @@ servo
 -
 2020
 "
-servo_2020_pref
-=
-"
-layout
-.
-2020
-.
-unimplemented
-"
 alias
 =
 maybe_moz_logical_alias
