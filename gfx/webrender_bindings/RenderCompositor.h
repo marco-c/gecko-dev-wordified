@@ -607,6 +607,16 @@ partial
 present
 virtual
 bool
+UsePartialPresent
+(
+)
+{
+return
+false
+;
+}
+virtual
+bool
 RequestFullRender
 (
 )

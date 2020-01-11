@@ -502,6 +502,12 @@ for
 partial
 present
 bool
+UsePartialPresent
+(
+)
+override
+;
+bool
 RequestFullRender
 (
 )
