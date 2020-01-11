@@ -828,7 +828,10 @@ email
 MONITOR_SIGN_IN_URL
 }
 {
+encodeURIComponent
+(
 email
+)
 }
 :
 MONITOR_URL
