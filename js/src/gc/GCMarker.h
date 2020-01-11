@@ -3033,6 +3033,8 @@ public
 *
 The
 compartment
+and
+zone
 of
 the
 object
@@ -3042,8 +3044,8 @@ hook
 is
 currently
 being
-called
 *
+called
 if
 any
 .
@@ -3069,6 +3071,13 @@ Compartment
 *
 >
 tracingCompartment
+;
+MainThreadOrGCTaskData
+<
+Zone
+*
+>
+tracingZone
 ;
 /
 *
