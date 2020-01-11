@@ -1544,6 +1544,17 @@ case
 HttpVersion
 :
 :
+v3_0
+:
+return
+"
+h3
+"
+;
+case
+HttpVersion
+:
+:
 v2_0
 :
 return
