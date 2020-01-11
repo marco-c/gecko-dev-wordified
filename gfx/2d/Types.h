@@ -345,6 +345,17 @@ OFFSET
 Offset
 *
 /
+DATA_ALIGNED
+/
+*
+Data
+surface
+using
+aligned
+heap
+memory
+*
+/
 }
 ;
 enum
