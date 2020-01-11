@@ -591,11 +591,6 @@ PasswordManager
 :
 removeLogin
 "
-"
-PasswordManager
-:
-insecureLoginFormPresent
-"
 /
 /
 PLEASE
