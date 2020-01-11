@@ -1539,8 +1539,6 @@ task
 .
 label
 in
-self
-.
 try_config
 .
 get
