@@ -7323,6 +7323,9 @@ _findMessage
 (
 candidateMessages
 trigger
+ordered
+=
+false
 )
 {
 const
@@ -7406,6 +7409,7 @@ onError
 this
 .
 _handleTargetingError
+ordered
 }
 )
 ;
@@ -8089,6 +8093,7 @@ _findMessage
 (
 bundledMessagesOfSameTemplate
 trigger
+true
 )
 ;
 if
