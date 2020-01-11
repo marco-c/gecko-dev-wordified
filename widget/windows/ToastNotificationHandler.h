@@ -270,6 +270,11 @@ nsresult
 rv
 )
 ;
+void
+UnregisterHandler
+(
+)
+;
 protected
 :
 virtual
