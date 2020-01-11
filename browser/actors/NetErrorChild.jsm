@@ -278,16 +278,6 @@ id
 "
 viewCertificate
 "
-|
-|
-elem
-.
-id
-=
-=
-"
-exceptionDialogButton
-"
 )
 {
 this
