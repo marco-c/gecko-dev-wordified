@@ -339,14 +339,16 @@ const
 outerHTML
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 id
+]
 function
 (
 elementId

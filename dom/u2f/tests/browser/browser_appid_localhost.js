@@ -112,7 +112,7 @@ shadow
 *
 /
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -120,8 +120,10 @@ tab
 .
 linkedBrowser
 [
+[
 app_id
 challenge
+]
 ]
 async
 function
@@ -341,14 +343,15 @@ let
 ready
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
-null
+[
+]
 async
 (
 )

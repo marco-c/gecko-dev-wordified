@@ -819,12 +819,13 @@ gBrowser
 selectedBrowser
 ;
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 b
-null
+[
+]
 async
 function
 (

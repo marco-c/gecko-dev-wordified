@@ -254,12 +254,14 @@ TEST_HTTP
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 TEST_HTTP
+]
 uri
 =
 >

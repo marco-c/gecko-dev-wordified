@@ -418,11 +418,12 @@ gBrowser
 url
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 [
 urlText
 |
@@ -430,6 +431,7 @@ urlText
 url
 url
 clickLabel
+]
 ]
 args
 =

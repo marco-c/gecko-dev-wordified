@@ -163,11 +163,12 @@ browser
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 script
 :
@@ -176,6 +177,7 @@ scope
 :
 TEST_JSON_URL
 }
+]
 async
 opts
 =
@@ -479,11 +481,12 @@ row
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 script
 :
@@ -492,6 +495,7 @@ scope
 :
 TEST_JSON_URL
 }
+]
 async
 opts
 =

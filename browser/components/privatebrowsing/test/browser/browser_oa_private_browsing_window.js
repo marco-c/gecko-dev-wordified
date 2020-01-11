@@ -173,7 +173,7 @@ await
 promiseNewWindow
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -182,10 +182,12 @@ privateWin
 gBrowser
 .
 selectedBrowser
+[
 {
 DUMMY_PAGE
 TEST_PAGE
 }
+]
 async
 function
 (

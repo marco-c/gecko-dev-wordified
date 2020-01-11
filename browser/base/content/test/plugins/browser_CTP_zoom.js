@@ -370,14 +370,16 @@ gTestBrowser
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gTestBrowser
+[
 {
 count
 }
+]
 async
 function
 (

@@ -332,14 +332,15 @@ in
 the
 list
 .
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-null
+[
+]
 function
 (
 )

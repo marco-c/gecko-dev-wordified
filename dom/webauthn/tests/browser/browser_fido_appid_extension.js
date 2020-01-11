@@ -209,7 +209,7 @@ challenge
 )
 ;
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -217,8 +217,10 @@ tab
 .
 linkedBrowser
 [
+[
 app_id
 challenge
+]
 ]
 function
 (
@@ -337,7 +339,7 @@ appid
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -345,7 +347,9 @@ tab
 .
 linkedBrowser
 [
+[
 appid
+]
 ]
 (
 [
@@ -494,7 +498,7 @@ extensions
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -502,8 +506,10 @@ tab
 .
 linkedBrowser
 [
+[
 key_handle
 extensions
+]
 ]
 (
 [

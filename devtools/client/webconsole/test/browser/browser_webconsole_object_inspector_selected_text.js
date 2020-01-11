@@ -109,14 +109,16 @@ label
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 label
+]
 function
 (
 str

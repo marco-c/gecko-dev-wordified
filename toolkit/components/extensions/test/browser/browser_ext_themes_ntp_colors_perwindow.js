@@ -98,11 +98,12 @@ flush
 )
 ;
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 isBrightText
 background
@@ -126,6 +127,7 @@ colors
 ntp_text
 )
 }
+]
 function
 (
 {
@@ -325,11 +327,12 @@ flush
 )
 ;
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 background
 :
@@ -350,6 +353,7 @@ hexToCSS
 "
 )
 }
+]
 function
 (
 {

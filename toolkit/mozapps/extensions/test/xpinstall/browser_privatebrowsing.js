@@ -595,7 +595,7 @@ const
 results
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -604,7 +604,8 @@ gPrivateWin
 gBrowser
 .
 selectedBrowser
-null
+[
+]
 (
 )
 =

@@ -331,12 +331,13 @@ let
 textContent
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 async
 (
 )
