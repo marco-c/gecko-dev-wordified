@@ -20,6 +20,11 @@ baseline
 enable
 '
 ]
+|
+|
+wasmBigIntEnabled
+(
+)
 /
 /
 These
@@ -236,8 +241,8 @@ instance
 .
 add_two_i64
 (
-0
-1
+0n
+1n
 )
 TypeError
 /
