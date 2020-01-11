@@ -526,15 +526,6 @@ REGISTER_NAMESPACE
 nsGkAtoms
 :
 :
-nsuri_xbl
-kNameSpaceID_XBL
-)
-;
-REGISTER_NAMESPACE
-(
-nsGkAtoms
-:
-:
 nsuri_mathml
 kNameSpaceID_MathML
 )
