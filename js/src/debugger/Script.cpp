@@ -12212,17 +12212,12 @@ zone
 >
 new_
 <
-WasmBreakpoint
+Breakpoint
 >
 (
 dbg_
 site
 handler_
-instance
-.
-object
-(
-)
 )
 )
 {
@@ -12231,7 +12226,7 @@ AddCellMemory
 wasmInstance
 sizeof
 (
-WasmBreakpoint
+Breakpoint
 )
 MemoryUse
 :

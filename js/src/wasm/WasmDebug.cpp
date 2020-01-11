@@ -1599,12 +1599,15 @@ if
 bp
 -
 >
+site
+-
+>
 asWasm
 (
 )
 -
 >
-wasmInstance
+instanceObject
 =
 =
 instance
