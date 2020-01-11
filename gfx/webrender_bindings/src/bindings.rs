@@ -2886,7 +2886,7 @@ SceneBuildTime
 SceneSwapTime
 =
 1
-RenderTime
+FrameBuildTime
 =
 2
 }
@@ -3292,7 +3292,7 @@ record_telemetry_time
 TelemetryProbe
 :
 :
-RenderTime
+FrameBuildTime
 time
 )
 ;
