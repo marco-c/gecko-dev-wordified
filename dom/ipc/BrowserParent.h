@@ -1033,7 +1033,7 @@ GetBrowserHost
 )
 const
 ;
-ShowInfo
+ParentShowInfo
 GetShowInfo
 (
 )
