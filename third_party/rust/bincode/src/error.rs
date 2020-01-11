@@ -2,16 +2,18 @@ use
 std
 :
 :
-io
+error
+:
+:
+Error
+as
+StdError
 ;
 use
 std
 :
 :
-{
-error
-fmt
-}
+io
 ;
 use
 std
@@ -26,12 +28,10 @@ use
 std
 :
 :
+{
 error
-:
-:
-Error
-as
-StdError
+fmt
+}
 ;
 use
 serde
@@ -454,6 +454,7 @@ ErrorKind
 SequenceMustHaveLength
 =
 >
+{
 "
 Bincode
 can
@@ -471,6 +472,7 @@ ahead
 of
 time
 "
+}
 ErrorKind
 :
 :
@@ -836,7 +838,6 @@ ErrorKind
 SequenceMustHaveLength
 =
 >
-{
 write
 !
 (
@@ -851,7 +852,6 @@ description
 (
 )
 )
-}
 ErrorKind
 :
 :
@@ -878,7 +878,6 @@ ErrorKind
 DeserializeAnyNotSupported
 =
 >
-{
 write
 !
 (
@@ -899,7 +898,6 @@ deserialize_any
 method
 "
 )
-}
 ErrorKind
 :
 :
