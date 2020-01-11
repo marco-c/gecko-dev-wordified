@@ -294,7 +294,7 @@ service
 -
 worker
 .
-js
+sjs
 "
 )
 )
