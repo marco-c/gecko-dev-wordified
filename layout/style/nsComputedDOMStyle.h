@@ -1209,7 +1209,7 @@ mozilla
 :
 :
 ComputedGridTrackInfo
-*
+&
 aTrackInfo
 )
 ;
