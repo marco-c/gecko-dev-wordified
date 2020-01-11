@@ -2993,11 +2993,6 @@ CreateTable
 )
 ;
 nsresult
-Import
-(
-)
-;
-nsresult
 ImportDefaults
 (
 )
