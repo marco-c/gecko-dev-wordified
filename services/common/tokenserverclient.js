@@ -2951,6 +2951,11 @@ hashed_fxa_uid
 result
 .
 hashed_fxa_uid
+node_type
+:
+result
+.
+node_type
 }
 ;
 }
