@@ -1437,6 +1437,10 @@ const
 string
 &
 ufrag
+const
+string
+&
+obfuscatedAddr
 )
 {
 mImpl
@@ -1450,6 +1454,7 @@ AddIceCandidate
 transportId
 candidate
 ufrag
+obfuscatedAddr
 )
 ;
 return

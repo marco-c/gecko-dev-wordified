@@ -410,6 +410,10 @@ const
 string
 &
 ufrag
+const
+string
+&
+obfuscatedAddress
 )
 ;
 mozilla

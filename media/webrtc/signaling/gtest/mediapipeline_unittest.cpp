@@ -1220,6 +1220,13 @@ std
 string
 &
 aUfrag
+const
+std
+:
+:
+string
+&
+aObfuscatedAddress
 )
 override
 {
