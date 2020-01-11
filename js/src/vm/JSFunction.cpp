@@ -10537,7 +10537,7 @@ canRelazify
 lazy
 -
 >
-numInnerFunctions
+hasInnerFunctions
 (
 )
 &
