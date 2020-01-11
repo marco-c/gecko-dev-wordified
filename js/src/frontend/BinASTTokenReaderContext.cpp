@@ -2085,7 +2085,7 @@ list
 using
 Table
 =
-HuffmanTableExplicitSymbolsListLength
+GenericHuffmanTable
 ;
 /
 /
@@ -3382,7 +3382,7 @@ table
 .
 as
 <
-HuffmanTableExplicitSymbolsListLength
+GenericHuffmanTable
 >
 (
 )
@@ -10688,7 +10688,7 @@ table
 .
 as
 <
-HuffmanTableExplicitSymbolsListLength
+GenericHuffmanTable
 >
 (
 )
@@ -18705,7 +18705,7 @@ readSingleValueTable
 List
 >
 (
-HuffmanTableExplicitSymbolsListLength
+GenericHuffmanTable
 &
 table
 const

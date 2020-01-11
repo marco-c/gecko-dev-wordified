@@ -7062,11 +7062,6 @@ HuffmanTableInitializing
 GenericHuffmanTable
 >
 ;
-using
-HuffmanTableExplicitSymbolsListLength
-=
-GenericHuffmanTable
-;
 /
 /
 A
@@ -7093,7 +7088,7 @@ Default
 value
 .
 HuffmanTableInitializing
-HuffmanTableExplicitSymbolsListLength
+GenericHuffmanTable
 >
 ;
 /
