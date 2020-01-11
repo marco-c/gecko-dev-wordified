@@ -223,13 +223,6 @@ form
 .
 actor
 ;
-this
-.
-manage
-(
-this
-)
-;
 }
 }
 form
