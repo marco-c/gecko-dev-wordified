@@ -747,13 +747,6 @@ sinon
 stub
 (
 )
-openProtections
-:
-sinon
-.
-stub
-(
-)
 }
 }
 }
