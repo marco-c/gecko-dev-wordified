@@ -18,7 +18,12 @@ structuredlog
 from
 six
 import
+ensure_str
+ensure_text
+iteritems
+iterkeys
 itervalues
+text_type
 from
 six
 .
@@ -229,12 +234,11 @@ for
 key
 value
 in
+iteritems
+(
 self
 .
 data
-.
-iteritems
-(
 )
 :
             
@@ -252,10 +256,9 @@ self
 return
 list
 (
-self
-.
 iteritems
 (
+self
 )
 )
 def
@@ -1631,7 +1634,7 @@ if
 isinstance
 (
 data
-unicode
+text_type
 )
 :
         
@@ -1923,12 +1926,11 @@ for
 test_type
 test_cls
 in
+iteritems
+(
 wpttest
 .
 manifest_test_cls
-.
-iteritems
-(
 )
 :
         
@@ -2953,10 +2955,9 @@ for
 scope
 scope_data
 in
-mozleak_data
-.
 iteritems
 (
+mozleak_data
 )
 :
             
@@ -3062,18 +3063,14 @@ test_id
 =
 intern
 (
+ensure_str
+(
 data
 [
 "
 test
 "
 ]
-.
-encode
-(
-"
-utf8
-"
 )
 )
         
@@ -3130,18 +3127,14 @@ test_id
 =
 intern
 (
+ensure_str
+(
 data
 [
 "
 test
 "
 ]
-.
-encode
-(
-"
-utf8
-"
 )
 )
         
@@ -3149,18 +3142,14 @@ subtest
 =
 intern
 (
+ensure_str
+(
 data
 [
 "
 subtest
 "
 ]
-.
-encode
-(
-"
-utf8
-"
 )
 )
         
@@ -3277,18 +3266,14 @@ test_id
 =
 intern
 (
+ensure_str
+(
 data
 [
 "
 test
 "
 ]
-.
-encode
-(
-"
-utf8
-"
 )
 )
         
@@ -3385,18 +3370,14 @@ test_id
 =
 intern
 (
+ensure_str
+(
 data
 [
 "
 test
 "
 ]
-.
-encode
-(
-"
-utf8
-"
 )
 )
         
@@ -3501,6 +3482,8 @@ dir_id
 =
 intern
 (
+ensure_str
+(
 os
 .
 path
@@ -3524,12 +3507,6 @@ sep
 /
 "
 )
-.
-encode
-(
-"
-utf8
-"
 )
 )
         
@@ -3904,27 +3881,19 @@ TestFileData
 (
 intern
 (
+ensure_str
+(
 test_manifest
 .
 url_base
-.
-encode
-(
-"
-utf8
-"
 )
 )
                                       
 intern
 (
-item_type
-.
-encode
+ensure_str
 (
-"
-utf8
-"
+item_type
 )
 )
                                       
@@ -3945,15 +3914,11 @@ id_test_map
 [
 intern
 (
+ensure_str
+(
 test
 .
 id
-.
-encode
-(
-"
-utf8
-"
 )
 )
 ]
@@ -4016,6 +3981,8 @@ dir_id
 =
 intern
 (
+ensure_str
+(
 (
 test_manifest
 .
@@ -4030,12 +3997,6 @@ lstrip
 /
 "
 )
-.
-encode
-(
-"
-utf8
-"
 )
 )
             
@@ -4052,15 +4013,11 @@ TestFileData
 (
 intern
 (
+ensure_str
+(
 test_manifest
 .
 url_base
-.
-encode
-(
-"
-utf8
-"
 )
 )
                                               
@@ -4565,15 +4522,11 @@ tests
 {
 intern
 (
+ensure_str
+(
 item
 .
 id
-.
-encode
-(
-"
-utf8
-"
 )
 )
 for
@@ -4812,12 +4765,11 @@ for
 test_id
 subtests
 in
+iteritems
+(
 self
 .
 data
-.
-iteritems
-(
 )
 :
             
@@ -4827,13 +4779,9 @@ expected
 .
 get_test
 (
-test_id
-.
-decode
+ensure_text
 (
-"
-utf8
-"
+test_id
 )
 )
             
@@ -4848,21 +4796,16 @@ seen_subtests
 =
 set
 (
-item
-.
-decode
+ensure_text
 (
-"
-utf8
-"
+item
 )
 for
 item
 in
-subtests
-.
 iterkeys
 (
+subtests
 )
 if
 item
@@ -5301,34 +5244,28 @@ for
 test_id
 test_data
 in
+iteritems
+(
 self
 .
 data
-.
-iteritems
-(
 )
 :
             
 test_id
 =
-test_id
-.
-decode
+ensure_str
 (
-"
-utf8
-"
+test_id
 )
             
 for
 subtest_id
 results_list
 in
-test_data
-.
 iteritems
 (
+test_data
 )
 :
                 
@@ -5438,23 +5375,11 @@ test_expected
 else
 :
                         
-if
-isinstance
-(
-subtest_id
-str
-)
-:
-                            
 subtest_id
 =
-subtest_id
-.
-decode
+ensure_text
 (
-"
-utf8
-"
+subtest_id
 )
                         
 item_expected
