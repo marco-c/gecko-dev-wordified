@@ -190,6 +190,14 @@ lookbehind
 "
 regexp
 -
+match
+-
+indices
+"
+    
+"
+regexp
+-
 named
 -
 groups
@@ -254,6 +262,12 @@ formatRange
 "
 Intl
 .
+DisplayNames
+"
+    
+"
+Intl
+.
 Segmenter
 "
     
@@ -263,6 +277,12 @@ WeakRef
     
 "
 FinalizationGroup
+"
+    
+"
+coalesce
+-
+expression
 "
     
 "
