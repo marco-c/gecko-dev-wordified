@@ -1779,9 +1779,6 @@ browser
 in
 headless
 mode
-(
-default
-)
 .
 "
 )
