@@ -343,7 +343,6 @@ browser
 test_cases
 ]
 function
-*
 (
 tests
 )

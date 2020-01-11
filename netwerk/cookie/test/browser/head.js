@@ -607,7 +607,13 @@ ifr
 .
 onload
 =
+(
+)
+=
+>
 resolve
+(
+)
 ;
 content
 .
