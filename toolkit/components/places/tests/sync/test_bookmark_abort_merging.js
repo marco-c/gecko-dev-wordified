@@ -343,15 +343,6 @@ finalizeAt
 barrier
 .
 client
-recordTelemetryEvent
-(
-.
-.
-.
-args
-)
-{
-}
 recordStepTelemetry
 (
 .
