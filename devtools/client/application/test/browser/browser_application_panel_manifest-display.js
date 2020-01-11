@@ -158,6 +158,7 @@ null
 ;
 ok
 (
+true
 "
 Manifest
 is
@@ -369,6 +370,7 @@ null
 ;
 ok
 (
+true
 "
 Manifest
 is
@@ -639,6 +641,7 @@ null
 ;
 ok
 (
+true
 "
 Manifest
 is

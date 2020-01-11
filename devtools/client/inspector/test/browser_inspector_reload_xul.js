@@ -343,9 +343,7 @@ destroy
 ;
 ok
 (
-"
 true
-"
 "
 '
 destroyed

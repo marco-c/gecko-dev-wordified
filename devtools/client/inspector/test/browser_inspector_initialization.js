@@ -525,9 +525,7 @@ destroy
 ;
 ok
 (
-"
 true
-"
 "
 '
 destroyed

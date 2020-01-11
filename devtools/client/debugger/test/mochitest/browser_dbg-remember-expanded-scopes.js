@@ -300,6 +300,7 @@ innerData
 ;
 ok
 (
+true
 "
 Inner
 object
