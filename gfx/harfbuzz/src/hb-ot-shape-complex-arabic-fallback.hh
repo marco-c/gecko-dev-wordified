@@ -364,7 +364,7 @@ feature_index
 OT
 :
 :
-GlyphID
+HBGlyphID
 glyphs
 [
 SHAPING_TABLE_LAST
@@ -377,7 +377,7 @@ SHAPING_TABLE_FIRST
 OT
 :
 :
-GlyphID
+HBGlyphID
 substitutes
 [
 SHAPING_TABLE_LAST
@@ -569,7 +569,7 @@ HBUINT16
 OT
 :
 :
-GlyphID
+HBGlyphID
 :
 :
 cmp
@@ -716,7 +716,7 @@ font
 OT
 :
 :
-GlyphID
+HBGlyphID
 first_glyphs
 [
 ARRAY_LENGTH_CONST
@@ -768,7 +768,7 @@ component
 OT
 :
 :
-GlyphID
+HBGlyphID
 ligature_list
 [
 ARRAY_LENGTH_CONST
@@ -800,7 +800,7 @@ ligature_list
 OT
 :
 :
-GlyphID
+HBGlyphID
 component_list
 [
 ARRAY_LENGTH_CONST
@@ -946,7 +946,7 @@ HBUINT16
 OT
 :
 :
-GlyphID
+HBGlyphID
 :
 :
 cmp

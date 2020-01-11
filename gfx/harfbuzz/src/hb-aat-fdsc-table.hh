@@ -383,7 +383,7 @@ name
 /
 union
 {
-Fixed
+HBFixed
 value
 ;
 /
@@ -708,7 +708,7 @@ c
 }
 protected
 :
-Fixed
+HBFixed
 version
 ;
 /

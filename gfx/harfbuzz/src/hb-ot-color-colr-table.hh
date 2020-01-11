@@ -294,7 +294,7 @@ this
 }
 protected
 :
-GlyphID
+HBGlyphID
 glyphId
 ;
 /
@@ -440,7 +440,7 @@ this
 }
 public
 :
-GlyphID
+HBGlyphID
 glyphId
 ;
 /

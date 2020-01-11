@@ -3291,7 +3291,6 @@ false
 \
 }
 HB_STMT_END
-;
 if
 (
 FAILED

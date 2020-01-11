@@ -421,7 +421,7 @@ this
 ActionSubrecordHeader
 header
 ;
-Fixed
+HBFixed
 lowerLimit
 ;
 /
@@ -444,7 +444,7 @@ decomposed
 .
 *
 /
-Fixed
+HBFixed
 upperLimit
 ;
 /
@@ -597,7 +597,7 @@ protected
 ActionSubrecordHeader
 header
 ;
-GlyphID
+HBGlyphID
 addGlyph
 ;
 /
@@ -663,7 +663,7 @@ protected
 ActionSubrecordHeader
 header
 ;
-Fixed
+HBFixed
 substThreshold
 ;
 /
@@ -691,7 +691,7 @@ recalculated
 .
 *
 /
-GlyphID
+HBGlyphID
 addGlyph
 ;
 /
@@ -735,7 +735,7 @@ redone
 .
 *
 /
-GlyphID
+HBGlyphID
 substGlyph
 ;
 /
@@ -848,7 +848,7 @@ contains
 .
 *
 /
-Fixed
+HBFixed
 minimumLimit
 ;
 /
@@ -879,7 +879,7 @@ be
 .
 *
 /
-Fixed
+HBFixed
 noStretchValue
 ;
 /
@@ -909,7 +909,7 @@ be
 .
 *
 /
-Fixed
+HBFixed
 maximumLimit
 ;
 /
@@ -991,7 +991,7 @@ to
 .
 *
 /
-GlyphID
+HBGlyphID
 glyph
 ;
 /
@@ -1623,7 +1623,7 @@ priority
 ;
 protected
 :
-Fixed
+HBFixed
 beforeGrowLimit
 ;
 /
@@ -1652,7 +1652,7 @@ side
 .
 *
 /
-Fixed
+HBFixed
 beforeShrinkLimit
 ;
 /
@@ -1681,7 +1681,7 @@ side
 .
 *
 /
-Fixed
+HBFixed
 afterGrowLimit
 ;
 /
@@ -1710,7 +1710,7 @@ side
 .
 *
 /
-Fixed
+HBFixed
 afterShrinkLimit
 ;
 /

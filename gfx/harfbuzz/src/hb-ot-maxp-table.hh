@@ -909,7 +909,7 @@ font
 maxpV1Tail
 v1Tail
 [
-VAR
+HB_VAR_ARRAY
 ]
 ;
 *

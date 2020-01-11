@@ -1631,7 +1631,7 @@ mark_set
 return
 ;
 const
-GlyphID
+HBGlyphID
 *
 replacement
 ;
@@ -1662,7 +1662,7 @@ markIndex
 const
 Lookup
 <
-GlyphID
+HBGlyphID
 >
 &
 lookup
@@ -1724,7 +1724,7 @@ codepoint
 const
 UnsizedArrayOf
 <
-GlyphID
+HBGlyphID
 >
 &
 subs_old
@@ -1733,7 +1733,7 @@ subs_old
 const
 UnsizedArrayOf
 <
-GlyphID
+HBGlyphID
 >
 &
 )
@@ -1871,7 +1871,7 @@ currentIndex
 const
 Lookup
 <
-GlyphID
+HBGlyphID
 >
 &
 lookup
@@ -1933,7 +1933,7 @@ codepoint
 const
 UnsizedArrayOf
 <
-GlyphID
+HBGlyphID
 >
 &
 subs_old
@@ -1942,7 +1942,7 @@ subs_old
 const
 UnsizedArrayOf
 <
-GlyphID
+HBGlyphID
 >
 &
 )
@@ -2064,7 +2064,7 @@ UnsizedOffsetListOf
 <
 Lookup
 <
-GlyphID
+HBGlyphID
 >
 HBUINT
 false
@@ -2309,7 +2309,7 @@ UnsizedOffsetListOf
 <
 Lookup
 <
-GlyphID
+HBGlyphID
 >
 HBUINT
 false
@@ -3386,7 +3386,7 @@ arrayZ
 )
 ;
 const
-GlyphID
+HBGlyphID
 &
 ligatureData
 =
@@ -3608,7 +3608,7 @@ component
 const
 UnsizedArrayOf
 <
-GlyphID
+HBGlyphID
 >
 &
 ligature
@@ -3794,7 +3794,7 @@ NNOffsetTo
 <
 UnsizedArrayOf
 <
-GlyphID
+HBGlyphID
 >
 HBUINT
 >
@@ -3903,7 +3903,7 @@ i
 )
 {
 const
-GlyphID
+HBGlyphID
 *
 replacement
 =
@@ -3976,7 +3976,7 @@ protected
 :
 Lookup
 <
-GlyphID
+HBGlyphID
 >
 substitute
 ;
@@ -4760,7 +4760,7 @@ data
 markedInsertIndex
 ;
 const
-GlyphID
+HBGlyphID
 *
 glyphs
 =
@@ -4976,7 +4976,7 @@ data
 currentInsertIndex
 ;
 const
-GlyphID
+HBGlyphID
 *
 glyphs
 =
@@ -5291,7 +5291,7 @@ mark
 const
 UnsizedArrayOf
 <
-GlyphID
+HBGlyphID
 >
 &
 insertionAction
@@ -5419,7 +5419,7 @@ NNOffsetTo
 <
 UnsizedArrayOf
 <
-GlyphID
+HBGlyphID
 >
 HBUINT
 >
@@ -7262,6 +7262,8 @@ template
 <
 typename
 Types
+hb_tag_t
+TAG
 >
 struct
 mortmorx
@@ -7271,7 +7273,7 @@ constexpr
 hb_tag_t
 tableTag
 =
-HB_AAT_TAG_morx
+TAG
 ;
 bool
 has_data
@@ -7679,15 +7681,9 @@ morx
 mortmorx
 <
 ExtendedTypes
+HB_AAT_TAG_morx
 >
 {
-static
-constexpr
-hb_tag_t
-tableTag
-=
-HB_AAT_TAG_morx
-;
 }
 ;
 struct
@@ -7696,15 +7692,9 @@ mort
 mortmorx
 <
 ObsoleteTypes
+HB_AAT_TAG_mort
 >
 {
-static
-constexpr
-hb_tag_t
-tableTag
-=
-HB_AAT_TAG_mort
-;
 }
 ;
 }

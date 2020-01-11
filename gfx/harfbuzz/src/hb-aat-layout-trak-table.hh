@@ -397,7 +397,7 @@ table_size
 }
 protected
 :
-Fixed
+HBFixed
 track
 ;
 /
@@ -515,7 +515,7 @@ nSizes
 hb_array_t
 <
 const
-Fixed
+HBFixed
 >
 size_table
 (
@@ -797,7 +797,7 @@ sizes
 hb_array_t
 <
 const
-Fixed
+HBFixed
 >
 size_table
 (
@@ -959,7 +959,7 @@ LOffsetTo
 <
 UnsizedArrayOf
 <
-Fixed
+HBFixed
 >
 false
 >

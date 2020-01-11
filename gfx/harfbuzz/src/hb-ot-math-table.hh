@@ -2198,7 +2198,7 @@ this
 }
 protected
 :
-GlyphID
+HBGlyphID
 variantGlyph
 ;
 /
@@ -2426,7 +2426,7 @@ Defined
 }
 protected
 :
-GlyphID
+HBGlyphID
 glyph
 ;
 /

@@ -458,10 +458,10 @@ this
 }
 protected
 :
-GlyphID
+HBGlyphID
 left
 ;
-GlyphID
+HBGlyphID
 right
 ;
 FWORD
@@ -2339,7 +2339,8 @@ offsetToIndex
 (
 kern_idx
 this
-&
+arrayZ
+.
 arrayZ
 )
 ;

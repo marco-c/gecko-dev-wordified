@@ -952,9 +952,10 @@ ID
 /
 public
 :
-DEFINE_SIZE_STATIC
+DEFINE_SIZE_ARRAY
 (
-8
+4
+imageOffsetsZ
 )
 ;
 }

@@ -433,7 +433,7 @@ design
 units
 *
 /
-GlyphID
+HBGlyphID
 referenceGlyph
 ;
 /

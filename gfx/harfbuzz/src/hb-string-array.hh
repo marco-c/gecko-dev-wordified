@@ -374,7 +374,7 @@ st
 char
 str
 [
-VAR
+HB_VAR_ARRAY
 ]
 ;
 }

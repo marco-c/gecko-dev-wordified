@@ -4354,13 +4354,13 @@ if
 FT_Select_Charmap
 (
 ft_face
-FT_ENCODING_UNICODE
+FT_ENCODING_MS_SYMBOL
 )
 )
 FT_Select_Charmap
 (
 ft_face
-FT_ENCODING_MS_SYMBOL
+FT_ENCODING_UNICODE
 )
 ;
 FT_Set_Char_Size
@@ -4547,9 +4547,8 @@ coords
 [
 i
 ]
-<
-<
-2
+*
+4
 ;
 FT_Set_Var_Blend_Coordinates
 (

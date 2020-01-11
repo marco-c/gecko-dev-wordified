@@ -1556,7 +1556,7 @@ array
 HBUINT8
 offsets
 [
-VAR
+HB_VAR_ARRAY
 ]
 ;
 /
@@ -1586,7 +1586,7 @@ base
 HBUINT8
 data
 [
-VAR
+HB_VAR_ARRAY
 ]
 ;
 Object
@@ -3464,12 +3464,12 @@ num_glyphs
 HBUINT8
 fds
 [
-VAR
+HB_VAR_ARRAY
 ]
 ;
 DEFINE_SIZE_MIN
 (
-1
+0
 )
 ;
 }

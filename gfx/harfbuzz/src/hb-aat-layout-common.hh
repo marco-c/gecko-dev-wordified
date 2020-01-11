@@ -519,7 +519,7 @@ base
 )
 ;
 }
-GlyphID
+HBGlyphID
 last
 ;
 /
@@ -531,7 +531,7 @@ this
 segment
 *
 /
-GlyphID
+HBGlyphID
 first
 ;
 /
@@ -955,7 +955,7 @@ ds
 )
 ;
 }
-GlyphID
+HBGlyphID
 last
 ;
 /
@@ -967,7 +967,7 @@ this
 segment
 *
 /
-GlyphID
+HBGlyphID
 first
 ;
 /
@@ -1303,7 +1303,7 @@ base
 )
 ;
 }
-GlyphID
+HBGlyphID
 glyph
 ;
 /
@@ -1638,7 +1638,7 @@ format
 8
 *
 /
-GlyphID
+HBGlyphID
 firstGlyph
 ;
 /
@@ -1906,7 +1906,7 @@ value
 .
 *
 /
-GlyphID
+HBGlyphID
 firstGlyph
 ;
 /
@@ -4259,7 +4259,7 @@ c
 }
 protected
 :
-GlyphID
+HBGlyphID
 firstGlyph
 ;
 /
@@ -4384,10 +4384,10 @@ base
 )
 )
 /
-sizeof
-(
 T
-)
+:
+:
+static_size
 ;
 }
 template

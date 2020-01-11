@@ -2187,7 +2187,7 @@ num_glyphs
 HBUINT16
 sids
 [
-VAR
+HB_VAR_ARRAY
 ]
 ;
 DEFINE_SIZE_ARRAY
@@ -2662,7 +2662,7 @@ TYPE
 >
 ranges
 [
-VAR
+HB_VAR_ARRAY
 ]
 ;
 DEFINE_SIZE_ARRAY

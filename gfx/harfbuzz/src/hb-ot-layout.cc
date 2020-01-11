@@ -8064,7 +8064,7 @@ face
 s
 GSUB
 table
-of
+or
 GPOS
 table
 .
@@ -12742,7 +12742,7 @@ font
 a
 font
 *
-baseline
+baseline_tag
 :
 a
 baseline

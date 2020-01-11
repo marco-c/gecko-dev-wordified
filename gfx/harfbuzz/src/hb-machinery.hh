@@ -1097,7 +1097,7 @@ this
 size
 )
 +
-VAR
+HB_VAR_ARRAY
 *
 sizeof
 (

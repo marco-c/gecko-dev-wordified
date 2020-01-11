@@ -380,7 +380,7 @@ hb_blob_get_empty
 hb_gdi_face_create
 :
 *
-hdc
+hfont
 :
 a
 HFONT

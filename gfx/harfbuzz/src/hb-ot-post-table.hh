@@ -1548,7 +1548,7 @@ version
 0
 *
 /
-Fixed
+HBFixed
 italicAngle
 ;
 /

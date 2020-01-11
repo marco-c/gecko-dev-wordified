@@ -538,7 +538,7 @@ value
 .
 *
 /
-Fixed
+HBFixed
 value
 ;
 /
@@ -701,7 +701,7 @@ value
 .
 *
 /
-Fixed
+HBFixed
 nominalValue
 ;
 /
@@ -716,7 +716,7 @@ value
 .
 *
 /
-Fixed
+HBFixed
 rangeMinValue
 ;
 /
@@ -737,7 +737,7 @@ ID
 .
 *
 /
-Fixed
+HBFixed
 rangeMaxValue
 ;
 /
@@ -906,7 +906,7 @@ value
 .
 *
 /
-Fixed
+HBFixed
 value
 ;
 /
@@ -921,7 +921,7 @@ value
 .
 *
 /
-Fixed
+HBFixed
 linkedValue
 ;
 /
@@ -1018,7 +1018,7 @@ designAxisCount
 .
 *
 /
-Fixed
+HBFixed
 value
 ;
 /
