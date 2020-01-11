@@ -839,12 +839,11 @@ BigInt
 REAL
 (
 Proxy
-InitProxyClass
-&
-js
-:
-:
-ProxyClass
+InitViaClassSpec
+CLASP
+(
+Proxy
+)
 )
 \
 REAL
