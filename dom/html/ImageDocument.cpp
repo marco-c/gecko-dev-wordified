@@ -3413,9 +3413,6 @@ aStatus
 )
 &
 &
-mStringBundle
-&
-&
 mImageContent
 )
 {
@@ -3451,9 +3448,6 @@ AppendElement
 nsAutoString
 errorMsg
 ;
-mStringBundle
--
->
 FormatStringFromName
 (
 "
@@ -4612,9 +4606,6 @@ GetRatio
 )
 )
 ;
-mStringBundle
--
->
 FormatStringFromName
 (
 "

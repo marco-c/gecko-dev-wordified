@@ -1415,13 +1415,14 @@ buttonTxt
 nsContentUtils
 :
 :
-GetLocalizedString
+GetMaybeLocalizedString
 (
 nsContentUtils
 :
 :
-eFORMS_PROPERTIES_MAYBESPOOF
+eFORMS_PROPERTIES
 labelKey
+aDoc
 buttonTxt
 )
 ;
