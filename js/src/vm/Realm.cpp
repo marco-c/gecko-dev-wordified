@@ -2107,14 +2107,6 @@ finishRoots
 (
 )
 ;
-clearScriptCounts
-(
-)
-;
-clearScriptLCov
-(
-)
-;
 }
 void
 ObjectRealm
