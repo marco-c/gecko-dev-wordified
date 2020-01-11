@@ -2612,7 +2612,7 @@ connection
 error
 "
 {
-errorMsg
+errorMessage
 :
 errorCodeStr
 hostname
