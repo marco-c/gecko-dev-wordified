@@ -942,16 +942,6 @@ mShouldSendActiveMediaBlockStopEvent
 private
 :
 void
-AudioCapturedChanged
-(
-AudioChannelAgent
-*
-aAgent
-AudioCaptureState
-aCapture
-)
-;
-void
 AppendAudibleAgentIfNotContained
 (
 AudioChannelAgent
