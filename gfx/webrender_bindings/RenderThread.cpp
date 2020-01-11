@@ -5660,7 +5660,10 @@ Get
 (
 )
 ;
-auto
+gl
+:
+:
+CreateContextFlags
 flags
 =
 gl
@@ -5670,6 +5673,14 @@ CreateContextFlags
 :
 :
 PREFER_ES3
+|
+gl
+:
+:
+CreateContextFlags
+:
+:
+PREFER_ROBUSTNESS
 ;
 if
 (
