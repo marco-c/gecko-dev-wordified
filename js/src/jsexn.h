@@ -196,6 +196,16 @@ JSErrorReport
 report
 )
 ;
+bool
+CaptureStack
+(
+JSContext
+*
+cx
+MutableHandleObject
+stack
+)
+;
 JSString
 *
 ComputeStackString
