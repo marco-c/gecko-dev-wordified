@@ -2028,6 +2028,15 @@ nullptr
 /
 /
 strong
+CALayer
+*
+mOpaquenessTintLayer
+=
+nullptr
+;
+/
+/
+strong
 float
 mBackingScale
 =
