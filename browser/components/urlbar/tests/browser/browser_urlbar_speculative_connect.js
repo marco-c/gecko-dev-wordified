@@ -749,7 +749,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedElement
+getSelectedRow
 (
 window
 )
@@ -1208,7 +1208,7 @@ result
 await
 UrlbarTestUtils
 .
-getSelectedElement
+getSelectedRow
 (
 window
 )

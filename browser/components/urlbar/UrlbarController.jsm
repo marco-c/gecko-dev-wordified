@@ -1930,7 +1930,7 @@ this
 .
 view
 .
-visibleItemCount
+visibleRowCount
 this
 .
 view

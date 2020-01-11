@@ -2964,7 +2964,7 @@ this
 .
 view
 .
-selectedIndex
+selectedRowIndex
 selType
 }
 )
@@ -3207,7 +3207,7 @@ this
 .
 view
 .
-selectedIndex
+selectedRowIndex
 ;
 if
 (

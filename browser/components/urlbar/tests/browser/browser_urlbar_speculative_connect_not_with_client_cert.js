@@ -1135,7 +1135,7 @@ is
 (
 UrlbarTestUtils
 .
-getSelectedElement
+getSelectedRow
 (
 window
 )
