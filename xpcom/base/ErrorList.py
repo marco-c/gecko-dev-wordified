@@ -3864,6 +3864,26 @@ FAILURE
 )
     
 #
+HTTP
+/
+3
+protocol
+internal
+error
+    
+errors
+[
+"
+NS_ERROR_NET_HTTP3_PROTOCOL_ERROR
+"
+]
+=
+FAILURE
+(
+84
+)
+    
+#
 XXX
 really
 need
