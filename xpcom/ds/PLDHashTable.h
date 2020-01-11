@@ -1108,7 +1108,7 @@ is
 an
 atomic
 increment
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsIdle
 (
@@ -1122,7 +1122,7 @@ oldState
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 oldState
 <
@@ -1154,7 +1154,7 @@ is
 an
 atomic
 decrement
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsRead
 (
@@ -1168,7 +1168,7 @@ StartWriteOp
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsWritable
 (
@@ -1185,7 +1185,7 @@ exchange
 kWrite
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsIdle
 (
@@ -1234,7 +1234,7 @@ StartWriteOp
 /
 occurred
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsWritable
 (
@@ -1251,7 +1251,7 @@ exchange
 kIdle
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsWrite
 (
@@ -1288,7 +1288,7 @@ and
 then
 back
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsWritable
 (
@@ -1305,7 +1305,7 @@ exchange
 kWrite
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsRead1
 (
@@ -1354,7 +1354,7 @@ StartIteratorRemovalOp
 )
 occurred
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsWritable
 (
@@ -1371,7 +1371,7 @@ exchange
 kRead1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsWrite
 (
@@ -1417,7 +1417,7 @@ exchange
 kWrite
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsIdle
 (
@@ -1441,7 +1441,7 @@ exchange
 kIdle
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsWrite
 (
