@@ -2745,7 +2745,7 @@ extensions
 /
 pluginPrefs
 .
-xul
+xhtml
 #
 id
 =
