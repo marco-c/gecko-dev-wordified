@@ -248,6 +248,12 @@ static
 void
 ResetLogFiles
 (
+const
+char
+*
+aProcType
+=
+nullptr
 )
 ;
 #
