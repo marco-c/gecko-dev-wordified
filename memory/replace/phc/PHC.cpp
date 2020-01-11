@@ -7680,6 +7680,7 @@ kMaxPageAllocs
 {
 if
 (
+!
 gMut
 -
 >
@@ -7691,6 +7692,9 @@ now
 )
 )
 {
+continue
+;
+}
 void
 *
 pagePtr
@@ -7844,7 +7848,6 @@ newAllocDelay
 ;
 break
 ;
-}
 }
 if
 (
