@@ -45,7 +45,9 @@ strict
 "
 ;
 const
+{
 ObjectFront
+}
 =
 require
 (

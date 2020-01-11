@@ -143,7 +143,9 @@ client
 )
 ;
 const
+{
 ObjectFront
+}
 =
 require
 (

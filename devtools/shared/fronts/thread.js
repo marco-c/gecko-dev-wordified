@@ -131,6 +131,7 @@ fronts
 /
 object
 "
+true
 )
 ;
 loader

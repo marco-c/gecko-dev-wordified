@@ -74,7 +74,9 @@ chrome
 )
 ;
 const
+{
 ObjectFront
+}
 =
 require
 (
