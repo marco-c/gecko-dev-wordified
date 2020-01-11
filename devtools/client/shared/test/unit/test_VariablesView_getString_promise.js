@@ -50,9 +50,7 @@ devtools
 /
 client
 /
-shared
-/
-widgets
+storage
 /
 VariablesView
 .
