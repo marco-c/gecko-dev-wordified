@@ -102,6 +102,10 @@ mIsDefer
 (
 false
 )
+mIsLinkPreload
+(
+false
+)
 mEncoding
 (
 nullptr
@@ -294,6 +298,7 @@ false
 mIsAsync
 mIsDefer
 false
+mIsLinkPreload
 )
 ;
 break
@@ -316,6 +321,7 @@ true
 mIsAsync
 mIsDefer
 false
+mIsLinkPreload
 )
 ;
 break
@@ -338,6 +344,7 @@ false
 mIsAsync
 mIsDefer
 true
+mIsLinkPreload
 )
 ;
 break
@@ -360,6 +367,7 @@ true
 mIsAsync
 mIsDefer
 true
+mIsLinkPreload
 )
 ;
 break
@@ -377,6 +385,7 @@ mCharsetOrSrcset
 mCrossOriginOrMedia
 mReferrerPolicyOrIntegrity
 mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
+mIsLinkPreload
 )
 ;
 break

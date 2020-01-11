@@ -982,6 +982,8 @@ bool
 aDefer
 bool
 aNoModule
+bool
+aLinkPreload
 )
 ;
 void
@@ -1007,6 +1009,8 @@ const
 nsAString
 &
 aIntegrity
+bool
+aLinkPreload
 )
 ;
 void

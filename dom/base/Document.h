@@ -19222,6 +19222,8 @@ const
 nsAString
 &
 aIntegrity
+bool
+aIsLinkPreload
 )
 ;
 /

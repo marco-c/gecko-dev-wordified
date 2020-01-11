@@ -6110,6 +6110,8 @@ bool
 aDefer
 bool
 aNoModule
+bool
+aLinkPreload
 )
 {
 nsCOMPtr
@@ -6151,6 +6153,7 @@ aScriptFromHead
 aAsync
 aDefer
 aNoModule
+aLinkPreload
 GetPreloadReferrerPolicy
 (
 aReferrerPolicy
@@ -6184,6 +6187,8 @@ const
 nsAString
 &
 aIntegrity
+bool
+aLinkPreload
 )
 {
 nsCOMPtr
@@ -6225,6 +6230,7 @@ GetPreloadReferrerPolicy
 aReferrerPolicy
 )
 aIntegrity
+aLinkPreload
 )
 ;
 }
