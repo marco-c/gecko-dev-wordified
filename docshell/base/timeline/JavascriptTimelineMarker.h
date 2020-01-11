@@ -212,12 +212,12 @@ char
 *
 aReason
 const
-char16_t
-*
+nsAString
+&
 aFunctionName
 const
-char16_t
-*
+nsAString
+&
 aFileName
 uint32_t
 aLineNumber

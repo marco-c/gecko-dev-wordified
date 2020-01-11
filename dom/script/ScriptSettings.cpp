@@ -4476,15 +4476,7 @@ NotifyJSRunToCompletionStart
 (
 mReason
 functionName
-.
-get
-(
-)
 filename
-.
-get
-(
-)
 lineNumber
 aAsyncStack
 aAsyncCause
