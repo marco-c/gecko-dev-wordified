@@ -248,6 +248,9 @@ namespace
 dom
 {
 class
+CSSImportRule
+;
+class
 Element
 ;
 class
@@ -518,7 +521,16 @@ Rule
 )
 ;
 void
-StyleSheetCloned
+ImportRuleLoaded
+(
+CSSImportRule
+&
+StyleSheet
+&
+)
+;
+void
+SheetCloned
 (
 StyleSheet
 &
