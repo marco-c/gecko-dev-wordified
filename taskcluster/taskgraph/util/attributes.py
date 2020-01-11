@@ -66,12 +66,6 @@ INTEGRATION_PROJECTS
 {
     
 '
-mozilla
--
-inbound
-'
-    
-'
 autoland
 '
 }
