@@ -1916,6 +1916,15 @@ AssertOnTaskQueue
 (
 )
 ;
+if
+(
+!
+mJavaEncoder
+)
+{
+return
+;
+}
 AutoRelease
 releaseSample
 (
