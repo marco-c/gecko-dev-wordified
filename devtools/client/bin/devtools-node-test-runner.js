@@ -249,7 +249,7 @@ application
 /
 test
 /
-components
+node
 "
 type
 :

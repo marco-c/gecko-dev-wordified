@@ -82,9 +82,7 @@ application
 /
 test
 /
-components
-/
-helpers
+jest
 /
 helpers
 "
@@ -110,7 +108,7 @@ application
 /
 test
 /
-components
+jest
 /
 fixtures
 /
