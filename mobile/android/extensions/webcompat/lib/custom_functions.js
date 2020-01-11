@@ -248,7 +248,7 @@ const
 CUSTOM_FUNCTIONS
 =
 {
-dtagFix
+noSniffFix
 :
 injection
 =
@@ -322,7 +322,7 @@ responseHeaders
 )
 ;
 }
-dtagFixDisable
+noSniffFixDisable
 :
 injection
 =
