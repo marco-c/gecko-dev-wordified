@@ -636,6 +636,9 @@ mMatchedTrackingFullHashes
 RedirectToRealChannelResolver
 mRedirectResolver
 ;
+TimeStamp
+mAsyncOpenTime
+;
 const
 RefPtr
 <
