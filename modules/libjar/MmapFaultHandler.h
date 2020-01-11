@@ -327,6 +327,14 @@ void
 aPtr
 )
 ;
+void
+CrashWithInfo
+(
+void
+*
+aPtr
+)
+;
 /
 /
 sigsetjmp
