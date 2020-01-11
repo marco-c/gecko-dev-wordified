@@ -327,11 +327,7 @@ can
 t
 check
 IsDelegatedCredential
-function
-(
-)
-{
-}
+null
 )
 ;
 /

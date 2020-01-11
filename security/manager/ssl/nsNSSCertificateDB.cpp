@@ -7084,6 +7084,12 @@ Nothing
 /
 /
 sctsFromTLSExtension
+Nothing
+(
+)
+/
+/
+dcInfo
 OriginAttributes
 (
 )
