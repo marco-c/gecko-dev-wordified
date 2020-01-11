@@ -881,7 +881,10 @@ gCertDB
 .
 constructX509
 (
+stringToArray
+(
 bytes
+)
 )
 ;
 notEqual

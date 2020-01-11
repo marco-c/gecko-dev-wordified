@@ -1456,7 +1456,10 @@ certdb
 .
 constructX509
 (
+stringToArray
+(
 certBytes
+)
 )
 ;
 }
