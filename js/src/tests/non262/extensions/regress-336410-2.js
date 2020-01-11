@@ -8,6 +8,15 @@ skip
 if
 (
 !
+Object
+.
+prototype
+.
+toSource
+|
+|
+(
+!
 xulRuntime
 .
 shell
@@ -52,6 +61,7 @@ OS
 "
 WINNT
 "
+)
 )
 )
 slow

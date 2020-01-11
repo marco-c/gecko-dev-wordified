@@ -8,6 +8,14 @@ skip
 if
 (
 !
+Object
+.
+prototype
+.
+toSource
+|
+|
+!
 xulRuntime
 .
 shell

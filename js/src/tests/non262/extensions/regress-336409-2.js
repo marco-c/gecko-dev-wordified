@@ -8,6 +8,15 @@ skip
 if
 (
 !
+Object
+.
+prototype
+.
+toSource
+|
+|
+(
+!
 xulRuntime
 .
 shell
@@ -42,6 +51,7 @@ match
 /
 x86_64
 /
+)
 )
 )
 )
