@@ -165,11 +165,6 @@ mozilla
 namespace
 dom
 {
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-MediaControlKeysManager
-MediaControlKeysEventSource
-)
 bool
 MediaControlKeysManager
 :
