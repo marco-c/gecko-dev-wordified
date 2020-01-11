@@ -368,11 +368,6 @@ full_cmd
 cwd
 =
 repo_path
-stderr
-=
-subprocess
-.
-STDOUT
 )
 .
 decode
