@@ -4741,6 +4741,15 @@ TypeCode
 AnyRef
 )
 :
+case
+uint8_t
+(
+TypeCode
+:
+:
+NullRef
+)
+:
 if
 (
 !
