@@ -113,6 +113,7 @@ return
 ;
 }
 let
+mut
 output_device_switcher
 =
 TestDeviceSwitcher
@@ -421,18 +422,10 @@ s
 =
 >
 {
-assert
-!
-(
 output_device_switcher
 .
 next
 (
-)
-.
-unwrap
-(
-)
 )
 ;
 }
