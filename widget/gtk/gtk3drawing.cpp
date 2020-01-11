@@ -3579,6 +3579,15 @@ gtk_style_context_save
 style
 )
 ;
+StyleContextSetScale
+(
+style
+state
+-
+>
+scale
+)
+;
 gtk_style_context_set_state
 (
 style
