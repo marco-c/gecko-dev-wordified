@@ -51239,7 +51239,10 @@ mTextOrientation
 )
 {
 case
-NS_STYLE_TEXT_ORIENTATION_MIXED
+StyleTextOrientation
+:
+:
+Mixed
 :
 return
 gfx
@@ -51251,7 +51254,10 @@ ShapedTextFlags
 TEXT_ORIENT_VERTICAL_MIXED
 ;
 case
-NS_STYLE_TEXT_ORIENTATION_UPRIGHT
+StyleTextOrientation
+:
+:
+Upright
 :
 return
 gfx
@@ -51263,7 +51269,10 @@ ShapedTextFlags
 TEXT_ORIENT_VERTICAL_UPRIGHT
 ;
 case
-NS_STYLE_TEXT_ORIENTATION_SIDEWAYS
+StyleTextOrientation
+:
+:
+Sideways
 :
 return
 gfx

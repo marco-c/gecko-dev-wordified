@@ -448,6 +448,11 @@ right
 =
 sideways
 "
+gecko_enum_prefix
+=
+"
+StyleTextOrientation
+"
 animation_value_type
 =
 "

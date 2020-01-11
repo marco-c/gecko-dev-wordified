@@ -8615,13 +8615,12 @@ mWritingMode
 /
 NS_STYLE_WRITING_MODE_
 *
-uint8_t
+mozilla
+:
+:
+StyleTextOrientation
 mTextOrientation
 ;
-/
-/
-NS_STYLE_TEXT_ORIENTATION_MIXED_
-*
 mozilla
 :
 :

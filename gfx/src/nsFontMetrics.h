@@ -1389,7 +1389,10 @@ mVertical
 void
 SetTextOrientation
 (
-uint8_t
+mozilla
+:
+:
+StyleTextOrientation
 aTextOrientation
 )
 {
@@ -1398,7 +1401,10 @@ mTextOrientation
 aTextOrientation
 ;
 }
-uint8_t
+mozilla
+:
+:
+StyleTextOrientation
 GetTextOrientation
 (
 )
@@ -1576,7 +1582,10 @@ mTextRunRTL
 bool
 mVertical
 ;
-uint8_t
+mozilla
+:
+:
+StyleTextOrientation
 mTextOrientation
 ;
 }
