@@ -1686,6 +1686,19 @@ raptor_json_path
 =
 raptor_json_path
         
+self
+.
+config
+[
+'
+artifact_dir
+'
+]
+=
+self
+.
+artifact_dir
+        
 return
 self
 .
@@ -2575,6 +2588,22 @@ browsertime_chromedriver
 "
 )
 :
+            
+if
+not
+self
+.
+browsertime_video
+and
+k
+=
+=
+"
+browsertime_ffmpeg
+"
+:
+                
+continue
             
 LOG
 .
@@ -3763,6 +3792,14 @@ skipHar
 -
 video
 '
+self
+.
+browsertime_video
+and
+'
+true
+'
+or
 '
 false
 '
@@ -3886,6 +3923,12 @@ cmd
 )
 )
         
+if
+self
+.
+browsertime_video
+:
+            
 LOG
 .
 info
@@ -3947,6 +3990,10 @@ environ
 )
         
 if
+self
+.
+browsertime_video
+and
 self
 .
 browsertime_ffmpeg
