@@ -558,6 +558,10 @@ sIsMainThreadInitDone
 true
 )
 ;
+mDisableOSActivityMode
+=
+sLaunchWithMacSandbox
+;
 #
 endif
 }
