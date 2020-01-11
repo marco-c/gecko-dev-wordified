@@ -2716,11 +2716,8 @@ MP4Metadata
 :
 GetTrackIndice
 (
-mozilla
-:
-:
-TrackID
-aTrackID
+uint32_t
+aTrackId
 )
 {
 Mp4parseByteData
@@ -2744,7 +2741,7 @@ mParser
 get
 (
 )
-aTrackID
+aTrackId
 &
 fragmented
 )
@@ -2771,7 +2768,7 @@ whether
 track
 id
 %
-d
+u
 is
 "
 "
@@ -2781,10 +2778,7 @@ mp4parse_error
 %
 d
 "
-int
-(
-aTrackID
-)
+aTrackId
 int
 (
 rv
@@ -2810,7 +2804,7 @@ mParser
 get
 (
 )
-aTrackID
+aTrackId
 &
 indiceRawData
 )
@@ -2839,7 +2833,7 @@ in
 track
 id
 %
-d
+u
 "
 "
 mp4parse_error
@@ -2847,10 +2841,7 @@ mp4parse_error
 %
 d
 "
-int
-(
-aTrackID
-)
+aTrackId
 int
 (
 rv
