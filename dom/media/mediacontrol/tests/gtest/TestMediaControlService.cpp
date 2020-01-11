@@ -156,10 +156,6 @@ service
 AddMediaController
 (
 controller1
-.
-get
-(
-)
 )
 ;
 ASSERT_TRUE
@@ -181,10 +177,6 @@ service
 AddMediaController
 (
 controller2
-.
-get
-(
-)
 )
 ;
 ASSERT_TRUE
@@ -206,10 +198,6 @@ service
 RemoveMediaController
 (
 controller1
-.
-get
-(
-)
 )
 ;
 ASSERT_TRUE
@@ -231,10 +219,6 @@ service
 RemoveMediaController
 (
 controller2
-.
-get
-(
-)
 )
 ;
 ASSERT_TRUE
@@ -301,10 +285,6 @@ service
 AddMediaController
 (
 controller1
-.
-get
-(
-)
 )
 ;
 RefPtr
@@ -351,10 +331,6 @@ service
 AddMediaController
 (
 controller2
-.
-get
-(
-)
 )
 ;
 lastController
@@ -385,10 +361,6 @@ service
 RemoveMediaController
 (
 controller2
-.
-get
-(
-)
 )
 ;
 lastController
@@ -419,10 +391,6 @@ service
 RemoveMediaController
 (
 controller1
-.
-get
-(
-)
 )
 ;
 lastController
