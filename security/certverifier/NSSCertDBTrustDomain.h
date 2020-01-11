@@ -1779,6 +1779,13 @@ cachedResponseResult
 const
 Result
 stapledOCSPResponseResult
+const
+Maybe
+<
+TimeDuration
+>
+&
+crliteLookupDuration
 )
 ;
 Result
