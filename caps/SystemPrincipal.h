@@ -301,15 +301,6 @@ aAddonId
 )
 override
 ;
-NS_IMETHOD
-GetIsOriginPotentiallyTrustworthy
-(
-bool
-*
-aResult
-)
-override
-;
 virtual
 nsresult
 GetScriptLocation
