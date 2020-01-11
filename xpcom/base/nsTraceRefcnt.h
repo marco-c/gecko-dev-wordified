@@ -241,6 +241,17 @@ bool
 aLegal
 )
 ;
+#
+ifdef
+MOZ_ENABLE_FORKSERVER
+static
+void
+ResetLogFiles
+(
+)
+;
+#
+endif
 }
 ;
 #
