@@ -783,7 +783,7 @@ aShmem
 )
 ;
 }
-bool
+void
 VideoBridgeParent
 :
 :
@@ -803,10 +803,8 @@ mClosed
 )
 {
 return
-false
 ;
 }
-return
 PVideoBridgeParent
 :
 :
