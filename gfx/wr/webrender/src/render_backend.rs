@@ -523,7 +523,7 @@ use
 crate
 :
 :
-scene_builder
+scene_builder_thread
 :
 :
 *

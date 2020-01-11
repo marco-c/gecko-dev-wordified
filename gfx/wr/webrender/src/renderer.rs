@@ -991,12 +991,12 @@ use
 crate
 :
 :
-scene_builder
+scene_builder_thread
 :
 :
 {
-SceneBuilder
-LowPrioritySceneBuilder
+SceneBuilderThread
+LowPrioritySceneBuilderThread
 }
 ;
 use
@@ -12191,7 +12191,7 @@ scene_tx
 scene_rx
 )
 =
-SceneBuilder
+SceneBuilderThread
 :
 :
 new
@@ -12319,7 +12319,7 @@ channel
 let
 lp_builder
 =
-LowPrioritySceneBuilder
+LowPrioritySceneBuilderThread
 {
 rx
 :
