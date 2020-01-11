@@ -207,7 +207,7 @@ aboutdebugging
 /
 test
 /
-jest
+node
 "
 type
 :
