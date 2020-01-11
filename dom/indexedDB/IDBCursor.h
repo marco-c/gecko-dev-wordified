@@ -351,6 +351,7 @@ alive
 .
 IDBTransaction
 *
+const
 mTransaction
 ;
 /

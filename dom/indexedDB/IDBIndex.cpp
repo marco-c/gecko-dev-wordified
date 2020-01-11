@@ -285,6 +285,7 @@ AssertIsOnOwningThread
 ;
 IDBTransaction
 *
+const
 transaction
 =
 aIndex
@@ -772,6 +773,7 @@ AssertIsOnOwningThread
 ;
 IDBTransaction
 *
+const
 transaction
 =
 mObjectStore
@@ -2022,16 +2024,15 @@ Value
 :
 0
 ;
-RequestParams
-params
-;
-if
-(
-aKeysOnly
-)
-{
+const
+auto
+&
 params
 =
+aKeysOnly
+?
+RequestParams
+{
 IndexGetAllKeysParams
 (
 objectStoreId
@@ -2039,12 +2040,10 @@ indexId
 optionalKeyRange
 limit
 )
-;
 }
-else
+:
+RequestParams
 {
-params
-=
 IndexGetAllParams
 (
 objectStoreId
@@ -2052,8 +2051,8 @@ indexId
 optionalKeyRange
 limit
 )
-;
 }
+;
 RefPtr
 <
 IDBRequest
@@ -2392,6 +2391,7 @@ return
 nullptr
 ;
 }
+const
 int64_t
 objectStoreId
 =
@@ -2402,6 +2402,7 @@ Id
 (
 )
 ;
+const
 int64_t
 indexId
 =
@@ -2445,6 +2446,7 @@ serializedKeyRange
 )
 ;
 }
+const
 IDBCursor
 :
 :
@@ -2702,6 +2704,7 @@ direction
 }
 BackgroundCursorChild
 *
+const
 actor
 =
 new
@@ -2784,6 +2787,7 @@ nullptr
 }
 IDBTransaction
 *
+const
 transaction
 =
 mObjectStore

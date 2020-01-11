@@ -928,6 +928,7 @@ friend
 class
 PermissionRequestParent
 ;
+const
 RefPtr
 <
 IDBFactory
