@@ -326,8 +326,8 @@ win
 .
 moveTo
 (
-originalTop
 originalLeft
+originalTop
 )
 ;
 }
