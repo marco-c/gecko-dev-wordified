@@ -1240,6 +1240,7 @@ attrs
 index
 ]
 NR_ICE_MAX_ATTRIBUTE_SIZE
+0
 )
 )
 ABORT

@@ -2682,6 +2682,10 @@ sizeof
 (
 candidate_str
 )
+ctx
+-
+>
+obfuscate_host_addresses_
 )
 ;
 MOZ_ASSERT
