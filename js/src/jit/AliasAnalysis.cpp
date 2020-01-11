@@ -1338,6 +1338,15 @@ MDefinition
 Opcode
 :
 :
+WasmHeapBase
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 WasmLoadTls
 :
 case
