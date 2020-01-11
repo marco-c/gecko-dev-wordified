@@ -955,7 +955,7 @@ aGivenProto
 )
 override
 ;
-nsISupports
+nsIGlobalObject
 *
 GetParentObject
 (
@@ -1035,7 +1035,7 @@ aRv
 ;
 PushMessageData
 (
-nsISupports
+nsIGlobalObject
 *
 aOwner
 nsTArray
@@ -1051,7 +1051,7 @@ private
 :
 nsCOMPtr
 <
-nsISupports
+nsIGlobalObject
 >
 mOwner
 ;

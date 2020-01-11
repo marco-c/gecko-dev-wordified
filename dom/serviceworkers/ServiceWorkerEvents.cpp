@@ -6125,7 +6125,7 @@ PushMessageData
 :
 PushMessageData
 (
-nsISupports
+nsIGlobalObject
 *
 aOwner
 nsTArray
@@ -6746,6 +6746,11 @@ new
 PushMessageData
 (
 aOwner
+-
+>
+GetOwnerGlobal
+(
+)
 std
 :
 :

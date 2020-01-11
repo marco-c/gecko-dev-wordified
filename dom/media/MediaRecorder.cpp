@@ -5311,7 +5311,7 @@ GetBlobWhenReady
 mRecorder
 -
 >
-GetOwner
+GetOwnerGlobal
 (
 )
 NS_ConvertUTF16toUTF8

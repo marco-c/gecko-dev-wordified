@@ -202,7 +202,7 @@ ShouldCreateDirectory
 0
 ;
 virtual
-nsISupports
+nsIGlobalObject
 *
 GetParentObject
 (

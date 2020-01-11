@@ -9582,7 +9582,7 @@ Blob
 :
 Create
 (
-GetOwner
+GetOwnerGlobal
 (
 )
 blobImpl
@@ -12344,7 +12344,7 @@ mBlobStorage
 >
 GetBlobWhenReady
 (
-GetOwner
+GetOwnerGlobal
 (
 )
 contentType

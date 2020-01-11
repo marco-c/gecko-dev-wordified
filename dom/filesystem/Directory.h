@@ -232,9 +232,9 @@ Directory
 >
 Create
 (
-nsISupports
+nsIGlobalObject
 *
-aParent
+aGlobal
 nsIFile
 *
 aDirectory
@@ -271,7 +271,7 @@ bindings
 =
 =
 =
-nsISupports
+nsIGlobalObject
 *
 GetParentObject
 (
@@ -670,9 +670,9 @@ private
 :
 Directory
 (
-nsISupports
+nsIGlobalObject
 *
-aParent
+aGlobal
 nsIFile
 *
 aFile
@@ -719,9 +719,9 @@ const
 ;
 nsCOMPtr
 <
-nsISupports
+nsIGlobalObject
 >
-mParent
+mGlobal
 ;
 RefPtr
 <

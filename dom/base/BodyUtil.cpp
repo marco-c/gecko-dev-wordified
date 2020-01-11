@@ -2498,7 +2498,7 @@ BodyUtil
 :
 ConsumeBlob
 (
-nsISupports
+nsIGlobalObject
 *
 aParent
 const

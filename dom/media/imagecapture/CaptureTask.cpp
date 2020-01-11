@@ -372,7 +372,7 @@ Create
 mImageCapture
 -
 >
-GetParentObject
+GetOwnerGlobal
 (
 )
 blob

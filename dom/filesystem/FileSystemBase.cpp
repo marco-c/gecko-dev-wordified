@@ -188,7 +188,7 @@ mShutdown
 true
 ;
 }
-nsISupports
+nsIGlobalObject
 *
 FileSystemBase
 :

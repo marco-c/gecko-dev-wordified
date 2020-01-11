@@ -1301,9 +1301,11 @@ StructuredCloneHolder
 .
 Read
 (
-ToSupports
-(
 targetWindow
+-
+>
+AsGlobal
+(
 )
 cx
 &

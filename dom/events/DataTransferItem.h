@@ -680,6 +680,14 @@ nsIInputStream
 aStream
 )
 ;
+already_AddRefed
+<
+nsIGlobalObject
+>
+GetGlobalFromDataTransfer
+(
+)
+;
 /
 /
 The

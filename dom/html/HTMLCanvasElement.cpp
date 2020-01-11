@@ -5115,6 +5115,11 @@ File
 CreateMemoryFile
 (
 win
+-
+>
+AsGlobal
+(
+)
 imgData
 imgSize
 aName
