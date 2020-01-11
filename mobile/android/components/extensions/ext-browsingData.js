@@ -216,7 +216,7 @@ cookie
 of
 cookieMgr
 .
-enumerator
+cookies
 )
 {
 if
