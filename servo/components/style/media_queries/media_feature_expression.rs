@@ -2036,18 +2036,6 @@ feature_name
 *
 ident
 ;
-#
-[
-cfg
-(
-feature
-=
-"
-gecko
-"
-)
-]
-{
 if
 starts_with_ignore_ascii_case
 (
@@ -2079,7 +2067,6 @@ ParsingRequirements
 WEBKIT_PREFIX
 )
 ;
-}
 }
 let
 range
