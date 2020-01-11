@@ -14091,6 +14091,11 @@ NonTSPseudoClass
 :
 :
 MozNativeAnonymous
+|
+NonTSPseudoClass
+:
+:
+MozNativeAnonymousNoSpecificity
 =
 >
 self
