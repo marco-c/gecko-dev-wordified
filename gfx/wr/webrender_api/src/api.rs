@@ -7124,6 +7124,14 @@ DISABLE_GRADIENT_PRIMS
 <
 23
 ;
+const
+OBSCURE_IMAGES
+=
+1
+<
+<
+24
+;
 }
 }
 pub
