@@ -1473,7 +1473,7 @@ SubDocEnumFunc
 )
 (
 Document
-*
+&
 aDocument
 void
 *
@@ -14808,8 +14808,7 @@ SubDocEnumFunc
 )
 (
 Document
-*
-aDocument
+&
 void
 *
 aData

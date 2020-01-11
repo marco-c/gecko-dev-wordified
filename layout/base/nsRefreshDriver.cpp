@@ -11219,7 +11219,7 @@ bool
 ReduceAnimations
 (
 Document
-*
+&
 aDocument
 void
 *
@@ -11229,16 +11229,14 @@ aData
 if
 (
 aDocument
--
->
+.
 GetPresContext
 (
 )
 &
 &
 aDocument
--
->
+.
 GetPresContext
 (
 )
@@ -11255,8 +11253,7 @@ NeedsReducing
 )
 {
 aDocument
--
->
+.
 GetPresContext
 (
 )
@@ -11273,8 +11270,7 @@ ReduceAnimations
 ;
 }
 aDocument
--
->
+.
 EnumerateSubDocuments
 (
 ReduceAnimations
@@ -12534,6 +12530,7 @@ mt
 ;
 ReduceAnimations
 (
+*
 mPresContext
 -
 >

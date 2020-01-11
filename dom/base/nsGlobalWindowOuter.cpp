@@ -44540,16 +44540,14 @@ bool
 NotifyDocumentTree
 (
 Document
-*
+&
 aDocument
 void
 *
-aData
 )
 {
 aDocument
--
->
+.
 EnumerateSubDocuments
 (
 NotifyDocumentTree
@@ -44557,8 +44555,7 @@ nullptr
 )
 ;
 aDocument
--
->
+.
 UpdateDocumentStates
 (
 NS_DOCUMENT_STATE_WINDOW_INACTIVE
@@ -44594,6 +44591,7 @@ mDoc
 {
 NotifyDocumentTree
 (
+*
 mDoc
 nullptr
 )

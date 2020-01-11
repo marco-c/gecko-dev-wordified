@@ -6278,7 +6278,7 @@ nsDisplayListBuilder
 *
 aBuilder
 Document
-*
+&
 aDocument
 )
 {
@@ -6327,8 +6327,7 @@ PresShell
 presShell
 =
 aDocument
--
->
+.
 GetPresShell
 (
 )
@@ -6511,7 +6510,7 @@ bool
 SubDocEnumCb
 (
 Document
-*
+&
 aDocument
 void
 *
@@ -6520,15 +6519,10 @@ aData
 {
 MOZ_ASSERT
 (
-aDocument
-)
-;
-MOZ_ASSERT
-(
 aData
 )
 ;
-CbData
+auto
 *
 data
 =
@@ -6541,6 +6535,8 @@ CbData
 aData
 )
 ;
+if
+(
 nsIFrame
 *
 rootFrame
@@ -6553,10 +6549,6 @@ data
 builder
 aDocument
 )
-;
-if
-(
-rootFrame
 )
 {
 TakeAndAddModifiedAndFramesWithPropsFromRootFrame
@@ -6576,6 +6568,8 @@ framesWithProps
 rootFrame
 )
 ;
+if
+(
 Document
 *
 innerDoc
@@ -6591,10 +6585,6 @@ PresShell
 GetDocument
 (
 )
-;
-if
-(
-innerDoc
 )
 {
 innerDoc
@@ -6675,11 +6665,6 @@ Document
 (
 )
 ;
-if
-(
-rootdoc
-)
-{
 CbData
 data
 =
@@ -6699,7 +6684,6 @@ SubDocEnumCb
 data
 )
 ;
-}
 }
 /
 /
