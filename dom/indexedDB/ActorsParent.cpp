@@ -71442,7 +71442,7 @@ IDB_LOG_ID_STRING
 (
 mBackgroundChildLoggingId
 )
-mLoggingSerialNumber
+mTransactionLoggingSerialNumber
 )
 ;
 TransactionDatabaseOperationBase
@@ -113757,7 +113757,7 @@ IDB_LOG_ID_STRING
 (
 mBackgroundChildLoggingId
 )
-mLoggingSerialNumber
+mTransactionLoggingSerialNumber
 )
 ;
 Transaction
@@ -119160,7 +119160,12 @@ IDB_LOG_ID_STRING
 (
 mBackgroundChildLoggingId
 )
-mLoggingSerialNumber
+mTransaction
+-
+>
+LoggingSerialNumber
+(
+)
 )
 ;
 return
