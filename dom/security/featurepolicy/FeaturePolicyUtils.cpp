@@ -349,7 +349,7 @@ FeaturePolicyUtils
 FeaturePolicyValue
 :
 :
-eAll
+eSelf
 }
 {
 "
