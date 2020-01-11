@@ -4548,7 +4548,7 @@ mode
 .
 #
 ifdef
-EARLY_BETA_OR_EARLIER
+NIGHTLY_BUILD
 pref
 (
 "
@@ -4727,7 +4727,7 @@ shortcuts
 ;
 #
 ifdef
-NIGHTLY_BUILD
+EARLY_BETA_OR_EARLIER
 pref
 (
 "
