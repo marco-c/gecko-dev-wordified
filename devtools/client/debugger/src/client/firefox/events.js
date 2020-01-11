@@ -267,13 +267,7 @@ fission
 &
 currentTarget
 .
-chrome
-&
-&
-!
-currentTarget
-.
-isAddon
+isParentProcess
 ;
 }
 function
