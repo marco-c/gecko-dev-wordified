@@ -113,7 +113,7 @@ shared
 /
 specs
 /
-inspector
+walker
 "
 )
 ;
