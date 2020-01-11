@@ -261,9 +261,6 @@ BITDEPTH
 =
 =
 8
-&
-&
-ARCH_AARCH64
 decl_cdef_dir_fn
 (
 dav1d_cdef_find_dir_neon
@@ -485,6 +482,8 @@ tmp_buf
 12
 *
 tmp_stride
++
+8
 )
 ;
 \
@@ -498,7 +497,7 @@ tmp_buf
 *
 tmp_stride
 +
-2
+8
 ;
 \
 dav1d_cdef_padding
@@ -598,9 +597,6 @@ BITDEPTH
 =
 =
 8
-&
-&
-ARCH_AARCH64
 c
 -
 >
