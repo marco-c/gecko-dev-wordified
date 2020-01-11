@@ -1863,6 +1863,9 @@ m_allocation
 .
 pages
 ;
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 !
@@ -1880,8 +1883,16 @@ flushICache
 )
 )
 {
-MOZ_CRASH
+oomUnsafe
+.
+crash
 (
+"
+ExecutableAllocator
+:
+:
+reprotectPool
+"
 )
 ;
 }
