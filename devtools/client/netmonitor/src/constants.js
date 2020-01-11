@@ -2273,6 +2273,14 @@ Browser
 CSP
 Preload
 "
+5000
+:
+"
+Not
+same
+-
+origin
+"
 }
 ;
 const
