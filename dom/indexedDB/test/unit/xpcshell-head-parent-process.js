@@ -1278,7 +1278,7 @@ timer
 ;
 }
 function
-initChromeOrigin
+initStorageAndChromeOrigin
 (
 persistence
 )
@@ -1311,10 +1311,13 @@ Services
 .
 qms
 .
-initStoragesForPrincipal
+initStorageAndOrigin
 (
 principal
 persistence
+"
+idb
+"
 )
 ;
 }

@@ -2792,7 +2792,7 @@ rv
 qm
 -
 >
-EnsureOriginIsInitialized
+EnsureStorageAndOriginIsInitialized
 (
 PERSISTENCE_TYPE_DEFAULT
 mQuotaInfo
@@ -2804,6 +2804,13 @@ mGroup
 mQuotaInfo
 .
 mOrigin
+quota
+:
+:
+Client
+:
+:
+DOMCACHE
 getter_AddRefs
 (
 mQuotaInfo

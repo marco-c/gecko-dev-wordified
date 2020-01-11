@@ -451,7 +451,7 @@ origin
 "
 )
 ;
-initOrigin
+initStorageAndOrigin
 (
 principal
 origin

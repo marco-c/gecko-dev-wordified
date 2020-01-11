@@ -402,7 +402,7 @@ origin
 ;
 request
 =
-initChromeOrigin
+initStorageAndChromeOrigin
 (
 "
 persistent

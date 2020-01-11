@@ -251,7 +251,7 @@ origin
 let
 request
 =
-initOrigin
+initStorageAndOrigin
 (
 getPrincipal
 (

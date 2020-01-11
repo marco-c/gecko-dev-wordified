@@ -435,7 +435,7 @@ origin
 ;
 request
 =
-initOrigin
+initStorageAndOrigin
 (
 principal
 "

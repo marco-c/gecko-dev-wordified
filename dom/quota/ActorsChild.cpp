@@ -2009,13 +2009,13 @@ case
 RequestResponse
 :
 :
-TInitOriginResponse
+TInitStorageAndOriginResponse
 :
 HandleResponse
 (
 aResponse
 .
-get_InitOriginResponse
+get_InitStorageAndOriginResponse
 (
 )
 .

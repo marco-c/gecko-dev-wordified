@@ -413,7 +413,7 @@ exampleUrl
 ;
 request
 =
-initOrigin
+initStorageAndOrigin
 (
 principal
 "
@@ -591,7 +591,7 @@ origin
 ;
 request
 =
-initChromeOrigin
+initStorageAndChromeOrigin
 (
 "
 persistent
@@ -748,7 +748,7 @@ origin
 ;
 request
 =
-initChromeOrigin
+initStorageAndChromeOrigin
 (
 "
 persistent
@@ -928,7 +928,7 @@ origin
 ;
 request
 =
-initChromeOrigin
+initStorageAndChromeOrigin
 (
 "
 persistent

@@ -297,7 +297,7 @@ created
 .
 request
 =
-initOrigin
+initStorageAndOrigin
 (
 principal
 "

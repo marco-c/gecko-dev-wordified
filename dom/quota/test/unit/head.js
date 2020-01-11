@@ -583,7 +583,7 @@ request
 ;
 }
 function
-initOrigin
+initStorageAndOrigin
 (
 principal
 persistence
@@ -599,7 +599,7 @@ _getQuotaManager
 (
 )
 .
-initStoragesForPrincipal
+initStorageAndOrigin
 (
 principal
 persistence
@@ -616,7 +616,7 @@ request
 ;
 }
 function
-initChromeOrigin
+initStorageAndChromeOrigin
 (
 persistence
 callback
@@ -654,7 +654,7 @@ _getQuotaManager
 (
 )
 .
-initStoragesForPrincipal
+initStorageAndOrigin
 (
 principal
 persistence

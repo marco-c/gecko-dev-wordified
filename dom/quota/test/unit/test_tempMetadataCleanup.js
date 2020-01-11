@@ -116,7 +116,7 @@ origin
 let
 request
 =
-initChromeOrigin
+initStorageAndChromeOrigin
 (
 "
 persistent
