@@ -643,9 +643,6 @@ providers
 [
 providerName
 ]
-preselected
-:
-true
 }
 )
 ;
@@ -958,9 +955,6 @@ providers
 provider1Name
 provider2Name
 ]
-preselected
-:
-true
 }
 )
 ;
