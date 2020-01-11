@@ -1082,6 +1082,13 @@ Promise
 \
 REAL
 (
+AsyncFunction
+InitAsyncFunction
+nullptr
+)
+\
+REAL
+(
 ReadableStream
 InitViaClassSpec
 &
