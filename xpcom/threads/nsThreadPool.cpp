@@ -3289,6 +3289,16 @@ them
 at
 shutdown
 .
+static
+const
+nsThread
+:
+:
+ShutdownContextsComp
+comparator
+{
+}
+;
 for
 (
 int32_t
@@ -3383,6 +3393,8 @@ contexts
 [
 i
 ]
+0
+comparator
 )
 ;
 if
@@ -3427,6 +3439,9 @@ thread
 is
 done
 .
+Unused
+<
+<
 currentThread
 -
 >
@@ -3435,7 +3450,7 @@ mRequestedShutdownContexts
 index
 ]
 .
-forget
+release
 (
 )
 ;
