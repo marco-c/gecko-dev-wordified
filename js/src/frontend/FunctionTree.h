@@ -475,7 +475,7 @@ items
 happens
 only
 when
-publishDeferredItems
+publishDeferredFunctions
 /
 /
 is

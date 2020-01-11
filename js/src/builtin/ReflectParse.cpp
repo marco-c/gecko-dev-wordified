@@ -22981,7 +22981,7 @@ if
 !
 parser
 .
-publishDeferredItems
+publishDeferredFunctions
 (
 )
 )

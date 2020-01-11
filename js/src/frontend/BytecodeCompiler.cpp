@@ -3155,7 +3155,7 @@ if
 parser
 -
 >
-publishDeferredItems
+publishDeferredFunctions
 (
 )
 )
@@ -3541,7 +3541,7 @@ if
 parser
 -
 >
-publishDeferredItems
+publishDeferredFunctions
 (
 )
 )
@@ -4005,7 +4005,7 @@ if
 parser
 -
 >
-publishDeferredItems
+publishDeferredFunctions
 (
 )
 )
@@ -5940,7 +5940,7 @@ if
 !
 parser
 .
-publishDeferredItems
+publishDeferredFunctions
 (
 )
 )
