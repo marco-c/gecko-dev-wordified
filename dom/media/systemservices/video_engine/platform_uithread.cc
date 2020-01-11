@@ -557,8 +557,6 @@ InternalInit
 /
 always
 evaluates
-do
-{
 /
 /
 The
@@ -608,6 +606,8 @@ run_function_deprecated_
 obj_
 )
 ;
+do
+{
 /
 /
 Alertable
