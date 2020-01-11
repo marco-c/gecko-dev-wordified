@@ -907,9 +907,7 @@ DOM
 event
 from
 the
-<
-textbox
->
+input
 .
 *
 /
@@ -1034,9 +1032,7 @@ DOM
 event
 from
 the
-<
-textbox
->
+input
 .
 *
 param
