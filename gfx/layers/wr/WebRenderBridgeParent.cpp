@@ -10423,6 +10423,12 @@ get_OpUpdatedAsyncImagePipeline
 (
 )
 ;
+aTxn
+.
+InvalidateRenderedFrame
+(
+)
+;
 mAsyncImageManager
 -
 >

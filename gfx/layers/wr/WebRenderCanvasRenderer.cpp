@@ -509,6 +509,13 @@ UpdateCompositableClientForEmptyTransaction
 (
 )
 {
+bool
+wasDirty
+=
+IsDirty
+(
+)
+;
 UpdateCompositableClient
 (
 mManager
@@ -521,6 +528,9 @@ GetRenderRoot
 ;
 if
 (
+wasDirty
+&
+&
 mPipelineId
 .
 isSome
