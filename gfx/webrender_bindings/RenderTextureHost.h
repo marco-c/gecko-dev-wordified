@@ -197,6 +197,9 @@ namespace
 wr
 {
 class
+RenderDXGITextureHostOGL
+;
+class
 RenderBufferTextureHost
 ;
 class
@@ -296,6 +299,17 @@ NotifyNotUsed
 (
 )
 {
+}
+virtual
+RenderDXGITextureHostOGL
+*
+AsRenderDXGITextureHostOGL
+(
+)
+{
+return
+nullptr
+;
 }
 protected
 :
