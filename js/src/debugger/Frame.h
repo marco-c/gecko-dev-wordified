@@ -496,7 +496,6 @@ override
 ;
 private
 :
-const
 HeapPtr
 <
 JSObject
@@ -704,7 +703,6 @@ override
 ;
 private
 :
-const
 HeapPtr
 <
 JSObject

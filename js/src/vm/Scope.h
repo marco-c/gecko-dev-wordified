@@ -1659,7 +1659,6 @@ scope
 or
 nullptr
 .
-const
 GCPtrScope
 enclosing_
 ;
@@ -1670,7 +1669,6 @@ kind
 determines
 data_
 .
-const
 ScopeKind
 kind_
 ;
@@ -1693,7 +1691,6 @@ EnvironmentObject
 Otherwise
 nullptr
 .
-const
 GCPtrShape
 environmentShape_
 ;

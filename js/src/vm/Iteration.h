@@ -221,7 +221,6 @@ Internal
 iterator
 object
 .
-const
 GCPtrObject
 iterObj_
 =

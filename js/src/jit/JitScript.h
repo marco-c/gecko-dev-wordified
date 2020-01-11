@@ -1216,7 +1216,6 @@ enclosing
 scope
 )
 .
-const
 HeapPtr
 <
 EnvironmentObject

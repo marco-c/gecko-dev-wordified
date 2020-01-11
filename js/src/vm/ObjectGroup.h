@@ -2024,7 +2024,6 @@ group
 s
 state
 .
-const
 GCPtrId
 id
 ;

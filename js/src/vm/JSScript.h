@@ -9360,7 +9360,6 @@ the
 associated
 function
 .
-const
 GCPtrObject
 functionOrGlobal_
 ;
