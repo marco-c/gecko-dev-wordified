@@ -211,6 +211,13 @@ nsSVGContainerFrame
 .
 h
 "
+#
+include
+"
+nsTextFrame
+.
+h
+"
 class
 gfxContext
 ;
@@ -219,9 +226,6 @@ nsDisplaySVGText
 ;
 class
 SVGTextFrame
-;
-class
-nsTextFrame
 ;
 namespace
 mozilla
