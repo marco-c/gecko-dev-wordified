@@ -131,6 +131,15 @@ RenderCompositor
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TimeStamp
+.
+h
+"
 namespace
 mozilla
 {
@@ -492,6 +501,9 @@ NativeLayer
 >
 >
 mNativeLayers
+;
+TimeStamp
+mBeginFrameTimeStamp
 ;
 /
 /
