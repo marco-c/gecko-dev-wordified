@@ -336,11 +336,6 @@ GuardMagicValue
 \
 _
 (
-GuardNoDetachedTypedObjects
-)
-\
-_
-(
 GuardNoDenseElements
 )
 \

@@ -10493,6 +10493,16 @@ hasTypedObjectViews
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+buffer
+.
+isDetached
+(
+)
+)
+;
 setOwnerAndData
 (
 &
