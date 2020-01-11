@@ -408,7 +408,7 @@ content
 /
 resetProfile
 .
-xhtml
+xul
 "
 null
 "

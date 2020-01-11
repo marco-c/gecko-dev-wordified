@@ -4863,7 +4863,7 @@ content
 /
 dummy
 .
-xhtml
+xul
 "
 ;
 if

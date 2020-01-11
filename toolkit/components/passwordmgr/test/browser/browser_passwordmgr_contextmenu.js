@@ -348,7 +348,7 @@ content
 /
 passwordManager
 .
-xhtml
+xul
 "
 ;
 let
