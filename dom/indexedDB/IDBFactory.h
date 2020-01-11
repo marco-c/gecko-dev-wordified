@@ -942,7 +942,6 @@ nsAutoPtr
 <
 PrincipalInfo
 >
-&
 aPrincipalInfo
 IDBFactory
 *
@@ -961,7 +960,6 @@ nsAutoPtr
 <
 PrincipalInfo
 >
-&
 aPrincipalInfo
 uint64_t
 aInnerWindowID
@@ -978,8 +976,10 @@ AllowedForWindowInternal
 nsPIDOMWindowInner
 *
 aWindow
+nsCOMPtr
+<
 nsIPrincipal
-*
+>
 *
 aPrincipal
 )
