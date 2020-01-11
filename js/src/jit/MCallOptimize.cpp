@@ -13996,7 +13996,7 @@ MInstruction
 *
 index
 =
-MToNumberInt32
+MToIntegerInt32
 :
 :
 New
@@ -14893,7 +14893,7 @@ MInstruction
 *
 index
 =
-MToNumberInt32
+MToIntegerInt32
 :
 :
 New
