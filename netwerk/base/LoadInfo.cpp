@@ -1279,7 +1279,7 @@ mTopLevelPrincipal
 innerWindow
 -
 >
-GetTopLevelPrincipal
+GetTopLevelAntiTrackingPrincipal
 (
 )
 ;
@@ -2779,7 +2779,7 @@ mTopLevelPrincipal
 innerWindow
 -
 >
-GetTopLevelPrincipal
+GetTopLevelAntiTrackingPrincipal
 (
 )
 ;
