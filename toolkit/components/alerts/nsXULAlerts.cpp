@@ -191,15 +191,6 @@ using
 namespace
 mozilla
 ;
-using
-mozilla
-:
-:
-dom
-:
-:
-NotificationTelemetryService
-;
 #
 define
 ALERT_CHROME_URL
