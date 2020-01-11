@@ -221,7 +221,7 @@ h
 "
 #
 ifdef
-JS_HAS_INTL_API
+ENABLE_INTL_API
 #
 include
 "
@@ -12630,7 +12630,7 @@ false
 }
 #
 ifdef
-JS_HAS_INTL_API
+ENABLE_INTL_API
 /
 *
 *
@@ -12974,7 +12974,7 @@ true
 endif
 /
 /
-JS_HAS_INTL_API
+ENABLE_INTL_API
 static
 bool
 intrinsic_ThrowArgTypeNotObject
@@ -17046,7 +17046,7 @@ undef
 LOAD_AND_STORE_REFERENCE_FN_DECLS
 #
 ifdef
-JS_HAS_INTL_API
+ENABLE_INTL_API
 /
 /
 See
@@ -17584,7 +17584,7 @@ intrinsic_IsRuntimeDefaultLocale
 endif
 /
 /
-JS_HAS_INTL_API
+ENABLE_INTL_API
 JS_FN
 (
 "

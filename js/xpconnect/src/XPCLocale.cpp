@@ -492,14 +492,14 @@ are
 only
 consulted
 when
-JS_HAS_INTL_API
+ENABLE_INTL_API
 is
 not
 set
 .
 )
 Since
-JS_HAS_INTL_API
+ENABLE_INTL_API
 /
 /
 is

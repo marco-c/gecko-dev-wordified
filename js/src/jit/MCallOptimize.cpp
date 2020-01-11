@@ -135,7 +135,7 @@ h
 "
 #
 ifdef
-JS_HAS_INTL_API
+ENABLE_INTL_API
 #
 include
 "
@@ -2072,7 +2072,7 @@ callInfo
 ;
 #
 ifdef
-JS_HAS_INTL_API
+ENABLE_INTL_API
 /
 /
 Intl

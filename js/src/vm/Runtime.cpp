@@ -400,7 +400,7 @@ h
 "
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 #
 include
 "
@@ -899,7 +899,7 @@ nullptr
 #
 if
 !
-JS_HAS_INTL_API
+ENABLE_INTL_API
 thousandsSeparator
 (
 nullptr
@@ -1408,7 +1408,7 @@ initialized_
 ;
 #
 ifdef
-JS_HAS_INTL_API
+ENABLE_INTL_API
 sharedIntlData
 .
 ref
@@ -1689,7 +1689,7 @@ endif
 #
 if
 !
-JS_HAS_INTL_API
+ENABLE_INTL_API
 FinishRuntimeNumberState
 (
 this
@@ -2129,7 +2129,7 @@ mallocSizeOf
 }
 #
 ifdef
-JS_HAS_INTL_API
+ENABLE_INTL_API
 rtSizes
 -
 >
@@ -3207,7 +3207,7 @@ locale
 .
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 const
 char
 *
@@ -3375,7 +3375,7 @@ get
 }
 #
 ifdef
-JS_HAS_INTL_API
+ENABLE_INTL_API
 void
 JSRuntime
 :

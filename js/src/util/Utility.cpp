@@ -687,6 +687,9 @@ ArrayBufferContentsArena
 )
 ;
 }
+#
+ifdef
+MOZ_DEBUG
 extern
 void
 js
@@ -791,6 +794,8 @@ StringBufferArena
 #
 endif
 }
+#
+endif
 JS_PUBLIC_API
 void
 JS_Assert

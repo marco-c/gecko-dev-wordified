@@ -403,7 +403,7 @@ vp
 ;
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 /
 *
 *

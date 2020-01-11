@@ -261,7 +261,7 @@ h
 "
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 #
 include
 "
@@ -305,7 +305,7 @@ h
 #
 if
 !
-JS_HAS_INTL_API
+ENABLE_INTL_API
 #
 include
 "
@@ -346,7 +346,7 @@ h
 "
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 #
 include
 "
@@ -4181,7 +4181,7 @@ GREEK_SMALL_LETTER_SIGMA
 ;
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 /
 /
 Tell
@@ -5885,7 +5885,7 @@ true
 }
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 /
 /
 String
@@ -6778,7 +6778,7 @@ true
 endif
 /
 /
-JS_HAS_INTL_API
+ENABLE_INTL_API
 static
 inline
 bool
@@ -8704,7 +8704,7 @@ true
 }
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 /
 /
 String
@@ -9384,10 +9384,10 @@ true
 endif
 /
 /
-JS_HAS_INTL_API
+ENABLE_INTL_API
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 /
 /
 String
@@ -9645,10 +9645,10 @@ true
 endif
 /
 /
-JS_HAS_INTL_API
+ENABLE_INTL_API
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 /
 /
 ES2017
@@ -10471,7 +10471,7 @@ true
 endif
 /
 /
-JS_HAS_INTL_API
+ENABLE_INTL_API
 static
 bool
 str_charAt
@@ -22983,7 +22983,7 @@ str_trimEnd
 )
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 JS_SELF_HOSTED_FN
 (
 "
@@ -23061,7 +23061,7 @@ String_repeat
 )
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 JS_FN
 (
 "

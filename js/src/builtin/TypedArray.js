@@ -8274,7 +8274,7 @@ elements
 .
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 var
 R
 =
@@ -8499,7 +8499,7 @@ d
 .
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 R
 =
 ToString

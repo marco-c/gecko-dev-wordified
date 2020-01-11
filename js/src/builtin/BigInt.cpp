@@ -873,7 +873,7 @@ args
 }
 #
 ifndef
-JS_HAS_INTL_API
+ENABLE_INTL_API
 /
 /
 BigInt
@@ -1065,7 +1065,7 @@ endif
 /
 *
 !
-JS_HAS_INTL_API
+ENABLE_INTL_API
 *
 /
 /
@@ -1527,7 +1527,7 @@ toString
 )
 #
 ifdef
-JS_HAS_INTL_API
+ENABLE_INTL_API
 JS_SELF_HOSTED_FN
 (
 "

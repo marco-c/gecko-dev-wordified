@@ -58,7 +58,7 @@ MPL
 /
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 /
 *
 *
@@ -275,4 +275,4 @@ false
 endif
 /
 /
-JS_HAS_INTL_API
+ENABLE_INTL_API

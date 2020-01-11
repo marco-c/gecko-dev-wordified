@@ -58,7 +58,7 @@ MPL
 /
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 var
 numberFormatCache
 =
@@ -306,7 +306,7 @@ false
 endif
 /
 /
-JS_HAS_INTL_API
+ENABLE_INTL_API
 /
 /
 ES6

@@ -2896,7 +2896,7 @@ trc
 ;
 #
 ifdef
-JS_HAS_INTL_API
+ENABLE_INTL_API
 /
 /
 Trace

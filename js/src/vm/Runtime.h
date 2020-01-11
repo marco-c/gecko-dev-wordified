@@ -227,7 +227,7 @@ h
 "
 #
 ifdef
-JS_HAS_INTL_API
+ENABLE_INTL_API
 #
 include
 "
@@ -4664,7 +4664,7 @@ defaultFreeOp_
 #
 if
 !
-JS_HAS_INTL_API
+ENABLE_INTL_API
 /
 *
 Number
@@ -5448,7 +5448,7 @@ wellKnownSymbols
 ;
 #
 ifdef
-JS_HAS_INTL_API
+ENABLE_INTL_API
 /
 *
 Shared
