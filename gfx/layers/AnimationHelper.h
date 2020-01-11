@@ -434,12 +434,6 @@ PropertyAnimationGroup
 nsCSSPropertyID
 mProperty
 ;
-Maybe
-<
-TransformData
->
-mAnimationData
-;
 nsTArray
 <
 PropertyAnimation
@@ -747,6 +741,12 @@ nsTArray
 PropertyAnimationGroup
 >
 mAnimation
+;
+UniquePtr
+<
+TransformData
+>
+mTransformLikeMetaData
 ;
 RefPtr
 <
