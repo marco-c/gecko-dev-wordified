@@ -3563,15 +3563,6 @@ CreateCompositor
 (
 )
 {
-/
-/
-there
-'
-s
-no
-super
-?
-?
 nsWindowBase
 :
 :
