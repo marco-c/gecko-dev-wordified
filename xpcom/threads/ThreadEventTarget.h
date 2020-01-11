@@ -258,9 +258,6 @@ thread
 void
 SetCurrentThread
 (
-PRThread
-*
-aThread
 )
 ;
 size_t

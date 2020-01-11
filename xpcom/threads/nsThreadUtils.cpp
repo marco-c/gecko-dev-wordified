@@ -3330,14 +3330,14 @@ IsOnCurrentThread
 {
 if
 (
-mThread
+mVirtualThread
 )
 {
 return
-mThread
+mVirtualThread
 =
 =
-PR_GetCurrentThread
+GetCurrentVirtualThread
 (
 )
 ;
