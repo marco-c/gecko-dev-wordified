@@ -763,6 +763,16 @@ AbandonBFCacheEntry
 )
 override
 ;
+NS_IMETHOD
+CreateLoadInfo
+(
+nsDocShellLoadState
+*
+*
+aLoadState
+)
+override
+;
 private
 :
 nsSHEntryShared
