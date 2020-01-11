@@ -3156,6 +3156,8 @@ Promise
 resolve
 =
 >
+DevToolsUtils
+.
 executeSoon
 (
 resolve
@@ -4315,6 +4317,8 @@ popuphidden
 onPopupHidden
 )
 ;
+DevToolsUtils
+.
 executeSoon
 (
 (
