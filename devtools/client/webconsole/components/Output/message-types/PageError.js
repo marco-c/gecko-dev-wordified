@@ -279,6 +279,7 @@ timestampsVisible
 isPaused
 maybeScrollToBottom
 inWarningGroup
+pausedExecutionPoint
 }
 =
 props
@@ -378,6 +379,7 @@ notes
 timestampsVisible
 maybeScrollToBottom
 message
+pausedExecutionPoint
 }
 )
 ;

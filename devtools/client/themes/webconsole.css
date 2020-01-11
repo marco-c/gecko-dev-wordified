@@ -1771,7 +1771,7 @@ before
 {
 border
 -
-bottom
+top
 -
 color
 :
@@ -1799,7 +1799,7 @@ child
 /
 border
 -
-bottom
+top
 -
 width
 :
@@ -1813,18 +1813,6 @@ paused
 ~
 .
 message
-:
-not
-(
-.
-command
-)
-:
-not
-(
-.
-result
-)
 .
 message
 -
