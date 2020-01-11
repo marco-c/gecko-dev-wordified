@@ -2554,12 +2554,11 @@ nsINode
 >
 newNode
 =
-nsNodeUtils
-:
-:
+targetElement
+-
+>
 Clone
 (
-targetElement
 true
 nodeInfoManager
 nullptr

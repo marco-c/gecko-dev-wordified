@@ -1582,12 +1582,11 @@ nsINode
 >
 clonedNode
 =
-nsNodeUtils
-:
-:
+content
+-
+>
 Clone
 (
-content
 true
 doc
 -
@@ -1614,7 +1613,7 @@ code
 OK
 assuming
 that
-nsNodeUtils
+nsINode
 :
 :
 Clone
