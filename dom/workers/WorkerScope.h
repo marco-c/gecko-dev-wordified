@@ -1213,6 +1213,12 @@ aDescriptor
 )
 override
 ;
+uint64_t
+WindowID
+(
+)
+const
+;
 void
 FirstPartyStorageAccessGranted
 (
