@@ -384,15 +384,6 @@ Tokenizer
 AutoTaggedTuple
 ;
 using
-BinASTFields
-=
-typename
-Tokenizer
-:
-:
-BinASTFields
-;
-using
 Chars
 =
 typename
