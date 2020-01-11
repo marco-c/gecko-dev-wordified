@@ -961,7 +961,7 @@ if
 loopInfo_
 -
 >
-patchBreaksAndContinues
+patchBreaks
 (
 bce_
 )
