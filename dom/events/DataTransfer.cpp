@@ -4506,8 +4506,6 @@ format
 ;
 }
 }
-return
-;
 }
 nsresult
 DataTransfer
