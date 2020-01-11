@@ -1180,7 +1180,7 @@ self
 .
 style
 .
-out_of_flow_positioned
+is_absolutely_positioned
 (
 )
 &
@@ -1279,7 +1279,7 @@ self
 .
 style
 .
-out_of_flow_positioned
+is_absolutely_positioned
 (
 )
 &
@@ -1288,7 +1288,7 @@ self
 .
 style
 .
-floated
+is_floating
 (
 )
 {
@@ -1701,7 +1701,7 @@ self
 .
 style
 .
-floated
+is_floating
 (
 )
 )
@@ -1713,7 +1713,7 @@ self
 .
 style
 .
-out_of_flow_positioned
+is_absolutely_positioned
 (
 )
 )
@@ -3097,7 +3097,7 @@ self
 .
 style
 .
-out_of_flow_positioned
+is_absolutely_positioned
 (
 )
 {
@@ -4452,7 +4452,7 @@ self
 .
 style
 .
-floated
+is_floating
 (
 )
 |
@@ -4461,7 +4461,7 @@ self
 .
 style
 .
-out_of_flow_positioned
+is_absolutely_positioned
 (
 )
 {
