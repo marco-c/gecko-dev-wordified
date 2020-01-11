@@ -1414,6 +1414,22 @@ direction
 ;
 }
 }
+IDBCursor
+:
+:
+Type
+IDBCursor
+:
+:
+GetType
+(
+)
+const
+{
+return
+mType
+;
+}
 void
 IDBCursor
 :
@@ -2405,6 +2421,7 @@ ContinueParams
 key
 )
 mKey
+mPrimaryKey
 )
 ;
 mContinueCalled
@@ -2987,6 +3004,7 @@ key
 primaryKey
 )
 mKey
+mPrimaryKey
 )
 ;
 mContinueCalled
@@ -3293,6 +3311,7 @@ AdvanceParams
 aCount
 )
 mKey
+mPrimaryKey
 )
 ;
 mContinueCalled
