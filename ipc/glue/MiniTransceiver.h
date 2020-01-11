@@ -289,6 +289,7 @@ message
 .
 *
 /
+explicit
 MiniTransceiver
 (
 int
