@@ -159,6 +159,8 @@ is
 not
 on
 stack
+or
+suspended
 "
 )
 ;
