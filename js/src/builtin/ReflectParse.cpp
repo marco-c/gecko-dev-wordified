@@ -19764,11 +19764,6 @@ BigIntLiteral
 (
 )
 .
-box
-(
-)
--
->
 value
 (
 )
