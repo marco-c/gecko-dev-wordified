@@ -1013,10 +1013,6 @@ ThreadFront
 name
 :
 string
-workerName
-?
-:
-string
 isBrowsingContext
 :
 boolean
