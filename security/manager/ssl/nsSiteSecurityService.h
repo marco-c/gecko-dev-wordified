@@ -1089,6 +1089,9 @@ int64_t
 mPreloadListTimeOffset
 ;
 bool
+mHPKPEnabled
+;
+bool
 mProcessPKPHeadersFromNonBuiltInRoots
 ;
 RefPtr
