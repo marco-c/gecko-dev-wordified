@@ -5700,7 +5700,7 @@ conditions
 [
 conditions
 .
-is_firefox_or_android
+has_build
 ]
              
 description
@@ -7144,7 +7144,7 @@ conditions
 [
 conditions
 .
-is_firefox_or_android
+has_build
 ]
              
 parser
