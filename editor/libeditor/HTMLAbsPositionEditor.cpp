@@ -2920,9 +2920,11 @@ div
 )
 |
 |
-HasStyleOrIdOrClass
+HTMLEditor
+:
+:
+HasStyleOrIdOrClassAttribute
 (
-&
 aElement
 )
 )
