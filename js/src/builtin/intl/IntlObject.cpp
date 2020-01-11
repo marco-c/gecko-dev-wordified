@@ -2447,7 +2447,7 @@ false
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 style
 "
@@ -2467,7 +2467,7 @@ Narrow
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 style
 "
@@ -2488,7 +2488,7 @@ else
 {
 MOZ_ASSERT
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 style
 "

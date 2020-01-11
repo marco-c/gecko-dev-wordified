@@ -1450,7 +1450,7 @@ CHECK
 js
 :
 :
-StringEqualsAscii
+StringEqualsLiteral
 (
 lin
 SpiderMonkeyStack
@@ -1722,7 +1722,7 @@ CHECK
 js
 :
 :
-StringEqualsAscii
+StringEqualsLiteral
 (
 lin
 V8Stack
@@ -2084,7 +2084,7 @@ CHECK
 js
 :
 :
-StringEqualsAscii
+StringEqualsLiteral
 (
 lin
 "
@@ -2158,7 +2158,7 @@ CHECK
 js
 :
 :
-StringEqualsAscii
+StringEqualsLiteral
 (
 lin
 "
@@ -2327,7 +2327,7 @@ CHECK
 js
 :
 :
-StringEqualsAscii
+StringEqualsLiteral
 (
 lin
 "
@@ -2598,7 +2598,7 @@ CHECK
 js
 :
 :
-StringEqualsAscii
+StringEqualsLiteral
 (
 lin
 "

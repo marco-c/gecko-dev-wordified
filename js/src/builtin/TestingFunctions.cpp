@@ -20801,7 +20801,7 @@ scope
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 scopeStr
 "
@@ -20827,7 +20827,7 @@ SameProcessSameThread
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 scopeStr
 "
@@ -20853,7 +20853,7 @@ SameProcessDifferentThread
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 scopeStr
 "
@@ -20879,7 +20879,7 @@ DifferentProcess
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 scopeStr
 "
@@ -21069,7 +21069,7 @@ false
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 poli
 "
@@ -21088,7 +21088,7 @@ allowSharedMemory
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 poli
 "
@@ -28976,7 +28976,7 @@ phases
 ;
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 action
 "
@@ -28985,7 +28985,7 @@ minorGC
 )
 |
 |
-StringEqualsAscii
+StringEqualsLiteral
 (
 action
 "
@@ -29081,7 +29081,7 @@ false
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 phasesStr
 "
@@ -29103,7 +29103,7 @@ JSGC_BEGIN
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 phasesStr
 "
@@ -29125,7 +29125,7 @@ JSGC_END
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 phasesStr
 "
@@ -29171,7 +29171,7 @@ false
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 action
 "
@@ -29216,7 +29216,7 @@ minorGCInfo
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 action
 "
@@ -29370,7 +29370,7 @@ majorGCInfo
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 action
 "

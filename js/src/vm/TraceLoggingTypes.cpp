@@ -149,7 +149,7 @@ if
 js
 :
 :
-StringEqualsAscii
+StringEqualsLiteral
 (
 str
 #

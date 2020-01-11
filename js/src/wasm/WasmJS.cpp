@@ -13061,7 +13061,7 @@ tableKind
 ;
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 elementLinearStr
 "
@@ -13070,7 +13070,7 @@ anyfunc
 )
 |
 |
-StringEqualsAscii
+StringEqualsLiteral
 (
 elementLinearStr
 "
@@ -13093,7 +13093,7 @@ ENABLE_WASM_REFTYPES
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 elementLinearStr
 "
@@ -15779,7 +15779,7 @@ globalType
 ;
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 typeLinearStr
 "
@@ -15809,7 +15809,7 @@ length
 1
 &
 &
-StringEqualsAscii
+StringEqualsLiteral
 (
 typeLinearStr
 "
@@ -15849,7 +15849,7 @@ I64
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 typeLinearStr
 "
@@ -15869,7 +15869,7 @@ F32
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 typeLinearStr
 "
@@ -15898,7 +15898,7 @@ cx
 )
 &
 &
-StringEqualsAscii
+StringEqualsLiteral
 (
 typeLinearStr
 "
@@ -15924,7 +15924,7 @@ cx
 )
 &
 &
-StringEqualsAscii
+StringEqualsLiteral
 (
 typeLinearStr
 "

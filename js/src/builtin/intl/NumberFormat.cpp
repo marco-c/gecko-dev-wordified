@@ -4249,7 +4249,7 @@ nullptr
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 style
 "
@@ -4391,7 +4391,7 @@ display
 ;
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 currencyDisplay
 "
@@ -4411,7 +4411,7 @@ Code
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 currencyDisplay
 "
@@ -4431,7 +4431,7 @@ Symbol
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 currencyDisplay
 "
@@ -4452,7 +4452,7 @@ else
 {
 MOZ_ASSERT
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 currencyDisplay
 "
@@ -4537,7 +4537,7 @@ nullptr
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 currencySign
 "
@@ -4555,7 +4555,7 @@ else
 {
 MOZ_ASSERT
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 currencySign
 "
@@ -4569,7 +4569,7 @@ standard
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 style
 "
@@ -4596,7 +4596,7 @@ nullptr
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 style
 "
@@ -4738,7 +4738,7 @@ display
 ;
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 unitDisplay
 "
@@ -4758,7 +4758,7 @@ Short
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 unitDisplay
 "
@@ -4779,7 +4779,7 @@ else
 {
 MOZ_ASSERT
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 unitDisplay
 "
@@ -4816,7 +4816,7 @@ else
 {
 MOZ_ASSERT
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 style
 "
@@ -5252,7 +5252,7 @@ style
 ;
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 notation
 "
@@ -5272,7 +5272,7 @@ Standard
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 notation
 "
@@ -5292,7 +5292,7 @@ Scientific
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 notation
 "
@@ -5313,7 +5313,7 @@ else
 {
 MOZ_ASSERT
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 notation
 "
@@ -5375,7 +5375,7 @@ nullptr
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 compactDisplay
 "
@@ -5396,7 +5396,7 @@ else
 {
 MOZ_ASSERT
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 compactDisplay
 "
@@ -5498,7 +5498,7 @@ display
 ;
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 signDisplay
 "
@@ -5534,7 +5534,7 @@ Auto
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 signDisplay
 "
@@ -5554,7 +5554,7 @@ Never
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 signDisplay
 "
@@ -5591,7 +5591,7 @@ else
 {
 MOZ_ASSERT
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 signDisplay
 "

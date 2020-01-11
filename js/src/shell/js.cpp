@@ -10199,7 +10199,7 @@ false
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 opt
 "
@@ -10224,7 +10224,7 @@ toggleExtraWarnings
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 opt
 "
@@ -10316,7 +10316,7 @@ toggleWerror
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 opt
 "
@@ -10341,7 +10341,7 @@ toggleThrowOnAsmJSValidationFailure
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 opt
 "
@@ -31304,7 +31304,7 @@ future
 .
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 linearFormat
 "
@@ -31321,7 +31321,7 @@ Multipart
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 linearFormat
 "

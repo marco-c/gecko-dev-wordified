@@ -3766,7 +3766,7 @@ false
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 dateStyleStr
 "
@@ -3783,7 +3783,7 @@ UDAT_FULL
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 dateStyleStr
 "
@@ -3800,7 +3800,7 @@ UDAT_LONG
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 dateStyleStr
 "
@@ -3817,7 +3817,7 @@ UDAT_MEDIUM
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 dateStyleStr
 "
@@ -3886,7 +3886,7 @@ false
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 timeStyleStr
 "
@@ -3903,7 +3903,7 @@ UDAT_FULL
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 timeStyleStr
 "
@@ -3920,7 +3920,7 @@ UDAT_LONG
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 timeStyleStr
 "
@@ -3937,7 +3937,7 @@ UDAT_MEDIUM
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 timeStyleStr
 "

@@ -1811,7 +1811,7 @@ nullptr
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 type
 "
@@ -1829,7 +1829,7 @@ else
 {
 MOZ_ASSERT
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 type
 "

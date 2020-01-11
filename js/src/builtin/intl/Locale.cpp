@@ -2530,7 +2530,7 @@ Add
 {
 return
 !
-StringEqualsAscii
+StringEqualsLiteral
 (
 language
 "
@@ -2543,7 +2543,7 @@ script
 &
 &
 !
-StringEqualsAscii
+StringEqualsLiteral
 (
 script
 "
@@ -2556,7 +2556,7 @@ region
 &
 &
 !
-StringEqualsAscii
+StringEqualsLiteral
 (
 region
 "
@@ -2595,7 +2595,7 @@ und
 .
 return
 !
-StringEqualsAscii
+StringEqualsLiteral
 (
 language
 "
