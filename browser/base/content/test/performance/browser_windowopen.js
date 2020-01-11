@@ -880,7 +880,10 @@ subject
 win
 )
 ;
-await
+let
+promises
+=
+[
 BrowserTestUtils
 .
 firstBrowserLoaded
@@ -888,8 +891,6 @@ firstBrowserLoaded
 win
 false
 )
-;
-await
 BrowserTestUtils
 .
 browserStopped
@@ -904,6 +905,15 @@ about
 :
 home
 "
+)
+]
+;
+await
+Promise
+.
+all
+(
+promises
 )
 ;
 await
