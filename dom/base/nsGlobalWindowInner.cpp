@@ -24450,7 +24450,7 @@ dom
 Location
 (
 this
-GetBrowsingContext
+GetDocShell
 (
 )
 )
