@@ -11154,6 +11154,7 @@ notification
 ;
 if
 (
+!
 notification
 .
 options
@@ -11161,6 +11162,16 @@ options
 checkbox
 )
 {
+this
+.
+_setNotificationUIState
+(
+notificationEl
+)
+;
+return
+;
+}
 if
 (
 notificationEl
@@ -11201,7 +11212,6 @@ checkbox
 uncheckedState
 )
 ;
-}
 }
 }
 _onButtonEvent
