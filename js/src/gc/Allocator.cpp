@@ -5182,10 +5182,6 @@ chunk
 )
 )
 ;
-chunkAllocationSinceLastGC
-=
-true
-;
 availableChunks
 (
 lock

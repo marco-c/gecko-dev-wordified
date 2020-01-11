@@ -6426,10 +6426,6 @@ verifyPreData
 (
 nullptr
 )
-chunkAllocationSinceLastGC
-(
-false
-)
 lastGCStartTime_
 (
 ReallyNow
@@ -45070,10 +45066,6 @@ gckind
 reason
 session
 )
-;
-chunkAllocationSinceLastGC
-=
-false
 ;
 #
 ifdef
