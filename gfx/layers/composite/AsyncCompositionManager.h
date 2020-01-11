@@ -1779,9 +1779,6 @@ CompositorBridgeParent
 *
 mCompositorBridge
 ;
-#
-ifdef
-MOZ_WIDGET_ANDROID
 public
 :
 void
@@ -1799,6 +1796,14 @@ GetFixedLayerMargins
 )
 const
 ;
+private
+:
+ScreenMargin
+mFixedLayerMargins
+;
+#
+ifdef
+MOZ_WIDGET_ANDROID
 private
 :
 /
@@ -1897,9 +1902,6 @@ ScrollableLayerGuid
 :
 ViewID
 mRootScrollableId
-;
-ScreenMargin
-mFixedLayerMargins
 ;
 #
 endif
