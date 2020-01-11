@@ -1270,7 +1270,7 @@ lpTargetPath
 )
 ;
 return
-name
+device
 .
 size
 (
