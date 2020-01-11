@@ -27612,13 +27612,6 @@ gcthings
 array
 .
 {
-MOZ_ASSERT
-(
-ngcthings
->
-0
-)
-;
 static_assert
 (
 alignof
