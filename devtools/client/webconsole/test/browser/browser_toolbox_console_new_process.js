@@ -93,6 +93,11 @@ use
 strict
 "
 ;
+requestLongerTimeout
+(
+4
+)
+;
 const
 TEST_URI
 =
