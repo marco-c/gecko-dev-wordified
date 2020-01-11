@@ -681,15 +681,6 @@ Luminance32FAlpha32F
 )
 ;
 }
-WebGLExtensionTextureFloat
-:
-:
-~
-WebGLExtensionTextureFloat
-(
-)
-{
-}
 bool
 WebGLExtensionTextureFloat
 :

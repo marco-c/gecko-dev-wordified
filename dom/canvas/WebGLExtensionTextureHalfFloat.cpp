@@ -677,15 +677,6 @@ Luminance16FAlpha16F
 )
 ;
 }
-WebGLExtensionTextureHalfFloat
-:
-:
-~
-WebGLExtensionTextureHalfFloat
-(
-)
-{
-}
 bool
 WebGLExtensionTextureHalfFloat
 :

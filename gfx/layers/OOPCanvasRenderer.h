@@ -202,6 +202,7 @@ OOPCanvasRenderer
 )
 public
 :
+explicit
 OOPCanvasRenderer
 (
 nsICanvasRenderingContextInternal

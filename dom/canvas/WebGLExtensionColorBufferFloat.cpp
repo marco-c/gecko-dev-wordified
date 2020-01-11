@@ -283,15 +283,6 @@ Explicit
 )
 ;
 }
-WebGLExtensionColorBufferFloat
-:
-:
-~
-WebGLExtensionColorBufferFloat
-(
-)
-{
-}
 bool
 WebGLExtensionColorBufferFloat
 :

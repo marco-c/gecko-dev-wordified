@@ -552,6 +552,14 @@ Float
 RGBA32F
 }
 ;
+const
+char
+*
+ToString
+(
+ComponentType
+)
+;
 enum
 class
 TextureBaseType

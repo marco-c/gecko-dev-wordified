@@ -229,15 +229,6 @@ isFilterable
 true
 ;
 }
-WebGLExtensionTextureHalfFloatLinear
-:
-:
-~
-WebGLExtensionTextureHalfFloatLinear
-(
-)
-{
-}
 }
 /
 /

@@ -130,7 +130,6 @@ webgl
 WebGLVertexArray
 (
 webgl
-0
 )
 {
 }
@@ -172,7 +171,7 @@ mContext
 >
 gl
 ;
-WebGLRefPtr
+RefPtr
 <
 WebGLVertexArray
 >
@@ -190,7 +189,7 @@ mBoundVertexArray
 =
 this
 ;
-WebGLRefPtr
+RefPtr
 <
 WebGLBuffer
 >

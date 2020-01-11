@@ -567,8 +567,9 @@ ValidateInvalidateFramebuffer
 GLenum
 target
 const
-nsTArray
+Range
 <
+const
 GLenum
 >
 &
@@ -731,7 +732,7 @@ out_glNumAttachments
 =
 attachments
 .
-Length
+length
 (
 )
 ;
@@ -740,7 +741,11 @@ out_glAttachments
 =
 attachments
 .
-Elements
+begin
+(
+)
+.
+get
 (
 )
 ;
@@ -821,7 +826,7 @@ reserve
 (
 attachments
 .
-Length
+length
 (
 )
 )
@@ -927,8 +932,9 @@ InvalidateFramebuffer
 GLenum
 target
 const
-nsTArray
+Range
 <
+const
 GLenum
 >
 &
@@ -1070,8 +1076,9 @@ InvalidateSubFramebuffer
 GLenum
 target
 const
-nsTArray
+Range
 <
+const
 GLenum
 >
 &
