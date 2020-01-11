@@ -736,6 +736,8 @@ browserLoaded
 gBrowser
 .
 selectedBrowser
+false
+testPage1
 )
 ;
 BrowserTestUtils
