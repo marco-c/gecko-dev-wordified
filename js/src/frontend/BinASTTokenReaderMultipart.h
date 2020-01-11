@@ -1852,7 +1852,7 @@ MetadataOwnership
 :
 Owned
 ;
-BinASTSourceMetadata
+BinASTSourceMetadataMultipart
 *
 metadata_
 ;

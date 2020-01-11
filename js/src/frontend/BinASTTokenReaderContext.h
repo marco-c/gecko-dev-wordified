@@ -254,9 +254,6 @@ h
 /
 /
 CharSlice
-BinASTVariant
-BinASTKind
-BinASTField
 BinASTSourceMetadata
 #
 include
@@ -267,6 +264,11 @@ BinASTToken
 .
 h
 "
+/
+/
+BinASTVariant
+BinASTKind
+BinASTField
 #
 include
 "
@@ -10131,7 +10133,7 @@ MetadataOwnership
 :
 Owned
 ;
-BinASTSourceMetadata
+BinASTSourceMetadataContext
 *
 metadata_
 ;
