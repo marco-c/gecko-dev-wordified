@@ -153,7 +153,7 @@ gTestRoot
 "
 bug839193
 .
-xhtml
+xul
 "
 )
 ;
@@ -304,7 +304,7 @@ gTestRoot
 "
 bug839193
 .
-xhtml
+xul
 "
 )
 ;
