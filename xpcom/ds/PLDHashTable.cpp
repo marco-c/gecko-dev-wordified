@@ -1292,14 +1292,6 @@ mRemovedCount
 (
 0
 )
-#
-ifdef
-DEBUG
-mChecker
-(
-)
-#
-endif
 {
 /
 /
