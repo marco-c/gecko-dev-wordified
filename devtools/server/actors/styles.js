@@ -11217,7 +11217,7 @@ this
 .
 rawNode
 .
-setAttribute
+setAttributeDevtools
 (
 "
 style
