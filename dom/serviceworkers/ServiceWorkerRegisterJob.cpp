@@ -173,7 +173,10 @@ Type
 Register
 aPrincipal
 aScope
+nsCString
+(
 aScriptSpec
+)
 aUpdateViaCache
 )
 {

@@ -123,6 +123,11 @@ h
 "
 #
 include
+<
+utility
+>
+#
+include
 "
 ServiceWorkerRegistrationProxy
 .
@@ -345,6 +350,10 @@ ServiceWorkerRegistrationParent
 :
 RecvUpdate
 (
+const
+nsCString
+&
+aNewestWorkerScriptUrl
 UpdateResolver
 &
 &
@@ -376,6 +385,7 @@ mProxy
 >
 Update
 (
+aNewestWorkerScriptUrl
 )
 -
 >

@@ -289,6 +289,10 @@ RemoteServiceWorkerRegistrationImpl
 :
 Update
 (
+const
+nsCString
+&
+aNewestWorkerScriptUrl
 ServiceWorkerRegistrationCallback
 &
 &
@@ -321,6 +325,7 @@ mActor
 >
 SendUpdate
 (
+aNewestWorkerScriptUrl
 [
 successCB
 =

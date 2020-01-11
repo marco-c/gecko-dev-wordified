@@ -255,9 +255,7 @@ const
 nsACString
 &
 aScope
-const
-nsACString
-&
+nsCString
 aScriptSpec
 ServiceWorkerUpdateViaCache
 aUpdateViaCache
@@ -299,9 +297,7 @@ const
 nsACString
 &
 aScope
-const
-nsACString
-&
+nsCString
 aScriptSpec
 ServiceWorkerUpdateViaCache
 aUpdateViaCache

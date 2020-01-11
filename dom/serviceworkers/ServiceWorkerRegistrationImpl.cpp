@@ -1174,6 +1174,8 @@ const
 nsACString
 &
 aScope
+nsCString
+aNewestWorkerScriptUrl
 ServiceWorkerUpdateFinishCallback
 *
 aCallback
@@ -1229,6 +1231,13 @@ Update
 (
 aPrincipal
 aScope
+std
+:
+:
+move
+(
+aNewestWorkerScriptUrl
+)
 aCallback
 )
 ;
@@ -1591,6 +1600,10 @@ const
 ServiceWorkerDescriptor
 &
 aDescriptor
+const
+nsCString
+&
+aNewestWorkerScriptUrl
 )
 :
 Runnable
@@ -1627,6 +1640,10 @@ aDescriptor
 mDelayed
 (
 false
+)
+mNewestWorkerScriptUrl
+(
+aNewestWorkerScriptUrl
 )
 {
 MOZ_DIAGNOSTIC_ASSERT
@@ -2104,6 +2121,13 @@ mDescriptor
 Scope
 (
 )
+std
+:
+:
+move
+(
+mNewestWorkerScriptUrl
+)
 cb
 )
 ;
@@ -2171,6 +2195,9 @@ mDescriptor
 ;
 bool
 mDelayed
+;
+nsCString
+mNewestWorkerScriptUrl
 ;
 }
 ;
@@ -2680,6 +2707,10 @@ ServiceWorkerRegistrationMainThread
 :
 Update
 (
+const
+nsCString
+&
+aNewestWorkerScriptUrl
 ServiceWorkerRegistrationCallback
 &
 &
@@ -2777,6 +2808,7 @@ NS_ConvertUTF16toUTF8
 (
 mScope
 )
+aNewestWorkerScriptUrl
 cb
 )
 ;
@@ -3922,6 +3954,10 @@ ServiceWorkerRegistrationWorkerThread
 :
 Update
 (
+const
+nsCString
+&
+aNewestWorkerScriptUrl
 ServiceWorkerRegistrationCallback
 &
 &
@@ -4303,6 +4339,7 @@ Private
 GetServiceWorkerDescriptor
 (
 )
+aNewestWorkerScriptUrl
 )
 ;
 nsresult

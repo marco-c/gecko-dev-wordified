@@ -975,6 +975,8 @@ const
 nsACString
 &
 aScope
+nsCString
+aNewestWorkerScriptUrl
 ServiceWorkerUpdateFinishCallback
 *
 aCallback
@@ -990,6 +992,10 @@ const
 nsACString
 &
 aScope
+nsCString
+&
+&
+aNewestWorkerScriptUrl
 ServiceWorkerUpdateFinishCallback
 *
 aCallback
