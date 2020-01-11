@@ -302,6 +302,9 @@ dirty_height
 :
 i32
 )
+-
+>
+u32
 ;
 fn
 com_dc_unbind_surface
@@ -547,6 +550,7 @@ i32
 -
 >
 (
+u32
 i32
 i32
 )
@@ -565,6 +569,9 @@ y_offset
 =
 0
 ;
+let
+fbo_id
+=
 com_dc_bind_surface
 (
 window
@@ -582,6 +589,7 @@ dirty_height
 )
 ;
 (
+fbo_id
 x_offset
 y_offset
 )
