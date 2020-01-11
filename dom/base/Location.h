@@ -402,9 +402,9 @@ Location
 nsPIDOMWindowInner
 *
 aWindow
-nsIDocShell
+BrowsingContext
 *
-aDocShell
+aBrowsingContext
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -954,8 +954,10 @@ nsPIDOMWindowInner
 >
 mInnerWindow
 ;
-nsWeakPtr
-mDocShell
+uint64_t
+mBrowsingContextId
+=
+0
 ;
 }
 ;
