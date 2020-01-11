@@ -6124,7 +6124,7 @@ D
 duplicateLine
 "
 "
-F9
+F5
 "
 :
 "
@@ -6133,7 +6133,7 @@ sortLines
 "
 Cmd
 -
-F9
+F5
 "
 :
 "

@@ -1188,6 +1188,8 @@ state
 htmlState
 "
 "
+"
+"
 )
 )
 ;
@@ -1394,6 +1396,7 @@ state
 .
 htmlState
 textAfter
+line
 )
 ;
 else

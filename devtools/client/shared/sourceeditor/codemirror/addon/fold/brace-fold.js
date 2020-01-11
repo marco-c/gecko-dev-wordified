@@ -558,12 +558,6 @@ line
 =
 =
 end
-&
-&
-endCh
-=
-=
-startCh
 )
 return
 ;

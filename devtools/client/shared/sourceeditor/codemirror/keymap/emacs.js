@@ -3568,6 +3568,17 @@ undo
 "
 Shift
 -
+Ctrl
+-
+Z
+"
+:
+"
+redo
+"
+"
+Shift
+-
 Alt
 -
 "
