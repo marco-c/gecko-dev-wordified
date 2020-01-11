@@ -1063,7 +1063,7 @@ initialHeight
 minSize
 :
 "
-50px
+250px
 "
 maxSize
 :
