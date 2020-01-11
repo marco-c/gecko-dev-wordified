@@ -21453,6 +21453,7 @@ element
 *
 /
 MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
 nsresult
 InsertAsCitedQuotationInternal
 (
@@ -25071,6 +25072,7 @@ null
 *
 /
 MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
 nsresult
 InsertAsPlaintextQuotation
 (
@@ -26053,6 +26055,7 @@ command
 *
 /
 MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
 nsresult
 DoInsertHTMLWithContext
 (
