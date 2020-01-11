@@ -3114,17 +3114,6 @@ expiration
 -
 finished
 "
-TOPIC_FEEDBACK_UPDATED
-:
-"
-places
--
-autocomplete
--
-feedback
--
-updated
-"
 TOPIC_FAVICONS_EXPIRED
 :
 "
