@@ -4925,7 +4925,7 @@ We
 special
 case
 this
-situtaion
+situation
 .
 /
 /
