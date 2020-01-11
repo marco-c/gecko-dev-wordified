@@ -16302,7 +16302,7 @@ isValid
 type
 -
 >
-setOneResult
+setVoidToSingle
 (
 vt
 )
@@ -16439,7 +16439,7 @@ length
 type
 -
 >
-setOneResult
+setVoidToSingle
 (
 ft
 .
@@ -16457,7 +16457,7 @@ else
 type
 -
 >
-setRef
+setFunc
 (
 t
 )
@@ -34474,7 +34474,7 @@ AstBlockType
 Which
 :
 :
-IsVoid
+VoidToVoid
 :
 /
 /
@@ -34494,7 +34494,7 @@ AstBlockType
 Which
 :
 :
-IsOneResult
+VoidToSingle
 :
 return
 ResolveType
@@ -34502,7 +34502,7 @@ ResolveType
 r
 ty
 .
-oneResult
+voidToSingleType
 (
 )
 )
@@ -34514,7 +34514,7 @@ AstBlockType
 Which
 :
 :
-IsRef
+Func
 :
 /
 /
@@ -39432,7 +39432,7 @@ AstBlockType
 Which
 :
 :
-IsVoid
+VoidToVoid
 :
 return
 e
@@ -39455,7 +39455,7 @@ AstBlockType
 Which
 :
 :
-IsOneResult
+VoidToSingle
 :
 return
 e
@@ -39464,7 +39464,7 @@ writeValType
 (
 type
 .
-oneResult
+voidToSingleType
 (
 )
 .
@@ -39480,16 +39480,16 @@ AstBlockType
 Which
 :
 :
-IsRef
+Func
 :
 return
 e
 .
-writeVarU32
+writeVarS32
 (
 type
 .
-ref
+funcType
 (
 )
 .
