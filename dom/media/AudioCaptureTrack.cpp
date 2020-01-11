@@ -291,7 +291,10 @@ mMixer
 .
 AddCallback
 (
+WrapNotNull
+(
 this
+)
 )
 ;
 }
