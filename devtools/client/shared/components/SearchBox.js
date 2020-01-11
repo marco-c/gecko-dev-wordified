@@ -303,6 +303,11 @@ type
 PropTypes
 .
 string
+value
+:
+PropTypes
+.
+string
 }
 ;
 }
@@ -323,6 +328,11 @@ state
 {
 value
 :
+props
+.
+value
+|
+|
 "
 "
 focused
