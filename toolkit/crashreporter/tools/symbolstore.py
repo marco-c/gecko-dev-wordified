@@ -1764,7 +1764,7 @@ Windows
 :
     
 def
-normpath
+realpath
 (
 path
 )
@@ -2076,13 +2076,13 @@ version
 otherwise
 .
     
-normpath
+realpath
 =
 os
 .
 path
 .
-normpath
+realpath
 def
 IsInDir
 (
@@ -2747,12 +2747,12 @@ need
 to
 go
 through
-normpath
+realpath
 .
                 
 abs_dest
 =
-normpath
+realpath
 (
 os
 .
@@ -2770,7 +2770,7 @@ file_mapping
 abs_dest
 ]
 =
-normpath
+realpath
 (
 src
 .
@@ -3663,7 +3663,7 @@ need
 to
 go
 through
-normpath
+realpath
 .
         
 self
@@ -3671,7 +3671,7 @@ self
 srcdirs
 =
 [
-normpath
+realpath
 (
 s
 )
@@ -4587,7 +4587,7 @@ filename
                         
 filename
 =
-normpath
+realpath
 (
 filename
 )
@@ -8512,13 +8512,13 @@ need
 to
 go
 through
-normpath
+realpath
 .
     
 generated_files
 =
 {
-normpath
+realpath
 (
 os
 .

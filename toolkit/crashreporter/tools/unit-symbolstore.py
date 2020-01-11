@@ -109,7 +109,7 @@ symbolstore
 from
 symbolstore
 import
-normpath
+realpath
 #
 Some
 simple
@@ -2297,7 +2297,7 @@ WINNT
 :
     
 class
-TestNormpath
+TestRealpath
 (
 HelperMixin
 unittest
@@ -2307,7 +2307,7 @@ TestCase
 :
         
 def
-test_normpath
+test_realpath
 (
 self
 )
@@ -2374,7 +2374,7 @@ path
 .
 dirname
 (
-normpath
+realpath
 (
 junk
 )
@@ -2483,7 +2483,7 @@ x
                 
 fixed_path
 =
-normpath
+realpath
 (
 full_path
 .
@@ -3143,7 +3143,7 @@ src2
             
 srcfile
 =
-normpath
+realpath
 (
 os
 .
@@ -3160,7 +3160,7 @@ s
             
 objfile
 =
-normpath
+realpath
 (
 os
 .
@@ -3931,7 +3931,7 @@ expected_files
 .
 append
 (
-normpath
+realpath
 (
 srcfile
 )
@@ -3960,13 +3960,13 @@ objfile
             
 file_mapping
 [
-normpath
+realpath
 (
 objfile
 )
 ]
 =
-normpath
+realpath
 (
 srcfile
 )
