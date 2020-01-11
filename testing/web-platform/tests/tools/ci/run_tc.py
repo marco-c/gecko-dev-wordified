@@ -2848,13 +2848,24 @@ fetch
 "
 origin
 "
+expected_head
+]
+)
+                    
+run
+(
+[
 "
-%
-s
-:
-task_head
+git
 "
-%
+"
+reset
+"
+"
+-
+-
+hard
+"
 expected_head
 ]
 )
@@ -2905,9 +2916,7 @@ updated
 %
 (
 task_head
-args
-.
-rev
+expected_head
 )
 )
                     
@@ -3072,9 +3081,7 @@ updated
 %
 (
 task_head
-args
-.
-rev
+expected_head
 )
 )
                     
