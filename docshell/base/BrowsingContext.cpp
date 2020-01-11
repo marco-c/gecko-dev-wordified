@@ -8341,8 +8341,7 @@ ResetGVAutoplayRequestStatus
 {
 MOZ_ASSERT
 (
-!
-GetParent
+IsTop
 (
 )
 "
@@ -8389,8 +8388,7 @@ DidSetGVAudibleAutoplayRequestStatus
 {
 MOZ_ASSERT
 (
-!
-GetParent
+IsTop
 (
 )
 "
@@ -8421,8 +8419,7 @@ DidSetGVInaudibleAutoplayRequestStatus
 {
 MOZ_ASSERT
 (
-!
-GetParent
+IsTop
 (
 )
 "

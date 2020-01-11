@@ -58385,11 +58385,10 @@ GetBrowsingContext
 bool
 isOnlyToplevelBrowsingContext
 =
-!
 browsingContext
 -
 >
-GetParent
+IsTop
 (
 )
 &
