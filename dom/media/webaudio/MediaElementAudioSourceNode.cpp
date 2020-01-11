@@ -151,6 +151,13 @@ AudioNodeTrack
 .
 h
 "
+#
+include
+"
+MediaStreamTrack
+.
+h
+"
 namespace
 mozilla
 {
