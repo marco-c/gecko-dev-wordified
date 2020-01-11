@@ -10645,7 +10645,7 @@ this
 .
 notificationBox
 .
-PRIORITY_WARNING_HIGH
+PRIORITY_WARNING_LOW
 )
 ;
 this
