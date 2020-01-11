@@ -4094,7 +4094,7 @@ getter_AddRefs
 (
 fontFace
 )
-aFontStyle
+nullptr
 sims
 )
 ;
@@ -4121,7 +4121,6 @@ mIsSystemFont
 mFont
 :
 nullptr
-sims
 )
 ;
 unscaledFontPtr
