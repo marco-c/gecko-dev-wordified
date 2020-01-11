@@ -1112,6 +1112,9 @@ events
 setLifecycleEventsEnabled
 (
 options
+=
+{
+}
 )
 {
 const

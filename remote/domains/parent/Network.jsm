@@ -591,6 +591,9 @@ setUserAgentOverride
 setUserAgentOverride
 (
 options
+=
+{
+}
 )
 {
 const
