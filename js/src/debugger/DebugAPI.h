@@ -2094,14 +2094,13 @@ scripted
 location
 .
 static
-ResumeMode
+MOZ_MUST_USE
+bool
 onSingleStep
 (
 JSContext
 *
 cx
-MutableHandleValue
-vp
 )
 ;
 /
