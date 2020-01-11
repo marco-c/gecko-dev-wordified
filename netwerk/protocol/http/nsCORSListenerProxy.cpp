@@ -6018,8 +6018,11 @@ onion
 {
 origin
 .
-Truncate
+AssignLiteral
 (
+"
+null
+"
 )
 ;
 }
