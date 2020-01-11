@@ -903,7 +903,7 @@ doorhanger
 -
 extension
 -
-notification2
+notification
 "
 }
 heading_text
@@ -1324,7 +1324,7 @@ doorhanger
 -
 extension
 -
-notification2
+notification
 "
 }
 heading_text
@@ -1751,7 +1751,7 @@ doorhanger
 -
 extension
 -
-notification2
+notification
 "
 }
 heading_text
@@ -2178,7 +2178,7 @@ doorhanger
 -
 extension
 -
-notification2
+notification
 "
 }
 heading_text
@@ -2617,7 +2617,7 @@ doorhanger
 -
 extension
 -
-notification2
+notification
 "
 }
 heading_text
@@ -3041,7 +3041,7 @@ cfr
 -
 doorhanger
 -
-feature
+extension
 -
 notification
 "
@@ -3621,7 +3621,7 @@ cfr
 -
 doorhanger
 -
-feature
+extension
 -
 notification
 "
