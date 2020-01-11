@@ -57,7 +57,7 @@ if
 (
 gURLBar
 .
-megabar
+searchIcon
 )
 {
 is

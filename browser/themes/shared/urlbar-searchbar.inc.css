@@ -1151,7 +1151,7 @@ transparent
 #
 urlbar
 .
-megabar
+searchIcon
 >
 #
 urlbar
@@ -1262,7 +1262,7 @@ opacity
 #
 urlbar
 .
-megabar
+searchIcon
 >
 #
 urlbar
@@ -1401,7 +1401,7 @@ toolbar
 #
 urlbar
 .
-megabar
+searchIcon
 :
 not
 (
@@ -1431,7 +1431,7 @@ toolbar
 #
 urlbar
 .
-megabar
+searchIcon
 :
 not
 (
@@ -1866,6 +1866,8 @@ urlbarBreakoutExtend
 }
 #
 urlbar
+.
+searchIcon
 [
 breakout
 ]

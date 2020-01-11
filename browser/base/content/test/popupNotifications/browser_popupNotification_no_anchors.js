@@ -97,7 +97,7 @@ FALLBACK_ANCHOR
 =
 gURLBar
 .
-megabar
+searchIcon
 ?
 "
 urlbar
