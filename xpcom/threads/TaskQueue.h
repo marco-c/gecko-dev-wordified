@@ -554,6 +554,7 @@ ref
 *
 /
 r
+NS_DISPATCH_NORMAL
 aReason
 )
 ;
@@ -868,6 +869,8 @@ nsIRunnable
 >
 &
 aRunnable
+uint32_t
+aFlags
 DispatchReason
 aReason
 =
