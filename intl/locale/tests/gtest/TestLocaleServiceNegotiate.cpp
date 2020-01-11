@@ -301,6 +301,9 @@ nsAutoCString
 defaultLocale
 (
 "
+en
+-
+US
 "
 )
 ;
