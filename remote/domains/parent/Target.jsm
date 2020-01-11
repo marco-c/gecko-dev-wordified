@@ -594,11 +594,7 @@ getById
 targetId
 )
 ;
-target
-.
-window
-.
-gBrowser
+TabManager
 .
 removeTab
 (
