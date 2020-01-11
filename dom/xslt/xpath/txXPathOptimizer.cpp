@@ -1255,10 +1255,6 @@ getNodeTest
 (
 )
 ;
-txNodeTypeTest
-*
-typeTest
-;
 if
 (
 test
@@ -1276,8 +1272,6 @@ NODETYPE_TEST
 &
 &
 (
-typeTest
-=
 static_cast
 <
 txNodeTypeTest
