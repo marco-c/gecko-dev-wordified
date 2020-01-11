@@ -175,8 +175,6 @@ vertexModule
 =
 t
 .
-device
-.
 createShaderModule
 (
 {
@@ -527,8 +525,6 @@ const
 fragmentModule
 =
 t
-.
-device
 .
 createShaderModule
 (

@@ -296,7 +296,7 @@ module
 :
 this
 .
-makeShaderModule
+makeShaderModuleFromGLSL
 (
 '
 vertex
@@ -362,7 +362,7 @@ module
 :
 this
 .
-makeShaderModule
+makeShaderModuleFromGLSL
 (
 '
 fragment

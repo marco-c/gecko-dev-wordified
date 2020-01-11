@@ -215,8 +215,6 @@ module
 :
 this
 .
-device
-.
 createShaderModule
 (
 {
@@ -559,7 +557,7 @@ module
 :
 this
 .
-makeShaderModule
+makeShaderModuleFromGLSL
 (
 '
 fragment
