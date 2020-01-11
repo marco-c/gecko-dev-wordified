@@ -18,7 +18,7 @@ ensure
 that
 *
 the
-nsIXULWindow
+nsIAppWindow
 has
 the
 CHROME_PRIVATE_WINDOW
@@ -106,7 +106,7 @@ getInterface
 (
 Ci
 .
-nsIXULWindow
+nsIAppWindow
 )
 .
 chromeFlags

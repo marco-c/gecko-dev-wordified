@@ -5031,7 +5031,7 @@ moving
 tabs
 .
 get
-xulWindow
+appWindow
 (
 )
 {
@@ -5075,7 +5075,7 @@ background
 return
 this
 .
-xulWindow
+appWindow
 ;
 }
 }

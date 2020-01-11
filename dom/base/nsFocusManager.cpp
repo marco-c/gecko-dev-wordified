@@ -247,7 +247,7 @@ h
 #
 include
 "
-nsIXULWindow
+nsIAppWindow
 .
 h
 "
@@ -4348,7 +4348,7 @@ If
 there
 is
 no
-nsIXULWindow
+nsIAppWindow
 then
 this
 is
@@ -4373,9 +4373,9 @@ updated
 .
 nsCOMPtr
 <
-nsIXULWindow
+nsIAppWindow
 >
-xulWin
+appWin
 (
 do_GetInterface
 (
@@ -4390,7 +4390,7 @@ currentFocus
 0
 true
 false
-xulWin
+appWin
 !
 =
 nullptr

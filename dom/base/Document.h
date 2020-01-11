@@ -908,7 +908,7 @@ class
 nsIGlobalObject
 ;
 class
-nsIXULWindow
+nsIAppWindow
 ;
 class
 nsXULPrototypeDocument
@@ -21046,7 +21046,7 @@ const
 Returns
 the
 associated
-XUL
+app
 window
 if
 this
@@ -21064,9 +21064,9 @@ otherwise
 .
 already_AddRefed
 <
-nsIXULWindow
+nsIAppWindow
 >
-GetXULWindowIfToplevelChrome
+GetAppWindowIfToplevelChrome
 (
 )
 const

@@ -119,7 +119,7 @@ class
 nsIWidget
 ;
 class
-nsIXULWindow
+nsIAppWindow
 ;
 namespace
 mozilla
@@ -216,7 +216,7 @@ listener
 is
 for
 an
-nsIXULWindow
+nsIAppWindow
 return
 it
 .
@@ -256,9 +256,9 @@ nsWebBrowser
 *
 /
 virtual
-nsIXULWindow
+nsIAppWindow
 *
-GetXULWindow
+GetAppWindow
 (
 )
 ;
