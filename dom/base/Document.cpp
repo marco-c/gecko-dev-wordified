@@ -19662,7 +19662,7 @@ addonPolicy
 )
 {
 nsAutoString
-addonCSP
+extensionPageCSP
 ;
 Unused
 <
@@ -19676,7 +19676,7 @@ GetSingleton
 .
 GetBaseCSP
 (
-addonCSP
+extensionPageCSP
 )
 ;
 mCSP
@@ -19684,7 +19684,7 @@ mCSP
 >
 AppendPolicy
 (
-addonCSP
+extensionPageCSP
 false
 false
 )
@@ -19697,7 +19697,7 @@ AppendPolicy
 addonPolicy
 -
 >
-ContentSecurityPolicy
+ExtensionPageCSP
 (
 )
 false

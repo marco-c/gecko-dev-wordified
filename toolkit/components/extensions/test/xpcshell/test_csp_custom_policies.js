@@ -115,7 +115,7 @@ policy
 null
 ;
 function
-setAddonCSP
+setExtensionPageCSP
 (
 csp
 )
@@ -166,7 +166,7 @@ localizeCallback
 )
 {
 }
-contentSecurityPolicy
+extensionPageCSP
 :
 csp
 }
@@ -297,7 +297,7 @@ none
 '
 "
 ;
-setAddonCSP
+setExtensionPageCSP
 (
 CUSTOM_POLICY
 )
@@ -306,7 +306,7 @@ equal
 (
 aps
 .
-getAddonCSP
+getExtensionPageCSP
 (
 ADDON_ID
 )
@@ -326,7 +326,7 @@ policy
 "
 )
 ;
-setAddonCSP
+setExtensionPageCSP
 (
 null
 )
@@ -335,7 +335,7 @@ equal
 (
 aps
 .
-getAddonCSP
+getExtensionPageCSP
 (
 ADDON_ID
 )
