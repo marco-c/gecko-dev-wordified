@@ -197,7 +197,7 @@ ipc
 :
 CrashReporterHelper
 <
-GeckoProcessType_Content
+GeckoProcessType_Socket
 >
 {
 public
