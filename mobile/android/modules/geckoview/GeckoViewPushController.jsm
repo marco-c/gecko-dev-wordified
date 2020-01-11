@@ -283,11 +283,7 @@ PushEvent
 {
 const
 {
-subscription
-:
-{
 scope
-}
 data
 }
 =
