@@ -89,7 +89,6 @@ MediaControlKeysEvent
 ePlayPause
 ePrev
 eNext
-eNone
 }
 ;
 /
