@@ -280,7 +280,7 @@ nsBufferedStream
 (
 )
 ;
-nsresult
+void
 Close
 (
 )

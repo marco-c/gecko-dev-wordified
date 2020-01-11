@@ -2529,7 +2529,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 ParentChannelListener
 :
 :
@@ -2568,11 +2568,8 @@ mSuspendedForDiversion
 =
 false
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 ParentChannelListener
 :
 :
@@ -2644,7 +2641,6 @@ mNextListener
 =
 aListener
 ;
-return
 ResumeForDiversion
 (
 )

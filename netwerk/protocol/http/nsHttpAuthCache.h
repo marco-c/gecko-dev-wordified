@@ -1791,8 +1791,7 @@ including
 proxy
 auths
 .
-MOZ_MUST_USE
-nsresult
+void
 ClearAll
 (
 )

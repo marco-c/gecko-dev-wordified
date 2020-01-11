@@ -251,7 +251,7 @@ index
 s
 state
 .
-nsresult
+void
 CacheIndexStateChanged
 (
 )
@@ -323,7 +323,7 @@ the
 /
 evictor
 .
-nsresult
+void
 WasEvicted
 (
 const
@@ -516,7 +516,7 @@ StartEvicting
 (
 )
 ;
-nsresult
+void
 EvictEntries
 (
 )

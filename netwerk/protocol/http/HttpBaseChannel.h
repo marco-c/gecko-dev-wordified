@@ -2801,8 +2801,7 @@ Referer
 )
 ;
 }
-MOZ_MUST_USE
-nsresult
+void
 SetTopWindowURI
 (
 nsIURI
@@ -2813,9 +2812,6 @@ aTopWindowURI
 mTopWindowURI
 =
 aTopWindowURI
-;
-return
-NS_OK
 ;
 }
 void
@@ -3666,7 +3662,7 @@ ReleaseMainThreadOnlyReferences
 (
 )
 ;
-nsresult
+void
 ExplicitSetUploadStreamLength
 (
 uint64_t

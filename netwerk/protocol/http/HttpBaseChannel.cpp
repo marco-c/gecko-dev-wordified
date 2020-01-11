@@ -6073,7 +6073,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 HttpBaseChannel
 :
 :
@@ -6113,7 +6113,6 @@ aStreamHasHeaders
 )
 {
 return
-NS_OK
 ;
 }
 nsAutoCString
@@ -6172,7 +6171,6 @@ IsEmpty
 )
 {
 return
-NS_OK
 ;
 }
 /
@@ -6206,9 +6204,6 @@ header
 contentLengthStr
 false
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -21851,22 +21846,12 @@ SetContentBlockingAllowListPrincipal
 mContentBlockingAllowListPrincipal
 )
 ;
-rv
-=
 realChannel
 -
 >
 SetTopWindowURI
 (
 mTopWindowURI
-)
-;
-MOZ_ASSERT
-(
-NS_SUCCEEDED
-(
-rv
-)
 )
 ;
 }

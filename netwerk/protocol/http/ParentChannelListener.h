@@ -266,8 +266,7 @@ child
 to
 parent
 .
-MOZ_MUST_USE
-nsresult
+void
 DivertTo
 (
 nsIStreamListener
@@ -346,8 +345,7 @@ function
 to
 SuspendForDiversion
 .
-MOZ_MUST_USE
-nsresult
+void
 ResumeForDiversion
 (
 )

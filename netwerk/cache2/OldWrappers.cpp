@@ -2607,7 +2607,7 @@ w
 }
 namespace
 {
-nsresult
+void
 GetCacheSessionNameForStoragePolicy
 (
 const
@@ -2942,9 +2942,6 @@ Append
 suffix
 )
 ;
-return
-NS_OK
-;
 }
 nsresult
 GetCacheSession
@@ -3032,8 +3029,6 @@ clientId
 }
 else
 {
-rv
-=
 GetCacheSessionNameForStoragePolicy
 (
 aScheme
@@ -3051,12 +3046,6 @@ OriginAttributesPtr
 (
 )
 clientId
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 }

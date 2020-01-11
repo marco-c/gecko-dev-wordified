@@ -252,7 +252,7 @@ CacheFileInputStream
 (
 )
 ;
-nsresult
+void
 CloseWithStatusLocked
 (
 nsresult

@@ -1452,8 +1452,7 @@ the
 connection
 history
 mCT
-MOZ_MUST_USE
-nsresult
+void
 ClearConnectionHistory
 (
 )

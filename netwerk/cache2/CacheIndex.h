@@ -5409,7 +5409,7 @@ aResult
 )
 override
 ;
-nsresult
+void
 OnFileOpenedInternal
 (
 FileOpenHelper

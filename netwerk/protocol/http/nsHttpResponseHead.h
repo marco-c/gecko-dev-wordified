@@ -1035,8 +1035,7 @@ headers
 .
 .
 .
-MOZ_MUST_USE
-nsresult
+void
 UpdateHeaders
 (
 nsHttpResponseHead

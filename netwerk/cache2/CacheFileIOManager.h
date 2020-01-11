@@ -931,7 +931,10 @@ CacheFileHandle
 _retval
 )
 ;
-nsresult
+already_AddRefed
+<
+CacheFileHandle
+>
 NewHandle
 (
 const
@@ -940,18 +943,12 @@ SHA1Sum
 :
 Hash
 *
-aHash
 bool
 aPriority
 CacheFileHandle
 :
 :
 PinningStatus
-aPinning
-CacheFileHandle
-*
-*
-_retval
 )
 ;
 void
@@ -2393,7 +2390,7 @@ InitInternal
 (
 )
 ;
-nsresult
+void
 ShutdownInternal
 (
 )
@@ -2435,7 +2432,7 @@ CacheFileHandle
 _retval
 )
 ;
-nsresult
+void
 CloseHandleInternal
 (
 CacheFileHandle
@@ -2763,7 +2760,7 @@ CacheFile
 aFile
 )
 ;
-nsresult
+void
 UnscheduleMetadataWriteInternal
 (
 CacheFile
@@ -2771,7 +2768,7 @@ CacheFile
 aFile
 )
 ;
-nsresult
+void
 ShutdownMetadataWriteSchedulingInternal
 (
 )
@@ -2782,7 +2779,7 @@ CacheIndexStateChanged
 (
 )
 ;
-nsresult
+void
 CacheIndexStateChangedInternal
 (
 )

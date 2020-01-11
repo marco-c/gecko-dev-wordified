@@ -285,7 +285,7 @@ nsISupports
 aCtxt
 )
 ;
-nsresult
+void
 ParseFormat
 (
 const
@@ -294,7 +294,7 @@ char
 buf
 )
 ;
-nsresult
+void
 ParseData
 (
 nsIDirIndex

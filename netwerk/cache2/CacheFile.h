@@ -955,7 +955,7 @@ int64_t
 aOffset
 )
 ;
-nsresult
+void
 RemoveInput
 (
 CacheFileInputStream
@@ -965,7 +965,7 @@ nsresult
 aStatus
 )
 ;
-nsresult
+void
 RemoveOutput
 (
 CacheFileOutputStream
@@ -993,7 +993,7 @@ CacheFileChunk
 aChunk
 )
 ;
-nsresult
+void
 QueueChunkListener
 (
 uint32_t
