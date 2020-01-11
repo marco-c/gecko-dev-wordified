@@ -23851,8 +23851,14 @@ void
 AddResizeObserver
 (
 ResizeObserver
-*
-aResizeObserver
+&
+)
+;
+void
+RemoveResizeObserver
+(
+ResizeObserver
+&
 )
 ;
 void
