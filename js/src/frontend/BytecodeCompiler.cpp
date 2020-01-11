@@ -5510,17 +5510,6 @@ BaseScript
 ImmutableFlags
 :
 :
-FunHasExtensibleScope
-)
-|
-uint32_t
-(
-BaseScript
-:
-:
-ImmutableFlags
-:
-:
 HasCallSiteObj
 )
 |
