@@ -4023,10 +4023,10 @@ id
 nsAutoString
 autoStr
 ;
-AssignJSFlatString
+AssignJSLinearString
 (
 autoStr
-JS_ASSERT_STRING_IS_FLAT
+JS_ASSERT_STRING_IS_LINEAR
 (
 str
 )

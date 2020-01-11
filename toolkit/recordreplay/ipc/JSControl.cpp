@@ -3994,9 +3994,9 @@ gContent
 {
 if
 (
-JS_FlatStringEqualsAscii
+JS_LinearStringEqualsAscii
 (
-JS_ASSERT_STRING_IS_FLAT
+JS_ASSERT_STRING_IS_LINEAR
 (
 aURL
 )

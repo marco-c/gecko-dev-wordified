@@ -2385,14 +2385,14 @@ key_length
 }
     
 def
-gen_jsflatstr_getter
+gen_jslinearstr_getter
 (
 self
 name
 return_type
 =
 None
-                             
+                               
 return_entry
 =
 '
@@ -2413,7 +2413,7 @@ a
 specialized
 getter
 taking
-JSFlatStrings
+JSLinearStrings
 .
         
 This
@@ -2593,7 +2593,7 @@ name
 )
 s
 (
-JSFlatString
+JSLinearString
 *
 aKey
 )
@@ -2612,20 +2612,7 @@ length
 js
 :
 :
-GetFlatStringLength
-(
-aKey
-)
-;
-              
-JSLinearString
-*
-jsString
-=
-js
-:
-:
-FlatStringToLinearString
+GetLinearStringLength
 (
 aKey
 )
@@ -2645,7 +2632,7 @@ js
 :
 LinearStringHasLatin1Chars
 (
-jsString
+aKey
 )
 )
 {
@@ -2669,7 +2656,7 @@ js
 GetLatin1LinearStringChars
 (
 nogc
-jsString
+aKey
 )
                   
 length
@@ -2711,7 +2698,7 @@ js
 GetTwoByteLinearStringChars
 (
 nogc
-jsString
+aKey
 )
                   
 length

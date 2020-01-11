@@ -582,7 +582,7 @@ toString
 (
 )
 :
-JSID_TO_FLAT_STRING
+JSID_TO_STRING
 (
 id
 )

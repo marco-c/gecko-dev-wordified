@@ -2443,12 +2443,12 @@ FieldHashPolicy
 :
 DefaultHasher
 <
-JSFlatString
+JSLinearString
 *
 >
 {
 typedef
-JSFlatString
+JSLinearString
 *
 Key
 ;
@@ -2634,7 +2634,7 @@ js
 :
 HeapPtr
 <
-JSFlatString
+JSLinearString
 *
 >
 FieldInfo
@@ -4361,7 +4361,7 @@ cx
 JSObject
 *
 obj
-JSFlatString
+JSLinearString
 *
 name
 )

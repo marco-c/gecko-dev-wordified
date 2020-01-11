@@ -353,7 +353,7 @@ JS_PUBLIC_API
 JSTracer
 ;
 class
-JSFlatString
+JSLinearString
 ;
 template
 <

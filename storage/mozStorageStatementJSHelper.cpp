@@ -1450,11 +1450,11 @@ Native
 )
 )
 ;
-JSFlatString
+JSLinearString
 *
 str
 =
-JSID_TO_FLAT_STRING
+JSID_TO_LINEAR_STRING
 (
 id
 )
@@ -1463,7 +1463,7 @@ if
 (
 :
 :
-JS_FlatStringEqualsLiteral
+JS_LinearStringEqualsLiteral
 (
 str
 "
@@ -1514,7 +1514,7 @@ if
 (
 :
 :
-JS_FlatStringEqualsLiteral
+JS_LinearStringEqualsLiteral
 (
 str
 "
@@ -1571,7 +1571,7 @@ if
 (
 :
 :
-JS_FlatStringEqualsLiteral
+JS_LinearStringEqualsLiteral
 (
 str
 "

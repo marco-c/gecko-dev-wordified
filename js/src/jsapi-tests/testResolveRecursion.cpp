@@ -487,11 +487,11 @@ id
 )
 )
 ;
-JSFlatString
+JSLinearString
 *
 str
 =
-JS_FlattenString
+JS_EnsureLinearString
 (
 cx
 JSID_TO_STRING
@@ -516,7 +516,7 @@ cx
 ;
 if
 (
-JS_FlatStringEqualsLiteral
+JS_LinearStringEqualsLiteral
 (
 str
 "
@@ -621,7 +621,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsLiteral
+JS_LinearStringEqualsLiteral
 (
 str
 "

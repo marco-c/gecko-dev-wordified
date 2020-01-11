@@ -4421,11 +4421,11 @@ if
 str
 )
 {
-JSFlatString
+JSLinearString
 *
-flat
+linear
 =
-JS_ASSERT_STRING_IS_FLAT
+JS_ASSERT_STRING_IS_LINEAR
 (
 str
 )
@@ -4433,10 +4433,10 @@ str
 nsAutoString
 chars
 ;
-AssignJSFlatString
+AssignJSLinearString
 (
 chars
-flat
+linear
 )
 ;
 NS_ConvertUTF16toUTF8

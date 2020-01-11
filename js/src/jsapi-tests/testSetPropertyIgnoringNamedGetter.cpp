@@ -133,9 +133,9 @@ id
 )
 &
 &
-JS_FlatStringEqualsLiteral
+JS_LinearStringEqualsLiteral
 (
-JSID_TO_FLAT_STRING
+JSID_TO_LINEAR_STRING
 (
 id
 )

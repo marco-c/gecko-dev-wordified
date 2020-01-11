@@ -148,7 +148,7 @@ BindingDeclarations
 h
 "
 class
-JSFlatString
+JSLinearString
 ;
 namespace
 mozilla
@@ -600,7 +600,7 @@ WebIDLNameTableEntry
 *
 GetEntry
 (
-JSFlatString
+JSLinearString
 *
 aKey
 )

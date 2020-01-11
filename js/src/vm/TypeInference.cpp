@@ -622,7 +622,7 @@ bufs
 which
 ]
 100
-JSID_TO_FLAT_STRING
+JSID_TO_LINEAR_STRING
 (
 id
 )

@@ -80,9 +80,9 @@ JSString
 *
 str
 ;
-JSFlatString
+JSLinearString
 *
-flatStr
+linearStr
 ;
 /
 /
@@ -156,7 +156,7 @@ ASCII
 string
 which
 calls
-JSFlatString
+JSLinearString
 :
 :
 latin1Chars
@@ -208,9 +208,9 @@ MOZ_RELEASE_ASSERT
 str
 )
 ;
-flatStr
+linearStr
 =
-JS_FlattenString
+JS_EnsureLinearString
 (
 cx
 str
@@ -246,7 +246,7 @@ JS
 :
 DeflateStringToUTF8Buffer
 (
-flatStr
+linearStr
 span
 )
 ;
@@ -300,7 +300,7 @@ JS
 :
 DeflateStringToUTF8Buffer
 (
-flatStr
+linearStr
 span
 .
 To
@@ -357,7 +357,7 @@ JS
 :
 DeflateStringToUTF8Buffer
 (
-flatStr
+linearStr
 span
 .
 To
@@ -398,7 +398,7 @@ Latin
 string
 which
 calls
-JSFlatString
+JSLinearString
 :
 :
 latin1Chars
@@ -454,9 +454,9 @@ MOZ_RELEASE_ASSERT
 str
 )
 ;
-flatStr
+linearStr
 =
-JS_FlattenString
+JS_EnsureLinearString
 (
 cx
 str
@@ -493,7 +493,7 @@ JS
 :
 DeflateStringToUTF8Buffer
 (
-flatStr
+linearStr
 span
 )
 ;
@@ -546,7 +546,7 @@ JS
 :
 DeflateStringToUTF8Buffer
 (
-flatStr
+linearStr
 span
 .
 To
@@ -635,7 +635,7 @@ JS
 :
 DeflateStringToUTF8Buffer
 (
-flatStr
+linearStr
 span
 .
 To
@@ -735,7 +735,7 @@ JS
 :
 DeflateStringToUTF8Buffer
 (
-flatStr
+linearStr
 span
 .
 To
@@ -792,7 +792,7 @@ JS
 :
 DeflateStringToUTF8Buffer
 (
-flatStr
+linearStr
 span
 .
 To
@@ -833,7 +833,7 @@ UTF
 string
 which
 calls
-JSFlatString
+JSLinearString
 :
 :
 twoByteChars
@@ -876,9 +876,9 @@ MOZ_RELEASE_ASSERT
 str
 )
 ;
-flatStr
+linearStr
 =
-JS_FlattenString
+JS_EnsureLinearString
 (
 cx
 str
@@ -915,7 +915,7 @@ JS
 :
 DeflateStringToUTF8Buffer
 (
-flatStr
+linearStr
 span
 )
 ;
@@ -968,7 +968,7 @@ JS
 :
 DeflateStringToUTF8Buffer
 (
-flatStr
+linearStr
 span
 .
 To
@@ -1057,7 +1057,7 @@ JS
 :
 DeflateStringToUTF8Buffer
 (
-flatStr
+linearStr
 span
 .
 To
@@ -1157,7 +1157,7 @@ JS
 :
 DeflateStringToUTF8Buffer
 (
-flatStr
+linearStr
 span
 .
 To
@@ -1214,7 +1214,7 @@ JS
 :
 DeflateStringToUTF8Buffer
 (
-flatStr
+linearStr
 span
 .
 To

@@ -3892,7 +3892,7 @@ buf
 512
 ]
 ;
-JS_PutEscapedFlatString
+JS_PutEscapedLinearString
 (
 buf
 ArrayLength
@@ -3902,7 +3902,7 @@ buf
 js
 :
 :
-AtomToFlatString
+AtomToLinearString
 (
 name
 )

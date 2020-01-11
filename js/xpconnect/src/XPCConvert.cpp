@@ -4701,11 +4701,11 @@ return
 true
 ;
 }
-JSFlatString
+JSLinearString
 *
-flat
+linear
 =
-JS_FlattenString
+JS_EnsureLinearString
 (
 cx
 str
@@ -4714,7 +4714,7 @@ str
 if
 (
 !
-flat
+linear
 )
 {
 return
@@ -4729,7 +4729,7 @@ JS
 :
 GetDeflatedUTF8StringLength
 (
-flat
+linear
 )
 ;
 rs
@@ -4754,7 +4754,7 @@ JS
 :
 DeflateStringToUTF8Buffer
 (
-flat
+linear
 mozilla
 :
 :

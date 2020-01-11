@@ -3781,7 +3781,7 @@ ctor
 ;
 }
 JS_FRIEND_API
-JSFlatString
+JSLinearString
 *
 js
 :
