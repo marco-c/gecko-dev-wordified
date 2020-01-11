@@ -2006,7 +2006,7 @@ aSheet
 return
 aSheet
 .
-HasModifiedRules
+HasModifiedRulesForDevtools
 (
 )
 ;
