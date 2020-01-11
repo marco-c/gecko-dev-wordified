@@ -367,6 +367,17 @@ C
 +
 "
 #
+undef
+GetCurrentTime
+/
+/
+Use
+GetTickCount
+(
+)
+instead
+.
+#
 endif
 /
 /
