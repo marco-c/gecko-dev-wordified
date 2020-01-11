@@ -246,7 +246,7 @@ the
 subtree
 .
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -256,10 +256,8 @@ id
 value
 ]
 (
-[
 contentId
 contentValue
-]
 )
 =
 >
@@ -351,7 +349,7 @@ delete
 it
 .
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -362,11 +360,9 @@ start
 end
 ]
 (
-[
 contentId
 contentStart
 contentEnd
-]
 )
 =
 >

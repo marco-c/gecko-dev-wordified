@@ -284,12 +284,14 @@ content
 to
 container1
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 id1
+]
 id
 =
 >
