@@ -121,6 +121,13 @@ CanvasRenderer
 .
 h
 "
+#
+include
+"
+OOPCanvasRenderer
+.
+h
+"
 namespace
 mozilla
 {

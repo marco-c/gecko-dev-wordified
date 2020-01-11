@@ -389,11 +389,6 @@ frag_color_float
 )
 ;
 }
-IMPL_WEBGL_EXTENSION_GOOP
-(
-WebGLExtensionColorBufferHalfFloat
-EXT_color_buffer_half_float
-)
 }
 /
 /

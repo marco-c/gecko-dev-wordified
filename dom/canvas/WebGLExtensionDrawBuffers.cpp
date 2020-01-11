@@ -211,10 +211,7 @@ WebGLExtensionDrawBuffers
 DrawBuffersWEBGL
 (
 const
-dom
-:
-:
-Sequence
+nsTArray
 <
 GLenum
 >
@@ -361,11 +358,6 @@ draw_buffers
 )
 ;
 }
-IMPL_WEBGL_EXTENSION_GOOP
-(
-WebGLExtensionDrawBuffers
-WEBGL_draw_buffers
-)
 }
 /
 /

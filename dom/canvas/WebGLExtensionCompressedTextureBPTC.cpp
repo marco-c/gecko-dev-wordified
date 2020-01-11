@@ -284,11 +284,6 @@ texture_compression_bptc
 )
 ;
 }
-IMPL_WEBGL_EXTENSION_GOOP
-(
-WebGLExtensionCompressedTextureBPTC
-EXT_texture_compression_bptc
-)
 }
 /
 /
