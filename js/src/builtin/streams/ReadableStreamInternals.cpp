@@ -768,7 +768,10 @@ forAuthorCode
 *
 /
 MOZ_MUST_USE
-JSObject
+js
+:
+:
+PromiseObject
 *
 js
 :
@@ -968,7 +971,7 @@ promise
 .
 Rooted
 <
-JSObject
+PromiseObject
 *
 >
 promise

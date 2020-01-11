@@ -3802,7 +3802,11 @@ stream
 forAuthorCode
 )
 .
-RootedObject
+Rooted
+<
+PromiseObject
+*
+>
 promise
 (
 cx

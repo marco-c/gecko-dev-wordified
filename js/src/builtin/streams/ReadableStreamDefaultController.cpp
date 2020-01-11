@@ -3745,7 +3745,7 @@ forAuthorCode
 .
 Rooted
 <
-JSObject
+PromiseObject
 *
 >
 pendingPromise
