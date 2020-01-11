@@ -70,13 +70,19 @@ selected
 tasks
 .
 They
-live
-under
-taskcluster
-/
-taskgraph
-/
-templates
+are
+added
+to
+'
+try_task_config
+.
+json
+'
+and
+processed
+by
+the
+transforms
 .
 "
 "
@@ -245,60 +251,6 @@ abstractmethod
     
 def
 try_config
-(
-self
-*
-*
-kwargs
-)
-:
-        
-pass
-class
-Template
-(
-TryConfig
-)
-:
-    
-def
-try_config
-(
-self
-*
-*
-kwargs
-)
-:
-        
-context
-=
-self
-.
-context
-(
-*
-*
-kwargs
-)
-        
-if
-context
-:
-            
-return
-{
-'
-templates
-'
-:
-context
-}
-    
-abstractmethod
-    
-def
-context
 (
 self
 *
@@ -533,7 +485,7 @@ True
 class
 Pernosco
 (
-Template
+TryConfig
 )
 :
     
@@ -678,7 +630,7 @@ group
 )
     
 def
-context
+try_config
 (
 self
 pernosco
@@ -1099,7 +1051,7 @@ pernosco
 class
 Path
 (
-Template
+TryConfig
 )
 :
     
@@ -1155,7 +1107,7 @@ s
 ]
     
 def
-context
+try_config
 (
 self
 paths
@@ -1282,7 +1234,7 @@ paths
 class
 Environment
 (
-Template
+TryConfig
 )
 :
     
@@ -1348,7 +1300,7 @@ times
 ]
     
 def
-context
+try_config
 (
 self
 env
@@ -1563,7 +1515,7 @@ values
 class
 Rebuild
 (
-Template
+TryConfig
 )
 :
     
@@ -1634,7 +1586,7 @@ times
 ]
     
 def
-context
+try_config
 (
 self
 rebuild
@@ -1664,7 +1616,7 @@ rebuild
 class
 ChemspillPrio
 (
-Template
+TryConfig
 )
 :
     
@@ -1719,7 +1671,7 @@ only
 ]
     
 def
-context
+try_config
 (
 self
 chemspill_prio

@@ -3052,15 +3052,6 @@ try_config
 setdefault
 (
 '
-templates
-'
-{
-}
-)
-.
-setdefault
-(
-'
 env
 '
 {
