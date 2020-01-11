@@ -2056,7 +2056,7 @@ closed
 static
 MOZ_MUST_USE
 bool
-WritableStream_closed
+WritableStreamDefaultWriter_closed
 (
 JSContext
 *
@@ -2227,7 +2227,7 @@ desiredSize
 static
 MOZ_MUST_USE
 bool
-WritableStream_desiredSize
+WritableStreamDefaultWriter_desiredSize
 (
 JSContext
 *
@@ -2440,7 +2440,7 @@ ready
 static
 MOZ_MUST_USE
 bool
-WritableStream_ready
+WritableStreamDefaultWriter_ready
 (
 JSContext
 *
@@ -2613,7 +2613,7 @@ reason
 static
 MOZ_MUST_USE
 bool
-WritableStream_abort
+WritableStreamDefaultWriter_abort
 (
 JSContext
 *
@@ -2834,7 +2834,7 @@ close
 static
 MOZ_MUST_USE
 bool
-WritableStream_close
+WritableStreamDefaultWriter_close
 (
 JSContext
 *
@@ -3126,7 +3126,7 @@ releaseLock
 static
 MOZ_MUST_USE
 bool
-WritableStream_releaseLock
+WritableStreamDefaultWriter_releaseLock
 (
 JSContext
 *
@@ -3372,7 +3372,7 @@ chunk
 static
 MOZ_MUST_USE
 bool
-WritableStream_write
+WritableStreamDefaultWriter_write
 (
 JSContext
 *
@@ -3585,7 +3585,7 @@ JS_PSG
 "
 closed
 "
-WritableStream_closed
+WritableStreamDefaultWriter_closed
 0
 )
 JS_PSG
@@ -3593,7 +3593,7 @@ JS_PSG
 "
 desiredSize
 "
-WritableStream_desiredSize
+WritableStreamDefaultWriter_desiredSize
 0
 )
 JS_PSG
@@ -3601,7 +3601,7 @@ JS_PSG
 "
 ready
 "
-WritableStream_ready
+WritableStreamDefaultWriter_ready
 0
 )
 JS_PS_END
@@ -3620,7 +3620,7 @@ JS_FN
 "
 abort
 "
-WritableStream_abort
+WritableStreamDefaultWriter_abort
 1
 0
 )
@@ -3629,7 +3629,7 @@ JS_FN
 "
 close
 "
-WritableStream_close
+WritableStreamDefaultWriter_close
 0
 0
 )
@@ -3638,7 +3638,7 @@ JS_FN
 "
 releaseLock
 "
-WritableStream_releaseLock
+WritableStreamDefaultWriter_releaseLock
 0
 0
 )
@@ -3647,7 +3647,7 @@ JS_FN
 "
 write
 "
-WritableStream_write
+WritableStreamDefaultWriter_write
 1
 0
 )
