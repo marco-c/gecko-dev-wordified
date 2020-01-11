@@ -223,9 +223,6 @@ i
 )
 {
 }
-delete
-uneval
-;
 for
 (
 i

@@ -571,7 +571,9 @@ name
 for
 "
 +
-uneval
+JSON
+.
+stringify
 (
 src
 )

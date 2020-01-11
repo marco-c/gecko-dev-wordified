@@ -438,7 +438,9 @@ town
 =
 "
 +
-uneval
+JSON
+.
+stringify
 (
 town
 )

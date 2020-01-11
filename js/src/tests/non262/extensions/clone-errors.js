@@ -102,7 +102,9 @@ Error
 serializing
 "
 +
-uneval
+JSON
+.
+stringify
 (
 v
 )
