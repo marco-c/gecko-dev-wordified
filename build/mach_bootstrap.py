@@ -616,16 +616,6 @@ py
 '
 tools
 /
-docs
-/
-mach_commands
-.
-py
-'
-    
-'
-tools
-/
 lint
 /
 mach_commands
@@ -635,6 +625,16 @@ py
     
 '
 tools
+/
+mach_commands
+.
+py
+'
+    
+'
+tools
+/
+moztreedocs
 /
 mach_commands
 .
