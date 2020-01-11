@@ -605,8 +605,7 @@ exactly
 like
 pthreads
 .
-MOZ_MUST_USE
-bool
+void
 start
 (
 )
@@ -647,13 +646,12 @@ use
 these
 methods
 .
-MOZ_MUST_USE
-bool
+void
 startWithLockHeld
 (
 AutoLockHelperThreadState
 &
-locked
+lock
 )
 ;
 void
@@ -661,7 +659,7 @@ joinWithLockHeld
 (
 AutoLockHelperThreadState
 &
-locked
+lock
 )
 ;
 void
@@ -669,7 +667,7 @@ joinRunningOrFinishedTask
 (
 AutoLockHelperThreadState
 &
-locked
+lock
 )
 ;
 /

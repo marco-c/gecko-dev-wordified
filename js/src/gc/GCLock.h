@@ -530,11 +530,6 @@ startBackgroundAllocTaskIfIdle
 (
 )
 ;
-/
-/
-Ignore
-failure
-.
 }
 }
 /
