@@ -618,7 +618,7 @@ test
 ]
 extern
 crate
-rustc_serialize
+serde_json
 ;
 #
 [
