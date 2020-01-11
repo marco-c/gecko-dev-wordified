@@ -77,6 +77,8 @@ exported
 installTestExtension
 addCommonAbuseReportTestTasks
 *
+waitClosedWindow
+*
 AbuseReporter
 AbuseReporterTestUtils
 AddonTestUtils
