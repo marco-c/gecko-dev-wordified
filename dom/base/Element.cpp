@@ -3592,6 +3592,7 @@ return
 obj
 ;
 }
+{
 RefPtr
 <
 ComputedStyle
@@ -3792,6 +3793,7 @@ ExecuteAttachedHandler
 )
 )
 ;
+}
 }
 }
 return
