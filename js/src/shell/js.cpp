@@ -5941,6 +5941,13 @@ DecodeBinAST
 cx
 options
 file
+JS
+:
+:
+BinASTFormat
+:
+:
+Multipart
 )
 ;
 if

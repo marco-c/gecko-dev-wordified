@@ -4702,6 +4702,11 @@ length
 JS
 :
 :
+BinASTFormat
+format
+JS
+:
+:
 OffThreadCompileCallback
 callback
 void
@@ -4723,6 +4728,10 @@ data
 (
 buf
 length
+)
+format
+(
+format
 )
 {
 }
@@ -4778,6 +4787,7 @@ data
 length
 (
 )
+format
 &
 sourceObject
 .
@@ -6985,6 +6995,11 @@ length
 JS
 :
 :
+BinASTFormat
+format
+JS
+:
+:
 OffThreadCompileCallback
 callback
 void
@@ -7031,6 +7046,7 @@ BinASTDecodeTask
 cx
 buf
 length
+format
 callback
 callbackData
 )

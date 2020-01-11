@@ -14216,6 +14216,13 @@ ScriptBinASTData
 length
 (
 )
+JS
+:
+:
+BinASTFormat
+:
+:
+Multipart
 OffThreadScriptLoaderCallback
 static_cast
 <
