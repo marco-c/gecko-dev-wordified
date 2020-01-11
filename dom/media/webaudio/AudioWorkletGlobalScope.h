@@ -303,7 +303,7 @@ NotNull
 StructuredCloneHolder
 *
 >
-aOptionsSerialization
+aSerializedOptions
 JS
 :
 :
