@@ -494,6 +494,14 @@ error
 "
 "
 ^
+(
+resource
+\
+:
+/
+/
+)
+?
 devtools
 /
 client
