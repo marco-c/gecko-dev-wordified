@@ -553,6 +553,11 @@ WebRtcHwVp8DecodeSupported
 (
 )
 ;
+int32_t
+WebRtcHwH264Supported
+(
+)
+;
 bool
 mInitialized
 ;
