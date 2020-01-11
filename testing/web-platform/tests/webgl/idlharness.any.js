@@ -62,13 +62,13 @@ idl_test
 (
 [
 '
+webgl1
+'
+'
 webgl2
 '
 ]
 [
-'
-webgl1
-'
 '
 dom
 '
