@@ -28120,11 +28120,6 @@ NS_NewImageBoxFrame
 )
 SIMPLE_XUL_CREATE
 (
-spring
-NS_NewLeafBoxFrame
-)
-SIMPLE_XUL_CREATE
-(
 spacer
 NS_NewLeafBoxFrame
 )
