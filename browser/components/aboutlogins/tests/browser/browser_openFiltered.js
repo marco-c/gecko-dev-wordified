@@ -1147,7 +1147,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+is_hidden
 (
 loginIntro
 )
