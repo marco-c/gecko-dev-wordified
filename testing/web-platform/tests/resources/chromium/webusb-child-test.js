@@ -149,6 +149,10 @@ new
 MojoInterfaceInterceptor
 (
 interfaceName
+"
+context
+"
+true
 )
 ;
 interfaceInterceptor
