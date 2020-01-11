@@ -53,6 +53,11 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
+unicode_literals
 def
 pluralize
 (

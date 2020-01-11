@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
 import
 os
 import
@@ -1836,34 +1840,6 @@ slow
 '
 ]
     
-env
-=
-os
-.
-environ
-.
-copy
-(
-)
-    
-env
-[
-'
-PYTHONPATH
-'
-]
-=
-os
-.
-pathsep
-.
-join
-(
-sys
-.
-path
-)
-    
 proc
 =
 subprocess
@@ -1885,9 +1861,6 @@ STDOUT
 cwd
 =
 here
-env
-=
-env
 universal_newlines
 =
 True
@@ -1919,11 +1892,6 @@ communicate
 [
 0
 ]
-    
-print
-(
-out
-)
     
 assert
 '
