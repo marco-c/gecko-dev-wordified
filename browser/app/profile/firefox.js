@@ -18605,9 +18605,6 @@ BEHAVIOR_REJECT_TRACKER
 /
 )
 ;
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 /
 /
 Enable
@@ -18615,12 +18612,12 @@ fingerprinting
 blocking
 by
 default
+for
+all
+channels
 only
-in
-nightly
-and
-early
-beta
+on
+desktop
 .
 pref
 (
@@ -18636,8 +18633,6 @@ enabled
 true
 )
 ;
-#
-endif
 /
 /
 Enable
