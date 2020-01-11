@@ -78,13 +78,6 @@ defined
 (
 __AVX2__
 )
-&
-&
-!
-defined
-(
-__MINGW32__
-)
 #
 include
 <
