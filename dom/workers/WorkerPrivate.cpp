@@ -26918,8 +26918,7 @@ ConnectMessagePort
 JSContext
 *
 aCx
-const
-MessagePortIdentifier
+UniqueMessagePortId
 &
 aIdentifier
 )
@@ -26963,7 +26962,7 @@ jsGlobal
 /
 /
 This
-MessagePortIdentifier
+UniqueMessagePortId
 is
 used
 to
