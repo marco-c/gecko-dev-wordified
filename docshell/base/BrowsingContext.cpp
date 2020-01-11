@@ -1701,10 +1701,6 @@ mDanglingRemoteOuterProxies
 (
 false
 )
-mPendingInitialization
-(
-false
-)
 {
 MOZ_RELEASE_ASSERT
 (
