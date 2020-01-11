@@ -12006,12 +12006,13 @@ script
 if
 (
 !
-elem
--
->
-initScriptName
+coverage
+:
+:
+InitScriptCoverage
 (
 cx
+elem
 )
 )
 {
