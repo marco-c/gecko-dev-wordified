@@ -139,16 +139,14 @@ let
 contentDocDead
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 {
 innerWindowId
 }
-]
 async
 function
 (

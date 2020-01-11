@@ -2071,6 +2071,13 @@ break
 }
 }
 )
+.
+catch
+(
+Cu
+.
+reportError
+)
 ;
 }
 /

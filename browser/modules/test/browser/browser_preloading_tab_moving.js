@@ -429,6 +429,13 @@ complete
 ;
 }
 )
+.
+catch
+(
+Cu
+.
+reportError
+)
 ;
 ok
 (
