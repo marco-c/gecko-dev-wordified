@@ -96,6 +96,18 @@ reducer
 "
 )
 ;
+const
+actions
+=
+require
+(
+"
+.
+/
+actions
+"
+)
+;
 module
 .
 exports
@@ -103,6 +115,7 @@ exports
 {
 ObjectInspector
 utils
+actions
 reducer
 }
 ;

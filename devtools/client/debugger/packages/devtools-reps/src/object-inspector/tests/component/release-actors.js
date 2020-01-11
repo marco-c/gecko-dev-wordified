@@ -360,6 +360,12 @@ actor
 "
 ]
 )
+watchpoints
+:
+new
+Map
+(
+)
 }
 }
 )

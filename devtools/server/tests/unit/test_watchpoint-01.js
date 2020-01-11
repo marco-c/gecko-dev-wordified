@@ -312,7 +312,7 @@ why
 .
 type
 "
-watchpoint
+setWatchpoint
 "
 )
 ;
@@ -562,7 +562,7 @@ why
 .
 type
 "
-watchpoint
+getWatchpoint
 "
 )
 ;
