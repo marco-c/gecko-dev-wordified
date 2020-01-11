@@ -6,7 +6,7 @@ reftest
 skip
 -
 -
-FinalizationGroup
+WeakRef
 is
 not
 supported
@@ -104,6 +104,7 @@ features
 :
 [
 FinalizationGroup
+WeakRef
 ]
 -
 -

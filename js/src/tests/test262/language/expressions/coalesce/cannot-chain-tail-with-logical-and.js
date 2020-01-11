@@ -110,7 +110,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError
@@ -119,6 +119,10 @@ SyntaxError
 -
 *
 /
+DONOTEVALUATE
+(
+)
+;
 0
 ?
 ?

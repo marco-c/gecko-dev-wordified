@@ -133,6 +133,11 @@ built
 in
 methods
 .
+features
+:
+[
+WeakSet
+]
 -
 -
 -

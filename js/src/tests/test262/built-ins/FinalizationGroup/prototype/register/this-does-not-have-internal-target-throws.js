@@ -6,7 +6,6 @@ reftest
 skip
 -
 -
-FinalizationGroup
 WeakRef
 is
 not

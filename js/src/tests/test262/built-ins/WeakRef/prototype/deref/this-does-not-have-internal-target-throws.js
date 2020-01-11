@@ -7,7 +7,6 @@ skip
 -
 -
 WeakRef
-FinalizationGroup
 is
 not
 supported

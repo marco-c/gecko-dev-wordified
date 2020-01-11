@@ -7,7 +7,6 @@ skip
 async
 -
 -
-FinalizationGroup
 WeakRef
 is
 not

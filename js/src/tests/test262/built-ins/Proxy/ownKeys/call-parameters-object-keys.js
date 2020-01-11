@@ -64,11 +64,12 @@ OwnPropertyKeys
 ]
 (
 )
-8
+7
 .
 Let
 trapResultArray
 be
+?
 Call
 (
 trap
@@ -124,7 +125,7 @@ t
 return
 Object
 .
-getOwnPropertyNames
+keys
 (
 t
 )
@@ -147,7 +148,7 @@ keys
 =
 Object
 .
-getOwnPropertyNames
+keys
 (
 p
 )

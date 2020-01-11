@@ -129,6 +129,11 @@ built
 in
 methods
 .
+features
+:
+[
+WeakMap
+]
 -
 -
 -
