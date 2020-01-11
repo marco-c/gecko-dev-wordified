@@ -5013,7 +5013,7 @@ GetAuthenticode
 ;
 gMozglueLoaderObserver
 .
-Clear
+Disable
 (
 )
 ;
