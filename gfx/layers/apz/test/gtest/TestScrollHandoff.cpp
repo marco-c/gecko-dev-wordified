@@ -2333,8 +2333,6 @@ manager
 ReceiveInputEvent
 (
 secondFingerDown
-nullptr
-nullptr
 )
 ;
 /
@@ -2363,8 +2361,6 @@ manager
 ReceiveInputEvent
 (
 fingersUp
-nullptr
-nullptr
 )
 ;
 /
@@ -2664,8 +2660,6 @@ manager
 ReceiveInputEvent
 (
 secondFingerDown
-nullptr
-nullptr
 )
 ;
 /
@@ -2694,8 +2688,6 @@ manager
 ReceiveInputEvent
 (
 fingersUp
-nullptr
-nullptr
 )
 ;
 /
@@ -3281,8 +3273,6 @@ manager
 ReceiveInputEvent
 (
 secondFingerDown
-nullptr
-nullptr
 )
 ;
 /
@@ -3311,8 +3301,6 @@ manager
 ReceiveInputEvent
 (
 fingersUp
-nullptr
-nullptr
 )
 ;
 /

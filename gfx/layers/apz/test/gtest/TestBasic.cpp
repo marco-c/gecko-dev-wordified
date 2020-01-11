@@ -2521,11 +2521,8 @@ in
 other
 ways
 .
-uint64_t
-blockId
-;
-nsEventStatus
-status
+APZEventResult
+result
 =
 TouchDown
 (
@@ -2541,8 +2538,6 @@ mcc
 Time
 (
 )
-&
-blockId
 )
 ;
 if
@@ -2555,7 +2550,9 @@ layout_css_touch_action_enabled
 )
 &
 &
-status
+result
+.
+mStatus
 !
 =
 nsEventStatus_eConsumeNoDefault
@@ -2564,7 +2561,9 @@ nsEventStatus_eConsumeNoDefault
 SetDefaultAllowedTouchBehavior
 (
 apzc
-blockId
+result
+.
+mInputBlockId
 )
 ;
 }
