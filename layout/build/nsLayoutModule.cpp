@@ -1447,6 +1447,7 @@ manager
 new
 SessionStorageManager
 (
+nullptr
 )
 ;
 return
