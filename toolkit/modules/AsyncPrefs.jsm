@@ -215,17 +215,6 @@ reader
 .
 line_height
 "
-"
-security
-.
-tls
-.
-version
-.
-enable
--
-deprecated
-"
 ]
 )
 ;
