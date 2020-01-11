@@ -95,16 +95,6 @@ ui
 =
 >
 {
-await
-injectEventUtilsInContentTask
-(
-ui
-.
-getViewportBrowser
-(
-)
-)
-;
 info
 (
 "

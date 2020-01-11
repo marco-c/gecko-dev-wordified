@@ -74,16 +74,6 @@ true
 )
 ;
 await
-injectEventUtilsInContentTask
-(
-ui
-.
-getViewportBrowser
-(
-)
-)
-;
-await
 toggleTouchSimulation
 (
 ui
