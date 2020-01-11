@@ -621,8 +621,13 @@ ins
 (
 )
 .
-trapnz
+trapif
 (
+isa
+.
+unsigned_add_overflow_condition
+(
+)
 overflow
 ir
 :

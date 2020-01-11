@@ -5,6 +5,9 @@ std
 iter
 ;
 pub
+(
+crate
+)
 fn
 simple_hash
 (
@@ -99,6 +102,9 @@ unused
 slots
 .
 pub
+(
+crate
+)
 fn
 generate_table
 <

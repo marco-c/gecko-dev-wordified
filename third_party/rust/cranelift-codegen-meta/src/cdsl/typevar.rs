@@ -6595,7 +6595,6 @@ else
 2
 }
 ;
-;
 let
 bools
 =

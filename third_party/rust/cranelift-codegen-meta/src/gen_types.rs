@@ -636,6 +636,9 @@ types
 file
 .
 pub
+(
+crate
+)
 fn
 generate
 (

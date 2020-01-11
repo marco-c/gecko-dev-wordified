@@ -12,10 +12,6 @@ builder
 ;
 pub
 mod
-condcodes
-;
-pub
-mod
 constant
 ;
 pub
@@ -177,6 +173,7 @@ Ebb
 FuncRef
 GlobalValue
 Heap
+Immediate
 Inst
 JumpTable
 SigRef
@@ -438,6 +435,13 @@ valueloc
 ArgumentLoc
 ValueLoc
 }
+;
+pub
+use
+cranelift_codegen_shared
+:
+:
+condcodes
 ;
 use
 crate

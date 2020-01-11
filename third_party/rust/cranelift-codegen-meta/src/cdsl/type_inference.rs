@@ -832,6 +832,9 @@ type
 inference
 .
 pub
+(
+crate
+)
 struct
 TypeEnvironment
 {
@@ -4375,6 +4378,9 @@ or
 error
 .
 pub
+(
+crate
+)
 fn
 infer_transform
 (

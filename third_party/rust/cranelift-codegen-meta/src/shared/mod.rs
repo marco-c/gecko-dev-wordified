@@ -186,7 +186,6 @@ new
 (
 )
 ;
-;
 let
 format_registry
 =

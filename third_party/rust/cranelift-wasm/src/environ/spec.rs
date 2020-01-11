@@ -80,7 +80,7 @@ crate
 state
 :
 :
-VisibleTranslationState
+TranslationState
 ;
 use
 crate
@@ -690,9 +690,6 @@ tt
 =
 >
 {
-return
-Err
-(
 crate
 :
 :
@@ -711,7 +708,6 @@ format
 arg
 )
 *
-)
 )
 )
 }
@@ -2318,7 +2314,7 @@ FunctionBuilder
 _state
 :
 &
-VisibleTranslationState
+TranslationState
 )
 -
 >
@@ -2380,7 +2376,7 @@ FunctionBuilder
 _state
 :
 &
-VisibleTranslationState
+TranslationState
 )
 -
 >
