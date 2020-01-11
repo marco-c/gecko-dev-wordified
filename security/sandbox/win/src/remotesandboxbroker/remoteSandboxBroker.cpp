@@ -846,6 +846,8 @@ SetSecurityLevelForGMPlugin
 (
 SandboxLevel
 aLevel
+bool
+aIsRemoteLaunch
 )
 {
 mParameters
