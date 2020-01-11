@@ -6903,6 +6903,8 @@ AllocateBigIntNoGC
 JSContext
 *
 cx
+bool
+requestMinorGC
 )
 ;
 template

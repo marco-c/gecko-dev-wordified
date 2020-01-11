@@ -33194,6 +33194,10 @@ copy
 (
 cx
 bigint
+gc
+:
+:
+TenuredHeap
 )
 ;
 if

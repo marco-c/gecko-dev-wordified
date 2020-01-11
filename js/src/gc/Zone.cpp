@@ -1143,6 +1143,16 @@ allocNurseryStrings
 this
 true
 )
+tenuredBigInts
+(
+this
+0
+)
+allocNurseryBigInts
+(
+this
+true
+)
 propertyTree_
 (
 this

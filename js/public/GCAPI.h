@@ -2472,6 +2472,12 @@ TOO_MUCH_JIT_CODE
 29
 )
 \
+D
+(
+FULL_CELL_PTR_BIGINT_BUFFER
+30
+)
+\
 \
 /
 *
@@ -2484,12 +2490,6 @@ use
 .
 *
 /
-\
-D
-(
-RESERVED6
-30
-)
 \
 D
 (

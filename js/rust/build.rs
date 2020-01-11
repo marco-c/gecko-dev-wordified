@@ -1888,6 +1888,12 @@ JS_HasPropertyById
 JS
 :
 :
+HeapBigIntWriteBarriers
+"
+"
+JS
+:
+:
 HeapObjectWriteBarriers
 "
 "
