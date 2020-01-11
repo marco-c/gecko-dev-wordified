@@ -992,8 +992,6 @@ no
 arbitrary
 -
 setTimeout
-content
-.
 setTimeout
 (
 f
@@ -1126,8 +1124,6 @@ no
 arbitrary
 -
 setTimeout
-content
-.
 setTimeout
 (
 f
@@ -1437,8 +1433,6 @@ no
 arbitrary
 -
 setTimeout
-content
-.
 setTimeout
 (
 f
@@ -1570,8 +1564,6 @@ no
 arbitrary
 -
 setTimeout
-content
-.
 setTimeout
 (
 f

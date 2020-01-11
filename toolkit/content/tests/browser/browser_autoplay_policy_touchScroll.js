@@ -229,8 +229,6 @@ resolve
 }
 )
 ;
-content
-.
 setTimeout
 (
 (

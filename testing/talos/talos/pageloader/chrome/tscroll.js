@@ -742,8 +742,6 @@ function
 resolve
 )
 {
-content
-.
 setTimeout
 (
 resolve
@@ -1719,8 +1717,6 @@ after
 APZ_MEASURE_MS
 of
 scrolling
-content
-.
 setTimeout
 (
 function
