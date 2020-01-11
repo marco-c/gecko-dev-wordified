@@ -5837,7 +5837,7 @@ mVRSystem
 mVRCompositor
 |
 |
-mVRSystem
+mVRChaperone
 )
 {
 :
