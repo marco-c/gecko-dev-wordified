@@ -472,18 +472,6 @@ GROUP_WARNINGS
 )
 ;
 const
-editor
-=
-getBoolPref
-(
-PREFS
-.
-FEATURES
-.
-EDITOR
-)
-;
-const
 historyCount
 =
 getIntPref
@@ -509,7 +497,6 @@ sidebarToggle
 autocomplete
 historyCount
 groupWarnings
-editor
 }
 )
 filters

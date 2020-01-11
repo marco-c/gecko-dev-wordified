@@ -550,17 +550,6 @@ webconsole
 .
 groupWarningMessages
 "
-EDITOR
-:
-"
-devtools
-.
-webconsole
-.
-features
-.
-editor
-"
 BROWSER_TOOLBOX_FISSION
 :
 "
