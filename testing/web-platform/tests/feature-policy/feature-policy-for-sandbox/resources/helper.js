@@ -78,12 +78,6 @@ sandbox_features
 [
 "
 downloads
--
-without
--
-user
--
-activation
 "
 "
 forms
