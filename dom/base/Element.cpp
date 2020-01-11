@@ -3401,10 +3401,6 @@ nsGkAtoms
 :
 :
 textbox
-nsGkAtoms
-:
-:
-arrowscrollbox
 )
 )
 {
