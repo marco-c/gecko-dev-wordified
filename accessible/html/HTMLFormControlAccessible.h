@@ -586,11 +586,11 @@ part
 of
 for
 example
-XUL
-:
+search
+-
 textbox
-or
 *
+or
 HTML
 :
 input

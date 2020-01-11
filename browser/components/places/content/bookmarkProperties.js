@@ -2985,8 +2985,7 @@ true
 Determines
 whether
 the
-XUL
-textbox
+input
 with
 the
 given

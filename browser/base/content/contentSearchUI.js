@@ -212,15 +212,6 @@ html
 :
 input
 .
-xul
-:
-textbox
-is
-untested
-but
-might
-work
-.
 *
 param
 tableParent
