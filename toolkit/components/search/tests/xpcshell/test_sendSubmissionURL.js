@@ -586,6 +586,7 @@ search
 .
 getDefaultEngineInfo
 (
+false
 )
 ;
 Assert
@@ -593,6 +594,8 @@ Assert
 equal
 (
 engineInfo
+.
+defaultSearchEngineData
 .
 submissionURL
 searchURL
@@ -649,6 +652,7 @@ search
 .
 getDefaultEngineInfo
 (
+false
 )
 ;
 Assert
@@ -656,6 +660,8 @@ Assert
 equal
 (
 engineInfo
+.
+defaultSearchEngineData
 .
 submissionURL
 null
