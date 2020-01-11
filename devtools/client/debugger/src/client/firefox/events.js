@@ -536,6 +536,13 @@ alreadyPaused
 return
 ;
 }
+if
+(
+packet
+.
+frame
+)
+{
 /
 /
 When
@@ -575,6 +582,7 @@ where
 actor
 )
 ;
+}
 const
 pause
 =
