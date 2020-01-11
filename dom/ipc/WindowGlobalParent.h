@@ -501,6 +501,13 @@ StructuredCloneData
 &
 &
 aData
+ipc
+:
+:
+StructuredCloneData
+&
+&
+aStack
 )
 ;
 /
@@ -1011,6 +1018,10 @@ const
 ClonedMessageData
 &
 aData
+const
+ClonedMessageData
+&
+aStack
 )
 ;
 void

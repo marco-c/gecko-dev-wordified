@@ -323,6 +323,13 @@ StructuredCloneData
 &
 &
 aData
+ipc
+:
+:
+StructuredCloneData
+&
+&
+aStack
 ErrorResult
 &
 aRv
