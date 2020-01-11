@@ -1716,6 +1716,9 @@ true
 ;
 sIsTouchDeviceSupportPresent
 =
+widget
+:
+:
 WidgetUtils
 :
 :
@@ -1824,6 +1827,13 @@ nsIDocShell
 aDocShell
 )
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 static
 bool
 sPrefCached
