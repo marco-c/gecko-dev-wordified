@@ -3770,12 +3770,7 @@ aDriver
 {
 MOZ_ASSERT_IF
 (
-mDriver
--
->
-ThreadRunning
-(
-)
+mGraphDriverRunning
 InDriverIteration
 (
 mDriver
@@ -3785,12 +3780,7 @@ mDriver
 MOZ_ASSERT_IF
 (
 !
-mDriver
--
->
-ThreadRunning
-(
-)
+mGraphDriverRunning
 NS_IsMainThread
 (
 )
