@@ -461,6 +461,10 @@ const
 nsACString
 &
 aKey
+const
+nsID
+&
+aAgentClusterId
 )
 :
 mKey
@@ -470,6 +474,10 @@ aKey
 mTabGroup
 (
 aTabGroup
+)
+mAgentClusterId
+(
+aAgentClusterId
 )
 {
 /
