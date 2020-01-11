@@ -142,6 +142,16 @@ addLogin
 LOGIN_TO_UPDATE
 )
 ;
+EXPECTED_ERROR_MESSAGE
+=
+"
+This
+login
+already
+exists
+.
+"
+;
 await
 ContentTask
 .
@@ -676,6 +686,10 @@ exists
 ;
 }
 )
+;
+EXPECTED_ERROR_MESSAGE
+=
+null
 ;
 }
 )
