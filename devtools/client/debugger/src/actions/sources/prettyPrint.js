@@ -605,6 +605,14 @@ getState
 if
 (
 location
+&
+&
+location
+.
+line
+>
+=
+1
 )
 {
 location
