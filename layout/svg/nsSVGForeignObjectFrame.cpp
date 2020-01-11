@@ -815,6 +815,14 @@ ComputedStyle
 aOldComputedStyle
 )
 {
+nsContainerFrame
+:
+:
+DidSetComputedStyle
+(
+aOldComputedStyle
+)
+;
 if
 (
 aOldComputedStyle

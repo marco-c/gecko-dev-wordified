@@ -1329,16 +1329,6 @@ aResult
 }
 #
 endif
-virtual
-void
-DidSetComputedStyle
-(
-ComputedStyle
-*
-aOldComputedStyle
-)
-override
-;
 /
 *
 *
