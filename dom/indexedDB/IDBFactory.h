@@ -154,7 +154,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -319,7 +321,7 @@ BackgroundCreateCallback
 struct
 PendingRequestInfo
 ;
-nsAutoPtr
+UniquePtr
 <
 PrincipalInfo
 >
@@ -677,6 +679,10 @@ AssertIsOnOwningThread
 ;
 return
 mPrincipalInfo
+.
+get
+(
+)
 ;
 }
 uint64_t
@@ -938,7 +944,7 @@ CreateForMainThreadJSInternal
 nsIGlobalObject
 *
 aGlobal
-nsAutoPtr
+UniquePtr
 <
 PrincipalInfo
 >
@@ -956,7 +962,7 @@ CreateInternal
 nsIGlobalObject
 *
 aGlobal
-nsAutoPtr
+UniquePtr
 <
 PrincipalInfo
 >
