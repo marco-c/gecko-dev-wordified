@@ -2414,6 +2414,8 @@ nscoord
 aWidth
 nscoord
 aHeight
+bool
+aDoReflow
 )
 ;
 bool

@@ -4418,11 +4418,6 @@ UpdateDisplayPortMargins
 )
 ;
 }
-CSSSize
-oldSize
-=
-mMobileViewportSize
-;
 /
 /
 Update
@@ -4455,7 +4450,6 @@ mContext
 Reflow
 (
 viewport
-oldSize
 mIsFirstPaint
 ?
 MVMContext

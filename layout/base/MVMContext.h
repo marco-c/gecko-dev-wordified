@@ -422,12 +422,7 @@ const
 CSSSize
 &
 aNewSize
-const
-CSSSize
-&
-aOldSize
 ResizeEventFlag
-aResizeEventFlag
 )
 =
 0

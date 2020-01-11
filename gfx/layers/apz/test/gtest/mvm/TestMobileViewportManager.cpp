@@ -654,12 +654,7 @@ const
 CSSSize
 &
 aNewSize
-const
-CSSSize
-&
-aOldSize
 ResizeEventFlag
-aResizeEventFlag
 )
 {
 mICBSize
