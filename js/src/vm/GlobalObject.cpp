@@ -233,6 +233,17 @@ PluralRules
 h
 "
 #
+include
+"
+builtin
+/
+intl
+/
+RelativeTimeFormat
+.
+h
+"
+#
 endif
 #
 include
