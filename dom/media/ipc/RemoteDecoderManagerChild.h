@@ -261,7 +261,7 @@ aSD
 )
 ;
 void
-DeallocateSurfaceDescriptorGPUVideo
+DeallocateSurfaceDescriptor
 (
 const
 SurfaceDescriptorGPUVideo
