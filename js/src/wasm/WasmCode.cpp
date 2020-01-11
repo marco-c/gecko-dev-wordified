@@ -3729,7 +3729,7 @@ funcType
 (
 )
 .
-temporarilyUnsupportedAnyRef
+temporarilyUnsupportedReftypeForEntry
 (
 )
 )
@@ -4062,7 +4062,7 @@ funcType
 (
 )
 .
-temporarilyUnsupportedAnyRef
+temporarilyUnsupportedReftypeForEntry
 (
 )
 ?
@@ -4600,7 +4600,8 @@ lazyExport
 /
 Functions
 with
-anyref
+unsupported
+reftypes
 in
 their
 sig
@@ -4608,12 +4609,12 @@ have
 only
 one
 entry
+/
+/
 (
 interp
 )
 .
-/
-/
 All
 other
 functions
@@ -4632,7 +4633,7 @@ funcType
 (
 )
 .
-temporarilyUnsupportedAnyRef
+temporarilyUnsupportedReftypeForEntry
 (
 )
 ?
@@ -4723,7 +4724,8 @@ codeRanges
 Functions
 that
 have
-anyref
+unsupported
+reftypes
 in
 their
 sig
@@ -4733,6 +4735,8 @@ t
 get
 a
 jit
+/
+/
 entry
 .
 if
@@ -4752,7 +4756,7 @@ funcType
 (
 )
 .
-temporarilyUnsupportedAnyRef
+temporarilyUnsupportedReftypeForEntry
 (
 )
 )
