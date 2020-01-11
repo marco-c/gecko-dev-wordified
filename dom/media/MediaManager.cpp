@@ -6400,13 +6400,8 @@ const
 MediaEnginePrefs
 &
 aPrefs
-const
-ipc
-:
-:
-PrincipalInfo
-&
-aPrincipalInfo
+uint64_t
+aWindowID
 const
 char
 *
@@ -6497,7 +6492,7 @@ Allocate
 (
 aConstraints
 aPrefs
-aPrincipalInfo
+aWindowID
 aOutBadConstraint
 )
 ;
@@ -9651,7 +9646,7 @@ Allocate
 (
 constraints
 mPrefs
-mPrincipalInfo
+mWindowID
 &
 badConstraint
 )
@@ -9748,7 +9743,7 @@ Allocate
 (
 constraints
 mPrefs
-mPrincipalInfo
+mWindowID
 &
 badConstraint
 )
