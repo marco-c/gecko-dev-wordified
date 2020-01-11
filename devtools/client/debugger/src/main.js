@@ -146,8 +146,7 @@ bootstrap
 :
 (
 {
-threadFront
-tabTarget
+targetList
 debuggerClient
 workers
 panel
@@ -169,13 +168,8 @@ clientType
 firefox
 "
 }
-tabConnection
-:
-{
-tabTarget
-threadFront
+targetList
 debuggerClient
-}
 }
 workers
 panel
