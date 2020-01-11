@@ -447,6 +447,10 @@ displaying
 private
 *
 param
+number
+httpChannelId
+*
+param
 boolean
 wasClean
 *
@@ -462,6 +466,7 @@ reason
 async
 _onWebSocketClosed
 (
+httpChannelId
 wasClean
 code
 reason
@@ -474,6 +479,7 @@ emit
 "
 webSocketClosed
 "
+httpChannelId
 wasClean
 code
 reason
