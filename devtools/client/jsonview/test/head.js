@@ -590,11 +590,6 @@ that
 trigger
 a
 download
-nor
-for
-symlink
-file
-URIs
 .
 /
 /

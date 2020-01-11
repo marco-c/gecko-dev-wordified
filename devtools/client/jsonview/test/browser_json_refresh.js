@@ -93,6 +93,12 @@ append
 TEST_JSON_FILE
 )
 ;
+dir
+.
+normalize
+(
+)
+;
 const
 uri
 =
