@@ -391,7 +391,7 @@ if
 texture
 )
 {
-gfxCriticalNote
+gfxCriticalNoteOnce
 <
 <
 "
