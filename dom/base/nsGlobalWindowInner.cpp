@@ -42949,10 +42949,6 @@ const
 ImageBitmapSource
 &
 aImage
-const
-ImageBitmapOptions
-&
-aOptions
 ErrorResult
 &
 aRv
@@ -42969,7 +42965,6 @@ aImage
 Nothing
 (
 )
-aOptions
 aRv
 )
 ;
@@ -42998,10 +42993,6 @@ int32_t
 aSw
 int32_t
 aSh
-const
-ImageBitmapOptions
-&
-aOptions
 ErrorResult
 &
 aRv
@@ -43028,7 +43019,6 @@ aSw
 aSh
 )
 )
-aOptions
 aRv
 )
 ;
