@@ -27447,7 +27447,7 @@ initialized
 in
 /
 /
-PermissionDelegateHandler
+GetPermissionDelegateHandler
 RefPtr
 <
 PermissionDelegateHandler
