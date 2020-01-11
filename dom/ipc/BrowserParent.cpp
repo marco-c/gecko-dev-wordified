@@ -12262,7 +12262,6 @@ xulBrowserWindow
 SetOverLink
 (
 aStatus
-nullptr
 )
 ;
 return
