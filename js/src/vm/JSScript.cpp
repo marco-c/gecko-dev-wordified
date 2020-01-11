@@ -6510,7 +6510,7 @@ rsd
 script
 -
 >
-scriptData
+sharedData
 (
 )
 ;
@@ -6575,7 +6575,7 @@ rsd
 script
 -
 >
-scriptData
+sharedData
 (
 )
 ;
@@ -27048,7 +27048,7 @@ natoms
 MOZ_ASSERT
 (
 !
-scriptData_
+sharedData_
 )
 ;
 RefPtr
@@ -27077,7 +27077,7 @@ return
 false
 ;
 }
-scriptData_
+sharedData_
 =
 std
 :
@@ -27181,7 +27181,7 @@ endif
 MOZ_ASSERT
 (
 !
-scriptData_
+sharedData_
 -
 >
 isd_
@@ -27220,7 +27220,7 @@ return
 false
 ;
 }
-scriptData_
+sharedData_
 -
 >
 isd_
@@ -27245,7 +27245,7 @@ freeScriptData
 (
 )
 {
-scriptData_
+sharedData_
 =
 nullptr
 ;
@@ -27259,7 +27259,7 @@ the
 script
 '
 s
-scriptData_
+sharedData_
 and
 either
 adds
@@ -27299,7 +27299,7 @@ RuntimeScriptData
 *
 rsd
 =
-scriptData
+sharedData
 (
 )
 ;
@@ -27407,7 +27407,7 @@ rsd
 p
 )
 ;
-scriptData_
+sharedData_
 =
 *
 p
@@ -27473,7 +27473,7 @@ JSScript
 RuntimeScriptDataTable
 MOZ_ASSERT
 (
-scriptData
+sharedData
 (
 )
 -
@@ -27578,7 +27578,7 @@ popFront
 {
 RuntimeScriptData
 *
-scriptData
+sharedData
 =
 e
 .
@@ -27588,7 +27588,7 @@ front
 ;
 if
 (
-scriptData
+sharedData
 -
 >
 refCount
@@ -27599,7 +27599,7 @@ refCount
 1
 )
 {
-scriptData
+sharedData
 -
 >
 Release
@@ -34014,7 +34014,7 @@ zoneFromAnyThread
 src
 -
 >
-scriptData
+sharedData
 (
 )
 -
@@ -34028,12 +34028,12 @@ cx
 dst
 -
 >
-scriptData_
+sharedData_
 =
 src
 -
 >
-scriptData
+sharedData
 (
 )
 ;
@@ -35283,7 +35283,7 @@ data
 script
 -
 >
-scriptData
+sharedData
 (
 )
 ;
@@ -35626,12 +35626,12 @@ trc
 ;
 if
 (
-scriptData
+sharedData
 (
 )
 )
 {
-scriptData
+sharedData
 (
 )
 -
