@@ -434,10 +434,6 @@ js
 :
 :
 NewHandler
-js
-:
-:
-TargetFromHandler
 #
 include
 "
