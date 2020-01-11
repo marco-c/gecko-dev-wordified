@@ -624,6 +624,9 @@ prototype
 _ignoreZoom
 :
 false
+_ignoreScroll
+:
+false
 /
 *
 *
@@ -1185,6 +1188,11 @@ this
 currentNode
 region
 {
+ignoreScroll
+:
+this
+.
+_ignoreScroll
 ignoreZoom
 :
 this
