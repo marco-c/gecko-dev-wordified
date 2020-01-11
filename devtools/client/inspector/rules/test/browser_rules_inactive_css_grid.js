@@ -746,7 +746,6 @@ disabled
 await
 toggleDeclaration
 (
-inspector
 view
 0
 {

@@ -197,7 +197,6 @@ gap
 await
 toggleDeclaration
 (
-inspector
 view
 2
 {
