@@ -4685,6 +4685,11 @@ finishCollection
 (
 )
 ;
+IncrementalProgress
+joinSweepMarkTask
+(
+)
+;
 #
 ifdef
 JS_GC_ZEAL
