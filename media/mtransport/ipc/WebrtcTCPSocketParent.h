@@ -190,6 +190,10 @@ const
 nsCString
 &
 aAlpn
+const
+int
+&
+aProxyPolicy
 )
 override
 ;

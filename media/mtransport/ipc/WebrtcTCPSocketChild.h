@@ -144,6 +144,15 @@ IdType
 .
 h
 "
+#
+include
+"
+mtransport
+/
+nr_socket_proxy_config
+.
+h
+"
 namespace
 mozilla
 {
@@ -249,6 +258,11 @@ dom
 TabId
 &
 aTabId
+NrSocketProxyConfig
+:
+:
+ProxyPolicy
+aProxyPolicy
 )
 ;
 void

@@ -194,6 +194,10 @@ const
 nsCString
 &
 aAlpn
+const
+int
+&
+aProxyPolicy
 )
 {
 LOG
@@ -249,6 +253,16 @@ aHost
 aPort
 aLoadInfoArgs
 aAlpn
+static_cast
+<
+NrSocketProxyConfig
+:
+:
+ProxyPolicy
+>
+(
+aProxyPolicy
+)
 )
 ;
 return

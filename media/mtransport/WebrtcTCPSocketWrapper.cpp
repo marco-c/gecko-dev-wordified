@@ -443,6 +443,12 @@ GetTabId
 (
 )
 )
+aConfig
+-
+>
+GetProxyPolicy
+(
+)
 )
 ;
 }

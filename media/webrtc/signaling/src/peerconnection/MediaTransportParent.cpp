@@ -958,6 +958,10 @@ const
 nsCString
 &
 alpn
+const
+int
+&
+proxyPolicy
 )
 {
 mImpl
@@ -973,6 +977,16 @@ NrSocketProxyConfig
 tabId
 alpn
 args
+static_cast
+<
+NrSocketProxyConfig
+:
+:
+ProxyPolicy
+>
+(
+proxyPolicy
+)
 )
 )
 ;

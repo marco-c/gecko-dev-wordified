@@ -479,6 +479,11 @@ dom
 TabId
 &
 aTabId
+NrSocketProxyConfig
+:
+:
+ProxyPolicy
+aProxyPolicy
 )
 {
 LOG
@@ -616,6 +621,7 @@ aHost
 aPort
 aArgs
 aAlpn
+aProxyPolicy
 )
 ;
 }

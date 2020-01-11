@@ -150,6 +150,15 @@ NrSocketProxyConfig
 {
 public
 :
+typedef
+enum
+{
+kDisableProxy
+kEnableProxy
+kForceProxy
+}
+ProxyPolicy
+;
 NrSocketProxyConfig
 (
 uint64_t
@@ -165,6 +174,8 @@ net
 LoadInfoArgs
 &
 aArgs
+ProxyPolicy
+aProxyPolicy
 )
 ;
 /
@@ -241,6 +252,12 @@ net
 LoadInfoArgs
 &
 GetLoadInfoArgs
+(
+)
+const
+;
+ProxyPolicy
+GetProxyPolicy
 (
 )
 const
