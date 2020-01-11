@@ -2175,7 +2175,7 @@ the
 first
 non
 collapsed
-textbox
+input
 /
 /
 Note
@@ -2271,7 +2271,7 @@ document
 querySelector
 (
 "
-textbox
+vbox
 :
 not
 (
@@ -2281,6 +2281,8 @@ collapsed
 true
 ]
 )
+>
+input
 "
 )
 ;
