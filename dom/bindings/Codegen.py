@@ -63671,16 +63671,16 @@ dedent
 static_assert
 (
 !
-IsPointer
+std
+:
+:
+is_pointer_v
 <
 decltype
 (
 result
 )
 >
-:
-:
-value
                               
 "
 NewObject
