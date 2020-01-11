@@ -1511,6 +1511,15 @@ template
 "
 cfr_doorhanger
 "
+groups
+:
+[
+"
+cfr
+-
+fxa
+"
+]
 content
 :
 {
