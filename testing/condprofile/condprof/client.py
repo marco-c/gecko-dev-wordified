@@ -860,7 +860,7 @@ target_dir
 win64
 "
 "
-cold
+settled
 "
 "
 default
