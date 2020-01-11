@@ -1617,9 +1617,6 @@ GetOwner
 this
 )
 ;
-AudioPlaybackConfig
-config
-;
 nsresult
 rv
 =
@@ -1628,8 +1625,6 @@ mAudioChannelAgent
 >
 NotifyStartedPlaying
 (
-&
-config
 AudioChannelService
 :
 :
