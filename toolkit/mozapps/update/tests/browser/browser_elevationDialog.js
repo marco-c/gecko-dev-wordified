@@ -708,7 +708,7 @@ update
 /
 updateElevation
 .
-xul
+xhtml
 "
 ;
 is

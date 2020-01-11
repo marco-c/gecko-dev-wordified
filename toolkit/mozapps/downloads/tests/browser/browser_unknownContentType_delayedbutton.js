@@ -92,7 +92,7 @@ downloads
 /
 unknownContentType
 .
-xul
+xhtml
 "
 ;
 const

@@ -135,7 +135,7 @@ downloads
 /
 unknownContentType
 .
-xul
+xhtml
 "
 finish
 )

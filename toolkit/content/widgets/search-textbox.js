@@ -958,7 +958,7 @@ addons
 within
 extensions
 .
-xul
+xhtml
 .
 this
 .

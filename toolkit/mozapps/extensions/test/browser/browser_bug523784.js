@@ -43,7 +43,7 @@ extensions
 /
 blocklist
 .
-xul
+xhtml
 "
 ;
 /

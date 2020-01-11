@@ -72,7 +72,7 @@ extensions
 /
 blocklist
 .
-xul
+xhtml
 "
 ;
 var

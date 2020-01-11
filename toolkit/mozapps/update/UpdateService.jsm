@@ -15898,7 +15898,7 @@ update
 /
 updateElevation
 .
-xul
+xhtml
 "
 ;
 let

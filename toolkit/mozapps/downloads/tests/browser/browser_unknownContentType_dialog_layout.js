@@ -109,7 +109,7 @@ downloads
 /
 unknownContentType
 .
-xul
+xhtml
 "
 ;
 let

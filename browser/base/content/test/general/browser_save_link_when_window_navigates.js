@@ -81,7 +81,7 @@ downloads
 /
 unknownContentType
 .
-xul
+xhtml
 "
 ;
 /

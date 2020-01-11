@@ -254,7 +254,7 @@ extensions
 /
 blocklist
 .
-xul
+xhtml
 "
 ;
 /

@@ -135,7 +135,7 @@ extensions
 /
 extensions
 .
-xul
+xhtml
 "
 ;
 const
