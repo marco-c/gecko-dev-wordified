@@ -6264,19 +6264,12 @@ TransceiverImpl
 :
 InsertAudioLevelForContributingSource
 (
-const
 uint32_t
 aSource
-const
 int64_t
 aTimestamp
-const
-uint32_t
-aRtpTimestamp
-const
 bool
 aHasLevel
-const
 uint8_t
 aLevel
 )
@@ -6321,7 +6314,6 @@ InsertAudioLevelForContributingSource
 (
 aSource
 aTimestamp
-aRtpTimestamp
 aHasLevel
 aLevel
 )
