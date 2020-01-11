@@ -5140,8 +5140,10 @@ clipboard
 .
 if
 (
+RefPtr
+<
 HTMLInputElement
-*
+>
 inputElement
 =
 HTMLInputElement
