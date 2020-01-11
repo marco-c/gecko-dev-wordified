@@ -3488,7 +3488,7 @@ true
 ;
 aOptions
 .
-creationOptions
+behaviors
 (
 )
 .

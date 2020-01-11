@@ -11397,7 +11397,7 @@ chrome
 .
 realmOptions
 .
-creationOptions
+behaviors
 (
 )
 .
@@ -11415,7 +11415,7 @@ content
 .
 realmOptions
 .
-creationOptions
+behaviors
 (
 )
 .
