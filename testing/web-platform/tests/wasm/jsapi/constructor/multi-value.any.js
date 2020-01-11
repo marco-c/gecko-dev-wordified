@@ -81,9 +81,9 @@ type_if_fi
 addBody
 (
 [
-kExprGetLocal
+kExprLocalGet
 1
-kExprGetLocal
+kExprLocalGet
 0
 kExprReturn
 ]
@@ -208,9 +208,9 @@ type_if_fi
 addBody
 (
 [
-kExprGetLocal
+kExprLocalGet
 1
-kExprGetLocal
+kExprLocalGet
 0
 kExprReturn
 ]
