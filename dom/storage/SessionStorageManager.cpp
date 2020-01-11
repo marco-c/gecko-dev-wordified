@@ -1798,6 +1798,11 @@ aActor
 SendSessionStorageData
 (
 mBrowsingContext
+-
+>
+Id
+(
+)
 nsCString
 {
 aOriginAttrs
