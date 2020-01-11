@@ -281,8 +281,8 @@ wasm2clif
 :
 {
 init_sig
-native_pointer_size
 TransEnv
+POINTER_SIZE
 TRAP_THROW_REPORTED
 }
 ;
@@ -3846,9 +3846,7 @@ offset
 =
 offset
 +
-native_pointer_size
-(
-)
+POINTER_SIZE
 as
 u32
 ;
@@ -4061,9 +4059,7 @@ offset
 =
 offset
 +
-native_pointer_size
-(
-)
+POINTER_SIZE
 as
 u32
 ;
