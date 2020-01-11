@@ -2345,6 +2345,11 @@ enrollmentId
 study
 .
 enrollmentId
+|
+|
+TelemetryEvents
+.
+NO_ENROLLMENT_ID_MARKER
 }
 )
 ;
