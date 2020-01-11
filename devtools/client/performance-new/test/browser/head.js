@@ -1188,7 +1188,7 @@ output
 *
 param
 {
-Object
+object
 }
 *
 {

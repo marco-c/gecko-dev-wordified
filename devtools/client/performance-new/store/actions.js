@@ -599,7 +599,7 @@ features
 *
 param
 {
-Object
+object
 }
 features
 *
