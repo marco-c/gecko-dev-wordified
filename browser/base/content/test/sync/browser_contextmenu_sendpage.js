@@ -1754,7 +1754,7 @@ stub
 (
 gSync
 "
-SYNC_ENABLED
+FXA_ENABLED
 "
 )
 .
@@ -1769,7 +1769,7 @@ false
 ;
 gSync
 .
-onSyncDisabled
+onFxaDisabled
 (
 )
 ;
@@ -1783,7 +1783,7 @@ on
 gSync
 initialization
 if
-SYNC_ENABLED
+FXA_ENABLED
 had
 been
 set

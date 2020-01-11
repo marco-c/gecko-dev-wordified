@@ -45,7 +45,7 @@ is
 (
 gSync
 .
-SYNC_ENABLED
+FXA_ENABLED
 true
 "
 Sync
@@ -77,7 +77,7 @@ is
 (
 gSync
 .
-SYNC_ENABLED
+FXA_ENABLED
 false
 "
 Sync

@@ -989,7 +989,7 @@ stub
 (
 gSync
 "
-SYNC_ENABLED
+FXA_ENABLED
 "
 )
 .
@@ -1005,7 +1005,7 @@ false
 /
 /
 Simulate
-onSyncDisabled
+onFxaDisabled
 (
 )
 being
@@ -1016,7 +1016,7 @@ open
 .
 gSync
 .
-onSyncDisabled
+onFxaDisabled
 (
 )
 ;
