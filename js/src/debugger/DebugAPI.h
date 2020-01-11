@@ -2071,14 +2071,13 @@ scripted
 location
 .
 static
-ResumeMode
+MOZ_MUST_USE
+bool
 onTrap
 (
 JSContext
 *
 cx
-MutableHandleValue
-vp
 )
 ;
 /
