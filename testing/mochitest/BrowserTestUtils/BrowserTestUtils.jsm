@@ -12913,7 +12913,7 @@ does
 not
 include
 a
-triggeringPricnipal
+triggeringPrincipal
 then
 this
 function

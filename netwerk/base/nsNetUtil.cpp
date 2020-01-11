@@ -11951,7 +11951,7 @@ from
 the
 /
 /
-triggeringPricnipal
+triggeringPrincipal
 which
 returns
 the

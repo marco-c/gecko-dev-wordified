@@ -124,7 +124,7 @@ checks
 for
 URI
 and
-pricnipals
+principals
 in
 loadInfo
 await
