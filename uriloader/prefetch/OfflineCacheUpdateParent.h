@@ -165,6 +165,13 @@ URIParams
 namespace
 ipc
 namespace
+net
+{
+class
+CookieSettingsArgs
+;
+}
+namespace
 docshell
 {
 class
@@ -221,6 +228,13 @@ const
 bool
 &
 stickDocument
+const
+net
+:
+:
+CookieSettingsArgs
+&
+aCookieSettingsArgs
 )
 ;
 void
