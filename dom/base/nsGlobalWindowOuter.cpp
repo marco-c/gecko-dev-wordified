@@ -11209,7 +11209,7 @@ logic
 in
 sync
 with
-nsWebShellWindow
+nsXULWindow
 :
 :
 Initialize
