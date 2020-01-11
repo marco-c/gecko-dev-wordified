@@ -2247,6 +2247,14 @@ DU_NO_DEFAULT_INCLUDE_UTF_HEADERS
                      
 '
 -
+DU_HIDE_OBSOLETE_UTF_OLD_H
+=
+1
+'
++
+                     
+'
+-
 DUCONFIG_NO_LEGACY_CONVERSION
 '
 +
