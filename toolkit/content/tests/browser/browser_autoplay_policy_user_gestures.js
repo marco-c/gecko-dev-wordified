@@ -1271,6 +1271,8 @@ reject
 =
 >
 {
+content
+.
 setTimeout
 (
 (

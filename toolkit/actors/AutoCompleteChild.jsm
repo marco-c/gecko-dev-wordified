@@ -862,6 +862,8 @@ autoCompleteListeners
 try
 {
 listener
+.
+popupStateChanged
 (
 messageName
 data
