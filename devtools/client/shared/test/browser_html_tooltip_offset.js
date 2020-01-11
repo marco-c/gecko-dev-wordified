@@ -313,6 +313,17 @@ height
 }
 )
 ;
+const
+{
+offsetTop
+offsetLeft
+}
+=
+getOffsets
+(
+doc
+)
+;
 info
 (
 "
@@ -378,6 +389,8 @@ anchorRect
 bottom
 +
 10
++
+offsetTop
 "
 Tooltip
 top
@@ -397,6 +410,8 @@ anchorRect
 left
 +
 5
++
+offsetLeft
 "
 Tooltip
 left
@@ -499,6 +514,8 @@ anchorRect
 bottom
 +
 10
++
+offsetTop
 "
 Tooltip
 top
@@ -518,6 +535,8 @@ anchorRect
 left
 +
 5
++
+offsetLeft
 "
 Tooltip
 left
@@ -618,6 +637,8 @@ anchorRect
 top
 -
 10
++
+offsetTop
 "
 Tooltip
 bottom
@@ -638,6 +659,8 @@ anchorRect
 left
 +
 5
++
+offsetLeft
 "
 Tooltip
 left
@@ -725,6 +748,8 @@ anchorRect
 top
 -
 10
++
+offsetTop
 "
 Tooltip
 bottom
@@ -745,6 +770,8 @@ anchorRect
 left
 +
 5
++
+offsetLeft
 "
 Tooltip
 left
