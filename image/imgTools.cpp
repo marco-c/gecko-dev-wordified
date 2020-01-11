@@ -527,11 +527,15 @@ aCallback
 )
 mObserver
 (
+aObserver
+?
 new
 NotificationObserverWrapper
 (
 aObserver
 )
+:
+nullptr
 )
 {
 MOZ_ASSERT
