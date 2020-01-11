@@ -2216,6 +2216,11 @@ arrowbox
 panel
 -
 arrow
+[
+side
+=
+top
+]
 {
 fill
 :
@@ -2254,6 +2259,11 @@ arrowbox
 panel
 -
 arrow
+[
+side
+=
+top
+]
 {
 fill
 :
