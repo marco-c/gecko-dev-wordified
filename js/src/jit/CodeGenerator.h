@@ -565,7 +565,7 @@ const
 wasm
 :
 :
-ValTypeVector
+ArgTypeVector
 &
 argTys
 const
