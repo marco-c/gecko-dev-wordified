@@ -5254,6 +5254,9 @@ aActor
 )
 override
 ;
+#
+ifdef
+MOZ_WEBSPEECH
 PSpeechSynthesisParent
 *
 AllocPSpeechSynthesisParent
@@ -5284,6 +5287,8 @@ aActor
 )
 override
 ;
+#
+endif
 PWebBrowserPersistDocumentParent
 *
 AllocPWebBrowserPersistDocumentParent

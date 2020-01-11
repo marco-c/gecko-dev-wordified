@@ -1533,6 +1533,9 @@ RecvNotifyEmptyHTTPCache
 (
 )
 ;
+#
+ifdef
+MOZ_WEBSPEECH
 PSpeechSynthesisChild
 *
 AllocPSpeechSynthesisChild
@@ -1547,6 +1550,8 @@ PSpeechSynthesisChild
 aActor
 )
 ;
+#
+endif
 mozilla
 :
 :
