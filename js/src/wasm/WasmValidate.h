@@ -1541,12 +1541,6 @@ return
 true
 ;
 }
-#
-if
-defined
-(
-ENABLE_WASM_REFTYPES
-)
 /
 /
 Anything
@@ -1648,8 +1642,6 @@ one
 )
 ;
 }
-#
-endif
 #
 endif
 return

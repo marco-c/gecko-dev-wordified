@@ -6637,7 +6637,8 @@ table
 must
 have
 a
-kind
+meaningful
+DefinitionKind
 "
 )
 ;

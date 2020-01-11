@@ -21490,14 +21490,6 @@ return
 true
 ;
 }
-#
-endif
-/
-/
-ENABLE_WASM_REFTYPES
-#
-ifdef
-ENABLE_WASM_REFTYPES
 static
 bool
 EmitRefFunc
@@ -21898,6 +21890,9 @@ true
 }
 #
 endif
+/
+/
+ENABLE_WASM_REFTYPES
 static
 bool
 EmitBodyExprs
