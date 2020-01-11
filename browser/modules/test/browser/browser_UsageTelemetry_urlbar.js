@@ -3654,7 +3654,7 @@ Return
 ;
 UrlbarTestUtils
 .
-setSelectedIndex
+setSelectedRowIndex
 (
 window
 1

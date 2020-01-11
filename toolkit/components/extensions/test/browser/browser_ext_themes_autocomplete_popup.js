@@ -721,7 +721,7 @@ popup
 properties
 UrlbarTestUtils
 .
-setSelectedIndex
+setSelectedRowIndex
 (
 window
 1
@@ -863,7 +863,7 @@ colors
 .
 UrlbarTestUtils
 .
-setSelectedIndex
+setSelectedRowIndex
 (
 window
 2

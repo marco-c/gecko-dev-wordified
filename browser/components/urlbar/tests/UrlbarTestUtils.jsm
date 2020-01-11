@@ -1497,7 +1497,7 @@ index
 .
 *
 /
-getSelectedIndex
+getSelectedRowIndex
 (
 win
 )
@@ -1549,7 +1549,7 @@ select
 .
 *
 /
-setSelectedIndex
+setSelectedRowIndex
 (
 win
 index
