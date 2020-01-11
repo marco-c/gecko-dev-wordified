@@ -925,7 +925,12 @@ callee
 (
 )
 .
-existingScriptNonDelazifying
+maybeCanonicalFunction
+(
+)
+-
+>
+nonLazyScript
 (
 )
 =
