@@ -5693,7 +5693,10 @@ PseudoStyleType
 :
 :
 NotPseudo
-StyleRestyleHint_RESTYLE_SMIL
+RestyleHint
+:
+:
+RESTYLE_SMIL
 )
 ;
 foundElementsNeedingRestyle

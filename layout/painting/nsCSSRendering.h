@@ -3929,7 +3929,10 @@ decoration
 mozilla
 :
 :
-StyleTextDecorationLine_UNDERLINE
+StyleTextDecorationLine
+:
+:
+UNDERLINE
 ;
 /
 /

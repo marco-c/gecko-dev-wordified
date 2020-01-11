@@ -4953,7 +4953,10 @@ style
 .
 other_
 &
-StyleTextTransformOther_FULL_WIDTH
+StyleTextTransformOther
+:
+:
+FULL_WIDTH
 )
 )
 {
@@ -4977,7 +4980,10 @@ style
 .
 other_
 &
-StyleTextTransformOther_FULL_SIZE_KANA
+StyleTextTransformOther
+:
+:
+FULL_SIZE_KANA
 )
 {
 /

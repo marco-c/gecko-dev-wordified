@@ -11415,7 +11415,10 @@ textReset
 mTextDecorationLine
 !
 =
-StyleTextDecorationLine_NONE
+StyleTextDecorationLine
+:
+:
+NONE
 )
 {
 valueList

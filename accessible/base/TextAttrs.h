@@ -1985,7 +1985,10 @@ mColor
 }
 mLine
 {
-StyleTextDecorationLine_NONE
+StyleTextDecorationLine
+:
+:
+NONE
 }
 mStyle
 {
@@ -2052,7 +2055,10 @@ mLine
 mozilla
 :
 :
-StyleTextDecorationLine_UNDERLINE
+StyleTextDecorationLine
+:
+:
+UNDERLINE
 )
 ;
 }
@@ -2070,7 +2076,10 @@ mLine
 mozilla
 :
 :
-StyleTextDecorationLine_LINE_THROUGH
+StyleTextDecorationLine
+:
+:
+LINE_THROUGH
 )
 ;
 }

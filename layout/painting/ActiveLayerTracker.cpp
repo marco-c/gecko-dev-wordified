@@ -3076,7 +3076,10 @@ mWillChange
 .
 bits
 &
-StyleWillChangeBits_TRANSFORM
+StyleWillChangeBits
+:
+:
+TRANSFORM
 )
 )
 &
@@ -3129,7 +3132,10 @@ mWillChange
 .
 bits
 &
-StyleWillChangeBits_OPACITY
+StyleWillChangeBits
+:
+:
+OPACITY
 )
 &
 &

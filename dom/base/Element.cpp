@@ -12304,7 +12304,10 @@ presShell
 RestyleForAnimation
 (
 this
-StyleRestyleHint_RESTYLE_SMIL
+RestyleHint
+:
+:
+RESTYLE_SMIL
 )
 ;
 }

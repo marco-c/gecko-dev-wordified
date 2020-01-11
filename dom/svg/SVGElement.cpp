@@ -1036,7 +1036,10 @@ presShell
 RestyleForAnimation
 (
 this
-StyleRestyleHint_RESTYLE_SELF
+RestyleHint
+:
+:
+RESTYLE_SELF
 )
 ;
 }

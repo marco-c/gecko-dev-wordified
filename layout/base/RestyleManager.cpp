@@ -24793,7 +24793,10 @@ style
 restyleHint
 |
 =
-StyleRestyleHint_RESTYLE_STYLE_ATTRIBUTE
+RestyleHint
+:
+:
+RESTYLE_STYLE_ATTRIBUTE
 ;
 }
 else
@@ -24851,7 +24854,10 @@ match
 restyleHint
 |
 =
-StyleRestyleHint_RESTYLE_SELF
+RestyleHint
+:
+:
+RESTYLE_SELF
 ;
 }
 else
@@ -24898,7 +24904,10 @@ changes
 restyleHint
 |
 =
-StyleRestyleHint_RESTYLE_SELF
+RestyleHint
+:
+:
+RESTYLE_SELF
 ;
 }
 if

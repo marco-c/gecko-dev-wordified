@@ -5621,9 +5621,15 @@ textReset
 mTextDecorationLine
 &
 (
-StyleTextDecorationLine_UNDERLINE
+StyleTextDecorationLine
+:
+:
+UNDERLINE
 |
-StyleTextDecorationLine_LINE_THROUGH
+StyleTextDecorationLine
+:
+:
+LINE_THROUGH
 )
 ;
 }
