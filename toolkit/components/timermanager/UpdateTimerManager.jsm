@@ -2089,7 +2089,6 @@ TM_registerTimer
 id
 callback
 interval
-skipFirst
 )
 {
 LOG
@@ -2107,11 +2106,6 @@ interval
 :
 {
 interval
-}
-skipFirst
-:
-{
-skipFirst
 }
 )
 ;
@@ -2317,16 +2311,6 @@ lastUpdateTime
 0
 )
 {
-if
-(
-skipFirst
-)
-{
-lastUpdateTime
-=
-now
-;
-}
 Services
 .
 prefs
