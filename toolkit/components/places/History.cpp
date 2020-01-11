@@ -13824,7 +13824,7 @@ IsEmpty
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 keyAlreadyExists
@@ -13978,7 +13978,7 @@ keep
 it
 around
 .
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 key
 =
@@ -14210,7 +14210,7 @@ two
 different
 URIs
 .
-NS_ASSERTION
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 observers
