@@ -167,6 +167,9 @@ dom
 class
 SHistoryParent
 ;
+class
+SHEntryParent
+;
 /
 *
 *

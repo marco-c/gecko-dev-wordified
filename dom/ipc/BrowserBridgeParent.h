@@ -576,6 +576,9 @@ bool
 aIsUnderHiddenEmbedderElement
 )
 ;
+#
+ifdef
+ACCESSIBILITY
 mozilla
 :
 :
@@ -592,6 +595,8 @@ uint64_t
 aID
 )
 ;
+#
+endif
 void
 ActorDestroy
 (
@@ -614,11 +619,8 @@ BrowserParent
 mBrowserParent
 ;
 #
-if
-defined
-(
+ifdef
 ACCESSIBILITY
-)
 RefPtr
 <
 a11y
@@ -637,10 +639,7 @@ mEmbedderAccessibleID
 endif
 /
 /
-defined
-(
 ACCESSIBILITY
-)
 }
 ;
 }

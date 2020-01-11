@@ -13930,6 +13930,9 @@ IPC_OK
 )
 ;
 }
+#
+ifdef
+ACCESSIBILITY
 a11y
 :
 :
@@ -13983,9 +13986,6 @@ PDocAccessibleChild
 aChild
 )
 {
-#
-ifdef
-ACCESSIBILITY
 delete
 static_cast
 <
@@ -14002,12 +14002,12 @@ DocAccessibleChild
 aChild
 )
 ;
-#
-endif
 return
 true
 ;
 }
+#
+endif
 PColorPickerChild
 *
 BrowserChild
