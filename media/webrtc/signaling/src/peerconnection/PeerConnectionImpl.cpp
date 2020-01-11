@@ -13988,7 +13988,7 @@ kMediaTypes
 mJsepSession
 -
 >
-CountTracks
+CountTracksAndDatachannels
 (
 receiving
 sending

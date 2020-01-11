@@ -1207,7 +1207,7 @@ const
 0
 ;
 void
-CountTracks
+CountTracksAndDatachannels
 (
 uint16_t
 (
@@ -1268,7 +1268,6 @@ GetTransceivers
 {
 if
 (
-!
 transceiver
 -
 >
@@ -1310,7 +1309,6 @@ GetMediaType
 }
 if
 (
-!
 transceiver
 -
 >
