@@ -415,7 +415,7 @@ const
 size_t
 kMaxLineLen
 =
-512
+1024
 ;
 /
 /
