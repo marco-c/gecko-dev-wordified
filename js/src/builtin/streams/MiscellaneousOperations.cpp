@@ -948,6 +948,7 @@ algorithm
 /
 /
 See
+PerformCloseAlgorithm
 ReadableStreamControllerCancelSteps
 and
 /
