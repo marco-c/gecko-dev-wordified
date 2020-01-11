@@ -139,6 +139,17 @@ mozilla
 /
 webrender
 /
+RenderWaylandDMABUFTextureHostOGL
+.
+h
+"
+#
+include
+"
+mozilla
+/
+webrender
+/
 RenderThread
 .
 h
@@ -576,9 +587,6 @@ ExternalImageId
 aExternalImageId
 )
 {
-/
-*
-TODO
 RefPtr
 <
 wr
@@ -594,9 +602,7 @@ wr
 :
 RenderWaylandDMABUFTextureHostOGL
 (
-mImage
-mSync
-mSize
+mSurface
 )
 ;
 wr
@@ -626,8 +632,6 @@ forget
 )
 )
 ;
-*
-/
 }
 void
 WaylandDMABUFTextureHostOGL
