@@ -365,6 +365,15 @@ include
 "
 mozilla
 /
+MotionPathUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -533,9 +542,6 @@ FrameLayerBuilder
 ;
 class
 PresShell
-;
-struct
-MotionPathData
 ;
 namespace
 layers

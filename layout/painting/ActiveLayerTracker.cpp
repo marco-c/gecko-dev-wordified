@@ -164,6 +164,15 @@ include
 "
 mozilla
 /
+MotionPathUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PodOperations
 .
 h
@@ -1627,7 +1636,7 @@ display
 -
 >
 mScale
-nsLayoutUtils
+MotionPathUtils
 :
 :
 ResolveMotionPath
