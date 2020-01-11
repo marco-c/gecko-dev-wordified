@@ -1971,9 +1971,11 @@ created
 async
 _onTargetAvailable
 (
+{
 type
 targetFront
 isTopLevel
+}
 )
 {
 /
@@ -2157,9 +2159,11 @@ description
 /
 _onTargetDestroyed
 (
+{
 type
 targetFront
 isTopLevel
+}
 )
 {
 if

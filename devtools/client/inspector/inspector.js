@@ -1806,9 +1806,11 @@ _deferredOpen
 async
 _onTargetAvailable
 (
+{
 type
 targetFront
 isTopLevel
+}
 )
 {
 /
@@ -2046,9 +2048,11 @@ onNewRoot
 }
 _onTargetDestroyed
 (
+{
 type
 targetFront
 isTopLevel
+}
 )
 {
 /

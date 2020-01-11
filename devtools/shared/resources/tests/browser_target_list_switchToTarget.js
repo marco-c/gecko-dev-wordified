@@ -346,9 +346,11 @@ const
 onFrameAvailable
 =
 (
+{
 type
-newTarget
+targetFront
 isTopLevel
+}
 )
 =
 >
@@ -374,7 +376,7 @@ targets
 ;
 ok
 (
-newTarget
+targetFront
 =
 =
 target
@@ -395,7 +397,7 @@ frameTargets
 .
 push
 (
-newTarget
+targetFront
 )
 ;
 }
