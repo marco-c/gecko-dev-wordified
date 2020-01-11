@@ -230,17 +230,6 @@ init
 (
 )
 {
-if
-(
-!
-this
-.
-inspector
-)
-{
-return
-;
-}
 try
 {
 /
