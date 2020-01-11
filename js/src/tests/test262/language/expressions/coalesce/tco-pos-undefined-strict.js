@@ -11,9 +11,6 @@ tail
 call
 -
 optimization
-coalesce
--
-expression
 is
 not
 supported
