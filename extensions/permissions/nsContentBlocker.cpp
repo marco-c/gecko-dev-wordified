@@ -1937,7 +1937,7 @@ if
 mPermissionManager
 -
 >
-GetHasPreloadPermissions
+HasPreloadPermissions
 (
 )
 )
