@@ -7137,10 +7137,6 @@ state
 void
 UpdateAudioChannelPlayingState
 (
-bool
-aForcePlaying
-=
-false
 )
 ;
 /
