@@ -4151,10 +4151,6 @@ mPreFormattedMail
 =
 true
 ;
-mWrapColumn
-=
-0
-;
 }
 }
 else
