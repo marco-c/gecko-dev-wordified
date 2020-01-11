@@ -1786,7 +1786,7 @@ bool
 NS_LITERAL_CSTRING
 (
 "
-wasm
+wasm_trustedprincipals
 "
 )
 )
