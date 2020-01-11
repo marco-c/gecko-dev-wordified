@@ -268,6 +268,12 @@ nsHtml5Highlighter
 *
 mViewSource
 ;
+mozilla
+:
+:
+ImportScanner
+mImportScanner
+;
 nsTArray
 <
 nsHtml5TreeOperation
