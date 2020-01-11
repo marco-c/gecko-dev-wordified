@@ -5178,9 +5178,6 @@ aState
 nsLineBox
 *
 aLine
-nsIFrame
-*
-aChildFrame
 )
 ;
 void
