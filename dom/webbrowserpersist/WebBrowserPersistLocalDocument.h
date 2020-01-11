@@ -232,14 +232,6 @@ nsIDocumentEncoder
 aEncoder
 )
 ;
-already_AddRefed
-<
-nsISHEntry
->
-GetHistory
-(
-)
-;
 virtual
 ~
 WebBrowserPersistLocalDocument

@@ -515,6 +515,16 @@ MaybeNewPSHEntry
 aResult
 )
 ;
+LegacySHEntry
+*
+GetSHEntry
+(
+)
+{
+return
+mEntry
+;
+}
 protected
 :
 void

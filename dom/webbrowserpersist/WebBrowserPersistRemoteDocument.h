@@ -272,6 +272,12 @@ mAttrs
 ;
 nsCOMPtr
 <
+nsISHEntry
+>
+mSHEntry
+;
+nsCOMPtr
+<
 nsIInputStream
 >
 mPostData
