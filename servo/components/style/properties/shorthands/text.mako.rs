@@ -525,6 +525,13 @@ LonghandsToSerialize
 a
 >
 {
+#
+[
+allow
+(
+unused
+)
+]
 fn
 to_css
 <
