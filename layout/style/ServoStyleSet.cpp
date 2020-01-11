@@ -404,10 +404,6 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
@@ -1984,9 +1980,6 @@ updating
 the
 cache
 .
-mozilla
-:
-:
 Unused
 <
 <
@@ -5581,9 +5574,6 @@ Element
 *
 aElement
 const
-mozilla
-:
-:
 ComputedStyle
 *
 aStyle
@@ -5813,9 +5803,6 @@ RawServoDeclarationBlock
 *
 aDeclarations
 const
-mozilla
-:
-:
 ComputedStyle
 *
 aStyle

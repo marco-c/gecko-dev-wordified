@@ -352,12 +352,7 @@ mBytes
 SetCapacity
 (
 length
-mozilla
-:
-:
-fallible_t
-(
-)
+fallible
 )
 )
 {
@@ -1156,12 +1151,7 @@ Append
 (
 aSegment
 aCount
-mozilla
-:
-:
-fallible_t
-(
-)
+fallible
 )
 )
 {

@@ -581,9 +581,6 @@ CSSMediaRule
 :
 SizeOfIncludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )

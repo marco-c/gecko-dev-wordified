@@ -871,9 +871,6 @@ a
 StyleOrigin
 value
 .
-mozilla
-:
-:
 StyleOrigin
 GetOrigin
 (
@@ -952,9 +949,6 @@ return
 mParsingMode
 ;
 }
-mozilla
-:
-:
 dom
 :
 :
@@ -3358,9 +3352,6 @@ ChildSheetListBuilder
 .
 friend
 struct
-mozilla
-:
-:
 StyleSheetInfo
 ;
 }

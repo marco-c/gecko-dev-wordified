@@ -537,9 +537,6 @@ aValue
 {
 static_assert
 (
-mozilla
-:
-:
 EnumTypeFitsWithin
 <
 T
@@ -613,9 +610,6 @@ aValue
 {
 static_assert
 (
-mozilla
-:
-:
 EnumTypeFitsWithin
 <
 T

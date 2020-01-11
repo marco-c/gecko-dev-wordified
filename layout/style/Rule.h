@@ -665,11 +665,7 @@ virtual
 size_t
 SizeOfIncludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
-aMallocSizeOf
 )
 const
 MOZ_MUST_OVERRIDE

@@ -4143,9 +4143,6 @@ rv
 rv
 )
 ;
-mozilla
-:
-:
 net
 :
 :

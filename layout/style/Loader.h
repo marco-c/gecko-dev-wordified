@@ -584,14 +584,12 @@ class
 Loader
 final
 {
-typedef
-mozilla
-:
-:
+using
+ReferrerPolicy
+=
 dom
 :
 :
-ReferrerPolicy
 ReferrerPolicy
 ;
 public
@@ -699,9 +697,6 @@ constructed
 explicit
 Loader
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -712,9 +707,6 @@ DocGroup
 explicit
 Loader
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -2064,9 +2056,6 @@ null
 .
 *
 /
-mozilla
-:
-:
 dom
 :
 :
@@ -2368,9 +2357,6 @@ size
 size_t
 SizeOfIncludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -3212,9 +3198,6 @@ DropDocumentReference
 (
 )
 .
-mozilla
-:
-:
 dom
 :
 :
@@ -3249,9 +3232,6 @@ nullptr
 .
 RefPtr
 <
-mozilla
-:
-:
 dom
 :
 :
