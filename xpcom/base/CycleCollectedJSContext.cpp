@@ -2284,10 +2284,6 @@ StaticPrefs
 dom_promise_rejection_events_enabled
 (
 )
-&
-&
-!
-aMutedErrors
 )
 {
 for
@@ -2415,6 +2411,10 @@ if
 (
 !
 promise
+&
+&
+!
+aMutedErrors
 )
 {
 nsIGlobalObject
