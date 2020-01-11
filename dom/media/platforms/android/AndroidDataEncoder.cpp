@@ -2781,7 +2781,7 @@ self
 mJavaEncoder
 -
 >
-SetRates
+SetBitrate
 (
 aBitsPerSec
 )

@@ -986,11 +986,11 @@ start
 Override
 public
 void
-setRates
+setBitrate
 (
 final
 int
-newBitRate
+bps
 )
 {
 final
@@ -1009,9 +1009,7 @@ putInt
 MediaCodec
 .
 PARAMETER_KEY_VIDEO_BITRATE
-newBitRate
-*
-1000
+bps
 )
 ;
 mCodec
