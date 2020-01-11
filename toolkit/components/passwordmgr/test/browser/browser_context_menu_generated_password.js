@@ -1231,6 +1231,16 @@ login
 await
 storageChangedPromised
 ;
+let
+formFilled
+=
+listenForTestNotification
+(
+"
+FormProcessed
+"
+)
+;
 await
 BrowserTestUtils
 .
@@ -1259,6 +1269,9 @@ browser
 .
 ownerGlobal
 )
+;
+await
+formFilled
 ;
 await
 ContentTask

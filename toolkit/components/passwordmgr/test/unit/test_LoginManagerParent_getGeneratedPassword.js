@@ -120,6 +120,13 @@ LoginManagerParent
 (
 )
 ;
+LMP
+.
+useBrowsingContext
+(
+99
+)
+;
 ok
 (
 LMP
@@ -157,7 +164,6 @@ LMP
 .
 getGeneratedPassword
 (
-99
 )
 null
 "
@@ -303,7 +309,6 @@ LMP
 .
 getGeneratedPassword
 (
-99
 )
 ;
 notEqual
@@ -397,7 +402,6 @@ LMP
 .
 getGeneratedPassword
 (
-99
 )
 ;
 equal
@@ -509,7 +513,6 @@ LMP
 .
 getGeneratedPassword
 (
-99
 )
 ;
 notEqual
@@ -581,7 +584,6 @@ LMP
 .
 getGeneratedPassword
 (
-99
 )
 null
 "
@@ -628,7 +630,6 @@ LMP
 .
 getGeneratedPassword
 (
-99
 )
 null
 "
@@ -676,7 +677,6 @@ LMP
 .
 getGeneratedPassword
 (
-99
 )
 null
 "
@@ -702,13 +702,19 @@ enabled
 true
 )
 ;
+LMP
+.
+useBrowsingContext
+(
+123
+)
+;
 equal
 (
 LMP
 .
 getGeneratedPassword
 (
-123
 )
 null
 "

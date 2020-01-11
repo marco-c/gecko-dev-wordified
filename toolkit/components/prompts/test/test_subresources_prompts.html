@@ -1006,6 +1006,7 @@ promptDone
 await
 iframe3Loaded
 ;
+await
 checkEchoedAuthInfo
 (
 {
@@ -1021,8 +1022,6 @@ mochipass1
 "
 }
 iframe_prompt
-.
-contentDocument
 )
 ;
 /
@@ -1240,6 +1239,7 @@ promptDone
 await
 iframe3Loaded
 ;
+await
 checkEchoedAuthInfo
 (
 {
@@ -1254,16 +1254,7 @@ pass
 mochipass2
 "
 }
-SpecialPowers
-.
-wrap
-(
 iframe_prompt
-.
-contentWindow
-)
-.
-document
 )
 ;
 }

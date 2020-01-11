@@ -739,6 +739,13 @@ startTestConditions
 contextId
 )
 {
+LMP
+.
+useBrowsingContext
+(
+contextId
+)
+;
 ok
 (
 LMP
@@ -758,7 +765,6 @@ LMP
 .
 getGeneratedPassword
 (
-contextId
 )
 null
 "
@@ -3133,6 +3139,7 @@ test_onGeneratedPasswordFilledOrEdited_withSavedEmptyUsername
 {
 startTestConditions
 (
+99
 )
 ;
 let
@@ -4270,6 +4277,7 @@ test_onGeneratedPasswordFilledOrEdited_withEmptyUsernameDifferentFormActionOrigi
 {
 startTestConditions
 (
+99
 )
 ;
 let
@@ -4552,6 +4560,7 @@ test_onGeneratedPasswordFilledOrEdited_withSavedUsername
 {
 startTestConditions
 (
+99
 )
 ;
 let

@@ -81,6 +81,11 @@ sendAsyncMessage
 "
 :
 true
+"
+Assert
+"
+:
+true
 }
 "
 rules
