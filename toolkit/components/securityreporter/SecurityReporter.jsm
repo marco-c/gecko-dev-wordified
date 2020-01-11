@@ -393,7 +393,9 @@ return
 /
 Convert
 the
-nsIX509CertList
+array
+of
+nsIX509Cert
 into
 a
 format

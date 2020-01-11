@@ -235,9 +235,6 @@ class
 nsIPrompt
 ;
 class
-nsIX509CertList
-;
-class
 SmartCardThreadList
 ;
 namespace
