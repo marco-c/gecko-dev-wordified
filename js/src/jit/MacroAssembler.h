@@ -13243,6 +13243,7 @@ DEFINED_ON
 (
 arm
 arm64
+mips_shared
 x86
 x64
 )
