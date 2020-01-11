@@ -464,6 +464,7 @@ _get
 graph_config
 alias
 level
+release_level
 )
 :
     
@@ -778,6 +779,13 @@ level
 "
 :
 level
+'
+release
+-
+level
+'
+:
+release_level
 }
 )
 .
@@ -849,6 +857,9 @@ worker_type
 '
 1
 '
+'
+staging
+'
 )
     
 return
@@ -873,6 +884,7 @@ get_worker_type
 graph_config
 worker_type
 level
+release_level
 )
 :
     
@@ -910,6 +922,7 @@ _get
 graph_config
 worker_type
 level
+release_level
 )
     
 return
