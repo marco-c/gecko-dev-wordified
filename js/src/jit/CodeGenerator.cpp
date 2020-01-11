@@ -19397,9 +19397,6 @@ Linker
 linker
 (
 masm
-"
-RegExpMatcherStub
-"
 )
 ;
 JitCode
@@ -20688,9 +20685,6 @@ Linker
 linker
 (
 masm
-"
-RegExpSearcherStub
-"
 )
 ;
 JitCode
@@ -21540,9 +21534,6 @@ Linker
 linker
 (
 masm
-"
-RegExpTesterStub
-"
 )
 ;
 JitCode
@@ -64382,9 +64373,6 @@ Linker
 linker
 (
 masm
-"
-StringConcatStub
-"
 )
 ;
 JitCode
@@ -78545,9 +78533,6 @@ Linker
 linker
 (
 masm
-"
-IonLink
-"
 )
 ;
 JitCode

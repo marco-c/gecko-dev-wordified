@@ -701,9 +701,6 @@ JitActivation
 struct
 PcScriptCache
 ;
-struct
-AutoFlushICache
-;
 class
 CompileRuntime
 ;

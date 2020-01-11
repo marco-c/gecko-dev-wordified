@@ -1021,9 +1021,6 @@ l
 (
 *
 masm
-"
-test
-"
 )
 ;
 return

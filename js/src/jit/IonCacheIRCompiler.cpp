@@ -3864,9 +3864,6 @@ Linker
 linker
 (
 masm
-"
-getStubCode
-"
 )
 ;
 Rooted

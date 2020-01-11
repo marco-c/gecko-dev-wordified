@@ -8022,9 +8022,6 @@ Linker
 linker
 (
 masm
-"
-getStubCode
-"
 )
 ;
 Rooted
@@ -26473,9 +26470,6 @@ Linker
 linker
 (
 masm
-"
-BaselineICFallback
-"
 )
 ;
 JitCode

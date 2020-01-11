@@ -1431,8 +1431,6 @@ executableCopy
 uint8_t
 *
 buffer
-bool
-flushICache
 )
 {
 AssemblerX86Shared
