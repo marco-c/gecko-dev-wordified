@@ -778,6 +778,11 @@ html
 #
 StrokeLinecapProperty
 "
+gecko_enum_prefix
+=
+"
+StyleStrokeLinecap
+"
 )
 }
 {

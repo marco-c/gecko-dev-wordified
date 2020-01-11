@@ -1362,7 +1362,7 @@ BuildPath
 PathBuilder
 *
 aBuilder
-uint8_t
+StyleStrokeLinecap
 aStrokeLineCap
 Float
 aStrokeWidth
@@ -1432,7 +1432,7 @@ aPath
 PathBuilder
 *
 aBuilder
-uint8_t
+StyleStrokeLinecap
 aStrokeLineCap
 Float
 aStrokeWidth

@@ -2130,7 +2130,7 @@ BuildPath
 PathBuilder
 *
 aBuilder
-uint8_t
+StyleStrokeLinecap
 aStrokeLineCap
 Float
 aStrokeWidth
@@ -2181,7 +2181,10 @@ hasLineCaps
 aStrokeLineCap
 !
 =
-NS_STYLE_STROKE_LINECAP_BUTT
+StyleStrokeLinecap
+:
+:
+Butt
 ;
 bool
 subpathHasLength
@@ -3962,7 +3965,10 @@ return
 BuildPath
 (
 builder
-NS_STYLE_STROKE_LINECAP_BUTT
+StyleStrokeLinecap
+:
+:
+Butt
 0
 )
 ;
@@ -4036,7 +4042,7 @@ aPath
 PathBuilder
 *
 aBuilder
-uint8_t
+StyleStrokeLinecap
 aStrokeLineCap
 Float
 aStrokeWidth
@@ -4186,7 +4192,10 @@ hasLineCaps
 aStrokeLineCap
 !
 =
-NS_STYLE_STROKE_LINECAP_BUTT
+StyleStrokeLinecap
+:
+:
+Butt
 ;
 bool
 subpathHasLength

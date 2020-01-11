@@ -1999,10 +1999,13 @@ for
 more
 info
 .
-uint8_t
+auto
 strokeLineCap
 =
-NS_STYLE_STROKE_LINECAP_BUTT
+StyleStrokeLinecap
+:
+:
+Butt
 ;
 Float
 strokeWidth
@@ -2097,7 +2100,10 @@ style
 mStrokeLinecap
 !
 =
-NS_STYLE_STROKE_LINECAP_BUTT
+StyleStrokeLinecap
+:
+:
+Butt
 )
 {
 strokeLineCap

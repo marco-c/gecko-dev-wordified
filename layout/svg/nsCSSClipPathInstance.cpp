@@ -1727,7 +1727,10 @@ Path
 (
 )
 builder
-NS_STYLE_STROKE_LINECAP_BUTT
+StyleStrokeLinecap
+:
+:
+Butt
 0
 .
 0

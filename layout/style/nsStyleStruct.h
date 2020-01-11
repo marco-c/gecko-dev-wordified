@@ -14348,13 +14348,12 @@ mozilla
 StyleShapeRendering
 mShapeRendering
 ;
-uint8_t
+mozilla
+:
+:
+StyleStrokeLinecap
 mStrokeLinecap
 ;
-/
-/
-NS_STYLE_STROKE_LINECAP_
-*
 uint8_t
 mStrokeLinejoin
 ;

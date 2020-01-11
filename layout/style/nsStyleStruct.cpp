@@ -5033,7 +5033,10 @@ Auto
 )
 mStrokeLinecap
 (
-NS_STYLE_STROKE_LINECAP_BUTT
+StyleStrokeLinecap
+:
+:
+Butt
 )
 mStrokeLinejoin
 (
