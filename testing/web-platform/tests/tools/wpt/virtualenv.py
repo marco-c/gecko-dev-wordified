@@ -670,9 +670,22 @@ py
 "
 )
         
-execfile
+with
+open
 (
 path
+)
+as
+f
+:
+            
+exec
+(
+f
+.
+read
+(
+)
 {
 "
 __file__
@@ -681,10 +694,6 @@ __file__
 path
 }
 )
-#
-noqa
-:
-F821
     
 def
 start
