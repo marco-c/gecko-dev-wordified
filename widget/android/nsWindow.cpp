@@ -8360,6 +8360,7 @@ dialog
 0
 resizable
 scrollbars
+geckoview
 "
 )
 ;
