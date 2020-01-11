@@ -655,10 +655,14 @@ panel
 "
 )
 ;
-ok
+is
 (
-!
 gContent
+.
+children
+.
+length
+0
 "
 The
 grid
