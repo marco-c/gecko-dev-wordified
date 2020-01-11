@@ -697,6 +697,11 @@ StoreTypedElement
 \
 _
 (
+StoreTypedObjectScalarProperty
+)
+\
+_
+(
 CallPrintString
 )
 \
@@ -5168,6 +5173,15 @@ StubFieldOffset
 val
 Register
 dest
+)
+;
+Address
+emitAddressFromStubField
+(
+StubFieldOffset
+val
+Register
+base
 )
 ;
 uintptr_t
