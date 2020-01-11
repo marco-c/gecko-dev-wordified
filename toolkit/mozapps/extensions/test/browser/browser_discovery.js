@@ -2868,7 +2868,7 @@ RELATIVE_DIR
 "
 addon_prefs
 .
-xul
+xhtml
 "
 ;
 Services

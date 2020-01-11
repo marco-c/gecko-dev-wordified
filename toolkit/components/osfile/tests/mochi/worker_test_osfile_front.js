@@ -4373,7 +4373,7 @@ mochi
 "
 test_osfile_front
 .
-xul
+xhtml
 "
 )
 ;
