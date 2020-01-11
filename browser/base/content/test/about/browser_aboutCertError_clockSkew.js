@@ -145,12 +145,13 @@ await
 certErrorLoaded
 ;
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 async
 function
 (

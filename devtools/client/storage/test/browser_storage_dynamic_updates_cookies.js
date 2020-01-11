@@ -1474,7 +1474,7 @@ path
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -1482,9 +1482,11 @@ gBrowser
 .
 selectedBrowser
 [
+[
 name
 value
 path
+]
 ]
 (
 [
@@ -1520,7 +1522,7 @@ path
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -1528,8 +1530,10 @@ gBrowser
 .
 selectedBrowser
 [
+[
 name
 path
+]
 ]
 (
 [

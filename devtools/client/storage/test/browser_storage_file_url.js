@@ -351,12 +351,13 @@ const
 actualPath
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 (
 )
 =

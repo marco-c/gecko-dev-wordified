@@ -1347,7 +1347,7 @@ errorCategory
 corsUrl
 )
 {
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -1355,8 +1355,10 @@ gBrowser
 .
 selectedBrowser
 [
+[
 errorCategory
 corsUrl
+]
 ]
 (
 [

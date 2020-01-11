@@ -151,14 +151,15 @@ png
 "
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
 extraTab
 .
 linkedBrowser
-null
+[
+]
 function
 (
 )

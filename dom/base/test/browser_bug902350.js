@@ -206,12 +206,13 @@ false
 insecureUrl
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
 testBrowser
-null
+[
+]
 function
 (
 )

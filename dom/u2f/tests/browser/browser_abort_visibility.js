@@ -100,14 +100,15 @@ let
 actual
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
-null
+[
+]
 async
 function
 (
@@ -162,7 +163,7 @@ shadow
 *
 /
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -170,7 +171,9 @@ tab
 .
 linkedBrowser
 [
+[
 expected
+]
 ]
 async
 function
@@ -267,7 +270,7 @@ shadow
 *
 /
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -275,7 +278,9 @@ tab
 .
 linkedBrowser
 [
+[
 challenge
+]
 ]
 async
 function
@@ -434,7 +439,7 @@ shadow
 *
 /
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -442,8 +447,10 @@ tab
 .
 linkedBrowser
 [
+[
 challenge
 keyHandle
+]
 ]
 async
 function

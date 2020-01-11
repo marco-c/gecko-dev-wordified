@@ -173,12 +173,14 @@ true
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 PHISH_URL
+]
 async
 function
 (

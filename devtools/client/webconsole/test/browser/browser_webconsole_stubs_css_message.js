@@ -519,14 +519,16 @@ resolve
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 code
+]
 function
 (
 subCode

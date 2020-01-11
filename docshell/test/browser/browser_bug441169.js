@@ -307,12 +307,13 @@ getBrowserForTab
 newTab
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
 newBrowser
-null
+[
+]
 task
 )
 .

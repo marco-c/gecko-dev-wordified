@@ -909,14 +909,16 @@ newEngineName
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 newEngineName
 }
+]
 async
 function
 (

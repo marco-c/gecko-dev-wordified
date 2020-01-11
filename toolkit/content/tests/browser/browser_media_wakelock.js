@@ -618,12 +618,14 @@ playing
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 videoAttsParams
+]
 waitUntilVideoStarted
 )
 ;

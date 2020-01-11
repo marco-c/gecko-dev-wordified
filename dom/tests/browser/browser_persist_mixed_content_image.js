@@ -325,12 +325,13 @@ to
 load
 .
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 function
 (
 )

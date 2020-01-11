@@ -428,12 +428,13 @@ let
 badCertTechnicalInfoText
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 checkAdvancedAndGetTechnicalInfoText
 )
 ;

@@ -301,12 +301,13 @@ AudioContext
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 resumeAudioContext
 )
 ;

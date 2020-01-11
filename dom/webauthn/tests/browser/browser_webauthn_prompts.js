@@ -398,7 +398,7 @@ shadow
 *
 /
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -406,7 +406,9 @@ tab
 .
 linkedBrowser
 [
+[
 attestation
+]
 ]
 (
 [
@@ -558,7 +560,7 @@ tab
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -566,6 +568,8 @@ tab
 .
 linkedBrowser
 [
+[
+]
 ]
 (
 )

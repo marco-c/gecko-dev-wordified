@@ -84,12 +84,13 @@ privateBrowser
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 privateBrowser
-null
+[
+]
 async
 function
 (

@@ -143,12 +143,13 @@ first
 textarea
 .
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 function
 (
 )

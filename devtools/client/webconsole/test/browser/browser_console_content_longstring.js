@@ -208,14 +208,16 @@ slice
 )
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 LONGSTRING
+]
 str
 =
 >
