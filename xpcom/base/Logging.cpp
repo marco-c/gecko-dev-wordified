@@ -791,10 +791,7 @@ kPIDToken
 [
 ]
 =
-"
-%
-PID
-"
+MOZ_LOG_PID_TOKEN
 ;
 static
 const
