@@ -385,12 +385,6 @@ browser_cycles
 10
     
 '
-cold
-'
-:
-True
-    
-'
 lower_is_better
 '
 :

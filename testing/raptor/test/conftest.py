@@ -508,6 +508,14 @@ None
 run_local
 =
 True
+                     
+browsertime
+=
+True
+                     
+cold
+=
+False
 )
     
 def
