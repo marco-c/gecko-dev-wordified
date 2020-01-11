@@ -598,7 +598,12 @@ MozPromise
 <
 uint64_t
 nsresult
-false
+true
+/
+*
+exclusive
+*
+/
 >
 ContentProcessIdPromise
 ;
