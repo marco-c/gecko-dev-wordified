@@ -886,6 +886,7 @@ frame
 >
 numValueSlots
 (
+frameSize
 )
 ;
 if

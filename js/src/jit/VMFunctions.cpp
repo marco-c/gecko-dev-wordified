@@ -6221,19 +6221,6 @@ pc
 JSOP_AWAIT
 )
 ;
-MOZ_ASSERT
-(
-frameSize
-=
-=
-frame
--
->
-frameSize
-(
-)
-)
-;
 uint32_t
 numValueSlots
 =
@@ -6242,6 +6229,7 @@ frame
 >
 numValueSlots
 (
+frameSize
 )
 ;
 MOZ_ASSERT
