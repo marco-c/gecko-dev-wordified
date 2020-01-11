@@ -3937,6 +3937,16 @@ AssignedNodes
 IsEmpty
 (
 )
+&
+&
+assignment
+.
+mSlot
+-
+>
+HasChildren
+(
+)
 )
 {
 InvalidateStyleAndLayoutOnSubtree
