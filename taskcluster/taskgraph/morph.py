@@ -1098,8 +1098,8 @@ task
                             
 taskgraph
 label_to_taskid
-graph_config
 parameters
+graph_config
 )
     
 #
@@ -1444,8 +1444,8 @@ make_index_task
 task
 taskgraph
 label_to_taskid
-graph_config
 parameters
+graph_config
 )
 )
     
