@@ -372,10 +372,10 @@ DAMAGE
 /
 #
 ifndef
-nr_socket_proxy_h__
+nr_socket_tcp_h__
 #
 define
-nr_socket_proxy_h__
+nr_socket_tcp_h__
 #
 include
 <
@@ -452,13 +452,13 @@ WebrtcTCPSocketWrapper
 namespace
 net
 class
-NrSocketProxyData
+NrTcpSocketData
 ;
 class
 NrSocketProxyConfig
 ;
 class
-NrSocketProxy
+NrTcpSocket
 :
 public
 NrSocketBase
@@ -469,11 +469,11 @@ public
 :
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
-NrSocketProxy
+NrTcpSocket
 override
 )
 explicit
-NrSocketProxy
+NrTcpSocket
 (
 const
 std
@@ -672,7 +672,7 @@ protected
 :
 virtual
 ~
-NrSocketProxy
+NrTcpSocket
 (
 )
 ;
@@ -694,7 +694,7 @@ std
 :
 list
 <
-NrSocketProxyData
+NrTcpSocketData
 >
 mReadQueue
 ;
@@ -724,4 +724,4 @@ mozilla
 endif
 /
 /
-nr_socket_proxy_h__
+nr_socket_tcp_h__
