@@ -7297,7 +7297,7 @@ activeElement
 =
 document
 .
-documentElement
+body
 )
 {
 return
