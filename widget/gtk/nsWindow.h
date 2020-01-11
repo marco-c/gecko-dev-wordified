@@ -2736,6 +2736,10 @@ GdkWindow
 *
 mGdkWindow
 ;
+GtkWindow
+*
+mToplevelParentWindow
+;
 bool
 mWindowShouldStartDragging
 =
@@ -3379,11 +3383,6 @@ bool
 aShowOnTaskbar
 )
 ;
-bool
-IsMainMenuWindow
-(
-)
-;
 GtkWidget
 *
 ConfigureWaylandPopupWindows
@@ -3402,11 +3401,6 @@ HideWaylandTooltips
 ;
 void
 HideWaylandPopupAndAllChildren
-(
-)
-;
-void
-CleanupWaylandPopups
 (
 )
 ;
