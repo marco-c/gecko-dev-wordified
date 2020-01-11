@@ -10501,6 +10501,23 @@ added
 to
 frontend
 .
+(
+At
+least
+        
+#
+unicode
+:
+:
+IsSpace
+will
+require
+updating
+to
+handle
+this
+.
+)
         
 assert
 len
