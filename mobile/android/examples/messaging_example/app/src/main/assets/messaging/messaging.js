@@ -119,8 +119,6 @@ manifest
 json
 }
 ;
-window
-.
 browser
 .
 runtime

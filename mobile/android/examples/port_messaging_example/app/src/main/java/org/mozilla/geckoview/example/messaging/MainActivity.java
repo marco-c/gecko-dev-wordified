@@ -210,14 +210,7 @@ PortDelegate
 (
 )
 {
-public
-WebExtension
-.
-Port
-port
-=
-null
-;
+Override
 public
 void
 onPortMessage
@@ -253,6 +246,7 @@ message
 )
 ;
 }
+Override
 public
 void
 onDisconnect
@@ -302,6 +296,7 @@ MessageDelegate
 (
 )
 {
+Override
 Nullable
 public
 void

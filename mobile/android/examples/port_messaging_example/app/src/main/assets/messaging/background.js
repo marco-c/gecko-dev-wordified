@@ -65,8 +65,6 @@ app
 let
 port
 =
-window
-.
 browser
 .
 runtime
