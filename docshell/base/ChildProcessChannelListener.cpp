@@ -185,6 +185,10 @@ args
 -
 >
 mLoadStateLoadFlags
+args
+-
+>
+mTiming
 )
 ;
 }
@@ -229,6 +233,9 @@ DocumentChannelRedirect
 aRedirects
 uint32_t
 aLoadStateLoadFlags
+nsDOMNavigationTiming
+*
+aTiming
 )
 {
 if
@@ -258,6 +265,7 @@ move
 aRedirects
 )
 aLoadStateLoadFlags
+aTiming
 )
 ;
 }
@@ -278,6 +286,7 @@ move
 aRedirects
 )
 aLoadStateLoadFlags
+aTiming
 }
 )
 ;
