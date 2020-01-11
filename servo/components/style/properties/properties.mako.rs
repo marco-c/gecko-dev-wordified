@@ -13100,6 +13100,18 @@ id
 =
 >
 {
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
+{
 /
 /
 We
@@ -13144,6 +13156,7 @@ into
 )
 )
 ;
+}
 }
 }
 PropertyId
