@@ -892,7 +892,7 @@ template
 typename
 CharT
 >
-JSFlatString
+JSLinearString
 *
 finishStringInternal
 (
@@ -2278,7 +2278,7 @@ buffer
 .
 *
 /
-JSFlatString
+JSLinearString
 *
 finishString
 (

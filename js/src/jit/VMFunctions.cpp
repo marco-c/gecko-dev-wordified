@@ -9313,7 +9313,7 @@ if
 str
 -
 >
-isFlat
+isLinear
 (
 )
 )
@@ -9342,18 +9342,6 @@ AllocKind
 :
 :
 FAT_INLINE_STRING
-|
-|
-kind
-=
-=
-gc
-:
-:
-AllocKind
-:
-:
-EXTERNAL_STRING
 )
 ;
 }

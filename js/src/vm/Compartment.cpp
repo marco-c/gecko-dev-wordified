@@ -910,7 +910,7 @@ asRope
 (
 )
 .
-copyLatin1CharsZ
+copyLatin1Chars
 (
 cx
 js
@@ -957,7 +957,7 @@ asRope
 (
 )
 .
-copyTwoByteCharsZ
+copyTwoByteChars
 (
 cx
 js

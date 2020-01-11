@@ -5675,7 +5675,7 @@ minEncode
 ;
 /
 /
-MakeFlatStringForAtomization
+MakeLinearStringForAtomization
 has
 4
 variants
@@ -5697,9 +5697,9 @@ CharT
 >
 static
 MOZ_ALWAYS_INLINE
-JSFlatString
+JSLinearString
 *
-MakeFlatStringForAtomization
+MakeLinearStringForAtomization
 (
 JSContext
 *
@@ -5726,7 +5726,7 @@ length
 }
 /
 /
-MakeFlatStringForAtomization
+MakeLinearStringForAtomization
 has
 one
 further
@@ -5745,9 +5745,9 @@ LittleEndianChars
 .
 static
 MOZ_ALWAYS_INLINE
-JSFlatString
+JSLinearString
 *
-MakeFlatStringForAtomization
+MakeLinearStringForAtomization
 (
 JSContext
 *
@@ -5776,7 +5776,7 @@ WrapperT
 >
 static
 MOZ_ALWAYS_INLINE
-JSFlatString
+JSLinearString
 *
 MakeUTF8AtomHelper
 (
@@ -5951,7 +5951,7 @@ encoding
 )
 ;
 return
-JSFlatString
+JSLinearString
 :
 :
 new_
@@ -5977,7 +5977,7 @@ Another
 2
 variants
 of
-MakeFlatStringForAtomization
+MakeLinearStringForAtomization
 .
 /
 /
@@ -6002,9 +6002,9 @@ static
 *
 /
 MOZ_ALWAYS_INLINE
-JSFlatString
+JSLinearString
 *
-MakeFlatStringForAtomization
+MakeLinearStringForAtomization
 (
 JSContext
 *
@@ -6123,11 +6123,11 @@ ac
 cx
 )
 ;
-JSFlatString
+JSLinearString
 *
-flat
+linear
 =
-MakeFlatStringForAtomization
+MakeLinearStringForAtomization
 (
 cx
 chars
@@ -6137,7 +6137,7 @@ length
 if
 (
 !
-flat
+linear
 )
 {
 /
@@ -6181,7 +6181,7 @@ JSAtom
 *
 atom
 =
-flat
+linear
 -
 >
 morphAtomizedStringIntoAtom

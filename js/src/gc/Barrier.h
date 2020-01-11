@@ -2794,9 +2794,6 @@ caution
 .
 *
 /
-class
-JSFlatString
-;
 namespace
 js
 {
@@ -8096,15 +8093,6 @@ GCPtrBigInt
 GCPtr
 <
 BigInt
-*
->
-;
-using
-GCPtrFlatString
-=
-GCPtr
-<
-JSFlatString
 *
 >
 ;

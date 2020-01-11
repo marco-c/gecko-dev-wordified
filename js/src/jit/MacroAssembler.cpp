@@ -9730,12 +9730,10 @@ spectreStringMitigations
 If
 the
 string
-does
+is
 not
-have
 a
-base
--
+dependent
 string
 zero
 the
@@ -9793,7 +9791,7 @@ Imm32
 JSString
 :
 :
-HAS_BASE_BIT
+DEPENDENT_BIT
 )
 dest
 str

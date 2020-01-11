@@ -199,7 +199,7 @@ x
 const
 extensible
 =
-ensureFlatString
+ensureLinearString
 (
 "
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -209,7 +209,7 @@ x
 )
 ;
 return
-ensureFlatString
+ensureLinearString
 (
 newRope
 (
