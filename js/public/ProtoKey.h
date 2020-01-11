@@ -1180,6 +1180,16 @@ WasmGlobal
 dummy
 dummy
 )
+\
+REAL_IF_INTL
+(
+Collator
+InitViaClassSpec
+OCLASP
+(
+Collator
+)
+)
 #
 define
 JS_FOR_PROTOTYPES
