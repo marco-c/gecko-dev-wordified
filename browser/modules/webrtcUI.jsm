@@ -6899,6 +6899,11 @@ getUserMedia
 remember
 "
 )
+checked
+:
+principal
+.
+isAddonOrExpandedAddonPrincipal
 checkedState
 :
 reasonForNoPermanentAllow
