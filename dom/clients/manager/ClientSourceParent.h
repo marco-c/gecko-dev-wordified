@@ -416,7 +416,7 @@ const
 ;
 RefPtr
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 ExecutionReadyPromise
 (
