@@ -3973,6 +3973,9 @@ process
 only
 collects
 scalars
+and
+keyed
+scalars
 .
 if
 (
@@ -3990,6 +3993,15 @@ key
 =
 "
 scalars
+"
+&
+&
+key
+!
+=
+=
+"
+keyedScalars
 "
 )
 {
