@@ -1678,6 +1678,8 @@ ImmPtr
 callee
 bool
 isAsmJS
+bool
+bigIntEnabled
 CodeRangeVector
 *
 codeRanges

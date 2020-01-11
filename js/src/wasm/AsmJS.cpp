@@ -8103,6 +8103,12 @@ memory
 *
 /
 false
+/
+*
+bigint
+*
+/
+false
 )
 env_
 (

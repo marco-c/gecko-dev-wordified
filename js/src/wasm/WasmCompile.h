@@ -358,6 +358,9 @@ gcEnabled
 bool
 hugeMemory
 ;
+bool
+bigIntEnabled
+;
 /
 /
 CompileArgs
@@ -500,6 +503,10 @@ gcEnabled
 false
 )
 hugeMemory
+(
+false
+)
+bigIntEnabled
 (
 false
 )
