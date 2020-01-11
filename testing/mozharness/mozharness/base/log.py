@@ -244,10 +244,6 @@ from
 __future__
 import
 print_function
-from
-datetime
-import
-datetime
 import
 logging
 import
@@ -258,6 +254,14 @@ import
 time
 import
 traceback
+from
+datetime
+import
+datetime
+from
+six
+import
+string_types
 #
 Define
 our
@@ -2619,7 +2623,7 @@ if
 isinstance
 (
 output
-basestring
+string_types
 )
 :
             
@@ -4912,6 +4916,7 @@ path
 .
 join
 (
+            
 self
 .
 abs_log_dir
@@ -5295,12 +5300,15 @@ log_level
 for
 level
 in
+list
+(
 self
 .
 LEVELS
 .
 keys
 (
+)
 )
 :
             

@@ -217,11 +217,11 @@ base
 .
 log
 import
-DEBUG
-WARNING
-ERROR
 CRITICAL
+DEBUG
+ERROR
 FATAL
+WARNING
 #
 Exceptions
 class
@@ -1058,6 +1058,7 @@ re
 .
 compile
 (
+        
 r
 '
 '
@@ -1677,6 +1678,7 @@ re
 .
 compile
 (
+        
 r
 '
 '
