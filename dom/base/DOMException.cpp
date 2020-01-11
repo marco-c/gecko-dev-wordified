@@ -1840,6 +1840,9 @@ nsACString
 aName
 uint16_t
 aCode
+nsIStackFrame
+*
+aLocation
 )
 :
 Exception
@@ -1847,7 +1850,7 @@ Exception
 aMessage
 aRv
 aName
-nullptr
+aLocation
 nullptr
 )
 mCode
