@@ -490,6 +490,12 @@ __func__
 )
 ;
 }
+if
+(
+!
+mSourcePromise
+)
+{
 mSourcePromise
 =
 new
@@ -501,6 +507,7 @@ Private
 __func__
 )
 ;
+}
 return
 mSourcePromise
 ;
