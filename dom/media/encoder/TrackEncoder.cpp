@@ -278,6 +278,7 @@ value
 .
 static
 const
+unsigned
 int
 DEFAULT_KEYFRAME_INTERVAL_MS
 =
@@ -4891,7 +4892,7 @@ VideoTrackEncoder
 :
 SetKeyFrameInterval
 (
-int32_t
+uint32_t
 aKeyFrameInterval
 )
 {

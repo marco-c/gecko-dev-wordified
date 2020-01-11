@@ -5952,7 +5952,7 @@ MediaEncoder
 :
 SetVideoKeyFrameInterval
 (
-int32_t
+uint32_t
 aVideoKeyFrameInterval
 )
 {
@@ -5980,7 +5980,7 @@ Dispatch
 (
 NewRunnableMethod
 <
-int32_t
+uint32_t
 >
 (
 "

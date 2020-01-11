@@ -2392,7 +2392,7 @@ milliseconds
 void
 SetKeyFrameInterval
 (
-int32_t
+uint32_t
 aKeyFrameInterval
 )
 ;
@@ -2908,7 +2908,7 @@ milliseconds
 .
 *
 /
-int32_t
+uint32_t
 mKeyFrameInterval
 ;
 /
