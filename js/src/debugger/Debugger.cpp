@@ -26858,14 +26858,8 @@ MOZ_ASSERT
 frameobj
 -
 >
-getPrivate
+isLiveMaybeForwarded
 (
-frameobj
--
->
-numFixedSlotsMaybeForwarded
-(
-)
 )
 )
 ;
