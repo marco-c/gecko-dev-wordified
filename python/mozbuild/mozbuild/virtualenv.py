@@ -1606,6 +1606,16 @@ os
 environ
 )
         
+env
+.
+pop
+(
+'
+PYTHONDONTWRITEBYTECODE
+'
+None
+)
+        
 args
 =
 [
@@ -3111,6 +3121,10 @@ CXXFLAGS
 '
 '
 LDFLAGS
+'
+                                
+'
+PYTHONDONTWRITEBYTECODE
 '
 )
         
