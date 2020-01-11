@@ -152,6 +152,9 @@ NativeLayerRoot
 class
 NativeLayer
 ;
+class
+SurfacePoolHandle
+;
 }
 /
 /
@@ -494,6 +497,15 @@ layers
 NativeLayer
 >
 mNativeLayerForEntireWindow
+;
+RefPtr
+<
+layers
+:
+:
+SurfacePoolHandle
+>
+mSurfacePoolHandle
 ;
 struct
 TileKeyHashFn

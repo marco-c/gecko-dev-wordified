@@ -233,6 +233,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+SurfacePool
+.
+h
+"
+#
+include
+"
 VsyncSource
 .
 h

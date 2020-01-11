@@ -3095,6 +3095,12 @@ NativeLayerRoot
 >
 mNativeLayerRoot
 ;
+RefPtr
+<
+SurfacePoolHandle
+>
+mSurfacePoolHandle
+;
 std
 :
 :
