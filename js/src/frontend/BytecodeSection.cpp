@@ -308,6 +308,13 @@ vector
 .
 append
 (
+mozilla
+:
+:
+AsVariant
+(
+StackGCCellPtr
+(
 JS
 :
 :
@@ -318,6 +325,8 @@ objbox
 >
 object
 (
+)
+)
 )
 )
 )
@@ -446,6 +455,13 @@ i
 ]
 .
 get
+(
+)
+.
+as
+<
+StackGCCellPtr
+>
 (
 )
 .
