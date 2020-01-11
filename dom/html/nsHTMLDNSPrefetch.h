@@ -424,11 +424,6 @@ mozilla
 OriginAttributes
 &
 aOriginAttributes
-nsIRequest
-:
-:
-TRRMode
-aTRRMode
 )
 ;
 static
@@ -448,11 +443,6 @@ mozilla
 OriginAttributes
 &
 aOriginAttributes
-nsIRequest
-:
-:
-TRRMode
-aTRRMode
 )
 ;
 static
@@ -472,11 +462,6 @@ mozilla
 OriginAttributes
 &
 aOriginAttributes
-nsIRequest
-:
-:
-TRRMode
-aTRRMode
 )
 ;
 static
@@ -496,11 +481,6 @@ mozilla
 OriginAttributes
 &
 aOriginAttributes
-nsIRequest
-:
-:
-TRRMode
-aTRRMode
 nsresult
 aReason
 )
@@ -556,7 +536,7 @@ mozilla
 OriginAttributes
 &
 aOriginAttributes
-uint32_t
+uint16_t
 flags
 )
 ;
@@ -573,7 +553,7 @@ dom
 Link
 *
 aElement
-uint32_t
+uint16_t
 flags
 )
 ;
@@ -594,7 +574,7 @@ mozilla
 OriginAttributes
 &
 aOriginAttributes
-uint32_t
+uint16_t
 flags
 nsresult
 aReason
@@ -613,7 +593,7 @@ dom
 Link
 *
 aElement
-uint32_t
+uint16_t
 flags
 nsresult
 aReason
@@ -689,7 +669,7 @@ Activate
 nsresult
 Add
 (
-uint32_t
+uint16_t
 flags
 mozilla
 :
@@ -783,7 +763,7 @@ sMaxDeferred
 struct
 deferred_entry
 {
-uint32_t
+uint16_t
 mFlags
 ;
 /

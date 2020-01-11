@@ -959,7 +959,7 @@ OriginAttributes
 &
 aOriginAttributes
 const
-uint32_t
+uint16_t
 &
 flags
 )
@@ -986,7 +986,7 @@ OriginAttributes
 &
 aOriginAttributes
 const
-uint32_t
+uint16_t
 &
 flags
 const
