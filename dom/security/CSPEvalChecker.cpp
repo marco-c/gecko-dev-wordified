@@ -331,6 +331,11 @@ IsEvalAllowed
 (
 cx
 aSubjectPrincipal
+-
+>
+IsSystemPrincipal
+(
+)
 aExpression
 )
 )
