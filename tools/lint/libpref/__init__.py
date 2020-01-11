@@ -108,6 +108,12 @@ from
 mozlint
 import
 result
+from
+mozlint
+.
+pathutils
+import
+expand_exclusions
 #
 This
 simple
@@ -513,7 +519,7 @@ this
 def
 check_against
 (
-js_file_to_check
+path
 pref_names
 )
 :
@@ -521,7 +527,7 @@ pref_names
 with
 open
 (
-js_file_to_check
+path
 )
 as
 source
@@ -572,8 +578,10 @@ strip
 (
 )
 pref_names
+                                                  
 found_dupes
 lineno
+path
 )
 )
         
@@ -586,6 +594,7 @@ pref
 pref_names
 found_dupes
 lineno
+path
 )
 :
     
@@ -659,6 +668,12 @@ append
 {
                 
 '
+path
+'
+:
+path
+                
+'
 message
 '
 :
@@ -716,6 +731,11 @@ results
 [
 ]
     
+errors
+=
+[
+]
+    
 topdir
 =
 os
@@ -760,24 +780,38 @@ yaml
 )
 )
     
-errors
+files
 =
+list
+(
+expand_exclusions
+(
+paths
+config
+kwargs
+[
+'
+root
+'
+]
+)
+)
+    
+for
+file
+in
+files
+:
+        
+errors
+.
+extend
+(
 check_against
 (
-os
-.
-path
-.
-join
-(
-topdir
-"
-all
-.
-js
-"
-)
+file
 pref_names
+)
 )
     
 for
