@@ -261,7 +261,7 @@ datetime
 from
 six
 import
-string_types
+binary_type
 #
 Define
 our
@@ -2620,10 +2620,11 @@ parse
 "
         
 if
+not
 isinstance
 (
 output
-string_types
+list
 )
 :
             
@@ -2652,6 +2653,14 @@ isspace
                 
 continue
             
+if
+isinstance
+(
+line
+binary_type
+)
+:
+                
 line
 =
 line
@@ -2667,6 +2676,10 @@ utf
 replace
 '
 )
+            
+line
+=
+line
 .
 rstrip
 (
