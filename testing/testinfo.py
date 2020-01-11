@@ -7036,6 +7036,25 @@ None
 )
             
 "
+web
+-
+platform
+-
+tests
+-
+crashtests
+"
+:
+(
+self
+.
+path_mod_wpt
+[
+None
+]
+)
+            
+"
 xpcshell
 "
 :
