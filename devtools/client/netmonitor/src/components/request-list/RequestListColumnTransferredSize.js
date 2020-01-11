@@ -136,6 +136,9 @@ require
 .
 .
 /
+.
+.
+/
 utils
 /
 format
@@ -152,6 +155,9 @@ L10N
 require
 (
 "
+.
+.
+/
 .
 .
 /
@@ -172,6 +178,9 @@ require
 .
 .
 /
+.
+.
+/
 utils
 /
 request
@@ -188,6 +197,9 @@ BLOCKED_REASON_MESSAGES
 require
 (
 "
+.
+.
+/
 .
 .
 /

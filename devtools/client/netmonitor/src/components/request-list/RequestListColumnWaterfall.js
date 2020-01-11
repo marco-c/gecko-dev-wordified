@@ -136,6 +136,9 @@ require
 .
 .
 /
+.
+.
+/
 utils
 /
 l10n
@@ -151,6 +154,9 @@ propertiesEqual
 require
 (
 "
+.
+.
+/
 .
 .
 /
@@ -185,6 +191,9 @@ TIMING_KEYS
 require
 (
 "
+.
+.
+/
 .
 .
 /

@@ -159,6 +159,9 @@ require
 .
 .
 /
+.
+.
+/
 actions
 /
 index
@@ -173,6 +176,9 @@ ACTIVITY_TYPE
 require
 (
 "
+.
+.
+/
 .
 .
 /
@@ -191,6 +197,9 @@ require
 .
 .
 /
+.
+.
+/
 utils
 /
 l10n
@@ -205,6 +214,9 @@ getPerformanceAnalysisURL
 require
 (
 "
+.
+.
+/
 .
 .
 /
