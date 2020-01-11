@@ -273,7 +273,7 @@ requires
 at
 least
 gcc
-5
+8
 or
 clang
 .
@@ -327,7 +327,7 @@ __GNUC__
 __GNUC__
 >
 =
-5
+8
 )
 )
 &
