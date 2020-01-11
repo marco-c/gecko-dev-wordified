@@ -84,6 +84,9 @@ pageshift
 memmapalign
 "
 "
+cpucount
+"
+"
 memsize
 "
 ]
