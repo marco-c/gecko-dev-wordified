@@ -477,11 +477,6 @@ BytecodeEmitter
 bce
 )
 ;
-template
-<
-typename
-BindingIter
->
 MOZ_MUST_USE
 bool
 checkSlotLimits
