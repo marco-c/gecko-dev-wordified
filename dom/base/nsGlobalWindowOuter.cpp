@@ -27364,6 +27364,7 @@ mBrowsingContext
 FindWithName
 (
 aName
+aLookForCallerOnJSStack
 )
 ;
 }
