@@ -26,9 +26,9 @@ add_command
 compile
 .
 cli
-'
+"
 compile
-'
+"
 )
 cli
 .
@@ -37,9 +37,9 @@ add_command
 sync
 .
 cli
-'
+"
 sync
-'
+"
 )
 #
 Enable
@@ -55,15 +55,15 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
 #
 pragma
 :
 no
-cover
+branch
     
 cli
 (

@@ -23,9 +23,9 @@ piptools
 .
 cache
 import
-read_cache_file
 CorruptCacheError
 DependencyCache
+read_cache_file
 contextmanager
 def
 _read_cache_file_helper
@@ -201,7 +201,23 @@ cache_file_name
 with
 raises
 (
+            
 CorruptCacheError
+            
+match
+=
+"
+The
+dependency
+cache
+seems
+to
+have
+been
+corrupted
+.
+"
+        
 )
 :
             
@@ -291,6 +307,7 @@ file
 with
 _read_cache_file_helper
 (
+        
 '
 {
 "
@@ -307,6 +324,7 @@ success
 "
 }
 '
+    
 )
 as
 cache_file_name
@@ -372,6 +390,8 @@ the
 values
 are
 lists
+    
+#
 of
 packages
 on
@@ -555,6 +575,8 @@ the
 bonus
 "
 package
+    
+#
 is
 not
 depended
@@ -567,8 +589,9 @@ cache
 .
 reverse_dependencies
 (
-[
         
+[
+            
 from_line
 (
 "
@@ -580,7 +603,7 @@ top
 2
 "
 )
-        
+            
 from_line
 (
 "
@@ -592,7 +615,7 @@ middle
 4
 "
 )
-        
+            
 from_line
 (
 "
@@ -606,7 +629,7 @@ bottom
 5
 "
 )
-        
+            
 from_line
 (
 "
@@ -618,8 +641,9 @@ bonus
 4
 "
 )
-    
+        
 ]
+    
 )
     
 assert
@@ -627,30 +651,27 @@ reversed_no_extra
 =
 =
 {
-        
-'
+"
 middle
-'
+"
 :
 {
-'
+"
 top
-'
+"
 }
-        
-'
+"
 bottom
-'
+"
 :
 {
-'
+"
 middle
-'
-'
+"
+"
 top
-'
+"
 }
-    
 }
     
 #
@@ -672,6 +693,8 @@ extra
 so
 it
 depends
+    
+#
 on
 the
 "
@@ -686,8 +709,9 @@ cache
 .
 reverse_dependencies
 (
-[
         
+[
+            
 from_line
 (
 "
@@ -702,7 +726,7 @@ xtra
 2
 "
 )
-        
+            
 from_line
 (
 "
@@ -714,7 +738,7 @@ middle
 4
 "
 )
-        
+            
 from_line
 (
 "
@@ -728,7 +752,7 @@ bottom
 5
 "
 )
-        
+            
 from_line
 (
 "
@@ -740,8 +764,9 @@ bonus
 4
 "
 )
-    
+        
 ]
+    
 )
     
 assert
@@ -750,37 +775,37 @@ reversed_extra
 =
 {
         
-'
+"
 middle
-'
+"
 :
 {
-'
+"
 top
-'
+"
 }
         
-'
+"
 bottom
-'
+"
 :
 {
-'
+"
 middle
-'
-'
+"
+"
 top
-'
+"
 }
         
-'
+"
 bonus
-'
+"
 :
 {
-'
+"
 top
-'
+"
 }
     
 }
