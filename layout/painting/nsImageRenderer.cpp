@@ -4295,12 +4295,6 @@ Size
 )
 )
 ;
-destRect
-.
-Round
-(
-)
-;
 gfx
 :
 :
@@ -4451,7 +4445,7 @@ wr
 :
 :
 LayoutRect
-roundedDest
+dest
 =
 wr
 :
@@ -4470,7 +4464,7 @@ clip
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 LayoutDeviceRect
 :
@@ -4512,7 +4506,7 @@ aBuilder
 .
 PushImage
 (
-roundedDest
+dest
 clip
 !
 aItem
@@ -4600,7 +4594,7 @@ fill
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 fillRect
 )
@@ -4622,7 +4616,7 @@ origin
 .
 x
 =
-roundedDest
+dest
 .
 origin
 .
@@ -4634,7 +4628,7 @@ size
 .
 width
 =
-roundedDest
+dest
 .
 size
 .
@@ -4644,7 +4638,7 @@ stretchSize
 .
 width
 =
-roundedDest
+dest
 .
 size
 .
@@ -4664,7 +4658,7 @@ origin
 .
 y
 =
-roundedDest
+dest
 .
 origin
 .
@@ -4676,7 +4670,7 @@ size
 .
 height
 =
-roundedDest
+dest
 .
 size
 .
@@ -4686,7 +4680,7 @@ stretchSize
 .
 height
 =
-roundedDest
+dest
 .
 size
 .

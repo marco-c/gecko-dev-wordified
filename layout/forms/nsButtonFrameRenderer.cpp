@@ -862,7 +862,7 @@ deviceBoxRect
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 deviceBox
 )
@@ -890,7 +890,7 @@ deviceClipRect
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 clipRect
 )

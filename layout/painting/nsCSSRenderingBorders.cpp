@@ -28919,7 +28919,7 @@ roundedRect
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 outerRect
 )
@@ -29048,7 +29048,7 @@ clipRect
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 localClip
 .
@@ -30825,7 +30825,7 @@ clip
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 clipRect
 )
