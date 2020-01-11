@@ -13627,12 +13627,17 @@ if
 (
 !
 mDispatchInputEvent
+|
+|
+IsEditActionAborted
+(
+)
 )
 {
 return
 ;
 }
-FireInputEvent
+DispatchInputEvent
 (
 )
 ;
@@ -13729,7 +13734,7 @@ void
 EditorBase
 :
 :
-FireInputEvent
+DispatchInputEvent
 (
 )
 {
@@ -13743,7 +13748,7 @@ GetInputEventDataTransfer
 (
 )
 ;
-FireInputEvent
+DispatchInputEvent
 (
 GetEditAction
 (
@@ -13759,7 +13764,7 @@ void
 EditorBase
 :
 :
-FireInputEvent
+DispatchInputEvent
 (
 EditAction
 aEditAction
@@ -31291,7 +31296,7 @@ dispatch
 input
 event
 ?
-FireInputEvent
+DispatchInputEvent
 (
 )
 ;
@@ -31503,7 +31508,7 @@ dispatch
 input
 event
 ?
-FireInputEvent
+DispatchInputEvent
 (
 )
 ;
@@ -33955,6 +33960,10 @@ EditSubAction
 :
 :
 eNone
+)
+mAborted
+(
+false
 )
 {
 /
