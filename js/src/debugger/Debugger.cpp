@@ -33127,7 +33127,7 @@ fop
 frameobj
 -
 >
-maybeDecrementFrameScriptStepperCount
+maybeDecrementStepperCounter
 (
 fop
 frame
@@ -44277,7 +44277,7 @@ fop
 frameobj
 -
 >
-maybeDecrementFrameScriptStepperCount
+maybeDecrementStepperCounter
 (
 fop
 to
@@ -44567,7 +44567,7 @@ else
 frameobj
 -
 >
-maybeDecrementFrameScriptStepperCount
+maybeDecrementStepperCounter
 (
 fop
 frame
