@@ -1581,6 +1581,9 @@ lower_is_better
 '
 ]
 =
+bool_from_str
+(
+        
 test_details
 .
 get
@@ -1588,7 +1591,10 @@ get
 "
 lower_is_better
 "
-True
+"
+true
+"
+)
 )
     
 #
@@ -1649,6 +1655,7 @@ get
 '
 subtest_lower_is_better
 '
+None
 )
     
 if
@@ -1715,7 +1722,11 @@ subtest_lower_is_better
 '
 ]
 =
+bool_from_str
+(
+            
 subtest_lower_is_better
+)
     
 if
 test_details
@@ -3996,39 +4007,6 @@ next_test
 hero
 '
 ]
-        
-if
-next_test
-.
-get
-(
-'
-lower_is_better
-'
-)
-is
-not
-None
-:
-            
-next_test
-[
-'
-lower_is_better
-'
-]
-=
-bool_from_str
-(
-next_test
-.
-get
-(
-'
-lower_is_better
-'
-)
-)
     
 #
 write
