@@ -1321,6 +1321,12 @@ PSHEntryParent
 )
 nullptr
 ;
+*
+aIndex
+=
+-
+1
+;
 }
 else
 {
@@ -1337,6 +1343,11 @@ entry
 aEntry
 )
 ;
+*
+aIndex
+=
+i
+;
 }
 return
 true
@@ -1351,6 +1362,12 @@ PSHEntryParent
 *
 )
 nullptr
+;
+*
+aIndex
+=
+-
+1
 ;
 return
 true
