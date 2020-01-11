@@ -111,6 +111,7 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
 (
 )
@@ -260,6 +261,7 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
 (
 )
@@ -358,6 +360,7 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
 (
 )
@@ -405,6 +408,7 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
 (
 )
@@ -597,6 +601,7 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
 (
 )
@@ -667,6 +672,7 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
 (
 )
@@ -735,6 +741,7 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
 (
 )
@@ -828,6 +835,7 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
 (
 )
@@ -918,6 +926,7 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
 (
 )
@@ -991,6 +1000,7 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
 (
 )
@@ -1123,6 +1133,7 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
 (
 )

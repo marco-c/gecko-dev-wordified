@@ -289,16 +289,14 @@ fieldName
 )
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
 [
-[
 fieldName
 text
-]
 ]
 async
 function

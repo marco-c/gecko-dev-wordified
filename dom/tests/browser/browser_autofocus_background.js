@@ -193,7 +193,7 @@ let
 tagName
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -205,8 +205,7 @@ i
 ]
 .
 linkedBrowser
-[
-]
+null
 async
 function
 (

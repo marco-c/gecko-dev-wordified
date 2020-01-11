@@ -624,13 +624,12 @@ then
 )
 =
 >
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+null
 function
 (
 )

@@ -686,7 +686,7 @@ r
 "
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -695,9 +695,7 @@ newWin
 gBrowser
 .
 selectedBrowser
-[
 XHR_URL
-]
 function
 (
 url
@@ -1004,7 +1002,7 @@ iframes
 )
 .
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -1013,8 +1011,7 @@ newWin
 gBrowser
 .
 selectedBrowser
-[
-]
+null
 async
 function
 (

@@ -135,13 +135,12 @@ sourceTab
 linkedBrowser
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 sourceBrowser
-[
-]
+null
 async
 function
 (

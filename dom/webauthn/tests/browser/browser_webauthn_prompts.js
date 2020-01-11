@@ -405,8 +405,14 @@ spawn
 tab
 .
 linkedBrowser
+[
 attestation
+]
+(
+[
 attestation
+]
+)
 =
 >
 {
@@ -559,7 +565,8 @@ spawn
 tab
 .
 linkedBrowser
-null
+[
+]
 (
 )
 =

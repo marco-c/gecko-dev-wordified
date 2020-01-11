@@ -423,14 +423,12 @@ let
 timeout
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 newBrowser
-[
 kDelay
-]
 function
 (
 delay

@@ -1268,16 +1268,14 @@ promises
 .
 push
 (
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
 [
-[
 isFrame
 linkId
-]
 ]
 (
 [

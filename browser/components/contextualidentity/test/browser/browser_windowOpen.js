@@ -222,14 +222,12 @@ BASE_URI
 }
 )
 ;
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 BASE_URI
-]
 function
 (
 url

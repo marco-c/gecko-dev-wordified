@@ -268,14 +268,12 @@ browser
 )
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 URI
-]
 async
 function
 (
@@ -297,9 +295,7 @@ ContentTaskUtils
 .
 waitForEvent
 (
-docShell
-.
-chromeEventHandler
+this
 "
 load
 "
@@ -313,9 +309,7 @@ ContentTaskUtils
 .
 waitForEvent
 (
-docShell
-.
-chromeEventHandler
+this
 "
 InstallTriggered
 "

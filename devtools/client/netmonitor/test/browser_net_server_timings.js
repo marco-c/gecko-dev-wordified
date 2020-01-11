@@ -117,16 +117,14 @@ monitor
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab
 .
 linkedBrowser
-[
 SERVER_TIMINGS_TYPE_SJS
-]
 async
 function
 (

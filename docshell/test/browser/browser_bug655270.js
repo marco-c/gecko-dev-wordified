@@ -263,15 +263,14 @@ next
 onPageChanged
 notification
 .
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab
 .
 linkedBrowser
-[
-]
+null
 function
 (
 )

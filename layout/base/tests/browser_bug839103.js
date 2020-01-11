@@ -68,14 +68,12 @@ browser
 )
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 gTestRoot
-]
 testBody
 )
 ;
@@ -274,9 +272,7 @@ ContentTaskUtils
 .
 waitForEvent
 (
-docShell
-.
-chromeEventHandler
+this
 "
 StyleSheetApplicableStateChanged
 "
@@ -398,9 +394,7 @@ ContentTaskUtils
 .
 waitForEvent
 (
-docShell
-.
-chromeEventHandler
+this
 "
 StyleSheetApplicableStateChanged
 "

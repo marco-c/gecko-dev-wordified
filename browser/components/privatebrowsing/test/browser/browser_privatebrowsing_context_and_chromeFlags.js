@@ -178,7 +178,7 @@ browsing
 )
 ;
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -187,8 +187,7 @@ win
 gBrowser
 .
 selectedBrowser
-[
-]
+null
 async
 function
 (
@@ -319,13 +318,12 @@ com
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+null
 async
 function
 (

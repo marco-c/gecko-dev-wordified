@@ -488,7 +488,7 @@ com
 "
 )
 ;
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -497,8 +497,7 @@ newWin
 gBrowser
 .
 selectedBrowser
-[
-]
+null
 function
 (
 )

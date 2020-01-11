@@ -175,16 +175,14 @@ monitor
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab
 .
 linkedBrowser
-[
 SIMPLE_SJS
-]
 async
 function
 (

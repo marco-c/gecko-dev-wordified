@@ -1299,15 +1299,14 @@ contentHeight
 }
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab
 .
 linkedBrowser
-[
-]
+null
 (
 )
 =

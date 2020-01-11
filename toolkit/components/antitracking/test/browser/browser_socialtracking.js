@@ -207,12 +207,11 @@ iframe
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 {
 page
 :
@@ -247,7 +246,6 @@ obj
 .
 result
 }
-]
 async
 obj
 =
