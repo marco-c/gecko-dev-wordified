@@ -812,7 +812,7 @@ return
 true
 ;
 }
-void
+RenderedFrameId
 RenderCompositorEGL
 :
 :
@@ -827,6 +827,13 @@ DeviceIntRect
 aDirtyRects
 )
 {
+RenderedFrameId
+frameId
+=
+GetNextRenderFrameId
+(
+)
+;
 if
 (
 mEGLSurface
@@ -845,6 +852,9 @@ SwapBuffers
 )
 ;
 }
+return
+frameId
+;
 }
 void
 RenderCompositorEGL

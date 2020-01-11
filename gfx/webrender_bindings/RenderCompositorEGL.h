@@ -194,7 +194,7 @@ BeginFrame
 )
 override
 ;
-void
+RenderedFrameId
 EndFrame
 (
 const
@@ -205,7 +205,7 @@ DeviceIntRect
 &
 aDirtyRects
 )
-override
+final
 ;
 void
 Pause
