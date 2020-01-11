@@ -260,6 +260,10 @@ PullInitialUpdate
 void
 WindowVolumeChanged
 (
+float
+aVolume
+bool
+aMuted
 )
 ;
 void

@@ -607,6 +607,10 @@ RefreshAgentsVolume
 nsPIDOMWindowOuter
 *
 aWindow
+float
+aVolume
+bool
+aMuted
 )
 ;
 void
