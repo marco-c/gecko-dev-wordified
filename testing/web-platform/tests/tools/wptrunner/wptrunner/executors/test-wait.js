@@ -250,6 +250,9 @@ screenshot_if_ready
 if
 (
 root
+&
+&
+root
 .
 classList
 .
