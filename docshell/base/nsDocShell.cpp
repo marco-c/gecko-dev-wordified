@@ -8457,10 +8457,7 @@ RemoteNonTld
 break
 ;
 case
-kCharsetFromInitialAutoDetection
-:
-case
-kCharsetFromFinalAutoDetection
+kCharsetFromAutoDetection
 :
 /
 /
@@ -11228,13 +11225,7 @@ if
 source
 =
 =
-kCharsetFromInitialAutoDetection
-|
-|
-source
-=
-=
-kCharsetFromFinalAutoDetection
+kCharsetFromAutoDetection
 |
 |
 source

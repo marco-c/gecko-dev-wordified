@@ -310,10 +310,6 @@ extern
 crate
 shift_or_euc_c
 ;
-extern
-crate
-chardetng_c
-;
 #
 [
 cfg
