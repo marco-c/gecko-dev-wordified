@@ -401,13 +401,10 @@ MOZ_ASSERT
 (
 index
 <
-(
-int
-)
-ConsoleLogLevel
+ConsoleLogLevelValues
 :
 :
-EndGuard_
+Count
 )
 ;
 return
