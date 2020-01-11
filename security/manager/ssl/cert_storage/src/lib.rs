@@ -122,10 +122,6 @@ storage_variant
 ;
 extern
 crate
-style
-;
-extern
-crate
 tempfile
 ;
 use
