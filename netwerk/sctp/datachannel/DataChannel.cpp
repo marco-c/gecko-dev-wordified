@@ -262,23 +262,6 @@ endif
 #
 include
 "
-DataChannelLog
-.
-h
-"
-#
-define
-DATACHANNEL_LOG
-(
-args
-)
-LOG
-(
-args
-)
-#
-include
-"
 nsServiceManagerUtils
 .
 h
@@ -868,7 +851,7 @@ shutdown
 0
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -1641,7 +1624,7 @@ SendDeferredMessages
 }
 else
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -1767,7 +1750,7 @@ DataChannelConnection
 (
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -1988,7 +1971,7 @@ or
 timed
 out
 .
-LOG
+DC_DEBUG
 (
 (
 "
@@ -2252,7 +2235,7 @@ this
 )
 )
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -2520,7 +2503,7 @@ mTransportHandler
 aHandler
 )
 {
-LOG
+DC_VERBOSE
 (
 (
 "
@@ -2656,7 +2639,7 @@ if
 sctp_initialized
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -2954,7 +2937,7 @@ buf_size
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -2999,7 +2982,7 @@ buf_size
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -3058,7 +3041,7 @@ mMasterSocket
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -3180,7 +3163,7 @@ linger
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -3292,7 +3275,7 @@ option_value
 0
 )
 {
-LOG
+DC_WARN
 (
 (
 "
@@ -3335,7 +3318,7 @@ option_value
 0
 )
 {
-LOG
+DC_WARN
 (
 (
 "
@@ -3391,7 +3374,7 @@ option_value
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -3399,6 +3382,7 @@ LOG
 *
 *
 failed
+to
 enable
 explicit
 EOR
@@ -3469,7 +3453,7 @@ sctp_assoc_value
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -3529,7 +3513,7 @@ sctp_assoc_value
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -3618,7 +3602,7 @@ event
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -3675,7 +3659,7 @@ len
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -3693,7 +3677,7 @@ goto
 error_cleanup
 ;
 }
-LOG
+DC_DEBUG
 (
 (
 "
@@ -3755,7 +3739,7 @@ initmsg
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -3793,7 +3777,7 @@ this
 )
 )
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -4081,7 +4065,7 @@ mMaxMessageSize
 WEBRTC_DATACHANNEL_MAX_MESSAGE_SIZE_REMOTE
 ;
 }
-LOG
+DC_DEBUG
 (
 (
 "
@@ -4170,7 +4154,7 @@ uint16_t
 remoteport
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -4398,7 +4382,7 @@ TransportLayer
 TS_OPEN
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -4419,7 +4403,7 @@ CompleteConnect
 }
 else
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -4502,7 +4486,7 @@ CompleteConnect
 (
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -4594,7 +4578,7 @@ void
 this
 )
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -4633,7 +4617,7 @@ r
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -4666,7 +4650,7 @@ htons
 mRemotePort
 )
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -4776,7 +4760,7 @@ r
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -4874,7 +4858,7 @@ r
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -4891,7 +4875,7 @@ r
 }
 else
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -4937,7 +4921,7 @@ blocking
 return
 ;
 }
-LOG
+DC_ERROR
 (
 (
 "
@@ -5197,7 +5181,7 @@ mFlags
 DATA_CHANNEL_FLAGS_FINISH_OPEN
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -5500,7 +5484,7 @@ mutable
 {
 /
 /
-LOG
+DC_DEBUG
 (
 (
 "
@@ -5969,7 +5953,7 @@ htonl
 INADDR_ANY
 )
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -6019,7 +6003,7 @@ sockaddr_in
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -6047,7 +6031,7 @@ mMasterSocket
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -6064,7 +6048,7 @@ return
 false
 ;
 }
-LOG
+DC_DEBUG
 (
 (
 "
@@ -6096,7 +6080,7 @@ addr_len
 nullptr
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -6160,7 +6144,7 @@ linger
 0
 )
 {
-LOG
+DC_WARN
 (
 (
 "
@@ -6200,7 +6184,7 @@ is
 /
 /
 delivered
-LOG
+DC_DEBUG
 (
 (
 "
@@ -6308,7 +6292,7 @@ the
 connector
 *
 /
-LOG
+DC_DEBUG
 (
 (
 "
@@ -6469,7 +6453,7 @@ sockaddr_in6
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -6529,7 +6513,7 @@ sockaddr_in
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -6549,7 +6533,7 @@ false
 }
 else
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -6652,7 +6636,7 @@ sockaddr_in6
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -6743,7 +6727,7 @@ sockaddr_in
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -6763,7 +6747,7 @@ false
 }
 else
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -6786,7 +6770,7 @@ mSocket
 =
 mMasterSocket
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -6829,7 +6813,7 @@ is
 /
 /
 delivered
-LOG
+DC_DEBUG
 (
 (
 "
@@ -7174,7 +7158,7 @@ len
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -7308,7 +7292,7 @@ errno
 EALREADY
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -7327,7 +7311,7 @@ return
 true
 ;
 }
-LOG
+DC_ERROR
 (
 (
 "
@@ -7351,7 +7335,7 @@ return
 false
 ;
 }
-LOG
+DC_DEBUG
 (
 (
 "
@@ -8140,7 +8124,7 @@ AssertCurrentThreadOwns
 (
 )
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -8675,7 +8659,7 @@ RemoveElementAt
 0
 )
 ;
-LOG
+DC_ERROR
 (
 (
 "
@@ -8804,7 +8788,50 @@ length
 requiredLength
 )
 {
-LOG
+if
+(
+(
+(
+size_t
+)
+length
+)
+<
+requiredLength
+)
+{
+DC_ERROR
+(
+(
+"
+%
+s
+:
+insufficient
+length
+:
+%
+u
+should
+be
+%
+zu
+.
+Unable
+to
+continue
+.
+"
+__FUNCTION__
+length
+requiredLength
+)
+)
+;
+return
+;
+}
+DC_WARN
 (
 (
 "
@@ -8827,21 +8854,8 @@ requiredLength
 )
 )
 ;
-if
-(
-(
-(
-size_t
-)
-length
-)
-<
-requiredLength
-)
-return
-;
 }
-LOG
+DC_DEBUG
 (
 (
 "
@@ -8916,7 +8930,7 @@ break
 ;
 default
 :
-LOG
+DC_ERROR
 (
 (
 "
@@ -8987,12 +9001,10 @@ channel
 mNegotiated
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
-ERROR
-:
 HandleOpenRequestMessage
 :
 channel
@@ -9043,7 +9055,7 @@ handling
 }
 else
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -9097,12 +9109,10 @@ channel
 mOrdered
 )
 {
-LOG
+DC_WARN
 (
 (
 "
-WARNING
-:
 external
 negotiation
 mismatch
@@ -9177,7 +9187,7 @@ stream
 mNegotiatedIdLimit
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -9284,7 +9294,7 @@ Insert
 channel
 )
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -9341,7 +9351,7 @@ channel
 )
 )
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -9384,7 +9394,7 @@ if
 error
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -9535,7 +9545,7 @@ mStream
 stream
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -9690,7 +9700,7 @@ channel
 return
 ;
 }
-LOG
+DC_DEBUG
 (
 (
 "
@@ -9766,7 +9776,7 @@ message
 ?
 *
 /
-LOG
+DC_ERROR
 (
 (
 "
@@ -10054,7 +10064,7 @@ length
 UINT32_MAX
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -10297,7 +10307,7 @@ the
 channel
 opens
 .
-LOG
+DC_DEBUG
 (
 (
 "
@@ -10480,7 +10490,7 @@ mFlags
 DATA_CHANNEL_FLAGS_CLOSING_TOO_LARGE
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -10564,7 +10574,7 @@ bufferFlags
 DATA_CHANNEL_BUFFER_MESSAGE_FLAGS_TOO_LARGE
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -10622,7 +10632,7 @@ DATA_CHANNEL_BUFFER_MESSAGE_FLAGS_COMPLETE
 )
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -10725,7 +10735,7 @@ data_length
 WEBRTC_DATACHANNEL_MAX_MESSAGE_SIZE_LOCAL
 )
 {
-LOG
+DC_WARN
 (
 (
 "
@@ -10764,7 +10774,7 @@ ppid
 case
 DATA_CHANNEL_PPID_DOMSTRING
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -10841,7 +10851,7 @@ break
 case
 DATA_CHANNEL_PPID_BINARY
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -10912,6 +10922,20 @@ PPID
 "
 )
 ;
+DC_ERROR
+(
+(
+"
+Unknown
+data
+PPID
+%
+"
+PRIu32
+ppid
+)
+)
+;
 return
 ;
 }
@@ -10919,7 +10943,7 @@ return
 /
 Notify
 onmessage
-LOG
+DC_DEBUG
 (
 (
 "
@@ -11090,7 +11114,7 @@ length
 UINT32_MAX
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -11164,7 +11188,7 @@ bufferFlags
 DATA_CHANNEL_BUFFER_MESSAGE_FLAGS_TOO_LARGE
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -11210,7 +11234,7 @@ DATA_CHANNEL_BUFFER_MESSAGE_FLAGS_COMPLETE
 )
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -11275,7 +11299,7 @@ rtcweb_datachannel_open_request
 buffer
 )
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -11319,7 +11343,7 @@ ack
 )
 )
 {
-LOG
+DC_WARN
 (
 (
 "
@@ -11538,11 +11562,12 @@ break
 ;
 default
 :
-LOG
+DC_ERROR
 (
 (
 "
-Message
+Unhandled
+message
 of
 length
 %
@@ -11612,7 +11637,7 @@ sac_state
 case
 SCTP_COMM_UP
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -11640,7 +11665,7 @@ mState
 =
 OPEN
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -11660,7 +11685,7 @@ sac_inbound_streams
 )
 )
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -11726,7 +11751,7 @@ this
 )
 )
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -11766,7 +11791,7 @@ mState
 OPEN
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -11780,7 +11805,7 @@ OPEN
 }
 else
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -11800,7 +11825,7 @@ break
 case
 SCTP_COMM_LOST
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -11840,7 +11865,7 @@ break
 case
 SCTP_RESTART
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -11857,7 +11882,7 @@ break
 case
 SCTP_SHUTDOWN_COMP
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -11878,7 +11903,7 @@ break
 case
 SCTP_CANT_STR_ASSOC
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -11894,7 +11919,7 @@ break
 ;
 default
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -11909,7 +11934,7 @@ UNKNOWN
 break
 ;
 }
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12027,7 +12052,7 @@ i
 case
 SCTP_ASSOC_SUPPORTS_PR
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12043,7 +12068,7 @@ break
 case
 SCTP_ASSOC_SUPPORTS_AUTH
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12059,7 +12084,7 @@ break
 case
 SCTP_ASSOC_SUPPORTS_ASCONF
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12075,7 +12100,7 @@ break
 case
 SCTP_ASSOC_SUPPORTS_MULTIBUF
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12091,7 +12116,7 @@ break
 case
 SCTP_ASSOC_SUPPORTS_RE_CONFIG
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12115,7 +12140,7 @@ SCTP_ASSOC_SUPPORTS_INTERLEAVING
 case
 SCTP_ASSOC_SUPPORTS_INTERLEAVING
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12164,7 +12189,7 @@ break
 endif
 default
 :
-LOG
+DC_ERROR
 (
 (
 "
@@ -12227,7 +12252,7 @@ n
 )
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12254,7 +12279,7 @@ n
 i
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12468,7 +12493,7 @@ default
 break
 ;
 }
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12494,7 +12519,7 @@ spc_state
 case
 SCTP_ADDR_AVAILABLE
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12508,7 +12533,7 @@ break
 case
 SCTP_ADDR_UNREACHABLE
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12522,7 +12547,7 @@ break
 case
 SCTP_ADDR_REMOVED
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12536,7 +12561,7 @@ break
 case
 SCTP_ADDR_ADDED
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12550,7 +12575,7 @@ break
 case
 SCTP_ADDR_MADE_PRIM
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12564,7 +12589,7 @@ break
 case
 SCTP_ADDR_CONFIRMED
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12577,11 +12602,13 @@ break
 ;
 default
 :
-LOG
+DC_ERROR
 (
 (
 "
 UNKNOWN
+SCP
+STATE
 "
 )
 )
@@ -12589,7 +12616,15 @@ UNKNOWN
 break
 ;
 }
-LOG
+if
+(
+spc
+-
+>
+spc_error
+)
+{
+DC_ERROR
 (
 (
 "
@@ -12611,6 +12646,7 @@ spc_error
 )
 )
 ;
+}
 }
 void
 DataChannelConnection
@@ -12642,7 +12678,7 @@ struct
 sctp_remote_error
 )
 ;
-LOG
+DC_WARN
 (
 (
 "
@@ -12679,7 +12715,7 @@ n
 i
 )
 {
-LOG
+DC_WARN
 (
 (
 "
@@ -12712,7 +12748,7 @@ sctp_shutdown_event
 sse
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12756,7 +12792,7 @@ sctp_adaptation_event
 sai
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12821,7 +12857,7 @@ in
 the
 future
 .
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12844,7 +12880,7 @@ pdapi_indication
 case
 SCTP_PARTIAL_DELIVERY_ABORTED
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12858,7 +12894,7 @@ break
 ;
 default
 :
-LOG
+DC_ERROR
 (
 (
 "
@@ -12872,7 +12908,7 @@ LOG
 break
 ;
 }
-LOG
+DC_DEBUG
 (
 (
 "
@@ -12924,7 +12960,7 @@ pdapi_stream
 UINT16_MAX
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -12980,7 +13016,7 @@ if
 channel
 )
 {
-LOG
+DC_WARN
 (
 (
 "
@@ -13045,7 +13081,7 @@ ssfe_flags
 SCTP_DATA_UNSENT
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -13065,7 +13101,7 @@ ssfe_flags
 SCTP_DATA_SENT
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -13090,7 +13126,7 @@ SCTP_DATA_UNSENT
 )
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -13109,7 +13145,7 @@ ssfe_flags
 )
 ;
 }
-LOG
+DC_DEBUG
 (
 (
 "
@@ -13192,7 +13228,7 @@ n
 i
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -13236,7 +13272,7 @@ IsEmpty
 )
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -13297,7 +13333,7 @@ if
 channel
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -13382,7 +13418,7 @@ AssertCurrentThreadOwns
 (
 )
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -13481,7 +13517,7 @@ i
 size_t
 len
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -13526,7 +13562,7 @@ IsEmpty
 )
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -13657,7 +13693,7 @@ len
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -13998,7 +14034,7 @@ stream
 /
 yet
 .
-LOG
+DC_DEBUG
 (
 (
 "
@@ -14049,7 +14085,7 @@ mStream
 )
 ;
 }
-LOG
+DC_DEBUG
 (
 (
 "
@@ -14096,7 +14132,7 @@ StreamClosedLocked
 }
 else
 {
-LOG
+DC_WARN
 (
 (
 "
@@ -14135,7 +14171,7 @@ IsEmpty
 )
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -14191,7 +14227,7 @@ strchange_flags
 SCTP_STREAM_CHANGE_DENIED
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -14249,7 +14285,7 @@ strchange_instrms
 mNegotiatedIdLimit
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -14303,7 +14339,7 @@ new_limit
 mNegotiatedIdLimit
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -14353,7 +14389,7 @@ mNegotiatedIdLimit
 =
 new_limit
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -14507,7 +14543,7 @@ mNegotiatedIdLimit
 +
 16
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -14557,7 +14593,7 @@ strchg
 strchange_instrms
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -14844,7 +14880,7 @@ break
 case
 SCTP_AUTHENTICATION_EVENT
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -14860,7 +14896,7 @@ SCTP_SENDER_DRY_EVENT
 :
 /
 /
-LOG
+DC_DEBUG
 (
 (
 "
@@ -14874,7 +14910,7 @@ break
 case
 SCTP_NOTIFICATIONS_STOPPED_EVENT
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -14936,7 +14972,7 @@ break
 case
 SCTP_ASSOC_RESET_EVENT
 :
-LOG
+DC_DEBUG
 (
 (
 "
@@ -14965,7 +15001,7 @@ break
 ;
 default
 :
-LOG
+DC_ERROR
 (
 (
 "
@@ -15028,7 +15064,7 @@ if
 data
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -15332,7 +15368,7 @@ prPolicy
 =
 SCTP_PR_SCTP_NONE
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -15438,12 +15474,10 @@ break
 ;
 default
 :
-LOG
+DC_ERROR
 (
 (
 "
-ERROR
-:
 unsupported
 channel
 type
@@ -15502,12 +15536,10 @@ aStream
 )
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
-ERROR
-:
 external
 negotiation
 of
@@ -15971,7 +16003,7 @@ request_error_cleanup
 ;
 }
 }
-LOG
+DC_DEBUG
 (
 (
 "
@@ -16181,7 +16213,7 @@ if
 error
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -16683,7 +16715,7 @@ aWritten
 written
 ;
 }
-LOG
+DC_DEBUG
 (
 (
 "
@@ -16752,7 +16784,7 @@ written
 0
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -17280,7 +17312,7 @@ break
 ;
 default
 :
-LOG
+DC_ERROR
 (
 (
 "
@@ -17360,7 +17392,7 @@ owned
 by
 mBufferedData
 array
-LOG
+DC_DEBUG
 (
 (
 "
@@ -17875,7 +17907,7 @@ len
 mMaxMessageSize
 )
 {
-LOG
+DC_ERROR
 (
 (
 "
@@ -18862,7 +18894,7 @@ EMSGSIZE
 }
 #
 endif
-LOG
+DC_DEBUG
 (
 (
 "
@@ -19111,7 +19143,7 @@ AssertCurrentThreadOwns
 (
 )
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -19230,7 +19262,7 @@ mReadyState
 CLOSING
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -19364,7 +19396,7 @@ CloseAll
 (
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -19513,7 +19545,7 @@ PopFront
 )
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -19754,7 +19786,7 @@ DataChannel
 aChannel
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -19850,7 +19882,7 @@ DataChannel
 aChannel
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -20191,7 +20223,7 @@ AssertCurrentThreadOwns
 ;
 ENSURE_DATACONNECTION
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -20453,7 +20485,7 @@ mBufferedAmount
 mBufferedThreshold
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -20504,7 +20536,7 @@ mBufferedAmount
 0
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
@@ -20641,7 +20673,7 @@ mReadyState
 =
 OPEN
 ;
-LOG
+DC_DEBUG
 (
 (
 "
@@ -20749,7 +20781,7 @@ if
 mListener
 )
 {
-LOG
+DC_DEBUG
 (
 (
 "
