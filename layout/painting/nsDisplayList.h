@@ -35811,6 +35811,12 @@ IsZoomingLayer
 )
 const
 ;
+bool
+IsFixedPositionLayer
+(
+)
+const
+;
 protected
 :
 nsDisplayOwnLayerFlags
