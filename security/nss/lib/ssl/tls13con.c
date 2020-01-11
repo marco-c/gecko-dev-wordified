@@ -4872,8 +4872,6 @@ TLS13
 d
 ]
 :
-%
-s
 successfully
 decrypted
 handshake
