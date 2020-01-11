@@ -701,6 +701,10 @@ enableWritableStreams
 ;
 extern
 bool
+enableReadableStreamPipeTo
+;
+extern
+bool
 enableFields
 ;
 extern
