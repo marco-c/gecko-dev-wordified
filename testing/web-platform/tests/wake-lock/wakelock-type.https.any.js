@@ -4,7 +4,9 @@ META
 :
 title
 =
-WakeLock
+navigator
+.
+wakeLock
 .
 request
 (
@@ -19,7 +21,7 @@ t
 =
 >
 {
-await
+return
 promise_rejects
 (
 t
@@ -27,7 +29,9 @@ new
 TypeError
 (
 )
-WakeLock
+navigator
+.
+wakeLock
 .
 request
 (
@@ -94,7 +98,9 @@ new
 TypeError
 (
 )
-WakeLock
+navigator
+.
+wakeLock
 .
 request
 (

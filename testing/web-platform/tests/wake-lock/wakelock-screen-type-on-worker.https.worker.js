@@ -39,7 +39,9 @@ t
 "
 NotAllowedError
 "
-WakeLock
+navigator
+.
+wakeLock
 .
 request
 (

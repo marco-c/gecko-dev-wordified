@@ -75,6 +75,11 @@ add_objects
 WakeLock
 :
 [
+'
+navigator
+.
+wakeLock
+'
 ]
 }
 )
