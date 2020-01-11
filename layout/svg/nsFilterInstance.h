@@ -228,6 +228,9 @@ nsIFrame
 class
 nsSVGFilterPaintCallback
 ;
+struct
+WrFiltersHolder
+;
 namespace
 mozilla
 {
