@@ -284,17 +284,6 @@ url
 "
 tab
 "
-{
-triggeringPrincipal
-:
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
-}
 )
 ;
 }

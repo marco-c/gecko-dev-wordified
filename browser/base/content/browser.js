@@ -22693,13 +22693,6 @@ url
 "
 tab
 "
-{
-triggeringPrincipal
-:
-browser
-.
-contentPrincipal
-}
 )
 ;
 }
