@@ -1296,15 +1296,6 @@ do_QueryObject
 targetWindow
 )
 ;
-/
-/
-XXX
-cloneDataPolicy
-will
-be
-used
-in
-P3
 JS
 :
 :
@@ -1379,6 +1370,7 @@ targetWindow
 cx
 &
 messageData
+cloneDataPolicy
 rv
 )
 ;
