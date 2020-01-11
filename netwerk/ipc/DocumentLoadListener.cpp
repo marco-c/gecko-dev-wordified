@@ -1802,7 +1802,7 @@ if
 nsDocShell
 :
 :
-CreateChannelForLoadState
+CreateAndConfigureRealChannelForLoadState
 (
 aLoadState
 aLoadInfo
