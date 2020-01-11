@@ -41,20 +41,6 @@ deprecated_sdk_path
 True
     
 "
-robocop_package_name
-"
-:
-"
-org
-.
-mozilla
-.
-roboexample
-.
-test
-"
-    
-"
 tooltool_manifest_path
 "
 :
@@ -300,16 +286,6 @@ minidumps
 "
     
 }
-    
-"
-marionette_extra
-"
-:
-"
--
--
-emulator
-"
     
 "
 bogomips_minimum

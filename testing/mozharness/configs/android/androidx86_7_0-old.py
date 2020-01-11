@@ -369,16 +369,6 @@ verbose
 }
     
 "
-marionette_extra
-"
-:
-"
--
--
-emulator
-"
-    
-"
 bogomips_minimum
 "
 :
