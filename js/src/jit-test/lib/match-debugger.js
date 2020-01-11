@@ -218,7 +218,9 @@ non
 value
 property
 {
-uneval
+JSON
+.
+stringify
 (
 name
 )
