@@ -506,10 +506,14 @@ memberCanRunScript
 check
     
 #
-can_explicitly_run_script
+explicit_setter_can_run_script
+/
+explicit_setter_can_run_script
 and
 call
 it
+    
+#
 here
 .
 But
@@ -517,8 +521,6 @@ that
 would
 likely
 require
-    
-#
 a
 fair
 amount
@@ -526,6 +528,8 @@ of
 Gecko
 -
 side
+    
+#
 annotation
 work
 .
@@ -536,11 +540,6 @@ bug
     
 if
 (
-a
-.
-explicit_can_run_script
-or
-        
 (
 a
 .
@@ -924,7 +923,7 @@ memberCanRunScript
 check
     
 #
-can_explicitly_run_script
+explicit_can_run_script
 and
 call
 it
