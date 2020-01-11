@@ -278,7 +278,7 @@ ReadableByteStreamController
 js
 :
 :
-ControllerStart
+ReadableStreamControllerStart
 {
 Failed
 }
@@ -4779,7 +4779,7 @@ cx
 NewHandler
 (
 cx
-ControllerStartHandler
+ReadableStreamControllerStartHandler
 controller
 )
 )
@@ -4805,7 +4805,7 @@ cx
 NewHandler
 (
 cx
-ControllerStartFailedHandler
+ReadableStreamControllerStartFailedHandler
 controller
 )
 )

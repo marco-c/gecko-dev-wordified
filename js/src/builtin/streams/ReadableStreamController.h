@@ -1682,7 +1682,7 @@ unwrappedController
 ;
 extern
 bool
-ControllerStartHandler
+ReadableStreamControllerStartHandler
 (
 JSContext
 *
@@ -1699,7 +1699,7 @@ vp
 ;
 extern
 bool
-ControllerStartFailedHandler
+ReadableStreamControllerStartFailedHandler
 (
 JSContext
 *
