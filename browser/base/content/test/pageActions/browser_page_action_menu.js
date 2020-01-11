@@ -3202,9 +3202,8 @@ label
 :
 "
 Not
-Connected
-to
-Firefox
+Signed
+In
 "
 }
 disabled
