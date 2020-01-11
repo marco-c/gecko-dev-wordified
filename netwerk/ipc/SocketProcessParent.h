@@ -382,8 +382,10 @@ PWebrtcTCPSocketParent
 aActor
 )
 ;
+already_AddRefed
+<
 PDNSRequestParent
-*
+>
 AllocPDNSRequestParent
 (
 const
@@ -427,13 +429,6 @@ uint32_t
 flags
 )
 override
-;
-bool
-DeallocPDNSRequestParent
-(
-PDNSRequestParent
-*
-)
 ;
 void
 ActorDestroy

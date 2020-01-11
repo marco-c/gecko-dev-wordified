@@ -862,8 +862,10 @@ PUDPSocketParent
 *
 )
 ;
+already_AddRefed
+<
 PDNSRequestParent
-*
+>
 AllocPDNSRequestParent
 (
 const
@@ -907,13 +909,6 @@ uint32_t
 flags
 )
 override
-;
-bool
-DeallocPDNSRequestParent
-(
-PDNSRequestParent
-*
-)
 ;
 mozilla
 :
