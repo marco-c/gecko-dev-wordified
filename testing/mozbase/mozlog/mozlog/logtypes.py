@@ -1268,10 +1268,6 @@ CRASH
 ASSERT
 "
 "
-PRECONDITION_FAILED
-"
-               
-"
 SKIP
 "
 ]
@@ -1332,12 +1328,8 @@ TIMEOUT
 ASSERT
 "
 "
-PRECONDITION_FAILED
-"
-"
 NOTRUN
 "
-               
 "
 SKIP
 "

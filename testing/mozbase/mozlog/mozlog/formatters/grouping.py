@@ -394,12 +394,6 @@ FAIL
 0
             
 '
-PRECONDITION_FAILED
-'
-:
-0
-            
-'
 ERROR
 '
 :
@@ -447,13 +441,6 @@ PASS
             
 '
 FAIL
-'
-:
-[
-]
-            
-'
-PRECONDITION_FAILED
 '
 :
 [
@@ -2473,23 +2460,6 @@ unexpectedly
 "
 '
 FAIL
-'
-)
-        
-output
-+
-=
-text_for_unexpected_list
-(
-u
-"
-precondition
-failed
-unexpectedly
-"
-                                           
-'
-PRECONDITION_FAILED
 '
 )
         
