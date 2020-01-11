@@ -256,15 +256,6 @@ this
 "
 REQUIRES_HTTPS
 "
-/
-/
-Also
-used
-in
-FxAccountsOAuthGrantClient
-.
-jsm
-.
 "
 identity
 .
