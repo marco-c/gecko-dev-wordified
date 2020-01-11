@@ -834,12 +834,9 @@ logins
 let
 actual
 =
-new
 LMP
-(
-)
 .
-_searchAndDedupeLogins
+searchAndDedupeLogins
 (
 tc
 .
