@@ -159,9 +159,6 @@ functionB
 -
 >
 functionC
--
->
-doAtLeastOnePeriodicSample
 const
 sampleIndex
 =
@@ -494,7 +491,7 @@ functionC
 )
 {
 return
-doAtLeastOnePeriodicSample
+captureAtLeastOneJsSample
 (
 )
 ;
