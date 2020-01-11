@@ -844,11 +844,11 @@ rawData
 component
 :
 RawData
-(
+componentProps
+:
 {
 payload
 }
-)
 header
 :
 L10N
@@ -875,7 +875,7 @@ payload
 length
 )
 )
-labelledby
+id
 :
 "
 ws
@@ -883,8 +883,6 @@ ws
 frame
 -
 rawData
--
-header
 "
 opened
 :
@@ -964,7 +962,8 @@ formattedData
 component
 :
 JSONPreview
-(
+componentProps
+:
 {
 object
 :
@@ -991,7 +990,6 @@ width
 }
 ]
 }
-)
 header
 :
 {
@@ -1015,7 +1013,7 @@ length
 )
 }
 )
-labelledby
+id
 :
 "
 ws
@@ -1023,8 +1021,6 @@ ws
 frame
 -
 formattedData
--
-header
 "
 opened
 :

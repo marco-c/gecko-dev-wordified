@@ -5281,7 +5281,7 @@ padding
 0
 .
 5em
-21px
+20px
 ;
 user
 -
@@ -5294,6 +5294,17 @@ font
 size
 :
 12px
+;
+line
+-
+height
+:
+calc
+(
+16
+/
+12
+)
 ;
 }
 /

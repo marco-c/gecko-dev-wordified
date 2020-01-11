@@ -370,7 +370,7 @@ container
 .
 layout
 -
-container
+content
 ul
 {
 list
@@ -383,7 +383,7 @@ none
 .
 layout
 -
-container
+content
 li
 {
 padding
@@ -401,7 +401,7 @@ none
 .
 layout
 -
-container
+content
 input
 {
 margin
@@ -422,7 +422,7 @@ middle
 .
 layout
 -
-container
+content
 label
 {
 margin

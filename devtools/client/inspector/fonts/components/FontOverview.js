@@ -138,9 +138,7 @@ devtools
 /
 client
 /
-inspector
-/
-layout
+shared
 /
 components
 /
@@ -335,6 +333,15 @@ fontinspector
 allFontsOnPageHeader
 "
 )
+id
+:
+"
+font
+-
+list
+-
+details
+"
 component
 :
 FontList
