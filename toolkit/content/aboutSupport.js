@@ -638,6 +638,16 @@ if
 AppConstants
 .
 MOZ_UPDATER
+&
+&
+AppConstants
+.
+platform
+!
+=
+"
+android
+"
 )
 {
 (
