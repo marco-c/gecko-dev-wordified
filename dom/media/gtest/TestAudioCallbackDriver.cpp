@@ -516,4 +516,11 @@ mDriver
 =
 nullptr
 ;
+graph
+-
+>
+RemoveShutdownBlocker
+(
+)
+;
 }
