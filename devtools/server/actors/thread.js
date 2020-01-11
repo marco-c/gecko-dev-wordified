@@ -4375,9 +4375,7 @@ frame
 >
 {
 const
-{
-sourceActor
-}
+location
 =
 this
 .
@@ -4387,6 +4385,15 @@ getFrameLocation
 (
 frame
 )
+;
+const
+{
+sourceActor
+line
+column
+}
+=
+location
 ;
 const
 url
@@ -4404,6 +4411,8 @@ sources
 isBlackBoxed
 (
 url
+line
+column
 )
 )
 {
