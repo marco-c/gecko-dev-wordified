@@ -1046,8 +1046,9 @@ The
 function
 can
 be
-a
-generator
+an
+async
+function
 .
 *
 param
