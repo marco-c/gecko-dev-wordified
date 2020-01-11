@@ -635,7 +635,7 @@ API
 *
 /
 virtual
-Transliterator
+UnescapeTransliterator
 *
 clone
 (

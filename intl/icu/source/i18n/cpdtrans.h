@@ -731,11 +731,10 @@ API
 *
 /
 virtual
-Transliterator
+CompoundTransliterator
 *
 clone
 (
-void
 )
 const
 ;

@@ -383,7 +383,12 @@ value
 #
 define
 U_EOF
+(
+(
+int32_t
+)
 0xFFFFFFFF
+)
 /
 *
 *
@@ -401,7 +406,12 @@ unescaped
 #
 define
 U_ERR
+(
+(
+int32_t
+)
 0xFFFFFFFE
+)
 typedef
 struct
 ULine

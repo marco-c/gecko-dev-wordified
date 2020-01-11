@@ -101,7 +101,7 @@ handler
 int32_t
 apply
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t

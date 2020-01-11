@@ -60,9 +60,6 @@ utypes
 .
 h
 "
-#
-ifndef
-U_HIDE_DRAFT_API
 U_CDECL_BEGIN
 /
 *
@@ -130,7 +127,7 @@ UCPTrie
 see
 UMutableCPTrie
 *
-draft
+stable
 ICU
 63
 *
@@ -178,7 +175,7 @@ ucptrie_getRange
 see
 umutablecptrie_getRange
 *
-draft
+stable
 ICU
 63
 *
@@ -214,7 +211,7 @@ this
 option
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -353,7 +350,7 @@ points
 *
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -492,7 +489,7 @@ points
 *
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -593,7 +590,7 @@ U
 +
 10FFFF
 *
-draft
+stable
 ICU
 63
 *
@@ -712,7 +709,7 @@ the
 modified
 value
 *
-draft
+stable
 ICU
 63
 *
@@ -1069,7 +1066,7 @@ valid
 code
 point
 *
-draft
+stable
 ICU
 63
 *
@@ -1102,10 +1099,5 @@ pValue
 )
 ;
 U_CDECL_END
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 #
 endif

@@ -2552,6 +2552,9 @@ object
 .
 *
 /
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 /
 *
 *
@@ -2585,6 +2588,11 @@ ticket
 *
 /
 UCOL_ATTRIBUTE_COUNT
+#
+endif
+/
+/
+U_FORCE_HIDE_DEPRECATED_API
 }
 UColAttribute
 ;

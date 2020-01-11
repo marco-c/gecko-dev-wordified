@@ -438,7 +438,7 @@ int
 exponent
 )
 {
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 significand
 !
@@ -741,9 +741,7 @@ Vector
 <
 char
 >
-(
 buffer
-)
 int
 *
 length
@@ -827,9 +825,7 @@ Vector
 <
 char
 >
-(
 buffer
-)
 int
 *
 length
@@ -857,14 +853,14 @@ int
 decimal_point
 )
 {
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 v
 >
 0
 )
 ;
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 !
 Double
@@ -905,7 +901,7 @@ float
 v
 )
 ;
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 f
 =
@@ -1223,7 +1219,7 @@ than
 binary
 digits
 .
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 Bignum
 :
@@ -1384,7 +1380,7 @@ break
 ;
 default
 :
-UNREACHABLE
+DOUBLE_CONVERSION_UNREACHABLE
 (
 )
 ;
@@ -1668,7 +1664,7 @@ DivideModuloIntBignum
 denominator
 )
 ;
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 digit
 <
@@ -2115,7 +2111,7 @@ not
 /
 satisfied
 .
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 buffer
 [
@@ -2229,7 +2225,7 @@ nothing
 }
 else
 {
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 buffer
 [
@@ -2325,7 +2321,7 @@ We
 still
 have
 an
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 here
 in
 case
@@ -2337,7 +2333,7 @@ not
 /
 satisfied
 .
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 buffer
 [
@@ -2493,7 +2489,7 @@ int
 length
 )
 {
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 count
 >
@@ -2533,7 +2529,7 @@ DivideModuloIntBignum
 denominator
 )
 ;
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 digit
 <
@@ -2649,7 +2645,7 @@ digit
 +
 ;
 }
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 digit
 <
@@ -2908,9 +2904,7 @@ Vector
 <
 char
 >
-(
 buffer
-)
 int
 *
 length
@@ -3097,7 +3091,7 @@ requested_digits
 =
 1
 .
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 *
 decimal_point
@@ -3920,7 +3914,7 @@ a
 positive
 power
 .
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 estimated_power
 >
@@ -4622,7 +4616,7 @@ it
 to
 itself
 .
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 numerator
 =

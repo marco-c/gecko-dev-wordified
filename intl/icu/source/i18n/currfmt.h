@@ -454,7 +454,7 @@ API
 *
 /
 virtual
-Format
+CurrencyFormat
 *
 clone
 (

@@ -836,7 +836,7 @@ realThat
 end
 ;
 }
-CharacterIterator
+StringCharacterIterator
 *
 StringCharacterIterator
 :

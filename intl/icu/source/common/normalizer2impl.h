@@ -1815,12 +1815,6 @@ fCanonIterData
 NULL
 )
 {
-fCanonIterDataInitOnce
-.
-reset
-(
-)
-;
 }
 virtual
 ~
@@ -5259,6 +5253,8 @@ FCD
 0
 UInitOnce
 fCanonIterDataInitOnce
+=
+U_INITONCE_INITIALIZER
 ;
 CanonIterData
 *

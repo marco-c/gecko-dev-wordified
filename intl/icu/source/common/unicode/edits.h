@@ -61,6 +61,9 @@ utypes
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -1256,6 +1259,7 @@ UErrorCode
 &
 outErrorCode
 )
+const
 ;
 /
 *
@@ -3953,6 +3957,13 @@ STACK_CAPACITY
 }
 ;
 U_NAMESPACE_END
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
+*
+/
 #
 endif
 /

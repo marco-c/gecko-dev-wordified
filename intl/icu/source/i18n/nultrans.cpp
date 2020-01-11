@@ -333,14 +333,13 @@ NullTransliterator
 )
 {
 }
-Transliterator
+NullTransliterator
 *
 NullTransliterator
 :
 :
 clone
 (
-void
 )
 const
 {

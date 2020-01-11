@@ -343,6 +343,7 @@ c
 target
 len
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -415,6 +416,7 @@ target
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U_APPEND_CHAR32_ONLY
@@ -422,6 +424,7 @@ U_APPEND_CHAR32_ONLY
 c
 target
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -484,6 +487,7 @@ target
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 A

@@ -3944,7 +3944,7 @@ ExtendedUText
 UText
 ut
 ;
-UAlignedMemory
+max_align_t
 extension
 ;
 }
@@ -4032,7 +4032,7 @@ extraSpace
 -
 sizeof
 (
-UAlignedMemory
+max_align_t
 )
 ;
 }

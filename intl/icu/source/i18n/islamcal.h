@@ -1910,7 +1910,7 @@ etc
 /
 clone
 virtual
-Calendar
+IslamicCalendar
 *
 clone
 (

@@ -1987,7 +1987,7 @@ hebrew
 "
 ;
 }
-Calendar
+HebrewCalendar
 *
 HebrewCalendar
 :

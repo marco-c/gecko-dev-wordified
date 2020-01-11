@@ -2222,14 +2222,13 @@ API
 .
 *
 /
-Transliterator
+CompoundTransliterator
 *
 CompoundTransliterator
 :
 :
 clone
 (
-void
 )
 const
 {

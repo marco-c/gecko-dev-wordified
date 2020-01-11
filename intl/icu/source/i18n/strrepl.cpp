@@ -664,7 +664,7 @@ Implement
 UnicodeFunctor
 *
 /
-UnicodeFunctor
+StringReplacer
 *
 StringReplacer
 :

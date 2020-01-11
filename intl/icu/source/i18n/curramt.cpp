@@ -417,7 +417,7 @@ return
 this
 ;
 }
-UObject
+CurrencyAmount
 *
 CurrencyAmount
 :

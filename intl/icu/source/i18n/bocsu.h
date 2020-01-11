@@ -1250,6 +1250,7 @@ n
 d
 m
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -1305,6 +1306,7 @@ d
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 U_CFUNC
 UChar32
 u_writeIdenticalLevelRun

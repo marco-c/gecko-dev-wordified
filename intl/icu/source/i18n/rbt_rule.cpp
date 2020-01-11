@@ -1351,10 +1351,6 @@ NULL
 {
 anteContext
 =
-(
-StringMatcher
-*
-)
 other
 .
 anteContext
@@ -1377,10 +1373,6 @@ NULL
 {
 key
 =
-(
-StringMatcher
-*
-)
 other
 .
 key
@@ -1403,10 +1395,6 @@ NULL
 {
 postContext
 =
-(
-StringMatcher
-*
-)
 other
 .
 postContext

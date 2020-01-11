@@ -535,7 +535,7 @@ API
 *
 /
 virtual
-Transliterator
+AnyTransliterator
 *
 clone
 (

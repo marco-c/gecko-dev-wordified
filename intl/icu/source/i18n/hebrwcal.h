@@ -1418,11 +1418,10 @@ internal
 *
 /
 virtual
-Calendar
+HebrewCalendar
 *
 clone
 (
-void
 )
 const
 ;

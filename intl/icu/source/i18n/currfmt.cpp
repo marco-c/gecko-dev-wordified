@@ -370,7 +370,7 @@ CurrencyFormat
 )
 {
 }
-Format
+CurrencyFormat
 *
 CurrencyFormat
 :

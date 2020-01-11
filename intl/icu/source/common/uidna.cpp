@@ -479,11 +479,6 @@ int32_t
 srcLength
 )
 {
-UBool
-startsWithPrefix
-=
-TRUE
-;
 if
 (
 srcLength
@@ -528,14 +523,13 @@ i
 ]
 )
 {
-startsWithPrefix
-=
+return
 FALSE
 ;
 }
 }
 return
-startsWithPrefix
+TRUE
 ;
 }
 inline
@@ -2726,6 +2720,8 @@ j
 srcIsASCII
 =
 FALSE
+;
+break
 ;
 }
 /

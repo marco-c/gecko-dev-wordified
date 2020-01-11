@@ -9409,6 +9409,8 @@ destCapacity
 length
 pErrorCode
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -9598,6 +9600,9 @@ U_BUFFER_OVERFLOW_ERROR
 }
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 U_CAPI
 int32_t
 U_EXPORT2
@@ -9863,6 +9868,8 @@ STR
 STRLEN
 DEREF
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 uint32_t
 hash
@@ -9966,6 +9973,10 @@ int32_t
 (
 hash
 )
+;
+\
+}
+UPRV_BLOCK_MACRO_END
 /
 *
 Used

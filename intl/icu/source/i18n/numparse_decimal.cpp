@@ -121,6 +121,13 @@ number_decimalquantity
 .
 h
 "
+#
+include
+"
+string_segment
+.
+h
+"
 using
 namespace
 icu

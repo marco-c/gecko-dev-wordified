@@ -310,6 +310,9 @@ utypes
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
 /
 /
 Workaround
@@ -369,6 +372,13 @@ include
 <
 string
 >
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
+*
+/
 #
 endif
 /

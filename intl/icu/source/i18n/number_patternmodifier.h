@@ -314,7 +314,7 @@ Modifier
 *
 getModifier
 (
-int8_t
+Signum
 signum
 StandardPlural
 :
@@ -965,7 +965,7 @@ needsPlurals
 void
 setNumberProperties
 (
-int8_t
+Signum
 signum
 StandardPlural
 :
@@ -1269,7 +1269,7 @@ U_OVERRIDE
 int32_t
 apply
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t
@@ -1444,7 +1444,7 @@ initialized
 in
 setNumberProperties
 )
-int8_t
+Signum
 fSignum
 ;
 StandardPlural
@@ -1524,7 +1524,7 @@ a
 *
 A
 working
-NumberStringBuilder
+FormattedStringBuilder
 object
 ;
 passed
@@ -1556,7 +1556,7 @@ b
 *
 Another
 working
-NumberStringBuilder
+FormattedStringBuilder
 object
 .
 *
@@ -1580,7 +1580,7 @@ status
 int32_t
 insertPrefix
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 sb
 int
@@ -1593,7 +1593,7 @@ status
 int32_t
 insertSuffix
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 sb
 int

@@ -314,6 +314,9 @@ utypes
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -1851,7 +1854,6 @@ DateIntervalInfo
 *
 clone
 (
-void
 )
 const
 ;
@@ -3573,5 +3575,12 @@ other
 U_NAMESPACE_END
 #
 endif
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
+*
+/
 #
 endif

@@ -1249,7 +1249,7 @@ API
 .
 *
 /
-Transliterator
+EscapeTransliterator
 *
 EscapeTransliterator
 :

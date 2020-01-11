@@ -1333,11 +1333,10 @@ clone
 ;
 }
 virtual
-BreakIterator
+SimpleFilteredSentenceBreakIterator
 *
 clone
 (
-void
 )
 const
 {

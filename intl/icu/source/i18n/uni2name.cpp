@@ -516,14 +516,13 @@ API
 .
 *
 /
-Transliterator
+UnicodeNameTransliterator
 *
 UnicodeNameTransliterator
 :
 :
 clone
 (
-void
 )
 const
 {

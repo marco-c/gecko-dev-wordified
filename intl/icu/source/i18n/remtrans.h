@@ -393,11 +393,10 @@ object
 *
 /
 virtual
-Transliterator
+RemoveTransliterator
 *
 clone
 (
-void
 )
 const
 ;

@@ -517,7 +517,7 @@ UnicodeFunctor
 *
 /
 virtual
-UnicodeFunctor
+FunctionReplacer
 *
 clone
 (

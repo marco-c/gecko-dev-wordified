@@ -1256,7 +1256,7 @@ etc
 /
 clone
 virtual
-Calendar
+PersianCalendar
 *
 clone
 (

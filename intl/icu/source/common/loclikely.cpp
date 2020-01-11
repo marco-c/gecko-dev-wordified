@@ -3808,8 +3808,9 @@ CHECK_TRAILING_VARIANT_SIZE
 trailing
 trailingLength
 )
-\
+UPRV_BLOCK_MACRO_BEGIN
 {
+\
 int32_t
 count
 =
@@ -3926,6 +3927,7 @@ count
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 static
 void
 _uloc_addLikelySubtags

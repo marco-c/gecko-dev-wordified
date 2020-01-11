@@ -900,8 +900,6 @@ nullptr
 static
 UMutex
 listFormatterMutex
-=
-U_MUTEX_INITIALIZER
 ;
 {
 Mutex
@@ -2848,9 +2846,13 @@ offset
 }
 int32_t
 offsetFirst
+=
+0
 ;
 int32_t
 offsetSecond
+=
+0
 ;
 int32_t
 prefixLength

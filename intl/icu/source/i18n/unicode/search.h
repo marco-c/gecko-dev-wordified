@@ -289,6 +289,9 @@ utypes
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -762,10 +765,9 @@ d
 n
 "
 pos
-*
 iter
 .
-getMatchLength
+getMatchedLength
 (
 )
 )
@@ -4950,6 +4952,13 @@ endif
 if
 !
 UCONFIG_NO_COLLATION
+*
+/
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
 *
 /
 #

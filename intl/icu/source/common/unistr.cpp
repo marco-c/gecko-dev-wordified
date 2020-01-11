@@ -2368,7 +2368,7 @@ with
 a
 real
 implementation
-Replaceable
+UnicodeString
 *
 UnicodeString
 :

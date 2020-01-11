@@ -1184,7 +1184,7 @@ other
 const
 ;
 virtual
-TimeZoneNames
+TimeZoneNamesImpl
 *
 clone
 (
@@ -1585,7 +1585,7 @@ other
 const
 ;
 virtual
-TimeZoneNames
+TZDBTimeZoneNames
 *
 clone
 (

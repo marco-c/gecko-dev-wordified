@@ -6513,6 +6513,9 @@ object
 .
 *
 /
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 /
 *
 *
@@ -6548,6 +6551,11 @@ ticket
 UDAT_BOOLEAN_ATTRIBUTE_COUNT
 =
 4
+#
+endif
+/
+/
+U_FORCE_HIDE_DEPRECATED_API
 }
 UDateFormatBooleanAttribute
 ;

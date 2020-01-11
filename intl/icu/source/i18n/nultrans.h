@@ -438,11 +438,10 @@ release
 *
 /
 virtual
-Transliterator
+NullTransliterator
 *
 clone
 (
-void
 )
 const
 ;

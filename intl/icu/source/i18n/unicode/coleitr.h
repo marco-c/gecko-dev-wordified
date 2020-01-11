@@ -376,6 +376,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_COLLATION
 #
@@ -2979,6 +2982,13 @@ endif
 if
 !
 UCONFIG_NO_COLLATION
+*
+/
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
 *
 /
 #

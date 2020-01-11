@@ -1332,7 +1332,7 @@ persian
 "
 ;
 }
-Calendar
+PersianCalendar
 *
 PersianCalendar
 :

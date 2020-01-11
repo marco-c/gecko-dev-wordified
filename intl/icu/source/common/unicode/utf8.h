@@ -2274,6 +2274,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -2303,6 +2304,7 @@ c
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -2486,6 +2488,7 @@ i
 length
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -2514,6 +2517,7 @@ c
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -2736,6 +2740,7 @@ i
 length
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -2764,6 +2769,7 @@ c
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 definitions
@@ -2950,6 +2956,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -3210,6 +3217,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -3641,6 +3649,7 @@ length
 c
 sub
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -4037,6 +4046,7 @@ formed
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -4140,6 +4150,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 uint32_t
@@ -4376,6 +4387,7 @@ __uc
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -4540,6 +4552,7 @@ capacity
 c
 isError
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 uint32_t
@@ -4920,6 +4933,7 @@ TRUE
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -4989,6 +5003,7 @@ U8_FWD_1_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -5010,6 +5025,7 @@ i
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -5107,6 +5123,7 @@ s
 i
 length
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 uint8_t
@@ -5325,6 +5342,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -5419,6 +5437,7 @@ s
 i
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -5452,6 +5471,7 @@ __N
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -5574,6 +5594,7 @@ i
 length
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -5639,6 +5660,7 @@ __N
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -5739,6 +5761,7 @@ U8_SET_CP_START_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 while
@@ -5763,6 +5786,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -5901,6 +5925,7 @@ s
 start
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -5936,6 +5961,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -6164,6 +6190,8 @@ s
 start
 length
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -6384,6 +6412,9 @@ length
 }
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 /
 *
 definitions
@@ -6589,6 +6620,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -6742,6 +6774,7 @@ __shift
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -6933,6 +6966,7 @@ start
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -6990,6 +7024,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -7220,6 +7255,7 @@ start
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -7277,6 +7313,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -7361,6 +7398,7 @@ U8_BACK_1_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 while
@@ -7383,6 +7421,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -7486,6 +7525,7 @@ s
 start
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -7523,6 +7563,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -7632,6 +7673,7 @@ s
 i
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -7665,6 +7707,7 @@ __N
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -7793,6 +7836,7 @@ start
 i
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -7836,6 +7880,7 @@ __N
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -7944,6 +7989,7 @@ U8_SET_CP_LIMIT_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 U8_BACK_1_UNSAFE
@@ -7961,6 +8007,7 @@ i
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -8113,6 +8160,7 @@ start
 i
 length
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -8164,5 +8212,6 @@ length
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 endif

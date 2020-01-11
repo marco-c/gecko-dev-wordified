@@ -6657,8 +6657,9 @@ UTEXT_SETNATIVEINDEX
 ut
 ix
 )
-\
+UPRV_BLOCK_MACRO_BEGIN
 {
+\
 int64_t
 __offset
 =
@@ -6736,8 +6737,11 @@ ix
 )
 )
 ;
+\
 }
+\
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *

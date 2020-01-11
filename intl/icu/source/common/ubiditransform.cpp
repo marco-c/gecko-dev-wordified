@@ -328,6 +328,7 @@ STR
 LEN
 ERROR
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -378,6 +379,7 @@ STR
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 MAX_ACTIONS

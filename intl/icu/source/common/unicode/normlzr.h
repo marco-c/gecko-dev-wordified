@@ -209,6 +209,9 @@ utypes
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -1748,6 +1751,9 @@ endif
 U_HIDE_DEPRECATED_API
 *
 /
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 /
 *
 *
@@ -1803,6 +1809,11 @@ Normalizer
 (
 )
 ;
+#
+endif
+/
+/
+U_FORCE_HIDE_DEPRECATED_API
 /
 /
 -
@@ -4984,7 +4995,6 @@ Normalizer
 *
 clone
 (
-void
 )
 const
 ;
@@ -5997,6 +6007,9 @@ endif
 U_HIDE_DEPRECATED_API
 *
 /
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 /
 *
 *
@@ -6043,6 +6056,11 @@ getDynamicClassID
 )
 const
 ;
+#
+endif
+/
+/
+U_FORCE_HIDE_DEPRECATED_API
 private
 :
 /
@@ -6835,3 +6853,10 @@ endif
 /
 /
 NORMLZR_H
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
+*
+/

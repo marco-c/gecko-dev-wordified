@@ -842,14 +842,13 @@ API
 /
 /
 *
-Transliterator
+CaseMapTransliterator
 *
 CaseMapTransliterator
 :
 :
 clone
 (
-void
 )
 const
 {

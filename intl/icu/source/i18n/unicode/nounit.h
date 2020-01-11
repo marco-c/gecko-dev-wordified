@@ -233,11 +233,11 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_FORMATTING
-#
-ifndef
-U_HIDE_DRAFT_API
 #
 include
 "
@@ -247,6 +247,9 @@ measunit
 .
 h
 "
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -482,7 +485,7 @@ ICU
 *
 /
 virtual
-UObject
+NoUnit
 *
 clone
 (
@@ -653,6 +656,13 @@ endif
 if
 !
 UCONFIG_NO_FORMATTING
+*
+/
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
 *
 /
 #

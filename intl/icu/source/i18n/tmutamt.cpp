@@ -373,7 +373,7 @@ other
 )
 ;
 }
-UObject
+TimeUnitAmount
 *
 TimeUnitAmount
 :

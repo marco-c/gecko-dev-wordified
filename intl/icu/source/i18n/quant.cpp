@@ -436,7 +436,7 @@ Implement
 UnicodeFunctor
 *
 /
-UnicodeFunctor
+Quantifier
 *
 Quantifier
 :

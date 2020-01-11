@@ -298,6 +298,9 @@ utypes
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -608,7 +611,7 @@ ICU
 *
 /
 virtual
-UObject
+Measure
 *
 clone
 (
@@ -1078,6 +1081,13 @@ endif
 /
 !
 UCONFIG_NO_FORMATTING
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
+*
+/
 #
 endif
 /

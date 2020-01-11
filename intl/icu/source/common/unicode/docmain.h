@@ -1204,7 +1204,7 @@ ucnv
 h
 ucnvsel
 .
-hb
+h
 <
 /
 td
@@ -1362,6 +1362,10 @@ icu
 :
 :
 LocaleBuilder
+icu
+:
+:
+LocaleMatcher
 <
 /
 td

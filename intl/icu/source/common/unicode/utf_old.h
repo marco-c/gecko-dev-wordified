@@ -274,11 +274,6 @@ Unicode
 string
 handling
 *
-/
-/
-*
-*
-*
 *
 The
 macros
@@ -1736,7 +1731,7 @@ hr
 >
 *
 *
-deprecated
+Deprecated
 ICU
 2
 .
@@ -1765,6 +1760,33 @@ __UTF_OLD_H__
 #
 define
 __UTF_OLD_H__
+#
+include
+"
+unicode
+/
+utf
+.
+h
+"
+#
+include
+"
+unicode
+/
+utf8
+.
+h
+"
+#
+include
+"
+unicode
+/
+utf16
+.
+h
+"
 /
 *
 *
@@ -1849,33 +1871,6 @@ U_HIDE_DEPRECATED_API
 &
 !
 U_HIDE_OBSOLETE_UTF_OLD_H
-#
-include
-"
-unicode
-/
-utf
-.
-h
-"
-#
-include
-"
-unicode
-/
-utf8
-.
-h
-"
-#
-include
-"
-unicode
-/
-utf16
-.
-h
-"
 /
 *
 Formerly
@@ -3768,6 +3763,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -3797,6 +3793,7 @@ c
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -3827,6 +3824,7 @@ length
 c
 strict
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -3859,6 +3857,7 @@ strict
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -3886,6 +3885,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -4077,6 +4077,7 @@ break
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -4104,6 +4105,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -4361,6 +4363,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -4387,6 +4390,7 @@ UTF8_FWD_1_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -4408,6 +4412,7 @@ i
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -4435,6 +4440,7 @@ s
 i
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -4468,6 +4474,7 @@ __N
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -4494,6 +4501,7 @@ UTF8_SET_CHAR_START_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 while
@@ -4518,6 +4526,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -4547,6 +4556,7 @@ length
 c
 strict
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -4623,6 +4633,7 @@ UTF8_ERROR_VALUE_1
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -4651,6 +4662,7 @@ i
 length
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -4717,6 +4729,7 @@ NULL
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -4845,6 +4858,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -4995,6 +5009,7 @@ __shift
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -5021,6 +5036,7 @@ UTF8_BACK_1_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 while
@@ -5043,6 +5059,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -5070,6 +5087,7 @@ s
 i
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -5103,6 +5121,7 @@ __N
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -5129,6 +5148,7 @@ UTF8_SET_CHAR_LIMIT_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 UTF8_BACK_1_UNSAFE
@@ -5146,6 +5166,7 @@ i
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -5175,6 +5196,7 @@ i
 c
 strict
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -5248,6 +5270,7 @@ UTF8_ERROR_VALUE_1
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -6145,6 +6168,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -6230,6 +6254,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -6260,6 +6285,7 @@ length
 c
 strict
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -6522,6 +6548,7 @@ UTF_ERROR_VALUE
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -6549,6 +6576,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -6601,6 +6629,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -6628,6 +6657,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -6725,6 +6755,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -6751,6 +6782,7 @@ UTF16_FWD_1_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -6781,6 +6813,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -6808,6 +6841,7 @@ s
 i
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -6841,6 +6875,7 @@ __N
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -6867,6 +6902,7 @@ UTF16_SET_CHAR_START_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -6893,6 +6929,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -6922,6 +6959,7 @@ length
 c
 strict
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -7092,6 +7130,7 @@ UTF_ERROR_VALUE
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -7120,6 +7159,7 @@ i
 length
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -7298,6 +7338,7 @@ UTF_ERROR_VALUE
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -7426,6 +7467,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -7478,6 +7520,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -7504,6 +7547,7 @@ UTF16_BACK_1_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -7534,6 +7578,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -7561,6 +7606,7 @@ s
 i
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -7594,6 +7640,7 @@ __N
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -7620,6 +7667,7 @@ UTF16_SET_CHAR_LIMIT_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -7650,6 +7698,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -7679,6 +7728,7 @@ i
 c
 strict
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -7851,6 +7901,7 @@ UTF_ERROR_VALUE
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -8581,6 +8632,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -8596,6 +8648,7 @@ i
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -8624,6 +8677,7 @@ length
 c
 strict
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -8659,6 +8713,7 @@ UTF_ERROR_VALUE
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 definitions
@@ -8731,6 +8786,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -8750,6 +8806,7 @@ i
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -8775,6 +8832,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -8794,6 +8852,7 @@ c
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -8818,6 +8877,7 @@ UTF32_FWD_1_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 +
@@ -8828,6 +8888,7 @@ i
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -8853,6 +8914,7 @@ s
 i
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -8866,6 +8928,7 @@ n
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -8890,9 +8953,11 @@ UTF32_SET_CHAR_START_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -8920,6 +8985,7 @@ length
 c
 strict
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -8959,6 +9025,7 @@ UTF_ERROR_VALUE
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -8985,6 +9052,7 @@ i
 length
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -9047,6 +9115,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -9072,6 +9141,7 @@ s
 i
 length
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 +
@@ -9082,6 +9152,7 @@ i
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -9108,6 +9179,7 @@ i
 length
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -9141,6 +9213,7 @@ length
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -9166,9 +9239,11 @@ s
 start
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 definitions
@@ -9240,6 +9315,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -9259,6 +9335,7 @@ i
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -9283,6 +9360,7 @@ UTF32_BACK_1_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 -
@@ -9293,6 +9371,7 @@ i
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -9318,6 +9397,7 @@ s
 i
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -9331,6 +9411,7 @@ n
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -9355,9 +9436,11 @@ UTF32_SET_CHAR_LIMIT_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -9385,6 +9468,7 @@ i
 c
 strict
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -9424,6 +9508,7 @@ UTF_ERROR_VALUE
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -9449,6 +9534,7 @@ s
 start
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 -
@@ -9459,6 +9545,7 @@ i
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -9485,6 +9572,7 @@ start
 i
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -9521,6 +9609,7 @@ start
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -9546,9 +9635,11 @@ s
 i
 length
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 Formerly

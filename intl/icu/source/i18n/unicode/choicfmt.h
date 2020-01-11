@@ -412,6 +412,9 @@ utypes
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -435,9 +438,6 @@ Format
 if
 !
 UCONFIG_NO_FORMATTING
-#
-ifndef
-U_HIDE_DEPRECATED_API
 #
 include
 "
@@ -483,6 +483,9 @@ unistr
 .
 h
 "
+#
+ifndef
+U_HIDE_DEPRECATED_API
 U_NAMESPACE_BEGIN
 class
 MessageFormat
@@ -2464,11 +2467,10 @@ arguments
 *
 /
 virtual
-Format
+ChoiceFormat
 *
 clone
 (
-void
 )
 const
 ;
@@ -4873,6 +4875,13 @@ endif
 if
 !
 UCONFIG_NO_FORMATTING
+*
+/
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
 *
 /
 #

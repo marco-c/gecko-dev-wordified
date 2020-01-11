@@ -1240,11 +1240,10 @@ internal
 *
 /
 virtual
-Calendar
+CopticCalendar
 *
 clone
 (
-void
 )
 const
 ;

@@ -465,7 +465,7 @@ Implement
 UnicodeFunctor
 *
 /
-UnicodeFunctor
+StringMatcher
 *
 StringMatcher
 :

@@ -617,7 +617,6 @@ return
 FALSE
 ;
 }
-;
 if
 (
 (

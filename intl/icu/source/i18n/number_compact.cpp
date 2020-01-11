@@ -2229,9 +2229,12 @@ return
 /
 Treat
 zero
+NaN
+and
+infinity
 as
 if
-it
+they
 had
 magnitude
 0
@@ -2242,7 +2245,7 @@ if
 (
 quantity
 .
-isZero
+isZeroish
 (
 )
 )
@@ -2288,7 +2291,7 @@ magnitude
 =
 quantity
 .
-isZero
+isZeroish
 (
 )
 ?

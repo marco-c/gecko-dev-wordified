@@ -452,7 +452,6 @@ UNICODE_STRING_SIMPLE
 0123456789
 "
 )
-;
 static
 const
 char

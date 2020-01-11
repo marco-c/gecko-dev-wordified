@@ -331,6 +331,9 @@ utypes
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -10384,11 +10387,10 @@ ICU
 *
 /
 virtual
-Format
+SimpleDateFormat
 *
 clone
 (
-void
 )
 const
 ;
@@ -16057,6 +16059,7 @@ SMPDTFMT_NF_COUNT
 UBool
 fHaveDefaultCentury
 ;
+const
 BreakIterator
 *
 fCapitalizationBrkIter
@@ -16093,6 +16096,13 @@ endif
 if
 !
 UCONFIG_NO_FORMATTING
+*
+/
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
 *
 /
 #

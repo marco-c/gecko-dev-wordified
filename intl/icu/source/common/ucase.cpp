@@ -1190,6 +1190,8 @@ idx
 pExc16
 value
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -1272,6 +1274,9 @@ pExc16
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 /
 *
 simple

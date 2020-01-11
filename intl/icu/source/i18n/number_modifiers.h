@@ -88,7 +88,7 @@ h
 #
 include
 "
-number_stringbuilder
+formatted_string_builder
 .
 h
 "
@@ -192,7 +192,7 @@ strong
 int32_t
 apply
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t
@@ -355,7 +355,7 @@ SimpleModifier
 int32_t
 apply
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t
@@ -445,7 +445,7 @@ yet
 is
 because
 *
-NumberStringBuilder
+FormattedStringBuilder
 is
 an
 internal
@@ -606,7 +606,7 @@ StringBuilder
 int32_t
 formatAsPrefixSuffix
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 result
 int32_t
@@ -648,7 +648,7 @@ the
 SimpleFormatter
 uses
 in
-NumberStringBuilder
+FormattedStringBuilder
 are
 near
 each
@@ -669,7 +669,7 @@ argument
 pattern
 to
 the
-NumberStringBuilder
+FormattedStringBuilder
 .
 *
 *
@@ -720,7 +720,7 @@ const
 SimpleFormatter
 &
 compiled
-NumberStringBuilder
+FormattedStringBuilder
 &
 result
 int32_t
@@ -808,7 +808,7 @@ of
 two
 {
 link
-NumberStringBuilder
+FormattedStringBuilder
 }
 instances
 (
@@ -838,11 +838,11 @@ public
 ConstantMultiFieldModifier
 (
 const
-NumberStringBuilder
+FormattedStringBuilder
 &
 prefix
 const
-NumberStringBuilder
+FormattedStringBuilder
 &
 suffix
 bool
@@ -882,11 +882,11 @@ parameters
 ConstantMultiFieldModifier
 (
 const
-NumberStringBuilder
+FormattedStringBuilder
 &
 prefix
 const
-NumberStringBuilder
+FormattedStringBuilder
 &
 suffix
 bool
@@ -916,7 +916,7 @@ strong
 int32_t
 apply
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t
@@ -1001,7 +1001,7 @@ C
 +
 +
 the
-NumberStringBuilder
+FormattedStringBuilder
 is
 stored
 by
@@ -1015,10 +1015,10 @@ internally
 as
 immutable
 .
-NumberStringBuilder
+FormattedStringBuilder
 fPrefix
 ;
-NumberStringBuilder
+FormattedStringBuilder
 fSuffix
 ;
 bool
@@ -1071,11 +1071,11 @@ path
 CurrencySpacingEnabledModifier
 (
 const
-NumberStringBuilder
+FormattedStringBuilder
 &
 prefix
 const
-NumberStringBuilder
+FormattedStringBuilder
 &
 suffix
 bool
@@ -1094,7 +1094,7 @@ status
 int32_t
 apply
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t
@@ -1120,7 +1120,7 @@ static
 int32_t
 applyCurrencySpacing
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t
@@ -1180,7 +1180,7 @@ static
 int32_t
 applyCurrencySpacingAffix
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t
@@ -1270,7 +1270,7 @@ isStrong
 int32_t
 apply
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t
@@ -1490,7 +1490,7 @@ form
 void
 adoptModifier
 (
-int8_t
+Signum
 signum
 StandardPlural
 :
@@ -1557,7 +1557,7 @@ forms
 void
 adoptModifierWithoutPlural
 (
-int8_t
+Signum
 signum
 const
 Modifier
@@ -1613,7 +1613,7 @@ Modifier
 *
 getModifier
 (
-int8_t
+Signum
 signum
 StandardPlural
 :
@@ -1689,7 +1689,7 @@ Modifier
 *
 getModifierWithoutPlural
 (
-int8_t
+Signum
 signum
 )
 const
@@ -1741,7 +1741,7 @@ static
 int32_t
 getModIndex
 (
-int8_t
+Signum
 signum
 StandardPlural
 :

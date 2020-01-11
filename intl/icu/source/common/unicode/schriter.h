@@ -333,6 +333,9 @@ utypes
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -1134,11 +1137,10 @@ ICU
 *
 /
 virtual
-CharacterIterator
+StringCharacterIterator
 *
 clone
 (
-void
 )
 const
 ;
@@ -1431,5 +1433,12 @@ text
 }
 ;
 U_NAMESPACE_END
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
+*
+/
 #
 endif

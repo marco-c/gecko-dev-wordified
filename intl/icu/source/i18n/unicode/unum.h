@@ -2316,6 +2316,9 @@ object
 .
 *
 /
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 /
 *
 *
@@ -2349,6 +2352,11 @@ ticket
 *
 /
 UNUM_CURRENCY_SPACING_COUNT
+#
+endif
+/
+/
+U_FORCE_HIDE_DEPRECATED_API
 }
 ;
 typedef
@@ -2727,7 +2735,7 @@ encouraged
 to
 *
 use
-unumf_openWithSkeletonAndLocale
+unumf_openForSkeletonAndLocale
 instead
 of
 unum_open

@@ -1258,7 +1258,7 @@ API
 *
 /
 virtual
-TimeZone
+OlsonTimeZone
 *
 clone
 (
@@ -2816,6 +2816,8 @@ finalZoneWithStartYear
 hack
 UInitOnce
 transitionRulesInitOnce
+=
+U_INITONCE_INITIALIZER
 ;
 }
 ;

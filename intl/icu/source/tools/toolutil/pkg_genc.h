@@ -512,6 +512,8 @@ optFilename
 char
 *
 outFilePath
+size_t
+outFilePathCapacity
 )
 ;
 U_INTERNAL
@@ -538,6 +540,8 @@ optFilename
 char
 *
 outFilePath
+size_t
+outFilePathCapacity
 )
 ;
 U_INTERNAL
@@ -568,6 +572,8 @@ optFilename
 char
 *
 outFilePath
+size_t
+outFilePathCapacity
 )
 ;
 #

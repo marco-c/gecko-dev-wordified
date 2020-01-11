@@ -415,11 +415,10 @@ object
 *
 /
 virtual
-Transliterator
+UppercaseTransliterator
 *
 clone
 (
-void
 )
 const
 ;

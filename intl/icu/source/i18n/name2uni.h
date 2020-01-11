@@ -431,11 +431,10 @@ object
 *
 /
 virtual
-Transliterator
+NameUnicodeTransliterator
 *
 clone
 (
-void
 )
 const
 ;

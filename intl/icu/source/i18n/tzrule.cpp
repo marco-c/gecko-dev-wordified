@@ -742,7 +742,6 @@ InitialTimeZoneRule
 :
 clone
 (
-void
 )
 const
 {

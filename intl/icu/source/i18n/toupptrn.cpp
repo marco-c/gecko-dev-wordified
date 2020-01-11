@@ -460,14 +460,13 @@ API
 .
 *
 /
-Transliterator
+UppercaseTransliterator
 *
 UppercaseTransliterator
 :
 :
 clone
 (
-void
 )
 const
 {

@@ -673,6 +673,8 @@ icu
 :
 UInitOnce
 gAvailableLocaleListInitOnce
+=
+U_INITONCE_INITIALIZER
 ;
 /
 *

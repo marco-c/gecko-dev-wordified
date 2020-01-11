@@ -1454,7 +1454,7 @@ API
 .
 *
 /
-Transliterator
+UnescapeTransliterator
 *
 UnescapeTransliterator
 :

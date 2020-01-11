@@ -2128,7 +2128,6 @@ status
 )
 ;
 }
-;
 status
 =
 U_ZERO_ERROR
@@ -2198,7 +2197,6 @@ status
 )
 ;
 }
-;
 ucnv_close
 (
 conv
@@ -2329,7 +2327,6 @@ status
 )
 ;
 }
-;
 /
 /
 /

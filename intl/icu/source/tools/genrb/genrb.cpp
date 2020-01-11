@@ -1584,7 +1584,7 @@ n
 t
 -
 d
-of
+or
 -
 -
 destdir
@@ -1596,8 +1596,10 @@ the
 path
 defaults
 to
+'
 %
 s
+'
 \
 n
 "
@@ -1619,8 +1621,10 @@ by
 path
 defaults
 to
+'
 %
 s
+'
 \
 n
 "
@@ -1652,8 +1656,10 @@ by
 path
 defaults
 to
+'
 %
 s
+'
 \
 n
 "
@@ -2154,8 +2160,10 @@ on
 filter
 files
 see
-Python
-buildtool
+ICU
+Data
+Build
+Tool
 .
 \
 n

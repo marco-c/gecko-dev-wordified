@@ -83,7 +83,7 @@ h
 #
 include
 "
-number_stringbuilder
+formatted_string_builder
 .
 h
 "
@@ -899,7 +899,7 @@ the
 result
 into
 the
-NumberStringBuilder
+FormattedStringBuilder
 at
 the
 requested
@@ -942,7 +942,7 @@ unescaped
 param
 output
 The
-NumberStringBuilder
+FormattedStringBuilder
 to
 mutate
 with
@@ -956,7 +956,7 @@ The
 index
 into
 the
-NumberStringBuilder
+FormattedStringBuilder
 to
 insert
 the
@@ -982,7 +982,7 @@ const
 UnicodeString
 &
 affixPattern
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t

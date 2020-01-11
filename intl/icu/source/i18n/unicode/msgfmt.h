@@ -293,6 +293,9 @@ utypes
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -2001,7 +2004,7 @@ tr
 td
 rowspan
 =
-6
+7
 >
 <
 code
@@ -4028,11 +4031,10 @@ ICU
 *
 /
 virtual
-Format
+MessageFormat
 *
 clone
 (
-void
 )
 const
 ;
@@ -8565,7 +8567,7 @@ Format
 const
 ;
 virtual
-Format
+DummyFormat
 *
 clone
 (
@@ -8667,6 +8669,13 @@ endif
 if
 !
 UCONFIG_NO_FORMATTING
+*
+/
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
 *
 /
 #

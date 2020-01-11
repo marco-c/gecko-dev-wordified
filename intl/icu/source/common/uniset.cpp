@@ -2470,7 +2470,7 @@ cloning
 .
 *
 /
-UnicodeFunctor
+UnicodeSet
 *
 UnicodeSet
 :
@@ -2489,7 +2489,7 @@ this
 )
 ;
 }
-UnicodeFunctor
+UnicodeSet
 *
 UnicodeSet
 :
@@ -16273,7 +16273,7 @@ when
 requested
 .
 }
-UnicodeFunctor
+UnicodeSet
 *
 UnicodeSet
 :

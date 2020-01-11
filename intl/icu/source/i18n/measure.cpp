@@ -458,10 +458,6 @@ number
 ;
 unit
 =
-(
-MeasureUnit
-*
-)
 other
 .
 unit
@@ -477,7 +473,7 @@ return
 this
 ;
 }
-UObject
+Measure
 *
 Measure
 :

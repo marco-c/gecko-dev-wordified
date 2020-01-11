@@ -2222,10 +2222,6 @@ finalZone
 0
 )
 ?
-(
-SimpleTimeZone
-*
-)
 other
 .
 finalZone
@@ -2365,7 +2361,7 @@ API
 .
 *
 /
-TimeZone
+OlsonTimeZone
 *
 OlsonTimeZone
 :
@@ -5670,10 +5666,6 @@ rules
 /
 finalZoneWithStartYear
 =
-(
-SimpleTimeZone
-*
-)
 finalZone
 -
 >
@@ -5795,10 +5787,6 @@ no
 transitions
 finalZoneWithStartYear
 =
-(
-SimpleTimeZone
-*
-)
 finalZone
 -
 >

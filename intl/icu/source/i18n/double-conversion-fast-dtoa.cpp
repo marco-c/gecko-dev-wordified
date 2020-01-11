@@ -1729,7 +1729,7 @@ and
 /
 underflows
 .
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 rest
 <
@@ -2142,7 +2142,7 @@ int
 kappa
 )
 {
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 rest
 <
@@ -2788,7 +2788,7 @@ int
 exponent_plus_one
 )
 {
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 number
 <
@@ -3523,7 +3523,7 @@ int
 kappa
 )
 {
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 low
 .
@@ -3553,7 +3553,7 @@ e
 )
 )
 ;
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 low
 .
@@ -3573,7 +3573,7 @@ f
 1
 )
 ;
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 kMinimalTargetExponent
 <
@@ -4109,7 +4109,7 @@ integrals
 /
 divisor
 ;
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 digit
 <
@@ -4413,7 +4413,7 @@ e
 -
 60
 .
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 one
 .
@@ -4426,7 +4426,7 @@ e
 60
 )
 ;
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 fractionals
 <
@@ -4437,9 +4437,9 @@ f
 )
 )
 ;
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
-UINT64_2PART_C
+DOUBLE_CONVERSION_UINT64_2PART_C
 (
 0xFFFFFFFF
 FFFFFFFF
@@ -4510,7 +4510,7 @@ e
 )
 )
 ;
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 digit
 <
@@ -4947,7 +4947,7 @@ int
 kappa
 )
 {
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 kMinimalTargetExponent
 <
@@ -4969,7 +4969,7 @@ e
 kMaximalTargetExponent
 )
 ;
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 kMinimalTargetExponent
 >
@@ -4978,7 +4978,7 @@ kMinimalTargetExponent
 60
 )
 ;
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 kMaximalTargetExponent
 <
@@ -5278,7 +5278,7 @@ integrals
 /
 divisor
 ;
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 digit
 <
@@ -5512,7 +5512,7 @@ e
 -
 60
 .
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 one
 .
@@ -5525,7 +5525,7 @@ e
 60
 )
 ;
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 fractionals
 <
@@ -5536,9 +5536,9 @@ f
 )
 )
 ;
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
-UINT64_2PART_C
+DOUBLE_CONVERSION_UINT64_2PART_C
 (
 0xFFFFFFFF
 FFFFFFFF
@@ -5602,7 +5602,7 @@ e
 )
 )
 ;
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 digit
 <
@@ -5953,7 +5953,7 @@ boundary_plus
 }
 else
 {
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 mode
 =
@@ -5986,7 +5986,7 @@ boundary_plus
 )
 ;
 }
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 boundary_plus
 .
@@ -6072,7 +6072,7 @@ ten_mk
 mk
 )
 ;
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 (
 kMinimalTargetExponent
@@ -6282,7 +6282,7 @@ w
 ten_mk
 )
 ;
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 scaled_w
 .
@@ -6702,7 +6702,7 @@ ten_mk
 mk
 )
 ;
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 (
 kMinimalTargetExponent
@@ -7033,14 +7033,14 @@ int
 decimal_point
 )
 {
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 v
 >
 0
 )
 ;
-ASSERT
+DOUBLE_CONVERSION_ASSERT
 (
 !
 Double
@@ -7107,7 +7107,7 @@ break
 ;
 default
 :
-UNREACHABLE
+DOUBLE_CONVERSION_UNREACHABLE
 (
 )
 ;

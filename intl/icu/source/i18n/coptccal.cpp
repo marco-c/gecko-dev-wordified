@@ -469,7 +469,7 @@ CopticCalendar
 )
 {
 }
-Calendar
+CopticCalendar
 *
 CopticCalendar
 :

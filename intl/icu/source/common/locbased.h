@@ -363,7 +363,6 @@ objname
 .
 actualLocale
 )
-;
 U_NAMESPACE_BEGIN
 /
 *

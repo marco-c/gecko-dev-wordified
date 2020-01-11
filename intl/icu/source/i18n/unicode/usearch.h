@@ -350,7 +350,7 @@ StringSearch
 *
 *
 C
-Apis
+APIs
 for
 an
 engine
@@ -750,7 +750,7 @@ text
 looking
 for
 all
-occurances
+occurrences
 of
 *
 a
@@ -1581,7 +1581,7 @@ n
 "
 pos
 *
-usearch_getMatchLength
+usearch_getMatchedLength
 (
 search
 )
@@ -4132,7 +4132,7 @@ API
 <
 tt
 >
-usearch_getMatchLength
+usearch_getMatchedLength
 <
 /
 tt
@@ -6438,7 +6438,6 @@ index
 *
 and
 using
-using
 a
 default
 set
@@ -6559,7 +6558,7 @@ are
 considered
 to
 be
-inseperable
+inseparable
 units
 *
 and
@@ -6657,7 +6656,7 @@ starting
 point
 will
 not
-supress
+suppress
 a
 match
 beginning
@@ -7046,7 +7045,7 @@ are
 considered
 to
 be
-inseperable
+inseparable
 units
 *
 and
@@ -7144,7 +7143,7 @@ starting
 point
 will
 not
-supress
+suppress
 a
 match
 beginning

@@ -1558,8 +1558,6 @@ this
 static
 UMutex
 llock
-=
-U_MUTEX_INITIALIZER
 ;
 {
 Mutex

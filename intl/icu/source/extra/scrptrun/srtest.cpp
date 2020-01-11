@@ -181,11 +181,14 @@ UPRV_LENGTHOF
 testChars
 )
 ;
-void
+int
 main
 (
 )
 {
+icu
+:
+:
 ScriptRun
 scriptRun
 (
@@ -257,4 +260,7 @@ end
 )
 ;
 }
+return
+0
+;
 }

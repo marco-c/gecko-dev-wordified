@@ -896,7 +896,7 @@ internal
 *
 /
 virtual
-Calendar
+EthiopicCalendar
 *
 clone
 (

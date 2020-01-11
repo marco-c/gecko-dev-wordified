@@ -413,7 +413,7 @@ object
 *
 /
 virtual
-UnicodeFunctor
+Quantifier
 *
 clone
 (

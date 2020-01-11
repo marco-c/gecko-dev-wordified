@@ -429,11 +429,10 @@ object
 *
 /
 virtual
-Transliterator
+CaseMapTransliterator
 *
 clone
 (
-void
 )
 const
 =

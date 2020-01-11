@@ -817,14 +817,13 @@ API
 .
 *
 /
-Transliterator
+NormalizationTransliterator
 *
 NormalizationTransliterator
 :
 :
 clone
 (
-void
 )
 const
 {

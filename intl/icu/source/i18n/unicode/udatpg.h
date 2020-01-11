@@ -764,6 +764,9 @@ object
 .
 *
 /
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 /
 *
 *
@@ -797,6 +800,11 @@ ticket
 *
 /
 UDATPG_FIELD_COUNT
+#
+endif
+/
+/
+U_FORCE_HIDE_DEPRECATED_API
 }
 UDateTimePatternField
 ;

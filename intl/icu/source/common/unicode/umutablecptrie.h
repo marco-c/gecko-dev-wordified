@@ -69,9 +69,6 @@ utypes
 h
 "
 #
-ifndef
-U_HIDE_DRAFT_API
-#
 include
 "
 unicode
@@ -302,7 +299,7 @@ UCPTrie
 see
 umutablecptrie_buildImmutable
 *
-draft
+stable
 ICU
 63
 *
@@ -436,7 +433,7 @@ return
 the
 trie
 *
-draft
+stable
 ICU
 63
 *
@@ -503,7 +500,7 @@ the
 trie
 clone
 *
-draft
+stable
 ICU
 63
 *
@@ -543,7 +540,7 @@ trie
 the
 trie
 *
-draft
+stable
 ICU
 63
 *
@@ -601,7 +598,7 @@ LocalPointerBase
 see
 LocalPointer
 *
-draft
+stable
 ICU
 63
 *
@@ -670,7 +667,7 @@ the
 mutable
 trie
 *
-draft
+stable
 ICU
 63
 *
@@ -745,7 +742,7 @@ the
 mutable
 trie
 *
-draft
+stable
 ICU
 63
 *
@@ -799,7 +796,7 @@ return
 the
 value
 *
-draft
+stable
 ICU
 63
 *
@@ -1115,7 +1112,7 @@ valid
 code
 point
 *
-draft
+stable
 ICU
 63
 *
@@ -1186,7 +1183,7 @@ out
 ICU
 UErrorCode
 *
-draft
+stable
 ICU
 63
 *
@@ -1289,7 +1286,7 @@ out
 ICU
 UErrorCode
 *
-draft
+stable
 ICU
 63
 *
@@ -1586,7 +1583,7 @@ UErrorCode
 see
 umutablecptrie_fromUCPTrie
 *
-draft
+stable
 ICU
 63
 *
@@ -1610,10 +1607,5 @@ pErrorCode
 )
 ;
 U_CDECL_END
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 #
 endif

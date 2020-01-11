@@ -599,7 +599,7 @@ object
 *
 /
 virtual
-UnicodeFunctor
+StringMatcher
 *
 clone
 (

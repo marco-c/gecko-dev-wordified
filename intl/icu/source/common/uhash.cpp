@@ -1486,6 +1486,8 @@ hash
 keypointer
 valuepointer
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -1550,6 +1552,9 @@ valuepointer
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 /
 *
 *

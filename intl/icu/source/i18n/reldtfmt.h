@@ -500,11 +500,10 @@ ICU
 *
 /
 virtual
-Format
+RelativeDateFormat
 *
 clone
 (
-void
 )
 const
 ;

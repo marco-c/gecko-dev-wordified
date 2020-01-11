@@ -32,15 +32,27 @@ copyright
 .
 html
 #
-if
-!
-UCONFIG_NO_FORMATTING
-#
 ifndef
 __NUMBERRANGEFORMATTER_H__
 #
 define
 __NUMBERRANGEFORMATTER_H__
+#
+include
+"
+unicode
+/
+utypes
+.
+h
+"
+#
+if
+U_SHOW_CPLUSPLUS_API
+#
+if
+!
+UCONFIG_NO_FORMATTING
 #
 include
 <
@@ -91,9 +103,6 @@ numberformatter
 .
 h
 "
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -335,7 +344,7 @@ sign
 .
 *
 *
-draft
+stable
 ICU
 63
 *
@@ -398,7 +407,7 @@ time
 .
 *
 *
-draft
+stable
 ICU
 63
 *
@@ -433,7 +442,7 @@ kilograms
 "
 *
 *
-draft
+stable
 ICU
 63
 *
@@ -473,7 +482,7 @@ kilograms
 "
 *
 *
-draft
+stable
 ICU
 63
 *
@@ -519,7 +528,7 @@ kilograms
 "
 *
 *
-draft
+stable
 ICU
 63
 *
@@ -568,7 +577,7 @@ FormattedNumber
 .
 *
 *
-draft
+stable
 ICU
 63
 *
@@ -603,7 +612,7 @@ Example
 "
 *
 *
-draft
+stable
 ICU
 63
 *
@@ -650,7 +659,7 @@ or
 "
 *
 *
-draft
+stable
 ICU
 63
 *
@@ -693,7 +702,7 @@ Example
 "
 *
 *
-draft
+stable
 ICU
 63
 *
@@ -742,7 +751,7 @@ NONE
 "
 *
 *
-draft
+stable
 ICU
 63
 *
@@ -790,7 +799,7 @@ applied
 .
 *
 *
-draft
+stable
 ICU
 63
 *
@@ -828,7 +837,7 @@ applied
 .
 *
 *
-draft
+stable
 ICU
 63
 *
@@ -863,7 +872,7 @@ applied
 .
 *
 *
-draft
+stable
 ICU
 63
 *
@@ -898,7 +907,7 @@ applied
 .
 *
 *
-draft
+stable
 ICU
 63
 *
@@ -1399,7 +1408,7 @@ fluent
 chain
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -1458,7 +1467,7 @@ see
 #
 numberFormatterBoth
 *
-draft
+stable
 ICU
 63
 *
@@ -1517,7 +1526,7 @@ see
 #
 numberFormatterBoth
 *
-draft
+stable
 ICU
 63
 *
@@ -1576,7 +1585,7 @@ see
 #
 numberFormatterBoth
 *
-draft
+stable
 ICU
 63
 *
@@ -1661,7 +1670,7 @@ fluent
 chain
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -1721,7 +1730,7 @@ see
 #
 numberFormatterFirst
 *
-draft
+stable
 ICU
 63
 *
@@ -1781,7 +1790,7 @@ see
 #
 numberFormatterFirst
 *
-draft
+stable
 ICU
 63
 *
@@ -1841,7 +1850,7 @@ see
 #
 numberFormatterFirst
 *
-draft
+stable
 ICU
 63
 *
@@ -1926,7 +1935,7 @@ fluent
 chain
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -1986,7 +1995,7 @@ see
 #
 numberFormatterSecond
 *
-draft
+stable
 ICU
 63
 *
@@ -2046,7 +2055,7 @@ see
 #
 numberFormatterSecond
 *
-draft
+stable
 ICU
 63
 *
@@ -2106,7 +2115,7 @@ see
 #
 numberFormatterSecond
 *
-draft
+stable
 ICU
 63
 *
@@ -2257,7 +2266,7 @@ fluent
 chain
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -2312,7 +2321,7 @@ see
 #
 collapse
 *
-draft
+stable
 ICU
 63
 *
@@ -2518,7 +2527,7 @@ fluent
 chain
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -2579,7 +2588,7 @@ see
 #
 identityFallback
 *
-draft
+stable
 ICU
 63
 *
@@ -2593,6 +2602,9 @@ identityFallback
 &
 &
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -2722,6 +2734,13 @@ clone
 &
 &
 ;
+#
+endif
+/
+*
+U_HIDE_DRAFT_API
+*
+/
 /
 *
 *
@@ -2756,7 +2775,7 @@ U_FAILURE
 outErrorCode
 )
 *
-draft
+stable
 ICU
 63
 *
@@ -2897,7 +2916,7 @@ safe
 see
 NumberRangeFormatter
 *
-draft
+stable
 ICU
 63
 *
@@ -2971,7 +2990,7 @@ fluent
 chain
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -3033,7 +3052,7 @@ see
 #
 locale
 *
-draft
+stable
 ICU
 63
 *
@@ -3071,7 +3090,7 @@ state
 .
 *
 *
-draft
+stable
 ICU
 63
 *
@@ -3094,7 +3113,7 @@ this
 UnlocalizedNumberRangeFormatter
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -3129,7 +3148,7 @@ undefined
 state
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -3152,7 +3171,7 @@ assignment
 operator
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -3191,7 +3210,7 @@ undefined
 state
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -3323,7 +3342,7 @@ safe
 see
 NumberFormatter
 *
-draft
+stable
 ICU
 63
 *
@@ -3431,7 +3450,7 @@ the
 string
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -3472,7 +3491,7 @@ state
 .
 *
 *
-draft
+stable
 ICU
 63
 *
@@ -3495,7 +3514,7 @@ this
 LocalizedNumberRangeFormatter
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -3530,7 +3549,7 @@ undefined
 state
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -3553,7 +3572,7 @@ assignment
 operator
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -3592,7 +3611,7 @@ undefined
 state
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -3695,6 +3714,11 @@ const
 endif
 /
 *
+U_HIDE_INTERNAL_API
+*
+/
+/
+*
 *
 *
 Destruct
@@ -3709,7 +3733,7 @@ might
 own
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -3912,7 +3936,7 @@ safe
 .
 *
 *
-draft
+stable
 ICU
 63
 *
@@ -3965,7 +3989,7 @@ toString
 )
 *
 *
-draft
+stable
 ICU
 63
 *
@@ -4050,7 +4074,7 @@ appendTo
 )
 *
 *
-draft
+stable
 ICU
 63
 *
@@ -4105,6 +4129,9 @@ status
 const
 U_OVERRIDE
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -4703,6 +4730,11 @@ status
 )
 const
 ;
+#
+endif
+/
+/
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -4768,7 +4800,7 @@ number
 range
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -4854,7 +4886,7 @@ undefined
 state
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -4886,7 +4918,7 @@ undefined
 state
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -4921,7 +4953,7 @@ might
 own
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -4980,8 +5012,6 @@ the
 data
 pointer
 .
-*
-internal
 *
 /
 explicit
@@ -5074,7 +5104,7 @@ examples
 .
 *
 *
-draft
+stable
 ICU
 63
 *
@@ -5130,7 +5160,7 @@ for
 chaining
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -5201,7 +5231,7 @@ for
 chaining
 .
 *
-draft
+stable
 ICU
 63
 *
@@ -5251,16 +5281,6 @@ U_NAMESPACE_END
 #
 endif
 /
-/
-U_HIDE_DRAFT_API
-#
-endif
-/
-/
-__NUMBERRANGEFORMATTER_H__
-#
-endif
-/
 *
 #
 if
@@ -5268,3 +5288,15 @@ if
 UCONFIG_NO_FORMATTING
 *
 /
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
+*
+/
+#
+endif
+/
+/
+__NUMBERRANGEFORMATTER_H__

@@ -1845,7 +1845,11 @@ index
 int32_t
 )
 (
+(
 level
+)
+&
+1
 )
 <
 <
@@ -1870,7 +1874,11 @@ x
 int32_t
 )
 (
+(
 level
+)
+&
+1
 )
 <
 <
@@ -3161,6 +3169,8 @@ RETURN_IF_NULL_OR_FAILING_ERRCODE
 pErrcode
 retvalue
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -3180,6 +3190,10 @@ pErrcode
 )
 return
 retvalue
+;
+\
+}
+UPRV_BLOCK_MACRO_END
 #
 define
 RETURN_IF_NOT_VALID_PARA
@@ -3188,6 +3202,8 @@ bidi
 errcode
 retvalue
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -3209,6 +3225,9 @@ retvalue
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 #
 define
 RETURN_IF_NOT_VALID_PARA_OR_LINE
@@ -3217,6 +3236,8 @@ bidi
 errcode
 retvalue
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -3238,6 +3259,9 @@ retvalue
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 #
 define
 RETURN_IF_BAD_RANGE
@@ -3248,6 +3272,8 @@ limit
 errcode
 retvalue
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -3283,12 +3309,17 @@ retvalue
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 #
 define
 RETURN_VOID_IF_NULL_OR_FAILING_ERRCODE
 (
 pErrcode
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -3307,6 +3338,10 @@ pErrcode
 )
 )
 return
+;
+\
+}
+UPRV_BLOCK_MACRO_END
 #
 define
 RETURN_VOID_IF_NOT_VALID_PARA
@@ -3314,6 +3349,8 @@ RETURN_VOID_IF_NOT_VALID_PARA
 bidi
 errcode
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -3334,6 +3371,9 @@ return
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 #
 define
 RETURN_VOID_IF_NOT_VALID_PARA_OR_LINE
@@ -3341,6 +3381,8 @@ RETURN_VOID_IF_NOT_VALID_PARA_OR_LINE
 bidi
 errcode
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -3361,6 +3403,9 @@ return
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 #
 define
 RETURN_VOID_IF_BAD_RANGE
@@ -3370,6 +3415,8 @@ start
 limit
 errcode
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -3404,6 +3451,9 @@ return
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 /
 *
 helper

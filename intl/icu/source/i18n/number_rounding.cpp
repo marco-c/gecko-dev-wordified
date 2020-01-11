@@ -180,7 +180,7 @@ magnitude
 =
 value
 .
-isZero
+isZeroish
 (
 )
 ?
@@ -240,7 +240,7 @@ magnitude
 =
 value
 .
-isZero
+isZeroish
 (
 )
 ?
@@ -1783,13 +1783,16 @@ this
 method
 with
 zero
+NaN
+or
+infinity
 .
 U_ASSERT
 (
 !
 input
 .
-isZero
+isZeroish
 (
 )
 )
@@ -1849,7 +1852,7 @@ if
 (
 input
 .
-isZero
+isZeroish
 (
 )
 |
@@ -2262,7 +2265,7 @@ if
 (
 value
 .
-isZero
+isZeroish
 (
 )
 &
@@ -2612,7 +2615,7 @@ U_ASSERT
 (
 value
 .
-isZero
+isZeroish
 (
 )
 )

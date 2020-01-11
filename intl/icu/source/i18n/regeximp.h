@@ -958,8 +958,10 @@ expression
 /
 Save
 InputPos
-and
 SP
+and
+active
+region
 in
 static
 data

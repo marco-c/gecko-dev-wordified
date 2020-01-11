@@ -796,14 +796,13 @@ API
 .
 *
 /
-Transliterator
+NameUnicodeTransliterator
 *
 NameUnicodeTransliterator
 :
 :
 clone
 (
-void
 )
 const
 {

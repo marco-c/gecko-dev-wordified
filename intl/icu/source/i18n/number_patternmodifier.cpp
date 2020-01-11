@@ -243,7 +243,7 @@ MutablePatternModifier
 :
 setNumberProperties
 (
-int8_t
+Signum
 signum
 StandardPlural
 :
@@ -454,7 +454,7 @@ STANDARD_PLURAL_VALUES
 {
 setNumberProperties
 (
-1
+SIGNUM_POS
 plural
 )
 ;
@@ -463,7 +463,7 @@ pm
 >
 adoptModifier
 (
-1
+SIGNUM_POS
 plural
 createConstantModifier
 (
@@ -473,7 +473,7 @@ status
 ;
 setNumberProperties
 (
-0
+SIGNUM_ZERO
 plural
 )
 ;
@@ -482,7 +482,7 @@ pm
 >
 adoptModifier
 (
-0
+SIGNUM_ZERO
 plural
 createConstantModifier
 (
@@ -492,8 +492,7 @@ status
 ;
 setNumberProperties
 (
--
-1
+SIGNUM_NEG
 plural
 )
 ;
@@ -502,8 +501,7 @@ pm
 >
 adoptModifier
 (
--
-1
+SIGNUM_NEG
 plural
 createConstantModifier
 (
@@ -556,7 +554,7 @@ needed
 .
 setNumberProperties
 (
-1
+SIGNUM_POS
 StandardPlural
 :
 :
@@ -571,7 +569,7 @@ pm
 >
 adoptModifierWithoutPlural
 (
-1
+SIGNUM_POS
 createConstantModifier
 (
 status
@@ -580,7 +578,7 @@ status
 ;
 setNumberProperties
 (
-0
+SIGNUM_ZERO
 StandardPlural
 :
 :
@@ -595,7 +593,7 @@ pm
 >
 adoptModifierWithoutPlural
 (
-0
+SIGNUM_ZERO
 createConstantModifier
 (
 status
@@ -604,8 +602,7 @@ status
 ;
 setNumberProperties
 (
--
-1
+SIGNUM_NEG
 StandardPlural
 :
 :
@@ -620,8 +617,7 @@ pm
 >
 adoptModifierWithoutPlural
 (
--
-1
+SIGNUM_NEG
 createConstantModifier
 (
 status
@@ -670,10 +666,10 @@ UErrorCode
 status
 )
 {
-NumberStringBuilder
+FormattedStringBuilder
 a
 ;
-NumberStringBuilder
+FormattedStringBuilder
 b
 ;
 insertPrefix
@@ -900,7 +896,7 @@ ImmutablePatternModifier
 :
 getModifier
 (
-int8_t
+Signum
 signum
 StandardPlural
 :
@@ -1126,7 +1122,7 @@ MutablePatternModifier
 :
 apply
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t
@@ -1657,7 +1653,7 @@ MutablePatternModifier
 :
 insertPrefix
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 sb
 int
@@ -1699,7 +1695,7 @@ MutablePatternModifier
 :
 insertSuffix
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 sb
 int

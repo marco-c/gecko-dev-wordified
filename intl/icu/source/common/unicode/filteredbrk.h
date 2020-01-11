@@ -231,6 +231,9 @@ utypes
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -877,6 +880,9 @@ status
 =
 0
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 /
 *
 *
@@ -952,6 +958,11 @@ status
 =
 0
 ;
+#
+endif
+/
+/
+U_FORCE_HIDE_DEPRECATED_API
 /
 *
 *
@@ -1115,6 +1126,13 @@ UCONFIG_NO_BREAK_ITERATION
 &
 !
 UCONFIG_NO_FILTERED_BREAK_ITERATION
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
+*
+/
 #
 endif
 /

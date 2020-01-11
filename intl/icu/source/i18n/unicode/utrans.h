@@ -1521,7 +1521,7 @@ the
 text
 to
 be
-transliteratd
+transliterated
 .
 *
 INPUT
@@ -1570,7 +1570,7 @@ the
 text
 to
 be
-transliteratd
+transliterated
 .
 *
 INPUT
@@ -3403,7 +3403,7 @@ can
 *
 be
 transliterated
-unambiguosly
+unambiguously
 .
 This
 method
@@ -4086,19 +4086,12 @@ terminated
 *
 param
 textCapacity
-a
-pointer
-to
 the
 length
 of
 the
 text
 buffer
-.
-*
-Upon
-return
 *
 param
 start
@@ -4302,7 +4295,7 @@ can
 be
 *
 transliterated
-unambiguosly
+unambiguously
 .
 See
 utrans_transIncremental

@@ -1452,6 +1452,7 @@ c2
 result
 resultType
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -1567,6 +1568,7 @@ initialValue
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -1622,7 +1624,6 @@ UTRIE_LEAD_INDEX_DISP
 0
 c16
 )
-;
 /
 *
 *
@@ -1681,6 +1682,8 @@ c32
 result
 resultType
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -1790,6 +1793,9 @@ initialValue
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -1827,6 +1833,7 @@ c2
 result
 resultType
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -1970,6 +1977,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -2003,6 +2011,7 @@ c2
 result
 resultType
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -2242,6 +2251,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 Public

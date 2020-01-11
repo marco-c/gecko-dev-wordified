@@ -1129,6 +1129,9 @@ fnNumber
 )
 ;
 \
+UPRV_BLOCK_MACRO_BEGIN
+{
+\
 if
 (
 utrace_getLevel
@@ -1153,6 +1156,9 @@ UTRACE_TRACED_ENTRY
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -1249,6 +1255,9 @@ fnNumber
 )
 ;
 \
+UPRV_BLOCK_MACRO_BEGIN
+{
+\
 if
 (
 utrace_getLevel
@@ -1273,6 +1282,9 @@ UTRACE_TRACED_ENTRY
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -1356,8 +1368,9 @@ define
 UTRACE_EXIT
 (
 )
-\
+UPRV_BLOCK_MACRO_BEGIN
 {
+\
 if
 (
 utraceFnNumber
@@ -1377,7 +1390,9 @@ UTRACE_EXITV_NONE
 ;
 \
 }
+\
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -1431,8 +1446,9 @@ UTRACE_EXIT_VALUE
 (
 val
 )
-\
+UPRV_BLOCK_MACRO_BEGIN
 {
+\
 if
 (
 utraceFnNumber
@@ -1453,15 +1469,18 @@ val
 ;
 \
 }
+\
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTRACE_EXIT_STATUS
 (
 status
 )
-\
+UPRV_BLOCK_MACRO_BEGIN
 {
+\
 if
 (
 utraceFnNumber
@@ -1482,7 +1501,9 @@ status
 ;
 \
 }
+\
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTRACE_EXIT_VALUE_STATUS
@@ -1490,8 +1511,9 @@ UTRACE_EXIT_VALUE_STATUS
 val
 status
 )
-\
+UPRV_BLOCK_MACRO_BEGIN
 {
+\
 if
 (
 utraceFnNumber
@@ -1517,7 +1539,9 @@ status
 ;
 \
 }
+\
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTRACE_EXIT_PTR_STATUS
@@ -1525,8 +1549,9 @@ UTRACE_EXIT_PTR_STATUS
 ptr
 status
 )
-\
+UPRV_BLOCK_MACRO_BEGIN
 {
+\
 if
 (
 utraceFnNumber
@@ -1552,7 +1577,9 @@ status
 ;
 \
 }
+\
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -1626,6 +1653,8 @@ UTRACE_DATA0
 level
 fmt
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -1652,6 +1681,9 @@ fmt
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -1726,6 +1758,8 @@ level
 fmt
 a
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -1755,6 +1789,9 @@ a
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -1830,6 +1867,8 @@ fmt
 a
 b
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -1862,6 +1901,9 @@ b
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -1938,6 +1980,8 @@ a
 b
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -1973,6 +2017,9 @@ c
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -2050,6 +2097,8 @@ b
 c
 d
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -2088,6 +2137,9 @@ d
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -2166,6 +2218,8 @@ c
 d
 e
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -2207,6 +2261,9 @@ e
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -2286,6 +2343,8 @@ d
 e
 f
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -2330,6 +2389,9 @@ f
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -2410,6 +2472,8 @@ e
 f
 g
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -2457,6 +2521,9 @@ g
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -2538,6 +2605,8 @@ f
 g
 h
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -2588,6 +2657,9 @@ h
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -2670,6 +2742,8 @@ g
 h
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -2723,6 +2797,9 @@ i
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 #
 else
 /

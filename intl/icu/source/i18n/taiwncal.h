@@ -714,11 +714,10 @@ internal
 *
 /
 virtual
-Calendar
+TaiwanCalendar
 *
 clone
 (
-void
 )
 const
 ;

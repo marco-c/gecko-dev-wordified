@@ -3556,7 +3556,6 @@ pairs
 .
 }
 }
-;
 positionStatusIdx
 =
 fBI

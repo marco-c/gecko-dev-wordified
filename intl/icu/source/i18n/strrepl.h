@@ -800,7 +800,7 @@ UnicodeFunctor
 *
 /
 virtual
-UnicodeFunctor
+StringReplacer
 *
 clone
 (

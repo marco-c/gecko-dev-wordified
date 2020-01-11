@@ -414,11 +414,10 @@ API
 *
 /
 virtual
-Transliterator
+UnicodeNameTransliterator
 *
 clone
 (
-void
 )
 const
 ;

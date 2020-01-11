@@ -1574,7 +1574,11 @@ void
 *
 array
 ;
-UAlignedMemory
+alignas
+(
+max_align_t
+)
+char
 staticArray
 [
 1

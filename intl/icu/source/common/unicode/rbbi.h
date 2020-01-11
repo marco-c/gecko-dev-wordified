@@ -387,6 +387,9 @@ utypes
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -2070,7 +2073,7 @@ ICU
 *
 /
 virtual
-BreakIterator
+RuleBasedBreakIterator
 *
 clone
 (
@@ -4234,6 +4237,9 @@ getStaticClassID
 void
 )
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 /
 *
 *
@@ -4467,7 +4473,7 @@ instead
 *
 /
 virtual
-BreakIterator
+RuleBasedBreakIterator
 *
 createBufferClone
 (
@@ -4482,6 +4488,11 @@ UErrorCode
 status
 )
 ;
+#
+endif
+/
+/
+U_FORCE_HIDE_DEPRECATED_API
 /
 *
 *
@@ -5542,6 +5553,13 @@ endif
 if
 !
 UCONFIG_NO_BREAK_ITERATION
+*
+/
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
 *
 /
 #

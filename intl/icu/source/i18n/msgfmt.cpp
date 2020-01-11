@@ -3110,7 +3110,7 @@ owns
 the
 copy
 .
-Format
+MessageFormat
 *
 MessageFormat
 :
@@ -5597,7 +5597,6 @@ totalCapacity
 )
 {
 }
-;
 MessageFormat
 *
 t
@@ -13092,7 +13091,10 @@ return
 TRUE
 ;
 }
-Format
+MessageFormat
+:
+:
+DummyFormat
 *
 MessageFormat
 :

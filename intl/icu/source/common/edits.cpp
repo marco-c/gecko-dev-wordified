@@ -1575,6 +1575,7 @@ UErrorCode
 &
 outErrorCode
 )
+const
 {
 if
 (

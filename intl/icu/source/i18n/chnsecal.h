@@ -1522,7 +1522,7 @@ ChineseCalendar
 /
 clone
 virtual
-Calendar
+ChineseCalendar
 *
 clone
 (

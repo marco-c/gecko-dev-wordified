@@ -584,7 +584,6 @@ propsTrie
 c
 )
 )
-;
 /
 *
 API

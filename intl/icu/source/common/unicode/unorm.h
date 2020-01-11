@@ -1285,6 +1285,9 @@ of
 Normalizer
 object
 .
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 /
 *
 *
@@ -1491,6 +1494,11 @@ UNORM_MODE_COUNT
 }
 UNormalizationMode
 ;
+#
+endif
+/
+/
+U_FORCE_HIDE_DEPRECATED_API
 #
 ifndef
 U_HIDE_DEPRECATED_API

@@ -445,6 +445,13 @@ utypes
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
+if
+!
+UCONFIG_NO_FORMATTING
+#
 include
 "
 unicode
@@ -453,10 +460,6 @@ uchar
 .
 h
 "
-#
-if
-!
-UCONFIG_NO_FORMATTING
 #
 include
 "
@@ -3065,8 +3068,6 @@ fastCopyFrom
 .
 *
 *
-internal
-*
 /
 UnicodeString
 fSymbols
@@ -3090,8 +3091,6 @@ getConstSymbol
 Always
 empty
 .
-*
-internal
 *
 /
 UnicodeString
@@ -3884,6 +3883,13 @@ endif
 if
 !
 UCONFIG_NO_FORMATTING
+*
+/
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
 *
 /
 #

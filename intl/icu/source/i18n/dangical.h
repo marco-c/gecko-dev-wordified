@@ -711,7 +711,7 @@ internal
 *
 /
 virtual
-Calendar
+DangiCalendar
 *
 clone
 (

@@ -1020,11 +1020,10 @@ release
 *
 /
 virtual
-Transliterator
+RuleBasedTransliterator
 *
 clone
 (
-void
 )
 const
 ;

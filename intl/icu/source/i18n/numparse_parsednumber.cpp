@@ -87,6 +87,13 @@ h
 #
 include
 "
+string_segment
+.
+h
+"
+#
+include
+"
 putilimp
 .
 h
@@ -446,7 +453,7 @@ if
 (
 quantity
 .
-isZero
+isZeroish
 (
 )
 &
@@ -664,7 +671,7 @@ if
 (
 quantity
 .
-isZero
+isZeroish
 (
 )
 &

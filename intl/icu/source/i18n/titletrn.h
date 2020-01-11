@@ -466,11 +466,10 @@ object
 *
 /
 virtual
-Transliterator
+TitlecaseTransliterator
 *
 clone
 (
-void
 )
 const
 ;

@@ -1757,14 +1757,13 @@ m_strsrch_
 )
 ;
 }
-SearchIterator
+StringSearch
 *
 StringSearch
 :
 :
 safeClone
 (
-void
 )
 const
 {

@@ -212,6 +212,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_FORMATTING
 #
@@ -877,7 +880,7 @@ Style
 public
 :
 virtual
-Style
+SuperscriptStyle
 *
 clone
 (
@@ -948,7 +951,7 @@ endMarkup
 {
 }
 virtual
-Style
+MarkupStyle
 *
 clone
 (
@@ -1072,6 +1075,13 @@ endif
 *
 !
 UCONFIG_NO_FORMATTING
+*
+/
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
 *
 /
 #

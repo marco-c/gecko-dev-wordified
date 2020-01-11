@@ -270,6 +270,9 @@ utypes
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -3029,6 +3032,13 @@ jumpTarget
 }
 ;
 U_NAMESPACE_END
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
+*
+/
 #
 endif
 /

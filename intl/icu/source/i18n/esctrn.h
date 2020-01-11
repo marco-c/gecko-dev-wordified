@@ -887,7 +887,7 @@ API
 *
 /
 virtual
-Transliterator
+EscapeTransliterator
 *
 clone
 (

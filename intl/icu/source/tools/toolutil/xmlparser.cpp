@@ -2807,7 +2807,6 @@ TRUE
 ;
 }
 }
-;
 exit
 :
 ucnv_close

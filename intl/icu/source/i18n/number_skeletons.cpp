@@ -151,6 +151,13 @@ charstr
 .
 h
 "
+#
+include
+"
+string_segment
+.
+h
+"
 using
 namespace
 icu
@@ -1138,6 +1145,7 @@ wrapping
 *
 /
 \
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -1173,6 +1181,7 @@ true
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 SKELETON_UCHAR_TO_CHAR
@@ -1191,6 +1200,7 @@ dest
 )
 ;
 \
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 UErrorCode
@@ -1293,6 +1303,7 @@ return
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 }
 /
 /
@@ -7537,6 +7548,13 @@ offset
 {
 if
 (
+maxInt
+!
+=
+-
+1
+&
+&
 segment
 .
 charAt

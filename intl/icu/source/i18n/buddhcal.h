@@ -762,11 +762,10 @@ internal
 *
 /
 virtual
-Calendar
+BuddhistCalendar
 *
 clone
 (
-void
 )
 const
 ;

@@ -101,7 +101,7 @@ h
 #
 include
 "
-number_stringbuilder
+formatted_string_builder
 .
 h
 "
@@ -184,7 +184,7 @@ class
 UFormattedNumberRangeData
 :
 public
-FormattedValueNumberStringBuilderImpl
+FormattedValueStringBuilderImpl
 {
 public
 :
@@ -192,7 +192,7 @@ UFormattedNumberRangeData
 (
 )
 :
-FormattedValueNumberStringBuilderImpl
+FormattedValueStringBuilderImpl
 (
 0
 )

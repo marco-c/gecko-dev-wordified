@@ -2972,10 +2972,6 @@ else
 {
 pSpanNotSet
 =
-(
-UnicodeSet
-*
-)
 otherStringSpan
 .
 pSpanNotSet
@@ -3235,10 +3231,6 @@ UnicodeSet
 *
 newSet
 =
-(
-UnicodeSet
-*
-)
 spanSet
 .
 cloneAsThawed

@@ -230,6 +230,9 @@ utypes
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -1148,7 +1151,6 @@ DateTimeRule
 *
 clone
 (
-void
 )
 const
 ;
@@ -1909,6 +1911,13 @@ endif
 if
 !
 UCONFIG_NO_FORMATTING
+*
+/
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
 *
 /
 #

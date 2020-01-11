@@ -247,6 +247,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_FORMATTING
 #
@@ -1915,7 +1918,7 @@ ICU
 *
 /
 virtual
-Format
+TimeZoneFormat
 *
 clone
 (
@@ -8115,6 +8118,13 @@ endif
 *
 !
 UCONFIG_NO_FORMATTING
+*
+/
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
 *
 /
 #

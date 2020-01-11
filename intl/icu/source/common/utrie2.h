@@ -7474,6 +7474,7 @@ limit
 c
 result
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 {
@@ -7612,6 +7613,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -7646,6 +7648,7 @@ src
 c
 result
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 {
@@ -7771,6 +7774,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -7806,6 +7810,7 @@ src
 limit
 result
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 uint8_t
@@ -8193,6 +8198,7 @@ __index
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 /
 *
 *
@@ -8228,6 +8234,7 @@ start
 src
 result
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 uint8_t
@@ -8332,6 +8339,7 @@ __index
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 U_CDECL_END
 #
 endif

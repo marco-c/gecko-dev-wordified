@@ -679,7 +679,7 @@ result
 ScientificNumberFormatter
 :
 :
-Style
+SuperscriptStyle
 *
 ScientificNumberFormatter
 :
@@ -1027,7 +1027,7 @@ appendTo
 ScientificNumberFormatter
 :
 :
-Style
+MarkupStyle
 *
 ScientificNumberFormatter
 :

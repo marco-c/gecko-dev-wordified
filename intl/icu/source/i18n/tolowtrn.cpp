@@ -460,14 +460,13 @@ API
 .
 *
 /
-Transliterator
+LowercaseTransliterator
 *
 LowercaseTransliterator
 :
 :
 clone
 (
-void
 )
 const
 {

@@ -294,6 +294,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_NORMALIZATION
 #
@@ -6095,6 +6098,13 @@ endif
 /
 !
 UCONFIG_NO_NORMALIZATION
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
+*
+/
 #
 endif
 /

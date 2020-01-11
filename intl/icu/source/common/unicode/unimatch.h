@@ -240,6 +240,9 @@ Unicode
 Matcher
 *
 /
+#
+if
+U_SHOW_CPLUSPLUS_API
 U_NAMESPACE_BEGIN
 class
 Replaceable
@@ -1294,5 +1297,12 @@ const
 }
 ;
 U_NAMESPACE_END
+#
+endif
+/
+*
+U_SHOW_CPLUSPLUS_API
+*
+/
 #
 endif
