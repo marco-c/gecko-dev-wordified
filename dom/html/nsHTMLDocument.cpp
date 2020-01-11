@@ -2739,14 +2739,6 @@ contentType
 .
 EqualsLiteral
 (
-APPLICATION_CACHED_XUL
-)
-|
-|
-contentType
-.
-EqualsLiteral
-(
 TEXT_XUL
 )
 )
