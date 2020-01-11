@@ -3073,6 +3073,12 @@ path
         
 self
 .
+uninstall_apk
+(
+)
+        
+self
+.
 install_apk
 (
 self
