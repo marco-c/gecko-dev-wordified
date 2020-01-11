@@ -486,7 +486,7 @@ bool
 self
 !
 =
-Float
+Self
 :
 :
 None
