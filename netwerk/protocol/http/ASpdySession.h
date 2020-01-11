@@ -486,6 +486,7 @@ items
 like
 cancels
 .
+static
 bool
 SoftStreamError
 (
