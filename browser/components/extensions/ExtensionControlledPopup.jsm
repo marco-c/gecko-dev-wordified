@@ -627,7 +627,7 @@ panelUI
 .
 inc
 .
-xul
+xhtml
 .
 *
 param
