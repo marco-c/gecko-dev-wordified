@@ -2040,7 +2040,6 @@ GlobalPreferences
 *
 "
 )
-)
 (
 home
 -
@@ -2059,6 +2058,7 @@ universalaccess
 .
 plist
 "
+)
 )
 (
 allow
