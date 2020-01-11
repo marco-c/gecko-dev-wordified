@@ -149,5 +149,10 @@ present
 )
 ;
 }
+{
+iframe
+:
+true
+}
 )
 ;
