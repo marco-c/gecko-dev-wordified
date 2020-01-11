@@ -806,14 +806,6 @@ return
 mVisualCloneTarget
 ;
 }
-void
-TogglePictureInPicture
-(
-ErrorResult
-&
-rv
-)
-;
 protected
 :
 virtual
