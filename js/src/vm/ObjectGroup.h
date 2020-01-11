@@ -658,7 +658,6 @@ group
 const
 JSClass
 *
-const
 clasp_
 ;
 /
@@ -707,6 +706,7 @@ JS
 Realm
 *
 realm_
+;
 ;
 /
 /
