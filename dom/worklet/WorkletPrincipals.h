@@ -184,6 +184,12 @@ aWriter
 )
 override
 ;
+bool
+isSystemOrAddonPrincipal
+(
+)
+override
+;
 /
 /
 Callback
