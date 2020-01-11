@@ -114,6 +114,11 @@ python
 /
 mozversioncontrol
 "
+"
+python
+/
+mozbuild
+"
 )
 sys
 .
