@@ -467,7 +467,7 @@ use
 *
 {
 link
-WebExtension
+GeckoSession
 #
 setMessageDelegate
 }
