@@ -59813,7 +59813,7 @@ tmpResultPrincipal
 }
 static
 bool
-HasHttpScheme
+SchemeUsesDocChannel
 (
 nsIURI
 *
@@ -59843,6 +59843,17 @@ SchemeIs
 (
 "
 https
+"
+)
+|
+|
+aURI
+-
+>
+SchemeIs
+(
+"
+moz
 "
 )
 )
@@ -59911,7 +59922,7 @@ XRE_IsContentProcess
 )
 &
 &
-HasHttpScheme
+SchemeUsesDocChannel
 (
 aLoadState
 -
