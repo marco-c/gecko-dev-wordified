@@ -5073,6 +5073,16 @@ aApzc2
 )
 const
 ;
+bool
+IsFixedToRootContent
+(
+const
+HitTestingTreeNode
+*
+aNode
+)
+const
+;
 /
 *
 *
