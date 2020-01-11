@@ -362,16 +362,6 @@ AsyncGenerator
 \
 MACRO
 (
-AsyncGeneratorFunction
-AsyncGeneratorFunction
-\
-"
-AsyncGeneratorFunction
-"
-)
-\
-MACRO
-(
 AsyncGeneratorNext
 AsyncGeneratorNext
 "

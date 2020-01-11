@@ -5775,13 +5775,11 @@ function
 if
 (
 !
-GlobalObject
-:
-:
-initAsyncGenerators
+EnsureConstructor
 (
 cx
 global
+JSProto_AsyncGeneratorFunction
 )
 )
 {
