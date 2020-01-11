@@ -17483,6 +17483,15 @@ FooSide
 '
 ]
 )
+        
+self
+.
+visitActorType
+(
+s
+.
+actor
+)
     
 def
 visitManagedEndpointType
@@ -17533,6 +17542,15 @@ ManagedEndpoint
 FooSide
 '
 ]
+)
+        
+self
+.
+visitActorType
+(
+s
+.
+actor
 )
     
 def

@@ -2933,6 +2933,7 @@ __init__
 (
 self
 qname
+actor
 )
 :
         
@@ -2941,6 +2942,12 @@ self
 qname
 =
 qname
+        
+self
+.
+actor
+=
+actor
     
 def
 isEndpoint
@@ -2991,6 +2998,7 @@ __init__
 (
 self
 qname
+actor
 )
 :
         
@@ -2999,6 +3007,12 @@ self
 qname
 =
 qname
+        
+self
+.
+actor
+=
+actor
     
 def
 isManagedEndpoint
@@ -4732,6 +4746,15 @@ ipc
 '
 ]
 )
+                                  
+ActorType
+(
+p
+.
+decl
+.
+type
+)
 )
                 
 shortname
@@ -4795,6 +4818,15 @@ mozilla
 ipc
 '
 ]
+)
+                                  
+ActorType
+(
+p
+.
+decl
+.
+type
 )
 )
                 
@@ -4861,6 +4893,15 @@ ipc
 '
 ]
 )
+                                         
+ActorType
+(
+p
+.
+decl
+.
+type
+)
 )
                 
 shortname
@@ -4925,6 +4966,15 @@ mozilla
 ipc
 '
 ]
+)
+                                         
+ActorType
+(
+p
+.
+decl
+.
+type
 )
 )
                 
