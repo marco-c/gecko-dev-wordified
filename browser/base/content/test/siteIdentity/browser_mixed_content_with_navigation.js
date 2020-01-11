@@ -265,7 +265,7 @@ true
 expectedIdentityMode
 :
 "
-unknownIdentity
+certErrorPage
 "
 }
 ]
