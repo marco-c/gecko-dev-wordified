@@ -166,7 +166,7 @@ h
 #
 include
 "
-nsIWebBrowserChrome2
+nsIWebBrowserChrome
 .
 h
 "
@@ -798,7 +798,7 @@ MessageManagerCallback
 public
 PBrowserChild
 public
-nsIWebBrowserChrome2
+nsIWebBrowserChrome
 public
 nsIEmbeddingSiteWindow
 public
@@ -1097,7 +1097,6 @@ mUniqueId
 }
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIWEBBROWSERCHROME
-NS_DECL_NSIWEBBROWSERCHROME2
 NS_DECL_NSIEMBEDDINGSITEWINDOW
 NS_DECL_NSIWEBBROWSERCHROMEFOCUS
 NS_DECL_NSIINTERFACEREQUESTOR
