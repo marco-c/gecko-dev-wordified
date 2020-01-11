@@ -972,11 +972,6 @@ setInputValueForAutocompletion
 (
 hud
 "
-var
-docx
-=
-1
-;
 doc
 "
 )

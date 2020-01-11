@@ -7191,6 +7191,10 @@ cursor
 frameActorId
 selectedNodeActor
 authorizedEvaluations
+expressionVars
+=
+[
+]
 )
 {
 let
@@ -7430,6 +7434,7 @@ webconsoleActor
 this
 selectedNodeActor
 authorizedEvaluations
+expressionVars
 }
 )
 ;
