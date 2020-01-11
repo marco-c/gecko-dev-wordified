@@ -6356,6 +6356,8 @@ structured
 import
 commandline
     
+from
+.
 import
 products
     
