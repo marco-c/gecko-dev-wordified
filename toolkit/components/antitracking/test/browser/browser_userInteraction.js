@@ -711,6 +711,12 @@ removeTab
 tab
 )
 ;
+UrlClassifierTestUtils
+.
+cleanupTestTrackers
+(
+)
+;
 }
 )
 ;
