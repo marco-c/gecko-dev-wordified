@@ -2566,20 +2566,12 @@ return
 manifest
     
 def
-__call__
+get_chunked_manifests
 (
 self
 tests
-values
 )
 :
-        
-tests
-=
-list
-(
-tests
-)
         
 #
 Find
@@ -2931,6 +2923,34 @@ x
 ]
 )
 )
+)
+        
+return
+chunks
+    
+def
+__call__
+(
+self
+tests
+values
+)
+:
+        
+tests
+=
+list
+(
+tests
+)
+        
+chunks
+=
+self
+.
+get_chunked_manifests
+(
+tests
 )
         
 runtime
