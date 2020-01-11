@@ -380,6 +380,16 @@ MOZ_FETCHES_DIR
 )
             
 if
+test
+.
+get
+(
+'
+fetch_task
+'
+False
+)
+and
 fetches_dir
 and
 os
@@ -403,6 +413,19 @@ fetches_dir
 )
 :
                     
+if
+test
+.
+get
+(
+'
+fetch_task
+'
+)
+in
+name
+:
+                        
 path
 =
 os
@@ -414,7 +437,7 @@ join
 fetches_dir
 name
 )
-                    
+                        
 if
 os
 .
@@ -425,7 +448,7 @@ isdir
 path
 )
 :
-                        
+                            
 shutil
 .
 copytree
