@@ -292,10 +292,5 @@ accTree
 )
 ;
 }
-{
-iframe
-:
-true
-}
 )
 ;

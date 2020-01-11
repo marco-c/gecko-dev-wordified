@@ -2883,8 +2883,10 @@ id
 ]
 }
 (
+[
 contentId
 contentAttr
+]
 )
 =
 >
@@ -3139,9 +3141,7 @@ contentElm
 remove
 (
 )
-[
 elm
-]
 )
 ;
 /
@@ -3358,9 +3358,7 @@ remove
 ;
 }
 }
-[
 id
-]
 )
 ;
 /
@@ -3720,11 +3718,6 @@ event
 "
 )
 ;
-}
-{
-iframe
-:
-true
 }
 )
 )

@@ -210,15 +210,11 @@ button
 "
 >
 {
-contentDocBodyAttrs
-:
-{
 id
 :
 "
 buttonInputDoc
 "
-}
 }
 )
 ;

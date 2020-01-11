@@ -714,10 +714,5 @@ unexpected
 ;
 }
 }
-{
-iframe
-:
-true
-}
 )
 ;

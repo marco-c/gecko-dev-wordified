@@ -246,10 +246,5 @@ ENTRY
 )
 ;
 }
-{
-iframe
-:
-true
-}
 )
 ;

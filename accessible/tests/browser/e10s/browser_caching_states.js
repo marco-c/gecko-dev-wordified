@@ -745,10 +745,5 @@ extraStateTests
 )
 ;
 }
-{
-iframe
-:
-true
-}
 )
 ;
