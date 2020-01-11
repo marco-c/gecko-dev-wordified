@@ -2193,9 +2193,6 @@ get_playback
 self
 .
 config
-self
-.
-device
 )
         
 self
