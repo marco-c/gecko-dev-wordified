@@ -5348,16 +5348,6 @@ endif
 }
 #
 endif
-void
-FlushICache
-(
-void
-*
-code
-size_t
-size
-)
-;
 /
 /
 In

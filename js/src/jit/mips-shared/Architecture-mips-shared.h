@@ -1894,16 +1894,6 @@ return
 false
 ;
 }
-void
-FlushICache
-(
-void
-*
-code
-size_t
-size
-)
-;
 }
 /
 /

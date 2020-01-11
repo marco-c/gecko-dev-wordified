@@ -3873,16 +3873,6 @@ GetARM64Flags
 (
 )
 ;
-void
-FlushICache
-(
-void
-*
-code
-size_t
-size
-)
-;
 }
 /
 /
