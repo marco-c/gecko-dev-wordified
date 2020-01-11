@@ -989,6 +989,17 @@ else
 false
 #
 endif
+ENABLE_REMOTE_AGENT
+:
+#
+ifdef
+ENABLE_REMOTE_AGENT
+true
+#
+else
+false
+#
+endif
 }
 )
 ;
