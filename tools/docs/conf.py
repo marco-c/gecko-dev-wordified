@@ -725,3 +725,6 @@ moz_project_name
 '
 main
 '
+html_show_copyright
+=
+False

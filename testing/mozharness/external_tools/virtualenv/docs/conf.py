@@ -1114,3 +1114,6 @@ generated
 latex_use_modindex
 =
 True
+html_show_copyright
+=
+False

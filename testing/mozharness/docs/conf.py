@@ -1337,10 +1337,9 @@ Default
 is
 True
 .
-#
 html_show_copyright
 =
-True
+False
 #
 If
 true
