@@ -1005,6 +1005,9 @@ class
 XULPersist
 ;
 class
+ChromeObserver
+;
+class
 ClientInfo
 ;
 class
@@ -32222,6 +32225,12 @@ RefPtr
 XULPersist
 >
 mXULPersist
+;
+RefPtr
+<
+ChromeObserver
+>
+mChromeObserver
 ;
 RefPtr
 <
