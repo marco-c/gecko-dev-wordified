@@ -41,7 +41,9 @@ tests
 the
 browser
 .
-urlbarExperiments
+experiments
+.
+urlbar
 .
 isBrowserShowingNotification
 /
