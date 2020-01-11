@@ -1305,7 +1305,7 @@ Step
 var
 relativeTarget
 =
-ToInteger
+ToIntegerPositiveZero
 (
 target
 )
@@ -1344,7 +1344,7 @@ Step
 var
 relativeStart
 =
-ToInteger
+ToIntegerPositiveZero
 (
 start
 )
@@ -1391,7 +1391,7 @@ undefined
 ?
 len
 :
-ToInteger
+ToIntegerPositiveZero
 (
 end
 )
@@ -2514,7 +2514,7 @@ Step
 var
 relativeStart
 =
-ToInteger
+ToIntegerPositiveZero
 (
 start
 )
@@ -2561,7 +2561,7 @@ undefined
 ?
 len
 :
-ToInteger
+ToIntegerPositiveZero
 (
 end
 )
@@ -4047,10 +4047,7 @@ Steps
 -
 5
 .
-Add
-zero
-to
-convert
+Convert
 -
 0
 to
@@ -4065,12 +4062,10 @@ a
 var
 n
 =
-ToInteger
+ToIntegerPositiveZero
 (
 fromIndex
 )
-+
-0
 ;
 /
 /
@@ -4757,10 +4752,7 @@ return
 Steps
 4
 .
-Add
-zero
-to
-convert
+Convert
 -
 0
 to
@@ -4781,15 +4773,13 @@ length
 >
 1
 ?
-ToInteger
+ToIntegerPositiveZero
 (
 arguments
 [
 1
 ]
 )
-+
-0
 :
 len
 -
@@ -6248,7 +6238,7 @@ Step
 var
 relativeStart
 =
-ToInteger
+ToIntegerPositiveZero
 (
 start
 )
@@ -6295,7 +6285,7 @@ undefined
 ?
 len
 :
-ToInteger
+ToIntegerPositiveZero
 (
 end
 )
@@ -8742,7 +8732,7 @@ Step
 var
 relativeBegin
 =
-ToInteger
+ToIntegerPositiveZero
 (
 begin
 )
@@ -8789,7 +8779,7 @@ undefined
 ?
 srcLength
 :
-ToInteger
+ToIntegerPositiveZero
 (
 end
 )
@@ -9132,7 +9122,7 @@ Steps
 var
 n
 =
-ToInteger
+ToIntegerPositiveZero
 (
 fromIndex
 )
@@ -10653,7 +10643,7 @@ Step
 var
 relativeStart
 =
-ToInteger
+ToIntegerPositiveZero
 (
 start
 )
@@ -10700,7 +10690,7 @@ undefined
 ?
 len
 :
-ToInteger
+ToIntegerPositiveZero
 (
 end
 )
@@ -11180,7 +11170,7 @@ Step
 var
 relativeStart
 =
-ToInteger
+ToIntegerPositiveZero
 (
 start
 )
@@ -11227,7 +11217,7 @@ undefined
 ?
 len
 :
-ToInteger
+ToIntegerPositiveZero
 (
 end
 )

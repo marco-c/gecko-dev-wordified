@@ -749,7 +749,7 @@ avoid
 repeated
 bailouts
 in
-ToInteger
+ToIntegerPositiveZero
 .
 let
 truncatedStringFiller
@@ -2147,7 +2147,7 @@ Step
 var
 intStart
 =
-ToInteger
+ToIntegerPositiveZero
 (
 start
 )
@@ -2170,7 +2170,7 @@ undefined
 ?
 len
 :
-ToInteger
+ToIntegerPositiveZero
 (
 end
 )
@@ -2380,7 +2380,7 @@ Step
 var
 intStart
 =
-ToInteger
+ToIntegerPositiveZero
 (
 start
 )
@@ -2441,7 +2441,7 @@ undefined
 ?
 size
 :
-ToInteger
+ToIntegerPositiveZero
 (
 length
 )
@@ -2638,7 +2638,7 @@ Step
 var
 intStart
 =
-ToInteger
+ToIntegerPositiveZero
 (
 start
 )
@@ -2661,7 +2661,7 @@ undefined
 ?
 len
 :
-ToInteger
+ToIntegerPositiveZero
 (
 end
 )
@@ -2859,7 +2859,7 @@ Step
 var
 position
 =
-ToInteger
+ToIntegerPositiveZero
 (
 pos
 )
@@ -3049,7 +3049,7 @@ Step
 var
 n
 =
-ToInteger
+ToIntegerPositiveZero
 (
 count
 )

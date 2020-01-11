@@ -593,7 +593,7 @@ Step
 .
 v
 =
-ToInteger
+ToIntegerPositiveZero
 (
 v
 )
@@ -621,16 +621,6 @@ to
 optimize
 in
 Ion
-.
-/
-/
-This
-is
-correct
-even
-for
--
-0
 .
 v
 =
