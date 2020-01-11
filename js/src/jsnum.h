@@ -773,7 +773,7 @@ format
 .
 *
 /
-const
+constexpr
 double
 DOUBLE_INTEGRAL_PRECISION_LIMIT
 =
