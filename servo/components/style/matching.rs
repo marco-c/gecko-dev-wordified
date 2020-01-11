@@ -969,7 +969,9 @@ replace_rule_node
 CascadeLevel
 :
 :
-StyleAttributeNormal
+same_tree_author_normal
+(
+)
 style_attribute
 primary_rules
 )
@@ -982,7 +984,9 @@ replace_rule_node
 CascadeLevel
 :
 :
-StyleAttributeImportant
+same_tree_author_important
+(
+)
 style_attribute
 primary_rules
 )
