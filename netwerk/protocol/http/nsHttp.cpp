@@ -230,6 +230,13 @@ h
 "
 #
 include
+"
+nsJSUtils
+.
+h
+"
+#
+include
 <
 errno
 .
