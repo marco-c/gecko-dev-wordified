@@ -40272,7 +40272,7 @@ aCommands
 )
 ;
 }
-void
+bool
 nsWindow
 :
 :
@@ -40298,6 +40298,11 @@ Validate
 the
 arguments
 .
+if
+(
+NS_WARN_IF
+(
+!
 nsIWidget
 :
 :
@@ -40307,7 +40312,13 @@ aType
 aEvent
 aCommands
 )
+)
+)
+{
+return
+false
 ;
+}
 if
 (
 aEvent
@@ -40523,6 +40534,7 @@ gdkCode
 )
 ;
 return
+true
 ;
 }
 }
@@ -40546,6 +40558,9 @@ GetEditCommands
 aEvent
 aCommands
 )
+;
+return
+true
 ;
 }
 already_AddRefed

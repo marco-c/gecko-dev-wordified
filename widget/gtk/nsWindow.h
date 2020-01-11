@@ -1855,7 +1855,7 @@ aNativeKeyCode
 )
 ;
 virtual
-void
+bool
 GetEditCommands
 (
 NativeKeyBindingsType

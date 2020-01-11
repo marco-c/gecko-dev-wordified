@@ -12061,7 +12061,7 @@ NativeKeyBindingsForRichTextEditor
 }
 ;
 virtual
-void
+bool
 GetEditCommands
 (
 NativeKeyBindingsType

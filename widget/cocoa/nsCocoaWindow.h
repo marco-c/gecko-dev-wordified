@@ -2253,7 +2253,7 @@ mInputContext
 ;
 }
 virtual
-void
+bool
 GetEditCommands
 (
 NativeKeyBindingsType
