@@ -187,6 +187,14 @@ command
 '
         
 '
+run
+-
+on
+-
+projects
+'
+        
+'
 treeherder
 .
 platform
