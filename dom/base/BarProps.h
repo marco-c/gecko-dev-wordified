@@ -264,7 +264,6 @@ GetParentObject
 )
 const
 ;
-virtual
 JSObject
 *
 WrapObject
@@ -282,7 +281,7 @@ JSObject
 >
 aGivenProto
 )
-override
+final
 ;
 virtual
 bool
@@ -390,7 +389,6 @@ MenubarProp
 (
 )
 ;
-virtual
 bool
 GetVisible
 (
@@ -402,7 +400,6 @@ aRv
 )
 override
 ;
-virtual
 void
 SetVisible
 (
@@ -448,7 +445,6 @@ ToolbarProp
 (
 )
 ;
-virtual
 bool
 GetVisible
 (
@@ -460,7 +456,6 @@ aRv
 )
 override
 ;
-virtual
 void
 SetVisible
 (
@@ -506,7 +501,6 @@ LocationbarProp
 (
 )
 ;
-virtual
 bool
 GetVisible
 (
@@ -518,7 +512,6 @@ aRv
 )
 override
 ;
-virtual
 void
 SetVisible
 (
@@ -564,7 +557,6 @@ PersonalbarProp
 (
 )
 ;
-virtual
 bool
 GetVisible
 (
@@ -576,7 +568,6 @@ aRv
 )
 override
 ;
-virtual
 void
 SetVisible
 (
@@ -622,7 +613,6 @@ StatusbarProp
 (
 )
 ;
-virtual
 bool
 GetVisible
 (
@@ -634,7 +624,6 @@ aRv
 )
 override
 ;
-virtual
 void
 SetVisible
 (
@@ -680,7 +669,6 @@ ScrollbarsProp
 (
 )
 ;
-virtual
 bool
 GetVisible
 (
@@ -692,7 +680,6 @@ aRv
 )
 override
 ;
-virtual
 void
 SetVisible
 (
