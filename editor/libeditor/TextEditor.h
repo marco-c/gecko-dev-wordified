@@ -4260,6 +4260,11 @@ nsIEditor
 :
 EDirection
 aDirectionAndAmount
+nsIEditor
+:
+:
+EStripWrappers
+aStripWrappers
 )
 ;
 /
