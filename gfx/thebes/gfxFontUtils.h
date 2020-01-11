@@ -7308,6 +7308,10 @@ nsCString
 >
 &
 aFontList
+bool
+aLocalized
+=
+false
 )
 ;
 /
@@ -7339,6 +7343,10 @@ nsCString
 >
 &
 aFontList
+bool
+aLocalized
+=
+false
 )
 ;
 /
