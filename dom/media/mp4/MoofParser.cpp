@@ -8691,12 +8691,6 @@ flags
 >
 24
 ;
-flags
-=
-flags
-&
-0xffffff
-;
 uint32_t
 type
 ;
