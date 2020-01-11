@@ -159,9 +159,6 @@ build
 .
 topsrcdir
 '
-tools
-'
-'
 docs
 '
 )
@@ -1721,8 +1718,6 @@ Please
 add
 it
 in
-tools
-/
 docs
 /
 config
