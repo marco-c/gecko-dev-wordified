@@ -2339,7 +2339,7 @@ canonicalize
 true
 stat
 :
-2
+3
 }
 {
 /
@@ -2374,7 +2374,7 @@ canonicalize
 true
 stat
 :
-2
+3
 }
 {
 /
