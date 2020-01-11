@@ -343,6 +343,16 @@ true
 ]
 [
 "
+browser
+.
+tabs
+.
+documentchannel
+"
+true
+]
+[
+"
 dom
 .
 serviceWorkers

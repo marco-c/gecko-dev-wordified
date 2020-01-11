@@ -153,6 +153,16 @@ useHTTPResponseProcessSelection
 "
 true
 ]
+[
+"
+browser
+.
+tabs
+.
+documentchannel
+"
+true
+]
 ]
 }
 )
