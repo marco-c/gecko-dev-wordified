@@ -1173,7 +1173,7 @@ if
 (
 NS_FAILED
 (
-BlockUntilLoadableRootsLoaded
+BlockUntilLoadableCertsLoaded
 (
 )
 )
@@ -3242,7 +3242,7 @@ if
 (
 NS_FAILED
 (
-BlockUntilLoadableRootsLoaded
+BlockUntilLoadableCertsLoaded
 (
 )
 )

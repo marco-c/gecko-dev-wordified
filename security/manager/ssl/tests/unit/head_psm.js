@@ -7205,7 +7205,6 @@ module
 .
 name
 moduleName
-"
 Non
 -
 test
@@ -7216,11 +7215,10 @@ shouldn
 t
 equal
 '
-PKCS11
-Test
-Module
+{
+moduleName
+}
 '
-"
 )
 ;
 ok

@@ -627,7 +627,7 @@ loaded
 nsresult
 rv
 =
-BlockUntilLoadableRootsLoaded
+BlockUntilLoadableCertsLoaded
 (
 )
 ;
@@ -759,7 +759,7 @@ _retval
 nsresult
 rv
 =
-BlockUntilLoadableRootsLoaded
+BlockUntilLoadableCertsLoaded
 (
 )
 ;
