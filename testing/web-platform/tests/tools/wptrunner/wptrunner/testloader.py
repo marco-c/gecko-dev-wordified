@@ -37,6 +37,7 @@ Queue
 from
 six
 import
+ensure_binary
 iteritems
 from
 six
@@ -273,7 +274,10 @@ hashlib
 .
 md5
 (
+ensure_binary
+(
 test_path
+)
 )
 .
 hexdigest
@@ -370,6 +374,8 @@ hashlib
 .
 md5
 (
+ensure_binary
+(
 os
 .
 path
@@ -377,6 +383,7 @@ path
 dirname
 (
 test_path
+)
 )
 )
 .
