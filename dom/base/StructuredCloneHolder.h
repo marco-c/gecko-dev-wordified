@@ -680,7 +680,7 @@ JS
 :
 :
 CloneDataPolicy
-cloneDataPolicy
+aCloneDataPolicy
 )
 ;
 /
@@ -1047,7 +1047,7 @@ JS
 :
 :
 CloneDataPolicy
-cloneDataPolicy
+aCloneDataPolicy
 ErrorResult
 &
 aRv
