@@ -557,15 +557,6 @@ include
 "
 mozilla
 /
-StaticPrefs_fission
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_network
 .
 h
