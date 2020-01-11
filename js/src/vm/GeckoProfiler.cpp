@@ -2055,7 +2055,7 @@ func
 script
 -
 >
-functionDelazifying
+function
 (
 )
 ;
