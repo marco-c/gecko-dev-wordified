@@ -259,6 +259,11 @@ MOZ_BC_FIELD
 HadOriginalOpener
 bool
 )
+MOZ_BC_FIELD
+(
+IsPopupSpam
+bool
+)
 /
 /
 This
