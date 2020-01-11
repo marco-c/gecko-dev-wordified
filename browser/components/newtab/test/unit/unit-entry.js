@@ -1173,7 +1173,9 @@ cb
 )
 =
 >
-cb
+this
+.
+receiveMessage
 (
 )
 removeMessageListener
