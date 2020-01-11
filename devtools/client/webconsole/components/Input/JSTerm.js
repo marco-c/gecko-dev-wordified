@@ -3729,7 +3729,7 @@ setAutoCompletionText
 }
 this
 .
-emit
+emitForTests
 (
 "
 set

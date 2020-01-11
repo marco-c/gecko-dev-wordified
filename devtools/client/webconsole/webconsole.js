@@ -1417,7 +1417,7 @@ this
 .
 ui
 .
-emit
+emitForTests
 (
 "
 source
@@ -2123,7 +2123,7 @@ jump_to_source
 ;
 this
 .
-emit
+emitForTests
 (
 "
 source
