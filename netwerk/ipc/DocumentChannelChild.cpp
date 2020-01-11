@@ -435,6 +435,8 @@ bool
 aIsActive
 bool
 aIsTopLevelDoc
+bool
+aHasNonEmptySandboxingFlags
 )
 :
 mLoadState
@@ -470,6 +472,10 @@ aIsActive
 mIsTopLevelDoc
 (
 aIsTopLevelDoc
+)
+mHasNonEmptySandboxingFlags
+(
+aHasNonEmptySandboxingFlags
 )
 {
 mEventQueue
@@ -1017,6 +1023,14 @@ isTopLevelDoc
 )
 =
 mIsTopLevelDoc
+;
+args
+.
+hasNonEmptySandboxingFlags
+(
+)
+=
+mHasNonEmptySandboxingFlags
 ;
 args
 .

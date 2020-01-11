@@ -536,6 +536,11 @@ aArgs
 isTopLevelDoc
 (
 )
+aArgs
+.
+hasNonEmptySandboxingFlags
+(
+)
 rv
 getter_AddRefs
 (
@@ -581,6 +586,11 @@ loadType
 aArgs
 .
 cacheKey
+(
+)
+aArgs
+.
+hasNonEmptySandboxingFlags
 (
 )
 )
