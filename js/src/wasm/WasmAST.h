@@ -7468,6 +7468,9 @@ AstExpr
 *
 offsetIfActive_
 ;
+ValType
+elemType_
+;
 AstElemVector
 elems_
 ;
@@ -7482,6 +7485,8 @@ targetTable
 AstExpr
 *
 offsetIfActive
+ValType
+elemType
 AstElemVector
 &
 &
@@ -7499,6 +7504,10 @@ targetTable
 offsetIfActive_
 (
 offsetIfActive
+)
+elemType_
+(
+elemType
 )
 elems_
 (
@@ -7551,6 +7560,16 @@ const
 {
 return
 offsetIfActive_
+;
+}
+ValType
+elemType
+(
+)
+const
+{
+return
+elemType_
 ;
 }
 AstElemVector

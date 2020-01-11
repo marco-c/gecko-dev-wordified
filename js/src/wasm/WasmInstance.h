@@ -1318,7 +1318,8 @@ already
 been
 performed
 .
-void
+MOZ_MUST_USE
+bool
 initElems
 (
 uint32_t
