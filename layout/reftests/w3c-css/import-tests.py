@@ -308,17 +308,6 @@ writing
 modes
 "
 )
-    
-os
-.
-path
-.
-join
-(
-"
-selectors
-"
-)
 ]
 #
 Insert
