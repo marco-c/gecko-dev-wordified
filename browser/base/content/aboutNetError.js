@@ -5674,7 +5674,7 @@ well
 .
 failedCertInfo
 .
-erroCodeString
+errorCodeString
 !
 =
 "
