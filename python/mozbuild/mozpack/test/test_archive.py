@@ -219,7 +219,6 @@ path
 join
 (
 root
-b
 '
 file
 %
@@ -277,7 +276,6 @@ MODE_STANDARD
             
 files
 [
-b
 '
 file
 %
@@ -300,7 +298,6 @@ range
             
 files
 [
-b
 '
 file
 %
@@ -316,6 +313,7 @@ i
 =
 GeneratedFile
 (
+b
 '
 file
 %
