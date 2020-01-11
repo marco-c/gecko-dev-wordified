@@ -165,6 +165,7 @@ JS_PUBLIC_API
 JSTracer
 ;
 class
+JS_FRIEND_API
 ProfilingStack
 ;
 /
@@ -3233,6 +3234,7 @@ atomic
 /
 /
 class
+JS_FRIEND_API
 ProfilingStack
 final
 {
