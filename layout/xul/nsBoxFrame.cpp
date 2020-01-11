@@ -5134,16 +5134,12 @@ if
 mContent
 -
 >
-IsAnyOfXULElements
+IsXULElement
 (
 nsGkAtoms
 :
 :
 window
-nsGkAtoms
-:
-:
-dialog
 )
 &
 &
