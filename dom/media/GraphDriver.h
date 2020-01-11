@@ -4645,7 +4645,7 @@ friend
 class
 AsyncCubebTask
 ;
-bool
+void
 Init
 (
 )
