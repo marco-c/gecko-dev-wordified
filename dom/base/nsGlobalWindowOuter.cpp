@@ -40154,7 +40154,7 @@ callerInnerWindow
 callerInnerWindow
 -
 >
-IsCrossOriginIsolated
+IsSharedMemoryAllowed
 (
 )
 )

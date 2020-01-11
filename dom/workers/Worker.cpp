@@ -742,7 +742,7 @@ win
 win
 -
 >
-IsCrossOriginIsolated
+IsSharedMemoryAllowed
 (
 )
 )
@@ -773,7 +773,7 @@ worker
 worker
 -
 >
-IsCrossOriginIsolated
+IsSharedMemoryAllowed
 (
 )
 )

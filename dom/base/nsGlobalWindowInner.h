@@ -6722,6 +6722,12 @@ IsInSyncOperation
 )
 ;
 }
+bool
+IsSharedMemoryAllowed
+(
+)
+const
+;
 /
 /
 https
@@ -6748,7 +6754,7 @@ origin
 -
 isolated
 bool
-IsCrossOriginIsolated
+CrossOriginIsolated
 (
 )
 const
