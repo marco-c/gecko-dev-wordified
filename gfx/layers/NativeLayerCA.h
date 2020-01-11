@@ -758,15 +758,6 @@ aNeedsDepth
 )
 override
 ;
-gfx
-:
-:
-IntRegion
-CurrentSurfaceInvalidRegion
-(
-)
-override
-;
 void
 NotifySurfaceReady
 (
