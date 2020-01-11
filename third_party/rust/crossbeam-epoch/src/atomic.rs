@@ -1194,7 +1194,11 @@ cfg
 (
 not
 (
-has_min_const_fn
+feature
+=
+"
+nightly
+"
 )
 )
 ]
@@ -1287,7 +1291,11 @@ null
 [
 cfg
 (
-has_min_const_fn
+feature
+=
+"
+nightly
+"
 )
 ]
 pub

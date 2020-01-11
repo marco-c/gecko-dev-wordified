@@ -478,6 +478,9 @@ dcid
 u8
 ]
 )
+-
+>
+CryptoState
 {
 const
 CLIENT_INITIAL_LABEL
@@ -561,15 +564,6 @@ CLIENT_INITIAL_LABEL
 )
 }
 ;
-self
-.
-states
-[
-0
-]
-=
-Some
-(
 CryptoState
 {
 epoch
@@ -604,8 +598,6 @@ read_label
 dcid
 )
 }
-)
-;
 }
 /
 /

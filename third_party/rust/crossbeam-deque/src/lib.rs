@@ -940,7 +940,7 @@ Injector
 :
 struct
 .
-Injector
+Stealer
 .
 html
 /
