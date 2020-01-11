@@ -1084,23 +1084,16 @@ self
 )
 :
         
-if
-self
-.
-runner
-:
-            
 return
 self
 .
-runner
+proc
 .
-is_running
+poll
 (
 )
-        
-return
-False
+is
+None
     
 def
 cleanup
