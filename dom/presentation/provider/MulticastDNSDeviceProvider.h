@@ -260,7 +260,7 @@ Init
 (
 )
 ;
-nsresult
+void
 Uninit
 (
 )
@@ -600,7 +600,7 @@ StartServer
 (
 )
 ;
-nsresult
+void
 StopServer
 (
 )
@@ -615,7 +615,7 @@ RegisterMDNSService
 (
 )
 ;
-nsresult
+void
 UnregisterMDNSService
 (
 nsresult

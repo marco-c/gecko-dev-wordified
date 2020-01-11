@@ -178,6 +178,20 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsDataHashtable
+.
+h
+"
+#
+include
+"
+nsThread
+.
+h
+"
 namespace
 mozilla
 {
@@ -603,7 +617,7 @@ windowId
 }
 }
 }
-nsresult
+void
 UpdateWindowId
 (
 const
@@ -632,9 +646,6 @@ AddSessionId
 aWindowId
 aSessionId
 )
-;
-return
-NS_OK
 ;
 }
 void
@@ -1181,7 +1192,7 @@ url
 }
 }
 }
-nsresult
+void
 DoNotifyAvailableChange
 (
 const
@@ -1433,9 +1444,6 @@ aAvailable
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 GetAvailbilityUrlByAvailability
@@ -1794,7 +1802,7 @@ aSessionId
 ;
 }
 }
-nsresult
+void
 UpdateWindowIdBySessionIdInternal
 (
 const
@@ -1839,7 +1847,6 @@ nsIPresentationService
 ROLE_CONTROLLER
 )
 {
-return
 mControllerSessionIdManager
 .
 UpdateWindowId
@@ -1849,7 +1856,8 @@ aWindowId
 )
 ;
 }
-return
+else
+{
 mReceiverSessionIdManager
 .
 UpdateWindowId
@@ -1858,6 +1866,7 @@ aSessionId
 aWindowId
 )
 ;
+}
 }
 /
 /

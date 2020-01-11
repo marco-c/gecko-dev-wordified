@@ -234,7 +234,7 @@ HandleShutdown
 (
 )
 ;
-nsresult
+void
 HandleDeviceAdded
 (
 nsIPresentationDevice

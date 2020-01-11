@@ -288,7 +288,7 @@ PresentationIPCService
 (
 )
 ;
-nsresult
+void
 SendRequest
 (
 nsIPresentationServiceCallback
