@@ -121,7 +121,7 @@ h
 #
 include
 "
-nsIAppWindow
+nsIXULWindow
 .
 h
 "
@@ -1874,9 +1874,9 @@ CHROME_DEFAULT
 ;
 nsCOMPtr
 <
-nsIAppWindow
+nsIXULWindow
 >
-appWindow
+xulWindow
 ;
 if
 (
@@ -1895,7 +1895,7 @@ flags
 nullptr
 getter_AddRefs
 (
-appWindow
+xulWindow
 )
 )
 )
@@ -1924,7 +1924,7 @@ window
 =
 do_GetInterface
 (
-appWindow
+xulWindow
 )
 ;
 if

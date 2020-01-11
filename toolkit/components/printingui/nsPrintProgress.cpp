@@ -149,7 +149,7 @@ h
 #
 include
 "
-nsIAppWindow
+nsIXULWindow
 .
 h
 "
@@ -510,9 +510,9 @@ owner
 ;
 nsCOMPtr
 <
-nsIAppWindow
+nsIXULWindow
 >
-ownerAppWindow
+ownerXULWindow
 =
 do_GetInterface
 (
@@ -527,7 +527,7 @@ ownerWindow
 =
 do_GetInterface
 (
-ownerAppWindow
+ownerXULWindow
 )
 ;
 NS_ENSURE_STATE

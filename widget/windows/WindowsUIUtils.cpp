@@ -166,6 +166,13 @@ h
 #
 include
 "
+nsIXULWindow
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Services

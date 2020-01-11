@@ -449,7 +449,7 @@ h
 #
 include
 "
-nsIAppWindow
+nsIXULWindow
 .
 h
 "
@@ -8426,9 +8426,9 @@ mWidgetListener
 {
 nsCOMPtr
 <
-nsIAppWindow
+nsIXULWindow
 >
-appWindow
+xulWindow
 (
 window
 -
@@ -8436,14 +8436,14 @@ window
 mWidgetListener
 -
 >
-GetAppWindow
+GetXULWindow
 (
 )
 )
 ;
 if
 (
-appWindow
+xulWindow
 )
 {
 /
@@ -8456,7 +8456,7 @@ intrinsically
 sized
 so
 tell
-AppWindow
+nsXULWindow
 to
 /
 /
@@ -8467,7 +8467,7 @@ size
 for
 us
 .
-appWindow
+xulWindow
 -
 >
 SetIntrinsicallySized

@@ -187,7 +187,7 @@ h
 #
 include
 "
-AppWindow
+nsWebShellWindow
 .
 h
 "
@@ -786,7 +786,7 @@ rv
 ;
 RefPtr
 <
-AppWindow
+nsWebShellWindow
 >
 newWindow
 ;
@@ -912,7 +912,7 @@ nsAppShellService
 :
 CreateTopLevelWindow
 (
-nsIAppWindow
+nsIXULWindow
 *
 aParent
 nsIURI
@@ -930,7 +930,7 @@ aOpeningTab
 mozIDOMWindowProxy
 *
 aOpenerWindow
-nsIAppWindow
+nsIXULWindow
 *
 *
 aResult
@@ -952,7 +952,7 @@ CREATE_TOP_LEVEL_WINDOW
 ;
 RefPtr
 <
-AppWindow
+nsWebShellWindow
 >
 newWindow
 ;
@@ -1011,7 +1011,7 @@ aResult
 ;
 nsCOMPtr
 <
-nsIAppWindow
+nsIXULWindow
 >
 parent
 ;
@@ -2476,7 +2476,7 @@ nsAppShellService
 :
 CalculateWindowZLevel
 (
-nsIAppWindow
+nsIXULWindow
 *
 aParent
 uint32_t
@@ -2488,7 +2488,7 @@ zLevel
 ;
 zLevel
 =
-nsIAppWindow
+nsIXULWindow
 :
 :
 normalZ
@@ -2504,7 +2504,7 @@ CHROME_WINDOW_RAISED
 )
 zLevel
 =
-nsIAppWindow
+nsIXULWindow
 :
 :
 raisedZ
@@ -2521,7 +2521,7 @@ CHROME_WINDOW_LOWERED
 )
 zLevel
 =
-nsIAppWindow
+nsIXULWindow
 :
 :
 loweredZ
@@ -2767,7 +2767,7 @@ windowList
 wm
 -
 >
-GetAppWindowEnumerator
+GetXULWindowEnumerator
 (
 nullptr
 getter_AddRefs
@@ -2911,7 +2911,7 @@ nsAppShellService
 :
 JustCreateTopWindow
 (
-nsIAppWindow
+nsIXULWindow
 *
 aParent
 nsIURI
@@ -2931,7 +2931,7 @@ aOpeningTab
 mozIDOMWindowProxy
 *
 aOpenerWindow
-AppWindow
+nsWebShellWindow
 *
 *
 aResult
@@ -2950,7 +2950,7 @@ mXPCOMWillShutDown
 ;
 nsCOMPtr
 <
-nsIAppWindow
+nsIXULWindow
 >
 parent
 ;
@@ -2969,12 +2969,12 @@ aParent
 ;
 RefPtr
 <
-AppWindow
+nsWebShellWindow
 >
 window
 =
 new
-AppWindow
+nsWebShellWindow
 (
 aChromeMask
 )
@@ -4098,7 +4098,7 @@ nsAppShellService
 :
 GetHiddenWindow
 (
-nsIAppWindow
+nsIXULWindow
 *
 *
 aWindow
@@ -4292,7 +4292,7 @@ nsAppShellService
 :
 RegisterTopLevelWindow
 (
-nsIAppWindow
+nsIXULWindow
 *
 aWindow
 )
@@ -4513,20 +4513,20 @@ registered
 nullptr
 )
 ;
-AppWindow
+nsXULWindow
 *
-appWindow
+xulWindow
 =
 static_cast
 <
-AppWindow
+nsXULWindow
 *
 >
 (
 aWindow
 )
 ;
-appWindow
+xulWindow
 -
 >
 WasRegistered
@@ -4544,7 +4544,7 @@ nsAppShellService
 :
 UnregisterTopLevelWindow
 (
-nsIAppWindow
+nsIXULWindow
 *
 aWindow
 )

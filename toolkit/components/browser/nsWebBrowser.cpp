@@ -6340,7 +6340,7 @@ should
 be
 accessed
 from
-nsIAppWindow
+nsIXULWindow
 return
 NS_ERROR_NOT_IMPLEMENTED
 ;
