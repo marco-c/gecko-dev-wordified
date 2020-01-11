@@ -1581,6 +1581,52 @@ package_manager
 =
 choice
         
+_
+hg_modern
+_
+=
+self
+.
+is_mercurial_modern
+(
+)
+        
+if
+not
+hg_modern
+:
+            
+print
+(
+"
+Mercurial
+wasn
+'
+t
+found
+or
+is
+not
+sufficiently
+modern
+.
+"
+                  
+"
+It
+will
+be
+installed
+with
+%
+s
+"
+%
+self
+.
+package_manager
+)
+        
 getattr
 (
 self
@@ -1595,6 +1641,8 @@ self
 package_manager
 )
 (
+not
+hg_modern
 )
     
 def
@@ -2853,6 +2901,7 @@ def
 ensure_homebrew_system_packages
 (
 self
+install_mercurial
 )
 :
         
@@ -2926,10 +2975,6 @@ tar
 '
             
 '
-mercurial
-'
-            
-'
 node
 '
             
@@ -2953,6 +2998,19 @@ watchman
 '
         
 ]
+        
+if
+install_mercurial
+:
+            
+packages
+.
+append
+(
+'
+mercurial
+'
+)
         
 self
 .
@@ -3363,6 +3421,7 @@ def
 ensure_macports_system_packages
 (
 self
+install_mercurial
 )
 :
         
@@ -3385,10 +3444,6 @@ gnureadline
 '
             
 '
-mercurial
-'
-            
-'
 autoconf213
 '
             
@@ -3405,6 +3460,19 @@ nodejs8
 '
         
 ]
+        
+if
+install_mercurial
+:
+            
+packages
+.
+append
+(
+'
+mercurial
+'
+)
         
 self
 .
