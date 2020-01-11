@@ -205,9 +205,6 @@ SerializeToPrintData
 nsIPrintSettings
 *
 aSettings
-nsIWebBrowserPrint
-*
-aWBP
 mozilla
 :
 :
@@ -303,9 +300,6 @@ SerializeToPrintDataParent
 nsIPrintSettings
 *
 aSettings
-nsIWebBrowserPrint
-*
-aWBP
 mozilla
 :
 :

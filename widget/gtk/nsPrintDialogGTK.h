@@ -173,9 +173,6 @@ aParent
 nsIPrintSettings
 *
 aSettings
-nsIWebBrowserPrint
-*
-aWebBrowserPrint
 )
 override
 ;

@@ -380,9 +380,6 @@ aParent
 nsIPrintSettings
 *
 aSettings
-nsIWebBrowserPrint
-*
-aWebBrowserPrint
 )
 {
 NS_ENSURE_ARG
@@ -419,7 +416,6 @@ return
 NativeShowPrintDialog
 (
 hWnd
-aWebBrowserPrint
 aSettings
 )
 ;

@@ -217,13 +217,6 @@ nsPrintfCString
 .
 h
 "
-#
-include
-"
-nsIWebBrowserPrint
-.
-h
-"
 using
 namespace
 mozilla
@@ -750,9 +743,6 @@ SerializeToPrintData
 nsIPrintSettings
 *
 aSettings
-nsIWebBrowserPrint
-*
-aWBP
 PrintData
 *
 data

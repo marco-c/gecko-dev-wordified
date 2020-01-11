@@ -181,9 +181,6 @@ SerializeToPrintData
 nsIPrintSettings
 *
 aSettings
-nsIWebBrowserPrint
-*
-aWBP
 PrintData
 *
 data
@@ -198,7 +195,6 @@ nsPrintSettingsService
 SerializeToPrintData
 (
 aSettings
-aWBP
 data
 )
 ;

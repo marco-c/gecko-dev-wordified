@@ -7141,18 +7141,6 @@ bail
 out
 /
 /
-nsCOMPtr
-<
-nsIWebBrowserPrint
->
-wbp
-(
-do_QueryInterface
-(
-mDocViewerPrint
-)
-)
-;
 rv
 =
 printPromptService
@@ -7161,7 +7149,6 @@ printPromptService
 ShowPrintDialog
 (
 domWin
-wbp
 printData
 -
 >

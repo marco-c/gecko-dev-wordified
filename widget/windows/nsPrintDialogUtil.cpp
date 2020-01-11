@@ -341,13 +341,6 @@ h
 #
 include
 "
-nsIWebBrowserPrint
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -2873,9 +2866,6 @@ NativeShowPrintDialog
 (
 HWND
 aHWnd
-nsIWebBrowserPrint
-*
-aWebBrowserPrint
 nsIPrintSettings
 *
 aPrintSettings
