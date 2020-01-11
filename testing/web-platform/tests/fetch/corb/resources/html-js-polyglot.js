@@ -86,10 +86,8 @@ valid
 javascript
 .
 window
-.
-polyglot
-=
-"
+[
+'
 html
 -
 js
@@ -97,7 +95,10 @@ js
 polyglot
 .
 js
-"
+'
+]
+=
+true
 ;
 /
 /
