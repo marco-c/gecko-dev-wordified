@@ -364,6 +364,8 @@ ensureParentDir
 FileAvoidWrite
     
 mkdir
+    
+ensure_subprocess_env
 )
 import
 mozinstall
@@ -7485,7 +7487,10 @@ env
 '
 ]
 =
+ensure_subprocess_env
+(
 env
+)
         
 return
 subprocess
