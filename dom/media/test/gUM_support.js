@@ -546,7 +546,7 @@ testPrefs
 push
 (
 [
-'
+"
 media
 .
 navigator
@@ -554,7 +554,7 @@ navigator
 permission
 .
 disabled
-'
+"
 true
 ]
 )

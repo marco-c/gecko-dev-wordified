@@ -37,8 +37,8 @@ replace
 t
 /
 g
-'
-'
+"
+"
 )
 .
 split
