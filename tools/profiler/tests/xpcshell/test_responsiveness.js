@@ -324,7 +324,7 @@ doSyncWork
 100
 )
 ;
-captureAtLeastOneJsSample
+doAtLeastOnePeriodicSample
 (
 )
 ;
