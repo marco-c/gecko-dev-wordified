@@ -15,9 +15,9 @@ super
 :
 :
 {
+generate_dependencies
 ConstrainResult
 MonotoneFramework
-generate_dependencies
 }
 ;
 use
@@ -1307,7 +1307,6 @@ data
 )
 =
 >
-{
 self
 .
 has_type_parameter_in_array
@@ -1325,7 +1324,6 @@ into
 (
 )
 )
-}
 Field
 :
 :

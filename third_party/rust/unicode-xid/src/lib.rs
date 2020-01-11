@@ -437,7 +437,7 @@ bench
 feature
 (
 test
-unicode
+unicode_internals
 )
 )
 ]

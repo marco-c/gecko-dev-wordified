@@ -40,9 +40,6 @@ clang_sys
 *
 ;
 use
-regex
-;
-use
 ir
 :
 :
@@ -52,14 +49,7 @@ context
 BindgenContext
 ;
 use
-std
-:
-:
-{
-mem
-ptr
-slice
-}
+regex
 ;
 use
 std
@@ -110,10 +100,20 @@ raw
 {
 c_char
 c_int
+c_longlong
 c_uint
 c_ulong
-c_longlong
 c_ulonglong
+}
+;
+use
+std
+:
+:
+{
+mem
+ptr
+slice
 }
 ;
 /
@@ -2837,6 +2837,7 @@ visit
 |
 c
 |
+{
 if
 c
 .
@@ -2856,6 +2857,7 @@ CXChildVisit_Break
 else
 {
 CXChildVisit_Continue
+}
 }
 )
 ;
@@ -3632,7 +3634,6 @@ map
 |
 i
 |
-{
 Cursor
 {
 x
@@ -3648,7 +3649,6 @@ i
 as
 c_uint
 )
-}
 }
 }
 )
@@ -6087,6 +6087,7 @@ CXType_RValueReference
 CXType_LValueReference
 =
 >
+{
 ctx
 .
 target_pointer_size
@@ -6094,6 +6095,7 @@ target_pointer_size
 )
 as
 c_longlong
+}
 /
 /
 Work
@@ -6194,6 +6196,7 @@ CXType_RValueReference
 CXType_LValueReference
 =
 >
+{
 ctx
 .
 target_pointer_size
@@ -6201,6 +6204,7 @@ target_pointer_size
 )
 as
 c_longlong
+}
 /
 /
 Work
@@ -6697,6 +6701,7 @@ is_loaded
 {
 return
 None
+;
 }
 let
 n
@@ -6785,7 +6790,6 @@ map
 |
 n
 |
-{
 TypeTemplateArgIterator
 {
 x
@@ -6799,7 +6803,6 @@ n
 index
 :
 0
-}
 }
 )
 }
@@ -6883,7 +6886,6 @@ map
 |
 i
 |
-{
 Type
 {
 x
@@ -6899,7 +6901,6 @@ i
 as
 c_uint
 )
-}
 }
 }
 )
@@ -12035,6 +12036,7 @@ x
 as
 i64
 )
+;
 }
 if
 unsafe
@@ -12086,6 +12088,7 @@ value
 as
 i64
 )
+;
 }
 let
 value

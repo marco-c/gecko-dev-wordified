@@ -908,15 +908,6 @@ ty
 FloatKind
 ;
 use
-std
-:
-:
-str
-:
-:
-FromStr
-;
-use
 proc_macro2
 :
 :
@@ -924,6 +915,15 @@ proc_macro2
 self
 TokenStream
 }
+;
+use
+std
+:
+:
+str
+:
+:
+FromStr
 ;
 pub
 fn
@@ -1734,7 +1734,6 @@ name
 _ty
 )
 |
-{
 match
 *
 name
@@ -1797,7 +1796,6 @@ quote
 {
 #
 name
-}
 }
 }
 }

@@ -552,9 +552,9 @@ derive
 :
 :
 {
+as_cannot_derive_set
 CannotDerive
 DeriveTrait
-as_cannot_derive_set
 }
 ;
 mod
@@ -655,9 +655,6 @@ Trace
 }
 ;
 use
-HashMap
-;
-use
 std
 :
 :
@@ -668,6 +665,9 @@ std
 :
 :
 ops
+;
+use
+HashMap
 ;
 /
 /

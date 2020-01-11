@@ -28,9 +28,9 @@ super
 :
 :
 {
+generate_dependencies
 ConstrainResult
 MonotoneFramework
-generate_dependencies
 }
 ;
 use
@@ -92,8 +92,8 @@ item
 :
 :
 {
-Item
 IsOpaque
+Item
 }
 ;
 use
@@ -134,15 +134,15 @@ ty
 :
 :
 {
-TypeKind
 Type
+TypeKind
 }
 ;
 use
 {
-HashSet
-HashMap
 Entry
+HashMap
+HashSet
 }
 ;
 /
@@ -912,6 +912,7 @@ entry
 )
 =
 >
+{
 if
 *
 entry
@@ -940,6 +941,7 @@ ConstrainResult
 :
 :
 Same
+}
 }
 Entry
 :
@@ -1432,6 +1434,7 @@ can_derive_fnptr
 (
 sig
 )
+;
 }
 else
 {
@@ -1799,6 +1802,7 @@ derive_trait
 can_derive_vector
 (
 )
+;
 }
 TypeKind
 :
@@ -2724,12 +2728,14 @@ DeriveTrait
 PartialEqOrPartialOrd
 =
 >
+{
 ctx
 .
 no_partialeq_by_name
 (
 item
 )
+}
 _
 =
 >
@@ -2859,7 +2865,9 @@ EdgeKind
 TemplateDeclaration
 =
 >
+{
 true
+}
 _
 =
 >
@@ -3490,6 +3498,7 @@ UnresolvedTypeRef
 )
 =
 >
+{
 unreachable
 !
 (
@@ -3507,6 +3516,7 @@ derive
 default
 "
 )
+}
 /
 /
 =
@@ -4030,11 +4040,13 @@ false
 |
 l
 |
+{
 l
 .
 align
 >
 RUST_DERIVE_IN_ARRAY_LIMIT
+}
 )
 {
 /

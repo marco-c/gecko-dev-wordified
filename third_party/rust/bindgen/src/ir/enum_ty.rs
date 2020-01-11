@@ -15,6 +15,18 @@ use
 super
 :
 :
+super
+:
+:
+codegen
+:
+:
+EnumVariation
+;
+use
+super
+:
+:
 context
 :
 :
@@ -31,18 +43,6 @@ item
 :
 :
 Item
-;
-use
-super
-:
-:
-super
-:
-:
-codegen
-:
-:
-EnumVariation
 ;
 use
 super
@@ -479,7 +479,6 @@ and_then
 |
 et
 |
-{
 Item
 :
 :
@@ -495,7 +494,6 @@ ctx
 ok
 (
 )
-}
 )
 ;
 let
@@ -1565,7 +1563,6 @@ false
 |
 b
 |
-{
 b
 =
 =
@@ -1573,7 +1570,6 @@ EnumVariantCustomBehavior
 :
 :
 Constify
-}
 )
 }
 /
@@ -1618,7 +1614,6 @@ false
 |
 b
 |
-{
 b
 =
 =
@@ -1626,7 +1621,6 @@ EnumVariantCustomBehavior
 :
 :
 Hide
-}
 )
 }
 }

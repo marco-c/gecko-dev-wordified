@@ -98,6 +98,9 @@ ParseResult
 }
 ;
 use
+proc_macro2
+;
+use
 quote
 ;
 use
@@ -105,9 +108,6 @@ quote
 :
 :
 TokenStreamExt
-;
-use
-proc_macro2
 ;
 use
 std
@@ -233,6 +233,7 @@ clang_sys
 CXCursor_Constructor
 =
 >
+{
 FunctionKind
 :
 :
@@ -243,12 +244,14 @@ MethodKind
 :
 Constructor
 )
+}
 clang_sys
 :
 :
 CXCursor_Destructor
 =
 >
+{
 FunctionKind
 :
 :
@@ -283,6 +286,7 @@ MethodKind
 Destructor
 }
 )
+}
 clang_sys
 :
 :
@@ -2109,6 +2113,7 @@ and_then
 |
 name
 |
+{
 if
 name
 .
@@ -2124,6 +2129,7 @@ Some
 (
 name
 )
+}
 }
 )
 ;

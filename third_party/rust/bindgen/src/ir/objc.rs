@@ -96,9 +96,9 @@ proc_macro2
 :
 :
 {
-TokenStream
 Ident
 Span
+TokenStream
 }
 ;
 /
@@ -1439,7 +1439,6 @@ call_site
 )
 )
 }
-;
 let
 args
 =
