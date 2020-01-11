@@ -1264,7 +1264,7 @@ classList
 contains
 (
 "
-warn
+error
 "
 )
 "

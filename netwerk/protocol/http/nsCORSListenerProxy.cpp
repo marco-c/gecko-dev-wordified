@@ -9747,7 +9747,7 @@ columnNumber
 nsIScriptError
 :
 :
-warningFlag
+errorFlag
 aCategory
 aInnerWindowID
 )
@@ -9794,7 +9794,7 @@ columnNumber
 nsIScriptError
 :
 :
-warningFlag
+errorFlag
 category
 .
 get
