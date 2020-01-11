@@ -12230,7 +12230,7 @@ loaded
 static
 *
 /
-JSFlatString
+JSLinearString
 *
 JSScript
 :
@@ -14183,7 +14183,7 @@ PinnedUnits
 char16_t
 >
 ;
-JSFlatString
+JSLinearString
 *
 ScriptSource
 :
@@ -14360,7 +14360,7 @@ len
 )
 ;
 }
-JSFlatString
+JSLinearString
 *
 ScriptSource
 :
@@ -14766,7 +14766,7 @@ len
 ;
 }
 }
-JSFlatString
+JSLinearString
 *
 ScriptSource
 :
