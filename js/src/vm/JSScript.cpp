@@ -4400,6 +4400,7 @@ coverage
 CollectScriptCoverage
 (
 script
+true
 )
 ;
 }
