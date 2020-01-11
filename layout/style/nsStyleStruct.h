@@ -7112,13 +7112,12 @@ mozilla
 StyleFlexWrap
 mFlexWrap
 ;
-uint8_t
+mozilla
+:
+:
+StyleObjectFit
 mObjectFit
 ;
-/
-/
-NS_STYLE_OBJECT_FIT_
-*
 int32_t
 mOrder
 ;

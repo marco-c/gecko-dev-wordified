@@ -2491,6 +2491,11 @@ object
 -
 fit
 "
+gecko_enum_prefix
+=
+"
+StyleObjectFit
+"
 )
 }
 {
