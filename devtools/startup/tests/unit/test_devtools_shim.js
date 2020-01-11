@@ -918,12 +918,6 @@ const
 sessionWithDevTools
 =
 {
-scratchpads
-:
-[
-{
-}
-]
 browserConsole
 :
 true

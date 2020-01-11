@@ -97,12 +97,6 @@ are
 0
 -
 based
-Scratchpad
-UI
-is
-1
--
-based
 .
 ch
 (

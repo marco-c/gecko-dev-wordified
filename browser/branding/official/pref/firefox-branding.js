@@ -559,8 +559,6 @@ of
 the
 web
 console
-or
-scratchpad
 .
 /
 /
@@ -577,8 +575,6 @@ into
 the
 web
 console
-or
-scratchpad
 is
 disabled
 pref
