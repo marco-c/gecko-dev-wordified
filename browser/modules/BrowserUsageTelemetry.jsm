@@ -442,6 +442,9 @@ newtab
 searchbar
 "
 "
+system
+"
+"
 urlbar
 "
 "
@@ -3488,6 +3491,11 @@ break
 case
 "
 contextmenu
+"
+:
+case
+"
+system
 "
 :
 case
