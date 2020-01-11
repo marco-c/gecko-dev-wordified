@@ -16458,6 +16458,12 @@ MM_CFArrayCreate
 }
 {
 "
+CFArrayCreateMutable
+"
+RR_ScalarRval
+}
+{
+"
 CFArrayGetCount
 "
 RR_ScalarRval
