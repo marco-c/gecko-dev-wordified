@@ -570,6 +570,10 @@ mStorReplyReceived
 (
 false
 )
+mRlist1xxReceived
+(
+false
+)
 mInternalError
 (
 NS_OK
@@ -6357,6 +6361,10 @@ mResponseCode
 1
 )
 {
+mRlist1xxReceived
+=
+true
+;
 /
 /
 OK
@@ -6403,6 +6411,9 @@ mResponseCode
 =
 =
 2
+&
+&
+mRlist1xxReceived
 )
 {
 /
@@ -6413,6 +6424,10 @@ DONE
 mNextState
 =
 FTP_COMPLETE
+;
+mRlist1xxReceived
+=
+false
 ;
 return
 FTP_COMPLETE
