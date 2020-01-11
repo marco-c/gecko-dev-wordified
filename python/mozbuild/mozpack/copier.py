@@ -809,12 +809,11 @@ added
 '
         
 return
+list
+(
 self
 .
 _files
-.
-keys
-(
 )
     
 def
