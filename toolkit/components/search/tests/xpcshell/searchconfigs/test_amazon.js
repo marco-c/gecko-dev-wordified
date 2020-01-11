@@ -244,7 +244,7 @@ ja
 -
 JP
 -
-mac
+macos
 "
 "
 ja
