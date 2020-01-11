@@ -2710,13 +2710,6 @@ addToServoSizes
 sizes
 )
 ;
-code
-.
-addToServoSizes
-(
-sizes
-)
-;
 gc
 .
 addToServoSizes
@@ -2781,9 +2774,6 @@ notableScriptSources
 .
 ScriptSourceInfo
 scriptSourceInfo
-;
-CodeSizes
-code
 ;
 GCSizes
 gc
@@ -3681,6 +3671,13 @@ addToServoSizes
 sizes
 )
 ;
+code
+.
+addToServoSizes
+(
+sizes
+)
+;
 }
 FOR_EACH_SIZE
 (
@@ -3738,6 +3735,9 @@ stringInfo
 ;
 ShapeInfo
 shapeInfo
+;
+CodeSizes
+code
 ;
 void
 *

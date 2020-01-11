@@ -1447,6 +1447,12 @@ mozilla
 :
 MallocSizeOf
 mallocSizeOf
+JS
+:
+:
+CodeSizes
+*
+code
 size_t
 *
 typePool
