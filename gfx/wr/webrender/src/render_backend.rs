@@ -9617,7 +9617,9 @@ frame
 .
 composite_state
 .
-create_descriptor
+descriptor
+.
+clone
 (
 )
 ;
