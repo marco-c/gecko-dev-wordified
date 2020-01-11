@@ -586,6 +586,11 @@ CreateEGLSurfaceForCompositionSurface
 wr
 :
 :
+DeviceIntRect
+aDirtyRect
+wr
+:
+:
 DeviceIntPoint
 *
 aOffset
