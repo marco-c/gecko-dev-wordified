@@ -230,7 +230,7 @@ function
 {
 try
 {
-let
+const
 ReactDOM
 =
 browserRequire
@@ -250,7 +250,7 @@ dom
 "
 )
 ;
-let
+const
 React
 =
 browserRequire
@@ -268,7 +268,7 @@ react
 "
 )
 ;
-let
+const
 {
 NotificationBox
 PriorityLevels
@@ -293,7 +293,7 @@ NotificationBox
 /
 Test
 rendering
-let
+const
 boxElement
 =
 React
@@ -303,7 +303,7 @@ createElement
 NotificationBox
 )
 ;
-let
+const
 notificationBox
 =
 TestUtils
@@ -313,7 +313,7 @@ renderIntoDocument
 boxElement
 )
 ;
-let
+const
 notificationNode
 =
 ReactDOM
@@ -414,7 +414,7 @@ PRIORITY_INFO_LOW
 buttons
 )
 ;
-let
+const
 buttonNodes
 =
 notificationNode

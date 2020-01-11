@@ -242,7 +242,7 @@ function
 {
 try
 {
-let
+const
 ReactDOM
 =
 browserRequire
@@ -262,7 +262,7 @@ dom
 "
 )
 ;
-let
+const
 React
 =
 browserRequire
@@ -280,7 +280,7 @@ react
 "
 )
 ;
-let
+const
 {
 NotificationBox
 PriorityLevels
@@ -342,7 +342,7 @@ props
 "
 )
 ;
-let
+const
 boxElement
 =
 React
@@ -352,7 +352,7 @@ createElement
 NotificationBox
 )
 ;
-let
+const
 notificationBox
 =
 TestUtils
@@ -362,7 +362,7 @@ renderIntoDocument
 boxElement
 )
 ;
-let
+const
 notificationNode
 =
 ReactDOM
@@ -683,7 +683,7 @@ when
 passing
 wrapping
 prop
-let
+const
 boxElementWrapped
 =
 React
@@ -698,7 +698,7 @@ true
 }
 )
 ;
-let
+const
 notificationBoxWrapped
 =
 TestUtils
@@ -708,7 +708,7 @@ renderIntoDocument
 boxElementWrapped
 )
 ;
-let
+const
 wrappedNotificationNode
 =
 ReactDOM
@@ -753,7 +753,7 @@ as
 expected
 )
 ;
-let
+const
 element
 =
 React
@@ -771,7 +771,7 @@ false
 }
 )
 ;
-let
+const
 renderedElement
 =
 TestUtils
@@ -781,7 +781,7 @@ renderIntoDocument
 element
 )
 ;
-let
+const
 elementNode
 =
 ReactDOM
