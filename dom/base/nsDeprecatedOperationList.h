@@ -336,9 +336,5 @@ MathML_DeprecatedMathSpaceValue
 )
 DEPRECATED_OPERATION
 (
-MathML_DeprecatedMencloseNotationRadical
-)
-DEPRECATED_OPERATION
-(
 MathML_DeprecatedStyleAttribute
 )
