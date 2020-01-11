@@ -24630,6 +24630,14 @@ StyleDisplay
 ;
 if
 (
+aBuilder
+-
+>
+IsForPainting
+(
+)
+&
+&
 disp
 -
 >
