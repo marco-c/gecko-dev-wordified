@@ -36643,6 +36643,15 @@ histogram
 aBrowser
 )
 ;
+BrowserUtils
+.
+recordSiteOriginTelemetry
+(
+browserWindows
+(
+)
+)
+;
 }
 }
 }
