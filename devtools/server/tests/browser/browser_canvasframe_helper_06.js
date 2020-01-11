@@ -85,13 +85,12 @@ TEST_URL
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+null
 async
 function
 (

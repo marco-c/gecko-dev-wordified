@@ -372,16 +372,14 @@ be
 displayed
 .
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
 [
-[
 username
 password
-]
 ]
 async
 function

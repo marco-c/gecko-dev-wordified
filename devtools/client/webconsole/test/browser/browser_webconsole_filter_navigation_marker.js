@@ -174,15 +174,14 @@ page
 "
 )
 ;
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
-]
+null
 (
 )
 =

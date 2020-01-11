@@ -216,7 +216,8 @@ ContentTask
 spawn
 (
 browser
-null
+{
+}
 async
 function
 (

@@ -358,13 +358,12 @@ state
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+null
 waitUntilAudioContextStarts
 )
 ;

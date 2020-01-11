@@ -1163,15 +1163,14 @@ let
 postData
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab
 .
 linkedBrowser
-[
-]
+null
 async
 function
 (

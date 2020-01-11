@@ -230,7 +230,7 @@ on
 let
 promise
 =
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -239,8 +239,7 @@ gBrowser
 selectedTab
 .
 linkedBrowser
-[
-]
+null
 async
 function
 (

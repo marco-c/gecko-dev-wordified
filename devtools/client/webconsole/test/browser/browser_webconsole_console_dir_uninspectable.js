@@ -233,16 +233,14 @@ API
 is
 working
 .
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
 SECOND_LOG_MESSAGE
-]
 string
 =
 >

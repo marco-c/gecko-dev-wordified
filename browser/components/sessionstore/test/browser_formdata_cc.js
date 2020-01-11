@@ -475,14 +475,12 @@ formValue
 )
 {
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 formValue
-]
 async
 function
 (

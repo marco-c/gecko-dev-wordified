@@ -136,8 +136,7 @@ spawn
 tabRefAboutHome
 .
 linkedBrowser
-[
-]
+null
 async
 function
 (

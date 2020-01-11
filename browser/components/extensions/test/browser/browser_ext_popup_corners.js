@@ -323,14 +323,12 @@ let
 bodyStyle
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 props
-]
 async
 function
 (

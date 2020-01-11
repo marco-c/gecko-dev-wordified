@@ -197,14 +197,12 @@ expectRefresh
 )
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 expectRefresh
-]
 async
 function
 (

@@ -988,7 +988,7 @@ ui
 )
 {
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -997,8 +997,8 @@ ui
 getViewportBrowser
 (
 )
-[
-]
+{
+}
 async
 function
 (
@@ -1072,7 +1072,7 @@ ui
 )
 {
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -1081,8 +1081,8 @@ ui
 getViewportBrowser
 (
 )
-[
-]
+{
+}
 async
 function
 (

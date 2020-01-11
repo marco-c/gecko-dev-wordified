@@ -1740,8 +1740,7 @@ ContentTask
 spawn
 (
 aBrowser
-[
-]
+null
 (
 )
 =

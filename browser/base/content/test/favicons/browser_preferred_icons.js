@@ -98,16 +98,14 @@ linkInfos
 )
 {
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
 linkInfos
-]
 links
 =
 >

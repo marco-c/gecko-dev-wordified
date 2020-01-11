@@ -136,13 +136,12 @@ for
 a
 rationale
 .
-SpecialPowers
+ContentTask
 .
 spawn
 (
 optionsBrowser
-[
-]
+null
 (
 )
 =
