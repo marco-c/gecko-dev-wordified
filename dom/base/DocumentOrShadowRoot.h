@@ -185,6 +185,9 @@ mozilla
 class
 StyleSheet
 ;
+class
+ErrorResult
+;
 namespace
 dom
 {
@@ -434,8 +437,8 @@ aSheet
 ;
 }
 StyleSheetList
-&
-EnsureDOMStyleSheets
+*
+StyleSheets
 (
 )
 ;
