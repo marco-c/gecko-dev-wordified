@@ -283,7 +283,7 @@ TServiceWorkerData
 ;
 }
 void
-TransmitPermissionsForPrincipalInfo
+TransmitPermissionsAndBlobURLsForPrincipalInfo
 (
 ContentParent
 *
@@ -312,6 +312,14 @@ principal
 PrincipalInfoToPrincipal
 (
 aPrincipalInfo
+)
+;
+aContentParent
+-
+>
+TransmitBlobURLsForPrincipal
+(
+principal
 )
 ;
 MOZ_ALWAYS_SUCCEEDS
@@ -1734,7 +1742,7 @@ principalInfo
 )
 ]
 {
-TransmitPermissionsForPrincipalInfo
+TransmitPermissionsAndBlobURLsForPrincipalInfo
 (
 contentParent
 principalInfo
@@ -2194,7 +2202,7 @@ ResolveValue
 :
 nullptr
 ;
-TransmitPermissionsForPrincipalInfo
+TransmitPermissionsAndBlobURLsForPrincipalInfo
 (
 contentParent
 principalInfo
