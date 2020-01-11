@@ -1823,13 +1823,6 @@ nonLazyScript
 script
 )
 ;
-script
--
->
-ensureNonLazyCanonicalFunction
-(
-)
-;
 InterpreterFrame
 *
 prev
@@ -2028,13 +2021,6 @@ sp
 MOZ_ASSERT
 (
 prev
-)
-;
-script
--
->
-ensureNonLazyCanonicalFunction
-(
 )
 ;
 LifoAlloc
