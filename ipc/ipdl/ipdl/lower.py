@@ -13366,13 +13366,30 @@ prioEnum
 INPUT_PRIORITY
 '
     
-else
+elif
+prio
+=
+=
+ipdl
+.
+ast
+.
+HIGH_PRIORITY
 :
         
 prioEnum
 =
 '
 HIGH_PRIORITY
+'
+    
+else
+:
+        
+prioEnum
+=
+'
+MEDIUMHIGH_PRIORITY
 '
     
 if
