@@ -1328,7 +1328,7 @@ Get
 the
 STS
 thread
-nsIEventTarget
+nsISerialEventTarget
 *
 GetSTSThread
 (

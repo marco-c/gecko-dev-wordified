@@ -262,10 +262,10 @@ aTransportHandler
 JsepTransceiver
 *
 aJsepTransceiver
-nsIEventTarget
+nsISerialEventTarget
 *
 aMainThread
-nsIEventTarget
+nsISerialEventTarget
 *
 aStsThread
 dom

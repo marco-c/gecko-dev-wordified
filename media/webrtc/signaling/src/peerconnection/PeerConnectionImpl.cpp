@@ -5352,7 +5352,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =

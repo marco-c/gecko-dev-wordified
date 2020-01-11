@@ -760,7 +760,7 @@ mMainThread
 const
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 &
 GetSTSThread
@@ -1244,7 +1244,7 @@ thread
 .
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mSTSThread
 ;
