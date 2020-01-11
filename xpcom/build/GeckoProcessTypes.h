@@ -439,3 +439,12 @@ sandboxbroker
 RemoteSandboxBroker
 PluginContainer
 )
+GECKO_PROCESS_TYPE
+(
+ForkServer
+"
+forkserver
+"
+ForkServer
+Self
+)
