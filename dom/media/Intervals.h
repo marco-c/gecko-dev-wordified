@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-INTERVALS_H
+DOM_MEDIA_INTERVALS_H_
 #
 define
-INTERVALS_H
+DOM_MEDIA_INTERVALS_H_
 #
 include
 <
@@ -4567,4 +4567,4 @@ mozilla
 endif
 /
 /
-INTERVALS_H
+DOM_MEDIA_INTERVALS_H_
