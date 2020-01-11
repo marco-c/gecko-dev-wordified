@@ -23,6 +23,12 @@ datetime
 import
 timedelta
 from
+six
+import
+iterkeys
+itervalues
+iteritems
+from
 .
 import
 config
@@ -4505,10 +4511,9 @@ for
 section
 values
 in
-keys
-.
 iteritems
 (
+keys
 )
 :
         
@@ -4871,10 +4876,9 @@ OrderedDict
 for
 section
 in
-config
-.
 iterkeys
 (
+config
 )
 :
         
@@ -5031,15 +5035,14 @@ kwargs
 for
 test_paths
 in
+itervalues
+(
 kwargs
 [
 "
 test_paths
 "
 ]
-.
-itervalues
-(
 )
 :
         
@@ -5125,10 +5128,9 @@ for
 key
 path
 in
-test_paths
-.
 iteritems
 (
+test_paths
 )
 :
             
