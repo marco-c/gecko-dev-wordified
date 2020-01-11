@@ -172,6 +172,7 @@ const
 it
 fit
 xit
+it_fails_ffox
 }
 =
 testRunner
@@ -855,7 +856,7 @@ close
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
