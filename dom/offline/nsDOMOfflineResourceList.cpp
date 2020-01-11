@@ -3967,7 +3967,7 @@ return
 nullptr
 ;
 }
-nsresult
+void
 nsDOMOfflineResourceList
 :
 :
@@ -4000,7 +4000,6 @@ re
 watching
 .
 return
-NS_OK
 ;
 }
 bool
@@ -4102,9 +4101,6 @@ CACHED_STR
 ;
 }
 }
-return
-NS_OK
-;
 }
 nsresult
 nsDOMOfflineResourceList
