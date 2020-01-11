@@ -5654,6 +5654,7 @@ _telemetry
 new
 FxAccountsTelemetry
 (
+this
 )
 ;
 }
