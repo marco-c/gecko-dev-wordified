@@ -2428,16 +2428,12 @@ MOZ_CAN_RUN_SCRIPT
 void
 UpdateVisibility
 (
-bool
-aForceRepaint
 )
 ;
 MOZ_CAN_RUN_SCRIPT
 void
 MakeVisible
 (
-bool
-aForceRepaint
 )
 ;
 void
