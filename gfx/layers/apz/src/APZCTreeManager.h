@@ -7001,7 +7001,7 @@ toolbar
 .
 *
 Acquire
-mTreeLock
+mMapLock
 before
 accessing
 this
@@ -7051,7 +7051,7 @@ transitions
 .
 *
 Acquire
-mTreeLock
+mMapLock
 before
 accessing
 this
