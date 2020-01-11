@@ -237,6 +237,14 @@ getMainThread
 "
 FakeThread
 "
+evaluateExpressions
+:
+(
+)
+=
+>
+{
+}
 }
 )
 ;
