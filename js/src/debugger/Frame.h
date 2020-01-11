@@ -262,6 +262,19 @@ include
 "
 vm
 /
+FrameIter
+.
+h
+"
+/
+/
+for
+FrameIter
+#
+include
+"
+vm
+/
 JSObject
 .
 h
@@ -295,7 +308,6 @@ h
 /
 /
 for
-FrameIter
 AbstractFramePtr
 namespace
 js
