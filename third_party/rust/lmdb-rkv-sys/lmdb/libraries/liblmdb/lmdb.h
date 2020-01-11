@@ -1356,7 +1356,7 @@ copyright
 Copyright
 2011
 -
-2018
+2019
 Howard
 Chu
 Symas
@@ -1770,7 +1770,7 @@ version
 #
 define
 MDB_VERSION_PATCH
-23
+24
 /
 *
 *
@@ -1859,9 +1859,9 @@ version
 define
 MDB_VERSION_DATE
 "
-December
-19
-2018
+July
+24
+2019
 "
 /
 *

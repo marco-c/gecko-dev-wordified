@@ -27,8 +27,8 @@ error
 :
 :
 {
-Result
 lmdb_result
+Result
 }
 ;
 /
@@ -251,8 +251,6 @@ Ok
 Database
 {
 dbi
-:
-dbi
 }
 )
 }
@@ -322,6 +320,16 @@ has
 been
 closed
 .
+#
+[
+allow
+(
+clippy
+:
+:
+trivially_copy_pass_by_ref
+)
+]
 pub
 fn
 dbi

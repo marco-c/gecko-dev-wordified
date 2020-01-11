@@ -41,7 +41,7 @@ simplified
 Copyright
 2011
 -
-2018
+2019
 Howard
 Chu
 Symas
@@ -25014,6 +25014,12 @@ mp
 mp_pgno
 )
 ;
+mdb_dpage_free
+(
+env
+mp
+)
+;
 }
 dl
 [
@@ -25023,12 +25029,6 @@ x
 mptr
 =
 NULL
-;
-mdb_dpage_free
-(
-env
-mp
-)
 ;
 }
 {
@@ -31427,6 +31427,15 @@ now
 /
 if
 (
+!
+(
+flags
+&
+MDB_WRITEMAP
+)
+&
+&
+(
 SetFilePointer
 (
 env
@@ -31469,6 +31478,7 @@ NULL
 !
 =
 0
+)
 )
 return
 ErrCode
@@ -67662,7 +67672,7 @@ if
 (
 nkeys
 <
-20
+32
 |
 |
 nsize
