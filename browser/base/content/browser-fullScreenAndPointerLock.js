@@ -3525,6 +3525,7 @@ be
 cancelled
 when
 entering
+DOM
 fullscreen
 for
 security
