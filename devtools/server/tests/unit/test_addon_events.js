@@ -64,10 +64,6 @@ jsm
 "
 )
 ;
-startupAddonsManager
-(
-)
-;
 add_task
 (
 async
@@ -102,6 +98,11 @@ plugin
 load_flash_only
 "
 false
+)
+;
+await
+startupAddonsManager
+(
 )
 ;
 DebuggerServer
