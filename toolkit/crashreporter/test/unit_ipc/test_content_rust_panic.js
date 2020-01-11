@@ -29,6 +29,9 @@ js
 "
 )
 ;
+add_task
+(
+async
 function
 run_test
 (
@@ -93,6 +96,7 @@ with
 a
 Rust
 panic
+await
 do_triggered_content_crash
 (
 function
@@ -153,3 +157,5 @@ NO
 )
 ;
 }
+)
+;

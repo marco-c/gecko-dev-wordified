@@ -1,3 +1,6 @@
+add_task
+(
+async
 function
 run_test
 (
@@ -90,6 +93,7 @@ the
 crasher
 subprocess
 .
+await
 do_crash
 (
 function
@@ -315,3 +319,5 @@ true
 )
 ;
 }
+)
+;

@@ -29,6 +29,9 @@ js
 "
 )
 ;
+add_task
+(
+async
 function
 run_test
 (
@@ -92,6 +95,7 @@ crashing
 with
 an
 OOM
+await
 do_content_crash
 (
 function
@@ -192,3 +196,5 @@ extra
 )
 ;
 }
+)
+;

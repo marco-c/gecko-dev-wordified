@@ -1,3 +1,6 @@
+add_task
+(
+async
 function
 run_test
 (
@@ -133,6 +136,7 @@ try
 a
 basic
 crash
+await
 do_crash
 (
 null
@@ -308,6 +312,7 @@ setting
 some
 basic
 data
+await
 do_crash
 (
 function
@@ -344,6 +349,14 @@ u
 {
 1F4A9
 }
+\
+n
+\
+u
+{
+0000
+}
+Escape
 "
 )
 ;
@@ -462,6 +475,14 @@ u
 {
 1F4A9
 }
+\
+n
+\
+u
+{
+0000
+}
+Escape
 "
 )
 ;
@@ -656,6 +677,7 @@ default
 }
 )
 ;
+await
 do_crash
 (
 function
@@ -958,6 +980,7 @@ value
 }
 )
 ;
+await
 do_crash
 (
 function
@@ -1143,6 +1166,7 @@ disabled
 }
 )
 ;
+await
 do_crash
 (
 function
@@ -1334,3 +1358,5 @@ disabled
 )
 ;
 }
+)
+;

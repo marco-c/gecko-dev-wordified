@@ -28,6 +28,9 @@ zero
 /
 *
 /
+add_task
+(
+async
 function
 run_test
 (
@@ -43,6 +46,7 @@ abort
 (
 )
 .
+await
 do_crash
 (
 function
@@ -101,3 +105,5 @@ true
 )
 ;
 }
+)
+;

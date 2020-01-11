@@ -122,6 +122,15 @@ crashreporter
 .
 h
 "
+#
+include
+"
+json
+/
+json
+.
+h
+"
 /
 /
 Defined
@@ -283,7 +292,10 @@ queryParameters
 :
 (
 const
-StringTable
+Json
+:
+:
+Value
 &
 )
 queryParameters

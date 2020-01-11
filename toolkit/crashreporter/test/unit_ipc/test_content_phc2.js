@@ -29,6 +29,9 @@ js
 "
 )
 ;
+add_task
+(
+async
 function
 run_test
 (
@@ -122,6 +125,7 @@ test_content_phc
 .
 js
 .
+await
 do_content_crash
 (
 function
@@ -281,3 +285,5 @@ PHCFreeStack
 )
 ;
 }
+)
+;

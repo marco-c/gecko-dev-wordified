@@ -1,3 +1,6 @@
+add_task
+(
+async
 function
 run_test
 (
@@ -52,6 +55,7 @@ via
 stack
 scan
 .
+await
 do_x64CFITest
 (
 "
@@ -110,3 +114,5 @@ null
 )
 ;
 }
+)
+;
