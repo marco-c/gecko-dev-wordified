@@ -2849,6 +2849,17 @@ controlGroup
 querySelectorAll
 (
 "
+input
+"
+)
+.
+.
+.
+controlGroup
+.
+querySelectorAll
+(
+"
 checkbox
 "
 )

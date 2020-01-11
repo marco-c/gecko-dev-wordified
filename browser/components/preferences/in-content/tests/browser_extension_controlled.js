@@ -6084,7 +6084,7 @@ manualControlContainer
 querySelectorAll
 (
 "
-textbox
+input
 "
 )
 .
