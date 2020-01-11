@@ -1705,7 +1705,7 @@ endif
 recordreplay
 :
 :
-AutoPassThroughThreadEvents
+AutoPassThroughThreadEventsWithLocalReplay
 pt
 ;
 #
@@ -2650,7 +2650,7 @@ Maybe
 recordreplay
 :
 :
-AutoPassThroughThreadEvents
+AutoPassThroughThreadEventsWithLocalReplay
 >
 pt
 ;
