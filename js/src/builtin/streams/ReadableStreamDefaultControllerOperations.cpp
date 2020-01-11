@@ -611,6 +611,10 @@ js
 :
 :
 IsCallable
+js
+:
+:
+NewBuiltinClassInstance
 #
 include
 "
