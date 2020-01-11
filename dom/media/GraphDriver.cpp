@@ -6911,6 +6911,8 @@ XP_MACOSX
 cubeb_device
 *
 out
+=
+nullptr
 ;
 int
 rv
@@ -6979,6 +6981,11 @@ out
 CUBEB_OK
 )
 {
+MOZ_ASSERT
+(
+out
+)
+;
 /
 /
 Check
@@ -6994,6 +7001,12 @@ speakers
 .
 if
 (
+out
+-
+>
+output_name
+&
+&
 !
 strcmp
 (
