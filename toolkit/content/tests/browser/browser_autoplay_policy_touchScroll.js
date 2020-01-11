@@ -229,6 +229,8 @@ resolve
 }
 )
 ;
+content
+.
 setTimeout
 (
 (
