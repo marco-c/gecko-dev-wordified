@@ -5421,7 +5421,7 @@ mScrollId
 wr
 :
 :
-ToLayoutPoint
+ToRoundedLayoutPoint
 (
 asyncScrollDelta
 )
