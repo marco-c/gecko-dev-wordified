@@ -210,6 +210,7 @@ FastHashMap
 FastHashSet
 PlaneSplitter
 Filter
+PlaneSplitAnchor
 }
 ;
 use
@@ -14729,7 +14730,7 @@ OrderedPictureChild
 pub
 anchor
 :
-usize
+PlaneSplitAnchor
 pub
 spatial_node_index
 :
@@ -20874,7 +20875,7 @@ world_rect
 WorldRect
 plane_split_anchor
 :
-usize
+PlaneSplitAnchor
 )
 -
 >
@@ -21339,8 +21340,9 @@ vec3
 )
 {
 let
-spatial_node_index
+prim_instance
 =
+&
 self
 .
 prim_list
@@ -21350,7 +21352,14 @@ prim_instances
 poly
 .
 anchor
+.
+prim_instance_index
 ]
+;
+let
+spatial_node_index
+=
+prim_instance
 .
 spatial_node_index
 ;

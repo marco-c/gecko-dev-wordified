@@ -127,6 +127,7 @@ Polygon
 f32
 (
 )
+usize
 >
 =
 Polygon
@@ -240,6 +241,7 @@ Polygon
 f32
 (
 )
+usize
 >
 =
 Polygon
@@ -350,6 +352,7 @@ Polygon
 f32
 (
 )
+usize
 >
 =
 Polygon
@@ -466,6 +469,7 @@ Polygon
 f32
 (
 )
+usize
 >
 :
 :
@@ -881,6 +885,7 @@ Polygon
 f32
 (
 )
+usize
 >
 =
 Polygon
@@ -1229,6 +1234,7 @@ Polygon
 f32
 (
 )
+usize
 >
 =
 Polygon
@@ -1333,6 +1339,7 @@ Polygon
 f32
 (
 )
+usize
 >
 =
 Polygon
@@ -1599,6 +1606,7 @@ Polygon
 f32
 (
 )
+usize
 >
 =
 Polygon
@@ -1704,6 +1712,7 @@ Polygon
 f32
 (
 )
+usize
 >
 =
 Polygon
@@ -1844,6 +1853,7 @@ Polygon
 f32
 (
 )
+usize
 >
 extra_count
 :
@@ -2035,6 +2045,7 @@ Polygon
 f32
 (
 )
+usize
 >
 =
 Polygon

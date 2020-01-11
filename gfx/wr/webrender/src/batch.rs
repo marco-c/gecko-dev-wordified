@@ -5970,6 +5970,8 @@ prim_instances
 child
 .
 anchor
+.
+prim_instance_index
 ]
 ;
 let
