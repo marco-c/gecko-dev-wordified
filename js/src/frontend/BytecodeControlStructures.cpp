@@ -826,12 +826,6 @@ return
 false
 ;
 }
-loopEndOffset_
-=
-beq
-.
-offset
-;
 return
 true
 ;
