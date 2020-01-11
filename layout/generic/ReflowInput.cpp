@@ -17540,7 +17540,7 @@ LayoutFrameType
 aFrameType
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 IsFloating
