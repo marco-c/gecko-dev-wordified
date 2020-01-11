@@ -8477,17 +8477,6 @@ those
 /
 factors
 .
-AsyncTransform
-asyncTransformForFixedAdjustment
-=
-sampler
--
->
-GetCurrentAsyncTransformForFixedAdjustment
-(
-wrapper
-)
-;
 LayerToParentLayerMatrix4x4
 transformWithoutOverscrollOrOmta
 =
@@ -8502,7 +8491,7 @@ CompleteAsyncTransform
 (
 AdjustForClip
 (
-asyncTransformForFixedAdjustment
+asyncTransform
 layer
 )
 )

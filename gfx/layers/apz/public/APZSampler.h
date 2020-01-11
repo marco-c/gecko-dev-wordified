@@ -615,15 +615,6 @@ AsyncTransformComponents
 aComponents
 )
 ;
-AsyncTransform
-GetCurrentAsyncTransformForFixedAdjustment
-(
-const
-LayerMetricsWrapper
-&
-aLayer
-)
-;
 AsyncTransformComponentMatrix
 GetOverscrollTransform
 (
