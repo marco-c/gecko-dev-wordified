@@ -268,6 +268,15 @@ selectedSource
 selectedSource
 .
 isBlackBoxed
+|
+|
+columnBreakpoints
+.
+length
+=
+=
+=
+0
 )
 {
 return
