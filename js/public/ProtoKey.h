@@ -1187,6 +1187,15 @@ OCLASP
 FinalizationGroup
 )
 )
+\
+REAL
+(
+WeakRef
+OCLASP
+(
+WeakRef
+)
+)
 #
 define
 JS_FOR_PROTOTYPES

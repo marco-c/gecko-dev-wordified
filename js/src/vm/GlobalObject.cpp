@@ -488,6 +488,15 @@ include
 "
 builtin
 /
+WeakRefObject
+.
+h
+"
+#
+include
+"
+builtin
+/
 WeakSetObject
 .
 h
@@ -1024,6 +1033,9 @@ getSharedMemoryAndAtomicsEnabled
 (
 )
 ;
+case
+JSProto_WeakRef
+:
 case
 JSProto_FinalizationGroup
 :

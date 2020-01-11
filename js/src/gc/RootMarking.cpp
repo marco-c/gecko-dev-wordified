@@ -3264,6 +3264,11 @@ trc
 ;
 }
 }
+traceKeptObjects
+(
+trc
+)
+;
 }
 void
 GCRuntime
