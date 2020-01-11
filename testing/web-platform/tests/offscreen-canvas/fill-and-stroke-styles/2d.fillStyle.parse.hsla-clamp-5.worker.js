@@ -67,7 +67,9 @@ importScripts
 (
 "
 /
-common
+2dcontext
+/
+resources
 /
 canvas
 -
