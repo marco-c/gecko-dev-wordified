@@ -257,7 +257,9 @@ isPanelOpen
 Check
 the
 doorhanger
-isnt
+isn
+'
+t
 already
 open
 "
@@ -282,6 +284,7 @@ prompter
 .
 promptToChangePassword
 (
+browser
 oldLogin
 formLogin
 false
