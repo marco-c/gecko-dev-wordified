@@ -16410,9 +16410,11 @@ if
 !
 jsStr
 )
+{
 return
 false
 ;
+}
 rval
 .
 setString
