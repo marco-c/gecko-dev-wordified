@@ -7288,7 +7288,7 @@ Should
 be
 JavaScript
 native
-errors
+error
     
 errors
 [
@@ -7300,18 +7300,6 @@ NS_ERROR_TYPE_ERR
 FAILURE
 (
 26
-)
-    
-errors
-[
-"
-NS_ERROR_RANGE_ERR
-"
-]
-=
-FAILURE
-(
-27
 )
     
 #
