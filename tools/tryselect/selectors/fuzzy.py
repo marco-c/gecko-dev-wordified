@@ -1927,6 +1927,10 @@ path
 '
         
 '
+pernosco
+'
+        
+'
 rebuild
 '
         
