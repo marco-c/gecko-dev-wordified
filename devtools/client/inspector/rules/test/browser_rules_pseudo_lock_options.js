@@ -121,6 +121,15 @@ color
 papayawhip
 ;
 }
+div
+:
+visited
+{
+color
+:
+orange
+;
+}
 <
 /
 style

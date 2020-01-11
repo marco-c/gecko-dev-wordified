@@ -14867,6 +14867,7 @@ node
 )
 {
 return
+(
 !
 !
 (
@@ -14878,6 +14879,19 @@ node
 )
 &
 NS_EVENT_STATE_VISITED
+)
+|
+|
+InspectorUtils
+.
+hasPseudoClassLock
+(
+node
+"
+:
+visited
+"
+)
 )
 ;
 }
