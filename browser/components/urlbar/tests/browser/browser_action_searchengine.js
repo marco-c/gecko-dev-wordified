@@ -315,6 +315,12 @@ search
 suggestion
 :
 undefined
+inPrivateWindow
+:
+undefined
+isPrivateEngine
+:
+undefined
 }
 "
 Should
