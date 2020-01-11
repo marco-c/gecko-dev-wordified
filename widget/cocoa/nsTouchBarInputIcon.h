@@ -144,6 +144,13 @@ h
 #
 include
 "
+nsTouchBarInput
+.
+h
+"
+#
+include
+"
 nsTouchBarNativeAPIDefines
 .
 h
