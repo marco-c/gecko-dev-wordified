@@ -4392,7 +4392,7 @@ in
 ObjectRealm
 :
 :
-sweepNativeIterators
+traceWeakNativeIterators
 .
 Everything
 else

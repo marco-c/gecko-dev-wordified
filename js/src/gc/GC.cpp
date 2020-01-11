@@ -14194,8 +14194,9 @@ trc
 r
 -
 >
-sweepObjectRealm
+traceWeakObjectRealm
 (
+trc
 )
 ;
 r
@@ -33858,8 +33859,10 @@ trc
 r
 -
 >
-sweepObjectRealm
+traceWeakObjectRealm
 (
+&
+trc
 )
 ;
 r
