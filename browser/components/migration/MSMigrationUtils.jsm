@@ -4088,7 +4088,6 @@ remove
 host
 name
 path
-false
 {
 }
 )

@@ -5921,7 +5921,6 @@ remove
 origHost
 origName
 origPath
-false
 cookie
 .
 originAttributes
@@ -6306,7 +6305,6 @@ name
 cookie
 .
 path
-false
 cookie
 .
 originAttributes
