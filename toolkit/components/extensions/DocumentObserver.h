@@ -178,9 +178,6 @@ dom
 MozDocumentCallback
 &
 aCallbacks
-ErrorResult
-&
-aRv
 )
 ;
 void

@@ -175,9 +175,6 @@ const
 PlacesBookmarkAdditionInit
 &
 aInitDict
-ErrorResult
-&
-aRv
 )
 {
 RefPtr

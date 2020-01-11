@@ -213,9 +213,6 @@ aGlobal
 PlacesEventCallback
 &
 aCallback
-ErrorResult
-&
-rv
 )
 ;
 nsISupports

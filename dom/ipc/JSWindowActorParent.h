@@ -250,9 +250,6 @@ Constructor
 GlobalObject
 &
 aGlobal
-ErrorResult
-&
-aRv
 )
 {
 return
