@@ -6083,6 +6083,12 @@ key
 !
 =
 JSProto_AsyncFunction
+&
+&
+key
+!
+=
+JSProto_GeneratorFunction
 )
 {
 const
@@ -6588,7 +6594,9 @@ continue
 /
 /
 AsyncFunction
-doesn
+and
+Generator
+don
 '
 t
 yet
@@ -6601,6 +6609,12 @@ key
 =
 =
 JSProto_AsyncFunction
+|
+|
+key
+=
+=
+JSProto_GeneratorFunction
 )
 {
 continue
