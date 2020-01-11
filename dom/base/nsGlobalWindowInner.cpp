@@ -24930,14 +24930,6 @@ EnableVRUpdates
 (
 )
 {
-MOZ_ASSERT
-(
-!
-IsDying
-(
-)
-)
-;
 if
 (
 mHasVREvents
