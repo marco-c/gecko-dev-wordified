@@ -141,12 +141,12 @@ class
 SourceSurface
 ;
 }
-class
-RemoteDecoderManagerChild
-;
 namespace
 layers
 {
+class
+IGPUVideoSurfaceManager
+;
 class
 GPUVideoTextureData
 :
@@ -157,7 +157,7 @@ public
 :
 GPUVideoTextureData
 (
-RemoteDecoderManagerChild
+IGPUVideoSurfaceManager
 *
 aManager
 const
@@ -265,7 +265,7 @@ protected
 :
 RefPtr
 <
-RemoteDecoderManagerChild
+IGPUVideoSurfaceManager
 >
 mManager
 ;

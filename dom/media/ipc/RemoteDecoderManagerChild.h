@@ -140,6 +140,13 @@ VideoBridgeUtils
 .
 h
 "
+#
+include
+"
+GPUVideoImage
+.
+h
+"
 namespace
 mozilla
 {
@@ -157,6 +164,14 @@ ipc
 :
 :
 IShmemAllocator
+public
+mozilla
+:
+:
+layers
+:
+:
+IGPUVideoSurfaceManager
 {
 friend
 class
@@ -167,6 +182,7 @@ public
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 RemoteDecoderManagerChild
+override
 )
 /
 /
@@ -259,6 +275,7 @@ SurfaceDescriptorGPUVideo
 &
 aSD
 )
+override
 ;
 void
 DeallocateSurfaceDescriptor
@@ -268,6 +285,7 @@ SurfaceDescriptorGPUVideo
 &
 aSD
 )
+override
 ;
 bool
 AllocShmem
