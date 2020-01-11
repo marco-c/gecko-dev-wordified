@@ -134,6 +134,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+ContentParent
+.
+h
+"
+#
+include
+"
 nsHashKeys
 .
 h
@@ -170,9 +181,6 @@ dom
 {
 class
 BrowsingContext
-;
-class
-ContentParent
 ;
 /
 /
