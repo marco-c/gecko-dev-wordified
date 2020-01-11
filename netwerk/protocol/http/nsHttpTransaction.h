@@ -1023,6 +1023,14 @@ SpdyConnectTransaction
 *
 )
 ;
+void
+OnProxyConnectComplete
+(
+int32_t
+aResponseCode
+)
+override
+;
 private
 :
 friend
@@ -2624,6 +2632,9 @@ mTrafficCategory
 ;
 bool
 mThroughCaptivePortal
+;
+int32_t
+mProxyConnectResponseCode
 ;
 }
 ;

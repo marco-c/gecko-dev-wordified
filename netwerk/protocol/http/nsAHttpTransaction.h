@@ -1734,6 +1734,15 @@ aStatus
 )
 {
 }
+virtual
+void
+OnProxyConnectComplete
+(
+int32_t
+aResponseCode
+)
+{
+}
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
