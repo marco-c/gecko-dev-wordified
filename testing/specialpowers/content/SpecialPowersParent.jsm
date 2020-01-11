@@ -3616,6 +3616,15 @@ SpecialPowers
 Focus
 "
 :
+if
+(
+this
+.
+manager
+.
+rootFrameLoader
+)
+{
 this
 .
 manager
@@ -3628,6 +3637,7 @@ focus
 (
 )
 ;
+}
 return
 undefined
 ;
