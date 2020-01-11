@@ -81,7 +81,7 @@ info
 "
 Test
 applying
-onFront
+watchFronts
 to
 a
 front
@@ -104,7 +104,7 @@ resolve
 {
 target
 .
-onFront
+watchFronts
 (
 "
 accessibility
@@ -129,7 +129,7 @@ accessibility
 )
 ;
 const
-onFrontFront
+watchFrontsFront
 =
 await
 promise
@@ -137,7 +137,7 @@ promise
 is
 (
 getFrontFront
-onFrontFront
+watchFrontsFront
 "
 got
 the
@@ -160,7 +160,7 @@ info
 "
 Test
 applying
-onFront
+watchFronts
 to
 an
 existing
@@ -178,7 +178,7 @@ resolve
 {
 target
 .
-onFront
+watchFronts
 (
 "
 accessibility
