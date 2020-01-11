@@ -1913,12 +1913,6 @@ prio
 '
         
 '
-debian
--
-buster
-'
-        
-'
 ubuntu
 -
 bionic
