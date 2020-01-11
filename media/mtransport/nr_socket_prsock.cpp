@@ -9332,15 +9332,9 @@ config
 config
 -
 >
-GetProxyPolicy
+GetForceProxy
 (
 )
-=
-=
-NrSocketProxyConfig
-:
-:
-kForceProxy
 &
 &
 addr
