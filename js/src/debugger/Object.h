@@ -194,6 +194,17 @@ JSContext
 #
 include
 "
+jstypes
+.
+h
+"
+/
+/
+for
+JS_PUBLIC_API
+#
+include
+"
 NamespaceImports
 .
 h
@@ -274,6 +285,7 @@ h
 for
 NativeObject
 class
+JS_PUBLIC_API
 JSAtom
 ;
 namespace

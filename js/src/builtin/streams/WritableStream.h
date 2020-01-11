@@ -188,6 +188,16 @@ uint32_t
 #
 include
 "
+jstypes
+.
+h
+"
+/
+/
+JS_PUBLIC_API
+#
+include
+"
 js
 /
 Class
@@ -267,6 +277,7 @@ js
 :
 NativeObject
 struct
+JS_PUBLIC_API
 JSContext
 ;
 namespace

@@ -649,6 +649,7 @@ h
 for
 WasmInstanceObject
 class
+JS_PUBLIC_API
 JSFunction
 ;
 namespace
@@ -658,12 +659,15 @@ class
 AutoStableStringChars
 ;
 class
+JS_PUBLIC_API
 Compartment
 ;
 class
+JS_PUBLIC_API
 Realm
 ;
 class
+JS_PUBLIC_API
 Zone
 ;
 }

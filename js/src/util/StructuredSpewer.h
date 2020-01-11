@@ -174,6 +174,13 @@ h
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 vm
 /
 JSONPrinter
@@ -610,6 +617,7 @@ to
 them
 .
 class
+JS_PUBLIC_API
 JSScript
 ;
 namespace

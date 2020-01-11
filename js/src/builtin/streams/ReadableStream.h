@@ -161,6 +161,16 @@ uint32_t
 #
 include
 "
+jstypes
+.
+h
+"
+/
+/
+JS_PUBLIC_API
+#
+include
+"
 js
 /
 Class
@@ -247,6 +257,7 @@ js
 :
 NativeObject
 class
+JS_PUBLIC_API
 JSObject
 ;
 namespace

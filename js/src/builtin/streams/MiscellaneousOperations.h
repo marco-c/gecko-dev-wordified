@@ -136,6 +136,16 @@ MOZ_MUST_USE
 #
 include
 "
+jstypes
+.
+h
+"
+/
+/
+JS_PUBLIC_API
+#
+include
+"
 js
 /
 CallArgs
@@ -194,6 +204,7 @@ h
 /
 JSObject
 struct
+JS_PUBLIC_API
 JSContext
 ;
 namespace

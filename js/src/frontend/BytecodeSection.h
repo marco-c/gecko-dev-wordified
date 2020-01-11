@@ -183,6 +183,16 @@ uint32_t
 #
 include
 "
+jstypes
+.
+h
+"
+/
+/
+JS_PUBLIC_API
+#
+include
+"
 NamespaceImports
 .
 h

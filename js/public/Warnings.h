@@ -278,6 +278,7 @@ h
 /
 JS_PUBLIC_API
 struct
+JS_PUBLIC_API
 JSContext
 ;
 class

@@ -156,6 +156,7 @@ JS
 :
 Value
 struct
+JS_PUBLIC_API
 JSContext
 ;
 namespace

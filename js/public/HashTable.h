@@ -123,6 +123,13 @@ HashTable
 .
 h
 "
+#
+include
+"
+jstypes
+.
+h
+"
 namespace
 js
 {
@@ -145,6 +152,7 @@ mozilla
 kHashNumberBits
 ;
 class
+JS_PUBLIC_API
 TempAllocPolicy
 ;
 template

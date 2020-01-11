@@ -166,6 +166,17 @@ move
 #
 include
 "
+jstypes
+.
+h
+"
+/
+/
+for
+JS_PUBLIC_API
+#
+include
+"
 debugger
 /
 Debugger
@@ -231,6 +242,7 @@ h
 for
 WasmInstanceObject
 class
+JS_PUBLIC_API
 JSObject
 ;
 js

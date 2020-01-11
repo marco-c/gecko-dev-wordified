@@ -141,6 +141,16 @@ MOZ_MUST_USE
 #
 include
 "
+jstypes
+.
+h
+"
+/
+/
+JS_PUBLIC_API
+#
+include
+"
 builtin
 /
 streams
@@ -186,6 +196,7 @@ JS
 :
 Value
 struct
+JS_PUBLIC_API
 JSContext
 ;
 namespace

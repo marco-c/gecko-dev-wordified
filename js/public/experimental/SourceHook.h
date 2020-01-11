@@ -479,6 +479,7 @@ h
 /
 JS_FRIEND_API
 struct
+JS_PUBLIC_API
 JSContext
 ;
 namespace

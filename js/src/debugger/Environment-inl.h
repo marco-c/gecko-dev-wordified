@@ -130,6 +130,17 @@ DebuggerEnvironment
 #
 include
 "
+jstypes
+.
+h
+"
+/
+/
+for
+JS_PUBLIC_API
+#
+include
+"
 NamespaceImports
 .
 h
@@ -170,6 +181,7 @@ Debugger
 :
 fromJSObject
 class
+JS_PUBLIC_API
 JSObject
 ;
 inline

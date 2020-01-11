@@ -117,6 +117,13 @@ threading_ProtectedData_h
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 jsutil
 .
 h
@@ -152,6 +159,7 @@ namespace
 JS
 {
 class
+JS_PUBLIC_API
 Zone
 ;
 }

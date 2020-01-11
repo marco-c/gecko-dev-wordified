@@ -144,6 +144,13 @@ h
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 gc
 /
 Barrier
@@ -244,6 +251,7 @@ namespace
 JS
 {
 class
+JS_PUBLIC_API
 BigInt
 ;
 }

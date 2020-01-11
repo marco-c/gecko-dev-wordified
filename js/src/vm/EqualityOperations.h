@@ -212,6 +212,16 @@ vm_EqualityOperations_h
 #
 include
 "
+jstypes
+.
+h
+"
+/
+/
+JS_PUBLIC_API
+#
+include
+"
 js
 /
 RootingAPI
@@ -240,6 +250,7 @@ JS
 :
 Value
 struct
+JS_PUBLIC_API
 JSContext
 ;
 namespace

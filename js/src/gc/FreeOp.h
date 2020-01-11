@@ -129,6 +129,16 @@ MOZ_ASSERT
 #
 include
 "
+jstypes
+.
+h
+"
+/
+/
+JS_PUBLIC_API
+#
+include
+"
 gc
 /
 GCEnum
@@ -209,6 +219,7 @@ js
 :
 Vector
 struct
+JS_PUBLIC_API
 JSRuntime
 ;
 namespace
