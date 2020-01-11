@@ -778,6 +778,12 @@ int16_t
 aReason
 )
 ;
+bool
+ShouldDisableApz
+(
+)
+const
+;
 protected
 :
 virtual
