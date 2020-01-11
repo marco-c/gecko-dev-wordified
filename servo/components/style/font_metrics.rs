@@ -92,10 +92,16 @@ crate
 Atom
 ;
 use
-app_units
+crate
 :
 :
-Au
+values
+:
+:
+computed
+:
+:
+Length
 ;
 /
 /
@@ -154,7 +160,7 @@ x_height
 :
 Option
 <
-Au
+Length
 >
 /
 /
@@ -174,7 +180,7 @@ zero_advance_measure
 :
 Option
 <
-Au
+Length
 >
 }
 /
@@ -352,7 +358,7 @@ GenericFontFamily
 )
 -
 >
-Au
+Length
 ;
 /
 /
@@ -525,7 +531,7 @@ GenericFontFamily
 )
 -
 >
-Au
+Length
 {
 unreachable
 !
