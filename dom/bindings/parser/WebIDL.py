@@ -13773,6 +13773,12 @@ needsConversionToJS
 =
 False
         
+self
+.
+needsConversionFromJS
+=
+False
+        
 IDLObjectWithScope
 .
 __init__
@@ -14754,12 +14760,22 @@ identifier
 )
             
 if
+(
 identifier
 =
 =
 "
 GenerateInitFromJSON
 "
+or
+                
+identifier
+=
+=
+"
+GenerateInit
+"
+)
 :
                 
 if
@@ -14793,6 +14809,12 @@ attr
 location
 ]
 )
+                
+self
+.
+needsConversionFromJS
+=
+True
             
 elif
 (
