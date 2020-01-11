@@ -637,7 +637,7 @@ info
         
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -687,7 +687,7 @@ info
         
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -747,7 +747,7 @@ info
         
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -784,7 +784,7 @@ other
         
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -852,7 +852,7 @@ info
         
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
