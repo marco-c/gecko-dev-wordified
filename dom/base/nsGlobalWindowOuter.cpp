@@ -40060,13 +40060,6 @@ WindowID
 callerDocumentURI
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
-GetDocGroup
-(
-)
-)
-;
 JS
 :
 :
@@ -40075,6 +40068,11 @@ clonePolicy
 ;
 if
 (
+GetDocGroup
+(
+)
+&
+&
 callerInnerWindow
 &
 &
