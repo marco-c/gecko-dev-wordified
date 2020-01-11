@@ -950,6 +950,9 @@ aOriginalURI
 ;
 }
 const
+mozilla
+:
+:
 Maybe
 <
 nsCString
@@ -980,6 +983,9 @@ aCancelEpoch
 ;
 }
 const
+mozilla
+:
+:
 Maybe
 <
 int32_t
@@ -2160,6 +2166,9 @@ service
 if
 needed
 .
+mozilla
+:
+:
 Maybe
 <
 nsCString
@@ -2185,6 +2194,9 @@ initiating
 the
 load
 .
+mozilla
+:
+:
 Maybe
 <
 int32_t
