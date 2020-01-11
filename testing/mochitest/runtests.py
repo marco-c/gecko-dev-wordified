@@ -20779,18 +20779,12 @@ pref
 defaults
 to
 true
-in
-nightly
-            
-#
-builds
-and
-false
-otherwise
 (
 but
 can
 be
+            
+#
 overridden
 with
 -
@@ -20817,14 +20811,7 @@ serviceWorkers
 .
 parent_intercept
 '
-mozinfo
-.
-info
-[
-'
-nightly_build
-'
-]
+True
 )
             
 "
