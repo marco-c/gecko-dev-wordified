@@ -15990,6 +15990,15 @@ ValOperandId
 rhsId
 )
 ;
+AttachDecision
+tryAttachPrimitiveSymbol
+(
+ValOperandId
+lhsId
+ValOperandId
+rhsId
+)
+;
 void
 trackAttached
 (
