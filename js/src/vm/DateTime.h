@@ -177,7 +177,7 @@ h
 "
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -200,7 +200,7 @@ U_NAMESPACE_END
 endif
 /
 *
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -1427,7 +1427,7 @@ utcToLocalStandardOffsetSeconds_
 }
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -1645,7 +1645,7 @@ msPerSecond
 endif
 /
 *
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -2201,7 +2201,7 @@ means
 when
 *
 |
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -2268,7 +2268,7 @@ based
 ranges
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -2626,7 +2626,7 @@ time_t
 endif
 /
 *
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -2774,7 +2774,7 @@ utcMilliseconds
 ;
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -2886,7 +2886,7 @@ timeZone
 endif
 /
 *
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !

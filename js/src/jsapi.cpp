@@ -324,7 +324,7 @@ h
 "
 #
 ifdef
-ENABLE_TYPED_OBJECTS
+JS_HAS_TYPED_OBJECTS
 #
 include
 "

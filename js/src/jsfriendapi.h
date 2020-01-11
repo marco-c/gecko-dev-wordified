@@ -16793,7 +16793,7 @@ JS
 was
 built
 without
-ENABLE_INTL_API
+JS_HAS_INTL_API
 this
 function
 will
@@ -16989,7 +16989,7 @@ JS
 was
 built
 without
-ENABLE_INTL_API
+JS_HAS_INTL_API
 this
 function
 will
@@ -17042,7 +17042,7 @@ JS
 was
 built
 without
-ENABLE_INTL_API
+JS_HAS_INTL_API
 this
 function
 will

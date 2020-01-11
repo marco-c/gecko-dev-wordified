@@ -149,7 +149,7 @@ h
 #
 if
 !
-ENABLE_INTL_API
+JS_HAS_INTL_API
 |
 |
 MOZ_SYSTEM_ICU
@@ -427,7 +427,7 @@ endif
 #
 if
 !
-ENABLE_INTL_API
+JS_HAS_INTL_API
 |
 |
 MOZ_SYSTEM_ICU

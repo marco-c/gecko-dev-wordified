@@ -8142,7 +8142,7 @@ true
 }
 #
 ifdef
-ENABLE_INTL_API
+JS_HAS_INTL_API
 static
 bool
 AddIntlExtras
@@ -8344,7 +8344,7 @@ true
 endif
 /
 /
-ENABLE_INTL_API
+JS_HAS_INTL_API
 static
 MOZ_MUST_USE
 bool
@@ -58020,7 +58020,7 @@ true
 )
 #
 ifdef
-ENABLE_INTL_API
+JS_HAS_INTL_API
 JS_FN_HELP
 (
 "
@@ -58114,7 +58114,7 @@ you
 endif
 /
 /
-ENABLE_INTL_API
+JS_HAS_INTL_API
 JS_FN_HELP
 (
 "

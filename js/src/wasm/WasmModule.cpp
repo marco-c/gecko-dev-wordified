@@ -7313,7 +7313,7 @@ types
 else
 #
 ifndef
-ENABLE_TYPED_OBJECTS
+JS_HAS_TYPED_OBJECTS
 #
 error
 "

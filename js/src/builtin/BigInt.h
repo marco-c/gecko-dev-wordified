@@ -286,7 +286,7 @@ vp
 ;
 #
 ifndef
-ENABLE_INTL_API
+JS_HAS_INTL_API
 static
 bool
 toLocaleString_impl

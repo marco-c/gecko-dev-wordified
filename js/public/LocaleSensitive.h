@@ -616,7 +616,7 @@ api
 then
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 .
 In
 *

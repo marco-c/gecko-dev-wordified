@@ -227,7 +227,7 @@ h
 "
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -272,7 +272,7 @@ h
 endif
 /
 *
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -1371,7 +1371,7 @@ reset
 ;
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -1431,7 +1431,7 @@ nullptr
 endif
 /
 *
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -1674,7 +1674,7 @@ MaxTimeT
 ;
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -1873,7 +1873,7 @@ msPerSecond
 endif
 /
 *
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -2580,7 +2580,7 @@ oldEndSeconds
 }
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -3402,7 +3402,7 @@ get
 endif
 /
 *
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -3997,7 +3997,7 @@ false
 }
 #
 elif
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -5156,7 +5156,7 @@ US_INV
 endif
 /
 *
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -5195,7 +5195,7 @@ internalResyncICUDefaultTimeZone
 {
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !

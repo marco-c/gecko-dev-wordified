@@ -4221,7 +4221,7 @@ result
 }
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 var
 collatorCache
 =
@@ -4926,7 +4926,7 @@ requestedLocale
 endif
 /
 /
-ENABLE_INTL_API
+JS_HAS_INTL_API
 /
 /
 ES2018
