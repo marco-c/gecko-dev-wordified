@@ -1507,7 +1507,7 @@ styleeditor
 /
 index
 .
-xul
+xhtml
 "
 label
 :
@@ -1900,7 +1900,7 @@ performance
 /
 index
 .
-xul
+xhtml
 "
 ;
 Tools
@@ -2364,7 +2364,7 @@ storage
 /
 index
 .
-xul
+xhtml
 "
 label
 :

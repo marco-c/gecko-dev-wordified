@@ -47,7 +47,7 @@ t
 open
 index
 .
-xul
+xhtml
 in
 a
 new

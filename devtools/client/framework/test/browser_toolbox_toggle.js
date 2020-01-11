@@ -193,7 +193,7 @@ toolbox
 -
 window
 .
-xul
+xhtml
 /
 /
 -
