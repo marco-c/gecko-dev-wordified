@@ -316,7 +316,7 @@ win
 "
 win64
 "
-               
+                
 "
 win64
 -
@@ -679,16 +679,11 @@ win
 win64
 "
                 
-#
-add
 "
 win64
 -
 aarch64
 "
-when
-ESR60
-dropped
             
 ]
         
@@ -766,16 +761,11 @@ win
 win64
 "
                 
-#
-add
 "
 win64
 -
 aarch64
 "
-when
-ESR60
-dropped
             
 ]
         
