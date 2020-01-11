@@ -17022,9 +17022,6 @@ IsRootWebRenderBridgeParent
 )
 )
 ;
-#
-ifdef
-MOZ_WIDGET_ANDROID
 if
 (
 !
@@ -17055,8 +17052,6 @@ Pause
 (
 )
 ;
-#
-endif
 mPaused
 =
 true
