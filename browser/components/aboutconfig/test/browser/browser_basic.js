@@ -103,7 +103,7 @@ document
 title
 "
 Advanced
-Configurations
+Preferences
 "
 )
 ;
