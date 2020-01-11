@@ -234,6 +234,15 @@ Safepoints
 .
 h
 "
+#
+include
+"
+util
+/
+Memory
+.
+h
+"
 namespace
 js
 {
