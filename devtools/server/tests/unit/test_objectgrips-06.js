@@ -120,6 +120,7 @@ once
 "
 paused
 "
+async
 function
 (
 packet
@@ -207,15 +208,15 @@ obj2Client
 isSealed
 )
 ;
+await
 threadFront
 .
 resume
 (
 )
-.
-then
-(
+;
 resolve
+(
 )
 ;
 }
