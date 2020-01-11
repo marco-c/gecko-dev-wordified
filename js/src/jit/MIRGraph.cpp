@@ -276,10 +276,6 @@ needsStaticStackAlignment_
 (
 false
 )
-modifiesFrameArguments_
-(
-false
-)
 instrumentedProfiling_
 (
 false
