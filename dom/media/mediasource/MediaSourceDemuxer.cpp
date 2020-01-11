@@ -2689,10 +2689,9 @@ EOS_FUZZ
 ;
 if
 (
-!
 buffered
 .
-Length
+IsEmpty
 (
 )
 &

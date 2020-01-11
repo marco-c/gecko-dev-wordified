@@ -19650,10 +19650,9 @@ mTimeRanges
 }
 if
 (
-!
 intervals
 .
-Length
+IsEmpty
 (
 )
 |
