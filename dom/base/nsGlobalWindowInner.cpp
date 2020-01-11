@@ -24939,6 +24939,14 @@ mHasVREvents
 mVREventObserver
 )
 {
+MOZ_ASSERT
+(
+!
+IsDying
+(
+)
+)
+;
 mVREventObserver
 =
 new
