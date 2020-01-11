@@ -115,9 +115,15 @@ target
 const
 webConsoleFront
 =
+await
 target
 .
-activeConsole
+getFront
+(
+"
+console
+"
+)
 ;
 await
 webConsoleFront
