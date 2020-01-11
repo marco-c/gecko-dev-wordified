@@ -2245,6 +2245,14 @@ mWindowProxy
 aWindowProxy
 ;
 }
+Nullable
+<
+WindowProxyHolder
+>
+GetWindow
+(
+)
+;
 MOZ_DECLARE_WEAKREFERENCE_TYPENAME
 (
 BrowsingContext
