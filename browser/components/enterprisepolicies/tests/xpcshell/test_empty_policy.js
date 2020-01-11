@@ -37,7 +37,7 @@ add_task
 (
 async
 function
-test_empty_toplevel
+test_empty_policy
 (
 )
 {
@@ -48,6 +48,10 @@ setupPolicyEngineWithJson
 policies
 :
 {
+Certificates
+:
+{
+}
 }
 }
 )
