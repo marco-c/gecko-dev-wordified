@@ -3284,6 +3284,11 @@ result
 .
 logins
 )
+willAutoSaveGeneratedPassword
+:
+result
+.
+willAutoSaveGeneratedPassword
 }
 ;
 }
