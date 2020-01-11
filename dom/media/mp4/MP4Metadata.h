@@ -601,11 +601,8 @@ IndiceWrapper
 ResultAndIndice
 GetTrackIndice
 (
-mozilla
-:
-:
-TrackID
-aTrackID
+uint32_t
+aTrackId
 )
 ;
 nsresult
