@@ -7542,6 +7542,10 @@ break
 ;
 }
 }
+RecordTelemetry
+(
+)
+;
 }
 /
 /

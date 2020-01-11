@@ -4735,4 +4735,8 @@ color
 )
 ;
 }
+RecordTelemetry
+(
+)
+;
 }

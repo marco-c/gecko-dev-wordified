@@ -721,6 +721,11 @@ ColorID
 aID
 )
 ;
+void
+RecordTelemetry
+(
+)
+;
 static
 void
 OnPrefChanged

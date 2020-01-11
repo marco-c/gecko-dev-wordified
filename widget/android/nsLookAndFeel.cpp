@@ -348,6 +348,10 @@ EnsureInitShowPassword
 (
 )
 ;
+RecordTelemetry
+(
+)
+;
 }
 /
 *
