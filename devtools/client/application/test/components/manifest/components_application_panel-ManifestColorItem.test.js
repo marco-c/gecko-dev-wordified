@@ -61,7 +61,7 @@ react
 )
 ;
 const
-ManifestItem
+ManifestColorItem
 =
 createFactory
 (
@@ -80,7 +80,7 @@ components
 /
 manifest
 /
-ManifestItem
+ManifestColorItem
 "
 )
 )
@@ -99,7 +99,7 @@ component
 describe
 (
 "
-ManifestItem
+ManifestColorItem
 "
 (
 )
@@ -116,6 +116,7 @@ snapshot
 for
 a
 populated
+color
 item
 "
 (
@@ -128,7 +129,7 @@ wrapper
 =
 shallow
 (
-ManifestItem
+ManifestColorItem
 (
 {
 label
@@ -136,10 +137,13 @@ label
 "
 foo
 "
+value
+:
+"
+#
+ff0000
+"
 }
-"
-bar
-"
 )
 )
 ;
@@ -165,6 +169,7 @@ snapshot
 for
 an
 empty
+color
 item
 "
 (
@@ -177,7 +182,7 @@ wrapper
 =
 shallow
 (
-ManifestItem
+ManifestColorItem
 (
 {
 label
