@@ -576,7 +576,7 @@ controller
 controller
 =
 new
-TabMediaController
+MediaController
 (
 aId
 )

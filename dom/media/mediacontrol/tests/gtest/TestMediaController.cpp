@@ -103,7 +103,7 @@ MediaController
 controller
 =
 new
-TabMediaController
+MediaController
 (
 CONTROLLER_ID
 )
@@ -170,7 +170,7 @@ MediaController
 controller
 =
 new
-TabMediaController
+MediaController
 (
 CONTROLLER_ID
 )
@@ -312,7 +312,7 @@ MediaController
 controller1
 =
 new
-TabMediaController
+MediaController
 (
 FIRST_CONTROLLER_ID
 )
@@ -373,7 +373,7 @@ MediaController
 controller
 =
 new
-TabMediaController
+MediaController
 (
 CONTROLLER_ID
 )
@@ -447,7 +447,7 @@ MediaController
 controller
 =
 new
-TabMediaController
+MediaController
 (
 CONTROLLER_ID
 )
@@ -566,7 +566,7 @@ MediaController
 controller
 =
 new
-TabMediaController
+MediaController
 (
 CONTROLLER_ID
 )

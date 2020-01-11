@@ -392,7 +392,7 @@ MediaController
 controller1
 =
 new
-TabMediaController
+MediaController
 (
 FIRST_CONTROLLER_ID
 )
@@ -456,7 +456,7 @@ MediaController
 controller2
 =
 new
-TabMediaController
+MediaController
 (
 SECOND_CONTROLLER_ID
 )
