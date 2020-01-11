@@ -139,7 +139,7 @@ h
 namespace
 mozilla
 {
-LauncherVoidResult
+LauncherVoidResultWithLineInfo
 InitializeDllBlocklistOOP
 (
 const
