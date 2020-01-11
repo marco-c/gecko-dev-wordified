@@ -329,6 +329,10 @@ extern
 crate
 mdns_service
 ;
+extern
+crate
+neqo_glue
+;
 use
 std
 :
