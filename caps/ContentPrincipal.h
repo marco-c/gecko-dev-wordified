@@ -411,6 +411,8 @@ serialization
 supports
 enum
 SerializableKeys
+:
+uint8_t
 {
 eURI
 =
