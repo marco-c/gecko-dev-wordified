@@ -263,6 +263,10 @@ RemoteWorkerServiceParent
 *
 SelectTargetActorForServiceWorker
 (
+const
+RemoteWorkerData
+&
+aData
 )
 const
 ;
@@ -288,6 +292,10 @@ false
 void
 LaunchNewContentProcess
 (
+const
+RemoteWorkerData
+&
+aData
 )
 ;
 void

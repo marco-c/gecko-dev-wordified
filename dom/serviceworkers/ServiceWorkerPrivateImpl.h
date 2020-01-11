@@ -562,7 +562,7 @@ change
 over
 time
 .
-nsresult
+void
 RefreshRemoteWorkerData
 (
 const
