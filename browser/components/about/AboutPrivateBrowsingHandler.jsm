@@ -254,6 +254,16 @@ init
 (
 )
 {
+if
+(
+this
+.
+_inited
+)
+{
+return
+;
+}
 this
 .
 receiveMessage
