@@ -22505,7 +22505,7 @@ if
 aForward
 |
 |
-oldTopLevelScopeOwner
+currentTopLevelScopeOwner
 !
 =
 currentContent
@@ -22517,13 +22517,6 @@ GetTopLevelScopeOwner
 (
 currentContent
 )
-;
-}
-else
-{
-currentTopLevelScopeOwner
-=
-currentContent
 ;
 }
 if
@@ -23055,10 +23048,7 @@ elements
 .
 if
 (
-IsHostOrSlot
-(
 currentTopLevelScopeOwner
-)
 )
 {
 bool
