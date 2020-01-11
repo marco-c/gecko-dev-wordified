@@ -1497,7 +1497,7 @@ aUsingCustomOptions
 )
 ;
 return
-NS_DispatchToBackgroundThread
+NS_DispatchBackgroundTask
 (
 event
 .
@@ -1610,7 +1610,7 @@ aUsingCustomOptions
 )
 ;
 return
-NS_DispatchToBackgroundThread
+NS_DispatchBackgroundTask
 (
 event
 .

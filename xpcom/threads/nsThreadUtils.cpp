@@ -2947,7 +2947,7 @@ name
 ;
 }
 nsresult
-NS_DispatchToBackgroundThread
+NS_DispatchBackgroundTask
 (
 already_AddRefed
 <
@@ -2983,7 +2983,7 @@ aDispatchFlags
 ;
 }
 nsresult
-NS_DispatchToBackgroundThread
+NS_DispatchBackgroundTask
 (
 nsIRunnable
 *

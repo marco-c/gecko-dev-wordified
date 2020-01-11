@@ -1798,7 +1798,7 @@ mEarlyRv
 ;
 mEarlyRv
 =
-NS_DispatchToBackgroundThread
+NS_DispatchBackgroundTask
 (
 this
 )
