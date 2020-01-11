@@ -3034,6 +3034,7 @@ synthesizeMouseAtPoint
 browser
 )
 ;
+await
 assertSawMouseEvents
 (
 browser

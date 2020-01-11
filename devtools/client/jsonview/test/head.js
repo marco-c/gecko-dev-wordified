@@ -725,14 +725,12 @@ line
 no
 -
 shadow
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 data
-]
 async
 function
 (
