@@ -246,10 +246,6 @@ mozilla
 .
 org
 /
-en
--
-US
-/
 kb
 /
 send
