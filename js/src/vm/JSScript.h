@@ -21382,6 +21382,7 @@ jsbytecode
 *
 pc
 )
+const
 ;
 js
 :
@@ -21394,6 +21395,7 @@ jsbytecode
 *
 pc
 )
+const
 ;
 js
 :
@@ -21403,6 +21405,7 @@ Scope
 innermostScope
 (
 )
+const
 {
 return
 innermostScope
