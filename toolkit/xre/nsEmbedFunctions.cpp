@@ -1351,7 +1351,7 @@ gDirServiceProvider
 const
 char
 *
-XRE_ChildProcessTypeToString
+XRE_GeckoProcessTypeToString
 (
 GeckoProcessType
 aProcessType
@@ -1434,7 +1434,7 @@ content
 default
 :
 return
-XRE_ChildProcessTypeToString
+XRE_GeckoProcessTypeToString
 (
 aProcessType
 )
@@ -3586,7 +3586,7 @@ n
 \
 n
 "
-XRE_ChildProcessTypeToString
+XRE_GeckoProcessTypeToString
 (
 XRE_GetProcessType
 (
@@ -3678,7 +3678,7 @@ n
 \
 n
 "
-XRE_ChildProcessTypeToString
+XRE_GeckoProcessTypeToString
 (
 XRE_GetProcessType
 (
