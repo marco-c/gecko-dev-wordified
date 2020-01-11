@@ -78,6 +78,8 @@ import
     
 ClangStaticAnalysisInstall
     
+LucetcInstall
+    
 NodeInstall
     
 SccacheInstall
@@ -140,11 +142,13 @@ noqa
 class
 SolusBootstrapper
 (
+        
 NodeInstall
 StyloInstall
 SccacheInstall
-                        
 ClangStaticAnalysisInstall
+        
+LucetcInstall
 BaseBootstrapper
 )
 :

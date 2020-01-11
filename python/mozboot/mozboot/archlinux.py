@@ -84,6 +84,8 @@ import
     
 ClangStaticAnalysisInstall
     
+LucetcInstall
+    
 NodeInstall
     
 SccacheInstall
@@ -146,11 +148,13 @@ noqa
 class
 ArchlinuxBootstrapper
 (
+        
 NodeInstall
 StyloInstall
 SccacheInstall
-                            
 ClangStaticAnalysisInstall
+        
+LucetcInstall
 BaseBootstrapper
 )
 :
