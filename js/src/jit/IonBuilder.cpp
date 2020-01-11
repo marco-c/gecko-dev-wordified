@@ -12866,14 +12866,6 @@ if
 osr
 )
 {
-MOZ_ASSERT
-(
-LoopHeadCanIonOsr
-(
-pc
-)
-)
-;
 MBasicBlock
 *
 preheader
