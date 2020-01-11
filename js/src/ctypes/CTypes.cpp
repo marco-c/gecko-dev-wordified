@@ -59912,8 +59912,13 @@ join
 int64_t
 i
 =
+mozilla
+:
+:
+WrapToSigned
 (
-int64_t
+(
+uint64_t
 (
 hi
 )
@@ -59922,8 +59927,6 @@ hi
 32
 )
 +
-int64_t
-(
 lo
 )
 ;
