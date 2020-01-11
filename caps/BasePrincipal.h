@@ -670,6 +670,15 @@ aResult
 override
 ;
 NS_IMETHOD
+GetAboutModuleFlags
+(
+uint32_t
+*
+flags
+)
+override
+;
+NS_IMETHOD
 GetIsAddonOrExpandedAddonPrincipal
 (
 bool
