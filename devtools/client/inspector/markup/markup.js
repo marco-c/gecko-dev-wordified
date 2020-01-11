@@ -7174,6 +7174,16 @@ DOCUMENT_TYPE_NODE
 |
 nodeFront
 .
+nodeType
+=
+=
+nodeConstants
+.
+DOCUMENT_FRAGMENT_NODE
+|
+|
+nodeFront
+.
 isAnonymous
 )
 ;
