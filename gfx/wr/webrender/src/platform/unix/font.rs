@@ -3672,17 +3672,6 @@ unwrap_or
 )
 ;
 let
-scale
-=
-font
-.
-oversized_scale_factor
-(
-x_scale
-y_scale
-)
-;
-let
 req_size
 =
 font
@@ -3776,8 +3765,6 @@ face
 req_size
 *
 y_scale
-/
-scale
 )
 }
 else
@@ -3969,8 +3956,6 @@ face
 req_size
 *
 x_scale
-/
-scale
 *
 64
 .
@@ -3986,8 +3971,6 @@ FT_F26Dot6
 req_size
 *
 y_scale
-/
-scale
 *
 64
 .
@@ -4375,9 +4358,9 @@ Some
 (
 (
 slot
-scale
-as
-f32
+1
+.
+0
 )
 )
 _
