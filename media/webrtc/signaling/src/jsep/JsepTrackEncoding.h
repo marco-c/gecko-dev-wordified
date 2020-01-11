@@ -359,6 +359,11 @@ std
 string
 mRid
 ;
+bool
+mPaused
+=
+false
+;
 private
 :
 std
