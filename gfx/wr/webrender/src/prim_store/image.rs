@@ -186,6 +186,16 @@ render_task
 {
 BlitSource
 RenderTask
+}
+;
+use
+crate
+:
+:
+render_task_cache
+:
+:
+{
 RenderTaskCacheEntryHandle
 RenderTaskCacheKey
 RenderTaskCacheKeyKind
