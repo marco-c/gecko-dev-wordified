@@ -309,6 +309,11 @@ MOZ_APP_VERSION
 .
 0a1
 "
+platform
+:
+"
+win
+"
 }
 UpdateUtils
 :
