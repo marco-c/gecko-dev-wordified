@@ -805,11 +805,6 @@ _
 (
 IntrinsicTypeDescrIsArrayType
 )
-\
-_
-(
-IntrinsicSetTypedObjectOffset
-)
 struct
 JSJitInfo
 ;

@@ -7202,14 +7202,6 @@ callInfo
 )
 ;
 InliningResult
-inlineSetTypedObjectOffset
-(
-CallInfo
-&
-callInfo
-)
-;
-InliningResult
 inlineConstructTypedObject
 (
 CallInfo
