@@ -11418,21 +11418,7 @@ mochitest
 -
 devtools
 -
-chrome
-'
-    
-'
-mochitest
--
-devtools
--
 webreplay
-'
-    
-'
-mochitest
--
-media
 '
     
 '
