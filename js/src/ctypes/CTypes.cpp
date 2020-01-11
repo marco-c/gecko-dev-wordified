@@ -34588,7 +34588,10 @@ data
 +
 offset
 *
+ptrdiff_t
+(
 elementSize
+)
 ;
 /
 /
