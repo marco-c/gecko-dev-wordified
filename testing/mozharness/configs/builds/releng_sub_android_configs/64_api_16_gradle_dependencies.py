@@ -73,12 +73,6 @@ metrics
 .
     
 '
-disable_package_metrics
-'
-:
-True
-    
-'
 postflight_build_mach_commands
 '
 :
