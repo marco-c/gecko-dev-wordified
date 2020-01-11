@@ -5620,6 +5620,11 @@ strip
 toPEM
 (
 )
++
+'
+\
+n
+'
 )
 #
 When
