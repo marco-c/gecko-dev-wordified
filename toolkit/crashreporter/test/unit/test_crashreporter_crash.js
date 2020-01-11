@@ -137,7 +137,7 @@ a
 basic
 crash
 await
-do_crash
+do_content_crash
 (
 null
 function
