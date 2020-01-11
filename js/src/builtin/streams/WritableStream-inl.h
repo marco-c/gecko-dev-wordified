@@ -159,16 +159,6 @@ MOZ_MUST_USE
 #
 include
 "
-jstypes
-.
-h
-"
-/
-/
-JS_PUBLIC_API
-#
-include
-"
 builtin
 /
 Promise
@@ -249,7 +239,6 @@ js
 :
 UnwrapInternalSlot
 struct
-JS_PUBLIC_API
 JSContext
 ;
 namespace
