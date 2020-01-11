@@ -574,6 +574,12 @@ IsDMABufEnabled
 (
 )
 ;
+static
+bool
+IsDMABufBasicEnabled
+(
+)
+;
 /
 /
 See
@@ -679,6 +685,10 @@ mIsDMABufEnabled
 static
 int
 mIsDMABufPrefState
+;
+static
+int
+mIsDMABufPrefBasicCompositorState
 ;
 static
 bool
