@@ -2272,7 +2272,7 @@ xpcshell
 '
 ]
 class
-Base
+TestTestResolver
 (
 unittest
 .
@@ -2356,7 +2356,7 @@ _temp_dirs
 ]
     
 def
-_get_resolver
+get_resolver
 (
 self
 )
@@ -2496,64 +2496,29 @@ b
 :
 None
         
-return
+resolver
+=
 o
 .
 _spawn
 (
 TestResolver
 )
-    
-def
-_get_test_metadata
-(
-self
-)
-:
         
 resolver
-=
-self
-.
-_get_resolver
-(
-)
-        
-rv
-=
-resolver
-.
-_tests
-        
-#
-Avoid
-loading
-wpt
-or
-puppeteer
-manifests
-.
-        
-rv
-.
-_wpt_loaded
-=
-True
-        
-rv
 .
 _puppeteer_loaded
 =
 True
         
+resolver
+.
+_wpt_loaded
+=
+True
+        
 return
-rv
-class
-TestTestMetadata
-(
-Base
-)
-:
+resolver
     
 def
 test_load
@@ -2562,11 +2527,11 @@ self
 )
 :
         
-t
+r
 =
 self
 .
-_get_test_metadata
+get_resolver
 (
 )
         
@@ -2576,7 +2541,7 @@ assertEqual
 (
 len
 (
-t
+r
 .
 tests_by_path
 )
@@ -2589,7 +2554,7 @@ assertEqual
 (
 len
 (
-t
+r
 .
 tests_by_flavor
 [
@@ -2607,7 +2572,7 @@ assertEqual
 (
 len
 (
-t
+r
 .
 tests_by_flavor
 [
@@ -2628,11 +2593,11 @@ self
 )
 :
         
-t
+r
 =
 self
 .
-_get_test_metadata
+get_resolver
 (
 )
         
@@ -2644,9 +2609,9 @@ len
 (
 list
 (
-t
+r
 .
-resolve_tests
+_resolve
 (
 )
 )
@@ -2661,11 +2626,11 @@ self
 )
 :
         
-t
+r
 =
 self
 .
-_get_test_metadata
+get_resolver
 (
 )
         
@@ -2677,9 +2642,9 @@ len
 (
 list
 (
-t
+r
 .
-resolve_tests
+_resolve
 (
 flavor
 =
@@ -2699,11 +2664,11 @@ self
 )
 :
         
-t
+r
 =
 self
 .
-_get_test_metadata
+get_resolver
 (
 )
         
@@ -2715,9 +2680,9 @@ len
 (
 list
 (
-t
+r
 .
-resolve_tests
+_resolve
 (
 paths
 =
@@ -2741,11 +2706,11 @@ self
 )
 :
         
-t
+r
 =
 self
 .
-_get_test_metadata
+get_resolver
 (
 )
         
@@ -2757,9 +2722,9 @@ len
 (
 list
 (
-t
+r
 .
-resolve_tests
+_resolve
 (
 under_path
 =
@@ -2780,9 +2745,9 @@ len
 (
 list
 (
-t
+r
 .
-resolve_tests
+_resolve
 (
 flavor
 =
@@ -2808,11 +2773,11 @@ self
 )
 :
         
-t
+r
 =
 self
 .
-_get_test_metadata
+get_resolver
 (
 )
         
@@ -2820,7 +2785,7 @@ result
 =
 list
 (
-t
+r
 .
 resolve_tests
 (
@@ -2869,11 +2834,11 @@ nxpcshell_updater
 ini
 "
         
-t
+r
 =
 self
 .
-_get_test_metadata
+get_resolver
 (
 )
         
@@ -2881,7 +2846,7 @@ result
 =
 list
 (
-t
+r
 .
 resolve_tests
 (
@@ -2935,11 +2900,11 @@ self
 )
 :
         
-t
+r
 =
 self
 .
-_get_test_metadata
+get_resolver
 (
 )
         
@@ -2947,9 +2912,9 @@ result
 =
 list
 (
-t
+r
 .
-resolve_tests
+_resolve
 (
 paths
 =
@@ -2971,12 +2936,6 @@ result
 )
 1
 )
-class
-TestTestResolver
-(
-Base
-)
-:
     
 def
 test_cwd_children_only
@@ -3008,7 +2967,7 @@ r
 =
 self
 .
-_get_resolver
+get_resolver
 (
 )
         
@@ -3165,7 +3124,7 @@ r
 =
 self
 .
-_get_resolver
+get_resolver
 (
 )
         
@@ -3303,7 +3262,7 @@ r
 =
 self
 .
-_get_resolver
+get_resolver
 (
 )
         
@@ -3474,7 +3433,7 @@ r
 =
 self
 .
-_get_resolver
+get_resolver
 (
 )
         
@@ -3640,7 +3599,7 @@ r
 =
 self
 .
-_get_resolver
+get_resolver
 (
 )
         
