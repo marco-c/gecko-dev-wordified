@@ -381,6 +381,14 @@ aSize
 ;
 virtual
 void
+PostVisualViewportResizeEventByDynamicToolbar
+(
+)
+=
+0
+;
+virtual
+void
 UpdateDisplayPortMargins
 (
 )
