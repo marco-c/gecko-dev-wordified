@@ -70,7 +70,7 @@ URL_ROOT
 "
 doc_iframe_typecontent_input_focus
 .
-xhtml
+xul
 "
 ;
 const
