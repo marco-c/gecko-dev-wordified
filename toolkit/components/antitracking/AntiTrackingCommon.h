@@ -571,6 +571,7 @@ StorageAccessPromptChoices
 {
 eAllow
 eAllowAutoGrant
+eAllowOnAnySite
 }
 ;
 /
