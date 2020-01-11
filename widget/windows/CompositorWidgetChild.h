@@ -257,6 +257,10 @@ const
 WindowsHandle
 &
 aParentWnd
+UpdateCompositorWndResolver
+&
+&
+aResolve
 )
 override
 ;

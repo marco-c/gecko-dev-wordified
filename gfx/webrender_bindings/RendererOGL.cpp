@@ -626,6 +626,13 @@ Update
 (
 )
 {
+mCompositor
+-
+>
+Update
+(
+)
+;
 if
 (
 mCompositor
