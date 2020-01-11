@@ -102,8 +102,6 @@ import
     
 FileAvoidWrite
     
-ensure_bytes
-    
 ensure_unicode
 )
 from
@@ -1487,6 +1485,9 @@ self
 .
 open
 (
+'
+rb
+'
 )
         
 copy_content
@@ -4639,6 +4640,11 @@ def
 open
 (
 self
+mode
+=
+'
+rb
+'
 )
 :
         
@@ -5166,6 +5172,11 @@ def
 open
 (
 self
+mode
+=
+'
+rt
+'
 )
 :
         
@@ -5197,19 +5208,14 @@ manifest
 '
 '
         
-return
-BytesIO
-(
-            
-ensure_bytes
-(
-                
+content
+=
 '
 '
 .
 join
 (
-                    
+            
 '
 %
 s
@@ -5225,7 +5231,7 @@ self
 .
 _base
 )
-                    
+            
 for
 e
 in
@@ -5238,8 +5244,37 @@ self
 .
 _interfaces
 )
-                
 )
+        
+if
+'
+b
+'
+in
+mode
+:
+            
+return
+BytesIO
+(
+six
+.
+ensure_binary
+(
+content
+)
+)
+        
+return
+six
+.
+StringIO
+(
+six
+.
+ensure_text
+(
+content
 )
 )
     

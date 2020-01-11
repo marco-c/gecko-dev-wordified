@@ -185,6 +185,11 @@ FlatFormatter
 read_all
 =
 True
+mode
+=
+'
+rb
+'
 )
     
 def
@@ -277,7 +282,13 @@ registry
 read_all
 =
 True
+mode
+=
+'
+rb
+'
 )
+                         
 self
 .
 contents

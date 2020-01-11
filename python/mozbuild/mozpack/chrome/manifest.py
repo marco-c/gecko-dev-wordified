@@ -64,6 +64,8 @@ re
 import
 os
 import
+six
+import
 mozpack
 .
 path
@@ -2261,6 +2263,15 @@ line
 in
 fileobj
 :
+        
+line
+=
+six
+.
+ensure_text
+(
+line
+)
         
 linenum
 +
