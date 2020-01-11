@@ -4219,11 +4219,6 @@ aPreserveLayers
 )
 ;
 void
-ForceRepaint
-(
-)
-;
-void
 NotifyResolutionChanged
 (
 )
