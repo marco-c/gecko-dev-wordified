@@ -69,6 +69,7 @@ AVAILABLE_UA_OVERRIDES
 AboutCompatBroker
 Injections
 UAOverrides
+CUSTOM_FUNCTIONS
 *
 /
 const
@@ -78,6 +79,7 @@ new
 Injections
 (
 AVAILABLE_INJECTIONS
+CUSTOM_FUNCTIONS
 )
 ;
 const
