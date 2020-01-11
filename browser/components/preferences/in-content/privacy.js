@@ -11168,7 +11168,7 @@ content
 /
 passwordManager
 .
-xul
+xhtml
 "
 )
 ;

@@ -70,7 +70,7 @@ content
 /
 commonDialog
 .
-xul
+xhtml
 "
 ;
 add_task

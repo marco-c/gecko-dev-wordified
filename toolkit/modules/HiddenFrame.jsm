@@ -132,7 +132,7 @@ content
 /
 win
 .
-xul
+xhtml
 "
 ;
 const

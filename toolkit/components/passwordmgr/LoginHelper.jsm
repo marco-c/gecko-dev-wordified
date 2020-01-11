@@ -5235,7 +5235,7 @@ content
 /
 passwordManager
 .
-xul
+xhtml
 "
 "
 Toolkit

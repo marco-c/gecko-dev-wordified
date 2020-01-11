@@ -1529,11 +1529,11 @@ has
 either
 commonDialog
 .
-xul
+xhtml
 or
 selectDialog
 .
-xul
+xhtml
 loaded
 .
 /
@@ -1665,7 +1665,7 @@ content
 /
 commonDialog
 .
-xul
+xhtml
 "
 &
 &
@@ -1687,7 +1687,7 @@ content
 /
 selectDialog
 .
-xul
+xhtml
 "
 )
 {
