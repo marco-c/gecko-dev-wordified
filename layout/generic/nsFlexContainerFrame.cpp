@@ -137,6 +137,13 @@ h
 #
 include
 "
+nsBlockFrame
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

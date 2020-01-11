@@ -471,6 +471,13 @@ h
 #
 include
 "
+nsImageFrame
+.
+h
+"
+#
+include
+"
 nsInlineFrame
 .
 h
@@ -968,9 +975,6 @@ nsAbsoluteContainingBlock
 :
 AbsPosReflowFlags
 AbsPosReflowFlags
-;
-class
-nsImageFrame
 ;
 const
 mozilla
