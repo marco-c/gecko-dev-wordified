@@ -732,9 +732,6 @@ mTimedRequests
 uint32_t
 mCachedRequests
 ;
-nsCString
-mUserAgentOverrideCache
-;
 }
 ;
 }
