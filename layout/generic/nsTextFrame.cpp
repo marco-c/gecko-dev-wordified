@@ -28569,7 +28569,7 @@ LookAndFeel
 ColorID
 :
 :
-MozFieldtext
+Fieldtext
 )
 ;
 mSystemFieldBackgroundColor
@@ -28585,7 +28585,7 @@ LookAndFeel
 ColorID
 :
 :
-MozField
+Field
 )
 ;
 if

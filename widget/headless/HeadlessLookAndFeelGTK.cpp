@@ -229,9 +229,6 @@ provides
 for
 /
 /
--
-moz
--
 FieldText
 to
 match
@@ -246,7 +243,7 @@ case
 ColorID
 :
 :
-MozFieldtext
+Fieldtext
 :
 aColor
 =

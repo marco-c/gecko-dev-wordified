@@ -432,12 +432,12 @@ mComboBoxBackground
 kWhite
 ;
 nscolor
-mMozFieldText
+mFieldText
 =
 kBlack
 ;
 nscolor
-mMozFieldBackground
+mFieldBackground
 =
 kWhite
 ;
