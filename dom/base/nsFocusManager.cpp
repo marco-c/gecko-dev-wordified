@@ -20322,8 +20322,6 @@ owner
 is
 either
 a
-document
-root
 shadow
 host
 or
@@ -20334,7 +20332,7 @@ slot
 static
 nsIContent
 *
-FindOwner
+FindScopeOwner
 (
 nsIContent
 *
@@ -21326,7 +21324,7 @@ MOZ_ASSERT
 aStartOwner
 =
 =
-FindOwner
+FindScopeOwner
 (
 *
 aStartContent
@@ -21475,7 +21473,7 @@ owner
 ;
 owner
 =
-FindOwner
+FindScopeOwner
 (
 startContent
 )
@@ -21806,7 +21804,7 @@ nsIContent
 *
 owner
 =
-FindOwner
+FindScopeOwner
 (
 aStartContent
 )
@@ -21902,7 +21900,7 @@ aCurrentTabIndex
 MOZ_ASSERT
 (
 !
-FindOwner
+FindScopeOwner
 (
 aStartContent
 )
