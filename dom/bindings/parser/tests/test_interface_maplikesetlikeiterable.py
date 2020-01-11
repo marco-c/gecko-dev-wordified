@@ -1833,15 +1833,16 @@ maplike
 ;
 1
 "
-               
-Constructor
-(
-)
 ]
                
 interface
 Foo1
 {
+               
+constructor
+(
+)
+;
                
 setlike
 <
@@ -1891,15 +1892,16 @@ maplike
 ;
 1
 "
-               
-Constructor
-(
-)
 ]
                
 interface
 Foo1
 {
+               
+constructor
+(
+)
+;
                
 maplike
 <
@@ -4061,15 +4063,16 @@ maplike
 ;
 1
 "
-               
-Constructor
-(
-)
 ]
                
 interface
 Foo1
 {
+               
+constructor
+(
+)
+;
                
 readonly
 setlike
@@ -4145,15 +4148,16 @@ maplike
 ;
 1
 "
-               
-Constructor
-(
-)
 ]
                
 interface
 Foo1
 {
+               
+constructor
+(
+)
+;
                
 setlike
 <
