@@ -1899,7 +1899,7 @@ test
 -
 ipc
 .
-xul
+xhtml
 "
 }
 /
