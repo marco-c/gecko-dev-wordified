@@ -2340,8 +2340,11 @@ void
 Zone
 :
 :
-sweepWeakMaps
+traceWeakMaps
 (
+JSTracer
+*
+trc
 )
 {
 /
@@ -2363,9 +2366,10 @@ maps
 WeakMapBase
 :
 :
-sweepZone
+traceWeakEdgesInZone
 (
 this
+trc
 )
 ;
 }

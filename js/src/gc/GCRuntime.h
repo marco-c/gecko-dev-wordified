@@ -4210,6 +4210,9 @@ zone
 void
 sweepZoneAfterCompacting
 (
+MovingTracer
+*
+trc
 Zone
 *
 zone
