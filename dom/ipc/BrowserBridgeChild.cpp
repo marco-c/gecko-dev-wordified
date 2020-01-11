@@ -793,9 +793,6 @@ const
 bool
 &
 aCanRaise
-const
-CallerType
-aCallerType
 )
 {
 /
@@ -836,7 +833,6 @@ RequestFrameFocus
 *
 owner
 aCanRaise
-aCallerType
 )
 ;
 return

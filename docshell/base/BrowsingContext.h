@@ -2770,8 +2770,6 @@ mClosed
 void
 Focus
 (
-CallerType
-aCallerType
 ErrorResult
 &
 aError

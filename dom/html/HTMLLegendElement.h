@@ -211,15 +211,6 @@ const
 FocusOptions
 &
 aOptions
-const
-mozilla
-:
-:
-dom
-:
-:
-CallerType
-aCallerType
 ErrorResult
 &
 aError

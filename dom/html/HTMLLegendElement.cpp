@@ -426,15 +426,6 @@ const
 FocusOptions
 &
 aOptions
-const
-mozilla
-:
-:
-dom
-:
-:
-CallerType
-aCallerType
 ErrorResult
 &
 aError
@@ -479,7 +470,6 @@ nsGenericHTMLElement
 Focus
 (
 aOptions
-aCallerType
 aError
 )
 ;
@@ -592,10 +582,6 @@ rv
 Focus
 (
 options
-CallerType
-:
-:
-System
 rv
 )
 ;

@@ -910,14 +910,6 @@ void
 SetFocus
 (
 Raise
-mozilla
-:
-:
-dom
-:
-:
-CallerType
-aCallerType
 )
 override
 ;

@@ -2455,9 +2455,6 @@ const
 bool
 &
 aCanRaise
-const
-CallerType
-aCallerType
 )
 ;
 mozilla

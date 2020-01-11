@@ -1354,9 +1354,6 @@ const
 FocusOptions
 &
 aOptions
-const
-CallerType
-aCallerType
 ErrorResult
 &
 aError

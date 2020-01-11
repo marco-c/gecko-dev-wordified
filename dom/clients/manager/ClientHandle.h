@@ -515,8 +515,6 @@ ClientStatePromise
 >
 Focus
 (
-CallerType
-aCallerType
 )
 ;
 /

@@ -1185,16 +1185,6 @@ domWindow
 >
 Focus
 (
-mozilla
-:
-:
-dom
-:
-:
-CallerType
-:
-:
-System
 )
 ;
 }
