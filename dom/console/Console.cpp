@@ -4276,9 +4276,6 @@ Console
 >
 mConsole
 ;
-ConsoleStructuredCloneData
-mClonedData
-;
 }
 ;
 /
