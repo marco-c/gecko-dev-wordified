@@ -434,6 +434,8 @@ B8G8R8A8
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 aFormat
 =
 =
@@ -616,6 +618,8 @@ aFormat
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 return
 8
 *
@@ -4747,6 +4751,8 @@ aSrc
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 rgba
 =
 NativeEndian

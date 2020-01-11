@@ -174,6 +174,8 @@ aSwappedValue
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 MOZ_RELEASE_ASSERT
 (
 NativeEndian
@@ -280,6 +282,8 @@ aUnswappedValue
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 MOZ_RELEASE_ASSERT
 (
 NativeEndian
@@ -1591,6 +1595,8 @@ Count
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 TestBulkSwapToSub
 (
 Swap
@@ -1722,6 +1728,8 @@ Count
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 TestBulkSwapToSub
 (
 NoSwap
@@ -1853,6 +1861,8 @@ Count
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 TestBulkInPlaceSub
 (
 Swap
@@ -1984,6 +1994,8 @@ Count
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 TestBulkInPlaceSub
 (
 NoSwap

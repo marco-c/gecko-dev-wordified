@@ -1170,6 +1170,8 @@ platform
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 char
 *
 begin

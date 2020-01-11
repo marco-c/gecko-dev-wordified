@@ -507,6 +507,8 @@ JS_NUNBOX32
 #
 if
 MOZ_BIG_ENDIAN
+(
+)
 ins
 -
 >

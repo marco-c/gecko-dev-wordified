@@ -766,6 +766,8 @@ cx
 if
 !
 MOZ_LITTLE_ENDIAN
+(
+)
 |
 |
 defined

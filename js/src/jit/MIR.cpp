@@ -6762,6 +6762,8 @@ Float32
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 MOZ_ASSERT
 (
 (
@@ -6807,6 +6809,8 @@ Boolean
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 MOZ_ASSERT
 (
 (
@@ -6889,6 +6893,8 @@ BigInt
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 MOZ_ASSERT_IF
 (
 JS_BITS_PER_WORD

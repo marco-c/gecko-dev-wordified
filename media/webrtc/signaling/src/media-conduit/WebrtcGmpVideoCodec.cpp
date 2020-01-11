@@ -3396,8 +3396,10 @@ native
 byte
 order
 #
-ifdef
+if
 MOZ_LITTLE_ENDIAN
+(
+)
 size
 =
 LittleEndian
@@ -3540,8 +3542,10 @@ native
 byte
 order
 #
-ifdef
+if
 MOZ_LITTLE_ENDIAN
+(
+)
 size
 =
 LittleEndian

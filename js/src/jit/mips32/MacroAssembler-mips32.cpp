@@ -5241,6 +5241,8 @@ value
 #
 if
 MOZ_BIG_ENDIAN
+(
+)
 mozilla
 :
 :
@@ -6734,6 +6736,8 @@ dest
 MOZ_ASSERT
 (
 MOZ_LITTLE_ENDIAN
+(
+)
 "
 Wasm
 -
@@ -6986,6 +6990,8 @@ dest
 MOZ_ASSERT
 (
 MOZ_LITTLE_ENDIAN
+(
+)
 "
 Wasm
 -
@@ -7723,6 +7729,8 @@ dest
 MOZ_ASSERT
 (
 MOZ_LITTLE_ENDIAN
+(
+)
 "
 Wasm
 -
@@ -7877,6 +7885,8 @@ dest
 MOZ_ASSERT
 (
 MOZ_LITTLE_ENDIAN
+(
+)
 "
 Wasm
 -

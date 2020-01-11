@@ -286,6 +286,8 @@ LOW_32_MASK
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 static
 const
 int32_t
@@ -3508,6 +3510,8 @@ val
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 void
 pushValue
 (

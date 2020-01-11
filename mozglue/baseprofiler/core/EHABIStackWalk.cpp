@@ -3739,6 +3739,8 @@ begin
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 static
 const
 unsigned
@@ -3750,6 +3752,8 @@ ELFDATA2LSB
 #
 elif
 MOZ_BIG_ENDIAN
+(
+)
 static
 const
 unsigned

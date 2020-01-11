@@ -7126,8 +7126,10 @@ length
 )
 {
 #
-ifdef
+if
 MOZ_LITTLE_ENDIAN
+(
+)
 memcpy
 (
 dest

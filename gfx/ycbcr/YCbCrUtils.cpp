@@ -1399,6 +1399,8 @@ mYUVColorSpace
 #
 if
 MOZ_BIG_ENDIAN
+(
+)
 /
 /
 libyuv
@@ -1506,6 +1508,8 @@ aDstStrideARGB
 #
 if
 MOZ_BIG_ENDIAN
+(
+)
 /
 /
 libyuv

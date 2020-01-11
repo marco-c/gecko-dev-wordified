@@ -980,6 +980,8 @@ pc
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 /
 /
 Do
@@ -1081,6 +1083,8 @@ i
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 memcpy
 (
 pc

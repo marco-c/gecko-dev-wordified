@@ -228,6 +228,8 @@ bits
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 static
 const
 int32_t
