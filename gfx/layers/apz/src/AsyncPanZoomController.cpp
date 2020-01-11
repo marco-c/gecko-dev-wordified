@@ -24736,6 +24736,12 @@ TimeStamp
 aTimeStamp
 )
 {
+RecursiveMutexAutoLock
+lock
+(
+mRecursiveMutex
+)
+;
 if
 (
 !
