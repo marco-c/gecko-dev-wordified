@@ -28,9 +28,6 @@ zero
 /
 *
 /
-add_task
-(
-async
 function
 run_test
 (
@@ -45,7 +42,6 @@ an
 uncaught
 exception
 .
-await
 do_crash
 (
 function
@@ -104,5 +100,3 @@ true
 )
 ;
 }
-)
-;

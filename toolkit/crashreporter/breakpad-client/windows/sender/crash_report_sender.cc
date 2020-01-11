@@ -488,7 +488,11 @@ wstring
 &
 url
 const
-string
+map
+<
+wstring
+wstring
+>
 &
 parameters
 const

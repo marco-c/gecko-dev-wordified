@@ -1,6 +1,3 @@
-add_task
-(
-async
 function
 run_test
 (
@@ -14,7 +11,6 @@ with
 a
 runtime
 abort
-await
 do_crash
 (
 function
@@ -109,5 +105,3 @@ true
 )
 ;
 }
-)
-;

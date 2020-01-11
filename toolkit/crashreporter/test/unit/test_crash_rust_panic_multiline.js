@@ -1,6 +1,3 @@
-add_task
-(
-async
 function
 run_test
 (
@@ -14,7 +11,6 @@ with
 a
 Rust
 panic
-await
 do_crash
 (
 function
@@ -94,5 +90,3 @@ true
 )
 ;
 }
-)
-;

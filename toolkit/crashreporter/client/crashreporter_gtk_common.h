@@ -88,15 +88,6 @@ include
 <
 vector
 >
-#
-include
-"
-json
-/
-json
-.
-h
-"
 const
 char
 kIniFile
@@ -175,10 +166,7 @@ StringTable
 gFiles
 ;
 extern
-Json
-:
-:
-Value
+StringTable
 gQueryParameters
 ;
 extern
