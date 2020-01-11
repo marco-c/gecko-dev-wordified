@@ -46,12 +46,9 @@ await
 useTestEngines
 (
 "
-data
-"
-"
-search
+simple
 -
-extensions
+engines
 "
 )
 ;
@@ -133,7 +130,7 @@ equal
 engines
 .
 length
-1
+2
 )
 ;
 Assert

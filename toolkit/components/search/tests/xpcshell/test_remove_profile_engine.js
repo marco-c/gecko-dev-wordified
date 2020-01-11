@@ -107,7 +107,7 @@ copyTo
 (
 dir
 "
-bug645970
+basic
 .
 xml
 "
@@ -127,7 +127,7 @@ file
 append
 (
 "
-bug645970
+basic
 .
 xml
 "
@@ -183,7 +183,7 @@ addTestEngines
 name
 :
 "
-bug645970
+basic
 "
 xmlFileName
 :
@@ -254,7 +254,7 @@ _name
 =
 =
 "
-bug645970
+basic
 "
 )
 {
@@ -298,7 +298,7 @@ search
 getEngineByName
 (
 "
-bug645970
+basic
 "
 )
 ;
