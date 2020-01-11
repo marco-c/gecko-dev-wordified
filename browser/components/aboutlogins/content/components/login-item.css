@@ -63,6 +63,10 @@ overflow
 :
 auto
 ;
+display
+:
+flex
+;
 -
 -
 reveal
@@ -215,9 +219,9 @@ text
 .
 container
 {
-max
+flex
 -
-width
+basis
 :
 700px
 ;
