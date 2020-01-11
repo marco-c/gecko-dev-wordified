@@ -3765,7 +3765,7 @@ isCollecting
 return
 ;
 }
-TraceManuallyBarrieredEdge
+TraceRoot
 (
 trc
 &
