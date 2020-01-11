@@ -258,8 +258,6 @@ type
 "
 :
 "
-text
-=
 secondendlabel
 popupid
 "

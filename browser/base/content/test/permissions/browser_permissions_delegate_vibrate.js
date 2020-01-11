@@ -121,7 +121,7 @@ permissions
 .
 delegation
 .
-enabled
+enable
 "
 true
 ]
