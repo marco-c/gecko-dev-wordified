@@ -327,6 +327,16 @@ DelegatePolicy
 :
 ePersistDeniedCrossOrigin
 }
+{
+"
+vibration
+"
+nullptr
+DelegatePolicy
+:
+:
+ePersistDeniedCrossOrigin
+}
 }
 ;
 NS_IMPL_CYCLE_COLLECTION
