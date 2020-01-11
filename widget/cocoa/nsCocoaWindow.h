@@ -2005,7 +2005,10 @@ virtual
 void
 SetWindowShadowStyle
 (
-int32_t
+mozilla
+:
+:
+StyleWindowShadow
 aStyle
 )
 override
@@ -2530,7 +2533,10 @@ NSAnimation
 *
 mFullscreenTransitionAnimation
 ;
-int32_t
+mozilla
+:
+:
+StyleWindowShadow
 mShadowStyle
 ;
 CGFloat
