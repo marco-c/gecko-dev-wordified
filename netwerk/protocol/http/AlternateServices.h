@@ -402,6 +402,8 @@ const
 OriginAttributes
 &
 originAttributes
+bool
+aIsHttp3
 )
 ;
 public
@@ -721,6 +723,15 @@ OriginAttributes
 originAttributes
 )
 ;
+bool
+IsHttp3
+(
+)
+{
+return
+mIsHttp3
+;
+}
 private
 :
 virtual
@@ -850,6 +861,9 @@ mOriginAttributes
 ;
 bool
 mSyncOnlyOnSuccess
+;
+bool
+mIsHttp3
 ;
 }
 ;

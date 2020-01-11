@@ -2715,6 +2715,15 @@ return
 mBug1556491
 ;
 }
+bool
+IsHttp3VersionSupportedHex
+(
+const
+nsACString
+&
+version
+)
+;
 nsCString
 Http3Version
 (
