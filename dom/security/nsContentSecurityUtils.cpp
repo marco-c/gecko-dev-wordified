@@ -926,7 +926,7 @@ optimizedName
 /
 *
 *
-FilenameToEvalType
+FilenameToFilenameType
 takes
 a
 fileName
@@ -1019,7 +1019,7 @@ FilenameTypeAndDetails
 nsContentSecurityUtils
 :
 :
-FilenameToEvalType
+FilenameToFilenameType
 (
 const
 nsString
@@ -3269,7 +3269,7 @@ Security_Evalusage_Parentprocess
 FilenameTypeAndDetails
 fileNameTypeAndDetails
 =
-FilenameToEvalType
+FilenameToFilenameType
 (
 aFileNameA
 )
