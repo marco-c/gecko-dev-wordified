@@ -1620,7 +1620,7 @@ sendQueryToContext
 "
 Finder
 :
-FindInFrame
+Find
 "
 aArgs
 currentBC
