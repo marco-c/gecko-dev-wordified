@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+/
+/
+ts
+-
+check
 "
 use
 strict

@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+/
+/
+ts
+-
+check
 "
 use
 strict
@@ -94,6 +99,8 @@ import
 .
 /
 types
+/
+perf
 "
 )
 .
@@ -110,6 +117,8 @@ import
 .
 /
 types
+/
+perf
 "
 )
 .
@@ -126,6 +135,8 @@ import
 .
 /
 types
+/
+perf
 "
 )
 .
@@ -142,6 +153,8 @@ import
 .
 /
 types
+/
+perf
 "
 )
 .
@@ -166,6 +179,8 @@ import
 .
 /
 types
+/
+perf
 "
 )
 .
