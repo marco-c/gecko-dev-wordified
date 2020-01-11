@@ -1764,6 +1764,11 @@ Screen
 }
 )
 ;
+await
+closeStream
+(
+)
+;
 }
 }
 ]
