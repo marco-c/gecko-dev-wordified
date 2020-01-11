@@ -276,13 +276,6 @@ h
 #
 include
 "
-nsIPrincipal
-.
-h
-"
-#
-include
-"
 nsMimeTypes
 .
 h

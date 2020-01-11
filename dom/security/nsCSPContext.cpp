@@ -285,13 +285,6 @@ h
 #
 include
 "
-nsIWebNavigation
-.
-h
-"
-#
-include
-"
 nsMimeTypes
 .
 h

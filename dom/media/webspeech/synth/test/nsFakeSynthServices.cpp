@@ -143,13 +143,6 @@ h
 #
 include
 "
-nsISimpleEnumerator
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ClearOnShutdown

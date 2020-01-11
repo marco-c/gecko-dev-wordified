@@ -123,13 +123,6 @@ h
 #
 include
 "
-nsIRequest
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h
@@ -145,13 +138,6 @@ h
 include
 "
 nsIOutputStream
-.
-h
-"
-#
-include
-"
-nsIPluginInstanceOwner
 .
 h
 "

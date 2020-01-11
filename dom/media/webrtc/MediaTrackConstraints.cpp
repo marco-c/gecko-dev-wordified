@@ -122,13 +122,6 @@ h
 #
 include
 "
-nsIScriptError
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

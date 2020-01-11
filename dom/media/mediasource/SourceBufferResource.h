@@ -148,13 +148,6 @@ h
 #
 include
 "
-nsIPrincipal
-.
-h
-"
-#
-include
-"
 ResourceQueue
 .
 h

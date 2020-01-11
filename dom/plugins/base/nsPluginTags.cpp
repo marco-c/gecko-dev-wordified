@@ -117,13 +117,6 @@ h
 #
 include
 "
-nsIPluginInstanceOwner
-.
-h
-"
-#
-include
-"
 nsPluginsDir
 .
 h

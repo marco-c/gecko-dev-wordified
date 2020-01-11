@@ -231,13 +231,6 @@ h
 #
 include
 "
-nsIURI
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

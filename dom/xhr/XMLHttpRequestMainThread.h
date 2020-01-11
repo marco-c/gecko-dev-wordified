@@ -251,13 +251,6 @@ h
 #
 include
 "
-nsIXPConnect
-.
-h
-"
-#
-include
-"
 nsIInputStream
 .
 h

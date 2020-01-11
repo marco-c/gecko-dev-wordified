@@ -125,13 +125,6 @@ h
 #
 include
 "
-nsIMutable
-.
-h
-"
-#
-include
-"
 nsISerializable
 .
 h

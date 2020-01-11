@@ -113,13 +113,6 @@ h
 #
 include
 "
-nsIWeakReference
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h

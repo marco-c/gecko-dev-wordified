@@ -172,13 +172,6 @@ nsGkAtoms
 .
 h
 "
-#
-include
-"
-nsIHttpChannel
-.
-h
-"
 class
 nsIContent
 ;

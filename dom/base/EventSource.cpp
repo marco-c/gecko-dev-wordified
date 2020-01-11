@@ -401,13 +401,6 @@ h
 #
 include
 "
-nsIContentSecurityPolicy
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

@@ -215,13 +215,6 @@ h
 #
 include
 "
-nsIURI
-.
-h
-"
-#
-include
-"
 nsStreamUtils
 .
 h

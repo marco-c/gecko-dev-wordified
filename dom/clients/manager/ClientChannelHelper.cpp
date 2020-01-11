@@ -195,13 +195,6 @@ h
 #
 include
 "
-nsIDocShell
-.
-h
-"
-#
-include
-"
 nsIHttpChannelInternal
 .
 h

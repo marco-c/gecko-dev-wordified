@@ -151,13 +151,6 @@ h
 #
 include
 "
-nsIInputStream
-.
-h
-"
-#
-include
-"
 nsIStorageStream
 .
 h

@@ -164,13 +164,6 @@ nsPrintfCString
 .
 h
 "
-#
-include
-"
-nsIScriptSecurityManager
-.
-h
-"
 /
 /
 XXX

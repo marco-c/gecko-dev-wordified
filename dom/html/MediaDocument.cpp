@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsIScrollable
-.
-h
-"
-#
-include
-"
 nsViewManager
 .
 h
@@ -167,13 +160,6 @@ h
 include
 "
 nsIURL
-.
-h
-"
-#
-include
-"
-nsIContentViewer
 .
 h
 "

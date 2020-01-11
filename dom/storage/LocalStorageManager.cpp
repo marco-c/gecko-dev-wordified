@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsIScriptSecurityManager
-.
-h
-"
-#
-include
-"
 nsIEffectiveTLDService
 .
 h
@@ -167,13 +160,6 @@ h
 include
 "
 nsNetCID
-.
-h
-"
-#
-include
-"
-nsIURL
 .
 h
 "

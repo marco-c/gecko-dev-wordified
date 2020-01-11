@@ -148,13 +148,6 @@ TypeDecls
 .
 h
 "
-#
-include
-"
-nsISpeechService
-.
-h
-"
 namespace
 mozilla
 {

@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsICacheInfoChannel
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h

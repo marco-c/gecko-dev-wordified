@@ -159,13 +159,6 @@ h
 #
 include
 "
-nsISocketFilter
-.
-h
-"
-#
-include
-"
 js
 /
 TypeDecls

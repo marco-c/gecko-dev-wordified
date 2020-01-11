@@ -178,13 +178,6 @@ h
 #
 include
 "
-nsIHttpChannel
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

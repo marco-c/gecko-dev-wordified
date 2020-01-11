@@ -148,13 +148,6 @@ h
 #
 include
 "
-nsIEventTarget
-.
-h
-"
-#
-include
-"
 nsINamed
 .
 h
@@ -163,13 +156,6 @@ h
 include
 "
 nsIScriptGlobalObject
-.
-h
-"
-#
-include
-"
-nsIPermissionManager
 .
 h
 "

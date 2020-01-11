@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsIThread
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
