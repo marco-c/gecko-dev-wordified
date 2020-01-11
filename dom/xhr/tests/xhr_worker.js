@@ -397,6 +397,7 @@ message
 )
 ;
 }
+;
 var
 upload
 =
@@ -503,6 +504,7 @@ message
 )
 ;
 }
+;
 onmessage
 =
 function
@@ -582,3 +584,4 @@ send
 )
 ;
 }
+;

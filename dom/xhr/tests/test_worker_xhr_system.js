@@ -13,9 +13,9 @@ event
 msg
 test
 :
-'
+"
 ok
-'
+"
 a
 :
 what
@@ -39,14 +39,10 @@ event
 msg
 test
 :
-'
+"
 is
-'
+"
 a
-:
-a
-b
-:
 b
 }
 )
@@ -244,6 +240,7 @@ finish
 )
 ;
 }
+;
 xhr
 .
 send
