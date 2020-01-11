@@ -1519,14 +1519,15 @@ update
 \
 _
 (
-IonCompileScriptForBaseline
+IonCompileScriptForBaselineAtEntry
+\
 js
 :
 :
 jit
 :
 :
-IonCompileScriptForBaseline
+IonCompileScriptForBaselineAtEntry
 )
 \
 _
