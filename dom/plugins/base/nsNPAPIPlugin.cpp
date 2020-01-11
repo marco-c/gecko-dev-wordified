@@ -900,10 +900,6 @@ const
 nsAString
 &
 pluginDumpID
-const
-nsAString
-&
-browserDumpID
 )
 {
 RefPtr
@@ -926,7 +922,6 @@ PluginCrashed
 (
 this
 pluginDumpID
-browserDumpID
 )
 ;
 }

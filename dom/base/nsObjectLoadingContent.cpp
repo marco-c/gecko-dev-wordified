@@ -2030,9 +2030,6 @@ nsString
 mPluginDumpID
 ;
 nsString
-mBrowserDumpID
-;
-nsString
 mPluginName
 ;
 nsString
@@ -2050,10 +2047,6 @@ const
 nsAString
 &
 aPluginDumpID
-const
-nsAString
-&
-aBrowserDumpID
 const
 nsAString
 &
@@ -2079,10 +2072,6 @@ aContent
 mPluginDumpID
 (
 aPluginDumpID
-)
-mBrowserDumpID
-(
-aBrowserDumpID
 )
 mPluginName
 (
@@ -2193,12 +2182,6 @@ init
 mPluginDumpID
 =
 mPluginDumpID
-;
-init
-.
-mBrowserDumpID
-=
-mBrowserDumpID
 ;
 init
 .
@@ -16903,10 +16886,6 @@ const
 nsAString
 &
 pluginDumpID
-const
-nsAString
-&
-browserDumpID
 bool
 submittedCrashReport
 )
@@ -17062,7 +17041,6 @@ nsPluginCrashedEvent
 (
 thisContent
 pluginDumpID
-browserDumpID
 NS_ConvertUTF8toUTF16
 (
 pluginName

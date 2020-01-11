@@ -8285,9 +8285,6 @@ return
 nsString
 dumpID
 ;
-nsString
-browserDumpID
-;
 if
 (
 mCrashReporter
@@ -8317,7 +8314,6 @@ mPlugin
 PluginCrashed
 (
 dumpID
-browserDumpID
 )
 ;
 }

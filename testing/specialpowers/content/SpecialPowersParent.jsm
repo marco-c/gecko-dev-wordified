@@ -1822,13 +1822,6 @@ pluginDumpID
 "
 )
 ;
-addDumpIDToMessage
-(
-"
-browserDumpID
-"
-)
-;
 let
 pluginID
 =
