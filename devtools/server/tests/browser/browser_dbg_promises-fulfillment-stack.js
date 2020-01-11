@@ -379,7 +379,7 @@ Client
 )
 ;
 const
-response
+fulfillmentStack
 =
 await
 objectClient
@@ -390,8 +390,6 @@ getPromiseFulfillmentStack
 ;
 ok
 (
-response
-.
 fulfillmentStack
 .
 length
@@ -425,8 +423,6 @@ i
 const
 stack
 =
-response
-.
 fulfillmentStack
 [
 i
