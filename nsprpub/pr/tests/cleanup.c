@@ -482,8 +482,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -857,10 +859,12 @@ if
 (
 cleanup
 )
+{
 PR_Cleanup
 (
 )
 ;
+}
 PR_fprintf
 (
 err

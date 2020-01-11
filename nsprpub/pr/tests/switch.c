@@ -501,6 +501,7 @@ PR_SUCCESS
 status
 )
 )
+{
 status
 =
 PR_WaitCondVar
@@ -512,10 +513,12 @@ cv
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+}
 if
 (
 verbosity
 )
+{
 PR_fprintf
 (
 debug_out
@@ -524,6 +527,7 @@ debug_out
 "
 )
 ;
+}
 shared
 -
 >
@@ -669,8 +673,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -834,10 +840,12 @@ if
 (
 help
 )
+{
 return
 -
 1
 ;
+}
 if
 (
 PR_TRUE
@@ -1082,10 +1090,12 @@ shared
 >
 thread
 )
+{
 failed
 =
 PR_TRUE
 ;
+}
 }
 for
 (
@@ -1176,10 +1186,12 @@ PR_FAILURE
 =
 status
 )
+{
 failed
 =
 PR_TRUE
 ;
+}
 }
 PR_Unlock
 (
@@ -1271,8 +1283,10 @@ home
 =
 link
 )
+{
 break
 ;
+}
 status
 =
 PR_Interrupt
@@ -1299,6 +1313,7 @@ if
 (
 debug_mode
 )
+{
 PL_FPrintError
 (
 debug_out
@@ -1309,6 +1324,7 @@ interrupt
 "
 )
 ;
+}
 }
 link
 =
@@ -1367,6 +1383,7 @@ if
 (
 debug_mode
 )
+{
 PL_FPrintError
 (
 debug_out
@@ -1377,6 +1394,7 @@ join
 "
 )
 ;
+}
 }
 PR_DestroyCondVar
 (
@@ -1399,8 +1417,10 @@ home
 =
 link
 )
+{
 break
 ;
+}
 shared
 =
 link

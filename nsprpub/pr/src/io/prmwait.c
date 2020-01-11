@@ -1511,9 +1511,11 @@ NULL
 =
 group
 )
+{
 goto
 failed_alloc
 ;
+}
 PR_Lock
 (
 mw_lock
@@ -1554,6 +1556,7 @@ group
 =
 NULL
 )
+{
 (
 void
 )
@@ -1562,6 +1565,7 @@ PR_DestroyWaitGroup
 group
 )
 ;
+}
 group
 =
 mw_state
@@ -2427,8 +2431,10 @@ if
 (
 retry
 )
+{
 continue
 ;
+}
 PR_DELETE
 (
 group
@@ -2781,9 +2787,11 @@ fd
 fd
 )
 )
+{
 return
 desc
 ;
+}
 if
 (
 0
@@ -2944,9 +2952,11 @@ _MW_ABORTED
 st
 )
 )
+{
 goto
 aborted
 ;
+}
 }
 /
 *
@@ -3086,11 +3096,13 @@ NULL
 =
 old_polling_list
 )
+{
 PR_DELETE
 (
 old_polling_list
 )
 ;
+}
 PR_Lock
 (
 group
@@ -3266,6 +3278,7 @@ waiter
 timeout
 )
 )
+{
 _MW_DoneInternal
 (
 group
@@ -3273,6 +3286,7 @@ waiter
 PR_MW_TIMEOUT
 )
 ;
+}
 else
 {
 if
@@ -3312,6 +3326,7 @@ timeout
 <
 polling_interval
 )
+{
 polling_interval
 =
 (
@@ -3322,6 +3337,7 @@ waiter
 >
 timeout
 ;
+}
 }
 PR_ASSERT
 (
@@ -3485,8 +3501,10 @@ group
 waiting_threads
 )
 )
+{
 break
 ;
+}
 if
 (
 0
@@ -3494,6 +3512,7 @@ if
 =
 count
 )
+{
 continue
 ;
 /
@@ -3504,6 +3523,7 @@ new
 business
 *
 /
+}
 group
 -
 >
@@ -3679,6 +3699,7 @@ NULL
 =
 waiter
 )
+{
 _MW_DoneInternal
 (
 group
@@ -3686,6 +3707,7 @@ waiter
 PR_MW_SUCCESS
 )
 ;
+}
 }
 }
 }
@@ -3758,8 +3780,10 @@ group
 waiting_threads
 )
 )
+{
 break
 ;
+}
 }
 rv
 =
@@ -4031,6 +4055,7 @@ buffer
 length
 )
 )
+{
 desc
 -
 >
@@ -4038,6 +4063,7 @@ bytesRecv
 =
 0
 ;
+}
 else
 {
 desc
@@ -4090,6 +4116,7 @@ bytesRecv
 <
 0
 )
+{
 /
 *
 SetError
@@ -4106,6 +4133,7 @@ outcome
 =
 PR_MW_FAILURE
 ;
+}
 }
 }
 /
@@ -4886,10 +4914,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 if
 (
 (
@@ -5102,6 +5132,7 @@ waiter
 >
 count
 )
+{
 group
 -
 >
@@ -5111,6 +5142,7 @@ PR_IntervalNow
 (
 )
 ;
+}
 do
 {
 hrv
@@ -5131,8 +5163,10 @@ _prmw_rehash
 =
 hrv
 )
+{
 break
 ;
+}
 hrv
 =
 MW_ExpandHashInternal
@@ -5152,8 +5186,10 @@ _prmw_success
 =
 hrv
 )
+{
 break
 ;
+}
 }
 while
 (
@@ -5667,10 +5703,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 if
 (
 (
@@ -5694,9 +5732,11 @@ MW_Init2
 )
 )
 )
+{
 goto
 failed_init
 ;
+}
 PR_Lock
 (
 group
@@ -6162,9 +6202,11 @@ _MW_PollInternal
 group
 )
 )
+{
 goto
 failed_poll
 ;
+}
 }
 else
 {
@@ -6358,8 +6400,10 @@ group
 poller
 )
 )
+{
 break
 ;
+}
 }
 while
 (
@@ -6468,6 +6512,7 @@ waiting_threads
 >
 1
 )
+{
 PR_NotifyCondVar
 (
 group
@@ -6476,6 +6521,7 @@ group
 io_complete
 )
 ;
+}
 goto
 aborted
 ;
@@ -6575,8 +6621,10 @@ group
 io_ready
 )
 )
+{
 continue
 ;
+}
 if
 (
 group
@@ -6586,6 +6634,7 @@ waiting_threads
 >
 1
 )
+{
 PR_NotifyCondVar
 (
 group
@@ -6594,6 +6643,7 @@ group
 io_complete
 )
 ;
+}
 }
 }
 PR_ASSERT
@@ -6924,6 +6974,7 @@ NULL
 =
 group
 )
+{
 group
 =
 mw_state
@@ -6931,6 +6982,7 @@ mw_state
 >
 group
 ;
+}
 PR_ASSERT
 (
 NULL
@@ -7231,9 +7283,11 @@ done
 =
 desc
 )
+{
 goto
 unlock
 ;
+}
 head
 =
 PR_NEXT_LINK
@@ -7338,6 +7392,7 @@ NULL
 =
 group
 )
+{
 group
 =
 mw_state
@@ -7345,6 +7400,7 @@ mw_state
 >
 group
 ;
+}
 PR_ASSERT
 (
 NULL
@@ -7400,6 +7456,7 @@ group
 >
 state
 )
+{
 group
 -
 >
@@ -7416,6 +7473,7 @@ comes
 in
 *
 /
+}
 if
 (
 0
@@ -7426,6 +7484,7 @@ group
 >
 waiting_threads
 )
+{
 /
 *
 is
@@ -7451,6 +7510,7 @@ right
 now
 *
 /
+}
 else
 {
 PR_NotifyAllCondVar
@@ -7480,6 +7540,7 @@ group
 >
 state
 )
+{
 (
 void
 )
@@ -7492,6 +7553,7 @@ mw_manage
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+}
 }
 #
 ifdef
@@ -7907,6 +7969,7 @@ NULL
 *
 desc
 )
+{
 _MW_DoneInternal
 (
 group
@@ -7914,6 +7977,7 @@ desc
 PR_MW_INTERRUPT
 )
 ;
+}
 }
 #
 endif
@@ -7943,12 +8007,14 @@ group
 io_ready
 )
 )
+{
 PR_SetError
 (
 PR_GROUP_EMPTY_ERROR
 0
 )
 ;
+}
 else
 {
 PRCList
@@ -8195,9 +8261,11 @@ wg
 >
 ml
 )
+{
 goto
 failed_lock
 ;
+}
 wg
 -
 >
@@ -8221,9 +8289,11 @@ wg
 >
 io_taken
 )
+{
 goto
 failed_cvar0
 ;
+}
 wg
 -
 >
@@ -8247,9 +8317,11 @@ wg
 >
 io_complete
 )
+{
 goto
 failed_cvar1
 ;
+}
 wg
 -
 >
@@ -8273,9 +8345,11 @@ wg
 >
 new_business
 )
+{
 goto
 failed_cvar2
 ;
+}
 wg
 -
 >
@@ -8299,9 +8373,11 @@ wg
 >
 mw_manage
 )
+{
 goto
 failed_cvar3
 ;
+}
 PR_INIT_CLIST
 (
 &
@@ -8545,6 +8621,7 @@ NULL
 =
 group
 )
+{
 group
 =
 mw_state
@@ -8552,6 +8629,7 @@ mw_state
 >
 group
 ;
+}
 PR_ASSERT
 (
 NULL
@@ -8649,9 +8727,11 @@ PR_FAILURE
 =
 rv
 )
+{
 return
 rv
 ;
+}
 PR_Lock
 (
 mw_lock
@@ -8776,6 +8856,7 @@ mw_state
 >
 group
 )
+{
 mw_state
 -
 >
@@ -8783,6 +8864,7 @@ group
 =
 NULL
 ;
+}
 PR_DELETE
 (
 group
@@ -9185,12 +9267,14 @@ NULL
 =
 enumerator
 )
+{
 PR_SetError
 (
 PR_OUT_OF_MEMORY_ERROR
 0
 )
 ;
+}
 else
 {
 enumerator
@@ -9368,9 +9452,11 @@ enumerator
 seal
 )
 )
+{
 goto
 bad_argument
 ;
+}
 /
 *
 beginning
@@ -9514,9 +9600,11 @@ enumerator
 >
 thread
 )
+{
 goto
 bad_argument
 ;
+}
 /
 *
 need
@@ -9542,6 +9630,7 @@ group
 >
 p_timestamp
 )
+{
 return
 PR_EnumerateWaitGroup
 (
@@ -9549,6 +9638,7 @@ enumerator
 NULL
 )
 ;
+}
 }
 /
 *
@@ -9631,8 +9721,10 @@ waiter
 +
 )
 )
+{
 break
 ;
+}
 }
 #
 if

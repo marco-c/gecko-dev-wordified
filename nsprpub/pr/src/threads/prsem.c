@@ -631,8 +631,10 @@ status
 =
 PR_SUCCESS
 )
+{
 break
 ;
+}
 }
 if
 (
@@ -641,6 +643,7 @@ status
 =
 PR_SUCCESS
 )
+{
 sem
 -
 >
@@ -648,6 +651,7 @@ count
 -
 -
 ;
+}
 PR_Unlock
 (
 sem
@@ -750,6 +754,7 @@ sem
 >
 waiters
 )
+{
 PR_NotifyCondVar
 (
 sem
@@ -758,6 +763,7 @@ sem
 cvar
 )
 ;
+}
 sem
 -
 >

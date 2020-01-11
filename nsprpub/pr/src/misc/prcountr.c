@@ -733,10 +733,12 @@ counterLock
 =
 NULL
 )
+{
 _PR_CounterInitialize
 (
 )
 ;
+}
 /
 *
 Validate
@@ -2410,10 +2412,12 @@ PR_CLIST_IS_EMPTY
 qNameList
 )
 )
+{
 qnp
 =
 NULL
 ;
+}
 else
 if
 (
@@ -2422,6 +2426,7 @@ qnp
 =
 NULL
 )
+{
 qnp
 =
 (
@@ -2434,6 +2439,7 @@ PR_LIST_HEAD
 qNameList
 )
 ;
+}
 else
 if
 (
@@ -2450,11 +2456,14 @@ link
 &
 qNameList
 )
+{
 qnp
 =
 NULL
 ;
+}
 else
+{
 qnp
 =
 (
@@ -2470,6 +2479,7 @@ qnp
 link
 )
 ;
+}
 PR_LOG
 (
 lm
@@ -2560,10 +2570,12 @@ qnp
 rNameList
 )
 )
+{
 rnp
 =
 NULL
 ;
+}
 else
 if
 (
@@ -2572,6 +2584,7 @@ rnp
 =
 NULL
 )
+{
 rnp
 =
 (
@@ -2587,6 +2600,7 @@ qnp
 rNameList
 )
 ;
+}
 else
 if
 (
@@ -2606,11 +2620,14 @@ qnp
 >
 rNameList
 )
+{
 rnp
 =
 NULL
 ;
+}
 else
+{
 rnp
 =
 (
@@ -2626,6 +2643,7 @@ rnp
 link
 )
 ;
+}
 PR_LOG
 (
 lm

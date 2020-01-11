@@ -379,8 +379,6 @@ tmp
 testfile_dir
 "
 ;
-#
-endif
 char
 *
 FILE_NAME
@@ -602,6 +600,7 @@ start
 arg
 )
 )
+{
 return
 (
 (
@@ -611,12 +610,15 @@ PRThread
 tid
 )
 ;
+}
 else
+{
 return
 (
 NULL
 )
 ;
+}
 #
 elif
 defined
@@ -681,6 +683,7 @@ NULL
 ;
 }
 else
+{
 return
 (
 (
@@ -690,6 +693,7 @@ PRThread
 tid
 )
 ;
+}
 #
 else
 HANDLE
@@ -2856,8 +2860,10 @@ len
 >
 BUF_DATA_SIZE
 )
+{
 break
 ;
+}
 }
 thread_count
 =
@@ -3192,12 +3198,14 @@ thrarg
 .
 done
 )
+{
 PR_Wait
 (
 mon
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+}
 PR_ExitMonitor
 (
 mon

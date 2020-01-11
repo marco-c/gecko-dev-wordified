@@ -568,6 +568,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -585,6 +586,7 @@ info
 id
 )
 ;
+}
 listenSock
 =
 PR_NewTCPSocket
@@ -601,6 +603,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -614,6 +617,7 @@ n
 "
 )
 ;
+}
 goto
 dead
 ;
@@ -674,6 +678,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -685,6 +690,7 @@ n
 "
 )
 ;
+}
 goto
 dead
 ;
@@ -709,6 +715,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -720,6 +727,7 @@ n
 "
 )
 ;
+}
 goto
 dead
 ;
@@ -839,10 +847,12 @@ PR_GetError
 )
 ;
 else
+{
 failed_already
 =
 1
 ;
+}
 }
 else
 {
@@ -850,6 +860,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -866,11 +877,14 @@ n
 "
 )
 ;
+}
 else
+{
 failed_already
 =
 1
 ;
+}
 PR_Close
 (
 clientSock
@@ -928,6 +942,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -945,6 +960,7 @@ info
 id
 )
 ;
+}
 }
 void
 thread_test
@@ -977,6 +993,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -994,6 +1011,7 @@ n
 num_threads
 )
 ;
+}
 dead_lock
 =
 PR_NewLock
@@ -1131,6 +1149,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1148,6 +1167,7 @@ n
 alive
 )
 ;
+}
 PR_WaitCondVar
 (
 dead_cv
@@ -1276,8 +1296,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -1326,6 +1348,7 @@ argc
 >
 2
 )
+{
 num_threads
 =
 atoi
@@ -1336,11 +1359,14 @@ argv
 ]
 )
 ;
+}
 else
+{
 num_threads
 =
 NUM_THREADS
 ;
+}
 PR_Init
 (
 PR_USER_THREAD
@@ -1356,6 +1382,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1367,6 +1394,7 @@ n
 "
 )
 ;
+}
 thread_test
 (
 PR_LOCAL_THREAD
@@ -1381,11 +1409,15 @@ if
 (
 failed_already
 )
+{
 return
 1
 ;
+}
 else
+{
 return
 0
 ;
+}
 }

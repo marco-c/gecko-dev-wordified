@@ -401,6 +401,7 @@ debug
 >
 0
 )
+{
 (
 void
 )
@@ -428,6 +429,7 @@ file
 line
 )
 ;
+}
 }
 /
 *
@@ -537,8 +539,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -1249,6 +1253,7 @@ if
 (
 debug
 )
+{
 PR_fprintf
 (
 fout
@@ -1260,6 +1265,7 @@ n
 "
 )
 ;
+}
 thread
 =
 new
@@ -1271,6 +1277,7 @@ if
 (
 debug
 )
+{
 PR_fprintf
 (
 fout
@@ -1282,6 +1289,7 @@ n
 "
 )
 ;
+}
 thread
 -
 >
@@ -1293,6 +1301,7 @@ if
 (
 debug
 )
+{
 PR_fprintf
 (
 fout
@@ -1304,6 +1313,7 @@ n
 "
 )
 ;
+}
 (
 void
 )
@@ -1318,6 +1328,7 @@ if
 (
 debug
 )
+{
 PR_fprintf
 (
 fout
@@ -1329,6 +1340,7 @@ n
 "
 )
 ;
+}
 failed
 |
 =
@@ -1591,15 +1603,19 @@ if
 (
 should
 )
+{
 did
 =
 PR_TRUE
 ;
+}
 else
+{
 failed
 =
 PR_TRUE
 ;
+}
 }
 /
 *

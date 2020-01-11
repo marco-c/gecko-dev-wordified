@@ -321,8 +321,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -539,6 +541,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -560,6 +563,7 @@ PASS
 "
 )
 ;
+}
 return
 (
 (

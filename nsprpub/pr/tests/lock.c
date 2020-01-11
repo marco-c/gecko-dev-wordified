@@ -1411,6 +1411,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 std_err
@@ -1423,6 +1424,7 @@ n
 "
 )
 ;
+}
 PR_EnterMonitor
 (
 ml
@@ -1437,6 +1439,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 std_err
@@ -1450,6 +1453,7 @@ n
 "
 )
 ;
+}
 PR_ExitMonitor
 (
 ml
@@ -1459,6 +1463,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 std_err
@@ -1472,6 +1477,7 @@ n
 "
 )
 ;
+}
 }
 /
 *
@@ -1505,6 +1511,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 std_err
@@ -1520,6 +1527,7 @@ n
 "
 )
 ;
+}
 PR_EnterMonitor
 (
 ml
@@ -1544,6 +1552,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 std_err
@@ -1556,6 +1565,7 @@ n
 "
 )
 ;
+}
 thread
 =
 PR_CreateThread
@@ -1604,6 +1614,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 std_err
@@ -1617,6 +1628,7 @@ n
 "
 )
 ;
+}
 PR_ExitMonitor
 (
 ml
@@ -1626,6 +1638,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 std_err
@@ -1639,6 +1652,7 @@ n
 "
 )
 ;
+}
 status
 =
 PR_JoinThread
@@ -2554,6 +2568,7 @@ spaces
 <
 50
 )
+{
 PR_fprintf
 (
 PR_STDOUT
@@ -2561,6 +2576,7 @@ PR_STDOUT
 "
 )
 ;
+}
 if
 (
 (
@@ -2570,6 +2586,7 @@ accountable
 <
 0
 )
+{
 PR_fprintf
 (
 PR_STDOUT
@@ -2590,7 +2607,9 @@ n
 "
 )
 ;
+}
 else
+{
 PR_fprintf
 (
 PR_STDOUT
@@ -2610,6 +2629,7 @@ elapsed
 loops
 )
 ;
+}
 }
 return
 duration
@@ -2807,8 +2827,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -2929,10 +2951,12 @@ loops
 =
 0
 )
+{
 loops
 =
 100
 ;
+}
 if
 (
 debug_mode
@@ -2966,14 +2990,17 @@ cpus
 =
 0
 )
+{
 cpus
 =
 2
 ;
+}
 if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 std_err
@@ -2993,6 +3020,7 @@ n
 cpus
 )
 ;
+}
 (
 void
 )
@@ -3030,6 +3058,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 std_err
@@ -3050,6 +3079,7 @@ n
 cpu
 )
 ;
+}
 PR_SetConcurrency
 (
 cpu
@@ -3270,10 +3300,12 @@ if
 !
 rv
 )
+{
 failed_already
 =
 1
 ;
+}
 }
 if
 (

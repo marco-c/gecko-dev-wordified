@@ -220,6 +220,7 @@ longOptIndex
 <
 0
 )
+{
 printf
 (
 "
@@ -241,6 +242,7 @@ opt
 value
 )
 ;
+}
 else
 printf
 (

@@ -947,8 +947,10 @@ d_name
 0
 )
 )
+{
 continue
 ;
+}
 if
 (
 (
@@ -1003,8 +1005,10 @@ d_name
 0
 )
 )
+{
 continue
 ;
+}
 if
 (
 (
@@ -1029,8 +1033,10 @@ d_name
 '
 )
 )
+{
 continue
 ;
+}
 break
 ;
 }
@@ -1220,11 +1226,13 @@ NULL
 =
 _pr_unix_rename_lock
 )
+{
 PR_Lock
 (
 _pr_unix_rename_lock
 )
 ;
+}
 if
 (
 0
@@ -1236,12 +1244,14 @@ to
 F_OK
 )
 )
+{
 PR_SetError
 (
 PR_FILE_EXISTS_ERROR
 0
 )
 ;
+}
 else
 {
 rv
@@ -1279,11 +1289,13 @@ NULL
 =
 _pr_unix_rename_lock
 )
+{
 PR_Unlock
 (
 _pr_unix_rename_lock
 )
 ;
+}
 return
 rv
 ;
@@ -1440,11 +1452,13 @@ NULL
 =
 _pr_unix_rename_lock
 )
+{
 PR_Lock
 (
 _pr_unix_rename_lock
 )
 ;
+}
 rv
 =
 mkdir
@@ -1479,11 +1493,13 @@ NULL
 =
 _pr_unix_rename_lock
 )
+{
 PR_Unlock
 (
 _pr_unix_rename_lock
 )
 ;
+}
 return
 rv
 ;
@@ -1707,9 +1723,11 @@ PR_INTERVAL_NO_TIMEOUT
 <
 0
 )
+{
 goto
 done
 ;
+}
 }
 else
 {
@@ -1843,8 +1861,10 @@ _PR_PENDING_INTERRUPT
 me
 )
 )
+{
 break
 ;
+}
 }
 else
 if
@@ -2098,9 +2118,11 @@ PR_INTERVAL_NO_TIMEOUT
 <
 0
 )
+{
 goto
 done
 ;
+}
 }
 else
 {
@@ -2234,8 +2256,10 @@ _PR_PENDING_INTERRUPT
 me
 )
 )
+{
 break
 ;
+}
 }
 else
 if
@@ -2728,6 +2752,7 @@ fd_type
 =
 READ_FD
 )
+{
 rv
 =
 _MD_SELECT
@@ -2743,7 +2768,9 @@ NULL
 tv
 )
 ;
+}
 else
+{
 rv
 =
 _MD_SELECT
@@ -2759,6 +2786,7 @@ NULL
 tv
 )
 ;
+}
 if
 (
 rv
@@ -2973,6 +3001,7 @@ fd_type
 =
 READ_FD
 )
+{
 rv
 =
 _MD_SELECT
@@ -2988,7 +3017,9 @@ NULL
 tv
 )
 ;
+}
 else
+{
 rv
 =
 _MD_SELECT
@@ -3004,6 +3035,7 @@ NULL
 tv
 )
 ;
+}
 /
 *
 *
@@ -4084,9 +4116,11 @@ timeout
 =
 PR_INTERVAL_NO_WAIT
 )
+{
 return
 0
 ;
+}
 pd
 .
 osfd
@@ -4342,9 +4376,11 @@ timeout
 <
 0
 )
+{
 goto
 done
 ;
+}
 }
 else
 {
@@ -4363,9 +4399,11 @@ timeout
 <
 0
 )
+{
 goto
 done
 ;
+}
 }
 }
 else
@@ -4569,9 +4607,11 @@ timeout
 <
 0
 )
+{
 goto
 done
 ;
+}
 }
 else
 {
@@ -4590,9 +4630,11 @@ timeout
 <
 0
 )
+{
 goto
 done
 ;
+}
 }
 }
 else
@@ -4923,9 +4965,11 @@ timeout
 <
 0
 )
+{
 goto
 done
 ;
+}
 }
 else
 {
@@ -4944,9 +4988,11 @@ timeout
 <
 0
 )
+{
 goto
 done
 ;
+}
 }
 }
 else
@@ -5417,9 +5463,11 @@ timeout
 <
 0
 )
+{
 goto
 done
 ;
+}
 }
 else
 {
@@ -5438,9 +5486,11 @@ timeout
 <
 0
 )
+{
 goto
 done
 ;
+}
 }
 }
 else
@@ -5718,9 +5768,11 @@ timeout
 <
 0
 )
+{
 goto
 done
 ;
+}
 }
 else
 {
@@ -5739,9 +5791,11 @@ timeout
 <
 0
 )
+{
 goto
 done
 ;
+}
 }
 }
 else
@@ -6063,9 +6117,11 @@ timeout
 <
 0
 )
+{
 goto
 done
 ;
+}
 }
 else
 {
@@ -6084,9 +6140,11 @@ timeout
 <
 0
 )
+{
 goto
 done
 ;
+}
 }
 }
 else
@@ -6548,10 +6606,12 @@ timeout
 <
 0
 )
+{
 return
 -
 1
 ;
+}
 }
 else
 {
@@ -8025,6 +8085,7 @@ osfd
 =
 0
 )
+{
 FD_CLR
 (
 osfd
@@ -8038,6 +8099,7 @@ cpu
 )
 )
 ;
+}
 }
 if
 (
@@ -8066,6 +8128,7 @@ osfd
 =
 0
 )
+{
 FD_CLR
 (
 osfd
@@ -8079,6 +8142,7 @@ cpu
 )
 )
 ;
+}
 }
 if
 (
@@ -8107,6 +8171,7 @@ osfd
 =
 0
 )
+{
 FD_CLR
 (
 osfd
@@ -8120,6 +8185,7 @@ cpu
 )
 )
 ;
+}
 }
 }
 _PR_THREAD_LOCK
@@ -8346,6 +8412,7 @@ me
 cpu
 )
 )
+{
 _PR_IOQ_TIMEOUT
 (
 me
@@ -8359,6 +8426,7 @@ pq
 >
 timeout
 ;
+}
 if
 (
 _PR_IOQ_MAX_OSFD
@@ -8371,6 +8439,7 @@ cpu
 <
 pq_max_osfd
 )
+{
 _PR_IOQ_MAX_OSFD
 (
 me
@@ -8381,6 +8450,7 @@ cpu
 =
 pq_max_osfd
 ;
+}
 }
 }
 if
@@ -8405,6 +8475,7 @@ _pr_md_pipefd
 0
 ]
 )
+{
 _PR_IOQ_MAX_OSFD
 (
 me
@@ -8418,6 +8489,7 @@ _pr_md_pipefd
 0
 ]
 ;
+}
 }
 }
 #
@@ -8865,6 +8937,7 @@ cpu
 =
 NULL
 )
+{
 PR_DELETE
 (
 _PR_IOQ_POLLFDS
@@ -8876,6 +8949,7 @@ cpu
 )
 )
 ;
+}
 pollfds_size
 =
 PR_MAX
@@ -9379,12 +9453,15 @@ min_timeout
 =
 PR_INTERVAL_NO_TIMEOUT
 )
+{
 timeout
 =
 -
 1
 ;
+}
 else
+{
 timeout
 =
 PR_IntervalToMilliseconds
@@ -9392,6 +9469,7 @@ PR_IntervalToMilliseconds
 min_timeout
 )
 ;
+}
 #
 else
 if
@@ -9515,6 +9593,7 @@ if
 !
 _nspr_noclock
 )
+{
 PR_ASSERT
 (
 sigismember
@@ -9525,6 +9604,7 @@ SIGALRM
 )
 )
 ;
+}
 sigprocmask
 (
 SIG_BLOCK
@@ -9595,6 +9675,7 @@ if
 !
 _nspr_noclock
 )
+{
 sigprocmask
 (
 SIG_SETMASK
@@ -9603,6 +9684,7 @@ oldset
 0
 )
 ;
+}
 #
 endif
 /
@@ -10261,11 +10343,13 @@ _pr_md_idle_cpus
 >
 1
 )
+{
 _PR_MD_WAKEUP_WAITER
 (
 thred
 )
 ;
+}
 }
 }
 _PR_THREAD_UNLOCK
@@ -10717,6 +10801,7 @@ osfd
 =
 0
 )
+{
 FD_CLR
 (
 osfd
@@ -10730,6 +10815,7 @@ cpu
 )
 )
 ;
+}
 }
 if
 (
@@ -10758,6 +10844,7 @@ osfd
 =
 0
 )
+{
 FD_CLR
 (
 osfd
@@ -10771,6 +10858,7 @@ cpu
 )
 )
 ;
+}
 }
 if
 (
@@ -10799,6 +10887,7 @@ osfd
 =
 0
 )
+{
 FD_CLR
 (
 osfd
@@ -10812,6 +10901,7 @@ cpu
 )
 )
 ;
+}
 }
 }
 /
@@ -11055,11 +11145,13 @@ _pr_md_idle_cpus
 >
 1
 )
+{
 _PR_MD_WAKEUP_WAITER
 (
 thred
 )
 ;
+}
 }
 }
 _PR_THREAD_UNLOCK
@@ -11085,6 +11177,7 @@ me
 cpu
 )
 )
+{
 _PR_IOQ_TIMEOUT
 (
 me
@@ -11098,6 +11191,7 @@ pq
 >
 timeout
 ;
+}
 if
 (
 _PR_IOQ_MAX_OSFD
@@ -11110,6 +11204,7 @@ cpu
 <
 pq_max_osfd
 )
+{
 _PR_IOQ_MAX_OSFD
 (
 me
@@ -11120,6 +11215,7 @@ cpu
 =
 pq_max_osfd
 ;
+}
 }
 }
 if
@@ -11239,6 +11335,7 @@ _pr_md_pipefd
 0
 ]
 )
+{
 _PR_IOQ_MAX_OSFD
 (
 me
@@ -11252,6 +11349,7 @@ _pr_md_pipefd
 0
 ]
 ;
+}
 }
 }
 else
@@ -11455,6 +11553,7 @@ me
 cpu
 )
 )
+{
 _PR_IOQ_TIMEOUT
 (
 me
@@ -11468,6 +11567,7 @@ pq
 >
 timeout
 ;
+}
 if
 (
 _PR_IOQ_MAX_OSFD
@@ -11480,6 +11580,7 @@ cpu
 <
 pq_max_osfd
 )
+{
 _PR_IOQ_MAX_OSFD
 (
 me
@@ -11490,6 +11591,7 @@ cpu
 =
 pq_max_osfd
 ;
+}
 }
 if
 (
@@ -11513,6 +11615,7 @@ _pr_md_pipefd
 0
 ]
 )
+{
 _PR_IOQ_MAX_OSFD
 (
 me
@@ -11526,6 +11629,7 @@ _pr_md_pipefd
 0
 ]
 ;
+}
 }
 }
 #
@@ -12109,6 +12213,7 @@ me
 ;
 }
 else
+{
 me
 -
 >
@@ -12116,6 +12221,7 @@ state
 =
 _PR_RUNNABLE
 ;
+}
 _MD_SWITCH_CONTEXT
 (
 me
@@ -12318,15 +12424,19 @@ eval
 =
 0
 )
+{
 _nspr_noclock
 =
 0
 ;
+}
 else
+{
 _nspr_noclock
 =
 1
 ;
+}
 }
 #
 ifndef
@@ -12767,33 +12877,39 @@ flags
 &
 PR_EXCL
 )
+{
 osflags
 |
 =
 O_EXCL
 ;
+}
 if
 (
 flags
 &
 PR_APPEND
 )
+{
 osflags
 |
 =
 O_APPEND
 ;
+}
 if
 (
 flags
 &
 PR_TRUNCATE
 )
+{
 osflags
 |
 =
 O_TRUNC
 ;
+}
 if
 (
 flags
@@ -12894,11 +13010,13 @@ NULL
 =
 _pr_unix_rename_lock
 )
+{
 PR_Lock
 (
 _pr_unix_rename_lock
 )
 ;
+}
 }
 #
 if
@@ -12959,11 +13077,13 @@ NULL
 _pr_unix_rename_lock
 )
 )
+{
 PR_Unlock
 (
 _pr_unix_rename_lock
 )
 ;
+}
 return
 rv
 ;
@@ -14818,6 +14938,7 @@ sb
 >
 st_mode
 )
+{
 info
 -
 >
@@ -14825,6 +14946,7 @@ type
 =
 PR_FILE_FILE
 ;
+}
 else
 if
 (
@@ -14835,6 +14957,7 @@ sb
 >
 st_mode
 )
+{
 info
 -
 >
@@ -14842,7 +14965,9 @@ type
 =
 PR_FILE_DIRECTORY
 ;
+}
 else
+{
 info
 -
 >
@@ -14850,6 +14975,7 @@ type
 =
 PR_FILE_OTHER
 ;
+}
 #
 if
 defined
@@ -14934,6 +15060,7 @@ sb
 >
 st_mode
 )
+{
 info
 -
 >
@@ -14941,6 +15068,7 @@ type
 =
 PR_FILE_FILE
 ;
+}
 else
 if
 (
@@ -14951,6 +15079,7 @@ sb
 >
 st_mode
 )
+{
 info
 -
 >
@@ -14958,7 +15087,9 @@ type
 =
 PR_FILE_DIRECTORY
 ;
+}
 else
+{
 info
 -
 >
@@ -14966,6 +15097,7 @@ type
 =
 PR_FILE_OTHER
 ;
+}
 LL_I2L
 (
 info
@@ -15027,6 +15159,7 @@ rv
 <
 0
 )
+{
 _PR_MD_MAP_STAT_ERROR
 (
 _MD_ERRNO
@@ -15034,6 +15167,7 @@ _MD_ERRNO
 )
 )
 ;
+}
 else
 if
 (
@@ -15042,6 +15176,7 @@ NULL
 =
 info
 )
+{
 rv
 =
 _MD_convert_stat_to_fileinfo
@@ -15051,6 +15186,7 @@ sb
 info
 )
 ;
+}
 return
 rv
 ;
@@ -15088,6 +15224,7 @@ rv
 <
 0
 )
+{
 _PR_MD_MAP_STAT_ERROR
 (
 _MD_ERRNO
@@ -15095,6 +15232,7 @@ _MD_ERRNO
 )
 )
 ;
+}
 else
 if
 (
@@ -15103,6 +15241,7 @@ NULL
 =
 info
 )
+{
 rv
 =
 _MD_convert_stat64_to_fileinfo64
@@ -15112,6 +15251,7 @@ sb
 info
 )
 ;
+}
 return
 rv
 ;
@@ -15156,6 +15296,7 @@ rv
 <
 0
 )
+{
 _PR_MD_MAP_FSTAT_ERROR
 (
 _MD_ERRNO
@@ -15163,6 +15304,7 @@ _MD_ERRNO
 )
 )
 ;
+}
 else
 if
 (
@@ -15171,6 +15313,7 @@ NULL
 =
 info
 )
+{
 rv
 =
 _MD_convert_stat_to_fileinfo
@@ -15180,6 +15323,7 @@ sb
 info
 )
 ;
+}
 return
 rv
 ;
@@ -15225,6 +15369,7 @@ rv
 <
 0
 )
+{
 _PR_MD_MAP_FSTAT_ERROR
 (
 _MD_ERRNO
@@ -15232,6 +15377,7 @@ _MD_ERRNO
 )
 )
 ;
+}
 else
 if
 (
@@ -15240,6 +15386,7 @@ NULL
 =
 info
 )
+{
 rv
 =
 _MD_convert_stat64_to_fileinfo64
@@ -15249,6 +15396,7 @@ sb
 info
 )
 ;
+}
 return
 rv
 ;
@@ -15732,6 +15880,7 @@ whence
 ;
 }
 else
+{
 errno
 =
 EFBIG
@@ -15746,6 +15895,7 @@ go
 there
 *
 /
+}
 return
 rv
 ;
@@ -17082,6 +17232,7 @@ flags
 &
 _PR_SEG_VM
 )
+{
 (
 void
 )
@@ -17097,7 +17248,9 @@ seg
 size
 )
 ;
+}
 else
+{
 PR_DELETE
 (
 seg
@@ -17106,6 +17259,7 @@ seg
 vaddr
 )
 ;
+}
 }
 #
 endif
@@ -18293,6 +18447,7 @@ osfd
 =
 0
 )
+{
 FD_CLR
 (
 osfd
@@ -18306,6 +18461,7 @@ cpu
 )
 )
 ;
+}
 }
 if
 (
@@ -18334,6 +18490,7 @@ osfd
 =
 0
 )
+{
 FD_CLR
 (
 osfd
@@ -18347,6 +18504,7 @@ cpu
 )
 )
 ;
+}
 }
 if
 (
@@ -18375,6 +18533,7 @@ osfd
 =
 0
 )
+{
 FD_CLR
 (
 osfd
@@ -18388,6 +18547,7 @@ cpu
 )
 )
 ;
+}
 }
 }
 #
@@ -19565,9 +19725,11 @@ rv
 =
 0
 )
+{
 return
 PR_SUCCESS
 ;
+}
 _PR_MD_MAP_FLOCK_ERROR
 (
 _MD_ERRNO
@@ -19640,9 +19802,11 @@ rv
 =
 0
 )
+{
 return
 PR_SUCCESS
 ;
+}
 _PR_MD_MAP_FLOCK_ERROR
 (
 _MD_ERRNO
@@ -19715,9 +19879,11 @@ rv
 =
 0
 )
+{
 return
 PR_SUCCESS
 ;
+}
 _PR_MD_MAP_FLOCK_ERROR
 (
 _MD_ERRNO
@@ -19769,9 +19935,11 @@ rv
 =
 0
 )
+{
 return
 PR_SUCCESS
 ;
+}
 _PR_MD_MAP_FLOCK_ERROR
 (
 _MD_ERRNO
@@ -19810,9 +19978,11 @@ rv
 =
 0
 )
+{
 return
 PR_SUCCESS
 ;
+}
 _PR_MD_MAP_FLOCK_ERROR
 (
 _MD_ERRNO
@@ -19849,9 +20019,11 @@ rv
 =
 0
 )
+{
 return
 PR_SUCCESS
 ;
+}
 _PR_MD_MAP_FLOCK_ERROR
 (
 _MD_ERRNO
@@ -19891,9 +20063,11 @@ rv
 =
 0
 )
+{
 return
 PR_SUCCESS
 ;
+}
 _PR_MD_MAP_LOCKF_ERROR
 (
 _MD_ERRNO
@@ -19931,9 +20105,11 @@ rv
 =
 0
 )
+{
 return
 PR_SUCCESS
 ;
+}
 _PR_MD_MAP_LOCKF_ERROR
 (
 _MD_ERRNO
@@ -19971,9 +20147,11 @@ rv
 =
 0
 )
+{
 return
 PR_SUCCESS
 ;
+}
 _PR_MD_MAP_LOCKF_ERROR
 (
 _MD_ERRNO
@@ -20094,6 +20272,7 @@ PR_SI_SYSNAME
 =
 cmd
 )
+{
 (
 void
 )
@@ -20106,6 +20285,7 @@ info
 sysname
 )
 ;
+}
 else
 if
 (
@@ -20114,6 +20294,7 @@ PR_SI_RELEASE
 =
 cmd
 )
+{
 (
 void
 )
@@ -20126,10 +20307,13 @@ info
 release
 )
 ;
+}
 else
+{
 return
 PR_FAILURE
 ;
+}
 return
 PR_SUCCESS
 ;

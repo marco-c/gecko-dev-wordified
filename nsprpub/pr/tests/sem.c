@@ -705,6 +705,7 @@ i
 +
 +
 )
+{
 stdinBuf
 [
 i
@@ -712,6 +713,7 @@ i
 =
 i
 ;
+}
 }
 /
 *
@@ -750,8 +752,10 @@ stdinBufIdx
 =
 SBSIZE
 )
+{
 break
 ;
+}
 buf
 [
 i
@@ -822,8 +826,10 @@ stdoutBufIdx
 =
 SBSIZE
 )
+{
 break
 ;
+}
 stdoutBuf
 [
 stdoutBufIdx
@@ -888,6 +894,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -904,6 +911,7 @@ n
 j
 )
 ;
+}
 finalResult
 =
 PR_FAILURE
@@ -1335,8 +1343,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -1466,6 +1476,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1479,12 +1490,14 @@ n
 )
 ;
 }
+}
 else
 {
 if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1497,6 +1510,7 @@ n
 "
 )
 ;
+}
 failed_already
 =
 1
@@ -1510,11 +1524,15 @@ if
 (
 failed_already
 )
+{
 return
 1
 ;
+}
 else
+{
 return
 0
 ;
+}
 }

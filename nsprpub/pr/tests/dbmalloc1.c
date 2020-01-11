@@ -653,6 +653,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -670,6 +671,7 @@ i
 1
 )
 ;
+}
 actually_failed
 =
 1
@@ -697,10 +699,12 @@ debug_mode
 )
 )
 )
+{
 failed_already
 =
 1
 ;
+}
 return
 ;
 }
@@ -745,6 +749,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -759,12 +764,14 @@ n
 )
 ;
 }
+}
 else
 {
 if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -780,6 +787,7 @@ n
 i
 )
 ;
+}
 should_fail
 =
 1
@@ -836,11 +844,15 @@ if
 (
 failed_already
 )
+{
 return
 1
 ;
+}
 else
+{
 return
 0
 ;
+}
 }

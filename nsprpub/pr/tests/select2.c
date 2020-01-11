@@ -876,6 +876,7 @@ index
 -
 ;
 )
+{
 rv
 =
 PR_Select
@@ -887,6 +888,7 @@ NULL
 PR_INTERVAL_NO_WAIT
 )
 ;
+}
 }
 static
 void
@@ -925,6 +927,7 @@ index
 -
 ;
 )
+{
 rv
 =
 select
@@ -937,6 +940,7 @@ NULL
 timeout
 )
 ;
+}
 }
 static
 void
@@ -970,6 +974,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -984,6 +989,7 @@ n
 "
 )
 ;
+}
 return
 ;
 }
@@ -1045,6 +1051,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1060,6 +1067,7 @@ n
 "
 )
 ;
+}
 PR_Close
 (
 listenSocket
@@ -1084,6 +1092,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1099,6 +1108,7 @@ n
 "
 )
 ;
+}
 PR_Close
 (
 listenSocket
@@ -1111,6 +1121,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1125,6 +1136,7 @@ n
 PORT
 )
 ;
+}
 {
 PRFileDesc
 *
@@ -1161,6 +1173,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1172,6 +1185,7 @@ n
 "
 )
 ;
+}
 newSock
 =
 PR_Accept
@@ -1191,6 +1205,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1203,12 +1218,14 @@ n
 )
 ;
 }
+}
 else
 {
 if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1227,12 +1244,15 @@ PR_GetError
 )
 )
 ;
+}
 else
+{
 Test_Result
 (
 FAIL
 )
 ;
+}
 }
 PR_FD_ZERO
 (
@@ -1251,6 +1271,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1262,6 +1283,7 @@ n
 "
 )
 ;
+}
 rv
 =
 PR_Select
@@ -1278,6 +1300,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1293,6 +1316,7 @@ n
 rv
 )
 ;
+}
 if
 (
 PR_FD_ISSET
@@ -1307,6 +1331,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1329,12 +1354,14 @@ n
 )
 ;
 }
+}
 else
 {
 if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1352,12 +1379,15 @@ n
 "
 )
 ;
+}
 else
+{
 Test_Result
 (
 FAIL
 )
 ;
+}
 }
 strcpy
 (
@@ -1392,6 +1422,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1410,6 +1441,7 @@ bytesRead
 buf
 )
 ;
+}
 PR_Close
 (
 newSock
@@ -1455,6 +1487,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1469,6 +1502,7 @@ n
 "
 )
 ;
+}
 return
 ;
 }
@@ -1530,6 +1564,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1545,6 +1580,7 @@ n
 "
 )
 ;
+}
 PR_Close
 (
 listenSocket
@@ -1569,6 +1605,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1584,6 +1621,7 @@ n
 "
 )
 ;
+}
 PR_Close
 (
 listenSocket
@@ -1596,6 +1634,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1610,6 +1649,7 @@ n
 PORT
 )
 ;
+}
 {
 PRIntn
 osfd
@@ -1649,6 +1689,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1660,6 +1701,7 @@ n
 "
 )
 ;
+}
 newSock
 =
 PR_Accept
@@ -1679,6 +1721,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1691,12 +1734,14 @@ n
 )
 ;
 }
+}
 else
 {
 if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1715,12 +1760,15 @@ PR_GetError
 )
 )
 ;
+}
 else
+{
 Test_Result
 (
 FAIL
 )
 ;
+}
 }
 osfd
 =
@@ -1746,6 +1794,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1757,6 +1806,7 @@ n
 "
 )
 ;
+}
 timeout
 .
 tv_sec
@@ -1788,6 +1838,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1803,6 +1854,7 @@ n
 rv
 )
 ;
+}
 if
 (
 FD_ISSET
@@ -1817,6 +1869,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1839,12 +1892,14 @@ n
 )
 ;
 }
+}
 else
 {
 if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1862,12 +1917,15 @@ n
 "
 )
 ;
+}
 else
+{
 Test_Result
 (
 FAIL
 )
 ;
+}
 }
 strcpy
 (
@@ -1902,6 +1960,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1920,6 +1979,7 @@ bytesRead
 buf
 )
 ;
+}
 PR_Close
 (
 newSock
@@ -2088,6 +2148,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -2114,6 +2175,7 @@ count
 tot
 )
 ;
+}
 }
 int
 main
@@ -2227,8 +2289,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -2378,11 +2442,13 @@ if
 !
 debug_mode
 )
+{
 Test_Result
 (
 NOSTATUS
 )
 ;
+}
 PR_Cleanup
 (
 )

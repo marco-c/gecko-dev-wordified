@@ -241,8 +241,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -411,6 +413,7 @@ versionPoint
 }
 }
 else
+{
 version_info
 =
 libVersionPoint
@@ -426,6 +429,7 @@ version
 info
 *
 /
+}
 (
 void
 )

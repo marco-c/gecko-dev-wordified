@@ -244,6 +244,7 @@ thread
 >
 errorString
 )
+{
 PR_DELETE
 (
 thread
@@ -252,6 +253,7 @@ thread
 errorString
 )
 ;
+}
 thread
 -
 >
@@ -313,6 +315,7 @@ thread
 >
 errorString
 )
+{
 PR_DELETE
 (
 thread
@@ -321,6 +324,7 @@ thread
 errorString
 )
 ;
+}
 thread
 -
 >
@@ -450,6 +454,7 @@ thread
 >
 errorStringLength
 )
+{
 memcpy
 (
 text
@@ -465,6 +470,7 @@ errorStringLength
 1
 )
 ;
+}
 return
 thread
 -

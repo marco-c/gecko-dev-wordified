@@ -741,8 +741,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -1240,6 +1242,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1249,6 +1252,7 @@ s
 buf
 )
 ;
+}
 /
 *
 Set
@@ -1289,6 +1293,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1304,6 +1309,7 @@ n
 "
 )
 ;
+}
 if
 (
 (
@@ -1516,6 +1522,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1535,6 +1542,7 @@ n
 "
 )
 ;
+}
 PR_FD_CLR
 (
 badFD
@@ -1555,11 +1563,15 @@ if
 (
 failed_already
 )
+{
 return
 1
 ;
+}
 else
+{
 return
 0
 ;
+}
 }

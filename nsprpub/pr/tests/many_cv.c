@@ -399,8 +399,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -707,6 +709,7 @@ if
 =
 ran
 )
+{
 PR_NotifyAllCondVar
 (
 cv
@@ -715,6 +718,7 @@ nl
 ]
 )
 ;
+}
 else
 for
 (
@@ -730,6 +734,7 @@ ran
 +
 nc
 )
+{
 PR_NotifyCondVar
 (
 cv
@@ -738,6 +743,7 @@ nl
 ]
 )
 ;
+}
 }
 PR_Unlock
 (
@@ -759,6 +765,7 @@ cvs
 +
 index
 )
+{
 PR_DestroyCondVar
 (
 cv
@@ -767,6 +774,7 @@ index
 ]
 )
 ;
+}
 PR_DELETE
 (
 cv

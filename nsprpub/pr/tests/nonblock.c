@@ -210,6 +210,8 @@ milliseconds
 *
 /
 #
+else
+#
 define
 UNIT_TIME
 100

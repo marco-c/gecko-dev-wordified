@@ -363,6 +363,7 @@ argv
 d
 '
 )
+{
 debug
 =
 PR_GetSpecialFD
@@ -370,6 +371,7 @@ PR_GetSpecialFD
 PR_StandardError
 )
 ;
+}
 else
 {
 PrintUsage
@@ -438,6 +440,7 @@ NULL
 =
 debug
 )
+{
 PR_fprintf
 (
 debug
@@ -454,6 +457,7 @@ child
 name
 )
 ;
+}
 child
 -
 >
@@ -629,6 +633,7 @@ NULL
 =
 debug
 )
+{
 PR_fprintf
 (
 debug
@@ -643,6 +648,7 @@ n
 "
 )
 ;
+}
 rv
 =
 PR_WaitProcess
@@ -712,6 +718,7 @@ NULL
 =
 debug
 )
+{
 PR_fprintf
 (
 debug
@@ -723,6 +730,7 @@ n
 "
 )
 ;
+}
 }
 }
 PR_DELETE

@@ -873,6 +873,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 output
@@ -886,6 +887,7 @@ n
 "
 )
 ;
+}
 }
 #
 endif
@@ -1004,11 +1006,14 @@ if
 !
 debug_mode
 )
+{
 failed_already
 =
 1
 ;
+}
 else
+{
 PR_fprintf
 (
 output
@@ -1024,6 +1029,7 @@ n
 "
 )
 ;
+}
 return
 ;
 }
@@ -1057,10 +1063,12 @@ if
 !
 debug_mode
 )
+{
 failed_already
 =
 1
 ;
+}
 else
 PR_fprintf
 (
@@ -1205,6 +1213,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 output
@@ -1213,6 +1222,7 @@ output
 "
 )
 ;
+}
 PR_Close
 (
 sock
@@ -1227,6 +1237,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 output
@@ -1236,6 +1247,7 @@ n
 "
 )
 ;
+}
 ErrorExit
 :
 if
@@ -1245,11 +1257,13 @@ sock
 =
 NULL
 )
+{
 PR_Close
 (
 sock
 )
 ;
+}
 }
 static
 void
@@ -1293,6 +1307,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 output
@@ -1307,6 +1322,7 @@ n
 "
 )
 ;
+}
 return
 ;
 }
@@ -1416,8 +1432,10 @@ i
 <
 SERVER_MAX_BIND_COUNT
 )
+{
 continue
 ;
+}
 }
 failed_already
 =
@@ -1471,6 +1489,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 output
@@ -1483,6 +1502,7 @@ n
 "
 )
 ;
+}
 return
 ;
 }
@@ -1522,6 +1542,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 output
@@ -1535,6 +1556,7 @@ n
 "
 )
 ;
+}
 return
 ;
 }
@@ -1789,6 +1811,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 output
@@ -1805,6 +1828,7 @@ PR_GetError
 )
 )
 ;
+}
 TEST_ASSERT
 (
 PR_GetError
@@ -2053,6 +2077,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 output
@@ -2070,6 +2095,7 @@ n
 clientSock
 )
 ;
+}
 TEST_ASSERT
 (
 clientSock
@@ -2438,6 +2464,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 output
@@ -2459,6 +2486,7 @@ d
 count
 )
 ;
+}
 }
 int
 main
@@ -2579,8 +2607,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -2683,6 +2713,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 output
@@ -2700,6 +2731,7 @@ n
 "
 )
 ;
+}
 Measure
 (
 AcceptUpdatedTest
@@ -2759,6 +2791,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 output
@@ -2778,6 +2811,7 @@ n
 "
 )
 ;
+}
 #
 ifdef
 WINNT
@@ -2807,6 +2841,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 output
@@ -2826,6 +2861,7 @@ n
 "
 )
 ;
+}
 Measure
 (
 TimeoutReadReadTest

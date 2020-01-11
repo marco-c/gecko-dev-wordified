@@ -572,10 +572,12 @@ num_threads
 >
 1000
 )
+{
 num_threads
 =
 1000
 ;
+}
 for
 (
 i
@@ -1971,8 +1973,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -2039,10 +2043,12 @@ if
 =
 count
 )
+{
 count
 =
 DEFAULT_COUNT
 ;
+}
 PR_Init
 (
 PR_USER_THREAD

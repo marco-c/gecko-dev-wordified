@@ -1075,6 +1075,7 @@ xargv
 optNameLen
 )
 )
+{
 continue
 ;
 /
@@ -1085,6 +1086,7 @@ possible
 match
 *
 /
+}
 if
 (
 strlen
@@ -1098,6 +1100,7 @@ longOptName
 =
 optNameLen
 )
+{
 continue
 ;
 /
@@ -1107,6 +1110,7 @@ a
 match
 *
 /
+}
 /
 *
 option
@@ -1548,6 +1552,7 @@ minus
 ;
 }
 else
+{
 opt
 -
 >
@@ -1555,6 +1560,7 @@ value
 =
 NULL
 ;
+}
 return
 PL_OPT_OK
 ;

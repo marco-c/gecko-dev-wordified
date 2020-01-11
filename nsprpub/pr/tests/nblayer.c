@@ -416,6 +416,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 logFile
@@ -441,6 +442,7 @@ layer
 stack
 )
 ;
+}
 return
 stack
 ;
@@ -476,6 +478,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 logFile
@@ -501,6 +504,7 @@ popped
 stack
 )
 ;
+}
 PR_DELETE
 (
 popped
@@ -633,6 +637,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 logFile
@@ -648,6 +653,7 @@ n
 "
 )
 ;
+}
 do
 {
 polldesc
@@ -785,8 +791,10 @@ PR_GetError
 )
 )
 )
+{
 break
 ;
+}
 }
 while
 (
@@ -811,6 +819,7 @@ verbosity
 >
 chatty
 )
+{
 PR_fprintf
 (
 logFile
@@ -823,6 +832,7 @@ n
 "
 )
 ;
+}
 for
 (
 mits
@@ -848,6 +858,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 logFile
@@ -866,6 +877,7 @@ buffer
 )
 )
 ;
+}
 do
 {
 if
@@ -918,6 +930,7 @@ verbosity
 >
 chatty
 )
+{
 PR_fprintf
 (
 logFile
@@ -935,17 +948,20 @@ n
 ready
 )
 ;
+}
 if
 (
 0
 <
 ready
 )
+{
 bytes_sent
 +
 =
 ready
 ;
+}
 else
 if
 (
@@ -1047,8 +1063,10 @@ break
 }
 }
 else
+{
 break
 ;
+}
 }
 while
 (
@@ -1144,11 +1162,13 @@ if
 <
 ready
 )
+{
 bytes_read
 +
 =
 ready
 ;
+}
 else
 if
 (
@@ -1250,8 +1270,10 @@ break
 }
 }
 else
+{
 break
 ;
+}
 }
 while
 (
@@ -1266,6 +1288,7 @@ verbosity
 >
 chatty
 )
+{
 PR_fprintf
 (
 logFile
@@ -1281,6 +1304,7 @@ n
 bytes_read
 )
 ;
+}
 PR_ASSERT
 (
 bytes_read
@@ -1296,6 +1320,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 logFile
@@ -1309,6 +1334,7 @@ n
 "
 )
 ;
+}
 rv
 =
 PR_Shutdown
@@ -1391,6 +1417,7 @@ verbosity
 >
 chatty
 )
+{
 PR_fprintf
 (
 logFile
@@ -1403,6 +1430,7 @@ n
 "
 )
 ;
+}
 service
 =
 PR_Accept
@@ -1419,6 +1447,7 @@ verbosity
 >
 chatty
 )
+{
 PR_fprintf
 (
 logFile
@@ -1437,6 +1466,7 @@ n
 service
 )
 ;
+}
 if
 (
 (
@@ -1560,6 +1590,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 logFile
@@ -1572,6 +1603,7 @@ n
 "
 )
 ;
+}
 do
 {
 bytes_read
@@ -1630,6 +1662,7 @@ verbosity
 >
 chatty
 )
+{
 PR_fprintf
 (
 logFile
@@ -1647,17 +1680,20 @@ n
 ready
 )
 ;
+}
 if
 (
 0
 <
 ready
 )
+{
 bytes_read
 +
 =
 ready
 ;
+}
 else
 if
 (
@@ -1759,8 +1795,10 @@ break
 }
 }
 else
+{
 break
 ;
+}
 }
 while
 (
@@ -1786,6 +1824,7 @@ verbosity
 >
 chatty
 )
+{
 PR_fprintf
 (
 logFile
@@ -1801,6 +1840,7 @@ n
 bytes_read
 )
 ;
+}
 PR_ASSERT
 (
 bytes_read
@@ -1943,8 +1983,10 @@ break
 }
 }
 else
+{
 break
 ;
+}
 }
 while
 (
@@ -1967,6 +2009,7 @@ verbosity
 >
 chatty
 )
+{
 PR_fprintf
 (
 logFile
@@ -1984,6 +2027,7 @@ bytes_sent
 ;
 }
 }
+}
 while
 (
 0
@@ -1998,6 +2042,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 logFile
@@ -2011,6 +2056,7 @@ n
 "
 )
 ;
+}
 rv
 =
 PR_Shutdown
@@ -2262,6 +2308,7 @@ break
 }
 }
 else
+{
 PR_NOT_REACHED
 (
 "
@@ -2275,6 +2322,7 @@ here
 "
 )
 ;
+}
 new_flags
 =
 (
@@ -2695,9 +2743,11 @@ if
 =
 rv
 )
+{
 goto
 closed
 ;
+}
 if
 (
 (
@@ -2718,8 +2768,10 @@ PR_GetError
 )
 )
 )
+{
 break
 ;
+}
 mine
 -
 >
@@ -2750,6 +2802,7 @@ mine
 rcvreq
 )
 )
+{
 break
 ;
 /
@@ -2757,6 +2810,7 @@ break
 loop
 *
 /
+}
 mine
 -
 >
@@ -2839,8 +2893,10 @@ PR_GetError
 )
 )
 )
+{
 break
 ;
+}
 mine
 -
 >
@@ -2871,6 +2927,7 @@ mine
 rcvreq
 )
 )
+{
 break
 ;
 /
@@ -2878,6 +2935,7 @@ break
 loop
 *
 /
+}
 mine
 -
 >
@@ -2940,9 +2998,11 @@ if
 =
 rv
 )
+{
 goto
 closed
 ;
+}
 if
 (
 (
@@ -2963,8 +3023,10 @@ PR_GetError
 )
 )
 )
+{
 break
 ;
+}
 mine
 -
 >
@@ -2989,6 +3051,7 @@ rcvinprogress
 <
 amount
 )
+{
 break
 ;
 /
@@ -2996,6 +3059,7 @@ break
 loop
 *
 /
+}
 mine
 -
 >
@@ -3206,8 +3270,10 @@ PR_GetError
 )
 )
 )
+{
 break
 ;
+}
 mine
 -
 >
@@ -3231,8 +3297,10 @@ mine
 xmtreq
 )
 )
+{
 break
 ;
+}
 mine
 -
 >
@@ -3315,8 +3383,10 @@ PR_GetError
 )
 )
 )
+{
 break
 ;
+}
 mine
 -
 >
@@ -3340,8 +3410,10 @@ mine
 xmtreq
 )
 )
+{
 break
 ;
+}
 mine
 -
 >
@@ -3417,8 +3489,10 @@ PR_GetError
 )
 )
 )
+{
 break
 ;
+}
 mine
 -
 >
@@ -3436,8 +3510,10 @@ xmtinprogress
 <
 amount
 )
+{
 break
 ;
+}
 mine
 -
 >
@@ -3525,6 +3601,7 @@ PRIntn
 )
 silent
 )
+{
 verbage
 =
 (
@@ -3532,6 +3609,7 @@ PRIntn
 )
 silent
 ;
+}
 else
 if
 (
@@ -3542,6 +3620,7 @@ PRIntn
 )
 noisy
 )
+{
 verbage
 =
 (
@@ -3549,6 +3628,7 @@ PRIntn
 )
 noisy
 ;
+}
 return
 (
 Verbosity
@@ -3654,8 +3734,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -3693,6 +3775,7 @@ verbosity
 <
 noisy
 )
+{
 verbosity
 =
 ChangeVerbosity
@@ -3701,6 +3784,7 @@ verbosity
 1
 )
 ;
+}
 break
 ;
 case
@@ -3720,6 +3804,7 @@ verbosity
 >
 silent
 )
+{
 verbosity
 =
 ChangeVerbosity
@@ -3729,6 +3814,7 @@ verbosity
 1
 )
 ;
+}
 break
 ;
 case
@@ -4113,6 +4199,7 @@ verbosity
 >
 silent
 )
+{
 PR_fprintf
 (
 logFile
@@ -4127,6 +4214,7 @@ n
 "
 )
 ;
+}
 client
 =
 PR_NewTCPSocket
@@ -4386,6 +4474,7 @@ verbosity
 >
 silent
 )
+{
 PR_fprintf
 (
 logFile
@@ -4400,6 +4489,7 @@ n
 "
 )
 ;
+}
 /
 *
 with
@@ -4412,6 +4502,7 @@ verbosity
 >
 silent
 )
+{
 PR_fprintf
 (
 logFile
@@ -4424,6 +4515,7 @@ n
 "
 )
 ;
+}
 client
 =
 PR_NewTCPSocket
@@ -4699,6 +4791,7 @@ verbosity
 >
 silent
 )
+{
 PR_fprintf
 (
 logFile
@@ -4711,6 +4804,7 @@ n
 "
 )
 ;
+}
 }
 return
 0

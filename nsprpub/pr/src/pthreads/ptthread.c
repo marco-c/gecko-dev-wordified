@@ -1193,6 +1193,7 @@ suspend
 &
 PT_THREAD_SETGCABLE
 )
+{
 thred
 -
 >
@@ -1201,6 +1202,7 @@ state
 =
 PT_THREAD_GCABLE
 ;
+}
 thred
 -
 >
@@ -1223,6 +1225,7 @@ pt_book
 .
 last
 )
+{
 pt_book
 .
 last
@@ -1232,13 +1235,16 @@ next
 =
 thred
 ;
+}
 else
+{
 pt_book
 .
 first
 =
 thred
 ;
+}
 thred
 -
 >
@@ -1359,6 +1365,7 @@ thred
 >
 okToDelete
 )
+{
 PR_WaitCondVar
 (
 pt_book
@@ -1367,6 +1374,7 @@ cv
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+}
 }
 if
 (
@@ -1377,6 +1385,7 @@ state
 &
 PT_THREAD_SYSTEM
 )
+{
 pt_book
 .
 system
@@ -1384,6 +1393,7 @@ system
 =
 1
 ;
+}
 else
 if
 (
@@ -1398,6 +1408,7 @@ pt_book
 .
 this_many
 )
+{
 PR_NotifyAllCondVar
 (
 pt_book
@@ -1405,6 +1416,7 @@ pt_book
 cv
 )
 ;
+}
 if
 (
 NULL
@@ -1415,6 +1427,7 @@ thred
 >
 prev
 )
+{
 pt_book
 .
 first
@@ -1424,7 +1437,9 @@ thred
 >
 next
 ;
+}
 else
+{
 thred
 -
 >
@@ -1438,6 +1453,7 @@ thred
 >
 next
 ;
+}
 if
 (
 NULL
@@ -1448,6 +1464,7 @@ thred
 >
 next
 )
+{
 pt_book
 .
 last
@@ -1457,7 +1474,9 @@ thred
 >
 prev
 ;
+}
 else
+{
 thred
 -
 >
@@ -1471,6 +1490,7 @@ thred
 >
 prev
 ;
+}
 PR_Unlock
 (
 pt_book
@@ -1700,9 +1720,11 @@ if
 !
 _pr_initialized
 )
+{
 return
 NULL
 ;
+}
 /
 *
 PR_NEWZAP
@@ -1828,6 +1850,7 @@ pt_book
 .
 last
 )
+{
 pt_book
 .
 last
@@ -1837,13 +1860,16 @@ next
 =
 thred
 ;
+}
 else
+{
 pt_book
 .
 first
 =
 thred
 ;
+}
 thred
 -
 >
@@ -1928,10 +1954,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 if
 (
 (
@@ -1944,10 +1972,12 @@ PRIntn
 )
 priority
 )
+{
 priority
 =
 PR_PRIORITY_FIRST
 ;
+}
 else
 if
 (
@@ -1961,10 +1991,12 @@ PRIntn
 )
 priority
 )
+{
 priority
 =
 PR_PRIORITY_LAST
 ;
+}
 rv
 =
 _PT_PTHREAD_ATTR_INIT
@@ -2180,10 +2212,12 @@ stackSize
 <
 _MD_MINIMUM_STACK_SIZE
 )
+{
 stackSize
 =
 _MD_MINIMUM_STACK_SIZE
 ;
+}
 #
 endif
 rv
@@ -2262,6 +2296,7 @@ PR_UNJOINABLE_THREAD
 =
 state
 )
+{
 thred
 -
 >
@@ -2270,6 +2305,7 @@ state
 =
 PT_THREAD_DETACHED
 ;
+}
 if
 (
 PR_LOCAL_THREAD
@@ -2277,10 +2313,12 @@ PR_LOCAL_THREAD
 =
 scope
 )
+{
 scope
 =
 PR_GLOBAL_THREAD
 ;
+}
 if
 (
 PR_GLOBAL_BOUND_THREAD
@@ -2356,6 +2394,7 @@ PR_GLOBAL_THREAD
 =
 scope
 )
+{
 thred
 -
 >
@@ -2364,6 +2403,7 @@ state
 =
 PT_THREAD_GLOBAL
 ;
+}
 else
 if
 (
@@ -2372,6 +2412,7 @@ PR_GLOBAL_BOUND_THREAD
 =
 scope
 )
+{
 thred
 -
 >
@@ -2384,7 +2425,9 @@ PT_THREAD_GLOBAL
 PT_THREAD_BOUND
 )
 ;
+}
 else
+{
 /
 *
 force
@@ -2400,6 +2443,7 @@ state
 =
 PT_THREAD_GLOBAL
 ;
+}
 if
 (
 PR_SYSTEM_THREAD
@@ -2407,6 +2451,7 @@ PR_SYSTEM_THREAD
 =
 type
 )
+{
 thred
 -
 >
@@ -2415,6 +2460,7 @@ state
 =
 PT_THREAD_SYSTEM
 ;
+}
 thred
 -
 >
@@ -2566,6 +2612,7 @@ PR_SYSTEM_THREAD
 =
 type
 )
+{
 pt_book
 .
 system
@@ -2573,7 +2620,9 @@ system
 =
 1
 ;
+}
 else
+{
 pt_book
 .
 user
@@ -2581,6 +2630,7 @@ user
 =
 1
 ;
+}
 PR_Unlock
 (
 pt_book
@@ -2763,6 +2813,7 @@ state
 &
 PT_THREAD_SYSTEM
 )
+{
 pt_book
 .
 system
@@ -2770,6 +2821,7 @@ system
 =
 1
 ;
+}
 else
 if
 (
@@ -2784,6 +2836,7 @@ pt_book
 .
 this_many
 )
+{
 PR_NotifyAllCondVar
 (
 pt_book
@@ -2791,6 +2844,7 @@ pt_book
 cv
 )
 ;
+}
 PR_Unlock
 (
 pt_book
@@ -3563,8 +3617,10 @@ NULL
 =
 thred
 )
+{
 return
 ;
+}
 _pt_thread_death
 (
 thred
@@ -3613,10 +3669,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 _PT_PTHREAD_GETSPECIFIC
 (
 pt_book
@@ -3632,12 +3690,14 @@ NULL
 =
 thred
 )
+{
 thred
 =
 pt_AttachThread
 (
 )
 ;
+}
 PR_ASSERT
 (
 NULL
@@ -3820,10 +3880,12 @@ PRIntn
 )
 newPri
 )
+{
 newPri
 =
 PR_PRIORITY_FIRST
 ;
+}
 else
 if
 (
@@ -3837,10 +3899,12 @@ PRIntn
 )
 newPri
 )
+{
 newPri
 =
 PR_PRIORITY_LAST
 ;
+}
 #
 if
 _POSIX_THREAD_PRIORITY_SCHEDULING
@@ -3942,11 +4006,13 @@ rv
 =
 0
 )
+{
 rv
 =
 -
 1
 ;
+}
 }
 #
 elif
@@ -3971,6 +4037,7 @@ tid
 =
 0
 )
+{
 PR_WaitCondVar
 (
 pt_book
@@ -3979,6 +4046,7 @@ cv
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+}
 PR_Unlock
 (
 pt_book
@@ -4340,9 +4408,11 @@ NULL
 =
 thred
 )
+{
 return
 PR_FAILURE
 ;
+}
 thred
 -
 >
@@ -4422,11 +4492,13 @@ cv
 notify_pending
 )
 )
+{
 PR_DestroyCondVar
 (
 cv
 )
 ;
+}
 }
 return
 PR_SUCCESS
@@ -4588,10 +4660,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 if
 (
 PR_INTERVAL_NO_WAIT
@@ -4662,8 +4736,10 @@ delta
 >
 ticks
 )
+{
 break
 ;
+}
 rv
 =
 PR_WaitCondVar
@@ -4865,6 +4941,7 @@ thred
 >
 prev
 )
+{
 pt_book
 .
 first
@@ -4874,7 +4951,9 @@ thred
 >
 next
 ;
+}
 else
+{
 thred
 -
 >
@@ -4888,6 +4967,7 @@ thred
 >
 next
 ;
+}
 if
 (
 NULL
@@ -4898,6 +4978,7 @@ thred
 >
 next
 )
+{
 pt_book
 .
 last
@@ -4907,7 +4988,9 @@ thred
 >
 prev
 ;
+}
 else
+{
 thred
 -
 >
@@ -4921,6 +5004,7 @@ thred
 >
 prev
 ;
+}
 PR_Unlock
 (
 pt_book
@@ -4933,11 +5017,13 @@ if
 (
 callDestructors
 )
+{
 _PR_DestroyThreadPrivate
 (
 thred
 )
 ;
+}
 PR_Free
 (
 thred
@@ -4956,6 +5042,7 @@ thred
 >
 errorString
 )
+{
 PR_Free
 (
 thred
@@ -4964,6 +5051,7 @@ thred
 errorString
 )
 ;
+}
 if
 (
 NULL
@@ -4974,6 +5062,7 @@ thred
 >
 name
 )
+{
 PR_Free
 (
 thred
@@ -4982,6 +5071,7 @@ thred
 name
 )
 ;
+}
 PR_Free
 (
 thred
@@ -5000,6 +5090,7 @@ thred
 >
 syspoll_list
 )
+{
 PR_Free
 (
 thred
@@ -5008,6 +5099,7 @@ thred
 syspoll_list
 )
 ;
+}
 #
 if
 defined
@@ -5024,6 +5116,7 @@ thred
 >
 selectfd_list
 )
+{
 PR_Free
 (
 thred
@@ -5032,6 +5125,7 @@ thred
 selectfd_list
 )
 ;
+}
 #
 endif
 #
@@ -5700,6 +5794,7 @@ if
 =
 rv
 )
+{
 PR_Assert
 (
 "
@@ -5712,6 +5807,7 @@ __FILE__
 __LINE__
 )
 ;
+}
 pt_book
 .
 keyCreated
@@ -6413,6 +6509,7 @@ pt_book
 .
 this_many
 )
+{
 PR_WaitCondVar
 (
 pt_book
@@ -6421,6 +6518,7 @@ cv
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+}
 if
 (
 me
@@ -6430,6 +6528,7 @@ state
 &
 PT_THREAD_SYSTEM
 )
+{
 pt_book
 .
 system
@@ -6437,7 +6536,9 @@ system
 =
 1
 ;
+}
 else
+{
 pt_book
 .
 user
@@ -6445,6 +6546,7 @@ user
 =
 1
 ;
+}
 PR_Unlock
 (
 pt_book
@@ -7542,9 +7644,11 @@ rv
 =
 PR_SUCCESS
 )
+{
 return
 rv
 ;
+}
 }
 thred
 =
@@ -9032,11 +9136,13 @@ _PT_IS_GCABLE_THREAD
 thred
 )
 )
+{
 pt_SuspendSet
 (
 thred
 )
 ;
+}
 thred
 =
 thred
@@ -9084,11 +9190,13 @@ _PT_IS_GCABLE_THREAD
 thred
 )
 )
+{
 pt_SuspendTest
 (
 thred
 )
 ;
+}
 thred
 =
 thred
@@ -9243,11 +9351,13 @@ _PT_IS_GCABLE_THREAD
 thred
 )
 )
+{
 pt_ResumeSet
 (
 thred
 )
 ;
+}
 thred
 =
 thred
@@ -9285,11 +9395,13 @@ _PT_IS_GCABLE_THREAD
 thred
 )
 )
+{
 pt_ResumeTest
 (
 thred
 )
 ;
+}
 thred
 =
 thred
@@ -9477,9 +9589,11 @@ if
 !
 thread
 )
+{
 return
 PR_FAILURE
 ;
+}
 PR_Free
 (
 thread
@@ -9519,9 +9633,11 @@ thread
 >
 name
 )
+{
 return
 PR_FAILURE
 ;
+}
 memcpy
 (
 thread
@@ -9705,9 +9821,11 @@ if
 !
 dynamic_pthread_setname_np
 )
+{
 return
 PR_SUCCESS
 ;
+}
 /
 *
 *
@@ -9922,9 +10040,11 @@ if
 !
 thread
 )
+{
 return
 NULL
 ;
+}
 return
 thread
 -

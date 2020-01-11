@@ -196,6 +196,7 @@ PR_GetCurrentThread
 mask
 )
 )
+{
 printf
 (
 "
@@ -209,7 +210,9 @@ n
 "
 )
 ;
+}
 else
+{
 printf
 (
 "
@@ -227,6 +230,7 @@ n
 mask
 )
 ;
+}
 }
 int
 main

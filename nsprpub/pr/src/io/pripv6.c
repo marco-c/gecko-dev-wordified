@@ -923,11 +923,13 @@ if
 (
 addr
 )
+{
 addrlower
 =
 &
 tmp_ipv4addr
 ;
+}
 newfd
 =
 (
@@ -972,6 +974,7 @@ if
 (
 addr
 )
+{
 _PR_ConvertToIpv6NetAddr
 (
 &
@@ -979,6 +982,7 @@ tmp_ipv4addr
 addr
 )
 ;
+}
 rv
 =
 PR_PushIOLayer
@@ -1525,9 +1529,11 @@ _pr_find_getipnodebyname
 =
 PR_SUCCESS
 )
+{
 return
 PR_FALSE
 ;
+}
 #
 endif
 #
@@ -1552,9 +1558,11 @@ _pr_find_getaddrinfo
 =
 PR_SUCCESS
 )
+{
 return
 PR_FALSE
 ;
+}
 #
 endif
 return
@@ -1603,9 +1611,11 @@ if
 (
 ipv6_is_present
 )
+{
 return
 PR_SUCCESS
 ;
+}
 #
 endif
 _pr_ipv6_to_ipv4_id
@@ -1814,9 +1824,11 @@ _pr_init_ipv6
 =
 PR_SUCCESS
 )
+{
 return
 PR_FALSE
 ;
+}
 return
 ipv6_is_present
 ;
@@ -1852,9 +1864,11 @@ _pr_init_ipv6
 =
 PR_SUCCESS
 )
+{
 return
 PR_FAILURE
 ;
+}
 /
 *
 *
@@ -1954,6 +1968,7 @@ if
 (
 ipv6_fd
 )
+{
 ipv6_fd
 -
 >
@@ -1962,6 +1977,7 @@ dtor
 ipv6_fd
 )
 ;
+}
 return
 PR_FAILURE
 ;

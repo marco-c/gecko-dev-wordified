@@ -630,6 +630,7 @@ fd_type
 =
 READ_FD
 )
+{
 rv
 =
 bsdselect
@@ -645,7 +646,9 @@ NULL
 tv
 )
 ;
+}
 else
+{
 rv
 =
 bsdselect
@@ -661,6 +664,7 @@ NULL
 tv
 )
 ;
+}
 #
 else
 lTimeout
@@ -685,6 +689,7 @@ fd_type
 =
 READ_FD
 )
+{
 rv
 =
 os2_select
@@ -696,7 +701,9 @@ socks
 lTimeout
 )
 ;
+}
 else
+{
 rv
 =
 os2_select
@@ -708,6 +715,7 @@ socks
 lTimeout
 )
 ;
+}
 #
 endif
 if
@@ -932,6 +940,7 @@ fd_type
 =
 READ_FD
 )
+{
 rv
 =
 bsdselect
@@ -947,7 +956,9 @@ NULL
 tv
 )
 ;
+}
 else
+{
 rv
 =
 bsdselect
@@ -963,6 +974,7 @@ NULL
 tv
 )
 ;
+}
 #
 else
 wait_for_remaining
@@ -1010,6 +1022,7 @@ fd_type
 =
 READ_FD
 )
+{
 rv
 =
 os2_select
@@ -1021,7 +1034,9 @@ socks
 lTimeout
 )
 ;
+}
 else
+{
 rv
 =
 os2_select
@@ -1033,6 +1048,7 @@ socks
 lTimeout
 )
 ;
+}
 #
 endif
 /
@@ -1451,9 +1467,11 @@ timeout
 <
 0
 )
+{
 goto
 done
 ;
+}
 }
 else
 if
@@ -2120,9 +2138,11 @@ timeout
 <
 0
 )
+{
 goto
 done
 ;
+}
 }
 else
 if
@@ -2281,9 +2301,11 @@ timeout
 <
 0
 )
+{
 goto
 done
 ;
+}
 }
 else
 if
@@ -2553,9 +2575,11 @@ timeout
 <
 0
 )
+{
 goto
 done
 ;
+}
 }
 else
 if
@@ -2741,9 +2765,11 @@ timeout
 <
 0
 )
+{
 goto
 done
 ;
+}
 }
 else
 if
@@ -3101,9 +3127,11 @@ timeout
 <
 0
 )
+{
 goto
 done
 ;
+}
 }
 else
 if
@@ -3288,6 +3316,7 @@ rv
 <
 0
 )
+{
 _PR_MD_MAP_SHUTDOWN_ERROR
 (
 sock_errno
@@ -3295,6 +3324,7 @@ sock_errno
 )
 )
 ;
+}
 return
 rv
 ;

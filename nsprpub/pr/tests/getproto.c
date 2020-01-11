@@ -417,6 +417,7 @@ p_num
 ;
 }
 else
+{
 PR_fprintf
 (
 prstderr
@@ -435,6 +436,7 @@ proto
 p_num
 )
 ;
+}
 rv
 =
 PR_GetProtoByName
@@ -509,6 +511,7 @@ p_num
 ;
 }
 else
+{
 PR_fprintf
 (
 prstderr
@@ -527,6 +530,7 @@ proto
 p_num
 )
 ;
+}
 rv
 =
 PR_GetProtoByNumber
@@ -606,6 +610,7 @@ p_name
 ;
 }
 else
+{
 PR_fprintf
 (
 prstderr
@@ -624,6 +629,7 @@ proto
 p_name
 )
 ;
+}
 rv
 =
 PR_GetProtoByNumber
@@ -703,6 +709,7 @@ p_name
 ;
 }
 else
+{
 PR_fprintf
 (
 prstderr
@@ -721,6 +728,7 @@ proto
 p_name
 )
 ;
+}
 PR_fprintf
 (
 prstderr

@@ -176,11 +176,13 @@ NULL
 =
 lock
 )
+{
 PR_DestroyLock
 (
 lock
 )
 ;
+}
 lock
 =
 NULL

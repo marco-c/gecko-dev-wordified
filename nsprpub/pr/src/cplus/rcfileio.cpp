@@ -161,6 +161,7 @@ NULL
 =
 fd
 )
+{
 (
 void
 )
@@ -168,6 +169,7 @@ Close
 (
 )
 ;
+}
 }
 PRInt64
 RCFileIO
@@ -655,6 +657,7 @@ NULL
 =
 spec
 )
+{
 spec
 -
 >
@@ -662,6 +665,7 @@ fd
 =
 fd
 ;
+}
 }
 return
 spec
@@ -1164,15 +1168,15 @@ her
 .
 info
 ;
+/
+*
+RCFileInfo
+:
+:
+RCFileInfo
+*
+/
 }
-/
-*
-RCFileInfo
-:
-:
-RCFileInfo
-*
-/
 RCTime
 RCFileInfo
 :

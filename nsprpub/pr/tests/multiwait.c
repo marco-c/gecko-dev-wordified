@@ -348,12 +348,14 @@ NULL
 =
 debug
 )
+{
 PL_FPrintError
 (
 debug
 NULL
 )
 ;
+}
 PR_Assert
 (
 s
@@ -557,6 +559,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 debug
@@ -575,6 +578,7 @@ shared
 title
 )
 ;
+}
 rv
 =
 PR_DestroyWaitGroup
@@ -696,6 +700,7 @@ verbosity
 >
 chatty
 )
+{
 PrintRecvDesc
 (
 desc_out
@@ -704,6 +709,7 @@ Allocated
 "
 )
 ;
+}
 return
 desc_out
 ;
@@ -728,6 +734,7 @@ verbosity
 >
 chatty
 )
+{
 PrintRecvDesc
 (
 desc_out
@@ -736,6 +743,7 @@ Destroying
 "
 )
 ;
+}
 PR_Close
 (
 desc_out
@@ -756,6 +764,7 @@ buffer
 .
 start
 )
+{
 PR_DELETE
 (
 desc_out
@@ -766,6 +775,7 @@ buffer
 start
 )
 ;
+}
 PR_Free
 (
 desc_out
@@ -805,6 +815,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 debug
@@ -823,6 +834,7 @@ shared
 title
 )
 ;
+}
 do
 {
 desc_out
@@ -842,11 +854,13 @@ NULL
 =
 desc_out
 )
+{
 DestroyRecvWait
 (
 desc_out
 )
 ;
+}
 }
 while
 (
@@ -948,8 +962,10 @@ PR_GetError
 )
 )
 )
+{
 return
 ;
+}
 MW_ASSERT
 (
 NULL
@@ -964,6 +980,7 @@ verbosity
 >
 chatty
 )
+{
 PR_fprintf
 (
 debug
@@ -986,6 +1003,7 @@ title
 server
 )
 ;
+}
 /
 *
 Initialize
@@ -1034,6 +1052,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 debug
@@ -1053,6 +1072,7 @@ shared
 title
 )
 ;
+}
 rv
 =
 PR_Connect
@@ -1077,6 +1097,7 @@ verbosity
 >
 silent
 )
+{
 PL_FPrintError
 (
 debug
@@ -1087,6 +1108,7 @@ failed
 "
 )
 ;
+}
 return
 ;
 }
@@ -1131,8 +1153,10 @@ PR_GetError
 )
 )
 )
+{
 break
 ;
+}
 MW_ASSERT
 (
 sizeof
@@ -1240,8 +1264,10 @@ PR_GetError
 )
 )
 )
+{
 break
 ;
+}
 MW_ASSERT
 (
 sizeof
@@ -1338,6 +1364,7 @@ verbosity
 >
 chatty
 )
+{
 PrintRecvDesc
 (
 desc_in
@@ -1347,6 +1374,7 @@ desc
 "
 )
 ;
+}
 rv
 =
 PR_AddWaitFileDesc
@@ -1372,6 +1400,7 @@ verbosity
 >
 chatty
 )
+{
 PrintRecvDesc
 (
 desc_in
@@ -1380,6 +1409,7 @@ Cancelling
 "
 )
 ;
+}
 rv
 =
 PR_CancelWaitFileDesc
@@ -1444,6 +1474,7 @@ verbosity
 >
 chatty
 )
+{
 PrintRecvDesc
 (
 desc_out
@@ -1452,6 +1483,7 @@ Ready
 "
 )
 ;
+}
 rv
 =
 PR_Close
@@ -1476,6 +1508,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 debug
@@ -1494,6 +1527,7 @@ shared
 title
 )
 ;
+}
 PR_DELETE
 (
 desc_in
@@ -1553,6 +1587,7 @@ verbosity
 >
 chatty
 )
+{
 PrintRecvDesc
 (
 desc_in
@@ -1562,6 +1597,7 @@ desc
 "
 )
 ;
+}
 rv
 =
 PR_AddWaitFileDesc
@@ -1626,6 +1662,7 @@ verbosity
 >
 chatty
 )
+{
 PrintRecvDesc
 (
 desc_out
@@ -1634,6 +1671,7 @@ Ready
 "
 )
 ;
+}
 rv
 =
 PR_Close
@@ -1692,6 +1730,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 debug
@@ -1713,6 +1752,7 @@ title
 wait_objects
 )
 ;
+}
 for
 (
 index
@@ -1805,6 +1845,7 @@ verbosity
 >
 chatty
 )
+{
 PrintRecvDesc
 (
 desc_out
@@ -1815,6 +1856,7 @@ readding
 "
 )
 ;
+}
 rv
 =
 PR_AddWaitFileDesc
@@ -1926,6 +1968,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 debug
@@ -1936,6 +1979,7 @@ n
 "
 )
 ;
+}
 break
 ;
 }
@@ -1966,6 +2010,7 @@ verbosity
 >
 chatty
 )
+{
 PrintRecvDesc
 (
 desc_out
@@ -1974,12 +2019,14 @@ Ready
 "
 )
 ;
+}
 if
 (
 verbosity
 >
 chatty
 )
+{
 PrintRecvDesc
 (
 desc_out
@@ -1990,6 +2037,7 @@ Adding
 "
 )
 ;
+}
 desc_out
 -
 >
@@ -2023,8 +2071,10 @@ ops_done
 >
 ops_required
 )
+{
 break
 ;
+}
 }
 while
 (
@@ -2103,6 +2153,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 debug
@@ -2121,6 +2172,7 @@ shared
 title
 )
 ;
+}
 for
 (
 index
@@ -2169,6 +2221,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 debug
@@ -2187,6 +2240,7 @@ shared
 title
 )
 ;
+}
 for
 (
 index
@@ -2241,6 +2295,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 debug
@@ -2258,12 +2313,14 @@ shared
 title
 )
 ;
+}
 while
 (
 ops_done
 <
 ops_required
 )
+{
 PR_Sleep
 (
 shared
@@ -2272,12 +2329,14 @@ shared
 timeout
 )
 ;
+}
 if
 (
 verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 debug
@@ -2298,6 +2357,7 @@ shared
 title
 )
 ;
+}
 for
 (
 index
@@ -2422,9 +2482,11 @@ desc
 >
 bytesRecv
 )
+{
 goto
 quitting
 ;
+}
 if
 (
 (
@@ -2448,9 +2510,11 @@ PR_GetError
 )
 )
 )
+{
 goto
 aborted
 ;
+}
 bytes_out
 =
 PR_Send
@@ -2524,9 +2588,11 @@ PR_GetError
 )
 )
 )
+{
 goto
 aborted
 ;
+}
 MW_ASSERT
 (
 bytes_out
@@ -2614,6 +2680,7 @@ verbosity
 >
 chatty
 )
+{
 PrintRecvDesc
 (
 desc_out
@@ -2625,6 +2692,7 @@ adding
 "
 )
 ;
+}
 rv
 =
 PR_AddWaitFileDesc
@@ -2700,6 +2768,7 @@ verbosity
 >
 chatty
 )
+{
 PrintRecvDesc
 (
 desc_out
@@ -2709,6 +2778,7 @@ ready
 "
 )
 ;
+}
 rv
 =
 ServiceRequest
@@ -2769,6 +2839,7 @@ verbosity
 >
 silent
 )
+{
 PL_FPrintError
 (
 debug
@@ -2778,6 +2849,7 @@ failure
 "
 )
 ;
+}
 break
 ;
 default
@@ -2801,11 +2873,13 @@ NULL
 =
 desc_out
 )
+{
 DestroyRecvWait
 (
 desc_out
 )
 ;
+}
 }
 /
 *
@@ -2911,6 +2985,7 @@ verbosity
 >
 chatty
 )
+{
 PrintRecvDesc
 (
 desc
@@ -2920,6 +2995,7 @@ shared
 title
 )
 ;
+}
 count
 +
 =
@@ -3053,6 +3129,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 debug
@@ -3072,6 +3149,7 @@ shared
 title
 )
 ;
+}
 for
 (
 index
@@ -3213,6 +3291,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 debug
@@ -3232,6 +3311,7 @@ shared
 title
 )
 ;
+}
 service
 =
 PR_Accept
@@ -3259,8 +3339,10 @@ PR_GetError
 (
 )
 )
+{
 break
 ;
+}
 PL_PrintError
 (
 "
@@ -3307,6 +3389,7 @@ verbosity
 >
 chatty
 )
+{
 PrintRecvDesc
 (
 desc_in
@@ -3316,6 +3399,7 @@ adding
 "
 )
 ;
+}
 rv
 =
 PR_AddWaitFileDesc
@@ -3343,6 +3427,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 debug
@@ -3362,6 +3447,7 @@ shared
 title
 )
 ;
+}
 for
 (
 index
@@ -3546,6 +3632,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 debug
@@ -3564,6 +3651,7 @@ shared
 title
 )
 ;
+}
 server_thread
 =
 PR_CreateThread
@@ -3585,6 +3673,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 debug
@@ -3603,6 +3692,7 @@ shared
 title
 )
 ;
+}
 enumeration_thread
 =
 PR_CreateThread
@@ -3624,6 +3714,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 debug
@@ -3644,6 +3735,7 @@ shared
 title
 )
 ;
+}
 PR_Sleep
 (
 5
@@ -3660,6 +3752,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 debug
@@ -3678,6 +3771,7 @@ shared
 title
 )
 ;
+}
 client_thread
 =
 (
@@ -3736,6 +3830,7 @@ ops_done
 <
 ops_required
 )
+{
 PR_Sleep
 (
 shared
@@ -3744,12 +3839,14 @@ shared
 timeout
 )
 ;
+}
 if
 (
 verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 debug
@@ -3770,6 +3867,7 @@ shared
 title
 )
 ;
+}
 for
 (
 index
@@ -3833,6 +3931,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 debug
@@ -3853,6 +3952,7 @@ shared
 title
 )
 ;
+}
 rv
 =
 PR_Interrupt
@@ -3889,6 +3989,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 debug
@@ -3909,6 +4010,7 @@ shared
 title
 )
 ;
+}
 rv
 =
 PR_Interrupt
@@ -4000,6 +4102,7 @@ verbosity
 >
 silent
 )
+{
 PR_fprintf
 (
 debug
@@ -4014,6 +4117,7 @@ n
 name
 )
 ;
+}
 shared
 =
 MakeShared
@@ -4157,8 +4261,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -4196,6 +4302,7 @@ verbosity
 <
 noisy
 )
+{
 verbosity
 =
 ChangeVerbosity
@@ -4204,6 +4311,7 @@ verbosity
 1
 )
 ;
+}
 break
 ;
 case
@@ -4223,6 +4331,7 @@ verbosity
 >
 silent
 )
+{
 verbosity
 =
 ChangeVerbosity
@@ -4232,6 +4341,7 @@ verbosity
 1
 )
 ;
+}
 break
 ;
 case
@@ -4391,6 +4501,7 @@ verbosity
 >
 0
 )
+{
 debug
 =
 PR_GetSpecialFD
@@ -4398,6 +4509,7 @@ PR_GetSpecialFD
 PR_StandardError
 )
 ;
+}
 RunThisOne
 (
 OneInThenCancelled

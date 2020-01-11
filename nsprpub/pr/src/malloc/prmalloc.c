@@ -2260,9 +2260,11 @@ extend_page_directory
 last_index
 )
 )
+{
 return
 result
 ;
+}
 }
 TRACE
 (
@@ -2531,9 +2533,11 @@ if
 !
 young
 )
+{
 return
 0
 ;
+}
 /
 *
 Copy
@@ -2719,9 +2723,11 @@ extend_page_directory
 index
 )
 )
+{
 return
 0
 ;
+}
 page_dir
 [
 index
@@ -2943,10 +2949,12 @@ i
 =
 1
 )
+{
 malloc_pageshift
 +
 +
 ;
+}
 #
 endif
 /
@@ -3051,6 +3059,7 @@ sizeof
 u_long
 )
 )
+{
 j
 =
 sizeof
@@ -3058,6 +3067,7 @@ sizeof
 u_long
 )
 ;
+}
 if
 (
 sizeof
@@ -3076,8 +3086,10 @@ u_long
 =
 i
 )
+{
 break
 ;
+}
 i
 +
 =
@@ -3128,6 +3140,7 @@ if
 !
 page_dir
 )
+{
 wrterror
 (
 "
@@ -3148,6 +3161,7 @@ n
 "
 )
 ;
+}
 #
 endif
 /
@@ -3245,6 +3259,7 @@ if
 !
 i
 )
+{
 wrterror
 (
 "
@@ -3264,6 +3279,7 @@ n
 "
 )
 ;
+}
 #
 endif
 /
@@ -3391,6 +3407,7 @@ pf
 >
 end
 )
+{
 wrterror
 (
 "
@@ -3403,6 +3420,7 @@ n
 "
 )
 ;
+}
 if
 (
 pf
@@ -3487,6 +3505,7 @@ sbrk
 0
 )
 )
+{
 wrterror
 (
 "
@@ -3500,6 +3519,7 @@ n
 "
 )
 ;
+}
 if
 (
 page_dir
@@ -3604,6 +3624,7 @@ malloc_origo
 =
 MALLOC_FREE
 )
+{
 wrterror
 (
 "
@@ -3621,6 +3642,7 @@ n
 "
 )
 ;
+}
 #
 endif
 /
@@ -3637,8 +3659,10 @@ size
 <
 size
 )
+{
 continue
 ;
+}
 else
 if
 (
@@ -3665,6 +3689,7 @@ pf
 >
 next
 )
+{
 pf
 -
 >
@@ -3678,6 +3703,7 @@ pf
 >
 prev
 ;
+}
 pf
 -
 >
@@ -3797,6 +3823,7 @@ if
 !
 p
 )
+{
 p
 =
 map_pages
@@ -3805,6 +3832,7 @@ size
 1
 )
 ;
+}
 if
 (
 p
@@ -3855,6 +3883,7 @@ i
 +
 +
 )
+{
 page_dir
 [
 index
@@ -3864,6 +3893,7 @@ i
 =
 MALLOC_FOLLOW
 ;
+}
 }
 if
 (
@@ -3875,6 +3905,7 @@ if
 !
 px
 )
+{
 px
 =
 (
@@ -3884,12 +3915,15 @@ pgfree
 )
 delay_free
 ;
+}
 else
+{
 _PR_UnlockedFree
 (
 delay_free
 )
 ;
+}
 }
 return
 p
@@ -3947,9 +3981,11 @@ if
 !
 pp
 )
+{
 return
 0
 ;
+}
 l
 =
 sizeof
@@ -4033,9 +4069,11 @@ if
 !
 bp
 )
+{
 return
 0
 ;
+}
 bp
 -
 >
@@ -4104,9 +4142,11 @@ if
 !
 i
 )
+{
 return
 0
 ;
+}
 /
 *
 We
@@ -4194,12 +4234,14 @@ i
 +
 +
 )
+{
 set_bit
 (
 bp
 i
 )
 ;
+}
 if
 (
 bp
@@ -4207,9 +4249,11 @@ bp
 =
 pp
 )
+{
 return
 1
 ;
+}
 /
 *
 We
@@ -4397,9 +4441,11 @@ malloc_make_chunks
 j
 )
 )
+{
 return
 0
 ;
+}
 /
 *
 Find
@@ -4607,10 +4653,12 @@ if
 !
 initialized
 )
+{
 malloc_init
 (
 )
 ;
+}
 #
 ifdef
 SANITY
@@ -4618,10 +4666,12 @@ if
 (
 suicide
 )
+{
 PR_Abort
 (
 )
 ;
+}
 #
 endif
 if
@@ -4631,6 +4681,7 @@ size
 =
 malloc_maxsize
 )
+{
 result
 =
 malloc_bytes
@@ -4638,7 +4689,9 @@ malloc_bytes
 size
 )
 ;
+}
 else
+{
 result
 =
 malloc_pages
@@ -4646,6 +4699,7 @@ malloc_pages
 size
 )
 ;
+}
 #
 ifdef
 SANITY
@@ -4657,6 +4711,7 @@ malloc_abort
 !
 result
 )
+{
 wrterror
 (
 "
@@ -4670,6 +4725,7 @@ n
 "
 )
 ;
+}
 #
 endif
 TRACE
@@ -4742,11 +4798,14 @@ alignment
 malloc_maxsize
 )
 )
+{
 size
 =
 alignment
 ;
+}
 else
+{
 size
 +
 =
@@ -4754,6 +4813,7 @@ alignment
 -
 1
 ;
+}
 /
 *
 Round
@@ -4791,10 +4851,12 @@ if
 !
 initialized
 )
+{
 malloc_init
 (
 )
 ;
+}
 #
 ifdef
 SANITY
@@ -4802,10 +4864,12 @@ if
 (
 suicide
 )
+{
 abort
 (
 )
 ;
+}
 #
 endif
 if
@@ -4815,6 +4879,7 @@ size
 =
 malloc_maxsize
 )
+{
 result
 =
 malloc_bytes
@@ -4822,7 +4887,9 @@ malloc_bytes
 size
 )
 ;
+}
 else
+{
 result
 =
 malloc_pages
@@ -4830,6 +4897,7 @@ malloc_pages
 size
 )
 ;
+}
 #
 ifdef
 SANITY
@@ -4841,6 +4909,7 @@ malloc_abort
 !
 result
 )
+{
 wrterror
 (
 "
@@ -4854,6 +4923,7 @@ n
 "
 )
 ;
+}
 #
 endif
 TRACE
@@ -4891,6 +4961,7 @@ alignment
 1
 )
 )
+{
 return
 (
 (
@@ -4916,10 +4987,13 @@ alignment
 )
 )
 ;
+}
 else
+{
 return
 result
 ;
+}
 }
 void
 *
@@ -5056,10 +5130,12 @@ if
 !
 initialized
 )
+{
 malloc_init
 (
 )
 ;
+}
 #
 ifdef
 SANITY
@@ -5067,10 +5143,12 @@ if
 (
 suicide
 )
+{
 PR_Abort
 (
 )
 ;
+}
 #
 endif
 /
@@ -5207,10 +5285,12 @@ tmp_index
 =
 MALLOC_FOLLOW
 )
+{
 tmp_index
 -
 -
 ;
+}
 if
 (
 tmp_index
@@ -5533,6 +5613,7 @@ osize
 <
 size
 )
+{
 memcpy
 (
 p
@@ -5540,7 +5621,9 @@ ptr
 osize
 )
 ;
+}
 else
+{
 memcpy
 (
 p
@@ -5548,6 +5631,7 @@ ptr
 size
 )
 ;
+}
 _PR_UnlockedFree
 (
 ptr
@@ -5562,6 +5646,7 @@ if
 (
 malloc_abort
 )
+{
 wrterror
 (
 "
@@ -5575,6 +5660,7 @@ n
 "
 )
 ;
+}
 #
 endif
 return
@@ -5711,6 +5797,7 @@ info
 =
 MALLOC_FIRST
 )
+{
 wrterror
 (
 "
@@ -5723,6 +5810,7 @@ n
 "
 )
 ;
+}
 /
 *
 Is
@@ -5745,6 +5833,7 @@ ptr
 &
 malloc_pagemask
 )
+{
 wrterror
 (
 "
@@ -5759,6 +5848,7 @@ n
 "
 )
 ;
+}
 #
 endif
 /
@@ -5799,6 +5889,7 @@ i
 +
 +
 )
+{
 page_dir
 [
 index
@@ -5808,6 +5899,7 @@ i
 =
 MALLOC_FREE
 ;
+}
 l
 =
 i
@@ -5835,6 +5927,7 @@ if
 !
 px
 )
+{
 px
 =
 (
@@ -5849,6 +5942,7 @@ sizeof
 pt
 )
 ;
+}
 /
 *
 XXX
@@ -6069,6 +6163,7 @@ pf
 >
 next
 )
+{
 pf
 -
 >
@@ -6079,6 +6174,7 @@ prev
 =
 pf
 ;
+}
 _PR_UnlockedFree
 (
 pt
@@ -6383,6 +6479,7 @@ i
 last_index
 ;
 )
+{
 page_dir
 [
 i
@@ -6392,6 +6489,7 @@ i
 =
 MALLOC_NOT_MINE
 ;
+}
 last_index
 =
 index
@@ -6485,6 +6583,7 @@ size
 1
 )
 )
+{
 wrterror
 (
 "
@@ -6498,6 +6597,7 @@ n
 "
 )
 ;
+}
 #
 endif
 /
@@ -6661,6 +6761,7 @@ info
 >
 page
 )
+{
 mp
 =
 &
@@ -6672,6 +6773,7 @@ mp
 >
 next
 ;
+}
 info
 -
 >
@@ -6718,8 +6820,10 @@ info
 >
 total
 )
+{
 return
 ;
+}
 /
 *
 We
@@ -6768,8 +6872,10 @@ info
 >
 next
 )
+{
 return
 ;
+}
 /
 *
 Find
@@ -6980,8 +7086,10 @@ if
 !
 ptr
 )
+{
 return
 ;
+}
 #
 ifdef
 SANITY
@@ -7034,10 +7142,12 @@ if
 (
 suicide
 )
+{
 PR_Abort
 (
 )
 ;
+}
 #
 endif
 /
@@ -7096,10 +7206,12 @@ tmp_index
 =
 MALLOC_FOLLOW
 )
+{
 tmp_index
 -
 -
 ;
+}
 if
 (
 tmp_index
@@ -7250,6 +7362,7 @@ info
 <
 MALLOC_MAGIC
 )
+{
 free_pages
 (
 (
@@ -7262,7 +7375,9 @@ index
 info
 )
 ;
+}
 else
+{
 free_bytes
 (
 ptr
@@ -7271,6 +7386,7 @@ index
 info
 )
 ;
+}
 return
 ;
 }

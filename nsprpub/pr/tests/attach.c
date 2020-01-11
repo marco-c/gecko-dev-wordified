@@ -917,6 +917,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -937,6 +938,7 @@ d
 count
 )
 ;
+}
 }
 #
 ifdef
@@ -1150,8 +1152,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -1246,10 +1250,12 @@ if
 =
 count
 )
+{
 count
 =
 DEFAULT_COUNT
 ;
+}
 /
 *
 *
@@ -1325,6 +1331,7 @@ if
 (
 debug_mode
 )
+{
 PR_ASSERT
 (
 0
@@ -1333,6 +1340,7 @@ PR_ASSERT
 rv
 )
 ;
+}
 else
 if
 (
@@ -1363,6 +1371,7 @@ if
 (
 debug_mode
 )
+{
 PR_ASSERT
 (
 0
@@ -1371,6 +1380,7 @@ PR_ASSERT
 rv
 )
 ;
+}
 else
 if
 (
@@ -1439,6 +1449,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1450,6 +1461,7 @@ n
 "
 )
 ;
+}
 }
 rv
 =
@@ -1463,6 +1475,7 @@ if
 (
 debug_mode
 )
+{
 PR_ASSERT
 (
 0
@@ -1471,6 +1484,7 @@ PR_ASSERT
 rv
 )
 ;
+}
 else
 if
 (
@@ -1500,6 +1514,7 @@ if
 (
 debug_mode
 )
+{
 PR_ASSERT
 (
 0
@@ -1508,6 +1523,7 @@ PR_ASSERT
 rv
 )
 ;
+}
 else
 if
 (
@@ -1567,6 +1583,7 @@ exit_now
 ;
 }
 else
+{
 fprintf
 (
 stderr
@@ -1586,6 +1603,7 @@ rv
 )
 ;
 }
+}
 rv
 =
 thr_join
@@ -1599,6 +1617,7 @@ if
 (
 debug_mode
 )
+{
 PR_ASSERT
 (
 0
@@ -1607,6 +1626,7 @@ PR_ASSERT
 rv
 )
 ;
+}
 else
 if
 (
@@ -1694,6 +1714,7 @@ if
 (
 debug_mode
 )
+{
 PR_ASSERT
 (
 rv
@@ -1702,6 +1723,7 @@ rv
 WAIT_FAILED
 )
 ;
+}
 else
 if
 (
@@ -1817,15 +1839,19 @@ goto
 exit_now
 ;
 }
+#
+else
 if
 (
 !
 debug_mode
 )
+{
 failed_already
 =
 1
 ;
+}
 else
 printf
 (
@@ -1875,17 +1901,23 @@ n
 goto
 exit_now
 ;
+#
+endif
 exit_now
 :
 if
 (
 failed_already
 )
+{
 return
 1
 ;
+}
 else
+{
 return
 0
 ;
+}
 }

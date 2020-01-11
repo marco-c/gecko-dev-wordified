@@ -386,6 +386,7 @@ test
 ;
 }
 else
+{
 test
 =
 atoi
@@ -396,6 +397,7 @@ argv
 ]
 )
 ;
+}
 switch
 (
 test

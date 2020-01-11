@@ -151,6 +151,7 @@ char
 little
 )
 )
+{
 return
 (
 char
@@ -158,6 +159,7 @@ char
 )
 0
 ;
+}
 if
 (
 (
@@ -183,6 +185,7 @@ char
 little
 )
 )
+{
 return
 (
 char
@@ -190,6 +193,7 @@ char
 )
 0
 ;
+}
 return
 strstr
 (
@@ -253,6 +257,7 @@ char
 little
 )
 )
+{
 return
 (
 char
@@ -260,6 +265,7 @@ char
 )
 0
 ;
+}
 if
 (
 (
@@ -285,6 +291,7 @@ char
 little
 )
 )
+{
 return
 (
 char
@@ -292,6 +299,7 @@ char
 )
 0
 ;
+}
 ll
 =
 strlen
@@ -312,6 +320,7 @@ bl
 <
 ll
 )
+{
 return
 (
 char
@@ -319,6 +328,7 @@ char
 )
 0
 ;
+}
 p
 =
 &
@@ -362,6 +372,7 @@ little
 ll
 )
 )
+{
 return
 (
 char
@@ -369,6 +380,7 @@ char
 )
 p
 ;
+}
 return
 (
 char
@@ -426,6 +438,7 @@ char
 little
 )
 )
+{
 return
 (
 char
@@ -433,6 +446,7 @@ char
 )
 0
 ;
+}
 if
 (
 (
@@ -458,6 +472,7 @@ char
 little
 )
 )
+{
 return
 (
 char
@@ -465,6 +480,7 @@ char
 )
 0
 ;
+}
 ll
 =
 strlen
@@ -481,6 +497,7 @@ size_t
 )
 max
 )
+{
 return
 (
 char
@@ -488,6 +505,7 @@ char
 )
 0
 ;
+}
 max
 -
 =
@@ -537,6 +555,7 @@ little
 ll
 )
 )
+{
 return
 (
 char
@@ -544,6 +563,7 @@ char
 )
 big
 ;
+}
 return
 (
 char
@@ -606,6 +626,7 @@ char
 little
 )
 )
+{
 return
 (
 char
@@ -613,6 +634,7 @@ char
 )
 0
 ;
+}
 if
 (
 (
@@ -638,6 +660,7 @@ char
 little
 )
 )
+{
 return
 (
 char
@@ -645,6 +668,7 @@ char
 )
 0
 ;
+}
 ll
 =
 strlen
@@ -683,6 +707,7 @@ p
 <
 big
 )
+{
 return
 (
 char
@@ -690,6 +715,7 @@ char
 )
 0
 ;
+}
 for
 (
 ;
@@ -723,6 +749,7 @@ little
 ll
 )
 )
+{
 return
 (
 char
@@ -730,6 +757,7 @@ char
 )
 p
 ;
+}
 return
 (
 char

@@ -836,6 +836,7 @@ shared
 >
 intermittant
 )
+{
 PR_Sleep
 (
 Timeout
@@ -844,6 +845,7 @@ shared
 )
 )
 ;
+}
 }
 /
 *
@@ -972,6 +974,7 @@ NULL
 ;
 }
 else
+{
 argv
 [
 1
@@ -979,6 +982,7 @@ argv
 =
 NULL
 ;
+}
 if
 (
 shared
@@ -988,6 +992,7 @@ debug
 >
 1
 )
+{
 PR_fprintf
 (
 debug_out
@@ -1004,6 +1009,7 @@ s
 path
 )
 ;
+}
 fflush
 (
 stdout
@@ -1036,6 +1042,7 @@ debug
 >
 1
 )
+{
 PR_fprintf
 (
 debug_out
@@ -1046,6 +1053,7 @@ seconds
 "
 )
 ;
+}
 if
 (
 shared
@@ -1055,6 +1063,7 @@ debug
 >
 1
 )
+{
 PR_fprintf
 (
 debug_out
@@ -1070,6 +1079,7 @@ process
 "
 )
 ;
+}
 fflush
 (
 stdout
@@ -1103,6 +1113,7 @@ debug
 >
 0
 )
+{
 PL_FPrintError
 (
 debug_out
@@ -1112,6 +1123,7 @@ failed
 "
 )
 ;
+}
 }
 return
 rv
@@ -1223,6 +1235,7 @@ message_length
 +
 bytes
 )
+{
 buffer
 [
 bytes
@@ -1233,6 +1246,7 @@ char
 )
 bytes
 ;
+}
 descriptor
 .
 checksum
@@ -1286,6 +1300,7 @@ if
 =
 overflow
 )
+{
 descriptor
 .
 checksum
@@ -1293,6 +1308,7 @@ checksum
 =
 1
 ;
+}
 descriptor
 .
 checksum
@@ -1342,6 +1358,7 @@ debug
 >
 1
 )
+{
 PR_fprintf
 (
 debug_out
@@ -1358,6 +1375,7 @@ socket
 loop
 )
 ;
+}
 clientSock
 =
 PR_NewTCPSocket
@@ -1603,6 +1621,7 @@ debug
 >
 0
 )
+{
 PL_FPrintError
 (
 debug_out
@@ -1612,6 +1631,7 @@ failed
 "
 )
 ;
+}
 }
 if
 (
@@ -1664,6 +1684,7 @@ debug
 >
 0
 )
+{
 PL_FPrintError
 (
 debug_out
@@ -1675,6 +1696,7 @@ failed
 ;
 }
 }
+}
 if
 (
 shared
@@ -1684,6 +1706,7 @@ debug
 >
 1
 )
+{
 PR_fprintf
 (
 debug_out
@@ -1695,6 +1718,7 @@ closing
 "
 )
 ;
+}
 rv
 =
 PR_Shutdown
@@ -1727,6 +1751,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 PR_fprintf
 (
 debug_out
@@ -1736,7 +1761,9 @@ n
 "
 )
 ;
+}
 else
+{
 PL_FPrintError
 (
 debug_out
@@ -1746,6 +1773,7 @@ failed
 "
 )
 ;
+}
 }
 }
 else
@@ -1759,6 +1787,7 @@ debug
 >
 1
 )
+{
 PL_FPrintError
 (
 debug_out
@@ -1768,6 +1797,7 @@ failed
 "
 )
 ;
+}
 PR_Close
 (
 clientSock
@@ -1803,8 +1833,10 @@ shared
 =
 PR_FAILURE
 )
+{
 break
 ;
+}
 }
 else
 {
@@ -1817,6 +1849,7 @@ debug
 >
 1
 )
+{
 PR_fprintf
 (
 debug_out
@@ -1827,6 +1860,7 @@ n
 "
 )
 ;
+}
 break
 ;
 }
@@ -1850,6 +1884,7 @@ debug
 >
 0
 )
+{
 PL_FPrintError
 (
 debug_out
@@ -1859,6 +1894,7 @@ socket
 "
 )
 ;
+}
 break
 ;
 }
@@ -2228,8 +2264,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -2253,6 +2291,7 @@ shared
 >
 debug
 )
+{
 shared
 -
 >
@@ -2260,6 +2299,7 @@ debug
 =
 1
 ;
+}
 break
 ;
 case
@@ -2277,6 +2317,7 @@ shared
 >
 debug
 )
+{
 shared
 -
 >
@@ -2284,6 +2325,7 @@ debug
 =
 2
 ;
+}
 break
 ;
 case
@@ -2549,10 +2591,12 @@ if
 =
 timeout
 )
+{
 timeout
 =
 DEFAULT_TIMEOUT
 ;
+}
 if
 (
 0
@@ -2560,10 +2604,12 @@ if
 =
 threads
 )
+{
 threads
 =
 DEFAULT_THREADS
 ;
+}
 if
 (
 0
@@ -2574,6 +2620,7 @@ shared
 >
 messages
 )
+{
 shared
 -
 >
@@ -2581,6 +2628,7 @@ messages
 =
 DEFAULT_MESSAGES
 ;
+}
 if
 (
 0
@@ -2591,6 +2639,7 @@ shared
 >
 message_length
 )
+{
 shared
 -
 >
@@ -2598,6 +2647,7 @@ message_length
 =
 DEFAULT_MESSAGESIZE
 ;
+}
 shared
 -
 >
@@ -2680,6 +2730,7 @@ threads
 +
 index
 )
+{
 rv
 =
 PR_JoinThread
@@ -2690,6 +2741,7 @@ index
 ]
 )
 ;
+}
 PR_DELETE
 (
 thread

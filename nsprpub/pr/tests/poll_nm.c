@@ -981,8 +981,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -1518,6 +1520,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1527,6 +1530,7 @@ s
 buf
 )
 ;
+}
 /
 *
 Set
@@ -2425,6 +2429,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -2446,6 +2451,7 @@ n
 buf
 )
 ;
+}
 }
 }
 else
@@ -2580,6 +2586,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -2590,6 +2597,7 @@ n
 "
 )
 ;
+}
 exit_now
 :
 if
@@ -2622,11 +2630,15 @@ if
 (
 failed_already
 )
+{
 return
 1
 ;
+}
 else
+{
 return
 0
 ;
+}
 }

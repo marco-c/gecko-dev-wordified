@@ -335,10 +335,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 return
 _PR_MD_GET_INTERVAL
 (
@@ -364,10 +366,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 return
 _PR_MD_INTERVAL_PER_SEC
 (

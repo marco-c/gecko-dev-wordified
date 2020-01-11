@@ -351,8 +351,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -719,6 +721,7 @@ message_length
 +
 bytes
 )
+{
 buffer
 [
 bytes
@@ -729,6 +732,7 @@ char
 )
 bytes
 ;
+}
 timeout
 =
 PR_SecondsToInterval
@@ -758,6 +762,7 @@ NULL
 =
 debug
 )
+{
 PR_fprintf
 (
 debug
@@ -774,6 +779,7 @@ socket
 loop
 )
 ;
+}
 clientSock
 =
 PR_NewTCPSocket
@@ -798,6 +804,7 @@ NULL
 =
 debug
 )
+{
 PR_fprintf
 (
 debug
@@ -809,6 +816,7 @@ connecting
 "
 )
 ;
+}
 rv
 =
 PR_Connect
@@ -860,10 +868,12 @@ descriptor
 .
 length
 )
+{
 number_fragments
 =
 1
 ;
+}
 else
 for
 (
@@ -911,6 +921,7 @@ if
 =
 overflow
 )
+{
 descriptor
 .
 checksum
@@ -918,6 +929,7 @@ checksum
 =
 1
 ;
+}
 descriptor
 .
 checksum
@@ -1004,6 +1016,7 @@ NULL
 =
 debug
 )
+{
 PR_fprintf
 (
 debug
@@ -1015,6 +1028,7 @@ closing
 "
 )
 ;
+}
 rv
 =
 PR_Shutdown
@@ -1078,10 +1092,12 @@ elapsed
 <
 tmo_min
 )
+{
 tmo_min
 =
 elapsed
 ;
+}
 else
 if
 (
@@ -1089,10 +1105,12 @@ elapsed
 >
 tmo_max
 )
+{
 tmo_max
 =
 elapsed
 ;
+}
 tmo_elapsed
 +
 =

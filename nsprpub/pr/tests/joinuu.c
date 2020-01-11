@@ -697,6 +697,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -711,11 +712,14 @@ n
 "
 )
 ;
+}
 else
+{
 failed_already
 =
 1
 ;
+}
 return
 ;
 }
@@ -742,6 +746,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -756,11 +761,14 @@ n
 "
 )
 ;
+}
 else
+{
 failed_already
 =
 1
 ;
+}
 return
 ;
 }
@@ -789,6 +797,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -803,11 +812,14 @@ n
 "
 )
 ;
+}
 else
+{
 failed_already
 =
 1
 ;
+}
 return
 ;
 }
@@ -817,6 +829,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -830,6 +843,7 @@ n
 "
 )
 ;
+}
 }
 if
 (
@@ -846,6 +860,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -860,11 +875,14 @@ n
 "
 )
 ;
+}
 else
+{
 failed_already
 =
 1
 ;
+}
 return
 ;
 }
@@ -874,6 +892,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -887,6 +906,7 @@ n
 "
 )
 ;
+}
 }
 }
 static
@@ -1003,8 +1023,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -1062,6 +1084,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1074,6 +1097,7 @@ n
 "
 )
 ;
+}
 runTest
 (
 PR_LOCAL_THREAD

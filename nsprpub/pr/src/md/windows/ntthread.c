@@ -1318,9 +1318,11 @@ handle
 -
 1
 )
+{
 return
 PR_SUCCESS
 ;
+}
 PR_SetError
 (
 PR_UNKNOWN_ERROR
@@ -1666,8 +1668,10 @@ IsDebuggerPresent
 (
 )
 )
+{
 return
 ;
+}
 info
 .
 dwType
@@ -2460,11 +2464,13 @@ fiber_id
 =
 0
 )
+{
 *
 status
 =
 PR_TRUE
 ;
+}
 else
 {
 DWORD

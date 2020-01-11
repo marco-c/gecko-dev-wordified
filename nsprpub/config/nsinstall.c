@@ -503,10 +503,12 @@ path
 /
 '
 )
+{
 path
 +
 +
 ;
+}
 for
 (
 cp
@@ -633,13 +635,17 @@ errno
 EEXIST
 )
 )
+{
 return
 0
 ;
+}
 else
+{
 return
 res
 ;
+}
 }
 static
 uid_t
@@ -673,12 +679,14 @@ if
 (
 pw
 )
+{
 return
 pw
 -
 >
 pw_uid
 ;
+}
 uid
 =
 strtol
@@ -702,6 +710,7 @@ cp
 =
 owner
 )
+{
 fail
 (
 "
@@ -715,6 +724,7 @@ s
 owner
 )
 ;
+}
 return
 uid
 ;
@@ -751,12 +761,14 @@ if
 (
 gr
 )
+{
 return
 gr
 -
 >
 gr_gid
 ;
+}
 gid
 =
 strtol
@@ -780,6 +792,7 @@ cp
 =
 group
 )
+{
 fail
 (
 "
@@ -793,6 +806,7 @@ s
 group
 )
 ;
+}
 return
 gid
 ;
@@ -1047,10 +1061,12 @@ cp
 =
 optarg
 )
+{
 usage
 (
 )
 ;
+}
 break
 ;
 case
@@ -1112,10 +1128,12 @@ argc
 -
 onlydir
 )
+{
 usage
 (
 )
 ;
+}
 todir
 =
 argv
@@ -1174,9 +1192,11 @@ if
 (
 onlydir
 )
+{
 return
 0
 ;
+}
 if
 (
 !
@@ -1428,6 +1448,7 @@ mode
 <
 0
 )
+{
 fail
 (
 "
@@ -1440,6 +1461,7 @@ s
 toname
 )
 ;
+}
 if
 (
 (
@@ -1459,6 +1481,7 @@ gid
 <
 0
 )
+{
 fail
 (
 "
@@ -1472,6 +1495,7 @@ s
 toname
 )
 ;
+}
 }
 else
 if
@@ -1775,6 +1799,7 @@ toname
 <
 0
 )
+{
 fail
 (
 "
@@ -1788,6 +1813,7 @@ s
 toname
 )
 ;
+}
 #
 ifdef
 HAVE_LCHOWN
@@ -1810,6 +1836,7 @@ gid
 <
 0
 )
+{
 fail
 (
 "
@@ -1823,6 +1850,7 @@ s
 toname
 )
 ;
+}
 #
 endif
 if
@@ -1883,6 +1911,7 @@ sb
 <
 0
 )
+{
 fail
 (
 "
@@ -1894,6 +1923,7 @@ s
 name
 )
 ;
+}
 if
 (
 exists
@@ -1918,6 +1948,7 @@ W_OK
 0
 )
 )
+{
 (
 void
 )
@@ -1937,6 +1968,7 @@ unlink
 toname
 )
 ;
+}
 tofd
 =
 open
@@ -1954,6 +1986,7 @@ tofd
 <
 0
 )
+{
 fail
 (
 "
@@ -1965,6 +1998,7 @@ s
 toname
 )
 ;
+}
 bp
 =
 buf
@@ -2014,8 +2048,10 @@ wc
 =
 0
 )
+{
 break
 ;
+}
 bp
 +
 =
@@ -2028,6 +2064,7 @@ wc
 <
 0
 )
+{
 fail
 (
 "
@@ -2041,12 +2078,14 @@ toname
 )
 ;
 }
+}
 if
 (
 cc
 <
 0
 )
+{
 fail
 (
 "
@@ -2059,6 +2098,7 @@ s
 name
 )
 ;
+}
 if
 (
 ftruncate
@@ -2071,6 +2111,7 @@ st_size
 <
 0
 )
+{
 fail
 (
 "
@@ -2082,6 +2123,7 @@ s
 toname
 )
 ;
+}
 if
 (
 dotimes
@@ -2114,6 +2156,7 @@ utb
 <
 0
 )
+{
 fail
 (
 "
@@ -2127,6 +2170,7 @@ s
 toname
 )
 ;
+}
 }
 #
 ifdef
@@ -2187,6 +2231,7 @@ gid
 <
 0
 )
+{
 fail
 (
 "
@@ -2200,6 +2245,7 @@ s
 toname
 )
 ;
+}
 /
 *
 Must
@@ -2225,6 +2271,7 @@ tofd
 <
 0
 )
+{
 fail
 (
 "
@@ -2237,6 +2284,7 @@ s
 toname
 )
 ;
+}
 close
 (
 fromfd
@@ -2425,9 +2473,11 @@ path
 0
 '
 )
+{
 return
 0
 ;
+}
 if
 (
 *
@@ -2504,10 +2554,12 @@ path
 /
 '
 )
+{
 path
 +
 +
 ;
+}
 return
 path
 ;
@@ -2631,6 +2683,7 @@ if
 !
 dp
 )
+{
 fail
 (
 "
@@ -2641,6 +2694,7 @@ directory
 "
 )
 ;
+}
 for
 (
 ;
@@ -2659,6 +2713,7 @@ dp
 )
 )
 )
+{
 fail
 (
 "
@@ -2669,6 +2724,7 @@ directory
 "
 )
 ;
+}
 if
 (
 ep
@@ -2679,8 +2735,10 @@ d_ino
 =
 ino
 )
+{
 break
 ;
+}
 }
 name
 =
@@ -2723,6 +2781,7 @@ if
 !
 p
 )
+{
 fail
 (
 "
@@ -2735,6 +2794,7 @@ bytes
 size
 )
 ;
+}
 return
 p
 ;
@@ -2807,6 +2867,7 @@ cp
 0
 '
 )
+{
 *
 cp
 =
@@ -2815,14 +2876,17 @@ cp
 0
 '
 ;
+}
 if
 (
 !
 cp
 )
+{
 return
 path
 ;
+}
 return
 cp
 +
@@ -2846,6 +2910,7 @@ dir
 <
 0
 )
+{
 fail
 (
 "
@@ -2859,6 +2924,7 @@ s
 dir
 )
 ;
+}
 }
 int
 relatepaths
@@ -2943,8 +3009,10 @@ cp
 0
 '
 )
+{
 break
 ;
+}
 while
 (
 cp
@@ -2958,6 +3026,7 @@ cp
 /
 '
 )
+{
 cp
 -
 -
@@ -2965,6 +3034,7 @@ cp2
 -
 -
 ;
+}
 if
 (
 cp
@@ -3201,8 +3271,10 @@ buf
 =
 0
 )
+{
 continue
 ;
+}
 if
 (
 strcmp
@@ -3231,6 +3303,7 @@ sb
 <
 0
 )
+{
 fail
 (
 "
@@ -3241,6 +3314,7 @@ directory
 "
 )
 ;
+}
 name
 =
 ino2name

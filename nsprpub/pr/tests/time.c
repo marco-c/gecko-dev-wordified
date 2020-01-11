@@ -479,6 +479,7 @@ index
 -
 ;
 )
+{
 rv
 =
 time
@@ -486,6 +487,7 @@ time
 NULL
 )
 ;
+}
 }
 static
 void
@@ -510,12 +512,14 @@ index
 -
 ;
 )
+{
 rv
 =
 ftime
 (
 )
 ;
+}
 }
 static
 void
@@ -544,6 +548,7 @@ index
 -
 ;
 )
+{
 rv
 =
 gettimeofday
@@ -553,6 +558,7 @@ tp
 NULL
 )
 ;
+}
 }
 static
 void
@@ -634,12 +640,14 @@ index
 -
 ;
 )
+{
 rv
 =
 PR_Now
 (
 )
 ;
+}
 }
 /
 *
@@ -787,6 +795,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -813,6 +822,7 @@ count
 tot
 )
 ;
+}
 }
 int
 main
@@ -926,8 +936,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt

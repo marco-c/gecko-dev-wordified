@@ -1893,8 +1893,10 @@ i
 <
 SERVER_MAX_BIND_COUNT
 )
+{
 continue
 ;
+}
 }
 fprintf
 (
@@ -3369,8 +3371,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -3541,11 +3545,15 @@ if
 (
 failed_already
 )
+{
 return
 1
 ;
+}
 else
+{
 return
 0
 ;
+}
 }

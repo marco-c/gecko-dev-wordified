@@ -511,12 +511,14 @@ node_pt
 =
 rv
 )
+{
 return
 (
 node_pt
 )
 0
 ;
+}
 memcpy
 (
 &
@@ -580,6 +582,7 @@ node
 >
 prev
 )
+{
 dump
 (
 name
@@ -591,6 +594,7 @@ mf
 debug
 )
 ;
+}
 if
 (
 0
@@ -598,6 +602,7 @@ if
 =
 debug
 )
+{
 printf
 (
 "
@@ -623,6 +628,7 @@ node
 value
 )
 ;
+}
 if
 (
 node
@@ -633,6 +639,7 @@ line
 =
 mf
 )
+{
 fprintf
 (
 stderr
@@ -658,6 +665,7 @@ node
 line
 )
 ;
+}
 if
 (
 (
@@ -671,6 +679,7 @@ node
 >
 next
 )
+{
 dump
 (
 name
@@ -682,6 +691,7 @@ mf
 debug
 )
 ;
+}
 return
 ;
 }
@@ -705,6 +715,7 @@ node
 >
 prev
 )
+{
 release
 (
 node
@@ -713,6 +724,7 @@ node
 prev
 )
 ;
+}
 if
 (
 (
@@ -726,6 +738,7 @@ node
 >
 next
 )
+{
 release
 (
 node
@@ -734,6 +747,7 @@ node
 next
 )
 ;
+}
 PR_DELETE
 (
 node
@@ -1045,6 +1059,7 @@ n
 '
 )
 )
+{
 buffer
 [
 BUFSIZ
@@ -1058,6 +1073,7 @@ BUFSIZ
 n
 '
 ;
+}
 l
 +
 +
@@ -1163,6 +1179,7 @@ comp
 <
 0
 )
+{
 w
 =
 &
@@ -1174,7 +1191,9 @@ w
 >
 next
 ;
+}
 else
+{
 w
 =
 &
@@ -1186,6 +1205,7 @@ w
 >
 prev
 ;
+}
 }
 }
 (
@@ -1285,8 +1305,10 @@ if
 =
 n
 )
+{
 return
 ;
+}
 printf
 (
 "
@@ -1316,8 +1338,10 @@ if
 =
 n
 )
+{
 return
 ;
+}
 for
 (
 i
@@ -1349,6 +1373,7 @@ if
 =
 which
 )
+{
 printf
 (
 "
@@ -1376,7 +1401,9 @@ i
 1
 )
 ;
+}
 else
+{
 printf
 (
 "
@@ -1406,6 +1433,7 @@ i
 which
 )
 ;
+}
 (
 void
 )
@@ -1903,10 +1931,12 @@ okay
 =
 0
 )
+{
 usage
 (
 )
 ;
+}
 else
 while
 (

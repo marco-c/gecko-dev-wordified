@@ -401,6 +401,7 @@ shared
 >
 debug
 )
+{
 PR_fprintf
 (
 shared
@@ -422,6 +423,7 @@ loop
 +
 )
 ;
+}
 clientSock
 =
 PR_Accept
@@ -456,6 +458,7 @@ shared
 >
 debug
 )
+{
 PR_fprintf
 (
 shared
@@ -471,6 +474,7 @@ length
 "
 )
 ;
+}
 bytes
 =
 PR_Recv
@@ -544,6 +548,7 @@ shared
 >
 debug
 )
+{
 PR_fprintf
 (
 shared
@@ -563,6 +568,7 @@ descriptor
 length
 )
 ;
+}
 toread
 =
 descriptor
@@ -585,11 +591,13 @@ NULL
 =
 buffer
 )
+{
 PR_DELETE
 (
 buffer
 )
 ;
+}
 buffer
 =
 (
@@ -669,6 +677,7 @@ shared
 >
 debug
 )
+{
 PR_fprintf
 (
 shared
@@ -685,6 +694,7 @@ failed
 "
 )
 ;
+}
 bytes
 =
 0
@@ -738,6 +748,7 @@ shared
 >
 debug
 )
+{
 PR_fprintf
 (
 shared
@@ -749,6 +760,7 @@ closing
 "
 )
 ;
+}
 rv
 =
 PR_Shutdown
@@ -890,11 +902,13 @@ if
 =
 overflow
 )
+{
 checksum
 +
 =
 1
 ;
+}
 checksum
 +
 =
@@ -1004,6 +1018,7 @@ shared
 >
 debug
 )
+{
 PR_fprintf
 (
 shared
@@ -1016,6 +1031,7 @@ n
 "
 )
 ;
+}
 }
 else
 {
@@ -1039,6 +1055,7 @@ shared
 >
 debug
 )
+{
 PL_PrintError
 (
 "
@@ -1046,6 +1063,7 @@ Accept
 "
 )
 ;
+}
 shared
 -
 >
@@ -1074,11 +1092,13 @@ NULL
 =
 buffer
 )
+{
 PR_DELETE
 (
 buffer
 )
 ;
+}
 }
 /
 *
@@ -1241,8 +1261,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -1409,10 +1431,12 @@ if
 =
 threads
 )
+{
 threads
 =
 DEFAULT_THREADS
 ;
+}
 if
 (
 0
@@ -1420,10 +1444,12 @@ if
 =
 backlog
 )
+{
 backlog
 =
 DEFAULT_BACKLOG
 ;
+}
 if
 (
 0
@@ -1431,10 +1457,12 @@ if
 =
 timeout
 )
+{
 timeout
 =
 DEFAULT_TIMEOUT
 ;
+}
 PR_STDIO_INIT
 (
 )
@@ -1658,6 +1686,7 @@ status
 =
 running
 )
+{
 PR_WaitCondVar
 (
 shared
@@ -1667,6 +1696,7 @@ cv
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+}
 PR_Unlock
 (
 shared
@@ -1742,6 +1772,7 @@ shared
 >
 debug
 )
+{
 PL_PrintError
 (
 "
@@ -1749,6 +1780,7 @@ Listen
 "
 )
 ;
+}
 shared
 -
 >
@@ -1767,6 +1799,7 @@ shared
 >
 debug
 )
+{
 PL_PrintError
 (
 "
@@ -1774,6 +1807,7 @@ Bind
 "
 )
 ;
+}
 shared
 -
 >
@@ -1800,6 +1834,7 @@ shared
 >
 debug
 )
+{
 PL_PrintError
 (
 "
@@ -1807,6 +1842,7 @@ Create
 "
 )
 ;
+}
 shared
 -
 >

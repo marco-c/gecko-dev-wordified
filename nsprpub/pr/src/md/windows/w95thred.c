@@ -767,13 +767,17 @@ blocked_sema
 =
 NULL
 )
+{
 return
 PR_FAILURE
 ;
+}
 else
+{
 return
 PR_SUCCESS
 ;
+}
 }
 static
 unsigned
@@ -971,9 +975,11 @@ handle
 -
 1
 )
+{
 return
 PR_SUCCESS
 ;
+}
 return
 PR_FAILURE
 ;
@@ -1268,8 +1274,10 @@ IsDebuggerPresent
 (
 )
 )
+{
 return
 ;
+}
 info
 .
 dwType
@@ -1552,6 +1560,7 @@ if
 (
 rv
 )
+{
 *
 mask
 =
@@ -1560,6 +1569,7 @@ PRUint32
 )
 process_mask
 ;
+}
 return
 rv
 ?

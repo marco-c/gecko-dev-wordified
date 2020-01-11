@@ -197,6 +197,7 @@ NULL
 =
 msg
 )
+{
 PR_fprintf
 (
 fd
@@ -208,6 +209,7 @@ s
 msg
 )
 ;
+}
 if
 (
 NULL
@@ -292,6 +294,7 @@ NULL
 =
 fd
 )
+{
 fd
 =
 PR_GetSpecialFD
@@ -299,6 +302,7 @@ PR_GetSpecialFD
 PR_StandardError
 )
 ;
+}
 PL_FPrintError
 (
 fd

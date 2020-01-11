@@ -431,16 +431,19 @@ PR_SUCCESS
 status
 )
 )
+{
 status
 =
 Wait
 (
 )
 ;
+}
 if
 (
 verbosity
 )
+{
 PR_fprintf
 (
 debug_out
@@ -449,6 +452,7 @@ debug_out
 "
 )
 ;
+}
 twiddle
 =
 PR_TRUE
@@ -755,8 +759,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -923,10 +929,12 @@ if
 (
 help
 )
+{
 return
 -
 1
 ;
+}
 if
 (
 PR_TRUE
@@ -1333,8 +1341,10 @@ home
 =
 link
 )
+{
 break
 ;
+}
 status
 =
 (
@@ -1366,6 +1376,7 @@ if
 (
 debug_mode
 )
+{
 PL_FPrintError
 (
 debug_out
@@ -1376,6 +1387,7 @@ interrupt
 "
 )
 ;
+}
 }
 link
 =
@@ -1433,6 +1445,7 @@ if
 (
 debug_mode
 )
+{
 PL_FPrintError
 (
 debug_out
@@ -1444,6 +1457,7 @@ join
 )
 ;
 }
+}
 if
 (
 &
@@ -1452,8 +1466,10 @@ home
 =
 link
 )
+{
 break
 ;
+}
 shared
 =
 (

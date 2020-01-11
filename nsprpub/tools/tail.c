@@ -397,8 +397,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -555,10 +557,12 @@ if
 =
 time
 )
+{
 time
 =
 1000
 ;
+}
 dally
 =
 PR_MillisecondsToInterval
@@ -684,10 +688,12 @@ fileInfo
 .
 size
 )
+{
 seek
 =
 0
 ;
+}
 position
 =
 PR_Seek
@@ -714,6 +720,7 @@ PRInt32
 )
 position
 )
+{
 PL_FPrintError
 (
 err
@@ -726,6 +733,7 @@ position
 "
 )
 ;
+}
 }
 do
 {
@@ -757,6 +765,7 @@ sizeof
 buffer
 )
 )
+{
 bytes
 =
 sizeof
@@ -764,6 +773,7 @@ sizeof
 buffer
 )
 ;
+}
 read
 =
 PR_Read
@@ -780,6 +790,7 @@ read
 =
 bytes
 )
+{
 PL_FPrintError
 (
 err
@@ -791,6 +802,7 @@ eof
 "
 )
 ;
+}
 position
 +
 =

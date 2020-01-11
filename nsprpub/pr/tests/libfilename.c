@@ -381,6 +381,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -394,6 +395,7 @@ n
 pathname
 )
 ;
+}
 fd
 =
 PR_OpenFile
@@ -654,6 +656,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -667,6 +670,7 @@ n
 name
 )
 ;
+}
 lib
 =
 PR_LoadLibrary

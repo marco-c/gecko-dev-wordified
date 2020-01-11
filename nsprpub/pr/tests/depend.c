@@ -581,10 +581,12 @@ tab
 >
 len
 )
+{
 tab
 =
 len
 ;
+}
 printf
 (
 "
@@ -650,6 +652,7 @@ info
 >
 patch
 )
+{
 printf
 (
 "
@@ -664,6 +667,7 @@ info
 patch
 )
 ;
+}
 printf
 (
 "
@@ -868,6 +872,7 @@ NULL
 =
 previous
 )
+{
 return
 &
 dummy_imports
@@ -875,6 +880,7 @@ dummy_imports
 0
 ]
 ;
+}
 else
 if
 (
@@ -887,6 +893,7 @@ dummy_imports
 =
 previous
 )
+{
 return
 &
 dummy_imports
@@ -894,6 +901,7 @@ dummy_imports
 1
 ]
 ;
+}
 else
 if
 (
@@ -906,9 +914,11 @@ dummy_imports
 =
 previous
 )
+{
 return
 NULL
 ;
+}
 }
 /
 *
@@ -1151,12 +1161,14 @@ NULL
 =
 info
 )
+{
 ChaseDependents
 (
 info
 tab
 )
 ;
+}
 return
 0
 ;

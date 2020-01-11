@@ -503,8 +503,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -618,6 +620,7 @@ if
 (
 debug
 )
+{
 fprintf
 (
 stderr
@@ -634,6 +637,7 @@ n
 "
 )
 ;
+}
 failed_already
 =
 1
@@ -663,6 +667,7 @@ if
 (
 debug
 )
+{
 fprintf
 (
 stderr
@@ -677,6 +682,7 @@ n
 "
 )
 ;
+}
 failed_already
 =
 1
@@ -704,6 +710,7 @@ if
 (
 debug
 )
+{
 fprintf
 (
 stderr
@@ -718,6 +725,7 @@ n
 "
 )
 ;
+}
 failed_already
 =
 1
@@ -767,6 +775,7 @@ if
 (
 debug
 )
+{
 fprintf
 (
 stderr
@@ -783,6 +792,7 @@ n
 "
 )
 ;
+}
 failed_already
 =
 1
@@ -812,6 +822,7 @@ if
 (
 debug
 )
+{
 fprintf
 (
 stderr
@@ -825,6 +836,7 @@ n
 "
 )
 ;
+}
 failed_already
 =
 1
@@ -836,6 +848,7 @@ if
 (
 debug
 )
+{
 printf
 (
 "
@@ -857,6 +870,7 @@ PASS
 "
 )
 ;
+}
 return
 (
 (

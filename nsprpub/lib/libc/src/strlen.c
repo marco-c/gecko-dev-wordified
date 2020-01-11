@@ -148,9 +148,11 @@ char
 =
 str
 )
+{
 return
 0
 ;
+}
 l
 =
 strlen
@@ -209,6 +211,7 @@ l
 >
 PR_INT32_MAX
 )
+{
 PR_Assert
 (
 "
@@ -221,6 +224,7 @@ __FILE__
 __LINE__
 )
 ;
+}
 }
 return
 (
@@ -261,9 +265,11 @@ char
 =
 str
 )
+{
 return
 0
 ;
+}
 for
 (
 s

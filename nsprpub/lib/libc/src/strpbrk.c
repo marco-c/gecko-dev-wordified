@@ -151,6 +151,7 @@ char
 list
 )
 )
+{
 return
 (
 char
@@ -158,6 +159,7 @@ char
 )
 0
 ;
+}
 return
 strpbrk
 (
@@ -220,6 +222,7 @@ char
 list
 )
 )
+{
 return
 (
 char
@@ -227,6 +230,7 @@ char
 )
 0
 ;
+}
 for
 (
 r
@@ -278,6 +282,7 @@ r
 *
 p
 )
+{
 return
 (
 char
@@ -285,6 +290,7 @@ char
 )
 r
 ;
+}
 return
 (
 char
@@ -344,6 +350,7 @@ char
 list
 )
 )
+{
 return
 (
 char
@@ -351,6 +358,7 @@ char
 )
 0
 ;
+}
 for
 (
 ;
@@ -389,6 +397,7 @@ s
 *
 p
 )
+{
 return
 (
 char
@@ -396,6 +405,7 @@ char
 )
 s
 ;
+}
 return
 (
 char
@@ -460,6 +470,7 @@ char
 list
 )
 )
+{
 return
 (
 char
@@ -467,6 +478,7 @@ char
 )
 0
 ;
+}
 for
 (
 r
@@ -524,6 +536,7 @@ r
 *
 p
 )
+{
 return
 (
 char
@@ -531,6 +544,7 @@ char
 )
 r
 ;
+}
 return
 (
 char

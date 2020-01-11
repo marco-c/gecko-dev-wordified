@@ -557,6 +557,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 data
 -
 >
@@ -575,6 +576,7 @@ PR_FALSE
 :
 PR_TRUE
 ;
+}
 break
 ;
 }
@@ -631,6 +633,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 data
 -
 >
@@ -649,6 +652,7 @@ PR_FALSE
 :
 PR_TRUE
 ;
+}
 break
 ;
 }
@@ -696,6 +700,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 data
 -
 >
@@ -705,6 +710,7 @@ recv_buffer_size
 =
 value
 ;
+}
 break
 ;
 }
@@ -816,6 +822,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 data
 -
 >
@@ -825,6 +832,7 @@ mcast_ttl
 =
 ttl
 ;
+}
 break
 ;
 }

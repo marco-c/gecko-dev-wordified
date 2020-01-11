@@ -478,6 +478,7 @@ PR_FAILURE
 =
 rv
 )
+{
 VERBOSE
 (
 v_shout
@@ -490,6 +491,7 @@ file
 )
 ;
 }
+}
 else
 if
 (
@@ -500,6 +502,7 @@ PR_GetError
 (
 )
 )
+{
 VERBOSE
 (
 v_shout
@@ -511,11 +514,14 @@ file
 "
 )
 ;
+}
 else
+{
 rv
 =
 PR_SUCCESS
 ;
+}
 return
 rv
 ;
@@ -561,19 +567,23 @@ if
 =
 error
 )
+{
 PR_fprintf
 (
 output
 msg
 )
 ;
+}
 else
+{
 PL_FPrintError
 (
 output
 msg
 )
 ;
+}
 }
 (
 void
@@ -590,10 +600,12 @@ v_shout
 =
 verbose
 )
+{
 PR_Abort
 (
 )
 ;
+}
 return
 1
 ;
@@ -628,6 +640,7 @@ level
 =
 verbose
 )
+{
 PR_fprintf
 (
 output
@@ -650,6 +663,7 @@ line
 msg
 )
 ;
+}
 }
 /
 *
@@ -963,8 +977,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -1035,11 +1051,13 @@ v_shout
 >
 verbose
 )
+{
 verbose
 +
 =
 1
 ;
+}
 break
 ;
 case
@@ -1118,10 +1136,12 @@ if
 =
 count
 )
+{
 count
 =
 DEFAULT_COUNT
 ;
+}
 if
 (
 0
@@ -1129,10 +1149,12 @@ if
 =
 filesize
 )
+{
 filesize
 =
 DEFAULT_FILESIZE
 ;
+}
 if
 (
 NULL
@@ -1156,16 +1178,20 @@ DEFAULT_FILESIZE
 =
 filesize
 )
+{
 return
 Usage
 (
 )
 ;
+}
 else
+{
 filename
 =
 FILE_NAME
 ;
+}
 }
 if
 (
@@ -1177,9 +1203,11 @@ DeleteIfFound
 filename
 )
 )
+{
 return
 1
 ;
+}
 test_result
 =
 0
@@ -1240,6 +1268,7 @@ BUFFER_SIZE
 +
 loop
 )
+{
 buffer
 [
 loop
@@ -1250,6 +1279,7 @@ char
 )
 loop
 ;
+}
 VERBOSE
 (
 v_whisper
@@ -1278,6 +1308,7 @@ NULL
 =
 file
 )
+{
 return
 Error
 (
@@ -1289,6 +1320,7 @@ PR_Open
 filename
 )
 ;
+}
 VERBOSE
 (
 v_whisper
@@ -1323,6 +1355,7 @@ LL_IS_ZERO
 big_answer
 )
 )
+{
 return
 Error
 (
@@ -1335,6 +1368,7 @@ available64
 filename
 )
 ;
+}
 LL_SUB
 (
 big_size
@@ -1381,6 +1415,7 @@ big_answer
 big_size
 )
 )
+{
 return
 Error
 (
@@ -1390,6 +1425,7 @@ seek
 filename
 )
 ;
+}
 VERBOSE
 (
 v_whisper
@@ -1426,6 +1462,7 @@ bytes
 =
 BUFFER_SIZE
 )
+{
 return
 Error
 (
@@ -1435,6 +1472,7 @@ write
 filename
 )
 ;
+}
 VERBOSE
 (
 v_whisper
@@ -1471,6 +1509,7 @@ LL_IS_ZERO
 big_answer
 )
 )
+{
 return
 Error
 (
@@ -1483,6 +1522,7 @@ available64
 filename
 )
 ;
+}
 VERBOSE
 (
 v_whisper
@@ -1519,6 +1559,7 @@ PR_FAILURE
 =
 rv
 )
+{
 return
 Error
 (
@@ -1530,6 +1571,7 @@ fileInfo64
 filename
 )
 ;
+}
 if
 (
 v_shout
@@ -1537,6 +1579,7 @@ v_shout
 =
 verbose
 )
+{
 PrintInfo
 (
 &
@@ -1544,6 +1587,7 @@ big_info
 filename
 )
 ;
+}
 VERBOSE
 (
 v_whisper
@@ -1695,6 +1739,7 @@ LL_IS_ZERO
 big_answer
 )
 )
+{
 return
 Error
 (
@@ -1707,6 +1752,7 @@ seek64
 filename
 )
 ;
+}
 VERBOSE
 (
 v_whisper
@@ -1741,6 +1787,7 @@ filesize64
 big_answer
 )
 )
+{
 return
 Error
 (
@@ -1753,6 +1800,7 @@ available64
 filename
 )
 ;
+}
 VERBOSE
 (
 v_whisper
@@ -1783,6 +1831,7 @@ PR_FAILURE
 =
 rv
 )
+{
 return
 Error
 (
@@ -1794,6 +1843,7 @@ close
 filename
 )
 ;
+}
 VERBOSE
 (
 v_whisper
@@ -1820,6 +1870,7 @@ NULL
 =
 file
 )
+{
 return
 Error
 (
@@ -1830,6 +1881,7 @@ failed
 filename
 )
 ;
+}
 VERBOSE
 (
 v_whisper
@@ -1864,6 +1916,7 @@ filesize64
 big_answer
 )
 )
+{
 return
 Error
 (
@@ -1876,6 +1929,7 @@ available64
 filename
 )
 ;
+}
 big_answer
 =
 zero_meg
@@ -1918,6 +1972,7 @@ bytes
 =
 BUFFER_SIZE
 )
+{
 return
 Error
 (
@@ -1927,6 +1982,7 @@ write
 filename
 )
 ;
+}
 LL_ADD
 (
 big_answer
@@ -1979,6 +2035,7 @@ big_answer
 filesize64
 )
 )
+{
 return
 Error
 (
@@ -1990,6 +2047,7 @@ error
 filename
 )
 ;
+}
 VERBOSE
 (
 v_whisper
@@ -2023,6 +2081,7 @@ LL_IS_ZERO
 big_answer
 )
 )
+{
 return
 Error
 (
@@ -2035,6 +2094,7 @@ available64
 filename
 )
 ;
+}
 VERBOSE
 (
 v_whisper
@@ -2068,6 +2128,7 @@ LL_IS_ZERO
 big_answer
 )
 )
+{
 return
 Error
 (
@@ -2080,6 +2141,7 @@ seek64
 filename
 )
 ;
+}
 VERBOSE
 (
 v_whisper
@@ -2114,6 +2176,7 @@ big_answer
 filesize64
 )
 )
+{
 return
 Error
 (
@@ -2126,6 +2189,7 @@ available64
 filename
 )
 ;
+}
 VERBOSE
 (
 v_whisper
@@ -2162,6 +2226,7 @@ big_answer
 filesize64
 )
 )
+{
 return
 Error
 (
@@ -2174,6 +2239,7 @@ seek64
 filename
 )
 ;
+}
 VERBOSE
 (
 v_whisper
@@ -2213,6 +2279,7 @@ PR_FAILURE
 =
 rv
 )
+{
 return
 Error
 (
@@ -2224,6 +2291,7 @@ fileInfo64
 filename
 )
 ;
+}
 if
 (
 v_shout
@@ -2231,6 +2299,7 @@ v_shout
 =
 verbose
 )
+{
 PrintInfo
 (
 &
@@ -2238,6 +2307,7 @@ big_info
 filename
 )
 ;
+}
 VERBOSE
 (
 v_whisper
@@ -2268,6 +2338,7 @@ PR_FAILURE
 =
 rv
 )
+{
 return
 Error
 (
@@ -2279,6 +2350,7 @@ close
 filename
 )
 ;
+}
 VERBOSE
 (
 v_whisper
@@ -2312,6 +2384,7 @@ PR_FAILURE
 =
 rv
 )
+{
 return
 Error
 (
@@ -2323,6 +2396,7 @@ fileInfo64
 filename
 )
 ;
+}
 if
 (
 v_shout
@@ -2330,6 +2404,7 @@ v_shout
 =
 verbose
 )
+{
 PrintInfo
 (
 &
@@ -2337,6 +2412,7 @@ big_info
 filename
 )
 ;
+}
 VERBOSE
 (
 v_whisper
@@ -2361,6 +2437,7 @@ PR_FAILURE
 =
 rv
 )
+{
 return
 Error
 (
@@ -2372,6 +2449,7 @@ PR_Delete
 filename
 )
 ;
+}
 PR_DELETE
 (
 buffer

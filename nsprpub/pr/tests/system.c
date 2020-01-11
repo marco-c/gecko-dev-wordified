@@ -264,6 +264,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 PR_fprintf
 (
 output
@@ -283,7 +284,9 @@ cmd
 info
 )
 ;
+}
 else
+{
 PL_FPrintError
 (
 output
@@ -293,6 +296,7 @@ cmd
 ]
 )
 ;
+}
 }
 PR_DELETE
 (

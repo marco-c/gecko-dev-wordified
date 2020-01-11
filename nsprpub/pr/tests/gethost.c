@@ -412,6 +412,7 @@ j
 =
 0
 )
+{
 printf
 (
 "
@@ -419,6 +420,7 @@ printf
 "
 )
 ;
+}
 printf
 (
 "
@@ -530,8 +532,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -679,6 +683,7 @@ idx
 =
 0
 )
+{
 break
 ;
 /
@@ -688,6 +693,7 @@ loop
 termination
 *
 /
+}
 printf
 (
 "
@@ -914,6 +920,7 @@ idx
 =
 0
 )
+{
 break
 ;
 /
@@ -923,6 +930,7 @@ loop
 termination
 *
 /
+}
 printf
 (
 "

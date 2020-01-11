@@ -386,6 +386,7 @@ debug
 >
 0
 )
+{
 (
 void
 )
@@ -413,6 +414,7 @@ file
 line
 )
 ;
+}
 }
 /
 *
@@ -468,15 +470,19 @@ if
 (
 should
 )
+{
 did
 =
 PR_TRUE
 ;
+}
 else
+{
 failed
 =
 PR_TRUE
 ;
+}
 /
 *
 *
@@ -1335,6 +1341,7 @@ keys
 +
 keys
 )
+{
 key
 [
 keys
@@ -1350,6 +1357,7 @@ invalid
 value
 *
 /
+}
 did
 =
 should
@@ -1854,8 +1862,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt

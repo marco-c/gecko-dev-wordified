@@ -310,6 +310,7 @@ verbose
 &
 force
 )
+{
 PR_fprintf
 (
 err
@@ -326,6 +327,7 @@ n
 "
 )
 ;
+}
 }
 /
 *
@@ -392,8 +394,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -515,10 +519,12 @@ if
 =
 dally
 )
+{
 dally
 =
 10
 ;
+}
 /
 *
 *

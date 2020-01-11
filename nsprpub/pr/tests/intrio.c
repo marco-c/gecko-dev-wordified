@@ -640,12 +640,14 @@ while
 !
 iothread_ready
 )
+{
 PR_WaitCondVar
 (
 cvar
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+}
 PR_Unlock
 (
 lock

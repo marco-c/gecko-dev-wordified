@@ -687,11 +687,13 @@ cbp
 =
 NULL
 )
+{
 return
 (
 NULL
 )
 ;
+}
 cbp
 -
 >
@@ -866,6 +868,7 @@ numFull
 =
 kQSIZE
 )
+{
 PR_WaitCondVar
 (
 cbp
@@ -875,6 +878,7 @@ notFull
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+}
 cbp
 -
 >
@@ -1006,6 +1010,7 @@ numFull
 =
 0
 )
+{
 PR_WaitCondVar
 (
 cbp
@@ -1015,6 +1020,7 @@ notEmpty
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+}
 data
 =
 cbp
@@ -1235,6 +1241,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1253,6 +1260,7 @@ n
 i
 )
 ;
+}
 }
 PR_EnterMonitor
 (
@@ -1318,6 +1326,7 @@ i
 +
 +
 )
+{
 PutCBData
 (
 cbp
@@ -1328,6 +1337,7 @@ void
 i
 )
 ;
+}
 PR_EnterMonitor
 (
 mon
@@ -1630,6 +1640,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1650,6 +1661,7 @@ d
 count
 )
 ;
+}
 if
 (
 0
@@ -1657,10 +1669,12 @@ if
 =
 d
 )
+{
 failed
 =
 PR_TRUE
 ;
+}
 }
 static
 PRIntn
@@ -1783,8 +1797,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -1851,10 +1867,12 @@ if
 =
 count
 )
+{
 count
 =
 DEFAULT_COUNT
 ;
+}
 mon
 =
 PR_NewMonitor
@@ -1918,6 +1936,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1939,17 +1958,22 @@ PASSED
 "
 )
 ;
+}
 if
 (
 failed
 )
+{
 return
 1
 ;
+}
 else
+{
 return
 0
 ;
+}
 }
 int
 main

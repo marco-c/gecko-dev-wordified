@@ -2305,8 +2305,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -2439,12 +2441,14 @@ activeThreads
 =
 1
 )
+{
 PR_SET_TRACE_OPTION
 (
 PRTraceStopRecording
 NULL
 )
 ;
+}
 PR_Wait
 (
 mon
