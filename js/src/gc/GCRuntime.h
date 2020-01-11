@@ -4608,6 +4608,9 @@ finishCollection
 (
 )
 ;
+#
+ifdef
+JS_GC_ZEAL
 void
 computeNonIncrementalMarkingForValidation
 (
@@ -4626,6 +4629,8 @@ finishMarkingValidation
 (
 )
 ;
+#
+endif
 #
 ifdef
 DEBUG
