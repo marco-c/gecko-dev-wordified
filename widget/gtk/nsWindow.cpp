@@ -23477,6 +23477,15 @@ non
 composited
 screens
 .
+/
+/
+Also
+disable
+transparency
+for
+PictureInPicture
+windows
+.
 GdkScreen
 *
 screen
@@ -23491,6 +23500,10 @@ gdk_screen_is_composited
 (
 screen
 )
+&
+&
+!
+mIsPIPWindow
 )
 {
 /
