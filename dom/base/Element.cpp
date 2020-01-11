@@ -24385,7 +24385,7 @@ int32_t
 aThreshold
 )
 {
-IntersectionObserverList
+auto
 *
 observers
 =
