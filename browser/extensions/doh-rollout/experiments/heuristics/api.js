@@ -75,11 +75,6 @@ Ci
 ExtensionAPI
 *
 /
-const
-{
-Services
-}
-=
 ChromeUtils
 .
 import
@@ -97,6 +92,7 @@ Services
 .
 jsm
 "
+this
 )
 ;
 function
