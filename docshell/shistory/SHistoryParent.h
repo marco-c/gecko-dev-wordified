@@ -563,6 +563,14 @@ PSHEntryParent
 aEntries
 )
 ;
+bool
+RecvEnsureCorrectEntryAtCurrIndex
+(
+PSHEntryParent
+*
+aEntry
+)
+;
 RefPtr
 <
 CanonicalBrowsingContext
