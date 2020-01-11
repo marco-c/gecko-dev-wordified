@@ -33407,6 +33407,7 @@ nsIScriptSecurityManager
 :
 :
 LOAD_IS_AUTOMATIC_DOCUMENT_REPLACEMENT
+aInnerWindowID
 )
 ;
 if

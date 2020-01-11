@@ -2199,6 +2199,12 @@ aLoadInfo
 CheckLoadURIFlags
 (
 )
+aLoadInfo
+-
+>
+GetInnerWindowID
+(
+)
 )
 ;
 }
@@ -6151,6 +6157,12 @@ CheckLoadURIWithPrincipal
 oldPrincipal
 newURI
 flags
+loadInfo
+-
+>
+GetInnerWindowID
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS

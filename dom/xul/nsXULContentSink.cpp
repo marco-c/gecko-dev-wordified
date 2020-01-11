@@ -4858,6 +4858,12 @@ nsIScriptSecurityManager
 :
 :
 ALLOW_CHROME
+doc
+-
+>
+InnerWindowID
+(
+)
 )
 ;
 }
