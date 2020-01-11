@@ -22737,16 +22737,18 @@ None
                 
 detectShutdownLeaks
 =
+(
+                    
 mozinfo
 .
 info
 [
-                    
-"
+'
 debug
-"
+'
 ]
 and
+                    
 options
 .
 flavor
@@ -22755,6 +22757,18 @@ flavor
 '
 browser
 '
+and
+                    
+options
+.
+subsuite
+!
+=
+'
+thunderbird
+'
+                
+)
             
 self
 .
