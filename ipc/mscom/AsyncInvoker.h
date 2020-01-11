@@ -1738,8 +1738,6 @@ aSyncMethod
 AsyncMethod
 aAsyncMethod
 Args
-&
-&
 .
 .
 .
