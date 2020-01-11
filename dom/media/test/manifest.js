@@ -17147,6 +17147,7 @@ video
 ;
 for
 (
+let
 i
 =
 0
@@ -17192,6 +17193,7 @@ audio
 ;
 for
 (
+let
 i
 =
 0

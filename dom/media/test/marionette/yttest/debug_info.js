@@ -1,3 +1,11 @@
+/
+*
+global
+video
+result
+resolve
+*
+/
 video
 .
 mozRequestDebugInfo

@@ -1,3 +1,9 @@
+/
+*
+global
+video
+*
+/
 var
 result
 =
