@@ -6544,7 +6544,16 @@ aRecorder
 )
 ;
 }
-void
+RefPtr
+<
+wr
+:
+:
+WebRenderAPI
+:
+:
+WriteCollectedFramesPromise
+>
 WebRenderBridgeParent
 :
 :
@@ -6552,6 +6561,7 @@ WriteCollectedFrames
 (
 )
 {
+return
 Api
 (
 wr

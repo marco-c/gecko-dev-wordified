@@ -1910,7 +1910,16 @@ op
 .
 *
 /
-void
+RefPtr
+<
+wr
+:
+:
+WebRenderAPI
+:
+:
+WriteCollectedFramesPromise
+>
 WriteCollectedFrames
 (
 )
