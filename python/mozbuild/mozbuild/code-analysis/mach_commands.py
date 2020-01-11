@@ -502,6 +502,7 @@ self
 srcdir
 objdir
 clang_tidy_config
+source
 total
 )
 :
@@ -529,6 +530,12 @@ self
 _srcdir
 =
 srcdir
+        
+self
+.
+_source
+=
+source
         
 self
 .
@@ -650,6 +657,9 @@ warning
 filename
 '
 ]
+self
+.
+_source
 )
 self
 .
@@ -815,9 +825,13 @@ mozpath
 .
 relpath
 (
+                    
 map_file_to_source
 (
 filename
+self
+.
+_source
 )
 self
 .
@@ -2225,6 +2239,7 @@ topobjdir
 self
 .
 _clang_tidy_config
+source
 total
 )
         
