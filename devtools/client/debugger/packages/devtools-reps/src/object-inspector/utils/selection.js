@@ -61,6 +61,9 @@ MPL
 function
 documentHasSelection
 (
+doc
+=
+document
 )
 :
 boolean
@@ -68,6 +71,10 @@ boolean
 const
 selection
 =
+doc
+.
+defaultView
+.
 getSelection
 (
 )
