@@ -835,6 +835,15 @@ override
 ;
 virtual
 void
+SetWindowMouseTransparent
+(
+bool
+aIsTransparent
+)
+override
+;
+virtual
+void
 Move
 (
 double

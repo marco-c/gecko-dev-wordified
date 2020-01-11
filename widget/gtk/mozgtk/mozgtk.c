@@ -2144,6 +2144,10 @@ gtk_window_get_type_hint
 )
 STUB
 (
+gdk_window_get_visible_region
+)
+STUB
+(
 gtk_window_get_window_type
 )
 STUB
