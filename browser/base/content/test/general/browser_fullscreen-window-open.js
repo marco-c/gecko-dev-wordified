@@ -905,6 +905,11 @@ param
 :
 "
 "
+option
+:
+"
+noopener
+"
 }
 finalizeFn
 (
