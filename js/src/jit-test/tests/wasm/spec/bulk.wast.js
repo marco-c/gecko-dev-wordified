@@ -2901,7 +2901,7 @@ bulk
 wast
 :
 166
-assert_trap
+assert_return
 (
 (
 )
@@ -2949,7 +2949,7 @@ bulk
 wast
 :
 168
-assert_trap
+assert_return
 (
 (
 )
@@ -4048,7 +4048,7 @@ bulk
 wast
 :
 233
-assert_trap
+assert_return
 (
 (
 )
@@ -4096,7 +4096,7 @@ bulk
 wast
 :
 235
-assert_trap
+assert_return
 (
 (
 )
