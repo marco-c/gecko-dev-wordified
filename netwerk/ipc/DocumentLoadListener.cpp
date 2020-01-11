@@ -2537,6 +2537,10 @@ aLoadGroupStatus
 )
 ;
 }
+DocumentChannelBridgeDisconnected
+(
+)
+;
 }
 void
 DocumentLoadListener

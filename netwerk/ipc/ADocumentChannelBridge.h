@@ -168,6 +168,14 @@ different
 /
 process
 )
+and
+drop
+any
+references
+to
+the
+parent
+DocumentLoadListener
 .
 /
 /
