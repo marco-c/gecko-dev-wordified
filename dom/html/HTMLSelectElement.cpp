@@ -9253,7 +9253,7 @@ rv
 nsContentUtils
 :
 :
-GetLocalizedString
+GetMaybeLocalizedString
 (
 nsContentUtils
 :
@@ -9262,6 +9262,9 @@ eDOM_PROPERTIES
 "
 FormValidationSelectMissing
 "
+OwnerDoc
+(
+)
 message
 )
 ;
