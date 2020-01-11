@@ -168,5 +168,11 @@ lfVarx
 )
 ;
 }
+{
+expectExceptionOnFailure
+:
+false
+}
 )
+;
 }
