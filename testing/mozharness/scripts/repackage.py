@@ -988,21 +988,6 @@ abs_mozilla_dir
 ]
 manifest_src
 )
-                
-'
--
--
-tooltool
--
-url
-'
-                
-config
-[
-'
-tooltool_url
-'
-]
             
 ]
 )

@@ -27,27 +27,6 @@ LOCALE
 #
 ToolTool
     
-"
-tooltool_url
-"
-:
-'
-http
-:
-/
-/
-taskcluster
-/
-tooltool
-.
-mozilla
--
-releng
-.
-net
-/
-'
-    
 '
 tooltool_cache
 '
