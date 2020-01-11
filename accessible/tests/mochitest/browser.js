@@ -638,12 +638,6 @@ browserWnd
 =
 window
 .
-docShell
-.
-rootTreeItem
-.
-domWindow
-.
 openDialog
 (
 AppConstants

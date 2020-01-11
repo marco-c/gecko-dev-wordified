@@ -1251,11 +1251,6 @@ TEST_PATH
 .
 html
 "
-"
-"
-"
-noopener
-"
 )
 ;
 await
