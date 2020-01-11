@@ -36,6 +36,11 @@ testPolicyOverride
 (
 )
 {
+await
+waitForBalrogMigration
+(
+)
+;
 /
 /
 Set
