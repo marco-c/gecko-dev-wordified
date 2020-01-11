@@ -10161,7 +10161,10 @@ is
 a
 union
 of
-eSideBitsLeft
+SideBits
+:
+:
+eLeft
 /
 Right
 /

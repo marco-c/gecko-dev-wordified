@@ -2381,7 +2381,10 @@ for
 WebRender
 .
 return
-eSideBitsNone
+SideBits
+:
+:
+eNone
 ;
 }
 Maybe
