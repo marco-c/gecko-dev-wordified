@@ -8973,7 +8973,9 @@ shortcut
 ;
 float
 :
-right
+inline
+-
+end
 ;
 }
 .
@@ -9329,7 +9331,9 @@ opacity
 ;
 float
 :
-right
+inline
+-
+end
 ;
 /
 *
@@ -9473,7 +9477,9 @@ opacity
 ;
 float
 :
-right
+inline
+-
+end
 ;
 height
 :
@@ -11614,7 +11620,9 @@ opacity
 ;
 float
 :
-right
+inline
+-
+end
 ;
 }
 toolbarpaletteitem
