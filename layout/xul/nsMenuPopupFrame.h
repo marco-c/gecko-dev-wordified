@@ -1665,15 +1665,6 @@ bool
 aSizedToPopup
 )
 ;
-nsView
-*
-GetRootViewForPopup
-(
-nsIFrame
-*
-aStartFrame
-)
-;
 /
 /
 Set
