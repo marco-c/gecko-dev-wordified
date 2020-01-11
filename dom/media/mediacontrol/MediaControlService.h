@@ -463,7 +463,7 @@ RefPtr
 <
 MediaControlKeysEventListener
 >
-mMediaKeysHandlder
+mMediaKeysHandler
 ;
 MediaEventProducer
 <

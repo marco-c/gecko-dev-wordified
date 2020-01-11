@@ -340,6 +340,15 @@ Close
 (
 )
 ;
+virtual
+bool
+IsOpened
+(
+)
+const
+=
+0
+;
 protected
 :
 virtual

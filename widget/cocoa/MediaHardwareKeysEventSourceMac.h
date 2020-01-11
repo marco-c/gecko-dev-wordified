@@ -152,6 +152,13 @@ Close
 )
 override
 ;
+bool
+IsOpened
+(
+)
+const
+override
+;
 private
 :
 ~
