@@ -281,7 +281,7 @@ bool
 aImmediate
 )
 ;
-nsresult
+void
 RunFlushers
 (
 const
