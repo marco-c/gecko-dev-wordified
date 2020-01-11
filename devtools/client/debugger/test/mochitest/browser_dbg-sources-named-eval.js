@@ -209,14 +209,15 @@ js
 \
 n
 )
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-null
+[
+]
 function
 (
 )

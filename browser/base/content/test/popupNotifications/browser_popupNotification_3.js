@@ -1876,14 +1876,15 @@ addProgressListener
 progressListener
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-null
+[
+]
 function
 (
 )

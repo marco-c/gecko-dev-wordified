@@ -134,7 +134,7 @@ html
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -142,9 +142,11 @@ gBrowser
 .
 selectedBrowser
 [
+[
 walker
 .
 actorID
+]
 ]
 async
 function

@@ -710,11 +710,12 @@ result
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 page
 :
@@ -736,6 +737,7 @@ toString
 )
 result
 }
+]
 async
 obj
 =
@@ -888,11 +890,12 @@ result
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 getDataCallback
 :
@@ -904,6 +907,7 @@ toString
 result
 variant
 }
+]
 async
 obj
 =
@@ -1147,11 +1151,12 @@ value
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 page
 :
@@ -1173,6 +1178,7 @@ toString
 )
 value
 }
+]
 async
 obj
 =
@@ -1280,11 +1286,12 @@ value
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 addDataCallback
 :
@@ -1296,6 +1303,7 @@ toString
 value
 variant
 }
+]
 async
 obj
 =

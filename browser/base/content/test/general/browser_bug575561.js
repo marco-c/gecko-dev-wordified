@@ -795,14 +795,16 @@ else
 href
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
 [
+[
 testSubFrame
 aLinkIndexOrFunction
+]
 ]
 function
 (

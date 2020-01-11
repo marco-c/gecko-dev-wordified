@@ -196,12 +196,13 @@ browser
 >
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 async
 (
 )

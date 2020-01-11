@@ -160,7 +160,7 @@ mutations
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -169,7 +169,9 @@ knownTab
 tab
 .
 linkedBrowser
+[
 mutations
+]
 function
 (
 mutations
@@ -207,7 +209,7 @@ let
 actualState
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -216,8 +218,8 @@ knownTab
 tab
 .
 linkedBrowser
-{
-}
+[
+]
 function
 (
 )
@@ -338,7 +340,7 @@ let
 keys
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -347,7 +349,8 @@ knownTab
 tab
 .
 linkedBrowser
-null
+[
+]
 function
 (
 )
@@ -376,7 +379,7 @@ knownTab
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -385,7 +388,8 @@ knownTab
 tab
 .
 linkedBrowser
-null
+[
+]
 function
 (
 )
@@ -411,7 +415,7 @@ knownTab
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -420,7 +424,8 @@ knownTab
 tab
 .
 linkedBrowser
-null
+[
+]
 function
 (
 )

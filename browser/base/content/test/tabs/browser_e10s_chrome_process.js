@@ -671,12 +671,14 @@ link
 "
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 uri
+]
 function
 frame_script
 (

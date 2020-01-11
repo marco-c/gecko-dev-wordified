@@ -597,14 +597,15 @@ tricky
 try
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 testTab
 .
 linkedBrowser
-null
+[
+]
 function
 (
 )

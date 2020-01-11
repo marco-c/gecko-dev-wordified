@@ -116,14 +116,16 @@ await
 iconPromise
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 ROOT
+]
 root
 =
 >

@@ -211,12 +211,14 @@ snippet
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 snippet
+]
 async
 function
 (
@@ -335,6 +337,10 @@ alive
 .
 *
 /
+docShell
+.
+chromeEventHandler
+.
 addEventListener
 (
 "

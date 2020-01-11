@@ -204,13 +204,14 @@ index
 ]
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 {
 element
 :
@@ -224,6 +225,7 @@ test
 type
 index
 }
+]
 async
 function
 (

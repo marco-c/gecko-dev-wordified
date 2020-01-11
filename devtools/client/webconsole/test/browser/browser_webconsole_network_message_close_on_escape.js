@@ -169,14 +169,15 @@ XHR
 POST
 request
 .
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-null
+[
+]
 function
 (
 )

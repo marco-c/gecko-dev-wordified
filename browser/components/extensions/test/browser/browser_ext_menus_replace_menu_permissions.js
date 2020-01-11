@@ -1245,7 +1245,7 @@ export
 helper
 .
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -1265,7 +1265,8 @@ panels
 browser
 "
 )
-null
+[
+]
 (
 )
 =

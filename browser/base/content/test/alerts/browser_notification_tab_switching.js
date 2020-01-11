@@ -201,12 +201,14 @@ evt
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 aBrowser
+[
 evt
+]
 async
 function
 (

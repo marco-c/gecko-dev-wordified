@@ -228,11 +228,12 @@ hiddenFields
 let
 shippingAddressChangePromise
 =
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 eventName
 :
@@ -240,6 +241,7 @@ eventName
 shippingaddresschange
 "
 }
+]
 PTU
 .
 ContentTasks
@@ -727,11 +729,12 @@ createAndShowRequest
 let
 shippingAddressChangePromise
 =
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 eventName
 :
@@ -739,6 +742,7 @@ eventName
 shippingaddresschange
 "
 }
+]
 PTU
 .
 ContentTasks

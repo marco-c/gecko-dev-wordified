@@ -68,12 +68,13 @@ waitForNewWindow
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 function
 (
 )

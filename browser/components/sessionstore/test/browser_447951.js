@@ -383,14 +383,15 @@ to
 session
 history
 )
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
-null
+[
+]
 function
 (
 )

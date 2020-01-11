@@ -198,14 +198,16 @@ monitor
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
+[
 requestUrl
+]
 async
 function
 (

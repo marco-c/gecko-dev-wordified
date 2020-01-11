@@ -286,12 +286,13 @@ then
 =
 >
 {
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 function
 (
 )

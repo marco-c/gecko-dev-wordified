@@ -121,12 +121,13 @@ let
 duration
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 aBrowser
-null
+[
+]
 function
 (
 opts

@@ -177,14 +177,16 @@ repeat
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 LONGSTRING
+]
 function
 (
 longString

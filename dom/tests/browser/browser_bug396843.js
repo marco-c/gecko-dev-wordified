@@ -2382,11 +2382,12 @@ browser
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 location
 testInDocument_
@@ -2397,6 +2398,7 @@ toSource
 (
 )
 }
+]
 async
 function
 (

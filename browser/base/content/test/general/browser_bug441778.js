@@ -322,12 +322,14 @@ resolve
 }
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
 testBrowser
+[
 TEST_IFRAME_URL
+]
 url
 =
 >
