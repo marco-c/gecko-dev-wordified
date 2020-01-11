@@ -1342,6 +1342,15 @@ aSetNavigating
 false
 )
 ;
+void
+DisplayLoadError
+(
+const
+nsAString
+&
+aURI
+)
+;
 /
 /
 Determine
