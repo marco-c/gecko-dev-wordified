@@ -558,6 +558,9 @@ mLoadFlags
 nsresult
 mStatus
 ;
+bool
+mCanceled
+;
 int64_t
 mContentLength
 ;

@@ -350,6 +350,10 @@ mStatus
 (
 NS_OK
 )
+mCanceled
+(
+false
+)
 mContentLength
 (
 aContentLength
@@ -1208,6 +1212,10 @@ nsresult
 aStatus
 )
 {
+mCanceled
+=
+true
+;
 mStatus
 =
 aStatus
@@ -1238,10 +1246,7 @@ aCanceled
 *
 aCanceled
 =
-NS_FAILED
-(
-mStatus
-)
+mCanceled
 ;
 return
 NS_OK
