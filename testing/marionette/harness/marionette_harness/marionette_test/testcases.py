@@ -80,14 +80,7 @@ unittest
 .
 case
 import
-(
-    
-_ExpectedFailure
-    
-_UnexpectedSuccess
-    
 SkipTest
-)
 from
 marionette_driver
 .
@@ -188,6 +181,89 @@ __doc__
     
 return
 wrapper
+class
+ExpectedFailure
+(
+Exception
+)
+:
+    
+"
+"
+"
+    
+Raise
+this
+when
+a
+test
+is
+expected
+to
+fail
+.
+    
+This
+is
+an
+implementation
+detail
+.
+    
+"
+"
+"
+    
+def
+__init__
+(
+self
+exc_info
+)
+:
+        
+super
+(
+ExpectedFailure
+self
+)
+.
+__init__
+(
+)
+        
+self
+.
+exc_info
+=
+exc_info
+class
+UnexpectedSuccess
+(
+Exception
+)
+:
+    
+"
+"
+"
+    
+The
+test
+was
+supposed
+to
+fail
+but
+it
+didn
+'
+t
+!
+    
+"
+"
+"
 class
 MetaParameterized
 (
@@ -880,7 +956,7 @@ Exception
 :
                         
 raise
-_ExpectedFailure
+ExpectedFailure
 (
 sys
 .
@@ -925,7 +1001,7 @@ UnresponsiveInstanceException
 raise
             
 except
-_ExpectedFailure
+ExpectedFailure
 as
 e
 :
@@ -989,7 +1065,7 @@ Exception
 :
                             
 raise
-_ExpectedFailure
+ExpectedFailure
 (
 sys
 .
@@ -999,7 +1075,7 @@ exc_info
 )
                         
 raise
-_UnexpectedSuccess
+UnexpectedSuccess
                     
 else
 :
@@ -1042,7 +1118,7 @@ UnresponsiveInstanceException
 raise
                 
 except
-_ExpectedFailure
+ExpectedFailure
 as
 e
 :
@@ -1056,7 +1132,7 @@ exc_info
 )
                 
 except
-_UnexpectedSuccess
+UnexpectedSuccess
 :
                     
 addUnexpectedSuccess
@@ -1192,7 +1268,7 @@ Exception
 :
                             
 raise
-_ExpectedFailure
+ExpectedFailure
 (
 sys
 .
@@ -1220,7 +1296,7 @@ UnresponsiveInstanceException
 raise
                 
 except
-_ExpectedFailure
+ExpectedFailure
 as
 e
 :
