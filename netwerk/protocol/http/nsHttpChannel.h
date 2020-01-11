@@ -1985,6 +1985,15 @@ ContinueProcessResponse2
 nsresult
 )
 ;
+private
+:
+void
+AssertNotDocumentChennel
+(
+)
+;
+public
+:
 void
 UpdateCacheDisposition
 (
