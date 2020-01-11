@@ -689,6 +689,11 @@ mozfile
 .
 NamedTemporaryFile
 (
+mode
+=
+'
+r
+'
 )
     
 flake8_cmd
@@ -1169,6 +1174,8 @@ res
 )
 )
     
+list
+(
 map
 (
 process_line
@@ -1176,6 +1183,7 @@ output_file
 .
 readlines
 (
+)
 )
 )
     
