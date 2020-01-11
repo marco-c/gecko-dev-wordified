@@ -216,7 +216,10 @@ crate
 picture
 :
 :
+{
 SurfaceInfo
+ResolvedSurfaceTexture
+}
 ;
 use
 crate
@@ -4633,13 +4636,9 @@ struct
 PictureCacheTarget
 {
 pub
-texture
+surface
 :
-TextureSource
-pub
-layer
-:
-usize
+ResolvedSurfaceTexture
 pub
 alpha_batch_container
 :
