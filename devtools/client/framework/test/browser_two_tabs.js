@@ -518,6 +518,8 @@ error
 is
 (
 error
+.
+message
 "
 Protocol
 error
@@ -579,6 +581,8 @@ error
 is
 (
 error
+.
+message
 "
 Protocol
 error

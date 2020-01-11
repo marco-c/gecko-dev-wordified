@@ -320,7 +320,7 @@ catch
 (
 function
 (
-response
+error
 )
 {
 Assert
@@ -329,7 +329,9 @@ ok
 (
 !
 !
-response
+error
+.
+message
 .
 match
 (
