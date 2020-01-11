@@ -171,7 +171,7 @@ FxAccounts
 config
 :
 {
-promiseConnectAccountURI
+promiseEmailFirstURI
 :
 sandbox
 .

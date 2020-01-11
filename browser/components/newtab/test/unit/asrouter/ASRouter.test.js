@@ -13782,7 +13782,7 @@ FxAccounts
 config
 :
 {
-promiseConnectAccountURI
+promiseSignUpURI
 :
 sandbox
 .

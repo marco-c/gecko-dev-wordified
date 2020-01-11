@@ -2916,7 +2916,7 @@ FxAccounts
 .
 config
 .
-promiseConnectAccountURI
+promiseSignUpURI
 (
 "
 uitour

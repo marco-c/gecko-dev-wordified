@@ -589,6 +589,7 @@ example
 .
 com
 /
+signup
 ?
 service
 =
@@ -601,10 +602,6 @@ fx_desktop_v3
 entrypoint
 =
 uitour
-&
-action
-=
-email
 "
 )
 ;
@@ -672,6 +669,7 @@ example
 .
 com
 /
+signup
 ?
 service
 =
@@ -684,10 +682,6 @@ fx_desktop_v3
 entrypoint
 =
 uitour
-&
-action
-=
-email
 &
 utm_foo
 =
@@ -940,6 +934,7 @@ example
 .
 com
 /
+signup
 ?
 service
 =
@@ -952,10 +947,6 @@ fx_desktop_v3
 entrypoint
 =
 uitour
-&
-action
-=
-email
 &
 utm_foo
 =
