@@ -43,7 +43,7 @@ Boolean
 .
 prototype
 .
-toSource
+toString
 .
 call
 (

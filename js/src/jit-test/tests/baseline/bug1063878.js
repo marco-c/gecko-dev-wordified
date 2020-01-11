@@ -72,9 +72,7 @@ y
 {
 get
 :
-Math
-.
-toSource
+String
 }
 )
 ;
@@ -134,7 +132,6 @@ gety
 (
 )
 "
-Math
 "
 )
 ;

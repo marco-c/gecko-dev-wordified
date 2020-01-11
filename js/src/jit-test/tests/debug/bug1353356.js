@@ -141,7 +141,7 @@ Number
 .
 prototype
 .
-toSource
+toString
 .
 call
 (
