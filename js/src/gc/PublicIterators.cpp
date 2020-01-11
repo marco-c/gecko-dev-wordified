@@ -1058,13 +1058,7 @@ cx
 suppressGC
 )
 ;
-AutoEmptyNursery
-empty
-(
-cx
-)
-;
-AutoPrepareForTracing
+AutoEmptyNurseryAndPrepareForTracing
 prep
 (
 cx
@@ -1105,7 +1099,7 @@ cellIter
 T
 >
 (
-empty
+prep
 )
 ;
 !
@@ -1198,7 +1192,7 @@ cellIter
 T
 >
 (
-empty
+prep
 )
 ;
 !
