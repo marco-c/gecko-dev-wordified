@@ -1925,6 +1925,16 @@ ResetPrefersReducedMotionOverrideForTest
 )
 override
 ;
+void
+UpdateDynamicToolbarOffset
+(
+mozilla
+:
+:
+ScreenIntCoord
+aOffset
+)
+;
 protected
 :
 void

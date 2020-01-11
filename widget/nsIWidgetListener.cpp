@@ -264,6 +264,17 @@ aHeight
 )
 {
 }
+void
+nsIWidgetListener
+:
+:
+DynamicToolbarOffsetChanged
+(
+ScreenIntCoord
+aOffset
+)
+{
+}
 #
 endif
 void

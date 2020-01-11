@@ -483,6 +483,17 @@ ScreenIntCoord
 aHeight
 )
 ;
+virtual
+void
+DynamicToolbarOffsetChanged
+(
+mozilla
+:
+:
+ScreenIntCoord
+aOffset
+)
+;
 #
 endif
 /
