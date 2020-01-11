@@ -859,6 +859,18 @@ path
 lambda
 path
 :
+(
+"
+[
+u
+'
+test_name
+'
+]
+"
+in
+path
+or
 "
 [
 u
@@ -869,6 +881,7 @@ json_location
 "
 in
 path
+                  
 or
 "
 [
@@ -880,6 +893,7 @@ video_location
 "
 in
 path
+)
 ]
 def
 check_schema
