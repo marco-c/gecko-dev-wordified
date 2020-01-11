@@ -2656,7 +2656,14 @@ Services
 .
 search
 .
-defaultEngine
+getEngineByName
+(
+result
+.
+payload
+.
+engine
+)
 ;
 UrlbarUtils
 .
