@@ -123,6 +123,13 @@ mozilla_GraphRunner_h
 #
 include
 "
+GraphDriver
+.
+h
+"
+#
+include
+"
 MediaSegment
 .
 h
@@ -151,9 +158,6 @@ class
 AudioMixer
 ;
 class
-GraphDriver
-;
-class
 MediaTrackGraphImpl
 ;
 class
@@ -163,6 +167,14 @@ final
 public
 Runnable
 {
+using
+IterationResult
+=
+GraphDriver
+:
+:
+IterationResult
+;
 public
 :
 static
@@ -229,7 +241,7 @@ there
 .
 *
 /
-bool
+IterationResult
 OneIteration
 (
 GraphTime
@@ -504,7 +516,7 @@ mIterationState
 ;
 /
 /
-Reply
+Result
 from
 mGraph
 '
@@ -515,8 +527,8 @@ Protected
 by
 mMonitor
 .
-bool
-mStillProcessing
+IterationResult
+mIterationResult
 ;
 enum
 class
@@ -566,7 +578,7 @@ mStateEnd
 /
 and
 sets
-mStillProcessing
+mIterationResult
 .
 Run
 /

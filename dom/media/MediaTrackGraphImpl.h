@@ -663,6 +663,14 @@ nsITimerCallback
 public
 nsINamed
 {
+using
+IterationResult
+=
+GraphDriver
+:
+:
+IterationResult
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -1390,7 +1398,7 @@ null
 .
 *
 /
-bool
+IterationResult
 OneIteration
 (
 GraphTime
@@ -1414,7 +1422,7 @@ keep
 running
 *
 /
-bool
+IterationResult
 OneIterationImpl
 (
 GraphTime
