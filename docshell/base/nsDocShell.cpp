@@ -39169,6 +39169,9 @@ sURIFixup
 KeywordToURI
 (
 mOriginalUriString
+UsePrivateBrowsing
+(
+)
 getter_AddRefs
 (
 newPostData
@@ -39345,6 +39348,9 @@ sURIFixup
 KeywordToURI
 (
 utf8Host
+UsePrivateBrowsing
+(
+)
 getter_AddRefs
 (
 newPostData
@@ -39364,6 +39370,9 @@ sURIFixup
 KeywordToURI
 (
 host
+UsePrivateBrowsing
+(
+)
 getter_AddRefs
 (
 newPostData

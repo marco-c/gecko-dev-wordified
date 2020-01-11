@@ -6089,6 +6089,10 @@ const
 nsCString
 &
 aKeyword
+const
+bool
+&
+aIsPrivateContext
 nsString
 *
 aProviderName

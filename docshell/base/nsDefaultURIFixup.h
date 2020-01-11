@@ -217,6 +217,8 @@ aStringURI
 nsDefaultURIFixupInfo
 *
 aFixupInfo
+bool
+aIsPrivateContext
 nsIInputStream
 *
 *
@@ -233,6 +235,8 @@ aStringURI
 nsDefaultURIFixupInfo
 *
 aFixupInfo
+bool
+aIsPrivateContext
 nsIInputStream
 *
 *

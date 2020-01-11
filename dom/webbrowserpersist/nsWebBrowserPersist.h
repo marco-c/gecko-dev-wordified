@@ -399,9 +399,6 @@ URIData
 struct
 WalkData
 ;
-struct
-URIFixupData
-;
 class
 OnWalk
 ;
