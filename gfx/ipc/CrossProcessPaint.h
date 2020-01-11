@@ -506,10 +506,13 @@ protected
 :
 friend
 struct
-IPC
+mozilla
 :
 :
-ParamTraits
+ipc
+:
+:
+IPDLParamTraits
 <
 PaintFragment
 >
