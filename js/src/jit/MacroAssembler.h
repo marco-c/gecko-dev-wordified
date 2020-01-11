@@ -24511,7 +24511,7 @@ MIRType
 Pointer
 ;
 case
-ArgType_Double
+ArgType_Float64
 :
 return
 MIRType
