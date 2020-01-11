@@ -726,9 +726,6 @@ aOptionalLoadInfoArgs
 nsINode
 *
 aLoadingContext
-nsINode
-*
-aCspToInheritLoadingContext
 nsILoadInfo
 *
 *
@@ -776,9 +773,6 @@ aOptionalLoadInfoArgs
 nsINode
 *
 aLoadingContext
-nsINode
-*
-aCspToInheritLoadingContext
 mozilla
 :
 :
