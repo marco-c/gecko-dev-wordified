@@ -724,7 +724,7 @@ toolbox
 -
 options
 .
-xhtml
+html
 "
 icon
 :
