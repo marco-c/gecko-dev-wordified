@@ -1415,8 +1415,16 @@ decryption
 current
 allowance
 is
-304
+320
 octets
+/
+/
+see
+MAX_EXPANSION
+in
+ssl3con
+.
+c
 )
 .
 TEST_P
@@ -1451,7 +1459,7 @@ TlsRecordExpander
 >
 (
 server_
-320
+336
 )
 ;
 server_

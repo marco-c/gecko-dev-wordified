@@ -1431,6 +1431,7 @@ outlen
 ;
 if
 (
+!
 outbuf
 -
 >
