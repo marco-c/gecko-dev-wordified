@@ -261,15 +261,7 @@ mThread
 }
 ;
 }
-/
-/
-namespace
-webgpu
 }
-/
-/
-namespace
-mozilla
 #
 endif
 /
