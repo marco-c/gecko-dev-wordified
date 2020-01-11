@@ -336,11 +336,6 @@ closure
 .
 let
 closure
-:
-Box
-<
-F
->
 =
 unsafe
 {
@@ -376,7 +371,7 @@ closure
 is
 released
 after
-finishiing
+finishing
 this
 function
 call
@@ -384,11 +379,6 @@ call
 }
 let
 closure
-:
-Box
-<
-F
->
 =
 Box
 :
