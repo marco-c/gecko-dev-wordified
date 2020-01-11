@@ -300,6 +300,22 @@ subtests
 '
 :
 subtests
+                    
+'
+shouldAlert
+'
+:
+test
+.
+test_config
+.
+get
+(
+'
+suite_should_alert
+'
+True
+)
                 
 }
                 
@@ -1436,6 +1452,22 @@ subtests
 '
 :
 counter_subtests
+                               
+'
+shouldAlert
+'
+:
+test
+.
+test_config
+.
+get
+(
+'
+suite_should_alert
+'
+True
+)
 }
 )
         
