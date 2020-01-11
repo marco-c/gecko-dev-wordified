@@ -2620,9 +2620,11 @@ ShapedTextFlags
 TEXT_ENABLE_SPACING
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -2636,11 +2638,14 @@ aRange
 Length
 (
 )
+fallible
 )
 )
+{
 return
 false
 ;
+}
 auto
 spacingOffset
 =
@@ -8276,6 +8281,7 @@ aRange
 Length
 (
 )
+fallible
 )
 )
 {
