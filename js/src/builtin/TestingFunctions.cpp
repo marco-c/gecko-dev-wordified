@@ -29916,9 +29916,7 @@ global
 )
 ;
 content
-.
-reset
-(
+=
 js
 :
 :
@@ -29927,7 +29925,6 @@ GetCodeCoverageSummary
 cx
 &
 length
-)
 )
 ;
 }
