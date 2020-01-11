@@ -790,6 +790,7 @@ memory
 accounting
 purposes
 .
+const
 GCPtrObject
 picObject_
 ;

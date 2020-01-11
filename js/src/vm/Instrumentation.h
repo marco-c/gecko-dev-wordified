@@ -378,6 +378,7 @@ on
 instrumentation
 operations
 .
+const
 GCPtrObject
 callback
 ;
@@ -412,6 +413,7 @@ the
 /
 realm
 .
+const
 GCPtrObject
 dbgObject
 ;

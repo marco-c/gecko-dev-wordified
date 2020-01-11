@@ -641,9 +641,11 @@ friend
 class
 ReceiverGuard
 ;
+const
 GCPtrObjectGroup
 group_
 ;
+const
 GCPtrShape
 shape_
 ;
