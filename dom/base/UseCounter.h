@@ -194,17 +194,6 @@ name_
 _setter
 #
 define
-USE_COUNTER_CSS_PROPERTY
-(
-name_
-id_
-)
-eUseCounter_property_
-#
-#
-id_
-#
-define
 USE_COUNTER_CUSTOM
 (
 name_
@@ -231,9 +220,6 @@ USE_COUNTER_DOM_METHOD
 #
 undef
 USE_COUNTER_DOM_ATTRIBUTE
-#
-undef
-USE_COUNTER_CSS_PROPERTY
 #
 undef
 USE_COUNTER_CUSTOM
