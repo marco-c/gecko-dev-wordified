@@ -228,7 +228,12 @@ key
 }
 :
 {
+JSON
+.
+stringify
+(
 value
+)
 }
 )
 )

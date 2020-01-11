@@ -161,10 +161,6 @@ false
 experimental
 :
 true
-unsupportedBrowsers
-:
-[
-]
 }
 {
 type
@@ -219,10 +215,6 @@ true
 experimental
 :
 false
-unsupportedBrowsers
-:
-[
-]
 }
 ]
 ;
