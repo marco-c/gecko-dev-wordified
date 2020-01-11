@@ -2854,7 +2854,7 @@ void
 WindowBackBufferShm
 :
 :
-Release
+ReleaseShmSurface
 (
 )
 {
@@ -2981,7 +2981,7 @@ WindowBackBufferShm
 (
 )
 {
-Release
+ReleaseShmSurface
 (
 )
 ;
@@ -3043,7 +3043,7 @@ aHeight
 )
 )
 ;
-Release
+ReleaseShmSurface
 (
 )
 ;

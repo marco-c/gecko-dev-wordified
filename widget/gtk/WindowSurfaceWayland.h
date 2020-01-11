@@ -630,7 +630,7 @@ aHeight
 )
 ;
 void
-Release
+ReleaseShmSurface
 (
 )
 ;
