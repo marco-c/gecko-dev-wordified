@@ -5,10 +5,10 @@ std
 str
 ;
 use
-find_byte
+memchr
 :
 :
-find_byte
+memchr
 ;
 use
 re_bytes
@@ -48,7 +48,7 @@ is_empty
 )
 {
 match
-find_byte
+memchr
 (
 b
 '
@@ -344,7 +344,7 @@ is_empty
 )
 {
 match
-find_byte
+memchr
 (
 b
 '
@@ -1227,7 +1227,7 @@ b
 '
 .
 .
-=
+.
 b
 '
 9
@@ -1239,7 +1239,7 @@ a
 '
 .
 .
-=
+.
 b
 '
 z
@@ -1251,7 +1251,7 @@ A
 '
 .
 .
-=
+.
 b
 '
 Z
@@ -1285,8 +1285,8 @@ super
 :
 :
 {
-find_cap_ref
 CaptureRef
+find_cap_ref
 }
 ;
 macro_rules

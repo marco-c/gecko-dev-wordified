@@ -215,7 +215,7 @@ integer128
 )
 ]
 use
-d2s_intrinsics
+mulshift128
 :
 :
 *
@@ -1328,8 +1328,6 @@ shiftright128
 low0
 sum
 delta
-as
-u32
 )
 +
 (
@@ -1357,8 +1355,6 @@ shiftright128
 sum
 high1
 delta
-as
-u32
 )
 )
 }
@@ -1637,8 +1633,6 @@ shiftright128
 low0
 sum
 delta
-as
-u32
 )
 +
 1
@@ -1681,8 +1675,6 @@ shiftright128
 sum
 high1
 delta
-as
-u32
 )
 )
 }

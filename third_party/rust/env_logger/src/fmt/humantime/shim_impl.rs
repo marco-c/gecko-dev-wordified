@@ -20,7 +20,6 @@ dependency
 pub
 (
 in
-crate
 :
 :
 fmt
