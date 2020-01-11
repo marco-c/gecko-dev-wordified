@@ -215,6 +215,17 @@ new
 nsSHistory
 (
 aDocShell
+-
+>
+GetBrowsingContext
+(
+)
+aDocShell
+-
+>
+HistoryID
+(
+)
 )
 )
 {

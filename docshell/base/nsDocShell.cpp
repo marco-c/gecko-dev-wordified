@@ -2813,7 +2813,7 @@ LegacySHistory
 )
 -
 >
-ClearRootDocShell
+ClearRootBrowsingContext
 (
 )
 ;
