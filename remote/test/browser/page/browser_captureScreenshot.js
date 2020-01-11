@@ -44,6 +44,7 @@ Page
 }
 )
 {
+await
 loadURL
 (
 toDataURL
@@ -204,6 +205,7 @@ Page
 }
 )
 {
+await
 loadURL
 (
 toDataURL
@@ -372,6 +374,7 @@ Page
 }
 )
 {
+await
 loadURL
 (
 toDataURL
@@ -446,6 +449,7 @@ Page
 }
 )
 {
+await
 loadURL
 (
 toDataURL
@@ -600,6 +604,7 @@ Page
 }
 )
 {
+await
 loadURL
 (
 toDataURL
@@ -1009,19 +1014,8 @@ default
 "
 )
 ;
-/
-/
-Disabled
-due
-to
-bug
-1594871
-/
-/
 ok
 (
-/
-/
 info10
 .
 length
@@ -1029,8 +1023,6 @@ length
 infoDefault
 .
 length
-/
-/
 "
 Size
 of
@@ -1041,8 +1033,6 @@ smaller
 than
 default
 "
-/
-/
 )
 ;
 }
