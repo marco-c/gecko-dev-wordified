@@ -1152,35 +1152,12 @@ if
 full
 :
             
-#
-mozfile
-doesn
-'
-t
-like
-unicode
-arguments
-(
-bug
-818783
-)
-.
-            
 paths
 =
 [
 self
 .
 topobjdir
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 ]
         
 else
