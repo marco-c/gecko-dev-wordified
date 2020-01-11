@@ -6332,16 +6332,6 @@ GetFrame
 )
 )
 {
-MOZ_ASSERT
-(
-mContent
--
->
-OwnerDoc
-(
-)
-)
-;
 frameloader
 -
 >
