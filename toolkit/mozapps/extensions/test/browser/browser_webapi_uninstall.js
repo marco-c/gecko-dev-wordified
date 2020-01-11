@@ -111,14 +111,12 @@ id
 )
 {
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 id
-]
 async
 function
 (
