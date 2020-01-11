@@ -2562,6 +2562,12 @@ mCompositorInitiallyPaused
 ;
 #
 endif
+bool
+mWindowScaleFactorChanged
+;
+int
+mWindowScaleFactor
+;
 private
 :
 void
