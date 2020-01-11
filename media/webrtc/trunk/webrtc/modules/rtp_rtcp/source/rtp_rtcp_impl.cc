@@ -600,6 +600,9 @@ configuration
 bandwidth_callback
 configuration
 .
+event_callback
+configuration
+.
 intra_frame_callback
 configuration
 .

@@ -337,6 +337,9 @@ packet_type_counter_observer
 RtcpBandwidthObserver
 *
 rtcp_bandwidth_observer
+RtcpEventObserver
+*
+rtcp_event_observer
 RtcpIntraFrameObserver
 *
 rtcp_intra_frame_observer
@@ -1195,6 +1198,11 @@ RtcpBandwidthObserver
 *
 const
 rtcp_bandwidth_observer_
+;
+RtcpEventObserver
+*
+const
+rtcp_event_observer_
 ;
 RtcpIntraFrameObserver
 *
