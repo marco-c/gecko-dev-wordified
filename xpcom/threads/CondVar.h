@@ -443,7 +443,7 @@ h
 *
 *
 /
-nsresult
+void
 Notify
 (
 )
@@ -453,9 +453,6 @@ mImpl
 notify_one
 (
 )
-;
-return
-NS_OK
 ;
 }
 /
@@ -471,7 +468,7 @@ h
 *
 *
 /
-nsresult
+void
 NotifyAll
 (
 )
@@ -481,9 +478,6 @@ mImpl
 notify_all
 (
 )
-;
-return
-NS_OK
 ;
 }
 #

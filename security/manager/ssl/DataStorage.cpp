@@ -2726,9 +2726,6 @@ mReady
 =
 true
 ;
-nsresult
-rv
-=
 mDataStorage
 -
 >
@@ -2736,17 +2733,6 @@ mReadyMonitor
 .
 NotifyAll
 (
-)
-;
-Unused
-<
-<
-NS_WARN_IF
-(
-NS_FAILED
-(
-rv
-)
 )
 ;
 }
