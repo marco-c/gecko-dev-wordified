@@ -301,14 +301,6 @@ override
 ;
 virtual
 bool
-IsDoubleBuffered
-(
-)
-const
-override
-;
-virtual
-bool
 SwapBuffers
 (
 )
