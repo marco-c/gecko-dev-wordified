@@ -2177,6 +2177,8 @@ CertID
 certID
 Time
 time
+Time
+validityBeginning
 Duration
 validityDuration
 /
