@@ -5320,7 +5320,7 @@ linking
 wast
 :
 206
-assert_unlinkable
+assert_uninstantiable
 (
 "
 \
@@ -5693,7 +5693,7 @@ linking
 wast
 :
 229
-assert_unlinkable
+assert_uninstantiable
 (
 "
 \
@@ -5892,7 +5892,7 @@ linking
 wast
 :
 240
-assert_unlinkable
+assert_uninstantiable
 (
 "
 \
@@ -7110,7 +7110,7 @@ linking
 wast
 :
 300
-assert_unlinkable
+assert_uninstantiable
 (
 "
 \
@@ -7784,7 +7784,7 @@ linking
 wast
 :
 338
-assert_unlinkable
+assert_uninstantiable
 (
 "
 \
@@ -7919,7 +7919,7 @@ linking
 wast
 :
 348
-assert_unlinkable
+assert_uninstantiable
 (
 "
 \

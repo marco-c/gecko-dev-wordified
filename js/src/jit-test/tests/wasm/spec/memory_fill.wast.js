@@ -2000,7 +2000,7 @@ memory_fill
 wast
 :
 117
-run
+assert_trap
 (
 (
 )
