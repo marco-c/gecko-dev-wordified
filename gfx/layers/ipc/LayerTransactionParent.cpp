@@ -5978,7 +5978,7 @@ aShmem
 )
 ;
 }
-void
+bool
 LayerTransactionParent
 :
 :
@@ -6002,8 +6002,10 @@ mDestroyed
 )
 {
 return
+false
 ;
 }
+return
 PLayerTransactionParent
 :
 :

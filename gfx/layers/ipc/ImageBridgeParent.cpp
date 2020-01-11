@@ -2675,7 +2675,7 @@ aShmem
 )
 ;
 }
-void
+bool
 ImageBridgeParent
 :
 :
@@ -2695,8 +2695,10 @@ mClosed
 )
 {
 return
+false
 ;
 }
+return
 PImageBridgeParent
 :
 :
