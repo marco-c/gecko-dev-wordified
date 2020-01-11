@@ -840,12 +840,14 @@ anyref
 )
 (
 elem
+0
 (
 i32
 .
 const
 0
 )
+func
 f1
 )
 )
@@ -919,7 +921,7 @@ anyref
 )
 (
 elem
-passive
+func
 f1
 )
 (
