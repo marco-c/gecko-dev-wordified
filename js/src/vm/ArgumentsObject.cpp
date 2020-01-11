@@ -3526,7 +3526,7 @@ arg
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 -
@@ -4871,7 +4871,7 @@ arg
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 -

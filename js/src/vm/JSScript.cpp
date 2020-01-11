@@ -6509,7 +6509,7 @@ MOZ_ASSERT
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 =
@@ -30623,7 +30623,7 @@ treatAsRunOnce
 src
 -
 >
-functionNonDelazifying
+function
 (
 )
 )
@@ -33499,7 +33499,7 @@ MOZ_ASSERT
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 )

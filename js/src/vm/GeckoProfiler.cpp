@@ -2183,7 +2183,7 @@ hasName
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 |

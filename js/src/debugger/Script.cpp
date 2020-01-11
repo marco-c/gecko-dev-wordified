@@ -2321,7 +2321,7 @@ JSScript
 )
 -
 >
-functionNonDelazifying
+function
 (
 )
 )
@@ -2426,7 +2426,7 @@ obj
 JSScript
 :
 :
-functionNonDelazifying
+function
 &
 LazyScript
 :

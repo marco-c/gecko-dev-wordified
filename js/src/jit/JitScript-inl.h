@@ -277,7 +277,7 @@ i
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 -

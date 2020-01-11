@@ -1180,7 +1180,7 @@ nonLazyScript
 )
 -
 >
-functionNonDelazifying
+function
 (
 )
 ;

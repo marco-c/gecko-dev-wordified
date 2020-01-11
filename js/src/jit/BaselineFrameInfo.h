@@ -1405,7 +1405,7 @@ return
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 -

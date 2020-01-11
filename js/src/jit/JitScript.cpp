@@ -411,7 +411,7 @@ fun
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 )
@@ -1365,11 +1365,11 @@ this
 unsigned
 nargs
 =
-functionNonDelazifying
+function
 (
 )
 ?
-functionNonDelazifying
+function
 (
 )
 -
@@ -1977,7 +1977,7 @@ if
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 )
@@ -2064,7 +2064,7 @@ if
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 )
@@ -2078,7 +2078,7 @@ name
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 -
@@ -2130,7 +2130,7 @@ i
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 &
@@ -2140,7 +2140,7 @@ i
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 -
@@ -3962,7 +3962,7 @@ if
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 )
@@ -3974,7 +3974,7 @@ cx
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 )

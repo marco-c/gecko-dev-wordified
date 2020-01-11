@@ -26571,7 +26571,7 @@ name
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 -
@@ -26637,7 +26637,7 @@ name
 innerScript
 -
 >
-functionNonDelazifying
+function
 (
 )
 -

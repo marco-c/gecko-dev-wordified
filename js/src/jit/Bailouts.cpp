@@ -498,7 +498,7 @@ script
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 /
@@ -1256,7 +1256,7 @@ script
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 /

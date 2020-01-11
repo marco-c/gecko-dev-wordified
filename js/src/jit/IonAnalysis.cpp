@@ -35306,7 +35306,7 @@ script
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 /

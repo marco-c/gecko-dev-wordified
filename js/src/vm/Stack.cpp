@@ -1842,7 +1842,7 @@ script
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 this
@@ -1903,7 +1903,7 @@ script
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 hasPushedGeckoProfilerFrame
@@ -6382,7 +6382,7 @@ script
 )
 -
 >
-functionNonDelazifying
+function
 (
 )
 ;
@@ -8209,7 +8209,7 @@ script
 )
 -
 >
-functionNonDelazifying
+function
 (
 )
 -
