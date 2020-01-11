@@ -690,13 +690,6 @@ ContentObservers
 js
 "
 "
-data
-:
-ChromeUtils
-.
-import
-(
-'
 resource
 :
 /
@@ -705,11 +698,9 @@ gre
 /
 modules
 /
-ExtensionProcessScript
+extensionProcessScriptLoader
 .
-jsm
-'
-)
+js
 "
 "
 resource
