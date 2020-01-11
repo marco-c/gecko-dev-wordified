@@ -578,6 +578,13 @@ bool
 aReplace
 )
 ;
+bool
+RecvNotifyListenersContentViewerEvicted
+(
+uint32_t
+aNumEvicted
+)
+;
 RefPtr
 <
 CanonicalBrowsingContext

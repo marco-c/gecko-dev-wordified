@@ -5253,6 +5253,13 @@ if
 viewer
 )
 {
+mShared
+-
+>
+NotifyListenersContentViewerEvicted
+(
+)
+;
 /
 /
 Drop
