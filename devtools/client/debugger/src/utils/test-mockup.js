@@ -214,6 +214,16 @@ null
 isExtension
 :
 false
+isOriginal
+:
+id
+.
+includes
+(
+"
+originalSource
+"
+)
 }
 ;
 }
@@ -406,6 +416,9 @@ extensionName
 :
 null
 isExtension
+:
+false
+isOriginal
 :
 false
 }

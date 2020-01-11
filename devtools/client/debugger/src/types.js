@@ -1619,6 +1619,10 @@ boolean
 isWasm
 :
 boolean
++
+isOriginal
+:
+boolean
 }
 ;
 /

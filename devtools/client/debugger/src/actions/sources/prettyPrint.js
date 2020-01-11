@@ -529,6 +529,9 @@ false
 extensionName
 :
 null
+isOriginal
+:
+true
 }
 ;
 dispatch

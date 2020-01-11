@@ -637,12 +637,9 @@ state
 selectedTab
 .
 url
-isOriginalId
-(
 selectedTab
 .
-id
-)
+isOriginal
 )
 ;
 if

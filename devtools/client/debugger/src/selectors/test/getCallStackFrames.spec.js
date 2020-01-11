@@ -245,6 +245,9 @@ sourceId
 -
 originalSource
 "
+isOriginal
+:
+true
 }
 }
 ;
@@ -878,6 +881,9 @@ sourceId
 -
 originalSource
 "
+isOriginal
+:
+true
 }
 }
 ;
