@@ -2575,13 +2575,14 @@ navigation
 ]
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 testCases
 .
 map
@@ -2601,6 +2602,7 @@ headers
 }
 )
 )
+]
 function
 (
 tests

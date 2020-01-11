@@ -117,14 +117,16 @@ text
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 text
+]
 text
 =
 >

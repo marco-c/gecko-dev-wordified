@@ -380,7 +380,7 @@ false
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -389,7 +389,9 @@ win
 gBrowser
 .
 selectedBrowser
+[
 TEST_URI
+]
 url
 =
 >
@@ -486,7 +488,7 @@ true
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -495,7 +497,9 @@ win
 gBrowser
 .
 selectedBrowser
+[
 TEST_URI
+]
 url
 =
 >

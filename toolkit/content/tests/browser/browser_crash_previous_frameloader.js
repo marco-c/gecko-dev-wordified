@@ -576,12 +576,13 @@ remote
 one
 .
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 function
 (
 )
@@ -707,6 +708,10 @@ to
 crash
 the
 frameloader
+.
+docShell
+.
+chromeEventHandler
 .
 addEventListener
 (

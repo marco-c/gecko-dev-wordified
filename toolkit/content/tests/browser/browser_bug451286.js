@@ -357,14 +357,15 @@ been
 highlighted
 manually
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
-null
+[
+]
 async
 function
 (

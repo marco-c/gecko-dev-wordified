@@ -588,13 +588,13 @@ async
 )
 =
 >
-ContentTask
+SpecialPowers
 .
 spawn
 (
 swBrowser
-{
-}
+[
+]
 function
 (
 )

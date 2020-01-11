@@ -170,11 +170,12 @@ true
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 base1
 :
@@ -183,6 +184,7 @@ base2
 :
 BASE2
 }
+]
 async
 function
 (

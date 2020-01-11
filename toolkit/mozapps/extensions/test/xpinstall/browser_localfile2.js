@@ -268,12 +268,14 @@ browser
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 URI
+]
 async
 function
 (

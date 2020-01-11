@@ -334,12 +334,14 @@ browser
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 test_cases
+]
 function
 *
 (

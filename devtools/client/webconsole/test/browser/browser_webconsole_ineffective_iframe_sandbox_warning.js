@@ -306,14 +306,16 @@ hud
 sentinel
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 sentinel
+]
 function
 (
 msg

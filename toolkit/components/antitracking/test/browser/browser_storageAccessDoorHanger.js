@@ -1233,11 +1233,12 @@ disableWaitUntilPermission
 let
 ct
 =
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 page
 :
@@ -1252,6 +1253,7 @@ toString
 choice
 useEscape
 }
+]
 async
 function
 (

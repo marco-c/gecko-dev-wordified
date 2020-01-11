@@ -384,12 +384,14 @@ message
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 message
+]
 function
 (
 msg

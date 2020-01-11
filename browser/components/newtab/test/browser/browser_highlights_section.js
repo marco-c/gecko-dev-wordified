@@ -76,14 +76,15 @@ the
 items
 .
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
-null
+[
+]
 async
 (
 )

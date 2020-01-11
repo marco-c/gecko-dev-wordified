@@ -49,12 +49,14 @@ browser
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 itemClass
+]
 async
 function
 (

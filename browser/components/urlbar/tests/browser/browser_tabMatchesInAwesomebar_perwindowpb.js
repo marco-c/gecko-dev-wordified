@@ -438,14 +438,15 @@ no
 child
 nodes
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 testTab
 .
 linkedBrowser
-null
+[
+]
 async
 function
 (

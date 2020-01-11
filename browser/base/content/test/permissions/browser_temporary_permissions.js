@@ -438,14 +438,16 @@ a
 permission
 .
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 uri
 .
 host
+]
 async
 function
 (

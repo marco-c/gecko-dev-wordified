@@ -7319,14 +7319,16 @@ count
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
+[
 count
+]
 requestCount
 =
 >

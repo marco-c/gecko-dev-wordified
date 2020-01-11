@@ -573,13 +573,14 @@ expectedPrecision
 ;
 }
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
+[
 {
 list
 :
@@ -596,6 +597,7 @@ toString
 )
 workerCall
 }
+]
 runTests
 )
 ;
