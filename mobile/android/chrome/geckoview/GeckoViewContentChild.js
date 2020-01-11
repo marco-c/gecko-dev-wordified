@@ -732,7 +732,9 @@ aLength
 *
 content
 .
-innerWidth
+visualViewport
+.
+width
 ;
 }
 else
@@ -750,7 +752,9 @@ aLength
 *
 content
 .
-innerHeight
+visualViewport
+.
+height
 ;
 }
 else
