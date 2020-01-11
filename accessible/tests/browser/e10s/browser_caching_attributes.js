@@ -714,5 +714,10 @@ unexpected
 ;
 }
 }
+{
+iframe
+:
+true
+}
 )
 ;
