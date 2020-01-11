@@ -862,7 +862,6 @@ run_in_callback
 (
 |
 |
-{
 unsafe
 {
 cb
@@ -881,7 +880,6 @@ _
 state
 )
 ;
-}
 }
 )
 ;
