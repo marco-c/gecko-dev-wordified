@@ -733,15 +733,6 @@ collation
 \
 MACRO
 (
-Collator
-Collator
-"
-Collator
-"
-)
-\
-MACRO
-(
 collections
 collections
 "
