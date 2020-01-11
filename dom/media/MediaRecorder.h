@@ -836,7 +836,7 @@ error
 )
 NS_DECL_NSIDOCUMENTACTIVITY
 uint32_t
-GetAudioBitrate
+AudioBitsPerSecond
 (
 )
 {
@@ -845,7 +845,7 @@ mAudioBitsPerSecond
 ;
 }
 uint32_t
-GetVideoBitrate
+VideoBitsPerSecond
 (
 )
 {
@@ -854,7 +854,7 @@ mVideoBitsPerSecond
 ;
 }
 uint32_t
-GetBitrate
+BitsPerSecond
 (
 )
 {
