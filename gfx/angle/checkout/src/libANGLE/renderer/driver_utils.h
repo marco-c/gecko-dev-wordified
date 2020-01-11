@@ -414,6 +414,13 @@ mVersionPart
 }
 ;
 bool
+IsIvyBridge
+(
+uint32_t
+DeviceId
+)
+;
+bool
 IsHaswell
 (
 uint32_t

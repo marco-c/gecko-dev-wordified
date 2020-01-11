@@ -12094,6 +12094,14 @@ adapterDesc
 .
 DeviceId
 )
+|
+|
+IsIvyBridge
+(
+adapterDesc
+.
+DeviceId
+)
 )
 {
 features
