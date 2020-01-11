@@ -3531,7 +3531,6 @@ rawAccessible
 .
 parent
 )
-this
 )
 ;
 }
@@ -3639,7 +3638,6 @@ reorder
 rawAccessible
 .
 childCount
-this
 )
 ;
 }
@@ -3732,7 +3730,6 @@ text
 -
 change
 "
-this
 )
 ;
 if
@@ -3779,7 +3776,6 @@ rawAccessible
 .
 parent
 )
-this
 )
 ;
 }
