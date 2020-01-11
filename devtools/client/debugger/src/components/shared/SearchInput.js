@@ -1011,6 +1011,7 @@ className
 =
 "
 loader
+spin
 "
 /
 >
