@@ -709,6 +709,9 @@ mUnreportedPreloadError
 (
 NS_OK
 )
+mStreamingTime
+(
+)
 {
 MOZ_ASSERT
 (
