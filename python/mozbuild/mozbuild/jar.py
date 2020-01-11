@@ -99,6 +99,7 @@ __future__
 import
 absolute_import
 print_function
+unicode_literals
 import
 sys
 import
@@ -120,9 +121,9 @@ MozZipFile
 import
 ZipFile
 from
-cStringIO
+six
 import
-StringIO
+BytesIO
 from
 mozbuild
 .
@@ -274,7 +275,7 @@ self
 .
 _inner
 =
-StringIO
+BytesIO
 (
 )
     
@@ -375,7 +376,10 @@ aPath
 :
         
 return
+localtime
+(
 0
+)
     
 mtime
 =
@@ -2861,7 +2865,9 @@ if
 isinstance
 (
 infile
-basestring
+six
+.
+text_type
 )
 :
             
@@ -4268,7 +4274,10 @@ Exception
 :
                 
 return
+localtime
+(
 0
+)
         
 def
 getOutput
@@ -5036,6 +5045,15 @@ infile
 )
 =
 args
+        
+infile
+=
+six
+.
+ensure_text
+(
+infile
+)
     
 jm
 .

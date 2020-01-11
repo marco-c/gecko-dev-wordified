@@ -57,8 +57,12 @@ from
 __future__
 import
 absolute_import
+print_function
+unicode_literals
 import
 os
+import
+six
 import
 time
 import
@@ -149,7 +153,9 @@ assert
 isinstance
 (
 file
-basestring
+six
+.
+text_type
 )
             
 self
@@ -814,19 +820,14 @@ filelist
 .
 sort
 (
+key
+=
 lambda
 l
-r
 :
-cmp
-(
 l
 .
 header_offset
-r
-.
-header_offset
-)
 )
         
 if
@@ -1029,25 +1030,17 @@ all
 .
 sort
 (
+key
+=
 lambda
 l
-r
 :
-cmp
-(
 l
 [
 0
 ]
 .
 header_offset
-r
-[
-0
-]
-.
-header_offset
-)
 )
         
 #

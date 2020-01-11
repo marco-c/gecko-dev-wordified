@@ -81,8 +81,10 @@ shutil
 import
 rmtree
 copy2
+import
+six
 from
-StringIO
+six
 import
 StringIO
 from
@@ -531,7 +533,12 @@ rv
 =
 GetVolumePathName
 (
+six
+.
+ensure_binary
+(
 path
+)
 volpath
 len
 (
@@ -648,9 +655,15 @@ fh
 =
 CreateFile
 (
+six
+.
+ensure_binary
+(
 path
+)
 GENERIC_READ
 FILE_SHARE_READ
+                    
 None
 OPEN_EXISTING
 0
@@ -1004,12 +1017,13 @@ for
 subdir
 _dc
 in
-dc
-.
-subdirs
+six
 .
 iteritems
 (
+dc
+.
+subdirs
 )
 :
             
@@ -3078,10 +3092,11 @@ for
 dest
 src
 in
-expected_symlinks
+six
 .
 iteritems
 (
+expected_symlinks
 )
 :
             
