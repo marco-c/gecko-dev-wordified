@@ -603,11 +603,11 @@ parentDocShell
 )
 {
 const
-docShellsEnum
+allDocShells
 =
 parentDocShell
 .
-getDocShellEnumerator
+getAllDocShellsInSubtree
 (
 Ci
 .
@@ -632,7 +632,7 @@ for
 const
 docShell
 of
-docShellsEnum
+allDocShells
 )
 {
 docShell

@@ -232,7 +232,7 @@ docShell
 return
 docShell
 .
-getDocShellEnumerator
+getAllDocShellsInSubtree
 (
 docShell
 .

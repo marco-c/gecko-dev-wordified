@@ -677,11 +677,11 @@ return
 ;
 }
 const
-docShellsEnum
+docShells
 =
 originalDocShell
 .
-getDocShellEnumerator
+getAllDocShellsInSubtree
 (
 Ci
 .
@@ -696,12 +696,7 @@ ENUMERATE_FORWARDS
 )
 ;
 return
-Array
-.
-from
-(
-docShellsEnum
-)
+docShells
 ;
 }
 /
