@@ -4149,6 +4149,9 @@ function
 updateFxaToolbarMenu
 (
 enable
+isInitialUpdate
+=
+false
 )
 {
 /
@@ -4311,12 +4314,19 @@ was
 performed
 yet
 .
+if
+(
+!
+isInitialUpdate
+)
+{
 gSync
 .
 maybeUpdateUIState
 (
 )
 ;
+}
 Services
 .
 telemetry
@@ -11374,6 +11384,7 @@ _setInitialFocus
 updateFxaToolbarMenu
 (
 gFxaToolbarEnabled
+true
 )
 ;
 }

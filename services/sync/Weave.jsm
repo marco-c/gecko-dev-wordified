@@ -586,7 +586,8 @@ Ci
 nsISupportsWeakReference
 ]
 )
-ensureLoaded
+get
+Weave
 (
 )
 {
@@ -614,6 +615,14 @@ js
 "
 )
 ;
+return
+Weave
+;
+}
+ensureLoaded
+(
+)
+{
 /
 /
 Side
@@ -628,6 +637,8 @@ that
 it
 is
 instantiated
+.
+this
 .
 Weave
 .
