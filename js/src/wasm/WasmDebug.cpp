@@ -1672,16 +1672,9 @@ handler
 bp
 -
 >
-destroy
+delete_
 (
 fop
-Breakpoint
-:
-:
-MayDestroySite
-:
-:
-False
 )
 ;
 }
