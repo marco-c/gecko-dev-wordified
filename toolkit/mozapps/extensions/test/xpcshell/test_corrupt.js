@@ -449,7 +449,7 @@ theme
 images
 :
 {
-theme_frame
+headerURL
 :
 "
 example
@@ -529,7 +529,7 @@ theme
 images
 :
 {
-theme_frame
+headerURL
 :
 "
 example
