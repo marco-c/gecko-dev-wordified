@@ -3399,16 +3399,6 @@ BigIntLiteral
 (
 )
 .
-box
-(
-)
--
->
-value
-(
-)
--
->
 isZero
 (
 )
