@@ -328,7 +328,7 @@ Inline
 StyleDisplayInside
 :
 :
-Inline
+Flow
 )
 Block
 =
@@ -341,7 +341,7 @@ Block
 StyleDisplayInside
 :
 :
-Block
+Flow
 )
 FlowRoot
 =
@@ -419,7 +419,7 @@ TableCaption
 StyleDisplayInside
 :
 :
-Block
+Flow
 )
 Ruby
 =
