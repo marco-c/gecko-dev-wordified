@@ -227,9 +227,8 @@ Document
 /
 *
 *
-System
--
-wide
+Per
+thread
 setup
 /
 teardown
@@ -248,6 +247,10 @@ at
 startup
 and
 shutdown
+of
+the
+script
+runtime
 (
 respectively
 )
@@ -261,11 +264,6 @@ InitScriptSettings
 ;
 void
 DestroyScriptSettings
-(
-)
-;
-bool
-ScriptSettingsInitialized
 (
 )
 ;
