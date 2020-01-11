@@ -421,7 +421,7 @@ click
 await
 waitForTelemetryEventCount
 (
-1
+2
 )
 ;
 await
@@ -485,7 +485,7 @@ click
 await
 waitForTelemetryEventCount
 (
-2
+3
 )
 ;
 await
@@ -549,7 +549,7 @@ click
 await
 waitForTelemetryEventCount
 (
-3
+4
 )
 ;
 let
@@ -656,7 +656,7 @@ newTab
 await
 waitForTelemetryEventCount
 (
-4
+5
 )
 ;
 /
@@ -725,7 +725,7 @@ click
 await
 waitForTelemetryEventCount
 (
-5
+6
 )
 ;
 /
@@ -794,7 +794,7 @@ click
 await
 waitForTelemetryEventCount
 (
-6
+7
 )
 ;
 await
@@ -856,7 +856,7 @@ click
 await
 waitForTelemetryEventCount
 (
-7
+8
 )
 ;
 await
@@ -951,7 +951,7 @@ click
 await
 waitForTelemetryEventCount
 (
-8
+9
 )
 ;
 await
@@ -1010,7 +1010,7 @@ click
 await
 waitForTelemetryEventCount
 (
-9
+10
 )
 ;
 await
@@ -1072,7 +1072,7 @@ click
 await
 waitForTelemetryEventCount
 (
-10
+11
 )
 ;
 await
@@ -1141,7 +1141,7 @@ click
 await
 waitForTelemetryEventCount
 (
-11
+12
 )
 ;
 await
@@ -1242,7 +1242,7 @@ click
 await
 waitForTelemetryEventCount
 (
-12
+13
 )
 ;
 await
@@ -1388,6 +1388,17 @@ let
 expectedEvents
 =
 [
+[
+"
+pwmgr
+"
+"
+open_management
+"
+"
+direct
+"
+]
 [
 "
 pwmgr
@@ -1557,6 +1568,9 @@ pwmgr
 "
 }
 {
+clear
+:
+true
 process
 :
 "
