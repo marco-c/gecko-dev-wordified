@@ -1018,7 +1018,7 @@ GetStringFromName
 "
 jsdebugger
 .
-commandkey2
+commandkey
 "
 )
 modifiers
