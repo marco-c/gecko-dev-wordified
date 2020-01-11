@@ -413,7 +413,7 @@ GetFormat
 SurfaceFormat
 :
 :
-OS_RGBX
+B8G8R8X8
 |
 |
 mSurface
@@ -427,7 +427,7 @@ GetFormat
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 )
 {
 DUMMY_IF

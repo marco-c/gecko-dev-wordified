@@ -256,7 +256,7 @@ aSize
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 false
 }
 )
@@ -307,7 +307,7 @@ aSize
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 false
 }
 )

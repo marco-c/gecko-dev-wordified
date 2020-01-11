@@ -4452,7 +4452,7 @@ know
 the
 format
 is
-OS_RGBA
+B8G8R8A8
 because
 we
 always
@@ -4476,13 +4476,13 @@ stride
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 imageData
 stride
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 mDownscaler
 -
 >
