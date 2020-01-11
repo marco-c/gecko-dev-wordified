@@ -1868,9 +1868,7 @@ loginCanceled
 "
 )
 {
-uiBusyPromise
-.
-resolve
+uiBusyPromiseResolve
 (
 {
 logins
