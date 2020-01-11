@@ -1008,7 +1008,10 @@ StyleDisplay
 mTopLayer
 =
 =
-NS_STYLE_TOP_LAYER_NONE
+StyleTopLayer
+:
+:
+None
 )
 {
 MOZ_ASSERT
@@ -1305,7 +1308,10 @@ StyleDisplay
 mTopLayer
 !
 =
-NS_STYLE_TOP_LAYER_NONE
+StyleTopLayer
+:
+:
+None
 "
 ua
 .

@@ -17921,7 +17921,10 @@ display
 mTopLayer
 !
 =
-NS_STYLE_TOP_LAYER_TOP
+StyleTopLayer
+:
+:
+Top
 )
 {
 return

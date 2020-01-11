@@ -9993,13 +9993,12 @@ mIsolation
 /
 NS_STYLE_ISOLATION_
 *
-uint8_t
+mozilla
+:
+:
+StyleTopLayer
 mTopLayer
 ;
-/
-/
-NS_STYLE_TOP_LAYER_
-*
 mozilla
 :
 :
