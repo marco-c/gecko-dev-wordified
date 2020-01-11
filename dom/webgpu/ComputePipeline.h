@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-WEBGPU_ComputePipeline_H_
+GPU_ComputePipeline_H_
 #
 define
-WEBGPU_ComputePipeline_H_
+GPU_ComputePipeline_H_
 #
 include
 "
@@ -127,6 +127,8 @@ ComputePipeline
 final
 :
 public
+ObjectBase
+public
 ChildOf
 <
 Device
@@ -134,7 +136,11 @@ Device
 {
 public
 :
-WEBGPU_DECL_GOOP
+GPU_DECL_CYCLE_COLLECTION
+(
+ComputePipeline
+)
+GPU_DECL_JS_WRAP
 (
 ComputePipeline
 )
@@ -168,4 +174,4 @@ mozilla
 endif
 /
 /
-WEBGPU_ComputePipeline_H_
+GPU_ComputePipeline_H_

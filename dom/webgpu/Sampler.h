@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-WEBGPU_SAMPLER_H_
+GPU_SAMPLER_H_
 #
 define
-WEBGPU_SAMPLER_H_
+GPU_SAMPLER_H_
 #
 include
 "
@@ -127,6 +127,8 @@ Sampler
 final
 :
 public
+ObjectBase
+public
 ChildOf
 <
 Device
@@ -134,7 +136,11 @@ Device
 {
 public
 :
-WEBGPU_DECL_GOOP
+GPU_DECL_CYCLE_COLLECTION
+(
+Sampler
+)
+GPU_DECL_JS_WRAP
 (
 Sampler
 )
@@ -168,4 +174,4 @@ mozilla
 endif
 /
 /
-WEBGPU_SAMPLER_H_
+GPU_SAMPLER_H_

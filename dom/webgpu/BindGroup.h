@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-WEBGPU_BindGroup_H_
+GPU_BindGroup_H_
 #
 define
-WEBGPU_BindGroup_H_
+GPU_BindGroup_H_
 #
 include
 "
@@ -127,6 +127,8 @@ BindGroup
 final
 :
 public
+ObjectBase
+public
 ChildOf
 <
 Device
@@ -134,7 +136,11 @@ Device
 {
 public
 :
-WEBGPU_DECL_GOOP
+GPU_DECL_CYCLE_COLLECTION
+(
+BindGroup
+)
+GPU_DECL_JS_WRAP
 (
 BindGroup
 )
@@ -168,4 +174,4 @@ mozilla
 endif
 /
 /
-WEBGPU_BindGroup_H_
+GPU_BindGroup_H_
