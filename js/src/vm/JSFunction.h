@@ -2954,7 +2954,7 @@ needsCallObjectRegardlessOfBindings
 .
 MOZ_ASSERT_IF
 (
-nonLazyScript
+baseScript
 (
 )
 -
