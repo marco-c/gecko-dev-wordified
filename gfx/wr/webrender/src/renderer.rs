@@ -29269,6 +29269,7 @@ NativeSurfaceOperationDetails
 CreateSurface
 {
 size
+is_opaque
 }
 =
 >
@@ -29308,6 +29309,7 @@ op
 .
 id
 size
+is_opaque
 )
 ;
 }
