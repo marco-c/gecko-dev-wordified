@@ -818,6 +818,11 @@ GetReferrerInfo
 nsAutoString
 referrerSpec
 ;
+if
+(
+referrerInfo
+)
+{
 referrerInfo
 -
 >
@@ -826,6 +831,7 @@ GetComputedReferrerSpec
 referrerSpec
 )
 ;
+}
 uint64_t
 innerWindowID
 =
