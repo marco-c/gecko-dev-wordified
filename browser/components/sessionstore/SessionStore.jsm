@@ -17415,6 +17415,15 @@ useCrossOriginOpenerPolicy
 return
 ;
 }
+aChannel
+.
+QueryInterface
+(
+Ci
+.
+nsIHttpChannel
+)
+;
 if
 (
 !
