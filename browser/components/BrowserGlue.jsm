@@ -1513,13 +1513,6 @@ jsm
 events
 :
 {
-AboutNetErrorResetPreferences
-:
-{
-wantUntrusted
-:
-true
-}
 click
 :
 {
