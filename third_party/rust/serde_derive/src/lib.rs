@@ -152,8 +152,17 @@ serde_derive
 .
 0
 .
-88
+102
 "
+)
+]
+#
+!
+[
+allow
+(
+unknown_lints
+bare_trait_objects
 )
 ]
 #
@@ -212,7 +221,7 @@ clippy
 "
 allow
 (
-cyclomatic_complexity
+cognitive_complexity
 enum_variant_names
 needless_pass_by_value
 redundant_field_names
@@ -242,6 +251,7 @@ clippy
 allow
 (
 cast_possible_truncation
+checked_conversions
 doc_markdown
 enum_glob_use
 filter_map
@@ -249,8 +259,10 @@ indexing_slicing
 items_after_statements
 match_same_arms
 module_name_repetitions
+must_use_candidate
 similar_names
 single_match_else
+too_many_lines
 unseparated_literal_suffix
 use_self
 )

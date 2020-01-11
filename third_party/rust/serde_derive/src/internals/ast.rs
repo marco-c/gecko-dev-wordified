@@ -477,6 +477,7 @@ mut
 data
 =
 match
+&
 item
 .
 data
@@ -489,12 +490,10 @@ Data
 :
 Enum
 (
-ref
 data
 )
 =
 >
-{
 Data
 :
 :
@@ -514,7 +513,6 @@ default
 )
 )
 )
-}
 syn
 :
 :
@@ -523,7 +521,6 @@ Data
 :
 Struct
 (
-ref
 data
 )
 =
@@ -601,6 +598,8 @@ has_flatten
 false
 ;
 match
+&
+mut
 data
 {
 Data
@@ -608,8 +607,6 @@ Data
 :
 Enum
 (
-ref
-mut
 variants
 )
 =
@@ -680,8 +677,6 @@ Data
 Struct
 (
 _
-ref
-mut
 fields
 )
 =
@@ -825,7 +820,6 @@ a
 >
 {
 match
-*
 self
 {
 Data
@@ -833,7 +827,6 @@ Data
 :
 Enum
 (
-ref
 variants
 )
 =
@@ -871,7 +864,6 @@ Data
 Struct
 (
 _
-ref
 fields
 )
 =
@@ -1103,7 +1095,6 @@ a
 )
 {
 match
-*
 fields
 {
 syn
@@ -1114,7 +1105,6 @@ Fields
 :
 Named
 (
-ref
 fields
 )
 =
@@ -1143,7 +1133,6 @@ Fields
 :
 Unnamed
 (
-ref
 fields
 )
 if
@@ -1183,7 +1172,6 @@ Fields
 :
 Unnamed
 (
-ref
 fields
 )
 =
@@ -1306,13 +1294,13 @@ Field
 member
 :
 match
+&
 field
 .
 ident
 {
 Some
 (
-ref
 ident
 )
 =

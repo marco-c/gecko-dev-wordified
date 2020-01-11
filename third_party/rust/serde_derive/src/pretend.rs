@@ -415,6 +415,7 @@ let
 patterns
 =
 match
+&
 cont
 .
 data
@@ -424,7 +425,6 @@ Data
 :
 Enum
 (
-ref
 variants
 )
 =
@@ -514,7 +514,6 @@ Style
 :
 :
 Struct
-ref
 fields
 )
 =
@@ -687,6 +686,7 @@ let
 variants
 =
 match
+&
 cont
 .
 data
@@ -696,7 +696,6 @@ Data
 :
 Enum
 (
-ref
 variants
 )
 =

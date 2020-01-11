@@ -191,6 +191,7 @@ TokenStream
 )
 {
 match
+&
 self
 .
 0
@@ -200,7 +201,6 @@ Fragment
 :
 Expr
 (
-ref
 expr
 )
 =
@@ -216,7 +216,6 @@ Fragment
 :
 Block
 (
-ref
 block
 )
 =
@@ -289,6 +288,7 @@ TokenStream
 )
 {
 match
+&
 self
 .
 0
@@ -298,7 +298,6 @@ Fragment
 :
 Expr
 (
-ref
 expr
 )
 =
@@ -314,7 +313,6 @@ Fragment
 :
 Block
 (
-ref
 block
 )
 =
@@ -385,6 +383,7 @@ TokenStream
 )
 {
 match
+&
 self
 .
 0
@@ -394,7 +393,6 @@ Fragment
 :
 Expr
 (
-ref
 expr
 )
 =
@@ -430,7 +428,6 @@ Fragment
 :
 Block
 (
-ref
 block
 )
 =
@@ -484,7 +481,6 @@ self
 TokenStream
 {
 match
-*
 self
 {
 Fragment
@@ -492,7 +488,6 @@ Fragment
 :
 Expr
 (
-ref
 expr
 )
 =
@@ -503,7 +498,6 @@ Fragment
 :
 Block
 (
-ref
 block
 )
 =
