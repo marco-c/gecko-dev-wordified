@@ -96,6 +96,11 @@ duckduckgo
 .
 com
 "
+telemetryId
+:
+"
+ddg
+"
 codes
 :
 {
