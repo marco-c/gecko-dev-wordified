@@ -16602,9 +16602,8 @@ const
 {
 if
 (
-empty
-(
-)
+!
+mTable
 |
 |
 !
