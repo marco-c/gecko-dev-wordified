@@ -37637,6 +37637,17 @@ empty
 )
 )
 ;
+lazy
+-
+>
+setFlag
+(
+ImmutableFlags
+:
+:
+IsFunction
+)
+;
 /
 /
 Fill
