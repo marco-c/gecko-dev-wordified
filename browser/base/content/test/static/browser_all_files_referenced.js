@@ -6645,14 +6645,6 @@ chrome
 :
 /
 /
-webide
-/
-"
-"
-chrome
-:
-/
-/
 devtools
 "
 "

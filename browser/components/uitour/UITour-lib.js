@@ -752,11 +752,6 @@ li
 urlbar
 *
 <
-li
->
-webide
-*
-<
 /
 ul
 >
