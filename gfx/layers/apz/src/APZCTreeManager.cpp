@@ -13985,7 +13985,7 @@ mTreeLock
 touchData
 .
 mScreenPoint
-+
+-
 =
 RoundedToInt
 (
