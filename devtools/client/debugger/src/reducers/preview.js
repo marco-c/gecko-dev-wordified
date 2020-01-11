@@ -96,7 +96,6 @@ type
 {
 Node
 Grip
-GripProperties
 }
 from
 "
@@ -122,7 +121,10 @@ root
 Node
 properties
 :
-GripProperties
+Array
+<
+Grip
+>
 location
 :
 AstLocation
