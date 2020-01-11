@@ -2080,6 +2080,13 @@ IsActivelyCapturingOrHasAPermission
 winId
 )
 ;
+obfuscate_host_addresses
+&
+=
+XRE_IsContentProcess
+(
+)
+;
 return
 obfuscate_host_addresses
 ;
