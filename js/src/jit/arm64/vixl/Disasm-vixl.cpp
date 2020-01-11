@@ -24243,6 +24243,17 @@ return
 3
 ;
 }
+default
+:
+{
+VIXL_UNIMPLEMENTED
+(
+)
+;
+return
+0
+;
+}
 }
 }
 case
