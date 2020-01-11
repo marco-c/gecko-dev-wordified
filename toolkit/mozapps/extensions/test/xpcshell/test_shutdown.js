@@ -126,9 +126,6 @@ IGNORE_PRIVATE
 AddonAuthor
 "
 "
-AddonCompatibilityOverride
-"
-"
 AddonScreenshot
 "
 "
