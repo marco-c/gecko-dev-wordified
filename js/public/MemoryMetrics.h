@@ -4014,13 +4014,6 @@ MACRO
 (
 Other
 MallocHeap
-lazyArrayBuffersTable
-)
-\
-MACRO
-(
-Other
-MallocHeap
 objectMetadataTable
 )
 \
