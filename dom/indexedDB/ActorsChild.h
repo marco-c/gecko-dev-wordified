@@ -2817,6 +2817,9 @@ CachedResponse
 mCachedResponses
 mDelayedResponses
 ;
+bool
+mInFlightResponseInvalidationNeeded
+;
 public
 :
 BackgroundCursorChild
