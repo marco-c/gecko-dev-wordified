@@ -9755,7 +9755,7 @@ environmentChain
 if
 (
 !
-GetThisValueForDebuggerMaybeOptimizedOut
+GetThisValueForDebuggerFrameMaybeOptimizedOut
 (
 cx
 frame
