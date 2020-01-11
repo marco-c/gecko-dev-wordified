@@ -891,7 +891,7 @@ FxAccounts
 .
 config
 .
-promiseEmailFirstURI
+promiseConnectAccountURI
 (
 "
 bookmark

@@ -117,7 +117,7 @@ FxAccounts
 .
 config
 .
-promiseSignUpURI
+promiseConnectAccountURI
 (
 "
 test
@@ -132,7 +132,6 @@ example
 .
 com
 /
-signup
 ?
 service
 =
@@ -145,6 +144,10 @@ null
 entrypoint
 =
 test
+&
+action
+=
+email
 "
 )
 ;
@@ -227,7 +230,7 @@ FxAccounts
 .
 config
 .
-promiseSignUpURI
+promiseConnectAccountURI
 (
 )
 /

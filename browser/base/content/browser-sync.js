@@ -4603,7 +4603,7 @@ FxAccounts
 .
 config
 .
-promiseEmailFirstURI
+promiseConnectAccountURI
 (
 entryPoint
 )
