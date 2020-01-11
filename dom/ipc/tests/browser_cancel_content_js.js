@@ -213,7 +213,7 @@ TEST_PAGE
 const
 loopEnded
 =
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -227,7 +227,7 @@ function
 (
 )
 {
-return
+await
 new
 Promise
 (
@@ -237,14 +237,17 @@ resolve
 {
 content
 .
-window
-.
 addEventListener
 (
 "
 LongLoopEnded
 "
 resolve
+{
+once
+:
+true
+}
 )
 ;
 }
