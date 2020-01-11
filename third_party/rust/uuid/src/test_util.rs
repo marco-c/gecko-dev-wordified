@@ -121,12 +121,16 @@ those
 terms
 .
 use
+crate
+:
+:
 prelude
 :
 :
 *
 ;
 pub
+const
 fn
 new
 (
@@ -161,6 +165,7 @@ from_bytes
 )
 }
 pub
+const
 fn
 new2
 (

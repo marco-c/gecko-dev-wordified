@@ -560,8 +560,17 @@ path
 expect
 (
 "
+can
 open
 file
+;
+did
+you
+run
+cargo
+build
+first
+?
 "
 )
 ;

@@ -67,11 +67,6 @@ error
 pub
 enum
 Error
-<
-T
-=
-usize
->
 {
 /
 /
@@ -89,10 +84,10 @@ TooBig
 {
 size
 :
-T
+usize
 len
 :
-T
+usize
 }
 /
 /
@@ -109,13 +104,13 @@ is
 invalid
 BadOffset
 (
-T
+usize
 )
 BadInput
 {
 size
 :
-T
+usize
 msg
 :
 &
@@ -298,6 +293,7 @@ self
 Option
 <
 &
+dyn
 error
 :
 :
@@ -371,7 +367,7 @@ io
 {
 io
 .
-cause
+source
 (
 )
 }

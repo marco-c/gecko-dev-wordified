@@ -749,9 +749,6 @@ scroll
 :
 :
 Endian
-Size
-=
-usize
 Error
 =
 scroll

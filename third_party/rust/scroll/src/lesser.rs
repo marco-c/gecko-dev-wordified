@@ -12,6 +12,9 @@ Write
 }
 ;
 use
+crate
+:
+:
 ctx
 :
 :
@@ -391,14 +394,6 @@ Foo
 /
 /
 /
-type
-Units
-=
-usize
-;
-/
-/
-/
 /
 /
 our
@@ -426,10 +421,7 @@ Endian
 )
 -
 >
-Self
-:
-:
-Units
+usize
 {
 /
 /
@@ -919,9 +911,6 @@ Ctx
 SizeWith
 <
 Ctx
-Units
-=
-usize
 >
 >
 (
@@ -1250,9 +1239,6 @@ Ctx
 SizeWith
 <
 Ctx
-Units
-=
-usize
 >
 >
 (
@@ -1696,9 +1682,6 @@ N
 SizeWith
 <
 Ctx
-Units
-=
-usize
 >
 +
 IntoCtx
@@ -1968,9 +1951,6 @@ N
 SizeWith
 <
 Ctx
-Units
-=
-usize
 >
 +
 IntoCtx
