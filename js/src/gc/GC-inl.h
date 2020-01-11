@@ -632,6 +632,12 @@ initialized
 false
 )
 {
+span
+.
+initAsEmpty
+(
+)
+;
 }
 explicit
 ArenaCellIter
