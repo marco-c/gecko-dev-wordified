@@ -185,6 +185,10 @@ const
 }
 ;
 }
+/
+/
+namespace
+mozilla
 class
 nsHyphenator
 {

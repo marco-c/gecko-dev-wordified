@@ -3585,6 +3585,12 @@ using
 Base
 :
 :
+MarkImmutable
+;
+using
+Base
+:
+:
 ShallowSizeOfExcludingThis
 ;
 using
@@ -3592,12 +3598,6 @@ Base
 :
 :
 ShallowSizeOfIncludingThis
-;
-using
-Base
-:
-:
-MarkImmutable
 ;
 /
 *
