@@ -1318,7 +1318,7 @@ cx
 lazyScript
 -
 >
-functionNonDelazifying
+function
 (
 )
 )
@@ -2407,7 +2407,7 @@ function
 LazyScript
 :
 :
-functionNonDelazifying
+function
 )
 ;
 Debugger

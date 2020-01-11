@@ -22378,7 +22378,7 @@ column
 ;
 JSFunction
 *
-functionNonDelazifying
+function
 (
 )
 const

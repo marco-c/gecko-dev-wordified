@@ -10355,7 +10355,7 @@ MOZ_ASSERT
 lazy
 -
 >
-functionNonDelazifying
+function
 (
 )
 =
@@ -11177,7 +11177,7 @@ cx
 lazy
 -
 >
-functionNonDelazifying
+function
 (
 )
 )

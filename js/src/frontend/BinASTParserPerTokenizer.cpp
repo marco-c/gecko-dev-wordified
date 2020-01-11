@@ -1284,7 +1284,7 @@ cx_
 lazyScript_
 -
 >
-functionNonDelazifying
+function
 (
 )
 )
@@ -2029,7 +2029,7 @@ fun
 lazyScript_
 -
 >
-functionNonDelazifying
+function
 (
 )
 )
@@ -2367,7 +2367,7 @@ lazyScript_
 lazyScript_
 -
 >
-functionNonDelazifying
+function
 (
 )
 !

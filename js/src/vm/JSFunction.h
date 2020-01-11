@@ -5116,7 +5116,7 @@ fun
 lazy
 -
 >
-functionNonDelazifying
+function
 (
 )
 ;
@@ -5305,7 +5305,7 @@ lazyScript
 )
 -
 >
-functionNonDelazifying
+function
 (
 )
 ;
