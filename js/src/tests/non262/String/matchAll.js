@@ -459,15 +459,18 @@ return
 }
 assertEqMatchResults
 (
-"
-ababcca
-"
-.
-matchAll
-(
 /
 a
 /
+[
+Symbol
+.
+matchAll
+]
+(
+"
+ababcca
+"
 )
 matchResults
 (
@@ -560,6 +563,7 @@ matchAll
 /
 a
 /
+g
 )
 )
 ;
@@ -574,6 +578,7 @@ ababcca
 /
 a
 /
+g
 )
 ;
 assertEqIterMatchResult
@@ -722,6 +727,7 @@ regexp
 a
 +
 /
+g
 ;
 let
 iterator
@@ -743,6 +749,9 @@ compile
 b
 +
 "
+"
+g
+"
 )
 ;
 assertEqMatchResults
@@ -757,6 +766,7 @@ aabb
 a
 +
 /
+g
 )
 )
 ;
@@ -780,7 +790,7 @@ regexp
 a
 +
 /
-i
+gi
 ;
 let
 iterator
@@ -818,7 +828,7 @@ aAbb
 a
 +
 /
-i
+gi
 )
 )
 ;
@@ -892,6 +902,9 @@ compile
 "
 b
 +
+"
+"
+g
 "
 )
 ;
@@ -1245,7 +1258,7 @@ getter
 is
 called
 exactly
-once
+twice
 .
 try
 {
@@ -1310,7 +1323,7 @@ regexp
 assertEq
 (
 callCount
-1
+2
 )
 ;
 }
