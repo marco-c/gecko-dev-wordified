@@ -268,6 +268,9 @@ aType
 )
 override
 ;
+media
+:
+:
 TimeUnit
 GetEndTime
 (
@@ -277,6 +280,9 @@ aType
 const
 override
 ;
+media
+:
+:
 TimeUnit
 GetPosition
 (
@@ -351,6 +357,9 @@ nsresult
 Start
 (
 const
+media
+:
+:
 TimeUnit
 &
 aStartTime
@@ -784,6 +793,9 @@ has
 been
 displayed
 .
+media
+:
+:
 TimeUnit
 mVideoFrameEndTime
 ;

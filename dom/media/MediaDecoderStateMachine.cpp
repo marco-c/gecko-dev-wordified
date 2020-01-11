@@ -1629,6 +1629,9 @@ virtual
 void
 GetDebugInfo
 (
+dom
+:
+:
 MediaDecoderStateMachineDecodingStateDebugInfo
 &
 aInfo
@@ -4386,6 +4389,9 @@ Reset
 void
 GetDebugInfo
 (
+dom
+:
+:
 MediaDecoderStateMachineDecodingStateDebugInfo
 &
 aInfo
