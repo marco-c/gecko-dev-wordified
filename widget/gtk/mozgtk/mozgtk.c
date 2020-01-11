@@ -516,10 +516,6 @@ gdk_window_get_screen
 )
 STUB
 (
-gtk_window_get_size
-)
-STUB
-(
 gdk_window_get_state
 )
 STUB
