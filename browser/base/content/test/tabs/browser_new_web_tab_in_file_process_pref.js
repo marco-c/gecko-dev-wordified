@@ -1601,9 +1601,7 @@ browser
 .
 tabs
 .
-remote
-.
-useHTTPResponseProcessSelection
+documentChannel
 "
 false
 ]
