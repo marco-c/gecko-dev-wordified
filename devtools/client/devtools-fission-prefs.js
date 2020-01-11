@@ -158,11 +158,11 @@ fission
 "
 Enable
 the
-Omniscient
+Multiprocess
 Browser
 Toolbox
 and
-Omniscient
+Multiprocess
 Browser
 "
 +
@@ -244,7 +244,7 @@ single
 highlighter
 in
 the
-Omniscient
+Multiprocess
 Browser
 Toolbox
 .
