@@ -395,6 +395,17 @@ aSelect
 )
 ;
 void
+SetSelection
+(
+int32_t
+aID
+int32_t
+aStart
+int32_t
+aEnd
+)
+;
+void
 StartNativeAccessibility
 (
 )
