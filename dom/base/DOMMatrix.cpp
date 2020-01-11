@@ -3707,8 +3707,6 @@ aRv
 ThrowDOMException
 (
 NS_ERROR_DOM_INVALID_STATE_ERR
-NS_LITERAL_CSTRING
-(
 "
 Matrix
 with
@@ -3722,7 +3720,6 @@ be
 stringified
 .
 "
-)
 )
 ;
 return
