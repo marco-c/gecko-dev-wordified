@@ -1272,6 +1272,16 @@ WasmGlobal
 dummy
 dummy
 )
+\
+REAL
+(
+FinalizationGroup
+InitViaClassSpec
+OCLASP
+(
+FinalizationGroup
+)
+)
 #
 define
 JS_FOR_PROTOTYPES
