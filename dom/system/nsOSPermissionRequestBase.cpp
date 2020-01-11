@@ -479,3 +479,15 @@ return
 NS_OK
 ;
 }
+NS_IMETHODIMP
+nsOSPermissionRequestBase
+:
+:
+MaybeRequestScreenCapturePermission
+(
+)
+{
+return
+NS_OK
+;
+}

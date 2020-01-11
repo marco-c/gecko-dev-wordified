@@ -206,6 +206,12 @@ aPromiseOut
 )
 override
 ;
+NS_IMETHOD
+MaybeRequestScreenCapturePermission
+(
+)
+override
+;
 }
 ;
 #
