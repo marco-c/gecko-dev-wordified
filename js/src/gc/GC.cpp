@@ -37012,6 +37012,17 @@ stats
 phase
 )
 ;
+#
+ifdef
+DEBUG
+AutoSetThreadIsMarking
+threadIsMarking
+;
+#
+endif
+/
+/
+DEBUG
 if
 (
 marker
