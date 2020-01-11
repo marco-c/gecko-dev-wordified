@@ -3898,11 +3898,11 @@ aHasPostData
 )
 {
 let
-remoteSubframes
+{
+useRemoteSubframes
+}
 =
 aDocShell
-.
-useRemoteSubframes
 ;
 /
 /
@@ -4187,7 +4187,12 @@ process
 .
 if
 (
+(
+useRemoteSubframes
+|
+|
 useHttpResponseProcessSelection
+)
 &
 &
 (
@@ -4446,7 +4451,7 @@ getRemoteTypeForURIObject
 (
 aURI
 true
-remoteSubframes
+useRemoteSubframes
 remoteType
 webNav
 .
@@ -4475,7 +4480,7 @@ this
 shouldLoadURIInThisProcess
 (
 aURI
-remoteSubframes
+useRemoteSubframes
 )
 ;
 }
