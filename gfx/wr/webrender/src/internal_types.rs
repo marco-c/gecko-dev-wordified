@@ -66,7 +66,6 @@ DebugCommand
 DocumentId
 ExternalImageData
 ExternalImageId
-PrimitiveFlags
 }
 ;
 use
@@ -4036,9 +4035,9 @@ clip_rect
 :
 LayoutRect
 pub
-flags
+is_backface_visible
 :
-PrimitiveFlags
+bool
 pub
 hit_info
 :
@@ -4069,14 +4068,9 @@ Self
 {
 rect
 clip_rect
-flags
+is_backface_visible
 :
-PrimitiveFlags
-:
-:
-default
-(
-)
+true
 hit_info
 :
 None

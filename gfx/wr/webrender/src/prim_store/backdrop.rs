@@ -60,12 +60,6 @@ use
 api
 :
 :
-PrimitiveFlags
-;
-use
-api
-:
-:
 units
 :
 :
@@ -242,9 +236,9 @@ pub
 fn
 new
 (
-flags
+is_backface_visible
 :
-PrimitiveFlags
+bool
 prim_size
 :
 LayoutSize
@@ -262,7 +256,7 @@ common
 :
 PrimKeyCommonData
 {
-flags
+is_backface_visible
 prim_size
 :
 prim_size
@@ -449,7 +443,7 @@ new
 (
 info
 .
-flags
+is_backface_visible
 info
 .
 rect
