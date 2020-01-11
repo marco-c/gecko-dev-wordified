@@ -10415,14 +10415,6 @@ nsIScriptSecurityManager
 :
 :
 STANDARD
-OwnerDoc
-(
-)
--
->
-InnerWindowID
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS

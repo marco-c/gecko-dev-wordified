@@ -2199,12 +2199,6 @@ aLoadInfo
 CheckLoadURIFlags
 (
 )
-aLoadInfo
--
->
-GetInnerWindowID
-(
-)
 )
 ;
 }
@@ -6157,12 +6151,6 @@ CheckLoadURIWithPrincipal
 oldPrincipal
 newURI
 flags
-loadInfo
--
->
-GetInnerWindowID
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6374,7 +6362,7 @@ we
 pass
 for
 the
-second
+third
 data
 -
 inherits
@@ -6403,6 +6391,7 @@ loadingPrincipal
 CheckMayLoad
 (
 uri
+false
 false
 )
 ;

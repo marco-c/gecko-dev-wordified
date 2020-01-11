@@ -5035,17 +5035,6 @@ nsIScriptSecurityManager
 :
 :
 STANDARD
-mOwnerContent
--
->
-OwnerDoc
-(
-)
--
->
-InnerWindowID
-(
-)
 )
 ;
 if
