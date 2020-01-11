@@ -444,7 +444,16 @@ mChild
 >
 Decode
 (
+nsTArray
+<
+RefPtr
+<
+MediaRawData
+>
+>
+{
 sample
+}
 )
 ;
 }
