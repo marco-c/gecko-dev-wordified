@@ -4508,15 +4508,6 @@ gfxVars
 UseWebRenderCompositor
 (
 )
-|
-|
-!
-StaticPrefs
-:
-:
-gfx_webrender_picture_caching
-(
-)
 )
 {
 return
