@@ -18064,6 +18064,13 @@ style_struct
 .
 longhands
 :
+%
+if
+not
+longhand
+.
+logical
+:
 /
 /
 /
@@ -18097,6 +18104,8 @@ computed_value
 :
 :
 T
+%
+endif
 %
 endfor
 %
@@ -27498,6 +27507,13 @@ style_struct
 .
 longhands
 :
+%
+if
+not
+longhand
+.
+logical
+:
 {
 longhand
 .
@@ -27517,6 +27533,8 @@ ident
 get_initial_value
 (
 )
+%
+endif
 %
 endfor
 %

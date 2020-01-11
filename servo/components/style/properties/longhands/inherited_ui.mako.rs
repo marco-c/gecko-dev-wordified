@@ -125,6 +125,9 @@ gecko
 servo
 -
 2013
+servo
+-
+2020
 "
 initial_specified_value
 =
@@ -235,6 +238,9 @@ gecko
 servo
 -
 2013
+servo
+-
+2020
 "
 animation_value_type
 =
