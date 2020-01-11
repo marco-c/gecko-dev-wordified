@@ -2142,6 +2142,19 @@ label
 "
 )
 )
+dom
+.
+span
+(
+{
+className
+:
+"
+toolbar
+-
+text
+"
+}
 L10N
 .
 getStr
@@ -2153,6 +2166,7 @@ viewing
 -
 individuals
 "
+)
 )
 )
 HSplitBox
