@@ -459,6 +459,7 @@ RegisterObservers
 (
 )
 ;
+virtual
 void
 OnChange
 (
