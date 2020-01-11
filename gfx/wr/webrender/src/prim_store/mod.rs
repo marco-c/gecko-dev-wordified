@@ -10529,7 +10529,10 @@ self
 rect
 :
 DeviceRect
-color
+outer_color
+:
+ColorF
+inner_color
 :
 ColorF
 )
@@ -10546,7 +10549,8 @@ DebugItem
 Rect
 {
 rect
-color
+outer_color
+inner_color
 }
 )
 ;
@@ -13297,6 +13301,14 @@ push_debug_rect
 (
 debug_rect
 debug_color
+debug_color
+.
+scale_alpha
+(
+0
+.
+5
+)
 )
 ;
 }
