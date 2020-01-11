@@ -2711,16 +2711,6 @@ pref
 "
 dom
 .
-disable_window_showModalDialog
-"
-true
-)
-;
-pref
-(
-"
-dom
-.
 disable_window_find
 "
 true

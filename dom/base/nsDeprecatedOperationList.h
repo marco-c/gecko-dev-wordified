@@ -196,10 +196,6 @@ UseOfReleaseEvents
 )
 DEPRECATED_OPERATION
 (
-ShowModalDialog
-)
-DEPRECATED_OPERATION
-(
 SyncXMLHttpRequest
 )
 DEPRECATED_OPERATION
