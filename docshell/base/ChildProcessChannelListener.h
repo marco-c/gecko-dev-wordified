@@ -185,6 +185,7 @@ DocumentChannelRedirect
 >
 &
 &
+uint32_t
 )
 >
 ;
@@ -217,6 +218,8 @@ DocumentChannelRedirect
 &
 &
 aRedirects
+uint32_t
+aLoadStateLoadFlags
 )
 ;
 static
@@ -260,6 +263,9 @@ net
 DocumentChannelRedirect
 >
 mRedirects
+;
+uint32_t
+mLoadStateLoadFlags
 ;
 }
 ;

@@ -81434,6 +81434,8 @@ DocumentChannelRedirect
 &
 &
 aRedirects
+uint32_t
+aLoadStateLoadFlags
 )
 {
 if
@@ -81510,6 +81512,14 @@ rv
 return
 ;
 }
+loadState
+-
+>
+SetLoadFlags
+(
+aLoadStateLoadFlags
+)
+;
 if
 (
 nsCOMPtr
