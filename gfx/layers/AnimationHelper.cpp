@@ -4964,10 +4964,7 @@ mTransform
 ;
 Maybe
 <
-mozilla
-:
-:
-MotionPathData
+ResolvedMotionPathData
 >
 motion
 =

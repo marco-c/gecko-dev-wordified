@@ -185,7 +185,7 @@ PathCommand
 namespace
 layers
 struct
-MotionPathData
+ResolvedMotionPathData
 {
 gfx
 :
@@ -969,10 +969,7 @@ thread
 static
 Maybe
 <
-mozilla
-:
-:
-MotionPathData
+ResolvedMotionPathData
 >
 ResolveMotionPath
 (
@@ -1040,10 +1037,7 @@ thread
 static
 Maybe
 <
-mozilla
-:
-:
-MotionPathData
+ResolvedMotionPathData
 >
 ResolveMotionPath
 (
@@ -1086,10 +1080,7 @@ compositor
 static
 Maybe
 <
-mozilla
-:
-:
-MotionPathData
+ResolvedMotionPathData
 >
 ResolveMotionPath
 (

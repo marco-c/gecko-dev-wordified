@@ -3685,7 +3685,7 @@ aScale
 const
 Maybe
 <
-MotionPathData
+ResolvedMotionPathData
 >
 &
 aMotion

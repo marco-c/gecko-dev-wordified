@@ -3237,7 +3237,7 @@ static
 /
 Maybe
 <
-MotionPathData
+ResolvedMotionPathData
 >
 MotionPathUtils
 :
@@ -4183,7 +4183,7 @@ y
 return
 Some
 (
-MotionPathData
+ResolvedMotionPathData
 {
 point
 -
@@ -4355,7 +4355,7 @@ static
 /
 Maybe
 <
-MotionPathData
+ResolvedMotionPathData
 >
 MotionPathUtils
 :
@@ -4821,7 +4821,7 @@ static
 /
 Maybe
 <
-MotionPathData
+ResolvedMotionPathData
 >
 MotionPathUtils
 :
