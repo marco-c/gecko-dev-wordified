@@ -635,7 +635,7 @@ the
 /
 UI
 thread
-can
+and
 run
 '
 em
