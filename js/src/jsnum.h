@@ -474,6 +474,14 @@ Value
 val
 )
 ;
+extern
+bool
+IsInteger
+(
+double
+d
+)
+;
 /
 *
 *
