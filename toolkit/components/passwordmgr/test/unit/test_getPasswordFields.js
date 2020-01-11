@@ -1515,7 +1515,10 @@ formLikeIndex
 let
 pwFields
 =
+new
 LoginManagerContent
+(
+)
 .
 _getPasswordFields
 (
@@ -2005,7 +2008,10 @@ input
 let
 pwFields
 =
+new
 LoginManagerContent
+(
+)
 .
 _getPasswordFields
 (

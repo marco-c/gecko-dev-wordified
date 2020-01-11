@@ -1425,6 +1425,11 @@ this
 .
 LoginManagerContent
 .
+forWindow
+(
+aWindow
+)
+.
 onDOMFormBeforeSubmit
 (
 event
@@ -1458,6 +1463,11 @@ return
 this
 .
 LoginManagerContent
+.
+forWindow
+(
+aWindow
+)
 .
 onDOMFormHasPassword
 (
@@ -1493,6 +1503,11 @@ return
 this
 .
 LoginManagerContent
+.
+forWindow
+(
+aWindow
+)
 .
 onDOMInputPasswordAdded
 (
@@ -1552,6 +1567,11 @@ HTMLDocument
 this
 .
 LoginManagerContent
+.
+forWindow
+(
+aWindow
+)
 .
 onPageShow
 (

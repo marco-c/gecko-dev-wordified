@@ -1180,7 +1180,10 @@ formLike
 let
 actual
 =
+new
 LoginManagerContent
+(
+)
 .
 _getFormFields
 (

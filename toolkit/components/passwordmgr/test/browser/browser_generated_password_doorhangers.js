@@ -3940,9 +3940,11 @@ test
 }
 )
 ;
-LMP
+LoginManagerParent
 .
-_generatedPasswordsByPrincipalOrigin
+getGeneratedPasswordsByPrincipalOrigin
+(
+)
 .
 clear
 (
@@ -5442,7 +5444,9 @@ passwordCacheEntry
 =
 LoginManagerParent
 .
-_generatedPasswordsByPrincipalOrigin
+getGeneratedPasswordsByPrincipalOrigin
+(
+)
 .
 get
 (
@@ -5947,7 +5951,9 @@ autoSavedLogin
 password
 LoginManagerParent
 .
-_generatedPasswordsByPrincipalOrigin
+getGeneratedPasswordsByPrincipalOrigin
+(
+)
 .
 get
 (
@@ -6380,7 +6386,9 @@ passwordCacheEntry
 =
 LoginManagerParent
 .
-_generatedPasswordsByPrincipalOrigin
+getGeneratedPasswordsByPrincipalOrigin
+(
+)
 .
 get
 (
@@ -6972,7 +6980,9 @@ autoSavedLogin
 password
 LoginManagerParent
 .
-_generatedPasswordsByPrincipalOrigin
+getGeneratedPasswordsByPrincipalOrigin
+(
+)
 .
 get
 (

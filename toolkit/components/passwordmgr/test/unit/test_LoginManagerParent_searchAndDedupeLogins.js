@@ -803,7 +803,10 @@ logins
 let
 actual
 =
+new
 LMP
+(
+)
 .
 _searchAndDedupeLogins
 (

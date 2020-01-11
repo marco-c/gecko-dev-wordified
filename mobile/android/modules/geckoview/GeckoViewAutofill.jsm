@@ -1004,6 +1004,11 @@ usernameField
 =
 LoginManagerContent
 .
+forWindow
+(
+window
+)
+.
 getUserNameAndPasswordFields
 (
 passwordField

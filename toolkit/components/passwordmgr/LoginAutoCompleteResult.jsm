@@ -2827,6 +2827,18 @@ null
 ;
 }
 let
+loginManager
+=
+LoginManagerContent
+.
+forWindow
+(
+aElement
+.
+ownerGlobal
+)
+;
+let
 acLookupPromise
 =
 (
@@ -2834,7 +2846,7 @@ this
 .
 _autoCompleteLookupPromise
 =
-LoginManagerContent
+loginManager
 .
 _autoCompleteSearchAsync
 (

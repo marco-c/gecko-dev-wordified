@@ -447,7 +447,9 @@ jsm
 ;
 LoginManagerParent
 .
-_generatedPasswordsByPrincipalOrigin
+getGeneratedPasswordsByPrincipalOrigin
+(
+)
 .
 clear
 (
