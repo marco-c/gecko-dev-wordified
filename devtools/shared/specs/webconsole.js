@@ -954,6 +954,17 @@ nullable
 json
 "
 )
+eager
+:
+Option
+(
+0
+"
+nullable
+:
+boolean
+"
+)
 }
 response
 :

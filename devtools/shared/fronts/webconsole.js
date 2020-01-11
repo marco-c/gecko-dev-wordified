@@ -1251,6 +1251,11 @@ mapped
 opts
 .
 mapped
+eager
+:
+opts
+.
+eager
 }
 ;
 const
