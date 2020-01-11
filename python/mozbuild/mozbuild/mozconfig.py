@@ -87,7 +87,6 @@ mozbuild
 util
 import
 system_encoding
-ensure_subprocess_env
 MOZ_MYCONFIG_ERROR
 =
 '
@@ -1772,6 +1771,15 @@ make_flags
 [
 ]
         
+env
+=
+dict
+(
+os
+.
+environ
+)
+        
 #
 Since
 mozconfig_loader
@@ -1955,15 +1963,9 @@ cwd
 self
 .
 topsrcdir
-                                             
 env
 =
-ensure_subprocess_env
-(
-os
-.
-environ
-)
+env
 )
         
 except
