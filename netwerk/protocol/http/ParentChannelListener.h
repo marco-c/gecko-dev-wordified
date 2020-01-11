@@ -141,6 +141,13 @@ h
 #
 include
 "
+nsIMultiPartChannel
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -229,6 +236,8 @@ nsIInterfaceRequestor
 public
 nsIStreamListener
 public
+nsIMultiPartChannelListener
+public
 nsINetworkInterceptController
 {
 public
@@ -237,6 +246,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
+NS_DECL_NSIMULTIPARTCHANNELLISTENER
 NS_DECL_NSINETWORKINTERCEPTCONTROLLER
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
