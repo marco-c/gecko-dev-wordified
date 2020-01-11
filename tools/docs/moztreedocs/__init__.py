@@ -944,6 +944,9 @@ with
 open
 (
 markdown_file
+"
+r
+"
 )
 as
 f
@@ -991,6 +994,9 @@ tempfile
 .
 NamedTemporaryFile
 (
+"
+w
+"
 delete
 =
 False
@@ -1402,7 +1408,7 @@ self
 .
 index_path
 '
-rb
+r
 '
 )
 as
@@ -1753,7 +1759,7 @@ rst
 '
 )
 '
-wb
+w
 '
 )
 as
