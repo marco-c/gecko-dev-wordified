@@ -94,6 +94,12 @@ MPL
 *
 /
 #
+ifndef
+nsUrlClassifierGTestCommon_h__
+#
+define
+nsUrlClassifierGTestCommon_h__
+#
 include
 "
 Entries
@@ -429,10 +435,11 @@ CheckContent
 (
 LookupCacheV4
 *
-aCache
-PrefixStringMap
+cache
+const
+_PrefixArray
 &
-aExpected
+aPrefixArray
 )
 ;
 /
@@ -535,3 +542,8 @@ _PrefixArray
 aPrefixArray
 )
 ;
+#
+endif
+/
+/
+nsUrlClassifierGTestCommon_h__
