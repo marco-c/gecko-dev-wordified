@@ -647,7 +647,10 @@ dom
 IDBTransaction
 :
 :
-READ_ONLY
+Mode
+:
+:
+ReadOnly
 mozilla
 :
 :
@@ -657,7 +660,10 @@ dom
 IDBTransaction
 :
 :
-MODE_INVALID
+Mode
+:
+:
+Invalid
 >
 {
 }

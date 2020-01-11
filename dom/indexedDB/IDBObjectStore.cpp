@@ -8309,7 +8309,10 @@ GetMode
 IDBTransaction
 :
 :
-CLEANUP
+Mode
+:
+:
+Cleanup
 |
 |
 mDeletedSpec
@@ -11331,7 +11334,10 @@ GetMode
 IDBTransaction
 :
 :
-VERSION_CHANGE
+Mode
+:
+:
+VersionChange
 |
 |
 mDeletedSpec
@@ -12051,7 +12057,10 @@ GetMode
 IDBTransaction
 :
 :
-VERSION_CHANGE
+Mode
+:
+:
+VersionChange
 |
 |
 mDeletedSpec
@@ -13679,7 +13688,10 @@ GetMode
 IDBTransaction
 :
 :
-VERSION_CHANGE
+Mode
+:
+:
+VersionChange
 |
 |
 mDeletedSpec

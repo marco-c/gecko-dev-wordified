@@ -793,7 +793,10 @@ GetMode
 IDBTransaction
 :
 :
-VERSION_CHANGE
+Mode
+:
+:
+VersionChange
 |
 |
 mDeletedMetadata

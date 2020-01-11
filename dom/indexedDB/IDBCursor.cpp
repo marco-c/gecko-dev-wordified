@@ -3408,7 +3408,10 @@ GetMode
 IDBTransaction
 :
 :
-CLEANUP
+Mode
+:
+:
+Cleanup
 |
 |
 IsSourceDeleted

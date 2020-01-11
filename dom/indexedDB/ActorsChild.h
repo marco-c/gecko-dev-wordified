@@ -584,7 +584,10 @@ aMode
 IDBTransaction
 :
 :
-VERSION_CHANGE
+Mode
+:
+:
+VersionChange
 )
 {
 return
