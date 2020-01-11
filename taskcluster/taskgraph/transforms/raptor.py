@@ -68,6 +68,8 @@ voluptuous
 import
 (
     
+Any
+    
 Optional
     
 Required
@@ -200,7 +202,7 @@ basestring
 Optional
 (
 '
-cold
+pageload
 '
 )
 :
@@ -216,7 +218,18 @@ platform
 app
 '
         
-bool
+Any
+(
+'
+cold
+'
+'
+warm
+'
+'
+both
+'
+)
     
 )
     
@@ -312,6 +325,28 @@ test_description_schema
 target
 '
 ]
+    
+)
+    
+Optional
+(
+'
+run
+-
+visual
+-
+metrics
+'
+)
+:
+optionally_keyed_by
+(
+        
+'
+app
+'
+        
+bool
     
 )
     
@@ -418,6 +453,51 @@ transforms
 .
 add
 def
+set_defaults
+(
+config
+tests
+)
+:
+    
+for
+test
+in
+tests
+:
+        
+test
+.
+setdefault
+(
+'
+pageload
+'
+'
+warm
+'
+)
+        
+test
+.
+setdefault
+(
+'
+run
+-
+visual
+-
+metrics
+'
+False
+)
+        
+yield
+test
+transforms
+.
+add
+def
 split_apps
 (
 config
@@ -434,7 +514,7 @@ chrome
 '
 :
 '
-Chr
+ChR
 '
         
 '
@@ -702,6 +782,12 @@ fields
 [
         
 '
+limit
+-
+platforms
+'
+        
+'
 activity
 '
         
@@ -712,7 +798,7 @@ path
 '
         
 '
-cold
+pageload
 '
         
 '
@@ -733,6 +819,14 @@ projects
         
 '
 target
+'
+        
+'
+run
+-
+visual
+-
+metrics
 '
     
 ]
@@ -771,7 +865,7 @@ transforms
 .
 add
 def
-split_cold
+split_pageload
 (
 config
 tests
@@ -784,21 +878,32 @@ in
 tests
 :
         
-cold
+pageload
 =
 test
 .
 pop
 (
 '
-cold
+pageload
 '
-False
+'
+warm
+'
 )
         
 if
+pageload
 not
+in
+(
+'
 cold
+'
+'
+both
+'
+)
 :
             
 yield
@@ -806,13 +911,22 @@ test
             
 continue
         
+if
+pageload
+=
+=
+'
+both
+'
+:
+            
 orig
 =
 deepcopy
 (
 test
 )
-        
+            
 yield
 orig
         
@@ -977,6 +1091,53 @@ options
 [
 ]
 )
+        
+if
+test
+.
+pop
+(
+'
+run
+-
+visual
+-
+metrics
+'
+False
+)
+:
+            
+extra_options
+.
+append
+(
+'
+-
+-
+browsertime
+-
+video
+'
+)
+            
+test
+[
+'
+attributes
+'
+]
+[
+'
+run
+-
+visual
+-
+metrics
+'
+]
+=
+True
         
 if
 '
