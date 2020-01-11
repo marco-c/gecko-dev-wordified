@@ -872,15 +872,6 @@ bounds
 space_and_clip
 )
 bounds
-bounds
-.
-size
-LayoutSize
-:
-:
-zero
-(
-)
 ImageRendering
 :
 :
