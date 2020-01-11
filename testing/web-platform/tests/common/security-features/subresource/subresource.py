@@ -565,8 +565,6 @@ redirection
 keep
 -
 scheme
--
-redirect
 "
 :
         
@@ -588,8 +586,6 @@ redirection
 swap
 -
 scheme
--
-redirect
 "
 :
         
@@ -611,8 +607,6 @@ redirection
 keep
 -
 origin
--
-redirect
 "
 :
         
@@ -634,8 +628,6 @@ redirection
 swap
 -
 origin
--
-redirect
 "
 :
         
