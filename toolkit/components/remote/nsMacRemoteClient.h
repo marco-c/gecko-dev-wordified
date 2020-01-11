@@ -109,10 +109,19 @@ MPL
 /
 #
 ifndef
-nsWinRemoteClient_h__
+TOOLKIT_COMPONENTS_REMOTE_NSMACREMOTECLIENT_H_
 #
 define
-nsWinRemoteClient_h__
+TOOLKIT_COMPONENTS_REMOTE_NSMACREMOTECLIENT_H_
+#
+import
+<
+CoreFoundation
+/
+CoreFoundation
+.
+h
+>
 #
 include
 "
@@ -128,7 +137,7 @@ nsRemoteClient
 h
 "
 class
-nsWinRemoteClient
+nsMacRemoteClient
 :
 public
 nsRemoteClient
@@ -137,7 +146,7 @@ public
 :
 virtual
 ~
-nsWinRemoteClient
+nsMacRemoteClient
 (
 )
 =
@@ -186,4 +195,4 @@ override
 endif
 /
 /
-nsWinRemoteClient_h__
+TOOLKIT_COMPONENTS_REMOTE_NSMACREMOTECLIENT_H_

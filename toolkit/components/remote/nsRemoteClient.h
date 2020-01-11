@@ -109,10 +109,10 @@ MPL
 /
 #
 ifndef
-nsRemoteClient_h__
+TOOLKIT_COMPONENTS_REMOTE_NSREMOTECLIENT_H_
 #
 define
-nsRemoteClient_h__
+TOOLKIT_COMPONENTS_REMOTE_NSREMOTECLIENT_H_
 #
 include
 "
@@ -440,4 +440,4 @@ aSucceeded
 endif
 /
 /
-nsRemoteClient_h__
+TOOLKIT_COMPONENTS_REMOTE_NSREMOTECLIENT_H_
