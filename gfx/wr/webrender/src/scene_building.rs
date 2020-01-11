@@ -3209,7 +3209,7 @@ self
 .
 config
 .
-enable_picture_caching
+global_enable_picture_caching
 {
 return
 ;
@@ -9090,7 +9090,7 @@ self
 .
 config
 .
-enable_picture_caching
+global_enable_picture_caching
 {
 /
 /
