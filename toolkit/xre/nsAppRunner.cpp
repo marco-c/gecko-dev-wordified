@@ -3653,6 +3653,11 @@ SYNC_ENUMS
 SANDBOX_BROKER
 RemoteSandboxBroker
 )
+SYNC_ENUMS
+(
+FORKSERVER
+ForkServer
+)
 /
 /
 .
@@ -3668,7 +3673,7 @@ them
 :
 static_assert
 (
-GeckoProcessType_RemoteSandboxBroker
+GeckoProcessType_ForkServer
 +
 1
 =
