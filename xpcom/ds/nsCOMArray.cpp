@@ -708,8 +708,7 @@ void
 aData
 )
 {
-nsISupportsComparatorContext
-*
+auto
 ctx
 =
 static_cast
