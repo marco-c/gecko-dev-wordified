@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-GPU_PipelineLayout_H_
+WEBGPU_PipelineLayout_H_
 #
 define
-GPU_PipelineLayout_H_
+WEBGPU_PipelineLayout_H_
 #
 include
 "
@@ -127,8 +127,6 @@ PipelineLayout
 final
 :
 public
-ObjectBase
-public
 ChildOf
 <
 Device
@@ -136,11 +134,7 @@ Device
 {
 public
 :
-GPU_DECL_CYCLE_COLLECTION
-(
-PipelineLayout
-)
-GPU_DECL_JS_WRAP
+WEBGPU_DECL_GOOP
 (
 PipelineLayout
 )
@@ -174,4 +168,4 @@ mozilla
 endif
 /
 /
-GPU_PipelineLayout_H_
+WEBGPU_PipelineLayout_H_

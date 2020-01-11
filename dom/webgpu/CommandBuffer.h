@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-GPU_CommandBuffer_H_
+WEBGPU_CommandBuffer_H_
 #
 define
-GPU_CommandBuffer_H_
+WEBGPU_CommandBuffer_H_
 #
 include
 "
@@ -127,8 +127,6 @@ CommandBuffer
 final
 :
 public
-ObjectBase
-public
 ChildOf
 <
 Device
@@ -136,11 +134,7 @@ Device
 {
 public
 :
-GPU_DECL_CYCLE_COLLECTION
-(
-CommandBuffer
-)
-GPU_DECL_JS_WRAP
+WEBGPU_DECL_GOOP
 (
 CommandBuffer
 )
@@ -174,4 +168,4 @@ mozilla
 endif
 /
 /
-GPU_CommandBuffer_H_
+WEBGPU_CommandBuffer_H_
