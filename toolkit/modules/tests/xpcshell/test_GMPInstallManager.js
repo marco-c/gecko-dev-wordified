@@ -60,6 +60,11 @@ http
 localhost
 "
 ;
+const
+PR_USEC_PER_MSEC
+=
+1000
+;
 var
 GMPScope
 =
@@ -6518,6 +6523,8 @@ Date
 now
 (
 )
+*
+PR_USEC_PER_MSEC
 Ci
 .
 nsIZipWriter
