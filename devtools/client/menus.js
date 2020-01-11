@@ -395,6 +395,8 @@ menu
 button
 .
 jsm
+.
+js
 "
 )
 ;

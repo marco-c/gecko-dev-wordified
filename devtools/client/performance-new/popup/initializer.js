@@ -311,6 +311,8 @@ popup
 background
 .
 jsm
+.
+js
 "
 )
 ;

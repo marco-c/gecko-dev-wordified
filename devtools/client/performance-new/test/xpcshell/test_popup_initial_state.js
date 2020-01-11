@@ -109,6 +109,8 @@ popup
 background
 .
 jsm
+.
+js
 "
 )
 ;

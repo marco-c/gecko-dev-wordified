@@ -698,6 +698,8 @@ menu
 button
 .
 jsm
+.
+js
 "
 )
 ;
