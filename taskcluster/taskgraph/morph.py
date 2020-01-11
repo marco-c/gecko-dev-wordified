@@ -480,11 +480,9 @@ provisionerId
 '
 :
 '
-aws
+gecko
 -
-provisioner
--
-v1
+t
 '
         
 '
@@ -492,8 +490,6 @@ workerType
 '
 :
 '
-gecko
--
 misc
 '
         
