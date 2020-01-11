@@ -15916,7 +15916,9 @@ PreprocessParams
 TObjectStoreGetPreprocessParams
 :
 {
-ObjectStoreGetPreprocessParams
+const
+auto
+&
 params
 =
 aParams
@@ -15946,7 +15948,9 @@ PreprocessParams
 TObjectStoreGetAllPreprocessParams
 :
 {
-ObjectStoreGetAllPreprocessParams
+const
+auto
+&
 params
 =
 aParams
