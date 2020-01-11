@@ -216,6 +216,12 @@ nsIUrlClassifierFeature
 :
 listType
 aListType
+nsIUrlClassifierFeature
+:
+:
+URIType
+*
+aURIType
 nsIURI
 *
 *
