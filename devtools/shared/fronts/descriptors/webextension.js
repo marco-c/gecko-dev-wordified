@@ -343,17 +343,6 @@ if
 this
 .
 isWebExtension
-&
-&
-this
-.
-client
-.
-mainRoot
-.
-traits
-.
-webExtensionAddonConnect
 )
 {
 /
