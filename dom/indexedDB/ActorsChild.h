@@ -2753,6 +2753,10 @@ const
 CursorRequestParams
 &
 aParams
+const
+Key
+&
+aCurrentKey
 )
 ;
 void
@@ -2928,6 +2932,8 @@ aResponse
 )
 override
 ;
+public
+:
 /
 /
 Force
@@ -2943,6 +2949,10 @@ const
 CursorRequestParams
 &
 aParams
+const
+Key
+&
+aCurrentKey
 )
 =
 delete
