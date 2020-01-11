@@ -79,13 +79,8 @@ USB_RUNTIMES_SCAN_SUCCESS
 require
 (
 "
-devtools
-/
-client
-/
-aboutdebugging
-/
-src
+.
+.
 /
 constants
 "

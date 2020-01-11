@@ -91,13 +91,8 @@ DEBUG_TARGETS
 require
 (
 "
-devtools
-/
-client
-/
-aboutdebugging
-/
-src
+.
+.
 /
 constants
 "

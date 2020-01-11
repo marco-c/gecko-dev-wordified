@@ -69,13 +69,8 @@ UPDATE_DOMAIN
 require
 (
 "
-devtools
-/
-client
-/
-application
-/
-src
+.
+.
 /
 constants
 "

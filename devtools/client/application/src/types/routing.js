@@ -91,13 +91,8 @@ PAGE_TYPES
 require
 (
 "
-devtools
-/
-client
-/
-application
-/
-src
+.
+.
 /
 constants
 "

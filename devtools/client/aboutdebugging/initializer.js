@@ -235,11 +235,7 @@ succeed
 require
 (
 "
-devtools
-/
-client
-/
-aboutdebugging
+.
 /
 aboutdebugging
 "

@@ -129,11 +129,8 @@ MarkerBlueprintUtils
 require
 (
 "
-devtools
-/
-client
-/
-performance
+.
+.
 /
 modules
 /

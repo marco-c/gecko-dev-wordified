@@ -72,13 +72,8 @@ SERVICE_WORKER_STATUSES
 require
 (
 "
-devtools
-/
-client
-/
-aboutdebugging
-/
-src
+.
+.
 /
 constants
 "

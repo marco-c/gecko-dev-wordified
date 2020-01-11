@@ -95,11 +95,8 @@ API
 .
 "
 ^
-devtools
-/
-client
-/
-accessibility
+.
+.
 /
 utils
 /

@@ -87,13 +87,8 @@ getSourceForDisplay
 require
 (
 "
-devtools
-/
-client
-/
-inspector
-/
-changes
+.
+.
 /
 utils
 /

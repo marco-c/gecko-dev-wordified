@@ -155,11 +155,8 @@ getStr
 require
 (
 "
-devtools
-/
-client
-/
-responsive
+.
+.
 /
 utils
 /

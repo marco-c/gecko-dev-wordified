@@ -73,13 +73,8 @@ constants
 require
 (
 "
-devtools
-/
-client
-/
-dom
-/
-content
+.
+.
 /
 constants
 "

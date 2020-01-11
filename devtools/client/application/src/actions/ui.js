@@ -69,13 +69,8 @@ UPDATE_SELECTED_PAGE
 require
 (
 "
-devtools
-/
-client
-/
-application
-/
-src
+.
+.
 /
 constants
 "

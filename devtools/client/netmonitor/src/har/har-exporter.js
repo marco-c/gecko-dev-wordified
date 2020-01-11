@@ -151,15 +151,7 @@ HarBuilder
 require
 (
 "
-devtools
-/
-client
-/
-netmonitor
-/
-src
-/
-har
+.
 /
 har
 -

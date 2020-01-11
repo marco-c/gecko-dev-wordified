@@ -70,13 +70,8 @@ REQUEST_TABS_SUCCESS
 require
 (
 "
-devtools
-/
-client
-/
-aboutdebugging
-/
-src
+.
+.
 /
 constants
 "

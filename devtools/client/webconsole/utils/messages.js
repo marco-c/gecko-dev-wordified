@@ -915,11 +915,8 @@ MESSAGE_LEVEL
 require
 (
 "
-devtools
-/
-client
-/
-webconsole
+.
+.
 /
 constants
 "
@@ -934,11 +931,8 @@ NetworkEventMessage
 require
 (
 "
-devtools
-/
-client
-/
-webconsole
+.
+.
 /
 types
 "

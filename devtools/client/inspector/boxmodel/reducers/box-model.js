@@ -71,13 +71,8 @@ UPDATE_OFFSET_PARENT
 require
 (
 "
-devtools
-/
-client
-/
-inspector
-/
-boxmodel
+.
+.
 /
 actions
 /

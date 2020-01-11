@@ -69,13 +69,8 @@ SORT_BY
 require
 (
 "
-devtools
-/
-client
-/
-netmonitor
-/
-src
+.
+.
 /
 constants
 "

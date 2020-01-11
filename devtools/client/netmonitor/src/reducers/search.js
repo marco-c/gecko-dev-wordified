@@ -78,13 +78,8 @@ SET_TARGET_SEARCH_RESULT
 require
 (
 "
-devtools
-/
-client
-/
-netmonitor
-/
-src
+.
+.
 /
 constants
 "

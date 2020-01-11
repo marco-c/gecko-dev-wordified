@@ -114,13 +114,11 @@ FILTER_SEARCH_DELAY
 require
 (
 "
-devtools
+.
+.
 /
-client
-/
-netmonitor
-/
-src
+.
+.
 /
 constants
 "

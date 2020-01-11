@@ -74,13 +74,8 @@ TOGGLE_BLOCKING_ENABLED
 require
 (
 "
-devtools
-/
-client
-/
-netmonitor
-/
-src
+.
+.
 /
 constants
 "

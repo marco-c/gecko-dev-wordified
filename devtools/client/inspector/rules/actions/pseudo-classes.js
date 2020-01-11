@@ -71,15 +71,7 @@ TOGGLE_PSEUDO_CLASS
 require
 (
 "
-devtools
-/
-client
-/
-inspector
-/
-rules
-/
-actions
+.
 /
 index
 "

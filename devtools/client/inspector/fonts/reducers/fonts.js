@@ -69,13 +69,8 @@ UPDATE_FONTS
 require
 (
 "
-devtools
-/
-client
-/
-inspector
-/
-fonts
+.
+.
 /
 actions
 /

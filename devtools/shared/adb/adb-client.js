@@ -103,11 +103,7 @@ AdbSocket
 require
 (
 "
-devtools
-/
-shared
-/
-adb
+.
 /
 adb
 -

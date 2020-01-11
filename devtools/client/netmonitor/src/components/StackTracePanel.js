@@ -134,13 +134,8 @@ fetchNetworkUpdatePacket
 require
 (
 "
-devtools
-/
-client
-/
-netmonitor
-/
-src
+.
+.
 /
 utils
 /

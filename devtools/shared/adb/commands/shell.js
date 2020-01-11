@@ -91,11 +91,8 @@ client
 require
 (
 "
-devtools
-/
-shared
-/
-adb
+.
+.
 /
 adb
 -

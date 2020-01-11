@@ -202,11 +202,7 @@ content
 require
 (
 "
-devtools
-/
-client
-/
-dom
+.
 /
 content
 /

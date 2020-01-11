@@ -60,11 +60,11 @@ mod
 require
 (
 "
-devtools
+.
+.
 /
-client
-/
-shared
+.
+.
 /
 lib
 /

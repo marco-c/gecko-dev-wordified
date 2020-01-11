@@ -85,11 +85,8 @@ actions
 require
 (
 "
-devtools
-/
-client
-/
-memory
+.
+.
 /
 constants
 "

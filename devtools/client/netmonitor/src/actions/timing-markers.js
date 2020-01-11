@@ -70,13 +70,8 @@ CLEAR_TIMING_MARKERS
 require
 (
 "
-devtools
-/
-client
-/
-netmonitor
-/
-src
+.
+.
 /
 constants
 "

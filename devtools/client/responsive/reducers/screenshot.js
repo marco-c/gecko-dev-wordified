@@ -70,11 +70,8 @@ TAKE_SCREENSHOT_START
 require
 (
 "
-devtools
-/
-client
-/
-responsive
+.
+.
 /
 actions
 /

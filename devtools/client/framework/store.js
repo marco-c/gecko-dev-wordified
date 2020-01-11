@@ -87,11 +87,7 @@ reducers
 require
 (
 "
-devtools
-/
-client
-/
-framework
+.
 /
 reducers
 /

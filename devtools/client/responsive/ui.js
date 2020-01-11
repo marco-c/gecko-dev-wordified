@@ -107,11 +107,7 @@ getOrientation
 require
 (
 "
-devtools
-/
-client
-/
-responsive
+.
 /
 utils
 /

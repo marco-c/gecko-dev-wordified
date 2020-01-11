@@ -88,11 +88,8 @@ viewState
 require
 (
 "
-devtools
-/
-client
-/
-memory
+.
+.
 /
 constants
 "

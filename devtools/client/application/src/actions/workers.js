@@ -70,13 +70,8 @@ UPDATE_WORKERS
 require
 (
 "
-devtools
-/
-client
-/
-application
-/
-src
+.
+.
 /
 constants
 "

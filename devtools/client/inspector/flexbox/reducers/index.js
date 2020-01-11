@@ -68,15 +68,7 @@ flexbox
 require
 (
 "
-devtools
-/
-client
-/
-inspector
-/
-flexbox
-/
-reducers
+.
 /
 flexbox
 "

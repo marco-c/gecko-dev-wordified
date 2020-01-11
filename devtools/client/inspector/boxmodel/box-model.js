@@ -71,13 +71,7 @@ updateOffsetParent
 require
 (
 "
-devtools
-/
-client
-/
-inspector
-/
-boxmodel
+.
 /
 actions
 /
