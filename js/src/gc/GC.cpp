@@ -19849,8 +19849,6 @@ if
 usedBytes
 >
 =
-thresholdBytes
-*
 niThreshold
 )
 {
