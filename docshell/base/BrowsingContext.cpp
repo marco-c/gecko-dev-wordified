@@ -4552,6 +4552,7 @@ manager
 new
 SessionStorageManager
 (
+this
 )
 ;
 }
