@@ -2581,6 +2581,8 @@ MediaTrackGraphImpl
 *
 aGraphImpl
 uint32_t
+aOutputChannelCount
+uint32_t
 aInputChannelCount
 AudioInputType
 aAudioInputType
@@ -3316,6 +3318,7 @@ channels
 .
 *
 /
+const
 uint32_t
 mOutputChannels
 ;
