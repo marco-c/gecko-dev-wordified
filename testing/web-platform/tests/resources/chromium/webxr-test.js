@@ -3373,7 +3373,7 @@ dataProviderRequest
 )
 ;
 let
-clientRequest
+clientReceiver
 =
 mojo
 .
@@ -3532,9 +3532,9 @@ submit_frame_sink
 dataProvider
 :
 dataProviderPtr
-clientRequest
+clientReceiver
 :
-clientRequest
+clientReceiver
 displayInfo
 :
 this
