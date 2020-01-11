@@ -368,7 +368,7 @@ typedef
 int
 (
 *
-nsBaseArrayComparatorFunc
+nsISupportsComparatorFunc
 )
 (
 nsISupports
@@ -383,9 +383,9 @@ aData
 )
 ;
 struct
-nsCOMArrayComparatorContext
+nsISupportsComparatorContext
 {
-nsBaseArrayComparatorFunc
+nsISupportsComparatorFunc
 mComparatorFunc
 ;
 void
@@ -396,7 +396,7 @@ mData
 ;
 static
 int
-nsCOMArrayComparator
+VoidStarComparator
 (
 const
 void
@@ -414,7 +414,7 @@ aData
 void
 Sort
 (
-nsBaseArrayComparatorFunc
+nsISupportsComparatorFunc
 aFunc
 void
 *
@@ -2314,7 +2314,7 @@ typedef
 int
 (
 *
-nsCOMArrayComparatorFunc
+TComparatorFunc
 )
 (
 T
@@ -2331,7 +2331,7 @@ aData
 void
 Sort
 (
-nsCOMArrayComparatorFunc
+TComparatorFunc
 aFunc
 void
 *
@@ -2343,7 +2343,7 @@ nsCOMArray_base
 :
 Sort
 (
-nsBaseArrayComparatorFunc
+nsISupportsComparatorFunc
 (
 aFunc
 )

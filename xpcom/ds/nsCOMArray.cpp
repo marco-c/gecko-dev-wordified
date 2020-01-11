@@ -693,7 +693,7 @@ int
 nsCOMArray_base
 :
 :
-nsCOMArrayComparator
+VoidStarComparator
 (
 const
 void
@@ -708,13 +708,13 @@ void
 aData
 )
 {
-nsCOMArrayComparatorContext
+nsISupportsComparatorContext
 *
 ctx
 =
 static_cast
 <
-nsCOMArrayComparatorContext
+nsISupportsComparatorContext
 *
 >
 (
@@ -765,7 +765,7 @@ nsCOMArray_base
 :
 Sort
 (
-nsBaseArrayComparatorFunc
+nsISupportsComparatorFunc
 aFunc
 void
 *
@@ -783,7 +783,7 @@ Length
 1
 )
 {
-nsCOMArrayComparatorContext
+nsISupportsComparatorContext
 ctx
 =
 {
@@ -808,7 +808,7 @@ sizeof
 nsISupports
 *
 )
-nsCOMArrayComparator
+VoidStarComparator
 &
 ctx
 )
