@@ -809,11 +809,8 @@ nf
 &
 nf
 instanceof
-GetBuiltinConstructor
+GetNumberFormatConstructor
 (
-"
-NumberFormat
-"
 )
 )
 {
@@ -3874,11 +3871,8 @@ thisValue
 &
 thisValue
 instanceof
-GetBuiltinConstructor
+GetNumberFormatConstructor
 (
-"
-NumberFormat
-"
 )
 )
 {

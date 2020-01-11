@@ -7423,7 +7423,7 @@ proto
 cx
 )
 ;
-JSObject
+JSFunction
 *
 arrayBufferCtor
 =
