@@ -309,14 +309,14 @@ h
 #
 include
 "
-nsIRemoteTab
+nsIProcessSwitchRequestor
 .
 h
 "
 #
 include
 "
-nsICrossProcessSwitchChannel
+nsIRemoteTab
 .
 h
 "

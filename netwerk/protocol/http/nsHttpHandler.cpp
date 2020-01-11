@@ -181,13 +181,6 @@ h
 #
 include
 "
-nsICrossProcessSwitchChannel
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h
@@ -238,6 +231,13 @@ h
 include
 "
 nsIPrefLocalizedString
+.
+h
+"
+#
+include
+"
+nsIProcessSwitchRequestor
 .
 h
 "
