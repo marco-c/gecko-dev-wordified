@@ -1080,12 +1080,6 @@ timing
 function
 "
 "
--
-moz
--
-binding
-"
-"
 block
 -
 size
