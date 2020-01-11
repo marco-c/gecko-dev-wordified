@@ -17529,8 +17529,6 @@ NULL
 0
 0
 JOF_LOOPENTRY
-|
-JOF_IC
 )
 \
 /
