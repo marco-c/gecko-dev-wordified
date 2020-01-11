@@ -275,6 +275,13 @@ h
 "
 #
 include
+"
+ReferrerInfo
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -9453,6 +9460,9 @@ nsIReferrerInfo
 >
 referrerInfo
 =
+dom
+:
+:
 ReferrerInfo
 :
 :
