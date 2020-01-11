@@ -115,6 +115,8 @@ import
 absolute_import
 print_function
 import
+distro
+import
 os
 import
 platform
@@ -767,40 +769,15 @@ Linux
 "
 :
     
-if
-hasattr
 (
-platform
-"
-linux_distribution
-"
-)
-:
-        
-(
-distro
+distribution
 os_version
 codename
 )
 =
-platform
+distro
 .
 linux_distribution
-(
-)
-    
-else
-:
-        
-(
-distro
-os_version
-codename
-)
-=
-platform
-.
-dist
 (
 )
     
@@ -823,7 +800,7 @@ s
 "
 %
 (
-distro
+distribution
 os_version
 )
     
@@ -881,9 +858,10 @@ to
 run
 .
     
+#
 if
 not
-distro
+distribution
 and
 not
 os_version
@@ -891,17 +869,20 @@ and
 not
 codename
 :
-        
-distro
+    
+#
+distribution
 =
 '
 lfs
 '
-        
+    
+#
 version
 =
 release
-        
+    
+#
 os_version
 =
 release
@@ -924,7 +905,7 @@ linux_distro
 '
 ]
 =
-distro
+distribution
 elif
 system
 in

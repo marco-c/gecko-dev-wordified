@@ -75,6 +75,7 @@ dependencies
 deps
 =
 [
+    
 "
 mozfile
 >
@@ -82,6 +83,17 @@ mozfile
 0
 .
 12
+"
+    
+"
+distro
+=
+=
+1
+.
+4
+.
+0
 "
 ]
 setup
