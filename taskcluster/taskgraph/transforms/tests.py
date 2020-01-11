@@ -1427,9 +1427,6 @@ projects
 :
 [
 '
-ash
-'
-'
 try
 '
 ]
