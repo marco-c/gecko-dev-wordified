@@ -485,7 +485,7 @@ mProcess
 )
 ;
 }
-nsresult
+void
 GMPParent
 :
 :
@@ -618,9 +618,6 @@ aOther
 -
 >
 mAdapter
-;
-return
-NS_OK
 ;
 }
 RefPtr
