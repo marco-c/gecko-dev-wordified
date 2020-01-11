@@ -173,6 +173,10 @@ aLength
 /
 )
 {
+mImmutable
+=
+true
+;
 }
 EmptyBlobImpl
 (
@@ -202,6 +206,10 @@ aContentType
 aLastModifiedDate
 )
 {
+mImmutable
+=
+true
+;
 }
 virtual
 void

@@ -393,6 +393,10 @@ mFileId
 1
 )
 {
+mImmutable
+=
+true
+;
 }
 StreamBlobImpl
 :
@@ -450,6 +454,10 @@ mFileId
 1
 )
 {
+mImmutable
+=
+true
+;
 }
 StreamBlobImpl
 :
