@@ -130,7 +130,7 @@ fstream
 #
 define
 MAX_COMMENT_LENGTH
-500
+10000
 #
 if
 defined
