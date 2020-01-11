@@ -713,6 +713,10 @@ RequestRedirect
 :
 Follow
 )
+mMozErrors
+(
+false
+)
 mAuthenticationFlag
 (
 false
@@ -920,6 +924,10 @@ aRequestRedirect
 mIntegrity
 (
 aIntegrity
+)
+mMozErrors
+(
+false
 )
 mAuthenticationFlag
 (
