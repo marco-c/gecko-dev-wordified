@@ -168,6 +168,11 @@ Instance
 (
 )
 ;
+~
+BenchmarkStorageChild
+(
+)
+;
 private
 :
 BenchmarkStorageChild
