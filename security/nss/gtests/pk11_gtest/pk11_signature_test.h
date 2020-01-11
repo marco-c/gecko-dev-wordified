@@ -353,6 +353,16 @@ spkiItem
 )
 )
 ;
+if
+(
+!
+certSpki
+)
+{
+return
+nullptr
+;
+}
 return
 ScopedSECKEYPublicKey
 (
