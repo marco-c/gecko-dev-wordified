@@ -629,9 +629,6 @@ forbiddenValuesRegexs
 [
 /
 /
-url
-(
-)
 -
 moz
 -
@@ -642,10 +639,6 @@ element
 \
 b
 (
-?
-:
-url
-|
 (
 ?
 :
@@ -688,8 +681,6 @@ resource
 about
 |
 app
-|
-data
 |
 https
 ?
