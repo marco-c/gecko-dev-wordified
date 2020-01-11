@@ -22532,7 +22532,10 @@ Manual
 )
 mRubyAlign
 (
-NS_STYLE_RUBY_ALIGN_SPACE_AROUND
+StyleRubyAlign
+:
+:
+SpaceAround
 )
 mRubyPosition
 (

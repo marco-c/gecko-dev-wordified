@@ -7802,13 +7802,12 @@ mozilla
 StyleHyphens
 mHyphens
 ;
-uint8_t
+mozilla
+:
+:
+StyleRubyAlign
 mRubyAlign
 ;
-/
-/
-NS_STYLE_RUBY_ALIGN_
-*
 uint8_t
 mRubyPosition
 ;
