@@ -568,7 +568,7 @@ nsDOMOfflineResourceList
 ;
 private
 :
-nsresult
+void
 SendEvent
 (
 const
