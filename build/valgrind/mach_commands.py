@@ -1004,6 +1004,35 @@ checks
 =
 yes
 '
+                
+#
+Compensate
+for
+the
+compiler
+inlining
+new
+but
+not
+delete
+                
+#
+or
+vice
+versa
+.
+                
+'
+-
+-
+show
+-
+mismatched
+-
+frees
+=
+no
+'
             
 ]
             
