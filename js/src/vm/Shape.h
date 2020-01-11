@@ -6562,6 +6562,11 @@ clearDictionaryNextPtr
 (
 )
 ;
+void
+dictNextPreWriteBarrier
+(
+)
+;
 template
 <
 MaybeAdding
