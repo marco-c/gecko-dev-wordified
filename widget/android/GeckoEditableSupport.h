@@ -907,6 +907,8 @@ override
 {
 if
 (
+NS_WARN_IF
+(
 !
 this
 -
@@ -915,6 +917,7 @@ lambda
 .
 GetNativeObject
 (
+)
 )
 )
 {
