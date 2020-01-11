@@ -71,6 +71,12 @@ browser_command
 from
 .
 .
+process
+import
+cast_env
+from
+.
+.
 wpttest
 import
 WdspecResult
@@ -582,7 +588,10 @@ on_finish
                                        
 env
 =
+cast_env
+(
 env
+)
                                        
 storeOutput
 =
@@ -613,7 +622,10 @@ self
 command
 env
 =
+cast_env
+(
 env
+)
 )
         
 try
@@ -1387,7 +1399,10 @@ on_output
                                            
 env
 =
+cast_env
+(
 env
+)
 )
                 
 try
@@ -1457,7 +1472,10 @@ command
                                              
 env
 =
+cast_env
+(
 env
+)
 )
                 
 try
@@ -2098,7 +2116,10 @@ command
                                        
 env
 =
+cast_env
+(
 env
+)
                                        
 storeOutput
 =
@@ -2127,7 +2148,10 @@ Popen
 command
 env
 =
+cast_env
+(
 env
+)
 )
         
 self
