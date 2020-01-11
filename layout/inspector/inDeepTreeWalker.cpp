@@ -999,6 +999,12 @@ if
 aShowSubDocuments
 )
 {
+mozilla
+:
+:
+dom
+:
+:
 Document
 *
 domdoc
