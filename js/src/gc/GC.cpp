@@ -14166,9 +14166,8 @@ sweepDebugEnvironments
 r
 -
 >
-traceWeakEdgesInJitRealm
+sweepJitRealm
 (
-trc
 )
 ;
 r
@@ -34883,12 +34882,6 @@ PhaseKind
 SWEEP_JIT_DATA
 )
 ;
-SweepingTracer
-trc
-(
-rt
-)
-;
 for
 (
 SweepGroupRealmsIter
@@ -34914,10 +34907,8 @@ next
 r
 -
 >
-traceWeakEdgesInJitRealm
+sweepJitRealm
 (
-&
-trc
 )
 ;
 }
