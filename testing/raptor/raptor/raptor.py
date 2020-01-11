@@ -3779,25 +3779,50 @@ __metaclass__
 =
 ABCMeta
     
+property
+    
+abstractmethod
+    
+def
+browsertime_args
+(
+self
+)
+:
+        
+pass
+    
 def
 __init__
 (
 self
-*
-args
+app
+binary
+process_handler
+=
+None
 *
 *
 kwargs
 )
 :
         
+self
+.
+process_handler
+=
+process_handler
+or
+mozprocess
+.
+ProcessHandler
+        
 for
 key
 in
-kwargs
-.
-keys
+list
 (
+kwargs
 )
 :
             
@@ -3885,8 +3910,8 @@ self
 .
 __init__
 (
-*
-args
+app
+binary
 results_handler_class
 =
 klass
@@ -3949,6 +3974,9 @@ browsertime_chromedriver
 )
 :
             
+try
+:
+                
 if
 not
 self
@@ -3962,9 +3990,9 @@ k
 browsertime_ffmpeg
 "
 :
-                
+                    
 continue
-            
+                
 LOG
 .
 info
@@ -3987,9 +4015,6 @@ k
 )
 )
 )
-            
-try
-:
                 
 LOG
 .
@@ -4043,19 +4068,6 @@ k
 e
 )
 )
-    
-property
-    
-abstractmethod
-    
-def
-browsertime_args
-(
-self
-)
-:
-        
-pass
     
 def
 build_browser_profile
@@ -5759,9 +5771,9 @@ try
             
 proc
 =
-mozprocess
+self
 .
-ProcessHandler
+process_handler
 (
 cmd
 env
