@@ -1055,14 +1055,14 @@ ic
 this
 )
 ;
-JSFlatString
+JSLinearString
 *
-flat
+linear
 =
 s
 -
 >
-ensureFlat
+ensureLinear
 (
 context
 )
@@ -1070,7 +1070,7 @@ context
 if
 (
 !
-flat
+linear
 )
 {
 return
@@ -1085,7 +1085,7 @@ JS
 :
 GetDeflatedUTF8StringLength
 (
-flat
+linear
 )
 ;
 char
@@ -1121,7 +1121,7 @@ JS
 :
 DeflateStringToUTF8Buffer
 (
-flat
+linear
 mozilla
 :
 :

@@ -873,7 +873,7 @@ current
 +
 +
 ;
-JSFlatString
+JSLinearString
 *
 str
 =
@@ -1084,7 +1084,7 @@ c
 '
 )
 {
-JSFlatString
+JSLinearString
 *
 str
 =

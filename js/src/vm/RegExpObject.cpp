@@ -2901,7 +2901,7 @@ Optimized
 for
 RegExpObject
 .
-JSFlatString
+JSLinearString
 *
 RegExpObject
 :

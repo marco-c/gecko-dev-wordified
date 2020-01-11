@@ -788,7 +788,7 @@ Int32Value
 )
 ;
 }
-JSFlatString
+JSLinearString
 *
 toString
 (
