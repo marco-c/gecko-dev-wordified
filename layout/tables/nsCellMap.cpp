@@ -12241,15 +12241,6 @@ have
 /
 /
 changed
-uint32_t
-numCols
-=
-aMap
-.
-GetColCount
-(
-)
-;
 int32_t
 rowSpan
 =
@@ -12542,6 +12533,7 @@ aColIndex
 ;
 }
 }
+uint32_t
 numCols
 =
 aMap
