@@ -2525,7 +2525,7 @@ on
 /
 /
 These
-two
+three
 will
 convert
 the
@@ -2539,6 +2539,7 @@ of
 precision
 .
 Truncate
+TruncateNoWrap
 ClampToUint8
 }
 ;

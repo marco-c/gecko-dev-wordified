@@ -390,6 +390,9 @@ class
 OutOfLineNaNToZero
 ;
 class
+OutOfLineZeroIfNaN
+;
+class
 CodeGenerator
 final
 :
@@ -741,6 +744,14 @@ void
 visitOutOfLineNaNToZero
 (
 OutOfLineNaNToZero
+*
+ool
+)
+;
+void
+visitOutOfLineZeroIfNaN
+(
+OutOfLineZeroIfNaN
 *
 ool
 )
