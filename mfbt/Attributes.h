@@ -6256,8 +6256,8 @@ this
 "
 value
 for
-the
 *
+the
 call
 is
 a
@@ -6270,9 +6270,9 @@ Only
 calls
 to
 Constructors
+*
 references
 to
-*
 local
 and
 member
@@ -6283,9 +6283,9 @@ to
 functions
 or
 methods
+*
 marked
 as
-*
 MOZ_MAY_CALL_AFTER_MUST_RETURN
 may
 be

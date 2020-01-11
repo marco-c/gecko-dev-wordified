@@ -33339,6 +33339,7 @@ name
 #
 _impl
 return_type
+\
 #
 #
 __VA_ARGS__
@@ -33366,6 +33367,7 @@ name
 #
 _impl
 return_type
+\
 #
 #
 __VA_ARGS__

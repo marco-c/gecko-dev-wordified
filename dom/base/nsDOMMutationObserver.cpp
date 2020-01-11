@@ -3773,6 +3773,9 @@ characterData
 must
 not
 be
+"
+u
+"
 false
 .
 "

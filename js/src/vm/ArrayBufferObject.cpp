@@ -4999,10 +4999,10 @@ using
 huge
 memory
 clamp
+/
+/
 clampedMaxSize
 to
-/
-/
 a
 smaller
 value
@@ -5026,6 +5026,8 @@ UINT32_MAX
 and
 clampedMaxSize
 %
+/
+/
 wasm
 :
 :
@@ -5303,9 +5305,9 @@ reserve
 the
 biggest
 chunk
+/
+/
 in
-/
-/
 the
 range
 [

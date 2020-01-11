@@ -622,6 +622,8 @@ to
 compute
 the
 DOM_SCRIPT_LOAD_INCREMENTAL_AVG_TRANSFER_RATE
+/
+/
 telemetry
 .
 TimeStamp

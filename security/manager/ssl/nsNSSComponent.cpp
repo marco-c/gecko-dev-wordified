@@ -8185,9 +8185,9 @@ removed
 when
 PSM_DEFAULT_MIN_TLS_VERSION
 is
+/
+/
 increased
-/
-/
 to
 3
 in

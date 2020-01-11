@@ -1392,6 +1392,9 @@ moveCount
 0
 ;
 }
+/
+/
+namespace
 TEST
 (
 TArray
