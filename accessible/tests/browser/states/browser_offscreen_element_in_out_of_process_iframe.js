@@ -479,8 +479,9 @@ setup
 )
 ;
 await
-waitForIFrameUpdates
+waitForIFrameA11yReady
 (
+iframe
 )
 ;
 await
