@@ -251,6 +251,15 @@ CreateSkTypeface
 )
 override
 ;
+void
+SetupSkFontDrawOptions
+(
+SkFont
+&
+aFont
+)
+override
+;
 #
 endif
 already_AddRefed

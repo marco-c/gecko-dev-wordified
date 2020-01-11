@@ -1130,15 +1130,6 @@ MarkChanged
 (
 )
 ;
-bool
-ShouldLCDRenderText
-(
-FontType
-aFontType
-AntialiasMode
-aAntialiasMode
-)
-;
 void
 DrawGlyphs
 (
