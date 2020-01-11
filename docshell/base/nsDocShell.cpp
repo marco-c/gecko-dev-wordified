@@ -27938,8 +27938,6 @@ mScriptGlobal
 >
 DetachFromDocShell
 (
-!
-mSkipBrowsingContextDetachOnDestroy
 )
 ;
 mScriptGlobal
