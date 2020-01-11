@@ -553,12 +553,12 @@ editor
 *
 param
 {
-Element
+NodeFront
 }
 node
 *
 The
-node
+NodeFront
 being
 edited
 .
@@ -6516,9 +6516,9 @@ edittagname
 ;
 this
 .
-markup
+node
 .
-walker
+walkerFront
 .
 editTagName
 (
