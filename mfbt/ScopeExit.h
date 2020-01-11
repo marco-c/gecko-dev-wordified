@@ -666,6 +666,7 @@ ScopeExit
 &
 &
 rhs
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mExitFunction
@@ -687,6 +688,8 @@ rhs
 mExecuteOnDestruction
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 rhs
 .
 release
