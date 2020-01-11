@@ -197,7 +197,7 @@ h
 #
 include
 "
-MediaStreamGraph
+MediaTrackGraph
 .
 h
 "
@@ -710,7 +710,7 @@ SharedBuffer
 aSamples
 uint32_t
 aDuration
-MediaStreamTrackListener
+MediaTrackListener
 *
 aProvider
 TrackRate
@@ -1335,7 +1335,7 @@ processed
 .
 RefPtr
 <
-MediaStreamTrackListener
+MediaTrackListener
 >
 mProvider
 ;

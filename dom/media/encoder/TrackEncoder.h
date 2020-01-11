@@ -116,7 +116,7 @@ h
 #
 include
 "
-MediaStreamGraph
+MediaTrackGraph
 .
 h
 "
@@ -309,7 +309,7 @@ thread
 .
 *
 *
-MediaStreamTrackListeners
+MediaTrackListeners
 will
 get
 store
@@ -547,7 +547,7 @@ segments
 coming
 from
 *
-MediaStreamGraph
+MediaTrackGraph
 .
 Call
 on
@@ -1550,7 +1550,7 @@ const
 AudioSegment
 &
 aSegment
-StreamTime
+TrackTime
 aDuration
 )
 ;
@@ -1566,7 +1566,7 @@ override
 *
 Dispatched
 from
-MediaStreamGraph
+MediaTrackGraph
 when
 we
 have
@@ -1670,7 +1670,7 @@ first
 valid
 track
 from
-MediaStreamGraph
+MediaTrackGraph
 .
 *
 /
@@ -1817,7 +1817,7 @@ class
 AudioSegment
 mOutgoingBuffer
 ;
-StreamTime
+TrackTime
 mNotInitDuration
 ;
 uint32_t
@@ -2041,7 +2041,7 @@ Called
 on
 the
 *
-MediaStreamGraph
+MediaTrackGraph
 thread
 .
 *
@@ -2226,7 +2226,7 @@ TimeStamp
 aTime
 )
 ;
-StreamTime
+TrackTime
 SecondsToMediaTime
 (
 double
@@ -2264,7 +2264,7 @@ aS
 *
 *
 *
-MediaStreamGraph
+MediaTrackGraph
 notifies
 us
 about
@@ -2346,7 +2346,7 @@ override
 *
 Dispatched
 from
-MediaStreamGraph
+MediaTrackGraph
 when
 it
 has
@@ -2436,7 +2436,7 @@ valid
 video
 frame
 from
-MediaStreamGraph
+MediaTrackGraph
 .
 *
 Listeners
@@ -2749,7 +2749,7 @@ mOutgoingBuffer
 .
 *
 /
-StreamTime
+TrackTime
 mEncodedTicks
 ;
 /
@@ -2919,7 +2919,7 @@ True
 if
 the
 video
-MediaStreamTrack
+MediaTrackTrack
 this
 VideoTrackEncoder
 is

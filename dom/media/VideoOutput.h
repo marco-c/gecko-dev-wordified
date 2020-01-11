@@ -102,7 +102,7 @@ VideoOutput_h
 #
 include
 "
-MediaStreamListener
+MediaTrackListener
 .
 h
 "
@@ -276,7 +276,7 @@ class
 VideoOutput
 :
 public
-DirectMediaStreamTrackListener
+DirectMediaTrackListener
 {
 protected
 :
@@ -825,10 +825,10 @@ aMainThread
 void
 NotifyRealtimeTrackData
 (
-MediaStreamGraph
+MediaTrackGraph
 *
 aGraph
-StreamTime
+TrackTime
 aTrackOffset
 const
 MediaSegment
@@ -999,7 +999,7 @@ SendFramesEnsureLocked
 void
 NotifyRemoved
 (
-MediaStreamGraph
+MediaTrackGraph
 *
 aGraph
 )
@@ -1173,7 +1173,7 @@ ClearAndRetainStorage
 void
 NotifyEnded
 (
-MediaStreamGraph
+MediaTrackGraph
 *
 aGraph
 )
@@ -1268,7 +1268,7 @@ ClearAndRetainStorage
 void
 NotifyEnabledStateChanged
 (
-MediaStreamGraph
+MediaTrackGraph
 *
 aGraph
 bool

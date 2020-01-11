@@ -138,9 +138,12 @@ VideoStreamTrack
 nsPIDOMWindowInner
 *
 aWindow
-MediaStream
+mozilla
+:
+:
+MediaTrack
 *
-aInputStream
+aInputTrack
 MediaStreamTrackSource
 *
 aSource

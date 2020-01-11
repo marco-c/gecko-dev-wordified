@@ -1899,7 +1899,7 @@ the
 end
 of
 source
-stream
+track
 to
 prevent
 lost
@@ -2014,7 +2014,7 @@ required
 frame
 size
 .
-StreamTime
+TrackTime
 frameToCopy
 =
 chunk

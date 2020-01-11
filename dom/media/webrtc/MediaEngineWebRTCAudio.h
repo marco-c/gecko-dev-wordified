@@ -130,7 +130,7 @@ h
 #
 include
 "
-MediaStreamListener
+MediaTrackListener
 .
 h
 "
@@ -188,7 +188,7 @@ always
 called
 on
 the
-MSG
+MTG
 thread
 .
 It
@@ -217,7 +217,7 @@ thread
 and
 then
 the
-MSG
+MTG
 thread
 so
 that
@@ -380,10 +380,10 @@ SetTrack
 const
 RefPtr
 <
-SourceMediaStream
+SourceMediaTrack
 >
 &
-aStream
+aTrack
 const
 PrincipalHandle
 &
@@ -820,7 +820,7 @@ mCurrentPrefs
 /
 /
 The
-SourecMediaStream
+SourecMediaTrack
 on
 which
 to
@@ -849,9 +849,9 @@ Deallocate
 .
 RefPtr
 <
-SourceMediaStream
+SourceMediaTrack
 >
-mStream
+mTrack
 ;
 /
 /
@@ -880,7 +880,7 @@ NotifyPull
 )
 from
 the
-MediaStreamGraph
+MediaTrackGraph
 and
 forwarding
 /
@@ -910,7 +910,7 @@ AudioInputProcessing
 and
 /
 /
-MediaStreamTrackListener
+MediaTrackListener
 (
 base
 class
@@ -948,7 +948,7 @@ used
 /
 on
 the
-MSG
+MTG
 thread
 .
 /
@@ -961,7 +961,7 @@ via
 message
 passing
 using
-MSG
+MTG
 ControlMessages
 class
 AudioInputProcessing
@@ -977,9 +977,9 @@ uint32_t
 aMaxChannelCount
 RefPtr
 <
-SourceMediaStream
+SourceMediaTrack
 >
-aStream
+aTrack
 const
 PrincipalHandle
 &
@@ -989,16 +989,16 @@ aPrincipalHandle
 void
 Pull
 (
-StreamTime
+TrackTime
 aEndOfAppendedData
-StreamTime
+TrackTime
 aDesiredTime
 )
 ;
 void
 NotifyOutputData
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraph
 AudioDataValue
@@ -1016,7 +1016,7 @@ override
 void
 NotifyInputData
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraph
 const
@@ -1035,7 +1035,7 @@ override
 bool
 IsVoiceInput
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraph
 )
@@ -1108,7 +1108,7 @@ Stop
 void
 DeviceChanged
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraph
 )
@@ -1117,7 +1117,7 @@ override
 uint32_t
 RequestedInputChannelCount
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraph
 )
@@ -1133,7 +1133,7 @@ aGraph
 void
 Disconnect
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraph
 )
@@ -1160,7 +1160,7 @@ aChannels
 void
 PacketizeAndProcess
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraph
 const
@@ -1185,7 +1185,7 @@ aPassThrough
 uint32_t
 GetRequestedInputChannelCount
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraphImpl
 )
@@ -1222,7 +1222,7 @@ passes
 bool
 PassThrough
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraphImpl
 )
@@ -1317,9 +1317,9 @@ default
 const
 RefPtr
 <
-SourceMediaStream
+SourceMediaTrack
 >
-mStream
+mTrack
 ;
 /
 /
@@ -1557,7 +1557,7 @@ into
 /
 /
 the
-MSG
+MTG
 skipping
 resampling
 and
@@ -1640,7 +1640,7 @@ DEBUG
 /
 /
 The
-MSGImpl
+MTGImpl
 :
 :
 IterationEnd
@@ -1784,7 +1784,7 @@ audio
 /
 /
 input
-stream
+track
 .
 bool
 mEnabled
@@ -1804,7 +1804,7 @@ the
 track
 in
 the
-SourceMediaStream
+SourceMediaTrack
 bool
 mEnded
 ;
@@ -1847,7 +1847,7 @@ class
 AudioInputProcessingPullListener
 :
 public
-MediaStreamTrackListener
+MediaTrackListener
 {
 public
 :
@@ -1892,12 +1892,12 @@ AudioInputProcessingPullListener
 void
 NotifyPull
 (
-MediaStreamGraph
+MediaTrackGraph
 *
 aGraph
-StreamTime
+TrackTime
 aEndOfAppendedData
-StreamTime
+TrackTime
 aDesiredTime
 )
 override
@@ -2035,10 +2035,10 @@ SetTrack
 const
 RefPtr
 <
-SourceMediaStream
+SourceMediaTrack
 >
 &
-aStream
+aTrack
 const
 PrincipalHandle
 &

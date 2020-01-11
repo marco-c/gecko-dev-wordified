@@ -248,7 +248,7 @@ an
 iteration
 of
 the
-MediaStreamGraph
+MediaTrackGraph
 loop
 in
 this
@@ -293,7 +293,7 @@ scheduled
 wakeup
 of
 the
-MediaStreamGraph
+MediaTrackGraph
 by
 *
 this
@@ -393,10 +393,10 @@ MEDIA_GRAPH_TARGET_PERIOD_MS
 SCHEDULE_SAFETY_MARGIN_MS
 ;
 class
-MediaStream
+MediaTrack
 ;
 class
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 ;
 class
 AudioCallbackDriver
@@ -440,7 +440,7 @@ different
 clocks
 to
 a
-MediaStreamGraph
+MediaTrackGraph
 .
 This
 is
@@ -451,7 +451,7 @@ base
 class
 .
 A
-MediaStreamGraph
+MediaTrackGraph
 can
 be
 driven
@@ -477,7 +477,7 @@ time
 .
 *
 A
-MediaStreamGraph
+MediaTrackGraph
 holds
 an
 owning
@@ -511,7 +511,7 @@ happen
 *
 Starting
 a
-MediaStreamGraph
+MediaTrackGraph
 with
 an
 AudioCallbackDriver
@@ -576,7 +576,7 @@ thread
 *
 Starting
 a
-MediaStreamGraph
+MediaTrackGraph
 with
 a
 SystemClockDriver
@@ -633,7 +633,7 @@ the
 end
 of
 the
-MSG
+MTG
 iteration
 the
 SystemClockDriver
@@ -735,7 +735,7 @@ the
 end
 of
 the
-MSG
+MTG
 iteration
 the
 AudioCallbackDriver
@@ -876,7 +876,7 @@ public
 explicit
 GraphDriver
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraphImpl
 )
@@ -1357,7 +1357,7 @@ EnsureNextIteration
 (
 )
 ;
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 GraphImpl
 (
@@ -1381,7 +1381,7 @@ thread
 is
 driving
 the
-MSG
+MTG
 .
 bool
 OnGraphThread
@@ -1515,7 +1515,7 @@ mIterationEnd
 /
 /
 The
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 associated
 with
 this
@@ -1524,7 +1524,7 @@ driver
 const
 RefPtr
 <
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 >
 mGraphImpl
 ;
@@ -1711,7 +1711,7 @@ GraphDriver
 }
 ;
 class
-MediaStreamGraphInitThreadRunnable
+MediaTrackGraphInitThreadRunnable
 ;
 /
 *
@@ -1741,7 +1741,7 @@ public
 explicit
 ThreadedDriver
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraphImpl
 )
@@ -1815,7 +1815,7 @@ RunThread
 ;
 friend
 class
-MediaStreamGraphInitThreadRunnable
+MediaTrackGraphInitThreadRunnable
 ;
 uint32_t
 IterationDuration
@@ -2001,7 +2001,7 @@ A
 SystemClockDriver
 drives
 a
-MediaStreamGraph
+MediaTrackGraph
 using
 a
 system
@@ -2029,7 +2029,7 @@ public
 explicit
 SystemClockDriver
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraphImpl
 )
@@ -2169,7 +2169,7 @@ public
 :
 OfflineClockDriver
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraphImpl
 GraphTime
@@ -2221,13 +2221,13 @@ mSlice
 }
 ;
 struct
-StreamAndPromiseForOperation
+TrackAndPromiseForOperation
 {
-StreamAndPromiseForOperation
+TrackAndPromiseForOperation
 (
-MediaStream
+MediaTrack
 *
-aStream
+aTrack
 void
 *
 aPromise
@@ -2245,9 +2245,9 @@ aFlags
 ;
 RefPtr
 <
-MediaStream
+MediaTrack
 >
-mStream
+mTrack
 ;
 void
 *
@@ -2577,7 +2577,7 @@ only
 /
 AudioCallbackDriver
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraphImpl
 uint32_t
@@ -2967,11 +2967,11 @@ stream
 *
 /
 void
-EnqueueStreamAndPromiseForOperation
+EnqueueTrackAndPromiseForOperation
 (
-MediaStream
+MediaTrack
 *
-aStream
+aTrack
 void
 *
 aPromise
@@ -3303,7 +3303,7 @@ IsOnCurrentThreadInfallible
 }
 /
 *
-MediaStreamGraphs
+MediaTrackGraphs
 are
 always
 down
@@ -3826,7 +3826,7 @@ held
 /
 AutoTArray
 <
-StreamAndPromiseForOperation
+TrackAndPromiseForOperation
 1
 >
 mPromisesForOperation
@@ -4151,7 +4151,7 @@ mOperation
 ;
 RefPtr
 <
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 >
 mShutdownGrip
 ;

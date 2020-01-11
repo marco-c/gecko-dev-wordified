@@ -237,7 +237,7 @@ h
 #
 include
 "
-MediaStreamGraph
+MediaTrackGraph
 .
 h
 "
@@ -727,10 +727,10 @@ SetTrack
 const
 RefPtr
 <
-SourceMediaStream
+SourceMediaTrack
 >
 &
-aStream
+aTrack
 const
 PrincipalHandle
 &
@@ -1039,7 +1039,7 @@ MediaManager
 Cameras
 IPC
 and
-MediaStreamGraph
+MediaTrackGraph
 .
 Mutex
 mMutex
@@ -1078,7 +1078,7 @@ kReleased
 /
 The
 source
-stream
+track
 that
 we
 feed
@@ -1105,9 +1105,9 @@ two
 .
 RefPtr
 <
-SourceMediaStream
+SourceMediaTrack
 >
-mStream
+mTrack
 ;
 /
 /
@@ -1122,7 +1122,7 @@ frames
 we
 feed
 to
-mStream
+mTrack
 .
 /
 /

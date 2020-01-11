@@ -216,7 +216,7 @@ class
 MediaEnginePrefs
 ;
 class
-SourceMediaStream
+SourceMediaTrack
 ;
 /
 *
@@ -688,7 +688,7 @@ by
 MediaEngine
 when
 a
-SourceMediaStream
+SourceMediaTrack
 has
 been
 provided
@@ -719,10 +719,10 @@ SetTrack
 const
 RefPtr
 <
-SourceMediaStream
+SourceMediaTrack
 >
 &
-aStream
+aTrack
 const
 PrincipalHandle
 &

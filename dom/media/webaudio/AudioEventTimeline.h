@@ -191,7 +191,7 @@ namespace
 mozilla
 {
 class
-AudioNodeStream
+AudioNodeTrack
 ;
 namespace
 dom
@@ -211,7 +211,7 @@ LinearRamp
 ExponentialRamp
 SetTarget
 SetValueCurve
-Stream
+Track
 Cancel
 }
 ;
@@ -250,9 +250,9 @@ aCurveLength
 explicit
 AudioTimelineEvent
 (
-AudioNodeStream
+AudioNodeTrack
 *
-aStream
+aTrack
 )
 ;
 AudioTimelineEvent
@@ -453,9 +453,9 @@ mCurve
 ;
 RefPtr
 <
-AudioNodeStream
+AudioNodeTrack
 >
-mStream
+mTrack
 ;
 double
 mTimeConstant

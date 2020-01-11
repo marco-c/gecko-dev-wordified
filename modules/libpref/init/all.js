@@ -7965,7 +7965,7 @@ endif
 GraphRunner
 (
 fixed
-MediaStreamGraph
+MediaTrackGraph
 thread
 )
 control

@@ -297,7 +297,7 @@ GetNextEncodeOperation
 (
 TimeDuration
 aTimeElapsed
-StreamTime
+TrackTime
 aProcessedDuration
 )
 ;
@@ -464,7 +464,7 @@ config
 Encoded
 timestamp
 .
-StreamTime
+TrackTime
 mEncodedTimestamp
 =
 0
@@ -556,7 +556,7 @@ milliseconds
 .
 *
 /
-StreamTime
+TrackTime
 mDurationSinceLastKeyframe
 =
 0

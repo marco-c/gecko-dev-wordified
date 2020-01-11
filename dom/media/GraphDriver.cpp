@@ -117,7 +117,7 @@ MPL
 #
 include
 <
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 .
 h
 >
@@ -237,7 +237,7 @@ mozilla
 :
 :
 LazyLogModule
-gMediaStreamGraphLog
+gMediaTrackGraphLog
 ;
 #
 ifdef
@@ -259,7 +259,7 @@ msg
 )
 MOZ_LOG
 (
-gMediaStreamGraphLog
+gMediaTrackGraphLog
 type
 msg
 )
@@ -271,7 +271,7 @@ GraphDriver
 :
 GraphDriver
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraphImpl
 )
@@ -1046,7 +1046,7 @@ ThreadedDriver
 :
 ThreadedDriver
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraphImpl
 )
@@ -1062,7 +1062,7 @@ false
 {
 }
 class
-MediaStreamGraphShutdownThreadRunnable
+MediaTrackGraphShutdownThreadRunnable
 :
 public
 Runnable
@@ -1070,7 +1070,7 @@ Runnable
 public
 :
 explicit
-MediaStreamGraphShutdownThreadRunnable
+MediaTrackGraphShutdownThreadRunnable
 (
 already_AddRefed
 <
@@ -1082,7 +1082,7 @@ aThread
 Runnable
 (
 "
-MediaStreamGraphShutdownThreadRunnable
+MediaTrackGraphShutdownThreadRunnable
 "
 )
 mThread
@@ -1154,7 +1154,7 @@ nsIRunnable
 event
 =
 new
-MediaStreamGraphShutdownThreadRunnable
+MediaTrackGraphShutdownThreadRunnable
 (
 mThread
 .
@@ -1182,7 +1182,7 @@ forget
 }
 }
 class
-MediaStreamGraphInitThreadRunnable
+MediaTrackGraphInitThreadRunnable
 :
 public
 Runnable
@@ -1190,7 +1190,7 @@ Runnable
 public
 :
 explicit
-MediaStreamGraphInitThreadRunnable
+MediaTrackGraphInitThreadRunnable
 (
 ThreadedDriver
 *
@@ -1200,7 +1200,7 @@ aDriver
 Runnable
 (
 "
-MediaStreamGraphInitThreadRunnable
+MediaTrackGraphInitThreadRunnable
 "
 )
 mDriver
@@ -1538,7 +1538,7 @@ nsIRunnable
 event
 =
 new
-MediaStreamGraphInitThreadRunnable
+MediaTrackGraphInitThreadRunnable
 (
 this
 )
@@ -1574,7 +1574,7 @@ rv
 NS_NewNamedThread
 (
 "
-MediaStreamGrph
+MediaTrackGrph
 "
 getter_AddRefs
 (
@@ -1662,7 +1662,7 @@ Debug
 Stopping
 threads
 for
-MediaStreamGraph
+MediaTrackGraph
 %
 p
 "
@@ -1719,7 +1719,7 @@ SystemClockDriver
 :
 SystemClockDriver
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraphImpl
 )
@@ -2253,7 +2253,7 @@ now
 ;
 MOZ_LOG
 (
-gMediaStreamGraphLog
+gMediaTrackGraphLog
 LogLevel
 :
 :
@@ -2783,7 +2783,7 @@ OfflineClockDriver
 :
 OfflineClockDriver
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraphImpl
 GraphTime
@@ -3130,14 +3130,14 @@ return
 NS_OK
 ;
 }
-StreamAndPromiseForOperation
+TrackAndPromiseForOperation
 :
 :
-StreamAndPromiseForOperation
+TrackAndPromiseForOperation
 (
-MediaStream
+MediaTrack
 *
-aStream
+aTrack
 void
 *
 aPromise
@@ -3153,9 +3153,9 @@ AudioContextOperationFlags
 aFlags
 )
 :
-mStream
+mTrack
 (
-aStream
+aTrack
 )
 mPromise
 (
@@ -3176,7 +3176,7 @@ AudioCallbackDriver
 :
 AudioCallbackDriver
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraphImpl
 uint32_t
@@ -4015,7 +4015,7 @@ latencyFrames
 CubebUtils
 :
 :
-GetCubebMSGLatencyInFrames
+GetCubebMTGLatencyInFrames
 (
 &
 output
@@ -4040,7 +4040,7 @@ low
 latency
 /
 /
-MediaStreamGraphs
+MediaTrackGraphs
 cap
 the
 minimal
@@ -4387,7 +4387,7 @@ a
 cubeb
 stream
 for
-MediaStreamGraph
+MediaTrackGraph
 falling
 "
 "
@@ -4813,7 +4813,7 @@ start
 cubeb
 stream
 for
-MSG
+MTG
 .
 "
 )
@@ -4865,7 +4865,7 @@ stop
 cubeb
 stream
 for
-MSG
+MTG
 .
 "
 )
@@ -7162,11 +7162,11 @@ void
 AudioCallbackDriver
 :
 :
-EnqueueStreamAndPromiseForOperation
+EnqueueTrackAndPromiseForOperation
 (
-MediaStream
+MediaTrack
 *
-aStream
+aTrack
 void
 *
 aPromise
@@ -7243,9 +7243,9 @@ mPromisesForOperation
 .
 AppendElement
 (
-StreamAndPromiseForOperation
+TrackAndPromiseForOperation
 (
-aStream
+aTrack
 aPromise
 aOperation
 aFlags
@@ -7273,7 +7273,7 @@ OnCubebOperationThread
 ;
 AutoTArray
 <
-StreamAndPromiseForOperation
+TrackAndPromiseForOperation
 1
 >
 array
@@ -7339,7 +7339,7 @@ i
 +
 )
 {
-StreamAndPromiseForOperation
+TrackAndPromiseForOperation
 &
 s
 =
@@ -7425,7 +7425,7 @@ AudioContextOperationCompleted
 (
 s
 .
-mStream
+mTrack
 s
 .
 mPromise

@@ -151,7 +151,7 @@ class
 GraphDriver
 ;
 class
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 ;
 class
 GraphRunner
@@ -161,7 +161,7 @@ public
 explicit
 GraphRunner
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraph
 )
@@ -335,7 +335,7 @@ mMonitor
 /
 /
 The
-MediaStreamGraph
+MediaTrackGraph
 we
 '
 re
@@ -362,7 +362,7 @@ that
 of
 itself
 .
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 const
 mGraph
