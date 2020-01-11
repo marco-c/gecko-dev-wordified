@@ -335,7 +335,7 @@ iterated
 /
 strings
 .
-GCPtrFlatString
+GCPtrLinearString
 *
 propertyCursor_
 ;
@@ -402,7 +402,7 @@ the
 observed
 object
 .
-GCPtrFlatString
+GCPtrLinearString
 *
 propertiesEnd_
 ;
@@ -1142,7 +1142,7 @@ guardsEnd
 )
 ;
 }
-GCPtrFlatString
+GCPtrLinearString
 *
 propertiesBegin
 (
@@ -1159,10 +1159,10 @@ HeapReceiverGuard
 =
 alignof
 (
-GCPtrFlatString
+GCPtrLinearString
 )
 "
-GCPtrFlatStrings
+GCPtrLinearStrings
 for
 properties
 must
@@ -1204,10 +1204,10 @@ NativeIterator
 =
 alignof
 (
-GCPtrFlatString
+GCPtrLinearString
 )
 "
-GCPtrFlatStrings
+GCPtrLinearStrings
 for
 properties
 must
@@ -1327,7 +1327,7 @@ is
 return
 reinterpret_cast
 <
-GCPtrFlatString
+GCPtrLinearString
 *
 >
 (
@@ -1335,7 +1335,7 @@ guardsEnd_
 )
 ;
 }
-GCPtrFlatString
+GCPtrLinearString
 *
 propertiesEnd
 (
@@ -1346,7 +1346,7 @@ return
 propertiesEnd_
 ;
 }
-GCPtrFlatString
+GCPtrLinearString
 *
 nextProperty
 (
@@ -1392,7 +1392,7 @@ JS_NO_ITER_VALUE
 )
 ;
 }
-JSFlatString
+JSLinearString
 *
 str
 =
@@ -1512,7 +1512,7 @@ JS
 :
 Handle
 <
-JSFlatString
+JSLinearString
 *
 >
 str
@@ -1634,7 +1634,7 @@ return
 iterObj_
 ;
 }
-GCPtrFlatString
+GCPtrLinearString
 *
 currentProperty
 (

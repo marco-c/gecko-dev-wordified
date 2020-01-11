@@ -22120,7 +22120,7 @@ Imm32
 (
 sizeof
 (
-GCPtrFlatString
+GCPtrLinearString
 )
 )
 cursorAddr

@@ -8110,6 +8110,15 @@ JSFunction
 >
 ;
 using
+GCPtrLinearString
+=
+GCPtr
+<
+JSLinearString
+*
+>
+;
+using
 GCPtrObject
 =
 GCPtr

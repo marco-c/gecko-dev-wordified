@@ -780,7 +780,7 @@ to
 be
 reusable
 .
-GCPtrFlatString
+GCPtrLinearString
 *
 begin
 =
@@ -810,7 +810,7 @@ propertiesEnd
 trc
 ]
 (
-GCPtrFlatString
+GCPtrLinearString
 &
 prop
 )
@@ -4021,7 +4021,7 @@ ReceiverGuard
 *
 sizeof
 (
-GCPtrFlatString
+GCPtrLinearString
 )
 "
 NativeIterators
@@ -4046,7 +4046,7 @@ iterates
 as
 "
 "
-GCPtrFlatStrings
+GCPtrLinearStrings
 )
 and
 3
@@ -4109,6 +4109,7 @@ sizeof
 NativeIterator
 )
 +
+(
 ExtraStringCount
 (
 propertyCount
@@ -4117,7 +4118,8 @@ guardCount
 *
 sizeof
 (
-GCPtrFlatString
+GCPtrLinearString
+)
 )
 ;
 }
@@ -4177,7 +4179,7 @@ cx
 pod_malloc_with_extra
 <
 NativeIterator
-GCPtrFlatString
+GCPtrLinearString
 >
 (
 ExtraStringCount
@@ -4601,7 +4603,7 @@ propertyCursor_
 (
 reinterpret_cast
 <
-GCPtrFlatString
+GCPtrLinearString
 *
 >
 (
@@ -4755,7 +4757,7 @@ i
 +
 )
 {
-JSFlatString
+JSLinearString
 *
 str
 =
@@ -4803,7 +4805,7 @@ computed
 property
 strings
 .
-GCPtrFlatString
+GCPtrLinearString
 *
 loc
 =
@@ -4850,7 +4852,7 @@ new
 (
 loc
 )
-GCPtrFlatString
+GCPtrLinearString
 (
 str
 )
@@ -8440,7 +8442,7 @@ HandleObject
 obj
 Handle
 <
-JSFlatString
+JSLinearString
 *
 >
 str
@@ -8553,7 +8555,7 @@ still
 to
 come
 .
-GCPtrFlatString
+GCPtrLinearString
 *
 const
 cursor
@@ -8565,7 +8567,7 @@ nextProperty
 (
 )
 ;
-GCPtrFlatString
+GCPtrLinearString
 *
 const
 end
@@ -8579,7 +8581,7 @@ propertiesEnd
 ;
 for
 (
-GCPtrFlatString
+GCPtrLinearString
 *
 idp
 =
@@ -8895,7 +8897,7 @@ else
 {
 for
 (
-GCPtrFlatString
+GCPtrLinearString
 *
 p
 =
@@ -9095,7 +9097,7 @@ HandleObject
 obj
 Handle
 <
-JSFlatString
+JSLinearString
 *
 >
 str
@@ -9217,7 +9219,7 @@ true
 }
 Rooted
 <
-JSFlatString
+JSLinearString
 *
 >
 str
@@ -9312,7 +9314,7 @@ false
 }
 Rooted
 <
-JSFlatString
+JSLinearString
 *
 >
 str
