@@ -32,9 +32,13 @@ use
 strict
 "
 ;
-let
+const
 availableRegions
 =
+[
+.
+.
+.
 Services
 .
 intl
@@ -45,6 +49,8 @@ getAvailableLocaleDisplayNames
 region
 "
 )
+null
+]
 ;
 const
 DOMAIN_LOCALES
