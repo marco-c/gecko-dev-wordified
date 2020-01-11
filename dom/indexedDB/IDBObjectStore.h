@@ -154,7 +154,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -420,7 +422,7 @@ ObjectStoreSpec
 *
 mSpec
 ;
-nsAutoPtr
+UniquePtr
 <
 ObjectStoreSpec
 >

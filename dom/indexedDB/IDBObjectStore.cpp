@@ -13702,6 +13702,10 @@ mSpec
 =
 =
 mDeletedSpec
+.
+get
+(
+)
 )
 ;
 const
@@ -13874,6 +13878,10 @@ mSpec
 !
 =
 mDeletedSpec
+.
+get
+(
+)
 )
 ;
 mDeletedSpec
@@ -13958,6 +13966,10 @@ mDeletedSpec
 MOZ_ASSERT
 (
 mDeletedSpec
+.
+get
+(
+)
 =
 =
 mSpec
@@ -13975,8 +13987,10 @@ here
 .
 mDeletedSpec
 =
-new
+MakeUnique
+<
 ObjectStoreSpec
+>
 (
 *
 mSpec
@@ -13996,6 +14010,10 @@ Clear
 mSpec
 =
 mDeletedSpec
+.
+get
+(
+)
 ;
 for
 (
