@@ -502,6 +502,11 @@ length
 =
 -
 1
+mode
+=
+'
+rb
+'
 )
 :
         
@@ -525,9 +530,7 @@ open
 self
 .
 path
-'
-rb
-'
+mode
 )
             
 self
@@ -553,6 +556,11 @@ write
 (
 self
 data
+mode
+=
+'
+wb
+'
 )
 :
         
@@ -576,9 +584,7 @@ open
 self
 .
 path
-'
-wb
-'
+mode
 )
             
 self
@@ -589,6 +595,35 @@ mode
 w
 '
         
+if
+'
+b
+'
+in
+mode
+:
+            
+to_write
+=
+six
+.
+ensure_binary
+(
+data
+)
+        
+else
+:
+            
+to_write
+=
+six
+.
+ensure_text
+(
+data
+)
+        
 return
 self
 .
@@ -596,7 +631,7 @@ file
 .
 write
 (
-data
+to_write
 )
     
 def
@@ -1531,10 +1566,23 @@ remainder
 .
             
 if
+(
+six
+.
+ensure_binary
+(
 dest_content
+)
 !
 =
+                
+six
+.
+ensure_binary
+(
 src_content
+)
+)
 :
                 
 dest
@@ -1591,6 +1639,11 @@ def
 open
 (
 self
+mode
+=
+'
+rb
+'
 )
 :
         
@@ -1654,9 +1707,9 @@ open
 self
 .
 path
-'
-rb
-'
+mode
+=
+mode
 )
     
 def
@@ -4077,7 +4130,7 @@ self
 .
 depfile
 '
-rb
+rt
 '
 )
 as
@@ -4343,6 +4396,14 @@ self
 _content
 =
 content
+        
+self
+.
+_mode
+=
+'
+rb
+'
     
 property
     
@@ -4352,6 +4413,26 @@ content
 self
 )
 :
+        
+ensure
+=
+(
+six
+.
+ensure_binary
+if
+'
+b
+'
+in
+self
+.
+_mode
+else
+six
+.
+ensure_text
+)
         
 if
 inspect
@@ -4368,16 +4449,22 @@ self
 .
 _content
 =
+ensure
+(
 self
 .
 _content
 (
 )
+)
         
 return
+ensure
+(
 self
 .
 _content
+)
     
 content
 .
@@ -4401,15 +4488,46 @@ def
 open
 (
 self
+mode
+=
+'
+rb
+'
 )
 :
         
+self
+.
+_mode
+=
+mode
+        
 return
+(
 BytesIO
 (
 self
 .
 content
+)
+if
+'
+b
+'
+in
+self
+.
+_mode
+                
+else
+six
+.
+StringIO
+(
+self
+.
+content
+)
 )
     
 def
@@ -5266,6 +5384,11 @@ def
 open
 (
 self
+mode
+=
+'
+r
+'
 )
 :
         
@@ -5298,18 +5421,28 @@ file
 '
 '
         
-return
-BytesIO
-(
-b
+content
+=
 '
 '
 .
 join
 (
+            
 l
 for
 l
+in
+[
+                
+six
+.
+ensure_text
+(
+s
+)
+for
+s
 in
 self
 .
@@ -5317,24 +5450,51 @@ _file
 .
 open
 (
+mode
 )
 .
 readlines
 (
 )
-                                
+            
+]
 if
 not
 l
 .
 startswith
 (
-b
 '
 #
 '
 )
 )
+        
+if
+'
+b
+'
+in
+mode
+:
+            
+return
+BytesIO
+(
+six
+.
+ensure_binary
+(
+content
+)
+)
+        
+return
+six
+.
+StringIO
+(
+content
 )
 class
 MinifiedJavaScript
@@ -5393,12 +5553,19 @@ def
 open
 (
 self
+mode
+=
+'
+r
+'
 )
 :
         
 output
 =
-BytesIO
+six
+.
+StringIO
 (
 )
         
@@ -5412,6 +5579,9 @@ _file
 .
 open
 (
+'
+r
+'
 )
 output
 quote_chars
@@ -5454,6 +5624,9 @@ _file
 .
 open
 (
+'
+r
+'
 )
 .
 read
@@ -5471,11 +5644,19 @@ getvalue
 with
 NamedTemporaryFile
 (
+'
+w
++
+'
 )
 as
 fh1
 NamedTemporaryFile
 (
+'
+w
++
+'
 )
 as
 fh2
@@ -5543,6 +5724,10 @@ stderr
 subprocess
 .
 STDOUT
+                                        
+universal_newlines
+=
+True
 )
             
 except
@@ -8157,11 +8342,22 @@ client
 cat
 (
 [
+six
+.
+ensure_binary
+(
 path
+)
 ]
+                                   
 rev
 =
+six
+.
+ensure_binary
+(
 rev
+)
 )
     
 def
@@ -8495,7 +8691,6 @@ is
 not
 None
 else
-b
 '
 .
 '
@@ -8538,6 +8733,7 @@ _client
 rawcommand
 (
 [
+            
 b
 '
 files
@@ -8548,12 +8744,15 @@ b
 -
 rev
 '
-str
+six
+.
+ensure_binary
 (
 self
 .
 _rev
 )
+        
 ]
 )
         
@@ -8591,11 +8790,16 @@ self
 .
 _files
 [
+six
+.
+ensure_text
+(
 mozpath
 .
 normpath
 (
 relpath
+)
 )
 ]
 =
