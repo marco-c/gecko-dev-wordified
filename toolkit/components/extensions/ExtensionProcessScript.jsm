@@ -1335,6 +1335,11 @@ extensionPageCSP
 extension
 .
 extensionPageCSP
+contentScriptCSP
+:
+extension
+.
+contentScriptCSP
 localizeCallback
 backgroundScripts
 contentScripts
