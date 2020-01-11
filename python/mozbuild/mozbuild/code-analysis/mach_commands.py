@@ -324,7 +324,7 @@ n
 )
         
 except
-ValueError
+ValueERROR
 :
             
 print
@@ -1777,6 +1777,8 @@ analysis
 }
                      
 "
+ERROR
+:
 You
 '
 re
@@ -2810,6 +2812,8 @@ analysis
 }
                      
 '
+ERROR
+:
 There
 are
 no
@@ -3991,7 +3995,10 @@ analysis
 '
 {
 }
+                     
 '
+ERROR
+:
 Running
 '
 +
@@ -4944,6 +4951,8 @@ analysis
 }
                      
 '
+ERROR
+:
 Ill
 formatted
 secret
@@ -5188,7 +5197,10 @@ analysis
 '
 {
 }
+                     
 '
+ERROR
+:
 Missing
 Coverity
 secret
@@ -5929,6 +5941,8 @@ analysis
 }
                      
 '
+ERROR
+:
 Missing
 Coverity
 in
@@ -7709,6 +7723,8 @@ analysis
 }
                      
 '
+ERROR
+:
 Looks
 like
 config
@@ -7811,6 +7827,8 @@ analysis
 }
                      
 '
+ERROR
+:
 Looks
 like
 config
@@ -7928,6 +7946,8 @@ analysis
 }
                      
 "
+ERROR
+:
 Unable
 to
 find
@@ -8089,6 +8109,8 @@ analysis
 }
                      
 "
+ERROR
+:
 Error
 determining
 the
@@ -8099,12 +8121,12 @@ tidy
 /
 format
 binary
-please
-see
-the
 "
                      
 "
+please
+see
+the
 attached
 exception
 :
@@ -9418,6 +9440,8 @@ analysis
 }
                      
 '
+ERROR
+:
 clang
 -
 tidy
@@ -9510,6 +9534,8 @@ analysis
 }
                 
 "
+ERROR
+:
 RUNNING
 :
 clang
@@ -10910,6 +10936,8 @@ analysis
 }
                      
 '
+ERROR
+:
 The
 following
 check
@@ -10923,6 +10951,7 @@ analysis
 :
 '
 +
+                     
 '
 '
 .
@@ -11302,6 +11331,8 @@ analysis
 }
                          
 '
+ERROR
+:
 infer
 unable
 to
@@ -14370,6 +14401,8 @@ analysis
 }
                      
 "
+ERROR
+:
 You
 '
 re
@@ -15809,6 +15842,8 @@ analysis
 }
                              
 "
+ERROR
+:
 Without
 Clobber
 we
