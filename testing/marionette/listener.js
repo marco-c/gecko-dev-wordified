@@ -9953,9 +9953,13 @@ true
 let
 win
 =
+el
+?
 curContainer
 .
 frame
+:
+content
 ;
 let
 rect
