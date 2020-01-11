@@ -443,14 +443,14 @@ SHMEM_VERSION
 .
 0
 .
-5
+6
 "
 static
 const
 int32_t
 kVRExternalVersion
 =
-12
+13
 ;
 /
 /
@@ -2335,7 +2335,7 @@ the
 most
 recent
 primary
-squeez
+squeeze
 /
 /
 action
@@ -2355,7 +2355,7 @@ less
 than
 /
 /
-squeezetActionStartFrameId
+squeezeActionStartFrameId
 then
 the
 squeeze
@@ -2368,7 +2368,7 @@ ended
 yet
 .
 uint64_t
-squeezeActionEndFrameId
+squeezeActionStopFrameId
 ;
 uint32_t
 numButtons
