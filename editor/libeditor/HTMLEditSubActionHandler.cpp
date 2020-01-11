@@ -27696,6 +27696,16 @@ false
 seenBR
 )
 ;
+if
+(
+!
+isEmpty
+)
+{
+return
+NS_OK
+;
+}
 EditorDOMPoint
 atEmptyMailCiteElement
 (
