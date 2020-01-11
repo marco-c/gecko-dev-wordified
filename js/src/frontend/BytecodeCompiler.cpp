@@ -2737,6 +2737,7 @@ lineno
 options
 .
 column
+parseInfo
 emitterMode
 )
 ;
@@ -4416,7 +4417,7 @@ frontend
 :
 :
 ParseInfo
-pci
+parseInfo
 (
 cx
 allocScope
@@ -4535,7 +4536,7 @@ BinASTTokenReaderMultipart
 parser
 (
 cx
-pci
+parseInfo
 options
 sourceObj
 )
@@ -4641,6 +4642,7 @@ script
 nullptr
 0
 0
+parseInfo
 )
 ;
 if
@@ -5745,7 +5747,7 @@ tempLifoAlloc
 )
 ;
 ParseInfo
-pci
+parseInfo
 (
 cx
 allocScope
@@ -5781,7 +5783,7 @@ foldConstants
 *
 /
 true
-pci
+parseInfo
 nullptr
 lazy
 sourceObject
@@ -6001,6 +6003,7 @@ lazy
 column
 (
 )
+parseInfo
 BytecodeEmitter
 :
 :
@@ -6349,7 +6352,7 @@ tempLifoAlloc
 )
 ;
 ParseInfo
-pci
+parseInfo
 (
 cx
 allocScope
@@ -6450,7 +6453,7 @@ BinASTTokenReaderMultipart
 parser
 (
 cx
-pci
+parseInfo
 options
 sourceObj
 lazy
@@ -6526,6 +6529,7 @@ lazy
 column
 (
 )
+parseInfo
 BytecodeEmitter
 :
 :
