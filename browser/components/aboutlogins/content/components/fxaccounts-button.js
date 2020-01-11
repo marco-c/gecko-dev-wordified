@@ -476,7 +476,10 @@ this
 .
 hidden
 =
-false
+!
+state
+.
+fxAccountsEnabled
 ;
 this
 .
