@@ -4792,16 +4792,7 @@ node
 ;
 MOZ_MUST_USE
 bool
-emitNullCoalesce
-(
-ListNode
-*
-node
-)
-;
-MOZ_MUST_USE
-bool
-emitLogical
+emitShortCircuit
 (
 ListNode
 *

@@ -9177,6 +9177,9 @@ case
 JSOP_OR
 :
 case
+JSOP_COALESCE
+:
+case
 JSOP_TRY
 :
 case
