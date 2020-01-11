@@ -2824,6 +2824,9 @@ gfxConfig
 :
 IsEnabled
 (
+gfx
+:
+:
 Feature
 :
 :
