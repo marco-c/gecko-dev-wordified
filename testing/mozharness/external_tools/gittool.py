@@ -1135,11 +1135,12 @@ name
 )
     
 exec
+(
 source
-in
 mod
 .
 __dict__
+)
     
 sys
 .
@@ -1830,6 +1831,7 @@ clean
 )
     
 print
+(
 "
 Got
 revision
@@ -1838,3 +1840,4 @@ s
 "
 %
 got_revision
+)
