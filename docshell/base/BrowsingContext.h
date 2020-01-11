@@ -3792,6 +3792,16 @@ GetSessionStorageManager
 (
 )
 ;
+Type
+GetType
+(
+)
+const
+{
+return
+mType
+;
+}
 protected
 :
 virtual
