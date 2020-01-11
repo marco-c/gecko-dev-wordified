@@ -58,16 +58,6 @@ MPL
 .
 *
 /
-PromiseTestUtils
-.
-whitelistRejectionsGlobally
-(
-/
-Connection
-closed
-/
-)
-;
 /
 /
 Test
