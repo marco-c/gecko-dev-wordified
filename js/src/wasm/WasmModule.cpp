@@ -3296,7 +3296,16 @@ const
 bool
 eagerBoundsCheck
 =
-false
+cx
+-
+>
+options
+(
+)
+.
+wasmCranelift
+(
+)
 ;
 #
 else
