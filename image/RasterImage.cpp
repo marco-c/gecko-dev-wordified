@@ -10210,7 +10210,7 @@ NS_OK
 }
 /
 /
-Indempotent
+Idempotent
 error
 flagging
 routine

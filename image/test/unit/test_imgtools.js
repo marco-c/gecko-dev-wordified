@@ -126,7 +126,7 @@ nsIFileOutputStream
 /
 WR_ONLY
 |
-CREAT
+CREATE
 |
 TRUNC
 outputStream
@@ -1137,7 +1137,7 @@ istream
 Get
 bytes
 for
-exected
+expected
 result
 var
 refName
@@ -1279,7 +1279,7 @@ istream
 Get
 bytes
 for
-exected
+expected
 result
 refName
 =
@@ -1586,7 +1586,7 @@ istream
 Get
 bytes
 for
-exected
+expected
 result
 refName
 =
@@ -1742,7 +1742,7 @@ istream
 Get
 bytes
 for
-exected
+expected
 result
 refName
 =
@@ -2065,7 +2065,7 @@ istream
 Get
 bytes
 for
-exected
+expected
 result
 refName
 =
@@ -2204,7 +2204,7 @@ istream
 Get
 bytes
 for
-exected
+expected
 result
 refName
 =
@@ -2531,7 +2531,7 @@ istream
 Get
 bytes
 for
-exected
+expected
 result
 refName
 =
@@ -2714,7 +2714,7 @@ istream
 Get
 bytes
 for
-exected
+expected
 result
 refName
 =
@@ -2881,7 +2881,7 @@ istream
 Get
 bytes
 for
-exected
+expected
 result
 refName
 =
@@ -3064,7 +3064,7 @@ istream
 Get
 bytes
 for
-exected
+expected
 result
 refName
 =
@@ -3322,7 +3322,7 @@ istream
 Get
 bytes
 for
-exected
+expected
 result
 refName
 =
@@ -3467,7 +3467,7 @@ istream
 Get
 bytes
 for
-exected
+expected
 result
 refName
 =
@@ -3613,7 +3613,7 @@ istream
 Get
 bytes
 for
-exected
+expected
 result
 refName
 =
@@ -3759,7 +3759,7 @@ istream
 Get
 bytes
 for
-exected
+expected
 result
 refName
 =
@@ -3907,7 +3907,7 @@ istream
 Get
 bytes
 for
-exected
+expected
 result
 refName
 =
@@ -4051,7 +4051,7 @@ istream
 Get
 bytes
 for
-exected
+expected
 result
 refName
 =
@@ -4195,7 +4195,7 @@ istream
 Get
 bytes
 for
-exected
+expected
 result
 refName
 =
@@ -4341,7 +4341,7 @@ istream
 Get
 bytes
 for
-exected
+expected
 result
 refName
 =

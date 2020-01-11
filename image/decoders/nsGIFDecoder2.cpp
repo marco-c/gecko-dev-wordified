@@ -6316,7 +6316,7 @@ color
 depth
 that
 can
-accomodate
+accommodate
 the
 existing
 palette

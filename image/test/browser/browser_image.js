@@ -31,7 +31,7 @@ current
 timer
 so
 it
-doens
+doesn
 '
 t
 get

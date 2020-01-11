@@ -290,7 +290,7 @@ for
 SurfacePipeFactory
 used
 in
-conjuction
+conjunction
 with
 the
 factory

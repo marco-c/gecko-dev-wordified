@@ -827,7 +827,7 @@ channel
 can
 not
 be
-openend
+opened
 .
 nsCOMPtr
 <
@@ -2156,7 +2156,7 @@ follow
 /
 the
 same
-pathes
+paths
 and
 so
 share
@@ -2311,7 +2311,7 @@ icon_set
 Either
 we
 have
-choosen
+chosen
 icon
 -
 name

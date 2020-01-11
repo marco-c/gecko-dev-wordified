@@ -462,7 +462,7 @@ aIsForCompositor
 controls
 how
 to
-intepret
+interpret
 what
 remains
 in

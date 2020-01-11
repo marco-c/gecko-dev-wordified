@@ -10451,7 +10451,7 @@ prior
 /
 /
 to
-configuraiton
+configuration
 .
 int32_t
 mRow

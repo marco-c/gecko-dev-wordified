@@ -687,7 +687,7 @@ not
 *
 allowed
 to
-acces
+access
 privileged
 image
 "
@@ -737,7 +737,7 @@ not
 *
 allowed
 to
-acces
+access
 privileged
 image
 "

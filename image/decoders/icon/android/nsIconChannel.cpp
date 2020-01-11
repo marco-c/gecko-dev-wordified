@@ -812,7 +812,7 @@ channel
 can
 not
 be
-openend
+opened
 .
 nsCOMPtr
 <

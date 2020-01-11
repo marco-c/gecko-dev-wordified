@@ -224,7 +224,7 @@ the
 *
 ordering
 dependencies
-betweeen
+between
 these
 flags
 .

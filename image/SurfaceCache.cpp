@@ -1902,13 +1902,13 @@ available
 as
 opposed
 to
-subsitution
+substitution
 but
 not
+*
 found
 )
 .
-*
 This
 allows
 us
@@ -1920,8 +1920,8 @@ and
 CPU
 time
 spent
-decoding
 *
+decoding
 when
 a
 website

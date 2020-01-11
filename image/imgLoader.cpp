@@ -4919,7 +4919,7 @@ the
 same
 policies
 but
-diferrent
+different
 original
 /
 /
@@ -10882,7 +10882,8 @@ new
 channel
 request
 object
-inbetween
+in
+between
 the
 real
 /
@@ -16530,7 +16531,7 @@ have
 been
 /
 /
-assoicated
+associated
 with
 this
 load

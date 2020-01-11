@@ -427,7 +427,7 @@ applying
 any
 necessary
 CMS
-tranforms
+transforms
 .
 void
 ConvertColormap

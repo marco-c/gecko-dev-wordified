@@ -6601,7 +6601,7 @@ the
 preserveAspectRatio
 /
 /
-overide
+override
 :
 MOZ_ASSERT
 (

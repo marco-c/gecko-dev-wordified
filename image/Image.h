@@ -2212,7 +2212,7 @@ mInitialized
 Have
 we
 been
-initalized
+initialized
 ?
 bool
 mAnimating

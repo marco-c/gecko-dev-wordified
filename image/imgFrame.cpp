@@ -1258,7 +1258,8 @@ gfxPlatform
 so
 just
 memset
-everytime
+every
+time
 instead
 .
 memset

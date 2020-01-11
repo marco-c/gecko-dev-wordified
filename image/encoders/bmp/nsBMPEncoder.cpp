@@ -3625,7 +3625,7 @@ dataoffset
 Encodes
 the
 BMP
-infor
+info
 header
 mBMPInfoHeader
 void
