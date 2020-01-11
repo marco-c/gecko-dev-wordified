@@ -2226,6 +2226,17 @@ image
 "
 property
 .
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 PropertyDeclaration
 :
 :
