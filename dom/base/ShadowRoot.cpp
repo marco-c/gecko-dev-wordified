@@ -412,7 +412,6 @@ aNodeInfo
 )
 DocumentOrShadowRoot
 (
-*
 this
 )
 mMode
