@@ -13924,12 +13924,6 @@ mozilla
 StyleBoxPack
 mBoxPack
 ;
-mozilla
-:
-:
-StyleStackSizing
-mStackSizing
-;
 }
 ;
 struct

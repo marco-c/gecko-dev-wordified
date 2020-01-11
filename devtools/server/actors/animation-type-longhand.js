@@ -802,14 +802,6 @@ shape
 rendering
 "
 "
--
-moz
--
-stack
--
-sizing
-"
-"
 scrollbar
 -
 width
