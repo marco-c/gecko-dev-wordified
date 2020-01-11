@@ -3152,6 +3152,9 @@ int64_t
 mNextDirectoryLockId
 ;
 bool
+mTemporaryStorageInitializationAttempted
+;
+bool
 mTemporaryStorageInitialized
 ;
 bool
