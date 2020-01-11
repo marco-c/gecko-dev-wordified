@@ -176,10 +176,6 @@ jsid
 import
 mozilla
 .
-jsop
-import
-mozilla
-.
 jsval
 import
 mozilla
