@@ -1635,8 +1635,6 @@ theme
 -
 bg
 -
-yellow
--
 contrast
 "
 }
@@ -1671,8 +1669,6 @@ backgroundClass
 theme
 -
 bg
--
-yellow
 -
 contrast
 "
