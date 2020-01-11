@@ -489,7 +489,7 @@ setAttribute
 align
 "
 "
-right
+end
 "
 )
 ;
