@@ -337,13 +337,6 @@ h
 #
 include
 "
-nsNodeUtils
-.
-h
-"
-#
-include
-"
 mozAutoDocUpdate
 .
 h

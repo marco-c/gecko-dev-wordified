@@ -301,13 +301,6 @@ h
 #
 include
 "
-nsNodeUtils
-.
-h
-"
-#
-include
-"
 nsUnicharUtils
 .
 h

@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-nsNodeUtils
+MutationObservers
 .
 h
 "

@@ -181,6 +181,17 @@ include
 "
 mozilla
 /
+dom
+/
+MutationObservers
+.
+h
+"
+#
+include
+"
+mozilla
+/
 css
 /
 Loader

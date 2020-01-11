@@ -2691,10 +2691,6 @@ const
 ;
 friend
 class
-nsNodeUtils
-;
-friend
-class
 mozilla
 :
 :

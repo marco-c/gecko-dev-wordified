@@ -1372,7 +1372,7 @@ e
 g
 .
 *
-nsNodeUtils
+MutationObservers
 :
 :
 AttributeChanged
@@ -1383,9 +1383,9 @@ the
 content
 node
 tree
+*
 all
 the
-*
 way
 to
 the
@@ -1401,8 +1401,8 @@ a
 non
 -
 container
-SVG
 *
+SVG
 node
 )
 invalidating

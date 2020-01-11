@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsNodeUtils_h___
+DOM_BASE_MUTATIONOBSERVERS_H_
 #
 define
-nsNodeUtils_h___
+DOM_BASE_MUTATIONOBSERVERS_H_
 #
 include
 "
@@ -993,4 +993,4 @@ mozilla
 endif
 /
 /
-nsNodeUtils_h___
+DOM_BASE_MUTATIONOBSERVERS_H_

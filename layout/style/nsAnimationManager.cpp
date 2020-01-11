@@ -238,6 +238,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+MutationObservers
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h

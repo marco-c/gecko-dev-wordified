@@ -143,6 +143,17 @@ mozilla
 /
 dom
 /
+MutationObservers
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGElementBinding
 .
 h
