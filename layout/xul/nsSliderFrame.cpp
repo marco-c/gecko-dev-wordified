@@ -2514,6 +2514,12 @@ sliderTrackStart
 sliderTrackLength
 scrollTargetId
 )
+true
+false
+nsDisplayOwnLayer
+:
+:
+OwnLayerForScrollThumb
 )
 ;
 return

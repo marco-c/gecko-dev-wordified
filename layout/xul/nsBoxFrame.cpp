@@ -7444,6 +7444,10 @@ ScrollbarData
 }
 true
 true
+nsDisplayOwnLayer
+:
+:
+OwnLayerForBoxFrame
 )
 ;
 }

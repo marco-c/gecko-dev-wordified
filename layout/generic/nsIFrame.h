@@ -29267,6 +29267,8 @@ aBuilder
 nsDisplayList
 *
 aList
+uint16_t
+aType
 bool
 *
 aCreatedContainerItem
