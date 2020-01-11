@@ -6623,6 +6623,15 @@ weakVideo
 {
 this
 .
+untrackOriginatingVideo
+(
+this
+.
+weakVideo
+)
+;
+this
+.
 weakVideo
 .
 stopCloningElementVisually
