@@ -74,7 +74,7 @@ equal
 (
 principal
 .
-IsOriginPotentiallyTrustworthy
+isOriginPotentiallyTrustworthy
 true
 "
 it
