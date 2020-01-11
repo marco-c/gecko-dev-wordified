@@ -479,7 +479,6 @@ return
 GetSessionStorageCacheHelper
 (
 aPrincipal
-aStoragePrincipal
 true
 nullptr
 aRetVal
@@ -495,9 +494,6 @@ GetSessionStorageCacheHelper
 nsIPrincipal
 *
 aPrincipal
-nsIPrincipal
-*
-aStoragePrincipal
 bool
 aMakeIfNeeded
 SessionStorageCache
@@ -818,7 +814,6 @@ rv
 GetSessionStorageCacheHelper
 (
 aPrincipal
-aStoragePrincipal
 false
 nullptr
 &
@@ -944,12 +939,6 @@ aStorage
 Principal
 (
 )
-aStorage
--
->
-StoragePrincipal
-(
-)
 true
 static_cast
 <
@@ -1026,12 +1015,6 @@ rv
 GetSessionStorageCacheHelper
 (
 aPrincipal
-aStorage
--
->
-StoragePrincipal
-(
-)
 false
 nullptr
 &
