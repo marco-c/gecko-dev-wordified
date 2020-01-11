@@ -8902,6 +8902,11 @@ mSystemPrincipal
 )
 ;
 }
+/
+*
+static
+*
+/
 void
 nsScriptSecurityManager
 :
