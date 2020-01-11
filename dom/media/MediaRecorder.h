@@ -834,10 +834,6 @@ IMPL_EVENT_HANDLER
 (
 error
 )
-IMPL_EVENT_HANDLER
-(
-warning
-)
 NS_DECL_NSIDOCUMENTACTIVITY
 uint32_t
 GetAudioBitrate
