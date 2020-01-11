@@ -692,6 +692,11 @@ ArrayJoinResult
 \
 _
 (
+StoreTypedElement
+)
+\
+_
+(
 CallPrintString
 )
 \
