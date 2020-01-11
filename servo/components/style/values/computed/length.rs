@@ -2751,6 +2751,7 @@ AllowedNumericType
 :
 NonNegative
 )
+;
 }
 Self
 :
