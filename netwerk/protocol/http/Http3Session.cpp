@@ -1149,7 +1149,7 @@ HasStreamId
 /
 Connection
 has
-nto
+not
 been
 started
 yet
@@ -2379,6 +2379,11 @@ ProcessEvents
 ConnectionClosed
 "
 )
+)
+;
+CloseInternal
+(
+false
 )
 ;
 mState
