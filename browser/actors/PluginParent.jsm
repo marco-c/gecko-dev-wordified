@@ -3102,6 +3102,17 @@ browser
 .
 ownerGlobal
 ;
+if
+(
+!
+window
+.
+PopupNotifications
+)
+{
+return
+;
+}
 let
 notification
 =
