@@ -118,6 +118,9 @@ Separator
 "
 BlockUrl
 "
+"
+ShowPrivacyInfo
+"
 ]
 ;
 /
