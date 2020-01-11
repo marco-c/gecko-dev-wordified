@@ -1359,9 +1359,12 @@ marker
 delegateColor
 )
 ;
-TraceEdge
+TraceWeakMapKeyEdge
 (
 marker
+zone
+(
+)
 &
 key
 "
@@ -1740,9 +1743,12 @@ popFront
 )
 )
 {
-TraceEdge
+TraceWeakMapKeyEdge
 (
 trc
+zone
+(
+)
 &
 e
 .
