@@ -24101,10 +24101,10 @@ config
 HttpBaseChannel
 :
 :
-ConfigureReason
+ReplacementReason
 :
 :
-DocumentChannelReplacement
+DocumentChannel
 )
 ;
 }

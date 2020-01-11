@@ -3107,6 +3107,13 @@ CloneReplacementChannelConfig
 (
 true
 aRedirectFlags
+HttpBaseChannel
+:
+:
+ReplacementReason
+:
+:
+DocumentChannel
 loadFlags
 )
 .
