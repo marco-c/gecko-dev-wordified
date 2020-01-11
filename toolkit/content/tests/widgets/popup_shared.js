@@ -1311,7 +1311,6 @@ checkResult
 }
 }
 }
-async
 function
 checkResult
 (
@@ -1358,7 +1357,6 @@ in
 test
 )
 {
-await
 test
 .
 result
