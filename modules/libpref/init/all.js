@@ -1659,7 +1659,7 @@ errorReporting
 .
 enabled
 "
-true
+false
 )
 ;
 pref
