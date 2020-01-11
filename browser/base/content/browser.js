@@ -17589,6 +17589,16 @@ focusAndSelectUrlBar
 ;
 if
 (
+!
+gURLBar
+.
+view
+.
+maybeReopen
+(
+)
+&
+&
 gURLBar
 .
 openViewOnFocusForCurrentTab
