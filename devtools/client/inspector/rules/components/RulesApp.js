@@ -331,6 +331,13 @@ PropTypes
 func
 .
 isRequired
+onToggleColorSchemeSimulation
+:
+PropTypes
+.
+func
+.
+isRequired
 onTogglePseudoClass
 :
 PropTypes
@@ -1015,6 +1022,13 @@ this
 props
 .
 onTogglePrintSimulation
+onToggleColorSchemeSimulation
+:
+this
+.
+props
+.
+onToggleColorSchemeSimulation
 onTogglePseudoClass
 :
 this
