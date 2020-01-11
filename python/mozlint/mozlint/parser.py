@@ -320,7 +320,7 @@ all
 isinstance
 (
 a
-basestring
+str
 )
 for
 a
@@ -778,7 +778,7 @@ linter
 in
 config
 .
-iteritems
+items
 (
 )
 :

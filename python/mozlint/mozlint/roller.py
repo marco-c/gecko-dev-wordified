@@ -97,6 +97,20 @@ from
 subprocess
 import
 CalledProcessError
+try
+:
+    
+from
+multiprocessing
+import
+get_context
+except
+ImportError
+:
+    
+get_context
+=
+None
 import
 mozpack
 .
@@ -385,6 +399,48 @@ queue
 "
 "
 "
+    
+def
+__init__
+(
+self
+*
+args
+*
+*
+kwargs
+)
+:
+        
+if
+get_context
+:
+            
+kwargs
+[
+'
+ctx
+'
+]
+=
+get_context
+(
+)
+        
+super
+(
+InterruptableQueue
+self
+)
+.
+__init__
+(
+*
+args
+*
+*
+kwargs
+)
     
 def
 get
@@ -708,7 +764,7 @@ if
 isinstance
 (
 paths
-basestring
+str
 )
 :
             
@@ -1430,7 +1486,7 @@ if
 isinstance
 (
 paths
-basestring
+str
 )
 :
             
@@ -2001,7 +2057,7 @@ shutdown
 (
 wait
 =
-False
+True
 )
             
 print

@@ -1775,6 +1775,25 @@ get
 formatter_name
 )
         
+out
+=
+formatter
+(
+result
+)
+        
+if
+sys
+.
+version_info
+[
+0
+]
+=
+=
+2
+:
+            
 #
 Encode
 output
@@ -1786,7 +1805,7 @@ to
 avoid
 UnicodeEncodeErrors
 on
-        
+            
 #
 environments
 that
@@ -1798,7 +1817,7 @@ utf
 -
 8
 .
-        
+            
 out
 =
 formatter

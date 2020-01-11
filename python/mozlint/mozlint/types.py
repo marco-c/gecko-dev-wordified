@@ -88,6 +88,10 @@ files
 import
 FileFinder
 from
+six
+import
+PY2
+from
 .
 import
 result
@@ -662,6 +666,23 @@ payload
 '
 ]
         
+kwargs
+=
+{
+}
+if
+PY2
+else
+{
+'
+errors
+'
+:
+'
+replace
+'
+}
+        
 with
 open
 (
@@ -669,6 +690,9 @@ path
 '
 r
 '
+*
+*
+kwargs
 )
 as
 fh
@@ -984,6 +1008,8 @@ exclusions
 try
 :
             
+next
+(
 expand_exclusions
 (
 files
@@ -995,9 +1021,6 @@ root
 '
 ]
 )
-.
-next
-(
 )
         
 except

@@ -188,7 +188,7 @@ result
 .
 issues
 .
-iteritems
+items
 (
 )
 )

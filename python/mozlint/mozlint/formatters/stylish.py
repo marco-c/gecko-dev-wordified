@@ -665,7 +665,7 @@ result
 .
 issues
 .
-iteritems
+items
 (
 )
 )
