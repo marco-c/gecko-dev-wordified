@@ -14,6 +14,14 @@ have
 the
 same
 size
+;
+skip
+-
+if
+:
+isLcovEnabled
+(
+)
 load
 (
 libdir

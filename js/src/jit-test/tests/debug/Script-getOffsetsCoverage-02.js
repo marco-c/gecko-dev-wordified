@@ -13,6 +13,13 @@ pgo
 =
 off
 ;
+skip
+-
+if
+:
+isLcovEnabled
+(
+)
 /
 /
 This

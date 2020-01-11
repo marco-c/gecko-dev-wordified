@@ -9,6 +9,14 @@ error
 :
 unreachable
 code
+;
+skip
+-
+if
+:
+isLcovEnabled
+(
+)
 function
 f
 (
