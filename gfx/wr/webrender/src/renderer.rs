@@ -870,8 +870,8 @@ picture
 :
 {
 RecordedDirtyRegion
-TILE_SIZE_LARGE
-TILE_SIZE_SMALL
+TILE_SIZE_WIDTH
+TILE_SIZE_HEIGHT
 }
 ;
 use
@@ -12496,8 +12496,14 @@ picture_tile_sizes
 =
 &
 [
-TILE_SIZE_LARGE
-TILE_SIZE_SMALL
+DeviceIntSize
+:
+:
+new
+(
+TILE_SIZE_WIDTH
+TILE_SIZE_HEIGHT
+)
 ]
 ;
 let
