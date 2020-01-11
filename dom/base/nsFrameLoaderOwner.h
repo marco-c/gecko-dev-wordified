@@ -455,6 +455,8 @@ ChangeRemotenessCommon
 (
 bool
 aPreserveContext
+bool
+aSwitchingInProgressLoad
 const
 nsAString
 &

@@ -645,6 +645,8 @@ ReallyStartLoading
 void
 StartDestroy
 (
+bool
+aForProcessSwitch
 )
 ;
 void
@@ -1101,6 +1103,10 @@ reference
 void
 Destroy
 (
+bool
+aForProcessSwitch
+=
+false
 )
 ;
 void

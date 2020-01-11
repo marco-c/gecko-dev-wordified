@@ -9523,6 +9523,7 @@ remoteType
 sameProcessAsFrameLoader
 recordExecution
 replaceBrowsingContext
+redirectLoadSwitchId
 }
 =
 {
@@ -10482,6 +10483,12 @@ changeRemoteness
 {
 remoteType
 replaceBrowsingContext
+switchingInProgressLoad
+:
+redirectLoadSwitchId
+!
+=
+null
 }
 )
 ;
