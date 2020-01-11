@@ -8632,13 +8632,13 @@ necessary
 to
 get
 |
-noOfRows
+aNumberOfRows
 |
 empty
 lines
 *
 *
-noOfRows
+aNumberOfRows
 =
 -
 1
@@ -8653,7 +8653,7 @@ line
 of
 text
 *
-noOfRows
+aNumberOfRows
 =
 0
 :
@@ -8665,7 +8665,7 @@ of
 a
 line
 *
-noOfRows
+aNumberOfRows
 =
 n
 >
@@ -8688,8 +8688,9 @@ nsPlainTextSerializer
 :
 EnsureVerticalSpace
 (
+const
 int32_t
-noOfRows
+aNumberOfRows
 )
 {
 /
@@ -8739,7 +8740,7 @@ line
 .
 if
 (
-noOfRows
+aNumberOfRows
 >
 =
 0
@@ -8771,7 +8772,7 @@ while
 (
 mEmptyLines
 <
-noOfRows
+aNumberOfRows
 )
 {
 EndLine
