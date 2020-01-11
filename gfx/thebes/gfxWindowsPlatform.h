@@ -1067,11 +1067,6 @@ return
 true
 ;
 }
-bool
-SupportsPluginDirectDXGIDrawing
-(
-)
-;
 static
 void
 RecordContentDeviceFailure

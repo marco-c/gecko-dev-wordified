@@ -12258,15 +12258,10 @@ supportsAsyncRender
 supportsForceDirect
 &
 &
-gfxWindowsPlatform
+PluginInstanceParent
 :
 :
-GetPlatform
-(
-)
--
->
-SupportsPluginDirectDXGIDrawing
+SupportsPluginDirectDXGISurfaceDrawing
 (
 )
 )
