@@ -7,7 +7,7 @@ if
 !
 frame
 .
-live
+onStack
 load
 (
 libdir
@@ -50,7 +50,7 @@ assertEq
 (
 frame
 .
-live
+onStack
 true
 )
 ;
@@ -158,7 +158,7 @@ assertEq
 (
 f
 .
-live
+onStack
 false
 )
 ;

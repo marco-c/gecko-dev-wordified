@@ -124,7 +124,7 @@ assertEq
 (
 frame2
 .
-live
+onStack
 true
 )
 ;
@@ -201,7 +201,7 @@ assertEq
 (
 frame2
 .
-live
+onStack
 false
 )
 ;

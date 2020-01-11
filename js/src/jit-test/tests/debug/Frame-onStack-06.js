@@ -2,7 +2,7 @@
 /
 frame
 .
-live
+onStack
 is
 false
 for
@@ -80,7 +80,7 @@ assertEq
 (
 frame
 .
-live
+onStack
 true
 )
 ;
@@ -96,7 +96,7 @@ assertEq
 (
 frame
 .
-live
+onStack
 true
 )
 ;
@@ -118,7 +118,7 @@ assertEq
 (
 savedFrame
 .
-live
+onStack
 false
 )
 ;
@@ -157,7 +157,8 @@ Debugger
 Frame
 is
 not
-live
+on
+stack
 "
 )
 ;

@@ -88,7 +88,7 @@ assertEq
 (
 savedFrame
 .
-live
+onStack
 false
 )
 ;

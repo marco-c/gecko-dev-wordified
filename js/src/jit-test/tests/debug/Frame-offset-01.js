@@ -8,7 +8,7 @@ if
 !
 frame
 .
-live
+onStack
 .
 load
 (
@@ -73,7 +73,7 @@ assertEq
 (
 f
 .
-live
+onStack
 false
 )
 ;

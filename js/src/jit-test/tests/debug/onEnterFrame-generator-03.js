@@ -167,7 +167,7 @@ assertEq
 (
 genFrame
 .
-live
+onStack
 false
 )
 ;

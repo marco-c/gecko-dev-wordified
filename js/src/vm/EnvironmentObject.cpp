@@ -14254,7 +14254,7 @@ JS_ReportErrorNumberASCII
 cx
 GetErrorMessage
 nullptr
-JSMSG_DEBUG_NOT_LIVE
+JSMSG_DEBUG_NOT_ON_STACK
 "
 Debugger
 scope
@@ -14378,7 +14378,7 @@ JS_ReportErrorNumberASCII
 cx
 GetErrorMessage
 nullptr
-JSMSG_DEBUG_NOT_LIVE
+JSMSG_DEBUG_NOT_ON_STACK
 "
 Debugger
 scope
@@ -14732,7 +14732,7 @@ JS_ReportErrorNumberASCII
 cx
 GetErrorMessage
 nullptr
-JSMSG_DEBUG_NOT_LIVE
+JSMSG_DEBUG_NOT_ON_STACK
 "
 Debugger
 env
@@ -14807,7 +14807,7 @@ JS_ReportErrorNumberASCII
 cx
 GetErrorMessage
 nullptr
-JSMSG_DEBUG_NOT_LIVE
+JSMSG_DEBUG_NOT_ON_STACK
 "
 Debugger
 env

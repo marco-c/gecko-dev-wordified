@@ -6,7 +6,7 @@ Frame
 .
 prototype
 .
-live
+onStack
 is
 true
 for
@@ -209,7 +209,7 @@ a
 i
 ]
 .
-live
+onStack
 )
 i
 >

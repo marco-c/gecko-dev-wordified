@@ -4,7 +4,7 @@ If
 !
 frame
 .
-live
+onStack
 frame
 .
 environment
@@ -78,7 +78,7 @@ assertEq
 (
 frame
 .
-live
+onStack
 false
 )
 ;

@@ -170,7 +170,7 @@ assertEq
 (
 fframe
 .
-live
+onStack
 true
 )
 ;
@@ -290,7 +290,7 @@ assertEq
 (
 fframe
 .
-live
+onStack
 false
 )
 ;

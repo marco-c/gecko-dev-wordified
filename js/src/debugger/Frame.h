@@ -1186,7 +1186,7 @@ options
 ;
 MOZ_MUST_USE
 bool
-requireLive
+requireOnStack
 (
 JSContext
 *
@@ -1205,11 +1205,11 @@ cx
 HandleValue
 thisv
 bool
-checkLive
+checkOnStack
 )
 ;
 bool
-isLive
+isOnStack
 (
 )
 const
@@ -1217,7 +1217,7 @@ const
 /
 /
 Like
-isLive
+isOnStack
 but
 works
 even
@@ -1230,7 +1230,7 @@ relocating
 GC
 .
 bool
-isLiveMaybeForwarded
+isOnStackMaybeForwarded
 (
 )
 const
