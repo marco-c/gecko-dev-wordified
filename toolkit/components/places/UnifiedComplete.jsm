@@ -12382,6 +12382,9 @@ getMatches
 this
 .
 _originalSearchString
+this
+.
+_maxResults
 )
 ;
 for
