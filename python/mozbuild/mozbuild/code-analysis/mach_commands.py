@@ -524,6 +524,13 @@ item
 name
 '
 ]
+=
+item
+[
+'
+name
+'
+]
 .
 replace
 (
