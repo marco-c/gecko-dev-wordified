@@ -10412,7 +10412,7 @@ function
 exception
 )
 {
-dumpn
+dump
 (
 "
 Got
