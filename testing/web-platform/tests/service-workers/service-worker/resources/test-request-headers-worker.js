@@ -3,7 +3,7 @@
 Add
 a
 unique
-timestamp
+UUID
 per
 request
 to
@@ -19,7 +19,7 @@ Time
 stamp
 :
 %
-TIMESTAMP
+UUID
 %
 /
 /
