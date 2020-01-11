@@ -470,6 +470,11 @@ aPrincipalHandle
 )
 ;
 void
+ResetAudio
+(
+)
+;
+void
 ResetVideo
 (
 const
