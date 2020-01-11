@@ -167,6 +167,8 @@ requests
 await
 performRequestsAndWait
 (
+monitor
+tab
 )
 ;
 await
@@ -235,6 +237,7 @@ type
 title
 )
 ;
+const
 wait
 =
 waitForDOM
@@ -462,10 +465,15 @@ teardown
 monitor
 )
 ;
+}
+)
+;
 async
 function
 performRequestsAndWait
 (
+monitor
+tab
 )
 {
 const
@@ -507,6 +515,3 @@ await
 wait
 ;
 }
-}
-)
-;

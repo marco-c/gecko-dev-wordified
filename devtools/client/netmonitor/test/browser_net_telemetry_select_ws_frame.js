@@ -303,6 +303,7 @@ displayed
 in
 DevTools
 .
+const
 wait
 =
 waitForDOM

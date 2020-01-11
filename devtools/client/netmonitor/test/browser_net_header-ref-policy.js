@@ -147,6 +147,7 @@ panel
 summary
 is
 displayed
+const
 wait
 =
 waitUntil

@@ -303,6 +303,7 @@ utf
 }
 )
 ;
+const
 wait
 =
 waitForDOM

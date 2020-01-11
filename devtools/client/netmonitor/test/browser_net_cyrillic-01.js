@@ -275,6 +275,7 @@ DA
 }
 )
 ;
+let
 wait
 =
 waitForDOM

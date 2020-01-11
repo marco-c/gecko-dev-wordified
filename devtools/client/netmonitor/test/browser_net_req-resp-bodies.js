@@ -272,6 +272,7 @@ onNetMonitor
 Reload
 debugee
 .
+const
 wait
 =
 waitForNetworkEvents

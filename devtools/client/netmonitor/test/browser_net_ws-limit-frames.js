@@ -254,6 +254,7 @@ message
 notification
 to
 appear
+const
 wait
 =
 waitForDOM

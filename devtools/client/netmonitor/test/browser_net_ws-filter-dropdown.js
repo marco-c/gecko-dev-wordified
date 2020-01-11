@@ -250,6 +250,7 @@ be
 displayed
 in
 DevTools
+let
 wait
 =
 waitForDOM
