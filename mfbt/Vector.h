@@ -5660,16 +5660,14 @@ elements
 from
 |
 aEnd
-+
-1
 |
 onward
 to
 aBegin
 '
 s
-*
 old
+*
 position
 .
 *
