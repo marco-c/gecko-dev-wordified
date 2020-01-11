@@ -2793,7 +2793,7 @@ x
 .
 harness_timeout
 =
-15
+30
 if
 not
 mozinfo
