@@ -3920,6 +3920,15 @@ await
 waitForInspectedWindowFront
 ;
 const
+toolboxEvalOptions
+=
+await
+getToolboxEvalOptions
+(
+context
+)
+;
+const
 evalOptions
 =
 Object
@@ -3931,10 +3940,7 @@ evalResultAsGrip
 :
 true
 }
-getToolboxEvalOptions
-(
-context
-)
+toolboxEvalOptions
 )
 ;
 const
