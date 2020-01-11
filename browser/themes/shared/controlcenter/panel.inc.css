@@ -2225,6 +2225,10 @@ header
 -
 section
 {
+overflow
+:
+hidden
+;
 color
 :
 white
