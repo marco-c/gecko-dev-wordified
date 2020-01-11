@@ -16000,7 +16000,7 @@ custom
 logic
 below
 .
-IMMUTABLE_FLAG_GETTER
+IMMUTABLE_FLAG_GETTER_SETTER_PUBLIC
 (
 hasMappedArgsObj
 HasMappedArgsObj
