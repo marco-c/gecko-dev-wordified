@@ -612,6 +612,8 @@ mEmbedderAccessibleDoc
 ;
 uint64_t
 mEmbedderAccessibleID
+=
+0
 ;
 #
 endif
@@ -621,9 +623,6 @@ defined
 (
 ACCESSIBILITY
 )
-bool
-mIPCOpen
-;
 }
 ;
 }
