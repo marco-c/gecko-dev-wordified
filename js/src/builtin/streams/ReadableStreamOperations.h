@@ -170,6 +170,9 @@ namespace
 js
 {
 class
+PromiseObject
+;
+class
 ReadableStream
 ;
 class
@@ -183,7 +186,7 @@ WritableStream
 ;
 extern
 MOZ_MUST_USE
-JSObject
+PromiseObject
 *
 ReadableStreamTee_Pull
 (

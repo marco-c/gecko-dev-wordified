@@ -581,6 +581,12 @@ using
 js
 :
 :
+PromiseObject
+;
+using
+js
+:
+:
 ReadableStream
 ;
 using
@@ -2440,7 +2446,7 @@ steps
 *
 /
 MOZ_MUST_USE
-JSObject
+PromiseObject
 *
 js
 :
@@ -3020,7 +3026,7 @@ return
 PromiseObject
 :
 :
-unforgeableResolve
+unforgeableResolveWithNonPromise
 (
 cx
 UndefinedHandleValue

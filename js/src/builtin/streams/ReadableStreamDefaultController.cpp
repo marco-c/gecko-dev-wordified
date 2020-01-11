@@ -3088,7 +3088,7 @@ result
 PromiseObject
 :
 :
-unforgeableResolve
+unforgeableResolveWithNonPromise
 (
 cx
 UndefinedHandleValue

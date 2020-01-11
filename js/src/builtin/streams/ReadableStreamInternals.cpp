@@ -1303,7 +1303,7 @@ return
 PromiseObject
 :
 :
-unforgeableResolve
+unforgeableResolveWithNonPromise
 (
 cx
 UndefinedHandleValue

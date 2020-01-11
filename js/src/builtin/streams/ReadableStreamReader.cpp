@@ -821,7 +821,7 @@ readable
 "
 Rooted
 <
-JSObject
+PromiseObject
 *
 >
 promise
@@ -924,7 +924,7 @@ promise
 PromiseObject
 :
 :
-unforgeableResolve
+unforgeableResolveWithNonPromise
 (
 cx
 UndefinedHandleValue
@@ -1081,13 +1081,6 @@ SetSettledPromiseIsHandled
 (
 cx
 promise
-.
-as
-<
-PromiseObject
->
-(
-)
 )
 ;
 }
