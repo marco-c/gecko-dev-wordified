@@ -49212,7 +49212,7 @@ userInputRequiredToCapture
 .
 enabled
 "
-false
+true
 )
 ;
 pref
