@@ -26011,7 +26011,7 @@ mCaps
 NS_HTTP_DISABLE_IPV6
 ;
 }
-nsresult
+NS_IMETHODIMP
 HttpBaseChannel
 :
 :
@@ -26022,7 +26022,7 @@ nsILoadInfo
 :
 CrossOriginEmbedderPolicy
 *
-aResponseEmbedderPolicy
+aOutPolicy
 )
 {
 if
@@ -26087,7 +26087,7 @@ EMBEDDER_POLICY_REQUIRE_CORP
 ;
 }
 *
-aResponseEmbedderPolicy
+aOutPolicy
 =
 policy
 ;
