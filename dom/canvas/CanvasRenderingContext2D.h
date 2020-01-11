@@ -6615,6 +6615,11 @@ mWriteOnly
 bool
 mWriteOnly
 ;
+bool
+mClipsNeedConverting
+=
+false
+;
 }
 ;
 size_t
