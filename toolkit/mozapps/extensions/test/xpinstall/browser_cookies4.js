@@ -355,7 +355,6 @@ browser
 "
 +
 RELATIVE_DIR
-false
 {
 }
 )
