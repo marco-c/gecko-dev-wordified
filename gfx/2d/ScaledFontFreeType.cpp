@@ -591,7 +591,10 @@ flags
 wr
 :
 :
-FontInstanceFlags_SUBPIXEL_POSITION
+FontInstanceFlags
+:
+:
+SUBPIXEL_POSITION
 ;
 }
 options
@@ -602,7 +605,10 @@ flags
 wr
 :
 :
-FontInstanceFlags_EMBEDDED_BITMAPS
+FontInstanceFlags
+:
+:
+EMBEDDED_BITMAPS
 ;
 options
 .
@@ -645,7 +651,10 @@ flags
 wr
 :
 :
-FontInstanceFlags_SYNTHETIC_BOLD
+FontInstanceFlags
+:
+:
+SYNTHETIC_BOLD
 ;
 }
 wr
@@ -764,7 +773,10 @@ flags
 wr
 :
 :
-FontInstanceFlags_SYNTHETIC_BOLD
+FontInstanceFlags
+:
+:
+SYNTHETIC_BOLD
 )
 {
 mApplySyntheticBold

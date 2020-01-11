@@ -2098,7 +2098,10 @@ prim_flags
 wr
 :
 :
-PrimitiveFlags_IS_BACKFACE_VISIBLE
+PrimitiveFlags
+:
+:
+IS_BACKFACE_VISIBLE
 /
 *
 cache_tiles
