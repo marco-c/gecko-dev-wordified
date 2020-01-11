@@ -191,6 +191,10 @@ int
 &
 aLocalPort
 const
+bool
+&
+aUseTls
+const
 LoadInfoArgs
 &
 aLoadInfoArgs

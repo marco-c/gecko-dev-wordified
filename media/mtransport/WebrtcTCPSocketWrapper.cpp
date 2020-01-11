@@ -342,6 +342,8 @@ const
 int
 &
 aLocalPort
+bool
+aUseTls
 const
 shared_ptr
 <
@@ -376,6 +378,7 @@ const
 nsCString
 const
 int
+bool
 const
 shared_ptr
 <
@@ -399,6 +402,7 @@ aHost
 aPort
 aLocalAddress
 aLocalPort
+aUseTls
 aConfig
 )
 )
@@ -435,6 +439,7 @@ aHost
 aPort
 aLocalAddress
 aLocalPort
+aUseTls
 aConfig
 -
 >

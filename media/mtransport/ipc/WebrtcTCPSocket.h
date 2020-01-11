@@ -318,6 +318,8 @@ const
 int
 &
 aLocalPort
+bool
+aUseTls
 const
 net
 :
@@ -429,7 +431,7 @@ nsCString
 mAlpn
 ;
 bool
-mSsl
+mTls
 =
 false
 ;
