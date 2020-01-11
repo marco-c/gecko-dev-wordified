@@ -8843,7 +8843,7 @@ const
 LayerPoint
 &
 aAnchor
-int32_t
+SideBits
 aSides
 )
 {
@@ -9635,7 +9635,7 @@ GetFixedPositionAnchor
 )
 ;
 }
-int32_t
+SideBits
 GetFixedPositionSides
 (
 )

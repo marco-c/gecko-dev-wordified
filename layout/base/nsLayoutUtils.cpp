@@ -12715,7 +12715,7 @@ anchorRect
 y
 )
 ;
-int32_t
+SideBits
 sides
 =
 eSideBitsNone

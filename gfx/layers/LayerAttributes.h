@@ -1153,7 +1153,7 @@ const
 LayerPoint
 &
 aAnchor
-int32_t
+SideBits
 aSides
 )
 {
@@ -1593,7 +1593,7 @@ LayerPoint
 )
 ;
 }
-int32_t
+SideBits
 GetFixedPositionSides
 (
 )
@@ -1842,7 +1842,7 @@ mScrollId
 LayerPoint
 mAnchor
 ;
-int32_t
+SideBits
 mSides
 ;
 }
